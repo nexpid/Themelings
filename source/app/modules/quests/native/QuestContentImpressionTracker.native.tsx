@@ -345,107 +345,168 @@ case 38:
 case 0:
             var1 = arg1;
             var2 = var1.visibilityRef;
-            var5 = var1.entityId;
-            var4 = null;
-            var3 = var4 == var2;
-            var1 = undefined;
-            if(var3) { _fun0006_ip = 40; continue _fun0006 }
+            var3 = var1.entityId;
+            var6 = null;
+            var1 = var6 == var2;
+            var4 = undefined;
+            if(var1) { _fun0006_ip = 40; continue _fun0006 }
 case 41:
-            var3 = var2.current;
-            var6 = var4 == var3;
-            var1 = undefined;
-            if(var6) { _fun0006_ip = 40; continue _fun0006 }
+            var1 = var2.current;
+            var5 = var6 == var1;
+            var4 = undefined;
+            if(var5) { _fun0006_ip = 40; continue _fun0006 }
 case 42:
-            var3 = var3.children;
-            var6 = var4 == var3;
-            var1 = undefined;
-            if(var6) { _fun0006_ip = 40; continue _fun0006 }
+            var1 = var1.children;
+            var5 = var6 == var1;
+            var4 = undefined;
+            if(var5) { _fun0006_ip = 40; continue _fun0006 }
 case 43:
-            var1 = var3[var5];
+            var4 = var1[var3];
 case 40:
-            var5 = var4 == var1;
-            var3 = undefined;
-            if(var5) { _fun0006_ip = 44; continue _fun0006 }
+            var3 = var6 == var4;
+            var1 = undefined;
+            if(var3) { _fun0006_ip = 44; continue _fun0006 }
 case 30:
-            var3 = var1.layout;
+            var1 = var4.layout;
 case 44:
-            if(!(var4 != var3)) { _fun0006_ip = 45; continue _fun0006 }
+            if(!(var6 != var1)) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
-            var5 = var4 == var2;
-            var3 = undefined;
-            if(var5) { _fun0006_ip = 47; continue _fun0006 }
+            var3 = var6 == var2;
+            var1 = undefined;
+            if(var3) { _fun0006_ip = 47; continue _fun0006 }
 case 48:
-            var5 = var2.current;
-            var5 = var5.parent;
-            var6 = var4 == var5;
-            var3 = undefined;
-            if(var6) { _fun0006_ip = 47; continue _fun0006 }
-case 49:
-            var3 = var5.layout;
-case 47:
-            if(!(var4 != var3)) { _fun0006_ip = 45; continue _fun0006 }
-case 50:
-            var5 = var4 == var2;
-            var3 = undefined;
-            if(var5) { _fun0006_ip = 51; continue _fun0006 }
-case 52:
-            var5 = var2.current;
-            var5 = var5.parent;
-            var6 = var4 == var5;
-            var3 = undefined;
-            if(var6) { _fun0006_ip = 51; continue _fun0006 }
-case 53:
-            var3 = var5.scrollY;
-case 51:
-            if(!(var4 != var3)) { _fun0006_ip = 45; continue _fun0006 }
-case 54:
-            var3 = var1.layout;
-            var3 = var3.y;
-            var5 = new Array(2);
-            var5[0] = var3;
-            var3 = var1.layout;
-            var4 = var3.y;
-            var3 = var1.layout;
-            var3 = var3.height;
-            var3 = var4 + var3;
-            var5[1] = var3;
             var3 = var2.current;
             var3 = var3.parent;
-            var4 = var3.scrollY;
+            var5 = var6 == var3;
+            var1 = undefined;
+            if(var5) { _fun0006_ip = 47; continue _fun0006 }
+case 49:
+            var1 = var3.layout;
+case 47:
+            if(!(var6 != var1)) { _fun0006_ip = 45; continue _fun0006 }
+case 50:
+            var1 = var2.current;
+            var1 = var1.axis;
+            var5 = var6 != var1;
+            var3 = 'vertical';
+            if(!var5) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
+            var3 = var1;
+case 51:
+            var1 = 'horizontal';
+            if(!(var1 !== var3)) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
+            var1 = var2.current;
+            var1 = var1.parent;
+            var1 = var1.scrollY;
+            if(!(var6 != var1)) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
+            var1 = var4.layout;
+            var1 = var1.y;
             var3 = new Array(2);
-            var3[0] = var4;
+            var3[0] = var1;
+            var1 = var4.layout;
+            var5 = var1.y;
+            var1 = var4.layout;
+            var1 = var1.height;
+            var1 = var5 + var1;
+            var3[1] = var1;
+            var1 = var2.current;
+            var1 = var1.parent;
+            var5 = var1.scrollY;
+            var1 = new Array(2);
+            var1[0] = var5;
+            var5 = var2.current;
+            var5 = var5.parent;
+            var7 = var5.scrollY;
+            var5 = var2.current;
+            var5 = var5.parent;
+            var5 = var5.layout;
+            var5 = var5.height;
+            var5 = var7 + var5;
+            var1[1] = var5;
+            var5 = var4.layout;
+            var5 = var5.height;
+            _fun0006_ip = 57; continue _fun0006;
+case 55:
+            var7 = 0;
+            return var7;
+case 53:
+            var7 = var2.current;
+            var7 = var7.parent;
+            var7 = var7.scrollX;
+            if(!(var6 != var7)) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
+            var7 = var4.layout;
+            var7 = var7.x;
+            var8 = new Array(2);
+            var8[0] = var7;
+            var7 = var4.layout;
+            var9 = var7.x;
+            var7 = var4.layout;
+            var7 = var7.width;
+            var7 = var9 + var7;
+            var8[1] = var7;
+            var7 = var2.current;
+            var7 = var7.parent;
+            var9 = var7.scrollX;
+            var7 = new Array(2);
+            var7[0] = var9;
+            var9 = var2.current;
+            var9 = var9.parent;
+            var10 = var9.scrollX;
+            var9 = var2.current;
+            var9 = var9.parent;
+            var9 = var9.layout;
+            var9 = var9.width;
+            var9 = var10 + var9;
+            var7[1] = var9;
+            var4 = var4.layout;
+            var5 = var4.width;
+            var3 = var8;
+            var1 = var7;
+case 57:
             var4 = var2.current;
             var4 = var4.parent;
-            var4 = var4.scrollY;
+            var4 = var4.firstItemOffset;
+            if(!(var6 != var4)) { _fun0006_ip = 60; continue _fun0006 }
+case 61:
             var2 = var2.current;
             var2 = var2.parent;
-            var2 = var2.layout;
-            var2 = var2.height;
-            var2 = var4 + var2;
-            var3[1] = var2;
+            var6 = var2.firstItemOffset;
+            var4 = 0;
+            var2 = var3[var4];
+            var2 = var2 + var6;
+            var3[var4] = var2;
+            var4 = 1;
+            var2 = var3[var4];
+            var2 = var2 + var6;
+            var3[var4] = var2;
+case 60:
             var2 = global;
             var9 = var2.Math;
             var8 = var9.max;
             var7 = 0;
-            var6 = var5[var7];
-            var4 = var3[var7];
+            var6 = var3[var7];
+            var4 = var1[var7];
             var8 = var8.bind(var9)(var6, var4);
             var9 = var2.Math;
             var6 = var9.min;
             var4 = 1;
-            var5 = var5[var4];
             var3 = var3[var4];
-            var3 = var6.bind(var9)(var5, var3);
+            var1 = var1[var4];
+            var1 = var6.bind(var9)(var3, var1);
             var6 = var2.Math;
-            var5 = var6.max;
-            var3 = var3 - var8;
-            var5 = var5.bind(var6)(var7, var3);
+            var3 = var6.max;
+            var1 = var1 - var8;
+            var1 = var3.bind(var6)(var7, var1);
             var3 = var2.Math;
             var2 = var3.min;
-            var1 = var1.layout;
-            var1 = var1.height;
-            var1 = var5 / var1;
+            var1 = var1 / var5;
             var1 = var2.bind(var3)(var1, var4);
+            return var1;
+case 58:
+            var1 = 0;
             return var1;
 case 45:
             var1 = 0;
@@ -537,14 +598,14 @@ case 0:
             var10 = 'key';
             var5[9] = var11;
             var5[7] = var9;
-            if(var7) { _fun0007_ip = 55; continue _fun0007 }
-case 56:
+            if(var7) { _fun0007_ip = 53; continue _fun0007 }
+case 62:
             var7 = var1.adCreativeType;
             var1 = 'adCreativeType';
             var5[0] = var7;
             var1 = var5;
-            _fun0007_ip = 57; continue _fun0007;
-case 55:
+            _fun0007_ip = 63; continue _fun0007;
+case 53:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 9;
@@ -555,7 +616,7 @@ case 55:
             var6 = 'adCreativeType';
             var5[5] = var7;
             var1 = var5;
-case 57:
+case 63:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

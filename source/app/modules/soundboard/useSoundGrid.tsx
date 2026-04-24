@@ -608,12 +608,12 @@ case 0:
                                     };
                                     var4 = var4.bind(var5)(var2);
                                     var2 = null;
-                                    if(!(var2 != var4)) { _fun0011_ip = 41; continue _fun0011 }
-case 51:
+                                    if(!(var2 != var4)) { _fun0011_ip = 51; continue _fun0011 }
+case 46:
                                     var2 = _closure4_slot1;
                                     var1 = var3.soundId;
                                     var2[var1] = var3;
-case 41:
+case 51:
                                     var1 = undefined;
                                     return var1;
                                 }

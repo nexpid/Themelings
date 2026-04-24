@@ -106,8 +106,6 @@ case 6:
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['contentTypes'] = var6;
-            var6 = true;
-            var1['bypassAutoDismiss'] = var6;
             var5 = function children(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:

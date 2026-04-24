@@ -142,32 +142,32 @@ case 4:
             }
         };
         var4 = undefined;
-        var13 = var1.bind(var4)();
-        var _closure2_slot0 = var13;
+        var15 = var1.bind(var4)();
+        var _closure2_slot0 = var15;
         var2 = _closure1_slot1;
-        var3 = _closure1_slot2;
+        var8 = _closure1_slot2;
         var1 = 11;
-        var1 = var3[var1];
+        var1 = var8[var1];
         var1 = var2.bind(var4)(var1);
         var1 = var1.bind(var4)();
-        var2 = _closure1_slot0;
+        var6 = _closure1_slot0;
         var1 = 12;
-        var1 = var3[var1];
-        var8 = var2.bind(var4)(var1);
-        var6 = var8.useICYMIEnabled;
+        var1 = var8[var1];
+        var3 = var6.bind(var4)(var1);
+        var2 = var3.useICYMIEnabled;
         var1 = 'TabsNavigator';
-        var12 = var6.bind(var8)(var1);
-        var _closure2_slot1 = var12;
+        var14 = var2.bind(var3)(var1);
+        var _closure2_slot1 = var14;
         var1 = 13;
-        var1 = var3[var1];
-        var2 = var2.bind(var4)(var1);
+        var1 = var8[var1];
+        var2 = var6.bind(var4)(var1);
         var1 = var2.useAccessibilityNativeStackOptions;
-        var11 = var1.bind(var2)();
-        var _closure2_slot2 = var11;
-        var10 = _closure1_slot3;
-        var3 = var10.useMemo;
+        var13 = var1.bind(var2)();
+        var _closure2_slot2 = var13;
+        var12 = _closure1_slot3;
+        var3 = var12.useMemo;
         var2 = new Array(1);
-        var2[0] = var11;
+        var2[0] = var13;
         var1 = function() {
             var1 = {};
             var4 = _closure2_slot2;
@@ -183,25 +183,30 @@ case 4:
             var1[1] = var3;
             return var1;
         };
-        var8 = var3.bind(var10)(var1, var2);
+        var10 = var3.bind(var12)(var1, var2);
         var3 = _closure1_slot9;
         var2 = _closure1_slot5;
         var1 = {};
-        var6 = _closure1_slot4;
-        var6 = var6.absoluteFillObject;
-        var1['style'] = var6;
-        var5 = _closure1_slot12;
-        var6 = var5.Navigator;
+        var5 = _closure1_slot4;
+        var5 = var5.absoluteFillObject;
+        var1['style'] = var5;
+        var5 = 14;
+        var5 = var8[var5];
+        var5 = var6.bind(var4)(var5);
+        var6 = var5.LayerScope;
         var5 = {};
-        var9 = 'tabs';
-        var5['id'] = var9;
-        var5['screenOptions'] = var8;
-        var9 = var10.useMemo;
-        var8 = new Array(3);
-        var8[0] = var13;
-        var8[1] = var12;
-        var8[2] = var11;
-        var7 = function() {
+        var7 = _closure1_slot12;
+        var8 = var7.Navigator;
+        var7 = {};
+        var11 = 'tabs';
+        var7['id'] = var11;
+        var7['screenOptions'] = var10;
+        var11 = var12.useMemo;
+        var10 = new Array(3);
+        var10[0] = var15;
+        var10[1] = var14;
+        var10[2] = var13;
+        var9 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = _closure1_slot11;
@@ -278,7 +283,9 @@ case 8:
                 return var1;
             }
         };
-        var7 = var9.bind(var10)(var7, var8);
+        var9 = var11.bind(var12)(var9, var10);
+        var7['children'] = var9;
+        var7 = var3.bind(var4)(var8, var7);
         var5['children'] = var7;
         var5 = var3.bind(var4)(var6, var5);
         var1['children'] = var5;
@@ -286,7 +293,7 @@ case 8:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

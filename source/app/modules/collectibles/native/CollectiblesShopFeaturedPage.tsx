@@ -54,27 +54,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.shopBlock;
+            var8 = var1.shopBlock;
             var2 = var1.fetchShopHomeError;
+            var4 = var1.framesBannerBlock;
             var1 = _closure1_slot6;
             var5 = undefined;
             var7 = var1.bind(var5)();
             var1 = null;
             if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            if(!(var5 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var5 !== var8)) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var1 = 8;
-            var1 = var8[var1];
+            var1 = var9[var1];
             var2 = var2.bind(var5)(var1);
             var1 = {};
-            var1['block'] = var4;
-            var4 = _closure1_slot4;
-            var4 = var4.FEATURED_PAGE;
-            var1['screen'] = var4;
+            var1['block'] = var8;
+            var8 = _closure1_slot4;
+            var8 = var8.FEATURED_PAGE;
+            var1['screen'] = var8;
+            var1['framesBannerBlock'] = var4;
             var1 = var3.bind(var5)(var2, var1);
             _fun0001_ip = 5; continue _fun0001;
 case 2:

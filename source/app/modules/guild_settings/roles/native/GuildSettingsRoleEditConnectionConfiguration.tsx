@@ -1827,11 +1827,11 @@ case 115:
             var1 = null;
             var14 = var1 != var6;
             var9 = undefined;
-            if(!var14) { _fun0010_ip = 116; continue _fun0010 }
-case 117:
+            if(!var14) { _fun0010_ip = 35; continue _fun0010 }
+case 116:
             var16 = var1 == var18;
             var14 = undefined;
-            if(var16) { _fun0010_ip = 33; continue _fun0010 }
+            if(var16) { _fun0010_ip = 117; continue _fun0010 }
 case 118:
             var17 = var18.find;
             var16 = function(arg1) {
@@ -1852,17 +1852,17 @@ case 78:
                 }
             };
             var14 = var17.bind(var18)(var16);
-case 33:
+case 117:
             var9 = var14;
-case 116:
+case 35:
             var12 = var9;
-            if(!(var1 != var6)) { _fun0010_ip = 37; continue _fun0010 }
-case 24:
+            if(!(var1 != var6)) { _fun0010_ip = 23; continue _fun0010 }
+case 119:
             var6 = var12;
-            if(!(var1 != var6)) { _fun0010_ip = 119; continue _fun0010 }
-case 37:
+            if(!(var1 != var6)) { _fun0010_ip = 120; continue _fun0010 }
+case 23:
             var13 = null;
-case 120: // try_start_0
+case 121: // try_start_0
             var9 = _closure1_slot1;
             var14 = _closure1_slot2;
             var6 = 19;
@@ -1874,11 +1874,11 @@ case 120: // try_start_0
             var6 = var6.configuration;
             var6 = var6.connectionType;
             var13 = var9.bind(var14)(var6);
-case 121: // try_end0
-            _fun0010_ip = 122; continue _fun0010;
+case 122: // try_end0
+            _fun0010_ip = 104; continue _fun0010;
 case 123: // catch_target0
             CatchBlockStart(arg_register=5);
-case 122:
+case 104:
             var6 = global;
             var6 = var6.Map;
             var9 = var6.prototype;
@@ -1940,38 +1940,38 @@ case 129:
             var2 = var3;
             var4 = var1 == var3;
             var3 = undefined;
-            if(var4) { _fun0010_ip = 110; continue _fun0010 }
-case 6:
+            if(var4) { _fun0010_ip = 131; continue _fun0010 }
+case 45:
             var3 = var2.type;
-case 110:
+case 131:
             var2 = _closure1_slot6;
             var2 = var2.STEAM;
-            if(!(var2 !== var3)) { _fun0010_ip = 131; continue _fun0010 }
-case 47:
-            var2 = _closure1_slot6;
-            var2 = var2.TWITTER;
             if(!(var2 !== var3)) { _fun0010_ip = 132; continue _fun0010 }
 case 133:
             var2 = _closure1_slot6;
-            var2 = var2.REDDIT;
+            var2 = var2.TWITTER;
             if(!(var2 !== var3)) { _fun0010_ip = 134; continue _fun0010 }
 case 135:
             var2 = _closure1_slot6;
-            var2 = var2.BLUESKY;
+            var2 = var2.REDDIT;
             if(!(var2 !== var3)) { _fun0010_ip = 136; continue _fun0010 }
 case 137:
             var2 = _closure1_slot6;
+            var2 = var2.BLUESKY;
+            if(!(var2 !== var3)) { _fun0010_ip = 138; continue _fun0010 }
+case 139:
+            var2 = _closure1_slot6;
             var2 = var2.PAYPAL;
-            if(!(var2 !== var3)) { _fun0010_ip = 69; continue _fun0010 }
-case 138:
+            if(!(var2 !== var3)) { _fun0010_ip = 140; continue _fun0010 }
+case 141:
             var2 = _closure1_slot6;
             var2 = var2.EBAY;
-            if(!(var2 !== var3)) { _fun0010_ip = 139; continue _fun0010 }
-case 140:
+            if(!(var2 !== var3)) { _fun0010_ip = 142; continue _fun0010 }
+case 143:
             var2 = _closure1_slot6;
             var2 = var2.TIKTOK;
-            if(!(var2 !== var3)) { _fun0010_ip = 141; continue _fun0010 }
-case 111:
+            if(!(var2 !== var3)) { _fun0010_ip = 144; continue _fun0010 }
+case 145:
             var4 = _closure1_slot11;
             var3 = _closure1_slot25;
             var2 = {};
@@ -1982,8 +1982,8 @@ case 111:
             var9 = 'integration';
             var2[8] = var14;
             var7 = var4.bind(var5)(var3, var2);
-            _fun0010_ip = 142; continue _fun0010;
-case 141:
+            _fun0010_ip = 146; continue _fun0010;
+case 144:
             var4 = _closure1_slot11;
             var3 = _closure1_slot24;
             var2 = {};
@@ -1991,8 +1991,8 @@ case 141:
             var20 = var2;
             var9 = copyDataProperties(var20, var19);
             var7 = var4.bind(var5)(var3, var2);
-            _fun0010_ip = 142; continue _fun0010;
-case 139:
+            _fun0010_ip = 146; continue _fun0010;
+case 142:
             var4 = _closure1_slot11;
             var3 = _closure1_slot23;
             var2 = {};
@@ -2000,8 +2000,8 @@ case 139:
             var20 = var2;
             var9 = copyDataProperties(var20, var19);
             var7 = var4.bind(var5)(var3, var2);
-            _fun0010_ip = 142; continue _fun0010;
-case 69:
+            _fun0010_ip = 146; continue _fun0010;
+case 140:
             var4 = _closure1_slot11;
             var3 = _closure1_slot22;
             var2 = {};
@@ -2009,8 +2009,8 @@ case 69:
             var20 = var2;
             var9 = copyDataProperties(var20, var19);
             var7 = var4.bind(var5)(var3, var2);
-            _fun0010_ip = 142; continue _fun0010;
-case 136:
+            _fun0010_ip = 146; continue _fun0010;
+case 138:
             var4 = _closure1_slot11;
             var3 = _closure1_slot18;
             var2 = {};
@@ -2018,8 +2018,8 @@ case 136:
             var20 = var2;
             var9 = copyDataProperties(var20, var19);
             var7 = var4.bind(var5)(var3, var2);
-            _fun0010_ip = 142; continue _fun0010;
-case 134:
+            _fun0010_ip = 146; continue _fun0010;
+case 136:
             var4 = _closure1_slot11;
             var3 = _closure1_slot21;
             var2 = {};
@@ -2027,8 +2027,8 @@ case 134:
             var20 = var2;
             var9 = copyDataProperties(var20, var19);
             var7 = var4.bind(var5)(var3, var2);
-            _fun0010_ip = 142; continue _fun0010;
-case 132:
+            _fun0010_ip = 146; continue _fun0010;
+case 134:
             var4 = _closure1_slot11;
             var3 = _closure1_slot20;
             var2 = {};
@@ -2036,8 +2036,8 @@ case 132:
             var20 = var2;
             var9 = copyDataProperties(var20, var19);
             var7 = var4.bind(var5)(var3, var2);
-            _fun0010_ip = 142; continue _fun0010;
-case 131:
+            _fun0010_ip = 146; continue _fun0010;
+case 132:
             var4 = _closure1_slot11;
             var3 = _closure1_slot19;
             var2 = {};
@@ -2045,7 +2045,7 @@ case 131:
             var20 = var2;
             var8 = copyDataProperties(var20, var19);
             var7 = var4.bind(var5)(var3, var2);
-case 142:
+case 146:
             var4 = _closure1_slot12;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -2077,7 +2077,7 @@ case 142:
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 119:
+case 120:
             return var1;
 case 114:
             var1 = null;

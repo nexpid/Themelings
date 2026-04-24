@@ -50,33 +50,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.HeroBlockRecord;
+    var4 = var4.FramesBannerBlockRecord;
     var _closure1_slot9 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.ImmersiveBannerBlockRecord;
+    var4 = var4.FramesExperienceBlockRecord;
     var _closure1_slot10 = var4;
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.RewardHeroBlockRecord;
+    var4 = var4.HeroBlockRecord;
     var _closure1_slot11 = var4;
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.ShelfBlockRecord;
+    var4 = var4.ImmersiveBannerBlockRecord;
     var _closure1_slot12 = var4;
     var4 = 11;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SocialLayerStorefrontPromotionalBannerBlockRecord;
+    var4 = var4.RewardHeroBlockRecord;
     var _closure1_slot13 = var4;
     var4 = 12;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.WideBannerBlockRecord;
+    var4 = var4.ShelfBlockRecord;
     var _closure1_slot14 = var4;
+    var4 = 13;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SocialLayerStorefrontPromotionalBannerBlockRecord;
+    var _closure1_slot15 = var4;
+    var4 = 14;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.WideBannerBlockRecord;
+    var _closure1_slot16 = var4;
     var2 = function() {
         var5 = function CollectiblesShopHomeRecord(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -96,7 +106,7 @@ case 0:
                         var5 = var3.type;
                         var6 = _closure1_slot0;
                         var2 = _closure1_slot1;
-                        var7 = 13;
+                        var7 = 15;
                         var4 = var2[var7];
                         var2 = undefined;
                         var4 = var6.bind(var2)(var4);
@@ -168,19 +178,45 @@ case 17:
                         var4 = var4.SOCIAL_LAYER_STOREFRONT_PROMOTIONAL_BANNER;
                         if(!(var4 !== var5)) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
+                        var6 = _closure1_slot0;
+                        var4 = _closure1_slot1;
+                        var4 = var4[var7];
+                        var4 = var6.bind(var2)(var4);
+                        var4 = var4.ShopBlockType;
+                        var4 = var4.FRAMES_BANNER;
+                        if(!(var4 !== var5)) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+                        var6 = _closure1_slot0;
+                        var4 = _closure1_slot1;
+                        var4 = var4[var7];
+                        var4 = var6.bind(var2)(var4);
+                        var4 = var4.ShopBlockType;
+                        var4 = var4.FRAMES_EXPERIENCE;
+                        if(!(var4 !== var5)) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+                        return var2;
+case 22:
+                        var4 = _closure1_slot10;
+                        var2 = var4.fromServer;
+                        var2 = var2.bind(var4)(var3);
+                        return var2;
+case 20:
+                        var4 = _closure1_slot9;
+                        var2 = var4.fromServer;
+                        var2 = var2.bind(var4)(var3);
                         return var2;
 case 18:
-                        var4 = _closure1_slot13;
+                        var4 = _closure1_slot15;
                         var2 = var4.fromServer;
                         var2 = var2.bind(var4)(var3);
                         return var2;
 case 16:
-                        var4 = _closure1_slot11;
+                        var4 = _closure1_slot13;
                         var2 = var4.fromServer;
                         var2 = var2.bind(var4)(var3);
                         return var2;
 case 14:
-                        var4 = _closure1_slot10;
+                        var4 = _closure1_slot12;
                         var2 = var4.fromServer;
                         var2 = var2.bind(var4)(var3);
                         return var2;
@@ -190,12 +226,12 @@ case 12:
                         var2 = var2.bind(var4)(var3);
                         return var2;
 case 10:
-                        var4 = _closure1_slot12;
+                        var4 = _closure1_slot14;
                         var2 = var4.fromServer;
                         var2 = var2.bind(var4)(var3);
                         return var2;
 case 8:
-                        var4 = _closure1_slot14;
+                        var4 = _closure1_slot16;
                         var2 = var4.fromServer;
                         var2 = var2.bind(var4)(var3);
                         return var2;
@@ -210,7 +246,7 @@ case 4:
                         var2 = var2.bind(var4)(var3);
                         return var2;
 case 2:
-                        var2 = _closure1_slot9;
+                        var2 = _closure1_slot11;
                         var1 = var2.fromServer;
                         var1 = var1.bind(var2)(var3);
                         return var1;
@@ -241,8 +277,8 @@ case 2:
                 var2 = null;
                 var5 = var2 == var6;
                 var2 = undefined;
-                if(var5) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+                if(var5) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
                 var5 = var6.map;
                 var4 = function(arg1) {
                     var3 = _closure1_slot5;
@@ -252,7 +288,7 @@ case 21:
                     return var1;
                 };
                 var2 = var5.bind(var6)(var4);
-case 20:
+case 24:
                 var3['userDiscounts'] = var2;
                 return var1;
             }
@@ -281,7 +317,7 @@ case 20:
         return var1;
     };
     var2 = var2.bind(var1)();
-    var4 = 14;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

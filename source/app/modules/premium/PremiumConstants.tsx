@@ -899,6 +899,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var46['CUSTOM_THEMES_UPSELL'] = var5;
     var5 = 'app_icons_inline_upsell';
     var46['APP_ICON_INLINE_UPSELL'] = var5;
+    var5 = 'stream_quality_upsell';
+    var46['STREAM_QUALITY_UPSELL'] = var5;
     var45 = {};
     var45['PREMIUM_TIER_1'] = var10;
     var5 = 'PREMIUM_TIER_1';

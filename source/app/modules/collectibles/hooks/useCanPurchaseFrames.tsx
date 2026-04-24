@@ -131,7 +131,7 @@ case 12:
         }
     };
     var3['default'] = var4;
-    var2 = function useCanViewProfileFramesInCollectiblesShop(arg1) {
+    var4 = function useCanViewProfileFramesInCollectiblesShop(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var8 = arg1;
@@ -165,6 +165,41 @@ case 14:
             return var1;
         }
     };
-    var3['useCanViewProfileFramesInCollectiblesShop'] = var2;
+    var3['useCanViewProfileFramesInCollectiblesShop'] = var4;
+    var2 = function useIsProfileFramesEarlyAccessPhase(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var8 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 2;
+            var1 = var3[var1];
+            var5 = undefined;
+            var4 = var4.bind(var5)(var1);
+            var1 = var4.useIsProfileFramesEnabled;
+            var1 = var1.bind(var4)(var8);
+            var4 = _closure1_slot1;
+            var6 = 3;
+            var3 = var3[var6];
+            var7 = var4.bind(var5)(var3);
+            var4 = var7.useConfig;
+            var3 = {};
+            var3['location'] = var8;
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.bucket;
+            if(!var1) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.ProfileFramesPurchaseBucket;
+            var2 = var2.PAID_PREMIUM_SUBSCRIBERS_ONLY;
+            var1 = var3 === var2;
+case 14:
+            return var1;
+        }
+    };
+    var3['useIsProfileFramesEarlyAccessPhase'] = var2;
     return var1;
 })();

@@ -837,13 +837,13 @@ case 68:
             var1 = var18 != var1;
             var13 = undefined;
             if(!var1) { _fun0006_ip = 70; continue _fun0006 }
-case 71:
+case 28:
             var3 = var18 == var14;
             var1 = undefined;
-            if(var3) { _fun0006_ip = 30; continue _fun0006 }
+            if(var3) { _fun0006_ip = 71; continue _fun0006 }
 case 72:
             var1 = var14.name;
-case 30:
+case 71:
             var13 = var2[var1];
 case 70:
             var3 = _closure1_slot10;

@@ -18,7 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var6 = function showModal(arg1) {
         var1 = arg1;
-        var2 = var1.bountyId;
+        var7 = var1.bountyId;
+        var2 = var1.sourceQuestContent;
         var6 = _closure1_slot1;
         var3 = _closure1_slot2;
         var1 = 0;
@@ -26,16 +27,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         var6 = var6.bind(var1)(var5);
         var5 = var6.pushLazy;
-        var7 = _closure1_slot0;
+        var8 = _closure1_slot0;
         var4 = 2;
         var4 = var3[var4];
-        var7 = var7.bind(var1)(var4);
+        var8 = var8.bind(var1)(var4);
         var4 = 1;
         var4 = var3[var4];
         var3 = var3.paths;
-        var4 = var7.bind(var1)(var4, var3);
+        var4 = var8.bind(var1)(var4, var3);
         var3 = {};
-        var3['bountyId'] = var2;
+        var3['bountyId'] = var7;
+        var3['sourceQuestContent'] = var2;
         var2 = 'BOUNTIES_MODAL';
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;

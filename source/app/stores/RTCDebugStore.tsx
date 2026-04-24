@@ -848,8 +848,8 @@ case 87:
 case 89:
                 var1 = var2 == var6;
                 var5 = undefined;
-                if(var1) { _fun0009_ip = 91; continue _fun0009 }
-case 92:
+                if(var1) { _fun0009_ip = 17; continue _fun0009 }
+case 91:
                 var3 = var6.find;
                 var1 = function(arg1) {
                     var1 = arg1;
@@ -859,31 +859,31 @@ case 92:
                     return var1;
                 };
                 var5 = var3.bind(var6)(var1);
-case 91:
+case 17:
                 var1 = {};
+                var6 = var2 == var5;
+                var3 = undefined;
+                if(var6) { _fun0009_ip = 19; continue _fun0009 }
+case 92:
+                var6 = var5.codec;
+                var3 = var6.name;
+case 19:
+                var1['codec'] = var3;
                 var6 = var2 == var5;
                 var3 = undefined;
                 if(var6) { _fun0009_ip = 93; continue _fun0009 }
 case 94:
-                var6 = var5.codec;
-                var3 = var6.name;
-case 93:
-                var1['codec'] = var3;
-                var6 = var2 == var5;
-                var3 = undefined;
-                if(var6) { _fun0009_ip = 22; continue _fun0009 }
-case 95:
                 var3 = var5.resolution;
-case 22:
+case 93:
                 var1['resolution'] = var3;
                 var1['bitrateEstimate'] = var4;
                 var3 = _closure1_slot27;
                 var6 = var2 == var5;
                 var2 = undefined;
-                if(var6) { _fun0009_ip = 96; continue _fun0009 }
-case 97:
+                if(var6) { _fun0009_ip = 95; continue _fun0009 }
+case 66:
                 var2 = var5.frameRateRender;
-case 96:
+case 95:
                 var2 = var3.bind(var4)(var2);
                 var1['fps'] = var2;
                 return var1;
@@ -907,10 +907,10 @@ case 0:
                 var6 = var2 == var5;
                 var4 = undefined;
                 var8 = undefined;
-                if(var6) { _fun0010_ip = 98; continue _fun0010 }
+                if(var6) { _fun0010_ip = 96; continue _fun0010 }
 case 90:
                 var8 = var5.transport;
-case 98:
+case 96:
                 var1 = var3[var1];
                 var3 = var2 == var1;
                 var6 = undefined;
@@ -920,13 +920,13 @@ case 9:
                 var3 = var2 == var1;
                 var6 = undefined;
                 if(var3) { _fun0010_ip = 4; continue _fun0010 }
-case 99:
+case 97:
                 var6 = var1.outbound;
 case 4:
                 var1 = var2 == var6;
                 var5 = undefined;
-                if(var1) { _fun0010_ip = 100; continue _fun0010 }
-case 101:
+                if(var1) { _fun0010_ip = 88; continue _fun0010 }
+case 98:
                 var3 = var6.find;
                 var1 = function(arg1) {
                     var1 = arg1;
@@ -936,39 +936,39 @@ case 101:
                     return var1;
                 };
                 var5 = var3.bind(var6)(var1);
-case 100:
+case 88:
                 var1 = {};
                 var6 = var2 == var5;
                 var3 = undefined;
-                if(var6) { _fun0010_ip = 102; continue _fun0010 }
-case 19:
+                if(var6) { _fun0010_ip = 99; continue _fun0010 }
+case 100:
                 var6 = var5.codec;
                 var3 = var6.name;
-case 102:
+case 99:
                 var1['codec'] = var3;
                 var6 = var2 == var5;
                 var3 = undefined;
-                if(var6) { _fun0010_ip = 103; continue _fun0010 }
-case 104:
+                if(var6) { _fun0010_ip = 101; continue _fun0010 }
+case 102:
                 var3 = var5.resolution;
-case 103:
+case 101:
                 var1['resolution'] = var3;
                 var7 = _closure1_slot27;
                 var9 = var2 == var8;
                 var6 = undefined;
-                if(var9) { _fun0010_ip = 105; continue _fun0010 }
-case 106:
+                if(var9) { _fun0010_ip = 103; continue _fun0010 }
+case 68:
                 var6 = var8.availableOutgoingBitrate;
-case 105:
+case 103:
                 var6 = var7.bind(var4)(var6);
                 var1['bitrateEstimate'] = var6;
                 var3 = _closure1_slot27;
                 var6 = var2 == var5;
                 var2 = undefined;
-                if(var6) { _fun0010_ip = 107; continue _fun0010 }
-case 28:
+                if(var6) { _fun0010_ip = 104; continue _fun0010 }
+case 105:
                 var2 = var5.frameRateEncode;
-case 107:
+case 104:
                 var2 = var3.bind(var4)(var2);
                 var1['fps'] = var2;
                 return var1;
@@ -984,11 +984,11 @@ case 107:
 case 0:
                 var4 = arguments[0];
                 var1 = undefined;
-                if(!(var4 === var1)) { _fun0011_ip = 108; continue _fun0011 }
-case 109:
+                if(!(var4 === var1)) { _fun0011_ip = 106; continue _fun0011 }
+case 107:
                 var1 = _closure1_slot12;
                 var4 = var1.DEFAULT;
-case 108:
+case 106:
                 var1 = global;
                 var3 = var1.Object;
                 var2 = var3.values;
@@ -1032,12 +1032,12 @@ case 0:
                 var3 = _closure1_slot18;
                 var1 = var3.has;
                 var1 = var1.bind(var3)(var4);
-                if(var1) { _fun0012_ip = 110; continue _fun0012 }
-case 111:
+                if(var1) { _fun0012_ip = 108; continue _fun0012 }
+case 109:
                 var1 = _closure1_slot14;
                 var1 = var1.NO_OVERRIDE;
                 _fun0012_ip = 89; continue _fun0012;
-case 110:
+case 108:
                 var3 = _closure1_slot18;
                 var2 = var3.get;
                 var1 = var2.bind(var3)(var4);
@@ -1063,10 +1063,10 @@ case 0:
             var1 = arg1;
             var2 = var1.section;
             var1 = null;
-            if(!(var1 == var2)) { _fun0013_ip = 108; continue _fun0013 }
-case 112:
+            if(!(var1 == var2)) { _fun0013_ip = 110; continue _fun0013 }
+case 59:
             var2 = _closure1_slot15;
-case 108:
+case 110:
             _closure1_slot16 = var2;
             var1 = undefined;
             return var1;
@@ -1116,19 +1116,19 @@ case 0:
             var4 = _closure1_slot13;
             var4 = var4.CONNECTION_REPLAY;
             var4 = var5.bind(var6)(var4);
-            if(!var4) { _fun0014_ip = 113; continue _fun0014 }
+            if(!var4) { _fun0014_ip = 111; continue _fun0014 }
 case 86:
             var5 = var7.length;
             var4 = 0;
-            if(!(var4 !== var5)) { _fun0014_ip = 113; continue _fun0014 }
-case 114:
+            if(!(var4 !== var5)) { _fun0014_ip = 111; continue _fun0014 }
+case 112:
             var5 = var6.createReplayConnection;
             var4 = _closure1_slot12;
             var4 = var4.DEFAULT;
             var8 = var5.bind(var6)(var4, var7);
             _closure2_slot0 = var8;
             var4 = null;
-            if(!(var4 != var8)) { _fun0014_ip = 113; continue _fun0014 }
+            if(!(var4 != var8)) { _fun0014_ip = 111; continue _fun0014 }
 case 19:
             _closure1_slot22 = var8;
             var7 = var8.on;
@@ -1162,17 +1162,17 @@ case 0:
                     var5 = null;
                     var9 = var5 != var8;
                     var7 = 0;
-                    if(!var9) { _fun0015_ip = 115; continue _fun0015 }
-case 116:
+                    if(!var9) { _fun0015_ip = 113; continue _fun0015 }
+case 114:
                     var7 = var8;
-case 115:
+case 113:
                     var2['videoSsrc'] = var7;
                     var7 = var5 != var6;
                     var5 = '';
-                    if(!var7) { _fun0015_ip = 117; continue _fun0015 }
-case 94:
+                    if(!var7) { _fun0015_ip = 115; continue _fun0015 }
+case 116:
                     var5 = var6;
-case 117:
+case 115:
                     var2['streamId'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
@@ -1196,7 +1196,7 @@ case 117:
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
-case 113:
+case 111:
             return var1;
         }
     };
@@ -1267,8 +1267,8 @@ case 0:
             var2 = arg1;
             var3 = var2.streamId;
             var1 = null;
-            if(!(var1 === var3)) { _fun0017_ip = 118; continue _fun0017 }
-case 112:
+            if(!(var1 === var3)) { _fun0017_ip = 117; continue _fun0017 }
+case 118:
             var5 = _closure1_slot26;
             var4 = var2.userId;
             var3 = var2.context;
@@ -1279,7 +1279,7 @@ case 112:
             var1 = _closure1_slot14;
             var1 = var1.NO_OVERRIDE;
             var1 = var2.bind(var3)(var4, var1);
-case 118:
+case 117:
             var1 = undefined;
             return var1;
         }

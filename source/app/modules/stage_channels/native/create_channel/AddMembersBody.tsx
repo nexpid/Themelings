@@ -938,7 +938,7 @@ case 57:
                     var5 = 'checked';
                     var1[4] = var7;
                     var1 = var4.bind(var3)(var2, var1);
-                    _fun0005_ip = 58; continue _fun0005;
+                    _fun0005_ip = 44; continue _fun0005;
 case 55:
                     var5 = _closure1_slot16;
                     var3 = _closure1_slot1;
@@ -952,7 +952,7 @@ case 55:
                     var14 = var6;
                     var6 = copyDataProperties(var15, var14);
                     var1 = var5.bind(var4)(var3, var2);
-case 58:
+case 44:
                     return var1;
                 }
             };
@@ -968,8 +968,8 @@ case 0:
                     var1 = 0;
                     var2 = var2 > var1;
                     var1 = null;
-                    if(!var2) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
+                    if(!var2) { _fun0008_ip = 58; continue _fun0008 }
+case 59:
                     var5 = _closure1_slot16;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
@@ -984,7 +984,7 @@ case 60:
                     var2['style'] = var7;
                     var2['children'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
-case 59:
+case 58:
                     return var1;
                 }
             };
@@ -993,7 +993,7 @@ case 59:
             var11 = 'always';
             var6['keyboardShouldPersistTaps'] = var11;
             var6 = var7.bind(var4)(var8, var6);
-            _fun0002_ip = 61; continue _fun0002;
+            _fun0002_ip = 60; continue _fun0002;
 case 37:
             var8 = _closure1_slot16;
             var7 = {};
@@ -1028,7 +1028,7 @@ case 37:
             var10 = var8.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var8.bind(var4)(var9, var7);
-case 61:
+case 60:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -44,7 +44,7 @@ case 0:
                 var2 = _closure1_slot10;
                 var3 = var2.CONTEXTUAL_REMINDER_ACTION;
                 var2 = {};
-                var6 = _closure1_slot17;
+                var6 = _closure1_slot14;
                 var6 = var6.IMPRESSION;
                 var2['action'] = var6;
                 var6 = _closure2_slot2;
@@ -53,7 +53,7 @@ case 0:
                 return var1;
             };
             var1 = var3.bind(var4)(var1, var2);
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot17;
             var2 = _closure1_slot6;
             var1 = {};
             var6 = var20.container;
@@ -66,12 +66,12 @@ case 3:
 case 2:
             var5[1] = var6;
             var1['style'] = var5;
-            var8 = _closure1_slot14;
+            var8 = _closure1_slot16;
             var7 = _closure1_slot6;
             var5 = {};
             var6 = var20.iconContainer;
             var5['style'] = var6;
-            var16 = _closure1_slot14;
+            var16 = _closure1_slot16;
             var10 = _closure1_slot0;
             var6 = _closure1_slot2;
             var12 = 14;
@@ -93,12 +93,12 @@ case 2:
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(3);
             var5[0] = var7;
-            var14 = _closure1_slot15;
+            var14 = _closure1_slot17;
             var8 = _closure1_slot6;
             var7 = {};
             var12 = var20.contentContainer;
             var7['style'] = var12;
-            var12 = _closure1_slot14;
+            var12 = _closure1_slot16;
             var19 = 15;
             var6 = var6[var19];
             var6 = var10.bind(var4)(var6);
@@ -120,7 +120,7 @@ case 6:
             var6 = var12.bind(var4)(var10, var6);
             var15 = new Array(2);
             var15[0] = var6;
-            var18 = _closure1_slot14;
+            var18 = _closure1_slot16;
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var6 = 16;
@@ -154,7 +154,7 @@ case 6:
                 var2 = _closure1_slot10;
                 var3 = var2.CONTEXTUAL_REMINDER_ACTION;
                 var2 = {};
-                var7 = _closure1_slot17;
+                var7 = _closure1_slot14;
                 var7 = var7.ACCEPT;
                 var2['action'] = var7;
                 var6 = _closure2_slot2;
@@ -167,7 +167,7 @@ case 6:
             var16['style'] = var20;
             var20 = 'button';
             var16['accessibilityRole'] = var20;
-            var21 = _closure1_slot14;
+            var21 = _closure1_slot16;
             var10 = var10[var19];
             var10 = var12.bind(var4)(var10);
             var20 = var10.Text;
@@ -200,7 +200,7 @@ case 8:
             var7['children'] = var15;
             var7 = var14.bind(var4)(var8, var7);
             var5[1] = var7;
-            var8 = _closure1_slot14;
+            var8 = _closure1_slot16;
             var6 = var12[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.PressableHighlight;
@@ -223,7 +223,7 @@ case 8:
                 var3 = _closure1_slot10;
                 var4 = var3.CONTEXTUAL_REMINDER_ACTION;
                 var3 = {};
-                var7 = _closure1_slot17;
+                var7 = _closure1_slot14;
                 var7 = var7.DISMISS;
                 var3['action'] = var7;
                 var7 = _closure2_slot2;
@@ -246,7 +246,7 @@ case 8:
             var11 = var11.WAI6xu;
             var11 = var13.bind(var14)(var11);
             var6['accessibilityLabel'] = var11;
-            var11 = _closure1_slot14;
+            var11 = _closure1_slot16;
             var9 = 20;
             var9 = var12[var9];
             var9 = var10.bind(var4)(var9);
@@ -261,7 +261,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -315,28 +315,18 @@ case 8:
     var4 = var5.bind(var1)(var4);
     var7 = var4.EventActionLocation;
     var _closure1_slot12 = var7;
-    var4 = var4.EventActionType;
-    var _closure1_slot13 = var4;
+    var7 = var4.EventActionType;
+    var _closure1_slot13 = var7;
+    var7 = var4.NotificationNudgeAnalyticsAction;
+    var _closure1_slot14 = var7;
+    var4 = var4.NotificationNudgeSurface;
+    var _closure1_slot15 = var4;
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot14 = var7;
+    var _closure1_slot16 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot15 = var4;
-    var4 = {};
-    var7 = 'channel_banner';
-    var4['CHANNEL_BANNER'] = var7;
-    var7 = 'post_reaction_banner';
-    var4['POST_REACTION_BANNER'] = var7;
-    var _closure1_slot16 = var4;
-    var4 = {};
-    var7 = 'impression';
-    var4['IMPRESSION'] = var7;
-    var7 = 'dismiss';
-    var4['DISMISS'] = var7;
-    var7 = 'accept';
-    var4['ACCEPT'] = var7;
     var _closure1_slot17 = var4;
     var4 = 10;
     var4 = var6[var4];
@@ -467,8 +457,6 @@ case 22:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot18 = var4;
-    var4 = 604800000;
-    var _closure1_slot19 = var4;
     var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -527,17 +515,17 @@ case 26:
             var1 = var8[var1];
             var1 = var6.bind(var5)(var1);
             var1 = var1.bind(var5)(var4);
-            var16 = !var3;
-            if(!var16) { _fun0003_ip = 27; continue _fun0003 }
+            var17 = !var3;
+            if(!var17) { _fun0003_ip = 27; continue _fun0003 }
 case 28:
-            var16 = !var1;
+            var17 = !var1;
 case 27:
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
             var8 = 17;
             var3 = var1[var8];
             var10 = var4.bind(var5)(var3);
-            var9 = var10.useShouldSeePushNotificationNudge;
+            var9 = var10.useShouldShowPushNotificationNudgeByPromptType;
             var6 = _closure1_slot9;
             var3 = var6.CHANNEL_BANNER;
             var3 = var9.bind(var10)(var3);
@@ -550,10 +538,10 @@ case 27:
             var12 = 'ChatInputNotificationNudge';
             var9['location'] = var12;
             var9 = var10.bind(var11)(var9);
-            var15 = var9.enabled;
+            var16 = var9.enabled;
             var8 = var1[var8];
             var9 = var4.bind(var5)(var8);
-            var8 = var9.useShouldSeePushNotificationNudge;
+            var8 = var9.useShouldShowPushNotificationNudgeByPromptType;
             var6 = var6.POST_REACTION_BANNER;
             var8 = var8.bind(var9)(var6);
             var13 = 24;
@@ -562,7 +550,7 @@ case 27:
             var6 = var9.useSelectedTimeRecurringDismissibleContent;
             var1 = null;
             var4 = null;
-            if(!var16) { _fun0003_ip = 29; continue _fun0003 }
+            if(!var17) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
             var4 = null;
             if(!var3) { _fun0003_ip = 29; continue _fun0003 }
@@ -576,14 +564,14 @@ case 31:
             var4 = var3.NOTIFICATION_NUDGE_CHAT_BOTTOM_BANNER;
 case 29:
             var3 = {};
-            var10 = _closure1_slot19;
-            var3['cooldownDurationMs'] = var10;
-            var21 = var9;
-            var20 = var4;
-            var19 = var3;
-            var18 = undefined;
-            var17 = true;
-            var4 = var21[var6](var20, var19, var18, var17, var16);
+            var15 = 604800000;
+            var3['cooldownDurationMs'] = var15;
+            var22 = var9;
+            var21 = var4;
+            var20 = var3;
+            var19 = undefined;
+            var18 = true;
+            var4 = var22[var6](var21, var20, var19, var18, var17);
             var3 = _closure1_slot3;
             var11 = 2;
             var6 = var3.bind(var5)(var4, var11);
@@ -598,10 +586,10 @@ case 29:
             var13 = var12.bind(var5)(var10);
             var12 = var13.useSelectedTimeRecurringDismissibleContent;
             var10 = null;
-            if(!var16) { _fun0003_ip = 32; continue _fun0003 }
+            if(!var17) { _fun0003_ip = 32; continue _fun0003 }
 case 33:
             var10 = null;
-            if(!var15) { _fun0003_ip = 32; continue _fun0003 }
+            if(!var16) { _fun0003_ip = 32; continue _fun0003 }
 case 34:
             var10 = null;
             if(!var8) { _fun0003_ip = 32; continue _fun0003 }
@@ -609,24 +597,23 @@ case 35:
             var8 = var1 == var4;
             var10 = null;
             if(!var8) { _fun0003_ip = 32; continue _fun0003 }
-case 23:
-            var15 = _closure1_slot0;
-            var16 = _closure1_slot2;
+case 36:
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
             var8 = 25;
-            var8 = var16[var8];
-            var8 = var15.bind(var5)(var8);
+            var8 = var17[var8];
+            var8 = var16.bind(var5)(var8);
             var8 = var8.DismissibleContent;
             var10 = var8.NOTIFICATION_NUDGE_POST_REACTION_BANNER;
 case 32:
             var8 = {};
-            var15 = _closure1_slot19;
             var8['cooldownDurationMs'] = var15;
-            var21 = var13;
-            var20 = var10;
-            var19 = var8;
-            var18 = undefined;
-            var17 = true;
-            var10 = var21[var12](var20, var19, var18, var17, var16);
+            var22 = var13;
+            var21 = var10;
+            var20 = var8;
+            var19 = undefined;
+            var18 = true;
+            var10 = var22[var12](var21, var20, var19, var18, var17);
             var8 = _closure1_slot3;
             var8 = var8.bind(var5)(var10, var11);
             var3 = var8[var3];
@@ -662,8 +649,8 @@ case 32:
             var2 = var10.bind(var5)(var2);
             var2 = var2.DismissibleContent;
             var2 = var2.NOTIFICATION_NUDGE_CHAT_BOTTOM_BANNER;
-            if(!(var4 !== var2)) { _fun0003_ip = 36; continue _fun0003 }
-case 37:
+            if(!(var4 !== var2)) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var9];
@@ -671,10 +658,10 @@ case 37:
             var2 = var2.DismissibleContent;
             var2 = var2.NOTIFICATION_NUDGE_POST_REACTION_BANNER;
             var1 = null;
-            if(!(var3 === var2)) { _fun0003_ip = 38; continue _fun0003 }
-case 39:
-            var4 = _closure1_slot14;
-            var3 = _closure1_slot20;
+            if(!(var3 === var2)) { _fun0003_ip = 39; continue _fun0003 }
+case 40:
+            var4 = _closure1_slot16;
+            var3 = _closure1_slot19;
             var2 = {};
             var9 = _closure1_slot9;
             var9 = var9.POST_REACTION_BANNER;
@@ -682,7 +669,7 @@ case 39:
             var9 = _closure1_slot12;
             var9 = var9.POST_REACTION;
             var2['location'] = var9;
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot15;
             var9 = var9.POST_REACTION_BANNER;
             var2['surface'] = var9;
             var12 = _closure1_slot0;
@@ -700,11 +687,11 @@ case 39:
             var2['body'] = var9;
             var2['onDismiss'] = var8;
             var1 = var4.bind(var5)(var3, var2);
-case 38:
-            _fun0003_ip = 40; continue _fun0003;
-case 36:
-            var4 = _closure1_slot14;
-            var3 = _closure1_slot20;
+case 39:
+            _fun0003_ip = 41; continue _fun0003;
+case 37:
+            var4 = _closure1_slot16;
+            var3 = _closure1_slot19;
             var2 = {};
             var8 = _closure1_slot9;
             var8 = var8.CHANNEL_BANNER;
@@ -712,7 +699,7 @@ case 36:
             var8 = _closure1_slot12;
             var8 = var8.CHANNEL_BANNER;
             var2['location'] = var8;
-            var8 = _closure1_slot16;
+            var8 = _closure1_slot15;
             var8 = var8.CHANNEL_BANNER;
             var2['surface'] = var8;
             var10 = _closure1_slot0;
@@ -730,7 +717,7 @@ case 36:
             var2['body'] = var7;
             var2['onDismiss'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 40:
+case 41:
             return var1;
         }
     };

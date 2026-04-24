@@ -269,6 +269,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13['CLIENT_THEMES'] = var5;
     var5 = 'for-later';
     var13['FOR_LATER'] = var5;
+    var5 = 'stream-high-quality';
+    var13['STREAM_HIGH_QUALITY'] = var5;
     var12 = {};
     var5 = 'ESKERRORDOMAIN0';
     var12['UNKNOWN'] = var5;

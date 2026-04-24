@@ -281,7 +281,7 @@ case 9:
     var2 = {};
     var8 = function handleGetSimilarGamesSuccess(arg1) {
         var1 = arg1;
-        var3 = var1.applicationId;
+        var3 = var1.gameId;
         var2 = var1.games;
         var1 = _closure1_slot5;
         var1[var3] = var2;
@@ -291,7 +291,7 @@ case 9:
     var2['GAME_PROFILE_GET_SIMILAR_GAMES_SUCCESS'] = var8;
     var8 = function handleGetSimilarGamesError(arg1) {
         var1 = arg1;
-        var3 = var1.applicationId;
+        var3 = var1.gameId;
         var2 = var1.error;
         var1 = _closure1_slot6;
         var1[var3] = var2;

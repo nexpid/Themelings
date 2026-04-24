@@ -48,21 +48,21 @@ case 0:
 case 7:
             var18 = false;
 case 6:
-            var17 = var2.inNestedNavigator;
-            if(!(var17 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+            var19 = var2.inNestedNavigator;
+            if(!(var19 === var4)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var17 = false;
+            var19 = false;
 case 8:
             var2 = _closure1_slot9;
             var11 = var2.bind(var4)();
-            var6 = _closure1_slot1;
+            var16 = _closure1_slot1;
             var15 = _closure1_slot2;
             var5 = 21;
             var2 = var15[var5];
-            var3 = var6.bind(var4)(var2);
+            var3 = var16.bind(var4)(var2);
             var2 = 22;
             var2 = var15[var2];
-            var2 = var6.bind(var4)(var2);
+            var2 = var16.bind(var4)(var2);
             var2 = var2.NOTIFICATIONS;
             var2 = var3.bind(var4)(var2);
             var8 = var2.analyticsLocations;
@@ -115,30 +115,37 @@ case 8:
             var10 = _closure1_slot8;
             var9 = _closure1_slot4;
             var8 = {};
-            var16 = var11.container;
+            var17 = var11.container;
             var11 = new Array(2);
-            var11[0] = var16;
+            var11[0] = var17;
             var11[1] = var14;
             var8['style'] = var11;
-            var16 = _closure1_slot7;
+            var17 = _closure1_slot7;
             var14 = _closure1_slot10;
             var11 = {};
             var11['nestedInLaunchPad'] = var18;
-            var11['inNestedNavigator'] = var17;
-            var14 = var16.bind(var4)(var14, var11);
-            var11 = new Array(3);
+            var11['inNestedNavigator'] = var19;
+            var14 = var17.bind(var4)(var14, var11);
+            var11 = new Array(4);
             var11[0] = var14;
             var17 = _closure1_slot7;
             var14 = 26;
+            var14 = var15[var14];
+            var16 = var16.bind(var4)(var14);
+            var14 = {};
+            var14 = var17.bind(var4)(var16, var14);
+            var11[1] = var14;
+            var17 = _closure1_slot7;
+            var14 = 27;
             var14 = var15[var14];
             var14 = var13.bind(var4)(var14);
             var16 = var14.NotificationCenterForYou;
             var14 = {};
             var14['nestedInLaunchPad'] = var18;
             var14 = var17.bind(var4)(var16, var14);
-            var11[1] = var14;
+            var11[2] = var14;
             var14 = _closure1_slot7;
-            var12 = 27;
+            var12 = 28;
             var12 = var15[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.TTIFirstContentfulPaint;
@@ -146,7 +153,7 @@ case 8:
             var15 = 'notifications';
             var12['label'] = var15;
             var12 = var14.bind(var4)(var13, var12);
-            var11[2] = var12;
+            var11[3] = var12;
             var8['children'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var5['children'] = var8;
@@ -163,12 +170,12 @@ case 0:
             var12 = arg1;
             var6 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var2 = 28;
+            var2 = 29;
             var2 = var11[var2];
             var4 = undefined;
             var2 = var6.bind(var4)(var2);
             var10 = var2.bind(var4)();
-            var2 = 29;
+            var2 = 30;
             var2 = var11[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -212,7 +219,7 @@ case 5:
             };
             var5 = var3.bind(var5)(var1, var2);
             var7 = _closure1_slot0;
-            var1 = 30;
+            var1 = 31;
             var1 = var11[var1];
             var3 = var7.bind(var4)(var1);
             var2 = var3.useTrackTabPerformance;
@@ -224,7 +231,7 @@ case 5:
             var1 = {};
             var1['style'] = var5;
             var8 = _closure1_slot7;
-            var5 = 31;
+            var5 = 32;
             var5 = var11[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -234,7 +241,7 @@ case 5:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot7;
-            var6 = 32;
+            var6 = 33;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.ThemeContextProvider;
@@ -629,7 +636,7 @@ case 16:
     };
     var7 = var10.bind(var11)(var7);
     var _closure1_slot10 = var7;
-    var7 = 33;
+    var7 = 34;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

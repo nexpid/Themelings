@@ -122,7 +122,7 @@ case 0:
             if(var1) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
             if(!(var3 !== var2)) { _fun0003_ip = 7; continue _fun0003 }
-case 6:
+case 9:
             var2 = undefined;
             return var2;
 case 7:

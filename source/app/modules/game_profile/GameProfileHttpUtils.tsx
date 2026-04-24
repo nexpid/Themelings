@@ -212,7 +212,7 @@ case 21:
                     var3 = {};
                     var9 = 'GAME_PROFILE_GET_SIMILAR_GAMES_SUCCESS';
                     var3['type'] = var9;
-                    var3['applicationId'] = var8;
+                    var3['gameId'] = var8;
                     var3['games'] = var7;
                     var3 = var4.bind(var6)(var3);
 case 22: // try_end0
@@ -325,7 +325,7 @@ case 30:
 case 31:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
                     if(var7) { _fun0003_ip = 32; continue _fun0003 }
-case 17:
+case 33:
                     var13 = var4.body;
                     var10 = var13;
                     var8 = _closure1_slot1;
@@ -350,26 +350,26 @@ case 17:
                     var14 = var13;
                     var15 = var12 != var13;
                     var13 = undefined;
-                    if(!var15) { _fun0003_ip = 33; continue _fun0003 }
-case 34:
+                    if(!var15) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
                     var13 = var14;
-case 33:
+case 34:
                     var7['channelId'] = var13;
                     var10 = var10.guild_id;
                     var11 = var10;
                     var12 = var12 != var10;
                     var10 = undefined;
-                    if(!var12) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+                    if(!var12) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
                     var10 = var11;
-case 35:
+case 36:
                     var7['guildId'] = var10;
                     var7 = var8.bind(var9)(var7);
-case 37: // try_end0
-                    _fun0003_ip = 38; continue _fun0003;
+case 38: // try_end0
+                    _fun0003_ip = 39; continue _fun0003;
 case 32:
                     return var4;
-case 39: // catch_target0
+case 40: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -381,7 +381,7 @@ case 39: // catch_target0
                     var3['type'] = var7;
                     var3['gameId'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 38:
+case 39:
                     return var2;
 case 24:
                     return var1;

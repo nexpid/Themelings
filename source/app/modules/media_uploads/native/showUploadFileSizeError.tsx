@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'Over Max Size';
     var4['OVER_MAX_SIZE'] = var7;
     var _closure1_slot11 = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -132,7 +132,15 @@ case 7:
 case 5:
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var9 = 7;
+            var19 = 7;
+            var8 = var3[var19];
+            var11 = var6.bind(var1)(var8);
+            var9 = var11.getKestrelConfig;
+            var8 = {};
+            var17 = 'native.showUploadFileSizeError';
+            var8['location'] = var17;
+            var18 = var9.bind(var11)(var8);
+            var9 = 8;
             var3 = var3[var9];
             var11 = var6.bind(var1)(var3);
             var8 = var11.trackWithMetadata;
@@ -156,6 +164,13 @@ case 10:
             var16 = var17.ERROR_SOURCE_UNKNOWN;
 case 9:
             var3['error_type'] = var16;
+            var17 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var16 = var16[var19];
+            var17 = var17.bind(var1)(var16);
+            var16 = var17.getKestrelVariantName;
+            var16 = var16.bind(var17)(var18);
+            var3['kestrel_variant'] = var16;
             var3 = var8.bind(var11)(var6, var3);
             var8 = 0;
             if(var14) { _fun0001_ip = 11; continue _fun0001 }
@@ -179,14 +194,14 @@ case 17:
             var13 = var5;
 case 16:
             var5 = new Array(0);
+            var22 = var5;
+            var21 = var13;
+            var20 = 0;
+            var13 = arraySpread(var22, var21, var20);
+            var22 = var6;
             var21 = var5;
-            var20 = var13;
-            var19 = 0;
-            var13 = arraySpread(var21, var20, var19);
-            var21 = var6;
-            var20 = var5;
-            var19 = var7;
-            var3 = apply(var21, var20, var19);
+            var20 = var7;
+            var3 = apply(var22, var21, var20);
 case 13:
             var8 = var3;
 case 11:
@@ -213,7 +228,7 @@ case 20:
 case 23:
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 8;
+            var6 = 9;
             var6 = var13[var6];
             var6 = var7.bind(var1)(var6);
             var6 = var6.MAX_TOTAL_ATTACHMENT_SIZE;
@@ -257,7 +272,7 @@ case 30:
             var6['is_premium'] = var14;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var14 = 9;
+            var14 = 10;
             var14 = var16[var14];
             var15 = var15.bind(var1)(var14);
             var14 = var15.getImageCompressionQuality;
@@ -271,13 +286,13 @@ case 30:
 case 32:
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var3 = 10;
+            var3 = 11;
             var3 = var14[var3];
             var7 = var13.bind(var1)(var3);
             var6 = var7.handleShowUpsellAlert;
             var3 = {};
             var15 = _closure1_slot0;
-            var9 = 11;
+            var9 = 12;
             var9 = var14[var9];
             var9 = var15.bind(var1)(var9);
             var9 = var9.UpsellTypes;
@@ -289,11 +304,11 @@ case 32:
             var9['section'] = var15;
             var3['analyticsLocation'] = var9;
             var9 = new Array(1);
-            var21 = var9;
-            var20 = var12;
-            var19 = 0;
-            var12 = arraySpread(var21, var20, var19);
-            var11 = 12;
+            var22 = var9;
+            var21 = var12;
+            var20 = 0;
+            var12 = arraySpread(var22, var21, var20);
+            var11 = 13;
             var11 = var14[var11];
             var11 = var13.bind(var1)(var11);
             var11 = var11.FILE_UPLOAD_POPOUT;
@@ -316,7 +331,7 @@ case 31:
 case 35:
             var8 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var4 = 13;
+            var4 = 14;
             var6 = var3[var4];
             var6 = var8.bind(var1)(var6);
             var7 = var6.intl;
@@ -339,7 +354,7 @@ case 35:
 case 37:
             var6 = var4.fxEKdS;
             var5 = {};
-            var9 = 14;
+            var9 = 15;
             var11 = var14[var9];
             var12 = var13.bind(var1)(var11);
             var11 = var12.formatSize;
@@ -357,11 +372,11 @@ case 37:
 case 36:
             var6 = var4.tUOJdH;
             var4 = {};
-            var9 = 14;
+            var9 = 15;
             var10 = var14[var9];
             var12 = var13.bind(var1)(var10);
             var11 = var12.formatSize;
-            var10 = 8;
+            var10 = 9;
             var10 = var14[var10];
             var10 = var13.bind(var1)(var10);
             var10 = var10.MAX_TOTAL_ATTACHMENT_SIZE;
@@ -381,7 +396,7 @@ case 38:
 case 34:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var4 = 13;
+            var4 = 14;
             var3 = var10[var4];
             var3 = var9.bind(var1)(var3);
             var8 = var3.intl;
@@ -403,7 +418,7 @@ case 34:
 case 39:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 15;
+            var2 = 16;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.show;

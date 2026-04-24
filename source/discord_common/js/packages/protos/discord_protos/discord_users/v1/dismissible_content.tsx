@@ -1630,10 +1630,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['ACCOUNT_LINK_INVITE_FRIENDS'] = var2;
     var1 = 'ACCOUNT_LINK_INVITE_FRIENDS';
     var4[var2] = var1;
-    var2 = 602;
-    var4['POST_ACCOUNT_CONNECTION_RTC_POPOVER'] = var2;
-    var1 = 'POST_ACCOUNT_CONNECTION_RTC_POPOVER';
-    var4[var2] = var1;
     var2 = 603;
     var4['HALLOWEEN_APP_ICONS_APPEARANCE_SETTINGS_WEB_BADGE'] = var2;
     var1 = 'HALLOWEEN_APP_ICONS_APPEARANCE_SETTINGS_WEB_BADGE';
@@ -2177,6 +2173,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 744;
     var4['PREMIUM_GROUP_GIFT_SELECTION_UPSELL'] = var2;
     var1 = 'PREMIUM_GROUP_GIFT_SELECTION_UPSELL';
+    var4[var2] = var1;
+    var2 = 745;
+    var4['COLLECTIBLES_PROFILE_FRAMES_ANNOUNCEMENT'] = var2;
+    var1 = 'COLLECTIBLES_PROFILE_FRAMES_ANNOUNCEMENT';
+    var4[var2] = var1;
+    var2 = 746;
+    var4['NOTIFICATION_NUDGE_NOTIFICATION_CENTER_BANNER'] = var2;
+    var1 = 'NOTIFICATION_NUDGE_NOTIFICATION_CENTER_BANNER';
     var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;

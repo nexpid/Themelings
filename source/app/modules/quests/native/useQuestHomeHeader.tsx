@@ -56,10 +56,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;
+            var4 = arg2;
             var1 = {};
             var2 = {'width': null, 'flexDirection': 'row', 'alignItems': 'center'};
             var6 = undefined;
-            var4 = arg2;
             var3 = undefined;
             if(!var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -69,15 +69,27 @@ case 2:
             var3 = undefined;
             if(!var5) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var7 = 7;
+            var7 = var9[var7];
+            var7 = var8.bind(var6)(var7);
+            var7 = var7.spacing;
+            var3 = var7.PX_8;
+case 4:
+            var2['marginTop'] = var3;
+            var3 = undefined;
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 7;
             var4 = var8[var4];
             var4 = var7.bind(var6)(var4);
             var4 = var4.spacing;
-            var3 = var4.PX_8;
-case 4:
-            var2['marginTop'] = var3;
+            var3 = var4.PX_4;
+case 6:
+            var2['paddingLeft'] = var3;
             var8 = _closure1_slot1;
             var3 = _closure1_slot2;
             var7 = 7;
@@ -98,15 +110,15 @@ case 4:
             var3 = var3.PX_8;
             var2['gap'] = var3;
             var3 = undefined;
-            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
             var4 = var4.spacing;
             var3 = var4.PX_8;
-case 6:
+case 8:
             var2['marginTop'] = var3;
             var1['headerRightContainer'] = var2;
             return var1;
@@ -343,8 +355,8 @@ case 0:
             var1 = {};
             var5 = var5.headerRightContainer;
             var1['style'] = var5;
-            if(!var7) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+            if(!var7) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var10 = _closure1_slot8;
             var8 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -356,7 +368,7 @@ case 9:
             var5['balance'] = var12;
             var5['onPress'] = var11;
             var7 = var10.bind(var4)(var8, var5);
-case 8:
+case 10:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot8;
@@ -392,7 +404,7 @@ case 0:
             var4 = var4.SUGGESTED;
             var4 = var8 !== var4;
             if(var3) { _fun0003_ip = 4; continue _fun0003 }
-case 10:
+case 12:
             var3 = var4;
 case 4:
             var6 = _closure1_slot1;
@@ -402,18 +414,18 @@ case 4:
             var4 = undefined;
             var5 = var6.bind(var4)(var5);
             var5 = var5.colors;
-            if(var3) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-            var12 = var5.INTERACTIVE_TEXT_DEFAULT;
-            _fun0003_ip = 13; continue _fun0003;
-case 11:
-            var12 = var5.WHITE;
-case 13:
-            var6 = 'tertiary';
-            if(!var3) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-            var6 = 'primary';
+            if(var3) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
+            var12 = var5.INTERACTIVE_TEXT_DEFAULT;
+            _fun0003_ip = 15; continue _fun0003;
+case 13:
+            var12 = var5.WHITE;
+case 15:
+            var6 = 'tertiary';
+            if(!var3) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            var6 = 'primary';
+case 16:
             var7 = _closure1_slot3;
             var5 = var7.useCallback;
             var3 = new Array(4);
@@ -546,10 +558,10 @@ case 14:
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var2 = _closure2_slot5;
-                if(var2) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                if(var2) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                 var2 = _closure2_slot6;
-case 16:
+case 18:
                 var _closure3_slot0 = var2;
                 var3 = _closure2_slot4;
                 var2 = var3.setOptions;

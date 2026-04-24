@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot13;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot13;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,84 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot13 = var1;
+    var1 = function VoiceMessageIcon() {
+        var1 = _closure1_slot11;
+        var4 = undefined;
+        var9 = var1.bind(var4)();
+        var11 = _closure1_slot0;
+        var13 = _closure1_slot2;
+        var2 = 5;
+        var1 = var13[var2];
+        var7 = var11.bind(var4)(var1);
+        var5 = var7.useToken;
+        var6 = _closure1_slot1;
+        var1 = 6;
+        var3 = var13[var1];
+        var3 = var6.bind(var4)(var3);
+        var3 = var3.colors;
+        var3 = var3.BACKGROUND_MOD_STRONG;
+        var16 = var5.bind(var7)(var3);
+        var2 = var13[var2];
+        var3 = var11.bind(var4)(var2);
+        var2 = var3.useToken;
+        var1 = var13[var1];
+        var1 = var6.bind(var4)(var1);
+        var1 = var1.colors;
+        var1 = var1.BACKGROUND_MOD_SUBTLE;
+        var15 = var2.bind(var3)(var1);
+        var3 = _closure1_slot8;
+        var2 = _closure1_slot9;
+        var1 = {};
+        var7 = _closure1_slot7;
+        var8 = 7;
+        var5 = var13[var8];
+        var6 = var6.bind(var4)(var5);
+        var5 = {'width': '100%', 'height': '100%', 'viewBox': '0 0 64 61', 'fill': 'none'};
+        var14 = _closure1_slot7;
+        var8 = var13[var8];
+        var8 = var11.bind(var4)(var8);
+        var12 = var8.Path;
+        var8 = {};
+        var17 = 'M22.2188 59.8545C19.5607 61.6263 16.0003 59.7208 16 56.5264V48C7.16344 48 2.5772e-07 40.8366 0 32V16C0 7.16344 7.16344 0 16 0H48C56.8366 0 64 7.16344 64 16V32C64 40.8366 56.8366 48 48 48H40L22.2188 59.8545Z';
+        var8['d'] = var17;
+        var8['fill'] = var16;
+        var8['stroke'] = var15;
+        var8 = var14.bind(var4)(var12, var8);
+        var5['children'] = var8;
+        var6 = var7.bind(var4)(var6, var5);
+        var5 = new Array(2);
+        var5[0] = var6;
+        var8 = _closure1_slot8;
+        var7 = _closure1_slot4;
+        var6 = {};
+        var9 = var9.voiceMessageIconOverlay;
+        var6['style'] = var9;
+        var14 = _closure1_slot7;
+        var9 = 8;
+        var9 = var13[var9];
+        var9 = var11.bind(var4)(var9);
+        var12 = var9.CirclePlayIcon;
+        var9 = {'size': 'md', 'color': 'background-brand', 'secondaryColor': 'white'};
+        var12 = var14.bind(var4)(var12, var9);
+        var9 = new Array(2);
+        var9[0] = var12;
+        var12 = _closure1_slot7;
+        var10 = 9;
+        var10 = var13[var10];
+        var10 = var11.bind(var4)(var10);
+        var11 = var10.WaveformIcon;
+        var10 = {'size': 'md', 'color': 'background-brand'};
+        var10 = var12.bind(var4)(var11, var10);
+        var9[1] = var10;
+        var6['children'] = var9;
+        var6 = var8.bind(var4)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot14 = var1;
     var1 = function getBasePreviewableMedia(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -196,12 +273,12 @@ case 0:
             if(!(var4 > var3)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
             var5 = var2.hasFlag;
-            var4 = _closure1_slot5;
+            var4 = _closure1_slot6;
             var4 = var4.IS_VOICE_MESSAGE;
             var4 = var5.bind(var2)(var4);
             if(var4) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot12;
             var4 = var2.attachments;
             var19 = undefined;
             var18 = var5.bind(var19)(var4);
@@ -211,11 +288,11 @@ case 39:
             var16 = global;
             var15 = '';
             var14 = '-';
-            var12 = 3;
+            var12 = 8;
             var11 = 'lg';
-            var10 = 5;
+            var10 = 11;
             var9 = 6;
-            var8 = 4;
+            var8 = 10;
             if(var4) { _fun0004_ip = 36; continue _fun0004 }
 case 40:
             var21 = var5.value;
@@ -245,7 +322,7 @@ case 44:
             var20 = var1.push;
             var4 = {};
             var24 = var21.id;
-            var22 = _closure1_slot7;
+            var22 = _closure1_slot10;
             if(var23) { _fun0004_ip = 45; continue _fun0004 }
 case 46:
             var25 = var22.FILE;
@@ -253,11 +330,11 @@ case 46:
             var23 = var23.concat;
             var23 = var23.bind(var15)(var24, var14, var25);
             var4['id'] = var23;
-            var23 = _closure1_slot7;
+            var23 = _closure1_slot10;
             var23 = var23.FILE;
             var4['type'] = var23;
             var4['media'] = var21;
-            var26 = _closure1_slot6;
+            var26 = _closure1_slot7;
             var25 = _closure1_slot0;
             var27 = _closure1_slot2;
             var23 = var27[var10];
@@ -287,11 +364,11 @@ case 45:
             var22 = var22.concat;
             var22 = var22.bind(var15)(var24, var14, var23);
             var4['id'] = var22;
-            var22 = _closure1_slot7;
+            var22 = _closure1_slot10;
             var22 = var22.AUDIO;
             var4['type'] = var22;
             var4['media'] = var21;
-            var24 = _closure1_slot6;
+            var24 = _closure1_slot7;
             var23 = _closure1_slot0;
             var22 = _closure1_slot2;
             var22 = var22[var12];
@@ -312,13 +389,13 @@ case 43:
             var20 = var1.push;
             var4 = {};
             var24 = var21.id;
-            var22 = _closure1_slot7;
+            var22 = _closure1_slot10;
             var23 = var22.VIDEO;
             var22 = var16.HermesInternal;
             var22 = var22.concat;
             var22 = var22.bind(var15)(var24, var14, var23);
             var4['id'] = var22;
-            var22 = _closure1_slot7;
+            var22 = _closure1_slot10;
             var22 = var22.VIDEO;
             var4['type'] = var22;
             var4['media'] = var21;
@@ -334,13 +411,13 @@ case 41:
             var20 = var1.push;
             var4 = {};
             var24 = var21.id;
-            var22 = _closure1_slot7;
+            var22 = _closure1_slot10;
             var23 = var22.IMAGE;
             var22 = var16.HermesInternal;
             var22 = var22.concat;
             var22 = var22.bind(var15)(var24, var14, var23);
             var4['id'] = var22;
-            var22 = _closure1_slot7;
+            var22 = _closure1_slot10;
             var22 = var22.IMAGE;
             var4['type'] = var22;
             var4['media'] = var21;
@@ -364,7 +441,7 @@ case 38:
             var5 = var1.push;
             var4 = {};
             var13 = var8.id;
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot10;
             var12 = var9.VOICE_MESSAGE;
             var9 = global;
             var9 = var9.HermesInternal;
@@ -373,20 +450,15 @@ case 38:
             var9 = '-';
             var9 = var11.bind(var10)(var13, var9, var12);
             var4['id'] = var9;
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot10;
             var9 = var9.VOICE_MESSAGE;
             var4['type'] = var9;
             var4['media'] = var8;
-            var10 = _closure1_slot6;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var7 = 3;
-            var7 = var9[var7];
-            var9 = undefined;
-            var7 = var8.bind(var9)(var7);
-            var8 = var7.CirclePlayIcon;
-            var7 = {'size': 'lg', 'color': 'background-brand', 'secondaryColor': 'white'};
-            var7 = var10.bind(var9)(var8, var7);
+            var10 = _closure1_slot7;
+            var9 = _closure1_slot14;
+            var8 = undefined;
+            var7 = {};
+            var7 = var10.bind(var8)(var9, var7);
             var4['icon'] = var7;
             var7 = null;
             if(!var6) { _fun0004_ip = 57; continue _fun0004 }
@@ -396,7 +468,7 @@ case 57:
             var4['parentType'] = var7;
             var4 = var5.bind(var1)(var4);
 case 36:
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot12;
             var4 = var2.embeds;
             var14 = undefined;
             var11 = var5.bind(var14)(var4);
@@ -410,20 +482,20 @@ case 36:
 case 60:
             var16 = var10.value;
             var15 = var16.type;
-            var7 = _closure1_slot4;
+            var7 = _closure1_slot5;
             var7 = var7.GIFV;
             if(!(var15 === var7)) { _fun0004_ip = 61; continue _fun0004 }
 case 62:
             var15 = var1.push;
             var7 = {};
             var19 = var16.id;
-            var17 = _closure1_slot7;
+            var17 = _closure1_slot10;
             var18 = var17.GIF;
             var17 = var9.HermesInternal;
             var17 = var17.concat;
             var17 = var17.bind(var13)(var19, var12, var18);
             var7['id'] = var17;
-            var17 = _closure1_slot7;
+            var17 = _closure1_slot10;
             var17 = var17.GIF;
             var7['type'] = var17;
             var7['media'] = var16;
@@ -449,13 +521,13 @@ case 66:
             var3 = var1.push;
             var2 = {};
             var11 = var7.id;
-            var10 = _closure1_slot7;
+            var10 = _closure1_slot10;
             var10 = var10.STICKER;
             var9 = var9.HermesInternal;
             var9 = var9.concat;
             var9 = var9.bind(var13)(var11, var12, var10);
             var2['id'] = var9;
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot10;
             var8 = var8.STICKER;
             var2['type'] = var8;
             var2['media'] = var7;
@@ -470,7 +542,7 @@ case 65:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -488,32 +560,64 @@ case 65:
     var4 = 1;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var5 = var4.MessageEmbedTypes;
-    var _closure1_slot4 = var5;
-    var4 = var4.MessageFlags;
-    var _closure1_slot5 = var4;
+    var5 = var4.StyleSheet;
+    var4 = var4.View;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var4 = var4.jsx;
+    var8 = var4.MessageEmbedTypes;
+    var _closure1_slot5 = var8;
+    var4 = var4.MessageFlags;
     var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot7 = var8;
+    var8 = var4.jsxs;
+    var _closure1_slot8 = var8;
+    var4 = var4.Fragment;
+    var _closure1_slot9 = var4;
     var4 = {};
-    var5 = 'image';
-    var4['IMAGE'] = var5;
-    var5 = 'video';
-    var4['VIDEO'] = var5;
-    var5 = 'audio';
-    var4['AUDIO'] = var5;
-    var5 = 'file';
-    var4['FILE'] = var5;
-    var5 = 'sticker';
-    var4['STICKER'] = var5;
-    var5 = 'gif';
-    var4['GIF'] = var5;
-    var5 = 'voice_message';
-    var4['VOICE_MESSAGE'] = var5;
-    var _closure1_slot7 = var4;
-    var5 = 8;
+    var8 = 'image';
+    var4['IMAGE'] = var8;
+    var8 = 'video';
+    var4['VIDEO'] = var8;
+    var8 = 'audio';
+    var4['AUDIO'] = var8;
+    var8 = 'file';
+    var4['FILE'] = var8;
+    var8 = 'sticker';
+    var4['STICKER'] = var8;
+    var8 = 'gif';
+    var4['GIF'] = var8;
+    var8 = 'voice_message';
+    var4['VOICE_MESSAGE'] = var8;
+    var _closure1_slot10 = var4;
+    var8 = 4;
+    var8 = var7[var8];
+    var10 = var6.bind(var1)(var8);
+    var9 = var10.createStyles;
+    var8 = {};
+    var11 = {};
+    var14 = var5.absoluteFillObject;
+    var15 = var11;
+    var5 = copyDataProperties(var15, var14);
+    var12 = 'row';
+    var5 = 'flexDirection';
+    var11[4] = var12;
+    var12 = 'center';
+    var5 = 'alignItems';
+    var11[4] = var12;
+    var5 = 'justifyContent';
+    var11[4] = var12;
+    var5 = 13;
+    var12 = 'paddingBottom';
+    var11[11] = var5;
+    var8['voiceMessageIconOverlay'] = var11;
+    var8 = var9.bind(var10)(var8);
+    var _closure1_slot11 = var8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -531,7 +635,7 @@ case 65:
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var1 = new Array(0);
-                var5 = _closure1_slot10;
+                var5 = _closure1_slot15;
                 var3 = {};
                 var7 = _closure2_slot0;
                 var3['message'] = var7;
@@ -551,7 +655,7 @@ case 0:
                 var3 = apply(var12, var11, var10);
                 var8 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var3 = 7;
+                var3 = 12;
                 var3 = var9[var3];
                 var3 = var8.bind(var4)(var3);
                 var3 = var3.bind(var4)(var7);
@@ -562,7 +666,7 @@ case 70:
                 var3 = var3.length;
                 if(!(var3 > var5)) { _fun0005_ip = 69; continue _fun0005 }
 case 71:
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot15;
                 var2 = {};
                 var6 = _closure2_slot0;
                 var6 = var6.messageSnapshots;

@@ -1021,10 +1021,10 @@ case 0:
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
                 var3 = var1 != var2;
-                if(!var3) { _fun0016_ip = 40; continue _fun0016 }
-case 6:
+                if(!var3) { _fun0016_ip = 59; continue _fun0016 }
+case 85:
                 var1 = var2.channel;
-case 40:
+case 59:
                 return var1;
             }
         };

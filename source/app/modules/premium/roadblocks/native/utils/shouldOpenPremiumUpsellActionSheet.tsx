@@ -74,7 +74,27 @@ case 7:
             var2 = var2.SOUNDBOARD;
             if(!(var2 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.UpsellTypes;
+            var2 = var2.STREAM_HIGH_QUALITY;
+            if(!(var2 !== var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = false;
+            return var2;
+case 10:
+            var4 = _closure1_slot3;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.EntitlementFeatureNames;
+            var2 = var2.STREAM_HIGH_QUALITY;
+            var2 = var4.bind(var3)(var2);
+            var2 = true;
             return var2;
 case 8:
             var4 = _closure1_slot3;

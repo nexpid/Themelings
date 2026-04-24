@@ -82,7 +82,7 @@ case 0:
             var6 = undefined;
             if(var9) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = var3.applicationId;
+            var6 = var3.id;
 case 2:
             var8 = var7.bind(var8)(var6);
             var _closure2_slot0 = var8;
@@ -90,7 +90,7 @@ case 2:
             var6 = undefined;
             if(var7) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var6 = var3.applicationId;
+            var6 = var3.id;
 case 4:
             var _closure2_slot1 = var6;
             var9 = var4 == var3;

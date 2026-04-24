@@ -32,11 +32,11 @@ case 0:
             var4 = 'undefined';
             var3 = typeof var3;
             var1 = null;
-            if(!(var4 !== var3)) { _fun0002_ip = 2; continue _fun0002 }
-case 6:
+            if(!(var4 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = var2.window;
             var1 = var2.__DISCORD_DEVTOOLS;
-case 2:
+case 6:
             return var1;
         }
     };
@@ -88,14 +88,14 @@ case 3:
             var3 = var4.notifyStoreCreated;
             var2 = var5 == var3;
 case 2:
-            if(var2) { _fun0003_ip = 7; continue _fun0003 }
+            if(var2) { _fun0003_ip = 8; continue _fun0003 }
 case 5:
             var3 = var4.notifyStoreCreated;
             var2 = {};
             var5 = arg1;
             var2['storeName'] = var5;
             var2 = var3.bind(var4)(var2);
-case 7:
+case 8:
             return var1;
         }
     };
@@ -113,14 +113,14 @@ case 3:
             var3 = var4.notifyStoreChange;
             var2 = var5 == var3;
 case 2:
-            if(var2) { _fun0004_ip = 7; continue _fun0004 }
+            if(var2) { _fun0004_ip = 8; continue _fun0004 }
 case 5:
             var3 = var4.notifyStoreChange;
             var2 = {};
             var5 = arg1;
             var2['storeName'] = var5;
             var2 = var3.bind(var4)(var2);
-case 7:
+case 8:
             return var1;
         }
     };

@@ -29,12 +29,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function BountiesModal(arg1) {
         var1 = arg1;
-        var3 = var1.bountyId;
-        var _closure2_slot0 = var3;
+        var7 = var1.bountyId;
+        var _closure2_slot0 = var7;
+        var3 = var1.sourceQuestContent;
+        var _closure2_slot1 = var3;
         var6 = _closure1_slot3;
         var5 = var6.useMemo;
-        var4 = new Array(1);
-        var4[0] = var3;
+        var4 = new Array(2);
+        var4[0] = var7;
+        var4[1] = var3;
         var3 = function() {
             var1 = {};
             var3 = {};
@@ -54,8 +57,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
                 var1 = {};
-                var5 = _closure2_slot0;
-                var1['bountyId'] = var5;
+                var6 = _closure2_slot0;
+                var1['bountyId'] = var6;
+                var5 = _closure2_slot1;
+                var1['sourceQuestContent'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

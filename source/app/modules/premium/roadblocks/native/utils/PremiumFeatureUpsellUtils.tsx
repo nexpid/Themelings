@@ -109,6 +109,14 @@ case 15:
             var2 = var2.SAVED_MESSAGES;
             if(!(var2 !== var6)) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var5];
+            var2 = var4.bind(var3)(var2);
+            var2 = var2.EntitlementFeatureNames;
+            var2 = var2.STREAM_HIGH_QUALITY;
+            if(!(var2 !== var6)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 3;
@@ -122,6 +130,15 @@ case 17:
             var2 = false;
             var2 = var5.bind(var3)(var2, var4);
             return var3;
+case 18:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 2;
+            var2 = var5[var2];
+            var2 = var4.bind(var3)(var2);
+            var2 = var2.UpsellTypes;
+            var2 = var2.STREAM_HIGH_QUALITY;
+            return var2;
 case 16:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;

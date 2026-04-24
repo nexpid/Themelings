@@ -108,6 +108,10 @@ case 17:
                     if(!(var2 !== var3)) { _fun0002_ip = 11; continue _fun0002 }
 case 18:
                     var2 = _closure1_slot7;
+                    var2 = var2.STREAM_HIGH_QUALITY;
+                    if(!(var2 !== var3)) { _fun0002_ip = 11; continue _fun0002 }
+case 2:
+                    var2 = _closure1_slot7;
                     var2 = var2.LONGER_MESSAGE;
                     if(!(var2 !== var3)) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
@@ -242,8 +246,8 @@ case 0:
                     if(var2) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
                     var2 = _closure2_slot5;
-                    if(!var2) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+                    if(!var2) { _fun0004_ip = 20; continue _fun0004 }
+case 29:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 6;
@@ -264,16 +268,16 @@ case 27:
                     var4 = var2 == var3;
                     var5 = undefined;
                     var3 = undefined;
-                    if(var4) { _fun0004_ip = 31; continue _fun0004 }
-case 16:
+                    if(var4) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
                     var1 = _closure2_slot3;
                     var1 = var1.subscription_trial;
                     var2 = var2 == var1;
                     var3 = undefined;
-                    if(var2) { _fun0004_ip = 31; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 30; continue _fun0004 }
 case 32:
                     var3 = var1.sku_id;
-case 31:
+case 30:
                     var2 = _closure1_slot8;
                     var2 = var2.TIER_0;
                     if(!(var2 !== var3)) { _fun0004_ip = 33; continue _fun0004 }
@@ -281,7 +285,7 @@ case 2:
                     var2 = _closure1_slot8;
                     var2 = var2.TIER_2;
                     if(!(var2 !== var3)) { _fun0004_ip = 34; continue _fun0004 }
-case 29:
+case 20:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 6;

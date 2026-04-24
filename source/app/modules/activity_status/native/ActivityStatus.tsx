@@ -201,15 +201,15 @@ case 12:
                     var5 = var1 != var2;
                     var4 = null;
                     if(!var5) { _fun0002_ip = 14; continue _fun0002 }
-case 4:
+case 15:
                     var4 = var2;
 case 14:
                     var5 = '';
                     var2 = null;
-                    if(!(var5 !== var4)) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+                    if(!(var5 !== var4)) { _fun0002_ip = 16; continue _fun0002 }
+case 6:
                     var2 = var4;
-case 15:
+case 16:
                     if(!(var1 == var2)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
                     var2 = var3.emoji;

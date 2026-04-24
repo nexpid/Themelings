@@ -58,29 +58,26 @@ case 0:
 case 3:
             var2 = {};
 case 2:
-            var9 = var2.guild;
-            var _closure2_slot0 = var9;
-            var8 = var2.scrollPosition;
-            var _closure2_slot1 = var8;
-            var7 = var2.analyticsLocation;
-            var _closure2_slot2 = var7;
+            var8 = var2.guild;
+            var _closure2_slot0 = var8;
+            var7 = var2.scrollPosition;
+            var _closure2_slot1 = var7;
             var6 = var2.analyticsLocations;
-            var _closure2_slot3 = var6;
+            var _closure2_slot2 = var6;
             var5 = _closure1_slot0;
-            var10 = _closure1_slot1;
+            var9 = _closure1_slot1;
             var3 = 7;
-            var3 = var10[var3];
-            var10 = var5.bind(var4)(var3);
-            var5 = var10.useIsEligibleForUserProfileWYSIWYGEditing;
+            var3 = var9[var3];
+            var9 = var5.bind(var4)(var3);
+            var5 = var9.useIsEligibleForUserProfileWYSIWYGEditing;
             var3 = 'useOpenProfileSettings';
-            var5 = var5.bind(var10)(var3);
+            var5 = var5.bind(var9)(var3);
             var3 = _closure1_slot2;
-            var2 = new Array(5);
-            var2[0] = var9;
-            var2[1] = var8;
-            var2[2] = var7;
-            var2[3] = var6;
-            var2[4] = var5;
+            var2 = new Array(4);
+            var2[0] = var8;
+            var2[1] = var7;
+            var2[2] = var6;
+            var2[3] = var5;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -127,9 +124,7 @@ case 5:
                     var5 = var6.GUILD;
 case 7:
                     var2['subsection'] = var5;
-                    var5 = _closure2_slot2;
-                    var2['analyticsLocation'] = var5;
-                    var4 = _closure2_slot3;
+                    var4 = _closure2_slot2;
                     var2['analyticsLocations'] = var4;
                     var2 = var3.bind(var1)(var2);
                     return var1;

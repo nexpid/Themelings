@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var8.riveContainer;
         var3[2] = var8;
         var2 = function() {
-            var1 = {};
+            var1 = {'title': null, 'description': null, 'visible': true, 'position': 'bottom', 'offsetY': 8};
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 6;
@@ -135,10 +135,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.MIwlcR;
             var2 = var4.bind(var5)(var2);
             var1['description'] = var2;
-            var2 = true;
-            var1['visible'] = var2;
-            var2 = 'bottom';
-            var1['position'] = var2;
             var4 = _closure2_slot3;
             var1['onDismiss'] = var4;
             var4 = function renderImgComponent() {

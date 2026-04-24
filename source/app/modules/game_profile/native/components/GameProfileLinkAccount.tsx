@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.application;
+            var2 = var1.game;
             var11 = var1.trackAction;
             var _closure2_slot0 = var11;
             var9 = var1.analyticsLocations;

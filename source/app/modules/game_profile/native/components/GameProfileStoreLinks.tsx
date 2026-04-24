@@ -39,7 +39,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var7 = var1.application;
             var4 = var1.game;
             var2 = var1.trackAction;
             var _closure2_slot0 = var2;
@@ -48,45 +47,35 @@ case 0:
             var5 = undefined;
             var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var7 = _closure1_slot1;
+            var9 = _closure1_slot2;
             var1 = 3;
-            var1 = var10[var1];
-            var3 = var9.bind(var5)(var1);
+            var1 = var9[var1];
+            var3 = var7.bind(var5)(var1);
             var1 = 4;
-            var1 = var10[var1];
-            var1 = var9.bind(var5)(var1);
+            var1 = var9[var1];
+            var1 = var7.bind(var5)(var1);
             var1 = var1.openURL;
             var1 = var3.bind(var5)(var1);
             var _closure2_slot2 = var1;
             var1 = null;
-            var9 = var1 == var4;
+            var7 = var1 == var4;
             var3 = undefined;
-            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var4.name;
 case 2:
-            if(!(var1 == var3)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var9 = var1 == var7;
-            var4 = undefined;
-            if(var9) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var4 = var7.name;
-case 6:
-            var3 = var4;
-case 4:
             _closure2_slot3 = var3;
             var7 = var8.length;
             var4 = 0;
-            if(!(var4 !== var7)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            if(!(var1 != var3)) { _fun0001_ip = 8; continue _fun0001 }
-case 10:
+            if(!(var4 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(!(var1 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var3 = var8.length;
             var7 = 1;
-            if(!(var7 !== var3)) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(!(var7 !== var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var10 = _closure1_slot4;
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -139,7 +128,7 @@ case 12:
             var3['onPress'] = var11;
             var3 = var10.bind(var5)(var9, var3);
             return var3;
-case 11:
+case 7:
             var3 = _closure1_slot3;
             var3 = var3.bind(var5)(var8, var7);
             var7 = var3[var4];
@@ -171,7 +160,7 @@ case 11:
             var2['onPress'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 8:
+case 4:
             return var1;
         }
     };

@@ -1170,7 +1170,7 @@ case 114:
             }
         };
         var3['getHasWishlistOrPopularRecommendations'] = var4;
-        var2 = function useGetSocialLayerStorefrontGuildIdAndApplication(arg1) {
+        var4 = function useGetSocialLayerStorefrontGuildIdAndApplication(arg1) {
             _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                 var5 = arg1;
@@ -1215,7 +1215,27 @@ case 13:
                 return var1;
             }
         };
-        var3['useGetSocialLayerStorefrontGuildIdAndApplication'] = var2;
+        var3['useGetSocialLayerStorefrontGuildIdAndApplication'] = var4;
+        var2 = function transformSocialLayerStorefrontAffinityServer(arg1) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 8;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.mapValues;
+            var2 = arg1;
+            var1 = function(arg1) {
+                var1 = {};
+                var2 = arg1;
+                var2 = var2.is_eligible;
+                var1['isEligible'] = var2;
+                return var1;
+            };
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        };
+        var3['transformSocialLayerStorefrontAffinityServer'] = var2;
         return var1;
     }
 })();

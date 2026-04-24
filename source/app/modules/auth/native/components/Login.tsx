@@ -678,7 +678,7 @@ case 31:
                         var6 = var7.getIsPasswordlessActive;
                         var6 = var6.bind(var7)();
                         if(var6) { _fun0008_ip = 45; continue _fun0008 }
-case 46:
+case 9:
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot2;
                         var6 = 24;
@@ -692,7 +692,7 @@ case 46:
                         var7 = _closure2_slot5;
                         var6 = {};
                         var6 = var7.bind(var2)(var6);
-case 22: // try_start_0 // try_start_1
+case 5: // try_start_0 // try_start_1
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot2;
                         var6 = 19;
@@ -702,20 +702,20 @@ case 22: // try_start_0 // try_start_1
                         var6 = {};
                         var6['authenticateFunc'] = var9;
                         var6 = var7.bind(var8)(var6);
-                        SaveGenerator(address=144);
-case 47:
-                        return var6;
+                        SaveGenerator(address=146);
 case 24:
+                        return var6;
+case 46:
                         ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                        if(var7) { _fun0008_ip = 48; continue _fun0008 }
-case 49: // try_end0
-                        _fun0008_ip = 50; continue _fun0008;
-case 48: // try_end1
+                        if(var7) { _fun0008_ip = 47; continue _fun0008 }
+case 48: // try_end0
+                        _fun0008_ip = 49; continue _fun0008;
+case 47: // try_end1
                         var8 = _closure2_slot4;
                         var7 = false;
                         var7 = var8.bind(var2)(var7);
                         return var6;
-case 51: // try_start_2 // catch_target0
+case 50: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=6);
                         var3 = var7;
                         var8 = _closure1_slot0;
@@ -725,8 +725,8 @@ case 51: // try_start_2 // catch_target0
                         var6 = var8.bind(var2)(var6);
                         var6 = var6.APIError;
                         var6 = var7 instanceof var6;
-                        if(var6) { _fun0008_ip = 52; continue _fun0008 }
-case 53:
+                        if(var6) { _fun0008_ip = 51; continue _fun0008 }
+case 52:
                         var7 = var3;
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
@@ -735,16 +735,16 @@ case 53:
                         var6 = var8.bind(var2)(var6);
                         var6 = var6.IgnorableWebAuthnError;
                         var6 = var7 instanceof var6;
-                        if(var6) { _fun0008_ip = 50; continue _fun0008 }
-case 54:
+                        if(var6) { _fun0008_ip = 49; continue _fun0008 }
+case 53:
                         var7 = _closure2_slot5;
                         var6 = {};
                         var8 = var3;
                         var8 = var8.message;
                         var6['message'] = var8;
                         var6 = var7.bind(var2)(var6);
-                        _fun0008_ip = 50; continue _fun0008;
-case 52:
+                        _fun0008_ip = 49; continue _fun0008;
+case 51:
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
                         var5 = 23;
@@ -754,12 +754,12 @@ case 52:
                         var5 = var5.bind(var6)(var3);
                         var3 = _closure2_slot12;
                         var3 = var3.bind(var2)(var5);
-case 50: // try_end2
+case 49: // try_end2
                         var5 = _closure2_slot4;
                         var3 = false;
                         var3 = var5.bind(var2)(var3);
                         _fun0008_ip = 45; continue _fun0008;
-case 55: // catch_target1 // catch_target2
+case 54: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=2);
                         var5 = _closure2_slot4;
                         var4 = false;
@@ -791,15 +791,15 @@ case 44:
             var3 = var3.bind(var4)(var2);
             var2 = 'login';
             var29 = var3.bind(var4)(var2, var13);
-            if(!(var15 == var29)) { _fun0004_ip = 56; continue _fun0004 }
-case 57:
+            if(!(var15 == var29)) { _fun0004_ip = 55; continue _fun0004 }
+case 56:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var1];
             var3 = var3.bind(var4)(var2);
             var2 = 'email';
             var29 = var3.bind(var4)(var2, var13);
-case 56:
+case 55:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = var3[var1];
@@ -816,15 +816,15 @@ case 56:
             var1 = var2.bind(var3)(var1);
             var17 = var1.newButton;
             var11 = var1.canDisable;
-            if(!var11) { _fun0004_ip = 58; continue _fun0004 }
-case 59:
-            var1 = var8;
-            if(var1) { _fun0004_ip = 60; continue _fun0004 }
-case 61:
-            var1 = var16;
-case 60:
-            var11 = var1;
+            if(!var11) { _fun0004_ip = 57; continue _fun0004 }
 case 58:
+            var1 = var8;
+            if(var1) { _fun0004_ip = 59; continue _fun0004 }
+case 60:
+            var1 = var16;
+case 59:
+            var11 = var1;
+case 57:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 31;
@@ -832,13 +832,13 @@ case 58:
             var1 = var2.bind(var4)(var1);
             var1 = var1.hasWebAuthn;
             var9 = null;
-            if(!var1) { _fun0004_ip = 62; continue _fun0004 }
-case 63:
+            if(!var1) { _fun0004_ip = 61; continue _fun0004 }
+case 62:
             var5 = _closure1_slot10;
             var21 = _closure1_slot0;
             var26 = _closure1_slot2;
-            if(var17) { _fun0004_ip = 64; continue _fun0004 }
-case 65:
+            if(var17) { _fun0004_ip = 63; continue _fun0004 }
+case 64:
             var3 = 34;
             var1 = var26[var3];
             var1 = var21.bind(var4)(var1);
@@ -880,8 +880,8 @@ case 65:
             var1['onPress'] = var6;
             var1['disabled'] = var11;
             var1 = var5.bind(var4)(var2, var1);
-            _fun0004_ip = 66; continue _fun0004;
-case 64:
+            _fun0004_ip = 65; continue _fun0004;
+case 63:
             var2 = 32;
             var2 = var26[var2];
             var2 = var21.bind(var4)(var2);
@@ -908,9 +908,9 @@ case 64:
             var2['text'] = var11;
             var2['onPress'] = var6;
             var1 = var5.bind(var4)(var3, var2);
-case 66:
+case 65:
             var9 = var1;
-case 62:
+case 61:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var18 = 35;
@@ -918,8 +918,8 @@ case 62:
             var2 = var2.bind(var4)(var1);
             var1 = var2.isMetaQuest;
             var1 = var1.bind(var2)();
-            if(!var1) { _fun0004_ip = 67; continue _fun0004 }
-case 68:
+            if(!var1) { _fun0004_ip = 66; continue _fun0004 }
+case 67:
             var3 = _closure1_slot10;
             var19 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -959,7 +959,7 @@ case 68:
             };
             var1['onPress'] = var5;
             var9 = var3.bind(var4)(var2, var1);
-case 67:
+case 66:
             var3 = _closure1_slot11;
             var2 = _closure1_slot6;
             var1 = {};
@@ -992,11 +992,11 @@ case 0:
                     var1 = null;
                     var2 = var1 == var3;
                     var1 = undefined;
-                    if(var2) { _fun0009_ip = 69; continue _fun0009 }
-case 70:
+                    if(var2) { _fun0009_ip = 68; continue _fun0009 }
+case 69:
                     var2 = var3.focus;
                     var1 = var2.bind(var3)();
-case 69:
+case 68:
                     return var1;
                 }
             };
@@ -1069,19 +1069,19 @@ case 69:
             var6['label'] = var21;
             var25 = _closure1_slot0;
             var26 = _closure1_slot2;
-            if(var23) { _fun0004_ip = 71; continue _fun0004 }
-case 72:
+            if(var23) { _fun0004_ip = 70; continue _fun0004 }
+case 71:
             var21 = 40;
             var21 = var26[var21];
             var21 = var25.bind(var4)(var21);
             var21 = var21.EyeIcon;
-            _fun0004_ip = 73; continue _fun0004;
-case 71:
+            _fun0004_ip = 72; continue _fun0004;
+case 70:
             var24 = 39;
             var24 = var26[var24];
             var24 = var25.bind(var4)(var24);
             var21 = var24.EyeSlashIcon;
-case 73:
+case 72:
             var6['trailingIcon'] = var21;
             var21 = {};
             var27 = _closure1_slot0;
@@ -1093,15 +1093,15 @@ case 73:
             var24 = var24[var7];
             var24 = var27.bind(var4)(var24);
             var24 = var24.t;
-            if(var23) { _fun0004_ip = 74; continue _fun0004 }
-case 75:
+            if(var23) { _fun0004_ip = 73; continue _fun0004 }
+case 74:
             var23 = var24.nFzpM5;
             var23 = var25.bind(var26)(var23);
-            _fun0004_ip = 76; continue _fun0004;
-case 74:
+            _fun0004_ip = 75; continue _fun0004;
+case 73:
             var24 = var24.Nusip4;
             var23 = var25.bind(var26)(var24);
-case 76:
+case 75:
             var21['accessibilityLabel'] = var23;
             var23 = function onPress() {
                 var3 = _closure2_slot3;
@@ -1159,8 +1159,8 @@ case 76:
             var6 = var11.isAndroid;
             var11 = var6.bind(var11)();
             var6 = null;
-            if(!var11) { _fun0004_ip = 77; continue _fun0004 }
-case 78:
+            if(!var11) { _fun0004_ip = 76; continue _fun0004 }
+case 77:
             var19 = _closure1_slot0;
             var11 = _closure1_slot2;
             var11 = var11[var18];
@@ -1168,8 +1168,8 @@ case 78:
             var11 = var19.isMetaQuest;
             var11 = var11.bind(var19)();
             var6 = null;
-            if(var11) { _fun0004_ip = 77; continue _fun0004 }
-case 79:
+            if(var11) { _fun0004_ip = 76; continue _fun0004 }
+case 78:
             var20 = _closure1_slot10;
             var19 = _closure1_slot13;
             var11 = {};
@@ -1192,7 +1192,7 @@ case 79:
             var21 = 'text-link';
             var11['textColor'] = var21;
             var6 = var20.bind(var4)(var19, var11);
-case 77:
+case 76:
             var5[3] = var6;
             var19 = _closure1_slot10;
             var11 = _closure1_slot6;
@@ -1213,10 +1213,10 @@ case 77:
             var23 = var24.isMetaQuest;
             var24 = var23.bind(var24)();
             var23 = 'primary';
-            if(!var24) { _fun0004_ip = 80; continue _fun0004 }
-case 81:
-            var23 = 'tertiary';
+            if(!var24) { _fun0004_ip = 79; continue _fun0004 }
 case 80:
+            var23 = 'tertiary';
+case 79:
             var20['variant'] = var23;
             var20['disabled'] = var16;
             var20['loading'] = var8;
@@ -1290,10 +1290,10 @@ case 80:
             var8 = var16.isMetaQuest;
             var8 = var8.bind(var16)();
             var16 = var11;
-            if(!var8) { _fun0004_ip = 82; continue _fun0004 }
-case 83:
-            var16 = var9;
+            if(!var8) { _fun0004_ip = 81; continue _fun0004 }
 case 82:
+            var16 = var9;
+case 81:
             var8 = new Array(4);
             var8[0] = var16;
             var19 = _closure1_slot0;
@@ -1302,11 +1302,11 @@ case 82:
             var19 = var19.bind(var4)(var16);
             var16 = var19.isMetaQuest;
             var16 = var16.bind(var19)();
-            if(var16) { _fun0004_ip = 84; continue _fun0004 }
-case 85:
-            var16 = null;
-            if(!var17) { _fun0004_ip = 86; continue _fun0004 }
+            if(var16) { _fun0004_ip = 83; continue _fun0004 }
 case 84:
+            var16 = null;
+            if(!var17) { _fun0004_ip = 85; continue _fun0004 }
+case 83:
             var20 = _closure1_slot10;
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
@@ -1325,7 +1325,7 @@ case 84:
             var21 = var20.bind(var4)(var22, var21);
             var17['children'] = var21;
             var16 = var20.bind(var4)(var19, var17);
-case 86:
+case 85:
             var8[1] = var16;
             var17 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -1333,20 +1333,20 @@ case 86:
             var17 = var17.bind(var4)(var16);
             var16 = var17.isMetaQuest;
             var16 = var16.bind(var17)();
-            if(!var16) { _fun0004_ip = 87; continue _fun0004 }
-case 88:
-            var9 = var11;
+            if(!var16) { _fun0004_ip = 86; continue _fun0004 }
 case 87:
+            var9 = var11;
+case 86:
             var8[2] = var9;
             var9 = var13.message;
             var11 = var15 != var9;
             var9 = null;
-            if(!var11) { _fun0004_ip = 89; continue _fun0004 }
-case 90:
+            if(!var11) { _fun0004_ip = 88; continue _fun0004 }
+case 89:
             var11 = var13.message;
             var9 = null;
-            if(!(var12 !== var11)) { _fun0004_ip = 89; continue _fun0004 }
-case 91:
+            if(!(var12 !== var11)) { _fun0004_ip = 88; continue _fun0004 }
+case 90:
             var12 = _closure1_slot10;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -1359,7 +1359,7 @@ case 91:
             var13 = var13.message;
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 89:
+case 88:
             var8[3] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

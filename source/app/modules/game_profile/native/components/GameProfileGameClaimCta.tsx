@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var1 = var2.application;
+            var1 = var2.game;
             var9 = var2.trackAction;
             var _closure2_slot0 = var9;
             var8 = _closure1_slot4;
@@ -98,7 +98,7 @@ case 2:
             var3 = new Array(1);
             var3[0] = var9;
             var6 = var7.bind(var8)(var6, var3);
-            var8 = var1.linkedGames;
+            var8 = var1.linkedApplications;
             var1 = null;
             var7 = var1 == var8;
             var3 = undefined;
@@ -121,11 +121,11 @@ case 9:
             };
             var3 = var7.bind(var8)(var4);
 case 8:
-            if(!(var1 != var3)) { _fun0001_ip = 10; continue _fun0001 }
-case 7:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 10:
             var1 = null;
             if(var3) { _fun0001_ip = 11; continue _fun0001 }
-case 10:
+case 2:
             var4 = _closure1_slot6;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;

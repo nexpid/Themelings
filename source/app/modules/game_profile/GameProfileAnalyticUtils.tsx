@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.viewId;
         var11 = var2.source;
         var10 = var2.gameName;
-        var9 = var2.applicationId;
+        var9 = var2.gameId;
         var8 = var2.authorId;
         var6 = var2.profileType;
         var4 = _closure1_slot1;
@@ -286,7 +286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var13 = var1.viewId;
         var12 = var1.gameName;
-        var11 = var1.applicationId;
+        var11 = var1.gameId;
         var10 = var1.playedFriendIds;
         var9 = var1.playedFriendsData;
         var8 = var1.similarGames;
@@ -321,7 +321,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function(arg1) {
         var1 = arg1;
         var13 = var1.gameName;
-        var12 = var1.applicationId;
+        var12 = var1.gameId;
         var11 = var1.action;
         var10 = var1.recipientUserId;
         var9 = var1.similarGameId;

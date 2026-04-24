@@ -669,20 +669,20 @@ case 0:
 case 32:
             var4 = var2.englishEnabled;
 case 31:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 17;
+            var1 = var5[var1];
+            var7 = var3.bind(var6)(var1);
+            var5 = var7.useSteamWebsiteUrl;
             var1 = null;
-            var3 = var1 == var18;
-            var7 = undefined;
-            if(var3) { _fun0003_ip = 33; continue _fun0003 }
+            var8 = var1 == var18;
+            var3 = undefined;
+            if(var8) { _fun0003_ip = 33; continue _fun0003 }
 case 34:
-            var7 = var18.applicationId;
+            var3 = var18.id;
 case 33:
-            var5 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var3 = 17;
-            var3 = var8[var3];
-            var5 = var5.bind(var6)(var3);
-            var3 = var5.useSteamWebsiteUrl;
-            var23 = var3.bind(var5)(var7);
+            var23 = var5.bind(var7)(var3);
             var3 = var1 == var18;
             var17 = undefined;
             if(var3) { _fun0003_ip = 35; continue _fun0003 }

@@ -1632,13 +1632,13 @@ case 35:
             var4 = var6.bind(var7)(var5, var4);
             _fun0022_ip = 98; continue _fun0022;
 case 96:
-            if(!(var3 == var2)) { _fun0022_ip = 99; continue _fun0022 }
-case 53:
+            if(!(var3 == var2)) { _fun0022_ip = 85; continue _fun0022 }
+case 99:
             var5 = _closure1_slot46;
             var4 = undefined;
             var4 = var5.bind(var4)();
             _fun0022_ip = 98; continue _fun0022;
-case 99:
+case 85:
             var6 = _closure1_slot1;
             var5 = _closure1_slot3;
             var4 = 13;
@@ -1652,8 +1652,8 @@ case 99:
             var5 = _closure1_slot28;
             var5 = var3 != var5;
             var3 = null;
-            if(!var5) { _fun0022_ip = 57; continue _fun0022 }
-case 100:
+            if(!var5) { _fun0022_ip = 100; continue _fun0022 }
+case 101:
             var10 = _closure1_slot0;
             var11 = _closure1_slot3;
             var5 = 19;
@@ -1662,7 +1662,7 @@ case 100:
             var10 = var11.extractId;
             var5 = _closure1_slot28;
             var3 = var10.bind(var11)(var5);
-case 57:
+case 100:
             var6['old_fingerprint'] = var3;
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
@@ -1815,7 +1815,7 @@ case 26:
             var2 = _closure1_slot13;
             var2 = var2.NONE;
             _closure1_slot31 = var2;
-            _fun0024_ip = 101; continue _fun0024;
+            _fun0024_ip = 102; continue _fun0024;
 case 94:
             var5 = _closure1_slot0;
             var7 = _closure1_slot3;
@@ -1825,17 +1825,17 @@ case 94:
             var2 = var5.getAuthenticationErrorsFromAPIError;
             var2 = var2.bind(var5)(var6);
             var2 = var2.date_of_birth;
-            if(!(var4 == var2)) { _fun0024_ip = 102; continue _fun0024 }
-case 103:
+            if(!(var4 == var2)) { _fun0024_ip = 103; continue _fun0024 }
+case 104:
             var2 = _closure1_slot13;
             var2 = var2.NONE;
-            _fun0024_ip = 104; continue _fun0024;
-case 102:
+            _fun0024_ip = 105; continue _fun0024;
+case 103:
             var4 = _closure1_slot13;
             var2 = var4.LOGIN_AGE_GATE;
-case 104:
+case 105:
             _closure1_slot31 = var2;
-case 101:
+case 102:
             return var1;
         }
     };

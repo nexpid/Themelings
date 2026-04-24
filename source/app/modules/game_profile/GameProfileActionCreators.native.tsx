@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function openGameProfileModal(arg1) {
         var1 = arg1;
-        var9 = var1.applicationId;
+        var9 = var1.gameId;
         var4 = var1.gameProfileModalChecks;
         var8 = var1.source;
         var7 = var1.sourceUserId;
@@ -50,9 +50,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var12.bind(var1)(var11, var10);
         var6 = var2[var6];
         var10 = var5.bind(var1)(var6);
-        var4 = var4.applicationId;
+        var4 = var4.gameId;
         var6 = var4 === var9;
-        var4 = 'Passed an unexpected [applicationId]. Are you passing a different one than you passed to useShouldOpenGameProfileModal?';
+        var4 = 'Passed an unexpected [gameId]. Are you passing a different one than you passed to useShouldOpenGameProfileModal?';
         var4 = var10.bind(var1)(var6, var4);
         var4 = 1;
         var4 = var2[var4];
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = 'game-profile-';
         var3 = var3.bind(var2)(var9);
         var2 = {};
-        var2['applicationId'] = var9;
+        var2['gameId'] = var9;
         var2['source'] = var8;
         var2['sourceUserId'] = var7;
         var2 = var5.bind(var6)(var4, var3, var2);
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = 'game-profile-';
         var3 = var3.bind(var2)(var9);
         var2 = {};
-        var2['applicationId'] = var9;
+        var2['gameId'] = var9;
         var2['source'] = var8;
         var2['initialScrollOffset'] = var7;
         var2 = var5.bind(var6)(var4, var3, var2);

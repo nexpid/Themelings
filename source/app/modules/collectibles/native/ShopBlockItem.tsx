@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['shopBlockSpacing'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -60,32 +60,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var10 = var1.block;
-            var _closure2_slot0 = var10;
-            var8 = var1.screen;
-            var9 = var1.preferVCPrice;
+            var13 = var1.block;
+            var _closure2_slot0 = var13;
+            var10 = var1.screen;
+            var11 = var1.preferVCPrice;
+            var12 = var1.framesBannerBlock;
             var1 = _closure1_slot7;
             var4 = undefined;
-            var12 = var1.bind(var4)();
-            var6 = _closure1_slot0;
+            var8 = var1.bind(var4)();
+            var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var7 = 6;
             var3 = var1[var7];
-            var15 = var6.bind(var4)(var3);
-            var14 = var15.useStateFromStores;
+            var16 = var5.bind(var4)(var3);
+            var15 = var16.useStateFromStores;
             var3 = _closure1_slot5;
-            var13 = new Array(1);
-            var13[0] = var3;
-            var11 = function() {
+            var14 = new Array(1);
+            var14[0] = var3;
+            var9 = function() {
                 var1 = _closure1_slot5;
                 var1 = var1.categories;
                 return var1;
             };
-            var14 = var14.bind(var15)(var13, var11);
-            var _closure2_slot1 = var14;
+            var15 = var15.bind(var16)(var14, var9);
+            var _closure2_slot1 = var15;
             var7 = var1[var7];
-            var13 = var6.bind(var4)(var7);
-            var11 = var13.useStateFromStores;
+            var14 = var5.bind(var4)(var7);
+            var9 = var14.useStateFromStores;
             var7 = new Array(1);
             var7[0] = var3;
             var3 = function() {
@@ -93,16 +94,16 @@ case 0:
                 var1 = var1.products;
                 return var1;
             };
-            var13 = var11.bind(var13)(var7, var3);
-            var _closure2_slot2 = var13;
-            var11 = _closure1_slot3;
-            var7 = var11.useMemo;
+            var14 = var9.bind(var14)(var7, var3);
+            var _closure2_slot2 = var14;
+            var9 = _closure1_slot3;
+            var7 = var9.useMemo;
             var3 = new Array(3);
-            var3[0] = var10;
+            var3[0] = var13;
+            var15 = var15.size;
+            var3[1] = var15;
             var14 = var14.size;
-            var3[1] = var14;
-            var13 = var13.size;
-            var3[2] = var13;
+            var3[2] = var14;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -161,49 +162,96 @@ case 7:
                     return var1;
                 }
             };
-            var7 = var7.bind(var11)(var2, var3);
-            var2 = var10.type;
+            var9 = var7.bind(var9)(var2, var3);
+            var2 = var13.type;
             var3 = 7;
             var1 = var1[var3];
-            var1 = var6.bind(var4)(var1);
+            var1 = var5.bind(var4)(var1);
             var1 = var1.ShopBlockType;
             var1 = var1.HERO;
             if(!(var1 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var6 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
-            var1 = var6.bind(var4)(var1);
+            var1 = var5.bind(var4)(var1);
             var1 = var1.ShopBlockType;
             var1 = var1.FEATURED;
             if(!(var1 !== var2)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var6 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
-            var1 = var6.bind(var4)(var1);
+            var1 = var5.bind(var4)(var1);
             var1 = var1.ShopBlockType;
             var1 = var1.FEED;
             if(!(var1 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var6 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
-            var1 = var6.bind(var4)(var1);
+            var1 = var5.bind(var4)(var1);
             var1 = var1.ShopBlockType;
             var1 = var1.SHELF;
             if(!(var1 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var3];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.ShopBlockType;
+            var1 = var1.WIDE_BANNER;
+            if(!(var1 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var3];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.ShopBlockType;
+            var1 = var1.FRAMES_BANNER;
+            if(!(var1 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
+case 17:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
             var1 = var2.bind(var4)(var1);
             var1 = var1.ShopBlockType;
-            var1 = var1.WIDE_BANNER;
+            var1 = var1.FRAMES_EXPERIENCE;
 case 14:
             var1 = null;
             return var1;
 case 12:
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var1 = 8;
+            var1 = var16[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.CollectiblesAnalyticsProvider;
+            var1 = {};
+            var5 = {};
+            var7 = 'popular picks';
+            var5['pageSection'] = var7;
+            var1['newValue'] = var5;
+            var7 = _closure1_slot4;
+            var5 = {};
+            var14 = var8.shopBlockSpacing;
+            var5['style'] = var14;
+            var15 = _closure1_slot1;
+            var14 = 12;
+            var14 = var16[var14];
+            var15 = var15.bind(var4)(var14);
+            var14 = {};
+            var14['feedBlock'] = var13;
+            var14['screen'] = var10;
+            var14['preferVCPrice'] = var11;
+            var14 = var3.bind(var4)(var15, var14, var9);
+            var5['children'] = var14;
+            var5 = var3.bind(var4)(var7, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+case 10:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -212,79 +260,68 @@ case 12:
             var1 = var2.bind(var4)(var1);
             var2 = var1.CollectiblesAnalyticsProvider;
             var1 = {};
-            var6 = {};
-            var11 = 'popular picks';
-            var6['pageSection'] = var11;
-            var1['newValue'] = var6;
-            var11 = _closure1_slot4;
-            var6 = {};
-            var13 = var12.shopBlockSpacing;
-            var6['style'] = var13;
+            var5 = {};
+            var7 = 'featured_block';
+            var5['pageSection'] = var7;
+            var1['newValue'] = var5;
+            var7 = _closure1_slot4;
+            var5 = {};
+            var8 = var8.shopBlockSpacing;
+            var5['style'] = var8;
             var14 = _closure1_slot1;
-            var13 = 11;
-            var13 = var15[var13];
-            var14 = var14.bind(var4)(var13);
-            var13 = {};
-            var13['feedBlock'] = var10;
-            var13['screen'] = var8;
-            var13['preferVCPrice'] = var9;
-            var13 = var3.bind(var4)(var14, var13, var7);
-            var6['children'] = var13;
-            var6 = var3.bind(var4)(var11, var6);
-            var1['children'] = var6;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-case 10:
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var1 = 8;
-            var1 = var14[var1];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.CollectiblesAnalyticsProvider;
-            var1 = {};
-            var6 = {};
-            var11 = 'featured_block';
-            var6['pageSection'] = var11;
-            var1['newValue'] = var6;
-            var11 = _closure1_slot4;
-            var6 = {};
-            var12 = var12.shopBlockSpacing;
-            var6['style'] = var12;
-            var13 = _closure1_slot1;
-            var12 = 10;
-            var12 = var14[var12];
-            var13 = var13.bind(var4)(var12);
-            var12 = {};
-            var12['featuredBlock'] = var10;
-            var12 = var3.bind(var4)(var13, var12);
-            var6['children'] = var12;
-            var6 = var3.bind(var4)(var11, var6, var7);
-            var1['children'] = var6;
+            var8 = 11;
+            var8 = var15[var8];
+            var14 = var14.bind(var4)(var8);
+            var8 = {};
+            var8['featuredBlock'] = var13;
+            var8 = var3.bind(var4)(var14, var8);
+            var5['children'] = var8;
+            var5 = var3.bind(var4)(var7, var5, var9);
+            var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
 case 8:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var5 = _closure1_slot2;
             var1 = 8;
-            var1 = var11[var1];
+            var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.CollectiblesAnalyticsProvider;
             var1 = {};
-            var6 = {};
-            var12 = 'top 4';
-            var6['pageSection'] = var12;
-            var1['newValue'] = var6;
-            var6 = _closure1_slot1;
-            var5 = 9;
-            var5 = var11[var5];
-            var6 = var6.bind(var4)(var5);
             var5 = {};
-            var5['heroBlock'] = var10;
-            var5['preferVCPrice'] = var9;
-            var5['screen'] = var8;
-            var5 = var3.bind(var4)(var6, var5, var7);
+            var7 = 'top 4';
+            var5['pageSection'] = var7;
+            var1['newValue'] = var5;
+            var5 = null;
+            if(!(var5 == var12)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            var8 = _closure1_slot6;
+            var7 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var5 = 10;
+            var5 = var14[var5];
+            var7 = var7.bind(var4)(var5);
+            var5 = {};
+            var5['heroBlock'] = var13;
+            var5['preferVCPrice'] = var11;
+            var5['screen'] = var10;
+            var5 = var8.bind(var4)(var7, var5, var9);
+            _fun0001_ip = 20; continue _fun0001;
+case 18:
+            var8 = _closure1_slot6;
+            var7 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var6 = 9;
+            var6 = var14[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = {};
+            var6['heroBlock'] = var13;
+            var6['bannerBlock'] = var12;
+            var6['preferVCPrice'] = var11;
+            var6['screen'] = var10;
+            var5 = var8.bind(var4)(var7, var6, var9);
+case 20:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

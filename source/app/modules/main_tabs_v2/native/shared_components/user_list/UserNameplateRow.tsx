@@ -76,7 +76,7 @@ case 3:
             var19 = false;
 case 2:
             var30 = var7.start;
-            var24 = var7.end;
+            var13 = var7.end;
             var18 = var7.labelLineClamp;
             var17 = var7.subLabelLineClamp;
             var16 = var7.variant;
@@ -87,10 +87,10 @@ case 4:
             var15 = var7.draggable;
             var14 = var7.dragHandlePressableProps;
             var26 = var7.nameplate;
-            var12 = var7.isPreviewRow;
-            if(!(var12 === var5)) { _fun0001_ip = 6; continue _fun0001 }
+            var25 = var7.isPreviewRow;
+            if(!(var25 === var5)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var12 = false;
+            var25 = false;
 case 6:
             var3 = {'label': 0, 'subLabel': 0, 'icon': 0, 'trailing': 0, 'arrow': 0, 'onPress': 0, 'onPressIn': 0, 'onPressOut': 0, 'disabled': 0, 'start': 0, 'end': 0, 'labelLineClamp': 0, 'subLabelLineClamp': 0, 'variant': 0, 'draggable': 0, 'dragHandlePressableProps': 0, 'nameplate': 0, 'isPreviewRow': 0};
             var10 = null;
@@ -105,29 +105,29 @@ case 6:
             var _closure2_slot2 = var5;
             var2 = _closure1_slot8;
             var9 = var2.bind(var5)();
-            var13 = _closure1_slot4;
-            var3 = var13.useContext;
-            var25 = _closure1_slot0;
+            var12 = _closure1_slot4;
+            var3 = var12.useContext;
+            var24 = _closure1_slot0;
             var29 = _closure1_slot2;
             var2 = 5;
             var2 = var29[var2];
-            var2 = var25.bind(var5)(var2);
+            var2 = var24.bind(var5)(var2);
             var2 = var2.TableRowGroupContext;
-            var3 = var3.bind(var13)(var2);
+            var3 = var3.bind(var12)(var2);
             var2 = !var3;
             if(!var2) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var13 = true;
-            var2 = var13 === var24;
+            var12 = true;
+            var2 = var12 === var13;
 case 8:
             var13 = _closure1_slot4;
-            var25 = var13.useState;
-            var24 = false;
-            var29 = var25.bind(var13)(var24);
-            var25 = _closure1_slot3;
-            var24 = 2;
-            var24 = var25.bind(var5)(var29, var24);
-            var25 = var24[var6];
+            var24 = var13.useState;
+            var12 = false;
+            var29 = var24.bind(var13)(var12);
+            var24 = _closure1_slot3;
+            var12 = 2;
+            var24 = var24.bind(var5)(var29, var12);
+            var12 = var24[var6];
             var6 = 1;
             var6 = var24[var6];
             _closure2_slot2 = var6;
@@ -221,11 +221,11 @@ case 12:
             var9 = var9.bind(var5)(var8);
             var8 = {};
             var8['nameplate'] = var26;
-            var8['isPressed'] = var25;
-            var25 = true;
-            var8['invertPressOpacity'] = var25;
-            var8['fullOpacity'] = var12;
-            var8['animate'] = var12;
+            var8['isPressed'] = var12;
+            var12 = true;
+            var8['invertPressOpacity'] = var12;
+            var8['fullOpacity'] = var25;
+            var8['animate'] = var25;
             var8 = var13.bind(var5)(var9, var8);
             var9 = new Array(2);
             var9[0] = var8;
@@ -236,6 +236,10 @@ case 12:
             var12 = var8.TableRowInner;
             var8 = {};
             var24 = '100%';
+            if(!var25) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var24 = undefined;
+case 14:
             var8['height'] = var24;
             var8['label'] = var23;
             var8['subLabel'] = var22;
@@ -254,11 +258,11 @@ case 12:
             var1[7] = var9;
             var8 = var6.bind(var5)(var4, var1);
             var1 = var8;
-            if(var3) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(var3) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var1 = var8;
-            if(var2) { _fun0001_ip = 14; continue _fun0001 }
-case 16:
+            if(var2) { _fun0001_ip = 16; continue _fun0001 }
+case 18:
             var4 = _closure1_slot6;
             var3 = _closure1_slot7;
             var2 = {};
@@ -278,7 +282,7 @@ case 16:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 14:
+case 16:
             return var1;
         }
     };

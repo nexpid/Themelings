@@ -276,18 +276,22 @@ case 19:
         var3 = var9[var1];
         var7 = var7.bind(var4)(var3);
         var3 = var7.useAnimatedStyle;
-        var2 = function o() {
+        var2 = function n() {
             var1 = {};
-            var3 = _closure2_slot0;
-            var2 = var3.get;
-            var2 = var2.bind(var3)();
-            var1['top'] = var2;
+            var3 = {};
+            var4 = _closure2_slot0;
+            var2 = var4.get;
+            var2 = var2.bind(var4)();
+            var3['translateY'] = var2;
+            var2 = new Array(1);
+            var2[0] = var3;
+            var1['transform'] = var2;
             return var1;
         };
         var10 = {};
         var10['animatedPosition'] = var11;
         var2['__closure'] = var10;
-        var10 = 10492926191866.0;
+        var10 = 10509185503771.0;
         var2['__workletHash'] = var10;
         var10 = _closure1_slot10;
         var2['__initData'] = var10;
@@ -378,7 +382,7 @@ case 19:
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
     var4 = {};
-    var7 = 'function ProfileFrameTsx1(){const{animatedPosition}=this.__closure;const sheetTop=animatedPosition.get();return{top:sheetTop};}';
+    var7 = 'function ProfileFrameTsx1(){const{animatedPosition}=this.__closure;return{transform:[{translateY:animatedPosition.get()}]};}';
     var4['code'] = var7;
     var _closure1_slot10 = var4;
     var4 = 10;

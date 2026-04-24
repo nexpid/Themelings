@@ -457,11 +457,13 @@ case 26:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openUserSettings;
                 var2 = {};
-                var6 = _closure1_slot10;
-                var6 = var6.PREMIUM;
-                var2['screen'] = var6;
-                var5 = _closure2_slot10;
-                var2['analyticsLocation'] = var5;
+                var5 = _closure1_slot10;
+                var5 = var5.PREMIUM;
+                var2['screen'] = var5;
+                var5 = {};
+                var6 = _closure2_slot10;
+                var5['analyticsLocation'] = var6;
+                var2['params'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };

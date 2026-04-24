@@ -170,6 +170,8 @@ case 2:
     var2['OPEN_NITRO_CHECKOUT'] = var6;
     var6 = 'OPEN_NITRO_HOME';
     var2['OPEN_NITRO_HOME'] = var6;
+    var6 = 'START_BOUNTY';
+    var2['START_BOUNTY'] = var6;
     var6 = 1;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

@@ -660,6 +660,37 @@ case 71:
         return var1;
     };
     var3['isRobloxSubgameApplication'] = var4;
+    var4 = function isRobloxSubgameGame(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var2 = arg1;
+            var3 = var2.id;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 3;
+            var4 = var4[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4);
+            var1 = var1.ROBLOX_GAME_ID;
+            var1 = var3 !== var1;
+            if(!var1) { _fun0010_ip = 72; continue _fun0010 }
+case 73:
+            var4 = var2.thirdPartySkus;
+            var3 = var4.some;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.distributor;
+                var1 = _closure1_slot6;
+                var1 = var1.ROBLOX;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var1 = var3.bind(var4)(var2);
+case 72:
+            return var1;
+        }
+    };
+    var3['isRobloxSubgameGame'] = var4;
     var4 = function openRobloxURLWithRootPlaceId() {
         var1 = undefined;
         var4 = _closure1_slot9;
@@ -672,14 +703,14 @@ case 71:
     };
     var3['openRobloxURLWithRootPlaceId'] = var4;
     var2 = function maybeTransformRobloxSubgameToRoblox(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = arg1;
             var5 = var4.distributor;
             var1 = _closure1_slot6;
             var2 = var1.ROBLOX;
             var1 = var4;
-            if(!(var5 === var2)) { _fun0010_ip = 72; continue _fun0010 }
+            if(!(var5 === var2)) { _fun0011_ip = 74; continue _fun0011 }
 case 7:
             var5 = var4.id;
             var8 = _closure1_slot0;
@@ -690,8 +721,8 @@ case 7:
             var2 = var8.bind(var6)(var2);
             var2 = var2.ROBLOX_APPLICATION_ID;
             var1 = var4;
-            if(!(var5 !== var2)) { _fun0010_ip = 72; continue _fun0010 }
-case 73:
+            if(!(var5 !== var2)) { _fun0011_ip = 74; continue _fun0011 }
+case 75:
             var2 = {};
             var10 = var2;
             var9 = var4;
@@ -710,7 +741,7 @@ case 73:
             var3 = 'name';
             var2[2] = var4;
             var1 = var2;
-case 72:
+case 74:
             return var1;
         }
     };

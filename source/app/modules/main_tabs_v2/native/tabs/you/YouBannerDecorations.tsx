@@ -149,7 +149,7 @@ case 6:
             var6 = var10.bind(var5)(var6);
             var11 = var6.bind(var5)(var9);
             var10 = var11.darken;
-            var6 = 0.2;
+            var6 = 0.1;
             var10 = var10.bind(var11)(var6);
             var6 = var10.hex;
             var8 = var6.bind(var10)();

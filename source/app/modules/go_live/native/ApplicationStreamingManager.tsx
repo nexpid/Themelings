@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var10 = var1.Object;
     var8 = var10.defineProperty;
@@ -81,20 +81,24 @@ case 4:
     var4 = var4.bind(var1)(var8);
     var4 = 6;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.ApplicationStreamPresets;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.MediaEngineContextTypes;
+    var4 = var4.ApplicationStreamPresets;
     var _closure1_slot9 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.MediaEngineContextTypes;
     var _closure1_slot10 = var4;
     var4 = 9;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot11 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var10 = var7.bind(var1)(var4);
     var4 = var10.prototype;
@@ -103,10 +107,10 @@ case 4:
     var14 = var8;
     var4 = new var14[var10](var13, var12);
     var8 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot11 = var8;
+    var _closure1_slot12 = var8;
     var4 = var8.enableNativeLogger;
     var4 = var4.bind(var8)(var9);
-    var4 = 14;
+    var4 = 16;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -122,7 +126,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot13;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -157,7 +161,7 @@ case 8:
         var1 = function value() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -166,11 +170,11 @@ case 8:
             var5 = function importer() {
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var2 = 12;
+                var2 = 13;
                 var2 = var1[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);
-                var2 = 11;
+                var2 = 12;
                 var2 = var1[var2];
                 var1 = var1.paths;
                 var3 = var3.bind(var4)(var2, var1);
@@ -180,7 +184,7 @@ case 8:
                     var2 = var2.default;
                     var _closure5_slot0 = var2;
                     var1 = function(arg1) {
-                        var4 = _closure1_slot10;
+                        var4 = _closure1_slot11;
                         var3 = _closure5_slot0;
                         var2 = {};
                         var5 = arg1;
@@ -209,40 +213,66 @@ case 8:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var1 = arg1;
-                var6 = var1.sourceId;
+                var10 = var1.sourceId;
                 var1 = null;
-                if(!(var1 == var6)) { _fun0003_ip = 9; continue _fun0003 }
+                if(!(var1 == var10)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot12;
                 var2 = var3.warn;
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var5 = var1.concat;
                 var4 = 'invalid start_stream: both application + display modes were specified (source-id: ';
                 var1 = ')';
-                var1 = var5.bind(var4)(var6, var1);
+                var1 = var5.bind(var4)(var10, var1);
                 var1 = var2.bind(var3)(var1);
                 _fun0003_ip = 11; continue _fun0003;
 case 9:
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 13;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 14;
+                var1 = var3[var1];
+                var3 = undefined;
+                var5 = var2.bind(var3)(var1);
+                var2 = var5.getConfig;
+                var1 = {};
+                var6 = 'platformHandleStreamStart';
+                var1['location'] = var6;
+                var1 = var2.bind(var5)(var1);
+                var1 = var1.showMobileGoLiveUpsell;
+                if(var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+                var1 = {'preset': null, 'resolution': 720, 'fps': 30, 'soundshareEnabled': true};
+                var2 = _closure1_slot9;
+                var2 = var2.PRESET_CUSTOM;
+                var1['preset'] = var2;
+                _fun0003_ip = 14; continue _fun0003;
+case 12:
+                var5 = _closure1_slot8;
+                var2 = var5.getState;
+                var1 = var2.bind(var5)();
+case 14:
+                var8 = var1.preset;
+                var7 = var1.resolution;
+                var6 = var1.fps;
+                var9 = var1.soundshareEnabled;
+                var2 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var1 = 15;
+                var1 = var5[var1];
+                var3 = var2.bind(var3)(var1);
                 var2 = var3.setGoLiveSource;
                 var1 = {};
                 var5 = {};
-                var5['sourceId'] = var6;
-                var6 = true;
-                var5['sound'] = var6;
+                var5['sourceId'] = var10;
+                var5['sound'] = var9;
                 var1['desktopSettings'] = var5;
-                var5 = {'preset': null, 'resolution': 720, 'frameRate': 30};
-                var6 = _closure1_slot8;
-                var6 = var6.PRESET_CUSTOM;
-                var5['preset'] = var6;
+                var5 = {};
+                var5['preset'] = var8;
+                var5['resolution'] = var7;
+                var5['frameRate'] = var6;
                 var1['qualityOptions'] = var5;
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot10;
                 var4 = var4.STREAM;
                 var1['context'] = var4;
                 var1 = var2.bind(var3)(var1);
@@ -271,7 +301,7 @@ case 11:
     var14 = var4;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 15;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

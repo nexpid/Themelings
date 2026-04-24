@@ -268,8 +268,12 @@ case 2:
                 var1['youtubeVideoId'] = var3;
                 var3 = var2.label;
                 var1['label'] = var3;
-                var2 = var2.label_icon_asset_id;
-                var1['labelIconAssetId'] = var2;
+                var3 = var2.label_icon_asset_id;
+                var1['labelIconAssetId'] = var3;
+                var3 = var2.title;
+                var1['title'] = var3;
+                var2 = var2.description;
+                var1['description'] = var2;
                 return var1;
             };
             var3 = var5.bind(var6)(var3);
