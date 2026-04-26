@@ -1997,6 +1997,24 @@
       }
     ]
   },
+  "MOBILE_KEYBOARD_GAP_BACKGROUND": {
+    "14": [
+      "#1c1d23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
+  },
+  "MOBILE_KEYBOARD_PANEL_BACKGROUND": {
+    "14": [
+      "#1c1d23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
+  },
   "MOBILE_LEGACY_BUTTON_SECONDARY_BACKGROUND_DEFAULT": {
     "14": [
       "#383a43",
