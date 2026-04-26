@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = arg1;
         var3['product'] = var10;
         var10 = arg2;
-        var3['isPremiumUser'] = var10;
+        var3['hasShopDiscount'] = var10;
         var4 = var4.bind(var9)(var3);
         var _closure2_slot1 = var4;
         var3 = 3;

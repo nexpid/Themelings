@@ -2,13 +2,13 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-        var12 = require;
-        var8 = metroImportDefault;
+        var13 = require;
+        var9 = metroImportDefault;
         var3 = exports;
-        var13 = dependencyMap;
-        var _closure1_slot0 = var12;
-        var _closure1_slot1 = var8;
-        var _closure1_slot2 = var13;
+        var14 = dependencyMap;
+        var _closure1_slot0 = var13;
+        var _closure1_slot1 = var9;
+        var _closure1_slot2 = var14;
         var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -185,6 +185,24 @@ case 35:
             }
         };
         var _closure1_slot14 = var1;
+        var6 = function updateUserAllGuildSettings(arg1, arg2) {
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot12;
+            var4 = var5.updateAsync;
+            var3 = 'guilds';
+            var2 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = undefined;
+                var1 = arg1;
+                var1 = var3.bind(var2)(var1);
+                return var1;
+            };
+            var1 = arg2;
+            var1 = var4.bind(var5)(var3, var2, var1);
+            return var1;
+        };
+        var _closure1_slot15 = var6;
         var5 = function updateUserGuildSettings(arg1, arg2, arg3) {
             var2 = arg1;
             var _closure2_slot0 = var2;
@@ -211,10 +229,10 @@ case 35:
             var1 = var4.bind(var5)(var3, var2, var1);
             return var1;
         };
-        var _closure1_slot15 = var5;
+        var _closure1_slot16 = var5;
         var4 = function updateRecurringDismissibleContentState() {
             var1 = undefined;
-            var4 = _closure1_slot17;
+            var4 = _closure1_slot18;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -222,7 +240,7 @@ case 35:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure1_slot16 = var4;
+        var _closure1_slot17 = var4;
         var1 = function _updateRecurringDismissibleContentState() {
             var5 = undefined;
             var1 = undefined;
@@ -278,7 +296,7 @@ case 36:
                 return var1;
             };
             var4 = var4.bind(var5)(var3);
-            _closure1_slot17 = var4;
+            _closure1_slot18 = var4;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -286,7 +304,7 @@ case 36:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure1_slot17 = var1;
+        var _closure1_slot18 = var1;
         var1 = function _updateGuildDismissedContent() {
             var5 = undefined;
             var1 = undefined;
@@ -303,7 +321,7 @@ case 37:
                         var _closure4_slot0 = var3;
                         var3 = arg3;
                         var _closure4_slot1 = var3;
-                        var6 = _closure1_slot15;
+                        var6 = _closure1_slot16;
                         var3 = _closure1_slot8;
                         var5 = var3.INFREQUENT_USER_ACTION;
                         var4 = undefined;
@@ -342,7 +360,7 @@ case 42:
                 return var1;
             };
             var4 = var4.bind(var5)(var3);
-            _closure1_slot18 = var4;
+            _closure1_slot19 = var4;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -350,60 +368,60 @@ case 42:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure1_slot18 = var1;
-        var6 = global;
-        var10 = var6.Object;
-        var9 = var10.defineProperty;
-        var7 = {};
+        var _closure1_slot19 = var1;
+        var7 = global;
+        var11 = var7.Object;
+        var10 = var11.defineProperty;
+        var8 = {};
         var1 = true;
-        var7['value'] = var1;
+        var8['value'] = var1;
         var1 = '__esModule';
-        var1 = var9.bind(var10)(var3, var1, var7);
+        var1 = var10.bind(var11)(var3, var1, var8);
         var1 = 0;
-        var7 = var13[var1];
+        var8 = var14[var1];
         var1 = undefined;
-        var7 = var8.bind(var1)(var7);
-        var _closure1_slot3 = var7;
-        var7 = 1;
-        var7 = var13[var7];
-        var7 = var8.bind(var1)(var7);
-        var _closure1_slot4 = var7;
-        var7 = 2;
-        var7 = var13[var7];
-        var7 = var8.bind(var1)(var7);
-        var _closure1_slot5 = var7;
-        var7 = 3;
-        var7 = var13[var7];
-        var7 = var8.bind(var1)(var7);
-        var _closure1_slot6 = var7;
-        var7 = 4;
-        var9 = var13[var7];
-        var9 = var12.bind(var1)(var9);
-        var11 = var9.UserSettingsTypes;
-        var _closure1_slot7 = var11;
-        var9 = var9.UserSettingsDelay;
-        var _closure1_slot8 = var9;
-        var9 = 5;
-        var9 = var13[var9];
-        var9 = var12.bind(var1)(var9);
-        var10 = var9.AbortCodes;
-        var _closure1_slot9 = var10;
-        var10 = var9.Endpoints;
-        var _closure1_slot10 = var10;
-        var9 = var9.AnalyticEvents;
-        var _closure1_slot11 = var9;
-        var7 = var13[var7];
-        var7 = var12.bind(var1)(var7);
-        var10 = var7.UserSettingsDelay;
-        var9 = var6.Date;
-        var7 = var9.now;
-        var7 = var7.bind(var9)();
-        var7 = 6;
-        var9 = var13[var7];
-        var16 = var8.bind(var1)(var9);
-        var15 = var16.subscribe;
-        var14 = 'CONNECTION_OPEN';
-        var9 = function() {
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot3 = var8;
+        var8 = 1;
+        var8 = var14[var8];
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot4 = var8;
+        var8 = 2;
+        var8 = var14[var8];
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot5 = var8;
+        var8 = 3;
+        var8 = var14[var8];
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot6 = var8;
+        var8 = 4;
+        var10 = var14[var8];
+        var10 = var13.bind(var1)(var10);
+        var12 = var10.UserSettingsTypes;
+        var _closure1_slot7 = var12;
+        var10 = var10.UserSettingsDelay;
+        var _closure1_slot8 = var10;
+        var10 = 5;
+        var10 = var14[var10];
+        var10 = var13.bind(var1)(var10);
+        var11 = var10.AbortCodes;
+        var _closure1_slot9 = var11;
+        var11 = var10.Endpoints;
+        var _closure1_slot10 = var11;
+        var10 = var10.AnalyticEvents;
+        var _closure1_slot11 = var10;
+        var8 = var14[var8];
+        var8 = var13.bind(var1)(var8);
+        var11 = var8.UserSettingsDelay;
+        var10 = var7.Date;
+        var8 = var10.now;
+        var8 = var8.bind(var10)();
+        var8 = 6;
+        var10 = var14[var8];
+        var17 = var9.bind(var1)(var10);
+        var16 = var17.subscribe;
+        var15 = 'CONNECTION_OPEN';
+        var10 = function() {
             var1 = global;
             var2 = var1.Date;
             var1 = var2.now;
@@ -411,12 +429,12 @@ case 42:
             var1 = undefined;
             return var1;
         };
-        var9 = var15.bind(var16)(var14, var9);
-        var7 = var13[var7];
-        var14 = var8.bind(var1)(var7);
-        var9 = var14.subscribe;
-        var8 = 'CONNECTION_CLOSED';
-        var7 = function() {
+        var10 = var16.bind(var17)(var15, var10);
+        var8 = var14[var8];
+        var15 = var9.bind(var1)(var8);
+        var10 = var15.subscribe;
+        var9 = 'CONNECTION_CLOSED';
+        var8 = function() {
             var1 = global;
             var2 = var1.Date;
             var1 = var2.now;
@@ -424,30 +442,30 @@ case 42:
             var1 = undefined;
             return var1;
         };
-        var7 = var9.bind(var14)(var8, var7);
-        var7 = var6.document;
-        var8 = 'undefined';
-        var7 = typeof var7;
-        if(!(var8 !== var7)) { _fun0001_ip = 44; continue _fun0001 }
+        var8 = var10.bind(var15)(var9, var8);
+        var8 = var7.document;
+        var9 = 'undefined';
+        var8 = typeof var8;
+        if(!(var9 !== var8)) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
-        var14 = var6.document;
-        var9 = var14.addEventListener;
-        var8 = 'mousedown';
+        var15 = var7.document;
+        var10 = var15.addEventListener;
+        var9 = 'mousedown';
+        var8 = function() {
+            var1 = undefined;
+            return var1;
+        };
+        var8 = var10.bind(var15)(var9, var8);
+        var10 = var7.document;
+        var9 = var10.addEventListener;
+        var8 = 'keydown';
         var7 = function() {
             var1 = undefined;
             return var1;
         };
-        var7 = var9.bind(var14)(var8, var7);
-        var9 = var6.document;
-        var8 = var9.addEventListener;
-        var7 = 'keydown';
-        var6 = function() {
-            var1 = undefined;
-            return var1;
-        };
-        var6 = var8.bind(var9)(var7, var6);
+        var7 = var9.bind(var10)(var8, var7);
 case 44:
-        var6 = function() {
+        var7 = function() {
             var4 = _closure1_slot5;
             var3 = function UserSettingsProtoActionCreators(arg1, arg2) {
                 var3 = this;
@@ -1489,66 +1507,49 @@ case 40:
             var1 = var4.bind(var1)(var3, var2);
             return var1;
         };
-        var9 = var6.bind(var1)();
-        var6 = 15;
-        var6 = var13[var6];
-        var6 = var12.bind(var1)(var6);
-        var19 = var6.PreloadedUserSettings;
-        var18 = var11.PRELOADED_USER_SETTINGS;
-        var7 = var9.prototype;
-        var7 = Object.create(var7, {constructor: {value: var9}});
-        var20 = var7;
-        var6 = new var20[var9](var19, var18, var17);
-        var8 = var6 instanceof Object ? var6 : var7;
-        var _closure1_slot12 = var8;
-        var6 = 16;
-        var6 = var13[var6];
-        var6 = var12.bind(var1)(var6);
-        var19 = var6.FrecencyUserSettings;
-        var18 = var11.FRECENCY_AND_FAVORITES_SETTINGS;
-        var7 = var9.prototype;
-        var7 = Object.create(var7, {constructor: {value: var9}});
-        var20 = var7;
-        var6 = new var20[var9](var19, var18, var17);
-        var7 = var6 instanceof Object ? var6 : var7;
-        var6 = {};
-        var14 = var11.PRELOADED_USER_SETTINGS;
-        var6[13] = var8;
-        var11 = var11.FRECENCY_AND_FAVORITES_SETTINGS;
-        var6[10] = var7;
-        var11 = 22;
-        var11 = var13[var11];
-        var13 = var12.bind(var1)(var11);
-        var12 = var13.fileFinishedImporting;
-        var11 = 'modules/user_settings/UserSettingsProtoActionCreators.tsx';
-        var11 = var12.bind(var13)(var11);
-        var3['UserSettingsDelay'] = var10;
-        var10 = function markUserSettingsLoadOkayForDevelopment() {
+        var10 = var7.bind(var1)();
+        var7 = 15;
+        var7 = var14[var7];
+        var7 = var13.bind(var1)(var7);
+        var20 = var7.PreloadedUserSettings;
+        var19 = var12.PRELOADED_USER_SETTINGS;
+        var8 = var10.prototype;
+        var8 = Object.create(var8, {constructor: {value: var10}});
+        var21 = var8;
+        var7 = new var21[var10](var20, var19, var18);
+        var9 = var7 instanceof Object ? var7 : var8;
+        var _closure1_slot12 = var9;
+        var7 = 16;
+        var7 = var14[var7];
+        var7 = var13.bind(var1)(var7);
+        var20 = var7.FrecencyUserSettings;
+        var19 = var12.FRECENCY_AND_FAVORITES_SETTINGS;
+        var8 = var10.prototype;
+        var8 = Object.create(var8, {constructor: {value: var10}});
+        var21 = var8;
+        var7 = new var21[var10](var20, var19, var18);
+        var8 = var7 instanceof Object ? var7 : var8;
+        var7 = {};
+        var15 = var12.PRELOADED_USER_SETTINGS;
+        var7[14] = var9;
+        var12 = var12.FRECENCY_AND_FAVORITES_SETTINGS;
+        var7[11] = var8;
+        var12 = 22;
+        var12 = var14[var12];
+        var14 = var13.bind(var1)(var12);
+        var13 = var14.fileFinishedImporting;
+        var12 = 'modules/user_settings/UserSettingsProtoActionCreators.tsx';
+        var12 = var13.bind(var14)(var12);
+        var3['UserSettingsDelay'] = var11;
+        var11 = function markUserSettingsLoadOkayForDevelopment() {
             var1 = undefined;
             return var1;
         };
-        var3['markUserSettingsLoadOkayForDevelopment'] = var10;
-        var3['UserSettingsProtoActionCreators'] = var9;
-        var3['PreloadedUserSettingsActionCreators'] = var8;
-        var3['FrecencyUserSettingsActionCreators'] = var7;
-        var3['UserSettingsActionCreatorsByType'] = var6;
-        var6 = function updateUserAllGuildSettings(arg1, arg2) {
-            var2 = arg1;
-            var _closure2_slot0 = var2;
-            var5 = _closure1_slot12;
-            var4 = var5.updateAsync;
-            var3 = 'guilds';
-            var2 = function(arg1) {
-                var3 = _closure2_slot0;
-                var2 = undefined;
-                var1 = arg1;
-                var1 = var3.bind(var2)(var1);
-                return var1;
-            };
-            var1 = arg2;
-            var1 = var4.bind(var5)(var3, var2, var1);
-            return var1;
-        };
+        var3['markUserSettingsLoadOkayForDevelopment'] = var11;
+        var3['UserSettingsProtoActionCreators'] = var10;
+        var3['PreloadedUserSettingsActionCreators'] = var9;
+        var3['FrecencyUserSettingsActionCreators'] = var8;
+        var3['UserSettingsActionCreatorsByType'] = var7;
         var3['updateUserAllGuildSettings'] = var6;
         var3['updateUserGuildSettings'] = var5;
         var5 = function updateUserChannelSettings(arg1, arg2, arg3, arg4) {
@@ -1556,7 +1557,7 @@ case 40:
             var _closure2_slot0 = var2;
             var2 = arg3;
             var _closure2_slot1 = var2;
-            var5 = _closure1_slot15;
+            var5 = _closure1_slot16;
             var4 = undefined;
             var3 = arg1;
             var2 = function(arg1) {
@@ -1686,7 +1687,7 @@ case 136:
         var3['updateRecurringDismissibleContentState'] = var4;
         var4 = function updateGuildDismissedContent() {
             var1 = undefined;
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot19;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -1739,7 +1740,7 @@ case 137:
         };
         var3['removeDismissedContent'] = var4;
         var4 = function removeDismissedRecurringContent(arg1) {
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot17;
             var3 = undefined;
             var2 = arg1;
             var1 = {'lastDismissedVersion': 0, 'lastDismissedAtMs': '0', 'lastDismissedObjectId': '0', 'numTimesDismissed': 0};
@@ -1747,6 +1748,54 @@ case 137:
             return var1;
         };
         var3['removeDismissedRecurringContent'] = var4;
+        var4 = function clearGuildDismissedContents() {
+            var4 = _closure1_slot15;
+            var1 = _closure1_slot8;
+            var3 = var1.INFREQUENT_USER_ACTION;
+            var2 = undefined;
+            var1 = function(arg1) {
+                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+                    var1 = arg1;
+                    var2 = var1.guilds;
+                    var5 = null;
+                    if(!(var5 != var2)) { _fun0017_ip = 138; continue _fun0017 }
+case 139:
+                    var4 = global;
+                    var3 = var4.Object;
+                    var2 = var3.values;
+                    var1 = var1.guilds;
+                    var3 = var2.bind(var3)(var1);
+                    var1 = var3.length;
+                    var2 = 0;
+                    var1 = var2 < var1;
+                    if(!var1) { _fun0017_ip = 138; continue _fun0017 }
+case 105:
+                    var6 = var3[var2];
+                    if(!(var5 != var6)) { _fun0017_ip = 140; continue _fun0017 }
+case 7:
+                    var1 = {};
+                    var6['guildDismissibleContentStates'] = var1;
+                    var1 = var4.Uint8Array;
+                    var7 = var1.prototype;
+                    var7 = Object.create(var7, {constructor: {value: var1}});
+                    var9 = var7;
+                    var1 = new var9[var1](var8);
+                    var1 = var1 instanceof Object ? var1 : var7;
+                    var6['dismissedGuildContent'] = var1;
+case 140:
+                    var2 = var2 + 1;
+                    var1 = var3.length;
+                    if(var2 < var1) { _fun0017_ip = 105; continue _fun0017 }
+case 138:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1 = var4.bind(var2)(var1, var3);
+            return var1;
+        };
+        var3['clearGuildDismissedContents'] = var4;
         var4 = function clearDismissedContents() {
             var5 = _closure1_slot12;
             var4 = var5.updateAsync;
@@ -1779,7 +1828,7 @@ case 137:
             var3 = var1.INFREQUENT_USER_ACTION;
             var2 = 'userContent';
             var1 = function(arg1) {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                     var3 = arg1;
                     var1 = global;
@@ -1805,8 +1854,8 @@ case 0:
                     var6 = var5;
                     var5 = var2;
                     var2 = var5;
-                    if(var4) { _fun0017_ip = 138; continue _fun0017 }
-case 139:
+                    if(var4) { _fun0018_ip = 141; continue _fun0018 }
+case 140:
                     var14 = var6.value;
                     var12 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -1814,8 +1863,8 @@ case 139:
                     var12 = var12.bind(var1)(var4);
                     var4 = var12.isSingleUseDismissibleContent;
                     var4 = var4.bind(var12)(var14);
-                    if(var4) { _fun0017_ip = 83; continue _fun0017 }
-case 140:
+                    if(var4) { _fun0018_ip = 83; continue _fun0018 }
+case 142:
                     var12 = var3.recurringDismissibleContentStates;
                     var13 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -1825,7 +1874,7 @@ case 140:
                     var4 = var4.bind(var13)(var14);
                     var12[var14] = var4;
                     var12 = var5;
-                    _fun0017_ip = 141; continue _fun0017;
+                    _fun0018_ip = 143; continue _fun0018;
 case 83:
                     var13 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -1833,14 +1882,14 @@ case 83:
                     var13 = var13.bind(var1)(var4);
                     var4 = var13.addBit;
                     var12 = var4.bind(var13)(var5, var14);
-case 141:
+case 143:
                     var13 = var9.bind(var1)();
                     var4 = var13.done;
                     var5 = var12;
                     var6 = var13;
                     var2 = var5;
-                    if(!var4) { _fun0017_ip = 139; continue _fun0017 }
-case 138:
+                    if(!var4) { _fun0018_ip = 140; continue _fun0018 }
+case 141:
                     var3['dismissedContents'] = var2;
                     return var1;
                 }

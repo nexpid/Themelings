@@ -278,8 +278,6 @@ case 2:
             };
             var3 = var5.bind(var6)(var3);
             var1['carouselItems'] = var3;
-            var3 = var2.label;
-            var1['label'] = var3;
             var3 = var2.expires_at;
             var4 = var4 != var3;
             var3 = undefined;

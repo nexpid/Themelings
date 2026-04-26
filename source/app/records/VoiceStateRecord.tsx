@@ -167,14 +167,16 @@ case 27:
                 var1['suppress'] = var3;
                 var3 = var2.requestToSpeakTimestamp;
                 var1['requestToSpeakTimestamp'] = var3;
-                var3 = var2.discoverable;
-                var2 = null;
-                var2 = var2 == var3;
-                if(var2) { _fun0002_ip = 29; continue _fun0002 }
+                var4 = var2.discoverable;
+                var3 = null;
+                var3 = var3 == var4;
+                if(var3) { _fun0002_ip = 29; continue _fun0002 }
 case 30:
-                var2 = var3;
+                var3 = var4;
 case 29:
-                var1['discoverable'] = var2;
+                var1['discoverable'] = var3;
+                var2 = var2.connectedAt;
+                var1['connectedAt'] = var2;
                 return var1;
             }
         };

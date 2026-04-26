@@ -194,9 +194,9 @@ case 8:
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = arg1;
-                var8 = arg2;
+                var6 = arg2;
                 var _closure3_slot0 = var4;
-                var _closure3_slot1 = var8;
+                var _closure3_slot1 = var6;
                 var1 = arg3;
                 var _closure3_slot2 = var1;
                 var3 = _closure2_slot1;
@@ -205,25 +205,22 @@ case 0:
                 var3 = var3.videoProgress;
                 var5 = var3[var4];
                 var4 = null;
-                var6 = var4 == var5;
+                var7 = var4 == var5;
                 var3 = undefined;
-                if(var6) { _fun0002_ip = 10; continue _fun0002 }
+                if(var7) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
                 var3 = var5.maxTimestampSec;
 case 10:
                 var4 = var4 != var3;
-                var6 = 0;
+                var5 = 0;
                 if(!var4) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                var6 = var3;
+                var5 = var3;
 case 12:
                 var3 = global;
-                var5 = var3.Math;
-                var4 = var5.max;
-                var7 = var3.Math;
-                var3 = var7.floor;
-                var3 = var3.bind(var7)(var8);
-                var3 = var4.bind(var5)(var6, var3);
+                var4 = var3.Math;
+                var3 = var4.max;
+                var3 = var3.bind(var4)(var5, var6);
                 var _closure3_slot3 = var3;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;

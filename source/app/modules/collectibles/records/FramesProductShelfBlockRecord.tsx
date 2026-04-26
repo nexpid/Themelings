@@ -1,4 +1,4 @@
-// app/modules/collectibles/records/FramesExperienceBlockRecord.tsx
+// app/modules/collectibles/records/FramesProductShelfBlockRecord.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -24,26 +24,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var2 = function() {
-        var5 = function FramesExperienceBlockRecord(arg1) {
-            var2 = arg1;
-            var3 = this;
-            var6 = _closure1_slot2;
-            var5 = _closure2_slot0;
-            var1 = undefined;
-            var5 = var6.bind(var1)(var3, var5);
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var4 = 2;
-            var4 = var6[var4];
-            var4 = var5.bind(var1)(var4);
-            var4 = var4.ShopBlockType;
-            var4 = var4.FRAMES_EXPERIENCE;
-            var3['type'] = var4;
-            var4 = var2.frames_in_hero;
-            var3['framesInHero'] = var4;
-            var2 = var2.category_sku_id;
-            var3['categorySkuId'] = var2;
-            return var1;
+        var5 = function FramesProductShelfBlockRecord(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var2 = arg1;
+                var3 = this;
+                var6 = _closure1_slot2;
+                var5 = _closure2_slot0;
+                var1 = undefined;
+                var5 = var6.bind(var1)(var3, var5);
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var4 = 2;
+                var4 = var6[var4];
+                var4 = var5.bind(var1)(var4);
+                var4 = var4.ShopBlockType;
+                var4 = var4.FRAMES_PRODUCT_SHELF;
+                var3['type'] = var4;
+                var4 = var2.title;
+                var3['title'] = var4;
+                var4 = var2.category_sku_id;
+                var3['categorySkuId'] = var4;
+                var4 = var2.category_store_listing_id;
+                var3['categoryStoreListingId'] = var4;
+                var4 = var2.ranked_sku_ids;
+                var5 = null;
+                if(!(var5 == var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var4 = new Array(0);
+case 2:
+                var3['rankedSkuIds'] = var4;
+                var4 = var2.background_image;
+                var3['backgroundImage'] = var4;
+                var2 = var2.button_text;
+                var3['buttonText'] = var2;
+                return var1;
+            }
         };
         var _closure2_slot0 = var5;
         var4 = _closure1_slot3;
@@ -73,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/collectibles/records/FramesExperienceBlockRecord.tsx';
+    var4 = 'modules/collectibles/records/FramesProductShelfBlockRecord.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['FramesExperienceBlockRecord'] = var2;
+    var3['FramesProductShelfBlockRecord'] = var2;
     return var1;
 })();

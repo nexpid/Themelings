@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 8;
     var9['paddingRight'] = var10;
     var4['voiceStates'] = var9;
-    var9 = {'paddingRight': 0, 'flexDirection': 'row', 'flexWrap': 'wrap'};
+    var9 = {'paddingRight': 0, 'flexDirection': 'row', 'flexWrap': 'wrap', 'alignItems': 'center'};
     var4['voiceStatesCollapsed'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot2 = var4;

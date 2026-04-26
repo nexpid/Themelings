@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['completedText'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -190,7 +190,7 @@ case 9:
                     var5 = _closure1_slot4;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 8;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -201,32 +201,16 @@ case 8:
                     _fun0002_ip = 10; continue _fun0002;
 case 6:
                     var5 = _closure1_slot4;
-                    var9 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var2 = 6;
-                    var2 = var10[var2];
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 7;
+                    var2 = var4[var2];
                     var4 = undefined;
-                    var2 = var9.bind(var4)(var2);
-                    var3 = var2.Icon;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = var2.FormCheckbox;
                     var2 = {};
-                    var7 = _closure1_slot1;
-                    var6 = 7;
-                    var6 = var10[var6];
-                    var6 = var7.bind(var4)(var6);
-                    var2['source'] = var6;
                     var6 = true;
-                    var2['disableColor'] = var6;
-                    var6 = 8;
-                    var7 = var10[var6];
-                    var7 = var9.bind(var4)(var7);
-                    var8 = var7.intl;
-                    var7 = var8.string;
-                    var6 = var10[var6];
-                    var6 = var9.bind(var4)(var6);
-                    var6 = var6.t;
-                    var6 = var6.JOBw0y;
-                    var6 = var7.bind(var8)(var6);
-                    var2['accessibilityLabel'] = var6;
+                    var2['checked'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
 case 10:
                     return var1;
@@ -238,7 +222,7 @@ case 12:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var1 = var12[var1];
             var1 = var2.bind(var5)(var1);
             var2 = var1.SubLabel;
@@ -262,7 +246,7 @@ case 16:
             var3 = _closure1_slot4;
             var12 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var4 = 9;
+            var4 = 8;
             var1 = var17[var4];
             var2 = var12.bind(var5)(var1);
             var1 = {'start': true, 'end': true};
@@ -274,6 +258,9 @@ case 16:
             var18[0] = var20;
             var18[1] = var19;
             var1['DEPRECATED_style'] = var18;
+            var18 = {};
+            var18['checked'] = var16;
+            var1['accessibilityState'] = var18;
             var4 = var17[var4];
             var4 = var12.bind(var5)(var4);
             var12 = var4.Label;
@@ -302,7 +289,7 @@ case 15:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var12[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.RowButton;
@@ -311,8 +298,11 @@ case 15:
             var2['arrow'] = var17;
             var2['onPress'] = var14;
             var2['onLongPress'] = var10;
+            var10 = {};
+            var10['checked'] = var16;
+            var2['accessibilityState'] = var10;
             var10 = _closure1_slot1;
-            var9 = 9;
+            var9 = 8;
             var9 = var12[var9];
             var9 = var10.bind(var5)(var9);
             var10 = var9.Label;

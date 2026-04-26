@@ -47,14 +47,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 'SOCIAL_LAYER_STOREFRONT_PROMOTIONAL_BANNER';
     var2[var5] = var1;
     var5 = 10;
-    var2['FRAMES_EXPERIENCE'] = var5;
-    var1 = 'FRAMES_EXPERIENCE';
-    var2[var5] = var1;
-    var5 = 11;
     var2['FRAMES_BANNER'] = var5;
     var1 = 'FRAMES_BANNER';
     var2[var5] = var1;
-    var5 = 12;
+    var5 = 11;
     var2['FRAMES_PRODUCT_SHELF'] = var5;
     var1 = 'FRAMES_PRODUCT_SHELF';
     var2[var5] = var1;

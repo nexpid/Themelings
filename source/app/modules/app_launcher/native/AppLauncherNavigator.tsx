@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOWER;
+    var11 = var11.MOBILE_KEYBOARD_PANEL_BACKGROUND;
     var10['backgroundColor'] = var11;
     var4['navigator'] = var10;
     var4 = var8.bind(var9)(var4);

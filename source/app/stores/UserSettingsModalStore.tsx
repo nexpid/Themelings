@@ -266,13 +266,13 @@ case 0:
             var3 = var1.analyticsLocations;
             var4 = null;
             if(!(var4 == var3)) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+case 19:
             var3 = new Array(0);
 case 21:
             _closure1_slot8 = var3;
             var3 = var1.subsection;
             if(!(var4 != var3)) { _fun0005_ip = 10; continue _fun0005 }
-case 23:
+case 22:
             var3 = _closure1_slot7;
             var2 = _closure1_slot6;
             var1 = var1.subsection;
@@ -289,16 +289,16 @@ case 0:
             var1 = arg1;
             var2 = var1.forSection;
             var4 = null;
-            if(!(var4 == var2)) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+            if(!(var4 == var2)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
             var3 = _closure1_slot6;
             if(!(var4 != var3)) { _fun0006_ip = 17; continue _fun0006 }
-case 26:
+case 25:
             var3 = _closure1_slot7;
             var1 = _closure1_slot6;
             var1 = delete var3[var1];
             _fun0006_ip = 17; continue _fun0006;
-case 24:
+case 23:
             var1 = _closure1_slot7;
             var1 = delete var1[var2];
 case 17:

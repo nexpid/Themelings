@@ -1515,11 +1515,11 @@ case 61:
                     var6 = _closure2_slot2;
                     var6 = var1 == var6;
                     var7 = undefined;
-                    if(var6) { _fun0014_ip = 87; continue _fun0014 }
-case 82:
+                    if(var6) { _fun0014_ip = 81; continue _fun0014 }
+case 87:
                     var6 = _closure2_slot2;
                     var7 = var6.private;
-case 87:
+case 81:
                     if(!var7) { _fun0014_ip = 88; continue _fun0014 }
 case 89:
                     var10 = _closure1_slot19;

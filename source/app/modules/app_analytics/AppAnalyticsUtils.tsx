@@ -686,6 +686,9 @@ case 73:
             var5 = var1.isNSFW;
             var5 = var5.bind(var1)();
             var3['channel_is_nsfw'] = var5;
+            var5 = var1.isSpoilerChannel;
+            var5 = var5.bind(var1)();
+            var3['channel_is_spoiler'] = var5;
             var5 = var14.resolveUnreadSetting;
             var5 = var5.bind(var14)(var1);
             var3['channel_resolved_unread_setting'] = var5;

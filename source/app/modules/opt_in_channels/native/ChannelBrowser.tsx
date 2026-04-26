@@ -962,11 +962,11 @@ case 0:
                     var3 = var1.channel;
                     var1 = null;
                     var4 = var1 == var3;
-                    if(var4) { _fun0007_ip = 43; continue _fun0007 }
+                    if(var4) { _fun0007_ip = 42; continue _fun0007 }
 case 10:
                     var7 = _closure1_slot13;
-                    if(var2) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+                    if(var2) { _fun0007_ip = 43; continue _fun0007 }
+case 44:
                     var8 = _closure1_slot18;
                     var6 = {};
                     var6['channel'] = var3;
@@ -983,8 +983,8 @@ case 45:
                     var5 = var3.id;
                     var2 = undefined;
                     var2 = var7.bind(var2)(var8, var6, var5);
-                    _fun0007_ip = 46; continue _fun0007;
-case 44:
+                    _fun0007_ip = 45; continue _fun0007;
+case 43:
                     var6 = _closure1_slot17;
                     var5 = {};
                     var5['channel'] = var3;
@@ -993,9 +993,9 @@ case 44:
                     var4 = var3.id;
                     var3 = undefined;
                     var2 = var7.bind(var3)(var6, var5, var4);
-case 46:
+case 45:
                     var1 = var2;
-case 43:
+case 42:
                     return var1;
                 }
             };
@@ -1035,8 +1035,8 @@ case 43:
             var7 = var6.FlashList;
             var6 = {};
             var11 = null;
-            if(var17) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+            if(var17) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
             var19 = _closure1_slot14;
             var18 = _closure1_slot5;
             var17 = {};
@@ -1175,7 +1175,7 @@ case 48:
             var20[2] = var21;
             var17['children'] = var20;
             var11 = var19.bind(var4)(var18, var17);
-case 47:
+case 46:
             var6['ListHeaderComponent'] = var11;
             var20 = _closure1_slot0;
             var11 = _closure1_slot2;

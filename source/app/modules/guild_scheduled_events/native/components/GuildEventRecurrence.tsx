@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'alignSelf': 'stretch', 'flexDirection': 'row', 'justifyContent': 'space-between'};
+    var9 = {'alignSelf': 'stretch', 'flexDirection': 'row', 'justifyContent': 'space-between', 'alignItems': 'center'};
     var4['container'] = var9;
     var9 = {'marginStart': 8, 'flexShrink': 0, 'flexGrow': 1};
     var4['eventHeader'] = var9;
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOWEST;
+    var12 = var12.INTERACTIVE_BACKGROUND_SELECTED;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -101,7 +101,7 @@ case 0:
             var _closure2_slot1 = var6;
             var2 = var1.onPress;
             var _closure2_slot2 = var2;
-            var8 = var1.isActive;
+            var17 = var1.isActive;
             var5 = undefined;
             var _closure2_slot4 = var5;
             var _closure2_slot5 = var5;
@@ -113,8 +113,8 @@ case 0:
             var3 = _closure1_slot2;
             var4 = 8;
             var1 = var3[var4];
-            var9 = var2.bind(var5)(var1);
-            var7 = var9.useStateFromStores;
+            var8 = var2.bind(var5)(var1);
+            var7 = var8.useStateFromStores;
             var1 = _closure1_slot7;
             var2 = new Array(1);
             var2[0] = var1;
@@ -125,7 +125,7 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var15 = var7.bind(var9)(var2, var1);
+            var15 = var7.bind(var8)(var2, var1);
             var _closure2_slot3 = var15;
             var2 = _closure1_slot1;
             var1 = 9;
@@ -140,13 +140,13 @@ case 3:
 case 2:
             var2 = var3.bind(var5)(var13, var2);
             var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var3 = var10[var4];
-            var12 = var7.bind(var5)(var3);
-            var11 = var12.useStateFromStores;
+            var9 = _closure1_slot2;
+            var3 = var9[var4];
+            var11 = var7.bind(var5)(var3);
+            var10 = var11.useStateFromStores;
             var3 = _closure1_slot6;
-            var9 = new Array(1);
-            var9[0] = var3;
+            var8 = new Array(1);
+            var8[0] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -165,14 +165,14 @@ case 4:
                     return var1;
                 }
             };
-            var3 = var11.bind(var12)(var9, var3);
+            var3 = var10.bind(var11)(var8, var3);
             _closure2_slot4 = var3;
-            var4 = var10[var4];
-            var12 = var7.bind(var5)(var4);
-            var11 = var12.useStateFromStores;
+            var4 = var9[var4];
+            var11 = var7.bind(var5)(var4);
+            var10 = var11.useStateFromStores;
             var4 = _closure1_slot5;
-            var9 = new Array(1);
-            var9[0] = var4;
+            var8 = new Array(1);
+            var8[0] = var4;
             var4 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -191,14 +191,14 @@ case 6:
                     return var1;
                 }
             };
-            var9 = var11.bind(var12)(var9, var4);
+            var8 = var10.bind(var11)(var8, var4);
             var4 = 10;
-            var4 = var10[var4];
+            var4 = var9[var4];
             var7 = var7.bind(var5)(var4);
             var4 = var7.useManageResourcePermissions;
-            if(!(var1 != var9)) { _fun0001_ip = 8; continue _fun0001 }
+            if(!(var1 != var8)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var3 = var9;
+            var3 = var8;
 case 8:
             var3 = var4.bind(var7)(var3);
             var3 = var3.canManageGuildEvent;
@@ -263,15 +263,15 @@ case 18:
             var3 = var23;
             if(!var12) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
             var2 = 13;
-            var6 = var10[var2];
-            var6 = var9.bind(var5)(var6);
+            var6 = var9[var2];
+            var6 = var8.bind(var5)(var6);
             var7 = var6.intl;
             var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var9.bind(var5)(var2);
+            var2 = var9[var2];
+            var2 = var8.bind(var5)(var2);
             var2 = var2.t;
             var2 = var2.fyBVRm;
             var7 = var6.bind(var7)(var2);
@@ -302,7 +302,7 @@ case 22:
             var6 = new Array(2);
             var6[0] = var7;
             var7 = undefined;
-            if(!var8) { _fun0001_ip = 24; continue _fun0001 }
+            if(!var17) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
             var7 = var16.active;
 case 24:
@@ -310,9 +310,9 @@ case 24:
             var2['style'] = var6;
             var8 = _closure1_slot8;
             var10 = _closure1_slot0;
-            var17 = _closure1_slot2;
+            var18 = _closure1_slot2;
             var11 = 14;
-            var6 = var17[var11];
+            var6 = var18[var11];
             var6 = var10.bind(var5)(var6);
             var7 = var6.PressableOpacity;
             var6 = {'accessible': true, 'accessibilityRole': 'button'};
@@ -345,11 +345,15 @@ case 28:
             var9 = var16.eventHeader;
             var6['style'] = var9;
             var9 = 15;
-            var9 = var17[var9];
+            var9 = var18[var9];
             var9 = var10.bind(var5)(var9);
             var10 = var9.GuildEventCardHeader;
-            var9 = {'event': null, 'showUserCount': false, 'showCreator': false};
+            var9 = {};
+            var9['isActive'] = var17;
             var9['event'] = var15;
+            var15 = false;
+            var9['showUserCount'] = var15;
+            var9['showCreator'] = var15;
             var9['recurrenceId'] = var13;
             var9 = var8.bind(var5)(var10, var9);
             var6['children'] = var9;

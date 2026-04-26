@@ -89,7 +89,7 @@ case 0:
                                 var1 = var1.SUB_COMMAND;
                                 var1 = var3 === var1;
                                 if(var1) { _fun0003_ip = 7; continue _fun0003 }
-case 5:
+case 8:
                                 var4 = _closure1_slot0;
                                 var2 = _closure1_slot2;
                                 var2 = var2[var6];

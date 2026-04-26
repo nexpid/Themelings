@@ -6158,8 +6158,13 @@ case 0:
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isDesktop;
                 var3 = var3.bind(var5)();
-                if(!var3) { _fun0142_ip = 138; continue _fun0142 }
+                if(!var3) { _fun0142_ip = 229; continue _fun0142 }
 case 85:
+                var3 = global;
+                var6 = var3.performance;
+                var5 = var6.mark;
+                var3 = 'app_viewed';
+                var3 = var5.bind(var6)(var3);
                 var3 = var4.sendIPC;
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -6169,7 +6174,7 @@ case 85:
                 var2 = var2.IPCEvents;
                 var2 = var2.APP_VIEWED;
                 var2 = var3.bind(var4)(var2);
-case 138:
+case 229:
                 return var1;
             }
         };
@@ -6186,8 +6191,13 @@ case 0:
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isDesktop;
                 var3 = var3.bind(var5)();
-                if(!var3) { _fun0143_ip = 138; continue _fun0143 }
+                if(!var3) { _fun0143_ip = 229; continue _fun0143 }
 case 85:
+                var3 = global;
+                var6 = var3.performance;
+                var5 = var6.mark;
+                var3 = 'app_first_render_after_ready_payload';
+                var3 = var5.bind(var6)(var3);
                 var3 = var4.sendIPC;
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -6197,7 +6207,7 @@ case 85:
                 var2 = var2.IPCEvents;
                 var2 = var2.APP_FIRST_RENDER_AFTER_READY_PAYLOAD;
                 var2 = var3.bind(var4)(var2);
-case 138:
+case 229:
                 return var1;
             }
         };

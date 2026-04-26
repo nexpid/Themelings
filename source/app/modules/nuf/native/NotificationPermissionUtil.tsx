@@ -214,14 +214,28 @@ case 0:
                 var1 = var1.authorizationStatus;
                 return var1;
             };
-            var3 = var5.bind(var6)(var4, var3);
+            var4 = var5.bind(var6)(var4, var3);
             var1 = !var1;
             if(!var1) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
-            var2 = _closure1_slot10;
-            var2 = var2.DENIED;
-            var1 = var3 === var2;
+            var3 = null;
+            var1 = var3 != var4;
 case 21:
+            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
+            var3 = _closure1_slot10;
+            var5 = var3.DENIED;
+            var3 = new Array(3);
+            var3[0] = var5;
+            var5 = _closure1_slot10;
+            var5 = var5.PROVISIONAL;
+            var3[1] = var5;
+            var2 = _closure1_slot10;
+            var2 = var2.UNDETERMINED;
+            var3[2] = var2;
+            var2 = var3.includes;
+            var1 = var2.bind(var3)(var4);
+case 23:
             return var1;
         }
     };
@@ -315,7 +329,7 @@ case 21:
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0005_ip = 23; continue _fun0005 }
+                            if(var2) { _fun0005_ip = 25; continue _fun0005 }
 case 12:
                             var2 = _closure1_slot6;
                             var4 = var2.NativePermissionManager;
@@ -326,22 +340,22 @@ case 13:
                             return var2;
 case 14:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0005_ip = 24; continue _fun0005 }
+                            if(var4) { _fun0005_ip = 26; continue _fun0005 }
 case 16:
                             var3 = _closure1_slot10;
                             var3 = var3.AUTHORIZED;
-                            if(!(var2 !== var3)) { _fun0005_ip = 25; continue _fun0005 }
+                            if(!(var2 !== var3)) { _fun0005_ip = 27; continue _fun0005 }
 case 18:
                             var5 = _closure2_slot0;
                             var4 = undefined;
                             var3 = true;
                             var3 = var5.bind(var4)(var3);
-case 25:
+case 27:
                             var3 = undefined;
                             return var3;
-case 24:
+case 26:
                             return var2;
-case 23:
+case 25:
                             return var1;
                         }
                     };
@@ -412,12 +426,12 @@ case 0:
                 return var1;
             };
             var4 = var4.bind(var5)(var3, var2);
-            if(!var1) { _fun0006_ip = 26; continue _fun0006 }
+            if(!var1) { _fun0006_ip = 28; continue _fun0006 }
 case 19:
             var3 = var4.has;
             var2 = arg1;
             var1 = var3.bind(var4)(var2);
-case 26:
+case 28:
             return var1;
         }
     };

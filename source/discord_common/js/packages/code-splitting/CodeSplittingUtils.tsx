@@ -176,8 +176,154 @@ case 14:
             }
         };
         var3['makeLazy'] = var4;
-        var2 = function LazyLibrary(arg1) {
+        var4 = function makeLazyWithPreload(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var1 = arg1;
+                var3 = var1.createPromise;
+                var _closure2_slot0 = var3;
+                var3 = var1.webpackId;
+                var _closure2_slot1 = var3;
+                var3 = var1.renderLoader;
+                var _closure2_slot2 = var3;
+                var6 = var1.name;
+                var4 = var1.memo;
+                var1 = undefined;
+                if(!(var4 === var1)) { _fun0005_ip = 7; continue _fun0005 }
+case 8:
+                var4 = false;
+case 7:
+                var _closure2_slot6 = var1;
+                var1 = null;
+                var _closure2_slot3 = var1;
+                var _closure2_slot4 = var1;
+                var7 = function importPromise() {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                        var3 = _closure2_slot3;
+                        var2 = null;
+                        if(!(var2 == var3)) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot1;
+                        var2 = 3;
+                        var3 = var3[var2];
+                        var2 = undefined;
+                        var4 = var4.bind(var2)(var3);
+                        var3 = var4.importWithRetry;
+                        var2 = {};
+                        var5 = _closure2_slot0;
+                        var2['createPromise'] = var5;
+                        var5 = _closure2_slot1;
+                        var2['webpackId'] = var5;
+                        var4 = var3.bind(var4)(var2);
+                        var3 = var4.then;
+                        var2 = function(arg1) {
+                            var1 = arg1;
+                            var3 = var1.default;
+                            _closure2_slot4 = var3;
+                            return var1;
+                        };
+                        var2 = var3.bind(var4)(var2);
+                        _closure2_slot3 = var2;
+case 16:
+                        var1 = _closure2_slot3;
+                        return var1;
+                    }
+                };
+                var _closure2_slot5 = var7;
+                var5 = _closure1_slot3;
+                var1 = var5.lazy;
+                var1 = var1.bind(var5)(var7);
+                _closure2_slot6 = var1;
+                var5 = function Wrapper(arg1) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                        var6 = arg1;
+                        var4 = _closure1_slot3;
+                        var3 = var4.useState;
+                        var1 = function() {
+                            var1 = _closure2_slot4;
+                            return var1;
+                        };
+                        var4 = var3.bind(var4)(var1);
+                        var3 = _closure1_slot2;
+                        var5 = undefined;
+                        var1 = 1;
+                        var3 = var3.bind(var5)(var4, var1);
+                        var1 = 0;
+                        var4 = var3[var1];
+                        var10 = null;
+                        if(!(var10 == var4)) { _fun0007_ip = 18; continue _fun0007 }
+case 19:
+                        var7 = _closure1_slot4;
+                        var1 = _closure1_slot3;
+                        var3 = var1.Suspense;
+                        var1 = {};
+                        var9 = _closure2_slot2;
+                        if(!(var10 == var9)) { _fun0007_ip = 13; continue _fun0007 }
+case 20:
+                        var9 = _closure1_slot6;
+                        var9 = var9.bind(var5)();
+                        var9 = var9.bind(var5)();
+                        _fun0007_ip = 21; continue _fun0007;
+case 13:
+                        var10 = _closure2_slot2;
+                        var9 = var10.bind(var5)();
+case 21:
+                        var1['fallback'] = var9;
+                        var10 = _closure1_slot4;
+                        var9 = _closure2_slot6;
+                        var8 = {};
+                        var13 = var8;
+                        var12 = var6;
+                        var11 = copyDataProperties(var13, var12);
+                        var8 = var10.bind(var5)(var9, var8);
+                        var1['children'] = var8;
+                        var1 = var7.bind(var5)(var3, var1);
+                        _fun0007_ip = 22; continue _fun0007;
+case 18:
+                        var3 = _closure1_slot4;
+                        var2 = {};
+                        var13 = var2;
+                        var12 = var6;
+                        var6 = copyDataProperties(var13, var12);
+                        var1 = var3.bind(var5)(var4, var2);
+case 22:
+                        return var1;
+                    }
+                };
+                var1 = var5;
+                if(!var4) { _fun0005_ip = 23; continue _fun0005 }
+case 12:
+                var4 = _closure1_slot3;
+                var3 = var4.memo;
+                var1 = var3.bind(var4)(var5);
+case 23:
+                if(var6) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
+                var6 = 'Unknown';
+case 24:
+                var3 = global;
+                var3 = var3.HermesInternal;
+                var5 = var3.concat;
+                var4 = 'Suspense(';
+                var3 = ')';
+                var3 = var5.bind(var4)(var6, var3);
+                var1['displayName'] = var3;
+                var2 = function() {
+                    var2 = _closure2_slot5;
+                    var1 = undefined;
+                    var2 = var2.bind(var1)();
+                    return var1;
+                };
+                var1['preload'] = var2;
+                return var1;
+            }
+        };
+        var3['makeLazyWithPreload'] = var4;
+        var2 = function LazyLibrary(arg1) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var1 = arg1;
                 var3 = var1.createPromise;
@@ -231,13 +377,13 @@ case 0:
                 var3 = _closure1_slot4;
                 var2 = _closure1_slot5;
                 var1 = {};
-                if(!(var8 != var5)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+                if(!(var8 != var5)) { _fun0008_ip = 26; continue _fun0008 }
+case 27:
                 var5 = var7.bind(var4)(var5);
-                _fun0005_ip = 18; continue _fun0005;
-case 16:
+                _fun0008_ip = 28; continue _fun0008;
+case 26:
                 var5 = var6.bind(var4)();
-case 18:
+case 28:
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;

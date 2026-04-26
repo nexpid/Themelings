@@ -88,7 +88,7 @@ case 2:
             var4 = 6;
             var4 = var10[var4];
             var5 = var5.bind(var11)(var4);
-            var4 = var5.canUseCollectibles;
+            var4 = var5.canUseShopDiscounts;
             var10 = var4.bind(var5)(var6);
             _closure2_slot5 = var10;
             var6 = _closure1_slot3;

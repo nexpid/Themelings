@@ -828,7 +828,7 @@ case 67:
             var2['event'] = var5;
             var5 = var7;
             if(!var6) { _fun0010_ip = 69; continue _fun0010 }
-case 70:
+case 63:
             var6 = {};
             var15 = var6;
             var14 = var7;
@@ -845,6 +845,73 @@ case 69:
         }
     };
     var3['trackAppStoreOverlayEvent'] = var5;
+    var5 = function trackAdContentAppStoreOverlayEvent(arg1, arg2, arg3, arg4, arg5) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+            var1 = arg1;
+            var4 = arg2;
+            var9 = arg4;
+            var8 = arg5;
+            var10 = var1.adContentId;
+            var6 = var1.adCreativeType;
+            var7 = {};
+            var3 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 13;
+            var12 = var11[var2];
+            var1 = undefined;
+            var14 = var3.bind(var1)(var12);
+            var13 = var14.getQuestContentName;
+            var12 = var4.content;
+            var12 = var13.bind(var14)(var12);
+            var7['content_name'] = var12;
+            var12 = var4.ctaContent;
+            var7['cta_name'] = var12;
+            var12 = var4.impressionId;
+            var7['impression_id'] = var12;
+            var2 = var11[var2];
+            var11 = var3.bind(var1)(var2);
+            var3 = var11.getQuestContentName;
+            var2 = var4.sourceQuestContent;
+            var2 = var3.bind(var11)(var2);
+            var7['source_content_name'] = var2;
+            var2 = arg3;
+            var7['app_id'] = var2;
+            var2 = var4.position;
+            var7['content_position'] = var2;
+            var3 = _closure1_slot15;
+            var2 = {};
+            var2['adContentId'] = var10;
+            var2['adCreativeType'] = var6;
+            var2['event'] = var9;
+            var6 = _closure1_slot7;
+            var6 = var6.QUEST_APP_STORE_OVERLAY_CLOSED;
+            if(!(var9 !== var6)) { _fun0011_ip = 70; continue _fun0011 }
+case 71:
+            var5 = _closure1_slot7;
+            var6 = var5.QUEST_APP_STORE_OVERLAY_RETURNED;
+            var5 = var7;
+            if(!(var9 === var6)) { _fun0011_ip = 72; continue _fun0011 }
+case 70:
+            var5 = var7;
+            if(!(var1 !== var8)) { _fun0011_ip = 72; continue _fun0011 }
+case 39:
+            var6 = {};
+            var16 = var6;
+            var15 = var7;
+            var7 = copyDataProperties(var16, var15);
+            var7 = 'time_spent_ms';
+            var6[6] = var8;
+            var5 = var6;
+case 72:
+            var2['properties'] = var5;
+            var4 = var4.sourceQuestContent;
+            var2['sourceQuestContent'] = var4;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        }
+    };
+    var3['trackAdContentAppStoreOverlayEvent'] = var5;
     var3['trackAdContentEvent'] = var4;
     var4 = function trackQuestContentClicked() {
         var1 = undefined;
@@ -868,6 +935,51 @@ case 69:
         return var1;
     };
     var3['trackAdContentClicked'] = var4;
+    var4 = function trackBountyCarouselScroll(arg1) {
+        var1 = arg1;
+        var11 = var1.scrollingType;
+        var10 = var1.scrollingDirection;
+        var6 = var1.carouselPosition;
+        var8 = var1.questContent;
+        var7 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var1 = 6;
+        var2 = var9[var1];
+        var1 = undefined;
+        var3 = var7.bind(var1)(var2);
+        var2 = var3.getOrRefreshAdSession;
+        var2 = var2.bind(var3)();
+        var14 = var2.uuid;
+        var3 = _closure1_slot1;
+        var2 = 12;
+        var2 = var9[var2];
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot7;
+        var3 = var2.BOUNTY_CAROUSEL_SCROLL;
+        var2 = {};
+        var2['client_ad_session_id'] = var14;
+        var13 = _closure1_slot9;
+        var12 = 7;
+        var12 = var9[var12];
+        var15 = var7.bind(var1)(var12);
+        var12 = var15.isBillableQuestContent;
+        var12 = var12.bind(var15)(var8);
+        var12 = var13.bind(var1)(var14, var12);
+        var2['billing_session_id'] = var12;
+        var2['scrolling_type'] = var11;
+        var2['scrolling_direction'] = var10;
+        var2['carousel_position'] = var6;
+        var6 = 13;
+        var6 = var9[var6];
+        var7 = var7.bind(var1)(var6);
+        var6 = var7.getQuestContentName;
+        var6 = var6.bind(var7)(var8);
+        var2['content_name'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var3['trackBountyCarouselScroll'] = var4;
     var4 = function trackQuestBarOrDockModeChange(arg1) {
         var1 = arg1;
         var8 = var1.questContent;

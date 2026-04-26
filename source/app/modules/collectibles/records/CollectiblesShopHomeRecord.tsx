@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.FramesExperienceBlockRecord;
+    var4 = var4.FramesProductShelfBlockRecord;
     var _closure1_slot10 = var4;
     var4 = 9;
     var4 = var6[var4];
@@ -191,7 +191,7 @@ case 21:
                         var4 = var4[var7];
                         var4 = var6.bind(var2)(var4);
                         var4 = var4.ShopBlockType;
-                        var4 = var4.FRAMES_EXPERIENCE;
+                        var4 = var4.FRAMES_PRODUCT_SHELF;
                         if(!(var4 !== var5)) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
                         return var2;

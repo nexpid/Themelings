@@ -82,7 +82,7 @@ case 4:
     var4 = null;
     var _closure1_slot8 = var4;
     var _closure1_slot9 = var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var7[var4];
     var5 = var5.bind(var1)(var4);
     var4 = function(arg1) {
@@ -148,13 +148,13 @@ case 8:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var1 = arg1;
-                var8 = var1.state;
+                var7 = var1.state;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var1 = 6;
                 var1 = var3[var1];
-                var7 = undefined;
-                var2 = var2.bind(var7)(var1);
+                var8 = undefined;
+                var2 = var2.bind(var8)(var1);
                 var1 = var2.isAndroid;
                 var1 = var1.bind(var2)();
                 var1 = !var1;
@@ -169,10 +169,10 @@ case 12:
                 var5 = _closure1_slot1;
                 var9 = 7;
                 var5 = var5[var9];
-                var5 = var6.bind(var7)(var5);
+                var5 = var6.bind(var8)(var5);
                 var5 = var5.AppStates;
                 var5 = var5.ACTIVE;
-                if(!(var8 === var5)) { _fun0003_ip = 13; continue _fun0003 }
+                if(!(var7 === var5)) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
                 var5 = _closure1_slot9;
                 if(!(var3 == var5)) { _fun0003_ip = 15; continue _fun0003 }
@@ -180,58 +180,36 @@ case 13:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var5 = var5[var9];
-                var5 = var6.bind(var7)(var5);
+                var5 = var6.bind(var8)(var5);
                 var5 = var5.AppStates;
                 var6 = var5.BACKGROUND;
                 var2 = false;
-                if(!(var8 === var6)) { _fun0003_ip = 11; continue _fun0003 }
+                if(!(var7 === var6)) { _fun0003_ip = 11; continue _fun0003 }
 case 16:
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot1;
-                var6 = 8;
-                var6 = var9[var6];
-                var12 = var8.bind(var7)(var6);
-                var11 = var12.trackAppStoreOverlayEvent;
-                var6 = _closure1_slot8;
-                var17 = var6.quest;
-                var6 = _closure1_slot8;
-                var16 = var6.trackingCtx;
-                var6 = _closure1_slot8;
-                var15 = var6.inlineStoreAppId;
+                var8 = _closure1_slot8;
+                var7 = var8.trackOverlayEvent;
                 var6 = _closure1_slot7;
-                var14 = var6.QUEST_APP_STORE_OVERLAY_BACKGROUNDED;
-                var18 = var12;
-                var6 = var18[var11](var17, var16, var15, var14, var13);
+                var6 = var6.QUEST_APP_STORE_OVERLAY_BACKGROUNDED;
+                var6 = var7.bind(var8)(var6);
                 var6 = global;
-                var8 = var6.Date;
-                var6 = var8.now;
-                var6 = var6.bind(var8)();
+                var7 = var6.Date;
+                var6 = var7.now;
+                var6 = var6.bind(var7)();
                 _closure1_slot9 = var6;
                 var2 = false;
                 _fun0003_ip = 11; continue _fun0003;
 case 15:
-                var6 = _closure1_slot0;
-                var8 = _closure1_slot1;
-                var5 = 8;
-                var5 = var8[var5];
-                var11 = var6.bind(var7)(var5);
-                var10 = var11.trackAppStoreOverlayEvent;
-                var5 = _closure1_slot8;
-                var17 = var5.quest;
-                var5 = _closure1_slot8;
-                var16 = var5.trackingCtx;
-                var5 = _closure1_slot8;
-                var15 = var5.inlineStoreAppId;
+                var8 = _closure1_slot8;
+                var7 = var8.trackOverlayEvent;
                 var5 = _closure1_slot7;
-                var14 = var5.QUEST_APP_STORE_OVERLAY_RETURNED;
+                var6 = var5.QUEST_APP_STORE_OVERLAY_RETURNED;
                 var5 = global;
-                var12 = var5.Date;
-                var5 = var12.now;
-                var12 = var5.bind(var12)();
+                var9 = var5.Date;
+                var5 = var9.now;
+                var9 = var5.bind(var9)();
                 var5 = _closure1_slot9;
-                var13 = var12 - var5;
-                var18 = var11;
-                var5 = var18[var10](var17, var16, var15, var14, var13, var12);
+                var5 = var9 - var5;
+                var5 = var7.bind(var8)(var6, var5);
                 _closure1_slot9 = var3;
                 var2 = false;
 case 11:
@@ -252,7 +230,7 @@ case 9:
     var13 = var5;
     var4 = new var13[var4](var12);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 10;
+    var5 = 9;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

@@ -402,10 +402,10 @@ case 15:
                     var2 = var3.bind(var4)();
 case 14:
                     var1 = var1 != var2;
-                    if(!var1) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-                    var1 = var2;
+                    if(!var1) { _fun0004_ip = 7; continue _fun0004 }
 case 16:
+                    var1 = var2;
+case 7:
                     return var1;
                 }
             };
@@ -457,14 +457,14 @@ case 0:
                     var3 = _closure1_slot15;
                     var3 = var3.ACTIVE;
                     var3 = var4 === var3;
-                    if(!var3) { _fun0005_ip = 10; continue _fun0005 }
+                    if(!var3) { _fun0005_ip = 17; continue _fun0005 }
 case 15:
                     var4 = _closure2_slot8;
                     var5 = var4.current;
                     var4 = _closure1_slot15;
                     var4 = var4.BACKGROUND;
                     var3 = var5 === var4;
-case 10:
+case 17:
                     if(!var3) { _fun0005_ip = 18; continue _fun0005 }
 case 19:
                     var4 = _closure1_slot1;

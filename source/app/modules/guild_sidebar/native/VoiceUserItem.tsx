@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 0.5;
     var10['opacity'] = var12;
     var4['disabled'] = var10;
-    var10 = {'marginTop': 4, 'marginRight': 8, 'height': 32, 'borderRadius': null, 'borderWidth': 4};
+    var10 = {'marginTop': 4, 'marginRight': 8, 'width': 32, 'height': 32, 'borderRadius': null, 'borderWidth': 4, 'borderColor': null, 'alignItems': 'center', 'overflow': 'hidden'};
     var14 = 8;
     var12 = 7;
     var15 = var7[var12];

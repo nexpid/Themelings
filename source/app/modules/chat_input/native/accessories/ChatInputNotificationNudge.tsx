@@ -28,7 +28,7 @@ case 0:
             var3 = var3.bind(var4)(var2);
             var2 = 'ChatInputNotificationNudge';
             var11 = var3.bind(var4)(var2);
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot19;
             var20 = var2.bind(var4)(var11);
             var3 = _closure1_slot5;
             var2 = new Array(1);
@@ -44,7 +44,7 @@ case 0:
                 var2 = _closure1_slot10;
                 var3 = var2.CONTEXTUAL_REMINDER_ACTION;
                 var2 = {};
-                var6 = _closure1_slot14;
+                var6 = _closure1_slot15;
                 var6 = var6.IMPRESSION;
                 var2['action'] = var6;
                 var6 = _closure2_slot2;
@@ -53,7 +53,7 @@ case 0:
                 return var1;
             };
             var1 = var3.bind(var4)(var1, var2);
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = _closure1_slot6;
             var1 = {};
             var6 = var20.container;
@@ -66,12 +66,12 @@ case 3:
 case 2:
             var5[1] = var6;
             var1['style'] = var5;
-            var8 = _closure1_slot16;
+            var8 = _closure1_slot17;
             var7 = _closure1_slot6;
             var5 = {};
             var6 = var20.iconContainer;
             var5['style'] = var6;
-            var16 = _closure1_slot16;
+            var16 = _closure1_slot17;
             var10 = _closure1_slot0;
             var6 = _closure1_slot2;
             var12 = 14;
@@ -93,12 +93,12 @@ case 2:
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(3);
             var5[0] = var7;
-            var14 = _closure1_slot17;
+            var14 = _closure1_slot18;
             var8 = _closure1_slot6;
             var7 = {};
             var12 = var20.contentContainer;
             var7['style'] = var12;
-            var12 = _closure1_slot16;
+            var12 = _closure1_slot17;
             var19 = 15;
             var6 = var6[var19];
             var6 = var10.bind(var4)(var6);
@@ -120,7 +120,7 @@ case 6:
             var6 = var12.bind(var4)(var10, var6);
             var15 = new Array(2);
             var15[0] = var6;
-            var18 = _closure1_slot16;
+            var18 = _closure1_slot17;
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var6 = 16;
@@ -138,13 +138,10 @@ case 6:
                 var1 = undefined;
                 var9 = var3.bind(var1)(var2);
                 var8 = var9.requestPushNotificationPermission;
-                var2 = _closure1_slot13;
-                var5 = var2.TO_SETTINGS;
+                var2 = _closure1_slot14;
+                var5 = var2.ALLOW_TO_REQUEST;
                 var3 = _closure2_slot1;
-                var2 = function() {
-                    var1 = undefined;
-                    return var1;
-                };
+                var2 = _closure1_slot11;
                 var2 = var8.bind(var9)(var5, var3, var2);
                 var3 = _closure1_slot1;
                 var2 = 13;
@@ -154,7 +151,7 @@ case 6:
                 var2 = _closure1_slot10;
                 var3 = var2.CONTEXTUAL_REMINDER_ACTION;
                 var2 = {};
-                var7 = _closure1_slot14;
+                var7 = _closure1_slot15;
                 var7 = var7.ACCEPT;
                 var2['action'] = var7;
                 var6 = _closure2_slot2;
@@ -167,7 +164,7 @@ case 6:
             var16['style'] = var20;
             var20 = 'button';
             var16['accessibilityRole'] = var20;
-            var21 = _closure1_slot16;
+            var21 = _closure1_slot17;
             var10 = var10[var19];
             var10 = var12.bind(var4)(var10);
             var20 = var10.Text;
@@ -200,7 +197,7 @@ case 8:
             var7['children'] = var15;
             var7 = var14.bind(var4)(var8, var7);
             var5[1] = var7;
-            var8 = _closure1_slot16;
+            var8 = _closure1_slot17;
             var6 = var12[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.PressableHighlight;
@@ -223,7 +220,7 @@ case 8:
                 var3 = _closure1_slot10;
                 var4 = var3.CONTEXTUAL_REMINDER_ACTION;
                 var3 = {};
-                var7 = _closure1_slot14;
+                var7 = _closure1_slot15;
                 var7 = var7.DISMISS;
                 var3['action'] = var7;
                 var7 = _closure2_slot2;
@@ -246,7 +243,7 @@ case 8:
             var11 = var11.WAI6xu;
             var11 = var13.bind(var14)(var11);
             var6['accessibilityLabel'] = var11;
-            var11 = _closure1_slot16;
+            var11 = _closure1_slot17;
             var9 = 20;
             var9 = var12[var9];
             var9 = var10.bind(var4)(var9);
@@ -261,7 +258,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -303,31 +300,33 @@ case 8:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot10 = var4;
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot10 = var7;
+    var4 = var4.NOOP;
+    var _closure1_slot11 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ContentDismissActionType;
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.EventActionLocation;
-    var _closure1_slot12 = var7;
-    var7 = var4.EventActionType;
     var _closure1_slot13 = var7;
-    var7 = var4.NotificationNudgeAnalyticsAction;
+    var7 = var4.EventActionType;
     var _closure1_slot14 = var7;
+    var7 = var4.NotificationNudgeAnalyticsAction;
+    var _closure1_slot15 = var7;
     var4 = var4.NotificationNudgeSurface;
-    var _closure1_slot15 = var4;
+    var _closure1_slot16 = var4;
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot16 = var7;
+    var _closure1_slot17 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot17 = var4;
+    var _closure1_slot18 = var4;
     var4 = 10;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -456,7 +455,7 @@ case 22:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot18 = var4;
+    var _closure1_slot19 = var4;
     var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -624,7 +623,7 @@ case 32:
             var8[0] = var6;
             var6 = function() {
                 var3 = _closure2_slot1;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var2 = var1.USER_DISMISS;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -635,7 +634,7 @@ case 32:
             var8[0] = var10;
             var2 = function() {
                 var3 = _closure2_slot2;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var2 = var1.USER_DISMISS;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -660,16 +659,16 @@ case 38:
             var1 = null;
             if(!(var3 === var2)) { _fun0003_ip = 39; continue _fun0003 }
 case 40:
-            var4 = _closure1_slot16;
-            var3 = _closure1_slot19;
+            var4 = _closure1_slot17;
+            var3 = _closure1_slot20;
             var2 = {};
             var9 = _closure1_slot9;
             var9 = var9.POST_REACTION_BANNER;
             var2['promptType'] = var9;
-            var9 = _closure1_slot12;
+            var9 = _closure1_slot13;
             var9 = var9.POST_REACTION;
             var2['location'] = var9;
-            var9 = _closure1_slot15;
+            var9 = _closure1_slot16;
             var9 = var9.POST_REACTION_BANNER;
             var2['surface'] = var9;
             var12 = _closure1_slot0;
@@ -690,16 +689,16 @@ case 40:
 case 39:
             _fun0003_ip = 41; continue _fun0003;
 case 37:
-            var4 = _closure1_slot16;
-            var3 = _closure1_slot19;
+            var4 = _closure1_slot17;
+            var3 = _closure1_slot20;
             var2 = {};
             var8 = _closure1_slot9;
             var8 = var8.CHANNEL_BANNER;
             var2['promptType'] = var8;
-            var8 = _closure1_slot12;
+            var8 = _closure1_slot13;
             var8 = var8.CHANNEL_BANNER;
             var2['location'] = var8;
-            var8 = _closure1_slot15;
+            var8 = _closure1_slot16;
             var8 = var8.CHANNEL_BANNER;
             var2['surface'] = var8;
             var10 = _closure1_slot0;

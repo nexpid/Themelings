@@ -258,7 +258,7 @@ case 2:
     var4 = new var17[var8](var16, var15);
     var4 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot13 = var4;
-    var4 = 35;
+    var4 = 36;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -607,23 +607,23 @@ case 35:
 case 34:
             var26 = var2;
 case 33:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 31;
-            var2 = var5[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.useClientThemesOverride;
-            var6 = var2.bind(var3)();
-            var2 = 0.56;
-            var19 = var2 * var1;
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 31;
+            var3 = var7[var3];
+            var5 = var2.bind(var4)(var3);
+            var3 = var5.useClientThemesOverride;
+            var6 = var3.bind(var5)();
+            var3 = 0.56;
+            var19 = var3 * var1;
             _closure2_slot4 = var19;
-            var5 = _closure1_slot3;
-            var3 = var5.useMemo;
-            var7 = var23.guildBanner;
-            var2 = new Array(3);
-            var2[0] = var7;
-            var2[1] = var1;
-            var2[2] = var19;
+            var8 = _closure1_slot3;
+            var5 = var8.useMemo;
+            var9 = var23.guildBanner;
+            var3 = new Array(3);
+            var3[0] = var9;
+            var3[1] = var1;
+            var3[2] = var19;
             var1 = function() {
                 var1 = {};
                 var3 = _closure2_slot1;
@@ -644,7 +644,19 @@ case 33:
                 var1[1] = var3;
                 return var1;
             };
-            var9 = var3.bind(var5)(var1, var2);
+            var9 = var5.bind(var8)(var1, var3);
+            var1 = 32;
+            var1 = var7[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useToken;
+            var5 = _closure1_slot1;
+            var1 = 8;
+            var1 = var7[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.modules;
+            var1 = var1.mobile;
+            var1 = var1.CHANNEL_LIST_TITLE_TEXT_STYLE;
+            var28 = var2.bind(var3)(var1);
             var3 = _closure1_slot11;
             var2 = _closure1_slot4;
             var1 = {};
@@ -659,7 +671,7 @@ case 37:
             var8 = _closure1_slot10;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var5 = 32;
+            var5 = 33;
             var5 = var11[var5];
             var7 = var7.bind(var4)(var5);
             var5 = {};
@@ -702,7 +714,8 @@ case 38:
             var21 = var21[var19];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
-            var21 = {'lineClamp': 2, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
+            var21 = {'lineClamp': 2, 'accessibilityRole': 'header', 'variant': null, 'color': 'mobile-text-heading-primary'};
+            var21['variant'] = var28;
             var26 = var17 != var26;
             var28 = null;
             if(!var26) { _fun0002_ip = 40; continue _fun0002 }
@@ -768,7 +781,7 @@ case 48:
             var28 = _closure1_slot10;
             var27 = _closure1_slot1;
             var31 = _closure1_slot2;
-            var25 = 33;
+            var25 = 34;
             var25 = var31[var25];
             var27 = var27.bind(var4)(var25);
             var25 = {};
@@ -785,7 +798,7 @@ case 50:
             var29 = _closure1_slot10;
             var28 = _closure1_slot1;
             var31 = _closure1_slot2;
-            var27 = 33;
+            var27 = 34;
             var27 = var31[var27];
             var28 = var28.bind(var4)(var27);
             var27 = {};
@@ -856,7 +869,7 @@ case 53:
             var23 = var23.publicIcon;
             var18['style'] = var23;
             var24 = _closure1_slot1;
-            var23 = 34;
+            var23 = 35;
             var23 = var26[var23];
             var23 = var24.bind(var4)(var23);
             var18['source'] = var23;

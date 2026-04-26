@@ -25,20 +25,25 @@ case 7:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = arg1;
-                    var4 = var1.item;
-                    var5 = var1.source;
+                    var4 = var1.sku;
+                    var3 = var1.source;
                     var6 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var1 = 3;
-                    var1 = var3[var1];
-                    var3 = undefined;
-                    var1 = var6.bind(var3)(var1);
+                    var5 = _closure1_slot1;
+                    var1 = 2;
+                    var1 = var5[var1];
+                    var5 = undefined;
+                    var1 = var6.bind(var5)(var1);
                     var1 = var1.WishlistItemSource;
                     var1 = var1.POPULAR;
-                    var1 = var5 === var1;
+                    var1 = var3 === var1;
                     if(!var1) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                    var2 = _closure1_slot3;
+                    var3 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 3;
+                    var2 = var6[var2];
+                    var3 = var3.bind(var5)(var2);
+                    var2 = var3.isGameItemSKU;
                     var1 = var2.bind(var3)(var4);
 case 8:
                     return var1;
@@ -47,27 +52,27 @@ case 8:
             var1 = var2.bind(var3)(var1);
             if(var1) { _fun0001_ip = 10; continue _fun0001 }
 case 6:
-            var1 = _closure1_slot4;
+            var1 = _closure1_slot3;
             var1 = var1.SHOP_ONLY;
             _fun0001_ip = 11; continue _fun0001;
 case 10:
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot3;
             var1 = var2.SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_ONLY;
 case 11:
             _fun0001_ip = 12; continue _fun0001;
 case 4:
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot3;
             var1 = var2.MIXED;
 case 12:
             _fun0001_ip = 13; continue _fun0001;
 case 2:
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot3;
             var1 = var2.FULL_WISHLIST;
 case 13:
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var1 = global;
     var7 = var1.Object;
     var6 = var7.defineProperty;
@@ -82,11 +87,6 @@ case 13:
     var5 = var8.bind(var1)(var5);
     var5 = var5.useMemo;
     var _closure1_slot2 = var5;
-    var5 = 1;
-    var5 = var9[var5];
-    var5 = var8.bind(var1)(var5);
-    var5 = var5.isSKUWishlistItemRecord;
-    var _closure1_slot3 = var5;
     var6 = {};
     var5 = 'FULL_WISHLIST';
     var6['FULL_WISHLIST'] = var5;
@@ -96,10 +96,10 @@ case 13:
     var6['SHOP_ONLY'] = var5;
     var5 = 'SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_ONLY';
     var6['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_ONLY'] = var5;
-    var _closure1_slot4 = var6;
+    var _closure1_slot3 = var6;
     var5 = {};
     var7 = {};
-    var11 = 2;
+    var11 = 1;
     var10 = var9[var11];
     var10 = var8.bind(var1)(var10);
     var14 = var10.intl;
@@ -113,7 +113,7 @@ case 13:
     var10 = function getSubtitle(arg1) {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 2;
+        var1 = 1;
         var3 = var6[var1];
         var2 = undefined;
         var3 = var5.bind(var2)(var3);
@@ -147,7 +147,7 @@ case 13:
     var13 = function getSubtitle(arg1) {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 2;
+        var1 = 1;
         var3 = var6[var1];
         var2 = undefined;
         var3 = var5.bind(var2)(var3);
@@ -180,7 +180,7 @@ case 13:
     var12 = function getSubtitle(arg1) {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 2;
+        var1 = 1;
         var3 = var6[var1];
         var2 = undefined;
         var3 = var5.bind(var2)(var3);
@@ -213,7 +213,7 @@ case 13:
     var11 = function getSubtitle(arg1) {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 2;
+        var1 = 1;
         var3 = var6[var1];
         var2 = undefined;
         var3 = var5.bind(var2)(var3);
@@ -240,6 +240,43 @@ case 13:
     var7 = var8.bind(var9)(var7);
     var3['BannerMode'] = var6;
     var3['BANNER_CONFIG_MOBILE'] = var5;
+    var5 = function getBannerModeFromDisplayItems(arg1) {
+        var2 = arg1;
+        var5 = var2.totalUnownedWishlistItemCount;
+        var4 = var2.wishlistInDmLength;
+        var6 = var2.displayItems;
+        var3 = _closure1_slot4;
+        var2 = {};
+        var2['totalUnownedWishlistItemCount'] = var5;
+        var2['wishlistInDmLength'] = var4;
+        var5 = var6.filter;
+        var4 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.item;
+            var2 = var1.sku;
+            var1 = null;
+            var1 = var1 != var2;
+            return var1;
+        };
+        var5 = var5.bind(var6)(var4);
+        var4 = var5.map;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var3 = var1.item;
+            var2 = var1.source;
+            var1 = {};
+            var3 = var3.sku;
+            var1['sku'] = var3;
+            var1['source'] = var2;
+            return var1;
+        };
+        var1 = var4.bind(var5)(var1);
+        var2['displayItems'] = var1;
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var3['getBannerModeFromDisplayItems'] = var5;
     var3['getBannerMode'] = var4;
     var2 = function useWishlistBannerConfig(arg1) {
         var4 = arg1;
@@ -258,7 +295,7 @@ case 13:
         var6[2] = var2;
         var3 = undefined;
         var2 = function() {
-            var3 = _closure1_slot5;
+            var3 = _closure1_slot4;
             var2 = {};
             var4 = _closure2_slot0;
             var2['totalUnownedWishlistItemCount'] = var4;
@@ -279,18 +316,18 @@ case 13:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var3 = _closure2_slot4;
-                var1 = _closure1_slot4;
+                var1 = _closure1_slot3;
                 var1 = var1.FULL_WISHLIST;
                 if(!(var1 !== var3)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-                var1 = _closure1_slot4;
+                var1 = _closure1_slot3;
                 var1 = var1.MIXED;
                 if(!(var1 !== var3)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
                 var1 = {};
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot1;
-                var3 = 2;
+                var3 = 1;
                 var4 = var9[var3];
                 var7 = undefined;
                 var4 = var8.bind(var7)(var4);
@@ -309,7 +346,7 @@ case 16:
                 var1 = {};
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot1;
-                var3 = 2;
+                var3 = 1;
                 var5 = var9[var3];
                 var4 = undefined;
                 var5 = var8.bind(var4)(var5);
@@ -331,7 +368,7 @@ case 14:
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot1;
-                var2 = 2;
+                var2 = 1;
                 var4 = var8[var2];
                 var3 = undefined;
                 var4 = var7.bind(var3)(var4);

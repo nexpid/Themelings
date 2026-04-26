@@ -610,7 +610,7 @@ case 0:
             var1 = arg1;
             var8 = var1.product;
             var _closure2_slot0 = var8;
-            var7 = var1.isPremiumUser;
+            var7 = var1.hasShopDiscount;
             var _closure2_slot1 = var7;
             var1 = var1.useOrbPrice;
             var _closure2_slot2 = var1;
@@ -650,7 +650,7 @@ case 22:
                     var8 = _closure2_slot0;
                     var4['product'] = var8;
                     var7 = _closure2_slot1;
-                    var4['isPremiumUser'] = var7;
+                    var4['hasShopDiscount'] = var7;
                     var3 = var5.bind(var6)(var4);
                     var2 = undefined;
 case 35:
@@ -925,7 +925,7 @@ case 3:
             var2 = 25;
             var2 = var8[var2];
             var3 = var3.bind(var4)(var2);
-            var2 = var3.canUseCollectibles;
+            var2 = var3.canUseShopDiscounts;
             var17 = var2.bind(var3)(var5);
             _closure2_slot2 = var17;
             var5 = _closure1_slot3;
@@ -986,7 +986,7 @@ case 48:
                     var12 = _closure2_slot0;
                     var7['product'] = var12;
                     var11 = _closure2_slot2;
-                    var7['isPremiumUser'] = var11;
+                    var7['hasShopDiscount'] = var11;
                     var9 = var9.bind(var10)(var7);
                     var7 = null;
                     var10 = var7 == var9;
@@ -1047,7 +1047,7 @@ case 57:
             var14 = _closure1_slot18;
             var13 = {};
             var13['product'] = var18;
-            var13['isPremiumUser'] = var17;
+            var13['hasShopDiscount'] = var17;
             var13['useOrbPrice'] = var16;
             var13 = var15.bind(var4)(var14, var13);
             var12[1] = var13;

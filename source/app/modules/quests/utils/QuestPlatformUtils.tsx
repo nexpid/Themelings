@@ -182,6 +182,219 @@ case 20:
         }
     };
     var _closure1_slot10 = var1;
+    var1 = function getInlineStoreParamsFromCta(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var5 = 7;
+            var2 = var2[var5];
+            var8 = undefined;
+            var3 = var3.bind(var8)(var2);
+            var2 = var3.isAndroid;
+            var2 = var2.bind(var3)();
+            if(!var2) { _fun0004_ip = 27; continue _fun0004 }
+case 12:
+            var6 = var4.android;
+            var3 = null;
+            var7 = var3 == var6;
+            var2 = undefined;
+            if(var7) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
+            var2 = var6.androidAppId;
+case 28:
+            if(!(var3 == var2)) { _fun0004_ip = 30; continue _fun0004 }
+case 27:
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var5];
+            var2 = var2.bind(var8)(var1);
+            var1 = var2.isIOS;
+            var2 = var1.bind(var2)();
+            var5 = null;
+            var1 = null;
+            if(!var2) { _fun0004_ip = 31; continue _fun0004 }
+case 5:
+            var6 = var4.ios;
+            var7 = var5 == var6;
+            var2 = undefined;
+            if(var7) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
+            var2 = var6.iosAppId;
+case 32:
+            var2 = var5 != var2;
+            var1 = null;
+            if(!var2) { _fun0004_ip = 31; continue _fun0004 }
+case 34:
+            var2 = {};
+            var5 = var4.ios;
+            var9 = var5.iosAppId;
+            var5 = global;
+            var6 = var5.HermesInternal;
+            var7 = var6.concat;
+            var6 = 'https://apps.apple.com/app/id';
+            var6 = var7.bind(var6)(var9);
+            var2['url'] = var6;
+            var7 = var5.parseInt;
+            var5 = var4.ios;
+            var6 = var5.iosAppId;
+            var5 = 10;
+            var5 = var7.bind(var8)(var6, var5);
+            var2['appId'] = var5;
+            var1 = var2;
+case 31:
+            _fun0004_ip = 35; continue _fun0004;
+case 30:
+            var2 = {};
+            var4 = var4.android;
+            var6 = var4.androidAppId;
+            var4 = global;
+            var4 = var4.HermesInternal;
+            var5 = var4.concat;
+            var4 = 'https://play.google.com/d?id=';
+            var4 = var5.bind(var4)(var6);
+            var2['url'] = var4;
+            var2['appId'] = var3;
+            var1 = var2;
+case 35:
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var1;
+    var1 = function openAppStoreOverlay(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var3 = arg1;
+            var1 = arg2;
+            var _closure2_slot0 = var1;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 9;
+            var4 = var7[var1];
+            var1 = undefined;
+            var4 = var5.bind(var1)(var4);
+            var6 = var4.openPlayStoreInlineInstall;
+            var4 = 10;
+            var4 = var7[var4];
+            var4 = var5.bind(var1)(var4);
+            var5 = var4.clearAppStoreOverlayOpen;
+            var _closure2_slot1 = var5;
+            var4 = var4.setAppStoreOverlayOpen;
+            var _closure2_slot2 = var4;
+            var5 = var3.url;
+            var4 = var3.appId;
+            var3 = null;
+            var7 = var3 == var4;
+            var3 = undefined;
+            if(var7) { _fun0005_ip = 16; continue _fun0005 }
+case 36:
+            var7 = var4.toString;
+            var3 = var7.bind(var4)();
+case 16:
+            var _closure2_slot3 = var3;
+            var3 = function(arg1) {
+                var2 = _closure2_slot1;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                var6 = _closure2_slot0;
+                var4 = _closure1_slot4;
+                var5 = var4.QUEST_APP_STORE_OVERLAY_CLOSED;
+                var4 = _closure2_slot3;
+                var3 = arg1;
+                var3 = var6.bind(var1)(var5, var4, var3);
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var3 = 11;
+                var3 = var5[var3];
+                var3 = var4.bind(var1)(var3);
+                var4 = var3.ComponentDispatch;
+                var3 = var4.dispatch;
+                var2 = _closure1_slot5;
+                var2 = var2.QUEST_APP_STORE_OVERLAY_FINISHED;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var5 = var6.bind(var1)(var5, var4, var3);
+            var4 = var5.then;
+            var3 = function(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var2 = arg1;
+                    if(var2) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
+                    var2 = _closure2_slot1;
+                    var5 = undefined;
+                    var2 = var2.bind(var5)();
+                    var6 = _closure2_slot0;
+                    var3 = _closure1_slot4;
+                    var4 = var3.QUEST_APP_STORE_OVERLAY_OPEN_FAILED;
+                    var3 = _closure2_slot3;
+                    var3 = var6.bind(var5)(var4, var3);
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 11;
+                    var3 = var6[var3];
+                    var3 = var4.bind(var5)(var3);
+                    var4 = var3.ComponentDispatch;
+                    var3 = var4.dispatch;
+                    var2 = _closure1_slot5;
+                    var2 = var2.QUEST_APP_STORE_OVERLAY_FINISHED;
+                    var2 = var3.bind(var4)(var2);
+                    _fun0006_ip = 18; continue _fun0006;
+case 37:
+                    var3 = _closure2_slot2;
+                    var2 = {};
+                    var4 = function trackOverlayEvent(arg1, arg2) {
+                        var5 = _closure2_slot0;
+                        var4 = _closure2_slot3;
+                        var3 = undefined;
+                        var2 = arg1;
+                        var1 = arg2;
+                        var1 = var5.bind(var3)(var2, var4, var1);
+                        return var1;
+                    };
+                    var2['trackOverlayEvent'] = var4;
+                    var4 = undefined;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = _closure2_slot0;
+                    var2 = _closure1_slot4;
+                    var2 = var2.QUEST_APP_STORE_OVERLAY_OPEN_SUCCEEDED;
+                    var1 = _closure2_slot3;
+                    var1 = var3.bind(var4)(var2, var1);
+case 18:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.catch;
+            var2 = function() {
+                var2 = _closure2_slot1;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                var5 = _closure2_slot0;
+                var4 = _closure1_slot4;
+                var4 = var4.QUEST_APP_STORE_OVERLAY_OPEN_FAILED;
+                var3 = _closure2_slot3;
+                var3 = var5.bind(var1)(var4, var3);
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var3 = 11;
+                var3 = var5[var3];
+                var3 = var4.bind(var1)(var3);
+                var4 = var3.ComponentDispatch;
+                var3 = var4.dispatch;
+                var2 = _closure1_slot5;
+                var2 = var2.QUEST_APP_STORE_OVERLAY_FINISHED;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        }
+    };
+    var _closure1_slot12 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -214,7 +427,7 @@ case 20:
     var6 = 'modules/quests/utils/QuestPlatformUtils.tsx';
     var6 = var7.bind(var8)(var6);
     var6 = function supportedTaskPlatforms(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var5 = arg1;
             var3 = _closure1_slot0;
@@ -227,8 +440,8 @@ case 0:
             var1 = {};
             var1['quest'] = var5;
             var4 = var3.bind(var4)(var1);
-            if(var4) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+            if(var4) { _fun0007_ip = 39; continue _fun0007 }
+case 40:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var7];
@@ -237,7 +450,7 @@ case 28:
             var1 = {};
             var1['quest'] = var5;
             var4 = var3.bind(var8)(var1);
-case 27:
+case 39:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var7];
@@ -245,27 +458,27 @@ case 27:
             var1 = var3.hasSomeConsoleTasks;
             var3 = var1.bind(var3)(var5);
             var1 = new Array(0);
-            if(!var4) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+            if(!var4) { _fun0007_ip = 41; continue _fun0007 }
+case 42:
             var5 = var1.push;
             var4 = _closure1_slot3;
             var4 = var4.DESKTOP;
             var4 = var5.bind(var1)(var4);
-case 29:
-            if(!var3) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+case 41:
+            if(!var3) { _fun0007_ip = 43; continue _fun0007 }
+case 44:
             var3 = var1.push;
             var2 = _closure1_slot3;
             var2 = var2.CONSOLE;
             var2 = var3.bind(var1)(var2);
-case 31:
+case 43:
             return var1;
         }
     };
     var3['supportedTaskPlatforms'] = var6;
     var3['supportedConsoles'] = var5;
     var5 = function isQuestSupportedOnWeb(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
@@ -280,10 +493,10 @@ case 0:
             var3 = var5.bind(var3)(var2);
             var2 = var3.hasPlayActivityTask;
             var2 = var2.bind(var3)(var4);
-            if(var1) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+            if(var1) { _fun0008_ip = 45; continue _fun0008 }
+case 46:
             var1 = var2;
-case 33:
+case 45:
             return var1;
         }
     };
@@ -326,7 +539,7 @@ case 33:
     };
     var3['openAuthorizationConnectionModal'] = var4;
     var4 = function getExpiredCredentialsHintMessage(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var3 = _closure1_slot9;
             var4 = undefined;
@@ -334,8 +547,8 @@ case 0:
             var3 = var3.bind(var4)(var1);
             var1 = _closure1_slot6;
             var1 = var1.XBOX;
-            if(!(var3 !== var1)) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
+            if(!(var3 !== var1)) { _fun0009_ip = 47; continue _fun0009 }
+case 48:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 6;
@@ -343,8 +556,8 @@ case 36:
             var1 = var3.bind(var4)(var1);
             var1 = var1.t;
             var1 = var1.iDiwby;
-            _fun0006_ip = 37; continue _fun0006;
-case 35:
+            _fun0009_ip = 49; continue _fun0009;
+case 47:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 6;
@@ -352,440 +565,309 @@ case 35:
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
             var1 = var2.mytEv+;
-case 37:
+case 49:
             return var1;
         }
     };
     var3['getExpiredCredentialsHintMessage'] = var4;
     var4 = function openGameLinkDirectly(arg1, arg2) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-            var3 = arg1;
-            var14 = arg2;
-            var _closure2_slot0 = var3;
-            var _closure2_slot1 = var14;
+            var10 = arg1;
+            var15 = arg2;
+            var _closure2_slot0 = var10;
+            var _closure2_slot1 = var15;
             var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var1 = _closure1_slot2;
             var13 = 8;
-            var2 = var2[var13];
-            var6 = undefined;
-            var7 = var5.bind(var6)(var2);
-            var5 = var7.getCtaLink;
-            var2 = var3.config;
-            var5 = var5.bind(var7)(var2);
-            var2 = var3.config;
-            var10 = var2.ctaConfig;
-            var2 = null;
-            var7 = var2 == var10;
-            var8 = null;
-            if(var7) { _fun0007_ip = 38; continue _fun0007 }
-case 39:
-            var9 = _closure1_slot10;
+            var4 = var1[var13];
+            var1 = undefined;
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.getCtaLink;
+            var4 = var10.config;
+            var4 = var5.bind(var6)(var4);
+            var5 = var10.config;
+            var9 = var5.ctaConfig;
+            var5 = null;
+            var6 = var5 == var9;
+            var7 = null;
+            if(var6) { _fun0010_ip = 50; continue _fun0010 }
+case 51:
+            var8 = _closure1_slot10;
+            var6 = {};
+            var12 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var11 = var11[var13];
+            var14 = var12.bind(var1)(var11);
+            var12 = var14.getCtaLink;
+            var11 = var10.config;
+            var11 = var12.bind(var14)(var11);
+            var6['url'] = var11;
+            var11 = var9.android;
+            var6['android'] = var11;
+            var9 = var9.ios;
+            var6['ios'] = var9;
+            var7 = var8.bind(var1)(var6);
+case 50:
+            var11 = var4;
+            if(!(var5 != var7)) { _fun0010_ip = 43; continue _fun0010 }
+case 52:
+            var11 = var7;
+case 43:
+            var4 = var11;
+case 53: // try_start_0
+            var6 = global;
+            var8 = var6.URL;
+            var19 = var4;
+            var6 = var8.prototype;
+            var6 = Object.create(var6, {constructor: {value: var8}});
+            var20 = var6;
+            var4 = new var20[var8](var19, var18);
+            var4 = var4 instanceof Object ? var4 : var6;
+            var8 = var4.searchParams;
+            var6 = var8.has;
+            var4 = 'dclid';
+            var4 = var6.bind(var8)(var4);
+case 54: // try_end0
+            _fun0010_ip = 55; continue _fun0010;
+case 56: // catch_target0
+            CatchBlockStart(arg_register=5);
+            var4 = false;
+case 55:
+            var14 = undefined;
+            var6 = var11;
+            if(!var4) { _fun0010_ip = 57; continue _fun0010 }
+case 58:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var4 = 12;
+            var4 = var9[var4];
+            var8 = var8.bind(var1)(var4);
+            var4 = var8.v4;
+            var8 = var4.bind(var8)();
+            var9 = var11;
+            var4 = var8;
+case 59: // try_start_1
+            var11 = global;
+            var16 = var11.URL;
+            var19 = var9;
+            var12 = var16.prototype;
+            var12 = Object.create(var12, {constructor: {value: var16}});
+            var20 = var12;
+            var11 = new var20[var16](var19, var18);
+            var11 = var11 instanceof Object ? var11 : var12;
+            var17 = var11.searchParams;
+            var16 = var17.set;
+            var12 = var4;
+            var4 = 'dclid';
+            var4 = var16.bind(var17)(var4, var12);
+            var4 = var11.toString;
+            var4 = var4.bind(var11)();
+case 60: // try_end1
+            _fun0010_ip = 61; continue _fun0010;
+case 62: // catch_target1
+            CatchBlockStart(arg_register=10);
+            var4 = var9;
+case 61:
+            var6 = var4;
+            var14 = var8;
+case 57:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var4 = 4;
+            var4 = var9[var4];
+            var12 = var8.bind(var1)(var4);
+            var11 = var12.trackQuestContentClicked;
+            var4 = {};
+            var16 = var10.id;
+            var4['questId'] = var16;
+            var16 = var15.content;
+            var4['questContent'] = var16;
+            var16 = var15.ctaContent;
+            var4['questContentCTA'] = var16;
+            var16 = var15.position;
+            var4['questContentPosition'] = var16;
+            var16 = var15.impressionId;
+            var4['impressionId'] = var16;
+            var15 = var15.sourceQuestContent;
+            var4['sourceQuestContent'] = var15;
+            var4['clickId'] = var14;
+            var4 = var11.bind(var12)(var4);
+            var4 = 11;
+            var4 = var9[var4];
+            var4 = var8.bind(var1)(var4);
+            var12 = var4.ComponentDispatch;
+            var11 = var12.dispatch;
+            var4 = _closure1_slot5;
+            var4 = var4.QUEST_GAME_LINK_OPENED;
+            var4 = var11.bind(var12)(var4);
+            var4 = 13;
+            var4 = var9[var4];
+            var4 = var8.bind(var1)(var4);
+            var9 = var4.AppStoreBottomSheetOverlayExperiment;
+            var8 = var9.getConfig;
+            var4 = {};
+            var11 = 'quest_open_game_link';
+            var4['location'] = var11;
+            var4 = var8.bind(var9)(var4);
+            var4 = var4.enabled;
+            if(!(var5 != var7)) { _fun0010_ip = 63; continue _fun0010 }
+case 64:
+            if(!var4) { _fun0010_ip = 63; continue _fun0010 }
+case 65:
+            var4 = var10.config;
+            var9 = var4.ctaConfig;
+            var7 = var5 == var9;
+            var4 = null;
+            if(var7) { _fun0010_ip = 66; continue _fun0010 }
+case 67:
+            var8 = _closure1_slot11;
             var7 = {};
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
             var11 = var11[var13];
-            var13 = var12.bind(var6)(var11);
-            var12 = var13.getCtaLink;
-            var11 = var3.config;
-            var11 = var12.bind(var13)(var11);
-            var7['url'] = var11;
-            var11 = var10.android;
-            var7['android'] = var11;
-            var10 = var10.ios;
-            var7['ios'] = var10;
-            var8 = var9.bind(var6)(var7);
-case 38:
-            var11 = var5;
-            if(!(var2 != var8)) { _fun0007_ip = 31; continue _fun0007 }
-case 40:
-            var11 = var8;
-case 31:
-            var5 = var11;
-case 41: // try_start_0
-            var7 = global;
-            var9 = var7.URL;
-            var19 = var5;
-            var7 = var9.prototype;
-            var7 = Object.create(var7, {constructor: {value: var9}});
-            var20 = var7;
-            var5 = new var20[var9](var19, var18);
-            var5 = var5 instanceof Object ? var5 : var7;
-            var9 = var5.searchParams;
-            var7 = var9.has;
-            var5 = 'dclid';
-            var5 = var7.bind(var9)(var5);
-case 42: // try_end0
-            _fun0007_ip = 43; continue _fun0007;
-case 44: // catch_target0
-            CatchBlockStart(arg_register=6);
-            var5 = false;
-case 43:
-            var13 = undefined;
-            var7 = var11;
-            if(!var5) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var5 = 9;
-            var5 = var10[var5];
-            var9 = var9.bind(var6)(var5);
-            var5 = var9.v4;
-            var9 = var5.bind(var9)();
-            var10 = var11;
-            var5 = var9;
-case 47: // try_start_1
-            var11 = global;
-            var15 = var11.URL;
-            var19 = var10;
-            var12 = var15.prototype;
-            var12 = Object.create(var12, {constructor: {value: var15}});
-            var20 = var12;
-            var11 = new var20[var15](var19, var18);
-            var11 = var11 instanceof Object ? var11 : var12;
-            var16 = var11.searchParams;
-            var15 = var16.set;
-            var12 = var5;
-            var5 = 'dclid';
-            var5 = var15.bind(var16)(var5, var12);
-            var5 = var11.toString;
-            var5 = var5.bind(var11)();
-case 48: // try_end1
-            _fun0007_ip = 49; continue _fun0007;
-case 50: // catch_target1
-            CatchBlockStart(arg_register=10);
-            var5 = var10;
-case 49:
-            var7 = var5;
-            var13 = var9;
-case 45:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var5 = 4;
-            var5 = var10[var5];
-            var12 = var9.bind(var6)(var5);
-            var11 = var12.trackQuestContentClicked;
-            var5 = {};
-            var15 = var3.id;
-            var5['questId'] = var15;
-            var15 = var14.content;
-            var5['questContent'] = var15;
-            var15 = var14.ctaContent;
-            var5['questContentCTA'] = var15;
-            var15 = var14.position;
-            var5['questContentPosition'] = var15;
-            var15 = var14.impressionId;
-            var5['impressionId'] = var15;
-            var14 = var14.sourceQuestContent;
-            var5['sourceQuestContent'] = var14;
-            var5['clickId'] = var13;
-            var5 = var11.bind(var12)(var5);
-            var12 = 10;
-            var5 = var10[var12];
-            var5 = var9.bind(var6)(var5);
-            var13 = var5.ComponentDispatch;
-            var11 = var13.dispatch;
-            var5 = _closure1_slot5;
-            var5 = var5.QUEST_GAME_LINK_OPENED;
-            var5 = var11.bind(var13)(var5);
-            var5 = 11;
-            var5 = var10[var5];
-            var5 = var9.bind(var6)(var5);
-            var10 = var5.AppStoreBottomSheetOverlayExperiment;
-            var9 = var10.getConfig;
-            var5 = {};
-            var11 = 'quest_open_game_link';
-            var5['location'] = var11;
-            var5 = var9.bind(var10)(var5);
-            var5 = var5.enabled;
-            if(!(var2 != var8)) { _fun0007_ip = 51; continue _fun0007 }
-case 52:
-            if(!var5) { _fun0007_ip = 51; continue _fun0007 }
-case 53:
-            var3 = var3.config;
-            var9 = var3.ctaConfig;
-            var5 = var2 == var9;
-            var3 = null;
-            if(var5) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
-            var8 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var10 = 7;
-            var5 = var5[var10];
-            var8 = var8.bind(var6)(var5);
-            var5 = var8.isAndroid;
-            var5 = var5.bind(var8)();
-            if(!var5) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
-            var8 = var9.android;
-            var11 = var2 == var8;
-            var5 = undefined;
-            if(var11) { _fun0007_ip = 58; continue _fun0007 }
-case 59:
-            var5 = var8.androidAppId;
-case 58:
-            if(!(var2 == var5)) { _fun0007_ip = 60; continue _fun0007 }
-case 56:
-            var8 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var5 = var5[var10];
-            var8 = var8.bind(var6)(var5);
-            var5 = var8.isIOS;
-            var8 = var5.bind(var8)();
-            var5 = null;
-            if(!var8) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
-            var10 = var9.ios;
-            var11 = var2 == var10;
-            var8 = undefined;
-            if(var11) { _fun0007_ip = 63; continue _fun0007 }
-case 64:
-            var8 = var10.iosAppId;
-case 63:
-            var8 = var2 != var8;
-            var5 = null;
-            if(!var8) { _fun0007_ip = 61; continue _fun0007 }
-case 65:
-            var8 = {};
-            var10 = var9.ios;
-            var14 = var10.iosAppId;
-            var10 = global;
-            var11 = var10.HermesInternal;
-            var13 = var11.concat;
-            var11 = 'https://apps.apple.com/app/id';
-            var11 = var13.bind(var11)(var14);
-            var8['url'] = var11;
-            var11 = var10.parseInt;
-            var10 = var9.ios;
-            var10 = var10.iosAppId;
-            var10 = var11.bind(var6)(var10, var12);
-            var8['appId'] = var10;
-            var5 = var8;
-case 61:
-            _fun0007_ip = 66; continue _fun0007;
-case 60:
-            var8 = {};
-            var9 = var9.android;
-            var11 = var9.androidAppId;
-            var9 = global;
-            var9 = var9.HermesInternal;
-            var10 = var9.concat;
-            var9 = 'https://play.google.com/d?id=';
-            var9 = var10.bind(var9)(var11);
-            var8['url'] = var9;
-            var8['appId'] = var2;
-            var5 = var8;
+            var12 = var12.bind(var1)(var11);
+            var11 = var12.getCtaLink;
+            var10 = var10.config;
+            var10 = var11.bind(var12)(var10);
+            var7['url'] = var10;
+            var10 = var9.android;
+            var7['android'] = var10;
+            var9 = var9.ios;
+            var7['ios'] = var9;
+            var4 = var8.bind(var1)(var7);
 case 66:
-            var3 = var5;
-case 54:
-            if(!(var2 == var3)) { _fun0007_ip = 67; continue _fun0007 }
-case 51:
-            var8 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var5 = 14;
-            var5 = var9[var5];
-            var5 = var8.bind(var6)(var5);
-            var5 = var5.bind(var6)(var7);
-            return var6;
-case 67:
-            var7 = _closure1_slot0;
+            if(!(var5 == var4)) { _fun0010_ip = 68; continue _fun0010 }
+case 63:
+            var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var4 = 12;
-            var4 = var8[var4];
-            var4 = var7.bind(var6)(var4);
-            var5 = var4.openPlayStoreInlineInstall;
-            var4 = 13;
-            var4 = var8[var4];
-            var4 = var7.bind(var6)(var4);
-            var7 = var4.clearAppStoreOverlayOpen;
-            var _closure2_slot2 = var7;
-            var4 = var4.setAppStoreOverlayOpen;
-            var _closure2_slot3 = var4;
-            var4 = var3.url;
-            var3 = var3.appId;
-            var7 = var2 == var3;
-            var2 = undefined;
-            if(var7) { _fun0007_ip = 68; continue _fun0007 }
-case 69:
-            var7 = var3.toString;
-            var2 = var7.bind(var3)();
+            var5 = 14;
+            var5 = var8[var5];
+            var5 = var7.bind(var1)(var5);
+            var5 = var5.bind(var1)(var6);
+            return var1;
 case 68:
-            var _closure2_slot4 = var2;
-            var2 = function(arg1) {
-                var2 = _closure2_slot2;
+            var3 = _closure1_slot12;
+            var2 = function(arg1, arg2, arg3) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 4;
+                var2 = var2[var1];
                 var1 = undefined;
-                var2 = var2.bind(var1)();
-                var4 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var6 = 4;
-                var6 = var5[var6];
-                var11 = var4.bind(var1)(var6);
-                var10 = var11.trackAppStoreOverlayEvent;
-                var16 = _closure2_slot0;
-                var15 = _closure2_slot1;
-                var14 = _closure2_slot4;
-                var3 = _closure1_slot4;
-                var13 = var3.QUEST_APP_STORE_OVERLAY_CLOSED;
-                var12 = arg1;
-                var17 = var11;
-                var3 = var17[var10](var16, var15, var14, var13, var12, var11);
-                var3 = 10;
-                var3 = var5[var3];
-                var3 = var4.bind(var1)(var3);
-                var4 = var3.ComponentDispatch;
-                var3 = var4.dispatch;
-                var2 = _closure1_slot5;
-                var2 = var2.QUEST_APP_STORE_OVERLAY_FINISHED;
-                var2 = var3.bind(var4)(var2);
+                var7 = var3.bind(var1)(var2);
+                var6 = var7.trackAppStoreOverlayEvent;
+                var12 = _closure2_slot0;
+                var11 = _closure2_slot1;
+                var10 = arg2;
+                var9 = arg1;
+                var8 = arg3;
+                var13 = var7;
+                var1 = var13[var6](var12, var11, var10, var9, var8, var7);
                 return var1;
             };
-            var4 = var5.bind(var6)(var4, var3, var2);
-            var3 = var4.then;
-            var2 = function(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-                    var1 = arg1;
-                    if(var1) { _fun0008_ip = 70; continue _fun0008 }
-case 71:
-                    var1 = _closure2_slot2;
-                    var5 = undefined;
-                    var1 = var1.bind(var5)();
-                    var4 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var6[var3];
-                    var11 = var4.bind(var5)(var3);
-                    var10 = var11.trackAppStoreOverlayEvent;
-                    var15 = _closure2_slot0;
-                    var14 = _closure2_slot1;
-                    var13 = _closure2_slot4;
-                    var3 = _closure1_slot4;
-                    var12 = var3.QUEST_APP_STORE_OVERLAY_OPEN_FAILED;
-                    var16 = var11;
-                    var3 = var16[var10](var15, var14, var13, var12, var11);
-                    var3 = 10;
-                    var3 = var6[var3];
-                    var3 = var4.bind(var5)(var3);
-                    var4 = var3.ComponentDispatch;
-                    var3 = var4.dispatch;
-                    var1 = _closure1_slot5;
-                    var1 = var1.QUEST_APP_STORE_OVERLAY_FINISHED;
-                    var1 = var3.bind(var4)(var1);
-                    _fun0008_ip = 72; continue _fun0008;
-case 70:
-                    var3 = _closure2_slot3;
-                    var1 = {};
-                    var6 = _closure2_slot0;
-                    var1['quest'] = var6;
-                    var5 = _closure2_slot1;
-                    var1['trackingCtx'] = var5;
-                    var4 = _closure2_slot4;
-                    var1['inlineStoreAppId'] = var4;
-                    var7 = undefined;
-                    var1 = var3.bind(var7)(var1);
-                    var4 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var8[var3];
-                    var4 = var4.bind(var7)(var3);
-                    var3 = var4.trackAppStoreOverlayEvent;
-                    var13 = _closure2_slot4;
-                    var1 = _closure1_slot4;
-                    var12 = var1.QUEST_APP_STORE_OVERLAY_OPEN_SUCCEEDED;
-                    var16 = var4;
-                    var15 = var6;
-                    var14 = var5;
-                    var1 = var16[var3](var15, var14, var13, var12, var11);
-case 72:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.catch;
-            var1 = function() {
-                var2 = _closure2_slot2;
-                var1 = undefined;
-                var2 = var2.bind(var1)();
-                var4 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var6 = 4;
-                var6 = var5[var6];
-                var10 = var4.bind(var1)(var6);
-                var9 = var10.trackAppStoreOverlayEvent;
-                var14 = _closure2_slot0;
-                var13 = _closure2_slot1;
-                var12 = _closure2_slot4;
-                var3 = _closure1_slot4;
-                var11 = var3.QUEST_APP_STORE_OVERLAY_OPEN_FAILED;
-                var15 = var10;
-                var3 = var15[var9](var14, var13, var12, var11, var10);
-                var3 = 10;
-                var3 = var5[var3];
-                var3 = var4.bind(var1)(var3);
-                var4 = var3.ComponentDispatch;
-                var3 = var4.dispatch;
-                var2 = _closure1_slot5;
-                var2 = var2.QUEST_APP_STORE_OVERLAY_FINISHED;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            var1 = var2.bind(var3)(var1);
-            var1 = undefined;
+            var2 = var3.bind(var1)(var4, var2);
             return var1;
         }
     };
     var3['openGameLinkDirectly'] = var4;
     var4 = function openAdGameLinkDirectly(arg1, arg2) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
-            var9 = arg2;
-            var11 = var1.adContentId;
-            var10 = var1.adCreativeType;
-            var5 = var1.cta;
-            var3 = var5.url;
+            var13 = arg2;
+            var15 = var1.adContentId;
+            var _closure2_slot0 = var15;
+            var14 = var1.adCreativeType;
+            var _closure2_slot1 = var14;
+            var7 = var1.cta;
+            var _closure2_slot2 = var13;
+            var6 = var7.url;
             var4 = _closure1_slot10;
             var1 = undefined;
-            var4 = var4.bind(var1)(var5);
+            var8 = var4.bind(var1)(var7);
             var5 = null;
-            if(!(var5 != var4)) { _fun0009_ip = 73; continue _fun0009 }
-case 28:
-            var3 = var4;
-case 73:
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            if(!(var5 != var8)) { _fun0011_ip = 47; continue _fun0011 }
+case 69:
+            var6 = var8;
+case 47:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
             var4 = 4;
-            var4 = var5[var4];
-            var8 = var6.bind(var1)(var4);
-            var7 = var8.trackAdContentClicked;
+            var4 = var10[var4];
+            var12 = var9.bind(var1)(var4);
+            var11 = var12.trackAdContentClicked;
             var4 = {};
-            var4['adContentId'] = var11;
-            var4['adCreativeType'] = var10;
-            var10 = var9.content;
-            var4['questContent'] = var10;
-            var10 = var9.ctaContent;
-            var4['questContentCTA'] = var10;
-            var10 = var9.position;
-            var4['questContentPosition'] = var10;
-            var10 = var9.impressionId;
-            var4['impressionId'] = var10;
-            var9 = var9.sourceQuestContent;
-            var4['sourceQuestContent'] = var9;
-            var4 = var7.bind(var8)(var4);
-            var4 = 10;
-            var4 = var5[var4];
-            var4 = var6.bind(var1)(var4);
-            var7 = var4.ComponentDispatch;
-            var6 = var7.dispatch;
+            var4['adContentId'] = var15;
+            var4['adCreativeType'] = var14;
+            var14 = var13.content;
+            var4['questContent'] = var14;
+            var14 = var13.ctaContent;
+            var4['questContentCTA'] = var14;
+            var14 = var13.position;
+            var4['questContentPosition'] = var14;
+            var14 = var13.impressionId;
+            var4['impressionId'] = var14;
+            var13 = var13.sourceQuestContent;
+            var4['sourceQuestContent'] = var13;
+            var4 = var11.bind(var12)(var4);
+            var4 = 11;
+            var4 = var10[var4];
+            var4 = var9.bind(var1)(var4);
+            var12 = var4.ComponentDispatch;
+            var11 = var12.dispatch;
             var4 = _closure1_slot5;
             var4 = var4.QUEST_GAME_LINK_OPENED;
-            var4 = var6.bind(var7)(var4);
-            var4 = _closure1_slot1;
-            var2 = 14;
-            var2 = var5[var2];
-            var2 = var4.bind(var1)(var2);
-            var2 = var2.bind(var1)(var3);
+            var4 = var11.bind(var12)(var4);
+            var4 = 13;
+            var4 = var10[var4];
+            var4 = var9.bind(var1)(var4);
+            var10 = var4.AppStoreBottomSheetOverlayExperiment;
+            var9 = var10.getConfig;
+            var4 = {};
+            var11 = 'quest_open_game_link';
+            var4['location'] = var11;
+            var4 = var9.bind(var10)(var4);
+            var4 = var4.enabled;
+            if(!(var5 != var8)) { _fun0011_ip = 70; continue _fun0011 }
+case 71:
+            if(!var4) { _fun0011_ip = 70; continue _fun0011 }
+case 72:
+            var4 = _closure1_slot11;
+            var4 = var4.bind(var1)(var7);
+            if(!(var5 == var4)) { _fun0011_ip = 73; continue _fun0011 }
+case 70:
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var5 = 14;
+            var5 = var8[var5];
+            var5 = var7.bind(var1)(var5);
+            var5 = var5.bind(var1)(var6);
+            return var1;
+case 73:
+            var3 = _closure1_slot12;
+            var2 = function(arg1, arg2, arg3) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var7 = var3.bind(var1)(var2);
+                var6 = var7.trackAdContentAppStoreOverlayEvent;
+                var5 = {};
+                var2 = _closure2_slot0;
+                var5['adContentId'] = var2;
+                var2 = _closure2_slot1;
+                var5['adCreativeType'] = var2;
+                var11 = _closure2_slot2;
+                var10 = arg2;
+                var9 = arg1;
+                var8 = arg3;
+                var13 = var7;
+                var12 = var5;
+                var1 = var13[var6](var12, var11, var10, var9, var8, var7);
+                return var1;
+            };
+            var2 = var3.bind(var1)(var4, var2);
             return var1;
         }
     };
@@ -828,7 +910,7 @@ case 73:
     };
     var3['openConsoleConnectionSettings'] = var4;
     var2 = function openAddConsoleConnectionModal(arg1, arg2) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var7 = arg2;
             var1 = arg1;
@@ -860,8 +942,8 @@ case 0:
             var6 = var2.bind(var3)(var4);
             var4 = var6.length;
             var2 = 1;
-            if(!(var2 !== var4)) { _fun0010_ip = 74; continue _fun0010 }
-case 75:
+            if(!(var2 !== var4)) { _fun0012_ip = 71; continue _fun0012 }
+case 74:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 16;
@@ -898,7 +980,7 @@ case 75:
             var2['includeApplicationConnections'] = var7;
             var2 = var4.bind(var5)(var2);
             return var3;
-case 74:
+case 71:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 5;

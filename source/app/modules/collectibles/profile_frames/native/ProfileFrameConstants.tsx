@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PROFILE_FRAME_OVERFLOW_BOTTOM'] = var4;
     var4 = 14;
     var3['PROFILE_FRAME_OVERFLOW_HORIZONTAL'] = var4;
-    var4 = 300;
+    var4 = 304;
     var3['PROFILE_FRAME_CONTAINER_WIDTH'] = var4;
     var4 = 480;
     var3['PROFILE_FRAME_RESPONSIVE_RAIL_MIN_PROFILE_HEIGHT'] = var4;

@@ -106,7 +106,7 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWER;
+    var13 = var13.MOBILE_KEYBOARD_PANEL_BACKGROUND;
     var10['backgroundColor'] = var13;
     var13 = 'hidden';
     var10['overflow'] = var13;
@@ -147,7 +147,7 @@ case 2:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOWER;
+    var11 = var11.MOBILE_KEYBOARD_PANEL_BACKGROUND;
     var10['backgroundColor'] = var11;
     var4['roundingView'] = var10;
     var4 = var8.bind(var9)(var4);
@@ -589,7 +589,7 @@ case 36:
             var3 = var42[var5];
             var19 = var43.bind(var4)(var3);
             var10 = var19.useAnimatedStyle;
-            var3 = function q() {
+            var3 = function z() {
                 var1 = {};
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -691,7 +691,7 @@ case 36:
             var3 = var42[var5];
             var36 = var43.bind(var4)(var3);
             var35 = var36.useAnimatedReaction;
-            var28 = function Q() {
+            var28 = function W() {
                 var1 = global;
                 var4 = var1.Math;
                 var3 = var4.max;
@@ -710,7 +710,7 @@ case 36:
             var28['__workletHash'] = var3;
             var3 = _closure1_slot15;
             var28['__initData'] = var3;
-            var3 = function z(arg1, arg2) {
+            var3 = function Q(arg1, arg2) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var3 = arg1;

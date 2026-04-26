@@ -272,6 +272,8 @@ case 20:
 case 63:
                     var12 = {};
                     var12['id'] = var6;
+                    var13 = 'id-only';
+                    var12['type'] = var13;
                     var8 = var12;
 case 62:
                     var8 = var9.bind(var11)(var8);

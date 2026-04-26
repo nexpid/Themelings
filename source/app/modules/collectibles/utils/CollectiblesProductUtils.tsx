@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var2 = var1.product;
-            var1 = var1.isPremiumUser;
+            var1 = var1.hasShopDiscount;
             var2 = var2.prices;
             var3 = _closure1_slot4;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
@@ -91,7 +91,7 @@ case 11:
 case 0:
             var1 = arg1;
             var2 = var1.product;
-            var1 = var1.isPremiumUser;
+            var1 = var1.hasShopDiscount;
             var2 = var2.prices;
             var3 = _closure1_slot4;
             if(var1) { _fun0002_ip = 2; continue _fun0002 }
@@ -152,7 +152,7 @@ case 11:
         var1 = arg1;
         var2['product'] = var1;
         var1 = false;
-        var2['isPremiumUser'] = var1;
+        var2['hasShopDiscount'] = var1;
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
         var1 = null;
@@ -166,7 +166,7 @@ case 11:
         var1 = arg1;
         var2['product'] = var1;
         var1 = false;
-        var2['isPremiumUser'] = var1;
+        var2['hasShopDiscount'] = var1;
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
         var1 = null;

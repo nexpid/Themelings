@@ -980,46 +980,57 @@ case 124:
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.data;
+            var4 = var1.data;
             var2 = null;
-            var4 = var2 == var3;
+            var3 = var2 == var4;
             var1 = null;
-            if(var4) { _fun0018_ip = 125; continue _fun0018 }
-case 101:
-            var5 = _closure1_slot11;
-            var4 = var3.url;
-            var7 = undefined;
-            var5 = var5.bind(var7)(var4);
-            if(!(var2 == var5)) { _fun0018_ip = 126; continue _fun0018 }
+            if(var3) { _fun0018_ip = 125; continue _fun0018 }
+case 113:
+            var7 = _closure1_slot11;
+            var3 = var4.url;
+            var6 = undefined;
+            var8 = var7.bind(var6)(var3);
+            if(!(var2 == var8)) { _fun0018_ip = 108; continue _fun0018 }
+case 109:
+            var7 = _closure1_slot11;
+            var3 = var4.uri;
+            var8 = var7.bind(var6)(var3);
+case 108:
+            if(!(var2 == var8)) { _fun0018_ip = 115; continue _fun0018 }
+case 22:
+            var7 = _closure1_slot11;
+            var3 = var4.request_url;
+            var8 = var7.bind(var6)(var3);
+case 115:
+            var7 = _closure1_slot11;
+            var3 = var4.method;
+            var7 = var7.bind(var6)(var3);
+            if(!(var2 == var7)) { _fun0018_ip = 126; continue _fun0018 }
 case 127:
-            var8 = _closure1_slot11;
-            var4 = var3.uri;
-            var5 = var8.bind(var7)(var4);
+            var9 = _closure1_slot11;
+            var3 = var4.http_method;
+            var7 = var9.bind(var6)(var3);
 case 126:
-            if(!(var2 == var5)) { _fun0018_ip = 128; continue _fun0018 }
-case 11:
-            var8 = _closure1_slot11;
-            var4 = var3.request_url;
-            var5 = var8.bind(var7)(var4);
-case 128:
-            var8 = _closure1_slot11;
-            var4 = var3.method;
-            var4 = var8.bind(var7)(var4);
-            if(!(var2 == var4)) { _fun0018_ip = 94; continue _fun0018 }
-case 129:
-            var6 = _closure1_slot11;
-            var3 = var3.http_method;
-            var4 = var6.bind(var7)(var3);
-case 94:
-            var3 = var2 == var5;
+            var3 = var2 == var8;
             var2 = null;
-            if(var3) { _fun0018_ip = 130; continue _fun0018 }
-case 131:
+            if(var3) { _fun0018_ip = 128; continue _fun0018 }
+case 129:
             var3 = {};
-            var3['url'] = var5;
-            var3['method'] = var4;
+            var3['url'] = var8;
+            var3['method'] = var7;
+            var8 = _closure1_slot10;
+            var7 = var4.status_code;
+            var7 = var8.bind(var6)(var7);
+            var3['status_code'] = var7;
+            var7 = var4.duration_ms;
+            var7 = var8.bind(var6)(var7);
+            var3['duration_ms'] = var7;
+            var5 = _closure1_slot11;
+            var4 = var4.source;
+            var4 = var5.bind(var6)(var4);
+            var3['source'] = var4;
             var2 = var3;
-case 130:
+case 128:
             var1 = var2;
 case 125:
             return var1;
@@ -1050,42 +1061,42 @@ case 0:
             var2 = _closure1_slot4;
             var2 = var4 in var2;
             var4 = var3.key;
-            if(var2) { _fun0019_ip = 132; continue _fun0019 }
+            if(var2) { _fun0019_ip = 130; continue _fun0019 }
 case 19:
             var2 = _closure1_slot5;
             var2 = var4 in var2;
-            if(var2) { _fun0019_ip = 127; continue _fun0019 }
-case 133:
+            if(var2) { _fun0019_ip = 131; continue _fun0019 }
+case 132:
             var2 = null;
             return var2;
-case 127:
+case 131:
             var7 = var3.key;
             var5 = _closure1_slot5;
             var2 = var5[var7];
             var6 = var2.bind(var5)(var3);
             var2 = null;
             var5 = var2 == var6;
-            if(var5) { _fun0019_ip = 134; continue _fun0019 }
+            if(var5) { _fun0019_ip = 133; continue _fun0019 }
 case 6:
             var5 = {};
             var5['key'] = var7;
             var5['props'] = var6;
             var2 = var5;
-case 134:
+case 133:
             return var2;
-case 132:
+case 130:
             var2 = _closure1_slot4;
             var1 = var2[var4];
             var3 = var1.bind(var2)(var3);
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0019_ip = 135; continue _fun0019 }
+            if(var2) { _fun0019_ip = 134; continue _fun0019 }
 case 106:
             var2 = {};
             var2['key'] = var4;
             var2['props'] = var3;
             var1 = var2;
-case 135:
+case 134:
             return var1;
         }
     };

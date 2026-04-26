@@ -57,8 +57,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var3['CountryListMode'] = var4;
     var3['PromotionTypes'] = var2;
-    var2 = '2026-04-nitro-control';
-    var3['NITRO_CONTROL_PROMOTION_KEY'] = var2;
     var5 = {};
     var4 = 'steelseries';
     var2 = {'id': 'steelseries', 'label': 'SteelSeries'};

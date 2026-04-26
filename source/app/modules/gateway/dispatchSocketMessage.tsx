@@ -364,12 +364,14 @@ case 53:
             var11 = var12;
 case 52:
             var3['discoverable'] = var11;
-            var13 = _closure1_slot15;
-            var12 = var13.getUserVoiceChannelId;
-            var11 = var10.guild_id;
-            var10 = var10.user_id;
-            var10 = var12.bind(var13)(var11, var10);
-            var3['oldChannelId'] = var10;
+            var14 = _closure1_slot15;
+            var13 = var14.getUserVoiceChannelId;
+            var12 = var10.guild_id;
+            var11 = var10.user_id;
+            var11 = var13.bind(var14)(var12, var11);
+            var3['oldChannelId'] = var11;
+            var10 = var10.connected_at;
+            var3['connectedAt'] = var10;
             var3 = var9.bind(var4)(var3);
             var9 = var8.bind(var1)();
             var3 = var9.done;
@@ -1174,55 +1176,57 @@ case 121:
                     var6 = function(arg1) {
                         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
-                            var3 = arg1;
+                            var2 = arg1;
                             var1 = {};
-                            var2 = var3.user_id;
-                            var1['userId'] = var2;
-                            var2 = _closure4_slot0;
-                            var2 = var2.id;
-                            var1['guildId'] = var2;
-                            var2 = var3.session_id;
-                            var1['sessionId'] = var2;
-                            var2 = var3.channel_id;
-                            var1['channelId'] = var2;
-                            var2 = var3.mute;
-                            var1['mute'] = var2;
-                            var2 = var3.deaf;
-                            var1['deaf'] = var2;
-                            var2 = var3.self_mute;
-                            var1['selfMute'] = var2;
-                            var2 = var3.self_deaf;
-                            var1['selfDeaf'] = var2;
-                            var2 = var3.self_video;
-                            if(var2) { _fun0020_ip = 122; continue _fun0020 }
+                            var3 = var2.user_id;
+                            var1['userId'] = var3;
+                            var3 = _closure4_slot0;
+                            var3 = var3.id;
+                            var1['guildId'] = var3;
+                            var3 = var2.session_id;
+                            var1['sessionId'] = var3;
+                            var3 = var2.channel_id;
+                            var1['channelId'] = var3;
+                            var3 = var2.mute;
+                            var1['mute'] = var3;
+                            var3 = var2.deaf;
+                            var1['deaf'] = var3;
+                            var3 = var2.self_mute;
+                            var1['selfMute'] = var3;
+                            var3 = var2.self_deaf;
+                            var1['selfDeaf'] = var3;
+                            var3 = var2.self_video;
+                            if(var3) { _fun0020_ip = 122; continue _fun0020 }
 case 123:
-                            var2 = false;
+                            var3 = false;
 case 122:
-                            var1['selfVideo'] = var2;
-                            var2 = var3.suppress;
-                            var1['suppress'] = var2;
-                            var2 = var3.self_stream;
-                            if(var2) { _fun0020_ip = 124; continue _fun0020 }
+                            var1['selfVideo'] = var3;
+                            var3 = var2.suppress;
+                            var1['suppress'] = var3;
+                            var3 = var2.self_stream;
+                            if(var3) { _fun0020_ip = 124; continue _fun0020 }
 case 125:
-                            var2 = false;
+                            var3 = false;
 case 124:
-                            var1['selfStream'] = var2;
-                            var5 = var3.request_to_speak_timestamp;
-                            var2 = null;
-                            var6 = var2 != var5;
+                            var1['selfStream'] = var3;
+                            var5 = var2.request_to_speak_timestamp;
+                            var3 = null;
+                            var6 = var3 != var5;
                             var4 = null;
                             if(!var6) { _fun0020_ip = 15; continue _fun0020 }
 case 126:
                             var4 = var5;
 case 15:
                             var1['requestToSpeakTimestamp'] = var4;
-                            var3 = var3.discoverable;
-                            var2 = var2 == var3;
-                            if(var2) { _fun0020_ip = 16; continue _fun0020 }
+                            var4 = var2.discoverable;
+                            var3 = var3 == var4;
+                            if(var3) { _fun0020_ip = 16; continue _fun0020 }
 case 127:
-                            var2 = var3;
+                            var3 = var4;
 case 16:
-                            var1['discoverable'] = var2;
+                            var1['discoverable'] = var3;
+                            var2 = var2.connected_at;
+                            var1['connectedAt'] = var2;
                             return var1;
                         }
                     };
@@ -1391,57 +1395,59 @@ case 129:
                         var1 = function(arg1) {
                             _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
-                                var5 = arg1;
+                                var4 = arg1;
                                 var3 = _closure4_slot3;
                                 var2 = var3.push;
                                 var1 = {};
-                                var4 = var5.user_id;
-                                var1['userId'] = var4;
-                                var4 = _closure5_slot0;
-                                var4 = var4.id;
-                                var1['guildId'] = var4;
-                                var4 = var5.session_id;
-                                var1['sessionId'] = var4;
-                                var4 = var5.channel_id;
-                                var1['channelId'] = var4;
-                                var4 = var5.mute;
-                                var1['mute'] = var4;
-                                var4 = var5.deaf;
-                                var1['deaf'] = var4;
-                                var4 = var5.self_mute;
-                                var1['selfMute'] = var4;
-                                var4 = var5.self_deaf;
-                                var1['selfDeaf'] = var4;
-                                var4 = var5.self_video;
-                                if(var4) { _fun0023_ip = 131; continue _fun0023 }
+                                var5 = var4.user_id;
+                                var1['userId'] = var5;
+                                var5 = _closure5_slot0;
+                                var5 = var5.id;
+                                var1['guildId'] = var5;
+                                var5 = var4.session_id;
+                                var1['sessionId'] = var5;
+                                var5 = var4.channel_id;
+                                var1['channelId'] = var5;
+                                var5 = var4.mute;
+                                var1['mute'] = var5;
+                                var5 = var4.deaf;
+                                var1['deaf'] = var5;
+                                var5 = var4.self_mute;
+                                var1['selfMute'] = var5;
+                                var5 = var4.self_deaf;
+                                var1['selfDeaf'] = var5;
+                                var5 = var4.self_video;
+                                if(var5) { _fun0023_ip = 131; continue _fun0023 }
 case 132:
-                                var4 = false;
+                                var5 = false;
 case 131:
-                                var1['selfVideo'] = var4;
-                                var4 = var5.suppress;
-                                var1['suppress'] = var4;
-                                var4 = var5.self_stream;
-                                if(var4) { _fun0023_ip = 133; continue _fun0023 }
+                                var1['selfVideo'] = var5;
+                                var5 = var4.suppress;
+                                var1['suppress'] = var5;
+                                var5 = var4.self_stream;
+                                if(var5) { _fun0023_ip = 133; continue _fun0023 }
 case 134:
-                                var4 = false;
+                                var5 = false;
 case 133:
-                                var1['selfStream'] = var4;
-                                var7 = var5.request_to_speak_timestamp;
-                                var4 = null;
-                                var8 = var4 != var7;
+                                var1['selfStream'] = var5;
+                                var7 = var4.request_to_speak_timestamp;
+                                var5 = null;
+                                var8 = var5 != var7;
                                 var6 = null;
                                 if(!var8) { _fun0023_ip = 135; continue _fun0023 }
 case 136:
                                 var6 = var7;
 case 135:
                                 var1['requestToSpeakTimestamp'] = var6;
-                                var5 = var5.discoverable;
-                                var4 = var4 == var5;
-                                if(var4) { _fun0023_ip = 137; continue _fun0023 }
+                                var6 = var4.discoverable;
+                                var5 = var5 == var6;
+                                if(var5) { _fun0023_ip = 137; continue _fun0023 }
 case 138:
-                                var4 = var5;
+                                var5 = var6;
 case 137:
-                                var1['discoverable'] = var4;
+                                var1['discoverable'] = var5;
+                                var4 = var4.connected_at;
+                                var1['connectedAt'] = var4;
                                 var1 = var2.bind(var3)(var1);
                                 var1 = undefined;
                                 return var1;
@@ -1988,10 +1994,10 @@ case 0:
             var6 = var1 != var5;
             var1 = undefined;
             var4 = undefined;
-            if(!var6) { _fun0031_ip = 113; continue _fun0031 }
-case 167:
+            if(!var6) { _fun0031_ip = 102; continue _fun0031 }
+case 92:
             var4 = var5;
-case 113:
+case 102:
             var2['apexExperiments'] = var4;
             var2 = var3.bind(var1)(var2);
             return var1;
@@ -2188,7 +2194,7 @@ case 0:
             var5 = var4.author;
             var3 = null;
             if(!(var3 != var5)) { _fun0033_ip = 42; continue _fun0033 }
-case 168:
+case 167:
             var3 = _closure1_slot29;
             var2 = {'type': 'MESSAGE_CREATE', 'guildId': null, 'channelId': null, 'message': null, 'optimistic': false, 'isPushNotification': false};
             var5 = var4.guild_id;
@@ -2464,10 +2470,10 @@ case 0:
             var6 = var1 != var5;
             var1 = undefined;
             var4 = undefined;
-            if(!var6) { _fun0034_ip = 169; continue _fun0034 }
+            if(!var6) { _fun0034_ip = 168; continue _fun0034 }
 case 28:
             var4 = var5;
-case 169:
+case 168:
             var2['voiceStartTime'] = var4;
             var2 = var3.bind(var1)(var2);
             return var1;
@@ -2625,7 +2631,7 @@ case 4:
             var7 = var4.members;
             var1 = undefined;
             var5 = undefined;
-            if(!var7) { _fun0035_ip = 170; continue _fun0035 }
+            if(!var7) { _fun0035_ip = 169; continue _fun0035 }
 case 101:
             var10 = _closure1_slot1;
             var11 = _closure1_slot3;
@@ -2638,7 +2644,7 @@ case 101:
             var6 = var11[var6];
             var6 = var10.bind(var1)(var6);
             var5 = var8.bind(var9)(var7, var6);
-case 170:
+case 169:
             var2['members'] = var5;
             var4 = var4.channel_ids;
             var2['channelIds'] = var4;
@@ -2694,7 +2700,7 @@ case 0:
             var7 = var1 == var8;
             var1 = undefined;
             var5 = undefined;
-            if(var7) { _fun0037_ip = 171; continue _fun0037 }
+            if(var7) { _fun0037_ip = 170; continue _fun0037 }
 case 108:
             var7 = var8.map;
             var6 = function(arg1) {
@@ -2714,7 +2720,7 @@ case 108:
                 return var1;
             };
             var5 = var7.bind(var8)(var6);
-case 171:
+case 170:
             var2['addedMembers'] = var5;
             var5 = var4.removed_member_ids;
             var2['removedMemberIds'] = var5;
@@ -2731,7 +2737,7 @@ case 171:
 case 0:
             var1 = arg1;
             var2 = var1.permission_denied;
-            if(var2) { _fun0038_ip = 172; continue _fun0038 }
+            if(var2) { _fun0038_ip = 171; continue _fun0038 }
 case 106:
             var3 = _closure1_slot29;
             var2 = {};
@@ -2756,7 +2762,7 @@ case 106:
             var2['threads'] = var1;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
-case 172:
+case 171:
             var1 = undefined;
             return var1;
         }
@@ -2823,7 +2829,7 @@ case 0:
             var1 = arg1;
             var3 = var1.unavailable;
             if(var3) { _fun0040_ip = 37; continue _fun0040 }
-case 173:
+case 172:
             var4 = _closure1_slot2;
             var5 = _closure1_slot3;
             var3 = 18;
@@ -2847,55 +2853,57 @@ case 173:
             var6 = function(arg1) {
                 _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
 case 0:
-                    var3 = arg1;
+                    var2 = arg1;
                     var1 = {};
-                    var2 = var3.user_id;
-                    var1['userId'] = var2;
-                    var2 = _closure2_slot0;
-                    var2 = var2.id;
-                    var1['guildId'] = var2;
-                    var2 = var3.session_id;
-                    var1['sessionId'] = var2;
-                    var2 = var3.channel_id;
-                    var1['channelId'] = var2;
-                    var2 = var3.mute;
-                    var1['mute'] = var2;
-                    var2 = var3.deaf;
-                    var1['deaf'] = var2;
-                    var2 = var3.self_mute;
-                    var1['selfMute'] = var2;
-                    var2 = var3.self_deaf;
-                    var1['selfDeaf'] = var2;
-                    var2 = var3.self_video;
-                    if(var2) { _fun0041_ip = 122; continue _fun0041 }
+                    var3 = var2.user_id;
+                    var1['userId'] = var3;
+                    var3 = _closure2_slot0;
+                    var3 = var3.id;
+                    var1['guildId'] = var3;
+                    var3 = var2.session_id;
+                    var1['sessionId'] = var3;
+                    var3 = var2.channel_id;
+                    var1['channelId'] = var3;
+                    var3 = var2.mute;
+                    var1['mute'] = var3;
+                    var3 = var2.deaf;
+                    var1['deaf'] = var3;
+                    var3 = var2.self_mute;
+                    var1['selfMute'] = var3;
+                    var3 = var2.self_deaf;
+                    var1['selfDeaf'] = var3;
+                    var3 = var2.self_video;
+                    if(var3) { _fun0041_ip = 122; continue _fun0041 }
 case 123:
-                    var2 = false;
+                    var3 = false;
 case 122:
-                    var1['selfVideo'] = var2;
-                    var2 = var3.suppress;
-                    var1['suppress'] = var2;
-                    var2 = var3.self_stream;
-                    if(var2) { _fun0041_ip = 124; continue _fun0041 }
+                    var1['selfVideo'] = var3;
+                    var3 = var2.suppress;
+                    var1['suppress'] = var3;
+                    var3 = var2.self_stream;
+                    if(var3) { _fun0041_ip = 124; continue _fun0041 }
 case 125:
-                    var2 = false;
+                    var3 = false;
 case 124:
-                    var1['selfStream'] = var2;
-                    var5 = var3.request_to_speak_timestamp;
-                    var2 = null;
-                    var6 = var2 != var5;
+                    var1['selfStream'] = var3;
+                    var5 = var2.request_to_speak_timestamp;
+                    var3 = null;
+                    var6 = var3 != var5;
                     var4 = null;
                     if(!var6) { _fun0041_ip = 15; continue _fun0041 }
 case 126:
                     var4 = var5;
 case 15:
                     var1['requestToSpeakTimestamp'] = var4;
-                    var3 = var3.discoverable;
-                    var2 = var2 == var3;
-                    if(var2) { _fun0041_ip = 16; continue _fun0041 }
+                    var4 = var2.discoverable;
+                    var3 = var3 == var4;
+                    if(var3) { _fun0041_ip = 16; continue _fun0041 }
 case 127:
-                    var2 = var3;
+                    var3 = var4;
 case 16:
-                    var1['discoverable'] = var2;
+                    var1['discoverable'] = var3;
+                    var2 = var2.connected_at;
+                    var1['connectedAt'] = var2;
                     return var1;
                 }
             };
@@ -2994,21 +3002,21 @@ case 0:
             var1 = undefined;
             var7 = undefined;
             if(var9) { _fun0043_ip = 104; continue _fun0043 }
-case 174:
+case 173:
             var7 = var8.banned_users;
 case 104:
-            if(!(var6 == var7)) { _fun0043_ip = 175; continue _fun0043 }
-case 176:
-            var7 = new Array(0);
+            if(!(var6 == var7)) { _fun0043_ip = 174; continue _fun0043 }
 case 175:
+            var7 = new Array(0);
+case 174:
             var4['bannedUsers'] = var7;
             var7 = var5.bulk_ban;
             var8 = var6 == var7;
             var5 = undefined;
-            if(var8) { _fun0043_ip = 177; continue _fun0043 }
+            if(var8) { _fun0043_ip = 176; continue _fun0043 }
 case 9:
             var5 = var7.failed_users;
-case 177:
+case 176:
             if(!(var6 == var5)) { _fun0043_ip = 145; continue _fun0043 }
 case 11:
             var5 = new Array(0);
@@ -3092,7 +3100,7 @@ case 0:
                 var4 = var3.presences;
                 var3 = null;
                 if(!(var3 != var4)) { _fun0045_ip = 13; continue _fun0045 }
-case 178:
+case 177:
                 var5 = _closure1_slot33;
                 var2 = _closure2_slot0;
                 var4 = var2.presences;
@@ -3149,7 +3157,7 @@ case 0:
                 var5 = var6.bind(var1)(var5);
                 var5 = var4.presences;
                 var4 = null;
-                if(!(var4 != var5)) { _fun0046_ip = 179; continue _fun0046 }
+                if(!(var4 != var5)) { _fun0046_ip = 178; continue _fun0046 }
 case 44:
                 var5 = _closure1_slot33;
                 var3 = _closure2_slot0;
@@ -3159,7 +3167,7 @@ case 44:
                 var4 = var5.forEach;
                 var3 = _closure1_slot35;
                 var3 = var4.bind(var5)(var3);
-case 179:
+case 178:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot3;
                 var2 = 14;
@@ -3389,8 +3397,8 @@ case 0:
             var2 = var2.proto;
             var6 = var6.bind(var7)(var5, var2);
             var2 = null;
-            if(!(var2 != var6)) { _fun0047_ip = 180; continue _fun0047 }
-case 178:
+            if(!(var2 != var6)) { _fun0047_ip = 179; continue _fun0047 }
+case 177:
             var5 = 'string';
             var2 = typeof var6;
             if(!(var5 !== var2)) { _fun0047_ip = 107; continue _fun0047 }
@@ -3408,7 +3416,7 @@ case 42:
             var4 = var4.partial;
             var1['partial'] = var4;
             var1 = var2.bind(var3)(var1);
-case 180:
+case 179:
             return var3;
 case 107:
             var1 = global;
@@ -3494,22 +3502,22 @@ case 0:
             var5 = var1.nickname;
             var4['nickname'] = var5;
             var5 = var1.is_spam_request;
-            if(var5) { _fun0048_ip = 181; continue _fun0048 }
+            if(var5) { _fun0048_ip = 180; continue _fun0048 }
 case 42:
             var5 = false;
-case 181:
+case 180:
             var4['isSpamRequest'] = var5;
             var5 = var1.is_stranger_request;
-            if(var5) { _fun0048_ip = 182; continue _fun0048 }
+            if(var5) { _fun0048_ip = 181; continue _fun0048 }
 case 11:
             var5 = false;
-case 182:
+case 181:
             var4['isStrangerRequest'] = var5;
             var5 = var1.user_ignored;
-            if(var5) { _fun0048_ip = 183; continue _fun0048 }
-case 184:
-            var5 = false;
+            if(var5) { _fun0048_ip = 182; continue _fun0048 }
 case 183:
+            var5 = false;
+case 182:
             var4['userIgnored'] = var5;
             var5 = var1.origin_application_id;
             var4['originApplicationId'] = var5;
@@ -3558,22 +3566,22 @@ case 0:
             var5 = var4.since;
             var1['since'] = var5;
             var5 = var4.is_spam_request;
-            if(var5) { _fun0049_ip = 181; continue _fun0049 }
+            if(var5) { _fun0049_ip = 180; continue _fun0049 }
 case 42:
             var5 = false;
-case 181:
+case 180:
             var1['isSpamRequest'] = var5;
             var5 = var4.is_stranger_request;
-            if(var5) { _fun0049_ip = 182; continue _fun0049 }
+            if(var5) { _fun0049_ip = 181; continue _fun0049 }
 case 11:
             var5 = false;
-case 182:
+case 181:
             var1['isStrangerRequest'] = var5;
             var5 = var4.user_ignored;
-            if(var5) { _fun0049_ip = 183; continue _fun0049 }
-case 184:
-            var5 = false;
+            if(var5) { _fun0049_ip = 182; continue _fun0049 }
 case 183:
+            var5 = false;
+case 182:
             var1['userIgnored'] = var5;
             var4 = var4.origin_application_id;
             var1['originApplicationId'] = var4;
@@ -3730,7 +3738,7 @@ case 0:
             var4 = var5.bind(var1)(var4);
             var6 = var3.voice_states;
             var3 = null;
-            if(!(var3 != var6)) { _fun0050_ip = 185; continue _fun0050 }
+            if(!(var3 != var6)) { _fun0050_ip = 184; continue _fun0050 }
 case 42:
             var3 = _closure1_slot29;
             var2 = {};
@@ -3740,60 +3748,62 @@ case 42:
             var4 = function(arg1) {
                 _fun0051: for(var _fun0051_ip = 0; ; ) switch(_fun0051_ip) {
 case 0:
-                    var3 = arg1;
+                    var2 = arg1;
                     var1 = {};
-                    var2 = var3.user_id;
-                    var1['userId'] = var2;
-                    var2 = null;
-                    var1['guildId'] = var2;
-                    var4 = var3.session_id;
+                    var3 = var2.user_id;
+                    var1['userId'] = var3;
+                    var3 = null;
+                    var1['guildId'] = var3;
+                    var4 = var2.session_id;
                     var1['sessionId'] = var4;
-                    var4 = var3.channel_id;
+                    var4 = var2.channel_id;
                     var1['channelId'] = var4;
-                    var4 = var3.mute;
+                    var4 = var2.mute;
                     var1['mute'] = var4;
-                    var4 = var3.deaf;
+                    var4 = var2.deaf;
                     var1['deaf'] = var4;
-                    var4 = var3.self_mute;
+                    var4 = var2.self_mute;
                     var1['selfMute'] = var4;
-                    var4 = var3.self_deaf;
+                    var4 = var2.self_deaf;
                     var1['selfDeaf'] = var4;
-                    var4 = var3.self_video;
+                    var4 = var2.self_video;
                     if(var4) { _fun0051_ip = 11; continue _fun0051 }
-case 186:
+case 185:
                     var4 = false;
 case 11:
                     var1['selfVideo'] = var4;
-                    var4 = var3.suppress;
+                    var4 = var2.suppress;
                     var1['suppress'] = var4;
-                    var4 = var3.self_stream;
-                    if(var4) { _fun0051_ip = 185; continue _fun0051 }
-case 187:
+                    var4 = var2.self_stream;
+                    if(var4) { _fun0051_ip = 184; continue _fun0051 }
+case 186:
                     var4 = false;
-case 185:
+case 184:
                     var1['selfStream'] = var4;
-                    var5 = var3.request_to_speak_timestamp;
-                    var6 = var2 != var5;
+                    var5 = var2.request_to_speak_timestamp;
+                    var6 = var3 != var5;
                     var4 = null;
-                    if(!var6) { _fun0051_ip = 188; continue _fun0051 }
+                    if(!var6) { _fun0051_ip = 187; continue _fun0051 }
 case 134:
                     var4 = var5;
-case 188:
+case 187:
                     var1['requestToSpeakTimestamp'] = var4;
-                    var3 = var3.discoverable;
-                    var2 = var2 == var3;
-                    if(var2) { _fun0051_ip = 136; continue _fun0051 }
-case 189:
-                    var2 = var3;
+                    var4 = var2.discoverable;
+                    var3 = var3 == var4;
+                    if(var3) { _fun0051_ip = 136; continue _fun0051 }
+case 188:
+                    var3 = var4;
 case 136:
-                    var1['discoverable'] = var2;
+                    var1['discoverable'] = var3;
+                    var2 = var2.connected_at;
+                    var1['connectedAt'] = var2;
                     return var1;
                 }
             };
             var4 = var5.bind(var6)(var4);
             var2['voiceStates'] = var4;
             var2 = var3.bind(var1)(var2);
-case 185:
+case 184:
             return var1;
         }
     };
@@ -4016,7 +4026,7 @@ case 0:
             var7 = 'MESSAGE_POLL_VOTE_ADD';
             var6 = arg2;
             if(!(var7 === var6)) { _fun0052_ip = 33; continue _fun0052 }
-case 168:
+case 167:
             var4 = 'MESSAGE_REACTION_ADD';
 case 33:
             var2['type'] = var4;
@@ -4185,7 +4195,7 @@ case 29:
             var2 = var3 != var4;
 case 103:
             if(!var2) { _fun0053_ip = 131; continue _fun0053 }
-case 190:
+case 189:
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
             var2 = 29;
@@ -4224,16 +4234,16 @@ case 0:
             var4 = _closure1_slot12;
             var3 = var4.hasLayers;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0054_ip = 191; continue _fun0054 }
-case 174:
+            if(var3) { _fun0054_ip = 190; continue _fun0054 }
+case 173:
             var5 = _closure1_slot13;
             var4 = var5.getSection;
             var5 = var4.bind(var5)();
             var4 = null;
             var3 = var4 != var5;
-case 191:
+case 190:
             if(!var3) { _fun0054_ip = 140; continue _fun0054 }
-case 192:
+case 191:
             var3 = _closure1_slot0;
             var4 = _closure1_slot3;
             var2 = 29;
@@ -4399,7 +4409,7 @@ case 0:
                     var1 = arg1;
                     var2 = var1.member;
                     var6 = null;
-                    if(!(var6 != var2)) { _fun0056_ip = 182; continue _fun0056 }
+                    if(!(var6 != var2)) { _fun0056_ip = 181; continue _fun0056 }
 case 98:
                     var4 = var1.member;
                     var8 = _closure1_slot30;
@@ -4409,7 +4419,7 @@ case 98:
                     var3 = undefined;
                     var2 = var8.bind(var3)(var7, var2, var4);
                     var2 = var4.presence;
-                    if(!(var6 != var2)) { _fun0056_ip = 182; continue _fun0056 }
+                    if(!(var6 != var2)) { _fun0056_ip = 181; continue _fun0056 }
 case 93:
                     var2 = _closure1_slot35;
                     var5 = _closure1_slot34;
@@ -4418,7 +4428,7 @@ case 93:
                     var1 = var1.guild_id;
                     var1 = var5.bind(var3)(var4, var1);
                     var1 = var2.bind(var3)(var1);
-case 182:
+case 181:
                     var1 = undefined;
                     return var1;
                 }
@@ -4435,19 +4445,19 @@ case 0:
                     var3 = var1.items;
                     var4 = var1.item;
                     var1 = 'SYNC';
-                    if(!(var1 !== var2)) { _fun0057_ip = 169; continue _fun0057 }
-case 193:
+                    if(!(var1 !== var2)) { _fun0057_ip = 168; continue _fun0057 }
+case 192:
                     var1 = 'UPDATE';
-                    if(!(var1 !== var2)) { _fun0057_ip = 190; continue _fun0057 }
+                    if(!(var1 !== var2)) { _fun0057_ip = 189; continue _fun0057 }
 case 45:
                     var1 = 'INSERT';
                     if(!(var1 === var2)) { _fun0057_ip = 108; continue _fun0057 }
-case 190:
+case 189:
                     var2 = _closure3_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var4);
                     _fun0057_ip = 108; continue _fun0057;
-case 169:
+case 168:
                     var2 = var3.forEach;
                     var1 = _closure3_slot0;
                     var1 = var2.bind(var3)(var1);
@@ -5253,10 +5263,10 @@ case 0:
             var5 = var1.party_id;
             var4 = null;
             var6 = var4 != var5;
-            if(!var6) { _fun0058_ip = 194; continue _fun0058 }
+            if(!var6) { _fun0058_ip = 193; continue _fun0058 }
 case 97:
             var4 = var5;
-case 194:
+case 193:
             var2['partyId'] = var4;
             var1 = var1.remote_clip_id;
             var2['remoteClipId'] = var1;
@@ -5595,68 +5605,70 @@ case 194:
         var4 = function(arg1) {
             _fun0059: for(var _fun0059_ip = 0; ; ) switch(_fun0059_ip) {
 case 0:
-                var3 = arg1;
+                var2 = arg1;
                 var1 = {};
-                var2 = var3.channel_id;
-                var1['channelId'] = var2;
-                var2 = var3.deaf;
-                if(var2) { _fun0059_ip = 36; continue _fun0059 }
+                var3 = var2.channel_id;
+                var1['channelId'] = var3;
+                var3 = var2.deaf;
+                if(var3) { _fun0059_ip = 36; continue _fun0059 }
 case 31:
-                var2 = false;
+                var3 = false;
 case 36:
-                var1['deaf'] = var2;
-                var2 = var3.mute;
-                if(var2) { _fun0059_ip = 92; continue _fun0059 }
-case 167:
-                var2 = false;
+                var1['deaf'] = var3;
+                var3 = var2.mute;
+                if(var3) { _fun0059_ip = 92; continue _fun0059 }
+case 194:
+                var3 = false;
 case 92:
-                var1['mute'] = var2;
-                var5 = var3.request_to_speak_timestamp;
-                var2 = null;
-                var6 = var2 != var5;
+                var1['mute'] = var3;
+                var5 = var2.request_to_speak_timestamp;
+                var3 = null;
+                var6 = var3 != var5;
                 var4 = null;
-                if(!var6) { _fun0059_ip = 175; continue _fun0059 }
+                if(!var6) { _fun0059_ip = 174; continue _fun0059 }
 case 195:
                 var4 = var5;
-case 175:
+case 174:
                 var1['requestToSpeakTimestamp'] = var4;
-                var4 = var3.self_deaf;
-                if(var4) { _fun0059_ip = 181; continue _fun0059 }
+                var4 = var2.self_deaf;
+                if(var4) { _fun0059_ip = 180; continue _fun0059 }
 case 42:
                 var4 = false;
-case 181:
+case 180:
                 var1['selfDeaf'] = var4;
-                var4 = var3.self_mute;
-                if(var4) { _fun0059_ip = 182; continue _fun0059 }
+                var4 = var2.self_mute;
+                if(var4) { _fun0059_ip = 181; continue _fun0059 }
 case 11:
                 var4 = false;
-case 182:
+case 181:
                 var1['selfMute'] = var4;
-                var4 = var3.self_stream;
-                if(var4) { _fun0059_ip = 183; continue _fun0059 }
-case 184:
-                var4 = false;
+                var4 = var2.self_stream;
+                if(var4) { _fun0059_ip = 182; continue _fun0059 }
 case 183:
+                var4 = false;
+case 182:
                 var1['selfStream'] = var4;
-                var4 = var3.self_video;
+                var4 = var2.self_video;
                 if(var4) { _fun0059_ip = 196; continue _fun0059 }
 case 197:
                 var4 = false;
 case 196:
                 var1['selfVideo'] = var4;
-                var4 = var3.session_id;
+                var4 = var2.session_id;
                 var1['sessionId'] = var4;
-                var4 = var3.suppress;
+                var4 = var2.suppress;
                 var1['suppress'] = var4;
-                var4 = var3.user_id;
+                var4 = var2.user_id;
                 var1['userId'] = var4;
-                var3 = var3.discoverable;
-                var2 = var2 == var3;
-                if(var2) { _fun0059_ip = 198; continue _fun0059 }
+                var4 = var2.discoverable;
+                var3 = var3 == var4;
+                if(var3) { _fun0059_ip = 198; continue _fun0059 }
 case 199:
-                var2 = var3;
+                var3 = var4;
 case 198:
-                var1['discoverable'] = var2;
+                var1['discoverable'] = var3;
+                var2 = var2.connected_at;
+                var1['connectedAt'] = var2;
                 return var1;
             }
         };

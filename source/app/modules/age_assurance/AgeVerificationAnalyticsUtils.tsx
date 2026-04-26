@@ -1,25 +1,29 @@
 // app/modules/age_assurance/AgeVerificationAnalyticsUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var12 = require;
+    var5 = metroImportDefault;
     var3 = exports;
     var13 = dependencyMap;
-    var1 = metroImportDefault;
-    var _closure1_slot0 = var1;
+    var _closure1_slot0 = var5;
     var _closure1_slot1 = var13;
     var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = var6.bind(var7)(var3, var1, var4);
     var1 = 0;
     var4 = var13[var1];
     var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var5 = 1;
+    var4 = var13[var5];
     var4 = var12.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var10 = {};
     var4 = 'get_started_modal';
     var10['GET_STARTED_MODAL'] = var4;
@@ -68,18 +72,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'age_restricted_servers_access_settings';
     var10['AGE_RESTRICTED_SERVERS_ACCESS_SETTINGS'] = var4;
     var9 = {};
-    var5 = 1;
     var9['PRIMARY'] = var5;
     var4 = 'PRIMARY';
     var9[var5] = var4;
-    var11 = 2;
-    var9['RETRY'] = var11;
+    var5 = 2;
+    var9['RETRY'] = var5;
     var4 = 'RETRY';
-    var9[var11] = var4;
-    var5 = 3;
-    var9['EXPRESSIVE_PRIMARY'] = var5;
-    var4 = 'EXPRESSIVE_PRIMARY';
     var9[var5] = var4;
+    var11 = 3;
+    var9['EXPRESSIVE_PRIMARY'] = var11;
+    var4 = 'EXPRESSIVE_PRIMARY';
+    var9[var11] = var4;
     var5 = 4;
     var9['SAFETY_FLOWS'] = var5;
     var4 = 'SAFETY_FLOWS';
@@ -143,12 +146,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function trackAgeVerificationModalViewed(arg1, arg2, arg3) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var1 = 1;
+        var1 = 2;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.track;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot3;
         var3 = var2.AGE_VERIFICATION_MODAL_VIEWED;
         var2 = {};
         var6 = arg1;
@@ -164,12 +167,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function trackAgeVerificationModalClicked(arg1, arg2, arg3, arg4) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var1 = 1;
+        var1 = 2;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.track;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot3;
         var3 = var2.AGE_VERIFICATION_MODAL_CLICKED;
         var2 = {};
         var6 = arg1;
@@ -187,12 +190,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function trackAgeVerificationDmClicked(arg1, arg2) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var1 = 1;
+        var1 = 2;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.track;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot3;
         var3 = var2.AGE_VERIFICATION_DM_CLICKED;
         var2 = {};
         var6 = arg1;
@@ -206,12 +209,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function trackNsfwSpaceWarningModalViewed(arg1, arg2, arg3) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var1 = 1;
+        var1 = 2;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.track;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot3;
         var3 = var2.NSFW_SPACE_WARNING_MODAL_VIEWED;
         var2 = {};
         var6 = arg2;
@@ -225,38 +228,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['trackNsfwSpaceWarningModalViewed'] = var5;
     var5 = function trackNsfwSpaceWarningModalClicked(arg1, arg2, arg3, arg4) {
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot1;
-        var1 = 1;
-        var3 = var3[var1];
-        var1 = undefined;
-        var5 = var4.bind(var1)(var3);
-        var4 = var5.track;
-        var2 = _closure1_slot2;
-        var3 = var2.NSFW_SPACE_WARNING_MODAL_CLICKED;
-        var2 = {};
-        var6 = arg1;
-        var2['cta'] = var6;
-        var6 = arg2;
-        var2['modal_type'] = var6;
-        var6 = arg3;
-        var2['channel_id'] = var6;
-        var6 = arg4;
-        var2['guild_id'] = var6;
-        var2 = var4.bind(var5)(var3, var2);
-        return var1;
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var7 = arg3;
+            var4 = null;
+            var1 = var4 != var7;
+            var2 = null;
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = _closure1_slot2;
+            var1 = var3.getChannel;
+            var2 = var1.bind(var3)(var7);
+case 2:
+            var5 = var4 == var2;
+            var1 = undefined;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var3 = var2.topic;
+case 4:
+            var6 = var4 != var3;
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var3 = var2.topic;
+            var2 = var3.trim;
+            var3 = var2.bind(var3)();
+            var2 = '';
+            var6 = var2 !== var3;
+case 6:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 2;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.track;
+            var2 = _closure1_slot3;
+            var3 = var2.NSFW_SPACE_WARNING_MODAL_CLICKED;
+            var2 = {};
+            var8 = arg1;
+            var2['cta'] = var8;
+            var8 = arg2;
+            var2['modal_type'] = var8;
+            var2['channel_id'] = var7;
+            var7 = arg4;
+            var2['guild_id'] = var7;
+            var2['has_channel_topic'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+        }
     };
     var3['trackNsfwSpaceWarningModalClicked'] = var5;
     var3['AgeVerificationToastType'] = var4;
     var2 = function trackAgeVerificationToastViewed(arg1) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var1 = 1;
+        var1 = 2;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.track;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot3;
         var3 = var2.AGE_VERIFICATION_TOAST_VIEWED;
         var2 = {};
         var6 = arg1;

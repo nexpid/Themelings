@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOWER;
+    var11 = var11.MOBILE_KEYBOARD_PANEL_BACKGROUND;
     var10['backgroundColor'] = var11;
     var4['listContainer'] = var10;
     var4 = var8.bind(var9)(var4);
@@ -365,7 +365,7 @@ case 13:
             var8 = var42[var40];
             var19 = var41.bind(var5)(var8);
             var18 = var19.useAnimatedReaction;
-            var15 = function W() {
+            var15 = function G() {
                 var2 = _closure2_slot22;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();

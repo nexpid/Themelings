@@ -176,7 +176,7 @@ case 8:
             var11 = var3.bind(var11)(var2);
             var3 = _closure1_slot5;
             var2 = var12;
-            if(var5) { _fun0002_ip = 10; continue _fun0002 }
+            if(var8) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
             var13 = var13 + var10;
             var10 = 2;

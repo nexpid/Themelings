@@ -342,7 +342,7 @@ case 8:
     var7 = 'function TabItemNativeTsx3(){const{activeIndex,index}=this.__closure;return{accessibilityState:{selected:activeIndex.get()===index}};}';
     var4['code'] = var7;
     var _closure1_slot14 = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -356,20 +356,20 @@ case 0:
             var14 = var4.count;
             var13 = var4.index;
             var _closure2_slot0 = var13;
-            var21 = var4.itemCount;
+            var20 = var4.itemCount;
             var1 = var4.state;
             var11 = var4.pressed;
-            var20 = var4.grow;
+            var21 = var4.grow;
             var10 = var4.variant;
             var3 = {'label': 0, 'count': 0, 'index': 0, 'itemCount': 0, 'state': 0, 'pressed': 0, 'grow': 0, 'variant': 0};
             var5 = null;
-            var25 = var3;
-            var24 = null;
-            var2 = silentSetPrototypeOf(var25, var24);
-            var25 = {};
-            var24 = var4;
-            var23 = var3;
-            var8 = copyDataProperties(var25, var24, var23);
+            var24 = var3;
+            var23 = null;
+            var2 = silentSetPrototypeOf(var24, var23);
+            var24 = {};
+            var23 = var4;
+            var22 = var3;
+            var9 = copyDataProperties(var24, var23, var22);
             var12 = var1.activeIndex;
             var _closure2_slot1 = var12;
             var1 = var1.setItemDimensions;
@@ -395,15 +395,15 @@ case 0:
                 var1['accessibilityState'] = var2;
                 return var1;
             };
-            var9 = {};
-            var9['activeIndex'] = var12;
-            var9['index'] = var13;
-            var1['__closure'] = var9;
-            var9 = 11618929630200.0;
-            var1['__workletHash'] = var9;
-            var9 = _closure1_slot14;
-            var1['__initData'] = var9;
-            var9 = var2.bind(var3)(var1);
+            var8 = {};
+            var8['activeIndex'] = var12;
+            var8['index'] = var13;
+            var1['__closure'] = var8;
+            var8 = 11618929630200.0;
+            var1['__workletHash'] = var8;
+            var8 = _closure1_slot14;
+            var1['__initData'] = var8;
+            var8 = var2.bind(var3)(var1);
             var2 = _closure1_slot15;
             var1 = {};
             var1['index'] = var13;
@@ -419,17 +419,17 @@ case 0:
             var17[0] = var18;
             var18 = {};
             var19 = 0;
-            if(!var20) { _fun0003_ip = 10; continue _fun0003 }
+            if(!var21) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
             var19 = 1;
 case 10:
             var18['flexGrow'] = var19;
             var17[1] = var18;
             var1['style'] = var17;
-            var25 = var1;
-            var24 = var8;
-            var8 = copyDataProperties(var25, var24);
-            var8 = function onLayout(arg1) {
+            var24 = var1;
+            var23 = var9;
+            var9 = copyDataProperties(var24, var23);
+            var9 = function onLayout(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 3;
@@ -447,32 +447,45 @@ case 10:
                 return var1;
             };
             var6 = 'onLayout';
-            var1[5] = var8;
-            var8 = 'tab';
+            var1[5] = var9;
+            var9 = 'tab';
             var6 = 'accessibilityRole';
-            var1[5] = var8;
-            var8 = _closure1_slot0;
+            var1[5] = var9;
+            var9 = _closure1_slot0;
             var17 = _closure1_slot2;
             var6 = 8;
-            var18 = var17[var6];
-            var18 = var8.bind(var4)(var18);
-            var20 = var18.intl;
-            var19 = var20.formatToPlainString;
             var6 = var17[var6];
-            var6 = var8.bind(var4)(var6);
+            var9 = var9.bind(var4)(var6);
+            var6 = var9.isAndroid;
+            var6 = var6.bind(var9)();
+            var9 = undefined;
+            if(!var6) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+            var17 = _closure1_slot0;
+            var21 = _closure1_slot2;
+            var6 = 9;
+            var18 = var21[var6];
+            var18 = var17.bind(var4)(var18);
+            var19 = var18.intl;
+            var18 = var19.formatToPlainString;
+            var6 = var21[var6];
+            var6 = var17.bind(var4)(var6);
             var6 = var6.t;
-            var18 = var6["4EsQA1"];
+            var17 = var6["4EsQA1"];
             var6 = {};
-            var22 = 1;
-            var22 = var13 + var22;
-            var6['position'] = var22;
-            var6['tabCount'] = var21;
-            var18 = var19.bind(var20)(var18, var6);
+            var21 = 1;
+            var21 = var13 + var21;
+            var6['position'] = var21;
+            var6['tabCount'] = var20;
+            var9 = var18.bind(var19)(var17, var6);
+case 12:
             var6 = 'accessibilityHint';
-            var1[5] = var18;
-            var6 = 'animatedProps';
             var1[5] = var9;
+            var6 = 'animatedProps';
+            var1[5] = var8;
             var9 = _closure1_slot4;
+            var8 = _closure1_slot0;
+            var17 = _closure1_slot2;
             var6 = 7;
             var6 = var17[var6];
             var6 = var8.bind(var4)(var6);
@@ -485,8 +498,8 @@ case 10:
             var6[0] = var8;
             var8 = var5 != var14;
             var5 = null;
-            if(!var8) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+            if(!var8) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var9 = _closure1_slot4;
             var8 = _closure1_slot16;
             var7 = {};
@@ -496,7 +509,7 @@ case 13:
             var7['pressed'] = var11;
             var7['variant'] = var10;
             var5 = var9.bind(var4)(var8, var7);
-case 12:
+case 14:
             var6[1] = var5;
             var5 = 'children';
             var1[4] = var6;
