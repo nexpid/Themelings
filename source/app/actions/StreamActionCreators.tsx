@@ -688,20 +688,22 @@ case 0:
             var5 = arg1;
             var2 = var5.noTrack;
             var1 = true;
-            if(!(var1 !== var2)) { _fun0009_ip = 60; continue _fun0009 }
+            if(!(var1 !== var2)) { _fun0009_ip = 61; continue _fun0009 }
 case 28:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 22;
             var2 = var2[var1];
             var1 = undefined;
-            var6 = var3.bind(var1)(var2);
-            var4 = var6.trackStreamSettingsUpdate;
-            var3 = var5.preset;
-            var2 = var5.resolution;
-            var1 = var5.frameRate;
-            var1 = var4.bind(var6)(var3, var2, var1);
-case 60:
+            var7 = var3.bind(var1)(var2);
+            var6 = var7.trackStreamSettingsUpdate;
+            var11 = var5.preset;
+            var10 = var5.resolution;
+            var9 = var5.frameRate;
+            var8 = var5.soundshareEnabled;
+            var12 = var7;
+            var1 = var12[var6](var11, var10, var9, var8, var7);
+case 61:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 12;
@@ -712,9 +714,9 @@ case 60:
             var2 = {};
             var6 = 'STREAM_UPDATE_SETTINGS';
             var2['type'] = var6;
-            var9 = var2;
-            var8 = var5;
-            var5 = copyDataProperties(var9, var8);
+            var11 = var2;
+            var10 = var5;
+            var5 = copyDataProperties(var11, var10);
             var2 = var3.bind(var4)(var2);
             return var1;
         }
@@ -759,8 +761,8 @@ case 33:
             var3 = var5.getCurrentUserActiveStream;
             var6 = var3.bind(var5)();
             var3 = null;
-            if(!(var3 != var6)) { _fun0010_ip = 61; continue _fun0010 }
-case 62:
+            if(!(var3 != var6)) { _fun0010_ip = 62; continue _fun0010 }
+case 63:
             var3 = _closure1_slot21;
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -770,7 +772,7 @@ case 62:
             var2 = var5.encodeStreamKey;
             var2 = var2.bind(var5)(var6);
             var2 = var3.bind(var1)(var2, var4);
-case 61:
+case 62:
             return var1;
         }
     };
@@ -798,12 +800,12 @@ case 0:
             var7 = var4.bind(var7)();
             var4 = null;
             var4 = var4 != var7;
-            if(!var4) { _fun0011_ip = 63; continue _fun0011 }
-case 64:
+            if(!var4) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
             var4 = var7 !== var6;
-case 63:
-            if(!var4) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+case 64:
+            if(!var4) { _fun0011_ip = 66; continue _fun0011 }
+case 67:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 23;
@@ -811,7 +813,7 @@ case 66:
             var7 = var7.bind(var1)(var4);
             var4 = var7.disconnect;
             var4 = var4.bind(var7)();
-case 65:
+case 66:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 24;

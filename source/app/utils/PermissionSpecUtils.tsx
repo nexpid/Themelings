@@ -12,89 +12,99 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function getPermissionOptions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var3 = arg1;
+            var9 = arg1;
             var2 = _closure1_slot0;
-            var4 = _closure1_slot3;
+            var3 = _closure1_slot3;
             var1 = 4;
-            var1 = var4[var1];
-            var12 = undefined;
-            var2 = var2.bind(var12)(var1);
+            var1 = var3[var1];
+            var13 = undefined;
+            var2 = var2.bind(var13)(var1);
             var1 = var2.isGuildEligibleForStageChannels;
-            var4 = var1.bind(var2)(var3);
+            var5 = var1.bind(var2)(var9);
             var2 = _closure1_slot5;
             var1 = var2.getGuild;
-            var5 = var1.bind(var2)(var3);
+            var3 = var1.bind(var2)(var9);
             var1 = null;
-            var3 = var1 != var5;
-            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+            var4 = var1 != var3;
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = _closure1_slot0;
             var6 = _closure1_slot3;
             var1 = 5;
             var1 = var6[var1];
-            var2 = var2.bind(var12)(var1);
+            var2 = var2.bind(var13)(var1);
             var1 = var2.isCreatorMonetizationEnabledGuild;
-            var3 = var1.bind(var2)(var5);
+            var4 = var1.bind(var2)(var3);
 case 2:
-            var6 = _closure1_slot0;
-            var13 = _closure1_slot3;
+            var7 = _closure1_slot0;
+            var14 = _closure1_slot3;
             var1 = 6;
-            var1 = var13[var1];
-            var5 = var6.bind(var12)(var1);
-            var2 = var5.getSoundmojiRenderingExperiment;
+            var1 = var14[var1];
+            var3 = var7.bind(var13)(var1);
+            var2 = var3.getSoundmojiRenderingExperiment;
             var1 = {};
-            var7 = 'getPermissionOptions';
-            var1['location'] = var7;
-            var2 = var2.bind(var5)(var1);
+            var8 = 'getPermissionOptions';
+            var1['location'] = var8;
+            var3 = var2.bind(var3)(var1);
+            var1 = 7;
+            var1 = var14[var1];
+            var6 = var7.bind(var13)(var1);
+            var2 = var6.getHangoutWindowExperiment;
             var1 = {};
-            var5 = 7;
-            var7 = var13[var5];
-            var7 = var6.bind(var12)(var7);
-            var11 = var7.intl;
-            var10 = var11.format;
-            var7 = var13[var5];
-            var7 = var6.bind(var12)(var7);
-            var7 = var7.t;
-            var8 = var7.ZuzwPz;
-            var7 = {};
-            var14 = var13[var5];
-            var14 = var6.bind(var12)(var14);
-            var16 = var14.intl;
-            var15 = var16.string;
-            var14 = var13[var5];
-            var14 = var6.bind(var12)(var14);
-            var14 = var14.t;
-            var14 = var14.DkSwJ2;
-            var14 = var15.bind(var16)(var14);
-            var7['keybind'] = var14;
-            var7 = var10.bind(var11)(var8, var7);
-            var1['PRIORITY_SPEAKER_DESCRIPTION'] = var7;
-            var7 = var13[var5];
-            var7 = var6.bind(var12)(var7);
-            var8 = var7.intl;
-            var7 = var8.format;
-            var5 = var13[var5];
-            var5 = var6.bind(var12)(var5);
-            var5 = var5.t;
-            var6 = var5.fVE8y8;
-            var5 = {};
-            var11 = _closure1_slot1;
-            var10 = 8;
-            var10 = var13[var10];
-            var11 = var11.bind(var12)(var10);
-            var10 = var11.getArticleURL;
-            var9 = _closure1_slot6;
-            var9 = var9.SOUNDBOARD;
-            var9 = var10.bind(var11)(var9);
-            var5['helpCenterArticle'] = var9;
-            var5 = var7.bind(var8)(var6, var5);
-            var1['SOUNDBOARD_DESCRIPTION'] = var5;
-            var1['showStageChannelPermissions'] = var4;
-            var4 = true;
-            var1['showExperimental'] = var4;
-            var1['showMembershipManualApprovalPermissions'] = var4;
-            var1['showCreatorMonetizationAnalyticsPermission'] = var3;
-            var1['inSoundmojiExperiment'] = var2;
+            var1['guildId'] = var9;
+            var1['location'] = var8;
+            var1 = var2.bind(var6)(var1);
+            var2 = var1.enableHangoutWindow;
+            var1 = {};
+            var6 = 8;
+            var8 = var14[var6];
+            var8 = var7.bind(var13)(var8);
+            var12 = var8.intl;
+            var11 = var12.format;
+            var8 = var14[var6];
+            var8 = var7.bind(var13)(var8);
+            var8 = var8.t;
+            var9 = var8.ZuzwPz;
+            var8 = {};
+            var15 = var14[var6];
+            var15 = var7.bind(var13)(var15);
+            var17 = var15.intl;
+            var16 = var17.string;
+            var15 = var14[var6];
+            var15 = var7.bind(var13)(var15);
+            var15 = var15.t;
+            var15 = var15.DkSwJ2;
+            var15 = var16.bind(var17)(var15);
+            var8['keybind'] = var15;
+            var8 = var11.bind(var12)(var9, var8);
+            var1['PRIORITY_SPEAKER_DESCRIPTION'] = var8;
+            var8 = var14[var6];
+            var8 = var7.bind(var13)(var8);
+            var9 = var8.intl;
+            var8 = var9.format;
+            var6 = var14[var6];
+            var6 = var7.bind(var13)(var6);
+            var6 = var6.t;
+            var7 = var6.fVE8y8;
+            var6 = {};
+            var12 = _closure1_slot1;
+            var11 = 9;
+            var11 = var14[var11];
+            var12 = var12.bind(var13)(var11);
+            var11 = var12.getArticleURL;
+            var10 = _closure1_slot6;
+            var10 = var10.SOUNDBOARD;
+            var10 = var11.bind(var12)(var10);
+            var6['helpCenterArticle'] = var10;
+            var6 = var8.bind(var9)(var7, var6);
+            var1['SOUNDBOARD_DESCRIPTION'] = var6;
+            var1['showStageChannelPermissions'] = var5;
+            var5 = true;
+            var1['showExperimental'] = var5;
+            var1['showMembershipManualApprovalPermissions'] = var5;
+            var1['showCreatorMonetizationAnalyticsPermission'] = var4;
+            var1['inSoundmojiExperiment'] = var3;
+            var1['enableHangoutWindow'] = var2;
             return var1;
         }
     };
@@ -204,17 +214,23 @@ case 0:
             var13 = arg1;
             var22 = arg2;
             var _closure2_slot0 = var13;
-            var5 = _closure1_slot11;
-            var4 = undefined;
-            var3 = arg3;
-            var2 = arg4;
-            var10 = var5.bind(var4)(var22, var3, var2);
-            var _closure2_slot1 = var10;
             var2 = _closure1_slot12;
+            var4 = undefined;
             var11 = var2.bind(var4)(var13);
+            var5 = _closure1_slot11;
+            var3 = {};
+            var26 = arg4;
+            var27 = var3;
+            var2 = copyDataProperties(var27, var26);
+            var6 = var11.enableHangoutWindow;
+            var2 = 'enableHangoutWindow';
+            var3[1] = var6;
+            var2 = arg3;
+            var10 = var5.bind(var4)(var22, var2, var3);
+            var _closure2_slot1 = var10;
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var2 = 9;
+            var2 = 10;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var5 = var2.VoiceInThreadsExperiment;
@@ -234,12 +250,12 @@ case 10:
 case 9:
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var2 = 10;
+            var2 = 11;
             var2 = var5[var2];
             var6 = var3.bind(var4)(var2);
             var2 = var6.isStageVideoEnabled;
             var20 = var2.bind(var6)(var13);
-            var2 = 11;
+            var2 = 12;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.canCurrentUserManageMessageFilters;
@@ -272,7 +288,7 @@ case 11:
 case 14:
             var8 = _closure1_slot1;
             var12 = _closure1_slot3;
-            var5 = 12;
+            var5 = 13;
             var5 = var12[var5];
             var12 = var8.bind(var4)(var5);
             var8 = var12.getCurrentConfig;
@@ -316,12 +332,12 @@ case 24:
 case 25:
             var12 = _closure1_slot2;
             var17 = _closure1_slot3;
-            var8 = 13;
+            var8 = 14;
             var2 = var17[var8];
             var14 = var12.bind(var4)(var2);
             var13 = var14.generateChannelGeneralSection;
             var15 = _closure1_slot0;
-            var5 = 7;
+            var5 = 8;
             var2 = var17[var5];
             var2 = var15.bind(var4)(var2);
             var21 = var2.intl;
@@ -389,14 +405,14 @@ case 25:
             var5 = function() {
                 var3 = _closure1_slot2;
                 var9 = _closure1_slot3;
-                var2 = 13;
+                var2 = 14;
                 var2 = var9[var2];
                 var8 = undefined;
                 var4 = var3.bind(var8)(var2);
                 var3 = var4.generateChannelVoiceSection;
                 var2 = _closure2_slot1;
                 var7 = _closure1_slot0;
-                var1 = 7;
+                var1 = 8;
                 var5 = var9[var1];
                 var5 = var7.bind(var8)(var5);
                 var6 = var5.intl;
@@ -417,7 +433,7 @@ case 25:
 case 23:
             var13 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var17 = 7;
+            var17 = 8;
             var8 = var5[var17];
             var8 = var13.bind(var4)(var8);
             var12 = var8.intl;
@@ -448,7 +464,7 @@ case 30:
 case 32:
             var12 = _closure1_slot2;
             var6 = _closure1_slot3;
-            var8 = 13;
+            var8 = 14;
             var5 = var6[var8];
             var15 = var12.bind(var4)(var5);
             var13 = var15.generateChannelGeneralSection;
@@ -501,7 +517,7 @@ case 0:
 case 36:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot3;
-                    var1 = 15;
+                    var1 = 16;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var4.bind(var1)(var2);
@@ -510,7 +526,7 @@ case 36:
 case 35:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var1 = 14;
+                    var1 = 15;
                     var4 = var4[var1];
                     var1 = undefined;
                     var5 = var5.bind(var1)(var4);
@@ -550,14 +566,14 @@ case 33:
             var6 = function() {
                 var3 = _closure1_slot2;
                 var9 = _closure1_slot3;
-                var2 = 13;
+                var2 = 14;
                 var2 = var9[var2];
                 var8 = undefined;
                 var4 = var3.bind(var8)(var2);
                 var3 = var4.generateChannelVoiceSection;
                 var2 = _closure2_slot1;
                 var7 = _closure1_slot0;
-                var1 = 7;
+                var1 = 8;
                 var5 = var9[var1];
                 var5 = var7.bind(var8)(var5);
                 var6 = var5.intl;
@@ -579,12 +595,12 @@ case 33:
 case 21:
             var12 = _closure1_slot2;
             var6 = _closure1_slot3;
-            var8 = 13;
+            var8 = 14;
             var5 = var6[var8];
             var15 = var12.bind(var4)(var5);
             var14 = var15.generateChannelGeneralSection;
             var19 = _closure1_slot0;
-            var17 = 7;
+            var17 = 8;
             var5 = var6[var17];
             var5 = var19.bind(var4)(var5);
             var13 = var5.intl;
@@ -686,7 +702,7 @@ case 38:
             var23 = function setUpAutomod() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot3;
-                var1 = 14;
+                var1 = 15;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -728,12 +744,12 @@ case 37:
 case 19:
             var12 = _closure1_slot2;
             var6 = _closure1_slot3;
-            var8 = 13;
+            var8 = 14;
             var5 = var6[var8];
             var14 = var12.bind(var4)(var5);
             var13 = var14.generateChannelGeneralSection;
             var17 = _closure1_slot0;
-            var15 = 7;
+            var15 = 8;
             var5 = var6[var15];
             var5 = var17.bind(var4)(var5);
             var19 = var5.intl;
@@ -807,7 +823,7 @@ case 40:
             var21 = function setUpAutomod() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot3;
-                var1 = 14;
+                var1 = 15;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -861,12 +877,12 @@ case 39:
 case 17:
             var9 = _closure1_slot2;
             var14 = _closure1_slot3;
-            var8 = 13;
+            var8 = 14;
             var5 = var14[var8];
             var15 = var9.bind(var4)(var5);
             var12 = var15.generateChannelGeneralSection;
             var13 = _closure1_slot0;
-            var6 = 7;
+            var6 = 8;
             var5 = var14[var6];
             var5 = var13.bind(var4)(var5);
             var17 = var5.intl;
@@ -942,14 +958,14 @@ case 17:
             var7 = function() {
                 var3 = _closure1_slot2;
                 var9 = _closure1_slot3;
-                var2 = 13;
+                var2 = 14;
                 var2 = var9[var2];
                 var8 = undefined;
                 var4 = var3.bind(var8)(var2);
                 var3 = var4.generateChannelStageSection;
                 var2 = _closure2_slot1;
                 var7 = _closure1_slot0;
-                var1 = 7;
+                var1 = 8;
                 var5 = var9[var1];
                 var5 = var7.bind(var8)(var5);
                 var6 = var5.intl;
@@ -1024,7 +1040,7 @@ case 41:
 case 43:
             var6 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var3 = 12;
+            var3 = 13;
             var5 = var5[var3];
             var3 = undefined;
             var6 = var6.bind(var3)(var5);
@@ -1049,7 +1065,7 @@ case 44:
             var3 = _closure1_slot14;
             var6 = _closure1_slot2;
             var5 = _closure1_slot3;
-            var2 = 13;
+            var2 = 14;
             var5 = var5[var2];
             var2 = undefined;
             var6 = var6.bind(var2)(var5);
@@ -1066,7 +1082,7 @@ case 44:
     var4 = function getGuildPermissionSpecMap(arg1) {
         var3 = _closure1_slot2;
         var4 = _closure1_slot3;
-        var2 = 13;
+        var2 = 14;
         var2 = var4[var2];
         var5 = undefined;
         var3 = var3.bind(var5)(var2);
@@ -1079,7 +1095,7 @@ case 44:
         return var1;
     };
     var2['getGuildPermissionSpecMap'] = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

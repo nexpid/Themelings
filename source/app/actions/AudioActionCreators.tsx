@@ -1852,29 +1852,41 @@ case 116:
         _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
             var5 = arg1;
-            var3 = null;
-            var4 = var3 == var5;
+            var2 = null;
+            var4 = var2 == var5;
             var1 = undefined;
-            var2 = undefined;
+            var3 = undefined;
             if(var4) { _fun0036_ip = 58; continue _fun0036 }
 case 80:
-            var2 = var5.qualityOptions;
+            var3 = var5.qualityOptions;
 case 58:
-            if(!(var3 != var2)) { _fun0036_ip = 119; continue _fun0036 }
+            if(!(var2 != var3)) { _fun0036_ip = 119; continue _fun0036 }
 case 112:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 17;
-            var2 = var4[var2];
-            var7 = var3.bind(var1)(var2);
-            var6 = var7.trackStreamSettingsUpdate;
-            var2 = var5.qualityOptions;
-            var4 = var2.preset;
-            var2 = var5.qualityOptions;
-            var3 = var2.resolution;
-            var2 = var5.qualityOptions;
-            var2 = var2.frameRate;
-            var2 = var6.bind(var7)(var4, var3, var2);
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 17;
+            var3 = var6[var3];
+            var8 = var4.bind(var1)(var3);
+            var7 = var8.trackStreamSettingsUpdate;
+            var3 = var5.qualityOptions;
+            var6 = var3.preset;
+            var3 = var5.qualityOptions;
+            var4 = var3.resolution;
+            var3 = var5.qualityOptions;
+            var3 = var3.frameRate;
+            var9 = var5.desktopSettings;
+            var10 = var2 == var9;
+            var2 = undefined;
+            if(var10) { _fun0036_ip = 103; continue _fun0036 }
+case 115:
+            var2 = var9.sound;
+case 103:
+            var15 = var8;
+            var14 = var6;
+            var13 = var4;
+            var12 = var3;
+            var11 = var2;
+            var2 = var15[var7](var14, var13, var12, var11, var10);
 case 119:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;

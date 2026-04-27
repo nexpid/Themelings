@@ -367,6 +367,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['MESSAGE_ALSO_SEND_TO_CHANNEL'] = var2;
     var2 = 'impression_messages_empty_nux';
     var4['MESSAGES_EMPTY_NUX'] = var2;
+    var2 = 'impression_mobile_go_live_action_sheet';
+    var4['MOBILE_GO_LIVE_ACTION_SHEET'] = var2;
     var2 = 'impression_modal_root_legacy';
     var4['MODAL_ROOT_LEGACY'] = var2;
     var2 = 'impression_multi_account_switch_landing';

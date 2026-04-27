@@ -461,8 +461,15 @@ case 61:
 case 63:
             var6 = _closure1_slot7;
             var6 = var6.GUILD_CAP;
+            if(!(var6 !== var7)) { _fun0005_ip = 64; continue _fun0005 }
+case 65:
+            var6 = _closure1_slot7;
+            var6 = var6.STREAM_HIGH_QUALITY;
             var3 = false;
             if(!(var6 === var7)) { _fun0005_ip = 41; continue _fun0005 }
+case 66:
+            var3 = true;
+            _fun0005_ip = 41; continue _fun0005;
 case 64:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -532,8 +539,8 @@ case 52:
             var6 = var7.canUseAnimatedEmojis;
             var6 = var6.bind(var7)(var9);
             var6 = !var6;
-            if(var6) { _fun0005_ip = 65; continue _fun0005 }
-case 66:
+            if(var6) { _fun0005_ip = 67; continue _fun0005 }
+case 68:
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
             var7 = var7[var10];
@@ -541,7 +548,7 @@ case 66:
             var7 = var8.canUseEmojisEverywhere;
             var7 = var7.bind(var8)(var9);
             var6 = !var7;
-case 65:
+case 67:
             var3 = var6;
             _fun0005_ip = 41; continue _fun0005;
 case 50:
@@ -596,16 +603,16 @@ case 43:
             var6 = var7.bind(var8)(var9, var6);
             var3 = !var6;
 case 41:
-            if(!var3) { _fun0005_ip = 67; continue _fun0005 }
-case 68:
+            if(!var3) { _fun0005_ip = 69; continue _fun0005 }
+case 70:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 12;
             var3 = var7[var3];
             var3 = var6.bind(var1)(var3);
             var3 = var3.bind(var1)(var4);
-            if(var3) { _fun0005_ip = 69; continue _fun0005 }
-case 70:
+            if(var3) { _fun0005_ip = 71; continue _fun0005 }
+case 72:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 13;
@@ -665,9 +672,9 @@ case 70:
             };
             var2['importer'] = var5;
             var2 = var3.bind(var4)(var2);
-case 67:
-            return var1;
 case 69:
+            return var1;
+case 71:
             return var1;
         }
     };

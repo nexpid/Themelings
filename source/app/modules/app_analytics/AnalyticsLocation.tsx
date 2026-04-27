@@ -900,6 +900,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GO_LIVE_MODAL_V2'] = var1;
     var1 = 'go live modal settings selection';
     var2['GO_LIVE_MODAL_SETTINGS_SELECTION'] = var1;
+    var1 = 'mobile go live action sheet';
+    var2['MOBILE_GO_LIVE_ACTION_SHEET'] = var1;
     var1 = 'checkpoint';
     var2['CHECKPOINT'] = var1;
     var1 = 'guild settings official messages';

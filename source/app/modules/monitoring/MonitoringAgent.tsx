@@ -344,7 +344,7 @@ case 27:
                 var3['url'] = var6;
                 var6 = {};
                 var6['metrics'] = var7;
-                var7 = {'built_at': '1777094363987', 'build_number': '5517'};
+                var7 = {'built_at': '1777267165150', 'build_number': '5524'};
                 var6['client_info'] = var7;
                 var3['body'] = var6;
                 var6 = 1;

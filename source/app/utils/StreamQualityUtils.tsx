@@ -420,7 +420,7 @@ case 26:
         return var1;
     };
     var3['useMaxQuality'] = var4;
-    var2 = function trackStreamSettingsUpdate(arg1, arg2, arg3) {
+    var2 = function trackStreamSettingsUpdate(arg1, arg2, arg3, arg4) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var8 = arg1;
@@ -492,6 +492,8 @@ case 39:
             var2['stream_quality_preset'] = var8;
             var2['stream_quality_resolution'] = var7;
             var2['stream_quality_frame_rate'] = var6;
+            var6 = arg4;
+            var2['soundshare_enabled'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }
