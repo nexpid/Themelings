@@ -158,6 +158,16 @@
         "width": 24,
         "height": 24
     },
+    "AnnouncementsSpoilerIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/AnnouncementsSpoilerIcon.png",
+        "hash": "9305469bfec77c13d32804e473dc361a",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "AnnouncementsWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AnnouncementsWarningIcon.png",
         "hash": "c170cae09967261462282317c17e6a43",
@@ -3179,6 +3189,16 @@
     "ForumLockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ForumLockIcon.png",
         "hash": "4f2842b39c98933e8b7bea806132028f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ForumSpoilerIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/ForumSpoilerIcon.png",
+        "hash": "6a4fca97f117d774c83f55a60ec75fed",
         "scales": [
             2,
             3
@@ -11993,6 +12013,16 @@
         "width": 24,
         "height": 24
     },
+    "TextSpoilerIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/TextSpoilerIcon.png",
+        "hash": "b2fad9d837b00cddcdc5c4e47a4e60c2",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "TextWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TextWarningIcon.png",
         "hash": "4f055c482a5386d393f6b9bf8363f15e",
@@ -12680,6 +12710,16 @@
     "VoiceNormalIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VoiceNormalIcon.png",
         "hash": "1cfdcaa3b94766eef2db25157ec0c919",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "VoiceNormalSpoilerIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/VoiceNormalSpoilerIcon.png",
+        "hash": "b7f1807c004b9a5e97a7e50b8f45e8e5",
         "scales": [
             2,
             3
