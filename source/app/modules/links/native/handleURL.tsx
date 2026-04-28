@@ -464,7 +464,7 @@ case 68:
                             var2 = 14;
                             var2 = var4[var2];
                             var3 = var3.bind(var1)(var2);
-                            var2 = var3.hideActionSheet;
+                            var2 = var3.hideAllActionSheets;
                             var2 = var2.bind(var3)();
 case 51:
                             return var1;

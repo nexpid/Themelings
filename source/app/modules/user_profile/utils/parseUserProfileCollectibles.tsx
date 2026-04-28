@@ -199,119 +199,147 @@ case 35:
     var2 = function parseUserProfileCollectibles(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var3 = arg1;
-            var2 = _closure1_slot2;
-            var12 = null;
-            var4 = var12 == var3;
-            var11 = undefined;
-            var1 = undefined;
-            if(var4) { _fun0004_ip = 36; continue _fun0004 }
-case 31:
-            var1 = var3.collectibles;
-case 36:
-            if(!(var12 == var1)) { _fun0004_ip = 37; continue _fun0004 }
-case 33:
-            var1 = new Array(0);
-case 37:
-            var10 = var2.bind(var11)(var1);
-            var2 = var10.bind(var11)();
-            var1 = var2.done;
-            var9 = global;
-            var8 = 1000;
-            var7 = 0;
-            var6 = undefined;
-            var5 = undefined;
-            var4 = var2;
-            var3 = undefined;
+            var1 = arg1;
+            var14 = null;
+            var4 = var14 == var1;
             var2 = undefined;
-            if(var1) { _fun0004_ip = 38; continue _fun0004 }
+            var3 = undefined;
+            if(var4) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
+            var3 = var1.collectibles;
+case 36:
+            if(!(var14 != var3)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-            var17 = var4.value;
-            var14 = var17.type;
-            var15 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var1 = var1[var7];
-            var1 = var15.bind(var11)(var1);
-            var1 = var1.CollectiblesItemType;
-            var1 = var1.PROFILE_EFFECT;
-            if(!(var14 !== var1)) { _fun0004_ip = 40; continue _fun0004 }
+            var5 = new Array(0);
+            var3 = _closure1_slot2;
+            var1 = var1.collectibles;
+            var12 = var3.bind(var2)(var1);
+            var3 = var12.bind(var2)();
+            var1 = var3.done;
+            var11 = global;
+            var10 = 1000;
+            var9 = 0;
+            var8 = undefined;
+            var7 = undefined;
+            var6 = var3;
+            var4 = undefined;
+            var3 = undefined;
+            if(var1) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
-            var16 = var17.type;
-            var14 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var1 = var1[var7];
-            var1 = var14.bind(var11)(var1);
-            var1 = var1.CollectiblesItemType;
-            var1 = var1.PROFILE_FRAME;
-            var15 = var6;
-            var14 = var5;
-            if(!(var16 === var1)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+            var18 = var6.value;
+            var15 = var5.push;
             var1 = {};
-            var16 = var17.sku_id;
+            var16 = var18.sku_id;
             var1['skuId'] = var16;
-            var18 = _closure1_slot0;
-            var16 = _closure1_slot1;
-            var16 = var16[var7];
-            var16 = var18.bind(var11)(var16);
-            var16 = var16.CollectiblesItemType;
-            var16 = var16.PROFILE_FRAME;
+            var16 = var18.type;
             var1['type'] = var16;
-            var16 = var17.expires_at;
-            var18 = var12 != var16;
+            var16 = var18.expires_at;
+            var17 = var14 != var16;
             var16 = undefined;
-            if(!var18) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
-            var20 = var9.Date;
-            var22 = var17.expires_at;
+            if(!var17) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
+            var20 = var11.Date;
+            var23 = var18.expires_at;
             var19 = var20.prototype;
             var19 = Object.create(var19, {constructor: {value: var20}});
-            var23 = var19;
-            var18 = new var23[var20](var22, var21);
-            var16 = var18 instanceof Object ? var18 : var19;
-case 44:
+            var24 = var19;
+            var17 = new var24[var20](var23, var22);
+            var16 = var17 instanceof Object ? var17 : var19;
+case 42:
             var1['expiresAt'] = var16;
-            var15 = var6;
-            var14 = var1;
-            _fun0004_ip = 42; continue _fun0004;
-case 40:
-            var1 = {};
-            var16 = var17.sku_id;
-            var1['skuId'] = var16;
-            var16 = var17.expires_at;
-            var18 = var12 != var16;
-            var16 = undefined;
-            if(!var18) { _fun0004_ip = 46; continue _fun0004 }
+            var1 = var15.bind(var5)(var1);
+            var15 = var18.type;
+            var16 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var9];
+            var1 = var16.bind(var2)(var1);
+            var1 = var1.CollectiblesItemType;
+            var1 = var1.PROFILE_EFFECT;
+            if(!(var15 !== var1)) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
+            var17 = var18.type;
+            var15 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var9];
+            var1 = var15.bind(var2)(var1);
+            var1 = var1.CollectiblesItemType;
+            var1 = var1.PROFILE_FRAME;
+            var16 = var8;
+            var15 = var7;
+            if(!(var17 === var1)) { _fun0004_ip = 46; continue _fun0004 }
 case 47:
-            var19 = var9.Math;
-            var18 = var19.floor;
-            var21 = var9.Date;
-            var22 = var17.expires_at;
+            var1 = {};
+            var17 = var18.sku_id;
+            var1['skuId'] = var17;
+            var19 = _closure1_slot0;
+            var17 = _closure1_slot1;
+            var17 = var17[var9];
+            var17 = var19.bind(var2)(var17);
+            var17 = var17.CollectiblesItemType;
+            var17 = var17.PROFILE_FRAME;
+            var1['type'] = var17;
+            var17 = var18.expires_at;
+            var19 = var14 != var17;
+            var17 = undefined;
+            if(!var19) { _fun0004_ip = 48; continue _fun0004 }
+case 8:
+            var21 = var11.Date;
+            var23 = var18.expires_at;
             var20 = var21.prototype;
             var20 = Object.create(var20, {constructor: {value: var21}});
-            var23 = var20;
-            var17 = new var23[var21](var22, var21);
-            var20 = var17 instanceof Object ? var17 : var20;
-            var17 = var20.getTime;
-            var17 = var17.bind(var20)();
-            var17 = var17 / var8;
-            var16 = var18.bind(var19)(var17);
-case 46:
-            var1['expiresAt'] = var16;
+            var24 = var20;
+            var19 = new var24[var21](var23, var22);
+            var17 = var19 instanceof Object ? var19 : var20;
+case 48:
+            var1['expiresAt'] = var17;
+            var16 = var8;
             var15 = var1;
-            var14 = var5;
-case 42:
-            var16 = var10.bind(var11)();
-            var1 = var16.done;
-            var6 = var15;
-            var5 = var14;
-            var4 = var16;
-            var3 = var6;
-            var2 = var5;
-            if(!var1) { _fun0004_ip = 39; continue _fun0004 }
+            _fun0004_ip = 46; continue _fun0004;
+case 44:
+            var1 = {};
+            var17 = var18.sku_id;
+            var1['skuId'] = var17;
+            var17 = var18.expires_at;
+            var19 = var14 != var17;
+            var17 = undefined;
+            if(!var19) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
+            var20 = var11.Math;
+            var19 = var20.floor;
+            var22 = var11.Date;
+            var23 = var18.expires_at;
+            var21 = var22.prototype;
+            var21 = Object.create(var21, {constructor: {value: var22}});
+            var24 = var21;
+            var18 = new var24[var22](var23, var22);
+            var21 = var18 instanceof Object ? var18 : var21;
+            var18 = var21.getTime;
+            var18 = var18.bind(var21)();
+            var18 = var18 / var10;
+            var17 = var19.bind(var20)(var18);
+case 49:
+            var1['expiresAt'] = var17;
+            var16 = var1;
+            var15 = var7;
+case 46:
+            var17 = var12.bind(var2)();
+            var1 = var17.done;
+            var8 = var16;
+            var7 = var15;
+            var6 = var17;
+            var4 = var8;
+            var3 = var7;
+            if(!var1) { _fun0004_ip = 41; continue _fun0004 }
+case 40:
+            var1 = {};
+            var1['collectibles'] = var5;
+            var1['profileEffect'] = var4;
+            var1['profileFrame'] = var3;
+            return var1;
 case 38:
             var1 = {};
-            var1['profileEffect'] = var3;
+            var1['collectibles'] = var2;
+            var1['profileEffect'] = var2;
             var1['profileFrame'] = var2;
             return var1;
         }

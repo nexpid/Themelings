@@ -501,6 +501,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = {};
     var5 = 'USER_PROFILE';
     var7['USER_PROFILE'] = var5;
+    var5 = 'PROFILE_FRAME';
+    var7['PROFILE_FRAME'] = var5;
     var5 = {};
     var5['ACTIVITY'] = var4;
     var5['AVATAR'] = var2;

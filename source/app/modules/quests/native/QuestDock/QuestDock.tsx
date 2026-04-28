@@ -17,7 +17,7 @@ case 0:
             var3 = var5.useContext;
             var16 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var2 = 14;
+            var2 = 13;
             var2 = var14[var2];
             var4 = undefined;
             var2 = var16.bind(var4)(var2);
@@ -28,7 +28,7 @@ case 0:
             var6 = _closure1_slot5;
             var3 = var6.useContext;
             var13 = _closure1_slot0;
-            var2 = 15;
+            var2 = 14;
             var2 = var14[var2];
             var2 = var13.bind(var4)(var2);
             var2 = var2.QuestDockGestureContext;
@@ -41,7 +41,7 @@ case 0:
             var _closure2_slot3 = var25;
             var6 = _closure1_slot5;
             var3 = var6.useContext;
-            var2 = 16;
+            var2 = 15;
             var2 = var14[var2];
             var2 = var13.bind(var4)(var2);
             var2 = var2.QuestDockExternalCoordinationContext;
@@ -66,7 +66,7 @@ case 0:
                 return var1;
             };
             var12 = var6.bind(var11)(var2, var3);
-            var2 = 17;
+            var2 = 16;
             var3 = var14[var2];
             var6 = var13.bind(var4)(var3);
             var3 = var6.useQuestDockModeAnimatedReaction;
@@ -75,16 +75,16 @@ case 0:
             var3 = var13.bind(var4)(var2);
             var2 = var3.useQuestDockDismissalReset;
             var2 = var2.bind(var3)();
-            var2 = 18;
+            var2 = 17;
             var2 = var14[var2];
             var3 = var13.bind(var4)(var2);
             var2 = var3.useIsScreenReaderEnabled;
             var6 = var2.bind(var3)();
-            var2 = 19;
+            var2 = 18;
             var3 = var14[var2];
             var17 = var13.bind(var4)(var3);
             var11 = var17.useDerivedValue;
-            var3 = function X() {
+            var3 = function q() {
                 var2 = _closure2_slot4;
                 var1 = var2.get;
                 var2 = var1.bind(var2)();
@@ -98,22 +98,22 @@ case 0:
             var19 = _closure1_slot10;
             var18['QuestDockMode'] = var19;
             var3['__closure'] = var18;
-            var18 = 7483111521990.0;
+            var18 = 2415817673061.0;
             var3['__workletHash'] = var18;
-            var18 = _closure1_slot27;
+            var18 = _closure1_slot25;
             var3['__initData'] = var18;
             var17 = var11.bind(var17)(var3);
-            var3 = 20;
+            var3 = 19;
             var11 = var14[var3];
             var11 = var16.bind(var4)(var11);
             var32 = var11.bind(var4)(var17);
-            var11 = 21;
+            var11 = 20;
             var11 = var14[var11];
             var11 = var16.bind(var4)(var11);
             var11 = var11.bind(var4)();
             var24 = var11.top;
             var _closure2_slot6 = var24;
-            var11 = 22;
+            var11 = 21;
             var11 = var14[var11];
             var14 = var13.bind(var4)(var11);
             var13 = var14.useYouBarEnabled;
@@ -121,7 +121,7 @@ case 0:
             var18 = var13.bind(var14)(var11);
             var _closure2_slot7 = var18;
             var11 = _closure1_slot19;
-            var39 = var11.bind(var4)();
+            var41 = var11.bind(var4)();
             var13 = var5.userStatus;
             var11 = null;
             var14 = var11 == var13;
@@ -134,7 +134,7 @@ case 2:
             var _closure2_slot8 = var33;
             var13 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var5 = 23;
+            var5 = 22;
             var5 = var19[var5];
             var11 = var13.bind(var4)(var5);
             var5 = _closure1_slot14;
@@ -144,7 +144,7 @@ case 2:
             var5 = var19[var2];
             var14 = var17.bind(var4)(var5);
             var11 = var14.useAnimatedStyle;
-            var5 = function q() {
+            var5 = function X() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -152,7 +152,7 @@ case 0:
                     var1['backgroundColor'] = var3;
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var9 = 13;
+                    var9 = 23;
                     var3 = var3[var9];
                     var7 = undefined;
                     var8 = var5.bind(var7)(var3);
@@ -262,7 +262,7 @@ case 11:
             };
             var21 = {};
             var21['appThemedBackgroundColor'] = var15;
-            var15 = 13;
+            var15 = 23;
             var22 = var19[var15];
             var22 = var17.bind(var4)(var22);
             var22 = var22.withSpring;
@@ -279,39 +279,39 @@ case 11:
             var21['questDockWrapperSpecs'] = var8;
             var22 = _closure1_slot12;
             var21['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var22;
-            var22 = 24;
-            var22 = var19[var22];
+            var30 = 24;
+            var22 = var19[var30];
             var22 = var17.bind(var4)(var22);
             var22 = var22.roundToNearestPixel;
             var21['roundToNearestPixel'] = var22;
             var5['__closure'] = var21;
-            var21 = 11855199008070.0;
+            var21 = 8036486172071.0;
             var5['__workletHash'] = var21;
-            var21 = _closure1_slot28;
+            var21 = _closure1_slot26;
             var5['__initData'] = var21;
-            var14 = var11.bind(var14)(var5);
+            var28 = var11.bind(var14)(var5);
             var5 = var19[var2];
-            var21 = var17.bind(var4)(var5);
-            var11 = var21.useSharedValue;
+            var14 = var17.bind(var4)(var5);
+            var11 = var14.useSharedValue;
             var5 = 0;
-            var5 = var11.bind(var21)(var5);
+            var5 = var11.bind(var14)(var5);
             var _closure2_slot10 = var5;
             var11 = var19[var2];
-            var22 = var17.bind(var4)(var11);
-            var21 = var22.useAnimatedStyle;
-            var11 = function F() {
+            var21 = var17.bind(var4)(var11);
+            var14 = var21.useAnimatedStyle;
+            var11 = function Y() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
                     var3 = {};
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var4 = 13;
+                    var4 = 23;
                     var4 = var9[var4];
                     var8 = undefined;
                     var6 = var7.bind(var8)(var4);
                     var5 = var6.withSpring;
-                    var4 = 19;
+                    var4 = 18;
                     var4 = var9[var4];
                     var11 = var7.bind(var8)(var4);
                     var10 = var11.interpolate;
@@ -351,31 +351,31 @@ case 14:
                     return var1;
                 }
             };
-            var23 = {};
-            var26 = var19[var15];
-            var26 = var17.bind(var4)(var26);
-            var26 = var26.withSpring;
-            var23['withSpring'] = var26;
-            var26 = var19[var2];
-            var26 = var17.bind(var4)(var26);
-            var26 = var26.interpolate;
-            var23['interpolate'] = var26;
-            var23['isPressed'] = var5;
-            var23['activeQuestDockMode'] = var20;
-            var26 = _closure1_slot10;
-            var23['QuestDockMode'] = var26;
-            var23['youBarEnabled'] = var18;
-            var26 = 25;
-            var26 = var19[var26];
-            var26 = var17.bind(var4)(var26);
-            var26 = var26.springStandard;
-            var23['springStandard'] = var26;
-            var11['__closure'] = var23;
-            var23 = 371335427120.0;
-            var11['__workletHash'] = var23;
-            var23 = _closure1_slot29;
-            var11['__initData'] = var23;
-            var26 = var21.bind(var22)(var11);
+            var22 = {};
+            var23 = var19[var15];
+            var23 = var17.bind(var4)(var23);
+            var23 = var23.withSpring;
+            var22['withSpring'] = var23;
+            var23 = var19[var2];
+            var23 = var17.bind(var4)(var23);
+            var23 = var23.interpolate;
+            var22['interpolate'] = var23;
+            var22['isPressed'] = var5;
+            var22['activeQuestDockMode'] = var20;
+            var23 = _closure1_slot10;
+            var22['QuestDockMode'] = var23;
+            var22['youBarEnabled'] = var18;
+            var23 = 25;
+            var23 = var19[var23];
+            var23 = var17.bind(var4)(var23);
+            var23 = var23.springStandard;
+            var22['springStandard'] = var23;
+            var11['__closure'] = var22;
+            var22 = 13804511468631.0;
+            var11['__workletHash'] = var22;
+            var22 = _closure1_slot27;
+            var11['__initData'] = var22;
+            var14 = var14.bind(var21)(var11);
             var22 = _closure1_slot5;
             var21 = var22.useCallback;
             var11 = new Array(1);
@@ -388,7 +388,7 @@ case 14:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var30 = var21.bind(var22)(var10, var11);
+            var34 = var21.bind(var22)(var10, var11);
             var22 = _closure1_slot5;
             var21 = var22.useCallback;
             var11 = new Array(1);
@@ -401,7 +401,7 @@ case 14:
                 var1 = undefined;
                 return var1;
             };
-            var37 = var21.bind(var22)(var10, var11);
+            var38 = var21.bind(var22)(var10, var11);
             var21 = _closure1_slot5;
             var11 = var21.useCallback;
             var10 = new Array(1);
@@ -414,17 +414,17 @@ case 14:
                 var1 = undefined;
                 return var1;
             };
-            var36 = var11.bind(var21)(var5, var10);
+            var37 = var11.bind(var21)(var5, var10);
             var5 = var19[var2];
             var11 = var17.bind(var4)(var5);
             var10 = var11.useAnimatedStyle;
-            var5 = function V() {
+            var5 = function F() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 23;
                     var4 = var4[var2];
                     var2 = undefined;
                     var6 = var5.bind(var2)(var4);
@@ -462,15 +462,15 @@ case 15:
             var21['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var22;
             var21['windowDimensions'] = var25;
             var5['__closure'] = var21;
-            var21 = 7865007748928.0;
+            var21 = 6178969276321.0;
             var5['__workletHash'] = var21;
-            var21 = _closure1_slot30;
+            var21 = _closure1_slot28;
             var5['__initData'] = var21;
             var11 = var10.bind(var11)(var5);
             var5 = var19[var2];
             var21 = var17.bind(var4)(var5);
             var10 = var21.useAnimatedProps;
-            var5 = function j() {
+            var5 = function V() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = {};
@@ -493,15 +493,15 @@ case 17:
             var23 = _closure1_slot10;
             var22['QuestDockMode'] = var23;
             var5['__closure'] = var22;
-            var22 = 7500348584538.0;
+            var22 = 5416180055289.0;
             var5['__workletHash'] = var22;
-            var22 = _closure1_slot31;
+            var22 = _closure1_slot29;
             var5['__initData'] = var22;
             var10 = var10.bind(var21)(var5);
             var5 = var19[var2];
             var22 = var17.bind(var4)(var5);
             var21 = var22.useDerivedValue;
-            var5 = function z() {
+            var5 = function j() {
                 var3 = _closure2_slot1;
                 var1 = var3.get;
                 var1 = var1.bind(var3)();
@@ -520,9 +520,9 @@ case 17:
             var23['windowDimensions'] = var25;
             var23['safeAreaTop'] = var24;
             var5['__closure'] = var23;
-            var23 = 16753236808162.0;
+            var23 = 8073454569923.0;
             var5['__workletHash'] = var23;
-            var23 = _closure1_slot32;
+            var23 = _closure1_slot30;
             var5['__initData'] = var23;
             var5 = var21.bind(var22)(var5);
             var3 = var19[var3];
@@ -531,13 +531,13 @@ case 17:
             var3 = var19[var2];
             var21 = var17.bind(var4)(var3);
             var5 = var21.useAnimatedStyle;
-            var3 = function $() {
+            var3 = function z() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 13;
+                    var3 = 23;
                     var4 = var4[var3];
                     var3 = undefined;
                     var5 = var5.bind(var3)(var4);
@@ -576,15 +576,15 @@ case 21:
             var23 = _closure1_slot12;
             var22['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var23;
             var3['__closure'] = var22;
-            var22 = 5097935164793.0;
+            var22 = 6468803634518.0;
             var3['__workletHash'] = var22;
-            var22 = _closure1_slot33;
+            var22 = _closure1_slot31;
             var3['__initData'] = var22;
             var31 = var5.bind(var21)(var3);
             var2 = var19[var2];
             var3 = var17.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function J() {
+            var1 = function $() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = {};
@@ -674,7 +674,7 @@ case 39:
                     var1['borderBottomRightRadius'] = var2;
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var11 = 13;
+                    var11 = 23;
                     var2 = var2[var11];
                     var10 = undefined;
                     var8 = var3.bind(var10)(var2);
@@ -833,11 +833,11 @@ case 61:
             var8 = _closure1_slot16;
             var5['QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED'] = var8;
             var1['__closure'] = var5;
-            var5 = 13511562433083.0;
+            var5 = 1746856753626.0;
             var1['__workletHash'] = var5;
-            var5 = _closure1_slot34;
+            var5 = _closure1_slot32;
             var1['__initData'] = var5;
-            var34 = var2.bind(var3)(var1);
+            var36 = var2.bind(var3)(var1);
             var3 = _closure1_slot22;
             var2 = _closure1_slot23;
             var1 = {};
@@ -879,31 +879,34 @@ case 65:
             var22 = var7[var6];
             var23 = var25.bind(var4)(var22);
             var22 = {};
-            var22['style'] = var26;
+            var22['style'] = var14;
             var27 = _closure1_slot22;
-            var7 = var7[var6];
-            var26 = var25.bind(var4)(var7);
+            var14 = var7[var6];
+            var26 = var25.bind(var4)(var14);
             var25 = {};
-            var28 = var35.questDockWrapper;
-            var7 = new Array(3);
-            var7[0] = var28;
-            var28 = {};
-            var38 = 1;
-            var38 = var39 - var38;
-            var28['bottom'] = var38;
-            var7[1] = var28;
-            var7[2] = var14;
-            var25['style'] = var7;
-            var7 = _closure1_slot26;
+            var39 = var35.questDockWrapper;
+            var14 = new Array(3);
+            var14[0] = var39;
+            var39 = {};
+            var40 = 1;
+            var40 = var41 - var40;
+            var39['bottom'] = var40;
+            var14[1] = var39;
+            var14[2] = var28;
+            var25['style'] = var14;
+            var14 = _closure1_slot0;
+            var7 = var7[var30];
+            var7 = var14.bind(var4)(var7);
+            var7 = var7.dimensionsLayoutTransition;
             var25['layout'] = var7;
             var28 = _closure1_slot21;
             var14 = _closure1_slot7;
             var7 = {};
-            var38 = var35.nestedPressable;
-            var7['style'] = var38;
-            var7['onPressIn'] = var37;
-            var7['onPressOut'] = var36;
-            var7['onPress'] = var30;
+            var39 = var35.nestedPressable;
+            var7['style'] = var39;
+            var7['onPressIn'] = var38;
+            var7['onPressOut'] = var37;
+            var7['onPress'] = var34;
             if(!var32) { _fun0001_ip = 67; continue _fun0001 }
 case 68:
             var29 = 'none';
@@ -911,33 +914,33 @@ case 67:
             var7['pointerEvents'] = var29;
             var29 = 'button';
             var7['accessibilityRole'] = var29;
-            var37 = _closure1_slot0;
+            var38 = _closure1_slot0;
             var29 = _closure1_slot2;
-            var39 = 29;
-            var30 = var29[var39];
-            var30 = var37.bind(var4)(var30);
-            var36 = var30.intl;
-            var30 = var36.string;
-            var29 = var29[var39];
-            var29 = var37.bind(var4)(var29);
+            var40 = 29;
+            var34 = var29[var40];
+            var34 = var38.bind(var4)(var34);
+            var37 = var34.intl;
+            var34 = var37.string;
+            var29 = var29[var40];
+            var29 = var38.bind(var4)(var29);
             var29 = var29.t;
             var29 = var29.rjVPdM;
-            var29 = var30.bind(var36)(var29);
+            var29 = var34.bind(var37)(var29);
             var7['accessibilityLabel'] = var29;
             var29 = '';
             if(var32) { _fun0001_ip = 69; continue _fun0001 }
 case 70:
-            var38 = _closure1_slot0;
-            var30 = _closure1_slot2;
-            var36 = var30[var39];
-            var36 = var38.bind(var4)(var36);
-            var37 = var36.intl;
-            var36 = var37.string;
-            var30 = var30[var39];
-            var30 = var38.bind(var4)(var30);
-            var30 = var30.t;
-            var30 = var30.n0MlOB;
-            var29 = var36.bind(var37)(var30);
+            var39 = _closure1_slot0;
+            var34 = _closure1_slot2;
+            var37 = var34[var40];
+            var37 = var39.bind(var4)(var37);
+            var38 = var37.intl;
+            var37 = var38.string;
+            var34 = var34[var40];
+            var34 = var39.bind(var4)(var34);
+            var34 = var34.t;
+            var34 = var34.n0MlOB;
+            var29 = var37.bind(var38)(var34);
 case 69:
             var7['accessibilityHint'] = var29;
             var7 = var28.bind(var4)(var14, var7);
@@ -949,12 +952,15 @@ case 69:
             var7 = var39[var6];
             var14 = var37.bind(var4)(var7);
             var7 = {};
-            var36 = var35.questDockHeaderBorder;
-            var30 = new Array(2);
-            var30[0] = var36;
-            var30[1] = var34;
-            var7['style'] = var30;
-            var30 = _closure1_slot26;
+            var38 = var35.questDockHeaderBorder;
+            var34 = new Array(2);
+            var34[0] = var38;
+            var34[1] = var36;
+            var7['style'] = var34;
+            var34 = _closure1_slot0;
+            var30 = var39[var30];
+            var30 = var34.bind(var4)(var30);
+            var30 = var30.dimensionsLayoutTransition;
             var7['layout'] = var30;
             var30 = 'none';
             var7['pointerEvents'] = var30;
@@ -1058,7 +1064,7 @@ case 71:
             return var1;
         }
     };
-    var _closure1_slot38 = var1;
+    var _closure1_slot36 = var1;
     var1 = function QuestDockModeChangeTracker(arg1) {
         var1 = arg1;
         var4 = var1.mode;
@@ -1088,7 +1094,7 @@ case 71:
         var1 = null;
         return var1;
     };
-    var _closure1_slot39 = var1;
+    var _closure1_slot37 = var1;
     var1 = function QuestBarRenderedTriggerPointWrapper() {
         var4 = _closure1_slot5;
         var3 = var4.useEffect;
@@ -1109,7 +1115,7 @@ case 71:
         var1 = null;
         return var1;
     };
-    var _closure1_slot40 = var1;
+    var _closure1_slot38 = var1;
     var2 = function QuestDockWithEntranceAnimation() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -1117,7 +1123,7 @@ case 0:
             var2 = var3.useContext;
             var4 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var1 = var15[var1];
             var5 = undefined;
             var1 = var4.bind(var5)(var1);
@@ -1148,7 +1154,7 @@ case 0:
             var1 = false;
             var1 = var2.bind(var3)(var1);
             var _closure2_slot3 = var1;
-            var1 = _closure1_slot35;
+            var1 = _closure1_slot33;
             var7 = var1.bind(var5)();
             var3 = _closure1_slot5;
             var2 = var3.useState;
@@ -1186,7 +1192,7 @@ case 0:
             var2 = var12.bind(var5)(var1);
             var1 = var2.useQuestBarImpressionSurvey;
             var13 = var1.bind(var2)(var14);
-            var2 = 19;
+            var2 = 18;
             var1 = var15[var2];
             var8 = var12.bind(var5)(var1);
             var3 = var8.useAnimatedStyle;
@@ -1196,7 +1202,7 @@ case 0:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var9 = 13;
+                    var9 = 23;
                     var3 = var3[var9];
                     var8 = undefined;
                     var11 = var4.bind(var8)(var3);
@@ -1207,7 +1213,7 @@ case 0:
 case 74:
                     var5 = 1;
 case 73:
-                    var4 = _closure1_slot36;
+                    var4 = _closure1_slot34;
                     var3 = 'animate-always';
                     var3 = var10.bind(var11)(var5, var4, var3);
                     var1['opacity'] = var3;
@@ -1224,7 +1230,7 @@ case 75:
                     var7 = _closure2_slot4;
                     var6 = var7.height;
 case 28:
-                    var2 = _closure1_slot36;
+                    var2 = _closure1_slot34;
                     var2 = var4.bind(var5)(var6, var2);
                     var3['translateY'] = var2;
                     var2 = new Array(1);
@@ -1234,19 +1240,19 @@ case 28:
                 }
             };
             var17 = {};
-            var21 = 13;
+            var21 = 23;
             var21 = var15[var21];
             var21 = var12.bind(var5)(var21);
             var21 = var21.withSpring;
             var17['withSpring'] = var21;
             var17['isRendered'] = var20;
-            var20 = _closure1_slot36;
+            var20 = _closure1_slot34;
             var17['ENTRANCE_ANIMATION_SPING_CONFIG'] = var20;
             var17['componentDimensions'] = var19;
             var1['__closure'] = var17;
-            var17 = 6078447942223.0;
+            var17 = 15545726338295.0;
             var1['__workletHash'] = var17;
-            var17 = _closure1_slot37;
+            var17 = _closure1_slot35;
             var1['__initData'] = var17;
             var8 = var3.bind(var8)(var1);
             var17 = _closure1_slot5;
@@ -1704,7 +1710,7 @@ case 0:
                     var3 = _closure1_slot23;
                     var2 = {};
                     var7 = _closure1_slot21;
-                    var6 = _closure1_slot39;
+                    var6 = _closure1_slot37;
                     var5 = {};
                     var1 = _closure2_slot1;
                     var1 = var1.id;
@@ -1716,14 +1722,14 @@ case 0:
                     var5 = new Array(3);
                     var5[0] = var6;
                     var8 = _closure1_slot21;
-                    var7 = _closure1_slot40;
+                    var7 = _closure1_slot38;
                     var6 = {};
                     var6 = var8.bind(var1)(var7, var6);
                     var5[1] = var6;
                     var8 = _closure1_slot21;
                     var10 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var6 = 15;
+                    var6 = 14;
                     var6 = var13[var6];
                     var6 = var10.bind(var1)(var6);
                     var7 = var6.QuestDockGestureContextProvider;
@@ -1743,7 +1749,7 @@ case 107:
 case 29:
                     var9['theme'] = var13;
                     var14 = _closure1_slot21;
-                    var13 = _closure1_slot38;
+                    var13 = _closure1_slot36;
                     var12 = {};
                     var15 = _closure2_slot12;
                     var12['appThemedBackgroundColor'] = var15;
@@ -1766,7 +1772,7 @@ case 102:
             return var1;
         }
     };
-    var _closure1_slot41 = var2;
+    var _closure1_slot39 = var2;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -1903,111 +1909,37 @@ case 102:
     var9 = var11.bind(var12)(var9);
     var _closure1_slot24 = var9;
     var9 = {};
-    var11 = 'function dimensionsLayoutTransition_QuestDockTsx1(values){const{withSpring,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight},animations:{originX:withSpring(values.targetOriginX,QUEST_DOCK_MODE_CHANGE_PHYSICS),originY:withSpring(values.targetOriginY,QUEST_DOCK_MODE_CHANGE_PHYSICS),height:withSpring(values.targetHeight,QUEST_DOCK_MODE_CHANGE_PHYSICS),width:withSpring(values.targetWidth,QUEST_DOCK_MODE_CHANGE_PHYSICS)}};}';
+    var11 = 'function QuestDockTsx1(){const{restingQuestDockMode,QuestDockMode}=this.__closure;return restingQuestDockMode.get()===QuestDockMode.EXPANDED;}';
     var9['code'] = var11;
     var _closure1_slot25 = var9;
-    var9 = function() {
-        var1 = function dimensionsLayoutTransition(arg1) {
-            var4 = arg1;
-            var1 = {};
-            var2 = {};
-            var3 = var4.currentOriginX;
-            var2['originX'] = var3;
-            var3 = var4.currentOriginY;
-            var2['originY'] = var3;
-            var3 = var4.currentWidth;
-            var2['width'] = var3;
-            var3 = var4.currentHeight;
-            var2['height'] = var3;
-            var1['initialValues'] = var2;
-            var2 = {};
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var5 = 13;
-            var9 = var8[var5];
-            var6 = undefined;
-            var12 = var7.bind(var6)(var9);
-            var11 = var12.withSpring;
-            var10 = var4.targetOriginX;
-            var9 = _closure1_slot12;
-            var9 = var11.bind(var12)(var10, var9);
-            var2['originX'] = var9;
-            var9 = var8[var5];
-            var12 = var7.bind(var6)(var9);
-            var11 = var12.withSpring;
-            var10 = var4.targetOriginY;
-            var9 = _closure1_slot12;
-            var9 = var11.bind(var12)(var10, var9);
-            var2['originY'] = var9;
-            var9 = var8[var5];
-            var12 = var7.bind(var6)(var9);
-            var11 = var12.withSpring;
-            var10 = var4.targetHeight;
-            var9 = _closure1_slot12;
-            var9 = var11.bind(var12)(var10, var9);
-            var2['height'] = var9;
-            var5 = var8[var5];
-            var6 = var7.bind(var6)(var5);
-            var5 = var6.withSpring;
-            var4 = var4.targetWidth;
-            var3 = _closure1_slot12;
-            var3 = var5.bind(var6)(var4, var3);
-            var2['width'] = var3;
-            var1['animations'] = var2;
-            return var1;
-        };
-        var3 = {};
-        var6 = _closure1_slot0;
-        var5 = _closure1_slot2;
-        var4 = 13;
-        var5 = var5[var4];
-        var4 = undefined;
-        var4 = var6.bind(var4)(var5);
-        var4 = var4.withSpring;
-        var3['withSpring'] = var4;
-        var4 = _closure1_slot12;
-        var3['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var4;
-        var1['__closure'] = var3;
-        var3 = 4777354626600.0;
-        var1['__workletHash'] = var3;
-        var2 = _closure1_slot25;
-        var1['__initData'] = var2;
-        return var1;
-    };
-    var9 = var9.bind(var1)();
+    var9 = {};
+    var11 = 'function QuestDockTsx2(){const{appThemedBackgroundColor,withSpring,activeQuestDockMode,QuestDockMode,youBarEnabled,QUEST_DOCK_BORDER_RADII,bottomBorderRadius,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED,questDockWrapperSpecs,QUEST_DOCK_MODE_CHANGE_PHYSICS,roundToNearestPixel}=this.__closure;return{backgroundColor:appThemedBackgroundColor,borderBottomRightRadius:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED&&!youBarEnabled?QUEST_DOCK_BORDER_RADII:bottomBorderRadius.get(),QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED),borderBottomLeftRadius:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED&&!youBarEnabled?QUEST_DOCK_BORDER_RADII:bottomBorderRadius.get(),QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED),height:questDockWrapperSpecs.get().height,width:questDockWrapperSpecs.get().width,opacity:withSpring(1,QUEST_DOCK_MODE_CHANGE_PHYSICS),transform:[{translateX:withSpring(questDockWrapperSpecs.get().x+roundToNearestPixel(questDockWrapperSpecs.get().width/2)*-1,QUEST_DOCK_MODE_CHANGE_PHYSICS)},{translateY:withSpring(questDockWrapperSpecs.get().y,QUEST_DOCK_MODE_CHANGE_PHYSICS)}]};}';
+    var9['code'] = var11;
     var _closure1_slot26 = var9;
     var9 = {};
-    var11 = 'function QuestDockTsx2(){const{restingQuestDockMode,QuestDockMode}=this.__closure;return restingQuestDockMode.get()===QuestDockMode.EXPANDED;}';
+    var11 = 'function QuestDockTsx3(){const{withSpring,interpolate,isPressed,activeQuestDockMode,QuestDockMode,youBarEnabled,springStandard}=this.__closure;return{transform:[{scale:withSpring(interpolate(isPressed.get(),[1,0],[activeQuestDockMode.get()===QuestDockMode.EXPANDED||youBarEnabled?1:0.98,1]),springStandard)}]};}';
     var9['code'] = var11;
     var _closure1_slot27 = var9;
     var9 = {};
-    var11 = 'function QuestDockTsx3(){const{appThemedBackgroundColor,withSpring,activeQuestDockMode,QuestDockMode,youBarEnabled,QUEST_DOCK_BORDER_RADII,bottomBorderRadius,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED,questDockWrapperSpecs,QUEST_DOCK_MODE_CHANGE_PHYSICS,roundToNearestPixel}=this.__closure;return{backgroundColor:appThemedBackgroundColor,borderBottomRightRadius:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED&&!youBarEnabled?QUEST_DOCK_BORDER_RADII:bottomBorderRadius.get(),QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED),borderBottomLeftRadius:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED&&!youBarEnabled?QUEST_DOCK_BORDER_RADII:bottomBorderRadius.get(),QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED),height:questDockWrapperSpecs.get().height,width:questDockWrapperSpecs.get().width,opacity:withSpring(1,QUEST_DOCK_MODE_CHANGE_PHYSICS),transform:[{translateX:withSpring(questDockWrapperSpecs.get().x+roundToNearestPixel(questDockWrapperSpecs.get().width/2)*-1,QUEST_DOCK_MODE_CHANGE_PHYSICS)},{translateY:withSpring(questDockWrapperSpecs.get().y,QUEST_DOCK_MODE_CHANGE_PHYSICS)}]};}';
+    var11 = 'function QuestDockTsx4(){const{withSpring,activeQuestDockMode,QuestDockMode,QUEST_DOCK_MODE_CHANGE_PHYSICS,windowDimensions}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS),height:windowDimensions.get().height};}';
     var9['code'] = var11;
     var _closure1_slot28 = var9;
     var9 = {};
-    var11 = 'function QuestDockTsx4(){const{withSpring,interpolate,isPressed,activeQuestDockMode,QuestDockMode,youBarEnabled,springStandard}=this.__closure;return{transform:[{scale:withSpring(interpolate(isPressed.get(),[1,0],[activeQuestDockMode.get()===QuestDockMode.EXPANDED||youBarEnabled?1:0.98,1]),springStandard)}]};}';
+    var11 = "function QuestDockTsx5(){const{activeQuestDockMode,QuestDockMode}=this.__closure;return{pointerEvents:activeQuestDockMode.get()===QuestDockMode.EXPANDED?'auto':'none'};}";
     var9['code'] = var11;
     var _closure1_slot29 = var9;
     var9 = {};
-    var11 = 'function QuestDockTsx5(){const{withSpring,activeQuestDockMode,QuestDockMode,QUEST_DOCK_MODE_CHANGE_PHYSICS,windowDimensions}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS),height:windowDimensions.get().height};}';
+    var11 = 'function QuestDockTsx6(){const{questDockWrapperSpecs,windowDimensions,safeAreaTop}=this.__closure;const specs=questDockWrapperSpecs.get();const windowHeight=windowDimensions.get().height;return windowHeight-safeAreaTop-specs.height;}';
     var9['code'] = var11;
     var _closure1_slot30 = var9;
     var9 = {};
-    var11 = "function QuestDockTsx6(){const{activeQuestDockMode,QuestDockMode}=this.__closure;return{pointerEvents:activeQuestDockMode.get()===QuestDockMode.EXPANDED?'auto':'none'};}";
+    var11 = 'function QuestDockTsx7(){const{withSpring,activeQuestDockMode,QuestDockMode,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.CLOSED||activeQuestDockMode.get()===QuestDockMode.SOFT_DISMISSED?0:1,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
     var9['code'] = var11;
     var _closure1_slot31 = var9;
     var9 = {};
-    var11 = 'function QuestDockTsx7(){const{questDockWrapperSpecs,windowDimensions,safeAreaTop}=this.__closure;const specs=questDockWrapperSpecs.get();const windowHeight=windowDimensions.get().height;return windowHeight-safeAreaTop-specs.height;}';
+    var11 = 'function QuestDockTsx8(){const{isEnrolled,activeQuestDockMode,QuestDockMode,QUEST_DOCK_CONTENT_BORDER_RADII,QUEST_DOCK_BORDER_RADII,youBarEnabled,bottomBorderRadius,withSpring,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED,questDockWrapperSpecs,QUEST_DOCK_COLLAPSED_HEIGHT,QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED}=this.__closure;return{borderTopLeftRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:QUEST_DOCK_BORDER_RADII,borderTopRightRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:QUEST_DOCK_BORDER_RADII,borderBottomLeftRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:youBarEnabled?bottomBorderRadius.get():QUEST_DOCK_BORDER_RADII,borderBottomRightRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:youBarEnabled?bottomBorderRadius.get():QUEST_DOCK_BORDER_RADII,opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED),height:isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?questDockWrapperSpecs.get().height:QUEST_DOCK_COLLAPSED_HEIGHT,width:isEnrolled||activeQuestDockMode.get()===QuestDockMode.COLLAPSED?questDockWrapperSpecs.get().width:questDockWrapperSpecs.get().width-QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED*2,transform:[{translateX:isEnrolled?0:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED)},{translateY:isEnrolled?0:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED)}],borderBottomWidth:youBarEnabled?bottomBorderRadius.get()>0?1:0:1};}';
     var9['code'] = var11;
     var _closure1_slot32 = var9;
-    var9 = {};
-    var11 = 'function QuestDockTsx8(){const{withSpring,activeQuestDockMode,QuestDockMode,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.CLOSED||activeQuestDockMode.get()===QuestDockMode.SOFT_DISMISSED?0:1,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
-    var9['code'] = var11;
-    var _closure1_slot33 = var9;
-    var9 = {};
-    var11 = 'function QuestDockTsx9(){const{isEnrolled,activeQuestDockMode,QuestDockMode,QUEST_DOCK_CONTENT_BORDER_RADII,QUEST_DOCK_BORDER_RADII,youBarEnabled,bottomBorderRadius,withSpring,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED,questDockWrapperSpecs,QUEST_DOCK_COLLAPSED_HEIGHT,QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED}=this.__closure;return{borderTopLeftRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:QUEST_DOCK_BORDER_RADII,borderTopRightRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:QUEST_DOCK_BORDER_RADII,borderBottomLeftRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:youBarEnabled?bottomBorderRadius.get():QUEST_DOCK_BORDER_RADII,borderBottomRightRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:youBarEnabled?bottomBorderRadius.get():QUEST_DOCK_BORDER_RADII,opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED),height:isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?questDockWrapperSpecs.get().height:QUEST_DOCK_COLLAPSED_HEIGHT,width:isEnrolled||activeQuestDockMode.get()===QuestDockMode.COLLAPSED?questDockWrapperSpecs.get().width:questDockWrapperSpecs.get().width-QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED*2,transform:[{translateX:isEnrolled?0:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED)},{translateY:isEnrolled?0:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED)}],borderBottomWidth:youBarEnabled?bottomBorderRadius.get()>0?1:0:1};}';
-    var9['code'] = var11;
-    var _closure1_slot34 = var9;
     var5 = var7[var5];
     var11 = var6.bind(var1)(var5);
     var9 = var11.createStyles;
@@ -2018,7 +1950,7 @@ case 102:
         return var1;
     };
     var5 = var9.bind(var11)(var5);
-    var _closure1_slot35 = var5;
+    var _closure1_slot33 = var5;
     var5 = {};
     var9 = 25;
     var9 = var7[var9];
@@ -2031,11 +1963,11 @@ case 102:
     var10 = 54;
     var9 = 'damping';
     var5[8] = var10;
-    var _closure1_slot36 = var5;
+    var _closure1_slot34 = var5;
     var5 = {};
-    var9 = "function QuestDockTsx10(){const{withSpring,isRendered,ENTRANCE_ANIMATION_SPING_CONFIG,componentDimensions}=this.__closure;return{opacity:withSpring(isRendered?1:0,ENTRANCE_ANIMATION_SPING_CONFIG,'animate-always'),transform:[{translateY:withSpring(isRendered?0:componentDimensions.height,ENTRANCE_ANIMATION_SPING_CONFIG)}]};}";
+    var9 = "function QuestDockTsx9(){const{withSpring,isRendered,ENTRANCE_ANIMATION_SPING_CONFIG,componentDimensions}=this.__closure;return{opacity:withSpring(isRendered?1:0,ENTRANCE_ANIMATION_SPING_CONFIG,'animate-always'),transform:[{translateY:withSpring(isRendered?0:componentDimensions.height,ENTRANCE_ANIMATION_SPING_CONFIG)}]};}";
     var5['code'] = var9;
-    var _closure1_slot37 = var5;
+    var _closure1_slot35 = var5;
     var5 = var8.memo;
     var4 = function QuestDockWithQuestContext() {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
@@ -2063,7 +1995,7 @@ case 109:
             var4 = _closure1_slot21;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 14;
+            var2 = 13;
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Provider;
@@ -2074,7 +2006,7 @@ case 109:
             var7['quest'] = var8;
             var2['value'] = var7;
             var8 = _closure1_slot21;
-            var7 = _closure1_slot41;
+            var7 = _closure1_slot39;
             var6 = {};
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;

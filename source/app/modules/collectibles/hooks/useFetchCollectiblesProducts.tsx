@@ -220,17 +220,17 @@ case 35:
     var4 = 'modules/collectibles/hooks/useFetchCollectiblesProducts.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useFetchCollectiblesProducts(arg1, arg2) {
-        var11 = arg1;
+        var9 = arg1;
         var2 = arg2;
-        var _closure2_slot0 = var11;
+        var _closure2_slot0 = var9;
         var _closure2_slot1 = var2;
-        var12 = _closure1_slot0;
-        var13 = _closure1_slot1;
+        var10 = _closure1_slot0;
+        var11 = _closure1_slot1;
         var7 = 5;
-        var3 = var13[var7];
+        var3 = var11[var7];
         var6 = undefined;
-        var9 = var12.bind(var6)(var3);
-        var8 = var9.useStateFromStoresArray;
+        var12 = var10.bind(var6)(var3);
+        var8 = var12.useStateFromStoresArray;
         var3 = _closure1_slot4;
         var5 = new Array(1);
         var5[0] = var3;
@@ -247,34 +247,14 @@ case 35:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10 = var8.bind(var9)(var5, var3);
-        var _closure2_slot2 = var10;
-        var3 = var13[var7];
-        var14 = var12.bind(var6)(var3);
-        var9 = var14.useStateFromStoresArray;
+        var8 = var8.bind(var12)(var5, var3);
+        var _closure2_slot2 = var8;
+        var3 = var11[var7];
+        var14 = var10.bind(var6)(var3);
+        var13 = var14.useStateFromStoresArray;
         var5 = _closure1_slot5;
-        var8 = new Array(1);
-        var8[0] = var5;
-        var3 = function() {
-            var3 = _closure2_slot0;
-            var2 = var3.map;
-            var1 = function(arg1) {
-                var3 = _closure1_slot5;
-                var2 = var3.isFetchingProduct;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var9 = var9.bind(var14)(var8, var3);
-        var _closure2_slot3 = var9;
-        var3 = var13[var7];
-        var15 = var12.bind(var6)(var3);
-        var14 = var15.useStateFromStoresArray;
-        var8 = new Array(1);
-        var8[0] = var5;
+        var12 = new Array(1);
+        var12[0] = var5;
         var3 = function() {
             var3 = _closure2_slot0;
             var2 = var3.map;
@@ -288,31 +268,11 @@ case 35:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var3 = var14.bind(var15)(var8, var3);
-        var _closure2_slot4 = var3;
-        var8 = var13[var7];
-        var16 = var12.bind(var6)(var8);
-        var15 = var16.useStateFromStoresArray;
-        var14 = new Array(1);
-        var14[0] = var5;
-        var8 = function() {
-            var3 = _closure2_slot0;
-            var2 = var3.map;
-            var1 = function(arg1) {
-                var3 = _closure1_slot5;
-                var2 = var3.getProductFetchError;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var8 = var15.bind(var16)(var14, var8);
-        var _closure2_slot5 = var8;
-        var7 = var13[var7];
-        var13 = var12.bind(var6)(var7);
-        var12 = var13.useStateFromStoresArray;
+        var3 = var13.bind(var14)(var12, var3);
+        var _closure2_slot3 = var3;
+        var7 = var11[var7];
+        var11 = var10.bind(var6)(var7);
+        var10 = var11.useStateFromStoresArray;
         var7 = new Array(1);
         var7[0] = var5;
         var5 = function() {
@@ -320,7 +280,7 @@ case 35:
             var2 = var3.map;
             var1 = function(arg1) {
                 var3 = _closure1_slot5;
-                var2 = var3.getProductFetchErrorTimestamp;
+                var2 = var3.getProductFetch;
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -328,35 +288,35 @@ case 35:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var7 = var12.bind(var13)(var7, var5);
-        var _closure2_slot6 = var7;
+        var7 = var10.bind(var11)(var7, var5);
+        var _closure2_slot4 = var7;
         var5 = _closure1_slot3;
-        var4 = new Array(7);
-        var4[0] = var11;
-        var4[1] = var10;
-        var4[2] = var9;
+        var4 = new Array(5);
+        var4[0] = var9;
+        var4[1] = var8;
+        var4[2] = var7;
         var4[3] = var3;
-        var4[4] = var8;
-        var4[5] = var7;
-        var4[6] = var2;
+        var4[4] = var2;
         var2 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var1 = global;
                 var2 = var1.Date;
                 var1 = var2.now;
-                var15 = var1.bind(var2)();
+                var17 = var1.bind(var2)();
                 var3 = _closure1_slot7;
                 var2 = _closure2_slot0;
                 var1 = var2.entries;
                 var2 = var1.bind(var2)();
                 var1 = undefined;
-                var12 = var3.bind(var1)(var2);
-                var3 = var12.bind(var1)();
+                var14 = var3.bind(var1)(var2);
+                var3 = var14.bind(var1)();
                 var2 = var3.done;
-                var11 = 7;
-                var10 = null;
-                var9 = 3600000;
+                var13 = 7;
+                var12 = 'fetching';
+                var11 = null;
+                var10 = 3600000;
+                var9 = 'error';
                 var8 = 0;
                 var7 = 6;
                 var6 = 2;
@@ -364,95 +324,105 @@ case 0:
                 var4 = true;
                 if(var2) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-                var16 = var3.value;
+                var18 = var3.value;
                 var2 = _closure1_slot2;
-                var2 = var2.bind(var1)(var16, var6);
-                var21 = var2[var8];
-                var18 = var2[var5];
+                var2 = var2.bind(var1)(var18, var6);
+                var19 = var2[var8];
+                var20 = var2[var5];
                 var2 = _closure2_slot2;
-                var20 = var2[var21];
-                var2 = _closure2_slot4;
-                var2 = var2[var21];
-                var16 = _closure2_slot3;
-                var17 = var16[var21];
-                var16 = _closure2_slot5;
-                var16 = var16[var21];
-                var19 = _closure2_slot6;
-                var21 = var19[var21];
-                var19 = _closure2_slot1;
-                var19 = var4 === var19;
+                var22 = var2[var19];
+                var2 = _closure2_slot3;
+                var2 = var2[var19];
+                var18 = _closure2_slot4;
+                var21 = var18[var19];
+                var18 = _closure2_slot1;
+                var19 = var4 === var18;
                 if(!var19) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-                var22 = var10 == var2;
+                var18 = var11 == var2;
                 var23 = undefined;
-                if(var22) { _fun0004_ip = 40; continue _fun0004 }
+                if(var18) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
                 var23 = var2.type;
 case 40:
                 var24 = _closure1_slot0;
-                var22 = _closure1_slot1;
-                var22 = var22[var7];
-                var22 = var24.bind(var1)(var22);
-                var22 = var22.CollectiblesItemType;
-                var22 = var22.BUNDLE;
-                var19 = var23 === var22;
+                var18 = _closure1_slot1;
+                var18 = var18[var7];
+                var18 = var24.bind(var1)(var18);
+                var18 = var18.CollectiblesItemType;
+                var18 = var18.BUNDLE;
+                var19 = var23 === var18;
 case 38:
                 if(!var19) { _fun0004_ip = 42; continue _fun0004 }
 case 43:
-                var22 = var2.items;
-                var22 = var22.length;
-                var19 = var8 === var22;
+                var18 = var2.items;
+                var18 = var18.length;
+                var19 = var8 === var18;
 case 42:
-                var16 = var10 != var16;
-                if(!var16) { _fun0004_ip = 44; continue _fun0004 }
+                var23 = var11 == var21;
+                var18 = undefined;
+                if(var23) { _fun0004_ip = 44; continue _fun0004 }
 case 45:
-                var16 = var10 != var21;
+                var18 = var21.state;
 case 44:
-                if(!var16) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
-                var21 = var15 - var21;
-                var16 = var21 < var9;
+                var18 = var9 === var18;
+                if(!var18) { _fun0004_ip = 18; continue _fun0004 }
 case 46:
-                var2 = var10 != var2;
-                if(!var2) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
-                var2 = !var19;
+                var23 = var21.endedAt;
+                var18 = var11 != var23;
+case 18:
+                if(!var18) { _fun0004_ip = 47; continue _fun0004 }
 case 48:
-                if(var2) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
-                var19 = var10 != var20;
-                if(!var19) { _fun0004_ip = 52; continue _fun0004 }
-case 53:
-                var21 = var20.productLine;
-                var20 = _closure1_slot6;
-                var20 = var20.COLLECTIBLES;
-                var19 = var21 !== var20;
-case 52:
-                var2 = var19;
+                var23 = var21.endedAt;
+                var23 = var17 - var23;
+                var18 = var23 < var10;
+case 47:
+                var2 = var11 != var2;
+                if(!var2) { _fun0004_ip = 49; continue _fun0004 }
 case 50:
-                if(var2) { _fun0004_ip = 54; continue _fun0004 }
-case 55:
-                var2 = var17;
+                var2 = !var19;
+case 49:
+                if(var2) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
+                var19 = var11 != var22;
+                if(!var19) { _fun0004_ip = 53; continue _fun0004 }
 case 54:
-                if(var2) { _fun0004_ip = 56; continue _fun0004 }
-case 57:
-                var2 = var16;
+                var23 = var22.productLine;
+                var22 = _closure1_slot6;
+                var22 = var22.COLLECTIBLES;
+                var19 = var23 !== var22;
+case 53:
+                var2 = var19;
+case 51:
+                if(var2) { _fun0004_ip = 26; continue _fun0004 }
+case 55:
+                var22 = var11 == var21;
+                var19 = undefined;
+                if(var22) { _fun0004_ip = 27; continue _fun0004 }
 case 56:
-                if(var2) { _fun0004_ip = 58; continue _fun0004 }
-case 59:
-                var16 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var2 = var2[var11];
-                var17 = var16.bind(var1)(var2);
-                var16 = var17.fetchCollectiblesProduct;
-                var2 = {};
-                var19 = _closure2_slot1;
-                var2['includeBundles'] = var19;
-                var2 = var16.bind(var17)(var18, var2);
+                var19 = var21.state;
+case 27:
+                var2 = var12 === var19;
+case 26:
+                if(var2) { _fun0004_ip = 57; continue _fun0004 }
 case 58:
-                var16 = var12.bind(var1)();
-                var2 = var16.done;
-                var3 = var16;
+                var2 = var18;
+case 57:
+                if(var2) { _fun0004_ip = 59; continue _fun0004 }
+case 60:
+                var18 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var2 = var2[var13];
+                var19 = var18.bind(var1)(var2);
+                var18 = var19.fetchCollectiblesProduct;
+                var2 = {};
+                var21 = _closure2_slot1;
+                var2['includeBundles'] = var21;
+                var2 = var18.bind(var19)(var20, var2);
+case 59:
+                var18 = var14.bind(var1)();
+                var2 = var18.done;
+                var3 = var18;
                 if(!var2) { _fun0004_ip = 37; continue _fun0004 }
 case 36:
                 return var1;
@@ -463,22 +433,37 @@ case 36:
         var1 = function(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var5 = arg2;
-                var1 = _closure2_slot3;
-                var1 = var1[var5];
-                if(var1) { _fun0005_ip = 60; continue _fun0005 }
+                var6 = arg2;
+                var1 = _closure2_slot4;
+                var1 = var1[var6];
+                var5 = null;
+                var7 = var5 == var1;
+                var2 = undefined;
+                if(var7) { _fun0005_ip = 3; continue _fun0005 }
 case 61:
-                var4 = null;
-                var2 = arg1;
-                var2 = var4 == var2;
-                if(!var2) { _fun0005_ip = 62; continue _fun0005 }
+                var2 = var1.state;
+case 3:
+                var1 = 'fetching';
+                var1 = var1 === var2;
+                if(var1) { _fun0005_ip = 62; continue _fun0005 }
 case 63:
-                var3 = _closure2_slot5;
-                var3 = var3[var5];
-                var2 = var4 == var3;
-case 62:
+                var2 = arg1;
+                var2 = var5 == var2;
+                if(!var2) { _fun0005_ip = 64; continue _fun0005 }
+case 65:
+                var3 = _closure2_slot4;
+                var3 = var3[var6];
+                var5 = var5 == var3;
+                var4 = undefined;
+                if(var5) { _fun0005_ip = 66; continue _fun0005 }
+case 67:
+                var4 = var3.state;
+case 66:
+                var3 = 'error';
+                var2 = var3 !== var4;
+case 64:
                 var1 = var2;
-case 60:
+case 62:
                 return var1;
             }
         };

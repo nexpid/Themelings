@@ -406,11 +406,11 @@ case 28:
             var5 = var2.bind(var6)();
             var2 = _closure1_slot13;
             var2 = var2.bind(var6)();
-            if(!(var1 == var4)) { _fun0009_ip = 30; continue _fun0009 }
-case 31:
+            if(!(var1 == var4)) { _fun0009_ip = 12; continue _fun0009 }
+case 30:
             var2 = var1 != var2;
             var1 = null;
-            if(!var2) { _fun0009_ip = 12; continue _fun0009 }
+            if(!var2) { _fun0009_ip = 31; continue _fun0009 }
 case 32:
             var2 = {};
             var6 = global;
@@ -427,9 +427,9 @@ case 32:
             var6 = 'status';
             var2[5] = var7;
             var1 = var2;
-case 12:
+case 31:
             _fun0009_ip = 33; continue _fun0009;
-case 30:
+case 12:
             var2 = {};
             var10 = var2;
             var9 = var4;

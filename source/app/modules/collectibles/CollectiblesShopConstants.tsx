@@ -76,6 +76,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['PROFILE_EFFECTS'] = var4;
     var4 = 'nameplates';
     var12['NAMEPLATES'] = var4;
+    var4 = 'profile-frames';
+    var12['PROFILE_FRAMES'] = var4;
     var4 = 'bundles';
     var12['BUNDLES'] = var4;
     var4 = 'layout';

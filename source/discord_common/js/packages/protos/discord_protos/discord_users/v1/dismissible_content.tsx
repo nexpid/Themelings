@@ -2194,6 +2194,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NOTIFICATION_NUDGE_POST_CALL_DISCONNECT'] = var2;
     var1 = 'NOTIFICATION_NUDGE_POST_CALL_DISCONNECT';
     var4[var2] = var1;
+    var2 = 750;
+    var4['PROFILE_FRAME_USER_PROFILE_NEW_BADGE'] = var2;
+    var1 = 'PROFILE_FRAME_USER_PROFILE_NEW_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

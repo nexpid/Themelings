@@ -368,6 +368,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ROLE_MENTION'] = var1;
     var1 = 'connections role popout';
     var2['CONNECTIONS_ROLE_POPOUT'] = var1;
+    var1 = 'xbox connected accounts banner';
+    var2['XBOX_CONNECTED_ACCOUNTS_BANNER'] = var1;
     var1 = 'game menu';
     var2['GAME_MENU'] = var1;
     var1 = 'guild profile';
@@ -712,6 +714,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COLLECTIBLES_SHOP_PROFILE_EFFECTS_TAB'] = var1;
     var1 = 'collectibles shop nameplates tab';
     var2['COLLECTIBLES_SHOP_NAMEPLATES_TAB'] = var1;
+    var1 = 'collectibles shop profile frames tab';
+    var2['COLLECTIBLES_SHOP_PROFILE_FRAMES_TAB'] = var1;
     var1 = 'collectibles shop bundles tab';
     var2['COLLECTIBLES_SHOP_BUNDLES_TAB'] = var1;
     var1 = 'collectibles shop index page';

@@ -393,8 +393,9 @@ case 23:
             var2 = 20;
             var2 = var8[var2];
             var3 = var4.bind(var6)(var2);
-            var2 = var3.useCanViewProfileFramesInCollectiblesShop;
-            var5 = var2.bind(var3)(var9);
+            var2 = var3.useProfileFramesMarketing;
+            var2 = var2.bind(var3)(var9);
+            var5 = var2.isAnnouncementEligible;
             var2 = 21;
             var2 = var8[var2];
             var3 = var4.bind(var6)(var2);

@@ -2724,6 +2724,7 @@ case 204:
             var21['onStartPayment'] = var25;
             var21['shouldUseMobileWebRedirectCheckout'] = var16;
             var21['disabled'] = var24;
+            var21['loading'] = var24;
             var21 = var23.bind(var4)(var22, var21);
             var20[1] = var21;
             var15['children'] = var20;

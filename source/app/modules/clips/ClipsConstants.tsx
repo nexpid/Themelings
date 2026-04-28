@@ -127,6 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CLIPS_EDIT_MODAL_KEY'] = var8;
     var8 = 'clips-gallery';
     var3['CLIPS_GALLERY_MODAL_KEY'] = var8;
+    var8 = 'clips_player';
+    var3['CLIPS_QOE_LOCATION'] = var8;
     var8 = 640;
     var3['CLIPS_THUMBNAIL_MAX_WIDTH'] = var8;
     var8 = 360;

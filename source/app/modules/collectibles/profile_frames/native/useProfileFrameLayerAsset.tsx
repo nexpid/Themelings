@@ -94,19 +94,15 @@ case 5:
                 var1 = function(arg1, arg2) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                        var6 = arg1;
+                        var4 = arg1;
                         var1 = 0;
-                        if(!(var6 > var1)) { _fun0002_ip = 6; continue _fun0002 }
+                        if(!(var4 > var1)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
                         var3 = _closure2_slot2;
-                        var2 = global;
-                        var4 = var2.Math;
-                        var2 = var4.floor;
-                        var5 = arg2;
-                        var5 = var5 / var6;
+                        var2 = arg2;
+                        var2 = var2 / var4;
                         var1 = _closure2_slot0;
-                        var1 = var5 * var1;
-                        var2 = var2.bind(var4)(var1);
+                        var2 = var2 * var1;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
 case 6:

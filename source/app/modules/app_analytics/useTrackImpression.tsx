@@ -273,9 +273,9 @@ case 33:
                     var8['current'] = var7;
 case 32:
                     if(var6) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+case 6:
                     if(var4) { _fun0004_ip = 34; continue _fun0004 }
-case 36:
+case 13:
                     return var5;
 case 34:
                     var4 = {};
@@ -301,13 +301,13 @@ case 34:
 case 0:
                             var3 = _closure3_slot0;
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                            if(!(var2 != var3)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                             var3 = _closure1_slot8;
                             var2 = _closure3_slot0;
                             var1 = undefined;
                             var1 = var3.bind(var1)(var2);
-case 37:
+case 35:
                             var1 = undefined;
                             return var1;
                         }
@@ -327,10 +327,10 @@ case 0:
                     var2 = _closure2_slot1;
                     var3 = var2.trackOnInitialLoad;
                     var2 = undefined;
-                    if(var3) { _fun0006_ip = 39; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 37; continue _fun0006 }
 case 29:
                     return var2;
-case 39:
+case 37:
                     var1 = _closure2_slot5;
                     var1 = var1.bind(var2)();
                     return var1;
@@ -344,12 +344,12 @@ case 0:
                     var1 = _closure2_slot1;
                     var3 = var1.trackOnInitialLoad;
                     var1 = undefined;
-                    if(var3) { _fun0007_ip = 40; continue _fun0007 }
+                    if(var3) { _fun0007_ip = 38; continue _fun0007 }
 case 29:
                     var2 = _closure2_slot5;
                     var2 = var2.bind(var1)();
                     return var2;
-case 40:
+case 38:
                     return var1;
                 }
             };

@@ -494,7 +494,7 @@ case 56:
 case 58:
             var20 = _closure1_slot0;
             var22 = _closure1_slot3;
-            var19 = 35;
+            var19 = 36;
             var19 = var22[var19];
             var23 = var20.bind(var1)(var19);
             var22 = var23.isEqualAvatarDecoration;
@@ -746,7 +746,7 @@ case 0:
             var2 = arg1;
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var1 = 36;
+            var1 = 37;
             var1 = var5[var1];
             var6 = undefined;
             var5 = var3.bind(var6)(var1);
@@ -4272,6 +4272,21 @@ case 140:
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
+    var7 = ['USER_BADGE_STATE_UPDATE'];
+    var4 = function(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot3;
+        var1 = 32;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.fetchBadge;
+        var2 = arg1;
+        var2 = var2.badge_id;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
     var7 = ['USER_PREMIUM_GUILD_SUBSCRIPTION_SLOT_CREATE'];
     var4 = function(arg1) {
         var6 = arg1;
@@ -4356,7 +4371,7 @@ case 140:
         var _closure2_slot0 = var1;
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
-        var1 = 32;
+        var1 = 33;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -4938,7 +4953,7 @@ case 108:
         var2['title'] = var5;
         var6 = _closure1_slot0;
         var5 = _closure1_slot3;
-        var1 = 33;
+        var1 = 34;
         var5 = var5[var1];
         var1 = undefined;
         var7 = var6.bind(var1)(var5);
@@ -6013,7 +6028,7 @@ case 198:
         var2['type'] = var4;
         var5 = _closure1_slot0;
         var4 = _closure1_slot3;
-        var1 = 34;
+        var1 = 35;
         var4 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
@@ -6049,7 +6064,7 @@ case 198:
         var2['type'] = var4;
         var5 = _closure1_slot0;
         var4 = _closure1_slot3;
-        var1 = 34;
+        var1 = 35;
         var4 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
@@ -6077,7 +6092,7 @@ case 198:
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
-    var4 = 37;
+    var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

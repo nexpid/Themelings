@@ -593,35 +593,61 @@ case 0:
             var1 = _closure1_slot9;
             var4 = undefined;
             var19 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 20;
+            var1 = var5[var1];
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.useCurrentUser;
+            var3 = var1.bind(var3)();
+            var1 = 21;
+            var1 = var5[var1];
+            var5 = var2.bind(var4)(var1);
+            var2 = var5.useIsProfileFramesEarlyAccessPhase;
+            var1 = 'CollectiblesShopCardCardDetailsV2';
+            var1 = var2.bind(var5)(var1);
+            if(!var1) { _fun0003_ip = 43; continue _fun0003 }
+case 44:
+            var5 = var14.type;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 22;
+            var2 = var8[var2];
+            var2 = var7.bind(var4)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.PROFILE_FRAME;
+            var1 = var5 === var2;
+case 43:
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 23;
+            var2 = var7[var2];
+            var5 = var5.bind(var4)(var2);
+            var2 = var5.canUseShopDiscounts;
+            var21 = var2.bind(var5)(var3);
+            if(var21) { _fun0003_ip = 45; continue _fun0003 }
+case 46:
+            var21 = var1;
+case 45:
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 20;
-            var1 = var10[var1];
-            var2 = var7.bind(var4)(var1);
-            var1 = var2.useCurrentUser;
-            var5 = var1.bind(var2)();
-            var2 = _closure1_slot1;
-            var1 = 21;
-            var1 = var10[var1];
-            var3 = var2.bind(var4)(var1);
-            var1 = var3.canUseShopDiscounts;
-            var21 = var1.bind(var3)(var5);
             var1 = 11;
             var1 = var10[var1];
-            var3 = var7.bind(var4)(var1);
-            var1 = var3.getShopDiscountSource;
-            var20 = var1.bind(var3)(var5);
-            var1 = 22;
+            var2 = var7.bind(var4)(var1);
+            var1 = var2.getShopDiscountSource;
+            var20 = var1.bind(var2)(var3);
+            var1 = 24;
             var1 = var10[var1];
             var5 = var7.bind(var4)(var1);
             var3 = var5.useToken;
+            var2 = _closure1_slot1;
             var1 = 6;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.colors;
             var1 = var1.BACKGROUND_BASE_LOW;
             var8 = var3.bind(var5)(var1);
-            var1 = 23;
+            var1 = 25;
             var3 = var10[var1];
             var9 = var7.bind(var4)(var3);
             var5 = var9.hexToRgbaString;
@@ -640,12 +666,12 @@ case 0:
             var1 = 0;
             var1 = var9.bind(var13)(var8, var1);
             var13 = var3.bind(var5)(var1);
-            var1 = 24;
+            var1 = 26;
             var1 = var10[var1];
             var3 = var7.bind(var4)(var1);
             var1 = var3.getProductName;
             var9 = var1.bind(var3)(var14);
-            var1 = 25;
+            var1 = 27;
             var1 = var10[var1];
             var17 = var7.bind(var4)(var1);
             var5 = var17.useStateFromStores;
@@ -660,7 +686,7 @@ case 0:
             };
             var17 = var5.bind(var17)(var3, var1);
             var3 = _closure1_slot8;
-            var1 = 26;
+            var1 = 28;
             var1 = var10[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -693,8 +719,8 @@ case 0:
             var5 = new Array(2);
             var5[0] = var7;
             var6 = !var6;
-            if(!var6) { _fun0003_ip = 43; continue _fun0003 }
-case 44:
+            if(!var6) { _fun0003_ip = 47; continue _fun0003 }
+case 48:
             var9 = _closure1_slot8;
             var8 = _closure1_slot4;
             var7 = {};
@@ -716,7 +742,7 @@ case 44:
             var10[0] = var12;
             var12 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var11 = 27;
+            var11 = 29;
             var11 = var15[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
@@ -725,7 +751,7 @@ case 44:
             var10[1] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 43:
+case 47:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -733,7 +759,7 @@ case 43:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 28;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

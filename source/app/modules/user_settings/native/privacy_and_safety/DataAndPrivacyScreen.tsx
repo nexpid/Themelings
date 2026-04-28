@@ -1,11 +1,11 @@
 // app/modules/user_settings/native/privacy_and_safety/DataAndPrivacyScreen.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
+    var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
     var1 = function getTermsOfServicePrivacyPolicySettings(arg1) {
         var1 = arg1;
@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var1 = 4;
+        var1 = 5;
         var4 = var8[var1];
         var3 = undefined;
         var4 = var7.bind(var3)(var4);
@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var4["+uHbqE"];
         var4 = var9.bind(var10)(var4);
         var2['label'] = var4;
-        var4 = _closure1_slot4;
+        var4 = _closure1_slot5;
         var9 = var4.SAFETY_TERMS_OF_SERVICE;
         var4 = new Array(2);
         var4[0] = var9;
-        var5 = _closure1_slot4;
+        var5 = _closure1_slot5;
         var5 = var5.SAFETY_PRIVACY_POLICY;
         var4[1] = var5;
         var2['settings'] = var4;
@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function onClick() {
             var3 = _closure2_slot0;
             var2 = var3.navigate;
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot7;
             var1 = var1.ACCOUNT;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -57,43 +57,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[0] = var2;
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var7 = var6[var1];
+    var8 = var6[var1];
     var4 = metroImportAll;
     var1 = undefined;
-    var4 = var4.bind(var1)(var7);
+    var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.MobileSetting;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.HelpdeskArticles;
-    var _closure1_slot5 = var7;
-    var4 = var4.UserSettingsSections;
-    var _closure1_slot6 = var4;
+    var4 = var4.MobileSetting;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var7 = var4.HelpdeskArticles;
+    var _closure1_slot6 = var7;
+    var4 = var4.UserSettingsSections;
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
-    var7 = var4.Fragment;
     var _closure1_slot8 = var7;
+    var7 = var4.Fragment;
+    var _closure1_slot9 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot9 = var4;
-    var4 = 11;
+    var _closure1_slot10 = var4;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -102,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function DataAndPrivacySettings() {
         var12 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var2 = 7;
+        var2 = 8;
         var2 = var10[var2];
         var4 = undefined;
         var3 = var12.bind(var4)(var2);
@@ -113,14 +117,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var _closure3_slot0 = var1;
             var2 = {};
-            var1 = _closure1_slot4;
+            var1 = _closure1_slot5;
             var3 = var1.USE_DATA_TO_IMPROVE_DISCORD;
             var1 = new Array(1);
             var1[0] = var3;
             var2['settings'] = var1;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var4 = 4;
+            var4 = 5;
             var1 = var10[var4];
             var5 = undefined;
             var1 = var9.bind(var5)(var1);
@@ -132,11 +136,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.igTSG/;
             var1 = {};
             var16 = _closure1_slot1;
-            var15 = 5;
+            var15 = 6;
             var12 = var10[var15];
             var17 = var16.bind(var5)(var12);
             var13 = var17.getArticleURL;
-            var14 = _closure1_slot5;
+            var14 = _closure1_slot6;
             var12 = var14.DATA_PRIVACY_CONTROLS;
             var12 = var13.bind(var17)(var12);
             var1['helpdeskArticle'] = var12;
@@ -145,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new Array(4);
             var1[0] = var2;
             var2 = {};
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot5;
             var7 = var3.USE_DATA_TO_CUSTOMIZE_DISCORD;
             var3 = new Array(1);
             var3[0] = var7;
@@ -169,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['subLabel'] = var3;
             var1[1] = var2;
             var2 = {};
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot5;
             var7 = var3.USE_DATA_FOR_QUESTS;
             var3 = new Array(1);
             var3[0] = var7;
@@ -193,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['subLabel'] = var3;
             var1[2] = var2;
             var2 = {};
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot5;
             var7 = var3.USE_DATA_FOR_QUESTS_3P;
             var3 = new Array(1);
             var3[0] = var7;
@@ -228,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.BG7QsQ;
             var7 = var11.bind(var12)(var7);
             var2['label'] = var7;
-            var7 = _closure1_slot4;
+            var7 = _closure1_slot5;
             var11 = var7.REQUEST_YOUR_DATA;
             var7 = new Array(1);
             var7[0] = var11;
@@ -253,7 +257,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var1)(var2);
             var3 = var1.push;
             var2 = {};
-            var6 = _closure1_slot4;
+            var6 = _closure1_slot5;
             var7 = var6.PROFILE_PRIVACY;
             var6 = new Array(1);
             var6[0] = var7;
@@ -270,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = function onClick() {
                 var3 = _closure3_slot0;
                 var2 = var3.navigate;
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot7;
                 var1 = var1.CONTENT_AND_SOCIAL;
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -284,6 +288,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var2.bind(var4)(var8);
         var _closure2_slot1 = var7;
         var6 = _closure1_slot3;
+        var9 = var6.useEffect;
+        var3 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var2 = _closure1_slot4;
+                var2 = var2.fetchedConsents;
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 9;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.fetchConsents;
+                var2 = var2.bind(var3)();
+case 2:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 10;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.fetchHarvestStatus;
+                var2 = var2.bind(var3)();
+                return var1;
+            }
+        };
+        var2 = new Array(0);
+        var2 = var9.bind(var6)(var3, var2);
         var3 = var6.useMemo;
         var2 = new Array(2);
         var2[0] = var8;
@@ -291,7 +325,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var1 = 8;
+            var1 = 11;
             var1 = var16[var1];
             var8 = undefined;
             var3 = var15.bind(var8)(var1);
@@ -303,7 +337,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var4;
             var9 = arraySpread(var19, var18, var17);
             var6 = {};
-            var10 = 4;
+            var10 = 5;
             var11 = var16[var10];
             var11 = var15.bind(var8)(var11);
             var13 = var11.intl;
@@ -314,11 +348,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.Me5lVK;
             var11 = var12.bind(var13)(var11);
             var6['label'] = var11;
-            var11 = _closure1_slot4;
+            var11 = _closure1_slot5;
             var12 = var11.DATA_AND_PRIVACY_SECURE_FRAMES_PERSISTENT_CODES;
             var11 = new Array(2);
             var11[0] = var12;
-            var12 = _closure1_slot4;
+            var12 = _closure1_slot5;
             var12 = var12.ENCRYPTION_VERIFIED_DEVICES;
             var11[1] = var12;
             var6['settings'] = var11;
@@ -331,7 +365,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.t;
             var11 = var10["/6sFWa"];
             var10 = {};
-            var14 = 6;
+            var14 = 7;
             var14 = var16[var14];
             var15 = var15.bind(var8)(var14);
             var14 = var15.getSecureFramesHelpdeskArticle;
@@ -342,7 +376,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[8] = var6;
             var6 = 1;
             var17 = var9 + var6;
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot11;
             var5 = _closure2_slot0;
             var18 = var7.bind(var8)(var5);
             var19 = var4;
@@ -352,12 +386,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9 = var3.bind(var6)(var1, var2);
-        var3 = _closure1_slot9;
-        var2 = _closure1_slot8;
+        var3 = _closure1_slot10;
+        var2 = _closure1_slot9;
         var1 = {};
-        var8 = _closure1_slot7;
+        var8 = _closure1_slot8;
         var7 = _closure1_slot1;
-        var11 = 9;
+        var11 = 12;
         var5 = var10[var11];
         var6 = var7.bind(var4)(var5);
         var5 = {};
@@ -369,7 +403,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;
-        var6 = 10;
+        var6 = 13;
         var6 = var10[var6];
         var7 = var7.bind(var4)(var6);
         var6 = {};

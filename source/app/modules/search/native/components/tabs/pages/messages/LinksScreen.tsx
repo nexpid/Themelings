@@ -70,13 +70,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.useOnPressMessageItem;
         var5 = {};
         var5['searchContext'] = var14;
-        var15 = var6.bind(var7)(var5);
-        var _closure2_slot3 = var15;
+        var20 = var6.bind(var7)(var5);
+        var _closure2_slot3 = var20;
+        var5 = var10[var3];
+        var6 = var9.bind(var4)(var5);
+        var5 = var6.useOnPressSearchLink;
+        var15 = var5.bind(var6)(var14);
+        var _closure2_slot4 = var15;
         var3 = var10[var3];
-        var5 = var9.bind(var4)(var3);
-        var3 = var5.useOnPressSearchLink;
-        var3 = var3.bind(var5)(var14);
-        var _closure2_slot4 = var3;
+        var6 = var9.bind(var4)(var3);
+        var5 = var6.useOnPressGuildVoiceChannel;
+        var3 = {};
+        var3['searchContext'] = var14;
+        var3 = var5.bind(var6)(var3);
+        var _closure2_slot5 = var3;
         var5 = 7;
         var5 = var10[var5];
         var16 = var9.bind(var4)(var5);
@@ -92,13 +99,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var16.isFirstPageLoading;
         var5 = var16.isNextPageLoading;
         var17 = var16.placeholderCount;
-        var _closure2_slot5 = var17;
+        var _closure2_slot6 = var17;
         var16 = _closure1_slot3;
-        var21 = var16.useCallback;
-        var20 = new Array(2);
-        var20[0] = var15;
-        var20[1] = var14;
-        var15 = function(arg1, arg2) {
+        var22 = var16.useCallback;
+        var21 = new Array(2);
+        var21[0] = var20;
+        var21[1] = var14;
+        var20 = function(arg1, arg2) {
             var1 = arg1;
             var4 = var1.channelId;
             var3 = var1.messageId;
@@ -121,13 +128,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var1)(var4, var3);
             return var1;
         };
-        var20 = var21.bind(var16)(var15, var20);
-        var _closure2_slot6 = var20;
-        var21 = var16.useCallback;
-        var15 = new Array(2);
-        var15[0] = var3;
-        var15[1] = var14;
-        var3 = function(arg1, arg2) {
+        var20 = var22.bind(var16)(var20, var21);
+        var _closure2_slot7 = var20;
+        var22 = var16.useCallback;
+        var21 = new Array(2);
+        var21[0] = var15;
+        var21[1] = var14;
+        var15 = function(arg1, arg2) {
             var1 = arg1;
             var9 = var1.channelId;
             var8 = var1.messageId;
@@ -152,16 +159,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var1)(var4, var3);
             return var1;
         };
-        var21 = var21.bind(var16)(var3, var15);
-        var _closure2_slot7 = var21;
+        var21 = var22.bind(var16)(var15, var21);
+        var _closure2_slot8 = var21;
+        var22 = var16.useCallback;
+        var15 = new Array(2);
+        var15[0] = var3;
+        var15[1] = var14;
+        var3 = function(arg1, arg2) {
+            var1 = arg1;
+            var8 = var1.channelId;
+            var7 = var1.messageId;
+            var3 = var1.mentionedChannelId;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 8;
+            var2 = var2[var1];
+            var1 = undefined;
+            var6 = var4.bind(var1)(var2);
+            var5 = var6.trackMessageItemPress;
+            var4 = {};
+            var9 = _closure2_slot0;
+            var4['searchContext'] = var9;
+            var4['channelId'] = var8;
+            var4['messageId'] = var7;
+            var7 = arg2;
+            var4['index'] = var7;
+            var4 = var5.bind(var6)(var4);
+            var2 = _closure2_slot5;
+            var2 = var2.bind(var1)(var3);
+            return var1;
+        };
+        var22 = var22.bind(var16)(var3, var15);
+        var _closure2_slot9 = var22;
         var15 = var16.useMemo;
-        var3 = new Array(6);
-        var3[0] = var21;
-        var3[1] = var20;
-        var3[2] = var19;
-        var3[3] = var18;
-        var3[4] = var17;
-        var3[5] = var14;
+        var3 = new Array(7);
+        var3[0] = var22;
+        var3[1] = var21;
+        var3[2] = var20;
+        var3[3] = var19;
+        var3[4] = var18;
+        var3[5] = var17;
+        var3[6] = var14;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -202,15 +240,6 @@ case 3:
                         var6 = arg1;
                         var5['data'] = var6;
                         var6 = function onPress(arg1) {
-                            var4 = _closure2_slot6;
-                            var3 = _closure5_slot0;
-                            var2 = undefined;
-                            var1 = arg1;
-                            var1 = var4.bind(var2)(var1, var3);
-                            return var1;
-                        };
-                        var5['onPress'] = var6;
-                        var1 = function onPressSearchLink(arg1) {
                             var4 = _closure2_slot7;
                             var3 = _closure5_slot0;
                             var2 = undefined;
@@ -218,7 +247,25 @@ case 3:
                             var1 = var4.bind(var2)(var1, var3);
                             return var1;
                         };
-                        var5['onPressSearchLink'] = var1;
+                        var5['onPress'] = var6;
+                        var6 = function onPressSearchLink(arg1) {
+                            var4 = _closure2_slot8;
+                            var3 = _closure5_slot0;
+                            var2 = undefined;
+                            var1 = arg1;
+                            var1 = var4.bind(var2)(var1, var3);
+                            return var1;
+                        };
+                        var5['onPressSearchLink'] = var6;
+                        var1 = function onPressGuildVoiceChannelMention(arg1) {
+                            var4 = _closure2_slot9;
+                            var3 = _closure5_slot0;
+                            var2 = undefined;
+                            var1 = arg1;
+                            var1 = var4.bind(var2)(var1, var3);
+                            return var1;
+                        };
+                        var5['onPressGuildVoiceChannelMention'] = var1;
                         var1 = _closure2_slot2;
                         var5['imageStyle'] = var1;
                         var7 = _closure1_slot0;
@@ -249,7 +296,7 @@ case 3:
                 };
                 var2 = var3.bind(var4)(var2);
 case 2:
-                var2 = _closure2_slot5;
+                var2 = _closure2_slot6;
                 if(!(var2 > var10)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
                 var8 = var1.length;
@@ -264,7 +311,7 @@ case 5:
                 var5 = _closure1_slot6;
                 var2['numColumns'] = var5;
                 var2['numResults'] = var8;
-                var5 = _closure2_slot5;
+                var5 = _closure2_slot6;
                 var2['placeholderCount'] = var5;
                 var5 = var3.bind(var4)(var2);
                 var11 = var10 < var5;

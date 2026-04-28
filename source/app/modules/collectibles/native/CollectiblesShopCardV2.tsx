@@ -652,7 +652,6 @@ case 0:
                 var _closure2_slot5 = var5;
                 var _closure2_slot6 = var5;
                 var _closure2_slot7 = var5;
-                var _closure2_slot8 = var5;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var4 = 7;
@@ -665,7 +664,7 @@ case 0:
                 var4 = var7[var4];
                 var12 = var6.bind(var5)(var4);
                 var4 = var12.getSelectedProduct;
-                var24 = var4.bind(var12)(var18, var16);
+                var22 = var4.bind(var12)(var18, var16);
                 var12 = _closure1_slot1;
                 var4 = 16;
                 var4 = var7[var4];
@@ -725,147 +724,115 @@ case 28:
                 var17 = var7.bind(var12)(var4, var6);
                 var4 = null;
                 if(!(var4 != var3)) { _fun0007_ip = 56; continue _fun0007 }
-case 12:
+case 57:
                 var17 = var3;
 case 56:
-                var23 = _closure1_slot0;
-                var25 = _closure1_slot2;
+                var19 = _closure1_slot0;
+                var23 = _closure1_slot2;
                 var3 = 33;
-                var3 = var25[var3];
-                var4 = var23.bind(var5)(var3);
-                var3 = var4.useIsShopCardImpressionMobileEnabled;
-                var19 = 'CollectiblesShopCardV2';
-                var3 = var3.bind(var4)(var19);
+                var3 = var23[var3];
+                var6 = var19.bind(var5)(var3);
+                var4 = var6.useIsShopCardImpressionMobileEnabled;
+                var3 = 'CollectiblesShopCardV2';
+                var3 = var4.bind(var6)(var3);
                 var4 = 34;
-                var4 = var25[var4];
-                var7 = var23.bind(var5)(var4);
+                var4 = var23[var4];
+                var7 = var19.bind(var5)(var4);
                 var6 = var7.useTrackProductCardImpression;
                 var4 = var18.skuId;
                 var4 = var6.bind(var7)(var4);
                 var7 = var4.handleCardVisibilityChange;
                 var4 = 10;
-                var4 = var25[var4];
-                var6 = var23.bind(var5)(var4);
+                var4 = var23[var4];
+                var6 = var19.bind(var5)(var4);
                 var4 = var6.useCurrentUser;
-                var16 = var4.bind(var6)();
+                var12 = var4.bind(var6)();
                 var6 = _closure1_slot1;
                 var4 = 35;
-                var4 = var25[var4];
+                var4 = var23[var4];
                 var6 = var6.bind(var5)(var4);
                 var4 = var6.canUseCollectibles;
-                var6 = var4.bind(var6)(var16);
+                var6 = var4.bind(var6)(var12);
                 var4 = 36;
-                var4 = var25[var4];
-                var12 = var23.bind(var5)(var4);
+                var4 = var23[var4];
+                var12 = var19.bind(var5)(var4);
                 var4 = var12.useProductPurchaseState;
-                var4 = var4.bind(var12)(var24);
-                var21 = var4.isPurchased;
-                _closure2_slot4 = var21;
-                var22 = var4.isPartiallyOwnedBundle;
-                _closure2_slot5 = var22;
+                var4 = var4.bind(var12)(var22);
+                var20 = var4.isPurchased;
+                _closure2_slot4 = var20;
+                var21 = var4.isPartiallyOwnedBundle;
+                _closure2_slot5 = var21;
                 var4 = 37;
-                var4 = var25[var4];
-                var20 = var23.bind(var5)(var4);
-                var12 = var20.useProductDisableState;
-                var4 = var24.skuId;
-                var4 = var12.bind(var20)(var4);
+                var4 = var23[var4];
+                var16 = var19.bind(var5)(var4);
+                var12 = var16.useProductDisableState;
+                var4 = var22.skuId;
+                var4 = var12.bind(var16)(var4);
                 var12 = var4.isDisabled;
-                var20 = 23;
-                var4 = var25[var20];
-                var26 = var23.bind(var5)(var4);
-                var4 = var26.isPremiumCollectiblesProduct;
-                var4 = var4.bind(var26)(var24);
-                var20 = var25[var20];
-                var23 = var23.bind(var5)(var20);
-                var20 = var23.isFreeCollectiblesProduct;
-                var23 = var20.bind(var23)(var24);
-                var20 = var4;
-                if(!var4) { _fun0007_ip = 57; continue _fun0007 }
-case 58:
-                var20 = !var6;
-case 57:
-                if(!var20) { _fun0007_ip = 59; continue _fun0007 }
-case 60:
-                var20 = !var23;
-case 59:
-                _closure2_slot6 = var20;
-                if(var23) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
-                if(!var4) { _fun0007_ip = 63; continue _fun0007 }
-case 64:
-                var4 = var6;
-case 63:
-                var23 = var4;
-case 61:
-                _closure2_slot7 = var23;
-                var25 = _closure1_slot0;
-                var26 = _closure1_slot2;
-                var24 = 19;
-                var4 = var26[var24];
-                var6 = var25.bind(var5)(var4);
-                var4 = var6.useIsProfileFramesEarlyAccessPhase;
-                var4 = var4.bind(var6)(var19);
-                var19 = var18.type;
-                var6 = 24;
-                var6 = var26[var6];
-                var6 = var25.bind(var5)(var6);
-                var6 = var6.CollectiblesItemType;
-                var6 = var6.PROFILE_FRAME;
-                var19 = var19 === var6;
-                if(!var19) { _fun0007_ip = 65; continue _fun0007 }
-case 66:
+                var16 = 23;
+                var4 = var23[var16];
+                var24 = var19.bind(var5)(var4);
+                var4 = var24.isPremiumCollectiblesProduct;
+                var4 = var4.bind(var24)(var22);
+                var16 = var23[var16];
+                var19 = var19.bind(var5)(var16);
+                var16 = var19.isFreeCollectiblesProduct;
+                var16 = var16.bind(var19)(var22);
                 var19 = var4;
+                if(!var4) { _fun0007_ip = 58; continue _fun0007 }
+case 59:
+                var19 = !var6;
+case 58:
+                if(!var19) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
+                var19 = !var16;
+case 60:
+                _closure2_slot6 = var19;
+                var22 = var16;
+                if(var22) { _fun0007_ip = 62; continue _fun0007 }
+case 63:
+                if(!var4) { _fun0007_ip = 64; continue _fun0007 }
 case 65:
-                if(!var19) { _fun0007_ip = 67; continue _fun0007 }
-case 68:
-                var6 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var4 = var4[var24];
-                var6 = var6.bind(var5)(var4);
-                var4 = var6.isUserPaidTier2;
-                var4 = var4.bind(var6)(var16);
-                var19 = !var4;
-case 67:
-                _closure2_slot8 = var19;
+                var4 = var6;
+case 64:
+                var22 = var4;
+case 62:
+                _closure2_slot7 = var22;
                 var16 = _closure1_slot3;
                 var6 = var16.useMemo;
-                var4 = new Array(5);
-                var4[0] = var23;
-                var4[1] = var22;
-                var4[2] = var21;
-                var4[3] = var20;
-                var4[4] = var19;
+                var4 = new Array(4);
+                var4[0] = var22;
+                var4[1] = var21;
+                var4[2] = var20;
+                var4[3] = var19;
                 var1 = function() {
                     _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                         var3 = _closure2_slot4;
                         var2 = true;
-                        if(!(var3 !== var2)) { _fun0009_ip = 69; continue _fun0009 }
-case 70:
+                        if(!(var3 !== var2)) { _fun0009_ip = 66; continue _fun0009 }
+case 67:
                         var3 = _closure2_slot5;
-                        if(!(var3 !== var2)) { _fun0009_ip = 71; continue _fun0009 }
-case 72:
+                        if(!(var3 !== var2)) { _fun0009_ip = 68; continue _fun0009 }
+case 69:
                         var3 = _closure2_slot6;
-                        if(!(var3 !== var2)) { _fun0009_ip = 73; continue _fun0009 }
-case 74:
-                        var3 = _closure2_slot8;
-                        if(!(var3 !== var2)) { _fun0009_ip = 73; continue _fun0009 }
-case 31:
+                        if(!(var3 !== var2)) { _fun0009_ip = 70; continue _fun0009 }
+case 71:
                         var1 = _closure2_slot7;
-                        if(!(var1 !== var2)) { _fun0009_ip = 75; continue _fun0009 }
-case 30:
+                        if(!(var1 !== var2)) { _fun0009_ip = 72; continue _fun0009 }
+case 31:
                         var1 = null;
                         return var1;
-case 75:
+case 72:
                         var1 = 'nitroClaim';
                         return var1;
-case 73:
+case 70:
                         var1 = 'nitroUpsell';
                         return var1;
-case 71:
+case 68:
                         var1 = 'partiallyOwnedBundle';
                         return var1;
-case 69:
+case 66:
                         var1 = 'purchased';
                         return var1;
                     }
@@ -888,8 +855,8 @@ case 69:
                 var1['isShopCardImpressionEnabled'] = var3;
                 var6 = var6.bind(var5)(var4, var1);
                 var1 = var6;
-                if(var3) { _fun0007_ip = 76; continue _fun0007 }
-case 77:
+                if(var3) { _fun0007_ip = 73; continue _fun0007 }
+case 74:
                 var4 = _closure1_slot7;
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
@@ -900,7 +867,7 @@ case 77:
                 var2['onChange'] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
-case 76:
+case 73:
                 return var1;
             }
         };
@@ -912,7 +879,7 @@ case 0:
                 var2 = arg1;
                 var1 = null;
                 if(!(var2 != var1)) { _fun0010_ip = 25; continue _fun0010 }
-case 78:
+case 75:
                 var12 = {};
                 var5 = undefined;
                 var11 = var2;

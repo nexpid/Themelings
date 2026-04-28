@@ -18,6 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PROFILE_EFFECT'] = var1;
     var1 = 'NAMEPLATE';
     var2['NAMEPLATE'] = var1;
+    var1 = 'PROFILE_FRAME';
+    var2['PROFILE_FRAME'] = var1;
     var1 = 'BUNDLE';
     var2['BUNDLE'] = var1;
     var4 = dependencyMap;
