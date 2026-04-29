@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                         StartGenerator();
-                        var8 = arg1;
+                        var15 = arg1;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -96,24 +96,24 @@ case 3:
                         var3 = var3.current;
                         if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                        var9 = var13;
+                        var8 = var13;
                         var10 = global;
                         var3 = var10.HermesInternal;
                         var6 = var3.concat;
                         var5 = '';
                         var3 = '-';
-                        var6 = var6.bind(var5)(var8, var3, var9);
+                        var6 = var6.bind(var5)(var15, var3, var8);
                         var3 = _closure2_slot5;
                         var3 = var3.current;
                         var5 = false;
-                        var14 = false;
+                        var8 = false;
                         if(!(var6 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
                         var3 = _closure2_slot5;
                         var3['current'] = var6;
                         var3 = _closure2_slot6;
                         var3['current'] = var5;
-                        var14 = true;
+                        var8 = true;
 case 6:
                         var3 = _closure2_slot6;
                         var3 = var3.current;
@@ -126,7 +126,7 @@ case 10:
                         var3 = _closure2_slot4;
                         var3 = var3.bind(var2)(var9);
 case 9:
-                        var15 = _closure2_slot1;
+                        var14 = _closure2_slot1;
                         var18 = var13;
                         var16 = _closure1_slot0;
                         var17 = _closure1_slot2;
@@ -140,26 +140,30 @@ case 9:
                         var6 = var16.bind(var2)(var6);
                         var6 = var6.GuildJoinRequestSortOrders;
                         var6 = var6.TIMESTAMP_DESC;
-                        if(!(var8 !== var6)) { _fun0001_ip = 11; continue _fun0001 }
+                        if(!(var15 !== var6)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-                        var8 = {};
-                        if(var14) { _fun0001_ip = 13; continue _fun0001 }
+                        if(var8) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-                        var16 = var15.length;
-                        var6 = 1;
-                        var6 = var16 - var6;
-                        var16 = var15[var6];
-                        if(var11) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-                        var6 = var16.actionedAt;
-                        _fun0001_ip = 17; continue _fun0001;
+                        var15 = var14.length;
+                        var6 = 0;
+                        if(!(var6 !== var15)) { _fun0001_ip = 13; continue _fun0001 }
 case 15:
-                        var6 = var16.joinRequestId;
+                        var15 = var14.length;
+                        var6 = 1;
+                        var6 = var15 - var6;
+                        var16 = var14[var6];
+                        var6 = {};
+                        if(var11) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-                        var8['after'] = var6;
-                        var6 = var8;
+                        var15 = var16.actionedAt;
                         _fun0001_ip = 18; continue _fun0001;
+case 16:
+                        var15 = var16.joinRequestId;
+case 18:
+                        var6['after'] = var15;
+                        _fun0001_ip = 19; continue _fun0001;
 case 13:
+                        var15 = {};
                         var19 = _closure1_slot1;
                         var20 = _closure1_slot2;
                         var16 = 4;
@@ -177,28 +181,33 @@ case 13:
                         var16 = var19.valueOf;
                         var16 = var16.bind(var19)();
                         var16 = var17.bind(var18)(var16);
-                        var8['after'] = var16;
-                        var6 = var8;
-                        _fun0001_ip = 18; continue _fun0001;
+                        var15['after'] = var16;
+                        var6 = var15;
+                        _fun0001_ip = 19; continue _fun0001;
 case 11:
-                        var8 = {};
-                        if(var14) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-                        var16 = var15.length;
-                        var14 = 1;
-                        var14 = var16 - var14;
-                        var14 = var15[var14];
-                        if(var11) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
-                        var11 = var14.actionedAt;
-                        _fun0001_ip = 23; continue _fun0001;
+                        if(var8) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-                        var11 = var14.joinRequestId;
+                        var15 = var14.length;
+                        var8 = 0;
+                        if(!(var8 !== var15)) { _fun0001_ip = 20; continue _fun0001 }
+case 22:
+                        var15 = var14.length;
+                        var8 = 1;
+                        var8 = var15 - var8;
+                        var14 = var14[var8];
+                        var8 = {};
+                        if(var11) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
+                        var11 = var14.actionedAt;
+                        _fun0001_ip = 25; continue _fun0001;
 case 23:
+                        var11 = var14.joinRequestId;
+case 25:
                         var8['before'] = var11;
                         var6 = var8;
-                        _fun0001_ip = 18; continue _fun0001;
-case 19:
+                        _fun0001_ip = 19; continue _fun0001;
+case 20:
+                        var8 = {};
                         var14 = _closure1_slot1;
                         var15 = _closure1_slot2;
                         var11 = 4;
@@ -216,9 +225,9 @@ case 19:
                         var10 = var11.bind(var14)(var10);
                         var8['before'] = var10;
                         var6 = var8;
-case 18:
+case 19:
                         var12 = var6;
-case 24: // try_start_0 // try_start_1
+case 26: // try_start_0 // try_start_1
                         var6 = _closure2_slot2;
                         var8 = true;
                         var6['current'] = var8;
@@ -239,31 +248,31 @@ case 24: // try_start_0 // try_start_1
                         var24 = var6;
                         var12 = copyDataProperties(var24, var23);
                         var6 = var10.bind(var11)(var6);
-                        SaveGenerator(address=567);
-case 25:
+                        SaveGenerator(address=590);
+case 27:
                         return var6;
-case 26:
-                        ResumeGenerator(result_out_reg=5, return_bool_out_reg=9);
-                        if(var10) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
-                        var7 = var6;
-                        if(!(var9 != var6)) { _fun0001_ip = 29; continue _fun0001 }
+                        ResumeGenerator(result_out_reg=5, return_bool_out_reg=9);
+                        if(var10) { _fun0001_ip = 29; continue _fun0001 }
 case 30:
+                        var7 = var6;
+                        if(!(var9 != var6)) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
                         var7 = var7.body;
                         var7 = var7.guild_join_requests;
                         var9 = var7.length;
                         var7 = _closure1_slot6;
-                        if(!(var9 < var7)) { _fun0001_ip = 29; continue _fun0001 }
-case 31:
+                        if(!(var9 < var7)) { _fun0001_ip = 31; continue _fun0001 }
+case 33:
                         var7 = _closure2_slot6;
                         var7['current'] = var8;
-case 29: // try_end0
-                        _fun0001_ip = 32; continue _fun0001;
-case 27: // try_end1
+case 31: // try_end0
+                        _fun0001_ip = 34; continue _fun0001;
+case 29: // try_end1
                         var7 = _closure2_slot2;
                         var7['current'] = var5;
                         return var6;
-case 33: // try_start_2 // catch_target0
+case 35: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=6);
                         var6 = _closure1_slot0;
                         var8 = _closure1_slot2;
@@ -281,11 +290,11 @@ case 33: // try_start_2 // catch_target0
                         var3 = var7.getAnyErrorMessage;
                         var3 = var3.bind(var7)();
                         var3 = var6.bind(var2)(var3);
-case 32: // try_end2
+case 34: // try_end2
                         var3 = _closure2_slot2;
                         var3['current'] = var5;
                         _fun0001_ip = 4; continue _fun0001;
-case 34: // catch_target1 // catch_target2
+case 36: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=2);
                         var4 = _closure2_slot2;
                         var4['current'] = var5;

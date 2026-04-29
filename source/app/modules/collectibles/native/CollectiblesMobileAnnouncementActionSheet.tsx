@@ -423,10 +423,54 @@ case 12:
             var7 = var3.isEarlyAccess;
             var _closure2_slot1 = var7;
             var5 = _closure1_slot3;
+            var6 = var5.useRef;
+            var3 = false;
+            var3 = var6.bind(var5)(var3);
+            var _closure2_slot2 = var3;
+            var3 = var5.useRef;
+            var3 = var3.bind(var5)(var2);
+            var _closure2_slot3 = var3;
+            var8 = var5.useEffect;
+            var6 = new Array(1);
+            var6[0] = var2;
+            var3 = function() {
+                var2 = _closure2_slot3;
+                var1 = _closure2_slot0;
+                var2['current'] = var1;
+                var1 = undefined;
+                return var1;
+            };
+            var3 = var8.bind(var5)(var3, var6);
+            var8 = var5.useEffect;
+            var6 = function() {
+                var1 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var2 = _closure2_slot2;
+                        var2 = var2.current;
+                        if(var2) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+                        var3 = _closure2_slot3;
+                        var2 = var3.current;
+                        var1 = _closure1_slot8;
+                        var1 = var1.AUTO_DISMISS;
+                        var1 = var2.bind(var3)(var1);
+case 13:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                return var1;
+            };
+            var3 = new Array(0);
+            var3 = var8.bind(var5)(var6, var3);
             var8 = var5.useCallback;
             var6 = new Array(1);
             var6[0] = var2;
             var3 = function() {
+                var3 = _closure2_slot2;
+                var2 = true;
+                var3['current'] = var2;
                 var3 = _closure2_slot0;
                 var1 = _closure1_slot8;
                 var2 = var1.PRIMARY;
@@ -458,6 +502,9 @@ case 12:
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
+                var3 = _closure2_slot2;
+                var2 = true;
+                var3['current'] = var2;
                 var3 = _closure2_slot0;
                 var1 = _closure1_slot8;
                 var2 = var1.USER_DISMISS;

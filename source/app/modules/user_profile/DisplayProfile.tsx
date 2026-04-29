@@ -165,7 +165,7 @@ case 29:
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(22);
+        var2 = new Array(23);
         var2[0] = var1;
         var1 = {};
         var6 = 'premiumGuildSince';
@@ -643,10 +643,46 @@ case 61:
         var1['value'] = var6;
         var2[18] = var1;
         var1 = {};
-        var6 = 'getPreviewThemeColors';
+        var6 = 'getPreviewPronouns';
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+                var4 = this;
+                var2 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 6;
+                var1 = var3[var1];
+                var5 = undefined;
+                var3 = var2.bind(var5)(var1);
+                var2 = var3.getProfilePreviewValue;
+                var1 = {};
+                var6 = arg1;
+                var1['pendingValue'] = var6;
+                var6 = var4._userProfile;
+                var6 = var6.pronouns;
+                var1['userValue'] = var6;
+                var6 = var4._guildMemberProfile;
+                var7 = null;
+                var7 = var7 == var6;
+                if(var7) { _fun0014_ip = 61; continue _fun0014 }
+case 60:
+                var5 = var6.pronouns;
+case 61:
+                var1['guildValue'] = var5;
+                var4 = var4.guildId;
+                var1['guildId'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[19] = var1;
+        var1 = {};
+        var6 = 'getPreviewThemeColors';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var4 = arg1;
                 var3 = this;
@@ -654,27 +690,27 @@ case 0:
                 var5 = var6 == var4;
                 var2 = undefined;
                 var1 = undefined;
-                if(var5) { _fun0014_ip = 62; continue _fun0014 }
+                if(var5) { _fun0015_ip = 62; continue _fun0015 }
 case 63:
                 var5 = 0;
                 var1 = var4[var5];
 case 62:
-                if(!(var6 != var1)) { _fun0014_ip = 64; continue _fun0014 }
+                if(!(var6 != var1)) { _fun0015_ip = 64; continue _fun0015 }
 case 46:
                 var1 = var6 == var4;
                 var5 = undefined;
-                if(var1) { _fun0014_ip = 36; continue _fun0014 }
+                if(var1) { _fun0015_ip = 36; continue _fun0015 }
 case 65:
                 var1 = 1;
                 var5 = var4[var1];
 case 36:
                 var1 = var4;
-                if(!(var6 == var5)) { _fun0014_ip = 7; continue _fun0014 }
+                if(!(var6 == var5)) { _fun0015_ip = 7; continue _fun0015 }
 case 64:
-                if(!(var2 === var4)) { _fun0014_ip = 66; continue _fun0014 }
+                if(!(var2 === var4)) { _fun0015_ip = 66; continue _fun0015 }
 case 67:
                 var2 = var3.themeColors;
-                _fun0014_ip = 60; continue _fun0014;
+                _fun0015_ip = 60; continue _fun0015;
 case 66:
                 var3 = var3._userProfile;
                 var2 = var3.themeColors;
@@ -685,18 +721,18 @@ case 7:
             }
         };
         var1['value'] = var6;
-        var2[19] = var1;
+        var2[20] = var1;
         var1 = {};
         var6 = 'getBadges';
         var1['key'] = var6;
         var6 = function value() {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var2 = this;
                 var1 = var2._userProfile;
                 var5 = var1.badges;
                 var4 = null;
-                if(!(var4 == var5)) { _fun0015_ip = 62; continue _fun0015 }
+                if(!(var4 == var5)) { _fun0016_ip = 62; continue _fun0016 }
 case 68:
                 var5 = new Array(0);
 case 62:
@@ -708,11 +744,11 @@ case 62:
                 var5 = var2._guildMemberProfile;
                 var6 = var4 == var5;
                 var2 = undefined;
-                if(var6) { _fun0015_ip = 51; continue _fun0015 }
+                if(var6) { _fun0016_ip = 51; continue _fun0016 }
 case 67:
                 var2 = var5.badges;
 case 51:
-                if(!(var4 == var2)) { _fun0015_ip = 69; continue _fun0015 }
+                if(!(var4 == var2)) { _fun0016_ip = 69; continue _fun0016 }
 case 70:
                 var2 = new Array(0);
 case 69:
@@ -724,7 +760,7 @@ case 69:
             }
         };
         var1['value'] = var6;
-        var2[20] = var1;
+        var2[21] = var1;
         var1 = {};
         var6 = 'getLegacyUsername';
         var1['key'] = var6;
@@ -735,7 +771,7 @@ case 69:
             return var1;
         };
         var1['value'] = var5;
-        var2[21] = var1;
+        var2[22] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

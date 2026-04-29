@@ -368,13 +368,13 @@ case 17:
         if(var9) { _fun0001_ip = 29; continue _fun0001 }
 case 30:
         var6 = var6.DCDIconManager;
-        _fun0001_ip = 17; continue _fun0001;
+        _fun0001_ip = 31; continue _fun0001;
 case 29:
         var9 = 9;
         var9 = var8[var9];
         var9 = var7.bind(var1)(var9);
         var6 = var9.default;
-case 17:
+case 31:
         var _closure1_slot13 = var6;
         var6 = 18;
         var6 = var8[var6];
@@ -429,7 +429,7 @@ case 17:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0005_ip = 31; continue _fun0005 }
+                        if(var2) { _fun0005_ip = 30; continue _fun0005 }
 case 32:
                         var2 = undefined;
                         var _closure4_slot0 = var2;
@@ -532,7 +532,7 @@ case 38: // catch_target0
                         var3 = var4.bind(var5)(var3);
 case 37:
                         return var2;
-case 31:
+case 30:
                         return var1;
                     }
                 };

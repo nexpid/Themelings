@@ -535,11 +535,6 @@ case 0:
             var2 = var3.bind(var4)(var2);
             var14 = var2.bind(var4)(var9);
             var3 = _closure1_slot0;
-            var2 = 34;
-            var2 = var6[var2];
-            var7 = var3.bind(var4)(var2);
-            var2 = var7.useChannelStatus;
-            var2 = var2.bind(var7)(var9);
             var2 = 21;
             var2 = var6[var2];
             var6 = var3.bind(var4)(var2);
@@ -587,18 +582,18 @@ case 38:
 case 37:
             var16 = var11 != var15;
             var14 = 0;
-            if(!var16) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-            var14 = var15;
+            if(!var16) { _fun0004_ip = 14; continue _fun0004 }
 case 39:
+            var14 = var15;
+case 14:
             var1['embeddedActivitiesCount'] = var14;
             var1['collapsed'] = var13;
             var9 = var9.id;
             var9 = var12[var9];
-            if(!(var11 == var9)) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
-            var9 = _closure1_slot10;
+            if(!(var11 == var9)) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
+            var9 = _closure1_slot10;
+case 40:
             var1['voiceStates'] = var9;
             var1['selected'] = var8;
             var1['locked'] = var7;
@@ -609,7 +604,7 @@ case 41:
         }
     };
     var5 = var6.bind(var9)(var5);
-    var6 = 35;
+    var6 = 34;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

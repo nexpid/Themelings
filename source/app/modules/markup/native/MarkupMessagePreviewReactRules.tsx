@@ -1060,7 +1060,7 @@ case 46:
             var7 = var4 != var6;
             var4 = 0;
             if(!var7) { _fun0011_ip = 48; continue _fun0011 }
-case 49:
+case 19:
             var4 = var6;
 case 48:
             var4 = var4 * var5;

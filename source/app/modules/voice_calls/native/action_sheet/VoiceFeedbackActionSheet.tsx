@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot11 = var4;
-    var4 = 11;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -298,11 +298,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var2 = arg1;
-                var10 = var2.rating;
-                var9 = var2.category;
-                var8 = var2.reason;
+                var8 = var2.rating;
+                var6 = var2.category;
+                var5 = var2.reason;
                 var1 = var2.dontShowAgain;
-                var7 = var2.feedback;
+                var11 = var2.feedback;
                 if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                 var3 = _closure1_slot0;
@@ -320,63 +320,98 @@ case 3:
                 var1['location'] = var4;
                 var1 = var2.bind(var3)(var1);
 case 2:
-                var6 = null;
-                if(!(var6 != var10)) { _fun0001_ip = 4; continue _fun0001 }
+                var2 = null;
+                if(!(var2 != var8)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
                 var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var2 = 9;
-                var2 = var3[var2];
-                var3 = undefined;
-                var5 = var4.bind(var3)(var2);
-                var2 = _closure1_slot3;
-                var4 = var2.CALL_REPORT_PROBLEM;
-                var2 = {};
-                var2['rating'] = var10;
-                var2['category'] = var9;
-                var9 = var6 == var8;
-                var10 = undefined;
-                if(var9) { _fun0001_ip = 6; continue _fun0001 }
+                var7 = _closure1_slot2;
+                var1 = 9;
+                var1 = var7[var1];
+                var7 = undefined;
+                var10 = var4.bind(var7)(var1);
+                var1 = _closure1_slot3;
+                var9 = var1.CALL_REPORT_PROBLEM;
+                var4 = {};
+                var4['rating'] = var8;
+                var4['category'] = var6;
+                var1 = var2 == var5;
+                var12 = undefined;
+                if(var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                var10 = var8.value;
+                var12 = var5.value;
 case 6:
-                var11 = var6 != var10;
-                var9 = null;
-                if(!var11) { _fun0001_ip = 8; continue _fun0001 }
+                var13 = var2 != var12;
+                var1 = null;
+                if(!var13) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                var9 = var10;
+                var1 = var12;
 case 8:
-                var2['reasonDescription'] = var9;
-                var10 = var6 == var8;
-                var9 = undefined;
-                if(var10) { _fun0001_ip = 10; continue _fun0001 }
+                var4['reasonDescription'] = var1;
+                var1 = var2 == var5;
+                var12 = undefined;
+                if(var1) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-                var9 = var8.variant;
+                var12 = var5.variant;
 case 10:
-                var10 = var6 != var9;
-                var8 = null;
-                if(!var10) { _fun0001_ip = 12; continue _fun0001 }
+                var13 = var2 != var12;
+                var1 = null;
+                if(!var13) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-                var8 = var9;
+                var1 = var12;
 case 12:
-                var2['variant'] = var8;
-                var8 = var6 != var7;
-                var6 = '';
-                if(!var8) { _fun0001_ip = 14; continue _fun0001 }
+                var4['variant'] = var1;
+                var12 = var2 != var11;
+                var1 = '';
+                if(!var12) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-                var6 = var7;
+                var1 = var11;
 case 14:
-                var2['feedback'] = var6;
-                var6 = _closure2_slot0;
-                var2['analyticsData'] = var6;
-                var2 = var5.bind(var3)(var4, var2);
-                var2 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var1 = 10;
-                var1 = var4[var1];
-                var2 = var2.bind(var3)(var1);
-                var1 = var2.presentFeedbackSent;
-                var1 = var1.bind(var2)();
+                var4['feedback'] = var1;
+                var11 = _closure2_slot0;
+                var4['analyticsData'] = var11;
+                var4 = var10.bind(var7)(var9, var4);
+                if(!(var2 != var5)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+                var4 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var2 = 10;
+                var2 = var9[var2];
+                var4 = var4.bind(var7)(var2);
+                var2 = var4.shouldShowLogUploadForCategory;
+                var2 = var2.bind(var4)(var8, var6, var5);
+                if(var2) { _fun0001_ip = 18; continue _fun0001 }
+case 16:
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var2 = 14;
+                var2 = var5[var2];
+                var4 = var4.bind(var7)(var2);
+                var2 = var4.presentFeedbackSent;
+                var2 = var2.bind(var4)();
+                _fun0001_ip = 4; continue _fun0001;
+case 18:
+                var5 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var4 = 11;
+                var4 = var2[var4];
+                var5 = var5.bind(var7)(var4);
+                var4 = var5.openLazy;
+                var6 = _closure1_slot0;
+                var3 = 13;
+                var3 = var2[var3];
+                var6 = var6.bind(var7)(var3);
+                var3 = 12;
+                var3 = var2[var3];
+                var2 = var2.paths;
+                var3 = var6.bind(var7)(var3, var2);
+                var2 = {};
+                var1 = _closure2_slot0;
+                var6 = var1.media_session_id;
+                var2['mediaSessionId'] = var6;
+                var1 = var1.rtc_connection_id;
+                var2['rtcConnectionId'] = var1;
+                var1 = 'UploadLogs';
+                var1 = var4.bind(var5)(var3, var1, var2);
 case 4:
                 var1 = undefined;
                 return var1;

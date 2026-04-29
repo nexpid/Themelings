@@ -3521,6 +3521,8 @@ case 182:
             var4['userIgnored'] = var5;
             var5 = var1.origin_application_id;
             var4['originApplicationId'] = var5;
+            var5 = var1.note;
+            var4['note'] = var5;
             var2['relationship'] = var4;
             var4 = var1.should_notify;
             var1 = true;
@@ -3583,8 +3585,10 @@ case 183:
             var5 = false;
 case 182:
             var1['userIgnored'] = var5;
-            var4 = var4.origin_application_id;
-            var1['originApplicationId'] = var4;
+            var5 = var4.origin_application_id;
+            var1['originApplicationId'] = var5;
+            var4 = var4.note;
+            var1['note'] = var4;
             var2['relationship'] = var1;
             var1 = undefined;
             var2 = var3.bind(var1)(var2);

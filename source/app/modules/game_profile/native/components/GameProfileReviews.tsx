@@ -17,8 +17,9 @@ case 0:
             var8 = var2.trackAction;
             var _closure2_slot1 = var8;
             var22 = var2.title;
-            var7 = var2.rating;
+            var14 = var2.rating;
             var19 = var2.ratingCount;
+            var7 = var2.isRecentRating;
             var2 = _closure1_slot9;
             var4 = undefined;
             var9 = var2.bind(var4)();
@@ -38,7 +39,7 @@ case 0:
             var2 = var5[var2];
             var3 = var10.bind(var4)(var2);
             var2 = var3.calculateSteamReviewScoreDescription;
-            var14 = var2.bind(var3)(var7, var19);
+            var14 = var2.bind(var3)(var14, var19, var7);
             var17 = 8;
             var2 = var5[var17];
             var3 = var10.bind(var4)(var2);
@@ -706,10 +707,10 @@ case 40:
 case 39:
             var3 = var18.reviews;
             var5 = var1 == var3;
-            var27 = undefined;
+            var28 = undefined;
             if(var5) { _fun0003_ip = 41; continue _fun0003 }
 case 42:
-            var27 = var3.steam;
+            var28 = var3.steam;
 case 41:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -717,19 +718,20 @@ case 41:
             var3 = var7[var3];
             var8 = var5.bind(var6)(var3);
             var7 = var8.calculateSteamReviewScoreDescription;
-            var3 = var1 == var27;
+            var3 = var1 == var28;
             var5 = undefined;
             if(var3) { _fun0003_ip = 19; continue _fun0003 }
 case 43:
-            var5 = var27.recentRating;
+            var5 = var28.recentRating;
 case 19:
-            var9 = var1 == var27;
+            var9 = var1 == var28;
             var3 = undefined;
             if(var9) { _fun0003_ip = 44; continue _fun0003 }
 case 45:
-            var3 = var27.recentRatingCount;
+            var3 = var28.recentRatingCount;
 case 44:
-            var5 = var7.bind(var8)(var5, var3);
+            var24 = true;
+            var5 = var7.bind(var8)(var5, var3, var24);
             var11 = var15;
             if(!var15) { _fun0003_ip = 46; continue _fun0003 }
 case 47:
@@ -755,39 +757,39 @@ case 51:
             var3 = var7[var3];
             var5 = var5.bind(var6)(var3);
             var3 = var5.canShowLocalizedSteamReview;
-            var2 = var3.bind(var5)(var27);
+            var2 = var3.bind(var5)(var28);
 case 50:
-            var5 = var1 == var27;
+            var5 = var1 == var28;
             if(var2) { _fun0003_ip = 52; continue _fun0003 }
 case 53:
             var22 = undefined;
             if(var5) { _fun0003_ip = 54; continue _fun0003 }
 case 55:
-            var22 = var27.rating;
+            var22 = var28.rating;
 case 54:
             _fun0003_ip = 56; continue _fun0003;
 case 52:
             var3 = undefined;
             if(var5) { _fun0003_ip = 57; continue _fun0003 }
 case 58:
-            var3 = var27.localizedRating;
+            var3 = var28.localizedRating;
 case 57:
             var22 = var3;
 case 56:
-            var5 = var1 == var27;
+            var5 = var1 == var28;
             if(var2) { _fun0003_ip = 59; continue _fun0003 }
 case 60:
             var21 = undefined;
             if(var5) { _fun0003_ip = 61; continue _fun0003 }
 case 62:
-            var21 = var27.ratingCount;
+            var21 = var28.ratingCount;
 case 61:
             _fun0003_ip = 63; continue _fun0003;
 case 59:
             var3 = undefined;
             if(var5) { _fun0003_ip = 64; continue _fun0003 }
 case 65:
-            var3 = var27.localizedRatingCount;
+            var3 = var28.localizedRatingCount;
 case 64:
             var21 = var3;
 case 63:
@@ -836,21 +838,21 @@ case 76:
             var7 = var12.container;
             var3['style'] = var7;
             var9 = _closure1_slot7;
-            var24 = _closure1_slot0;
+            var27 = _closure1_slot0;
             var10 = _closure1_slot2;
             var7 = 12;
             var7 = var10[var7];
-            var7 = var24.bind(var6)(var7);
+            var7 = var27.bind(var6)(var7);
             var8 = var7.Text;
             var7 = {'variant': 'heading-sm/semibold', 'color': 'mobile-text-heading-primary'};
             var19 = var12.headerText;
             var7['style'] = var19;
             var19 = var10[var26];
-            var19 = var24.bind(var6)(var19);
+            var19 = var27.bind(var6)(var19);
             var20 = var19.intl;
             var19 = var20.string;
             var10 = var10[var26];
-            var10 = var24.bind(var6)(var10);
+            var10 = var27.bind(var6)(var10);
             var10 = var10.t;
             var10 = var10.GaAQXP;
             var10 = var19.bind(var20)(var10);
@@ -874,39 +876,40 @@ case 82:
             var19 = _closure1_slot10;
             var11 = {};
             var11['url'] = var23;
-            var24 = var15;
-            if(var24) { _fun0003_ip = 83; continue _fun0003 }
+            var27 = var15;
+            if(var27) { _fun0003_ip = 83; continue _fun0003 }
 case 84:
-            var24 = var14;
+            var27 = var14;
 case 83:
-            var11['showBorderBottom'] = var24;
+            var11['showBorderBottom'] = var27;
             var11['trackAction'] = var16;
-            var30 = _closure1_slot0;
-            var24 = _closure1_slot2;
-            var28 = var24[var26];
-            var28 = var30.bind(var6)(var28);
-            var29 = var28.intl;
-            var28 = var29.string;
-            var24 = var24[var26];
-            var24 = var30.bind(var6)(var24);
-            var24 = var24.t;
-            var24 = var24.MQGNsN;
-            var24 = var28.bind(var29)(var24);
-            var11['title'] = var24;
-            var28 = var1 == var27;
-            var24 = undefined;
-            if(var28) { _fun0003_ip = 85; continue _fun0003 }
+            var31 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var29 = var27[var26];
+            var29 = var31.bind(var6)(var29);
+            var30 = var29.intl;
+            var29 = var30.string;
+            var27 = var27[var26];
+            var27 = var31.bind(var6)(var27);
+            var27 = var27.t;
+            var27 = var27.MQGNsN;
+            var27 = var29.bind(var30)(var27);
+            var11['title'] = var27;
+            var29 = var1 == var28;
+            var27 = undefined;
+            if(var29) { _fun0003_ip = 85; continue _fun0003 }
 case 86:
-            var24 = var27.recentRating;
+            var27 = var28.recentRating;
 case 85:
-            var11['rating'] = var24;
-            var28 = var1 == var27;
-            var24 = undefined;
-            if(var28) { _fun0003_ip = 87; continue _fun0003 }
+            var11['rating'] = var27;
+            var29 = var1 == var28;
+            var27 = undefined;
+            if(var29) { _fun0003_ip = 87; continue _fun0003 }
 case 88:
-            var24 = var27.recentRatingCount;
+            var27 = var28.recentRatingCount;
 case 87:
-            var11['ratingCount'] = var24;
+            var11['ratingCount'] = var27;
+            var11['isRecentRating'] = var24;
             var12 = var20.bind(var6)(var19, var11);
 case 80:
             var11 = new Array(3);
@@ -934,6 +937,8 @@ case 91:
             var15['title'] = var23;
             var15['rating'] = var22;
             var15['ratingCount'] = var21;
+            var21 = false;
+            var15['isRecentRating'] = var21;
             var12 = var20.bind(var6)(var19, var15);
 case 89:
             var11[1] = var12;

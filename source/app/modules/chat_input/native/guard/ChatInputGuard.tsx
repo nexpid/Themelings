@@ -90,7 +90,7 @@ case 4:
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
             var8 = var8.colors;
-            var8 = var8.PANEL_BG;
+            var8 = var8.BACKGROUND_BASE_LOW;
             var2['backgroundColor'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);

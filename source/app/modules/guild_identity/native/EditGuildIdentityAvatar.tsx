@@ -98,56 +98,55 @@ case 0:
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                     var5 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var2 = 12;
-                    var2 = var3[var2];
+                    var6 = _closure1_slot2;
+                    var2 = 9;
+                    var2 = var6[var2];
                     var3 = undefined;
+                    var7 = var5.bind(var3)(var2);
+                    var2 = var7.hideActionSheet;
+                    var2 = var2.bind(var7)();
+                    var2 = 12;
+                    var2 = var6[var2];
                     var6 = var5.bind(var3)(var2);
                     var5 = var6.openImagePicker;
                     var2 = {};
                     var7 = _closure1_slot8;
                     var2['size'] = var7;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=60);
+                    SaveGenerator(address=82);
 case 4:
                     return var2;
 case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(var5) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var11 = var2.base64;
+                    var10 = var2.base64;
                     var5 = null;
-                    if(!(var5 != var11)) { _fun0001_ip = 8; continue _fun0001 }
+                    if(!(var5 != var10)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                    var7 = _closure1_slot0;
+                    var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var10 = 13;
-                    var5 = var6[var10];
-                    var9 = var7.bind(var3)(var5);
-                    var8 = var9.createPendingImage;
-                    var5 = {};
-                    var5['imageUri'] = var11;
-                    var10 = var6[var10];
-                    var11 = var7.bind(var3)(var10);
-                    var10 = var11.generateAvatarDescription;
-                    var10 = var10.bind(var11)();
-                    var5['description'] = var10;
-                    var9 = var8.bind(var9)(var5);
-                    var5 = 14;
-                    var5 = var6[var5];
-                    var8 = var7.bind(var3)(var5);
-                    var7 = var8.setPendingChanges;
-                    var5 = {};
-                    var10 = _closure2_slot0;
-                    var5['guildId'] = var10;
-                    var5['avatar'] = var9;
-                    var5 = var7.bind(var8)(var5);
-                    var5 = _closure1_slot1;
-                    var4 = 9;
+                    var9 = 13;
+                    var4 = var6[var9];
+                    var8 = var5.bind(var3)(var4);
+                    var7 = var8.createPendingImage;
+                    var4 = {};
+                    var4['imageUri'] = var10;
+                    var9 = var6[var9];
+                    var10 = var5.bind(var3)(var9);
+                    var9 = var10.generateAvatarDescription;
+                    var9 = var9.bind(var10)();
+                    var4['description'] = var9;
+                    var7 = var7.bind(var8)(var4);
+                    var4 = 14;
                     var4 = var6[var4];
-                    var5 = var5.bind(var3)(var4);
-                    var4 = var5.hideActionSheet;
-                    var4 = var4.bind(var5)();
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.setPendingChanges;
+                    var4 = {};
+                    var8 = _closure2_slot0;
+                    var4['guildId'] = var8;
+                    var4['avatar'] = var7;
+                    var4 = var5.bind(var6)(var4);
 case 8:
                     return var3;
 case 6:

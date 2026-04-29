@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -91,10 +91,14 @@ case 4:
     var _closure1_slot10 = var4;
     var4 = 8;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot11 = var4;
+    var4 = 9;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
-    var _closure1_slot11 = var4;
-    var4 = 15;
+    var _closure1_slot12 = var4;
+    var4 = 19;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -116,7 +120,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot13;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -135,10 +139,19 @@ case 8:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var3 = null;
+                var1['_experimentUnsubscribe'] = var3;
                 var1['token'] = var3;
                 var4 = false;
                 var1['hasRegisterEventListener'] = var4;
+                var1['hasTrackedDisabledAndroidNotifChannels'] = var4;
                 var1['postConnectionOpenTimeoutID'] = var3;
+                var3 = function() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.registerNotificationCategories;
+                    var1 = var1.bind(var2)();
+                    return var1;
+                };
+                var1['_handleExperimentsUpdated'] = var3;
                 var3 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -170,7 +183,7 @@ case 12:
                         var9 = var10.registerNotificationReplyCategories;
                         var12 = _closure1_slot0;
                         var13 = _closure1_slot2;
-                        var5 = 9;
+                        var5 = 10;
                         var6 = var13[var5];
                         var4 = undefined;
                         var6 = var12.bind(var4)(var6);
@@ -216,7 +229,7 @@ case 14:
 case 13:
                         var3 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var2 = 10;
+                        var2 = 11;
                         var2 = var5[var2];
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.registerDevice;
@@ -279,7 +292,7 @@ case 0:
                         var2 = var2.canSync;
                         if(!var2) { _fun0006_ip = 17; continue _fun0006 }
 case 18:
-                        var3 = _closure1_slot9;
+                        var3 = _closure1_slot10;
                         var3 = var3.canUseMultiAccountNotifications;
                         var2 = !var3;
 case 17:
@@ -301,7 +314,7 @@ case 0:
                         var2 = var2.canSync;
                         if(!var2) { _fun0007_ip = 21; continue _fun0007 }
 case 18:
-                        var3 = _closure1_slot9;
+                        var3 = _closure1_slot10;
                         var2 = var3.canUseMultiAccountNotifications;
 case 21:
                         if(!var2) { _fun0007_ip = 22; continue _fun0007 }
@@ -331,17 +344,32 @@ case 22:
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = this;
-                var3 = var2.token;
+                var _closure3_slot0 = var2;
+                var4 = var2.token;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0008_ip = 17; continue _fun0008 }
-case 23:
-                var3 = var2.handleToken;
+                if(!(var1 != var4)) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
+                var4 = var2.handleToken;
                 var1 = var2.token;
-                var1 = var3.bind(var2)(var1);
-case 17:
+                var1 = var4.bind(var2)(var1);
+case 23:
+                var6 = _closure1_slot9;
+                var5 = var6.addChangeListener;
+                var4 = var2._handleExperimentsUpdated;
+                var4 = var5.bind(var6)(var4);
+                var3 = function() {
+                    var3 = _closure1_slot9;
+                    var2 = var3.removeChangeListener;
+                    var1 = _closure3_slot0;
+                    var1 = var1._handleExperimentsUpdated;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
+                };
+                var2['_experimentUnsubscribe'] = var3;
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 11;
+                var3 = 12;
                 var6 = var5[var3];
                 var1 = undefined;
                 var9 = var4.bind(var1)(var6);
@@ -376,47 +404,58 @@ case 17:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(7);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
         var7 = '_terminate';
         var5['key'] = var7;
         var7 = function value() {
-            var2 = this;
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var3 = 11;
-            var6 = var5[var3];
-            var1 = undefined;
-            var9 = var4.bind(var1)(var6);
-            var8 = var9.unsubscribe;
-            var7 = var2.handleSyncNoMultiAccountOnLoginSuccess;
-            var6 = 'LOGIN_SUCCESS';
-            var6 = var8.bind(var9)(var6, var7);
-            var6 = var5[var3];
-            var9 = var4.bind(var1)(var6);
-            var8 = var9.unsubscribe;
-            var7 = var2.handleSyncNoMultiAccountOnRegisterSuccess;
-            var6 = 'REGISTER_SUCCESS';
-            var6 = var8.bind(var9)(var6, var7);
-            var6 = var5[var3];
-            var8 = var4.bind(var1)(var6);
-            var7 = var8.unsubscribe;
-            var6 = var2.handleSyncNoMultiAccountOnPostConnectionOpen;
-            var9 = 'POST_CONNECTION_OPEN';
-            var6 = var7.bind(var8)(var9, var6);
-            var6 = var5[var3];
-            var8 = var4.bind(var1)(var6);
-            var7 = var8.unsubscribe;
-            var6 = var2.handleSyncWithMultiAccount;
-            var6 = var7.bind(var8)(var9, var6);
-            var3 = var5[var3];
-            var5 = var4.bind(var1)(var3);
-            var4 = var5.unsubscribe;
-            var3 = var2.handleSyncWithMultiAccount;
-            var2 = 'MULTI_ACCOUNT_REMOVE_ACCOUNT';
-            var2 = var4.bind(var5)(var2, var3);
-            return var1;
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                var3 = this;
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var2 = 12;
+                var6 = var5[var2];
+                var1 = undefined;
+                var9 = var4.bind(var1)(var6);
+                var8 = var9.unsubscribe;
+                var7 = var3.handleSyncNoMultiAccountOnLoginSuccess;
+                var6 = 'LOGIN_SUCCESS';
+                var6 = var8.bind(var9)(var6, var7);
+                var6 = var5[var2];
+                var9 = var4.bind(var1)(var6);
+                var8 = var9.unsubscribe;
+                var7 = var3.handleSyncNoMultiAccountOnRegisterSuccess;
+                var6 = 'REGISTER_SUCCESS';
+                var6 = var8.bind(var9)(var6, var7);
+                var6 = var5[var2];
+                var8 = var4.bind(var1)(var6);
+                var7 = var8.unsubscribe;
+                var6 = var3.handleSyncNoMultiAccountOnPostConnectionOpen;
+                var9 = 'POST_CONNECTION_OPEN';
+                var6 = var7.bind(var8)(var9, var6);
+                var6 = var5[var2];
+                var8 = var4.bind(var1)(var6);
+                var7 = var8.unsubscribe;
+                var6 = var3.handleSyncWithMultiAccount;
+                var6 = var7.bind(var8)(var9, var6);
+                var2 = var5[var2];
+                var6 = var4.bind(var1)(var2);
+                var5 = var6.unsubscribe;
+                var4 = var3.handleSyncWithMultiAccount;
+                var2 = 'MULTI_ACCOUNT_REMOVE_ACCOUNT';
+                var2 = var5.bind(var6)(var2, var4);
+                var4 = var3._experimentUnsubscribe;
+                var2 = null;
+                if(!(var2 != var4)) { _fun0009_ip = 25; continue _fun0009 }
+case 26:
+                var4 = var3._experimentUnsubscribe;
+                var4 = var4.bind(var3)();
+                var3['_experimentUnsubscribe'] = var2;
+case 25:
+                return var1;
+            }
         };
         var5['value'] = var7;
         var1[1] = var5;
@@ -424,17 +463,17 @@ case 17:
         var7 = 'registerListener';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.hasRegisterEventListener;
-                if(var1) { _fun0009_ip = 24; continue _fun0009 }
-case 25:
+                if(var1) { _fun0010_ip = 27; continue _fun0010 }
+case 28:
                 var1 = true;
                 var2['hasRegisterEventListener'] = var1;
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
@@ -442,7 +481,7 @@ case 25:
                 var2 = var2.handleToken;
                 var2 = var3.bind(var4)(var2);
                 return var1;
-case 24:
+case 27:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -460,412 +499,496 @@ case 24:
         var7 = 'registerNotificationCategories';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                var2 = this;
-                var3 = _closure1_slot8;
-                var4 = var3.DCDNotificationCategoryUtils;
-                var6 = var4.registerNotificationCategories;
-                var3 = var3.DCDNotificationCategoryUtils;
-                var5 = var3.registerNotificationCategoriesAndGroups;
-                var3 = null;
-                if(!(var3 == var5)) { _fun0010_ip = 26; continue _fun0010 }
-case 27:
-                if(!(var3 != var6)) { _fun0010_ip = 28; continue _fun0010 }
-case 29:
-                var4 = {};
-                var10 = _closure1_slot0;
-                var11 = _closure1_slot2;
-                var7 = 9;
-                var8 = var11[var7];
-                var3 = undefined;
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.JJogjm;
-                var8 = var9.bind(var12)(var8);
-                var4['calls'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.K3lovD;
-                var8 = var9.bind(var12)(var8);
-                var4['mediaConnections'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.OIgYlQ;
-                var8 = var9.bind(var12)(var8);
-                var4['messages'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.YUU0RF;
-                var8 = var9.bind(var12)(var8);
-                var4['directMessages'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.TdEu5X;
-                var8 = var9.bind(var12)(var8);
-                var4['social'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.A/4saf;
-                var8 = var9.bind(var12)(var8);
-                var4['gameDetection'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.qGRagm;
-                var8 = var9.bind(var12)(var8);
-                var4['stageLive'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.MfGr0a;
-                var8 = var9.bind(var12)(var8);
-                var4['guildEventLive'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.p5jg9S;
-                var8 = var9.bind(var12)(var8);
-                var4['guildHighlights'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.dl57ho;
-                var8 = var9.bind(var12)(var8);
-                var4['forumThreadCreated'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var12 = var8.intl;
-                var9 = var12.string;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var8 = var8.t;
-                var8 = var8.BcZTKu;
-                var8 = var9.bind(var12)(var8);
-                var4['other'] = var8;
-                var8 = var11[var7];
-                var8 = var10.bind(var3)(var8);
-                var9 = var8.intl;
-                var8 = var9.string;
-                var7 = var11[var7];
-                var7 = var10.bind(var3)(var7);
-                var7 = var7.t;
-                var7 = var7.bcv3rp;
-                var7 = var8.bind(var9)(var7);
-                var4['otherHighPriority'] = var7;
-                var3 = var6.bind(var3)(var4);
-                _fun0010_ip = 28; continue _fun0010;
-case 26:
-                var4 = {};
-                var9 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var6 = 9;
-                var1 = var10[var6];
-                var3 = undefined;
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.IUH/Oe;
-                var1 = var7.bind(var8)(var1);
-                var4['calls'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.VeBD1N;
-                var1 = var7.bind(var8)(var1);
-                var4['mediaConnections'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.OIgYlQ;
-                var1 = var7.bind(var8)(var1);
-                var4['messages'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.NGdNZb;
-                var1 = var7.bind(var8)(var1);
-                var4['directMessages'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.NxgGZA;
-                var1 = var7.bind(var8)(var1);
-                var4['friendRequests'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.MOjygY;
-                var1 = var7.bind(var8)(var1);
-                var4['polls'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.jGVzY5;
-                var1 = var7.bind(var8)(var1);
-                var4['social'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1["4n388K"];
-                var1 = var7.bind(var8)(var1);
-                var4['stageLive'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1["40TIqW"];
-                var1 = var7.bind(var8)(var1);
-                var4['guildEventLive'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.p5jg9S;
-                var1 = var7.bind(var8)(var1);
-                var4['guildHighlights'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.HibKoy;
-                var1 = var7.bind(var8)(var1);
-                var4['forumThreadCreated'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.zJlwvV;
-                var1 = var7.bind(var8)(var1);
-                var4['systemMessages'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.kIrLfg;
-                var1 = var7.bind(var8)(var1);
-                var4['other'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.BcZTKu;
-                var1 = var7.bind(var8)(var1);
-                var4['default'] = var1;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var8 = var1.intl;
-                var7 = var8.string;
-                var1 = var10[var6];
-                var1 = var9.bind(var3)(var1);
-                var1 = var1.t;
-                var1 = var1.gHp0C4;
-                var1 = var7.bind(var8)(var1);
-                var4['reactions'] = var1;
-                var1 = {};
-                var7 = var10[var6];
-                var7 = var9.bind(var3)(var7);
-                var11 = var7.intl;
-                var8 = var11.string;
-                var7 = var10[var6];
-                var7 = var9.bind(var3)(var7);
-                var7 = var7.t;
-                var7 = var7.S5cB9e;
-                var7 = var8.bind(var11)(var7);
-                var1['realtime'] = var7;
-                var7 = var10[var6];
-                var7 = var9.bind(var3)(var7);
-                var11 = var7.intl;
-                var8 = var11.string;
-                var7 = var10[var6];
-                var7 = var9.bind(var3)(var7);
-                var7 = var7.t;
-                var7 = var7.jGVzY5;
-                var7 = var8.bind(var11)(var7);
-                var1['social'] = var7;
-                var7 = var10[var6];
-                var7 = var9.bind(var3)(var7);
-                var11 = var7.intl;
-                var8 = var11.string;
-                var7 = var10[var6];
-                var7 = var9.bind(var3)(var7);
-                var7 = var7.t;
-                var7 = var7["5qyruI"];
-                var7 = var8.bind(var11)(var7);
-                var1['server'] = var7;
-                var7 = var10[var6];
-                var7 = var9.bind(var3)(var7);
-                var8 = var7.intl;
-                var7 = var8.string;
-                var6 = var10[var6];
-                var6 = var9.bind(var3)(var6);
-                var6 = var6.t;
-                var6 = var6.BcZTKu;
-                var6 = var7.bind(var8)(var6);
-                var1['other'] = var6;
-                var1 = var5.bind(var3)(var4, var1);
-case 28:
-                var1 = var2.trackDisabledAndroidNotifChannels;
-                var1 = var1.bind(var2)();
+                var3 = this;
                 var1 = undefined;
+                var4 = undefined;
+                var5 = undefined;
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var6 = 14;
+                var6 = var8[var6];
+                var6 = var7.bind(var1)(var6);
+                var8 = var6.declarativeNotifSettingsExperiment;
+                var7 = var8.getConfig;
+                var6 = {};
+                var9 = 'registerNotificationCategories';
+                var6['location'] = var9;
+                var4 = var7.bind(var8)(var6);
+                var5 = false;
+case 29: // try_start_0
+                var6 = var4;
+                var6 = var6.enabled;
+                if(!var6) { _fun0011_ip = 30; continue _fun0011 }
+case 3:
+                var7 = _closure1_slot1;
+                var8 = _closure1_slot2;
+                var6 = 15;
+                var6 = var8[var6];
+                var7 = var7.bind(var1)(var6);
+                var6 = var7.registerDeclarativeNotificationCategories;
+                var5 = var6.bind(var7)();
+case 30: // try_end0
+                _fun0011_ip = 31; continue _fun0011;
+case 32: // catch_target0
+                CatchBlockStart(arg_register=7);
+                var7 = _closure1_slot1;
+                var9 = _closure1_slot2;
+                var6 = 16;
+                var6 = var9[var6];
+                var7 = var7.bind(var1)(var6);
+                var6 = var7.captureException;
+                var6 = var6.bind(var7)(var8);
+case 31:
+                if(var5) { _fun0011_ip = 33; continue _fun0011 }
+case 34: // try_start_1
+                var4 = var4.clearDeclarative;
+                if(!var4) { _fun0011_ip = 35; continue _fun0011 }
+case 36:
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var4 = 15;
+                var4 = var6[var4];
+                var5 = var5.bind(var1)(var4);
+                var4 = var5.clear;
+                var4 = var4.bind(var5)();
+case 35: // try_end1
+                _fun0011_ip = 37; continue _fun0011;
+case 38: // catch_target1
+                CatchBlockStart(arg_register=4);
+                var4 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var2 = 16;
+                var2 = var6[var2];
+                var4 = var4.bind(var1)(var2);
+                var2 = var4.captureException;
+                var2 = var2.bind(var4)(var5);
+case 37:
+                var2 = var3.registerLegacyNotificationCategories;
+                var2 = var2.bind(var3)();
+case 33:
+                var2 = var3.trackDisabledAndroidNotifChannels;
+                var2 = var2.bind(var3)();
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[3] = var5;
         var5 = {};
+        var7 = 'registerLegacyNotificationCategories';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+                var2 = _closure1_slot8;
+                var3 = var2.DCDNotificationCategoryUtils;
+                var5 = var3.registerNotificationCategories;
+                var2 = var2.DCDNotificationCategoryUtils;
+                var4 = var2.registerNotificationCategoriesAndGroups;
+                var2 = null;
+                if(!(var2 == var4)) { _fun0012_ip = 39; continue _fun0012 }
+case 40:
+                if(!(var2 != var5)) { _fun0012_ip = 41; continue _fun0012 }
+case 19:
+                var3 = {};
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var6 = 10;
+                var7 = var10[var6];
+                var2 = undefined;
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.JJogjm;
+                var7 = var8.bind(var11)(var7);
+                var3['calls'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.K3lovD;
+                var7 = var8.bind(var11)(var7);
+                var3['mediaConnections'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.OIgYlQ;
+                var7 = var8.bind(var11)(var7);
+                var3['messages'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.YUU0RF;
+                var7 = var8.bind(var11)(var7);
+                var3['directMessages'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.TdEu5X;
+                var7 = var8.bind(var11)(var7);
+                var3['social'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.A/4saf;
+                var7 = var8.bind(var11)(var7);
+                var3['gameDetection'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.qGRagm;
+                var7 = var8.bind(var11)(var7);
+                var3['stageLive'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.MfGr0a;
+                var7 = var8.bind(var11)(var7);
+                var3['guildEventLive'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.p5jg9S;
+                var7 = var8.bind(var11)(var7);
+                var3['guildHighlights'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.dl57ho;
+                var7 = var8.bind(var11)(var7);
+                var3['forumThreadCreated'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var11 = var7.intl;
+                var8 = var11.string;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.BcZTKu;
+                var7 = var8.bind(var11)(var7);
+                var3['other'] = var7;
+                var7 = var10[var6];
+                var7 = var9.bind(var2)(var7);
+                var8 = var7.intl;
+                var7 = var8.string;
+                var6 = var10[var6];
+                var6 = var9.bind(var2)(var6);
+                var6 = var6.t;
+                var6 = var6.bcv3rp;
+                var6 = var7.bind(var8)(var6);
+                var3['otherHighPriority'] = var6;
+                var2 = var5.bind(var2)(var3);
+                _fun0012_ip = 41; continue _fun0012;
+case 39:
+                var3 = {};
+                var8 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var5 = 10;
+                var1 = var9[var5];
+                var2 = undefined;
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.IUH/Oe;
+                var1 = var6.bind(var7)(var1);
+                var3['calls'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.VeBD1N;
+                var1 = var6.bind(var7)(var1);
+                var3['mediaConnections'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.OIgYlQ;
+                var1 = var6.bind(var7)(var1);
+                var3['messages'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.NGdNZb;
+                var1 = var6.bind(var7)(var1);
+                var3['directMessages'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.NxgGZA;
+                var1 = var6.bind(var7)(var1);
+                var3['friendRequests'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.MOjygY;
+                var1 = var6.bind(var7)(var1);
+                var3['polls'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.jGVzY5;
+                var1 = var6.bind(var7)(var1);
+                var3['social'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1["4n388K"];
+                var1 = var6.bind(var7)(var1);
+                var3['stageLive'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1["40TIqW"];
+                var1 = var6.bind(var7)(var1);
+                var3['guildEventLive'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.p5jg9S;
+                var1 = var6.bind(var7)(var1);
+                var3['guildHighlights'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.HibKoy;
+                var1 = var6.bind(var7)(var1);
+                var3['forumThreadCreated'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.zJlwvV;
+                var1 = var6.bind(var7)(var1);
+                var3['systemMessages'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.kIrLfg;
+                var1 = var6.bind(var7)(var1);
+                var3['other'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.BcZTKu;
+                var1 = var6.bind(var7)(var1);
+                var3['default'] = var1;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var7 = var1.intl;
+                var6 = var7.string;
+                var1 = var9[var5];
+                var1 = var8.bind(var2)(var1);
+                var1 = var1.t;
+                var1 = var1.gHp0C4;
+                var1 = var6.bind(var7)(var1);
+                var3['reactions'] = var1;
+                var1 = {};
+                var6 = var9[var5];
+                var6 = var8.bind(var2)(var6);
+                var10 = var6.intl;
+                var7 = var10.string;
+                var6 = var9[var5];
+                var6 = var8.bind(var2)(var6);
+                var6 = var6.t;
+                var6 = var6.S5cB9e;
+                var6 = var7.bind(var10)(var6);
+                var1['realtime'] = var6;
+                var6 = var9[var5];
+                var6 = var8.bind(var2)(var6);
+                var10 = var6.intl;
+                var7 = var10.string;
+                var6 = var9[var5];
+                var6 = var8.bind(var2)(var6);
+                var6 = var6.t;
+                var6 = var6.jGVzY5;
+                var6 = var7.bind(var10)(var6);
+                var1['social'] = var6;
+                var6 = var9[var5];
+                var6 = var8.bind(var2)(var6);
+                var10 = var6.intl;
+                var7 = var10.string;
+                var6 = var9[var5];
+                var6 = var8.bind(var2)(var6);
+                var6 = var6.t;
+                var6 = var6["5qyruI"];
+                var6 = var7.bind(var10)(var6);
+                var1['server'] = var6;
+                var6 = var9[var5];
+                var6 = var8.bind(var2)(var6);
+                var7 = var6.intl;
+                var6 = var7.string;
+                var5 = var9[var5];
+                var5 = var8.bind(var2)(var5);
+                var5 = var5.t;
+                var5 = var5.BcZTKu;
+                var5 = var6.bind(var7)(var5);
+                var1['other'] = var5;
+                var1 = var4.bind(var2)(var3, var1);
+case 41:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[4] = var5;
+        var5 = {};
         var7 = 'trackDisabledAndroidNotifChannels';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-                var4 = _closure1_slot1;
-                var1 = _closure1_slot2;
-                var8 = 13;
-                var3 = var1[var8];
-                var1 = undefined;
-                var3 = var4.bind(var1)(var3);
-                var4 = null;
-                var5 = var4 == var3;
-                var3 = undefined;
-                if(var5) { _fun0011_ip = 30; continue _fun0011 }
-case 31:
+                var2 = this;
+                var1 = var2.hasTrackedDisabledAndroidNotifChannels;
+                if(var1) { _fun0013_ip = 42; continue _fun0013 }
+case 43:
+                var1 = true;
+                var2['hasTrackedDisabledAndroidNotifChannels'] = var1;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var8 = 17;
+                var2 = var2[var8];
+                var4 = undefined;
+                var2 = var3.bind(var4)(var2);
+                var3 = null;
+                var6 = var3 == var2;
+                var2 = undefined;
+                if(var6) { _fun0013_ip = 6; continue _fun0013 }
+case 29:
                 var7 = _closure1_slot1;
-                var5 = _closure1_slot2;
-                var5 = var5[var8];
-                var5 = var7.bind(var1)(var5);
-                var3 = var5.getAndroidNotifChannelStates;
-case 30:
-                if(!(var4 != var3)) { _fun0011_ip = 32; continue _fun0011 }
-case 33:
-                var5 = var3.bind(var1)();
-                var4 = var5.filter;
-                var3 = function(arg1) {
+                var6 = _closure1_slot2;
+                var6 = var6[var8];
+                var6 = var7.bind(var4)(var6);
+                var2 = var6.getAndroidNotifChannelStates;
+case 6:
+                if(!(var3 != var2)) { _fun0013_ip = 42; continue _fun0013 }
+case 44:
+                var6 = var2.bind(var4)();
+                var3 = var6.filter;
+                var2 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.importance;
                     var1 = 0;
                     var1 = var1 === var2;
                     return var1;
                 };
-                var8 = var4.bind(var5)(var3);
-                var4 = _closure1_slot1;
-                var5 = _closure1_slot2;
-                var3 = 14;
-                var3 = var5[var3];
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.track;
-                var2 = _closure1_slot11;
-                var3 = var2.ANDROID_NOTIFICATION_CHANNELS_SYNCED;
-                var2 = {};
-                var7 = var8.map;
-                var6 = function(arg1) {
+                var7 = var3.bind(var6)(var2);
+                var3 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var2 = 18;
+                var2 = var6[var2];
+                var4 = var3.bind(var4)(var2);
+                var3 = var4.track;
+                var1 = _closure1_slot12;
+                var2 = var1.ANDROID_NOTIFICATION_CHANNELS_SYNCED;
+                var1 = {};
+                var6 = var7.map;
+                var5 = function(arg1) {
                     var1 = arg1;
                     var1 = var1.channelId;
                     return var1;
                 };
-                var6 = var7.bind(var8)(var6);
-                var2['disabled_channels'] = var6;
-                var2 = var4.bind(var5)(var3, var2);
-case 32:
+                var5 = var6.bind(var7)(var5);
+                var1['disabled_channels'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+case 42:
+                var1 = undefined;
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getToken';
         var5['key'] = var7;
@@ -875,32 +998,32 @@ case 32:
             return var1;
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'canSync';
         var5['key'] = var7;
         var6 = function get() {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var1 = this;
                 var1 = var1.isInitialized;
-                if(!var1) { _fun0012_ip = 21; continue _fun0012 }
-case 25:
-                var3 = _closure1_slot10;
+                if(!var1) { _fun0014_ip = 21; continue _fun0014 }
+case 28:
+                var3 = _closure1_slot11;
                 var2 = var3.isAuthenticated;
                 var1 = var2.bind(var3)();
 case 21:
-                if(!var1) { _fun0012_ip = 34; continue _fun0012 }
+                if(!var1) { _fun0014_ip = 45; continue _fun0014 }
 case 17:
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var2 = var2.isSwitchingAccount;
                 var1 = !var2;
-case 34:
+case 45:
                 return var1;
             }
         };
         var5['get'] = var6;
-        var1[6] = var5;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -910,7 +1033,7 @@ case 34:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 16;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -119,7 +119,7 @@ case 8:
         }
     };
     var3['useGuildPowerupNotificationDCF'] = var4;
-    var4 = function useNewGamesCoachmarkDCF() {
+    var4 = function useNewGamesCoachmarkDC() {
         var1 = [null];
         var2 = function() {
             var1 = undefined;
@@ -128,7 +128,7 @@ case 8:
         var1[1] = var2;
         return var1;
     };
-    var3['useNewGamesCoachmarkDCF'] = var4;
+    var3['useNewGamesCoachmarkDC'] = var4;
     var4 = function useGameServerPricingCoachmarkDCF() {
         var1 = [null];
         var2 = function() {

@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOW;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -59,8 +59,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.colors;
     var12 = var12.BORDER_MUTED;
     var9['borderColor'] = var12;
-    var12 = '0 1px 4px 0 rgba(0, 0, 0, 0.14)';
-    var9['boxShadow'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.shadows;
+    var14 = var12.SHADOW_LOW;
+    var15 = var9;
+    var12 = copyDataProperties(var15, var14);
     var4['container'] = var9;
     var9 = {'alignItems': 'center', 'justifyContent': 'center'};
     var12 = var6[var10];
@@ -85,7 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function GiftingBadgeProgressBanner(arg1) {
         var1 = arg1;
         var14 = var1.giftsToNextTier;
-        var13 = var1.nextTier;
+        var13 = var1.nextTierName;
+        var12 = var1.nextTierIcon;
         var1 = _closure1_slot6;
         var4 = undefined;
         var6 = var1.bind(var4)();
@@ -104,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var15[var9];
         var7 = var10.bind(var4)(var6);
         var6 = {};
-        var6['tier'] = var13;
+        var6['icon'] = var12;
         var11 = _closure1_slot0;
         var9 = var15[var9];
         var9 = var11.bind(var4)(var9);

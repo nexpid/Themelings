@@ -1994,6 +1994,26 @@ case 91:
                     return var1;
                 };
                 var2['onViewAll'] = var6;
+                var6 = function onManageLimited() {
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot3;
+                    var1 = 41;
+                    var2 = var8[var1];
+                    var1 = undefined;
+                    var4 = var7.bind(var1)(var2);
+                    var3 = var4.handleLimitedPickerDialog;
+                    var2 = {};
+                    var6 = 42;
+                    var6 = var8[var6];
+                    var6 = var7.bind(var1)(var6);
+                    var6 = var6.hideMediaKeyboardActionSheet;
+                    var2['onDismissKeyboard'] = var6;
+                    var5 = _closure1_slot17;
+                    var2['onRestoreKeyboard'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                };
+                var2['onManageLimited'] = var6;
                 var6 = function onClose() {
                     var3 = _closure2_slot54;
                     var2 = _closure3_slot0;

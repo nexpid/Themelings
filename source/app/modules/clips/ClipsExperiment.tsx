@@ -63,7 +63,7 @@ case 2:
     var10 = {};
     var11 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var10[1] = var11;
-    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': true, 'enableVoiceOnlyClips': true, 'enableAdvancedSignals': true};
+    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': true, 'enableAdvancedSignals': true};
     var10[2] = var11;
     var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var10[3] = var11;

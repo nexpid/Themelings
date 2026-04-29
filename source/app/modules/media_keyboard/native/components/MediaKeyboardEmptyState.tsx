@@ -143,7 +143,7 @@ case 3:
             var1 = true;
 case 2:
             var9 = var5.onPressCamera;
-            var8 = var5.onPressLimitedPicker;
+            var8 = var5.onManageLimited;
             var7 = var5.onPressPrivacySettings;
             var5 = _closure1_slot5;
             var5 = var5.DENIED;

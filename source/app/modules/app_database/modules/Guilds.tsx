@@ -965,9 +965,9 @@ case 61:
         var7 = function value(arg1, arg2) {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                var13 = arg1;
-                var5 = this;
-                var3 = var13.members;
+                var14 = arg1;
+                var4 = this;
+                var3 = var14.members;
                 var2 = var3.find;
                 var1 = function(arg1) {
                     var1 = arg1;
@@ -979,53 +979,72 @@ case 0:
                     var1 = var2 === var1;
                     return var1;
                 };
-                var9 = var2.bind(var3)(var1);
-                var3 = _closure1_slot10;
-                var2 = var3.getGuild;
-                var1 = var13.id;
-                var12 = var2.bind(var3)(var1);
-                var3 = _closure1_slot1;
-                var10 = _closure1_slot2;
-                var2 = 11;
-                var6 = var10[var2];
+                var8 = var2.bind(var3)(var1);
+                var5 = _closure1_slot10;
+                var3 = var5.getGuild;
+                var1 = var14.id;
+                var13 = var3.bind(var5)(var1);
+                var1 = var14.properties;
+                var6 = null;
+                if(!(var6 == var1)) { _fun0012_ip = 64; continue _fun0012 }
+case 65:
+                if(!(var6 == var13)) { _fun0012_ip = 64; continue _fun0012 }
+case 66:
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 13;
+                var3 = var3[var1];
                 var1 = undefined;
-                var11 = var3.bind(var1)(var6);
-                var8 = var11.fromSyncOperation;
-                var7 = var13.id;
-                var6 = var13.roles;
-                var15 = _closure1_slot9;
-                var14 = var15.getUnsafeMutableRoles;
-                var4 = var13.id;
-                var4 = var14.bind(var15)(var4);
-                var8 = var8.bind(var11)(var7, var6, var4);
-                var4 = 12;
-                var6 = var10[var4];
-                var7 = var3.bind(var1)(var6);
-                var6 = var7.attachSerializedData;
-                var4 = var10[var4];
-                var11 = var3.bind(var1)(var4);
-                var4 = var11.fromServer;
-                var4 = var4.bind(var11)(var13, var12);
-                var2 = var10[var2];
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.toSerializedPartition;
-                var3 = var2.bind(var3)(var8);
-                var2 = null;
-                var8 = var2 != var9;
-                if(!var8) { _fun0012_ip = 64; continue _fun0012 }
-case 19:
-                var8 = {};
-                var10 = var9.user;
-                var10 = var10.id;
-                var8['userId'] = var10;
-                var9 = var9.roles;
-                var8['roles'] = var9;
-                var2 = var8;
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.captureMessage;
+                var1 = 'AppDatabase Guilds.putOne skipped: partial payload without cached record';
+                var1 = var3.bind(var5)(var1);
+                _fun0012_ip = 67; continue _fun0012;
 case 64:
-                var4 = var6.bind(var7)(var4, var3, var2);
-                var3 = var5.put;
-                var2 = arg2;
-                var2 = var3.bind(var5)(var4, var2);
+                var10 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var1 = 11;
+                var3 = var11[var1];
+                var7 = undefined;
+                var12 = var10.bind(var7)(var3);
+                var9 = var12.fromSyncOperation;
+                var5 = var14.id;
+                var3 = var14.roles;
+                var16 = _closure1_slot9;
+                var15 = var16.getUnsafeMutableRoles;
+                var2 = var14.id;
+                var2 = var15.bind(var16)(var2);
+                var9 = var9.bind(var12)(var5, var3, var2);
+                var2 = 12;
+                var3 = var11[var2];
+                var5 = var10.bind(var7)(var3);
+                var3 = var5.attachSerializedData;
+                var2 = var11[var2];
+                var12 = var10.bind(var7)(var2);
+                var2 = var12.fromServer;
+                var2 = var2.bind(var12)(var14, var13);
+                var1 = var11[var1];
+                var7 = var10.bind(var7)(var1);
+                var1 = var7.toSerializedPartition;
+                var1 = var1.bind(var7)(var9);
+                var7 = var6 != var8;
+                var6 = null;
+                if(!var7) { _fun0012_ip = 68; continue _fun0012 }
+case 69:
+                var7 = {};
+                var9 = var8.user;
+                var9 = var9.id;
+                var7['userId'] = var9;
+                var8 = var8.roles;
+                var7['roles'] = var8;
+                var6 = var7;
+case 68:
+                var3 = var3.bind(var5)(var2, var1, var6);
+                var2 = var4.put;
+                var1 = arg2;
+                var1 = var2.bind(var4)(var3, var1);
+case 67:
+                var1 = undefined;
                 return var1;
             }
         };
@@ -1080,7 +1099,7 @@ case 64:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

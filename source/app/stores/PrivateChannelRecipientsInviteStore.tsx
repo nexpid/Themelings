@@ -399,7 +399,7 @@ case 51:
                     var3 = var3 != var5;
                     if(!var3) { _fun0006_ip = 55; continue _fun0006 }
 case 56:
-                    var4 = var5.isPrivate;
+                    var4 = var5.isGroupDM;
                     var3 = var4.bind(var5)();
 case 55:
                     var5 = var6;

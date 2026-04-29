@@ -1017,7 +1017,7 @@ case 66:
                     }
                 };
                 var2['onPressItem'] = var9;
-                var8 = function onViewAll() {
+                var9 = function onViewAll() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 29;
@@ -1038,7 +1038,27 @@ case 66:
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
-                var2['onViewAll'] = var8;
+                var2['onViewAll'] = var9;
+                var8 = function onManageLimited() {
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var1 = 29;
+                    var2 = var8[var1];
+                    var1 = undefined;
+                    var4 = var7.bind(var1)(var2);
+                    var3 = var4.handleLimitedPickerDialog;
+                    var2 = {};
+                    var6 = 27;
+                    var6 = var8[var6];
+                    var6 = var7.bind(var1)(var6);
+                    var6 = var6.hideMediaKeyboardActionSheet;
+                    var2['onDismissKeyboard'] = var6;
+                    var5 = _closure1_slot8;
+                    var2['onRestoreKeyboard'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                };
+                var2['onManageLimited'] = var8;
                 var8 = var7[var5];
                 var8 = var6.bind(var1)(var8);
                 var8 = var8.hideMediaKeyboardActionSheet;

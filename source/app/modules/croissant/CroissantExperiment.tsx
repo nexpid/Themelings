@@ -1,4 +1,4 @@
-// app/modules/premium/game_server/experiments/RunescapeGameServersExperiment.tsx
+// app/modules/croissant/CroissantExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,12 +16,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var5.bind(var1)(var4);
     var7 = var8.createApexExperiment;
-    var4 = {'name': '2026-03-runescape-game-servers', 'kind': 'user'};
+    var4 = {'name': '2026-03-croissant', 'kind': 'user'};
     var9 = {};
-    var10 = false;
-    var9['enabled'] = var10;
+    var12 = false;
+    var9['enabled'] = var12;
     var4['defaultConfig'] = var9;
     var9 = {};
+    var10 = {};
+    var10['enabled'] = var12;
+    var9[0] = var10;
     var10 = {};
     var10['enabled'] = var11;
     var9[1] = var10;
@@ -32,9 +35,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/premium/game_server/experiments/RunescapeGameServersExperiment.tsx';
+    var4 = 'modules/croissant/CroissantExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useIsRunescapeGameServersEnabled(arg1) {
+    var4 = function useCroissantEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.useConfig;
         var1 = {};
@@ -44,6 +47,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var3['useIsRunescapeGameServersEnabled'] = var2;
+    var3['useCroissantEnabled'] = var4;
+    var2 = function isCroissantEnabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = var3.getConfig;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
+        return var1;
+    };
+    var3['isCroissantEnabled'] = var2;
     return var1;
 })();

@@ -291,8 +291,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = {};
     var2 = 'videotoolbox_rate_control';
     var6['VIDEOTOOLBOX_RATE_CONTROL'] = var2;
-    var2 = 'signal_av1';
-    var6['SIGNAL_AV1'] = var2;
+    var2 = 'signal_av1_encode';
+    var6['SIGNAL_AV1_ENCODE'] = var2;
     var2 = 'signal_av1_decode';
     var6['SIGNAL_AV1_DECODE'] = var2;
     var2 = 'signal_av1_hardware_decode';
@@ -309,6 +309,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['BROWSER_HEVC'] = var2;
     var2 = 'low_latency_rate_control';
     var6['LOW_LATENCY_RATE_CONTROL'] = var2;
+    var2 = 'h265_disable_encode';
+    var6['H265_DISABLE_ENCODE'] = var2;
     var2 = 'h265_hardware_only';
     var6['H265_HARDWARE_ONLY'] = var2;
     var2 = 'h265_hardware_decode_available';
@@ -319,6 +321,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['USE_LIBOPENH264_DECODER'] = var2;
     var2 = 'swallow_volume_only_speaking_events';
     var6['SWALLOW_VOLUME_ONLY_SPEAKING_EVENTS'] = var2;
+    var2 = 'browser_transceiver_padding_removal';
+    var6['BROWSER_TRANSCEIVER_PADDING_REMOVAL'] = var2;
     var5 = {};
     var5['AUTO'] = var31;
     var2 = 'AUTO';

@@ -1,10 +1,12 @@
 // app/modules/collectibles/hooks/useProfileFramesMarketing.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
+    var8 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
     var4 = function deriveProfileFramesMarketing(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -58,34 +60,33 @@ case 16:
             return var1;
         }
     };
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
     var5 = {};
     var1 = true;
     var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = var9.bind(var10)(var3, var1, var5);
     var1 = 0;
-    var8 = var7[var1];
-    var5 = metroImportDefault;
+    var5 = var7[var1];
     var1 = undefined;
-    var5 = var5.bind(var1)(var8);
-    var _closure1_slot2 = var5;
-    var5 = 5;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/collectibles/hooks/useProfileFramesMarketing.tsx';
     var5 = var6.bind(var7)(var5);
     var3['deriveProfileFramesMarketing'] = var4;
-    var2 = function useProfileFramesMarketing(arg1) {
+    var4 = function useProfileFramesMarketing(arg1) {
         var9 = arg1;
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot4;
         var2 = {};
         var6 = _closure1_slot0;
-        var7 = _closure1_slot1;
+        var7 = _closure1_slot2;
         var5 = 1;
         var8 = var7[var5];
         var1 = undefined;
@@ -114,18 +115,18 @@ case 16:
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.useStateFromStores;
-        var4 = _closure1_slot2;
+        var4 = _closure1_slot3;
         var5 = new Array(1);
         var5[0] = var4;
         var4 = function() {
             var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot2;
             var2 = 1;
             var3 = var3[var2];
             var2 = undefined;
             var3 = var4.bind(var2)(var3);
             var2 = var3.isUserPaidTier2;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var1 = var4.getCurrentUser;
             var1 = var1.bind(var4)();
             var1 = var2.bind(var3)(var1);
@@ -136,6 +137,82 @@ case 16:
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var3['useProfileFramesMarketing'] = var2;
+    var3['useProfileFramesMarketing'] = var4;
+    var2 = function getProfileFramesMarketing(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var9 = arg1;
+            var2 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var3 = 5;
+            var5 = var1[var3];
+            var3 = undefined;
+            var7 = var2.bind(var3)(var5);
+            var6 = var7.getConfig;
+            var5 = {};
+            var5['location'] = var9;
+            var5 = var6.bind(var7)(var5);
+            var5 = var5.enableProfileFrames;
+            var10 = 6;
+            var1 = var1[var10];
+            var6 = var2.bind(var3)(var1);
+            var2 = var6.getConfig;
+            var1 = {};
+            var1['location'] = var9;
+            var1 = var2.bind(var6)(var1);
+            var7 = var1.bucket;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var6 = var5;
+            if(!var5) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+            var11 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var10];
+            var8 = var11.bind(var3)(var8);
+            var8 = var8.ProfileFramesPurchaseBucket;
+            var8 = var8.CONTROL;
+            var6 = var7 !== var8;
+case 18:
+            var1['canViewProfileFramesInCollectiblesShop'] = var6;
+            if(!var5) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var10];
+            var6 = var8.bind(var3)(var6);
+            var6 = var6.ProfileFramesPurchaseBucket;
+            var6 = var6.PAID_PREMIUM_SUBSCRIBERS_ONLY;
+            var5 = var7 === var6;
+case 20:
+            var1['isEarlyAccess'] = var5;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 2;
+            var5 = var7[var5];
+            var8 = var6.bind(var3)(var5);
+            var5 = var8.getIsProfileFramesEAMarketingEnabled;
+            var5 = var5.bind(var8)(var9);
+            var1['isFramesEAMarketingEnabled'] = var5;
+            var5 = 3;
+            var5 = var7[var5];
+            var8 = var6.bind(var3)(var5);
+            var5 = var8.getIsProfileFrameGiftingEnabled;
+            var5 = var5.bind(var8)(var9);
+            var1['isFrameGiftingEnabled'] = var5;
+            var5 = 1;
+            var5 = var7[var5];
+            var6 = var6.bind(var3)(var5);
+            var5 = var6.isUserPaidTier2;
+            var7 = _closure1_slot3;
+            var4 = var7.getCurrentUser;
+            var4 = var4.bind(var7)();
+            var4 = var5.bind(var6)(var4);
+            var1['hasPaidTier2'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        }
+    };
+    var3['getProfileFramesMarketing'] = var2;
     return var1;
 })();

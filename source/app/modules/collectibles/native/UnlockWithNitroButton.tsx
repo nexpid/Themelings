@@ -177,7 +177,7 @@ case 8:
             var9 = var9.sEAnVH;
             var9 = var11.bind(var12)(var9);
             var1['accessibilityLabel'] = var9;
-            var9 = 'active';
+            var9 = 'primary';
             var1['variant'] = var9;
             var9 = 'md';
             if(!var10) { _fun0001_ip = 10; continue _fun0001 }

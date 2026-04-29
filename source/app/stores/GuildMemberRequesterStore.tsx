@@ -599,7 +599,7 @@ case 34:
     var2['LOAD_MESSAGES_SUCCESS'] = var8;
     var2['LOAD_MESSAGES_AROUND_SUCCESS'] = var8;
     var2['LOAD_RECENT_MENTIONS_SUCCESS'] = var8;
-    var4 = function handleLoadPinnedMessages(arg1) {
+    var8 = function handleLoadPinnedMessages(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
@@ -633,7 +633,35 @@ case 50:
             return var1;
         }
     };
-    var2['LOAD_PINNED_MESSAGES_SUCCESS'] = var4;
+    var2['LOAD_PINNED_MESSAGES_SUCCESS'] = var8;
+    var4 = function handleConversationFetchSuccess(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+            var1 = arg1;
+            var4 = var1.channelId;
+            var5 = var1.messages;
+            var2 = _closure1_slot7;
+            var1 = var2.getChannel;
+            var2 = var1.bind(var2)(var4);
+            var6 = null;
+            var1 = var6 != var2;
+            if(!var1) { _fun0012_ip = 9; continue _fun0012 }
+case 43:
+            var4 = var2.guild_id;
+            var1 = var6 != var4;
+case 9:
+            if(!var1) { _fun0012_ip = 44; continue _fun0012 }
+case 42:
+            var4 = _closure1_slot14;
+            var3 = var2.guild_id;
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3, var5);
+            var1 = false;
+case 44:
+            return var1;
+        }
+    };
+    var2['CONVERSATION_FETCH_SUCCESS'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var16 = var4;

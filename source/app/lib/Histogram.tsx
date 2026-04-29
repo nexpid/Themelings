@@ -394,31 +394,31 @@ case 44:
                 var7 = var7.bind(var8)(var6);
                 var8 = var5 != var7;
                 var6 = 0;
-                if(!var8) { _fun0006_ip = 16; continue _fun0006 }
-case 46:
+                if(!var8) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
                 var6 = var7;
-case 16:
+case 46:
                 var1['max'] = var6;
                 var7 = var2.digest;
                 var6 = var7.size;
                 var6 = var6.bind(var7)();
                 var7 = var5 != var6;
                 var5 = 0;
-                if(!var7) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+                if(!var7) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
                 var5 = var6;
-case 47:
+case 48:
                 var1['count'] = var5;
                 var1['percentiles'] = var4;
                 var4 = var2.totalWeight;
                 var4 = var4 > var3;
                 var3 = 0;
-                if(!var4) { _fun0006_ip = 49; continue _fun0006 }
-case 21:
+                if(!var4) { _fun0006_ip = 50; continue _fun0006 }
+case 51:
                 var5 = var2.total;
                 var4 = var2.totalWeight;
                 var3 = var5 / var4;
-case 49:
+case 50:
                 var1['mean'] = var3;
                 var2 = var2.samples;
                 var1['samples'] = var2;
@@ -443,10 +443,10 @@ case 0:
                 var1 = null;
                 var3 = var1 != var2;
                 var1 = 0;
-                if(!var3) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+                if(!var3) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
                 var1 = var2;
-case 50:
+case 52:
                 return var1;
             }
         };

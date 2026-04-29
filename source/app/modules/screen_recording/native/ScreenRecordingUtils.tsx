@@ -542,7 +542,7 @@ case 48:
                         return var1;
                     };
                     var5 = var5.bind(var2)();
-                    SaveGenerator(address=224);
+                    SaveGenerator(address=223);
 case 57:
                     return var5;
 case 58:
@@ -756,7 +756,7 @@ case 74:
                     var31 = var16;
                     var29 = var18;
                     var6 = var31[var13](var30, var29, var28, var27, var26);
-                    SaveGenerator(address=979);
+                    SaveGenerator(address=978);
 case 75:
                     return var6;
 case 76:
@@ -810,7 +810,7 @@ case 72:
                     var13 = var13.bind(var2)(var10);
                     var10 = var13.getAttachments;
                     var7 = var10.bind(var13)(var7);
-                    SaveGenerator(address=1189);
+                    SaveGenerator(address=1188);
 case 81:
                     return var7;
 case 82:
@@ -858,7 +858,7 @@ case 89:
                     var14 = false;
                     var9['overridePlatformInformation'] = var14;
                     var8 = var10.bind(var11)(var13, var9, var8);
-                    SaveGenerator(address=1373);
+                    SaveGenerator(address=1372);
 case 90:
                     return var8;
 case 91:
