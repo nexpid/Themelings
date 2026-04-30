@@ -295,40 +295,55 @@ case 7:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.location;
-            var8 = var1.tooltipPosition;
-            var5 = undefined;
-            if(!(var8 === var5)) { _fun0003_ip = 9; continue _fun0003 }
+            var5 = var1.location;
+            var7 = var1.tooltipPosition;
+            var6 = undefined;
+            if(!(var7 === var6)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-            var8 = 'top';
+            var7 = 'top';
 case 9:
-            var2 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 12;
-            var1 = var4[var1];
-            var2 = var2.bind(var5)(var1);
-            var1 = var2.useIsProfileFramesEarlyAccessPhase;
-            var2 = var1.bind(var2)(var3);
-            var1 = null;
-            if(!var2) { _fun0003_ip = 11; continue _fun0003 }
+            var2 = var1.inheritLayerScope;
+            if(!(var2 === var6)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var4 = _closure1_slot6;
-            var3 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 13;
-            var2 = var7[var2];
-            var2 = var3.bind(var5)(var2);
-            var3 = var2.LayerScope;
-            var2 = {};
-            var7 = 3;
-            var2['zIndex'] = var7;
-            var7 = _closure1_slot10;
-            var6 = {};
-            var6['tooltipPosition'] = var8;
-            var6 = var4.bind(var5)(var7, var6);
-            var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
+            var2 = false;
 case 11:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 12;
+            var1 = var8[var1];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.useIsProfileFramesEarlyAccessPhase;
+            var4 = var1.bind(var4)(var5);
+            var1 = null;
+            if(!var4) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            var5 = _closure1_slot6;
+            if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 13;
+            var2 = var8[var2];
+            var2 = var4.bind(var6)(var2);
+            var4 = var2.LayerScope;
+            var2 = {};
+            var8 = 3;
+            var2['zIndex'] = var8;
+            var9 = _closure1_slot10;
+            var8 = {};
+            var8['tooltipPosition'] = var7;
+            var8 = var5.bind(var6)(var9, var8);
+            var2['children'] = var8;
+            var2 = var5.bind(var6)(var4, var2);
+            _fun0003_ip = 17; continue _fun0003;
+case 15:
+            var4 = _closure1_slot10;
+            var3 = {};
+            var3['tooltipPosition'] = var7;
+            var2 = var5.bind(var6)(var4, var3);
+case 17:
+            var1 = var2;
+case 13:
             return var1;
         }
     };

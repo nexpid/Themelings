@@ -1834,6 +1834,8 @@ case 4:
     var17['SEO_PAGE_VIEWED'] = var2;
     var2 = 'seo_server_landing_page_cta_clicked';
     var17['SEO_PAGE_CTA_CLICKED'] = var2;
+    var2 = 'seo_trending_games_cta_clicked';
+    var17['SEO_TRENDING_GAMES_CTA_CLICKED'] = var2;
     var2 = 'seo_aggregator_page_viewed';
     var17['SEO_AGGREGATOR_PAGE_VIEWED'] = var2;
     var2 = 'seo_aggregator_page_cta_clicked';

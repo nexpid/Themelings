@@ -1,4 +1,4 @@
-// app/modules/settings/UserSettingsManager.tsx
+// app/modules/user_settings/UserSettingsManager.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var5 = metroImportDefault;
@@ -218,7 +218,7 @@ case 8:
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/settings/UserSettingsManager.tsx';
+    var5 = 'modules/user_settings/UserSettingsManager.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
     var3['UserSettingsManager'] = var2;

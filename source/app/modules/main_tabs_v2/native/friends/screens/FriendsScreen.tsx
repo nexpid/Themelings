@@ -573,6 +573,7 @@ case 6:
         var5['withGameFriends'] = var10;
         var5['defaultNoResultsFound'] = var11;
         var5['hideSearchOnDefaultNoResults'] = var10;
+        var5['disableThemedGradient'] = var10;
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;

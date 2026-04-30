@@ -299,7 +299,7 @@ case 0:
             var5['user'] = var18;
             var5['displayName'] = var12;
             var5['guildId'] = var14;
-            var5['pendingDisplayNameStyles'] = var13;
+            var5['displayNameStylesOverride'] = var13;
             var8 = true;
             var5['compact'] = var8;
             var5['hideFrame'] = var8;

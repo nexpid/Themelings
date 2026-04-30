@@ -57,8 +57,6 @@ case 7:
             var3 = {};
             var5 = {};
             var3['catalog'] = var5;
-            var5 = new Array(0);
-            var3['newGameServerProducts'] = var5;
             var5 = {};
             var3['instances'] = var5;
             var5 = {};
@@ -264,7 +262,7 @@ case 13:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(13);
+        var1 = new Array(11);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -506,7 +504,7 @@ case 30:
         var5 = {};
         var7 = 'shouldFetchGlobalCatalog';
         var5['key'] = var7;
-        var7 = function value() {
+        var6 = function value() {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var1 = _closure1_slot8;
@@ -526,67 +524,8 @@ case 31:
                 return var1;
             }
         };
-        var5['value'] = var7;
-        var1[10] = var5;
-        var5 = {};
-        var7 = 'getNewProducts';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
-case 0:
-                var3 = arg1;
-                var2 = null;
-                if(!(var2 != var3)) { _fun0013_ip = 33; continue _fun0013 }
-case 14:
-                var1 = _closure1_slot7;
-                var3 = var1[var3];
-                var4 = var2 == var3;
-                var1 = undefined;
-                if(var4) { _fun0013_ip = 34; continue _fun0013 }
-case 35:
-                var1 = var3.newGameServerProducts;
-case 34:
-                if(!(var2 == var1)) { _fun0013_ip = 36; continue _fun0013 }
-case 33:
-                var1 = new Array(0);
-case 36:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[11] = var5;
-        var5 = {};
-        var7 = 'shouldFetchNewProductsForGuild';
-        var5['key'] = var7;
-        var6 = function value(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
-case 0:
-                var2 = _closure1_slot7;
-                var1 = arg1;
-                var2 = var2[var1];
-                var1 = null;
-                var4 = var1 == var2;
-                var3 = undefined;
-                if(var4) { _fun0014_ip = 29; continue _fun0014 }
-case 15:
-                var3 = var2.newGameServerProductsLastFetchedAt;
-case 29:
-                var1 = var1 == var3;
-                if(var1) { _fun0014_ip = 30; continue _fun0014 }
-case 27:
-                var2 = 86400000;
-                var3 = var3 + var2;
-                var2 = global;
-                var4 = var2.Date;
-                var2 = var4.now;
-                var2 = var2.bind(var4)();
-                var1 = var3 < var2;
-case 30:
-                return var1;
-            }
-        };
         var5['value'] = var6;
-        var1[12] = var5;
+        var1[10] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -717,57 +656,6 @@ case 30:
         return var1;
     };
     var2['GAME_SERVER_FETCH_GAME_INSTRUCTIONS_SUCCESS'] = var9;
-    var9 = function handleFetchNewGamesSuccess(arg1) {
-        var1 = arg1;
-        var5 = var1.guildId;
-        var7 = var1.products;
-        var3 = {};
-        var8 = _closure1_slot7;
-        var9 = var3;
-        var1 = copyDataProperties(var9, var8);
-        var4 = {};
-        var6 = _closure1_slot10;
-        var1 = undefined;
-        var8 = var6.bind(var1)(var5);
-        var9 = var4;
-        var6 = copyDataProperties(var9, var8);
-        var6 = 'newGameServerProducts';
-        var4[5] = var7;
-        var6 = global;
-        var7 = var6.Date;
-        var6 = var7.now;
-        var7 = var6.bind(var7)();
-        var6 = 'newGameServerProductsLastFetchedAt';
-        var4[5] = var7;
-        var3[4] = var4;
-        _closure1_slot7 = var3;
-        return var1;
-    };
-    var2['GAME_SERVER_FETCH_NEW_GAMES_SUCCESS'] = var9;
-    var9 = function handleFetchNewGamesFailure(arg1) {
-        var1 = arg1;
-        var5 = var1.guildId;
-        var3 = {};
-        var8 = _closure1_slot7;
-        var9 = var3;
-        var1 = copyDataProperties(var9, var8);
-        var4 = {};
-        var6 = _closure1_slot10;
-        var1 = undefined;
-        var8 = var6.bind(var1)(var5);
-        var9 = var4;
-        var6 = copyDataProperties(var9, var8);
-        var6 = global;
-        var7 = var6.Date;
-        var6 = var7.now;
-        var7 = var6.bind(var7)();
-        var6 = 'newGameServerProductsLastFetchedAt';
-        var4[5] = var7;
-        var3[4] = var4;
-        _closure1_slot7 = var3;
-        return var1;
-    };
-    var2['GAME_SERVER_FETCH_NEW_GAMES_FAILURE'] = var9;
     var9 = function handleUpdateInstanceSuccess(arg1) {
         var1 = arg1;
         var5 = var1.guildId;
@@ -855,27 +743,27 @@ case 30:
         var _closure2_slot0 = var3;
         var7 = var8.filter;
         var6 = function(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                 var1 = arg1;
                 var3 = var1.sku;
                 var2 = null;
                 var4 = var2 == var3;
                 var1 = undefined;
-                if(var4) { _fun0015_ip = 37; continue _fun0015 }
+                if(var4) { _fun0013_ip = 33; continue _fun0013 }
 case 7:
                 var3 = var3.tenant_metadata;
                 var4 = var2 == var3;
                 var1 = undefined;
-                if(var4) { _fun0015_ip = 37; continue _fun0015 }
+                if(var4) { _fun0013_ip = 33; continue _fun0013 }
 case 34:
                 var3 = var3.guild_monetization;
                 var4 = var2 == var3;
                 var1 = undefined;
-                if(var4) { _fun0015_ip = 37; continue _fun0015 }
-case 38:
+                if(var4) { _fun0013_ip = 33; continue _fun0013 }
+case 35:
                 var1 = var3.game_server;
-case 37:
+case 33:
                 var1 = var2 != var1;
                 return var1;
             }

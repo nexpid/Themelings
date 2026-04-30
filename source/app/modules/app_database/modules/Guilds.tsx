@@ -989,7 +989,7 @@ case 0:
                 if(!(var6 == var1)) { _fun0012_ip = 64; continue _fun0012 }
 case 65:
                 if(!(var6 == var13)) { _fun0012_ip = 64; continue _fun0012 }
-case 66:
+case 45:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 13;
@@ -999,7 +999,7 @@ case 66:
                 var3 = var5.captureMessage;
                 var1 = 'AppDatabase Guilds.putOne skipped: partial payload without cached record';
                 var1 = var3.bind(var5)(var1);
-                _fun0012_ip = 67; continue _fun0012;
+                _fun0012_ip = 66; continue _fun0012;
 case 64:
                 var10 = _closure1_slot1;
                 var11 = _closure1_slot2;
@@ -1029,8 +1029,8 @@ case 64:
                 var1 = var1.bind(var7)(var9);
                 var7 = var6 != var8;
                 var6 = null;
-                if(!var7) { _fun0012_ip = 68; continue _fun0012 }
-case 69:
+                if(!var7) { _fun0012_ip = 67; continue _fun0012 }
+case 23:
                 var7 = {};
                 var9 = var8.user;
                 var9 = var9.id;
@@ -1038,12 +1038,12 @@ case 69:
                 var8 = var8.roles;
                 var7['roles'] = var8;
                 var6 = var7;
-case 68:
+case 67:
                 var3 = var3.bind(var5)(var2, var1, var6);
                 var2 = var4.put;
                 var1 = arg2;
                 var1 = var2.bind(var4)(var3, var1);
-case 67:
+case 66:
                 var1 = undefined;
                 return var1;
             }

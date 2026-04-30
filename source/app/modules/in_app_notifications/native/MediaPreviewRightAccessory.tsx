@@ -671,6 +671,49 @@ case 14:
         return var1;
     };
     var _closure1_slot20 = var1;
+    var1 = function MediaPreviewRightAccessoryContent(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.previewableMedia;
+            var8 = var1.totalMediaCount;
+            var6 = var1.message;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 28;
+            var1 = var5[var1];
+            var5 = undefined;
+            var7 = var4.bind(var5)(var1);
+            var4 = var7.useInAppNotificationRedesign;
+            var1 = 'MediaPreviewRightAccessory';
+            var1 = var4.bind(var7)(var1);
+            var1 = 0;
+            var7 = var3[var1];
+            var1 = 1;
+            if(!(var1 !== var8)) { _fun0003_ip = 54; continue _fun0003 }
+case 55:
+            var4 = _closure1_slot9;
+            var3 = _closure1_slot20;
+            var1 = {};
+            var1['previewableMedia'] = var7;
+            var1['totalMediaCount'] = var8;
+            var1['message'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0003_ip = 56; continue _fun0003;
+case 54:
+            var4 = _closure1_slot9;
+            var3 = _closure1_slot19;
+            var2 = {};
+            var2['previewableMedia'] = var7;
+            var7 = 64;
+            var2['size'] = var7;
+            var2['message'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 56:
+            return var1;
+        }
+    };
+    var _closure1_slot21 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -831,14 +874,14 @@ case 14:
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 28;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/in_app_notifications/native/MediaPreviewRightAccessory.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function MediaPreviewRightAccessory(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.message;
@@ -849,36 +892,20 @@ case 0:
             var5 = undefined;
             var3 = var3.bind(var5)(var1);
             var1 = var3.usePreviewableMedia;
-            var3 = var1.bind(var3)(var6);
-            var8 = var3.length;
-            var1 = 0;
-            if(!(var1 !== var8)) { _fun0003_ip = 54; continue _fun0003 }
-case 55:
-            var7 = var3[var1];
-            var1 = 1;
-            if(!(var1 !== var8)) { _fun0003_ip = 56; continue _fun0003 }
-case 57:
+            var8 = var1.bind(var3)(var6);
+            var7 = var8.length;
+            var3 = 0;
+            var1 = null;
+            if(!(var3 !== var7)) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
             var4 = _closure1_slot9;
-            var3 = _closure1_slot20;
-            var1 = {};
-            var1['previewableMedia'] = var7;
-            var1['totalMediaCount'] = var8;
-            var1['message'] = var6;
-            var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 58; continue _fun0003;
-case 56:
-            var4 = _closure1_slot9;
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot21;
             var2 = {};
-            var2['previewableMedia'] = var7;
-            var7 = 64;
-            var2['size'] = var7;
+            var2['previewableMedia'] = var8;
+            var2['totalMediaCount'] = var7;
             var2['message'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 58:
-            return var1;
-case 54:
-            var1 = null;
+case 57:
             return var1;
         }
     };

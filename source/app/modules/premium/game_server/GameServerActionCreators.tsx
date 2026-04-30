@@ -27,17 +27,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.GAME_SERVER_COLLECTION_ID;
-    var _closure1_slot5 = var7;
-    var4 = var4.GAME_SERVER_NEW_GAMES_COACHMARK_COLLECTION_ID;
-    var _closure1_slot6 = var4;
+    var4 = var4.GAME_SERVER_COLLECTION_ID;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.AnalyticEvents;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.Endpoints;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -80,7 +78,7 @@ case 8:
             var5 = var4.bind(var1)(var3);
             var4 = var5.httpGetWithCountryCodeQuery;
             var3 = {'url': null, 'query': null, 'oldFormErrors': true, 'rejectWithError': false, 'retries': 2};
-            var11 = _closure1_slot8;
+            var11 = _closure1_slot7;
             var10 = var11.STOREFRONT_COLLECTION_WITH_PRODUCTS;
             var6 = _closure1_slot5;
             var6 = var10.bind(var11)(var6);
@@ -203,7 +201,7 @@ case 12:
             var3 = var2.bind(var3)(var1);
             var2 = var3.httpGetWithCountryCodeQuery;
             var1 = {'url': null, 'query': null, 'oldFormErrors': true, 'rejectWithError': false, 'retries': 2};
-            var8 = _closure1_slot8;
+            var8 = _closure1_slot7;
             var7 = var8.STOREFRONT_COLLECTION_WITH_PRODUCTS;
             var4 = _closure1_slot5;
             var4 = var7.bind(var8)(var4);
@@ -279,7 +277,7 @@ case 15:
             var4 = var1.HTTP;
             var2 = var4.get;
             var1 = {'url': null, 'rejectWithError': true, 'retries': 2};
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot7;
             var5 = var7.GAME_SERVERS;
             var5 = var5.bind(var7)(var8);
             var1['url'] = var5;
@@ -379,158 +377,6 @@ case 18:
         }
     };
     var3['fetchGameServerInstances'] = var4;
-    var4 = function fetchGameServerNewGamesCollection(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var2 = arg1;
-            var _closure2_slot0 = var2;
-            var3 = _closure1_slot4;
-            var2 = var3.getCurrentUser;
-            var6 = var2.bind(var3)();
-            var3 = null;
-            var5 = var3 == var6;
-            var4 = undefined;
-            var2 = undefined;
-            if(var5) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
-            var5 = var6.isStaff;
-            var2 = var5.bind(var6)();
-case 19:
-            var6 = var3 != var2;
-            if(!var6) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
-            var6 = var2;
-case 21:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 6;
-            var2 = var5[var2];
-            var4 = var3.bind(var4)(var2);
-            var3 = var4.httpGetWithCountryCodeQuery;
-            var2 = {'url': null, 'query': null, 'oldFormErrors': true, 'rejectWithError': false, 'retries': 2};
-            var5 = _closure1_slot8;
-            var5 = var5.STOREFRONT_COLLECTIONS_WITH_PRODUCTS;
-            var2['url'] = var5;
-            var5 = {};
-            var9 = _closure1_slot6;
-            var8 = new Array(1);
-            var8[0] = var9;
-            var5['collection_ids'] = var8;
-            var7 = _closure1_slot3;
-            var7 = var7.locale;
-            var5['locale'] = var7;
-            var5['include_unpublished_products'] = var6;
-            var5['include_unpublished_collections'] = var6;
-            var2['query'] = var5;
-            var4 = var3.bind(var4)(var2);
-            var3 = var4.then;
-            var2 = function(arg1) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                    var2 = arg1;
-                    var2 = var2.body;
-                    var3 = var2.collections;
-                    var2 = 0;
-                    var2 = var3[var2];
-                    var3 = null;
-                    if(!(var3 == var2)) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
-                    var6 = _closure1_slot1;
-                    var5 = _closure1_slot2;
-                    var4 = 4;
-                    var5 = var5[var4];
-                    var4 = undefined;
-                    var6 = var6.bind(var4)(var5);
-                    var5 = var6.dispatch;
-                    var4 = {};
-                    var7 = 'GAME_SERVER_FETCH_NEW_GAMES_FAILURE';
-                    var4['type'] = var7;
-                    var7 = _closure2_slot0;
-                    var4['guildId'] = var7;
-                    var4 = var5.bind(var6)(var4);
-                    _fun0006_ip = 25; continue _fun0006;
-case 23:
-                    var6 = var2.products;
-                    if(!(var3 == var6)) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
-                    var6 = new Array(0);
-case 26:
-                    var5 = var6.reduce;
-                    var4 = function(arg1, arg2) {
-                        var1 = arg1;
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var2 = 7;
-                        var3 = var3[var2];
-                        var2 = undefined;
-                        var4 = var4.bind(var2)(var3);
-                        var3 = var4.productToGameServerGame;
-                        var2 = arg2;
-                        var3 = var3.bind(var4)(var2);
-                        var2 = var3.id;
-                        var1[var2] = var3;
-                        return var1;
-                    };
-                    var3 = {};
-                    var3 = var5.bind(var6)(var4, var3);
-                    var _closure3_slot0 = var3;
-                    var4 = var2.product_ids;
-                    var3 = var4.map;
-                    var2 = function(arg1) {
-                        var2 = _closure3_slot0;
-                        var1 = arg1;
-                        var1 = var2[var1];
-                        return var1;
-                    };
-                    var3 = var3.bind(var4)(var2);
-                    var2 = var3.filter;
-                    var1 = function(arg1) {
-                        var2 = null;
-                        var1 = arg1;
-                        var1 = var2 != var1;
-                        return var1;
-                    };
-                    var4 = var2.bind(var3)(var1);
-                    var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var1 = 4;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.dispatch;
-                    var1 = {};
-                    var5 = 'GAME_SERVER_FETCH_NEW_GAMES_SUCCESS';
-                    var1['type'] = var5;
-                    var5 = _closure2_slot0;
-                    var1['guildId'] = var5;
-                    var1['products'] = var4;
-                    var1 = var2.bind(var3)(var1);
-case 25:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var1 = function() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 4;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.dispatch;
-                var2 = {};
-                var5 = 'GAME_SERVER_FETCH_NEW_GAMES_FAILURE';
-                var2['type'] = var5;
-                var5 = _closure2_slot0;
-                var2['guildId'] = var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
-    };
-    var3['fetchGameServerNewGamesCollection'] = var4;
     var4 = function fetchGameServerInstructions(arg1, arg2) {
         var8 = arg2;
         var2 = arg1;
@@ -544,7 +390,7 @@ case 25:
         var4 = var4.bind(var2)(var3);
         var3 = var4.httpGetWithCountryCodeQuery;
         var2 = {};
-        var7 = _closure1_slot8;
+        var7 = _closure1_slot7;
         var5 = var7.STOREFRONT_PRODUCT_BY_SKU_ID;
         var5 = var5.bind(var7)(var8);
         var2['url'] = var5;
@@ -560,37 +406,37 @@ case 25:
         var3 = var3.bind(var4)(var2);
         var2 = var3.then;
         var1 = function(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var2 = arg1;
                 var3 = var2.body;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0007_ip = 28; continue _fun0007 }
-case 29:
+                if(!(var1 != var3)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
                 var2 = var2.body;
                 var2 = var2.tenant_metadata;
                 var5 = var1 == var2;
                 var3 = undefined;
                 var4 = undefined;
-                if(var5) { _fun0007_ip = 30; continue _fun0007 }
+                if(var5) { _fun0005_ip = 21; continue _fun0005 }
 case 10:
                 var2 = var2.guild_monetization;
                 var5 = var1 == var2;
                 var4 = undefined;
-                if(var5) { _fun0007_ip = 30; continue _fun0007 }
-case 31:
+                if(var5) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
                 var2 = var2.game_server;
                 var5 = var1 == var2;
                 var4 = undefined;
-                if(var5) { _fun0007_ip = 30; continue _fun0007 }
-case 32:
+                if(var5) { _fun0005_ip = 21; continue _fun0005 }
+case 23:
                 var2 = var2.instructions;
                 var4 = var2.pc;
-case 30:
-                if(!(var1 == var4)) { _fun0007_ip = 23; continue _fun0007 }
-case 33:
+case 21:
+                if(!(var1 == var4)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
                 var4 = new Array(0);
-case 23:
+case 24:
                 var2 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var1 = 4;
@@ -606,7 +452,7 @@ case 23:
                 var1['skuId'] = var5;
                 var1['instructions'] = var4;
                 var1 = var2.bind(var3)(var1);
-case 28:
+case 19:
                 var1 = undefined;
                 return var1;
             }
@@ -616,11 +462,11 @@ case 28:
     };
     var3['fetchGameServerInstructions'] = var4;
     var4 = function acceptGameServerToS(arg1, arg2) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
-            if(!var1) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
+            if(!var1) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 10;
@@ -628,7 +474,7 @@ case 35:
             var5 = undefined;
             var4 = var2.bind(var5)(var1);
             var3 = var4.track;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot6;
             var2 = var1.GAME_SERVER_HOSTING_THIRD_PARTY_CONSENT_ACCEPTED;
             var1 = {};
             var7 = _closure1_slot4;
@@ -636,15 +482,15 @@ case 35:
             var6 = var6.bind(var7)();
             var7 = null;
             var7 = var7 == var6;
-            if(var7) { _fun0008_ip = 36; continue _fun0008 }
+            if(var7) { _fun0006_ip = 28; continue _fun0006 }
 case 9:
             var5 = var6.id;
-case 36:
+case 28:
             var1['user_id'] = var5;
             var5 = arg2;
             var1['provider'] = var5;
             var1 = var3.bind(var4)(var2, var1);
-case 34:
+case 26:
             var1 = undefined;
             return var1;
         }
@@ -694,7 +540,7 @@ case 34:
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {};
-        var7 = _closure1_slot8;
+        var7 = _closure1_slot7;
         var6 = var7.GUILD_POWERUP_TOGGLE;
         var5 = arg1;
         var4 = arg2;
@@ -723,7 +569,7 @@ case 34:
         var3 = var1.HTTP;
         var2 = var3.patch;
         var1 = {};
-        var7 = _closure1_slot8;
+        var7 = _closure1_slot7;
         var6 = var7.GUILD_POWERUP_UPDATE;
         var5 = arg1;
         var4 = arg2;
@@ -752,7 +598,7 @@ case 34:
         var3 = var1.HTTP;
         var2 = var3.del;
         var1 = {};
-        var7 = _closure1_slot8;
+        var7 = _closure1_slot7;
         var6 = var7.GUILD_POWERUP_TOGGLE;
         var5 = arg1;
         var4 = arg2;
@@ -779,7 +625,7 @@ case 34:
         var3 = var1.HTTP;
         var2 = var3.get;
         var1 = {'url': null, 'rejectWithError': true, 'oldFormErrors': true, 'retries': 3};
-        var6 = _closure1_slot8;
+        var6 = _closure1_slot7;
         var5 = var6.GAME_SERVER_REGIONS;
         var4 = arg1;
         var4 = var5.bind(var6)(var4);
@@ -835,7 +681,7 @@ case 34:
         var4 = var2.HTTP;
         var3 = var4.post;
         var2 = {};
-        var7 = _closure1_slot8;
+        var7 = _closure1_slot7;
         var6 = var7.GAME_SERVER_WAKE;
         var5 = arg2;
         var5 = var6.bind(var7)(var8, var5);

@@ -367,19 +367,19 @@ case 0:
                     var5 = var5.bind(var1)(var3);
                     var3 = var5.isAndroid;
                     var3 = var3.bind(var5)();
-                    if(var3) { _fun0003_ip = 8; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 27; continue _fun0003 }
 case 31:
                     var5 = _closure2_slot11;
                     var6 = var5.current;
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0003_ip = 8; continue _fun0003 }
+                    if(!(var5 != var6)) { _fun0003_ip = 27; continue _fun0003 }
 case 32:
                     var5 = _closure2_slot5;
                     var6 = 0;
-                    if(!(var6 !== var5)) { _fun0003_ip = 8; continue _fun0003 }
+                    if(!(var6 !== var5)) { _fun0003_ip = 27; continue _fun0003 }
 case 33:
                     var5 = _closure2_slot7;
-                    if(!(var6 !== var5)) { _fun0003_ip = 8; continue _fun0003 }
+                    if(!(var6 !== var5)) { _fun0003_ip = 27; continue _fun0003 }
 case 6:
                     var5 = _closure2_slot11;
                     var7 = var5.current;
@@ -409,7 +409,7 @@ case 6:
                     var3 = {'x': 0, 'y': 0, 'animated': false};
                     var3 = var5.bind(var6)(var3);
                     _fun0003_ip = 34; continue _fun0003;
-case 8:
+case 27:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var4];

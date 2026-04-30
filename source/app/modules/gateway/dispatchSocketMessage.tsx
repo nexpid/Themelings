@@ -5900,6 +5900,24 @@ case 198:
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
+    var7 = ['WALLET_BALANCE_UPDATE'];
+    var4 = function(arg1) {
+        var1 = arg1;
+        var3 = _closure1_slot29;
+        var2 = {};
+        var4 = 'WALLET_BALANCE_UPDATE';
+        var2['type'] = var4;
+        var4 = var1.payment_source_id;
+        var2['paymentSourceId'] = var4;
+        var4 = var1.balance;
+        var2['balance'] = var4;
+        var1 = var1.currency;
+        var2['currency'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
     var7 = ['GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE'];
     var4 = function(arg1, arg2) {
         var1 = arg1;

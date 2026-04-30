@@ -28,22 +28,30 @@ case 0:
                 var5 = undefined;
                 var1 = var6.bind(var5)(var1);
                 var1 = var1.I18nLinkComponent;
-                if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+                var1 = var3 === var1;
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
+                var3 = var2.props;
+                var6 = var3.accessibilityRole;
+                var3 = 'link';
+                var1 = var3 === var6;
+case 2:
+                if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = var2.props;
                 var6 = var3.children;
                 var1 = null;
-                if(!(var1 == var6)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+                if(!(var1 == var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var1 = new Array(0);
-                _fun0001_ip = 6; continue _fun0001;
-case 4:
+                _fun0001_ip = 8; continue _fun0001;
+case 6:
                 var4 = _closure1_slot7;
                 var3 = var3.children;
                 var1 = var4.bind(var5)(var3);
-case 6:
+case 8:
                 return var1;
-case 2:
+case 4:
                 var1 = new Array(1);
                 var1[0] = var2;
                 return var1;
@@ -133,12 +141,12 @@ case 0:
             var8 = var8.bind(var4)(var6);
             var6 = var8.isIOS;
             var6 = var6.bind(var8)();
-            if(!var6) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-            if(var2) { _fun0002_ip = 9; continue _fun0002 }
-case 7:
-            return var7;
+            if(!var6) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            if(var2) { _fun0002_ip = 11; continue _fun0002 }
 case 9:
+            return var7;
+case 11:
             var2 = _closure1_slot7;
             var6 = var2.bind(var4)(var3);
             var3 = _closure1_slot5;

@@ -733,13 +733,13 @@ case 0:
                 var4 = var2.type;
                 var1 = _closure1_slot11;
                 var1 = var1.GAME;
-                if(!(var4 !== var1)) { _fun0013_ip = 33; continue _fun0013 }
-case 80:
+                if(!(var4 !== var1)) { _fun0013_ip = 80; continue _fun0013 }
+case 81:
                 var8 = var2.linkedGames;
                 var1 = null;
                 var5 = var1 == var8;
                 var4 = undefined;
-                if(var5) { _fun0013_ip = 81; continue _fun0013 }
+                if(var5) { _fun0013_ip = 9; continue _fun0013 }
 case 82:
                 var6 = var8.find;
                 var5 = function(arg1) {
@@ -763,18 +763,18 @@ case 83:
                 var5 = var6.bind(var8)(var5);
                 var6 = var1 == var5;
                 var4 = undefined;
-                if(var6) { _fun0013_ip = 81; continue _fun0013 }
+                if(var6) { _fun0013_ip = 9; continue _fun0013 }
 case 85:
                 var4 = var5.id;
-case 81:
+case 9:
                 var5 = var1 != var4;
                 var1 = null;
-                if(!var5) { _fun0013_ip = 86; continue _fun0013 }
-case 87:
-                var1 = var4;
+                if(!var5) { _fun0013_ip = 26; continue _fun0013 }
 case 86:
-                _fun0013_ip = 45; continue _fun0013;
-case 33:
+                var1 = var4;
+case 26:
+                _fun0013_ip = 87; continue _fun0013;
+case 80:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot3;
                 var3 = 15;
@@ -784,7 +784,7 @@ case 33:
                 var3 = var4.cast;
                 var2 = var2.id;
                 var1 = var3.bind(var4)(var2);
-case 45:
+case 87:
                 return var1;
             }
         };

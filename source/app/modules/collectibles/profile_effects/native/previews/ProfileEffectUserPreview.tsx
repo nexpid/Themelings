@@ -52,7 +52,7 @@ case 0:
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
             var1 = {};
-            var1['pendingProfileEffectRecord'] = var11;
+            var1['profileEffectOverride'] = var11;
             if(!(var6 == var11)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var10 = _closure1_slot0;

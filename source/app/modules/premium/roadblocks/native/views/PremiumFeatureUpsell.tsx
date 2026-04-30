@@ -329,7 +329,7 @@ case 30:
             var19 = 18;
             var19 = var14[var19];
             var19 = var15.bind(var4)(var19);
-            var20 = var19.Text;
+            var20 = var19.TextWithIOSLinkWorkaround;
             var19 = {};
             var23 = var16.text;
             var19['style'] = var23;

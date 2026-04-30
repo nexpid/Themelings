@@ -1311,16 +1311,16 @@ case 0:
                         var2 = var2.bind(var3)(var1);
                         var4 = null;
                         var1 = var4 == var2;
-                        if(var1) { _fun0013_ip = 49; continue _fun0013 }
-case 78:
+                        if(var1) { _fun0013_ip = 78; continue _fun0013 }
+case 79:
                         var3 = var2.action;
                         var1 = var4 == var3;
-case 49:
-                        if(var1) { _fun0013_ip = 79; continue _fun0013 }
-case 80:
+case 78:
+                        if(var1) { _fun0013_ip = 50; continue _fun0013 }
+case 20:
                         var1 = var2.action;
                         var1 = var1.bind(var2)();
-case 79:
+case 50:
                         var1 = undefined;
                         return var1;
                     }
@@ -1341,7 +1341,7 @@ case 0:
                         var3 = var4.isAndroid;
                         var3 = var3.bind(var4)();
                         if(!var3) { _fun0014_ip = 8; continue _fun0014 }
-case 81:
+case 80:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var4 = 16;
@@ -1350,8 +1350,8 @@ case 81:
                         var4 = var5.getIsScreenReaderEnabled;
                         var3 = var4.bind(var5)();
 case 8:
-                        if(!var3) { _fun0014_ip = 82; continue _fun0014 }
-case 83:
+                        if(!var3) { _fun0014_ip = 81; continue _fun0014 }
+case 82:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
                         var2 = 4;
@@ -1361,7 +1361,7 @@ case 83:
                         var2 = _closure2_slot25;
                         var2 = var3.bind(var4)(var2);
                         var2 = var2.bind(var1)();
-case 82:
+case 81:
                         return var1;
                     }
                 };
@@ -1387,19 +1387,19 @@ case 82:
                 var6['ref'] = var12;
                 var6['onPress'] = var9;
                 var9 = undefined;
-                if(!var11) { _fun0002_ip = 84; continue _fun0002 }
-case 85:
-                var9 = undefined;
-                if(!var1) { _fun0002_ip = 84; continue _fun0002 }
-case 86:
-                var9 = var10;
+                if(!var11) { _fun0002_ip = 83; continue _fun0002 }
 case 84:
+                var9 = undefined;
+                if(!var1) { _fun0002_ip = 83; continue _fun0002 }
+case 85:
+                var9 = var10;
+case 83:
                 var6['onLongPress'] = var9;
                 var6['accessibilityActions'] = var4;
                 var6['onAccessibilityAction'] = var3;
                 var4 = _closure1_slot5;
-                if(var1) { _fun0002_ip = 87; continue _fun0002 }
-case 88:
+                if(var1) { _fun0002_ip = 86; continue _fun0002 }
+case 87:
                 var3 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var1 = 14;
@@ -1411,14 +1411,14 @@ case 88:
                 var8 = var7.bind(var5)(var6);
                 var1['children'] = var8;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0002_ip = 89; continue _fun0002;
-case 87:
+                _fun0002_ip = 88; continue _fun0002;
+case 86:
                 var3 = _closure1_slot4;
                 var2 = {};
                 var6 = var7.bind(var5)(var6);
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
-case 89:
+case 88:
                 return var1;
             }
         };

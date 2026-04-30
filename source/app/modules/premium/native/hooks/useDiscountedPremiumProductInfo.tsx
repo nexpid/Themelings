@@ -130,48 +130,48 @@ case 10:
 case 11:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot1;
-                var5 = 4;
-                var5 = var6[var5];
-                var6 = undefined;
-                var5 = var7.bind(var6)(var5);
-                var7 = var5.DiscountIdToProductOfferId;
-                var5 = _closure2_slot0;
-                var5 = var5.discount_id;
-                var8 = var7[var5];
+                var4 = 4;
+                var6 = var6[var4];
+                var4 = undefined;
+                var6 = var7.bind(var4)(var6);
+                var7 = var6.DiscountIdToProductOfferId;
+                var6 = _closure2_slot0;
+                var6 = var6.discount_id;
+                var8 = var7[var6];
                 var7 = var1 == var8;
-                var5 = undefined;
+                var6 = undefined;
                 if(var7) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
                 var7 = _closure2_slot3;
                 var7 = var7.identifier;
-                var5 = var8[var7];
+                var6 = var8[var7];
 case 12:
-                var _closure3_slot0 = var5;
-                if(!(var1 != var5)) { _fun0003_ip = 14; continue _fun0003 }
+                var _closure3_slot0 = var6;
+                if(!(var1 != var6)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-                var5 = _closure2_slot3;
-                var7 = var5.currencyCode;
-                var5 = var7.toUpperCase;
-                var7 = var5.bind(var7)();
-                var5 = _closure1_slot4;
-                var5 = var7 in var5;
-                if(var5) { _fun0003_ip = 16; continue _fun0003 }
+                var6 = _closure2_slot3;
+                var7 = var6.currencyCode;
+                var6 = var7.toUpperCase;
+                var7 = var6.bind(var7)();
+                var6 = _closure1_slot4;
+                var6 = var7 in var6;
+                if(var6) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
-                var5 = _closure1_slot4;
-                var5 = var5.USD;
+                var6 = _closure1_slot4;
+                var6 = var6.USD;
                 _fun0003_ip = 18; continue _fun0003;
 case 16:
                 var7 = _closure2_slot3;
                 var8 = var7.currencyCode;
                 var7 = var8.toLowerCase;
-                var5 = var7.bind(var8)();
+                var6 = var7.bind(var8)();
 case 18:
-                var4 = _closure2_slot3;
-                var7 = var4.subscriptionOffers;
+                var5 = _closure2_slot3;
+                var7 = var5.subscriptionOffers;
                 if(!(var1 != var7)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
-                var7 = var4.subscriptionOffers;
-                var4 = var7.find;
+                var7 = var5.subscriptionOffers;
+                var5 = var7.find;
                 var3 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.offerId;
@@ -179,29 +179,34 @@ case 20:
                     var1 = var2 === var1;
                     return var1;
                 };
-                var3 = var4.bind(var7)(var3);
+                var3 = var5.bind(var7)(var3);
                 if(!(var1 != var3)) { _fun0003_ip = 19; continue _fun0003 }
 case 21:
-                var4 = var3.pricingPhases;
-                if(!(var1 != var4)) { _fun0003_ip = 19; continue _fun0003 }
+                var5 = var3.pricingPhases;
+                if(!(var1 != var5)) { _fun0003_ip = 19; continue _fun0003 }
 case 22:
-                var4 = var3.pricingPhases;
-                var7 = var4.length;
-                var4 = 0;
-                if(!(!(var7 > var4))) { _fun0003_ip = 23; continue _fun0003 }
+                var5 = var3.pricingPhases;
+                var7 = var5.length;
+                var5 = 0;
+                if(!(!(var7 > var5))) { _fun0003_ip = 23; continue _fun0003 }
 case 19:
                 return var1;
 case 23:
                 var3 = var3.pricingPhases;
-                var3 = var3[var4];
-                var4 = var3.price;
+                var3 = var3[var5];
+                var5 = var3.price;
+                var3 = 100;
+                var5 = var5 / var3;
                 var3 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var2 = 5;
                 var2 = var7[var2];
-                var3 = var3.bind(var6)(var2);
-                var2 = var3.formatPrice;
-                var2 = var2.bind(var3)(var4, var5);
+                var4 = var3.bind(var4)(var2);
+                var3 = var4.formatPrice;
+                var2 = {};
+                var7 = false;
+                var2['convertToMajorUnits'] = var7;
+                var2 = var3.bind(var4)(var5, var6, var2);
                 return var2;
 case 14:
                 return var1;

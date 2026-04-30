@@ -120,9 +120,34 @@ case 17:
             var1 = var1.enabled;
             var1 = var4.bind(var5)(var1);
 case 16:
+            var1 = _closure1_slot8;
+            var5 = var1.NSUserDefaultsBridge;
+            var1 = var2 == var5;
+            if(var1) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+            var4 = var5.setUseSDWebImageAnimatedCoderLockFix;
+            var1 = var2 == var4;
+case 18:
+            if(var1) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+            var4 = var5.setUseSDWebImageAnimatedCoderLockFix;
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var1 = 11;
+            var6 = var6[var1];
+            var1 = undefined;
+            var7 = var7.bind(var1)(var6);
+            var6 = var7.getConfig;
+            var1 = {};
+            var8 = 'NativeExperimentBridgeManager';
+            var1['location'] = var8;
+            var1 = var6.bind(var7)(var1);
+            var1 = var1.enabled;
+            var1 = var4.bind(var5)(var1);
+case 20:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var4 = var4[var1];
             var1 = undefined;
             var6 = var5.bind(var1)(var4);
@@ -132,24 +157,24 @@ case 16:
             var4['location'] = var7;
             var4 = var5.bind(var6)(var4);
             var4 = var4.enabled;
-            if(!var4) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!var4) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
             var4 = _closure1_slot8;
             var6 = var4.RNVVideo;
-            if(!(var2 != var6)) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+            if(!(var2 != var6)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var5 = var6.setOptimizeConfigureAudio;
             var4 = true;
             var4 = var5.bind(var6)(var4);
-case 20:
+case 24:
             var3 = _closure1_slot8;
             var4 = var3.RNVVideo;
-            if(!(var2 != var4)) { _fun0002_ip = 18; continue _fun0002 }
-case 22:
+            if(!(var2 != var4)) { _fun0002_ip = 22; continue _fun0002 }
+case 26:
             var3 = var4.setUseBackgroundProgressQueue;
             var2 = true;
             var2 = var3.bind(var4)(var2);
-case 18:
+case 22:
             return var1;
         }
     };
@@ -160,7 +185,7 @@ case 0:
             var13 = {};
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 12;
+            var1 = 13;
             var2 = var4[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
@@ -178,7 +203,7 @@ case 0:
             var2 = _closure1_slot9;
             var2 = var2.locale;
             var13['X-Discord-Locale'] = var2;
-            var2 = 13;
+            var2 = 14;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.getConfig;
@@ -193,8 +218,8 @@ case 0:
             var2 = _closure1_slot8;
             var5 = var2.NativeCacheModule;
             var2 = null;
-            if(!(var2 != var5)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+            if(!(var2 != var5)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var4 = var5.setItem;
             var9 = global;
             var6 = var9.JSON;
@@ -208,7 +233,7 @@ case 24:
             var2['enabled'] = var12;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 14;
+            var10 = 15;
             var10 = var13[var10];
             var12 = var12.bind(var1)(var10);
             var10 = var12.getAPIBaseURL;
@@ -224,7 +249,7 @@ case 24:
             var3 = var3.bind(var6)(var2);
             var2 = 'notificationNetworkRequest';
             var2 = var4.bind(var5)(var2, var3);
-case 23:
+case 27:
             return var1;
         }
     };
@@ -271,7 +296,7 @@ case 23:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot10 = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -295,12 +320,12 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+                if(var1) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var4, var10);
-                _fun0004_ip = 27; continue _fun0004;
-case 25:
+                _fun0004_ip = 31; continue _fun0004;
+case 29:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -308,37 +333,37 @@ case 25:
                 var6 = var6.bind(var5)(var4);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 27:
+case 31:
                 var1 = var2.bind(var5)(var4, var1);
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var6 = 15;
+                var6 = 16;
                 var2 = var2[var6];
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isIOS;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+                if(var2) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var6];
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isAndroid;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+                if(var2) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
                 var2 = function() {
                     var1 = undefined;
                     return var1;
                 };
-                _fun0004_ip = 32; continue _fun0004;
-case 30:
+                _fun0004_ip = 36; continue _fun0004;
+case 34:
                 var2 = _closure1_slot13;
+case 36:
+                _fun0004_ip = 37; continue _fun0004;
 case 32:
-                _fun0004_ip = 33; continue _fun0004;
-case 28:
                 var2 = _closure1_slot12;
-case 33:
+case 37:
                 var1['handleUpdate'] = var2;
                 var2 = {};
                 var3 = var1.handleUpdate;
@@ -362,7 +387,7 @@ case 33:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

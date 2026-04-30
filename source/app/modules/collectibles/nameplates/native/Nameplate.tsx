@@ -140,31 +140,31 @@ case 31:
             var14 = false;
 case 30:
             var13 = var3.fullOpacity;
-            if(!(var13 === var4)) { _fun0002_ip = 5; continue _fun0002 }
-case 32:
-            var13 = false;
-case 5:
-            var17 = var3.isSquarePreview;
-            if(!(var17 === var4)) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
-            var17 = false;
+            if(!(var13 === var4)) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
-            var10 = var3.invertPressOpacity;
-            if(!(var10 === var4)) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
-            var10 = false;
+            var13 = false;
+case 32:
+            var17 = var3.isSquarePreview;
+            if(!(var17 === var4)) { _fun0002_ip = 34; continue _fun0002 }
 case 35:
-            var2 = var3.fadeIn;
-            if(!(var2 === var4)) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
-            var2 = false;
+            var17 = false;
+case 34:
+            var10 = var3.invertPressOpacity;
+            if(!(var10 === var4)) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
+            var10 = false;
+case 36:
+            var2 = var3.fadeIn;
+            if(!(var2 === var4)) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
+            var2 = false;
+case 38:
             var _closure2_slot0 = var2;
             var6 = var3.animate;
-            if(!(var6 === var4)) { _fun0002_ip = 39; continue _fun0002 }
+            if(!(var6 === var4)) { _fun0002_ip = 12; continue _fun0002 }
 case 40:
             var6 = false;
-case 39:
+case 12:
             var12 = var3.style;
             var _closure2_slot1 = var4;
             var11 = _closure1_slot0;

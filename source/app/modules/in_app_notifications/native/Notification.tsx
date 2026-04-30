@@ -686,7 +686,7 @@ case 0:
             var3 = var5.useInAppNotificationRedesign;
             var2 = 'NotificationPressable';
             var2 = var3.bind(var5)(var2);
-            var13 = var2.redesignEnabled;
+            var13 = var2.moveTimerBar;
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var1 = var23[var1];

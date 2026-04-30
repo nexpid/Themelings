@@ -42,7 +42,7 @@ case 0:
 case 3:
             var3 = _closure1_slot3;
             var4 = var3.DeviceSettingsManager;
-            var3 = var4.openPrivacySettings;
+            var3 = var4.openNotificationSettings;
             var3 = var3.bind(var4)();
             _fun0001_ip = 4; continue _fun0001;
 case 2:

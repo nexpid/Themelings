@@ -1959,6 +1959,25 @@ case 119:
         return var1;
     };
     var2['CLIPS_CLEAR_NEW_CLIP_IDS'] = var7;
+    var7 = function removeSingleNewClipId(arg1) {
+        var2 = arg1;
+        var2 = var2.clipId;
+        var _closure2_slot0 = var2;
+        var2 = _closure1_slot35;
+        var4 = var2.newClipIds;
+        var3 = var4.filter;
+        var1 = function(arg1) {
+            var2 = _closure2_slot0;
+            var1 = arg1;
+            var1 = var1 !== var2;
+            return var1;
+        };
+        var1 = var3.bind(var4)(var1);
+        var2['newClipIds'] = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['CLIPS_REMOVE_SINGLE_NEW_CLIP_ID'] = var7;
     var7 = function handleClipsDirectoryLoaded(arg1) {
         _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:

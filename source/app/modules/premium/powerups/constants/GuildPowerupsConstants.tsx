@@ -164,6 +164,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var26.bind(var1)(var7);
     var7 = var7.GUILD_POWERUP_MAX_FILE_SIZE_250_MB_SKU_ID;
     var18[6] = var10;
+    var7 = var27[var2];
+    var7 = var26.bind(var1)(var7);
+    var7 = var7.GUILD_POWERUP_GUILD_THEME_SKU_ID;
+    var18[6] = var10;
     var11 = var28.Set;
     var7 = var27[var2];
     var7 = var26.bind(var1)(var7);

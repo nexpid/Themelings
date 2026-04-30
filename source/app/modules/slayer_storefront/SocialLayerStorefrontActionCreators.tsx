@@ -720,8 +720,12 @@ case 59:
                         var1['guildId'] = var3;
                         var3 = var2.application_id;
                         var1['applicationId'] = var3;
-                        var2 = var2.game_id;
-                        var1['gameId'] = var2;
+                        var3 = var2.game_id;
+                        var1['gameId'] = var3;
+                        var3 = var2.collectibles_shop_navigation_enabled;
+                        var2 = true;
+                        var2 = var2 === var3;
+                        var1['collectiblesShopNavigationEnabled'] = var2;
                         return var1;
                     };
                     var10 = var14.bind(var15)(var13);

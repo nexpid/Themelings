@@ -550,11 +550,11 @@ case 15:
                             var1 = var3 === var2;
 case 38:
                             if(!var1) { _fun0009_ip = 39; continue _fun0009 }
-case 3:
+case 40:
                             var1 = _closure2_slot3;
 case 39:
-                            if(!var1) { _fun0009_ip = 40; continue _fun0009 }
-case 41:
+                            if(!var1) { _fun0009_ip = 41; continue _fun0009 }
+case 42:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var1 = 5;
@@ -565,7 +565,7 @@ case 41:
                             var1 = _closure2_slot1;
                             var1 = var3.bind(var4)(var1);
                             var1 = var1.bind(var2)();
-case 40:
+case 41:
                             var1 = undefined;
                             return var1;
                         }
@@ -604,12 +604,12 @@ case 40:
                     var4 = var8.bind(var4)(var3);
                     var3 = var4.withSpring;
                     var8 = _closure2_slot3;
-                    if(!var8) { _fun0008_ip = 42; continue _fun0008 }
-case 43:
+                    if(!var8) { _fun0008_ip = 43; continue _fun0008 }
+case 44:
                     var8 = _closure2_slot2;
                     var7 = var8.get;
                     var6 = var7.bind(var8)();
-case 42:
+case 43:
                     var2 = _closure1_slot8;
                     var2 = var3.bind(var4)(var6, var2, var5);
                     var1['opacity'] = var2;
@@ -660,7 +660,7 @@ case 0:
                     var5 = var2.YEETED;
                     var2 = 1;
                     if(!(var6 === var5)) { _fun0010_ip = 30; continue _fun0010 }
-case 44:
+case 45:
                     var2 = 0;
 case 30:
                     var2 = var3.bind(var4)(var2);
@@ -682,8 +682,8 @@ case 30:
             var7 = var9.type;
             var5 = _closure1_slot4;
             var5 = var5.FOLDER;
-            if(!(var7 !== var5)) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
+            if(!(var7 !== var5)) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -696,8 +696,8 @@ case 46:
             var10 = true;
             var5['isDragPreview'] = var10;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0007_ip = 47; continue _fun0007;
-case 45:
+            _fun0007_ip = 48; continue _fun0007;
+case 46:
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -718,7 +718,7 @@ case 45:
             var9 = true;
             var6['isDragPreview'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 47:
+case 48:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -818,14 +818,14 @@ case 0:
                     var2 = var1.listInsets;
                     var8 = var1.dropSpecs;
                     var1 = null;
-                    if(!(var1 == var8)) { _fun0012_ip = 48; continue _fun0012 }
-case 49:
-                    if(!(var1 != var9)) { _fun0012_ip = 50; continue _fun0012 }
-case 41:
-                    if(!(var1 == var11)) { _fun0012_ip = 51; continue _fun0012 }
+                    if(!(var1 == var8)) { _fun0012_ip = 49; continue _fun0012 }
 case 50:
-                    return var1;
+                    if(!(var1 != var9)) { _fun0012_ip = 51; continue _fun0012 }
+case 42:
+                    if(!(var1 == var11)) { _fun0012_ip = 52; continue _fun0012 }
 case 51:
+                    return var1;
+case 52:
                     var12 = var11.state;
                     var1 = {};
                     var10 = var9.node;
@@ -838,10 +838,10 @@ case 51:
                     var12 = var10.bind(var12)(var9);
                     var9 = undefined;
                     var10 = undefined;
-                    if(!var12) { _fun0012_ip = 52; continue _fun0012 }
-case 53:
+                    if(!var12) { _fun0012_ip = 53; continue _fun0012 }
+case 54:
                     var10 = var11.node;
-case 52:
+case 53:
                     var1['overNode'] = var10;
                     var1['dropPosition'] = var9;
                     var1['gestureState'] = var7;
@@ -851,7 +851,7 @@ case 52:
                     var1['dropComplete'] = var3;
                     var1['listInsets'] = var2;
                     return var1;
-case 48:
+case 49:
                     var11 = var8.overState;
                     var1 = {};
                     var9 = var8.dragNode;
@@ -863,10 +863,10 @@ case 48:
                     var9 = 'convert';
                     var10 = var10.bind(var11)(var9);
                     var9 = undefined;
-                    if(!var10) { _fun0012_ip = 54; continue _fun0012 }
-case 55:
+                    if(!var10) { _fun0012_ip = 55; continue _fun0012 }
+case 56:
                     var9 = var8.overNode;
-case 54:
+case 55:
                     var1['overNode'] = var9;
                     var8 = var8.dropPosition;
                     var1['dropPosition'] = var8;
@@ -882,7 +882,7 @@ case 54:
             var6 = var4.bind(var5)(var1, var3);
             var1 = null;
             var3 = var1 != var6;
-            if(!var3) { _fun0011_ip = 56; continue _fun0011 }
+            if(!var3) { _fun0011_ip = 57; continue _fun0011 }
 case 31:
             var4 = _closure1_slot6;
             var3 = _closure1_slot15;
@@ -891,7 +891,7 @@ case 31:
             var7 = var6;
             var6 = copyDataProperties(var8, var7);
             var1 = var4.bind(var5)(var3, var2);
-case 56:
+case 57:
             return var1;
         }
     };
