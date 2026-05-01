@@ -17,8 +17,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var9 = var2.MobileSetting;
-    var2 = 2;
+    var8 = var2.MobileSetting;
+    var2 = 1;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 3;
+        var1 = 2;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -40,10 +40,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['title'] = var10;
-    var10 = function useDescription() {
+    var9 = function useDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 3;
+        var1 = 2;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -56,36 +56,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['useDescription'] = var10;
-    var9 = var9.NOTIFICATIONS;
-    var2['parent'] = var9;
-    var9 = 4;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.EnableFriendGamingActivityNotifications;
-    var9 = var9.useSetting;
-    var2['useValue'] = var9;
-    var9 = 5;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.onFriendGamingActivityNotificationSettingsChanged;
-    var2['onValueChange'] = var9;
-    var8 = function useExperiment() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 1;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.useFriendGamingActivityExperiment;
-        var1 = 'tabsV2Settings';
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.showSettingsToggle;
-        return var1;
-    };
-    var2['usePredicate'] = var8;
+    var2['useDescription'] = var9;
+    var8 = var8.NOTIFICATIONS;
+    var2['parent'] = var8;
+    var8 = 3;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.EnableFriendGamingActivityNotifications;
+    var8 = var8.useSetting;
+    var2['useValue'] = var8;
+    var8 = 4;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.onFriendGamingActivityNotificationSettingsChanged;
+    var2['onValueChange'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 6;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

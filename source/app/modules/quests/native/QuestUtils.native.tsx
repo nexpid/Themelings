@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot15;
+            var9 = _closure1_slot17;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot17;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot16 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot17 = var1;
     var1 = function openRewardClaimBottomSheet(arg1) {
         var1 = arg1;
         var9 = var1.questId;
@@ -213,7 +213,7 @@ case 35:
         var1 = var4.bind(var5)(var3, var2, var1);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot18 = var1;
     var1 = global;
     var9 = var1.Object;
     var6 = var9.defineProperty;
@@ -258,8 +258,12 @@ case 35:
     var4 = 6;
     var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot11 = var4;
+    var5 = var4.jsx;
+    var _closure1_slot11 = var5;
+    var5 = var4.Fragment;
+    var _closure1_slot12 = var5;
+    var4 = var4.jsxs;
+    var _closure1_slot13 = var4;
     var5 = function viewReward(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -312,7 +316,7 @@ case 38:
             var3 = var8.bind(var9)(var3);
             _fun0004_ip = 40; continue _fun0004;
 case 36:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot18;
             var2 = {};
             var7 = var7.id;
             var2['questId'] = var7;
@@ -324,7 +328,7 @@ case 40:
             return var1;
         }
     };
-    var _closure1_slot12 = var5;
+    var _closure1_slot14 = var5;
     var4 = function() {
         var4 = _closure1_slot3;
         var3 = undefined;
@@ -439,7 +443,7 @@ case 41:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var _closure1_slot13 = var4;
+    var _closure1_slot15 = var4;
     var4 = function() {
         var4 = _closure1_slot3;
         var3 = undefined;
@@ -543,7 +547,7 @@ case 57:
                     var5 = var11.bind(var12)(var5);
                     if(var5) { _fun0006_ip = 60; continue _fun0006 }
 case 61:
-                    var5 = _closure1_slot13;
+                    var5 = _closure1_slot15;
                     var5 = var5.bind(var6)(var10);
                     SaveGenerator(address=392);
 case 62:
@@ -554,7 +558,7 @@ case 63:
 case 65:
                     if(!var5) { _fun0006_ip = 66; continue _fun0006 }
 case 67:
-                    var12 = _closure1_slot12;
+                    var12 = _closure1_slot14;
                     var11 = {};
                     var11['quest'] = var10;
                     var11['product'] = var14;
@@ -568,7 +572,7 @@ case 66:
 case 64:
                     return var5;
 case 60:
-                    var5 = _closure1_slot16;
+                    var5 = _closure1_slot18;
                     var4 = {};
                     var10 = var10.id;
                     var4['questId'] = var10;
@@ -602,7 +606,7 @@ case 49:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var6 = 33;
+    var6 = 35;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -803,7 +807,7 @@ case 86:
                             var4 = function searchRoutes(arg1) {
                                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                                    var2 = _closure1_slot14;
+                                    var2 = _closure1_slot16;
                                     var9 = undefined;
                                     var1 = arg1;
                                     var8 = var2.bind(var9)(var1);
@@ -958,7 +962,7 @@ case 37:
         return var1;
     };
     var3['openDiscordQuestsFAQ'] = var4;
-    var2 = function getPrimaryCtaIcon(arg1) {
+    var4 = function getPrimaryCtaIcon(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
@@ -1049,6 +1053,93 @@ case 106:
             return var1;
         }
     };
-    var3['getPrimaryCtaIcon'] = var2;
+    var3['getPrimaryCtaIcon'] = var4;
+    var2 = function showQuestUnavailableAlert() {
+        var16 = _closure1_slot0;
+        var17 = _closure1_slot2;
+        var1 = 33;
+        var2 = var17[var1];
+        var1 = undefined;
+        var5 = var16.bind(var1)(var2);
+        var4 = var5.openAlert;
+        var6 = _closure1_slot11;
+        var11 = 34;
+        var2 = var17[var11];
+        var2 = var16.bind(var1)(var2);
+        var3 = var2.AlertModal;
+        var2 = {};
+        var13 = 18;
+        var8 = var17[var13];
+        var8 = var16.bind(var1)(var8);
+        var10 = var8.intl;
+        var9 = var10.string;
+        var8 = var17[var13];
+        var8 = var16.bind(var1)(var8);
+        var8 = var8.t;
+        var8 = var8.Lhpq2P;
+        var8 = var9.bind(var10)(var8);
+        var2['title'] = var8;
+        var8 = var17[var13];
+        var8 = var16.bind(var1)(var8);
+        var10 = var8.intl;
+        var9 = var10.string;
+        var8 = var17[var13];
+        var8 = var16.bind(var1)(var8);
+        var8 = var8.t;
+        var8 = var8.iyF4WB;
+        var8 = var9.bind(var10)(var8);
+        var2['content'] = var8;
+        var9 = _closure1_slot13;
+        var8 = _closure1_slot12;
+        var7 = {};
+        var10 = var17[var11];
+        var10 = var16.bind(var1)(var10);
+        var12 = var10.AlertActionButton;
+        var10 = {};
+        var14 = var17[var13];
+        var14 = var16.bind(var1)(var14);
+        var18 = var14.intl;
+        var15 = var18.string;
+        var14 = var17[var13];
+        var14 = var16.bind(var1)(var14);
+        var14 = var14.t;
+        var14 = var14.H0vjGc;
+        var14 = var15.bind(var18)(var14);
+        var10['text'] = var14;
+        var14 = 15;
+        var14 = var17[var14];
+        var14 = var16.bind(var1)(var14);
+        var14 = var14.fetchCurrentQuests;
+        var10['onPress'] = var14;
+        var12 = var6.bind(var1)(var12, var10);
+        var10 = new Array(2);
+        var10[0] = var12;
+        var11 = var17[var11];
+        var11 = var16.bind(var1)(var11);
+        var12 = var11.AlertActionButton;
+        var11 = {};
+        var14 = var17[var13];
+        var14 = var16.bind(var1)(var14);
+        var15 = var14.intl;
+        var14 = var15.string;
+        var13 = var17[var13];
+        var13 = var16.bind(var1)(var13);
+        var13 = var13.t;
+        var13 = var13["6XS10x"];
+        var13 = var14.bind(var15)(var13);
+        var11['text'] = var13;
+        var13 = 'secondary';
+        var11['variant'] = var13;
+        var11 = var6.bind(var1)(var12, var11);
+        var10[1] = var11;
+        var7['children'] = var10;
+        var7 = var9.bind(var1)(var8, var7);
+        var2['actions'] = var7;
+        var3 = var6.bind(var1)(var3, var2);
+        var2 = 'quest-unavailable';
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
+    };
+    var3['showQuestUnavailableAlert'] = var2;
     return var1;
 })();

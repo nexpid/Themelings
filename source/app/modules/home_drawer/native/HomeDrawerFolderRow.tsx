@@ -31,12 +31,9 @@ case 0:
             var6 = 6;
             var7 = var12[var6];
             var4 = undefined;
-            var14 = var5.bind(var4)(var7);
-            var10 = var14.useStateFromStores;
+            var10 = var5.bind(var4)(var7);
+            var9 = var10.useStateFromStores;
             var7 = _closure1_slot5;
-            var9 = new Array(1);
-            var9[0] = var7;
-            var7 = var11.guildIds;
             var8 = new Array(1);
             var8[0] = var7;
             var7 = function() {
@@ -56,14 +53,11 @@ case 0:
                 var1 = var1.length;
                 return var1;
             };
-            var9 = var10.bind(var14)(var9, var7, var8);
+            var9 = var9.bind(var10)(var8, var7);
             var6 = var12[var6];
-            var14 = var5.bind(var4)(var6);
-            var10 = var14.useStateFromStores;
+            var10 = var5.bind(var4)(var6);
+            var8 = var10.useStateFromStores;
             var6 = _closure1_slot5;
-            var8 = new Array(1);
-            var8[0] = var6;
-            var6 = var11.guildIds;
             var7 = new Array(1);
             var7[0] = var6;
             var6 = function() {
@@ -81,7 +75,7 @@ case 0:
                 var1 = var1.length;
                 return var1;
             };
-            var10 = var10.bind(var14)(var8, var6, var7);
+            var10 = var8.bind(var10)(var7, var6);
             var8 = _closure1_slot3;
             var7 = var8.useMemo;
             var14 = var11.folderName;

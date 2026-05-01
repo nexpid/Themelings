@@ -714,37 +714,47 @@ case 59:
                     var15 = var13;
                     var14 = var15.map;
                     var13 = function(arg1) {
-                        var2 = arg1;
-                        var1 = {};
-                        var3 = var2.guild_id;
-                        var1['guildId'] = var3;
-                        var3 = var2.application_id;
-                        var1['applicationId'] = var3;
-                        var3 = var2.game_id;
-                        var1['gameId'] = var3;
-                        var3 = var2.collectibles_shop_navigation_enabled;
-                        var2 = true;
-                        var2 = var2 === var3;
-                        var1['collectiblesShopNavigationEnabled'] = var2;
-                        return var1;
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                            var2 = arg1;
+                            var1 = {};
+                            var3 = var2.guild_id;
+                            var1['guildId'] = var3;
+                            var3 = var2.application_id;
+                            var1['applicationId'] = var3;
+                            var3 = var2.game_id;
+                            var1['gameId'] = var3;
+                            var4 = var2.collectibles_shop_navigation_enabled;
+                            var3 = true;
+                            var3 = var3 === var4;
+                            var1['collectiblesShopNavigationEnabled'] = var3;
+                            var2 = var2.excluded_platforms;
+                            var3 = null;
+                            if(!(var3 == var2)) { _fun0005_ip = 84; continue _fun0005 }
+case 74:
+                            var2 = new Array(0);
+case 84:
+                            var1['excludedPlatforms'] = var2;
+                            return var1;
+                        }
                     };
                     var10 = var14.bind(var15)(var13);
 case 83:
                     var12 = var10;
-                    if(!(var9 == var10)) { _fun0004_ip = 84; continue _fun0004 }
-case 85:
-                    var10 = new Array(0);
-                    _fun0004_ip = 86; continue _fun0004;
-case 84:
-                    var10 = var12;
+                    if(!(var9 == var10)) { _fun0004_ip = 85; continue _fun0004 }
 case 86:
+                    var10 = new Array(0);
+                    _fun0004_ip = 87; continue _fun0004;
+case 85:
+                    var10 = var12;
+case 87:
                     var8['storefronts'] = var10;
                     var10 = var11;
                     var10 = var10.announcement_modal_config;
                     var10 = var9 != var10;
                     var9 = null;
-                    if(!var10) { _fun0004_ip = 87; continue _fun0004 }
-case 88:
+                    if(!var10) { _fun0004_ip = 88; continue _fun0004 }
+case 89:
                     var10 = {};
                     var12 = var11.announcement_modal_config;
                     var12 = var12.version;
@@ -753,15 +763,15 @@ case 88:
                     var11 = var11.application_id;
                     var10['applicationId'] = var11;
                     var9 = var10;
-case 87:
+case 88:
                     var8['announcementModalConfig'] = var9;
                     var5['config'] = var8;
                     var5 = var6.bind(var7)(var5);
-case 89: // try_end0
+case 90: // try_end0
                     _fun0004_ip = 71; continue _fun0004;
 case 78:
                     return var4;
-case 90: // catch_target0
+case 91: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -797,11 +807,11 @@ case 70:
         var4 = _closure1_slot3;
         var3 = function* () {
             var1 = function* anon_0_() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 91; continue _fun0005 }
+                    if(var2) { _fun0006_ip = 92; continue _fun0006 }
 case 49:
                     var6 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -832,10 +842,10 @@ case 72: // try_start_0
                     SaveGenerator(address=118);
 case 15:
                     return var3;
-case 92:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0005_ip = 22; continue _fun0005 }
 case 93:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(var6) { _fun0006_ip = 22; continue _fun0006 }
+case 94:
                     var6 = var3.body;
                     var8 = _closure1_slot1;
                     var12 = _closure1_slot2;
@@ -853,11 +863,11 @@ case 93:
                     var10 = var10.bind(var11)(var6);
                     var7['affinity'] = var10;
                     var7 = var8.bind(var9)(var7);
-case 94: // try_end0
+case 95: // try_end0
                     return var6;
 case 22:
                     return var3;
-case 95: // catch_target0
+case 96: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -870,7 +880,7 @@ case 95: // catch_target0
                     var2 = var3.bind(var4)(var2);
                     var2 = null;
                     return var2;
-case 91:
+case 92:
                     return var1;
                 }
             };
@@ -1014,7 +1024,7 @@ case 91:
     };
     var3['fetchSocialLayerStorefrontConfig'] = var4;
     var4 = function fetchSocialLayerSKUPurchaseEligibility(arg1, arg2) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var8 = arg2;
             var _closure2_slot0 = var8;
@@ -1023,17 +1033,17 @@ case 0:
             var4 = var2.bind(var3)(var8);
             var2 = 'checking';
             var2 = var2 !== var4;
-            if(!var2) { _fun0006_ip = 96; continue _fun0006 }
+            if(!var2) { _fun0007_ip = 97; continue _fun0007 }
 case 7:
             var3 = 'eligible';
             var2 = var3 !== var4;
-case 96:
-            if(!var2) { _fun0006_ip = 72; continue _fun0006 }
 case 97:
+            if(!var2) { _fun0007_ip = 72; continue _fun0007 }
+case 98:
             var3 = 'ineligible';
             var2 = var3 !== var4;
 case 72:
-            if(!var2) { _fun0006_ip = 98; continue _fun0006 }
+            if(!var2) { _fun0007_ip = 99; continue _fun0007 }
 case 10:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -1051,15 +1061,15 @@ case 10:
             var7 = var2.setTimeout;
             var3 = _closure1_slot10;
             var2 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var5 = _closure1_slot4;
                     var3 = var5.getSKUEligibility;
                     var2 = _closure2_slot0;
                     var3 = var3.bind(var5)(var2);
                     var2 = 'checking';
-                    if(!(var2 === var3)) { _fun0007_ip = 99; continue _fun0007 }
-case 100:
+                    if(!(var2 === var3)) { _fun0008_ip = 100; continue _fun0008 }
+case 101:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 4;
@@ -1071,7 +1081,7 @@ case 100:
                     var4 = _closure2_slot0;
                     var1['skuId'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 99:
+case 100:
                     var1 = undefined;
                     return var1;
                 }
@@ -1116,7 +1126,7 @@ case 99:
             var3 = var3.bind(var4)(var2);
             var2 = var3.catch;
             var1 = function(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var6 = arg1;
                     var3 = _closure1_slot1;
@@ -1134,17 +1144,17 @@ case 0:
                     var5 = null;
                     var7 = var5 == var6;
                     var5 = undefined;
-                    if(var7) { _fun0008_ip = 101; continue _fun0008 }
-case 102:
+                    if(var7) { _fun0009_ip = 102; continue _fun0009 }
+case 103:
                     var5 = var6.status;
-case 101:
+case 102:
                     var2['httpStatus'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
-case 98:
+case 99:
             var1 = undefined;
             return var1;
         }

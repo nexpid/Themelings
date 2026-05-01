@@ -88,22 +88,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var13 = var3.bind(var4)();
         var _closure2_slot1 = var13;
-        var5 = _closure1_slot3;
-        var6 = var5.useRef;
-        var3 = null;
-        var22 = var6.bind(var5)(var3);
-        var _closure2_slot2 = var22;
-        var6 = var5.useRef;
-        var3 = false;
-        var3 = var6.bind(var5)(var3);
-        var _closure2_slot3 = var3;
         var7 = _closure1_slot0;
         var17 = _closure1_slot2;
         var3 = 5;
         var3 = var17[var3];
-        var6 = var7.bind(var4)(var3);
-        var3 = var6.useSearchSuggestionsGesture;
-        var3 = var3.bind(var6)(var16);
+        var5 = var7.bind(var4)(var3);
+        var3 = var5.useSearchSuggestionsGesture;
+        var3 = var3.bind(var5)(var16);
         var10 = var3.gesture;
         var21 = var3.dismissed;
         var20 = var3.setDismissed;
@@ -114,82 +105,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var14.bind(var4)(var3);
         var3 = var3.bind(var4)();
         var15 = var3.width;
-        var8 = var5.useEffect;
-        var6 = new Array(2);
-        var6[0] = var2;
-        var6[1] = var22;
-        var3 = function() {
-            var5 = _closure2_slot0;
-            var4 = var5.addListener;
-            var3 = 'transitionStart';
-            var2 = function(arg1) {
-                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                    var1 = arg1;
-                    var1 = var1.data;
-                    var1 = var1.closing;
-                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                    var1 = _closure2_slot2;
-                    var2 = var1.current;
-                    var1 = null;
-                    if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
-                    var1 = var2.blur;
-                    var1 = var1.bind(var2)();
-case 2:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var2 = var4.bind(var5)(var3, var2);
-            var _closure3_slot0 = var2;
-            var4 = var5.addListener;
-            var3 = 'transitionEnd';
-            var2 = function(arg1) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var1 = arg1;
-                    var1 = var1.data;
-                    var1 = var1.closing;
-                    if(var1) { _fun0002_ip = 5; continue _fun0002 }
-case 3:
-                    var2 = _closure2_slot3;
-                    var2 = var2.current;
-                    if(var2) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-                    var3 = _closure2_slot3;
-                    var2 = true;
-                    var3['current'] = var2;
-                    var1 = _closure2_slot2;
-                    var2 = var1.current;
-                    var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 5; continue _fun0002 }
-case 7:
-                    var1 = var2.focus;
-                    var1 = var1.bind(var2)();
-case 5:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var2 = var4.bind(var5)(var3, var2);
-            var _closure3_slot1 = var2;
-            var1 = function() {
-                var3 = _closure3_slot0;
-                var1 = undefined;
-                var3 = var3.bind(var1)();
-                var2 = _closure3_slot1;
-                var2 = var2.bind(var1)();
-                return var1;
-            };
-            return var1;
-        };
-        var3 = var8.bind(var5)(var3, var6);
         var3 = 7;
         var3 = var17[var3];
         var3 = var14.bind(var4)(var3);
-        var23 = var3.bind(var4)();
+        var22 = var3.bind(var4)();
+        var5 = _closure1_slot3;
         var3 = var5.useMemo;
         var6 = var2.goBack;
         var2 = new Array(2);
@@ -270,14 +190,13 @@ case 5:
         var11 = new Array(2);
         var11[0] = var12;
         var12 = {};
-        var12['paddingTop'] = var23;
+        var12['paddingTop'] = var22;
         var11[1] = var12;
         var9['style'] = var11;
         var11 = 13;
         var11 = var17[var11];
         var12 = var14.bind(var4)(var11);
         var11 = {};
-        var11['ref'] = var22;
         var11['searchContext'] = var16;
         var11['suggestionsDismissed'] = var21;
         var11['setSuggestionsDismissed'] = var20;

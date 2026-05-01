@@ -727,28 +727,28 @@ case 0:
             var2 = var6 > var5;
             var1 = _closure1_slot11;
             var1 = var1.LANDSCAPE;
-            if(!(var1 !== var7)) { _fun0010_ip = 43; continue _fun0010 }
-case 44:
+            if(!(var1 !== var7)) { _fun0010_ip = 30; continue _fun0010 }
+case 43:
             var1 = _closure1_slot11;
             var1 = var1.PORTRAIT;
-            if(!(var1 !== var7)) { _fun0010_ip = 45; continue _fun0010 }
+            if(!(var1 !== var7)) { _fun0010_ip = 44; continue _fun0010 }
 case 39:
             var1 = _closure1_slot11;
             var1 = var1.UNLOCKED;
             var1 = {};
             var1['width'] = var6;
             var7 = var5;
-            if(var2) { _fun0010_ip = 46; continue _fun0010 }
+            if(var2) { _fun0010_ip = 45; continue _fun0010 }
 case 35:
             var7 = var5 - var4;
-case 46:
+case 45:
             var1['height'] = var7;
             var1['isLandscape'] = var2;
             var7 = false;
             var1['isLetterboxed'] = var7;
             var1['isWindowLandscape'] = var2;
             return var1;
-case 45:
+case 44:
             var8 = _closure1_slot0;
             var7 = _closure1_slot3;
             var1 = 11;
@@ -757,10 +757,10 @@ case 45:
             var7 = var8.bind(var1)(var7);
             var1 = var7.isIpadOS;
             var1 = var1.bind(var7)();
-            if(!var1) { _fun0010_ip = 47; continue _fun0010 }
-case 48:
-            if(var2) { _fun0010_ip = 49; continue _fun0010 }
+            if(!var1) { _fun0010_ip = 46; continue _fun0010 }
 case 47:
+            if(var2) { _fun0010_ip = 48; continue _fun0010 }
+case 46:
             var1 = {'width': null, 'height': null, 'isLandscape': false, 'isLetterboxed': false, 'isWindowLandscape': false};
             var7 = global;
             var9 = var7.Math;
@@ -772,8 +772,8 @@ case 47:
             var7 = var7.bind(var8)(var5, var6);
             var7 = var7 - var4;
             var1['height'] = var7;
-            _fun0010_ip = 50; continue _fun0010;
-case 49:
+            _fun0010_ip = 49; continue _fun0010;
+case 48:
             var7 = {};
             var8 = _closure1_slot12;
             var8 = var5 * var8;
@@ -785,9 +785,9 @@ case 49:
             var7['isLetterboxed'] = var8;
             var7['isWindowLandscape'] = var2;
             var1 = var7;
-case 50:
+case 49:
             return var1;
-case 43:
+case 30:
             var8 = _closure1_slot0;
             var7 = _closure1_slot3;
             var1 = 11;
@@ -796,10 +796,10 @@ case 43:
             var7 = var8.bind(var1)(var7);
             var1 = var7.isIpadOS;
             var1 = var1.bind(var7)();
-            if(!var1) { _fun0010_ip = 51; continue _fun0010 }
+            if(!var1) { _fun0010_ip = 50; continue _fun0010 }
+case 51:
+            if(var2) { _fun0010_ip = 50; continue _fun0010 }
 case 52:
-            if(var2) { _fun0010_ip = 51; continue _fun0010 }
-case 53:
             var1 = {};
             var1['width'] = var6;
             var3 = _closure1_slot13;
@@ -810,8 +810,8 @@ case 53:
             var1['isLandscape'] = var3;
             var1['isLetterboxed'] = var3;
             var1['isWindowLandscape'] = var2;
-            _fun0010_ip = 54; continue _fun0010;
-case 51:
+            _fun0010_ip = 53; continue _fun0010;
+case 50:
             var2 = {'width': null, 'height': null, 'isLetterboxed': false, 'isLandscape': true, 'isWindowLandscape': true};
             var3 = global;
             var7 = var3.Math;
@@ -823,7 +823,7 @@ case 51:
             var3 = var3.bind(var4)(var5, var6);
             var2['height'] = var3;
             var1 = var2;
-case 54:
+case 53:
             return var1;
         }
     };
@@ -872,18 +872,18 @@ case 0:
                 var1 = var4 == var7;
                 var2 = undefined;
                 var5 = undefined;
-                if(var1) { _fun0011_ip = 55; continue _fun0011 }
-case 56:
-                var5 = var7.applicationId;
+                if(var1) { _fun0011_ip = 54; continue _fun0011 }
 case 55:
+                var5 = var7.applicationId;
+case 54:
                 var1 = var4 != var5;
                 var6 = undefined;
-                if(!var1) { _fun0011_ip = 57; continue _fun0011 }
+                if(!var1) { _fun0011_ip = 56; continue _fun0011 }
 case 9:
                 var9 = _closure1_slot6;
                 var1 = var9.getApplication;
                 var6 = var1.bind(var9)(var5);
-case 57:
+case 56:
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot3;
                 var1 = 26;
@@ -895,8 +895,8 @@ case 57:
                 var1['mode'] = var8;
                 var10 = var4 == var9;
                 var8 = undefined;
-                if(var10) { _fun0011_ip = 58; continue _fun0011 }
-case 59:
+                if(var10) { _fun0011_ip = 57; continue _fun0011 }
+case 58:
                 var11 = _closure1_slot1;
                 var12 = _closure1_slot3;
                 var10 = 27;
@@ -904,10 +904,10 @@ case 59:
                 var10 = var11.bind(var2)(var10);
                 var10 = var10.bind(var2)(var9);
                 var8 = undefined;
-                if(var10) { _fun0011_ip = 58; continue _fun0011 }
-case 60:
+                if(var10) { _fun0011_ip = 57; continue _fun0011 }
+case 59:
                 var8 = var9;
-case 58:
+case 57:
                 var1['connectedActivityInTextChannelId'] = var8;
                 var7 = var4 != var7;
                 var1['hasConnectedActivity'] = var7;
@@ -915,12 +915,12 @@ case 58:
                 var1['currentApp'] = var6;
                 var4 = var4 == var5;
                 var2 = undefined;
-                if(var4) { _fun0011_ip = 61; continue _fun0011 }
+                if(var4) { _fun0011_ip = 60; continue _fun0011 }
 case 13:
                 var4 = _closure1_slot10;
                 var3 = var4.getOrientationLockStateForApp;
                 var2 = var3.bind(var4)(var5);
-case 61:
+case 60:
                 var1['orientationLockStateForApp'] = var2;
                 return var1;
             }
@@ -946,15 +946,15 @@ case 0:
                 var4 = _closure2_slot0;
                 var3 = _closure1_slot14;
                 var3 = var3.PANEL;
-                if(!(var4 === var3)) { _fun0012_ip = 62; continue _fun0012 }
-case 63:
+                if(!(var4 === var3)) { _fun0012_ip = 61; continue _fun0012 }
+case 62:
                 var4 = _closure1_slot9;
                 var3 = var4.getChannel;
                 var1 = _closure2_slot1;
                 var1 = var3.bind(var4)(var1);
                 var4 = undefined;
-                if(!(var4 !== var1)) { _fun0012_ip = 62; continue _fun0012 }
-case 64:
+                if(!(var4 !== var1)) { _fun0012_ip = 61; continue _fun0012 }
+case 63:
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot3;
                 var3 = 28;
@@ -974,7 +974,7 @@ case 64:
                 var2 = var3.transitionToChannel;
                 var1 = var1.id;
                 var1 = var2.bind(var3)(var1);
-case 62:
+case 61:
                 var1 = undefined;
                 return var1;
             }

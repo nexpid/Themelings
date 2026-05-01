@@ -565,11 +565,11 @@ case 44:
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     StartGenerator();
-                    var11 = arg1;
+                    var5 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0008_ip = 48; continue _fun0008 }
 case 7:
-                    var6 = var11.guildId;
+                    var6 = var5.guildId;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 10;
@@ -579,69 +579,78 @@ case 7:
                     var4 = var2.HTTP;
                     var3 = var4.post;
                     var2 = {};
-                    var9 = _closure1_slot9;
-                    var5 = var9.GUILD_STICKER_PACKS;
-                    var5 = var5.bind(var9)(var6);
-                    var2['url'] = var5;
-                    var10 = var11.platform;
-                    var9 = 'web';
-                    var5 = undefined;
-                    if(!(var9 === var10)) { _fun0008_ip = 49; continue _fun0008 }
+                    var10 = _closure1_slot9;
+                    var9 = var10.GUILD_STICKER_PACKS;
+                    var9 = var9.bind(var10)(var6);
+                    var2['url'] = var9;
+                    var11 = var5.platform;
+                    var10 = 'web';
+                    var9 = undefined;
+                    if(!(var10 === var11)) { _fun0008_ip = 49; continue _fun0008 }
 case 45:
-                    var5 = var11.body;
+                    var9 = var5.body;
 case 49:
-                    var2['body'] = var5;
-                    var9 = var11.platform;
-                    var10 = 'mobile';
-                    var5 = undefined;
-                    if(!(var10 === var9)) { _fun0008_ip = 50; continue _fun0008 }
+                    var2['body'] = var9;
+                    var10 = var5.platform;
+                    var11 = 'mobile';
+                    var9 = undefined;
+                    if(!(var11 === var10)) { _fun0008_ip = 50; continue _fun0008 }
 case 51:
                     var12 = {};
-                    var9 = 'name';
-                    var12['name'] = var9;
-                    var9 = var11.name;
-                    var12['value'] = var9;
-                    var9 = new Array(3);
-                    var9[0] = var12;
+                    var10 = 'name';
+                    var12['name'] = var10;
+                    var10 = var5.name;
+                    var12['value'] = var10;
+                    var10 = new Array(3);
+                    var10[0] = var12;
                     var12 = {};
                     var13 = 'tags';
                     var12['name'] = var13;
-                    var13 = var11.tags;
+                    var13 = var5.tags;
                     var12['value'] = var13;
-                    var9[1] = var12;
+                    var10[1] = var12;
                     var12 = {};
                     var13 = 'description';
                     var12['name'] = var13;
-                    var13 = var11.description;
+                    var13 = var5.description;
                     var12['value'] = var13;
-                    var9[2] = var12;
-                    var5 = var9;
+                    var10[2] = var12;
+                    var9 = var10;
 case 50:
-                    var2['fields'] = var5;
-                    var9 = var11.platform;
-                    var5 = undefined;
-                    if(!(var10 === var9)) { _fun0008_ip = 26; continue _fun0008 }
+                    var2['fields'] = var9;
+                    var10 = var5.platform;
+                    var9 = undefined;
+                    if(!(var11 === var10)) { _fun0008_ip = 26; continue _fun0008 }
 case 52:
+                    var11 = {};
+                    var10 = 'file';
+                    var11['name'] = var10;
                     var10 = {};
-                    var9 = 'file';
-                    var10['name'] = var9;
-                    var9 = {};
-                    var12 = var11.uri;
-                    var9['uri'] = var12;
-                    var12 = var11.name;
-                    var9['name'] = var12;
-                    var11 = var11.mimeType;
-                    var9['type'] = var11;
-                    var10['file'] = var9;
-                    var9 = new Array(1);
-                    var9[0] = var10;
-                    var5 = var9;
+                    var12 = var5.uri;
+                    var10['uri'] = var12;
+                    var12 = var5.name;
+                    var10['name'] = var12;
+                    var12 = var5.mimeType;
+                    var10['type'] = var12;
+                    var11['file'] = var10;
+                    var10 = new Array(1);
+                    var10[0] = var11;
+                    var9 = var10;
 case 26:
-                    var2['attachments'] = var5;
+                    var2['attachments'] = var9;
+                    var10 = _closure1_slot1;
+                    var11 = _closure1_slot2;
+                    var9 = 12;
+                    var9 = var11[var9];
+                    var10 = var10.bind(var8)(var9);
+                    var9 = var10.buildHeadersForMd5;
+                    var5 = var5.originalMd5;
+                    var5 = var9.bind(var10)(var5);
+                    var2['headers'] = var5;
                     var5 = false;
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=286);
+                    SaveGenerator(address=328);
 case 53:
                     return var2;
 case 54:
@@ -764,7 +773,7 @@ case 59:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var11 = 16;
+    var11 = 17;
     var11 = var13[var11];
     var13 = var12.bind(var1)(var11);
     var12 = var13.fileFinishedImporting;
@@ -822,7 +831,7 @@ case 59:
         var _closure2_slot0 = var1;
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 12;
+        var1 = 13;
         var4 = var4[var1];
         var1 = undefined;
         var4 = var5.bind(var1)(var4);
@@ -842,7 +851,7 @@ case 0:
                 var3['stickerIds'] = var1;
                 var2 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var1 = var4[var1];
                 var4 = var2.bind(var10)(var1);
                 var2 = var4.size;
@@ -868,13 +877,13 @@ case 64:
 case 62:
                 var3 = _closure1_slot1;
                 var11 = _closure1_slot2;
-                var2 = 14;
+                var2 = 15;
                 var2 = var11[var2];
                 var4 = var3.bind(var10)(var2);
                 var3 = var4.show;
                 var2 = {};
                 var6 = _closure1_slot0;
-                var5 = 15;
+                var5 = 16;
                 var7 = var11[var5];
                 var7 = var6.bind(var10)(var7);
                 var12 = var7.intl;
@@ -913,7 +922,7 @@ case 65:
         var _closure2_slot0 = var1;
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 12;
+        var1 = 13;
         var4 = var4[var1];
         var1 = undefined;
         var4 = var5.bind(var1)(var4);

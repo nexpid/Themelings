@@ -811,7 +811,7 @@ case 64: // try_start_2
                                 var11 = var8;
                                 var3 = var3.client_id;
                                 var3 = var13.bind(var14)(var12, var11, var3);
-                                SaveGenerator(address=785);
+                                SaveGenerator(address=786);
 case 65:
                                 return var3;
 case 66:

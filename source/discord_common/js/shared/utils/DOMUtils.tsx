@@ -234,19 +234,19 @@ case 0:
             var2 = var1 + var2;
             var1 = var6 >= var5;
             if(!var1) { _fun0006_ip = 36; continue _fun0006 }
-case 24:
+case 37:
             var5 = var5 + var7;
             var1 = var6 <= var5;
 case 36:
-            if(!var1) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+            if(!var1) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
             var1 = var3 >= var2;
-case 37:
-            if(!var1) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
+case 38:
+            if(!var1) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
             var2 = var2 + var4;
             var1 = var3 <= var2;
-case 39:
+case 40:
             return var1;
         }
     };
@@ -258,19 +258,19 @@ case 0:
             var1 = arg1;
             var3 = var1.parentElement;
             var2 = null;
-            if(!(var2 != var3)) { _fun0007_ip = 41; continue _fun0007 }
-case 42:
+            if(!(var2 != var3)) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
             var5 = var3.classList;
             var1 = var5.contains;
             var5 = var1.bind(var5)(var4);
             var1 = var3;
-            if(var5) { _fun0007_ip = 43; continue _fun0007 }
+            if(var5) { _fun0007_ip = 44; continue _fun0007 }
 case 15:
             var3 = var1.parentElement;
-            if(var2 != var3) { _fun0007_ip = 42; continue _fun0007 }
-case 41:
+            if(var2 != var3) { _fun0007_ip = 43; continue _fun0007 }
+case 42:
             return var2;
-case 43:
+case 44:
             return var1;
         }
     };
@@ -283,17 +283,17 @@ case 0:
             var3 = var1.parentElement;
             var2 = null;
             if(!(var2 != var3)) { _fun0008_ip = 8; continue _fun0008 }
-case 42:
+case 43:
             var1 = var3.getAttribute;
             var5 = var1.bind(var3)(var4);
             var1 = var3;
-            if(!(var2 == var5)) { _fun0008_ip = 44; continue _fun0008 }
+            if(!(var2 == var5)) { _fun0008_ip = 45; continue _fun0008 }
 case 6:
             var3 = var1.parentElement;
-            if(var2 != var3) { _fun0008_ip = 42; continue _fun0008 }
+            if(var2 != var3) { _fun0008_ip = 43; continue _fun0008 }
 case 8:
             return var2;
-case 44:
+case 45:
             return var1;
         }
     };

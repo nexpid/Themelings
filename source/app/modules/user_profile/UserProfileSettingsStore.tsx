@@ -851,6 +851,8 @@ case 30:
                 var2[2] = var4;
                 var3 = 'pendingBanner';
                 var2[2] = var4;
+                var3 = 'pendingBannerOriginalMd5';
+                var2[2] = var4;
                 var3 = 'pendingAccentColor';
                 var2[2] = var4;
                 var3 = 'pendingThemeColors';

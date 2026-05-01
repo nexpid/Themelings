@@ -1053,8 +1053,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var28['GET_QUEST_ENROLLMENT_STATUS'] = var11;
     var11 = 'QUEST_START_TIMER';
     var28['QUEST_START_TIMER'] = var11;
-    var11 = 'GET_QUESTS';
-    var28['GET_QUESTS'] = var11;
+    var11 = 'GET_QUEST';
+    var28['GET_QUEST'] = var11;
     var27 = {};
     var11 = 'CURRENT_USER_UPDATE';
     var27['CURRENT_USER_UPDATE'] = var11;

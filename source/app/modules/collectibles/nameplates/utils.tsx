@@ -168,19 +168,19 @@ case 0:
             var3 = undefined;
             var4 = var4.bind(var3)(var1);
             if(var4) { _fun0005_ip = 16; continue _fun0005 }
-case 13:
+case 17:
             return var3;
 case 16:
             var2 = _closure1_slot4;
             var3 = var2.LIGHT;
             var2 = arg2;
             if(!(var2 !== var3)) { _fun0005_ip = 5; continue _fun0005 }
-case 17:
+case 18:
             var5 = var1.darkBackground;
-            _fun0005_ip = 18; continue _fun0005;
+            _fun0005_ip = 19; continue _fun0005;
 case 5:
             var5 = var1.lightBackground;
-case 18:
+case 19:
             var1 = {};
             var2 = global;
             var3 = var2.HermesInternal;

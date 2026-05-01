@@ -247,7 +247,7 @@ case 12:
     };
     var7['handler'] = var11;
     var2[9] = var7;
-    var7 = var4.GET_QUESTS;
+    var7 = var4.GET_QUEST;
     var4 = {};
     var9 = var6[var9];
     var9 = var5.bind(var1)(var9);
@@ -255,118 +255,156 @@ case 12:
     var9 = var9.IDENTIFY;
     var4['scope'] = var9;
     var8 = function handler(arg1) {
-        var1 = arg1;
-        var1 = var1.socket;
-        var6 = _closure1_slot0;
-        var8 = _closure1_slot2;
-        var4 = 3;
-        var7 = var8[var4];
-        var5 = undefined;
-        var10 = var6.bind(var5)(var7);
-        var9 = var10.validatePostMessageTransport;
-        var7 = var1.transport;
-        var7 = var9.bind(var10)(var7);
-        var4 = var8[var4];
-        var7 = var6.bind(var5)(var4);
-        var4 = var7.validateApplication;
-        var1 = var1.application;
-        var7 = var4.bind(var7)(var1);
-        var1 = {};
-        var4 = 8;
-        var4 = var8[var4];
-        var6 = var6.bind(var5)(var4);
-        var5 = var6.getEligibleQuestsForApplicationId;
-        var3 = _closure1_slot3;
-        var4 = var3.quests;
-        var3 = true;
-        var5 = var5.bind(var6)(var4, var7, var3);
-        var4 = var5.map;
-        var3 = function(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var2 = arg1;
-                var1 = {};
-                var3 = var2.id;
-                var1['quest_id'] = var3;
-                var5 = var2.userStatus;
-                var3 = null;
-                var6 = var3 == var5;
-                var4 = undefined;
-                if(var6) { _fun0003_ip = 20; continue _fun0003 }
+            var1 = arg1;
+            var3 = var1.socket;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var7 = 3;
+            var8 = var6[var7];
+            var4 = undefined;
+            var10 = var5.bind(var4)(var8);
+            var9 = var10.validatePostMessageTransport;
+            var8 = var3.transport;
+            var8 = var9.bind(var10)(var8);
+            var7 = var6[var7];
+            var8 = var5.bind(var4)(var7);
+            var7 = var8.validateApplication;
+            var3 = var3.application;
+            var8 = var7.bind(var8)(var3);
+            var3 = 8;
+            var3 = var6[var3];
+            var7 = var5.bind(var4)(var3);
+            var6 = var7.getEligibleQuestsForApplicationId;
+            var3 = _closure1_slot3;
+            var5 = var3.quests;
+            var3 = true;
+            var7 = var6.bind(var7)(var5, var8, var3);
+            var5 = var7.length;
+            var3 = 0;
+            if(!(var3 !== var5)) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
-                var4 = var5.enrolledAt;
-case 20:
-                var5 = var3 != var4;
-                var3 = null;
-                if(!var5) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                var3 = var4;
-case 22:
-                var1['enrolled_at'] = var3;
-                var2 = var2.config;
-                var2 = var2.ctaConfig;
-                var2 = var2.link;
-                var1['external_cta_url'] = var2;
-                return var1;
-            }
-        };
-        var4 = var4.bind(var5)(var3);
-        var3 = var4.sort;
-        var2 = function(arg1, arg2) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            var6 = var7.map;
+            var5 = function(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var5 = arg1;
-                var4 = arg2;
-                var1 = var5.enrolled_at;
-                var6 = null;
-                if(!(var6 == var1)) { _fun0004_ip = 24; continue _fun0004 }
+                    var2 = arg1;
+                    var1 = {};
+                    var3 = var2.id;
+                    var1['quest_id'] = var3;
+                    var5 = var2.userStatus;
+                    var3 = null;
+                    var7 = var3 == var5;
+                    var6 = undefined;
+                    if(var7) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
+                    var6 = var5.enrolledAt;
+case 22:
+                    var7 = var3 != var6;
+                    var5 = null;
+                    if(!var7) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
-                var1 = var4.enrolled_at;
-                var2 = var6 == var1;
-                var1 = 0;
-                if(var2) { _fun0004_ip = 26; continue _fun0004 }
+                    var5 = var6;
 case 24:
-                var2 = var5.enrolled_at;
-                var3 = var6 == var2;
-                var2 = 1;
-                if(var3) { _fun0004_ip = 17; continue _fun0004 }
+                    var1['enrolled_at'] = var5;
+                    var5 = var2.userStatus;
+                    var6 = var3 == var5;
+                    var4 = undefined;
+                    if(var6) { _fun0004_ip = 26; continue _fun0004 }
 case 27:
-                var3 = var4.enrolled_at;
-                var6 = var6 == var3;
-                var3 = -1;
-                if(var6) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
-                var6 = global;
-                var8 = var6.Date;
-                var9 = var5.enrolled_at;
-                var7 = var8.prototype;
-                var7 = Object.create(var7, {constructor: {value: var8}});
-                var10 = var7;
-                var5 = new var10[var8](var9, var8);
-                var7 = var5 instanceof Object ? var5 : var7;
-                var5 = var7.getTime;
-                var5 = var5.bind(var7)();
-                var7 = var6.Date;
-                var9 = var4.enrolled_at;
-                var6 = var7.prototype;
-                var6 = Object.create(var6, {constructor: {value: var7}});
-                var10 = var6;
-                var4 = new var10[var7](var9, var8);
-                var6 = var4 instanceof Object ? var4 : var6;
-                var4 = var6.getTime;
-                var4 = var4.bind(var6)();
-                var3 = var5 - var4;
-case 28:
-                var2 = var3;
-case 17:
-                var1 = var2;
+                    var4 = var5.completedAt;
 case 26:
-                return var1;
-            }
-        };
-        var2 = var3.bind(var4)(var2);
-        var1['quests'] = var2;
-        return var1;
+                    var5 = var3 != var4;
+                    var3 = null;
+                    if(!var5) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
+                    var3 = var4;
+case 28:
+                    var1['completed_at'] = var3;
+                    var2 = var2.config;
+                    var2 = var2.ctaConfig;
+                    var2 = var2.link;
+                    var1['external_cta_url'] = var2;
+                    return var1;
+                }
+            };
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.sort;
+            var2 = function(arg1, arg2) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var5 = arg1;
+                    var4 = arg2;
+                    var1 = var5.enrolled_at;
+                    var6 = null;
+                    if(!(var6 == var1)) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
+                    var1 = var4.enrolled_at;
+                    var2 = var6 == var1;
+                    var1 = 0;
+                    if(var2) { _fun0005_ip = 20; continue _fun0005 }
+case 30:
+                    var2 = var5.enrolled_at;
+                    var3 = var6 == var2;
+                    var2 = 1;
+                    if(var3) { _fun0005_ip = 17; continue _fun0005 }
+case 32:
+                    var3 = var4.enrolled_at;
+                    var6 = var6 == var3;
+                    var3 = -1;
+                    if(var6) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
+                    var6 = global;
+                    var8 = var6.Date;
+                    var9 = var5.enrolled_at;
+                    var7 = var8.prototype;
+                    var7 = Object.create(var7, {constructor: {value: var8}});
+                    var10 = var7;
+                    var5 = new var10[var8](var9, var8);
+                    var7 = var5 instanceof Object ? var5 : var7;
+                    var5 = var7.getTime;
+                    var5 = var5.bind(var7)();
+                    var7 = var6.Date;
+                    var9 = var4.enrolled_at;
+                    var6 = var7.prototype;
+                    var6 = Object.create(var6, {constructor: {value: var7}});
+                    var10 = var6;
+                    var4 = new var10[var7](var9, var8);
+                    var6 = var4 instanceof Object ? var4 : var6;
+                    var4 = var6.getTime;
+                    var4 = var4.bind(var6)();
+                    var3 = var5 - var4;
+case 33:
+                    var2 = var3;
+case 17:
+                    var1 = var2;
+case 20:
+                    return var1;
+                }
+            };
+            var2 = var5.bind(var6)(var2);
+            var2 = var2[var3];
+            return var2;
+case 20:
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var2 = 5;
+            var2 = var5[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = {};
+            var1 = _closure1_slot4;
+            var1 = var1.INVALID_COMMAND;
+            var3['errorCode'] = var1;
+            var1 = var4.prototype;
+            var2 = Object.create(var1, {constructor: {value: var4}});
+            var12 = 'No eligible quests found';
+            var14 = var2;
+            var13 = var3;
+            var1 = new var14[var4](var13, var12, var11);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
+        }
     };
     var4['handler'] = var8;
     var2[6] = var4;

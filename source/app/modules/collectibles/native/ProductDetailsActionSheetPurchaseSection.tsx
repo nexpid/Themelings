@@ -1355,16 +1355,27 @@ case 7:
                     return var1;
 case 61:
                     var4 = _closure1_slot13;
-                    var2 = _closure1_slot0;
-                    var3 = _closure1_slot2;
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
                     var1 = 50;
-                    var1 = var3[var1];
+                    var1 = var9[var1];
                     var3 = undefined;
-                    var1 = var2.bind(var3)(var1);
+                    var1 = var8.bind(var3)(var1);
                     var2 = var1.UnlockWithNitroButton;
                     var1 = {};
                     var5 = _closure2_slot2;
                     var1['onTrackPress'] = var5;
+                    var5 = 16;
+                    var6 = var9[var5];
+                    var6 = var8.bind(var3)(var6);
+                    var7 = var6.intl;
+                    var6 = var7.string;
+                    var5 = var9[var5];
+                    var5 = var8.bind(var3)(var5);
+                    var5 = var5.t;
+                    var5 = var5.IvmZVF;
+                    var5 = var6.bind(var7)(var5);
+                    var1['text'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
 case 56:

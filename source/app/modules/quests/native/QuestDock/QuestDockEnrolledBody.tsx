@@ -275,8 +275,7 @@ case 14:
         var3 = var13.bind(var4)(var1);
         var2 = var3.useEnrolledQuestContentProps;
         var1 = {};
-        var5 = var20.id;
-        var1['questId'] = var5;
+        var1['quest'] = var20;
         var5 = _closure1_slot8;
         var5 = var5.QUESTS_BAR_MOBILE;
         var1['location'] = var5;
@@ -484,7 +483,7 @@ case 14:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
-            var9 = var2.questId;
+            var9 = var2.quest;
             var2 = _closure1_slot14;
             var4 = undefined;
             var7 = var2.bind(var4)();
@@ -499,18 +498,13 @@ case 0:
             var2 = var8.bind(var10)(var2);
             var11 = var2.minExpandedContentHeight;
             var _closure2_slot0 = var11;
-            var2 = 18;
-            var2 = var5[var2];
-            var8 = var3.bind(var4)(var2);
-            var2 = var8.useNonNullableQuest;
-            var9 = var2.bind(var8)(var9);
             var8 = _closure1_slot1;
-            var2 = 19;
+            var2 = 18;
             var2 = var5[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var14 = var2.bottom;
-            var2 = 20;
+            var2 = 19;
             var2 = var5[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useYouBarEnabled;
@@ -590,7 +584,7 @@ case 20:
             var1['onLayout'] = var5;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 21;
+            var5 = 20;
             var5 = var8[var5];
             var7 = var7.bind(var4)(var5);
             var5 = var7.hasWatchVideoTasks;
@@ -615,7 +609,7 @@ case 24:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 22;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

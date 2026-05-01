@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot23 = var2;
+            _closure1_slot24 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot24 = var1;
     var1 = function handleUserSettingsStoreUpdate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -68,7 +68,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var2 = global;
     var9 = var2.Object;
     var8 = var9.defineProperty;
@@ -142,18 +142,20 @@ case 6:
     var _closure1_slot18 = var8;
     var8 = {};
     var _closure1_slot19 = var8;
+    var8 = {};
+    var _closure1_slot20 = var8;
     var2 = var2.Set;
     var8 = var2.prototype;
     var8 = Object.create(var8, {constructor: {value: var2}});
     var13 = var8;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var8;
-    var _closure1_slot20 = var2;
-    var2 = null;
     var _closure1_slot21 = var2;
+    var2 = null;
+    var _closure1_slot22 = var2;
     var2 = {};
     var2['state'] = var7;
-    var _closure1_slot22 = var2;
+    var _closure1_slot23 = var2;
     var2 = 7;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -171,7 +173,7 @@ case 0:
                 var1 = _closure1_slot4;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot3;
-                var1 = _closure1_slot23;
+                var1 = _closure1_slot24;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
@@ -213,7 +215,7 @@ case 10:
             var1 = _closure1_slot6;
             var3 = new Array(1);
             var3[0] = var1;
-            var1 = _closure1_slot24;
+            var1 = _closure1_slot25;
             var1 = var4.bind(var5)(var3, var1);
             var1 = _closure1_slot6;
             var1 = var1.locale;
@@ -222,7 +224,7 @@ case 10:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(19);
+        var1 = new Array(20);
         var1[0] = var5;
         var5 = {};
         var7 = 'getStorefrontData';
@@ -298,6 +300,17 @@ case 11:
         var5['value'] = var7;
         var1[6] = var5;
         var5 = {};
+        var7 = 'getConfigForApplicationId';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = _closure1_slot20;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[7] = var5;
+        var5 = {};
         var7 = 'getApplicationIdFromDetectableId';
         var5['key'] = var7;
         var7 = function value(arg1) {
@@ -307,7 +320,7 @@ case 11:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getDetectableIdsToApplicationIds';
         var5['key'] = var7;
@@ -316,7 +329,7 @@ case 11:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'getGuildIdFromApplicationId';
         var5['key'] = var7;
@@ -365,7 +378,7 @@ case 13:
             }
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getApplicationIdFromGuildId';
         var5['key'] = var7;
@@ -376,7 +389,7 @@ case 13:
             return var1;
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getConfigFetchState';
         var5['key'] = var7;
@@ -385,7 +398,7 @@ case 13:
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'getStorefrontApplicationIds';
         var5['key'] = var7;
@@ -394,16 +407,16 @@ case 13:
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'getStorefrontGuildIds';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot20;
+            var1 = _closure1_slot21;
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'getSKUEligibility';
         var5['key'] = var7;
@@ -424,7 +437,7 @@ case 17:
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'getSKUEligibilityEntry';
         var5['key'] = var7;
@@ -435,7 +448,7 @@ case 17:
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getNormalizedSKUEligibility';
         var5['key'] = var7;
@@ -458,25 +471,25 @@ case 17:
             }
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'getAnnouncementModalConfig';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot21;
+            var1 = _closure1_slot22;
             return var1;
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'getStorefrontAffinity';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot22;
+            var1 = _closure1_slot23;
             return var1;
         };
         var5['value'] = var6;
-        var1[18] = var5;
+        var1[19] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -519,18 +532,20 @@ case 17:
         _closure1_slot18 = var4;
         var4 = {};
         _closure1_slot19 = var4;
+        var4 = {};
+        _closure1_slot20 = var4;
         var1 = var1.Set;
         var4 = var1.prototype;
         var4 = Object.create(var4, {constructor: {value: var1}});
         var6 = var4;
         var1 = new var6[var1](var5);
         var1 = var1 instanceof Object ? var1 : var4;
-        _closure1_slot20 = var1;
-        var1 = null;
         _closure1_slot21 = var1;
+        var1 = null;
+        _closure1_slot22 = var1;
         var1 = {};
         var1['state'] = var3;
-        _closure1_slot22 = var1;
+        _closure1_slot23 = var1;
         var1 = undefined;
         return var1;
     };
@@ -939,7 +954,7 @@ case 0:
             var11 = var5;
             var4 = new var11[var6](var10, var9);
             var4 = var4 instanceof Object ? var4 : var5;
-            _closure1_slot20 = var4;
+            _closure1_slot21 = var4;
             var7 = var1.storefronts;
             var6 = var7.reduce;
             var5 = function(arg1, arg2) {
@@ -953,9 +968,9 @@ case 0:
             var4 = {};
             var4 = var6.bind(var7)(var5, var4);
             _closure1_slot18 = var4;
-            var6 = var1.storefronts;
-            var5 = var6.reduce;
-            var4 = function(arg1, arg2) {
+            var7 = var1.storefronts;
+            var6 = var7.reduce;
+            var5 = function(arg1, arg2) {
                 var1 = arg1;
                 var2 = arg2;
                 var4 = var2.gameId;
@@ -966,9 +981,21 @@ case 0:
                 var1[var3] = var2;
                 return var1;
             };
+            var4 = {};
+            var4 = var6.bind(var7)(var5, var4);
+            _closure1_slot19 = var4;
+            var6 = var1.storefronts;
+            var5 = var6.reduce;
+            var4 = function(arg1, arg2) {
+                var1 = arg1;
+                var3 = arg2;
+                var2 = var3.applicationId;
+                var1[var2] = var3;
+                return var1;
+            };
             var3 = {};
             var3 = var5.bind(var6)(var4, var3);
-            _closure1_slot19 = var3;
+            _closure1_slot20 = var3;
             var3 = var1.announcementModalConfig;
             var1 = null;
             var4 = var1 != var3;
@@ -976,7 +1003,7 @@ case 0:
 case 41:
             var1 = var3;
 case 40:
-            _closure1_slot21 = var1;
+            _closure1_slot22 = var1;
             var1 = undefined;
             return var1;
         }
@@ -1148,7 +1175,7 @@ case 51:
         var2 = {};
         var1 = 'loading';
         var2['state'] = var1;
-        _closure1_slot22 = var2;
+        _closure1_slot23 = var2;
         var1 = undefined;
         return var1;
     };
@@ -1160,7 +1187,7 @@ case 51:
         var3 = 'success';
         var2['state'] = var3;
         var2['affinity'] = var1;
-        _closure1_slot22 = var2;
+        _closure1_slot23 = var2;
         var1 = undefined;
         return var1;
     };
@@ -1169,7 +1196,7 @@ case 51:
         var2 = {};
         var1 = 'error';
         var2['state'] = var1;
-        _closure1_slot22 = var2;
+        _closure1_slot23 = var2;
         var1 = undefined;
         return var1;
     };

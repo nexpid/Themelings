@@ -69,5 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GUTTER_SIZE'] = var2;
     var2 = 3;
     var3['ROW_SIZE'] = var2;
+    var2 = 114;
+    var3['COLLECTIBLE_ROW_HEIGHT'] = var2;
     return var1;
 })();

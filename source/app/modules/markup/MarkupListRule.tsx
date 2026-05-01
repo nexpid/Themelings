@@ -249,21 +249,21 @@ case 17:
                     var10 = null;
                     var14 = var10 != var3;
                     var10 = 0;
-                    if(!var14) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
-                    var10 = var3;
+                    if(!var14) { _fun0003_ip = 13; continue _fun0003 }
 case 21:
+                    var10 = var3;
+case 13:
                     var10 = var10 + var13;
                     var12['_listLevel'] = var10;
                     var10 = _closure2_slot1;
-                    if(var8) { _fun0003_ip = 23; continue _fun0003 }
-case 15:
+                    if(var8) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                     var10['inline'] = var6;
                     var8 = var9.replace;
                     var6 = _closure1_slot5;
                     var8 = var8.bind(var9)(var6, var11);
                     _fun0003_ip = 24; continue _fun0003;
-case 23:
+case 22:
                     var6 = false;
                     var10['inline'] = var6;
                     var6 = var9.replace;

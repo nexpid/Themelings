@@ -218,6 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15['ASYNC_VIDEO_INPUT_DEVICE_INIT'] = var1;
     var1 = 'PORT_AWARE_LATENCY_TESTING';
     var15['PORT_AWARE_LATENCY_TESTING'] = var1;
+    var1 = 'SPATIAL_AUDIO';
+    var15['SPATIAL_AUDIO'] = var1;
     var14 = {};
     var1 = 'NATIVE';
     var14['NATIVE'] = var1;

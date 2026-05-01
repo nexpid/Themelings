@@ -408,7 +408,7 @@ case 62:
             var7 = var3.acceptLabelGreenBackgroundColor;
             var6 = 'acceptLabelBackgroundColor';
             var5[5] = var7;
-            var7 = false;
+            var7 = true;
             var6 = 'embedCanBeTapped';
             var5[5] = var7;
             var6 = 'canBeAccepted';

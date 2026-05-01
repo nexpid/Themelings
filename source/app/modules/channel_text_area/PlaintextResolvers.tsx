@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot17;
+            var9 = _closure1_slot18;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot18;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,354 +182,379 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var4 = function resolvePlaintextInlineVoid(arg1, arg2, arg3, arg4) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var7 = arg1;
             var6 = arg2;
+            var5 = arg3;
             var1 = arg4;
-            var8 = null;
-            if(!(var8 == var1)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-            var1 = {};
+            var9 = null;
+            if(!(var9 == var1)) { _fun0004_ip = 29; continue _fun0004 }
 case 36:
+            var1 = {};
+case 29:
             var2 = var1.allowUsers;
-            var5 = undefined;
-            var4 = var5 === var2;
-            if(var4) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
-            var4 = var2;
+            var4 = undefined;
+            var3 = var4 === var2;
+            if(var3) { _fun0004_ip = 37; continue _fun0004 }
 case 38:
+            var3 = var2;
+case 37:
             var1 = var1.allowRoles;
-            var3 = var5 === var1;
-            if(var3) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-            var3 = var1;
+            var2 = var4 === var1;
+            if(var2) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
+            var2 = var1;
+case 39:
             var1 = 0;
-            var2 = var7[var1];
+            var8 = var7[var1];
             var1 = '@';
-            if(!(var1 !== var2)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
-            var13 = ':';
-            if(!(var13 !== var2)) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+            if(!(var1 !== var8)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
+            var14 = ':';
+            if(!(var14 !== var8)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
             var1 = '#';
-            if(!(var1 !== var2)) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
-            return var8;
+            if(!(var1 !== var8)) { _fun0004_ip = 45; continue _fun0004 }
 case 46:
-            var2 = var8 == var6;
+            return var9;
+case 45:
+            var8 = var9 == var6;
             var1 = null;
-            if(var2) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
-            var9 = var7.length;
-            var2 = 3;
-            if(!(var9 > var2)) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
-            var11 = 1;
-            var2 = var7[var11];
-            var9 = '"';
-            if(!(var9 === var2)) { _fun0004_ip = 50; continue _fun0004 }
-case 52:
-            var2 = var7.length;
-            var2 = var2 - var11;
-            var2 = var7[var2];
-            if(!(var9 !== var2)) { _fun0004_ip = 53; continue _fun0004 }
+            if(var8) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
+            var10 = var7.length;
+            var8 = 3;
+            if(!(var10 > var8)) { _fun0004_ip = 49; continue _fun0004 }
 case 50:
-            var9 = var7.slice;
-            var2 = 1;
-            var17 = var9.bind(var7)(var2);
-            _fun0004_ip = 54; continue _fun0004;
-case 53:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 13;
-            var2 = var10[var2];
-            var10 = var9.bind(var5)(var2);
-            var9 = var10.unescapeChannelName;
-            var12 = var7.slice;
-            var2 = var7.length;
-            var11 = var2 - var11;
-            var2 = 2;
-            var2 = var12.bind(var7)(var2, var11);
-            var17 = var9.bind(var10)(var2);
+            var12 = 1;
+            var8 = var7[var12];
+            var10 = '"';
+            if(!(var10 === var8)) { _fun0004_ip = 49; continue _fun0004 }
+case 51:
+            var8 = var7.length;
+            var8 = var8 - var12;
+            var8 = var7[var8];
+            if(!(var10 !== var8)) { _fun0004_ip = 14; continue _fun0004 }
+case 49:
+            var10 = var7.slice;
+            var8 = 1;
+            var18 = var10.bind(var7)(var8);
+            _fun0004_ip = 52; continue _fun0004;
+case 14:
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var8 = 14;
+            var8 = var11[var8];
+            var11 = var10.bind(var4)(var8);
+            var10 = var11.unescapeChannelName;
+            var13 = var7.slice;
+            var8 = var7.length;
+            var12 = var8 - var12;
+            var8 = 2;
+            var8 = var13.bind(var7)(var8, var12);
+            var18 = var10.bind(var11)(var8);
+case 52:
+            var10 = _closure1_slot7;
+            var8 = var10.getTextChannelNameDisambiguations;
+            var13 = var8.bind(var10)(var6);
+            var10 = _closure1_slot17;
+            var11 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var16 = 15;
+            var8 = var8[var16];
+            var11 = var11.bind(var4)(var8);
+            var8 = var11.keys;
+            var8 = var8.bind(var11)(var13);
+            var12 = var10.bind(var4)(var8);
+            var10 = var12.bind(var4)();
+            var8 = var10.done;
+            var11 = var10;
+            if(var8) { _fun0004_ip = 53; continue _fun0004 }
 case 54:
-            var9 = _closure1_slot7;
-            var2 = var9.getTextChannelNameDisambiguations;
-            var12 = var2.bind(var9)(var6);
-            var9 = _closure1_slot16;
-            var10 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var15 = 14;
-            var2 = var2[var15];
-            var10 = var10.bind(var5)(var2);
-            var2 = var10.keys;
-            var2 = var2.bind(var10)(var12);
-            var11 = var9.bind(var5)(var2);
-            var9 = var11.bind(var5)();
-            var2 = var9.done;
-            var10 = var9;
-            if(var2) { _fun0004_ip = 55; continue _fun0004 }
-case 25:
-            var9 = var10.value;
-            var2 = var12[var9];
-            var2 = var2.name;
-            if(!(var2 !== var17)) { _fun0004_ip = 56; continue _fun0004 }
-case 57:
-            var14 = var11.bind(var5)();
-            var2 = var14.done;
-            var10 = var14;
-            if(var2) { _fun0004_ip = 55; continue _fun0004 }
-case 58:
-            _fun0004_ip = 25; continue _fun0004;
+            var10 = var11.value;
+            var8 = var13[var10];
+            var8 = var8.name;
+            if(!(var8 !== var18)) { _fun0004_ip = 55; continue _fun0004 }
 case 56:
-            var2 = {};
-            var10 = 'channelMention';
-            var2['type'] = var10;
-            var2['channelId'] = var9;
+            var15 = var12.bind(var4)();
+            var8 = var15.done;
+            var11 = var15;
+            if(var8) { _fun0004_ip = 53; continue _fun0004 }
+case 57:
+            _fun0004_ip = 54; continue _fun0004;
+case 55:
+            var8 = {};
+            var11 = 'channelMention';
+            var8['type'] = var11;
+            var8['channelId'] = var10;
+            var11 = {};
+            var10 = '';
+            var11['text'] = var10;
+            var10 = new Array(1);
+            var10[0] = var11;
+            var8['children'] = var10;
+            var1 = var8;
+            _fun0004_ip = 47; continue _fun0004;
+case 53:
+            var10 = _closure1_slot17;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var8 = 16;
+            var8 = var12[var8];
+            var8 = var11.bind(var4)(var8);
+            var8 = var8.COMMAND_SUPPORTED_CHANNEL_TYPE_KEYS;
+            var19 = var10.bind(var4)(var8);
+            var10 = var19.bind(var4)();
+            var8 = var10.done;
+            var15 = 14;
+            var13 = var10;
+            var12 = undefined;
+            var11 = undefined;
+            var10 = undefined;
+            if(var8) { _fun0004_ip = 58; continue _fun0004 }
+case 59:
+            var22 = var13.value;
+            var8 = _closure1_slot8;
+            var20 = var10;
+            if(!(var22 !== var8)) { _fun0004_ip = 60; continue _fun0004 }
+case 61:
+            var21 = _closure1_slot17;
+            var23 = _closure1_slot7;
+            var8 = var23.getChannels;
+            var8 = var8.bind(var23)(var6);
+            var8 = var8[var22];
+            var23 = var21.bind(var4)(var8);
+            var21 = var23.bind(var4)();
+            var8 = var21.done;
+            var22 = var21;
+            var12 = var22;
+            var11 = var23;
+            var20 = var10;
+            if(var8) { _fun0004_ip = 60; continue _fun0004 }
+case 62:
+            var8 = var22.value;
+            var21 = var8.channel;
+            var24 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var15];
+            var26 = var24.bind(var4)(var8);
+            var25 = var26.computeChannelName;
+            var24 = _closure1_slot14;
+            var8 = _closure1_slot13;
+            var8 = var25.bind(var26)(var21, var24, var8);
+            if(!(var8 === var18)) { _fun0004_ip = 63; continue _fun0004 }
+case 64:
+            var8 = var21.isCategory;
+            var8 = var8.bind(var21)();
+            if(!var8) { _fun0004_ip = 65; continue _fun0004 }
+case 66:
+            var25 = _closure1_slot12;
+            var24 = var25.can;
+            var8 = _closure1_slot15;
+            var8 = var8.VIEW_CHANNEL;
+            var8 = var24.bind(var25)(var8, var21);
+            if(var8) { _fun0004_ip = 65; continue _fun0004 }
+case 63:
+            var24 = var23.bind(var4)();
+            var8 = var24.done;
+            var22 = var24;
+            var12 = var22;
+            var11 = var23;
+            var20 = var21;
+            if(var8) { _fun0004_ip = 60; continue _fun0004 }
+case 67:
+            _fun0004_ip = 62; continue _fun0004;
+case 65:
+            var8 = {};
+            var22 = 'channelMention';
+            var8['type'] = var22;
+            var21 = var21.id;
+            var8['channelId'] = var21;
+            var22 = {};
+            var21 = '';
+            var22['text'] = var21;
+            var21 = new Array(1);
+            var21[0] = var22;
+            var8['children'] = var21;
+            var1 = var8;
+            _fun0004_ip = 47; continue _fun0004;
+case 60:
+            var21 = var19.bind(var4)();
+            var8 = var21.done;
+            var10 = var20;
+            var13 = var21;
+            if(!var8) { _fun0004_ip = 59; continue _fun0004 }
+case 58:
+            var10 = _closure1_slot5;
+            var8 = var10.getActiveJoinedThreadsForGuild;
+            var13 = var8.bind(var10)(var6);
+            var10 = _closure1_slot17;
+            var11 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var8 = var8[var16];
+            var11 = var11.bind(var4)(var8);
+            var8 = var11.keys;
+            var8 = var8.bind(var11)(var13);
+            var12 = var10.bind(var4)(var8);
+            var10 = var12.bind(var4)();
+            var8 = var10.done;
+            var11 = var10;
+            var10 = undefined;
+            var1 = null;
+            if(var8) { _fun0004_ip = 47; continue _fun0004 }
+case 68:
+            var22 = var11.value;
+            var19 = _closure1_slot17;
+            var20 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var8 = var8[var16];
+            var21 = var20.bind(var4)(var8);
+            var20 = var21.keys;
+            var8 = var13[var22];
+            var8 = var20.bind(var21)(var8);
+            var21 = var19.bind(var4)(var8);
+            var19 = var21.bind(var4)();
+            var8 = var19.done;
+            var20 = var19;
+            if(var8) { _fun0004_ip = 69; continue _fun0004 }
+case 70:
+            var19 = var20.value;
+            var8 = var13[var22];
+            var8 = var8[var19];
+            var19 = var8.channel;
+            var23 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var15];
+            var25 = var23.bind(var4)(var8);
+            var24 = var25.computeChannelName;
+            var23 = _closure1_slot14;
+            var8 = _closure1_slot13;
+            var8 = var24.bind(var25)(var19, var23, var8);
+            if(!(var8 !== var18)) { _fun0004_ip = 71; continue _fun0004 }
+case 72:
+            var23 = var21.bind(var4)();
+            var8 = var23.done;
+            var20 = var23;
+            var10 = var19;
+            if(var8) { _fun0004_ip = 69; continue _fun0004 }
+case 73:
+            _fun0004_ip = 70; continue _fun0004;
+case 71:
+            var8 = {};
+            var20 = 'channelMention';
+            var8['type'] = var20;
+            var19 = var19.id;
+            var8['channelId'] = var19;
+            var20 = {};
+            var19 = '';
+            var20['text'] = var19;
+            var19 = new Array(1);
+            var19[0] = var20;
+            var8['children'] = var19;
+            var1 = var8;
+            _fun0004_ip = 47; continue _fun0004;
+case 69:
+            var19 = var12.bind(var4)();
+            var8 = var19.done;
+            var11 = var19;
+            var1 = null;
+            if(!var8) { _fun0004_ip = 68; continue _fun0004 }
+case 47:
+            return var1;
+case 43:
+            var8 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var1 = 17;
+            var1 = var10[var1];
+            var1 = var8.bind(var4)(var1);
+            var8 = var1.EMOJI_NAME_RE;
+            var1 = var8.exec;
+            var10 = var1.bind(var8)(var7);
+            var8 = var9 == var10;
+            var1 = null;
+            if(var8) { _fun0004_ip = 74; continue _fun0004 }
+case 75:
+            var8 = 1;
+            var11 = var10[var8];
+            var10 = _closure1_slot4;
+            var8 = var10.getDisambiguatedEmojiContext;
+            var10 = var8.bind(var10)(var6);
+            var8 = var10.getCustomEmoji;
+            var10 = var8.bind(var10)();
+            var8 = var10.get;
+            var10 = var8.bind(var10)(var11);
+            var8 = var9 != var5;
+            var15 = null;
+            if(!var8) { _fun0004_ip = 76; continue _fun0004 }
+case 77:
+            var11 = _closure1_slot6;
+            var8 = var11.getChannel;
+            var15 = var8.bind(var11)(var5);
+case 76:
+            var8 = var9 != var10;
+            var1 = null;
+            if(!var8) { _fun0004_ip = 74; continue _fun0004 }
+case 78:
+            var11 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var8 = 18;
+            var8 = var12[var8];
+            var12 = var11.bind(var4)(var8);
+            var11 = var12.isEmojiFiltered;
+            var8 = {};
+            var8['emoji'] = var10;
+            var8['channel'] = var15;
+            var13 = _closure1_slot16;
+            var13 = var13.CHAT;
+            var8['intention'] = var13;
+            var8 = var11.bind(var12)(var8);
+            var1 = null;
+            if(var8) { _fun0004_ip = 74; continue _fun0004 }
+case 79:
+            var8 = {};
+            var9 = 'customEmoji';
+            var8['type'] = var9;
+            var9 = {};
+            var11 = var10.id;
+            var9['emojiId'] = var11;
+            var11 = 'require_colons';
+            var11 = var11 in var10;
+            if(!var11) { _fun0004_ip = 80; continue _fun0004 }
+case 81:
+            var11 = var10.require_colons;
+            if(var11) { _fun0004_ip = 82; continue _fun0004 }
+case 80:
+            var11 = var10.name;
+            _fun0004_ip = 83; continue _fun0004;
+case 82:
+            var13 = var10.name;
+            var12 = global;
+            var12 = var12.HermesInternal;
+            var12 = var12.concat;
+            var11 = var12.bind(var14)(var13, var14);
+case 83:
+            var9['name'] = var11;
+            var11 = var10.animated;
+            var10 = true;
+            var10 = var10 === var11;
+            var9['animated'] = var10;
+            var10 = false;
+            var9['jumboable'] = var10;
+            var8['emoji'] = var9;
             var10 = {};
             var9 = '';
             var10['text'] = var9;
             var9 = new Array(1);
             var9[0] = var10;
-            var2['children'] = var9;
-            var1 = var2;
-            _fun0004_ip = 48; continue _fun0004;
-case 55:
-            var9 = _closure1_slot16;
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var2 = 15;
-            var2 = var11[var2];
-            var2 = var10.bind(var5)(var2);
-            var2 = var2.COMMAND_SUPPORTED_CHANNEL_TYPE_KEYS;
-            var18 = var9.bind(var5)(var2);
-            var9 = var18.bind(var5)();
-            var2 = var9.done;
-            var14 = 13;
-            var12 = var9;
-            var11 = undefined;
-            var10 = undefined;
-            var9 = undefined;
-            if(var2) { _fun0004_ip = 59; continue _fun0004 }
-case 60:
-            var21 = var12.value;
-            var2 = _closure1_slot8;
-            var19 = var9;
-            if(!(var21 !== var2)) { _fun0004_ip = 61; continue _fun0004 }
-case 62:
-            var20 = _closure1_slot16;
-            var22 = _closure1_slot7;
-            var2 = var22.getChannels;
-            var2 = var2.bind(var22)(var6);
-            var2 = var2[var21];
-            var22 = var20.bind(var5)(var2);
-            var20 = var22.bind(var5)();
-            var2 = var20.done;
-            var21 = var20;
-            var11 = var21;
-            var10 = var22;
-            var19 = var9;
-            if(var2) { _fun0004_ip = 61; continue _fun0004 }
-case 63:
-            var2 = var21.value;
-            var20 = var2.channel;
-            var23 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var14];
-            var25 = var23.bind(var5)(var2);
-            var24 = var25.computeChannelName;
-            var23 = _closure1_slot14;
-            var2 = _closure1_slot13;
-            var2 = var24.bind(var25)(var20, var23, var2);
-            if(!(var2 === var17)) { _fun0004_ip = 64; continue _fun0004 }
-case 65:
-            var2 = var20.isCategory;
-            var2 = var2.bind(var20)();
-            if(!var2) { _fun0004_ip = 66; continue _fun0004 }
-case 67:
-            var24 = _closure1_slot12;
-            var23 = var24.can;
-            var2 = _closure1_slot15;
-            var2 = var2.VIEW_CHANNEL;
-            var2 = var23.bind(var24)(var2, var20);
-            if(var2) { _fun0004_ip = 66; continue _fun0004 }
-case 64:
-            var23 = var22.bind(var5)();
-            var2 = var23.done;
-            var21 = var23;
-            var11 = var21;
-            var10 = var22;
-            var19 = var20;
-            if(var2) { _fun0004_ip = 61; continue _fun0004 }
-case 68:
-            _fun0004_ip = 63; continue _fun0004;
-case 66:
-            var2 = {};
-            var21 = 'channelMention';
-            var2['type'] = var21;
-            var20 = var20.id;
-            var2['channelId'] = var20;
-            var21 = {};
-            var20 = '';
-            var21['text'] = var20;
-            var20 = new Array(1);
-            var20[0] = var21;
-            var2['children'] = var20;
-            var1 = var2;
-            _fun0004_ip = 48; continue _fun0004;
-case 61:
-            var20 = var18.bind(var5)();
-            var2 = var20.done;
-            var9 = var19;
-            var12 = var20;
-            if(!var2) { _fun0004_ip = 60; continue _fun0004 }
-case 59:
-            var9 = _closure1_slot5;
-            var2 = var9.getActiveJoinedThreadsForGuild;
-            var12 = var2.bind(var9)(var6);
-            var9 = _closure1_slot16;
-            var10 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var2 = var2[var15];
-            var10 = var10.bind(var5)(var2);
-            var2 = var10.keys;
-            var2 = var2.bind(var10)(var12);
-            var11 = var9.bind(var5)(var2);
-            var9 = var11.bind(var5)();
-            var2 = var9.done;
-            var10 = var9;
-            var9 = undefined;
-            var1 = null;
-            if(var2) { _fun0004_ip = 48; continue _fun0004 }
-case 69:
-            var21 = var10.value;
-            var18 = _closure1_slot16;
-            var19 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var2 = var2[var15];
-            var20 = var19.bind(var5)(var2);
-            var19 = var20.keys;
-            var2 = var12[var21];
-            var2 = var19.bind(var20)(var2);
-            var20 = var18.bind(var5)(var2);
-            var18 = var20.bind(var5)();
-            var2 = var18.done;
-            var19 = var18;
-            if(var2) { _fun0004_ip = 70; continue _fun0004 }
-case 71:
-            var18 = var19.value;
-            var2 = var12[var21];
-            var2 = var2[var18];
-            var18 = var2.channel;
-            var22 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var14];
-            var24 = var22.bind(var5)(var2);
-            var23 = var24.computeChannelName;
-            var22 = _closure1_slot14;
-            var2 = _closure1_slot13;
-            var2 = var23.bind(var24)(var18, var22, var2);
-            if(!(var2 !== var17)) { _fun0004_ip = 72; continue _fun0004 }
-case 73:
-            var22 = var20.bind(var5)();
-            var2 = var22.done;
-            var19 = var22;
-            var9 = var18;
-            if(var2) { _fun0004_ip = 70; continue _fun0004 }
+            var8['children'] = var9;
+            var1 = var8;
 case 74:
-            _fun0004_ip = 71; continue _fun0004;
-case 72:
-            var2 = {};
-            var19 = 'channelMention';
-            var2['type'] = var19;
-            var18 = var18.id;
-            var2['channelId'] = var18;
-            var19 = {};
-            var18 = '';
-            var19['text'] = var18;
-            var18 = new Array(1);
-            var18[0] = var19;
-            var2['children'] = var18;
-            var1 = var2;
-            _fun0004_ip = 48; continue _fun0004;
-case 70:
-            var18 = var11.bind(var5)();
-            var2 = var18.done;
-            var10 = var18;
-            var1 = null;
-            if(!var2) { _fun0004_ip = 69; continue _fun0004 }
-case 48:
             return var1;
-case 44:
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var1 = 16;
-            var1 = var10[var1];
-            var1 = var9.bind(var5)(var1);
-            var9 = var1.EMOJI_NAME_RE;
-            var1 = var9.exec;
-            var10 = var1.bind(var9)(var7);
-            var9 = var8 == var10;
-            var1 = null;
-            if(var9) { _fun0004_ip = 75; continue _fun0004 }
-case 76:
-            var9 = 1;
-            var10 = var10[var9];
-            var9 = _closure1_slot4;
-            var2 = var9.getDisambiguatedEmojiContext;
-            var9 = var2.bind(var9)(var6);
-            var2 = var9.getCustomEmoji;
-            var9 = var2.bind(var9)();
-            var2 = var9.get;
-            var9 = var2.bind(var9)(var10);
-            var2 = var8 != var9;
-            var1 = null;
-            if(!var2) { _fun0004_ip = 75; continue _fun0004 }
-case 77:
-            var2 = {};
-            var8 = 'customEmoji';
-            var2['type'] = var8;
-            var8 = {};
-            var10 = var9.id;
-            var8['emojiId'] = var10;
-            var10 = 'require_colons';
-            var10 = var10 in var9;
-            if(!var10) { _fun0004_ip = 78; continue _fun0004 }
-case 79:
-            var10 = var9.require_colons;
-            if(var10) { _fun0004_ip = 80; continue _fun0004 }
-case 78:
-            var10 = var9.name;
-            _fun0004_ip = 81; continue _fun0004;
-case 80:
-            var12 = var9.name;
-            var11 = global;
-            var11 = var11.HermesInternal;
-            var11 = var11.concat;
-            var10 = var11.bind(var13)(var12, var13);
-case 81:
-            var8['name'] = var10;
-            var10 = var9.animated;
-            var9 = true;
-            var9 = var9 === var10;
-            var8['animated'] = var9;
-            var9 = false;
-            var8['jumboable'] = var9;
-            var2['emoji'] = var8;
-            var9 = {};
-            var8 = '';
-            var9['text'] = var8;
-            var8 = new Array(1);
-            var8[0] = var9;
-            var2['children'] = var8;
-            var1 = var2;
-case 75:
-            return var1;
-case 42:
-            var2 = function resolveUserOrRole(arg1, arg2, arg3, arg4, arg5) {
+case 41:
+            var1 = function resolveUserOrRole(arg1, arg2, arg3, arg4, arg5) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var2 = arg1;
@@ -553,20 +578,20 @@ case 0:
                     var1 = null;
                     var10 = var1 != var12;
                     var8 = null;
-                    if(!var10) { _fun0005_ip = 49; continue _fun0005 }
+                    if(!var10) { _fun0005_ip = 84; continue _fun0005 }
 case 9:
                     var11 = _closure1_slot11;
                     var10 = var11.getGuild;
                     var8 = var10.bind(var11)(var12);
-case 49:
-                    var10 = arg5;
-                    if(!var10) { _fun0005_ip = 82; continue _fun0005 }
-case 13:
-                    if(!(var1 == var5)) { _fun0005_ip = 82; continue _fun0005 }
-case 83:
-                    if(!(var1 != var8)) { _fun0005_ip = 82; continue _fun0005 }
 case 84:
-                    var10 = _closure1_slot16;
+                    var10 = arg5;
+                    if(!var10) { _fun0005_ip = 85; continue _fun0005 }
+case 13:
+                    if(!(var1 == var5)) { _fun0005_ip = 85; continue _fun0005 }
+case 86:
+                    if(!(var1 != var8)) { _fun0005_ip = 85; continue _fun0005 }
+case 87:
+                    var10 = _closure1_slot17;
                     var14 = _closure1_slot10;
                     var11 = var14.getSortedRoles;
                     var8 = var8.id;
@@ -575,19 +600,19 @@ case 84:
                     var10 = var14.bind(var7)();
                     var8 = var10.done;
                     var11 = var10;
-                    if(var8) { _fun0005_ip = 82; continue _fun0005 }
-case 85:
+                    if(var8) { _fun0005_ip = 85; continue _fun0005 }
+case 88:
                     var10 = var11.value;
                     var8 = var10.name;
-                    if(!(var6 !== var8)) { _fun0005_ip = 86; continue _fun0005 }
+                    if(!(var6 !== var8)) { _fun0005_ip = 89; continue _fun0005 }
 case 16:
                     var15 = var14.bind(var7)();
                     var8 = var15.done;
                     var11 = var15;
-                    if(var8) { _fun0005_ip = 82; continue _fun0005 }
-case 87:
-                    _fun0005_ip = 85; continue _fun0005;
-case 86:
+                    if(var8) { _fun0005_ip = 85; continue _fun0005 }
+case 90:
+                    _fun0005_ip = 88; continue _fun0005;
+case 89:
                     var8 = {};
                     var11 = 'roleMention';
                     var8['type'] = var11;
@@ -600,24 +625,24 @@ case 86:
                     var10[0] = var11;
                     var8['children'] = var10;
                     return var8;
-case 82:
+case 85:
                     var8 = arg4;
-                    if(!var8) { _fun0005_ip = 88; continue _fun0005 }
+                    if(!var8) { _fun0005_ip = 91; continue _fun0005 }
 case 18:
                     var10 = var1 != var13;
                     var8 = null;
-                    if(!var10) { _fun0005_ip = 89; continue _fun0005 }
-case 90:
+                    if(!var10) { _fun0005_ip = 92; continue _fun0005 }
+case 93:
                     var11 = _closure1_slot6;
                     var10 = var11.getChannel;
                     var8 = var10.bind(var11)(var13);
-case 89:
-                    if(!(var1 != var8)) { _fun0005_ip = 91; continue _fun0005 }
 case 92:
+                    if(!(var1 != var8)) { _fun0005_ip = 94; continue _fun0005 }
+case 95:
                     var10 = var8.isPrivate;
                     var10 = var10.bind(var8)();
-                    if(var10) { _fun0005_ip = 56; continue _fun0005 }
-case 93:
+                    if(var10) { _fun0005_ip = 96; continue _fun0005 }
+case 54:
                     var11 = _closure1_slot9;
                     var10 = var11.getMembers;
                     var12 = var10.bind(var11)(var12);
@@ -629,7 +654,7 @@ case 93:
                     };
                     var11 = var11.bind(var12)(var10);
                     _fun0005_ip = 26; continue _fun0005;
-case 56:
+case 96:
                     var11 = var8.recipients;
 case 26:
                     var10 = var11.map;
@@ -648,22 +673,22 @@ case 0:
                             var6 = arg1;
                             var5 = undefined;
                             var1 = var5 !== var6;
-                            if(!var1) { _fun0006_ip = 94; continue _fun0006 }
-case 95:
-                            var4 = _closure1_slot19;
+                            if(!var1) { _fun0006_ip = 97; continue _fun0006 }
+case 98:
+                            var4 = _closure1_slot20;
                             var3 = _closure3_slot0;
                             var2 = _closure3_slot1;
                             var1 = var4.bind(var5)(var3, var2, var6);
-case 94:
+case 97:
                             return var1;
                         }
                     };
                     var3 = var8.bind(var10)(var3);
                     var8 = var3.length;
-                    if(!(var9 === var8)) { _fun0005_ip = 88; continue _fun0005 }
-case 96:
+                    if(!(var9 === var8)) { _fun0005_ip = 91; continue _fun0005 }
+case 99:
                     var3 = var3[var4];
-                    var4 = _closure1_slot19;
+                    var4 = _closure1_slot20;
                     var2 = {};
                     var8 = true;
                     var2['requireExact'] = var8;
@@ -673,10 +698,10 @@ case 96:
                     var17 = var3;
                     var16 = var2;
                     var2 = var20[var4](var19, var18, var17, var16, var15);
-                    if(var2) { _fun0005_ip = 97; continue _fun0005 }
-case 88:
+                    if(var2) { _fun0005_ip = 100; continue _fun0005 }
+case 91:
                     return var1;
-case 97:
+case 100:
                     var2 = {};
                     var4 = 'userMention';
                     var2['type'] = var4;
@@ -689,21 +714,21 @@ case 97:
                     var3[0] = var4;
                     var2['children'] = var3;
                     return var2;
-case 91:
+case 94:
                     return var1;
                 }
             };
-            var28 = arg3;
-            var31 = undefined;
-            var30 = var7;
-            var29 = var6;
-            var27 = var4;
-            var26 = var3;
-            var1 = var31[var2](var30, var29, var28, var27, var26, var25);
+            var32 = undefined;
+            var31 = var7;
+            var30 = var6;
+            var29 = var5;
+            var28 = var3;
+            var27 = var2;
+            var1 = var32[var1](var31, var30, var29, var28, var27, var26);
             return var1;
         }
     };
-    var _closure1_slot18 = var4;
+    var _closure1_slot19 = var4;
     var1 = function matchesUser(arg1, arg2, arg3) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -713,25 +738,25 @@ case 0:
             var2 = arguments[3];
             var1 = undefined;
             if(!(var2 === var1)) { _fun0007_ip = 29; continue _fun0007 }
-case 98:
+case 36:
             var2 = {};
 case 29:
             var2 = var2.requireExact;
-            if(!(var2 === var1)) { _fun0007_ip = 39; continue _fun0007 }
+            if(!(var2 === var1)) { _fun0007_ip = 101; continue _fun0007 }
 case 3:
             var2 = false;
-case 39:
+case 101:
             var3 = null;
             var1 = var3 != var4;
-            if(!var1) { _fun0007_ip = 99; continue _fun0007 }
-case 100:
+            if(!var1) { _fun0007_ip = 102; continue _fun0007 }
+case 103:
             var6 = var4.username;
-            if(var2) { _fun0007_ip = 101; continue _fun0007 }
-case 102:
+            if(var2) { _fun0007_ip = 104; continue _fun0007 }
+case 105:
             var2 = var6.startsWith;
             var2 = var2.bind(var6)(var7);
             _fun0007_ip = 30; continue _fun0007;
-case 101:
+case 104:
             var2 = var6 === var7;
 case 30:
             if(!var2) { _fun0007_ip = 11; continue _fun0007 }
@@ -739,18 +764,18 @@ case 35:
             var4 = var4.discriminator;
             var6 = var3 != var5;
             var3 = '0';
-            if(!var6) { _fun0007_ip = 103; continue _fun0007 }
-case 46:
+            if(!var6) { _fun0007_ip = 45; continue _fun0007 }
+case 106:
             var3 = var5;
-case 103:
+case 45:
             var2 = var4 === var3;
 case 11:
             var1 = var2;
-case 99:
+case 102:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -813,7 +838,12 @@ case 99:
     var5 = var6.bind(var1)(var5);
     var5 = var5.Permissions;
     var _closure1_slot15 = var5;
-    var5 = 17;
+    var5 = 12;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.EmojiIntention;
+    var _closure1_slot16 = var5;
+    var5 = 19;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -823,7 +853,7 @@ case 99:
     var2 = function resolveApplicationCommandOption(arg1, arg2, arg3, arg4) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var5 = undefined;
             var11 = arg1;
             var10 = arg2;
@@ -834,10 +864,10 @@ case 0:
             var1 = null;
             var3 = var1 == var4;
             if(var3) { _fun0008_ip = 30; continue _fun0008 }
-case 104:
+case 107:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 12;
+            var2 = 13;
             var2 = var6[var2];
             var3 = var3.bind(var5)(var2);
             var2 = var3.voidToOptionValue;

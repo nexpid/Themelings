@@ -1,90 +1,84 @@
 // app/modules/user_profile/native/EditProfileEffectActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
+    var5 = require;
     var11 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
-    var _closure1_slot2 = var7;
+    var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
-    var5 = var8.defineProperty;
-    var2 = {};
+    var7 = var8.defineProperty;
+    var4 = {};
     var1 = true;
-    var2['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var8)(var3, var1, var2);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var2 = var7[var1];
+    var4 = var6[var1];
     var1 = undefined;
-    var2 = var11.bind(var1)(var2);
-    var _closure1_slot3 = var2;
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot3 = var4;
     var10 = 1;
-    var5 = var7[var10];
-    var2 = metroImportAll;
-    var2 = var2.bind(var1)(var5);
-    var _closure1_slot4 = var2;
-    var2 = 2;
-    var2 = var7[var2];
-    var2 = var6.bind(var1)(var2);
-    var5 = var2.View;
-    var _closure1_slot5 = var5;
-    var5 = var2.ActivityIndicator;
-    var _closure1_slot6 = var5;
-    var12 = var2.StyleSheet;
-    var2 = 3;
-    var2 = var7[var2];
-    var2 = var11.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = 4;
-    var2 = var7[var2];
-    var2 = var6.bind(var1)(var2);
-    var2 = var2.isProfileEffectRecord;
-    var _closure1_slot8 = var2;
-    var2 = 5;
-    var2 = var7[var2];
-    var2 = var6.bind(var1)(var2);
-    var2 = var2.AnalyticEvents;
-    var _closure1_slot9 = var2;
-    var2 = 6;
-    var2 = var7[var2];
-    var2 = var6.bind(var1)(var2);
-    var5 = var2.jsx;
-    var _closure1_slot10 = var5;
-    var2 = var2.jsxs;
-    var _closure1_slot11 = var2;
-    var2 = 7;
-    var2 = var7[var2];
-    var8 = var6.bind(var1)(var2);
-    var5 = var8.createStyles;
-    var2 = {};
+    var7 = var6[var10];
+    var4 = metroImportAll;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.View;
+    var _closure1_slot5 = var7;
+    var12 = var4.StyleSheet;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.isProfileEffectRecord;
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot9 = var7;
+    var7 = var4.jsxs;
+    var _closure1_slot10 = var7;
+    var4 = var4.Fragment;
+    var _closure1_slot11 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
     var9 = {};
     var9['flex'] = var10;
     var10 = 8;
-    var13 = var7[var10];
+    var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
     var13 = var13.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var13;
-    var2['container'] = var9;
-    var9 = {'flexDirection': 'column', 'alignItems': 'center', 'paddingBottom': 88, 'flex': 1};
-    var2['contentContainer'] = var9;
+    var4['container'] = var9;
     var9 = {'position': 'absolute', 'top': 4294967046, 'height': 250, 'right': 0, 'left': 0};
-    var2['bounceOffset'] = var9;
-    var9 = {};
-    var13 = var7[var10];
+    var4['bounceOffset'] = var9;
+    var9 = {'alignSelf': 'center', 'color': null, 'margin': 25};
+    var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
     var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var13;
-    var13 = 25;
-    var9['margin'] = var13;
-    var2['title'] = var9;
-    var9 = {'width': '92%', 'marginTop': 24, 'flex': 1};
-    var2['profileEffectsList'] = var9;
-    var9 = {'overflow': 'hidden', 'height': 300};
-    var2['previewContainer'] = var9;
+    var4['title'] = var9;
+    var9 = {'overflow': 'hidden', 'height': 300, 'alignItems': 'center'};
+    var4['previewContainer'] = var9;
     var9 = {};
     var15 = var12.absoluteFillObject;
     var16 = var9;
@@ -92,110 +86,114 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = -1;
     var12 = 'bottom';
     var9[11] = var13;
-    var10 = var7[var10];
+    var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
     var11 = var10.BACKGROUND_BASE_LOW;
     var10 = 'color';
     var9[9] = var11;
-    var2['previewGradient'] = var9;
-    var2 = var5.bind(var8)(var2);
-    var _closure1_slot12 = var2;
-    var2 = function EditProfileEffectInner(arg1) {
+    var4['previewGradient'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot12 = var4;
+    var4 = function EditProfileEffectInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var15 = var2.user;
-            var _closure2_slot0 = var15;
-            var8 = var2.selectedProfileEffect;
+            var7 = var2.user;
+            var _closure2_slot0 = var7;
+            var13 = var2.selectedProfileEffect;
+            var8 = var2.setSelectedProfileEffect;
             var _closure2_slot1 = var8;
-            var1 = var2.setSelectedProfileEffect;
-            var _closure2_slot2 = var1;
-            var1 = var2.isFetching;
             var16 = var2.guildId;
-            var _closure2_slot3 = var16;
-            var7 = var2.showTitle;
-            var5 = undefined;
-            if(!(var7 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            var _closure2_slot2 = var16;
+            var6 = var2.isTryItOut;
+            var4 = undefined;
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = true;
+            var6 = false;
 case 2:
-            var2 = var2.isTryItOut;
-            if(!(var2 === var5)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var2 = false;
-case 4:
-            var _closure2_slot4 = var2;
+            var _closure2_slot3 = var6;
             var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 21;
-            var2 = var4[var2];
-            var9 = var3.bind(var5)(var2);
+            var5 = _closure1_slot2;
+            var2 = 20;
+            var2 = var5[var2];
+            var9 = var3.bind(var4)(var2);
             var2 = var9.useGetOrFetchCollectiblesCategoriesAndPurchases;
             var2 = var2.bind(var9)();
-            var9 = _closure1_slot1;
+            var2 = 21;
+            var2 = var5[var2];
+            var12 = var3.bind(var4)(var2);
+            var11 = var12.useStateFromStores;
+            var2 = _closure1_slot6;
+            var9 = new Array(1);
+            var9[0] = var2;
+            var2 = function() {
+                var1 = _closure1_slot6;
+                var1 = var1.isFetching;
+                return var1;
+            };
+            var9 = var11.bind(var12)(var9, var2);
+            var11 = _closure1_slot1;
             var2 = 22;
-            var2 = var4[var2];
-            var2 = var9.bind(var5)(var2);
-            var12 = var2.bind(var5)();
-            var2 = _closure1_slot12;
-            var11 = var2.bind(var5)();
-            var2 = 10;
-            var2 = var4[var2];
-            var9 = var9.bind(var5)(var2);
-            var2 = var15.id;
-            var9 = var9.bind(var5)(var2, var16);
+            var2 = var5[var2];
+            var2 = var11.bind(var4)(var2);
+            var14 = var2.bind(var4)();
+            var2 = 9;
+            var2 = var5[var2];
+            var11 = var11.bind(var4)(var2);
+            var2 = var7.id;
+            var15 = var11.bind(var4)(var2, var16);
             var2 = 23;
-            var2 = var4[var2];
-            var4 = var3.bind(var5)(var2);
-            var3 = var4.getProfilePreviewValue;
+            var2 = var5[var2];
+            var5 = var3.bind(var4)(var2);
+            var3 = var5.getProfilePreviewValue;
             var2 = {};
-            var2['pendingValue'] = var8;
-            var13 = null;
-            var14 = var13 == var9;
-            var8 = undefined;
-            if(var14) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var14 = var9._userProfile;
-            var17 = var13 == var14;
-            var8 = undefined;
-            if(var17) { _fun0001_ip = 6; continue _fun0001 }
-case 8:
-            var8 = var14.profileEffect;
+            var2['pendingValue'] = var13;
+            var12 = null;
+            var17 = var12 == var15;
+            var11 = undefined;
+            if(var17) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var17 = var15._userProfile;
+            var18 = var12 == var17;
+            var11 = undefined;
+            if(var18) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
-            var2['userValue'] = var8;
-            var14 = var13 == var9;
-            var8 = undefined;
-            if(var14) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var9 = var9._guildMemberProfile;
-            var14 = var13 == var9;
-            var8 = undefined;
-            if(var14) { _fun0001_ip = 9; continue _fun0001 }
-case 11:
-            var8 = var9.profileEffect;
+            var11 = var17.profileEffect;
+case 4:
+            var2['userValue'] = var11;
+            var17 = var12 == var15;
+            var11 = undefined;
+            if(var17) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var15 = var15._guildMemberProfile;
+            var17 = var12 == var15;
+            var11 = undefined;
+            if(var17) { _fun0001_ip = 7; continue _fun0001 }
 case 9:
-            var2['guildValue'] = var8;
+            var11 = var15.profileEffect;
+case 7:
+            var2['guildValue'] = var11;
             var2['guildId'] = var16;
-            var14 = var3.bind(var4)(var2);
-            var8 = _closure1_slot4;
-            var4 = var8.useEffect;
+            var15 = var3.bind(var5)(var2);
+            var5 = _closure1_slot4;
+            var11 = var5.useEffect;
             var3 = new Array(1);
-            var3[0] = var15;
+            var3[0] = var7;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure2_slot0;
                     var7 = null;
                     var2 = var7 == var2;
-                    if(var2) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                    if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var4 = _closure2_slot0;
                     var3 = var4.isNonUserBot;
                     var2 = var3.bind(var4)();
-case 12:
-                    if(var2) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+case 10:
+                    if(var2) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 24;
@@ -209,155 +207,134 @@ case 15:
                     var2 = var2.bind(var6)(var7, var1);
                     var1 = {'withMutualGuilds': true, 'dispatchWait': true};
                     var1 = var4.bind(var5)(var3, var2, var1);
-case 14:
+case 12:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var2 = var4.bind(var8)(var2, var3);
-            if(var1) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            var3 = _closure1_slot11;
-            var2 = _closure1_slot5;
-            var1 = {};
-            var4 = var11.contentContainer;
-            var1['style'] = var4;
-            if(!var7) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-            var9 = _closure1_slot10;
-            var20 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var4 = 25;
-            var4 = var21[var4];
-            var4 = var20.bind(var5)(var4);
-            var8 = var4.Text;
-            var4 = {'variant': 'redesign/heading-18/bold', 'style': null, 'accessibilityRole': 'header'};
-            var17 = var11.title;
-            var4['style'] = var17;
-            var17 = 26;
-            var18 = var21[var17];
-            var18 = var20.bind(var5)(var18);
-            var19 = var18.intl;
-            var18 = var19.string;
-            var17 = var21[var17];
-            var17 = var20.bind(var5)(var17);
-            var17 = var17.t;
-            var17 = var17["/6nv6N"];
-            var17 = var18.bind(var19)(var17);
-            var4['children'] = var17;
-            var7 = var9.bind(var5)(var8, var4);
-case 18:
-            var4 = new Array(4);
-            var4[0] = var7;
-            var9 = _closure1_slot10;
-            var8 = _closure1_slot14;
-            var7 = {};
-            var18 = var13 == var14;
-            var17 = undefined;
-            if(var18) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-            var17 = var14.skuId;
-case 20:
-            var7['previewSkuId'] = var17;
-            var7['user'] = var15;
-            var7['guildId'] = var16;
-            var7 = var9.bind(var5)(var8, var7);
-            var4[1] = var7;
-            var9 = _closure1_slot10;
-            var8 = _closure1_slot1;
-            var16 = _closure1_slot2;
-            var7 = 27;
-            var7 = var16[var7];
-            var8 = var8.bind(var5)(var7);
-            var7 = {};
-            var7['user'] = var15;
-            var15 = var13 == var14;
-            var13 = undefined;
-            if(var15) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var13 = var14.skuId;
-case 22:
-            var7['previewSkuId'] = var13;
-            var16 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var13 = 26;
-            var14 = var17[var13];
-            var14 = var16.bind(var5)(var14);
-            var18 = var14.intl;
-            var15 = var18.string;
-            var14 = var17[var13];
-            var14 = var16.bind(var5)(var14);
-            var14 = var14.t;
-            var14 = var14.pertpd;
-            var14 = var15.bind(var18)(var14);
-            var7['nitroJoinCTA'] = var14;
-            var14 = var17[var13];
-            var14 = var16.bind(var5)(var14);
-            var15 = var14.intl;
-            var14 = var15.string;
-            var13 = var17[var13];
-            var13 = var16.bind(var5)(var13);
-            var13 = var13.t;
-            var13 = var13["5eotIZ"];
-            var13 = var14.bind(var15)(var13);
-            var7['nitroUpgradeCTA'] = var13;
-            var7 = var9.bind(var5)(var8, var7);
-            var4[2] = var7;
-            var9 = _closure1_slot10;
-            var8 = _closure1_slot5;
-            var7 = {};
-            var11 = var11.profileEffectsList;
-            var7['style'] = var11;
-            var11 = var12.map;
-            var10 = function(arg1, arg2) {
-                var5 = _closure1_slot10;
-                var2 = _closure1_slot1;
+            var2 = var11.bind(var5)(var2, var3);
+            var3 = var5.useCallback;
+            var2 = new Array(3);
+            var2[0] = var8;
+            var2[1] = var16;
+            var2[2] = var6;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var7 = var1.items;
+                var6 = var1.size;
+                var5 = var1.selectedSkuId;
+                var4 = _closure1_slot9;
+                var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 28;
+                var1 = 25;
                 var1 = var3[var1];
-                var4 = undefined;
-                var3 = var2.bind(var4)(var1);
-                var2 = {};
+                var3 = undefined;
+                var1 = var2.bind(var3)(var1);
+                var2 = var1.EditProfileEffectRow;
+                var1 = {};
+                var1['items'] = var7;
+                var1['size'] = var6;
+                var1['selectedSkuId'] = var5;
                 var6 = _closure2_slot1;
-                var2['selectedProfileEffect'] = var6;
+                var1['setSelectedProfileEffect'] = var6;
                 var6 = _closure2_slot2;
-                var2['setSelectedProfileEffect'] = var6;
-                var6 = arg1;
-                var2['section'] = var6;
-                var6 = _closure2_slot3;
-                var2['guildId'] = var6;
-                var1 = _closure2_slot4;
-                var2['isTryItOut'] = var1;
-                var1 = arg2;
-                var1 = var5.bind(var4)(var3, var2, var1);
+                var1['guildId'] = var6;
+                var5 = _closure2_slot3;
+                var1['isTryItOut'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var10 = var11.bind(var12)(var10);
-            var7['children'] = var10;
-            var7 = var9.bind(var5)(var8, var7);
-            var4[3] = var7;
-            var1['children'] = var4;
-            var1 = var3.bind(var5)(var2, var1);
-            _fun0001_ip = 24; continue _fun0001;
+            var11 = var3.bind(var5)(var1, var2);
+            var3 = _closure1_slot10;
+            var2 = _closure1_slot11;
+            var1 = {};
+            var8 = _closure1_slot9;
+            var6 = _closure1_slot14;
+            var5 = {};
+            var18 = var12 == var15;
+            var17 = undefined;
+            if(var18) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var17 = var15.skuId;
+case 14:
+            var5['previewSkuId'] = var17;
+            var5['user'] = var7;
+            var5['guildId'] = var16;
+            var6 = var8.bind(var4)(var6, var5);
+            var5 = new Array(3);
+            var5[0] = var6;
+            var16 = _closure1_slot9;
+            var8 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var6 = 26;
+            var6 = var17[var6];
+            var8 = var8.bind(var4)(var6);
+            var6 = {};
+            var6['user'] = var7;
+            var17 = var12 == var15;
+            var7 = undefined;
+            if(var17) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+            var7 = var15.skuId;
 case 16:
-            var4 = _closure1_slot10;
-            var3 = _closure1_slot5;
-            var2 = {};
-            var7 = {};
-            var8 = 250;
-            var7['top'] = var8;
-            var2['style'] = var7;
-            var7 = _closure1_slot6;
-            var6 = {'animating': true, 'size': 'large'};
-            var6 = var4.bind(var5)(var7, var6);
-            var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 24:
+            var6['previewSkuId'] = var7;
+            var7 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var17 = 18;
+            var18 = var15[var17];
+            var18 = var7.bind(var4)(var18);
+            var20 = var18.intl;
+            var19 = var20.string;
+            var18 = var15[var17];
+            var18 = var7.bind(var4)(var18);
+            var18 = var18.t;
+            var18 = var18.pertpd;
+            var18 = var19.bind(var20)(var18);
+            var6['nitroJoinCTA'] = var18;
+            var18 = var15[var17];
+            var18 = var7.bind(var4)(var18);
+            var19 = var18.intl;
+            var18 = var19.string;
+            var17 = var15[var17];
+            var17 = var7.bind(var4)(var17);
+            var17 = var17.t;
+            var17 = var17["5eotIZ"];
+            var17 = var18.bind(var19)(var17);
+            var6['nitroUpgradeCTA'] = var17;
+            var6 = var16.bind(var4)(var8, var6);
+            var5[1] = var6;
+            var8 = _closure1_slot9;
+            var6 = 27;
+            var6 = var15[var6];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.EditCollectiblesPickerList;
+            var6 = {};
+            var6['sections'] = var14;
+            var14 = var12 == var13;
+            var12 = undefined;
+            if(var14) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            var12 = var13.skuId;
+case 18:
+            var6['selectedSkuId'] = var12;
+            var6['renderRow'] = var11;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var10 = 28;
+            var10 = var12[var10];
+            var10 = var11.bind(var4)(var10);
+            var10 = var10.COLLECTIBLE_ROW_HEIGHT;
+            var6['estimatedItemSize'] = var10;
+            var6['isFetching'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var _closure1_slot13 = var2;
-    var5 = function ProfileEffectSectionPreview(arg1) {
+    var _closure1_slot13 = var4;
+    var4 = function ProfileEffectSectionPreview(arg1) {
         var2 = arg1;
         var3 = var2.previewSkuId;
         var13 = var2.user;
@@ -388,44 +365,44 @@ case 0:
                 var3 = var1 == var2;
                 var4 = undefined;
                 var2 = undefined;
-                if(var3) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+                if(var3) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                 var3 = _closure2_slot0;
                 var6 = var3.items;
                 var3 = 0;
                 var2 = var6[var3];
-case 25:
-                if(!(var1 == var2)) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+case 20:
+                if(!(var1 == var2)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                 var3 = _closure2_slot1;
                 var6 = var1 == var3;
                 var3 = undefined;
-                if(var6) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
+                if(var6) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
                 var5 = _closure2_slot1;
                 var6 = var5.items;
                 var5 = 0;
                 var3 = var6[var5];
-case 29:
+case 24:
                 var2 = var3;
-case 27:
-                var3 = _closure1_slot8;
+case 22:
+                var3 = _closure1_slot7;
                 var3 = var3.bind(var4)(var2);
                 var1 = null;
-                if(!var3) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+                if(!var3) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                 var1 = var2;
-case 31:
+case 26:
                 return var1;
             }
         };
         var11 = var3.bind(var6)(var1, var2);
-        var3 = _closure1_slot11;
+        var3 = _closure1_slot10;
         var2 = _closure1_slot5;
         var1 = {};
         var6 = var10.previewContainer;
         var1['style'] = var6;
-        var8 = _closure1_slot10;
+        var8 = _closure1_slot9;
         var5 = 30;
         var5 = var9[var5];
         var6 = var7.bind(var4)(var5);
@@ -468,96 +445,76 @@ case 31:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot14 = var5;
-    var5 = 32;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/user_profile/native/EditProfileEffectActionSheet.tsx';
-    var5 = var6.bind(var7)(var5);
-    var4 = function EditProfileEffectActionSheet(arg1) {
+    var _closure1_slot14 = var4;
+    var4 = 32;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/native/EditProfileEffectActionSheet.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function EditProfileEffectActionSheet(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var19 = var1.user;
-            var20 = var1.currentProfileEffect;
-            var25 = var1.guildId;
-            var _closure2_slot0 = var25;
-            var16 = var1.isTryItOut;
-            var _closure2_slot1 = var16;
+            var18 = var1.user;
+            var19 = var1.currentProfileEffect;
+            var24 = var1.guildId;
+            var _closure2_slot0 = var24;
+            var15 = var1.isTryItOut;
+            var _closure2_slot1 = var15;
             var4 = undefined;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var1 = _closure1_slot12;
-            var24 = var1.bind(var4)();
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 9;
-            var1 = var6[var1];
-            var7 = var3.bind(var4)(var1);
-            var5 = var7.useStateFromStoresArray;
-            var1 = _closure1_slot7;
-            var3 = new Array(1);
-            var3[0] = var1;
-            var1 = function() {
-                var1 = _closure1_slot7;
-                var2 = var1.isFetching;
-                var1 = new Array(1);
-                var1[0] = var2;
-                return var1;
-            };
-            var3 = var5.bind(var7)(var3, var1);
-            var1 = _closure1_slot3;
-            var5 = 1;
-            var1 = var1.bind(var4)(var3, var5);
-            var7 = 0;
-            var26 = var1[var7];
+            var26 = var1.bind(var4)();
             var3 = _closure1_slot1;
-            var1 = 10;
-            var1 = var6[var1];
+            var5 = _closure1_slot2;
+            var1 = 9;
+            var1 = var5[var1];
             var3 = var3.bind(var4)(var1);
-            var6 = var19.id;
-            var17 = null;
-            var8 = var17 != var6;
+            var5 = var18.id;
+            var16 = null;
+            var6 = var16 != var5;
             var1 = '';
-            if(!var8) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
-            var1 = var6;
-case 33:
+            if(!var6) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
+            var1 = var5;
+case 28:
             var3 = var3.bind(var4)(var1);
             _closure2_slot2 = var3;
             var6 = _closure1_slot4;
             var1 = var6.useState;
-            var10 = var1.bind(var6)(var20);
-            var8 = _closure1_slot3;
+            var7 = var1.bind(var6)(var19);
+            var5 = _closure1_slot3;
             var1 = 2;
-            var1 = var8.bind(var4)(var10, var1);
-            var18 = var1[var7];
-            _closure2_slot3 = var18;
-            var27 = var1[var5];
-            var10 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var1 = 11;
-            var1 = var21[var1];
-            var5 = var10.bind(var4)(var1);
+            var5 = var5.bind(var4)(var7, var1);
+            var1 = 0;
+            var17 = var5[var1];
+            _closure2_slot3 = var17;
+            var1 = 1;
+            var25 = var5[var1];
+            var29 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var1 = 10;
+            var1 = var20[var1];
+            var5 = var29.bind(var4)(var1);
             var1 = var5.useBottomSheetRef;
             var1 = var1.bind(var5)();
-            var22 = var1.bottomSheetRef;
-            var12 = var1.bottomSheetClose;
-            var11 = _closure1_slot1;
-            var1 = 12;
-            var5 = var21[var1];
-            var7 = var11.bind(var4)(var5);
-            var14 = 13;
-            var5 = var21[var14];
-            var5 = var11.bind(var4)(var5);
+            var21 = var1.bottomSheetRef;
+            var10 = _closure1_slot1;
+            var1 = 11;
+            var5 = var20[var1];
+            var7 = var10.bind(var4)(var5);
+            var13 = 12;
+            var5 = var20[var13];
+            var5 = var10.bind(var4)(var5);
             var5 = var5.EDIT_PROFILE_EFFECT_SHEET;
             var5 = var7.bind(var4)(var5);
-            var13 = var5.analyticsLocations;
+            var12 = var5.analyticsLocations;
             var7 = var6.useMemo;
             var5 = new Array(2);
-            var5[0] = var25;
+            var5[0] = var24;
             var5[1] = var3;
             var3 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -565,7 +522,7 @@ case 0:
                     var1 = {};
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 12;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var4.bind(var3)(var2);
@@ -576,19 +533,19 @@ case 0:
                     var2 = _closure2_slot2;
                     var6 = null;
                     var2 = var6 != var2;
-                    if(!var2) { _fun0005_ip = 35; continue _fun0005 }
-case 3:
+                    if(!var2) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                     var5 = _closure2_slot2;
                     var5 = var6 == var5;
                     var3 = undefined;
-                    if(var5) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                    if(var5) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                     var5 = _closure2_slot2;
                     var4 = var5.hasPremiumCustomization;
                     var3 = var4.bind(var5)();
-case 36:
+case 32:
                     var2 = var3;
-case 35:
+case 30:
                     var1['profile_has_nitro_customization'] = var2;
                     return var1;
                 }
@@ -601,12 +558,12 @@ case 35:
             var3 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 14;
+                var1 = 13;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.track;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot8;
                 var3 = var2.OPEN_POPOUT;
                 var2 = {};
                 var8 = _closure2_slot4;
@@ -618,21 +575,21 @@ case 35:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var8 = var7.bind(var6)(var3, var5);
+            var9 = var7.bind(var6)(var3, var5);
             var5 = var6.useCallback;
             var3 = new Array(3);
-            var3[0] = var18;
-            var3[1] = var25;
-            var3[2] = var16;
+            var3[0] = var17;
+            var3[1] = var24;
+            var3[2] = var15;
             var2 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = _closure2_slot1;
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    if(var1) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
-                    var1 = 16;
+                    if(var1) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
+                    var1 = 15;
                     var5 = var2[var1];
                     var1 = undefined;
                     var6 = var3.bind(var1)(var5);
@@ -643,15 +600,15 @@ case 39:
                     var8 = _closure2_slot3;
                     var7 = null;
                     var8 = var7 != var8;
-                    if(!var8) { _fun0006_ip = 40; continue _fun0006 }
-case 41:
+                    if(!var8) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
                     var7 = _closure2_slot3;
-case 40:
+case 36:
                     var1['profileEffect'] = var7;
                     var1 = var5.bind(var6)(var1);
-                    _fun0006_ip = 42; continue _fun0006;
-case 38:
-                    var1 = 15;
+                    _fun0006_ip = 38; continue _fun0006;
+case 34:
+                    var1 = 14;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -659,103 +616,107 @@ case 38:
                     var5 = _closure2_slot3;
                     var1 = null;
                     var5 = var1 != var5;
-                    if(!var5) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+                    if(!var5) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
                     var1 = _closure2_slot3;
-case 43:
+case 39:
                     var1 = var2.bind(var3)(var1);
-case 42:
+case 38:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var15 = var5.bind(var6)(var2, var3);
-            var3 = _closure1_slot10;
-            var1 = var21[var1];
-            var1 = var10.bind(var4)(var1);
+            var14 = var5.bind(var6)(var2, var3);
+            var3 = _closure1_slot9;
+            var1 = var20[var1];
+            var1 = var29.bind(var4)(var1);
             var2 = var1.AnalyticsLocationProvider;
             var1 = {};
-            var1['value'] = var13;
-            var7 = _closure1_slot11;
-            var5 = 17;
-            var5 = var21[var5];
-            var5 = var10.bind(var4)(var5);
+            var1['value'] = var12;
+            var7 = _closure1_slot10;
+            var5 = 16;
+            var5 = var20[var5];
+            var5 = var29.bind(var4)(var5);
             var6 = var5.BottomSheet;
-            var5 = {'handleDisabled': true, 'scrollable': true, 'ref': null, 'onExpand': null, 'startExpanded': true};
-            var5['ref'] = var22;
-            var5['onExpand'] = var8;
-            var8 = 18;
-            var8 = var21[var8];
-            var8 = var10.bind(var4)(var8);
-            var10 = var8.BottomSheetScrollView;
+            var5 = {};
+            var8 = true;
+            var5['scrollable'] = var8;
+            var5['ref'] = var21;
+            var5['onExpand'] = var9;
+            var5['startExpanded'] = var8;
+            var9 = _closure1_slot5;
             var8 = {};
-            var22 = false;
-            var8['scrollsToTop'] = var22;
-            var22 = var24.container;
-            var8['style'] = var22;
-            var23 = _closure1_slot5;
+            var21 = var26.container;
+            var8['style'] = var21;
+            var21 = {};
+            var22 = var26.bounceOffset;
+            var21['style'] = var22;
+            var22 = var3.bind(var4)(var9, var21);
+            var21 = new Array(3);
+            var21[0] = var22;
+            var22 = 17;
+            var22 = var20[var22];
+            var22 = var29.bind(var4)(var22);
+            var23 = var22.Text;
+            var22 = {'variant': 'redesign/heading-18/bold', 'style': null, 'accessibilityRole': 'header'};
+            var26 = var26.title;
+            var22['style'] = var26;
+            var26 = 18;
+            var27 = var20[var26];
+            var27 = var29.bind(var4)(var27);
+            var28 = var27.intl;
+            var27 = var28.string;
+            var26 = var20[var26];
+            var26 = var29.bind(var4)(var26);
+            var26 = var26.t;
+            var26 = var26["/6nv6N"];
+            var26 = var27.bind(var28)(var26);
+            var22['children'] = var26;
+            var22 = var3.bind(var4)(var23, var22);
+            var21[1] = var22;
+            var23 = _closure1_slot13;
             var22 = {};
-            var24 = var24.bounceOffset;
-            var22['style'] = var24;
-            var23 = var3.bind(var4)(var23, var22);
-            var22 = new Array(2);
-            var22[0] = var23;
-            var24 = _closure1_slot13;
-            var23 = {};
-            var23['user'] = var19;
-            var23['selectedProfileEffect'] = var18;
-            var23['setSelectedProfileEffect'] = var27;
-            var23['isFetching'] = var26;
-            var23['guildId'] = var25;
-            var23['isTryItOut'] = var16;
-            var23 = var3.bind(var4)(var24, var23);
-            var22[1] = var23;
-            var8['children'] = var22;
-            var10 = var7.bind(var4)(var10, var8);
-            var8 = new Array(3);
-            var8[0] = var10;
-            var10 = 19;
-            var10 = var21[var10];
-            var11 = var11.bind(var4)(var10);
-            var10 = {};
-            var10['user'] = var19;
-            var21 = var17 == var20;
-            var19 = undefined;
-            if(var21) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
-            var19 = var20.skuId;
-case 45:
-            var10['currentSkuId'] = var19;
-            var19 = var17 == var18;
-            var17 = undefined;
-            if(var19) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
-            var17 = var18.skuId;
-case 47:
-            var10['selectedSkuId'] = var17;
-            var10['isTryItOut'] = var16;
-            var10['onApply'] = var15;
-            var10['analyticsLocations'] = var13;
-            var15 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var14 = var13[var14];
-            var14 = var15.bind(var4)(var14);
-            var14 = var14.EDIT_PROFILE_EFFECT_SHEET;
-            var10['analyticsSource'] = var14;
-            var10 = var3.bind(var4)(var11, var10);
-            var8[1] = var10;
-            var11 = _closure1_slot10;
-            var10 = _closure1_slot0;
-            var9 = 20;
-            var9 = var13[var9];
-            var9 = var10.bind(var4)(var9);
-            var10 = var9.ActionSheetHeaderBar;
+            var22['user'] = var18;
+            var22['selectedProfileEffect'] = var17;
+            var22['setSelectedProfileEffect'] = var25;
+            var22['guildId'] = var24;
+            var22['isTryItOut'] = var15;
+            var22 = var3.bind(var4)(var23, var22);
+            var21[2] = var22;
+            var8['children'] = var21;
+            var9 = var7.bind(var4)(var9, var8);
+            var8 = new Array(2);
+            var8[0] = var9;
+            var9 = 19;
+            var9 = var20[var9];
+            var10 = var10.bind(var4)(var9);
             var9 = {};
-            var13 = 'floating';
-            var9['variant'] = var13;
-            var9['onPress'] = var12;
-            var9 = var11.bind(var4)(var10, var9);
-            var8[2] = var9;
+            var9['user'] = var18;
+            var20 = var16 == var19;
+            var18 = undefined;
+            if(var20) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
+            var18 = var19.skuId;
+case 41:
+            var9['currentSkuId'] = var18;
+            var18 = var16 == var17;
+            var16 = undefined;
+            if(var18) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+            var16 = var17.skuId;
+case 43:
+            var9['selectedSkuId'] = var16;
+            var9['isTryItOut'] = var15;
+            var9['onApply'] = var14;
+            var9['analyticsLocations'] = var12;
+            var12 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var11 = var11[var13];
+            var11 = var12.bind(var4)(var11);
+            var11 = var11.EDIT_PROFILE_EFFECT_SHEET;
+            var9['analyticsSource'] = var11;
+            var9 = var3.bind(var4)(var10, var9);
+            var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
@@ -763,7 +724,6 @@ case 47:
             return var1;
         }
     };
-    var3['default'] = var4;
-    var3['EditProfileEffectInner'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

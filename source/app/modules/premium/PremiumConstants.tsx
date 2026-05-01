@@ -1622,8 +1622,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['BLACK_FRIDAY_2020_GIFT_CODE_BATCH_ID'] = var67;
     var67 = '845031178288889946';
     var3['STICKERS_GIFT_CODE_BATCH_ID'] = var67;
-    var67 = 432000000;
-    var3['USER_PREMIUM_OFFER_EXPIRES_APPROACHING_5_DAY_THRESHOLD'] = var67;
+    var67 = 604800000;
+    var3['USER_PREMIUM_OFFER_EXPIRES_APPROACHING_7_DAY_THRESHOLD'] = var67;
     var67 = 345600000;
     var3['USER_PREMIUM_OFFER_EXPIRES_APPROACHING_4_DAY_THRESHOLD'] = var67;
     var67 = 280800000;

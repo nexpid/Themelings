@@ -229,8 +229,7 @@ case 11:
             var7 = var11[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
-            var10 = var10.id;
-            var7['questId'] = var10;
+            var7['quest'] = var10;
             var6 = var9.bind(var4)(var8, var7);
 case 10:
             var5[1] = var6;

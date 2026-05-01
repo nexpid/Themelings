@@ -345,30 +345,30 @@ case 22:
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         var2 = arg1;
-        var16 = var2.searchContext;
-        var _closure2_slot0 = var16;
+        var17 = var2.searchContext;
+        var _closure2_slot0 = var17;
         var2 = var2.setSuggestionsDismissed;
         var _closure2_slot1 = var2;
-        var15 = _closure1_slot1;
-        var17 = _closure1_slot2;
+        var16 = _closure1_slot1;
+        var18 = _closure1_slot2;
         var3 = 18;
-        var3 = var17[var3];
+        var3 = var18[var3];
         var4 = undefined;
-        var5 = var15.bind(var4)(var3);
+        var5 = var16.bind(var4)(var3);
         var3 = 'SearchBar';
         var5 = var5.bind(var4)(var3);
         var3 = _closure1_slot17;
-        var18 = var3.bind(var4)(var5);
+        var19 = var3.bind(var4)(var5);
         var3 = _closure1_slot0;
         var5 = 15;
-        var5 = var17[var5];
+        var5 = var18[var5];
         var9 = var3.bind(var4)(var5);
         var8 = var9.useStateFromStores;
         var5 = _closure1_slot9;
         var7 = new Array(1);
         var7[0] = var5;
         var6 = new Array(1);
-        var6[0] = var16;
+        var6[0] = var17;
         var5 = function() {
             var3 = _closure1_slot9;
             var2 = var3.getTags;
@@ -378,8 +378,8 @@ case 22:
         };
         var5 = var8.bind(var9)(var7, var5, var6);
         var _closure2_slot2 = var5;
-        var12 = _closure1_slot3;
-        var7 = var12.useMemo;
+        var13 = _closure1_slot3;
+        var7 = var13.useMemo;
         var6 = new Array(1);
         var6[0] = var5;
         var5 = function() {
@@ -395,15 +395,15 @@ case 22:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var11 = var7.bind(var12)(var5, var6);
-        var6 = var12.useRef;
+        var12 = var7.bind(var13)(var5, var6);
+        var6 = var13.useRef;
         var5 = null;
-        var13 = var6.bind(var12)(var5);
-        var _closure2_slot3 = var13;
+        var6 = var6.bind(var13)(var5);
+        var _closure2_slot3 = var6;
         var5 = _closure1_slot20;
-        var8 = var5.bind(var4)(var16);
-        var7 = var12.useImperativeHandle;
-        var6 = arg2;
+        var9 = var5.bind(var4)(var17);
+        var8 = var13.useImperativeHandle;
+        var7 = arg2;
         var5 = function() {
             var1 = {};
             var3 = function setText(arg1) {
@@ -561,10 +561,10 @@ case 29:
             var1['measureLayout'] = var2;
             return var1;
         };
-        var5 = var7.bind(var12)(var6, var5);
-        var7 = var12.useEffect;
-        var6 = new Array(1);
-        var6[0] = var16;
+        var5 = var8.bind(var13)(var7, var5);
+        var8 = var13.useEffect;
+        var7 = new Array(1);
+        var7[0] = var17;
         var5 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -605,10 +605,10 @@ case 33:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
-        var5 = var7.bind(var12)(var5, var6);
-        var7 = var12.useCallback;
-        var6 = new Array(1);
-        var6[0] = var16;
+        var5 = var8.bind(var13)(var5, var7);
+        var8 = var13.useCallback;
+        var7 = new Array(1);
+        var7[0] = var17;
         var5 = function(arg1) {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -671,10 +671,10 @@ case 35:
                 return var1;
             }
         };
-        var10 = var7.bind(var12)(var5, var6);
-        var7 = var12.useCallback;
-        var6 = new Array(1);
-        var6[0] = var16;
+        var11 = var8.bind(var13)(var5, var7);
+        var8 = var13.useCallback;
+        var7 = new Array(1);
+        var7[0] = var17;
         var5 = function(arg1) {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -797,10 +797,10 @@ case 40:
                 return var1;
             }
         };
-        var9 = var7.bind(var12)(var5, var6);
-        var6 = var12.useMemo;
+        var10 = var8.bind(var13)(var5, var7);
+        var7 = var13.useMemo;
         var5 = new Array(2);
-        var5[0] = var16;
+        var5[0] = var17;
         var5[1] = var2;
         var2 = function() {
             var1 = function() {
@@ -889,18 +889,18 @@ case 49:
             };
             return var1;
         };
-        var7 = var6.bind(var12)(var2, var5);
-        var6 = 16;
-        var2 = var17[var6];
+        var8 = var7.bind(var13)(var2, var5);
+        var7 = 16;
+        var2 = var18[var7];
         var14 = var3.bind(var4)(var2);
         var2 = var14.useSharedValue;
         var5 = false;
         var2 = var2.bind(var14)(var5);
         var _closure2_slot4 = var2;
-        var6 = var17[var6];
-        var19 = var3.bind(var4)(var6);
-        var14 = var19.useAnimatedStyle;
-        var6 = function E() {
+        var7 = var18[var7];
+        var15 = var3.bind(var4)(var7);
+        var14 = var15.useAnimatedStyle;
+        var7 = function E() {
             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var1 = {};
@@ -931,26 +931,26 @@ case 51:
             }
         };
         var20 = {};
-        var22 = 23;
-        var22 = var17[var22];
-        var22 = var3.bind(var4)(var22);
-        var22 = var22.withSpring;
-        var20['withSpring'] = var22;
+        var21 = 23;
+        var21 = var18[var21];
+        var21 = var3.bind(var4)(var21);
+        var21 = var21.withSpring;
+        var20['withSpring'] = var21;
         var20['gradientVisible'] = var2;
-        var22 = 24;
-        var22 = var17[var22];
-        var22 = var3.bind(var4)(var22);
-        var22 = var22.springStandard;
-        var20['springStandard'] = var22;
-        var6['__closure'] = var20;
+        var21 = 24;
+        var21 = var18[var21];
+        var21 = var3.bind(var4)(var21);
+        var21 = var21.springStandard;
+        var20['springStandard'] = var21;
+        var7['__closure'] = var20;
         var20 = 14270272447339.0;
-        var6['__workletHash'] = var20;
+        var7['__workletHash'] = var20;
         var20 = _closure1_slot19;
-        var6['__initData'] = var20;
-        var19 = var14.bind(var19)(var6);
-        var14 = var12.useCallback;
-        var6 = new Array(1);
-        var6[0] = var2;
+        var7['__initData'] = var20;
+        var20 = var14.bind(var15)(var7);
+        var14 = var13.useCallback;
+        var7 = new Array(1);
+        var7[0] = var2;
         var2 = function(arg1) {
             var3 = _closure2_slot4;
             var2 = var3.set;
@@ -968,19 +968,19 @@ case 51:
             var1 = undefined;
             return var1;
         };
-        var6 = var14.bind(var12)(var2, var6);
+        var7 = var14.bind(var13)(var2, var7);
         var2 = 25;
-        var2 = var17[var2];
+        var2 = var18[var2];
         var14 = var3.bind(var4)(var2);
         var3 = var14.useToken;
         var2 = 12;
-        var2 = var17[var2];
-        var2 = var15.bind(var4)(var2);
+        var2 = var18[var2];
+        var2 = var16.bind(var4)(var2);
         var2 = var2.colors;
         var2 = var2.BACKGROUND_BASE_LOWEST;
         var14 = var3.bind(var14)(var2);
         var _closure2_slot5 = var14;
-        var3 = var12.useMemo;
+        var3 = var13.useMemo;
         var2 = new Array(1);
         var2[0] = var14;
         var1 = function() {
@@ -1002,64 +1002,65 @@ case 51:
             var1[1] = var2;
             return var1;
         };
-        var20 = var3.bind(var12)(var1, var2);
+        var21 = var3.bind(var13)(var1, var2);
         var2 = _closure1_slot9;
         var1 = var2.getTextInputValue;
-        var12 = var1.bind(var2)(var16);
+        var13 = var1.bind(var2)(var17);
         var3 = _closure1_slot15;
         var1 = 27;
-        var1 = var17[var1];
-        var2 = var15.bind(var4)(var1);
+        var1 = var18[var1];
+        var2 = var16.bind(var4)(var1);
         var1 = {};
-        var1['ref'] = var13;
-        var1['defaultValue'] = var12;
-        var12 = var18.searchBar;
-        var1['style'] = var12;
-        var1['tags'] = var11;
-        var13 = _closure1_slot16;
-        var12 = _closure1_slot4;
-        var11 = {};
-        var14 = var18.icon;
-        var11['style'] = var14;
-        var14 = 28;
-        var14 = var17[var14];
-        var15 = var15.bind(var4)(var14);
-        var14 = {};
-        var14['searchContext'] = var16;
-        var15 = var3.bind(var4)(var15, var14);
-        var14 = new Array(2);
-        var14[0] = var15;
-        var15 = {};
-        var16 = var18.gradientContainer;
-        var15['style'] = var16;
-        var17 = _closure1_slot18;
-        var16 = {};
-        var21 = _closure1_slot13;
-        var22 = var21.START;
-        var16['start'] = var22;
-        var21 = var21.END;
-        var16['end'] = var21;
-        var16['colors'] = var20;
-        var20 = var18.gradient;
-        var18 = new Array(2);
-        var18[0] = var20;
-        var18[1] = var19;
-        var16['style'] = var18;
-        var18 = 'none';
-        var16['pointerEvents'] = var18;
-        var16 = var3.bind(var4)(var17, var16);
-        var15['children'] = var16;
-        var15 = var3.bind(var4)(var12, var15);
-        var14[1] = var15;
-        var11['children'] = var14;
-        var11 = var13.bind(var4)(var12, var11);
-        var1['icon'] = var11;
-        var1['onChangeText'] = var10;
-        var1['onRemove'] = var9;
-        var1['placeholder'] = var8;
-        var1['onSubmitEditing'] = var7;
-        var1['onScroll'] = var6;
+        var1['ref'] = var6;
         var6 = true;
+        var1['autoFocus'] = var6;
+        var1['defaultValue'] = var13;
+        var13 = var19.searchBar;
+        var1['style'] = var13;
+        var1['tags'] = var12;
+        var14 = _closure1_slot16;
+        var13 = _closure1_slot4;
+        var12 = {};
+        var15 = var19.icon;
+        var12['style'] = var15;
+        var15 = 28;
+        var15 = var18[var15];
+        var16 = var16.bind(var4)(var15);
+        var15 = {};
+        var15['searchContext'] = var17;
+        var16 = var3.bind(var4)(var16, var15);
+        var15 = new Array(2);
+        var15[0] = var16;
+        var16 = {};
+        var17 = var19.gradientContainer;
+        var16['style'] = var17;
+        var18 = _closure1_slot18;
+        var17 = {};
+        var22 = _closure1_slot13;
+        var23 = var22.START;
+        var17['start'] = var23;
+        var22 = var22.END;
+        var17['end'] = var22;
+        var17['colors'] = var21;
+        var21 = var19.gradient;
+        var19 = new Array(2);
+        var19[0] = var21;
+        var19[1] = var20;
+        var17['style'] = var19;
+        var19 = 'none';
+        var17['pointerEvents'] = var19;
+        var17 = var3.bind(var4)(var18, var17);
+        var16['children'] = var17;
+        var16 = var3.bind(var4)(var13, var16);
+        var15[1] = var16;
+        var12['children'] = var15;
+        var12 = var14.bind(var4)(var13, var12);
+        var1['icon'] = var12;
+        var1['onChangeText'] = var11;
+        var1['onRemove'] = var10;
+        var1['placeholder'] = var9;
+        var1['onSubmitEditing'] = var8;
+        var1['onScroll'] = var7;
         var1['horizontal'] = var6;
         var1['autoClearInputOnTagAdd'] = var5;
         var1 = var3.bind(var4)(var2, var1);

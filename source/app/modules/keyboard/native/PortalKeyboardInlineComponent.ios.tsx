@@ -191,11 +191,11 @@ case 9:
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var3 = _closure2_slot7;
-                var6 = var3.current;
-                var3 = _closure2_slot5;
+                var2 = _closure2_slot7;
+                var6 = var2.current;
+                var2 = _closure2_slot5;
                 var4 = null;
-                if(!(var4 == var3)) { _fun0003_ip = 11; continue _fun0003 }
+                if(!(var4 == var2)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
                 var5 = _closure1_slot6;
                 var7 = var5.systemPrefersCrossfades;
@@ -214,7 +214,7 @@ case 17:
                 var7 = _closure1_slot8;
                 var6 = _closure2_slot0;
                 var5 = undefined;
-                var3 = function(arg1) {
+                var2 = function(arg1) {
                     var2 = _closure2_slot7;
                     var1 = false;
                     var2['current'] = var1;
@@ -226,24 +226,21 @@ case 17:
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 };
-                var3 = var7.bind(var5)(var6, var3);
+                var2 = var7.bind(var5)(var6, var2);
                 _fun0003_ip = 16; continue _fun0003;
 case 11:
-                var3 = _closure2_slot5;
-                var3 = var3.handlerId;
-                var3 = var4 != var3;
-                if(!var3) { _fun0003_ip = 18; continue _fun0003 }
+                var2 = _closure2_slot5;
+                var2 = var2.handlerId;
+                if(!(var4 != var2)) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
-                var5 = _closure2_slot5;
-                var6 = var5.handlerId;
-                var5 = _closure2_slot1;
-                var3 = var6 !== var5;
+                var2 = _closure2_slot5;
+                var5 = var2.handlerId;
+                var2 = _closure2_slot1;
+                if(!(var5 === var2)) { _fun0003_ip = 16; continue _fun0003 }
 case 18:
-                if(var3) { _fun0003_ip = 16; continue _fun0003 }
-case 20:
-                var3 = _closure2_slot5;
-                if(!(var4 != var3)) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                var2 = _closure2_slot5;
+                if(!(var4 != var2)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                 var5 = _closure2_slot6;
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -253,11 +250,11 @@ case 22:
                 var4 = var7.bind(var6)(var4);
                 var4 = var4.PortalKeyboardState;
                 var4 = var4.REQUEST_OPEN;
-                if(!(var5 === var4)) { _fun0003_ip = 21; continue _fun0003 }
-case 23:
+                if(!(var5 === var4)) { _fun0003_ip = 20; continue _fun0003 }
+case 22:
                 var5 = _closure1_slot8;
                 var4 = _closure2_slot0;
-                var3 = function(arg1) {
+                var2 = function(arg1) {
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var1 = 8;
@@ -291,46 +288,44 @@ case 23:
                     var2 = var13[var4](var12, var11, var10, var9, var8);
                     return var1;
                 };
-                var3 = var5.bind(var6)(var4, var3);
+                var2 = var5.bind(var6)(var4, var2);
                 _fun0003_ip = 16; continue _fun0003;
-case 21:
+case 20:
                 var6 = _closure2_slot2;
                 var7 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var4 = 6;
-                var5 = var5[var4];
-                var4 = undefined;
-                var5 = var7.bind(var4)(var5);
-                var5 = var5.KeyboardTypes;
-                var5 = var5.SYSTEM;
-                if(!(var6 === var5)) { _fun0003_ip = 16; continue _fun0003 }
-case 24:
-                var5 = _closure2_slot4;
-                var5 = var5.keyboardWillOpen;
-                if(!var5) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-                var7 = _closure2_slot6;
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var6 = 10;
-                var6 = var9[var6];
-                var6 = var8.bind(var4)(var6);
-                var6 = var6.PortalKeyboardState;
-                var6 = var6.REQUEST_CLOSE;
-                var5 = var7 !== var6;
+                var4 = var5[var4];
+                var5 = undefined;
+                var4 = var7.bind(var5)(var4);
+                var4 = var4.KeyboardTypes;
+                var4 = var4.SYSTEM;
+                if(!(var6 === var4)) { _fun0003_ip = 16; continue _fun0003 }
+case 23:
+                var4 = _closure2_slot4;
+                var4 = var4.keyboardWillOpen;
+                if(!var4) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
-                if(var5) { _fun0003_ip = 16; continue _fun0003 }
-case 27:
+                var6 = _closure2_slot6;
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var4 = 10;
+                var4 = var8[var4];
+                var4 = var7.bind(var5)(var4);
+                var4 = var4.PortalKeyboardState;
+                var4 = var4.REQUEST_CLOSE;
+                if(!(var6 === var4)) { _fun0003_ip = 26; continue _fun0003 }
+case 24:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var5 = 8;
-                var5 = var7[var5];
-                var6 = var6.bind(var4)(var5);
-                var5 = var6.closePortalKeyboard;
-                var5 = var5.bind(var6)();
-                var3 = _closure1_slot8;
-                var2 = _closure2_slot0;
-                var1 = function(arg1) {
+                var4 = 8;
+                var4 = var7[var4];
+                var6 = var6.bind(var5)(var4);
+                var4 = var6.closePortalKeyboard;
+                var4 = var4.bind(var6)();
+                var6 = _closure1_slot8;
+                var4 = _closure2_slot0;
+                var3 = function(arg1) {
                     var2 = _closure2_slot7;
                     var1 = false;
                     var2['current'] = var1;
@@ -342,9 +337,30 @@ case 27:
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 };
-                var1 = var3.bind(var4)(var2, var1);
+                var3 = var6.bind(var5)(var4, var3);
 case 16:
-                var1 = undefined;
+                var3 = undefined;
+                return var3;
+case 26:
+                var3 = global;
+                var4 = var3.setTimeout;
+                var3 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var2 = 8;
+                var2 = var6[var2];
+                var2 = var3.bind(var5)(var2);
+                var3 = var2.closePortalKeyboardRequest;
+                var2 = 250;
+                var2 = var4.bind(var5)(var3, var2);
+                var _closure3_slot0 = var2;
+                var1 = function() {
+                    var1 = global;
+                    var3 = var1.clearTimeout;
+                    var2 = _closure3_slot0;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    return var1;
+                };
                 return var1;
             }
         };
