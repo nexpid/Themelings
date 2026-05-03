@@ -27,18 +27,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = 2;
     var4 = var8[var6];
     var4 = var7.bind(var1)(var4);
-    var5 = var4.REQUEST_DATA_LIMIT_DAYS;
-    var12 = var4.AnalyticEvents;
-    var _closure1_slot5 = var12;
-    var12 = var4.FriendSourceFlags;
-    var _closure1_slot6 = var12;
-    var12 = var4.AllFriendSourceFlags;
-    var _closure1_slot7 = var12;
+    var5 = var4.AnalyticEvents;
+    var _closure1_slot5 = var5;
+    var5 = var4.FriendSourceFlags;
+    var _closure1_slot6 = var5;
+    var5 = var4.AllFriendSourceFlags;
+    var _closure1_slot7 = var5;
     var4 = var4.ComponentActions;
     var _closure1_slot8 = var4;
-    var4 = 86400000;
-    var4 = var4 * var5;
-    var _closure1_slot9 = var4;
     var5 = {};
     var5['UNDECIDED'] = var11;
     var4 = 'UNDECIDED';
@@ -49,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['OPTOUT'] = var6;
     var4 = 'OPTOUT';
     var5[var6] = var4;
-    var _closure1_slot10 = var5;
+    var _closure1_slot9 = var5;
     var4 = {};
     var6 = var5.UNDECIDED;
     var4[5] = var1;
@@ -262,50 +258,6 @@ case 6:
         }
     };
     var3['computeFlags'] = var6;
-    var6 = function harvestDisabled(arg1, arg2) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-            var4 = arg1;
-            var3 = arg2;
-            var1 = var3.verified;
-            var1 = !var1;
-            if(var1) { _fun0006_ip = 7; continue _fun0006 }
-case 5:
-            var2 = var3.isStaff;
-            var2 = var2.bind(var3)();
-            var3 = !var2;
-            var2 = !var3;
-            if(!var3) { _fun0006_ip = 8; continue _fun0006 }
-case 9:
-            var3 = null;
-            var3 = var3 != var4;
-            if(!var3) { _fun0006_ip = 10; continue _fun0006 }
-case 11:
-            var5 = _closure1_slot9;
-            var7 = global;
-            var8 = var7.Date;
-            var6 = var8.now;
-            var6 = var6.bind(var8)();
-            var8 = var7.Date;
-            var9 = var4.created_at;
-            var7 = var8.prototype;
-            var7 = Object.create(var7, {constructor: {value: var8}});
-            var10 = var7;
-            var4 = new var10[var8](var9, var8);
-            var7 = var4 instanceof Object ? var4 : var7;
-            var4 = var7.getTime;
-            var4 = var4.bind(var7)();
-            var4 = var6 - var4;
-            var3 = var5 > var4;
-case 10:
-            var2 = var3;
-case 8:
-            var1 = var2;
-case 7:
-            return var1;
-        }
-    };
-    var3['harvestDisabled'] = var6;
     var6 = function trackUserSettingsPaneViewed(arg1) {
         var1 = arg1;
         var12 = var1.destinationPane;
@@ -370,7 +322,7 @@ case 7:
         var3 = var3["3fzkPq"];
         var3 = var5.bind(var6)(var3);
         var2['desc'] = var3;
-        var3 = _closure1_slot10;
+        var3 = _closure1_slot9;
         var1 = var3.OPTIN;
         var2['value'] = var1;
         var1 = new Array(3);

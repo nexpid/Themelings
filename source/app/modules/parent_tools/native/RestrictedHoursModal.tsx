@@ -245,7 +245,7 @@ case 4:
             var3 = var1[var9];
             var8 = var2.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
-            var3 = function I() {
+            var3 = function R() {
                 var1 = {};
                 var4 = _closure2_slot2;
                 var3 = var4.get;
@@ -273,7 +273,7 @@ case 4:
             var1 = var1[var9];
             var3 = var2.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function R() {
+            var1 = function z() {
                 var1 = {};
                 var3 = _closure2_slot2;
                 var2 = var3.get;
@@ -389,8 +389,6 @@ case 8:
             var24 = var17.bind(var4)(var24);
             var25 = var24.TeenScreenTimeRive;
             var24 = {};
-            var28 = 'Teen Screen Time Illo';
-            var24['artboard'] = var28;
             var24 = var27.bind(var4)(var25, var24);
             var12['children'] = var24;
             var12 = var23.bind(var4)(var22, var12);

@@ -456,7 +456,7 @@ case 16:
         var8['labelContainer'] = var13;
         var13 = {'marginRight': 4, 'paddingTop': 0};
         var8['roleDot'] = var13;
-        var13 = {'display': 'flex', 'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
+        var13 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
         var8['usernameLabelContainer'] = var13;
         var13 = {'display': 'flex', 'flexShrink': 1};
         var8['usernameLabel'] = var13;

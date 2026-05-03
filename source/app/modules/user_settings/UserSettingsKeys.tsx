@@ -194,6 +194,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DATA_USAGE_PERSONALIZATION_SETTING'] = var1;
     var1 = 'data_usage_disclaimer_setting';
     var2['DATA_USAGE_DISCLAIMER_SETTING'] = var1;
+    var1 = 'data_usage_activity_privacy_navigator';
+    var2['DATA_USAGE_ACTIVITY_PRIVACY_NAVIGATOR'] = var1;
+    var1 = 'data_usage_related_settings';
+    var2['DATA_USAGE_RELATED_SETTINGS'] = var1;
     var1 = 'data_request_category';
     var2['DATA_REQUEST_CATEGORY'] = var1;
     var1 = 'data_harvest_request_setting';
@@ -330,6 +334,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CLIPS_ENABLE_DECOUPLED_CLIPPING'] = var1;
     var1 = 'clips_enable_reminders';
     var2['CLIPS_ENABLE_REMINDERS'] = var1;
+    var1 = 'clips_clear_reminder_snooze';
+    var2['CLIPS_CLEAR_REMINDER_SNOOZE'] = var1;
     var1 = 'clips_length';
     var2['CLIPS_LENGTH'] = var1;
     var1 = 'clips_resolution';

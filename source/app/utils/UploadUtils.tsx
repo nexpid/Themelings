@@ -383,16 +383,22 @@ case 29:
             var7 = var7.createdAt;
             var7 = var9.bind(var10)(var7);
             var1['clip_created_at'] = var7;
+            var7 = var6[var3];
+            var10 = var4.bind(var8)(var7);
+            var9 = var10.getClipParticipantIds;
+            var7 = var2.clip;
+            var7 = var7.users;
+            var7 = var9.bind(var10)(var7);
+            var1['clip_participant_ids'] = var7;
+            var7 = var2.clip;
+            var7 = var7.remoteClipId;
+            var1['clip_remote_id'] = var7;
             var3 = var6[var3];
             var6 = var4.bind(var8)(var3);
-            var4 = var6.getClipParticipantIds;
+            var4 = var6.getClipEventsTimeline;
             var3 = var2.clip;
-            var3 = var3.users;
             var3 = var4.bind(var6)(var3);
-            var1['clip_participant_ids'] = var3;
-            var3 = var2.clip;
-            var3 = var3.remoteClipId;
-            var1['clip_remote_id'] = var3;
+            var1['clip_events_timeline'] = var3;
 case 28:
             var3 = 'item';
             var3 = var3 in var2;
@@ -793,18 +799,18 @@ case 78:
 case 81:
             var7 = var4 == var8;
             var6 = undefined;
-            if(var7) { _fun0004_ip = 82; continue _fun0004 }
-case 83:
+            if(var7) { _fun0004_ip = 31; continue _fun0004 }
+case 82:
             var7 = var8.name;
             var6 = var7.bind(var8)(var9);
-case 82:
+case 31:
             var2 = var6;
 case 80:
             var4 = var4 != var2;
-            if(!var4) { _fun0004_ip = 84; continue _fun0004 }
-case 85:
-            var5 = var2;
+            if(!var4) { _fun0004_ip = 83; continue _fun0004 }
 case 84:
+            var5 = var2;
+case 83:
             var4 = var5.indexOf;
             var2 = 'image';
             var2 = var4.bind(var5)(var2);

@@ -326,10 +326,10 @@ case 0:
 case 24:
             var3 = null;
             if(!(var3 != var2)) { _fun0007_ip = 23; continue _fun0007 }
-case 9:
+case 25:
             var7 = var2.premiumSince;
             if(!(var3 != var7)) { _fun0007_ip = 23; continue _fun0007 }
-case 25:
+case 26:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var5 = 7;
@@ -357,10 +357,10 @@ case 0:
                     var2 = var3.id;
                     var4 = var3.tenureReqNumMonths;
                     var3 = _closure2_slot0;
-                    if(!(var3 >= var4)) { _fun0008_ip = 26; continue _fun0008 }
+                    if(!(var3 >= var4)) { _fun0008_ip = 27; continue _fun0008 }
 case 7:
                     var1 = var2;
-case 26:
+case 27:
                     return var1;
                 }
             };
@@ -397,21 +397,21 @@ case 0:
             var1 = null;
             var7 = var1 == var5;
             var2 = undefined;
-            if(var7) { _fun0009_ip = 27; continue _fun0009 }
-case 28:
+            if(var7) { _fun0009_ip = 28; continue _fun0009 }
+case 29:
             var2 = var5.id;
-case 27:
+case 28:
             var4 = var4.bind(var6)(var2);
             var2 = _closure1_slot10;
             var5 = var2.bind(var6)();
             var2 = _closure1_slot13;
             var2 = var2.bind(var6)();
-            if(!(var1 == var4)) { _fun0009_ip = 29; continue _fun0009 }
+            if(!(var1 == var4)) { _fun0009_ip = 12; continue _fun0009 }
 case 30:
             var2 = var1 != var2;
             var1 = null;
-            if(!var2) { _fun0009_ip = 12; continue _fun0009 }
-case 31:
+            if(!var2) { _fun0009_ip = 31; continue _fun0009 }
+case 32:
             var2 = {};
             var6 = global;
             var8 = var6.Object;
@@ -427,9 +427,9 @@ case 31:
             var6 = 'status';
             var2[5] = var7;
             var1 = var2;
+case 31:
+            _fun0009_ip = 33; continue _fun0009;
 case 12:
-            _fun0009_ip = 32; continue _fun0009;
-case 29:
             var2 = {};
             var10 = var2;
             var9 = var4;
@@ -441,7 +441,7 @@ case 29:
             var3 = 'status';
             var2[2] = var4;
             var1 = var2;
-case 32:
+case 33:
             return var1;
         }
     };

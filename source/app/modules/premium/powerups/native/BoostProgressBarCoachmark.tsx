@@ -151,7 +151,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 var5 = var6.bind(var1)(var5);
                 var6 = var5.BoostThisServerRive;
-                var5 = {'artboard': 'Boost Server', 'stateMachine': 'State Machine 1'};
+                var5 = {};
+                var7 = 'State Machine 1';
+                var5['stateMachine'] = var7;
                 var5 = var4.bind(var1)(var6, var5);
                 var2['children'] = var5;
                 var1 = var4.bind(var1)(var3, var2);

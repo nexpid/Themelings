@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.bind(var3)(var6);
         var1['icon'] = var6;
         var1['onPress'] = var5;
-        var5 = 'secondary';
+        var5 = 'primary-overlay';
         var1['variant'] = var5;
         var1 = var4.bind(var3)(var2, var1);
         return var1;

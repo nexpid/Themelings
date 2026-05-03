@@ -73,14 +73,14 @@ case 0:
             var _closure2_slot0 = var15;
             var14 = var2.userId;
             var _closure2_slot1 = var14;
-            var18 = var2.guildId;
-            var _closure2_slot2 = var18;
-            var8 = var2.fullwidth;
-            var6 = var2.panelVariant;
+            var17 = var2.guildId;
+            var _closure2_slot2 = var17;
+            var10 = var2.fullwidth;
+            var7 = var2.panelVariant;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var7 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = false;
+            var7 = false;
 case 2:
             var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
@@ -88,21 +88,21 @@ case 2:
             var2 = _closure1_slot11;
             var9 = var2.bind(var5)();
             var3 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var2 = 9;
-            var2 = var10[var2];
+            var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.bind(var5)();
-            var7 = var2.analyticsLocations;
-            _closure2_slot3 = var7;
+            var8 = var2.analyticsLocations;
+            _closure2_slot3 = var8;
             var3 = _closure1_slot0;
             var2 = 10;
-            var4 = var10[var2];
-            var17 = var3.bind(var5)(var4);
-            var16 = var17.useStateFromStores;
+            var4 = var6[var2];
+            var18 = var3.bind(var5)(var4);
+            var16 = var18.useStateFromStores;
             var4 = _closure1_slot6;
-            var12 = new Array(1);
-            var12[0] = var4;
+            var13 = new Array(1);
+            var13[0] = var4;
             var11 = new Array(1);
             var11[0] = var14;
             var4 = function() {
@@ -112,17 +112,17 @@ case 2:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var19 = var16.bind(var17)(var12, var4, var11);
-            _closure2_slot4 = var19;
+            var18 = var16.bind(var18)(var13, var4, var11);
+            _closure2_slot4 = var18;
             var4 = _closure1_slot3;
-            var12 = var4.useCallback;
+            var13 = var4.useCallback;
             var11 = new Array(5);
             var11[0] = var15;
-            var11[1] = var18;
+            var11[1] = var17;
             var11[2] = var14;
-            var11[3] = var19;
-            var11[4] = var7;
-            var7 = function() {
+            var11[3] = var18;
+            var11[4] = var8;
+            var8 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var4 = _closure1_slot1;
@@ -181,16 +181,16 @@ case 4:
                     return var1;
                 }
             };
-            var7 = var12.bind(var4)(var7, var11);
-            var2 = var10[var2];
-            var12 = var3.bind(var5)(var2);
-            var11 = var12.useStateFromStoresObject;
+            var8 = var13.bind(var4)(var8, var11);
+            var2 = var6[var2];
+            var13 = var3.bind(var5)(var2);
+            var11 = var13.useStateFromStoresObject;
             var2 = _closure1_slot5;
-            var10 = new Array(1);
-            var10[0] = var2;
+            var6 = new Array(1);
+            var6[0] = var2;
             var3 = new Array(2);
-            var3[0] = var18;
-            var3[1] = var19;
+            var3[0] = var17;
+            var3[1] = var18;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -228,16 +228,16 @@ case 8:
                     return var1;
                 }
             };
-            var2 = var11.bind(var12)(var10, var2, var3);
-            var16 = var2.status;
-            _closure2_slot5 = var16;
-            var14 = var2.activities;
-            var17 = var2.isMobileOnline;
-            var15 = var2.isVROnline;
+            var2 = var11.bind(var13)(var6, var2, var3);
+            var19 = var2.status;
+            _closure2_slot5 = var19;
+            var13 = var2.activities;
+            var16 = var2.isMobileOnline;
+            var14 = var2.isVROnline;
             var3 = var4.useMemo;
             var2 = new Array(2);
-            var2[0] = var16;
-            var2[1] = var19;
+            var2[0] = var19;
+            var2[1] = var18;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -256,70 +256,70 @@ case 10:
                     return var1;
                 }
             };
-            var12 = var3.bind(var4)(var1, var2);
+            var11 = var3.bind(var4)(var1, var2);
             var1 = null;
-            if(!(var1 != var19)) { _fun0001_ip = 11; continue _fun0001 }
+            if(!(var1 != var18)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
             var3 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var15 = _closure1_slot2;
             var2 = 14;
-            var2 = var10[var2];
+            var2 = var15[var2];
             var4 = var3.bind(var5)(var2);
             var2 = var4.getName;
-            var2 = var2.bind(var4)(var19);
-            var11 = new Array(2);
-            var11[0] = var2;
+            var2 = var2.bind(var4)(var18);
+            var6 = new Array(2);
+            var6[0] = var2;
             var4 = _closure1_slot0;
             var2 = 15;
-            var2 = var10[var2];
+            var2 = var15[var2];
             var4 = var4.bind(var5)(var2);
             var2 = var4.getStatusLabel;
-            var2 = var2.bind(var4)(var16);
-            var11[1] = var2;
-            var4 = var11.join;
+            var2 = var2.bind(var4)(var19);
+            var6[1] = var2;
+            var4 = var6.join;
             var2 = ', ';
-            var11 = var4.bind(var11)(var2);
+            var6 = var4.bind(var6)(var2);
             var4 = _closure1_slot9;
             var2 = 16;
-            var2 = var10[var2];
+            var2 = var15[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
-            var2['onPress'] = var7;
-            var7 = 'small';
-            if(!var8) { _fun0001_ip = 13; continue _fun0001 }
+            var2['onPress'] = var8;
+            var8 = 'small';
+            if(!var10) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var7 = 'full';
+            var8 = 'full';
 case 13:
-            var2['width'] = var7;
-            var2['panelVariant'] = var6;
+            var2['width'] = var8;
+            var2['panelVariant'] = var7;
+            var2['accessibilityLabel'] = var6;
             var8 = _closure1_slot9;
             var7 = _closure1_slot4;
             var6 = {};
             var9 = var9.content;
             var6['style'] = var9;
             var10 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var15 = _closure1_slot2;
             var9 = 7;
-            var9 = var16[var9];
+            var9 = var15[var9];
             var9 = var10.bind(var5)(var9);
             var10 = var9.Avatar;
             var9 = {};
-            var9['user'] = var19;
-            var19 = var19.avatarDecoration;
-            var9['avatarDecoration'] = var19;
-            var9['guildId'] = var18;
-            var18 = _closure1_slot10;
-            var9['size'] = var18;
-            var9['isMobileOnline'] = var17;
-            var9['isVROnline'] = var15;
-            var15 = _closure1_slot1;
-            var13 = 17;
-            var13 = var16[var13];
-            var13 = var15.bind(var5)(var13);
-            var13 = var13.bind(var5)(var14);
-            var9['streaming'] = var13;
-            var9['status'] = var12;
-            var9['accessibilityLabel'] = var11;
+            var9['user'] = var18;
+            var18 = var18.avatarDecoration;
+            var9['avatarDecoration'] = var18;
+            var9['guildId'] = var17;
+            var17 = _closure1_slot10;
+            var9['size'] = var17;
+            var9['isMobileOnline'] = var16;
+            var9['isVROnline'] = var14;
+            var14 = _closure1_slot1;
+            var12 = 17;
+            var12 = var15[var12];
+            var12 = var14.bind(var5)(var12);
+            var12 = var12.bind(var5)(var13);
+            var9['streaming'] = var12;
+            var9['status'] = var11;
             var11 = true;
             var9['autoStatusCutout'] = var11;
             var9 = var8.bind(var5)(var10, var9);

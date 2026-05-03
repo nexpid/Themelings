@@ -466,7 +466,7 @@ case 44:
         var _closure2_slot11 = var16;
         var1 = var9.firstScreenChatRef;
         var _closure2_slot12 = var1;
-        var7 = var3.useLayoutEffect;
+        var7 = var3.useEffect;
         var6 = new Array(1);
         var6[0] = var1;
         var1 = function() {

@@ -222,17 +222,26 @@ case 10:
                 var3 = _closure2_slot1;
                 var1 = undefined;
                 var2 = function(arg1) {
-                    var3 = _closure2_slot2;
-                    var2 = {};
-                    var4 = arg1;
-                    var2['entitlements'] = var4;
-                    var1 = _closure2_slot0;
-                    var2['skuId'] = var1;
-                    var1 = undefined;
-                    var2 = var3.bind(var1)(var2);
-                    var2 = _closure3_slot0;
-                    var2 = var2.bind(var1)();
-                    return var1;
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var3 = arg1;
+                        var4 = _closure2_slot2;
+                        var2 = null;
+                        if(!(var2 != var4)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+                        var4 = _closure2_slot2;
+                        var2 = {};
+                        var2['entitlements'] = var3;
+                        var1 = _closure2_slot0;
+                        var2['skuId'] = var1;
+                        var1 = undefined;
+                        var1 = var4.bind(var1)(var2);
+case 12:
+                        var2 = _closure3_slot0;
+                        var1 = undefined;
+                        var2 = var2.bind(var1)(var3);
+                        return var1;
+                    }
                 };
                 var2 = var5.bind(var1)(var4, var3, var2);
                 return var1;
@@ -241,10 +250,10 @@ case 10:
             var1 = {};
             var1['skuId'] = var9;
             var1['loadId'] = var8;
-            if(!(var7 == var6)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!(var7 == var6)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var6 = new Array(0);
-case 12:
+case 14:
             var1['analyticsLocations'] = var6;
             var1['orbProductContext'] = var5;
             var1['onRedeemVirtualCurrency'] = var4;
@@ -262,7 +271,7 @@ case 12:
     var5 = var6.bind(var7)(var5);
     var3['useOrbCheckoutModalContextProvider'] = var4;
     var4 = function(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var14 = var1.skuId;
@@ -291,10 +300,10 @@ case 0:
             var6['skuId'] = var14;
             var6['loadId'] = var13;
             var13 = null;
-            if(!(var13 == var12)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+            if(!(var13 == var12)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var12 = new Array(0);
-case 14:
+case 16:
             var6['analyticsLocations'] = var12;
             var6['analyticsSourceLocation'] = var11;
             var6['orbProductContext'] = var10;

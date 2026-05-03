@@ -22,25 +22,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.bind(var1)(var7);
     var4 = 1;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ContentDismissActionType;
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.ContentDismissActionType;
+    var4 = var4.jsx;
     var _closure1_slot4 = var4;
     var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot5 = var4;
-    var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 5;
+    var10 = 4;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
@@ -53,17 +49,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginVertical'] = var10;
     var4['toastText'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = function DoubleTapReminderContent(arg1) {
         var1 = arg1;
         var9 = var1.emoji;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var4 = undefined;
         var5 = var2.bind(var4)();
-        var3 = _closure1_slot5;
+        var3 = _closure1_slot4;
         var6 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var1 = 6;
+        var1 = 5;
         var1 = var10[var1];
         var1 = var6.bind(var4)(var1);
         var2 = var1.Text;
@@ -72,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['variant'] = var7;
         var5 = var5.toastText;
         var1['style'] = var5;
-        var5 = 7;
+        var5 = 6;
         var7 = var10[var5];
         var7 = var6.bind(var4)(var7);
         var8 = var7.intl;
@@ -83,10 +79,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var5.C2tQIV;
         var5 = {};
         var10 = function protipHook(arg1) {
-            var5 = _closure1_slot5;
+            var5 = _closure1_slot4;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var3[var1];
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
@@ -106,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -120,12 +116,12 @@ case 0:
             var _closure2_slot0 = var10;
             var8 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var4 = 8;
+            var4 = 7;
             var3 = var2[var4];
             var1 = undefined;
             var5 = var8.bind(var1)(var3);
             var3 = var5.UNSAFE_isDismissibleContentDismissed;
-            var7 = 9;
+            var7 = 8;
             var2 = var2[var7];
             var2 = var8.bind(var1)(var2);
             var2 = var2.DismissibleContent;
@@ -133,55 +129,44 @@ case 0:
             var2 = var3.bind(var5)(var2);
             if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = _closure1_slot3;
-            var2 = var2.settings;
-            var2 = var2.textAndImages;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 9;
+            var2 = var5[var2];
+            var2 = var3.bind(var1)(var2);
+            var3 = var2.DoubleTapReactionEmoji;
+            var2 = var3.getSetting;
+            var12 = var2.bind(var3)();
+            var5 = var12.disableDoubleTap;
             var3 = null;
-            var5 = var3 == var2;
-            var12 = undefined;
-            if(var5) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var12 = var2.defaultReactionEmoji;
-case 4:
-            if(!(var3 == var12)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var12 = {};
-case 6:
-            var2 = var12.disableDoubleTap;
-            var8 = var3 == var2;
-            var5 = undefined;
-            if(var8) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var5 = var2.value;
-case 8:
             var2 = var3 != var5;
-            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var5;
-case 10:
+case 4:
             var8 = _closure1_slot0;
             var5 = _closure1_slot2;
             var11 = 10;
             var5 = var5[var11];
             var8 = var8.bind(var1)(var5);
-            var5 = var8.disambiguatedEmojiFromProtoValue;
+            var5 = var8.disambiguatedEmojiFromSettingsValue;
             var8 = var5.bind(var8)(var12);
             var2 = !var2;
-            if(!var2) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var3 != var8;
-case 12:
-            if(!var2) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+case 6:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var11];
             var5 = var5.bind(var1)(var3);
             var3 = var5.areEmojisEqual;
             var2 = var3.bind(var5)(var8, var10);
-case 14:
+case 8:
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 16:
+case 10:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var3 = 11;
@@ -192,7 +177,7 @@ case 16:
             var10 = 'DOUBLE_TAP_TO_REACT_REMINDER';
             var3['key'] = var10;
             var10 = function icon() {
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot4;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 12;
@@ -208,8 +193,8 @@ case 16:
             };
             var3['icon'] = var10;
             var9 = function content() {
-                var4 = _closure1_slot5;
-                var3 = _closure1_slot7;
+                var4 = _closure1_slot4;
+                var3 = _closure1_slot6;
                 var2 = {};
                 var1 = _closure2_slot0;
                 var2['emoji'] = var1;
@@ -230,7 +215,7 @@ case 16:
             var2 = var2.DismissibleContent;
             var3 = var2.DOUBLE_TAP_TO_REACT_REMINDER;
             var2 = {};
-            var6 = _closure1_slot4;
+            var6 = _closure1_slot3;
             var6 = var6.AUTO_DISMISS;
             var2['dismissAction'] = var6;
             var6 = true;

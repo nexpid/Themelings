@@ -1,4 +1,4 @@
-// app/modules/user_settings/DataHarvestStore.tsx
+// app/modules/harvester/DataHarvestStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = metroImportDefault;
     var3 = exports;
@@ -199,7 +199,7 @@ case 8:
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/user_settings/DataHarvestStore.tsx';
+    var4 = 'modules/harvester/DataHarvestStore.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

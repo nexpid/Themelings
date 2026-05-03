@@ -600,35 +600,20 @@ case 39:
             var15 = var14.powerups;
             var14 = var15.map;
             var13 = function(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                    var1 = arg1;
-                    var5 = _closure1_slot4;
-                    var4 = _closure1_slot8;
-                    var3 = {};
-                    var2 = _closure2_slot0;
-                    var3['guildId'] = var2;
-                    var3['powerup'] = var1;
-                    var2 = _closure2_slot1;
-                    var10 = var2.newPowerupSkuIdSet;
-                    var2 = null;
-                    var8 = var2 == var10;
-                    var2 = undefined;
-                    var7 = undefined;
-                    if(var8) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
-                    var9 = var10.has;
-                    var8 = var1.skuId;
-                    var7 = var9.bind(var10)(var8);
-case 41:
-                    var3['isNewPerk'] = var7;
-                    var6 = _closure2_slot1;
-                    var6 = var6.forceStaticImages;
-                    var3['forceStaticImage'] = var6;
-                    var1 = var1.skuId;
-                    var1 = var5.bind(var2)(var4, var3, var1);
-                    return var1;
-                }
+                var1 = arg1;
+                var5 = _closure1_slot4;
+                var4 = _closure1_slot8;
+                var3 = {};
+                var6 = _closure2_slot0;
+                var3['guildId'] = var6;
+                var3['powerup'] = var1;
+                var2 = _closure2_slot1;
+                var2 = var2.forceStaticImages;
+                var3['forceStaticImage'] = var2;
+                var2 = var1.skuId;
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4, var3, var2);
+                return var1;
             };
             var13 = var14.bind(var15)(var13);
             var10['children'] = var13;
