@@ -609,12 +609,12 @@ case 41:
                 if(!(var7 > var1)) { _fun0005_ip = 42; continue _fun0005 }
 case 43:
                 var16 = null;
-                if(!(var16 === var6)) { _fun0005_ip = 22; continue _fun0005 }
+                if(!(var16 === var6)) { _fun0005_ip = 44; continue _fun0005 }
 case 42:
                 var12 = var4.poll;
                 var7 = null;
-                if(!(var7 == var12)) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+                if(!(var7 == var12)) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                 var13 = _closure1_slot8;
                 var12 = _closure1_slot12;
                 var7 = {};
@@ -623,7 +623,7 @@ case 45:
                 var7['maxHeight'] = var9;
                 var7 = var13.bind(var5)(var12, var7);
                 return var7;
-case 44:
+case 45:
                 var7 = var4.poll;
                 var7 = var7.question;
                 var21 = var7.text;
@@ -661,7 +661,7 @@ case 44:
                 var7['children'] = var14;
                 var7 = var13.bind(var5)(var12, var7);
                 return var7;
-case 22:
+case 44:
                 var13 = _closure1_slot9;
                 var12 = _closure1_slot4;
                 var7 = {};
@@ -673,8 +673,8 @@ case 22:
                 var14 = new Array(2);
                 var14[0] = var17;
                 var16 = var16 !== var20;
-                if(!var16) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+                if(!var16) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                 var19 = _closure1_slot8;
                 var18 = _closure1_slot0;
                 var21 = _closure1_slot2;
@@ -685,7 +685,7 @@ case 47:
                 var17 = {'variant': 'redesign/message-preview/medium', 'color': 'text-link', 'lineClamp': 2};
                 var17['children'] = var20;
                 var16 = var19.bind(var5)(var18, var17);
-case 46:
+case 47:
                 var14[1] = var16;
                 var7['children'] = var14;
                 var7 = var13.bind(var5)(var12, var7);
@@ -703,19 +703,19 @@ case 38:
                 var7 = var4.messageSnapshots;
                 var7 = var7.length;
                 var7 = var7 > var1;
-                if(!var7) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+                if(!var7) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
                 var4 = var4.messageSnapshots;
                 var4 = var4[var1];
                 var4 = var4.message;
                 var4 = var4.content;
                 var4 = var4.length;
                 var7 = var4 > var1;
-case 48:
+case 49:
                 var4 = var8.length;
                 var4 = var4 > var1;
-                if(!var4) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                if(!var4) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
                 var12 = var8[var1];
                 var13 = var12.type;
                 var14 = _closure1_slot0;
@@ -725,14 +725,14 @@ case 51:
                 var12 = var12.PreviewableMediaTypes;
                 var12 = var12.GIF;
                 var4 = var13 === var12;
-case 50:
+case 51:
                 var8 = var8.length;
-                if(!(var8 > var1)) { _fun0005_ip = 52; continue _fun0005 }
+                if(!(var8 > var1)) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
+                if(!var7) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
+                if(var4) { _fun0005_ip = 55; continue _fun0005 }
 case 53:
-                if(!var7) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
-                if(var4) { _fun0005_ip = 54; continue _fun0005 }
-case 52:
                 var8 = _closure1_slot8;
                 var7 = _closure1_slot12;
                 var4 = {};
@@ -740,8 +740,8 @@ case 52:
                 var4['lineClamp'] = var11;
                 var4['maxHeight'] = var9;
                 var4 = var8.bind(var5)(var7, var4);
-                _fun0005_ip = 56; continue _fun0005;
-case 54:
+                _fun0005_ip = 57; continue _fun0005;
+case 55:
                 var9 = _closure1_slot8;
                 var8 = _closure1_slot13;
                 var7 = {};
@@ -759,7 +759,7 @@ case 54:
                 var11 = var12.bind(var13)(var11);
                 var7['text'] = var11;
                 var4 = var9.bind(var5)(var8, var7);
-case 56:
+case 57:
                 return var4;
 case 36:
                 var11 = var3[var1];
@@ -771,11 +771,11 @@ case 36:
                 var1 = var4.bind(var5)(var1);
                 var1 = var1.MessageEmbedTypes;
                 var1 = var1.GIFV;
-                if(!(var3 === var1)) { _fun0005_ip = 57; continue _fun0005 }
-case 58:
+                if(!(var3 === var1)) { _fun0005_ip = 58; continue _fun0005 }
+case 59:
                 var1 = null;
-                if(!(var1 == var6)) { _fun0005_ip = 59; continue _fun0005 }
-case 57:
+                if(!(var1 == var6)) { _fun0005_ip = 60; continue _fun0005 }
+case 58:
                 var4 = _closure1_slot9;
                 var3 = _closure1_slot4;
                 var1 = {};
@@ -798,14 +798,14 @@ case 57:
                 var7[1] = var8;
                 var1['children'] = var7;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0005_ip = 60; continue _fun0005;
-case 59:
+                _fun0005_ip = 61; continue _fun0005;
+case 60:
                 var4 = _closure1_slot8;
                 var3 = _closure1_slot13;
                 var2 = {};
                 var2['text'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
-case 60:
+case 61:
                 return var1;
             }
         };

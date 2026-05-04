@@ -407,8 +407,6 @@ case 63:
 case 67:
                     var2.return();
 case 66:
-                    var2 = var3.toString;
-                    var3 = var2.bind(var3)();
                     var2 = {};
                     var5 = var4.activity_level;
                     var2['level'] = var5;
