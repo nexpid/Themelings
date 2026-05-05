@@ -173,12 +173,16 @@ case 0:
             var1 = var1.analyticsLocations;
             var _closure2_slot7 = var1;
             var3 = var5.useEffect;
-            var2 = new Array(4);
+            var2 = new Array(6);
             var2[0] = var10;
             var13 = var15.id;
             var2[1] = var13;
-            var2[2] = var6;
-            var2[3] = var1;
+            var13 = var15.outboundTitle;
+            var2[2] = var13;
+            var13 = var15.partnerId;
+            var2[3] = var13;
+            var2[4] = var6;
+            var2[5] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -194,8 +198,12 @@ case 3:
                     var3 = var4.claimOutboundPromotion;
                     var2 = {};
                     var6 = _closure2_slot3;
-                    var6 = var6.id;
-                    var2['promotionId'] = var6;
+                    var7 = var6.id;
+                    var2['promotionId'] = var7;
+                    var7 = var6.outboundTitle;
+                    var2['promotionTitle'] = var7;
+                    var6 = var6.partnerId;
+                    var2['partnerId'] = var6;
                     var5 = _closure2_slot7;
                     var2['analyticsLocations'] = var5;
                     var4 = var3.bind(var4)(var2);

@@ -125,8 +125,8 @@ case 0:
 case 8:
             var11 = false;
 case 7:
-            var19 = var1.style;
-            var20 = var1.activeStyle;
+            var21 = var1.style;
+            var22 = var1.activeStyle;
             var12 = var1.activeIconStyle;
             var9 = var1.disabled;
             var6 = var1.onPress;
@@ -138,71 +138,95 @@ case 7:
             var8 = var1.onAccessibilityAction;
             var7 = var1.IconComponent;
             var2 = _closure1_slot0;
-            var18 = _closure1_slot2;
+            var20 = _closure1_slot2;
             var1 = 4;
-            var1 = var18[var1];
+            var1 = var20[var1];
             var10 = var2.bind(var4)(var1);
             var3 = var10.useMobileVisualRefreshConfig;
             var1 = {};
-            var21 = 'ChatInputActionButton';
-            var1['location'] = var21;
+            var18 = 'ChatInputActionButton';
+            var1['location'] = var18;
             var1 = var3.bind(var10)(var1);
-            var21 = var1.enabled;
+            var19 = var1.enabled;
             var3 = 5;
-            var1 = var18[var3];
-            var24 = var2.bind(var4)(var1);
-            var22 = var24.useToken;
-            var23 = _closure1_slot1;
+            var1 = var20[var3];
+            var23 = var2.bind(var4)(var1);
+            var18 = var23.useToken;
+            var24 = _closure1_slot1;
             var1 = 3;
-            var10 = var18[var1];
-            var10 = var23.bind(var4)(var10);
+            var10 = var20[var1];
+            var10 = var24.bind(var4)(var10);
             var10 = var10.modules;
             var10 = var10.mobile;
             var10 = var10.CHAT_INPUT_ACTION_BUTTON_SIZE;
-            var10 = var22.bind(var24)(var10);
-            var3 = var18[var3];
-            var22 = var2.bind(var4)(var3);
-            var3 = var22.useToken;
-            var1 = var18[var1];
-            var1 = var23.bind(var4)(var1);
+            var18 = var18.bind(var23)(var10);
+            var10 = var20[var3];
+            var25 = var2.bind(var4)(var10);
+            var23 = var25.useToken;
+            var10 = var20[var1];
+            var10 = var24.bind(var4)(var10);
+            var10 = var10.modules;
+            var10 = var10.mobile;
+            var10 = var10.CHAT_INPUT_ACTION_BUTTON_MARGIN;
+            var10 = var23.bind(var25)(var10);
+            var3 = var20[var3];
+            var23 = var2.bind(var4)(var3);
+            var3 = var23.useToken;
+            var1 = var20[var1];
+            var1 = var24.bind(var4)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
-            var1 = var1.CHAT_INPUT_ACTION_BUTTON_MARGIN;
-            var3 = var3.bind(var22)(var1);
-            var1 = _closure1_slot4;
-            var10 = var1.bind(var4)(var21, var10, var3);
+            var1 = var1.CHAT_INPUT_ACTION_BUTTON_MIN_TOUCH_TARGET_SIZE;
+            var1 = var3.bind(var23)(var1);
+            var3 = _closure1_slot4;
+            var10 = var3.bind(var4)(var19, var18, var10);
+            var3 = global;
+            var19 = var3.Math;
+            var3 = var19.max;
+            var18 = var1 - var18;
+            var1 = 2;
+            var1 = var18 / var1;
+            var18 = 0;
+            var19 = var3.bind(var19)(var18, var1);
             var3 = _closure1_slot3;
             var1 = 6;
-            var1 = var18[var1];
+            var1 = var20[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
-            var18 = arg2;
-            var1['ref'] = var18;
-            var21 = var10.actionButton;
-            var18 = new Array(3);
-            var18[0] = var21;
-            var18[1] = var19;
-            var19 = var11;
+            var20 = arg2;
+            var1['ref'] = var20;
+            var23 = var10.actionButton;
+            var20 = new Array(3);
+            var20[0] = var23;
+            var20[1] = var21;
+            var21 = var11;
             if(!var11) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-            var19 = !var9;
+            var21 = !var9;
 case 9:
-            if(!var19) { _fun0002_ip = 11; continue _fun0002 }
+            if(!var21) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var19 = var20;
+            var21 = var22;
 case 11:
-            var18[2] = var19;
-            var1['style'] = var18;
+            var20[2] = var21;
+            var1['style'] = var20;
+            var20 = var19 > var18;
+            var18 = undefined;
+            if(!var20) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+            var18 = var19;
+case 13:
+            var1['hitSlop'] = var18;
             var1['disabled'] = var9;
             var1['accessible'] = var16;
             var16 = 'button';
             var1['accessibilityRole'] = var16;
             var16 = {};
             var16['disabled'] = var9;
-            var27 = var16;
-            var26 = var17;
-            var17 = copyDataProperties(var27, var26);
+            var28 = var16;
+            var27 = var17;
+            var17 = copyDataProperties(var28, var27);
             var1['accessibilityState'] = var16;
             var1['accessibilityLabel'] = var15;
             var1['accessibilityHint'] = var14;
@@ -217,20 +241,20 @@ case 11:
             var8 = new Array(4);
             var8[0] = var13;
             var13 = var11;
-            if(!var11) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-            var13 = var10.actionButtonIconActive;
-case 13:
-            var8[1] = var13;
             if(!var11) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var11 = var12;
+            var13 = var10.actionButtonIconActive;
 case 15:
-            var8[2] = var11;
-            if(!var9) { _fun0002_ip = 17; continue _fun0002 }
+            var8[1] = var13;
+            if(!var11) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            var9 = var10.actionButtonIconDisabled;
+            var11 = var12;
 case 17:
+            var8[2] = var11;
+            if(!var9) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+            var9 = var10.actionButtonIconDisabled;
+case 19:
             var8[3] = var9;
             var5['style'] = var8;
             var5 = var6.bind(var4)(var7, var5);

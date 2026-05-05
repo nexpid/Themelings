@@ -186,30 +186,64 @@ case 26:
         }
     };
     var3['toReactionEmoji'] = var4;
-    var4 = function emojiEquals(arg1, arg2) {
+    var4 = function isCustomReactionEmojiId(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var4 = arg1;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
+            var2 = '';
+            var1 = var2 !== var4;
+case 28:
+            if(!var1) { _fun0004_ip = 27; continue _fun0004 }
+case 30:
+            var3 = 'number';
+            var2 = typeof var4;
+            if(!(var3 !== var2)) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
+            var2 = global;
+            var3 = var2.String;
+            var2 = undefined;
+            var3 = var3.bind(var2)(var4);
+            var2 = '0';
+            var2 = var2 !== var3;
+            _fun0004_ip = 33; continue _fun0004;
+case 31:
+            var3 = 0;
+            var2 = var3 !== var4;
+case 33:
+            var1 = var2;
+case 27:
+            return var1;
+        }
+    };
+    var3['isCustomReactionEmojiId'] = var4;
+    var4 = function emojiEquals(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var3 = arg1;
             var1 = arg2;
             var2 = var1.id;
             var4 = null;
-            if(!(var4 == var2)) { _fun0004_ip = 21; continue _fun0004 }
-case 28:
+            if(!(var4 == var2)) { _fun0005_ip = 21; continue _fun0005 }
+case 34:
             var2 = var3.id;
             var2 = var4 == var2;
-            if(!var2) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+            if(!var2) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
             var6 = var1.name;
             var5 = var3.name;
             var2 = var6 === var5;
-case 29:
+case 35:
             return var2;
 case 21:
             var2 = var3.id;
-            if(!(var4 == var2)) { _fun0004_ip = 31; continue _fun0004 }
+            if(!(var4 == var2)) { _fun0005_ip = 31; continue _fun0005 }
 case 25:
             var2 = var3.id;
-            _fun0004_ip = 32; continue _fun0004;
+            _fun0005_ip = 37; continue _fun0005;
 case 31:
             var5 = var3.id;
             var3 = global;
@@ -217,7 +251,7 @@ case 31:
             var4 = var3.concat;
             var3 = '';
             var2 = var4.bind(var3)(var5);
-case 32:
+case 37:
             var4 = var1.id;
             var1 = global;
             var1 = var1.HermesInternal;
@@ -230,43 +264,43 @@ case 32:
     };
     var3['emojiEquals'] = var4;
     var4 = function getBurstAnalyticsSection(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = arg1;
             var1 = var3.isThread;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+            if(var1) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
             var1 = var3.isForumPost;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0005_ip = 12; continue _fun0005 }
-case 35:
+            if(var1) { _fun0006_ip = 12; continue _fun0006 }
+case 40:
             var1 = var3.isGuildVocal;
             var1 = var1.bind(var3)();
             var3 = _closure1_slot4;
-            if(var1) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+            if(var1) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
             var1 = var3.CHANNEL_TEXT_AREA;
-            _fun0005_ip = 38; continue _fun0005;
-case 36:
+            _fun0006_ip = 43; continue _fun0006;
+case 41:
             var1 = var3.TEXT_IN_VOICE;
-case 38:
-            _fun0005_ip = 11; continue _fun0005;
+case 43:
+            _fun0006_ip = 11; continue _fun0006;
 case 12:
             var3 = _closure1_slot4;
             var1 = var3.FORUM_CHANNEL_TEXT_AREA;
 case 11:
-            _fun0005_ip = 39; continue _fun0005;
-case 33:
+            _fun0006_ip = 44; continue _fun0006;
+case 38:
             var2 = _closure1_slot4;
             var1 = var2.THREAD_TEXT_AREA;
-case 39:
+case 44:
             return var1;
         }
     };
     var3['getBurstAnalyticsSection'] = var4;
     var4 = function shouldApplyReaction(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.userId;
@@ -274,11 +308,11 @@ case 0:
             var4 = _closure1_slot3;
             var2 = var4.getId;
             var2 = var2.bind(var4)();
-            if(!var1) { _fun0006_ip = 40; continue _fun0006 }
-case 41:
+            if(!var1) { _fun0007_ip = 45; continue _fun0007 }
+case 32:
             var2 = var2 === var3;
             var1 = !var2;
-case 40:
+case 45:
             var1 = !var1;
             return var1;
         }

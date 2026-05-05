@@ -255,6 +255,19 @@ case 0:
             if(!(var3 !== var4)) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
             _closure1_slot10 = var3;
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 10;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.dispatch;
+            var3 = {};
+            var6 = 'RESTRICTED_HOURS_STATE_CHANGE';
+            var3['type'] = var6;
+            var6 = _closure1_slot10;
+            var3['isInRestrictedHours'] = var6;
+            var3 = var4.bind(var5)(var3);
+            var3 = _closure1_slot10;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var4 = 12;
@@ -283,23 +296,30 @@ case 0:
             _closure1_slot10 = var1;
             var2 = null;
             _closure1_slot13 = var2;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 12;
-            var4 = var4[var1];
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var1 = 10;
+            var4 = var6[var1];
             var1 = undefined;
+            var7 = var5.bind(var1)(var4);
+            var5 = var7.dispatch;
+            var4 = {'type': 'RESTRICTED_HOURS_STATE_CHANGE', 'isInRestrictedHours': false};
+            var4 = var5.bind(var7)(var4);
+            var5 = _closure1_slot0;
+            var4 = 12;
+            var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.closeRestrictedHoursModal;
             var4 = var4.bind(var5)();
             var4 = _closure1_slot12;
-            if(!(var2 != var4)) { _fun0005_ip = 4; continue _fun0005 }
-case 26:
+            if(!(var2 != var4)) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
             var4 = global;
             var5 = var4.clearTimeout;
             var4 = _closure1_slot12;
             var4 = var5.bind(var1)(var4);
             _closure1_slot12 = var2;
-case 4:
+case 26:
             return var1;
         }
     };
@@ -380,12 +400,12 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot14;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+                if(var1) { _fun0006_ip = 28; continue _fun0006 }
+case 29:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0006_ip = 29; continue _fun0006;
-case 27:
+                _fun0006_ip = 30; continue _fun0006;
+case 28:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -393,7 +413,7 @@ case 27:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 29:
+case 30:
                 var1 = var2.bind(var4)(var5, var1);
                 var2 = global;
                 var2 = var2.Map;
@@ -435,8 +455,21 @@ case 0:
                 var1 = undefined;
                 var3 = var3.bind(var1)();
                 _closure1_slot10 = var3;
-                if(!var3) { _fun0007_ip = 30; continue _fun0007 }
-case 31:
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var3 = 10;
+                var3 = var5[var3];
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.dispatch;
+                var3 = {};
+                var6 = 'RESTRICTED_HOURS_STATE_CHANGE';
+                var3['type'] = var6;
+                var6 = _closure1_slot10;
+                var3['isInRestrictedHours'] = var6;
+                var3 = var4.bind(var5)(var3);
+                var3 = _closure1_slot10;
+                if(!var3) { _fun0007_ip = 31; continue _fun0007 }
+case 32:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var3 = 12;
@@ -444,7 +477,7 @@ case 31:
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.openRestrictedHoursModal;
                 var3 = var3.bind(var4)();
-case 30:
+case 31:
                 var3 = global;
                 var5 = var3.setInterval;
                 var4 = _closure1_slot18;
@@ -467,25 +500,25 @@ case 30:
 case 0:
                 var2 = _closure1_slot11;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
+                if(!(var1 != var2)) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
                 var2 = global;
                 var5 = var2.clearInterval;
                 var4 = _closure1_slot11;
                 var2 = undefined;
                 var2 = var5.bind(var2)(var4);
                 _closure1_slot11 = var1;
-case 32:
+case 33:
                 var2 = _closure1_slot12;
-                if(!(var1 != var2)) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
+                if(!(var1 != var2)) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
                 var2 = global;
                 var5 = var2.clearTimeout;
                 var4 = _closure1_slot12;
                 var2 = undefined;
                 var2 = var5.bind(var2)(var4);
                 _closure1_slot12 = var1;
-case 34:
+case 35:
                 _closure1_slot13 = var1;
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;

@@ -298,7 +298,7 @@ case 7:
             var13 = 'primary';
             if(!var14) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var13 = 'destructive';
+            var13 = 'tertiary';
 case 8:
             var9['variant'] = var13;
             var12 = function onPress() {

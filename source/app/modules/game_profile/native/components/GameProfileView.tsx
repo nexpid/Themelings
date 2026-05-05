@@ -91,11 +91,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var19 = var1.game;
-            var24 = var1.officialInvite;
+            var24 = var1.invite;
             var21 = var1.viewId;
             var15 = var1.source;
             var18 = var1.trackAction;
-            var25 = var1.onOfficialGuildInviteResolved;
+            var25 = var1.onGuildInviteResolved;
             var22 = var1.closeModal;
             var16 = var1.scrollY;
             var28 = var1.websiteButtons;
@@ -289,7 +289,7 @@ case 7:
             var12 = {};
             var25 = var19.id;
             var12['gameId'] = var25;
-            var12['officialInvite'] = var24;
+            var12['invite'] = var24;
             var12['closeModal'] = var22;
             var12['trackAction'] = var18;
             var12['scrollOffsetRef'] = var23;

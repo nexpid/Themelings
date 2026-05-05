@@ -190,8 +190,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15['AUTOMATIC_GAIN_CONTROL'] = var1;
     var1 = 'CLIPS';
     var15['CLIPS'] = var1;
-    var1 = 'CLIPS_V3';
-    var15['CLIPS_V3'] = var1;
     var1 = 'SPEED_TEST';
     var15['SPEED_TEST'] = var1;
     var1 = 'IMAGE_QUALITY_MEASUREMENT';

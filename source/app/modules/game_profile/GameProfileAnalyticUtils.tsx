@@ -23,13 +23,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 1;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot4 = var4;
+    var5 = var4.AnalyticEvents;
+    var _closure1_slot4 = var5;
+    var4 = var4.GuildFeatures;
+    var _closure1_slot5 = var4;
     var5 = 2;
     var4 = var9[var5];
     var4 = var8.bind(var1)(var4);
     var4 = var4.ContentInventoryFeedKey;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var6 = {};
     var6['FollowGame'] = var10;
     var4 = 'FollowGame';
@@ -77,8 +79,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'ShowLess';
     var6[var5] = var4;
     var5 = 12;
-    var6['JoinOfficialServer'] = var5;
-    var4 = 'JoinOfficialServer';
+    var6['JoinServer'] = var5;
+    var4 = 'JoinServer';
     var6[var5] = var4;
     var5 = 13;
     var6['ClickImage'] = var5;
@@ -236,6 +238,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GameProfileTrackActionActions'] = var6;
     var3['GameProfileSources'] = var5;
     var3['GameProfileTypes'] = var4;
+    var4 = function getGuildIdAndVerifiedFromInvite(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var4 = arg1;
+            var1 = {};
+            var2 = null;
+            var3 = var2 == var4;
+            var5 = undefined;
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = var4.guild;
+            var7 = var2 == var3;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            var5 = var3.id;
+case 2:
+            var7 = var2 != var5;
+            var3 = null;
+            if(!var7) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            var3 = var5;
+case 5:
+            var1['guildId'] = var3;
+            var5 = var2 == var4;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var4 = var4.guild;
+            var5 = var2 == var4;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
+            var6 = var4.features;
+            var5 = var6.includes;
+            var4 = _closure1_slot5;
+            var4 = var4.VERIFIED;
+            var3 = var5.bind(var6)(var4);
+case 7:
+            var2 = var2 != var3;
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var2 = var3;
+case 10:
+            var1['isVerified'] = var2;
+            return var1;
+        }
+    };
+    var3['getGuildIdAndVerifiedFromInvite'] = var4;
     var4 = function() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
@@ -273,7 +324,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['author_id'] = var8;
         var9 = _closure1_slot3;
         var8 = var9.getFeedRequestId;
-        var7 = _closure1_slot5;
+        var7 = _closure1_slot6;
         var7 = var7.GLOBAL_FEED;
         var7 = var8.bind(var9)(var7);
         var2['request_id'] = var7;
@@ -283,71 +334,91 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['trackGameProfileOpen'] = var4;
     var4 = function(arg1) {
-        var1 = arg1;
-        var13 = var1.viewId;
-        var12 = var1.gameName;
-        var11 = var1.gameId;
-        var10 = var1.playedFriendIds;
-        var9 = var1.playedFriendsData;
-        var8 = var1.similarGames;
-        var6 = var1.officialGuildId;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 4;
-        var2 = var2[var1];
-        var1 = undefined;
-        var5 = var3.bind(var1)(var2);
-        var4 = var5.track;
-        var2 = _closure1_slot4;
-        var3 = var2.GAME_PROFILE_CLOSE;
-        var2 = {};
-        var2['view_id'] = var13;
-        var2['game_name'] = var12;
-        var2['application_id'] = var11;
-        var2['played_friend_ids'] = var10;
-        var2['played_friends_data'] = var9;
-        var2['similar_games'] = var8;
-        var9 = _closure1_slot3;
-        var8 = var9.getFeedRequestId;
-        var7 = _closure1_slot5;
-        var7 = var7.GLOBAL_FEED;
-        var7 = var8.bind(var9)(var7);
-        var2['request_id'] = var7;
-        var2['official_guild_id'] = var6;
-        var2 = var4.bind(var5)(var3, var2);
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var1 = arg1;
+            var14 = var1.viewId;
+            var13 = var1.gameName;
+            var12 = var1.gameId;
+            var11 = var1.playedFriendIds;
+            var10 = var1.playedFriendsData;
+            var9 = var1.similarGames;
+            var6 = var1.guildId;
+            var8 = var1.isVerified;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.track;
+            var2 = _closure1_slot4;
+            var3 = var2.GAME_PROFILE_CLOSE;
+            var2 = {};
+            var2['view_id'] = var14;
+            var2['game_name'] = var13;
+            var2['application_id'] = var12;
+            var2['played_friend_ids'] = var11;
+            var2['played_friends_data'] = var10;
+            var2['similar_games'] = var9;
+            var10 = _closure1_slot3;
+            var9 = var10.getFeedRequestId;
+            var7 = _closure1_slot6;
+            var7 = var7.GLOBAL_FEED;
+            var7 = var9.bind(var10)(var7);
+            var2['request_id'] = var7;
+            var7 = undefined;
+            if(!var8) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var7 = var6;
+case 12:
+            var2['official_guild_id'] = var7;
+            var2['guild_id'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+        }
     };
     var3['trackGameProfileClose'] = var4;
     var4 = function(arg1) {
-        var1 = arg1;
-        var13 = var1.gameName;
-        var12 = var1.gameId;
-        var11 = var1.action;
-        var10 = var1.recipientUserId;
-        var9 = var1.similarGameId;
-        var8 = var1.viewId;
-        var7 = var1.officialGuildId;
-        var6 = var1.source;
-        var4 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 4;
-        var3 = var3[var1];
-        var1 = undefined;
-        var5 = var4.bind(var1)(var3);
-        var4 = var5.track;
-        var2 = _closure1_slot4;
-        var3 = var2.GAME_PROFILE_ACTION;
-        var2 = {};
-        var2['game_name'] = var13;
-        var2['application_id'] = var12;
-        var2['action'] = var11;
-        var2['recipient_user_id'] = var10;
-        var2['similar_game_id'] = var9;
-        var2['view_id'] = var8;
-        var2['official_guild_id'] = var7;
-        var2['source'] = var6;
-        var2 = var4.bind(var5)(var3, var2);
-        return var1;
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var14 = var1.gameName;
+            var13 = var1.gameId;
+            var12 = var1.action;
+            var11 = var1.recipientUserId;
+            var10 = var1.similarGameId;
+            var8 = var1.viewId;
+            var7 = var1.guildId;
+            var9 = var1.isVerified;
+            var6 = var1.source;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 4;
+            var3 = var3[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.track;
+            var2 = _closure1_slot4;
+            var3 = var2.GAME_PROFILE_ACTION;
+            var2 = {};
+            var2['game_name'] = var14;
+            var2['application_id'] = var13;
+            var2['action'] = var12;
+            var2['recipient_user_id'] = var11;
+            var2['similar_game_id'] = var10;
+            var2['view_id'] = var8;
+            var8 = undefined;
+            if(!var9) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+            var8 = var7;
+case 14:
+            var2['official_guild_id'] = var8;
+            var2['guild_id'] = var7;
+            var2['source'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+        }
     };
     var3['trackGameProfileAction'] = var4;
     var2 = function(arg1) {

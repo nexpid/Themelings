@@ -879,7 +879,7 @@ case 62:
                 var24 = var21.bind(var24)();
                 var21 = undefined;
                 if(var24) { _fun0003_ip = 64; continue _fun0003 }
-case 65:
+case 51:
                 var25 = _closure1_slot0;
                 var27 = _closure1_slot2;
                 var24 = 31;
@@ -897,10 +897,10 @@ case 64:
                 var24 = var25.isIOS;
                 var25 = var24.bind(var25)();
                 var24 = undefined;
-                if(!var25) { _fun0003_ip = 66; continue _fun0003 }
-case 67:
-                var24 = 0;
+                if(!var25) { _fun0003_ip = 65; continue _fun0003 }
 case 66:
+                var24 = 0;
+case 65:
                 var8['headerStatusBarHeight'] = var24;
                 var8 = var7.bind(var4)(var20, var8);
                 var5['children'] = var8;
@@ -923,10 +923,10 @@ case 66:
                 var19 = var19.length;
                 var22 = var19 > var14;
                 var19 = undefined;
-                if(!var22) { _fun0003_ip = 68; continue _fun0003 }
-case 69:
-                var19 = _closure1_slot21;
+                if(!var22) { _fun0003_ip = 67; continue _fun0003 }
 case 68:
+                var19 = _closure1_slot21;
+case 67:
                 var7['getRowIsUnavailable'] = var19;
                 var7['insetEnd'] = var14;
                 var19 = true;
@@ -934,10 +934,10 @@ case 68:
                 var7['disableStickySections'] = var19;
                 var19 = _closure1_slot15;
                 var19 = var13 >= var19;
-                if(var19) { _fun0003_ip = 70; continue _fun0003 }
-case 71:
-                var19 = var10;
+                if(var19) { _fun0003_ip = 69; continue _fun0003 }
 case 70:
+                var19 = var10;
+case 69:
                 var7['disableSelection'] = var19;
                 var22 = _closure1_slot0;
                 var19 = _closure1_slot2;
@@ -959,10 +959,10 @@ case 70:
                 var6['preview'] = var16;
                 var6['sendLabel'] = var15;
                 var13 = var13 > var14;
-                if(!var13) { _fun0003_ip = 72; continue _fun0003 }
-case 73:
-                var13 = !var10;
+                if(!var13) { _fun0003_ip = 71; continue _fun0003 }
 case 72:
+                var13 = !var10;
+case 71:
                 var6['canSend'] = var13;
                 var6['isSending'] = var12;
                 var6['onSend'] = var11;

@@ -28,19 +28,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var11 = 2;
     var4 = var6[var11];
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot5 = var8;
+    var _closure1_slot6 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot6 = var4;
-    var4 = 3;
+    var _closure1_slot7 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
     var10 = {};
     var10['zIndex'] = var11;
-    var11 = 4;
+    var11 = 5;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
@@ -50,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {'position': 'relative', 'overflow': 'visible', 'flex': 1};
     var4['wrapper'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = var7.memo;
     var2 = function GuildsBar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -62,12 +66,13 @@ case 0:
 case 3:
             var10 = false;
 case 2:
-            var _closure2_slot0 = var4;
-            var2 = _closure1_slot7;
-            var23 = var2.bind(var4)();
+            var _closure2_slot0 = var10;
+            var _closure2_slot1 = var4;
+            var2 = _closure1_slot8;
+            var24 = var2.bind(var4)();
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var2 = var12[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -75,39 +80,78 @@ case 2:
             var7 = var2.gesture;
             var17 = var2.scrollerRef;
             var21 = var2.fastListRef;
-            _closure2_slot0 = var21;
+            _closure2_slot1 = var21;
             var18 = var2.persistantKeys;
             var20 = var2.onFastListScroll;
-            var2 = 6;
+            var2 = 7;
             var2 = var12[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.bind(var4)(var21, var10);
             var22 = var2.listProps;
             var16 = var2.listDataProps;
-            var2 = 7;
+            var2 = 8;
             var2 = var12[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.bind(var4)();
-            var25 = var2.top;
+            var26 = var2.top;
             var5 = _closure1_slot3;
+            var6 = var5.useCallback;
+            var3 = function(arg1) {
+                var2 = _closure1_slot5;
+                var1 = var2.getState;
+                var1 = var1.bind(var2)();
+                var3 = var1.listTopOffset;
+                var2 = var3.set;
+                var1 = arg1;
+                var1 = var1.nativeEvent;
+                var1 = var1.layout;
+                var1 = var1.height;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            var2 = new Array(0);
+            var23 = var6.bind(var5)(var3, var2);
+            var6 = var5.useEffect;
+            var3 = new Array(1);
+            var3[0] = var10;
+            var2 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = _closure2_slot0;
+                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var2 = _closure1_slot5;
+                    var1 = var2.getState;
+                    var1 = var1.bind(var2)();
+                    var3 = var1.listTopOffset;
+                    var2 = var3.set;
+                    var1 = 0;
+                    var1 = var2.bind(var3)(var1);
+case 4:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var2 = var6.bind(var5)(var2, var3);
             var3 = var5.useEffect;
             var2 = new Array(1);
             var2[0] = var21;
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 8;
+                var1 = 9;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.registerGuildVisibilityMethod;
-                var2 = _closure2_slot0;
+                var2 = _closure2_slot1;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
             var1 = var3.bind(var5)(var1, var2);
-            var3 = _closure1_slot5;
-            var5 = 9;
+            var3 = _closure1_slot6;
+            var5 = 10;
             var1 = var12[var5];
             var2 = var8.bind(var4)(var1);
             var1 = {};
@@ -117,58 +161,59 @@ case 2:
             var5 = var5.Profiles;
             var5 = var5.Guilds;
             var1['profile'] = var5;
-            var5 = 10;
+            var5 = 11;
             var5 = var12[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.GestureDetector;
             var5 = {};
             var5['gesture'] = var7;
-            var9 = _closure1_slot6;
-            var7 = 11;
+            var9 = _closure1_slot7;
+            var7 = 12;
             var7 = var12[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {'style': null, 'collapsable': false, 'nativeID': 'guilds-bar-view'};
-            var12 = var23.wrapper;
+            var12 = var24.wrapper;
             var7['style'] = var12;
             var15 = var10;
             var12 = null;
-            if(!var15) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var14 = _closure1_slot5;
+            if(!var15) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var14 = _closure1_slot6;
             var13 = _closure1_slot4;
             var10 = {};
-            var24 = var23.homeHeader;
-            var23 = new Array(2);
-            var23[0] = var24;
-            var24 = {};
-            var24['paddingTop'] = var25;
-            var23[1] = var24;
-            var10['style'] = var23;
+            var25 = var24.homeHeader;
+            var24 = new Array(2);
+            var24[0] = var25;
+            var25 = {};
+            var25['paddingTop'] = var26;
+            var24[1] = var25;
+            var10['style'] = var24;
+            var10['onLayout'] = var23;
             var24 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var23 = 12;
+            var23 = 13;
             var23 = var25[var23];
             var24 = var24.bind(var4)(var23);
             var23 = {};
             var23 = var14.bind(var4)(var24, var23);
             var10['children'] = var23;
             var12 = var14.bind(var4)(var13, var10);
-case 4:
+case 6:
             var10 = new Array(3);
             var10[0] = var12;
-            var14 = _closure1_slot5;
+            var14 = _closure1_slot6;
             var13 = _closure1_slot1;
             var23 = _closure1_slot2;
-            var12 = 13;
+            var12 = 14;
             var12 = var23[var12];
             var13 = var13.bind(var4)(var12);
             var12 = {};
-            var27 = var12;
-            var26 = var22;
-            var22 = copyDataProperties(var27, var26);
-            var27 = var12;
-            var26 = var16;
-            var16 = copyDataProperties(var27, var26);
+            var28 = var12;
+            var27 = var22;
+            var22 = copyDataProperties(var28, var27);
+            var28 = var12;
+            var27 = var16;
+            var16 = copyDataProperties(var28, var27);
             var16 = 'ref';
             var12[15] = var21;
             var16 = 'manualRef';
@@ -190,13 +235,13 @@ case 4:
             var16 = 'disableRecyclingOnFullCompute';
             var12[15] = var17;
             var16 = undefined;
-            if(!var15) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var15) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var15 = {};
             var17 = 'visible';
             var15['overflow'] = var17;
             var16 = var15;
-case 6:
+case 8:
             var15 = 'style';
             var12[14] = var16;
             var16 = 'guilds-bar-fast-list';
@@ -204,10 +249,10 @@ case 6:
             var12[14] = var16;
             var12 = var14.bind(var4)(var13, var12);
             var10[1] = var12;
-            var13 = _closure1_slot5;
+            var13 = _closure1_slot6;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var11 = 14;
+            var11 = 15;
             var11 = var14[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
@@ -223,7 +268,7 @@ case 6:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

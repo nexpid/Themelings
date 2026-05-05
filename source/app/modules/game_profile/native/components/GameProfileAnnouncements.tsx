@@ -424,7 +424,7 @@ case 0:
             var1 = arg1;
             var8 = var1.gameId;
             var _closure2_slot0 = var8;
-            var12 = var1.officialInvite;
+            var12 = var1.invite;
             var _closure2_slot1 = var12;
             var13 = var1.closeModal;
             var _closure2_slot2 = var13;

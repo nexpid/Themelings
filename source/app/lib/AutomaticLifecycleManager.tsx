@@ -143,33 +143,33 @@ case 2:
         var6 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var1 = this;
-                var2 = var1.initializedCount;
-                var3 = 0;
-                if(!(!(var2 <= var3))) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-                var2 = arg1;
-                if(var2) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                var2 = var1.initializedCount;
-                var2 = var2 - 1;
-                var1['initializedCount'] = var2;
-                _fun0003_ip = 16; continue _fun0003;
+                var2 = this;
+                var3 = var2.initializedCount;
+                var4 = 0;
+                if(!(!(var3 <= var4))) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-                var1['initializedCount'] = var3;
+                var3 = arg1;
+                if(var3) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
-                var2 = var1.initializedCount;
-                if(!(var3 === var2)) { _fun0003_ip = 12; continue _fun0003 }
+                var3 = var2.initializedCount;
+                var3 = var3 - 1;
+                var2['initializedCount'] = var3;
+                _fun0003_ip = 17; continue _fun0003;
+case 15:
+                var2['initializedCount'] = var4;
 case 17:
-                var2 = var1._terminate;
-                var2 = var2.bind(var1)();
-                var2 = global;
-                var3 = var2.Object;
-                var2 = var3.entries;
-                var1 = var1.actions;
-                var3 = var2.bind(var3)(var1);
-                var2 = var3.forEach;
-                var1 = function(arg1) {
+                var3 = var2.initializedCount;
+                if(!(var4 === var3)) { _fun0003_ip = 13; continue _fun0003 }
+case 18:
+                var3 = var2._terminate;
+                var3 = var3.bind(var2)();
+                var3 = global;
+                var5 = var3.Object;
+                var4 = var5.entries;
+                var3 = var2.actions;
+                var5 = var4.bind(var5)(var3);
+                var4 = var5.forEach;
+                var3 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var4 = arg1;
@@ -218,8 +218,19 @@ case 11:
                         return var1;
                     }
                 };
+                var3 = var4.bind(var5)(var3);
+                var3 = var2.stores;
+                var2 = var3.forEach;
+                var1 = function(arg1, arg2) {
+                    var3 = arg2;
+                    var2 = var3.removeChangeListener;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
+                };
                 var1 = var2.bind(var3)(var1);
-case 12:
+case 13:
                 var1 = undefined;
                 return var1;
             }

@@ -1003,6 +1003,13 @@ case 56:
     var5['resolve'] = var7;
     var4['CHAT_INPUT_ACTION_BUTTON_MARGIN'] = var5;
     var5 = {};
+    var7 = function resolve() {
+        var1 = 44;
+        return var1;
+    };
+    var5['resolve'] = var7;
+    var4['CHAT_INPUT_ACTION_BUTTON_MIN_TOUCH_TARGET_SIZE'] = var5;
+    var5 = {};
     var7 = function resolve(arg1) {
         _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:

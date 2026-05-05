@@ -175,7 +175,7 @@ case 35:
                 var7 = 10;
                 var7 = var15[var7];
                 var9 = var9.bind(var5)(var7);
-                var7 = {'style': null, 'numberOfLines': 1, 'maxFontSizeMultiplier': 1};
+                var7 = {'style': null, 'numberOfLines': 1, 'allowFontScaling': false};
                 var17 = var11.badgeText;
                 var13 = new Array(2);
                 var13[0] = var17;
@@ -239,7 +239,7 @@ case 30:
         var5 = 3;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
-        var15 = var5.Fonts;
+        var16 = var5.Fonts;
         var5 = 4;
         var5 = var7[var5];
         var8 = var6.bind(var1)(var5);
@@ -248,8 +248,8 @@ case 30:
         var5 = var8.BADGE_MASK_UNREAD_SIZE;
         var _closure1_slot7 = var5;
         var5 = var8.BADGE_PADDING;
-        var16 = var8.BADGE_SIZE;
-        var _closure1_slot8 = var16;
+        var14 = var8.BADGE_SIZE;
+        var _closure1_slot8 = var14;
         var8 = var8.BADGE_SIZE_UNREAD;
         var _closure1_slot9 = var8;
         var8 = 5;
@@ -263,12 +263,12 @@ case 30:
         var9 = var10.createStyles;
         var8 = {};
         var11 = {};
-        var14 = 'absolute';
-        var11['position'] = var14;
-        var14 = -var5;
-        var11['bottom'] = var14;
-        var14 = -var5;
-        var11['right'] = var14;
+        var15 = 'absolute';
+        var11['position'] = var15;
+        var15 = -var5;
+        var11['bottom'] = var15;
+        var15 = -var5;
+        var11['right'] = var15;
         var11['padding'] = var5;
         var11['zIndex'] = var12;
         var8['badgeMask'] = var11;
@@ -276,16 +276,16 @@ case 30:
         var11['paddingLeft'] = var5;
         var11['paddingRight'] = var5;
         var12 = 7;
-        var14 = var7[var12];
-        var14 = var13.bind(var1)(var14);
-        var14 = var14.spacing;
-        var14 = var14.PX_8;
-        var11['borderRadius'] = var14;
-        var14 = 'center';
+        var15 = var7[var12];
+        var15 = var13.bind(var1)(var15);
+        var15 = var15.spacing;
+        var15 = var15.PX_8;
+        var11['borderRadius'] = var15;
+        var15 = 'center';
         var8['badge'] = var11;
         var11 = {};
         var5 = var17 * var5;
-        var5 = var16 - var5;
+        var5 = var14 - var5;
         var11['minWidth'] = var5;
         var5 = var7[var12];
         var5 = var13.bind(var1)(var5);
@@ -294,25 +294,35 @@ case 30:
         var11['color'] = var5;
         var5 = 12;
         var11['fontSize'] = var5;
-        var16 = 8;
-        var16 = var7[var16];
-        var17 = var6.bind(var1)(var16);
-        var16 = var17.isAndroid;
-        var16 = var16.bind(var17)();
-        var17 = var7[var12];
-        var17 = var13.bind(var1)(var17);
-        var17 = var17.spacing;
-        if(var16) { _fun0001_ip = 37; continue _fun0001 }
+        var14 = 8;
+        var17 = var7[var14];
+        var18 = var6.bind(var1)(var17);
+        var17 = var18.isAndroid;
+        var17 = var17.bind(var18)();
+        var18 = var7[var12];
+        var18 = var13.bind(var1)(var18);
+        var18 = var18.spacing;
+        if(var17) { _fun0001_ip = 37; continue _fun0001 }
 case 38:
-        var16 = var17.PX_16;
+        var17 = var18.PX_16;
         _fun0001_ip = 39; continue _fun0001;
 case 37:
-        var16 = var17.PX_12;
+        var17 = var18.PX_12;
 case 39:
-        var11['lineHeight'] = var16;
-        var15 = var15.PRIMARY_BOLD;
-        var11['fontFamily'] = var15;
-        var11['textAlign'] = var14;
+        var11['lineHeight'] = var17;
+        var16 = var16.PRIMARY_BOLD;
+        var11['fontFamily'] = var16;
+        var11['textAlign'] = var15;
+        var14 = var7[var14];
+        var16 = var6.bind(var1)(var14);
+        var14 = var16.isAndroid;
+        var16 = var14.bind(var16)();
+        var14 = undefined;
+        if(!var16) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
+        var14 = var15;
+case 40:
+        var11['textAlignVertical'] = var14;
         var8['badgeText'] = var11;
         var11 = {'width': 5, 'height': 5, 'borderRadius': 2.5};
         var14 = var7[var12];
@@ -376,10 +386,10 @@ case 0:
                 var14 = var2.hideCount;
                 var13 = var2.unreadIndicator;
                 var5 = undefined;
-                if(!(var13 === var5)) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+                if(!(var13 === var5)) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
                 var13 = false;
-case 40:
+case 42:
                 var _closure2_slot2 = var13;
                 var9 = var2.isMentionLowImportance;
                 var _closure2_slot3 = var5;
@@ -426,11 +436,11 @@ case 19:
                 };
                 var8 = var3.bind(var4)(var1, var2);
                 var1 = 0;
-                if(!(!(var16 > var1))) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+                if(!(!(var16 > var1))) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
                 var1 = null;
                 if(!var13) { _fun0004_ip = 29; continue _fun0004 }
-case 42:
+case 44:
                 var4 = _closure1_slot10;
                 var3 = _closure1_slot4;
                 var2 = {};
