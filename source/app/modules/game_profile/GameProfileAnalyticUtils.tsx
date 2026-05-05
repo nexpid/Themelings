@@ -225,6 +225,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['CallTile'] = var4;
     var4 = 'in_app_browser_return';
     var5['InAppBrowserReturn'] = var4;
+    var4 = 'deeplink';
+    var5['Deeplink'] = var4;
     var4 = {};
     var10 = 'full_profile';
     var4['FullProfile'] = var10;

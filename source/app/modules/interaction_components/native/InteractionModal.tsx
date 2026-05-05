@@ -146,6 +146,8 @@ case 0:
             var10['paddingBottom'] = var11;
             var9[1] = var10;
             var6['contentContainerStyle'] = var9;
+            var9 = 'handled';
+            var6['keyboardShouldPersistTaps'] = var9;
             var11 = _closure1_slot7;
             var10 = _closure1_slot3;
             var9 = {};

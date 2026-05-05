@@ -28,7 +28,7 @@ case 0:
             var1 = new Array(1);
             var1[0] = var4;
             var2['settings'] = var1;
-            var1 = new Array(7);
+            var1 = new Array(8);
             var1[0] = var2;
             var2 = {};
             var11 = _closure1_slot0;
@@ -91,6 +91,13 @@ case 2:
             var2['settings'] = var5;
             var1[2] = var2;
             var2 = {};
+            var5 = _closure1_slot7;
+            var6 = var5.FRIEND_REQUEST_NOTES;
+            var5 = new Array(1);
+            var5[0] = var6;
+            var2['settings'] = var5;
+            var1[3] = var2;
+            var2 = {};
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
             var10 = var5.intl;
@@ -129,7 +136,7 @@ case 2:
             var5['helpArticle'] = var12;
             var5 = var10.bind(var11)(var6, var5);
             var2['subLabel'] = var5;
-            var1[3] = var2;
+            var1[4] = var2;
             var2 = {};
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
@@ -168,7 +175,7 @@ case 2:
             var5['onClick'] = var12;
             var5 = var10.bind(var11)(var6, var5);
             var2['subLabel'] = var5;
-            var1[4] = var2;
+            var1[5] = var2;
             var2 = {};
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
@@ -188,7 +195,7 @@ case 2:
             var6 = var6.DISCOVERY_BY_EMAIL;
             var5[1] = var6;
             var2['settings'] = var5;
-            var1[5] = var2;
+            var1[6] = var2;
             var2 = {};
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
@@ -205,7 +212,7 @@ case 2:
             var3 = new Array(1);
             var3[0] = var4;
             var2['settings'] = var3;
-            var1[6] = var2;
+            var1[7] = var2;
             return var1;
         }
     };

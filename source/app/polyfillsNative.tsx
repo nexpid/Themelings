@@ -18,6 +18,9 @@ case 0:
         var5 = 3;
         var5 = var4[var5];
         var5 = var3.bind(var1)(var5);
+        var5 = 4;
+        var5 = var4[var5];
+        var5 = var3.bind(var1)(var5);
         var5 = global;
         var6 = var5.process;
         var7 = 'undefined';
@@ -48,7 +51,7 @@ case 6:
         var7 = var7.crypto;
         if(!(var6 == var7)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-        var7 = 4;
+        var7 = 5;
         var7 = var4[var7];
         var7 = var3.bind(var1)(var7);
         var9 = var5.window;
@@ -58,7 +61,7 @@ case 8:
         var7 = var8.Buffer;
         if(!(var6 == var7)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-        var7 = 5;
+        var7 = 6;
         var7 = var4[var7];
         var7 = var3.bind(var1)(var7);
         var7 = var7.Buffer;
@@ -98,11 +101,11 @@ case 15:
 case 14:
         if(var2) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-        var2 = 6;
+        var2 = 7;
         var2 = var4[var2];
         var2 = var3.bind(var1)(var2);
 case 16:
-        var2 = 7;
+        var2 = 8;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.fileFinishedImporting;

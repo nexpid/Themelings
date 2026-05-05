@@ -273,6 +273,9 @@ case 30:
             var9 = var4.useCallback;
             var3 = function(arg1) {
                 var1 = arg1;
+                var1 = var1.nativeEvent;
+                var1 = var1.layout;
+                var1 = var1.height;
                 var _closure3_slot0 = var1;
                 var3 = _closure2_slot11;
                 var1 = undefined;
@@ -283,10 +286,7 @@ case 0:
                         var2 = null;
                         if(!(var2 == var1)) { _fun0003_ip = 32; continue _fun0003 }
 case 33:
-                        var2 = _closure3_slot0;
-                        var2 = var2.nativeEvent;
-                        var2 = var2.layout;
-                        var1 = var2.height;
+                        var1 = _closure3_slot0;
 case 32:
                         return var1;
                     }

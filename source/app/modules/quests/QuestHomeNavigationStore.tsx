@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var1)(var2);
     var4 = var2.createZustandStore;
     var2 = function() {
-        var1 = {'sort': null, 'filter': null};
+        var1 = {'sort': null, 'filter': null, 'scrollToQuestId': null};
         return var1;
     };
     var2 = var4.bind(var1)(var2);

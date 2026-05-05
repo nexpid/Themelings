@@ -1772,7 +1772,7 @@ case 93:
             var1 = 45;
             var1 = var13[var1];
             var13 = var11.bind(var7)(var1);
-            var11 = var13.useSubscriptionInvoicePreview;
+            var11 = var13.useFetchSubscriptionInvoicePreview;
             if(!(var6 == var17)) { _fun0017_ip = 94; continue _fun0017 }
 case 95:
             var1 = {};

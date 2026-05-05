@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var11 = var10.BACKGROUND_BASE_LOWER;
+    var11 = var10.MOBILE_ACTIONSHEET_BACKGROUND;
     var10 = 'color';
     var9[9] = var11;
     var4['profilePreviewGradient'] = var9;

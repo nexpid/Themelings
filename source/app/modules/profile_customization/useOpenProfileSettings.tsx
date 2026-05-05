@@ -96,6 +96,23 @@ case 2:
                     var1 = var1.id;
                     var1 = var2.bind(var3)(var1);
 case 4:
+                    var3 = _closure1_slot3;
+                    var2 = var3.setState;
+                    var1 = {};
+                    var6 = _closure2_slot0;
+                    if(!(var7 == var6)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                    var6 = _closure1_slot5;
+                    var6 = var6.USER_PROFILE;
+                    _fun0002_ip = 7; continue _fun0002;
+case 5:
+                    var7 = _closure1_slot5;
+                    var6 = var7.GUILD;
+case 7:
+                    var1['subsection'] = var6;
+                    var6 = _closure2_slot1;
+                    var1['scrollPosition'] = var6;
+                    var1 = var2.bind(var3)(var1);
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 9;
@@ -103,27 +120,10 @@ case 4:
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
                     var3 = var2.openUserSettings;
-                    var8 = _closure1_slot3;
-                    var5 = var8.setState;
-                    var2 = {};
-                    var9 = _closure2_slot1;
-                    var2['scrollPosition'] = var9;
-                    var2 = var5.bind(var8)(var2);
                     var2 = {};
                     var5 = _closure1_slot4;
                     var5 = var5.PROFILE_CUSTOMIZATION;
                     var2['screen'] = var5;
-                    var5 = _closure2_slot0;
-                    if(!(var7 == var5)) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-                    var5 = _closure1_slot5;
-                    var5 = var5.USER_PROFILE;
-                    _fun0002_ip = 7; continue _fun0002;
-case 5:
-                    var6 = _closure1_slot5;
-                    var5 = var6.GUILD;
-case 7:
-                    var2['subsection'] = var5;
                     var4 = _closure2_slot2;
                     var2['analyticsLocations'] = var4;
                     var2 = var3.bind(var1)(var2);

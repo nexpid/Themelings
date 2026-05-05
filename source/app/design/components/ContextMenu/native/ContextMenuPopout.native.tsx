@@ -41,14 +41,15 @@ case 0:
                 var12 = var1.label;
                 var2 = var1.action;
                 var _closure3_slot0 = var2;
-                var14 = var1.iconSource;
-                var13 = var1.IconComponent;
+                var15 = var1.iconSource;
+                var14 = var1.IconComponent;
+                var13 = var1.trailingIndicator;
                 var6 = var1.variant;
                 var1 = var1.accessibilityRole;
                 var2 = _closure2_slot0;
                 var2 = var2.length;
-                var15 = 1;
-                var2 = var2 - var15;
+                var16 = 1;
+                var2 = var2 - var16;
                 var7 = _closure1_slot6;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -60,24 +61,25 @@ case 0:
                 var3 = {};
                 var3['index'] = var11;
                 var3['label'] = var12;
-                var16 = 0;
-                var16 = var16 === var11;
-                if(!var16) { _fun0001_ip = 2; continue _fun0001 }
+                var17 = 0;
+                var17 = var17 === var11;
+                if(!var17) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var18 = _closure2_slot1;
-                var17 = null;
-                var16 = var17 == var18;
+                var19 = _closure2_slot1;
+                var18 = null;
+                var17 = var18 == var19;
 case 2:
-                var3['start'] = var16;
+                var3['start'] = var17;
                 var2 = var11 === var2;
                 var3['end'] = var2;
                 var2 = _closure2_slot4;
-                var16 = var2.includes;
-                var15 = var11 + var15;
-                var15 = var16.bind(var2)(var15);
-                var3['lastInSection'] = var15;
-                var3['iconSource'] = var14;
-                var3['IconComponent'] = var13;
+                var17 = var2.includes;
+                var16 = var11 + var16;
+                var16 = var17.bind(var2)(var16);
+                var3['lastInSection'] = var16;
+                var3['iconSource'] = var15;
+                var3['IconComponent'] = var14;
+                var3['trailingIndicator'] = var13;
                 var10 = _closure2_slot2;
                 var3['state'] = var10;
                 var9 = function onPress(arg1) {

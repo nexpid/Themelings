@@ -16,6 +16,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BATTLENET'] = var1;
     var1 = 'origin';
     var2['ORIGIN'] = var1;
+    var1 = 'eaplay';
+    var2['EAPLAY'] = var1;
     var1 = 'gog';
     var2['GOG'] = var1;
     var1 = 'glyph';

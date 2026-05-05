@@ -1312,6 +1312,16 @@ case 32:
             return var1;
         };
         var2['QUESTS'] = var15;
+        var15 = function GAME_PROFILE(arg1) {
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var2 = '/games/';
+            var1 = arg1;
+            var1 = var3.bind(var2)(var1);
+            return var1;
+        };
+        var2['GAME_PROFILE'] = var15;
         var15 = function ACCOUNT_REVERT(arg1) {
             var1 = global;
             var1 = var1.HermesInternal;

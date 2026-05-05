@@ -1464,7 +1464,7 @@ case 0:
             var1 = 59;
             var1 = var9[var1];
             var3 = var2.bind(var5)(var1);
-            var2 = var3.useSubscriptionInvoicePreview;
+            var2 = var3.useFetchSubscriptionInvoicePreview;
             var1 = {};
             var10 = var16.id;
             var1['subscriptionId'] = var10;

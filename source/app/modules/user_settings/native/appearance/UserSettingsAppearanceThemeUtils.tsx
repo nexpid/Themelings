@@ -1,12 +1,12 @@
 // app/modules/user_settings/native/appearance/UserSettingsAppearanceThemeUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var8 = require;
+    var6 = require;
     var3 = exports;
-    var9 = dependencyMap;
-    var _closure1_slot0 = var8;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var9;
+    var _closure1_slot2 = var7;
     var1 = function getThemeNameForAnalytics(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -54,34 +54,34 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot8 = var1;
     var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = var5.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var4 = var9[var1];
+    var4 = var7[var1];
     var1 = undefined;
-    var4 = var8.bind(var1)(var4);
+    var4 = var6.bind(var1)(var4);
     var5 = var4.AnalyticEvents;
     var _closure1_slot3 = var5;
     var4 = var4.ThemeTypes;
     var _closure1_slot4 = var4;
     var4 = 1;
-    var4 = var9[var4];
-    var4 = var8.bind(var1)(var4);
-    var11 = var4.BACKGROUND_GRADIENT_PRESETS_MOBILE;
-    var4 = var4.LEGACY_STANDARD_BACKGROUND_THEMES;
-    var5 = 2;
-    var5 = var9[var5];
-    var5 = var8.bind(var1)(var5);
-    var5 = var5.AnalyticsPremiumFeatureNames;
-    var _closure1_slot5 = var5;
-    var6 = function trackClientThemeUpdated(arg1) {
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.BACKGROUND_GRADIENT_PRESETS_MOBILE;
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.AnalyticsPremiumFeatureNames;
+    var _closure1_slot6 = var4;
+    var4 = function trackClientThemeUpdated(arg1) {
         var1 = arg1;
         var8 = var1.isPersisted;
         var7 = var1.isSynced;
@@ -97,7 +97,7 @@ case 2:
         var2 = _closure1_slot3;
         var3 = var2.CLIENT_THEME_UPDATED;
         var2 = {};
-        var10 = _closure1_slot5;
+        var10 = _closure1_slot6;
         var10 = var10.CLIENT_THEME;
         var2['feature_name'] = var10;
         var2['theme_name'] = var9;
@@ -107,43 +107,24 @@ case 2:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot6 = var6;
-    var5 = var4.length;
-    var _closure1_slot7 = var5;
-    var10 = var11.reduce;
-    var7 = function(arg1, arg2, arg3) {
-        var1 = {};
-        var5 = arg1;
-        var6 = var1;
-        var2 = copyDataProperties(var6, var5);
-        var2 = arg2;
-        var3 = var2.id;
-        var4 = _closure1_slot7;
-        var2 = arg3;
-        var2 = var2 + var4;
-        var1[2] = var2;
-        return var1;
-    };
-    var4 = {};
-    var4 = var10.bind(var11)(var7, var4);
-    var _closure1_slot8 = var4;
-    var7 = 10;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'modules/user_settings/native/appearance/UserSettingsAppearanceThemeUtils.tsx';
-    var7 = var8.bind(var9)(var7);
-    var7 = function(arg1, arg2, arg3) {
+    var _closure1_slot7 = var4;
+    var5 = 10;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/user_settings/native/appearance/UserSettingsAppearanceThemeUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var1 = {};
             var4 = true;
             var1['isPersisted'] = var4;
             var4 = arg3;
             var1['isSynced'] = var4;
-            var6 = _closure1_slot9;
+            var6 = _closure1_slot8;
             var4 = undefined;
             var6 = var6.bind(var4)(var5);
             var1['themeName'] = var6;
@@ -285,17 +266,16 @@ case 18:
             return var1;
         }
     };
-    var3['handleSaveTheme'] = var7;
-    var3['trackClientThemeUpdated'] = var6;
-    var3['STANDARD_BACKGROUND_THEME_BUFFER'] = var5;
-    var3['PRESET_ID_TO_CAROUSEL_INDEX_MAP'] = var4;
+    var3['handleSaveTheme'] = var5;
+    var3['trackClientThemeUpdated'] = var4;
     var2 = function(arg1, arg2, arg3, arg4, arg5) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var1 = arg1;
-            var7 = arg3;
-            var8 = arg4;
-            var3 = var7.findIndex;
+            var3 = arg1;
+            var4 = arg3;
+            var5 = arg4;
+            var _closure2_slot0 = var3;
+            var6 = var4.findIndex;
             var2 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.type;
@@ -310,17 +290,15 @@ case 0:
                 var1 = var2 === var1;
                 return var1;
             };
-            var3 = var3.bind(var7)(var2);
-            var2 = 0;
-            var3 = var3 >= var2;
-            var4 = null;
-            if(!(var4 == var1)) { _fun0003_ip = 19; continue _fun0003 }
+            var6 = var6.bind(var4)(var2);
+            var2 = null;
+            if(!(var2 == var3)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
-            var4 = arg5;
-            if(!var4) { _fun0003_ip = 21; continue _fun0003 }
+            var2 = arg5;
+            if(!var2) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-            var6 = var7.findIndex;
-            var4 = function(arg1) {
+            var3 = var4.findIndex;
+            var2 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.type;
                 var4 = _closure1_slot0;
@@ -334,44 +312,74 @@ case 22:
                 var1 = var2 === var1;
                 return var1;
             };
-            var4 = var6.bind(var7)(var4);
-            if(var3) { _fun0003_ip = 10; continue _fun0003 }
+            var2 = var3.bind(var4)(var2);
+            var3 = 0;
+            if(!(!(var6 >= var3))) { _fun0003_ip = 23; continue _fun0003 }
 case 21:
-            var6 = 'system';
-            var9 = arg2;
-            if(var9) { _fun0003_ip = 23; continue _fun0003 }
+            var3 = 'system';
+            var6 = arg2;
+            if(var6) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
+            var3 = var5;
 case 24:
-            var6 = var8;
-case 23:
-            var _closure2_slot0 = var6;
-            var6 = var7.findIndex;
-            var5 = function(arg1) {
+            var _closure2_slot1 = var3;
+            var5 = var4.findIndex;
+            var3 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.theme;
-                var1 = _closure2_slot0;
+                var1 = _closure2_slot1;
                 var1 = var2 === var1;
                 return var1;
             };
-            var6 = var6.bind(var7)(var5);
-            var7 = var6 >= var2;
-            var5 = 0;
-            if(!var7) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-            var5 = var6;
-case 25:
-            return var5;
-case 10:
-            return var4;
-case 19:
-            var4 = _closure1_slot8;
-            var1 = var1.id;
-            var1 = var4[var1];
-            var2 = 0;
-            if(!var3) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-            var2 = 1;
+            var5 = var5.bind(var4)(var3);
+            var3 = 0;
+            var6 = var5 >= var3;
+            if(!var6) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
-            var1 = var1 + var2;
+            var3 = var5;
+case 26:
+            return var3;
+case 23:
+            return var2;
+case 19:
+            var3 = var4.findIndex;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.type;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 3;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var1 = var1.ClientThemeType;
+                var1 = var1.BACKGROUND_GRADIENT_PRESET;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var3 = var3.bind(var4)(var2);
+            var4 = _closure1_slot5;
+            var2 = var4.findIndex;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var2 = var2.bind(var4)(var1);
+            var5 = 0;
+            var4 = var3 >= var5;
+            var1 = 0;
+            if(!var4) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
+            var4 = var2 >= var5;
+            var1 = 0;
+            if(!var4) { _fun0003_ip = 28; continue _fun0003 }
+case 30:
+            var1 = var3 + var2;
+case 28:
             return var1;
         }
     };

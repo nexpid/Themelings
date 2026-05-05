@@ -13,11 +13,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['value'] = var1;
     var1 = '__esModule';
     var1 = var4.bind(var5)(var3, var1, var2);
-    var17 = 0;
-    var2 = var14[var17];
+    var15 = 0;
+    var2 = var14[var15];
     var1 = undefined;
     var2 = var13.bind(var1)(var2);
-    var15 = var2.ThemeTypes;
+    var17 = var2.ThemeTypes;
     var2 = {};
     var16 = 1;
     var4 = var14[var16];
@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.BackgroundGradientPresetId;
     var4 = var4.MINT_APPLE;
     var2['id'] = var4;
-    var4 = var15.LIGHT;
+    var4 = var17.LIGHT;
     var2['theme'] = var4;
     var4 = new Array(3);
     var5 = {'token': 'BG_GRADIENT_MINT_APPLE_1', 'stop': 6.15};
@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.BackgroundGradientPresetId;
     var4 = var4.CITRUS_SHERBERT;
     var2['id'] = var4;
-    var4 = var15.LIGHT;
+    var4 = var17.LIGHT;
     var2['theme'] = var4;
     var4 = new Array(2);
     var7 = {'token': 'BG_GRADIENT_CITRUS_SHERBERT_1', 'stop': 31.1};
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.BackgroundGradientPresetId;
     var4 = var4.RETRO_RAINCLOUD;
     var2['id'] = var4;
-    var4 = var15.LIGHT;
+    var4 = var17.LIGHT;
     var2['theme'] = var4;
     var4 = new Array(4);
     var7 = {'token': 'BG_GRADIENT_RETRO_RAINCLOUD_1', 'stop': 5.64};
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.BackgroundGradientPresetId;
     var7 = var7.HANAMI;
     var2['id'] = var7;
-    var7 = var15.LIGHT;
+    var7 = var17.LIGHT;
     var2['theme'] = var7;
     var7 = new Array(3);
     var10 = {'token': 'BG_GRADIENT_HANAMI_1', 'stop': 3.56};
@@ -201,7 +201,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.BackgroundGradientPresetId;
     var7 = var7.SUNRISE;
     var2['id'] = var7;
-    var7 = var15.LIGHT;
+    var7 = var17.LIGHT;
     var2['theme'] = var7;
     var7 = new Array(3);
     var10 = {'token': 'BG_GRADIENT_SUNRISE_1', 'stop': 8.62};
@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.BackgroundGradientPresetId;
     var7 = var7.COTTON_CANDY;
     var2['id'] = var7;
-    var7 = var15.LIGHT;
+    var7 = var17.LIGHT;
     var2['theme'] = var7;
     var7 = new Array(2);
     var10 = {'token': 'BG_GRADIENT_COTTON_CANDY_1', 'stop': 8.5};
@@ -283,7 +283,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.BackgroundGradientPresetId;
     var7 = var7.LOFI_VIBES;
     var2['id'] = var7;
-    var7 = var15.LIGHT;
+    var7 = var17.LIGHT;
     var2['theme'] = var7;
     var7 = new Array(4);
     var10 = {'token': 'BG_GRADIENT_LOFI_VIBES_1', 'stop': 7.08};
@@ -327,7 +327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.BackgroundGradientPresetId;
     var5 = var5.DESERT_KHAKI;
     var2['id'] = var5;
-    var5 = var15.LIGHT;
+    var5 = var17.LIGHT;
     var2['theme'] = var5;
     var5 = new Array(3);
     var7 = {'token': 'BG_GRADIENT_DESERT_KHAKI_1', 'stop': 12.92};
@@ -358,7 +358,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['getName'] = var5;
     var2['midpointPercentage'] = var8;
     var11[7] = var2;
-    var5 = var15.DARKER;
+    var5 = var17.DARKER;
     var2 = {};
     var7 = var14[var16];
     var7 = var13.bind(var1)(var7);
@@ -948,7 +948,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var2.BackgroundGradientPresetId;
     var2 = var2.EASTER_EGG;
     var7['id'] = var2;
-    var2 = var15.LIGHT;
+    var2 = var17.LIGHT;
     var7['theme'] = var2;
     var2 = 4;
     var18 = new Array(2);
@@ -999,9 +999,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8[3] = var7;
     var4 = var4 + var16;
     var7 = {};
-    var7['DARK'] = var17;
+    var7['DARK'] = var15;
     var4 = 'DARK';
-    var7[var17] = var4;
+    var7[var15] = var4;
     var7['LIGHT'] = var16;
     var4 = 'LIGHT';
     var7[var16] = var4;
@@ -1040,7 +1040,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.ClientThemeType;
     var5 = var5.STANDARD_BACKGROUND_THEME;
     var4['type'] = var5;
-    var5 = var15.LIGHT;
+    var5 = var17.LIGHT;
     var4['theme'] = var5;
     var5 = function getName() {
         var5 = _closure1_slot0;
@@ -1066,7 +1066,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.ClientThemeType;
     var5 = var5.STANDARD_BACKGROUND_THEME;
     var4['type'] = var5;
-    var5 = var15.MIDNIGHT;
+    var5 = var17.MIDNIGHT;
     var4['theme'] = var5;
     var5 = function getName() {
         var5 = _closure1_slot0;
@@ -1092,8 +1092,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.ClientThemeType;
     var5 = var5.STANDARD_BACKGROUND_THEME;
     var4['type'] = var5;
-    var5 = 'system';
-    var4['theme'] = var5;
+    var15 = 'system';
+    var4['theme'] = var15;
     var5 = function getName() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
@@ -1118,7 +1118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.ClientThemeType;
     var5 = var5.STANDARD_BACKGROUND_THEME;
     var4['type'] = var5;
-    var5 = var15.LIGHT;
+    var5 = var17.LIGHT;
     var4['theme'] = var5;
     var5 = function getName() {
         var5 = _closure1_slot0;
@@ -1137,17 +1137,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['getName'] = var5;
-    var5 = new Array(4);
+    var5 = new Array(5);
     var5[0] = var4;
     var4 = {};
-    var17 = var14[var16];
-    var17 = var13.bind(var1)(var17);
-    var17 = var17.ClientThemeType;
-    var17 = var17.STANDARD_BACKGROUND_THEME;
-    var4['type'] = var17;
-    var17 = var15.DARK;
-    var4['theme'] = var17;
-    var17 = function getName() {
+    var18 = var14[var16];
+    var18 = var13.bind(var1)(var18);
+    var18 = var18.ClientThemeType;
+    var18 = var18.STANDARD_BACKGROUND_THEME;
+    var4['type'] = var18;
+    var18 = var17.DARK;
+    var4['theme'] = var18;
+    var18 = function getName() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 3;
@@ -1163,17 +1163,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['getName'] = var17;
+    var4['getName'] = var18;
     var5[1] = var4;
     var4 = {};
-    var17 = var14[var16];
-    var17 = var13.bind(var1)(var17);
-    var17 = var17.ClientThemeType;
-    var17 = var17.STANDARD_BACKGROUND_THEME;
-    var4['type'] = var17;
-    var17 = var15.DARKER;
-    var4['theme'] = var17;
-    var17 = function getName() {
+    var18 = var14[var16];
+    var18 = var13.bind(var1)(var18);
+    var18 = var18.ClientThemeType;
+    var18 = var18.STANDARD_BACKGROUND_THEME;
+    var4['type'] = var18;
+    var18 = var17.DARKER;
+    var4['theme'] = var18;
+    var18 = function getName() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 3;
@@ -1189,17 +1189,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['getName'] = var17;
+    var4['getName'] = var18;
     var5[2] = var4;
     var4 = {};
-    var16 = var14[var16];
-    var16 = var13.bind(var1)(var16);
-    var16 = var16.ClientThemeType;
-    var16 = var16.STANDARD_BACKGROUND_THEME;
-    var4['type'] = var16;
-    var15 = var15.MIDNIGHT;
-    var4['theme'] = var15;
-    var12 = function getName() {
+    var18 = var14[var16];
+    var18 = var13.bind(var1)(var18);
+    var18 = var18.ClientThemeType;
+    var18 = var18.STANDARD_BACKGROUND_THEME;
+    var4['type'] = var18;
+    var17 = var17.MIDNIGHT;
+    var4['theme'] = var17;
+    var17 = function getName() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 3;
@@ -1215,8 +1215,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['getName'] = var12;
+    var4['getName'] = var17;
     var5[3] = var4;
+    var4 = {};
+    var16 = var14[var16];
+    var16 = var13.bind(var1)(var16);
+    var16 = var16.ClientThemeType;
+    var16 = var16.STANDARD_BACKGROUND_THEME;
+    var4['type'] = var16;
+    var4['theme'] = var15;
+    var12 = function getName() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.zlvNOj;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var4['getName'] = var12;
+    var5[4] = var4;
     var2 = var14[var2];
     var12 = var13.bind(var1)(var2);
     var4 = var12.keyBy;

@@ -1449,13 +1449,13 @@ case 97:
                         var8 = _closure2_slot2;
                         var8 = var9 == var8;
                         var5 = undefined;
-                        if(var8) { _fun0014_ip = 99; continue _fun0014 }
+                        if(var8) { _fun0014_ip = 81; continue _fun0014 }
 case 17:
                         var7 = _closure2_slot2;
                         var7 = var7.message;
                         var7 = var7.author;
                         var5 = var7.id;
-case 99:
+case 81:
                         var5 = var6 === var5;
                         var1['is_own_message'] = var5;
                         var1 = var3.bind(var4)(var2, var1);
@@ -1470,7 +1470,7 @@ case 93:
 case 0:
                         var3 = _closure2_slot2;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0015_ip = 100; continue _fun0015 }
+                        if(!(var2 != var3)) { _fun0015_ip = 99; continue _fun0015 }
 case 75:
                         var5 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -1491,7 +1491,7 @@ case 75:
                         var1 = var1.id;
                         var1 = var6.bind(var7)(var5, var4, var1);
                         var1 = var2.bind(var3)(var1);
-case 100:
+case 99:
                         var1 = undefined;
                         return var1;
                     }
@@ -1502,7 +1502,7 @@ case 100:
 case 0:
                         var3 = _closure2_slot2;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0016_ip = 101; continue _fun0016 }
+                        if(!(var2 != var3)) { _fun0016_ip = 100; continue _fun0016 }
 case 75:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -1517,7 +1517,7 @@ case 75:
                         var1 = var1.shouldMention;
                         var1 = !var1;
                         var1 = var3.bind(var4)(var2, var1);
-case 101:
+case 100:
                         var1 = undefined;
                         return var1;
                     }
@@ -1540,10 +1540,10 @@ case 101:
             var6 = null;
             var5 = var6 == var8;
             var1 = undefined;
-            if(var5) { _fun0012_ip = 102; continue _fun0012 }
+            if(var5) { _fun0012_ip = 101; continue _fun0012 }
 case 18:
             var1 = var8.message;
-case 102:
+case 101:
             var9 = var2.bind(var3)(var1);
             var3 = _closure1_slot11;
             var2 = _closure1_slot0;
@@ -1556,12 +1556,12 @@ case 102:
             var5 = _closure1_slot5;
             var1['component'] = var5;
             var11 = var6 != var8;
-            if(!var11) { _fun0012_ip = 103; continue _fun0012 }
-case 104:
-            var11 = var6 != var9;
+            if(!var11) { _fun0012_ip = 102; continue _fun0012 }
 case 103:
-            if(!var11) { _fun0012_ip = 105; continue _fun0012 }
-case 106:
+            var11 = var6 != var9;
+case 102:
+            if(!var11) { _fun0012_ip = 104; continue _fun0012 }
+case 105:
             var14 = _closure1_slot10;
             var13 = _closure1_slot18;
             var5 = {};
@@ -1575,16 +1575,16 @@ case 106:
             var15 = var14.bind(var4)(var17, var15);
             var5['children'] = var15;
             var11 = var14.bind(var4)(var13, var5);
-case 105:
+case 104:
             var5 = new Array(3);
             var5[0] = var11;
             var8 = var6 != var8;
-            if(!var8) { _fun0012_ip = 107; continue _fun0012 }
-case 108:
-            var8 = var6 == var9;
+            if(!var8) { _fun0012_ip = 106; continue _fun0012 }
 case 107:
-            if(!var8) { _fun0012_ip = 109; continue _fun0012 }
-case 110:
+            var8 = var6 == var9;
+case 106:
+            if(!var8) { _fun0012_ip = 108; continue _fun0012 }
+case 109:
             var13 = _closure1_slot10;
             var11 = _closure1_slot18;
             var9 = {};
@@ -1594,11 +1594,11 @@ case 110:
             var14 = var13.bind(var4)(var15, var14);
             var9['children'] = var14;
             var8 = var13.bind(var4)(var11, var9);
-case 109:
+case 108:
             var5[1] = var8;
             var6 = var6 != var7;
-            if(!var6) { _fun0012_ip = 111; continue _fun0012 }
-case 112:
+            if(!var6) { _fun0012_ip = 110; continue _fun0012 }
+case 111:
             var9 = _closure1_slot10;
             var8 = _closure1_slot18;
             var7 = {};
@@ -1608,7 +1608,7 @@ case 112:
             var10 = var9.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 111:
+case 110:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -1,13 +1,13 @@
 // app/modules/premium/PremiumSubscriptionInvoice.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var9 = require;
-    var11 = metroImportDefault;
+    var10 = require;
+    var12 = metroImportDefault;
     var3 = exports;
-    var10 = dependencyMap;
-    var _closure1_slot0 = var9;
-    var _closure1_slot1 = var11;
-    var _closure1_slot2 = var10;
-    var7 = function createSubscriptionInvoicePreview() {
+    var11 = dependencyMap;
+    var _closure1_slot0 = var10;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var11;
+    var8 = function createSubscriptionInvoicePreview() {
         var1 = undefined;
         var4 = _closure1_slot14;
         var3 = var4.apply;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var7;
+    var _closure1_slot13 = var8;
     var1 = function _createSubscriptionInvoicePreview() {
         var5 = undefined;
         var1 = undefined;
@@ -189,7 +189,7 @@ case 2:
         return var1;
     };
     var _closure1_slot14 = var1;
-    var6 = function updateSubscriptionInvoicePreview() {
+    var7 = function updateSubscriptionInvoicePreview() {
         var1 = undefined;
         var4 = _closure1_slot16;
         var3 = var4.apply;
@@ -199,7 +199,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot15 = var6;
+    var _closure1_slot15 = var7;
     var1 = function _updateSubscriptionInvoicePreview() {
         var5 = undefined;
         var1 = undefined;
@@ -389,7 +389,7 @@ case 20:
         return var1;
     };
     var _closure1_slot16 = var1;
-    var5 = function createOneTimePurchaseInvoicePreview() {
+    var6 = function createOneTimePurchaseInvoicePreview() {
         var1 = undefined;
         var4 = _closure1_slot18;
         var3 = var4.apply;
@@ -399,7 +399,7 @@ case 20:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot17 = var5;
+    var _closure1_slot17 = var6;
     var1 = function _createOneTimePurchaseInvoicePreview() {
         var5 = undefined;
         var1 = undefined;
@@ -508,7 +508,7 @@ case 41:
         return var1;
     };
     var _closure1_slot18 = var1;
-    var4 = function getSubscriptionInvoice() {
+    var5 = function getSubscriptionInvoice() {
         var1 = undefined;
         var4 = _closure1_slot20;
         var3 = var4.apply;
@@ -518,7 +518,7 @@ case 41:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot19 = var4;
+    var _closure1_slot19 = var5;
     var1 = function _getSubscriptionInvoice() {
         var5 = undefined;
         var1 = undefined;
@@ -594,7 +594,7 @@ case 53:
         return var1;
     };
     var _closure1_slot20 = var1;
-    var1 = function useGenericSubscriptionInvoicePreview(arg1, arg2) {
+    var4 = function useFetchGenericInvoicePreview(arg1, arg2, arg3) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var7 = arg2;
@@ -628,9 +628,11 @@ case 64:
             var5 = var5[var9];
             _closure2_slot3 = var5;
             var5 = _closure1_slot8;
-            var4 = new Array(2);
+            var4 = new Array(3);
             var4[0] = var8;
             var4[1] = var7;
+            var7 = arg3;
+            var4[2] = var7;
             var1 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -733,61 +735,62 @@ case 76:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot21 = var4;
     var1 = ['subscriptionId'];
     var _closure1_slot3 = var1;
     var1 = global;
-    var13 = var1.Object;
-    var12 = var13.defineProperty;
-    var8 = {};
+    var14 = var1.Object;
+    var13 = var14.defineProperty;
+    var9 = {};
     var1 = true;
-    var8['value'] = var1;
+    var9['value'] = var1;
     var1 = '__esModule';
-    var1 = var12.bind(var13)(var3, var1, var8);
+    var1 = var13.bind(var14)(var3, var1, var9);
     var1 = 0;
-    var8 = var10[var1];
+    var9 = var11[var1];
     var1 = undefined;
-    var8 = var11.bind(var1)(var8);
-    var _closure1_slot4 = var8;
-    var8 = 1;
-    var8 = var10[var8];
-    var8 = var11.bind(var1)(var8);
-    var _closure1_slot5 = var8;
-    var8 = 2;
-    var8 = var10[var8];
-    var8 = var11.bind(var1)(var8);
-    var _closure1_slot6 = var8;
-    var8 = 3;
-    var8 = var10[var8];
-    var8 = var9.bind(var1)(var8);
-    var12 = var8.useCallback;
-    var _closure1_slot7 = var12;
-    var12 = var8.useEffect;
-    var _closure1_slot8 = var12;
-    var12 = var8.useState;
-    var _closure1_slot9 = var12;
-    var8 = var8.useRef;
-    var _closure1_slot10 = var8;
-    var8 = 4;
-    var8 = var10[var8];
-    var8 = var11.bind(var1)(var8);
-    var _closure1_slot11 = var8;
-    var8 = 5;
-    var8 = var10[var8];
-    var8 = var9.bind(var1)(var8);
-    var8 = var8.Endpoints;
-    var _closure1_slot12 = var8;
-    var8 = 12;
-    var8 = var10[var8];
-    var10 = var9.bind(var1)(var8);
-    var9 = var10.fileFinishedImporting;
-    var8 = 'modules/premium/PremiumSubscriptionInvoice.tsx';
-    var8 = var9.bind(var10)(var8);
-    var3['createSubscriptionInvoicePreview'] = var7;
-    var3['updateSubscriptionInvoicePreview'] = var6;
-    var3['createOneTimePurchaseInvoicePreview'] = var5;
-    var3['getSubscriptionInvoice'] = var4;
-    var4 = function useOneTimePurchaseInvoicePreview(arg1) {
+    var9 = var12.bind(var1)(var9);
+    var _closure1_slot4 = var9;
+    var9 = 1;
+    var9 = var11[var9];
+    var9 = var12.bind(var1)(var9);
+    var _closure1_slot5 = var9;
+    var9 = 2;
+    var9 = var11[var9];
+    var9 = var12.bind(var1)(var9);
+    var _closure1_slot6 = var9;
+    var9 = 3;
+    var9 = var11[var9];
+    var9 = var10.bind(var1)(var9);
+    var13 = var9.useCallback;
+    var _closure1_slot7 = var13;
+    var13 = var9.useEffect;
+    var _closure1_slot8 = var13;
+    var13 = var9.useState;
+    var _closure1_slot9 = var13;
+    var9 = var9.useRef;
+    var _closure1_slot10 = var9;
+    var9 = 4;
+    var9 = var11[var9];
+    var9 = var12.bind(var1)(var9);
+    var _closure1_slot11 = var9;
+    var9 = 5;
+    var9 = var11[var9];
+    var9 = var10.bind(var1)(var9);
+    var9 = var9.Endpoints;
+    var _closure1_slot12 = var9;
+    var9 = 12;
+    var9 = var11[var9];
+    var11 = var10.bind(var1)(var9);
+    var10 = var11.fileFinishedImporting;
+    var9 = 'modules/premium/PremiumSubscriptionInvoice.tsx';
+    var9 = var10.bind(var11)(var9);
+    var3['createSubscriptionInvoicePreview'] = var8;
+    var3['updateSubscriptionInvoicePreview'] = var7;
+    var3['createOneTimePurchaseInvoicePreview'] = var6;
+    var3['getSubscriptionInvoice'] = var5;
+    var3['useFetchGenericInvoicePreview'] = var4;
+    var4 = function useFetchSubscriptionGiftInvoicePreview(arg1) {
         var4 = arg1;
         var _closure2_slot0 = var4;
         var5 = _closure1_slot10;
@@ -823,8 +826,8 @@ case 76:
         var1 = var1.bind(var3)(var4, var2);
         return var1;
     };
-    var3['useOneTimePurchaseInvoicePreview'] = var4;
-    var4 = function useSubscriptionInvoicePreview(arg1) {
+    var3['useFetchSubscriptionGiftInvoicePreview'] = var4;
+    var4 = function useFetchSubscriptionInvoicePreview(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var6 = arg1;
@@ -900,7 +903,7 @@ case 82:
             return var1;
         }
     };
-    var3['useSubscriptionInvoicePreview'] = var4;
+    var3['useFetchSubscriptionInvoicePreview'] = var4;
     var4 = function useGetSubscriptionInvoice(arg1) {
         var4 = arg1;
         var _closure2_slot0 = var4;

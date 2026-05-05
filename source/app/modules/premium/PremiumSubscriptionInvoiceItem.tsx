@@ -164,6 +164,8 @@ case 9:
         var1['quantity'] = var3;
         var3 = var2.discounts;
         var1['discounts'] = var3;
+        var3 = var2.unit_price;
+        var1['unitPrice'] = var3;
         var3 = var2.tax;
         var1['tax'] = var3;
         var3 = var2.tax_code;

@@ -871,24 +871,24 @@ case 9:
                     var5['sort'] = var10;
                     var10 = _closure2_slot3;
                     var5['filter'] = var10;
+                    var10 = _closure2_slot0;
+                    var11 = var3 != var10;
+                    var10 = '';
+                    if(!var11) { _fun0009_ip = 95; continue _fun0009 }
+case 58:
+                    var10 = _closure2_slot0;
+case 95:
+                    var5['scrollToQuestId'] = var10;
                     var5 = var8.bind(var9)(var5);
                     var5 = {};
                     var8 = _closure1_slot10;
                     var8 = var8.QUESTS;
                     var5['screen'] = var8;
-                    var8 = _closure2_slot0;
-                    var9 = var3 != var8;
-                    var8 = '';
-                    if(!var9) { _fun0009_ip = 95; continue _fun0009 }
-case 96:
-                    var8 = _closure2_slot0;
-case 95:
-                    var5['subsection'] = var8;
                     var7 = _closure2_slot1;
-                    if(!var7) { _fun0009_ip = 97; continue _fun0009 }
+                    if(!var7) { _fun0009_ip = 96; continue _fun0009 }
 case 44:
                     if(!(var3 == var6)) { _fun0009_ip = 22; continue _fun0009 }
-case 97:
+case 96:
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 27;
@@ -932,17 +932,17 @@ case 0:
             var4 = var3.mimetype;
             var2 = 'video/mp4';
             var2 = var2 === var4;
-            if(var1) { _fun0013_ip = 98; continue _fun0013 }
-case 99:
+            if(var1) { _fun0013_ip = 97; continue _fun0013 }
+case 98:
             var1 = var2;
-            if(var2) { _fun0013_ip = 100; continue _fun0013 }
-case 101:
+            if(var2) { _fun0013_ip = 99; continue _fun0013 }
+case 100:
             var4 = var3.mimetype;
             var3 = 'video/webm';
             var1 = var3 === var4;
-case 100:
+case 99:
             _fun0013_ip = 37; continue _fun0013;
-case 98:
+case 97:
             var1 = var2;
 case 37:
             return var1;
@@ -969,7 +969,7 @@ case 0:
             var3 = arguments[1];
             var5 = undefined;
             if(!(var3 === var5)) { _fun0014_ip = 32; continue _fun0014 }
-case 102:
+case 101:
             var3 = false;
 case 32:
             var4 = _closure1_slot0;
@@ -980,7 +980,7 @@ case 32:
             var2 = var4.canLaunchActivity;
             var2 = var2.bind(var4)(var1);
             if(!var2) { _fun0014_ip = 9; continue _fun0014 }
-case 103:
+case 102:
             var2 = var1.config;
             var7 = var2.features;
             var4 = var7.includes;
@@ -994,7 +994,7 @@ case 55:
             var7 = {};
             var2 = 0;
             if(!var3) { _fun0014_ip = 94; continue _fun0014 }
-case 104:
+case 103:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 30;
@@ -1014,7 +1014,7 @@ case 94:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             if(var1) { _fun0014_ip = 18; continue _fun0014 }
-case 105:
+case 104:
             var1 = 32;
             var1 = var8[var1];
             var1 = var3.bind(var5)(var1);
@@ -1031,7 +1031,7 @@ case 105:
             var9 = var9.WHITE;
             var1['color'] = var9;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0014_ip = 106; continue _fun0014;
+            _fun0014_ip = 105; continue _fun0014;
 case 18:
             var2 = 31;
             var2 = var8[var2];
@@ -1049,7 +1049,7 @@ case 18:
             var6 = var6.WHITE;
             var2['color'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 106:
+case 105:
             return var1;
         }
     };

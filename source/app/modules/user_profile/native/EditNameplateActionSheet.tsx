@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOW;
+    var12 = var12.MOBILE_ACTIONSHEET_BACKGROUND;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {'position': 'absolute', 'top': 4294967046, 'height': 250, 'right': 0, 'left': 0};
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_BASE_LOW;
+    var10 = var10.MOBILE_ACTIONSHEET_BACKGROUND;
     var9['color'] = var10;
     var4['nameplatePreviewGradient'] = var9;
     var4 = var7.bind(var8)(var4);

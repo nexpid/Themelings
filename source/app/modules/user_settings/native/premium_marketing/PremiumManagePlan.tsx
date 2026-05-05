@@ -117,7 +117,7 @@ case 0:
             var3 = 28;
             var4 = var1[var3];
             var9 = var6.bind(var5)(var4);
-            var7 = var9.useSubscriptionInvoicePreview;
+            var7 = var9.useFetchSubscriptionInvoicePreview;
             var4 = {'subscriptionId': null, 'renewal': true, 'applyEntitlements': true};
             var12 = var19.id;
             var4['subscriptionId'] = var12;

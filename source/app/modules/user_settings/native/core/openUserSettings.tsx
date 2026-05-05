@@ -76,25 +76,12 @@ case 9:
             var9 = var10.OVERVIEW;
 case 8:
             var4['section'] = var9;
-            var9 = var3 == var7;
-            var10 = undefined;
-            if(var9) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var10 = var7.subsection;
-case 10:
-            var11 = var3 != var10;
-            var9 = null;
-            if(!var11) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var9 = var10;
-case 12:
-            var4['subsection'] = var9;
             var4 = var5.bind(var8)(var4);
             var5 = var6.navigate;
             var4 = 'settings';
             var4 = var5.bind(var6)(var4, var7);
             if(!(var3 != var2)) { _fun0001_ip = 4; continue _fun0001 }
-case 14:
+case 10:
             var2 = var2.bind(var1)();
 case 4:
             return var1;

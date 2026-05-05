@@ -101,8 +101,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 15;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.MobileSetting;
+    var4 = var4.AccountSettingsTabs;
     var _closure1_slot24 = var4;
+    var4 = 16;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MobileSetting;
+    var _closure1_slot25 = var4;
     var4 = 77;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -332,14 +337,14 @@ case 94:
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var4[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.popAll;
                         var2 = var2.bind(var3)();
                         var3 = _closure1_slot0;
-                        var2 = 21;
+                        var2 = 22;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openUserSettings;
@@ -358,7 +363,7 @@ case 92:
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var4[var1];
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
@@ -373,7 +378,7 @@ case 92:
                         var3 = function() {
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot3;
-                            var1 = 21;
+                            var1 = 22;
                             var2 = var2[var1];
                             var1 = undefined;
                             var4 = var3.bind(var1)(var2);
@@ -402,14 +407,14 @@ case 90:
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var4[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.popAll;
                         var2 = var2.bind(var3)();
                         var3 = _closure1_slot0;
-                        var2 = 21;
+                        var2 = 22;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openUserSettings;
@@ -446,14 +451,14 @@ case 86:
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var4[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.popAll;
                         var2 = var2.bind(var3)();
                         var3 = _closure1_slot0;
-                        var2 = 21;
+                        var2 = 22;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openUserSettings;
@@ -462,7 +467,7 @@ case 86:
                         var5 = var5.CONTENT_AND_SOCIAL;
                         var2['screen'] = var5;
                         var5 = {};
-                        var6 = _closure1_slot24;
+                        var6 = _closure1_slot25;
                         var6 = var6.CONNECTED_GAMES;
                         var5['tab'] = var6;
                         var2['params'] = var5;
@@ -509,7 +514,7 @@ case 96:
                             var2 = var3.bind(var4)(var2);
                             var3 = _closure1_slot0;
                             var4 = _closure1_slot3;
-                            var2 = 21;
+                            var2 = 22;
                             var2 = var4[var2];
                             var4 = var3.bind(var1)(var2);
                             var3 = var4.openUserSettings;
@@ -680,14 +685,14 @@ case 74:
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var4[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.popAll;
                         var2 = var2.bind(var3)();
                         var3 = _closure1_slot0;
-                        var2 = 21;
+                        var2 = 22;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openUserSettings;
@@ -765,7 +770,7 @@ case 115:
 case 117:
                                 var7 = _closure1_slot1;
                                 var3 = _closure1_slot3;
-                                var5 = 17;
+                                var5 = 18;
                                 var5 = var3[var5];
                                 var6 = undefined;
                                 var7 = var7.bind(var6)(var5);
@@ -774,10 +779,10 @@ case 117:
                                 var4 = _closure3_slot0;
                                 var9 = var4.guildId;
                                 var5 = _closure1_slot0;
-                                var4 = 32;
+                                var4 = 33;
                                 var4 = var3[var4];
                                 var5 = var5.bind(var6)(var4);
-                                var4 = 43;
+                                var4 = 44;
                                 var4 = var3[var4];
                                 var3 = var3.paths;
                                 var3 = var5.bind(var6)(var4, var3);
@@ -796,7 +801,7 @@ case 121:
 case 122:
                                 var7 = _closure1_slot0;
                                 var8 = _closure1_slot3;
-                                var4 = 44;
+                                var4 = 45;
                                 var4 = var8[var4];
                                 var7 = var7.bind(var6)(var4);
                                 var4 = var7.transitionToGuild;
@@ -852,28 +857,27 @@ case 66:
                     var5 = _closure1_slot7;
                     var4 = function() {
                         var3 = _closure1_slot1;
-                        var7 = _closure1_slot3;
-                        var1 = 17;
-                        var2 = var7[var1];
+                        var4 = _closure1_slot3;
+                        var1 = 18;
+                        var2 = var4[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.popAll;
                         var2 = var2.bind(var3)();
-                        var6 = _closure1_slot0;
-                        var2 = 21;
-                        var2 = var7[var2];
-                        var4 = var6.bind(var1)(var2);
+                        var3 = _closure1_slot0;
+                        var2 = 22;
+                        var2 = var4[var2];
+                        var4 = var3.bind(var1)(var2);
                         var3 = var4.openUserSettings;
                         var2 = {};
                         var5 = _closure1_slot15;
                         var5 = var5.ACCOUNT;
                         var2['screen'] = var5;
-                        var5 = 62;
-                        var5 = var7[var5];
-                        var5 = var6.bind(var1)(var5);
-                        var5 = var5.AccountSettingsTabs;
-                        var5 = var5.STANDING;
-                        var2['subsection'] = var5;
+                        var5 = {};
+                        var6 = _closure1_slot24;
+                        var6 = var6.STANDING;
+                        var5['initialTab'] = var6;
+                        var2['params'] = var5;
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
@@ -885,7 +889,7 @@ case 63:
                     var4 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
-                        var1 = 61;
+                        var1 = 62;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -901,7 +905,7 @@ case 63:
 case 61:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot3;
-                    var4 = 59;
+                    var4 = 60;
                     var4 = var6[var4];
                     var5 = var5.bind(var3)(var4);
                     var4 = var5.isIOS;
@@ -910,7 +914,7 @@ case 61:
 case 124:
                     var6 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var5 = 17;
+                    var5 = 18;
                     var8 = var4[var5];
                     var13 = var6.bind(var3)(var8);
                     var8 = var13.popAll;
@@ -919,10 +923,10 @@ case 124:
                     var14 = var6.bind(var3)(var5);
                     var13 = var14.pushLazy;
                     var6 = _closure1_slot0;
-                    var5 = 32;
+                    var5 = 33;
                     var5 = var4[var5];
                     var6 = var6.bind(var3)(var5);
-                    var5 = 60;
+                    var5 = 61;
                     var5 = var4[var5];
                     var4 = var4.paths;
                     var21 = var6.bind(var3)(var5, var4);
@@ -951,7 +955,7 @@ case 59:
                     var4 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
-                        var1 = 58;
+                        var1 = 59;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -973,7 +977,7 @@ case 59:
 case 57:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 57;
+                    var4 = 58;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.showModal;
@@ -993,7 +997,7 @@ case 0:
 case 125:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot3;
-                            var2 = 56;
+                            var2 = 57;
                             var2 = var4[var2];
                             var6 = undefined;
                             var5 = var3.bind(var6)(var2);
@@ -1018,14 +1022,14 @@ case 53:
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var4[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.popAll;
                         var2 = var2.bind(var3)();
                         var3 = _closure1_slot0;
-                        var2 = 21;
+                        var2 = 22;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openUserSettings;
@@ -1097,13 +1101,13 @@ case 118:
 case 135:
                                 var6 = _closure1_slot1;
                                 var9 = _closure1_slot3;
-                                var2 = 17;
+                                var2 = 18;
                                 var2 = var9[var2];
                                 var10 = var6.bind(var3)(var2);
                                 var2 = var10.popAll;
                                 var2 = var2.bind(var10)();
                                 var10 = _closure1_slot0;
-                                var2 = 21;
+                                var2 = 22;
                                 var2 = var9[var2];
                                 var11 = var10.bind(var3)(var2);
                                 var10 = var11.openUserSettings;
@@ -1112,7 +1116,7 @@ case 135:
                                 var12 = var12.CONNECTIONS;
                                 var2['screen'] = var12;
                                 var2 = var10.bind(var11)(var2);
-                                var2 = 54;
+                                var2 = 55;
                                 var2 = var9[var2];
                                 var6 = var6.bind(var3)(var2);
                                 var2 = var6.callback;
@@ -1126,7 +1130,7 @@ case 137:
 case 139:
                                 var7 = _closure1_slot1;
                                 var8 = _closure1_slot3;
-                                var6 = 55;
+                                var6 = 56;
                                 var6 = var8[var6];
                                 var8 = var7.bind(var3)(var6);
                                 var7 = var8.toURLSafe;
@@ -1142,7 +1146,7 @@ case 140:
 case 142:
                                 var5 = _closure1_slot1;
                                 var6 = _closure1_slot3;
-                                var4 = 41;
+                                var4 = 42;
                                 var4 = var6[var4];
                                 var6 = var5.bind(var3)(var4);
                                 var5 = var6.openURL;
@@ -1205,7 +1209,7 @@ case 147:
 case 150:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot3;
-                            var1 = 53;
+                            var1 = 54;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -1247,7 +1251,7 @@ case 155:
                     var4 = {};
                     var6 = _closure1_slot0;
                     var13 = _closure1_slot3;
-                    var5 = 51;
+                    var5 = 52;
                     var5 = var13[var5];
                     var13 = var6.bind(var3)(var5);
                     var6 = var13.stringify;
@@ -1262,7 +1266,7 @@ case 155:
 case 153:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot3;
-                    var4 = 52;
+                    var4 = 53;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.transitionTo;
@@ -1281,7 +1285,7 @@ case 45:
                     var4 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
-                        var1 = 50;
+                        var1 = 51;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -1326,17 +1330,17 @@ case 158:
 case 161:
                                 var8 = _closure1_slot1;
                                 var2 = _closure1_slot3;
-                                var3 = 17;
+                                var3 = 18;
                                 var3 = var2[var3];
                                 var6 = undefined;
                                 var8 = var8.bind(var6)(var3);
                                 var3 = var8.popAll;
                                 var3 = var3.bind(var8)();
                                 var8 = _closure1_slot0;
-                                var3 = 32;
+                                var3 = 33;
                                 var3 = var2[var3];
                                 var8 = var8.bind(var6)(var3);
-                                var3 = 43;
+                                var3 = 44;
                                 var3 = var2[var3];
                                 var2 = var2.paths;
                                 var2 = var8.bind(var6)(var3, var2);
@@ -1356,7 +1360,7 @@ case 164:
 case 166:
                                 var5 = _closure1_slot0;
                                 var8 = _closure1_slot3;
-                                var3 = 44;
+                                var3 = 45;
                                 var3 = var8[var3];
                                 var8 = var5.bind(var6)(var3);
                                 var5 = var8.transitionToGuild;
@@ -1366,7 +1370,7 @@ case 166:
 case 165:
                                 var5 = _closure1_slot1;
                                 var8 = _closure1_slot3;
-                                var3 = 48;
+                                var3 = 49;
                                 var3 = var8[var3];
                                 var5 = var5.bind(var6)(var3);
                                 var3 = {};
@@ -1397,7 +1401,7 @@ case 167:
 case 170:
                                 var5 = _closure1_slot0;
                                 var4 = _closure1_slot3;
-                                var3 = 49;
+                                var3 = 50;
                                 var4 = var4[var3];
                                 var3 = undefined;
                                 var4 = var5.bind(var3)(var4);
@@ -1424,7 +1428,7 @@ case 41:
                     var4 = var7.fingerprint;
                     var8 = _closure1_slot1;
                     var13 = _closure1_slot3;
-                    var6 = 47;
+                    var6 = 48;
                     var6 = var13[var6];
                     var13 = var8.bind(var3)(var6);
                     var8 = var13.redirectWithHandoffToken;
@@ -1455,7 +1459,7 @@ case 0:
 case 111:
                                 var6 = _closure1_slot1;
                                 var2 = _closure1_slot3;
-                                var3 = 17;
+                                var3 = 18;
                                 var5 = var2[var3];
                                 var3 = undefined;
                                 var6 = var6.bind(var3)(var5);
@@ -1465,10 +1469,10 @@ case 111:
                                 var10 = var5.guildId;
                                 var9 = var5.guildEventId;
                                 var6 = _closure1_slot0;
-                                var5 = 32;
+                                var5 = 33;
                                 var5 = var2[var5];
                                 var6 = var6.bind(var3)(var5);
-                                var5 = 43;
+                                var5 = 44;
                                 var5 = var2[var5];
                                 var2 = var2.paths;
                                 var2 = var6.bind(var3)(var5, var2);
@@ -1487,7 +1491,7 @@ case 175:
 case 177:
                                 var7 = _closure1_slot0;
                                 var8 = _closure1_slot3;
-                                var6 = 44;
+                                var6 = 45;
                                 var6 = var8[var6];
                                 var7 = var7.bind(var3)(var6);
                                 var6 = var7.transitionToGuild;
@@ -1500,7 +1504,7 @@ case 176:
 case 179:
                                 var8 = _closure1_slot1;
                                 var11 = _closure1_slot3;
-                                var6 = 45;
+                                var6 = 46;
                                 var6 = var11[var6];
                                 var8 = var8.bind(var3)(var6);
                                 var6 = var8.fetchGuildEvent;
@@ -1519,7 +1523,7 @@ case 178:
 case 184:
                                 var5 = _closure1_slot0;
                                 var6 = _closure1_slot3;
-                                var4 = 46;
+                                var4 = 47;
                                 var4 = var6[var4];
                                 var6 = var5.bind(var3)(var4);
                                 var5 = var6.openGuildEventDetails;
@@ -1546,7 +1550,7 @@ case 37:
                     var13 = var7.overrideUrl;
                     var6 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var5 = 17;
+                    var5 = 18;
                     var8 = var4[var5];
                     var14 = var6.bind(var3)(var8);
                     var8 = var14.popAll;
@@ -1555,10 +1559,10 @@ case 37:
                     var8 = var6.bind(var3)(var5);
                     var6 = var8.pushLazy;
                     var14 = _closure1_slot0;
-                    var5 = 32;
+                    var5 = 33;
                     var5 = var4[var5];
                     var14 = var14.bind(var3)(var5);
-                    var5 = 42;
+                    var5 = 43;
                     var5 = var4[var5];
                     var4 = var4.paths;
                     var5 = var14.bind(var3)(var5, var4);
@@ -1574,7 +1578,7 @@ case 35:
 case 186:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot3;
-                    var4 = 20;
+                    var4 = 21;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.showUserProfileActionSheetPostConnection;
@@ -1588,7 +1592,7 @@ case 185:
 case 33:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 41;
+                    var4 = 42;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.openURLExternally;
@@ -1599,7 +1603,7 @@ case 33:
 case 31:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 41;
+                    var4 = 42;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.performURLNavigation;
@@ -1619,7 +1623,7 @@ case 188:
 case 0:
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot3;
-                            var1 = 38;
+                            var1 = 39;
                             var4 = var4[var1];
                             var1 = undefined;
                             var5 = var5.bind(var1)(var4);
@@ -1635,7 +1639,7 @@ case 189:
 case 115:
                             var4 = _closure1_slot1;
                             var6 = _closure1_slot3;
-                            var3 = 39;
+                            var3 = 40;
                             var3 = var6[var3];
                             var4 = var4.bind(var1)(var3);
                             var3 = var4.requestPermission;
@@ -1649,16 +1653,16 @@ case 0:
 case 191:
                                     var4 = _closure1_slot1;
                                     var1 = _closure1_slot3;
-                                    var3 = 17;
+                                    var3 = 18;
                                     var3 = var1[var3];
                                     var6 = undefined;
                                     var4 = var4.bind(var6)(var3);
                                     var3 = var4.pushLazy;
                                     var5 = _closure1_slot0;
-                                    var2 = 32;
+                                    var2 = 33;
                                     var2 = var1[var2];
                                     var5 = var5.bind(var6)(var2);
-                                    var2 = 40;
+                                    var2 = 41;
                                     var2 = var1[var2];
                                     var1 = var1.paths;
                                     var2 = var5.bind(var6)(var2, var1);
@@ -1686,16 +1690,16 @@ case 187:
                     var4 = function() {
                         var5 = _closure1_slot1;
                         var2 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var4 = var2[var1];
                         var1 = undefined;
                         var6 = var5.bind(var1)(var4);
                         var5 = var6.pushLazy;
                         var4 = _closure1_slot0;
-                        var3 = 32;
+                        var3 = 33;
                         var3 = var2[var3];
                         var4 = var4.bind(var1)(var3);
-                        var3 = 37;
+                        var3 = 38;
                         var3 = var2[var3];
                         var2 = var2.paths;
                         var4 = var4.bind(var1)(var3, var2);
@@ -1713,7 +1717,7 @@ case 192:
 case 27:
                     var6 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var5 = 17;
+                    var5 = 18;
                     var8 = var4[var5];
                     var13 = var6.bind(var3)(var8);
                     var8 = var13.popAll;
@@ -1722,10 +1726,10 @@ case 27:
                     var13 = var6.bind(var3)(var5);
                     var8 = var13.pushLazy;
                     var6 = _closure1_slot0;
-                    var5 = 32;
+                    var5 = 33;
                     var5 = var4[var5];
                     var6 = var6.bind(var3)(var5);
-                    var5 = 36;
+                    var5 = 37;
                     var5 = var4[var5];
                     var4 = var4.paths;
                     var6 = var6.bind(var3)(var5, var4);
@@ -1743,14 +1747,14 @@ case 25:
 case 0:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot3;
-                            var1 = 17;
+                            var1 = 18;
                             var3 = var5[var1];
                             var1 = undefined;
                             var4 = var4.bind(var1)(var3);
                             var3 = var4.popAll;
                             var3 = var3.bind(var4)();
                             var4 = _closure1_slot0;
-                            var3 = 30;
+                            var3 = 31;
                             var3 = var5[var3];
                             var4 = var4.bind(var1)(var3);
                             var3 = var4.isMidjourneyOnboardingFlow;
@@ -1759,7 +1763,7 @@ case 0:
 case 194:
                             var4 = _closure1_slot0;
                             var8 = _closure1_slot3;
-                            var3 = 35;
+                            var3 = 36;
                             var3 = var8[var3];
                             var5 = var4.bind(var1)(var3);
                             var4 = var5.openOAuth2Modal;
@@ -1769,7 +1773,7 @@ case 194:
                             var10 = var3;
                             var6 = copyDataProperties(var10, var9);
                             var7 = _closure1_slot1;
-                            var6 = 33;
+                            var6 = 34;
                             var6 = var8[var6];
                             var7 = var7.bind(var1)(var6);
                             var6 = 'callback';
@@ -1779,14 +1783,14 @@ case 194:
 case 193:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot3;
-                            var2 = 34;
+                            var2 = 35;
                             var2 = var4[var2];
                             var4 = var3.bind(var1)(var2);
                             var3 = var4.openCreateGuildModal;
                             var2 = function(arg1) {
                                 var8 = _closure1_slot1;
                                 var9 = _closure1_slot3;
-                                var3 = 17;
+                                var3 = 18;
                                 var4 = var9[var3];
                                 var1 = undefined;
                                 var5 = var8.bind(var1)(var4);
@@ -1796,10 +1800,10 @@ case 193:
                                 var6 = var8.bind(var1)(var3);
                                 var5 = var6.pushLazy;
                                 var4 = _closure1_slot0;
-                                var3 = 32;
+                                var3 = 33;
                                 var3 = var9[var3];
                                 var7 = var4.bind(var1)(var3);
-                                var3 = 31;
+                                var3 = 32;
                                 var4 = var9[var3];
                                 var3 = var9.paths;
                                 var4 = var7.bind(var1)(var4, var3);
@@ -1811,7 +1815,7 @@ case 193:
                                 var10 = arg1;
                                 var7 = 'guildId';
                                 var3[6] = var10;
-                                var7 = 33;
+                                var7 = 34;
                                 var7 = var9[var7];
                                 var8 = var8.bind(var1)(var7);
                                 var7 = 'callback';
@@ -1819,7 +1823,7 @@ case 193:
                                 var8 = function dismissOAuthModal() {
                                     var4 = _closure1_slot1;
                                     var3 = _closure1_slot3;
-                                    var1 = 17;
+                                    var1 = 18;
                                     var3 = var3[var1];
                                     var1 = undefined;
                                     var4 = var4.bind(var1)(var3);
@@ -1862,14 +1866,14 @@ case 197:
 case 0:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot3;
-                            var1 = 17;
+                            var1 = 18;
                             var2 = var5[var1];
                             var1 = undefined;
                             var4 = var4.bind(var1)(var2);
                             var2 = var4.popAll;
                             var2 = var2.bind(var4)();
                             var4 = _closure1_slot0;
-                            var2 = 21;
+                            var2 = 22;
                             var2 = var5[var2];
                             var5 = var4.bind(var1)(var2);
                             var4 = var5.openUserSettings;
@@ -1892,7 +1896,7 @@ case 130:
 case 200:
                             var4 = _closure1_slot0;
                             var5 = _closure1_slot3;
-                            var3 = 29;
+                            var3 = 30;
                             var3 = var5[var3];
                             var5 = var4.bind(var1)(var3);
                             var4 = var5.handleFamilyCenterQRCodeScan;
@@ -1911,14 +1915,14 @@ case 21:
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var4[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.popAll;
                         var2 = var2.bind(var3)();
                         var3 = _closure1_slot0;
-                        var2 = 21;
+                        var2 = 22;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openUserSettings;
@@ -1955,7 +1959,7 @@ case 203:
 case 206:
                     var5 = _closure1_slot1;
                     var15 = _closure1_slot3;
-                    var4 = 28;
+                    var4 = 29;
                     var4 = var15[var4];
                     var5 = var5.bind(var3)(var4);
                     var4 = {};
@@ -1981,7 +1985,7 @@ case 16:
 case 208:
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot3;
-                    var5 = 25;
+                    var5 = 26;
                     var5 = var9[var5];
                     var6 = var6.bind(var3)(var5);
                     var5 = var6.resolveGiftCode;
@@ -1992,7 +1996,7 @@ case 208:
                         var2 = var1.giftCode;
                         var6 = _closure1_slot1;
                         var5 = _closure1_slot3;
-                        var1 = 26;
+                        var1 = 27;
                         var4 = var5[var1];
                         var1 = undefined;
                         var8 = var6.bind(var1)(var4);
@@ -2002,7 +2006,7 @@ case 208:
                         var4 = {'type': 'gift_accept', 'location': null};
                         var4 = var7.bind(var8)(var6, var4);
                         var4 = _closure1_slot0;
-                        var3 = 27;
+                        var3 = 28;
                         var3 = var5[var3];
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.openGiftCodeRedeemModal;
@@ -2029,7 +2033,7 @@ case 14:
 case 0:
                             var4 = _closure1_slot0;
                             var2 = _closure1_slot3;
-                            var1 = 22;
+                            var1 = 23;
                             var2 = var2[var1];
                             var1 = undefined;
                             var4 = var4.bind(var1)(var2);
@@ -2041,13 +2045,13 @@ case 0:
 case 210:
                             var6 = _closure1_slot0;
                             var5 = _closure1_slot3;
-                            var4 = 24;
+                            var4 = 25;
                             var4 = var5[var4];
                             var6 = var6.bind(var1)(var4);
                             var4 = var6.dismissGlobalKeyboard;
                             var4 = var4.bind(var6)();
                             var4 = _closure1_slot1;
-                            var3 = 23;
+                            var3 = 24;
                             var3 = var5[var3];
                             var4 = var4.bind(var1)(var3);
                             var3 = var4.showModal;
@@ -2077,7 +2081,7 @@ case 212:
 case 213:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot3;
-                    var4 = 22;
+                    var4 = 23;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.showInvite;
@@ -2094,7 +2098,7 @@ case 211:
 case 0:
                             var4 = _closure1_slot1;
                             var3 = _closure1_slot3;
-                            var1 = 23;
+                            var1 = 24;
                             var3 = var3[var1];
                             var1 = undefined;
                             var4 = var4.bind(var1)(var3);
@@ -2106,12 +2110,12 @@ case 0:
 case 210:
                             var3 = _closure1_slot0;
                             var4 = _closure1_slot3;
-                            var2 = 24;
+                            var2 = 25;
                             var2 = var4[var2];
                             var5 = var3.bind(var1)(var2);
                             var2 = var5.dismissGlobalKeyboard;
                             var2 = var2.bind(var5)();
-                            var2 = 22;
+                            var2 = 23;
                             var2 = var4[var2];
                             var6 = var3.bind(var1)(var2);
                             var5 = var6.showInvite;
@@ -2136,14 +2140,14 @@ case 10:
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var4[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.popAll;
                         var2 = var2.bind(var3)();
                         var3 = _closure1_slot0;
-                        var2 = 21;
+                        var2 = 22;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openUserSettings;
@@ -2160,13 +2164,13 @@ case 10:
 case 8:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 17;
+                    var4 = 18;
                     var4 = var6[var4];
                     var5 = var5.bind(var3)(var4);
                     var4 = var5.popAll;
                     var4 = var4.bind(var5)();
                     var5 = _closure1_slot0;
-                    var4 = 18;
+                    var4 = 19;
                     var4 = var6[var4];
                     var5 = var5.bind(var3)(var4);
                     var4 = var5.getRootNavigationRef;
@@ -2200,7 +2204,7 @@ case 215:
 case 220:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot3;
-                    var4 = 20;
+                    var4 = 21;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.showUserProfileActionSheetPostConnection;
@@ -2214,13 +2218,13 @@ case 219:
 case 6:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 17;
+                    var4 = 18;
                     var4 = var6[var4];
                     var5 = var5.bind(var3)(var4);
                     var4 = var5.popAll;
                     var4 = var4.bind(var5)();
                     var5 = _closure1_slot0;
-                    var4 = 18;
+                    var4 = 19;
                     var4 = var6[var4];
                     var5 = var5.bind(var3)(var4);
                     var4 = var5.getRootNavigationRef;
@@ -2265,7 +2269,7 @@ case 223:
 case 221:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot3;
-                    var2 = 19;
+                    var2 = 20;
                     var2 = var5[var2];
                     var4 = var4.bind(var3)(var2);
                     var2 = var4.openAddFriendModalDeeplink;
@@ -2276,13 +2280,13 @@ case 225:
 case 4:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot3;
-                    var2 = 17;
+                    var2 = 18;
                     var2 = var5[var2];
                     var4 = var4.bind(var3)(var2);
                     var2 = var4.popAll;
                     var2 = var2.bind(var4)();
                     var4 = _closure1_slot0;
-                    var2 = 18;
+                    var2 = 19;
                     var2 = var5[var2];
                     var4 = var4.bind(var3)(var2);
                     var2 = var4.getRootNavigationRef;
@@ -2306,7 +2310,7 @@ case 226:
 case 2:
                     var2 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var1 = 16;
+                    var1 = 17;
                     var1 = var4[var1];
                     var2 = var2.bind(var3)(var1);
                     var1 = var2.openContactSyncModalDeeplink;

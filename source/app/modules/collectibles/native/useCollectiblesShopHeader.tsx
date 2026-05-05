@@ -302,7 +302,7 @@ case 10:
                     var4 = var8.bind(var7)(var4);
                     var1 = var4.CheckmarkSmallIcon;
 case 9:
-                    var3['IconComponent'] = var1;
+                    var3['trailingIndicator'] = var1;
                     var1 = new Array(2);
                     var1[0] = var3;
                     var3 = {};
@@ -359,7 +359,7 @@ case 12:
                     var8 = var9.bind(var7)(var8);
                     var4 = var8.CheckmarkSmallIcon;
 case 11:
-                    var3['IconComponent'] = var4;
+                    var3['trailingIndicator'] = var4;
                     var1[1] = var3;
                     var3 = _closure2_slot2;
                     if(var3) { _fun0004_ip = 13; continue _fun0004 }
@@ -421,7 +421,7 @@ case 17:
                     var5 = var6.bind(var7)(var5);
                     var2 = var5.CheckmarkSmallIcon;
 case 16:
-                    var4['IconComponent'] = var2;
+                    var4['trailingIndicator'] = var2;
                     var2 = new Array(1);
                     var2[0] = var4;
                     var3 = var2;
@@ -586,10 +586,10 @@ case 15:
             var7 = null;
             var14 = var7 == var8;
             var1 = undefined;
-            if(var14) { _fun0003_ip = 11; continue _fun0003 }
-case 18:
+            if(var14) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var1 = var8.id;
-case 11:
+case 18:
             var2[1] = var1;
             var1 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -599,13 +599,13 @@ case 0:
                     var4 = var3 == var1;
                     var1 = undefined;
                     var2 = undefined;
-                    if(var4) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                    if(var4) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                     var4 = _closure2_slot1;
                     var2 = var4.id;
-case 19:
-                    if(!(var3 != var2)) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+case 20:
+                    if(!(var3 != var2)) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var2 = 22;
@@ -643,7 +643,7 @@ case 22:
                     var4 = var4.WISHLIST;
                     var2['initialSection'] = var4;
                     var2 = var3.bind(var1)(var2);
-case 21:
+case 22:
                     return var1;
                 }
             };
@@ -653,8 +653,8 @@ case 21:
             var1 = {};
             var5 = var5.headerRightContainer;
             var1['style'] = var5;
-            if(!var12) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+            if(!var12) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
             var15 = _closure1_slot10;
             var13 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -666,43 +666,41 @@ case 24:
             var5['balance'] = var17;
             var5['onPress'] = var16;
             var12 = var15.bind(var4)(var13, var5);
-case 23:
+case 24:
             var5 = new Array(3);
             var5[0] = var12;
             var7 = var7 != var8;
-            if(!var7) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+            if(!var7) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var13 = _closure1_slot10;
             var16 = _closure1_slot0;
-            var18 = _closure1_slot2;
+            var17 = _closure1_slot2;
             var8 = 28;
-            var8 = var18[var8];
+            var8 = var17[var8];
             var8 = var16.bind(var4)(var8);
             var12 = var8.IconButton;
             var8 = {'accessibilityLabel': null, 'variant': 'tertiary', 'size': 'sm'};
             var15 = 12;
-            var17 = var18[var15];
-            var17 = var16.bind(var4)(var17);
-            var19 = var17.intl;
-            var17 = var19.string;
-            var15 = var18[var15];
+            var18 = var17[var15];
+            var18 = var16.bind(var4)(var18);
+            var19 = var18.intl;
+            var18 = var19.string;
+            var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
             var15 = var15["7lZ31J"];
-            var15 = var17.bind(var19)(var15);
+            var15 = var18.bind(var19)(var15);
             var8['accessibilityLabel'] = var15;
-            var17 = 'sm';
             var15 = 29;
-            var15 = var18[var15];
+            var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.HeartIcon;
-            var15 = {};
-            var15['size'] = var17;
+            var15 = {'size': 'sm', 'color': 'redesign-button-tertiary-text'};
             var15 = var13.bind(var4)(var16, var15);
             var8['icon'] = var15;
             var8['onPress'] = var14;
             var7 = var13.bind(var4)(var12, var8);
-case 25:
+case 26:
             var5[1] = var7;
             var8 = _closure1_slot10;
             var14 = _closure1_slot0;
@@ -800,10 +798,10 @@ case 25:
 case 0:
             var3 = arguments[0];
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+            if(!(var3 === var1)) { _fun0006_ip = 28; continue _fun0006 }
+case 29:
             var3 = {};
-case 27:
+case 28:
             var7 = var3.currentScreen;
             var _closure2_slot0 = var7;
             var _closure2_slot1 = var1;
