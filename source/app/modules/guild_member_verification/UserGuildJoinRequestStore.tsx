@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot13 = var2;
+            _closure1_slot12 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var2 = function joinRequestFromServer(arg1) {
         var2 = arg1;
         var1 = {};
@@ -74,7 +74,7 @@ case 4:
         var1['interviewChannelId'] = var2;
         return var1;
     };
-    var _closure1_slot14 = var2;
+    var _closure1_slot13 = var2;
     var1 = function deleteJoinRequest(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -91,7 +91,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var10 = function handleGatewayJoinRequestUpdate(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -101,7 +101,7 @@ case 0:
             var6 = null;
             if(!(var6 != var5)) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot13;
             var2 = undefined;
             var5 = var4.bind(var2)(var5);
             var7 = _closure1_slot7;
@@ -126,7 +126,7 @@ case 14:
             var4[var3] = var5;
             _fun0003_ip = 8; continue _fun0003;
 case 13:
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot14;
             var1 = var1.bind(var2)(var3);
 case 8:
             var1 = undefined;
@@ -177,8 +177,6 @@ case 12:
     var _closure1_slot10 = var4;
     var4 = {};
     var _closure1_slot11 = var4;
-    var4 = {};
-    var _closure1_slot12 = var4;
     var4 = 8;
     var4 = var7[var4];
     var4 = var8.bind(var1)(var4);
@@ -196,7 +194,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot13;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 15; continue _fun0004 }
 case 11:
@@ -237,7 +235,7 @@ case 16:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(7);
+        var1 = new Array(6);
         var1[0] = var5;
         var5 = {};
         var7 = 'getRequest';
@@ -328,25 +326,14 @@ case 19:
         var5 = {};
         var7 = 'hasJoinRequestCoackmark';
         var5['key'] = var7;
-        var7 = function value() {
+        var6 = function value() {
             var2 = _closure1_slot8;
             var1 = null;
             var1 = var1 != var2;
             return var1;
         };
-        var5['value'] = var7;
-        var1[5] = var5;
-        var5 = {};
-        var7 = 'getCooldown';
-        var5['key'] = var7;
-        var6 = function value(arg1) {
-            var2 = _closure1_slot12;
-            var1 = arg1;
-            var1 = var2[var1];
-            return var1;
-        };
         var5['value'] = var6;
-        var1[6] = var5;
+        var1[5] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -376,7 +363,7 @@ case 0:
                 if(!(var1 != var3)) { _fun0007_ip = 21; continue _fun0007 }
 case 18:
                 var2 = _closure1_slot9;
-                var4 = _closure1_slot14;
+                var4 = _closure1_slot13;
                 var1 = undefined;
                 var1 = var4.bind(var1)(var5);
                 var2[var3] = var1;
@@ -395,7 +382,7 @@ case 21:
     var10 = function handleRemoveJoinRequest(arg1) {
         var1 = arg1;
         var3 = var1.guildId;
-        var2 = _closure1_slot15;
+        var2 = _closure1_slot14;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -410,12 +397,12 @@ case 0:
             var1 = null;
             if(!(var1 == var5)) { _fun0008_ip = 21; continue _fun0008 }
 case 9:
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot14;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
             _fun0008_ip = 22; continue _fun0008;
 case 21:
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot13;
             var2 = undefined;
             var5 = var4.bind(var2)(var5);
             var6 = _closure1_slot0;
@@ -431,7 +418,7 @@ case 24:
             var4[var3] = var5;
             _fun0008_ip = 22; continue _fun0008;
 case 23:
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot14;
             var1 = var1.bind(var2)(var3);
 case 22:
             var1 = undefined;
@@ -440,7 +427,7 @@ case 22:
     };
     var4['USER_GUILD_JOIN_REQUEST_UPDATE'] = var10;
     var10 = function handleGuildLeave(arg1) {
-        var3 = _closure1_slot15;
+        var3 = _closure1_slot14;
         var1 = arg1;
         var1 = var1.guild;
         var2 = var1.id;
@@ -531,7 +518,7 @@ case 31:
 case 32:
             var5 = var8.guild_id;
             var4 = _closure1_slot9;
-            var7 = _closure1_slot14;
+            var7 = _closure1_slot13;
             var3 = undefined;
             var3 = var7.bind(var3)(var8);
             var4[var5] = var3;
@@ -561,7 +548,7 @@ case 30:
     var10 = function handleAckApprovedGuildJoinRequest(arg1) {
         var1 = arg1;
         var3 = var1.guildId;
-        var2 = _closure1_slot15;
+        var2 = _closure1_slot14;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -575,33 +562,13 @@ case 30:
         return var1;
     };
     var4['USER_GUILD_JOIN_REQUEST_COACHMARK_SHOW'] = var10;
-    var10 = function handleClearCoachmark() {
+    var5 = function handleClearCoachmark() {
         var1 = null;
         _closure1_slot8 = var1;
         var1 = undefined;
         return var1;
     };
-    var4['USER_GUILD_JOIN_REQUEST_COACHMARK_CLEAR'] = var10;
-    var5 = function handleJoinRequestCooldownFetch(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
-case 0:
-            var1 = arg1;
-            var3 = var1.guildId;
-            var4 = var1.cooldown;
-            var2 = _closure1_slot12;
-            var1 = null;
-            var5 = var1 != var4;
-            var1 = 0;
-            if(!var5) { _fun0011_ip = 35; continue _fun0011 }
-case 25:
-            var1 = var4;
-case 35:
-            var2[var3] = var1;
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var4['USER_GUILD_JOIN_REQUEST_COOLDOWN_FETCH'] = var5;
+    var4['USER_GUILD_JOIN_REQUEST_COACHMARK_CLEAR'] = var5;
     var5 = var9.prototype;
     var5 = Object.create(var5, {constructor: {value: var9}});
     var15 = var5;

@@ -176,6 +176,38 @@ case 20:
         return var1;
     };
     var3['useIsChannelSpoilerGated'] = var4;
+    var4 = function useShouldShowSpoilerGateForChannelId(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 2;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var7 = _closure1_slot2;
+        var3 = new Array(2);
+        var3[0] = var7;
+        var2 = _closure1_slot3;
+        var3[1] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            var5 = _closure1_slot2;
+            var3 = var5.getChannel;
+            var2 = _closure2_slot0;
+            var4 = var3.bind(var5)(var2);
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot3;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var4, var2, var5);
+            return var1;
+        };
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
+    };
+    var3['useShouldShowSpoilerGateForChannelId'] = var4;
     var2 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:

@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
     var2 = {};
-    var10 = function title() {
+    var10 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 10;
@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var10;
+    var2['useTitle'] = var10;
     var10 = function useDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;

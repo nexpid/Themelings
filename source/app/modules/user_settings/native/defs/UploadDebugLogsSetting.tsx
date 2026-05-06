@@ -324,7 +324,7 @@ case 2:
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
     var2 = {};
-    var9 = function title() {
+    var9 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 10;
@@ -340,7 +340,7 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
+    var2['useTitle'] = var9;
     var9 = null;
     var2['parent'] = var9;
     var9 = 9;

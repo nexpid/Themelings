@@ -196,7 +196,7 @@ case 7:
     var8 = var6.bind(var1)(var4);
     var5 = var8.createToggle;
     var4 = {};
-    var12 = function title() {
+    var12 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -212,7 +212,7 @@ case 7:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['title'] = var12;
+    var4['useTitle'] = var12;
     var12 = function useDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;

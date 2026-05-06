@@ -148,7 +148,7 @@ case 6:
     var9 = var7.bind(var1)(var5);
     var6 = var9.createPressable;
     var5 = {};
-    var5['title'] = var12;
+    var5['useTitle'] = var12;
     var11 = var11.PARENTAL_CONTROLS_SENSITIVE_CONTENT_FILTERS;
     var5['parent'] = var11;
     var5['useTrailing'] = var4;

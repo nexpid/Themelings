@@ -186,7 +186,7 @@ case 2:
     var8 = var6.bind(var1)(var4);
     var5 = var8.createRoute;
     var4 = {};
-    var9 = function title() {
+    var9 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -202,7 +202,7 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['title'] = var9;
+    var4['useTitle'] = var9;
     var9 = null;
     var4['parent'] = var9;
     var9 = 10;

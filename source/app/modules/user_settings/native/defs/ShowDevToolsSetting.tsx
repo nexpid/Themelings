@@ -18,7 +18,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
-    var2 = {'title': 'Show Dev Tools', 'parent': null};
+    var2 = {};
+    var10 = function useTitle() {
+        var1 = 'Show Dev Tools';
+        return var1;
+    };
+    var2['useTitle'] = var10;
+    var10 = null;
+    var2['parent'] = var10;
     var10 = 2;
     var10 = var6[var10];
     var10 = var5.bind(var1)(var10);
@@ -55,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['additionalSearchTerms'] = var9;
+    var2['useSearchTerms'] = var9;
     var2['withArrow'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 5;

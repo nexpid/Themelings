@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
     var2 = {};
-    var2['title'] = var11;
+    var2['useTitle'] = var11;
     var10 = var10.PARENTAL_CONTROLS_SENSITIVE_CONTENT_FILTERS;
     var2['parent'] = var10;
     var10 = function useObscuredContentFriendsDmSettingValue() {

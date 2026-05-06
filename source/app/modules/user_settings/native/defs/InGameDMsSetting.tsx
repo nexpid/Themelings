@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRadio;
     var2 = {};
-    var10 = function title() {
+    var10 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 4;
@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var10;
+    var2['useTitle'] = var10;
     var9 = var9.CONNECTED_GAMES;
     var2['parent'] = var9;
     var9 = function useInGameDMsSettingOptions() {
@@ -162,7 +162,7 @@ case 2:
         return var1;
     };
     var2['onValueChange'] = var9;
-    var8 = function additionalSearchTerms() {
+    var8 = function useSearchTerms() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 4;
@@ -180,7 +180,7 @@ case 2:
         var1[0] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var8;
+    var2['useSearchTerms'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 6;
     var4 = var6[var4];

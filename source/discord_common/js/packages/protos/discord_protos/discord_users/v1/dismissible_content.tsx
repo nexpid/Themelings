@@ -2202,6 +2202,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BOUNTIES_NUX_PROMO_SHEET'] = var2;
     var1 = 'BOUNTIES_NUX_PROMO_SHEET';
     var4[var2] = var1;
+    var2 = 752;
+    var4['SLAYER_STOREFRONT_ORBS_PURCHASE_COACHMARK'] = var2;
+    var1 = 'SLAYER_STOREFRONT_ORBS_PURCHASE_COACHMARK';
+    var4[var2] = var1;
+    var2 = 753;
+    var4['CLIPS_PRIMARY_ENTRY_POINT_COACHMARK'] = var2;
+    var1 = 'CLIPS_PRIMARY_ENTRY_POINT_COACHMARK';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

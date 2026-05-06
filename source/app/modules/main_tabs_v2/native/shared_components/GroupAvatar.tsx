@@ -496,26 +496,38 @@ case 34:
             var2['backgroundColor'] = var5;
             var1['shadowContainerBackground'] = var2;
             var2 = {};
-            var8 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var9 = var5[var7];
-            var9 = var8.bind(var6)(var9);
-            var9 = var9.colors;
-            var9 = var9.WHITE;
-            var2['backgroundColor'] = var9;
-            var9 = 0.4;
-            var2['opacity'] = var9;
+            var5 = undefined;
+            if(var3) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
+            var9 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var8 = var8[var7];
+            var8 = var9.bind(var6)(var8);
+            var8 = var8.colors;
+            var5 = var8.WHITE;
+case 36:
+            var2['backgroundColor'] = var5;
+            var5 = 0.4;
+            var2['opacity'] = var5;
             var1['shadowContainerBackgroundLight'] = var2;
             var2 = {};
-            var9 = var5[var7];
-            var9 = var8.bind(var6)(var9);
-            var9 = var9.colors;
-            var9 = var9.WHITE;
-            var2['backgroundColor'] = var9;
-            var9 = 0.15;
-            var2['opacity'] = var9;
+            var5 = undefined;
+            if(var3) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
+            var9 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var8 = var8[var7];
+            var8 = var9.bind(var6)(var8);
+            var8 = var8.colors;
+            var5 = var8.WHITE;
+case 38:
+            var2['backgroundColor'] = var5;
+            var5 = 0.15;
+            var2['opacity'] = var5;
             var1['shadowContainerBackgroundDark'] = var2;
             var2 = {};
+            var8 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var9 = var5[var7];
             var9 = var8.bind(var6)(var9);
             var9 = var9.modules;
@@ -536,29 +548,29 @@ case 34:
             var5 = var5.sm;
             var2['borderRadius'] = var5;
             var5 = undefined;
-            if(var3) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+            if(var3) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var9 = _closure1_slot1;
             var8 = _closure1_slot2;
             var8 = var8[var7];
             var8 = var9.bind(var6)(var8);
             var8 = var8.colors;
             var5 = var8.CARD_BACKGROUND_DEFAULT;
-case 36:
+case 40:
             var2['backgroundColor'] = var5;
             var1['gradientContainer'] = var2;
             var2 = {'position': 'absolute', 'left': 0, 'top': 0, 'right': 0, 'bottom': 0};
             var5 = 'absolute';
             var8 = undefined;
-            if(var3) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+            if(var3) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
             var10 = _closure1_slot1;
             var9 = _closure1_slot2;
             var9 = var9[var7];
             var9 = var10.bind(var6)(var9);
             var9 = var9.colors;
             var8 = var9.BACKGROUND_MOD_SUBTLE;
-case 38:
+case 42:
             var2['backgroundColor'] = var8;
             var1['gradientDimOverlay'] = var2;
             var2 = {};
@@ -582,21 +594,21 @@ case 38:
             var8 = var8.sm;
             var2['borderRadius'] = var8;
             var8 = 1;
-            if(!var3) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(!var3) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
             var8 = undefined;
-case 40:
+case 44:
             var2['borderWidth'] = var8;
             var8 = undefined;
-            if(var3) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(var3) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
             var10 = _closure1_slot1;
             var9 = _closure1_slot2;
             var9 = var9[var7];
             var9 = var10.bind(var6)(var9);
             var9 = var9.colors;
             var8 = var9.BORDER_SUBTLE;
-case 42:
+case 46:
             var2['borderColor'] = var8;
             var2['position'] = var5;
             var1['gradientImageBorder'] = var2;
@@ -604,53 +616,53 @@ case 42:
             var1['avatarContainer'] = var2;
             var2 = {};
             var5 = undefined;
-            if(var3) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+            if(var3) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
             var9 = _closure1_slot1;
             var8 = _closure1_slot2;
             var8 = var8[var7];
             var8 = var9.bind(var6)(var8);
             var8 = var8.colors;
             var5 = var8.BLACK;
-case 44:
+case 48:
             var2['shadowColor'] = var5;
             var5 = undefined;
-            if(var3) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+            if(var3) { _fun0005_ip = 50; continue _fun0005 }
+case 51:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var8 = 6;
             var8 = var10[var8];
             var8 = var9.bind(var6)(var8);
             var5 = var8.DARK_03_LIGHT_02;
-case 46:
+case 50:
             var2['shadowOpacity'] = var5;
             var5 = undefined;
-            if(var3) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+            if(var3) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
             var5 = {'width': 0, 'height': 3};
-case 48:
+case 52:
             var2['shadowOffset'] = var5;
             var5 = 2;
-            if(!var3) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+            if(!var3) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
             var5 = undefined;
-case 50:
+case 54:
             var2['shadowRadius'] = var5;
             var1['shadow'] = var2;
             var2 = {'width': 32, 'height': 32, 'position': 'absolute', 'borderRadius': 16};
             var1['avatar'] = var2;
             var2 = {'position': 'absolute', 'width': 38, 'height': 38, 'justifyContent': 'center', 'alignItems': 'center', 'borderRadius': 19};
             var5 = undefined;
-            if(var3) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+            if(var3) { _fun0005_ip = 56; continue _fun0005 }
+case 57:
             var9 = _closure1_slot1;
             var8 = _closure1_slot2;
             var8 = var8[var7];
             var8 = var9.bind(var6)(var8);
             var8 = var8.colors;
             var5 = var8.BACKGROUND_BASE_LOWER;
-case 52:
+case 56:
             var2['backgroundColor'] = var5;
             var1['avatarWrapper'] = var2;
             var2 = {'width': 38, 'height': 38, 'position': 'absolute', 'borderRadius': 19, 'backgroundColor': null, 'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
@@ -659,13 +671,13 @@ case 52:
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
             var4 = var4.colors;
-            if(var3) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
+            if(var3) { _fun0005_ip = 58; continue _fun0005 }
+case 59:
             var3 = var4.BACKGROUND_BASE_LOWER;
-            _fun0005_ip = 56; continue _fun0005;
-case 54:
+            _fun0005_ip = 60; continue _fun0005;
+case 58:
             var3 = var4.BACKGROUND_MOD_SUBTLE;
-case 56:
+case 60:
             var2['backgroundColor'] = var3;
             var1['overflowCount'] = var2;
             return var1;
@@ -760,13 +772,13 @@ case 0:
             var5 = var5.bind(var4)(var3);
             var3 = var5.isThemeLight;
             var3 = var3.bind(var5)(var6);
-            if(var3) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
+            if(var3) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
             var11 = var13.shadowContainerBackgroundDark;
-            _fun0006_ip = 59; continue _fun0006;
-case 57:
+            _fun0006_ip = 63; continue _fun0006;
+case 61:
             var11 = var13.shadowContainerBackgroundLight;
-case 59:
+case 63:
             var6 = _closure1_slot3;
             var5 = var6.useRef;
             var3 = false;
@@ -808,10 +820,10 @@ case 59:
             _closure2_slot4 = var8;
             var2 = 2;
             var7 = 10;
-            if(!(var8 >= var7)) { _fun0006_ip = 60; continue _fun0006 }
-case 61:
+            if(!(var8 >= var7)) { _fun0006_ip = 64; continue _fun0006 }
+case 65:
             var2 = var6;
-case 60:
+case 64:
             _closure2_slot5 = var2;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -829,8 +841,8 @@ case 0:
                     var3 = var1[var9];
                     var1 = null;
                     var4 = var1 == var3;
-                    if(var4) { _fun0007_ip = 62; continue _fun0007 }
-case 63:
+                    if(var4) { _fun0007_ip = 66; continue _fun0007 }
+case 67:
                     var6 = _closure1_slot8;
                     var5 = _closure1_slot14;
                     var4 = {};
@@ -851,7 +863,7 @@ case 63:
                     var4[7] = var10;
                     var8 = _closure2_slot3;
                     if(!var8) { _fun0007_ip = 10; continue _fun0007 }
-case 64:
+case 68:
                     var8 = _closure2_slot5;
                     if(!(var9 !== var8)) { _fun0007_ip = 30; continue _fun0007 }
 case 10:
@@ -863,7 +875,7 @@ case 10:
                     var8['user'] = var3;
                     var3 = undefined;
                     var3 = var10.bind(var3)(var9, var8);
-                    _fun0007_ip = 65; continue _fun0007;
+                    _fun0007_ip = 69; continue _fun0007;
 case 30:
                     var9 = _closure1_slot6;
                     var8 = _closure1_slot15;
@@ -872,10 +884,10 @@ case 30:
                     var7['count'] = var2;
                     var2 = undefined;
                     var3 = var9.bind(var2)(var8, var7);
-case 65:
+case 69:
                     var2 = undefined;
                     var1 = var6.bind(var2)(var5, var4, var3);
-case 62:
+case 66:
                     return var1;
                 }
             };
@@ -892,10 +904,10 @@ case 62:
             var9 = new Array(2);
             var9[0] = var12;
             var14 = null;
-            if(!(var14 == var15)) { _fun0006_ip = 66; continue _fun0006 }
-case 67:
+            if(!(var14 == var15)) { _fun0006_ip = 70; continue _fun0006 }
+case 71:
             var11 = var13.shadowContainerBackground;
-case 66:
+case 70:
             var9[1] = var11;
             var5['style'] = var9;
             var12 = _closure1_slot6;
@@ -904,15 +916,15 @@ case 66:
             var16 = var13.gradientContainer;
             var9['style'] = var16;
             var14 = var14 == var15;
-            if(!var14) { _fun0006_ip = 68; continue _fun0006 }
-case 69:
+            if(!var14) { _fun0006_ip = 72; continue _fun0006 }
+case 73:
             var17 = _closure1_slot6;
             var16 = _closure1_slot4;
             var15 = {};
             var18 = var13.gradientDimOverlay;
             var15['style'] = var18;
             var14 = var17.bind(var4)(var16, var15);
-case 68:
+case 72:
             var9['children'] = var14;
             var11 = var12.bind(var4)(var11, var9);
             var9 = new Array(2);

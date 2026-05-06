@@ -27,8 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
-    var11 = 'Table Row';
-    var2['title'] = var11;
+    var11 = function useTitle() {
+        var1 = 'Table Row';
+        return var1;
+    };
+    var2['useTitle'] = var11;
     var8 = var8.DESIGN_SYSTEMS;
     var2['parent'] = var8;
     var8 = {};

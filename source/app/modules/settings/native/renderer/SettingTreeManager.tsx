@@ -503,52 +503,44 @@ case 0:
                 var2 = var3.breadcrumbCache;
                 var1 = var2.get;
                 var1 = var1.bind(var2)(var6);
-                var12 = null;
-                if(!(var12 == var1)) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
+                var11 = null;
+                if(!(var11 == var1)) { _fun0008_ip = 48; continue _fun0008 }
+case 51:
                 var2 = new Array(0);
                 var5 = _closure1_slot6;
                 var4 = var3.getAncestors;
                 var4 = var4.bind(var3)(var6);
-                var10 = undefined;
-                var9 = var5.bind(var10)(var4);
-                var5 = var9.bind(var10)();
+                var9 = undefined;
+                var8 = var5.bind(var9)(var4);
+                var5 = var8.bind(var9)();
                 var4 = var5.done;
-                var8 = 'string';
-                var7 = 3;
-                if(var4) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
+                var7 = 4;
+                if(var4) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
                 var13 = var5.value;
-                var14 = _closure1_slot0;
+                var12 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var4 = var4[var7];
-                var4 = var14.bind(var10)(var4);
-                var4 = var4.SETTING_RENDERER_CONFIG;
-                var4 = var4[var13];
-                var4 = var4.title;
-                if(!(var12 != var4)) { _fun0008_ip = 55; continue _fun0008 }
-case 56:
-                var14 = typeof var4;
-                var13 = var4;
-                if(!(var8 !== var14)) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
-                var13 = var4.bind(var10)();
-case 57:
-                var4 = var2.push;
-                var4 = var4.bind(var2)(var13);
+                var12 = var12.bind(var9)(var4);
+                var4 = var12.getCachedSettingTitle;
+                var12 = var4.bind(var12)(var13);
+                if(!(var11 != var12)) { _fun0008_ip = 54; continue _fun0008 }
 case 55:
-                var13 = var9.bind(var10)();
-                var4 = var13.done;
-                var5 = var13;
-                if(!var4) { _fun0008_ip = 54; continue _fun0008 }
-case 53:
+                var4 = var2.push;
+                var4 = var4.bind(var2)(var12);
+case 54:
+                var12 = var8.bind(var9)();
+                var4 = var12.done;
+                var5 = var12;
+                if(!var4) { _fun0008_ip = 53; continue _fun0008 }
+case 52:
                 var5 = var3.breadcrumbCache;
                 var4 = var5.set;
                 var3 = var2.reverse;
                 var3 = var3.bind(var2)();
                 var3 = var4.bind(var5)(var6, var3);
                 return var2;
-case 51:
+case 48:
                 return var1;
             }
         };
@@ -580,7 +572,7 @@ case 51:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

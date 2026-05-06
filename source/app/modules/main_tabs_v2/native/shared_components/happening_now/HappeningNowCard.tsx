@@ -427,24 +427,24 @@ case 0:
             var9 = 'text-sm/semibold';
             if(!var12) { _fun0003_ip = 43; continue _fun0003 }
 case 44:
-            var9 = 'text-xs/semibold';
+            var9 = 'text-md/medium';
 case 43:
             var1['variant'] = var9;
             var9 = null;
-            if(var11) { _fun0003_ip = 45; continue _fun0003 }
-case 46:
-            var9 = var7.cardHeaderMargin;
+            if(var11) { _fun0003_ip = 22; continue _fun0003 }
 case 45:
+            var9 = var7.cardHeaderMargin;
+case 22:
             var7 = new Array(2);
             var7[0] = var9;
             var9 = var8 != var10;
             var8 = null;
-            if(!var9) { _fun0003_ip = 47; continue _fun0003 }
-case 48:
+            if(!var9) { _fun0003_ip = 46; continue _fun0003 }
+case 23:
             var9 = {};
             var9['fontFamily'] = var10;
             var8 = var9;
-case 47:
+case 46:
             var7[1] = var8;
             var1['style'] = var7;
             var15 = var1;
@@ -487,21 +487,21 @@ case 0:
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
             var1 = {};
-            if(!(var9 == var7)) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+            if(!(var9 == var7)) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
             var9 = 'text-xs/medium';
-            if(!var8) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
-            var9 = 'text-xs/normal';
-case 51:
-            var7 = var9;
+            if(!var8) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
+            var9 = 'text-sm/normal';
 case 49:
+            var7 = var9;
+case 47:
             var1['variant'] = var7;
             var7 = 'text-default';
-            if(!var8) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
+            if(!var8) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
             var7 = 'text-subtle';
-case 53:
+case 51:
             var1['color'] = var7;
             var7 = 1;
             var1['lineClamp'] = var7;

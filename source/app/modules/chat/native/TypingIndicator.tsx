@@ -352,8 +352,7 @@ case 21:
             var11 = var18[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
-            var17 = var17.id;
-            var11['channelId'] = var17;
+            var11['channel'] = var17;
             var15 = var15 != var16;
             var11['hasTypingText'] = var15;
             var14 = _closure1_slot7;

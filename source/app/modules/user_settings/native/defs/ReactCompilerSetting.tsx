@@ -16,7 +16,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createStatic;
-    var2 = {'title': 'React Compiler', 'parent': null};
+    var2 = {};
+    var9 = function useTitle() {
+        var1 = 'React Compiler';
+        return var1;
+    };
+    var2['useTitle'] = var9;
+    var9 = null;
+    var2['parent'] = var9;
     var9 = 1;
     var9 = var6[var9];
     var9 = var5.bind(var1)(var9);

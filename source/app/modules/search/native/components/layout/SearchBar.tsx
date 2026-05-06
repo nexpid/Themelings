@@ -977,7 +977,7 @@ case 51:
         var2 = var18[var2];
         var2 = var16.bind(var4)(var2);
         var2 = var2.colors;
-        var2 = var2.BACKGROUND_BASE_LOWEST;
+        var2 = var2.MOBILE_SEARCHBAR_GRADIENT_BACKGROUND;
         var14 = var3.bind(var14)(var2);
         var _closure2_slot5 = var14;
         var3 = var13.useMemo;

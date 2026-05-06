@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
-    var11 = function title() {
+    var11 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 5;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var11;
+    var2['useTitle'] = var11;
     var8 = var8.ACCOUNT;
     var2['parent'] = var8;
     var8 = function useAccountDisplayNameSettingTrailing() {

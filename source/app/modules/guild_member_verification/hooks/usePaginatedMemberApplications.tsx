@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.MAX_VISIBLE_PAGES;
     var4 = var5 * var4;
     var _closure1_slot6 = var4;
-    var5 = 8;
+    var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -126,18 +126,19 @@ case 10:
                         var3 = _closure2_slot4;
                         var3 = var3.bind(var2)(var9);
 case 9:
+                        var16 = _closure2_slot0;
                         var14 = _closure2_slot1;
-                        var18 = var13;
-                        var16 = _closure1_slot0;
-                        var17 = _closure1_slot2;
+                        var19 = var13;
+                        var17 = _closure1_slot0;
+                        var18 = _closure1_slot2;
                         var6 = 3;
-                        var11 = var17[var6];
-                        var11 = var16.bind(var2)(var11);
+                        var11 = var18[var6];
+                        var11 = var17.bind(var2)(var11);
                         var11 = var11.GuildJoinRequestApplicationStatuses;
                         var11 = var11.SUBMITTED;
-                        var11 = var18 === var11;
-                        var6 = var17[var6];
-                        var6 = var16.bind(var2)(var6);
+                        var11 = var19 === var11;
+                        var6 = var18[var6];
+                        var6 = var17.bind(var2)(var6);
                         var6 = var6.GuildJoinRequestSortOrders;
                         var6 = var6.TIMESTAMP_DESC;
                         if(!(var15 !== var6)) { _fun0001_ip = 11; continue _fun0001 }
@@ -151,36 +152,19 @@ case 15:
                         var15 = var14.length;
                         var6 = 1;
                         var6 = var15 - var6;
-                        var16 = var14[var6];
+                        var17 = var14[var6];
                         var6 = {};
                         if(var11) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-                        var15 = var16.actionedAt;
+                        var15 = var17.actionedAt;
                         _fun0001_ip = 18; continue _fun0001;
 case 16:
-                        var15 = var16.joinRequestId;
+                        var15 = var17.joinRequestId;
 case 18:
                         var6['after'] = var15;
                         _fun0001_ip = 19; continue _fun0001;
 case 13:
                         var15 = {};
-                        var19 = _closure1_slot1;
-                        var20 = _closure1_slot2;
-                        var16 = 4;
-                        var16 = var20[var16];
-                        var18 = var19.bind(var2)(var16);
-                        var17 = var18.fromTimestamp;
-                        var16 = 5;
-                        var16 = var20[var16];
-                        var16 = var19.bind(var2)(var16);
-                        var21 = var16.bind(var2)();
-                        var20 = var21.subtract;
-                        var19 = 180;
-                        var16 = 'days';
-                        var19 = var20.bind(var21)(var19, var16);
-                        var16 = var19.valueOf;
-                        var16 = var16.bind(var19)();
-                        var16 = var17.bind(var18)(var16);
                         var15['after'] = var16;
                         var6 = var15;
                         _fun0001_ip = 19; continue _fun0001;
@@ -217,8 +201,8 @@ case 20:
                         var10 = var10.Date;
                         var15 = var10.prototype;
                         var15 = Object.create(var15, {constructor: {value: var10}});
-                        var25 = var15;
-                        var10 = new var25[var10](var24);
+                        var23 = var15;
+                        var10 = new var23[var10](var22);
                         var15 = var10 instanceof Object ? var10 : var15;
                         var10 = var15.getTime;
                         var10 = var10.bind(var15)();
@@ -233,7 +217,7 @@ case 26: // try_start_0 // try_start_1
                         var6['current'] = var8;
                         var10 = _closure1_slot1;
                         var11 = _closure1_slot2;
-                        var6 = 6;
+                        var6 = 5;
                         var6 = var11[var6];
                         var11 = var10.bind(var2)(var6);
                         var10 = var11.fetchGuildJoinRequests;
@@ -244,11 +228,11 @@ case 26: // try_start_0 // try_start_1
                         var13 = _closure1_slot6;
                         var6['limit'] = var13;
                         var6['force'] = var8;
-                        var23 = var12;
-                        var24 = var6;
-                        var12 = copyDataProperties(var24, var23);
+                        var21 = var12;
+                        var22 = var6;
+                        var12 = copyDataProperties(var22, var21);
                         var6 = var10.bind(var11)(var6);
-                        SaveGenerator(address=590);
+                        SaveGenerator(address=516);
 case 27:
                         return var6;
 case 28:
@@ -276,15 +260,15 @@ case 35: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=6);
                         var6 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var3 = 7;
+                        var3 = 6;
                         var3 = var8[var3];
                         var3 = var6.bind(var2)(var3);
                         var3 = var3.APIError;
                         var6 = var3.prototype;
                         var6 = Object.create(var6, {constructor: {value: var3}});
-                        var25 = var6;
-                        var24 = var7;
-                        var3 = new var25[var3](var24, var23);
+                        var23 = var6;
+                        var22 = var7;
+                        var3 = new var23[var3](var22, var21);
                         var7 = var3 instanceof Object ? var3 : var6;
                         var6 = _closure2_slot4;
                         var3 = var7.getAnyErrorMessage;

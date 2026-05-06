@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Object;
     var4 = var7.defineProperty;
     var2 = {};
-    var1 = true;
-    var2['value'] = var1;
+    var8 = true;
+    var2['value'] = var8;
     var1 = '__esModule';
     var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
@@ -22,12 +22,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
-    var2 = {'title': '', 'parent': null, 'usePredicate': null, 'unsearchable': true};
-    var8 = 2;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.useStaffOrDeveloperSettingPredicate;
-    var2['usePredicate'] = var8;
+    var2 = {};
+    var11 = function useTitle() {
+        var1 = '';
+        return var1;
+    };
+    var2['useTitle'] = var11;
+    var11 = null;
+    var2['parent'] = var11;
+    var11 = 2;
+    var11 = var6[var11];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.useStaffOrDeveloperSettingPredicate;
+    var2['usePredicate'] = var11;
+    var2['unsearchable'] = var8;
     var8 = {};
     var10 = var10.COLLECTIBLES_SHOP_VIEW_ALL_CATEGORY_ITEMS;
     var8['route'] = var10;

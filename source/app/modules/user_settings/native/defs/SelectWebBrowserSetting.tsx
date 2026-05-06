@@ -139,7 +139,7 @@ case 6:
     var8 = var6.bind(var1)(var4);
     var5 = var8.createRadio;
     var4 = {};
-    var11 = function title() {
+    var11 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 2;
@@ -155,7 +155,7 @@ case 6:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['title'] = var11;
+    var4['useTitle'] = var11;
     var10 = var10.WEB_BROWSER;
     var4['parent'] = var10;
     var10 = function useWebBrowserSettingValue() {

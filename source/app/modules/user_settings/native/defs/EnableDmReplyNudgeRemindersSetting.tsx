@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
     var2 = {};
-    var10 = function title() {
+    var10 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 2;
@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var10;
+    var2['useTitle'] = var10;
     var10 = function useDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
@@ -57,19 +57,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['useDescription'] = var10;
-    var10 = 2;
-    var11 = var6[var10];
-    var11 = var5.bind(var1)(var11);
-    var12 = var11.intl;
-    var11 = var12.string;
-    var10 = var6[var10];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.t;
-    var10 = var10.VaKgGF;
-    var11 = var11.bind(var12)(var10);
-    var10 = new Array(1);
-    var10[0] = var11;
-    var2['additionalSearchTerms'] = var10;
+    var10 = function useSearchTerms() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 2;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.VaKgGF;
+        var2 = var2.bind(var3)(var1);
+        var1 = new Array(1);
+        var1[0] = var2;
+        return var1;
+    };
+    var2['useSearchTerms'] = var10;
     var9 = var9.NOTIFICATIONS;
     var2['parent'] = var9;
     var9 = 3;

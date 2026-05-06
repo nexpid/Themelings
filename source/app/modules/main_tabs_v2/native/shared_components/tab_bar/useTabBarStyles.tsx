@@ -128,7 +128,7 @@ case 0:
             var3 = var12[var7];
             var3 = var10.bind(var6)(var3);
             var3 = var3.colors;
-            var3 = var3.TAB_BAR_BACKGROUND;
+            var3 = var3.BACKGROUND_SURFACE_HIGH;
             var2['backgroundColor'] = var3;
             var1['tabBar'] = var2;
             var2 = {};

@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6.bind(var1)(var4);
     var5 = var8.createRoute;
     var4 = {};
-    var12 = function title() {
+    var12 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 5;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['title'] = var12;
+    var4['useTitle'] = var12;
     var9 = var9.NOTIFICATIONS;
     var4['parent'] = var9;
     var9 = function useDescription() {

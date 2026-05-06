@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
-    var8 = function title() {
+    var8 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 2;
@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
+    var2['useTitle'] = var8;
     var8 = function usePredicate() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

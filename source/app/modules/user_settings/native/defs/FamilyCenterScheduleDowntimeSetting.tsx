@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
-    var12 = function title() {
+    var12 = function useTitle() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 3;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var12;
+    var2['useTitle'] = var12;
     var11 = var11.FAMILY_CENTER_PARENTAL_CONTROLS_SETTINGS;
     var2['parent'] = var11;
     var2['unsearchable'] = var8;

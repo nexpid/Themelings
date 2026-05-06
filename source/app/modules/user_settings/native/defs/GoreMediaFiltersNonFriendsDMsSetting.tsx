@@ -106,12 +106,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var7.bind(var1)(var5);
     var6 = var9.createPressable;
     var5 = {};
-    var5['title'] = var12;
+    var5['useTitle'] = var12;
     var11 = var11.SENSITIVE_CONTENT_FILTERS;
     var5['parent'] = var11;
     var5['useTrailing'] = var4;
     var5['onPress'] = var2;
-    var10 = function additionalSearchTerms() {
+    var10 = function useSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
         var2 = 5;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[2] = var2;
         return var1;
     };
-    var5['additionalSearchTerms'] = var10;
+    var5['useSearchTerms'] = var10;
     var10 = 7;
     var10 = var8[var10];
     var10 = var7.bind(var1)(var10);

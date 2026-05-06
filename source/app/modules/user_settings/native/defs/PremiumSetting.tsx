@@ -82,7 +82,7 @@ case 4:
             return var1;
         }
     };
-    var2['title'] = var8;
+    var2['useTitle'] = var8;
     var8 = null;
     var2['parent'] = var8;
     var8 = 11;

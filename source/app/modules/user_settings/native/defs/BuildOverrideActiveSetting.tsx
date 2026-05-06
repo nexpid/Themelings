@@ -72,7 +72,14 @@ case 2:
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
-    var2 = {'title': 'Build Override Active', 'parent': null};
+    var2 = {};
+    var10 = function useTitle() {
+        var1 = 'Build Override Active';
+        return var1;
+    };
+    var2['useTitle'] = var10;
+    var10 = null;
+    var2['parent'] = var10;
     var10 = 8;
     var10 = var6[var10];
     var10 = var5.bind(var1)(var10);

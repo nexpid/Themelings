@@ -157,6 +157,7 @@ case 2:
                 var1 = {};
                 var6 = _closure2_slot2;
                 var1['linkVariant'] = var6;
+                var1['textVariant'] = var6;
                 var1 = var3.bind(var4)(var2, var5, var1);
                 return var1;
             };

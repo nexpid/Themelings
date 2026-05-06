@@ -68,7 +68,7 @@ case 0:
             var5 = var5[var7];
             var5 = var8.bind(var6)(var5);
             var5 = var5.colors;
-            var5 = var5.BACKGROUND_BASE_LOW;
+            var5 = var5.PANEL_BG;
             var2['backgroundColor'] = var5;
             var1['maskStroke'] = var2;
             var2 = {'padding': 8, 'zIndex': 100, 'width': null, 'height': null, 'borderRadius': 20};

@@ -23,23 +23,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
     var2 = {};
-    var10 = function title() {
-        var5 = _closure1_slot0;
-        var6 = _closure1_slot1;
-        var1 = 5;
-        var2 = var6[var1];
-        var4 = undefined;
-        var2 = var5.bind(var4)(var2);
-        var3 = var2.intl;
-        var2 = var3.string;
-        var1 = var6[var1];
-        var1 = var5.bind(var4)(var1);
-        var1 = var1.t;
-        var1 = var1.VkS7Yd;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var2['title'] = var10;
     var10 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;

@@ -31,7 +31,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
-    var2 = {'title': 'Internal Build Update', 'parent': null};
+    var2 = {};
+    var10 = function useTitle() {
+        var1 = 'Internal Build Update';
+        return var1;
+    };
+    var2['useTitle'] = var10;
+    var10 = null;
+    var2['parent'] = var10;
     var10 = function InstallNativeUpdateIcon() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:

@@ -24,8 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
-    var2 = {'title': null, 'parent': null, 'unsearchable': true};
-    var9 = function title() {
+    var2 = {'useTitle': null, 'parent': null, 'unsearchable': true};
+    var9 = function useTitle() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
+    var2['useTitle'] = var9;
     var9 = {};
     var10 = var10.DISPLAY_NAME_STYLES;
     var9['route'] = var10;

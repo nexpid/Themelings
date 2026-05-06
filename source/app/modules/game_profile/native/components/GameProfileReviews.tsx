@@ -639,7 +639,7 @@ case 29:
     var4['opencriticTopCriticRatingContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 19;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -658,180 +658,149 @@ case 0:
             var3 = _closure1_slot2;
             var1 = 16;
             var1 = var3[var1];
-            var1 = var2.bind(var6)(var1);
-            var3 = var1.SteamReviewsV2Experiment;
-            var2 = var3.useConfig;
-            var1 = {};
-            var4 = 'GameProfileReviews';
-            var1['location'] = var4;
-            var2 = var2.bind(var3)(var1);
-            var4 = var2.recentEnabled;
-            if(var4) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
-            var4 = var2.englishEnabled;
-case 31:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var1 = 17;
-            var1 = var5[var1];
-            var7 = var3.bind(var6)(var1);
-            var5 = var7.useSteamWebsiteUrl;
+            var4 = var2.bind(var6)(var1);
+            var3 = var4.useSteamWebsiteUrl;
             var1 = null;
-            var8 = var1 == var18;
-            var3 = undefined;
-            if(var8) { _fun0003_ip = 33; continue _fun0003 }
-case 34:
-            var3 = var18.id;
-case 33:
-            var23 = var5.bind(var7)(var3);
-            var3 = var1 == var18;
+            var5 = var1 == var18;
+            var2 = undefined;
+            if(var5) { _fun0003_ip = 8; continue _fun0003 }
+case 31:
+            var2 = var18.id;
+case 8:
+            var23 = var3.bind(var4)(var2);
+            var2 = var1 == var18;
             var17 = undefined;
-            if(var3) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+            if(var2) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
             var17 = var18.opencriticUrl;
+case 32:
+            if(!(var1 != var18)) { _fun0003_ip = 34; continue _fun0003 }
 case 35:
-            if(!(var1 != var18)) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
-            var5 = var18.steamReleaseStatus;
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var3 = 18;
-            var3 = var8[var3];
-            var3 = var7.bind(var6)(var3);
-            var3 = var3.SteamReleaseStatus;
-            var3 = var3.RETIRED_ABANDONED;
-            var15 = var5 !== var3;
-            if(!var15) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
+            var3 = var18.steamReleaseStatus;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 17;
+            var2 = var5[var2];
+            var2 = var4.bind(var6)(var2);
+            var2 = var2.SteamReleaseStatus;
+            var2 = var2.RETIRED_ABANDONED;
+            var15 = var3 !== var2;
+            if(!var15) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
             var15 = var1 != var23;
-case 39:
-            var3 = var18.reviews;
-            var5 = var1 == var3;
+case 36:
+            var2 = var18.reviews;
+            var3 = var1 == var2;
             var28 = undefined;
-            if(var5) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
-            var28 = var3.steam;
+            if(var3) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
+            var28 = var2.steam;
+case 38:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 7;
+            var2 = var4[var2];
+            var5 = var3.bind(var6)(var2);
+            var4 = var5.calculateSteamReviewScoreDescription;
+            var2 = var1 == var28;
+            var3 = undefined;
+            if(var2) { _fun0003_ip = 40; continue _fun0003 }
 case 41:
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = 7;
-            var3 = var7[var3];
-            var8 = var5.bind(var6)(var3);
-            var7 = var8.calculateSteamReviewScoreDescription;
-            var3 = var1 == var28;
-            var5 = undefined;
-            if(var3) { _fun0003_ip = 19; continue _fun0003 }
+            var3 = var28.recentRating;
+case 40:
+            var7 = var1 == var28;
+            var2 = undefined;
+            if(var7) { _fun0003_ip = 42; continue _fun0003 }
 case 43:
-            var5 = var28.recentRating;
-case 19:
-            var9 = var1 == var28;
-            var3 = undefined;
-            if(var9) { _fun0003_ip = 44; continue _fun0003 }
-case 45:
-            var3 = var28.recentRatingCount;
-case 44:
+            var2 = var28.recentRatingCount;
+case 42:
             var24 = true;
-            var5 = var7.bind(var8)(var5, var3, var24);
+            var3 = var4.bind(var5)(var3, var2, var24);
             var11 = var15;
-            if(!var15) { _fun0003_ip = 46; continue _fun0003 }
+            if(!var15) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 13;
+            var2 = var5[var2];
+            var2 = var4.bind(var6)(var2);
+            var2 = var2.SteamReviewScoreDescription;
+            var2 = var2.NO_USER_REVIEWS;
+            var11 = var3 !== var2;
+case 44:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 8;
+            var2 = var4[var2];
+            var3 = var3.bind(var6)(var2);
+            var2 = var3.canShowLocalizedSteamReview;
+            var3 = var2.bind(var3)(var28);
+            var4 = var1 == var28;
+            if(var3) { _fun0003_ip = 46; continue _fun0003 }
 case 47:
-            var11 = var2.recentEnabled;
-case 46:
-            if(!var11) { _fun0003_ip = 48; continue _fun0003 }
-case 49:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var3 = 13;
-            var3 = var8[var3];
-            var3 = var7.bind(var6)(var3);
-            var3 = var3.SteamReviewScoreDescription;
-            var3 = var3.NO_USER_REVIEWS;
-            var11 = var5 !== var3;
-case 48:
-            var2 = var2.englishEnabled;
-            if(!var2) { _fun0003_ip = 50; continue _fun0003 }
-case 51:
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = 8;
-            var3 = var7[var3];
-            var5 = var5.bind(var6)(var3);
-            var3 = var5.canShowLocalizedSteamReview;
-            var2 = var3.bind(var5)(var28);
-case 50:
-            var5 = var1 == var28;
-            if(var2) { _fun0003_ip = 52; continue _fun0003 }
-case 53:
             var22 = undefined;
-            if(var5) { _fun0003_ip = 54; continue _fun0003 }
-case 55:
+            if(var4) { _fun0003_ip = 48; continue _fun0003 }
+case 49:
             var22 = var28.rating;
-case 54:
-            _fun0003_ip = 56; continue _fun0003;
+case 48:
+            _fun0003_ip = 50; continue _fun0003;
+case 46:
+            var2 = undefined;
+            if(var4) { _fun0003_ip = 51; continue _fun0003 }
 case 52:
-            var3 = undefined;
-            if(var5) { _fun0003_ip = 57; continue _fun0003 }
-case 58:
-            var3 = var28.localizedRating;
-case 57:
-            var22 = var3;
-case 56:
-            var5 = var1 == var28;
-            if(var2) { _fun0003_ip = 59; continue _fun0003 }
-case 60:
+            var2 = var28.localizedRating;
+case 51:
+            var22 = var2;
+case 50:
+            var4 = var1 == var28;
+            if(var3) { _fun0003_ip = 53; continue _fun0003 }
+case 54:
             var21 = undefined;
-            if(var5) { _fun0003_ip = 61; continue _fun0003 }
-case 62:
+            if(var4) { _fun0003_ip = 55; continue _fun0003 }
+case 56:
             var21 = var28.ratingCount;
-case 61:
-            _fun0003_ip = 63; continue _fun0003;
+case 55:
+            _fun0003_ip = 57; continue _fun0003;
+case 53:
+            var2 = undefined;
+            if(var4) { _fun0003_ip = 58; continue _fun0003 }
 case 59:
-            var3 = undefined;
-            if(var5) { _fun0003_ip = 64; continue _fun0003 }
-case 65:
-            var3 = var28.localizedRatingCount;
-case 64:
-            var21 = var3;
-case 63:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var2 = var28.localizedRatingCount;
+case 58:
+            var21 = var2;
+case 57:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var26 = 10;
-            var3 = var3[var26];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.t;
-            if(var4) { _fun0003_ip = 66; continue _fun0003 }
-case 67:
-            var25 = var3.whmopT;
-            _fun0003_ip = 68; continue _fun0003;
-case 66:
-            if(var2) { _fun0003_ip = 69; continue _fun0003 }
-case 70:
-            var2 = var3["8e4LiB"];
-            _fun0003_ip = 71; continue _fun0003;
-case 69:
-            var2 = var3.aWb+V4;
-case 71:
-            var25 = var2;
-case 68:
+            var2 = var2[var26];
+            var2 = var4.bind(var6)(var2);
+            var2 = var2.t;
+            if(var3) { _fun0003_ip = 60; continue _fun0003 }
+case 61:
+            var25 = var2["8e4LiB"];
+            _fun0003_ip = 62; continue _fun0003;
+case 60:
+            var25 = var2.aWb+V4;
+case 62:
             var3 = var18.reviews;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0003_ip = 72; continue _fun0003 }
-case 73:
+            if(var4) { _fun0003_ip = 63; continue _fun0003 }
+case 64:
             var2 = var3.opencritic;
-case 72:
+case 63:
             var14 = var1 != var2;
-            if(!var14) { _fun0003_ip = 74; continue _fun0003 }
-case 75:
+            if(!var14) { _fun0003_ip = 65; continue _fun0003 }
+case 66:
             var14 = var1 != var17;
-case 74:
-            if(var15) { _fun0003_ip = 76; continue _fun0003 }
-case 77:
-            if(var11) { _fun0003_ip = 76; continue _fun0003 }
-case 78:
+case 65:
+            if(var15) { _fun0003_ip = 67; continue _fun0003 }
+case 68:
+            if(var11) { _fun0003_ip = 67; continue _fun0003 }
+case 69:
             var2 = null;
-            if(!var14) { _fun0003_ip = 79; continue _fun0003 }
-case 76:
+            if(!var14) { _fun0003_ip = 70; continue _fun0003 }
+case 67:
             var5 = _closure1_slot8;
             var4 = _closure1_slot4;
             var3 = {};
@@ -866,21 +835,21 @@ case 76:
             var12 = var12.reviewContainer;
             var8['style'] = var12;
             var12 = null;
-            if(!var11) { _fun0003_ip = 80; continue _fun0003 }
-case 81:
+            if(!var11) { _fun0003_ip = 71; continue _fun0003 }
+case 72:
             var11 = var1 != var23;
             var12 = null;
-            if(!var11) { _fun0003_ip = 80; continue _fun0003 }
-case 82:
+            if(!var11) { _fun0003_ip = 71; continue _fun0003 }
+case 73:
             var20 = _closure1_slot7;
             var19 = _closure1_slot10;
             var11 = {};
             var11['url'] = var23;
             var27 = var15;
-            if(var27) { _fun0003_ip = 83; continue _fun0003 }
-case 84:
+            if(var27) { _fun0003_ip = 74; continue _fun0003 }
+case 75:
             var27 = var14;
-case 83:
+case 74:
             var11['showBorderBottom'] = var27;
             var11['trackAction'] = var16;
             var31 = _closure1_slot0;
@@ -897,30 +866,30 @@ case 83:
             var11['title'] = var27;
             var29 = var1 == var28;
             var27 = undefined;
-            if(var29) { _fun0003_ip = 85; continue _fun0003 }
-case 86:
+            if(var29) { _fun0003_ip = 76; continue _fun0003 }
+case 77:
             var27 = var28.recentRating;
-case 85:
+case 76:
             var11['rating'] = var27;
             var29 = var1 == var28;
             var27 = undefined;
-            if(var29) { _fun0003_ip = 87; continue _fun0003 }
-case 88:
+            if(var29) { _fun0003_ip = 78; continue _fun0003 }
+case 79:
             var27 = var28.recentRatingCount;
-case 87:
+case 78:
             var11['ratingCount'] = var27;
             var11['isRecentRating'] = var24;
             var12 = var20.bind(var6)(var19, var11);
-case 80:
+case 71:
             var11 = new Array(3);
             var11[0] = var12;
             var12 = null;
-            if(!var15) { _fun0003_ip = 89; continue _fun0003 }
-case 90:
+            if(!var15) { _fun0003_ip = 80; continue _fun0003 }
+case 81:
             var15 = var1 != var23;
             var12 = null;
-            if(!var15) { _fun0003_ip = 89; continue _fun0003 }
-case 91:
+            if(!var15) { _fun0003_ip = 80; continue _fun0003 }
+case 82:
             var20 = _closure1_slot7;
             var19 = _closure1_slot10;
             var15 = {};
@@ -940,15 +909,15 @@ case 91:
             var21 = false;
             var15['isRecentRating'] = var21;
             var12 = var20.bind(var6)(var19, var15);
-case 89:
+case 80:
             var11[1] = var12;
             var12 = null;
-            if(!var14) { _fun0003_ip = 92; continue _fun0003 }
-case 93:
+            if(!var14) { _fun0003_ip = 83; continue _fun0003 }
+case 84:
             var14 = var1 != var17;
             var12 = null;
-            if(!var14) { _fun0003_ip = 92; continue _fun0003 }
-case 94:
+            if(!var14) { _fun0003_ip = 83; continue _fun0003 }
+case 85:
             var15 = _closure1_slot7;
             var14 = _closure1_slot11;
             var13 = {};
@@ -956,16 +925,16 @@ case 94:
             var13['url'] = var17;
             var13['trackAction'] = var16;
             var12 = var15.bind(var6)(var14, var13);
-case 92:
+case 83:
             var11[2] = var12;
             var8['children'] = var11;
             var8 = var10.bind(var6)(var9, var8);
             var7[1] = var8;
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 79:
+case 70:
             return var2;
-case 37:
+case 34:
             return var1;
         }
     };

@@ -98,7 +98,7 @@ case 11:
     var7 = var5.bind(var1)(var2);
     var4 = var7.createVolumeSlider;
     var2 = {};
-    var10 = function title() {
+    var10 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 10;
@@ -114,7 +114,7 @@ case 11:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var10;
+    var2['useTitle'] = var10;
     var9 = var9.VOICE;
     var2['parent'] = var9;
     var9 = 200;
@@ -245,7 +245,7 @@ case 16:
         }
     };
     var2['usePredicate'] = var9;
-    var8 = function additionalSearchTerms() {
+    var8 = function useSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
         var2 = 10;
@@ -273,7 +273,7 @@ case 16:
         var1[1] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var8;
+    var2['useSearchTerms'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 11;
     var4 = var6[var4];

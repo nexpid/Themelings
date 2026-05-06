@@ -574,11 +574,11 @@ case 15:
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
     var2 = {};
-    var9 = function title() {
+    var9 = function useTitle() {
         var1 = 'Upload i18n data';
         return var1;
     };
-    var2['title'] = var9;
+    var2['useTitle'] = var9;
     var9 = null;
     var2['parent'] = var9;
     var9 = 15;

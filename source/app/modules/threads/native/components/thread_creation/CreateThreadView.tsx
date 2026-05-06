@@ -542,7 +542,9 @@ case 14:
             var39 = var37[var39];
             var39 = var40.bind(var4)(var39);
             var40 = var39.ThreadIcon;
-            var39 = {'color': 'white', 'size': 'lg'};
+            var39 = {};
+            var44 = 'lg';
+            var39['size'] = var44;
             var39 = var43.bind(var4)(var40, var39);
             var29['children'] = var39;
             var30 = var33.bind(var4)(var30, var29);
@@ -714,8 +716,7 @@ case 52:
             var16 = var24[var16];
             var21 = var21.bind(var4)(var16);
             var16 = {};
-            var24 = var13.id;
-            var16['channelId'] = var24;
+            var16['channel'] = var13;
             var16['hasTypingText'] = var23;
             var23 = _closure1_slot9;
             var23 = var23.CreateThread;

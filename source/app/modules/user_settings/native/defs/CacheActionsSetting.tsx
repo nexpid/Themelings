@@ -263,7 +263,7 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var10;
+    var2['useTitle'] = var10;
     var10 = null;
     var2['parent'] = var10;
     var10 = 14;

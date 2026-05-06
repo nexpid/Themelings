@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createVolumeSlider;
     var2 = {};
-    var11 = function title() {
+    var11 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 4;
@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var11;
+    var2['useTitle'] = var11;
     var9 = var9.VOICE;
     var2['parent'] = var9;
     var9 = 200;
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var10.bind(var1)(var9);
     var9 = var9.setOutputVolume;
     var2['onValueChange'] = var9;
-    var9 = function additionalSearchTerms() {
+    var9 = function useSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
         var2 = 4;
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[1] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var9;
+    var2['useSearchTerms'] = var9;
     var8 = function usePredicate() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

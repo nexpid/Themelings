@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
+    var2['useTitle'] = var9;
     var9 = null;
     var2['parent'] = var9;
     var9 = 4;

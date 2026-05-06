@@ -359,7 +359,7 @@ case 0:
             var8 = var5.colors;
             if(var3) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-            var5 = var8.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
+            var5 = var8.BACKGROUND_SURFACE_HIGH;
             _fun0004_ip = 33; continue _fun0004;
 case 31:
             var5 = var8.CUSTOM_STATUS_BUBBLE_BG;
@@ -372,7 +372,7 @@ case 33:
             var5 = var5.colors;
             if(var3) { _fun0004_ip = 34; continue _fun0004 }
 case 35:
-            var3 = var5.CONTROL_SECONDARY_BORDER_DEFAULT;
+            var3 = var5.BORDER_SUBTLE;
             _fun0004_ip = 36; continue _fun0004;
 case 34:
             var3 = var5.BORDER_MUTED;

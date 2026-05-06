@@ -937,8 +937,6 @@ case 40:
                     var1 = _closure2_slot7;
                     var1 = var1.uploadDisabled;
                     var4['disabled'] = var1;
-                    var1 = true;
-                    var4['active'] = var1;
                     var1 = new Array(1);
                     var1[0] = var4;
                     var15 = var1;

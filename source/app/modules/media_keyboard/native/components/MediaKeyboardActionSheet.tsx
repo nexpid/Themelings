@@ -267,8 +267,6 @@ case 4:
             var8 = _closure2_slot1;
             var7['onPress'] = var8;
             var7['disabled'] = var5;
-            var5 = true;
-            var7['active'] = var5;
             var5 = new Array(1);
             var5[0] = var7;
             var13 = _closure2_slot5;

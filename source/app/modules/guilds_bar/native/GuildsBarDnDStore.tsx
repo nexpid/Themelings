@@ -67,11 +67,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = {'start': 0, 'end': 0};
         var8 = var9.bind(var10)(var8);
         var1['listInsets'] = var8;
-        var8 = var7[var4];
-        var9 = var5.bind(var6)(var8);
-        var8 = var9.makeMutable;
-        var8 = var8.bind(var9)(var3);
-        var1['listTopOffset'] = var8;
         var4 = var7[var4];
         var5 = var5.bind(var6)(var4);
         var4 = var5.makeMutable;

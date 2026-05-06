@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_BASE_LOW;
+    var15 = var15.MOBILE_EXPRESSION_PICKER_BACKGROUND_DEFAULT;
     var10['color'] = var15;
     var4['headerGradientColor'] = var10;
     var10 = {};

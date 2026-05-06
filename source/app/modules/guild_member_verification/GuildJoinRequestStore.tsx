@@ -791,45 +791,6 @@ case 38:
         return var1;
     };
     var2['GUILD_JOIN_REQUESTS_FETCH_FAILURE'] = var10;
-    var10 = function handleGuildJoinRequestsBulkAction(arg1) {
-        var1 = arg1;
-        var4 = var1.guildId;
-        var1 = var1.action;
-        var _closure2_slot0 = var1;
-        var7 = _closure1_slot16;
-        var6 = var7.values;
-        var8 = _closure1_slot15;
-        var9 = _closure1_slot0;
-        var5 = _closure1_slot2;
-        var1 = 8;
-        var5 = var5[var1];
-        var1 = undefined;
-        var5 = var9.bind(var1)(var5);
-        var5 = var5.GuildJoinRequestApplicationStatuses;
-        var5 = var5.SUBMITTED;
-        var5 = var8.bind(var1)(var4, var5);
-        var6 = var6.bind(var7)(var5);
-        var5 = var6.forEach;
-        var3 = function(arg1) {
-            var3 = _closure1_slot30;
-            var2 = {};
-            var5 = arg1;
-            var6 = var2;
-            var1 = copyDataProperties(var6, var5);
-            var4 = _closure2_slot0;
-            var1 = 'applicationStatus';
-            var2[0] = var4;
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            return var1;
-        };
-        var3 = var5.bind(var6)(var3);
-        var3 = _closure1_slot26;
-        var2 = 0;
-        var2 = var3.bind(var1)(var4, var2);
-        return var1;
-    };
-    var2['GUILD_JOIN_REQUESTS_BULK_ACTION'] = var10;
     var2['GUILD_JOIN_REQUEST_CREATE'] = var9;
     var2['GUILD_JOIN_REQUEST_UPDATE'] = var9;
     var9 = function handleGuildJoinRequestDelete(arg1) {
@@ -886,31 +847,15 @@ case 41:
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.guildId;
-            var4 = var1.sortOrder;
+            var5 = var1.guildId;
+            var3 = var1.sortOrder;
+            var4 = var1.applicationStatus;
             var2 = _closure1_slot20;
-            var2 = var2[var3];
-            if(!(var4 !== var2)) { _fun0015_ip = 43; continue _fun0015 }
+            var2 = var2[var5];
+            if(!(var3 !== var2)) { _fun0015_ip = 43; continue _fun0015 }
 case 44:
             var2 = _closure1_slot20;
-            var2[var3] = var4;
-            var2 = _closure1_slot19;
-            var4 = var2[var3];
-            var2 = null;
-            if(!(var2 == var4)) { _fun0015_ip = 45; continue _fun0015 }
-case 35:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 8;
-            var3 = var3[var2];
-            var2 = undefined;
-            var2 = var5.bind(var2)(var3);
-            var2 = var2.GuildJoinRequestApplicationStatuses;
-            var4 = var2.SUBMITTED;
-case 45:
-            var2 = 'REVIEW_APPLICATION';
-            if(!(var2 !== var4)) { _fun0015_ip = 43; continue _fun0015 }
-case 46:
+            var2[var5] = var3;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var6 = 10;
@@ -919,12 +864,12 @@ case 46:
             var3 = var3.bind(var5)(var2);
             var2 = var3.isActionedApplicationStatus;
             var2 = var2.bind(var3)(var4);
-            if(!var2) { _fun0015_ip = 47; continue _fun0015 }
-case 48:
+            if(!var2) { _fun0015_ip = 45; continue _fun0015 }
+case 46:
             var3 = _closure1_slot18;
             var2 = var3.clear;
             var2 = var2.bind(var3)();
-case 47:
+case 45:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
@@ -932,7 +877,7 @@ case 47:
             var2 = var3.isSubmittedApplicationStatus;
             var2 = var2.bind(var3)(var4);
             if(!var2) { _fun0015_ip = 43; continue _fun0015 }
-case 49:
+case 12:
             var2 = _closure1_slot17;
             var1 = var2.clear;
             var1 = var1.bind(var2)();

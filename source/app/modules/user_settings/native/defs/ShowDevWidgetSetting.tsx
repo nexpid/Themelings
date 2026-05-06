@@ -23,7 +23,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
-    var2 = {'title': 'Show Dev Tools Widget', 'parent': null};
+    var2 = {};
+    var9 = function useTitle() {
+        var1 = 'Show Dev Tools Widget';
+        return var1;
+    };
+    var2['useTitle'] = var9;
+    var9 = null;
+    var2['parent'] = var9;
     var9 = 4;
     var9 = var6[var9];
     var9 = var5.bind(var1)(var9);

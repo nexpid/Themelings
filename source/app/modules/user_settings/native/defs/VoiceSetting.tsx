@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
-    var9 = function title() {
+    var9 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 3;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
+    var2['useTitle'] = var9;
     var9 = null;
     var2['parent'] = var9;
     var9 = 5;
@@ -124,7 +124,7 @@ case 4:
     };
     var9['getComponent'] = var10;
     var2['screen'] = var9;
-    var8 = function additionalSearchTerms() {
+    var8 = function useSearchTerms() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 3;
@@ -142,7 +142,7 @@ case 4:
         var1[0] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var8;
+    var2['useSearchTerms'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 7;
     var4 = var6[var4];

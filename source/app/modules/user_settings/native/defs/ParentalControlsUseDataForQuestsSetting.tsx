@@ -29,24 +29,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
     var2 = {};
-    var11 = function title() {
-        var3 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var2 = 3;
-        var2 = var6[var2];
-        var5 = undefined;
-        var2 = var3.bind(var5)(var2);
-        var3 = var2.intl;
-        var2 = var3.string;
-        var4 = _closure1_slot1;
-        var1 = 4;
-        var1 = var6[var1];
-        var1 = var4.bind(var5)(var1);
-        var1 = var1.ZhaNu8;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var2['title'] = var11;
     var11 = function useDataForQuestsSettingTitle() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;

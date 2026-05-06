@@ -28,17 +28,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRadio;
     var2 = {};
-    var10 = 5;
-    var11 = var6[var10];
-    var11 = var5.bind(var1)(var11);
-    var12 = var11.intl;
-    var11 = var12.string;
-    var10 = var6[var10];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.t;
-    var10 = var10.tiCXaH;
-    var10 = var11.bind(var12)(var10);
-    var2['title'] = var10;
+    var10 = function useTitle() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 5;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.tiCXaH;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['useTitle'] = var10;
     var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
     var2['parent'] = var9;
     var9 = function useDmSpamFilterSettingOptions() {
@@ -95,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['onValueChange'] = var9;
-    var8 = function additionalSearchTerms() {
+    var8 = function useSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
         var2 = 5;
@@ -123,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[1] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var8;
+    var2['useSearchTerms'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 7;
     var4 = var6[var4];

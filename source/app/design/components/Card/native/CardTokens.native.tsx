@@ -1,13 +1,13 @@
 // app/design/components/Card/native/CardTokens.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var9 = require;
-    var12 = metroImportDefault;
+    var7 = require;
+    var10 = metroImportDefault;
     var3 = exports;
-    var10 = dependencyMap;
-    var _closure1_slot0 = var9;
-    var _closure1_slot1 = var12;
-    var _closure1_slot2 = var10;
-    var11 = function createCardBackgroundToken(arg1, arg2) {
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var8;
+    var9 = function createCardBackgroundToken(arg1, arg2) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var2 = arg2;
@@ -38,7 +38,7 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot3 = var11;
+    var _closure1_slot3 = var9;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -48,52 +48,33 @@ case 4:
     var1 = '__esModule';
     var1 = var5.bind(var6)(var3, var1, var4);
     var4 = 1;
-    var5 = var10[var4];
+    var5 = var8[var4];
     var1 = undefined;
-    var5 = var12.bind(var1)(var5);
+    var5 = var10.bind(var1)(var5);
     var5 = var5.colors;
     var6 = var5.TABLEROW_BACKGROUND_DEFAULT;
-    var5 = var10[var4];
-    var5 = var12.bind(var1)(var5);
+    var5 = var8[var4];
+    var5 = var10.bind(var1)(var5);
     var5 = var5.colors;
     var5 = var5.CARD_GRADIENT_BG;
-    var7 = var11.bind(var1)(var6, var5);
-    var5 = var10[var4];
-    var5 = var12.bind(var1)(var5);
-    var5 = var5.colors;
-    var6 = var5.CARD_SECONDARY_BG;
-    var5 = var10[var4];
-    var5 = var12.bind(var1)(var5);
-    var5 = var5.colors;
-    var5 = var5.CARD_GRADIENT_BG;
-    var6 = var11.bind(var1)(var6, var5);
-    var5 = var10[var4];
-    var5 = var12.bind(var1)(var5);
-    var5 = var5.colors;
-    var8 = var5.TABLEROW_BACKGROUND_PRESSED;
-    var5 = var10[var4];
-    var5 = var12.bind(var1)(var5);
-    var5 = var5.colors;
-    var5 = var5.CARD_GRADIENT_PRESSED_BG;
-    var5 = var11.bind(var1)(var8, var5);
-    var8 = var10[var4];
-    var8 = var12.bind(var1)(var8);
-    var8 = var8.colors;
-    var8 = var8.CARD_SECONDARY_PRESSED_BG;
-    var4 = var10[var4];
-    var4 = var12.bind(var1)(var4);
+    var5 = var9.bind(var1)(var6, var5);
+    var6 = var8[var4];
+    var6 = var10.bind(var1)(var6);
+    var6 = var6.colors;
+    var6 = var6.TABLEROW_BACKGROUND_PRESSED;
+    var4 = var8[var4];
+    var4 = var10.bind(var1)(var4);
     var4 = var4.colors;
     var4 = var4.CARD_GRADIENT_PRESSED_BG;
-    var4 = var11.bind(var1)(var8, var4);
-    var8 = 2;
-    var8 = var10[var8];
-    var10 = var9.bind(var1)(var8);
-    var9 = var10.fileFinishedImporting;
-    var8 = 'design/components/Card/native/CardTokens.native.tsx';
-    var8 = var9.bind(var10)(var8);
-    var3['CARD_PRIMARY_BG'] = var7;
-    var3['CARD_SECONDARY_BG'] = var6;
-    var6 = function getCardSecondaryBg(arg1) {
+    var4 = var9.bind(var1)(var6, var4);
+    var6 = 2;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'design/components/Card/native/CardTokens.native.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['CARD_PRIMARY_BG'] = var5;
+    var5 = function getCardSecondaryBg(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var4 = _closure1_slot3;
@@ -122,9 +103,8 @@ case 7:
             return var1;
         }
     };
-    var3['getCardSecondaryBg'] = var6;
-    var3['CARD_PRIMARY_PRESSED_BG'] = var5;
-    var3['CARD_SECONDARY_PRESSED_BG'] = var4;
+    var3['getCardSecondaryBg'] = var5;
+    var3['CARD_PRIMARY_PRESSED_BG'] = var4;
     var2 = function(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;

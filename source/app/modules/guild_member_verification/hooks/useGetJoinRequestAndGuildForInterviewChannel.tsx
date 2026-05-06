@@ -194,7 +194,7 @@ case 13:
                 var2 = 9;
                 var2 = var5[var2];
                 var3 = var3.bind(var4)(var2);
-                var2 = var3.fetchGuildJoinRequest;
+                var2 = var3.fetchJoinRequestForInterview;
                 var1 = _closure2_slot3;
                 var3 = var2.bind(var3)(var1);
                 var2 = var3.finally;

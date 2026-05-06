@@ -1454,7 +1454,7 @@ case 98:
         var15 = var15.BACKGROUND_BASE_LOWER;
         var9['backgroundColor'] = var15;
         var4['background'] = var9;
-        var9 = {'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'space-between', 'paddingHorizontal': 12, 'paddingTop': 8, 'paddingBottom': 12};
+        var9 = {'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'space-between', 'paddingHorizontal': 12, 'paddingVertical': 8};
         var4['headerRow'] = var9;
         var9 = {'backgroundColor': null, 'width': '100%', 'height': 1};
         var15 = var6[var10];

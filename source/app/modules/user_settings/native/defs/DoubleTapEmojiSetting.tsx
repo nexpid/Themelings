@@ -170,7 +170,7 @@ case 9:
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
     var2 = {};
-    var12 = function title() {
+    var12 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 18;
@@ -186,7 +186,7 @@ case 9:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var12;
+    var2['useTitle'] = var12;
     var11 = var11.CHAT;
     var2['parent'] = var11;
     var11 = function useDoubleTapEmojiSettingTrailing() {

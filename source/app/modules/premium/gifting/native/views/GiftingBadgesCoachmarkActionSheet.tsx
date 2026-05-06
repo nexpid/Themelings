@@ -128,7 +128,7 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var18 = var5.bind(var7)(var3, var2);
+            var17 = var5.bind(var7)(var3, var2);
             var5 = _closure1_slot3;
             var7 = var5.useCallback;
             var3 = new Array(1);
@@ -178,7 +178,7 @@ case 2:
             };
             var5 = var3.bind(var5)(var1, var2);
             var9 = null;
-            if(!(var9 == var18)) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var9 == var17)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -208,7 +208,7 @@ case 4:
             var1 = var2.bind(var4)(var1);
             var2 = var1.a+jfuy;
             var1 = {};
-            var8 = var18.name;
+            var8 = var17.name;
             var10 = var9 != var8;
             var7 = '';
             if(!var10) { _fun0001_ip = 7; continue _fun0001 }
@@ -218,7 +218,7 @@ case 7:
             var1['tierName'] = var7;
             var22 = var3.bind(var6)(var2, var1);
 case 6:
-            if(!(var9 == var18)) { _fun0001_ip = 9; continue _fun0001 }
+            if(!(var9 == var17)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -268,23 +268,19 @@ case 11:
             var8 = {};
             var10 = var12.graphicContainer;
             var8['style'] = var10;
-            var9 = var9 != var18;
+            var9 = var9 != var17;
             if(!var9) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var13 = _closure1_slot7;
             var11 = _closure1_slot1;
-            var19 = _closure1_slot2;
-            var17 = 14;
-            var10 = var19[var17];
+            var18 = _closure1_slot2;
+            var10 = 14;
+            var10 = var18[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
-            var18 = var18.simple_icon;
-            var10['icon'] = var18;
-            var18 = _closure1_slot0;
-            var17 = var19[var17];
-            var17 = var18.bind(var4)(var17);
-            var17 = var17.GiftingBadgeIconSize;
-            var17 = var17.XLARGE;
+            var17 = var17.simple_icon;
+            var10['icon'] = var17;
+            var17 = 90;
             var10['size'] = var17;
             var9 = var13.bind(var4)(var11, var10);
 case 12:

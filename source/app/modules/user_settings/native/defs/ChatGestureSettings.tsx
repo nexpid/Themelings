@@ -61,7 +61,7 @@ case 2:
     var9 = var7.bind(var1)(var5);
     var6 = var9.createRadio;
     var5 = {};
-    var11 = function title() {
+    var11 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -77,8 +77,8 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['title'] = var11;
-    var11 = function additionalSearchTerms() {
+    var5['useTitle'] = var11;
+    var11 = function useSearchTerms() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -96,7 +96,7 @@ case 2:
         var1[0] = var2;
         return var1;
     };
-    var5['additionalSearchTerms'] = var11;
+    var5['useSearchTerms'] = var11;
     var10 = var10.SWIPE_RIGHT_TO_LEFT;
     var5['parent'] = var10;
     var5['useValue'] = var4;

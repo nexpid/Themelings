@@ -196,8 +196,11 @@ case 2:
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
     var2 = {};
-    var10 = 'STAFF ONLY - Find your friends deletion';
-    var2['title'] = var10;
+    var10 = function useTitle() {
+        var1 = 'STAFF ONLY - Find your friends deletion';
+        return var1;
+    };
+    var2['useTitle'] = var10;
     var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
     var2['parent'] = var9;
     var9 = function useIsFindYourFriendsDeletionDisabled() {

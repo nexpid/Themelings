@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var7.bind(var1)(var5);
     var6 = var9.createRadio;
     var5 = {};
-    var12 = function title() {
+    var12 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 3;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['title'] = var12;
+    var5['useTitle'] = var12;
     var11 = var11.NOTIFICATIONS;
     var5['parent'] = var11;
     var11 = 2;
