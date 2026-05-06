@@ -2042,6 +2042,15 @@
       }
     ]
   },
+  "MOBILE_SEARCHBAR_GRADIENT_BACKGROUND": {
+    "14": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ]
+  },
   "MOBILE_SEGMENTED_CONTROL_BACKGROUND": {
     "14": [
       "#0f1014d9",
