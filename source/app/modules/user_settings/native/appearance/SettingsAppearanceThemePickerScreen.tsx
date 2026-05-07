@@ -1381,35 +1381,35 @@ case 0:
                         var1 = var2[var1];
                         var4 = var1.theme;
                         var2 = 'system';
-                        if(!(var2 !== var4)) { _fun0014_ip = 52; continue _fun0014 }
+                        if(!(var2 !== var4)) { _fun0014_ip = 12; continue _fun0014 }
 case 21:
                         var1 = var1.theme;
-                        _fun0014_ip = 53; continue _fun0014;
-case 52:
+                        _fun0014_ip = 52; continue _fun0014;
+case 12:
                         var4 = _closure2_slot15;
                         var2 = null;
-                        if(!(var2 == var4)) { _fun0014_ip = 54; continue _fun0014 }
+                        if(!(var2 == var4)) { _fun0014_ip = 53; continue _fun0014 }
 case 2:
                         var2 = _closure1_slot12;
                         var2 = var2.DARKER;
                         _fun0014_ip = 16; continue _fun0014;
-case 54:
+case 53:
                         var2 = _closure2_slot15;
 case 16:
                         var1 = var2;
-case 53:
+case 52:
                         var4 = _closure1_slot12;
                         var4 = var4.DARK;
                         var4 = var1 !== var4;
-                        if(var4) { _fun0014_ip = 55; continue _fun0014 }
-case 56:
-                        var4 = _closure2_slot7;
+                        if(var4) { _fun0014_ip = 54; continue _fun0014 }
 case 55:
-                        if(var4) { _fun0014_ip = 57; continue _fun0014 }
-case 58:
+                        var4 = _closure2_slot7;
+case 54:
+                        if(var4) { _fun0014_ip = 56; continue _fun0014 }
+case 57:
                         var4 = _closure1_slot12;
                         var1 = var4.DARKER;
-case 57:
+case 56:
                         var6 = _closure2_slot18;
                         var5 = var6.set;
                         var7 = _closure1_slot17;
@@ -1420,10 +1420,10 @@ case 57:
                         var2 = _closure1_slot12;
                         var4 = var2.LIGHT;
                         var2 = 'light-content';
-                        if(!(var1 === var4)) { _fun0014_ip = 59; continue _fun0014 }
-case 60:
-                        var2 = 'dark-content';
+                        if(!(var1 === var4)) { _fun0014_ip = 58; continue _fun0014 }
 case 59:
+                        var2 = 'dark-content';
+case 58:
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
                         return var1;
@@ -1449,12 +1449,12 @@ case 59:
                 var1['data'] = var7;
                 var1['useGradientBackground'] = var5;
                 var7 = var5;
-                if(!var7) { _fun0003_ip = 61; continue _fun0003 }
-case 62:
-                var7 = var15;
+                if(!var7) { _fun0003_ip = 60; continue _fun0003 }
 case 61:
-                if(!var7) { _fun0003_ip = 63; continue _fun0003 }
-case 64:
+                var7 = var15;
+case 60:
+                if(!var7) { _fun0003_ip = 62; continue _fun0003 }
+case 63:
                 var15 = var11[var9];
                 var16 = var15.type;
                 var17 = _closure1_slot0;
@@ -1464,7 +1464,7 @@ case 64:
                 var15 = var15.ClientThemeType;
                 var15 = var15.STANDARD_BACKGROUND_THEME;
                 var7 = var16 !== var15;
-case 63:
+case 62:
                 var1['isNitroLocked'] = var7;
                 var15 = var3.bind(var4)(var2, var1);
                 var3 = _closure1_slot14;
@@ -1478,15 +1478,15 @@ case 63:
                 var7 = {'width': '100%', 'height': '100%'};
                 var6[0] = var7;
                 var7 = !var5;
-                if(var5) { _fun0003_ip = 65; continue _fun0003 }
-case 66:
-                var7 = var8.bgBasePrimary;
+                if(var5) { _fun0003_ip = 64; continue _fun0003 }
 case 65:
+                var7 = var8.bgBasePrimary;
+case 64:
                 var6[1] = var7;
                 var1['style'] = var6;
                 var6 = null;
-                if(!var5) { _fun0003_ip = 67; continue _fun0003 }
-case 68:
+                if(!var5) { _fun0003_ip = 66; continue _fun0003 }
+case 67:
                 var8 = _closure1_slot13;
                 var7 = _closure1_slot1;
                 var16 = _closure1_slot2;
@@ -1499,7 +1499,7 @@ case 68:
                 var9 = true;
                 var5['isDimmed'] = var9;
                 var6 = var8.bind(var4)(var7, var5);
-case 67:
+case 66:
                 var5 = new Array(2);
                 var5[0] = var6;
                 var8 = _closure1_slot14;
@@ -1516,10 +1516,10 @@ case 67:
                 var9 = new Array(3);
                 var9[0] = var11;
                 var11 = var10;
-                if(!var11) { _fun0003_ip = 69; continue _fun0003 }
-case 70:
-                var11 = var19.landscapeContainer;
+                if(!var11) { _fun0003_ip = 68; continue _fun0003 }
 case 69:
+                var11 = var19.landscapeContainer;
+case 68:
                 var9[1] = var11;
                 var11 = {};
                 var11['marginTop'] = var12;
@@ -1540,15 +1540,15 @@ case 69:
                 var12 = _closure1_slot14;
                 var11 = _closure1_slot15;
                 var13 = {};
-                if(var10) { _fun0003_ip = 71; continue _fun0003 }
-case 72:
+                if(var10) { _fun0003_ip = 70; continue _fun0003 }
+case 71:
                 var10 = new Array(2);
                 var10[0] = var15;
                 var10[1] = var18;
                 var13['children'] = var10;
                 var10 = var13;
-                _fun0003_ip = 73; continue _fun0003;
-case 71:
+                _fun0003_ip = 72; continue _fun0003;
+case 70:
                 var17 = _closure1_slot13;
                 var16 = _closure1_slot5;
                 var14 = {};
@@ -1566,7 +1566,7 @@ case 71:
                 var14[1] = var15;
                 var13['children'] = var14;
                 var10 = var13;
-case 73:
+case 72:
                 var10 = var12.bind(var4)(var11, var10);
                 var9[1] = var10;
                 var6['children'] = var9;
@@ -1603,14 +1603,14 @@ case 27:
 case 2:
                 var8 = var1.hasSaveButton;
                 if(!(var8 === var4)) { _fun0015_ip = 46; continue _fun0015 }
-case 74:
+case 73:
                 var8 = false;
 case 46:
                 var7 = var1.hasMidnightNux;
-                if(!(var7 === var4)) { _fun0015_ip = 75; continue _fun0015 }
-case 53:
+                if(!(var7 === var4)) { _fun0015_ip = 74; continue _fun0015 }
+case 52:
                 var7 = false;
-case 75:
+case 74:
                 var _closure2_slot0 = var4;
                 var _closure2_slot1 = var4;
                 var _closure2_slot2 = var4;
@@ -1736,8 +1736,8 @@ case 0:
                                 var1 = var1.ClientThemeType;
                                 var1 = var1.BACKGROUND_GRADIENT_PRESET;
                                 var1 = var4 !== var1;
-                                if(var1) { _fun0017_ip = 76; continue _fun0017 }
-case 77:
+                                if(var1) { _fun0017_ip = 54; continue _fun0017 }
+case 75:
                                 var3 = var3.id;
                                 var4 = _closure1_slot0;
                                 var6 = _closure1_slot2;
@@ -1747,11 +1747,11 @@ case 77:
                                 var2 = var2.BackgroundGradientPresetId;
                                 var2 = var2.EASTER_EGG;
                                 var1 = var3 !== var2;
-case 76:
-                                if(var1) { _fun0017_ip = 78; continue _fun0017 }
-case 79:
+case 54:
+                                if(var1) { _fun0017_ip = 76; continue _fun0017 }
+case 57:
                                 var1 = _closure3_slot0;
-case 78:
+case 76:
                                 return var1;
                             }
                         };
@@ -1770,7 +1770,7 @@ case 78:
 case 0:
                         var1 = _closure2_slot5;
                         var2 = _closure2_slot6;
-                        if(var1) { _fun0018_ip = 80; continue _fun0018 }
+                        if(var1) { _fun0018_ip = 77; continue _fun0018 }
 case 22:
                         var1 = 1;
                         var4 = var2[var1];
@@ -1788,7 +1788,7 @@ case 22:
                         var6 = var4;
                         var3 = arraySpread(var8, var7, var6);
                         _fun0018_ip = 33; continue _fun0018;
-case 80:
+case 77:
                         var1 = var2;
 case 33:
                         return var1;

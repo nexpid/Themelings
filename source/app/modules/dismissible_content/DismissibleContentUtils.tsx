@@ -142,7 +142,7 @@ case 10:
 case 3:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 17;
+            var3 = 16;
             var3 = var6[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.handleDCDismissed;
@@ -485,7 +485,7 @@ case 0:
             var6 = var3[var2];
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var2 = 18;
+            var2 = 17;
             var2 = var13[var2];
             var5 = var3.bind(var1)(var2);
             var4 = var5.track;
@@ -511,7 +511,7 @@ case 40:
             var2['group_name'] = var9;
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var8 = 19;
+            var8 = 18;
             var8 = var11[var8];
             var8 = var9.bind(var1)(var8);
             var9 = var8.CONTENT_TYPES_WITH_BYPASS_FATIGUE;
@@ -592,7 +592,7 @@ case 50:
 case 54:
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var2 = 18;
+            var2 = 17;
             var2 = var15[var2];
             var5 = var3.bind(var1)(var2);
             var4 = var5.track;
@@ -628,7 +628,7 @@ case 59:
             var2['group_name'] = var11;
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 19;
+            var10 = 18;
             var10 = var13[var10];
             var10 = var11.bind(var1)(var10);
             var11 = var10.CONTENT_TYPES_WITH_BYPASS_FATIGUE;
@@ -727,7 +727,7 @@ case 63:
     var15 = new var25[var19](var24, var23);
     var15 = var15 instanceof Object ? var15 : var18;
     var _closure1_slot14 = var15;
-    var15 = 20;
+    var15 = 19;
     var15 = var17[var15];
     var17 = var16.bind(var1)(var15);
     var16 = var17.fileFinishedImporting;
@@ -1371,7 +1371,7 @@ case 0:
             var5 = _closure1_slot10;
             var1 = undefined;
             var5 = var5.bind(var1)(var7);
-            if(var5) { _fun0018_ip = 117; continue _fun0018 }
+            if(var5) { _fun0018_ip = 102; continue _fun0018 }
 case 21:
             var10 = _closure1_slot7;
             var9 = var10.hasUserHitDCCap;
@@ -1379,43 +1379,29 @@ case 21:
             var11 = var5 == var6;
             var8 = undefined;
             if(var11) { _fun0018_ip = 31; continue _fun0018 }
-case 118:
+case 117:
             var8 = var6.guildId;
 case 31:
             var8 = var9.bind(var10)(var7, var8);
-            if(var8) { _fun0018_ip = 117; continue _fun0018 }
+            if(var8) { _fun0018_ip = 102; continue _fun0018 }
 case 4:
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var8 = 15;
-            var8 = var10[var8];
-            var10 = var9.bind(var1)(var8);
-            var9 = var10.getConfig;
-            var8 = {};
-            var11 = 'requestMarkDismissibleContentAsShown';
-            var8['location'] = var11;
-            var8 = var9.bind(var10)(var8);
-            var8 = var8.enabled;
-            if(!var8) { _fun0018_ip = 119; continue _fun0018 }
-case 51:
-            var9 = arg4;
-            var8 = var5 == var9;
-case 119:
-            if(!var8) { _fun0018_ip = 97; continue _fun0018 }
-case 120:
+            var8 = arg4;
+            var8 = var5 == var8;
+            if(!var8) { _fun0018_ip = 78; continue _fun0018 }
+case 11:
             var10 = _closure1_slot14;
             var9 = var10.has;
             var8 = var9.bind(var10)(var7);
-case 97:
-            if(!var3) { _fun0018_ip = 86; continue _fun0018 }
-case 121:
+case 78:
+            if(!var3) { _fun0018_ip = 118; continue _fun0018 }
+case 119:
             var3 = !var8;
-case 86:
-            if(var3) { _fun0018_ip = 117; continue _fun0018 }
-case 100:
+case 118:
+            if(var3) { _fun0018_ip = 102; continue _fun0018 }
+case 120:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var3 = 16;
+            var3 = 15;
             var3 = var9[var3];
             var9 = var8.bind(var1)(var3);
             var8 = var9.dispatch;
@@ -1432,17 +1418,17 @@ case 100:
             var2['content'] = var7;
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0018_ip = 92; continue _fun0018 }
+            if(var7) { _fun0018_ip = 121; continue _fun0018 }
 case 122:
             var5 = var6.groupName;
-case 92:
+case 121:
             var2['groupName'] = var5;
             var4 = function onAdded() {
                 _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 16;
                     var2 = var2[var1];
                     var1 = undefined;
                     var8 = var4.bind(var1)(var2);
@@ -1463,24 +1449,24 @@ case 17:
                     var3 = _closure2_slot1;
                     var4 = var6.bind(var1)(var4, var3);
                     var3 = var5 == var3;
-                    if(var3) { _fun0019_ip = 124; continue _fun0019 }
-case 125:
+                    if(var3) { _fun0019_ip = 118; continue _fun0019 }
+case 124:
                     var4 = _closure2_slot1;
                     var4 = var4.onShown;
                     var3 = var5 == var4;
-case 124:
-                    if(var3) { _fun0019_ip = 126; continue _fun0019 }
-case 127:
+case 118:
+                    if(var3) { _fun0019_ip = 125; continue _fun0019 }
+case 120:
                     var3 = _closure2_slot1;
                     var2 = var3.onShown;
                     var2 = var2.bind(var3)();
-case 126:
+case 125:
                     return var1;
                 }
             };
             var2['onAdded'] = var4;
             var2 = var3.bind(var1)(var2);
-case 117:
+case 102:
             return var1;
         }
     };

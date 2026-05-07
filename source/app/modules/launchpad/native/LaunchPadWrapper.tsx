@@ -303,22 +303,6 @@ case 10:
                 var2 = new Array(1);
                 var2[0] = var5;
                 var1 = function() {
-                    var4 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var3 = 8;
-                    var3 = var7[var3];
-                    var6 = undefined;
-                    var5 = var4.bind(var6)(var3);
-                    var4 = var5.addRouteChangeListener;
-                    var3 = function() {
-                        var3 = _closure3_slot0;
-                        var2 = var3.setLaunchPadPosition;
-                        var1 = 0;
-                        var1 = var2.bind(var3)(var1);
-                        return var1;
-                    };
-                    var3 = var4.bind(var5)(var3);
-                    var _closure4_slot0 = var3;
                     var11 = function showLaunchPad() {
                         var3 = _closure3_slot0;
                         var2 = var3.setLaunchPadShown;
@@ -330,7 +314,7 @@ case 10:
                         var1 = undefined;
                         return var1;
                     };
-                    var _closure4_slot1 = var11;
+                    var _closure4_slot0 = var11;
                     var5 = function hideLaunchPad() {
                         var3 = _closure3_slot0;
                         var2 = var3.setLaunchPadShown;
@@ -342,7 +326,16 @@ case 10:
                         var1 = undefined;
                         return var1;
                     };
-                    var _closure4_slot2 = var5;
+                    var _closure4_slot1 = var5;
+                    var4 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var3 = 8;
+                    var3 = var7[var3];
+                    var6 = undefined;
+                    var4 = var4.bind(var6)(var3);
+                    var3 = var4.addRouteChangeListener;
+                    var3 = var3.bind(var4)(var5);
+                    var _closure4_slot2 = var3;
                     var4 = _closure1_slot0;
                     var3 = 9;
                     var8 = var7[var3];
@@ -359,7 +352,7 @@ case 10:
                     var2 = var2.LAUNCH_PAD_HIDE;
                     var2 = var3.bind(var4)(var2, var5);
                     var1 = function() {
-                        var3 = _closure4_slot0;
+                        var3 = _closure4_slot2;
                         var1 = undefined;
                         var3 = var3.bind(var1)();
                         var5 = _closure1_slot0;
@@ -371,14 +364,14 @@ case 10:
                         var9 = var10.unsubscribe;
                         var3 = _closure1_slot11;
                         var8 = var3.LAUNCH_PAD_SHOW;
-                        var7 = _closure4_slot1;
+                        var7 = _closure4_slot0;
                         var7 = var9.bind(var10)(var8, var7);
                         var4 = var6[var4];
                         var4 = var5.bind(var1)(var4);
                         var5 = var4.ComponentDispatch;
                         var4 = var5.unsubscribe;
                         var3 = var3.LAUNCH_PAD_HIDE;
-                        var2 = _closure4_slot2;
+                        var2 = _closure4_slot1;
                         var2 = var4.bind(var5)(var3, var2);
                         return var1;
                     };

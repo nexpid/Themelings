@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = /^\/app\/(\d+)(?:\/)?/;
     var _closure1_slot4 = var4;
-    var4 = 3;
+    var4 = 4;
     var5 = var5[var4];
     var4 = require;
     var6 = var4.bind(var1)(var5);
@@ -84,82 +84,136 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var4 = arg1;
-                var2 = var4;
+                var3 = arg1;
+                var9 = var3;
                 var1 = undefined;
-                var5 = undefined;
+                var6 = undefined;
+                var11 = undefined;
                 var7 = undefined;
-                var3 = undefined;
-                var6 = null;
-                if(!(var6 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+                var2 = undefined;
+                var8 = null;
+                if(!(var8 != var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3: // try_start_0
                 var4 = global;
-                var10 = var4.URL;
-                var15 = var2;
-                var9 = var10.prototype;
-                var9 = Object.create(var9, {constructor: {value: var10}});
-                var16 = var9;
-                var8 = new var16[var10](var15, var14);
-                var5 = var8 instanceof Object ? var8 : var9;
+                var12 = var4.URL;
+                var17 = var9;
+                var10 = var12.prototype;
+                var10 = Object.create(var10, {constructor: {value: var12}});
+                var18 = var10;
+                var3 = new var18[var12](var17, var16);
+                var6 = var3 instanceof Object ? var3 : var10;
 case 4: // try_end0
-                var8 = var5;
-                var9 = var8.hostname;
-                var8 = 'store.steampowered.com';
-                if(!(var8 === var9)) { _fun0001_ip = 5; continue _fun0001 }
+                var3 = var6;
+                var10 = var3.hostname;
+                var3 = 'store.steampowered.com';
+                if(!(var3 === var10)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-                var8 = _closure2_slot1;
-                if(var8) { _fun0001_ip = 7; continue _fun0001 }
-case 5:
-                var9 = var5;
-                var12 = var9.searchParams;
-                var11 = var12.set;
-                var10 = 'utm_source';
-                var8 = 'discord';
-                var8 = var11.bind(var12)(var10, var8);
-                var8 = var9.toString;
-                var2 = var8.bind(var9)();
-                _fun0001_ip = 8; continue _fun0001;
+                var10 = _closure2_slot1;
+                if(!var10) { _fun0001_ip = 5; continue _fun0001 }
 case 7:
-                var9 = var5.pathname;
-                var8 = var9.match;
-                var5 = _closure1_slot4;
-                var5 = var8.bind(var9)(var5);
-                var7 = var5;
-                var8 = var6 == var5;
-                var5 = undefined;
-                if(var8) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-                var8 = var7;
-                var7 = 1;
-                var5 = var8[var7];
+                var10 = var6;
+                var13 = var10.pathname;
+                var12 = var13.match;
+                var10 = _closure1_slot4;
+                var10 = var12.bind(var13)(var10);
+                var11 = var10;
+                var12 = var8 == var10;
+                var10 = undefined;
+                if(var12) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                var3 = var5;
-                if(!(var6 != var5)) { _fun0001_ip = 8; continue _fun0001 }
-case 11:
-                var9 = var3;
-                var3 = var4.HermesInternal;
-                var8 = var3.concat;
-                var7 = '';
-                var5 = 'steam';
-                var3 = '://store/';
-                var2 = var8.bind(var7)(var5, var3, var9);
+                var12 = var11;
+                var11 = 1;
+                var10 = var12[var11];
 case 8:
-                var5 = _closure2_slot0;
-                if(!(var6 == var5)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-                var8 = var4.window;
-                var7 = var8.open;
-                var6 = var2;
-                var5 = '_blank';
-                var4 = 'noreferrer noopener';
-                var4 = var7.bind(var8)(var6, var5, var4);
-                _fun0001_ip = 2; continue _fun0001;
+                var7 = var10;
+                if(!(var8 == var10)) { _fun0001_ip = 10; continue _fun0001 }
+case 5:
+                var11 = var6;
+                var14 = var11.searchParams;
+                var13 = var14.set;
+                var12 = 'utm_source';
+                var10 = 'discord';
+                var10 = var13.bind(var14)(var12, var10);
+                var10 = var11.toString;
+                var9 = var10.bind(var11)();
+                var11 = _closure2_slot0;
+                if(!(var8 == var11)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-                var3 = _closure2_slot0;
-                var2 = var3.bind(var1)(var2);
+                var12 = _closure1_slot0;
+                var13 = _closure1_slot1;
+                var11 = 3;
+                var11 = var13[var11];
+                var12 = var12.bind(var1)(var11);
+                var11 = var9;
+                var11 = var12.bind(var1)(var11);
+                _fun0001_ip = 2; continue _fun0001;
+case 11:
+                var10 = _closure2_slot0;
+                var9 = var10.bind(var1)(var9);
 case 2:
                 return var1;
-case 14: // catch_target0
+case 10:
+                var12 = var7;
+                var7 = var4.HermesInternal;
+                var11 = var7.concat;
+                var10 = '';
+                var9 = 'steam';
+                var7 = '://store/';
+                var2 = var11.bind(var10)(var9, var7, var12);
+                var7 = _closure2_slot0;
+                if(!(var8 == var7)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+                var7 = var6;
+                var10 = var7.searchParams;
+                var9 = var10.set;
+                var8 = 'utm_source';
+                var6 = 'discord';
+                var6 = var9.bind(var10)(var8, var6);
+                var6 = var7.toString;
+                var6 = var6.bind(var7)();
+                var _closure3_slot0 = var6;
+                var8 = var4.setTimeout;
+                var7 = function() {
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 3;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = _closure3_slot0;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var6 = 2500;
+                var6 = var8.bind(var1)(var7, var6);
+                var _closure3_slot1 = var6;
+                var9 = var4.window;
+                var8 = var9.addEventListener;
+                var7 = {};
+                var6 = true;
+                var7['once'] = var6;
+                var6 = 'blur';
+                var5 = function() {
+                    var1 = global;
+                    var3 = var1.clearTimeout;
+                    var2 = _closure3_slot1;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var5 = var8.bind(var9)(var6, var5, var7);
+                var4 = var4.window;
+                var5 = var4.location;
+                var4 = var2;
+                var5['href'] = var4;
+                var4 = undefined;
+                return var4;
+case 13:
+                var3 = _closure2_slot0;
+                var2 = var3.bind(var1)(var2);
+                var2 = undefined;
+                return var2;
+case 15: // catch_target0
                 CatchBlockStart(arg_register=1);
                 return var1;
             }

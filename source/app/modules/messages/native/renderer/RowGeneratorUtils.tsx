@@ -174,15 +174,15 @@ case 14:
             var5 = var6.getChannel;
             var1 = var7.getChannelId;
             var1 = var1.bind(var7)();
-            var10 = var5.bind(var6)(var1);
+            var9 = var5.bind(var6)(var1);
             var8 = _closure1_slot4;
             var6 = var8.getGuild;
             var1 = null;
-            var9 = var1 == var10;
+            var10 = var1 == var9;
             var5 = undefined;
-            if(var9) { _fun0002_ip = 15; continue _fun0002 }
+            if(var10) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var5 = var10.guild_id;
+            var5 = var9.guild_id;
 case 15:
             var6 = var6.bind(var8)(var5);
             var8 = _closure1_slot0;
@@ -190,9 +190,9 @@ case 15:
             var5 = 8;
             var5 = var9[var5];
             var9 = var8.bind(var3)(var5);
-            var8 = var9.canRenderOfficialMessages;
+            var8 = var9.isGuildOfficialMessagesEnabled;
             var5 = 'RowGeneratorUtils';
-            var5 = var8.bind(var9)(var6, var10, var5);
+            var5 = var8.bind(var9)(var6, var5);
             if(var5) { _fun0002_ip = 17; continue _fun0002 }
 case 13:
             var5 = var7.mentioned;

@@ -304,34 +304,34 @@ case 21:
                                     var11 = _closure3_slot1;
                                     var2 = var11.entity;
                                     var2 = var2.adContentIds;
-                                    var14 = var2[var3];
+                                    var17 = var2[var3];
                                     var4 = _closure1_slot0;
                                     var6 = _closure1_slot2;
                                     var2 = 16;
                                     var2 = var6[var2];
                                     var7 = var4.bind(var1)(var2);
                                     var2 = var7.getQuestLogger;
-                                    var16 = var2.bind(var7)();
-                                    var13 = var16.info;
+                                    var14 = var2.bind(var7)();
+                                    var13 = var14.info;
                                     var24 = var11.minViewTimeSeconds;
                                     var2 = 10;
                                     var2 = var6[var2];
-                                    var17 = var4.bind(var1)(var2);
-                                    var7 = var17.getQuestContentName;
+                                    var16 = var4.bind(var1)(var2);
+                                    var7 = var16.getQuestContentName;
                                     var2 = var11.questContent;
-                                    var22 = var7.bind(var17)(var2);
+                                    var22 = var7.bind(var16)(var2);
                                     var2 = global;
                                     var2 = var2.HermesInternal;
                                     var18 = var2.concat;
                                     var27 = '';
                                     var25 = ' ad content viewed for at least ';
                                     var23 = 's at ';
-                                    var26 = var14;
+                                    var26 = var17;
                                     var7 = var27[var18](var26, var25, var24, var23, var22, var21);
                                     var2 = {};
-                                    var17 = var11.id;
-                                    var2['impressionId'] = var17;
-                                    var2 = var13.bind(var16)(var7, var2);
+                                    var16 = var11.id;
+                                    var2['impressionId'] = var16;
+                                    var2 = var13.bind(var14)(var7, var2);
                                     var2 = 17;
                                     var2 = var6[var2];
                                     var6 = var4.bind(var1)(var2);
@@ -343,7 +343,7 @@ case 21:
                                     var13 = 'shouldExtendSession';
                                     var2[12] = var15;
                                     var13 = 'adContentId';
-                                    var2[12] = var14;
+                                    var2[12] = var17;
                                     var11 = var11.entity;
                                     var13 = var11.adCreativeType;
                                     var11 = 'adCreativeType';
@@ -358,11 +358,28 @@ case 21:
                                     var7 = copyDataProperties(var26, var25);
                                     var13 = null;
                                     var7 = var13 != var9;
+                                    var14 = null;
                                     if(!var7) { _fun0005_ip = 22; continue _fun0005 }
 case 23:
-                                    var13 = var9;
+                                    var14 = var9;
 case 22:
                                     var7 = 'metadata_sealed';
+                                    var11[6] = var14;
+                                    var14 = _closure1_slot0;
+                                    var7 = _closure1_slot2;
+                                    var7 = var7[var10];
+                                    var16 = var14.bind(var1)(var7);
+                                    var14 = var16.getAdTrafficMetadataSealed;
+                                    var7 = _closure3_slot1;
+                                    var7 = var7.questContent;
+                                    var7 = var14.bind(var16)(var7, var1, var17);
+                                    var14 = var13 != var7;
+                                    var13 = null;
+                                    if(!var14) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
+                                    var13 = var7;
+case 24:
+                                    var7 = 'traffic_metadata_sealed';
                                     var11[6] = var13;
                                     var13 = _closure3_slot1;
                                     var7 = var13.commonProperties;
@@ -372,7 +389,7 @@ case 22:
                                     var7 = 'properties';
                                     var2[6] = var11;
                                     var2 = var4.bind(var6)(var2);
-                                    _fun0005_ip = 24; continue _fun0005;
+                                    _fun0005_ip = 26; continue _fun0005;
 case 20:
                                     var2 = _closure3_slot1;
                                     var2 = var2.entity;
@@ -383,17 +400,17 @@ case 20:
                                     var11 = var2.bind(var3)(var14);
                                     var7 = null;
                                     var2 = var7 == var11;
-                                    if(var2) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+                                    if(var2) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                                     var4 = _closure1_slot0;
                                     var3 = _closure1_slot2;
                                     var3 = var3[var10];
                                     var4 = var4.bind(var1)(var3);
                                     var3 = var4.isQuestExpired;
                                     var2 = var3.bind(var4)(var11);
-case 25:
-                                    if(var2) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+case 27:
+                                    if(var2) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                                     var3 = _closure1_slot0;
                                     var2 = _closure1_slot2;
                                     var4 = 15;
@@ -407,7 +424,7 @@ case 28:
                                     var2 = new Array(1);
                                     var2[0] = var14;
                                     var2 = var4.bind(var6)(var3, var2);
-case 27:
+case 29:
                                     var3 = _closure1_slot0;
                                     var4 = _closure1_slot2;
                                     var2 = 16;
@@ -418,17 +435,17 @@ case 27:
                                     var12 = var16.info;
                                     var3 = var7 == var11;
                                     var2 = undefined;
-                                    if(var3) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+                                    if(var3) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                                     var3 = var11.config;
                                     var3 = var3.messages;
                                     var2 = var3.questName;
-case 29:
-                                    var21 = var14;
-                                    if(!(var7 != var2)) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
-                                    var21 = var2;
 case 31:
+                                    var21 = var14;
+                                    if(!(var7 != var2)) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
+                                    var21 = var2;
+case 33:
                                     var13 = _closure3_slot1;
                                     var24 = var13.minViewTimeSeconds;
                                     var3 = _closure1_slot0;
@@ -477,33 +494,11 @@ case 31:
                                     var12 = copyDataProperties(var26, var25);
                                     var13 = var7 != var9;
                                     var12 = null;
-                                    if(!var13) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
-                                    var12 = var9;
-case 33:
-                                    var9 = 'metadata_sealed';
-                                    var6[8] = var12;
-                                    var12 = _closure1_slot0;
-                                    var9 = _closure1_slot2;
-                                    var9 = var9[var10];
-                                    var14 = var12.bind(var1)(var9);
-                                    var13 = var14.getAdTrafficMetadataRaw;
-                                    var9 = _closure3_slot1;
-                                    var12 = var9.questContent;
-                                    var15 = var7 == var11;
-                                    var9 = undefined;
-                                    if(var15) { _fun0005_ip = 35; continue _fun0005 }
+                                    if(!var13) { _fun0005_ip = 35; continue _fun0005 }
 case 36:
-                                    var9 = var11.id;
-case 35:
-                                    var9 = var13.bind(var14)(var12, var9);
-                                    var13 = var7 != var9;
-                                    var12 = null;
-                                    if(!var13) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
                                     var12 = var9;
-case 37:
-                                    var9 = 'traffic_metadata_raw';
+case 35:
+                                    var9 = 'metadata_sealed';
                                     var6[8] = var12;
                                     var9 = _closure1_slot0;
                                     var8 = _closure1_slot2;
@@ -514,34 +509,34 @@ case 37:
                                     var8 = var5.questContent;
                                     var12 = var7 == var11;
                                     var5 = undefined;
-                                    if(var12) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                                    if(var12) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                                     var5 = var11.id;
-case 39:
+case 37:
                                     var5 = var9.bind(var10)(var8, var5);
                                     var8 = var7 != var5;
                                     var7 = null;
-                                    if(!var8) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                                    if(!var8) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                                     var7 = var5;
-case 41:
+case 39:
                                     var5 = 'traffic_metadata_sealed';
                                     var6[4] = var7;
                                     var5 = 'properties';
                                     var2[4] = var6;
                                     var2 = var3.bind(var4)(var2);
-case 24:
+case 26:
                                     return var1;
                                 }
                             };
                             var7 = var8.bind(var9)(var7);
                             var5 = var5.onImpressionCallback;
-                            if(!(var6 != var5)) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+                            if(!(var6 != var5)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
                             var5 = _closure3_slot1;
                             var4 = var5.onImpressionCallback;
                             var4 = var4.bind(var5)();
-case 43:
+case 41:
                             return var3;
 case 12:
                             return var2;
@@ -558,10 +553,10 @@ case 9:
 case 0:
                         var7 = arguments[0];
                         var1 = undefined;
-                        if(!(var7 === var1)) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+                        if(!(var7 === var1)) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
                         var7 = false;
-case 45:
+case 43:
                         var _closure4_slot0 = var7;
                         var _closure4_slot1 = var1;
                         var _closure4_slot2 = var1;
@@ -569,8 +564,8 @@ case 45:
                         var4 = _closure3_slot0;
                         var5 = var4.lastBeatTime;
                         var4 = null;
-                        if(!(var4 != var5)) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+                        if(!(var4 != var5)) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
                         var4 = global;
                         var8 = var4.Math;
                         var6 = var8.round;
@@ -612,8 +607,8 @@ case 0:
                                 var2 = var5.bind(var1)(var2);
                                 var2 = var2.AdCreativeType;
                                 var2 = var2.QUEST;
-                                if(!(var4 !== var2)) { _fun0007_ip = 49; continue _fun0007 }
-case 50:
+                                if(!(var4 !== var2)) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
                                 var2 = _closure3_slot0;
                                 var2 = var2.entity;
                                 var2 = var2.adContentIds;
@@ -629,10 +624,10 @@ case 50:
                                 var2 = _closure4_slot0;
                                 var15 = '';
                                 var14 = var15;
-                                if(!var2) { _fun0007_ip = 51; continue _fun0007 }
-case 52:
+                                if(!var2) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
                                 var14 = 'terminal ';
-case 51:
+case 49:
                                 var18 = _closure4_slot1;
                                 var2 = global;
                                 var2 = var2.HermesInternal;
@@ -680,8 +675,8 @@ case 51:
                                 var8 = 'properties';
                                 var2[7] = var9;
                                 var2 = var4.bind(var5)(var2);
-                                _fun0007_ip = 53; continue _fun0007;
-case 49:
+                                _fun0007_ip = 51; continue _fun0007;
+case 47:
                                 var2 = _closure3_slot0;
                                 var2 = var2.entity;
                                 var2 = var2.adContentIds;
@@ -700,24 +695,24 @@ case 49:
                                 var3 = null;
                                 var5 = var3 == var8;
                                 var2 = undefined;
-                                if(var5) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+                                if(var5) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
                                 var5 = var8.config;
                                 var5 = var5.messages;
                                 var2 = var5.questName;
-case 54:
+case 52:
                                 var16 = var10;
-                                if(!(var3 != var2)) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
+                                if(!(var3 != var2)) { _fun0007_ip = 54; continue _fun0007 }
+case 55:
                                 var16 = var2;
-case 56:
+case 54:
                                 var2 = _closure4_slot0;
                                 var15 = '';
                                 var14 = var15;
-                                if(!var2) { _fun0007_ip = 58; continue _fun0007 }
-case 59:
+                                if(!var2) { _fun0007_ip = 56; continue _fun0007 }
+case 57:
                                 var14 = 'terminal ';
-case 58:
+case 56:
                                 var18 = _closure4_slot1;
                                 var2 = global;
                                 var2 = var2.HermesInternal;
@@ -761,12 +756,12 @@ case 58:
                                 var5 = 'properties';
                                 var2[4] = var6;
                                 var2 = var3.bind(var4)(var2);
-case 53:
+case 51:
                                 return var1;
                             }
                         };
                         var3 = var4.bind(var5)(var3);
-case 47:
+case 45:
                         var3 = _closure3_slot0;
                         var2 = global;
                         var4 = var2.Date;
@@ -791,8 +786,8 @@ case 0:
                         var4 = var3 == var7;
                         var5 = undefined;
                         var3 = undefined;
-                        if(var4) { _fun0008_ip = 60; continue _fun0008 }
-case 61:
+                        if(var4) { _fun0008_ip = 58; continue _fun0008 }
+case 59:
                         var6 = _closure1_slot0;
                         var8 = _closure1_slot2;
                         var4 = 10;
@@ -800,7 +795,7 @@ case 61:
                         var6 = var6.bind(var5)(var4);
                         var4 = var6.getQuestStatus;
                         var3 = var4.bind(var6)(var7);
-case 60:
+case 58:
                         var1['quest_status'] = var3;
                         var4 = _closure1_slot0;
                         var6 = _closure1_slot2;
@@ -919,36 +914,36 @@ case 0:
                             var2 = var6.bind(var1)(var2);
                             var2 = var2.AdCreativeType;
                             var2 = var2.QUEST;
-                            if(!(var4 !== var2)) { _fun0009_ip = 62; continue _fun0009 }
+                            if(!(var4 !== var2)) { _fun0009_ip = 52; continue _fun0009 }
 case 5:
                             var11 = _closure3_slot0;
                             var2 = var11.entity;
                             var2 = var2.adContentIds;
-                            var13 = var2[var3];
+                            var15 = var2[var3];
                             var4 = _closure1_slot0;
                             var6 = _closure1_slot2;
                             var2 = 16;
                             var2 = var6[var2];
                             var7 = var4.bind(var1)(var2);
                             var2 = var7.getQuestLogger;
-                            var14 = var2.bind(var7)();
-                            var12 = var14.info;
+                            var13 = var2.bind(var7)();
+                            var12 = var13.info;
                             var2 = 10;
                             var2 = var6[var2];
-                            var15 = var4.bind(var1)(var2);
-                            var7 = var15.getQuestContentName;
+                            var14 = var4.bind(var1)(var2);
+                            var7 = var14.getQuestContentName;
                             var2 = var11.questContent;
-                            var16 = var7.bind(var15)(var2);
+                            var16 = var7.bind(var14)(var2);
                             var2 = global;
                             var2 = var2.HermesInternal;
-                            var15 = var2.concat;
+                            var14 = var2.concat;
                             var7 = '';
                             var2 = ' ad content became visible at ';
-                            var7 = var15.bind(var7)(var13, var2, var16);
+                            var7 = var14.bind(var7)(var15, var2, var16);
                             var2 = {};
-                            var15 = var11.id;
-                            var2['impressionId'] = var15;
-                            var2 = var12.bind(var14)(var7, var2);
+                            var14 = var11.id;
+                            var2['impressionId'] = var14;
+                            var2 = var12.bind(var13)(var7, var2);
                             var2 = 17;
                             var2 = var6[var2];
                             var6 = var4.bind(var1)(var2);
@@ -958,7 +953,7 @@ case 5:
                             var21 = var2;
                             var12 = copyDataProperties(var21, var20);
                             var12 = 'adContentId';
-                            var2[11] = var13;
+                            var2[11] = var15;
                             var11 = var11.entity;
                             var12 = var11.adCreativeType;
                             var11 = 'adCreativeType';
@@ -973,11 +968,28 @@ case 5:
                             var7 = copyDataProperties(var21, var20);
                             var12 = null;
                             var7 = var12 != var9;
-                            if(!var7) { _fun0009_ip = 63; continue _fun0009 }
-case 64:
-                            var12 = var9;
-case 63:
+                            var13 = null;
+                            if(!var7) { _fun0009_ip = 60; continue _fun0009 }
+case 61:
+                            var13 = var9;
+case 60:
                             var7 = 'metadata_sealed';
+                            var11[6] = var13;
+                            var13 = _closure1_slot0;
+                            var7 = _closure1_slot2;
+                            var7 = var7[var10];
+                            var14 = var13.bind(var1)(var7);
+                            var13 = var14.getAdTrafficMetadataSealed;
+                            var7 = _closure3_slot0;
+                            var7 = var7.questContent;
+                            var7 = var13.bind(var14)(var7, var1, var15);
+                            var13 = var12 != var7;
+                            var12 = null;
+                            if(!var13) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
+                            var12 = var7;
+case 62:
+                            var7 = 'traffic_metadata_sealed';
                             var11[6] = var12;
                             var12 = _closure3_slot0;
                             var7 = var12.commonProperties;
@@ -987,8 +999,8 @@ case 63:
                             var7 = 'properties';
                             var2[6] = var11;
                             var2 = var4.bind(var6)(var2);
-                            _fun0009_ip = 65; continue _fun0009;
-case 62:
+                            _fun0009_ip = 64; continue _fun0009;
+case 52:
                             var2 = _closure3_slot0;
                             var2 = var2.entity;
                             var2 = var2.adContentIds;
@@ -1007,17 +1019,17 @@ case 62:
                             var7 = null;
                             var3 = var7 == var11;
                             var2 = undefined;
-                            if(var3) { _fun0009_ip = 66; continue _fun0009 }
-case 67:
+                            if(var3) { _fun0009_ip = 65; continue _fun0009 }
+case 66:
                             var3 = var11.config;
                             var3 = var3.messages;
                             var2 = var3.questName;
-case 66:
+case 65:
                             var18 = var13;
-                            if(!(var7 != var2)) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
-                            var18 = var2;
+                            if(!(var7 != var2)) { _fun0009_ip = 67; continue _fun0009 }
 case 68:
+                            var18 = var2;
+case 67:
                             var3 = _closure1_slot0;
                             var4 = _closure1_slot2;
                             var2 = 10;
@@ -1057,64 +1069,42 @@ case 68:
                             var12 = copyDataProperties(var21, var20);
                             var13 = var7 != var9;
                             var12 = null;
-                            if(!var13) { _fun0009_ip = 70; continue _fun0009 }
-case 71:
-                            var12 = var9;
+                            if(!var13) { _fun0009_ip = 69; continue _fun0009 }
 case 70:
+                            var12 = var9;
+case 69:
                             var9 = 'metadata_sealed';
                             var6[8] = var12;
-                            var9 = _closure3_slot0;
-                            var12 = var9.commonProperties;
-                            var20 = var12.bind(var9)(var11);
+                            var5 = _closure3_slot0;
+                            var9 = var5.commonProperties;
+                            var20 = var9.bind(var5)(var11);
                             var21 = var6;
-                            var12 = copyDataProperties(var21, var20);
-                            var13 = _closure1_slot0;
-                            var12 = _closure1_slot2;
-                            var12 = var12[var10];
-                            var14 = var13.bind(var1)(var12);
-                            var13 = var14.getAdTrafficMetadataRaw;
-                            var12 = var9.questContent;
-                            var15 = var7 == var11;
-                            var9 = undefined;
-                            if(var15) { _fun0009_ip = 72; continue _fun0009 }
-case 73:
-                            var9 = var11.id;
-case 72:
-                            var9 = var13.bind(var14)(var12, var9);
-                            var13 = var7 != var9;
-                            var12 = null;
-                            if(!var13) { _fun0009_ip = 74; continue _fun0009 }
-case 75:
-                            var12 = var9;
-case 74:
-                            var9 = 'traffic_metadata_raw';
-                            var6[8] = var12;
+                            var9 = copyDataProperties(var21, var20);
                             var9 = _closure1_slot0;
                             var8 = _closure1_slot2;
                             var8 = var8[var10];
                             var10 = var9.bind(var1)(var8);
                             var9 = var10.getAdTrafficMetadataSealed;
-                            var5 = _closure3_slot0;
                             var8 = var5.questContent;
                             var12 = var7 == var11;
                             var5 = undefined;
-                            if(var12) { _fun0009_ip = 76; continue _fun0009 }
-case 77:
+                            if(var12) { _fun0009_ip = 71; continue _fun0009 }
+case 72:
                             var5 = var11.id;
-case 76:
+case 71:
                             var5 = var9.bind(var10)(var8, var5);
                             var8 = var7 != var5;
                             var7 = null;
-                            if(!var8) { _fun0009_ip = 78; continue _fun0009 }
-case 79:
+                            if(!var8) { _fun0009_ip = 73; continue _fun0009 }
+case 74:
                             var7 = var5;
-case 78:
+case 73:
                             var5 = 'traffic_metadata_sealed';
                             var6[4] = var7;
                             var5 = 'properties';
                             var2[4] = var6;
                             var2 = var3.bind(var4)(var2);
-case 65:
+case 64:
                             return var1;
                         }
                     };
@@ -1158,17 +1148,17 @@ case 65:
 case 0:
                         var2 = arguments[0];
                         var1 = undefined;
-                        if(!(var2 === var1)) { _fun0010_ip = 46; continue _fun0010 }
-case 80:
+                        if(!(var2 === var1)) { _fun0010_ip = 44; continue _fun0010 }
+case 75:
                         var2 = true;
-case 46:
-                        if(!var2) { _fun0010_ip = 81; continue _fun0010 }
-case 82:
+case 44:
+                        if(!var2) { _fun0010_ip = 76; continue _fun0010 }
+case 77:
                         var4 = _closure3_slot0;
                         var3 = var4.beat;
                         var2 = true;
                         var2 = var3.bind(var4)(var2);
-case 81:
+case 76:
                         var3 = _closure3_slot0;
                         var3['lastBeatTime'] = var1;
                         var2 = global;
@@ -1192,10 +1182,10 @@ case 81:
                 var15 = var2.questContentPosition;
                 var10 = var2.questContentRowIndex;
                 var14 = var2.minViewTimeSeconds;
-                if(!(var1 === var14)) { _fun0001_ip = 83; continue _fun0001 }
-case 84:
+                if(!(var1 === var14)) { _fun0001_ip = 78; continue _fun0001 }
+case 79:
                 var14 = _closure1_slot9;
-case 83:
+case 78:
                 var9 = var2.isQuestEnrollmentBlocked;
                 var8 = var2.onImpression;
                 var2 = var2.sourceQuestContent;
@@ -1325,13 +1315,13 @@ case 0:
                     var2 = _closure2_slot7;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0011_ip = 85; continue _fun0011 }
-case 86:
+                    if(!(var2 != var3)) { _fun0011_ip = 80; continue _fun0011 }
+case 81:
                     var1 = _closure2_slot7;
                     var2 = var1.current;
                     var1 = var2.stop;
                     var1 = var1.bind(var2)();
-case 85:
+case 80:
                     var1 = undefined;
                     return var1;
                 }
@@ -1368,57 +1358,57 @@ case 85:
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var5 = _closure2_slot3;
-                if(!var5) { _fun0012_ip = 82; continue _fun0012 }
-case 87:
-                var5 = _closure2_slot1;
+                if(!var5) { _fun0012_ip = 77; continue _fun0012 }
 case 82:
+                var5 = _closure2_slot1;
+case 77:
                 var2 = _closure2_slot2;
-                if(var2) { _fun0012_ip = 88; continue _fun0012 }
-case 89:
+                if(var2) { _fun0012_ip = 83; continue _fun0012 }
+case 84:
                 var2 = _closure2_slot4;
-case 88:
-                if(var2) { _fun0012_ip = 90; continue _fun0012 }
-case 91:
+case 83:
+                if(var2) { _fun0012_ip = 85; continue _fun0012 }
+case 86:
                 var2 = _closure2_slot6;
-case 90:
-                if(!var2) { _fun0012_ip = 92; continue _fun0012 }
-case 93:
+case 85:
+                if(!var2) { _fun0012_ip = 87; continue _fun0012 }
+case 88:
                 var2 = var5;
-case 92:
+case 87:
                 var3 = var2;
-                if(var3) { _fun0012_ip = 94; continue _fun0012 }
-case 95:
+                if(var3) { _fun0012_ip = 89; continue _fun0012 }
+case 90:
                 var4 = _closure2_slot2;
-                if(var4) { _fun0012_ip = 96; continue _fun0012 }
-case 48:
+                if(var4) { _fun0012_ip = 91; continue _fun0012 }
+case 46:
                 var4 = _closure2_slot4;
-case 96:
-                if(!var4) { _fun0012_ip = 97; continue _fun0012 }
+case 91:
+                if(!var4) { _fun0012_ip = 92; continue _fun0012 }
 case 3:
                 var4 = !var5;
-case 97:
+case 92:
                 var3 = var4;
+case 89:
+                if(var3) { _fun0012_ip = 93; continue _fun0012 }
 case 94:
-                if(var3) { _fun0012_ip = 98; continue _fun0012 }
-case 99:
                 var3 = _closure2_slot6;
-case 98:
-                if(!var3) { _fun0012_ip = 100; continue _fun0012 }
-case 101:
+case 93:
+                if(!var3) { _fun0012_ip = 95; continue _fun0012 }
+case 96:
                 var4 = _closure2_slot7;
                 var5 = var4.current;
                 var4 = null;
                 var3 = var4 != var5;
-case 100:
-                if(!var3) { _fun0012_ip = 102; continue _fun0012 }
-case 103:
+case 95:
+                if(!var3) { _fun0012_ip = 97; continue _fun0012 }
+case 98:
                 var3 = _closure2_slot7;
                 var4 = var3.current;
                 var3 = var4.stop;
                 var3 = var3.bind(var4)();
-case 102:
-                if(!var2) { _fun0012_ip = 49; continue _fun0012 }
-case 104:
+case 97:
+                if(!var2) { _fun0012_ip = 47; continue _fun0012 }
+case 99:
                 var5 = {};
                 var2 = _closure2_slot8;
                 var5['isQuestEnrollmentBlocked'] = var2;
@@ -1470,7 +1460,7 @@ case 104:
                 var2 = var1.current;
                 var1 = var2.start;
                 var1 = var1.bind(var2)();
-case 49:
+case 47:
                 var1 = undefined;
                 return var1;
             }

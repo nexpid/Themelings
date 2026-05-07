@@ -711,10 +711,10 @@ case 14:
                     var2 = var2.bind(var3)(var1);
                     var1 = null;
                     var3 = var1 != var2;
-                    if(!var3) { _fun0006_ip = 31; continue _fun0006 }
-case 10:
-                    var1 = var2;
+                    if(!var3) { _fun0006_ip = 12; continue _fun0006 }
 case 31:
+                    var1 = var2;
+case 12:
                     return var1;
                 }
             };

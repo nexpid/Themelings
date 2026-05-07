@@ -139,7 +139,7 @@ case 12:
     var _closure1_slot6 = var9;
     var6 = var6.Permissions;
     var _closure1_slot7 = var6;
-    var6 = 11;
+    var6 = 10;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -241,7 +241,7 @@ case 19:
         }
     };
     var3['canManageGuildOfficialMessages'] = var4;
-    var4 = function useCanManageGuildOfficialMessages(arg1, arg2, arg3) {
+    var2 = function useCanManageGuildOfficialMessages(arg1, arg2, arg3) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var7 = arg2;
@@ -279,121 +279,6 @@ case 21:
             return var1;
         }
     };
-    var3['useCanManageGuildOfficialMessages'] = var4;
-    var4 = function canRenderOfficialMessages(arg1, arg2, arg3) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-            var9 = arg1;
-            var6 = arg3;
-            var1 = _closure1_slot8;
-            var5 = undefined;
-            var1 = var1.bind(var5)(var9, var6);
-            if(!var1) { _fun0007_ip = 23; continue _fun0007 }
-case 20:
-            var8 = _closure1_slot4;
-            var7 = var8.can;
-            var2 = _closure1_slot7;
-            var4 = var2.MANAGE_OFFICIAL_MESSAGES;
-            var2 = arg2;
-            var2 = var7.bind(var8)(var4, var2);
-            if(var2) { _fun0007_ip = 24; continue _fun0007 }
-case 25:
-            var8 = _closure1_slot4;
-            var7 = var8.can;
-            var4 = _closure1_slot7;
-            var4 = var4.MANAGE_GUILD;
-            var2 = var7.bind(var8)(var4, var9);
-case 24:
-            if(var2) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
-            var4 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = 10;
-            var3 = var7[var3];
-            var3 = var4.bind(var5)(var3);
-            var5 = var3.OfficialMessagesRenderingExperiment;
-            var4 = var5.getConfig;
-            var3 = {};
-            var3['location'] = var6;
-            var3 = var4.bind(var5)(var3);
-            var2 = var3.enabled;
-case 26:
-            var1 = var2;
-case 23:
-            return var1;
-        }
-    };
-    var3['canRenderOfficialMessages'] = var4;
-    var2 = function useCanRenderOfficialMessages(arg1, arg2, arg3) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-            var8 = arg1;
-            var9 = arg2;
-            var12 = arg3;
-            var _closure2_slot0 = var8;
-            var _closure2_slot1 = var9;
-            var1 = _closure1_slot9;
-            var7 = undefined;
-            var1 = var1.bind(var7)(var8, var12);
-            var6 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var3 = 10;
-            var3 = var10[var3];
-            var3 = var6.bind(var7)(var3);
-            var11 = var3.OfficialMessagesRenderingExperiment;
-            var5 = var11.useConfig;
-            var3 = {};
-            var3['location'] = var12;
-            var3 = var5.bind(var11)(var3);
-            var3 = var3.enabled;
-            var5 = 9;
-            var5 = var10[var5];
-            var7 = var6.bind(var7)(var5);
-            var6 = var7.useStateFromStores;
-            var10 = _closure1_slot3;
-            var5 = new Array(2);
-            var5[0] = var10;
-            var4 = _closure1_slot4;
-            var5[1] = var4;
-            var4 = new Array(2);
-            var4[0] = var9;
-            var4[1] = var8;
-            var2 = function() {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-                    var5 = _closure1_slot3;
-                    var4 = var5.getGuild;
-                    var3 = _closure2_slot0;
-                    var5 = var4.bind(var5)(var3);
-                    var6 = _closure1_slot4;
-                    var4 = var6.can;
-                    var3 = _closure1_slot7;
-                    var3 = var3.MANAGE_OFFICIAL_MESSAGES;
-                    var1 = _closure2_slot1;
-                    var1 = var4.bind(var6)(var3, var1);
-                    if(var1) { _fun0009_ip = 28; continue _fun0009 }
-case 29:
-                    var4 = _closure1_slot4;
-                    var3 = var4.can;
-                    var2 = _closure1_slot7;
-                    var2 = var2.MANAGE_GUILD;
-                    var1 = var3.bind(var4)(var2, var5);
-case 28:
-                    return var1;
-                }
-            };
-            var2 = var6.bind(var7)(var5, var2, var4);
-            if(!var1) { _fun0008_ip = 30; continue _fun0008 }
-case 31:
-            if(var2) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
-            var2 = var3;
-case 32:
-            var1 = var2;
-case 30:
-            return var1;
-        }
-    };
-    var3['useCanRenderOfficialMessages'] = var2;
+    var3['useCanManageGuildOfficialMessages'] = var2;
     return var1;
 })();

@@ -678,7 +678,7 @@ case 34:
     var4['animatedOrb'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot23 = var4;
-    var4 = 41;
+    var4 = 43;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -758,15 +758,21 @@ case 0:
             var1 = var1.ACTIVE;
             var22 = var7 === var1;
             var1 = 28;
-            var7 = var9[var1];
-            var10 = var5.bind(var4)(var7);
-            var7 = var10.useShouldShowBonusOrbsUX;
-            var11 = var7.bind(var10)(var3);
-            var _closure2_slot4 = var11;
             var1 = var9[var1];
             var7 = var5.bind(var4)(var1);
-            var1 = var7.useEligibleForQuestOrbMultiplier;
-            var1 = var1.bind(var7)();
+            var1 = var7.useQuestOrbMultiplierEligibility;
+            var10 = var1.bind(var7)();
+            var1 = 29;
+            var1 = var9[var1];
+            var7 = var5.bind(var4)(var1);
+            var1 = var7.useShouldShowBonusOrbsUX;
+            var11 = var1.bind(var7)(var3, var10);
+            var _closure2_slot4 = var11;
+            var1 = 30;
+            var1 = var9[var1];
+            var7 = var5.bind(var4)(var1);
+            var1 = var7.shouldReceiveQuestOrbMultiplier;
+            var1 = var1.bind(var7)(var10);
             var _closure2_slot5 = var1;
             var10 = _closure1_slot5;
             var7 = var10.useMemo;
@@ -786,7 +792,7 @@ case 37:
 case 36:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 29;
+                    var1 = 31;
                     var3 = var3[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var3);
@@ -798,7 +804,7 @@ case 36:
 case 38:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 29;
+                    var3 = 31;
                     var4 = var4[var3];
                     var3 = undefined;
                     var4 = var5.bind(var3)(var4);
@@ -816,7 +822,7 @@ case 39:
             var3 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 30;
+                var2 = 32;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
@@ -827,7 +833,7 @@ case 39:
                 var1 = function() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 30;
+                    var1 = 32;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -874,12 +880,12 @@ case 39:
                 var2 = 'QuestOrbsRewardModal';
                 var2 = var3.bind(var4)(var2);
                 var3 = _closure1_slot0;
-                var2 = 31;
+                var2 = 33;
                 var2 = var8[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openCollectiblesShopMobile;
                 var2 = {};
-                var6 = 32;
+                var6 = 34;
                 var9 = var8[var6];
                 var9 = var7.bind(var1)(var9);
                 var10 = var9.MOBILE_ORBS_REWARD_CLAIM_MODAL;
@@ -912,7 +918,7 @@ case 39:
                 var2 = 'QuestOrbsRewardModal';
                 var2 = var3.bind(var4)(var2);
                 var6 = _closure1_slot0;
-                var2 = 33;
+                var2 = 35;
                 var2 = var7[var2];
                 var4 = var6.bind(var1)(var2);
                 var3 = var4.openQuestHome;
@@ -920,7 +926,7 @@ case 39:
                 var5 = _closure1_slot11;
                 var5 = var5.VIRTUAL_CURRENCY;
                 var2['filter'] = var5;
-                var5 = 34;
+                var5 = 36;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var5 = var5.QuestContent;
@@ -932,7 +938,7 @@ case 39:
             var3 = new Array(0);
             var7 = var12.bind(var13)(var7, var3);
             var _closure2_slot7 = var7;
-            var3 = 35;
+            var3 = 37;
             var3 = var9[var3];
             var5 = var5.bind(var4)(var3);
             var3 = var5.useMobileQuestOrbRewardModalCtaPriorityExperiment;
@@ -962,7 +968,7 @@ case 0:
                     var2 = _closure2_slot8;
                     var5 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var7 = 35;
+                    var7 = 37;
                     var1 = var1[var7];
                     var6 = undefined;
                     var1 = var5.bind(var6)(var1);
@@ -1069,7 +1075,7 @@ case 42:
             var19 = var3.bind(var5)(var1, var2);
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 36;
+            var1 = 38;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.isAndroid;
@@ -1141,7 +1147,7 @@ case 63:
             var9 = _closure1_slot15;
             var25 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var7 = 37;
+            var7 = 39;
             var7 = var21[var7];
             var7 = var25.bind(var4)(var7);
             var8 = var7.SafeAreaPaddingView;
@@ -1183,7 +1189,7 @@ case 63:
             var15 = var14.body;
             var11['style'] = var15;
             var20 = _closure1_slot14;
-            var24 = 38;
+            var24 = 40;
             var15 = var21[var24];
             var15 = var25.bind(var4)(var15);
             var16 = var15.Text;
@@ -1243,7 +1249,7 @@ case 0:
                     var9 = _closure1_slot14;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 39;
+                    var1 = 41;
                     var5 = var5[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
@@ -1289,7 +1295,7 @@ case 0:
                     var9 = _closure1_slot14;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 39;
+                    var1 = 41;
                     var5 = var5[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
@@ -1325,7 +1331,7 @@ case 68:
                 var4 = _closure1_slot14;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 38;
+                var1 = 40;
                 var1 = var9[var1];
                 var3 = undefined;
                 var1 = var8.bind(var3)(var1);
@@ -1362,7 +1368,7 @@ case 70:
             var20 = _closure1_slot14;
             var23 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var16 = 40;
+            var16 = 42;
             var14 = var21[var16];
             var14 = var23.bind(var4)(var14);
             var15 = var14.Button;

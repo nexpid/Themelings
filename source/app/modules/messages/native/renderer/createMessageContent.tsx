@@ -1744,9 +1744,9 @@ case 233:
             var1 = 67;
             var96 = var96[var1];
             var100 = var99.bind(var5)(var96);
-            var99 = var100.canRenderOfficialMessages;
+            var99 = var100.isGuildOfficialMessagesEnabled;
             var96 = 'createMessageContent';
-            var96 = var99.bind(var100)(var4, var21, var96);
+            var96 = var99.bind(var100)(var4, var96);
             var91 = undefined;
             var94 = undefined;
             var80 = undefined;

@@ -485,17 +485,17 @@ case 56:
             var3 = var3.DARK;
             var7 = 'dark';
             if(!(var3 !== var5)) { _fun0008_ip = 55; continue _fun0008 }
-case 5:
+case 57:
             var3 = _closure1_slot4;
             var3 = var3.DARKER;
             var7 = 'darker';
             if(!(var3 !== var5)) { _fun0008_ip = 55; continue _fun0008 }
-case 30:
+case 52:
             var3 = _closure1_slot4;
             var3 = var3.MIDNIGHT;
             var7 = 'midnight';
             if(!(var3 !== var5)) { _fun0008_ip = 55; continue _fun0008 }
-case 57:
+case 9:
             var7 = var1;
 case 55:
             var8 = _closure1_slot1;

@@ -63,7 +63,6 @@ case 2:
             var7 = var2.scrollPosition;
             var _closure2_slot1 = var7;
             var6 = var2.analyticsLocations;
-            var _closure2_slot2 = var6;
             var5 = _closure1_slot0;
             var9 = _closure1_slot1;
             var3 = 7;
@@ -110,8 +109,8 @@ case 5:
                     var6 = var7.GUILD;
 case 7:
                     var1['subsection'] = var6;
-                    var6 = _closure2_slot1;
-                    var1['scrollPosition'] = var6;
+                    var5 = _closure2_slot1;
+                    var1['scrollPosition'] = var5;
                     var1 = var2.bind(var3)(var1);
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
@@ -121,11 +120,9 @@ case 7:
                     var2 = var3.bind(var1)(var2);
                     var3 = var2.openUserSettings;
                     var2 = {};
-                    var5 = _closure1_slot4;
-                    var5 = var5.PROFILE_CUSTOMIZATION;
-                    var2['screen'] = var5;
-                    var4 = _closure2_slot2;
-                    var2['analyticsLocations'] = var4;
+                    var4 = _closure1_slot4;
+                    var4 = var4.PROFILE_CUSTOMIZATION;
+                    var2['screen'] = var4;
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 }

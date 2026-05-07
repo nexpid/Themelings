@@ -684,6 +684,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['VOICE_PANEL'] = var1;
     var1 = 'voice panel pre-join content';
     var2['VOICE_PANEL_PRE_JOIN'] = var1;
+    var1 = 'voice channel activity actions';
+    var2['VOICE_CHANNEL_ACTIVITY_ACTIONS'] = var1;
     var1 = 'activities im feeling lucky';
     var2['ACTIVITIES_IM_FEELING_LUCKY'] = var1;
     var1 = 'activities happening now';

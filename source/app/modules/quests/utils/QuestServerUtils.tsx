@@ -659,8 +659,6 @@ case 52:
             var1['userStatus'] = var3;
             var3 = var2.targeted_content;
             var1['targetedContent'] = var3;
-            var3 = var2.traffic_metadata_raw;
-            var1['trafficMetadataRaw'] = var3;
             var2 = var2.traffic_metadata_sealed;
             var1['trafficMetadataSealed'] = var2;
             return var1;

@@ -2210,6 +2210,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CLIPS_PRIMARY_ENTRY_POINT_COACHMARK'] = var2;
     var1 = 'CLIPS_PRIMARY_ENTRY_POINT_COACHMARK';
     var4[var2] = var1;
+    var2 = 754;
+    var4['GUILD_THEME_NUX'] = var2;
+    var1 = 'GUILD_THEME_NUX';
+    var4[var2] = var1;
+    var2 = 755;
+    var4['GUILD_SETTINGS_GUILD_THEME_NEW_BADGE'] = var2;
+    var1 = 'GUILD_SETTINGS_GUILD_THEME_NEW_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

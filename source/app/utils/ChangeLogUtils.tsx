@@ -593,15 +593,15 @@ case 0:
             var2 = arg1;
             var3 = var2.content;
             var2 = null;
-            if(!(var2 == var8)) { _fun0006_ip = 7; continue _fun0006 }
-case 35:
-            var2 = {};
-            _fun0006_ip = 36; continue _fun0006;
+            if(!(var2 == var8)) { _fun0006_ip = 6; continue _fun0006 }
 case 7:
+            var2 = {};
+            _fun0006_ip = 35; continue _fun0006;
+case 6:
             var7 = {};
             var7['changeLog'] = var8;
             var2 = var7;
-case 36:
+case 35:
             var2 = var4.bind(var5)(var3, var6, var2);
             var1['content'] = var2;
             return var1;

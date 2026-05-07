@@ -107,6 +107,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['MetadataFields'] = var4;
     var4 = 'application';
     var3['GUILD_ROLE_CONNECTION_APPLICATION_CONNECTION_TYPE'] = var4;
+    var4 = 'application_identity';
+    var3['GUILD_ROLE_CONNECTION_APPLICATION_IDENTITY_CONNECTION_TYPE'] = var4;
     var3['MetadataItemTypes'] = var2;
     return var1;
 })();

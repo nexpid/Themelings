@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
     var4 = var4.BOT;
-    var5 = new Array(45);
+    var5 = new Array(46);
     var5[0] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
@@ -266,118 +266,123 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_BUILDS_UPLOAD;
+    var4 = var4.MANAGED_PLATFORM_APPLICATION_IDENTITIES_WRITE;
     var5[22] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_BUILDS_READ;
+    var4 = var4.APPLICATIONS_BUILDS_UPLOAD;
     var5[23] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_COMMANDS;
+    var4 = var4.APPLICATIONS_BUILDS_READ;
     var5[24] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_COMMANDS_UPDATE;
+    var4 = var4.APPLICATIONS_COMMANDS;
     var5[25] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_COMMANDS_PERMISSIONS_UPDATE;
+    var4 = var4.APPLICATIONS_COMMANDS_UPDATE;
     var5[26] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_STORE_UPDATE;
+    var4 = var4.APPLICATIONS_COMMANDS_PERMISSIONS_UPDATE;
     var5[27] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_ENTITLEMENTS;
+    var4 = var4.APPLICATIONS_STORE_UPDATE;
     var5[28] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.ACTIVITIES_INVITES_WRITE;
+    var4 = var4.APPLICATIONS_ENTITLEMENTS;
     var5[29] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.ACTIVITIES_READ;
+    var4 = var4.ACTIVITIES_INVITES_WRITE;
     var5[30] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.ACTIVITIES_WRITE;
+    var4 = var4.ACTIVITIES_READ;
     var5[31] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RELATIONSHIPS_READ;
+    var4 = var4.ACTIVITIES_WRITE;
     var5[32] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RELATIONSHIPS_WRITE;
+    var4 = var4.RELATIONSHIPS_READ;
     var5[33] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.VOICE;
+    var4 = var4.RELATIONSHIPS_WRITE;
     var5[34] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.DM_CHANNELS_READ;
+    var4 = var4.VOICE;
     var5[35] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.DM_CHANNELS_MESSAGES_READ;
+    var4 = var4.DM_CHANNELS_READ;
     var5[36] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.DM_CHANNELS_MESSAGES_WRITE;
+    var4 = var4.DM_CHANNELS_MESSAGES_READ;
     var5[37] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.ROLE_CONNECTIONS_WRITE;
+    var4 = var4.DM_CHANNELS_MESSAGES_WRITE;
     var5[38] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.PRESENCES_READ;
+    var4 = var4.ROLE_CONNECTIONS_WRITE;
     var5[39] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.PRESENCES_WRITE;
+    var4 = var4.PRESENCES_READ;
     var5[40] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.GATEWAY_CONNECT;
+    var4 = var4.PRESENCES_WRITE;
     var5[41] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.PAYMENT_SOURCES_COUNTRY_CODE;
+    var4 = var4.GATEWAY_CONNECT;
     var5[42] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.SDK_SOCIAL_LAYER_PRESENCE;
+    var4 = var4.PAYMENT_SOURCES_COUNTRY_CODE;
     var5[43] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.SDK_SOCIAL_LAYER;
+    var4 = var4.SDK_SOCIAL_LAYER_PRESENCE;
     var5[44] = var4;
+    var4 = var9[var10];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.OAuth2Scopes;
+    var4 = var4.SDK_SOCIAL_LAYER;
+    var5[45] = var4;
     var7 = var5.concat;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
@@ -758,7 +763,7 @@ case 87:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.SDK_SOCIAL_LAYER_PRESENCE;
+            var2 = var2.MANAGED_PLATFORM_APPLICATION_IDENTITIES_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 88; continue _fun0001 }
 case 89:
             var6 = _closure1_slot0;
@@ -766,13 +771,21 @@ case 89:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.SDK_SOCIAL_LAYER;
+            var2 = var2.SDK_SOCIAL_LAYER_PRESENCE;
             if(!(var2 !== var3)) { _fun0001_ip = 90; continue _fun0001 }
 case 91:
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var7];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.OAuth2Scopes;
+            var2 = var2.SDK_SOCIAL_LAYER;
+            if(!(var2 !== var3)) { _fun0001_ip = 92; continue _fun0001 }
+case 93:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 90:
+case 92:
             var8 = _closure1_slot0;
             var3 = _closure1_slot1;
             var11 = 0;
@@ -833,8 +846,8 @@ case 90:
             var3 = var3.OAuth2Scopes;
             var3 = var3.APPLICATION_IDENTITIES_WRITE;
             var3 = var6.bind(var4)(var3);
-            if(var3) { _fun0001_ip = 92; continue _fun0001 }
-case 93:
+            if(var3) { _fun0001_ip = 94; continue _fun0001 }
+case 95:
             var6 = var2.push;
             var10 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -848,9 +861,9 @@ case 93:
             var3 = var3["1zioRF"];
             var3 = var8.bind(var9)(var3);
             var3 = var6.bind(var2)(var3);
-case 92:
+case 94:
             return var2;
-case 88:
+case 90:
             var8 = _closure1_slot0;
             var3 = _closure1_slot1;
             var11 = 0;
@@ -901,8 +914,8 @@ case 88:
             var3 = var3.OAuth2Scopes;
             var3 = var3.APPLICATION_IDENTITIES_WRITE;
             var3 = var6.bind(var4)(var3);
-            if(var3) { _fun0001_ip = 94; continue _fun0001 }
-case 95:
+            if(var3) { _fun0001_ip = 96; continue _fun0001 }
+case 97:
             var6 = var2.push;
             var10 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -916,7 +929,23 @@ case 95:
             var3 = var3["1zioRF"];
             var3 = var8.bind(var9)(var3);
             var3 = var6.bind(var2)(var3);
-case 94:
+case 96:
+            return var2;
+case 88:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var2 = 0;
+            var3 = var9[var2];
+            var3 = var8.bind(var5)(var3);
+            var6 = var3.intl;
+            var3 = var6.string;
+            var2 = var9[var2];
+            var2 = var8.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2["4l1DWw"];
+            var3 = var3.bind(var6)(var2);
+            var2 = new Array(1);
+            var2[0] = var3;
             return var2;
 case 86:
             var8 = _closure1_slot0;
@@ -1465,20 +1494,20 @@ case 20:
             var3 = var8[var3];
             var3 = var7.bind(var5)(var3);
             var3 = var3.t;
-            if(var2) { _fun0001_ip = 96; continue _fun0001 }
-case 97:
+            if(var2) { _fun0001_ip = 98; continue _fun0001 }
+case 99:
             var2 = var3.o6M1aS;
             var7 = var4.bind(var6)(var2);
             var2 = new Array(1);
             var2[0] = var7;
-            _fun0001_ip = 98; continue _fun0001;
-case 96:
+            _fun0001_ip = 100; continue _fun0001;
+case 98:
             var3 = var3.OSvmfH;
             var4 = var4.bind(var6)(var3);
             var3 = new Array(1);
             var3[0] = var4;
             var2 = var3;
-case 98:
+case 100:
             return var2;
 case 18:
             var6 = _closure1_slot0;
@@ -1640,8 +1669,8 @@ case 0:
             var1 = var1.OAuth2Scopes;
             var1 = var1.SDK_SOCIAL_LAYER_PRESENCE;
             var1 = var3 === var1;
-            if(var1) { _fun0002_ip = 99; continue _fun0002 }
-case 100:
+            if(var1) { _fun0002_ip = 101; continue _fun0002 }
+case 102:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -1649,7 +1678,7 @@ case 100:
             var2 = var2.OAuth2Scopes;
             var2 = var2.SDK_SOCIAL_LAYER;
             var1 = var3 === var2;
-case 99:
+case 101:
             return var1;
         }
     };
@@ -1668,8 +1697,8 @@ case 0:
             var1 = var1.OAuth2Scopes;
             var1 = var1.DM_CHANNELS_MESSAGES_WRITE;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0003_ip = 101; continue _fun0003 }
-case 102:
+            if(var1) { _fun0003_ip = 103; continue _fun0003 }
+case 104:
             var3 = var4.includes;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -1678,8 +1707,8 @@ case 102:
             var1 = var1.OAuth2Scopes;
             var1 = var1.SDK_SOCIAL_LAYER;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0003_ip = 101; continue _fun0003 }
-case 103:
+            if(var1) { _fun0003_ip = 103; continue _fun0003 }
+case 105:
             var3 = var4.includes;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -1688,8 +1717,8 @@ case 103:
             var1 = var1.OAuth2Scopes;
             var1 = var1.MESSAGES_READ;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0003_ip = 104; continue _fun0003 }
-case 105:
+            if(var1) { _fun0003_ip = 106; continue _fun0003 }
+case 107:
             var3 = var4.includes;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -1698,8 +1727,8 @@ case 105:
             var1 = var1.OAuth2Scopes;
             var1 = var1.DM_CHANNELS_MESSAGES_READ;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0003_ip = 104; continue _fun0003 }
-case 106:
+            if(var1) { _fun0003_ip = 106; continue _fun0003 }
+case 108:
             var3 = _closure1_slot0;
             var7 = _closure1_slot1;
             var1 = 0;
@@ -1713,8 +1742,8 @@ case 106:
             var3 = var1.TeL+Ct;
             var1 = {};
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 107; continue _fun0003;
-case 104:
+            _fun0003_ip = 109; continue _fun0003;
+case 106:
             var4 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 0;
@@ -1728,9 +1757,9 @@ case 104:
             var4 = var3.Soy7jJ;
             var3 = {};
             var1 = var5.bind(var7)(var4, var3);
-case 107:
-            _fun0003_ip = 108; continue _fun0003;
-case 101:
+case 109:
+            _fun0003_ip = 110; continue _fun0003;
+case 103:
             var3 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -1744,7 +1773,7 @@ case 101:
             var3 = var2.o0GMBD;
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
-case 108:
+case 110:
             return var1;
         }
     };

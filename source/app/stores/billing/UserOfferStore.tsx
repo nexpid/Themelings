@@ -1541,7 +1541,7 @@ case 109:
         }
     };
     var2['BILLING_USER_OFFER_ACKNOWLEDGED_SUCCESS'] = var11;
-    var10 = function handleUserOfferFetchFail() {
+    var11 = function handleUserOfferFetchFail() {
         var3 = _closure1_slot24;
         var1 = undefined;
         var3 = var3.bind(var1)();
@@ -1558,7 +1558,66 @@ case 109:
         var2['lastFetchSuccessful'] = var3;
         return var1;
     };
-    var2['BILLING_USER_OFFER_FETCH_FAIL'] = var10;
+    var2['BILLING_USER_OFFER_FETCH_FAIL'] = var11;
+    var10 = function handleUserOfferRedeemed(arg1) {
+        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
+case 0:
+            var1 = arg1;
+            var1 = var1.offerId;
+            var _closure2_slot0 = var1;
+            var4 = global;
+            var6 = var4.Object;
+            var5 = var6.keys;
+            var3 = _closure1_slot19;
+            var3 = var3.userDiscountOffers;
+            var6 = var5.bind(var6)(var3);
+            var5 = var6.find;
+            var3 = function(arg1) {
+                var1 = _closure1_slot19;
+                var2 = var1.userDiscountOffers;
+                var1 = arg1;
+                var1 = var2[var1];
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var6 = var5.bind(var6)(var3);
+            var3 = null;
+            if(!(var3 != var6)) { _fun0036_ip = 81; continue _fun0036 }
+case 30:
+            var5 = _closure1_slot19;
+            var5 = var5.userDiscountOffers;
+            var5 = delete var5[var6];
+case 81:
+            var6 = var4.Object;
+            var5 = var6.keys;
+            var4 = _closure1_slot19;
+            var4 = var4.userTrialOffers;
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.find;
+            var2 = function(arg1) {
+                var1 = _closure1_slot19;
+                var2 = var1.userTrialOffers;
+                var1 = arg1;
+                var1 = var2[var1];
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var2 = var4.bind(var5)(var2);
+            if(!(var3 != var2)) { _fun0036_ip = 109; continue _fun0036 }
+case 90:
+            var1 = _closure1_slot19;
+            var1 = var1.userTrialOffers;
+            var1 = delete var1[var2];
+case 109:
+            var1 = true;
+            return var1;
+        }
+    };
+    var2['BILLING_USER_OFFER_REDEEMED'] = var10;
     var2['BILLING_PAYMENT_SOURCE_CREATE_SUCCESS'] = var9;
     var2['BILLING_PAYMENT_SOURCE_UPDATE_SUCCESS'] = var9;
     var2['BILLING_PAYMENT_SOURCE_REMOVE_SUCCESS'] = var9;

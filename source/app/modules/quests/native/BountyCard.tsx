@@ -643,6 +643,10 @@ case 50:
                 var7 = 24;
                 var5['radius'] = var7;
                 var5['onPress'] = var16;
+                var7 = {};
+                var9 = 'transparent';
+                var7['color'] = var9;
+                var5['android_ripple'] = var7;
                 if(!var8) { _fun0002_ip = 52; continue _fun0002 }
 case 53:
                 var10 = _closure1_slot9;

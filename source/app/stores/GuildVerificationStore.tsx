@@ -235,43 +235,43 @@ case 0:
             var5 = var5.bind(var6)(var4);
             var6 = _closure1_slot11;
             var5 = var6.getGuild;
-            var23 = var5.bind(var6)(var4);
+            var22 = var5.bind(var6)(var4);
             var6 = _closure1_slot12;
             var5 = var6.getCurrentUser;
-            var24 = var5.bind(var6)();
-            var26 = null;
-            var5 = var26 != var23;
+            var23 = var5.bind(var6)();
+            var25 = null;
+            var5 = var25 != var22;
             if(!var5) { _fun0005_ip = 39; continue _fun0005 }
 case 4:
-            var7 = var23.verificationLevel;
+            var7 = var22.verificationLevel;
             var6 = _closure1_slot13;
             var6 = var6.NONE;
             var5 = var7 !== var6;
 case 39:
-            var20 = var26 != var23;
-            if(!var20) { _fun0005_ip = 40; continue _fun0005 }
+            var19 = var25 != var22;
+            if(!var19) { _fun0005_ip = 40; continue _fun0005 }
 case 41:
-            var6 = var23.verificationRoleId;
-            var20 = var26 != var6;
+            var6 = var22.verificationRoleId;
+            var19 = var25 != var6;
 case 40:
-            if(!(var26 != var23)) { _fun0005_ip = 42; continue _fun0005 }
+            if(!(var25 != var22)) { _fun0005_ip = 42; continue _fun0005 }
 case 43:
-            if(!(var26 != var24)) { _fun0005_ip = 42; continue _fun0005 }
+            if(!(var25 != var23)) { _fun0005_ip = 42; continue _fun0005 }
 case 44:
             if(var5) { _fun0005_ip = 45; continue _fun0005 }
 case 46:
-            if(!var20) { _fun0005_ip = 42; continue _fun0005 }
+            if(!var19) { _fun0005_ip = 42; continue _fun0005 }
 case 45:
             var6 = _closure1_slot8;
-            var6 = var6.bind(var1)(var23, var24);
+            var6 = var6.bind(var1)(var22, var23);
             if(var6) { _fun0005_ip = 42; continue _fun0005 }
 case 47:
             var9 = _closure1_slot9;
             var8 = var9.getMember;
-            var7 = var23.id;
-            var6 = var24.id;
-            var19 = var8.bind(var9)(var7, var6);
-            if(!(var26 != var19)) { _fun0005_ip = 48; continue _fun0005 }
+            var7 = var22.id;
+            var6 = var23.id;
+            var18 = var8.bind(var9)(var7, var6);
+            if(!(var25 != var18)) { _fun0005_ip = 48; continue _fun0005 }
 case 49:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -279,8 +279,8 @@ case 49:
             var6 = var8[var6];
             var9 = var7.bind(var1)(var6);
             var8 = var9.hasFlag;
-            var6 = var19.flags;
-            var10 = var26 != var6;
+            var6 = var18.flags;
+            var10 = var25 != var6;
             var7 = 0;
             if(!var10) { _fun0005_ip = 50; continue _fun0005 }
 case 51:
@@ -291,51 +291,31 @@ case 50:
             var6 = var8.bind(var9)(var7, var6);
             if(var6) { _fun0005_ip = 42; continue _fun0005 }
 case 48:
-            var15 = undefined;
-            var14 = undefined;
-            var8 = false;
-            if(!var20) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
-            var6 = var26 != var19;
-            var15 = undefined;
-            var14 = undefined;
-            var8 = false;
+            var6 = var19;
             if(!var6) { _fun0005_ip = 52; continue _fun0005 }
-case 16:
-            var9 = var19.roles;
-            var7 = var9.includes;
-            var6 = var23.verificationRoleId;
-            var6 = var7.bind(var9)(var6);
-            var6 = !var6;
-            var15 = undefined;
-            var14 = undefined;
-            var8 = var6;
-            if(!var8) { _fun0005_ip = 52; continue _fun0005 }
-case 54:
-            var11 = _closure1_slot10;
-            var10 = var11.getRole;
-            var9 = var23.id;
-            var7 = var23.verificationRoleId;
-            var7 = var10.bind(var11)(var9, var7);
-            var9 = var26 != var7;
-            var15 = undefined;
-            var14 = undefined;
-            var8 = var6;
-            if(!var9) { _fun0005_ip = 52; continue _fun0005 }
-case 55:
-            var9 = var7.name;
-            var10 = var7.tags;
-            var11 = var26 == var10;
-            var7 = undefined;
-            if(var11) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
-            var7 = var10.guild_connections;
-case 56:
-            var14 = var26 === var7;
-            var15 = var9;
-            var8 = var6;
+case 53:
+            var6 = var25 != var18;
 case 52:
-            var21 = 0;
+            var8 = false;
+            if(!var6) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
+            var10 = var18.roles;
+            var9 = var10.includes;
+            var7 = var22.verificationRoleId;
+            var7 = var9.bind(var10)(var7);
+            var6 = !var7;
+            var8 = var6;
+case 54:
+            var14 = undefined;
+            if(!var6) { _fun0005_ip = 56; continue _fun0005 }
+case 57:
+            var10 = _closure1_slot10;
+            var9 = var10.getRole;
+            var7 = var22.id;
+            var6 = var22.verificationRoleId;
+            var14 = var9.bind(var10)(var7, var6);
+case 56:
+            var20 = 0;
             var6 = false;
             var13 = false;
             var12 = false;
@@ -345,8 +325,8 @@ case 52:
             var7 = 0;
             if(!var5) { _fun0005_ip = 58; continue _fun0005 }
 case 59:
-            var5 = var24.isPhoneVerified;
-            var5 = var5.bind(var24)();
+            var5 = var23.isPhoneVerified;
+            var5 = var5.bind(var23)();
             var6 = false;
             var13 = false;
             var12 = false;
@@ -356,85 +336,85 @@ case 59:
             var7 = 0;
             if(var5) { _fun0005_ip = 58; continue _fun0005 }
 case 60:
-            var16 = var26 != var19;
+            var15 = var25 != var18;
             var5 = false;
-            if(!var16) { _fun0005_ip = 61; continue _fun0005 }
+            if(!var15) { _fun0005_ip = 61; continue _fun0005 }
 case 62:
-            var25 = global;
-            var16 = var25.Set;
-            var18 = var16.prototype;
-            var18 = Object.create(var18, {constructor: {value: var16}});
-            var34 = var18;
-            var16 = new var34[var16](var33);
-            var18 = var16 instanceof Object ? var16 : var18;
-            var22 = _closure1_slot21;
-            var16 = var19.roles;
-            var27 = var22.bind(var1)(var16);
-            var22 = var27.bind(var1)();
-            var16 = var22.done;
-            if(var16) { _fun0005_ip = 63; continue _fun0005 }
+            var24 = global;
+            var15 = var24.Set;
+            var17 = var15.prototype;
+            var17 = Object.create(var17, {constructor: {value: var15}});
+            var33 = var17;
+            var15 = new var33[var15](var32);
+            var17 = var15 instanceof Object ? var15 : var17;
+            var21 = _closure1_slot21;
+            var15 = var18.roles;
+            var26 = var21.bind(var1)(var15);
+            var21 = var26.bind(var1)();
+            var15 = var21.done;
+            if(var15) { _fun0005_ip = 63; continue _fun0005 }
 case 64:
-            var28 = var22.value;
-            var30 = _closure1_slot10;
-            var29 = var30.getRole;
-            var16 = var23.id;
-            var29 = var29.bind(var30)(var16, var28);
-            var16 = var26 == var29;
-            if(var16) { _fun0005_ip = 65; continue _fun0005 }
+            var27 = var21.value;
+            var29 = _closure1_slot10;
+            var28 = var29.getRole;
+            var15 = var22.id;
+            var28 = var28.bind(var29)(var15, var27);
+            var15 = var25 == var28;
+            if(var15) { _fun0005_ip = 65; continue _fun0005 }
 case 66:
-            var16 = var29.managed;
+            var15 = var28.managed;
 case 65:
-            if(var16) { _fun0005_ip = 67; continue _fun0005 }
+            if(var15) { _fun0005_ip = 67; continue _fun0005 }
 case 68:
-            var16 = var18.add;
-            var16 = var16.bind(var18)(var28);
+            var15 = var17.add;
+            var15 = var15.bind(var17)(var27);
 case 67:
-            var28 = var27.bind(var1)();
-            var16 = var28.done;
-            var22 = var28;
-            if(!var16) { _fun0005_ip = 64; continue _fun0005 }
+            var27 = var26.bind(var1)();
+            var15 = var27.done;
+            var21 = var27;
+            if(!var15) { _fun0005_ip = 64; continue _fun0005 }
 case 63:
-            var27 = var25.Date;
-            var16 = var27.prototype;
-            var22 = Object.create(var16, {constructor: {value: var27}});
-            var33 = '2022-12-02 00:00:00';
-            var34 = var22;
-            var16 = new var34[var27](var33, var32);
-            var22 = var16 instanceof Object ? var16 : var22;
-            var16 = var19.joinedAt;
-            var16 = var26 == var16;
-            if(var16) { _fun0005_ip = 69; continue _fun0005 }
+            var26 = var24.Date;
+            var15 = var26.prototype;
+            var21 = Object.create(var15, {constructor: {value: var26}});
+            var32 = '2022-12-02 00:00:00';
+            var33 = var21;
+            var15 = new var33[var26](var32, var31);
+            var21 = var15 instanceof Object ? var15 : var21;
+            var15 = var18.joinedAt;
+            var15 = var25 == var15;
+            if(var15) { _fun0005_ip = 69; continue _fun0005 }
 case 70:
-            var26 = var25.Date;
-            var33 = var19.joinedAt;
-            var25 = var26.prototype;
-            var25 = Object.create(var25, {constructor: {value: var26}});
-            var34 = var25;
-            var19 = new var34[var26](var33, var32);
-            var19 = var19 instanceof Object ? var19 : var25;
-            var16 = var19 < var22;
+            var25 = var24.Date;
+            var32 = var18.joinedAt;
+            var24 = var25.prototype;
+            var24 = Object.create(var24, {constructor: {value: var25}});
+            var33 = var24;
+            var18 = new var33[var25](var32, var31);
+            var18 = var18 instanceof Object ? var18 : var24;
+            var15 = var18 < var21;
 case 69:
-            var25 = var23.features;
-            var22 = var25.has;
-            var19 = _closure1_slot15;
-            var19 = var19.GUILD_ONBOARDING_EVER_ENABLED;
-            var19 = var22.bind(var25)(var19);
-            if(!var19) { _fun0005_ip = 71; continue _fun0005 }
+            var24 = var22.features;
+            var21 = var24.has;
+            var18 = _closure1_slot15;
+            var18 = var18.GUILD_ONBOARDING_EVER_ENABLED;
+            var18 = var21.bind(var24)(var18);
+            if(!var18) { _fun0005_ip = 71; continue _fun0005 }
 case 72:
-            var19 = !var16;
+            var18 = !var15;
 case 71:
-            var16 = !var20;
-            if(var20) { _fun0005_ip = 73; continue _fun0005 }
+            var15 = !var19;
+            if(var19) { _fun0005_ip = 73; continue _fun0005 }
 case 74:
-            var16 = !var19;
+            var15 = !var18;
 case 73:
-            if(!var16) { _fun0005_ip = 75; continue _fun0005 }
+            if(!var15) { _fun0005_ip = 75; continue _fun0005 }
 case 76:
-            var18 = var18.size;
-            var16 = var18 > var21;
+            var17 = var17.size;
+            var15 = var17 > var20;
 case 75:
             var5 = false;
-            if(!var16) { _fun0005_ip = 61; continue _fun0005 }
+            if(!var15) { _fun0005_ip = 61; continue _fun0005 }
 case 77:
             var5 = true;
 case 61:
@@ -447,117 +427,117 @@ case 61:
             var7 = 0;
             if(var5) { _fun0005_ip = 58; continue _fun0005 }
 case 78:
-            var5 = var24.createdAt;
-            var19 = var5 - 0;
+            var5 = var23.createdAt;
+            var18 = var5 - 0;
             var5 = _closure1_slot14;
             var5 = var5.ACCOUNT_AGE;
-            var20 = 60000;
-            var5 = var20 * var5;
-            var18 = global;
-            var22 = var18.Date;
-            var16 = var22.now;
-            var16 = var16.bind(var22)();
-            var5 = var19 + var5;
-            var16 = var5 - var16;
-            var5 = var23.joinedAt;
-            var19 = var5 - 0;
+            var19 = 60000;
+            var5 = var19 * var5;
+            var17 = global;
+            var21 = var17.Date;
+            var15 = var21.now;
+            var15 = var15.bind(var21)();
+            var5 = var18 + var5;
+            var15 = var5 - var15;
+            var5 = var22.joinedAt;
+            var18 = var5 - 0;
             var5 = _closure1_slot14;
             var5 = var5.MEMBER_AGE;
-            var5 = var20 * var5;
-            var20 = var18.Date;
-            var18 = var20.now;
-            var18 = var18.bind(var20)();
-            var5 = var19 + var5;
-            var5 = var5 - var18;
-            var19 = var23.verificationLevel;
-            var18 = _closure1_slot13;
-            var18 = var18.LOW;
-            var22 = var19 >= var18;
-            if(!var22) { _fun0005_ip = 79; continue _fun0005 }
+            var5 = var19 * var5;
+            var19 = var17.Date;
+            var17 = var19.now;
+            var17 = var17.bind(var19)();
+            var5 = var18 + var5;
+            var5 = var5 - var17;
+            var18 = var22.verificationLevel;
+            var17 = _closure1_slot13;
+            var17 = var17.LOW;
+            var21 = var18 >= var17;
+            if(!var21) { _fun0005_ip = 79; continue _fun0005 }
 case 80:
-            var18 = var24.isClaimed;
-            var18 = var18.bind(var24)();
-            var22 = !var18;
+            var17 = var23.isClaimed;
+            var17 = var17.bind(var23)();
+            var21 = !var17;
 case 79:
-            var18 = var24.isStaff;
-            var25 = var18.bind(var24)();
-            var20 = false;
+            var17 = var23.isStaff;
+            var24 = var17.bind(var23)();
             var19 = false;
             var18 = false;
             var17 = false;
-            if(var25) { _fun0005_ip = 81; continue _fun0005 }
+            var16 = false;
+            if(var24) { _fun0005_ip = 81; continue _fun0005 }
 case 82:
-            var26 = var23.verificationLevel;
-            var25 = _closure1_slot13;
-            var25 = var25.LOW;
-            var26 = var26 >= var25;
-            if(!var26) { _fun0005_ip = 83; continue _fun0005 }
-case 84:
-            var24 = var24.verified;
-            var26 = !var24;
-case 83:
-            var25 = var23.verificationLevel;
+            var25 = var22.verificationLevel;
             var24 = _closure1_slot13;
-            var24 = var24.VERY_HIGH;
+            var24 = var24.LOW;
             var25 = var25 >= var24;
-            var27 = var23.verificationLevel;
-            var24 = _closure1_slot13;
-            var24 = var24.MEDIUM;
-            var24 = var27 >= var24;
-            if(!var24) { _fun0005_ip = 85; continue _fun0005 }
-case 86:
-            var24 = var16 > var21;
-case 85:
-            var27 = var23.verificationLevel;
+            if(!var25) { _fun0005_ip = 83; continue _fun0005 }
+case 84:
+            var23 = var23.verified;
+            var25 = !var23;
+case 83:
+            var24 = var22.verificationLevel;
             var23 = _closure1_slot13;
-            var23 = var23.HIGH;
-            var23 = var27 >= var23;
-            if(!var23) { _fun0005_ip = 87; continue _fun0005 }
+            var23 = var23.VERY_HIGH;
+            var24 = var24 >= var23;
+            var26 = var22.verificationLevel;
+            var23 = _closure1_slot13;
+            var23 = var23.MEDIUM;
+            var23 = var26 >= var23;
+            if(!var23) { _fun0005_ip = 85; continue _fun0005 }
+case 86:
+            var23 = var15 > var20;
+case 85:
+            var26 = var22.verificationLevel;
+            var22 = _closure1_slot13;
+            var22 = var22.HIGH;
+            var22 = var26 >= var22;
+            if(!var22) { _fun0005_ip = 87; continue _fun0005 }
 case 88:
-            var23 = var5 > var21;
+            var22 = var5 > var20;
 case 87:
-            var17 = var23;
-            var20 = var26;
+            var16 = var22;
             var19 = var25;
             var18 = var24;
+            var17 = var23;
 case 81:
-            var13 = var20;
-            var12 = var19;
-            var11 = var18;
-            var10 = var17;
-            var6 = var22;
-            var9 = var16;
+            var13 = var19;
+            var12 = var18;
+            var11 = var17;
+            var10 = var16;
+            var6 = var21;
+            var9 = var15;
             var7 = var5;
 case 58:
-            var20 = new Array(0);
+            var19 = new Array(0);
             if(!var10) { _fun0005_ip = 89; continue _fun0005 }
 case 90:
-            var5 = var20.push;
-            var5 = var5.bind(var20)(var7);
+            var5 = var19.push;
+            var5 = var5.bind(var19)(var7);
 case 89:
             if(!var11) { _fun0005_ip = 91; continue _fun0005 }
 case 92:
-            var5 = var20.push;
-            var5 = var5.bind(var20)(var9);
+            var5 = var19.push;
+            var5 = var5.bind(var19)(var9);
 case 91:
-            var5 = var20.length;
-            var16 = var5 > var21;
+            var5 = var19.length;
+            var15 = var5 > var20;
             var5 = undefined;
-            if(!var16) { _fun0005_ip = 93; continue _fun0005 }
+            if(!var15) { _fun0005_ip = 93; continue _fun0005 }
 case 94:
-            var16 = global;
-            var17 = var16.setTimeout;
-            var19 = var16.Math;
-            var18 = var19.max;
-            var16 = new Array(0);
-            var33 = var16;
-            var32 = var20;
-            var31 = 0;
-            var20 = arraySpread(var33, var32, var31);
-            var33 = var18;
-            var32 = var16;
+            var15 = global;
+            var16 = var15.setTimeout;
+            var18 = var15.Math;
+            var17 = var18.max;
+            var15 = new Array(0);
+            var32 = var15;
             var31 = var19;
-            var16 = apply(var33, var32, var31);
+            var30 = 0;
+            var19 = arraySpread(var32, var31, var30);
+            var32 = var17;
+            var31 = var15;
+            var30 = var18;
+            var15 = apply(var32, var31, var30);
             var3 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -574,7 +554,7 @@ case 94:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var5 = var17.bind(var1)(var3, var16);
+            var5 = var16.bind(var1)(var3, var15);
 case 93:
             var3 = _closure1_slot19;
             var2 = {};
@@ -584,8 +564,7 @@ case 93:
             var2['newAccount'] = var11;
             var2['newMember'] = var10;
             var2['missingVerificationRole'] = var8;
-            var2['verificationRoleName'] = var15;
-            var2['verificationRoleIsLinkedRole'] = var14;
+            var2['verificationRole'] = var14;
             if(var6) { _fun0005_ip = 95; continue _fun0005 }
 case 96:
             var6 = var13;
@@ -613,22 +592,22 @@ case 103:
             var11 = var6.Date;
             var8 = var11.now;
             var8 = var8.bind(var11)();
-            var33 = var8 + var9;
+            var32 = var8 + var9;
             var9 = var10.prototype;
             var9 = Object.create(var9, {constructor: {value: var10}});
-            var34 = var9;
-            var8 = new var34[var10](var33, var32);
+            var33 = var9;
+            var8 = new var33[var10](var32, var31);
             var8 = var8 instanceof Object ? var8 : var9;
             var2['accountDeadline'] = var8;
             var8 = var6.Date;
             var9 = var6.Date;
             var6 = var9.now;
             var6 = var6.bind(var9)();
-            var33 = var6 + var7;
+            var32 = var6 + var7;
             var7 = var8.prototype;
             var7 = Object.create(var7, {constructor: {value: var8}});
-            var34 = var7;
-            var6 = new var34[var8](var33, var32);
+            var33 = var7;
+            var6 = new var33[var8](var32, var31);
             var6 = var6 instanceof Object ? var6 : var7;
             var2['memberDeadline'] = var6;
             var2['timeoutRef'] = var5;

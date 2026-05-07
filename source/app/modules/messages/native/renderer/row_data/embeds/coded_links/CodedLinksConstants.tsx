@@ -34,6 +34,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_PROFILE_INVITE'] = var5;
     var1 = 'GUILD_PROFILE_INVITE';
     var2[var5] = var1;
+    var5 = 6;
+    var2['VOICE_CHANNEL_LIST_INVITE'] = var5;
+    var1 = 'VOICE_CHANNEL_LIST_INVITE';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

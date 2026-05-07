@@ -129,8 +129,6 @@ case 17:
             var1['adContext'] = var3;
             var3 = var2.metadata_sealed;
             var1['metadataSealed'] = var3;
-            var3 = var2.traffic_metadata_raw;
-            var1['trafficMetadataRaw'] = var3;
             var2 = var2.traffic_metadata_sealed;
             var1['trafficMetadataSealed'] = var2;
             return var1;

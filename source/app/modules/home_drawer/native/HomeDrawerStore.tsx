@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7[var4];
         var6 = var6.bind(var5)(var4);
         var5 = var6.makeMutable;
-        var4 = {'active': false, 'initialX': 0, 'initialY': 0, 'panelX': 0, 'requiresPop': true};
+        var4 = {'active': false, 'initialX': 0, 'initialY': 0, 'panelX': 0};
         var4 = var5.bind(var6)(var4);
         var1['gestureState'] = var4;
         var1['maxX'] = var3;

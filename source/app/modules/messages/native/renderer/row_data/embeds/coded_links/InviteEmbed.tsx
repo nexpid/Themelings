@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.InviteTypes;
     var _closure1_slot6 = var4;
-    var4 = 11;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -129,6 +129,14 @@ case 20:
             var3 = var3.PROFILE;
             if(!(var3 !== var6)) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
+            var12 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var13];
+            var3 = var12.bind(var5)(var3);
+            var3 = var3.GuildInviteExtendedType;
+            var3 = var3.VOICE_CHANNEL;
+            if(!(var3 !== var6)) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var6 = _closure1_slot0;
             var12 = _closure1_slot1;
             var3 = 4;
@@ -136,6 +144,49 @@ case 22:
             var6 = var6.bind(var5)(var3);
             var3 = var6.createGuildInvite;
             var3 = var3.bind(var6)(var11, var7, var4);
+            return var3;
+case 23:
+            var3 = var11.guild;
+            var6 = var1 == var3;
+            var13 = undefined;
+            if(var6) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+            var13 = var3.id;
+case 25:
+            if(!(var1 != var13)) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
+            var6 = _closure1_slot0;
+            var12 = _closure1_slot1;
+            var3 = 11;
+            var3 = var12[var3];
+            var12 = var6.bind(var5)(var3);
+            var6 = var12.getVoiceChannelListInviteExperiment;
+            var3 = {};
+            var3['guildId'] = var13;
+            var13 = 'mobile_invite_embed';
+            var3['location'] = var13;
+            var3 = var6.bind(var12)(var3);
+            var3 = var3.enabled;
+            if(!var3) { _fun0001_ip = 27; continue _fun0001 }
+case 29:
+            var6 = _closure1_slot0;
+            var12 = _closure1_slot1;
+            var3 = 12;
+            var3 = var12[var3];
+            var6 = var6.bind(var5)(var3);
+            var3 = var6.createVoiceChannelListInviteEmbed;
+            var3 = var3.bind(var6)(var11, var4);
+            if(!(var1 == var3)) { _fun0001_ip = 30; continue _fun0001 }
+case 27:
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var6 = 4;
+            var6 = var13[var6];
+            var12 = var12.bind(var5)(var6);
+            var6 = var12.createGuildInvite;
+            var6 = var6.bind(var12)(var11, var7, var4);
+            return var6;
+case 30:
             return var3;
 case 21:
             var6 = _closure1_slot0;
@@ -195,13 +246,13 @@ case 11:
             var6 = _closure1_slot2;
             var3 = var6.getInviteError;
             var3 = var3.bind(var6)(var10);
-            if(!(var1 != var3)) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
+            if(!(var1 != var3)) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var6 = var3.code;
             var3 = _closure1_slot5;
             var3 = var3.INVITES_DISABLED;
-            if(!(var6 !== var3)) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
+            if(!(var6 !== var3)) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
             var3 = 4;
@@ -209,8 +260,8 @@ case 26:
             var6 = var6.bind(var5)(var3);
             var3 = var6.createErroredGuildInvite;
             var3 = var3.bind(var6)(var10, var7, var4);
-            _fun0001_ip = 27; continue _fun0001;
-case 25:
+            _fun0001_ip = 35; continue _fun0001;
+case 33:
             var9 = _closure1_slot0;
             var12 = _closure1_slot1;
             var6 = 4;
@@ -218,9 +269,9 @@ case 25:
             var9 = var9.bind(var5)(var6);
             var6 = var9.createDisabledGuildInvite;
             var3 = var6.bind(var9)(var11, var4);
-case 27:
-            _fun0001_ip = 28; continue _fun0001;
-case 23:
+case 35:
+            _fun0001_ip = 36; continue _fun0001;
+case 31:
             var9 = _closure1_slot0;
             var11 = _closure1_slot1;
             var6 = 4;
@@ -228,7 +279,7 @@ case 23:
             var9 = var9.bind(var5)(var6);
             var6 = var9.createErroredGuildInvite;
             var3 = var6.bind(var9)(var10, var7, var4);
-case 28:
+case 36:
             return var3;
 case 8:
             var6 = _closure1_slot0;

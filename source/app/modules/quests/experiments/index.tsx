@@ -213,12 +213,15 @@ case 4:
     var7 = var20.bind(var1)(var4);
     var6 = var7.createApexExperiment;
     var4 = {'name': '2026-04-quests-premium-orb-multiplier-marketing', 'kind': 'user'};
-    var8 = {'enabled': false, 'multiplier': 1};
+    var8 = {};
+    var8['enabled'] = var26;
     var4['defaultConfig'] = var8;
     var8 = {};
-    var23 = {'enabled': false, 'multiplier': 1};
+    var23 = {};
+    var23['enabled'] = var26;
     var8[0] = var23;
-    var23 = {'enabled': true, 'multiplier': 1.2};
+    var23 = {};
+    var23['enabled'] = var25;
     var8[1] = var23;
     var4['variations'] = var8;
     var4 = var6.bind(var7)(var4);
@@ -319,7 +322,7 @@ case 4:
     var23[1] = var24;
     var2['variations'] = var23;
     var2 = var19.bind(var22)(var2);
-    var19 = 4;
+    var19 = 5;
     var19 = var21[var19];
     var21 = var20.bind(var1)(var19);
     var20 = var21.fileFinishedImporting;
@@ -335,60 +338,74 @@ case 4:
     var3['AdGetDecisionHeroAdsExperiment'] = var11;
     var3['QuestsPremiumRewardsHoldoutApexExperiment'] = var10;
     var3['useShouldHoldoutVirtualCurrencyFeatures'] = var9;
-    var9 = function useQuestPremiumOrbsMultiplierMarketingExperiment(arg1) {
+    var9 = function useQuestOrbsMultiplierMarketing(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var5 = arg1;
+            var7 = arg1;
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var2 = 3;
-            var2 = var4[var2];
+            var1 = 3;
+            var1 = var4[var1];
             var4 = undefined;
-            var7 = var3.bind(var4)(var2);
-            var6 = var7.useStateFromStores;
-            var2 = _closure1_slot2;
+            var6 = var3.bind(var4)(var1);
+            var5 = var6.useStateFromStores;
+            var1 = _closure1_slot2;
             var3 = new Array(1);
-            var3[0] = var2;
-            var2 = function() {
-                var2 = _closure1_slot2;
-                var1 = var2.getCurrentUser;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var6 = var6.bind(var7)(var3, var2);
-            var7 = _closure1_slot5;
-            var3 = var7.useConfig;
-            var2 = {};
-            var2['location'] = var5;
-            var2 = var3.bind(var7)(var2);
-            var3 = _closure1_slot7;
-            var1 = {};
-            var1['location'] = var5;
-            var4 = var3.bind(var4)(var1);
-            var1 = {};
-            var3 = var2.enabled;
-            if(!var3) { _fun0002_ip = 6; continue _fun0002 }
+            var3[0] = var1;
+            var1 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var2 = _closure1_slot2;
+                    var1 = var2.getCurrentUser;
+                    var3 = var1.bind(var2)();
+                    var1 = null;
+                    var1 = var1 == var3;
+                    var2 = undefined;
+                    if(var1) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-            var3 = !var4;
+                    var1 = var3.isPremiumWithFractionalPremiumOnly;
+                    var2 = var1.bind(var3)();
 case 6:
+                    var1 = true;
+                    var1 = var1 === var2;
+                    return var1;
+                }
+            };
+            var5 = var5.bind(var6)(var3, var1);
+            var6 = _closure1_slot5;
+            var3 = var6.useConfig;
+            var1 = {};
+            var1['location'] = var7;
+            var1 = var3.bind(var6)(var1);
+            var3 = var1.enabled;
+            var6 = _closure1_slot7;
+            var1 = {};
+            var1['location'] = var7;
+            var6 = var6.bind(var4)(var1);
+            var1 = {};
             if(!var3) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var4 = null;
-            var4 = var4 != var6;
-            if(!var4) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            var5 = var6.isPremiumWithFractionalPremiumOnly;
-            var4 = var5.bind(var6)();
-case 10:
-            var3 = !var4;
+            var3 = !var6;
 case 8:
+            if(!var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var3 = !var5;
+case 10:
             var1['shouldShowBonusOrbsUX'] = var3;
-            var2 = var2.multiplier;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 4;
+            var2 = var5[var2];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.QuestOrbsMultiplier;
+            var3 = var2.PREMIUM_TIER_2_MULTIPLIER_PERCENTAGE_POINTS;
+            var2 = 100;
+            var2 = var3 / var2;
             var1['multiplier'] = var2;
             return var1;
         }
     };
-    var3['useQuestPremiumOrbsMultiplierMarketingExperiment'] = var9;
+    var3['useQuestOrbsMultiplierMarketing'] = var9;
     var3['VideoQuestPlayerRefactorExperiment'] = var8;
     var3['ComposedQuestPlayerExperiment'] = var7;
     var3['MobileQuestOrbRewardModalCtaPriorityVariant'] = var6;

@@ -130,16 +130,11 @@ case 2:
             var4 = var9.getAdMetadataSealed;
             var4 = var4.bind(var9)(var7);
             var _closure3_slot8 = var4;
-            var4 = var8[var3];
-            var9 = var6.bind(var1)(var4);
-            var4 = var9.getAdTrafficMetadataRaw;
-            var4 = var4.bind(var9)(var7, var5);
-            var _closure3_slot9 = var4;
             var3 = var8[var3];
             var4 = var6.bind(var1)(var3);
             var3 = var4.getAdTrafficMetadataSealed;
             var3 = var3.bind(var4)(var7, var5);
-            var _closure3_slot10 = var3;
+            var _closure3_slot9 = var3;
             var3 = 6;
             var3 = var8[var3];
             var5 = var6.bind(var1)(var3);
@@ -258,20 +253,11 @@ case 12:
                     var6[6] = var9;
                     var7 = _closure3_slot9;
                     var7 = var8 != var7;
-                    var9 = null;
+                    var8 = null;
                     if(!var7) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-                    var9 = _closure3_slot9;
+                    var8 = _closure3_slot9;
 case 14:
-                    var7 = 'traffic_metadata_raw';
-                    var6[6] = var9;
-                    var7 = _closure3_slot10;
-                    var7 = var8 != var7;
-                    var8 = null;
-                    if(!var7) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-                    var8 = _closure3_slot10;
-case 16:
                     var7 = 'traffic_metadata_sealed';
                     var6[6] = var8;
                     var2['properties'] = var6;
@@ -349,12 +335,12 @@ case 0:
             var3 = var4.bind(var5)(var3);
             var3 = var3.QuestContent;
             if(var8) { _fun0003_ip = 2; continue _fun0003 }
-case 18:
+case 16:
             var7 = var3.QUEST_HOME_ENTRYPOINT;
-            _fun0003_ip = 19; continue _fun0003;
+            _fun0003_ip = 17; continue _fun0003;
 case 2:
             var7 = var3.QUEST_HOME_ENTRYPOINT_THEMED;
-case 19:
+case 17:
             _closure2_slot2 = var7;
             var6 = _closure1_slot3;
             var5 = var6.useMemo;
@@ -388,11 +374,11 @@ case 0:
                     var5 = arg1;
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                    if(!(var1 != var2)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0004_ip = 22; continue _fun0004 }
-case 20:
+                    if(var1) { _fun0004_ip = 20; continue _fun0004 }
+case 18:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 13;
@@ -402,8 +388,8 @@ case 20:
                     var2 = var3.track;
                     var1 = _closure2_slot3;
                     var1 = var2.bind(var3)(var5, var1);
-                    _fun0004_ip = 23; continue _fun0004;
-case 22:
+                    _fun0004_ip = 21; continue _fun0004;
+case 20:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var1 = 4;
@@ -427,7 +413,7 @@ case 22:
                     var4 = _closure2_slot2;
                     var1['sourceQuestContent'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 23:
+case 21:
                     var1 = undefined;
                     return var1;
                 }

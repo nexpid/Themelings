@@ -425,11 +425,11 @@ case 23:
                     };
                     var1 = var3.bind(var4)(var1);
                     var3 = var5 != var1;
-                    if(!var3) { _fun0004_ip = 9; continue _fun0004 }
-case 25:
+                    if(!var3) { _fun0004_ip = 25; continue _fun0004 }
+case 7:
                     var4 = _closure3_slot0;
                     var3 = var5 == var4;
-case 9:
+case 25:
                     if(!var3) { _fun0004_ip = 21; continue _fun0004 }
 case 26:
                     var3 = var1.user;

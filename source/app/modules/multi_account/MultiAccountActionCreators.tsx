@@ -154,23 +154,22 @@ case 14:
 case 16:
                         var13 = var4;
 case 17: // try_end0
+                        var11 = _closure2_slot0;
+                        var9 = var6;
+                        if(!(var11 !== var9)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                         var11 = _closure1_slot1;
                         var9 = _closure1_slot3;
                         var9 = var9[var7];
                         var12 = var11.bind(var5)(var9);
                         var11 = var12.dispatch;
                         var9 = {};
-                        var16 = _closure2_slot0;
-                        var15 = var6;
                         var14 = 'USER_UPDATE';
-                        if(!(var16 === var15)) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-                        var14 = 'CURRENT_USER_UPDATE';
-case 18:
                         var9['type'] = var14;
                         var13 = var13.body;
                         var9['user'] = var13;
                         var9 = var11.bind(var12)(var9);
+case 18:
                         var11 = _closure1_slot1;
                         var9 = _closure1_slot3;
                         var9 = var9[var7];

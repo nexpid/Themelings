@@ -34,25 +34,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.jsx;
-    var _closure1_slot6 = var8;
-    var8 = var2.Fragment;
-    var _closure1_slot7 = var8;
-    var2 = var2.jsxs;
-    var _closure1_slot8 = var2;
+    var2 = var2.PROFILE_FRAME_ASPECT_RATIO;
+    var _closure1_slot6 = var2;
     var2 = 4;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.jsx;
+    var _closure1_slot7 = var8;
+    var8 = var2.Fragment;
+    var _closure1_slot8 = var8;
+    var2 = var2.jsxs;
+    var _closure1_slot9 = var2;
+    var2 = 5;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var2 = var2.spacing;
     var11 = var2.PX_8;
-    var _closure1_slot9 = var11;
-    var2 = 5;
+    var _closure1_slot10 = var11;
+    var2 = 6;
     var2 = var6[var2];
     var8 = var5.bind(var1)(var2);
     var7 = var8.createStyles;
     var2 = {};
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
-    var12 = 6;
+    var12 = 7;
     var13 = var6[var12];
     var13 = var5.bind(var1)(var13);
     var13 = var13.GUTTER_SIZE;
@@ -68,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['paddingVertical'] = var11;
     var2['previewContainer'] = var10;
     var2 = var7.bind(var8)(var2);
-    var _closure1_slot10 = var2;
+    var _closure1_slot11 = var2;
     var7 = var9.memo;
     var2 = function(arg1) {
         var2 = arg1;
@@ -81,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var3;
         var2 = var2.size;
         var _closure2_slot3 = var2;
-        var2 = _closure1_slot10;
+        var2 = _closure1_slot11;
         var4 = undefined;
         var9 = var2.bind(var4)();
         var5 = _closure1_slot3;
@@ -97,10 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var1 = var3.bind(var5)(var1, var2);
         var _closure2_slot4 = var1;
-        var3 = _closure1_slot8;
-        var2 = _closure1_slot7;
+        var3 = _closure1_slot9;
+        var2 = _closure1_slot8;
         var1 = {};
-        var8 = _closure1_slot6;
+        var8 = _closure1_slot7;
         var7 = _closure1_slot4;
         var5 = {};
         var12 = var9.row;
@@ -119,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var13.slice;
         var14 = _closure1_slot0;
         var15 = _closure1_slot2;
-        var10 = 6;
+        var10 = 7;
         var10 = var15[var10];
         var10 = var14.bind(var4)(var10);
         var10 = var10.ROW_SIZE;
@@ -131,7 +136,7 @@ case 0:
                 var2 = arg1;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var6 = 7;
+                var6 = 8;
                 var3 = var3[var6];
                 var5 = undefined;
                 var3 = var4.bind(var5)(var3);
@@ -149,7 +154,7 @@ case 5:
                 var3 = var3.bind(var5)(var2);
                 if(var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                var7 = _closure1_slot6;
+                var7 = _closure1_slot7;
                 var6 = _closure1_slot4;
                 var4 = {};
                 var3 = {};
@@ -163,8 +168,8 @@ case 7:
 case 6:
                 var9 = _closure2_slot0;
                 var8 = var2.skuId;
-                var6 = _closure1_slot6;
-                var4 = _closure1_slot11;
+                var6 = _closure1_slot7;
+                var4 = _closure1_slot12;
                 var3 = {};
                 var3['profileFrame'] = var2;
                 var8 = var9 === var8;
@@ -177,10 +182,10 @@ case 6:
                 var2 = var6.bind(var5)(var4, var3, var2);
                 return var2;
 case 4:
-                var6 = _closure1_slot6;
+                var6 = _closure1_slot7;
                 var3 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var2 = 8;
+                var2 = 9;
                 var2 = var8[var2];
                 var2 = var3.bind(var5)(var2);
                 var4 = var2.EditCollectiblesListItemShop;
@@ -188,7 +193,7 @@ case 4:
                 var2 = _closure2_slot3;
                 var3['size'] = var2;
                 var7 = _closure1_slot1;
-                var2 = 9;
+                var2 = 10;
                 var2 = var8[var2];
                 var2 = var7.bind(var5)(var2);
                 var2 = var2.EDIT_PROFILE_FRAME_SHEET;
@@ -197,10 +202,10 @@ case 4:
                 var2 = var6.bind(var5)(var4, var3, var2);
                 return var2;
 case 2:
-                var4 = _closure1_slot6;
+                var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 8;
+                var1 = 9;
                 var1 = var3[var1];
                 var1 = var2.bind(var5)(var1);
                 var3 = var1.EditCollectiblesListItemNone;
@@ -247,7 +252,7 @@ case 2:
         var8 = var2.setSelectedProfileFrame;
         var _closure2_slot1 = var8;
         var12 = var2.size;
-        var2 = _closure1_slot10;
+        var2 = _closure1_slot11;
         var4 = undefined;
         var7 = var2.bind(var4)();
         var5 = _closure1_slot3;
@@ -268,10 +273,10 @@ case 2:
             return var1;
         };
         var5 = var3.bind(var5)(var1, var2);
-        var3 = _closure1_slot6;
+        var3 = _closure1_slot7;
         var2 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var1 = 8;
+        var1 = 9;
         var1 = var11[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.EditCollectiblesListItemProduct;
@@ -288,20 +293,20 @@ case 2:
         var7 = var7.previewContainer;
         var5['style'] = var7;
         var10 = _closure1_slot1;
-        var7 = 10;
+        var7 = 11;
         var7 = var11[var7];
         var8 = var10.bind(var4)(var7);
         var7 = {};
         var7['profileFrame'] = var13;
-        var13 = 0.66;
-        var13 = var13 * var12;
+        var13 = _closure1_slot6;
+        var13 = var12 * var13;
         var7['previewWidth'] = var13;
-        var13 = _closure1_slot9;
+        var13 = _closure1_slot10;
         var9 = 2;
         var9 = var9 * var13;
         var9 = var12 - var9;
         var7['previewHeight'] = var9;
-        var9 = 4;
+        var9 = 5;
         var9 = var11[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.colors;
@@ -315,10 +320,10 @@ case 2:
         return var1;
     };
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot11 = var7;
+    var _closure1_slot12 = var7;
     var4 = 'EditProfileFrameItem';
     var7['displayName'] = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

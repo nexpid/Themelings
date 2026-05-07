@@ -42,6 +42,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PROFILE_FRAME_CONTAINER_WIDTH'] = var4;
     var4 = 480;
     var3['PROFILE_FRAME_RESPONSIVE_RAIL_MIN_PROFILE_HEIGHT'] = var4;
+    var4 = 0.66;
+    var3['PROFILE_FRAME_ASPECT_RATIO'] = var4;
     var3['PROFILE_FRAME_Z_INDEX'] = var2;
     return var1;
 })();

@@ -1368,15 +1368,15 @@ case 76:
 case 74:
             var3 = var12 == var13;
             var2 = undefined;
-            if(var3) { _fun0010_ip = 77; continue _fun0010 }
-case 78:
+            if(var3) { _fun0010_ip = 19; continue _fun0010 }
+case 77:
             var3 = var13.count_details;
             var6 = var12 == var3;
             var2 = undefined;
-            if(var6) { _fun0010_ip = 77; continue _fun0010 }
-case 41:
+            if(var6) { _fun0010_ip = 19; continue _fun0010 }
+case 78:
             var2 = var3.vote;
-case 77:
+case 19:
             var3 = var12 != var2;
             var9 = 0;
             if(!var3) { _fun0010_ip = 79; continue _fun0010 }

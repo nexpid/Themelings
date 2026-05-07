@@ -527,11 +527,11 @@ case 0:
 case 25:
                     var3 = var2.questId;
                     var10 = var2.questContent;
-                    var18 = var2.questContentCTA;
-                    var21 = var2.questContentPosition;
-                    var20 = var2.questContentRowIndex;
-                    var17 = var2.impressionId;
-                    var16 = var2.clickId;
+                    var17 = var2.questContentCTA;
+                    var20 = var2.questContentPosition;
+                    var19 = var2.questContentRowIndex;
+                    var16 = var2.impressionId;
+                    var15 = var2.clickId;
                     var9 = var2.trackGuildAndChannelMetadata;
                     var7 = var2.sourceQuestContent;
                     var4 = undefined;
@@ -544,14 +544,10 @@ case 48:
 case 50:
                     var6 = _closure1_slot6;
                     var5 = var6.getQuest;
-                    var19 = var5.bind(var6)(var3);
+                    var18 = var5.bind(var6)(var3);
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var11 = 7;
-                    var12 = var5[var11];
-                    var13 = var6.bind(var4)(var12);
-                    var12 = var13.getAdTrafficMetadataRaw;
-                    var15 = var12.bind(var13)(var10, var3);
                     var5 = var5[var11];
                     var6 = var6.bind(var4)(var5);
                     var5 = var6.getAdTrafficMetadataSealed;
@@ -566,51 +562,43 @@ case 50:
                     var14 = _closure1_slot17;
                     var3 = {};
                     var3['questContent'] = var10;
-                    var3['questContentPosition'] = var21;
-                    var3['questContentRowIndex'] = var20;
-                    var3['questContentCTA'] = var18;
-                    var3['impressionId'] = var17;
-                    var3['clickId'] = var16;
+                    var3['questContentPosition'] = var20;
+                    var3['questContentRowIndex'] = var19;
+                    var3['questContentCTA'] = var17;
+                    var3['impressionId'] = var16;
+                    var3['clickId'] = var15;
                     var3 = var14.bind(var4)(var3);
-                    SaveGenerator(address=226);
+                    SaveGenerator(address=205);
 case 51:
                     return var3;
 case 52:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=13);
                     if(var14) { _fun0009_ip = 53; continue _fun0009 }
 case 54:
-                    var24 = var12;
-                    var23 = var3;
-                    var14 = copyDataProperties(var24, var23);
+                    var23 = var12;
+                    var22 = var3;
+                    var14 = copyDataProperties(var23, var22);
                     var14 = null;
-                    var16 = var14 != var19;
-                    var17 = null;
-                    if(!var16) { _fun0009_ip = 55; continue _fun0009 }
-case 56:
-                    var18 = _closure1_slot0;
-                    var20 = _closure1_slot2;
-                    var16 = 13;
-                    var16 = var20[var16];
-                    var18 = var18.bind(var4)(var16);
-                    var16 = var18.getQuestStatus;
-                    var17 = var16.bind(var18)(var19);
-case 55:
-                    var16 = 'quest_status';
-                    var12[15] = var17;
-                    var17 = var14 != var15;
+                    var15 = var14 != var18;
                     var16 = null;
-                    if(!var17) { _fun0009_ip = 57; continue _fun0009 }
-case 42:
-                    var16 = var15;
-case 57:
-                    var15 = 'traffic_metadata_raw';
+                    if(!var15) { _fun0009_ip = 55; continue _fun0009 }
+case 56:
+                    var17 = _closure1_slot0;
+                    var19 = _closure1_slot2;
+                    var15 = 13;
+                    var15 = var19[var15];
+                    var17 = var17.bind(var4)(var15);
+                    var15 = var17.getQuestStatus;
+                    var16 = var15.bind(var17)(var18);
+case 55:
+                    var15 = 'quest_status';
                     var12[14] = var16;
                     var15 = var14 != var13;
                     var14 = null;
-                    if(!var15) { _fun0009_ip = 58; continue _fun0009 }
-case 59:
-                    var14 = var13;
+                    if(!var15) { _fun0009_ip = 57; continue _fun0009 }
 case 58:
+                    var14 = var13;
+case 57:
                     var13 = 'traffic_metadata_sealed';
                     var12[12] = var14;
                     var5['properties'] = var12;
@@ -658,14 +646,14 @@ case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0010_ip = 60; continue _fun0010 }
+                    if(var3) { _fun0010_ip = 59; continue _fun0010 }
 case 25:
-                    var12 = var2.adContentId;
+                    var15 = var2.adContentId;
                     var3 = var2.adCreativeType;
                     var10 = var2.questContent;
                     var14 = var2.questContentCTA;
-                    var16 = var2.questContentPosition;
-                    var15 = var2.questContentRowIndex;
+                    var17 = var2.questContentPosition;
+                    var16 = var2.questContentRowIndex;
                     var13 = var2.impressionId;
                     var9 = var2.trackGuildAndChannelMetadata;
                     var7 = var2.sourceQuestContent;
@@ -675,37 +663,55 @@ case 6:
                     return var4;
 case 48:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0010_ip = 61; continue _fun0010 }
+                    if(var5) { _fun0010_ip = 60; continue _fun0010 }
 case 50:
                     var6 = _closure1_slot15;
                     var5 = {};
-                    var5['adContentId'] = var12;
+                    var5['adContentId'] = var15;
                     var5['adCreativeType'] = var3;
                     var3 = _closure1_slot7;
                     var3 = var3.QUEST_CONTENT_CLICKED;
                     var5['event'] = var3;
+                    var12 = {};
                     var11 = _closure1_slot17;
                     var3 = {};
                     var3['questContent'] = var10;
-                    var3['questContentPosition'] = var16;
-                    var3['questContentRowIndex'] = var15;
+                    var3['questContentPosition'] = var17;
+                    var3['questContentRowIndex'] = var16;
                     var3['questContentCTA'] = var14;
                     var3['impressionId'] = var13;
-                    var3['adCreativeId'] = var12;
+                    var3['adCreativeId'] = var15;
                     var3 = var11.bind(var4)(var3);
-                    SaveGenerator(address=161);
-case 62:
+                    SaveGenerator(address=163);
+case 61:
                     return var3;
-case 63:
+case 62:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=10);
-                    if(var11) { _fun0010_ip = 52; continue _fun0010 }
+                    if(var11) { _fun0010_ip = 63; continue _fun0010 }
 case 64:
-                    var5['properties'] = var3;
+                    var21 = var12;
+                    var20 = var3;
+                    var11 = copyDataProperties(var21, var20);
+                    var14 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var11 = 7;
+                    var13 = var13[var11];
+                    var14 = var14.bind(var4)(var13);
+                    var13 = var14.getAdTrafficMetadataSealed;
+                    var13 = var13.bind(var14)(var10, var4, var15);
+                    var14 = null;
+                    var15 = var14 != var13;
+                    if(!var15) { _fun0010_ip = 65; continue _fun0010 }
+case 66:
+                    var14 = var13;
+case 65:
+                    var13 = 'traffic_metadata_sealed';
+                    var12[12] = var14;
+                    var5['properties'] = var12;
                     var5['trackGuildAndChannelMetadata'] = var9;
                     var9 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var8 = 7;
-                    var8 = var11[var8];
+                    var8 = _closure1_slot2;
+                    var8 = var8[var11];
                     var9 = var9.bind(var4)(var8);
                     var8 = var9.isBillableQuestContent;
                     var8 = var8.bind(var9)(var10);
@@ -713,11 +719,11 @@ case 64:
                     var5['sourceQuestContent'] = var7;
                     var5 = var6.bind(var4)(var5);
                     return var4;
-case 52:
+case 63:
                     return var3;
-case 61:
-                    return var2;
 case 60:
+                    return var2;
+case 59:
                     return var1;
                 }
             };
@@ -825,24 +831,24 @@ case 0:
             var3 = _closure1_slot7;
             var3 = var3.QUEST_APP_STORE_OVERLAY_CLOSED;
             var6 = var5 === var3;
-            if(var6) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+            if(var6) { _fun0011_ip = 67; continue _fun0011 }
+case 68:
             var3 = _closure1_slot7;
             var3 = var3.QUEST_APP_STORE_OVERLAY_RETURNED;
             var6 = var5 === var3;
-case 65:
-            if(!var6) { _fun0011_ip = 67; continue _fun0011 }
-case 68:
-            var6 = var1 !== var8;
 case 67:
+            if(!var6) { _fun0011_ip = 69; continue _fun0011 }
+case 70:
+            var6 = var1 !== var8;
+case 69:
             var3 = _closure1_slot14;
             var2 = {};
             var9 = var9.id;
             var2['questId'] = var9;
             var2['event'] = var5;
             var5 = var7;
-            if(!var6) { _fun0011_ip = 69; continue _fun0011 }
-case 70:
+            if(!var6) { _fun0011_ip = 71; continue _fun0011 }
+case 66:
             var6 = {};
             var15 = var6;
             var14 = var7;
@@ -850,7 +856,7 @@ case 70:
             var7 = 'time_spent_ms';
             var6[6] = var8;
             var5 = var6;
-case 69:
+case 71:
             var2['properties'] = var5;
             var4 = var4.sourceQuestContent;
             var2['sourceQuestContent'] = var4;
@@ -900,16 +906,16 @@ case 0:
             var2['event'] = var9;
             var6 = _closure1_slot7;
             var6 = var6.QUEST_APP_STORE_OVERLAY_CLOSED;
-            if(!(var9 !== var6)) { _fun0012_ip = 71; continue _fun0012 }
-case 72:
+            if(!(var9 !== var6)) { _fun0012_ip = 72; continue _fun0012 }
+case 73:
             var5 = _closure1_slot7;
             var6 = var5.QUEST_APP_STORE_OVERLAY_RETURNED;
             var5 = var7;
-            if(!(var9 === var6)) { _fun0012_ip = 73; continue _fun0012 }
-case 71:
+            if(!(var9 === var6)) { _fun0012_ip = 74; continue _fun0012 }
+case 72:
             var5 = var7;
-            if(!(var1 !== var8)) { _fun0012_ip = 73; continue _fun0012 }
-case 74:
+            if(!(var1 !== var8)) { _fun0012_ip = 74; continue _fun0012 }
+case 75:
             var6 = {};
             var16 = var6;
             var15 = var7;
@@ -917,7 +923,7 @@ case 74:
             var7 = 'time_spent_ms';
             var6[6] = var8;
             var5 = var6;
-case 73:
+case 74:
             var2['properties'] = var5;
             var4 = var4.sourceQuestContent;
             var2['sourceQuestContent'] = var4;
