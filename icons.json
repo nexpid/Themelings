@@ -5739,6 +5739,16 @@
         "width": 24,
         "height": 24
     },
+    "ic_sparkle2": {
+        "file": "app/images/native/icons/ic_sparkle2.png",
+        "hash": "96f4f50193c5df13e000233d90f42a59",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 6,
+        "height": 6
+    },
     "ic_sparkle": {
         "file": "app/images/native/icons/ic_sparkle.png",
         "hash": "b28329d7d2ebd0b330f6112973e5d746",
@@ -5768,16 +5778,6 @@
         ],
         "width": 10,
         "height": 10
-    },
-    "ic_sparkle2": {
-        "file": "app/images/native/icons/ic_sparkle2.png",
-        "hash": "96f4f50193c5df13e000233d90f42a59",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 6,
-        "height": 6
     },
     "ic_spotify_white_16px": {
         "file": "app/images/native/ic_spotify_white_16px.png",
@@ -6311,6 +6311,78 @@
         "width": 24,
         "height": 24
     },
+    "icon0": {
+        "file": "app/images/group_dms/icon0.png",
+        "hash": "62009eabd9baf2e6b0ee2431e3de721e",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "icon1": {
+        "file": "app/images/group_dms/icon1.png",
+        "hash": "9cab0a5ea6447291fc5ceaa40f998701",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "icon2": {
+        "file": "app/images/group_dms/icon2.png",
+        "hash": "7ba11ffb1900fa2b088cb31324242047",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "icon3": {
+        "file": "app/images/group_dms/icon3.png",
+        "hash": "f90fca70610c4898bc57b58bce92f587",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "icon4": {
+        "file": "app/images/group_dms/icon4.png",
+        "hash": "4aac976bd30a4f0cedf52ece91b5ef7b",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "icon5": {
+        "file": "app/images/group_dms/icon5.png",
+        "hash": "c6851bd0b03f1cca5a8c1e720ea6ea17",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "icon6": {
+        "file": "app/images/group_dms/icon6.png",
+        "hash": "f7e38ac976a2a696161c923502a8345b",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "icon7": {
+        "file": "app/images/group_dms/icon7.png",
+        "hash": "3cb840d03313467838d658bbec801fcd",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
     "icon-afk": {
         "file": "app/images/native/icon-afk.png",
         "hash": "ed431a42081d7323282ce4207b41689a",
@@ -6383,78 +6455,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "icon0": {
-        "file": "app/images/group_dms/icon0.png",
-        "hash": "62009eabd9baf2e6b0ee2431e3de721e",
-        "scales": [
-            1
-        ],
-        "width": 96,
-        "height": 96
-    },
-    "icon1": {
-        "file": "app/images/group_dms/icon1.png",
-        "hash": "9cab0a5ea6447291fc5ceaa40f998701",
-        "scales": [
-            1
-        ],
-        "width": 96,
-        "height": 96
-    },
-    "icon2": {
-        "file": "app/images/group_dms/icon2.png",
-        "hash": "7ba11ffb1900fa2b088cb31324242047",
-        "scales": [
-            1
-        ],
-        "width": 96,
-        "height": 96
-    },
-    "icon3": {
-        "file": "app/images/group_dms/icon3.png",
-        "hash": "f90fca70610c4898bc57b58bce92f587",
-        "scales": [
-            1
-        ],
-        "width": 96,
-        "height": 96
-    },
-    "icon4": {
-        "file": "app/images/group_dms/icon4.png",
-        "hash": "4aac976bd30a4f0cedf52ece91b5ef7b",
-        "scales": [
-            1
-        ],
-        "width": 96,
-        "height": 96
-    },
-    "icon5": {
-        "file": "app/images/group_dms/icon5.png",
-        "hash": "c6851bd0b03f1cca5a8c1e720ea6ea17",
-        "scales": [
-            1
-        ],
-        "width": 96,
-        "height": 96
-    },
-    "icon6": {
-        "file": "app/images/group_dms/icon6.png",
-        "hash": "f7e38ac976a2a696161c923502a8345b",
-        "scales": [
-            1
-        ],
-        "width": 96,
-        "height": 96
-    },
-    "icon7": {
-        "file": "app/images/group_dms/icon7.png",
-        "hash": "3cb840d03313467838d658bbec801fcd",
-        "scales": [
-            1
-        ],
-        "width": 96,
-        "height": 96
     },
     "IdIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/IdIcon.png",
@@ -9984,45 +9984,9 @@
         "width": null,
         "height": null
     },
-    "NitroGem12": {
-        "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem12.lottie",
-        "hash": "5f77547974eb8f3f02aedbb78b4b73bc",
-        "scales": [
-            1
-        ],
-        "width": null,
-        "height": null
-    },
-    "NitroGem15": {
-        "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem15.lottie",
-        "hash": "5bcd891e95d07edbfb45ee3ed99361d8",
-        "scales": [
-            1
-        ],
-        "width": null,
-        "height": null
-    },
-    "NitroGem18": {
-        "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem18.lottie",
-        "hash": "f8abc9efddaeaee5956e3c3ac3b829de",
-        "scales": [
-            1
-        ],
-        "width": null,
-        "height": null
-    },
     "NitroGem2": {
         "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem2.lottie",
         "hash": "bc4f103d29d98767eb7ae693f67ae198",
-        "scales": [
-            1
-        ],
-        "width": null,
-        "height": null
-    },
-    "NitroGem24": {
-        "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem24.lottie",
-        "hash": "2c315f321285573a3e0f3421e17e59ea",
         "scales": [
             1
         ],
@@ -10050,6 +10014,42 @@
     "NitroGem9": {
         "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem9.lottie",
         "hash": "3b38f8bf8ac6605b344df2f05c37673a",
+        "scales": [
+            1
+        ],
+        "width": null,
+        "height": null
+    },
+    "NitroGem12": {
+        "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem12.lottie",
+        "hash": "5f77547974eb8f3f02aedbb78b4b73bc",
+        "scales": [
+            1
+        ],
+        "width": null,
+        "height": null
+    },
+    "NitroGem15": {
+        "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem15.lottie",
+        "hash": "5bcd891e95d07edbfb45ee3ed99361d8",
+        "scales": [
+            1
+        ],
+        "width": null,
+        "height": null
+    },
+    "NitroGem18": {
+        "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem18.lottie",
+        "hash": "f8abc9efddaeaee5956e3c3ac3b829de",
+        "scales": [
+            1
+        ],
+        "width": null,
+        "height": null
+    },
+    "NitroGem24": {
+        "file": "app/design/components/LottieIcon/native/generated/lotties/NitroGem24.lottie",
+        "hash": "2c315f321285573a3e0f3421e17e59ea",
         "scales": [
             1
         ],
