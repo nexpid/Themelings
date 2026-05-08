@@ -102,7 +102,7 @@ interface WebhookEmbed {
 	title: string;
 	body: FormattedDiff;
 	image?: Canvas;
-	footer?: string;
+	footer: string;
 	key: string;
 }
 

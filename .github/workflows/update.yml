@@ -71,5 +71,5 @@ jobs:
               if: ${{ steps.check.outputs.version != 'false' }}
               working-directory: data
               run: |
-                git tag ${{ steps.check.outputs.version }}
-                git push --tags
+                git tag -f ${{ steps.check.outputs.version }}
+                git push origin -f ${{ steps.check.outputs.version }}
