@@ -17,12 +17,13 @@ let reuseFolder = isMock;
 if (!reuseFolder) {
 	const matches = await Bun.file("tmp/ver")
 		.text()
-		.then((x) => x === version);
+		.then((x) => x === version)
+		.catch(() => false);
 	if (matches) {
-		for (const folder of Object.keys(apkAssets)) {
-			if (!(await exists(join(apksFolder, folder, "res")))) break;
-		}
-		reuseFolder = true;
+		const exist = await Promise.allSettled(
+			Object.keys(apkAssets).map((folder) => exists(join(apksFolder, folder, "res"))),
+		);
+		if (exist.every((x) => x.status === "fulfilled" && x.value)) reuseFolder = true;
 	}
 }
 
