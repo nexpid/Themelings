@@ -716,13 +716,11 @@ case 52:
 case 7:
                     var3['bottom'] = var4;
                     var1['scrollIndicatorInsets'] = var3;
-                    var6 = _closure2_slot3;
+                    var3 = _closure2_slot3;
+                    var1['insetStart'] = var3;
+                    var4 = _closure2_slot5;
                     var5 = _closure2_slot2;
                     var3 = 2;
-                    var4 = var3 * var5;
-                    var4 = var6 + var4;
-                    var1['insetStart'] = var4;
-                    var4 = _closure2_slot5;
                     var3 = var3 * var5;
                     var3 = var4 + var3;
                     var2 = _closure2_slot7;

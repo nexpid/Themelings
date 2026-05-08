@@ -1600,6 +1600,18 @@ case 4:
         return var1;
     };
     var12['QUEST_PREVIEW_TOOL_2'] = var16;
+    var16 = function QUEST_HOME_PREVIEW(arg1) {
+        var5 = _closure1_slot0;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var4 = var1.concat;
+        var3 = '';
+        var2 = '/quest-home?ad_creative_ids=';
+        var1 = arg1;
+        var1 = var4.bind(var3)(var5, var2, var1);
+        return var1;
+    };
+    var12['QUEST_HOME_PREVIEW'] = var16;
     var13 = var13.bind(var15)(var12);
     var12 = {};
     var15 = '/';

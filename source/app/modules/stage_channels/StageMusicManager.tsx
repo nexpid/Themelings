@@ -609,13 +609,13 @@ case 0:
             var3 = var5.getStageInstanceByChannel;
             var3 = var3.bind(var5)(var6);
             if(!var1) { _fun0009_ip = 40; continue _fun0009 }
-case 41:
+case 28:
             var1 = var4 == var3;
 case 40:
-            if(!var1) { _fun0009_ip = 42; continue _fun0009 }
-case 43:
-            var1 = !var2;
+            if(!var1) { _fun0009_ip = 41; continue _fun0009 }
 case 42:
+            var1 = !var2;
+case 41:
             return var1;
         }
     };

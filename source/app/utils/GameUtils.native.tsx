@@ -51,6 +51,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['isLaunchable'] = var4;
+    var4 = function isGameLaunchable() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var1 = false;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['isGameLaunchable'] = var4;
     var4 = function launch() {
         var1 = global;
         var3 = var1.Promise;
@@ -99,15 +108,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['createShortcuts'] = var4;
-    var4 = function isGameLaunchable() {
-        var1 = global;
-        var3 = var1.Promise;
-        var2 = var3.resolve;
-        var1 = false;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var2['isGameLaunchable'] = var4;
     var4 = function launchGame() {
         var1 = global;
         var3 = var1.Promise;

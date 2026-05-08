@@ -25,7 +25,7 @@ case 0:
             var1 = var2.bind(var3)(var1);
             var1 = var1.chatInputFloating;
             var2 = _closure1_slot15;
-            var16 = var2.bind(var5)(var1);
+            var16 = var2.bind(var5)();
             var4 = _closure1_slot11;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -207,7 +207,7 @@ case 0:
             var1 = var7.bind(var8)(var1);
             var7 = var1.chatInputFloating;
             var1 = _closure1_slot15;
-            var16 = var1.bind(var4)(var7);
+            var16 = var1.bind(var4)();
             var1 = 14;
             var1 = var2[var1];
             var11 = var3.bind(var4)(var1);
@@ -440,7 +440,7 @@ case 20:
                     var1 = '-';
                     var1 = var7.bind(var6)(var10, var1, var8);
                     var1 = var5.bind(var4)(var3, var2, var1);
-                    _fun0004_ip = 2; continue _fun0004;
+                    _fun0004_ip = 8; continue _fun0004;
 case 17:
                     var5 = _closure1_slot11;
                     var4 = _closure1_slot12;
@@ -490,7 +490,7 @@ case 22:
                     var6[1] = var7;
                     var3['children'] = var6;
                     var1 = var5.bind(var2)(var4, var3);
-case 2:
+case 8:
                     return var1;
                 }
             };
@@ -766,7 +766,7 @@ case 0:
             var1 = var3.bind(var5)(var1);
             var5 = var1.chatInputFloating;
             var1 = _closure1_slot15;
-            var14 = var1.bind(var4)(var5);
+            var14 = var1.bind(var4)();
             var3 = _closure1_slot10;
             var1 = 10;
             var1 = var7[var1];
@@ -990,115 +990,114 @@ case 74:
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
-    var4 = function(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-            var9 = arg1;
-            var1 = {};
-            var2 = {'overflow': 'hidden', 'flexDirection': 'row', 'alignItems': 'center'};
-            var11 = 'hidden';
-            if(var9) { _fun0007_ip = 76; continue _fun0007 }
-case 77:
-            var3 = {};
-            _fun0007_ip = 78; continue _fun0007;
-case 76:
-            var3 = {'paddingHorizontal': 12, 'paddingVertical': 8, 'gap': 8};
-case 78:
-            var14 = var2;
-            var13 = var3;
-            var3 = copyDataProperties(var14, var13);
-            var1['contextBarRow'] = var2;
-            var2 = {'flexShrink': 1, 'minWidth': 0};
-            var1['floatingReplyTextWrapper'] = var2;
-            var2 = {'paddingHorizontal': 12, 'paddingVertical': 10};
-            var1['contextCancelIconWrapper'] = var2;
-            var7 = 'stretch';
-            var2 = {'flexGrow': 1, 'flexShrink': 1, 'justifyContent': 'center', 'alignSelf': 'stretch', 'paddingRight': 12, 'paddingVertical': 10};
-            var1['contextButtonText'] = var2;
-            var2 = {};
-            var3 = _closure1_slot4;
-            var3 = var3.hairlineWidth;
-            var2['borderBottomWidth'] = var3;
-            var10 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var6 = 8;
-            var12 = var3[var6];
-            var5 = undefined;
-            var12 = var10.bind(var5)(var12);
-            var12 = var12.colors;
-            var12 = var12.BORDER_MUTED;
-            var2['borderBottomColor'] = var12;
-            var2['overflow'] = var11;
-            var1['floatingContextBar'] = var2;
-            var2 = {'flexDirection': 'row', 'alignItems': 'center', 'paddingHorizontal': 12, 'paddingVertical': 10};
-            var1['replyMentionButton'] = var2;
-            var2 = {};
-            var3 = var3[var6];
-            var3 = var10.bind(var5)(var3);
-            var3 = var3.colors;
-            var3 = var3.CONTROL_BRAND_FOREGROUND;
-            var2['color'] = var3;
-            var1['replyMentionButtonActive'] = var2;
-            var2 = {};
-            var3 = 20;
-            var10 = var3;
-            if(!var9) { _fun0007_ip = 79; continue _fun0007 }
-case 80:
-            var10 = 16;
-case 79:
-            var2['width'] = var10;
-            if(!var9) { _fun0007_ip = 81; continue _fun0007 }
-case 82:
-            var3 = 16;
-case 81:
-            var2['height'] = var3;
-            var10 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var3 = var3[var6];
-            var3 = var10.bind(var5)(var3);
-            var3 = var3.colors;
-            var3 = var3.TEXT_MUTED;
-            var2['tintColor'] = var3;
-            var3 = 4;
-            if(!var9) { _fun0007_ip = 83; continue _fun0007 }
-case 84:
-            var3 = 0;
-case 83:
-            var2['marginRight'] = var3;
-            var1['replyMentionIcon'] = var2;
-            var2 = {};
-            var4 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var9 = var3[var6];
-            var9 = var4.bind(var5)(var9);
-            var9 = var9.colors;
-            var9 = var9.CONTROL_BRAND_FOREGROUND;
-            var2['tintColor'] = var9;
-            var1['replyMentionIconActive'] = var2;
-            var2 = {'flexGrow': 1, 'flexShrink': 0, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'flex-end', 'gap': 8};
-            var1['floatingRightActions'] = var2;
-            var2 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 2};
-            var1['floatingMentionGroup'] = var2;
-            var2 = {};
-            var8 = _closure1_slot4;
-            var8 = var8.hairlineWidth;
-            var2['width'] = var8;
-            var2['alignSelf'] = var7;
-            var7 = var3[var6];
-            var7 = var4.bind(var5)(var7);
-            var7 = var7.colors;
-            var7 = var7.BORDER_SUBTLE;
-            var2['backgroundColor'] = var7;
-            var1['floatingDivider'] = var2;
-            var2 = {'width': 16, 'height': 16};
-            var3 = var3[var6];
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.colors;
-            var3 = var3.INTERACTIVE_ICON_DEFAULT;
-            var2['tintColor'] = var3;
-            var1['floatingCloseIcon'] = var2;
-            return var1;
-        }
+    var4 = function() {
+        var1 = {};
+        var2 = {'overflow': 'hidden', 'flexDirection': 'row', 'alignItems': 'center'};
+        var9 = 'hidden';
+        var5 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var3 = 8;
+        var7 = var6[var3];
+        var4 = undefined;
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.modules;
+        var7 = var7.mobile;
+        var7 = var7.CHAT_INPUT_CONTEXT_BAR_PADDING_HORIZONTAL;
+        var2['paddingHorizontal'] = var7;
+        var7 = var6[var3];
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.modules;
+        var7 = var7.mobile;
+        var7 = var7.CHAT_INPUT_CONTEXT_BAR_PADDING_VERTICAL;
+        var2['paddingVertical'] = var7;
+        var7 = var6[var3];
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.modules;
+        var7 = var7.mobile;
+        var7 = var7.CHAT_INPUT_CONTEXT_BAR_GAP;
+        var2['gap'] = var7;
+        var1['contextBarRow'] = var2;
+        var2 = {'flexShrink': 1, 'minWidth': 0};
+        var1['floatingReplyTextWrapper'] = var2;
+        var2 = {'paddingHorizontal': 12, 'paddingVertical': 10};
+        var1['contextCancelIconWrapper'] = var2;
+        var7 = 'stretch';
+        var2 = {'flexGrow': 1, 'flexShrink': 1, 'justifyContent': 'center', 'alignSelf': 'stretch', 'paddingRight': 12, 'paddingVertical': 10};
+        var1['contextButtonText'] = var2;
+        var2 = {};
+        var8 = _closure1_slot4;
+        var10 = var8.hairlineWidth;
+        var2['borderBottomWidth'] = var10;
+        var10 = var6[var3];
+        var10 = var5.bind(var4)(var10);
+        var10 = var10.colors;
+        var10 = var10.BORDER_MUTED;
+        var2['borderBottomColor'] = var10;
+        var2['overflow'] = var9;
+        var1['floatingContextBar'] = var2;
+        var2 = {'flexDirection': 'row', 'alignItems': 'center', 'paddingHorizontal': 12, 'paddingVertical': 10};
+        var1['replyMentionButton'] = var2;
+        var2 = {};
+        var9 = var6[var3];
+        var9 = var5.bind(var4)(var9);
+        var9 = var9.colors;
+        var9 = var9.CONTROL_BRAND_FOREGROUND;
+        var2['color'] = var9;
+        var1['replyMentionButtonActive'] = var2;
+        var2 = {};
+        var9 = var6[var3];
+        var9 = var5.bind(var4)(var9);
+        var9 = var9.modules;
+        var9 = var9.mobile;
+        var9 = var9.CHAT_INPUT_REPLY_MENTION_ICON_SIZE;
+        var2['width'] = var9;
+        var9 = var6[var3];
+        var9 = var5.bind(var4)(var9);
+        var9 = var9.modules;
+        var9 = var9.mobile;
+        var9 = var9.CHAT_INPUT_REPLY_MENTION_ICON_SIZE;
+        var2['height'] = var9;
+        var9 = var6[var3];
+        var9 = var5.bind(var4)(var9);
+        var9 = var9.colors;
+        var9 = var9.TEXT_MUTED;
+        var2['tintColor'] = var9;
+        var9 = var6[var3];
+        var9 = var5.bind(var4)(var9);
+        var9 = var9.modules;
+        var9 = var9.mobile;
+        var9 = var9.CHAT_INPUT_REPLY_MENTION_ICON_MARGIN_RIGHT;
+        var2['marginRight'] = var9;
+        var1['replyMentionIcon'] = var2;
+        var2 = {};
+        var9 = var6[var3];
+        var9 = var5.bind(var4)(var9);
+        var9 = var9.colors;
+        var9 = var9.CONTROL_BRAND_FOREGROUND;
+        var2['tintColor'] = var9;
+        var1['replyMentionIconActive'] = var2;
+        var2 = {'flexGrow': 1, 'flexShrink': 0, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'flex-end', 'gap': 8};
+        var1['floatingRightActions'] = var2;
+        var2 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 2};
+        var1['floatingMentionGroup'] = var2;
+        var2 = {};
+        var8 = var8.hairlineWidth;
+        var2['width'] = var8;
+        var2['alignSelf'] = var7;
+        var7 = var6[var3];
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.colors;
+        var7 = var7.BORDER_SUBTLE;
+        var2['backgroundColor'] = var7;
+        var1['floatingDivider'] = var2;
+        var2 = {'width': 16, 'height': 16};
+        var3 = var6[var3];
+        var3 = var5.bind(var4)(var3);
+        var3 = var3.colors;
+        var3 = var3.INTERACTIVE_ICON_DEFAULT;
+        var2['tintColor'] = var3;
+        var1['floatingCloseIcon'] = var2;
+        return var1;
     };
     var4 = var8.bind(var9)(var4);
     var _closure1_slot15 = var4;
@@ -1112,7 +1111,7 @@ case 83:
     var _closure1_slot17 = var4;
     var8 = var7.forwardRef;
     var4 = function(arg1, arg2) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.children;
@@ -1148,12 +1147,12 @@ case 0:
             var14 = var1.backgroundColor;
             var _closure2_slot1 = var14;
             var1 = _closure1_slot15;
-            var8 = var1.bind(var4)(var7);
+            var8 = var1.bind(var4)();
             var1 = 40;
-            if(!var7) { _fun0008_ip = 85; continue _fun0008 }
-case 86:
+            if(!var7) { _fun0007_ip = 76; continue _fun0007 }
+case 77:
             var1 = 60;
-case 85:
+case 76:
             _closure2_slot2 = var1;
             var10 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -1168,7 +1167,7 @@ case 85:
             var11 = var10.bind(var4)(var9);
             var10 = var11.useAnimatedStyle;
             var9 = function o() {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var1 = {};
                     var2 = _closure2_slot1;
@@ -1178,15 +1177,15 @@ case 0:
                     var5 = _closure2_slot3;
                     var4 = var5.get;
                     var4 = var4.bind(var5)();
-                    if(var2) { _fun0009_ip = 78; continue _fun0009 }
-case 87:
+                    if(var2) { _fun0008_ip = 78; continue _fun0008 }
+case 79:
                     var3['height'] = var4;
                     var2 = var3;
-                    _fun0009_ip = 88; continue _fun0009;
+                    _fun0008_ip = 80; continue _fun0008;
 case 78:
                     var3['maxHeight'] = var4;
                     var2 = var3;
-case 88:
+case 80:
                     var7 = var1;
                     var6 = var2;
                     var2 = copyDataProperties(var7, var6);
@@ -1213,12 +1212,12 @@ case 88:
             var11 = new Array(1);
             var11[0] = var10;
             var10 = function() {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var2 = _closure2_slot4;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0010_ip = 15; continue _fun0010 }
+                    if(!(var2 != var3)) { _fun0009_ip = 15; continue _fun0009 }
 case 16:
                     var2 = _closure2_slot4;
                     var1 = var2.current;
@@ -1284,11 +1283,11 @@ case 15:
                     var8 = var9.withTiming;
                     var16 = _closure1_slot13;
                     var6 = function n(arg1) {
-                        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                             var1 = arg1;
-                            if(!var1) { _fun0011_ip = 88; continue _fun0011 }
-case 89:
+                            if(!var1) { _fun0010_ip = 80; continue _fun0010 }
+case 81:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var1 = 21;
@@ -1299,7 +1298,7 @@ case 89:
                             var1 = _closure2_slot5;
                             var1 = var3.bind(var4)(var1);
                             var1 = var1.bind(var2)();
-case 88:
+case 80:
                             var1 = undefined;
                             return var1;
                         }
@@ -1337,10 +1336,10 @@ case 88:
             var1 = {};
             var6 = new Array(2);
             var6[0] = var9;
-            if(!var7) { _fun0008_ip = 90; continue _fun0008 }
-case 91:
+            if(!var7) { _fun0007_ip = 82; continue _fun0007 }
+case 83:
             var7 = var8.floatingContextBar;
-case 90:
+case 82:
             var6[1] = var7;
             var1['style'] = var6;
             var1['children'] = var5;
@@ -1352,7 +1351,7 @@ case 90:
     var _closure1_slot18 = var4;
     var4 = var7.memo;
     var2 = function ChatInputContextBar(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var2 = arg1;
             var6 = var2.channel;
@@ -1371,28 +1370,28 @@ case 0:
             var1 = function() {
                 var1 = {};
                 var3 = function onCancelEditing() {
-                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                    _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                         var1 = _closure2_slot1;
                         var2 = var1.current;
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0013_ip = 92; continue _fun0013 }
+                        if(!(var1 != var2)) { _fun0012_ip = 84; continue _fun0012 }
 case 16:
                         var1 = var2.handleCancelEditing;
                         var1 = var1.bind(var2)();
-case 92:
+case 84:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1['onCancelEditing'] = var3;
                 var3 = function onCancelReplying() {
-                    _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                         var1 = _closure2_slot2;
                         var9 = null;
-                        if(!(var9 != var1)) { _fun0014_ip = 93; continue _fun0014 }
-case 94:
+                        if(!(var9 != var1)) { _fun0013_ip = 85; continue _fun0013 }
+case 86:
                         var2 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var1 = 23;
@@ -1414,12 +1413,12 @@ case 94:
                         var8 = _closure2_slot2;
                         var10 = var9 == var8;
                         var8 = undefined;
-                        if(var10) { _fun0014_ip = 95; continue _fun0014 }
-case 96:
+                        if(var10) { _fun0013_ip = 87; continue _fun0013 }
+case 88:
                         var10 = _closure2_slot2;
                         var10 = var10.message;
                         var8 = var10.id;
-case 95:
+case 87:
                         var1['message_id'] = var8;
                         var8 = _closure2_slot0;
                         var10 = var8.id;
@@ -1442,35 +1441,35 @@ case 95:
                         var8 = var6.bind(var8)();
                         var10 = var9 == var8;
                         var6 = undefined;
-                        if(var10) { _fun0014_ip = 97; continue _fun0014 }
-case 98:
+                        if(var10) { _fun0013_ip = 89; continue _fun0013 }
+case 90:
                         var6 = var8.id;
-case 97:
+case 89:
                         var8 = _closure2_slot2;
                         var8 = var9 == var8;
                         var5 = undefined;
-                        if(var8) { _fun0014_ip = 81; continue _fun0014 }
+                        if(var8) { _fun0013_ip = 91; continue _fun0013 }
 case 17:
                         var7 = _closure2_slot2;
                         var7 = var7.message;
                         var7 = var7.author;
                         var5 = var7.id;
-case 81:
+case 91:
                         var5 = var6 === var5;
                         var1['is_own_message'] = var5;
                         var1 = var3.bind(var4)(var2, var1);
-case 93:
+case 85:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1['onCancelReplying'] = var3;
                 var3 = function onTapContextBarReply() {
-                    _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+                    _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                         var3 = _closure2_slot2;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0015_ip = 99; continue _fun0015 }
+                        if(!(var2 != var3)) { _fun0014_ip = 92; continue _fun0014 }
 case 75:
                         var5 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -1491,18 +1490,18 @@ case 75:
                         var1 = var1.id;
                         var1 = var6.bind(var7)(var5, var4, var1);
                         var1 = var2.bind(var3)(var1);
-case 99:
+case 92:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1['onTapContextBarReply'] = var3;
                 var2 = function onToggleReplyMention() {
-                    _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+                    _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                         var3 = _closure2_slot2;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0016_ip = 100; continue _fun0016 }
+                        if(!(var2 != var3)) { _fun0015_ip = 93; continue _fun0015 }
 case 75:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -1517,7 +1516,7 @@ case 75:
                         var1 = var1.shouldMention;
                         var1 = !var1;
                         var1 = var3.bind(var4)(var2, var1);
-case 100:
+case 93:
                         var1 = undefined;
                         return var1;
                     }
@@ -1540,10 +1539,10 @@ case 100:
             var6 = null;
             var5 = var6 == var8;
             var1 = undefined;
-            if(var5) { _fun0012_ip = 101; continue _fun0012 }
+            if(var5) { _fun0011_ip = 61; continue _fun0011 }
 case 18:
             var1 = var8.message;
-case 101:
+case 61:
             var9 = var2.bind(var3)(var1);
             var3 = _closure1_slot11;
             var2 = _closure1_slot0;
@@ -1556,12 +1555,12 @@ case 101:
             var5 = _closure1_slot5;
             var1['component'] = var5;
             var11 = var6 != var8;
-            if(!var11) { _fun0012_ip = 102; continue _fun0012 }
-case 103:
+            if(!var11) { _fun0011_ip = 94; continue _fun0011 }
+case 95:
             var11 = var6 != var9;
-case 102:
-            if(!var11) { _fun0012_ip = 104; continue _fun0012 }
-case 105:
+case 94:
+            if(!var11) { _fun0011_ip = 96; continue _fun0011 }
+case 97:
             var14 = _closure1_slot10;
             var13 = _closure1_slot18;
             var5 = {};
@@ -1575,16 +1574,16 @@ case 105:
             var15 = var14.bind(var4)(var17, var15);
             var5['children'] = var15;
             var11 = var14.bind(var4)(var13, var5);
-case 104:
+case 96:
             var5 = new Array(3);
             var5[0] = var11;
             var8 = var6 != var8;
-            if(!var8) { _fun0012_ip = 106; continue _fun0012 }
-case 107:
+            if(!var8) { _fun0011_ip = 98; continue _fun0011 }
+case 99:
             var8 = var6 == var9;
-case 106:
-            if(!var8) { _fun0012_ip = 108; continue _fun0012 }
-case 109:
+case 98:
+            if(!var8) { _fun0011_ip = 64; continue _fun0011 }
+case 100:
             var13 = _closure1_slot10;
             var11 = _closure1_slot18;
             var9 = {};
@@ -1594,11 +1593,11 @@ case 109:
             var14 = var13.bind(var4)(var15, var14);
             var9['children'] = var14;
             var8 = var13.bind(var4)(var11, var9);
-case 108:
+case 64:
             var5[1] = var8;
             var6 = var6 != var7;
-            if(!var6) { _fun0012_ip = 110; continue _fun0012 }
-case 111:
+            if(!var6) { _fun0011_ip = 101; continue _fun0011 }
+case 102:
             var9 = _closure1_slot10;
             var8 = _closure1_slot18;
             var7 = {};
@@ -1608,7 +1607,7 @@ case 111:
             var10 = var9.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 110:
+case 101:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

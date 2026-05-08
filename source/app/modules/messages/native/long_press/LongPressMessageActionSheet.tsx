@@ -1025,6 +1025,8 @@ case 95:
                         var1 = var1.ActionSheetRow;
                         var3 = var1.Group;
                         var2 = {};
+                        var1 = true;
+                        var2['hasIcons'] = var1;
                         var6 = var7.map;
                         var1 = function(arg1, arg2) {
                             var1 = arg1;

@@ -1742,11 +1742,11 @@ case 0:
                     var9 = {};
                     var14 = _closure2_slot11;
                     var13 = undefined;
-                    if(var14) { _fun0014_ip = 107; continue _fun0014 }
-case 108:
+                    if(var14) { _fun0014_ip = 29; continue _fun0014 }
+case 107:
                     var14 = _closure1_slot20;
                     var13 = var14.DARK;
-case 107:
+case 29:
                     var9['theme'] = var13;
                     var14 = _closure1_slot21;
                     var13 = _closure1_slot36;
@@ -1990,8 +1990,8 @@ case 0:
             var9 = var1.bind(var2)(var8, var10);
             var1 = null;
             var2 = var1 == var8;
-            if(var2) { _fun0015_ip = 109; continue _fun0015 }
-case 110:
+            if(var2) { _fun0015_ip = 108; continue _fun0015 }
+case 109:
             var4 = _closure1_slot21;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -2011,7 +2011,7 @@ case 110:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 109:
+case 108:
             return var1;
         }
     };

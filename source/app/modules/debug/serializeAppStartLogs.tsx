@@ -397,18 +397,18 @@ case 52:
                             var12 = var11[var5];
                             var4 = var5 + var9;
                             var13 = var11[var4];
-                            if(!(var6 != var13)) { _fun0006_ip = 53; continue _fun0006 }
-case 54:
+                            if(!(var6 != var13)) { _fun0006_ip = 16; continue _fun0006 }
+case 53:
                             var14 = var13.log;
                             var15 = var12.log;
                             var4 = var15.replace;
                             var4 = var4.bind(var15)(var8, var10);
                             if(!(var14 !== var4)) { _fun0006_ip = 5; continue _fun0006 }
-case 53:
+case 16:
                             var4 = var7.push;
                             var4 = var4.bind(var7)(var12);
                             var4 = var5;
-                            _fun0006_ip = 55; continue _fun0006;
+                            _fun0006_ip = 54; continue _fun0006;
 case 5:
                             var14 = var13.log;
                             var12 = var14.replace;
@@ -417,7 +417,7 @@ case 5:
                             var12 = var7.push;
                             var12 = var12.bind(var7)(var13);
                             var4 = var5 + 1;
-case 55:
+case 54:
                             var5 = var4 + 1;
                             var4 = var11.length;
                             if(var5 < var4) { _fun0006_ip = 52; continue _fun0006 }
@@ -448,8 +448,8 @@ case 47:
                                     var3 = var2.delta;
                                     var4 = var4 == var3;
                                     var3 = var7;
-                                    if(var4) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
+                                    if(var4) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
                                     var4 = global;
                                     var6 = var4.String;
                                     var8 = var4.Math;
@@ -458,22 +458,22 @@ case 57:
                                     var5 = var5.bind(var8)(var4);
                                     var4 = undefined;
                                     var3 = var6.bind(var4)(var5);
-case 56:
+case 55:
                                     var1['deltaTime'] = var3;
                                     var3 = var2.emoji;
                                     var4 = var3.length;
                                     var3 = 0;
                                     var3 = var4 > var3;
                                     var6 = var7;
-                                    if(!var3) { _fun0007_ip = 58; continue _fun0007 }
-case 59:
+                                    if(!var3) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
                                     var5 = var2.emoji;
                                     var3 = global;
                                     var3 = var3.HermesInternal;
                                     var4 = var3.concat;
                                     var3 = ' ';
                                     var6 = var4.bind(var7)(var5, var3);
-case 58:
+case 57:
                                     var11 = var2.prefix;
                                     var10 = var2.log;
                                     var2 = global;
@@ -505,10 +505,10 @@ case 58:
                             var10 = var10.bind(var11)(var7);
                             var11 = var6 != var10;
                             var7 = 0;
-                            if(!var11) { _fun0006_ip = 60; continue _fun0006 }
-case 61:
-                            var7 = var10;
+                            if(!var11) { _fun0006_ip = 59; continue _fun0006 }
 case 60:
+                            var7 = var10;
+case 59:
                             var _closure4_slot1 = var7;
                             var7 = _closure1_slot1;
                             var5 = _closure1_slot2;
@@ -526,10 +526,10 @@ case 60:
                             var5 = var7.bind(var8)(var5);
                             var6 = var6 != var5;
                             var2 = 0;
-                            if(!var6) { _fun0006_ip = 62; continue _fun0006 }
-case 63:
-                            var2 = var5;
+                            if(!var6) { _fun0006_ip = 61; continue _fun0006 }
 case 62:
+                            var2 = var5;
+case 61:
                             var _closure4_slot2 = var2;
                             var2 = var4.map;
                             var1 = function(arg1) {
@@ -588,15 +588,15 @@ case 62:
                     var3 = var17[var8](var16, var15, var14, var13, var12, var11);
                     var7 = null;
                     var1 = var3;
-                    if(!(var7 != var6)) { _fun0003_ip = 64; continue _fun0003 }
-case 65:
+                    if(!(var7 != var6)) { _fun0003_ip = 63; continue _fun0003 }
+case 64:
                     var5 = var5 + var4;
                     var2 = var2.HermesInternal;
                     var4 = var2.concat;
                     var2 = '\n Server trace for trace #';
                     var2 = var4.bind(var2)(var5, var6);
                     var1 = var3 + var2;
-case 64:
+case 63:
                     return var1;
                 }
             };

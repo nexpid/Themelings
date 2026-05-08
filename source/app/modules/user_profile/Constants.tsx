@@ -3,6 +3,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var19 = require;
     var3 = exports;
     var20 = dependencyMap;
+    var _closure1_slot0 = var19;
+    var _closure1_slot1 = var20;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -16,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var2 = var19.bind(var1)(var2);
     var2 = var2.Endpoints;
-    var _closure1_slot0 = var2;
+    var _closure1_slot2 = var2;
     var17 = {};
     var2 = 'FEATURED';
     var17['FEATURED'] = var2;
@@ -84,14 +86,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['NICKNAME'] = var5;
     var2 = 'NICKNAME';
     var12[var5] = var2;
-    var18 = 1;
-    var12['PRONOUNS'] = var18;
+    var5 = 1;
+    var12['PRONOUNS'] = var5;
     var2 = 'PRONOUNS';
-    var12[var18] = var2;
-    var5 = 2;
-    var12['AVATAR'] = var5;
-    var2 = 'AVATAR';
     var12[var5] = var2;
+    var18 = 2;
+    var12['AVATAR'] = var18;
+    var2 = 'AVATAR';
+    var12[var18] = var2;
     var7 = 3;
     var12['ANIMATED_AVATAR'] = var7;
     var5 = 'ANIMATED_AVATAR';
@@ -529,6 +531,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['USER_PROFILE_TOOLTIP_DELAY'] = var18;
     var18 = 'guild_booster_lvl';
     var3['GUILD_BOOSTER_BADGE_PREFIX'] = var18;
+    var18 = function getBadgeName(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var2 = var1.BadgeId;
+        var1 = arg1;
+        var2 = var2[var1];
+        var1 = var2.toLowerCase;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var3['getBadgeName'] = var18;
     var18 = 'user-profile-popout';
     var3['USER_PROFILE_POPOUT_KEY'] = var18;
     var3['UserProfileSections'] = var17;
@@ -556,7 +573,7 @@ case 0:
 case 3:
             var1 = var2.location;
             var5 = var1.protocol;
-            var3 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = var3.BADGE_ICON;
             var4 = var1.bind(var3)(var7);
             var1 = var2.HermesInternal;

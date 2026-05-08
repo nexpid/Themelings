@@ -19,26 +19,38 @@ case 0:
 case 3:
                     var12 = var2.createPromise;
                     var13 = var2.webpackId;
+                    var14 = var2.name;
                     var11 = undefined;
-                    var14 = undefined;
                     var15 = undefined;
-                    SaveGenerator(address=35);
+                    var16 = undefined;
+                    SaveGenerator(address=40);
 case 4:
                     return var11;
 case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var14 = 500;
-                    var15 = 0;
+                    var15 = 500;
+                    var16 = 0;
                     var10 = global;
                     var9 = 2;
                     var8 = 5000;
                     var6 = 50;
 case 8: // try_start_0
+                    var18 = var10.performance;
+                    var17 = var18.mark;
+                    var5 = {};
+                    var4 = {};
+                    var19 = var13;
+                    var4['webpackId'] = var19;
+                    var19 = var14;
+                    var4['name'] = var19;
+                    var5['detail'] = var4;
+                    var4 = 'importWithRetry:start';
+                    var4 = var17.bind(var18)(var4, var5);
                     var4 = var12;
                     var4 = var4.bind(var11)();
-                    SaveGenerator(address=80);
+                    SaveGenerator(address=133);
 case 9:
                     return var4;
 case 10:
@@ -56,13 +68,13 @@ case 13: // catch_target0
                     var4 = var5 in var4;
                     if(var4) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-                    var4 = var15;
+                    var4 = var16;
                     if(!(!(var4 >= var6))) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
                     var5 = _closure1_slot2;
-                    var4 = var14;
+                    var4 = var15;
                     var4 = var5.bind(var11)(var4);
-                    SaveGenerator(address=137);
+                    SaveGenerator(address=190);
 case 18:
                     return var4;
 case 19:
@@ -71,20 +83,20 @@ case 19:
 case 21:
                     var5 = _closure1_slot3;
                     var5 = var5.bind(var11)();
-                    SaveGenerator(address=155);
+                    SaveGenerator(address=208);
 case 22:
                     return var5;
 case 23:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=15);
-                    if(var16) { _fun0001_ip = 24; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=16);
+                    if(var17) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-                    var18 = var10.Math;
-                    var17 = var18.min;
-                    var16 = var14;
-                    var16 = var9 * var16;
-                    var14 = var17.bind(var18)(var8, var16);
-                    var16 = var15;
-                    var15 = var16 + 1;
+                    var19 = var10.Math;
+                    var18 = var19.min;
+                    var17 = var15;
+                    var17 = var9 * var17;
+                    var15 = var18.bind(var19)(var8, var17);
+                    var17 = var16;
+                    var16 = var17 + 1;
                     _fun0001_ip = 8; continue _fun0001;
 case 24:
                     return var5;

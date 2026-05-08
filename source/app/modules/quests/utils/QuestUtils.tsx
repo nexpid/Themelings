@@ -77,7 +77,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot11;
+            var9 = _closure1_slot12;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -89,7 +89,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot11;
+            var7 = _closure1_slot12;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -148,7 +148,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,7 +181,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var5 = function isSponsoredPlayQuest(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -210,7 +210,7 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot12 = var5;
+    var _closure1_slot13 = var5;
     var4 = function hasVariant(arg1, arg2) {
         var1 = global;
         var3 = var1.Set;
@@ -227,7 +227,7 @@ case 36:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -266,8 +266,10 @@ case 36:
     var6 = var7.bind(var1)(var6);
     var9 = var6.DISCORD_APPLICATION_ID;
     var _closure1_slot8 = var9;
-    var6 = var6.QuestVariants;
-    var _closure1_slot9 = var6;
+    var9 = var6.QuestVariants;
+    var _closure1_slot9 = var9;
+    var6 = var6.RewardFilterTypes;
+    var _closure1_slot10 = var6;
     var6 = 12;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -327,7 +329,7 @@ case 0:
             var24 = var2;
             var1 = new var24[var1](var23);
             var1 = var1 instanceof Object ? var1 : var2;
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot11;
             var11 = undefined;
             var2 = arg1;
             var10 = var3.bind(var11)(var2);
@@ -347,13 +349,13 @@ case 42:
             var2 = var2.bind(var11)(var14, var8);
             var19 = var2[var7];
             var18 = var2[var6];
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot13;
             var2 = var2.bind(var11)(var18);
             var15 = var4;
             var14 = var3;
             if(var2) { _fun0006_ip = 43; continue _fun0006 }
 case 44:
-            var16 = _closure1_slot13;
+            var16 = _closure1_slot14;
             var2 = _closure1_slot9;
             var2 = var2.NON_GAMING_PLAY_QUEST;
             var2 = var16.bind(var11)(var18, var2);
@@ -361,7 +363,7 @@ case 44:
             var14 = var3;
             if(var2) { _fun0006_ip = 43; continue _fun0006 }
 case 45:
-            var16 = _closure1_slot10;
+            var16 = _closure1_slot11;
             var17 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var9];
@@ -510,6 +512,53 @@ case 57:
         }
     };
     var3['isQuestFeaturedByHero'] = var4;
+    var4 = function shouldShowBountiesGivenFilters(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var5 = arg1;
+            var2 = var5.some;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.group;
+                var1 = 'task';
+                var1 = var1 === var2;
+                return var1;
+            };
+            var1 = var2.bind(var5)(var1);
+            var1 = !var1;
+            if(!var1) { _fun0010_ip = 59; continue _fun0010 }
+case 60:
+            var4 = var5.length;
+            var2 = 0;
+            var2 = var2 === var4;
+            if(var2) { _fun0010_ip = 61; continue _fun0010 }
+case 62:
+            var4 = var5.some;
+            var3 = function(arg1) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+                    var2 = arg1;
+                    var3 = var2.group;
+                    var1 = 'reward';
+                    var1 = var1 === var3;
+                    if(!var1) { _fun0011_ip = 40; continue _fun0011 }
+case 29:
+                    var3 = var2.filter;
+                    var2 = _closure1_slot10;
+                    var2 = var2.VIRTUAL_CURRENCY;
+                    var1 = var3 === var2;
+case 40:
+                    return var1;
+                }
+            };
+            var2 = var4.bind(var5)(var3);
+case 61:
+            var1 = var2;
+case 59:
+            return var1;
+        }
+    };
+    var3['shouldShowBountiesGivenFilters'] = var4;
     var2 = function setQuestHomeUtmContext(arg1) {
         var1 = arg1;
         var5 = var1.questId;

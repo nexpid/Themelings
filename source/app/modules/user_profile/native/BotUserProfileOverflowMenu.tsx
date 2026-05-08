@@ -44,20 +44,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var7;
     var7 = var4.ApplicationFlags;
     var _closure1_slot9 = var7;
+    var7 = var4.ChannelTypesSets;
+    var _closure1_slot10 = var7;
     var4 = var4.RelationshipTypes;
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.BLOCK_CONFIRMATION_ACTION_SHEET_KEY;
-    var _closure1_slot11 = var7;
+    var _closure1_slot12 = var7;
     var4 = var4.IGNORE_CONFIRMATION_ACTION_SHEET_KEY;
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var4 = 39;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -227,7 +229,7 @@ case 7:
             var12 = var16.bind(var4)();
 case 6:
             _closure2_slot11 = var12;
-            var12 = _closure1_slot10;
+            var12 = _closure1_slot11;
             var12 = var12.BLOCKED;
             var12 = var15 === var12;
             if(!var13) { _fun0001_ip = 8; continue _fun0001 }
@@ -327,7 +329,7 @@ case 14:
                 var5 = var9[var4];
                 var4 = var9.paths;
                 var5 = var10.bind(var1)(var5, var4);
-                var13 = _closure1_slot12;
+                var13 = _closure1_slot13;
                 var3 = {};
                 var2 = _closure2_slot10;
                 var3['userId'] = var2;
@@ -460,7 +462,7 @@ case 0:
                     var4 = var3[var4];
                     var3 = var3.paths;
                     var5 = var5.bind(var1)(var4, var3);
-                    var4 = _closure1_slot11;
+                    var4 = _closure1_slot12;
                     var3 = {};
                     var8 = _closure2_slot10;
                     var3['userId'] = var8;
@@ -848,6 +850,14 @@ case 40:
 case 39:
             if(!var4) { _fun0001_ip = 41; continue _fun0001 }
 case 42:
+            var9 = _closure1_slot10;
+            var12 = var9.TEXTUAL;
+            var9 = var12.has;
+            var7 = var7.type;
+            var4 = var9.bind(var12)(var7);
+case 41:
+            if(!var4) { _fun0001_ip = 43; continue _fun0001 }
+case 44:
             var7 = var11.push;
             var4 = {};
             var14 = _closure1_slot0;
@@ -883,16 +893,16 @@ case 42:
             };
             var4['action'] = var9;
             var4 = var7.bind(var11)(var4);
-case 41:
+case 43:
             var4 = var11.length;
             var7 = 0;
-            if(!(var7 === var4)) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
+            if(!(var7 === var4)) { _fun0001_ip = 45; continue _fun0001 }
+case 46:
             var4 = var10.length;
             var1 = null;
-            if(!(var7 !== var4)) { _fun0001_ip = 45; continue _fun0001 }
-case 43:
-            var4 = _closure1_slot13;
+            if(!(var7 !== var4)) { _fun0001_ip = 47; continue _fun0001 }
+case 45:
+            var4 = _closure1_slot14;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = var9[var2];
@@ -920,7 +930,7 @@ case 43:
                 var13 = var3;
                 var12 = var2;
                 var13 = copyDataProperties(var14, var13, var12);
-                var4 = _closure1_slot13;
+                var4 = _closure1_slot14;
                 var6 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var1 = 36;
@@ -973,7 +983,7 @@ case 43:
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 45:
+case 47:
             return var1;
         }
     };

@@ -145,29 +145,29 @@ case 0:
                     var2 = null;
                     var4 = var2 == var1;
                     var1 = null;
-                    if(var4) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                    if(var4) { _fun0003_ip = 9; continue _fun0003 }
+case 19:
                     var6 = _closure2_slot0;
                     var5 = _closure1_slot4;
                     var5 = var6 instanceof var5;
-                    if(var5) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                    if(var5) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                     var5 = _closure2_slot1;
                     var5 = var2 != var5;
                     var2 = null;
-                    if(!var5) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-                    var2 = _closure2_slot1;
+                    if(!var5) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
-                    _fun0003_ip = 25; continue _fun0003;
-case 21:
+                    var2 = _closure2_slot1;
+case 22:
+                    _fun0003_ip = 24; continue _fun0003;
+case 20:
                     var5 = _closure1_slot6;
                     var4 = _closure2_slot0;
                     var3 = undefined;
                     var2 = var5.bind(var3)(var4);
-case 25:
+case 24:
                     var1 = var2;
-case 19:
+case 9:
                     return var1;
                 }
             };

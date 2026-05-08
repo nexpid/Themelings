@@ -201,7 +201,7 @@ case 10:
                     var5 = var7.min;
                     var1 = _closure2_slot8;
                     var1 = var5.bind(var7)(var6, var1);
-                    var8 = var3.bind(var4)(var2, var1);
+                    var7 = var3.bind(var4)(var2, var1);
                     _fun0004_ip = 13; continue _fun0004;
 case 12:
                     var1 = global;
@@ -209,26 +209,25 @@ case 12:
                     var3 = var4.min;
                     var5 = var1.Math;
                     var2 = var5.max;
-                    var7 = _closure2_slot10;
-                    var1 = var7.get;
-                    var1 = var1.bind(var7)();
+                    var8 = _closure2_slot10;
+                    var1 = var8.get;
+                    var1 = var1.bind(var8)();
                     var2 = var2.bind(var5)(var6, var1);
                     var5 = _closure2_slot11;
                     var1 = var5.get;
                     var1 = var1.bind(var5)();
-                    var8 = var3.bind(var4)(var2, var1);
+                    var7 = var3.bind(var4)(var2, var1);
 case 13:
                     var1 = {};
-                    var3 = {};
-                    var13 = _closure1_slot0;
-                    var14 = _closure1_slot2;
-                    var4 = 6;
-                    var4 = var14[var4];
-                    var12 = undefined;
-                    var7 = var13.bind(var12)(var4);
-                    var6 = var7.withSpring;
-                    var17 = _closure1_slot8;
-                    var4 = function t(arg1) {
+                    var12 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var3 = 6;
+                    var3 = var13[var3];
+                    var11 = undefined;
+                    var6 = var12.bind(var11)(var3);
+                    var5 = var6.withSpring;
+                    var16 = _closure1_slot8;
+                    var3 = function t(arg1) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                             var1 = arg1;
@@ -255,30 +254,27 @@ case 16:
                             return var1;
                         }
                     };
-                    var9 = {};
-                    var11 = _closure2_slot9;
-                    var9['dropPosition'] = var11;
-                    var11 = 5;
-                    var11 = var14[var11];
-                    var11 = var13.bind(var12)(var11);
-                    var11 = var11.runOnJS;
-                    var9['runOnJS'] = var11;
-                    var10 = _closure2_slot2;
-                    var9['dropComplete'] = var10;
-                    var4['__closure'] = var9;
-                    var9 = 12640145939434.0;
-                    var4['__workletHash'] = var9;
+                    var8 = {};
+                    var10 = _closure2_slot9;
+                    var8['dropPosition'] = var10;
+                    var10 = 5;
+                    var10 = var13[var10];
+                    var10 = var12.bind(var11)(var10);
+                    var10 = var10.runOnJS;
+                    var8['runOnJS'] = var10;
+                    var9 = _closure2_slot2;
+                    var8['dropComplete'] = var9;
+                    var3['__closure'] = var8;
+                    var8 = 12640145939434.0;
+                    var3['__workletHash'] = var8;
                     var2 = _closure1_slot12;
-                    var4['__initData'] = var2;
-                    var16 = 'animate-always';
-                    var19 = var7;
-                    var18 = var8;
-                    var15 = var4;
-                    var2 = var19[var6](var18, var17, var16, var15, var14);
-                    var3['translateY'] = var2;
-                    var2 = new Array(1);
-                    var2[0] = var3;
-                    var1['transform'] = var2;
+                    var3['__initData'] = var2;
+                    var15 = 'animate-always';
+                    var18 = var6;
+                    var17 = var7;
+                    var14 = var3;
+                    var2 = var18[var5](var17, var16, var15, var14, var13);
+                    var1['top'] = var2;
                     return var1;
                 }
             };
@@ -303,7 +299,7 @@ case 16:
             var9['runOnJS'] = var15;
             var9['dropComplete'] = var14;
             var2['__closure'] = var9;
-            var9 = 13691641005014.0;
+            var9 = 5676492640532.0;
             var2['__workletHash'] = var9;
             var9 = _closure1_slot11;
             var2['__initData'] = var9;
@@ -458,7 +454,7 @@ case 24:
             var2 = var8[var12];
             var7 = var13.bind(var4)(var2);
             var3 = var7.useAnimatedStyle;
-            var2 = function w() {
+            var2 = function p() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var1 = _closure2_slot3;
@@ -759,7 +755,7 @@ case 47:
     var8 = var9.createStyles;
     var4 = {};
     var11 = 'absolute';
-    var10 = {'position': 'absolute', 'top': 0, 'left': 0};
+    var10 = {'position': 'absolute', 'left': 0};
     var4['dragPreview'] = var10;
     var10 = {};
     var10['position'] = var11;
@@ -777,7 +773,7 @@ case 47:
     var4['code'] = var8;
     var _closure1_slot10 = var4;
     var4 = {};
-    var8 = "function GuildsBarDragPreviewTsx3(){const{dropPosition,scrollPosition,gestureState,draggedHeight,minY,maxY,windowSize,withSpring,DRAG_SPRING_PHYSICS,runOnJS,dropComplete}=this.__closure;let translateY=function(){if(dropPosition!=null){return dropPosition-scrollPosition.get();}return gestureState.get().absoluteY-draggedHeight/2;}();if(gestureState.get().mode!=null&&dropPosition==null){translateY=Math.min(Math.max(translateY,minY.get()),maxY.get());}else{translateY=Math.max(-draggedHeight,Math.min(translateY,windowSize));}return{transform:[{translateY:withSpring(translateY,DRAG_SPRING_PHYSICS,'animate-always',function(finished){if(finished&&dropPosition!=null){runOnJS(dropComplete)();}})}]};}";
+    var8 = "function GuildsBarDragPreviewTsx3(){const{dropPosition,scrollPosition,gestureState,draggedHeight,minY,maxY,windowSize,withSpring,DRAG_SPRING_PHYSICS,runOnJS,dropComplete}=this.__closure;let translateY=function(){if(dropPosition!=null){return dropPosition-scrollPosition.get();}return gestureState.get().absoluteY-draggedHeight/2;}();if(gestureState.get().mode!=null&&dropPosition==null){translateY=Math.min(Math.max(translateY,minY.get()),maxY.get());}else{translateY=Math.max(-draggedHeight,Math.min(translateY,windowSize));}return{top:withSpring(translateY,DRAG_SPRING_PHYSICS,'animate-always',function(finished){if(finished&&dropPosition!=null){runOnJS(dropComplete)();}})};}";
     var4['code'] = var8;
     var _closure1_slot11 = var4;
     var4 = {};

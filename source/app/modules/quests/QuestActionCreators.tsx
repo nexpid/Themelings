@@ -3716,6 +3716,338 @@ case 279:
         return var1;
     };
     var _closure1_slot35 = var1;
+    var1 = function _fetchQuestHomeHeroPreview() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(var3) { _fun0026_ip = 333; continue _fun0026 }
+case 155:
+                    var2 = arg1;
+                    var9 = undefined;
+                    var6 = undefined;
+                    var10 = undefined;
+                    var15 = undefined;
+                    var21 = undefined;
+                    var7 = undefined;
+                    var20 = undefined;
+                    var19 = undefined;
+                    var18 = undefined;
+                    var17 = undefined;
+                    var16 = undefined;
+                    var14 = undefined;
+                    var12 = undefined;
+                    var5 = undefined;
+                    var11 = undefined;
+                    var13 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 11;
+                    var3 = var8[var3];
+                    var3 = var13.bind(var9)(var3);
+                    var3 = var3.QuestPlacement;
+                    var24 = var3.QUEST_HOME_BANNER_DESKTOP;
+                    var6 = var24;
+                    var22 = global;
+                    var13 = var22.Date;
+                    var3 = var13.now;
+                    var10 = var3.bind(var13)();
+                    var13 = _closure1_slot1;
+                    var3 = 9;
+                    var8 = var8[var3];
+                    var23 = var13.bind(var9)(var8);
+                    var13 = var23.dispatch;
+                    var8 = {};
+                    var25 = 'QUESTS_FETCH_QUEST_HOME_HERO_DECISION_BEGIN';
+                    var8['type'] = var25;
+                    var8['placement'] = var24;
+                    var8 = var13.bind(var23)(var8);
+case 334: // try_start_0
+                    var8 = var22.URLSearchParams;
+                    var13 = var8.prototype;
+                    var13 = Object.create(var13, {constructor: {value: var8}});
+                    var30 = var13;
+                    var8 = new var30[var8](var29);
+                    var24 = var8 instanceof Object ? var8 : var13;
+                    var13 = var24.append;
+                    var8 = var2;
+                    var2 = 'ad_creative_ids';
+                    var2 = var13.bind(var24)(var2, var8);
+                    var8 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var2 = 8;
+                    var2 = var13[var2];
+                    var2 = var8.bind(var9)(var2);
+                    var13 = var2.HTTP;
+                    var8 = var13.get;
+                    var2 = {};
+                    var23 = _closure1_slot12;
+                    var26 = var23.QUESTS_CREATIVE_PREVIEW;
+                    var23 = var24.toString;
+                    var25 = var23.bind(var24)();
+                    var22 = var22.HermesInternal;
+                    var24 = var22.concat;
+                    var23 = '';
+                    var22 = '?';
+                    var22 = var24.bind(var23)(var26, var22, var25);
+                    var2['url'] = var22;
+                    var22 = false;
+                    var2['rejectWithError'] = var22;
+                    var2 = var8.bind(var13)(var2);
+                    SaveGenerator(address=286);
+case 335:
+                    return var2;
+case 111:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
+                    if(var8) { _fun0026_ip = 336; continue _fun0026 }
+case 337:
+                    var8 = var2.body;
+                    var14 = var8;
+                    var8 = var8.decisions;
+                    var21 = var8;
+                    var13 = null;
+                    var22 = var13 == var8;
+                    var8 = undefined;
+                    if(var22) { _fun0026_ip = 338; continue _fun0026 }
+case 116:
+                    var22 = var21;
+                    var21 = 0;
+                    var8 = var22[var21];
+case 338:
+                    var15 = var8;
+                    var21 = var13 != var8;
+                    var8 = null;
+                    if(!var21) { _fun0026_ip = 278; continue _fun0026 }
+case 180:
+                    var8 = var15;
+case 278:
+                    var12 = var8;
+                    var15 = var13 == var8;
+                    var8 = undefined;
+                    if(var15) { _fun0026_ip = 339; continue _fun0026 }
+case 340:
+                    var15 = var12;
+                    var8 = var15.creative;
+case 339:
+                    var7 = var8;
+                    var15 = var13 != var8;
+                    var8 = null;
+                    if(!var15) { _fun0026_ip = 40; continue _fun0026 }
+case 24:
+                    var8 = var7;
+case 40:
+                    var5 = var8;
+                    var11 = null;
+                    var8 = var13 != var8;
+                    var7 = var8;
+                    if(!var8) { _fun0026_ip = 341; continue _fun0026 }
+case 244:
+                    var8 = var5;
+                    var15 = var8.creative_type;
+                    var21 = _closure1_slot0;
+                    var22 = _closure1_slot2;
+                    var8 = 25;
+                    var8 = var22[var8];
+                    var8 = var21.bind(var9)(var8);
+                    var8 = var8.AdCreativeType;
+                    var8 = var8.QUEST_HOME_HERO;
+                    var7 = var15 === var8;
+case 341:
+                    if(!var7) { _fun0026_ip = 342; continue _fun0026 }
+case 343:
+                    var8 = _closure1_slot0;
+                    var15 = _closure1_slot2;
+                    var7 = 32;
+                    var7 = var15[var7];
+                    var8 = var8.bind(var9)(var7);
+                    var7 = var8.questHomeHeroFromServer;
+                    var5 = var5.creative_content;
+                    var11 = var7.bind(var8)(var5);
+case 342:
+                    var7 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var3];
+                    var8 = var7.bind(var9)(var5);
+                    var7 = var8.dispatch;
+                    var5 = {};
+                    var15 = 'QUESTS_FETCH_QUEST_HOME_HERO_DECISION_SUCCESS';
+                    var5['type'] = var15;
+                    var5['questHomeHero'] = var11;
+                    var11 = {};
+                    var15 = var12;
+                    var21 = var13 == var15;
+                    var15 = undefined;
+                    if(var21) { _fun0026_ip = 194; continue _fun0026 }
+case 23:
+                    var21 = var12;
+                    var21 = var21.ad_identifiers;
+                    var20 = var21;
+                    var21 = var13 == var21;
+                    var15 = undefined;
+                    if(var21) { _fun0026_ip = 194; continue _fun0026 }
+case 344:
+                    var15 = var20.ad_id;
+case 194:
+                    var11['ad_id'] = var15;
+                    var15 = var12;
+                    var20 = var13 == var15;
+                    var15 = undefined;
+                    if(var20) { _fun0026_ip = 345; continue _fun0026 }
+case 82:
+                    var20 = var12;
+                    var20 = var20.ad_identifiers;
+                    var19 = var20;
+                    var20 = var13 == var20;
+                    var15 = undefined;
+                    if(var20) { _fun0026_ip = 345; continue _fun0026 }
+case 296:
+                    var15 = var19.ad_set_id;
+case 345:
+                    var11['ad_set_id'] = var15;
+                    var15 = var12;
+                    var19 = var13 == var15;
+                    var15 = undefined;
+                    if(var19) { _fun0026_ip = 346; continue _fun0026 }
+case 347:
+                    var19 = var12;
+                    var19 = var19.ad_identifiers;
+                    var18 = var19;
+                    var19 = var13 == var19;
+                    var15 = undefined;
+                    if(var19) { _fun0026_ip = 346; continue _fun0026 }
+case 348:
+                    var15 = var18.campaign_id;
+case 346:
+                    var11['campaign_id'] = var15;
+                    var15 = var12;
+                    var18 = var13 == var15;
+                    var15 = undefined;
+                    if(var18) { _fun0026_ip = 349; continue _fun0026 }
+case 350:
+                    var18 = var12;
+                    var18 = var18.ad_identifiers;
+                    var17 = var18;
+                    var18 = var13 == var18;
+                    var15 = undefined;
+                    if(var18) { _fun0026_ip = 349; continue _fun0026 }
+case 351:
+                    var15 = var17.creative_id;
+case 349:
+                    var11['creative_id'] = var15;
+                    var15 = var12;
+                    var17 = var13 == var15;
+                    var15 = undefined;
+                    if(var17) { _fun0026_ip = 231; continue _fun0026 }
+case 352:
+                    var17 = var12;
+                    var17 = var17.ad_identifiers;
+                    var16 = var17;
+                    var17 = var13 == var17;
+                    var15 = undefined;
+                    if(var17) { _fun0026_ip = 231; continue _fun0026 }
+case 95:
+                    var15 = var16.creative_type;
+case 231:
+                    var11['creative_type'] = var15;
+                    var14 = var14.request_id;
+                    var11['decision_id'] = var14;
+                    var14 = var12;
+                    var15 = var13 == var14;
+                    var14 = undefined;
+                    if(var15) { _fun0026_ip = 353; continue _fun0026 }
+case 354:
+                    var15 = var12;
+                    var14 = var15.ad_identifiers;
+case 353:
+                    var14 = var13 != var14;
+                    var11['is_targeted'] = var14;
+                    var5['adDecisionData'] = var11;
+                    var11 = var12;
+                    var14 = var13 == var11;
+                    var11 = undefined;
+                    if(var14) { _fun0026_ip = 355; continue _fun0026 }
+case 101:
+                    var14 = var12;
+                    var11 = var14.metadata_sealed;
+case 355:
+                    var5['metadataSealed'] = var11;
+                    var11 = var12;
+                    var14 = var13 == var11;
+                    var11 = undefined;
+                    if(var14) { _fun0026_ip = 356; continue _fun0026 }
+case 357:
+                    var14 = var12;
+                    var11 = var14.traffic_metadata_sealed;
+case 356:
+                    var5['trafficMetadataSealed'] = var11;
+                    var11 = var12;
+                    var14 = var13 == var11;
+                    var11 = undefined;
+                    if(var14) { _fun0026_ip = 358; continue _fun0026 }
+case 359:
+                    var14 = var12;
+                    var11 = var14.ad_context;
+case 358:
+                    var5['adContext'] = var11;
+                    var11 = var12;
+                    var13 = var13 == var11;
+                    var11 = undefined;
+                    if(var13) { _fun0026_ip = 360; continue _fun0026 }
+case 361:
+                    var11 = var12.response_ttl_seconds;
+case 360:
+                    var5['responseTtlSeconds'] = var11;
+                    var11 = var6;
+                    var5['placement'] = var11;
+                    var5['fetchedAt'] = var10;
+                    var5 = var7.bind(var8)(var5);
+case 362: // try_end0
+                    return var9;
+case 336:
+                    return var2;
+case 363: // catch_target0
+                    CatchBlockStart(arg_register=1);
+                    var8 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var3 = var10[var3];
+                    var5 = var8.bind(var9)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'QUESTS_FETCH_QUEST_HOME_HERO_DECISION_FAILURE';
+                    var3['type'] = var7;
+                    var7 = 10;
+                    var7 = var10[var7];
+                    var7 = var8.bind(var9)(var7);
+                    var8 = var7.prototype;
+                    var8 = Object.create(var8, {constructor: {value: var7}});
+                    var30 = var8;
+                    var29 = var2;
+                    var7 = new var30[var7](var29, var28);
+                    var7 = var7 instanceof Object ? var7 : var8;
+                    var3['error'] = var7;
+                    var3['placement'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    throw var2;
+case 333:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot36 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot36 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -4191,6 +4523,17 @@ case 279:
         return var1;
     };
     var3['fetchQuestHomeHeroDecision'] = var4;
+    var4 = function fetchQuestHomeHeroPreview() {
+        var1 = undefined;
+        var4 = _closure1_slot36;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchQuestHomeHeroPreview'] = var4;
     var4 = function dismissQuestActivityModal(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

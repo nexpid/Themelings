@@ -125,23 +125,36 @@ case 20:
             var2 = var6.getRemoteJoinableActivityPlatform;
             var2 = var2.bind(var6)(var7);
             if(!(var4 == var2)) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
+            var6 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var4 = 8;
+            var4 = var8[var4];
+            var6 = var6.bind(var5)(var4);
+            var4 = _closure1_slot4;
+            var4 = var4.SUPPORTS_JOIN_URL;
+            var4 = var6.bind(var5)(var7, var4);
+            if(var4) { _fun0001_ip = 23; continue _fun0001 }
 case 18:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 8;
+            var3 = 9;
             var3 = var6[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.platformSupportsActivityJoin;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            if(var1) { _fun0001_ip = 24; continue _fun0001 }
-case 22:
-            var1 = {'canJoin': false, 'remoteJoinPlatform': null};
-            _fun0001_ip = 25; continue _fun0001;
-case 24:
-            var1 = {'canJoin': true, 'remoteJoinPlatform': null};
+            if(!var3) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
+            if(var1) { _fun0001_ip = 26; continue _fun0001 }
+case 24:
+            var1 = {'canJoin': false, 'remoteJoinPlatform': null};
+            _fun0001_ip = 27; continue _fun0001;
+case 26:
+            var1 = {'canJoin': true, 'remoteJoinPlatform': null};
+case 27:
+            return var1;
+case 23:
+            var1 = {'canJoin': true, 'remoteJoinPlatform': null};
             return var1;
 case 21:
             var1 = {};
@@ -173,8 +186,8 @@ case 0:
             var8 = arg1;
             var1 = null;
             var1 = var1 != var8;
-            if(!var1) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+            if(!var1) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 1;
@@ -187,11 +200,11 @@ case 27:
             var2 = var4.bind(var7)(var8, var2, var3);
             var3 = !var2;
             var2 = !var3;
-            if(var3) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+            if(var3) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 9;
+            var3 = 8;
             var3 = var6[var3];
             var4 = var4.bind(var7)(var3);
             var3 = _closure1_slot4;
@@ -199,18 +212,18 @@ case 29:
             var3 = var4.bind(var7)(var8, var3);
             var4 = !var3;
             var3 = !var4;
-            if(var4) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+            if(var4) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var4 = 8;
+            var4 = 9;
             var4 = var9[var4];
             var4 = var6.bind(var7)(var4);
             var4 = var4.isPlatformEmbedded;
             var6 = !var4;
             var4 = !var6;
-            if(var6) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
+            if(var6) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
             var5 = 5;
@@ -220,13 +233,13 @@ case 33:
             var5 = arg2;
             var5 = var6.bind(var7)(var5, var8);
             var4 = !var5;
-case 32:
+case 34:
             var3 = var4;
-case 30:
+case 32:
             var2 = var3;
-case 28:
+case 30:
             var1 = var2;
-case 26:
+case 28:
             return var1;
         }
     };

@@ -316,12 +316,12 @@ case 34:
                     var4 = var10.fetchAllStoreListingsForApplication;
                     var4 = var4.bind(var10)(var8);
                     SaveGenerator(address=167);
-case 22:
-                    return var4;
 case 35:
+                    return var4;
+case 36:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(var10) { _fun0006_ip = 36; continue _fun0006 }
-case 37:
+                    if(var10) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
                     var11 = var4.filter;
                     var10 = function(arg1) {
                         var1 = arg1;
@@ -363,20 +363,20 @@ case 37:
                     var10 = var14.bind(var4)(var10);
                     var10 = var13.bind(var6)(var8, var10);
                     SaveGenerator(address=268);
-case 38:
-                    return var10;
 case 39:
+                    return var10;
+case 40:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=12);
-                    if(var13) { _fun0006_ip = 40; continue _fun0006 }
-case 41:
+                    if(var13) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
                     var17 = var11;
                     var16 = var10;
                     var15 = var12;
                     var12 = arraySpread(var17, var16, var15);
                     return var11;
-case 40:
+case 41:
                     return var10;
-case 36:
+case 37:
                     return var4;
 case 33:
                     var4 = 7;
@@ -386,21 +386,21 @@ case 33:
                     var4 = false;
                     var4 = var5.bind(var9)(var8, var4);
                     SaveGenerator(address=326);
-case 42:
-                    return var4;
 case 43:
+                    return var4;
+case 44:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+                    if(var5) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
                     var5 = _closure1_slot8;
                     var5 = var5.bind(var6)(var8, var4);
                     SaveGenerator(address=346);
-case 46:
-                    return var5;
 case 47:
+                    return var5;
+case 48:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                    if(var8) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+                    if(var8) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
                     var8 = var4.filter;
                     var7 = function(arg1) {
                         var1 = arg1;
@@ -418,9 +418,9 @@ case 49:
                     var16 = var5;
                     var8 = arraySpread(var17, var16, var15);
                     return var7;
-case 48:
+case 49:
                     return var5;
-case 44:
+case 45:
                     return var4;
 case 31:
                     var5 = _closure1_slot1;
@@ -477,8 +477,8 @@ case 0:
             var2 = var2.application;
             var5 = var2.id;
             var2 = null;
-            if(!(var2 != var5)) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+            if(!(var2 != var5)) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
             var3 = _closure1_slot2;
             var6 = _closure1_slot3;
             var2 = 9;
@@ -487,7 +487,7 @@ case 51:
             var2 = var3.fetchUserEntitlementsForApplication;
             var2 = var2.bind(var3)(var5);
             return var2;
-case 50:
+case 51:
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
             var2 = 5;
@@ -575,7 +575,7 @@ case 50:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 52; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 53; continue _fun0008 }
 case 5:
                     var3 = {};
                     var5 = _closure1_slot10;
@@ -583,17 +583,17 @@ case 5:
                     var2 = undefined;
                     var2 = var5.bind(var2)(var4);
                     SaveGenerator(address=34);
-case 53:
-                    return var2;
 case 54:
+                    return var2;
+case 55:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0008_ip = 55; continue _fun0008 }
-case 56:
+                    if(var4) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
                     var3['skus'] = var2;
                     return var3;
-case 55:
+case 56:
                     return var2;
-case 52:
+case 53:
                     return var1;
                 }
             };
@@ -623,7 +623,7 @@ case 52:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 52; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 53; continue _fun0009 }
 case 5:
                     var3 = {};
                     var5 = _closure1_slot12;
@@ -631,17 +631,17 @@ case 5:
                     var2 = undefined;
                     var2 = var5.bind(var2)(var4);
                     SaveGenerator(address=34);
-case 53:
-                    return var2;
 case 54:
+                    return var2;
+case 55:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0009_ip = 55; continue _fun0009 }
-case 56:
+                    if(var4) { _fun0009_ip = 56; continue _fun0009 }
+case 57:
                     var3['entitlements'] = var2;
                     return var3;
-case 55:
+case 56:
                     return var2;
-case 52:
+case 53:
                     return var1;
                 }
             };

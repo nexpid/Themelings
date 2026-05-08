@@ -333,7 +333,7 @@ case 9:
             var5 = var9.bind(var6)(var5);
             var5 = var5.modules;
             var5 = var5.mobile;
-            var5 = var5.CHAT_INPUT_FLOATING_CONTENT_PADDING_HORIZONTAL;
+            var5 = var5.CHAT_INPUT_FLOATING_CONTENT_GAP;
             var2['gap'] = var5;
             var1['floatingMainContents'] = var2;
             var2 = {'flex': 1, 'justifyContent': 'center'};

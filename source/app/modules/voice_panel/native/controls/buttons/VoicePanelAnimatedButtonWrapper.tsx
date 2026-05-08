@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7.bind(var1)(var12);
     var12 = var12.modules;
     var12 = var12.button;
-    var12 = var12.BORDER_RADIUS;
+    var12 = var12.BORDER_RADIUS_LG;
     var11['borderRadius'] = var12;
     var4['pressableWrapper'] = var11;
     var4 = var9.bind(var10)(var4);

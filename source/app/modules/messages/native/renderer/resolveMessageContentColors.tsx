@@ -114,7 +114,7 @@ case 4:
     var11 = var6[var8];
     var11 = var9.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOWEST;
+    var11 = var11.BORDER_NORMAL;
     var7['embedBorderLeftColor'] = var11;
     var11 = var6[var8];
     var11 = var9.bind(var1)(var11);

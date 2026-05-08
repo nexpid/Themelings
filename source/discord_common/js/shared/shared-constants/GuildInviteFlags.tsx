@@ -26,6 +26,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['IS_APPLICATION_BYPASS'] = var5;
     var2 = 'IS_APPLICATION_BYPASS';
     var4[var5] = var2;
+    var5 = 16;
+    var4['HAS_TARGET_USERS_JOB_STATUS'] = var5;
+    var2 = 'HAS_TARGET_USERS_JOB_STATUS';
+    var4[var5] = var2;
     var5 = 9;
     var4['ASSIGNABLE_FLAGS_MASK'] = var5;
     var2 = 'ASSIGNABLE_FLAGS_MASK';
@@ -34,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var1.Set;
     var1 = var6.prototype;
     var5 = Object.create(var1, {constructor: {value: var6}});
-    var10 = [1, 2, 4];
+    var10 = [1, 2, 4, 16];
     var11 = var5;
     var1 = new var11[var6](var10, var9);
     var1 = var1 instanceof Object ? var1 : var5;

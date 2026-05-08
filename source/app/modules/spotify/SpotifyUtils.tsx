@@ -505,7 +505,7 @@ case 0:
                                 var3 = var3.bind(var4)(var2);
                                 var2 = null;
                                 if(!(var2 == var3)) { _fun0009_ip = 61; continue _fun0009 }
-case 2:
+case 62:
                                 var2 = global;
                                 var6 = var2.clearTimeout;
                                 var5 = _closure3_slot2;
@@ -550,7 +550,7 @@ case 61:
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.bind(var1)();
                         var2 = var3.done;
-                        if(var2) { _fun0008_ip = 62; continue _fun0008 }
+                        if(var2) { _fun0008_ip = 63; continue _fun0008 }
 case 5:
                         var2 = var3.value;
                         var6 = var2.socket;
@@ -560,7 +560,7 @@ case 5:
                         var2 = var6.done;
                         var3 = var6;
                         if(!var2) { _fun0008_ip = 5; continue _fun0008 }
-case 62:
+case 63:
                         return var1;
                     }
                 };
@@ -621,11 +621,11 @@ case 0:
             var2 = var1.bind(var2)();
             var1 = null;
             var3 = var1 == var2;
-            if(var3) { _fun0010_ip = 63; continue _fun0010 }
-case 64:
+            if(var3) { _fun0010_ip = 64; continue _fun0010 }
+case 65:
             var2 = var2.socket;
             var1 = var2.isPremium;
-case 63:
+case 64:
             return var1;
         }
     };
@@ -637,12 +637,12 @@ case 0:
             var2 = var4.getActiveSocketAndDevice;
             var2 = var2.bind(var4)();
             var4 = null;
-            if(!(var4 != var2)) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+            if(!(var4 != var2)) { _fun0011_ip = 66; continue _fun0011 }
+case 67:
             var2 = var2.socket;
             var _closure2_slot0 = var2;
             var4 = var2.isPremium;
-            if(var4) { _fun0011_ip = 67; continue _fun0011 }
+            if(var4) { _fun0011_ip = 61; continue _fun0011 }
 case 68:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -681,14 +681,14 @@ case 69:
             };
             var1 = var2.bind(var3)(var1);
             _fun0011_ip = 71; continue _fun0011;
-case 67:
+case 61:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)();
 case 71:
             return var1;
-case 65:
+case 66:
             var1 = global;
             var3 = var1.Promise;
             var2 = var3.reject;

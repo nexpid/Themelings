@@ -421,8 +421,13 @@ case 30:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                    var3 = var2.body;
-                    var3 = var3.secret;
+                    var3 = {};
+                    var4 = var2.body;
+                    var4 = var4.secret;
+                    var3['secret'] = var4;
+                    var4 = var2.body;
+                    var4 = var4.join_url;
+                    var3['joinUrl'] = var4;
                     return var3;
 case 31:
                     return var2;

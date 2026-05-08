@@ -213,6 +213,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['AGE_VERIFICATION_MODAL_KEY'] = var6;
     var6 = 'AGE_VERIFICATION_GET_STARTED_MODAL_KEY';
     var3['AGE_VERIFICATION_GET_STARTED_MODAL_KEY'] = var6;
+    var6 = 'AGE_VERIFICATION_QUEST_UNSUPPORTED_ALERT_KEY';
+    var3['AGE_VERIFICATION_QUEST_UNSUPPORTED_ALERT_KEY'] = var6;
     var3['VerificationVendorName'] = var5;
     var3['VerificationMethod'] = var4;
     var3['VERIFICATION_METHOD_TITLE_MAP'] = var2;

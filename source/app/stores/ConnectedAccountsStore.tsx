@@ -525,10 +525,10 @@ case 14:
             var3 = null;
             if(!(var3 != var1)) { _fun0008_ip = 20; continue _fun0008 }
 case 21:
-            if(!(var3 != var4)) { _fun0008_ip = 4; continue _fun0008 }
-case 22:
+            if(!(var3 != var4)) { _fun0008_ip = 22; continue _fun0008 }
+case 6:
             var1['revoked'] = var4;
-case 4:
+case 22:
             if(!(var3 != var2)) { _fun0008_ip = 23; continue _fun0008 }
 case 24:
             var1['accessToken'] = var2;

@@ -92,13 +92,14 @@ case 0:
                 var3 = var2.renderLoader;
                 var _closure2_slot2 = var3;
                 var5 = var2.name;
+                var _closure2_slot3 = var5;
                 var3 = var2.memo;
                 var2 = undefined;
                 if(!(var3 === var2)) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
                 var3 = false;
 case 7:
-                var _closure2_slot3 = var2;
+                var _closure2_slot4 = var2;
                 var7 = _closure1_slot3;
                 var6 = var7.lazy;
                 var4 = function() {
@@ -112,13 +113,15 @@ case 7:
                     var1 = {};
                     var5 = _closure2_slot0;
                     var1['createPromise'] = var5;
-                    var4 = _closure2_slot1;
-                    var1['webpackId'] = var4;
+                    var5 = _closure2_slot1;
+                    var1['webpackId'] = var5;
+                    var4 = _closure2_slot3;
+                    var1['name'] = var4;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
                 var4 = var6.bind(var7)(var4);
-                _closure2_slot3 = var4;
+                _closure2_slot4 = var4;
                 var4 = function Wrapper(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -142,7 +145,7 @@ case 9:
 case 11:
                         var2['fallback'] = var6;
                         var7 = _closure1_slot4;
-                        var6 = _closure2_slot3;
+                        var6 = _closure2_slot4;
                         var5 = {};
                         var9 = arg1;
                         var10 = var5;
@@ -189,10 +192,10 @@ case 0:
                 var6 = var1.name;
                 var4 = var1.memo;
                 var1 = undefined;
-                if(!(var4 === var1)) { _fun0005_ip = 7; continue _fun0005 }
-case 8:
+                if(!(var4 === var1)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                 var4 = false;
-case 7:
+case 16:
                 var _closure2_slot6 = var1;
                 var1 = null;
                 var _closure2_slot3 = var1;
@@ -202,8 +205,8 @@ case 7:
 case 0:
                         var3 = _closure2_slot3;
                         var2 = null;
-                        if(!(var2 == var3)) { _fun0006_ip = 16; continue _fun0006 }
-case 17:
+                        if(!(var2 == var3)) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot1;
                         var2 = 3;
@@ -226,7 +229,7 @@ case 17:
                         };
                         var2 = var3.bind(var4)(var2);
                         _closure2_slot3 = var2;
-case 16:
+case 18:
                         var1 = _closure2_slot3;
                         return var1;
                     }
@@ -254,23 +257,23 @@ case 0:
                         var1 = 0;
                         var4 = var3[var1];
                         var10 = null;
-                        if(!(var10 == var4)) { _fun0007_ip = 18; continue _fun0007 }
-case 19:
+                        if(!(var10 == var4)) { _fun0007_ip = 20; continue _fun0007 }
+case 21:
                         var7 = _closure1_slot4;
                         var1 = _closure1_slot3;
                         var3 = var1.Suspense;
                         var1 = {};
                         var9 = _closure2_slot2;
-                        if(!(var10 == var9)) { _fun0007_ip = 13; continue _fun0007 }
-case 20:
+                        if(!(var10 == var9)) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
                         var9 = _closure1_slot6;
                         var9 = var9.bind(var5)();
                         var9 = var9.bind(var5)();
-                        _fun0007_ip = 21; continue _fun0007;
-case 13:
+                        _fun0007_ip = 24; continue _fun0007;
+case 22:
                         var10 = _closure2_slot2;
                         var9 = var10.bind(var5)();
-case 21:
+case 24:
                         var1['fallback'] = var9;
                         var10 = _closure1_slot4;
                         var9 = _closure2_slot6;
@@ -281,29 +284,29 @@ case 21:
                         var8 = var10.bind(var5)(var9, var8);
                         var1['children'] = var8;
                         var1 = var7.bind(var5)(var3, var1);
-                        _fun0007_ip = 22; continue _fun0007;
-case 18:
+                        _fun0007_ip = 25; continue _fun0007;
+case 20:
                         var3 = _closure1_slot4;
                         var2 = {};
                         var13 = var2;
                         var12 = var6;
                         var6 = copyDataProperties(var13, var12);
                         var1 = var3.bind(var5)(var4, var2);
-case 22:
+case 25:
                         return var1;
                     }
                 };
                 var1 = var5;
-                if(!var4) { _fun0005_ip = 23; continue _fun0005 }
-case 12:
+                if(!var4) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
                 var4 = _closure1_slot3;
                 var3 = var4.memo;
                 var1 = var3.bind(var4)(var5);
-case 23:
-                if(var6) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+case 26:
+                if(var6) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
                 var6 = 'Unknown';
-case 24:
+case 28:
                 var3 = global;
                 var3 = var3.HermesInternal;
                 var5 = var3.concat;
@@ -377,13 +380,13 @@ case 0:
                 var3 = _closure1_slot4;
                 var2 = _closure1_slot5;
                 var1 = {};
-                if(!(var8 != var5)) { _fun0008_ip = 26; continue _fun0008 }
-case 27:
+                if(!(var8 != var5)) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
                 var5 = var7.bind(var4)(var5);
-                _fun0008_ip = 28; continue _fun0008;
-case 26:
+                _fun0008_ip = 32; continue _fun0008;
+case 30:
                 var5 = var6.bind(var4)();
-case 28:
+case 32:
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;

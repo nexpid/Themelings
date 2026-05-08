@@ -20,6 +20,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['AD_IMPRESSION_QUEST_BAR_OPT_IN'] = var1;
     var1 = 'ad_impression_quest_bar_opt_out';
     var2['AD_IMPRESSION_QUEST_BAR_OPT_OUT'] = var1;
+    var1 = 'bounty_session_completed';
+    var2['BOUNTY_SESSION_COMPLETED'] = var1;
+    var1 = 'bounty_immediate_dismissal';
+    var2['BOUNTY_IMMEDIATE_DISMISSAL'] = var1;
+    var1 = 'bounty_abandoned';
+    var2['BOUNTY_ABANDONED'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

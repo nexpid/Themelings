@@ -735,7 +735,7 @@ case 52:
                 var6 = var2.bind(var3)(var1);
                 var1 = null;
                 if(!(var1 != var6)) { _fun0010_ip = 66; continue _fun0010 }
-case 28:
+case 67:
                 var3 = _closure2_slot3;
                 var2 = var3.push;
                 var1 = {};

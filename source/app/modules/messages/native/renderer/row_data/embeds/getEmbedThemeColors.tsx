@@ -1,24 +1,17 @@
 // app/modules/messages/native/renderer/row_data/embeds/getEmbedThemeColors.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
+    var11 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var7;
     var4 = function getEmbedThemeColors(arg1) {
-        var3 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var2 = 5;
-        var2 = var4[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.getEmbedBackground;
-        var3 = var2.bind(var3)();
-        var2 = _closure1_slot13;
+        var3 = _closure1_slot4;
+        var2 = undefined;
         var1 = arg1;
-        var4 = var2.bind(var4)(var1, var3);
+        var4 = var3.bind(var2)(var1);
         var3 = var4.headerColor;
         var1 = {};
         var1['colors'] = var4;
@@ -33,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['baseColors'] = var2;
         return var1;
     };
-    var _closure1_slot14 = var4;
+    var _closure1_slot5 = var4;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -81,8 +74,7 @@ case 4:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
-    var _closure1_slot4 = var8;
+    var20 = var9.bind(var10)(var8);
     var8 = var7[var5];
     var10 = var6.bind(var1)(var8);
     var9 = var10.experimental_createToken;
@@ -128,8 +120,7 @@ case 7:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
-    var _closure1_slot5 = var8;
+    var19 = var9.bind(var10)(var8);
     var8 = var7[var5];
     var10 = var6.bind(var1)(var8);
     var9 = var10.experimental_createToken;
@@ -162,8 +153,7 @@ case 4:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
-    var _closure1_slot6 = var8;
+    var18 = var9.bind(var10)(var8);
     var8 = var7[var5];
     var10 = var6.bind(var1)(var8);
     var9 = var10.experimental_createToken;
@@ -196,8 +186,7 @@ case 4:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
-    var _closure1_slot7 = var8;
+    var17 = var9.bind(var10)(var8);
     var8 = var7[var5];
     var10 = var6.bind(var1)(var8);
     var9 = var10.experimental_createToken;
@@ -230,8 +219,7 @@ case 4:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
-    var _closure1_slot8 = var8;
+    var16 = var9.bind(var10)(var8);
     var8 = var7[var5];
     var10 = var6.bind(var1)(var8);
     var9 = var10.experimental_createToken;
@@ -273,8 +261,7 @@ case 9:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
-    var _closure1_slot9 = var8;
+    var15 = var9.bind(var10)(var8);
     var8 = var7[var5];
     var10 = var6.bind(var1)(var8);
     var9 = var10.experimental_createToken;
@@ -307,8 +294,7 @@ case 4:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
-    var _closure1_slot10 = var8;
+    var14 = var9.bind(var10)(var8);
     var8 = var7[var5];
     var10 = var6.bind(var1)(var8);
     var9 = var10.experimental_createToken;
@@ -339,8 +325,7 @@ case 10:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
-    var _closure1_slot11 = var8;
+    var13 = var9.bind(var10)(var8);
     var8 = var7[var5];
     var10 = var6.bind(var1)(var8);
     var9 = var10.experimental_createToken;
@@ -386,116 +371,84 @@ case 7:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
-    var _closure1_slot12 = var8;
+    var12 = var9.bind(var10)(var8);
     var5 = var7[var5];
     var9 = var6.bind(var1)(var5);
     var8 = var9.createNativeStyleProperties;
-    var5 = function(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-            var4 = arg1;
-            var2 = _closure1_slot1;
-            var1 = _closure1_slot2;
-            var18 = 3;
-            var3 = var1[var18];
-            var17 = undefined;
-            var3 = var2.bind(var17)(var3);
-            var3 = var3.colors;
-            var16 = var3.BACKGROUND_BRAND;
-            var3 = var1[var18];
-            var3 = var2.bind(var17)(var3);
-            var3 = var3.colors;
-            var15 = var3.CONTROL_CONNECTED_BACKGROUND_DEFAULT;
-            var1 = var1[var18];
-            var1 = var2.bind(var17)(var1);
-            var1 = var1.unsafe_rawColors;
-            var14 = var1.WHITE;
-            var6 = null;
-            var13 = var4;
-            if(!(var6 == var4)) { _fun0010_ip = 12; continue _fun0010 }
-case 13:
-            var2 = _closure1_slot1;
-            var1 = _closure1_slot2;
-            var1 = var1[var18];
-            var1 = var2.bind(var17)(var1);
-            var1 = var1.colors;
-            var13 = var1.MOBILE_EMBED_BACKGROUND_DEFAULT;
-case 12:
-            var2 = _closure1_slot1;
-            var1 = _closure1_slot2;
-            var3 = var1[var18];
-            var3 = var2.bind(var17)(var3);
-            var3 = var3.colors;
-            var12 = var3.TEXT_DEFAULT;
-            var3 = var1[var18];
-            var3 = var2.bind(var17)(var3);
-            var3 = var3.unsafe_rawColors;
-            var11 = var3.RED_400;
-            var3 = var1[var18];
-            var3 = var2.bind(var17)(var3);
-            var3 = var3.unsafe_rawColors;
-            var10 = var3.WHITE;
-            var3 = var1[var18];
-            var3 = var2.bind(var17)(var3);
-            var3 = var3.colors;
-            var9 = var3.TEXT_SUBTLE;
-            var3 = var1[var18];
-            var3 = var2.bind(var17)(var3);
-            var3 = var3.colors;
-            var8 = var3.TEXT_SUBTLE;
-            var3 = var1[var18];
-            var3 = var2.bind(var17)(var3);
-            var3 = var3.colors;
-            var7 = var3.MOBILE_TEXT_HEADING_PRIMARY;
-            var3 = var1[var18];
-            var3 = var2.bind(var17)(var3);
-            var3 = var3.colors;
-            var3 = var3.TEXT_FEEDBACK_POSITIVE;
-            var1 = var1[var18];
-            var1 = var2.bind(var17)(var1);
-            var1 = var1.colors;
-            var2 = var1.TEXT_MUTED;
-            var1 = {};
-            var1['acceptBlurpleLabelBackgroundColor'] = var16;
-            var1['acceptLabelGreenBackgroundColor'] = var15;
-            var1['acceptLabelGreenColor'] = var14;
-            var1['backgroundColor'] = var13;
-            var1['bodyTextColor'] = var12;
-            var1['clearLabelRedBackgroundColor'] = var11;
-            var1['clearLabelRedColor'] = var10;
-            var1['headerColor'] = var9;
-            var1['subtitleColor'] = var8;
-            var1['titleColor'] = var7;
-            var7 = _closure1_slot4;
-            var1['acceptLabelActiveBackgroundColor'] = var7;
-            var7 = _closure1_slot5;
-            var1['acceptLabelDisabledBackgroundColor'] = var7;
-            var7 = _closure1_slot6;
-            var1['acceptLabelDisabledBorderColor'] = var7;
-            var7 = _closure1_slot7;
-            var1['acceptLabelDisabledTextColor'] = var7;
-            var7 = _closure1_slot8;
-            var1['acceptLabelDisabledColor'] = var7;
-            var7 = _closure1_slot9;
-            var1['borderColor'] = var7;
-            var7 = _closure1_slot10;
-            var1['resolvingGradientEnd'] = var7;
-            var7 = _closure1_slot11;
-            var1['resolvingGradientStart'] = var7;
-            if(!(var6 == var4)) { _fun0010_ip = 14; continue _fun0010 }
-case 15:
-            var4 = _closure1_slot12;
-case 14:
-            var1['thumbnailBackgroundColor'] = var4;
-            var1['voiceActiveColor'] = var3;
-            var1['voiceMutedColor'] = var2;
-            return var1;
-        }
-    };
+    var5 = {};
+    var10 = 3;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.colors;
+    var21 = var21.BACKGROUND_BRAND;
+    var5['acceptBlurpleLabelBackgroundColor'] = var21;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.colors;
+    var21 = var21.CONTROL_CONNECTED_BACKGROUND_DEFAULT;
+    var5['acceptLabelGreenBackgroundColor'] = var21;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.unsafe_rawColors;
+    var21 = var21.WHITE;
+    var5['acceptLabelGreenColor'] = var21;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.colors;
+    var21 = var21.MOBILE_EMBED_BACKGROUND_DEFAULT;
+    var5['backgroundColor'] = var21;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.colors;
+    var21 = var21.TEXT_DEFAULT;
+    var5['bodyTextColor'] = var21;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.unsafe_rawColors;
+    var21 = var21.RED_400;
+    var5['clearLabelRedBackgroundColor'] = var21;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.unsafe_rawColors;
+    var21 = var21.WHITE;
+    var5['clearLabelRedColor'] = var21;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.colors;
+    var21 = var21.TEXT_SUBTLE;
+    var5['headerColor'] = var21;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.colors;
+    var21 = var21.TEXT_SUBTLE;
+    var5['subtitleColor'] = var21;
+    var21 = var7[var10];
+    var21 = var11.bind(var1)(var21);
+    var21 = var21.colors;
+    var21 = var21.MOBILE_TEXT_HEADING_PRIMARY;
+    var5['titleColor'] = var21;
+    var5['acceptLabelActiveBackgroundColor'] = var20;
+    var5['acceptLabelDisabledBackgroundColor'] = var19;
+    var5['acceptLabelDisabledBorderColor'] = var18;
+    var5['acceptLabelDisabledTextColor'] = var17;
+    var5['acceptLabelDisabledColor'] = var16;
+    var5['borderColor'] = var15;
+    var5['resolvingGradientEnd'] = var14;
+    var5['resolvingGradientStart'] = var13;
+    var5['thumbnailBackgroundColor'] = var12;
+    var12 = var7[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.TEXT_FEEDBACK_POSITIVE;
+    var5['voiceActiveColor'] = var12;
+    var10 = var7[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.TEXT_MUTED;
+    var5['voiceMutedColor'] = var10;
     var5 = var8.bind(var9)(var5);
-    var _closure1_slot13 = var5;
-    var5 = 6;
+    var _closure1_slot4 = var5;
+    var5 = 5;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -510,7 +463,7 @@ case 14:
         var2 = new Array(1);
         var2[0] = var5;
         var1 = function() {
-            var3 = _closure1_slot14;
+            var3 = _closure1_slot5;
             var2 = _closure2_slot0;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);

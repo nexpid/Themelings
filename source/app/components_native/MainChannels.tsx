@@ -20,8 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var12.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 1;
-    var7 = var6[var4];
+    var14 = 1;
+    var7 = var6[var14];
     var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot4 = var7;
@@ -74,6 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var12.bind(var1)(var13);
     var13 = var13.radii;
     var13 = var13.xl;
+    var13 = var13 - var14;
     var10['borderTopLeftRadius'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);

@@ -546,15 +546,23 @@ case 21:
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
                     var1 = 23;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
+                    var1 = var6[var1];
+                    var4 = undefined;
+                    var1 = var5.bind(var4)(var1);
                     var2 = var1.Gesture;
                     var1 = var2.Native;
-                    var4 = var1.bind(var2)();
+                    var3 = var1.bind(var2)();
+                    var2 = var3.enabled;
+                    var1 = 24;
+                    var1 = var6[var1];
+                    var4 = var5.bind(var4)(var1);
+                    var1 = var4.isMetaQuest;
+                    var1 = var1.bind(var4)();
+                    var1 = !var1;
+                    var4 = var2.bind(var3)(var1);
                     var5 = _closure2_slot3;
                     var3 = null;
                     var1 = var4;
@@ -603,7 +611,7 @@ case 30:
             var17 = _closure1_slot5;
             var16 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var14 = 24;
+            var14 = 25;
             var14 = var18[var14];
             var16 = var16.bind(var4)(var14);
             var14 = {};
@@ -628,7 +636,7 @@ case 31:
             var17 = _closure1_slot5;
             var16 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var15 = 25;
+            var15 = 26;
             var15 = var18[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.SafeAreaPaddingView;
@@ -649,7 +657,7 @@ case 34:
             var9 = _closure1_slot5;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var7 = 26;
+            var7 = 27;
             var7 = var12[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
@@ -665,7 +673,7 @@ case 33:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 27;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

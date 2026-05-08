@@ -639,18 +639,18 @@ case 0:
                         var5 = var4 != var1;
                         var2 = null;
                         if(!var5) { _fun0006_ip = 30; continue _fun0006 }
-case 31:
+case 21:
                         var2 = var1;
 case 30:
                         var5 = _closure2_slot10;
                         var1 = undefined;
                         var5 = var5.bind(var1)(var2);
-                        if(!(var4 != var2)) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
+                        if(!(var4 != var2)) { _fun0006_ip = 8; continue _fun0006 }
+case 31:
                         var3 = _closure2_slot8;
                         var2 = var2.name;
                         var2 = var3.bind(var1)(var2);
-case 32:
+case 8:
                         return var1;
                     }
                 };
@@ -781,10 +781,10 @@ case 0:
                             var4 = _closure4_slot0;
                             var2 = 'other_feedback';
                             var1 = 'wrong_game_shown';
-                            if(!(var1 === var4)) { _fun0007_ip = 34; continue _fun0007 }
+                            if(!(var1 === var4)) { _fun0007_ip = 32; continue _fun0007 }
 case 23:
                             var2 = 'game_search';
-case 34:
+case 32:
                             var1 = undefined;
                             var2 = var3.bind(var1)(var2);
                             return var1;

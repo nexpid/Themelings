@@ -5515,7 +5515,6 @@ case 243:
                         var2 = _closure2_slot2;
                         var1 = arg1;
                         var1 = var4.bind(var5)(var1, var3, var2);
-                        var1 = undefined;
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);

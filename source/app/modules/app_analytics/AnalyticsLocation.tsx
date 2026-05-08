@@ -1149,6 +1149,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FAVORITES_GUILD_MENU_ITEM'] = var1;
     var1 = 'action sheet';
     var2['ACTION_SHEET'] = var1;
+    var1 = 'xgpp hero card';
+    var2['CROISSANT_PREMIUM_HERO_CARD'] = var1;
+    var1 = 'xgpp perk card';
+    var2['CROISSANT_PREMIUM_PERK_CARD'] = var1;
+    var1 = 'xgpp reward modal';
+    var2['CROISSANT_REWARD_MODAL'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

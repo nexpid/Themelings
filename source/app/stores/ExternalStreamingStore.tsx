@@ -985,16 +985,16 @@ case 103:
                         var3 = var6 == var2;
                         var4 = undefined;
                         var5 = undefined;
-                        if(var3) { _fun0010_ip = 104; continue _fun0010 }
-case 105:
-                        var5 = var2.value;
+                        if(var3) { _fun0010_ip = 70; continue _fun0010 }
 case 104:
+                        var5 = var2.value;
+case 70:
                         var2 = var6 == var5;
-                        if(!var2) { _fun0010_ip = 5; continue _fun0010 }
+                        if(!var2) { _fun0010_ip = 105; continue _fun0010 }
 case 106:
                         var3 = _closure1_slot17;
                         var2 = var6 != var3;
-case 5:
+case 105:
                         if(!var2) { _fun0010_ip = 107; continue _fun0010 }
 case 108:
                         var5 = _closure1_slot17;
@@ -1172,7 +1172,7 @@ case 95:
             var2 = null;
             var5 = var2 != var4;
             if(!var5) { _fun0014_ip = 13; continue _fun0014 }
-case 111:
+case 106:
             var2 = var4;
 case 13:
             _closure1_slot15 = var2;
