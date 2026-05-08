@@ -7,14 +7,16 @@ export function assert<T>(value: T | undefined | null, message?: string): T {
 	return value;
 }
 
-const numberSuffixRegex = /(.??)(\d*)$/;
+const numberSuffixRegex = /(.*?)(\d*)$/;
 export function sortEntries<T extends [key: string, value: any][]>(entries: T) {
 	return entries.sort(([a], [b]) => {
-		const [, aKey, aNum] = a.match(numberSuffixRegex) || [];
-		const [, bKey, bNum] = b.match(numberSuffixRegex) || [];
+		const [, _aKey, aNum] = a.match(numberSuffixRegex) || [],
+			[, _bKey, bNum] = b.match(numberSuffixRegex) || [];
+		const aKey = _aKey ?? a,
+			bKey = _bKey ?? b;
 
-		if (aKey && bKey && aKey === bKey && aNum && bNum) return Number(aNum) - Number(bNum);
-		return a.localeCompare(b);
+		if (aKey === bKey && aNum && bNum) return Number(aNum) - Number(bNum);
+		return aKey.localeCompare(bKey);
 	});
 }
 

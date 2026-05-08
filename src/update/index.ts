@@ -1,7 +1,7 @@
 import { exists, mkdir, rm } from "node:fs/promises";
 import { log, makeProgress, wrapPromise } from "./progress";
 import { runTasks } from "./runner";
-import { apksFolder, isMock, trackerUserAgent, version, workFolder } from "./shared";
+import { type apkSplits, apksFolder, isMock, trackerUserAgent, version, workFolder } from "./shared";
 import { handleShellErr, join } from "./utils";
 
 const cdnUrl = `https://tracker.vendetta.rocks/tracker/download/${version}/`;
@@ -9,9 +9,9 @@ const cdnUrl = `https://tracker.vendetta.rocks/tracker/download/${version}/`;
 const mediaFiles = Bun.$.braces("res/**/*.{png,jpg,lottie}");
 const apkAssets = {
 	base: ["assets/index.android.bundle", ...mediaFiles],
-	"config.xxhdpi": mediaFiles,
 	"config.hdpi": mediaFiles,
-};
+	"config.xxhdpi": mediaFiles,
+} satisfies Record<(typeof apkSplits)[number], string[]>;
 
 let reuseFolder = isMock;
 if (!reuseFolder) {

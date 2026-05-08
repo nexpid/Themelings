@@ -4,7 +4,7 @@ import { runInNewContext } from "node:vm";
 import type { Icons } from "../../types";
 import { commit } from "../git";
 import type { Progress } from "../progress";
-import { apksFolder, cuteVersion } from "../shared";
+import { apkSplits, apksFolder, cuteVersion } from "../shared";
 import { discordPath, join, listRequiredDirs, sortObj } from "../utils";
 
 const infoObjRegex = /({.+?})/;
@@ -53,10 +53,11 @@ export async function parseAssets(code: string[]) {
 		}
 	}
 
-	// get files of all apks
+	// get files of all apks by hierarchy
 	const apkPaths = new Map<string, string>();
-	for (const path of await readdir(apksFolder, { recursive: true })) {
-		apkPaths.set(basename(path), join(apksFolder, path));
+	for (const split of apkSplits) {
+		const folder = join(apksFolder, split);
+		for (const path of await readdir(folder, { recursive: true })) apkPaths.set(basename(path), join(folder, path));
 	}
 
 	const icons: Icons = {};
