@@ -155,6 +155,12 @@
   "CARD_PRIMARY_PRESSED_BG": {
     "14": "#212229"
   },
+  "CARD_SECONDARY_BACKGROUND_ACTIVE": {
+    "14": "#18191f"
+  },
+  "CARD_SECONDARY_BACKGROUND_DEFAULT": {
+    "14": "#212229"
+  },
   "CARD_SECONDARY_BG": {
     "14": "#212229"
   },

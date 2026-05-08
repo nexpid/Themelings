@@ -467,6 +467,24 @@
       }
     ]
   },
+  "CARD_SECONDARY_BACKGROUND_ACTIVE": {
+    "14": [
+      "#18191f",
+      {
+        "raw": "PLUM_21",
+        "opacity": 1
+      }
+    ]
+  },
+  "CARD_SECONDARY_BACKGROUND_DEFAULT": {
+    "14": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ]
+  },
   "CARD_SECONDARY_BG": {
     "14": [
       "#212229",
