@@ -14,7 +14,7 @@ import { formatError, handleShellErr, join } from "./utils";
 
 export async function runTasks() {
 	log("\nRunning tasks...");
-	const taskProgress = makeProgress(
+	const progress = makeProgress(
 		{
 			preinit: "Preinit",
 			preinit_discard: "Discarding changes",
@@ -45,10 +45,10 @@ export async function runTasks() {
 	if (!isMock) {
 		// discard changes
 		try {
-			taskProgress.start("preinit");
+			progress.start("preinit");
 
 			// reset to remote branch (without pulling latest commit)
-			taskProgress.start("preinit_discard");
+			progress.start("preinit_discard");
 			await Bun.$`git reset --hard`.cwd("../data").nothrow().quiet().then(handleShellErr);
 			if (await exists(join("../data", "oldicons")))
 				await rm(join("../data", "oldicons"), { force: true, recursive: true });
@@ -57,24 +57,24 @@ export async function runTasks() {
 			// unstage all files
 			await Bun.$`git restore --staged .`.cwd("../data").nothrow().quiet().then(handleShellErr);
 
-			taskProgress.update("preinit_discard", true);
+			progress.update("preinit_discard", true);
 
-			taskProgress.start("preinit_save");
+			progress.start("preinit_save");
 			for (const oprev of oprevFiles) {
 				const file = Bun.file(join("../data", oprev));
 				if (await file.exists()) prevFiles.set(oprev, await file.arrayBuffer());
 			}
-			taskProgress.update("preinit_save", true);
-			taskProgress.update("preinit", true);
+			progress.update("preinit_save", true);
+			progress.update("preinit", true);
 		} catch (e) {
-			taskProgress.update("preinit", false);
+			progress.update("preinit", false);
 			throw new Error(`Failed to discard changes!\n${e}`);
 		}
 
 		try {
 			await wrapPromise(
-				decompile(taskProgress, join(apksFolder, "base", "assets", "index.android.bundle")),
-				taskProgress,
+				decompile(progress, join(apksFolder, "base", "assets", "index.android.bundle")),
+				progress,
 				"decompile",
 			);
 		} catch (e) {
@@ -84,23 +84,25 @@ export async function runTasks() {
 		const code = (await Bun.file(codePath).text()).replace(/\r/g, "").split("\n");
 
 		await Promise.allSettled([
-			wrapPromise(codeTask(taskProgress, code), taskProgress, "code"),
-			wrapPromise(colors(code), taskProgress, "colors"),
-			wrapPromise(icons(taskProgress, code), taskProgress, "icons"),
+			wrapPromise(codeTask(progress, code), progress, "code"),
+			wrapPromise(colors(code), progress, "colors"),
+			wrapPromise(icons(progress, code), progress, "icons"),
 		]);
-		if (taskProgress.someFailed("code", "colors", "icons"))
-			throw new Error(`Failed at parser tasks!\n${taskProgress.prettyErrors("code", "colors", "icons")}`);
+		if (progress.someFailed("code", "colors", "icons"))
+			throw new Error(`Failed at parser tasks!\n${progress.prettyErrors("code", "colors", "icons")}`);
 
-		while (!taskProgress.isFinished("decompile_gzip")) {
+		while (!progress.isFinished("decompile_gzip")) {
 			await Bun.sleep(1000);
 		}
 
-		if (taskProgress.someFailed("decompile_gzip"))
-			throw new Error(`Failed at the decompile gzip task!\n${taskProgress.prettyErrors("decompile_gzip")}`);
+		if (progress.someFailed("decompile_gzip"))
+			throw new Error(`Failed at the decompile gzip task!\n${progress.prettyErrors("decompile_gzip")}`);
 
 		try {
-			differs = await wrapPromise(diffs(taskProgress), taskProgress, "diff");
+			differs = await diffs(progress);
+			progress.update("diff", true);
 		} catch (e: any) {
+			progress.update("diff", false, formatError(e));
 			throw new Error(`Failed to generate diffs!\n${formatError(e)}`);
 		}
 	} else {
@@ -109,12 +111,12 @@ export async function runTasks() {
 
 	if (differs && !isQuiet) {
 		try {
-			await wrapPromise(webhook(differs), taskProgress, "webhook");
+			await wrapPromise(webhook(differs), progress, "webhook");
 		} catch (e: any) {
 			throw new Error(`Failed to send webhook messages!\n${formatError(e)}`);
 		}
 	} else {
-		taskProgress.update("webhook", null);
+		progress.update("webhook", null);
 	}
 
 	await commit(["version.txt"], `chore: bump app version to ${cuteVersion}`);
