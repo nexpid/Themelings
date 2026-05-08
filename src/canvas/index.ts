@@ -1,351 +1,232 @@
-import sharp from "sharp";
-import { Canvas, FontLibrary, loadImage } from "skia-canvas";
-import { type Diff, DiffEnum } from "../types";
-import { maxChangesThreshold } from "../update/util";
-import { getLines } from "./util";
+import { readdir } from "node:fs/promises";
+import { join } from "node:path";
+import { createCanvas, GlobalFonts } from "@napi-rs/canvas";
+import { file } from "bun";
+import type { Row, Section } from "./factory";
+import { measureText, transformSvg, wrapText } from "./utils";
 
-interface Label {
-	txt: string;
-	tint?: "muted";
+async function bulkRegister(family: string, path: string) {
+	for (const item of await readdir(path)) GlobalFonts.registerFromPath(join(path, item), family);
+}
+await bulkRegister("GG Sans", join(import.meta.dir, "fonts/ggsans"));
+await bulkRegister("GG Mono", join(import.meta.dir, "fonts/ggmono"));
+
+function calcColumnWidth(column: { textWidth: number; itemWidth: number }[]) {
+	return Math.max(0, ...column.map(({ textWidth, itemWidth }) => Math.max(0, textWidth, itemWidth)));
 }
 
-type DataEntry = {
-	label: Label[];
-	color?: string;
-	file?: string;
-	important?: boolean;
+function calcColumnHeight(column: Row[]) {
+	const texts = column
+		.map((row) => Number(!!row.title) + Number(!!row.subtitle) + Number(row.item.type === "blob"))
+		.reduce((a, b) => a + b, 0);
+	const items = texts + column.length - 1;
+	return texts * textSizes.title + column.length * itemSize + items * layout.card.gapY;
+}
+
+function calcSectionHeight(columns: Row[][]) {
+	return Math.max(0, ...columns.map((column) => calcColumnHeight(column)));
+}
+
+const layout = {
+	background: {
+		padding: 24,
+		gap: 18,
+	},
+	section: {
+		gap: 8,
+	},
+	card: {
+		radius: 24,
+		padding: 12,
+		gapX: 16,
+		gapY: 8,
+	},
+	blob: {
+		radius: 24 - 12,
+	},
+	color: {
+		radius: 24,
+	},
 };
 
-FontLibrary.use({
-	"gg-sans": ["src/canvas/fonts/ggsans/*.ttf"],
-	"gg-mono": ["src/canvas/fonts/ggmono/*.ttf"],
-});
+const textSizes = {
+	header: 24,
+	title: 18,
+	blob: 24,
+};
 
 const colors = {
-	bgMain: "#1C1D23", // BACKGROUND_PRIMARY
-	bgSecondary: "#26272F", // BACKGROUND_SECONDARY
-	textNormal: "#C7C8CE", // TEXT_NORMAL
-	textMuted: "#818491", // TEXT_NORMAL
-	importantBg: "#EEEEEE05", // custom, something like BG_MOD_**********
+	background: "#1c1d23", // BACKGROUND_BASE_LOWEST
+	section: "#26272f", // CARD_BACKGROUND_DEFAULT
+	blob: "#6c6f7c1f", // BACKGROUND_MOD_MUTED
+	textNormal: "#c7c8ce", // TEXT_NORMAL
+	textMuted: "#818491", // TEXT_MUTED
+	watermark: "#2f3035", // TEXT_OVERLAY_DARK
 };
 
-export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Promise<Record<string, DataEntry[][]>> {
-	const obj = {
-		Added: [[]],
-		Changed: [[], []],
-		Renamed: [[]],
-		Removed: [[]],
-	} as Record<string, DataEntry[][]>;
+const itemSize = 128;
+const blobSize = itemSize + layout.card.gapY + textSizes.title;
 
-	const changesCounter = {
-		Added: 0,
-		Changed: 0,
-		Renamed: 0,
-		Removed: 0,
-	};
+const watermark = await transformSvg(await file(join(import.meta.dir, "placeholders/watermark.svg")).text(), {
+	color: colors.watermark,
+	height: layout.background.padding,
+});
 
-	async function convertFile(file: string) {
-		if (file.endsWith(".svg")) {
-			const data = await sharp(file).png().toBuffer();
-			return `data:image/png;base64,${data.toString("base64")}`;
-		} else if (file.endsWith(".lottie")) {
-			// TODO lottie support... maybe one day...
-			return "src/canvas/placeholders/lottie.png";
-		} else return file;
-	}
+const mctx = createCanvas(1, 1).getContext("2d");
+export function drawSections(sections: Section[]) {
+	const headerFont = `600 ${textSizes.header}px GG Sans`;
+	const titleFont = `400 ${textSizes.title}px GG Mono`;
 
-	const entries = [...diffs.entries()];
-	for (const [label, change] of entries) {
-		if (change.change === DiffEnum.Added && maxChangesThreshold >= changesCounter.Added) {
-			if (!color && !change.curFile) continue;
-
-			if (changesCounter.Added === maxChangesThreshold) {
-				const count = entries.filter(([_, x]) => x.change === DiffEnum.Added).length - changesCounter.Added;
-
-				obj.Added[0].push({
-					label: [{ txt: `(+${count} addition${count > 1 ? "s" : ""})` }],
-					important: true,
-				});
-			} else {
-				obj.Added[0].push({
-					label: [{ txt: label }],
-					file: !color ? await convertFile(change.curFile!) : undefined,
-					color: color ? change.cur : undefined,
-				});
-			}
-			changesCounter.Added++;
-		} else if (change.change === DiffEnum.Changed && maxChangesThreshold >= changesCounter.Changed) {
-			if (!color && (!change.curFile || !change.oldFile)) continue;
-
-			if (changesCounter.Changed === maxChangesThreshold) {
-				const count = entries.filter(([_, x]) => x.change === DiffEnum.Changed).length - changesCounter.Changed;
-				const obja = {
-					label: [{ txt: `(+${count} change${count > 1 ? "s" : ""})` }],
-					important: true,
-				};
-
-				obj.Changed[0].push(obja);
-				obj.Changed[1].push(obja);
-			} else {
-				obj.Changed[0].push({
-					label: [{ txt: label, tint: "muted" }],
-					file: !color && change.oldFile ? await convertFile(change.oldFile) : undefined,
-					color: color ? change.old : undefined,
-				});
-				obj.Changed[1].push({
-					label: [{ txt: label }],
-					file: !color && change.curFile ? await convertFile(change.curFile) : undefined,
-					color: color ? change.cur : undefined,
-				});
-			}
-			changesCounter.Changed++;
-		} else if (change.change === DiffEnum.Renamed && maxChangesThreshold >= changesCounter.Renamed) {
-			if (!color && !change.curFile) continue;
-
-			if (changesCounter.Renamed === maxChangesThreshold) {
-				const count = entries.filter(([_, x]) => x.change === DiffEnum.Renamed).length - changesCounter.Renamed;
-
-				obj.Renamed[0].push({
-					label: [{ txt: `(+${count} rename${count > 1 ? "s" : ""})` }],
-					important: true,
-				});
-			} else {
-				obj.Renamed[0].push({
-					label: [{ txt: change.old, tint: "muted" }, { txt: label }],
-					file: !color ? await convertFile(change.curFile!) : undefined,
-					color: color ? change.cur : undefined,
-				});
-			}
-			changesCounter.Renamed++;
-		} else if (change.change === DiffEnum.Removed && maxChangesThreshold >= changesCounter.Removed) {
-			if (!color && !change.oldFile) continue;
-
-			if (changesCounter.Removed === maxChangesThreshold) {
-				const count = entries.filter(([_, x]) => x.change === DiffEnum.Removed).length - changesCounter.Removed;
-
-				obj.Removed[0].push({
-					label: [{ txt: `(+${count} removal${count > 1 ? "s" : ""})` }],
-					important: true,
-				});
-			} else {
-				obj.Removed[0].push({
-					label: [{ txt: label }],
-					file: !color ? await convertFile(change.oldFile!) : undefined,
-					color: color ? change.old : undefined,
-				});
-			}
-			changesCounter.Removed++;
-		}
-	}
-
-	return Object.fromEntries(Object.entries(obj).filter(([_, entries]) => entries[0].length > 0));
-}
-
-export default async function draw(data: Record<string, DataEntry[][]>) {
-	const entries = Object.entries(data).filter((x) => x[1].length > 0);
-
-	// constants
-	const labelFontSize = 24;
-	const assetTitleFontSize = 18;
-	const importantTextFontSize = 20;
-
-	const padding = 16;
-	const textHei = assetTitleFontSize + padding / 4;
-	const itemHei = 128;
-	const importantTextItemWid = itemHei + 3 + textHei;
-
-	// measures the width of images & text
-
-	const measureCtx = new Canvas(1, 1).getContext("2d");
-
-	const assetTitleFont = `400 ${assetTitleFontSize}px gg-mono`;
-	measureCtx.font = assetTitleFont;
-
-	const imageMap = new Map<string, any>();
-	const imageWidths = new Map<string, number>();
-	const files = entries
-		.map(([_, changes]) => changes.map((row) => row.map((x: any) => x.file)))
-		.flat(2)
-		.filter((x, i, a) => x && a.indexOf(x) === i);
-
-	for (const file of files) {
-		const img = await loadImage(file);
-		imageMap.set(file, img);
-
-		const mult = itemHei / img.height;
-		imageWidths.set(file, img.width * mult);
-	}
-
-	const textMeasurements: number[] = [];
-	const textWidthMap = new Map<Label[], number>();
-
-	const widForAsset = (asset: DataEntry) =>
-		asset.file ? imageWidths.get(asset.file!)! : asset.important ? importantTextItemWid : asset.color ? itemHei : 0;
-
-	for (const [_, changes] of entries) {
-		for (const row of changes) {
-			let rowLen = 0;
-			for (const text of row) {
-				let wid = 0;
-				if (text.important) wid = importantTextItemWid;
-				else wid = Math.max(...text.label.map(({ txt }) => measureCtx.measureText(txt).width), widForAsset(text));
-
-				rowLen += wid;
-				textWidthMap.set(text.label, wid);
-			}
-			textMeasurements.push(rowLen + (padding * row.length - 1));
-		}
-	}
-
-	const widestText = Math.max(...textMeasurements);
-	const tallestText = entries.map(([_, changes]) =>
-		changes.map((x) => {
-			const sep = Math.max(...x.map((y) => (Array.isArray(y.label) ? y.label : [y.label]).length));
-
-			return sep * textHei + (sep - 1) * 1;
-		}),
+	const sects = sections.map(({ header, columns }) => ({
+		headerWidth: measureText(mctx, headerFont, header).width,
+		header,
+		columns: columns.map((column) =>
+			column.map(({ title, subtitle, item }) => ({
+				title,
+				subtitle,
+				textWidth: Math.max(
+					0,
+					title ? measureText(mctx, titleFont, title).width : 0,
+					subtitle ? measureText(mctx, titleFont, subtitle).width : 0,
+				),
+				item,
+				itemWidth:
+					item.type === "blob"
+						? blobSize
+						: item.type === "image"
+							? (item.image.width / item.image.height) * itemSize
+							: itemSize,
+			})),
+		),
+	}));
+	const columnWidths = Array.from({ length: Math.max(0, ...sects.map(({ columns }) => columns.length)) }, (_, i) =>
+		Math.max(0, ...sects.map(({ columns }) => (columns[i] ? calcColumnWidth(columns[i]) : 0))),
 	);
+	const sectionWidth =
+		columnWidths.reduce((a, b) => a + b, 0) + layout.card.gapX * (columnWidths.length - 1) + layout.card.padding * 2;
 
-	const canvas = new Canvas(
-		Math.max(widestText + padding * 2, 100),
-		padding * 2 +
-			entries.reduce(
-				(val, [_, changes], changesI) =>
-					val +
-					24 + // title
-					padding / 4 + // padding between title and first row
-					changes.reduce(
-						(val, _, rowI) => val + tallestText[changesI][rowI] + itemHei, // text + item
-						0,
-					) +
-					(changes.length - 1) * (padding / 4), // padding between rows
-				0,
-			) +
-			(entries.length - 1) * (padding * 1.5), // padding between entries
-	);
+	const width = Math.max(0, ...sects.map(({ headerWidth }) => headerWidth), sectionWidth);
+	const height =
+		sects
+			.map(
+				({ columns }) =>
+					textSizes.header +
+					layout.section.gap +
+					layout.card.padding * 2 +
+					calcSectionHeight(columns) +
+					layout.background.gap,
+			)
+			.reduce((a, b) => a + b, 0) - layout.background.gap;
+
+	const canvas = createCanvas(layout.background.padding * 2 + width, layout.background.padding * 2 + height);
 	const ctx = canvas.getContext("2d");
 	ctx.textBaseline = "top";
 
-	// background
-	ctx.fillStyle = colors.bgMain;
+	ctx.fillStyle = colors.background;
 	ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-	const x = padding;
-	let y = padding;
-	for (const [title, changes] of entries) {
-		const changesTextHei = changes.map((x) => {
-			const sep = Math.max(...x.map((y) => (Array.isArray(y.label) ? y.label : [y.label]).length));
-
-			return sep * textHei + (sep - 1) * 1;
-		});
-
-		ctx.fillStyle = colors.bgSecondary;
-		ctx.beginPath();
-		ctx.roundRect(
-			x - padding / 2,
-			y - padding / 2,
-			canvas.width - padding,
-			24 +
-				padding / 4 +
-				changes.reduce((v, _, i) => v + changesTextHei[i] + itemHei, 0) +
-				(changes.length - 1) * (padding / 4) +
-				padding,
-			12,
-		);
-		ctx.fill();
-
+	let x = layout.background.padding,
+		y = layout.background.padding;
+	for (const sect of sects) {
 		ctx.fillStyle = colors.textNormal;
-		ctx.font = `600 ${labelFontSize}px gg-sans`;
-		ctx.fillText(title, x, y);
-		y += 24 + padding / 4;
+		ctx.font = headerFont;
+		ctx.fillText(sect.header, x, y);
+		y += textSizes.header + layout.section.gap;
 
-		// check if every row is the same length, throw error if not
-		if (!changes.every((row) => row.length === changes[0].length)) {
-			throw new Error("Rows must be the same length");
-		}
+		const sectionHeight = calcSectionHeight(sect.columns);
+		ctx.fillStyle = colors.section;
+		ctx.beginPath();
+		ctx.roundRect(x, y, sectionWidth, sectionHeight + layout.card.padding * 2, layout.card.radius);
+		ctx.fill();
+		y += layout.card.padding;
+		x += layout.card.padding;
 
-		const textWids: number[] = [];
-		for (let i = 0; i < changes[0].length; i++) {
-			const wids = [];
-			for (const row of changes) wids.push(textWidthMap.get(row[i].label)!);
+		let wx = x;
+		for (let i = 0; i < sect.columns.length; i++) {
+			let wy = y;
 
-			textWids[i] = Math.max(...wids);
-		}
+			const column = sect.columns[i];
+			const columnWidth = columnWidths[i];
+			if (!columnWidth) throw new Error(`Failed to get columnWidth for ${i}, ${columnWidth}`);
 
-		for (let r = 0; r < changes.length; r++) {
-			const row = changes[r];
-			const thisTextHei = changesTextHei[r];
-
-			let spacing = 0;
-			for (let i = 0; i < changes[0].length; i++) {
-				const asset = row[i];
-				const textWid = textWids[i];
-				const itemWid = widForAsset(asset);
-
-				const midX = x + textWid / 2 - itemWid / 2;
-
-				if (!asset.important) {
-					ctx.font = assetTitleFont;
-
-					const lab = Array.isArray(asset.label) ? asset.label : [asset.label];
-					for (let i = 0; i < lab.length; i++) {
-						if (lab[i].tint === "muted") ctx.fillStyle = colors.textMuted;
-						else ctx.fillStyle = colors.textNormal;
-
-						ctx.fillText(lab[i].txt, x + spacing, y + i * textHei + i * 1);
-					}
+			const centerX = wx + columnWidth / 2;
+			for (const row of column) {
+				ctx.font = titleFont;
+				if (row.subtitle) {
+					ctx.fillStyle = colors.textMuted;
+					ctx.fillText(row.subtitle, centerX - row.textWidth / 2, wy);
+					wy += textSizes.title + layout.card.gapY;
 				}
-
-				if (asset.color) {
-					ctx.fillStyle = asset.color;
-					ctx.beginPath();
-					ctx.arc(midX + spacing + itemHei / 2, y + thisTextHei + itemHei / 2, itemHei / 2, 0, 2 * Math.PI);
-					ctx.fill();
-				} else if (asset.file) {
-					ctx.drawImage(
-						imageMap.get(asset.file)!,
-						midX + spacing,
-						y + thisTextHei,
-						imageWidths.get(asset.file)!,
-						itemHei,
-					);
-				} else if (asset.important) {
-					ctx.fillStyle = colors.importantBg;
-					ctx.beginPath();
-					ctx.roundRect(x + spacing, y, importantTextItemWid, importantTextItemWid, 25);
-					ctx.fill();
-
+				if (row.title) {
 					ctx.fillStyle = colors.textNormal;
-					ctx.font = `600 ${importantTextFontSize}px gg-sans`;
-
-					const lines = getLines(ctx, asset.label[0].txt, importantTextItemWid);
-
-					const startY = y + importantTextItemWid / 2 - (lines.length * (importantTextFontSize + 1)) / 2;
-					for (let l = 0; l < lines.length; l++) {
-						const textWid = ctx.measureText(lines[l]).width;
-						const setX = x + spacing + importantTextItemWid / 2 - textWid / 2;
-
-						ctx.fillText(lines[l], setX, startY + l * (importantTextFontSize + 1));
-					}
+					ctx.fillText(row.title, centerX - row.textWidth / 2, wy);
+					wy += textSizes.title + layout.card.gapY;
 				}
 
-				spacing += textWid + padding;
+				const midX = centerX - row.itemWidth / 2;
+				if (row.item.type === "blob") {
+					const blobHeight = sectionHeight - wy + y;
+
+					ctx.fillStyle = colors.blob;
+					ctx.beginPath();
+					ctx.roundRect(wx, wy, columnWidth, blobHeight, layout.blob.radius);
+					ctx.fill();
+
+					ctx.font = `600 ${textSizes.blob}px GG Sans`;
+					ctx.fillStyle = colors.textNormal;
+					ctx.textAlign = "center";
+					ctx.textBaseline = "middle";
+
+					const wrapped = wrapText(ctx, row.item.blob, columnWidth);
+					const height = textSizes.blob / 2;
+					for (let i = 0; i < wrapped.length; i++)
+						ctx.fillText(
+							wrapped[i],
+							wx + columnWidth / 2,
+							wy + blobHeight / 2 - height * (wrapped.length - 1) + textSizes.blob * i,
+						);
+
+					ctx.textAlign = "left";
+					ctx.textBaseline = "top";
+				} else if (row.item.type === "image") {
+					ctx.drawImage(row.item.image, midX, wy, row.itemWidth, itemSize);
+					wy += itemSize + layout.card.gapY;
+				} else if (row.item.type === "color") {
+					for (let i = 0; i < row.item.colors.length; i++) {
+						const colors = row.item.colors[i];
+						for (let j = 0; j < colors.length; j++) {
+							const color = colors[j];
+							ctx.save();
+							ctx.beginPath();
+							ctx.rect(
+								Math.floor(midX + (itemSize / colors.length) * j),
+								Math.floor(wy + (itemSize / row.item.colors.length) * i),
+								Math.ceil(itemSize / colors.length),
+								Math.ceil(itemSize / row.item.colors.length),
+							);
+							ctx.clip();
+
+							ctx.beginPath();
+							ctx.fillStyle = color;
+							ctx.roundRect(midX, wy, itemSize, itemSize, layout.color.radius);
+							ctx.fill();
+							ctx.restore();
+						}
+					}
+					wy += itemSize + layout.card.gapY;
+				}
 			}
-
-			y += thisTextHei + itemHei;
-			if (r !== changes.length - 1) y += padding / 4;
+			wx += columnWidth + layout.card.gapX;
 		}
+		y += sectionHeight;
 
-		y += padding * 1.5;
+		x -= layout.card.padding;
+		y += layout.card.padding;
+		y += layout.background.gap;
 	}
 
-	// watermark :3
-	ctx.font = `400 ${padding / 2}px gg-sans`;
-	const watermarkText = "Themelings";
-	const watermarkTextWidth = ctx.measureText(watermarkText).width;
-
-	ctx.fillStyle = "#fff4";
-	ctx.fillText(watermarkText, canvas.width - watermarkTextWidth - padding / 2, 0);
+	// watermark
+	ctx.drawImage(watermark, canvas.width - watermark.width - 1, 1);
 
 	return canvas;
 }

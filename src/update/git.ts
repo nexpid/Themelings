@@ -1,9 +1,9 @@
 import { commitAnyway } from "./shared";
-import { handleShellErr } from "./util";
+import { handleShellErr } from "./utils";
 
 export const gitChanged = new Set<string>();
 
-export async function getGitChanged() {
+export async function fetchGitChanged() {
 	for (const changed of (
 		await Bun.$`git status -z -- ':!oldicons' ':!icons' ':!source'`.cwd("../data").quiet().then(handleShellErr)
 	)
@@ -21,17 +21,15 @@ export async function commit(files: string[], message: string) {
 		await gitQueue[0];
 	}
 
-	let resolveProm: any;
-	const prom = new Promise<void>((res) => (resolveProm = res));
-
-	gitQueue.push(prom);
+	const { promise, resolve } = Promise.withResolvers<void>();
+	gitQueue.push(promise);
 
 	if (process.env.NODE_ENV === "test" && !commitAnyway) {
-		await getGitChanged();
+		await fetchGitChanged();
 	} else {
 		// unstage all files
 		await Bun.$`git restore --staged .`.cwd("../data").nothrow().quiet().then(handleShellErr);
-		await getGitChanged();
+		await fetchGitChanged();
 		// stage files
 		await Bun.$`git add ${{ raw: files.map((x) => Bun.$.escape(x)).join(" ") }}`
 			.cwd("../data")
@@ -46,9 +44,8 @@ export async function commit(files: string[], message: string) {
 			.then((e) => void e);
 	}
 
-	await resolveProm?.();
-	gitQueue.splice(
-		gitQueue.findIndex((x) => x === prom),
-		1,
-	);
+	resolve();
+
+	const promInd = gitQueue.indexOf(promise);
+	if (promInd !== -1) gitQueue.splice(promInd, 1);
 }

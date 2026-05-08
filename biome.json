@@ -1,5 +1,5 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.1.3/schema.json",
+	"$schema": "https://biomejs.dev/schemas/2.4.11/schema.json",
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab",
@@ -9,23 +9,22 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true,
-			"performance": {
-				"noDelete": "off"
-			},
-			"security": {
-				"noGlobalEval": "off"
-			},
-			"style": {
-				"noNonNullAssertion": "off"
-			},
 			"suspicious": {
-				"noAssignInExpressions": "off",
 				"noExplicitAny": "off"
 			},
 			"complexity": {
-				"noCommaOperator": "off",
+				"noUselessStringConcat": "error",
 				"noForEach": "error",
-				"noUselessStringConcat": "warn"
+				"noUselessUndefined": "error",
+				"useSimplifiedLogicExpression": "error"
+			},
+			"performance": {
+				"noDelete": "error",
+				"noNamespaceImport": "error",
+				"useTopLevelRegex": "warn"
+			},
+			"style": {
+				"noUselessElse": "error"
 			}
 		}
 	},

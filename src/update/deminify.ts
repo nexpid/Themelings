@@ -1,6 +1,6 @@
 import { writeFileSync } from "node:fs";
 import { extname } from "node:path";
-import { log } from "./util";
+import { log } from "./progress";
 
 const variableMatch = /\br(\d{1,2})\b/g;
 const argumentMatch = /\ba(\d{1,2})\b/g;
@@ -50,7 +50,7 @@ export function deminify(code: string, path: string) {
 		if (!depth) log(`WARNING! arg${n} does not have any depth (${path})`);
 
 		if (depth === 1) return nativeModuleNames[n] ?? `native${n + 1}`;
-		else return `arg${n + 1}`;
+		return `arg${n + 1}`;
 	};
 	const funReplacer = (_: string, prefix: string, id: string, suffix: string, caseId?: string) => {
 		const num = funMap.get(id) ?? String(funMap.size + 1).padStart(4, "0");
@@ -112,11 +112,10 @@ export function deminify(code: string, path: string) {
 			.replace(caseMatch, caseReplacer)
 			.replace(functNameMatch, functNameReplacer)
 			.replace(nullstringMatch, (_, __, id: string) => {
-				if (nullStrings.has(id)) return nullStrings.get(id)!;
-				else {
-					writeFileSync("temp/nullcrashed.js", cleaned.join("\n"));
-					throw new Error(`parsing failed, nullstring ${id} doesn't exist (LINE: ${y}, FILE: ${path})`);
-				}
+				const nullString = nullStrings.get(id);
+				if (nullString) return nullString;
+				writeFileSync("temp/nullcrashed.js", cleaned.join("\n"));
+				throw new Error(`parsing failed, nullstring ${id} doesn't exist (LINE: ${y}, FILE: ${path})`);
 			});
 		lines.push(parsed);
 	}

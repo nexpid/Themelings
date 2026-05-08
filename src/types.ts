@@ -1,58 +1,45 @@
-export enum DiffEnum {
-	Added = 0,
-	Changed = 1,
-	Renamed = 2,
-	Removed = 3,
+export enum DiffType {
+	Added,
+	Changed,
+	Renamed,
+	Removed,
 }
 
 export type Diff =
 	| {
-			change: DiffEnum.Added;
-			cur: string;
-			curFile?: string;
+			type: DiffType.Added | DiffType.Removed;
+			source: string;
+			label?: string;
 	  }
 	| {
-			change: DiffEnum.Changed;
-			old: string;
-			oldFile?: string;
-			cur: string;
-			curFile?: string;
+			type: DiffType.Changed;
+			source: string;
+			label?: string;
+			oldSource: string;
+			oldLabel?: string;
 	  }
 	| {
-			change: DiffEnum.Renamed;
-			old: string;
-			cur: string;
-			curFile?: string;
-	  }
-	| {
-			change: DiffEnum.Removed;
-			old: string;
-			oldFile?: string;
+			type: DiffType.Renamed;
+			oldName: string;
+			source: string;
 	  };
 
 export type CodeDiff =
 	| {
-			change: DiffEnum.Added;
-			size: string;
+			type: DiffType.Added | DiffType.Removed;
+			size: number;
 	  }
 	| {
-			change: DiffEnum.Changed;
-			sizeDiff: string;
-			sizeDiffNum: number;
-	  }
-	| {
-			change: DiffEnum.Renamed;
-			oldFile: string;
-			size: string;
-	  }
-	| {
-			change: DiffEnum.Removed;
-			size: string;
+			type: DiffType.Renamed;
+			oldName: string;
+			size: number;
 	  };
 
-export type OutDiffs = Record<"semantic" | "raw" | "icons", Map<string, Diff> | undefined> & {
+export type Differs = Record<"semantic" | "raw" | "icons", Map<string, Diff> | undefined> & {
 	code: Map<string, CodeDiff> | undefined;
 };
+
+export type RawColors = Record<string, string>;
 
 export type Icons = Record<
 	string,
@@ -65,4 +52,5 @@ export type Icons = Record<
 	}
 >;
 
-export type SemanticColors = Record<string, Record<string, [string, { raw: string; opacity: number }]>>;
+export type Semantic = Record<string, [string, { raw: string; opacity: number }]>;
+export type SemanticColors = Record<string, Semantic>;

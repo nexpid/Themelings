@@ -1,12 +1,18 @@
-import { copyFile, readdir, rename, writeFile } from "node:fs/promises";
-import { dirname } from "node:path";
+import { copyFile, mkdir, readdir, rename } from "node:fs/promises";
+import { basename } from "node:path";
+import { runInNewContext } from "node:vm";
 import type { Icons } from "../../types";
-import { commit } from "../commit";
-import { cuteVersion } from "../shared";
-import { discordPath, join, mkdirSuppressed, type Progress, sortByHierarchy, sortObj } from "../util";
+import { commit } from "../git";
+import type { Progress } from "../progress";
+import { apkSplits, apksFolder, cuteVersion } from "../shared";
+import { discordPath, join, listRequiredDirs, sortObj } from "../utils";
 
-export default async function icons(progress: Progress, code: string[], ...paths: string[]) {
-	const lookForFiles: {
+const infoObjRegex = /({.+?})/;
+const scalesArrayRegex = /(\[.+?\])/;
+
+// a bit less scary code matching below, be warned
+export async function parseAssets(code: string[]) {
+	const retrievedAssets: {
 		httpServerLocation: string;
 		width: number;
 		height: number;
@@ -16,80 +22,92 @@ export default async function icons(progress: Progress, code: string[], ...paths
 		type: "png" | "svg" | "lottie";
 	}[] = [];
 
-	progress.start("icons_getting");
 	for (let i = 0; i < code.length; i++) {
-		const line = code[i];
+		// next line has asset info, after that are scales
+		const line = code[i],
+			infoLine = code[i + 1],
+			scalesLine = code[i + 2];
 
-		// easiest way to check
-		if (line.includes("'httpServerLocation'") && code[i - 1]?.includes(".registerAsset")) {
-			const objText = line.split("{").slice(1).join("{").split("}").slice(0, -1).join("}");
-			const obj = (0, eval)(`({${objText}})`);
+		if (line.includes(".registerAsset") && infoLine?.includes("'httpServerLocation'") && scalesLine?.includes("[")) {
+			const infoText = infoLine.match(infoObjRegex)?.[1];
+			if (!infoText) throw new Error(`Failed to find infoText for ${infoLine} (line ${i + 1})`);
 
-			// the next line has scales for the icon
-			const scalesText = code[i + 1].split("[").slice(1).join("[").split("]").slice(0, -1).join("]");
-			const scales = (0, eval)(`([${scalesText}])`);
+			const scalesText = scalesLine.match(scalesArrayRegex)?.[1];
+			if (!scalesText) throw new Error(`Failed to find scalesText for ${scalesLine} (line ${i + 2})`);
 
-			if (!Array.isArray(scales) || scales.some((x) => Number.isNaN(x))) continue;
+			const info = runInNewContext(`(${infoText})`);
+			if (typeof info !== "object") continue;
 
-			obj.scales = scales;
+			const scales = runInNewContext(`(${scalesText})`);
+			if (!Array.isArray(scales)) continue;
+
+			info.scales = scales;
 
 			if (
-				["httpServerLocation", "hash", "name", "type"].every((x) => obj[x]) &&
-				["svg", "png", "lottie"].includes(obj.type) &&
-				!obj.httpServerLocation.includes("node_modules/.pnpm")
+				["httpServerLocation", "hash", "name", "type"].every((x) => x in info) &&
+				["svg", "png", "lottie"].includes(info.type) &&
+				!info.httpServerLocation.includes("node_modules/.pnpm")
 			) {
-				lookForFiles.push(obj);
+				retrievedAssets.push(info);
 			}
 		}
 	}
 
-	// get files of every folder
-	const listed = (
-		(await Promise.allSettled(
-			paths.map((path) => readdir(path, { recursive: true }).then((f) => f.map((e) => join(path, e)))),
-		)) as PromiseFulfilledResult<string[]>[]
-	)
-		.filter((f) => f.status === "fulfilled")
-		.flatMap((f) => f.value);
+	// get files of all apks by hierarchy
+	const apkPaths = new Map<string, string>();
+	for (const split of apkSplits) {
+		const folder = join(apksFolder, split);
+		for (const path of await readdir(folder, { recursive: true })) apkPaths.set(basename(path), join(folder, path));
+	}
 
-	const icons = {} as Icons;
-	const toMove: [string, string][] = [];
-	for (const lookFor of lookForFiles) {
-		const path = `${`${lookFor.httpServerLocation.split("/").slice(2).join("_")}_${lookFor.name}`
+	const icons: Icons = {};
+	const toCopy: { from: string; to: string }[] = [];
+	for (const asset of retrievedAssets) {
+		const baseName = [...asset.httpServerLocation.split("/").slice(2), asset.name]
+			.join("_")
 			.toLowerCase()
-			.replace(/\W+/g, "")}.${lookFor.type}`;
+			.replace(/\W+/g, "");
+		const path = `${baseName}.${asset.type}`;
 
-		const filePath = listed.find((f) => f.endsWith(`/${path}`));
-
-		if (filePath) {
-			const actualPath = join(
-				discordPath(lookFor.httpServerLocation.split("/").slice(2).join("/")),
-				`${lookFor.name}.${lookFor.type}`,
+		const apkPath = apkPaths.get(path);
+		if (apkPath) {
+			const realPath = join(
+				discordPath(asset.httpServerLocation.split("/").slice(2).join("/")),
+				`${asset.name}.${asset.type}`,
 			);
 
-			icons[lookFor.name] = {
-				file: actualPath,
-				hash: lookFor.hash,
-				scales: lookFor.scales,
-				width: lookFor.width ?? null,
-				height: lookFor.height ?? null,
+			icons[asset.name] = {
+				file: realPath,
+				hash: asset.hash,
+				scales: asset.scales,
+				width: asset.width ?? null,
+				height: asset.height ?? null,
 			};
-			toMove.push([filePath, join("../data/icons", actualPath)]);
+			toCopy.push({
+				from: apkPath,
+				to: join("../data/icons", realPath),
+			});
 		}
 	}
 
-	await writeFile("../data/icons.json", JSON.stringify(sortObj(icons), undefined, 4));
+	return { icons, toCopy };
+}
 
+export default async function icons(progress: Progress, code: string[]) {
+	progress.start("icons_getting");
+
+	const { icons, toCopy } = await parseAssets(code);
+	await Bun.write("../data/icons.json", JSON.stringify(sortObj(icons), undefined, 4));
 	progress.update("icons_getting", true);
+
 	progress.start("icons_copying");
 
-	// don't delete old icons just yet so we can display the old images
+	// don't delete the old icons folder so we can display the old images
 	await rename("../data/icons", "../data/oldicons");
+	const dirs = listRequiredDirs(toCopy.map((x) => x.to));
 
-	const dirs = new Set(toMove.map((x) => dirname(x[1])).sort(sortByHierarchy));
-	await Promise.all(dirs.values().map((dir) => mkdirSuppressed(dir, { recursive: true })));
-
-	await Promise.all(toMove.map(([source, file]) => copyFile(source, file)));
+	await Promise.all(dirs.map((dir) => mkdir(dir, { recursive: true })));
+	await Promise.all(toCopy.map(({ from, to }) => copyFile(from, to)));
 
 	await commit(["icons.json", "icons"], `chore: update icons for ${cuteVersion}`);
 	progress.update("icons_copying", true);

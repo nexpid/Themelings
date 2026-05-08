@@ -1,19 +1,6 @@
-import { mkdir } from "node:fs/promises";
-import { join as _join } from "node:path";
-import type { $ } from "bun";
-
-export const maxChangesThreshold = 10; // thank you Discord for making 700 icon changes in one version
-export const maxCodeChangesThreshold = 10;
-
-export function sortObj(obj: Record<string | number | symbol, any>) {
-	return Object.fromEntries(Object.entries(obj).sort(([a], [b]) => a.localeCompare(b)));
-}
+import { formatError } from "./utils";
 
 let somethingInLog = false;
-export function didSomethingInLog() {
-	somethingInLog = true;
-}
-
 export function log(...messages: any) {
 	console.log(...messages);
 	somethingInLog = true;
@@ -33,7 +20,7 @@ export function makeProgress(data: Record<string, string>, startPaused = false) 
 		logs = keys.map((key) => {
 			const rootKey = key.split("_")[1] && keys.includes(key.split("_")[0]) && key.split("_")[0];
 			const otherKeys = keys.filter((x) => x.split("_")[0] === rootKey);
-			const isLast = otherKeys.findIndex((x) => x === key) === otherKeys.length - 1;
+			const isLast = otherKeys.indexOf(key) === otherKeys.length - 1;
 
 			return `${rootKey ? (isLast ? " ╚═ " : " ╠═ ") : ""}${
 				{
@@ -67,6 +54,7 @@ export function makeProgress(data: Record<string, string>, startPaused = false) 
 		}
 	};
 
+	somethingInLog = false;
 	reprint();
 
 	const bKeyer = (keys: Key[]) => {
@@ -111,52 +99,14 @@ export function makeProgress(data: Record<string, string>, startPaused = false) 
 
 export type Progress = ReturnType<typeof makeProgress>;
 
-export async function wrapPromise(promise: Promise<any>, progress: Progress, key: string) {
+export async function wrapPromise<T>(promise: Promise<T>, progress: Progress, key: string): Promise<T> {
 	progress.start(key);
 	try {
-		const x = await promise;
+		const value = await promise;
 		progress.update(key, true);
-		return x;
+		return value;
 	} catch (e: any) {
-		progress.update(key, false, cuteError(e));
+		progress.update(key, false, formatError(e));
 		throw e;
 	}
-}
-
-export function handleShellErr(out: $.ShellOutput): $.ShellOutput {
-	if (out.exitCode !== 0 && out.exitCode !== 11)
-		throw new Error(
-			`${`${out.stdout.toString().trim()}\n${out.stderr.toString().trim()}`} (exit code ${out.exitCode})`,
-		);
-	return out;
-}
-
-export const join = (...paths: string[]) => _join(...paths).replace(/\\/g, "/");
-
-export const mkdirSuppressed = (...args: Parameters<typeof mkdir>) =>
-	mkdir(...args).catch((e) =>
-		e?.code !== "EEXIST" && cuteError(e),
-	);
-
-export function cuteError(e: any) {
-	return e?.stack ?? e?.message ?? String(e);
-}
-
-export function sortByHierarchy(a: string, b: string) {
-	return a.split("/").length - b.split("/").length;
-}
-
-export function formatBytes(bytes: number, decimals = 2): string {
-	if (bytes === 0) return "0 B";
-
-	const k = 1024;
-	const sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
-
-	const i = Math.floor(Math.log(bytes) / Math.log(k));
-
-	return `${Number.parseFloat((bytes / k ** i).toFixed(Math.max(decimals, 0)))} ${sizes[i]}`;
-}
-
-export function discordPath(path: string) {
-	return join("app", path);
 }

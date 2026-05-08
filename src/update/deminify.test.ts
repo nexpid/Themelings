@@ -1,4 +1,3 @@
-import { write } from "bun";
 import { deminify } from "./deminify";
 
 const SNIPPET = `r7 = function(a0, a1, a2, a3, a4, a5, a6) { // Environment: r3
@@ -250,4 +249,4 @@ case 90:
     return r0;
 };`;
 
-await write("temp/deminified.js", deminify(SNIPPET, "actions/native/AlertActionCreators.js").res);
+await Bun.write("temp/deminified.js", deminify(SNIPPET, "actions/native/AlertActionCreators.js").res);

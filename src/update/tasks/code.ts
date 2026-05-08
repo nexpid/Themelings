@@ -1,11 +1,15 @@
-import { rm } from "node:fs/promises";
-import { dirname } from "node:path";
-import { commit } from "../commit";
+import { mkdir, rm } from "node:fs/promises";
 import { deminify } from "../deminify";
+import { commit } from "../git";
+import type { Progress } from "../progress";
 import { commitAnyway, cuteVersion } from "../shared";
-import { discordPath, join, mkdirSuppressed, type Progress, sortByHierarchy } from "../util";
+import { discordPath, join, listRequiredDirs, sortEntries } from "../utils";
+
+// scary code matching below, be warned
 
 const moduleStartIndentation = " ".repeat(4);
+const pathCheckRegex = / = '(.*?)';$/;
+const lineImportRegex = / = r\d{1,2}\.fileFinishedImporting;$/;
 
 export default async function code(progress: Progress, code: string[]) {
 	progress.start("code_getting");
@@ -25,8 +29,8 @@ export default async function code(progress: Progress, code: string[]) {
 		}
 
 		// easiest way to check
-		const path = code[i + 1]?.match(/ = '(.*?)';$/)?.[1];
-		if (line.match(/ = r\d{1,2}\.fileFinishedImporting;$/) && path) {
+		const path = code[i + 1]?.match(pathCheckRegex)?.[1];
+		if (line.match(lineImportRegex) && path) {
 			const start = moduleStart;
 			if (!start) throw `moduleStart was null for ${start}~${i}; null ~ ${code[i]}`;
 			moduleStart = null;
@@ -59,8 +63,7 @@ export default async function code(progress: Progress, code: string[]) {
 
 	await Bun.write(
 		"../data/source.jsonl",
-		[...files.entries()]
-			.sort(([a], [b]) => a.localeCompare(b))
+		sortEntries([...files.entries()])
 			.map(([file, text]) => `{ "file": ${JSON.stringify(file)}, "size": ${text.final.length} }`)
 			.join("\n"),
 	);
@@ -71,13 +74,12 @@ export default async function code(progress: Progress, code: string[]) {
 		progress.start("code_remaking");
 
 		const filePrefix = "../data/source";
-
 		await rm(filePrefix, { recursive: true, force: true });
 
-		const dirs = new Set([...files.keys()].map((x) => dirname(x)).sort(sortByHierarchy));
-		await Promise.all(dirs.values().map((dir) => mkdirSuppressed(join(filePrefix, dir), { recursive: true })));
+		const dirs = listRequiredDirs([...files.keys()]);
 
-		for (const [file, text] of files.entries()) await Bun.write(join(filePrefix, file), text.res);
+		await Promise.all(dirs.map((dir) => mkdir(join(filePrefix, dir), { recursive: true })));
+		await Promise.all(files.entries().map(([file, text]) => Bun.write(join(filePrefix, file), text.res)));
 
 		progress.update("code_remaking", true);
 		progress.start("code_pushing");

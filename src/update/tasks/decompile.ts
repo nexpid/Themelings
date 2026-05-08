@@ -1,17 +1,18 @@
 import { exists } from "node:fs/promises";
-import { commit } from "../commit";
-import { commitAnyway, cuteVersion } from "../shared";
-import { handleShellErr, join, type Progress } from "../util";
+import { commit } from "../git";
+import type { Progress } from "../progress";
+import { codePath, commitAnyway, cuteVersion, workFolder } from "../shared";
+import { handleShellErr, join } from "../utils";
 
 const gzipWorkerURL = new URL("decompile-gzip.ts", import.meta.url).href;
 const decompilerPy = "src/hermes_dec/decompilation/hbc_decompiler.py";
 
-export default async function decompile(progress: Progress, pathToBundle: string, tmpDir: string) {
-	const pathToDecompiler = join(tmpDir, "decompiler");
+export default async function decompile(progress: Progress, pathToBundle: string) {
+	const pathToDecompiler = join(workFolder, "decompiler");
 
 	progress.start("decompile_downloading");
 	if (!(await exists(pathToDecompiler))) {
-		await Bun.$`git clone https://github.com/P1sec/hermes-dec.git ${pathToDecompiler}`
+		await Bun.$`git clone https://github.com/P1sec/hermes-dec.git --depth=1 ${pathToDecompiler}`
 			.quiet()
 			.nothrow()
 			.then(handleShellErr);
@@ -21,18 +22,16 @@ export default async function decompile(progress: Progress, pathToBundle: string
 	const { exitCode: hasPython } = await Bun.$`python --version`.nothrow().quiet();
 	if (hasPython !== 0) throw new Error("Cannot use Python! Are you sure it's installed?");
 
-	const pathToJs = join(tmpDir, "code.js");
-
 	progress.start("decompile_decompiling");
-	if (!(await Bun.file(pathToJs).exists())) {
-		await Bun.$`python ${join(pathToDecompiler, decompilerPy)} ${pathToBundle} ${pathToJs}`
+	if (!(await Bun.file(codePath).exists())) {
+		await Bun.$`python ${join(pathToDecompiler, decompilerPy)} ${pathToBundle} ${codePath}`
 			.quiet()
 			.nothrow()
 			.then(handleShellErr);
 		progress.update("decompile_decompiling", true);
 	} else progress.update("decompile_decompiling", null);
 
-	// "optional" step
+	// background step
 	if (process.env.NODE_ENV !== "test" && !commitAnyway) {
 		const gzFile = "code.js.gz";
 
@@ -45,10 +44,8 @@ export default async function decompile(progress: Progress, pathToBundle: string
 			}
 			gzipper.terminate();
 		});
-		gzipper.postMessage({ path: pathToJs, target: join("../data", gzFile) });
+		gzipper.postMessage({ path: codePath, target: join("../data", gzFile) });
 	} else {
 		progress.update("decompile_gzip", null);
 	}
-
-	return pathToJs;
 }
