@@ -441,6 +441,11 @@ case 7:
     var12 = var12.colors;
     var12 = var12.TEXT_FEEDBACK_POSITIVE;
     var5['voiceActiveColor'] = var12;
+    var12 = var7[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_MOD_MUTED;
+    var5['voiceHeaderBackgroundColor'] = var12;
     var10 = var7[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;

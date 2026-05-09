@@ -1584,12 +1584,12 @@ case 0:
             };
             var6 = var5.bind(var6)(var3);
             var3 = null;
-            if(!(var3 != var6)) { _fun0036_ip = 64; continue _fun0036 }
-case 80:
+            if(!(var3 != var6)) { _fun0036_ip = 81; continue _fun0036 }
+case 30:
             var5 = _closure1_slot19;
             var5 = var5.userDiscountOffers;
             var5 = delete var5[var6];
-case 64:
+case 81:
             var6 = var4.Object;
             var5 = var6.keys;
             var4 = _closure1_slot19;
@@ -1607,12 +1607,12 @@ case 64:
                 return var1;
             };
             var2 = var4.bind(var5)(var2);
-            if(!(var3 != var2)) { _fun0036_ip = 110; continue _fun0036 }
-case 69:
+            if(!(var3 != var2)) { _fun0036_ip = 109; continue _fun0036 }
+case 90:
             var1 = _closure1_slot19;
             var1 = var1.userTrialOffers;
             var1 = delete var1[var2];
-case 110:
+case 109:
             var1 = true;
             return var1;
         }

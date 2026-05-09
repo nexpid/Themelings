@@ -724,6 +724,15 @@ case 58:
                 var16 = var11;
                 var15 = var7;
                 var6 = var16[var10](var15, var14, var13, var12, var11);
+                var6 = var5[var3];
+                var11 = var4.bind(var1)(var6);
+                var10 = var11.handleOfficialMessageViewTracking;
+                var14 = var2.shouldTrackOfficialMessageViews;
+                var13 = var2.guildId;
+                var12 = var2.channel;
+                var16 = var11;
+                var15 = var7;
+                var6 = var16[var10](var15, var14, var13, var12, var11);
                 var3 = var5[var3];
                 var6 = var4.bind(var1)(var3);
                 var5 = var6.handleRichPresenceInviteEmbedViewTracking;
@@ -3558,7 +3567,7 @@ case 0:
             var1 = var13[var8](var12, var11, var10, var9, var8);
             var6 = !var1;
             var1 = !var6;
-            if(var6) { _fun0024_ip = 266; continue _fun0024 }
+            if(var6) { _fun0024_ip = 89; continue _fun0024 }
 case 409:
             var6 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -3569,7 +3578,7 @@ case 409:
             var2 = var4.bind(var5)(var3, var2);
             var2 = !var2;
             var1 = !var2;
-case 266:
+case 89:
             return var1;
         }
     };

@@ -764,6 +764,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COLLECTIBLES_GIFT_CUSTOMIZATION_MODAL'] = var1;
     var1 = 'collectibles mobile gift modal';
     var2['COLLECTIBLES_MOBILE_GIFT_MODAL'] = var1;
+    var1 = 'profile frames ea marketing';
+    var2['PROFILE_FRAMES_EA_MARKETING'] = var1;
     var1 = 'view all rentals modal';
     var2['VIEW_ALL_RENTALS_MODAL'] = var1;
     var1 = 'premium billing info';

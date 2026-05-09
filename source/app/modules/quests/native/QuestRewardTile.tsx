@@ -340,8 +340,6 @@ case 18:
             var10 = var11;
 case 17:
             var6['paused'] = var10;
-            var10 = 'mix';
-            var6['mixWithOthers'] = var10;
             var6['muted'] = var9;
             var5 = var8.bind(var4)(var7, var6);
 case 14:

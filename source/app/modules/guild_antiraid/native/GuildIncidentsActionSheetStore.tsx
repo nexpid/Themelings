@@ -63,6 +63,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['setTime'] = var4;
+    var4 = function setInitialTime(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 2;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = {};
+            var4 = _closure2_slot0;
+            var1['time'] = var4;
+            var4 = false;
+            var1['hasTimeChanges'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['setInitialTime'] = var4;
     var4 = function setPauseInvites(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;

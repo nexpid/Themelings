@@ -170,6 +170,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CONTENT_AND_SOCIAL_ALLOW_GAME_FRIEND_DMS_SETTING'] = var1;
     var1 = 'content_and_social_in_game_dms_setting';
     var2['CONTENT_AND_SOCIAL_IN_GAME_DMS_SETTING'] = var1;
+    var1 = 'content_and_social_friend_requests_notes_setting';
+    var2['CONTENT_AND_SOCIAL_FRIEND_REQUESTS_NOTES_SETTING'] = var1;
     var1 = 'data_and_privacy_sidebar_item';
     var2['DATA_AND_PRIVACY_SIDEBAR_ITEM'] = var1;
     var1 = 'data_and_privacy_panel';

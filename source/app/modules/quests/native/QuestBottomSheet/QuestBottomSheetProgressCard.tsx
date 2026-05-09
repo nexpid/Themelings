@@ -724,7 +724,7 @@ case 38:
             var16 = var21[var16];
             var16 = var18.bind(var4)(var16);
             var18 = var16.VideoComponent;
-            var16 = {'style': null, 'poster': null, 'posterResizeMode': 'cover', 'source': null, 'resizeMode': 'cover', 'mixWithOthers': 'mix', 'muted': true, 'disableFocus': true, 'preventsDisplaySleepDuringVideoPlayback': false};
+            var16 = {'style': null, 'poster': null, 'posterResizeMode': 'cover', 'source': null, 'resizeMode': 'cover', 'muted': true, 'disableFocus': true, 'preventsDisplaySleepDuringVideoPlayback': false};
             var21 = var17.videoPreview;
             var16['style'] = var21;
             var25 = var10 == var24;

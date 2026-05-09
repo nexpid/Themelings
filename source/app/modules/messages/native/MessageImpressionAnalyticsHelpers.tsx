@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.LinkType;
     var _closure1_slot7 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -196,20 +196,20 @@ case 19:
     var4 = function handleAnnouncementMessageViewTracking(arg1, arg2, arg3, arg4) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var4 = arg1;
-            var3 = arg3;
-            var _closure2_slot0 = var3;
+            var3 = arg1;
+            var4 = arg3;
+            var _closure2_slot0 = var4;
             var2 = arg4;
             var _closure2_slot1 = var2;
             var2 = arg2;
             if(!var2) { _fun0006_ip = 23; continue _fun0006 }
 case 24:
             var2 = null;
-            if(!(var2 != var3)) { _fun0006_ip = 23; continue _fun0006 }
+            if(!(var2 != var4)) { _fun0006_ip = 23; continue _fun0006 }
 case 14:
-            var3 = new Array(0);
-            var _closure2_slot2 = var3;
-            var2 = var4.forEach;
+            var4 = new Array(0);
+            var _closure2_slot2 = var4;
+            var2 = var3.forEach;
             var1 = function(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -315,25 +315,30 @@ case 30:
                     return var1;
                 }
             };
-            var1 = var2.bind(var4)(var1);
-            var4 = _closure1_slot1;
-            var2 = _closure1_slot2;
+            var1 = var2.bind(var3)(var1);
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
             var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var2 = var4.bind(var1)(var2);
-            var1 = var2.handleMessageListVisibilityChange;
-            var1 = var1.bind(var2)(var3);
+            var2 = var7[var1];
+            var6 = undefined;
+            var3 = var3.bind(var6)(var2);
+            var2 = var3.handleMessageListVisibilityChange;
+            var5 = _closure1_slot0;
+            var1 = var7[var1];
+            var1 = var5.bind(var6)(var1);
+            var1 = var1.MessageViewTrackingType;
+            var1 = var1.ANNOUNCEMENT;
+            var1 = var2.bind(var3)(var4, var1);
 case 23:
             var1 = undefined;
             return var1;
         }
     };
     var3['handleAnnouncementMessageViewTracking'] = var4;
-    var2 = function handleRichPresenceInviteEmbedViewTracking(arg1, arg2, arg3, arg4) {
+    var4 = function handleRichPresenceInviteEmbedViewTracking(arg1, arg2, arg3, arg4) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var4 = arg1;
+            var3 = arg1;
             var2 = arg3;
             var _closure2_slot0 = var2;
             var2 = arg4;
@@ -341,9 +346,9 @@ case 0:
             var2 = arg2;
             if(!var2) { _fun0008_ip = 48; continue _fun0008 }
 case 24:
-            var3 = new Array(0);
-            var _closure2_slot2 = var3;
-            var2 = var4.forEach;
+            var4 = new Array(0);
+            var _closure2_slot2 = var4;
+            var2 = var3.forEach;
             var1 = function(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -405,20 +410,174 @@ case 54:
                     return var1;
                 }
             };
-            var1 = var2.bind(var4)(var1);
-            var4 = _closure1_slot1;
-            var2 = _closure1_slot2;
+            var1 = var2.bind(var3)(var1);
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
             var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var2 = var4.bind(var1)(var2);
-            var1 = var2.handleMessageListVisibilityChange;
-            var1 = var1.bind(var2)(var3);
+            var2 = var7[var1];
+            var6 = undefined;
+            var3 = var3.bind(var6)(var2);
+            var2 = var3.handleMessageListVisibilityChange;
+            var5 = _closure1_slot0;
+            var1 = var7[var1];
+            var1 = var5.bind(var6)(var1);
+            var1 = var1.MessageViewTrackingType;
+            var1 = var1.APP_EMBED;
+            var1 = var2.bind(var3)(var4, var1);
 case 48:
             var1 = undefined;
             return var1;
         }
     };
-    var3['handleRichPresenceInviteEmbedViewTracking'] = var2;
+    var3['handleRichPresenceInviteEmbedViewTracking'] = var4;
+    var4 = function useShouldTrackOfficialMessageViews(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var2 = arg1;
+            var9 = var2.guild;
+            var5 = var2.messages;
+            var _closure2_slot0 = var5;
+            var6 = var2.isMessagesReady;
+            var _closure2_slot1 = var6;
+            var3 = undefined;
+            var _closure2_slot2 = var3;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var4 = 4;
+            var4 = var8[var4];
+            var8 = var7.bind(var3)(var4);
+            var7 = var8.useIsGuildOfficialMessagesEnabled;
+            var4 = null;
+            var10 = var4 == var9;
+            if(var10) { _fun0010_ip = 56; continue _fun0010 }
+case 15:
+            var3 = var9.id;
+case 56:
+            var9 = var4 != var3;
+            var4 = null;
+            if(!var9) { _fun0010_ip = 57; continue _fun0010 }
+case 58:
+            var4 = var3;
+case 57:
+            var3 = 'useShouldTrackOfficialMessageViews';
+            var7 = var7.bind(var8)(var4, var3);
+            _closure2_slot2 = var7;
+            var4 = _closure1_slot3;
+            var3 = var4.useMemo;
+            var2 = new Array(3);
+            var2[0] = var7;
+            var2[1] = var6;
+            var2[2] = var5;
+            var1 = function() {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+                    var1 = _closure2_slot2;
+                    if(!var1) { _fun0011_ip = 59; continue _fun0011 }
+case 20:
+                    var1 = _closure2_slot1;
+case 59:
+                    if(!var1) { _fun0011_ip = 60; continue _fun0011 }
+case 61:
+                    var4 = _closure2_slot0;
+                    var3 = var4.some;
+                    var2 = function(arg1) {
+                        var3 = arg1;
+                        var2 = var3.hasFlag;
+                        var1 = _closure1_slot6;
+                        var1 = var1.IS_GUILD_OFFICIAL;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
+                    };
+                    var1 = var3.bind(var4)(var2);
+case 60:
+                    return var1;
+                }
+            };
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        }
+    };
+    var3['useShouldTrackOfficialMessageViews'] = var4;
+    var2 = function handleOfficialMessageViewTracking(arg1, arg2, arg3, arg4) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+            var3 = arg1;
+            var4 = arg3;
+            var _closure2_slot0 = var4;
+            var2 = arg4;
+            var _closure2_slot1 = var2;
+            var2 = arg2;
+            if(!var2) { _fun0012_ip = 23; continue _fun0012 }
+case 24:
+            var2 = null;
+            if(!(var2 != var4)) { _fun0012_ip = 23; continue _fun0012 }
+case 14:
+            var4 = new Array(0);
+            var _closure2_slot2 = var4;
+            var2 = var3.forEach;
+            var1 = function(arg1) {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+                    var1 = arg1;
+                    var5 = var1.message;
+                    var2 = var5.hasFlag;
+                    var1 = _closure1_slot6;
+                    var1 = var1.EPHEMERAL;
+                    var1 = var2.bind(var5)(var1);
+                    var1 = !var1;
+                    if(!var1) { _fun0013_ip = 62; continue _fun0013 }
+case 63:
+                    var3 = var5.hasFlag;
+                    var2 = _closure1_slot6;
+                    var2 = var2.IS_GUILD_OFFICIAL;
+                    var1 = var3.bind(var5)(var2);
+case 62:
+                    if(!var1) { _fun0013_ip = 64; continue _fun0013 }
+case 65:
+                    var3 = _closure2_slot2;
+                    var2 = var3.push;
+                    var1 = {};
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var6 = 3;
+                    var7 = var7[var6];
+                    var6 = undefined;
+                    var6 = var8.bind(var6)(var7);
+                    var6 = var6.MessageViewTrackingType;
+                    var6 = var6.OFFICIAL_MESSAGE;
+                    var1['type'] = var6;
+                    var5 = var5.id;
+                    var1['messageId'] = var5;
+                    var5 = _closure2_slot1;
+                    var5 = var5.id;
+                    var1['channelId'] = var5;
+                    var4 = _closure2_slot0;
+                    var1['guildId'] = var4;
+                    var1 = var2.bind(var3)(var1);
+case 64:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1 = var2.bind(var3)(var1);
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 3;
+            var2 = var7[var1];
+            var6 = undefined;
+            var3 = var3.bind(var6)(var2);
+            var2 = var3.handleMessageListVisibilityChange;
+            var5 = _closure1_slot0;
+            var1 = var7[var1];
+            var1 = var5.bind(var6)(var1);
+            var1 = var1.MessageViewTrackingType;
+            var1 = var1.OFFICIAL_MESSAGE;
+            var1 = var2.bind(var3)(var4, var1);
+case 23:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var3['handleOfficialMessageViewTracking'] = var2;
     return var1;
 })();

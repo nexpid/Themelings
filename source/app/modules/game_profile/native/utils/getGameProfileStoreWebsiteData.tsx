@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot2 = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -84,7 +84,44 @@ case 11:
             var1 = var1.MINECRAFT;
             if(!(var1 !== var4)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
+            var1 = 'XBOX_GAME_PASS';
+            if(!(var1 !== var4)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1 = null;
+            return var1;
+case 14:
+            var1 = {};
+            var6 = _closure1_slot2;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var4 = 11;
+            var4 = var9[var4];
+            var4 = var8.bind(var7)(var4);
+            var5 = var4.XboxNeutralIcon;
+            var4 = {};
+            var10 = 'md';
+            var4['size'] = var10;
+            var4 = var6.bind(var7)(var5, var4);
+            var1['icon'] = var4;
+            var4 = 4;
+            var4 = var9[var4];
+            var4 = var8.bind(var7)(var4);
+            var4 = var4.GameProfileTrackActionActions;
+            var4 = var4.XboxGamePassStoreLink;
+            var1['action'] = var4;
+            var4 = 5;
+            var5 = var9[var4];
+            var5 = var8.bind(var7)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var9[var4];
+            var4 = var8.bind(var7)(var4);
+            var4 = var4.t;
+            var4 = var4.QpN/Iz;
+            var4 = var5.bind(var6)(var4);
+            var1['title'] = var4;
+            var4 = var2.url;
+            var1['url'] = var4;
             return var1;
 case 12:
             var1 = {};

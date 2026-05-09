@@ -292,8 +292,10 @@ case 44:
             var2['dmSpamDetectedAt'] = var4;
             var4 = var3.dms_disabled_until;
             var2['dmsDisabledUntil'] = var4;
-            var3 = var3.invites_disabled_until;
-            var2['invitesDisabledUntil'] = var3;
+            var4 = var3.invites_disabled_until;
+            var2['invitesDisabledUntil'] = var4;
+            var3 = var3.lockdown_duration_hours;
+            var2['lockdownDurationHours'] = var3;
             var1 = var2;
 case 43:
             return var1;

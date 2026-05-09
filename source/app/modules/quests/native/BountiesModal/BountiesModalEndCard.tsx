@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function BountiesModalEndCardTsx1(){const{withTiming,visible,timingStandard}=this.__closure;return{opacity:withTiming(visible?1:0,timingStandard)};}';
     var4['code'] = var7;
     var _closure1_slot8 = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -106,37 +106,56 @@ case 0:
             var2 = _closure1_slot7;
             var5 = undefined;
             var10 = var2.bind(var5)();
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var2 = 4;
-            var2 = var12[var2];
-            var4 = var11.bind(var5)(var2);
+            var2 = var7[var2];
+            var4 = var4.bind(var5)(var2);
             var2 = var4.getBountyCtaInfo;
             var13 = var2.bind(var4)(var6);
+            var4 = var13.iconImageUri;
+            var2 = null;
+            var2 = var2 != var4;
+            var16 = undefined;
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var2 = 5;
+            var2 = var6[var2];
+            var6 = var4.bind(var5)(var2);
+            var4 = var6.getScaledImageUrl;
+            var2 = {'assetUrl': null, 'width': 92, 'height': 92};
+            var7 = var13.iconImageUri;
+            var2['assetUrl'] = var7;
+            var16 = var4.bind(var6)(var2);
+case 2:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var2 = 6;
             var4 = var12[var2];
             var6 = var11.bind(var5)(var4);
             var4 = var6.useAnimatedStyle;
-            var3 = function s() {
+            var3 = function l() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 6;
+                    var3 = 7;
                     var3 = var5[var3];
                     var7 = undefined;
                     var5 = var4.bind(var7)(var3);
                     var4 = var5.withTiming;
                     var6 = _closure2_slot0;
                     var3 = 0;
-                    if(!var6) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
+                    if(!var6) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = 1;
-case 2:
+case 4:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 8;
                     var2 = var8[var2];
                     var2 = var6.bind(var7)(var2);
                     var2 = var2.timingStandard;
@@ -146,13 +165,13 @@ case 2:
                 }
             };
             var7 = {};
-            var8 = 6;
+            var8 = 7;
             var8 = var12[var8];
             var8 = var11.bind(var5)(var8);
             var8 = var8.withTiming;
             var7['withTiming'] = var8;
             var7['visible'] = var1;
-            var8 = 7;
+            var8 = 8;
             var8 = var12[var8];
             var8 = var11.bind(var5)(var8);
             var8 = var8.timingStandard;
@@ -163,8 +182,8 @@ case 2:
             var7 = _closure1_slot8;
             var3['__initData'] = var7;
             var7 = var4.bind(var6)(var3);
-            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot6;
             var11 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -187,24 +206,23 @@ case 5:
             var7 = var12.bind(var5)(var8, var6);
             var6 = new Array(4);
             var6[0] = var7;
-            var7 = 8;
+            var7 = 9;
             var7 = var14[var7];
             var15 = var11.bind(var5)(var7);
             var7 = {};
-            var16 = ['rgba(0, 0, 0, 0.60)', 'rgba(0, 0, 0, 1)'];
-            var7['colors'] = var16;
-            var16 = [0, 0.841];
-            var7['locations'] = var16;
-            var16 = var10.backdropGradient;
-            var7['style'] = var16;
+            var17 = ['rgba(0, 0, 0, 0.60)', 'rgba(0, 0, 0, 1)'];
+            var7['colors'] = var17;
+            var17 = [0, 0.841];
+            var7['locations'] = var17;
+            var17 = var10.backdropGradient;
+            var7['style'] = var17;
             var7 = var12.bind(var5)(var15, var7);
             var6[1] = var7;
-            var7 = 9;
+            var7 = 10;
             var7 = var14[var7];
             var11 = var11.bind(var5)(var7);
             var7 = {};
             var15 = {};
-            var16 = var13.iconImageUri;
             var15['uri'] = var16;
             var7['source'] = var15;
             var15 = var10.image;
@@ -215,7 +233,7 @@ case 5:
             var10 = var10.info;
             var7['style'] = var10;
             var11 = _closure1_slot0;
-            var10 = 10;
+            var10 = 11;
             var9 = var14[var10];
             var9 = var11.bind(var5)(var9);
             var15 = var9.Text;
@@ -238,7 +256,7 @@ case 5:
             var6[3] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 4:
+case 6:
             return var1;
         }
     };

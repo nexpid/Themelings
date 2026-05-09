@@ -420,7 +420,7 @@ case 68:
             var2 = var10.layoutStart;
             var9 = var3;
             if(!(!(var2 < var8))) { _fun0006_ip = 69; continue _fun0006 }
-case 8:
+case 70:
             var18 = var10.type;
             var20 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -428,8 +428,8 @@ case 8:
             var2 = var20.bind(var13)(var2);
             var2 = var2.FastListItemTypes;
             var2 = var2.ITEM;
-            if(!(var18 !== var2)) { _fun0006_ip = 70; continue _fun0006 }
-case 71:
+            if(!(var18 !== var2)) { _fun0006_ip = 71; continue _fun0006 }
+case 56:
             var18 = var10.type;
             var20 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -439,7 +439,7 @@ case 71:
             var2 = var2.SECTION;
             var9 = var3;
             if(!(var18 === var2)) { _fun0006_ip = 69; continue _fun0006 }
-case 70:
+case 71:
             var2 = var10.layoutStart;
             var11 = var3;
             if(!(!(var2 > var7))) { _fun0006_ip = 67; continue _fun0006 }

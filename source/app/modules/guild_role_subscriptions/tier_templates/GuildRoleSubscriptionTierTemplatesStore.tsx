@@ -170,8 +170,8 @@ case 0:
                 var1 = null;
                 var3 = var1 == var4;
                 var1 = undefined;
-                if(var3) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                if(var3) { _fun0003_ip = 7; continue _fun0003 }
+case 9:
                 var3 = var4.find;
                 var2 = function(arg1) {
                     var1 = arg1;
@@ -181,7 +181,7 @@ case 10:
                     return var1;
                 };
                 var1 = var3.bind(var4)(var2);
-case 9:
+case 7:
                 return var1;
             }
         };
@@ -243,23 +243,23 @@ case 0:
                     };
                     var2 = var2.bind(var4)(var1);
                     var1 = undefined;
-                    if(!(var1 === var2)) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                    if(!(var1 === var2)) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var6 = var3.id;
                     var5 = _closure1_slot8;
                     var5 = var6 in var5;
-                    if(var5) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                    if(var5) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                     var5 = _closure1_slot5;
                     var6 = var5.bind(var1)(var3);
                     var5 = _closure1_slot8;
                     var4 = var3.id;
                     var5[var4] = var6;
-                    _fun0004_ip = 13; continue _fun0004;
-case 11:
+                    _fun0004_ip = 12; continue _fun0004;
+case 10:
                     var2 = var2.id;
                     var3['id'] = var2;
-case 13:
+case 12:
                     return var1;
                 }
             };

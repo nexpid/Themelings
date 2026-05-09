@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function BountiesModalAdvertiserCtaTsx2(){const{runOnJS,animationCallbackJSThread}=this.__closure;runOnJS(animationCallbackJSThread)();}';
     var4['code'] = var7;
     var _closure1_slot14 = var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -171,6 +171,7 @@ case 0:
             var15 = var2.sourceQuestContent;
             var _closure2_slot2 = var15;
             var5 = undefined;
+            var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
             var _closure2_slot5 = var5;
             var2 = _closure1_slot12;
@@ -182,6 +183,23 @@ case 0:
             var3 = var3.bind(var5)(var2);
             var2 = var3.getBountyCtaInfo;
             var17 = var2.bind(var3)(var16);
+            var3 = var17.iconImageUri;
+            var2 = null;
+            var2 = var2 != var3;
+            var21 = undefined;
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 9;
+            var2 = var6[var2];
+            var6 = var3.bind(var5)(var2);
+            var3 = var6.getScaledImageUrl;
+            var2 = {'assetUrl': null, 'width': 40, 'height': 40};
+            var7 = var17.iconImageUri;
+            var2['assetUrl'] = var7;
+            var21 = var3.bind(var6)(var2);
+case 2:
             var10 = _closure1_slot6;
             var3 = var10.useState;
             var2 = false;
@@ -193,20 +211,20 @@ case 0:
             var3 = var6[var12];
             var2 = 1;
             var7 = var6[var2];
-            var _closure2_slot3 = var7;
+            _closure2_slot3 = var7;
             var6 = var10.useState;
             var6 = var6.bind(var10)(var1);
             var6 = var9.bind(var5)(var6, var8);
             var8 = var6[var12];
             var6 = var6[var2];
-            if(!(var8 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!(var8 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = var6.bind(var5)(var1);
-            if(var1) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var6 = true;
             var6 = var7.bind(var5)(var6);
-case 2:
+case 4:
             var18 = function animationCallbackJSThread() {
                 var3 = _closure2_slot3;
                 var1 = undefined;
@@ -216,10 +234,10 @@ case 2:
             };
             _closure2_slot4 = var18;
             var19 = 0;
-            if(!var1) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+            if(!var1) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var19 = var2;
-case 5:
+case 7:
             _closure2_slot5 = var19;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -233,7 +251,7 @@ case 0:
                     var1 = {};
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var5 = 9;
+                    var5 = 10;
                     var2 = var2[var5];
                     var9 = undefined;
                     var15 = var3.bind(var9)(var2);
@@ -242,16 +260,16 @@ case 0:
                     var4 = _closure2_slot1;
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var10 = 10;
+                    var10 = 11;
                     var3 = var3[var10];
                     var3 = var6.bind(var9)(var3);
-                    if(var4) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+                    if(var4) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var12 = var3.timingFast;
-                    _fun0002_ip = 9; continue _fun0002;
-case 7:
-                    var12 = var3.timingStandard;
+                    _fun0002_ip = 11; continue _fun0002;
 case 9:
+                    var12 = var3.timingStandard;
+case 11:
                     var6 = function t() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -303,13 +321,13 @@ case 9:
                     var7 = _closure1_slot2;
                     var7 = var7[var10];
                     var7 = var8.bind(var9)(var7);
-                    if(var2) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                    if(var2) { _fun0002_ip = 12; continue _fun0002 }
+case 7:
                     var2 = var7.timingFast;
-                    _fun0002_ip = 12; continue _fun0002;
-case 10:
-                    var2 = var7.timingStandard;
+                    _fun0002_ip = 13; continue _fun0002;
 case 12:
+                    var2 = var7.timingStandard;
+case 13:
                     var2 = var5.bind(var6)(var4, var2);
                     var3['translateY'] = var2;
                     var2 = new Array(1);
@@ -319,14 +337,14 @@ case 12:
                 }
             };
             var13 = {};
-            var20 = 9;
+            var20 = 10;
             var20 = var9[var20];
             var20 = var8.bind(var5)(var20);
             var20 = var20.withTiming;
             var13['withTiming'] = var20;
             var13['visibility'] = var19;
             var13['visible'] = var1;
-            var19 = 10;
+            var19 = 11;
             var20 = var9[var19];
             var20 = var8.bind(var5)(var20);
             var20 = var20.timingStandard;
@@ -354,7 +372,7 @@ case 12:
             var10 = var8.bind(var5)(var6);
             var6 = var10.useSharedValue;
             var12 = var6.bind(var10)(var12);
-            var6 = 11;
+            var6 = 12;
             var6 = var9[var6];
             var8 = var8.bind(var5)(var6);
             var6 = var8.useButtonPressAnimationProps;
@@ -374,7 +392,7 @@ case 12:
             var4 = function() {
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var2 = var9[var1];
                 var1 = undefined;
                 var5 = var8.bind(var1)(var2);
@@ -383,7 +401,7 @@ case 12:
                 var2 = _closure2_slot0;
                 var7 = var2.id;
                 var3['adContentId'] = var7;
-                var7 = 13;
+                var7 = 14;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.AdCreativeType;
@@ -392,13 +410,13 @@ case 12:
                 var2 = var2.cta;
                 var3['cta'] = var2;
                 var2 = {};
-                var7 = 14;
+                var7 = 15;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContent;
                 var7 = var7.VIDEO_MODAL_MOBILE;
                 var2['content'] = var7;
-                var7 = 15;
+                var7 = 16;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContentCTA;
@@ -410,12 +428,12 @@ case 12:
                 return var1;
             };
             var16 = var10.bind(var13)(var4, var6);
-            if(var1) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1 = var3;
-case 13:
-            if(!var1) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+case 14:
+            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = _closure1_slot9;
             var19 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -449,7 +467,7 @@ case 16:
             var6[7] = var9;
             var10 = _closure1_slot10;
             var15 = _closure1_slot0;
-            var8 = 16;
+            var8 = 17;
             var8 = var18[var8];
             var8 = var15.bind(var5)(var8);
             var9 = var8.BackgroundBlurView;
@@ -463,12 +481,11 @@ case 16:
             var11 = {};
             var12 = var14.ctaLogoContainer;
             var11['style'] = var12;
-            var12 = 17;
+            var12 = 18;
             var12 = var18[var12];
             var19 = var19.bind(var5)(var12);
             var12 = {};
             var20 = {};
-            var21 = var17.iconImageUri;
             var20['uri'] = var21;
             var12['source'] = var20;
             var20 = var14.ctaLogo;
@@ -483,7 +500,7 @@ case 16:
             var12 = {};
             var14 = var14.ctaInfo;
             var12['style'] = var14;
-            var19 = 18;
+            var19 = 19;
             var14 = var18[var19];
             var14 = var15.bind(var5)(var14);
             var20 = var14.Text;
@@ -505,7 +522,7 @@ case 16:
             var12 = var10.bind(var5)(var13, var12);
             var11[1] = var12;
             var12 = {'accessible': false, 'importantForAccessibility': 'no-hide-descendants'};
-            var14 = 19;
+            var14 = 20;
             var14 = var18[var14];
             var14 = var15.bind(var5)(var14);
             var15 = var14.Button;
@@ -524,7 +541,7 @@ case 16:
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 15:
+case 16:
             return var1;
         }
     };

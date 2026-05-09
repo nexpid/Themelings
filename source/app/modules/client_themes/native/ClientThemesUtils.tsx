@@ -571,7 +571,7 @@ case 41:
         return var1;
     };
     var _closure1_slot12 = var7;
-    var12 = 13;
+    var12 = 14;
     var12 = var14[var12];
     var14 = var13.bind(var1)(var12);
     var13 = var14.fileFinishedImporting;
@@ -898,8 +898,42 @@ case 62:
         }
     };
     var3['useGradientValue'] = var4;
-    var2 = function getEmbedBackground() {
+    var4 = function getEmbedScrollGradientBackground() {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 13;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.getCustomBackgroundGradient;
+            var5 = var1.bind(var3)();
+            var1 = null;
+            if(!(var1 == var5)) { _fun0009_ip = 82; continue _fun0009 }
+case 64:
+            var3 = _closure1_slot6;
+            var5 = var3.gradientPreset;
+case 82:
+            var6 = var1 != var5;
+            var3 = null;
+            if(!var6) { _fun0009_ip = 2; continue _fun0009 }
+case 83:
+            var3 = var5;
+case 2:
+            var5 = var1 == var3;
+            var1 = null;
+            if(var5) { _fun0009_ip = 13; continue _fun0009 }
+case 69:
+            var2 = _closure1_slot21;
+            var1 = var2.bind(var4)(var3);
+case 13:
+            return var1;
+        }
+    };
+    var3['getEmbedScrollGradientBackground'] = var4;
+    var2 = function getEmbedBackground() {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var3 = _closure1_slot7;
             var2 = var3.hasCustomTheme;
@@ -907,12 +941,12 @@ case 0:
             var2 = _closure1_slot6;
             var4 = var2.gradientPreset;
             var2 = null;
-            if(!(var2 == var4)) { _fun0009_ip = 82; continue _fun0009 }
+            if(!(var2 == var4)) { _fun0010_ip = 84; continue _fun0010 }
 case 10:
-            if(var3) { _fun0009_ip = 82; continue _fun0009 }
-case 83:
+            if(var3) { _fun0010_ip = 84; continue _fun0010 }
+case 85:
             return var2;
-case 82:
+case 84:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 10;
@@ -924,11 +958,11 @@ case 82:
             var2 = var2.theme;
             var3 = var3.bind(var4)(var2);
             var2 = _closure1_slot10;
-            if(var3) { _fun0009_ip = 84; continue _fun0009 }
-case 85:
+            if(var3) { _fun0010_ip = 86; continue _fun0010 }
+case 87:
             var4 = var2.LIGHT;
-            _fun0009_ip = 66; continue _fun0009;
-case 84:
+            _fun0010_ip = 66; continue _fun0010;
+case 86:
             var4 = var2.DARK;
 case 66:
             var3 = _closure1_slot0;

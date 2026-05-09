@@ -551,8 +551,6 @@ case 24:
             var13['resizeMode'] = var21;
             var21 = true;
             var13['muted'] = var21;
-            var22 = 'mix';
-            var13['mixWithOthers'] = var22;
             var13['disableFocus'] = var21;
             var13['preventsDisplaySleepDuringVideoPlayback'] = var18;
             var15 = var16.bind(var4)(var15, var13);

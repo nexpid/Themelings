@@ -773,17 +773,17 @@ case 67:
             var8 = var7.bind(var8)(var5);
             var5 = _closure1_slot9;
             var5 = var5.screenshakeEnabled;
-            if(!var5) { _fun0013_ip = 28; continue _fun0013 }
-case 69:
+            if(!var5) { _fun0013_ip = 69; continue _fun0013 }
+case 70:
             var5 = _closure1_slot9;
             var7 = var5.screenshakeEnabledLocations;
             var5 = _closure1_slot11;
             var5 = var5.MENTION;
             var5 = var7[var5];
-            if(!var5) { _fun0013_ip = 28; continue _fun0013 }
-case 70:
-            if(!(var2 != var6)) { _fun0013_ip = 28; continue _fun0013 }
+            if(!var5) { _fun0013_ip = 69; continue _fun0013 }
 case 71:
+            if(!(var2 != var6)) { _fun0013_ip = 69; continue _fun0013 }
+case 72:
             var5 = var6.find;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -793,21 +793,21 @@ case 71:
                 return var1;
             };
             var3 = var5.bind(var6)(var3);
-            if(!(var2 == var3)) { _fun0013_ip = 72; continue _fun0013 }
-case 28:
+            if(!(var2 == var3)) { _fun0013_ip = 73; continue _fun0013 }
+case 69:
             var3 = false;
             return var3;
-case 72:
-            if(!(var2 == var8)) { _fun0013_ip = 73; continue _fun0013 }
-case 74:
+case 73:
+            if(!(var2 == var8)) { _fun0013_ip = 74; continue _fun0013 }
+case 75:
             var3 = global;
             var5 = var3.Math;
             var3 = var5.random;
             var5 = var3.bind(var5)();
             var3 = 4;
             var5 = var3 * var5;
-            _fun0013_ip = 75; continue _fun0013;
-case 73:
+            _fun0013_ip = 76; continue _fun0013;
+case 74:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 12;
@@ -819,12 +819,12 @@ case 73:
             var3 = var6.bind(var7)(var8, var3);
             var6 = var2 != var3;
             var2 = 0.001;
-            if(!var6) { _fun0013_ip = 76; continue _fun0013 }
-case 77:
+            if(!var6) { _fun0013_ip = 77; continue _fun0013 }
+case 78:
             var2 = var3;
-case 76:
+case 77:
             var5 = var2;
-case 75:
+case 76:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 13;

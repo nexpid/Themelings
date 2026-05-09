@@ -820,22 +820,39 @@ case 29:
                 var9 = var1;
 case 28:
                 var6 = _closure2_slot0;
-                var3 = _closure1_slot18;
-                var3 = var3.bind(var8)(var6);
+                var11 = /\.(mp4|webm)(\?|$)/i;
+                var7 = var11.test;
+                var3 = var6.src;
+                var3 = var7.bind(var11)(var3);
                 if(!var3) { _fun0008_ip = 30; continue _fun0008 }
 case 31:
                 var3 = var6.gifSrc;
-                if(!(var10 == var3)) { _fun0008_ip = 32; continue _fun0008 }
-case 30:
-                var7 = var6.src;
-                _fun0008_ip = 33; continue _fun0008;
+                if(!(var10 != var3)) { _fun0008_ip = 30; continue _fun0008 }
 case 32:
                 var7 = var6.gifSrc;
+                var3 = '';
+                if(!(var3 !== var7)) { _fun0008_ip = 30; continue _fun0008 }
 case 33:
+                var7 = var6.gifSrc;
+                var3 = var6.src;
+                if(!(var7 === var3)) { _fun0008_ip = 34; continue _fun0008 }
+case 30:
                 var3 = _closure1_slot18;
                 var3 = var3.bind(var8)(var6);
-                if(!var3) { _fun0008_ip = 34; continue _fun0008 }
+                if(!var3) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
+                var3 = var6.gifSrc;
+                if(!(var10 == var3)) { _fun0008_ip = 34; continue _fun0008 }
 case 35:
+                var7 = var6.src;
+                _fun0008_ip = 37; continue _fun0008;
+case 34:
+                var7 = var6.gifSrc;
+case 37:
+                var3 = _closure1_slot18;
+                var3 = var3.bind(var8)(var6);
+                if(!var3) { _fun0008_ip = 38; continue _fun0008 }
+case 39:
                 var11 = _closure1_slot1;
                 var12 = _closure1_slot2;
                 var6 = 11;
@@ -845,33 +862,33 @@ case 35:
                 var11 = var6.bind(var11)(var7);
                 var12 = var10 == var11;
                 var6 = false;
-                if(var12) { _fun0008_ip = 36; continue _fun0008 }
-case 37:
+                if(var12) { _fun0008_ip = 40; continue _fun0008 }
+case 41:
                 var12 = var11.pathname;
                 var11 = var12.toLowerCase;
                 var14 = var11.bind(var12)();
                 var12 = var14.endsWith;
                 var11 = '.webp';
                 var11 = var12.bind(var14)(var11);
-                if(var11) { _fun0008_ip = 38; continue _fun0008 }
-case 39:
+                if(var11) { _fun0008_ip = 42; continue _fun0008 }
+case 43:
                 var13 = var14.endsWith;
                 var12 = '.avif';
                 var11 = var13.bind(var14)(var12);
-case 38:
-                if(var11) { _fun0008_ip = 40; continue _fun0008 }
-case 41:
+case 42:
+                if(var11) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
                 var13 = var14.endsWith;
                 var12 = '.gif';
                 var11 = var13.bind(var14)(var12);
-case 40:
+case 44:
                 var6 = var11;
-case 36:
+case 40:
                 var3 = var6;
-case 34:
+case 38:
                 var11 = var7;
-                if(!var3) { _fun0008_ip = 42; continue _fun0008 }
-case 43:
+                if(!var3) { _fun0008_ip = 46; continue _fun0008 }
+case 47:
                 var12 = _closure1_slot1;
                 var13 = _closure1_slot2;
                 var6 = 11;
@@ -880,8 +897,8 @@ case 43:
                 var6 = var12.toURLSafe;
                 var12 = var6.bind(var12)(var7);
                 var6 = var7;
-                if(!(var10 != var12)) { _fun0008_ip = 44; continue _fun0008 }
-case 45:
+                if(!(var10 != var12)) { _fun0008_ip = 48; continue _fun0008 }
+case 49:
                 var13 = var12.pathname;
                 var10 = var13.toLowerCase;
                 var16 = var10.bind(var13)();
@@ -894,24 +911,24 @@ case 45:
                 var15 = var16.endsWith;
                 var13 = '.gif';
                 var13 = var15.bind(var16)(var13);
-                if(var14) { _fun0008_ip = 46; continue _fun0008 }
-case 47:
-                if(var10) { _fun0008_ip = 46; continue _fun0008 }
-case 48:
-                if(!var13) { _fun0008_ip = 49; continue _fun0008 }
-case 46:
-                if(var10) { _fun0008_ip = 50; continue _fun0008 }
+                if(var14) { _fun0008_ip = 50; continue _fun0008 }
 case 51:
-                var10 = var13;
+                if(var10) { _fun0008_ip = 50; continue _fun0008 }
+case 52:
+                if(!var13) { _fun0008_ip = 53; continue _fun0008 }
 case 50:
-                if(!var10) { _fun0008_ip = 52; continue _fun0008 }
-case 53:
+                if(var10) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
+                var10 = var13;
+case 54:
+                if(!var10) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
                 var15 = var12.searchParams;
                 var14 = var15.set;
                 var13 = 'format';
                 var10 = 'webp';
                 var10 = var14.bind(var15)(var13, var10);
-case 52:
+case 56:
                 var15 = var12.searchParams;
                 var14 = var15.set;
                 var13 = 'animated';
@@ -919,17 +936,17 @@ case 52:
                 var10 = var14.bind(var15)(var13, var10);
                 var10 = var12.toString;
                 var7 = var10.bind(var12)();
-case 49:
+case 53:
                 var6 = var7;
-case 44:
+case 48:
                 var11 = var6;
-case 42:
-                if(var3) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+case 46:
+                if(var3) { _fun0008_ip = 58; continue _fun0008 }
+case 59:
                 var3 = _closure2_slot0;
                 var10 = var3.format;
-                _fun0008_ip = 56; continue _fun0008;
-case 54:
+                _fun0008_ip = 60; continue _fun0008;
+case 58:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var3 = 14;
@@ -937,7 +954,7 @@ case 54:
                 var3 = var6.bind(var8)(var3);
                 var3 = var3.GIFType;
                 var10 = var3.IMAGE;
-case 56:
+case 60:
                 var6 = var2.gifs;
                 var3 = _closure1_slot17;
                 var7 = _closure2_slot0;
@@ -966,8 +983,8 @@ case 56:
                 var1 = var1.bind(var3)(var2);
                 var3 = var1.length;
                 var1 = _closure1_slot9;
-                if(!(!(var3 > var1))) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
+                if(!(!(var3 > var1))) { _fun0008_ip = 61; continue _fun0008 }
+case 62:
                 var3 = _closure1_slot1;
                 var1 = _closure1_slot2;
                 var1 = var1[var5];
@@ -976,11 +993,11 @@ case 58:
                 var1 = var2.gifs;
                 var6 = var3.bind(var5)(var1);
                 var1 = 2;
-                if(!(var6 > var1)) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
+                if(!(var6 > var1)) { _fun0008_ip = 63; continue _fun0008 }
+case 64:
                 var1 = true;
                 var2['hideTooltip'] = var1;
-case 59:
+case 63:
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 17;
@@ -993,7 +1010,7 @@ case 59:
                 var1['total_num_favorited'] = var6;
                 var1 = var3.bind(var5)(var2, var1);
                 return var8;
-case 57:
+case 61:
                 var2 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var1 = 15;
@@ -1054,18 +1071,18 @@ case 0:
                 var2 = var6.gifs;
                 var3 = var3 in var2;
                 var2 = var6.gifs;
-                if(var3) { _fun0009_ip = 61; continue _fun0009 }
-case 62:
+                if(var3) { _fun0009_ip = 65; continue _fun0009 }
+case 66:
                 var5 = _closure1_slot17;
                 var4 = _closure2_slot0;
                 var3 = undefined;
                 var3 = var5.bind(var3)(var4);
                 var3 = delete var2[var3];
-                _fun0009_ip = 63; continue _fun0009;
-case 61:
+                _fun0009_ip = 67; continue _fun0009;
+case 65:
                 var1 = _closure2_slot0;
                 var1 = delete var2[var1];
-case 63:
+case 67:
                 var8 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var1 = 17;

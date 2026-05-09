@@ -651,23 +651,23 @@ case 58:
                 var4 = var1.bind(var5)(var3);
                 var3 = var4.bind(var5)();
                 var1 = var3.done;
-                if(var1) { _fun0010_ip = 60; continue _fun0010 }
-case 61:
+                if(var1) { _fun0010_ip = 19; continue _fun0010 }
+case 60:
                 var6 = var3.value;
                 var1 = var2.has;
                 var1 = var1.bind(var2)(var6);
-                if(var1) { _fun0010_ip = 15; continue _fun0010 }
+                if(var1) { _fun0010_ip = 61; continue _fun0010 }
 case 62:
                 var1 = {'rolesAreDifferent': true, 'allRoleIds': null};
                 return var1;
-case 15:
+case 61:
                 var1 = var2.add;
                 var1 = var1.bind(var2)(var6);
                 var6 = var4.bind(var5)();
                 var1 = var6.done;
                 var3 = var6;
-                if(!var1) { _fun0010_ip = 61; continue _fun0010 }
-case 60:
+                if(!var1) { _fun0010_ip = 60; continue _fun0010 }
+case 19:
                 var1 = {};
                 var3 = false;
                 var1['rolesAreDifferent'] = var3;
@@ -985,27 +985,27 @@ case 109:
                 var14 = var8 == var12;
                 var2 = undefined;
                 if(var14) { _fun0013_ip = 110; continue _fun0013 }
-case 76:
+case 111:
                 var2 = var12.roles;
 case 110:
-                if(!(var8 == var2)) { _fun0013_ip = 111; continue _fun0013 }
-case 112:
+                if(!(var8 == var2)) { _fun0013_ip = 112; continue _fun0013 }
+case 113:
                 var2 = new Array(0);
-case 111:
+case 112:
                 var2 = var11.bind(var5)(var7, var2);
                 var7 = var2.rolesAreDifferent;
                 var2 = var2.allRoleIds;
-                if(!var7) { _fun0013_ip = 113; continue _fun0013 }
-case 114:
+                if(!var7) { _fun0013_ip = 114; continue _fun0013 }
+case 115:
                 var11 = _closure1_slot19;
                 var4 = var11.MemberRoles;
-case 113:
+case 114:
                 var11 = var8 != var2;
                 var10 = var7;
                 var9 = var4;
                 var13 = null;
                 if(!var11) { _fun0013_ip = 104; continue _fun0013 }
-case 115:
+case 116:
                 var10 = var7;
                 var9 = var4;
                 var13 = var2;
@@ -1013,7 +1013,7 @@ case 104:
                 var4 = var9;
                 var2 = var10;
                 if(var2) { _fun0013_ip = 98; continue _fun0013 }
-case 116:
+case 81:
                 var2 = var10;
                 var4 = var9;
                 if(!(var8 != var13)) { _fun0013_ip = 98; continue _fun0013 }
@@ -1436,7 +1436,7 @@ case 156:
                 var1 = var1.id;
                 var1 = var2.bind(var4)(var1, var5);
                 if(var1) { _fun0017_ip = 159; continue _fun0017 }
-case 160:
+case 154:
                 var2 = var4.anyChannelsObfuscated;
                 var1 = var2.bind(var4)(var3);
 case 159:
@@ -1454,10 +1454,10 @@ case 0:
                 var2 = arguments[1];
                 var3 = this;
                 var4 = undefined;
-                if(!(var2 === var4)) { _fun0018_ip = 161; continue _fun0018 }
+                if(!(var2 === var4)) { _fun0018_ip = 160; continue _fun0018 }
 case 32:
                 var2 = new Array(0);
-case 161:
+case 160:
                 var _closure3_slot0 = var2;
                 var5 = _closure1_slot9;
                 var4 = var5.getMutableGuildChannelsForGuild;

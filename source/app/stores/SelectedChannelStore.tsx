@@ -1564,10 +1564,10 @@ case 0:
             var2 = var3.bind(var4)(var5, var2);
             var3 = null;
             var3 = var3 == var2;
-            if(var3) { _fun0030_ip = 67; continue _fun0030 }
-case 134:
+            if(var3) { _fun0030_ip = 62; continue _fun0030 }
+case 3:
             var1 = var2.id;
-case 67:
+case 62:
             return var1;
         }
     };

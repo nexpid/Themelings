@@ -10,6 +10,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var4.bind(var5)(var3, var1, var2);
     var2 = {};
+    var1 = 'CONNECT_ACCOUNT';
+    var2['CONNECT_ACCOUNT'] = var1;
     var1 = 'SELECT_INSTALL_TYPE';
     var2['SELECT_INSTALL_TYPE'] = var1;
     var1 = 'AUTHORIZE_SCOPES';

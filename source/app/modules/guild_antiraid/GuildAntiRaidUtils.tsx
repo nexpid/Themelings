@@ -36,7 +36,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot7 = var4;
     var1 = global;
     var9 = var1.Object;
     var6 = var9.defineProperty;
@@ -49,10 +49,14 @@ case 2:
     var5 = var8[var1];
     var1 = undefined;
     var5 = var7.bind(var1)(var5);
-    var5 = var5.NAGBAR_DISPLAY_MAX_HOURS;
-    var _closure1_slot3 = var5;
+    var6 = var5.NAGBAR_DISPLAY_MAX_HOURS;
+    var _closure1_slot3 = var6;
+    var6 = var5.DEFAULT_LOCKDOWN_DURATION;
+    var _closure1_slot4 = var6;
+    var5 = var5.getTimeframes;
+    var _closure1_slot5 = var5;
     var5 = {'month': 'numeric', 'day': 'numeric', 'hour': 'numeric', 'minute': '2-digit'};
-    var _closure1_slot4 = var5;
+    var _closure1_slot6 = var5;
     var6 = 4;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -156,7 +160,7 @@ case 0:
             var1 = undefined;
             if(var2) { _fun0004_ip = 8; continue _fun0004 }
 case 9:
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot7;
             var2 = var2.bind(var5)(var4);
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -370,38 +374,72 @@ case 23:
         }
     };
     var3['hasInvitesDisabled'] = var4;
-    var2 = function getSecurityActionDetailsString(arg1, arg2) {
+    var4 = function initialLockdownDurationHours(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var5 = arg1;
+            var3 = null;
+            var6 = var3 == var5;
+            var4 = undefined;
+            var1 = undefined;
+            if(var6) { _fun0010_ip = 25; continue _fun0010 }
+case 3:
+            var1 = var5.lockdownDurationHours;
+case 25:
+            var _closure2_slot0 = var1;
+            if(!(var3 != var1)) { _fun0010_ip = 26; continue _fun0010 }
+case 27:
+            var3 = _closure1_slot5;
+            var4 = var3.bind(var4)();
+            var3 = var4.some;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.value;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var2 = var3.bind(var4)(var2);
+            if(var2) { _fun0010_ip = 28; continue _fun0010 }
+case 26:
+            var1 = _closure1_slot4;
+case 28:
+            return var1;
+        }
+    };
+    var3['initialLockdownDurationHours'] = var4;
+    var2 = function getSecurityActionDetailsString(arg1, arg2) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
             var7 = arg2;
             var12 = var1.dmsDisabledUntil;
             var2 = null;
-            if(!(var2 == var12)) { _fun0010_ip = 25; continue _fun0010 }
+            if(!(var2 == var12)) { _fun0011_ip = 25; continue _fun0011 }
 case 3:
             var12 = var1.invitesDisabledUntil;
 case 25:
-            if(!(var2 != var12)) { _fun0010_ip = 26; continue _fun0010 }
-case 27:
+            if(!(var2 != var12)) { _fun0011_ip = 29; continue _fun0011 }
+case 30:
             var3 = var1.dmsDisabledUntil;
             var3 = var2 != var3;
             var1 = var1.invitesDisabledUntil;
             var2 = var2 != var1;
             var4 = var3;
-            if(!var4) { _fun0010_ip = 28; continue _fun0010 }
+            if(!var4) { _fun0011_ip = 31; continue _fun0011 }
 case 11:
             var4 = var2;
-case 28:
+case 31:
             var1 = true;
-            if(!(var4 !== var1)) { _fun0010_ip = 29; continue _fun0010 }
-case 30:
-            if(!(var3 !== var1)) { _fun0010_ip = 31; continue _fun0010 }
-case 32:
-            if(!(var2 !== var1)) { _fun0010_ip = 33; continue _fun0010 }
+            if(!(var4 !== var1)) { _fun0011_ip = 32; continue _fun0011 }
+case 28:
+            if(!(var3 !== var1)) { _fun0011_ip = 33; continue _fun0011 }
 case 34:
+            if(!(var2 !== var1)) { _fun0011_ip = 35; continue _fun0011 }
+case 36:
             var1 = '';
             return var1;
-case 33:
+case 35:
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
             var6 = 3;
@@ -429,12 +467,12 @@ case 33:
             var6 = var11.bind(var10)(var6);
             var6 = var6.intl;
             var6 = var6.currentLocale;
-            var5 = _closure1_slot4;
+            var5 = _closure1_slot6;
             var5 = var8.bind(var9)(var6, var5);
             var1['time'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-case 31:
+case 33:
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
             var6 = 3;
@@ -462,12 +500,12 @@ case 31:
             var6 = var11.bind(var10)(var6);
             var6 = var6.intl;
             var6 = var6.currentLocale;
-            var5 = _closure1_slot4;
+            var5 = _closure1_slot6;
             var5 = var8.bind(var9)(var6, var5);
             var1['time'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-case 29:
+case 32:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var6 = 3;
@@ -495,12 +533,12 @@ case 29:
             var6 = var10.bind(var9)(var6);
             var6 = var6.intl;
             var6 = var6.currentLocale;
-            var5 = _closure1_slot4;
+            var5 = _closure1_slot6;
             var5 = var7.bind(var8)(var6, var5);
             var1['time'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-case 26:
+case 29:
             var1 = '';
             return var1;
         }

@@ -191,6 +191,8 @@ case 16:
             var2 = var13[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
+            var13 = true;
+            var2['muted'] = var13;
             var2['paused'] = var11;
             if(!(var8 != var15)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
