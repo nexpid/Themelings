@@ -4118,7 +4118,7 @@
 { "file": "app/modules/headless_tasks/android/SelectChannel.tsx", "size": 2689 }
 { "file": "app/modules/headless_tasks/android/ToggleDeafen.tsx", "size": 2443 }
 { "file": "app/modules/headless_tasks/android/ToggleSelfMute.tsx", "size": 2512 }
-{ "file": "app/modules/headless_tasks/android/TTITestAction.tsx", "size": 74964 }
+{ "file": "app/modules/headless_tasks/android/TTITestAction.tsx", "size": 74960 }
 { "file": "app/modules/headless_tasks/HeadlessTaskUtils.tsx", "size": 1487 }
 { "file": "app/modules/holidays/HolidayEventsConfig.tsx", "size": 2184 }
 { "file": "app/modules/holidays/HolidayEventsManager.tsx", "size": 12235 }
@@ -5515,7 +5515,7 @@
 { "file": "app/modules/payments/hooks/useSubscriptionSelection.tsx", "size": 1646 }
 { "file": "app/modules/payments/native/hooks/NativePaymentHooks.android.tsx", "size": 11752 }
 { "file": "app/modules/payments/native/hooks/useOrderContext.tsx", "size": 4381 }
-{ "file": "app/modules/payments/native/NativeGiftContext.tsx", "size": 63527 }
+{ "file": "app/modules/payments/native/NativeGiftContext.tsx", "size": 66623 }
 { "file": "app/modules/payments/native/NativePaymentContext.tsx", "size": 4985 }
 { "file": "app/modules/payments/native/OrderActionCreators.tsx", "size": 51387 }
 { "file": "app/modules/payments/native/utils/BillingStandaloneNativeUtils.tsx", "size": 15416 }
@@ -5708,7 +5708,7 @@
 { "file": "app/modules/premium/native/handlePremiumPurchase.android.tsx", "size": 31168 }
 { "file": "app/modules/premium/native/hooks/useDiscountedPremiumProductInfo.tsx", "size": 7539 }
 { "file": "app/modules/premium/native/hooks/usePremiumProductPricingString.tsx", "size": 2469 }
-{ "file": "app/modules/premium/native/hooks/useSelectPremiumGift.tsx", "size": 6922 }
+{ "file": "app/modules/premium/native/hooks/useSelectPremiumGift.tsx", "size": 7025 }
 { "file": "app/modules/premium/native/IAPManager.android.tsx", "size": 4878 }
 { "file": "app/modules/premium/native/launchPremiumPlanSelect.tsx", "size": 5097 }
 { "file": "app/modules/premium/native/MobileTrialUserSettingsAvatarBadge.tsx", "size": 12261 }
@@ -8913,13 +8913,13 @@
 { "file": "discord_common/js/packages/media-engine/ConnectionEventFramerateReducer.tsx", "size": 9809 }
 { "file": "discord_common/js/packages/media-engine/Constants.tsx", "size": 15081 }
 { "file": "discord_common/js/packages/media-engine/index.tsx", "size": 4706 }
-{ "file": "discord_common/js/packages/media-engine/MediaEngineDummy.tsx", "size": 35150 }
+{ "file": "discord_common/js/packages/media-engine/MediaEngineDummy.tsx", "size": 35387 }
 { "file": "discord_common/js/packages/media-engine/MediaEngineEvent.tsx", "size": 2513 }
 { "file": "discord_common/js/packages/media-engine/MediaSinkWantsLadder.tsx", "size": 20327 }
 { "file": "discord_common/js/packages/media-engine/native/Connection.tsx", "size": 265958 }
 { "file": "discord_common/js/packages/media-engine/native/Constants.tsx", "size": 8820 }
 { "file": "discord_common/js/packages/media-engine/native/Devices.tsx", "size": 10022 }
-{ "file": "discord_common/js/packages/media-engine/native/index.tsx", "size": 216094 }
+{ "file": "discord_common/js/packages/media-engine/native/index.tsx", "size": 216998 }
 { "file": "discord_common/js/packages/media-engine/native/inject.tsx", "size": 3511 }
 { "file": "discord_common/js/packages/media-engine/native/ios/VoiceEngine.tsx", "size": 40626 }
 { "file": "discord_common/js/packages/media-engine/native/ios/VoiceEngineModule.android.tsx", "size": 6425 }

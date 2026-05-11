@@ -78,6 +78,8 @@ case 3:
                         var9 = undefined;
                         var4 = undefined;
                         var7 = undefined;
+                        var2 = _closure2_slot4;
+                        var2 = var2.bind(var9)(var9);
                         var2 = _closure2_slot1;
                         var2 = var2.bind(var9)(var10);
                         var6 = _closure1_slot0;
@@ -95,7 +97,7 @@ case 4: // try_start_0
                         var7 = _closure2_slot2;
                         var2['recipientUserId'] = var7;
                         var2 = var6.bind(var9)(var2);
-                        SaveGenerator(address=99);
+                        SaveGenerator(address=108);
 case 5:
                         return var2;
 case 6:

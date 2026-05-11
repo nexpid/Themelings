@@ -961,7 +961,7 @@ case 156:
                 var1 = var8.bind(var9)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.VOTE;
-                if(!(var2 !== var1)) { _fun0008_ip = 30; continue _fun0008 }
+                if(!(var2 !== var1)) { _fun0008_ip = 29; continue _fun0008 }
 case 157:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': null, 'me_burst': false, 'count': 1, 'count_details': null, 'burst_count': 0};
@@ -973,7 +973,7 @@ case 157:
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
                 _fun0008_ip = 153; continue _fun0008;
-case 30:
+case 29:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
                 var1['emoji'] = var7;
