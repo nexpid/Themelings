@@ -1,0 +1,143 @@
+// app/modules/user_settings/defs/native/InputModeSetting.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var7)(var3, var1, var2);
+    var1 = 0;
+    var4 = var6[var1];
+    var2 = metroImportDefault;
+    var1 = undefined;
+    var2 = var2.bind(var1)(var4);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var9 = var2.MobileSetting;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.InputModes;
+    var _closure1_slot3 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createPressable;
+    var2 = {};
+    var10 = function useTitle() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 4;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.pS+K2L;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['useTitle'] = var10;
+    var9 = var9.VOICE;
+    var2['parent'] = var9;
+    var9 = function useInputModeSettingTrailing() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 3;
+            var1 = var4[var1];
+            var6 = undefined;
+            var5 = var3.bind(var6)(var1);
+            var4 = var5.useStateFromStores;
+            var1 = _closure1_slot2;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot2;
+                var1 = var2.getMode;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var3 = var4.bind(var5)(var3, var1);
+            var1 = _closure1_slot3;
+            var1 = var1.PUSH_TO_TALK;
+            if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 4;
+            var3 = var7[var1];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var1 = var7[var1];
+            var1 = var5.bind(var6)(var1);
+            var1 = var1.t;
+            var1 = var1.cHCEOJ;
+            var1 = var3.bind(var4)(var1);
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 4;
+            var3 = var7[var2];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.t;
+            var2 = var2.Q8gkVL;
+            var1 = var3.bind(var4)(var2);
+case 4:
+            return var1;
+        }
+    };
+    var2['useTrailing'] = var9;
+    var9 = 6;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.handleInputModePress;
+    var2['onPress'] = var9;
+    var8 = function useSearchTerms() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 4;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.nuFtHH;
+        var2 = var2.bind(var3)(var1);
+        var1 = new Array(1);
+        var1[0] = var2;
+        return var1;
+    };
+    var2['useSearchTerms'] = var8;
+    var2 = var4.bind(var7)(var2);
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/defs/native/InputModeSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
+})();

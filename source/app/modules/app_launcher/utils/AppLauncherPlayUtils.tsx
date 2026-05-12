@@ -20,78 +20,87 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var11 = var2.appId;
+                    var7 = var2.appId;
                     var13 = var2.botId;
-                    var10 = var2.analyticsLocations;
-                    var9 = var2.customId;
-                    var8 = var2.referrerId;
-                    var7 = var2.commandOrigin;
-                    var6 = undefined;
+                    var12 = var2.analyticsLocations;
+                    var11 = var2.customId;
+                    var10 = var2.referrerId;
+                    var9 = var2.commandOrigin;
+                    var5 = undefined;
                     SaveGenerator(address=55);
 case 4:
-                    return var6;
+                    return var5;
 case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var5 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var3 = 1;
-                    var3 = var12[var3];
-                    var12 = var5.bind(var6)(var3);
-                    var5 = var12.tryLaunchAsFrame;
-                    var3 = {};
-                    var3['applicationId'] = var11;
-                    var3 = var5.bind(var12)(var3);
-                    if(var3) { _fun0001_ip = 8; continue _fun0001 }
+                    var6 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var4 = 1;
+                    var4 = var8[var4];
+                    var8 = var6.bind(var5)(var4);
+                    var6 = var8.tryLaunchAsFrame;
+                    var4 = {};
+                    var4['applicationId'] = var7;
+                    var4 = var6.bind(var8)(var4);
+                    if(var4) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                    var5 = _closure1_slot1;
-                    var12 = _closure1_slot2;
-                    var3 = 2;
-                    var3 = var12[var3];
-                    var12 = var5.bind(var6)(var3);
-                    var5 = var12.openPrivateChannel;
-                    var3 = {};
-                    var3['recipientIds'] = var13;
-                    var3 = var5.bind(var12)(var3);
+                    var6 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var4 = 3;
+                    var4 = var8[var4];
+                    var8 = var6.bind(var5)(var4);
+                    var6 = var8.openPrivateChannel;
+                    var4 = {};
+                    var4['recipientIds'] = var13;
+                    var4 = var6.bind(var8)(var4);
                     SaveGenerator(address=152);
 case 10:
-                    return var3;
+                    return var4;
 case 11:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 12; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                    if(var6) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-                    var5 = _closure1_slot1;
-                    var12 = _closure1_slot2;
-                    var4 = 3;
-                    var4 = var12[var4];
-                    var5 = var5.bind(var6)(var4);
-                    var4 = {};
-                    var4['targetApplicationId'] = var11;
-                    var4['channelId'] = var3;
-                    var4['analyticsLocations'] = var10;
-                    var4['customId'] = var9;
-                    var4['referrerId'] = var8;
-                    var4['commandOrigin'] = var7;
-                    var4 = var5.bind(var6)(var4);
+                    var8 = _closure1_slot1;
+                    var13 = _closure1_slot2;
+                    var6 = 4;
+                    var6 = var13[var6];
+                    var8 = var8.bind(var5)(var6);
+                    var6 = {};
+                    var6['targetApplicationId'] = var7;
+                    var6['channelId'] = var4;
+                    var6['analyticsLocations'] = var12;
+                    var6['customId'] = var11;
+                    var6['referrerId'] = var10;
+                    var6['commandOrigin'] = var9;
+                    var6 = var8.bind(var5)(var6);
                     SaveGenerator(address=218);
 case 14:
-                    return var4;
+                    return var6;
 case 15:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 16; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
+                    if(var8) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-                    return var4;
+                    return var6;
 case 16:
-                    return var4;
+                    return var6;
 case 12:
-                    return var3;
+                    return var4;
 case 8:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 2;
+                    var3 = var6[var3];
+                    var6 = var4.bind(var5)(var3);
+                    var4 = var6.stashPendingFrameLaunch;
+                    var3 = {};
+                    var5 = true;
+                    var3['isStart'] = var5;
+                    var3 = var4.bind(var6)(var7, var3);
                     var3 = global;
-                    var5 = var3.Promise;
-                    var4 = var5.resolve;
-                    var3 = true;
-                    var3 = var4.bind(var5)(var3);
+                    var4 = var3.Promise;
+                    var3 = var4.resolve;
+                    var3 = var3.bind(var4)(var5);
                     return var3;
 case 6:
                     return var2;
@@ -126,7 +135,7 @@ case 2:
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

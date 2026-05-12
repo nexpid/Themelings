@@ -488,7 +488,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ForumPostAnalyticsManager'] = var1;
     var1 = {};
-    var8 = ['RPC_APP_DISCONNECTED'];
+    var8 = ['RPC_APP_DISCONNECTED', 'FRAME_LAUNCH', 'FRAME_LAUNCH_FAIL', 'FRAME_STOP'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

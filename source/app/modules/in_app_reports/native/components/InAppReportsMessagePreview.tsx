@@ -137,8 +137,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = 120;
         var8['maxHeight'] = var11;
         var8['message'] = var10;
-        var10 = true;
-        var8['useDarkGradient'] = var10;
         var8 = var7.bind(var4)(var9, var8);
         var6['children'] = var8;
         var6 = var7.bind(var4)(var2, var6);

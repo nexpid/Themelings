@@ -98,7 +98,7 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot12 = var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -548,6 +548,14 @@ case 34: // try_start_1
 case 36:
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
+                var4 = 16;
+                var4 = var6[var4];
+                var8 = var5.bind(var1)(var4);
+                var7 = var8.addBreadcrumb;
+                var4 = {};
+                var9 = 'Clearing declarative notification categories';
+                var4['message'] = var9;
+                var4 = var7.bind(var8)(var4);
                 var4 = 15;
                 var4 = var6[var4];
                 var5 = var5.bind(var1)(var4);
@@ -555,7 +563,7 @@ case 36:
                 var4 = var4.bind(var5)();
 case 35: // try_end1
                 _fun0011_ip = 37; continue _fun0011;
-case 38: // catch_target1
+case 14: // catch_target1
                 CatchBlockStart(arg_register=4);
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
@@ -587,9 +595,9 @@ case 0:
                 var2 = var2.DCDNotificationCategoryUtils;
                 var4 = var2.registerNotificationCategoriesAndGroups;
                 var2 = null;
-                if(!(var2 == var4)) { _fun0012_ip = 39; continue _fun0012 }
-case 40:
-                if(!(var2 != var5)) { _fun0012_ip = 41; continue _fun0012 }
+                if(!(var2 == var4)) { _fun0012_ip = 38; continue _fun0012 }
+case 39:
+                if(!(var2 != var5)) { _fun0012_ip = 40; continue _fun0012 }
 case 19:
                 var3 = {};
                 var9 = _closure1_slot0;
@@ -717,206 +725,191 @@ case 19:
                 var6 = var7.bind(var8)(var6);
                 var3['otherHighPriority'] = var6;
                 var2 = var5.bind(var2)(var3);
-                _fun0012_ip = 41; continue _fun0012;
-case 39:
+                _fun0012_ip = 40; continue _fun0012;
+case 38:
                 var3 = {};
-                var8 = _closure1_slot0;
+                var7 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var5 = 10;
-                var1 = var9[var5];
+                var6 = 10;
+                var5 = var9[var6];
                 var2 = undefined;
-                var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
+                var5 = var7.bind(var2)(var5);
+                var11 = var5.intl;
+                var10 = var11.string;
+                var8 = _closure1_slot1;
+                var5 = 17;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1.IUH/Oe;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['calls'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1.VeBD1N;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['mediaConnections'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
-                var1 = var1.OIgYlQ;
-                var1 = var6.bind(var7)(var1);
+                var1 = var1["4qWUAO"];
+                var1 = var10.bind(var11)(var1);
                 var3['messages'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1.NGdNZb;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['directMessages'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1.NxgGZA;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['friendRequests'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1.MOjygY;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['polls'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
-                var1 = var1.jGVzY5;
-                var1 = var6.bind(var7)(var1);
+                var1 = var1.UzRF+8;
+                var1 = var10.bind(var11)(var1);
                 var3['social'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1["4n388K"];
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['stageLive'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1["40TIqW"];
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['guildEventLive'] = var1;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
                 var1 = var1.t;
                 var1 = var1.p5jg9S;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['guildHighlights'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1.HibKoy;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['forumThreadCreated'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1.zJlwvV;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['systemMessages'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
                 var1 = var1.kIrLfg;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['other'] = var1;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var1 = var1.t;
-                var1 = var1.BcZTKu;
-                var1 = var6.bind(var7)(var1);
+                var1 = var1.T+79Eo;
+                var1 = var10.bind(var11)(var1);
                 var3['default'] = var1;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
-                var7 = var1.intl;
-                var6 = var7.string;
-                var1 = var9[var5];
-                var1 = var8.bind(var2)(var1);
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
+                var11 = var1.intl;
+                var10 = var11.string;
+                var1 = var9[var6];
+                var1 = var7.bind(var2)(var1);
                 var1 = var1.t;
                 var1 = var1.gHp0C4;
-                var1 = var6.bind(var7)(var1);
+                var1 = var10.bind(var11)(var1);
                 var3['reactions'] = var1;
                 var1 = {};
-                var6 = var9[var5];
-                var6 = var8.bind(var2)(var6);
-                var10 = var6.intl;
-                var7 = var10.string;
-                var6 = var9[var5];
-                var6 = var8.bind(var2)(var6);
-                var6 = var6.t;
-                var6 = var6.S5cB9e;
-                var6 = var7.bind(var10)(var6);
-                var1['realtime'] = var6;
-                var6 = var9[var5];
-                var6 = var8.bind(var2)(var6);
-                var10 = var6.intl;
-                var7 = var10.string;
-                var6 = var9[var5];
-                var6 = var8.bind(var2)(var6);
-                var6 = var6.t;
-                var6 = var6.jGVzY5;
-                var6 = var7.bind(var10)(var6);
-                var1['social'] = var6;
-                var6 = var9[var5];
-                var6 = var8.bind(var2)(var6);
-                var10 = var6.intl;
-                var7 = var10.string;
-                var6 = var9[var5];
-                var6 = var8.bind(var2)(var6);
-                var6 = var6.t;
-                var6 = var6["5qyruI"];
-                var6 = var7.bind(var10)(var6);
-                var1['server'] = var6;
-                var6 = var9[var5];
-                var6 = var8.bind(var2)(var6);
+                var10 = var9[var6];
+                var10 = var7.bind(var2)(var10);
+                var12 = var10.intl;
+                var11 = var12.string;
+                var10 = var9[var5];
+                var10 = var8.bind(var2)(var10);
+                var10 = var10.S5cB9e;
+                var10 = var11.bind(var12)(var10);
+                var1['realtime'] = var10;
+                var10 = var9[var6];
+                var10 = var7.bind(var2)(var10);
+                var12 = var10.intl;
+                var11 = var12.string;
+                var10 = var9[var5];
+                var10 = var8.bind(var2)(var10);
+                var10 = var10.UzRF+8;
+                var10 = var11.bind(var12)(var10);
+                var1['social'] = var10;
+                var10 = var9[var6];
+                var10 = var7.bind(var2)(var10);
+                var12 = var10.intl;
+                var11 = var12.string;
+                var10 = var9[var5];
+                var10 = var8.bind(var2)(var10);
+                var10 = var10.zRKbpz;
+                var10 = var11.bind(var12)(var10);
+                var1['server'] = var10;
+                var6 = var9[var6];
+                var6 = var7.bind(var2)(var6);
                 var7 = var6.intl;
                 var6 = var7.string;
                 var5 = var9[var5];
                 var5 = var8.bind(var2)(var5);
-                var5 = var5.t;
-                var5 = var5.BcZTKu;
+                var5 = var5.q5M7HV;
                 var5 = var6.bind(var7)(var5);
                 var1['other'] = var5;
                 var1 = var4.bind(var2)(var3, var1);
-case 41:
+case 40:
                 var1 = undefined;
                 return var1;
             }
@@ -931,13 +924,13 @@ case 41:
 case 0:
                 var2 = this;
                 var1 = var2.hasTrackedDisabledAndroidNotifChannels;
-                if(var1) { _fun0013_ip = 42; continue _fun0013 }
-case 43:
+                if(var1) { _fun0013_ip = 41; continue _fun0013 }
+case 42:
                 var1 = true;
                 var2['hasTrackedDisabledAndroidNotifChannels'] = var1;
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var8 = 17;
+                var8 = 18;
                 var2 = var2[var8];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
@@ -952,8 +945,8 @@ case 29:
                 var6 = var7.bind(var4)(var6);
                 var2 = var6.getAndroidNotifChannelStates;
 case 6:
-                if(!(var3 != var2)) { _fun0013_ip = 42; continue _fun0013 }
-case 44:
+                if(!(var3 != var2)) { _fun0013_ip = 41; continue _fun0013 }
+case 43:
                 var6 = var2.bind(var4)();
                 var3 = var6.filter;
                 var2 = function(arg1) {
@@ -966,7 +959,7 @@ case 44:
                 var7 = var3.bind(var6)(var2);
                 var3 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 18;
+                var2 = 19;
                 var2 = var6[var2];
                 var4 = var3.bind(var4)(var2);
                 var3 = var4.track;
@@ -982,7 +975,7 @@ case 44:
                 var5 = var6.bind(var7)(var5);
                 var1['disabled_channels'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
-case 42:
+case 41:
                 var1 = undefined;
                 return var1;
             }
@@ -1013,12 +1006,12 @@ case 28:
                 var2 = var3.isAuthenticated;
                 var1 = var2.bind(var3)();
 case 21:
-                if(!var1) { _fun0014_ip = 45; continue _fun0014 }
+                if(!var1) { _fun0014_ip = 44; continue _fun0014 }
 case 17:
                 var2 = _closure1_slot10;
                 var2 = var2.isSwitchingAccount;
                 var1 = !var2;
-case 45:
+case 44:
                 return var1;
             }
         };
@@ -1033,7 +1026,7 @@ case 45:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

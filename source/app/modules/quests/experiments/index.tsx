@@ -379,7 +379,7 @@ case 0:
                     var2 = undefined;
                     if(var1) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-                    var1 = var3.isPremiumWithFractionalPremiumOnly;
+                    var1 = var3.isFractionalPremium;
                     var2 = var1.bind(var3)();
 case 6:
                     var1 = true;

@@ -793,10 +793,13 @@ case 71:
     var4 = function useFetchSubscriptionGiftInvoicePreview(arg1) {
         var4 = arg1;
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot10;
+        var6 = _closure1_slot10;
         var3 = undefined;
-        var5 = var5.bind(var3)(var4);
+        var5 = var6.bind(var3)(var4);
         var _closure2_slot1 = var5;
+        var5 = false;
+        var5 = var6.bind(var3)(var5);
+        var _closure2_slot2 = var5;
         var6 = _closure1_slot8;
         var5 = function() {
             var2 = _closure2_slot1;
@@ -814,12 +817,32 @@ case 71:
         var5 = new Array(1);
         var5[0] = var7;
         var2 = function() {
-            var3 = _closure1_slot17;
-            var1 = _closure2_slot1;
-            var2 = var1.current;
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            return var1;
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                var2 = _closure2_slot1;
+                var4 = var2.current;
+                var2 = _closure2_slot2;
+                var2 = var2.current;
+                var3 = var4;
+                if(var2) { _fun0008_ip = 73; continue _fun0008 }
+case 72:
+                var2 = {};
+                var7 = var2;
+                var6 = var4;
+                var4 = copyDataProperties(var7, var6);
+                var5 = null;
+                var4 = 'paymentSourceId';
+                var2[3] = var5;
+                var3 = var2;
+case 73:
+                var2 = _closure2_slot2;
+                var1 = true;
+                var2['current'] = var1;
+                var2 = _closure1_slot17;
+                var1 = undefined;
+                var1 = var2.bind(var1)(var3);
+                return var1;
+            }
         };
         var2 = var6.bind(var3)(var2, var5);
         var1 = _closure1_slot21;
@@ -828,19 +851,19 @@ case 71:
     };
     var3['useFetchSubscriptionGiftInvoicePreview'] = var4;
     var4 = function useFetchSubscriptionInvoicePreview(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var6 = arg1;
             var _closure2_slot0 = var6;
             var1 = 'subscriptionId';
             var1 = var1 in var6;
             var4 = var6;
-            if(!var1) { _fun0008_ip = 69; continue _fun0008 }
-case 73:
+            if(!var1) { _fun0009_ip = 69; continue _fun0009 }
+case 74:
             var3 = var6.subscriptionId;
             var1 = null;
             var4 = var6;
-            if(!(var1 == var3)) { _fun0008_ip = 69; continue _fun0008 }
+            if(!(var1 == var3)) { _fun0009_ip = 69; continue _fun0009 }
 case 71:
             var1 = var6.subscriptionId;
             var5 = _closure1_slot4;
@@ -850,10 +873,13 @@ case 71:
             _closure2_slot0 = var1;
             var4 = var1;
 case 69:
-            var5 = _closure1_slot10;
+            var6 = _closure1_slot10;
             var3 = undefined;
-            var5 = var5.bind(var3)(var4);
+            var5 = var6.bind(var3)(var4);
             var _closure2_slot1 = var5;
+            var5 = false;
+            var5 = var6.bind(var3)(var5);
+            var _closure2_slot2 = var5;
             var6 = _closure1_slot8;
             var5 = function() {
                 var2 = _closure2_slot1;
@@ -871,29 +897,49 @@ case 69:
             var5 = new Array(1);
             var5[0] = var7;
             var2 = function() {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var1 = _closure2_slot1;
-                    var4 = var1.current;
+                    var3 = var1.current;
+                    var1 = _closure2_slot2;
+                    var1 = var1.current;
+                    var4 = var3;
+                    if(var1) { _fun0010_ip = 73; continue _fun0010 }
+case 72:
+                    var1 = {};
+                    var7 = var1;
+                    var6 = var3;
+                    var3 = copyDataProperties(var7, var6);
+                    var5 = null;
+                    var3 = 'paymentSourceId';
+                    var1[2] = var5;
+                    var4 = var1;
+case 73:
                     var1 = 'subscriptionId';
                     var1 = var1 in var4;
-                    if(var1) { _fun0009_ip = 74; continue _fun0009 }
-case 73:
-                    var1 = 'items';
-                    var2 = var1 in var4;
-                    var1 = null;
-                    if(!var2) { _fun0009_ip = 4; continue _fun0009 }
+                    if(var1) { _fun0010_ip = 68; continue _fun0010 }
 case 75:
-                    var3 = _closure1_slot13;
-                    var2 = undefined;
-                    var1 = var3.bind(var2)(var4);
-case 4:
-                    _fun0009_ip = 76; continue _fun0009;
-case 74:
+                    var1 = 'items';
+                    var3 = var1 in var4;
+                    var1 = null;
+                    if(!var3) { _fun0010_ip = 76; continue _fun0010 }
+case 77:
+                    var5 = _closure2_slot2;
+                    var3 = true;
+                    var5['current'] = var3;
+                    var5 = _closure1_slot13;
+                    var3 = undefined;
+                    var1 = var5.bind(var3)(var4);
+case 76:
+                    _fun0010_ip = 78; continue _fun0010;
+case 68:
+                    var3 = _closure2_slot2;
+                    var2 = true;
+                    var3['current'] = var2;
                     var3 = _closure1_slot15;
                     var2 = undefined;
                     var1 = var3.bind(var2)(var4);
-case 76:
+case 78:
                     return var1;
                 }
             };

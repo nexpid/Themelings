@@ -799,13 +799,13 @@ case 49:
             var14 = {};
             var30 = !var30;
             var14['freeze'] = var30;
-            var33 = _closure1_slot1;
-            var30 = 38;
-            var30 = var34[var30];
-            var31 = var33.bind(var5)(var30);
+            var31 = _closure1_slot4;
             var30 = {};
             var32 = var19.search;
             var30['style'] = var32;
+            var32 = false;
+            var30['collapsable'] = var32;
+            var33 = _closure1_slot1;
             var32 = 32;
             var32 = var34[var32];
             var33 = var33.bind(var5)(var32);
@@ -893,7 +893,7 @@ case 42:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 39;
+    var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

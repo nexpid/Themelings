@@ -238,7 +238,7 @@ case 2:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
-    var12 = var12.PX_16;
+    var12 = var12.PX_24;
     var9['paddingTop'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -281,17 +281,7 @@ case 2:
     var12 = var12.REDESIGN_BUTTON_TERTIARY_BACKGROUND;
     var9['backgroundColor'] = var12;
     var4['dayButton'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.unsafe_rawColors;
-    var12 = var12.OPACITY_BLURPLE_16;
-    var9['backgroundColor'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BORDER_FOCUS;
-    var9['borderColor'] = var12;
+    var9 = {'backgroundColor': 'rgba(88, 101, 242, 0.16)', 'borderColor': 'rgba(88, 101, 242, 1)'};
     var4['dayButtonSelected'] = var9;
     var9 = {};
     var12 = var6[var10];

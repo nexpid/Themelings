@@ -225,6 +225,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['BOOST_SETTINGS'] = var4;
     var4 = 'quest-preview-tool';
     var14['QUEST_PREVIEW_TOOL'] = var4;
+    var4 = 'quest-home-preview';
+    var14['QUEST_HOME_PREVIEW'] = var4;
     var4 = 'subscription-settings';
     var14['SUBSCRIPTION_SETTINGS'] = var4;
     var4 = 'game-update';

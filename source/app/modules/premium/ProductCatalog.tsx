@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot15 = var2;
+            _closure1_slot16 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var34 = global;
     var6 = var34.Object;
     var5 = var6.defineProperty;
@@ -215,7 +215,7 @@ case 6:
                 var1 = _closure1_slot7;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot6;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot16;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
@@ -575,13 +575,15 @@ case 21:
     var4[39] = var39;
     var4 = var37.bind(var38)(var4);
     var _closure1_slot11 = var4;
-    var37 = new Array(3);
+    var37 = new Array(2);
     var37[0] = var19;
     var37[1] = var18;
-    var37[2] = var5;
     var _closure1_slot12 = var37;
-    var37 = new Array(0);
+    var37 = new Array(1);
+    var37[0] = var5;
     var _closure1_slot13 = var37;
+    var37 = new Array(0);
+    var _closure1_slot14 = var37;
     var38 = var34.Map;
     var37 = new Array(2);
     var37[0] = var33;
@@ -783,7 +785,7 @@ case 21:
     var49 = var34;
     var34 = new var50[var38](var49, var48);
     var34 = var34 instanceof Object ? var34 : var37;
-    var _closure1_slot14 = var34;
+    var _closure1_slot15 = var34;
     var34 = 15;
     var34 = var36[var34];
     var36 = var35.bind(var1)(var34);
@@ -826,39 +828,50 @@ case 0:
             var5 = arg1;
             var10 = arg2;
             var2 = null;
-            if(!(var2 != var10)) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+            if(!(var2 != var10)) { _fun0004_ip = 7; continue _fun0004 }
+case 22:
             var1 = var10.isPremiumWithFractionalPremiumOnly;
             var1 = var1.bind(var10)();
-            if(!var1) { _fun0004_ip = 22; continue _fun0004 }
-case 24:
+            if(!var1) { _fun0004_ip = 7; continue _fun0004 }
+case 23:
             var3 = _closure1_slot12;
             var1 = var3.includes;
             var1 = var1.bind(var3)(var5);
-            if(var1) { _fun0004_ip = 25; continue _fun0004 }
-case 22:
-            var1 = arg3;
-            if(!var1) { _fun0004_ip = 26; continue _fun0004 }
+            if(var1) { _fun0004_ip = 24; continue _fun0004 }
+case 7:
+            if(!(var2 != var10)) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
+            var1 = var10.isFractionalPremium;
+            var1 = var1.bind(var10)();
+            if(!var1) { _fun0004_ip = 25; continue _fun0004 }
 case 27:
             var3 = _closure1_slot13;
             var1 = var3.includes;
             var1 = var1.bind(var3)(var5);
             if(var1) { _fun0004_ip = 28; continue _fun0004 }
-case 26:
-            var4 = _closure1_slot14;
+case 25:
+            var1 = arg3;
+            if(!var1) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+            var3 = _closure1_slot14;
+            var1 = var3.includes;
+            var1 = var1.bind(var3)(var5);
+            if(var1) { _fun0004_ip = 31; continue _fun0004 }
+case 29:
+            var4 = _closure1_slot15;
             var1 = var4.get;
             var9 = var1.bind(var4)(var5);
-            if(!(var2 != var9)) { _fun0004_ip = 13; continue _fun0004 }
-case 29:
+            if(!(var2 != var9)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var4 = var2 == var10;
             var6 = undefined;
             var1 = undefined;
-            if(var4) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+            if(var4) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var1 = var10.perks;
-case 30:
-            if(!(var2 != var1)) { _fun0004_ip = 13; continue _fun0004 }
-case 32:
+case 34:
+            if(!(var2 != var1)) { _fun0004_ip = 32; continue _fun0004 }
+case 36:
             var8 = _closure1_slot1;
             var1 = _closure1_slot2;
             var7 = 13;
@@ -874,12 +887,12 @@ case 32:
             var1 = var8.bind(var6)(var1);
             var1 = var1.DenormalizedPerksReadConfig;
             var1 = var1.CONTROL;
-            if(!(var4 === var1)) { _fun0004_ip = 33; continue _fun0004 }
-case 13:
+            if(!(var4 === var1)) { _fun0004_ip = 37; continue _fun0004 }
+case 32:
             var1 = var5.getFeatureValue;
             var1 = var1.bind(var5)(var10);
             return var1;
-case 33:
+case 37:
             var1 = var5.getFeatureValue;
             var1 = var1.bind(var5)(var10);
             var8 = _closure1_slot0;
@@ -890,10 +903,10 @@ case 33:
             var5 = var8.hasPerk;
             var11 = var2 == var10;
             var2 = undefined;
-            if(var11) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+            if(var11) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var2 = var10.perks;
-case 34:
+case 38:
             var2 = var5.bind(var8)(var2, var9);
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -901,15 +914,18 @@ case 34:
             var3 = var5.bind(var6)(var3);
             var3 = var3.DenormalizedPerksReadConfig;
             var3 = var3.DUAL_READ_RETURN_NEW;
-            if(!(var4 === var3)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(!(var4 === var3)) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
             var1 = var2;
-case 36:
+case 40:
+            return var1;
+case 31:
+            var1 = false;
             return var1;
 case 28:
             var1 = false;
             return var1;
-case 25:
+case 24:
             var1 = false;
             return var1;
         }

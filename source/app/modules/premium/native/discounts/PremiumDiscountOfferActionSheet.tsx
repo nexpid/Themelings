@@ -90,7 +90,7 @@ case 0:
 case 0:
                     var1 = _closure2_slot1;
                     var1 = var1.discount;
-                    var2 = var1.plan_ids;
+                    var2 = var1.planIds;
                     var1 = 0;
                     var4 = var2[var1];
                     var2 = null;

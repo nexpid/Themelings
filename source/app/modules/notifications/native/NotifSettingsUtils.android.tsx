@@ -308,14 +308,14 @@ case 47:
     var2['LOW'] = var8;
     var4 = 'LOW';
     var2[var8] = var4;
-    var4 = 3;
-    var2['DEFAULT'] = var4;
-    var8 = 'DEFAULT';
-    var2[var4] = var8;
-    var9 = 4;
-    var2['HIGH'] = var9;
+    var8 = 3;
+    var2['DEFAULT'] = var8;
+    var4 = 'DEFAULT';
+    var2[var8] = var4;
+    var4 = 4;
+    var2['HIGH'] = var4;
     var8 = 'HIGH';
-    var2[var9] = var8;
+    var2[var4] = var8;
     var _closure1_slot6 = var2;
     var2 = {};
     var8 = function clear() {
@@ -365,22 +365,22 @@ case 0:
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
             var1 = null;
-            if(!(var1 == var2)) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+            if(!(var1 == var2)) { _fun0006_ip = 55; continue _fun0006 }
+case 33:
             var2 = {};
-            _fun0006_ip = 51; continue _fun0006;
-case 49:
+            _fun0006_ip = 56; continue _fun0006;
+case 55:
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
             var5 = var5[var7];
             var2 = var6.bind(var3)(var5);
-case 51:
+case 56:
             var6 = var2.registerAndroidNotifGroupsAndChannels;
             var2 = var2.registerAndroidNotifTypeMappings;
-            if(!(var1 != var6)) { _fun0006_ip = 55; continue _fun0006 }
-case 53:
-            if(!(var1 != var2)) { _fun0006_ip = 55; continue _fun0006 }
-case 56:
+            if(!(var1 != var6)) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
+            if(!(var1 != var2)) { _fun0006_ip = 57; continue _fun0006 }
+case 59:
             var7 = _closure1_slot4;
             var5 = _closure1_slot5;
             var1 = function buildChannelsAndMapping(arg1, arg2) {
@@ -401,7 +401,7 @@ case 0:
                     var6 = var5.bind(var7)(var1);
                     var5 = var6.bind(var7)();
                     var1 = var5.done;
-                    if(var1) { _fun0007_ip = 57; continue _fun0007 }
+                    if(var1) { _fun0007_ip = 60; continue _fun0007 }
 case 30:
                     var1 = var5.value;
                     var11 = var2.push;
@@ -416,7 +416,7 @@ case 30:
                     var1 = var10.done;
                     var5 = var10;
                     if(!var1) { _fun0007_ip = 30; continue _fun0007 }
-case 57:
+case 60:
                     var1 = {};
                     var6 = var4.Object;
                     var5 = var6.entries;
@@ -434,32 +434,32 @@ case 0:
                             var5 = undefined;
                             var2 = var2 === var5;
                             var4 = undefined;
-                            if(var2) { _fun0008_ip = 58; continue _fun0008 }
-case 59:
+                            if(var2) { _fun0008_ip = 61; continue _fun0008 }
+case 62:
                             var4 = var3;
-case 58:
-                            var3 = undefined;
-                            if(var2) { _fun0008_ip = 60; continue _fun0008 }
 case 61:
+                            var3 = undefined;
+                            if(var2) { _fun0008_ip = 63; continue _fun0008 }
+case 64:
                             var7 = var6().value;
                             var6 = var1;
                             var6 = var6 === var5;
                             var3 = undefined;
                             var2 = var6;
-                            if(var6) { _fun0008_ip = 60; continue _fun0008 }
-case 62:
+                            if(var6) { _fun0008_ip = 63; continue _fun0008 }
+case 65:
                             var3 = var7;
                             var2 = var6;
-case 60:
-                            if(var2) { _fun0008_ip = 63; continue _fun0008 }
-case 64:
-                            var1.return();
 case 63:
+                            if(var2) { _fun0008_ip = 66; continue _fun0008 }
+case 67:
+                            var1.return();
+case 66:
                             var2 = _closure3_slot0;
                             var1 = var2.get;
                             var2 = var1.bind(var2)(var3);
                             var1 = null;
-                            if(!(var1 != var2)) { _fun0008_ip = 65; continue _fun0008 }
+                            if(!(var1 != var2)) { _fun0008_ip = 68; continue _fun0008 }
 case 9:
                             var1 = {};
                             var3 = global;
@@ -467,10 +467,10 @@ case 9:
                             var3 = var3.bind(var5)(var4);
                             var1['type'] = var3;
                             var1['channel'] = var2;
-                            _fun0008_ip = 66; continue _fun0008;
-case 65:
+                            _fun0008_ip = 69; continue _fun0008;
+case 68:
                             var1 = new Array(0);
-case 66:
+case 69:
                             return var1;
                         }
                     };
@@ -483,6 +483,26 @@ case 66:
             var1 = var1.bind(var3)(var7, var5);
             var5 = var1.channels;
             var1 = var1.mapping;
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var7 = 3;
+            var7 = var9[var7];
+            var9 = var8.bind(var3)(var7);
+            var8 = var9.addBreadcrumb;
+            var7 = {};
+            var10 = 'Registering declarative notification categories';
+            var7['message'] = var10;
+            var10 = {};
+            var12 = var5.map;
+            var11 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.id;
+                return var1;
+            };
+            var11 = var12.bind(var5)(var11);
+            var10['channels'] = var11;
+            var7['data'] = var10;
+            var7 = var8.bind(var9)(var7);
             var8 = _closure1_slot3;
             var7 = var8.map;
             var4 = _closure1_slot9;
@@ -491,7 +511,7 @@ case 66:
             var1 = var2.bind(var3)(var1);
             var1 = true;
             return var1;
-case 55:
+case 57:
             var1 = false;
             return var1;
         }

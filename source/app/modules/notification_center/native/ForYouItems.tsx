@@ -1565,13 +1565,13 @@ case 48:
             var9 = 16;
             var18 = var2[var9];
             var25 = var16.bind(var4)(var18);
-            var22 = var25.getParser;
+            var22 = var25.getParserWithoutLinks;
             var18 = _closure1_slot25;
             var18 = var18.bind(var4)();
             var30 = var22.bind(var25)(var18);
             var9 = var2[var9];
             var18 = var16.bind(var4)(var9);
-            var16 = var18.getParser;
+            var16 = var18.getParserWithoutLinks;
             var9 = _closure1_slot24;
             var9 = var9.bind(var4)();
             var29 = var16.bind(var18)(var9);

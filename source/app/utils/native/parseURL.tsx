@@ -1571,6 +1571,31 @@ case 70:
             var8['payload'] = var16;
             return var8;
 case 68:
+            var16 = _closure1_slot1;
+            var24 = _closure1_slot2;
+            var8 = 5;
+            var8 = var24[var8];
+            var24 = var16.bind(var12)(var8);
+            var16 = var24.parse;
+            var25 = var15 != var14;
+            var8 = var1;
+            if(!var25) { _fun0003_ip = 222; continue _fun0003 }
+case 223:
+            var8 = var14;
+case 222:
+            var8 = var16.bind(var24)(var8);
+            var8 = var8.ad_creative_ids;
+            if(!(var15 == var8)) { _fun0003_ip = 224; continue _fun0003 }
+case 225:
+            var8 = new Array(0);
+case 224:
+            var16 = new Array(1);
+            var16[0] = var8;
+            var8 = var16.flat;
+            var25 = var8.bind(var16)();
+            var8 = var25.length;
+            if(!(!(var8 > var9))) { _fun0003_ip = 226; continue _fun0003 }
+case 227:
             var8 = {};
             var8['fingerprint'] = var7;
             var8['attemptId'] = var4;
@@ -1583,6 +1608,20 @@ case 68:
             var16['sort'] = var18;
             var16['filter'] = var17;
             var8['payload'] = var16;
+            _fun0003_ip = 228; continue _fun0003;
+case 226:
+            var16 = {};
+            var16['fingerprint'] = var7;
+            var16['attemptId'] = var4;
+            var16['installationId'] = var2;
+            var24 = {};
+            var26 = _closure1_slot7;
+            var26 = var26.QUEST_HOME_PREVIEW;
+            var24['type'] = var26;
+            var24['adCreativeIds'] = var25;
+            var16['payload'] = var24;
+            var8 = var16;
+case 228:
             return var8;
 case 67:
             var8 = {};
@@ -1616,10 +1655,10 @@ case 64:
 case 60:
             var8 = _closure1_slot30;
             var16 = var15 != var14;
-            if(!var16) { _fun0003_ip = 222; continue _fun0003 }
-case 223:
+            if(!var16) { _fun0003_ip = 229; continue _fun0003 }
+case 230:
             var1 = var14;
-case 222:
+case 229:
             var1 = var8.bind(var12)(var1);
             var12 = var1.summaryId;
             var1 = {};
@@ -1628,15 +1667,15 @@ case 222:
             var1['installationId'] = var2;
             var8 = {};
             var14 = var13.messageId;
-            if(!(var15 == var14)) { _fun0003_ip = 224; continue _fun0003 }
-case 225:
+            if(!(var15 == var14)) { _fun0003_ip = 231; continue _fun0003 }
+case 232:
             var14 = _closure1_slot7;
             var14 = var14.CHANNEL;
-            _fun0003_ip = 226; continue _fun0003;
-case 224:
+            _fun0003_ip = 233; continue _fun0003;
+case 231:
             var15 = _closure1_slot7;
             var14 = var15.MESSAGE;
-case 226:
+case 233:
             var8['type'] = var14;
             var14 = var13.guildId;
             var8['guildId'] = var14;

@@ -1,13 +1,13 @@
 // app/modules/premium/promotions/PromotionsActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var9 = require;
-    var8 = metroImportDefault;
+    var11 = require;
+    var10 = metroImportDefault;
     var3 = exports;
-    var10 = dependencyMap;
-    var _closure1_slot0 = var9;
-    var _closure1_slot1 = var8;
-    var _closure1_slot2 = var10;
-    var5 = function fetchActivePromotions() {
+    var12 = dependencyMap;
+    var _closure1_slot0 = var11;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var12;
+    var7 = function fetchActivePromotions() {
         var1 = undefined;
         var4 = _closure1_slot10;
         var3 = var4.apply;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot9 = var5;
+    var _closure1_slot9 = var7;
     var1 = function _fetchActivePromotions() {
         var5 = undefined;
         var1 = undefined;
@@ -185,7 +185,7 @@ case 2:
         return var1;
     };
     var _closure1_slot10 = var1;
-    var4 = function dismissOutboundPromotionNotice() {
+    var6 = function dismissOutboundPromotionNotice() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = _closure1_slot1;
@@ -239,7 +239,7 @@ case 24:
             return var1;
         }
     };
-    var2 = function fetchActiveBogoPromotion() {
+    var5 = function fetchActiveBogoPromotion() {
         var1 = undefined;
         var4 = _closure1_slot11;
         var3 = var4.apply;
@@ -351,45 +351,169 @@ case 26:
         return var1;
     };
     var _closure1_slot11 = var1;
+    var4 = function fetchClaimedOutboundPromotionCodes() {
+        var1 = undefined;
+        var4 = _closure1_slot12;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var1 = function _fetchClaimedOutboundPromotionCodes() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0005_ip = 35; continue _fun0005 }
+case 3: // try_start_0
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 8;
+                    var2 = var5[var2];
+                    var5 = undefined;
+                    var2 = var4.bind(var5)(var2);
+                    var6 = var2.HTTP;
+                    var4 = var6.get;
+                    var2 = {};
+                    var7 = _closure1_slot8;
+                    var7 = var7.CLAIMED_OUTBOUND_PROMOTION_CODES;
+                    var2['url'] = var7;
+                    var7 = {};
+                    var8 = _closure1_slot4;
+                    var8 = var8.locale;
+                    var7['locale'] = var8;
+                    var2['query'] = var7;
+                    var7 = true;
+                    var2['oldFormErrors'] = var7;
+                    var7 = false;
+                    var2['rejectWithError'] = var7;
+                    var2 = var4.bind(var6)(var2);
+                    SaveGenerator(address=105);
+case 36:
+                    return var2;
+case 37:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
+                    var8 = var2.body;
+                    var6 = var8.map;
+                    var9 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var4 = 12;
+                    var4 = var7[var4];
+                    var4 = var9.bind(var5)(var4);
+                    var4 = var4.claimedOutboundPromotionCodeFromServer;
+                    var6 = var6.bind(var8)(var4);
+                    var4 = _closure1_slot1;
+                    var3 = 6;
+                    var3 = var7[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'CLAIMED_OUTBOUND_PROMOTION_CODES_FETCH_SUCCESS';
+                    var3['type'] = var7;
+                    var3['claimedOutboundPromotionCodes'] = var6;
+                    var3 = var4.bind(var5)(var3);
+case 40: // try_end0
+                    _fun0005_ip = 41; continue _fun0005;
+case 38:
+                    return var2;
+case 42: // catch_target0
+                    CatchBlockStart(arg_register=1);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 6;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var5 = 'CLAIMED_OUTBOUND_PROMOTION_CODES_FETCH_FAIL';
+                    var2['type'] = var5;
+                    var2 = var3.bind(var4)(var2);
+case 41:
+                    var2 = undefined;
+                    return var2;
+case 35:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot12 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot12 = var1;
+    var2 = function addClaimedOutboundPromotionCode(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'CLAIMED_OUTBOUND_PROMOTION_CODE_ADD';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['claimedOutboundPromotionCode'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
     var1 = global;
-    var12 = var1.Object;
-    var11 = var12.defineProperty;
-    var7 = {};
+    var14 = var1.Object;
+    var13 = var14.defineProperty;
+    var9 = {};
     var1 = true;
-    var7['value'] = var1;
+    var9['value'] = var1;
     var1 = '__esModule';
-    var1 = var11.bind(var12)(var3, var1, var7);
+    var1 = var13.bind(var14)(var3, var1, var9);
     var1 = 0;
-    var7 = var10[var1];
+    var9 = var12[var1];
     var1 = undefined;
-    var7 = var8.bind(var1)(var7);
-    var _closure1_slot3 = var7;
-    var7 = 1;
-    var7 = var10[var7];
-    var7 = var8.bind(var1)(var7);
-    var _closure1_slot4 = var7;
-    var7 = 2;
-    var7 = var10[var7];
-    var7 = var8.bind(var1)(var7);
-    var _closure1_slot5 = var7;
-    var7 = 3;
-    var7 = var10[var7];
-    var7 = var8.bind(var1)(var7);
-    var _closure1_slot6 = var7;
-    var7 = 4;
-    var7 = var10[var7];
-    var7 = var9.bind(var1)(var7);
-    var7 = var7.PREMIUM_SUBSCRIPTION_APPLICATION;
-    var _closure1_slot7 = var7;
-    var7 = 5;
-    var7 = var10[var7];
-    var7 = var9.bind(var1)(var7);
-    var7 = var7.Endpoints;
-    var _closure1_slot8 = var7;
-    var7 = {};
-    var7['fetchActivePromotions'] = var5;
-    var7['dismissOutboundPromotionNotice'] = var4;
-    var8 = function markOutboundPromotionsSeen() {
+    var9 = var10.bind(var1)(var9);
+    var _closure1_slot3 = var9;
+    var9 = 1;
+    var9 = var12[var9];
+    var9 = var10.bind(var1)(var9);
+    var _closure1_slot4 = var9;
+    var9 = 2;
+    var9 = var12[var9];
+    var9 = var10.bind(var1)(var9);
+    var _closure1_slot5 = var9;
+    var9 = 3;
+    var9 = var12[var9];
+    var9 = var10.bind(var1)(var9);
+    var _closure1_slot6 = var9;
+    var9 = 4;
+    var9 = var12[var9];
+    var9 = var11.bind(var1)(var9);
+    var9 = var9.PREMIUM_SUBSCRIPTION_APPLICATION;
+    var _closure1_slot7 = var9;
+    var9 = 5;
+    var9 = var12[var9];
+    var9 = var11.bind(var1)(var9);
+    var9 = var9.Endpoints;
+    var _closure1_slot8 = var9;
+    var9 = {};
+    var9['fetchActivePromotions'] = var7;
+    var9['fetchClaimedOutboundPromotionCodes'] = var4;
+    var9['addClaimedOutboundPromotionCode'] = var2;
+    var9['dismissOutboundPromotionNotice'] = var6;
+    var10 = function markOutboundPromotionsSeen() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 6;
@@ -403,48 +527,50 @@ case 26:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var7['markOutboundPromotionsSeen'] = var8;
-    var7['fetchActiveBogoPromotion'] = var2;
-    var8 = 12;
-    var8 = var10[var8];
-    var10 = var9.bind(var1)(var8);
-    var9 = var10.fileFinishedImporting;
-    var8 = 'modules/premium/promotions/PromotionsActionCreators.tsx';
-    var8 = var9.bind(var10)(var8);
-    var3['default'] = var7;
-    var6 = function maybeFetchActivePromotions() {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+    var9['markOutboundPromotionsSeen'] = var10;
+    var9['fetchActiveBogoPromotion'] = var5;
+    var10 = 13;
+    var10 = var12[var10];
+    var12 = var11.bind(var1)(var10);
+    var11 = var12.fileFinishedImporting;
+    var10 = 'modules/premium/promotions/PromotionsActionCreators.tsx';
+    var10 = var11.bind(var12)(var10);
+    var3['default'] = var9;
+    var8 = function maybeFetchActivePromotions() {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var4 = arguments[0];
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+            if(!(var4 === var1)) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
             var4 = true;
-case 35:
+case 43:
             var3 = _closure1_slot6;
             var3 = var3.isFetchingActivePromotions;
-            if(var3) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
-            if(!var4) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+            if(var3) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
+            if(!var4) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var5 = _closure1_slot6;
             var6 = var5.lastFetchedActivePromotions;
             var5 = null;
             var4 = var5 != var6;
-case 39:
+case 47:
             var3 = var4;
-case 37:
-            if(var3) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+case 45:
+            if(var3) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
             var2 = _closure1_slot9;
             var2 = var2.bind(var1)();
-case 41:
+case 49:
             return var1;
         }
     };
-    var3['maybeFetchActivePromotions'] = var6;
-    var3['fetchActivePromotions'] = var5;
-    var3['dismissOutboundPromotionNotice'] = var4;
-    var3['fetchActiveBogoPromotion'] = var2;
+    var3['maybeFetchActivePromotions'] = var8;
+    var3['fetchActivePromotions'] = var7;
+    var3['dismissOutboundPromotionNotice'] = var6;
+    var3['fetchActiveBogoPromotion'] = var5;
+    var3['fetchClaimedOutboundPromotionCodes'] = var4;
+    var3['addClaimedOutboundPromotionCode'] = var2;
     return var1;
 })();

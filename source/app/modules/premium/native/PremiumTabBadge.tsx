@@ -619,7 +619,7 @@ case 49:
 case 47:
             _fun0003_ip = 51; continue _fun0003;
 case 45:
-            var3 = var3.expires_at;
+            var3 = var3.expiresAt;
             if(!(var12 != var3)) { _fun0003_ip = 52; continue _fun0003 }
 case 53:
             var10 = _closure1_slot9;

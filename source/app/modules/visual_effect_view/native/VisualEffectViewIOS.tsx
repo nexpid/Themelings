@@ -1,6 +1,7 @@
 // app/modules/visual_effect_view/native/VisualEffectViewIOS.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
+    var9 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var2 = global;
@@ -27,12 +28,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 13;
     var2 = var4 >= var2;
     var4 = 1;
-    var5 = var7[var4];
-    var4 = metroImportDefault;
-    var5 = var4.bind(var1)(var5);
-    var4 = {'componentName': 'DCDVisualEffectView', 'generateOptionalProperties': true, 'generateOptionalObjectProperties': true};
+    var4 = var7[var4];
+    var5 = var9.bind(var1)(var4);
+    var4 = {};
+    var8 = 'DCDVisualEffectView';
+    var4['componentName'] = var8;
+    var8 = 2;
+    var8 = var7[var8];
+    var8 = var9.bind(var1)(var8);
+    var4['componentFoundInstance'] = var8;
     var4 = var5.bind(var1)(var4);
-    var5 = 2;
+    var5 = 3;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

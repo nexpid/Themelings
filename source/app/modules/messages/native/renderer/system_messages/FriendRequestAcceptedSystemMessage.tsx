@@ -24,11 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -38,59 +34,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;
-            var6 = var5.message;
-            var11 = var5.roleStyle;
-            var4 = _closure1_slot3;
-            var2 = var4.getChannel;
-            var1 = var6.channel_id;
-            var13 = var2.bind(var4)(var1);
+            var2 = var5.message;
+            var10 = var5.roleStyle;
+            var6 = _closure1_slot3;
+            var4 = var6.getChannel;
+            var1 = var2.channel_id;
+            var13 = var4.bind(var6)(var1);
             var1 = null;
             if(!(var1 != var13)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var13.isDM;
-            var2 = var2.bind(var13)();
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+            var4 = var13.isDM;
+            var4 = var4.bind(var13)();
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var2 = var13.getRecipientId;
-            var8 = var2.bind(var13)();
-            var4 = _closure1_slot5;
-            var2 = var4.getUser;
-            var10 = var2.bind(var4)(var8);
-            var2 = var4.getCurrentUser;
-            var2 = var2.bind(var4)();
-            if(!(var1 != var10)) { _fun0001_ip = 5; continue _fun0001 }
+            var4 = var13.getRecipientId;
+            var11 = var4.bind(var13)();
+            var6 = _closure1_slot4;
+            var4 = var6.getUser;
+            var9 = var4.bind(var6)(var11);
+            var4 = var6.getCurrentUser;
+            var6 = var4.bind(var6)();
+            if(!(var1 != var9)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            if(!(var1 != var2)) { _fun0001_ip = 5; continue _fun0001 }
+            if(!(var1 != var6)) { _fun0001_ip = 5; continue _fun0001 }
 case 7:
-            var9 = _closure1_slot0;
+            var8 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var4 = 3;
+            var4 = 2;
             var7 = var12[var4];
             var4 = undefined;
-            var9 = var9.bind(var4)(var7);
-            var7 = var9.getUserAuthorWithProcessedColor;
-            var9 = var7.bind(var9)(var10, var13);
-            var10 = _closure1_slot1;
-            var7 = 4;
+            var8 = var8.bind(var4)(var7);
+            var7 = var8.getUserAuthorWithProcessedColor;
+            var8 = var7.bind(var8)(var9, var13);
+            var9 = _closure1_slot1;
+            var7 = 3;
             var7 = var12[var7];
-            var10 = var10.bind(var4)(var7);
+            var9 = var9.bind(var4)(var7);
             var7 = {};
-            var7['userId'] = var8;
-            var7['message'] = var6;
-            var7['author'] = var9;
-            var7['roleStyle'] = var11;
-            var7 = var10.bind(var4)(var7);
+            var7['userId'] = var11;
+            var7['message'] = var2;
+            var7['author'] = var8;
+            var7['roleStyle'] = var10;
+            var7 = var9.bind(var4)(var7);
             var12 = {};
-            var9 = var9.nick;
-            var12['username'] = var9;
+            var8 = var8.nick;
+            var12['username'] = var8;
             var12['usernameOnClick'] = var7;
-            var6 = var6.author;
+            var7 = var2.author;
+            var7 = var7.id;
             var6 = var6.id;
-            var2 = var2.id;
-            var7 = var6 === var2;
-            var6 = _closure1_slot4;
-            var2 = var6.getNote;
-            var13 = var2.bind(var6)(var8);
+            var7 = var7 === var6;
+            var13 = var2.content;
             var2 = {};
             if(!(var1 != var13)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
@@ -99,7 +93,7 @@ case 9:
 case 8:
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 5;
+            var6 = 4;
             var9 = var11[var6];
             var9 = var8.bind(var4)(var9);
             var10 = var9.intl;
@@ -120,7 +114,7 @@ case 13:
 case 10:
             var9 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var8 = 5;
+            var8 = 4;
             var10 = var14[var8];
             var10 = var9.bind(var4)(var10);
             var11 = var10.intl;
@@ -154,17 +148,17 @@ case 14:
             var2['content'] = var6;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var6 = 6;
+            var6 = 5;
             var6 = var7[var6];
             var9 = var8.bind(var4)(var6);
             var8 = var9.getAssetUriForEmbed;
             var6 = _closure1_slot1;
-            var3 = 7;
+            var3 = 6;
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var8.bind(var9)(var3);
             var2['iconUrl'] = var3;
-            var3 = 8;
+            var3 = 7;
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
             var15 = var3.bind(var4)(var5);

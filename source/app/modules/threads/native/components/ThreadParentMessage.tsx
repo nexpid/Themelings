@@ -130,8 +130,6 @@ case 5:
             var6['rowGenerator'] = var9;
             var8 = var8.message;
             var6['message'] = var8;
-            var8 = true;
-            var6['useDarkGradient'] = var8;
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);

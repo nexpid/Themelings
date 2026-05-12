@@ -1,0 +1,118 @@
+// app/modules/user_settings/premium/native/PremiumReferralTrialPill.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'display': 'flex', 'alignItems': 'center', 'flexDirection': 'row', 'justifyContent': 'center'};
+    var4['pillParent'] = var9;
+    var9 = {'display': 'flex', 'alignItems': 'center', 'flexDirection': 'row', 'justifyContent': 'center', 'marginTop': 36, 'marginBottom': 20};
+    var4['pillParentExtraMargin'] = var9;
+    var9 = {'backgroundColor': null, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center', 'margin': 8, 'paddingHorizontal': 8, 'overflow': 'visible'};
+    var10 = 3;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.WHITE;
+    var9['backgroundColor'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.radii;
+    var10 = var10.round;
+    var9['borderRadius'] = var10;
+    var4['pillContainer'] = var9;
+    var9 = {'color': '#AC46C3', 'paddingHorizontal': 1, 'paddingBottom': 2, 'textAlign': 'center'};
+    var4['text'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/premium/native/PremiumReferralTrialPill.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var5 = var1.hasExtraMargin;
+            var1 = _closure1_slot4;
+            var4 = undefined;
+            var10 = var1.bind(var4)();
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot2;
+            var1 = {};
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var5 = var10.pillParent;
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var5 = var10.pillParentExtraMargin;
+case 4:
+            var1['style'] = var5;
+            var7 = _closure1_slot3;
+            var6 = _closure1_slot2;
+            var5 = {};
+            var9 = var10.pillContainer;
+            var5['style'] = var9;
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var8 = 4;
+            var8 = var14[var8];
+            var8 = var13.bind(var4)(var8);
+            var9 = var8.Text;
+            var8 = {};
+            var11 = 'text-xs/bold';
+            var8['variant'] = var11;
+            var10 = var10.text;
+            var8['style'] = var10;
+            var10 = 5;
+            var11 = var14[var10];
+            var11 = var13.bind(var4)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
+            var10 = var14[var10];
+            var10 = var13.bind(var4)(var10);
+            var10 = var10.t;
+            var10 = var10.Y1q7js;
+            var11 = var11.bind(var12)(var10);
+            var10 = var11.toUpperCase;
+            var10 = var10.bind(var11)();
+            var8['children'] = var10;
+            var8 = var7.bind(var4)(var9, var8);
+            var5['children'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['PremiumReferralTrialPill'] = var2;
+    return var1;
+})();

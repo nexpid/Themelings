@@ -58,7 +58,7 @@ case 3:
                 var4 = undefined;
                 if(var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var4 = var5.plan_ids;
+                var4 = var5.planIds;
 case 4:
                 if(!(var1 == var4)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -136,7 +136,7 @@ case 11:
                 var6 = var7.bind(var4)(var6);
                 var7 = var6.DiscountIdToProductOfferId;
                 var6 = _closure2_slot0;
-                var6 = var6.discount_id;
+                var6 = var6.discountId;
                 var8 = var7[var6];
                 var7 = var1 == var8;
                 var6 = undefined;

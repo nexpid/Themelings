@@ -421,6 +421,9 @@ case 39:
                 var3 = {};
                 var7 = _closure2_slot0;
                 var3['application'] = var7;
+                var12 = _closure2_slot2;
+                var12 = var12.scopes;
+                var3['scopes'] = var12;
                 var12 = function onDelete() {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:

@@ -485,7 +485,7 @@ case 35:
                 if(!var2) { _fun0007_ip = 50; continue _fun0007 }
 case 51:
                 var5 = _closure1_slot17;
-                var3 = 5;
+                var3 = 6;
                 var2 = var5 < var3;
 case 50:
                 if(!var2) { _fun0007_ip = 52; continue _fun0007 }
@@ -779,7 +779,7 @@ case 51:
         var4 = var1.refresh_at;
         var3 = var1.recipient_status;
         var6 = var1.has_eligible_friends;
-        var2 = var1.reminder_state_id;
+        var1 = var1.reminder_state_id;
         var8 = true;
         _closure1_slot22 = var8;
         _closure1_slot23 = var6;
@@ -796,7 +796,11 @@ case 51:
         _closure1_slot11 = var5;
         _closure1_slot24 = var4;
         _closure1_slot12 = var3;
-        _closure1_slot25 = var2;
+        _closure1_slot25 = var1;
+        var1 = 0;
+        _closure1_slot17 = var1;
+        var1 = null;
+        _closure1_slot18 = var1;
         var1 = undefined;
         return var1;
     };
@@ -807,7 +811,7 @@ case 0:
             var2 = arg1;
             var4 = null;
             if(!(var2 != var4)) { _fun0011_ip = 65; continue _fun0011 }
-case 64:
+case 57:
             var1 = false;
             _closure1_slot22 = var1;
             _closure1_slot23 = var1;
@@ -817,17 +821,37 @@ case 64:
             var1 = 1;
             var1 = var4 + var1;
             _closure1_slot17 = var1;
+            var4 = 3;
+            if(!(!(var1 <= var4))) { _fun0011_ip = 66; continue _fun0011 }
+case 8:
+            var1 = global;
+            var6 = var1.Math;
+            var5 = var6.pow;
+            var1 = _closure1_slot17;
+            var4 = var1 - var4;
+            var1 = 4;
+            var4 = var5.bind(var6)(var1, var4);
+            var1 = 8000;
+            var7 = var1 * var4;
+            _fun0011_ip = 67; continue _fun0011;
+case 66:
+            var1 = global;
+            var6 = var1.Math;
+            var5 = var6.pow;
+            var4 = _closure1_slot17;
+            var1 = 2;
+            var4 = var5.bind(var6)(var1, var4);
+            var1 = 1000;
+            var7 = var1 * var4;
+case 67:
             var1 = global;
             var5 = var1.Date;
             var4 = var5.now;
             var4 = var4.bind(var5)();
-            var7 = var1.Math;
-            var6 = var7.pow;
-            var5 = _closure1_slot17;
-            var1 = 2;
-            var5 = var6.bind(var7)(var1, var5);
-            var1 = 1000;
-            var1 = var1 * var5;
+            var6 = var1.Math;
+            var5 = var6.min;
+            var1 = 300000;
+            var1 = var5.bind(var6)(var1, var7);
             var1 = var4 + var1;
             _closure1_slot18 = var1;
             var1 = undefined;
@@ -880,8 +904,8 @@ case 0:
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0012_ip = 66; continue _fun0012 }
-case 67:
+            if(var2) { _fun0012_ip = 68; continue _fun0012 }
+case 69:
             var2 = var3.value;
             var8 = _closure1_slot16;
             var7 = var8.set;
@@ -894,8 +918,8 @@ case 67:
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0012_ip = 67; continue _fun0012 }
-case 66:
+            if(!var2) { _fun0012_ip = 69; continue _fun0012 }
+case 68:
             return var1;
         }
     };
@@ -907,7 +931,7 @@ case 0:
             var4 = var1.userTrialOffer;
             var1 = null;
             if(!(var1 != var4)) { _fun0013_ip = 54; continue _fun0013 }
-case 68:
+case 70:
             var5 = _closure1_slot14;
             var3 = var5.delete;
             var2 = var4.id;

@@ -807,6 +807,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = 80;
     var7 = var5[var6];
     var7 = var4.bind(var1)(var7);
+    var7 = var7.dismissAlert;
+    var3['dismissAlert'] = var7;
+    var7 = var5[var6];
+    var7 = var4.bind(var1)(var7);
     var7 = var7.dismissAlerts;
     var3['dismissAlerts'] = var7;
     var6 = var5[var6];

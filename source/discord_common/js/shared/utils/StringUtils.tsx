@@ -325,35 +325,35 @@ case 0:
                 var10 = arg2;
                 var6 = arguments[2];
                 var1 = undefined;
-                if(!(var6 === var1)) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
+                if(!(var6 === var1)) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
                 var6 = '…';
-case 45:
+case 46:
                 var2 = null;
                 var4 = var2 == var3;
                 var5 = '';
                 var1 = var5;
-                if(var4) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
+                if(var4) { _fun0007_ip = 48; continue _fun0007 }
+case 49:
                 var2 = var2 == var10;
                 var1 = var5;
-                if(var2) { _fun0007_ip = 47; continue _fun0007 }
-case 49:
+                if(var2) { _fun0007_ip = 48; continue _fun0007 }
+case 50:
                 var4 = var3.length;
                 var2 = var3;
-                if(!(var4 > var10)) { _fun0007_ip = 50; continue _fun0007 }
+                if(!(var4 > var10)) { _fun0007_ip = 22; continue _fun0007 }
 case 51:
                 var7 = _closure1_slot3;
                 var4 = var7.test;
                 var4 = var4.bind(var7)(var3);
                 if(var4) { _fun0007_ip = 52; continue _fun0007 }
-case 9:
+case 53:
                 var8 = var3.substring;
                 var4 = var6.length;
                 var7 = var10 - var4;
                 var4 = 0;
                 var7 = var8.bind(var3)(var4, var7);
-                _fun0007_ip = 53; continue _fun0007;
+                _fun0007_ip = 40; continue _fun0007;
 case 52:
                 var9 = new Array(0);
                 var8 = 0;
@@ -367,7 +367,7 @@ case 52:
                 var4 = var4.bind(var9)(var8, var3);
                 var3 = var4.join;
                 var7 = var3.bind(var4)(var5);
-case 53:
+case 40:
                 var4 = var7.replace;
                 var3 = /[\s.]+$/;
                 var4 = var4.bind(var7)(var3, var5);
@@ -375,9 +375,9 @@ case 53:
                 var3 = var3.HermesInternal;
                 var3 = var3.concat;
                 var2 = var3.bind(var5)(var4, var6);
-case 50:
+case 22:
                 var1 = var2;
-case 47:
+case 48:
                 return var1;
             }
         };
@@ -448,14 +448,14 @@ case 56:
                 var4 = 0;
                 var2 = 0;
                 if(var3) { _fun0009_ip = 38; continue _fun0009 }
-case 57:
+case 52:
                 var3 = var5.value;
                 var4 = var4 + var6;
                 var10 = var7.bind(var8)();
                 var3 = var10.done;
                 var5 = var10;
                 var2 = var4;
-                if(!var3) { _fun0009_ip = 57; continue _fun0009 }
+                if(!var3) { _fun0009_ip = 52; continue _fun0009 }
 case 38:
                 return var2;
 case 55:

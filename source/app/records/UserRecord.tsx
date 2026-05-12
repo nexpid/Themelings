@@ -618,7 +618,7 @@ case 100:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(33);
+        var1 = new Array(34);
         var1[0] = var5;
         var5 = {};
         var7 = 'hasVerifiedEmailOrPhone';
@@ -1321,6 +1321,47 @@ case 148:
         var5['value'] = var7;
         var1[19] = var5;
         var5 = {};
+        var7 = 'isFractionalPremium';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+case 0:
+                var3 = this;
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot3;
+                var1 = 18;
+                var1 = var5[var1];
+                var5 = undefined;
+                var6 = var4.bind(var5)(var1);
+                var4 = var6.isPremium;
+                var1 = _closure1_slot14;
+                var1 = var1.TIER_2;
+                var1 = var4.bind(var6)(var3, var1);
+                if(!var1) { _fun0021_ip = 137; continue _fun0021 }
+case 92:
+                var4 = var3.premiumState;
+                var3 = null;
+                var6 = var3 == var4;
+                var3 = undefined;
+                if(var6) { _fun0021_ip = 138; continue _fun0021 }
+case 3:
+                var3 = var4.premiumSource;
+case 138:
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot3;
+                var2 = 19;
+                var2 = var6[var2];
+                var2 = var4.bind(var5)(var2);
+                var2 = var2.PremiumSource;
+                var2 = var2.FRACTIONAL_NITRO;
+                var1 = var3 === var2;
+case 137:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[20] = var5;
+        var5 = {};
         var7 = 'hasUrgentMessages';
         var5['key'] = var7;
         var7 = function value() {
@@ -1332,20 +1373,20 @@ case 148:
             return var1;
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'isNonUserBot';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var3 = this;
                 var1 = var3.isSystemUser;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0021_ip = 149; continue _fun0021 }
+                if(var1) { _fun0022_ip = 149; continue _fun0022 }
 case 91:
                 var2 = var3.bot;
-                if(!var2) { _fun0021_ip = 136; continue _fun0021 }
+                if(!var2) { _fun0022_ip = 136; continue _fun0022 }
 case 114:
                 var4 = var3.discriminator;
                 var3 = _closure1_slot10;
@@ -1357,16 +1398,16 @@ case 149:
             }
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'isLocalBot';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.bot;
-                if(!var1) { _fun0022_ip = 117; continue _fun0022 }
+                if(!var1) { _fun0023_ip = 117; continue _fun0023 }
 case 121:
                 var3 = var2.id;
                 var2 = _closure1_slot9;
@@ -1376,22 +1417,22 @@ case 117:
             }
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'isVerifiedBot';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                 var4 = this;
                 var1 = var4.isSystemUser;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0023_ip = 117; continue _fun0023 }
+                if(var1) { _fun0024_ip = 117; continue _fun0024 }
 case 91:
                 var2 = var4.isLocalBot;
                 var1 = var2.bind(var4)();
 case 117:
-                if(var1) { _fun0023_ip = 150; continue _fun0023 }
+                if(var1) { _fun0024_ip = 150; continue _fun0024 }
 case 151:
                 var3 = var4.hasFlag;
                 var2 = _closure1_slot12;
@@ -1402,7 +1443,7 @@ case 150:
             }
         };
         var5['value'] = var7;
-        var1[23] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'isSystemUser';
         var5['key'] = var7;
@@ -1414,17 +1455,17 @@ case 150:
             return var1;
         };
         var5['value'] = var7;
-        var1[24] = var5;
+        var1[25] = var5;
         var5 = {};
         var7 = 'hasAvatarForGuild';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                 var4 = arg1;
                 var3 = null;
                 var1 = var3 != var4;
-                if(!var1) { _fun0024_ip = 118; continue _fun0024 }
+                if(!var1) { _fun0025_ip = 118; continue _fun0025 }
 case 121:
                 var2 = this;
                 var2 = var2.guildMemberAvatars;
@@ -1435,7 +1476,7 @@ case 118:
             }
         };
         var5['value'] = var7;
-        var1[25] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'hasUniqueUsername';
         var5['key'] = var7;
@@ -1447,36 +1488,9 @@ case 118:
             return var1;
         };
         var5['value'] = var7;
-        var1[26] = var5;
-        var5 = {};
-        var7 = 'isPremiumGroupMember';
-        var5['key'] = var7;
-        var7 = function value() {
-            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
-case 0:
-                var2 = this;
-                var1 = var2.isPremiumWithPremiumGroup;
-                var1 = var1.bind(var2)();
-                if(!var1) { _fun0025_ip = 112; continue _fun0025 }
-case 91:
-                var3 = var2.premiumGroupRole;
-                var5 = _closure1_slot0;
-                var4 = _closure1_slot3;
-                var2 = 19;
-                var4 = var4[var2];
-                var2 = undefined;
-                var2 = var5.bind(var2)(var4);
-                var2 = var2.PremiumSubscriptionGroupRole;
-                var2 = var2.MEMBER;
-                var1 = var3 === var2;
-case 112:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
         var1[27] = var5;
         var5 = {};
-        var7 = 'isPremiumGroupPrimary';
+        var7 = 'isPremiumGroupMember';
         var5['key'] = var7;
         var7 = function value() {
             _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
@@ -1494,7 +1508,7 @@ case 91:
                 var2 = undefined;
                 var2 = var5.bind(var2)(var4);
                 var2 = var2.PremiumSubscriptionGroupRole;
-                var2 = var2.PRIMARY;
+                var2 = var2.MEMBER;
                 var1 = var3 === var2;
 case 112:
                 return var1;
@@ -1502,6 +1516,33 @@ case 112:
         };
         var5['value'] = var7;
         var1[28] = var5;
+        var5 = {};
+        var7 = 'isPremiumGroupPrimary';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.isPremiumWithPremiumGroup;
+                var1 = var1.bind(var2)();
+                if(!var1) { _fun0027_ip = 112; continue _fun0027 }
+case 91:
+                var3 = var2.premiumGroupRole;
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot3;
+                var2 = 19;
+                var4 = var4[var2];
+                var2 = undefined;
+                var2 = var5.bind(var2)(var4);
+                var2 = var2.PremiumSubscriptionGroupRole;
+                var2 = var2.PRIMARY;
+                var1 = var3 === var2;
+case 112:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[29] = var5;
         var5 = {};
         var7 = 'isProvisional';
         var5['key'] = var7;
@@ -1514,7 +1555,7 @@ case 112:
             return var1;
         };
         var5['get'] = var7;
-        var1[29] = var5;
+        var1[30] = var5;
         var5 = {};
         var7 = 'avatarDecoration';
         var5['key'] = var7;
@@ -1539,12 +1580,12 @@ case 112:
             return var1;
         };
         var5['set'] = var7;
-        var1[30] = var5;
+        var1[31] = var5;
         var5 = {};
         var7 = 'nameplate';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot3;
@@ -1557,7 +1598,7 @@ case 0:
                 var4 = var4.collectibles;
                 var5 = null;
                 var5 = var5 == var4;
-                if(var5) { _fun0027_ip = 150; continue _fun0027 }
+                if(var5) { _fun0028_ip = 150; continue _fun0028 }
 case 152:
                 var1 = var4.nameplate;
 case 150:
@@ -1566,12 +1607,12 @@ case 150:
             }
         };
         var5['get'] = var7;
-        var1[31] = var5;
+        var1[32] = var5;
         var5 = {};
         var7 = 'premiumGroupRole';
         var5['key'] = var7;
         var6 = function get() {
-            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
                 var1 = this;
                 var3 = var1.premiumState;
@@ -1579,11 +1620,11 @@ case 0:
                 var5 = var2 == var3;
                 var4 = undefined;
                 var1 = undefined;
-                if(var5) { _fun0028_ip = 117; continue _fun0028 }
+                if(var5) { _fun0029_ip = 117; continue _fun0029 }
 case 113:
                 var1 = var3.premiumSubscriptionGroupRole;
 case 117:
-                if(!(var2 == var1)) { _fun0028_ip = 6; continue _fun0028 }
+                if(!(var2 == var1)) { _fun0029_ip = 6; continue _fun0029 }
 case 153:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot3;
@@ -1597,7 +1638,7 @@ case 6:
             }
         };
         var5['get'] = var6;
-        var1[32] = var5;
+        var1[33] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

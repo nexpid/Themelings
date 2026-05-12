@@ -9,26 +9,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function renderChat(arg1) {
         var4 = _closure1_slot9;
-        var6 = _closure1_slot1;
-        var8 = _closure1_slot2;
-        var1 = 9;
-        var1 = var8[var1];
-        var3 = undefined;
-        var2 = var6.bind(var3)(var1);
-        var1 = {};
-        var7 = _closure1_slot5;
-        var7 = var7.absoluteFill;
-        var1['style'] = var7;
+        var3 = _closure1_slot6;
+        var2 = {};
+        var5 = false;
+        var2['collapsable'] = var5;
+        var5 = _closure1_slot5;
+        var5 = var5.absoluteFill;
+        var2['style'] = var5;
         var7 = _closure1_slot9;
-        var5 = 10;
-        var5 = var8[var5];
-        var6 = var6.bind(var3)(var5);
+        var6 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var1 = 9;
+        var5 = var5[var1];
+        var1 = undefined;
+        var6 = var6.bind(var1)(var5);
         var5 = {};
         var8 = arg1;
         var5['shown'] = var8;
-        var5 = var7.bind(var3)(var6, var5);
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
+        var5 = var7.bind(var1)(var6, var5);
+        var2['children'] = var5;
+        var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
     var _closure1_slot16 = var1;
@@ -238,7 +238,7 @@ case 0:
             var5 = var9.useContext;
             var8 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var1 = var4[var1];
             var4 = undefined;
             var1 = var8.bind(var4)(var1);
@@ -278,7 +278,7 @@ case 16:
 case 15:
             var19 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 12;
+            var1 = 11;
             var7 = var8[var1];
             var11 = var19.bind(var4)(var7);
             var9 = var11.useAnimatedStyle;
@@ -288,7 +288,7 @@ case 0:
                     var1 = {};
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 13;
+                    var3 = 12;
                     var3 = var7[var3];
                     var5 = undefined;
                     var11 = var6.bind(var5)(var3);
@@ -306,7 +306,7 @@ case 0:
                     var4 = var4.right;
                     var4 = var10.bind(var11)(var9, var8, var4);
                     var1['width'] = var4;
-                    var4 = 14;
+                    var4 = 13;
                     var4 = var7[var4];
                     var5 = var6.bind(var5)(var4);
                     var4 = var5.withSpring;
@@ -328,14 +328,14 @@ case 17:
                 }
             };
             var13 = {};
-            var21 = 13;
+            var21 = 12;
             var21 = var8[var21];
             var21 = var19.bind(var4)(var21);
             var21 = var21.getControlsDrawerOpenWidth;
             var13['getControlsDrawerOpenWidth'] = var21;
             var13['windowDimensions'] = var20;
             var13['safeArea'] = var15;
-            var15 = 14;
+            var15 = 13;
             var15 = var8[var15];
             var15 = var19.bind(var4)(var15);
             var15 = var15.withSpring;
@@ -382,7 +382,7 @@ case 0:
                     var7 = arg2;
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 15;
+                    var1 = 14;
                     var3 = var3[var1];
                     var1 = undefined;
                     var8 = var4.bind(var1)(var3);
@@ -425,7 +425,7 @@ case 29:
 case 28:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 12;
+                    var3 = 11;
                     var3 = var5[var3];
                     var5 = var4.bind(var1)(var3);
                     var4 = var5.runOnJS;
@@ -437,7 +437,7 @@ case 28:
 case 30:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 12;
+                    var2 = 11;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.runOnJS;
@@ -450,7 +450,7 @@ case 21:
                 }
             };
             var16 = {};
-            var18 = 15;
+            var18 = 14;
             var18 = var8[var18];
             var18 = var19.bind(var4)(var18);
             var18 = var18.cheapWorkletArrayShallowEqual;
@@ -483,7 +483,7 @@ case 21:
                 var7 = _closure1_slot9;
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 16;
+                var1 = 15;
                 var5 = var5[var1];
                 var1 = undefined;
                 var6 = var6.bind(var1)(var5);
@@ -512,7 +512,7 @@ case 21:
                 var7 = _closure1_slot9;
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 17;
+                var1 = 16;
                 var5 = var5[var1];
                 var1 = undefined;
                 var6 = var6.bind(var1)(var5);
@@ -583,7 +583,7 @@ case 35:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 18;
+    var5 = 17;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

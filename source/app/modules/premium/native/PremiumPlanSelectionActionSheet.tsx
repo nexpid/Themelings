@@ -956,7 +956,7 @@ case 92:
             var31 = undefined;
             if(var32) { _fun0005_ip = 94; continue _fun0005 }
 case 95:
-            var31 = var30.user_usage_limit;
+            var31 = var30.userUsageLimit;
 case 94:
             var32 = var24 != var31;
             var30 = var22;
@@ -1010,7 +1010,7 @@ case 102:
             var23 = undefined;
             if(var26) { _fun0005_ip = 104; continue _fun0005 }
 case 105:
-            var23 = var25.user_usage_limit;
+            var23 = var25.userUsageLimit;
 case 104:
             var24 = var24 != var23;
             if(!var24) { _fun0005_ip = 106; continue _fun0005 }

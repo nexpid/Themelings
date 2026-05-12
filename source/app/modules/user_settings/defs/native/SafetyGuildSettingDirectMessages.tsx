@@ -1,0 +1,362 @@
+// app/modules/user_settings/defs/native/SafetyGuildSettingDirectMessages.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var4 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var4.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var4 = var2.getSelectedGuildId;
+    var _closure1_slot4 = var4;
+    var2 = var2.useUserSafetySettingsSelectedGuildStore;
+    var _closure1_slot5 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var9 = var2.MobileSetting;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.GUILD_SELECT_ALL_SERVERS_OPTION_ID;
+    var _closure1_slot6 = var2;
+    var2 = 12;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createToggle;
+    var2 = {};
+    var10 = function useTitle() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 11;
+            var1 = var4[var1];
+            var6 = undefined;
+            var3 = var3.bind(var6)(var1);
+            var1 = var3.useAllowFriendsFromMutualGuildsOnly;
+            var1 = var1.bind(var3)();
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 8;
+            var3 = var7[var2];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.t;
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = var2.RAQUSN;
+            var1 = var3.bind(var4)(var1);
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var2 = var2.PMsfcH;
+            var1 = var3.bind(var4)(var2);
+case 4:
+            return var1;
+        }
+    };
+    var2['useTitle'] = var10;
+    var10 = function useDescription() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var1 = _closure1_slot5;
+            var7 = undefined;
+            var1 = var1.bind(var7)();
+            var4 = var1.selectedGuildId;
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 11;
+            var1 = var5[var1];
+            var2 = var2.bind(var7)(var1);
+            var1 = var2.useAllowFriendsFromMutualGuildsOnly;
+            var2 = var1.bind(var2)();
+            var1 = _closure1_slot6;
+            if(!(var4 !== var1)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 8;
+            var5 = var8[var1];
+            var5 = var4.bind(var7)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var1 = var8[var1];
+            var1 = var4.bind(var7)(var1);
+            var4 = var1.t;
+            if(var2) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+            var1 = var4.G7c3Xo;
+            var1 = var5.bind(var6)(var1);
+            _fun0002_ip = 9; continue _fun0002;
+case 7:
+            var4 = var4.F9WY3f;
+            var1 = var5.bind(var6)(var4);
+case 9:
+            _fun0002_ip = 10; continue _fun0002;
+case 5:
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 8;
+            var4 = var8[var3];
+            var4 = var6.bind(var7)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.t;
+            if(var2) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+            var2 = var3.wbYDfT;
+            var2 = var4.bind(var5)(var2);
+            _fun0002_ip = 13; continue _fun0002;
+case 11:
+            var3 = var3.XXGmuB;
+            var2 = var4.bind(var5)(var3);
+case 13:
+            var1 = var2;
+case 10:
+            return var1;
+        }
+    };
+    var2['useDescription'] = var10;
+    var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
+    var2['parent'] = var9;
+    var9 = function useValue() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = _closure1_slot5;
+            var6 = undefined;
+            var1 = var1.bind(var6)();
+            var4 = var1.selectedGuildId;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 5;
+            var1 = var7[var1];
+            var2 = var5.bind(var6)(var1);
+            var1 = var2.useDefaultGuildsRestricted;
+            var1 = var1.bind(var2)();
+            var2 = !var1;
+            var1 = 6;
+            var1 = var7[var1];
+            var1 = var5.bind(var6)(var1);
+            var5 = var1.RestrictedGuildIds;
+            var1 = var5.useSetting;
+            var5 = var1.bind(var5)();
+            var1 = var5.includes;
+            var1 = var1.bind(var5)(var4);
+            var1 = !var1;
+            var3 = _closure1_slot6;
+            if(!(var4 === var3)) { _fun0003_ip = 8; continue _fun0003 }
+case 14:
+            var1 = var2;
+case 8:
+            return var1;
+        }
+    };
+    var2['useValue'] = var9;
+    var9 = function onAllowDirectMessagesFromServerMembersValueChange(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var2 = arg1;
+            var4 = _closure1_slot4;
+            var1 = undefined;
+            var5 = var4.bind(var1)();
+            var4 = _closure1_slot6;
+            if(!(var5 !== var4)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 10;
+            var4 = var7[var4];
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.getSanitizedRestrictedGuilds;
+            var7 = var4.bind(var6)();
+            if(var2) { _fun0004_ip = 17; continue _fun0004 }
+case 6:
+            var4 = var7.add;
+            var4 = var4.bind(var7)(var5);
+            _fun0004_ip = 18; continue _fun0004;
+case 17:
+            var4 = var7.delete;
+            var4 = var4.bind(var7)(var5);
+case 18:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 6;
+            var3 = var5[var3];
+            var3 = var4.bind(var1)(var3);
+            var5 = var3.RestrictedGuildIds;
+            var4 = var5.updateSetting;
+            var3 = global;
+            var6 = var3.Array;
+            var3 = var6.from;
+            var3 = var3.bind(var6)(var7);
+            var3 = var4.bind(var5)(var3);
+            _fun0004_ip = 19; continue _fun0004;
+case 15:
+            var3 = !var2;
+            var2 = function showGuildRestrictionModal(arg1) {
+                var1 = arg1;
+                var _closure3_slot0 = var1;
+                var7 = _closure1_slot1;
+                var8 = _closure1_slot2;
+                var1 = 7;
+                var2 = var8[var1];
+                var1 = undefined;
+                var4 = var7.bind(var1)(var2);
+                var3 = var4.show;
+                var2 = {};
+                var11 = _closure1_slot0;
+                var6 = 8;
+                var9 = var8[var6];
+                var9 = var11.bind(var1)(var9);
+                var12 = var9.intl;
+                var10 = var12.string;
+                var9 = var8[var6];
+                var9 = var11.bind(var1)(var9);
+                var9 = var9.t;
+                var9 = var9.Hq4ApA;
+                var9 = var10.bind(var12)(var9);
+                var2['title'] = var9;
+                var9 = var8[var6];
+                var9 = var11.bind(var1)(var9);
+                var12 = var9.intl;
+                var10 = var12.string;
+                var9 = var8[var6];
+                var9 = var11.bind(var1)(var9);
+                var9 = var9.t;
+                var9 = var9.qTCYun;
+                var9 = var10.bind(var12)(var9);
+                var2['body'] = var9;
+                var9 = var8[var6];
+                var9 = var11.bind(var1)(var9);
+                var12 = var9.intl;
+                var10 = var12.string;
+                var9 = var8[var6];
+                var9 = var11.bind(var1)(var9);
+                var9 = var9.t;
+                var9 = var9.p89ACt;
+                var9 = var10.bind(var12)(var9);
+                var2['confirmText'] = var9;
+                var9 = var8[var6];
+                var9 = var11.bind(var1)(var9);
+                var10 = var9.intl;
+                var9 = var10.string;
+                var6 = var8[var6];
+                var6 = var11.bind(var1)(var6);
+                var6 = var6.t;
+                var6 = var6.gm1Vej;
+                var6 = var9.bind(var10)(var6);
+                var2['cancelText'] = var6;
+                var6 = 9;
+                var6 = var8[var6];
+                var6 = var7.bind(var1)(var6);
+                var6 = var6.Colors;
+                var6 = var6.RED;
+                var2['confirmColor'] = var6;
+                var6 = function onConfirm() {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                        var4 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var3 = 6;
+                        var2 = var6[var3];
+                        var1 = undefined;
+                        var2 = var4.bind(var1)(var2);
+                        var8 = var2.DefaultGuildsRestrictedV2;
+                        var7 = var8.updateSetting;
+                        var2 = _closure3_slot0;
+                        var7 = var7.bind(var8)(var2);
+                        var3 = var6[var3];
+                        var3 = var4.bind(var1)(var3);
+                        var4 = var3.RestrictedGuildIds;
+                        var3 = var4.updateSetting;
+                        if(var2) { _fun0005_ip = 18; continue _fun0005 }
+case 20:
+                        var2 = new Array(0);
+                        _fun0005_ip = 21; continue _fun0005;
+case 18:
+                        var6 = _closure1_slot3;
+                        var5 = var6.getGuildIds;
+                        var2 = var5.bind(var6)();
+case 21:
+                        var2 = var3.bind(var4)(var2);
+                        return var1;
+                    }
+                };
+                var2['onConfirm'] = var6;
+                var5 = function onCancel() {
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var4 = var2.DefaultGuildsRestrictedV2;
+                    var3 = var4.updateSetting;
+                    var2 = _closure3_slot0;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                };
+                var2['onCancel'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var2 = var2.bind(var1)(var3);
+case 19:
+            return var1;
+        }
+    };
+    var2['onValueChange'] = var9;
+    var8 = function useIsDisabled() {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 4;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.useIsParentallyControlled;
+            var1 = var1.bind(var3)();
+            var3 = _closure1_slot5;
+            var3 = var3.bind(var4)();
+            var3 = var3.selectedGuildId;
+            if(!var1) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
+            var2 = _closure1_slot6;
+            var1 = var3 === var2;
+case 22:
+            return var1;
+        }
+    };
+    var2['useIsDisabled'] = var8;
+    var2 = var4.bind(var7)(var2);
+    var4 = 13;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/defs/native/SafetyGuildSettingDirectMessages.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
+})();

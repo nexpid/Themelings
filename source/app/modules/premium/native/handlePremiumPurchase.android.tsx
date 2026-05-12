@@ -390,7 +390,7 @@ case 42:
                             var30 = var32[var30];
                             var30 = var31.bind(var4)(var30);
                             var30 = var30.DiscountIdToProductOfferId;
-                            var28 = var28.discount_id;
+                            var28 = var28.discountId;
                             var30 = var30[var28];
                             var31 = var8 == var30;
                             var28 = undefined;

@@ -706,12 +706,12 @@ case 0:
             var2 = var4.length;
             var1 = 2;
             var1 = var1 === var2;
-            if(!var1) { _fun0013_ip = 89; continue _fun0013 }
+            if(!var1) { _fun0013_ip = 38; continue _fun0013 }
 case 71:
             var3 = var4.endsWith;
             var2 = '…';
             var1 = var3.bind(var4)(var2);
-case 89:
+case 38:
             return var1;
         }
     };
