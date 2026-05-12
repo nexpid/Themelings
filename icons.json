@@ -238,7 +238,7 @@
         "height": 240
     },
     "app_installed_check": {
-        "file": "app/modules/user_settings/native/connections/two_way_link/images/app_installed_check.png",
+        "file": "app/modules/user_settings/connections/native/two_way_link/images/app_installed_check.png",
         "hash": "84a5f82b0047a661ec45232254da9031",
         "scales": [
             2,
@@ -1278,33 +1278,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "chat_dark": {
-        "file": "app/images/native/gradient_overlays/chat_dark.png",
-        "hash": "a0acc51b61c3f8cc691fa1672c4e7ded",
-        "scales": [
-            1
-        ],
-        "width": 1125,
-        "height": 96
-    },
-    "chat_light": {
-        "file": "app/images/native/gradient_overlays/chat_light.png",
-        "hash": "be5641f08673034d032dfbab74830345",
-        "scales": [
-            1
-        ],
-        "width": 1125,
-        "height": 96
-    },
-    "chat_medium": {
-        "file": "app/images/native/gradient_overlays/chat_medium.png",
-        "hash": "f656e5171d02d2b0d2d8d191da682ebd",
-        "scales": [
-            1
-        ],
-        "width": 1125,
-        "height": 96
     },
     "ChatArrowRightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatArrowRightIcon.png",
@@ -13041,7 +13014,7 @@
         "height": 24
     },
     "xbox_app_phone": {
-        "file": "app/modules/user_settings/native/connections/two_way_link/images/xbox_app_phone.png",
+        "file": "app/modules/user_settings/connections/native/two_way_link/images/xbox_app_phone.png",
         "hash": "07edfc27bc58db41fd8c1993a9ed69f0",
         "scales": [
             2,
