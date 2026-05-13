@@ -900,6 +900,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SEASONAL_GIFTING_REMINDER_NAGBAR'] = var1;
     var1 = 'gifting promotion coachmark';
     var2['GIFTING_PROMOTION_COACHMARK'] = var1;
+    var1 = 'gifting badge post purchase';
+    var2['GIFTING_BADGE_POST_PURCHASE'] = var1;
     var1 = 'third party promotions modal';
     var2['THIRD_PARTY_PROMOTIONS_MODAL'] = var1;
     var1 = 'recurring 3pp modal';

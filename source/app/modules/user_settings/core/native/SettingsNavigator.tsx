@@ -597,50 +597,23 @@ case 28:
 case 27:
             var9[1] = var10;
             var6['style'] = var9;
-            var9 = function onAccessibilityAction(arg1) {
+            var9 = function onAccessibilityEscape() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var1 = arg1;
-                    var1 = var1.nativeEvent;
-                    var2 = var1.actionName;
-                    var1 = 'escape';
-                    var1 = var1 === var2;
-                    if(!var1) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
                     var3 = _closure2_slot5;
                     var2 = var3.canGoBack;
-                    var1 = var2.bind(var3)();
-case 29:
-                    if(!var1) { _fun0006_ip = 22; continue _fun0006 }
-case 18:
+                    var2 = var2.bind(var3)();
+                    if(!var2) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
                     var2 = _closure2_slot5;
                     var1 = var2.goBack;
                     var1 = var1.bind(var2)();
-case 22:
+case 29:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var6['onAccessibilityAction'] = var9;
-            var10 = {};
-            var9 = 'escape';
-            var10['name'] = var9;
-            var22 = _closure1_slot0;
-            var23 = _closure1_slot2;
-            var9 = 28;
-            var11 = var23[var9];
-            var11 = var22.bind(var4)(var11);
-            var14 = var11.intl;
-            var11 = var14.string;
-            var9 = var23[var9];
-            var9 = var22.bind(var4)(var9);
-            var9 = var9.t;
-            var9 = var9["13/7kX"];
-            var9 = var11.bind(var14)(var9);
-            var10['label'] = var9;
-            var9 = new Array(1);
-            var9[0] = var10;
-            var6['accessibilityActions'] = var9;
+            var6['onAccessibilityEscape'] = var9;
             var11 = _closure1_slot12;
             var9 = _closure1_slot13;
             var10 = var9.Navigator;
@@ -744,28 +717,28 @@ case 0:
                     var2 = var2 === var5;
                     var4 = undefined;
                     if(var2) { _fun0007_ip = 34; continue _fun0007 }
-case 30:
+case 35:
                     var4 = var7;
 case 34:
                     var _closure3_slot0 = var4;
                     var7 = undefined;
                     if(var2) { _fun0007_ip = 22; continue _fun0007 }
-case 35:
+case 36:
                     var8 = var3().value;
                     var3 = var1;
                     var3 = var3 === var5;
                     var7 = undefined;
                     var2 = var3;
                     if(var3) { _fun0007_ip = 22; continue _fun0007 }
-case 36:
+case 37:
                     var7 = var8;
                     var2 = var3;
 case 22:
                     var _closure3_slot1 = var7;
-                    if(var2) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
+                    if(var2) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
                     var1.return();
-case 37:
+case 38:
                     var3 = _closure1_slot11;
                     var1 = _closure1_slot13;
                     var2 = var1.Screen;
@@ -799,15 +772,15 @@ case 0:
                             var4 = var2.navigationOptions;
                             var2 = null;
                             var5 = var2 == var4;
-                            if(var5) { _fun0008_ip = 39; continue _fun0008 }
-case 40:
-                            var3 = var4.headerShadowVisible;
-case 39:
-                            var2 = var2 == var3;
-                            if(var2) { _fun0008_ip = 41; continue _fun0008 }
-case 42:
-                            var2 = var3;
+                            if(var5) { _fun0008_ip = 40; continue _fun0008 }
 case 41:
+                            var3 = var4.headerShadowVisible;
+case 40:
+                            var2 = var2 == var3;
+                            if(var2) { _fun0008_ip = 42; continue _fun0008 }
+case 43:
+                            var2 = var3;
+case 42:
                             var1['headerShadowVisible'] = var2;
                             return var1;
                         }
@@ -839,7 +812,7 @@ case 41:
                     var8 = var7.route;
                     var7 = undefined;
                     if(!(var9 === var8)) { _fun0007_ip = 10; continue _fun0007 }
-case 43:
+case 44:
                     var7 = _closure2_slot2;
 case 10:
                     var1['initialParams'] = var7;

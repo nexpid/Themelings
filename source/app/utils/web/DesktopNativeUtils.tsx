@@ -6247,6 +6247,83 @@ case 229:
             return var1;
         };
         var9['setUseRequireModuleCache'] = var13;
+        var13 = function GetSystemGpuStats(arg1) {
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var2 = this;
+            var _closure2_slot1 = var2;
+            var3 = _closure1_slot4;
+            var2 = undefined;
+            var1 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0144: for(var _fun0144_ip = 0; ; ) switch(_fun0144_ip) {
+case 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0144_ip = 145; continue _fun0144 }
+case 40:
+                        var3 = _closure1_slot0;
+                        var4 = _closure1_slot2;
+                        var2 = 6;
+                        var2 = var4[var2];
+                        var4 = undefined;
+                        var2 = var3.bind(var4)(var2);
+                        var2 = var2.isPlatformEmbedded;
+                        if(var2) { _fun0144_ip = 115; continue _fun0144 }
+case 99:
+                        var2 = new Array(0);
+                        return var2;
+case 115:
+                        var5 = _closure2_slot1;
+                        var2 = var5.ensureModule;
+                        var7 = 'discord_media';
+                        var2 = var2.bind(var5)(var7);
+                        SaveGenerator(address=79);
+case 163:
+                        return var2;
+case 52:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                        if(var5) { _fun0144_ip = 14; continue _fun0144 }
+case 232:
+                        var6 = _closure2_slot1;
+                        var5 = var6.requireModule;
+                        var5 = var5.bind(var6)(var7);
+                        var6 = null;
+                        var7 = var6 == var5;
+                        var4 = undefined;
+                        if(var7) { _fun0144_ip = 230; continue _fun0144 }
+case 95:
+                        var4 = var5.getGpuStats;
+case 230:
+                        if(!(var6 != var4)) { _fun0144_ip = 149; continue _fun0144 }
+case 105:
+                        var4 = var5.getGpuStats;
+                        var3 = _closure2_slot0;
+                        var5 = var4.bind(var5)(var3);
+                        var4 = var5.catch;
+                        var3 = function() {
+                            var1 = new Array(0);
+                            return var1;
+                        };
+                        var3 = var4.bind(var5)(var3);
+                        _fun0144_ip = 166; continue _fun0144;
+case 149:
+                        var3 = new Array(0);
+case 166:
+                        return var3;
+case 14:
+                        return var2;
+case 145:
+                        return var1;
+                    }
+                };
+                return var1;
+            };
+            var1 = var3.bind(var2)(var1);
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var9['GetSystemGpuStats'] = var13;
         var _closure1_slot24 = var9;
         var10 = 14;
         var10 = var12[var10];

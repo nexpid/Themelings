@@ -125,8 +125,6 @@ case 0:
             var7 = var7.AgeVerificationModalEntryPoint;
             var7 = var7.RETRY_MODAL;
             var2['entryPoint'] = var7;
-            var7 = true;
-            var2['isRetry'] = var7;
             var2 = var3.bind(var6)(var2);
             var6 = var2.loading;
             var9 = var2.initiateAgeVerification;

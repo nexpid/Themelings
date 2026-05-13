@@ -133,10 +133,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = 8;
         var9 = var15[var9];
         var9 = var10.bind(var4)(var9);
-        var10 = var9.rIK0E2;
+        var10 = var9.SIHRfH;
         var9 = {};
-        var9['giftsToNextTier'] = var14;
-        var9['nextTierName'] = var13;
+        var9['giftsRemaining'] = var14;
+        var9['nextTier'] = var13;
         var9 = var11.bind(var12)(var10, var9);
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);

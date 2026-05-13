@@ -194,6 +194,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PORT_AWARE_LATENCY_TESTING'] = var2;
     var2 = 'spatial_audio';
     var4['SPATIAL_AUDIO'] = var2;
+    var2 = 'krisp_native_error';
+    var4['KRISP_NATIVE_ERROR'] = var2;
     var2 = {};
     var2['Started'] = var37;
     var35 = 'Started';

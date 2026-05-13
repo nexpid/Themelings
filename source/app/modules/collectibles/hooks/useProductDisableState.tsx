@@ -60,10 +60,12 @@ case 2:
             var1 = 2;
             var1 = var3[var1];
             var1 = var2.bind(var8)(var1);
-            var1 = var1.FractionalPremiumSKUs;
-            var2 = var1.PREMIUM_TIER_2_3_DAY;
+            var1 = var1.FractionalPremiumSKUsSets;
+            var3 = var1.ALL;
+            var2 = var3.has;
             var1 = arg1;
-            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+            var1 = var2.bind(var3)(var1);
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var1 = {'isDisabled': false, 'disabledReason': null};
             _fun0001_ip = 6; continue _fun0001;

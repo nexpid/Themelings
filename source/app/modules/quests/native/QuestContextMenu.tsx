@@ -737,6 +737,8 @@ case 27:
             var1 = {};
             var1['items'] = var7;
             var1['onOpen'] = var6;
+            var6 = true;
+            var1['triggerOnTap'] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

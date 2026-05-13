@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var15.bind(var1)(var2);
     var2 = var2.InAppFeedbackType;
     var2 = var2.VIDEO_BACKGROUND;
-    var6 = new Array(8);
+    var6 = new Array(7);
     var6[0] = var2;
     var2 = var16[var14];
     var2 = var15.bind(var1)(var2);
@@ -65,11 +65,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var2.InAppFeedbackType;
     var2 = var2.SEARCH_RESULTS;
     var6[6] = var2;
-    var2 = var16[var14];
-    var2 = var15.bind(var1)(var2);
-    var2 = var2.InAppFeedbackType;
-    var2 = var2.AGE_VERIFICATION;
-    var6[7] = var2;
     var5 = var6.reduce;
     var4 = function(arg1, arg2, arg3) {
         var1 = {};

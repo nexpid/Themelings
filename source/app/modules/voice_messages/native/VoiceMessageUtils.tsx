@@ -101,13 +101,29 @@ case 6: // try_start_0
                     var2 = var8.getMediaEngine;
                     var9 = var2.bind(var8)();
                     var8 = var9.startLocalAudioRecording;
-                    var2 = {'echoCancellation': false, 'echoCancellationPreEcho': false, 'noiseSuppression': false, 'automaticGainControlConfig': null, 'noiseCancellation': true};
+                    var2 = {};
+                    var11 = _closure1_slot4;
+                    var10 = var11.getEchoCancellation;
+                    var10 = var10.bind(var11)();
+                    var2['echoCancellation'] = var10;
+                    var10 = false;
+                    var2['echoCancellationPreEcho'] = var10;
+                    var11 = _closure1_slot4;
+                    var10 = var11.getNoiseSuppression;
+                    var10 = var10.bind(var11)();
+                    var2['noiseSuppression'] = var10;
                     var10 = {};
-                    var11 = true;
+                    var12 = _closure1_slot4;
+                    var11 = var12.getAutomaticGainControl;
+                    var11 = var11.bind(var12)();
                     var10['enabled'] = var11;
                     var2['automaticGainControlConfig'] = var10;
+                    var11 = _closure1_slot4;
+                    var10 = var11.getNoiseCancellation;
+                    var10 = var10.bind(var11)();
+                    var2['noiseCancellation'] = var10;
                     var2 = var8.bind(var9)(var2);
-                    SaveGenerator(address=193);
+                    SaveGenerator(address=256);
 case 7:
                     return var2;
 case 8:

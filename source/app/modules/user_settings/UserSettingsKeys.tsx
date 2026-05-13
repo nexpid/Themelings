@@ -890,6 +890,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ONLY_SHOW_PREVIEW_APP_COLLECTIONS'] = var1;
     var1 = 'disable_app_collections_cache';
     var2['DISABLE_APP_COLLECTIONS_CACHE'] = var1;
+    var1 = 'discord_stats_popout';
+    var2['DISCORD_STATS_POPOUT'] = var1;
     var1 = 'logging';
     var2['LOGGING'] = var1;
     var1 = 'gateway_logs';

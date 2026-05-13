@@ -2050,28 +2050,28 @@ case 0:
                 var3 = _closure1_slot2;
                 var1 = 24;
                 var1 = var3[var1];
-                var7 = var2.bind(var4)(var1);
-                var5 = var7.get;
+                var5 = var2.bind(var4)(var1);
+                var2 = var5.get;
                 var1 = var6.type;
-                var11 = var5.bind(var7)(var1);
+                var11 = var2.bind(var5)(var1);
+                var2 = _closure1_slot0;
                 var1 = 40;
                 var1 = var3[var1];
                 var3 = var2.bind(var4)(var1);
-                var2 = var3.getConfig;
+                var2 = var3.getIsRiotSocialSDKMigrationEnabled;
                 var1 = {};
                 var5 = 'User Settings Connections Mobile';
                 var1['location'] = var5;
                 var1 = var2.bind(var3)(var1);
-                var1 = var1.enabled;
                 if(!var1) { _fun0016_ip = 96; continue _fun0016 }
-case 39:
+case 97:
                 var2 = var11.replacedBy;
                 var1 = null;
-                if(!(var1 == var2)) { _fun0016_ip = 97; continue _fun0016 }
+                if(!(var1 == var2)) { _fun0016_ip = 61; continue _fun0016 }
 case 96:
                 var21 = var6.name;
                 _fun0016_ip = 98; continue _fun0016;
-case 97:
+case 61:
                 var2 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var1 = 21;
@@ -2119,13 +2119,13 @@ case 98:
                 var6 = var12.isThemeDark;
                 var6 = var6.bind(var12)(var13);
                 var11 = var11.icon;
-                if(var6) { _fun0016_ip = 19; continue _fun0016 }
-case 99:
-                var6 = var11.lightPNG;
-                _fun0016_ip = 100; continue _fun0016;
-case 19:
-                var6 = var11.darkPNG;
+                if(var6) { _fun0016_ip = 99; continue _fun0016 }
 case 100:
+                var6 = var11.lightPNG;
+                _fun0016_ip = 101; continue _fun0016;
+case 99:
+                var6 = var11.darkPNG;
+case 101:
                 var6 = var7.bind(var10)(var6);
                 var1['source'] = var6;
                 var1['disableColor'] = var5;

@@ -219,6 +219,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_DISCOVERY'] = var2;
     var2 = 'impression_guild_hangout_window';
     var4['GUILD_HANGOUT_WINDOW'] = var2;
+    var2 = 'impression_guild_hangout_window_entry_point';
+    var4['GUILD_HANGOUT_WINDOW_ENTRY_POINT'] = var2;
     var2 = 'impression_guild_hangout_window_modal';
     var4['GUILD_HANGOUT_WINDOW_MODAL'] = var2;
     var2 = 'impression_guild_invite';

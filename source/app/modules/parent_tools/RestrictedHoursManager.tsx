@@ -70,6 +70,7 @@ case 0:
             if(!(var2 !== var5)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
             var12 = var4.rule;
+            var14 = var4.startAtMs;
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var4 = 7;
@@ -85,10 +86,25 @@ case 7:
             var6 = var6["0JlDg0"];
             var7 = var7.bind(var10)(var6);
             var6 = 9;
+            var6 = var8[var6];
+            var6 = var9.bind(var5)(var6);
+            var10 = var6.JS_DAY_TO_DAY_OF_WEEK;
+            var6 = var3.Date;
+            var13 = var6.prototype;
+            var13 = Object.create(var13, {constructor: {value: var6}});
+            var19 = var13;
+            var18 = var14;
+            var6 = new var19[var6](var18, var17);
+            var13 = var6 instanceof Object ? var6 : var13;
+            var6 = var13.getDay;
+            var6 = var6.bind(var13)();
+            var15 = var10[var6];
+            var6 = 10;
             var10 = var8[var6];
             var14 = var9.bind(var5)(var10);
             var13 = var14.formatDays;
-            var10 = var12.days;
+            var10 = new Array(1);
+            var10[0] = var15;
             var10 = var13.bind(var14)(var10);
             var6 = var8[var6];
             var9 = var9.bind(var5)(var6);
@@ -100,7 +116,7 @@ case 7:
             var6 = var6.bind(var11)(var10, var3, var9);
             var3 = var6.trim;
             var6 = var3.bind(var6)();
-            var3 = 10;
+            var3 = 11;
             var3 = var8[var3];
             var5 = var4.bind(var5)(var3);
             var4 = var5.dispatch;
@@ -140,7 +156,7 @@ case 8:
             var12 = var1 instanceof Object ? var1 : var6;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var6 = var6[var1];
             var1 = undefined;
             var8 = var7.bind(var1)(var6);
@@ -257,7 +273,7 @@ case 22:
             _closure1_slot10 = var3;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 10;
+            var3 = 11;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.dispatch;
@@ -270,7 +286,7 @@ case 22:
             var3 = _closure1_slot10;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 12;
+            var4 = 13;
             var4 = var6[var4];
             var4 = var5.bind(var1)(var4);
             if(var3) { _fun0004_ip = 23; continue _fun0004 }
@@ -297,20 +313,14 @@ case 0:
             var2 = null;
             _closure1_slot13 = var2;
             var5 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var1 = 10;
-            var4 = var6[var1];
+            var4 = _closure1_slot2;
+            var1 = 11;
+            var4 = var4[var1];
             var1 = undefined;
-            var7 = var5.bind(var1)(var4);
-            var5 = var7.dispatch;
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.dispatch;
             var4 = {'type': 'RESTRICTED_HOURS_STATE_CHANGE', 'isInRestrictedHours': false};
-            var4 = var5.bind(var7)(var4);
-            var5 = _closure1_slot0;
-            var4 = 12;
-            var4 = var6[var4];
-            var5 = var5.bind(var1)(var4);
-            var4 = var5.closeRestrictedHoursModal;
-            var4 = var4.bind(var5)();
+            var4 = var5.bind(var6)(var4);
             var4 = _closure1_slot12;
             if(!(var2 != var4)) { _fun0005_ip = 26; continue _fun0005 }
 case 27:
@@ -376,7 +386,7 @@ case 26:
     var _closure1_slot11 = var5;
     var _closure1_slot12 = var5;
     var _closure1_slot13 = var5;
-    var5 = 13;
+    var5 = 14;
     var5 = var7[var5];
     var5 = var8.bind(var1)(var5);
     var4 = function(arg1) {
@@ -457,7 +467,7 @@ case 0:
                 _closure1_slot10 = var3;
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 10;
+                var3 = 11;
                 var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.dispatch;
@@ -472,7 +482,7 @@ case 0:
 case 32:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 12;
+                var3 = 13;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.openRestrictedHoursModal;
@@ -522,7 +532,7 @@ case 35:
                 _closure1_slot13 = var1;
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var2);
@@ -544,7 +554,7 @@ case 35:
     var14 = var5;
     var4 = new var14[var4](var13);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 14;
+    var5 = 15;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

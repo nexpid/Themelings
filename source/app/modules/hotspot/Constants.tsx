@@ -90,8 +90,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BLOCK_USER_FEEDBACK'] = var1;
     var1 = 'SEARCH_RESULTS_FEEDBACK';
     var2['SEARCH_RESULTS_FEEDBACK'] = var1;
-    var1 = 'AGE_VERIFICATION_FEEDBACK';
-    var2['AGE_VERIFICATION_FEEDBACK'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

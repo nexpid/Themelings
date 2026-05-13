@@ -318,9 +318,7 @@ case 13:
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
             var3 = var4.dispatch;
-            var2 = {};
-            var5 = 'APPLICATION_FETCH_SUCCESS';
-            var2['type'] = var5;
+            var2 = {'type': 'APPLICATION_FETCH_SUCCESS', 'application': null, 'isHydrated': true};
             var5 = var1.body;
             var2['application'] = var5;
             var2 = var3.bind(var4)(var2);

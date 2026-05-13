@@ -655,7 +655,6 @@ case 62:
                 var2['CREATE_INVITE_MODAL_OPEN'] = var4;
                 var3 = _closure1_slot21;
                 var2['GUILD_SETTINGS_CLOSE'] = var3;
-                var2['USER_SETTINGS_MODAL_CLOSE'] = var3;
                 var2['NOTIFICATION_SETTINGS_MODAL_CLOSE'] = var3;
                 var2['PREMIUM_PAYMENT_MODAL_CLOSE'] = var3;
                 var2['EMAIL_VERIFICATION_MODAL_CLOSE'] = var3;

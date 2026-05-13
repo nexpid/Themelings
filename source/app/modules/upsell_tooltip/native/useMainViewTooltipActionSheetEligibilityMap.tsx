@@ -230,17 +230,17 @@ case 15:
             var12 = var4;
 case 14:
             var _closure2_slot0 = var12;
-            var4 = _closure1_slot0;
+            var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = var8[var3];
-            var16 = var4.bind(var6)(var5);
+            var4 = var8[var3];
+            var16 = var7.bind(var6)(var4);
             var13 = var16.useStateFromStores;
-            var5 = _closure1_slot6;
+            var4 = _closure1_slot6;
             var10 = new Array(1);
-            var10[0] = var5;
-            var7 = new Array(1);
-            var7[0] = var12;
-            var5 = function() {
+            var10[0] = var4;
+            var5 = new Array(1);
+            var5[0] = var12;
+            var4 = function() {
                 var3 = _closure1_slot6;
                 var2 = var3.getReferralsRemaining;
                 var1 = {};
@@ -250,14 +250,14 @@ case 14:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var13 = var13.bind(var16)(var10, var5, var7);
-            var5 = var8[var3];
-            var17 = var4.bind(var6)(var5);
+            var13 = var13.bind(var16)(var10, var4, var5);
+            var4 = var8[var3];
+            var17 = var7.bind(var6)(var4);
             var16 = var17.useStateFromStores;
-            var5 = _closure1_slot8;
+            var4 = _closure1_slot8;
             var10 = new Array(1);
-            var10[0] = var5;
-            var7 = function() {
+            var10[0] = var4;
+            var5 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure1_slot8;
@@ -273,13 +273,13 @@ case 16:
                     return var1;
                 }
             };
-            var21 = var16.bind(var17)(var10, var7);
-            var7 = var8[var3];
-            var17 = var4.bind(var6)(var7);
+            var21 = var16.bind(var17)(var10, var5);
+            var5 = var8[var3];
+            var17 = var7.bind(var6)(var5);
             var16 = var17.useStateFromStores;
             var10 = new Array(1);
-            var10[0] = var5;
-            var7 = function() {
+            var10[0] = var4;
+            var5 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var3 = _closure1_slot8;
@@ -312,13 +312,13 @@ case 18:
                     return var1;
                 }
             };
-            var28 = var16.bind(var17)(var10, var7);
-            var7 = var8[var3];
-            var16 = var4.bind(var6)(var7);
+            var28 = var16.bind(var17)(var10, var5);
+            var5 = var8[var3];
+            var16 = var7.bind(var6)(var5);
             var10 = var16.useStateFromStores;
-            var7 = new Array(1);
-            var7[0] = var5;
-            var5 = function() {
+            var5 = new Array(1);
+            var5[0] = var4;
+            var4 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var3 = _closure1_slot8;
@@ -351,31 +351,31 @@ case 18:
                     return var1;
                 }
             };
-            var22 = var10.bind(var16)(var7, var5);
-            var5 = 20;
-            var5 = var8[var5];
-            var5 = var4.bind(var6)(var5);
-            var10 = var5.GiftPromotionReminderExperiment;
-            var7 = var10.useConfig;
-            var5 = {};
-            var5['location'] = var9;
-            var5 = var7.bind(var10)(var5);
-            var24 = var5.enabled;
-            var5 = 21;
-            var5 = var8[var5];
-            var5 = var4.bind(var6)(var5);
-            var10 = var5.GiftingBadgeExperiment;
-            var7 = var10.useConfig;
-            var5 = {};
-            var5['location'] = var9;
-            var5 = var7.bind(var10)(var5);
-            var16 = var5.enabled;
+            var22 = var10.bind(var16)(var5, var4);
+            var4 = 20;
+            var4 = var8[var4];
+            var4 = var7.bind(var6)(var4);
+            var10 = var4.GiftPromotionReminderExperiment;
+            var5 = var10.useConfig;
+            var4 = {};
+            var4['location'] = var9;
+            var4 = var5.bind(var10)(var4);
+            var24 = var4.enabled;
+            var4 = 21;
+            var4 = var8[var4];
+            var4 = var7.bind(var6)(var4);
+            var10 = var4.GiftingBadgeExperiment;
+            var5 = var10.useConfig;
+            var4 = {};
+            var4['location'] = var9;
+            var4 = var5.bind(var10)(var4);
+            var16 = var4.enabled;
             var _closure2_slot1 = var16;
             var17 = _closure1_slot4;
             var10 = var17.useEffect;
-            var7 = new Array(1);
-            var7[0] = var16;
-            var5 = function() {
+            var5 = new Array(1);
+            var5[0] = var16;
+            var4 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = _closure2_slot1;
@@ -399,14 +399,14 @@ case 21:
                     return var1;
                 }
             };
-            var5 = var10.bind(var17)(var5, var7);
-            var5 = var8[var3];
-            var17 = var4.bind(var6)(var5);
+            var4 = var10.bind(var17)(var4, var5);
+            var4 = var8[var3];
+            var17 = var7.bind(var6)(var4);
             var10 = var17.useStateFromStores;
-            var5 = _closure1_slot5;
-            var7 = new Array(1);
-            var7[0] = var5;
-            var5 = function() {
+            var4 = _closure1_slot5;
+            var5 = new Array(1);
+            var5[0] = var4;
+            var4 = function() {
                 var3 = _closure1_slot5;
                 var2 = var3.getBadgeById;
                 var5 = _closure1_slot0;
@@ -422,10 +422,10 @@ case 21:
                 var1 = var1 != var2;
                 return var1;
             };
-            var17 = var10.bind(var17)(var7, var5);
+            var17 = var10.bind(var17)(var5, var4);
             var3 = var8[var3];
-            var7 = var4.bind(var6)(var3);
-            var5 = var7.useStateFromStores;
+            var5 = var7.bind(var6)(var3);
+            var4 = var5.useStateFromStores;
             var10 = _closure1_slot11;
             var3 = new Array(1);
             var3[0] = var10;
@@ -451,45 +451,43 @@ case 25:
                     return var1;
                 }
             };
-            var18 = var5.bind(var7)(var3, var2);
+            var18 = var4.bind(var5)(var3, var2);
             var2 = 24;
             var2 = var8[var2];
-            var3 = var4.bind(var6)(var2);
+            var3 = var7.bind(var6)(var2);
             var2 = var3.useProfileFramesMarketing;
             var2 = var2.bind(var3)(var9);
             var5 = var2.isAnnouncementEligible;
             var2 = 25;
             var2 = var8[var2];
-            var3 = var4.bind(var6)(var2);
+            var3 = var7.bind(var6)(var2);
             var2 = var3.useShouldShowRobloxConnectionCoachmark;
             var20 = var2.bind(var3)();
             var2 = 26;
             var2 = var8[var2];
-            var3 = var4.bind(var6)(var2);
+            var3 = var7.bind(var6)(var2);
             var2 = var3.useIsEligibleForBogoPromotion;
             var19 = var2.bind(var3)();
             var2 = _closure1_slot12;
-            var7 = var2.LEAGUE_OF_LEGENDS;
+            var4 = var2.LEAGUE_OF_LEGENDS;
             var3 = new Array(2);
-            var3[0] = var7;
+            var3[0] = var4;
             var2 = var2.RIOT_GAMES;
             var3[1] = var2;
             var2 = 27;
             var2 = var8[var2];
-            var7 = var4.bind(var6)(var2);
-            var4 = var7.useShouldShowConnectionDeprecationBottomSheet;
+            var10 = var7.bind(var6)(var2);
+            var4 = var10.useShouldShowConnectionDeprecationBottomSheet;
             var2 = {};
             var2['deprecatedPlatformTypes'] = var3;
-            var4 = var4.bind(var7)(var2);
-            var7 = _closure1_slot1;
+            var4 = var4.bind(var10)(var2);
             var2 = 28;
             var2 = var8[var2];
             var8 = var7.bind(var6)(var2);
-            var7 = var8.useConfig;
+            var7 = var8.useIsRiotSocialSDKMigrationEnabled;
             var2 = {};
             var2['location'] = var9;
-            var2 = var7.bind(var8)(var2);
-            var10 = var2.enabled;
+            var10 = var7.bind(var8)(var2);
             var23 = var15 != var28;
             if(var1) { _fun0001_ip = 27; continue _fun0001 }
 case 28:

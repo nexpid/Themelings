@@ -205,22 +205,16 @@ case 22:
             var6 = var7.useAnimatedStyle;
             var5 = function E() {
                 var1 = {};
-                var3 = _closure2_slot8;
-                var4 = var3.completionGlow;
-                var5 = var1;
-                var3 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot6;
                 var2 = var3.get;
-                var3 = var2.bind(var3)();
-                var2 = 'shadowOpacity';
-                var1[1] = var3;
+                var2 = var2.bind(var3)();
+                var1['shadowOpacity'] = var2;
                 return var1;
             };
             var8 = {};
-            var8['styles'] = var11;
             var8['glowOpacity'] = var14;
             var5['__closure'] = var8;
-            var8 = 13949105036113.0;
+            var8 = 4459043613798.0;
             var5['__workletHash'] = var8;
             var8 = _closure1_slot14;
             var5['__initData'] = var8;
@@ -383,9 +377,11 @@ case 29:
             var2 = var1.View;
             var1 = {};
             var7 = var11.container;
-            var5 = new Array(2);
+            var5 = new Array(3);
             var5[0] = var7;
-            var5[1] = var6;
+            var7 = var11.completionGlow;
+            var5[1] = var7;
+            var5[2] = var6;
             var1['style'] = var5;
             var5 = 'box-none';
             var1['pointerEvents'] = var5;
@@ -599,7 +595,7 @@ case 29:
     var4 = var8.bind(var9)(var4);
     var _closure1_slot13 = var4;
     var4 = {};
-    var8 = 'function QuestActivityButtonTsx1(){const{styles,glowOpacity}=this.__closure;return{...styles.completionGlow,shadowOpacity:glowOpacity.get()};}';
+    var8 = 'function QuestActivityButtonTsx1(){const{glowOpacity}=this.__closure;return{shadowOpacity:glowOpacity.get()};}';
     var4['code'] = var8;
     var _closure1_slot14 = var4;
     var4 = {};

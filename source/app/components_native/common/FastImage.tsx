@@ -74,16 +74,17 @@ case 0:
                 var5 = arg1;
                 var2 = _closure1_slot3;
                 var4 = undefined;
-                var13 = var2.bind(var4)();
+                var14 = var2.bind(var4)();
                 var2 = var5.source;
-                var12 = var5.style;
+                var13 = var5.style;
                 var6 = var5.placeholder;
                 var3 = var5.enableAnimation;
-                var10 = var4 === var3;
-                if(var10) { _fun0002_ip = 2; continue _fun0002 }
+                var11 = var4 === var3;
+                if(var11) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                var10 = var3;
+                var11 = var3;
 case 2:
+                var10 = var5.paused;
                 var3 = var5.fade;
                 var9 = var4 === var3;
                 if(var9) { _fun0002_ip = 4; continue _fun0002 }
@@ -100,8 +101,8 @@ case 6:
                 var2 = typeof var2;
                 if(!(var3 !== var2)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                var11 = null;
-                var2 = var11 != var6;
+                var12 = null;
+                var2 = var12 != var6;
                 var7 = null;
                 if(!var2) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
@@ -112,24 +113,26 @@ case 10:
                 var6 = _closure1_slot2;
                 var3 = _closure1_slot4;
                 var2 = {};
-                var16 = var2;
-                var15 = var5;
-                var14 = copyDataProperties(var16, var15);
-                var14 = var13.base;
-                var13 = new Array(2);
-                var13[0] = var14;
-                var13[1] = var12;
-                var12 = 'style';
-                var2[11] = var13;
-                var12 = var11 == var7;
-                var11 = undefined;
-                if(var12) { _fun0002_ip = 12; continue _fun0002 }
+                var17 = var2;
+                var16 = var5;
+                var15 = copyDataProperties(var17, var16);
+                var15 = var14.base;
+                var14 = new Array(2);
+                var14[0] = var15;
+                var14[1] = var13;
+                var13 = 'style';
+                var2[12] = var14;
+                var13 = var12 == var7;
+                var12 = undefined;
+                if(var13) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                var11 = var7.uri;
+                var12 = var7.uri;
 case 12:
                 var7 = 'placeholder';
-                var2[6] = var11;
+                var2[6] = var12;
                 var7 = 'enableAnimation';
+                var2[6] = var11;
+                var7 = 'paused';
                 var2[6] = var10;
                 var7 = 'fade';
                 var2[6] = var9;
@@ -141,9 +144,9 @@ case 8:
                 var3 = _closure1_slot2;
                 var2 = _closure1_slot0;
                 var1 = {};
-                var16 = var1;
-                var15 = var5;
-                var5 = copyDataProperties(var16, var15);
+                var17 = var1;
+                var16 = var5;
+                var5 = copyDataProperties(var17, var16);
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             }

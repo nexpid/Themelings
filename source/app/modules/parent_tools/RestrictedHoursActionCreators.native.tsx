@@ -47,8 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 1;
         var3 = var3[var1];
         var1 = undefined;
-        var6 = var4.bind(var1)(var3);
-        var5 = var6.pushLazy;
+        var7 = var4.bind(var1)(var3);
+        var6 = var7.pushLazy;
         var4 = _closure1_slot3;
         var3 = function* () {
             var1 = function* anon_0_() {
@@ -85,12 +85,15 @@ case 2:
             };
             return var1;
         };
-        var4 = var4.bind(var1)(var3);
-        var3 = {};
-        var7 = _closure1_slot5;
-        var3['onClose'] = var7;
-        var2 = _closure1_slot4;
-        var2 = var5.bind(var6)(var4, var3, var2);
+        var11 = var4.bind(var1)(var3);
+        var4 = {};
+        var3 = _closure1_slot5;
+        var4['onClose'] = var3;
+        var9 = _closure1_slot4;
+        var8 = {'animation': 'none', 'presentation': 'fullScreenModal'};
+        var12 = var7;
+        var10 = var4;
+        var2 = var12[var6](var11, var10, var9, var8, var7);
         return var1;
     };
     var3['openRestrictedHoursModal'] = var4;

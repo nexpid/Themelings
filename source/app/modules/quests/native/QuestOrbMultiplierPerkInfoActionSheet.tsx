@@ -90,23 +90,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.spacing;
     var12 = var12.PX_12;
     var9['gap'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_16;
-    var9['marginVertical'] = var12;
-    var4['buttonContainer'] = var9;
-    var9 = {'textTransform': 'uppercase', 'textAlign': 'center', 'lineHeight': 34, 'paddingHorizontal': 0};
-    var4['title'] = var9;
-    var9 = {'backgroundColor': 'white', 'color': 'black'};
-    var4['betaTagDark'] = var9;
-    var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.spacing;
-    var10 = var10.PX_8;
-    var9['marginBottom'] = var10;
-    var4['betaTag'] = var9;
+    var10 = var10.PX_16;
+    var9['marginVertical'] = var10;
+    var4['buttonContainer'] = var9;
+    var9 = {'textTransform': 'uppercase', 'textAlign': 'center', 'lineHeight': 34, 'paddingHorizontal': 0};
+    var4['title'] = var9;
     var9 = {'width': '100%', 'height': 160};
     var4['riveContainer'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -289,159 +280,108 @@ case 4:
     };
     var _closure1_slot13 = var4;
     var4 = function SheetContent(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var1 = arg1;
-            var21 = var1.title;
-            var16 = var1.body;
-            var14 = var1.eligibleToReceivePremiumRewards;
-            var1 = _closure1_slot12;
-            var4 = undefined;
-            var17 = var1.bind(var4)();
-            var2 = _closure1_slot1;
-            var18 = _closure1_slot2;
-            var1 = 13;
-            var1 = var18[var1];
-            var1 = var2.bind(var4)(var1);
-            var1 = var1.bind(var4)();
-            var13 = var1.bottom;
-            var1 = 14;
-            var1 = var18[var1];
-            var1 = var2.bind(var4)(var1);
-            var3 = var1.bind(var4)();
-            var15 = _closure1_slot0;
-            var1 = 15;
-            var1 = var18[var1];
-            var2 = var15.bind(var4)(var1);
-            var1 = var2.isThemeDark;
-            var20 = var1.bind(var2)(var3);
-            var1 = 16;
-            var1 = var18[var1];
-            var3 = var15.bind(var4)(var1);
-            var2 = var3.useCroissantEnabled;
-            var1 = 'QuestOrbMultiplierPerkInfoActionSheet';
-            var12 = var2.bind(var3)(var1);
-            var3 = _closure1_slot9;
-            var2 = _closure1_slot10;
-            var1 = {};
-            var8 = _closure1_slot8;
-            var5 = 17;
-            var5 = var18[var5];
-            var5 = var15.bind(var4)(var5);
-            var6 = var5.ActionSheetHeaderBar;
-            var5 = {};
-            var7 = 'floating';
-            var5['variant'] = var7;
-            var6 = var8.bind(var4)(var6, var5);
-            var5 = new Array(2);
-            var5[0] = var6;
-            var7 = _closure1_slot4;
-            var6 = {};
-            var10 = var17.container;
-            var9 = new Array(2);
-            var9[0] = var10;
-            var10 = {};
-            var10['marginBottom'] = var13;
-            var9[1] = var10;
-            var6['style'] = var9;
-            var9 = {};
-            var10 = var17.contentContainer;
-            var9['style'] = var10;
-            var10 = {};
-            var13 = var17.riveContainer;
-            var10['style'] = var13;
-            var13 = 18;
-            var13 = var18[var13];
-            var13 = var15.bind(var4)(var13);
-            var15 = var13.NitroQuestOrbsMultiplierRive;
-            var13 = {};
-            var13 = var8.bind(var4)(var15, var13);
-            var10['children'] = var13;
-            var13 = var8.bind(var4)(var7, var10);
-            var10 = new Array(5);
-            var10[0] = var13;
-            var12 = !var12;
-            if(!var12) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            var18 = _closure1_slot8;
-            var15 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var13 = 19;
-            var13 = var19[var13];
-            var13 = var15.bind(var4)(var13);
-            var15 = var13.BetaTag;
-            var13 = {};
-            var19 = var17.betaTag;
-            var22 = new Array(2);
-            var22[0] = var19;
-            var23 = null;
-            if(!var20) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-            var23 = var17.betaTagDark;
-case 7:
-            var22[1] = var23;
-            var13['style'] = var22;
-            var19 = null;
-            if(!var20) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var19 = var17.betaTagDark;
-case 9:
-            var13['textStyle'] = var19;
-            var12 = var18.bind(var4)(var15, var13);
-case 5:
-            var10[1] = var12;
-            var13 = _closure1_slot8;
-            var15 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var12 = 20;
-            var19 = var18[var12];
-            var19 = var15.bind(var4)(var19);
-            var20 = var19.Text;
-            var19 = {'style': null, 'variant': 'display-md', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
-            var23 = var17.text;
-            var22 = new Array(2);
-            var22[0] = var23;
-            var23 = var17.title;
-            var22[1] = var23;
-            var19['style'] = var22;
-            var19['children'] = var21;
-            var19 = var13.bind(var4)(var20, var19);
-            var10[2] = var19;
-            var12 = var18[var12];
-            var12 = var15.bind(var4)(var12);
-            var15 = var12.Text;
-            var12 = {};
-            var17 = var17.text;
-            var12['style'] = var17;
-            var17 = 'text-sm/normal';
-            var12['variant'] = var17;
-            var12['children'] = var16;
-            var12 = var13.bind(var4)(var15, var12);
-            var10[3] = var12;
-            var12 = _closure1_slot13;
-            var11 = {};
-            var11['eligibleToReceivePremiumRewards'] = var14;
-            var11 = var13.bind(var4)(var12, var11);
-            var10[4] = var11;
-            var9['children'] = var10;
-            var9 = var3.bind(var4)(var7, var9);
-            var6['children'] = var9;
-            var6 = var8.bind(var4)(var7, var6);
-            var5[1] = var6;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
+        var1 = arg1;
+        var20 = var1.title;
+        var15 = var1.body;
+        var13 = var1.eligibleToReceivePremiumRewards;
+        var1 = _closure1_slot12;
+        var4 = undefined;
+        var16 = var1.bind(var4)();
+        var2 = _closure1_slot1;
+        var17 = _closure1_slot2;
+        var1 = 13;
+        var1 = var17[var1];
+        var1 = var2.bind(var4)(var1);
+        var1 = var1.bind(var4)();
+        var12 = var1.bottom;
+        var3 = _closure1_slot9;
+        var2 = _closure1_slot10;
+        var1 = {};
+        var8 = _closure1_slot8;
+        var14 = _closure1_slot0;
+        var5 = 14;
+        var5 = var17[var5];
+        var5 = var14.bind(var4)(var5);
+        var6 = var5.ActionSheetHeaderBar;
+        var5 = {};
+        var7 = 'floating';
+        var5['variant'] = var7;
+        var6 = var8.bind(var4)(var6, var5);
+        var5 = new Array(2);
+        var5[0] = var6;
+        var7 = _closure1_slot4;
+        var6 = {};
+        var10 = var16.container;
+        var9 = new Array(2);
+        var9[0] = var10;
+        var10 = {};
+        var10['marginBottom'] = var12;
+        var9[1] = var10;
+        var6['style'] = var9;
+        var9 = {};
+        var10 = var16.contentContainer;
+        var9['style'] = var10;
+        var10 = {};
+        var12 = var16.riveContainer;
+        var10['style'] = var12;
+        var12 = 15;
+        var12 = var17[var12];
+        var12 = var14.bind(var4)(var12);
+        var18 = var12.NitroQuestOrbsMultiplierRive;
+        var12 = {};
+        var12 = var8.bind(var4)(var18, var12);
+        var10['children'] = var12;
+        var12 = var8.bind(var4)(var7, var10);
+        var10 = new Array(4);
+        var10[0] = var12;
+        var12 = 16;
+        var18 = var17[var12];
+        var18 = var14.bind(var4)(var18);
+        var19 = var18.Text;
+        var18 = {'style': null, 'variant': 'display-md', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
+        var22 = var16.text;
+        var21 = new Array(2);
+        var21[0] = var22;
+        var22 = var16.title;
+        var21[1] = var22;
+        var18['style'] = var21;
+        var18['children'] = var20;
+        var18 = var8.bind(var4)(var19, var18);
+        var10[1] = var18;
+        var12 = var17[var12];
+        var12 = var14.bind(var4)(var12);
+        var14 = var12.Text;
+        var12 = {};
+        var16 = var16.text;
+        var12['style'] = var16;
+        var16 = 'text-sm/normal';
+        var12['variant'] = var16;
+        var12['children'] = var15;
+        var12 = var8.bind(var4)(var14, var12);
+        var10[2] = var12;
+        var12 = _closure1_slot13;
+        var11 = {};
+        var11['eligibleToReceivePremiumRewards'] = var13;
+        var11 = var8.bind(var4)(var12, var11);
+        var10[3] = var11;
+        var9['children'] = var10;
+        var9 = var3.bind(var4)(var7, var9);
+        var6['children'] = var9;
+        var6 = var8.bind(var4)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var _closure1_slot14 = var4;
-    var4 = 26;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/quests/native/QuestOrbMultiplierPerkInfoActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function QuestOrbMultiplierPerkInfoActionSheet(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
             var6 = var2.multiplier;
@@ -450,21 +390,21 @@ case 0:
             var _closure2_slot1 = var10;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var4 = 21;
+            var4 = 17;
             var5 = var2[var4];
             var4 = undefined;
             var8 = var3.bind(var4)(var5);
             var5 = var8.shouldReceiveQuestOrbMultiplier;
             var9 = var5.bind(var8)(var10);
             var _closure2_slot2 = var9;
-            var5 = 22;
+            var5 = 18;
             var2 = var2[var5];
             var2 = var3.bind(var4)(var2);
             var2 = var2.QuestOrbMultiplierEligibilityType;
             var2 = var2.NITRO;
             var8 = var10 === var2;
-            if(var8) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            if(var8) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var5];
@@ -472,25 +412,25 @@ case 12:
             var2 = var2.QuestOrbMultiplierEligibilityType;
             var2 = var2.UPSELL;
             var8 = var10 === var2;
-case 11:
+case 5:
             var5 = _closure1_slot3;
             var11 = var5.useMemo;
             var3 = new Array(1);
             var3[0] = var10;
             var2 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var3 = _closure2_slot1;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 18;
                     var1 = var5[var1];
                     var6 = undefined;
                     var1 = var4.bind(var6)(var1);
                     var1 = var1.QuestOrbMultiplierEligibilityType;
                     var1 = var1.CREPE;
-                    if(!(var3 !== var1)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                    if(!(var3 !== var1)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var1 = 12;
@@ -503,8 +443,8 @@ case 14:
                     var1 = var1.t;
                     var1 = var1.F2MShO;
                     var1 = var3.bind(var4)(var1);
-                    _fun0004_ip = 15; continue _fun0004;
-case 13:
+                    _fun0003_ip = 9; continue _fun0003;
+case 7:
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 12;
@@ -513,12 +453,12 @@ case 13:
                     var4 = var3.intl;
                     var3 = var4.string;
                     var5 = _closure1_slot1;
-                    var2 = 23;
+                    var2 = 19;
                     var2 = var7[var2];
                     var2 = var5.bind(var6)(var2);
                     var2 = var2.c5usUr;
                     var1 = var3.bind(var4)(var2);
-case 15:
+case 9:
                     return var1;
                 }
             };
@@ -529,19 +469,19 @@ case 15:
             var2[1] = var10;
             var2[2] = var6;
             var1 = function() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var3 = _closure2_slot1;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 18;
                     var1 = var5[var1];
                     var7 = undefined;
                     var1 = var4.bind(var7)(var1);
                     var1 = var1.QuestOrbMultiplierEligibilityType;
                     var1 = var1.CREPE;
-                    if(!(var3 !== var1)) { _fun0005_ip = 16; continue _fun0005 }
-case 14:
+                    if(!(var3 !== var1)) { _fun0004_ip = 10; continue _fun0004 }
+case 8:
                     var1 = _closure2_slot2;
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -553,23 +493,23 @@ case 14:
                     var3 = var9[var3];
                     var3 = var4.bind(var7)(var3);
                     var3 = var3.t;
-                    if(var1) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+                    if(var1) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                     var4 = var3.G5k+lZ;
                     var1 = {};
                     var9 = _closure2_slot0;
                     var1['bonusOrbMultiplier'] = var9;
                     var1 = var5.bind(var8)(var4, var1);
-                    _fun0005_ip = 19; continue _fun0005;
-case 17:
+                    _fun0004_ip = 13; continue _fun0004;
+case 11:
                     var4 = var3.NpUfej;
                     var3 = {};
                     var9 = _closure2_slot0;
                     var3['bonusOrbMultiplier'] = var9;
                     var1 = var5.bind(var8)(var4, var3);
-case 19:
-                    _fun0005_ip = 20; continue _fun0005;
-case 16:
+case 13:
+                    _fun0004_ip = 14; continue _fun0004;
+case 10:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 12;
@@ -578,7 +518,7 @@ case 16:
                     var5 = var3.intl;
                     var4 = var5.format;
                     var3 = _closure1_slot1;
-                    var2 = 23;
+                    var2 = 19;
                     var2 = var8[var2];
                     var2 = var3.bind(var7)(var2);
                     var3 = var2.UkrcSH;
@@ -586,7 +526,7 @@ case 16:
                     var6 = _closure2_slot0;
                     var2['bonusOrbMultiplier'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
-case 20:
+case 14:
                     return var1;
                 }
             };
@@ -594,7 +534,7 @@ case 20:
             var3 = _closure1_slot8;
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 24;
+            var1 = 20;
             var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BottomSheet;
@@ -602,7 +542,7 @@ case 20:
             var5 = _closure1_slot11;
             var1['contentStyles'] = var5;
             var6 = _closure1_slot1;
-            var5 = 25;
+            var5 = 21;
             var5 = var12[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};

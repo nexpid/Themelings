@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = 5;
         var10 = var8[var10];
         var10 = var2.bind(var4)(var10);
-        var11 = var10.ClockWarningIcon;
+        var11 = var10.ThemeDarkIcon;
         var10 = {};
         var12 = 'sm';
         var10['size'] = var12;

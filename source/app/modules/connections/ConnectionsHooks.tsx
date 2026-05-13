@@ -11,40 +11,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = arg1;
         var2 = var2.forUserProfile;
         var _closure2_slot0 = var2;
-        var6 = _closure1_slot0;
+        var4 = _closure1_slot0;
         var5 = _closure1_slot2;
         var3 = 7;
-        var3 = var5[var3];
-        var4 = undefined;
-        var9 = var6.bind(var4)(var3);
-        var8 = var9.useStateFromStores;
-        var3 = _closure1_slot6;
-        var7 = new Array(1);
-        var7[0] = var3;
-        var3 = function() {
+        var6 = var5[var3];
+        var3 = undefined;
+        var8 = var4.bind(var3)(var6);
+        var7 = var8.useStateFromStores;
+        var2 = _closure1_slot6;
+        var6 = new Array(1);
+        var6[0] = var2;
+        var2 = function() {
             var2 = _closure1_slot6;
             var1 = var2.getCurrentUser;
             var1 = var1.bind(var2)();
             return var1;
         };
-        var3 = var8.bind(var9)(var7, var3);
-        var _closure2_slot1 = var3;
-        var3 = 8;
-        var3 = var5[var3];
-        var3 = var6.bind(var4)(var3);
-        var7 = var3.PlayStationVoiceExperiment;
+        var2 = var7.bind(var8)(var6, var2);
+        var _closure2_slot1 = var2;
+        var2 = 8;
+        var2 = var5[var2];
+        var2 = var4.bind(var3)(var2);
+        var7 = var2.PlayStationVoiceExperiment;
         var6 = var7.useConfig;
-        var3 = {};
+        var2 = {};
         var8 = 'f2f7ef_1';
-        var3['location'] = var8;
-        var3 = var6.bind(var7)(var3);
-        var3 = var3.allowPlayStationStaging;
-        var _closure2_slot2 = var3;
-        var3 = _closure1_slot1;
+        var2['location'] = var8;
+        var2 = var6.bind(var7)(var2);
+        var2 = var2.allowPlayStationStaging;
+        var _closure2_slot2 = var2;
         var2 = 9;
         var2 = var5[var2];
-        var4 = var3.bind(var4)(var2);
-        var3 = var4.useConfig;
+        var4 = var4.bind(var3)(var2);
+        var3 = var4.useIsRiotSocialSDKMigrationEnabled;
         var2 = {};
         var5 = 'usePlatformAllowed';
         var2['location'] = var5;
@@ -93,7 +92,6 @@ case 11:
                 if(var3) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
                 var5 = _closure2_slot3;
-                var5 = var5.enabled;
                 var3 = !var5;
 case 12:
                 if(!var3) { _fun0001_ip = 14; continue _fun0001 }
@@ -312,7 +310,7 @@ case 0:
                     var1 = var4.type;
                     var1 = var3.bind(var5)(var1);
                     if(!var1) { _fun0002_ip = 17; continue _fun0002 }
-case 3:
+case 18:
                     var3 = global;
                     var5 = var3.Date;
                     var3 = var5.now;
@@ -324,10 +322,10 @@ case 3:
                     var4 = null;
                     var6 = var4 != var5;
                     var4 = 0;
-                    if(!var6) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+                    if(!var6) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
                     var4 = var5;
-case 18:
+case 19:
                     var2 = _closure1_slot12;
                     var2 = var4 + var2;
                     var1 = var3 < var2;
@@ -413,10 +411,10 @@ case 0:
                     var2 = null;
                     var3 = var2 != var1;
                     var2 = 0;
-                    if(!var3) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+                    if(!var3) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                     var2 = var1;
-case 20:
+case 21:
                     var1 = -1;
                     var1 = var1 * var2;
                     return var1;
@@ -447,13 +445,13 @@ case 0:
                     var2 = var1.key;
                     var1 = _closure1_slot9;
                     var1 = var1.SHIFT;
-                    if(!(var2 === var1)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
+                    if(!(var2 === var1)) { _fun0005_ip = 5; continue _fun0005 }
+case 3:
                     var3 = _closure2_slot0;
                     var2 = undefined;
                     var1 = true;
                     var1 = var3.bind(var2)(var1);
-case 22:
+case 5:
                     var1 = undefined;
                     return var1;
                 }
@@ -466,13 +464,13 @@ case 0:
                     var2 = var1.key;
                     var1 = _closure1_slot9;
                     var1 = var1.SHIFT;
-                    if(!(var2 === var1)) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+                    if(!(var2 === var1)) { _fun0006_ip = 5; continue _fun0006 }
+case 3:
                     var3 = _closure2_slot0;
                     var2 = undefined;
                     var1 = false;
                     var1 = var3.bind(var2)(var1);
-case 22:
+case 5:
                     var1 = undefined;
                     return var1;
                 }
@@ -524,16 +522,16 @@ case 22:
             var1 = new Array(0);
             var1 = var6.bind(var7)(var5, var1);
             var1 = var4;
-            if(!var3) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+            if(!var3) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var3 = _closure1_slot8;
             var3 = var3.TWITTER;
             var1 = var4;
-            if(!(var1 === var3)) { _fun0004_ip = 24; continue _fun0004 }
-case 26:
+            if(!(var1 === var3)) { _fun0004_ip = 23; continue _fun0004 }
+case 25:
             var2 = _closure1_slot8;
             var1 = var2.TWITTER_LEGACY;
-case 24:
+case 23:
             return var1;
         }
     };

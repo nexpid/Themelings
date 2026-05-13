@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var9)(var4);
     var _closure1_slot13 = var4;
     var4 = {};
-    var8 = 'function QuestProgressIndicatorTsx1(){const{styles,glowOpacity}=this.__closure;return{...styles.completionGlow,shadowOpacity:glowOpacity.get()};}';
+    var8 = 'function QuestProgressIndicatorTsx1(){const{glowOpacity}=this.__closure;return{shadowOpacity:glowOpacity.get()};}';
     var4['code'] = var8;
     var _closure1_slot14 = var4;
     var4 = {};
@@ -251,22 +251,16 @@ case 10:
             var23 = var25.useAnimatedStyle;
             var14 = function I() {
                 var1 = {};
-                var3 = _closure2_slot6;
-                var4 = var3.completionGlow;
-                var5 = var1;
-                var3 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot10;
                 var2 = var3.get;
-                var3 = var2.bind(var3)();
-                var2 = 'shadowOpacity';
-                var1[1] = var3;
+                var2 = var2.bind(var3)();
+                var1['shadowOpacity'] = var2;
                 return var1;
             };
             var26 = {};
-            var26['styles'] = var16;
             var26['glowOpacity'] = var7;
             var14['__closure'] = var26;
-            var26 = 6810183053526.0;
+            var26 = 17183837725505.0;
             var14['__workletHash'] = var26;
             var26 = _closure1_slot14;
             var14['__initData'] = var26;
@@ -523,9 +517,11 @@ case 26:
             var6 = var5.View;
             var5 = {};
             var21 = var16.wrapper;
-            var11 = new Array(2);
+            var11 = new Array(3);
             var11[0] = var21;
-            var11[1] = var14;
+            var21 = var16.completionGlow;
+            var11[1] = var21;
+            var11[2] = var14;
             var5['style'] = var11;
             var26 = _closure1_slot9;
             var8 = var30[var8];

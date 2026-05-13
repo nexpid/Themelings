@@ -17,14 +17,19 @@ case 0:
         var4 = var12[var1];
         var1 = undefined;
         var4 = var11.bind(var1)(var4);
-        var18 = var4.CONFERENCE_MODE_ENABLED;
+        var4 = var4.CollectibleShopTab;
+        var _closure1_slot0 = var4;
         var4 = 1;
         var4 = var12[var4];
         var4 = var11.bind(var1)(var4);
+        var18 = var4.CONFERENCE_MODE_ENABLED;
+        var4 = 2;
+        var4 = var12[var4];
+        var4 = var11.bind(var1)(var4);
         var5 = var4.ApplicationDirectoryProfileSections;
-        var _closure1_slot0 = var5;
+        var _closure1_slot1 = var5;
         var4 = var4.GlobalDiscoveryAppsSections;
-        var _closure1_slot1 = var4;
+        var _closure1_slot2 = var4;
         var4 = new Array(5);
         var9 = '@me';
         var4[0] = var9;
@@ -674,7 +679,7 @@ case 2:
         };
         var2['GLOBAL_DISCOVERY_APPS_PROFILE_SECTION'] = var16;
         var16 = function GLOBAL_DISCOVERY_APPS_PROFILE_STORE_SKU(arg1, arg2) {
-            var1 = _closure1_slot1;
+            var1 = _closure1_slot2;
             var9 = var1.STORE;
             var1 = global;
             var1 = var1.HermesInternal;
@@ -1106,7 +1111,7 @@ case 9:
         };
         var2['APPLICATION_DIRECTORY_PROFILE_SECTION'] = var16;
         var16 = function APPLICATION_DIRECTORY_PROFILE_STORE_SKU(arg1, arg2) {
-            var1 = _closure1_slot0;
+            var1 = _closure1_slot1;
             var9 = var1.STORE;
             var1 = global;
             var1 = var1.HermesInternal;
@@ -1234,6 +1239,19 @@ case 32:
         var2['REPORT_SECOND_LOOK'] = var16;
         var16 = '/shop';
         var2['COLLECTIBLES_SHOP'] = var16;
+        var16 = function COLLECTIBLES_SHOP_GAME_SHOP(arg1) {
+            var1 = _closure1_slot0;
+            var5 = var1.GAME_SHOPS;
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var4 = var1.concat;
+            var3 = '/shop?tab=';
+            var2 = '&applicationId=';
+            var1 = arg1;
+            var1 = var4.bind(var3)(var5, var2, var1);
+            return var1;
+        };
+        var2['COLLECTIBLES_SHOP_GAME_SHOP'] = var16;
         var16 = function COLLECTIBLES_SHOP_WITH_TAB(arg1) {
             var1 = global;
             var1 = var1.HermesInternal;
@@ -1380,13 +1398,13 @@ case 32:
         var14 = '/icymi';
         var2['ICYMI'] = var14;
         var14 = var10.bind(var13)(var2);
-        var2 = 2;
+        var2 = 3;
         var2 = var12[var2];
         var13 = var11.bind(var1)(var2);
         var10 = var13.wrapPaths;
         var2 = [':', '?', '@'];
         var2 = var10.bind(var13)(var14, var2);
-        var10 = 3;
+        var10 = 4;
         var10 = var12[var10];
         var12 = var11.bind(var1)(var10);
         var11 = var12.fileFinishedImporting;

@@ -40,10 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -65,7 +62,7 @@ case 2:
             var6 = var2.analyticsLocations;
             var5 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var3 = 7;
+            var3 = 6;
             var3 = var9[var3];
             var9 = var5.bind(var4)(var3);
             var5 = var9.useIsEligibleForUserProfileWYSIWYGEditing;
@@ -86,7 +83,7 @@ case 0:
 case 2:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
-                    var1 = 8;
+                    var1 = 7;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -114,7 +111,7 @@ case 7:
                     var1 = var2.bind(var3)(var1);
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
-                    var1 = 9;
+                    var1 = 8;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);

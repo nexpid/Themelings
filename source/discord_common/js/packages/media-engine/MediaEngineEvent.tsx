@@ -54,6 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['AudioDeviceModuleError'] = var1;
     var1 = 'video-codec-error';
     var2['VideoCodecError'] = var1;
+    var1 = 'voice-processing-error';
+    var2['VoiceProcessingError'] = var1;
     var1 = 'voice-queue-metrics';
     var2['VoiceQueueMetrics'] = var1;
     var1 = 'system-microphone-mode-change';

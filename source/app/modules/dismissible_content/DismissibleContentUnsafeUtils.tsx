@@ -464,38 +464,45 @@ case 52:
 case 0:
                     StartGenerator();
                     var7 = arg1;
-                    var11 = arg3;
+                    var11 = arg2;
+                    var10 = arg3;
                     var6 = arg4;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0006_ip = 56; continue _fun0006 }
-case 53:
+case 29:
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var8 = 6;
                     var9 = var2[var8];
                     var3 = undefined;
-                    var10 = var5.bind(var3)(var9);
-                    var9 = var10.getGuildNextNumTimesDismissed;
-                    var13 = var9.bind(var10)(var7, var11);
-                    var9 = var2[var8];
                     var12 = var5.bind(var3)(var9);
-                    var9 = var12.markDismissibleContentAsDismissedPreProcessing;
-                    var9 = var9.bind(var12)(var7, var6);
+                    var9 = var12.getGuildNextNumTimesDismissed;
+                    var16 = var9.bind(var12)(var7, var10);
+                    var12 = var2[var8];
+                    var14 = var5.bind(var3)(var12);
+                    var13 = var14.markDismissibleContentAsDismissedPreProcessing;
+                    var12 = {};
+                    var19 = var12;
+                    var18 = var6;
+                    var15 = copyDataProperties(var19, var18);
+                    var15 = 'snowflakeId';
+                    var12[14] = var11;
+                    var12 = var13.bind(var14)(var7, var12);
                     var2 = var2[var8];
-                    var9 = var5.bind(var3)(var2);
-                    var5 = var9.UNSAFE_addSnowflakeBoundGuildDismissedContent;
-                    var15 = arg2;
-                    var17 = var9;
-                    var16 = var7;
-                    var14 = var11;
-                    var2 = var17[var5](var16, var15, var14, var13, var12);
-                    SaveGenerator(address=112);
+                    var5 = var5.bind(var3)(var2);
+                    var2 = var5.UNSAFE_addSnowflakeBoundGuildDismissedContent;
+                    var20 = var5;
+                    var19 = var7;
+                    var18 = var11;
+                    var17 = var10;
+                    var2 = var20[var2](var19, var18, var17, var16, var15);
+                    SaveGenerator(address=136);
 case 57:
                     return var2;
 case 58:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(var5) { _fun0006_ip = 59; continue _fun0006 }
-case 60:
+case 46:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var4 = var4[var8];
@@ -556,10 +563,10 @@ case 0:
             var3 = arg1;
             var _closure2_slot0 = var3;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
-            var2 = {};
+            if(!(var2 === var4)) { _fun0007_ip = 60; continue _fun0007 }
 case 61:
+            var2 = {};
+case 60:
             var _closure2_slot1 = var2;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;

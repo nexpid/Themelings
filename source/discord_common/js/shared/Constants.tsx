@@ -471,6 +471,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var43['NEW'] = var30;
     var1 = 'NEW';
     var43[var30] = var1;
+    var43['FAILED_ADDRESS'] = var19;
+    var1 = 'FAILED_ADDRESS';
+    var43[var19] = var1;
     var42 = {};
     var42['PENDING'] = var13;
     var1 = 'PENDING';

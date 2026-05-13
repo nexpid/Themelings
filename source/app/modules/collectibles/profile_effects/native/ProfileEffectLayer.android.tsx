@@ -37,6 +37,8 @@ case 0:
             var13 = var1.layerConfig;
             var10 = var1.animate;
             var _closure2_slot0 = var10;
+            var17 = var1.paused;
+            var _closure2_slot1 = var17;
             var12 = var1.width;
             var6 = var1.accessibilityLabel;
             var5 = var1.onLoad;
@@ -52,28 +54,30 @@ case 0:
             var9 = var11.bind(var4)(var3);
             var3 = var9.useAPNGPlayerControls;
             var16 = var3.bind(var9)(var8);
-            var _closure2_slot1 = var16;
+            var _closure2_slot2 = var16;
             var9 = var15.useEffect;
-            var3 = new Array(2);
+            var3 = new Array(3);
             var3[0] = var10;
-            var3[1] = var16;
+            var3[1] = var17;
+            var3[2] = var16;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var1 = _closure2_slot0;
-                    var2 = _closure2_slot1;
-                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+                    var2 = _closure2_slot0;
+                    if(!var2) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var1 = var2.stop;
-                    var1 = var1.bind(var2)();
-                    _fun0002_ip = 4; continue _fun0002;
-case 2:
-                    var3 = var2.seek;
-                    var1 = 0;
-                    var1 = var3.bind(var2)(var1);
-                    var1 = var2.play;
-                    var1 = var1.bind(var2)();
+                    var2 = _closure2_slot1;
+                    if(var2) { _fun0002_ip = 2; continue _fun0002 }
 case 4:
+                    var3 = _closure2_slot2;
+                    var2 = var3.play;
+                    var2 = var2.bind(var3)();
+                    _fun0002_ip = 5; continue _fun0002;
+case 2:
+                    var2 = _closure2_slot2;
+                    var1 = var2.pause;
+                    var1 = var1.bind(var2)();
+case 5:
                     var1 = undefined;
                     return var1;
                 }
@@ -104,10 +108,10 @@ case 4:
             var9 = var9.bind(var11)(var13, var12);
             var8['height'] = var9;
             var9 = 0;
-            if(!var10) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+            if(!var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = 1;
-case 5:
+case 6:
             var8['opacity'] = var9;
             var7[1] = var8;
             var1['style'] = var7;

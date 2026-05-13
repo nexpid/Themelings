@@ -29,40 +29,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useVisibleUserProfileConnectionsAndAppIdentities(arg1) {
         var5 = arg1;
-        var4 = _closure1_slot1;
+        var3 = _closure1_slot1;
         var12 = _closure1_slot2;
-        var3 = 1;
-        var3 = var12[var3];
+        var4 = 1;
+        var4 = var12[var4];
         var11 = undefined;
-        var3 = var4.bind(var11)(var3);
-        var3 = var3.bind(var11)(var5);
-        var10 = var3.filteredAppIdentities;
+        var4 = var3.bind(var11)(var4);
+        var4 = var4.bind(var11)(var5);
+        var10 = var4.filteredAppIdentities;
         var _closure2_slot0 = var10;
-        var3 = 2;
-        var3 = var12[var3];
-        var3 = var4.bind(var11)(var3);
-        var8 = var3.bind(var11)(var5);
+        var4 = 2;
+        var4 = var12[var4];
+        var4 = var3.bind(var11)(var4);
+        var8 = var4.bind(var11)(var5);
         var _closure2_slot1 = var8;
-        var3 = 3;
-        var3 = var12[var3];
-        var6 = var4.bind(var11)(var3);
-        var5 = var6.useConfig;
-        var3 = {};
+        var9 = _closure1_slot0;
+        var4 = 3;
+        var4 = var12[var4];
+        var6 = var9.bind(var11)(var4);
+        var5 = var6.useIsRiotSocialSDKMigrationEnabled;
+        var4 = {};
         var7 = 'useVisibleUserProfileConnectionsAndAppIdentities';
-        var3['location'] = var7;
-        var6 = var5.bind(var6)(var3);
+        var4['location'] = var7;
+        var6 = var5.bind(var6)(var4);
         var _closure2_slot2 = var6;
         var5 = _closure1_slot3;
-        var9 = var5.useMemo;
-        var7 = new Array(2);
-        var7[0] = var10;
-        var3 = var6.enabled;
-        var7[1] = var3;
-        var3 = function() {
+        var7 = var5.useMemo;
+        var4 = new Array(2);
+        var4[0] = var10;
+        var4[1] = var6;
+        var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = _closure2_slot2;
-                var1 = var1.enabled;
                 var2 = global;
                 var4 = var2.Set;
                 if(var1) { _fun0001_ip = 2; continue _fun0001 }
@@ -104,19 +103,18 @@ case 4:
                 return var1;
             }
         };
-        var7 = var9.bind(var5)(var3, var7);
+        var7 = var7.bind(var5)(var1, var4);
         var _closure2_slot3 = var7;
-        var3 = 4;
-        var3 = var12[var3];
-        var4 = var4.bind(var11)(var3);
-        var3 = new Array(0);
+        var1 = 4;
+        var1 = var12[var1];
+        var3 = var3.bind(var11)(var1);
+        var1 = new Array(0);
         var13 = 0;
-        var15 = var3;
+        var15 = var1;
         var14 = var7;
-        var9 = arraySpread(var15, var14, var13);
-        var4 = var4.bind(var11)(var3);
+        var4 = arraySpread(var15, var14, var13);
+        var4 = var3.bind(var11)(var1);
         var3 = var4.filter;
-        var9 = _closure1_slot0;
         var1 = 5;
         var1 = var12[var1];
         var1 = var9.bind(var11)(var1);
@@ -168,13 +166,11 @@ case 4:
         var3 = new Array(3);
         var3[0] = var8;
         var3[1] = var7;
-        var6 = var6.enabled;
         var3[2] = var6;
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var1 = _closure2_slot2;
-                var1 = var1.enabled;
                 var4 = _closure2_slot1;
                 if(var1) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
@@ -202,14 +198,14 @@ case 13:
                         var1 = var2.replacedBy;
 case 12:
                         var1 = var3 == var1;
-                        if(var1) { _fun0003_ip = 8; continue _fun0003 }
-case 14:
+                        if(var1) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var4 = _closure2_slot3;
                         var3 = var4.has;
                         var2 = var2.replacedBy;
                         var2 = var3.bind(var4)(var2);
                         var1 = !var2;
-case 8:
+case 14:
                         return var1;
                     }
                 };

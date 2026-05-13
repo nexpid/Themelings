@@ -22,12 +22,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.UserSettingsSections;
     var _closure1_slot3 = var4;
-    var4 = 5;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -40,7 +37,7 @@ case 0:
             var2 = arg2;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 3;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -57,7 +54,7 @@ case 2:
 case 5:
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var4 = 4;
+            var4 = 3;
             var4 = var8[var4];
             var8 = var5.bind(var1)(var4);
             var5 = var8.dispatch;

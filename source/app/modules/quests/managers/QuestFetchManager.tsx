@@ -119,7 +119,7 @@ case 4:
     var4 = var4.MINUTE;
     var4 = var8 * var4;
     var _closure1_slot14 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -446,75 +446,100 @@ case 26:
         var1 = function value(arg1) {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                var3 = _closure1_slot0;
+                var5 = arg1;
+                var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 9;
                 var2 = var2[var1];
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.getIsEligibleForQuests;
-                var2 = var2.bind(var3)();
+                var4 = var4.bind(var1)(var2);
+                var2 = var4.getIsEligibleForQuests;
+                var2 = var2.bind(var4)();
                 if(!var2) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
-                var3 = _closure1_slot8;
-                var3 = var3.isFetchingCurrentQuests;
-                var2 = !var3;
+case 21:
+                var4 = _closure1_slot8;
+                var4 = var4.isFetchingCurrentQuests;
+                var2 = !var4;
 case 28:
-                if(!var2) { _fun0008_ip = 30; continue _fun0008 }
-case 31:
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var2 = 10;
-                var3 = var6[var2];
-                var7 = var5.bind(var1)(var3);
-                var3 = var7.fetchCurrentQuests;
-                var3 = var3.bind(var7)();
-                var3 = 11;
-                var3 = var6[var3];
-                var5 = var5.bind(var1)(var3);
-                var3 = var5.isMac;
-                var3 = var3.bind(var5)();
-                if(!var3) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
-                var6 = _closure1_slot1;
-                var7 = _closure1_slot2;
-                var5 = 12;
-                var5 = var7[var5];
-                var6 = var6.bind(var1)(var5);
-                var5 = var6.getState;
-                var6 = var5.bind(var6)();
-                var5 = 'focused';
-                var3 = var5 !== var6;
-case 32:
-                if(var3) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
-                var6 = _closure1_slot1;
-                var7 = _closure1_slot2;
-                var5 = 13;
-                var5 = var7[var5];
-                var7 = var6.bind(var1)(var5);
-                var6 = var7.getConfig;
-                var5 = {};
-                var8 = 'QuestFetchManager';
-                var5['location'] = var8;
-                var5 = var6.bind(var7)(var5);
-                var3 = var5.enableNewRequestBehavior;
-case 34:
-                if(var3) { _fun0008_ip = 30; continue _fun0008 }
-case 36:
-                var3 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var2 = var6[var2];
-                var5 = var3.bind(var1)(var2);
-                var4 = var5.fetchQuestToDeliver;
-                var2 = 14;
-                var2 = var6[var2];
-                var2 = var3.bind(var1)(var2);
-                var2 = var2.QuestPlacement;
-                var3 = var2.MOBILE_HOME_DOCK_AREA;
-                var2 = arg1;
-                var2 = var4.bind(var5)(var3, var2);
+                if(!var2) { _fun0008_ip = 29; continue _fun0008 }
 case 30:
+                var4 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var2 = 11;
+                var2 = var7[var2];
+                var6 = var4.bind(var1)(var2);
+                var4 = var6.addBreadcrumb;
+                var2 = {'category': 'quests.fetch', 'message': 'QuestFetchManager._fetch triggered'};
+                var8 = {};
+                var8['callerSource'] = var5;
+                var9 = _closure1_slot8;
+                var10 = var9.quests;
+                var10 = var10.size;
+                var8['storeSize'] = var10;
+                var10 = var9.lastFetchedCurrentQuests;
+                var8['lastFetchedCurrentQuests'] = var10;
+                var10 = global;
+                var11 = var10.Date;
+                var10 = var11.now;
+                var11 = var10.bind(var11)();
+                var10 = var9.lastFetchedCurrentQuests;
+                var10 = var11 - var10;
+                var8['msSinceLastFetch'] = var10;
+                var9 = var9.isFetchingCurrentQuests;
+                var8['isFetchingCurrentQuests'] = var9;
+                var2['data'] = var8;
+                var2 = var4.bind(var6)(var2);
+                var6 = _closure1_slot0;
+                var2 = 10;
+                var4 = var7[var2];
+                var8 = var6.bind(var1)(var4);
+                var4 = var8.fetchCurrentQuests;
+                var4 = var4.bind(var8)();
+                var4 = 12;
+                var4 = var7[var4];
+                var6 = var6.bind(var1)(var4);
+                var4 = var6.isMac;
+                var4 = var4.bind(var6)();
+                if(!var4) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
+                var7 = _closure1_slot1;
+                var8 = _closure1_slot2;
+                var6 = 13;
+                var6 = var8[var6];
+                var7 = var7.bind(var1)(var6);
+                var6 = var7.getState;
+                var7 = var6.bind(var7)();
+                var6 = 'focused';
+                var4 = var6 !== var7;
+case 31:
+                if(var4) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
+                var7 = _closure1_slot1;
+                var8 = _closure1_slot2;
+                var6 = 14;
+                var6 = var8[var6];
+                var8 = var7.bind(var1)(var6);
+                var7 = var8.getConfig;
+                var6 = {};
+                var9 = 'QuestFetchManager';
+                var6['location'] = var9;
+                var6 = var7.bind(var8)(var6);
+                var4 = var6.enableNewRequestBehavior;
+case 33:
+                if(var4) { _fun0008_ip = 29; continue _fun0008 }
+case 35:
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var2 = var7[var2];
+                var4 = var6.bind(var1)(var2);
+                var3 = var4.fetchQuestToDeliver;
+                var2 = 15;
+                var2 = var7[var2];
+                var2 = var6.bind(var1)(var2);
+                var2 = var2.QuestPlacement;
+                var2 = var2.MOBILE_HOME_DOCK_AREA;
+                var2 = var3.bind(var4)(var2, var5);
+case 29:
                 return var1;
             }
         };
@@ -530,7 +555,7 @@ case 30:
     var14 = var4;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

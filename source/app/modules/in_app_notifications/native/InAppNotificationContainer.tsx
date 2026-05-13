@@ -72,6 +72,22 @@ case 17:
             return var1;
 case 16:
             var1 = {};
+            var3 = function onPress() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 23;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openUserSettings;
+                var2 = {};
+                var5 = _closure1_slot11;
+                var5 = var5.FAMILY_CENTER;
+                var2['screen'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var1['onPress'] = var3;
             var7 = _closure1_slot16;
             var4 = _closure1_slot1;
             var10 = _closure1_slot2;
