@@ -110,6 +110,8 @@ case 0:
         var25['NITRO_HOME_MARKETING'] = var1;
         var1 = 'nitro_home_tab';
         var25['NITRO_HOME_TAB'] = var1;
+        var1 = 'quest_orb_multiplier_tab_tooltip';
+        var25['QUEST_ORB_MULTIPLIER_TAB_TOOLTIP'] = var1;
         var7 = var2.Set;
         var22 = 0;
         var5 = var24[var22];

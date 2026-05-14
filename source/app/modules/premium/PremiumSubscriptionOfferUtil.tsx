@@ -464,7 +464,7 @@ case 63:
             var5 = var8;
 case 62:
             if(var5) { _fun0007_ip = 64; continue _fun0007 }
-case 65:
+case 51:
             var5 = true;
             var5 = var7.bind(var6)(var5);
             var5 = _closure1_slot0;
@@ -538,30 +538,30 @@ case 0:
             var3 = var3.bind(var4)(var1);
             var4 = null;
             var1 = var4 !== var5;
-            if(!var1) { _fun0008_ip = 66; continue _fun0008 }
-case 67:
-            var1 = var5.hasPremiumNitroMonthly;
+            if(!var1) { _fun0008_ip = 65; continue _fun0008 }
 case 66:
+            var1 = var5.hasPremiumNitroMonthly;
+case 65:
             var4 = var4 == var5;
-            if(var4) { _fun0008_ip = 68; continue _fun0008 }
+            if(var4) { _fun0008_ip = 67; continue _fun0008 }
 case 49:
             var5 = var5.hasActiveTrial;
             var4 = !var5;
-case 68:
-            if(!var1) { _fun0008_ip = 69; continue _fun0008 }
-case 70:
-            var1 = !var2;
+case 67:
+            if(!var1) { _fun0008_ip = 68; continue _fun0008 }
 case 69:
-            if(!var1) { _fun0008_ip = 71; continue _fun0008 }
-case 72:
+            var1 = !var2;
+case 68:
+            if(!var1) { _fun0008_ip = 70; continue _fun0008 }
+case 71:
             var2 = !var4;
             var2 = !var2;
-            if(var4) { _fun0008_ip = 73; continue _fun0008 }
-case 53:
-            var2 = var3;
+            if(var4) { _fun0008_ip = 72; continue _fun0008 }
 case 73:
+            var2 = var3;
+case 72:
             var1 = var2;
-case 71:
+case 70:
             return var1;
         }
     };

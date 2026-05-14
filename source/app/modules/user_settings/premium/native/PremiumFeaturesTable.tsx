@@ -367,6 +367,9 @@ case 23:
             var24 = var20.cell;
             var12[1] = var24;
             var5['style'] = var12;
+            var12 = !var11;
+            var5['accessible'] = var12;
+            var5['accessibilityLabel'] = var18;
             var5['children'] = var6;
             var6 = var8.bind(var4)(var7, var5);
             var5 = new Array(3);

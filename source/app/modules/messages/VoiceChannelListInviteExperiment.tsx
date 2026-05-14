@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var9 = var5.bind(var1)(var4);
     var8 = var9.createExperiment;
-    var7 = {'kind': 'guild', 'id': '2026-04_voice_channel_list_invite_embed', 'label': 'Voice Channel List Invite Embed'};
+    var7 = {'kind': 'guild', 'id': '2026-05_voice_channel_list_invite_embed', 'label': 'Voice Channel List Invite Embed'};
     var4 = {};
     var10 = false;
     var4['enabled'] = var10;

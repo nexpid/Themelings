@@ -296,7 +296,7 @@ case 17:
     var4['downIconWithBadge'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -433,10 +433,10 @@ case 25:
             var1['style'] = var5;
             var11 = _closure1_slot6;
             var9 = _closure1_slot0;
-            var5 = 12;
+            var5 = 13;
             var5 = var12[var5];
             var5 = var9.bind(var4)(var5);
-            var9 = var5.XSmallIcon;
+            var9 = var5.XLargeIcon;
             var5 = {'size': 'sm', 'color': 'white'};
             var9 = var11.bind(var4)(var9, var5);
             var5 = new Array(2);

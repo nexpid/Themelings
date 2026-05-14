@@ -95,18 +95,19 @@ case 0:
             var13 = var1.trailing;
             var10 = var1.extras;
             var8 = var1.header;
-            var22 = var1.accessible;
+            var23 = var1.accessible;
             var4 = undefined;
-            if(!(var22 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var23 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var22 = true;
+            var23 = true;
 case 2:
-            var21 = var1.accessibilityRole;
-            if(!(var21 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+            var22 = var1.accessibilityRole;
+            if(!(var22 === var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var21 = 'button';
+            var22 = 'button';
 case 4:
-            var19 = var1.accessibilityLabel;
+            var21 = var1.accessibilityLabel;
+            var19 = var1.accessibilityHint;
             var17 = var1.accessibilityActions;
             var9 = var1.onAccessibilityAction;
             var14 = var1.bodyStyle;
@@ -121,15 +122,16 @@ case 6:
             var11 = var2.bind(var4)(var1);
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
-            var23 = _closure1_slot2;
+            var24 = _closure1_slot2;
             var1 = 6;
-            var1 = var23[var1];
+            var1 = var24[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableHighlight;
             var1 = {};
-            var1['accessible'] = var22;
-            var1['accessibilityRole'] = var21;
-            var1['accessibilityLabel'] = var19;
+            var1['accessible'] = var23;
+            var1['accessibilityRole'] = var22;
+            var1['accessibilityLabel'] = var21;
+            var1['accessibilityHint'] = var19;
             var1['accessibilityActions'] = var17;
             var1['onAccessibilityAction'] = var9;
             var17 = var11.pressable;

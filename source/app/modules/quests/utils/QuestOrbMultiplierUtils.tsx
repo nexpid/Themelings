@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 'crepe';
     var4['CREPE'] = var1;
     var _closure1_slot3 = var4;
-    var1 = 4;
+    var1 = 5;
     var5 = var5[var1];
     var1 = undefined;
     var7 = var6.bind(var1)(var5);
@@ -102,24 +102,52 @@ case 7:
             var2 = var2.Perk;
             var2 = var2.MORE_QUEST_ORBS;
             var6 = var5.bind(var6)(var3, var2);
+            if(!(var4 != var6)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var3 = var6.includes;
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var9];
+            var2 = var5.bind(var8)(var2);
+            var2 = var2.PerkSource;
+            var2 = var2.SOURCE_NITRO;
+            var2 = var3.bind(var6)(var2);
+            if(var2) { _fun0002_ip = 11; continue _fun0002 }
+case 9:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 4;
+            var2 = var5[var2];
+            var5 = var3.bind(var8)(var2);
+            var3 = var5.getIsCrepeEnabled;
+            var2 = 'getQuestOrbMultiplierSource';
+            var3 = var3.bind(var5)(var2);
+            var2 = null;
+            if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var3 = var4 != var6;
             var2 = null;
-            if(!var3) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 14:
             var5 = var6.includes;
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var9];
             var3 = var7.bind(var8)(var3);
             var3 = var3.PerkSource;
-            var3 = var3.SOURCE_NITRO;
+            var3 = var3.SOURCE_THIRDPARTY_CROISSANT;
             var3 = var5.bind(var6)(var3);
             var2 = null;
-            if(!var3) { _fun0002_ip = 9; continue _fun0002 }
+            if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 15:
+            var3 = _closure1_slot3;
+            var2 = var3.CREPE;
+case 12:
+            _fun0002_ip = 16; continue _fun0002;
 case 11:
             var3 = _closure1_slot3;
             var2 = var3.NITRO;
-case 9:
+case 16:
             return var2;
 case 5:
             var1 = _closure1_slot3;

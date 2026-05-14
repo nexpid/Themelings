@@ -3341,23 +3341,23 @@ case 198:
                     var3 = var8.bind(var4)(var3);
                     var3 = var3.AppLauncherHomeListItemType;
                     var3 = var3.RECOMMENDATION_SECTION_HEADER;
-                    if(!(var3 !== var5)) { _fun0042_ip = 130; continue _fun0042 }
-case 199:
+                    if(!(var3 !== var5)) { _fun0042_ip = 199; continue _fun0042 }
+case 200:
                     var8 = _closure1_slot0;
                     var3 = _closure1_slot3;
                     var3 = var3[var9];
                     var3 = var8.bind(var4)(var3);
                     var3 = var3.AppLauncherHomeListItemType;
                     var3 = var3.RECOMMENDATION_BANNER_CARD;
-                    if(!(var3 !== var5)) { _fun0042_ip = 200; continue _fun0042 }
-case 201:
+                    if(!(var3 !== var5)) { _fun0042_ip = 201; continue _fun0042 }
+case 202:
                     var8 = _closure1_slot0;
                     var3 = _closure1_slot3;
                     var3 = var3[var9];
                     var3 = var8.bind(var4)(var3);
                     var3 = var3.AppLauncherHomeListItemType;
                     var3 = var3.RECOMMENDATION_APP;
-                    if(!(var3 !== var5)) { _fun0042_ip = 202; continue _fun0042 }
+                    if(!(var3 !== var5)) { _fun0042_ip = 87; continue _fun0042 }
 case 203:
                     var8 = _closure1_slot0;
                     var3 = _closure1_slot3;
@@ -3413,6 +3413,8 @@ case 204:
                     var3 = var9[var3];
                     var5 = var5.bind(var4)(var3);
                     var3 = {};
+                    var9 = var6.title;
+                    var3['title'] = var9;
                     var9 = function onPress() {
                         var5 = _closure3_slot0;
                         var3 = var5.applications;
@@ -3478,7 +3480,7 @@ case 204:
                     var3['onPress'] = var9;
                     var3 = var8.bind(var4)(var5, var3);
                     return var3;
-case 202:
+case 87:
                     var9 = _closure1_slot19;
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot3;
@@ -3511,7 +3513,7 @@ case 202:
                     var3 = var3.id;
                     var3 = var9.bind(var4)(var8, var5, var3);
                     return var3;
-case 200:
+case 201:
                     var8 = _closure1_slot19;
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot3;
@@ -3548,7 +3550,7 @@ case 200:
                     var3['overrideImageUrl'] = var9;
                     var3 = var8.bind(var4)(var5, var3);
                     return var3;
-case 130:
+case 199:
                     var8 = _closure1_slot19;
                     var5 = _closure1_slot35;
                     var3 = {};
@@ -4477,7 +4479,7 @@ case 233:
                     var5 = var5.SectionItemType;
                     var5 = var5.COMMANDS;
                     if(!(var7 !== var5)) { _fun0049_ip = 234; continue _fun0049 }
-case 199:
+case 200:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot3;
                     var5 = 17;

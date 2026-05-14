@@ -86,8 +86,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SOUNDBOARD_WHEEL_EDUCATION_MODAL'] = var1;
     var1 = 'IN_APP_REPORTS_FEEDBACK';
     var2['IN_APP_REPORTS_FEEDBACK'] = var1;
-    var1 = 'BLOCK_USER_FEEDBACK';
-    var2['BLOCK_USER_FEEDBACK'] = var1;
     var1 = 'SEARCH_RESULTS_FEEDBACK';
     var2['SEARCH_RESULTS_FEEDBACK'] = var1;
     var4 = dependencyMap;

@@ -406,10 +406,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BILLING_PAYMENT_METHODS_CATEGORY'] = var1;
     var1 = 'billing_payment_methods';
     var2['BILLING_PAYMENT_METHODS'] = var1;
-    var1 = 'billing_store_country_category';
-    var2['BILLING_STORE_COUNTRY_CATEGORY'] = var1;
-    var1 = 'billing_store_country';
-    var2['BILLING_STORE_COUNTRY'] = var1;
     var1 = 'billing_transaction_history_category';
     var2['BILLING_TRANSACTION_HISTORY_CATEGORY'] = var1;
     var1 = 'billing_transaction_history';

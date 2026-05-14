@@ -2306,6 +2306,34 @@ case 115:
         }
     };
     var3['generateBlockGuildSubscriptionPurchasesNode'] = var11;
+    var11 = function isAppliedGuildBoostActive(arg1) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+case 0:
+            var3 = arg1;
+            var1 = var3.ended;
+            var1 = !var1;
+            if(!var1) { _fun0025_ip = 35; continue _fun0025 }
+case 41:
+            var4 = var3.endsAt;
+            var2 = null;
+            var2 = var2 == var4;
+            if(var2) { _fun0025_ip = 30; continue _fun0025 }
+case 3:
+            var4 = var3.endsAt;
+            var3 = var4.getTime;
+            var4 = var3.bind(var4)();
+            var3 = global;
+            var5 = var3.Date;
+            var3 = var5.now;
+            var3 = var3.bind(var5)();
+            var2 = var4 > var3;
+case 30:
+            var1 = var2;
+case 35:
+            return var1;
+        }
+    };
+    var3['isAppliedGuildBoostActive'] = var11;
     var11 = function isInGracePeriod(arg1, arg2) {
         var4 = _closure1_slot41;
         var3 = undefined;
@@ -2320,7 +2348,7 @@ case 115:
     var3['appliedGuildBoostsRequiredForPerks'] = var10;
     var3['GuildTierSubscriptionsOrdered'] = var9;
     var9 = function getGracePeriodEndingDate(arg1, arg2) {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var10 = arg1;
             var11 = arg2;
@@ -2328,7 +2356,7 @@ case 0:
             var1 = undefined;
             var4 = var3.bind(var1)(var10, var11);
             var6 = 0;
-            if(!(!(var4 > var6))) { _fun0025_ip = 33; continue _fun0025 }
+            if(!(!(var4 > var6))) { _fun0026_ip = 33; continue _fun0026 }
 case 40:
             var3 = null;
             return var3;
@@ -2337,7 +2365,7 @@ case 33:
                 var3 = arg1;
                 var2 = var3.sort;
                 var1 = function(arg1, arg2) {
-                    _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+                    _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
                         var3 = arg1;
                         var2 = arg2;
@@ -2346,12 +2374,12 @@ case 0:
                         var4 = var6 != var1;
                         var5 = -1;
                         var1 = var5;
-                        if(!var4) { _fun0026_ip = 131; continue _fun0026 }
+                        if(!var4) { _fun0027_ip = 131; continue _fun0027 }
 case 3:
                         var4 = var2.endsAt;
                         var4 = var6 != var4;
                         var1 = var5;
-                        if(!var4) { _fun0026_ip = 131; continue _fun0026 }
+                        if(!var4) { _fun0027_ip = 131; continue _fun0027 }
 case 2:
                         var4 = var3.endsAt;
                         var3 = var4.getTime;
@@ -2379,7 +2407,7 @@ case 131:
             var3 = var3.bind(var5)(var2);
             var2 = var3.length;
             var5 = var2 - var4;
-            if(!(var5 < var6)) { _fun0025_ip = 132; continue _fun0025 }
+            if(!(var5 < var6)) { _fun0026_ip = 132; continue _fun0026 }
 case 59:
             var4 = _closure1_slot1;
             var7 = _closure1_slot3;
@@ -2409,7 +2437,7 @@ case 132:
             var3 = null;
             var3 = var3 == var2;
             var1 = undefined;
-            if(var3) { _fun0025_ip = 133; continue _fun0025 }
+            if(var3) { _fun0026_ip = 133; continue _fun0026 }
 case 134:
             var1 = var2.endsAt;
 case 133:
@@ -2418,7 +2446,7 @@ case 133:
     };
     var3['getGracePeriodEndingDate'] = var9;
     var9 = function getAvailableStickerSlotCount(arg1, arg2) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var8 = arg1;
             var3 = arg2;
@@ -2429,7 +2457,7 @@ case 0:
             var4 = var6.indexOf;
             var7 = var4.bind(var6)(var3);
             var4 = -1;
-            if(!(var4 !== var7)) { _fun0027_ip = 135; continue _fun0027 }
+            if(!(var4 !== var7)) { _fun0028_ip = 135; continue _fun0028 }
 case 49:
             var6 = _closure1_slot28;
             var4 = 1;
@@ -2439,7 +2467,7 @@ case 49:
             var6 = var4 != var9;
             var4 = 0;
             var7 = 0;
-            if(!var6) { _fun0027_ip = 131; continue _fun0027 }
+            if(!var6) { _fun0028_ip = 131; continue _fun0028 }
 case 136:
             var6 = _closure1_slot30;
             var7 = var6.bind(var2)(var9);
@@ -2462,14 +2490,14 @@ case 135:
     };
     var3['getAvailableStickerSlotCount'] = var9;
     var9 = function getAvailableSoundboardSoundCount(arg1, arg2, arg3) {
-        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var4 = _closure1_slot28;
             var3 = var4.indexOf;
             var2 = arg3;
             var3 = var3.bind(var4)(var2);
             var2 = -1;
-            if(!(var2 !== var3)) { _fun0028_ip = 68; continue _fun0028 }
+            if(!(var2 !== var3)) { _fun0029_ip = 68; continue _fun0029 }
 case 137:
             var3 = _closure1_slot42;
             var2 = undefined;
@@ -2492,7 +2520,7 @@ case 68:
     var3['getAvailableSoundboardSoundCount'] = var9;
     var3['getMaxSoundboardSlots'] = var8;
     var8 = function getMaxEmojiSlots(arg1) {
-        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var1 = arg1;
             var3 = _closure1_slot16;
@@ -2500,13 +2528,13 @@ case 0:
             var2 = null;
             var7 = var2 == var6;
             var4 = undefined;
-            if(var7) { _fun0029_ip = 33; continue _fun0029 }
+            if(var7) { _fun0030_ip = 33; continue _fun0030 }
 case 48:
             var4 = var6.additionalEmojiSlots;
 case 33:
             var6 = var2 != var4;
             var2 = 0;
-            if(!var6) { _fun0029_ip = 49; continue _fun0029 }
+            if(!var6) { _fun0030_ip = 49; continue _fun0030 }
 case 39:
             var2 = var4;
 case 49:
@@ -2519,10 +2547,10 @@ case 49:
             var1 = _closure1_slot11;
             var1 = var1.MORE_EMOJI;
             var1 = var6.bind(var7)(var1);
-            if(var1) { _fun0029_ip = 50; continue _fun0029 }
+            if(var1) { _fun0030_ip = 50; continue _fun0030 }
 case 51:
             var1 = _closure1_slot16;
-            _fun0029_ip = 52; continue _fun0029;
+            _fun0030_ip = 52; continue _fun0030;
 case 50:
             var1 = _closure1_slot17;
 case 52:
@@ -2560,7 +2588,7 @@ case 52:
     var3['getNextPremiumTierForSubscriberCount'] = var5;
     var3['TierMarkerPositions'] = var4;
     var2 = function getGuildBoostingProgressBarFillFactor(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var2 = _closure1_slot0;
             var4 = _closure1_slot3;
@@ -2587,7 +2615,7 @@ case 0:
             var3 = _closure1_slot10;
             var7 = var3.TIER_3;
             var3 = 1;
-            if(!(var9 !== var7)) { _fun0030_ip = 138; continue _fun0030 }
+            if(!(var9 !== var7)) { _fun0031_ip = 138; continue _fun0031 }
 case 107:
             var7 = var2 - var8;
             var6 = var6 - var8;

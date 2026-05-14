@@ -950,8 +950,8 @@ case 11:
         var16 = var10.bind(var4)(var16);
         var18 = var16.SplitTextInput;
         var16 = {'label': 'Small', 'size': 'sm', 'placeholder': 'Placeholder', 'leadingText': 'Click'};
+        var21 = 'Click';
         var20 = {};
-        var21 = 'Foo';
         var20['accessibilityLabel'] = var21;
         var16['leadingPressableProps'] = var20;
         var18 = var19.bind(var4)(var18, var16);
@@ -962,9 +962,10 @@ case 11:
         var18 = var10.bind(var4)(var18);
         var19 = var18.SplitTextInput;
         var18 = {'label': 'Medium', 'size': 'md', 'placeholder': 'Placeholder', 'leadingText': 'Me'};
-        var22 = {};
-        var22['accessibilityLabel'] = var21;
-        var18['leadingPressableProps'] = var22;
+        var22 = 'Me';
+        var21 = {};
+        var21['accessibilityLabel'] = var22;
+        var18['leadingPressableProps'] = var21;
         var18 = var20.bind(var4)(var19, var18);
         var16[1] = var18;
         var19 = _closure1_slot6;
@@ -972,6 +973,7 @@ case 11:
         var17 = var10.bind(var4)(var17);
         var18 = var17.SplitTextInput;
         var17 = {'label': 'Large', 'size': 'lg', 'placeholder': 'Placeholder', 'leadingText': 'Here'};
+        var21 = 'Here';
         var20 = {};
         var20['accessibilityLabel'] = var21;
         var17['leadingPressableProps'] = var20;

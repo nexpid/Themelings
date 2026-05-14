@@ -483,6 +483,7 @@ case 26:
             var6['user'] = var24;
             var6['guildId'] = var23;
             var6['animate'] = var21;
+            var6['aria-hidden'] = var21;
             var6 = var12.bind(var4)(var9, var6);
             var5[1] = var6;
             var6 = {};

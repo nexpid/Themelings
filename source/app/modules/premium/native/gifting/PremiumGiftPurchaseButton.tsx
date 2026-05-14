@@ -816,7 +816,7 @@ case 58:
             var21 = var26;
 case 57:
             var5['nextTierName'] = var21;
-            var20 = var20.simple_icon;
+            var20 = var20.simple_icon_url;
             var5['nextTierIcon'] = var20;
             var8 = var15.bind(var4)(var14, var5);
 case 54:

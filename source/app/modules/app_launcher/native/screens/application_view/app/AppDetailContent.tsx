@@ -1240,7 +1240,7 @@ case 66:
             var33 = 29;
             var33 = var41[var33];
             var33 = var40.bind(var4)(var33);
-            var35 = var33.Text;
+            var35 = var33.Heading;
             var33 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var37 = 30;
             var38 = var41[var37];

@@ -25,21 +25,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.Image;
     var _closure1_slot3 = var7;
-    var7 = var4.View;
-    var _closure1_slot4 = var7;
-    var4 = var4.ScrollView;
-    var _closure1_slot5 = var4;
+    var4 = var4.View;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var13.bind(var1)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -88,9 +86,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['textAlign'] = var10;
     var4['cardBody'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
-    var4 = {};
-    var7 = function getHeadingCopy() {
+    var _closure1_slot8 = var4;
+    var7 = {};
+    var4 = function getHeadingCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -106,8 +104,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['getHeadingCopy'] = var7;
-    var7 = function getBodyCopy() {
+    var7['getHeadingCopy'] = var4;
+    var4 = function getBodyCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -123,9 +121,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['getBodyCopy'] = var7;
-    var7 = function getGraphic(arg1) {
-        var4 = _closure1_slot7;
+    var7['getBodyCopy'] = var4;
+    var4 = function getGraphic(arg1) {
+        var4 = _closure1_slot6;
         var3 = _closure1_slot3;
         var2 = {};
         var5 = arg1;
@@ -140,11 +138,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var4['getGraphic'] = var7;
-    var8 = new Array(3);
-    var8[0] = var4;
-    var4 = {};
-    var7 = function getHeadingCopy() {
+    var7['getGraphic'] = var4;
+    var4 = new Array(3);
+    var4[0] = var7;
+    var7 = {};
+    var8 = function getHeadingCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -160,8 +158,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['getHeadingCopy'] = var7;
-    var7 = function getBodyCopy() {
+    var7['getHeadingCopy'] = var8;
+    var8 = function getBodyCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -177,9 +175,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['getBodyCopy'] = var7;
-    var7 = function getGraphic(arg1) {
-        var4 = _closure1_slot7;
+    var7['getBodyCopy'] = var8;
+    var8 = function getGraphic(arg1) {
+        var4 = _closure1_slot6;
         var2 = _closure1_slot1;
         var8 = _closure1_slot2;
         var1 = 8;
@@ -192,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8[var6];
         var6 = var7.bind(var3)(var6);
         var1['source'] = var6;
-        var5 = _closure1_slot6;
+        var5 = _closure1_slot5;
         var5 = var5.useReducedMotion;
         var5 = !var5;
         var1['autoPlay'] = var5;
@@ -201,10 +199,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var4['getGraphic'] = var7;
-    var8[1] = var4;
-    var4 = {};
-    var7 = function getHeadingCopy() {
+    var7['getGraphic'] = var8;
+    var4[1] = var7;
+    var7 = {};
+    var8 = function getHeadingCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -220,8 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['getHeadingCopy'] = var7;
-    var7 = function getBodyCopy() {
+    var7['getHeadingCopy'] = var8;
+    var8 = function getBodyCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -237,9 +235,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['getBodyCopy'] = var7;
-    var7 = function getGraphic(arg1) {
-        var4 = _closure1_slot7;
+    var7['getBodyCopy'] = var8;
+    var8 = function getGraphic(arg1) {
+        var4 = _closure1_slot6;
         var3 = _closure1_slot3;
         var2 = {};
         var5 = arg1;
@@ -254,81 +252,73 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var4['getGraphic'] = var7;
-    var8[2] = var4;
-    var _closure1_slot10 = var8;
-    var7 = var8.map;
-    var4 = function(arg1, arg2) {
-        var2 = arg2;
-        var1 = 1;
-        var2 = var2 + var1;
-        var1 = 340;
-        var1 = var1 * var2;
-        return var1;
-    };
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot11 = var4;
-    var4 = 12;
+    var7['getGraphic'] = var8;
+    var4[2] = var7;
+    var _closure1_slot9 = var4;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingTopPerksCards.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function GuildBoostingMarketingTopPerksCards() {
-        var1 = _closure1_slot9;
+        var1 = _closure1_slot8;
         var4 = undefined;
-        var11 = var1.bind(var4)();
-        var _closure2_slot0 = var11;
-        var3 = _closure1_slot8;
+        var10 = var1.bind(var4)();
+        var _closure2_slot0 = var10;
+        var3 = _closure1_slot7;
         var2 = _closure1_slot4;
         var1 = {};
-        var5 = var11.wrapper;
+        var5 = var10.wrapper;
         var1['style'] = var5;
-        var8 = _closure1_slot7;
-        var14 = _closure1_slot0;
-        var15 = _closure1_slot2;
+        var8 = _closure1_slot6;
+        var7 = _closure1_slot0;
+        var12 = _closure1_slot2;
         var5 = 11;
-        var5 = var15[var5];
-        var5 = var14.bind(var4)(var5);
+        var5 = var12[var5];
+        var5 = var7.bind(var4)(var5);
         var6 = var5.Text;
         var5 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
-        var7 = var11.heading;
-        var5['style'] = var7;
-        var7 = 6;
-        var12 = var15[var7];
-        var12 = var14.bind(var4)(var12);
-        var13 = var12.intl;
-        var12 = var13.string;
-        var7 = var15[var7];
-        var7 = var14.bind(var4)(var7);
-        var7 = var7.t;
-        var7 = var7.aGdB3E;
-        var7 = var12.bind(var13)(var7);
-        var5['children'] = var7;
+        var13 = var10.heading;
+        var5['style'] = var13;
+        var13 = 6;
+        var14 = var12[var13];
+        var14 = var7.bind(var4)(var14);
+        var15 = var14.intl;
+        var14 = var15.string;
+        var13 = var12[var13];
+        var13 = var7.bind(var4)(var13);
+        var13 = var13.t;
+        var13 = var13.aGdB3E;
+        var13 = var14.bind(var15)(var13);
+        var5['children'] = var13;
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;
-        var7 = _closure1_slot5;
-        var6 = {'centerContent': true, 'contentContainerStyle': null, 'decelerationRate': 0.1, 'horizontal': true};
-        var11 = var11.scrollerContent;
-        var6['contentContainerStyle'] = var11;
-        var11 = _closure1_slot11;
-        var6['snapToOffsets'] = var11;
-        var11 = _closure1_slot10;
+        var6 = 12;
+        var6 = var12[var6];
+        var6 = var7.bind(var4)(var6);
+        var7 = var6.MarketingCardsScroller;
+        var6 = {'itemCount': null, 'cardWidth': 324, 'cardMarginRight': 16};
+        var11 = _closure1_slot9;
+        var12 = var11.length;
+        var6['itemCount'] = var12;
+        var10 = var10.scrollerContent;
+        var6['contentContainerStyle'] = var10;
         var10 = var11.map;
         var9 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var11 = arg1;
                 var5 = arg2;
-                var4 = _closure1_slot8;
+                var4 = _closure1_slot7;
                 var3 = _closure1_slot4;
                 var2 = {};
                 var7 = _closure2_slot0;
                 var8 = var7.card;
                 var7 = new Array(2);
                 var7[0] = var8;
-                var8 = _closure1_slot10;
+                var8 = _closure1_slot9;
                 var9 = var8.length;
                 var8 = 1;
                 var8 = var9 - var8;
@@ -346,7 +336,7 @@ case 2:
                 var7 = var7.bind(var11)(var6);
                 var6 = new Array(3);
                 var6[0] = var7;
-                var9 = _closure1_slot7;
+                var9 = _closure1_slot6;
                 var8 = _closure1_slot0;
                 var12 = _closure1_slot2;
                 var7 = 11;

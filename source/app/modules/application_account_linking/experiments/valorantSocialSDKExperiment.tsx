@@ -4,38 +4,80 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var1 = global;
-    var7 = var1.Object;
-    var4 = var7.defineProperty;
-    var2 = {};
-    var10 = true;
-    var2['value'] = var10;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var7 = true;
+    var4['value'] = var7;
     var1 = '__esModule';
-    var1 = var4.bind(var7)(var3, var1, var2);
-    var1 = 0;
-    var2 = var6[var1];
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var9 = {};
+    var4 = {};
+    var1 = false;
+    var4['enabled'] = var1;
+    var9[0] = var4;
+    var4 = {};
+    var4['enabled'] = var7;
+    var9[1] = var4;
+    var10 = {};
+    var10['enabled'] = var1;
+    var4 = 0;
+    var7 = var6[var4];
     var1 = undefined;
-    var7 = var5.bind(var1)(var2);
-    var4 = var7.createApexExperiment;
-    var2 = {'name': '2026-04-valorant-social-sdk', 'kind': 'user'};
-    var8 = {};
-    var11 = false;
-    var8['enabled'] = var11;
-    var2['defaultConfig'] = var8;
-    var8 = {};
-    var9 = {};
-    var9['enabled'] = var11;
-    var8[0] = var9;
-    var9 = {};
-    var9['enabled'] = var10;
-    var8[1] = var9;
-    var2['variations'] = var8;
-    var2 = var4.bind(var7)(var2);
+    var11 = var5.bind(var1)(var7);
+    var8 = var11.createApexExperiment;
+    var7 = {'name': '2026-04-valorant-social-sdk', 'kind': 'user'};
+    var7['defaultConfig'] = var10;
+    var7['variations'] = var9;
+    var7 = var8.bind(var11)(var7);
+    var _closure1_slot0 = var7;
+    var7 = var6[var4];
+    var11 = var5.bind(var1)(var7);
+    var8 = var11.createApexExperiment;
+    var7 = {'name': '2026-05-valorant-social-sdk-us--canada', 'kind': 'user'};
+    var7['defaultConfig'] = var10;
+    var7['variations'] = var9;
+    var7 = var8.bind(var11)(var7);
+    var _closure1_slot1 = var7;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createApexExperiment;
+    var4 = {'name': '2026-05-valorant-social-sdk-all-regions', 'kind': 'user'};
+    var4['defaultConfig'] = var10;
+    var4['variations'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot2 = var4;
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/application_account_linking/experiments/valorantSocialSDKExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var2 = function getIsValorantSocialSDKEnabled(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var5 = arg1;
+            var3 = _closure1_slot0;
+            var1 = var3.getConfig;
+            var1 = var1.bind(var3)(var5);
+            var4 = _closure1_slot1;
+            var3 = var4.getConfig;
+            var3 = var3.bind(var4)(var5);
+            var4 = _closure1_slot2;
+            var2 = var4.getConfig;
+            var2 = var2.bind(var4)(var5);
+            var1 = var1.enabled;
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = var3.enabled;
+case 2:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var1 = var2.enabled;
+case 4:
+            return var1;
+        }
+    };
+    var3['getIsValorantSocialSDKEnabled'] = var2;
     return var1;
 })();

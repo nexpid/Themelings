@@ -474,9 +474,7 @@ case 3:
             var23 = var27[var23];
             var23 = var24.bind(var4)(var23);
             var24 = var23.Text;
-            var23 = {};
-            var27 = 'heading-xxl/medium';
-            var23['variant'] = var27;
+            var23 = {'maxFontSizeMultiplier': 1, 'variant': 'heading-xxl/medium'};
             var27 = var22.emoji;
             var23['style'] = var27;
             var23['children'] = var26;

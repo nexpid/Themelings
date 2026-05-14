@@ -175,7 +175,8 @@ case 6:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
-            var22 = var3.arrow;
+            var19 = var3.accessibilityLabel;
+            var23 = var3.arrow;
             var17 = var3.contentHeight;
             var2 = var3.deprecatedFormRow;
             var6 = undefined;
@@ -184,7 +185,7 @@ case 10:
             var2 = false;
 case 9:
             var18 = var3.disabled;
-            var21 = var3.end;
+            var22 = var3.end;
             var15 = var3.guildId;
             var13 = var3.leading;
             var11 = var3.onPress;
@@ -192,7 +193,7 @@ case 9:
             var4 = var3.userId;
             var _closure2_slot0 = var4;
             var10 = var3.subLabel;
-            var20 = var3.start;
+            var21 = var3.start;
             var8 = var3.accessibilityRole;
             var7 = var3.accessibilityState;
             var4 = _closure1_slot0;
@@ -219,49 +220,50 @@ case 9:
 case 12:
             var5 = _closure1_slot5;
             var4 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var20 = _closure1_slot2;
             if(var2) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
             var2 = 12;
-            var2 = var19[var2];
+            var2 = var20[var2];
             var2 = var4.bind(var6)(var2);
             var3 = var2.TableRow;
             var2 = {};
-            var2['arrow'] = var22;
+            var2['accessibilityLabel'] = var19;
+            var2['arrow'] = var23;
             var2['disabled'] = var18;
-            var2['end'] = var21;
-            var21 = var13;
+            var2['end'] = var22;
+            var22 = var13;
             if(!(var14 == var13)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var24 = _closure1_slot5;
-            var26 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            var25 = 9;
-            var22 = var27[var25];
-            var22 = var26.bind(var6)(var22);
-            var23 = var22.Avatar;
-            var22 = {};
-            var28 = var16.getAvatarSource;
-            var28 = var28.bind(var16)(var15);
-            var22['source'] = var28;
-            var25 = var27[var25];
-            var25 = var26.bind(var6)(var25);
-            var25 = var25.AvatarSizes;
-            var25 = var25.SMALL;
-            var22['size'] = var25;
-            var21 = var24.bind(var6)(var23, var22);
+            var25 = _closure1_slot5;
+            var27 = _closure1_slot0;
+            var28 = _closure1_slot2;
+            var26 = 9;
+            var23 = var28[var26];
+            var23 = var27.bind(var6)(var23);
+            var24 = var23.Avatar;
+            var23 = {};
+            var29 = var16.getAvatarSource;
+            var29 = var29.bind(var16)(var15);
+            var23['source'] = var29;
+            var26 = var28[var26];
+            var26 = var27.bind(var6)(var26);
+            var26 = var26.AvatarSizes;
+            var26 = var26.SMALL;
+            var23['size'] = var26;
+            var22 = var25.bind(var6)(var24, var23);
 case 15:
-            var2['icon'] = var21;
-            var23 = _closure1_slot5;
-            var22 = _closure1_slot8;
-            var21 = {};
-            var21['contentHeight'] = var17;
-            var21['user'] = var16;
-            var21['guildId'] = var15;
-            var21 = var23.bind(var6)(var22, var21);
-            var2['label'] = var21;
+            var2['icon'] = var22;
+            var24 = _closure1_slot5;
+            var23 = _closure1_slot8;
+            var22 = {};
+            var22['contentHeight'] = var17;
+            var22['user'] = var16;
+            var22['guildId'] = var15;
+            var22 = var24.bind(var6)(var23, var22);
+            var2['label'] = var22;
             var2['onPress'] = var11;
-            var2['start'] = var20;
+            var2['start'] = var21;
             var2['subLabel'] = var10;
             var2['trailing'] = var9;
             var2['accessibilityRole'] = var8;
@@ -270,10 +272,11 @@ case 15:
             _fun0002_ip = 17; continue _fun0002;
 case 13:
             var3 = 11;
-            var3 = var19[var3];
+            var3 = var20[var3];
             var3 = var4.bind(var6)(var3);
             var4 = var3.FormRow;
             var3 = {};
+            var3['accessibilityLabel'] = var19;
             var3['disabled'] = var18;
             if(!(var14 == var13)) { _fun0002_ip = 18; continue _fun0002 }
 case 19:

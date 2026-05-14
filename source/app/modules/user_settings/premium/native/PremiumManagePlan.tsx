@@ -2361,7 +2361,7 @@ case 114:
             var10['style'] = var13;
             var26 = var25;
             if(!var26) { _fun0007_ip = 116; continue _fun0007 }
-case 117:
+case 66:
             var33 = _closure1_slot28;
             var32 = _closure1_slot35;
             var13 = {};
@@ -2373,8 +2373,8 @@ case 117:
 case 116:
             var13 = new Array(7);
             var13[0] = var26;
-            if(!var16) { _fun0007_ip = 118; continue _fun0007 }
-case 119:
+            if(!var16) { _fun0007_ip = 117; continue _fun0007 }
+case 118:
             var33 = _closure1_slot28;
             var32 = _closure1_slot1;
             var34 = _closure1_slot2;
@@ -2386,15 +2386,15 @@ case 119:
             var34 = var34.TIER_2;
             var26['premiumType'] = var34;
             var16 = var33.bind(var4)(var32, var26);
-case 118:
+case 117:
             var13[1] = var16;
             var16 = var18;
-            if(!var18) { _fun0007_ip = 120; continue _fun0007 }
-case 121:
-            var16 = !var25;
+            if(!var18) { _fun0007_ip = 119; continue _fun0007 }
 case 120:
-            if(!var16) { _fun0007_ip = 122; continue _fun0007 }
-case 123:
+            var16 = !var25;
+case 119:
+            if(!var16) { _fun0007_ip = 121; continue _fun0007 }
+case 122:
             var32 = _closure1_slot28;
             var26 = _closure1_slot1;
             var33 = _closure1_slot2;
@@ -2407,10 +2407,10 @@ case 123:
             var25['premiumType'] = var33;
             var25['premiumGroupRole'] = var17;
             var16 = var32.bind(var4)(var26, var25);
-case 122:
+case 121:
             var13[2] = var16;
-            if(!var15) { _fun0007_ip = 124; continue _fun0007 }
-case 125:
+            if(!var15) { _fun0007_ip = 123; continue _fun0007 }
+case 124:
             var26 = _closure1_slot28;
             var25 = _closure1_slot36;
             var16 = {};
@@ -2425,10 +2425,10 @@ case 125:
             var16['activationDate'] = var28;
             var16['durationText'] = var27;
             var15 = var26.bind(var4)(var25, var16);
-case 124:
+case 123:
             var13[3] = var15;
-            if(!var14) { _fun0007_ip = 126; continue _fun0007 }
-case 127:
+            if(!var14) { _fun0007_ip = 125; continue _fun0007 }
+case 126:
             var25 = _closure1_slot29;
             var16 = _closure1_slot7;
             var15 = {};
@@ -2478,19 +2478,19 @@ case 0:
                     var5['destinationPane'] = var8;
                     var5 = var6.bind(var7)(var5);
                     var5 = null;
-                    if(!(var5 == var4)) { _fun0009_ip = 128; continue _fun0009 }
-case 129:
+                    if(!(var5 == var4)) { _fun0009_ip = 127; continue _fun0009 }
+case 128:
                     var6 = _closure2_slot0;
                     var5 = var6.push;
                     var3 = _closure1_slot20;
                     var3 = var3.GUILD_BOOSTING;
                     var3 = var5.bind(var6)(var3);
-                    _fun0009_ip = 130; continue _fun0009;
-case 128:
+                    _fun0009_ip = 129; continue _fun0009;
+case 127:
                     var3 = _closure2_slot0;
                     var2 = var3.navigate;
                     var2 = var2.bind(var3)(var4);
-case 130:
+case 129:
                     return var1;
                 }
             };
@@ -2511,7 +2511,7 @@ case 130:
             var26[1] = var27;
             var15['children'] = var26;
             var14 = var25.bind(var4)(var16, var15);
-case 126:
+case 125:
             var13[4] = var14;
             var16 = _closure1_slot28;
             var15 = _closure1_slot1;
@@ -2527,10 +2527,10 @@ case 126:
             var14['currentSubscription'] = var24;
             var14['entitlements'] = var23;
             var22 = var22 != var18;
-            if(!var22) { _fun0007_ip = 131; continue _fun0007 }
-case 132:
-            var22 = var18;
+            if(!var22) { _fun0007_ip = 130; continue _fun0007 }
 case 131:
+            var22 = var18;
+case 130:
             var14['hasPremiumGroup'] = var22;
             var14 = var16.bind(var4)(var15, var14);
             var13[5] = var14;

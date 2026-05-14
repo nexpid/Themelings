@@ -359,9 +359,9 @@ case 25:
 case 23:
             var3 = _closure1_slot13;
             var2 = _closure1_slot1;
-            var22 = _closure1_slot2;
+            var23 = _closure1_slot2;
             var1 = 25;
-            var1 = var22[var1];
+            var1 = var23[var1];
             var6 = var2.bind(var4)(var1);
             var1 = {};
             var1['channel'] = var11;
@@ -373,7 +373,7 @@ case 23:
             var1['enableActivities'] = var20;
             var6 = var3.bind(var4)(var6, var1);
             var1 = 26;
-            var1 = var22[var1];
+            var1 = var23[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var22 = function onPress() {
@@ -414,6 +414,18 @@ case 23:
             var20 = 'button';
             var1['accessibilityRole'] = var20;
             var1['accessibilityLabel'] = var19;
+            var22 = _closure1_slot0;
+            var19 = 28;
+            var20 = var23[var19];
+            var20 = var22.bind(var4)(var20);
+            var21 = var20.intl;
+            var20 = var21.string;
+            var19 = var23[var19];
+            var19 = var22.bind(var4)(var19);
+            var19 = var19.t;
+            var19 = var19["9C444m"];
+            var19 = var20.bind(var21)(var19);
+            var1['accessibilityHint'] = var19;
             var1['channel'] = var11;
             var1['selected'] = var18;
             var1['locked'] = var17;
@@ -446,7 +458,7 @@ case 34:
             var6['style'] = var10;
             var12 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var10 = 30;
+            var10 = 31;
             var10 = var15[var10];
             var12 = var12.bind(var4)(var10);
             var10 = {};
@@ -460,7 +472,7 @@ case 34:
 case 33:
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 28;
+            var6 = 29;
             var6 = var13[var6];
             var8 = var7.bind(var4)(var6);
             var7 = var8.computeSummarizedVoiceUsers;
@@ -480,7 +492,7 @@ case 33:
             var10 = var10.voiceStatesCollapsed;
             var6['style'] = var10;
             var10 = _closure1_slot1;
-            var9 = 29;
+            var9 = 30;
             var9 = var13[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -513,13 +525,13 @@ case 0:
             var5 = var2.subtitle;
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 31;
+            var2 = 32;
             var2 = var6[var2];
             var4 = undefined;
             var7 = var3.bind(var4)(var2);
             var2 = var9.guild_id;
             var12 = var7.bind(var4)(var2);
-            var2 = 32;
+            var2 = 33;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var14 = var2.bind(var4)(var9);
@@ -593,7 +605,7 @@ case 38:
         }
     };
     var5 = var6.bind(var9)(var5);
-    var6 = 33;
+    var6 = 34;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

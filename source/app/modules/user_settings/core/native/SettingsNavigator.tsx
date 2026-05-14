@@ -146,8 +146,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = _closure1_slot14;
             var4 = undefined;
-            var11 = var1.bind(var4)();
-            var _closure2_slot0 = var11;
+            var14 = var1.bind(var4)();
+            var _closure2_slot0 = var14;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var2 = 12;
@@ -192,30 +192,30 @@ case 11:
 case 10:
             var _closure2_slot3 = var1;
             var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var3 = 13;
-            var3 = var10[var3];
+            var3 = var11[var3];
             var6 = var7.bind(var4)(var3);
             var5 = var6.useYouBarEnabled;
             var3 = 'NativeSettings';
             var21 = var5.bind(var6)(var3);
             var _closure2_slot4 = var21;
-            var2 = var10[var2];
+            var2 = var11[var2];
             var3 = var7.bind(var4)(var2);
             var2 = var3.useNavigation;
             var2 = var2.bind(var3)();
             var _closure2_slot5 = var2;
             var2 = 14;
-            var2 = var10[var2];
+            var2 = var11[var2];
             var5 = var7.bind(var4)(var2);
             var3 = var5.useCommonTriggerPoint;
             var2 = 15;
-            var2 = var10[var2];
+            var2 = var11[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.OpenUserSettingsTriggerPoint;
             var2 = var3.bind(var5)(var2);
-            var22 = _closure1_slot4;
-            var5 = var22.useEffect;
+            var23 = _closure1_slot4;
+            var5 = var23.useEffect;
             var3 = new Array(1);
             var3[0] = var12;
             var2 = function() {
@@ -237,8 +237,8 @@ case 10:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var2 = var5.bind(var22)(var2, var3);
-            var3 = var22.useEffect;
+            var2 = var5.bind(var23)(var2, var3);
+            var3 = var23.useEffect;
             var2 = new Array(1);
             var2[0] = var1;
             var1 = function() {
@@ -259,9 +259,9 @@ case 12:
                 };
                 return var1;
             };
-            var1 = var3.bind(var22)(var1, var2);
+            var1 = var3.bind(var23)(var1, var2);
             var1 = 17;
-            var1 = var10[var1];
+            var1 = var11[var1];
             var5 = var7.bind(var4)(var1);
             var3 = var5.useStateFromStores;
             var1 = _closure1_slot6;
@@ -273,16 +273,16 @@ case 12:
                 return var1;
             };
             var1 = var3.bind(var5)(var2, var1);
-            var3 = var22.useState;
-            var2 = false;
-            var5 = var3.bind(var22)(var2);
+            var2 = var23.useState;
+            var9 = false;
+            var5 = var2.bind(var23)(var9);
             var3 = _closure1_slot3;
             var2 = 2;
             var2 = var3.bind(var4)(var5, var2);
             var17 = 1;
             var2 = var2[var17];
             var _closure2_slot6 = var2;
-            var3 = var22.useLayoutEffect;
+            var3 = var23.useLayoutEffect;
             var2 = new Array(1);
             var2[0] = var1;
             var1 = function() {
@@ -296,18 +296,18 @@ case 12:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var1 = var3.bind(var22)(var1, var2);
+            var1 = var3.bind(var23)(var1, var2);
             var6 = _closure1_slot1;
             var1 = 18;
-            var2 = var10[var1];
+            var2 = var11[var1];
             var3 = var6.bind(var4)(var2);
             var2 = 19;
-            var2 = var10[var2];
+            var2 = var11[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.USER_SETTINGS;
             var2 = var3.bind(var4)(var2);
             var5 = var2.analyticsLocations;
-            var8 = var22.useMemo;
+            var8 = var23.useMemo;
             var3 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -320,8 +320,8 @@ case 12:
                 return var1;
             };
             var2 = new Array(0);
-            var15 = var8.bind(var22)(var3, var2);
-            var8 = var22.useLayoutEffect;
+            var15 = var8.bind(var23)(var3, var2);
+            var8 = var23.useLayoutEffect;
             var3 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -334,16 +334,16 @@ case 12:
                 return var1;
             };
             var2 = new Array(0);
-            var2 = var8.bind(var22)(var3, var2);
+            var2 = var8.bind(var23)(var3, var2);
             var3 = _closure1_slot10;
             var2 = 'SettingsNavigator';
-            var14 = var3.bind(var4)(var2);
+            var22 = var3.bind(var4)(var2);
             var2 = 22;
-            var2 = var10[var2];
+            var2 = var11[var2];
             var3 = var7.bind(var4)(var2);
             var2 = var3.useGlobalStatusIndicatorState;
-            var9 = var2.bind(var3)();
-            var8 = var22.useEffect;
+            var10 = var2.bind(var3)();
+            var8 = var23.useEffect;
             var3 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -356,14 +356,14 @@ case 12:
                 return var1;
             };
             var2 = new Array(0);
-            var2 = var8.bind(var22)(var3, var2);
+            var2 = var8.bind(var23)(var3, var2);
             var2 = 24;
-            var2 = var10[var2];
+            var2 = var11[var2];
             var3 = var7.bind(var4)(var2);
             var2 = var3.useAccessibilityNativeStackOptions;
             var20 = var2.bind(var3)();
             var2 = 25;
-            var2 = var10[var2];
+            var2 = var11[var2];
             var3 = var7.bind(var4)(var2);
             var2 = var3.useAccessibilityNativeStackFocusTracking;
             var2 = var2.bind(var3)();
@@ -371,31 +371,31 @@ case 12:
             var16 = var2.transitionStart;
             var2 = {};
             var8 = 26;
-            var3 = var10[var8];
-            var25 = var7.bind(var4)(var3);
-            var24 = var25.useToken;
+            var3 = var11[var8];
+            var26 = var7.bind(var4)(var3);
+            var25 = var26.useToken;
             var3 = 10;
-            var23 = var10[var3];
-            var23 = var6.bind(var4)(var23);
-            var23 = var23.colors;
-            var23 = var23.BACKGROUND_BASE_LOWER;
-            var23 = var24.bind(var25)(var23);
-            var2['backgroundColor'] = var23;
+            var24 = var11[var3];
+            var24 = var6.bind(var4)(var24);
+            var24 = var24.colors;
+            var24 = var24.BACKGROUND_BASE_LOWER;
+            var24 = var25.bind(var26)(var24);
+            var2['backgroundColor'] = var24;
             var2['borderTopWidth'] = var17;
-            var8 = var10[var8];
+            var8 = var11[var8];
             var17 = var7.bind(var4)(var8);
             var8 = var17.useToken;
-            var3 = var10[var3];
+            var3 = var11[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.colors;
             var3 = var3.BORDER_SUBTLE;
             var3 = var8.bind(var17)(var3);
             var2['borderTopColor'] = var3;
             var _closure2_slot7 = var2;
-            var8 = var22.useCallback;
+            var8 = var23.useCallback;
             var3 = new Array(2);
             var3[0] = var21;
-            var2 = var11.backButton;
+            var2 = var14.backButton;
             var3[1] = var2;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -480,9 +480,9 @@ case 16:
                     return var1;
                 }
             };
-            var2 = var8.bind(var22)(var2, var3);
+            var2 = var8.bind(var23)(var2, var3);
             var _closure2_slot8 = var2;
-            var8 = var22.useMemo;
+            var8 = var23.useMemo;
             var3 = function() {
                 var1 = {};
                 var2 = function transitionEnd(arg1) {
@@ -522,8 +522,8 @@ case 21:
                 return var1;
             };
             var2 = new Array(0);
-            var17 = var8.bind(var22)(var3, var2);
-            var8 = var22.useMemo;
+            var17 = var8.bind(var23)(var3, var2);
+            var8 = var23.useMemo;
             var3 = function() {
                 var1 = {};
                 var2 = function transitionEnd(arg1) {
@@ -558,22 +558,22 @@ case 25:
                 return var1;
             };
             var2 = new Array(0);
-            var2 = var8.bind(var22)(var3, var2);
+            var2 = var8.bind(var23)(var3, var2);
             var _closure2_slot9 = var2;
             var2 = 31;
-            var2 = var10[var2];
+            var2 = var11[var2];
             var3 = var7.bind(var4)(var2);
             var2 = var3.useAutoSettingsSearchSessionAnalytics;
             var2 = var2.bind(var3)();
             var3 = _closure1_slot12;
-            var1 = var10[var1];
+            var1 = var11[var1];
             var1 = var7.bind(var4)(var1);
             var2 = var1.AnalyticsLocationProvider;
             var1 = {};
             var1['value'] = var5;
             var8 = _closure1_slot11;
             var5 = 32;
-            var5 = var10[var5];
+            var5 = var11[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var6 = var8.bind(var4)(var6, var5);
@@ -581,22 +581,23 @@ case 25:
             var5[0] = var6;
             var8 = _closure1_slot11;
             var6 = 33;
-            var6 = var10[var6];
+            var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.SafeAreaPaddingView;
             var6 = {};
-            var9 = var9.isVisible;
-            var6['top'] = var9;
-            var10 = var11.statusBarSpacer;
-            var9 = new Array(2);
-            var9[0] = var10;
-            var10 = undefined;
-            if(!var14) { _fun0001_ip = 27; continue _fun0001 }
+            var10 = var10.isVisible;
+            var6['top'] = var10;
+            var11 = var14.statusBarSpacer;
+            var10 = new Array(2);
+            var10[0] = var11;
+            var11 = undefined;
+            if(!var22) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
-            var10 = var11.youBarWrapper;
+            var11 = var14.youBarWrapper;
 case 27:
-            var9[1] = var10;
-            var6['style'] = var9;
+            var10[1] = var11;
+            var6['style'] = var10;
+            var6['accessible'] = var9;
             var9 = function onAccessibilityEscape() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -644,9 +645,9 @@ case 31:
             };
 case 33:
             var14['headerTitle'] = var21;
-            var27 = var14;
-            var26 = var20;
-            var20 = copyDataProperties(var27, var26);
+            var28 = var14;
+            var27 = var20;
+            var20 = copyDataProperties(var28, var27);
             var9['screenOptions'] = var14;
             var14 = {};
             var14['beforeRemove'] = var19;

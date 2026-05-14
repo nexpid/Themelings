@@ -288,17 +288,30 @@ case 2:
     var10 = {};
     var10['boostPrice'] = var2;
     var12 = function isEnabled(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 9;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.getServerThemeEnabled;
-        var2 = arg1;
-        var1 = 'GuildPowerupsConstants';
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 9;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.getServerThemeUserEnabled;
+            var5 = 'GuildPowerupsConstants';
+            var1 = var1.bind(var3)(var5);
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 10;
+            var2 = var6[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.getServerThemeEnabled;
+            var2 = arg1;
+            var1 = var3.bind(var4)(var2, var5);
+case 4:
+            return var1;
+        }
     };
     var10['isEnabled'] = var12;
     var14[10] = var10;
@@ -309,7 +322,7 @@ case 2:
     var11 = function isEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 10;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -456,7 +469,7 @@ case 2:
     var2['HALF'] = var25;
     var25 = 'none';
     var2['NONE'] = var25;
-    var25 = 11;
+    var25 = 12;
     var25 = var27[var25];
     var27 = var26.bind(var1)(var25);
     var26 = var27.fileFinishedImporting;

@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(9);
+        var2 = new Array(8);
         var2[0] = var1;
         var1 = {};
         var6 = 'off';
@@ -161,31 +161,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['value'] = var6;
         var2[6] = var1;
         var1 = {};
-        var6 = 'emitUnsafe';
-        var1['key'] = var6;
-        var6 = function value(arg1, arg2) {
-            var5 = 1;
-            var9 = var5;
-            var8 = copyRestArgs(var9);
-            var1 = this;
-            var3 = var1.emitter;
-            var2 = var3.emit;
-            var1 = new Array(1);
-            var6 = arg1;
-            var1[0] = var6;
-            var9 = var1;
-            var7 = var5;
-            var4 = arraySpread(var9, var8, var7);
-            var9 = var2;
-            var8 = var1;
-            var7 = var3;
-            var1 = apply(var9, var8, var7);
-            var1 = undefined;
-            return var1;
-        };
-        var1['value'] = var6;
-        var2[7] = var1;
-        var1 = {};
         var6 = 'listenerCount';
         var1['key'] = var6;
         var5 = function value(arg1) {
@@ -197,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var5;
-        var2[8] = var1;
+        var2[7] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

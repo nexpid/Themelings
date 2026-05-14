@@ -67,7 +67,7 @@ case 3:
                 var1 = null;
                 if(!(var1 != var9)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var1 = var9.isFractionalPremium;
+                var1 = var9.isFractionalPremiumWithNoStandardSub;
                 var1 = var1.bind(var9)();
                 if(var1) { _fun0001_ip = 6; continue _fun0001 }
 case 4:

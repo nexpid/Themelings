@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['container'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center'};
     var7['priceTagRow'] = var10;
-    var10 = {'flexDirection': 'column', 'alignItems': 'flex-start'};
+    var10 = {'flexDirection': 'column', 'alignItems': 'flex-start', 'flexShrink': 1};
     var7['priceTagColumn'] = var10;
     var10 = {};
     var13 = 'underline';

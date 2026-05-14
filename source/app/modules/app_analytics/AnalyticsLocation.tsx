@@ -1016,8 +1016,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_WISHLIST_NITRO_MEMBER_HUB'] = var1;
     var1 = 'premium wishlist edit profile upsell';
     var2['PREMIUM_WISHLIST_EDIT_PROFILE_UPSELL'] = var1;
-    var1 = 'premium wishlist churn modal';
-    var2['PREMIUM_WISHLIST_CHURN_MODAL'] = var1;
     var1 = 'blocked profile modal';
     var2['BLOCKED_PROFILE_MODAL'] = var1;
     var1 = 'ignored profile modal';

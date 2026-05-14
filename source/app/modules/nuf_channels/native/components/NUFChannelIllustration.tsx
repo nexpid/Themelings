@@ -319,7 +319,7 @@ case 2:
         var1 = var16[var11];
         var3 = var23.bind(var4)(var1);
         var2 = var3.useAnimatedStyle;
-        var1 = function w() {
+        var1 = function b() {
             var1 = {};
             var3 = {};
             var5 = _closure1_slot0;
@@ -443,9 +443,7 @@ case 2:
         var18 = var16[var18];
         var18 = var23.bind(var4)(var18);
         var19 = var18.Text;
-        var18 = {};
-        var20 = 'text-md/bold';
-        var18['variant'] = var20;
+        var18 = {'variant': 'text-md/bold', 'allowFontScaling': false};
         var20 = 6;
         var21 = var16[var20];
         var21 = var23.bind(var4)(var21);
@@ -502,9 +500,7 @@ case 2:
             var8 = var12[var9];
             var8 = var10.bind(var2)(var8);
             var13 = var8.Text;
-            var8 = {};
-            var14 = 'text-md/semibold';
-            var8['variant'] = var14;
+            var8 = {'variant': 'text-md/semibold', 'allowFontScaling': false};
             var14 = var1.name;
             var8['children'] = var14;
             var13 = var11.bind(var2)(var13, var8);
@@ -513,9 +509,7 @@ case 2:
             var9 = var12[var9];
             var9 = var10.bind(var2)(var9);
             var10 = var9.Text;
-            var9 = {};
-            var12 = 'text-md/medium';
-            var9['variant'] = var12;
+            var9 = {'variant': 'text-md/medium', 'allowFontScaling': false};
             var12 = var1.message;
             var9['children'] = var12;
             var9 = var11.bind(var2)(var10, var9);

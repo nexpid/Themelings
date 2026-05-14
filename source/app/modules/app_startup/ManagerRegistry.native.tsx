@@ -427,7 +427,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['KvBackgroundManager'] = var1;
     var1 = {};
-    var8 = ['VOICE_CHANNEL_SHOW_FEEDBACK', 'STREAM_CLOSE', 'EMBEDDED_ACTIVITY_CLOSE', 'IN_APP_REPORTS_SHOW_FEEDBACK', 'BLOCK_USER_SHOW_FEEDBACK'];
+    var8 = ['VOICE_CHANNEL_SHOW_FEEDBACK', 'STREAM_CLOSE', 'EMBEDDED_ACTIVITY_CLOSE', 'IN_APP_REPORTS_SHOW_FEEDBACK'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

@@ -812,32 +812,32 @@ case 42:
             var4 = 'center';
 case 41:
             var9 = var1.initialExpanded;
-            if(!(var9 === var5)) { _fun0010_ip = 37; continue _fun0010 }
-case 6:
+            if(!(var9 === var5)) { _fun0010_ip = 43; continue _fun0010 }
+case 20:
             var9 = false;
-case 37:
+case 43:
             var1 = var8.isDM;
-            var1 = var1.bind(var8)();
-            if(var1) { _fun0010_ip = 43; continue _fun0010 }
-case 21:
-            var1 = var8.isGroupDM;
             var1 = var1.bind(var8)();
             if(var1) { _fun0010_ip = 44; continue _fun0010 }
 case 45:
+            var1 = var8.isGroupDM;
+            var1 = var1.bind(var8)();
+            if(var1) { _fun0010_ip = 46; continue _fun0010 }
+case 47:
             var2 = var8.topic;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0010_ip = 46; continue _fun0010 }
-case 47:
+            if(!var1) { _fun0010_ip = 48; continue _fun0010 }
+case 16:
             var3 = var8.topic;
             var2 = var3.trim;
             var3 = var2.bind(var3)();
             var2 = '';
             var1 = var2 !== var3;
-case 46:
+case 48:
             var6 = undefined;
-            if(!var1) { _fun0010_ip = 48; continue _fun0010 }
-case 49:
+            if(!var1) { _fun0010_ip = 49; continue _fun0010 }
+case 50:
             var3 = _closure1_slot11;
             var2 = _closure1_slot20;
             var1 = {};
@@ -845,34 +845,34 @@ case 49:
             var1['textAlign'] = var4;
             var1['initialExpanded'] = var9;
             var6 = var3.bind(var5)(var2, var1);
-            _fun0010_ip = 48; continue _fun0010;
-case 44:
+            _fun0010_ip = 49; continue _fun0010;
+case 46:
             var3 = _closure1_slot11;
             var2 = _closure1_slot22;
             var1 = {};
             var1['channel'] = var8;
             var1['textAlign'] = var4;
             var6 = var3.bind(var5)(var2, var1);
-            _fun0010_ip = 48; continue _fun0010;
-case 43:
+            _fun0010_ip = 49; continue _fun0010;
+case 44:
             var3 = _closure1_slot11;
             var2 = _closure1_slot21;
             var1 = {};
             var1['channel'] = var8;
             var1['textAlign'] = var4;
             var6 = var3.bind(var5)(var2, var1);
-case 48:
+case 49:
             var1 = null;
             var2 = var1 == var6;
-            if(var2) { _fun0010_ip = 50; continue _fun0010 }
-case 51:
+            if(var2) { _fun0010_ip = 51; continue _fun0010 }
+case 52:
             var4 = _closure1_slot11;
             var3 = _closure1_slot5;
             var2 = {};
             var2['style'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 50:
+case 51:
             return var1;
         }
     };

@@ -1388,7 +1388,7 @@ case 66:
             var1 = var1.t;
             if(var34) { _fun0007_ip = 67; continue _fun0007 }
 case 68:
-            var15 = var1.WAI6xu;
+            var15 = var1["5lPjGj"];
             var43 = var2.bind(var5)(var15);
             _fun0007_ip = 69; continue _fun0007;
 case 67:

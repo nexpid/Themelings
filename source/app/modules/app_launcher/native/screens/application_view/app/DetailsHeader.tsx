@@ -525,7 +525,7 @@ case 28:
             var18 = 15;
             var18 = var32[var18];
             var18 = var30.bind(var4)(var18);
-            var30 = var18.Text;
+            var30 = var18.Heading;
             var18 = {'style': null, 'variant': 'heading-lg/bold', 'color': 'text-default', 'lineClamp': 1};
             var32 = var19.nameText;
             var18['style'] = var32;
@@ -582,6 +582,8 @@ case 34:
 case 33:
             var23['style'] = var31;
             var23['onPress'] = var22;
+            var31 = 'button';
+            var23['accessibilityRole'] = var31;
             var33 = _closure1_slot7;
             var32 = _closure1_slot0;
             var31 = _closure1_slot2;
@@ -801,7 +803,7 @@ case 56:
             var10 = 15;
             var10 = var18[var10];
             var10 = var13.bind(var4)(var10);
-            var13 = var10.Text;
+            var13 = var10.Heading;
             var10 = {'variant': 'heading-lg/bold', 'color': 'text-default'};
             var10['children'] = var17;
             var12 = var14.bind(var4)(var13, var10);

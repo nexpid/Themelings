@@ -212,7 +212,7 @@ case 20:
                         var8 = _closure2_slot0;
                         var5['isInitialLoad'] = var8;
                         var5 = var6.bind(var7)(var5);
-                        SaveGenerator(address=311);
+                        SaveGenerator(address=309);
 case 21:
                         return var5;
 case 22:
@@ -346,7 +346,7 @@ case 26:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 21; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 22; continue _fun0005 }
 case 3:
                     var2 = undefined;
                     var8 = undefined;
@@ -431,7 +431,7 @@ case 43: // catch_target0
                     var3 = var3.bind(var4)(var5);
 case 35:
                     return var2;
-case 21:
+case 22:
                     return var1;
                 }
             };
@@ -814,7 +814,7 @@ case 3:
                     var5 = var6.icymiEnabled;
                     var4 = 'mediaForCurrentStatus';
                     var4 = var5.bind(var6)(var4);
-                    if(!var4) { _fun0010_ip = 22; continue _fun0010 }
+                    if(!var4) { _fun0010_ip = 70; continue _fun0010 }
 case 36:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -826,12 +826,12 @@ case 36:
                     var4 = var4.bind(var5)();
                     var8 = var4;
                     var5 = null;
-                    if(!(var5 != var4)) { _fun0010_ip = 22; continue _fun0010 }
-case 70:
+                    if(!(var5 != var4)) { _fun0010_ip = 70; continue _fun0010 }
+case 71:
                     var4 = var8;
                     var4 = var4.createdAtMs;
-                    if(!(var5 != var4)) { _fun0010_ip = 22; continue _fun0010 }
-case 71: // try_start_0
+                    if(!(var5 != var4)) { _fun0010_ip = 70; continue _fun0010 }
+case 72: // try_start_0
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var4 = 2;
@@ -851,7 +851,7 @@ case 67:
                     return var4;
 case 66:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0010_ip = 72; continue _fun0010 }
+                    if(var5) { _fun0010_ip = 73; continue _fun0010 }
 case 6:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -872,10 +872,10 @@ case 6:
                     var5['createdAtMs'] = var8;
                     var5 = var6.bind(var7)(var5);
 case 43: // try_end0
-                    _fun0010_ip = 22; continue _fun0010;
-case 72:
+                    _fun0010_ip = 70; continue _fun0010;
+case 73:
                     return var4;
-case 73: // catch_target0
+case 74: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -884,7 +884,7 @@ case 73: // catch_target0
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.captureException;
                     var3 = var3.bind(var4)(var5);
-case 22:
+case 70:
                     return var2;
 case 69:
                     return var1;
@@ -1149,13 +1149,13 @@ case 69:
 case 0:
             var5 = arguments[0];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0011_ip = 74; continue _fun0011 }
-case 75:
+            if(!(var5 === var1)) { _fun0011_ip = 75; continue _fun0011 }
+case 76:
             var2 = global;
             var3 = var2.Date;
             var2 = var3.now;
             var5 = var2.bind(var3)();
-case 74:
+case 75:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 3;

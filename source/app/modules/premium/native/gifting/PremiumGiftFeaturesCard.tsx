@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = undefined;
         var6 = var4.bind(var7)(var6);
         var6 = var6.radii;
-        var6 = var6.lg;
+        var6 = var6.sm;
         var2['borderRadius'] = var6;
         var1['promotional'] = var2;
         var2 = {};
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8[var3];
         var6 = var4.bind(var7)(var6);
         var6 = var6.radii;
-        var6 = var6.lg;
+        var6 = var6.sm;
         var2['borderRadius'] = var6;
         var6 = var8[var3];
         var6 = var4.bind(var7)(var6);

@@ -80,7 +80,7 @@ case 22:
                 var7 = undefined;
                 if(!var9) { _fun0002_ip = 23; continue _fun0002 }
 case 21:
-                var9 = _closure1_slot16;
+                var9 = _closure1_slot17;
                 var7 = var9.bind(var8)(var3, var8);
 case 23:
                 _fun0002_ip = 24; continue _fun0002;
@@ -92,7 +92,7 @@ case 24:
                 var6 = var7;
                 _fun0002_ip = 10; continue _fun0002;
 case 12:
-                var7 = _closure1_slot16;
+                var7 = _closure1_slot17;
                 var6 = var7.bind(var8)(var3, var8);
 case 10:
                 var4 = var6;
@@ -151,7 +151,7 @@ case 6:
                 return var1;
             }
         };
-        var _closure1_slot15 = var1;
+        var _closure1_slot16 = var1;
         var1 = function _arrayLikeToArray(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -184,7 +184,7 @@ case 35:
                 return var1;
             }
         };
-        var _closure1_slot16 = var1;
+        var _closure1_slot17 = var1;
         var6 = function getPrice(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -247,7 +247,7 @@ case 44:
                 return var1;
             }
         };
-        var _closure1_slot17 = var6;
+        var _closure1_slot18 = var6;
         var5 = function hasSocialLayerStorefront(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -319,7 +319,7 @@ case 45:
                 return var1;
             }
         };
-        var _closure1_slot18 = var5;
+        var _closure1_slot19 = var5;
         var4 = function getSKUShareURL(arg1, arg2) {
             var2 = arg2;
             var1 = global;
@@ -340,7 +340,7 @@ case 45:
             var1 = var2.bind(var1)(var5, var4, var3);
             return var1;
         };
-        var _closure1_slot19 = var4;
+        var _closure1_slot20 = var4;
         var1 = global;
         var12 = var1.Object;
         var11 = var12.defineProperty;
@@ -388,9 +388,14 @@ case 45:
         var7 = 6;
         var7 = var10[var7];
         var7 = var9.bind(var1)(var7);
-        var7 = var7.CurrencyCodes;
+        var7 = var7.CollectibleShopTab;
         var _closure1_slot13 = var7;
         var7 = 7;
+        var7 = var10[var7];
+        var7 = var9.bind(var1)(var7);
+        var7 = var7.CurrencyCodes;
+        var _closure1_slot14 = var7;
+        var7 = 8;
         var7 = var10[var7];
         var7 = var9.bind(var1)(var7);
         var8 = var7.SUPPORTS_WEBP;
@@ -399,8 +404,8 @@ case 45:
 case 60:
         var7 = 'webp';
 case 59:
-        var _closure1_slot14 = var7;
-        var8 = 13;
+        var _closure1_slot15 = var7;
+        var8 = 15;
         var8 = var10[var8];
         var10 = var9.bind(var1)(var8);
         var9 = var10.fileFinishedImporting;
@@ -431,7 +436,7 @@ case 61:
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var7 = arg1;
-                var2 = _closure1_slot17;
+                var2 = _closure1_slot18;
                 var1 = _closure1_slot10;
                 var1 = var1.DEFAULT;
                 var6 = undefined;
@@ -442,12 +447,12 @@ case 63:
                 var2 = {};
                 var5 = 0;
                 var2['amount'] = var5;
-                var5 = _closure1_slot13;
+                var5 = _closure1_slot14;
                 var5 = var5.USD;
                 var2['currency'] = var5;
                 var3 = var2;
 case 7:
-                var5 = _closure1_slot17;
+                var5 = _closure1_slot18;
                 var2 = _closure1_slot10;
                 var2 = var2.GIFT;
                 var2 = var5.bind(var6)(var7, var2);
@@ -456,7 +461,7 @@ case 40:
                 var1 = {};
                 var5 = 0;
                 var1['amount'] = var5;
-                var4 = _closure1_slot13;
+                var4 = _closure1_slot14;
                 var4 = var4.USD;
                 var1['currency'] = var4;
                 var2 = var1;
@@ -485,7 +490,7 @@ case 0:
                 var1 = new var22[var1](var21);
                 var12 = var1 instanceof Object ? var1 : var2;
                 var1 = new Array(0);
-                var3 = _closure1_slot15;
+                var3 = _closure1_slot16;
                 var2 = arg1;
                 var2 = var2.pages;
                 var10 = undefined;
@@ -501,7 +506,7 @@ case 0:
                 if(var2) { _fun0009_ip = 67; continue _fun0009 }
 case 68:
                 var2 = var7.value;
-                var14 = _closure1_slot15;
+                var14 = _closure1_slot16;
                 var13 = var2.skuIds;
                 var15 = var14.bind(var10)(var13);
                 var14 = var15.bind(var10)();
@@ -524,7 +529,7 @@ case 71:
                 var6 = var16;
                 if(!var13) { _fun0009_ip = 70; continue _fun0009 }
 case 69:
-                var13 = _closure1_slot15;
+                var13 = _closure1_slot16;
                 var2 = var2.sections;
                 if(!(var8 == var2)) { _fun0009_ip = 38; continue _fun0009 }
 case 57:
@@ -538,7 +543,7 @@ case 38:
                 var3 = var13;
                 if(var2) { _fun0009_ip = 73; continue _fun0009 }
 case 44:
-                var16 = _closure1_slot15;
+                var16 = _closure1_slot16;
                 var2 = var14.value;
                 var2 = var2.skuIds;
                 var17 = var16.bind(var10)(var2);
@@ -721,7 +726,7 @@ case 86:
                 var1['pages'] = var2;
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 8;
+                var2 = 9;
                 var2 = var6[var2];
                 var6 = undefined;
                 var8 = var5.bind(var6)(var2);
@@ -749,7 +754,7 @@ case 88:
 case 91:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var4 = 9;
+                var4 = 10;
                 var4 = var7[var4];
                 var5 = var5.bind(var6)(var4);
                 var4 = var5.transformStorefrontPricesServer;
@@ -805,12 +810,12 @@ case 72:
                 var1 = {};
                 var7 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var6 = 10;
+                var6 = 11;
                 var6 = var9[var6];
                 var7 = var7.bind(var3)(var6);
                 var6 = var7.toURLSafe;
                 var8 = _closure1_slot0;
-                var5 = 7;
+                var5 = 8;
                 var5 = var9[var5];
                 var11 = var8.bind(var3)(var5);
                 var10 = var11.getAssetURL;
@@ -862,13 +867,13 @@ case 101:
 case 31:
                 var3 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var2 = 10;
+                var2 = 11;
                 var2 = var7[var2];
                 var6 = undefined;
                 var3 = var3.bind(var6)(var2);
                 var2 = var3.toURLSafe;
                 var5 = _closure1_slot0;
-                var4 = 7;
+                var4 = 8;
                 var4 = var7[var4];
                 var8 = var5.bind(var6)(var4);
                 var7 = var8.getAssetURL;
@@ -929,12 +934,12 @@ case 11:
 case 50:
                 var3 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 10;
+                var2 = 11;
                 var2 = var6[var2];
                 var3 = var3.bind(var5)(var2);
                 var2 = var3.toURLSafe;
                 var4 = _closure1_slot0;
-                var1 = 7;
+                var1 = 8;
                 var1 = var6[var1];
                 var6 = var4.bind(var5)(var1);
                 var5 = var6.getAssetURL;
@@ -985,12 +990,12 @@ case 111:
 case 113:
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var2 = 10;
+                var2 = 11;
                 var2 = var8[var2];
                 var3 = var3.bind(var7)(var2);
                 var2 = var3.toURLSafe;
                 var6 = _closure1_slot0;
-                var5 = 7;
+                var5 = 8;
                 var5 = var8[var5];
                 var8 = var6.bind(var7)(var5);
                 var7 = var8.getAssetURL;
@@ -998,7 +1003,7 @@ case 113:
                 var4 = var4.tenantMetadata;
                 var4 = var4.socialLayer;
                 var11 = var4.cardBackgroundImageAssetId;
-                var9 = _closure1_slot14;
+                var9 = _closure1_slot15;
                 var10 = 1024;
                 var13 = var8;
                 var1 = var13[var7](var12, var11, var10, var9, var8);
@@ -1009,7 +1014,7 @@ case 113:
         var3['getCardBackgroundImageURL'] = var5;
         var3['getSKUShareURL'] = var4;
         var4 = function getForwardedSKUShareURL(arg1, arg2) {
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot20;
             var3 = undefined;
             var2 = arg1;
             var1 = arg2;
@@ -1034,7 +1039,7 @@ case 0:
                 var1 = var1 != var4;
                 if(!var1) { _fun0019_ip = 46; continue _fun0019 }
 case 3:
-                var3 = _closure1_slot18;
+                var3 = _closure1_slot19;
                 var2 = undefined;
                 var1 = var3.bind(var2)(var4);
 case 46:
@@ -1206,14 +1211,64 @@ case 121:
             }
         };
         var3['getHasWishlistOrPopularRecommendations'] = var4;
-        var4 = function useGetSocialLayerStorefrontGuildIdAndApplication(arg1) {
+        var4 = function isOnSocialLayerStorefrontPage(arg1, arg2, arg3, arg4) {
             _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+case 0:
+                var8 = arg1;
+                var10 = arg4;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 12;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.parse;
+                var1 = arg2;
+                var1 = var3.bind(var4)(var1);
+                var3 = var1.tab;
+                var4 = var1.applicationId;
+                var5 = var8.indexOf;
+                var1 = _closure1_slot11;
+                var1 = var1.COLLECTIBLES_SHOP;
+                var1 = var5.bind(var8)(var1);
+                var6 = 0;
+                if(!(!(var1 >= var6))) { _fun0025_ip = 122; continue _fun0025 }
+case 68:
+                var1 = null;
+                var1 = var1 != var10;
+                if(!var1) { _fun0025_ip = 123; continue _fun0025 }
+case 109:
+                var7 = var8.indexOf;
+                var9 = _closure1_slot11;
+                var5 = var9.CHANNELS_GAME_SHOP_PREFIX;
+                var5 = var5.bind(var9)(var10);
+                var5 = var7.bind(var8)(var5);
+                var1 = var5 >= var6;
+case 123:
+                _fun0025_ip = 41; continue _fun0025;
+case 122:
+                var2 = _closure1_slot13;
+                var2 = var2.GAME_SHOPS;
+                var2 = var3 === var2;
+                if(!var2) { _fun0025_ip = 124; continue _fun0025 }
+case 125:
+                var3 = arg3;
+                var2 = var4 === var3;
+case 124:
+                var1 = var2;
+case 41:
+                return var1;
+            }
+        };
+        var3['isOnSocialLayerStorefrontPage'] = var4;
+        var4 = function useGetSocialLayerStorefrontGuildIdAndApplication(arg1) {
+            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
                 var5 = arg1;
                 var _closure2_slot0 = var5;
                 var2 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var4 = 11;
+                var4 = 13;
                 var7 = var6[var4];
                 var4 = undefined;
                 var8 = var2.bind(var4)(var7);
@@ -1229,21 +1284,21 @@ case 0:
                     return var1;
                 };
                 var3 = var7.bind(var8)(var3, var1);
-                var1 = 12;
+                var1 = 14;
                 var1 = var6[var1];
                 var2 = var2.bind(var4)(var1);
                 var1 = var2.useGetOrFetchApplication;
                 var2 = var1.bind(var2)(var5);
                 var1 = {};
                 var5 = null;
-                if(!(var5 == var3)) { _fun0025_ip = 13; continue _fun0025 }
-case 122:
+                if(!(var5 == var3)) { _fun0026_ip = 13; continue _fun0026 }
+case 126:
                 var5 = var5 == var2;
                 var4 = undefined;
-                if(var5) { _fun0025_ip = 123; continue _fun0025 }
-case 124:
+                if(var5) { _fun0026_ip = 127; continue _fun0026 }
+case 128:
                 var4 = var2.guildId;
-case 123:
+case 127:
                 var3 = var4;
 case 13:
                 var1['guildId'] = var3;
@@ -1255,7 +1310,7 @@ case 13:
         var2 = function transformSocialLayerStorefrontAffinityServer(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 8;
+            var1 = 9;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);

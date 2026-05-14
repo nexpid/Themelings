@@ -87,7 +87,7 @@ case 7:
             var4 = var8[var4];
             var4 = var7.bind(var6)(var4);
             var4 = var4.spacing;
-            var3 = var4.PX_4;
+            var3 = var4.PX_8;
 case 6:
             var2['paddingLeft'] = var3;
             var8 = _closure1_slot1;

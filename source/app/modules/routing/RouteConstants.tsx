@@ -41,8 +41,8 @@ case 0:
         var4[3] = var7;
         var5 = '@guild-upsell-list';
         var4[4] = var5;
-        var13 = var2.Object;
-        var10 = var13.freeze;
+        var14 = var2.Object;
+        var13 = var14.freeze;
         var2 = {'INDEX': '/', 'APP': '/app', 'APP_WITH_INVITE_AND_GUILD_ONBOARDING': null, 'APP_WITH_GIFT_CODE': null, 'ACTIVITY': '/activity', 'ACTIVITIES': '/activities', 'ACTIVITIES_HAPPENING_NOW': '/activities/happening-now', 'ACTIVITY_DETAILS': null, 'APPLICATION_LIBRARY': '/library', 'APPLICATION_LIBRARY_INVENTORY': '/library/inventory'};
         var15 = function APP_WITH_INVITE_AND_GUILD_ONBOARDING(arg1) {
             var1 = global;
@@ -1141,34 +1141,43 @@ case 9:
             return var1;
         };
         var2['SERVER_SHOP'] = var16;
+        var16 = function CHANNELS_GAME_SHOP_PREFIX(arg1) {
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var4 = var1.concat;
+            var3 = '/channels/';
+            var2 = arg1;
+            var1 = '/game-shop';
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        };
+        var2['CHANNELS_GAME_SHOP_PREFIX'] = var16;
         var16 = function CHANNELS_GAME_SHOP(arg1, arg2, arg3, arg4) {
             _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var1 = arg2;
                 var8 = arg3;
                 var6 = arg4;
-                var3 = global;
-                var2 = var3.HermesInternal;
-                var7 = var2.concat;
-                var5 = '/channels/';
-                var4 = arg1;
-                var2 = '/game-shop';
-                var2 = var7.bind(var5)(var4, var2);
+                var4 = _closure1_slot3;
+                var3 = var4.CHANNELS_GAME_SHOP_PREFIX;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
                 var7 = null;
-                var5 = var7 != var1;
+                var3 = var7 != var1;
                 var4 = 0;
-                if(!var5) { _fun0020_ip = 14; continue _fun0020 }
-case 19:
+                if(!var3) { _fun0020_ip = 38; continue _fun0020 }
+case 46:
                 var4 = var1;
-case 14:
+case 38:
+                var3 = global;
                 var1 = var3.HermesInternal;
                 var1 = var1.concat;
                 var5 = '/';
                 var1 = var1.bind(var5)(var4);
                 var4 = var2 + var1;
                 var1 = var4;
-                if(!(var7 != var8)) { _fun0020_ip = 46; continue _fun0020 }
-case 42:
+                if(!(var7 != var8)) { _fun0020_ip = 11; continue _fun0020 }
+case 27:
                 var2 = var3.HermesInternal;
                 var2 = var2.concat;
                 var2 = var2.bind(var5)(var8);
@@ -1182,7 +1191,7 @@ case 48:
                 var2 = var4 + var3;
 case 47:
                 var1 = var2;
-case 46:
+case 11:
                 return var1;
             }
         };
@@ -1239,17 +1248,51 @@ case 32:
         var2['REPORT_SECOND_LOOK'] = var16;
         var16 = '/shop';
         var2['COLLECTIBLES_SHOP'] = var16;
-        var16 = function COLLECTIBLES_SHOP_GAME_SHOP(arg1) {
-            var1 = _closure1_slot0;
-            var5 = var1.GAME_SHOPS;
-            var1 = global;
-            var1 = var1.HermesInternal;
-            var4 = var1.concat;
-            var3 = '/shop?tab=';
-            var2 = '&applicationId=';
-            var1 = arg1;
-            var1 = var4.bind(var3)(var5, var2, var1);
-            return var1;
+        var16 = function COLLECTIBLES_SHOP_GAME_SHOP(arg1, arg2, arg3, arg4) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+case 0:
+                var9 = arg2;
+                var8 = arg3;
+                var5 = arg4;
+                var1 = _closure1_slot0;
+                var7 = var1.GAME_SHOPS;
+                var2 = global;
+                var1 = var2.HermesInternal;
+                var6 = var1.concat;
+                var4 = '/shop?tab=';
+                var3 = '&applicationId=';
+                var1 = arg1;
+                var3 = var6.bind(var4)(var7, var3, var1);
+                var4 = null;
+                var6 = var3;
+                if(!(var4 != var9)) { _fun0022_ip = 8; continue _fun0022 }
+case 52:
+                var1 = var2.HermesInternal;
+                var7 = var1.concat;
+                var1 = '&pageIndex=';
+                var1 = var7.bind(var1)(var9);
+                var6 = var3 + var1;
+case 8:
+                var3 = var6;
+                if(!(var4 != var8)) { _fun0022_ip = 53; continue _fun0022 }
+case 12:
+                var1 = var2.HermesInternal;
+                var7 = var1.concat;
+                var1 = '&skuId=';
+                var1 = var7.bind(var1)(var8);
+                var3 = var6 + var1;
+case 53:
+                var1 = var3;
+                if(!(var4 != var5)) { _fun0022_ip = 54; continue _fun0022 }
+case 55:
+                var2 = var2.HermesInternal;
+                var4 = var2.concat;
+                var2 = '&slug=';
+                var2 = var4.bind(var2)(var5);
+                var1 = var3 + var2;
+case 54:
+                return var1;
+            }
         };
         var2['COLLECTIBLES_SHOP_GAME_SHOP'] = var16;
         var16 = function COLLECTIBLES_SHOP_WITH_TAB(arg1) {
@@ -1385,7 +1428,7 @@ case 32:
             return var1;
         };
         var2['QUEST_PREVIEW'] = var15;
-        var14 = function QUEST_PREVIEW_TOOL_2(arg1) {
+        var15 = function QUEST_PREVIEW_TOOL_2(arg1) {
             var1 = global;
             var1 = var1.HermesInternal;
             var3 = var1.concat;
@@ -1394,16 +1437,17 @@ case 32:
             var1 = var3.bind(var2)(var1);
             return var1;
         };
-        var2['QUEST_PREVIEW_TOOL_2'] = var14;
-        var14 = '/icymi';
-        var2['ICYMI'] = var14;
-        var14 = var10.bind(var13)(var2);
+        var2['QUEST_PREVIEW_TOOL_2'] = var15;
+        var15 = '/icymi';
+        var2['ICYMI'] = var15;
+        var15 = var13.bind(var14)(var2);
         var2 = 3;
         var2 = var12[var2];
-        var13 = var11.bind(var1)(var2);
-        var10 = var13.wrapPaths;
+        var14 = var11.bind(var1)(var2);
+        var13 = var14.wrapPaths;
         var2 = [':', '?', '@'];
-        var2 = var10.bind(var13)(var14, var2);
+        var2 = var13.bind(var14)(var15, var2);
+        var _closure1_slot3 = var2;
         var10 = 4;
         var10 = var12[var10];
         var12 = var11.bind(var1)(var10);

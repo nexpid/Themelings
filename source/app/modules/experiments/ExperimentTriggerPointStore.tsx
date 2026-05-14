@@ -39,64 +39,26 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot11 = var2;
+            _closure1_slot10 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = function handleConnectionOpen() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var1 = 8;
-            var3 = var5[var1];
-            var1 = undefined;
-            var3 = var4.bind(var1)(var3);
-            var6 = var3.ConnectionOpenTriggerPoint;
-            var3 = var6.trigger;
-            var3 = var3.bind(var6)();
-            var3 = 9;
-            var3 = var5[var3];
-            var3 = var4.bind(var1)(var3);
-            var5 = var3.DebugExperiment;
-            var4 = var5.getConfig;
-            var3 = {};
-            var6 = 'connection_open';
-            var3['location'] = var6;
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.emitEvent;
-            if(!var3) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var3 = 11;
-            var3 = var2[var3];
-            var4 = var4.bind(var1)(var3);
-            var3 = 10;
-            var3 = var2[var3];
-            var2 = var2.paths;
-            var4 = var4.bind(var1)(var3, var2);
-            var3 = var4.then;
-            var2 = function(arg1) {
-                var1 = arg1;
-                var4 = var1.default;
-                var3 = var4.track;
-                var1 = _closure1_slot10;
-                var2 = var1.EXPERIMENT_APEX_DEBUGGING_EVENT;
-                var1 = {'experiment': '2026-03-debug-experiment', 'apex_debug_variant': 1, 'experiment_location': 'connection_open'};
-                var1 = var3.bind(var4)(var2, var1);
-                var1 = undefined;
-                return var1;
-            };
-            var2 = var3.bind(var4)(var2);
-case 6:
-            return var1;
-        }
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 8;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var3 = var2.ConnectionOpenTriggerPoint;
+        var2 = var3.trigger;
+        var2 = var2.bind(var3)();
+        return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -137,15 +99,13 @@ case 6:
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot10 = var4;
-    var4 = 13;
+    var4 = 10;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var4 = var4.Store;
     var2 = function(arg1) {
         var4 = function ExperimentTriggerPointStore() {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = this;
                 var1 = _closure1_slot3;
@@ -154,13 +114,13 @@ case 0:
                 var1 = var1.bind(var3)(var4, var2);
                 var8 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var1 = 12;
+                var1 = 9;
                 var6 = var7[var1];
                 var6 = var8.bind(var3)(var6);
                 var9 = new Array(3);
                 var9[0] = var6;
                 var6 = {};
-                var8 = _closure1_slot12;
+                var8 = _closure1_slot11;
                 var6['CONNECTION_OPEN'] = var8;
                 var9[1] = var6;
                 var6 = _closure1_slot0;
@@ -172,14 +132,14 @@ case 0:
                 var1 = _closure1_slot6;
                 var8 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot10;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var8.apply;
                 var1 = var1.bind(var8)(var4, var9);
-                _fun0003_ip = 10; continue _fun0003;
-case 8:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var6 = global;
                 var7 = var6.Reflect;
                 var6 = var7.construct;
@@ -187,7 +147,7 @@ case 8:
                 var5 = var5.bind(var3)(var4);
                 var5 = var5.constructor;
                 var1 = var6.bind(var7)(var8, var9, var5);
-case 10:
+case 8:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -224,7 +184,7 @@ case 10:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 14;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

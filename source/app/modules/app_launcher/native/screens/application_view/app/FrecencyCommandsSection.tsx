@@ -153,7 +153,7 @@ case 5:
             var10 = 9;
             var10 = var16[var10];
             var10 = var15.bind(var5)(var10);
-            var11 = var10.Text;
+            var11 = var10.Heading;
             var10 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var12 = 10;
             var13 = var16[var12];

@@ -317,41 +317,46 @@ case 2:
             var19 = var5.activities;
             var5 = var3[var1];
             var12 = var2.bind(var4)(var5);
-            var11 = var12.useStateFromStores;
+            var11 = var12.useStateFromStoresObject;
             var5 = _closure1_slot8;
             var10 = new Array(1);
             var10[0] = var5;
             var5 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var5 = _closure1_slot8;
-                    var2 = var5.getMentionCount;
+                    var3 = _closure1_slot8;
+                    var2 = var3.getMentionCount;
                     var1 = _closure2_slot0;
                     var1 = var1.id;
-                    var2 = var2.bind(var5)(var1);
-                    var1 = 0;
-                    var1 = var2 > var1;
-                    if(var1) { _fun0006_ip = 12; continue _fun0006 }
-case 14:
-                    var5 = _closure2_slot0;
-                    var2 = var5.getGuildId;
-                    var5 = var2.bind(var5)();
-                    var2 = null;
-                    var2 = var2 != var5;
-                    if(!var2) { _fun0006_ip = 15; continue _fun0006 }
-case 16:
-                    var5 = _closure1_slot8;
-                    var4 = var5.hasUnread;
-                    var3 = _closure2_slot0;
-                    var3 = var3.id;
-                    var2 = var4.bind(var5)(var3);
+                    var3 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var1['mentionCount'] = var3;
+                    var2 = 0;
+                    var2 = var3 > var2;
+                    if(var2) { _fun0006_ip = 14; continue _fun0006 }
 case 15:
-                    var1 = var2;
-case 12:
+                    var6 = _closure2_slot0;
+                    var3 = var6.getGuildId;
+                    var6 = var3.bind(var6)();
+                    var3 = null;
+                    var3 = var3 != var6;
+                    if(!var3) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
+                    var6 = _closure1_slot8;
+                    var5 = var6.hasUnread;
+                    var4 = _closure2_slot0;
+                    var4 = var4.id;
+                    var3 = var5.bind(var6)(var4);
+case 16:
+                    var2 = var3;
+case 14:
+                    var1['hasUnreadMessages'] = var2;
                     return var1;
                 }
             };
-            var14 = var11.bind(var12)(var10, var5);
+            var5 = var11.bind(var12)(var10, var5);
+            var34 = var5.mentionCount;
+            var14 = var5.hasUnreadMessages;
             var5 = 17;
             var5 = var3[var5];
             var7 = var7.bind(var4)(var5);
@@ -403,30 +408,30 @@ case 0:
                     var2 = var2.bind(var4)();
                     var4 = !var2;
                     var2 = !var4;
-                    if(var4) { _fun0007_ip = 17; continue _fun0007 }
-case 18:
+                    if(var4) { _fun0007_ip = 18; continue _fun0007 }
+case 19:
                     var6 = _closure1_slot9;
                     var5 = var6.isIgnored;
                     var7 = _closure2_slot0;
                     var4 = var7.getRecipientId;
                     var4 = var4.bind(var7)();
                     var2 = var5.bind(var6)(var4);
-case 17:
+case 18:
                     var1['ignored'] = var2;
                     var4 = _closure2_slot0;
                     var2 = var4.isDM;
                     var2 = var2.bind(var4)();
                     var4 = !var2;
                     var2 = !var4;
-                    if(var4) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
+                    if(var4) { _fun0007_ip = 20; continue _fun0007 }
+case 21:
                     var5 = _closure1_slot9;
                     var4 = var5.isBlocked;
                     var6 = _closure2_slot0;
                     var3 = var6.getRecipientId;
                     var3 = var3.bind(var6)();
                     var2 = var4.bind(var5)(var3);
-case 19:
+case 20:
                     var1['blocked'] = var2;
                     return var1;
                 }
@@ -450,12 +455,12 @@ case 0:
                     var6 = var1.bind(var5)();
                     var5 = true;
                     var1 = undefined;
-                    if(!(var5 === var6)) { _fun0008_ip = 21; continue _fun0008 }
-case 22:
+                    if(!(var5 === var6)) { _fun0008_ip = 22; continue _fun0008 }
+case 23:
                     var5 = _closure2_slot0;
                     var4 = var5.getRecipientId;
                     var1 = var4.bind(var5)();
-case 21:
+case 22:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -481,15 +486,15 @@ case 21:
             var25 = var2.bind(var3)(var1);
             var15 = null;
             var12 = var15 != var25;
-            if(!var12) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
-            var1 = var23;
-            if(var23) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
-            var1 = var10;
+            if(!var12) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
+            var1 = var23;
+            if(var23) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+            var1 = var10;
+case 26:
             var12 = var1;
-case 23:
+case 24:
             var7 = _closure1_slot4;
             var3 = var7.useCallback;
             var1 = var24.guild_id;
@@ -540,8 +545,8 @@ case 0:
                     var7 = true;
                     var3['includeInvisible'] = var7;
                     var3 = var5.bind(var6)(var4, var3);
-                    if(!var3) { _fun0009_ip = 27; continue _fun0009 }
-case 28:
+                    if(!var3) { _fun0009_ip = 28; continue _fun0009 }
+case 15:
                     var6 = _closure1_slot6;
                     var5 = var6.getNudgeTimestamp;
                     var3 = _closure2_slot0;
@@ -639,7 +644,7 @@ case 42:
                     var3['nudge_message_id'] = var8;
                     var3['invisible'] = var7;
                     var3 = var5.bind(var6)(var4, var3);
-case 27:
+case 28:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 21;
@@ -698,6 +703,7 @@ case 27:
             var30 = {};
             var30['channel'] = var24;
             var30['unread'] = var14;
+            var30['mentionCount'] = var34;
             var30['isIncomingCall'] = var33;
             var30['isOngoingCall'] = var32;
             var30 = var31.bind(var4)(var30);

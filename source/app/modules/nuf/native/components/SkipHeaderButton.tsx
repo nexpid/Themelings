@@ -52,51 +52,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function SkipHeaderButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var6 = arg1;
-            var1 = _closure1_slot3;
+            var5 = arg1;
+            var2 = _closure1_slot3;
             var4 = undefined;
-            var9 = var1.bind(var4)();
+            var8 = var2.bind(var4)();
+            var6 = var5.label;
+            var2 = null;
+            if(!(var2 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var2 = 4;
+            var3 = var10[var2];
+            var3 = var9.bind(var4)(var3);
+            var7 = var3.intl;
+            var3 = var7.string;
+            var2 = var10[var2];
+            var2 = var9.bind(var4)(var2);
+            var2 = var2.t;
+            var2 = var2["5Wxrcd"];
+            var6 = var3.bind(var7)(var2);
+case 2:
             var3 = _closure1_slot2;
             var2 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var1 = 4;
+            var1 = 5;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.HeaderTextButton;
             var1 = {};
             var12 = var1;
-            var11 = var6;
+            var11 = var5;
             var7 = copyDataProperties(var12, var11);
-            var7 = var9.button;
-            var8 = new Array(2);
-            var8[0] = var7;
-            var10 = var6.insideNavigator;
-            var7 = undefined;
-            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var7 = var9.insideNavigatorButton;
-case 2:
-            var8[1] = var7;
-            var7 = 'labelStyle';
-            var1[6] = var8;
-            var6 = var6.label;
-            var7 = null;
-            if(!(var7 == var6)) { _fun0001_ip = 4; continue _fun0001 }
+            var9 = var8.button;
+            var7 = new Array(2);
+            var7[0] = var9;
+            var9 = var5.insideNavigator;
+            var5 = undefined;
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot1;
-            var5 = 5;
-            var7 = var10[var5];
-            var7 = var9.bind(var4)(var7);
-            var8 = var7.intl;
-            var7 = var8.string;
-            var5 = var10[var5];
-            var5 = var9.bind(var4)(var5);
-            var5 = var5.t;
-            var5 = var5["5Wxrcd"];
-            var6 = var7.bind(var8)(var5);
+            var5 = var8.insideNavigatorButton;
 case 4:
+            var7[1] = var5;
+            var5 = 'labelStyle';
+            var1[4] = var7;
             var5 = 'label';
+            var1[4] = var6;
+            var5 = 'accessibilityLabel';
             var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
