@@ -154,35 +154,36 @@ case 7:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                         if(var4) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                        var12 = var2.base64;
+                        var13 = var2.base64;
+                        var8 = var2.originalMd5;
                         var6 = null;
-                        if(!(var6 != var12)) { _fun0002_ip = 10; continue _fun0002 }
+                        if(!(var6 != var13)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
                         var4 = _closure2_slot1;
                         if(var4) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                        var8 = _closure1_slot1;
-                        var9 = _closure1_slot2;
+                        var9 = _closure1_slot1;
+                        var11 = _closure1_slot2;
                         var5 = 9;
-                        var5 = var9[var5];
-                        var9 = var8.bind(var3)(var5);
-                        var8 = var9.canUseAnimatedAvatar;
+                        var5 = var11[var5];
+                        var11 = var9.bind(var3)(var5);
+                        var9 = var11.canUseAnimatedAvatar;
                         var5 = _closure2_slot3;
-                        var4 = var8.bind(var9)(var5);
+                        var4 = var9.bind(var11)(var5);
 case 12:
-                        var8 = var12.match;
+                        var9 = var13.match;
                         var5 = global;
-                        var13 = var5.RegExp;
-                        var9 = _closure1_slot8;
+                        var14 = var5.RegExp;
+                        var11 = _closure1_slot8;
                         var5 = '^';
-                        var15 = var5 + var9;
-                        var5 = var13.prototype;
-                        var9 = Object.create(var5, {constructor: {value: var13}});
-                        var14 = 'i';
-                        var16 = var9;
-                        var5 = new var16[var13](var15, var14, var13);
-                        var5 = var5 instanceof Object ? var5 : var9;
-                        var5 = var8.bind(var12)(var5);
+                        var16 = var5 + var11;
+                        var5 = var14.prototype;
+                        var11 = Object.create(var5, {constructor: {value: var14}});
+                        var15 = 'i';
+                        var17 = var11;
+                        var5 = new var17[var14](var16, var15, var14);
+                        var5 = var5 instanceof Object ? var5 : var11;
+                        var5 = var9.bind(var13)(var5);
                         if(!(var6 != var5)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
                         if(var4) { _fun0002_ip = 14; continue _fun0002 }
@@ -191,19 +192,20 @@ case 16:
                         var4 = var4.bind(var3)();
                         _fun0002_ip = 10; continue _fun0002;
 case 14:
-                        var9 = _closure1_slot0;
-                        var11 = _closure1_slot2;
-                        var8 = 10;
-                        var4 = var11[var8];
-                        var6 = var9.bind(var3)(var4);
+                        var11 = _closure1_slot0;
+                        var12 = _closure1_slot2;
+                        var9 = 10;
+                        var4 = var12[var9];
+                        var6 = var11.bind(var3)(var4);
                         var5 = var6.createPendingImage;
                         var4 = {};
-                        var4['imageUri'] = var12;
-                        var8 = var11[var8];
-                        var9 = var9.bind(var3)(var8);
-                        var8 = var9.generateAvatarDescription;
-                        var8 = var8.bind(var9)();
-                        var4['description'] = var8;
+                        var4['imageUri'] = var13;
+                        var9 = var12[var9];
+                        var11 = var11.bind(var3)(var9);
+                        var9 = var11.generateAvatarDescription;
+                        var9 = var9.bind(var11)();
+                        var4['description'] = var9;
+                        var4['originalMd5'] = var8;
                         var6 = var5.bind(var6)(var4);
                         var4 = _closure2_slot1;
                         var5 = _closure1_slot0;

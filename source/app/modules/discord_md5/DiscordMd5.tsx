@@ -109,59 +109,78 @@ case 2:
         var7 = 'fromDataURI';
         var1['key'] = var7;
         var6 = function value(arg1) {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var2 = global;
+            var3 = var2.Promise;
+            var2 = var3.resolve;
+            var3 = var2.bind(var3)();
+            var2 = var3.then;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var3 = /^data:[^;]*;base64,(.*)$/;
-                var2 = var3.exec;
-                var1 = arg1;
-                var5 = var2.bind(var3)(var1);
-                var1 = null;
-                if(!(var1 != var5)) { _fun0002_ip = 8; continue _fun0002 }
-case 4:
-                var2 = global;
-                var4 = var2.atob;
-                var3 = 1;
-                var3 = var5[var3];
-                var5 = undefined;
-                var7 = var4.bind(var5)(var3);
-                var6 = var2.ArrayBuffer;
-                var8 = var7.length;
-                var4 = var6.prototype;
-                var4 = Object.create(var4, {constructor: {value: var6}});
-                var9 = var4;
-                var3 = new var9[var6](var8, var7);
-                var4 = var3 instanceof Object ? var3 : var4;
-                var2 = var2.Uint8Array;
-                var3 = var2.prototype;
-                var3 = Object.create(var3, {constructor: {value: var2}});
-                var9 = var3;
-                var8 = var4;
-                var2 = new var9[var2](var8, var7);
-                var6 = var2 instanceof Object ? var2 : var3;
-                var2 = var7.length;
-                var3 = 0;
-                var2 = var3 < var2;
-                if(!var2) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-                var2 = var7.charCodeAt;
-                var2 = var2.bind(var7)(var3);
-                var6[var3] = var2;
-                var3 = var3 + 1;
-                var2 = var7.length;
-                if(var3 < var2) { _fun0002_ip = 10; continue _fun0002 }
+                    var3 = /^data:[^;]*;base64,(.*)$/;
+                    var2 = var3.exec;
+                    var1 = _closure3_slot0;
+                    var4 = var2.bind(var3)(var1);
+                    var1 = null;
+                    if(!(var1 != var4)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                var3 = _closure1_slot0;
-                var6 = _closure1_slot1;
-                var2 = 3;
-                var2 = var6[var2];
-                var2 = var3.bind(var5)(var2);
-                var3 = var2.ArrayBuffer;
-                var2 = var3.hash;
-                var2 = var2.bind(var3)(var4);
-                return var2;
+                    var1 = global;
+                    var3 = var1.atob;
+                    var2 = 1;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var6 = var3.bind(var4)(var2);
+                    var5 = var1.ArrayBuffer;
+                    var7 = var6.length;
+                    var3 = var5.prototype;
+                    var3 = Object.create(var3, {constructor: {value: var5}});
+                    var8 = var3;
+                    var2 = new var8[var5](var7, var6);
+                    var3 = var2 instanceof Object ? var2 : var3;
+                    var1 = var1.Uint8Array;
+                    var2 = var1.prototype;
+                    var2 = Object.create(var2, {constructor: {value: var1}});
+                    var8 = var2;
+                    var7 = var3;
+                    var1 = new var8[var1](var7, var6);
+                    var5 = var1 instanceof Object ? var1 : var2;
+                    var1 = var6.length;
+                    var2 = 0;
+                    var1 = var2 < var1;
+                    if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+                    var1 = var6.charCodeAt;
+                    var1 = var1.bind(var6)(var2);
+                    var5[var2] = var1;
+                    var2 = var2 + 1;
+                    var1 = var6.length;
+                    if(var2 < var1) { _fun0002_ip = 11; continue _fun0002 }
+case 10:
+                    var2 = _closure1_slot0;
+                    var5 = _closure1_slot1;
+                    var1 = 3;
+                    var1 = var5[var1];
+                    var1 = var2.bind(var4)(var1);
+                    var2 = var1.ArrayBuffer;
+                    var1 = var2.hash;
+                    var1 = var1.bind(var2)(var3);
+                    return var1;
 case 8:
-                return var1;
-            }
+                    var1 = global;
+                    var3 = var1.Error;
+                    var1 = var3.prototype;
+                    var2 = Object.create(var1, {constructor: {value: var3}});
+                    var7 = 'Not a base64 data URI';
+                    var8 = var2;
+                    var1 = new var8[var3](var7, var6);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
+                }
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
         var1['value'] = var6;
         var2[2] = var1;

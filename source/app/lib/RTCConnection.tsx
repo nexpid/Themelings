@@ -6910,49 +6910,49 @@ case 37:
                     var2 = var3.getPreferredRegion;
                     var14 = var2.bind(var3)();
 case 176:
+                    var15 = var6._connectCount;
                     var3 = _closure1_slot16;
                     var2 = var3.getSettings;
                     var12 = var2.bind(var3)();
                     var2 = var6._getAnalyticsProperties;
                     var11 = var2.bind(var6)();
                     var3 = _closure1_slot1;
-                    var15 = _closure1_slot3;
+                    var16 = _closure1_slot3;
                     var4 = 22;
-                    var2 = var15[var4];
+                    var2 = var16[var4];
                     var8 = undefined;
                     var10 = var3.bind(var8)(var2);
                     var7 = var10.track;
                     var2 = _closure1_slot21;
                     var3 = var2.VOICE_CONNECTION_SUCCESS;
                     var2 = {};
-                    var18 = var2;
-                    var17 = var11;
-                    var13 = copyDataProperties(var18, var17);
-                    var16 = var6.hostname;
+                    var19 = var2;
+                    var18 = var11;
+                    var13 = copyDataProperties(var19, var18);
+                    var17 = var6.hostname;
                     var13 = 'hostname';
-                    var2[12] = var16;
-                    var16 = var6.port;
+                    var2[12] = var17;
+                    var17 = var6.port;
                     var13 = 'port';
-                    var2[12] = var16;
-                    var16 = var6.protocol;
+                    var2[12] = var17;
+                    var17 = var6.protocol;
                     var13 = 'protocol';
-                    var2[12] = var16;
+                    var2[12] = var17;
                     var13 = 'cloudflare_best_region';
                     var2[12] = var14;
                     var14 = _closure1_slot0;
                     var13 = 20;
-                    var13 = var15[var13];
+                    var13 = var16[var13];
                     var14 = var14.bind(var8)(var13);
                     var13 = var14.now;
                     var14 = var13.bind(var14)();
-                    var15 = var6._connectCount;
                     var13 = 1;
                     if(!(var13 !== var15)) { _fun0087_ip = 185; continue _fun0087 }
 case 336:
-                    var13 = var6._createdTime;
+                    var13 = var6._connectStartTime;
                     _fun0087_ip = 371; continue _fun0087;
 case 185:
-                    var13 = var6._connectStartTime;
+                    var13 = var6._createdTime;
 case 371:
                     var14 = var14 - var13;
                     var13 = 'connect_time';
@@ -7004,9 +7004,9 @@ case 372:
                     var2[11] = var13;
                     var13 = var6.stateHistory;
                     var12 = var13.getVoiceConnectionSuccessStats;
-                    var17 = var12.bind(var13)();
-                    var18 = var2;
-                    var12 = copyDataProperties(var18, var17);
+                    var18 = var12.bind(var13)();
+                    var19 = var2;
+                    var12 = copyDataProperties(var19, var18);
                     var2 = var7.bind(var10)(var3, var2);
                     var2 = global;
                     var3 = var2.performance;

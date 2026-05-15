@@ -94,7 +94,7 @@ case 4:
         var _closure1_slot8 = var8;
         var8 = var2.TTSNotificationTypes;
         var _closure1_slot9 = var8;
-        var2 = {'desktopType': null, 'disableAllSounds': false, 'disabledSounds': null, 'ttsType': null, 'disableUnreadBadge': false, 'taskbarFlash': true, 'notifyMessagesInSelectedChannel': false};
+        var2 = {'desktopType': null, 'disableAllSounds': false, 'disabledSounds': null, 'ttsType': null, 'disableUnreadBadge': false, 'taskbarFlash': true, 'notifyMessagesInSelectedChannel': false, 'screenDowntimeReminder': true};
         var10 = 6;
         var10 = var6[var10];
         var10 = var5.bind(var1)(var10);
@@ -175,7 +175,7 @@ case 11:
                 return var1;
             };
             var5['value'] = var1;
-            var1 = new Array(10);
+            var1 = new Array(11);
             var1[0] = var5;
             var5 = {};
             var7 = 'getUserAgnosticState';
@@ -257,6 +257,16 @@ case 11:
             var5['get'] = var7;
             var1[8] = var5;
             var5 = {};
+            var7 = 'screenDowntimeReminder';
+            var5['key'] = var7;
+            var7 = function get() {
+                var1 = _closure1_slot11;
+                var1 = var1.screenDowntimeReminder;
+                return var1;
+            };
+            var5['get'] = var7;
+            var1[9] = var5;
+            var5 = {};
             var7 = 'isSoundDisabled';
             var5['key'] = var7;
             var6 = function value(arg1) {
@@ -278,7 +288,7 @@ case 12:
                 }
             };
             var5['value'] = var6;
-            var1[9] = var5;
+            var1[10] = var5;
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };
@@ -432,7 +442,7 @@ case 19:
             return var1;
         };
         var2['NOTIFICATIONS_SET_TASKBAR_FLASH'] = var9;
-        var4 = function handleSetNotifyMessagesInSelectedChannel(arg1) {
+        var9 = function handleSetNotifyMessagesInSelectedChannel(arg1) {
             var1 = arg1;
             var2 = var1.notify;
             var1 = _closure1_slot11;
@@ -440,7 +450,16 @@ case 19:
             var1 = undefined;
             return var1;
         };
-        var2['NOTIFICATIONS_SET_NOTIFY_MESSAGES_IN_SELECTED_CHANNEL'] = var4;
+        var2['NOTIFICATIONS_SET_NOTIFY_MESSAGES_IN_SELECTED_CHANNEL'] = var9;
+        var4 = function handleSetScreenDowntimeReminder(arg1) {
+            var1 = arg1;
+            var2 = var1.screenDowntimeReminder;
+            var1 = _closure1_slot11;
+            var1['screenDowntimeReminder'] = var2;
+            var1 = undefined;
+            return var1;
+        };
+        var2['NOTIFICATIONS_SET_SCREEN_DOWNTIME_REMINDER'] = var4;
         var4 = var8.prototype;
         var4 = Object.create(var4, {constructor: {value: var8}});
         var16 = var4;

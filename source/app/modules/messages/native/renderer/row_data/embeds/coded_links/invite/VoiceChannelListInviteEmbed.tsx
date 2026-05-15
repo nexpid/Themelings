@@ -290,7 +290,7 @@ case 32:
                     var7 = 18;
                     var7 = var10[var7];
                     var9 = var8.bind(var9)(var7);
-                    var8 = var9.getFormattedName;
+                    var8 = var9.getName;
                     var7 = var4.user;
                     var6 = var8.bind(var9)(var7);
 case 31:

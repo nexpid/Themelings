@@ -6926,68 +6926,111 @@ case 0:
                     var4 = var2.bind(var4)();
                     var2 = var4.values;
                     var2 = var2.bind(var4)();
-                    var11 = undefined;
-                    var10 = var3.bind(var11)(var2);
-                    var3 = var10.bind(var11)();
-                    var2 = var3.done;
-                    var9 = global;
-                    var8 = '';
-                    var7 = ':';
-                    var6 = null;
-                    var5 = 92;
-                    var4 = var3;
-                    var3 = undefined;
-                    if(var2) { _fun0061_ip = 143; continue _fun0061 }
-case 39:
-                    var2 = var4.value;
-                    var13 = var2.channel;
-                    var15 = var6 == var13;
                     var14 = undefined;
-                    if(var15) { _fun0061_ip = 65; continue _fun0061 }
-case 151:
-                    var14 = var13.id;
-case 65:
-                    var13 = var3;
-                    if(!(var6 != var14)) { _fun0061_ip = 21; continue _fun0061 }
-case 162:
-                    var15 = _closure1_slot0;
-                    var14 = _closure1_slot2;
-                    var14 = var14[var5];
-                    var15 = var15.bind(var11)(var14);
-                    var14 = var15.isVoiceChannelInvite;
-                    var14 = var14.bind(var15)(var2);
-                    var13 = var3;
-                    if(!var14) { _fun0061_ip = 21; continue _fun0061 }
-case 547:
-                    var2 = var2.channel;
-                    var15 = var2.id;
-                    var14 = _closure1_slot65;
-                    var2 = var14.countVoiceStatesForChannel;
-                    var17 = var2.bind(var14)(var15);
-                    var16 = _closure1_slot19;
-                    var14 = var16.getStartTime;
-                    var18 = _closure1_slot46;
-                    var2 = var18.getChannel;
-                    var2 = var2.bind(var18)(var15);
-                    var2 = var14.bind(var16)(var2);
-                    var14 = var6 != var2;
-                    var16 = var8;
-                    if(!var14) { _fun0061_ip = 548; continue _fun0061 }
-case 86:
-                    var16 = var2;
+                    var13 = var3.bind(var14)(var2);
+                    var3 = var13.bind(var14)();
+                    var2 = var3.done;
+                    var12 = global;
+                    var11 = '';
+                    var10 = ':';
+                    var9 = ',';
+                    var8 = null;
+                    var7 = 92;
+                    var6 = var3;
+                    var5 = undefined;
+                    var4 = undefined;
+                    var3 = undefined;
+                    if(var2) { _fun0061_ip = 547; continue _fun0061 }
+case 67:
+                    var2 = var6.value;
+                    var17 = var2.channel;
+                    var18 = var8 == var17;
+                    var20 = undefined;
+                    if(var18) { _fun0061_ip = 162; continue _fun0061 }
 case 548:
-                    var14 = var9.HermesInternal;
-                    var14 = var14.concat;
-                    var14 = var14.bind(var8)(var17, var7, var16);
-                    var1[var15] = var14;
-                    var13 = var2;
-case 21:
-                    var14 = var10.bind(var11)();
-                    var2 = var14.done;
-                    var3 = var13;
-                    var4 = var14;
-                    if(!var2) { _fun0061_ip = 39; continue _fun0061 }
-case 143:
+                    var20 = var17.id;
+case 162:
+                    var19 = var5;
+                    var18 = var4;
+                    var17 = var3;
+                    if(!(var8 != var20)) { _fun0061_ip = 549; continue _fun0061 }
+case 550:
+                    var21 = _closure1_slot0;
+                    var20 = _closure1_slot2;
+                    var20 = var20[var7];
+                    var21 = var21.bind(var14)(var20);
+                    var20 = var21.isVoiceChannelInvite;
+                    var20 = var20.bind(var21)(var2);
+                    var19 = var5;
+                    var18 = var4;
+                    var17 = var3;
+                    if(!var20) { _fun0061_ip = 549; continue _fun0061 }
+case 551:
+                    var20 = var2.channel;
+                    var20 = var20.id;
+                    var21 = var2.guild;
+                    var2 = var8 == var21;
+                    var23 = undefined;
+                    if(var2) { _fun0061_ip = 83; continue _fun0061 }
+case 505:
+                    var23 = var21.id;
+case 83:
+                    var22 = _closure1_slot65;
+                    var2 = var22.getVoiceStatesForChannelAlt;
+                    var23 = var2.bind(var22)(var20, var23);
+                    var22 = var23.map;
+                    var2 = function(arg1) {
+                        _fun0062: for(var _fun0062_ip = 0; ; ) switch(_fun0062_ip) {
+case 0:
+                            var1 = arg1;
+                            var2 = var1.voiceState;
+                            var2 = var2.selfStream;
+                            var4 = '';
+                            var3 = var4;
+                            if(!var2) { _fun0062_ip = 119; continue _fun0062 }
+case 58:
+                            var3 = '*';
+case 119:
+                            var1 = var1.user;
+                            var2 = var1.id;
+                            var1 = global;
+                            var1 = var1.HermesInternal;
+                            var1 = var1.concat;
+                            var1 = var1.bind(var4)(var3, var2);
+                            return var1;
+                        }
+                    };
+                    var22 = var22.bind(var23)(var2);
+                    var2 = var22.join;
+                    var24 = var2.bind(var22)(var9);
+                    var23 = _closure1_slot19;
+                    var22 = var23.getStartTime;
+                    var25 = _closure1_slot46;
+                    var2 = var25.getChannel;
+                    var2 = var2.bind(var25)(var20);
+                    var2 = var22.bind(var23)(var2);
+                    var22 = var8 != var2;
+                    var23 = var11;
+                    if(!var22) { _fun0061_ip = 552; continue _fun0061 }
+case 553:
+                    var23 = var2;
+case 552:
+                    var22 = var12.HermesInternal;
+                    var22 = var22.concat;
+                    var22 = var22.bind(var11)(var24, var10, var23);
+                    var1[var20] = var22;
+                    var19 = var21;
+                    var18 = var20;
+                    var17 = var2;
+case 549:
+                    var20 = var13.bind(var14)();
+                    var2 = var20.done;
+                    var5 = var19;
+                    var4 = var18;
+                    var3 = var17;
+                    var6 = var20;
+                    if(!var2) { _fun0061_ip = 67; continue _fun0061 }
+case 547:
                     return var1;
                 }
             };
@@ -7033,13 +7076,13 @@ case 143:
                 var4 = _closure2_slot9;
                 var3 = var4.reduce;
                 var2 = function(arg1, arg2) {
-                    _fun0062: for(var _fun0062_ip = 0; ; ) switch(_fun0062_ip) {
+                    _fun0063: for(var _fun0063_ip = 0; ; ) switch(_fun0063_ip) {
 case 0:
                         var1 = arg1;
                         var2 = arg2;
                         var3 = var2.application_id;
                         var4 = null;
-                        if(!(var4 != var3)) { _fun0062_ip = 192; continue _fun0062 }
+                        if(!(var4 != var3)) { _fun0063_ip = 192; continue _fun0063 }
 case 520:
                         var7 = _closure1_slot64;
                         var6 = var7.getState;
@@ -7047,8 +7090,8 @@ case 520:
                         var3 = _closure1_slot67;
                         var3 = var3.JOIN;
                         var3 = var6.bind(var7)(var5, var3);
-                        if(!(var4 != var3)) { _fun0062_ip = 30; continue _fun0062 }
-case 549:
+                        if(!(var4 != var3)) { _fun0063_ip = 30; continue _fun0063 }
+case 554:
                         var2 = var2.application_id;
                         var1[var2] = var3;
 case 30:
@@ -7087,7 +7130,7 @@ case 192:
             var5 = new Array(1);
             var5[0] = r115;
             var1 = function() {
-                _fun0063: for(var _fun0063_ip = 0; ; ) switch(_fun0063_ip) {
+                _fun0064: for(var _fun0064_ip = 0; ; ) switch(_fun0064_ip) {
 case 0:
                     var2 = _closure1_slot61;
                     var1 = var2.getCurrentUser;
@@ -7095,7 +7138,7 @@ case 0:
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0063_ip = 33; continue _fun0063 }
+                    if(var3) { _fun0064_ip = 33; continue _fun0064 }
 case 120:
                     var1 = var2.displayNameStyles;
 case 33:
@@ -7113,17 +7156,17 @@ case 33:
             var2 = var2.bind(var4)(var1);
             var1 = var2.useMessagesClassToFunctional;
             var1 = var1.bind(var2)();
-            if(var1) { _fun0042_ip = 550; continue _fun0042 }
-case 551:
+            if(var1) { _fun0042_ip = 555; continue _fun0042 }
+case 556:
             var8 = _closure1_slot80;
-            _fun0042_ip = 552; continue _fun0042;
-case 550:
+            _fun0042_ip = 557; continue _fun0042;
+case 555:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 127;
             var1 = var3[var1];
             var8 = var2.bind(var4)(var1);
-case 552:
+case 557:
             var3 = _closure1_slot78;
             var2 = _closure1_slot1;
             r116 = _closure1_slot2;
@@ -7139,8 +7182,8 @@ case 552:
             var1['profile'] = var5;
             var5 = var7.isThread;
             var7 = var5.bind(var7)();
-            if(!var7) { _fun0042_ip = 553; continue _fun0042 }
-case 554:
+            if(!var7) { _fun0042_ip = 558; continue _fun0042 }
+case 559:
             r116 = _closure1_slot76;
             r115 = _closure1_slot1;
             r117 = _closure1_slot2;
@@ -7151,7 +7194,7 @@ case 554:
             r117 = true;
             var5['absolute'] = r117;
             var7 = r116.bind(var4)(r115, var5);
-case 553:
+case 558:
             var5 = new Array(2);
             var5[0] = var7;
             var7 = _closure1_slot76;
@@ -7225,10 +7268,10 @@ case 553:
             var6['interactionStates'] = var52;
             var6['interactionComponentStates'] = var51;
             var6['interactionComponentStatesVersion'] = var50;
-            if(!var48) { _fun0042_ip = 555; continue _fun0042 }
-case 556:
+            if(!var48) { _fun0042_ip = 560; continue _fun0042 }
+case 561:
             var48 = var49;
-case 555:
+case 560:
             var6['hasLoadedExperiments'] = var48;
             var6['guildSystemChannelFlags'] = var47;
             var6['currentUserCommunicationDisabled'] = var46;
@@ -7258,10 +7301,10 @@ case 555:
             var6['resolvedReferralTrialOfferIds'] = var23;
             var25 = var10 == var24;
             var23 = undefined;
-            if(var25) { _fun0042_ip = 557; continue _fun0042 }
-case 558:
+            if(var25) { _fun0042_ip = 562; continue _fun0042 }
+case 563:
             var23 = var24.id;
-case 557:
+case 562:
             var6['referralTrialOfferId'] = var23;
             var6['isPremiumTier2User'] = var22;
             var6['activityInviteMessageIds'] = var21;
@@ -7276,16 +7319,16 @@ case 557:
             var6['voiceInviteDataByChannelId'] = var11;
             var13 = var10 == var12;
             var11 = undefined;
-            if(var13) { _fun0042_ip = 559; continue _fun0042 }
-case 560:
+            if(var13) { _fun0042_ip = 564; continue _fun0042 }
+case 565:
             var11 = var12.officialMessageColor;
-case 559:
+case 564:
             var12 = var10 != var11;
             var10 = undefined;
-            if(!var12) { _fun0042_ip = 561; continue _fun0042 }
-case 562:
+            if(!var12) { _fun0042_ip = 566; continue _fun0042 }
+case 567:
             var10 = var11;
-case 561:
+case 566:
             var6['officialMessageColor'] = var10;
             r121 = var6;
             r120 = var9;

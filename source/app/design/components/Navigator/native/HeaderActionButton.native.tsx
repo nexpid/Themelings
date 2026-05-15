@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var9 = var1.style;
-            var20 = var1.textStyle;
+            var22 = var1.textStyle;
             var23 = var1.imageStyle;
             var16 = var1.text;
             var24 = var1.source;
@@ -77,7 +77,7 @@ case 0:
             var8 = var1.onPress;
             var5 = var1.disabled;
             var12 = var1.foregroundRipple;
-            var22 = var1.iconSize;
+            var21 = var1.iconSize;
             var1 = _closure1_slot6;
             var4 = undefined;
             var10 = var1.bind(var4)();
@@ -90,17 +90,17 @@ case 5:
             var7 = undefined;
             if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var21 = _closure1_slot4;
+            var20 = _closure1_slot4;
             var2 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var1 = var25[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['source'] = var24;
             var1['style'] = var23;
-            var1['size'] = var22;
-            var7 = var21.bind(var4)(var2, var1);
+            var1['size'] = var21;
+            var7 = var20.bind(var4)(var2, var1);
             _fun0001_ip = 6; continue _fun0001;
 case 4:
             var2 = _closure1_slot4;
@@ -110,27 +110,32 @@ case 4:
             _fun0001_ip = 6; continue _fun0001;
 case 2:
             var3 = _closure1_slot4;
-            var2 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var20 = _closure1_slot0;
+            var21 = _closure1_slot2;
             var1 = 5;
-            var1 = var19[var1];
-            var1 = var2.bind(var4)(var1);
+            var1 = var21[var1];
+            var1 = var20.bind(var4)(var1);
             var2 = var1.Text;
-            var1 = {'style': null, 'variant': 'text-md/semibold', 'lineClamp': 1, 'maxFontSizeMultiplier': 1};
-            var21 = var10.text;
+            var1 = {'style': null, 'variant': 'text-md/semibold', 'lineClamp': 1};
+            var23 = var10.text;
             var19 = new Array(3);
-            var19[0] = var21;
-            var21 = var10.buttonFont;
-            var19[1] = var21;
-            var19[2] = var20;
+            var19[0] = var23;
+            var23 = var10.buttonFont;
+            var19[1] = var23;
+            var19[2] = var22;
             var1['style'] = var19;
+            var19 = 6;
+            var19 = var21[var19];
+            var19 = var20.bind(var4)(var19);
+            var19 = var19.BUTTON_DEFAULT_MAX_FONT_SIZE_MULTIPLIER;
+            var1['maxFontSizeMultiplier'] = var19;
             var1['children'] = var16;
             var7 = var3.bind(var4)(var2, var1);
 case 6:
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var1 = var19[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
@@ -177,7 +182,7 @@ case 12:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

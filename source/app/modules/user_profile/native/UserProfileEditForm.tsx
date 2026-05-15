@@ -115,7 +115,7 @@ case 0:
                     var8 = _closure2_slot2;
                     if(var8) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-                    var8 = function(arg1) {
+                    var8 = function(arg1, arg2) {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 17;
@@ -126,6 +126,8 @@ case 11:
                         var1 = {};
                         var4 = arg1;
                         var1['banner'] = var4;
+                        var4 = arg2;
+                        var1['bannerOriginalMd5'] = var4;
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };

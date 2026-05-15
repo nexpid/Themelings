@@ -176,6 +176,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APPEARANCE_THEME_PICKER'] = var1;
     var1 = 'SYNC_THEME';
     var2['SYNC_THEME'] = var1;
+    var1 = 'DEFAULT_GUILD_THEME_PREFERENCE';
+    var2['DEFAULT_GUILD_THEME_PREFERENCE'] = var1;
     var1 = 'ANDROID_FONT_SCALE';
     var2['ANDROID_FONT_SCALE'] = var1;
     var1 = 'ANDROID_CLASSIC_CHAT_FONT_SCALE';

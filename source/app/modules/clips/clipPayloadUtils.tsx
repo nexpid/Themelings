@@ -244,13 +244,13 @@ case 0:
             var4 = var4[var1];
             var1 = undefined;
             var4 = var6.bind(var1)(var4);
-            var7 = var4.ClipsExperiment;
+            var7 = var4.ClipsTimelineExperiment;
             var6 = var7.getConfig;
             var4 = {};
             var8 = 'getClipEventsTimeline';
             var4['location'] = var8;
             var4 = var6.bind(var7)(var4);
-            var4 = var4.enableSpeakingIndicators;
+            var4 = var4.enableTimelineUpload;
             if(!var4) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
             var4 = var5.timeline;

@@ -52,6 +52,17 @@ case 4:
         var3['SOCIAL_LAYER_STOREFRONT_PRODUCT_DETAILS_MODAL_TYPE'] = var2;
         var2 = 3;
         var3['GAME_SHOP_ANNOUNCEMENT_MODAL_VERSION'] = var2;
+        var2 = function(arg1) {
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var4 = var1.concat;
+            var3 = '/channels/';
+            var2 = arg1;
+            var1 = '/game-shop';
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        };
+        var3['getChannelsGameShopPrefix'] = var2;
         return var1;
     }
 })();

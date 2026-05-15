@@ -566,6 +566,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MALWARE_AND_MALICIOUS_CONDUCT_NON_DEDICATED_GUILD_SMITE'] = var5;
     var1 = 'MALWARE_AND_MALICIOUS_CONDUCT_NON_DEDICATED_GUILD_SMITE';
     var2[var5] = var1;
+    var5 = 3095;
+    var2['OFF_PLATFORM_BEHAVIORS_GUILD_SMITE'] = var5;
+    var1 = 'OFF_PLATFORM_BEHAVIORS_GUILD_SMITE';
+    var2[var5] = var1;
     var5 = 3100;
     var2['EARLY_FRAUD_WARNING_LOW_RISK_SMITE'] = var5;
     var1 = 'EARLY_FRAUD_WARNING_LOW_RISK_SMITE';

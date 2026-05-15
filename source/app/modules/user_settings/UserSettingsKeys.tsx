@@ -304,6 +304,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ENABLE_UNREAD_MESSAGE_BADGE'] = var1;
     var1 = 'task_bar_flashing';
     var2['TASK_BAR_FLASHING'] = var1;
+    var1 = 'screen_downtime_reminder';
+    var2['SCREEN_DOWNTIME_REMINDER'] = var1;
     var1 = 'notifications_email_category';
     var2['NOTIFICATIONS_EMAIL_CATEGORY'] = var1;
     var1 = 'email_list_item_';
@@ -432,6 +434,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APPEARANCE_SYNC_THEME'] = var1;
     var1 = 'sync_profile_themes';
     var2['SYNC_PROFILE_THEMES'] = var1;
+    var1 = 'appearance_guild_theme_default_preference';
+    var2['APPEARANCE_GUILD_THEME_DEFAULT_PREFERENCE'] = var1;
     var1 = 'appearance_theme_related_settings';
     var2['APPEARANCE_THEME_RELATED_SETTINGS'] = var1;
     var1 = 'appearance_theme_accessibility_navigator';

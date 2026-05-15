@@ -316,6 +316,7 @@ case 13:
             var11 = var12.map;
             var10 = function(arg1) {
                 var1 = arg1;
+                var1 = var1.boost;
                 var5 = _closure1_slot5;
                 var4 = _closure1_slot8;
                 var3 = {};

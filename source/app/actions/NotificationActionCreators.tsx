@@ -213,6 +213,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['setNotifyMessagesInSelectedChannel'] = var7;
+    var7 = function setScreenDowntimeReminder(arg1) {
+        var5 = arg1;
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var1 = 1;
+        var6 = var4[var1];
+        var1 = undefined;
+        var8 = var3.bind(var1)(var6);
+        var7 = var8.track;
+        var2 = _closure1_slot4;
+        var6 = var2.LOCAL_SETTINGS_UPDATED;
+        var2 = {};
+        var2['screen_downtime_reminder'] = var5;
+        var2 = var7.bind(var8)(var6, var2);
+        var2 = 2;
+        var2 = var4[var2];
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var6 = 'NOTIFICATIONS_SET_SCREEN_DOWNTIME_REMINDER';
+        var2['type'] = var6;
+        var2['screenDowntimeReminder'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['setScreenDowntimeReminder'] = var7;
     var7 = function setPermissionsState(arg1, arg2) {
         var6 = arg1;
         var5 = arg2;

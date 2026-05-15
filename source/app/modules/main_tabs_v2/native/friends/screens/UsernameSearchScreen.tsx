@@ -65,7 +65,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var13;
     var4['content'] = var9;
     var9 = {};
-    var13 = 36;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_40;
     var9['paddingTop'] = var13;
     var4['iosPaddingThemeAdjust'] = var9;
     var9 = {};
@@ -85,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.spacing;
-    var10 = var10.PX_32;
+    var10 = var10.PX_16;
     var9['marginTop'] = var10;
     var4['inputContainer'] = var9;
     var9 = {};
@@ -103,12 +106,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function UsernameSearchScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var8 = var1.navigation;
+            var2 = arg1;
+            var8 = var2.navigation;
             var _closure2_slot0 = var8;
-            var1 = _closure1_slot10;
+            var2 = _closure1_slot10;
             var4 = undefined;
-            var14 = var1.bind(var4)();
+            var14 = var2.bind(var4)();
             var7 = _closure1_slot3;
             var5 = var7.useEffect;
             var3 = function() {
@@ -128,23 +131,23 @@ case 0:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var1 = new Array(0);
-            var1 = var5.bind(var7)(var3, var1);
+            var2 = new Array(0);
+            var2 = var5.bind(var7)(var3, var2);
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 7;
-            var1 = var5[var1];
-            var1 = var3.bind(var4)(var1);
-            var1 = var1.bind(var4)();
-            var18 = var1.insets;
+            var2 = 7;
+            var2 = var5[var2];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.bind(var4)();
+            var18 = var2.insets;
             var3 = var7.useRef;
-            var1 = null;
-            var13 = var3.bind(var7)(var1);
+            var2 = null;
+            var13 = var3.bind(var7)(var2);
             var _closure2_slot1 = var13;
             var6 = var7.useEffect;
             var3 = new Array(1);
             var3[0] = var8;
-            var2 = function() {
+            var1 = function() {
                 var4 = _closure2_slot0;
                 var3 = var4.addListener;
                 var2 = 'transitionEnd';
@@ -182,23 +185,24 @@ case 4:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var2 = var6.bind(var7)(var2, var3);
+            var1 = var6.bind(var7)(var1, var3);
             var3 = _closure1_slot0;
-            var2 = 9;
-            var2 = var5[var2];
-            var6 = var3.bind(var4)(var2);
-            var2 = var6.useClientThemesOverride;
-            var9 = var2.bind(var6)();
-            var2 = 10;
-            var2 = var5[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.isIOS;
-            var2 = var2.bind(var3)();
+            var1 = 9;
+            var1 = var5[var1];
+            var6 = var3.bind(var4)(var1);
+            var1 = var6.useClientThemesOverride;
+            var9 = var1.bind(var6)();
+            var1 = 10;
+            var1 = var5[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.isIOS;
+            var1 = var1.bind(var3)();
             var17 = null;
-            if(!var2) { _fun0001_ip = 7; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
+            var1 = var2 != var9;
             var17 = null;
-            if(!(var17 !== var9)) { _fun0001_ip = 7; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 7; continue _fun0001 }
 case 9:
             var17 = var14.iosPaddingThemeAdjust;
 case 7:

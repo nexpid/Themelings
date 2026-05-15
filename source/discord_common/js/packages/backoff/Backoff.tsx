@@ -121,71 +121,78 @@ case 8:
         var1 = {};
         var6 = 'fail';
         var1['key'] = var6;
-        var6 = function value(arg1) {
+        var6 = function value(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var4 = arg1;
-                var2 = this;
-                var _closure3_slot0 = var2;
-                var _closure3_slot1 = var4;
-                var5 = var2._fails;
+                var5 = arg1;
+                var2 = arg2;
+                var4 = this;
+                var _closure3_slot0 = var4;
+                var _closure3_slot1 = var5;
+                var6 = var4._fails;
                 var1 = 1;
-                var1 = var5 + var1;
-                var2['_fails'] = var1;
-                var5 = var2._current;
+                var1 = var6 + var1;
+                var4['_fails'] = var1;
+                var6 = var4._current;
                 var1 = 2;
-                var5 = var1 * var5;
-                var1 = var2.jitter;
-                var6 = var5;
+                var6 = var1 * var6;
+                var1 = var4.jitter;
+                var7 = var6;
                 if(!var1) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
                 var1 = global;
-                var7 = var1.Math;
-                var1 = var7.random;
-                var1 = var1.bind(var7)();
-                var6 = var5 * var1;
+                var8 = var1.Math;
+                var1 = var8.random;
+                var1 = var1.bind(var8)();
+                var7 = var6 * var1;
 case 12:
                 var1 = global;
-                var8 = var1.Math;
-                var7 = var8.min;
-                var5 = var2._current;
-                var6 = var5 + var6;
-                var5 = var2.max;
-                var5 = var7.bind(var8)(var6, var5);
-                var2['_current'] = var5;
-                var6 = null;
-                if(!(var6 != var4)) { _fun0002_ip = 14; continue _fun0002 }
+                var9 = var1.Math;
+                var8 = var9.min;
+                var6 = var4._current;
+                var7 = var6 + var7;
+                var6 = var4.max;
+                var6 = var8.bind(var9)(var7, var6);
+                var4['_current'] = var6;
+                var7 = null;
+                if(!(var7 != var2)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-                var5 = var2._timeoutId;
-                if(!(var6 != var5)) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-                var5 = var2._callback;
-                if(!(var5 === var4)) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
-                var5 = var2.cancel;
-                var5 = var5.bind(var2)();
+                var6 = var4._current;
+                if(!(!(var2 > var6))) { _fun0002_ip = 16; continue _fun0002 }
+case 14:
+                var2 = var4._current;
 case 16:
-                var2['_callback'] = var4;
+                if(!(var7 != var5)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+                var6 = var4._timeoutId;
+                if(!(var7 != var6)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+                var6 = var4._callback;
+                if(!(var6 === var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+                var6 = var4.cancel;
+                var6 = var6.bind(var4)();
+case 19:
+                var4['_callback'] = var5;
                 var6 = var1.setTimeout;
-                var5 = var2._current;
-                var4 = undefined;
+                var5 = undefined;
                 var3 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0: // try_start_0
                         var3 = _closure3_slot1;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+                        if(!(var2 != var3)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                         var3 = _closure3_slot1;
                         var2 = undefined;
                         var2 = var3.bind(var2)();
-case 20: // try_end0
+case 23: // try_end0
                         var2 = _closure3_slot0;
                         var1 = var2.cancel;
                         var1 = var1.bind(var2)();
                         var1 = undefined;
                         return var1;
-case 22: // catch_target0
+case 25: // catch_target0
                         CatchBlockStart(arg_register=0);
                         var3 = _closure3_slot0;
                         var2 = var3.cancel;
@@ -193,18 +200,17 @@ case 22: // catch_target0
                         throw var1;
                     }
                 };
-                var3 = var6.bind(var4)(var3, var5);
-                var2['_timeoutId'] = var3;
-case 14:
-                var2 = var2._current;
+                var3 = var6.bind(var5)(var3, var2);
+                var4['_timeoutId'] = var3;
+case 17:
                 return var2;
-case 18:
+case 21:
                 var3 = var1.Error;
                 var1 = var3.prototype;
                 var2 = Object.create(var1, {constructor: {value: var3}});
-                var10 = 'callback already pending';
-                var11 = var2;
-                var1 = new var11[var3](var10, var9);
+                var11 = 'callback already pending';
+                var12 = var2;
+                var1 = new var12[var3](var11, var10);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
             }
@@ -221,15 +227,15 @@ case 0:
                 var1 = null;
                 var2['_callback'] = var1;
                 var3 = var2._timeoutId;
-                if(!(var1 != var3)) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+                if(!(var1 != var3)) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
                 var3 = global;
                 var5 = var3.clearTimeout;
                 var4 = var2._timeoutId;
                 var3 = undefined;
                 var3 = var5.bind(var3)(var4);
                 var2['_timeoutId'] = var1;
-case 23:
+case 26:
                 var1 = undefined;
                 return var1;
             }

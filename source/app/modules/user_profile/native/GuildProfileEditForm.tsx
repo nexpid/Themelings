@@ -150,7 +150,7 @@ case 7:
                     var1 = var1.jHlJNS;
                     var1 = var6.bind(var7)(var1);
                     var2['removeText'] = var1;
-                    var1 = function onBannerChange(arg1) {
+                    var1 = function onBannerChange(arg1, arg2) {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 18;
@@ -163,6 +163,8 @@ case 7:
                         var1['guildId'] = var4;
                         var4 = arg1;
                         var1['banner'] = var4;
+                        var4 = arg2;
+                        var1['bannerOriginalMd5'] = var4;
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };

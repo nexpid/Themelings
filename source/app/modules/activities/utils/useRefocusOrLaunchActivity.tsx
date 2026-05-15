@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = 7;
         var3 = var9[var3];
         var4 = var4.bind(var13)(var3);
-        var3 = var4.useCanLaunchFrame;
+        var3 = var4.canLaunchFrame;
         var9 = var3.bind(var4)(var11);
         var _closure2_slot7 = var9;
         var4 = _closure1_slot4;

@@ -7,6 +7,368 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
+    var1 = function SocialLayerStorefrontProductDetailsModal(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.skuId;
+            var _closure2_slot0 = var3;
+            var1 = _closure1_slot9;
+            var4 = undefined;
+            var9 = var1.bind(var4)();
+            var _closure2_slot1 = var9;
+            var2 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 7;
+            var1 = var5[var1];
+            var1 = var2.bind(var4)(var1);
+            var11 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var1 = 8;
+            var1 = var5[var1];
+            var8 = var2.bind(var4)(var1);
+            var7 = var8.useStateFromStores;
+            var1 = _closure1_slot6;
+            var6 = new Array(1);
+            var6[0] = var1;
+            var1 = function() {
+                var3 = _closure1_slot6;
+                var2 = var3.get;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var25 = var7.bind(var8)(var6, var1);
+            var _closure2_slot2 = var25;
+            var1 = 9;
+            var1 = var5[var1];
+            var5 = var2.bind(var4)(var1);
+            var2 = var5.useGetOrFetchApplication;
+            var13 = null;
+            var6 = var13 == var25;
+            var1 = undefined;
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = var25.applicationId;
+case 2:
+            var21 = var2.bind(var5)(var1);
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 10;
+            var1 = var5[var1];
+            var5 = var2.bind(var4)(var1);
+            var2 = var5.useFormattedSKUPrice;
+            var1 = {};
+            var1['sku'] = var25;
+            var1 = var2.bind(var5)(var1);
+            var18 = var1.normalPrice;
+            var1 = var1.discountedPrice;
+            if(!(var13 != var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var18 = var1;
+case 4:
+            var6 = _closure1_slot3;
+            var5 = var6.useMemo;
+            var2 = new Array(1);
+            var2[0] = var25;
+            var1 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 11;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.getCardImageURL;
+                var1 = _closure2_slot2;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var10 = var5.bind(var6)(var1, var2);
+            var6 = _closure1_slot3;
+            var5 = var6.useCallback;
+            var2 = function() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 12;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.pop;
+                var2 = var2.bind(var3)();
+                return var1;
+            };
+            var1 = new Array(0);
+            var26 = var5.bind(var6)(var2, var1);
+            var2 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var1 = 13;
+            var1 = var15[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['skuId'] = var3;
+            var1['sku'] = var25;
+            var3 = function onPurchaseComplete() {
+                var1 = undefined;
+                return var1;
+            };
+            var1['onPurchaseComplete'] = var3;
+            var3 = function onPurchaseError() {
+                var1 = undefined;
+                return var1;
+            };
+            var1['onPurchaseError'] = var3;
+            var3 = function onPurchasePending() {
+                var1 = undefined;
+                return var1;
+            };
+            var1['onPurchasePending'] = var3;
+            var12 = var2.bind(var4)(var1);
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot5;
+            var1 = {};
+            var6 = var9.container;
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = {};
+            var8 = _closure1_slot0;
+            var7 = 14;
+            var7 = var15[var7];
+            var8 = var8.bind(var4)(var7);
+            var7 = var8.isIOS;
+            var8 = var7.bind(var8)();
+            var7 = 0;
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var7 = var11.top;
+case 6:
+            var6['paddingTop'] = var7;
+            var5[1] = var6;
+            var1['style'] = var5;
+            var7 = _closure1_slot8;
+            var6 = _closure1_slot5;
+            var5 = {};
+            var8 = var9.header;
+            var5['style'] = var8;
+            var20 = _closure1_slot7;
+            var17 = _closure1_slot5;
+            var8 = {};
+            var15 = var9.headerLeft;
+            var8['style'] = var15;
+            var24 = _closure1_slot7;
+            var16 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var22 = 15;
+            var22 = var15[var22];
+            var22 = var16.bind(var4)(var22);
+            var23 = var22.HeaderBackButton;
+            var22 = {};
+            var22['onPress'] = var26;
+            var19 = function backImage() {
+                var4 = _closure1_slot7;
+                var2 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 16;
+                var1 = var3[var1];
+                var3 = undefined;
+                var1 = var2.bind(var3)(var1);
+                var2 = var1.XSmallIcon;
+                var1 = {};
+                var5 = 'lg';
+                var1['size'] = var5;
+                var5 = _closure2_slot1;
+                var5 = var5.closeButtonIcon;
+                var1['style'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
+            };
+            var22['backImage'] = var19;
+            var19 = 17;
+            var26 = var15[var19];
+            var26 = var16.bind(var4)(var26);
+            var28 = var26.intl;
+            var27 = var28.string;
+            var26 = var15[var19];
+            var26 = var16.bind(var4)(var26);
+            var26 = var26.t;
+            var26 = var26.cpT0Cq;
+            var26 = var27.bind(var28)(var26);
+            var22['accessibilityLabel'] = var26;
+            var26 = false;
+            var22['labelVisible'] = var26;
+            var22 = var24.bind(var4)(var23, var22);
+            var8['children'] = var22;
+            var17 = var20.bind(var4)(var17, var8);
+            var8 = new Array(3);
+            var8[0] = var17;
+            var17 = _closure1_slot7;
+            var26 = 18;
+            var15 = var15[var26];
+            var15 = var16.bind(var4)(var15);
+            var16 = var15.Text;
+            var15 = {'variant': 'heading-md/bold', 'color': 'mobile-text-heading-primary'};
+            var20 = var9.headerTitle;
+            var15['style'] = var20;
+            var22 = var13 == var21;
+            var20 = undefined;
+            if(var22) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var20 = var21.name;
+case 8:
+            var15['children'] = var20;
+            var15 = var17.bind(var4)(var16, var15);
+            var8[1] = var15;
+            var17 = _closure1_slot7;
+            var16 = _closure1_slot5;
+            var15 = {};
+            var20 = var9.headerRight;
+            var15['style'] = var20;
+            var15 = var17.bind(var4)(var16, var15);
+            var8[2] = var15;
+            var5['children'] = var8;
+            var6 = var7.bind(var4)(var6, var5);
+            var5 = new Array(3);
+            var5[0] = var6;
+            var8 = _closure1_slot8;
+            var7 = _closure1_slot4;
+            var6 = {};
+            var15 = var9.scrollContent;
+            var6['contentContainerStyle'] = var15;
+            var15 = var13 != var10;
+            if(!var15) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var17 = _closure1_slot7;
+            var16 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var10 = 19;
+            var10 = var20[var10];
+            var16 = var16.bind(var4)(var10);
+            var10 = {};
+            var10['sku'] = var25;
+            var15 = var17.bind(var4)(var16, var10);
+case 10:
+            var10 = new Array(2);
+            var10[0] = var15;
+            var17 = _closure1_slot8;
+            var16 = _closure1_slot5;
+            var15 = {};
+            var20 = var9.textContent;
+            var15['style'] = var20;
+            var21 = var13 == var25;
+            var20 = undefined;
+            if(var21) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var20 = var25.name;
+case 12:
+            var21 = var13 != var20;
+            if(!var21) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var23 = _closure1_slot7;
+            var22 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var20 = var20[var26];
+            var20 = var22.bind(var4)(var20);
+            var22 = var20.Text;
+            var20 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
+            var24 = var25.name;
+            var20['children'] = var24;
+            var21 = var23.bind(var4)(var22, var20);
+case 14:
+            var20 = new Array(2);
+            var20[0] = var21;
+            var22 = var13 == var25;
+            var21 = undefined;
+            if(var22) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+            var21 = var25.description;
+case 16:
+            var21 = var13 != var21;
+            if(!var21) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            var24 = _closure1_slot7;
+            var23 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var22 = var22[var26];
+            var22 = var23.bind(var4)(var22);
+            var23 = var22.Text;
+            var22 = {'variant': 'text-md/medium', 'color': 'text-default'};
+            var25 = var25.description;
+            var22['children'] = var25;
+            var21 = var24.bind(var4)(var23, var22);
+case 18:
+            var20[1] = var21;
+            var15['children'] = var20;
+            var15 = var17.bind(var4)(var16, var15);
+            var10[1] = var15;
+            var6['children'] = var10;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var8 = _closure1_slot7;
+            var7 = _closure1_slot5;
+            var6 = {};
+            var10 = var9.footer;
+            var9 = new Array(2);
+            var9[0] = var10;
+            var10 = {};
+            var16 = var11.bottom;
+            var17 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var11 = 6;
+            var11 = var15[var11];
+            var11 = var17.bind(var4)(var11);
+            var11 = var11.spacing;
+            var11 = var11.PX_16;
+            var11 = var16 + var11;
+            var10['paddingBottom'] = var11;
+            var9[1] = var10;
+            var6['style'] = var9;
+            var11 = _closure1_slot7;
+            var10 = _closure1_slot0;
+            var9 = 20;
+            var9 = var15[var9];
+            var9 = var10.bind(var4)(var9);
+            var10 = var9.Button;
+            var9 = {'variant': 'primary', 'size': 'md'};
+            if(!(var13 == var18)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            var17 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var15 = var13[var19];
+            var15 = var17.bind(var4)(var15);
+            var16 = var15.intl;
+            var15 = var16.string;
+            var13 = var13[var19];
+            var13 = var17.bind(var4)(var13);
+            var13 = var13.t;
+            var13 = var13.boqtTA;
+            var13 = var15.bind(var16)(var13);
+            _fun0001_ip = 22; continue _fun0001;
+case 20:
+            var15 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var16 = var14[var19];
+            var16 = var15.bind(var4)(var16);
+            var17 = var16.intl;
+            var16 = var17.formatToPlainString;
+            var14 = var14[var19];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.t;
+            var15 = var14.Xp5WTn;
+            var14 = {};
+            var14['price'] = var18;
+            var13 = var16.bind(var17)(var15, var14);
+case 22:
+            var9['text'] = var13;
+            var9['onPress'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
+            var6['children'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -107,351 +469,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['footer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 20;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/slayer_storefront/native/SocialLayerStorefrontProductDetailsModal.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function SocialLayerStorefrontProductDetailsModal(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = arg1;
-            var1 = var1.skuId;
-            var _closure2_slot0 = var1;
-            var1 = _closure1_slot9;
-            var4 = undefined;
-            var9 = var1.bind(var4)();
-            var _closure2_slot1 = var9;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 7;
-            var1 = var3[var1];
-            var1 = var2.bind(var4)(var1);
-            var14 = var1.bind(var4)();
-            var2 = _closure1_slot0;
-            var1 = 8;
-            var1 = var3[var1];
-            var7 = var2.bind(var4)(var1);
-            var6 = var7.useStateFromStores;
-            var1 = _closure1_slot6;
-            var5 = new Array(1);
-            var5[0] = var1;
-            var1 = function() {
-                var3 = _closure1_slot6;
-                var2 = var3.get;
-                var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var25 = var6.bind(var7)(var5, var1);
-            var _closure2_slot2 = var25;
-            var1 = 9;
-            var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.useGetOrFetchApplication;
-            var12 = null;
-            var5 = var12 == var25;
-            var1 = undefined;
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = var25.applicationId;
-case 2:
-            var21 = var2.bind(var3)(var1);
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 10;
-            var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.useFormattedSKUPrice;
-            var1 = {};
-            var1['sku'] = var25;
-            var1 = var2.bind(var3)(var1);
-            var17 = var1.normalPrice;
-            var1 = var1.discountedPrice;
-            if(!(var12 != var1)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var17 = var1;
-case 4:
-            var5 = _closure1_slot3;
-            var3 = var5.useMemo;
-            var2 = new Array(1);
-            var2[0] = var25;
-            var1 = function() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 11;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.getCardImageURL;
-                var1 = _closure2_slot2;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var10 = var3.bind(var5)(var1, var2);
-            var3 = var5.useCallback;
-            var2 = function() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 12;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.pop;
-                var2 = var2.bind(var3)();
-                return var1;
-            };
-            var1 = new Array(0);
-            var23 = var3.bind(var5)(var2, var1);
-            var3 = var5.useCallback;
-            var2 = function() {
-                var1 = undefined;
-                return var1;
-            };
-            var1 = new Array(0);
-            var11 = var3.bind(var5)(var2, var1);
-            var3 = _closure1_slot8;
-            var2 = _closure1_slot5;
-            var1 = {};
-            var6 = var9.container;
-            var5 = new Array(2);
-            var5[0] = var6;
-            var6 = {};
-            var8 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var7 = 13;
-            var7 = var15[var7];
-            var8 = var8.bind(var4)(var7);
-            var7 = var8.isIOS;
-            var8 = var7.bind(var8)();
-            var7 = 0;
-            if(var8) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var7 = var14.top;
-case 6:
-            var6['paddingTop'] = var7;
-            var5[1] = var6;
-            var1['style'] = var5;
-            var7 = _closure1_slot8;
-            var6 = _closure1_slot5;
-            var5 = {};
-            var8 = var9.header;
-            var5['style'] = var8;
-            var19 = _closure1_slot7;
-            var8 = {};
-            var15 = var9.headerLeft;
-            var8['style'] = var15;
-            var16 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var20 = 14;
-            var20 = var15[var20];
-            var20 = var16.bind(var4)(var20);
-            var22 = var20.HeaderBackButton;
-            var20 = {};
-            var20['onPress'] = var23;
-            var18 = function backImage() {
-                var4 = _closure1_slot7;
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 15;
-                var1 = var3[var1];
-                var3 = undefined;
-                var1 = var2.bind(var3)(var1);
-                var2 = var1.XSmallIcon;
-                var1 = {};
-                var5 = 'lg';
-                var1['size'] = var5;
-                var5 = _closure2_slot1;
-                var5 = var5.closeButtonIcon;
-                var1['style'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
-                return var1;
-            };
-            var20['backImage'] = var18;
-            var18 = 16;
-            var23 = var15[var18];
-            var23 = var16.bind(var4)(var23);
-            var26 = var23.intl;
-            var24 = var26.string;
-            var23 = var15[var18];
-            var23 = var16.bind(var4)(var23);
-            var23 = var23.t;
-            var23 = var23.cpT0Cq;
-            var23 = var24.bind(var26)(var23);
-            var20['accessibilityLabel'] = var23;
-            var23 = false;
-            var20['labelVisible'] = var23;
-            var20 = var19.bind(var4)(var22, var20);
-            var8['children'] = var20;
-            var20 = var19.bind(var4)(var6, var8);
-            var8 = new Array(3);
-            var8[0] = var20;
-            var26 = 17;
-            var15 = var15[var26];
-            var15 = var16.bind(var4)(var15);
-            var16 = var15.Text;
-            var15 = {'variant': 'heading-md/bold', 'color': 'mobile-text-heading-primary'};
-            var20 = var9.headerTitle;
-            var15['style'] = var20;
-            var22 = var12 == var21;
-            var20 = undefined;
-            if(var22) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var20 = var21.name;
-case 8:
-            var15['children'] = var20;
-            var15 = var19.bind(var4)(var16, var15);
-            var8[1] = var15;
-            var19 = _closure1_slot7;
-            var16 = _closure1_slot5;
-            var15 = {};
-            var20 = var9.headerRight;
-            var15['style'] = var20;
-            var15 = var19.bind(var4)(var16, var15);
-            var8[2] = var15;
-            var5['children'] = var8;
-            var6 = var7.bind(var4)(var6, var5);
-            var5 = new Array(3);
-            var5[0] = var6;
-            var8 = _closure1_slot8;
-            var7 = _closure1_slot4;
-            var6 = {};
-            var15 = var9.scrollContent;
-            var6['contentContainerStyle'] = var15;
-            var15 = var12 != var10;
-            if(!var15) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var19 = _closure1_slot7;
-            var16 = _closure1_slot1;
-            var20 = _closure1_slot2;
-            var10 = 18;
-            var10 = var20[var10];
-            var16 = var16.bind(var4)(var10);
-            var10 = {};
-            var10['sku'] = var25;
-            var15 = var19.bind(var4)(var16, var10);
-case 10:
-            var10 = new Array(2);
-            var10[0] = var15;
-            var19 = _closure1_slot8;
-            var16 = _closure1_slot5;
-            var15 = {};
-            var20 = var9.textContent;
-            var15['style'] = var20;
-            var21 = var12 == var25;
-            var20 = undefined;
-            if(var21) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var20 = var25.name;
-case 12:
-            var21 = var12 != var20;
-            if(!var21) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var23 = _closure1_slot7;
-            var22 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var20 = var20[var26];
-            var20 = var22.bind(var4)(var20);
-            var22 = var20.Text;
-            var20 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
-            var24 = var25.name;
-            var20['children'] = var24;
-            var21 = var23.bind(var4)(var22, var20);
-case 14:
-            var20 = new Array(2);
-            var20[0] = var21;
-            var22 = var12 == var25;
-            var21 = undefined;
-            if(var22) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            var21 = var25.description;
-case 16:
-            var21 = var12 != var21;
-            if(!var21) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-            var24 = _closure1_slot7;
-            var23 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var22 = var22[var26];
-            var22 = var23.bind(var4)(var22);
-            var23 = var22.Text;
-            var22 = {'variant': 'text-md/medium', 'color': 'text-default'};
-            var25 = var25.description;
-            var22['children'] = var25;
-            var21 = var24.bind(var4)(var23, var22);
-case 18:
-            var20[1] = var21;
-            var15['children'] = var20;
-            var15 = var19.bind(var4)(var16, var15);
-            var10[1] = var15;
-            var6['children'] = var10;
-            var6 = var8.bind(var4)(var7, var6);
-            var5[1] = var6;
-            var8 = _closure1_slot7;
-            var7 = _closure1_slot5;
-            var6 = {};
-            var10 = var9.footer;
-            var9 = new Array(2);
-            var9[0] = var10;
-            var10 = {};
-            var16 = var14.bottom;
-            var19 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var15 = 6;
-            var15 = var14[var15];
-            var15 = var19.bind(var4)(var15);
-            var15 = var15.spacing;
-            var15 = var15.PX_16;
-            var15 = var16 + var15;
-            var10['paddingBottom'] = var15;
-            var9[1] = var10;
-            var6['style'] = var9;
-            var10 = _closure1_slot0;
-            var9 = 19;
-            var9 = var14[var9];
-            var9 = var10.bind(var4)(var9);
-            var10 = var9.Button;
-            var9 = {'variant': 'primary', 'size': 'md'};
-            if(!(var12 == var17)) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-            var16 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var14 = var12[var18];
-            var14 = var16.bind(var4)(var14);
-            var15 = var14.intl;
-            var14 = var15.string;
-            var12 = var12[var18];
-            var12 = var16.bind(var4)(var12);
-            var12 = var12.t;
-            var12 = var12.boqtTA;
-            var12 = var14.bind(var15)(var12);
-            _fun0001_ip = 22; continue _fun0001;
-case 20:
-            var14 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var15 = var13[var18];
-            var15 = var14.bind(var4)(var15);
-            var16 = var15.intl;
-            var15 = var16.formatToPlainString;
-            var13 = var13[var18];
-            var13 = var14.bind(var4)(var13);
-            var13 = var13.t;
-            var14 = var13.Xp5WTn;
-            var13 = {};
-            var13['price'] = var17;
-            var12 = var15.bind(var16)(var14, var13);
-case 22:
-            var9['text'] = var12;
-            var9['onPress'] = var11;
-            var9 = var8.bind(var4)(var10, var9);
-            var6['children'] = var9;
-            var6 = var8.bind(var4)(var7, var6);
-            var5[2] = var6;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
+    var2 = function WrappedSocialLayerStorefrontProductDetailsModal(arg1) {
+        var4 = _closure1_slot7;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 21;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.NativePaymentContextProvider;
+        var1 = {};
+        var6 = new Array(0);
+        var1['skuIDs'] = var6;
+        var6 = null;
+        var1['activeSubscription'] = var6;
+        var7 = _closure1_slot7;
+        var6 = _closure1_slot10;
+        var5 = {};
+        var9 = arg1;
+        var10 = var5;
+        var8 = copyDataProperties(var10, var9);
+        var5 = var7.bind(var3)(var6, var5);
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
     };
     var3['default'] = var2;
     return var1;

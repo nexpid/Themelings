@@ -86,8 +86,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['LAYOUT'] = var4;
     var4 = 'collection-index';
     var12['COLLECTION_INDEX'] = var4;
-    var4 = 'rivals';
-    var12['RIVALS'] = var4;
     var4 = 'game-shops';
     var12['GAME_SHOPS'] = var4;
     var _closure1_slot2 = var12;
@@ -332,15 +330,9 @@ case 4:
             if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var2 = _closure1_slot2;
-            var2 = var2.RIVALS;
-            var1 = var3 !== var2;
-case 6:
-            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var2 = _closure1_slot2;
             var2 = var2.GAME_SHOPS;
             var1 = var3 !== var2;
-case 8:
+case 6:
             return var1;
         }
     };

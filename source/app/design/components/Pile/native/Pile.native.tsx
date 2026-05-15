@@ -96,6 +96,8 @@ case 2:
             var1 = {};
             var9 = var9.pile;
             var1['style'] = var9;
+            var9 = true;
+            var1['accessible'] = var9;
             var1['aria-label'] = var7;
             var6 = _closure1_slot3;
             var7 = var6.Children;

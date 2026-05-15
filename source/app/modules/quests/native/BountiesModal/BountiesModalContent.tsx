@@ -974,8 +974,10 @@ case 36:
                 var1 = {};
                 var6 = _closure2_slot0;
                 var1['bounty'] = var6;
-                var5 = _closure2_slot11;
-                var1['visible'] = var5;
+                var6 = _closure2_slot11;
+                var1['visible'] = var6;
+                var5 = _closure2_slot1;
+                var1['sourceQuestContent'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

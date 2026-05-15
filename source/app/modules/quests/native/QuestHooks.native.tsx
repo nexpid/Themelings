@@ -676,7 +676,7 @@ case 0:
             var4 = 22;
             var4 = var9[var4];
             var7 = var6.bind(var8)(var4);
-            var4 = var7.useCanLaunchFrame;
+            var4 = var7.canLaunchFrame;
             var7 = var4.bind(var7)(var3);
             var _closure2_slot3 = var7;
             var4 = 23;

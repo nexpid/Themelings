@@ -277,28 +277,19 @@ case 0:
             if(var3) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
             var3 = {};
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var4 = 12;
-            var9 = var7[var4];
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var5 = 12;
+            var6 = var6[var5];
             var5 = undefined;
-            var9 = var6.bind(var5)(var9);
-            var9 = var9.radii;
-            var9 = var9.round;
-            var3['borderRadius'] = var9;
-            var9 = _closure1_slot10;
-            var8 = 2;
-            var8 = var9 - var8;
-            var3['height'] = var8;
-            var8 = 'hidden';
-            var3['overflow'] = var8;
-            var8 = 1;
-            var3['borderWidth'] = var8;
-            var4 = var7[var4];
-            var4 = var6.bind(var5)(var4);
-            var4 = var4.colors;
-            var4 = var4.BORDER_SUBTLE;
-            var3['borderColor'] = var4;
+            var5 = var7.bind(var5)(var6);
+            var5 = var5.radii;
+            var5 = var5.round;
+            var3['borderRadius'] = var5;
+            var4 = _closure1_slot10;
+            var3['height'] = var4;
+            var4 = 'hidden';
+            var3['overflow'] = var4;
             _fun0002_ip = 22; continue _fun0002;
 case 20:
             var4 = {};
@@ -310,9 +301,9 @@ case 20:
             var4['overflow'] = var5;
             var3 = var4;
 case 22:
-            var11 = var2;
-            var10 = var3;
-            var3 = copyDataProperties(var11, var10);
+            var9 = var2;
+            var8 = var3;
+            var3 = copyDataProperties(var9, var8);
             var1['searchBar'] = var2;
             var2 = {'width': 32, 'height': null, 'justifyContent': 'center', 'zIndex': 10};
             var3 = _closure1_slot10;
@@ -900,7 +891,7 @@ case 49:
         var7 = var18[var7];
         var15 = var3.bind(var4)(var7);
         var14 = var15.useAnimatedStyle;
-        var7 = function E() {
+        var7 = function _() {
             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var1 = {};

@@ -215,6 +215,8 @@ case 22:
             var1['messages'] = var4;
             var4 = var2.applications;
             var1['applications'] = var4;
+            var4 = var2.account_link_instructions;
+            var1['accountLinkInstructions'] = var4;
             return var1;
 case 20:
             var1 = {};

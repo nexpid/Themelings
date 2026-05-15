@@ -262,7 +262,7 @@ case 28:
             var7 = 16;
             var7 = var9[var7];
             var8 = var8.bind(var4)(var7);
-            var7 = var8.useCanLaunchFrame;
+            var7 = var8.canLaunchFrame;
             var7 = var7.bind(var8)(var6);
             _closure2_slot15 = var7;
             if(!(var3 != var6)) { _fun0004_ip = 30; continue _fun0004 }

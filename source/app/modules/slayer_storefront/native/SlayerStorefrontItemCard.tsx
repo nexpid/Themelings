@@ -66,11 +66,11 @@ case 0:
             var3 = arg1;
             var1 = var3.sku;
             var _closure2_slot0 = var1;
-            var13 = var3.size;
+            var16 = var3.size;
             var5 = undefined;
-            if(!(var13 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var16 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var13 = 220;
+            var16 = 220;
 case 2:
             var8 = var3.containerStyle;
             var _closure2_slot1 = var5;
@@ -207,14 +207,21 @@ case 11:
             var11 = var12.cardContainer;
             var7 = new Array(3);
             var7[0] = var11;
-            var11 = {};
-            var11['width'] = var13;
-            var11['height'] = var13;
+            var17 = 'object';
+            var13 = typeof var16;
+            var11 = var16;
+            if(!(var17 !== var13)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var13 = {};
+            var13['width'] = var16;
+            var13['height'] = var16;
+            var11 = var13;
+case 12:
             var7[1] = var11;
             var7[2] = var8;
             var2['style'] = var7;
-            if(!(var6 == var14)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!(var6 == var14)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var8 = _closure1_slot6;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -243,8 +250,8 @@ case 13:
             var9 = var8.bind(var5)(var11, var9);
             var6['children'] = var9;
             var6 = var8.bind(var5)(var7, var6);
-            _fun0001_ip = 14; continue _fun0001;
-case 12:
+            _fun0001_ip = 16; continue _fun0001;
+case 14:
             var9 = _closure1_slot6;
             var8 = _closure1_slot4;
             var7 = {};
@@ -271,7 +278,7 @@ case 12:
             var10 = var9.bind(var5)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var5)(var8, var7);
-case 14:
+case 16:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 9:

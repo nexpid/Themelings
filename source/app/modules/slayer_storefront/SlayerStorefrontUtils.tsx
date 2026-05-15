@@ -80,7 +80,7 @@ case 22:
                 var7 = undefined;
                 if(!var9) { _fun0002_ip = 23; continue _fun0002 }
 case 21:
-                var9 = _closure1_slot17;
+                var9 = _closure1_slot18;
                 var7 = var9.bind(var8)(var3, var8);
 case 23:
                 _fun0002_ip = 24; continue _fun0002;
@@ -92,7 +92,7 @@ case 24:
                 var6 = var7;
                 _fun0002_ip = 10; continue _fun0002;
 case 12:
-                var7 = _closure1_slot17;
+                var7 = _closure1_slot18;
                 var6 = var7.bind(var8)(var3, var8);
 case 10:
                 var4 = var6;
@@ -151,7 +151,7 @@ case 6:
                 return var1;
             }
         };
-        var _closure1_slot16 = var1;
+        var _closure1_slot17 = var1;
         var1 = function _arrayLikeToArray(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -184,7 +184,7 @@ case 35:
                 return var1;
             }
         };
-        var _closure1_slot17 = var1;
+        var _closure1_slot18 = var1;
         var6 = function getPrice(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -204,13 +204,13 @@ case 37:
                 if(!(!(var5 > var3))) { _fun0005_ip = 38; continue _fun0005 }
 case 36:
                 var7 = var2.prices;
-                var6 = _closure1_slot10;
+                var6 = _closure1_slot11;
                 var6 = var6.DEFAULT;
                 var6 = var7[var6];
                 if(!(var1 != var6)) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
                 var7 = var2.prices;
-                var6 = _closure1_slot10;
+                var6 = _closure1_slot11;
                 var6 = var6.DEFAULT;
                 var6 = var7[var6];
                 var6 = var6.countryPrices;
@@ -229,7 +229,7 @@ case 42:
                 _fun0005_ip = 19; continue _fun0005;
 case 41:
                 var7 = var2.prices;
-                var5 = _closure1_slot10;
+                var5 = _closure1_slot11;
                 var5 = var5.DEFAULT;
                 var5 = var7[var5];
                 var5 = var5.countryPrices;
@@ -247,7 +247,7 @@ case 44:
                 return var1;
             }
         };
-        var _closure1_slot18 = var6;
+        var _closure1_slot19 = var6;
         var5 = function hasSocialLayerStorefront(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -299,7 +299,7 @@ case 54:
                 if(var5) { _fun0006_ip = 55; continue _fun0006 }
 case 56:
                 var5 = var6.has;
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot10;
                 var4 = var4.SOCIAL_LAYER_STOREFRONT;
                 var3 = var5.bind(var6)(var4);
 case 55:
@@ -319,7 +319,7 @@ case 45:
                 return var1;
             }
         };
-        var _closure1_slot19 = var5;
+        var _closure1_slot20 = var5;
         var4 = function getSKUShareURL(arg1, arg2) {
             var2 = arg2;
             var1 = global;
@@ -328,7 +328,7 @@ case 45:
             var3 = var1.window;
             var3 = var3.GLOBAL_ENV;
             var4 = var3.WEBAPP_ENDPOINT;
-            var8 = _closure1_slot11;
+            var8 = _closure1_slot12;
             var7 = var8.GAME_SHOP;
             var6 = var2.id;
             var3 = var2.slug;
@@ -340,7 +340,7 @@ case 45:
             var1 = var2.bind(var1)(var5, var4, var3);
             return var1;
         };
-        var _closure1_slot20 = var4;
+        var _closure1_slot21 = var4;
         var1 = global;
         var12 = var1.Object;
         var11 = var12.defineProperty;
@@ -370,31 +370,33 @@ case 45:
         var7 = 4;
         var7 = var10[var7];
         var7 = var9.bind(var1)(var7);
-        var8 = var7.STOREFRONT_MARKETING_GUILD_ID;
+        var8 = var7.getChannelsGameShopPrefix;
         var _closure1_slot7 = var8;
+        var8 = var7.STOREFRONT_MARKETING_GUILD_ID;
+        var _closure1_slot8 = var8;
         var7 = var7.STOREFRONT_MARKETING_GUILD_ID_TEST;
-        var _closure1_slot8 = var7;
+        var _closure1_slot9 = var7;
         var7 = 5;
         var7 = var10[var7];
         var7 = var9.bind(var1)(var7);
         var8 = var7.GuildFeatures;
-        var _closure1_slot9 = var8;
-        var8 = var7.PriceSetAssignmentPurchaseTypes;
         var _closure1_slot10 = var8;
-        var8 = var7.Routes;
+        var8 = var7.PriceSetAssignmentPurchaseTypes;
         var _closure1_slot11 = var8;
+        var8 = var7.Routes;
+        var _closure1_slot12 = var8;
         var7 = var7.SKUProductLines;
-        var _closure1_slot12 = var7;
+        var _closure1_slot13 = var7;
         var7 = 6;
         var7 = var10[var7];
         var7 = var9.bind(var1)(var7);
         var7 = var7.CollectibleShopTab;
-        var _closure1_slot13 = var7;
+        var _closure1_slot14 = var7;
         var7 = 7;
         var7 = var10[var7];
         var7 = var9.bind(var1)(var7);
         var7 = var7.CurrencyCodes;
-        var _closure1_slot14 = var7;
+        var _closure1_slot15 = var7;
         var7 = 8;
         var7 = var10[var7];
         var7 = var9.bind(var1)(var7);
@@ -404,7 +406,7 @@ case 45:
 case 60:
         var7 = 'webp';
 case 59:
-        var _closure1_slot15 = var7;
+        var _closure1_slot16 = var7;
         var8 = 15;
         var8 = var10[var8];
         var10 = var9.bind(var1)(var8);
@@ -422,7 +424,7 @@ case 0:
                 if(var1) { _fun0007_ip = 61; continue _fun0007 }
 case 62:
                 var4 = var2.prices;
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot11;
                 var2 = var2.DEFAULT;
                 var2 = var4[var2];
                 var1 = var3 != var2;
@@ -436,8 +438,8 @@ case 61:
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var7 = arg1;
-                var2 = _closure1_slot18;
-                var1 = _closure1_slot10;
+                var2 = _closure1_slot19;
+                var1 = _closure1_slot11;
                 var1 = var1.DEFAULT;
                 var6 = undefined;
                 var3 = var2.bind(var6)(var7, var1);
@@ -447,13 +449,13 @@ case 63:
                 var2 = {};
                 var5 = 0;
                 var2['amount'] = var5;
-                var5 = _closure1_slot14;
+                var5 = _closure1_slot15;
                 var5 = var5.USD;
                 var2['currency'] = var5;
                 var3 = var2;
 case 7:
-                var5 = _closure1_slot18;
-                var2 = _closure1_slot10;
+                var5 = _closure1_slot19;
+                var2 = _closure1_slot11;
                 var2 = var2.GIFT;
                 var2 = var5.bind(var6)(var7, var2);
                 if(!(var1 == var2)) { _fun0008_ip = 64; continue _fun0008 }
@@ -461,7 +463,7 @@ case 40:
                 var1 = {};
                 var5 = 0;
                 var1['amount'] = var5;
-                var4 = _closure1_slot14;
+                var4 = _closure1_slot15;
                 var4 = var4.USD;
                 var1['currency'] = var4;
                 var2 = var1;
@@ -490,7 +492,7 @@ case 0:
                 var1 = new var22[var1](var21);
                 var12 = var1 instanceof Object ? var1 : var2;
                 var1 = new Array(0);
-                var3 = _closure1_slot16;
+                var3 = _closure1_slot17;
                 var2 = arg1;
                 var2 = var2.pages;
                 var10 = undefined;
@@ -506,7 +508,7 @@ case 0:
                 if(var2) { _fun0009_ip = 67; continue _fun0009 }
 case 68:
                 var2 = var7.value;
-                var14 = _closure1_slot16;
+                var14 = _closure1_slot17;
                 var13 = var2.skuIds;
                 var15 = var14.bind(var10)(var13);
                 var14 = var15.bind(var10)();
@@ -529,7 +531,7 @@ case 71:
                 var6 = var16;
                 if(!var13) { _fun0009_ip = 70; continue _fun0009 }
 case 69:
-                var13 = _closure1_slot16;
+                var13 = _closure1_slot17;
                 var2 = var2.sections;
                 if(!(var8 == var2)) { _fun0009_ip = 38; continue _fun0009 }
 case 57:
@@ -543,7 +545,7 @@ case 38:
                 var3 = var13;
                 if(var2) { _fun0009_ip = 73; continue _fun0009 }
 case 44:
-                var16 = _closure1_slot16;
+                var16 = _closure1_slot17;
                 var2 = var14.value;
                 var2 = var2.skuIds;
                 var17 = var16.bind(var10)(var2);
@@ -596,7 +598,7 @@ case 0:
                 if(!var1) { _fun0010_ip = 78; continue _fun0010 }
 case 79:
                 var3 = var2.productLine;
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot13;
                 var2 = var2.SOCIAL_LAYER_GAME_ITEM;
                 var1 = var3 === var2;
 case 78:
@@ -609,19 +611,19 @@ case 78:
 case 0:
                 var4 = _closure1_slot5;
                 var3 = var4.getGuild;
-                var2 = _closure1_slot8;
+                var2 = _closure1_slot9;
                 var2 = var3.bind(var4)(var2);
                 var3 = null;
                 if(!(var3 != var2)) { _fun0011_ip = 80; continue _fun0011 }
 case 34:
                 var5 = var2.features;
                 var4 = var5.has;
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot10;
                 var3 = var3.SOCIAL_LAYER_STOREFRONT;
                 var3 = var4.bind(var5)(var3);
                 if(var3) { _fun0011_ip = 81; continue _fun0011 }
 case 80:
-                var1 = _closure1_slot7;
+                var1 = _closure1_slot8;
                 _fun0011_ip = 82; continue _fun0011;
 case 81:
                 var1 = var2.id;
@@ -1003,7 +1005,7 @@ case 113:
                 var4 = var4.tenantMetadata;
                 var4 = var4.socialLayer;
                 var11 = var4.cardBackgroundImageAssetId;
-                var9 = _closure1_slot15;
+                var9 = _closure1_slot16;
                 var10 = 1024;
                 var13 = var8;
                 var1 = var13[var7](var12, var11, var10, var9, var8);
@@ -1014,7 +1016,7 @@ case 113:
         var3['getCardBackgroundImageURL'] = var5;
         var3['getSKUShareURL'] = var4;
         var4 = function getForwardedSKUShareURL(arg1, arg2) {
-            var4 = _closure1_slot20;
+            var4 = _closure1_slot21;
             var3 = undefined;
             var2 = arg1;
             var1 = arg2;
@@ -1039,7 +1041,7 @@ case 0:
                 var1 = var1 != var4;
                 if(!var1) { _fun0019_ip = 46; continue _fun0019 }
 case 3:
-                var3 = _closure1_slot19;
+                var3 = _closure1_slot20;
                 var2 = undefined;
                 var1 = var3.bind(var2)(var4);
 case 46:
@@ -1216,19 +1218,19 @@ case 121:
 case 0:
                 var8 = arg1;
                 var10 = arg4;
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
                 var1 = 12;
-                var3 = var3[var1];
-                var1 = undefined;
-                var4 = var4.bind(var1)(var3);
+                var1 = var4[var1];
+                var9 = undefined;
+                var4 = var3.bind(var9)(var1);
                 var3 = var4.parse;
                 var1 = arg2;
                 var1 = var3.bind(var4)(var1);
                 var3 = var1.tab;
                 var4 = var1.applicationId;
                 var5 = var8.indexOf;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var1 = var1.COLLECTIBLES_SHOP;
                 var1 = var5.bind(var8)(var1);
                 var6 = 0;
@@ -1239,24 +1241,23 @@ case 68:
                 if(!var1) { _fun0025_ip = 123; continue _fun0025 }
 case 109:
                 var7 = var8.indexOf;
-                var9 = _closure1_slot11;
-                var5 = var9.CHANNELS_GAME_SHOP_PREFIX;
+                var5 = _closure1_slot7;
                 var5 = var5.bind(var9)(var10);
                 var5 = var7.bind(var8)(var5);
                 var1 = var5 >= var6;
 case 123:
-                _fun0025_ip = 41; continue _fun0025;
+                _fun0025_ip = 124; continue _fun0025;
 case 122:
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot14;
                 var2 = var2.GAME_SHOPS;
                 var2 = var3 === var2;
-                if(!var2) { _fun0025_ip = 124; continue _fun0025 }
+                if(!var2) { _fun0025_ip = 89; continue _fun0025 }
 case 125:
                 var3 = arg3;
                 var2 = var4 === var3;
-case 124:
+case 89:
                 var1 = var2;
-case 41:
+case 124:
                 return var1;
             }
         };

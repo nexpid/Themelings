@@ -84,29 +84,29 @@ case 0:
                             if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                             var5 = undefined;
-                            var8 = undefined;
-                            var _closure5_slot0 = var5;
-                            var4 = _closure2_slot4;
+                            var7 = undefined;
+                            var4 = undefined;
+                            var6 = _closure2_slot4;
                             var2 = true;
-                            var2 = var4.bind(var5)(var2);
+                            var2 = var6.bind(var5)(var2);
                             var2 = _closure2_slot5;
-                            var9 = null;
-                            var2 = var2.bind(var5)(var9);
-                            var4 = _closure2_slot7;
-                            var10 = _closure1_slot0;
+                            var6 = null;
+                            var2 = var2.bind(var5)(var6);
+                            var8 = _closure2_slot7;
+                            var9 = _closure1_slot0;
                             var11 = _closure1_slot2;
                             var2 = 14;
                             var2 = var11[var2];
-                            var10 = var10.bind(var5)(var2);
-                            var2 = var10.v4;
-                            var2 = var2.bind(var10)();
-                            var2 = var4.bind(var5)(var2);
+                            var9 = var9.bind(var5)(var2);
+                            var2 = var9.v4;
+                            var2 = var2.bind(var9)();
+                            var2 = var8.bind(var5)(var2);
 case 6: // try_start_0
-                            var4 = _closure1_slot1;
-                            var10 = _closure1_slot2;
+                            var8 = _closure1_slot1;
+                            var9 = _closure1_slot2;
                             var2 = 12;
-                            var2 = var10[var2];
-                            var13 = var4.bind(var5)(var2);
+                            var2 = var9[var2];
+                            var13 = var8.bind(var5)(var2);
                             var12 = var13.track;
                             var2 = _closure1_slot10;
                             var11 = var2.EMOJI_UPLOAD_STARTED;
@@ -118,188 +118,199 @@ case 6: // try_start_0
                             var2['upload_id'] = var14;
                             var2 = var12.bind(var13)(var11, var2);
                             var2 = 15;
-                            var2 = var10[var2];
-                            var10 = var4.bind(var5)(var2);
-                            var4 = var10.openImagePicker;
+                            var2 = var9[var2];
+                            var9 = var8.bind(var5)(var2);
+                            var8 = var9.openImagePicker;
                             var2 = {};
-                            var11 = _closure1_slot11;
-                            var2['size'] = var11;
-                            var2 = var4.bind(var10)(var2);
-                            SaveGenerator(address=189);
+                            var10 = _closure1_slot11;
+                            var2['size'] = var10;
+                            var2 = var8.bind(var9)(var2);
+                            SaveGenerator(address=185);
 case 7:
                             return var2;
 case 8:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0002_ip = 9; continue _fun0002 }
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
+                            if(var8) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                            var4 = var2.base64;
-                            var8 = var4;
-                            if(!(var9 != var4)) { _fun0002_ip = 11; continue _fun0002 }
+                            var8 = var2.base64;
+                            var7 = var8;
+                            var4 = var2.originalMd5;
+                            if(!(var6 != var8)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
+                            var8 = var7;
+                            var7 = var4;
                             var4 = _closure2_slot2;
-                            var9 = var9 == var4;
+                            var6 = var6 == var4;
                             var4 = undefined;
-                            if(var9) { _fun0002_ip = 13; continue _fun0002 }
+                            if(var6) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-                            var9 = _closure2_slot2;
-                            var4 = var9.bind(var5)();
+                            var6 = _closure2_slot2;
+                            var4 = var6.bind(var5)();
 case 13:
-                            SaveGenerator(address=239);
+                            SaveGenerator(address=241);
 case 15:
                             return var4;
 case 16:
-                            ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
-                            if(var9) { _fun0002_ip = 17; continue _fun0002 }
+                            ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                            if(var6) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-                            var10 = var8;
-                            _closure5_slot0 = var10;
-                            var8 = _closure1_slot0;
-                            var9 = _closure1_slot2;
-                            var7 = 11;
-                            var7 = var9[var7];
-                            var9 = var8.bind(var5)(var7);
-                            var8 = var9.uploadEmoji;
-                            var7 = {};
-                            var11 = _closure2_slot0;
-                            var11 = var11.id;
-                            var7['guildId'] = var11;
-                            var7['image'] = var10;
-                            var11 = _closure2_slot1;
-                            var10 = 1;
-                            var12 = var11 + var10;
-                            var10 = global;
-                            var10 = var10.HermesInternal;
-                            var11 = var10.concat;
-                            var10 = 'emoji_';
-                            var10 = var11.bind(var10)(var12);
-                            var7['name'] = var10;
-                            var7['roles'] = var4;
-                            var9 = var8.bind(var9)(var7);
-                            var8 = var9.then;
-                            var7 = function() {
-                                var4 = _closure1_slot1;
+                            var6 = function(arg1, arg2, arg3) {
+                                var7 = arg1;
+                                var _closure6_slot0 = var7;
+                                var4 = _closure1_slot0;
                                 var3 = _closure1_slot2;
-                                var2 = 12;
-                                var3 = var3[var2];
-                                var2 = undefined;
-                                var4 = var4.bind(var2)(var3);
-                                var3 = var4.track;
-                                var1 = _closure1_slot10;
-                                var2 = var1.EMOJI_UPLOAD_COMPLETED;
-                                var1 = {};
-                                var6 = _closure2_slot0;
-                                var6 = var6.id;
-                                var1['guild_id'] = var6;
-                                var5 = _closure2_slot6;
-                                var1['upload_id'] = var5;
-                                var1 = var3.bind(var4)(var2, var1);
+                                var1 = 11;
+                                var3 = var3[var1];
+                                var1 = undefined;
+                                var5 = var4.bind(var1)(var3);
+                                var4 = var5.uploadEmoji;
+                                var3 = {};
+                                var8 = _closure2_slot0;
+                                var8 = var8.id;
+                                var3['guildId'] = var8;
+                                var3['image'] = var7;
+                                var7 = _closure2_slot1;
+                                var6 = 1;
+                                var8 = var7 + var6;
+                                var6 = global;
+                                var6 = var6.HermesInternal;
+                                var7 = var6.concat;
+                                var6 = 'emoji_';
+                                var6 = var7.bind(var6)(var8);
+                                var3['name'] = var6;
+                                var6 = arg3;
+                                var3['roles'] = var6;
+                                var6 = arg2;
+                                var3['originalMd5'] = var6;
+                                var5 = var4.bind(var5)(var3);
+                                var4 = var5.then;
+                                var3 = function() {
+                                    var4 = _closure1_slot1;
+                                    var3 = _closure1_slot2;
+                                    var2 = 12;
+                                    var3 = var3[var2];
+                                    var2 = undefined;
+                                    var4 = var4.bind(var2)(var3);
+                                    var3 = var4.track;
+                                    var1 = _closure1_slot10;
+                                    var2 = var1.EMOJI_UPLOAD_COMPLETED;
+                                    var1 = {};
+                                    var6 = _closure2_slot0;
+                                    var6 = var6.id;
+                                    var1['guild_id'] = var6;
+                                    var5 = _closure2_slot6;
+                                    var1['upload_id'] = var5;
+                                    var1 = var3.bind(var4)(var2, var1);
+                                    return var1;
+                                };
+                                var4 = var4.bind(var5)(var3);
+                                var3 = var4.catch;
+                                var2 = function(arg1) {
+                                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                                        var1 = arg1;
+                                        var4 = var1.body;
+                                        var2 = null;
+                                        var5 = var2 != var4;
+                                        var1 = undefined;
+                                        var3 = undefined;
+                                        if(!var5) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
+                                        var7 = var4.code;
+                                        var6 = _closure1_slot9;
+                                        var6 = var6.TOO_MANY_EMOJI;
+                                        if(!(var7 !== var6)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
+                                        var7 = var4.code;
+                                        var6 = _closure1_slot9;
+                                        var6 = var6.TOO_MANY_ANIMATED_EMOJI;
+                                        if(!(var7 !== var6)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+                                        var4 = var4.image;
+                                        var6 = var2 != var4;
+                                        var4 = undefined;
+                                        if(!var6) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+                                        var7 = _closure1_slot1;
+                                        var10 = _closure1_slot2;
+                                        var6 = 12;
+                                        var6 = var10[var6];
+                                        var9 = var7.bind(var1)(var6);
+                                        var8 = var9.track;
+                                        var6 = _closure1_slot10;
+                                        var7 = var6.EMOJI_UPLOAD_FILE_SIZE_LIMIT_EXCEEDED;
+                                        var6 = {};
+                                        var12 = _closure2_slot0;
+                                        var12 = var12.id;
+                                        var6['guild_id'] = var12;
+                                        var12 = global;
+                                        var14 = var12.Buffer;
+                                        var13 = var14.byteLength;
+                                        var12 = _closure6_slot0;
+                                        var12 = var13.bind(var14)(var12);
+                                        var6['file_size'] = var12;
+                                        var11 = _closure2_slot6;
+                                        var6['upload_id'] = var11;
+                                        var6 = var8.bind(var9)(var7, var6);
+                                        var7 = _closure1_slot0;
+                                        var6 = 13;
+                                        var8 = var10[var6];
+                                        var8 = var7.bind(var1)(var8);
+                                        var9 = var8.intl;
+                                        var8 = var9.formatToPlainString;
+                                        var6 = var10[var6];
+                                        var6 = var7.bind(var1)(var6);
+                                        var6 = var6.t;
+                                        var7 = var6.kIO9jy;
+                                        var6 = {};
+                                        var10 = _closure1_slot12;
+                                        var6['maxSize'] = var10;
+                                        var4 = var8.bind(var9)(var7, var6);
+case 25:
+                                        _fun0003_ip = 27; continue _fun0003;
+case 23:
+                                        var9 = _closure1_slot0;
+                                        var10 = _closure1_slot2;
+                                        var6 = 13;
+                                        var7 = var10[var6];
+                                        var7 = var9.bind(var1)(var7);
+                                        var8 = var7.intl;
+                                        var7 = var8.string;
+                                        var6 = var10[var6];
+                                        var6 = var9.bind(var1)(var6);
+                                        var6 = var6.t;
+                                        var6 = var6["6v5dP/"];
+                                        var4 = var7.bind(var8)(var6);
+case 27:
+                                        _fun0003_ip = 28; continue _fun0003;
+case 21:
+                                        var8 = _closure1_slot0;
+                                        var9 = _closure1_slot2;
+                                        var5 = 13;
+                                        var6 = var9[var5];
+                                        var6 = var8.bind(var1)(var6);
+                                        var7 = var6.intl;
+                                        var6 = var7.string;
+                                        var5 = var9[var5];
+                                        var5 = var8.bind(var1)(var5);
+                                        var5 = var5.t;
+                                        var5 = var5.jP/Rqm;
+                                        var4 = var6.bind(var7)(var5);
+case 28:
+                                        var3 = var4;
+case 19:
+                                        if(!(var2 != var3)) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
+                                        var2 = _closure2_slot5;
+                                        var2 = var2.bind(var1)(var3);
+case 29:
+                                        return var1;
+                                    }
+                                };
+                                var2 = var3.bind(var4)(var2);
                                 return var1;
                             };
-                            var8 = var8.bind(var9)(var7);
-                            var7 = var8.catch;
-                            var6 = function(arg1) {
-                                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                                    var1 = arg1;
-                                    var4 = var1.body;
-                                    var2 = null;
-                                    var5 = var2 != var4;
-                                    var1 = undefined;
-                                    var3 = undefined;
-                                    if(!var5) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-                                    var7 = var4.code;
-                                    var6 = _closure1_slot9;
-                                    var6 = var6.TOO_MANY_EMOJI;
-                                    if(!(var7 !== var6)) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
-                                    var7 = var4.code;
-                                    var6 = _closure1_slot9;
-                                    var6 = var6.TOO_MANY_ANIMATED_EMOJI;
-                                    if(!(var7 !== var6)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-                                    var4 = var4.image;
-                                    var6 = var2 != var4;
-                                    var4 = undefined;
-                                    if(!var6) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-                                    var7 = _closure1_slot1;
-                                    var10 = _closure1_slot2;
-                                    var6 = 12;
-                                    var6 = var10[var6];
-                                    var9 = var7.bind(var1)(var6);
-                                    var8 = var9.track;
-                                    var6 = _closure1_slot10;
-                                    var7 = var6.EMOJI_UPLOAD_FILE_SIZE_LIMIT_EXCEEDED;
-                                    var6 = {};
-                                    var12 = _closure2_slot0;
-                                    var12 = var12.id;
-                                    var6['guild_id'] = var12;
-                                    var12 = global;
-                                    var14 = var12.Buffer;
-                                    var13 = var14.byteLength;
-                                    var12 = _closure5_slot0;
-                                    var12 = var13.bind(var14)(var12);
-                                    var6['file_size'] = var12;
-                                    var11 = _closure2_slot6;
-                                    var6['upload_id'] = var11;
-                                    var6 = var8.bind(var9)(var7, var6);
-                                    var7 = _closure1_slot0;
-                                    var6 = 13;
-                                    var8 = var10[var6];
-                                    var8 = var7.bind(var1)(var8);
-                                    var9 = var8.intl;
-                                    var8 = var9.formatToPlainString;
-                                    var6 = var10[var6];
-                                    var6 = var7.bind(var1)(var6);
-                                    var6 = var6.t;
-                                    var7 = var6.kIO9jy;
-                                    var6 = {};
-                                    var10 = _closure1_slot12;
-                                    var6['maxSize'] = var10;
-                                    var4 = var8.bind(var9)(var7, var6);
-case 25:
-                                    _fun0003_ip = 27; continue _fun0003;
-case 23:
-                                    var9 = _closure1_slot0;
-                                    var10 = _closure1_slot2;
-                                    var6 = 13;
-                                    var7 = var10[var6];
-                                    var7 = var9.bind(var1)(var7);
-                                    var8 = var7.intl;
-                                    var7 = var8.string;
-                                    var6 = var10[var6];
-                                    var6 = var9.bind(var1)(var6);
-                                    var6 = var6.t;
-                                    var6 = var6["6v5dP/"];
-                                    var4 = var7.bind(var8)(var6);
-case 27:
-                                    _fun0003_ip = 28; continue _fun0003;
-case 21:
-                                    var8 = _closure1_slot0;
-                                    var9 = _closure1_slot2;
-                                    var5 = 13;
-                                    var6 = var9[var5];
-                                    var6 = var8.bind(var1)(var6);
-                                    var7 = var6.intl;
-                                    var6 = var7.string;
-                                    var5 = var9[var5];
-                                    var5 = var8.bind(var1)(var5);
-                                    var5 = var5.t;
-                                    var5 = var5.jP/Rqm;
-                                    var4 = var6.bind(var7)(var5);
-case 28:
-                                    var3 = var4;
-case 19:
-                                    if(!(var2 != var3)) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
-                                    var2 = _closure2_slot5;
-                                    var2 = var2.bind(var1)(var3);
-case 29:
-                                    return var1;
-                                }
-                            };
-                            var6 = var7.bind(var8)(var6);
+                            var6 = var6.bind(var5)(var8, var7, var4);
 case 11: // try_end0
                             var7 = _closure2_slot4;
                             var6 = false;

@@ -1552,6 +1552,25 @@ case 40:
         var3['UserSettingsActionCreatorsByType'] = var7;
         var3['updateUserAllGuildSettings'] = var6;
         var3['updateUserGuildSettings'] = var5;
+        var5 = function setGuildThemeSourcePreferenceOverride(arg1, arg2) {
+            var2 = arg2;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot16;
+            var2 = _closure1_slot8;
+            var4 = var2.INFREQUENT_USER_ACTION;
+            var3 = undefined;
+            var2 = arg1;
+            var1 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var1['guildThemeSourcePreference'] = var2;
+                var1 = undefined;
+                return var1;
+            };
+            var1 = var5.bind(var3)(var2, var1, var4);
+            return var1;
+        };
+        var3['setGuildThemeSourcePreferenceOverride'] = var5;
         var5 = function updateUserChannelSettings(arg1, arg2, arg3, arg4) {
             var2 = arg2;
             var _closure2_slot0 = var2;
