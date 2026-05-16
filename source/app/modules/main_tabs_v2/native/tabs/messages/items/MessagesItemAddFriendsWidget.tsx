@@ -405,6 +405,8 @@ case 24:
         var8 = var8.afcl67;
         var8 = var9.bind(var13)(var8);
         var5['accessibilityLabel'] = var8;
+        var8 = 'button';
+        var5['accessibilityRole'] = var8;
         var5['onPress'] = var7;
         var7 = var17.title;
         var5['style'] = var7;

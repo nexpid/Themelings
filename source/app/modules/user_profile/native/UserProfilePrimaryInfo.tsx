@@ -1145,7 +1145,7 @@ case 25:
     var14 = {};
     var14['marginLeft'] = var17;
     var7['botTag'] = var14;
-    var14 = {'alignSelf': 'center', 'borderRadius': null, 'columnGap': 4};
+    var14 = {'alignSelf': 'center', 'justifyContent': 'center', 'borderRadius': null, 'columnGap': 4};
     var17 = var9[var15];
     var17 = var16.bind(var1)(var17);
     var17 = var17.radii;

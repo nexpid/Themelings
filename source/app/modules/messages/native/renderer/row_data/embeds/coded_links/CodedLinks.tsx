@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function canSeeDevLinks() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot5;
             var1 = var2.getCurrentUser;
             var6 = var1.bind(var2)();
             var4 = null;
@@ -22,7 +22,7 @@ case 3:
 case 2:
             if(var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var6 = _closure1_slot4;
+            var6 = _closure1_slot5;
             var5 = var6.getCurrentUser;
             var6 = var5.bind(var6)();
             var5 = var4 == var6;
@@ -36,14 +36,14 @@ case 6:
 case 4:
             if(var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot4;
             var2 = var6.getGuild;
             var5 = '943265993613008967';
             var2 = var2.bind(var6)(var5);
             var2 = var4 != var2;
             if(!var2) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var3 = var4.isLurking;
             var3 = var3.bind(var4)(var5);
             var2 = !var3;
@@ -53,7 +53,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot6 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -75,7 +75,11 @@ case 8:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 18;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -104,383 +108,434 @@ case 14:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = arg1;
-                    var11 = var1.type;
-                    var6 = var1.code;
-                    var9 = var1.url;
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var10 = 3;
-                    var1 = var1[var10];
-                    var4 = undefined;
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.INVITE;
-                    if(!(var11 !== var1)) { _fun0003_ip = 15; continue _fun0003 }
+                    var4 = var1.type;
+                    var5 = var1.code;
+                    var8 = var1.url;
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var7 = 4;
+                    var2 = var2[var7];
+                    var3 = undefined;
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.INVITE;
+                    if(!(var4 !== var2)) { _fun0003_ip = 15; continue _fun0003 }
 case 7:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.TEMPLATE;
-                    if(!(var11 !== var1)) { _fun0003_ip = 16; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.TEMPLATE;
+                    if(!(var4 !== var2)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.BUILD_OVERRIDE;
-                    if(!(var11 !== var1)) { _fun0003_ip = 18; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.BUILD_OVERRIDE;
+                    if(!(var4 !== var2)) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.MANUAL_BUILD_OVERRIDE;
-                    if(!(var11 !== var1)) { _fun0003_ip = 20; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.MANUAL_BUILD_OVERRIDE;
+                    if(!(var4 !== var2)) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.EVENT;
-                    if(!(var11 !== var1)) { _fun0003_ip = 22; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.EVENT;
+                    if(!(var4 !== var2)) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.CHANNEL_LINK;
-                    if(!(var11 !== var1)) { _fun0003_ip = 24; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.CHANNEL_LINK;
+                    if(!(var4 !== var2)) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.APP_DIRECTORY_PROFILE;
-                    if(!(var11 !== var1)) { _fun0003_ip = 26; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.APP_DIRECTORY_PROFILE;
+                    if(!(var4 !== var2)) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.ACTIVITY_BOOKMARK;
-                    if(!(var11 !== var1)) { _fun0003_ip = 28; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.ACTIVITY_BOOKMARK;
+                    if(!(var4 !== var2)) { _fun0003_ip = 28; continue _fun0003 }
 case 29:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.EMBEDDED_ACTIVITY_INVITE;
-                    if(!(var11 !== var1)) { _fun0003_ip = 30; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.EMBEDDED_ACTIVITY_INVITE;
+                    if(!(var4 !== var2)) { _fun0003_ip = 30; continue _fun0003 }
 case 31:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var1 = var1.EXPERIMENT;
-                    if(!(var11 !== var1)) { _fun0003_ip = 32; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.EXPERIMENT;
+                    if(!(var4 !== var2)) { _fun0003_ip = 32; continue _fun0003 }
 case 33:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot1;
-                    var1 = var1[var10];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.CodedLinkType;
-                    var3 = var1.GUILD_PRODUCT;
-                    var1 = null;
-                    if(!(var11 !== var3)) { _fun0003_ip = 34; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.GUILD_PRODUCT;
+                    if(!(var4 !== var2)) { _fun0003_ip = 34; continue _fun0003 }
 case 35:
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var3 = var3[var10];
-                    var3 = var7.bind(var4)(var3);
-                    var3 = var3.CodedLinkType;
-                    var3 = var3.SERVER_SHOP;
-                    var1 = null;
-                    if(!(var11 !== var3)) { _fun0003_ip = 34; continue _fun0003 }
-case 36:
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var3 = var3[var10];
-                    var3 = var7.bind(var4)(var3);
-                    var3 = var3.CodedLinkType;
-                    var3 = var3.SOCIAL_LAYER_STOREFRONT;
-                    if(!(var11 !== var3)) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var3 = var3[var10];
-                    var3 = var7.bind(var4)(var3);
-                    var3 = var3.CodedLinkType;
-                    var3 = var3.QUESTS_EMBED;
-                    if(!(var11 !== var3)) { _fun0003_ip = 39; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.SERVER_SHOP;
+                    if(!(var4 !== var2)) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.SOCIAL_LAYER_STOREFRONT;
+                    if(!(var4 !== var2)) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.SOCIAL_LAYER_STOREFRONT_APP;
+                    if(!(var4 !== var2)) { _fun0003_ip = 38; continue _fun0003 }
 case 40:
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var3 = var3[var10];
-                    var3 = var7.bind(var4)(var3);
-                    var3 = var3.CodedLinkType;
-                    var7 = var3.APP_DIRECTORY_STOREFRONT;
-                    var3 = null;
-                    if(!(var11 !== var7)) { _fun0003_ip = 41; continue _fun0003 }
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.QUESTS_EMBED;
+                    if(!(var4 !== var2)) { _fun0003_ip = 41; continue _fun0003 }
 case 42:
-                    var8 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var7 = var7[var10];
-                    var7 = var8.bind(var4)(var7);
-                    var7 = var7.CodedLinkType;
-                    var7 = var7.APP_DIRECTORY_STOREFRONT_SKU;
-                    var3 = null;
-                    if(!(var11 !== var7)) { _fun0003_ip = 41; continue _fun0003 }
-case 43:
-                    var8 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var7 = var7[var10];
-                    var7 = var8.bind(var4)(var7);
-                    var7 = var7.CodedLinkType;
-                    var7 = var7.APP_OAUTH2_LINK;
-                    if(!(var11 !== var7)) { _fun0003_ip = 44; continue _fun0003 }
-case 45:
-                    var8 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var7 = var7[var10];
-                    var7 = var8.bind(var4)(var7);
-                    var7 = var7.CodedLinkType;
-                    var8 = var7.COLLECTIBLES_SHOP;
-                    var7 = null;
-                    if(!(var11 !== var8)) { _fun0003_ip = 46; continue _fun0003 }
-case 47:
-                    var10 = _closure1_slot0;
-                    var12 = _closure1_slot1;
-                    var8 = 17;
-                    var8 = var12[var8];
-                    var10 = var10.bind(var4)(var8);
-                    var8 = var10.assertNever;
-                    var8 = var8.bind(var10)(var11);
-                    var7 = undefined;
-case 46:
-                    _fun0003_ip = 48; continue _fun0003;
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var9 = var2.APP_DIRECTORY_STOREFRONT;
+                    var2 = null;
+                    if(!(var4 !== var9)) { _fun0003_ip = 43; continue _fun0003 }
 case 44:
                     var10 = _closure1_slot0;
-                    var11 = _closure1_slot1;
-                    var8 = 9;
-                    var8 = var11[var8];
-                    var11 = var10.bind(var4)(var8);
-                    var10 = var11.createAppMessageEmbed;
-                    var8 = {};
-                    var13 = _closure2_slot1;
-                    var8['theme'] = var13;
-                    var8['appId'] = var6;
-                    var8['embedUrl'] = var9;
-                    var12 = _closure2_slot0;
-                    var8['message'] = var12;
-                    var7 = var10.bind(var11)(var8);
-case 48:
-                    var3 = var7;
-case 41:
-                    _fun0003_ip = 49; continue _fun0003;
-case 39:
-                    var8 = _closure1_slot0;
-                    var10 = _closure1_slot1;
-                    var7 = 16;
-                    var7 = var10[var7];
-                    var10 = var8.bind(var4)(var7);
-                    var8 = var10.createQuestsEmbed;
-                    var7 = {};
-                    var11 = _closure2_slot1;
-                    var7['theme'] = var11;
-                    var7['questId'] = var6;
-                    var3 = var8.bind(var10)(var7);
+                    var9 = _closure1_slot1;
+                    var9 = var9[var7];
+                    var9 = var10.bind(var3)(var9);
+                    var9 = var9.CodedLinkType;
+                    var9 = var9.APP_DIRECTORY_STOREFRONT_SKU;
+                    var2 = null;
+                    if(!(var4 !== var9)) { _fun0003_ip = 43; continue _fun0003 }
+case 45:
+                    var10 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var9 = var9[var7];
+                    var9 = var10.bind(var3)(var9);
+                    var9 = var9.CodedLinkType;
+                    var9 = var9.APP_OAUTH2_LINK;
+                    if(!(var4 !== var9)) { _fun0003_ip = 46; continue _fun0003 }
+case 47:
+                    var10 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var9 = var9[var7];
+                    var9 = var10.bind(var3)(var9);
+                    var9 = var9.CodedLinkType;
+                    var9 = var9.COLLECTIBLES_SHOP;
+                    var6 = null;
+                    if(!(var4 !== var9)) { _fun0003_ip = 48; continue _fun0003 }
 case 49:
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot1;
+                    var9 = 18;
+                    var9 = var11[var9];
+                    var10 = var10.bind(var3)(var9);
+                    var9 = var10.assertNever;
+                    var9 = var9.bind(var10)(var4);
+                    var6 = undefined;
+case 48:
                     _fun0003_ip = 50; continue _fun0003;
-case 37:
-                    var8 = _closure1_slot0;
-                    var10 = _closure1_slot1;
-                    var7 = 14;
-                    var7 = var10[var7];
-                    var10 = var8.bind(var4)(var7);
-                    var8 = var10.getIsEligibleForSocialLayerStorefrontMobilePurchasing;
-                    var7 = {};
-                    var11 = 'create_coded_link_embeds';
-                    var7['location'] = var11;
-                    var7 = var8.bind(var10)(var7);
-                    var5 = null;
-                    if(!var7) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
-                    var8 = _closure1_slot0;
-                    var10 = _closure1_slot1;
-                    var7 = 15;
-                    var7 = var10[var7];
-                    var10 = var8.bind(var4)(var7);
-                    var8 = var10.createSocialLayerStorefrontProductDetailsEmbed;
-                    var7 = _closure2_slot1;
-                    var5 = var8.bind(var10)(var6, var7);
-case 51:
-                    var3 = var5;
+case 46:
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot1;
+                    var9 = 10;
+                    var9 = var11[var9];
+                    var11 = var10.bind(var3)(var9);
+                    var10 = var11.createAppMessageEmbed;
+                    var9 = {};
+                    var13 = _closure2_slot1;
+                    var9['theme'] = var13;
+                    var9['appId'] = var5;
+                    var9['embedUrl'] = var8;
+                    var12 = _closure2_slot0;
+                    var9['message'] = var12;
+                    var6 = var10.bind(var11)(var9);
 case 50:
-                    var1 = var3;
-case 34:
-                    _fun0003_ip = 53; continue _fun0003;
-case 32:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var3 = 12;
-                    var3 = var7[var3];
-                    var5 = var5.bind(var4)(var3);
-                    var3 = var5.canSeeExperimentEmbeds;
-                    var5 = var3.bind(var5)();
-                    var3 = null;
-                    if(!var5) { _fun0003_ip = 54; continue _fun0003 }
-case 55:
-                    var7 = _closure1_slot0;
-                    var8 = _closure1_slot1;
-                    var5 = 13;
-                    var5 = var8[var5];
-                    var8 = var7.bind(var4)(var5);
-                    var7 = var8.createExperimentEmbed;
-                    var5 = _closure2_slot1;
-                    var3 = var7.bind(var8)(var9, var5);
-case 54:
-                    var1 = var3;
+                    var2 = var6;
+case 43:
+                    _fun0003_ip = 51; continue _fun0003;
+case 41:
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot1;
+                    var6 = 17;
+                    var6 = var10[var6];
+                    var10 = var9.bind(var3)(var6);
+                    var9 = var10.createQuestsEmbed;
+                    var6 = {};
+                    var11 = _closure2_slot1;
+                    var6['theme'] = var11;
+                    var6['questId'] = var5;
+                    var2 = var9.bind(var10)(var6);
+case 51:
+                    return var2;
+case 38:
+                    var6 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var2 = 15;
+                    var2 = var9[var2];
+                    var9 = var6.bind(var3)(var2);
+                    var6 = var9.getIsEligibleForSocialLayerStorefrontMobilePurchasing;
+                    var2 = {};
+                    var10 = 'create_coded_link_embeds';
+                    var2['location'] = var10;
+                    var2 = var6.bind(var9)(var2);
+                    if(var2) { _fun0003_ip = 52; continue _fun0003 }
 case 53:
-                    _fun0003_ip = 56; continue _fun0003;
-case 30:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var3 = 11;
-                    var3 = var7[var3];
-                    var7 = var5.bind(var4)(var3);
-                    var5 = var7.createEmbeddedActivityInviteEmbed;
-                    var3 = {};
-                    var8 = _closure2_slot1;
-                    var3['theme'] = var8;
-                    var3['inviteCode'] = var6;
-                    var1 = var5.bind(var7)(var3);
-case 56:
-                    _fun0003_ip = 57; continue _fun0003;
-case 28:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var3 = 10;
-                    var3 = var7[var3];
-                    var7 = var5.bind(var4)(var3);
-                    var5 = var7.createActivityMessageEmbed;
-                    var3 = {};
-                    var10 = _closure2_slot1;
-                    var3['theme'] = var10;
-                    var3['appId'] = var6;
-                    var3['embedUrl'] = var9;
-                    var8 = _closure2_slot0;
-                    var3['message'] = var8;
-                    var1 = var5.bind(var7)(var3);
+                    var2 = null;
+                    return var2;
+case 52:
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.CodedLinkType;
+                    var2 = var2.SOCIAL_LAYER_STOREFRONT_APP;
+                    if(!(var4 !== var2)) { _fun0003_ip = 54; continue _fun0003 }
+case 55:
+                    var4 = var5.split;
+                    var2 = '-';
+                    var6 = var4.bind(var5)(var2);
+                    var4 = _closure1_slot2;
+                    var2 = 2;
+                    var4 = var4.bind(var3)(var6, var2);
+                    var2 = 0;
+                    var7 = var4[var2];
+                    var2 = 1;
+                    var9 = var4[var2];
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 16;
+                    var2 = var6[var2];
+                    var6 = var4.bind(var3)(var2);
+                    var4 = var6.createSocialLayerStorefrontProductDetailsEmbed;
+                    var2 = {};
+                    var2['skuId'] = var7;
+                    var7 = {};
+                    var10 = 'guild';
+                    var7['type'] = var10;
+                    var7['guildId'] = var9;
+                    var2['guildOrApplication'] = var7;
+                    var7 = _closure2_slot1;
+                    var2['theme'] = var7;
+                    var2 = var4.bind(var6)(var2);
+                    return var2;
+case 54:
+                    var4 = var5.split;
+                    var2 = '-';
+                    var6 = var4.bind(var5)(var2);
+                    var4 = _closure1_slot2;
+                    var2 = 2;
+                    var4 = var4.bind(var3)(var6, var2);
+                    var2 = 0;
+                    var7 = var4[var2];
+                    var2 = 1;
+                    var9 = var4[var2];
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 16;
+                    var2 = var6[var2];
+                    var6 = var4.bind(var3)(var2);
+                    var4 = var6.createSocialLayerStorefrontProductDetailsEmbed;
+                    var2 = {};
+                    var2['skuId'] = var7;
+                    var7 = {};
+                    var10 = 'application';
+                    var7['type'] = var10;
+                    var7['applicationId'] = var9;
+                    var2['guildOrApplication'] = var7;
+                    var7 = _closure2_slot1;
+                    var2['theme'] = var7;
+                    var2 = var4.bind(var6)(var2);
+                    return var2;
+case 36:
+                    var2 = null;
+                    return var2;
+case 34:
+                    var2 = null;
+                    return var2;
+case 32:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 13;
+                    var2 = var6[var2];
+                    var4 = var4.bind(var3)(var2);
+                    var2 = var4.canSeeExperimentEmbeds;
+                    var4 = var2.bind(var4)();
+                    var2 = null;
+                    if(!var4) { _fun0003_ip = 56; continue _fun0003 }
 case 57:
-                    _fun0003_ip = 58; continue _fun0003;
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot1;
+                    var4 = 14;
+                    var4 = var7[var4];
+                    var7 = var6.bind(var3)(var4);
+                    var6 = var7.createExperimentEmbed;
+                    var4 = _closure2_slot1;
+                    var2 = var6.bind(var7)(var8, var4);
+case 56:
+                    return var2;
+case 30:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 12;
+                    var2 = var6[var2];
+                    var6 = var4.bind(var3)(var2);
+                    var4 = var6.createEmbeddedActivityInviteEmbed;
+                    var2 = {};
+                    var7 = _closure2_slot1;
+                    var2['theme'] = var7;
+                    var2['inviteCode'] = var5;
+                    var2 = var4.bind(var6)(var2);
+                    return var2;
+case 28:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 11;
+                    var2 = var6[var2];
+                    var6 = var4.bind(var3)(var2);
+                    var4 = var6.createActivityMessageEmbed;
+                    var2 = {};
+                    var9 = _closure2_slot1;
+                    var2['theme'] = var9;
+                    var2['appId'] = var5;
+                    var2['embedUrl'] = var8;
+                    var7 = _closure2_slot0;
+                    var2['message'] = var7;
+                    var2 = var4.bind(var6)(var2);
+                    return var2;
 case 26:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var3 = 9;
-                    var3 = var7[var3];
-                    var7 = var5.bind(var4)(var3);
-                    var5 = var7.createAppMessageEmbed;
-                    var3 = {};
-                    var10 = _closure2_slot1;
-                    var3['theme'] = var10;
-                    var3['appId'] = var6;
-                    var3['embedUrl'] = var9;
-                    var8 = _closure2_slot0;
-                    var3['message'] = var8;
-                    var1 = var5.bind(var7)(var3);
-case 58:
-                    _fun0003_ip = 59; continue _fun0003;
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 10;
+                    var2 = var6[var2];
+                    var6 = var4.bind(var3)(var2);
+                    var4 = var6.createAppMessageEmbed;
+                    var2 = {};
+                    var9 = _closure2_slot1;
+                    var2['theme'] = var9;
+                    var2['appId'] = var5;
+                    var2['embedUrl'] = var8;
+                    var7 = _closure2_slot0;
+                    var2['message'] = var7;
+                    var2 = var4.bind(var6)(var2);
+                    return var2;
 case 24:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var3 = 8;
-                    var3 = var7[var3];
-                    var7 = var5.bind(var4)(var3);
-                    var5 = var7.createVoiceChannelLinkEmbed;
-                    var3 = _closure2_slot1;
-                    var1 = var5.bind(var7)(var6, var3);
-case 59:
-                    _fun0003_ip = 60; continue _fun0003;
-case 22:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var3 = 7;
-                    var3 = var7[var3];
-                    var7 = var5.bind(var4)(var3);
-                    var5 = var7.createGuildScheduledEventLinkEmbed;
-                    var3 = _closure2_slot1;
-                    var1 = var5.bind(var7)(var6, var3);
-case 60:
-                    _fun0003_ip = 61; continue _fun0003;
-case 20:
-                    var3 = _closure1_slot5;
-                    var5 = var3.bind(var4)();
-                    var3 = null;
-                    if(!var5) { _fun0003_ip = 62; continue _fun0003 }
-case 63:
-                    var7 = _closure1_slot0;
-                    var8 = _closure1_slot1;
-                    var5 = 6;
-                    var5 = var8[var5];
-                    var8 = var7.bind(var4)(var5);
-                    var7 = var8.createBuildOverrideEmbed;
-                    var5 = _closure2_slot1;
-                    var3 = var7.bind(var8)(var6, var5);
-case 62:
-                    var1 = var3;
-case 61:
-                    _fun0003_ip = 64; continue _fun0003;
-case 18:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var3 = 6;
-                    var3 = var7[var3];
-                    var7 = var5.bind(var4)(var3);
-                    var5 = var7.createBuildOverrideEmbed;
-                    var3 = _closure2_slot1;
-                    var1 = var5.bind(var7)(var6, var3);
-case 64:
-                    _fun0003_ip = 65; continue _fun0003;
-case 16:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var3 = 5;
-                    var3 = var7[var3];
-                    var7 = var5.bind(var4)(var3);
-                    var5 = var7.createGuildTemplateEmbed;
-                    var3 = _closure2_slot1;
-                    var1 = var5.bind(var7)(var6, var3);
-case 65:
-                    _fun0003_ip = 66; continue _fun0003;
-case 15:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot1;
-                    var2 = 4;
-                    var2 = var5[var2];
-                    var5 = var3.bind(var4)(var2);
-                    var4 = var5.createInviteEmbed;
-                    var3 = _closure2_slot0;
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 9;
+                    var2 = var6[var2];
+                    var6 = var4.bind(var3)(var2);
+                    var4 = var6.createVoiceChannelLinkEmbed;
                     var2 = _closure2_slot1;
-                    var1 = var4.bind(var5)(var3, var6, var2);
-case 66:
+                    var2 = var4.bind(var6)(var5, var2);
+                    return var2;
+case 22:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 8;
+                    var2 = var6[var2];
+                    var6 = var4.bind(var3)(var2);
+                    var4 = var6.createGuildScheduledEventLinkEmbed;
+                    var2 = _closure2_slot1;
+                    var2 = var4.bind(var6)(var5, var2);
+                    return var2;
+case 20:
+                    var2 = _closure1_slot6;
+                    var4 = var2.bind(var3)();
+                    var2 = null;
+                    if(!var4) { _fun0003_ip = 58; continue _fun0003 }
+case 59:
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot1;
+                    var4 = 7;
+                    var4 = var7[var4];
+                    var7 = var6.bind(var3)(var4);
+                    var6 = var7.createBuildOverrideEmbed;
+                    var4 = _closure2_slot1;
+                    var2 = var6.bind(var7)(var5, var4);
+case 58:
+                    return var2;
+case 18:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 7;
+                    var2 = var6[var2];
+                    var6 = var4.bind(var3)(var2);
+                    var4 = var6.createBuildOverrideEmbed;
+                    var2 = _closure2_slot1;
+                    var2 = var4.bind(var6)(var5, var2);
+                    return var2;
+case 16:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 6;
+                    var2 = var6[var2];
+                    var6 = var4.bind(var3)(var2);
+                    var4 = var6.createGuildTemplateEmbed;
+                    var2 = _closure2_slot1;
+                    var2 = var4.bind(var6)(var5, var2);
+                    return var2;
+case 15:
+                    var2 = _closure1_slot0;
+                    var4 = _closure1_slot1;
+                    var1 = 5;
+                    var1 = var4[var1];
+                    var4 = var2.bind(var3)(var1);
+                    var3 = var4.createInviteEmbed;
+                    var2 = _closure2_slot0;
+                    var1 = _closure2_slot1;
+                    var1 = var3.bind(var4)(var2, var5, var1);
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
-            _fun0002_ip = 67; continue _fun0002;
+            _fun0002_ip = 60; continue _fun0002;
 case 12:
             var1 = new Array(0);
-case 67:
+case 60:
             return var1;
         }
     };

@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
-    var12 = var12.PX_24;
+    var12 = var12.PX_16;
     var9['paddingHorizontal'] = var12;
     var12 = 'row';
     var17 = var6[var10];
@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var10];
     var17 = var11.bind(var1)(var17);
     var17 = var17.spacing;
-    var17 = var17.PX_12;
+    var17 = var17.PX_4;
     var9['paddingRight'] = var17;
     var17 = var6[var10];
     var17 = var11.bind(var1)(var17);
@@ -130,12 +130,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var17.PX_4;
     var9['marginBottom'] = var17;
     var4['framesBannerTitle'] = var9;
-    var9 = {'width': 96, 'height': 96, 'resizeMode': 'contain'};
+    var9 = {'width': 125, 'height': 125, 'resizeMode': 'contain'};
+    var18 = {};
     var17 = var6[var10];
     var17 = var11.bind(var1)(var17);
     var17 = var17.spacing;
-    var17 = var17.PX_32;
-    var9['marginTop'] = var17;
+    var17 = var17.PX_16;
+    var18['translateY'] = var17;
+    var17 = new Array(1);
+    var17[0] = var18;
+    var9['transform'] = var17;
     var4['framesBannerForegroundImage'] = var9;
     var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'width': '100%', 'maxHeight': null, 'aspectRatio': 1.4883720930232558};
     var15 = var15 + var16;

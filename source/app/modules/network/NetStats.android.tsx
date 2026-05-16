@@ -169,7 +169,7 @@ case 0:
                 var3 = this;
                 var _closure3_slot0 = var3;
                 var6 = _closure1_slot4;
-                var5 = _closure2_slot2;
+                var5 = _closure2_slot3;
                 var1 = undefined;
                 var5 = var6.bind(var1)(var3, var5);
                 var7 = _closure1_slot16;
@@ -321,7 +321,7 @@ case 19:
                 return var1;
             }
         };
-        var _closure2_slot2 = var3;
+        var _closure2_slot3 = var3;
         var5 = {};
         var2 = 'handleAppStateChange';
         var5['key'] = var2;
@@ -461,10 +461,10 @@ case 25:
             return var1;
         };
         var7 = var8.bind(var1)(var7);
-        var _closure2_slot1 = var7;
+        var _closure2_slot2 = var7;
         var7 = function writeExistingEventStorage() {
             var1 = undefined;
-            var4 = _closure2_slot1;
+            var4 = _closure2_slot2;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -571,10 +571,10 @@ case 38:
             return var1;
         };
         var7 = var8.bind(var1)(var7);
-        var _closure2_slot0 = var7;
+        var _closure2_slot1 = var7;
         var7 = function track() {
             var1 = undefined;
-            var4 = _closure2_slot0;
+            var4 = _closure2_slot1;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -587,279 +587,312 @@ case 38:
         var5 = {};
         var7 = 'getQueuedEvent';
         var5['key'] = var7;
-        var6 = function value() {
-            var3 = _closure1_slot22;
-            var4 = undefined;
-            var3 = var3.bind(var4)();
-            var3 = _closure1_slot6;
-            var3 = var3.TTIManager;
-            var3 = var3.AppOpenedTimestamp;
-            var _closure3_slot0 = var3;
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 15;
-            var2 = var5[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.getSession;
-            var3 = var2.bind(var3)();
-            var2 = var3.then;
-            var1 = function(arg1) {
+        var7 = function* () {
+            var1 = function* anon_0_() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                    var3 = arg1;
-                    var1 = {};
-                    var2 = _closure1_slot10;
-                    var2 = var2.APP_NETWORK_USAGE;
-                    var1['type'] = var2;
-                    var2 = {};
-                    var8 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var5 = 16;
-                    var7 = var6[var5];
-                    var6 = undefined;
-                    var8 = var8.bind(var6)(var7);
-                    var7 = var8.getDeviceMetadata;
-                    var11 = var7.bind(var8)();
-                    var12 = var2;
-                    var7 = copyDataProperties(var12, var11);
-                    var7 = global;
-                    var8 = var7.Date;
-                    var7 = var8.now;
-                    var8 = var7.bind(var8)();
-                    var7 = 'client_track_timestamp';
-                    var2[6] = var8;
-                    var8 = null;
-                    var9 = var8 == var3;
-                    var7 = undefined;
-                    if(var9) { _fun0011_ip = 47; continue _fun0011 }
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0011_ip = 47; continue _fun0011 }
 case 48:
-                    var7 = var3.uuid;
-case 47:
-                    var3 = 'client_heartbeat_session_id';
-                    var2[2] = var7;
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var5 = var3[var5];
-                    var7 = var7.bind(var6)(var5);
-                    var5 = var7.currentLoadId;
-                    var7 = var5.bind(var7)();
-                    var5 = 'load_id';
-                    var2[4] = var7;
-                    var7 = _closure1_slot9;
-                    var5 = var7.getGuildCount;
-                    var7 = var5.bind(var7)();
-                    var5 = 'num_guilds';
-                    var2[4] = var7;
-                    var5 = _closure1_slot1;
-                    var7 = 17;
-                    var9 = var3[var7];
-                    var9 = var5.bind(var6)(var9);
-                    var10 = var9.wasAuthenticated;
-                    var9 = 'was_authenticated';
-                    var2[8] = var10;
-                    var9 = var3[var7];
-                    var9 = var5.bind(var6)(var9);
-                    var10 = var9.didBackgroundApp;
-                    var9 = 'did_background_app';
-                    var2[8] = var10;
-                    var9 = var3[var7];
-                    var9 = var5.bind(var6)(var9);
-                    var9 = var9.extraProperties;
-                    var10 = var9.headless_task_ran;
-                    var9 = 'headless_task_ran';
-                    var2[8] = var10;
-                    var3 = var3[var7];
-                    var3 = var5.bind(var6)(var3);
-                    var10 = var3.ready;
-                    var9 = var10.serializeEnd;
-                    var5 = _closure3_slot0;
-                    var9 = var9.bind(var10)(var5);
-                    var5 = 'ready_payload_duration_ms';
-                    var2[4] = var9;
-                    var9 = _closure1_slot13;
-                    var10 = var8 == var9;
-                    var5 = undefined;
-                    if(var10) { _fun0011_ip = 49; continue _fun0011 }
-case 50:
-                    var5 = var9.signalStrengthLevel;
-case 49:
-                    var10 = var8 != var5;
-                    var9 = undefined;
-                    if(!var10) { _fun0011_ip = 51; continue _fun0011 }
-case 52:
-                    var9 = var5;
-case 51:
-                    var5 = 'initial_signal_strength_level';
-                    var2[4] = var9;
-                    var5 = _closure1_slot12;
-                    var5 = var5.signalStrengthLevel;
-                    var10 = var8 != var5;
-                    var9 = undefined;
-                    if(!var10) { _fun0011_ip = 53; continue _fun0011 }
-case 54:
-                    var9 = var5;
-case 53:
-                    var5 = 'final_signal_strength_level';
-                    var2[4] = var9;
-                    var9 = _closure1_slot15;
-                    var10 = var8 == var9;
-                    var5 = undefined;
-                    if(var10) { _fun0011_ip = 55; continue _fun0011 }
-case 56:
-                    var5 = var9.type;
-case 55:
-                    var10 = var8 != var5;
-                    var9 = undefined;
-                    if(!var10) { _fun0011_ip = 57; continue _fun0011 }
-case 58:
-                    var9 = var5;
-case 57:
-                    var5 = 'initial_network_type';
-                    var2[4] = var9;
-                    var5 = _closure1_slot14;
-                    var9 = var5.type;
-                    var5 = 'final_network_type';
-                    var2[4] = var9;
-                    var9 = _closure1_slot15;
-                    var10 = var8 == var9;
-                    var5 = undefined;
-                    if(var10) { _fun0011_ip = 59; continue _fun0011 }
-case 60:
-                    var5 = var9.effectiveSpeed;
-case 59:
-                    var9 = var8 != var5;
+                    var2 = _closure1_slot22;
                     var8 = undefined;
-                    if(!var9) { _fun0011_ip = 61; continue _fun0011 }
-case 62:
-                    var8 = var5;
-case 61:
-                    var5 = 'initial_cellular_generation';
-                    var2[4] = var8;
-                    var5 = _closure1_slot14;
-                    var8 = var5.effectiveSpeed;
-                    var5 = 'final_cellular_generation';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.isNetworkRoaming;
-                    var5 = 'is_network_roaming';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.cellularReceiveBytes;
-                    var5 = 'cellular_receive_bytes';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.cellularSendBytes;
-                    var5 = 'cellular_send_bytes';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.totalReceiveBytes;
-                    var5 = 'total_receive_bytes';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.totalSendBytes;
-                    var5 = 'total_send_bytes';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.uidReceiveBytes;
-                    var5 = 'uid_receive_bytes';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.uidSendBytes;
-                    var5 = 'uid_send_bytes';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.socketBytesReceived;
-                    var5 = 'socket_bytes_received';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.otaBytesReceived;
-                    var5 = 'ota_bytes_received';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.otaNumRequests;
-                    var5 = 'ota_num_requests';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.xhrBytesReceived;
-                    var5 = 'xhr_bytes_received';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.xhrNumRequests;
-                    var5 = 'xhr_num_requests';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.frescoBytesReceived;
-                    var5 = 'fresco_bytes_received';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.frescoNumRequests;
-                    var5 = 'fresco_num_requests';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.downloadBytesReceived;
-                    var5 = 'download_bytes_received';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.downloadNumRequests;
-                    var5 = 'download_num_requests';
-                    var2[4] = var8;
-                    var5 = _closure1_slot12;
-                    var8 = var5.mediaPlayerBytesReceived;
-                    var5 = 'media_player_bytes_received';
-                    var2[4] = var8;
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var5 = 11;
-                    var5 = var9[var5];
-                    var8 = var8.bind(var6)(var5);
-                    var5 = var8.getRTCTotalBytes;
-                    var8 = var5.bind(var8)();
-                    var5 = 'rtc_bytes';
-                    var2[4] = var8;
-                    var8 = _closure1_slot17;
-                    var5 = 'num_message_sends';
-                    var2[4] = var8;
-                    var5 = _closure1_slot17;
-                    var9 = 0;
-                    var8 = undefined;
-                    if(!(var9 !== var5)) { _fun0011_ip = 63; continue _fun0011 }
-case 64:
-                    var8 = _closure1_slot18;
-case 63:
-                    var5 = 'max_message_send_duration';
-                    var2[4] = var8;
-                    var5 = _closure1_slot17;
-                    var8 = undefined;
-                    if(!(var9 !== var5)) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
-                    var8 = _closure1_slot19;
-case 65:
-                    var5 = 'max_message_queue_length';
-                    var2[4] = var8;
-                    var8 = _closure1_slot20;
-                    var5 = 'num_message_send_fails';
-                    var2[4] = var8;
-                    var8 = _closure1_slot7;
-                    var5 = var8.getSocket;
-                    var5 = var5.bind(var8)();
-                    var8 = var5.identifyCount;
-                    var5 = 'num_identifies';
-                    var2[4] = var8;
-                    var5 = _closure1_slot1;
+                    var2 = var2.bind(var8)();
+                    var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var4 = var4[var7];
-                    var4 = var5.bind(var6)(var4);
-                    var5 = var4.renderLatestMessages;
-                    var4 = var5.serialize;
-                    var3 = _closure3_slot0;
-                    var4 = var4.bind(var5)(var3);
-                    var3 = 'render_latest_messages_duration_ms';
-                    var2[2] = var4;
-                    var1['properties'] = var2;
+                    var2 = 15;
+                    var2 = var4[var2];
+                    var3 = var3.bind(var8)(var2);
+                    var2 = var3.getAppFirstVisibleTimestamp;
+                    var2 = var2.bind(var3)();
+                    SaveGenerator(address=57);
+case 49:
+                    return var2;
+case 50:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0011_ip = 51; continue _fun0011 }
+case 52:
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var3 = 16;
+                    var3 = var5[var3];
+                    var4 = var4.bind(var8)(var3);
+                    var3 = var4.getSession;
+                    var3 = var3.bind(var4)();
+                    SaveGenerator(address=100);
+case 6:
+                    return var3;
+case 53:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0011_ip = 54; continue _fun0011 }
+case 55:
+                    var4 = {};
+                    var5 = _closure1_slot10;
+                    var5 = var5.APP_NETWORK_USAGE;
+                    var4['type'] = var5;
+                    var5 = {};
+                    var10 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var9 = 17;
+                    var7 = var7[var9];
+                    var10 = var10.bind(var8)(var7);
+                    var7 = var10.getDeviceMetadata;
+                    var14 = var7.bind(var10)();
+                    var15 = var5;
+                    var7 = copyDataProperties(var15, var14);
+                    var7 = global;
+                    var10 = var7.Date;
+                    var7 = var10.now;
+                    var10 = var7.bind(var10)();
+                    var7 = 'client_track_timestamp';
+                    var5[6] = var10;
+                    var10 = null;
+                    var7 = var10 == var3;
+                    var11 = undefined;
+                    if(var7) { _fun0011_ip = 56; continue _fun0011 }
+case 57:
+                    var11 = var3.uuid;
+case 56:
+                    var7 = 'client_heartbeat_session_id';
+                    var5[6] = var11;
+                    var11 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var9 = var7[var9];
+                    var11 = var11.bind(var8)(var9);
+                    var9 = var11.currentLoadId;
+                    var11 = var9.bind(var11)();
+                    var9 = 'load_id';
+                    var5[8] = var11;
+                    var11 = _closure1_slot9;
+                    var9 = var11.getGuildCount;
+                    var11 = var9.bind(var11)();
+                    var9 = 'num_guilds';
+                    var5[8] = var11;
+                    var11 = _closure1_slot1;
+                    var9 = 18;
+                    var12 = var7[var9];
+                    var12 = var11.bind(var8)(var12);
+                    var13 = var12.wasAuthenticated;
+                    var12 = 'was_authenticated';
+                    var5[11] = var13;
+                    var12 = var7[var9];
+                    var12 = var11.bind(var8)(var12);
+                    var13 = var12.didBackgroundApp;
+                    var12 = 'did_background_app';
+                    var5[11] = var13;
+                    var12 = var7[var9];
+                    var12 = var11.bind(var8)(var12);
+                    var12 = var12.extraProperties;
+                    var13 = var12.headless_task_ran;
+                    var12 = 'headless_task_ran';
+                    var5[11] = var13;
+                    var7 = var7[var9];
+                    var7 = var11.bind(var8)(var7);
+                    var11 = var7.ready;
+                    var7 = var11.serializeEnd;
+                    var11 = var7.bind(var11)(var2);
+                    var7 = 'ready_payload_duration_ms';
+                    var5[6] = var11;
+                    var11 = _closure1_slot13;
+                    var12 = var10 == var11;
+                    var7 = undefined;
+                    if(var12) { _fun0011_ip = 58; continue _fun0011 }
+case 59:
+                    var7 = var11.signalStrengthLevel;
+case 58:
+                    var12 = var10 != var7;
+                    var11 = undefined;
+                    if(!var12) { _fun0011_ip = 60; continue _fun0011 }
+case 61:
+                    var11 = var7;
+case 60:
+                    var7 = 'initial_signal_strength_level';
+                    var5[6] = var11;
+                    var7 = _closure1_slot12;
+                    var7 = var7.signalStrengthLevel;
+                    var12 = var10 != var7;
+                    var11 = undefined;
+                    if(!var12) { _fun0011_ip = 62; continue _fun0011 }
+case 63:
+                    var11 = var7;
+case 62:
+                    var7 = 'final_signal_strength_level';
+                    var5[6] = var11;
+                    var11 = _closure1_slot15;
+                    var12 = var10 == var11;
+                    var7 = undefined;
+                    if(var12) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
+                    var7 = var11.type;
+case 64:
+                    var12 = var10 != var7;
+                    var11 = undefined;
+                    if(!var12) { _fun0011_ip = 66; continue _fun0011 }
+case 67:
+                    var11 = var7;
+case 66:
+                    var7 = 'initial_network_type';
+                    var5[6] = var11;
+                    var7 = _closure1_slot14;
+                    var11 = var7.type;
+                    var7 = 'final_network_type';
+                    var5[6] = var11;
+                    var11 = _closure1_slot15;
+                    var12 = var10 == var11;
+                    var7 = undefined;
+                    if(var12) { _fun0011_ip = 68; continue _fun0011 }
+case 69:
+                    var7 = var11.effectiveSpeed;
+case 68:
+                    var11 = var10 != var7;
+                    var10 = undefined;
+                    if(!var11) { _fun0011_ip = 70; continue _fun0011 }
+case 71:
+                    var10 = var7;
+case 70:
+                    var7 = 'initial_cellular_generation';
+                    var5[6] = var10;
+                    var7 = _closure1_slot14;
+                    var10 = var7.effectiveSpeed;
+                    var7 = 'final_cellular_generation';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.isNetworkRoaming;
+                    var7 = 'is_network_roaming';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.cellularReceiveBytes;
+                    var7 = 'cellular_receive_bytes';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.cellularSendBytes;
+                    var7 = 'cellular_send_bytes';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.totalReceiveBytes;
+                    var7 = 'total_receive_bytes';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.totalSendBytes;
+                    var7 = 'total_send_bytes';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.uidReceiveBytes;
+                    var7 = 'uid_receive_bytes';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.uidSendBytes;
+                    var7 = 'uid_send_bytes';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.socketBytesReceived;
+                    var7 = 'socket_bytes_received';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.otaBytesReceived;
+                    var7 = 'ota_bytes_received';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.otaNumRequests;
+                    var7 = 'ota_num_requests';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.xhrBytesReceived;
+                    var7 = 'xhr_bytes_received';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.xhrNumRequests;
+                    var7 = 'xhr_num_requests';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.frescoBytesReceived;
+                    var7 = 'fresco_bytes_received';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.frescoNumRequests;
+                    var7 = 'fresco_num_requests';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.downloadBytesReceived;
+                    var7 = 'download_bytes_received';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.downloadNumRequests;
+                    var7 = 'download_num_requests';
+                    var5[6] = var10;
+                    var7 = _closure1_slot12;
+                    var10 = var7.mediaPlayerBytesReceived;
+                    var7 = 'media_player_bytes_received';
+                    var5[6] = var10;
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var7 = 11;
+                    var7 = var11[var7];
+                    var10 = var10.bind(var8)(var7);
+                    var7 = var10.getRTCTotalBytes;
+                    var10 = var7.bind(var10)();
+                    var7 = 'rtc_bytes';
+                    var5[6] = var10;
+                    var10 = _closure1_slot17;
+                    var7 = 'num_message_sends';
+                    var5[6] = var10;
+                    var7 = _closure1_slot17;
+                    var11 = 0;
+                    var10 = undefined;
+                    if(!(var11 !== var7)) { _fun0011_ip = 72; continue _fun0011 }
+case 73:
+                    var10 = _closure1_slot18;
+case 72:
+                    var7 = 'max_message_send_duration';
+                    var5[6] = var10;
+                    var7 = _closure1_slot17;
+                    var10 = undefined;
+                    if(!(var11 !== var7)) { _fun0011_ip = 74; continue _fun0011 }
+case 75:
+                    var10 = _closure1_slot19;
+case 74:
+                    var7 = 'max_message_queue_length';
+                    var5[6] = var10;
+                    var10 = _closure1_slot20;
+                    var7 = 'num_message_send_fails';
+                    var5[6] = var10;
+                    var10 = _closure1_slot7;
+                    var7 = var10.getSocket;
+                    var7 = var7.bind(var10)();
+                    var10 = var7.identifyCount;
+                    var7 = 'num_identifies';
+                    var5[6] = var10;
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var9];
+                    var6 = var7.bind(var8)(var6);
+                    var7 = var6.renderLatestMessages;
+                    var6 = var7.serialize;
+                    var7 = var6.bind(var7)(var2);
+                    var6 = 'render_latest_messages_duration_ms';
+                    var5[5] = var7;
+                    var4['properties'] = var5;
+                    return var4;
+case 54:
+                    return var3;
+case 51:
+                    return var2;
+case 47:
                     return var1;
                 }
             };
-            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var7 = var8.bind(var1)(var7);
+        var _closure2_slot0 = var7;
+        var6 = function getQueuedEvent() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
         var5['value'] = var6;
@@ -904,11 +937,11 @@ case 0:
             var6 = var4 == var5;
             var1 = undefined;
             var3 = undefined;
-            if(var6) { _fun0012_ip = 67; continue _fun0012 }
+            if(var6) { _fun0012_ip = 76; continue _fun0012 }
 case 28:
             var3 = var5.sendAnalytics;
-case 67:
-            if(!(var4 != var3)) { _fun0012_ip = 68; continue _fun0012 }
+case 76:
+            if(!(var4 != var3)) { _fun0012_ip = 77; continue _fun0012 }
 case 29:
             var4 = _closure1_slot17;
             var4 = var4 + 1;
@@ -930,7 +963,7 @@ case 29:
             var2 = var2.queueSize;
             var2 = var5.bind(var6)(var4, var2);
             _closure1_slot19 = var2;
-case 68:
+case 77:
             return var1;
         }
     };
@@ -947,7 +980,7 @@ case 68:
         return var1;
     };
     var4 = var8.bind(var9)(var7, var4);
-    var4 = 18;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -967,33 +1000,33 @@ case 0:
             var1 = var1.NetInfoStateType;
             var1 = var1.cellular;
             var1 = var2 === var1;
-            if(!var1) { _fun0013_ip = 69; continue _fun0013 }
+            if(!var1) { _fun0013_ip = 78; continue _fun0013 }
 case 4:
             var2 = _closure1_slot12;
             var4 = var2.signalStrengthLevel;
             var2 = null;
             var2 = var2 != var4;
-            if(!var2) { _fun0013_ip = 70; continue _fun0013 }
-case 71:
+            if(!var2) { _fun0013_ip = 79; continue _fun0013 }
+case 80:
             var4 = _closure1_slot12;
             var5 = var4.signalStrengthLevel;
             var4 = 2;
             var2 = var5 <= var4;
-case 70:
-            if(var2) { _fun0013_ip = 72; continue _fun0013 }
-case 73:
+case 79:
+            if(var2) { _fun0013_ip = 81; continue _fun0013 }
+case 82:
             var4 = _closure1_slot14;
             var5 = var4.effectiveSpeed;
             var4 = '2g';
             var2 = var4 === var5;
-case 72:
-            if(var2) { _fun0013_ip = 74; continue _fun0013 }
+case 81:
+            if(var2) { _fun0013_ip = 83; continue _fun0013 }
 case 9:
             var3 = _closure1_slot12;
             var2 = var3.isNetworkRoaming;
-case 74:
+case 83:
             var1 = var2;
-case 69:
+case 78:
             return var1;
         }
     };

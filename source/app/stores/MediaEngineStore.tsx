@@ -5945,7 +5945,7 @@ case 395:
     var13 = new var32[var15](var31, var30);
     var13 = var13 instanceof Object ? var13 : var14;
     var _closure1_slot137 = var13;
-    var13 = 83;
+    var13 = 84;
     var13 = var9[var13];
     var13 = var11.bind(var1)(var13);
     var14 = var13.Store;
@@ -8860,8 +8860,8 @@ case 23:
 case 0:
                 var5 = arguments[0];
                 var3 = this;
-                var1 = undefined;
-                if(!(var5 === var1)) { _fun0113_ip = 308; continue _fun0113 }
+                var6 = undefined;
+                if(!(var5 === var6)) { _fun0113_ip = 308; continue _fun0113 }
 case 104:
                 var1 = _closure1_slot50;
                 var5 = var1.DEFAULT;
@@ -8875,9 +8875,9 @@ case 188:
                 var1 = new Array(0);
                 _fun0113_ip = 295; continue _fun0113;
 case 57:
-                var6 = {};
+                var7 = {};
                 var2 = '100';
-                var6['rid'] = var2;
+                var7['rid'] = var2;
                 var2 = _closure1_slot50;
                 var2 = var2.DEFAULT;
                 if(!(var5 !== var2)) { _fun0113_ip = 356; continue _fun0113 }
@@ -8886,14 +8886,14 @@ case 298:
                 var2 = var2.SCREEN;
                 _fun0113_ip = 350; continue _fun0113;
 case 356:
-                var7 = _closure1_slot52;
-                var2 = var7.VIDEO;
+                var8 = _closure1_slot52;
+                var2 = var8.VIDEO;
 case 350:
-                var6['type'] = var2;
+                var7['type'] = var2;
                 var2 = _closure1_slot56;
-                var6['quality'] = var2;
+                var7['quality'] = var2;
                 var2 = new Array(1);
-                var2[0] = var6;
+                var2[0] = var7;
                 var1 = var2;
 case 295:
                 var2 = var3.isSimulcastSupported;
@@ -8904,8 +8904,23 @@ case 48:
                 var3 = var3.DEFAULT;
                 var2 = var5 === var3;
 case 110:
-                if(!var2) { _fun0113_ip = 192; continue _fun0113 }
+                if(!var2) { _fun0113_ip = 184; continue _fun0113 }
 case 18:
+                var5 = _closure1_slot0;
+                var7 = _closure1_slot3;
+                var3 = 83;
+                var3 = var7[var3];
+                var3 = var5.bind(var6)(var3);
+                var6 = var3.DisableCameraSimulcastExperiment;
+                var5 = var6.getConfig;
+                var3 = {};
+                var7 = 'MediaEngineStore.getVideoStreamParameters';
+                var3['location'] = var7;
+                var3 = var5.bind(var6)(var3);
+                var2 = var3.enableSimulcast;
+case 184:
+                if(!var2) { _fun0113_ip = 442; continue _fun0113 }
+case 73:
                 var3 = var1.push;
                 var2 = {};
                 var5 = '50';
@@ -8916,7 +8931,7 @@ case 18:
                 var4 = _closure1_slot57;
                 var2['quality'] = var4;
                 var2 = var3.bind(var1)(var2);
-case 192:
+case 442:
                 return var1;
             }
         };
@@ -9056,10 +9071,10 @@ case 188:
 case 32:
             var1 = false;
             _closure1_slot106 = var1;
-            _fun0115_ip = 426; continue _fun0115;
+            _fun0115_ip = 425; continue _fun0115;
 case 34:
             var2 = _closure1_slot106;
-            if(var2) { _fun0115_ip = 426; continue _fun0115 }
+            if(var2) { _fun0115_ip = 425; continue _fun0115 }
 case 61:
             var2 = true;
             _closure1_slot106 = var2;
@@ -9071,7 +9086,7 @@ case 61:
 case 95:
             var2 = var3.deaf;
 case 174:
-            if(!var2) { _fun0115_ip = 426; continue _fun0115 }
+            if(!var2) { _fun0115_ip = 425; continue _fun0115 }
 case 109:
             var3 = _closure1_slot162;
             var2 = {'deaf': false, 'mute': false};
@@ -9080,7 +9095,7 @@ case 109:
             var2 = var3.eachConnection;
             var1 = _closure1_slot149;
             var1 = var2.bind(var3)(var1);
-case 426:
+case 425:
             var1 = undefined;
             return var1;
         }
@@ -9124,7 +9139,7 @@ case 298:
 case 354:
                 var3 = var1.mute;
                 if(var3) { _fun0116_ip = 98; continue _fun0116 }
-case 442:
+case 443:
                 var3 = var1.suppress;
 case 98:
                 _closure1_slot89 = var3;
@@ -9147,23 +9162,23 @@ case 281:
                 var3 = _closure1_slot114;
                 var6 = var5 != var3;
 case 47:
-                if(!var6) { _fun0116_ip = 443; continue _fun0116 }
+                if(!var6) { _fun0116_ip = 444; continue _fun0116 }
 case 50:
                 var4 = _closure1_slot114;
                 var3 = var1.channelId;
                 var6 = var4 !== var3;
-case 443:
+case 444:
                 var4 = _closure1_slot106;
                 var3 = !var4;
-                if(var4) { _fun0116_ip = 444; continue _fun0116 }
-case 445:
+                if(var4) { _fun0116_ip = 445; continue _fun0116 }
+case 446:
                 var4 = var1.channelId;
                 var3 = var5 == var4;
-case 444:
+case 445:
                 var5 = _closure1_slot150;
                 var4 = !var6;
                 if(var6) { _fun0116_ip = 385; continue _fun0116 }
-case 446:
+case 447:
                 var4 = !var3;
 case 385:
                 if(!var4) { _fun0116_ip = 83; continue _fun0116 }
@@ -9234,7 +9249,7 @@ case 421:
             var5 = var5.bind(var1)(var4);
             var4 = var5.isIOS;
             var4 = var4.bind(var5)();
-            if(!var4) { _fun0117_ip = 447; continue _fun0117 }
+            if(!var4) { _fun0117_ip = 448; continue _fun0117 }
 case 321:
             var6 = _closure1_slot0;
             var7 = _closure1_slot3;
@@ -9245,15 +9260,15 @@ case 321:
             var5 = 'handleConnectionOpen';
             var5 = var6.bind(var7)(var5);
             var4 = var5.enabled;
+case 448:
+            if(!var4) { _fun0117_ip = 449; continue _fun0117 }
 case 447:
-            if(!var4) { _fun0117_ip = 448; continue _fun0117 }
-case 446:
             var7 = _closure1_slot72;
             var6 = var7.updateFieldTrial;
             var5 = 'WebRTC-Audio-iOS-Holding';
             var4 = 'Enabled';
             var4 = var6.bind(var7)(var5, var4);
-case 448:
+case 449:
             var4 = _closure1_slot168;
             var3 = var3.inputDeviceId;
             var3 = var4.bind(var1)(var3);
@@ -9307,7 +9322,7 @@ case 38:
 case 423:
             var2 = _closure1_slot26;
             var2 = var2.RTC_CONNECTED;
-            if(!(var2 !== var3)) { _fun0119_ip = 442; continue _fun0119 }
+            if(!(var2 !== var3)) { _fun0119_ip = 443; continue _fun0119 }
 case 32:
             var2 = _closure1_slot26;
             var2 = var2.DISCONNECTED;
@@ -9382,7 +9397,7 @@ case 17:
             var2 = _closure1_slot176;
             var2 = var2.bind(var3)();
             _fun0119_ip = 360; continue _fun0119;
-case 442:
+case 443:
             var3 = _closure1_slot150;
             var2 = undefined;
             var2 = var3.bind(var2)();
@@ -9619,7 +9634,7 @@ case 362:
             var15 = null;
             var9 = var15 != var10;
             if(!var9) { _fun0125_ip = 68; continue _fun0125 }
-case 449:
+case 450:
             var9 = var10;
 case 68:
             var11 = _closure1_slot122;
@@ -9628,12 +9643,12 @@ case 68:
             var11 = _closure1_slot28;
             var11 = var11.AUTO_ENABLED;
             var11 = var17 === var11;
-            if(var11) { _fun0125_ip = 450; continue _fun0125 }
+            if(var11) { _fun0125_ip = 451; continue _fun0125 }
 case 400:
             var12 = _closure1_slot28;
             var12 = var12.MANUAL_ENABLED;
             var11 = var17 === var12;
-case 450:
+case 451:
             var19 = _closure1_slot58;
             var16 = var19.info;
             var14 = global;
@@ -9655,10 +9670,10 @@ case 450:
             var18 = var16.bind(var1)(var12);
             var12 = var11;
             var11 = var10;
-            if(!var11) { _fun0125_ip = 451; continue _fun0125 }
+            if(!var11) { _fun0125_ip = 452; continue _fun0125 }
 case 195:
             var11 = !var9;
-case 451:
+case 452:
             var16 = !var11;
             var11 = 'If you are auto-disabled, then you are also disabled.';
             var11 = var18.bind(var1)(var16, var11);
@@ -9666,17 +9681,17 @@ case 451:
             var9 = _closure1_slot50;
             var9 = var9.DEFAULT;
             var9 = var5 === var9;
-            if(!var13) { _fun0125_ip = 452; continue _fun0125 }
+            if(!var13) { _fun0125_ip = 453; continue _fun0125 }
 case 198:
             var13 = var24;
-case 452:
+case 453:
             if(!var13) { _fun0125_ip = 31; continue _fun0125 }
 case 12:
             var13 = var9;
 case 31:
             var11 = var7;
             if(!var11) { _fun0125_ip = 315; continue _fun0125 }
-case 453:
+case 454:
             var11 = var24;
 case 315:
             if(!var11) { _fun0125_ip = 197; continue _fun0125 }
@@ -9705,28 +9720,28 @@ case 197:
             var16 = var16.AUTO_PROBING;
             var16 = var18 === var16;
             if(!var16) { _fun0125_ip = 129; continue _fun0125 }
-case 454:
+case 455:
             var18 = _closure1_slot28;
             var18 = var18.AUTO_ENABLED;
             var16 = var17 === var18;
 case 129:
-            if(!var16) { _fun0125_ip = 455; continue _fun0125 }
-case 456:
+            if(!var16) { _fun0125_ip = 456; continue _fun0125 }
+case 457:
             var18 = _closure1_slot1;
             var20 = _closure1_slot3;
             var16 = 74;
             var16 = var20[var16];
             var18 = var18.bind(var1)(var16);
             var20 = _closure1_slot54;
-            if(var4) { _fun0125_ip = 457; continue _fun0125 }
-case 458:
-            var16 = var20.AUTO_ENABLE;
-            _fun0125_ip = 459; continue _fun0125;
-case 457:
-            var16 = var20.AUTO_DISABLE;
+            if(var4) { _fun0125_ip = 458; continue _fun0125 }
 case 459:
+            var16 = var20.AUTO_ENABLE;
+            _fun0125_ip = 460; continue _fun0125;
+case 458:
+            var16 = var20.AUTO_DISABLE;
+case 460:
             var16 = var18.bind(var1)(var6, var16, var12);
-case 455:
+case 456:
             var19[var6] = var17;
             var18 = _closure1_slot162;
             var16 = {};
@@ -9734,30 +9749,30 @@ case 455:
             var16 = var18.bind(var1)(var16, var5, var7);
             var16 = _closure1_slot28;
             var16 = var16.AUTO_PROBING;
-            if(!(var17 !== var16)) { _fun0125_ip = 460; continue _fun0125 }
+            if(!(var17 !== var16)) { _fun0125_ip = 461; continue _fun0125 }
+case 462:
+            var17 = _closure1_slot20;
+            var16 = var17.getRTCConnection;
+            var18 = var16.bind(var17)();
+            if(!(var15 != var18)) { _fun0125_ip = 463; continue _fun0125 }
+case 464:
+            var17 = var18.pauseStatsCollectionForUser;
+            var16 = false;
+            var16 = var17.bind(var18)(var6, var16);
+            _fun0125_ip = 463; continue _fun0125;
 case 461:
             var17 = _closure1_slot20;
             var16 = var17.getRTCConnection;
             var18 = var16.bind(var17)();
-            if(!(var15 != var18)) { _fun0125_ip = 462; continue _fun0125 }
-case 463:
-            var17 = var18.pauseStatsCollectionForUser;
-            var16 = false;
-            var16 = var17.bind(var18)(var6, var16);
-            _fun0125_ip = 462; continue _fun0125;
-case 460:
-            var17 = _closure1_slot20;
-            var16 = var17.getRTCConnection;
-            var18 = var16.bind(var17)();
-            if(!(var15 != var18)) { _fun0125_ip = 462; continue _fun0125 }
-case 464:
+            if(!(var15 != var18)) { _fun0125_ip = 463; continue _fun0125 }
+case 465:
             var17 = var18.pauseStatsCollectionForUser;
             var16 = true;
             var16 = var17.bind(var18)(var6, var16);
-case 462:
+case 463:
             var16 = _closure1_slot123;
-            if(var16) { _fun0125_ip = 465; continue _fun0125 }
-case 466:
+            if(var16) { _fun0125_ip = 466; continue _fun0125 }
+case 467:
             var17 = _closure1_slot58;
             var16 = var17.info;
             var20 = _closure1_slot123;
@@ -9772,26 +9787,26 @@ case 466:
             var18 = var14.bind(var16)();
             var14 = var15 == var18;
             var16 = var18;
-            if(var14) { _fun0125_ip = 467; continue _fun0125 }
-case 468:
+            if(var14) { _fun0125_ip = 468; continue _fun0125 }
+case 469:
             var17 = var18.getVideoHealthManager;
             var17 = var17.bind(var18)();
             var14 = var15 == var17;
             var16 = var17;
-case 467:
-            if(var14) { _fun0125_ip = 465; continue _fun0125 }
-case 469:
+case 468:
+            if(var14) { _fun0125_ip = 466; continue _fun0125 }
+case 470:
             var14 = var16.disable;
             var14 = var14.bind(var16)();
-case 465:
-            if(var13) { _fun0125_ip = 470; continue _fun0125 }
-case 471:
-            if(!var11) { _fun0125_ip = 472; continue _fun0125 }
-case 473:
-            if(!var10) { _fun0125_ip = 474; continue _fun0125 }
-case 475:
-            if(var4) { _fun0125_ip = 474; continue _fun0125 }
+case 466:
+            if(var13) { _fun0125_ip = 471; continue _fun0125 }
+case 472:
+            if(!var11) { _fun0125_ip = 473; continue _fun0125 }
+case 474:
+            if(!var10) { _fun0125_ip = 475; continue _fun0125 }
 case 476:
+            if(var4) { _fun0125_ip = 475; continue _fun0125 }
+case 477:
             var14 = _closure1_slot58;
             var13 = var14.info;
             var11 = 'disallowing auto-disable for this session because of manual override by user';
@@ -9803,18 +9818,18 @@ case 476:
             var16 = var11.bind(var13)();
             var11 = var15 == var16;
             var13 = var16;
-            if(var11) { _fun0125_ip = 477; continue _fun0125 }
+            if(var11) { _fun0125_ip = 478; continue _fun0125 }
 case 147:
             var14 = var16.getVideoHealthManager;
             var14 = var14.bind(var16)();
             var11 = var15 == var14;
             var13 = var14;
-case 477:
-            if(var11) { _fun0125_ip = 478; continue _fun0125 }
-case 479:
+case 478:
+            if(var11) { _fun0125_ip = 479; continue _fun0125 }
+case 480:
             var11 = var13.disable;
             var11 = var11.bind(var13)();
-case 478:
+case 479:
             var13 = _closure1_slot1;
             var14 = _closure1_slot3;
             var11 = 74;
@@ -9823,73 +9838,73 @@ case 478:
             var11 = _closure1_slot54;
             var11 = var11.MANUAL_REENABLE;
             var11 = var13.bind(var1)(var6, var11, var12);
-            _fun0125_ip = 472; continue _fun0125;
-case 474:
+            _fun0125_ip = 473; continue _fun0125;
+case 475:
             var13 = _closure1_slot1;
             var14 = _closure1_slot3;
             var11 = 74;
             var11 = var14[var11];
             var13 = var13.bind(var1)(var11);
             var14 = _closure1_slot54;
-            if(var4) { _fun0125_ip = 480; continue _fun0125 }
-case 481:
-            var11 = var14.MANUAL_ENABLE;
-            _fun0125_ip = 482; continue _fun0125;
-case 480:
-            var11 = var14.MANUAL_DISABLE;
+            if(var4) { _fun0125_ip = 481; continue _fun0125 }
 case 482:
-            var11 = var13.bind(var1)(var6, var11, var12);
-            _fun0125_ip = 472; continue _fun0125;
-case 470:
-            if(var4) { _fun0125_ip = 483; continue _fun0125 }
-case 484:
-            if(var10) { _fun0125_ip = 483; continue _fun0125 }
-case 485:
-            return var1;
+            var11 = var14.MANUAL_ENABLE;
+            _fun0125_ip = 483; continue _fun0125;
+case 481:
+            var11 = var14.MANUAL_DISABLE;
 case 483:
-            if(!var4) { _fun0125_ip = 486; continue _fun0125 }
-case 487:
-            var10 = _closure1_slot123;
-            if(var10) { _fun0125_ip = 486; continue _fun0125 }
-case 488:
-            return var1;
+            var11 = var13.bind(var1)(var6, var11, var12);
+            _fun0125_ip = 473; continue _fun0125;
+case 471:
+            if(var4) { _fun0125_ip = 484; continue _fun0125 }
+case 485:
+            if(var10) { _fun0125_ip = 484; continue _fun0125 }
 case 486:
+            return var1;
+case 484:
+            if(!var4) { _fun0125_ip = 487; continue _fun0125 }
+case 488:
+            var10 = _closure1_slot123;
+            if(var10) { _fun0125_ip = 487; continue _fun0125 }
+case 489:
+            return var1;
+case 487:
             var11 = _closure1_slot1;
             var13 = _closure1_slot3;
             var10 = 74;
             var10 = var13[var10];
             var11 = var11.bind(var1)(var10);
             var13 = _closure1_slot54;
-            if(var4) { _fun0125_ip = 489; continue _fun0125 }
-case 490:
-            var10 = var13.AUTO_ENABLE;
-            _fun0125_ip = 491; continue _fun0125;
-case 489:
-            var10 = var13.AUTO_DISABLE;
+            if(var4) { _fun0125_ip = 490; continue _fun0125 }
 case 491:
+            var10 = var13.AUTO_ENABLE;
+            _fun0125_ip = 492; continue _fun0125;
+case 490:
+            var10 = var13.AUTO_DISABLE;
+case 492:
             var10 = var11.bind(var1)(var6, var10, var12);
             var11 = _closure1_slot122;
-            if(var4) { _fun0125_ip = 492; continue _fun0125 }
-case 493:
+            if(var4) { _fun0125_ip = 493; continue _fun0125 }
+case 494:
             var10 = var11.delete;
             var10 = var10.bind(var11)(var6);
-            _fun0125_ip = 472; continue _fun0125;
-case 492:
+            _fun0125_ip = 473; continue _fun0125;
+case 493:
             var10 = var11.add;
             var10 = var10.bind(var11)(var6);
-case 472:
-            if(!var9) { _fun0125_ip = 494; continue _fun0125 }
-case 495:
+case 473:
+            if(!var9) { _fun0125_ip = 495; continue _fun0125 }
+case 496:
             var9 = !var4;
-case 494:
-            if(!var9) { _fun0125_ip = 496; continue _fun0125 }
-case 497:
+case 495:
+            if(!var9) { _fun0125_ip = 497; continue _fun0125 }
+case 498:
             var10 = _closure1_slot122;
             var9 = var10.delete;
             var9 = var9.bind(var10)(var6);
-case 496:
+case 497:
             if(var4) { _fun0125_ip = 161; continue _fun0125 }
-case 498:
+case 499:
             var4 = delete var8[var6];
             _fun0125_ip = 164; continue _fun0125;
 case 161:
@@ -9937,7 +9952,7 @@ case 0:
             var7 = _closure1_slot16;
             var6 = var7.getId;
             var6 = var6.bind(var7)();
-            if(!(var3 !== var6)) { _fun0127_ip = 499; continue _fun0127 }
+            if(!(var3 !== var6)) { _fun0127_ip = 500; continue _fun0127 }
 case 60:
             var6 = _closure1_slot50;
             var6 = var6.STREAM;
@@ -9974,7 +9989,7 @@ case 98:
                 return var1;
             };
             var1 = var2.bind(var3)(var1, var4);
-case 499:
+case 500:
             var1 = undefined;
             return var1;
         }
@@ -10255,7 +10270,7 @@ case 0:
             var4 = var1.loopbackReason;
             var3 = _closure1_slot124;
             if(var2) { _fun0129_ip = 394; continue _fun0129 }
-case 500:
+case 501:
             var2 = var3.delete;
             var2 = var2.bind(var3)(var4);
             _fun0129_ip = 6; continue _fun0129;
@@ -10574,7 +10589,7 @@ case 0:
             var1 = arg1;
             var5 = var1.inputDetected;
             var4 = null;
-            if(!(var4 != var5)) { _fun0131_ip = 501; continue _fun0131 }
+            if(!(var4 != var5)) { _fun0131_ip = 502; continue _fun0131 }
 case 33:
             var6 = _closure1_slot101;
             var2 = true;
@@ -10584,7 +10599,7 @@ case 394:
             var6 = !var5;
 case 58:
             _closure1_slot102 = var6;
-            if(var5) { _fun0131_ip = 502; continue _fun0131 }
+            if(var5) { _fun0131_ip = 503; continue _fun0131 }
 case 9:
             var5 = _closure1_slot146;
             var9 = undefined;
@@ -10680,7 +10695,7 @@ case 363:
             };
             var3 = var5.bind(var6)(var4, var3);
             _fun0131_ip = 344; continue _fun0131;
-case 502:
+case 503:
             _closure1_slot101 = var2;
             var2 = false;
             _closure1_slot130 = var2;
@@ -10693,7 +10708,7 @@ case 502:
 case 344:
             var1 = undefined;
             return var1;
-case 501:
+case 502:
             var1 = false;
             return var1;
         }
@@ -10743,7 +10758,7 @@ case 0:
             _closure1_slot79 = var3;
             var2 = var2.unmute;
             if(!var2) { _fun0133_ip = 9; continue _fun0133 }
-case 500:
+case 501:
             var4 = _closure1_slot162;
             var3 = undefined;
             var2 = {'mute': false, 'deaf': false};
@@ -10834,7 +10849,7 @@ case 105:
             var4 = _closure1_slot150;
             var3 = _closure1_slot93;
             var3 = var4.bind(var1)(var3, var12);
-            _fun0135_ip = 503; continue _fun0135;
+            _fun0135_ip = 504; continue _fun0135;
 case 187:
             var5 = var2.context;
             if(!(var12 == var5)) { _fun0135_ip = 96; continue _fun0135 }
@@ -10849,7 +10864,7 @@ case 96:
             var4 = var4.STREAM;
             var5 = var5 === var4;
             if(!var5) { _fun0135_ip = 46; continue _fun0135 }
-case 449:
+case 450:
             var5 = _closure1_slot93;
 case 46:
             var7 = var2.qualityOptions;
@@ -10870,20 +10885,20 @@ case 281:
             var6['frameRate'] = var7;
             var3['quality'] = var6;
             var3 = var4.bind(var1)(var5, var3);
-            _fun0135_ip = 503; continue _fun0135;
+            _fun0135_ip = 504; continue _fun0135;
 case 83:
             var3 = var2.desktopSettings;
             var10 = var3.sourceId;
             var4 = var3.sound;
             var5 = var2.context;
-            if(!(var12 == var5)) { _fun0135_ip = 504; continue _fun0135 }
+            if(!(var12 == var5)) { _fun0135_ip = 442; continue _fun0135 }
 case 505:
             var3 = _closure1_slot50;
             var5 = var3.DEFAULT;
-case 504:
+case 442:
             var6 = var2.qualityOptions;
             if(!(var12 == var6)) { _fun0135_ip = 185; continue _fun0135 }
-case 501:
+case 502:
             var6 = {'resolution': 720, 'frameRate': 30};
 case 185:
             var7 = _closure1_slot1;
@@ -10942,7 +10957,7 @@ case 510:
             var5['frameRate'] = var6;
             var2['quality'] = var5;
             var2 = var4.bind(var1)(var3, var2);
-case 503:
+case 504:
             return var1;
         }
     };
@@ -11401,12 +11416,12 @@ case 0:
             var2 = _closure1_slot115;
             var1 = !var2;
             var1 = !var1;
-            if(!var2) { _fun0144_ip = 500; continue _fun0144 }
+            if(!var2) { _fun0144_ip = 501; continue _fun0144 }
 case 267:
             var2 = false;
             _closure1_slot115 = var2;
             var1 = true;
-case 500:
+case 501:
             return var1;
         }
     };
@@ -11714,7 +11729,7 @@ case 347:
     var6 = new var32[var14](var31, var30, var29);
     var6 = var6 instanceof Object ? var6 : var7;
     var _closure1_slot69 = var6;
-    var7 = 84;
+    var7 = 85;
     var7 = var9[var7];
     var7 = var11.bind(var1)(var7);
     var11 = var7.prototype;
@@ -11725,7 +11740,7 @@ case 347:
     var7 = new var32[var7](var31, var30, var29);
     var7 = var7 instanceof Object ? var7 : var11;
     var _closure1_slot76 = var7;
-    var7 = 85;
+    var7 = 86;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

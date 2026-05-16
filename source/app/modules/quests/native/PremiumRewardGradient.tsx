@@ -159,68 +159,91 @@ case 4:
     };
     var _closure1_slot15 = var1;
     var1 = function PremiumRewardGlowGradient(arg1) {
-        var1 = arg1;
-        var6 = var1.children;
-        var7 = var1.style;
-        var1 = _closure1_slot8;
-        var4 = undefined;
-        var9 = var1.bind(var4)();
-        var1 = _closure1_slot14;
-        var13 = var1.bind(var4)();
-        var3 = _closure1_slot7;
-        var2 = _closure1_slot5;
-        var1 = {};
-        var8 = var9.wrapper;
-        var5 = new Array(2);
-        var5[0] = var8;
-        var5[1] = var7;
-        var1['style'] = var5;
-        var8 = _closure1_slot6;
-        var10 = _closure1_slot1;
-        var14 = _closure1_slot2;
-        var5 = 10;
-        var5 = var14[var5];
-        var7 = var10.bind(var4)(var5);
-        var5 = {};
-        var9 = var9.glow;
-        var5['style'] = var9;
-        var16 = _closure1_slot6;
-        var9 = 9;
-        var11 = var14[var9];
-        var15 = var10.bind(var4)(var11);
-        var11 = {};
-        var17 = _closure1_slot4;
-        var17 = var17.absoluteFill;
-        var11['style'] = var17;
-        var17 = ['transparent', 'black'];
-        var11['colors'] = var17;
-        var17 = _closure1_slot11;
-        var11['start'] = var17;
-        var17 = _closure1_slot12;
-        var11['end'] = var17;
-        var11 = var16.bind(var4)(var15, var11);
-        var5['maskElement'] = var11;
-        var11 = _closure1_slot6;
-        var9 = var14[var9];
-        var10 = var10.bind(var4)(var9);
-        var9 = {};
-        var14 = _closure1_slot4;
-        var14 = var14.absoluteFill;
-        var9['style'] = var14;
-        var9['colors'] = var13;
-        var13 = _closure1_slot9;
-        var9['start'] = var13;
-        var12 = _closure1_slot10;
-        var9['end'] = var12;
-        var9 = var11.bind(var4)(var10, var9);
-        var5['children'] = var9;
-        var7 = var8.bind(var4)(var7, var5);
-        var5 = new Array(2);
-        var5[0] = var7;
-        var5[1] = var6;
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var1 = arg1;
+            var6 = var1.children;
+            var8 = var1.style;
+            var1 = _closure1_slot8;
+            var4 = undefined;
+            var11 = var1.bind(var4)();
+            var1 = _closure1_slot14;
+            var13 = var1.bind(var4)();
+            var7 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 7;
+            var1 = var9[var1];
+            var1 = var7.bind(var4)(var1);
+            var3 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var1 = 8;
+            var1 = var9[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.isThemeDark;
+            var10 = var1.bind(var2)(var3);
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot5;
+            var1 = {};
+            var14 = var11.wrapper;
+            var5 = new Array(2);
+            var5[0] = var14;
+            var5[1] = var8;
+            var1['style'] = var5;
+            var8 = _closure1_slot6;
+            var5 = 10;
+            var5 = var9[var5];
+            var7 = var7.bind(var4)(var5);
+            var5 = {};
+            var14 = var11.glow;
+            var9 = new Array(2);
+            var9[0] = var14;
+            var10 = !var10;
+            if(!var10) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+            var10 = var11.glowLight;
+case 5:
+            var9[1] = var10;
+            var5['style'] = var9;
+            var16 = _closure1_slot6;
+            var10 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var9 = 9;
+            var11 = var14[var9];
+            var15 = var10.bind(var4)(var11);
+            var11 = {};
+            var17 = _closure1_slot4;
+            var17 = var17.absoluteFill;
+            var11['style'] = var17;
+            var17 = ['transparent', 'black'];
+            var11['colors'] = var17;
+            var17 = _closure1_slot11;
+            var11['start'] = var17;
+            var17 = _closure1_slot12;
+            var11['end'] = var17;
+            var11 = var16.bind(var4)(var15, var11);
+            var5['maskElement'] = var11;
+            var11 = _closure1_slot6;
+            var9 = var14[var9];
+            var10 = var10.bind(var4)(var9);
+            var9 = {};
+            var14 = _closure1_slot4;
+            var14 = var14.absoluteFill;
+            var9['style'] = var14;
+            var9['colors'] = var13;
+            var13 = _closure1_slot9;
+            var9['start'] = var13;
+            var12 = _closure1_slot10;
+            var9['end'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
+            var5['children'] = var9;
+            var7 = var8.bind(var4)(var7, var5);
+            var5 = new Array(2);
+            var5[0] = var7;
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var _closure1_slot16 = var1;
     var1 = global;
@@ -262,6 +285,10 @@ case 4:
     var7['fill'] = var11;
     var11 = {'position': 'absolute', 'left': 0, 'right': 0, 'bottom': 0, 'height': '50%'};
     var7['glow'] = var11;
+    var11 = {};
+    var12 = 0.5;
+    var11['opacity'] = var12;
+    var7['glowLight'] = var11;
     var7 = var9.bind(var10)(var7);
     var _closure1_slot8 = var7;
     var7 = {'x': 0, 'y': 0.5};
@@ -309,7 +336,7 @@ case 4:
     var4 = 'modules/quests/native/PremiumRewardGradient.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.visible;
@@ -317,20 +344,20 @@ case 0:
             var1 = var2.children;
             var2 = var2.glow;
             var4 = _closure1_slot6;
-            if(var3) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            var3 = _closure1_slot5;
-            _fun0002_ip = 7; continue _fun0002;
-case 5:
-            if(var2) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-            var2 = _closure1_slot15;
-            _fun0002_ip = 10; continue _fun0002;
+            if(var3) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
-            var2 = _closure1_slot16;
-case 10:
-            var3 = var2;
+            var3 = _closure1_slot5;
+            _fun0003_ip = 9; continue _fun0003;
 case 7:
+            if(var2) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            var2 = _closure1_slot15;
+            _fun0003_ip = 12; continue _fun0003;
+case 10:
+            var2 = _closure1_slot16;
+case 12:
+            var3 = var2;
+case 9:
             var2 = {};
             var2['style'] = var5;
             var2['children'] = var1;

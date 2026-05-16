@@ -2218,6 +2218,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_SETTINGS_GUILD_THEME_NEW_BADGE'] = var2;
     var1 = 'GUILD_SETTINGS_GUILD_THEME_NEW_BADGE';
     var4[var2] = var1;
+    var2 = 756;
+    var4['XBOX_PERKS_RECONNECT_UPSELL'] = var2;
+    var1 = 'XBOX_PERKS_RECONNECT_UPSELL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

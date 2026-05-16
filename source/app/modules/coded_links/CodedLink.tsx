@@ -42,6 +42,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SERVER_SHOP'] = var1;
     var1 = 'SOCIAL_LAYER_STOREFRONT';
     var2['SOCIAL_LAYER_STOREFRONT'] = var1;
+    var1 = 'SOCIAL_LAYER_STOREFRONT_APP';
+    var2['SOCIAL_LAYER_STOREFRONT_APP'] = var1;
     var1 = 'QUESTS_EMBED';
     var2['QUESTS_EMBED'] = var1;
     var1 = 'COLLECTIBLES_SHOP';

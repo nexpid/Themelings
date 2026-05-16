@@ -135,6 +135,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CLIPS_THUMBNAIL_MAX_HEIGHT'] = var8;
     var8 = 100;
     var3['CLIPS_MAX_PARTICIPANTS'] = var8;
+    var8 = 1000;
+    var3['CLIPS_MAX_TIMELINE_EVENTS'] = var8;
     var8 = 500;
     var3['CLIPS_TIMELINE_BUFFER_MS'] = var8;
     var8 = function(arg1) {

@@ -31,45 +31,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var9[var4];
-    var4 = var14.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var4 = var8.bind(var1)(var4);
+    var5 = var4.GuildFeatures;
+    var _closure1_slot5 = var5;
+    var4 = var4.RelativeMarketingURLs;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var9[var4];
     var4 = var8.bind(var1)(var4);
-    var5 = var4.GuildFeatures;
-    var _closure1_slot6 = var5;
-    var4 = var4.RelativeMarketingURLs;
+    var4 = var4.ContentDismissActionType;
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var9[var4];
     var4 = var8.bind(var1)(var4);
-    var4 = var4.ContentDismissActionType;
-    var _closure1_slot8 = var4;
-    var4 = 6;
-    var4 = var9[var4];
-    var4 = var8.bind(var1)(var4);
     var5 = var4.jsx;
-    var _closure1_slot9 = var5;
+    var _closure1_slot8 = var5;
     var4 = var4.jsxs;
-    var _closure1_slot10 = var4;
-    var13 = 7;
+    var _closure1_slot9 = var4;
+    var13 = 6;
     var4 = var9[var13];
     var4 = var14.bind(var1)(var4);
     var4 = var4.spacing;
     var5 = var4.PX_8;
-    var _closure1_slot11 = var5;
+    var _closure1_slot10 = var5;
     var4 = var9[var13];
     var4 = var14.bind(var1)(var4);
     var4 = var4.spacing;
     var4 = var4.PX_8;
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var6 = var9[var13];
     var6 = var14.bind(var1)(var6);
     var6 = var6.spacing;
     var6 = var6.PX_12;
     var6 = var7 * var6;
-    var _closure1_slot13 = var6;
-    var6 = 11;
+    var _closure1_slot12 = var6;
+    var6 = 10;
     var6 = var9[var6];
     var11 = var8.bind(var1)(var6);
     var7 = var11.createStyles;
@@ -112,60 +108,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['marginTop'] = var13;
     var6['cta'] = var12;
     var6 = var7.bind(var11)(var6);
-    var _closure1_slot14 = var6;
+    var _closure1_slot13 = var6;
     var7 = var10.memo;
     var6 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.guild;
-            var _closure2_slot0 = var2;
             var1 = var1.markAsDismissed;
-            var _closure2_slot1 = var1;
-            var1 = _closure1_slot14;
+            var _closure2_slot0 = var1;
+            var1 = _closure1_slot13;
             var5 = undefined;
             var10 = var1.bind(var5)();
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 12;
+            var1 = 11;
             var1 = var4[var1];
-            var7 = var3.bind(var5)(var1);
-            var6 = var7.useStateFromStores;
-            var1 = _closure1_slot5;
-            var4 = new Array(1);
-            var4[0] = var1;
+            var4 = var3.bind(var5)(var1);
+            var3 = var4.useUnclaimedGameIdsForGuild;
             var1 = var2.id;
-            var3 = new Array(1);
-            var3[0] = var1;
-            var1 = function() {
-                var3 = _closure1_slot5;
-                var2 = var3.getUnclaimedGameIdsForGuild;
-                var1 = _closure2_slot0;
-                var1 = var1.id;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var4 = var6.bind(var7)(var4, var1, var3);
+            var3 = var3.bind(var4)(var1);
+            var1 = 0;
+            var3 = var3[var1];
             var1 = null;
-            if(!(var1 == var4)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = new Array(0);
-case 2:
-            var3 = 0;
-            var3 = var4[var3];
             var4 = var1 != var3;
             var6 = null;
-            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var3;
-case 4:
+case 2:
             var7 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var4 = 13;
+            var4 = 12;
             var4 = var3[var4];
             var4 = var7.bind(var5)(var4);
             var9 = _closure1_slot0;
-            var14 = 14;
+            var14 = 13;
             var7 = var3[var14];
             var7 = var9.bind(var5)(var7);
             var8 = var7.intl;
@@ -178,11 +156,11 @@ case 4:
             var3 = var4.bind(var5)(var6, var3);
             var17 = var3.coverImageUrl;
             var22 = var3.gameName;
-            if(!(var1 != var17)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!(var1 != var17)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var2.features;
             var3 = var4.has;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var2 = var2.VERIFIED;
             var6 = var3.bind(var4)(var2);
             var7 = _closure1_slot0;
@@ -194,19 +172,19 @@ case 7:
             var2 = var2[var14];
             var2 = var7.bind(var5)(var2);
             var2 = var2.t;
-            if(var6) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var2["0Dx29f"];
             var11 = var3.bind(var4)(var6);
-            _fun0001_ip = 10; continue _fun0001;
-case 8:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var2 = var2.uUARXe;
             var11 = var3.bind(var4)(var2);
-case 10:
-            var4 = _closure1_slot10;
+case 8:
+            var4 = _closure1_slot9;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var2 = 15;
+            var2 = 14;
             var2 = var16[var2];
             var2 = var15.bind(var5)(var2);
             var3 = var2.Card;
@@ -215,8 +193,8 @@ case 10:
             var2['variant'] = var6;
             var6 = var10.card;
             var2['style'] = var6;
-            var9 = _closure1_slot9;
-            var6 = 16;
+            var9 = _closure1_slot8;
+            var6 = 15;
             var6 = var16[var6];
             var6 = var15.bind(var5)(var6);
             var7 = var6.PressableOpacity;
@@ -224,8 +202,8 @@ case 10:
             var8 = 'button';
             var6['accessibilityRole'] = var8;
             var8 = function onPress() {
-                var3 = _closure2_slot1;
-                var1 = _closure1_slot8;
+                var3 = _closure2_slot0;
+                var1 = _closure1_slot7;
                 var2 = var1.USER_DISMISS;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -234,7 +212,7 @@ case 10:
             var6['onPress'] = var8;
             var8 = var10.closeButton;
             var6['style'] = var8;
-            var8 = 17;
+            var8 = 16;
             var8 = var16[var8];
             var8 = var15.bind(var5)(var8);
             var18 = var8.XSmallIcon;
@@ -245,14 +223,14 @@ case 10:
             var6 = new Array(5);
             var6[0] = var7;
             var8 = _closure1_slot1;
-            var7 = 8;
+            var7 = 7;
             var7 = var16[var7];
             var8 = var8.bind(var5)(var7);
             var7 = {};
             var7['imageSrc'] = var17;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
-            var7 = 18;
+            var7 = 17;
             var8 = var16[var7];
             var8 = var15.bind(var5)(var8);
             var17 = var8.Text;
@@ -290,7 +268,7 @@ case 10:
             var7 = {};
             var10 = var10.cta;
             var7['style'] = var10;
-            var10 = 19;
+            var10 = 18;
             var10 = var16[var10];
             var10 = var15.bind(var5)(var10);
             var11 = var10.Button;
@@ -305,7 +283,7 @@ case 10:
             var14 = var14["2u6ZlY"];
             var14 = var17.bind(var18)(var14);
             var10['text'] = var14;
-            var14 = 20;
+            var14 = 19;
             var14 = var16[var14];
             var14 = var15.bind(var5)(var14);
             var15 = var14.LinkExternalSmallIcon;
@@ -319,33 +297,33 @@ case 10:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-                        var5 = _closure2_slot1;
-                        var3 = _closure1_slot8;
+                        if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+                        var5 = _closure2_slot0;
+                        var3 = _closure1_slot7;
                         var4 = var3.TAKE_ACTION;
                         var3 = undefined;
                         var4 = var5.bind(var3)(var4);
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var4 = 21;
+                        var4 = 20;
                         var4 = var6[var4];
                         var5 = var5.bind(var3)(var4);
                         var4 = var5.redirectDeveloperPortalWithHandoffToken;
-                        var2 = _closure1_slot7;
+                        var2 = _closure1_slot6;
                         var2 = var2.DEVELOPER_PORTAL_APPLICATIONS_GAME_IDENTITY;
                         var2 = var4.bind(var5)(var2);
                         SaveGenerator(address=79);
+case 11:
+                        return var2;
+case 12:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(var4) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+                        return var3;
 case 13:
                         return var2;
-case 14:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-                        return var3;
-case 15:
-                        return var2;
-case 11:
+case 9:
                         return var1;
                     }
                 };
@@ -360,12 +338,12 @@ case 11:
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 6:
+case 4:
             return var1;
         }
     };
     var6 = var7.bind(var10)(var6);
-    var7 = 22;
+    var7 = 21;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -376,18 +354,18 @@ case 6:
     var3['GAME_CLAIM_NOTICE_MARGIN_BOTTOM'] = var4;
     var2 = function getScaledGameClaimNoticeHeight(arg1) {
         var11 = arg1;
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot13;
+        var3 = _closure1_slot10;
+        var2 = _closure1_slot12;
         var3 = var3 + var2;
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var2 = 8;
+        var2 = 7;
         var2 = var6[var2];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
         var2 = var2.CARD_STACK_HEIGHT;
         var7 = var3 + var2;
-        var2 = 9;
+        var2 = 8;
         var3 = var6[var2];
         var9 = var5.bind(var4)(var3);
         var8 = var9.scaleTextLineHeight;
@@ -395,7 +373,7 @@ case 6:
         var3 = var8.bind(var9)(var3, var11);
         var9 = var7 + var3;
         var8 = _closure1_slot1;
-        var3 = 7;
+        var3 = 6;
         var7 = var6[var3];
         var7 = var8.bind(var4)(var7);
         var7 = var7.spacing;
@@ -414,12 +392,12 @@ case 6:
         var3 = var3.PX_8;
         var2 = var7 + var2;
         var3 = var2 + var3;
-        var2 = 10;
+        var2 = 9;
         var2 = var6[var2];
         var2 = var5.bind(var4)(var2);
         var2 = var2.SMALL_BUTTON_HEIGHT;
         var2 = var3 + var2;
-        var1 = _closure1_slot12;
+        var1 = _closure1_slot11;
         var1 = var2 + var1;
         return var1;
     };

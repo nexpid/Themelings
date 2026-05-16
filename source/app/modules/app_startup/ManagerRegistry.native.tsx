@@ -1851,7 +1851,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ReplyNudgeManager'] = var1;
     var1 = {};
-    var8 = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'LOGOUT'];
+    var8 = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'LOGOUT', 'NOTIFICATIONS_SET_SCREEN_DOWNTIME_REMINDER'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
