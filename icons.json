@@ -12901,15 +12901,6 @@
         "width": 120,
         "height": 120
     },
-    "wumpus_couch_gaming": {
-        "file": "app/modules/quests/images/wumpus_couch_gaming.png",
-        "hash": "0137c9e4438d53242640eb0e7d4abc71",
-        "scales": [
-            1
-        ],
-        "width": 248,
-        "height": 121
-    },
     "wumpus_cup_premium120": {
         "file": "app/images/native/gifting/wumpus_cup_premium120.png",
         "hash": "c43124de927c4f7db7d60a63938625a8",
