@@ -211,28 +211,28 @@ case 14:
                 var26 = var2[var5];
                 var25 = var2[var6];
                 if(!(var6 !== var26)) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-                if(!(var7 !== var26)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+case 6:
+                if(!(var7 !== var26)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                 var20 = var16.readUnknownField;
-                if(!(var8 !== var20)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                if(!(var8 !== var20)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                 var2 = var17.skip;
                 var2 = var2.bind(var17)(var25);
                 var19 = var20;
                 var18 = var2;
-                if(!(var9 !== var20)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+                if(!(var9 !== var20)) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                 var22 = var20;
-                if(!(var10 === var20)) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+                if(!(var10 === var20)) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                 var23 = _closure1_slot0;
                 var21 = _closure1_slot1;
                 var21 = var21[var11];
                 var21 = var23.bind(var13)(var21);
                 var21 = var21.UnknownFieldHandler;
                 var22 = var21.onRead;
-case 23:
+case 22:
                 var31 = var15.typeName;
                 var32 = undefined;
                 var30 = var1;
@@ -242,8 +242,8 @@ case 23:
                 var21 = var32[var22](var31, var30, var29, var28, var27, var26);
                 var19 = var20;
                 var18 = var2;
-                _fun0004_ip = 21; continue _fun0004;
-case 19:
+                _fun0004_ip = 20; continue _fun0004;
+case 18:
                 var2 = global;
                 var20 = var2.globalThis;
                 var21 = var20.Error;
@@ -262,13 +262,13 @@ case 19:
                 var2 = new var32[var21](var31, var30);
                 var2 = var2 instanceof Object ? var2 : var20;
                 throw var2;
-case 17:
+case 16:
                 var2 = var17.float;
                 var2 = var2.bind(var17)();
                 var1['angle'] = var2;
                 var19 = var4;
                 var18 = var3;
-                _fun0004_ip = 21; continue _fun0004;
+                _fun0004_ip = 20; continue _fun0004;
 case 15:
                 var21 = var1.colors;
                 var20 = var21.push;
@@ -277,7 +277,7 @@ case 15:
                 var2 = var20.bind(var21)(var2);
                 var19 = var4;
                 var18 = var3;
-case 21:
+case 20:
                 var2 = var17.pos;
                 var4 = var19;
                 var3 = var18;
@@ -304,7 +304,7 @@ case 0:
                 var4 = undefined;
                 var6 = 1;
                 var9 = 0;
-                if(!var3) { _fun0005_ip = 6; continue _fun0005 }
+                if(!var3) { _fun0005_ip = 24; continue _fun0005 }
 case 25:
                 var10 = var1.tag;
                 var11 = _closure1_slot0;
@@ -322,7 +322,7 @@ case 25:
                 var3 = var5.colors;
                 var3 = var3.length;
                 if(var9 < var3) { _fun0005_ip = 25; continue _fun0005 }
-case 6:
+case 24:
                 var3 = var5.angle;
                 if(!(var8 !== var3)) { _fun0005_ip = 26; continue _fun0005 }
 case 27:

@@ -982,22 +982,22 @@ case 88:
                     var12 = var5.timeoutDelay;
                     var10 = var7 < var12;
 case 87:
-                    if(!var10) { _fun0009_ip = 81; continue _fun0009 }
-case 89:
+                    if(!var10) { _fun0009_ip = 89; continue _fun0009 }
+case 90:
                     var12 = var5.rateLimited;
                     var10 = !var12;
-case 81:
-                    if(!var10) { _fun0009_ip = 90; continue _fun0009 }
-case 91:
+case 89:
+                    if(!var10) { _fun0009_ip = 91; continue _fun0009 }
+case 92:
                     var10 = global;
                     var12 = var10.clearTimeout;
                     var10 = var3.timeout;
                     var10 = var12.bind(var1)(var10);
                     var3['timeout'] = var1;
-case 90:
+case 91:
                     var10 = var3.timeout;
-                    if(!(var8 == var10)) { _fun0009_ip = 92; continue _fun0009 }
-case 93:
+                    if(!(var8 == var10)) { _fun0009_ip = 93; continue _fun0009 }
+case 94:
                     var12 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var20 = 10;
@@ -1008,8 +1008,8 @@ case 93:
                     var12 = var7 * var10;
                     var10 = var9.jitter;
                     var13 = var12;
-                    if(!var10) { _fun0009_ip = 94; continue _fun0009 }
-case 95:
+                    if(!var10) { _fun0009_ip = 95; continue _fun0009 }
+case 96:
                     var10 = global;
                     var15 = var10.Math;
                     var14 = var15.floor;
@@ -1030,7 +1030,7 @@ case 95:
                     var10 = var16 * var10;
                     var10 = var14.bind(var15)(var10);
                     var13 = var12 + var10;
-case 94:
+case 95:
                     var14 = var4.logger;
                     var12 = var14.log;
                     var10 = 'Scheduling save from markDirty';
@@ -1041,10 +1041,10 @@ case 94:
                     var10 = var12.bind(var1)(var10, var13);
                     var3['timeout'] = var10;
                     var3['timeoutDelay'] = var7;
-case 92:
+case 93:
                     var7 = var9.cleanup;
-                    if(!(var8 != var7)) { _fun0009_ip = 96; continue _fun0009 }
-case 97:
+                    if(!(var8 != var7)) { _fun0009_ip = 97; continue _fun0009 }
+case 98:
                     var22 = var5.cleanupFuncs;
                     var7 = new Array(0);
                     var23 = var7;
@@ -1054,18 +1054,18 @@ case 97:
                     var23 = var7;
                     var10 = arraySpread(var23, var22, var21);
                     var3['cleanupFuncs'] = var7;
-case 96:
+case 97:
                     var7 = var9.onError;
                     var7 = var8 == var7;
-                    if(var7) { _fun0009_ip = 98; continue _fun0009 }
-case 99:
+                    if(var7) { _fun0009_ip = 99; continue _fun0009 }
+case 100:
                     var13 = var5.errorCallbacks;
                     var12 = var13.includes;
                     var10 = var9.onError;
                     var7 = var12.bind(var13)(var10);
-case 98:
-                    if(var7) { _fun0009_ip = 100; continue _fun0009 }
-case 101:
+case 99:
+                    if(var7) { _fun0009_ip = 101; continue _fun0009 }
+case 102:
                     var22 = var5.errorCallbacks;
                     var7 = new Array(1);
                     var23 = var7;
@@ -1076,10 +1076,10 @@ case 101:
                     var9 = 1;
                     var9 = var10 + var9;
                     var3['errorCallbacks'] = var7;
-case 100:
+case 101:
                     var7 = var5.protoToSave;
-                    if(!(var8 != var7)) { _fun0009_ip = 102; continue _fun0009 }
-case 103:
+                    if(!(var8 != var7)) { _fun0009_ip = 103; continue _fun0009 }
+case 104:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var6 = 8;
@@ -1090,10 +1090,10 @@ case 103:
                     var5 = var5.protoToSave;
                     var5 = var7.bind(var8)(var6, var5, var2);
                     var3['protoToSave'] = var5;
-                    _fun0009_ip = 104; continue _fun0009;
-case 102:
+                    _fun0009_ip = 105; continue _fun0009;
+case 103:
                     var3['protoToSave'] = var2;
-case 104:
+case 105:
                     var2 = var4.dispatchChanges;
                     var2 = var2.bind(var4)(var3);
                     return var1;
@@ -1145,7 +1145,7 @@ case 0:
                     var4 = var3.bind(var4)(var5);
                     var3 = null;
                     if(!(var3 == var4)) { _fun0010_ip = 4; continue _fun0010 }
-case 105:
+case 106:
                     var4 = {};
 case 4:
                     var3 = this;
@@ -1179,16 +1179,16 @@ case 0:
                     var4 = var5.hasLoaded;
                     var1 = arg1;
                     var1 = var4.bind(var5)(var1);
-                    if(!var1) { _fun0011_ip = 106; continue _fun0011 }
+                    if(!var1) { _fun0011_ip = 107; continue _fun0011 }
 case 3:
                     var4 = true;
                     var1 = var4 !== var3;
-case 106:
-                    if(var1) { _fun0011_ip = 107; continue _fun0011 }
-case 108:
+case 107:
+                    if(var1) { _fun0011_ip = 108; continue _fun0011 }
+case 109:
                     var1 = var2.loadIfNecessary;
                     var1 = var1.bind(var2)(var3);
-case 107:
+case 108:
                     var1 = undefined;
                     return var1;
                 }
@@ -1207,8 +1207,8 @@ case 0:
                         var3 = arg1;
                         var5 = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0012_ip = 109; continue _fun0012 }
-case 110:
+                        if(var2) { _fun0012_ip = 110; continue _fun0012 }
+case 111:
                         var13 = var3;
                         var10 = undefined;
                         var4 = undefined;
@@ -1218,16 +1218,16 @@ case 110:
                         var2 = var5.getEditInfo;
                         var2 = var2.bind(var5)();
                         var2 = var2.editInfo;
-                        if(var3) { _fun0012_ip = 111; continue _fun0012 }
-case 112:
+                        if(var3) { _fun0012_ip = 112; continue _fun0012 }
+case 113:
                         var3 = var2.loaded;
                         if(var3) { _fun0012_ip = 39; continue _fun0012 }
-case 113:
+case 114:
                         var2 = var2.loading;
-                        if(!var2) { _fun0012_ip = 111; continue _fun0012 }
+                        if(!var2) { _fun0012_ip = 112; continue _fun0012 }
 case 39:
                         return var10;
-case 111:
+case 112:
                         var9 = var5.logger;
                         var3 = var9.log;
                         var2 = 'Loading proto';
@@ -1237,7 +1237,7 @@ case 111:
                         var9 = true;
                         var2['loading'] = var9;
                         var2 = var3.bind(var5)(var2);
-case 114: // try_start_0
+case 115: // try_start_0
                         var3 = _closure1_slot0;
                         var9 = _closure1_slot2;
                         var2 = 9;
@@ -1255,7 +1255,7 @@ case 114: // try_start_0
                         var2['rejectWithError'] = var11;
                         var2 = var3.bind(var9)(var2);
                         SaveGenerator(address=186);
-case 115:
+case 83:
                         return var2;
 case 116:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
@@ -1344,7 +1344,7 @@ case 129: // catch_target0 // catch_target1
                         var3['loading'] = var6;
                         var3 = var4.bind(var5)(var3);
                         throw var2;
-case 109:
+case 110:
                         return var1;
                     }
                 };
@@ -1425,7 +1425,7 @@ case 0:
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
-                    if(!var1) { _fun0013_ip = 40; continue _fun0013 }
+                    if(!var1) { _fun0013_ip = 130; continue _fun0013 }
 case 3:
                     var3 = var4.markDirty;
                     var2 = var4.ProtoClass;
@@ -1435,7 +1435,7 @@ case 3:
                     var5 = arg1;
                     var1['cleanup'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 40:
+case 130:
                     var1 = undefined;
                     return var1;
                 }
@@ -1610,8 +1610,8 @@ case 0:
                     var1 = _closure1_slot7;
                     var1 = var1.PRELOADED_USER_SETTINGS;
                     var1 = var2.bind(var3)(var1);
-                    if(var1) { _fun0014_ip = 130; continue _fun0014 }
-case 131:
+                    if(var1) { _fun0014_ip = 131; continue _fun0014 }
+case 132:
                     var1 = _closure1_slot6;
                     var1 = var1.settings;
                     var3 = var1.userContent;
@@ -1624,8 +1624,8 @@ case 39:
                     var5 = var3.dismissedContents;
 case 41:
                     var2 = var2 != var5;
-                    if(!var2) { _fun0014_ip = 132; continue _fun0014 }
-case 133:
+                    if(!var2) { _fun0014_ip = 133; continue _fun0014 }
+case 130:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 17;
@@ -1633,7 +1633,7 @@ case 133:
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.hasBit;
                     var2 = var3.bind(var4)(var5, var7);
-case 132:
+case 133:
                     if(var2) { _fun0014_ip = 134; continue _fun0014 }
 case 135:
                     var3 = _closure1_slot1;
@@ -1656,7 +1656,7 @@ case 135:
                     return var1;
 case 134:
                     return var1;
-case 130:
+case 131:
                     var1 = undefined;
                     return var1;
                 }
@@ -1789,7 +1789,7 @@ case 139:
                     var2 = 0;
                     var1 = var2 < var1;
                     if(!var1) { _fun0017_ip = 138; continue _fun0017 }
-case 105:
+case 106:
                     var6 = var3[var2];
                     if(!(var5 != var6)) { _fun0017_ip = 140; continue _fun0017 }
 case 7:
@@ -1805,7 +1805,7 @@ case 7:
 case 140:
                     var2 = var2 + 1;
                     var1 = var3.length;
-                    if(var2 < var1) { _fun0017_ip = 105; continue _fun0017 }
+                    if(var2 < var1) { _fun0017_ip = 106; continue _fun0017 }
 case 138:
                     var1 = undefined;
                     return var1;
@@ -1873,7 +1873,7 @@ case 0:
                     var6 = var5;
                     var5 = var2;
                     var2 = var5;
-                    if(var4) { _fun0018_ip = 141; continue _fun0018 }
+                    if(var4) { _fun0018_ip = 90; continue _fun0018 }
 case 140:
                     var14 = var6.value;
                     var12 = _closure1_slot0;
@@ -1882,7 +1882,7 @@ case 140:
                     var12 = var12.bind(var1)(var4);
                     var4 = var12.isSingleUseDismissibleContent;
                     var4 = var4.bind(var12)(var14);
-                    if(var4) { _fun0018_ip = 83; continue _fun0018 }
+                    if(var4) { _fun0018_ip = 141; continue _fun0018 }
 case 142:
                     var12 = var3.recurringDismissibleContentStates;
                     var13 = _closure1_slot0;
@@ -1894,7 +1894,7 @@ case 142:
                     var12[var14] = var4;
                     var12 = var5;
                     _fun0018_ip = 143; continue _fun0018;
-case 83:
+case 141:
                     var13 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var4 = var4[var8];
@@ -1908,7 +1908,7 @@ case 143:
                     var6 = var13;
                     var2 = var5;
                     if(!var4) { _fun0018_ip = 140; continue _fun0018 }
-case 141:
+case 90:
                     var3['dismissedContents'] = var2;
                     return var1;
                 }

@@ -498,8 +498,8 @@ case 45:
             if(var1) { _fun0004_ip = 43; continue _fun0004 }
 case 44:
             var1 = var12;
-            if(!var4) { _fun0004_ip = 29; continue _fun0004 }
-case 46:
+            if(!var4) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
             var13 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var14];
@@ -507,8 +507,8 @@ case 46:
             var4 = var13.isIOS;
             var4 = var4.bind(var13)();
             var1 = var12;
-            if(!var4) { _fun0004_ip = 29; continue _fun0004 }
-case 47:
+            if(!var4) { _fun0004_ip = 46; continue _fun0004 }
+case 48:
             var13 = _closure1_slot6;
             var12 = _closure1_slot5;
             var4 = {};
@@ -531,11 +531,11 @@ case 47:
             var14 = var16.bind(var5)(var15, var14);
             var4['children'] = var14;
             var1 = var13.bind(var5)(var12, var4);
-case 29:
-            _fun0004_ip = 48; continue _fun0004;
+case 46:
+            _fun0004_ip = 49; continue _fun0004;
 case 43:
-            if(var3) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+            if(var3) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
             var12 = _closure1_slot6;
             var4 = _closure1_slot10;
             var3 = {};
@@ -546,8 +546,8 @@ case 50:
             var3['style'] = var7;
             var3['fileName'] = var6;
             var3 = var12.bind(var5)(var4, var3);
-            _fun0004_ip = 51; continue _fun0004;
-case 49:
+            _fun0004_ip = 52; continue _fun0004;
+case 50:
             var13 = _closure1_slot7;
             var12 = _closure1_slot5;
             var4 = {};
@@ -583,10 +583,10 @@ case 49:
             var14[1] = var15;
             var4['children'] = var14;
             var3 = var13.bind(var5)(var12, var4);
-case 51:
+case 52:
             var1 = var3;
-case 48:
-            _fun0004_ip = 52; continue _fun0004;
+case 49:
+            _fun0004_ip = 53; continue _fun0004;
 case 40:
             var4 = _closure1_slot6;
             var3 = _closure1_slot10;
@@ -598,7 +598,7 @@ case 40:
             var2['style'] = var7;
             var2['fileName'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 52:
+case 53:
             return var1;
         }
     };
