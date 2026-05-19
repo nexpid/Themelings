@@ -235,10 +235,10 @@ case 4:
             var7 = 'QuestDockUnenrolledBody';
             var7 = var13.bind(var18)(var7);
             var13 = 17;
-            var18 = var8[var13];
-            var21 = var5.bind(var4)(var18);
-            var18 = var21.useQuestOrbMultiplierEligibility;
-            var30 = var18.bind(var21)();
+            var13 = var8[var13];
+            var18 = var5.bind(var4)(var13);
+            var13 = var18.useQuestOrbMultiplierEligibility;
+            var30 = var13.bind(var18)();
             var1 = var8[var1];
             var5 = var5.bind(var4)(var1);
             var1 = var5.useShouldShowBonusOrbsUX;
@@ -247,8 +247,9 @@ case 4:
             if(!var21) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var13];
+            var13 = _closure1_slot2;
+            var1 = 18;
+            var1 = var13[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.QuestOrbMultiplierEligibilityType;
             var1 = var1.NITRO;
@@ -258,7 +259,7 @@ case 6:
             var5 = var18.useContext;
             var24 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var1 = 18;
+            var1 = 19;
             var1 = var25[var1];
             var1 = var24.bind(var4)(var1);
             var1 = var1.QuestDockExternalCoordinationContext;
@@ -277,7 +278,7 @@ case 0:
 case 9:
                         var11 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var2 = 19;
+                        var2 = 20;
                         var2 = var9[var2];
                         var4 = undefined;
                         var8 = var11.bind(var4)(var2);
@@ -285,13 +286,13 @@ case 9:
                         var2 = _closure2_slot0;
                         var3 = var2.id;
                         var2 = {};
-                        var10 = 20;
+                        var10 = 21;
                         var10 = var9[var10];
                         var10 = var11.bind(var4)(var10);
                         var10 = var10.QuestContentCTA;
                         var10 = var10.ACCEPT_QUEST;
                         var2['questContentCTA'] = var10;
-                        var10 = 21;
+                        var10 = 22;
                         var12 = var9[var10];
                         var12 = var11.bind(var4)(var12);
                         var12 = var12.QuestContent;
@@ -318,7 +319,7 @@ case 15:
 case 17:
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot2;
-                        var3 = 22;
+                        var3 = 23;
                         var3 = var8[var3];
                         var7 = var7.bind(var4)(var3);
                         var3 = {};
@@ -372,13 +373,13 @@ case 8:
             var1[3] = var26;
             var1[4] = var22;
             var18 = var13.bind(var18)(var5, var1);
-            var1 = 23;
+            var1 = 24;
             var1 = var25[var1];
             var5 = var24.bind(var4)(var1);
             var1 = var5.useQuestImpressionId;
             var1 = var1.bind(var5)();
             var _closure2_slot5 = var1;
-            var22 = 24;
+            var22 = 25;
             var5 = var25[var22];
             var5 = var24.bind(var4)(var5);
             var26 = var5.MobileQuestExternalLinkExperiment;
@@ -389,7 +390,7 @@ case 8:
             var5['location'] = var27;
             var5 = var13.bind(var26)(var5);
             var5 = var5.variant;
-            var13 = 25;
+            var13 = 26;
             var13 = var25[var13];
             var27 = var24.bind(var4)(var13);
             var26 = var27.getCtaLink;
@@ -439,20 +440,20 @@ case 34:
             var1 = function() {
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 26;
+                var1 = 27;
                 var2 = var8[var1];
                 var1 = undefined;
                 var5 = var7.bind(var1)(var2);
                 var4 = var5.openGameLinkDirectly;
                 var3 = _closure2_slot0;
                 var2 = {};
-                var6 = 21;
+                var6 = 22;
                 var10 = var8[var6];
                 var10 = var7.bind(var1)(var10);
                 var10 = var10.QuestContent;
                 var10 = var10.QUEST_BAR_MOBILE;
                 var2['content'] = var10;
-                var10 = 20;
+                var10 = 21;
                 var10 = var8[var10];
                 var10 = var7.bind(var1)(var10);
                 var10 = var10.QuestContentCTA;
@@ -471,7 +472,7 @@ case 34:
             var27 = var3.bind(var9)(var1, var2);
             var13 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 27;
+            var1 = 28;
             var2 = var9[var1];
             var10 = var13.bind(var4)(var2);
             var3 = var10.usePrimaryCtaCopy;
@@ -490,7 +491,7 @@ case 34:
             var10 = _closure1_slot9;
             var10 = var10.QUESTS_BAR_MOBILE;
             var1['location'] = var10;
-            var10 = 21;
+            var10 = 22;
             var24 = var9[var10];
             var24 = var13.bind(var4)(var24);
             var24 = var24.QuestContent;
@@ -505,7 +506,7 @@ case 34:
             var28 = var2.bind(var3)(var1);
             var3 = _closure1_slot12;
             var2 = _closure1_slot1;
-            var1 = 28;
+            var1 = 29;
             var1 = var9[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -536,7 +537,7 @@ case 36:
             var13 = _closure1_slot11;
             var11 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var8 = 29;
+            var8 = 30;
             var8 = var20[var8];
             var9 = var11.bind(var4)(var8);
             var8 = {};
@@ -546,7 +547,7 @@ case 36:
             var9 = {};
             var10 = var19.rewardContent;
             var9['style'] = var10;
-            var10 = 30;
+            var10 = 31;
             var10 = var20[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {'paused': null, 'height': 80, 'width': 80};
@@ -583,7 +584,7 @@ case 43:
             var21['style'] = var26;
             var29 = _closure1_slot0;
             var31 = _closure1_slot2;
-            var26 = 31;
+            var26 = 32;
             var26 = var31[var26];
             var26 = var29.bind(var4)(var26);
             var29 = var26.QuestOrbMultiplierPerkPill;
@@ -605,12 +606,12 @@ case 42:
             var29['style'] = var23;
             var25 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var23 = 32;
+            var23 = 33;
             var30 = var24[var23];
             var30 = var25.bind(var4)(var30);
             var33 = var30.Text;
             var32 = {'variant': 'heading-md/medium', 'color': 'mobile-text-heading-primary'};
-            var30 = 33;
+            var30 = 34;
             var34 = var24[var30];
             var34 = var25.bind(var4)(var34);
             var37 = var34.intl;
@@ -687,7 +688,7 @@ case 44:
             var10['style'] = var13;
             var13 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var12 = 34;
+            var12 = 35;
             var12 = var20[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.ShinyButton;
@@ -699,7 +700,7 @@ case 44:
             var16 = function renderIcon() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 35;
+                var1 = 36;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -726,7 +727,7 @@ case 44:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 36;
+    var4 = 37;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

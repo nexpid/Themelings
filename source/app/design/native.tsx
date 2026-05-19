@@ -767,10 +767,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var9.TableCheckboxRow;
     var3['TableCheckboxRow'] = var9;
     var9 = 77;
+    var10 = var5[var9];
+    var10 = var4.bind(var1)(var10);
+    var10 = var10.TableRadioRow;
+    var3['TableRadioRow'] = var10;
     var9 = var5[var9];
     var9 = var4.bind(var1)(var9);
-    var9 = var9.TableRadioRow;
-    var3['TableRadioRow'] = var9;
+    var9 = var9.TableRadioRowProps;
+    var3['TableRadioRowProps'] = var9;
     var9 = 78;
     var10 = var5[var9];
     var10 = var4.bind(var1)(var10);

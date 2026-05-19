@@ -366,17 +366,17 @@ case 45:
                 var18 = var21.state;
 case 44:
                 var18 = var9 === var18;
-                if(!var18) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+                if(!var18) { _fun0004_ip = 18; continue _fun0004 }
+case 46:
                 var23 = var21.endedAt;
                 var18 = var11 != var23;
-case 46:
-                if(!var18) { _fun0004_ip = 24; continue _fun0004 }
+case 18:
+                if(!var18) { _fun0004_ip = 47; continue _fun0004 }
 case 48:
                 var23 = var21.endedAt;
                 var23 = var17 - var23;
                 var18 = var23 < var10;
-case 24:
+case 47:
                 var2 = var11 != var2;
                 if(!var2) { _fun0004_ip = 49; continue _fun0004 }
 case 50:
@@ -394,22 +394,22 @@ case 54:
 case 53:
                 var2 = var19;
 case 51:
-                if(var2) { _fun0004_ip = 55; continue _fun0004 }
-case 56:
+                if(var2) { _fun0004_ip = 26; continue _fun0004 }
+case 55:
                 var22 = var11 == var21;
                 var19 = undefined;
-                if(var22) { _fun0004_ip = 57; continue _fun0004 }
-case 58:
+                if(var22) { _fun0004_ip = 27; continue _fun0004 }
+case 56:
                 var19 = var21.state;
-case 57:
+case 27:
                 var2 = var12 === var19;
-case 55:
+case 26:
+                if(var2) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
+                var2 = var18;
+case 57:
                 if(var2) { _fun0004_ip = 59; continue _fun0004 }
 case 60:
-                var2 = var18;
-case 59:
-                if(var2) { _fun0004_ip = 61; continue _fun0004 }
-case 62:
                 var18 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var13];
@@ -419,7 +419,7 @@ case 62:
                 var21 = _closure2_slot1;
                 var2['includeBundles'] = var21;
                 var2 = var18.bind(var19)(var20, var2);
-case 61:
+case 59:
                 var18 = var14.bind(var1)();
                 var2 = var18.done;
                 var3 = var18;
@@ -440,30 +440,30 @@ case 0:
                 var7 = var5 == var1;
                 var2 = undefined;
                 if(var7) { _fun0005_ip = 3; continue _fun0005 }
-case 63:
+case 61:
                 var2 = var1.state;
 case 3:
                 var1 = 'fetching';
                 var1 = var1 === var2;
-                if(var1) { _fun0005_ip = 64; continue _fun0005 }
-case 65:
+                if(var1) { _fun0005_ip = 62; continue _fun0005 }
+case 63:
                 var2 = arg1;
                 var2 = var5 == var2;
-                if(!var2) { _fun0005_ip = 66; continue _fun0005 }
-case 67:
+                if(!var2) { _fun0005_ip = 64; continue _fun0005 }
+case 65:
                 var3 = _closure2_slot4;
                 var3 = var3[var6];
                 var5 = var5 == var3;
                 var4 = undefined;
-                if(var5) { _fun0005_ip = 68; continue _fun0005 }
-case 69:
+                if(var5) { _fun0005_ip = 66; continue _fun0005 }
+case 67:
                 var4 = var3.state;
-case 68:
+case 66:
                 var3 = 'error';
                 var2 = var3 !== var4;
-case 66:
-                var1 = var2;
 case 64:
+                var1 = var2;
+case 62:
                 return var1;
             }
         };

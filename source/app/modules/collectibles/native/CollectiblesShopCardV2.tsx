@@ -123,7 +123,7 @@ case 0:
                 var13 = var1.product;
                 var2 = var1.onPress;
                 var _closure2_slot0 = var2;
-                var20 = var1.unpublishedAt;
+                var21 = var1.unpublishedAt;
                 var12 = var1.collectibleProductState;
                 var16 = var1.solidBackground;
                 var11 = var1.preferVCPrice;
@@ -134,7 +134,7 @@ case 5:
                 var10 = false;
 case 4:
                 var2 = var1.cardWidth;
-                var30 = var1.cardStyle;
+                var31 = var1.cardStyle;
                 var3 = var1.hideWishlistButton;
                 if(!(var3 === var4)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -207,14 +207,14 @@ case 14:
                 var2 = var8[var2];
                 var2 = var22.bind(var4)(var2);
                 var2 = var2.bind(var4)();
-                var21 = var2.shouldShowWishlistNUXActionSheet;
-                _closure2_slot2 = var21;
+                var20 = var2.shouldShowWishlistNUXActionSheet;
+                _closure2_slot2 = var20;
                 var2 = var2.showWishlistNUXActionSheet;
                 _closure2_slot3 = var2;
                 var24 = _closure1_slot3;
                 var15 = var24.useCallback;
                 var14 = new Array(3);
-                var14[0] = var21;
+                var14[0] = var20;
                 var14[1] = var2;
                 var14[2] = var18;
                 var2 = function() {
@@ -233,12 +233,12 @@ case 15:
                     }
                 };
                 var15 = var15.bind(var24)(var2, var14);
-                var21 = 13;
-                var2 = var8[var21];
+                var20 = 13;
+                var2 = var8[var20];
                 var2 = var5.bind(var4)(var2);
                 var23 = var2.intl;
                 var14 = var23.string;
-                var2 = var8[var21];
+                var2 = var8[var20];
                 var2 = var5.bind(var4)(var2);
                 var2 = var2.t;
                 var2 = var2.F8FvUy;
@@ -390,8 +390,8 @@ case 27:
                 var14 = var2.bind(var3)(var1);
                 var1 = 19;
                 var1 = var28[var1];
-                var31 = var19.bind(var4)(var1);
-                var3 = var31.useStateFromStores;
+                var30 = var19.bind(var4)(var1);
+                var3 = var30.useStateFromStores;
                 var1 = _closure1_slot5;
                 var2 = new Array(1);
                 var2[0] = var1;
@@ -408,7 +408,7 @@ case 27:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var31 = var3.bind(var31)(var2, var1);
+                var30 = var3.bind(var30)(var2, var1);
                 var3 = _closure1_slot8;
                 var1 = 21;
                 var1 = var28[var1];
@@ -420,7 +420,7 @@ case 27:
                 var29 = new Array(3);
                 var29[0] = var33;
                 var29[1] = var32;
-                var29[2] = var30;
+                var29[2] = var31;
                 var1['style'] = var29;
                 var17 = function onPress() {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -451,26 +451,26 @@ case 28:
                 var5 = var28[var5];
                 var8 = var19.bind(var4)(var5);
                 var5 = var8.shouldShowLimitedTimeBadge;
-                var8 = var5.bind(var8)(var20);
-                var29 = var13.badgeOverride;
+                var5 = var5.bind(var8)(var21);
+                var31 = var13.badgeOverride;
                 var17 = var13.type;
-                var5 = 23;
-                var5 = var28[var5];
-                var5 = var19.bind(var4)(var5);
-                var5 = var5.CollectiblesItemType;
-                var5 = var5.PROFILE_FRAME;
-                var5 = var17 === var5;
-                if(!var5) { _fun0002_ip = 30; continue _fun0002 }
+                var8 = 23;
+                var8 = var28[var8];
+                var8 = var19.bind(var4)(var8);
+                var8 = var8.CollectiblesItemType;
+                var8 = var8.PROFILE_FRAME;
+                var8 = var17 === var8;
+                if(!var8) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
-                var5 = var14;
+                var8 = var14;
 case 30:
                 var14 = var13.hideBadge;
                 var19 = null;
                 if(var14) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
-                if(!(var7 == var29)) { _fun0002_ip = 34; continue _fun0002 }
+                if(var8) { _fun0002_ip = 34; continue _fun0002 }
 case 35:
-                if(var8) { _fun0002_ip = 36; continue _fun0002 }
+                if(!(var7 == var31)) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
                 if(var5) { _fun0002_ip = 38; continue _fun0002 }
 case 39:
@@ -481,7 +481,7 @@ case 41:
                 var17 = _closure1_slot7;
                 var14 = _closure1_slot0;
                 var28 = _closure1_slot2;
-                var8 = 26;
+                var8 = 24;
                 var8 = var28[var8];
                 var8 = var14.bind(var4)(var8);
                 var14 = var8.NitroWheelIcon;
@@ -493,98 +493,98 @@ case 40:
                 _fun0002_ip = 42; continue _fun0002;
 case 38:
                 var17 = _closure1_slot7;
-                var14 = _closure1_slot4;
-                var8 = {};
-                var30 = var27.badgePill;
-                var28 = new Array(2);
-                var28[0] = var30;
-                if(var31) { _fun0002_ip = 43; continue _fun0002 }
-case 44:
-                var30 = var27.badgePillLightMode;
-                _fun0002_ip = 45; continue _fun0002;
-case 43:
-                var30 = var27.badgePillDarkMode;
-case 45:
-                var28[1] = var30;
-                var8['style'] = var28;
-                var28 = _closure1_slot0;
-                var32 = _closure1_slot2;
-                var30 = var32[var21];
-                var30 = var28.bind(var4)(var30);
-                var33 = var30.intl;
-                var30 = var33.string;
-                var21 = var32[var21];
-                var21 = var28.bind(var4)(var21);
-                var21 = var21.t;
-                var21 = var21["1m6qcO"];
-                var21 = var30.bind(var33)(var21);
-                var8['accessibilityLabel'] = var21;
-                var30 = _closure1_slot7;
-                var21 = 26;
-                var21 = var32[var21];
-                var21 = var28.bind(var4)(var21);
-                var28 = var21.NitroWheelIcon;
-                var21 = {};
-                var32 = 'xs';
-                var21['size'] = var32;
-                var32 = 'white';
-                if(!var31) { _fun0002_ip = 46; continue _fun0002 }
-case 47:
-                var32 = 'black';
-case 46:
-                var21['color'] = var32;
-                var21 = var30.bind(var4)(var28, var21);
-                var8['children'] = var21;
-                var5 = var17.bind(var4)(var14, var8);
-case 42:
-                _fun0002_ip = 48; continue _fun0002;
-case 36:
-                var17 = _closure1_slot7;
                 var14 = _closure1_slot1;
-                var21 = _closure1_slot2;
-                var8 = 25;
-                var8 = var21[var8];
+                var28 = _closure1_slot2;
+                var8 = 26;
+                var8 = var28[var8];
                 var14 = var14.bind(var4)(var8);
                 var8 = {};
-                var8['unpublishedAt'] = var20;
-                var20 = var27.badge;
-                var8['style'] = var20;
+                var8['unpublishedAt'] = var21;
+                var21 = var27.badge;
+                var8['style'] = var21;
                 var5 = var17.bind(var4)(var14, var8);
+case 42:
+                _fun0002_ip = 43; continue _fun0002;
+case 36:
+                var17 = _closure1_slot7;
+                var14 = _closure1_slot4;
+                var8 = {};
+                var28 = var27.badgePill;
+                var21 = new Array(2);
+                var21[0] = var28;
+                if(var30) { _fun0002_ip = 44; continue _fun0002 }
+case 45:
+                var28 = var27.badgePillLightMode;
+                _fun0002_ip = 46; continue _fun0002;
+case 44:
+                var28 = var27.badgePillDarkMode;
+case 46:
+                var21[1] = var28;
+                var8['style'] = var21;
+                var29 = _closure1_slot7;
+                var28 = _closure1_slot0;
+                var32 = _closure1_slot2;
+                var21 = 25;
+                var21 = var32[var21];
+                var21 = var28.bind(var4)(var21);
+                var28 = var21.Text;
+                var21 = {'variant': 'text-xs/bold', 'color': null, 'allowFontScaling': false, 'style': null, 'lineClamp': 1};
+                var32 = 'white';
+                if(!var30) { _fun0002_ip = 47; continue _fun0002 }
 case 48:
+                var32 = 'black';
+case 47:
+                var21['color'] = var32;
+                var32 = var27.badgeOverrideText;
+                var21['style'] = var32;
+                var21['children'] = var31;
+                var21 = var29.bind(var4)(var28, var21);
+                var8['children'] = var21;
+                var5 = var17.bind(var4)(var14, var8);
+case 43:
                 _fun0002_ip = 49; continue _fun0002;
 case 34:
                 var17 = _closure1_slot7;
                 var14 = _closure1_slot4;
                 var8 = {};
-                var21 = var27.badgePill;
-                var20 = new Array(2);
-                var20[0] = var21;
-                if(var31) { _fun0002_ip = 50; continue _fun0002 }
+                var28 = var27.badgePill;
+                var21 = new Array(2);
+                var21[0] = var28;
+                if(var30) { _fun0002_ip = 50; continue _fun0002 }
 case 51:
-                var21 = var27.badgePillLightMode;
+                var28 = var27.badgePillLightMode;
                 _fun0002_ip = 52; continue _fun0002;
 case 50:
-                var21 = var27.badgePillDarkMode;
+                var28 = var27.badgePillDarkMode;
 case 52:
-                var20[1] = var21;
-                var8['style'] = var20;
-                var28 = _closure1_slot7;
+                var21[1] = var28;
+                var8['style'] = var21;
                 var21 = _closure1_slot0;
-                var30 = _closure1_slot2;
-                var20 = 24;
-                var20 = var30[var20];
+                var29 = _closure1_slot2;
+                var28 = var29[var20];
+                var28 = var21.bind(var4)(var28);
+                var31 = var28.intl;
+                var28 = var31.string;
+                var20 = var29[var20];
                 var20 = var21.bind(var4)(var20);
-                var21 = var20.Text;
-                var20 = {'variant': 'text-xs/bold', 'color': null, 'allowFontScaling': false, 'style': null, 'lineClamp': 1};
-                var30 = 'white';
-                if(!var31) { _fun0002_ip = 53; continue _fun0002 }
+                var20 = var20.t;
+                var20 = var20["1m6qcO"];
+                var20 = var28.bind(var31)(var20);
+                var8['accessibilityLabel'] = var20;
+                var28 = _closure1_slot7;
+                var20 = 24;
+                var20 = var29[var20];
+                var20 = var21.bind(var4)(var20);
+                var21 = var20.NitroWheelIcon;
+                var20 = {};
+                var29 = 'xs';
+                var20['size'] = var29;
+                var29 = 'white';
+                if(!var30) { _fun0002_ip = 53; continue _fun0002 }
 case 54:
-                var30 = 'black';
+                var29 = 'black';
 case 53:
-                var20['color'] = var30;
-                var30 = var27.badgeOverrideText;
-                var20['style'] = var30;
-                var20['children'] = var29;
+                var20['color'] = var29;
                 var20 = var28.bind(var4)(var21, var20);
                 var8['children'] = var20;
                 var5 = var17.bind(var4)(var14, var8);

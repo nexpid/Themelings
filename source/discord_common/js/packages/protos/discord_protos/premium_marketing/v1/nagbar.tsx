@@ -260,17 +260,17 @@ case 26:
                 var23 = var24;
                 var22 = var2;
                 if(!(var12 !== var24)) { _fun0004_ip = 27; continue _fun0004 }
-case 6:
+case 28:
                 var26 = var24;
-                if(!(var13 === var24)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+                if(!(var13 === var24)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                 var27 = _closure1_slot0;
                 var25 = _closure1_slot1;
                 var25 = var25[var14];
                 var25 = var27.bind(var17)(var25);
                 var25 = var25.UnknownFieldHandler;
                 var26 = var25.onRead;
-case 28:
+case 29:
                 var35 = var19.typeName;
                 var36 = undefined;
                 var34 = var1;
@@ -367,8 +367,8 @@ case 0:
                 var2 = arg3;
                 var3 = var5.body;
                 var4 = '';
-                if(!(var4 !== var3)) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+                if(!(var4 !== var3)) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -383,10 +383,10 @@ case 31:
                 var6 = var7.string;
                 var3 = var5.body;
                 var3 = var6.bind(var7)(var3);
-case 30:
+case 31:
                 var3 = var5.ctaLabel;
-                if(!(var4 !== var3)) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                if(!(var4 !== var3)) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -401,11 +401,11 @@ case 33:
                 var6 = var7.string;
                 var3 = var5.ctaLabel;
                 var3 = var6.bind(var7)(var3);
-case 32:
+case 33:
                 var6 = var5.ctaAction;
                 var3 = 0;
-                if(!(var3 !== var6)) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+                if(!(var3 !== var6)) { _fun0005_ip = 35; continue _fun0005 }
+case 7:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -420,7 +420,7 @@ case 35:
                 var6 = var7.int32;
                 var3 = var5.ctaAction;
                 var3 = var6.bind(var7)(var3);
-case 34:
+case 35:
                 var3 = var5.deeplinkSection;
                 if(!(var4 !== var3)) { _fun0005_ip = 36; continue _fun0005 }
 case 37:

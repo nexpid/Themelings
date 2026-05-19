@@ -65,6 +65,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['isIn'] = var4;
+    var4 = function isInSet(arg1, arg2) {
+        var3 = arg2;
+        var2 = var3.has;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['isInSet'] = var4;
     var2 = function isObjectEntryNotNullish(arg1) {
         var2 = arg1;
         var1 = 1;

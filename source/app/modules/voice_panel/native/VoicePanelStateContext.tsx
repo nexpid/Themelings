@@ -3,8 +3,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
-    var10 = global;
-    var7 = var10.Object;
+    var11 = global;
+    var7 = var11.Object;
     var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
@@ -35,11 +35,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['channelId'] = var8;
     var2['channelType'] = var1;
     var8 = 4;
-    var11 = var6[var8];
-    var16 = var5.bind(var1)(var11);
+    var10 = var6[var8];
+    var16 = var5.bind(var1)(var10);
     var12 = var16.createFakeSharedValue;
-    var11 = false;
-    var12 = var12.bind(var16)(var11);
+    var10 = false;
+    var12 = var12.bind(var16)(var10);
     var2['connected'] = var12;
     var12 = var6[var8];
     var17 = var5.bind(var1)(var12);
@@ -53,9 +53,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = {};
     var19 = var19.FLOATING_DEFAULT;
     var12['mode'] = var19;
-    var12['locked'] = var11;
+    var12['locked'] = var10;
     var12['height'] = var18;
-    var12['pushToTalk'] = var11;
+    var12['pushToTalk'] = var10;
     var12 = var16.bind(var17)(var12);
     var2['controlsSpecs'] = var12;
     var12 = function dismissPanel() {
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var8];
     var16 = var5.bind(var1)(var12);
     var12 = var16.createFakeSharedValue;
-    var12 = var12.bind(var16)(var11);
+    var12 = var12.bind(var16)(var10);
     var2['dragScrolling'] = var12;
     var12 = var6[var8];
     var17 = var5.bind(var1)(var12);
@@ -109,11 +109,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         throw var1;
     };
     var2['hideControls'] = var16;
-    var2['isCall'] = var11;
+    var2['isCall'] = var10;
     var16 = var6[var8];
     var17 = var5.bind(var1)(var16);
     var16 = var17.createFakeSharedValue;
-    var16 = var16.bind(var17)(var11);
+    var16 = var16.bind(var17)(var10);
     var2['isFocusedVideoZoomed'] = var16;
     var16 = 5;
     var17 = var6[var16];
@@ -138,47 +138,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var14.PANEL;
     var14 = var16.bind(var17)(var14);
     var2['morphablePanelMode'] = var14;
-    var10 = var10.Set;
-    var14 = var10.prototype;
-    var14 = Object.create(var14, {constructor: {value: var10}});
+    var11 = var11.Set;
+    var14 = var11.prototype;
+    var14 = Object.create(var14, {constructor: {value: var11}});
     var23 = var14;
-    var10 = new var23[var10](var22);
-    var10 = var10 instanceof Object ? var10 : var14;
-    var2['mountedCards'] = var10;
-    var10 = var6[var8];
-    var16 = var5.bind(var1)(var10);
+    var11 = new var23[var11](var22);
+    var11 = var11 instanceof Object ? var11 : var14;
+    var2['mountedCards'] = var11;
+    var11 = var6[var8];
+    var16 = var5.bind(var1)(var11);
     var14 = var16.createFakeSharedValue;
-    var10 = {'top': 0, 'bottom': 0};
-    var10 = var14.bind(var16)(var10);
-    var2['pipAvoidanceSpecs'] = var10;
-    var10 = {};
-    var10['current'] = var12;
-    var14 = function getTag() {
-        var1 = 0;
-        return var1;
-    };
-    var10['getTag'] = var14;
-    var2['pipContainerRef'] = var10;
-    var10 = var6[var8];
-    var14 = var5.bind(var1)(var10);
-    var10 = var14.createFakeSharedValue;
-    var10 = var10.bind(var14)(var15);
-    var2['preJoinContentSize'] = var10;
-    var10 = var6[var8];
-    var16 = var5.bind(var1)(var10);
+    var11 = {'top': 0, 'bottom': 0};
+    var11 = var14.bind(var16)(var11);
+    var2['pipAvoidanceSpecs'] = var11;
+    var11 = var6[var8];
+    var14 = var5.bind(var1)(var11);
+    var11 = var14.createFakeSharedValue;
+    var11 = var11.bind(var14)(var15);
+    var2['preJoinContentSize'] = var11;
+    var11 = var6[var8];
+    var16 = var5.bind(var1)(var11);
     var14 = var16.createFakeSharedValue;
-    var10 = 6;
-    var10 = var6[var10];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.EMPTY_SAFE_AREA_INSETS;
-    var10 = var14.bind(var16)(var10);
-    var2['safeArea'] = var10;
-    var10 = var6[var8];
-    var14 = var5.bind(var1)(var10);
-    var10 = var14.createFakeSharedValue;
-    var10 = var10.bind(var14)(var15);
-    var2['scrollPosition'] = var10;
-    var10 = function setControlsMode() {
+    var11 = 6;
+    var11 = var6[var11];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.EMPTY_SAFE_AREA_INSETS;
+    var11 = var14.bind(var16)(var11);
+    var2['safeArea'] = var11;
+    var11 = var6[var8];
+    var14 = var5.bind(var1)(var11);
+    var11 = var14.createFakeSharedValue;
+    var11 = var11.bind(var14)(var15);
+    var2['scrollPosition'] = var11;
+    var11 = function setControlsMode() {
         var1 = global;
         var3 = var1.Error;
         var1 = var3.prototype;
@@ -189,8 +181,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         throw var1;
     };
-    var2['setControlsMode'] = var10;
-    var10 = function setFocused() {
+    var2['setControlsMode'] = var11;
+    var11 = function setFocused() {
         var1 = global;
         var3 = var1.Error;
         var1 = var3.prototype;
@@ -201,8 +193,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         throw var1;
     };
-    var2['setFocused'] = var10;
-    var10 = function setIsFocusedVideoZoomed() {
+    var2['setFocused'] = var11;
+    var11 = function setIsFocusedVideoZoomed() {
         var1 = global;
         var3 = var1.Error;
         var1 = var3.prototype;
@@ -213,8 +205,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         throw var1;
     };
-    var2['setIsFocusedVideoZoomed'] = var10;
-    var10 = function setMode() {
+    var2['setIsFocusedVideoZoomed'] = var11;
+    var11 = function setMode() {
         var1 = global;
         var3 = var1.Error;
         var1 = var3.prototype;
@@ -225,8 +217,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         throw var1;
     };
-    var2['setMode'] = var10;
-    var10 = function setShowFloatingCTA() {
+    var2['setMode'] = var11;
+    var11 = function setShowFloatingCTA() {
         var1 = global;
         var3 = var1.Error;
         var1 = var3.prototype;
@@ -237,7 +229,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         throw var1;
     };
-    var2['setShowFloatingCTA'] = var10;
+    var2['setShowFloatingCTA'] = var11;
     var9 = function showControls() {
         var1 = global;
         var3 = var1.Error;
@@ -251,37 +243,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['showControls'] = var9;
     var9 = var6[var8];
-    var10 = var5.bind(var1)(var9);
-    var9 = var10.createFakeSharedValue;
-    var9 = var9.bind(var10)(var12);
+    var11 = var5.bind(var1)(var9);
+    var9 = var11.createFakeSharedValue;
+    var9 = var9.bind(var11)(var12);
     var2['showFloatingCTA'] = var9;
     var9 = {};
     var2['streamOutputSinkStack'] = var9;
     var9 = var6[var8];
     var12 = var5.bind(var1)(var9);
-    var10 = var12.createFakeSharedValue;
+    var11 = var12.createFakeSharedValue;
     var9 = {'width': 0, 'height': 0, 'landscape': false};
-    var9 = var10.bind(var12)(var9);
+    var9 = var11.bind(var12)(var9);
     var2['windowDimensions'] = var9;
     var9 = var6[var8];
     var12 = var5.bind(var1)(var9);
-    var10 = var12.createFakeSharedValue;
+    var11 = var12.createFakeSharedValue;
     var9 = {'drawerWidth': 0, 'drawerHeight': 0, 'drawerX': 0, 'drawerY': 0, 'pipX': 0, 'pipY': 0, 'animated': true};
     var13 = var13.PANEL;
     var9['mode'] = var13;
-    var9 = var10.bind(var12)(var9);
+    var9 = var11.bind(var12)(var9);
     var2['wrapperDimensions'] = var9;
     var9 = var6[var8];
-    var10 = var5.bind(var1)(var9);
-    var9 = var10.createFakeSharedValue;
-    var9 = var9.bind(var10)(var11);
+    var11 = var5.bind(var1)(var9);
+    var9 = var11.createFakeSharedValue;
+    var9 = var9.bind(var11)(var10);
     var2['useReducedMotion'] = var9;
+    var9 = var6[var8];
+    var12 = var5.bind(var1)(var9);
+    var11 = var12.createFakeSharedValue;
+    var9 = {'gestureActive': false, 'x': 0, 'y': 0};
+    var9 = var11.bind(var12)(var9);
+    var2['wrapperOffset'] = var9;
     var8 = var6[var8];
-    var10 = var5.bind(var1)(var8);
-    var9 = var10.createFakeSharedValue;
-    var8 = {'gestureActive': false, 'x': 0, 'y': 0};
-    var8 = var9.bind(var10)(var8);
-    var2['wrapperOffset'] = var8;
+    var9 = var5.bind(var1)(var8);
+    var8 = var9.createFakeSharedValue;
+    var8 = var8.bind(var9)(var10);
+    var2['panelCardStillInPIP'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 7;
     var4 = var6[var4];

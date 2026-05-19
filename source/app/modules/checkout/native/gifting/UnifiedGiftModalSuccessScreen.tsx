@@ -1,4 +1,4 @@
-// app/modules/collectibles/native/CollectiblesShopSendGiftSuccess.tsx
+// app/modules/checkout/native/gifting/UnifiedGiftModalSuccessScreen.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var11 = metroImportDefault;
@@ -85,9 +85,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/collectibles/native/CollectiblesShopSendGiftSuccess.tsx';
+    var4 = 'modules/checkout/native/gifting/UnifiedGiftModalSuccessScreen.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function CollectiblesShopSendGiftSuccess(arg1) {
+    var2 = function UnifiedGiftModalSuccessScreen(arg1) {
         var1 = arg1;
         var2 = var1.giftStyle;
         var11 = var1.onClose;

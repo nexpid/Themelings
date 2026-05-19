@@ -14,6 +14,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NITRO'] = var4;
     var1 = 'NITRO';
     var2[var4] = var1;
+    var5 = 1;
+    var2['XBOX'] = var5;
+    var1 = 'XBOX';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

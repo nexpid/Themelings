@@ -58,14 +58,14 @@ case 2:
     var9 = var7.bind(var1)(var5);
     var6 = var9.createApexExperiment;
     var5 = {'kind': 'user', 'name': '2026-03-clips-experiment'};
-    var10 = {'enableClips': false, 'ignorePlatformRestriction': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
+    var10 = {'enableClips': false, 'ignorePlatformRestriction': false, 'enableScreenshotKeybind': false, 'enableAdvancedSignals': false};
     var5['defaultConfig'] = var10;
     var10 = {};
-    var11 = {'enableClips': true, 'ignorePlatformRestriction': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
+    var11 = {'enableClips': true, 'ignorePlatformRestriction': false, 'enableScreenshotKeybind': false, 'enableAdvancedSignals': false};
     var10[1] = var11;
-    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': true, 'enableAdvancedSignals': true};
+    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'enableScreenshotKeybind': false, 'enableAdvancedSignals': true};
     var10[2] = var11;
-    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
+    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'enableScreenshotKeybind': false, 'enableAdvancedSignals': false};
     var10[3] = var11;
     var5['variations'] = var10;
     var5 = var6.bind(var9)(var5);
@@ -184,17 +184,6 @@ case 10:
         return var1;
     };
     var3['useScreenshotKeybindEnabled'] = var4;
-    var4 = function areVoiceOnlyClipsEnabled() {
-        var3 = _closure1_slot6;
-        var2 = var3.getConfig;
-        var1 = {};
-        var4 = 'areVoiceOnlyClipsEnabled';
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.enableVoiceOnlyClips;
-        return var1;
-    };
-    var3['areVoiceOnlyClipsEnabled'] = var4;
     var2 = function areAdvancedSignalsEnabled() {
         var3 = _closure1_slot6;
         var2 = var3.getConfig;

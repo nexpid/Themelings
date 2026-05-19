@@ -389,14 +389,18 @@ case 36:
     var1 = function _conclusionFromDiscordContentClassificationFlags(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var7 = arg2;
             var6 = _closure1_slot1;
             var1 = _closure1_slot2;
             var4 = 2;
             var2 = var1[var4];
             var5 = undefined;
+            var8 = var6.bind(var5)(var2);
+            var7 = var8.deserialize;
+            var2 = arg2;
+            var7 = var7.bind(var8)(var2);
+            var2 = var1[var4];
             var6 = var6.bind(var5)(var2);
-            var2 = var6.hasFlag;
+            var2 = var6.has;
             var8 = _closure1_slot0;
             var9 = 3;
             var1 = var1[var9];
@@ -407,17 +411,17 @@ case 0:
             var2 = {};
             var6 = arg1;
             var2['source'] = var6;
-            if(var1) { _fun0005_ip = 61; continue _fun0005 }
-case 62:
+            if(var1) { _fun0005_ip = 22; continue _fun0005 }
+case 61:
             var6 = _closure1_slot1;
             var1 = _closure1_slot2;
             var4 = var1[var4];
             var6 = var6.bind(var5)(var4);
-            var4 = var6.hasAnyFlag;
+            var4 = var6.hasAny;
             var8 = _closure1_slot0;
             var1 = var1[var9];
             var1 = var8.bind(var5)(var1);
-            var1 = var1.DiscordContentClassificationFlagsSets;
+            var1 = var1.DiscordContentClassificationFlagMasks;
             var1 = var1.RESTRICTED_TO_ADULT;
             var1 = var4.bind(var6)(var7, var1);
             var6 = _closure1_slot0;
@@ -426,17 +430,17 @@ case 62:
             var4 = var7[var4];
             var4 = var6.bind(var5)(var4);
             var4 = var4.AgeRestrictionStatus;
-            if(var1) { _fun0005_ip = 63; continue _fun0005 }
-case 14:
+            if(var1) { _fun0005_ip = 62; continue _fun0005 }
+case 63:
             var1 = var4.EVERYONE;
             _fun0005_ip = 64; continue _fun0005;
-case 63:
+case 62:
             var1 = var4.ADULT;
 case 64:
             var2['status'] = var1;
             var1 = var2;
             _fun0005_ip = 65; continue _fun0005;
-case 61:
+case 22:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 1;

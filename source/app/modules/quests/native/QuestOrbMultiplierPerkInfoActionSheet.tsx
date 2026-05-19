@@ -374,7 +374,7 @@ case 4:
         return var1;
     };
     var _closure1_slot14 = var4;
-    var4 = 22;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -390,14 +390,13 @@ case 0:
             var _closure2_slot1 = var10;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var4 = 17;
-            var5 = var2[var4];
+            var5 = 17;
+            var8 = var2[var5];
             var4 = undefined;
-            var8 = var3.bind(var4)(var5);
-            var5 = var8.shouldReceiveQuestOrbMultiplier;
-            var9 = var5.bind(var8)(var10);
+            var9 = var3.bind(var4)(var8);
+            var8 = var9.shouldReceiveQuestOrbMultiplier;
+            var9 = var8.bind(var9)(var10);
             var _closure2_slot2 = var9;
-            var5 = 18;
             var2 = var2[var5];
             var2 = var3.bind(var4)(var2);
             var2 = var2.QuestOrbMultiplierEligibilityType;
@@ -423,7 +422,7 @@ case 0:
                     var3 = _closure2_slot1;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 18;
+                    var1 = 17;
                     var1 = var5[var1];
                     var6 = undefined;
                     var1 = var4.bind(var6)(var1);
@@ -453,7 +452,7 @@ case 7:
                     var4 = var3.intl;
                     var3 = var4.string;
                     var5 = _closure1_slot1;
-                    var2 = 19;
+                    var2 = 18;
                     var2 = var7[var2];
                     var2 = var5.bind(var6)(var2);
                     var2 = var2.c5usUr;
@@ -474,7 +473,7 @@ case 0:
                     var3 = _closure2_slot1;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 18;
+                    var1 = 17;
                     var1 = var5[var1];
                     var7 = undefined;
                     var1 = var4.bind(var7)(var1);
@@ -493,22 +492,22 @@ case 8:
                     var3 = var9[var3];
                     var3 = var4.bind(var7)(var3);
                     var3 = var3.t;
-                    if(var1) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                    if(var1) { _fun0004_ip = 5; continue _fun0004 }
+case 11:
                     var4 = var3.G5k+lZ;
                     var1 = {};
                     var9 = _closure2_slot0;
                     var1['bonusOrbMultiplier'] = var9;
                     var1 = var5.bind(var8)(var4, var1);
-                    _fun0004_ip = 13; continue _fun0004;
-case 11:
+                    _fun0004_ip = 12; continue _fun0004;
+case 5:
                     var4 = var3.NpUfej;
                     var3 = {};
                     var9 = _closure2_slot0;
                     var3['bonusOrbMultiplier'] = var9;
                     var1 = var5.bind(var8)(var4, var3);
-case 13:
-                    _fun0004_ip = 14; continue _fun0004;
+case 12:
+                    _fun0004_ip = 13; continue _fun0004;
 case 10:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -518,7 +517,7 @@ case 10:
                     var5 = var3.intl;
                     var4 = var5.format;
                     var3 = _closure1_slot1;
-                    var2 = 19;
+                    var2 = 18;
                     var2 = var8[var2];
                     var2 = var3.bind(var7)(var2);
                     var3 = var2.UkrcSH;
@@ -526,7 +525,7 @@ case 10:
                     var6 = _closure2_slot0;
                     var2['bonusOrbMultiplier'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
-case 14:
+case 13:
                     return var1;
                 }
             };
@@ -534,7 +533,7 @@ case 14:
             var3 = _closure1_slot8;
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 20;
+            var1 = 19;
             var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BottomSheet;
@@ -542,7 +541,7 @@ case 14:
             var5 = _closure1_slot11;
             var1['contentStyles'] = var5;
             var6 = _closure1_slot1;
-            var5 = 21;
+            var5 = 20;
             var5 = var12[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};

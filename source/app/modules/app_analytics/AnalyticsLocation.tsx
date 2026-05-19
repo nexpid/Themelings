@@ -268,6 +268,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_ROLE_SUBSCRIPTION_EMOJI_TEXT_POPOVER_UPSELL'] = var1;
     var1 = 'premium subscription cancellation modal';
     var2['PREMIUM_SUBSCRIPTION_CANCELLATION_MODAL'] = var1;
+    var1 = 'application one time purchase payment modal';
+    var2['APPLICATION_OTP_PAYMENT_MODAL'] = var1;
     var1 = 'application subscription cancellation modal';
     var2['APPLICATION_SUBSCRIPTION_CANCELLATION_MODAL'] = var1;
     var1 = 'pending plan change notice';
@@ -328,6 +330,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['INVITE_MODAL'] = var1;
     var1 = 'invite embed';
     var2['INVITE_EMBED'] = var1;
+    var1 = 'voice channel list invite embed';
+    var2['VOICE_CHANNEL_LIST_INVITE_EMBED'] = var1;
     var1 = 'voice invite suggestions';
     var2['VOICE_INVITE_SUGGESTIONS'] = var1;
     var1 = 'voice invite suggestions popover';

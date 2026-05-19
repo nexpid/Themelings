@@ -257,7 +257,7 @@ case 7:
     var4['mascotLayer'] = var9;
     var9 = {'width': '100%', 'aspectRatio': 1.8324022346368716};
     var4['mascotImage'] = var9;
-    var9 = {'width': '100%', 'aspectRatio': 3, 'resizeMode': 'contain'};
+    var9 = {'width': '100%', 'aspectRatio': 2.5, 'resizeMode': 'contain'};
     var4['framePreviewImage'] = var9;
     var9 = {};
     var10 = 7;

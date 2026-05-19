@@ -3843,7 +3843,7 @@ case 191:
         }
     };
     var _closure1_slot55 = var4;
-    var4 = 112;
+    var4 = 113;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -3955,10 +3955,12 @@ case 210:
             var5 = var2;
 case 202:
             var3 = _closure1_slot42;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 112;
+            var1 = var7[var1];
+            var2 = var2.bind(var4)(var1);
             var1 = {};
-            var7 = false;
-            var1['collapsable'] = var7;
             var6 = var6.container;
             var1['style'] = var6;
             var1['children'] = var5;

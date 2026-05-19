@@ -63,6 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var1.tab;
         var _closure2_slot1 = var13;
         var12 = var1.isFocused;
+        var6 = var1.width;
         var9 = _closure1_slot0;
         var10 = _closure1_slot2;
         var2 = 7;
@@ -75,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = 8;
         var5 = var10[var5];
         var5 = var2.bind(var4)(var5);
-        var11 = var5.bind(var4)();
+        var11 = var5.bind(var4)(var6);
         var _closure2_slot2 = var11;
         var5 = 9;
         var5 = var10[var5];

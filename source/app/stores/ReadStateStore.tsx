@@ -7108,19 +7108,19 @@ case 328:
 case 329:
                 var4 = var9.channels;
                 var4 = var4.writes;
-                _fun0129_ip = 330; continue _fun0129;
+                _fun0129_ip = 30; continue _fun0129;
 case 96:
                 var11 = var9.channels;
                 var4 = var11.items;
-case 330:
+case 30:
                 var4 = var10.bind(var1)(var4);
                 var4 = var9.channelTimestampUpdates;
-                if(!(var8 != var4)) { _fun0129_ip = 165; continue _fun0129 }
-case 273:
+                if(!(var8 != var4)) { _fun0129_ip = 101; continue _fun0129 }
+case 330:
                 var10 = _closure1_slot107;
                 var4 = var9.channelTimestampUpdates;
                 var4 = var10.bind(var1)(var4);
-case 165:
+case 101:
                 var4 = _closure1_slot99;
                 var4 = var4.bind(var1)(var9);
                 var9 = var7.bind(var1)();
@@ -7355,20 +7355,20 @@ case 48:
 case 239:
                 var4 = var3.channels;
                 var4 = var4.writes;
-                _fun0134_ip = 312; continue _fun0134;
+                _fun0134_ip = 236; continue _fun0134;
 case 194:
                 var6 = var3.channels;
                 var4 = var6.items;
-case 312:
+case 236:
                 var4 = var5.bind(var1)(var4);
                 var5 = var3.channelTimestampUpdates;
                 var4 = null;
-                if(!(var4 != var5)) { _fun0134_ip = 208; continue _fun0134 }
-case 150:
+                if(!(var4 != var5)) { _fun0134_ip = 58; continue _fun0134 }
+case 195:
                 var5 = _closure1_slot107;
                 var4 = var3.channelTimestampUpdates;
                 var4 = var5.bind(var1)(var4);
-case 208:
+case 58:
                 var2 = _closure1_slot99;
                 var2 = var2.bind(var1)(var3);
                 return var1;

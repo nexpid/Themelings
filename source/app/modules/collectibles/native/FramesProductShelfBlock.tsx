@@ -248,7 +248,7 @@ case 3:
             var6 = {};
             var9 = var12.container;
             var6['style'] = var9;
-            var9 = var23.backgroundImage;
+            var9 = var23.mobileBackgroundImage;
             var10 = var10 != var9;
             if(!var10) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
@@ -258,7 +258,7 @@ case 5:
             var14 = var12.backgroundImage;
             var9['style'] = var14;
             var14 = {};
-            var17 = var23.backgroundImage;
+            var17 = var23.mobileBackgroundImage;
             var14['uri'] = var17;
             var9['source'] = var14;
             var10 = var13.bind(var5)(var11, var9);

@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['fullGradientContent'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 18;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -163,11 +163,10 @@ case 0:
             var11 = var2.bind(var3)(var11);
             var _closure2_slot5 = var11;
             var2 = 10;
-            var2 = var9[var2];
-            var3 = var6.bind(var5)(var2);
-            var2 = var3.shouldReceiveQuestOrbMultiplier;
-            var3 = var2.bind(var3)(var4);
-            var2 = 11;
+            var3 = var9[var2];
+            var13 = var6.bind(var5)(var3);
+            var3 = var13.shouldReceiveQuestOrbMultiplier;
+            var3 = var3.bind(var13)(var4);
             var2 = var9[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.QuestOrbMultiplierEligibilityType;
@@ -206,7 +205,7 @@ case 6:
 case 8:
             var6 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 12;
+            var2 = 11;
             var4 = var12[var2];
             var4 = var6.bind(var5)(var4);
             var8 = var4.intl;
@@ -237,7 +236,7 @@ case 13:
             var15 = _closure1_slot5;
             var8 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var4 = 13;
+            var4 = 12;
             var4 = var18[var4];
             var4 = var8.bind(var5)(var4);
             var8 = var4.NitroWheelIcon;
@@ -249,7 +248,7 @@ case 12:
             var4 = _closure1_slot5;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var18 = 14;
+            var18 = 13;
             var18 = var8[var18];
             var18 = var3.bind(var5)(var18);
             var19 = var18.Text;
@@ -259,7 +258,7 @@ case 12:
             var15[1] = var18;
             var2['children'] = var15;
             var13 = var13.bind(var5)(var12, var2);
-            var2 = 15;
+            var2 = 14;
             var2 = var8[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.PressableOpacity;
@@ -269,7 +268,7 @@ case 12:
 case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 15;
                     var2 = var2[var1];
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);
@@ -303,7 +302,7 @@ case 17:
             var15 = _closure1_slot5;
             var12 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var9 = 17;
+            var9 = 16;
             var9 = var17[var9];
             var12 = var12.bind(var5)(var9);
             var9 = {};

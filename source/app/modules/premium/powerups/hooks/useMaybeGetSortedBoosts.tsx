@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -423,56 +423,72 @@ case 17:
         var1 = function() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                var7 = _closure1_slot7;
-                var4 = var7.getMember;
+                var8 = _closure1_slot7;
+                var4 = var8.getMember;
                 var2 = _closure2_slot0;
                 var3 = var2.guildId;
                 var1 = var2.userId;
-                var4 = var4.bind(var7)(var3, var1);
+                var4 = var4.bind(var8)(var3, var1);
                 var1 = {};
-                var6 = var7.getNick;
+                var7 = var8.getNick;
                 var3 = var2.guildId;
                 var2 = var2.userId;
-                var3 = var6.bind(var7)(var3, var2);
+                var3 = var7.bind(var8)(var3, var2);
                 var2 = null;
                 if(!(var2 == var3)) { _fun0008_ip = 19; continue _fun0008 }
 case 20:
-                var5 = _closure2_slot0;
-                var6 = var5.user;
-                var7 = var2 == var6;
-                var5 = undefined;
-                if(var7) { _fun0008_ip = 17; continue _fun0008 }
+                var6 = _closure2_slot0;
+                var7 = var6.user;
+                var8 = var2 == var7;
+                var6 = undefined;
+                if(var8) { _fun0008_ip = 17; continue _fun0008 }
 case 21:
-                var5 = var6.username;
+                var6 = var7.username;
 case 17:
-                var3 = var5;
+                var3 = var6;
 case 19:
+                if(!(var2 == var3)) { _fun0008_ip = 22; continue _fun0008 }
+case 23:
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var5 = 12;
+                var6 = var10[var5];
+                var8 = undefined;
+                var6 = var9.bind(var8)(var6);
+                var7 = var6.intl;
+                var6 = var7.string;
+                var5 = var10[var5];
+                var5 = var9.bind(var8)(var5);
+                var5 = var5.t;
+                var5 = var5["30mdIx"];
+                var3 = var6.bind(var7)(var5);
+case 22:
                 var1['username'] = var3;
                 var5 = var2 == var4;
                 var6 = undefined;
-                if(var5) { _fun0008_ip = 22; continue _fun0008 }
-case 23:
+                if(var5) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
                 var6 = var4.colorString;
-case 22:
+case 24:
                 var7 = var2 != var6;
                 var5 = null;
-                if(!var7) { _fun0008_ip = 24; continue _fun0008 }
-case 25:
+                if(!var7) { _fun0008_ip = 26; continue _fun0008 }
+case 27:
                 var5 = var6;
-case 24:
+case 26:
                 var1['roleColor'] = var5;
                 var5 = var2 == var4;
                 var3 = undefined;
-                if(var5) { _fun0008_ip = 26; continue _fun0008 }
-case 27:
+                if(var5) { _fun0008_ip = 28; continue _fun0008 }
+case 29:
                 var3 = var4.colorStrings;
-case 26:
+case 28:
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
+                if(!var4) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
                 var2 = var3;
-case 28:
+case 30:
                 var1['roleColorStrings'] = var2;
                 return var1;
             }

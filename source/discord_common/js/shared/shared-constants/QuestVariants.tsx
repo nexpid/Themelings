@@ -162,6 +162,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NITRO_2_POINT_0_CTA'] = var4;
     var1 = 'NITRO_2_POINT_0_CTA';
     var2[var4] = var1;
+    var4 = 41;
+    var2['ORBS_MULTIPLIER_QUEST'] = var4;
+    var1 = 'ORBS_MULTIPLIER_QUEST';
+    var2[var4] = var1;
+    var4 = 42;
+    var2['XBOX_GAME_PASS_QUEST'] = var4;
+    var1 = 'XBOX_GAME_PASS_QUEST';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

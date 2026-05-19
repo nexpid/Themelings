@@ -47,6 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['categoryStoreListingId'] = var4;
             var4 = var2.banner_text_color;
             var3['bannerTextColor'] = var4;
+            var4 = var2.banner_body_text_color;
+            var3['bannerBodyTextColor'] = var4;
             var4 = var2.disable_cta;
             var3['disableCta'] = var4;
             var4 = var2.wide_banner_url;

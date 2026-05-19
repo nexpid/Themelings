@@ -179,15 +179,30 @@ case 19:
     };
     var _closure1_slot17 = var1;
     var9 = function handleActivityComplete(arg1) {
-        var5 = _closure1_slot17;
-        var2 = _closure1_slot10;
-        var4 = var2.COMPLETE;
-        var1 = _closure1_slot11;
-        var3 = var1.JOIN;
-        var2 = undefined;
-        var1 = arg1;
-        var1 = var5.bind(var2)(var4, var3, var1);
-        return var1;
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var6 = arg1;
+            var2 = var6.type;
+            var1 = 'ACTIVITY_JOIN';
+            var1 = var1 !== var2;
+            if(var1) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
+            var3 = var6.parentApplicationId;
+            var2 = null;
+            var1 = var2 == var3;
+case 21:
+            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
+            var5 = _closure1_slot17;
+            var3 = _closure1_slot10;
+            var4 = var3.COMPLETE;
+            var2 = _closure1_slot11;
+            var3 = var2.JOIN;
+            var2 = undefined;
+            var1 = var5.bind(var2)(var4, var3, var6);
+case 23:
+            return var1;
+        }
     };
     var1 = function handleActivityUpdate() {
         var2 = global;
@@ -197,7 +212,7 @@ case 19:
         var4 = var3.bind(var4)(var2);
         var3 = var4.map;
         var2 = function(arg1) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var6 = arg1;
                 var1 = var6[Symbol.iterator];
@@ -207,27 +222,27 @@ case 0:
                 var2 = undefined;
                 var5 = var3 === var2;
                 var3 = undefined;
-                if(var5) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+                if(var5) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
                 var3 = var4;
-case 21:
+case 25:
                 var4 = undefined;
-                if(var5) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+                if(var5) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                 var7 = var6().value;
                 var6 = var1;
                 var6 = var6 === var2;
                 var4 = undefined;
                 var5 = var6;
-                if(var6) { _fun0004_ip = 23; continue _fun0004 }
+                if(var6) { _fun0005_ip = 27; continue _fun0005 }
 case 6:
                 var4 = var7;
                 var5 = var6;
-case 23:
-                if(var5) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+case 27:
+                if(var5) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                 var1.return();
-case 25:
+case 29:
                 var1 = {};
                 var1['applicationId'] = var3;
                 var3 = _closure1_slot11;
@@ -236,10 +251,10 @@ case 25:
                 var4 = null;
                 var4 = var4 == var3;
                 var2 = undefined;
-                if(var4) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+                if(var4) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                 var2 = var3.remotePartyId;
-case 27:
+case 31:
                 var1['remotePartyId'] = var2;
                 return var1;
             }
@@ -258,7 +273,7 @@ case 27:
         var _closure2_slot0 = var2;
         var3 = var4.forEach;
         var2 = function(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var1 = arg1;
                 var7 = var1.applicationId;
@@ -273,33 +288,33 @@ case 0:
                 var9 = var8 == var4;
                 var1 = undefined;
                 var3 = undefined;
-                if(var9) { _fun0005_ip = 29; continue _fun0005 }
-case 26:
+                if(var9) { _fun0006_ip = 33; continue _fun0006 }
+case 30:
                 var4 = var4.party;
                 var9 = var8 == var4;
                 var3 = undefined;
-                if(var9) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+                if(var9) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
                 var3 = var4.id;
-case 29:
+case 33:
                 var3 = var3 !== var6;
-                if(!var3) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                if(!var3) { _fun0006_ip = 35; continue _fun0006 }
+case 36:
                 var9 = var8 == var5;
                 var4 = undefined;
-                if(var9) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+                if(var9) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
                 var5 = var5.party;
                 var8 = var8 == var5;
                 var4 = undefined;
-                if(var8) { _fun0005_ip = 33; continue _fun0005 }
-case 35:
+                if(var8) { _fun0006_ip = 37; continue _fun0006 }
+case 39:
                 var4 = var5.id;
-case 33:
-                var3 = var4 !== var6;
-case 31:
-                if(var3) { _fun0005_ip = 36; continue _fun0005 }
 case 37:
+                var3 = var4 !== var6;
+case 35:
+                if(var3) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
                 var5 = _closure1_slot17;
                 var3 = _closure1_slot10;
                 var4 = var3.COMPLETE;
@@ -311,7 +326,7 @@ case 37:
                 var2 = var5.bind(var1)(var4, var3, var2);
                 var2 = true;
                 _closure2_slot0 = var2;
-case 36:
+case 40:
                 return var1;
             }
         };
@@ -376,7 +391,7 @@ case 36:
     var8 = var2.Store;
     var2 = function(arg1) {
         var4 = function ActivityLauncherStore() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var4 = this;
                 var3 = undefined;
@@ -389,14 +404,14 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot15;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0006_ip = 38; continue _fun0006 }
+                if(var1) { _fun0007_ip = 42; continue _fun0007 }
 case 6:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0006_ip = 39; continue _fun0006;
-case 38:
+                _fun0007_ip = 43; continue _fun0007;
+case 42:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -405,7 +420,7 @@ case 38:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 39:
+case 43:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -439,7 +454,7 @@ case 39:
         var7 = 'getState';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = _closure1_slot12;
                 var1 = arg1;
@@ -447,16 +462,16 @@ case 0:
                 var3 = null;
                 var2 = var3 == var5;
                 var1 = undefined;
-                if(var2) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+                if(var2) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
                 var2 = arg2;
                 var2 = var5[var2];
                 var3 = var3 == var2;
                 var1 = undefined;
-                if(var3) { _fun0007_ip = 40; continue _fun0007 }
-case 42:
+                if(var3) { _fun0008_ip = 44; continue _fun0008 }
+case 46:
                 var1 = var2.state;
-case 40:
+case 44:
                 return var1;
             }
         };
@@ -519,7 +534,7 @@ case 40:
     var2['ACTIVITY_JOIN'] = var9;
     var2['EMBEDDED_ACTIVITY_CLOSE'] = var9;
     var4 = function handleActivityLaunchFail(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.applicationId;
@@ -527,12 +542,12 @@ case 0:
             var1 = _closure1_slot12;
             var1 = var1[var3];
             var3 = null;
-            if(!(var3 != var1)) { _fun0008_ip = 43; continue _fun0008 }
-case 44:
+            if(!(var3 != var1)) { _fun0009_ip = 47; continue _fun0009 }
+case 21:
             var1 = delete var1[var2];
             var1 = undefined;
             return var1;
-case 43:
+case 47:
             var1 = false;
             return var1;
         }

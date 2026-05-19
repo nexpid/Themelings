@@ -758,6 +758,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['LINUX_SIDEBAR_ITEM'] = var1;
     var1 = 'linux_panel';
     var2['LINUX_PANEL'] = var1;
+    var1 = 'games_and_apps_section';
+    var2['GAMES_AND_APPS_SECTION'] = var1;
     var1 = 'activity_section';
     var2['ACTIVITY_SECTION'] = var1;
     var1 = 'activity_privacy_sidebar_item';

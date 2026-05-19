@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var15.bind(var9)(var2);
         var2 = var2.modules;
         var2 = var2.mobile;
-        var2 = var2.CHAT_INPUT_SPACE_BOTTOM;
+        var2 = var2.CHAT_INPUT_FLOATING_OFFSET_MINIMUM;
         var15 = var3.bind(var5)(var2);
         var _closure2_slot6 = var15;
         var2 = 6;

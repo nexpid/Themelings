@@ -33,7 +33,7 @@ case 0:
             var4 = var9.bind(var6)(var4);
             var4 = var4.modules;
             var4 = var4.mobile;
-            var4 = var4.CHAT_INPUT_SPACE_BOTTOM;
+            var4 = var4.CHAT_INPUT_FLOATING_OFFSET_MINIMUM;
             var4 = var7.bind(var8)(var4);
             if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:

@@ -44,6 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var14;
         var13 = var1.tab;
         var12 = var1.isFocused;
+        var6 = var1.width;
         var9 = _closure1_slot0;
         var10 = _closure1_slot2;
         var3 = 3;
@@ -62,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var10[var3];
         var5 = var9.bind(var4)(var3);
         var3 = var5.useFileOrLinkImageDimensions;
-        var19 = var3.bind(var5)();
+        var19 = var3.bind(var5)(var6);
         var _closure2_slot2 = var19;
         var3 = 6;
         var5 = var10[var3];

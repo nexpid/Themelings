@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/collectibles/frames/mobile_half_sheet_image.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/5a34dac591a5f2ead61786f6ebecec5838e63fab95d43648700ae55fb71a75f8.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/2bb166dbf77210787f33f8dc4edae14c3b9662a615c8e7f7b694e96e6875702f.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 117030;
+    var4 = 100586;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

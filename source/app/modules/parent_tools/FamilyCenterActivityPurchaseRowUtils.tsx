@@ -188,7 +188,7 @@ case 13:
             var3 = var1.bind(var4)(var6);
             var1 = null;
             if(!var3) { _fun0002_ip = 14; continue _fun0002 }
-case 3:
+case 15:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 6;
@@ -216,7 +216,7 @@ case 0:
             var2 = var1.items;
             var3 = var2.length;
             var2 = 0;
-            if(!(var2 !== var3)) { _fun0003_ip = 15; continue _fun0003 }
+            if(!(var2 !== var3)) { _fun0003_ip = 16; continue _fun0003 }
 case 13:
             var1 = var1.items;
             var2 = var1[var2];
@@ -224,12 +224,12 @@ case 13:
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
             var1 = null;
-            if(!var3) { _fun0003_ip = 16; continue _fun0003 }
-case 3:
-            var1 = var2.thumbnailPreviewSrc;
-case 16:
-            return var1;
+            if(!var3) { _fun0003_ip = 17; continue _fun0003 }
 case 15:
+            var1 = var2.thumbnailPreviewSrc;
+case 17:
+            return var1;
+case 16:
             var1 = null;
             return var1;
         }
@@ -240,21 +240,21 @@ case 15:
 case 0:
             var4 = arg1;
             var2 = null;
-            if(!(var2 != var4)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+            if(!(var2 != var4)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var3 = _closure1_slot6;
             var3 = var3[var4];
             var4 = var2 == var3;
             var2 = undefined;
-            if(var4) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+            if(var4) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
             var2 = var3.skuId;
-case 19:
+case 20:
             var1 = _closure1_slot5;
             var1 = var1.GUILD;
             var1 = var2 === var1;
             return var1;
-case 17:
+case 18:
             var1 = false;
             return var1;
         }
@@ -267,35 +267,35 @@ case 0:
             var8 = arg2;
             var6 = null;
             var2 = var6 != var8;
-            if(!(var6 == var1)) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+            if(!(var6 == var1)) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
             var4 = undefined;
             var3 = undefined;
-            if(!var2) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+            if(!var2) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var7 = var6 != var8;
             var4 = undefined;
             var3 = undefined;
-            if(!var7) { _fun0005_ip = 23; continue _fun0005 }
-case 19:
+            if(!var7) { _fun0005_ip = 24; continue _fun0005 }
+case 20:
             var7 = _closure1_slot6;
             var7 = var7[var8];
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+            if(var8) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
             var6 = var7.name;
-case 25:
+case 26:
             var4 = var6;
             var3 = undefined;
-            _fun0005_ip = 23; continue _fun0005;
-case 21:
+            _fun0005_ip = 24; continue _fun0005;
+case 22:
             var4 = var1.name;
             var7 = _closure1_slot7;
             var6 = var1.type;
             var1 = undefined;
             var3 = var7.bind(var1)(var6);
-case 23:
+case 24:
             var1 = {};
             var1['displayName'] = var4;
             var1['typeName'] = var3;

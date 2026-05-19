@@ -54,8 +54,18 @@ case 3:
                 var4 = new Array(0);
 case 2:
                 var3['rankedSkuIds'] = var4;
+                var4 = var2.desktop_background_image;
+                if(!(var5 == var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = var2.background_image;
-                var3['backgroundImage'] = var4;
+case 4:
+                var3['desktopBackgroundImage'] = var4;
+                var4 = var2.mobile_background_image;
+                if(!(var5 == var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                var4 = var2.background_image;
+case 6:
+                var3['mobileBackgroundImage'] = var4;
                 var2 = var2.button_text;
                 var3['buttonText'] = var2;
                 return var1;
