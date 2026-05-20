@@ -609,10 +609,10 @@ case 29:
     var7 = function saveGuild(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var9 = arg1;
+            var10 = arg1;
             var3 = arg2;
-            var7 = arguments[2];
-            var _closure2_slot0 = var9;
+            var8 = arguments[2];
+            var _closure2_slot0 = var10;
             var30 = var3.name;
             var29 = var3.description;
             var28 = var3.icon;
@@ -632,53 +632,53 @@ case 0:
             var2 = var3.safetyAlertsChannelId;
             var14 = var3.ownerConfiguredContentLevel;
             var11 = var3.discoverySplash;
-            var10 = var3.publicUpdatesChannelId;
+            var9 = var3.publicUpdatesChannelId;
             var13 = var3.premiumProgressBarEnabled;
             var12 = var3.profile;
-            var8 = var3.moderatorReportingEnabled;
-            var6 = var3.officialMessageColor;
+            var7 = var3.moderatorReportingEnabled;
+            var5 = var3.officialMessageColor;
             var3 = var3.verificationRoleId;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0004_ip = 31; continue _fun0004 }
+            if(!(var8 === var4)) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-            var7 = {};
+            var8 = {};
 case 31:
-            var _closure2_slot1 = var7;
-            var5 = {};
-            var5['name'] = var30;
-            var5['description'] = var29;
-            var5['icon'] = var28;
-            var5['splash'] = var27;
-            var5['banner'] = var26;
-            var5['home_header'] = var25;
-            var5['features'] = var24;
-            var5['preferred_locale'] = var23;
-            var5['afk_channel_id'] = var22;
-            var5['afk_timeout'] = var21;
-            var5['system_channel_id'] = var20;
-            var5['verification_level'] = var19;
-            var5['default_message_notifications'] = var18;
-            var5['explicit_content_filter'] = var17;
-            var5['system_channel_flags'] = var16;
-            var5['rules_channel_id'] = var15;
-            var5['owner_configured_content_level'] = var14;
-            var5['discovery_splash'] = var11;
-            var5['public_updates_channel_id'] = var10;
-            var5['safety_alerts_channel_id'] = var2;
+            var _closure2_slot1 = var8;
+            var6 = {};
+            var6['name'] = var30;
+            var6['description'] = var29;
+            var6['icon'] = var28;
+            var6['splash'] = var27;
+            var6['banner'] = var26;
+            var6['home_header'] = var25;
+            var6['features'] = var24;
+            var6['preferred_locale'] = var23;
+            var6['afk_channel_id'] = var22;
+            var6['afk_timeout'] = var21;
+            var6['system_channel_id'] = var20;
+            var6['verification_level'] = var19;
+            var6['default_message_notifications'] = var18;
+            var6['explicit_content_filter'] = var17;
+            var6['system_channel_flags'] = var16;
+            var6['rules_channel_id'] = var15;
+            var6['owner_configured_content_level'] = var14;
+            var6['discovery_splash'] = var11;
+            var6['public_updates_channel_id'] = var9;
+            var6['safety_alerts_channel_id'] = var2;
             var2 = null;
             var11 = var2 != var13;
-            var10 = null;
+            var9 = null;
             if(!var11) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
             var11 = {};
             var11['premium_progress_bar_enabled'] = var13;
-            var10 = var11;
+            var9 = var11;
 case 33:
-            var32 = var5;
-            var31 = var10;
-            var10 = copyDataProperties(var32, var31);
-            var10 = var12;
-            if(!(var2 != var10)) { _fun0004_ip = 35; continue _fun0004 }
+            var32 = var6;
+            var31 = var9;
+            var9 = copyDataProperties(var32, var31);
+            var9 = var12;
+            if(!(var2 != var9)) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -686,42 +686,77 @@ case 36:
             var2 = var13[var2];
             var11 = var11.bind(var4)(var2);
             var2 = var11.toServerGuildProfile;
-            var10 = var2.bind(var11)(var12);
+            var9 = var2.bind(var11)(var12);
 case 35:
             var2 = 'profile';
-            var5[1] = var10;
+            var6[1] = var9;
             var2 = 'moderator_reporting_enabled';
-            var5[1] = var8;
+            var6[1] = var7;
             var2 = 'official_message_color';
-            var5[1] = var6;
+            var6[1] = var5;
             var2 = 'verification_role_id';
-            var5[1] = var3;
+            var6[1] = var3;
             var3 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var2 = 9;
-            var2 = var8[var2];
-            var10 = var3.bind(var4)(var2);
-            var3 = var10.dispatch;
+            var2 = var9[var2];
+            var11 = var3.bind(var4)(var2);
+            var5 = var11.dispatch;
             var2 = {};
-            var11 = 'GUILD_SETTINGS_SUBMIT';
-            var2['type'] = var11;
-            var2 = var3.bind(var10)(var2);
+            var12 = 'GUILD_SETTINGS_SUBMIT';
+            var2['type'] = var12;
+            var2 = var5.bind(var11)(var2);
+            var5 = _closure1_slot9;
+            var2 = var5.getPendingOriginalMd5s;
+            var12 = var2.bind(var5)();
+            var2 = 13;
+            var2 = var9[var2];
+            var11 = var3.bind(var4)(var2);
+            var5 = var11.buildHeadersForMd5;
+            var2 = {};
             var3 = _closure1_slot0;
+            var13 = 14;
+            var14 = var9[var13];
+            var14 = var3.bind(var4)(var14);
+            var14 = var14.SafetyScannedUploadSurface;
+            var15 = var14.GUILD_ICON;
+            var14 = var12.icon;
+            var2[14] = var14;
+            var14 = var9[var13];
+            var14 = var3.bind(var4)(var14);
+            var14 = var14.SafetyScannedUploadSurface;
+            var15 = var14.GUILD_BANNER;
+            var14 = var12.banner;
+            var2[14] = var14;
+            var14 = var9[var13];
+            var14 = var3.bind(var4)(var14);
+            var14 = var14.SafetyScannedUploadSurface;
+            var15 = var14.GUILD_INVITE_SPLASH;
+            var14 = var12.splash;
+            var2[14] = var14;
+            var13 = var9[var13];
+            var13 = var3.bind(var4)(var13);
+            var13 = var13.SafetyScannedUploadSurface;
+            var13 = var13.GUILD_DISCOVERY_SPLASH;
+            var12 = var12.discoverySplash;
+            var2[12] = var12;
+            var5 = var5.bind(var11)(var2);
             var2 = 10;
-            var2 = var8[var2];
+            var2 = var9[var2];
             var2 = var3.bind(var4)(var2);
             var4 = var2.HTTP;
             var3 = var4.patch;
             var2 = {};
-            var8 = _closure1_slot10;
-            var6 = var8.GUILD;
-            var6 = var6.bind(var8)(var9);
-            var2['url'] = var6;
-            var6 = {};
-            var7 = var7.isForDiscovery;
-            var6['for_discovery'] = var7;
-            var2['query'] = var6;
-            var2['body'] = var5;
+            var9 = _closure1_slot10;
+            var7 = var9.GUILD;
+            var7 = var7.bind(var9)(var10);
+            var2['url'] = var7;
+            var7 = {};
+            var8 = var8.isForDiscovery;
+            var7['for_discovery'] = var8;
+            var2['query'] = var7;
+            var2['body'] = var6;
+            var2['headers'] = var5;
             var5 = true;
             var2['oldFormErrors'] = var5;
             var5 = false;
@@ -853,7 +888,7 @@ case 42:
 case 41:
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 13;
+            var1 = 15;
             var1 = var10[var1];
             var3 = var2.bind(var9)(var1);
             var2 = var3.patch;
@@ -871,7 +906,7 @@ case 41:
             var1['oldFormErrors'] = var4;
             var4 = {};
             var8 = _closure1_slot0;
-            var5 = 14;
+            var5 = 16;
             var5 = var10[var5];
             var5 = var8.bind(var9)(var5);
             var5 = var5.NetworkActionNames;
@@ -901,7 +936,7 @@ case 44:
 case 43:
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 13;
+            var1 = 15;
             var1 = var10[var1];
             var3 = var2.bind(var9)(var1);
             var2 = var3.put;
@@ -914,7 +949,7 @@ case 43:
             var1['oldFormErrors'] = var4;
             var4 = {};
             var8 = _closure1_slot0;
-            var5 = 14;
+            var5 = 16;
             var5 = var10[var5];
             var5 = var8.bind(var9)(var5);
             var5 = var5.NetworkActionNames;
@@ -1018,13 +1053,13 @@ case 48:
                         var2 = function() {
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var1 = 15;
+                            var1 = 17;
                             var2 = var8[var1];
                             var1 = undefined;
                             var2 = var7.bind(var1)(var2);
                             var4 = var2.AccessibilityAnnouncer;
                             var3 = var4.announce;
-                            var2 = 16;
+                            var2 = 18;
                             var5 = var8[var2];
                             var5 = var7.bind(var1)(var5);
                             var6 = var5.intl;
@@ -1057,7 +1092,7 @@ case 52:
 case 55:
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
-                        var5 = 17;
+                        var5 = 19;
                         var5 = var7[var5];
                         var6 = var6.bind(var3)(var5);
                         var5 = var6.transitionTo;
@@ -1196,7 +1231,7 @@ case 60:
 case 13:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 18;
+                    var3 = 20;
                     var4 = var4[var3];
                     var3 = undefined;
                     var5 = var5.bind(var3)(var4);
@@ -1572,7 +1607,7 @@ case 68:
     };
     var2['migratePermissions'] = var7;
     var _closure1_slot16 = var2;
-    var4 = 19;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

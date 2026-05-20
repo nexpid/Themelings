@@ -18,6 +18,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DIAMOND'] = var1;
     var1 = '1495878436579840091';
     var2['EMERALD'] = var1;
+    var1 = '1506325197932990504';
+    var2['RUBY'] = var1;
+    var1 = '1506325268141314208';
+    var2['OPAL'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

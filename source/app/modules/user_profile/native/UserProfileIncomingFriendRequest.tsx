@@ -317,6 +317,8 @@ case 10:
             var7['userId'] = var9;
             var9 = var11.friendRequestNote;
             var7['styles'] = var9;
+            var9 = 'User Profile';
+            var7['analyticsLocation'] = var9;
             var7 = var13.bind(var5)(var8, var7);
             var6[1] = var7;
             var9 = _closure1_slot6;

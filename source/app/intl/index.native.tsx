@@ -9,16 +9,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
             var3 = 3;
-            var3 = var5[var3];
+            var3 = var7[var3];
             var5 = undefined;
-            var3 = var4.bind(var5)(var3);
-            var4 = var3.Platform;
-            var6 = var4.OS;
-            var4 = 'android';
-            if(!(var4 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+            var3 = var6.bind(var5)(var3);
+            var4 = 4;
+            var4 = var7[var4];
+            var6 = var6.bind(var5)(var4);
+            var4 = var6.isAndroid;
+            var4 = var4.bind(var6)();
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var3.NativeModules;
             var3 = var3.LocalizationManager;
@@ -26,7 +28,7 @@ case 3:
 case 2:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var2 = 4;
+            var2 = 5;
             var2 = var6[var2];
             var2 = var4.bind(var5)(var2);
             var3 = var2.default;
@@ -81,12 +83,12 @@ case 5:
     var _closure1_slot3 = var2;
     var11 = 'en-US';
     var4 = var9.bind(var1)(var11);
-    var8 = 5;
+    var8 = 6;
     var2 = var6[var8];
     var10 = var7.bind(var1)(var2);
     var2 = var10.getNormalizedLocale;
     var2 = var2.bind(var10)(var4, var11);
-    var13 = 6;
+    var13 = 7;
     var10 = var6[var13];
     var14 = var7.bind(var1)(var10);
     var12 = var14.makeReactFormatter;
@@ -95,7 +97,7 @@ case 5:
         var5 = _closure1_slot2;
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var2 = 7;
+        var2 = 8;
         var2 = var4[var2];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);
@@ -115,7 +117,7 @@ case 5:
         var5 = _closure1_slot2;
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var2 = 7;
+        var2 = 8;
         var2 = var4[var2];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);
@@ -135,7 +137,7 @@ case 5:
         var5 = _closure1_slot2;
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var2 = 7;
+        var2 = 8;
         var2 = var4[var2];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);
@@ -155,7 +157,7 @@ case 5:
         var5 = _closure1_slot2;
         var2 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var1 = 7;
+        var1 = 8;
         var1 = var3[var1];
         var4 = undefined;
         var1 = var2.bind(var4)(var1);
@@ -172,7 +174,7 @@ case 5:
         var5 = _closure1_slot2;
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var2 = 7;
+        var2 = 8;
         var2 = var4[var2];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);
@@ -210,7 +212,7 @@ case 9:
             var4 = _closure1_slot2;
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var2 = 8;
+            var2 = 9;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.IntlLink;
@@ -254,7 +256,7 @@ case 9:
     var10['formatToParts'] = var13;
     var10 = var11.bind(var12)(var10);
     var _closure1_slot4 = var10;
-    var11 = 9;
+    var11 = 10;
     var11 = var6[var11];
     var13 = var7.bind(var1)(var11);
     var12 = var13.fileFinishedImporting;
@@ -273,7 +275,7 @@ case 9:
     var5 = function(arg1) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var2 = 5;
+        var2 = 6;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -284,12 +286,12 @@ case 9:
         return var1;
     };
     var3['useSyncMessages'] = var5;
-    var5 = 10;
+    var5 = 11;
     var5 = var6[var5];
     var5 = var7.bind(var1)(var5);
     var5 = var5._defaultMessages;
     var3['t'] = var5;
-    var5 = 11;
+    var5 = 12;
     var6 = var6[var5];
     var5 = metroImportDefault;
     var5 = var5.bind(var1)(var6);

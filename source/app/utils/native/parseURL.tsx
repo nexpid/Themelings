@@ -415,12 +415,9 @@ case 43:
             var13 = _closure1_slot2;
             var8 = 10;
             var8 = var13[var8];
-            var13 = var9.bind(var12)(var8);
-            var9 = var13.isVirtualCurrencyEnabled;
-            var8 = {};
-            var20 = 'parseURL';
-            var8['location'] = var20;
-            var8 = var9.bind(var13)(var8);
+            var9 = var9.bind(var12)(var8);
+            var8 = var9.isVirtualCurrencyEnabled;
+            var8 = var8.bind(var9)();
             var8 = var8.enabled;
             var20 = var6.code;
             var13 = var20.split;

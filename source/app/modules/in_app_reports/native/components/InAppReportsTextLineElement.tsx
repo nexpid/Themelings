@@ -35,9 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.View;
     var _closure1_slot7 = var7;
-    var7 = var4.Linking;
-    var _closure1_slot8 = var7;
-    var4 = var4.Platform;
+    var4 = var4.Linking;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -111,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['startButtonContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 18;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -178,51 +177,76 @@ case 0:
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                            var5 = _closure2_slot0;
-                            var7 = _closure2_slot1;
-                            var4 = global;
-                            var2 = var4.HermesInternal;
-                            var3 = var2.concat;
-                            var2 = 'sms:';
-                            var3 = var3.bind(var2)(var5);
-                            var2 = null;
-                            var5 = var2 != var7;
-                            var2 = '';
-                            if(!var5) { _fun0002_ip = 6; continue _fun0002 }
+                            var7 = _closure2_slot0;
+                            var8 = _closure2_slot1;
+                            var5 = _closure1_slot0;
+                            var3 = _closure1_slot3;
+                            var2 = 11;
+                            var2 = var3[var2];
+                            var3 = undefined;
+                            var5 = var5.bind(var3)(var2);
+                            var2 = var5.isIOS;
+                            var2 = var2.bind(var5)();
+                            var10 = '?';
+                            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                            var6 = var4.encodeURIComponent;
-                            var5 = undefined;
-                            var6 = var6.bind(var5)(var7);
-                            var4 = var4.HermesInternal;
-                            var5 = var4.concat;
-                            var4 = '?body=';
-                            var2 = var5.bind(var4)(var6);
-case 6:
-                            var5 = var3 + var2;
-                            var4 = _closure1_slot8;
-                            var2 = var4.canOpenURL;
-                            var2 = var2.bind(var4)(var5);
-                            SaveGenerator(address=119);
-case 8:
-                            return var2;
+                            var5 = _closure1_slot0;
+                            var6 = _closure1_slot3;
+                            var2 = 12;
+                            var2 = var6[var2];
+                            var5 = var5.bind(var3)(var2);
+                            var2 = var5.getSystemVersionMajor;
+                            var5 = var2.bind(var5)();
+                            var2 = 8;
+                            var5 = var5 < var2;
+                            var2 = '&';
+                            if(!var5) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0002_ip = 10; continue _fun0002 }
+                            var2 = ';';
+case 8:
+                            var10 = var2;
+case 6:
+                            var6 = global;
+                            var2 = var6.HermesInternal;
+                            var5 = var2.concat;
+                            var2 = 'sms:';
+                            var5 = var5.bind(var2)(var7);
+                            var2 = null;
+                            var7 = var2 != var8;
+                            var9 = '';
+                            var2 = var9;
+                            if(!var7) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-                            if(!var2) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-                            var6 = _closure1_slot1;
-                            var4 = _closure1_slot3;
-                            var3 = 11;
-                            var4 = var4[var3];
-                            var3 = undefined;
-                            var4 = var6.bind(var3)(var4);
-                            var3 = var4.openURL;
-                            var3 = var3.bind(var4)(var5);
-case 12:
-                            var3 = undefined;
-                            return var3;
+                            var7 = var6.encodeURIComponent;
+                            var8 = var7.bind(var3)(var8);
+                            var6 = var6.HermesInternal;
+                            var7 = var6.concat;
+                            var6 = 'body=';
+                            var2 = var7.bind(var9)(var10, var6, var8);
 case 10:
+                            var6 = var5 + var2;
+                            var5 = _closure1_slot8;
+                            var2 = var5.canOpenURL;
+                            var2 = var2.bind(var5)(var6);
+                            SaveGenerator(address=214);
+case 12:
+                            return var2;
+case 13:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                            if(var5) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+                            if(!var2) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+                            var5 = _closure1_slot1;
+                            var7 = _closure1_slot3;
+                            var4 = 13;
+                            var4 = var7[var4];
+                            var5 = var5.bind(var3)(var4);
+                            var4 = var5.openURL;
+                            var4 = var4.bind(var5)(var6);
+case 16:
+                            return var3;
+case 14:
                             return var2;
 case 4:
                             return var1;
@@ -245,13 +269,13 @@ case 4:
                 return var1;
             };
             var13 = var1.bind(var4)();
-            if(var19) { _fun0001_ip = 10; continue _fun0001 }
-case 14:
+            if(var19) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var9 = {};
-            _fun0001_ip = 15; continue _fun0001;
-case 10:
+            _fun0001_ip = 20; continue _fun0001;
+case 18:
             var9 = var14.smsNumberContainerSuccess;
-case 15:
+case 20:
             var3 = _closure1_slot10;
             var2 = _closure1_slot7;
             var1 = {};
@@ -260,7 +284,7 @@ case 15:
             var10 = _closure1_slot9;
             var16 = _closure1_slot0;
             var15 = _closure1_slot3;
-            var6 = 12;
+            var6 = 14;
             var5 = var15[var6];
             var5 = var16.bind(var4)(var5);
             var7 = var5.Text;
@@ -292,7 +316,7 @@ case 15:
             var8[0] = var18;
             var8[1] = var9;
             var7['style'] = var8;
-            var8 = 13;
+            var8 = 15;
             var8 = var15[var8];
             var8 = var16.bind(var4)(var8);
             var9 = var8.LegacyText;
@@ -306,14 +330,14 @@ case 15:
             var9 = {};
             var11 = var14.trailingButtonContainer;
             var9['style'] = var11;
-            var11 = 14;
+            var11 = 16;
             var15 = var15[var11];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Button;
             var15 = {};
             var23 = _closure1_slot0;
             var20 = _closure1_slot3;
-            var18 = 15;
+            var18 = 17;
             var21 = var20[var18];
             var21 = var23.bind(var4)(var21);
             var22 = var21.intl;
@@ -321,29 +345,29 @@ case 15:
             var20 = var20[var18];
             var20 = var23.bind(var4)(var20);
             var20 = var20.t;
-            if(var19) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(var19) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var19 = var20.OpuAlK;
             var19 = var21.bind(var22)(var19);
-            _fun0001_ip = 18; continue _fun0001;
-case 16:
+            _fun0001_ip = 23; continue _fun0001;
+case 21:
             var20 = var20.t5VZ88;
             var19 = var21.bind(var22)(var20);
-case 18:
+case 23:
             var15['text'] = var19;
             var19 = 'sm';
             var15['size'] = var19;
             var17 = function onPress() {
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot3;
-                var1 = 16;
+                var1 = 18;
                 var2 = var5[var1];
                 var1 = undefined;
                 var7 = var4.bind(var1)(var2);
                 var6 = var7.copy;
                 var3 = _closure2_slot0;
                 var3 = var6.bind(var7)(var3);
-                var3 = 17;
+                var3 = 19;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.presentCopiedToClipboard;

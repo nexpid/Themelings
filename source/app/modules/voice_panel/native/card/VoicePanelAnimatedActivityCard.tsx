@@ -679,7 +679,7 @@ case 45:
             var27 = var6[var13];
             var31 = var10.bind(var5)(var27);
             var29 = var31.useAnimatedReaction;
-            var28 = function Pe() {
+            var28 = function ye() {
                 var2 = _closure2_slot7;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
@@ -751,7 +751,7 @@ case 56:
             var27 = 27;
             var27 = var6[var27];
             var28 = var10.bind(var5)(var27);
-            var27 = var28.isIpadOS;
+            var27 = var28.getIsTabletActivitySurface;
             var31 = var27.bind(var28)();
             _closure2_slot24 = var31;
             var19 = var19.activityContainerBackground;
@@ -863,7 +863,7 @@ case 75:
             var28['IS_IOS'] = var34;
             var28['animatedKeyboardHeight'] = var33;
             var28['windowDimensions'] = var32;
-            var28['isDeviceTablet'] = var31;
+            var28['isTabletActivitySurface'] = var31;
             var28['focusedOrientationLockState'] = var30;
             var30 = _closure1_slot14;
             var28['OrientationLockState'] = var30;
@@ -872,7 +872,7 @@ case 75:
             var28['isActivityFocused'] = var16;
             var28['backgroundColor'] = var29;
             var13['__closure'] = var28;
-            var28 = 4654884451881.0;
+            var28 = 13392050824169.0;
             var13['__workletHash'] = var28;
             var28 = _closure1_slot24;
             var13['__initData'] = var28;
@@ -1197,7 +1197,7 @@ case 77:
     var4['code'] = var8;
     var _closure1_slot23 = var4;
     var4 = {};
-    var8 = "function VoicePanelAnimatedActivityCardTsx7(){const{IS_IOS,animatedKeyboardHeight,windowDimensions,isDeviceTablet,focusedOrientationLockState,OrientationLockState,ACTIVITY_PORTRAIT_ASPECT_RATIO,isActivityFocused,backgroundColor}=this.__closure;const keyboardHeight=IS_IOS?animatedKeyboardHeight.get():0;const isScreenLandscape=windowDimensions.get().landscape;const screenWidth=windowDimensions.get().width;const screenHeight=windowDimensions.get().height;const shouldLetterBox=isDeviceTablet&&focusedOrientationLockState===OrientationLockState.LANDSCAPE&&!isScreenLandscape;const shouldPillarBox=isDeviceTablet&&focusedOrientationLockState===OrientationLockState.PORTRAIT&&isScreenLandscape;let containerPaddingVertical=0;let containerPaddingHorizontal=0;if(shouldLetterBox){containerPaddingVertical=(screenHeight-screenWidth*ACTIVITY_PORTRAIT_ASPECT_RATIO)/2;}else if(shouldPillarBox){containerPaddingHorizontal=(screenWidth-screenHeight*ACTIVITY_PORTRAIT_ASPECT_RATIO)/2;}return{flex:isActivityFocused?0:1,backgroundColor:backgroundColor,paddingVertical:containerPaddingVertical,paddingHorizontal:containerPaddingHorizontal,width:isActivityFocused?screenWidth:'auto',height:isActivityFocused?screenHeight-keyboardHeight:'auto',maxHeight:'100%',maxWidth:'100%'};}";
+    var8 = "function VoicePanelAnimatedActivityCardTsx7(){const{IS_IOS,animatedKeyboardHeight,windowDimensions,isTabletActivitySurface,focusedOrientationLockState,OrientationLockState,ACTIVITY_PORTRAIT_ASPECT_RATIO,isActivityFocused,backgroundColor}=this.__closure;const keyboardHeight=IS_IOS?animatedKeyboardHeight.get():0;const isScreenLandscape=windowDimensions.get().landscape;const screenWidth=windowDimensions.get().width;const screenHeight=windowDimensions.get().height;const shouldLetterBox=isTabletActivitySurface&&focusedOrientationLockState===OrientationLockState.LANDSCAPE&&!isScreenLandscape;const shouldPillarBox=isTabletActivitySurface&&focusedOrientationLockState===OrientationLockState.PORTRAIT&&isScreenLandscape;let containerPaddingVertical=0;let containerPaddingHorizontal=0;if(shouldLetterBox){containerPaddingVertical=(screenHeight-screenWidth*ACTIVITY_PORTRAIT_ASPECT_RATIO)/2;}else if(shouldPillarBox){containerPaddingHorizontal=(screenWidth-screenHeight*ACTIVITY_PORTRAIT_ASPECT_RATIO)/2;}return{flex:isActivityFocused?0:1,backgroundColor:backgroundColor,paddingVertical:containerPaddingVertical,paddingHorizontal:containerPaddingHorizontal,width:isActivityFocused?screenWidth:'auto',height:isActivityFocused?screenHeight-keyboardHeight:'auto',maxHeight:'100%',maxWidth:'100%'};}";
     var4['code'] = var8;
     var _closure1_slot24 = var4;
     var4 = {};

@@ -144,7 +144,7 @@ case 2:
             var9 = 8;
             var9 = var15[var9];
             var9 = var10.bind(var4)(var9);
-            var10 = var9.SIHRfH;
+            var10 = var9["0+xfd9"];
             var9 = {};
             var9['giftsRemaining'] = var14;
             var9['nextTier'] = var13;

@@ -48,6 +48,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var7;
     var4 = var4.jsxs;
     var _closure1_slot10 = var4;
+    var4 = function filterLayer(arg1) {
+        var1 = arg1;
+        var2 = var1.responsive;
+        var1 = true;
+        var1 = var1 !== var2;
+        return var1;
+    };
+    var _closure1_slot11 = var4;
     var4 = 6;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -125,7 +133,7 @@ case 10:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -213,7 +221,7 @@ case 15:
             var26 = var10.secondaryColor;
             var10 = null;
             var42 = var10 != var29;
-            var16 = _closure1_slot11;
+            var16 = _closure1_slot12;
             var23 = var16.bind(var4)(var27, var42, var23);
             var16 = 11;
             var16 = var19[var16];
@@ -538,6 +546,8 @@ case 48:
             var12 = var12.bind(var4)(var9);
             var9 = {};
             var9['frame'] = var16;
+            var18 = _closure1_slot11;
+            var9['filterLayer'] = var18;
             var18 = _closure1_slot8;
             var18 = var18.PREVIEW;
             var9['profileThemeType'] = var18;
@@ -764,6 +774,8 @@ case 68:
             var12 = var12.bind(var4)(var11);
             var11 = {};
             var11['frame'] = var16;
+            var16 = _closure1_slot11;
+            var11['filterLayer'] = var16;
             var16 = _closure1_slot8;
             var16 = var16.PREVIEW;
             var11['profileThemeType'] = var16;

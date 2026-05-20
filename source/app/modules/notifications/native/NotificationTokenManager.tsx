@@ -78,9 +78,8 @@ case 4:
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.NativeModules;
-    var _closure1_slot8 = var8;
-    var4 = var4.Platform;
+    var4 = var4.NativeModules;
+    var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -103,7 +102,7 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot13 = var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -933,25 +932,34 @@ case 0:
 case 42:
                 var1 = true;
                 var2['hasTrackedDisabledAndroidNotifChannels'] = var1;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 19;
+                var2 = var4[var2];
+                var4 = undefined;
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.isAndroid;
+                var2 = var2.bind(var3)();
+                if(!var2) { _fun0013_ip = 41; continue _fun0013 }
+case 43:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var8 = 19;
+                var8 = 20;
                 var2 = var2[var8];
-                var4 = undefined;
                 var2 = var3.bind(var4)(var2);
                 var3 = null;
                 var6 = var3 == var2;
                 var2 = undefined;
-                if(var6) { _fun0013_ip = 6; continue _fun0013 }
-case 29:
+                if(var6) { _fun0013_ip = 44; continue _fun0013 }
+case 45:
                 var7 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var6 = var6[var8];
                 var6 = var7.bind(var4)(var6);
                 var2 = var6.getAndroidNotifChannelStates;
-case 6:
+case 44:
                 if(!(var3 != var2)) { _fun0013_ip = 41; continue _fun0013 }
-case 43:
+case 46:
                 var6 = var2.bind(var4)();
                 var2 = global;
                 var7 = var2.Set;
@@ -977,20 +985,20 @@ case 0:
                         var3 = var2.importance;
                         var1 = 0;
                         var1 = var1 === var3;
-                        if(!var1) { _fun0014_ip = 44; continue _fun0014 }
-case 45:
+                        if(!var1) { _fun0014_ip = 47; continue _fun0014 }
+case 48:
                         var4 = _closure3_slot0;
                         var3 = var4.has;
                         var2 = var2.channelId;
                         var1 = var3.bind(var4)(var2);
-case 44:
+case 47:
                         return var1;
                     }
                 };
                 var7 = var3.bind(var6)(var2);
                 var3 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 20;
+                var2 = 21;
                 var2 = var6[var2];
                 var4 = var3.bind(var4)(var2);
                 var3 = var4.track;
@@ -1037,12 +1045,12 @@ case 28:
                 var2 = var3.isAuthenticated;
                 var1 = var2.bind(var3)();
 case 21:
-                if(!var1) { _fun0015_ip = 46; continue _fun0015 }
+                if(!var1) { _fun0015_ip = 49; continue _fun0015 }
 case 17:
                 var2 = _closure1_slot10;
                 var2 = var2.isSwitchingAccount;
                 var1 = !var2;
-case 46:
+case 49:
                 return var1;
             }
         };
@@ -1057,7 +1065,7 @@ case 46:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

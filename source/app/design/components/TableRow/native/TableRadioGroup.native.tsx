@@ -53,7 +53,7 @@ case 0:
             var1 = arg1;
             var10 = var1.children;
             var5 = var1.value;
-            var18 = var1.defaultValue;
+            var19 = var1.defaultValue;
             var2 = var1.onChange;
             var _closure2_slot0 = var2;
             var13 = var1.title;
@@ -65,26 +65,27 @@ case 0:
 case 3:
             var9 = true;
 case 2:
-            var14 = var1.groupRef;
+            var15 = var1.groupRef;
+            var14 = var1.accessibilityLabel;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
-            var16 = var4 !== var5;
-            var _closure2_slot1 = var16;
+            var17 = var4 !== var5;
+            var _closure2_slot1 = var17;
             var8 = _closure1_slot3;
             var6 = var8.useState;
-            var15 = null;
+            var16 = null;
             var3 = null;
-            if(var16) { _fun0001_ip = 4; continue _fun0001 }
+            if(var17) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var19 = var15 != var18;
-            var17 = null;
-            if(!var19) { _fun0001_ip = 6; continue _fun0001 }
+            var20 = var16 != var19;
+            var18 = null;
+            if(!var20) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var17 = var18;
+            var18 = var19;
 case 6:
-            var3 = var17;
+            var3 = var18;
 case 4:
             var8 = var6.bind(var8)(var3);
             var6 = _closure1_slot2;
@@ -95,23 +96,23 @@ case 4:
             var6 = 1;
             var6 = var8[var6];
             _closure2_slot2 = var6;
-            if(!var16) { _fun0001_ip = 8; continue _fun0001 }
+            if(!var17) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var3 = var5;
 case 8:
-            var5 = var15 != var3;
-            var15 = null;
+            var5 = var16 != var3;
+            var16 = null;
             if(!var5) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var15 = var3;
+            var16 = var3;
 case 10:
-            _closure2_slot3 = var15;
+            _closure2_slot3 = var16;
             var8 = _closure1_slot3;
             var6 = var8.useImperativeHandle;
             var5 = new Array(3);
-            var5[0] = var16;
+            var5[0] = var17;
             var5[1] = var2;
-            var5[2] = var15;
+            var5[2] = var16;
             var3 = function() {
                 var1 = {};
                 var3 = function setValue(arg1) {
@@ -145,19 +146,19 @@ case 14:
                 var1['getValue'] = var2;
                 return var1;
             };
-            var3 = var6.bind(var8)(var14, var3, var5);
+            var3 = var6.bind(var8)(var15, var3, var5);
             var5 = var8.useContext;
             var6 = _closure1_slot0;
-            var14 = _closure1_slot1;
+            var15 = _closure1_slot1;
             var3 = 4;
-            var3 = var14[var3];
+            var3 = var15[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.RedesignCompatContext;
             var3 = var5.bind(var8)(var3);
             _closure2_slot4 = var3;
             var5 = var8.useCallback;
             var3 = new Array(2);
-            var3[0] = var16;
+            var3[0] = var17;
             var3[1] = var2;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -186,7 +187,7 @@ case 14:
             _closure2_slot5 = var2;
             var5 = var8.useMemo;
             var3 = new Array(2);
-            var3[0] = var15;
+            var3[0] = var16;
             var3[1] = var2;
             var2 = function() {
                 var1 = {};
@@ -203,12 +204,13 @@ case 14:
             var1 = {};
             var1['value'] = var5;
             var5 = 5;
-            var5 = var14[var5];
+            var5 = var15[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.TableRowGroup;
             var5 = {};
-            var14 = 'radiogroup';
-            var5['accessibilityRole'] = var14;
+            var15 = 'radiogroup';
+            var5['accessibilityRole'] = var15;
+            var5['accessibilityLabel'] = var14;
             var5['title'] = var13;
             var5['description'] = var12;
             var5['helperText'] = var11;

@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var2.bind(var4)();
         var2 = _closure1_slot0;
         var14 = _closure1_slot2;
-        var3 = 18;
+        var3 = 19;
         var5 = var14[var3];
         var7 = var2.bind(var4)(var5);
         var6 = var7.useAnimatedStyle;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var2.bind(var3)(var1);
         var3 = _closure1_slot14;
         var10 = _closure1_slot1;
-        var5 = 19;
+        var5 = 20;
         var1 = var14[var5];
         var2 = var10.bind(var4)(var1);
         var1 = {};
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var5['style'] = var8;
         var16 = _closure1_slot13;
-        var8 = 20;
+        var8 = 21;
         var8 = var14[var8];
         var15 = var10.bind(var4)(var8);
         var8 = {'absolute': true, 'tall': true};
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var11.headerWrapper;
         var6['style'] = var11;
         var11 = _closure1_slot13;
-        var9 = 21;
+        var9 = 22;
         var9 = var14[var9];
         var10 = var10.bind(var4)(var9);
         var9 = {};
@@ -158,7 +158,7 @@ case 0:
             var _closure2_slot4 = var6;
             var7 = _closure1_slot1;
             var21 = _closure1_slot2;
-            var4 = 22;
+            var4 = 23;
             var4 = var21[var4];
             var5 = undefined;
             var4 = var7.bind(var5)(var4);
@@ -168,7 +168,7 @@ case 0:
             var13 = var4.bind(var5)(var7);
             var _closure2_slot5 = var13;
             var22 = _closure1_slot0;
-            var4 = 23;
+            var4 = 24;
             var4 = var21[var4];
             var9 = var22.bind(var5)(var4);
             var8 = var9.useStateFromStoresObject;
@@ -193,13 +193,13 @@ case 0:
             var4 = var8.bind(var9)(var7, var4);
             var8 = var4.actionSheetOpen;
             var7 = var4.useReducedMotion;
-            var4 = 24;
+            var4 = 25;
             var4 = var21[var4];
             var9 = var22.bind(var5)(var4);
             var4 = var9.useIsFocused;
             var4 = var4.bind(var9)();
             var _closure2_slot6 = var1;
-            var15 = 18;
+            var15 = 19;
             var9 = var21[var15];
             var11 = var22.bind(var5)(var9);
             var10 = var11.useSharedValue;
@@ -215,12 +215,12 @@ case 0:
                 var3 = var4.set;
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 25;
+                var1 = 26;
                 var2 = var6[var1];
                 var1 = undefined;
                 var8 = var5.bind(var1)(var2);
                 var7 = var8.withSpring;
-                var2 = 26;
+                var2 = 27;
                 var2 = var6[var2];
                 var2 = var5.bind(var1)(var2);
                 var6 = var2.springStandard;
@@ -240,12 +240,12 @@ case 0:
                 var3 = var4.set;
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 25;
+                var1 = 26;
                 var2 = var6[var1];
                 var1 = undefined;
                 var8 = var5.bind(var1)(var2);
                 var7 = var8.withSpring;
-                var2 = 26;
+                var2 = 27;
                 var2 = var6[var2];
                 var2 = var5.bind(var1)(var2);
                 var6 = var2.springStandard;
@@ -274,7 +274,7 @@ case 3:
 case 2:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 27;
+                    var1 = 28;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var4.bind(var1)(var3);
@@ -296,7 +296,7 @@ case 0:
                     var1 = {};
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var10 = 18;
+                    var10 = 19;
                     var2 = var2[var10];
                     var9 = undefined;
                     var8 = var3.bind(var9)(var2);
@@ -377,7 +377,7 @@ case 7:
                 var1 = {};
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 18;
+                var2 = 19;
                 var3 = var3[var2];
                 var2 = undefined;
                 var6 = var4.bind(var2)(var3);
@@ -454,14 +454,14 @@ case 16:
 case 15:
             var11 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var3 = 28;
+            var3 = 29;
             var3 = var10[var3];
             var4 = var11.bind(var5)(var3);
             var3 = var4.getAnimatableSourceWithFallback;
             var2 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 28;
+                var1 = 29;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -478,7 +478,7 @@ case 15:
             };
             var18 = var3.bind(var4)(var7, var2);
             var4 = _closure1_slot13;
-            var2 = 19;
+            var2 = 20;
             var2 = var10[var2];
             var3 = var11.bind(var5)(var2);
             var2 = {};
@@ -492,7 +492,7 @@ case 15:
             var6['onPressIn'] = var16;
             var6['onPressOut'] = var9;
             var17 = _closure1_slot13;
-            var9 = 29;
+            var9 = 30;
             var9 = var10[var9];
             var16 = var11.bind(var5)(var9);
             var9 = {};
@@ -575,7 +575,7 @@ case 9:
     var _closure1_slot13 = var5;
     var4 = var4.jsxs;
     var _closure1_slot14 = var4;
-    var4 = 16;
+    var4 = 18;
     var5 = var7[var4];
     var10 = var6.bind(var1)(var5);
     var9 = var10.createStyles;
@@ -615,7 +615,7 @@ case 9:
         var4 = copyDataProperties(var7, var6);
         var5 = _closure1_slot1;
         var4 = _closure1_slot2;
-        var3 = 17;
+        var3 = 15;
         var4 = var4[var3];
         var3 = undefined;
         var3 = var5.bind(var3)(var4);
@@ -641,7 +641,7 @@ case 0:
 case 18:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 17;
+            var1 = 15;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
@@ -651,7 +651,7 @@ case 18:
 case 17:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 17;
+            var2 = 15;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
@@ -738,7 +738,7 @@ case 20:
     var8 = 'function RedesignGuildHeaderTsx4(){const{interpolate,pressed}=this.__closure;return{opacity:interpolate(pressed.get(),[0,1],[0,0.3])};}';
     var5['code'] = var8;
     var _closure1_slot21 = var5;
-    var5 = 30;
+    var5 = 31;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -789,9 +789,9 @@ case 22:
             var8 = var5.bind(var3)(var7);
             var7 = var8.isFavoritesGuildId;
             var6 = var6.id;
-            var13 = var7.bind(var8)(var6);
-            var11 = 13;
-            var4 = var4[var11];
+            var14 = var7.bind(var8)(var6);
+            var13 = 13;
+            var4 = var4[var13];
             var6 = var5.bind(var3)(var4);
             var5 = var6.scaleTextLineHeight;
             var4 = 'redesign/heading-18/bold';
@@ -801,13 +801,27 @@ case 22:
 case 25:
             var4 = 1;
 case 24:
+            var5 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var1 = 14;
+            var1 = var15[var1];
+            var6 = var5.bind(var3)(var1);
+            var5 = var6.useToken;
+            var11 = _closure1_slot1;
+            var1 = 15;
+            var1 = var15[var1];
+            var1 = var11.bind(var3)(var1);
+            var1 = var1.modules;
+            var1 = var1.mobile;
+            var1 = var1.CHANNEL_LIST_SUBTITLE_TEXT_STYLE;
+            var11 = var5.bind(var6)(var1);
             var6 = 0;
-            if(var13) { _fun0006_ip = 26; continue _fun0006 }
+            if(var14) { _fun0006_ip = 26; continue _fun0006 }
 case 27:
             var5 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var1 = 14;
-            var1 = var14[var1];
+            var15 = _closure1_slot2;
+            var1 = 16;
+            var1 = var15[var1];
             var1 = var5.bind(var3)(var1);
             var5 = var1.SMALL_BUTTON_HEIGHT;
             var1 = _closure1_slot11;
@@ -815,7 +829,7 @@ case 27:
 case 26:
             var1 = 16;
             var5 = var1;
-            if(!var13) { _fun0006_ip = 28; continue _fun0006 }
+            if(!var14) { _fun0006_ip = 28; continue _fun0006 }
 case 29:
             var5 = var10;
 case 28:
@@ -824,15 +838,14 @@ case 28:
 case 31:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var9 = var9[var11];
-            var11 = var10.bind(var3)(var9);
-            var10 = var11.scaleTextLineHeight;
-            var9 = 'text-xs/medium';
-            var7 = var10.bind(var11)(var9, var12);
+            var9 = var9[var13];
+            var10 = var10.bind(var3)(var9);
+            var9 = var10.scaleTextLineHeight;
+            var7 = var9.bind(var10)(var11, var12);
 case 30:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var2 = 15;
+            var2 = 17;
             var2 = var10[var2];
             var2 = var9.bind(var3)(var2);
             var1 = var1 + var8;

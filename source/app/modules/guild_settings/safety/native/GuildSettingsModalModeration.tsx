@@ -210,6 +210,8 @@ case 15:
             var2 = var2.YJlvBM;
             var2 = var7.bind(var13)(var2);
             var3['title'] = var2;
+            var2 = false;
+            var3['hasIcons'] = var2;
             var2 = var16[var12];
             var2 = var15.bind(var6)(var2);
             var14 = var2.intl;
@@ -469,6 +471,8 @@ case 22:
             var2 = var8.bind(var4)(var2);
             var3 = var2.TableRadioGroup;
             var2 = {};
+            var7 = false;
+            var2['hasIcons'] = var7;
             var7 = 15;
             var11 = var10[var7];
             var11 = var8.bind(var4)(var11);
@@ -596,6 +600,8 @@ case 33:
             var2 = var8.bind(var4)(var2);
             var3 = var2.TableRadioGroup;
             var2 = {};
+            var7 = false;
+            var2['hasIcons'] = var7;
             var7 = 15;
             var11 = var10[var7];
             var11 = var8.bind(var4)(var11);

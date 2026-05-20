@@ -819,24 +819,6 @@ case 33:
         return var1;
     };
     var3['trackForumAddMediaToOriginalPostClicked'] = var4;
-    var4 = function trackForumHelperCardClicked(arg1) {
-        var1 = arg1;
-        var6 = var1.readGuideCta;
-        var4 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 5;
-        var3 = var3[var1];
-        var1 = undefined;
-        var5 = var4.bind(var1)(var3);
-        var4 = var5.trackWithMetadata;
-        var2 = _closure1_slot8;
-        var3 = var2.FORUM_CHANNEL_HELPER_CARD_CLICKED;
-        var2 = {};
-        var2['read_guide_cta'] = var6;
-        var2 = var4.bind(var5)(var3, var2);
-        return var1;
-    };
-    var3['trackForumHelperCardClicked'] = var4;
     var4 = function trackForumChannelMediaUploaderClicked(arg1) {
         var1 = arg1;
         var6 = var1.isMobile;

@@ -26,9 +26,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.View;
     var _closure1_slot4 = var7;
-    var7 = var4.TouchableOpacity;
-    var _closure1_slot5 = var7;
-    var4 = var4.Platform;
+    var4 = var4.TouchableOpacity;
+    var _closure1_slot5 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -54,27 +53,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
-    var4 = function(arg1, arg2) {
+    var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
             var1 = {};
             var2 = {'flex': 1, 'flexDirection': 'column', 'gap': null, 'minWidth': '100%'};
             var9 = _closure1_slot1;
-            var6 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var8 = 13;
-            var5 = var6[var8];
+            var5 = var11[var8];
             var7 = undefined;
             var5 = var9.bind(var7)(var5);
             var5 = var5.spacing;
             var5 = var5.PX_12;
             var2['gap'] = var5;
-            var5 = var6[var8];
+            var5 = var11[var8];
             var5 = var9.bind(var7)(var5);
             var5 = var5.spacing;
             var5 = var5.PX_12;
             var2['paddingTop'] = var5;
-            var5 = var6[var8];
+            var5 = var11[var8];
             var5 = var9.bind(var7)(var5);
             var5 = var5.spacing;
             var5 = var5.PX_16;
@@ -82,7 +81,7 @@ case 0:
             var1['actions'] = var2;
             var2 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'gap': null, 'flexWrap': 'wrap'};
             var5 = 'center';
-            var6 = var6[var8];
+            var6 = var11[var8];
             var6 = var9.bind(var7)(var6);
             var6 = var6.spacing;
             var6 = var6.PX_8;
@@ -92,10 +91,14 @@ case 0:
             var2['color'] = var4;
             var9 = 36;
             var2['fontSize'] = var9;
+            var10 = _closure1_slot0;
+            var6 = 27;
+            var6 = var11[var6];
+            var10 = var10.bind(var7)(var6);
+            var6 = var10.isAndroid;
+            var10 = var6.bind(var10)();
             var6 = 44;
-            var11 = 'android';
-            var10 = arg2;
-            if(!(var11 === var10)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = var9;
 case 2:
@@ -185,7 +188,7 @@ case 2:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 27;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -315,9 +318,8 @@ case 10:
             var1 = var1.colors;
             var1 = var1.MOBILE_TEXT_HEADING_PRIMARY;
             var23 = var2.bind(var3)(var1, var5);
-            var2 = _closure1_slot12;
-            var1 = 'android';
-            var15 = var2.bind(var4)(var23, var1);
+            var1 = _closure1_slot12;
+            var15 = var1.bind(var4)(var23);
             var9 = _closure1_slot3;
             var3 = var9.useEffect;
             var2 = function() {

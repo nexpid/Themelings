@@ -356,7 +356,7 @@ case 31:
     var5 = var6.bind(var1)(var5);
     var5 = var5.jsx;
     var _closure1_slot17 = var5;
-    var5 = 62;
+    var5 = 63;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -1197,44 +1197,44 @@ case 49:
     var4 = function HideSelfVideo() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var3 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
             var1 = 53;
-            var1 = var8[var1];
+            var1 = var4[var1];
             var5 = undefined;
-            var3 = var3.bind(var5)(var1);
-            var4 = _closure1_slot10;
-            var1 = var4.getId;
-            var1 = var1.bind(var4)();
-            var4 = var3.bind(var5)(var1);
-            var3 = _closure1_slot3;
+            var2 = var2.bind(var5)(var1);
+            var3 = _closure1_slot10;
+            var1 = var3.getId;
+            var1 = var1.bind(var3)();
+            var3 = var2.bind(var5)(var1);
+            var2 = _closure1_slot3;
             var1 = 3;
-            var4 = var3.bind(var5)(var4, var1);
+            var3 = var2.bind(var5)(var3, var1);
             var1 = 0;
-            var3 = var4[var1];
+            var2 = var3[var1];
             var1 = 1;
-            var7 = var4[var1];
+            var7 = var3[var1];
             var _closure2_slot0 = var7;
             var1 = 2;
-            var1 = var4[var1];
+            var1 = var3[var1];
             var _closure2_slot1 = var1;
-            var4 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var1 = 21;
-            var1 = var8[var1];
-            var9 = var4.bind(var5)(var1);
-            var8 = var9.useStateFromStores;
+            var1 = var4[var1];
+            var9 = var3.bind(var5)(var1);
+            var4 = var9.useStateFromStores;
             var1 = _closure1_slot7;
-            var4 = new Array(1);
-            var4[0] = var1;
+            var3 = new Array(1);
+            var3[0] = var1;
             var1 = function() {
                 var1 = _closure1_slot7;
                 var1 = var1.disableHideSelfStreamAndVideoConfirmationAlert;
                 return var1;
             };
-            var1 = var8.bind(var9)(var4, var1);
+            var1 = var4.bind(var9)(var3, var1);
             var _closure2_slot2 = var1;
             var1 = null;
-            if(!var3) { _fun0008_ip = 53; continue _fun0008 }
+            if(!var2) { _fun0008_ip = 53; continue _fun0008 }
 case 54:
             var4 = _closure1_slot17;
             var9 = _closure1_slot0;
@@ -1244,6 +1244,19 @@ case 54:
             var2 = var9.bind(var5)(var2);
             var3 = var2.TableSwitchRow;
             var2 = {};
+            var12 = _closure1_slot17;
+            var8 = 26;
+            var8 = var10[var8];
+            var8 = var9.bind(var5)(var8);
+            var11 = var8.TableRowIcon;
+            var8 = {};
+            var13 = 54;
+            var13 = var10[var13];
+            var13 = var9.bind(var5)(var13);
+            var13 = var13.UserSquareIcon;
+            var8['IconComponent'] = var13;
+            var8 = var12.bind(var5)(var11, var8);
+            var2['icon'] = var8;
             var7 = !var7;
             var2['value'] = var7;
             var6 = function onValueChange() {
@@ -1367,7 +1380,7 @@ case 53:
         var6 = var5.TableRowIcon;
         var5 = {};
         var11 = _closure1_slot1;
-        var10 = 54;
+        var10 = 55;
         var10 = var9[var10];
         var10 = var11.bind(var3)(var10);
         var5['source'] = var10;
@@ -1392,7 +1405,7 @@ case 0:
                 var6 = var2.bind(var3)();
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 55;
+                var1 = 56;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -1427,7 +1440,7 @@ case 60:
 case 0:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 56;
+            var1 = 57;
             var1 = var7[var1];
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
@@ -1497,7 +1510,7 @@ case 62:
         var10 = var7.TableRowIcon;
         var7 = {};
         var13 = _closure1_slot1;
-        var12 = 57;
+        var12 = 58;
         var12 = var9[var12];
         var12 = var13.bind(var4)(var12);
         var7['source'] = var12;
@@ -1507,7 +1520,7 @@ case 62:
         var5 = function onValueChange(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 58;
+            var1 = 59;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1547,7 +1560,7 @@ case 62:
         var1 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 59;
+            var1 = 60;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1573,13 +1586,13 @@ case 62:
         var7 = var6.bind(var3)(var7);
         var9 = var7.TableRowIcon;
         var7 = {};
-        var11 = 60;
+        var11 = 61;
         var11 = var8[var11];
         var11 = var6.bind(var3)(var11);
         var11 = var11.SettingsIcon;
         var7['IconComponent'] = var11;
         var12 = _closure1_slot1;
-        var11 = 61;
+        var11 = 62;
         var11 = var8[var11];
         var11 = var12.bind(var3)(var11);
         var7['source'] = var11;
@@ -1625,7 +1638,7 @@ case 0:
             var5 = var1.stream;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 56;
+            var1 = 57;
             var1 = var7[var1];
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
@@ -1669,7 +1682,7 @@ case 64:
 case 0:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 56;
+            var1 = 57;
             var1 = var7[var1];
             var4 = undefined;
             var5 = var2.bind(var4)(var1);

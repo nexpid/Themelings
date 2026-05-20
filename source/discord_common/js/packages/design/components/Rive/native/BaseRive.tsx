@@ -100,15 +100,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = arg1;
             var3 = var2.src;
-            var9 = var2.resourceName;
-            var17 = var2.style;
-            var14 = var2.artboard;
-            var5 = var2.artboardProperties;
+            var13 = var2.resourceName;
+            var16 = var2.style;
+            var12 = var2.artboard;
+            var11 = var2.artboardProperties;
+            var3 = var2.artboardViewModelInstances;
             var20 = var2.dataBinding;
-            var11 = var2.defaultViewModelInstance;
-            var13 = var2.referencedAssets;
-            var3 = var2.onDataBindingChange;
-            var19 = var2.stateMachine;
+            var19 = var2.defaultViewModelInstance;
+            var10 = var2.referencedAssets;
+            var9 = var2.onDataBindingChange;
+            var18 = var2.stateMachine;
+            var4 = undefined;
+            var _closure2_slot1 = var4;
             var2 = function useDefaultRenderer() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -185,26 +188,26 @@ case 10:
                     return var1;
                 }
             };
-            var4 = undefined;
             var2 = var2.bind(var4)();
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var12 = 4;
-            var2 = var2[var12];
+            var17 = 4;
+            var2 = var2[var17];
             var6 = var6.bind(var4)(var2);
             var2 = var6.useRive;
-            var8 = var2.bind(var6)();
+            var7 = var2.bind(var6)();
             var6 = _closure1_slot3;
             var2 = 2;
-            var6 = var6.bind(var4)(var8, var2);
-            var2 = 0;
-            var16 = var6[var2];
+            var7 = var6.bind(var4)(var7, var2);
+            var6 = 0;
+            var15 = var7[var6];
             var2 = 1;
-            var2 = var6[var2];
-            var8 = _closure1_slot4;
-            var6 = var8.useRef;
-            var8 = var6.bind(var8)(var11);
-            var6 = function useDataBinding(arg1, arg2, arg3, arg4) {
+            var8 = var7[var2];
+            var7 = _closure1_slot4;
+            var2 = var7.useRef;
+            var2 = var2.bind(var7)(var19);
+            var _closure2_slot0 = var2;
+            var7 = function useDataBinding(arg1, arg2, arg3, arg4) {
                 var12 = arg1;
                 var11 = arg2;
                 var10 = arg3;
@@ -645,13 +648,13 @@ case 18:
                 return var1;
             };
             var24 = undefined;
-            var23 = var2;
-            var22 = var14;
-            var21 = var5;
-            var6 = var24[var6](var23, var22, var21, var20, var19);
-            var15 = var6.onStateUpdated;
-            var7 = var6.isReadyToDisplay;
-            var1 = function useDataBindingCallbacks(arg1, arg2, arg3, arg4) {
+            var23 = var8;
+            var22 = var12;
+            var21 = var11;
+            var7 = var24[var7](var23, var22, var21, var20, var19);
+            var14 = var7.onStateUpdated;
+            var19 = var7.isReadyToDisplay;
+            var7 = function useDataBindingCallbacks(arg1, arg2, arg3, arg4) {
                 var8 = arg1;
                 var7 = arg2;
                 var6 = arg3;
@@ -817,80 +820,130 @@ case 75:
                 var1 = undefined;
                 return var1;
             };
-            var23 = var2;
-            var22 = var14;
-            var21 = var5;
-            var20 = var3;
-            var1 = var24[var1](var23, var22, var21, var20, var19);
+            var23 = var8;
+            var22 = var12;
+            var21 = var11;
+            var20 = var9;
+            var7 = var24[var7](var23, var22, var21, var20, var19);
+            var3 = var3[var12];
+            var8 = null;
+            if(!(var8 == var3)) { _fun0001_ip = 80; continue _fun0001 }
+case 45:
+            var3 = new Array(0);
+case 80:
+            var3 = var3.length;
+            var7 = var3 > var6;
+            _closure2_slot1 = var7;
+            var2 = var2.current;
+            var11 = var8 != var2;
+            if(var11) { _fun0001_ip = 81; continue _fun0001 }
+case 82:
+            var11 = var7;
+case 81:
+            var6 = _closure1_slot4;
+            var3 = var6.useMemo;
+            var2 = new Array(1);
+            var2[0] = var7;
+            var1 = function() {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+                    var1 = _closure2_slot0;
+                    var3 = var1.current;
+                    var1 = null;
+                    if(!(var1 == var3)) { _fun0011_ip = 83; continue _fun0011 }
+case 84:
+                    var1 = _closure2_slot1;
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 4;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var5 = var5.bind(var3)(var4);
+                    if(var1) { _fun0011_ip = 85; continue _fun0011 }
+case 86:
+                    var1 = var5.BindEmpty;
+                    var1 = var1.bind(var5)();
+                    _fun0011_ip = 87; continue _fun0011;
+case 85:
+                    var4 = var5.AutoBind;
+                    var3 = true;
+                    var1 = var4.bind(var5)(var3);
+case 87:
+                    _fun0011_ip = 88; continue _fun0011;
+case 83:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 4;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var4 = var5.bind(var3)(var4);
+                    var3 = var4.BindByName;
+                    var2 = _closure2_slot0;
+                    var2 = var2.current;
+                    var1 = var3.bind(var4)(var2);
+case 88:
+                    return var1;
+                }
+            };
+            var9 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
-            var5 = _closure1_slot9;
-            var6 = var5.container;
-            var5 = new Array(2);
-            var5[0] = var6;
-            var6 = undefined;
-            if(var7) { _fun0001_ip = 80; continue _fun0001 }
-case 81:
-            var7 = _closure1_slot9;
-            var6 = var7.hidden;
-case 80:
-            var5[1] = var6;
-            var1['style'] = var5;
+            var6 = _closure1_slot9;
+            var7 = var6.container;
+            var6 = new Array(2);
+            var6[0] = var7;
+            var7 = undefined;
+            if(var19) { _fun0001_ip = 89; continue _fun0001 }
+case 90:
+            var19 = _closure1_slot9;
+            var7 = var19.hidden;
+case 89:
+            var6[1] = var7;
+            var1['style'] = var6;
             var7 = _closure1_slot8;
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var5 = var5[var12];
+            var5 = var5[var17];
             var6 = var6.bind(var4)(var5);
             var5 = {};
-            var5['resourceName'] = var9;
-            var11 = null;
-            if(!(var11 == var19)) { _fun0001_ip = 82; continue _fun0001 }
-case 83:
-            var9 = {};
-            _fun0001_ip = 84; continue _fun0001;
-case 82:
-            var18 = {};
-            var18['stateMachine'] = var19;
-            var9 = var18;
-case 84:
-            var23 = var5;
-            var22 = var9;
-            var9 = copyDataProperties(var23, var22);
-            var9 = 'style';
-            var5[8] = var17;
-            var9 = 'ref';
-            var5[8] = var16;
-            var9 = 'onStateChanged';
-            var5[8] = var15;
-            var9 = 'artboardName';
-            var5[8] = var14;
-            if(!(var11 == var13)) { _fun0001_ip = 85; continue _fun0001 }
-case 86:
+            var5['resourceName'] = var13;
+            if(!(var8 == var18)) { _fun0001_ip = 57; continue _fun0001 }
+case 91:
             var13 = {};
-case 85:
-            var9 = 'referencedAssets';
-            var5[8] = var13;
-            var9 = var8.current;
-            if(!(var11 == var9)) { _fun0001_ip = 87; continue _fun0001 }
-case 88:
-            var11 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var9 = var9[var12];
-            var13 = var11.bind(var4)(var9);
-            var11 = var13.AutoBind;
-            var9 = true;
-            var9 = var11.bind(var13)(var9);
-            _fun0001_ip = 89; continue _fun0001;
-case 87:
-            var11 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var10 = var10[var12];
-            var11 = var11.bind(var4)(var10);
-            var10 = var11.BindByName;
-            var8 = var8.current;
-            var9 = var10.bind(var11)(var8);
-case 89:
+            _fun0001_ip = 92; continue _fun0001;
+case 57:
+            var17 = {};
+            var17['stateMachine'] = var18;
+            var13 = var17;
+case 92:
+            var23 = var5;
+            var22 = var13;
+            var13 = copyDataProperties(var23, var22);
+            var13 = 'style';
+            var5[12] = var16;
+            var13 = 'ref';
+            var5[12] = var15;
+            if(var11) { _fun0001_ip = 93; continue _fun0001 }
+case 94:
+            var11 = {};
+            _fun0001_ip = 95; continue _fun0001;
+case 93:
+            var13 = {};
+            var13['onStateChanged'] = var14;
+            var11 = var13;
+case 95:
+            var23 = var5;
+            var22 = var11;
+            var11 = copyDataProperties(var23, var22);
+            var11 = 'artboardName';
+            var5[10] = var12;
+            if(!(var8 == var10)) { _fun0001_ip = 96; continue _fun0001 }
+case 97:
+            var10 = {};
+case 96:
+            var8 = 'referencedAssets';
+            var5[7] = var10;
             var8 = 'dataBinding';
             var5[7] = var9;
             var5 = var7.bind(var4)(var6, var5);

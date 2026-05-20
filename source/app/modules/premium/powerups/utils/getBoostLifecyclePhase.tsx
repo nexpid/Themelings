@@ -23,6 +23,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = 3;
     var3['BOOST_EXPIRING_DISPLAY_WINDOW_DAYS'] = var4;
+    var4 = 259200000;
+    var3['BOOST_EXPIRING_DISPLAY_WINDOW_MS'] = var4;
     var4 = function getBoostLifecyclePhase(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:

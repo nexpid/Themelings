@@ -157,7 +157,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(5);
+        var1 = new Array(6);
         var1[0] = var5;
         var5 = {};
         var7 = 'applyNativeClipsSettings';
@@ -189,12 +189,21 @@ case 8:
         var5 = {};
         var7 = 'fireClipsInitEvent';
         var5['key'] = var7;
+        var7 = function value() {
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[4] = var5;
+        var5 = {};
+        var7 = 'handleStreamEnded';
+        var5['key'] = var7;
         var6 = function value() {
             var1 = undefined;
             return var1;
         };
         var5['value'] = var6;
-        var1[4] = var5;
+        var1[5] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

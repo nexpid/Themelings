@@ -59,7 +59,7 @@ case 2:
         }
     };
     var3['isGooglePlayBillingSupported'] = var4;
-    var2 = function isCollectibleGiftingSupported() {
+    var4 = function isCollectibleGiftingSupported() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -71,6 +71,19 @@ case 2:
         var1 = !var1;
         return var1;
     };
-    var3['isCollectibleGiftingSupported'] = var2;
+    var3['isCollectibleGiftingSupported'] = var4;
+    var2 = function isSocialLayerStorefrontGiftingSupported() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.isMetaQuest;
+        var1 = var1.bind(var2)();
+        var1 = !var1;
+        return var1;
+    };
+    var3['isSocialLayerStorefrontGiftingSupported'] = var2;
     return var1;
 })();

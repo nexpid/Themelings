@@ -21,14 +21,14 @@ case 0:
             var5 = var5.bind(var6)();
             if(!var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = _closure1_slot10;
+            var5 = _closure1_slot9;
             var5 = var5.bind(var1)(var4);
 case 2:
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot7;
             if(!(var5 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            _closure1_slot8 = var4;
-            var5 = _closure1_slot7;
+            _closure1_slot7 = var4;
+            var5 = _closure1_slot6;
             var4 = var5.getState;
             var4 = var4.bind(var5)();
             var6 = var4.orientationLock;
@@ -36,11 +36,11 @@ case 5:
             var4 = var4 != var6;
             if(!var4) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var7 = _closure1_slot6;
+            var7 = _closure1_slot5;
             var5 = var7.includes;
             var4 = var5.bind(var7)(var6);
 case 6:
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot7;
             var5 = 'LANDSCAPE';
             if(!(var5 === var7)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
@@ -53,10 +53,10 @@ case 10:
             var8 = var7.bind(var1)(var4);
             var7 = var8.batchUpdates;
             var4 = function() {
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var2 = var3.setState;
                 var1 = {};
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot4;
                 var4 = var4.LANDSCAPE;
                 var1['orientation'] = var4;
                 var1 = var2.bind(var3)(var1);
@@ -65,7 +65,7 @@ case 10:
             var4 = var7.bind(var8)(var4);
             _fun0001_ip = 4; continue _fun0001;
 case 8:
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot7;
             var4 = 'PORTRAIT';
             var4 = var4 === var7;
             if(var4) { _fun0001_ip = 11; continue _fun0001 }
@@ -79,7 +79,7 @@ case 12:
             var7 = var7.bind(var8)();
             if(!var7) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var9 = _closure1_slot8;
+            var9 = _closure1_slot7;
             var8 = 'PORTRAITUPSIDEDOWN';
             var7 = var8 === var9;
 case 13:
@@ -98,10 +98,10 @@ case 17:
             var4 = var4.bind(var1)(var3);
             var3 = var4.batchUpdates;
             var2 = function() {
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var2 = var3.setState;
                 var1 = {};
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot4;
                 var4 = var4.PORTRAIT;
                 var1['orientation'] = var4;
                 var1 = var2.bind(var3)(var1);
@@ -116,11 +116,11 @@ case 4:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var2 = var3.getState;
             var2 = var2.bind(var3)();
             var3 = var2.orientationLock;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot8;
             if(!var2) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
             var2 = 'LANDSCAPE';
@@ -131,14 +131,14 @@ case 21:
 case 22:
             if(!(var4 === var3)) { _fun0002_ip = 18; continue _fun0002 }
 case 23:
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot10;
             var4 = undefined;
             var4 = var5.bind(var4)();
             _fun0002_ip = 18; continue _fun0002;
 case 20:
             if(!(var2 === var3)) { _fun0002_ip = 18; continue _fun0002 }
 case 24:
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot10;
             var1 = undefined;
             var1 = var2.bind(var1)();
 case 18:
@@ -146,24 +146,24 @@ case 18:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = function consumeUnlockAfterRotationToLockRequest() {
-        var5 = _closure1_slot12;
+        var5 = _closure1_slot11;
         var4 = {};
         var2 = false;
         var4['unlockAfterRotatingToPreviousLock'] = var2;
         var1 = undefined;
         var4 = var5.bind(var1)(var4);
-        _closure1_slot9 = var2;
+        _closure1_slot8 = var2;
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var6 = function unlockOrientation(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.unlockAfterRotatingToPreviousLock;
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot6;
             var1 = var4.getState;
             var1 = var1.bind(var4)();
             var4 = var1.orientationLock;
@@ -185,19 +185,20 @@ case 26:
             var5 = var5.bind(var6)();
             if(!var5) { _fun0003_ip = 27; continue _fun0003 }
 case 28:
-            var5 = global;
-            var7 = var5.parseInt;
-            var5 = _closure1_slot4;
-            var6 = var5.Version;
-            var5 = 10;
-            var6 = var7.bind(var1)(var6, var5);
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 5;
+            var5 = var7[var5];
+            var6 = var6.bind(var1)(var5);
+            var5 = var6.getSystemVersionMajor;
+            var6 = var5.bind(var6)();
             var5 = 16;
             if(!(var6 >= var5)) { _fun0003_ip = 27; continue _fun0003 }
 case 25:
             if(!var2) { _fun0003_ip = 27; continue _fun0003 }
 case 29:
             var2 = null;
-            if(!(var2 == var4)) { _fun0003_ip = 11; continue _fun0003 }
+            if(!(var2 == var4)) { _fun0003_ip = 16; continue _fun0003 }
 case 27:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -217,7 +218,7 @@ case 27:
             var5 = var4.bind(var1)(var2);
             var4 = var5.batchUpdates;
             var2 = function() {
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var2 = var3.setState;
                 var1 = {};
                 var4 = null;
@@ -228,14 +229,14 @@ case 27:
             };
             var2 = var4.bind(var5)(var2);
             _fun0003_ip = 30; continue _fun0003;
-case 11:
+case 16:
             var2 = true;
-            _closure1_slot9 = var2;
+            _closure1_slot8 = var2;
 case 30:
             return var1;
         }
     };
-    var _closure1_slot12 = var6;
+    var _closure1_slot11 = var6;
     var5 = function lockOrientation(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -255,11 +256,11 @@ case 32:
 case 31:
             var5 = var6.bind(var7)(var5);
             var5 = false;
-            _closure1_slot9 = var5;
+            _closure1_slot8 = var5;
             var6 = 'LANDSCAPE';
             var5 = arg1;
-            if(!(var6 !== var5)) { _fun0004_ip = 25; continue _fun0004 }
-case 33:
+            if(!(var6 !== var5)) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var5 = var7[var4];
@@ -272,7 +273,7 @@ case 33:
             var7 = var6.bind(var1)(var5);
             var6 = var7.batchUpdates;
             var5 = function() {
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var2 = var3.setState;
                 var1 = {};
                 var4 = 'PORTRAIT';
@@ -282,8 +283,8 @@ case 33:
                 return var1;
             };
             var5 = var6.bind(var7)(var5);
-            _fun0004_ip = 34; continue _fun0004;
-case 25:
+            _fun0004_ip = 35; continue _fun0004;
+case 33:
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
             var4 = var5[var4];
@@ -296,7 +297,7 @@ case 25:
             var4 = var4.bind(var1)(var3);
             var3 = var4.batchUpdates;
             var2 = function() {
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var2 = var3.setState;
                 var1 = {};
                 var4 = 'LANDSCAPE';
@@ -306,11 +307,11 @@ case 25:
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
-case 34:
+case 35:
             return var1;
         }
     };
-    var _closure1_slot13 = var5;
+    var _closure1_slot12 = var5;
     var4 = function lockOrientationForiOS(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -323,7 +324,7 @@ case 0:
             var5 = var5.bind(var1)(var4);
             var4 = var5.isAndroid;
             var4 = var4.bind(var5)();
-            if(var4) { _fun0005_ip = 35; continue _fun0005 }
+            if(var4) { _fun0005_ip = 36; continue _fun0005 }
 case 21:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -332,22 +333,22 @@ case 21:
             var6 = var6.bind(var1)(var5);
             var5 = var6.isIpadOS;
             var5 = var5.bind(var6)();
-            if(!var5) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+            if(!var5) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var6 = null;
             var5 = var6 == var3;
-case 36:
+case 37:
             var4 = var5;
-case 35:
-            if(var4) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
-            var2 = _closure1_slot13;
+case 36:
+            if(var4) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
+            var2 = _closure1_slot12;
             var2 = var2.bind(var1)(var3);
-case 38:
+case 39:
             return var1;
         }
     };
-    var _closure1_slot14 = var4;
+    var _closure1_slot13 = var4;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -366,8 +367,6 @@ case 38:
     var8 = var12[var10];
     var8 = var11.bind(var1)(var8);
     var15 = var8.AppState;
-    var8 = var8.Platform;
-    var _closure1_slot4 = var8;
     var9 = {};
     var9['PORTRAIT'] = var14;
     var8 = 'PORTRAIT';
@@ -375,16 +374,16 @@ case 38:
     var9['LANDSCAPE'] = var10;
     var8 = 'LANDSCAPE';
     var9[var10] = var8;
-    var _closure1_slot5 = var9;
+    var _closure1_slot4 = var9;
     var8 = ['PORTRAIT', 'PORTRAITUPSIDEDOWN'];
-    var _closure1_slot6 = var8;
+    var _closure1_slot5 = var8;
     var8 = 2;
     var8 = var12[var8];
     var14 = var11.bind(var1)(var8);
     var10 = var14.create;
     var8 = function() {
         var1 = {};
-        var2 = _closure1_slot5;
+        var2 = _closure1_slot4;
         var2 = var2.PORTRAIT;
         var1['orientation'] = var2;
         var2 = null;
@@ -392,11 +391,11 @@ case 38:
         return var1;
     };
     var8 = var10.bind(var14)(var8);
-    var _closure1_slot7 = var8;
+    var _closure1_slot6 = var8;
     var10 = null;
-    var _closure1_slot8 = var10;
+    var _closure1_slot7 = var10;
     var10 = false;
-    var _closure1_slot9 = var10;
+    var _closure1_slot8 = var10;
     var10 = 6;
     var14 = var12[var10];
     var17 = var13.bind(var1)(var14);
@@ -407,71 +406,71 @@ case 0:
             var6 = arg1;
             var1 = 0;
             var2 = var6 >= var1;
-            if(!var2) { _fun0006_ip = 40; continue _fun0006 }
-case 41:
+            if(!var2) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
             var1 = 5;
             var2 = var6 <= var1;
-case 40:
-            if(var2) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
+case 41:
+            if(var2) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
             var1 = 355;
             var2 = var6 >= var1;
-case 42:
+case 43:
             var3 = 'PORTRAIT';
             var4 = true;
             var1 = var3;
-            if(!(var2 !== var4)) { _fun0006_ip = 44; continue _fun0006 }
+            if(!(var2 !== var4)) { _fun0006_ip = 45; continue _fun0006 }
 case 32:
             var2 = 85;
             var2 = var6 >= var2;
-            if(!var2) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+            if(!var2) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
             var5 = 95;
             var2 = var6 <= var5;
-case 45:
+case 46:
             var1 = 'LANDSCAPE-RIGHT';
-            if(!(var2 !== var4)) { _fun0006_ip = 44; continue _fun0006 }
-case 47:
+            if(!(var2 !== var4)) { _fun0006_ip = 45; continue _fun0006 }
+case 48:
             var2 = 175;
             var2 = var6 >= var2;
-            if(!var2) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+            if(!var2) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
             var5 = 185;
             var2 = var6 <= var5;
-case 48:
+case 49:
             var1 = 'PORTRAITUPSIDEDOWN';
-            if(!(var2 !== var4)) { _fun0006_ip = 44; continue _fun0006 }
-case 50:
+            if(!(var2 !== var4)) { _fun0006_ip = 45; continue _fun0006 }
+case 51:
             var2 = 265;
             var2 = var6 >= var2;
             if(!var2) { _fun0006_ip = 9; continue _fun0006 }
-case 51:
+case 52:
             var5 = 275;
             var2 = var6 <= var5;
 case 9:
             var1 = 'LANDSCAPE-LEFT';
-            if(!(var2 !== var4)) { _fun0006_ip = 44; continue _fun0006 }
-case 52:
+            if(!(var2 !== var4)) { _fun0006_ip = 45; continue _fun0006 }
+case 53:
             var1 = 'UNKNOWN';
-case 44:
+case 45:
             var2 = 'LANDSCAPE-LEFT';
-            if(!(var2 !== var1)) { _fun0006_ip = 53; continue _fun0006 }
-case 54:
-            var2 = 'LANDSCAPE-RIGHT';
-            if(!(var2 !== var1)) { _fun0006_ip = 53; continue _fun0006 }
+            if(!(var2 !== var1)) { _fun0006_ip = 54; continue _fun0006 }
 case 55:
-            if(!(var3 === var1)) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
-            var2 = _closure1_slot10;
+            var2 = 'LANDSCAPE-RIGHT';
+            if(!(var2 !== var1)) { _fun0006_ip = 54; continue _fun0006 }
+case 56:
+            if(!(var3 === var1)) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
+            var2 = _closure1_slot9;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
-            _fun0006_ip = 56; continue _fun0006;
-case 53:
-            var3 = _closure1_slot10;
+            _fun0006_ip = 57; continue _fun0006;
+case 54:
+            var3 = _closure1_slot9;
             var2 = undefined;
             var1 = 'LANDSCAPE';
             var1 = var3.bind(var2)(var1);
-case 56:
+case 57:
             var1 = undefined;
             return var1;
         }
@@ -491,7 +490,7 @@ case 56:
     var10 = function applyLockStateOnAppActive(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var2 = var3.getState;
             var2 = var2.bind(var3)();
             var4 = var2.orientationLock;
@@ -499,17 +498,17 @@ case 0:
             var2 = arg1;
             var2 = var3 === var2;
             if(!var2) { _fun0007_ip = 3; continue _fun0007 }
-case 58:
+case 59:
             var3 = null;
             var2 = var3 != var4;
 case 3:
-            if(!var2) { _fun0007_ip = 59; continue _fun0007 }
-case 60:
-            var3 = _closure1_slot13;
+            if(!var2) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
+            var3 = _closure1_slot12;
             var2 = undefined;
             var1 = true;
             var1 = var3.bind(var2)(var4, var1);
-case 59:
+case 60:
             var1 = undefined;
             return var1;
         }
@@ -530,35 +529,35 @@ case 59:
     var4 = function() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot6;
             var3 = var4.getState;
             var3 = var3.bind(var4)();
             var5 = var3.orientation;
             var6 = var3.orientationLock;
             var3 = null;
             var4 = var3 != var6;
-            if(!var4) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
-            var7 = _closure1_slot6;
+            if(!var4) { _fun0008_ip = 62; continue _fun0008 }
+case 63:
+            var7 = _closure1_slot5;
             var3 = var7.includes;
             var4 = var3.bind(var7)(var6);
-case 61:
-            var3 = _closure1_slot5;
+case 62:
+            var3 = _closure1_slot4;
             var3 = var3.LANDSCAPE;
-            if(!(var5 === var3)) { _fun0008_ip = 63; continue _fun0008 }
-case 64:
+            if(!(var5 === var3)) { _fun0008_ip = 64; continue _fun0008 }
+case 65:
             var3 = 'LANDSCAPE';
-            if(!(var3 === var6)) { _fun0008_ip = 65; continue _fun0008 }
-case 63:
-            var3 = _closure1_slot5;
+            if(!(var3 === var6)) { _fun0008_ip = 66; continue _fun0008 }
+case 64:
+            var3 = _closure1_slot4;
             var3 = var3.PORTRAIT;
             var3 = var5 !== var3;
             if(var3) { _fun0008_ip = 7; continue _fun0008 }
-case 66:
+case 67:
             var3 = var4;
 case 7:
-            if(var3) { _fun0008_ip = 67; continue _fun0008 }
-case 68:
+            if(var3) { _fun0008_ip = 68; continue _fun0008 }
+case 69:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 6;
@@ -577,18 +576,18 @@ case 68:
             var5 = var4.bind(var5)(var3);
             var4 = var5.batchUpdates;
             var3 = function() {
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var2 = var3.setState;
                 var1 = {};
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot4;
                 var4 = var4.LANDSCAPE;
                 var1['orientation'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
             var3 = var4.bind(var5)(var3);
-            _fun0008_ip = 67; continue _fun0008;
-case 65:
+            _fun0008_ip = 68; continue _fun0008;
+case 66:
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 6;
@@ -607,24 +606,24 @@ case 65:
             var3 = var3.bind(var4)(var2);
             var2 = var3.batchUpdates;
             var1 = function() {
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var2 = var3.setState;
                 var1 = {};
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot4;
                 var4 = var4.PORTRAIT;
                 var1['orientation'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-case 67:
+case 68:
             var1 = undefined;
             return var1;
         }
     };
     var3['toggleOrientation'] = var4;
     var4 = function getOrientation() {
-        var2 = _closure1_slot7;
+        var2 = _closure1_slot6;
         var1 = var2.getState;
         var1 = var1.bind(var2)();
         var1 = var1.orientation;
@@ -632,7 +631,7 @@ case 67:
     };
     var3['getOrientation'] = var4;
     var4 = function getOrientationLock() {
-        var2 = _closure1_slot7;
+        var2 = _closure1_slot6;
         var1 = var2.getState;
         var1 = var1.bind(var2)();
         var1 = var1.orientationLock;
@@ -640,7 +639,7 @@ case 67:
     };
     var3['getOrientationLock'] = var4;
     var4 = function useOrientation() {
-        var2 = _closure1_slot7;
+        var2 = _closure1_slot6;
         var1 = undefined;
         var1 = var2.bind(var1)();
         var1 = var1.orientation;
@@ -655,7 +654,7 @@ case 67:
         var2 = new Array(1);
         var2[0] = var5;
         var1 = function() {
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var2 = var3.subscribe;
             var1 = _closure2_slot0;
             var1 = var2.bind(var3)(var1);
@@ -677,8 +676,8 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0009_ip = 69; continue _fun0009 }
-case 70:
+            if(!var3) { _fun0009_ip = 70; continue _fun0009 }
+case 71:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 5;
@@ -686,23 +685,23 @@ case 70:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIpadOS;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0009_ip = 69; continue _fun0009 }
-case 71:
-            var4 = _closure1_slot7;
+            if(var3) { _fun0009_ip = 70; continue _fun0009 }
+case 72:
+            var4 = _closure1_slot6;
             var3 = var4.getState;
             var3 = var3.bind(var4)();
             var4 = var3.orientationLock;
             var3 = 'PORTRAIT';
-            if(!(var3 === var4)) { _fun0009_ip = 69; continue _fun0009 }
-case 50:
+            if(!(var3 === var4)) { _fun0009_ip = 70; continue _fun0009 }
+case 51:
             return var1;
-case 69:
-            var4 = _closure1_slot12;
+case 70:
+            var4 = _closure1_slot11;
             var3 = {};
             var5 = false;
             var3['unlockAfterRotatingToPreviousLock'] = var5;
             var3 = var4.bind(var1)(var3);
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot13;
             var2 = var2.bind(var1)();
             return var1;
         }

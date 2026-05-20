@@ -529,12 +529,9 @@ case 16:
         var _closure2_slot4 = var12;
         var4 = 23;
         var4 = var11[var4];
-        var13 = var5.bind(var1)(var4);
-        var10 = var13.useVirtualCurrencyMobileEnabled;
-        var4 = {};
-        var14 = 'quest_home_setting_header';
-        var4['location'] = var14;
-        var4 = var10.bind(var13)(var4);
+        var10 = var5.bind(var1)(var4);
+        var4 = var10.useVirtualCurrencyMobileEnabled;
+        var4 = var4.bind(var10)();
         var10 = var4.enabled;
         var _closure2_slot5 = var10;
         var4 = 24;

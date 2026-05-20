@@ -17,7 +17,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
-    var7 = var4.Platform;
     var7 = var4.Pressable;
     var _closure1_slot2 = var7;
     var4 = var4.View;
@@ -41,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['labelContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -64,15 +63,26 @@ case 0:
             var3 = _closure1_slot4;
             var2 = _closure1_slot2;
             var1 = {};
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var6 = 3;
+            var6 = var8[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = var7.isIOS;
+            var7 = var6.bind(var7)();
             var6 = 'checkbox';
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var6 = 'switch';
+case 2:
             var1['accessibilityRole'] = var6;
             var7 = '';
             var6 = var7;
-            if(!var20) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!var20) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = _closure1_slot0;
             var14 = _closure1_slot1;
-            var8 = 3;
+            var8 = 4;
             var9 = var14[var8];
             var9 = var12.bind(var4)(var9);
             var11 = var9.intl;
@@ -88,18 +98,18 @@ case 3:
             var9 = ' (';
             var8 = ')';
             var6 = var11.bind(var9)(var12, var8);
-case 2:
+case 4:
             var6 = var21 + var6;
             var12 = null;
             var8 = var12 != var16;
-            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = global;
             var8 = var8.HermesInternal;
             var9 = var8.concat;
             var8 = ', ';
             var7 = var9.bind(var8)(var16);
-case 4:
+case 6:
             var6 = var6 + var7;
             var1['accessibilityLabel'] = var6;
             var6 = {};
@@ -117,7 +127,7 @@ case 4:
             var7 = _closure1_slot5;
             var18 = _closure1_slot0;
             var15 = _closure1_slot1;
-            var5 = 4;
+            var5 = 5;
             var5 = var15[var5];
             var5 = var18.bind(var4)(var5);
             var6 = var5.Stack;
@@ -125,7 +135,7 @@ case 4:
             var8 = 'horizontal';
             var5['direction'] = var8;
             var14 = _closure1_slot4;
-            var8 = 5;
+            var8 = 6;
             var8 = var15[var8];
             var8 = var18.bind(var4)(var8);
             var9 = var8.FormCheckbox;
@@ -141,7 +151,7 @@ case 4:
             var11 = {};
             var17 = var17.labelContainer;
             var11['style'] = var17;
-            var17 = 6;
+            var17 = 7;
             var15 = var15[var17];
             var15 = var18.bind(var4)(var15);
             var18 = var15.Text;
@@ -150,8 +160,8 @@ case 4:
             var15['variant'] = var19;
             var19 = new Array(2);
             var19[0] = var21;
-            if(!var20) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var20) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var23 = _closure1_slot5;
             var27 = _closure1_slot0;
             var28 = _closure1_slot1;
@@ -159,7 +169,7 @@ case 7:
             var21 = var27.bind(var4)(var21);
             var22 = var21.Text;
             var21 = {'variant': 'text-md/bold', 'color': 'text-feedback-critical'};
-            var24 = 3;
+            var24 = 4;
             var25 = var28[var24];
             var25 = var27.bind(var4)(var25);
             var26 = var25.intl;
@@ -173,7 +183,7 @@ case 7:
             var24 = [' ', '*'];
             var21['children'] = var24;
             var20 = var23.bind(var4)(var22, var21);
-case 6:
+case 8:
             var19[1] = var20;
             var15['children'] = var19;
             var15 = var7.bind(var4)(var18, var15);
@@ -182,8 +192,8 @@ case 6:
             var11 = new Array(2);
             var11[0] = var14;
             var12 = var12 != var16;
-            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var12) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var15 = _closure1_slot4;
             var14 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -193,7 +203,7 @@ case 9:
             var13 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
             var13['children'] = var16;
             var12 = var15.bind(var4)(var14, var13);
-case 8:
+case 10:
             var11[1] = var12;
             var9['children'] = var11;
             var9 = var7.bind(var4)(var10, var9);

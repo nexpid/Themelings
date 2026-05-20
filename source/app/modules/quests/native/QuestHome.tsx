@@ -1201,12 +1201,9 @@ case 25:
             var4 = var5.bind(var19)(var4);
             var4 = 40;
             var4 = var24[var4];
-            var19 = var22.bind(var6)(var4);
-            var5 = var19.useVirtualCurrencyMobileEnabled;
-            var4 = {};
-            var25 = 'quest_home_bounties';
-            var4['location'] = var25;
-            var4 = var5.bind(var19)(var4);
+            var5 = var22.bind(var6)(var4);
+            var4 = var5.useVirtualCurrencyMobileEnabled;
+            var4 = var4.bind(var5)();
             var5 = var4.enabled;
             var4 = 41;
             var4 = var24[var4];

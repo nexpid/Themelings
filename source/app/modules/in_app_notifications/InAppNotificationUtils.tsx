@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = arg1;
             var3 = var2.hasFlag;
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var1 = var1.IS_VOICE_MESSAGE;
             var1 = var3.bind(var2)(var1);
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
@@ -35,7 +35,7 @@ case 7:
             var4 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.type;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
                 var1 = var1.GIFV;
                 var1 = var2 === var1;
                 return var1;
@@ -54,7 +54,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -87,10 +87,12 @@ case 8:
     var4 = var5.bind(var1)(var4);
     var7 = var4.ChannelTypes;
     var _closure1_slot7 = var7;
-    var7 = var4.MessageEmbedTypes;
+    var7 = var4.InAppNotificationTypes;
     var _closure1_slot8 = var7;
+    var7 = var4.MessageEmbedTypes;
+    var _closure1_slot9 = var7;
     var4 = var4.MessageFlags;
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -376,7 +378,7 @@ case 38:
         return var1;
     };
     var3['generateInAppNotificationId'] = var4;
-    var2 = function useHasPreviewableMedia(arg1) {
+    var4 = function useHasPreviewableMedia(arg1) {
         var5 = arg1;
         var _closure2_slot0 = var5;
         var4 = _closure1_slot3;
@@ -386,7 +388,7 @@ case 38:
         var1 = function() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot11;
                 var1 = _closure2_slot0;
                 var5 = undefined;
                 var1 = var4.bind(var5)(var1);
@@ -405,7 +407,7 @@ case 50:
                 var5 = var3.messageSnapshots;
                 var4 = var5.some;
                 var3 = function(arg1) {
-                    var3 = _closure1_slot10;
+                    var3 = _closure1_slot11;
                     var1 = arg1;
                     var2 = var1.message;
                     var1 = undefined;
@@ -422,6 +424,159 @@ case 47:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['useHasPreviewableMedia'] = var2;
+    var3['useHasPreviewableMedia'] = var4;
+    var2 = function extractGuildAndChannelAndMessageIdFromNotification(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var7 = arg1;
+            var6 = var7.type;
+            var2 = _closure1_slot8;
+            var2 = var2.MESSAGE;
+            if(!(var2 !== var6)) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
+            var2 = _closure1_slot8;
+            var2 = var2.REACTION;
+            if(!(var2 !== var6)) { _fun0007_ip = 51; continue _fun0007 }
+case 53:
+            var2 = _closure1_slot8;
+            var2 = var2.ALERT;
+            if(!(var2 !== var6)) { _fun0007_ip = 54; continue _fun0007 }
+case 46:
+            var2 = _closure1_slot8;
+            var2 = var2.FORUM_THREAD_CREATED;
+            if(!(var2 !== var6)) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
+            var2 = _closure1_slot8;
+            var2 = var2.MESSAGE_FAILED_TO_SEND;
+            if(!(var2 !== var6)) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
+            var1 = _closure1_slot8;
+            var5 = var1.MESSAGE_REMINDER;
+            var4 = undefined;
+            var3 = undefined;
+            var2 = undefined;
+            if(!(var5 === var6)) { _fun0007_ip = 59; continue _fun0007 }
+case 60:
+            var8 = var7.channel;
+            var5 = null;
+            var9 = var5 == var8;
+            var6 = undefined;
+            if(var9) { _fun0007_ip = 61; continue _fun0007 }
+case 62:
+            var6 = var8.guild_id;
+case 61:
+            var8 = var7.channel;
+            var9 = var5 == var8;
+            var5 = undefined;
+            if(var9) { _fun0007_ip = 33; continue _fun0007 }
+case 63:
+            var5 = var8.id;
+case 33:
+            var3 = var5;
+            var4 = var6;
+            var2 = undefined;
+            _fun0007_ip = 59; continue _fun0007;
+case 57:
+            var3 = var7.channelId;
+            var4 = undefined;
+            var2 = undefined;
+            _fun0007_ip = 59; continue _fun0007;
+case 55:
+            var8 = var7.thread;
+            var5 = null;
+            var9 = var5 == var8;
+            var6 = undefined;
+            if(var9) { _fun0007_ip = 19; continue _fun0007 }
+case 64:
+            var6 = var8.guild_id;
+case 19:
+            var8 = var7.thread;
+            var9 = var5 == var8;
+            var5 = undefined;
+            if(var9) { _fun0007_ip = 17; continue _fun0007 }
+case 65:
+            var5 = var8.id;
+case 17:
+            var3 = var5;
+            var4 = var6;
+            var2 = undefined;
+            _fun0007_ip = 59; continue _fun0007;
+case 54:
+            var8 = var7.guild;
+            var5 = null;
+            var9 = var5 == var8;
+            var6 = undefined;
+            if(var9) { _fun0007_ip = 66; continue _fun0007 }
+case 67:
+            var6 = var8.id;
+case 66:
+            if(!(var5 == var6)) { _fun0007_ip = 68; continue _fun0007 }
+case 69:
+            var9 = var7.channel;
+            var10 = var5 == var9;
+            var8 = undefined;
+            if(var10) { _fun0007_ip = 70; continue _fun0007 }
+case 71:
+            var8 = var9.guild_id;
+case 70:
+            var6 = var8;
+case 68:
+            var8 = var7.channel;
+            var9 = var5 == var8;
+            var5 = undefined;
+            if(var9) { _fun0007_ip = 72; continue _fun0007 }
+case 73:
+            var5 = var8.id;
+case 72:
+            var3 = var5;
+            var4 = var6;
+            var2 = undefined;
+            _fun0007_ip = 59; continue _fun0007;
+case 51:
+            var5 = var7.guild;
+            var8 = null;
+            var9 = var8 == var5;
+            var6 = undefined;
+            if(var9) { _fun0007_ip = 74; continue _fun0007 }
+case 75:
+            var6 = var5.id;
+case 74:
+            if(!(var8 == var6)) { _fun0007_ip = 76; continue _fun0007 }
+case 77:
+            var9 = var7.channel;
+            var10 = var8 == var9;
+            var5 = undefined;
+            if(var10) { _fun0007_ip = 78; continue _fun0007 }
+case 79:
+            var5 = var9.guild_id;
+case 78:
+            var6 = var5;
+case 76:
+            var9 = var7.channel;
+            var10 = var8 == var9;
+            var5 = undefined;
+            if(var10) { _fun0007_ip = 80; continue _fun0007 }
+case 81:
+            var5 = var9.id;
+case 80:
+            var7 = var7.message;
+            var8 = var8 == var7;
+            var1 = undefined;
+            if(var8) { _fun0007_ip = 82; continue _fun0007 }
+case 83:
+            var1 = var7.id;
+case 82:
+            var2 = var1;
+            var4 = var6;
+            var3 = var5;
+case 59:
+            var1 = {};
+            var1['guildId'] = var4;
+            var1['channelId'] = var3;
+            var1['messageId'] = var2;
+            return var1;
+        }
+    };
+    var3['extractGuildAndChannelAndMessageIdFromNotification'] = var2;
     return var1;
 })();

@@ -223,12 +223,9 @@ case 0:
             var _closure2_slot1 = var8;
             var1 = 14;
             var1 = var3[var1];
-            var11 = var2.bind(var4)(var1);
-            var7 = var11.useVirtualCurrencyMobileEnabled;
-            var1 = {};
-            var12 = 'CollectiblesShopHeader';
-            var1['location'] = var12;
-            var1 = var7.bind(var11)(var1);
+            var7 = var2.bind(var4)(var1);
+            var1 = var7.useVirtualCurrencyMobileEnabled;
+            var1 = var1.bind(var7)();
             var12 = var1.enabled;
             var _closure2_slot2 = var12;
             var1 = 15;

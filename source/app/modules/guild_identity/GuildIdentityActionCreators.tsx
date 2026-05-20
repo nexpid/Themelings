@@ -21,16 +21,16 @@ case 0:
                     if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                     var7 = arg1;
-                    var19 = var2.nick;
+                    var18 = var2.nick;
                     var14 = var2.avatar;
                     var12 = var2.avatarDescription;
                     var13 = var2.avatarId;
                     var15 = var2.avatarDecoration;
                     var21 = var2.nameplate;
-                    var18 = var2.displayNameStyles;
-                    var16 = var2.avatarOriginalMd5;
+                    var17 = var2.displayNameStyles;
+                    var19 = var2.avatarOriginalMd5;
                     var6 = undefined;
-                    var17 = undefined;
+                    var16 = undefined;
                     var11 = undefined;
                     var5 = undefined;
                     SaveGenerator(address=76);
@@ -57,9 +57,9 @@ case 9:
                     var9['guildId'] = var23;
                     var9 = var20.bind(var22)(var9);
                     var9 = {};
-                    var9['nick'] = var19;
-                    var19 = var14;
-                    var9['avatar'] = var19;
+                    var9['nick'] = var18;
+                    var18 = var14;
+                    var9['avatar'] = var18;
                     var9['avatar_description'] = var12;
                     var12 = var13;
                     var9['avatar_id'] = var12;
@@ -67,16 +67,16 @@ case 9:
                     if(!(var6 !== var15)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
                     var20 = var10 == var15;
-                    var19 = undefined;
+                    var18 = undefined;
                     if(var20) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-                    var19 = var15.skuId;
+                    var18 = var15.skuId;
 case 12:
-                    var20 = var10 != var19;
+                    var20 = var10 != var18;
                     var15 = null;
                     if(!var20) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-                    var15 = var19;
+                    var15 = var18;
 case 14:
                     var12 = var15;
 case 10:
@@ -85,73 +85,80 @@ case 10:
                     if(!(var6 !== var21)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
                     var15 = {};
-                    var19 = null;
+                    var18 = null;
                     if(!(var10 !== var21)) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
                     var20 = {};
                     var21 = var21.skuId;
                     var20['sku_id'] = var21;
-                    var19 = var20;
+                    var18 = var20;
 case 18:
-                    var15['nameplate'] = var19;
+                    var15['nameplate'] = var18;
                     var12 = var15;
 case 16:
                     var9['collectibles'] = var12;
-                    var15 = var6 !== var18;
+                    var15 = var6 !== var17;
                     var12 = undefined;
                     if(!var15) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-                    var19 = null;
-                    if(!(var10 !== var18)) { _fun0001_ip = 22; continue _fun0001 }
+                    var18 = null;
+                    if(!(var10 !== var17)) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-                    var19 = var18.fontId;
+                    var18 = var17.fontId;
 case 22:
-                    var12 = var19;
+                    var12 = var18;
 case 20:
                     var9['display_name_font_id'] = var12;
                     var12 = undefined;
                     if(!var15) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-                    var19 = null;
-                    if(!(var10 !== var18)) { _fun0001_ip = 26; continue _fun0001 }
+                    var18 = null;
+                    if(!(var10 !== var17)) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-                    var19 = var18.effectId;
+                    var18 = var17.effectId;
 case 26:
-                    var12 = var19;
+                    var12 = var18;
 case 24:
                     var9['display_name_effect_id'] = var12;
                     var12 = undefined;
                     if(!var15) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
                     var15 = null;
-                    if(!(var15 !== var18)) { _fun0001_ip = 30; continue _fun0001 }
+                    if(!(var15 !== var17)) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
-                    var15 = var18.colors;
+                    var15 = var17.colors;
 case 30:
                     var12 = var15;
 case 28:
                     var9['display_name_colors'] = var12;
-                    var17 = var9;
+                    var16 = var9;
 case 32: // try_start_0
-                    var12 = _closure1_slot0;
-                    var19 = _closure1_slot2;
+                    var21 = _closure1_slot0;
+                    var22 = _closure1_slot2;
                     var9 = 3;
-                    var9 = var19[var9];
-                    var9 = var12.bind(var6)(var9);
+                    var9 = var22[var9];
+                    var9 = var21.bind(var6)(var9);
                     var15 = var9.HTTP;
                     var12 = var15.patch;
                     var9 = {};
-                    var21 = _closure1_slot4;
-                    var20 = var21.SET_GUILD_MEMBER;
-                    var18 = var7;
-                    var18 = var20.bind(var21)(var18);
-                    var9['url'] = var18;
-                    var9['body'] = var17;
-                    var18 = _closure1_slot1;
-                    var17 = 4;
-                    var17 = var19[var17];
-                    var18 = var18.bind(var6)(var17);
+                    var20 = _closure1_slot4;
+                    var18 = var20.SET_GUILD_MEMBER;
+                    var17 = var7;
+                    var17 = var18.bind(var20)(var17);
+                    var9['url'] = var17;
+                    var9['body'] = var16;
+                    var17 = _closure1_slot1;
+                    var16 = 4;
+                    var16 = var22[var16];
+                    var18 = var17.bind(var6)(var16);
                     var17 = var18.buildHeadersForMd5;
+                    var16 = {};
+                    var20 = 5;
+                    var20 = var22[var20];
+                    var20 = var21.bind(var6)(var20);
+                    var20 = var20.SafetyScannedUploadSurface;
+                    var20 = var20.USER_GUILD_PROFILE_AVATAR;
+                    var16[19] = var19;
                     var16 = var17.bind(var18)(var16);
                     var9['headers'] = var16;
                     var16 = true;
@@ -159,7 +166,7 @@ case 32: // try_start_0
                     var16 = false;
                     var9['rejectWithError'] = var16;
                     var9 = var12.bind(var15)(var9);
-                    SaveGenerator(address=453);
+                    SaveGenerator(address=484);
 case 33:
                     return var9;
 case 34:
@@ -288,7 +295,7 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var4 = var4.Endpoints;
     var _closure1_slot4 = var4;
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

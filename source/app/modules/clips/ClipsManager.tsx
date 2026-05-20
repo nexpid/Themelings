@@ -221,6 +221,22 @@ case 8:
                     return var1;
                 };
                 var2['STREAM_START'] = var4;
+                var4 = function STREAM_DELETE(arg1) {
+                    var3 = _closure3_slot0;
+                    var2 = var3.handleStreamEnded;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var2['STREAM_DELETE'] = var4;
+                var4 = function STREAM_CLOSE(arg1) {
+                    var3 = _closure3_slot0;
+                    var2 = var3.handleStreamEnded;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var2['STREAM_CLOSE'] = var4;
                 var4 = function RUNNING_GAME_TOGGLE_DETECTION(arg1) {
                     var3 = _closure3_slot0;
                     var2 = var3.handleClipsInitOnToggleDetection;

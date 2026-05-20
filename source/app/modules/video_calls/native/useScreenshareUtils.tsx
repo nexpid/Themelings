@@ -1,18 +1,18 @@
 // app/modules/video_calls/native/useScreenshareUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var10 = require;
-    var13 = metroImportDefault;
+    var9 = metroImportDefault;
     var3 = exports;
     var11 = dependencyMap;
     var _closure1_slot0 = var10;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var9;
     var _closure1_slot2 = var11;
     var5 = function startStream() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -29,7 +29,7 @@ case 3:
 case 2:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 4;
+            var2 = 5;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.isForegroundServiceRunning;
@@ -41,7 +41,7 @@ case 0:
                     var1 = arg1;
                     if(var1) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                    var1 = 6;
+                    var1 = 7;
                     var4 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var4);
@@ -49,7 +49,7 @@ case 6:
                     var1 = var1.bind(var4)();
                     _fun0002_ip = 7; continue _fun0002;
 case 5:
-                    var1 = 5;
+                    var1 = 6;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
@@ -98,7 +98,7 @@ case 11:
             var1 = function u() {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var7 = 10;
+                var7 = 11;
                 var2 = var4[var7];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -113,7 +113,7 @@ case 11:
                 var7 = var7.id;
                 var2['channelId'] = var7;
                 var2 = var5.bind(var6)(var2);
-                var2 = 6;
+                var2 = 7;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.showMinOSScreenshareRequirementAlert;
@@ -126,7 +126,7 @@ case 10:
 case 14:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var7 = 6;
+            var7 = 7;
             var7 = var10[var7];
             var7 = var8.bind(var9)(var7);
             var1 = var7.showScreenshareDisabledAlert;
@@ -143,7 +143,7 @@ case 15:
             var1 = function u() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 11;
+                var1 = 12;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -157,8 +157,8 @@ case 12:
         }
     };
     var _closure1_slot13 = var2;
-    var9 = global;
-    var12 = var9.Object;
+    var1 = global;
+    var12 = var1.Object;
     var7 = var12.defineProperty;
     var6 = {};
     var1 = true;
@@ -173,22 +173,22 @@ case 12:
     var _closure1_slot3 = var6;
     var6 = 1;
     var6 = var11[var6];
-    var7 = var10.bind(var1)(var6);
-    var6 = var7.NativeModules;
-    var7 = var7.Platform;
-    var12 = 2;
-    var12 = var11[var12];
-    var12 = var13.bind(var1)(var12);
-    var _closure1_slot4 = var12;
-    var12 = 3;
-    var12 = var11[var12];
-    var12 = var10.bind(var1)(var12);
-    var12 = var12.ApplicationStreamStates;
-    var _closure1_slot5 = var12;
-    var12 = var9.parseInt;
-    var9 = var7.Version;
-    var7 = 10;
-    var7 = var12.bind(var1)(var9, var7);
+    var6 = var10.bind(var1)(var6);
+    var6 = var6.NativeModules;
+    var7 = 2;
+    var7 = var11[var7];
+    var7 = var9.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 3;
+    var7 = var11[var7];
+    var7 = var10.bind(var1)(var7);
+    var7 = var7.ApplicationStreamStates;
+    var _closure1_slot5 = var7;
+    var7 = 4;
+    var7 = var11[var7];
+    var9 = var10.bind(var1)(var7);
+    var7 = var9.getSystemVersionMajor;
+    var7 = var7.bind(var9)();
     var _closure1_slot6 = var7;
     var6 = var6.BroadcastUploadManager;
     var _closure1_slot7 = var6;
@@ -203,12 +203,12 @@ case 0:
 case 18:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var2 = var9[var2];
             var6 = undefined;
             var5 = var8.bind(var6)(var2);
             var3 = var5.stopStream;
-            var2 = 8;
+            var2 = 9;
             var2 = var9[var2];
             var6 = var8.bind(var6)(var2);
             var2 = var6.encodeStreamKey;
@@ -217,7 +217,7 @@ case 18:
 case 7:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -230,7 +230,7 @@ case 7:
     var6 = function stopScreenshare() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var1 = 5;
+        var1 = 6;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -249,7 +249,7 @@ case 0:
             var2 = arg1;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 12;
+            var1 = 13;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -264,16 +264,16 @@ case 3:
 case 21:
             if(var2) { _fun0005_ip = 2; continue _fun0005 }
 case 22:
-            var1 = 15;
+            var1 = 16;
             var1 = var6[var1];
             _fun0005_ip = 23; continue _fun0005;
 case 2:
-            var5 = 16;
+            var5 = 17;
             var1 = var6[var5];
 case 23:
             _fun0005_ip = 24; continue _fun0005;
 case 20:
-            var5 = 15;
+            var5 = 16;
             var1 = var6[var5];
 case 24:
             var1 = var3.bind(var4)(var1);
@@ -281,11 +281,11 @@ case 24:
 case 19:
             if(var2) { _fun0005_ip = 26; continue _fun0005 }
 case 27:
-            var2 = 14;
+            var2 = 15;
             var2 = var6[var2];
             _fun0005_ip = 16; continue _fun0005;
 case 26:
-            var5 = 13;
+            var5 = 14;
             var2 = var6[var5];
 case 16:
             var1 = var3.bind(var4)(var2);
@@ -294,7 +294,7 @@ case 25:
         }
     };
     var _closure1_slot10 = var9;
-    var9 = 22;
+    var9 = 23;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
     var10 = var11.fileFinishedImporting;
@@ -305,7 +305,7 @@ case 25:
         var _closure2_slot0 = var9;
         var5 = _closure1_slot1;
         var11 = _closure1_slot2;
-        var3 = 17;
+        var3 = 18;
         var3 = var11[var3];
         var4 = undefined;
         var3 = var5.bind(var4)(var3);
@@ -314,7 +314,7 @@ case 25:
         var3 = _closure1_slot12;
         var7 = var3.bind(var4)();
         var _closure2_slot2 = var7;
-        var3 = 18;
+        var3 = 19;
         var3 = var11[var3];
         var10 = var5.bind(var4)(var3);
         var6 = var10.useConfig;
@@ -325,7 +325,7 @@ case 25:
         var6 = var3.showMobileGoLiveUpsell;
         var _closure2_slot3 = var6;
         var10 = _closure1_slot0;
-        var3 = 19;
+        var3 = 20;
         var3 = var11[var3];
         var13 = var10.bind(var4)(var3);
         var12 = var13.useStateFromStores;
@@ -340,7 +340,7 @@ case 25:
         };
         var10 = var12.bind(var13)(var10, var3);
         var _closure2_slot4 = var10;
-        var3 = 20;
+        var3 = 21;
         var3 = var11[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.bind(var4)();
@@ -384,7 +384,7 @@ case 32:
 case 10:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var2 = 21;
+                var2 = 22;
                 var4 = var9[var2];
                 var7 = undefined;
                 var4 = var8.bind(var7)(var4);
@@ -399,7 +399,7 @@ case 10:
 case 31:
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var4 = 21;
+                var4 = 22;
                 var6 = var10[var4];
                 var8 = undefined;
                 var6 = var9.bind(var8)(var6);

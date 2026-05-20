@@ -31,12 +31,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = 1;
         var3 = var8[var3];
         var6 = undefined;
-        var5 = var7.bind(var6)(var3);
-        var4 = var5.isVirtualCurrencyEnabled;
-        var3 = {};
-        var9 = 'useVCData';
-        var3['location'] = var9;
-        var3 = var4.bind(var5)(var3);
+        var4 = var7.bind(var6)(var3);
+        var3 = var4.isVirtualCurrencyEnabled;
+        var3 = var3.bind(var4)();
         var5 = var3.enabled;
         var _closure2_slot0 = var5;
         var3 = 2;

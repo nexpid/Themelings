@@ -46,8 +46,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 256;
     var3['MAX_FORUM_TEMPLATE_LENGTH'] = var5;
     var3['ForumOnboardingCTAs'] = var4;
-    var4 = 'https://discord.com/community/creating-value-with-conversation';
-    var3['COMMUNITY_PORTAL_FORUM_PAGE'] = var4;
     var3['ForumTimestampFormats'] = var2;
     return var1;
 })();

@@ -186,7 +186,7 @@ case 2:
     var _closure1_slot8 = var8;
     var5 = var5.getDevicePushProvider;
     var _closure1_slot9 = var5;
-    var5 = 11;
+    var5 = 12;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -294,13 +294,13 @@ case 0:
             var14 = var4.avatarId;
             var _closure2_slot1 = var14;
             var11 = var4.avatarDecoration;
-            var7 = var4.newPassword;
+            var6 = var4.newPassword;
             var12 = var4.globalName;
-            var9 = var4.legacyUsername;
-            var10 = var4.nameplate;
+            var7 = var4.legacyUsername;
+            var8 = var4.nameplate;
             var3 = var4.primaryGuildId;
             var2 = var4.displayNameStyles;
-            var8 = var4.avatarOriginalMd5;
+            var10 = var4.avatarOriginalMd5;
             var21 = _closure1_slot1;
             var5 = _closure1_slot2;
             var4 = 3;
@@ -322,54 +322,54 @@ case 0:
             var4['avatar_id'] = var14;
             var4['discriminator'] = var13;
             var4['global_name'] = var12;
-            var4['legacy_username'] = var9;
-            var4['new_password'] = var7;
+            var4['legacy_username'] = var7;
+            var4['new_password'] = var6;
             if(!(var5 !== var11)) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
-            var7 = null;
-            var12 = var7 == var11;
-            var9 = undefined;
+            var6 = null;
+            var12 = var6 == var11;
+            var7 = undefined;
             if(var12) { _fun0003_ip = 28; continue _fun0003 }
 case 29:
-            var9 = var11.skuId;
+            var7 = var11.skuId;
 case 28:
-            var11 = var7 != var9;
-            var7 = null;
+            var11 = var6 != var7;
+            var6 = null;
             if(!var11) { _fun0003_ip = 30; continue _fun0003 }
 case 31:
-            var7 = var9;
+            var6 = var7;
 case 30:
-            var4['avatar_decoration_sku_id'] = var7;
+            var4['avatar_decoration_sku_id'] = var6;
 case 26:
-            if(!(var5 !== var10)) { _fun0003_ip = 32; continue _fun0003 }
+            if(!(var5 !== var8)) { _fun0003_ip = 32; continue _fun0003 }
 case 33:
-            var7 = null;
-            var11 = var7 == var10;
-            var9 = undefined;
+            var6 = null;
+            var11 = var6 == var8;
+            var7 = undefined;
             if(var11) { _fun0003_ip = 34; continue _fun0003 }
 case 35:
-            var9 = var10.skuId;
+            var7 = var8.skuId;
 case 34:
-            var10 = var7 != var9;
-            var7 = null;
-            if(!var10) { _fun0003_ip = 36; continue _fun0003 }
+            var8 = var6 != var7;
+            var6 = null;
+            if(!var8) { _fun0003_ip = 36; continue _fun0003 }
 case 37:
-            var7 = var9;
+            var6 = var7;
 case 36:
-            var4['nameplate_sku_id'] = var7;
+            var4['nameplate_sku_id'] = var6;
 case 32:
             if(!(var5 !== var3)) { _fun0003_ip = 38; continue _fun0003 }
 case 39:
             var4['primary_guild_id'] = var3;
 case 38:
-            var7 = null;
-            if(!(var7 == var2)) { _fun0003_ip = 40; continue _fun0003 }
+            var6 = null;
+            if(!(var6 == var2)) { _fun0003_ip = 40; continue _fun0003 }
 case 14:
-            if(!(var7 === var2)) { _fun0003_ip = 41; continue _fun0003 }
+            if(!(var6 === var2)) { _fun0003_ip = 41; continue _fun0003 }
 case 42:
-            var4['display_name_font_id'] = var7;
-            var4['display_name_effect_id'] = var7;
-            var4['display_name_colors'] = var7;
+            var4['display_name_font_id'] = var6;
+            var4['display_name_effect_id'] = var6;
+            var4['display_name_colors'] = var6;
             _fun0003_ip = 41; continue _fun0003;
 case 40:
             var3 = var2.fontId;
@@ -381,38 +381,38 @@ case 40:
 case 41:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var9 = 7;
-            var2 = var2[var9];
+            var7 = 7;
+            var2 = var2[var7];
             var2 = var3.bind(var5)(var2);
-            var10 = var2.Storage;
-            var3 = var10.get;
+            var8 = var2.Storage;
+            var3 = var8.get;
             var2 = _closure1_slot6;
-            var2 = var3.bind(var10)(var2);
+            var2 = var3.bind(var8)(var2);
             var3 = _closure1_slot9;
             var3 = var3.bind(var5)();
-            var10 = var7 != var3;
-            if(!var10) { _fun0003_ip = 43; continue _fun0003 }
+            var8 = var6 != var3;
+            if(!var8) { _fun0003_ip = 43; continue _fun0003 }
 case 44:
-            var10 = var7 != var2;
+            var8 = var6 != var2;
 case 43:
-            if(!var10) { _fun0003_ip = 45; continue _fun0003 }
+            if(!var8) { _fun0003_ip = 45; continue _fun0003 }
 case 46:
             var4['push_provider'] = var3;
             var4['push_token'] = var2;
 case 45:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var9];
+            var2 = var2[var7];
             var2 = var3.bind(var5)(var2);
-            var9 = var2.Storage;
-            var3 = var9.get;
+            var7 = var2.Storage;
+            var3 = var7.get;
             var2 = _closure1_slot7;
-            var2 = var3.bind(var9)(var2);
+            var2 = var3.bind(var7)(var2);
             var3 = _closure1_slot8;
-            var3 = var7 != var3;
+            var3 = var6 != var3;
             if(!var3) { _fun0003_ip = 47; continue _fun0003 }
 case 48:
-            var3 = var7 != var2;
+            var3 = var6 != var2;
 case 47:
             if(!var3) { _fun0003_ip = 49; continue _fun0003 }
 case 50:
@@ -423,12 +423,20 @@ case 49:
             var3 = _closure1_slot10;
             var2 = {};
             var7 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var6 = 8;
-            var6 = var9[var6];
-            var7 = var7.bind(var5)(var6);
-            var6 = var7.buildHeadersForMd5;
-            var6 = var6.bind(var7)(var8);
+            var6 = var12[var6];
+            var8 = var7.bind(var5)(var6);
+            var7 = var8.buildHeadersForMd5;
+            var6 = {};
+            var11 = _closure1_slot0;
+            var9 = 9;
+            var9 = var12[var9];
+            var9 = var11.bind(var5)(var9);
+            var9 = var9.SafetyScannedUploadSurface;
+            var9 = var9.USER_DEFAULT_PROFILE_AVATAR;
+            var6[8] = var10;
+            var6 = var7.bind(var8)(var6);
             var2['headers'] = var6;
             var4 = var3.bind(var5)(var4, var2);
             var3 = var4.then;
@@ -811,7 +819,7 @@ case 0:
 case 10:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var6 = 9;
+                    var6 = 10;
                     var6 = var8[var6];
                     var8 = var7.bind(var4)(var6);
                     var7 = var8.trackUserAvatarUpdated;
@@ -872,7 +880,7 @@ case 42:
                     var2 = var6.bind(var7)(var2);
                     _fun0006_ip = 41; continue _fun0006;
 case 67:
-                    var2 = 10;
+                    var2 = 11;
                     var2 = var5[var2];
                     var3 = var3.bind(var4)(var2);
                     var2 = var3.close;

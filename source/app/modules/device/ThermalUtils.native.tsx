@@ -106,24 +106,23 @@ case 8:
                 var5 = var4.bind(var5)();
                 _fun0002_ip = 9; continue _fun0002;
 case 7:
-                var7 = global;
-                var8 = var7.parseInt;
-                var9 = _closure1_slot0;
-                var10 = _closure1_slot2;
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
                 var4 = 3;
-                var4 = var10[var4];
-                var9 = var9.bind(var2)(var4);
-                var4 = var9.getSystemVersion;
-                var4 = var4.bind(var9)();
-                var8 = var8.bind(var2)(var4);
+                var4 = var8[var4];
+                var7 = var7.bind(var2)(var4);
+                var4 = var7.getSystemVersionMajor;
+                var7 = var4.bind(var7)();
                 var4 = 29;
-                if(!(!(var8 >= var4))) { _fun0002_ip = 10; continue _fun0002 }
+                if(!(!(var7 >= var4))) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-                var8 = var7.Promise;
-                var4 = var8.resolve;
-                var4 = var4.bind(var8)(var2);
+                var4 = global;
+                var7 = var4.Promise;
+                var4 = var7.resolve;
+                var4 = var4.bind(var7)(var2);
                 _fun0002_ip = 12; continue _fun0002;
 case 10:
+                var7 = global;
                 var9 = var7.Promise;
                 var8 = var9.resolve;
                 var10 = _closure1_slot1;

@@ -716,12 +716,9 @@ case 97:
                     var3 = 34;
                     var3 = var2[var3];
                     var5 = undefined;
-                    var7 = var4.bind(var5)(var3);
-                    var6 = var7.isVirtualCurrencyEnabled;
-                    var3 = {};
-                    var8 = 'getOnClick';
-                    var3['location'] = var8;
-                    var3 = var6.bind(var7)(var3);
+                    var6 = var4.bind(var5)(var3);
+                    var3 = var6.isVirtualCurrencyEnabled;
+                    var3 = var3.bind(var6)();
                     var3 = var3.enabled;
                     var _closure3_slot0 = var3;
                     var3 = 28;

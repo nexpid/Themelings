@@ -239,6 +239,20 @@ case 24:
             var31 = var5;
             var30 = var29;
             var13 = var34[var3](var33, var32, var31, var30, var29);
+            var2 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var1 = 7;
+            var1 = var11[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useToken;
+            var5 = _closure1_slot1;
+            var1 = 4;
+            var1 = var11[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.modules;
+            var1 = var1.mobile;
+            var1 = var1.TABLE_ROW_LABEL_TEXT_STYLE;
+            var26 = var2.bind(var3)(var1);
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
@@ -307,29 +321,24 @@ case 27:
 case 30:
             var21 = _closure1_slot6;
             var20 = _closure1_slot0;
-            var26 = _closure1_slot2;
+            var27 = _closure1_slot2;
             var18 = 16;
-            var18 = var26[var18];
+            var18 = var27[var18];
             var18 = var20.bind(var4)(var18);
             var20 = var18.Text;
             var18 = {};
-            var26 = 'text-md/semibold';
-            if(!var29) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
-            var26 = 'text-md/medium';
-case 31:
             var18['variant'] = var26;
             var26 = 'text-feedback-critical';
             var27 = 'danger';
-            if(!(var27 !== var28)) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+            if(!(var27 !== var28)) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
             var27 = 'mobile-text-heading-primary';
-            if(!var29) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
+            if(!var29) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var27 = 'text-strong';
-case 35:
-            var26 = var27;
 case 33:
+            var26 = var27;
+case 31:
             var18['color'] = var26;
             var18['lineClamp'] = var23;
             var18['children'] = var22;
@@ -338,14 +347,14 @@ case 29:
             var18 = new Array(2);
             var18[0] = var19;
             var19 = var9 != var24;
-            if(!var19) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+            if(!var19) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
             var21 = _closure1_slot3;
             var20 = var21.isValidElement;
             var21 = var20.bind(var21)(var24);
             var20 = var24;
-            if(var21) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
+            if(var21) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
             var23 = _closure1_slot6;
             var22 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -358,25 +367,25 @@ case 40:
             var21['variant'] = var26;
             var26 = 'text-subtle';
             var27 = 'danger';
-            if(!(var27 === var28)) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
+            if(!(var27 === var28)) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
             var26 = 'text-feedback-critical';
-case 41:
+case 39:
             var21['color'] = var26;
             var21['lineClamp'] = var25;
             var21['children'] = var24;
             var20 = var23.bind(var4)(var22, var21);
-case 39:
-            var19 = var20;
 case 37:
+            var19 = var20;
+case 35:
             var18[1] = var19;
             var15['children'] = var18;
             var16 = var17.bind(var4)(var16, var15);
             var15 = new Array(2);
             var15[0] = var16;
             var16 = var9 != var10;
-            if(!var16) { _fun0002_ip = 43; continue _fun0002 }
-case 44:
+            if(!var16) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
             var19 = _closure1_slot6;
             var18 = _closure1_slot5;
             var17 = {};
@@ -388,18 +397,18 @@ case 44:
             var17['style'] = var20;
             var17['children'] = var10;
             var16 = var19.bind(var4)(var18, var17);
-case 43:
+case 41:
             var15[1] = var16;
             var8['children'] = var15;
             var8 = var14.bind(var4)(var11, var8);
             var5[2] = var8;
             var8 = var9 != var12;
+            if(!var8) { _fun0002_ip = 43; continue _fun0002 }
+case 44:
+            var8 = var9 == var10;
+case 43:
             if(!var8) { _fun0002_ip = 45; continue _fun0002 }
 case 46:
-            var8 = var9 == var10;
-case 45:
-            if(!var8) { _fun0002_ip = 47; continue _fun0002 }
-case 48:
             var11 = _closure1_slot6;
             var10 = _closure1_slot5;
             var9 = {};
@@ -407,10 +416,10 @@ case 48:
             var9['style'] = var13;
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
-case 47:
+case 45:
             var5[3] = var8;
-            if(!var6) { _fun0002_ip = 49; continue _fun0002 }
-case 50:
+            if(!var6) { _fun0002_ip = 47; continue _fun0002 }
+case 48:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -420,7 +429,7 @@ case 50:
             var8 = var7.TableRowArrow;
             var7 = {};
             var6 = var9.bind(var4)(var8, var7);
-case 49:
+case 47:
             var5[4] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -472,10 +481,10 @@ case 0:
             var4 = arg3;
             var12 = arguments[3];
             var7 = undefined;
-            if(!(var12 === var7)) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
+            if(!(var12 === var7)) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
             var12 = false;
-case 51:
+case 49:
             var1 = {};
             var2 = {};
             var6 = _closure1_slot1;
@@ -500,21 +509,21 @@ case 51:
             var5 = 1;
             var13 = arg1;
             var10 = var5;
-            if(!var13) { _fun0003_ip = 53; continue _fun0003 }
-case 54:
+            if(!var13) { _fun0003_ip = 51; continue _fun0003 }
+case 52:
             var10 = 0.5;
-case 53:
+case 51:
             var2['opacity'] = var10;
             var10 = undefined;
-            if(!var12) { _fun0003_ip = 55; continue _fun0003 }
-case 56:
+            if(!var12) { _fun0003_ip = 53; continue _fun0003 }
+case 54:
             var13 = _closure1_slot1;
             var12 = _closure1_slot2;
             var12 = var12[var11];
             var12 = var13.bind(var7)(var12);
             var12 = var12.radii;
             var10 = var12.md;
-case 55:
+case 53:
             var2['borderRadius'] = var10;
             var1['row'] = var2;
             var2 = {};
@@ -532,44 +541,44 @@ case 55:
             var2['marginStart'] = var3;
             var1['trailing'] = var2;
             var2 = {'flexShrink': 1, 'flexGrow': 1, 'flexDirection': null, 'alignItems': null, 'justifyContent': 'space-between'};
+            if(!var4) { _fun0003_ip = 55; continue _fun0003 }
+case 56:
+            var9 = 'column';
+case 55:
+            var2['flexDirection'] = var9;
             if(!var4) { _fun0003_ip = 57; continue _fun0003 }
 case 58:
-            var9 = 'column';
-case 57:
-            var2['flexDirection'] = var9;
-            if(!var4) { _fun0003_ip = 59; continue _fun0003 }
-case 60:
             var6 = 'stretch';
-case 59:
+case 57:
             var2['alignItems'] = var6;
             var1['content'] = var2;
             var2 = {};
             var2['flexGrow'] = var5;
             var6 = var5;
-            if(!var8) { _fun0003_ip = 61; continue _fun0003 }
-case 62:
+            if(!var8) { _fun0003_ip = 59; continue _fun0003 }
+case 60:
             var6 = var5;
-            if(var4) { _fun0003_ip = 61; continue _fun0003 }
-case 63:
-            var6 = undefined;
+            if(var4) { _fun0003_ip = 59; continue _fun0003 }
 case 61:
+            var6 = undefined;
+case 59:
             var2['flexShrink'] = var6;
             var6 = undefined;
-            if(!var8) { _fun0003_ip = 64; continue _fun0003 }
-case 65:
+            if(!var8) { _fun0003_ip = 62; continue _fun0003 }
+case 63:
             var6 = undefined;
-            if(var4) { _fun0003_ip = 64; continue _fun0003 }
-case 66:
-            var6 = '70%';
+            if(var4) { _fun0003_ip = 62; continue _fun0003 }
 case 64:
+            var6 = '70%';
+case 62:
             var2['maxWidth'] = var6;
             var1['labels'] = var2;
             var2 = {};
             var2['flexShrink'] = var5;
-            if(!var4) { _fun0003_ip = 67; continue _fun0003 }
-case 68:
+            if(!var4) { _fun0003_ip = 65; continue _fun0003 }
+case 66:
             var3 = 0;
-case 67:
+case 65:
             var2['marginStart'] = var3;
             var1['trailingText'] = var2;
             var2 = {};

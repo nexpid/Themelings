@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         throw var1;
     };
     var2['setMode'] = var8;
-    var8 = {'width': 9, 'height': 16, 'isLetterboxed': false, 'isLandscape': false, 'isWindowLandscape': false};
+    var8 = {'width': 9, 'height': 16, 'isLandscape': false, 'isWindowLandscape': false};
     var2['wrapperDimensions'] = var8;
     var8 = 2;
     var9 = var7[var8];

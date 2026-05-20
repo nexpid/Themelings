@@ -1857,6 +1857,8 @@ case 138:
             var24 = _closure1_slot19;
 case 137:
             var17['userId'] = var24;
+            var24 = 'Notifications Tab';
+            var17['analyticsLocation'] = var24;
             var15 = var22.bind(var4)(var18, var17);
 case 133:
             var12[1] = var15;

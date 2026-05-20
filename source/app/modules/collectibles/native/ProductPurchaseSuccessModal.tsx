@@ -995,12 +995,9 @@ case 51:
             var33 = var5.bind(var38)(var4, var11, var6);
             var5 = 27;
             var5 = var3[var5];
-            var8 = var2.bind(var4)(var5);
-            var6 = var8.useVirtualCurrencyMobileEnabled;
-            var5 = {};
-            var12 = 'ProductPurchaseSuccessModal';
-            var5['location'] = var12;
-            var5 = var6.bind(var8)(var5);
+            var6 = var2.bind(var4)(var5);
+            var5 = var6.useVirtualCurrencyMobileEnabled;
+            var5 = var5.bind(var6)();
             var19 = var5.enabled;
             var5 = 28;
             var5 = var3[var5];

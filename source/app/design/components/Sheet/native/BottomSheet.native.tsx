@@ -403,6 +403,8 @@ case 28:
             var5 = var6.bind(var4)(var5);
             var6 = var5.BottomSheetScrollView;
             var5 = {};
+            var14 = false;
+            var5['bounces'] = var14;
             var5['keyboardShouldPersistTaps'] = var10;
             var5['style'] = var9;
             var10 = _closure1_slot16;

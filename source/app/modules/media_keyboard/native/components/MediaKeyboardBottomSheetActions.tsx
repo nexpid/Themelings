@@ -423,6 +423,14 @@ case 0:
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.PressableOpacity;
                     var2 = {};
+                    var1 = 'button';
+                    var2['accessibilityRole'] = var1;
+                    var1 = var9.text;
+                    var2['accessibilityLabel'] = var1;
+                    var1 = {};
+                    var7 = var9.disabled;
+                    var1['disabled'] = var7;
+                    var2['accessibilityState'] = var1;
                     var1 = var9.disabled;
                     var2['disabled'] = var1;
                     var1 = _closure2_slot1;
@@ -460,7 +468,7 @@ case 13:
                     var6['variant'] = var12;
                     var12 = var9.disabled;
                     if(var12) { _fun0003_ip = 15; continue _fun0003 }
-case 2:
+case 16:
                     var10 = _closure2_slot3;
 case 15:
                     var6['color'] = var10;

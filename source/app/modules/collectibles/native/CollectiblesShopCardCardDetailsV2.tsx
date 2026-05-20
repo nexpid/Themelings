@@ -121,12 +121,9 @@ case 0:
             var14 = var11.bind(var12)(var15, var6, var7);
             var11 = 10;
             var11 = var18[var11];
-            var17 = var16.bind(var4)(var11);
-            var12 = var17.isVirtualCurrencyEnabled;
-            var11 = {};
-            var19 = 'CollectiblesShopCardCardDetailsV2.PriceDescription';
-            var11['location'] = var19;
-            var11 = var12.bind(var17)(var11);
+            var12 = var16.bind(var4)(var11);
+            var11 = var12.isVirtualCurrencyEnabled;
+            var11 = var11.bind(var12)();
             var11 = var11.enabled;
             var _closure2_slot2 = var11;
             var19 = _closure1_slot3;
@@ -729,8 +726,8 @@ case 45:
             var5 = new Array(2);
             var5[0] = var7;
             var6 = !var6;
-            if(!var6) { _fun0003_ip = 47; continue _fun0003 }
-case 48:
+            if(!var6) { _fun0003_ip = 34; continue _fun0003 }
+case 47:
             var9 = _closure1_slot8;
             var8 = _closure1_slot4;
             var7 = {};
@@ -761,7 +758,7 @@ case 48:
             var10[1] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 47:
+case 34:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

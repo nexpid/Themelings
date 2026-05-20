@@ -65,6 +65,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/display_name_styles/native/useDisplayNameStylesFont.tsx';
     var5 = var6.bind(var7)(var5);
+    var5 = 1.1;
+    var3['CUSTOM_FONT_LINE_HEIGHT_CORRECTION'] = var5;
     var3['DISPLAY_NAME_STYLES_FONT_FAMILY_MAP'] = var4;
     var2 = function useDisplayNameStylesFont(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
