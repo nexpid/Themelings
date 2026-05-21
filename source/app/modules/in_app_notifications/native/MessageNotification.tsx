@@ -689,38 +689,39 @@ case 4:
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var2 = arg1;
-            var18 = var2.notification;
-            var15 = var2.reaction;
-            var14 = var2.onExpandPress;
-            var6 = var2.expandedContentVisible;
-            var13 = var2.expandedSV;
-            var12 = var2.notificationGestureY;
+            var20 = var2.notification;
+            var17 = var2.reaction;
+            var16 = var2.onExpandPress;
+            var7 = var2.expandedContentVisible;
+            var15 = var2.expandedSV;
+            var14 = var2.notificationGestureY;
+            var5 = var2.onAccessibilityExpand;
             var4 = undefined;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
             var2 = _closure1_slot10;
-            var7 = var2.bind(var4)();
-            var19 = var18.message;
-            var25 = var18.channel;
-            var _closure2_slot0 = var25;
-            var24 = var18.parentChannel;
-            var _closure2_slot1 = var24;
-            var23 = var18.guild;
-            var _closure2_slot2 = var23;
+            var8 = var2.bind(var4)();
+            var21 = var20.message;
+            var26 = var20.channel;
+            var _closure2_slot0 = var26;
+            var25 = var20.parentChannel;
+            var _closure2_slot1 = var25;
+            var24 = var20.guild;
+            var _closure2_slot2 = var24;
             var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var17 = 14;
-            var2 = var5[var17];
-            var8 = var3.bind(var4)(var2);
-            var2 = var8.useNullableMessageAuthor;
-            var22 = var2.bind(var8)(var19);
+            var6 = _closure1_slot2;
+            var19 = 14;
+            var2 = var6[var19];
+            var9 = var3.bind(var4)(var2);
+            var2 = var9.useNullableMessageAuthor;
+            var22 = var2.bind(var9)(var21);
             var _closure2_slot3 = var22;
             var2 = 15;
-            var2 = var5[var2];
-            var8 = var3.bind(var4)(var2);
-            var5 = var8.useStateFromStores;
+            var2 = var6[var2];
+            var9 = var3.bind(var4)(var2);
+            var6 = var9.useStateFromStores;
             var2 = _closure1_slot5;
             var3 = new Array(1);
             var3[0] = var2;
@@ -729,31 +730,31 @@ case 0:
                 var1 = var1.roleStyle;
                 return var1;
             };
-            var3 = var5.bind(var8)(var3, var2);
-            var21 = null;
-            var5 = var21 == var22;
+            var3 = var6.bind(var9)(var3, var2);
+            var23 = null;
+            var6 = var23 == var22;
             var2 = undefined;
-            if(var5) { _fun0011_ip = 32; continue _fun0011 }
+            if(var6) { _fun0011_ip = 32; continue _fun0011 }
 case 33:
             var2 = var22.colorString;
 case 32:
-            var5 = var21 != var2;
-            var8 = undefined;
-            if(!var5) { _fun0011_ip = 34; continue _fun0011 }
+            var6 = var23 != var2;
+            var9 = undefined;
+            if(!var6) { _fun0011_ip = 34; continue _fun0011 }
 case 35:
-            var8 = var2;
+            var9 = var2;
 case 34:
-            var5 = 'username';
+            var6 = 'username';
             var2 = undefined;
-            if(!(var5 === var3)) { _fun0011_ip = 36; continue _fun0011 }
+            if(!(var6 === var3)) { _fun0011_ip = 36; continue _fun0011 }
 case 37:
-            var2 = var8;
+            var2 = var9;
 case 36:
             _closure2_slot4 = var2;
-            var11 = _closure1_slot3;
-            var10 = var11.useMemo;
-            var5 = new Array(1);
-            var5[0] = var2;
+            var12 = _closure1_slot3;
+            var10 = var12.useMemo;
+            var6 = new Array(1);
+            var6[0] = var2;
             var2 = function() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -771,139 +772,136 @@ case 38:
                     return var1;
                 }
             };
-            var11 = var10.bind(var11)(var2, var5);
-            _closure2_slot5 = var11;
+            var10 = var10.bind(var12)(var2, var6);
+            _closure2_slot5 = var10;
             var2 = 'dot';
-            var10 = undefined;
+            var12 = undefined;
             if(!(var2 === var3)) { _fun0011_ip = 39; continue _fun0011 }
 case 40:
-            var10 = undefined;
-            if(!(var4 !== var8)) { _fun0011_ip = 39; continue _fun0011 }
+            var12 = undefined;
+            if(!(var4 !== var9)) { _fun0011_ip = 39; continue _fun0011 }
 case 41:
-            var5 = _closure1_slot7;
+            var6 = _closure1_slot7;
             var3 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var2 = 16;
-            var2 = var16[var2];
+            var2 = var13[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.RoleDot;
             var2 = {};
-            var2['color'] = var8;
-            var16 = var21 == var22;
-            var8 = undefined;
-            if(var16) { _fun0011_ip = 42; continue _fun0011 }
+            var2['color'] = var9;
+            var13 = var23 == var22;
+            var9 = undefined;
+            if(var13) { _fun0011_ip = 42; continue _fun0011 }
 case 43:
-            var8 = var22.colorStrings;
+            var9 = var22.colorStrings;
 case 42:
-            var2['colors'] = var8;
-            var7 = var7.newContainerRoleDot;
-            var2['containerStyles'] = var7;
-            var10 = var5.bind(var4)(var3, var2);
+            var2['colors'] = var9;
+            var8 = var8.newContainerRoleDot;
+            var2['containerStyles'] = var8;
+            var12 = var6.bind(var4)(var3, var2);
 case 39:
             var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var2 = 7;
-            var2 = var5[var2];
+            var2 = var6[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.getNotificationTitle;
-            var32 = var3;
-            var31 = var25;
-            var30 = var22;
+            var33 = var3;
+            var32 = var26;
+            var31 = var22;
+            var30 = var25;
             var29 = var24;
-            var28 = var23;
-            var20 = var32[var2](var31, var30, var29, var28, var27);
-            _closure2_slot6 = var20;
-            var2 = var19.content;
+            var13 = var33[var2](var32, var31, var30, var29, var28);
+            _closure2_slot6 = var13;
+            var2 = var21.content;
             var3 = var2.length;
             var2 = 0;
             var2 = var2 === var3;
             if(!var2) { _fun0011_ip = 44; continue _fun0011 }
 case 45:
-            var3 = var19.interaction;
-            var2 = var21 !== var3;
+            var3 = var21.interaction;
+            var2 = var23 !== var3;
 case 44:
             if(!var2) { _fun0011_ip = 46; continue _fun0011 }
 case 47:
-            var3 = var19.interaction;
+            var3 = var21.interaction;
             var2 = var4 !== var3;
 case 46:
             if(!var2) { _fun0011_ip = 48; continue _fun0011 }
 case 49:
-            var3 = var19.activityInstance;
-            var2 = var21 !== var3;
+            var3 = var21.activityInstance;
+            var2 = var23 !== var3;
 case 48:
             if(!var2) { _fun0011_ip = 50; continue _fun0011 }
 case 51:
-            var3 = var19.activityInstance;
+            var3 = var21.activityInstance;
             var2 = var4 !== var3;
 case 50:
             if(!var2) { _fun0011_ip = 52; continue _fun0011 }
 case 53:
-            var16 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var18 = _closure1_slot0;
+            var9 = _closure1_slot2;
             var2 = 17;
-            var3 = var8[var2];
-            var3 = var16.bind(var4)(var3);
-            var7 = var3.intl;
-            var5 = var7.formatToPlainString;
-            var2 = var8[var2];
-            var2 = var16.bind(var4)(var2);
+            var3 = var9[var2];
+            var3 = var18.bind(var4)(var3);
+            var8 = var3.intl;
+            var6 = var8.formatToPlainString;
+            var2 = var9[var2];
+            var2 = var18.bind(var4)(var2);
             var2 = var2.t;
             var3 = var2["7eikg1"];
             var2 = {};
-            var8 = var8[var17];
-            var26 = var16.bind(var4)(var8);
-            var17 = var26.getUserAuthor;
-            var8 = var19.interaction;
-            var27 = var21 == var8;
-            var16 = undefined;
-            if(var27) { _fun0011_ip = 54; continue _fun0011 }
+            var9 = var9[var19];
+            var27 = var18.bind(var4)(var9);
+            var19 = var27.getUserAuthor;
+            var9 = var21.interaction;
+            var28 = var23 == var9;
+            var18 = undefined;
+            if(var28) { _fun0011_ip = 54; continue _fun0011 }
 case 55:
-            var16 = var8.user;
+            var18 = var9.user;
 case 54:
-            var8 = var18.channel;
-            var8 = var17.bind(var26)(var16, var8);
-            var8 = var8.nick;
-            var2['username'] = var8;
-            var2 = var5.bind(var7)(var3, var2);
-            var19['content'] = var2;
+            var9 = var20.channel;
+            var9 = var19.bind(var27)(var18, var9);
+            var9 = var9.nick;
+            var2['username'] = var9;
+            var2 = var6.bind(var8)(var3, var2);
+            var21['content'] = var2;
 case 52:
             var3 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var18 = _closure1_slot2;
             var2 = 18;
-            var2 = var7[var2];
-            var2 = var3.bind(var4)(var2);
-            var16 = var2.InAppNotificationReactExperiment;
-            var8 = var16.useConfig;
-            var2 = {};
-            var5 = 'MessageNotification';
-            var2['location'] = var5;
-            var2 = var8.bind(var16)(var2);
-            var17 = var2.quickReact;
-            var8 = var2.expandedSize;
+            var2 = var18[var2];
+            var6 = var3.bind(var4)(var2);
+            var2 = var6.useCanExpandInAppNotification;
+            var9 = 'MessageNotification';
+            var2 = var2.bind(var6)(var9);
+            var6 = var2.canExpand;
             var2 = 19;
-            var2 = var7[var2];
-            var16 = var3.bind(var4)(var2);
-            var2 = var16.useInAppNotificationRedesign;
-            var2 = var2.bind(var16)(var5);
-            var16 = var2.redesignEnabled;
-            _closure2_slot7 = var16;
+            var2 = var18[var2];
+            var8 = var3.bind(var4)(var2);
+            var2 = var8.useInAppNotificationReact;
+            var2 = var2.bind(var8)(var9);
+            var19 = var2.quickReact;
+            var8 = var2.expandedSize;
             var2 = 20;
-            var2 = var7[var2];
+            var2 = var18[var2];
             var3 = var3.bind(var4)(var2);
-            var2 = var3.useCanExpandInAppNotification;
-            var2 = var2.bind(var3)(var5);
-            var5 = var2.canExpand;
-            var7 = _closure1_slot3;
-            var3 = var7.useMemo;
+            var2 = var3.useInAppNotificationRedesign;
+            var2 = var2.bind(var3)(var9);
+            var18 = var2.redesignEnabled;
+            _closure2_slot7 = var18;
+            var9 = _closure1_slot3;
+            var3 = var9.useMemo;
             var2 = new Array(7);
-            var2[0] = var16;
-            var2[1] = var25;
-            var2[2] = var24;
-            var2[3] = var23;
+            var2[0] = var18;
+            var2[1] = var26;
+            var2[2] = var25;
+            var2[3] = var24;
             var2[4] = var22;
-            var2[5] = var20;
-            var2[6] = var11;
+            var2[5] = var13;
+            var2[6] = var10;
             var1 = function() {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -935,86 +933,97 @@ case 57:
                     return var1;
                 }
             };
-            var7 = var3.bind(var7)(var1, var2);
+            var9 = var3.bind(var9)(var1, var2);
             var3 = _closure1_slot7;
             var2 = _closure1_slot13;
             var1 = {};
-            var1['message'] = var19;
+            var1['message'] = var21;
             var1['expandedSize'] = var8;
-            var1['redesignEnabled'] = var16;
-            var11 = var3.bind(var4)(var2, var1);
-            var8 = var11;
-            if(!(var21 != var12)) { _fun0011_ip = 58; continue _fun0011 }
+            var1['redesignEnabled'] = var18;
+            var8 = var3.bind(var4)(var2, var1);
+            var10 = var8;
+            if(!(var23 != var14)) { _fun0011_ip = 58; continue _fun0011 }
 case 59:
             var3 = _closure1_slot7;
             var2 = _closure1_slot21;
             var1 = {};
-            var1['message'] = var19;
-            var1['expandedSV'] = var13;
-            var1['notificationGestureY'] = var12;
-            var1['initialPreviewContent'] = var11;
-            var8 = var3.bind(var4)(var2, var1);
+            var1['message'] = var21;
+            var1['expandedSV'] = var15;
+            var1['notificationGestureY'] = var14;
+            var1['initialPreviewContent'] = var8;
+            var10 = var3.bind(var4)(var2, var1);
 case 58:
-            var3 = _closure1_slot7;
-            var20 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var22 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var1 = 21;
-            var1 = var11[var1];
-            var1 = var20.bind(var4)(var1);
+            var1 = var13[var1];
+            var2 = var22.bind(var4)(var1);
+            var1 = var2.useIsScreenReaderEnabled;
+            var8 = var1.bind(var2)();
+            var3 = _closure1_slot7;
+            var1 = 22;
+            var1 = var13[var1];
+            var1 = var22.bind(var4)(var1);
             var2 = var1.Notification;
             var1 = {};
-            var23 = 16;
-            var11 = var11[var23];
-            var11 = var20.bind(var4)(var11);
-            var20 = var11.Avatar;
-            var11 = {};
-            var22 = var19.author;
-            var11['user'] = var22;
-            var22 = var18.guild;
-            var24 = var21 == var22;
-            var21 = undefined;
-            if(var24) { _fun0011_ip = 60; continue _fun0011 }
+            var25 = 16;
+            var13 = var13[var25];
+            var13 = var22.bind(var4)(var13);
+            var22 = var13.Avatar;
+            var13 = {};
+            var24 = var21.author;
+            var13['user'] = var24;
+            var24 = var20.guild;
+            var26 = var23 == var24;
+            var23 = undefined;
+            if(var26) { _fun0011_ip = 60; continue _fun0011 }
 case 61:
-            var21 = var22.id;
+            var23 = var24.id;
 case 60:
-            var11['guildId'] = var21;
-            var22 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var21 = var21[var23];
-            var21 = var22.bind(var4)(var21);
-            var21 = var21.AvatarSizes;
-            var21 = var21.NORMAL;
-            var11['size'] = var21;
-            var11 = var3.bind(var4)(var20, var11);
-            var1['icon'] = var11;
-            var1['accessoryLabelNode'] = var10;
-            var11 = _closure1_slot7;
-            var10 = _closure1_slot12;
-            var9 = {};
-            var9['message'] = var19;
-            var9['notification'] = var18;
-            var9['quickReactEnabled'] = var17;
-            var9['redesignEnabled'] = var16;
-            var9['reaction'] = var15;
-            var9['onExpandPress'] = var14;
-            var9['expandedContentVisible'] = var6;
-            var9['expandedSV'] = var13;
-            var9['notificationGestureY'] = var12;
-            var9 = var11.bind(var4)(var10, var9);
-            var1['rightAccessory'] = var9;
-            var1['children'] = var8;
-            var1['header'] = var7;
-            if(!var5) { _fun0011_ip = 62; continue _fun0011 }
+            var13['guildId'] = var23;
+            var24 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var23 = var23[var25];
+            var23 = var24.bind(var4)(var23);
+            var23 = var23.AvatarSizes;
+            var23 = var23.NORMAL;
+            var13['size'] = var23;
+            var13 = var3.bind(var4)(var22, var13);
+            var1['icon'] = var13;
+            var1['accessoryLabelNode'] = var12;
+            var13 = _closure1_slot7;
+            var12 = _closure1_slot12;
+            var11 = {};
+            var11['message'] = var21;
+            var11['notification'] = var20;
+            var11['quickReactEnabled'] = var19;
+            var11['redesignEnabled'] = var18;
+            var11['reaction'] = var17;
+            var11['onExpandPress'] = var16;
+            var11['expandedContentVisible'] = var7;
+            var11['expandedSV'] = var15;
+            var11['notificationGestureY'] = var14;
+            var11 = var13.bind(var4)(var12, var11);
+            var1['rightAccessory'] = var11;
+            var1['children'] = var10;
+            var1['header'] = var9;
+            if(!var6) { _fun0011_ip = 62; continue _fun0011 }
 case 63:
-            var5 = !var6;
+            var7 = !var7;
+            if(var7) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
+            var7 = var8;
+case 64:
+            var6 = var7;
 case 62:
-            var1['showDragHandle'] = var5;
+            var1['showDragHandle'] = var6;
+            var1['onAccessibilityExpand'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

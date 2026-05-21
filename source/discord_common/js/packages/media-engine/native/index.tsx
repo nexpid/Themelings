@@ -1112,7 +1112,7 @@ case 72:
             return var1;
         };
         var6['value'] = var2;
-        var2 = new Array(87);
+        var2 = new Array(85);
         var2[0] = var6;
         var6 = {};
         var7 = 'interact';
@@ -3129,77 +3129,96 @@ case 241:
         var6 = {};
         var8 = 'getScreenPreviews';
         var6['key'] = var8;
-        var8 = function value(arg1, arg2) {
-            var2 = arg1;
-            var _closure3_slot0 = var2;
-            var2 = arg2;
-            var _closure3_slot1 = var2;
-            var2 = global;
-            var3 = var2.Promise;
-            var2 = var3.prototype;
-            var2 = Object.create(var2, {constructor: {value: var3}});
-            var4 = function(arg1) {
-                _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+        var8 = function value(arg1, arg2, arg3) {
+            _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
-                    var6 = arg1;
-                    var _closure4_slot0 = var6;
-                    var7 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var5 = 15;
-                    var4 = var1[var5];
-                    var1 = undefined;
-                    var7 = var7.bind(var1)(var4);
-                    var4 = var7.getVoiceEngine;
-                    var4 = var4.bind(var7)();
-                    var7 = var4.getScreenPreviews;
-                    var4 = null;
-                    if(!(var4 == var7)) { _fun0033_ip = 182; continue _fun0033 }
+                var2 = arg1;
+                var _closure3_slot0 = var2;
+                var2 = arg2;
+                var _closure3_slot1 = var2;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 15;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.getVoiceEngine;
+                var4 = var2.bind(var3)();
+                var3 = var4.setPreviewsUseWgc;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0033_ip = 242; continue _fun0033 }
+case 196:
+                var3 = var4.setPreviewsUseWgc;
+                var2 = arg3;
+                var2 = var3.bind(var4)(var2);
+case 242:
+                var2 = global;
+                var3 = var2.Promise;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var5 = function(arg1) {
+                    _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
+case 0:
+                        var6 = arg1;
+                        var _closure4_slot0 = var6;
+                        var7 = _closure1_slot0;
+                        var1 = _closure1_slot2;
+                        var5 = 15;
+                        var4 = var1[var5];
+                        var1 = undefined;
+                        var7 = var7.bind(var1)(var4);
+                        var4 = var7.getVoiceEngine;
+                        var4 = var4.bind(var7)();
+                        var7 = var4.getScreenPreviews;
+                        var4 = null;
+                        if(!(var4 == var7)) { _fun0034_ip = 182; continue _fun0034 }
 case 197:
-                    var4 = new Array(0);
-                    var4 = var6.bind(var1)(var4);
-                    _fun0033_ip = 242; continue _fun0033;
+                        var4 = new Array(0);
+                        var4 = var6.bind(var1)(var4);
+                        _fun0034_ip = 243; continue _fun0034;
 case 182:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var5];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.getVoiceEngine;
-                    var6 = var3.bind(var4)();
-                    var5 = var6.getScreenPreviews;
-                    var4 = _closure3_slot0;
-                    var3 = _closure3_slot1;
-                    var2 = function(arg1) {
-                        var4 = arg1;
-                        var3 = _closure4_slot0;
-                        var2 = var4.map;
-                        var1 = function(arg1, arg2) {
-                            var1 = {};
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var3 = var3[var5];
+                        var4 = var4.bind(var1)(var3);
+                        var3 = var4.getVoiceEngine;
+                        var6 = var3.bind(var4)();
+                        var5 = var6.getScreenPreviews;
+                        var4 = _closure3_slot0;
+                        var3 = _closure3_slot1;
+                        var2 = function(arg1) {
                             var4 = arg1;
-                            var5 = var1;
-                            var2 = copyDataProperties(var5, var4);
-                            var3 = arg2;
-                            var2 = 1;
-                            var3 = var3 + var2;
-                            var2 = 'Screen ';
-                            var3 = var2 + var3;
-                            var2 = 'name';
-                            var1[1] = var3;
+                            var3 = _closure4_slot0;
+                            var2 = var4.map;
+                            var1 = function(arg1, arg2) {
+                                var1 = {};
+                                var4 = arg1;
+                                var5 = var1;
+                                var2 = copyDataProperties(var5, var4);
+                                var3 = arg2;
+                                var2 = 1;
+                                var3 = var3 + var2;
+                                var2 = 'Screen ';
+                                var3 = var2 + var3;
+                                var2 = 'name';
+                                var1[1] = var3;
+                                return var1;
+                            };
+                            var2 = var2.bind(var4)(var1);
+                            var1 = undefined;
+                            var2 = var3.bind(var1)(var2);
                             return var1;
                         };
-                        var2 = var2.bind(var4)(var1);
-                        var1 = undefined;
-                        var2 = var3.bind(var1)(var2);
+                        var2 = var5.bind(var6)(var4, var3, var2);
+case 243:
                         return var1;
-                    };
-                    var2 = var5.bind(var6)(var4, var3, var2);
-case 242:
-                    return var1;
-                }
-            };
-            var5 = var2;
-            var1 = new var5[var3](var4, var3);
-            var1 = var1 instanceof Object ? var1 : var2;
-            return var1;
+                    }
+                };
+                var6 = var2;
+                var1 = new var6[var3](var5, var4);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
+            }
         };
         var6['value'] = var8;
         var2[28] = var6;
@@ -3207,7 +3226,7 @@ case 242:
         var8 = 'setClipsModulePath';
         var6['key'] = var8;
         var8 = function value(arg1) {
-            _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
+            _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -3219,7 +3238,7 @@ case 0:
                 var5 = var2.bind(var3)();
                 var4 = var5.setClipsModulePath;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0034_ip = 196; continue _fun0034 }
+                if(!(var2 != var4)) { _fun0035_ip = 196; continue _fun0035 }
 case 24:
                 var3 = var4.call;
                 var2 = arg1;
@@ -3234,7 +3253,7 @@ case 196:
         var8 = 'setClipsDataPath';
         var6['key'] = var8;
         var8 = function value(arg1) {
-            _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
+            _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -3246,7 +3265,7 @@ case 0:
                 var5 = var2.bind(var3)();
                 var4 = var5.setClipsDataPath;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0035_ip = 196; continue _fun0035 }
+                if(!(var2 != var4)) { _fun0036_ip = 196; continue _fun0036 }
 case 24:
                 var3 = var4.call;
                 var2 = arg1;
@@ -3261,7 +3280,7 @@ case 196:
         var8 = 'setClipsV3Enabled';
         var6['key'] = var8;
         var8 = function value(arg1) {
-            _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
+            _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -3273,7 +3292,7 @@ case 0:
                 var5 = var2.bind(var3)();
                 var4 = var5.setClipsV3Enabled;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0036_ip = 196; continue _fun0036 }
+                if(!(var2 != var4)) { _fun0037_ip = 196; continue _fun0037 }
 case 24:
                 var3 = var4.call;
                 var2 = arg1;
@@ -3288,7 +3307,7 @@ case 196:
         var8 = 'setClipsUIActive';
         var6['key'] = var8;
         var8 = function value(arg1) {
-            _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
+            _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -3300,7 +3319,7 @@ case 0:
                 var5 = var2.bind(var3)();
                 var4 = var5.setClipsUIActive;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0037_ip = 196; continue _fun0037 }
+                if(!(var2 != var4)) { _fun0038_ip = 196; continue _fun0038 }
 case 24:
                 var3 = var4.call;
                 var2 = arg1;
@@ -3315,7 +3334,7 @@ case 196:
         var8 = 'setClipsV3MLEnabled';
         var6['key'] = var8;
         var8 = function value(arg1) {
-            _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
+            _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -3327,7 +3346,7 @@ case 0:
                 var5 = var2.bind(var3)();
                 var4 = var5.setClipsV3MLEnabled;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0038_ip = 196; continue _fun0038 }
+                if(!(var2 != var4)) { _fun0039_ip = 196; continue _fun0039 }
 case 24:
                 var3 = var4.call;
                 var2 = arg1;
@@ -3342,7 +3361,7 @@ case 196:
         var8 = 'setClipBufferLength';
         var6['key'] = var8;
         var8 = function value(arg1) {
-            _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
+            _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -3354,7 +3373,7 @@ case 0:
                 var5 = var2.bind(var3)();
                 var4 = var5.setClipBufferLength;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0039_ip = 183; continue _fun0039 }
+                if(!(var2 != var4)) { _fun0040_ip = 183; continue _fun0040 }
 case 39:
                 var3 = var4.call;
                 var2 = arg1;
@@ -3366,65 +3385,10 @@ case 183:
         var6['value'] = var8;
         var2[34] = var6;
         var6 = {};
-        var8 = 'setClipsMLPipelineEnabled';
-        var6['key'] = var8;
-        var8 = function value(arg1) {
-            _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
-case 0:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 15;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.getVoiceEngine;
-                var5 = var2.bind(var3)();
-                var4 = var5.setClipsMLPipelineEnabled;
-                var2 = null;
-                if(!(var2 != var4)) { _fun0040_ip = 196; continue _fun0040 }
-case 24:
-                var3 = var4.call;
-                var2 = arg1;
-                var2 = var3.bind(var4)(var5, var2);
-case 196:
-                return var1;
-            }
-        };
-        var6['value'] = var8;
-        var2[35] = var6;
-        var6 = {};
-        var8 = 'setClipsMLPipelineTypeEnabled';
-        var6['key'] = var8;
-        var8 = function value(arg1, arg2) {
-            _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
-case 0:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 15;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.getVoiceEngine;
-                var6 = var2.bind(var3)();
-                var5 = var6.setClipsMLPipelineTypeEnabled;
-                var2 = null;
-                if(!(var2 != var5)) { _fun0041_ip = 182; continue _fun0041 }
-case 24:
-                var4 = var5.call;
-                var3 = arg1;
-                var2 = arg2;
-                var2 = var4.bind(var5)(var6, var3, var2);
-case 182:
-                return var1;
-            }
-        };
-        var6['value'] = var8;
-        var2[36] = var6;
-        var6 = {};
         var8 = 'saveClip';
         var6['key'] = var8;
         var8 = function value(arg1, arg2) {
-            _fun0042: for(var _fun0042_ip = 0; ; ) switch(_fun0042_ip) {
+            _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
 case 0:
                 var2 = arg1;
                 var _closure3_slot0 = var2;
@@ -3441,11 +3405,11 @@ case 0:
                 var _closure3_slot2 = var2;
                 var4 = var2.setClipBufferLength;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0042_ip = 243; continue _fun0042 }
+                if(!(var3 != var4)) { _fun0041_ip = 244; continue _fun0041 }
 case 182:
                 var2 = var2.saveClip;
-                if(!(var3 != var2)) { _fun0042_ip = 243; continue _fun0042 }
-case 244:
+                if(!(var3 != var2)) { _fun0041_ip = 244; continue _fun0041 }
+case 242:
                 var2 = global;
                 var3 = var2.Promise;
                 var2 = var3.prototype;
@@ -3460,7 +3424,7 @@ case 244:
                     var10 = _closure3_slot0;
                     var9 = _closure3_slot1;
                     var8 = function(arg1, arg2, arg3) {
-                        _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
+                        _fun0042: for(var _fun0042_ip = 0; ; ) switch(_fun0042_ip) {
 case 0:
                             var5 = arg1;
                             var7 = arg3;
@@ -3473,13 +3437,13 @@ case 245: // try_start_0
                             var9 = var7;
                             var1 = '{}';
                             var8 = '';
-                            if(!(var8 !== var9)) { _fun0043_ip = 246; continue _fun0043 }
+                            if(!(var8 !== var9)) { _fun0042_ip = 246; continue _fun0042 }
 case 247:
                             var1 = var7;
 case 246:
                             var4 = var2.bind(var6)(var1);
 case 24: // try_end0
-                            _fun0043_ip = 248; continue _fun0043;
+                            _fun0042_ip = 248; continue _fun0042;
 case 9: // catch_target0
                             CatchBlockStart(arg_register=0);
                             var4 = {};
@@ -3493,7 +3457,7 @@ case 248:
                         }
                     };
                     var7 = function(arg1) {
-                        _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
+                        _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
 case 0:
                             var4 = arg1;
 case 249: // try_start_0
@@ -3503,7 +3467,7 @@ case 249: // try_start_0
                             var6 = var4;
                             var1 = '{}';
                             var5 = '';
-                            if(!(var5 !== var6)) { _fun0044_ip = 250; continue _fun0044 }
+                            if(!(var5 !== var6)) { _fun0043_ip = 250; continue _fun0043 }
 case 251:
                             var1 = var4;
 case 250:
@@ -3530,8 +3494,8 @@ case 193: // catch_target0
                 var6 = var2;
                 var1 = new var6[var3](var5, var4);
                 var1 = var1 instanceof Object ? var1 : var2;
-                _fun0042_ip = 252; continue _fun0042;
-case 243:
+                _fun0041_ip = 252; continue _fun0041;
+case 244:
                 var2 = global;
                 var4 = var2.Promise;
                 var3 = var4.reject;
@@ -3542,12 +3506,12 @@ case 252:
             }
         };
         var6['value'] = var8;
-        var2[37] = var6;
+        var2[35] = var6;
         var6 = {};
         var8 = 'saveClipForUser';
         var6['key'] = var8;
         var8 = function value(arg1, arg2, arg3) {
-            _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
+            _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
 case 0:
                 var2 = arg1;
                 var _closure3_slot0 = var2;
@@ -3566,7 +3530,7 @@ case 0:
                 var _closure3_slot3 = var2;
                 var3 = var2.saveClipForUser;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0045_ip = 253; continue _fun0045 }
+                if(!(var2 != var3)) { _fun0044_ip = 253; continue _fun0044 }
 case 4:
                 var2 = global;
                 var3 = var2.Promise;
@@ -3583,7 +3547,7 @@ case 4:
                     var11 = _closure3_slot1;
                     var10 = _closure3_slot2;
                     var9 = function(arg1, arg2, arg3) {
-                        _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
+                        _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
 case 0:
                             var5 = arg1;
                             var7 = arg3;
@@ -3596,13 +3560,13 @@ case 245: // try_start_0
                             var9 = var7;
                             var1 = '{}';
                             var8 = '';
-                            if(!(var8 !== var9)) { _fun0046_ip = 246; continue _fun0046 }
+                            if(!(var8 !== var9)) { _fun0045_ip = 246; continue _fun0045 }
 case 247:
                             var1 = var7;
 case 246:
                             var4 = var2.bind(var6)(var1);
 case 24: // try_end0
-                            _fun0046_ip = 248; continue _fun0046;
+                            _fun0045_ip = 248; continue _fun0045;
 case 9: // catch_target0
                             CatchBlockStart(arg_register=0);
                             var4 = {};
@@ -3616,7 +3580,7 @@ case 248:
                         }
                     };
                     var8 = function(arg1) {
-                        _fun0047: for(var _fun0047_ip = 0; ; ) switch(_fun0047_ip) {
+                        _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
 case 0:
                             var4 = arg1;
 case 249: // try_start_0
@@ -3626,7 +3590,7 @@ case 249: // try_start_0
                             var6 = var4;
                             var1 = '{}';
                             var5 = '';
-                            if(!(var5 !== var6)) { _fun0047_ip = 250; continue _fun0047 }
+                            if(!(var5 !== var6)) { _fun0046_ip = 250; continue _fun0046 }
 case 251:
                             var1 = var4;
 case 250:
@@ -3653,7 +3617,7 @@ case 193: // catch_target0
                 var6 = var2;
                 var1 = new var6[var3](var5, var4);
                 var1 = var1 instanceof Object ? var1 : var2;
-                _fun0045_ip = 254; continue _fun0045;
+                _fun0044_ip = 254; continue _fun0044;
 case 253:
                 var2 = global;
                 var4 = var2.Promise;
@@ -3665,12 +3629,12 @@ case 254:
             }
         };
         var6['value'] = var8;
-        var2[38] = var6;
+        var2[36] = var6;
         var6 = {};
         var8 = 'updateClipMetadata';
         var6['key'] = var8;
         var8 = function value(arg1, arg2) {
-            _fun0048: for(var _fun0048_ip = 0; ; ) switch(_fun0048_ip) {
+            _fun0047: for(var _fun0047_ip = 0; ; ) switch(_fun0047_ip) {
 case 0:
                 var2 = arg1;
                 var _closure3_slot0 = var2;
@@ -3687,7 +3651,7 @@ case 0:
                 var _closure3_slot2 = var2;
                 var3 = var2.updateClipMetadata;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0048_ip = 10; continue _fun0048 }
+                if(!(var2 != var3)) { _fun0047_ip = 10; continue _fun0047 }
 case 182:
                 var2 = global;
                 var3 = var2.Promise;
@@ -3708,7 +3672,7 @@ case 182:
                 var6 = var2;
                 var1 = new var6[var3](var5, var4);
                 var1 = var1 instanceof Object ? var1 : var2;
-                _fun0048_ip = 90; continue _fun0048;
+                _fun0047_ip = 90; continue _fun0047;
 case 10:
                 var2 = global;
                 var4 = var2.Promise;
@@ -3720,12 +3684,12 @@ case 90:
             }
         };
         var6['value'] = var8;
-        var2[39] = var6;
+        var2[37] = var6;
         var6 = {};
         var8 = 'saveScreenshot';
         var6['key'] = var8;
         var8 = function value(arg1, arg2, arg3, arg4, arg5) {
-            _fun0049: for(var _fun0049_ip = 0; ; ) switch(_fun0049_ip) {
+            _fun0048: for(var _fun0048_ip = 0; ; ) switch(_fun0048_ip) {
 case 0:
                 var2 = arg1;
                 var _closure3_slot0 = var2;
@@ -3748,14 +3712,14 @@ case 0:
                 var _closure3_slot5 = var2;
                 var3 = var2.saveScreenshot;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0049_ip = 242; continue _fun0049 }
+                if(!(var2 != var3)) { _fun0048_ip = 243; continue _fun0048 }
 case 255:
                 var2 = global;
                 var3 = var2.Promise;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var5 = function(arg1, arg2) {
-                    _fun0050: for(var _fun0050_ip = 0; ; ) switch(_fun0050_ip) {
+                    _fun0049: for(var _fun0049_ip = 0; ; ) switch(_fun0049_ip) {
 case 0:
                         var2 = arg1;
                         var _closure4_slot0 = var2;
@@ -3767,7 +3731,7 @@ case 0:
                         var10 = null;
                         var3 = var10 != var3;
                         var5 = '';
-                        if(!var3) { _fun0050_ip = 9; continue _fun0050 }
+                        if(!var3) { _fun0049_ip = 9; continue _fun0049 }
 case 39:
                         var5 = _closure3_slot3;
 case 9:
@@ -3775,7 +3739,7 @@ case 9:
                         var3 = _closure3_slot4;
                         var10 = var10 != var3;
                         var3 = 0;
-                        if(!var10) { _fun0050_ip = 5; continue _fun0050 }
+                        if(!var10) { _fun0049_ip = 5; continue _fun0049 }
 case 241:
                         var3 = _closure3_slot4;
 case 5:
@@ -3805,8 +3769,8 @@ case 5:
                 var6 = var2;
                 var1 = new var6[var3](var5, var4);
                 var1 = var1 instanceof Object ? var1 : var2;
-                _fun0049_ip = 22; continue _fun0049;
-case 242:
+                _fun0048_ip = 22; continue _fun0048;
+case 243:
                 var2 = global;
                 var4 = var2.Promise;
                 var3 = var4.reject;
@@ -3817,12 +3781,12 @@ case 22:
             }
         };
         var6['value'] = var8;
-        var2[40] = var6;
+        var2[38] = var6;
         var6 = {};
         var8 = 'exportClip';
         var6['key'] = var8;
         var8 = function value(arg1, arg2) {
-            _fun0051: for(var _fun0051_ip = 0; ; ) switch(_fun0051_ip) {
+            _fun0050: for(var _fun0050_ip = 0; ; ) switch(_fun0050_ip) {
 case 0:
                 var2 = arg1;
                 var _closure3_slot0 = var2;
@@ -3839,7 +3803,7 @@ case 0:
                 var _closure3_slot2 = var2;
                 var3 = var2.exportClip;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0051_ip = 10; continue _fun0051 }
+                if(!(var2 != var3)) { _fun0050_ip = 10; continue _fun0050 }
 case 182:
                 var2 = global;
                 var3 = var2.Promise;
@@ -3878,7 +3842,7 @@ case 182:
                 var6 = var2;
                 var1 = new var6[var3](var5, var4);
                 var1 = var1 instanceof Object ? var1 : var2;
-                _fun0051_ip = 90; continue _fun0051;
+                _fun0050_ip = 90; continue _fun0050;
 case 10:
                 var2 = global;
                 var4 = var2.Promise;
@@ -3890,73 +3854,92 @@ case 90:
             }
         };
         var6['value'] = var8;
-        var2[41] = var6;
+        var2[39] = var6;
         var6 = {};
         var8 = 'getWindowPreviews';
         var6['key'] = var8;
-        var8 = function value(arg1, arg2) {
-            var2 = arg1;
-            var _closure3_slot0 = var2;
-            var2 = arg2;
-            var _closure3_slot1 = var2;
-            var2 = global;
-            var3 = var2.Promise;
-            var2 = var3.prototype;
-            var2 = Object.create(var2, {constructor: {value: var3}});
-            var4 = function(arg1) {
-                _fun0052: for(var _fun0052_ip = 0; ; ) switch(_fun0052_ip) {
+        var8 = function value(arg1, arg2, arg3) {
+            _fun0051: for(var _fun0051_ip = 0; ; ) switch(_fun0051_ip) {
 case 0:
-                    var6 = arg1;
-                    var _closure4_slot0 = var6;
-                    var7 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var5 = 15;
-                    var4 = var1[var5];
-                    var1 = undefined;
-                    var7 = var7.bind(var1)(var4);
-                    var4 = var7.getVoiceEngine;
-                    var4 = var4.bind(var7)();
-                    var7 = var4.getWindowPreviews;
-                    var4 = null;
-                    if(!(var4 == var7)) { _fun0052_ip = 182; continue _fun0052 }
-case 197:
-                    var4 = new Array(0);
-                    var4 = var6.bind(var1)(var4);
-                    _fun0052_ip = 242; continue _fun0052;
-case 182:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var5];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.getVoiceEngine;
-                    var6 = var3.bind(var4)();
-                    var5 = var6.getWindowPreviews;
-                    var4 = _closure3_slot0;
-                    var3 = _closure3_slot1;
-                    var2 = function(arg1) {
-                        var3 = _closure4_slot0;
-                        var1 = undefined;
-                        var2 = arg1;
-                        var2 = var3.bind(var1)(var2);
-                        return var1;
-                    };
-                    var2 = var5.bind(var6)(var4, var3, var2);
+                var2 = arg1;
+                var _closure3_slot0 = var2;
+                var2 = arg2;
+                var _closure3_slot1 = var2;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 15;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.getVoiceEngine;
+                var4 = var2.bind(var3)();
+                var3 = var4.setPreviewsUseWgc;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0051_ip = 242; continue _fun0051 }
+case 196:
+                var3 = var4.setPreviewsUseWgc;
+                var2 = arg3;
+                var2 = var3.bind(var4)(var2);
 case 242:
-                    return var1;
-                }
-            };
-            var5 = var2;
-            var1 = new var5[var3](var4, var3);
-            var1 = var1 instanceof Object ? var1 : var2;
-            return var1;
+                var2 = global;
+                var3 = var2.Promise;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var5 = function(arg1) {
+                    _fun0052: for(var _fun0052_ip = 0; ; ) switch(_fun0052_ip) {
+case 0:
+                        var6 = arg1;
+                        var _closure4_slot0 = var6;
+                        var7 = _closure1_slot0;
+                        var1 = _closure1_slot2;
+                        var5 = 15;
+                        var4 = var1[var5];
+                        var1 = undefined;
+                        var7 = var7.bind(var1)(var4);
+                        var4 = var7.getVoiceEngine;
+                        var4 = var4.bind(var7)();
+                        var7 = var4.getWindowPreviews;
+                        var4 = null;
+                        if(!(var4 == var7)) { _fun0052_ip = 182; continue _fun0052 }
+case 197:
+                        var4 = new Array(0);
+                        var4 = var6.bind(var1)(var4);
+                        _fun0052_ip = 243; continue _fun0052;
+case 182:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var3 = var3[var5];
+                        var4 = var4.bind(var1)(var3);
+                        var3 = var4.getVoiceEngine;
+                        var6 = var3.bind(var4)();
+                        var5 = var6.getWindowPreviews;
+                        var4 = _closure3_slot0;
+                        var3 = _closure3_slot1;
+                        var2 = function(arg1) {
+                            var3 = _closure4_slot0;
+                            var1 = undefined;
+                            var2 = arg1;
+                            var2 = var3.bind(var1)(var2);
+                            return var1;
+                        };
+                        var2 = var5.bind(var6)(var4, var3, var2);
+case 243:
+                        return var1;
+                    }
+                };
+                var6 = var2;
+                var1 = new var6[var3](var5, var4);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
+            }
         };
         var6['value'] = var8;
-        var2[42] = var6;
+        var2[40] = var6;
         var6 = {};
         var8 = 'getSingleWindowPreview';
         var6['key'] = var8;
-        var8 = function* (arg1, arg2, arg3) {
-            var1 = function* anon_0_(arg1, arg2, arg3) {
+        var8 = function* (arg1, arg2, arg3, arg4) {
+            var1 = function* anon_0_(arg1, arg2, arg3, arg4) {
                 _fun0053: for(var _fun0053_ip = 0; ; ) switch(_fun0053_ip) {
 case 0:
                     StartGenerator();
@@ -3970,13 +3953,26 @@ case 245:
                     var5 = undefined;
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.getVoiceEngine;
-                    var3 = var3.bind(var4)();
-                    var4 = var3.getSingleWindowPreview;
+                    var8 = var3.bind(var4)();
+                    var4 = var8.setPreviewsUseWgc;
                     var3 = null;
-                    if(!(var3 == var4)) { _fun0053_ip = 257; continue _fun0053 }
+                    if(!(var3 != var4)) { _fun0053_ip = 257; continue _fun0053 }
 case 28:
-                    return var3;
+                    var7 = var8.setPreviewsUseWgc;
+                    var4 = arg4;
+                    var4 = var7.bind(var8)(var4);
 case 257:
+                    var7 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var6];
+                    var7 = var7.bind(var5)(var4);
+                    var4 = var7.getVoiceEngine;
+                    var4 = var4.bind(var7)();
+                    var4 = var4.getSingleWindowPreview;
+                    if(!(var3 == var4)) { _fun0053_ip = 79; continue _fun0053 }
+case 88:
+                    return var3;
+case 79:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var6];
@@ -3988,23 +3984,23 @@ case 257:
                     var4 = arg2;
                     var2 = arg3;
                     var2 = var6.bind(var7)(var5, var4, var2);
-                    SaveGenerator(address=113);
-case 79:
-                    return var2;
+                    SaveGenerator(address=164);
 case 258:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0053_ip = 92; continue _fun0053 }
+                    return var2;
 case 259:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0053_ip = 72; continue _fun0053 }
+case 227:
                     var5 = var2.length;
                     var4 = 0;
                     var5 = var5 > var4;
                     var3 = null;
-                    if(!var5) { _fun0053_ip = 260; continue _fun0053 }
-case 252:
-                    var3 = var2[var4];
+                    if(!var5) { _fun0053_ip = 74; continue _fun0053 }
 case 260:
+                    var3 = var2[var4];
+case 74:
                     return var3;
-case 92:
+case 72:
                     return var2;
 case 256:
                     return var1;
@@ -4025,7 +4021,7 @@ case 256:
             return var1;
         };
         var6['value'] = var8;
-        var2[43] = var6;
+        var2[41] = var6;
         var6 = {};
         var8 = 'setAudioSubsystem';
         var6['key'] = var8;
@@ -4071,7 +4067,7 @@ case 262:
             }
         };
         var6['value'] = var8;
-        var2[44] = var6;
+        var2[42] = var6;
         var6 = {};
         var8 = 'setOffloadAdmControls';
         var6['key'] = var8;
@@ -4098,7 +4094,7 @@ case 183:
             }
         };
         var6['value'] = var8;
-        var2[45] = var6;
+        var2[43] = var6;
         var6 = {};
         var8 = 'updateFieldTrial';
         var6['key'] = var8;
@@ -4126,7 +4122,7 @@ case 221:
             }
         };
         var6['value'] = var8;
-        var2[46] = var6;
+        var2[44] = var6;
         var6 = {};
         var8 = 'queueAudioSubsystem';
         var6['key'] = var8;
@@ -4149,16 +4145,16 @@ case 0:
 case 263:
                 var2 = var5.setAudioSubsystem;
                 var2 = var2.bind(var5)(var4);
-                _fun0057_ip = 244; continue _fun0057;
+                _fun0057_ip = 242; continue _fun0057;
 case 223:
                 var2 = var3.queueAudioSubsystem;
                 var2 = var2.bind(var3)(var4);
-case 244:
+case 242:
                 return var1;
             }
         };
         var6['value'] = var8;
-        var2[47] = var6;
+        var2[45] = var6;
         var6 = {};
         var8 = 'getAudioSubsystem';
         var6['key'] = var8;
@@ -4168,7 +4164,7 @@ case 244:
             return var1;
         };
         var6['value'] = var8;
-        var2[48] = var6;
+        var2[46] = var6;
         var6 = {};
         var8 = 'getAudioLayer';
         var6['key'] = var8;
@@ -4178,7 +4174,7 @@ case 244:
             return var1;
         };
         var6['value'] = var8;
-        var2[49] = var6;
+        var2[47] = var6;
         var6 = {};
         var8 = 'getDebugLogging';
         var6['key'] = var8;
@@ -4209,7 +4205,7 @@ case 264:
             }
         };
         var6['value'] = var8;
-        var2[50] = var6;
+        var2[48] = var6;
         var6 = {};
         var8 = 'setDebugLogging';
         var6['key'] = var8;
@@ -4240,7 +4236,7 @@ case 265:
             }
         };
         var6['value'] = var8;
-        var2[51] = var6;
+        var2[49] = var6;
         var6 = {};
         var8 = 'setLoopback';
         var6['key'] = var8;
@@ -4368,7 +4364,7 @@ case 273:
             }
         };
         var6['value'] = var8;
-        var2[52] = var6;
+        var2[50] = var6;
         var6 = {};
         var8 = 'getLoopback';
         var6['key'] = var8;
@@ -4377,7 +4373,7 @@ case 273:
             return var1;
         };
         var6['value'] = var8;
-        var2[53] = var6;
+        var2[51] = var6;
         var6 = {};
         var8 = 'getCodecSurvey';
         var6['key'] = var8;
@@ -4453,7 +4449,7 @@ case 277:
             }
         };
         var6['value'] = var8;
-        var2[54] = var6;
+        var2[52] = var6;
         var6 = {};
         var8 = 'writeAudioDebugState';
         var6['key'] = var8;
@@ -4502,7 +4498,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[55] = var6;
+        var2[53] = var6;
         var6 = {};
         var8 = 'startAecDump';
         var6['key'] = var8;
@@ -4511,7 +4507,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[56] = var6;
+        var2[54] = var6;
         var6 = {};
         var8 = 'stopAecDump';
         var6['key'] = var8;
@@ -4520,7 +4516,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[57] = var6;
+        var2[55] = var6;
         var6 = {};
         var8 = 'setAecDump';
         var6['key'] = var8;
@@ -4547,7 +4543,7 @@ case 183:
             }
         };
         var6['value'] = var8;
-        var2[58] = var6;
+        var2[56] = var6;
         var6 = {};
         var8 = 'startRecordingRawSamples';
         var6['key'] = var8;
@@ -4574,7 +4570,7 @@ case 196:
             }
         };
         var6['value'] = var8;
-        var2[59] = var6;
+        var2[57] = var6;
         var6 = {};
         var8 = 'stopRecordingRawSamples';
         var6['key'] = var8;
@@ -4600,7 +4596,7 @@ case 266:
             }
         };
         var6['value'] = var8;
-        var2[60] = var6;
+        var2[58] = var6;
         var6 = {};
         var8 = 'processBatchAudioFiles';
         var6['key'] = var8;
@@ -4632,7 +4628,7 @@ case 265:
             }
         };
         var6['value'] = var8;
-        var2[61] = var6;
+        var2[59] = var6;
         var6 = {};
         var8 = 'cancelBatchAudioProcessing';
         var6['key'] = var8;
@@ -4658,7 +4654,7 @@ case 266:
             }
         };
         var6['value'] = var8;
-        var2[62] = var6;
+        var2[60] = var6;
         var6 = {};
         var8 = 'rankRtcRegions';
         var6['key'] = var8;
@@ -4717,7 +4713,7 @@ case 278:
             return var1;
         };
         var6['value'] = var8;
-        var2[63] = var6;
+        var2[61] = var6;
         var6 = {};
         var8 = 'createReplayConnection';
         var6['key'] = var8;
@@ -4798,7 +4794,7 @@ case 279:
             }
         };
         var6['value'] = var8;
-        var2[64] = var6;
+        var2[62] = var6;
         var6 = {};
         var8 = 'setOnVideoContainerResized';
         var6['key'] = var8;
@@ -4814,7 +4810,7 @@ case 279:
             return var1;
         };
         var6['value'] = var8;
-        var2[65] = var6;
+        var2[63] = var6;
         var6 = {};
         var8 = 'setMaxSyncDelayOverride';
         var6['key'] = var8;
@@ -4840,7 +4836,7 @@ case 28:
             }
         };
         var6['value'] = var8;
-        var2[66] = var6;
+        var2[64] = var6;
         var6 = {};
         var8 = 'applyMediaFilterSettings';
         var6['key'] = var8;
@@ -4863,10 +4859,10 @@ case 0:
                 var5 = null;
                 if(!(var5 == var6)) { _fun0073_ip = 226; continue _fun0073 }
 case 241:
-                if(!(var5 != var1)) { _fun0073_ip = 244; continue _fun0073 }
+                if(!(var5 != var1)) { _fun0073_ip = 242; continue _fun0073 }
 case 5:
                 var1 = var1.bind(var3)(var4);
-case 244:
+case 242:
                 var1 = global;
                 var3 = var1.Promise;
                 var1 = var3.resolve;
@@ -4893,7 +4889,7 @@ case 184:
             }
         };
         var6['value'] = var8;
-        var2[67] = var6;
+        var2[65] = var6;
         var6 = {};
         var8 = 'startLocalAudioRecording';
         var6['key'] = var8;
@@ -4973,7 +4969,7 @@ case 280:
             return var1;
         };
         var6['value'] = var8;
-        var2[68] = var6;
+        var2[66] = var6;
         var6 = {};
         var8 = 'stopLocalAudioRecording';
         var6['key'] = var8;
@@ -5017,8 +5013,8 @@ case 281:
                 var5 = var5.bind(var7)(var3);
                 var3 = 0;
                 var3 = var5 > var3;
-                if(!var3) { _fun0076_ip = 282; continue _fun0076 }
-case 283:
+                if(!var3) { _fun0076_ip = 259; continue _fun0076 }
+case 282:
                 var7 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var5 = var5[var4];
@@ -5027,9 +5023,9 @@ case 283:
                 var5 = var5.bind(var7)();
                 var5 = var5.setEmitVADLevel2;
                 var3 = var6 != var5;
-case 282:
-                if(!var3) { _fun0076_ip = 284; continue _fun0076 }
-case 285:
+case 259:
+                if(!var3) { _fun0076_ip = 283; continue _fun0076 }
+case 284:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var4];
@@ -5039,12 +5035,12 @@ case 285:
                 var3 = var4.setEmitVADLevel2;
                 var2 = true;
                 var2 = var3.bind(var4)(var2);
-case 284:
+case 283:
                 return var1;
             }
         };
         var6['value'] = var8;
-        var2[69] = var6;
+        var2[67] = var6;
         var6 = {};
         var8 = 'setHasFullbandPerformance';
         var6['key'] = var8;
@@ -5071,7 +5067,7 @@ case 183:
             }
         };
         var6['value'] = var8;
-        var2[70] = var6;
+        var2[68] = var6;
         var6 = {};
         var8 = 'getSupportedSecureFramesProtocolVersion';
         var6['key'] = var8;
@@ -5091,14 +5087,14 @@ case 0:
                 var3 = var1 != var2;
                 var1 = 0;
                 if(!var3) { _fun0078_ip = 28; continue _fun0078 }
-case 286:
+case 285:
                 var1 = var2;
 case 28:
                 return var1;
             }
         };
         var6['value'] = var8;
-        var2[71] = var6;
+        var2[69] = var6;
         var6 = {};
         var8 = 'getSupportedBandwidthEstimationExperiments';
         var6['key'] = var8;
@@ -5125,7 +5121,7 @@ case 183:
             }
         };
         var6['value'] = var8;
-        var2[72] = var6;
+        var2[70] = var6;
         var6 = {};
         var8 = 'getMLSSigningKey';
         var6['key'] = var8;
@@ -5192,7 +5188,7 @@ case 184:
             return var1;
         };
         var6['value'] = var8;
-        var2[73] = var6;
+        var2[71] = var6;
         var6 = {};
         var8 = 'setSidechainCompression';
         var6['key'] = var8;
@@ -5219,7 +5215,7 @@ case 183:
             }
         };
         var6['value'] = var8;
-        var2[74] = var6;
+        var2[72] = var6;
         var6 = {};
         var8 = 'setSidechainCompressionStrength';
         var6['key'] = var8;
@@ -5258,7 +5254,7 @@ case 186:
             }
         };
         var6['value'] = var8;
-        var2[75] = var6;
+        var2[73] = var6;
         var6 = {};
         var8 = 'setNativeDesktopVideoSourcePickerActive';
         var6['key'] = var8;
@@ -5285,7 +5281,7 @@ case 196:
             }
         };
         var6['value'] = var8;
-        var2[76] = var6;
+        var2[74] = var6;
         var6 = {};
         var8 = 'presentNativeScreenSharePicker';
         var6['key'] = var8;
@@ -5303,22 +5299,22 @@ case 0:
                 var5 = var2.bind(var3)();
                 var4 = var5.presentNativeScreenSharePicker;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0084_ip = 244; continue _fun0084 }
+                if(!(var2 != var4)) { _fun0084_ip = 242; continue _fun0084 }
 case 218:
                 var3 = var4.call;
                 var7 = var2 != var6;
                 var2 = '';
-                if(!var7) { _fun0084_ip = 287; continue _fun0084 }
+                if(!var7) { _fun0084_ip = 257; continue _fun0084 }
 case 241:
                 var2 = var6;
-case 287:
+case 257:
                 var2 = var3.bind(var4)(var5, var2);
-case 244:
+case 242:
                 return var1;
             }
         };
         var6['value'] = var8;
-        var2[77] = var6;
+        var2[75] = var6;
         var6 = {};
         var8 = 'releaseNativeDesktopVideoSourcePickerStream';
         var6['key'] = var8;
@@ -5344,7 +5340,7 @@ case 266:
             }
         };
         var6['value'] = var8;
-        var2[78] = var6;
+        var2[76] = var6;
         var6 = {};
         var8 = 'getSystemMicrophoneMode';
         var6['key'] = var8;
@@ -5355,7 +5351,7 @@ case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0086_ip = 208; continue _fun0086 }
-case 288:
+case 286:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 15;
@@ -5373,12 +5369,12 @@ case 28:
                     var2 = var4.bind(var5)(var6);
 case 182:
                     SaveGenerator(address=71);
-case 289:
-                    return var2;
 case 287:
+                    return var2;
+case 257:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0086_ip = 290; continue _fun0086 }
-case 244:
+                    if(var4) { _fun0086_ip = 288; continue _fun0086 }
+case 242:
                     var4 = var3 != var2;
                     var3 = '';
                     if(!var4) { _fun0086_ip = 86; continue _fun0086 }
@@ -5386,7 +5382,7 @@ case 255:
                     var3 = var2;
 case 86:
                     return var3;
-case 290:
+case 288:
                     return var2;
 case 208:
                     return var1;
@@ -5407,7 +5403,7 @@ case 208:
             return var1;
         };
         var6['value'] = var8;
-        var2[79] = var6;
+        var2[77] = var6;
         var6 = {};
         var8 = 'showSystemCaptureConfigurationUI';
         var6['key'] = var8;
@@ -5434,7 +5430,7 @@ case 183:
             }
         };
         var6['value'] = var8;
-        var2[80] = var6;
+        var2[78] = var6;
         var6 = {};
         var8 = 'fetchAsyncResources';
         var6['key'] = var8;
@@ -5446,7 +5442,7 @@ case 183:
             return var1;
         };
         var6['value'] = var8;
-        var2[81] = var6;
+        var2[79] = var6;
         var6 = {};
         var8 = 'getDeviceOSVolume';
         var6['key'] = var8;
@@ -5457,7 +5453,7 @@ case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0088_ip = 30; continue _fun0088 }
-case 288:
+case 286:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 15;
@@ -5469,14 +5465,14 @@ case 288:
                     var5 = var6.getDeviceOSVolume;
                     var3 = null;
                     var3 = var3 == var5;
-                    if(var3) { _fun0088_ip = 287; continue _fun0088 }
+                    if(var3) { _fun0088_ip = 257; continue _fun0088 }
 case 28:
                     var4 = var5.call;
                     var3 = arg1;
                     var2 = var4.bind(var5)(var6, var3);
-case 287:
+case 257:
                     SaveGenerator(address=75);
-case 291:
+case 289:
                     return var2;
 case 281:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
@@ -5504,7 +5500,7 @@ case 30:
             return var1;
         };
         var6['value'] = var8;
-        var2[82] = var6;
+        var2[80] = var6;
         var6 = {};
         var8 = 'getDeviceOSMuted';
         var6['key'] = var8;
@@ -5515,7 +5511,7 @@ case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0089_ip = 30; continue _fun0089 }
-case 288:
+case 286:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 15;
@@ -5527,14 +5523,14 @@ case 288:
                     var5 = var6.getDeviceOSMuted;
                     var3 = null;
                     var3 = var3 == var5;
-                    if(var3) { _fun0089_ip = 287; continue _fun0089 }
+                    if(var3) { _fun0089_ip = 257; continue _fun0089 }
 case 28:
                     var4 = var5.call;
                     var3 = arg1;
                     var2 = var4.bind(var5)(var6, var3);
-case 287:
+case 257:
                     SaveGenerator(address=75);
-case 291:
+case 289:
                     return var2;
 case 281:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
@@ -5562,7 +5558,7 @@ case 30:
             return var1;
         };
         var6['value'] = var8;
-        var2[83] = var6;
+        var2[81] = var6;
         var6 = {};
         var8 = 'getDeviceAudioEffects';
         var6['key'] = var8;
@@ -5592,17 +5588,17 @@ case 39:
                 var1 = new var8[var6](var7, var6);
                 var1 = var1 instanceof Object ? var1 : var5;
                 var1 = var2.bind(var3)(var1);
-                _fun0090_ip = 292; continue _fun0090;
+                _fun0090_ip = 290; continue _fun0090;
 case 219:
                 var3 = var4.getDeviceAudioEffects;
                 var2 = arg1;
                 var1 = var3.bind(var4)(var2);
-case 292:
+case 290:
                 return var1;
             }
         };
         var6['value'] = var8;
-        var2[84] = var6;
+        var2[82] = var6;
         var6 = {};
         var8 = 'watchdogTick';
         var6['key'] = var8;
@@ -5671,7 +5667,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[85] = var6;
+        var2[83] = var6;
         var6 = {};
         var8 = 'connectionsEmpty';
         var6['key'] = var8;
@@ -5684,7 +5680,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[86] = var6;
+        var2[84] = var6;
         var6 = {};
         var6['key'] = var7;
         var1 = function value() {

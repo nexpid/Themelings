@@ -94,12 +94,12 @@ case 0:
                 var4 = _closure1_slot2;
                 var1 = _closure1_slot5;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var6, var11);
-                _fun0002_ip = 8; continue _fun0002;
-case 6:
+                _fun0002_ip = 7; continue _fun0002;
+case 4:
                 var8 = global;
                 var9 = var8.Reflect;
                 var8 = var9.construct;
@@ -107,23 +107,23 @@ case 6:
                 var7 = var7.bind(var5)(var6);
                 var7 = var7.constructor;
                 var1 = var8.bind(var9)(var10, var11, var7);
-case 8:
+case 7:
                 var1 = var4.bind(var5)(var6, var1);
                 var4 = 'closeCode';
                 var4 = var4 in var3;
-                if(var4) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+                if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var4 = var3.errorCode;
                 var1['code'] = var4;
                 var4 = var3.errorCode;
                 var1['errorCode'] = var4;
-                _fun0002_ip = 11; continue _fun0002;
-case 9:
+                _fun0002_ip = 10; continue _fun0002;
+case 8:
                 var4 = var3.closeCode;
                 var1['code'] = var4;
                 var3 = var3.closeCode;
                 var1['closeCode'] = var3;
-case 11:
+case 10:
                 var1['message'] = var2;
                 var2 = 'RPCError';
                 var1['name'] = var2;

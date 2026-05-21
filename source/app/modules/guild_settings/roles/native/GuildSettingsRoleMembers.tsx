@@ -508,26 +508,33 @@ case 8:
                     if(var8) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
                     var9 = _closure1_slot8;
-                    var11 = _closure1_slot0;
-                    var12 = _closure1_slot2;
+                    var14 = _closure1_slot0;
+                    var15 = _closure1_slot2;
                     var7 = 22;
-                    var7 = var12[var7];
-                    var7 = var11.bind(var4)(var7);
-                    var8 = var7.PressableOpacity;
+                    var7 = var15[var7];
+                    var7 = var14.bind(var4)(var7);
+                    var8 = var7.IconButton;
                     var7 = {};
-                    var13 = 10;
-                    var14 = var12[var13];
-                    var14 = var11.bind(var4)(var14);
-                    var15 = var14.intl;
-                    var14 = var15.string;
-                    var13 = var12[var13];
-                    var13 = var11.bind(var4)(var13);
-                    var13 = var13.t;
-                    var13 = var13["7sFNfW"];
-                    var13 = var14.bind(var15)(var13);
-                    var7['accessibilityLabel'] = var13;
-                    var13 = 'button';
-                    var7['accessibilityRole'] = var13;
+                    var11 = 23;
+                    var11 = var15[var11];
+                    var11 = var14.bind(var4)(var11);
+                    var12 = var11.CircleXIcon;
+                    var11 = {};
+                    var11 = var9.bind(var4)(var12, var11);
+                    var7['icon'] = var11;
+                    var11 = 10;
+                    var12 = var15[var11];
+                    var12 = var14.bind(var4)(var12);
+                    var13 = var12.intl;
+                    var12 = var13.string;
+                    var11 = var15[var11];
+                    var11 = var14.bind(var4)(var11);
+                    var11 = var11.t;
+                    var11 = var11["7sFNfW"];
+                    var11 = var12.bind(var13)(var11);
+                    var7['accessibilityLabel'] = var11;
+                    var11 = 'button';
+                    var7['accessibilityRole'] = var11;
                     var10 = function onPress() {
                         var4 = _closure2_slot5;
                         var3 = _closure3_slot0;
@@ -537,13 +544,8 @@ case 11:
                         return var1;
                     };
                     var7['onPress'] = var10;
-                    var10 = 23;
-                    var10 = var12[var10];
-                    var10 = var11.bind(var4)(var10);
-                    var11 = var10.CircleXIcon;
-                    var10 = {};
-                    var10 = var9.bind(var4)(var11, var10);
-                    var7['children'] = var10;
+                    var10 = 'icon-only';
+                    var7['variant'] = var10;
                     var6 = var9.bind(var4)(var8, var7);
 case 10:
                     var2['trailing'] = var6;

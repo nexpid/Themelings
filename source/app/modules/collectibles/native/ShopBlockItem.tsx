@@ -269,6 +269,8 @@ case 12:
             var14['feedBlock'] = var13;
             var14['screen'] = var10;
             var14['preferVCPrice'] = var11;
+            var16 = true;
+            var14['disableBundleStaticBackground'] = var16;
             var14 = var3.bind(var4)(var15, var14, var9);
             var5['children'] = var14;
             var5 = var3.bind(var4)(var7, var5);

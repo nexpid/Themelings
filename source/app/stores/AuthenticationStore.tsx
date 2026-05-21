@@ -538,34 +538,39 @@ case 5:
             var5 = _closure1_slot46;
             var5 = var5.bind(var1)();
 case 39:
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot3;
+            var5 = 23;
+            var6 = var6[var5];
+            var6 = var7.bind(var1)(var6);
+            var8 = var6.PersistedStore;
+            var7 = var8.clearAll;
+            var6 = {};
+            var9 = ['InstallationManagerStore', 'AgeGateStore', 'NativePermissionsStore', 'MultiAccountStore', 'DraftStore', 'OverlayStoreV2', 'StreamerModeStore', 'LoginRequiredActionStore', 'LayoutStore', 'OverlaySettingsStore', 'ApexExperimentStore'];
+            var6['omit'] = var9;
+            var10 = var3 != var4;
+            var11 = 'all';
+            var9 = var11;
+            if(!var10) { _fun0008_ip = 53; continue _fun0008 }
+case 54:
+            var10 = var4.isSwitchingAccount;
+            var9 = var11;
+            if(!var10) { _fun0008_ip = 53; continue _fun0008 }
+case 55:
+            var9 = 'user-data-only';
+case 53:
+            var6['type'] = var9;
+            var6 = var7.bind(var8)(var6);
             var6 = _closure1_slot1;
             var7 = _closure1_slot3;
-            var5 = 23;
             var5 = var7[var5];
             var5 = var6.bind(var1)(var5);
-            var7 = var5.PersistedStore;
-            var6 = var7.clearAll;
-            var5 = {};
-            var8 = ['InstallationManagerStore', 'AgeGateStore', 'NativePermissionsStore', 'MultiAccountStore', 'DraftStore', 'OverlayStoreV2', 'StreamerModeStore', 'LoginRequiredActionStore', 'LayoutStore', 'OverlaySettingsStore', 'ApexExperimentStore'];
-            var5['omit'] = var8;
-            var9 = var3 != var4;
-            var10 = 'all';
-            var8 = var10;
-            if(!var9) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
-            var9 = var4.isSwitchingAccount;
-            var8 = var10;
-            if(!var9) { _fun0008_ip = 53; continue _fun0008 }
-case 55:
-            var8 = 'user-data-only';
-case 53:
-            var5['type'] = var8;
-            var5 = var6.bind(var7)(var5);
-            var6 = _closure1_slot10;
-            var5 = var6.clearAll;
-            var5 = var5.bind(var6)();
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot3;
+            var8 = var5.Store;
+            var5 = var8.removeAllConditionalListeners;
+            var5 = var5.bind(var8)();
+            var8 = _closure1_slot10;
+            var5 = var8.clearAll;
+            var5 = var5.bind(var8)();
             var5 = 21;
             var5 = var7[var5];
             var6 = var6.bind(var1)(var5);

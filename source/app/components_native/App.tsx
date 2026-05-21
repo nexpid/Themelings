@@ -354,6 +354,11 @@ case 4:
                             var2 = var2.bind(var5)();
                             var2 = 46;
                             var2 = var4[var2];
+                            var5 = var3.bind(var1)(var2);
+                            var2 = var5.terminate;
+                            var2 = var2.bind(var5)();
+                            var2 = 30;
+                            var2 = var4[var2];
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.terminate;
                             var2 = var2.bind(var3)();

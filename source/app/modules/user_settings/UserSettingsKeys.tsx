@@ -358,10 +358,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CLIPS_AUTO_CLIP_STORAGE_LIMIT'] = var1;
     var1 = 'clips_enable_game_signals';
     var2['CLIPS_ENABLE_GAME_SIGNALS'] = var1;
-    var1 = 'clips_enable_phrase_signals';
-    var2['CLIPS_ENABLE_PHRASE_SIGNALS'] = var1;
-    var1 = 'clips_phrases';
-    var2['CLIPS_PHRASES'] = var1;
+    var1 = 'clips_developer_category';
+    var2['CLIPS_DEVELOPER_CATEGORY'] = var1;
+    var1 = 'clips_debug_tooltips';
+    var2['CLIPS_DEBUG_TOOLTIPS'] = var1;
     var1 = 'billing_section';
     var2['BILLING_SECTION'] = var1;
     var1 = 'nitro_sidebar_item';

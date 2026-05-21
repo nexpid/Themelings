@@ -1130,29 +1130,29 @@ case 46:
             if(var1) { _fun0004_ip = 75; continue _fun0004 }
 case 76:
             var1 = null;
-            if(!(var1 != var18)) { _fun0004_ip = 63; continue _fun0004 }
+            if(!(var1 != var18)) { _fun0004_ip = 77; continue _fun0004 }
 case 48:
             var2 = var6.length;
             var14 = 0;
-            if(!(var14 !== var2)) { _fun0004_ip = 63; continue _fun0004 }
-case 77:
+            if(!(var14 !== var2)) { _fun0004_ip = 77; continue _fun0004 }
+case 78:
             var3 = var6.length;
             var2 = 2;
             var2 = var2 !== var3;
             var21 = null;
-            if(!var2) { _fun0004_ip = 78; continue _fun0004 }
+            if(!var2) { _fun0004_ip = 79; continue _fun0004 }
 case 51:
             var21 = var6[var14];
-case 78:
+case 79:
             _closure2_slot9 = var21;
             var19 = var6;
-            if(!var2) { _fun0004_ip = 79; continue _fun0004 }
-case 80:
+            if(!var2) { _fun0004_ip = 80; continue _fun0004 }
+case 81:
             var5 = var6.slice;
             var3 = 1;
             var2 = 3;
             var19 = var5.bind(var6)(var3, var2);
-case 79:
+case 80:
             var5 = _closure1_slot10;
             var3 = _closure1_slot6;
             var2 = {};
@@ -1224,8 +1224,8 @@ case 79:
             var12 = var10.cardsContainer;
             var7['style'] = var12;
             var13 = var1 != var21;
-            if(!var13) { _fun0004_ip = 81; continue _fun0004 }
-case 82:
+            if(!var13) { _fun0004_ip = 82; continue _fun0004 }
+case 83:
             var16 = _closure1_slot9;
             var15 = _closure1_slot14;
             var12 = {};
@@ -1244,13 +1244,13 @@ case 82:
             var12['guildId'] = var20;
             var12['channelId'] = var18;
             var13 = var16.bind(var4)(var15, var12);
-case 81:
+case 82:
             var12 = new Array(2);
             var12[0] = var13;
             var13 = var19.length;
             var13 = var13 > var14;
-            if(!var13) { _fun0004_ip = 83; continue _fun0004 }
-case 84:
+            if(!var13) { _fun0004_ip = 84; continue _fun0004 }
+case 85:
             var16 = _closure1_slot9;
             var15 = _closure1_slot6;
             var14 = {};
@@ -1287,7 +1287,7 @@ case 84:
             var17 = var18.bind(var19)(var17);
             var14['children'] = var17;
             var13 = var16.bind(var4)(var15, var14);
-case 83:
+case 84:
             var12[1] = var13;
             var7['children'] = var12;
             var7 = var11.bind(var4)(var8, var7);
@@ -1295,7 +1295,7 @@ case 83:
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 63:
+case 77:
             return var1;
 case 75:
             var3 = _closure1_slot10;

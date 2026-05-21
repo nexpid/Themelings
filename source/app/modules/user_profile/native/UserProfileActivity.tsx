@@ -2174,8 +2174,8 @@ case 167:
                 var16[0] = var18;
                 var18 = var17 == var28;
                 var17 = null;
-                if(var18) { _fun0015_ip = 168; continue _fun0015 }
-case 141:
+                if(var18) { _fun0015_ip = 51; continue _fun0015 }
+case 168:
                 var20 = _closure1_slot21;
                 var25 = _closure1_slot0;
                 var29 = _closure1_slot2;
@@ -2263,7 +2263,7 @@ case 141:
                 var21 = var23.bind(var4)(var22, var21);
                 var18['children'] = var21;
                 var17 = var20.bind(var4)(var19, var18);
-case 168:
+case 51:
                 var16[1] = var17;
                 var13['children'] = var16;
                 var13 = var15.bind(var4)(var14, var13);

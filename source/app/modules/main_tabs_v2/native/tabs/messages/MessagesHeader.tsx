@@ -424,23 +424,23 @@ case 13:
             var2 = _closure1_slot4;
             var1 = {};
             var1['style'] = var5;
+            var8 = _closure1_slot6;
             var5 = {};
-            var8 = var10.headerPanelTitle;
-            var5['style'] = var8;
-            var13 = _closure1_slot6;
-            var9 = _closure1_slot0;
+            var9 = var10.headerPanelTitle;
+            var5['style'] = var9;
+            var13 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var8 = 21;
-            var8 = var17[var8];
-            var8 = var9.bind(var4)(var8);
-            var9 = var8.Text;
-            var8 = {'color': 'mobile-text-heading-primary', 'variant': null, 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
+            var9 = 21;
+            var9 = var17[var9];
+            var9 = var13.bind(var4)(var9);
+            var13 = var9.Text;
+            var9 = {'color': 'mobile-text-heading-primary', 'variant': null, 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
             var17 = 'redesign/heading-18/bold';
             if(!var15) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
             var17 = 'heading-lg/semibold';
 case 19:
-            var8['variant'] = var17;
+            var9['variant'] = var17;
             var22 = _closure1_slot0;
             var17 = _closure1_slot2;
             var24 = 20;
@@ -460,21 +460,10 @@ case 21:
             var17 = var17.YUU0RF;
             var14 = var19.bind(var21)(var17);
 case 23:
-            var8['children'] = var14;
-            var9 = var13.bind(var4)(var9, var8);
-            var8 = new Array(2);
-            var8[0] = var9;
-            var14 = _closure1_slot6;
-            var13 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            var9 = 22;
-            var9 = var17[var9];
-            var13 = var13.bind(var4)(var9);
-            var9 = {};
-            var9 = var14.bind(var4)(var13, var9);
-            var8[1] = var9;
-            var5['children'] = var8;
-            var8 = var3.bind(var4)(var2, var5);
+            var9['children'] = var14;
+            var9 = var8.bind(var4)(var13, var9);
+            var5['children'] = var9;
+            var8 = var8.bind(var4)(var2, var5);
             var5 = new Array(4);
             var5[0] = var8;
             var13 = _closure1_slot7;
@@ -504,7 +493,7 @@ case 27:
             var26 = _closure1_slot6;
             var21 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var18 = 24;
+            var18 = 23;
             var18 = var27[var18];
             var18 = var21.bind(var4)(var18);
             var21 = var18.MagnifyingGlassIcon;
@@ -515,7 +504,7 @@ case 27:
 case 26:
             var26 = _closure1_slot1;
             var27 = _closure1_slot2;
-            var21 = 23;
+            var21 = 22;
             var21 = var27[var21];
             var18 = var26.bind(var4)(var21);
 case 28:
@@ -536,14 +525,14 @@ case 28:
             var14[1] = var17;
             var19 = _closure1_slot6;
             var22 = _closure1_slot1;
-            var17 = 25;
+            var17 = 24;
             var17 = var21[var17];
             var22 = var22.bind(var4)(var17);
             var17 = {'noMargin': true, 'onPress': null, 'alternateVariant': true};
             var17['onPress'] = var23;
             var17 = var19.bind(var4)(var22, var17);
             var14[2] = var17;
-            var17 = 26;
+            var17 = 25;
             var17 = var21[var17];
             var17 = var18.bind(var4)(var17);
             var18 = var17.Button;
@@ -553,7 +542,7 @@ case 30:
             var23 = _closure1_slot6;
             var22 = _closure1_slot0;
             var26 = _closure1_slot2;
-            var21 = 28;
+            var21 = 27;
             var21 = var26[var21];
             var21 = var22.bind(var4)(var21);
             var22 = var21.UserPlusIcon;
@@ -564,7 +553,7 @@ case 30:
 case 29:
             var23 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var22 = 27;
+            var22 = 26;
             var22 = var25[var22];
             var21 = var23.bind(var4)(var22);
 case 31:
@@ -614,7 +603,7 @@ case 32:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 29;
+    var5 = 28;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

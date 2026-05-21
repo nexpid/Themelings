@@ -137,7 +137,7 @@ case 17: // try_end0
                         _fun0004_ip = 18; continue _fun0004;
 case 16:
                         return var2;
-case 3: // catch_target0
+case 19: // catch_target0
                         CatchBlockStart(arg_register=3);
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -234,8 +234,8 @@ case 11:
         var5 = var9.isAndroid;
         var9 = var5.bind(var9)();
         var5 = null;
-        if(!var9) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+        if(!var9) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
         var9 = 13;
         var9 = var7[var9];
         var14 = var8.bind(var1)(var9);
@@ -244,7 +244,7 @@ case 20:
         var15 = var10;
         var9 = new var15[var11](var14, var13);
         var5 = var9 instanceof Object ? var9 : var10;
-case 19:
+case 20:
         var _closure1_slot14 = var5;
         var5 = 24;
         var5 = var7[var5];
@@ -264,14 +264,14 @@ case 0:
                     var2 = _closure1_slot5;
                     var1 = _closure1_slot15;
                     var1 = var1.bind(var3)();
-                    if(var1) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+                    if(var1) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                     var7 = var9.apply;
                     var5 = arguments;
                     var1 = var5;
                     var1 = var7.bind(var9)(var4, var1);
-                    _fun0005_ip = 23; continue _fun0005;
-case 21:
+                    _fun0005_ip = 24; continue _fun0005;
+case 22:
                     var7 = global;
                     var8 = var7.Reflect;
                     var7 = var8.construct;
@@ -280,7 +280,7 @@ case 21:
                     var6 = var6.constructor;
                     var5 = arguments;
                     var1 = var7.bind(var8)(var9, var5, var6);
-case 23:
+case 24:
                     var1 = var2.bind(var3)(var4, var1);
                     return var1;
                 }
@@ -311,16 +311,16 @@ case 0:
                     var5 = var6.bind(var1)(var5);
                     var7 = var3.lifecycleSubscription;
                     var5 = null;
-                    if(!(var5 != var7)) { _fun0006_ip = 5; continue _fun0006 }
-case 24:
+                    if(!(var5 != var7)) { _fun0006_ip = 3; continue _fun0006 }
+case 25:
                     var6 = var7.remove;
                     var6 = var6.bind(var7)();
-case 5:
+case 3:
                     var6 = _closure1_slot14;
                     var7 = var5 == var6;
                     var6 = undefined;
-                    if(var7) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+                    if(var7) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
                     var10 = _closure1_slot14;
                     var9 = var10.addListener;
                     var8 = 'onHostDestroy';
@@ -331,28 +331,28 @@ case 0:
                             var1 = var2.getConnectedFrame;
                             var4 = var1.bind(var2)();
                             var1 = null;
-                            if(!(var1 != var4)) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+                            if(!(var1 != var4)) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
                             var3 = _closure3_slot0;
                             var2 = var3.leaveFrame;
                             var1 = {};
                             var4 = var4.applicationId;
                             var1['applicationId'] = var4;
                             var1 = var2.bind(var3)(var1);
-case 27:
+case 28:
                             var1 = undefined;
                             return var1;
                         }
                     };
                     var6 = var9.bind(var10)(var8, var7);
-case 25:
+case 26:
                     var3['lifecycleSubscription'] = var6;
                     var6 = var3.scriptMessageSubscription;
-                    if(!(var5 != var6)) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
+                    if(!(var5 != var6)) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
                     var5 = var6.remove;
                     var5 = var5.bind(var6)();
-case 29:
+case 30:
                     var5 = _closure1_slot13;
                     var4 = var5.addOnMessageListener;
                     var2 = function(arg1) {
@@ -365,7 +365,7 @@ case 0:
                             var7 = undefined;
                             var4 = undefined;
                             var6 = undefined;
-case 31: // try_start_0
+case 32: // try_start_0
                             var5 = global;
                             var11 = var5.JSON;
                             var9 = var11.parse;
@@ -380,7 +380,7 @@ case 31: // try_start_0
                             var12 = var11 == var9;
                             var9 = undefined;
                             if(var12) { _fun0008_ip = 9; continue _fun0008 }
-case 32:
+case 33:
                             var9 = var10.url;
 case 9:
                             var7 = var9;
@@ -390,12 +390,12 @@ case 9:
                             var10 = var12 === var10;
                             var9 = var10;
                             if(!var10) { _fun0008_ip = 18; continue _fun0008 }
-case 33:
+case 34:
                             var10 = var7;
                             var9 = var11 != var10;
 case 18:
-                            if(!var9) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
+                            if(!var9) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
                             var10 = _closure1_slot1;
                             var11 = _closure1_slot2;
                             var9 = 16;
@@ -404,22 +404,22 @@ case 35:
                             var9 = var10.handleMessage;
                             var5 = _closure1_slot17;
                             var5 = var9.bind(var10)(var8, var7, var5);
-case 34: // try_end0
-                            _fun0008_ip = 36; continue _fun0008;
-case 37: // catch_target0
+case 35: // try_end0
+                            _fun0008_ip = 37; continue _fun0008;
+case 38: // catch_target0
                             CatchBlockStart(arg_register=6);
                             var3 = var7;
                             var5 = global;
                             var5 = var5.SyntaxError;
                             var5 = var7 instanceof var5;
-                            if(var5) { _fun0008_ip = 38; continue _fun0008 }
-case 39:
+                            if(var5) { _fun0008_ip = 39; continue _fun0008 }
+case 40:
                             throw var3;
-case 38:
+case 39:
                             var3 = var2.data;
                             var2 = _closure1_slot12;
-                            if(!(var3 === var2)) { _fun0008_ip = 36; continue _fun0008 }
-case 40:
+                            if(!(var3 === var2)) { _fun0008_ip = 37; continue _fun0008 }
+case 41:
                             var3 = _closure1_slot10;
                             var2 = var3.getConnectedFrame;
                             var2 = var2.bind(var3)();
@@ -427,13 +427,13 @@ case 40:
                             var3 = null;
                             var7 = var3 == var2;
                             var2 = undefined;
-                            if(var7) { _fun0008_ip = 41; continue _fun0008 }
-case 42:
-                            var2 = var4.applicationId;
-case 41:
-                            var6 = var2;
-                            if(!(var3 != var2)) { _fun0008_ip = 36; continue _fun0008 }
+                            if(var7) { _fun0008_ip = 42; continue _fun0008 }
 case 43:
+                            var2 = var4.applicationId;
+case 42:
+                            var6 = var2;
+                            if(!(var3 != var2)) { _fun0008_ip = 37; continue _fun0008 }
+case 44:
                             var4 = _closure3_slot0;
                             var3 = var4.leaveFrame;
                             var2 = {};
@@ -469,7 +469,7 @@ case 43:
                             var5 = var6.bind(var7)(var5);
                             var2['confirmText'] = var5;
                             var2 = var3.bind(var4)(var2);
-case 36:
+case 37:
                             return var1;
                         }
                     };
@@ -500,17 +500,17 @@ case 0:
                     var2 = var4.bind(var1)(var2);
                     var5 = var3.lifecycleSubscription;
                     var2 = null;
-                    if(!(var2 != var5)) { _fun0009_ip = 44; continue _fun0009 }
-case 45:
+                    if(!(var2 != var5)) { _fun0009_ip = 45; continue _fun0009 }
+case 46:
                     var4 = var5.remove;
                     var4 = var4.bind(var5)();
-case 44:
+case 45:
                     var3 = var3.scriptMessageSubscription;
-                    if(!(var2 != var3)) { _fun0009_ip = 46; continue _fun0009 }
-case 47:
+                    if(!(var2 != var3)) { _fun0009_ip = 47; continue _fun0009 }
+case 4:
                     var2 = var3.remove;
                     var2 = var2.bind(var3)();
-case 46:
+case 47:
                     return var1;
                 }
             };
@@ -677,7 +677,7 @@ case 0:
                     var1 = var3.frameId;
                     var2 = null;
                     if(!(var2 == var1)) { _fun0012_ip = 52; continue _fun0012 }
-case 31:
+case 32:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 23;

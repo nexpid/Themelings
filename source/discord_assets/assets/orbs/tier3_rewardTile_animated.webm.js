@@ -1,4 +1,4 @@
-// discord_assets/assets/collectibles/frames/mobile_half_sheet_image.png.js
+// discord_assets/assets/orbs/tier3_rewardTile_animated.webm.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/collectibles/frames/mobile_half_sheet_image.png.js';
+    var2 = '../discord_assets/assets/orbs/tier3_rewardTile_animated.webm.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/2bb166dbf77210787f33f8dc4edae14c3b9662a615c8e7f7b694e96e6875702f.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/864e5841fd9af8da3c50ad6d6220bee54e8c2da2d36d3c85d0a5ae95cdbf095e.webm';
     var3['default'] = var2;
     var2 = {};
-    var4 = 100586;
+    var4 = 393045;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

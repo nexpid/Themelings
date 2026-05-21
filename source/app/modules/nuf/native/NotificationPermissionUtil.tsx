@@ -40,9 +40,13 @@ case 7:
                     var5 = var5.DENIED;
                     if(!(var2 !== var5)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+                    var5 = _closure1_slot10;
+                    var5 = var5.AUTHORIZED;
+                    if(!(var2 !== var5)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var5 = 10;
+                    var5 = 11;
                     var6 = var6[var5];
                     var5 = undefined;
                     var6 = var7.bind(var5)(var6);
@@ -70,7 +74,18 @@ case 9:
                         return var1;
                     };
                     var3 = var5.bind(var6)(var3);
-                    _fun0001_ip = 10; continue _fun0001;
+                    _fun0001_ip = 12; continue _fun0001;
+case 10:
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var3 = 10;
+                    var5 = var5[var3];
+                    var3 = undefined;
+                    var6 = var6.bind(var3)(var5);
+                    var5 = var6.updateNotificationAuthorizationStatus;
+                    var5 = var5.bind(var6)(var2);
+                    var3 = var4.bind(var3)();
+                    _fun0001_ip = 12; continue _fun0001;
 case 8:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -92,7 +107,7 @@ case 8:
                     var5['action_location'] = var9;
                     var5 = var7.bind(var8)(var6, var5);
                     var3 = var4.bind(var3)();
-case 10:
+case 12:
                     var3 = undefined;
                     return var3;
 case 6:
@@ -123,23 +138,23 @@ case 2:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+                    if(var2) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                     var2 = _closure1_slot6;
                     var4 = var2.NativePermissionManager;
                     var2 = var4.getNotificationAuthorizationStatus;
                     var2 = var2.bind(var4)();
                     SaveGenerator(address=34);
-case 13:
+case 15:
                     return var2;
-case 14:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                     var4 = _closure1_slot10;
                     var4 = var4.UNDETERMINED;
-                    if(!(var2 === var4)) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+                    if(!(var2 === var4)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
                     var3 = _closure1_slot6;
                     var5 = var3.DCDProvisionalNotificationUtils;
                     var4 = var5.registerProvisionalNotification;
@@ -151,31 +166,57 @@ case 0:
                             var1 = 9;
                             var3 = var3[var1];
                             var1 = undefined;
-                            var5 = var4.bind(var1)(var3);
-                            var4 = var5.track;
-                            var2 = _closure1_slot9;
-                            var3 = var2.PERMISSIONS_ACKED;
-                            var2 = {};
-                            var6 = 'provisional_notification';
-                            var2['type'] = var6;
-                            var6 = 'denied';
-                            var7 = arg1;
-                            if(!var7) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-                            var6 = 'accepted';
-case 19:
-                            var2['action'] = var6;
-                            var2 = var4.bind(var5)(var3, var2);
+                            var6 = var4.bind(var1)(var3);
+                            var5 = var6.track;
+                            var3 = _closure1_slot9;
+                            var4 = var3.PERMISSIONS_ACKED;
+                            var3 = {};
+                            var7 = 'provisional_notification';
+                            var3['type'] = var7;
+                            var7 = 'denied';
+                            var8 = arg1;
+                            if(!var8) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
+                            var7 = 'accepted';
+case 21:
+                            var3['action'] = var7;
+                            var3 = var5.bind(var6)(var4, var3);
+                            var2 = _closure1_slot6;
+                            var3 = var2.NativePermissionManager;
+                            var2 = var3.getNotificationAuthorizationStatus;
+                            var4 = var2.bind(var3)();
+                            var3 = var4.then;
+                            var2 = function(arg1) {
+                                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                                    var3 = arg1;
+                                    var1 = null;
+                                    if(!(var1 != var3)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
+                                    var4 = _closure1_slot0;
+                                    var2 = _closure1_slot2;
+                                    var1 = 10;
+                                    var2 = var2[var1];
+                                    var1 = undefined;
+                                    var2 = var4.bind(var1)(var2);
+                                    var1 = var2.updateNotificationAuthorizationStatus;
+                                    var1 = var1.bind(var2)(var3);
+case 23:
+                                    var1 = undefined;
+                                    return var1;
+                                }
+                            };
+                            var2 = var3.bind(var4)(var2);
                             return var1;
                         }
                     };
                     var3 = var4.bind(var5)(var3);
-case 17:
+case 19:
                     var3 = undefined;
                     return var3;
-case 15:
+case 17:
                     return var2;
-case 11:
+case 13:
                     return var1;
                 }
             };
@@ -192,37 +233,89 @@ case 11:
     };
     var _closure1_slot12 = var1;
     var4 = function useCanSeePushNotificationNudge() {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var5 = _closure1_slot0;
+            var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var1 = var6[var1];
-            var4 = undefined;
-            var3 = var5.bind(var4)(var1);
+            var8 = undefined;
+            var3 = var4.bind(var8)(var1);
             var1 = var3.useIsTeenInStrictCountry;
-            var1 = var1.bind(var3)();
-            var3 = 12;
-            var3 = var6[var3];
-            var6 = var5.bind(var4)(var3);
-            var5 = var6.useStateFromStores;
-            var3 = _closure1_slot7;
+            var3 = var1.bind(var3)();
+            var1 = 13;
+            var1 = var6[var1];
+            var7 = var4.bind(var8)(var1);
+            var6 = var7.useStateFromStores;
+            var1 = _closure1_slot7;
             var4 = new Array(1);
-            var4[0] = var3;
-            var3 = function() {
+            var4[0] = var1;
+            var1 = function() {
                 var1 = _closure1_slot7;
                 var1 = var1.authorizationStatus;
                 return var1;
             };
-            var4 = var5.bind(var6)(var4, var3);
-            var1 = !var1;
-            if(!var1) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+            var4 = var6.bind(var7)(var4, var1);
+            var7 = _closure1_slot5;
+            var6 = var7.useState;
+            var1 = false;
+            var7 = var6.bind(var7)(var1);
+            var6 = _closure1_slot3;
+            var1 = 2;
+            var7 = var6.bind(var8)(var7, var1);
+            var1 = 0;
+            var1 = var7[var1];
+            var6 = 1;
+            var6 = var7[var6];
+            var _closure2_slot0 = var6;
+            var8 = _closure1_slot5;
+            var7 = var8.useEffect;
+            var6 = function() {
+                var1 = _closure1_slot6;
+                var2 = var1.NativePermissionManager;
+                var1 = var2.getNotificationAuthorizationStatus;
+                var3 = var1.bind(var2)();
+                var2 = var3.then;
+                var1 = function(arg1) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                        var3 = arg1;
+                        var1 = null;
+                        if(!(var1 != var3)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
+                        var4 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 10;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var2 = var4.bind(var1)(var2);
+                        var1 = var2.updateNotificationAuthorizationStatus;
+                        var1 = var1.bind(var2)(var3);
+case 23:
+                        var3 = _closure2_slot0;
+                        var1 = undefined;
+                        var2 = true;
+                        var2 = var3.bind(var1)(var2);
+                        return var1;
+                    }
+                };
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            var5 = new Array(0);
+            var5 = var7.bind(var8)(var6, var5);
+            if(!var1) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
+            var1 = !var3;
+case 25:
+            if(!var1) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var3 = null;
             var1 = var3 != var4;
-case 21:
-            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+case 27:
+            if(!var1) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var3 = _closure1_slot10;
             var5 = var3.DENIED;
             var3 = new Array(3);
@@ -235,7 +328,7 @@ case 24:
             var3[2] = var2;
             var2 = var3.includes;
             var1 = var2.bind(var3)(var4);
-case 23:
+case 29:
             return var1;
         }
     };
@@ -286,7 +379,7 @@ case 23:
     var5 = var6.bind(var1)(var5);
     var5 = var5.NotificationAuthorizationStatus;
     var _closure1_slot10 = var5;
-    var5 = 13;
+    var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -306,17 +399,18 @@ case 23:
     var5 = function useShowReactivationPrompt() {
         var5 = _closure1_slot5;
         var4 = var5.useState;
-        var3 = false;
-        var6 = var4.bind(var5)(var3);
-        var4 = _closure1_slot3;
-        var3 = undefined;
+        var1 = false;
+        var6 = var4.bind(var5)(var1);
+        var5 = _closure1_slot3;
+        var4 = undefined;
         var1 = 2;
-        var4 = var4.bind(var3)(var6, var1);
+        var5 = var5.bind(var4)(var6, var1);
         var1 = 0;
-        var1 = var4[var1];
-        var3 = 1;
-        var3 = var4[var3];
-        var _closure2_slot0 = var3;
+        var1 = var5[var1];
+        var4 = 1;
+        var4 = var5[var4];
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot5;
         var4 = var5.useEffect;
         var3 = function() {
             var2 = function _shouldShowReactivationPrompts() {
@@ -325,37 +419,37 @@ case 23:
                 var3 = _closure1_slot4;
                 var2 = function* () {
                     var1 = function* anon_0_() {
-                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0005_ip = 25; continue _fun0005 }
-case 12:
+                            if(var2) { _fun0007_ip = 31; continue _fun0007 }
+case 14:
                             var2 = _closure1_slot6;
                             var4 = var2.NativePermissionManager;
                             var2 = var4.getNotificationAuthorizationStatus;
                             var2 = var2.bind(var4)();
                             SaveGenerator(address=34);
-case 13:
+case 15:
                             return var2;
-case 14:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0005_ip = 26; continue _fun0005 }
 case 16:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                            if(var4) { _fun0007_ip = 32; continue _fun0007 }
+case 18:
                             var3 = _closure1_slot10;
                             var3 = var3.AUTHORIZED;
-                            if(!(var2 !== var3)) { _fun0005_ip = 27; continue _fun0005 }
-case 18:
+                            if(!(var2 !== var3)) { _fun0007_ip = 33; continue _fun0007 }
+case 20:
                             var5 = _closure2_slot0;
                             var4 = undefined;
                             var3 = true;
                             var3 = var5.bind(var4)(var3);
-case 27:
+case 33:
                             var3 = undefined;
                             return var3;
-case 26:
+case 32:
                             return var2;
-case 25:
+case 31:
                             return var1;
                         }
                     };
@@ -404,14 +498,14 @@ case 25:
     var3['enableProvisionalPushNotification'] = var5;
     var3['useCanSeePushNotificationNudge'] = var4;
     var2 = function useShouldShowPushNotificationNudgeByPromptType(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = _closure1_slot13;
             var5 = undefined;
             var1 = var1.bind(var5)();
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 12;
+            var3 = 13;
             var3 = var6[var3];
             var5 = var4.bind(var5)(var3);
             var4 = var5.useStateFromStores;
@@ -426,12 +520,12 @@ case 0:
                 return var1;
             };
             var4 = var4.bind(var5)(var3, var2);
-            if(!var1) { _fun0006_ip = 28; continue _fun0006 }
-case 19:
+            if(!var1) { _fun0008_ip = 34; continue _fun0008 }
+case 21:
             var3 = var4.has;
             var2 = arg1;
             var1 = var3.bind(var4)(var2);
-case 28:
+case 34:
             return var1;
         }
     };

@@ -2270,7 +2270,7 @@ case 49:
 case 0:
             var3 = arg1;
             var2 = var3.match;
-            var1 = /^https:\/\/www\.youtube\.com\/embed\/([^#\&\?]*)(\?clip=([^#\&\?]+)(&clipt=([^#\&\?]+)))?$/;
+            var1 = /^https:\/\/www\.youtube\.com\/embed\/([A-Za-z0-9_-]*)(\?clip=([A-Za-z0-9_-]+)(&clipt=([A-Za-z0-9_-]+)))?$/;
             var3 = var2.bind(var3)(var1);
             var1 = null;
             if(!(var1 != var3)) { _fun0029_ip = 196; continue _fun0029 }
@@ -2314,7 +2314,7 @@ case 196:
 case 0:
             var3 = arg1;
             var2 = var3.match;
-            var1 = /^https:\/\/www\.youtube\.com\/embed\/([^#\&\?]*)(\?start=([0-9]+))?$/;
+            var1 = /^https:\/\/www\.youtube\.com\/embed\/([A-Za-z0-9_-]*)(\?start=([0-9]+))?$/;
             var5 = var2.bind(var3)(var1);
             var3 = null;
             var2 = var3 == var5;

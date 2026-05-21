@@ -3610,7 +3610,6 @@ case 308:
                     var10 = var17[var10];
                     var11 = var11.bind(var2)(var10);
                     var10 = var11.questHomeHeroFromServer;
-                    var9 = var9.creative_content;
                     var13 = var10.bind(var11)(var9);
 case 307:
                     var10 = _closure1_slot1;
@@ -3627,31 +3626,31 @@ case 307:
                     var23 = var15 == var17;
                     var17 = undefined;
                     if(var23) { _fun0025_ip = 309; continue _fun0025 }
-case 310:
+case 100:
                     var23 = var14;
                     var23 = var23.ad_identifiers;
                     var22 = var23;
                     var23 = var15 == var23;
                     var17 = undefined;
                     if(var23) { _fun0025_ip = 309; continue _fun0025 }
-case 311:
+case 310:
                     var17 = var22.ad_id;
 case 309:
                     var13['ad_id'] = var17;
                     var17 = var14;
                     var22 = var15 == var17;
                     var17 = undefined;
-                    if(var22) { _fun0025_ip = 312; continue _fun0025 }
-case 71:
+                    if(var22) { _fun0025_ip = 311; continue _fun0025 }
+case 312:
                     var22 = var14;
                     var22 = var22.ad_identifiers;
                     var21 = var22;
                     var22 = var15 == var22;
                     var17 = undefined;
-                    if(var22) { _fun0025_ip = 312; continue _fun0025 }
+                    if(var22) { _fun0025_ip = 311; continue _fun0025 }
 case 313:
                     var17 = var21.ad_set_id;
-case 312:
+case 311:
                     var13['ad_set_id'] = var17;
                     var17 = var14;
                     var21 = var15 == var17;
@@ -3948,7 +3947,6 @@ case 345:
                     var7 = var15[var7];
                     var8 = var8.bind(var9)(var7);
                     var7 = var8.questHomeHeroFromServer;
-                    var5 = var5.creative_content;
                     var11 = var7.bind(var8)(var5);
 case 344:
                     var7 = _closure1_slot1;
@@ -3964,135 +3962,135 @@ case 344:
                     var15 = var12;
                     var21 = var13 == var15;
                     var15 = undefined;
-                    if(var21) { _fun0026_ip = 50; continue _fun0026 }
-case 23:
+                    if(var21) { _fun0026_ip = 346; continue _fun0026 }
+case 347:
                     var21 = var12;
                     var21 = var21.ad_identifiers;
                     var20 = var21;
                     var21 = var13 == var21;
                     var15 = undefined;
-                    if(var21) { _fun0026_ip = 50; continue _fun0026 }
-case 346:
+                    if(var21) { _fun0026_ip = 346; continue _fun0026 }
+case 348:
                     var15 = var20.ad_id;
-case 50:
+case 346:
                     var11['ad_id'] = var15;
                     var15 = var12;
                     var20 = var13 == var15;
                     var15 = undefined;
-                    if(var20) { _fun0026_ip = 347; continue _fun0026 }
-case 82:
+                    if(var20) { _fun0026_ip = 298; continue _fun0026 }
+case 349:
                     var20 = var12;
                     var20 = var20.ad_identifiers;
                     var19 = var20;
                     var20 = var13 == var20;
                     var15 = undefined;
-                    if(var20) { _fun0026_ip = 347; continue _fun0026 }
-case 298:
+                    if(var20) { _fun0026_ip = 298; continue _fun0026 }
+case 350:
                     var15 = var19.ad_set_id;
-case 347:
+case 298:
                     var11['ad_set_id'] = var15;
                     var15 = var12;
                     var19 = var13 == var15;
                     var15 = undefined;
-                    if(var19) { _fun0026_ip = 38; continue _fun0026 }
-case 348:
+                    if(var19) { _fun0026_ip = 351; continue _fun0026 }
+case 352:
                     var19 = var12;
                     var19 = var19.ad_identifiers;
                     var18 = var19;
                     var19 = var13 == var19;
                     var15 = undefined;
-                    if(var19) { _fun0026_ip = 38; continue _fun0026 }
-case 349:
+                    if(var19) { _fun0026_ip = 351; continue _fun0026 }
+case 353:
                     var15 = var18.campaign_id;
-case 38:
+case 351:
                     var11['campaign_id'] = var15;
                     var15 = var12;
                     var18 = var13 == var15;
                     var15 = undefined;
-                    if(var18) { _fun0026_ip = 350; continue _fun0026 }
-case 351:
+                    if(var18) { _fun0026_ip = 354; continue _fun0026 }
+case 355:
                     var18 = var12;
                     var18 = var18.ad_identifiers;
                     var17 = var18;
                     var18 = var13 == var18;
                     var15 = undefined;
-                    if(var18) { _fun0026_ip = 350; continue _fun0026 }
-case 352:
+                    if(var18) { _fun0026_ip = 354; continue _fun0026 }
+case 356:
                     var15 = var17.creative_id;
-case 350:
+case 354:
                     var11['creative_id'] = var15;
                     var15 = var12;
                     var17 = var13 == var15;
                     var15 = undefined;
-                    if(var17) { _fun0026_ip = 232; continue _fun0026 }
-case 353:
+                    if(var17) { _fun0026_ip = 95; continue _fun0026 }
+case 91:
                     var17 = var12;
                     var17 = var17.ad_identifiers;
                     var16 = var17;
                     var17 = var13 == var17;
                     var15 = undefined;
-                    if(var17) { _fun0026_ip = 232; continue _fun0026 }
-case 95:
+                    if(var17) { _fun0026_ip = 95; continue _fun0026 }
+case 357:
                     var15 = var16.creative_type;
-case 232:
+case 95:
                     var11['creative_type'] = var15;
                     var14 = var14.request_id;
                     var11['decision_id'] = var14;
                     var14 = var12;
                     var15 = var13 == var14;
                     var14 = undefined;
-                    if(var15) { _fun0026_ip = 354; continue _fun0026 }
-case 355:
+                    if(var15) { _fun0026_ip = 358; continue _fun0026 }
+case 359:
                     var15 = var12;
                     var14 = var15.ad_identifiers;
-case 354:
+case 358:
                     var14 = var13 != var14;
                     var11['is_targeted'] = var14;
                     var5['adDecisionData'] = var11;
                     var11 = var12;
                     var14 = var13 == var11;
                     var11 = undefined;
-                    if(var14) { _fun0026_ip = 356; continue _fun0026 }
-case 101:
+                    if(var14) { _fun0026_ip = 360; continue _fun0026 }
+case 361:
                     var14 = var12;
                     var11 = var14.metadata_sealed;
-case 356:
+case 360:
                     var5['metadataSealed'] = var11;
                     var11 = var12;
                     var14 = var13 == var11;
                     var11 = undefined;
-                    if(var14) { _fun0026_ip = 357; continue _fun0026 }
-case 358:
+                    if(var14) { _fun0026_ip = 362; continue _fun0026 }
+case 363:
                     var14 = var12;
                     var11 = var14.traffic_metadata_sealed;
-case 357:
+case 362:
                     var5['trafficMetadataSealed'] = var11;
                     var11 = var12;
                     var14 = var13 == var11;
                     var11 = undefined;
-                    if(var14) { _fun0026_ip = 359; continue _fun0026 }
-case 360:
+                    if(var14) { _fun0026_ip = 364; continue _fun0026 }
+case 365:
                     var14 = var12;
                     var11 = var14.ad_context;
-case 359:
+case 364:
                     var5['adContext'] = var11;
                     var11 = var12;
                     var13 = var13 == var11;
                     var11 = undefined;
-                    if(var13) { _fun0026_ip = 361; continue _fun0026 }
-case 362:
+                    if(var13) { _fun0026_ip = 366; continue _fun0026 }
+case 367:
                     var11 = var12.response_ttl_seconds;
-case 361:
+case 366:
                     var5['responseTtlSeconds'] = var11;
                     var11 = var6;
                     var5['placement'] = var11;
                     var5['fetchedAt'] = var10;
                     var5 = var7.bind(var8)(var5);
-case 363: // try_end0
+case 368: // try_end0
                     return var9;
 case 338:
                     return var2;
-case 364: // catch_target0
+case 369: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -4354,7 +4352,7 @@ case 335:
         return var1;
     };
     var3['resetQuestDismissibilityStatus'] = var4;
-    var4 = function overrideQuestDelivery(arg1) {
+    var4 = function overrideQuestForPlacement(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 9;
@@ -4363,14 +4361,16 @@ case 335:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'QUESTS_DELIVERY_OVERRIDE';
+        var5 = 'QUESTS_PREVIEW_OVERRIDE';
         var2['type'] = var5;
         var5 = arg1;
+        var2['placement'] = var5;
+        var5 = arg2;
         var2['questId'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['overrideQuestDelivery'] = var4;
+    var3['overrideQuestForPlacement'] = var4;
     var4 = function selectTaskPlatform(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
@@ -4670,7 +4670,7 @@ case 335:
         return var1;
     };
     var3['markAdContentSeen'] = var4;
-    var2 = function markAdContentUnseen(arg1, arg2) {
+    var4 = function markAdContentUnseen(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 9;
@@ -4688,6 +4688,23 @@ case 335:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['markAdContentUnseen'] = var2;
+    var3['markAdContentUnseen'] = var4;
+    var2 = function markQuestDiscovered(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 9;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'QUESTS_MARK_DISCOVERED';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['questId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['markQuestDiscovered'] = var2;
     return var1;
 })();

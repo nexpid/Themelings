@@ -1,4 +1,4 @@
-// discord_assets/assets/premium/referral_trial/share_confirmation_header_dark.png.js
+// discord_assets/assets/collectibles/frames/mobile_announcement.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/premium/referral_trial/share_confirmation_header_dark.png.js';
+    var2 = '../discord_assets/assets/collectibles/frames/mobile_announcement.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/4df9b5494fa692fe5dc009652b0568c192e300b83daa71655f57163765212862.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/c9bde05e71ba432d5facb8c28eb4b2bcf7130b24424f05b33ec9779b4a9d7686.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 214774;
+    var4 = 236764;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

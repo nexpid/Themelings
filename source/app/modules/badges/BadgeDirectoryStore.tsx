@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot7 = var2;
+            _closure1_slot8 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot8 = var1;
     var2 = function getSingleRequirementThreshold(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -69,7 +69,7 @@ case 9:
             return var1;
         }
     };
-    var _closure1_slot8 = var2;
+    var _closure1_slot9 = var2;
     var4 = global;
     var10 = var4.Object;
     var9 = var10.defineProperty;
@@ -103,13 +103,20 @@ case 9:
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
     var _closure1_slot5 = var8;
-    var4 = var4.Map;
+    var8 = var4.Map;
+    var9 = var8.prototype;
+    var9 = Object.create(var9, {constructor: {value: var8}});
+    var14 = var9;
+    var8 = new var14[var8](var13);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot6 = var8;
+    var4 = var4.Set;
     var8 = var4.prototype;
     var8 = Object.create(var8, {constructor: {value: var4}});
     var14 = var8;
     var4 = new var14[var4](var13);
     var4 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -127,7 +134,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot7;
+                var1 = _closure1_slot8;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
@@ -220,7 +227,7 @@ case 18:
         var7 = 'hasCatalogFor';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var2 = var3.has;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
@@ -410,7 +417,7 @@ case 9:
                 var3 = global;
                 var4 = var3.Math;
                 var3 = var4.max;
-                var7 = _closure1_slot8;
+                var7 = _closure1_slot9;
                 var6 = undefined;
                 var6 = var7.bind(var6)(var8);
                 var2 = var2.current;
@@ -434,20 +441,20 @@ case 30:
     var4 = {};
     var9 = function handleFetchSuccess(arg1) {
         var1 = arg1;
-        var5 = var1.userId;
-        var8 = var1.badges;
-        var3 = global;
-        var6 = var3.Map;
-        var10 = _closure1_slot6;
-        var4 = var6.prototype;
-        var4 = Object.create(var4, {constructor: {value: var6}});
-        var11 = var4;
-        var1 = new var11[var6](var10, var9);
-        var1 = var1 instanceof Object ? var1 : var4;
-        var4 = var1.set;
-        var7 = var3.Map;
-        var6 = var8.map;
-        var3 = function(arg1) {
+        var4 = var1.userId;
+        var9 = var1.badges;
+        var1 = global;
+        var6 = var1.Map;
+        var11 = _closure1_slot6;
+        var5 = var6.prototype;
+        var5 = Object.create(var5, {constructor: {value: var6}});
+        var12 = var5;
+        var3 = new var12[var6](var11, var10);
+        var3 = var3 instanceof Object ? var3 : var5;
+        var6 = var3.set;
+        var8 = var1.Map;
+        var7 = var9.map;
+        var5 = function(arg1) {
             var2 = arg1;
             var3 = var2.badge_id;
             var1 = new Array(2);
@@ -455,14 +462,24 @@ case 30:
             var1[1] = var2;
             return var1;
         };
-        var10 = var6.bind(var8)(var3);
-        var6 = var7.prototype;
-        var6 = Object.create(var6, {constructor: {value: var7}});
-        var11 = var6;
-        var3 = new var11[var7](var10, var9);
-        var3 = var3 instanceof Object ? var3 : var6;
-        var3 = var4.bind(var1)(var5, var3);
-        _closure1_slot6 = var1;
+        var11 = var7.bind(var9)(var5);
+        var7 = var8.prototype;
+        var7 = Object.create(var7, {constructor: {value: var8}});
+        var12 = var7;
+        var5 = new var12[var8](var11, var10);
+        var5 = var5 instanceof Object ? var5 : var7;
+        var5 = var6.bind(var3)(var4, var5);
+        _closure1_slot6 = var3;
+        var5 = var1.Set;
+        var11 = _closure1_slot7;
+        var3 = var5.prototype;
+        var3 = Object.create(var3, {constructor: {value: var5}});
+        var12 = var3;
+        var1 = new var12[var5](var11, var10);
+        var3 = var1 instanceof Object ? var1 : var3;
+        var1 = var3.add;
+        var1 = var1.bind(var3)(var4);
+        _closure1_slot7 = var1;
         var1 = undefined;
         return var1;
     };
@@ -513,13 +530,20 @@ case 31:
     var4['BADGE_FETCH_SUCCESS'] = var9;
     var5 = function handleReset() {
         var1 = global;
-        var1 = var1.Map;
-        var2 = var1.prototype;
-        var2 = Object.create(var2, {constructor: {value: var1}});
-        var3 = var2;
-        var1 = new var3[var1](var2);
-        var2 = var1 instanceof Object ? var1 : var2;
-        _closure1_slot6 = var2;
+        var2 = var1.Map;
+        var3 = var2.prototype;
+        var3 = Object.create(var3, {constructor: {value: var2}});
+        var4 = var3;
+        var2 = new var4[var2](var3);
+        var3 = var2 instanceof Object ? var2 : var3;
+        _closure1_slot6 = var3;
+        var1 = var1.Set;
+        var3 = var1.prototype;
+        var3 = Object.create(var3, {constructor: {value: var1}});
+        var4 = var3;
+        var1 = new var4[var1](var3);
+        var1 = var1 instanceof Object ? var1 : var3;
+        _closure1_slot7 = var1;
         var1 = undefined;
         return var1;
     };

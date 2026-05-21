@@ -168,16 +168,12 @@ case 9:
             var3 = var3.round;
             var2['borderRadius'] = var3;
             var1['ellipse'] = var2;
-            var2 = {};
-            var3 = 'auto';
-            var2['marginLeft'] = var3;
-            var1['connectionIndicator'] = var2;
             return var1;
         }
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 20;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -347,7 +343,7 @@ case 24:
             var19 = var23.bind(var4)(var22, var19);
             var18['children'] = var19;
             var19 = var23.bind(var4)(var16, var18);
-            var18 = new Array(4);
+            var18 = new Array(3);
             var18[0] = var19;
             var22 = _closure1_slot1;
             var19 = 14;
@@ -390,17 +386,6 @@ case 27:
             var19 = var23.bind(var4)(var22, var20);
 case 26:
             var18[2] = var19;
-            var22 = _closure1_slot5;
-            var20 = _closure1_slot1;
-            var23 = _closure1_slot2;
-            var19 = 17;
-            var19 = var23[var19];
-            var20 = var20.bind(var4)(var19);
-            var19 = {};
-            var23 = var15.connectionIndicator;
-            var19['style'] = var23;
-            var19 = var22.bind(var4)(var20, var19);
-            var18[3] = var19;
             var14['children'] = var18;
             var16 = var17.bind(var4)(var16, var14);
             var14 = new Array(2);
@@ -479,7 +464,7 @@ case 32:
             var16 = _closure1_slot5;
             var14 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var13 = 18;
+            var13 = 17;
             var13 = var17[var13];
             var14 = var14.bind(var4)(var13);
             var13 = {'guild': null, 'useButtonComponent': true, 'useEventsButton': true};
@@ -504,7 +489,7 @@ case 36:
             var9 = _closure1_slot5;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var7 = 19;
+            var7 = 18;
             var7 = var12[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};

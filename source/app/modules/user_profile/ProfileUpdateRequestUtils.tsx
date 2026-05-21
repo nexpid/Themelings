@@ -126,7 +126,7 @@ case 23:
                     var4 = var6.bind(var8)(var4);
                     var7 = var4;
                     if(!(var3 !== var10)) { _fun0002_ip = 22; continue _fun0002 }
-case 11:
+case 24:
                     var8 = var4.push;
                     var6 = {};
                     var10 = var10.skuId;
@@ -143,8 +143,8 @@ case 11:
                     var7 = var4;
 case 22:
                     var4 = var7;
-                    if(!(var1 !== var5)) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+                    if(!(var1 !== var5)) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
                     var6 = var7.filter;
                     var1 = function(arg1) {
                         var1 = arg1;
@@ -162,12 +162,12 @@ case 25:
                     };
                     var1 = var6.bind(var7)(var1);
                     var4 = var1;
-                    if(!(var3 !== var5)) { _fun0002_ip = 24; continue _fun0002 }
-case 26:
+                    if(!(var3 !== var5)) { _fun0002_ip = 25; continue _fun0002 }
+case 27:
                     var3 = var1.push;
                     var3 = var3.bind(var1)(var5);
                     var4 = var1;
-case 24:
+case 25:
                     var1 = {};
                     var3 = var4.map;
                     var2 = function(arg1) {
@@ -186,11 +186,11 @@ case 17:
             var2 = arg2;
             var2 = var3.bind(var4)(var5, var2);
             var3 = var2.collectibles_sku_ids;
-            if(!(var4 !== var3)) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+            if(!(var4 !== var3)) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var2 = var2.collectibles_sku_ids;
             var1['collectibles_sku_ids'] = var2;
-case 27:
+case 28:
             return var1;
         }
     };
@@ -202,24 +202,24 @@ case 0:
             var1 = {};
             var3 = var2.pendingGlobalName;
             var4 = undefined;
-            if(!(var4 !== var3)) { _fun0003_ip = 29; continue _fun0003 }
+            if(!(var4 !== var3)) { _fun0003_ip = 30; continue _fun0003 }
 case 3:
             var3 = var2.pendingGlobalName;
             var1['globalName'] = var3;
-case 29:
+case 30:
             var3 = var2.pendingNameplate;
-            if(!(var4 !== var3)) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+            if(!(var4 !== var3)) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
             var3 = var2.pendingNameplate;
             var1['nameplate'] = var3;
-case 30:
+case 31:
             var3 = var2.pendingAvatar;
-            if(!(var4 !== var3)) { _fun0003_ip = 32; continue _fun0003 }
-case 33:
+            if(!(var4 !== var3)) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
             var5 = var2.pendingAvatar;
             var3 = null;
-            if(!(var3 !== var5)) { _fun0003_ip = 34; continue _fun0003 }
-case 35:
+            if(!(var3 !== var5)) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
             var7 = var5.assetOrigin;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -228,35 +228,35 @@ case 35:
             var6 = var8.bind(var4)(var6);
             var6 = var6.AssetOriginTypes;
             var6 = var6.ARCHIVED_ASSET;
-            if(!(var7 !== var6)) { _fun0003_ip = 36; continue _fun0003 }
-case 37:
+            if(!(var7 !== var6)) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
             var6 = var5.imageUri;
             var1['avatar'] = var6;
             var6 = var5.description;
             var1['avatarDescription'] = var6;
             var6 = var5.originalMd5;
             var1['avatarOriginalMd5'] = var6;
-            _fun0003_ip = 32; continue _fun0003;
-case 36:
+            _fun0003_ip = 33; continue _fun0003;
+case 37:
             var5 = var5.originalAsset;
             var5 = var5.id;
             var1['avatarId'] = var5;
-            _fun0003_ip = 32; continue _fun0003;
-case 34:
+            _fun0003_ip = 33; continue _fun0003;
+case 35:
             var1['avatar'] = var3;
-case 32:
+case 33:
             var3 = var2.pendingAvatarDecoration;
-            if(!(var4 !== var3)) { _fun0003_ip = 38; continue _fun0003 }
-case 39:
+            if(!(var4 !== var3)) { _fun0003_ip = 39; continue _fun0003 }
+case 40:
             var3 = var2.pendingAvatarDecoration;
             var1['avatarDecoration'] = var3;
-case 38:
+case 39:
             var3 = var2.pendingDisplayNameStyles;
-            if(!(var4 !== var3)) { _fun0003_ip = 40; continue _fun0003 }
-case 41:
+            if(!(var4 !== var3)) { _fun0003_ip = 41; continue _fun0003 }
+case 42:
             var2 = var2.pendingDisplayNameStyles;
             var1['displayNameStyles'] = var2;
-case 40:
+case 41:
             return var1;
         }
     };
@@ -268,12 +268,12 @@ case 0:
             var1 = {};
             var3 = var2.pendingAvatar;
             var4 = undefined;
-            if(!(var4 !== var3)) { _fun0004_ip = 42; continue _fun0004 }
+            if(!(var4 !== var3)) { _fun0004_ip = 43; continue _fun0004 }
 case 3:
             var5 = var2.pendingAvatar;
             var3 = null;
-            if(!(var3 !== var5)) { _fun0004_ip = 43; continue _fun0004 }
-case 29:
+            if(!(var3 !== var5)) { _fun0004_ip = 44; continue _fun0004 }
+case 30:
             var7 = var5.assetOrigin;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -282,54 +282,54 @@ case 29:
             var6 = var8.bind(var4)(var6);
             var6 = var6.AssetOriginTypes;
             var6 = var6.ARCHIVED_ASSET;
-            if(!(var7 !== var6)) { _fun0004_ip = 44; continue _fun0004 }
-case 35:
+            if(!(var7 !== var6)) { _fun0004_ip = 45; continue _fun0004 }
+case 36:
             var6 = var5.imageUri;
             var1['avatar'] = var6;
             var6 = var5.description;
             var1['avatarDescription'] = var6;
             var6 = var5.originalMd5;
             var1['avatarOriginalMd5'] = var6;
-            _fun0004_ip = 42; continue _fun0004;
-case 44:
+            _fun0004_ip = 43; continue _fun0004;
+case 45:
             var5 = var5.originalAsset;
             var5 = var5.id;
             var1['avatarId'] = var5;
-            _fun0004_ip = 42; continue _fun0004;
-case 43:
+            _fun0004_ip = 43; continue _fun0004;
+case 44:
             var1['avatar'] = var3;
-case 42:
+case 43:
             var3 = var2.pendingNickname;
-            if(!(var4 !== var3)) { _fun0004_ip = 34; continue _fun0004 }
-case 45:
+            if(!(var4 !== var3)) { _fun0004_ip = 35; continue _fun0004 }
+case 46:
             var5 = var2.pendingNickname;
             var3 = null;
             var6 = var3 != var5;
             var3 = '';
-            if(!var6) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+            if(!var6) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
             var3 = var5;
-case 46:
+case 47:
             var1['nick'] = var3;
-case 34:
+case 35:
             var3 = var2.pendingAvatarDecoration;
-            if(!(var4 !== var3)) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+            if(!(var4 !== var3)) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
             var3 = var2.pendingAvatarDecoration;
             var1['avatarDecoration'] = var3;
-case 27:
-            var3 = var2.pendingNameplate;
-            if(!(var4 !== var3)) { _fun0004_ip = 48; continue _fun0004 }
 case 49:
             var3 = var2.pendingNameplate;
+            if(!(var4 !== var3)) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
+            var3 = var2.pendingNameplate;
             var1['nameplate'] = var3;
-case 48:
-            var3 = var2.pendingDisplayNameStyles;
-            if(!(var4 !== var3)) { _fun0004_ip = 50; continue _fun0004 }
 case 51:
+            var3 = var2.pendingDisplayNameStyles;
+            if(!(var4 !== var3)) { _fun0004_ip = 53; continue _fun0004 }
+case 54:
             var2 = var2.pendingDisplayNameStyles;
             var1['displayNameStyles'] = var2;
-case 50:
+case 53:
             return var1;
         }
     };
@@ -341,11 +341,11 @@ case 0:
             var1 = {};
             var4 = var2.pendingPrimaryGuildId;
             var3 = undefined;
-            if(!(var3 !== var4)) { _fun0005_ip = 29; continue _fun0005 }
+            if(!(var3 !== var4)) { _fun0005_ip = 30; continue _fun0005 }
 case 3:
             var2 = var2.pendingPrimaryGuildId;
             var1['primaryGuildId'] = var2;
-case 29:
+case 30:
             return var1;
         }
     };

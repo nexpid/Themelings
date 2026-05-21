@@ -94,7 +94,7 @@ case 0:
             var5 = var7.bind(var4)(var1);
             var1 = var20.styles;
             var1 = var5.bind(var4)(var1);
-            var21 = var1.backgroundColors;
+            var22 = var1.backgroundColors;
             var1 = 8;
             var5 = var3[var1];
             var6 = var7.bind(var4)(var5);
@@ -111,7 +111,7 @@ case 0:
             var6 = var3[var6];
             var6 = var7.bind(var4)(var6);
             var6 = var6.bind(var4)();
-            var18 = var6.bottom;
+            var19 = var6.bottom;
             var6 = _closure1_slot0;
             var7 = 11;
             var7 = var3[var7];
@@ -120,7 +120,7 @@ case 0:
             var7 = {};
             var11 = var20.products;
             var7['products'] = var11;
-            var22 = var9.bind(var10)(var7);
+            var17 = var9.bind(var10)(var7);
             var13 = 12;
             var7 = var3[var13];
             var10 = var6.bind(var4)(var7);
@@ -160,11 +160,11 @@ case 2:
                     return var1;
                 }
             };
-            var17 = var12.bind(var7)(var9, var10);
+            var18 = var12.bind(var7)(var9, var10);
             var3 = var3[var13];
             var9 = var6.bind(var4)(var3);
             var6 = var9.useAnimatedStyle;
-            var3 = function S() {
+            var3 = function _() {
                 var1 = {};
                 var3 = _closure2_slot3;
                 var2 = var3.get;
@@ -181,8 +181,8 @@ case 2:
             var3['__initData'] = var10;
             var24 = var6.bind(var9)(var3);
             var6 = var7.useEffect;
-            var19 = null;
-            var3 = var19 == var8;
+            var21 = null;
+            var3 = var21 == var8;
             var9 = undefined;
             if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
@@ -292,7 +292,7 @@ case 8:
             var7 = {};
             var9 = new Array(0);
             var7['skuIDs'] = var9;
-            var7['activeSubscription'] = var19;
+            var7['activeSubscription'] = var21;
             var11 = _closure1_slot9;
             var10 = _closure1_slot4;
             var9 = {};
@@ -318,24 +318,24 @@ case 8:
             var15 = var15.bind(var4)(var14);
             var14 = {};
             var14['logoUrl'] = var25;
-            var25 = var19 == var21;
-            var19 = undefined;
+            var25 = var21 == var22;
+            var21 = undefined;
             if(var25) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var25 = var21.label;
-            var21 = var25.toHexString;
-            var19 = var21.bind(var25)();
+            var25 = var22.label;
+            var22 = var25.toHexString;
+            var21 = var22.bind(var25)();
 case 10:
-            var14['buttonColor'] = var19;
-            var19 = var20.name;
-            var14['categoryName'] = var19;
+            var14['buttonColor'] = var21;
+            var21 = var20.name;
+            var14['categoryName'] = var21;
             var14 = var3.bind(var4)(var15, var14);
             var12[1] = var14;
             var15 = _closure1_slot8;
-            var19 = _closure1_slot1;
+            var22 = _closure1_slot1;
             var21 = _closure1_slot2;
             var13 = var21[var13];
-            var13 = var19.bind(var4)(var13);
+            var13 = var22.bind(var4)(var13);
             var14 = var13.View;
             var13 = {};
             var25 = var23.border;
@@ -347,25 +347,26 @@ case 10:
             var12[2] = var13;
             var13 = 20;
             var13 = var21[var13];
-            var14 = var19.bind(var4)(var13);
+            var14 = var22.bind(var4)(var13);
             var13 = {};
             var13['category'] = var20;
-            var13['products'] = var22;
-            var22 = true;
-            var13['scrollEnabled'] = var22;
-            var13['onScroll'] = var17;
-            var17 = 6;
-            var22 = var21[var17];
-            var22 = var19.bind(var4)(var22);
-            var22 = var22.spacing;
-            var22 = var22.PX_16;
-            var13['paddingTop'] = var22;
-            var17 = var21[var17];
-            var17 = var19.bind(var4)(var17);
-            var17 = var17.spacing;
-            var17 = var17.PX_16;
-            var17 = var18 + var17;
-            var13['paddingBottom'] = var17;
+            var13['products'] = var17;
+            var17 = true;
+            var13['scrollEnabled'] = var17;
+            var13['onScroll'] = var18;
+            var18 = 6;
+            var23 = var21[var18];
+            var23 = var22.bind(var4)(var23);
+            var23 = var23.spacing;
+            var23 = var23.PX_16;
+            var13['paddingTop'] = var23;
+            var18 = var21[var18];
+            var18 = var22.bind(var4)(var18);
+            var18 = var18.spacing;
+            var18 = var18.PX_16;
+            var18 = var19 + var18;
+            var13['paddingBottom'] = var18;
+            var13['muteBundleStaticBackground'] = var17;
             var17 = _closure1_slot0;
             var16 = 21;
             var18 = var21[var16];

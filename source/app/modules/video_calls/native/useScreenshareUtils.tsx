@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var10;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var11;
-    var5 = function startStream() {
+    var6 = function startStream() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = _closure1_slot0;
@@ -67,15 +67,15 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot11 = var5;
-    var4 = function getOSRequirement() {
+    var _closure1_slot11 = var6;
+    var5 = function getOSRequirement() {
         var2 = _closure1_slot6;
         var1 = 12;
         var1 = var2 >= var1;
         return var1;
     };
-    var _closure1_slot12 = var4;
-    var2 = function getStreamPressHandler(arg1) {
+    var _closure1_slot12 = var5;
+    var4 = function getStreamPressHandler(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = arg1;
@@ -95,7 +95,7 @@ case 8:
             var5 = _closure1_slot11;
             if(var1) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
-            var1 = function u() {
+            var1 = function S() {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var7 = 11;
@@ -140,7 +140,7 @@ case 17:
             var1 = _closure1_slot9;
             _fun0003_ip = 12; continue _fun0003;
 case 15:
-            var1 = function u() {
+            var1 = function S() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 12;
@@ -156,43 +156,43 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot13 = var2;
+    var _closure1_slot13 = var4;
     var1 = global;
     var12 = var1.Object;
-    var7 = var12.defineProperty;
-    var6 = {};
+    var8 = var12.defineProperty;
+    var7 = {};
     var1 = true;
-    var6['value'] = var1;
+    var7['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var12)(var3, var1, var6);
+    var1 = var8.bind(var12)(var3, var1, var7);
     var1 = 0;
-    var7 = var11[var1];
-    var6 = metroImportAll;
+    var8 = var11[var1];
+    var7 = metroImportAll;
     var1 = undefined;
-    var6 = var6.bind(var1)(var7);
-    var _closure1_slot3 = var6;
-    var6 = 1;
-    var6 = var11[var6];
-    var6 = var10.bind(var1)(var6);
-    var6 = var6.NativeModules;
-    var7 = 2;
-    var7 = var11[var7];
-    var7 = var9.bind(var1)(var7);
-    var _closure1_slot4 = var7;
-    var7 = 3;
+    var7 = var7.bind(var1)(var8);
+    var _closure1_slot3 = var7;
+    var7 = 1;
     var7 = var11[var7];
     var7 = var10.bind(var1)(var7);
-    var7 = var7.ApplicationStreamStates;
-    var _closure1_slot5 = var7;
-    var7 = 4;
-    var7 = var11[var7];
-    var9 = var10.bind(var1)(var7);
-    var7 = var9.getSystemVersionMajor;
-    var7 = var7.bind(var9)();
-    var _closure1_slot6 = var7;
-    var6 = var6.BroadcastUploadManager;
-    var _closure1_slot7 = var6;
-    var7 = function handleCloseScreenshare() {
+    var7 = var7.NativeModules;
+    var8 = 2;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var8 = 3;
+    var8 = var11[var8];
+    var8 = var10.bind(var1)(var8);
+    var8 = var8.ApplicationStreamStates;
+    var _closure1_slot5 = var8;
+    var8 = 4;
+    var8 = var11[var8];
+    var9 = var10.bind(var1)(var8);
+    var8 = var9.getSystemVersionMajor;
+    var8 = var8.bind(var9)();
+    var _closure1_slot6 = var8;
+    var7 = var7.BroadcastUploadManager;
+    var _closure1_slot7 = var7;
+    var8 = function handleCloseScreenshare() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = _closure1_slot4;
@@ -226,8 +226,8 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot8 = var7;
-    var6 = function stopScreenshare() {
+    var _closure1_slot8 = var8;
+    var7 = function stopScreenshare() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 6;
@@ -242,14 +242,14 @@ case 7:
         var2 = var2.bind(var1)();
         return var1;
     };
-    var _closure1_slot9 = var6;
+    var _closure1_slot9 = var7;
     var9 = function getShareIcon(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 13;
+            var1 = 14;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -264,16 +264,16 @@ case 3:
 case 21:
             if(var2) { _fun0005_ip = 2; continue _fun0005 }
 case 22:
-            var1 = 16;
+            var1 = 17;
             var1 = var6[var1];
             _fun0005_ip = 23; continue _fun0005;
 case 2:
-            var5 = 17;
+            var5 = 18;
             var1 = var6[var5];
 case 23:
             _fun0005_ip = 24; continue _fun0005;
 case 20:
-            var5 = 16;
+            var5 = 17;
             var1 = var6[var5];
 case 24:
             var1 = var3.bind(var4)(var1);
@@ -281,11 +281,11 @@ case 24:
 case 19:
             if(var2) { _fun0005_ip = 26; continue _fun0005 }
 case 27:
-            var2 = 15;
+            var2 = 16;
             var2 = var6[var2];
             _fun0005_ip = 16; continue _fun0005;
 case 26:
-            var5 = 14;
+            var5 = 15;
             var2 = var6[var5];
 case 16:
             var1 = var3.bind(var4)(var2);
@@ -300,12 +300,12 @@ case 25:
     var10 = var11.fileFinishedImporting;
     var9 = 'modules/video_calls/native/useScreenshareUtils.tsx';
     var9 = var10.bind(var11)(var9);
-    var8 = function _default(arg1) {
+    var9 = function _default(arg1) {
         var9 = arg1;
         var _closure2_slot0 = var9;
         var5 = _closure1_slot1;
         var11 = _closure1_slot2;
-        var3 = 18;
+        var3 = 13;
         var3 = var11[var3];
         var4 = undefined;
         var3 = var5.bind(var4)(var3);
@@ -437,11 +437,37 @@ case 33:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['default'] = var8;
-    var3['handleCloseScreenshare'] = var7;
-    var3['stopScreenshare'] = var6;
-    var3['startStream'] = var5;
-    var3['getOSRequirement'] = var4;
-    var3['getStreamPressHandler'] = var2;
+    var3['default'] = var9;
+    var3['handleCloseScreenshare'] = var8;
+    var3['stopScreenshare'] = var7;
+    var3['startStream'] = var6;
+    var3['getOSRequirement'] = var5;
+    var3['getStreamPressHandler'] = var4;
+    var2 = function tryStartScreenShare(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var3 = _closure1_slot12;
+            var1 = undefined;
+            var3 = var3.bind(var1)();
+            if(!var3) { _fun0007_ip = 34; continue _fun0007 }
+case 29:
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var4 = 13;
+            var4 = var6[var4];
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.getVideoPermission;
+            var4 = arg1;
+            var3 = var5.bind(var6)(var4);
+case 34:
+            if(!var3) { _fun0007_ip = 35; continue _fun0007 }
+case 36:
+            var2 = _closure1_slot11;
+            var2 = var2.bind(var1)();
+case 35:
+            return var1;
+        }
+    };
+    var3['tryStartScreenShare'] = var2;
     return var1;
 })();

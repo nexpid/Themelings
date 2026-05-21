@@ -1113,6 +1113,14 @@ case 8:
                 return var1;
             };
             var12 = var8.bind(var12)(var3);
+            var8 = var12.filter;
+            var3 = function(arg1) {
+                var2 = -1;
+                var1 = arg1;
+                var1 = var2 !== var1;
+                return var1;
+            };
+            var12 = var8.bind(var12)(var3);
             var3 = {};
             var33 = var3;
             var32 = var6;

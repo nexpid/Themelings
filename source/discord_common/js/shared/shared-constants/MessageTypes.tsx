@@ -278,6 +278,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['FRIEND_REQUEST_ACCEPTED'] = var6;
     var2 = 'FRIEND_REQUEST_ACCEPTED';
     var4[var6] = var2;
+    var6 = 68;
+    var4['MEDIA_MENTION_MESSAGE'] = var6;
+    var2 = 'MEDIA_MENTION_MESSAGE';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

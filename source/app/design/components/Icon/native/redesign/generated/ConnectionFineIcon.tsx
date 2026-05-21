@@ -1,4 +1,4 @@
-// app/design/components/Icon/native/redesign/generated/SparklesIcon.tsx
+// app/design/components/Icon/native/redesign/generated/ConnectionFineIcon.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'design/components/Icon/native/redesign/generated/SparklesIcon.tsx';
+    var4 = 'design/components/Icon/native/redesign/generated/ConnectionFineIcon.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -46,7 +46,7 @@ case 3:
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.colors;
-            var7 = var1.INTERACTIVE_ICON_DEFAULT;
+            var7 = var1.ICON_FEEDBACK_POSITIVE;
 case 2:
             var1 = null;
             var2 = Object.create(var1);
@@ -77,6 +77,6 @@ case 2:
             return var1;
         }
     };
-    var3['SparklesIcon'] = var2;
+    var3['ConnectionFineIcon'] = var2;
     return var1;
 })();

@@ -242,7 +242,7 @@ case 37:
                     var5 = _closure1_slot18;
                     var3 = var3.code;
                     var3 = var5.bind(var4)(var6, var3, var7);
-                    SaveGenerator(address=534);
+                    SaveGenerator(address=532);
 case 40:
                     return var3;
 case 41:
@@ -990,7 +990,7 @@ case 97:
                     var2 = var3.then;
                     var1 = function(arg1) {
                         var1 = arg1;
-                        var3 = var1.default;
+                        var3 = var1.navigateToSocialLayerStorefrontWithGuildPreview;
                         var2 = {};
                         var4 = _closure3_slot1;
                         var2['guildId'] = var4;

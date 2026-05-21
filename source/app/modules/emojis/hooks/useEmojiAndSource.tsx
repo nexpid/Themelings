@@ -315,18 +315,18 @@ case 21:
                     var2 = var2.bind(var1)();
                     var4 = _closure2_slot2;
                     if(var4) { _fun0003_ip = 34; continue _fun0003 }
-case 35:
+case 5:
                     var4 = _closure2_slot7;
                     var4 = var4.current;
-                    if(!(var5 != var4)) { _fun0003_ip = 36; continue _fun0003 }
-case 28:
+                    if(!(var5 != var4)) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
                     var4 = _closure2_slot7;
                     var3 = var4.current;
                     var3 = var3.bind(var4)();
-                    _fun0003_ip = 36; continue _fun0003;
+                    _fun0003_ip = 35; continue _fun0003;
 case 34:
                     var2 = var2.bind(var1)();
-case 36:
+case 35:
                     return var1;
                 }
             };

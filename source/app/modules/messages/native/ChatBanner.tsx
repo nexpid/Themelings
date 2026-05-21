@@ -897,14 +897,14 @@ case 25:
             var3 = var7.bind(var11)(var3);
             var1 = null;
             if(!var3) { _fun0005_ip = 24; continue _fun0005 }
-case 4:
+case 26:
             var7 = _closure1_slot12;
             var4 = _closure1_slot15;
             var3 = {};
             var3['channel'] = var6;
             var1 = var7.bind(var5)(var4, var3);
 case 24:
-            _fun0005_ip = 26; continue _fun0005;
+            _fun0005_ip = 27; continue _fun0005;
 case 23:
             var7 = _closure1_slot12;
             var4 = _closure1_slot18;
@@ -914,23 +914,23 @@ case 23:
             var3['channel'] = var6;
             var3['handleScrollToNewMessages'] = var8;
             var1 = var7.bind(var5)(var4, var3);
-case 26:
-            _fun0005_ip = 27; continue _fun0005;
+case 27:
+            _fun0005_ip = 28; continue _fun0005;
 case 19:
             var7 = _closure1_slot12;
             var4 = _closure1_slot17;
             var3 = {};
             var3['channel'] = var6;
             var1 = var7.bind(var5)(var4, var3);
-case 27:
-            _fun0005_ip = 28; continue _fun0005;
+case 28:
+            _fun0005_ip = 29; continue _fun0005;
 case 17:
             var4 = _closure1_slot12;
             var3 = _closure1_slot16;
             var2 = {};
             var2['channel'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 28:
+case 29:
             return var1;
         }
     };

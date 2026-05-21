@@ -130,15 +130,15 @@ case 9:
 case 8:
             var4 = var2.enabled;
             if(!(var4 === var3)) { _fun0004_ip = 10; continue _fun0004 }
-case 6:
+case 11:
             var4 = true;
 case 10:
             var _closure2_slot0 = var4;
             var2 = var2.ignoreQuestDock;
-            if(!(var2 === var3)) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+            if(!(var2 === var3)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
             var2 = false;
-case 11:
+case 12:
             var _closure2_slot1 = var2;
             var _closure2_slot2 = var3;
             var5 = _closure1_slot0;
@@ -155,21 +155,21 @@ case 11:
 case 0:
                     var2 = _closure2_slot0;
                     var1 = 0;
-                    if(!var2) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
+                    if(!var2) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                     var4 = _closure1_slot3;
                     var3 = var4.roundToNearestPixel;
                     var2 = arg1;
                     var2 = var2.tabsHeight;
                     var7 = _closure2_slot1;
                     var5 = 0;
-                    if(var7) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+                    if(var7) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                     var5 = _closure2_slot2;
-case 15:
+case 16:
                     var2 = var2 + var5;
                     var1 = var3.bind(var4)(var2);
-case 13:
+case 14:
                     return var1;
                 }
             };
@@ -194,11 +194,11 @@ case 0:
             var1 = var1.bind(var4)();
             var4 = var1.isChatBesideChannelList;
             var1 = '100%';
-            if(!var4) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
+            if(!var4) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
             var2 = _closure1_slot4;
             var1 = var2 + var3;
-case 17:
+case 18:
             return var1;
         }
     };

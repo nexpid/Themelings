@@ -373,61 +373,61 @@ case 51:
         }
     };
     var _closure1_slot41 = var1;
-    var8 = global;
-    var10 = var8.Object;
+    var2 = global;
+    var10 = var2.Object;
     var9 = var10.defineProperty;
-    var2 = {};
+    var8 = {};
     var1 = true;
-    var2['value'] = var1;
+    var8['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var2);
-    var11 = 0;
-    var2 = var6[var11];
+    var1 = var9.bind(var10)(var3, var1, var8);
+    var8 = 0;
+    var9 = var6[var8];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 1;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 3;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = 5;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot8 = var2;
-    var2 = 6;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot9 = var2;
-    var2 = 7;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot10 = var2;
-    var2 = 8;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var9 = var2.CLIPS_HARDWARE_CLASSIFICATION_VERSION;
-    var _closure1_slot11 = var9;
-    var9 = var2.ClipSaveTypes;
-    var _closure1_slot12 = var9;
-    var10 = var2.ClipsLengthSettings;
-    var9 = var2.ClipsViewerConnectivitySettings;
-    var12 = var2.ClipsUserEducationType;
+    var9 = var7.bind(var1)(var9);
+    var _closure1_slot3 = var9;
+    var9 = 1;
+    var9 = var6[var9];
+    var9 = var7.bind(var1)(var9);
+    var _closure1_slot4 = var9;
+    var9 = 2;
+    var9 = var6[var9];
+    var9 = var7.bind(var1)(var9);
+    var _closure1_slot5 = var9;
+    var9 = 3;
+    var9 = var6[var9];
+    var9 = var7.bind(var1)(var9);
+    var _closure1_slot6 = var9;
+    var9 = 4;
+    var9 = var6[var9];
+    var9 = var7.bind(var1)(var9);
+    var _closure1_slot7 = var9;
+    var9 = 5;
+    var9 = var6[var9];
+    var9 = var7.bind(var1)(var9);
+    var _closure1_slot8 = var9;
+    var9 = 6;
+    var9 = var6[var9];
+    var9 = var7.bind(var1)(var9);
+    var _closure1_slot9 = var9;
+    var9 = 7;
+    var9 = var6[var9];
+    var9 = var7.bind(var1)(var9);
+    var _closure1_slot10 = var9;
+    var9 = 8;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var10 = var9.CLIPS_HARDWARE_CLASSIFICATION_VERSION;
+    var _closure1_slot11 = var10;
+    var10 = var9.ClipSaveTypes;
+    var _closure1_slot12 = var10;
+    var11 = var9.ClipsLengthSettings;
+    var10 = var9.ClipsViewerConnectivitySettings;
+    var12 = var9.ClipsUserEducationType;
     var _closure1_slot13 = var12;
-    var12 = var2.MAX_SIMULTANEOUS_SAVE_CLIP_OPERATIONS;
+    var12 = var9.MAX_SIMULTANEOUS_SAVE_CLIP_OPERATIONS;
     var _closure1_slot14 = var12;
-    var2 = var2.DEFAULT_MAX_AUTO_CLIPS;
+    var9 = var9.DEFAULT_MAX_AUTO_CLIPS;
     var12 = 9;
     var12 = var6[var12];
     var12 = var5.bind(var1)(var12);
@@ -435,64 +435,62 @@ case 51:
     var _closure1_slot15 = var12;
     var12 = 10;
     var12 = var6[var12];
-    var13 = var5.bind(var1)(var12);
-    var12 = var13.ApplicationStreamFPS;
-    var13 = var13.ApplicationStreamResolutions;
-    var14 = 'default';
-    var _closure1_slot16 = var14;
-    var14 = new Array(0);
-    var _closure1_slot17 = var14;
-    var14 = new Array(0);
-    var _closure1_slot18 = var14;
-    var14 = {};
-    var _closure1_slot19 = var14;
-    var14 = {};
-    var _closure1_slot20 = var14;
-    var14 = {};
-    var _closure1_slot21 = var14;
-    var14 = new Array(0);
-    var _closure1_slot22 = var14;
-    var14 = new Array(0);
-    var _closure1_slot23 = var14;
-    var14 = new Array(0);
-    var _closure1_slot24 = var14;
-    var _closure1_slot25 = var11;
-    var11 = null;
-    var _closure1_slot26 = var11;
-    var _closure1_slot27 = var11;
-    var14 = {};
-    var _closure1_slot28 = var14;
-    var _closure1_slot29 = var11;
-    var14 = new Array(0);
-    var _closure1_slot30 = var14;
-    var _closure1_slot31 = var11;
-    var11 = {};
-    var _closure1_slot32 = var11;
-    var8 = var8.Map;
-    var11 = var8.prototype;
-    var11 = Object.create(var11, {constructor: {value: var8}});
-    var18 = var11;
-    var8 = new var18[var8](var17);
-    var8 = var8 instanceof Object ? var8 : var11;
-    var _closure1_slot33 = var8;
+    var12 = var5.bind(var1)(var12);
+    var13 = var12.ApplicationStreamFPS;
+    var14 = var12.ApplicationStreamResolutions;
+    var12 = 'default';
+    var _closure1_slot16 = var12;
+    var12 = new Array(0);
+    var _closure1_slot17 = var12;
+    var12 = new Array(0);
+    var _closure1_slot18 = var12;
+    var12 = {};
+    var _closure1_slot19 = var12;
+    var12 = {};
+    var _closure1_slot20 = var12;
+    var12 = {};
+    var _closure1_slot21 = var12;
+    var12 = new Array(0);
+    var _closure1_slot22 = var12;
+    var12 = new Array(0);
+    var _closure1_slot23 = var12;
+    var12 = new Array(0);
+    var _closure1_slot24 = var12;
+    var _closure1_slot25 = var8;
+    var8 = null;
+    var _closure1_slot26 = var8;
+    var _closure1_slot27 = var8;
+    var12 = {};
+    var _closure1_slot28 = var12;
+    var _closure1_slot29 = var8;
+    var12 = new Array(0);
+    var _closure1_slot30 = var12;
+    var _closure1_slot31 = var8;
+    var8 = {};
+    var _closure1_slot32 = var8;
+    var2 = var2.Map;
+    var8 = var2.prototype;
+    var8 = Object.create(var8, {constructor: {value: var2}});
+    var18 = var8;
+    var2 = new var18[var2](var17);
+    var2 = var2 instanceof Object ? var2 : var8;
+    var _closure1_slot33 = var2;
     var8 = {'clipsEnabled': false, 'storageLocation': 'default', 'clipsQuality': null, 'clipsLength': null, 'remindersEnabled': true, 'decoupledClipsEnabled': false, 'viewerClipsEnabled': true};
-    var11 = {};
-    var13 = var13.RESOLUTION_1080;
-    var11['resolution'] = var13;
-    var12 = var12.FPS_30;
-    var11['frameRate'] = var12;
-    var8['clipsQuality'] = var11;
-    var10 = var10.SECONDS_30;
-    var8['clipsLength'] = var10;
-    var9 = var9.ALL;
-    var8['viewerConnectivity'] = var9;
-    var8['maxAutoClips'] = var2;
-    var2 = {'enableDistributedSignals': true, 'enablePhraseSignals': true, 'enableGameSignals': true};
-    var8['clipSignals'] = var2;
-    var2 = {'emotionClassifier': true, 'wakeWordDetector': false, 'yellDetector': true, 'whisperTranscription': true, 'laughterDetector': true};
-    var8['mlPipelinesEnabled'] = var2;
-    var2 = ['clip that', 'clip it', 'clip clip'];
-    var8['autoClipPhrases'] = var2;
+    var2 = false;
+    var12 = {};
+    var14 = var14.RESOLUTION_1080;
+    var12['resolution'] = var14;
+    var13 = var13.FPS_30;
+    var12['frameRate'] = var13;
+    var8['clipsQuality'] = var12;
+    var11 = var11.SECONDS_30;
+    var8['clipsLength'] = var11;
+    var10 = var10.ALL;
+    var8['viewerConnectivity'] = var10;
+    var8['maxAutoClips'] = var9;
+    var9 = {'enableDistributedSignals': true, 'enablePhraseSignals': true, 'enableGameSignals': true};
+    var8['clipSignals'] = var9;
+    var8['debugTooltipsEnabled'] = var2;
     var _closure1_slot34 = var8;
     var2 = {'clipsSettings': null, 'hardwareClassification': null, 'hardwareClassificationForDecoupled': null, 'hardwareClassificationVersion': 0, 'newClipIds': null, 'hasClips': false, 'hasTakenDecoupledClip': false, 'clipsEducationState': null, 'remindersDismissedUntil': null};
     var2['clipsSettings'] = var8;
@@ -1356,32 +1354,14 @@ case 88:
 case 11:
             var5 = 'maxAutoClips';
             var3[4] = var6;
-            var5 = var4.clipsSettings;
-            var6 = var5.clipSignals;
-            if(!(var2 == var6)) { _fun0026_ip = 89; continue _fun0026 }
-case 13:
-            var5 = _closure1_slot34;
-            var6 = var5.clipSignals;
-case 89:
-            var5 = 'clipSignals';
-            var3[4] = var6;
-            var5 = var4.clipsSettings;
-            var6 = var5.mlPipelinesEnabled;
-            if(!(var2 == var6)) { _fun0026_ip = 45; continue _fun0026 }
-case 90:
-            var5 = _closure1_slot34;
-            var6 = var5.mlPipelinesEnabled;
-case 45:
-            var5 = 'mlPipelinesEnabled';
-            var3[4] = var6;
             var4 = var4.clipsSettings;
-            var4 = var4.autoClipPhrases;
-            if(!(var2 == var4)) { _fun0026_ip = 41; continue _fun0026 }
-case 91:
+            var4 = var4.clipSignals;
+            if(!(var2 == var4)) { _fun0026_ip = 89; continue _fun0026 }
+case 13:
             var2 = _closure1_slot34;
-            var4 = var2.autoClipPhrases;
-case 41:
-            var2 = 'autoClipPhrases';
+            var4 = var2.clipSignals;
+case 89:
+            var2 = 'clipSignals';
             var3[1] = var4;
             var2 = 'clipsSettings';
             var1[1] = var3;
@@ -1390,40 +1370,22 @@ case 41:
     };
     var2[12] = var8;
     var8 = function(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
-case 0:
-            var2 = arg1;
-            var1 = {};
-            var7 = var1;
-            var6 = var2;
-            var3 = copyDataProperties(var7, var6);
-            var3 = {};
-            var6 = var2.clipsSettings;
-            var7 = var3;
-            var4 = copyDataProperties(var7, var6);
-            var4 = var2.clipsSettings;
-            var4 = var4.autoClipPhrases;
-            var5 = var4.length;
-            var4 = 0;
-            if(!(var4 !== var5)) { _fun0027_ip = 34; continue _fun0027 }
-case 85:
-            var2 = var2.clipsSettings;
-            var4 = var2.autoClipPhrases;
-            _fun0027_ip = 92; continue _fun0027;
-case 34:
-            var2 = _closure1_slot34;
-            var4 = var2.autoClipPhrases;
-case 92:
-            var2 = 'autoClipPhrases';
-            var3[1] = var4;
-            var2 = 'clipsSettings';
-            var1[1] = var3;
-            return var1;
-        }
+        var2 = arg1;
+        var1 = {};
+        var5 = var1;
+        var4 = var2;
+        var3 = copyDataProperties(var5, var4);
+        var3 = {};
+        var4 = var2.clipsSettings;
+        var5 = var3;
+        var2 = copyDataProperties(var5, var4);
+        var2 = 'clipsSettings';
+        var1[1] = var3;
+        return var1;
     };
     var2[13] = var8;
     var8 = function(arg1) {
-        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var2 = arg1;
             var1 = {};
@@ -1433,7 +1395,7 @@ case 0:
             var2 = var2.remindersDismissedUntil;
             var3 = null;
             var4 = var3 != var2;
-            if(!var4) { _fun0028_ip = 37; continue _fun0028 }
+            if(!var4) { _fun0027_ip = 37; continue _fun0027 }
 case 7:
             var3 = var2;
 case 37:
@@ -1471,7 +1433,7 @@ case 37:
     };
     var2['CLIPS_SETTINGS_UPDATE'] = var7;
     var7 = function handleSaveClip(arg1) {
-        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.clip;
@@ -1486,8 +1448,8 @@ case 0:
             var4 = var6.bind(var7)(var4, var11);
             _closure1_slot25 = var4;
             var4 = var1.isCandidate;
-            if(var4) { _fun0029_ip = 93; continue _fun0029 }
-case 94:
+            if(var4) { _fun0028_ip = 90; continue _fun0028 }
+case 91:
             var6 = {};
             var4 = var1.applicationName;
             var6['applicationName'] = var4;
@@ -1501,14 +1463,14 @@ case 94:
             var10 = var7 == var8;
             var4 = undefined;
             var9 = undefined;
-            if(var10) { _fun0029_ip = 95; continue _fun0029 }
-case 96:
+            if(var10) { _fun0028_ip = 92; continue _fun0028 }
+case 93:
             var9 = var8.newClipIds;
+case 92:
+            if(!(var7 == var9)) { _fun0028_ip = 94; continue _fun0028 }
 case 95:
-            if(!(var7 == var9)) { _fun0029_ip = 97; continue _fun0029 }
-case 90:
             var9 = new Array(0);
-case 97:
+case 94:
             var8 = new Array(1);
             var14 = var8;
             var13 = var9;
@@ -1526,10 +1488,10 @@ case 97:
             var8 = copyDataProperties(var14, var13);
             var8 = _closure1_slot35;
             var10 = var8.newClipIds;
-            if(!(var7 == var10)) { _fun0029_ip = 98; continue _fun0029 }
-case 99:
+            if(!(var7 == var10)) { _fun0028_ip = 96; continue _fun0028 }
+case 97:
             var10 = new Array(0);
-case 98:
+case 96:
             var8 = new Array(1);
             var14 = var8;
             var13 = var10;
@@ -1567,13 +1529,13 @@ case 98:
             var6 = var1.id;
             var8[var6] = var1;
             var6 = var1.remoteClipId;
-            if(!(var7 != var6)) { _fun0029_ip = 100; continue _fun0029 }
-case 101:
+            if(!(var7 != var6)) { _fun0028_ip = 98; continue _fun0028 }
+case 99:
             var8 = _closure1_slot21;
             var7 = var1.remoteClipId;
             var6 = var1.id;
             var8[var7] = var6;
-case 100:
+case 98:
             var7 = var1.id;
             var6 = new Array(1);
             var6[0] = var7;
@@ -1586,7 +1548,7 @@ case 100:
             var6 = true;
             var7['hasClips'] = var6;
             return var4;
-case 93:
+case 90:
             var6 = _closure1_slot23;
             var4 = var6.filter;
             var3 = function(arg1) {
@@ -1648,7 +1610,7 @@ case 93:
     };
     var2['CLIPS_SAVE_CLIP_CANDIDATE_ERROR'] = var7;
     var7 = function handlePromoteClipCandidate(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.clip;
@@ -1667,14 +1629,14 @@ case 0:
             var10 = var8 == var9;
             var1 = undefined;
             var6 = undefined;
-            if(var10) { _fun0030_ip = 102; continue _fun0030 }
+            if(var10) { _fun0029_ip = 100; continue _fun0029 }
 case 3:
             var6 = var9.newClipIds;
+case 100:
+            if(!(var8 == var6)) { _fun0029_ip = 101; continue _fun0029 }
 case 102:
-            if(!(var8 == var6)) { _fun0030_ip = 103; continue _fun0030 }
-case 92:
             var6 = new Array(0);
-case 103:
+case 101:
             var10 = new Array(1);
             var14 = var10;
             var13 = var6;
@@ -1693,10 +1655,10 @@ case 103:
             var10 = copyDataProperties(var14, var13);
             var10 = _closure1_slot35;
             var10 = var10.newClipIds;
-            if(!(var8 == var10)) { _fun0030_ip = 104; continue _fun0030 }
-case 105:
-            var10 = new Array(0);
+            if(!(var8 == var10)) { _fun0029_ip = 103; continue _fun0029 }
 case 104:
+            var10 = new Array(0);
+case 103:
             var8 = new Array(1);
             var14 = var8;
             var13 = var10;
@@ -1773,7 +1735,7 @@ case 104:
     };
     var2['CLIPS_SAVE_CLIP_PLACEHOLDER_ERROR'] = var7;
     var7 = function handleSaveClipStart(arg1) {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var1 = arg1;
             var8 = var1.clipType;
@@ -1785,7 +1747,7 @@ case 0:
             _closure1_slot25 = var1;
             var4 = _closure1_slot35;
             var1 = var4.hasTakenDecoupledClip;
-            if(var1) { _fun0031_ip = 43; continue _fun0031 }
+            if(var1) { _fun0030_ip = 43; continue _fun0030 }
 case 70:
             var6 = _closure1_slot12;
             var6 = var6.DECOUPLED;
@@ -1793,27 +1755,27 @@ case 70:
 case 43:
             var4['hasTakenDecoupledClip'] = var1;
             var1 = null;
-            if(!(var1 != var3)) { _fun0031_ip = 106; continue _fun0031 }
-case 92:
-            if(!(var1 != var7)) { _fun0031_ip = 106; continue _fun0031 }
-case 103:
+            if(!(var1 != var3)) { _fun0030_ip = 105; continue _fun0030 }
+case 102:
+            if(!(var1 != var7)) { _fun0030_ip = 105; continue _fun0030 }
+case 101:
             var4 = global;
             var6 = var4.Date;
             var4 = var6.now;
             var8 = var4.bind(var6)();
             var6 = _closure1_slot31;
             var4 = var8;
-            if(!(var1 != var6)) { _fun0031_ip = 107; continue _fun0031 }
-case 108:
-            var4 = _closure1_slot31;
+            if(!(var1 != var6)) { _fun0030_ip = 106; continue _fun0030 }
 case 107:
+            var4 = _closure1_slot31;
+case 106:
             _closure1_slot31 = var4;
             var2 = _closure1_slot32;
             var6 = var2[var3];
-            if(!(var1 == var6)) { _fun0031_ip = 109; continue _fun0031 }
-case 110:
-            var6 = new Array(0);
+            if(!(var1 == var6)) { _fun0030_ip = 108; continue _fun0030 }
 case 109:
+            var6 = new Array(0);
+case 108:
             var1 = new Array(1);
             var9 = 0;
             var11 = var1;
@@ -1825,7 +1787,7 @@ case 109:
             var1[3] = var6;
             var4 = var4 + var5;
             var2[var3] = var1;
-case 106:
+case 105:
             var1 = undefined;
             return var1;
         }
@@ -1846,21 +1808,21 @@ case 106:
     };
     var2['CLIPS_SAVE_CLIP_ERROR'] = var7;
     var7 = function handleStreamClipAnimationEnd(arg1) {
-        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.streamKey;
             var6 = var2.timestamp;
             var _closure2_slot0 = var6;
             var2 = _closure1_slot31;
-            if(!(var2 === var6)) { _fun0032_ip = 65; continue _fun0032 }
+            if(!(var2 === var6)) { _fun0031_ip = 65; continue _fun0031 }
 case 75:
             var2 = null;
             _closure1_slot31 = var2;
 case 65:
             var2 = _closure1_slot32;
             var5 = null;
-            if(!(var5 != var6)) { _fun0032_ip = 111; continue _fun0032 }
+            if(!(var5 != var6)) { _fun0031_ip = 110; continue _fun0031 }
 case 88:
             var4 = _closure1_slot32;
             var5 = var4[var3];
@@ -1873,10 +1835,10 @@ case 88:
                 return var1;
             };
             var1 = var4.bind(var5)(var1);
-            _fun0032_ip = 112; continue _fun0032;
-case 111:
+            _fun0031_ip = 111; continue _fun0031;
+case 110:
             var1 = new Array(0);
-case 112:
+case 111:
             var2[var3] = var1;
             var1 = undefined;
             return var1;
@@ -1884,7 +1846,7 @@ case 112:
     };
     var2['CLIPS_SAVE_ANIMATION_END'] = var7;
     var7 = function handleStreamStart(arg1) {
-        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.sourceName;
@@ -1892,35 +1854,35 @@ case 0:
             var1 = _closure1_slot35;
             var1 = var1.clipsSettings;
             var1 = var1.clipsEnabled;
-            if(var1) { _fun0033_ip = 50; continue _fun0033 }
-case 113:
+            if(var1) { _fun0032_ip = 50; continue _fun0032 }
+case 112:
             var1 = false;
             return var1;
 case 50:
             var1 = null;
             var3 = var4;
-            if(!(var1 != var7)) { _fun0033_ip = 114; continue _fun0033 }
-case 115:
+            if(!(var1 != var7)) { _fun0032_ip = 113; continue _fun0032 }
+case 114:
             var6 = _closure1_slot9;
             var5 = var6.getGameForPID;
             var6 = var5.bind(var6)(var7);
             var7 = var1 == var6;
             var5 = undefined;
-            if(var7) { _fun0033_ip = 116; continue _fun0033 }
+            if(var7) { _fun0032_ip = 115; continue _fun0032 }
 case 4:
             var5 = var6.name;
+case 115:
+            if(!(var1 != var5)) { _fun0032_ip = 13; continue _fun0032 }
 case 116:
-            if(!(var1 != var5)) { _fun0033_ip = 13; continue _fun0033 }
-case 117:
             var4 = var5;
 case 13:
             var3 = var4;
-case 114:
-            if(!(var1 != var3)) { _fun0033_ip = 110; continue _fun0033 }
-case 118:
+case 113:
+            if(!(var1 != var3)) { _fun0032_ip = 109; continue _fun0032 }
+case 117:
             var1 = '';
-            if(!(var1 !== var3)) { _fun0033_ip = 110; continue _fun0033 }
-case 119:
+            if(!(var1 !== var3)) { _fun0032_ip = 109; continue _fun0032 }
+case 118:
             var1 = {};
             var1['applicationName'] = var3;
             var3 = new Array(0);
@@ -1930,14 +1892,14 @@ case 119:
             _closure1_slot27 = var1;
             var1 = undefined;
             return var1;
-case 110:
+case 109:
             var1 = false;
             return var1;
         }
     };
     var2['STREAM_START'] = var7;
     var7 = function handleStreamStop(arg1) {
-        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.streamKey;
@@ -1948,7 +1910,7 @@ case 0:
             var2[var6] = var1;
             var1 = _closure1_slot27;
             var1 = var3 != var1;
-            if(!var1) { _fun0034_ip = 120; continue _fun0034 }
+            if(!var1) { _fun0033_ip = 119; continue _fun0033 }
 case 50:
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -1963,15 +1925,15 @@ case 50:
             var2 = var6.getId;
             var2 = var2.bind(var6)();
             var2 = var5 === var2;
-            if(!var2) { _fun0034_ip = 105; continue _fun0034 }
-case 119:
+            if(!var2) { _fun0033_ip = 104; continue _fun0033 }
+case 118:
             var5 = _closure1_slot27;
             var5 = var5.newClipIds;
             var6 = var5.length;
             var5 = 0;
             var3 = null;
-            if(!(var5 !== var6)) { _fun0034_ip = 121; continue _fun0034 }
-case 90:
+            if(!(var5 !== var6)) { _fun0033_ip = 120; continue _fun0033 }
+case 95:
             var5 = {};
             var8 = _closure1_slot27;
             var9 = var5;
@@ -1980,27 +1942,27 @@ case 90:
             var6 = 'ended';
             var5[5] = var7;
             var3 = var5;
-case 121:
+case 120:
             _closure1_slot27 = var3;
             var2 = undefined;
-case 105:
+case 104:
             var1 = var2;
-case 120:
+case 119:
             return var1;
         }
     };
     var2['STREAM_STOP'] = var7;
     var7 = function handleClearClipsSession() {
-        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
+        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var3 = _closure1_slot27;
             var1 = null;
-            if(!(var1 != var3)) { _fun0035_ip = 122; continue _fun0035 }
-case 123:
+            if(!(var1 != var3)) { _fun0034_ip = 121; continue _fun0034 }
+case 122:
             _closure1_slot27 = var1;
             var1 = undefined;
             return var1;
-case 122:
+case 121:
             var1 = false;
             return var1;
         }
@@ -2034,7 +1996,7 @@ case 122:
     };
     var2['CLIPS_REMOVE_SINGLE_NEW_CLIP_ID'] = var7;
     var7 = function handleClipsDirectoryLoaded(arg1) {
-        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
+        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
             var1 = new Array(0);
             _closure1_slot18 = var1;
@@ -2048,11 +2010,11 @@ case 0:
             var4 = var6.bind(var1)();
             var3 = var4.done;
             var5 = null;
-            if(var3) { _fun0036_ip = 124; continue _fun0036 }
+            if(var3) { _fun0035_ip = 123; continue _fun0035 }
 case 85:
             var8 = var4.value;
             var3 = var8.isCandidate;
-            if(var3) { _fun0036_ip = 82; continue _fun0036 }
+            if(var3) { _fun0035_ip = 82; continue _fun0035 }
 case 34:
             var7 = _closure1_slot19;
             var3 = var8.id;
@@ -2062,13 +2024,13 @@ case 34:
             var3 = var8.id;
             var3 = var7.bind(var9)(var3);
             var3 = var8.remoteClipId;
-            if(!(var5 != var3)) { _fun0036_ip = 105; continue _fun0036 }
-case 125:
+            if(!(var5 != var3)) { _fun0035_ip = 104; continue _fun0035 }
+case 124:
             var9 = _closure1_slot21;
             var7 = var8.remoteClipId;
             var3 = var8.id;
             var9[var7] = var3;
-            _fun0036_ip = 105; continue _fun0036;
+            _fun0035_ip = 104; continue _fun0035;
 case 82:
             var7 = _closure1_slot20;
             var3 = var8.id;
@@ -2076,12 +2038,12 @@ case 82:
             var7 = _closure1_slot24;
             var3 = var7.push;
             var3 = var3.bind(var7)(var8);
-case 105:
+case 104:
             var7 = var6.bind(var1)();
             var3 = var7.done;
             var4 = var7;
-            if(!var3) { _fun0036_ip = 85; continue _fun0036 }
-case 124:
+            if(!var3) { _fun0035_ip = 85; continue _fun0035 }
+case 123:
             var3 = _closure1_slot35;
             var2 = _closure1_slot18;
             var4 = var2.length;
@@ -2093,7 +2055,7 @@ case 124:
     };
     var2['CLIPS_LOAD_DIRECTORY_SUCCESS'] = var7;
     var7 = function handleClipsDelete(arg1) {
-        _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
+        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
@@ -2132,12 +2094,12 @@ case 0:
             var6 = var5 == var3;
             var1 = undefined;
             var4 = undefined;
-            if(var6) { _fun0037_ip = 108; continue _fun0037 }
+            if(var6) { _fun0036_ip = 107; continue _fun0036 }
 case 54:
             var4 = var3.remoteClipId;
-case 108:
-            if(!(var5 != var4)) { _fun0037_ip = 82; continue _fun0037 }
 case 107:
+            if(!(var5 != var4)) { _fun0036_ip = 82; continue _fun0036 }
+case 106:
             var4 = _closure1_slot21;
             var3 = var3.remoteClipId;
             var3 = delete var4[var3];
@@ -2145,41 +2107,41 @@ case 82:
             var3 = _closure1_slot18;
             var4 = var3.length;
             var3 = 0;
-            if(!(var3 === var4)) { _fun0037_ip = 105; continue _fun0037 }
+            if(!(var3 === var4)) { _fun0036_ip = 104; continue _fun0036 }
 case 48:
             var3 = _closure1_slot35;
             var2 = false;
             var3['hasClips'] = var2;
-case 105:
+case 104:
             return var1;
         }
     };
     var2['CLIPS_DELETE_CLIP'] = var7;
     var7 = function handleClipMetadataUpdate(arg1) {
-        _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
+        _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.clip;
             var2 = var3.isCandidate;
-            if(var2) { _fun0038_ip = 34; continue _fun0038 }
-case 122:
+            if(var2) { _fun0037_ip = 34; continue _fun0037 }
+case 121:
             var4 = _closure1_slot19;
             var2 = var3.id;
             var4[var2] = var3;
             var4 = var3.remoteClipId;
             var2 = null;
-            if(!(var2 != var4)) { _fun0038_ip = 92; continue _fun0038 }
+            if(!(var2 != var4)) { _fun0037_ip = 102; continue _fun0037 }
 case 6:
             var5 = _closure1_slot21;
             var4 = var3.remoteClipId;
             var2 = var3.id;
             var5[var4] = var2;
-            _fun0038_ip = 92; continue _fun0038;
+            _fun0037_ip = 102; continue _fun0037;
 case 34:
             var2 = _closure1_slot20;
             var1 = var3.id;
             var2[var1] = var3;
-case 92:
+case 102:
             var1 = undefined;
             return var1;
         }
@@ -2229,12 +2191,12 @@ case 92:
     };
     var2['CLIPS_SHOW_CALL_WARNING'] = var7;
     var7 = function handleVoiceChannelSelect(arg1) {
-        _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
+        _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.channelId;
             var1 = _closure1_slot26;
-            if(!(var3 !== var1)) { _fun0039_ip = 64; continue _fun0039 }
+            if(!(var3 !== var1)) { _fun0038_ip = 64; continue _fun0038 }
 case 59:
             var1 = null;
             _closure1_slot26 = var1;
@@ -2245,7 +2207,7 @@ case 64:
     };
     var2['VOICE_CHANNEL_SELECT'] = var7;
     var7 = function handleClassifyHardware(arg1) {
-        _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
+        _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.classification;
@@ -2267,8 +2229,8 @@ case 0:
             var3 = var3.ClipsHardwareClassification;
             var3 = var3.MEETS_AUTO_ENABLE;
             var3 = var5 === var3;
-            if(!var3) { _fun0040_ip = 82; continue _fun0040 }
-case 126:
+            if(!var3) { _fun0039_ip = 82; continue _fun0039 }
+case 125:
             var8 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var7];
@@ -2277,13 +2239,13 @@ case 126:
             var5 = var5.MEETS_AUTO_ENABLE;
             var3 = var6 !== var5;
 case 82:
-            if(!var3) { _fun0040_ip = 121; continue _fun0040 }
-case 127:
+            if(!var3) { _fun0039_ip = 120; continue _fun0039 }
+case 126:
             var3 = _closure1_slot35;
             var5 = var3.clipsSettings;
             var3 = true;
             var5['clipsEnabled'] = var3;
-case 121:
+case 120:
             var3 = _closure1_slot35;
             var5 = var3.hardwareClassificationForDecoupled;
             var3 = _closure1_slot35;
@@ -2297,8 +2259,8 @@ case 121:
             var3 = var3.ClipsHardwareClassification;
             var3 = var3.MEETS_AUTO_ENABLE;
             var3 = var4 === var3;
-            if(!var3) { _fun0040_ip = 128; continue _fun0040 }
-case 129:
+            if(!var3) { _fun0039_ip = 127; continue _fun0039 }
+case 128:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var7];
@@ -2306,26 +2268,26 @@ case 129:
             var4 = var4.ClipsHardwareClassification;
             var4 = var4.MEETS_AUTO_ENABLE;
             var3 = var5 !== var4;
-case 128:
-            if(!var3) { _fun0040_ip = 130; continue _fun0040 }
-case 131:
+case 127:
+            if(!var3) { _fun0039_ip = 129; continue _fun0039 }
+case 130:
             var4 = _closure1_slot35;
             var4 = var4.clipsSettings;
             var3 = var4.clipsEnabled;
-case 130:
-            if(!var3) { _fun0040_ip = 132; continue _fun0040 }
-case 133:
+case 129:
+            if(!var3) { _fun0039_ip = 131; continue _fun0039 }
+case 132:
             var2 = _closure1_slot35;
             var3 = var2.clipsSettings;
             var2 = true;
             var3['decoupledClipsEnabled'] = var2;
-case 132:
+case 131:
             return var1;
         }
     };
     var2['CLIPS_CLASSIFY_HARDWARE'] = var7;
     var7 = function handleClipsInit(arg1) {
-        _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
+        _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.applicationName;
@@ -2335,8 +2297,8 @@ case 0:
             var1 = var1.clipsSettings;
             var1 = var1.clipsEnabled;
             var3 = false;
-            if(var1) { _fun0041_ip = 50; continue _fun0041 }
-case 134:
+            if(var1) { _fun0040_ip = 50; continue _fun0040 }
+case 133:
             return var3;
 case 50:
             var1 = {};
@@ -2359,21 +2321,21 @@ case 50:
     };
     var2['CLIPS_INIT_FAILURE'] = var7;
     var7 = function handleDismissClipsEducation(arg1) {
-        _fun0042: for(var _fun0042_ip = 0; ; ) switch(_fun0042_ip) {
+        _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.educationType;
             var1 = _closure1_slot13;
             var1 = var1.Error;
-            if(!(var1 !== var3)) { _fun0042_ip = 45; continue _fun0042 }
+            if(!(var1 !== var3)) { _fun0041_ip = 45; continue _fun0041 }
 case 73:
             var1 = _closure1_slot13;
             var1 = var1.Disabled;
-            if(!(var1 !== var3)) { _fun0042_ip = 8; continue _fun0042 }
+            if(!(var1 !== var3)) { _fun0041_ip = 8; continue _fun0041 }
 case 50:
             var1 = _closure1_slot13;
             var1 = var1.Enabled;
-            if(!(var1 === var3)) { _fun0042_ip = 135; continue _fun0042 }
+            if(!(var1 === var3)) { _fun0041_ip = 134; continue _fun0041 }
 case 8:
             var1 = _closure1_slot35;
             var3 = var1.clipsEducationState;
@@ -2392,24 +2354,24 @@ case 8:
             var1 = 1;
             var1 = var4 + var1;
             var3['numberOfTimesDismissed'] = var1;
-            _fun0042_ip = 135; continue _fun0042;
+            _fun0041_ip = 134; continue _fun0041;
 case 45:
             var1 = null;
             _closure1_slot29 = var1;
-case 135:
+case 134:
             var1 = undefined;
             return var1;
         }
     };
     var2['CLIPS_DISMISS_EDUCATION'] = var7;
     var7 = function handleRunningGamesChange(arg1) {
-        _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
+        _fun0042: for(var _fun0042_ip = 0; ; ) switch(_fun0042_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.added;
             var2 = var1.length;
             var1 = 0;
-            if(!(var2 > var1)) { _fun0043_ip = 78; continue _fun0043 }
+            if(!(var2 > var1)) { _fun0042_ip = 78; continue _fun0042 }
 case 33:
             var1 = _closure1_slot35;
             var2 = var1.clipsEducationState;
@@ -2424,15 +2386,15 @@ case 78:
     };
     var2['RUNNING_GAMES_CHANGE'] = var7;
     var7 = function handleSetExporting(arg1) {
-        _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
+        _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.clipIds;
             var1 = null;
-            if(!(var1 == var2)) { _fun0044_ip = 122; continue _fun0044 }
-case 136:
+            if(!(var1 == var2)) { _fun0043_ip = 121; continue _fun0043 }
+case 135:
             var2 = new Array(0);
-case 122:
+case 121:
             _closure1_slot30 = var2;
             var1 = undefined;
             return var1;
@@ -2467,7 +2429,7 @@ case 122:
     };
     var2['CLIPS_CLEAR_REMINDER_SNOOZE'] = var7;
     var7 = function handleMessageCreate(arg1) {
-        _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
+        _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
 case 0:
             var2 = arg1;
             var5 = _closure1_slot41;
@@ -2475,26 +2437,26 @@ case 0:
             var1 = var2.message;
             var3 = var1.attachments;
             var1 = null;
-            if(!(var1 == var3)) { _fun0045_ip = 137; continue _fun0045 }
+            if(!(var1 == var3)) { _fun0044_ip = 136; continue _fun0044 }
 case 75:
             var3 = new Array(0);
-case 137:
+case 136:
             var2 = var2.message;
             var6 = var2.author;
             var7 = var1 == var6;
             var2 = undefined;
             var1 = undefined;
-            if(var7) { _fun0045_ip = 138; continue _fun0045 }
-case 139:
-            var1 = var6.id;
+            if(var7) { _fun0044_ip = 137; continue _fun0044 }
 case 138:
+            var1 = var6.id;
+case 137:
             var1 = var5.bind(var2)(var4, var3, var1);
             return var1;
         }
     };
     var2['MESSAGE_CREATE'] = var7;
     var7 = function handleLoadMessagesSuccess(arg1) {
-        _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
+        _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
 case 0:
             var11 = arg1;
             var2 = _closure1_slot38;
@@ -2509,36 +2471,36 @@ case 0:
             var4 = undefined;
             var3 = undefined;
             var1 = false;
-            if(var2) { _fun0046_ip = 127; continue _fun0046 }
+            if(var2) { _fun0045_ip = 126; continue _fun0045 }
 case 88:
             var2 = var6.value;
-            if(var5) { _fun0046_ip = 140; continue _fun0046 }
+            if(var5) { _fun0045_ip = 139; continue _fun0045 }
 case 32:
             var16 = _closure1_slot41;
             var15 = var11.channelId;
             var12 = var2.attachments;
             var14 = var12;
-            if(!(var7 == var12)) { _fun0046_ip = 141; continue _fun0046 }
+            if(!(var7 == var12)) { _fun0045_ip = 140; continue _fun0045 }
 case 67:
             var14 = new Array(0);
-case 141:
+case 140:
             var2 = var2.author;
             var17 = var7 == var2;
             var13 = undefined;
-            if(var17) { _fun0046_ip = 142; continue _fun0046 }
-case 126:
+            if(var17) { _fun0045_ip = 141; continue _fun0045 }
+case 125:
             var13 = var2.id;
-case 142:
+case 141:
             var5 = var16.bind(var9)(var15, var14, var13);
             var4 = var12;
             var3 = var2;
-case 140:
+case 139:
             var13 = var8.bind(var9)();
             var2 = var13.done;
             var6 = var13;
             var1 = var5;
-            if(!var2) { _fun0046_ip = 88; continue _fun0046 }
-case 127:
+            if(!var2) { _fun0045_ip = 88; continue _fun0045 }
+case 126:
             return var1;
         }
     };

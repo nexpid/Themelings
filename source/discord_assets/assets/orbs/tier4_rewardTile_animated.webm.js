@@ -1,4 +1,4 @@
-// discord_assets/assets/premium/referral_trial/share_confirmation_header_light.png.js
+// discord_assets/assets/orbs/tier4_rewardTile_animated.webm.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/premium/referral_trial/share_confirmation_header_light.png.js';
+    var2 = '../discord_assets/assets/orbs/tier4_rewardTile_animated.webm.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/43c4ccf0a7fae40797287acb0dbdf4073e92b3a20a711b1da1d967e7a2e7465d.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/926d445a2ed98a4feaf27f2eda8553aeca4d16f70bd6c2adc90f891c1805eade.webm';
     var3['default'] = var2;
     var2 = {};
-    var4 = 296125;
+    var4 = 413575;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

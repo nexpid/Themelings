@@ -116,33 +116,53 @@ case 2:
             var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var5 = arg1;
+                    var6 = arg1;
                     var2 = _closure2_slot2;
-                    var4 = 'gave';
-                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var6 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 8;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var3 = var6.bind(var2)(var3);
-                    var2 = var3.getBoostLifecyclePhase;
-                    var1 = _closure2_slot4;
-                    var4 = var2.bind(var3)(var5, var1);
+                    var2 = {};
+                    var3 = 'gave';
+                    var2['phase'] = var3;
+                    _fun0002_ip = 6; continue _fun0002;
 case 4:
-                    var1 = {};
-                    var1['boost'] = var5;
-                    var1['phase'] = var4;
-                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 8;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var4 = var5.bind(var3)(var4);
+                    var3 = var4.getBoostLifecycleInfo;
+                    var1 = _closure2_slot4;
+                    var2 = var3.bind(var4)(var6, var1);
+case 6:
+                    var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 8;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var3 = var6.bind(var2)(var3);
-                    var2 = var3.getBoostLifecycleTimestamp;
-                    var2 = var2.bind(var3)(var5, var4);
-                    var1['sortKey'] = var2;
+                    var1 = 8;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var3 = var4.bind(var1)(var3);
+                    var1 = var3.getBoostLifecycleTimestamp;
+                    var4 = var1.bind(var3)(var6, var2);
+                    var1 = var2.phase;
+                    var5 = 'expiring';
+                    var3 = var2;
+                    if(!(var5 !== var1)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+                    var1 = {};
+                    var1['boost'] = var6;
+                    var2 = var3.phase;
+                    var1['phase'] = var2;
+                    var1['sortKey'] = var4;
+                    _fun0002_ip = 9; continue _fun0002;
+case 7:
+                    var2 = {};
+                    var2['boost'] = var6;
+                    var2['phase'] = var5;
+                    var2['sortKey'] = var4;
+                    var3 = var3.endsAt;
+                    var2['endsAt'] = var3;
+                    var1 = var2;
+case 9:
                     return var1;
                 }
             };
@@ -196,13 +216,13 @@ case 0:
                     var2 = var1.userId;
                     var3 = var4.bind(var5)(var3, var2);
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                    if(!(var2 == var3)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var3 = _closure3_slot0;
                     var2 = var3.add;
                     var1 = var1.userId;
                     var1 = var2.bind(var3)(var1);
-case 6:
+case 10:
                     var1 = undefined;
                     return var1;
                 }
@@ -225,8 +245,8 @@ case 0:
                 var2 = _closure2_slot6;
                 var3 = var2.length;
                 var2 = 0;
-                if(!(var3 > var2)) { _fun0004_ip = 8; continue _fun0004 }
-case 9:
+                if(!(var3 > var2)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                 var3 = _closure2_slot6;
                 var2 = var3.forEach;
                 var1 = function(arg1) {
@@ -238,7 +258,7 @@ case 9:
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
-case 8:
+case 12:
                 var1 = undefined;
                 return var1;
             }
@@ -260,10 +280,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0005_ip = 10; continue _fun0005 }
-case 11:
+                if(var3) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                 var1 = var2.premiumSubscriberCount;
-case 10:
+case 14:
                 return var1;
             }
         };
@@ -319,17 +339,17 @@ case 0:
                 var1 = _closure2_slot8;
                 var1 = var2 !== var1;
                 if(var1) { _fun0006_ip = 2; continue _fun0006 }
-case 9:
-                var2 = _closure2_slot2;
-                if(!var2) { _fun0006_ip = 12; continue _fun0006 }
 case 13:
+                var2 = _closure2_slot2;
+                if(!var2) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
                 var3 = _closure2_slot9;
                 var2 = !var3;
-case 12:
+case 16:
                 var1 = var2;
 case 2:
-                if(!var1) { _fun0006_ip = 14; continue _fun0006 }
-case 15:
+                if(!var1) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 9;
@@ -342,7 +362,7 @@ case 15:
                 var5 = _closure2_slot2;
                 var1['includeEnded'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
-case 14:
+case 18:
                 var1 = undefined;
                 return var1;
             }
@@ -395,20 +415,20 @@ case 0:
                 var2 = var2.userId;
                 var3 = var7.bind(var8)(var3, var2);
                 var2 = null;
-                if(!(var2 == var3)) { _fun0007_ip = 16; continue _fun0007 }
-case 17:
+                if(!(var2 == var3)) { _fun0007_ip = 20; continue _fun0007 }
+case 21:
                 var6 = _closure2_slot0;
                 var7 = var6.user;
                 var8 = var2 == var7;
                 var6 = undefined;
-                if(var8) { _fun0007_ip = 14; continue _fun0007 }
-case 18:
+                if(var8) { _fun0007_ip = 18; continue _fun0007 }
+case 22:
                 var6 = var7.username;
-case 14:
+case 18:
                 var3 = var6;
-case 16:
-                if(!(var2 == var3)) { _fun0007_ip = 19; continue _fun0007 }
 case 20:
+                if(!(var2 == var3)) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var5 = 11;
@@ -422,33 +442,33 @@ case 20:
                 var5 = var5.t;
                 var5 = var5["30mdIx"];
                 var3 = var6.bind(var7)(var5);
-case 19:
+case 23:
                 var1['username'] = var3;
                 var5 = var2 == var4;
                 var6 = undefined;
-                if(var5) { _fun0007_ip = 21; continue _fun0007 }
-case 22:
+                if(var5) { _fun0007_ip = 25; continue _fun0007 }
+case 26:
                 var6 = var4.colorString;
-case 21:
+case 25:
                 var7 = var2 != var6;
                 var5 = null;
-                if(!var7) { _fun0007_ip = 23; continue _fun0007 }
-case 24:
+                if(!var7) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
                 var5 = var6;
-case 23:
+case 27:
                 var1['roleColor'] = var5;
                 var5 = var2 == var4;
                 var3 = undefined;
-                if(var5) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
+                if(var5) { _fun0007_ip = 29; continue _fun0007 }
+case 30:
                 var3 = var4.colorStrings;
-case 25:
+case 29:
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+                if(!var4) { _fun0007_ip = 31; continue _fun0007 }
+case 32:
                 var2 = var3;
-case 27:
+case 31:
                 var1['roleColorStrings'] = var2;
                 return var1;
             }

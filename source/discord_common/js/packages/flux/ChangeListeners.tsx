@@ -30,13 +30,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var4 = var5.bind(var1)(var3, var4);
             var4 = global;
+            var5 = var4.Set;
+            var6 = var5.prototype;
+            var6 = Object.create(var6, {constructor: {value: var5}});
+            var9 = var6;
+            var5 = new var9[var5](var8);
+            var5 = var5 instanceof Object ? var5 : var6;
+            var3['listeners'] = var5;
             var4 = var4.Set;
             var5 = var4.prototype;
             var5 = Object.create(var5, {constructor: {value: var4}});
-            var8 = var5;
-            var4 = new var8[var4](var7);
+            var9 = var5;
+            var4 = new var9[var4](var8);
             var4 = var4 instanceof Object ? var4 : var5;
-            var3['listeners'] = var4;
+            var3['conditionalListeners'] = var4;
             var4 = function(arg1) {
                 var1 = _closure3_slot0;
                 var3 = var1.listeners;
@@ -48,16 +55,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['add'] = var4;
             var4 = function(arg1) {
+                var3 = arg1;
                 var1 = _closure3_slot0;
-                var3 = var1.listeners;
-                var2 = var3.delete;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1);
+                var4 = var1.listeners;
+                var2 = var4.delete;
+                var2 = var2.bind(var4)(var3);
+                var2 = var1.conditionalListeners;
+                var1 = var2.delete;
+                var1 = var1.bind(var2)(var3);
                 var1 = undefined;
                 return var1;
             };
             var3['remove'] = var4;
-            var2 = function(arg1) {
+            var4 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     var3 = arg1;
@@ -93,14 +103,37 @@ case 7:
                         }
                     };
                     _closure4_slot1 = var4;
-                    var3 = _closure3_slot0;
+                    var2 = _closure3_slot0;
+                    var3 = var2.add;
+                    var3 = var3.bind(var2)(var4);
+                    var3 = var2.conditionalListeners;
                     var2 = var3.add;
                     var2 = var2.bind(var3)(var4);
 case 6:
                     return var1;
                 }
             };
-            var3['addConditional'] = var2;
+            var3['addConditional'] = var4;
+            var2 = function() {
+                var1 = _closure3_slot0;
+                var4 = var1.conditionalListeners;
+                var3 = var4.forEach;
+                var2 = function(arg1) {
+                    var1 = _closure3_slot0;
+                    var3 = var1.listeners;
+                    var2 = var3.delete;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var2 = var3.bind(var4)(var2);
+                var2 = var1.conditionalListeners;
+                var1 = var2.clear;
+                var1 = var1.bind(var2)();
+                var1 = undefined;
+                return var1;
+            };
+            var3['removeAllConditional'] = var2;
             return var1;
         };
         var _closure2_slot0 = var3;

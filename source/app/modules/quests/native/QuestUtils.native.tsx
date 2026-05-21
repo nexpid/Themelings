@@ -602,7 +602,7 @@ case 49:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var6 = 32;
+    var6 = 33;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -1004,7 +1004,7 @@ case 101:
         }
     };
     var3['getPrimaryCtaIcon'] = var4;
-    var2 = function showQuestUnavailableAlert() {
+    var4 = function showQuestUnavailableAlert() {
         var16 = _closure1_slot0;
         var17 = _closure1_slot2;
         var1 = 30;
@@ -1090,6 +1090,76 @@ case 101:
         var2 = var4.bind(var5)(var2, var3);
         return var1;
     };
-    var3['showQuestUnavailableAlert'] = var2;
+    var3['showQuestUnavailableAlert'] = var4;
+    var2 = function dismissOverlayScreens() {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 23;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.getRootNavigationRef;
+            var4 = var3.bind(var4)();
+            var3 = null;
+            if(!(var3 != var4)) { _fun0014_ip = 102; continue _fun0014 }
+case 79:
+            var3 = var4.isReady;
+            var3 = var3.bind(var4)();
+            if(!var3) { _fun0014_ip = 102; continue _fun0014 }
+case 72:
+            var3 = var4.getRootState;
+            var8 = var3.bind(var4)();
+            var6 = var8.routes;
+            var5 = var6.filter;
+            var3 = function(arg1) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+                    var2 = arg1;
+                    var3 = var2.name;
+                    var1 = 'you';
+                    var1 = var1 !== var3;
+                    if(!var1) { _fun0015_ip = 103; continue _fun0015 }
+case 83:
+                    var3 = var2.name;
+                    var2 = 'settings';
+                    var1 = var2 !== var3;
+case 103:
+                    return var1;
+                }
+            };
+            var7 = var5.bind(var6)(var3);
+            var5 = var7.length;
+            var3 = var8.routes;
+            var3 = var3.length;
+            if(!(var5 < var3)) { _fun0014_ip = 102; continue _fun0014 }
+case 104:
+            var3 = var4.dispatch;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 32;
+            var2 = var6[var2];
+            var2 = var5.bind(var1)(var2);
+            var6 = var2.CommonActions;
+            var5 = var6.reset;
+            var2 = {};
+            var10 = var2;
+            var9 = var8;
+            var8 = copyDataProperties(var10, var9);
+            var8 = 'routes';
+            var2[7] = var7;
+            var8 = var7.length;
+            var7 = 1;
+            var8 = var8 - var7;
+            var7 = 'index';
+            var2[6] = var8;
+            var2 = var5.bind(var6)(var2);
+            var2 = var3.bind(var4)(var2);
+case 102:
+            return var1;
+        }
+    };
+    var3['dismissOverlayScreens'] = var2;
     return var1;
 })();

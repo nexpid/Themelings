@@ -156,11 +156,14 @@ case 6:
                 var4 = var4.add;
                 var3['addChangeListener'] = var4;
                 var4 = var3._changeCallbacks;
+                var4 = var4.remove;
+                var3['removeChangeListener'] = var4;
+                var4 = var3._changeCallbacks;
                 var4 = var4.addConditional;
                 var3['addConditionalChangeListener'] = var4;
                 var4 = var3._changeCallbacks;
-                var4 = var4.remove;
-                var3['removeChangeListener'] = var4;
+                var4 = var4.removeAllConditional;
+                var3['removeAllConditionalChangeListeners'] = var4;
                 var4 = var3._reactChangeCallbacks;
                 var4 = var4.add;
                 var3['addReactChangeListener'] = var4;
@@ -606,7 +609,7 @@ case 36:
             }
         };
         var1['value'] = var2;
-        var2 = new Array(3);
+        var2 = new Array(4);
         var2[0] = var1;
         var1 = {};
         var7 = 'destroy';
@@ -630,12 +633,32 @@ case 36:
         var1 = {};
         var7 = 'getAll';
         var1['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = _closure1_slot6;
             return var1;
         };
-        var1['value'] = var6;
+        var1['value'] = var7;
         var2[2] = var1;
+        var1 = {};
+        var7 = 'removeAllConditionalListeners';
+        var1['key'] = var7;
+        var6 = function value() {
+            var3 = _closure1_slot6;
+            var2 = var3.forEach;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1._changeCallbacks;
+                var1 = var2.removeAllConditional;
+                var1 = var1.bind(var2)();
+                var1 = undefined;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[3] = var1;
         var1 = undefined;
         var1 = var5.bind(var1)(var4, var3, var2);
         return var1;

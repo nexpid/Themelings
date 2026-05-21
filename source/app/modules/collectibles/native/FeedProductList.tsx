@@ -190,11 +190,12 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.products;
+            var9 = var1.products;
             var6 = var1.loadingCardsNum;
-            var7 = var1.preferVCPrice;
+            var8 = var1.preferVCPrice;
             var2 = var1.accessibilityLabel;
-            var3 = var8.length;
+            var7 = var1.disableBundleStaticBackground;
+            var3 = var9.length;
             var1 = 0;
             if(!(var1 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
@@ -206,9 +207,10 @@ case 5:
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
             var1 = {};
-            var1['products'] = var8;
-            var1['preferVCPrice'] = var7;
+            var1['products'] = var9;
+            var1['preferVCPrice'] = var8;
             var1['accessibilityLabel'] = var2;
+            var1['disableBundleStaticBackground'] = var7;
             var1 = var5.bind(var4)(var3, var1);
             _fun0002_ip = 6; continue _fun0002;
 case 4:
