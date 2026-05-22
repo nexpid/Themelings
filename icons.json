@@ -2298,6 +2298,60 @@
         "width": 256,
         "height": 256
     },
+    "default_avatar_0_small": {
+        "file": "app/images/native/avatars/default_avatar_0_small.png",
+        "hash": "1340ad5c2dee3f9bcbc341bc6a2e8c9b",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "default_avatar_1_small": {
+        "file": "app/images/native/avatars/default_avatar_1_small.png",
+        "hash": "1cb51f430bef7cc2c9972354106936ca",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "default_avatar_2_small": {
+        "file": "app/images/native/avatars/default_avatar_2_small.png",
+        "hash": "e2638b3766522b844050b85fb10215de",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "default_avatar_3_small": {
+        "file": "app/images/native/avatars/default_avatar_3_small.png",
+        "hash": "f27907bace32e5b04cd2a7e2a779c82b",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "default_avatar_4_small": {
+        "file": "app/images/native/avatars/default_avatar_4_small.png",
+        "hash": "89b26efaecdfafb8d5caf27f6107c997",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
+    "default_avatar_5_small": {
+        "file": "app/images/native/avatars/default_avatar_5_small.png",
+        "hash": "13b5174c70f36a12e9398dc83e0105cd",
+        "scales": [
+            1
+        ],
+        "width": 96,
+        "height": 96
+    },
     "default_provisional_avatar_0": {
         "file": "app/images/provisional_account_avatars/default_provisional_avatar_0.png",
         "hash": "9aedf52dcd9c6fec7c1074de40f17b88",
