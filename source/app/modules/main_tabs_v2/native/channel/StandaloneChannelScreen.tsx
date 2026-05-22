@@ -516,7 +516,6 @@ case 0:
             var _closure2_slot0 = var21;
             var2 = var1.showCreateThread;
             var19 = var1.screenIndex;
-            var26 = var1.firstScreenChatRef;
             var4 = undefined;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
@@ -555,7 +554,7 @@ case 22:
             var15 = var8.bind(var9)(var3);
             var8 = _closure1_slot3;
             var3 = var8.useRef;
-            var27 = var3.bind(var8)(var14);
+            var26 = var3.bind(var8)(var14);
             var10 = _closure1_slot1;
             var13 = _closure1_slot2;
             var3 = 22;
@@ -698,16 +697,15 @@ case 43:
             var20['style'] = var12;
             var25 = _closure1_slot11;
             var24 = _closure1_slot1;
-            var28 = _closure1_slot2;
+            var27 = _closure1_slot2;
             var23 = 31;
-            var23 = var28[var23];
+            var23 = var27[var23];
             var24 = var24.bind(var4)(var23);
             var23 = {};
             var23['guildId'] = var16;
             var23['channelId'] = var17;
-            var23['chatInputRef'] = var27;
+            var23['chatInputRef'] = var26;
             var23['screenIndex'] = var19;
-            var23['firstScreenChatRef'] = var26;
             var23 = var25.bind(var4)(var24, var23);
             var20['children'] = var23;
             var20 = var22.bind(var4)(var21, var20);

@@ -815,12 +815,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = false;
     var2['MessageManager'] = var1;
     var1 = {};
-    var9 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'CONNECTION_RESUMED', 'GUILD_CREATE', 'GUILD_DELETE', 'LOAD_MESSAGES_SUCCESS', 'LOCAL_MESSAGES_LOADED', 'LOGOUT', 'MESSAGE_CREATE', 'MESSAGE_DELETE', 'MESSAGE_UPDATE', 'THREAD_LIST_SYNC'];
+    var9 = ['LOGOUT'];
     var1['actions'] = var9;
     var9 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 52;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.default;
+        return var1;
+    };
+    var1['inlineRequire'] = var9;
+    var2['MessageQueueManager'] = var1;
+    var1 = {};
+    var9 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'CONNECTION_RESUMED', 'GUILD_CREATE', 'GUILD_DELETE', 'LOAD_MESSAGES_SUCCESS', 'LOCAL_MESSAGES_LOADED', 'LOGOUT', 'MESSAGE_CREATE', 'MESSAGE_DELETE', 'MESSAGE_UPDATE', 'THREAD_LIST_SYNC'];
+    var1['actions'] = var9;
+    var9 = function inlineRequire() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 53;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -834,7 +849,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 53;
+        var1 = 54;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -850,7 +865,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 54;
+        var1 = 55;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -866,7 +881,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 55;
+        var1 = 56;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -881,7 +896,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 56;
+        var1 = 57;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -896,7 +911,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 57;
+        var1 = 58;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -911,7 +926,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 58;
+        var1 = 59;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -927,7 +942,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 59;
+        var1 = 60;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -943,7 +958,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 60;
+        var1 = 61;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -957,7 +972,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 61;
+        var1 = 62;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -973,7 +988,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 62;
+        var1 = 63;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -986,7 +1001,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 63;
+        var1 = 64;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1002,7 +1017,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 64;
+        var1 = 65;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1017,7 +1032,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 65;
+        var1 = 66;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1032,7 +1047,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 66;
+        var1 = 67;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1047,7 +1062,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 67;
+        var1 = 68;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1063,7 +1078,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 68;
+        var1 = 69;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1079,7 +1094,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 69;
+        var1 = 70;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1095,7 +1110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 70;
+        var1 = 71;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1108,7 +1123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 71;
+        var1 = 72;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1124,7 +1139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 72;
+        var1 = 73;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1139,7 +1154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 73;
+        var1 = 74;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1155,7 +1170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 74;
+        var1 = 75;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1170,7 +1185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 75;
+        var1 = 76;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1185,7 +1200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 76;
+        var1 = 77;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1200,7 +1215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 77;
+        var1 = 78;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1215,7 +1230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 78;
+        var1 = 79;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1230,7 +1245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 79;
+        var1 = 80;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1246,7 +1261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 80;
+        var1 = 81;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1262,7 +1277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 81;
+        var1 = 82;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1278,7 +1293,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 82;
+        var1 = 83;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1293,7 +1308,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 83;
+        var1 = 84;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1309,21 +1324,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 84;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        var1 = var1.default;
-        return var1;
-    };
-    var1['inlineRequire'] = var8;
-    var2['UserSettingsManager'] = var1;
-    var1 = {};
-    var8 = ['POST_CONNECTION_OPEN', 'BILLING_USER_TRIAL_OFFER_FETCH_SUCCESS'];
-    var1['actions'] = var8;
-    var8 = function inlineRequire() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
         var1 = 85;
         var2 = var2[var1];
         var1 = undefined;
@@ -1332,8 +1332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
-    var2['UserTrialOfferManager'] = var1;
+    var2['UserSettingsManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'BILLING_USER_OFFER_FETCH_SUCCESS'];
     var1['actions'] = var8;

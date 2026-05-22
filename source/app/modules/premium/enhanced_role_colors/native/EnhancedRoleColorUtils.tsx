@@ -204,31 +204,22 @@ case 13:
         }
     };
     var3['useProcessColorStringsArray'] = var4;
-    var4 = function isNativeMessageEligibleForEnhancedRoleColors(arg1, arg2, arg3) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 7;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.getHasEnhancedRoleColors;
-            var2 = arg1;
-            var1 = arg2;
-            var1 = var3.bind(var4)(var2, var1);
-            if(!var1) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
-            var3 = 'username';
-            var2 = arg3;
-            var1 = var3 === var2;
-case 15:
-            return var1;
-        }
+    var4 = function isNativeMessageEligibleForEnhancedRoleColors(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 7;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.getHasEnhancedRoleColors;
+        var2 = arg1;
+        var1 = arg2;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var3['isNativeMessageEligibleForEnhancedRoleColors'] = var4;
     var2 = function useIsRoleStyleAndRoleColorsEligibleForERC(arg1, arg2, arg3, arg4) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -239,19 +230,19 @@ case 0:
             var2 = arg1;
             var1 = arg2;
             var1 = var3.bind(var4)(var2, var1);
-            if(!var1) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
+            if(!var1) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var3 = 'username';
             var2 = arg3;
             var1 = var3 === var2;
-case 17:
-            if(!var1) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+case 15:
+            if(!var1) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var2 = arg4;
             var3 = var2.length;
             var2 = 1;
             var1 = var3 > var2;
-case 19:
+case 17:
             return var1;
         }
     };

@@ -89,35 +89,26 @@ case 0:
                 return var1;
             };
             var4 = var4.bind(var6)(var3, var1);
-            var6 = _closure1_slot3;
-            var3 = var6.can;
-            var1 = _closure1_slot5;
-            var1 = var1.KICK_MEMBERS;
-            var3 = var3.bind(var6)(var1, var4);
-            if(var3) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var7 = _closure1_slot3;
-            var6 = var7.can;
-            var1 = _closure1_slot5;
-            var1 = var1.MANAGE_GUILD;
-            var3 = var6.bind(var7)(var1, var4);
-case 6:
             var1 = null;
             var1 = var1 != var4;
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var7 = var4.features;
+            var6 = var7.has;
+            var3 = _closure1_slot4;
+            var3 = var3.MEMBER_VERIFICATION_MANUAL_APPROVAL;
+            var1 = var6.bind(var7)(var3);
+case 6:
             if(!var1) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var8 = var4.features;
-            var7 = var8.has;
-            var6 = _closure1_slot4;
-            var6 = var6.MEMBER_VERIFICATION_MANUAL_APPROVAL;
-            var1 = var7.bind(var8)(var6);
+            var7 = _closure1_slot3;
+            var6 = var7.can;
+            var3 = _closure1_slot5;
+            var3 = var3.KICK_MEMBERS;
+            var1 = var6.bind(var7)(var3, var4);
 case 8:
             if(!var1) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var1 = var3;
-case 10:
-            if(!var1) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 4;
@@ -125,7 +116,7 @@ case 13:
             var3 = var3.bind(var5)(var2);
             var2 = var3.guildHasVerificationGate;
             var1 = var2.bind(var3)(var4);
-case 12:
+case 10:
             return var1;
         }
     };

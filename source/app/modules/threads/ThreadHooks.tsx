@@ -403,7 +403,7 @@ case 40:
     var9['treatments'] = var13;
     var9 = var10.bind(var1)(var9);
     var _closure1_slot13 = var9;
-    var10 = 15;
+    var10 = 16;
     var10 = var12[var10];
     var12 = var11.bind(var1)(var10);
     var11 = var12.fileFinishedImporting;
@@ -951,20 +951,20 @@ case 11:
     var4 = function useCanJoinThreadVoice(arg1) {
         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
-            var7 = arg1;
-            var _closure2_slot0 = var7;
+            var8 = arg1;
+            var _closure2_slot0 = var8;
             var4 = _closure1_slot1;
             var2 = _closure1_slot3;
             var1 = 13;
             var1 = var2[var1];
-            var9 = undefined;
-            var1 = var4.bind(var9)(var1);
-            var1 = var1.bind(var9)();
-            var8 = _closure1_slot0;
+            var10 = undefined;
+            var1 = var4.bind(var10)(var1);
+            var1 = var1.bind(var10)();
+            var9 = _closure1_slot0;
             var4 = 8;
             var4 = var2[var4];
-            var10 = var8.bind(var9)(var4);
-            var5 = var10.useStateFromStores;
+            var6 = var9.bind(var10)(var4);
+            var5 = var6.useStateFromStores;
             var11 = _closure1_slot8;
             var4 = new Array(1);
             var4[0] = var11;
@@ -977,58 +977,67 @@ case 0:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var4 = var5.bind(var10)(var4, var3);
+            var4 = var5.bind(var6)(var4, var3);
             var3 = _closure1_slot19;
-            var3 = var3.bind(var9)(var7);
+            var3 = var3.bind(var10)(var8);
             var12 = _closure1_slot13;
             var11 = var12.useExperiment;
-            var10 = {};
-            var5 = var7.guild_id;
-            var10['guildId'] = var5;
+            var6 = {};
+            var5 = var8.guild_id;
+            var6['guildId'] = var5;
             var5 = 'e791ea_1';
-            var10['location'] = var5;
+            var6['location'] = var5;
             var5 = {};
             var13 = false;
             var5['autoTrackExposure'] = var13;
-            var5 = var11.bind(var12)(var10, var5);
+            var5 = var11.bind(var12)(var6, var5);
             var5 = var5.enabled;
-            var10 = 14;
-            var2 = var2[var10];
-            var8 = var8.bind(var9)(var2);
-            var2 = var8.useShouldAgeVerifyForAgeGate;
-            var2 = var2.bind(var8)();
+            var6 = 14;
+            var6 = var2[var6];
+            var11 = var9.bind(var10)(var6);
+            var6 = var11.useIsGameInvitesPost;
+            var6 = var6.bind(var11)(var8);
+            var11 = 15;
+            var2 = var2[var11];
+            var9 = var9.bind(var10)(var2);
+            var2 = var9.useShouldAgeVerifyForAgeGate;
+            var2 = var2.bind(var9)();
             if(!var2) { _fun0020_ip = 78; continue _fun0020 }
 case 79:
-            var8 = _closure1_slot0;
-            var6 = _closure1_slot3;
-            var6 = var6[var10];
-            var9 = var8.bind(var9)(var6);
-            var8 = var9.shouldShowAgeGateForChannelId;
-            var6 = var7.id;
-            var2 = var8.bind(var9)(var6);
+            var9 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var7 = var7[var11];
+            var10 = var9.bind(var10)(var7);
+            var9 = var10.shouldShowAgeGateForChannelId;
+            var7 = var8.id;
+            var2 = var9.bind(var10)(var7);
 case 78:
             var1 = !var1;
-            if(!var1) { _fun0020_ip = 55; continue _fun0020 }
-case 80:
-            var6 = var7.isVocalThread;
-            var1 = var6.bind(var7)();
-case 55:
-            if(!var1) { _fun0020_ip = 63; continue _fun0020 }
-case 65:
-            var1 = var5;
-case 63:
-            if(!var1) { _fun0020_ip = 59; continue _fun0020 }
-case 61:
-            var1 = var4;
-case 59:
-            if(!var1) { _fun0020_ip = 81; continue _fun0020 }
-case 82:
-            var1 = var3;
+            if(!var1) { _fun0020_ip = 80; continue _fun0020 }
 case 81:
-            if(!var1) { _fun0020_ip = 83; continue _fun0020 }
-case 84:
-            var1 = !var2;
+            var7 = var8.isVocalThread;
+            var1 = var7.bind(var8)();
+case 80:
+            if(!var1) { _fun0020_ip = 82; continue _fun0020 }
 case 83:
+            if(var5) { _fun0020_ip = 84; continue _fun0020 }
+case 85:
+            var5 = var6;
+case 84:
+            var1 = var5;
+case 82:
+            if(!var1) { _fun0020_ip = 86; continue _fun0020 }
+case 87:
+            var1 = var4;
+case 86:
+            if(!var1) { _fun0020_ip = 88; continue _fun0020 }
+case 89:
+            var1 = var3;
+case 88:
+            if(!var1) { _fun0020_ip = 90; continue _fun0020 }
+case 91:
+            var1 = !var2;
+case 90:
             return var1;
         }
     };
@@ -1042,10 +1051,10 @@ case 0:
             var2 = var2.bind(var1)(var3);
             var1 = var3.isLockedThread;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0021_ip = 85; continue _fun0021 }
+            if(!var1) { _fun0021_ip = 92; continue _fun0021 }
 case 38:
             var1 = !var2;
-case 85:
+case 92:
             return var1;
         }
     };
@@ -1059,10 +1068,10 @@ case 0:
             var2 = var2.bind(var1)(var3);
             var1 = var3.isLockedThread;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0022_ip = 85; continue _fun0022 }
+            if(!var1) { _fun0022_ip = 92; continue _fun0022 }
 case 38:
             var1 = !var2;
-case 85:
+case 92:
             return var1;
         }
     };

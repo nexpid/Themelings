@@ -175,7 +175,7 @@ case 13:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'getBadges';
@@ -352,10 +352,45 @@ case 10:
         var5['value'] = var7;
         var1[5] = var5;
         var5 = {};
-        var7 = 'getNextTier';
+        var7 = 'getObtainedAt';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                var7 = arg1;
+                var6 = arg2;
+                var5 = this;
+                var1 = var5.getCurrentTier;
+                var3 = var1.bind(var5)(var7, var6);
+                var4 = null;
+                var8 = var4 == var3;
+                var1 = undefined;
+                if(var8) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
+                var1 = var3.obtained_at;
+case 30:
+                if(!(var4 == var1)) { _fun0008_ip = 3; continue _fun0008 }
+case 14:
+                var3 = var5.getBadgeById;
+                var3 = var3.bind(var5)(var7, var6);
+                var4 = var4 == var3;
+                var2 = undefined;
+                if(var4) { _fun0008_ip = 11; continue _fun0008 }
+case 32:
+                var2 = var3.obtained_at;
+case 11:
+                var1 = var2;
+case 3:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[6] = var5;
+        var5 = {};
+        var7 = 'getNextTier';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var5 = this;
                 var4 = var5.getBadgeById;
@@ -367,11 +402,11 @@ case 0:
                 var6 = var5 == var2;
                 var3 = undefined;
                 var4 = undefined;
-                if(var6) { _fun0008_ip = 19; continue _fun0008 }
+                if(var6) { _fun0009_ip = 19; continue _fun0009 }
 case 26:
                 var4 = var2.next_tier;
 case 19:
-                if(!(var5 == var4)) { _fun0008_ip = 10; continue _fun0008 }
+                if(!(var5 == var4)) { _fun0009_ip = 10; continue _fun0009 }
 case 29:
                 return var3;
 case 10:
@@ -390,12 +425,12 @@ case 10:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getRemainingToNextTier';
         var5['key'] = var7;
         var6 = function value(arg1, arg2) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var4 = arg1;
                 var3 = arg2;
@@ -408,11 +443,11 @@ case 0:
                 var4 = var3 == var8;
                 var5 = 0;
                 var1 = 0;
-                if(var4) { _fun0009_ip = 30; continue _fun0009 }
+                if(var4) { _fun0010_ip = 33; continue _fun0010 }
 case 19:
                 var3 = var3 == var2;
                 var1 = 0;
-                if(var3) { _fun0009_ip = 30; continue _fun0009 }
+                if(var3) { _fun0010_ip = 33; continue _fun0010 }
 case 9:
                 var3 = global;
                 var4 = var3.Math;
@@ -423,12 +458,12 @@ case 9:
                 var2 = var2.current;
                 var2 = var6 - var2;
                 var1 = var3.bind(var4)(var5, var2);
-case 30:
+case 33:
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[7] = var5;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -485,7 +520,7 @@ case 30:
     };
     var4['BADGE_DIRECTORY_FETCH_SUCCESS'] = var9;
     var9 = function handleBadgeFetchSuccess(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.userId;
@@ -501,15 +536,15 @@ case 0:
             var4 = var1.get;
             var6 = var4.bind(var1)(var5);
             var4 = null;
-            if(!(var4 == var6)) { _fun0010_ip = 31; continue _fun0010 }
-case 32:
+            if(!(var4 == var6)) { _fun0011_ip = 34; continue _fun0011 }
+case 35:
             var4 = var3.Map;
             var8 = var4.prototype;
             var8 = Object.create(var8, {constructor: {value: var4}});
             var11 = var8;
             var4 = new var11[var4](var10);
             var6 = var4 instanceof Object ? var4 : var8;
-case 31:
+case 34:
             var3 = var3.Map;
             var4 = var3.prototype;
             var4 = Object.create(var4, {constructor: {value: var3}});

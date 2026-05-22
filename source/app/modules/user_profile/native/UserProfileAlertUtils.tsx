@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -117,28 +117,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = arg1;
         var2['onConfirm'] = var7;
         var3 = var6.bind(var1)(var3, var2);
-        var2 = 'start-voice-call';
-        var2 = var4.bind(var5)(var2, var3);
-        return var1;
-    };
-    var3['confirmStartCall'] = var4;
-    var4 = function(arg1) {
-        var4 = _closure1_slot0;
-        var7 = _closure1_slot2;
-        var1 = 2;
-        var3 = var7[var1];
-        var1 = undefined;
-        var5 = var4.bind(var1)(var3);
-        var4 = var5.openAlert;
-        var6 = _closure1_slot3;
-        var3 = _closure1_slot1;
-        var2 = 7;
-        var2 = var7[var2];
-        var3 = var3.bind(var1)(var2);
-        var2 = {};
-        var7 = arg1;
-        var2['onConfirm'] = var7;
-        var3 = var6.bind(var1)(var3, var2);
         var2 = 'video-unstable-connection';
         var2 = var4.bind(var5)(var2, var3);
         return var1;
@@ -154,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.openAlert;
         var6 = _closure1_slot3;
         var3 = _closure1_slot1;
-        var2 = 8;
+        var2 = 7;
         var2 = var7[var2];
         var3 = var3.bind(var1)(var2);
         var2 = {};
@@ -174,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.openAlert;
         var6 = _closure1_slot3;
         var3 = _closure1_slot1;
-        var2 = 9;
+        var2 = 8;
         var2 = var7[var2];
         var3 = var3.bind(var1)(var2);
         var2 = {};

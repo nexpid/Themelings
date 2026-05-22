@@ -94,7 +94,7 @@ case 4:
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(3);
+        var2 = new Array(4);
         var2[0] = var1;
         var1 = {};
         var6 = 'length';
@@ -110,7 +110,7 @@ case 4:
         var1 = {};
         var6 = '_drainIfNecessary';
         var1['key'] = var6;
-        var5 = function value() {
+        var6 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = this;
@@ -244,8 +244,29 @@ case 6:
                 return var1;
             }
         };
-        var1['value'] = var5;
+        var1['value'] = var6;
         var2[2] = var1;
+        var1 = {};
+        var6 = 'clear';
+        var1['key'] = var6;
+        var5 = function value() {
+            var3 = this;
+            var2 = var3.queue;
+            var1 = var2.clear;
+            var1 = var1.bind(var2)();
+            var1 = global;
+            var4 = var1.clearTimeout;
+            var2 = var3.timeout;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var2 = null;
+            var3['timeout'] = var2;
+            var2 = false;
+            var3['draining'] = var2;
+            return var1;
+        };
+        var1['value'] = var5;
+        var2[3] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

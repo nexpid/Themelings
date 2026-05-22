@@ -242,6 +242,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VIDEO_MODAL_ICON_END_CARD'] = var6;
     var2 = 'VIDEO_MODAL_ICON_END_CARD';
     var4[var6] = var2;
+    var6 = 58;
+    var4['ACHIEVEMENT_IN_GAME_MODAL'] = var6;
+    var2 = 'ACHIEVEMENT_IN_GAME_MODAL';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

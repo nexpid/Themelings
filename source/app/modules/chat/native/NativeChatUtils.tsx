@@ -555,7 +555,7 @@ case 54:
 case 0:
             var3 = arg1;
             var2 = null;
-            if(!(var2 != var3)) { _fun0008_ip = 56; continue _fun0008 }
+            if(!(var2 != var3)) { _fun0008_ip = 62; continue _fun0008 }
 case 16:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -565,22 +565,8 @@ case 16:
             var6 = var6.bind(var4)(var5);
             var5 = var6.isIOS;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0008_ip = 62; continue _fun0008 }
+            if(!var5) { _fun0008_ip = 62; continue _fun0008 }
 case 18:
-            var5 = _closure1_slot4;
-            var8 = var5.bind(var4)(var3);
-            if(!(var2 != var8)) { _fun0008_ip = 56; continue _fun0008 }
-case 63:
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var5 = 5;
-            var5 = var7[var5];
-            var7 = var6.bind(var4)(var5);
-            var6 = var7.setChatHidden;
-            var5 = false;
-            var5 = var6.bind(var7)(var8, var5);
-            _fun0008_ip = 56; continue _fun0008;
-case 62:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 3;
@@ -588,18 +574,18 @@ case 62:
             var6 = var6.bind(var4)(var5);
             var5 = var6.isFabric;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0008_ip = 64; continue _fun0008 }
-case 36:
+            if(var5) { _fun0008_ip = 63; continue _fun0008 }
+case 64:
             var5 = _closure1_slot4;
             var6 = var5.bind(var4)(var3);
-            if(!(var2 != var6)) { _fun0008_ip = 56; continue _fun0008 }
+            if(!(var2 != var6)) { _fun0008_ip = 62; continue _fun0008 }
 case 65:
             var2 = _closure1_slot3;
             var5 = var2.DCDChatManager;
             var2 = var5.fadeIn;
             var2 = var2.bind(var5)(var6);
-            _fun0008_ip = 56; continue _fun0008;
-case 64:
+            _fun0008_ip = 62; continue _fun0008;
+case 63:
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 2;
@@ -608,68 +594,14 @@ case 64:
             var2 = var1.Commands;
             var1 = var2.fadeIn;
             var1 = var1.bind(var2)(var3);
-case 56:
+case 62:
             var1 = undefined;
             return var1;
         }
     };
     var5['fadeIn'] = var9;
-    var9 = function setChatHidden(arg1, arg2) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-            var4 = arg1;
-            var3 = arg2;
-            var2 = null;
-            if(!(var2 != var4)) { _fun0009_ip = 64; continue _fun0009 }
-case 30:
-            var7 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var5 = 1;
-            var6 = var6[var5];
-            var5 = undefined;
-            var7 = var7.bind(var5)(var6);
-            var6 = var7.isIOS;
-            var6 = var6.bind(var7)();
-            if(var6) { _fun0009_ip = 66; continue _fun0009 }
-case 31:
-            var6 = _closure1_slot4;
-            var7 = var6.bind(var5)(var4);
-            if(!(var2 != var7)) { _fun0009_ip = 64; continue _fun0009 }
-case 63:
-            var6 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var2 = 5;
-            var2 = var8[var2];
-            var6 = var6.bind(var5)(var2);
-            var2 = var6.setChatHidden;
-            var2 = var2.bind(var6)(var7, var3);
-            _fun0009_ip = 64; continue _fun0009;
-case 66:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 3;
-            var2 = var7[var2];
-            var6 = var6.bind(var5)(var2);
-            var2 = var6.isFabric;
-            var2 = var2.bind(var6)();
-            if(!var2) { _fun0009_ip = 64; continue _fun0009 }
-case 67:
-            var2 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 2;
-            var1 = var6[var1];
-            var1 = var2.bind(var5)(var1);
-            var2 = var1.Commands;
-            var1 = var2.setChatHidden;
-            var1 = var1.bind(var2)(var4, var3);
-case 64:
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var5['setChatHidden'] = var9;
     var6 = function focus(arg1, arg2) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var5 = arg1;
             var4 = _closure1_slot0;
@@ -680,14 +612,14 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0010_ip = 20; continue _fun0010 }
-case 68:
+            if(!var3) { _fun0009_ip = 20; continue _fun0009 }
+case 66:
             var3 = null;
-            if(!(var3 != var5)) { _fun0010_ip = 20; continue _fun0010 }
+            if(!(var3 != var5)) { _fun0009_ip = 20; continue _fun0009 }
 case 22:
             var4 = _closure1_slot4;
             var5 = var4.bind(var1)(var5);
-            if(!(var3 != var5)) { _fun0010_ip = 20; continue _fun0010 }
+            if(!(var3 != var5)) { _fun0009_ip = 20; continue _fun0009 }
 case 23:
             var2 = _closure1_slot3;
             var4 = var2.DCDChatManager;

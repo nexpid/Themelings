@@ -157,6 +157,10 @@ case 9:
     var14['SEO'] = var4;
     var7 = 'SEO';
     var14[var4] = var7;
+    var9 = 8;
+    var14['MARKETING'] = var9;
+    var7 = 'MARKETING';
+    var14[var9] = var7;
     var _closure1_slot9 = var14;
     var13 = {};
     var13['ENABLED'] = var21;

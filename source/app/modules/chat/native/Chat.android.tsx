@@ -10,25 +10,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function DCDChatList() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var4 = undefined;
-            var9 = var1.bind(var4)();
+            var12 = var1.bind(var4)();
             var2 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var3 = _closure1_slot2;
             var1 = 5;
-            var1 = var12[var1];
-            var5 = var2.bind(var4)(var1);
-            var3 = var5.useMobileVisualRefreshConfig;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useMobileVisualRefreshConfig;
             var1 = {};
-            var6 = 'DCDChatList';
-            var1['location'] = var6;
-            var1 = var3.bind(var5)(var1);
-            var11 = var1.chatInputFloating;
-            var1 = _closure1_slot5;
-            var10 = var1.bind(var4)();
-            var6 = _closure1_slot3;
-            var5 = var6.useMemo;
-            var3 = function() {
+            var5 = 'DCDChatList';
+            var1['location'] = var5;
+            var1 = var2.bind(var3)(var1);
+            var3 = var1.chatInputFloating;
+            var1 = _closure1_slot6;
+            var1 = var1.bind(var4)();
+            var7 = _closure1_slot3;
+            var6 = var7.useMemo;
+            var5 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 6;
@@ -46,32 +46,37 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var1 = new Array(0);
-            var5 = var5.bind(var6)(var3, var1);
-            var3 = _closure1_slot6;
+            var2 = new Array(0);
+            var5 = var6.bind(var7)(var5, var2);
+            var2 = 0;
+            var10 = 0;
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(!(var1 > var2))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var1 = _closure1_slot5;
+case 4:
+            var10 = var1;
+case 2:
+            var3 = _closure1_slot7;
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var1 = 6;
-            var1 = var12[var1];
-            var1 = var2.bind(var4)(var1);
+            var1 = var11[var1];
+            var1 = var9.bind(var4)(var1);
             var2 = var1.GestureDetector;
             var1 = {};
             var1['gesture'] = var5;
-            var7 = _closure1_slot6;
+            var7 = _closure1_slot7;
             var6 = _closure1_slot1;
             var5 = 7;
-            var5 = var12[var5];
+            var5 = var11[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
-            var9 = var9.chatList;
-            var5['style'] = var9;
-            var9 = 0;
-            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var9 = var10;
-case 2:
-            var5['bottomContentInset'] = var9;
-            var10 = _closure1_slot6;
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var12 = var12.chatList;
+            var5['style'] = var12;
+            var5['bottomContentInset'] = var10;
+            var10 = _closure1_slot7;
             var8 = 8;
             var8 = var11[var8];
             var8 = var9.bind(var4)(var8);
@@ -87,7 +92,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -109,15 +114,17 @@ case 2:
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var8 = var4.CHAT_INPUT_CONTAINER_HEIGHT_FALLBACK_FLOATING_DP;
+    var _closure1_slot5 = var8;
     var4 = var4.useBestActiveChatInputContainerHeight;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot6 = var8;
+    var _closure1_slot7 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -127,7 +134,7 @@ case 2:
     var10['flex'] = var11;
     var4['chatList'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         var5 = arg1;
@@ -147,7 +154,7 @@ case 2:
             return var1;
         };
         var8 = var3.bind(var8)(var2, var1);
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot8;
         var2 = _closure1_slot1;
         var1 = 10;
         var1 = var7[var1];
@@ -161,8 +168,8 @@ case 2:
         var8 = arg2;
         var7 = 'ref';
         var1[6] = var8;
-        var8 = _closure1_slot6;
-        var7 = _closure1_slot9;
+        var8 = _closure1_slot7;
+        var7 = _closure1_slot10;
         var6 = {};
         var7 = var8.bind(var4)(var7, var6);
         var6 = new Array(2);

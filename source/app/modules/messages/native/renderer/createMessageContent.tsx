@@ -2354,7 +2354,7 @@ case 351:
             var29 = var33[var29];
             var31 = var31.bind(var5)(var29);
             var29 = var31.createPostPreviewEmbeds;
-            var28 = var29.bind(var31)(var2, var32);
+            var28 = var29.bind(var31)(var2, var13, var32);
 case 353:
             var1['postPreviewEmbeds'] = var28;
             var28 = _closure1_slot0;

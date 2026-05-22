@@ -91,6 +91,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GRID_NAVIGATOR_ID'] = var6;
     var3['EmojiCategories'] = var5;
     var3['EmojiSubCategory'] = var4;
+    var4 = 200;
+    var3['SEARCH_DEBOUNCE_MS'] = var4;
     var4 = -1;
     var3['INACTIVE_CATEGORY_INDEX'] = var4;
     var3['EmojiSize'] = var2;

@@ -37,105 +37,29 @@ case 2:
             var1 = arg1;
             var4 = var1.type;
             var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var7 = 1;
-            var3 = var3[var7];
+            var7 = _closure1_slot1;
+            var3 = 1;
+            var3 = var7[var3];
             var3 = var5.bind(var6)(var3);
             var3 = var3.ChannelTypes;
             var3 = var3.GUILD_DIRECTORY;
-            if(!(var3 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var4 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var7];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.ChannelTypes;
-            var3 = var3.DM;
-            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var7];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.ChannelTypes;
-            var3 = var3.GROUP_DM;
-            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
-case 8:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var7];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.ChannelTypes;
-            var3 = var3.ANNOUNCEMENT_THREAD;
-            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
-case 9:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var7];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.ChannelTypes;
-            var3 = var3.PUBLIC_THREAD;
-            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
-case 10:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var7];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.ChannelTypes;
-            var3 = var3.PRIVATE_THREAD;
-            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
-case 11:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var7];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.ChannelTypes;
-            var3 = var3.GUILD_FORUM;
-            if(!(var3 !== var4)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var7];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.ChannelTypes;
-            var3 = var3.GUILD_MEDIA;
-            if(!(var3 !== var4)) { _fun0001_ip = 12; continue _fun0001 }
-case 14:
-            var3 = _closure1_slot2;
-            var5 = var3.SEARCH;
+            var1 = _closure1_slot2;
+            var3 = var1.SEARCH;
             var4 = new Array(3);
-            var4[0] = var5;
-            var5 = var3.MUTE;
-            var4[1] = var5;
-            var3 = var3.SETTINGS;
-            var4[2] = var3;
-            _fun0001_ip = 15; continue _fun0001;
-case 12:
-            var5 = _closure1_slot2;
-            var6 = var5.MUTE;
-            var3 = new Array(2);
-            var3[0] = var6;
-            var5 = var5.SETTINGS;
-            var3[1] = var5;
-            var4 = var3;
-            _fun0001_ip = 15; continue _fun0001;
-case 6:
-            var3 = _closure1_slot2;
-            var5 = var3.SEARCH;
-            var1 = new Array(3);
-            var1[0] = var5;
-            var5 = var3.MUTE;
-            var1[1] = var5;
-            var3 = var3.SETTINGS;
-            var1[2] = var3;
-            var4 = var1;
-            _fun0001_ip = 15; continue _fun0001;
+            var4[0] = var3;
+            var3 = var1.MUTE;
+            var4[1] = var3;
+            var1 = var1.SETTINGS;
+            var4[2] = var1;
+            _fun0001_ip = 6; continue _fun0001;
 case 4:
             var4 = new Array(0);
-case 15:
+case 6:
             var1 = var4;
-            if(!var2) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(!var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var3 = var4.filter;
             var2 = function(arg1) {
                 var1 = _closure1_slot2;
@@ -145,7 +69,7 @@ case 17:
                 return var1;
             };
             var1 = var3.bind(var4)(var2);
-case 16:
+case 7:
             return var1;
         }
     };

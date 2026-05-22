@@ -51,16 +51,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.FetchState;
     var _closure1_slot11 = var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/media_channel/native/createMediaPostPreviewEmbedContent.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function createMediaPostPreviewEmbedContent(arg1) {
+    var2 = function createMediaPostPreviewEmbedContent(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var7 = arguments[1];
+            var7 = arguments[3];
             var9 = undefined;
             if(!(var7 === var9)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -72,7 +72,7 @@ case 2:
             var1 = var1[var5];
             var4 = var2.bind(var9)(var1);
             var2 = var4.getMediaPostEmbedChannelId;
-            var1 = arg1;
+            var1 = arg3;
             var6 = var2.bind(var4)(var1);
             var1 = null;
             if(!(var1 != var6)) { _fun0001_ip = 4; continue _fun0001 }
@@ -98,11 +98,11 @@ case 11:
             var6 = _closure1_slot7;
             var4 = var6.getGuild;
             var2 = var14.guild_id;
-            var13 = var4.bind(var6)(var2);
+            var12 = var4.bind(var6)(var2);
             var6 = _closure1_slot9;
             var4 = var6.getUser;
             var2 = var14.author_id;
-            var12 = var4.bind(var6)(var2);
+            var13 = var4.bind(var6)(var2);
             var6 = _closure1_slot6;
             var4 = var6.getChannel;
             var2 = var14.parent_channel_id;
@@ -131,10 +131,10 @@ case 12:
             var4 = var5.getMediaPostEmbedCommonData;
             var2 = {};
             var2['mediaPostEmbedData'] = var14;
-            var2['guild'] = var13;
+            var2['guild'] = var12;
             var2['parentChannel'] = var11;
             var2['postThread'] = var10;
-            var2['user'] = var12;
+            var2['user'] = var13;
             var2['selectedGuildId'] = var8;
             var2['canAccess'] = var6;
             var6 = var4.bind(var5)(var2);
@@ -146,63 +146,48 @@ case 17:
             var2 = var6.channelName;
             if(!(var1 != var2)) { _fun0001_ip = 16; continue _fun0001 }
 case 18:
-            if(!(var1 != var12)) { _fun0001_ip = 16; continue _fun0001 }
+            if(!(var1 != var13)) { _fun0001_ip = 16; continue _fun0001 }
 case 19:
             var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var2 = 10;
-            var2 = var5[var2];
-            var5 = var4.bind(var9)(var2);
-            var4 = var5.getUserAuthor;
+            var2 = var14[var2];
+            var8 = var4.bind(var9)(var2);
+            var5 = var8.getUserAuthorWithProcessedColor;
             var2 = var6.postThread;
-            var5 = var4.bind(var5)(var12, var2);
-            var4 = var1 == var5;
-            var2 = undefined;
-            if(var4) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-            var2 = var5.colorString;
-case 20:
-            var2 = var1 != var2;
-            var11 = undefined;
-            if(!var2) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var4 = _closure1_slot4;
-            var8 = var1 == var5;
-            var2 = undefined;
-            if(var8) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
-            var2 = var5.colorString;
-case 24:
-            var11 = var4.bind(var9)(var2);
-case 22:
-            var4 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var12 = var5.bind(var8)(var13, var2);
             var2 = 9;
-            var5 = var10[var2];
+            var5 = var14[var2];
             var5 = var4.bind(var9)(var5);
             var8 = var5.intl;
             var5 = var8.formatToParts;
-            var2 = var10[var2];
+            var2 = var14[var2];
             var2 = var4.bind(var9)(var2);
             var2 = var2.t;
             var4 = var2.mCytFr;
             var2 = {};
             var10 = var6.authorName;
             var2['username'] = var10;
+            var11 = _closure1_slot1;
+            var10 = 11;
+            var10 = var14[var10];
+            var11 = var11.bind(var9)(var10);
             var10 = {};
-            var13 = 'bindUserMenu';
-            var10['action'] = var13;
-            var12 = var12.id;
-            var10['userId'] = var12;
-            var10['linkColor'] = var11;
-            var10['roleColor'] = var11;
-            var11 = var6.threadId;
-            var10['messageChannelId'] = var11;
+            var13 = var13.id;
+            var10['userId'] = var13;
+            var13 = arg1;
+            var10['message'] = var13;
+            var10['author'] = var12;
+            var12 = arg2;
+            var10['roleStyle'] = var12;
+            var12 = var6.threadId;
+            var10['messageChannelId'] = var12;
+            var10 = var11.bind(var9)(var10);
             var2['usernameOnClick'] = var10;
             var10 = var6.channelName;
             var2['channelName'] = var10;
             var5 = var5.bind(var8)(var4, var2);
-            _fun0001_ip = 26; continue _fun0001;
+            _fun0001_ip = 20; continue _fun0001;
 case 16:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -219,62 +204,62 @@ case 16:
             var11 = var6.guildName;
             var2['guildName'] = var11;
             var5 = var8.bind(var10)(var4, var2);
-case 26:
+case 20:
             var4 = var6.canAccess;
             var2 = false;
-            if(!(var2 !== var4)) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+            if(!(var2 !== var4)) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var4 = _closure1_slot4;
             var8 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
             var2 = var2.unsafe_rawColors;
             var2 = var2.BRAND_500;
             var4 = var4.bind(var9)(var2);
-            _fun0001_ip = 29; continue _fun0001;
-case 27:
+            _fun0001_ip = 23; continue _fun0001;
+case 21:
             var8 = _closure1_slot4;
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var2 = var11[var2];
             var2 = var10.bind(var9)(var2);
             var2 = var2.unsafe_rawColors;
             var2 = var2.TEAL_430;
             var4 = var8.bind(var9)(var2);
-case 29:
+case 23:
             var2 = var6.coverImage;
             var8 = var1 != var2;
-            if(!var8) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
+            if(!var8) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 12;
+            var2 = 13;
             var2 = var11[var2];
             var11 = var10.bind(var9)(var2);
             var10 = var11.isAnimatedImageUrl;
             var2 = var6.coverImage;
             var8 = var10.bind(var11)(var2);
-case 30:
+case 24:
             var2 = var6.coverImage;
             var2 = var1 != var2;
-            if(!var2) { _fun0001_ip = 32; continue _fun0001 }
-case 33:
+            if(!var2) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var10 = var6.shouldShowBlurredThumbnailImage;
             var2 = !var10;
-case 32:
-            if(!var2) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+case 26:
+            if(!var2) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var2 = var8;
-case 34:
-            if(!var2) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+case 28:
+            if(!var2) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var2 = var7;
-case 36:
-            if(!var2) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
+case 30:
+            if(!var2) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
             var10 = var6.coverImage;
             var2 = global;
             var2 = var2.HermesInternal;
@@ -283,63 +268,63 @@ case 39:
             var2 = '?format=webp';
             var2 = var8.bind(var7)(var10, var2);
             var6['coverImage'] = var2;
-case 38:
+case 32:
             var2 = var6.shouldShowBlurredThumbnailImage;
-            if(var2) { _fun0001_ip = 40; continue _fun0001 }
-case 41:
+            if(var2) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var8 = _closure1_slot5;
             var7 = var8.get;
             var2 = 'obscure_blur_effect_explicit_content_enabled';
             var10 = var7.bind(var8)(var2);
-            if(var10) { _fun0001_ip = 42; continue _fun0001 }
-case 43:
+            if(var10) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             var8 = _closure1_slot5;
             var7 = var8.get;
             var2 = 'obscure_blur_effect_gore_content_enabled';
             var10 = var7.bind(var8)(var2);
-case 42:
-            if(var10) { _fun0001_ip = 44; continue _fun0001 }
-case 45:
+case 36:
+            if(var10) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var8 = _closure1_slot5;
             var7 = var8.get;
             var2 = 'obscure_blur_effect_self_harm_content_enabled';
             var10 = var7.bind(var8)(var2);
-case 44:
+case 38:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var8 = 14;
+            var8 = 15;
             var2 = var2[var8];
             var11 = var7.bind(var9)(var2);
             var7 = var11.isPendingScanVersion;
             var2 = var6.contentScanVersion;
             var13 = var7.bind(var11)(var2);
             var12 = var10;
-            if(!var10) { _fun0001_ip = 46; continue _fun0001 }
-case 47:
+            if(!var10) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var7 = var7.bind(var9)(var2);
             var2 = var7.shouldAgeVerifyForExplicitMedia;
             var12 = var2.bind(var7)();
-case 46:
+case 40:
             var11 = var10;
-            if(!var11) { _fun0001_ip = 48; continue _fun0001 }
-case 49:
+            if(!var11) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 15;
+            var2 = 16;
             var2 = var8[var2];
             var7 = var7.bind(var9)(var2);
             var2 = var7.isVerifiedTeen;
             var11 = var2.bind(var7)();
-case 48:
+case 42:
             var2 = var6.shouldContainMediaWithBackground;
-            if(!var2) { _fun0001_ip = 50; continue _fun0001 }
-case 51:
+            if(!var2) { _fun0001_ip = 44; continue _fun0001 }
+case 45:
             var2 = var6.coverImage;
-            if(!(var1 == var2)) { _fun0001_ip = 52; continue _fun0001 }
-case 50:
+            if(!(var1 == var2)) { _fun0001_ip = 46; continue _fun0001 }
+case 44:
             var2 = {};
             var21 = var2;
             var20 = var6;
@@ -350,8 +335,8 @@ case 50:
             var8 = '';
             var7 = true;
             var14 = var8;
-            if(!(var7 === var15)) { _fun0001_ip = 53; continue _fun0001 }
-case 54:
+            if(!(var7 === var15)) { _fun0001_ip = 47; continue _fun0001 }
+case 48:
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
             var7 = 9;
@@ -366,11 +351,11 @@ case 54:
             var15 = var15.bind(var16)(var7);
             var7 = var15.toUpperCase;
             var14 = var7.bind(var15)();
-case 53:
+case 47:
             var7 = 'spoiler';
             var2[6] = var14;
-            if(!var10) { _fun0001_ip = 55; continue _fun0001 }
-case 56:
+            if(!var10) { _fun0001_ip = 49; continue _fun0001 }
+case 50:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var7 = 9;
@@ -383,7 +368,7 @@ case 56:
             var7 = var7.t;
             var7 = var7.SpxcUR;
             var8 = var14.bind(var15)(var7);
-case 55:
+case 49:
             var7 = 'obscure';
             var2[6] = var8;
             var7 = 'obscureAwaitingScan';
@@ -396,8 +381,8 @@ case 55:
             var2[6] = var10;
             var7 = 'ctaButtonColor';
             var2[6] = var4;
-            _fun0001_ip = 57; continue _fun0001;
-case 52:
+            _fun0001_ip = 51; continue _fun0001;
+case 46:
             var7 = {};
             var21 = var7;
             var20 = var6;
@@ -408,8 +393,8 @@ case 52:
             var14 = '';
             var8 = true;
             var15 = var14;
-            if(!(var8 === var16)) { _fun0001_ip = 58; continue _fun0001 }
-case 59:
+            if(!(var8 === var16)) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var8 = 9;
@@ -424,11 +409,11 @@ case 59:
             var16 = var16.bind(var17)(var8);
             var8 = var16.toUpperCase;
             var15 = var8.bind(var16)();
-case 58:
+case 52:
             var8 = 'spoiler';
             var7[7] = var15;
-            if(!var10) { _fun0001_ip = 60; continue _fun0001 }
-case 61:
+            if(!var10) { _fun0001_ip = 54; continue _fun0001 }
+case 55:
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
             var8 = 9;
@@ -441,7 +426,7 @@ case 61:
             var8 = var8.t;
             var8 = var8.SpxcUR;
             var14 = var15.bind(var16)(var8);
-case 60:
+case 54:
             var8 = 'obscure';
             var7[7] = var14;
             var8 = 'obscureAwaitingScan';
@@ -456,7 +441,7 @@ case 60:
             var7[7] = var4;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var8 = 16;
+            var8 = 17;
             var8 = var11[var8];
             var11 = var10.bind(var9)(var8);
             var10 = var11.getBackgroundImageUrl;
@@ -465,9 +450,9 @@ case 60:
             var8 = 'backgroundImage';
             var7[7] = var10;
             var2 = var7;
-case 57:
+case 51:
             return var2;
-case 40:
+case 34:
             var2 = {};
             var21 = var2;
             var20 = var6;
@@ -476,7 +461,7 @@ case 40:
             var6 = var7.resolveAssetSource;
             var8 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var3 = 13;
+            var3 = 14;
             var3 = var10[var3];
             var3 = var8.bind(var9)(var3);
             var3 = var6.bind(var7)(var3);

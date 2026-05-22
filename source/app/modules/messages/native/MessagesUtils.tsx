@@ -2472,31 +2472,32 @@ case 227:
         _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
             var1 = arg1;
-            var15 = var1.firstVisibleMessageRowIndex;
+            var16 = var1.firstVisibleMessageRowIndex;
             var10 = var1.firstVisibleMessagePercentVisible;
-            var14 = var1.lastVisibleMessageRowIndex;
+            var15 = var1.lastVisibleMessageRowIndex;
             var9 = var1.lastVisibleMessagePercentVisible;
-            var13 = var1.source;
+            var14 = var1.source;
             var8 = var1.chatManager;
-            var12 = var1.shouldTrackAnnouncementMessageViews;
-            var11 = var1.shouldTrackOfficialMessageViews;
-            var6 = var1.shouldTrackRichPresenceInviteEmbedViews;
+            var13 = var1.shouldTrackAnnouncementMessageViews;
+            var12 = var1.shouldTrackOfficialMessageViews;
+            var11 = var1.shouldTrackRichPresenceInviteEmbedViews;
+            var6 = var1.shouldTrackVoiceInviteEmbedViews;
             var5 = var1.guildId;
             var7 = var1.channelId;
             var4 = var1.channel;
             var1 = null;
-            if(!(var1 != var15)) { _fun0035_ip = 231; continue _fun0035 }
-case 56:
-            if(!(var1 != var14)) { _fun0035_ip = 231; continue _fun0035 }
-case 207:
-            if(!(var1 != var10)) { _fun0035_ip = 231; continue _fun0035 }
-case 195:
-            if(!(var1 != var9)) { _fun0035_ip = 231; continue _fun0035 }
-case 232:
+            if(!(var1 != var16)) { _fun0035_ip = 226; continue _fun0035 }
+case 9:
+            if(!(var1 != var15)) { _fun0035_ip = 226; continue _fun0035 }
+case 87:
+            if(!(var1 != var10)) { _fun0035_ip = 226; continue _fun0035 }
+case 203:
+            if(!(var1 != var9)) { _fun0035_ip = 226; continue _fun0035 }
+case 208:
             var3 = _closure1_slot24;
             var2 = {};
-            var2['firstVisibleMessageRowIndex'] = var15;
-            var2['lastVisibleMessageRowIndex'] = var14;
+            var2['firstVisibleMessageRowIndex'] = var16;
+            var2['lastVisibleMessageRowIndex'] = var15;
             var2['firstVisibleMessagePercentVisible'] = var10;
             var2['lastVisibleMessagePercentVisible'] = var9;
             var2['chatManager'] = var8;
@@ -2505,8 +2506,8 @@ case 232:
             var3 = var3.bind(var7)(var2);
             var8 = var3.length;
             var2 = 0;
-            if(!(!(var8 <= var2))) { _fun0035_ip = 231; continue _fun0035 }
-case 219:
+            if(!(!(var8 <= var2))) { _fun0035_ip = 226; continue _fun0035 }
+case 231:
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 46;
@@ -2515,37 +2516,46 @@ case 219:
             var9 = var10.questsVisibleMobileMessagesChanged;
             var1 = {};
             var1['visibleMessages'] = var3;
-            var1['source'] = var13;
+            var1['source'] = var14;
             var1 = var9.bind(var10)(var1);
             var1 = 47;
             var9 = var8[var1];
             var10 = var2.bind(var7)(var9);
             var9 = var10.handleAnnouncementMessageViewTracking;
-            var20 = var10;
-            var19 = var3;
-            var18 = var12;
-            var17 = var5;
-            var16 = var4;
-            var9 = var20[var9](var19, var18, var17, var16, var15);
+            var21 = var10;
+            var20 = var3;
+            var19 = var13;
+            var18 = var5;
+            var17 = var4;
+            var9 = var21[var9](var20, var19, var18, var17, var16);
             var9 = var8[var1];
             var10 = var2.bind(var7)(var9);
             var9 = var10.handleOfficialMessageViewTracking;
-            var20 = var10;
-            var19 = var3;
-            var18 = var11;
-            var17 = var5;
-            var16 = var4;
-            var9 = var20[var9](var19, var18, var17, var16, var15);
+            var21 = var10;
+            var20 = var3;
+            var19 = var12;
+            var18 = var5;
+            var17 = var4;
+            var9 = var21[var9](var20, var19, var18, var17, var16);
+            var9 = var8[var1];
+            var10 = var2.bind(var7)(var9);
+            var9 = var10.handleRichPresenceInviteEmbedViewTracking;
+            var21 = var10;
+            var20 = var3;
+            var19 = var11;
+            var18 = var5;
+            var17 = var4;
+            var9 = var21[var9](var20, var19, var18, var17, var16);
             var1 = var8[var1];
             var2 = var2.bind(var7)(var1);
-            var1 = var2.handleRichPresenceInviteEmbedViewTracking;
-            var20 = var2;
-            var19 = var3;
-            var18 = var6;
-            var17 = var5;
-            var16 = var4;
-            var1 = var20[var1](var19, var18, var17, var16, var15);
-case 231:
+            var1 = var2.handleVoiceInviteEmbedViewTracking;
+            var21 = var2;
+            var20 = var3;
+            var19 = var6;
+            var18 = var5;
+            var17 = var4;
+            var1 = var21[var1](var20, var19, var18, var17, var16);
+case 226:
             var1 = undefined;
             return var1;
         }
@@ -2610,7 +2620,7 @@ case 200:
 case 77:
                 var1 = undefined;
                 if(var3) { _fun0037_ip = 71; continue _fun0037 }
-case 233:
+case 232:
                 var6 = var4().value;
                 var4 = var2;
                 var4 = var4 === var7;
@@ -2695,11 +2705,11 @@ case 218:
             var9 = var2.bind(var6)(var8);
             var2 = var5.get;
             var2 = var2.bind(var5)(var8);
-            if(!(var9 !== var2)) { _fun0038_ip = 234; continue _fun0038 }
-case 235:
+            if(!(var9 !== var2)) { _fun0038_ip = 233; continue _fun0038 }
+case 234:
             var2 = var1.add;
             var2 = var2.bind(var1)(var8);
-case 234:
+case 233:
             var8 = var4.bind(var7)();
             var2 = var8.done;
             var3 = var8;
