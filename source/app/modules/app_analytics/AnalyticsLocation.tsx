@@ -1163,6 +1163,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CROISSANT_PREMIUM_PERK_CARD'] = var1;
     var1 = 'xgpp reward modal';
     var2['CROISSANT_REWARD_MODAL'] = var1;
+    var1 = 'xbox perks connection footer';
+    var2['XBOX_PERKS_CONNECTION_FOOTER'] = var1;
+    var1 = 'xbox perks modal';
+    var2['XBOX_PERKS_MODAL'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -481,9 +481,7 @@ case 24:
         var7 = function value() {
             var6 = this;
             var _closure3_slot0 = var6;
-            var3 = var6.requests;
-            var2 = var3.values;
-            var4 = var2.bind(var3)();
+            var4 = var6.requests;
             var3 = var4.forEach;
             var2 = function(arg1) {
                 var2 = arg1;
@@ -495,14 +493,12 @@ case 24:
             var3 = var6.requests;
             var2 = var3.clear;
             var2 = var2.bind(var3)();
-            var3 = var6.analyticsTimeouts;
-            var2 = var3.keys;
-            var4 = var2.bind(var3)();
+            var4 = var6.analyticsTimeouts;
             var3 = var4.forEach;
-            var2 = function(arg1) {
+            var2 = function(arg1, arg2) {
                 var3 = _closure3_slot0;
                 var2 = var3.cancelQueueMetricTimers;
-                var1 = arg1;
+                var1 = arg2;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };

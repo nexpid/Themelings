@@ -496,26 +496,28 @@ case 52:
 case 0:
             var3 = arg1;
             var2 = var3.channel;
-            var10 = var3.message;
-            var9 = var3.shouldMention;
+            var11 = var3.message;
+            var10 = var3.shouldMention;
             var1 = undefined;
-            if(!(var9 === var1)) { _fun0010_ip = 42; continue _fun0010 }
+            if(!(var10 === var1)) { _fun0010_ip = 42; continue _fun0010 }
 case 54:
-            var9 = true;
+            var10 = true;
 case 42:
-            var8 = var3.showMentionToggle;
-            if(!(var8 === var1)) { _fun0010_ip = 55; continue _fun0010 }
+            var9 = var3.showMentionToggle;
+            if(!(var9 === var1)) { _fun0010_ip = 55; continue _fun0010 }
 case 50:
-            var8 = true;
+            var9 = true;
 case 55:
             var4 = var3.source;
+            var8 = var3.mediaMention;
             var7 = _closure1_slot10;
             var6 = var2.id;
             var5 = {};
             var5['channel'] = var2;
-            var5['message'] = var10;
-            var5['shouldMention'] = var9;
-            var5['showMentionToggle'] = var8;
+            var5['message'] = var11;
+            var5['shouldMention'] = var10;
+            var5['showMentionToggle'] = var9;
+            var5['mediaMention'] = var8;
             var7[var6] = var5;
             var3 = _closure1_slot12;
             var2 = var2.id;

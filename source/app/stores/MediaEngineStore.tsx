@@ -11533,9 +11533,23 @@ case 349:
             var3 = null;
             if(!(var3 != var2)) { _fun0145_ip = 515; continue _fun0145 }
 case 171:
+            var4 = _closure1_slot76;
+            var8 = var3 == var4;
+            var2 = undefined;
+            if(var8) { _fun0145_ip = 311; continue _fun0145 }
+case 358:
+            var4 = var4.desktopSource;
+            var2 = var4.id;
+case 311:
+            if(!(var2 === var10)) { _fun0145_ip = 454; continue _fun0145 }
+case 67:
             var2 = _closure1_slot76;
-            if(!(var3 != var2)) { _fun0145_ip = 516; continue _fun0145 }
-case 93:
+            var2 = var2.quality;
+            if(!(var2 !== var7)) { _fun0145_ip = 516; continue _fun0145 }
+case 454:
+            var2 = _closure1_slot76;
+            if(!(var3 != var2)) { _fun0145_ip = 517; continue _fun0145 }
+case 423:
             var4 = _closure1_slot73;
             var2 = var4.setClipsSource;
             var2 = var2.bind(var4)(var3);
@@ -11546,25 +11560,25 @@ case 93:
             var4 = var4.bind(var1)(var2);
             var2 = var4.isWindows;
             var2 = var2.bind(var4)();
-            if(!var2) { _fun0145_ip = 516; continue _fun0145 }
-case 428:
+            if(!var2) { _fun0145_ip = 517; continue _fun0145 }
+case 449:
             var2 = _closure1_slot76;
             var2 = var2.desktopSource;
             var2 = var2.soundshareId;
-            if(!(var3 == var2)) { _fun0145_ip = 386; continue _fun0145 }
-case 304:
+            if(!(var3 == var2)) { _fun0145_ip = 518; continue _fun0145 }
+case 184:
             var2 = _closure1_slot76;
             var2 = var2.desktopSource;
             var2 = var2.sourcePid;
             var2 = var3 != var2;
-            if(!var2) { _fun0145_ip = 370; continue _fun0145 }
-case 112:
+            if(!var2) { _fun0145_ip = 519; continue _fun0145 }
+case 109:
             var3 = _closure1_slot148;
             var3 = var3.bind(var1)();
             var2 = var3.videoHook;
-case 370:
-            if(!var2) { _fun0145_ip = 516; continue _fun0145 }
-case 517:
+case 519:
+            if(!var2) { _fun0145_ip = 517; continue _fun0145 }
+case 182:
             var3 = _closure1_slot2;
             var4 = _closure1_slot3;
             var2 = 39;
@@ -11575,8 +11589,8 @@ case 517:
             var2 = var2.desktopSource;
             var2 = var2.sourcePid;
             var2 = var3.bind(var4)(var2);
-            _fun0145_ip = 516; continue _fun0145;
-case 386:
+            _fun0145_ip = 517; continue _fun0145;
+case 518:
             var3 = _closure1_slot2;
             var4 = _closure1_slot3;
             var2 = 39;
@@ -11587,7 +11601,7 @@ case 386:
             var2 = var2.desktopSource;
             var2 = var2.soundshareId;
             var2 = var3.bind(var4)(var2);
-case 516:
+case 517:
             var3 = _closure1_slot1;
             var4 = _closure1_slot3;
             var2 = 60;
@@ -11616,8 +11630,8 @@ case 516:
             var2 = var2.bind(var1)();
             var13 = var2.videoHook;
             var12 = !var13;
-            if(var12) { _fun0145_ip = 518; continue _fun0145 }
-case 519:
+            if(var12) { _fun0145_ip = 520; continue _fun0145 }
+case 521:
             var3 = _closure1_slot0;
             var4 = _closure1_slot3;
             var2 = 42;
@@ -11631,10 +11645,10 @@ case 519:
             var2 = var3.bind(var4)(var2);
             var2 = var2.enabled;
             var12 = !var2;
-case 518:
+case 520:
             var9 = var13;
-            if(!var9) { _fun0145_ip = 520; continue _fun0145 }
-case 521:
+            if(!var9) { _fun0145_ip = 522; continue _fun0145 }
+case 466:
             var3 = _closure1_slot0;
             var4 = _closure1_slot3;
             var2 = 43;
@@ -11647,7 +11661,7 @@ case 521:
             var2['location'] = var8;
             var2 = var3.bind(var4)(var2);
             var9 = var2.enabled;
-case 520:
+case 522:
             var4 = _closure1_slot73;
             var3 = var4.setClipsSource;
             var2 = {};
@@ -11693,6 +11707,9 @@ case 520:
             var2['videoEncoderExperiments'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
+case 516:
+            var1 = false;
+            return var1;
 case 515:
             var1 = false;
             return var1;
@@ -11707,7 +11724,7 @@ case 0:
             var2 = var1.decoupledClipsEnabled;
             var1 = false;
             if(!(var1 === var2)) { _fun0146_ip = 354; continue _fun0146 }
-case 522:
+case 523:
             var3 = null;
             _closure1_slot76 = var3;
             var2 = _closure1_slot73;

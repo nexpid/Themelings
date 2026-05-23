@@ -3190,6 +3190,8 @@ case 85:
         var5['style'] = var16;
         var16 = true;
         var5['inverted'] = var16;
+        var16 = var9.channelId;
+        var5['channelId'] = var16;
         var16 = var9.alwaysRespectKeyboard;
         var5['alwaysRespectKeyboard'] = var16;
         var5['onChatScrollPosition'] = var15;

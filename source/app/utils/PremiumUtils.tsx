@@ -3387,7 +3387,7 @@ case 424:
             var4 = 21;
             var4 = var9[var4];
             var8 = var8.bind(var6)(var4);
-            var4 = var8.isAndroid;
+            var4 = var8.isGooglePlayBillingSupported;
             var4 = var4.bind(var8)();
             if(var4) { _fun0021_ip = 423; continue _fun0021 }
 case 259:

@@ -438,7 +438,7 @@ case 51:
         return var1;
     };
     var4['cleanup'] = var2;
-    var2 = new Array(8);
+    var2 = new Array(9);
     var2[0] = var4;
     var4 = {};
     var7 = 3;
@@ -1271,12 +1271,104 @@ case 98:
         }
     };
     var7['run'] = var9;
+    var9 = function cleanup() {
+        var1 = undefined;
+        return var1;
+    };
+    var7['cleanup'] = var9;
+    var2[7] = var7;
+    var7 = {};
+    var9 = 11;
+    var7['version'] = var9;
+    var9 = function run(arg1) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+case 0:
+            var16 = arg1;
+            var1 = var16.favoriteGifs;
+            var15 = null;
+            if(!(var15 != var1)) { _fun0020_ip = 104; continue _fun0020 }
+case 99:
+            var1 = var16.favoriteGifs;
+            var1 = var1.gifs;
+            if(!(var15 != var1)) { _fun0020_ip = 104; continue _fun0020 }
+case 105:
+            var1 = var16.favoriteGifs;
+            var13 = var1.gifs;
+            var2 = false;
+            var8 = 3;
+            var7 = undefined;
+            var5 = global;
+            var4 = 'https:';
+            var3 = '//';
+            var1 = false;
+            for(var10 in var13)
+case 47:
+            {
+                var17 = var2;
+                var1 = var17;
+case 106:
+                var19 = var10;
+                var18 = var16.favoriteGifs;
+                var18 = var18.gifs;
+                var19 = var18[var19];
+                var2 = var17;
+                if(var15 == var19) { _fun0020_ip = 47; continue _fun0020 }
+case 76:
+                var20 = var19.src;
+                var18 = var20.startsWith;
+                var18 = var18.bind(var20)(var3);
+                if(!var18) { _fun0020_ip = 107; continue _fun0020 }
+case 108:
+                var20 = var19.src;
+                var18 = var5.HermesInternal;
+                var18 = var18.concat;
+                var18 = var18.bind(var4)(var20);
+                var19['src'] = var18;
+                var17 = true;
+case 107:
+                var20 = var19.format;
+                var21 = _closure1_slot0;
+                var18 = _closure1_slot2;
+                var18 = var18[var8];
+                var18 = var21.bind(var7)(var18);
+                var18 = var18.GIFType;
+                var18 = var18.IMAGE;
+                var18 = var20 !== var18;
+                if(!var18) { _fun0020_ip = 18; continue _fun0020 }
+case 60:
+                var22 = /\.(webp|avif|gif)(\?|$)/i;
+                var21 = var22.test;
+                var20 = var19.src;
+                var18 = var21.bind(var22)(var20);
+case 18:
+                if(!var18) { _fun0020_ip = 25; continue _fun0020 }
+case 109:
+                var20 = _closure1_slot0;
+                var18 = _closure1_slot2;
+                var18 = var18[var8];
+                var18 = var20.bind(var7)(var18);
+                var18 = var18.GIFType;
+                var18 = var18.IMAGE;
+                var19['format'] = var18;
+                var17 = true;
+case 25:
+                var2 = var17;
+                _fun0020_ip = 47; continue _fun0020;
+            }
+case 110:
+            return var1;
+case 104:
+            var1 = false;
+            return var1;
+        }
+    };
+    var7['run'] = var9;
     var8 = function cleanup() {
         var1 = undefined;
         return var1;
     };
     var7['cleanup'] = var8;
-    var2[7] = var7;
+    var2[8] = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

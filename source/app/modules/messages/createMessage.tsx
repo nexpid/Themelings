@@ -74,150 +74,152 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function createMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var11 = arg1;
-            var16 = var11.channelId;
-            var17 = var11.content;
-            var10 = var11.tts;
-            var22 = undefined;
-            if(!(var10 === var22)) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = arg1;
+            var17 = var2.channelId;
+            var18 = var2.content;
+            var11 = var2.tts;
+            var23 = undefined;
+            if(!(var11 === var23)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var10 = false;
+            var11 = false;
 case 2:
-            var18 = var11.type;
-            if(!(var18 === var22)) { _fun0001_ip = 4; continue _fun0001 }
+            var19 = var2.type;
+            if(!(var19 === var23)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var1 = _closure1_slot8;
-            var18 = var1.DEFAULT;
+            var19 = var1.DEFAULT;
 case 4:
-            var9 = var11.messageReference;
-            var1 = var11.allowedMentions;
-            var19 = var11.author;
-            var8 = var11.flags;
-            var7 = var11.nonce;
-            var6 = var11.poll;
-            var5 = var11.sharedCustomTheme;
-            var4 = var11.changelogId;
-            var3 = var11.giftingPrompt;
-            var2 = var11.boostingPrompt;
-            var11 = var11.state;
-            var15 = new Array(0);
-            var13 = _closure1_slot8;
-            var13 = var13.REPLY;
-            if(!(var18 === var13)) { _fun0001_ip = 6; continue _fun0001 }
+            var10 = var2.messageReference;
+            var1 = var2.allowedMentions;
+            var20 = var2.author;
+            var9 = var2.flags;
+            var8 = var2.nonce;
+            var7 = var2.poll;
+            var6 = var2.sharedCustomTheme;
+            var5 = var2.changelogId;
+            var4 = var2.giftingPrompt;
+            var3 = var2.boostingPrompt;
+            var12 = var2.state;
+            var2 = var2.mediaMention;
+            var16 = new Array(0);
+            var14 = _closure1_slot8;
+            var14 = var14.REPLY;
+            if(!(var19 === var14)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var14 = _closure1_slot1;
-            var20 = _closure1_slot2;
-            var13 = 4;
-            var13 = var20[var13];
-            var21 = var14.bind(var22)(var13);
-            var13 = null;
-            var20 = var13 != var9;
-            var14 = 'Replies must have a message reference';
-            var14 = var21.bind(var22)(var20, var14);
-            if(!(var13 != var1)) { _fun0001_ip = 8; continue _fun0001 }
+            var15 = _closure1_slot1;
+            var21 = _closure1_slot2;
+            var14 = 4;
+            var14 = var21[var14];
+            var22 = var15.bind(var23)(var14);
+            var14 = null;
+            var21 = var14 != var10;
+            var15 = 'Replies must have a message reference';
+            var15 = var22.bind(var23)(var21, var15);
+            if(!(var14 != var1)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var1 = var1.replied_user;
             if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 8:
-            var14 = _closure1_slot3;
-            var1 = var14.getMessageByReference;
-            var1 = var1.bind(var14)(var9);
-            var13 = var13 == var1;
-            var14 = undefined;
-            if(var13) { _fun0001_ip = 10; continue _fun0001 }
+            var15 = _closure1_slot3;
+            var1 = var15.getMessageByReference;
+            var1 = var1.bind(var15)(var10);
+            var14 = var14 == var1;
+            var15 = undefined;
+            if(var14) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var14 = var1.state;
+            var15 = var1.state;
 case 10:
-            var13 = _closure1_slot4;
-            var13 = var13.LOADED;
-            if(!(var14 === var13)) { _fun0001_ip = 6; continue _fun0001 }
+            var14 = _closure1_slot4;
+            var14 = var14.LOADED;
+            if(!(var15 === var14)) { _fun0001_ip = 6; continue _fun0001 }
 case 12:
-            var13 = var15.push;
-            var14 = _closure1_slot12;
+            var14 = var16.push;
+            var15 = _closure1_slot12;
             var1 = var1.message;
             var1 = var1.author;
-            var1 = var14.bind(var22)(var1);
-            var1 = var13.bind(var15)(var1);
+            var1 = var15.bind(var23)(var1);
+            var1 = var14.bind(var16)(var1);
 case 6:
-            var13 = null;
-            if(!(var13 == var19)) { _fun0001_ip = 13; continue _fun0001 }
+            var14 = null;
+            if(!(var14 == var20)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var14 = _closure1_slot6;
-            var1 = var14.getCurrentUser;
-            var19 = var1.bind(var14)();
+            var15 = _closure1_slot6;
+            var1 = var15.getCurrentUser;
+            var20 = var1.bind(var15)();
 case 13:
             var1 = _closure1_slot5;
-            var1 = var19 instanceof var1;
-            var14 = var19;
+            var1 = var20 instanceof var1;
+            var15 = var20;
             if(!var1) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
             var1 = _closure1_slot12;
-            var14 = var1.bind(var22)(var19);
+            var15 = var1.bind(var23)(var20);
 case 15:
-            var19 = _closure1_slot1;
-            var20 = _closure1_slot2;
+            var20 = _closure1_slot1;
+            var21 = _closure1_slot2;
             var1 = 4;
-            var1 = var20[var1];
-            var20 = var19.bind(var22)(var1);
-            var19 = var13 != var14;
+            var1 = var21[var1];
+            var21 = var20.bind(var23)(var1);
+            var20 = var14 != var15;
             var1 = 'createMessage: author cannot be undefined';
-            var1 = var20.bind(var22)(var19, var1);
+            var1 = var21.bind(var23)(var20, var1);
             var1 = {};
-            var19 = var7;
-            if(!(var13 == var19)) { _fun0001_ip = 17; continue _fun0001 }
+            var20 = var8;
+            if(!(var14 == var20)) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var21 = _closure1_slot0;
-            var23 = _closure1_slot2;
-            var20 = 5;
-            var20 = var23[var20];
-            var21 = var21.bind(var22)(var20);
-            var20 = var21.createNonce;
-            var19 = var20.bind(var21)();
+            var22 = _closure1_slot0;
+            var24 = _closure1_slot2;
+            var21 = 5;
+            var21 = var24[var21];
+            var22 = var22.bind(var23)(var21);
+            var21 = var22.createNonce;
+            var20 = var21.bind(var22)();
 case 17:
-            var1['id'] = var19;
-            var1['type'] = var18;
-            var1['content'] = var17;
-            var1['channel_id'] = var16;
-            var1['author'] = var14;
-            var14 = new Array(0);
-            var1['attachments'] = var14;
-            var14 = new Array(0);
-            var1['embeds'] = var14;
-            var14 = false;
-            var1['pinned'] = var14;
-            var1['mentions'] = var15;
+            var1['id'] = var20;
+            var1['type'] = var19;
+            var1['content'] = var18;
+            var1['channel_id'] = var17;
+            var1['author'] = var15;
             var15 = new Array(0);
-            var1['mention_channels'] = var15;
+            var1['attachments'] = var15;
             var15 = new Array(0);
-            var1['mention_roles'] = var15;
-            var1['mention_everyone'] = var14;
-            var14 = global;
-            var14 = var14.Date;
-            var15 = var14.prototype;
-            var15 = Object.create(var15, {constructor: {value: var14}});
-            var26 = var15;
-            var14 = new var26[var14](var25);
-            var15 = var14 instanceof Object ? var14 : var15;
-            var14 = var15.toISOString;
-            var14 = var14.bind(var15)();
-            var1['timestamp'] = var14;
-            if(!(var13 == var11)) { _fun0001_ip = 19; continue _fun0001 }
+            var1['embeds'] = var15;
+            var15 = false;
+            var1['pinned'] = var15;
+            var1['mentions'] = var16;
+            var16 = new Array(0);
+            var1['mention_channels'] = var16;
+            var16 = new Array(0);
+            var1['mention_roles'] = var16;
+            var1['mention_everyone'] = var15;
+            var15 = global;
+            var15 = var15.Date;
+            var16 = var15.prototype;
+            var16 = Object.create(var16, {constructor: {value: var15}});
+            var27 = var16;
+            var15 = new var27[var15](var26);
+            var16 = var15 instanceof Object ? var15 : var16;
+            var15 = var16.toISOString;
+            var15 = var15.bind(var16)();
+            var1['timestamp'] = var15;
+            if(!(var14 == var12)) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
-            var12 = _closure1_slot7;
-            var11 = var12.SENDING;
+            var13 = _closure1_slot7;
+            var12 = var13.SENDING;
 case 19:
-            var1['state'] = var11;
-            var1['tts'] = var10;
-            var1['message_reference'] = var9;
-            var9 = new Array(0);
-            var1['message_snapshots'] = var9;
-            var1['flags'] = var8;
-            var1['nonce'] = var7;
-            var1['poll'] = var6;
-            var1['shared_client_theme'] = var5;
-            var1['changelog_id'] = var4;
-            var1['gifting_prompt'] = var3;
-            var1['boosting_prompt'] = var2;
+            var1['state'] = var12;
+            var1['tts'] = var11;
+            var1['message_reference'] = var10;
+            var10 = new Array(0);
+            var1['message_snapshots'] = var10;
+            var1['flags'] = var9;
+            var1['nonce'] = var8;
+            var1['poll'] = var7;
+            var1['shared_client_theme'] = var6;
+            var1['changelog_id'] = var5;
+            var1['gifting_prompt'] = var4;
+            var1['boosting_prompt'] = var3;
+            var1['media_mention'] = var2;
             return var1;
         }
     };

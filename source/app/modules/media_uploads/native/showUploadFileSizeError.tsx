@@ -61,50 +61,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var15 = var1.file;
+            var16 = var1.file;
             var10 = var1.maxSize;
-            var12 = var1.analyticsLocations;
-            var4 = var1.errorReason;
+            var13 = var1.analyticsLocations;
+            var6 = var1.errorReason;
             var1 = undefined;
             var _closure2_slot0 = var1;
             var _closure2_slot1 = var1;
-            var6 = _closure1_slot4;
-            var5 = var6.getCurrentUser;
-            var8 = var5.bind(var6)();
-            var6 = _closure1_slot0;
+            var5 = _closure1_slot4;
+            var4 = var5.getCurrentUser;
+            var8 = var4.bind(var5)();
+            var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var5 = 5;
-            var5 = var7[var5];
-            var7 = var6.bind(var1)(var5);
-            var6 = var7.isPremiumExactly;
-            var5 = _closure1_slot8;
-            var5 = var5.TIER_2;
-            var14 = var6.bind(var7)(var8, var5);
-            var5 = var15.items;
-            var7 = null;
-            if(!(var7 == var5)) { _fun0001_ip = 2; continue _fun0001 }
+            var4 = 5;
+            var4 = var7[var4];
+            var7 = var5.bind(var1)(var4);
+            var5 = var7.isPremiumExactly;
+            var4 = _closure1_slot8;
+            var4 = var4.TIER_2;
+            var15 = var5.bind(var7)(var8, var4);
+            var4 = var16.items;
+            var8 = null;
+            if(!(var8 == var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var16 = new Array(0);
+            var17 = new Array(0);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var5 = 6;
-            var5 = var8[var5];
-            var8 = var6.bind(var1)(var5);
-            var6 = var8.getAttachmentMimeTypes;
-            var5 = var15.items;
-            var16 = var6.bind(var8)(var5);
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 6;
+            var4 = var7[var4];
+            var7 = var5.bind(var1)(var4);
+            var5 = var7.getAttachmentMimeTypes;
+            var4 = var16.items;
+            var17 = var5.bind(var7)(var4);
 case 4:
             var5 = new Array(0);
             _closure2_slot0 = var5;
-            var13 = new Array(0);
-            _closure2_slot1 = var13;
-            var6 = var15.items;
-            if(!(var7 != var6)) { _fun0001_ip = 5; continue _fun0001 }
+            var14 = new Array(0);
+            _closure2_slot1 = var14;
+            var4 = var16.items;
+            if(!(var8 != var4)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var8 = var15.items;
-            var6 = var8.forEach;
+            var7 = var16.items;
+            var4 = var7.forEach;
             var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -128,232 +128,240 @@ case 7:
                     return var1;
                 }
             };
-            var3 = var6.bind(var8)(var3);
+            var3 = var4.bind(var7)(var3);
 case 5:
-            var6 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var4 = _closure1_slot2;
             var19 = 7;
-            var8 = var3[var19];
-            var11 = var6.bind(var1)(var8);
+            var3 = var4[var19];
+            var11 = var7.bind(var1)(var3);
             var9 = var11.getKestrelConfig;
-            var8 = {};
-            var17 = 'native.showUploadFileSizeError';
-            var8['location'] = var17;
-            var18 = var9.bind(var11)(var8);
-            var9 = 8;
-            var3 = var3[var9];
-            var11 = var6.bind(var1)(var3);
-            var8 = var11.trackWithMetadata;
-            var3 = _closure1_slot5;
-            var6 = var3.FILE_SIZE_LIMIT_EXCEEDED;
             var3 = {};
-            var3['user_individual_file_size_limit'] = var10;
-            var17 = var15.attachmentsCount;
-            var3['num_attachments'] = var17;
-            var3['pre_compression_file_sizes'] = var13;
-            var17 = var15.totalPreCompressionSize;
-            var3['pre_compression_aggregate_file_size'] = var17;
-            var3['post_compression_file_sizes'] = var5;
-            var17 = var15.totalPostCompressionSize;
-            var3['post_compression_aggregate_file_size'] = var17;
-            var3['attachment_mimetypes'] = var16;
-            var16 = var4;
-            if(!(var7 == var16)) { _fun0001_ip = 9; continue _fun0001 }
+            var12 = 'native.showUploadFileSizeError';
+            var3['location'] = var12;
+            var3 = var9.bind(var11)(var3);
+            var11 = 8;
+            var4 = var4[var11];
+            var12 = var7.bind(var1)(var4);
+            var9 = var12.trackWithMetadata;
+            var4 = _closure1_slot5;
+            var7 = var4.FILE_SIZE_LIMIT_EXCEEDED;
+            var4 = {};
+            var4['user_individual_file_size_limit'] = var10;
+            var18 = var16.attachmentsCount;
+            var4['num_attachments'] = var18;
+            var4['pre_compression_file_sizes'] = var14;
+            var18 = var16.totalPreCompressionSize;
+            var4['pre_compression_aggregate_file_size'] = var18;
+            var4['post_compression_file_sizes'] = var5;
+            var18 = var16.totalPostCompressionSize;
+            var4['post_compression_aggregate_file_size'] = var18;
+            var4['attachment_mimetypes'] = var17;
+            var17 = var6;
+            if(!(var8 == var17)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var17 = _closure1_slot7;
-            var16 = var17.ERROR_SOURCE_UNKNOWN;
+            var18 = _closure1_slot7;
+            var17 = var18.ERROR_SOURCE_UNKNOWN;
 case 9:
-            var3['error_type'] = var16;
-            var17 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var16 = var16[var19];
-            var17 = var17.bind(var1)(var16);
-            var16 = var17.getKestrelVariantName;
-            var16 = var16.bind(var17)(var18);
-            var3['kestrel_variant'] = var16;
-            var3 = var8.bind(var11)(var6, var3);
-            var8 = 0;
-            if(var14) { _fun0001_ip = 11; continue _fun0001 }
+            var4['error_type'] = var17;
+            var18 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var17 = var17[var19];
+            var18 = var18.bind(var1)(var17);
+            var17 = var18.getKestrelVariantName;
+            var17 = var17.bind(var18)(var3);
+            var4['kestrel_variant'] = var17;
+            var4 = var9.bind(var12)(var7, var4);
+            var9 = 0;
+            if(var15) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var6 = var15.items;
-            var3 = var10;
-            if(!(var7 != var6)) { _fun0001_ip = 13; continue _fun0001 }
+            var7 = var16.items;
+            var4 = var10;
+            if(!(var8 != var7)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var6 = _closure1_slot7;
-            var6 = var6.ERROR_SOURCE_UNKNOWN;
-            var3 = var10;
-            if(!(var4 !== var6)) { _fun0001_ip = 13; continue _fun0001 }
+            var7 = _closure1_slot7;
+            var7 = var7.ERROR_SOURCE_UNKNOWN;
+            var4 = var10;
+            if(!(var6 !== var7)) { _fun0001_ip = 13; continue _fun0001 }
 case 15:
-            var6 = global;
-            var7 = var6.Math;
-            var6 = var7.max;
-            var16 = _closure1_slot7;
-            var16 = var16.POSTCOMPRESSION_INDIVIDUAL_FILE_TOO_LARGE;
-            if(!(var4 === var16)) { _fun0001_ip = 16; continue _fun0001 }
+            var7 = global;
+            var8 = var7.Math;
+            var7 = var8.max;
+            var17 = _closure1_slot7;
+            var17 = var17.POSTCOMPRESSION_INDIVIDUAL_FILE_TOO_LARGE;
+            if(!(var6 === var17)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var13 = var5;
+            var14 = var5;
 case 16:
             var5 = new Array(0);
             var22 = var5;
+            var21 = var14;
+            var20 = 0;
+            var14 = arraySpread(var22, var21, var20);
+            var22 = var7;
+            var21 = var5;
+            var20 = var8;
+            var4 = apply(var22, var21, var20);
+case 13:
+            var9 = var4;
+case 11:
+            var4 = _closure1_slot7;
+            var4 = var4.POSTCOMPRESSION_SUM_TOO_LARGE;
+            var4 = var6 === var4;
+            if(var4) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            var5 = _closure1_slot7;
+            var5 = var5.PRECOMPRESSION_SUM_TOO_LARGE;
+            var4 = var6 === var5;
+case 18:
+            var5 = var15;
+            if(var5) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            var8 = _closure1_slot9;
+            var7 = _closure1_slot8;
+            var7 = var7.TIER_2;
+            var7 = var8[var7];
+            var7 = var7.fileSize;
+            var5 = var9 > var7;
+case 20:
+            if(var5) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
+            var8 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var7 = 9;
+            var7 = var14[var7];
+            var7 = var8.bind(var1)(var7);
+            var7 = var7.MAX_TOTAL_ATTACHMENT_SIZE;
+            var5 = var9 > var7;
+case 22:
+            if(var5) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
+            var5 = var4;
+case 24:
+            if(var5) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
+            var7 = _closure1_slot7;
+            var7 = var7.ERROR_SOURCE_UNKNOWN;
+            var5 = var6 === var7;
+case 26:
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var7 = var7[var11];
+            var14 = var8.bind(var1)(var7);
+            var11 = var14.trackWithMetadata;
+            var7 = _closure1_slot5;
+            var8 = var7.FILE_UPLOAD_ALERT_VIEWED;
+            var7 = {};
+            var18 = _closure1_slot11;
+            if(var5) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
+            var17 = var18.NITRO_UPSELL;
+            _fun0001_ip = 30; continue _fun0001;
+case 28:
+            var17 = var18.OVER_MAX_SIZE;
+case 30:
+            var7['alert_type'] = var17;
+            var17 = var16.attachmentsCount;
+            var7['num_attachments'] = var17;
+            var17 = var16.currentSize;
+            var7['total_attachment_size'] = var17;
+            var17 = var16.hasImage;
+            var7['has_image'] = var17;
+            var16 = var16.hasVideo;
+            var7['has_video'] = var16;
+            var7['is_premium'] = var15;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var15 = 10;
+            var15 = var17[var15];
+            var16 = var16.bind(var1)(var15);
+            var15 = var16.getImageCompressionQuality;
+            var15 = var15.bind(var16)();
+            var7['image_compression_quality'] = var15;
+            var15 = _closure1_slot3;
+            var15 = var15.dataSavingMode;
+            var7['image_compression_setting_enabled'] = var15;
+            var7 = var11.bind(var14)(var8, var7);
+            if(var5) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
+            var14 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var5 = 11;
+            var5 = var15[var5];
+            var8 = var14.bind(var1)(var5);
+            var7 = var8.handleShowUpsellAlert;
+            var5 = {};
+            var16 = _closure1_slot0;
+            var11 = 12;
+            var11 = var15[var11];
+            var11 = var16.bind(var1)(var11);
+            var11 = var11.UpsellTypes;
+            var11 = var11.UPLOAD;
+            var5['initialUpsellKey'] = var11;
+            var11 = {};
+            var16 = _closure1_slot6;
+            var16 = var16.FILE_UPLOAD_POPOUT;
+            var11['section'] = var16;
+            var5['analyticsLocation'] = var11;
+            var11 = new Array(1);
+            var22 = var11;
             var21 = var13;
             var20 = 0;
             var13 = arraySpread(var22, var21, var20);
-            var22 = var6;
-            var21 = var5;
-            var20 = var7;
-            var3 = apply(var22, var21, var20);
-case 13:
-            var8 = var3;
-case 11:
-            var3 = _closure1_slot7;
-            var3 = var3.POSTCOMPRESSION_SUM_TOO_LARGE;
-            var5 = var4 === var3;
-            if(var5) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-            var3 = _closure1_slot7;
-            var3 = var3.PRECOMPRESSION_SUM_TOO_LARGE;
-            var5 = var4 === var3;
-case 18:
-            var3 = var14;
-            if(var3) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-            var7 = _closure1_slot9;
-            var6 = _closure1_slot8;
-            var6 = var6.TIER_2;
-            var6 = var7[var6];
-            var6 = var6.fileSize;
-            var3 = var8 > var6;
-case 20:
-            if(var3) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var7 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var6 = 9;
-            var6 = var13[var6];
-            var6 = var7.bind(var1)(var6);
-            var6 = var6.MAX_TOTAL_ATTACHMENT_SIZE;
-            var3 = var8 > var6;
-case 22:
-            if(var3) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
-            var3 = var5;
-case 24:
-            if(var3) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
-            var6 = _closure1_slot7;
-            var6 = var6.ERROR_SOURCE_UNKNOWN;
-            var3 = var4 === var6;
-case 26:
-            var7 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var6 = var6[var9];
-            var13 = var7.bind(var1)(var6);
-            var9 = var13.trackWithMetadata;
-            var6 = _closure1_slot5;
-            var7 = var6.FILE_UPLOAD_ALERT_VIEWED;
-            var6 = {};
-            var17 = _closure1_slot11;
-            if(var3) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
-            var16 = var17.NITRO_UPSELL;
-            _fun0001_ip = 30; continue _fun0001;
-case 28:
-            var16 = var17.OVER_MAX_SIZE;
-case 30:
-            var6['alert_type'] = var16;
-            var16 = var15.attachmentsCount;
-            var6['num_attachments'] = var16;
-            var16 = var15.currentSize;
-            var6['total_attachment_size'] = var16;
-            var16 = var15.hasImage;
-            var6['has_image'] = var16;
-            var15 = var15.hasVideo;
-            var6['has_video'] = var15;
-            var6['is_premium'] = var14;
-            var15 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var14 = 10;
-            var14 = var16[var14];
-            var15 = var15.bind(var1)(var14);
-            var14 = var15.getImageCompressionQuality;
-            var14 = var14.bind(var15)();
-            var6['image_compression_quality'] = var14;
-            var14 = _closure1_slot3;
-            var14 = var14.dataSavingMode;
-            var6['image_compression_setting_enabled'] = var14;
-            var6 = var9.bind(var13)(var7, var6);
-            if(var3) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var3 = 11;
-            var3 = var14[var3];
-            var7 = var13.bind(var1)(var3);
-            var6 = var7.handleShowUpsellAlert;
-            var3 = {};
-            var15 = _closure1_slot0;
-            var9 = 12;
-            var9 = var14[var9];
-            var9 = var15.bind(var1)(var9);
-            var9 = var9.UpsellTypes;
-            var9 = var9.UPLOAD;
-            var3['initialUpsellKey'] = var9;
-            var9 = {};
-            var15 = _closure1_slot6;
-            var15 = var15.FILE_UPLOAD_POPOUT;
-            var9['section'] = var15;
-            var3['analyticsLocation'] = var9;
-            var9 = new Array(1);
-            var22 = var9;
-            var21 = var12;
-            var20 = 0;
-            var12 = arraySpread(var22, var21, var20);
-            var11 = 13;
-            var11 = var14[var11];
-            var11 = var13.bind(var1)(var11);
-            var11 = var11.FILE_UPLOAD_POPOUT;
-            var9[11] = var11;
-            var11 = 1;
-            var11 = var12 + var11;
-            var3['analyticsLocations'] = var9;
-            var9 = {};
-            var11 = _closure1_slot10;
-            var11 = var11.UPLOAD_ERROR_UPSELL;
-            var9['type'] = var11;
-            var3['analyticsProperties'] = var9;
-            var3['largestFileSize'] = var8;
-            var3 = var6.bind(var7)(var3);
+            var12 = 13;
+            var12 = var15[var12];
+            var12 = var14.bind(var1)(var12);
+            var12 = var12.FILE_UPLOAD_POPOUT;
+            var11[12] = var12;
+            var12 = 1;
+            var12 = var13 + var12;
+            var5['analyticsLocations'] = var11;
+            var11 = {};
+            var12 = _closure1_slot10;
+            var12 = var12.UPLOAD_ERROR_UPSELL;
+            var11['type'] = var12;
+            var5['analyticsProperties'] = var11;
+            var5['largestFileSize'] = var9;
+            var5 = var7.bind(var8)(var5);
             _fun0001_ip = 33; continue _fun0001;
 case 31:
-            var3 = _closure1_slot7;
-            var3 = var3.ERROR_SOURCE_UNKNOWN;
-            if(!(var4 !== var3)) { _fun0001_ip = 34; continue _fun0001 }
+            var5 = _closure1_slot7;
+            var5 = var5.ERROR_SOURCE_UNKNOWN;
+            if(!(var6 !== var5)) { _fun0001_ip = 34; continue _fun0001 }
 case 35:
-            var8 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var4 = 14;
-            var6 = var3[var4];
-            var6 = var8.bind(var1)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var3 = var3[var4];
-            var3 = var8.bind(var1)(var3);
-            var3 = var3.t;
-            var3 = var3["/tGlcj"];
-            var3 = var6.bind(var7)(var3);
+            var6 = var3.enabled;
+            var9 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 14;
+            var7 = var5[var3];
+            var7 = var9.bind(var1)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var5 = var5[var3];
+            var5 = var9.bind(var1)(var5);
+            var5 = var5.t;
+            if(var6) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
+            var6 = var5["/tGlcj"];
+            var6 = var7.bind(var8)(var6);
+            _fun0001_ip = 38; continue _fun0001;
+case 36:
+            var5 = var5.bRYgjH;
+            var6 = var7.bind(var8)(var5);
+case 38:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var6 = var14[var4];
-            var6 = var13.bind(var1)(var6);
-            var8 = var6.intl;
+            var5 = var14[var3];
+            var5 = var13.bind(var1)(var5);
+            var8 = var5.intl;
             var7 = var8.formatToPlainString;
-            var4 = var14[var4];
-            var4 = var13.bind(var1)(var4);
-            var4 = var4.t;
-            if(var5) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
-            var6 = var4.fxEKdS;
-            var5 = {};
+            var3 = var14[var3];
+            var3 = var13.bind(var1)(var3);
+            var3 = var3.t;
+            if(var4) { _fun0001_ip = 39; continue _fun0001 }
+case 40:
+            var5 = var3.fxEKdS;
+            var4 = {};
             var9 = 15;
             var11 = var14[var9];
             var12 = var13.bind(var1)(var11);
@@ -366,12 +374,12 @@ case 37:
             var15 = true;
             var9['useKibibytes'] = var15;
             var9 = var11.bind(var12)(var10, var9);
-            var5['maxSize'] = var9;
-            var5 = var7.bind(var8)(var6, var5);
-            _fun0001_ip = 38; continue _fun0001;
-case 36:
-            var6 = var4.tUOJdH;
-            var4 = {};
+            var4['maxSize'] = var9;
+            var5 = var7.bind(var8)(var5, var4);
+            _fun0001_ip = 41; continue _fun0001;
+case 39:
+            var4 = var3.tUOJdH;
+            var3 = {};
             var9 = 15;
             var10 = var14[var9];
             var12 = var13.bind(var1)(var10);
@@ -388,11 +396,10 @@ case 36:
             var13 = true;
             var9['useKibibytes'] = var13;
             var9 = var11.bind(var12)(var10, var9);
-            var4['maxSize'] = var9;
-            var5 = var7.bind(var8)(var6, var4);
-case 38:
-            var6 = var3;
-            _fun0001_ip = 39; continue _fun0001;
+            var3['maxSize'] = var9;
+            var5 = var7.bind(var8)(var4, var3);
+case 41:
+            _fun0001_ip = 42; continue _fun0001;
 case 34:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -415,7 +422,7 @@ case 34:
             var4 = var4.t;
             var4 = var4.zMEjJg;
             var5 = var7.bind(var8)(var4);
-case 39:
+case 42:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 16;

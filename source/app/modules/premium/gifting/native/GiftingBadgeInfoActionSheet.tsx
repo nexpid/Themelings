@@ -56,17 +56,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.spacing;
-    var13 = var13.PX_8;
+    var13 = var13.PX_16;
     var9['paddingTop'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.spacing;
-    var13 = var13.PX_24;
-    var9['paddingBottom'] = var13;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_64;
+    var13 = var13.PX_16;
     var9['paddingHorizontal'] = var13;
     var4['container'] = var9;
     var9 = {};
@@ -87,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['description'] = var9;
     var9 = {'flexDirection': 'row', 'flexWrap': 'wrap'};
     var4['tierCards'] = var9;
-    var9 = {'width': '50%', 'alignItems': 'center'};
+    var9 = {'width': '33.33%', 'alignItems': 'center'};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
@@ -181,7 +176,7 @@ case 0:
             var12 = var18[var12];
             var12 = var17.bind(var4)(var12);
             var12 = var12.spacing;
-            var12 = var12.PX_24;
+            var12 = var12.PX_16;
             var12 = var14 + var12;
             var9['paddingBottom'] = var12;
             var8[1] = var9;

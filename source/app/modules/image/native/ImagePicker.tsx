@@ -265,7 +265,7 @@ case 7:
         var1['cropperActiveWidgetColor'] = var5;
         var1['cropperInactiveWidgetColor'] = var12;
         var1['cropperControlsColor'] = var11;
-        var1['cropperControlsBarColor'] = var6;
+        var1['cropperControlsBarColor'] = var5;
         var1['cropperChooseColor'] = var7;
         var7 = _closure1_slot0;
         var4 = 7;

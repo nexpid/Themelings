@@ -23,20 +23,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.StyleSheet;
-    var _closure1_slot3 = var7;
     var4 = var4.View;
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.getTableDividerWidth;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -46,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var3 = arg2;
             var1 = arg3;
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot4;
             var6 = undefined;
             var5 = var2.bind(var6)(var3);
             var7 = 12;
@@ -70,51 +68,37 @@ case 4:
             var2['backgroundColor'] = var8;
             var2['height'] = var5;
             var2['paddingStart'] = var7;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var7 = 6;
-            var7 = var9[var7];
-            var8 = var8.bind(var6)(var7);
-            var7 = var8.isAndroid;
-            var8 = var7.bind(var8)();
-            var7 = 0;
-            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var8 = _closure1_slot3;
-            var7 = var8.hairlineWidth;
-case 6:
-            var7 = var5 + var7;
-            var7 = -var7;
+            var7 = -var5;
             var2['marginTop'] = var7;
             var1['container'] = var2;
             var2 = {};
             var2['height'] = var5;
-            if(var3) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var3 = var7[var3];
             var3 = var5.bind(var6)(var3);
             var3 = var3.DIVIDER_BACKGROUND;
-            _fun0001_ip = 10; continue _fun0001;
-case 8:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var4 = 7;
+            var4 = 6;
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.colors;
             var3 = var4.BORDER_SUBTLE;
-case 10:
+case 8:
             var2['backgroundColor'] = var3;
             var1['divider'] = var2;
             return var1;
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 11;
+    var _closure1_slot6 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -126,33 +110,33 @@ case 0:
             var1 = arg1;
             var6 = var1.adjustSpacingForIcon;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+            if(!(var6 === var4)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var6 = false;
-case 11:
+case 9:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var2 = 9;
+            var2 = 8;
             var2 = var9[var2];
             var3 = var8.bind(var4)(var2);
             var2 = 'TableRowDivider';
             var5 = var3.bind(var4)(var2);
             var3 = _closure1_slot0;
-            var2 = 10;
+            var2 = 9;
             var2 = var9[var2];
             var7 = var3.bind(var4)(var2);
             var3 = var7.useToken;
-            var2 = 7;
+            var2 = 6;
             var2 = var9[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.modules;
             var2 = var2.mobile;
             var2 = var2.TABLE_ROW_DIVIDER_PADDING;
             var3 = var3.bind(var7)(var2);
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot6;
             var6 = var2.bind(var4)(var6, var5, var3);
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot4;
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot3;
             var1 = {};
             var5 = var6.container;
             var1['style'] = var5;

@@ -443,6 +443,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['STAGE_DISCOVERY'] = var2;
     var2 = 'impression_stream_feedback_modal';
     var4['STREAM_FEEDBACK_MODAL'] = var2;
+    var2 = 'impression_third_party_partner_perk';
+    var4['THIRD_PARTY_PARTNER_PERK'] = var2;
     var2 = 'impression_tiered_tenure_badge_level_up';
     var4['TIERED_TENURE_BADGE_LEVEL_UP'] = var2;
     var2 = 'impression_tiered_tenure_badge_modal';

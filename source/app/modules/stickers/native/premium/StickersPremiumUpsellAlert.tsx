@@ -256,7 +256,7 @@ case 2:
         }
     };
     var _closure1_slot17 = var4;
-    var4 = 28;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -309,32 +309,14 @@ case 4:
             };
             var1 = new Array(0);
             var1 = var3.bind(var5)(var2, var1);
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 16;
             var1 = var3[var1];
-            var5 = var2.bind(var4)(var1);
-            var3 = var5.useStateFromStores;
-            var1 = _closure1_slot7;
-            var2 = new Array(1);
-            var2[0] = var1;
-            var1 = function() {
-                var3 = _closure1_slot7;
-                var2 = var3.getProduct;
-                var6 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var4 = 17;
-                var5 = var5[var4];
-                var4 = undefined;
-                var4 = var6.bind(var4)(var5);
-                var4 = var4.BasePlanIdToProductId;
-                var1 = _closure1_slot11;
-                var1 = var1.PREMIUM_MONTH_TIER_2;
-                var1 = var4[var1];
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var1 = var3.bind(var5)(var2, var1);
+            var2 = var2.bind(var4)(var1);
+            var1 = _closure1_slot11;
+            var1 = var1.PREMIUM_MONTH_TIER_2;
+            var1 = var2.bind(var4)(var1);
             var22 = null;
             var2 = var22 == var1;
             var23 = undefined;
@@ -344,19 +326,19 @@ case 7:
 case 6:
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 18;
+            var1 = 17;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var7 = var1.height;
-            var1 = 19;
+            var1 = 18;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var1 = var1.analyticsLocations;
             _closure2_slot1 = var1;
             var3 = _closure1_slot14;
-            var1 = 20;
+            var1 = 19;
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -391,7 +373,7 @@ case 6:
             var5 = function onConfirm() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 21;
+                var1 = 20;
                 var4 = var2[var1];
                 var1 = undefined;
                 var9 = var5.bind(var1)(var4);
@@ -413,15 +395,15 @@ case 6:
                 var10[10] = var12;
                 var4['location'] = var10;
                 var4 = var8.bind(var9)(var7, var4);
-                var4 = 22;
+                var4 = 21;
                 var4 = var2[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.pushLazy;
                 var7 = _closure1_slot0;
-                var3 = 24;
+                var3 = 23;
                 var3 = var2[var3];
                 var7 = var7.bind(var1)(var3);
-                var3 = 23;
+                var3 = 22;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var3 = var7.bind(var1)(var3, var2);
@@ -453,7 +435,7 @@ case 8:
             var5['style'] = var6;
             var19 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var6 = 25;
+            var6 = 24;
             var6 = var15[var6];
             var6 = var19.bind(var4)(var6);
             var7 = var6.PressableOpacity;
@@ -464,7 +446,7 @@ case 8:
             var10 = var9.Icon;
             var9 = {};
             var20 = _closure1_slot1;
-            var12 = 26;
+            var12 = 25;
             var12 = var15[var12];
             var12 = var20.bind(var4)(var12);
             var9['source'] = var12;
@@ -488,7 +470,7 @@ case 8:
             var9['onStartShouldSetResponder'] = var12;
             var13 = _closure1_slot5;
             var12 = {};
-            var14 = 27;
+            var14 = 26;
             var14 = var15[var14];
             var14 = var20.bind(var4)(var14);
             var12['source'] = var14;

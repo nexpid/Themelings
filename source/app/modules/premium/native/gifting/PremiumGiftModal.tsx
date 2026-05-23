@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['header'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot9 = var5;
-    var5 = 26;
+    var5 = 28;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -121,18 +121,18 @@ case 0:
             var _closure2_slot4 = var5;
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var2 = 17;
+            var2 = 19;
             var6 = var11[var2];
             var6 = var10.bind(var5)(var6);
             var6 = var6.bind(var5)(var4);
             var6 = var6.analyticsLocations;
-            var7 = 18;
+            var7 = 20;
             var7 = var11[var7];
             var10 = var10.bind(var5)(var7);
             var7 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 19;
+                var1 = 21;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -192,7 +192,7 @@ case 2:
 case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 22;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -501,9 +501,7 @@ case 29:
                     var6 = var6.bind(var7)(var8);
                     var2['headerLeft'] = var6;
                     var2['headerTransparent'] = var5;
-                    var5 = {};
-                    var6 = 'transparent';
-                    var5['shadowColor'] = var6;
+                    var5 = {'backgroundColor': 'transparent', 'shadowColor': 'transparent'};
                     var2['headerStyle'] = var5;
                     var4 = function render(arg1) {
                         var4 = _closure1_slot6;
@@ -517,6 +515,27 @@ case 29:
                         var5 = arg1;
                         var5 = var5.currentProgress;
                         var1['currentProgress'] = var5;
+                        var5 = function onSendGift() {
+                            var3 = _closure1_slot0;
+                            var7 = _closure1_slot2;
+                            var1 = 17;
+                            var2 = var7[var1];
+                            var1 = undefined;
+                            var4 = var3.bind(var1)(var2);
+                            var3 = var4.openGiftModal;
+                            var2 = {};
+                            var6 = _closure1_slot1;
+                            var5 = 18;
+                            var5 = var7[var5];
+                            var5 = var6.bind(var1)(var5);
+                            var6 = var5.GIFTING_BADGE_POST_PURCHASE;
+                            var5 = new Array(1);
+                            var5[0] = var6;
+                            var2['analyticsLocations'] = var5;
+                            var2 = var3.bind(var4)(var2);
+                            return var1;
+                        };
+                        var1['onSendGift'] = var5;
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
@@ -540,7 +559,7 @@ case 29:
             _closure2_slot4 = var18;
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 21;
+            var1 = 23;
             var1 = var7[var1];
             var4 = var4.bind(var5)(var1);
             var1 = var4.isPremiumGiftingSupported;
@@ -551,7 +570,7 @@ case 29:
 case 31:
             var3 = _closure1_slot1;
             var23 = _closure1_slot2;
-            var1 = 22;
+            var1 = 24;
             var1 = var23[var1];
             var3 = var3.bind(var5)(var1);
             var1 = {};
@@ -577,7 +596,7 @@ case 30:
             var3 = var2.AnalyticsLocationProvider;
             var2 = {};
             var2['value'] = var6;
-            var6 = 23;
+            var6 = 25;
             var6 = var15[var6];
             var6 = var11.bind(var5)(var6);
             var7 = var6.NativeGiftContextProvider;
@@ -590,12 +609,12 @@ case 30:
             var6['planInterval'] = var16;
             var6['initialOrder'] = var9;
             var9 = _closure1_slot1;
-            var8 = 24;
+            var8 = 26;
             var8 = var15[var8];
             var9 = var9.bind(var5)(var8);
             var8 = {};
             var8['currentStep'] = var10;
-            var10 = 25;
+            var10 = 27;
             var10 = var15[var10];
             var10 = var11.bind(var5)(var10);
             var11 = var10.Navigator;

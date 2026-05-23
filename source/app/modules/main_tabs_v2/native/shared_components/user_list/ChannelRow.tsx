@@ -564,6 +564,9 @@ case 34:
             var27 = var1;
             var26 = var6;
             var8 = copyDataProperties(var27, var26);
+            var10 = '100%';
+            var8 = 'height';
+            var1[7] = var10;
             var8 = 'trailing';
             var1[7] = var9;
             var1 = var4.bind(var5)(var3, var1);
@@ -580,6 +583,9 @@ case 33:
             var27 = var2;
             var26 = var6;
             var6 = copyDataProperties(var27, var26);
+            var8 = '100%';
+            var6 = 'height';
+            var2[5] = var8;
             var6 = 'checked';
             var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);

@@ -98,6 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['rowMode'] = var7;
         var7 = true;
         var5['disableGradient'] = var7;
+        var5['disableThemedGradient'] = var7;
         var5 = var3.bind(var4)(var6, var5);
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);

@@ -279,8 +279,7 @@ case 2:
     var16 = var16.xs;
     var9['borderRadius'] = var16;
     var4['linkButton'] = var9;
-    var9 = {};
-    var9['marginLeft'] = var15;
+    var9 = {'flexShrink': 0, 'marginLeft': 8};
     var16 = var6[var10];
     var16 = var11.bind(var1)(var16);
     var16 = var16.colors;
@@ -355,11 +354,11 @@ case 6:
             var _closure2_slot8 = var5;
             var1 = _closure1_slot21;
             var16 = var1.bind(var5)();
-            var9 = _closure1_slot0;
+            var8 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 19;
             var1 = var4[var1];
-            var2 = var9.bind(var5)(var1);
+            var2 = var8.bind(var5)(var1);
             var1 = var2.useNavigation;
             var12 = var1.bind(var2)();
             _closure2_slot2 = var12;
@@ -367,39 +366,39 @@ case 6:
             var2 = var3.useState;
             var1 = false;
             var2 = var2.bind(var3)(var1);
-            var7 = _closure1_slot3;
+            var6 = _closure1_slot3;
             var1 = 2;
-            var2 = var7.bind(var5)(var2, var1);
+            var2 = var6.bind(var5)(var2, var1);
             var3 = 0;
             var1 = var2[var3];
             _closure2_slot3 = var1;
-            var6 = 1;
-            var2 = var2[var6];
+            var28 = 1;
+            var2 = var2[var28];
             _closure2_slot4 = var2;
-            var8 = 20;
-            var2 = var4[var8];
-            var17 = var9.bind(var5)(var2);
-            var14 = var17.useStateFromStores;
+            var7 = 20;
+            var2 = var4[var7];
+            var14 = var8.bind(var5)(var2);
+            var13 = var14.useStateFromStores;
             var2 = _closure1_slot10;
-            var13 = new Array(1);
-            var13[0] = var2;
-            var10 = function() {
+            var10 = new Array(1);
+            var10[0] = var2;
+            var9 = function() {
                 var2 = _closure1_slot10;
                 var1 = var2.getInvite;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var10 = var14.bind(var17)(var13, var10);
+            var10 = var13.bind(var14)(var10, var9);
             _closure2_slot5 = var10;
-            var8 = var4[var8];
-            var13 = var9.bind(var5)(var8);
-            var9 = var13.useStateFromStores;
-            var8 = new Array(3);
-            var8[0] = var2;
+            var7 = var4[var7];
+            var9 = var8.bind(var5)(var7);
+            var8 = var9.useStateFromStores;
+            var7 = new Array(3);
+            var7[0] = var2;
             var2 = _closure1_slot9;
-            var8[1] = var2;
+            var7[1] = var2;
             var2 = _closure1_slot11;
-            var8[2] = var2;
+            var7[2] = var2;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -437,18 +436,18 @@ case 10:
                     return var1;
                 }
             };
-            var27 = var9.bind(var13)(var8, var2);
+            var27 = var8.bind(var9)(var7, var2);
             _closure2_slot6 = var27;
-            var9 = _closure1_slot4;
-            var8 = var9.useState;
+            var8 = _closure1_slot4;
+            var7 = var8.useState;
             var2 = function() {
                 var2 = _closure1_slot12;
                 var1 = var2.getInviteSuggestionRows;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var2 = var8.bind(var9)(var2);
-            var2 = var7.bind(var5)(var2, var6);
+            var2 = var7.bind(var8)(var2);
+            var2 = var6.bind(var5)(var2, var28);
             var8 = var2[var3];
             var2 = _closure1_slot8;
             var6 = var2.bind(var5)();
@@ -889,6 +888,9 @@ case 39:
             var13 = var22.bind(var5)(var13);
             var14 = var13.Text;
             var13 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
+            var21 = {};
+            var21['flexShrink'] = var28;
+            var13['style'] = var21;
             var13['children'] = var20;
             var14 = var17.bind(var5)(var14, var13);
             var13 = new Array(2);

@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageSendLocation;
     var _closure1_slot6 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -190,29 +190,41 @@ case 0:
                             if(var4) { _fun0003_ip = 4; continue _fun0003 }
 case 5:
                             var _closure5_slot0 = var3;
-                            var7 = undefined;
-                            var _closure5_slot1 = var7;
-                            var _closure5_slot2 = var7;
+                            var10 = undefined;
+                            var _closure5_slot1 = var10;
+                            var _closure5_slot2 = var10;
                             var6 = _closure1_slot1;
-                            var8 = _closure1_slot2;
+                            var11 = _closure1_slot2;
                             var4 = 10;
-                            var4 = var8[var4];
-                            var4 = var6.bind(var7)(var4);
+                            var4 = var11[var4];
+                            var4 = var6.bind(var10)(var4);
                             var6 = var4.prototype;
                             var6 = Object.create(var6, {constructor: {value: var4}});
-                            var11 = var6;
-                            var4 = new var11[var4](var10);
+                            var15 = var6;
+                            var4 = new var15[var4](var14);
                             var4 = var4 instanceof Object ? var4 : var6;
                             _closure5_slot1 = var4;
-                            var6 = _closure1_slot0;
+                            var9 = _closure1_slot0;
                             var5 = 11;
-                            var5 = var8[var5];
-                            var7 = var6.bind(var7)(var5);
-                            var6 = var7.maxFileSize;
-                            var8 = _closure2_slot0;
-                            var5 = var8.getGuildId;
-                            var5 = var5.bind(var8)();
-                            var5 = var6.bind(var7)(var5);
+                            var6 = var11[var5];
+                            var8 = var9.bind(var10)(var6);
+                            var7 = var8.getKestrelConfig;
+                            var6 = {};
+                            var12 = 'native.useCreateForumPost';
+                            var6['location'] = var12;
+                            var8 = var7.bind(var8)(var6);
+                            var5 = var11[var5];
+                            var7 = var9.bind(var10)(var5);
+                            var6 = var7.getEffectiveKestrelLimit;
+                            var5 = 12;
+                            var5 = var11[var5];
+                            var10 = var9.bind(var10)(var5);
+                            var9 = var10.maxFileSize;
+                            var11 = _closure2_slot0;
+                            var5 = var11.getGuildId;
+                            var5 = var5.bind(var11)();
+                            var5 = var9.bind(var10)(var5);
+                            var5 = var6.bind(var7)(var8, var5);
                             _closure5_slot2 = var5;
                             var6 = var4.on;
                             var5 = 'progress';
@@ -246,7 +258,7 @@ case 7:
                                     var10 = true;
                                     var1['resetState'] = var10;
                                     var1 = var8.bind(var9)(var1);
-                                    var1 = 12;
+                                    var1 = 13;
                                     var1 = var7[var1];
                                     var2 = var2.bind(var3)(var1);
                                     var1 = {};
@@ -264,7 +276,7 @@ case 6:
                             var2 = var6.bind(var4)(var5, var2);
                             var2 = var4.uploadFiles;
                             var2 = var2.bind(var4)(var3);
-                            SaveGenerator(address=162);
+                            SaveGenerator(address=218);
 case 8:
                             return var2;
 case 9:

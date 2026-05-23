@@ -164,8 +164,11 @@ case 0:
             var2['label'] = var1;
             var1 = _closure1_slot6;
             var6 = var1.IN_APP_NOTIFICATIONS;
-            var1 = new Array(1);
+            var1 = new Array(2);
             var1[0] = var6;
+            var6 = _closure1_slot6;
+            var6 = var6.IN_APP_MESSAGE_SOUNDS;
+            var1[1] = var6;
             var2['settings'] = var1;
             var1 = new Array(19);
             var1[0] = var2;

@@ -223,6 +223,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['QuestLiveStream'] = var4;
     var4 = 'clip_embed';
     var5['ClipEmbed'] = var4;
+    var4 = 'clips_reminder';
+    var5['ClipsReminder'] = var4;
     var4 = 'announcement_channel_return';
     var5['AnnouncementChannelReturn'] = var4;
     var4 = 'call_tile';

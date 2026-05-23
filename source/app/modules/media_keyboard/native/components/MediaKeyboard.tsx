@@ -68,17 +68,17 @@ case 0:
             var2 = arg1;
             var9 = var2.channel;
             var _closure2_slot0 = var9;
-            var19 = var2.chatInputRef;
-            var _closure2_slot1 = var19;
+            var20 = var2.chatInputRef;
+            var _closure2_slot1 = var20;
             var11 = var2.onClose;
             var5 = var2.transitionState;
             var4 = undefined;
-            var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
             var _closure2_slot10 = var4;
             var _closure2_slot11 = var4;
+            var _closure2_slot12 = var4;
             var6 = _closure1_slot3;
             var7 = var6.useEffect;
             var2 = var9.id;
@@ -113,78 +113,91 @@ case 0:
             var3 = null;
             var15 = var2.bind(var6)(var3);
             var _closure2_slot2 = var15;
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var8 = _closure1_slot0;
+            var14 = _closure1_slot2;
             var2 = 9;
-            var6 = var8[var2];
-            var12 = var7.bind(var4)(var6);
-            var10 = var12.useSharedValue;
+            var6 = var14[var2];
+            var10 = var8.bind(var4)(var6);
+            var7 = var10.useSharedValue;
             var6 = -1;
-            var17 = var10.bind(var12)(var6);
+            var17 = var7.bind(var10)(var6);
             var _closure2_slot3 = var17;
-            var2 = var8[var2];
-            var10 = var7.bind(var4)(var2);
-            var6 = var10.useSharedValue;
+            var2 = var14[var2];
+            var7 = var8.bind(var4)(var2);
+            var6 = var7.useSharedValue;
             var2 = 0;
-            var16 = var6.bind(var10)(var2);
+            var16 = var6.bind(var7)(var2);
             var _closure2_slot4 = var16;
             var2 = 10;
-            var2 = var8[var2];
-            var10 = var7.bind(var4)(var2);
-            var6 = var10.useKeyboardContextForType;
+            var2 = var14[var2];
+            var7 = var8.bind(var4)(var2);
+            var6 = var7.useKeyboardContextForType;
             var2 = 11;
-            var2 = var8[var2];
-            var2 = var7.bind(var4)(var2);
+            var2 = var14[var2];
+            var2 = var8.bind(var4)(var2);
             var2 = var2.KeyboardTypes;
             var2 = var2.MEDIA;
-            var6 = var6.bind(var10)(var2);
+            var6 = var6.bind(var7)(var2);
             var _closure2_slot5 = var6;
             var2 = 12;
-            var2 = var8[var2];
-            var12 = var7.bind(var4)(var2);
-            var10 = var12.useAppLauncherActionSheet;
+            var2 = var14[var2];
+            var10 = var8.bind(var4)(var2);
+            var7 = var10.useAppLauncherActionSheet;
             var2 = {};
-            var2['chatInputRef'] = var19;
+            var2['chatInputRef'] = var20;
             var2['channel'] = var9;
-            var2 = var10.bind(var12)(var2);
+            var2 = var7.bind(var10)(var2);
             var12 = var2.appLauncherActionSheet;
             var2 = 13;
-            var2 = var8[var2];
-            var8 = var7.bind(var4)(var2);
-            var7 = var8.useMobileVisualRefreshConfig;
+            var2 = var14[var2];
+            var10 = var8.bind(var4)(var2);
+            var7 = var10.useMobileVisualRefreshConfig;
             var2 = {};
-            var10 = 'MediaKeyboard';
-            var2['location'] = var10;
-            var2 = var7.bind(var8)(var2);
+            var13 = 'MediaKeyboard';
+            var2['location'] = var13;
+            var2 = var7.bind(var10)(var2);
             var2 = var2.chatInputFloating;
-            var14 = var2;
+            var7 = 14;
+            var7 = var14[var7];
+            var10 = var8.bind(var4)(var7);
+            var8 = var10.useToken;
+            var13 = _closure1_slot1;
+            var7 = 15;
+            var7 = var14[var7];
+            var7 = var13.bind(var4)(var7);
+            var7 = var7.modules;
+            var7 = var7.mobile;
+            var7 = var7.MEDIA_KEYBOARD_SEND_VERTICAL_INSET;
+            var10 = var8.bind(var10)(var7);
+            var _closure2_slot6 = var10;
+            var19 = var2;
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var7 = 14;
-            var7 = var10[var7];
+            var13 = _closure1_slot2;
+            var7 = 16;
+            var7 = var13[var7];
             var8 = var8.bind(var4)(var7);
             var7 = var8.getIsAppLauncherEnabled;
-            var14 = var7.bind(var8)(var9);
+            var19 = var7.bind(var8)(var9);
 case 2:
-            _closure2_slot6 = var14;
+            _closure2_slot7 = var19;
             var8 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var7 = 15;
-            var7 = var10[var7];
+            var13 = _closure1_slot2;
+            var7 = 17;
+            var7 = var13[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
             var7['channel'] = var9;
             var7['context'] = var6;
             var7 = var8.bind(var4)(var7);
-            _closure2_slot7 = var7;
-            var13 = _closure1_slot3;
-            var10 = var13.useMemo;
+            _closure2_slot8 = var7;
+            var14 = _closure1_slot3;
+            var13 = var14.useMemo;
             var8 = new Array(6);
             var8[0] = var17;
             var8[1] = var9;
-            var8[2] = var19;
+            var8[2] = var20;
             var8[3] = var6;
             var8[4] = var15;
             var8[5] = var7;
@@ -239,7 +252,7 @@ case 7:
 case 9:
                         var7 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var3 = 16;
+                        var3 = 18;
                         var6 = var6[var3];
                         var3 = undefined;
                         var10 = var7.bind(var3)(var6);
@@ -257,7 +270,7 @@ case 9:
 case 6:
                         var6 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var2 = 16;
+                        var2 = 18;
                         var3 = var3[var2];
                         var2 = undefined;
                         var3 = var6.bind(var2)(var3);
@@ -277,13 +290,13 @@ case 8:
                     var1 = {};
                     var4 = _closure2_slot0;
                     var1['channel'] = var4;
-                    var3 = _closure2_slot7;
+                    var3 = _closure2_slot8;
                     var3 = var3.uploadLimit;
                     var1['uploadLimit'] = var3;
                     var3 = function onDismissKeyboard() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 17;
+                        var1 = 19;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
@@ -341,7 +354,7 @@ case 11:
 case 13:
                         var12 = _closure1_slot0;
                         var13 = _closure1_slot2;
-                        var4 = 16;
+                        var4 = 18;
                         var8 = var13[var4];
                         var9 = var12.bind(var1)(var8);
                         var8 = var9.mediaNodeToUploadItem;
@@ -351,7 +364,7 @@ case 13:
                         var9 = var10.addAttachmentForCommand;
                         var17 = _closure2_slot1;
                         var15 = _closure2_slot5;
-                        var3 = 18;
+                        var3 = 20;
                         var3 = var13[var3];
                         var3 = var12.bind(var1)(var3);
                         var3 = var3.UploadOrigin;
@@ -363,7 +376,7 @@ case 13:
 case 10:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var2 = 16;
+                        var2 = 18;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.handleSelectKeyboardItem;
@@ -382,14 +395,14 @@ case 12:
                 var3 = function onAttachPress() {
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 18;
                     var2 = var8[var1];
                     var1 = undefined;
                     var4 = var7.bind(var1)(var2);
                     var3 = var4.handleAttachFile;
                     var2 = {};
                     var6 = _closure3_slot2;
-                    var5 = 18;
+                    var5 = 20;
                     var5 = var8[var5];
                     var5 = var7.bind(var1)(var5);
                     var5 = var5.UploadOrigin;
@@ -404,14 +417,14 @@ case 12:
                 var3 = function onPressCamera(arg1) {
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 18;
                     var2 = var8[var1];
                     var1 = undefined;
                     var4 = var7.bind(var1)(var2);
                     var3 = var4.handleCameraDialog;
                     var2 = {};
                     var6 = _closure3_slot2;
-                    var5 = 18;
+                    var5 = 20;
                     var5 = var8[var5];
                     var5 = var7.bind(var1)(var5);
                     var5 = var5.UploadOrigin;
@@ -462,14 +475,14 @@ case 16:
 case 0:
                         var4 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var1 = 16;
+                        var1 = 18;
                         var2 = var5[var1];
                         var1 = undefined;
                         var7 = var4.bind(var1)(var2);
                         var6 = var7.handleViewAllDialog;
                         var3 = {};
                         var8 = _closure3_slot2;
-                        var2 = 18;
+                        var2 = 20;
                         var2 = var5[var2];
                         var2 = var4.bind(var1)(var2);
                         var2 = var2.UploadOrigin;
@@ -477,12 +490,12 @@ case 0:
                         var10 = var8.bind(var1)(var2);
                         var11 = var3;
                         var2 = copyDataProperties(var11, var10);
-                        var8 = _closure2_slot7;
+                        var8 = _closure2_slot8;
                         var9 = var8.draftType;
                         var8 = 'draftType';
                         var3[7] = var9;
                         var3 = var6.bind(var7)(var3);
-                        var3 = 19;
+                        var3 = 21;
                         var3 = var5[var3];
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.isAndroid;
@@ -504,13 +517,13 @@ case 19:
                 var3 = function onManageLimited() {
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 18;
                     var2 = var7[var1];
                     var1 = undefined;
                     var4 = var6.bind(var1)(var2);
                     var3 = var4.handleLimitedPickerDialog;
                     var2 = {};
-                    var5 = 17;
+                    var5 = 19;
                     var5 = var7[var5];
                     var5 = var6.bind(var1)(var5);
                     var5 = var5.dismissKeyboard;
@@ -550,12 +563,12 @@ case 0:
                         var _closure4_slot3 = var1;
                         var6 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var4 = 16;
+                        var4 = 18;
                         var4 = var8[var4];
                         var7 = var6.bind(var1)(var4);
                         var4 = var7.mediaNodeToUploadItem;
                         var7 = var4.bind(var7)(var10);
-                        var4 = 20;
+                        var4 = 22;
                         var4 = var8[var4];
                         var4 = var6.bind(var1)(var4);
                         var4 = var4.CloudUpload;
@@ -584,7 +597,7 @@ case 25:
                         var4 = function() {
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 16;
+                            var1 = 18;
                             var2 = var2[var1];
                             var1 = undefined;
                             var6 = var3.bind(var1)(var2);
@@ -601,7 +614,7 @@ case 24:
                         _closure4_slot3 = var4;
                         var3 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var2 = 21;
+                        var2 = 23;
                         var2 = var10[var2];
                         var3 = var3.bind(var1)(var2);
                         var2 = {};
@@ -651,7 +664,7 @@ case 30:
                                 var3[0] = var1;
                                 var5 = _closure1_slot0;
                                 var2 = _closure1_slot2;
-                                var1 = 18;
+                                var1 = 20;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var2 = var5.bind(var1)(var2);
@@ -693,7 +706,7 @@ case 30:
                     var3 = var6.closeCustomKeyboard;
                     var3 = var3.bind(var6)();
                     var3 = _closure1_slot0;
-                    var2 = 22;
+                    var2 = 24;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.openCreatePollModal;
@@ -731,7 +744,7 @@ case 30:
                 var3 = function onThreadPress() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 18;
                     var2 = var2[var1];
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);
@@ -764,27 +777,27 @@ case 32:
                 var1['onSend'] = var2;
                 return var1;
             };
-            var8 = var10.bind(var13)(var6, var8);
-            _closure2_slot8 = var8;
+            var8 = var13.bind(var14)(var6, var8);
+            _closure2_slot9 = var8;
             if(!var2) { _fun0001_ip = 34; continue _fun0001 }
 case 35:
             var2 = var7.canStartThreads;
 case 34:
-            _closure2_slot9 = var2;
+            _closure2_slot10 = var2;
             var6 = _closure1_slot3;
-            var13 = var6.useMemo;
-            var10 = new Array(5);
-            var10[0] = var8;
-            var19 = var7.uploadDisabled;
-            var10[1] = var19;
-            var19 = var7.canPostPolls;
-            var10[2] = var19;
-            var10[3] = var14;
-            var10[4] = var2;
+            var14 = var6.useMemo;
+            var13 = new Array(5);
+            var13[0] = var8;
+            var20 = var7.uploadDisabled;
+            var13[1] = var20;
+            var20 = var7.canPostPolls;
+            var13[2] = var20;
+            var13[3] = var19;
+            var13[4] = var2;
             var2 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                    var2 = _closure2_slot6;
+                    var2 = _closure2_slot7;
                     if(var2) { _fun0010_ip = 36; continue _fun0010 }
 case 37:
                     var9 = new Array(0);
@@ -793,7 +806,7 @@ case 36:
                     var3 = {};
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 23;
+                    var2 = 25;
                     var7 = var6[var2];
                     var4 = undefined;
                     var7 = var5.bind(var4)(var7);
@@ -805,12 +818,12 @@ case 36:
                     var2 = var2.PHjkRE;
                     var2 = var7.bind(var8)(var2);
                     var3['text'] = var2;
-                    var2 = 24;
+                    var2 = 26;
                     var2 = var6[var2];
                     var2 = var5.bind(var4)(var2);
                     var2 = var2.AppsIcon;
                     var3['IconComponent'] = var2;
-                    var2 = _closure2_slot8;
+                    var2 = _closure2_slot9;
                     var2 = var2.onAppsPress;
                     var3['onPress'] = var2;
                     var2 = false;
@@ -819,7 +832,7 @@ case 36:
                     var2[0] = var3;
                     var9 = var2;
 case 13:
-                    var2 = _closure2_slot9;
+                    var2 = _closure2_slot10;
                     if(var2) { _fun0010_ip = 38; continue _fun0010 }
 case 39:
                     var4 = new Array(0);
@@ -828,7 +841,7 @@ case 38:
                     var3 = {};
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 23;
+                    var2 = 25;
                     var8 = var7[var2];
                     var5 = undefined;
                     var8 = var6.bind(var5)(var8);
@@ -840,12 +853,12 @@ case 38:
                     var2 = var2["7Xm5QI"];
                     var2 = var8.bind(var10)(var2);
                     var3['text'] = var2;
-                    var2 = 25;
+                    var2 = 27;
                     var2 = var7[var2];
                     var2 = var6.bind(var5)(var2);
                     var2 = var2.ThreadIcon;
                     var3['IconComponent'] = var2;
-                    var2 = _closure2_slot8;
+                    var2 = _closure2_slot9;
                     var2 = var2.onThreadPress;
                     var3['onPress'] = var2;
                     var2 = false;
@@ -857,7 +870,7 @@ case 40:
                     var2 = {};
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var5 = 23;
+                    var5 = 25;
                     var3 = var8[var5];
                     var6 = undefined;
                     var3 = var7.bind(var6)(var3);
@@ -869,15 +882,15 @@ case 40:
                     var3 = var3.RgIi2B;
                     var3 = var10.bind(var11)(var3);
                     var2['text'] = var3;
-                    var3 = 26;
+                    var3 = 28;
                     var3 = var8[var3];
                     var3 = var7.bind(var6)(var3);
                     var3 = var3.PollsIcon;
                     var2['IconComponent'] = var3;
-                    var3 = _closure2_slot8;
+                    var3 = _closure2_slot9;
                     var3 = var3.onPollsPress;
                     var2['onPress'] = var3;
-                    var3 = _closure2_slot7;
+                    var3 = _closure2_slot8;
                     var3 = var3.canPostPolls;
                     var3 = !var3;
                     var2['disabled'] = var3;
@@ -902,15 +915,15 @@ case 40:
                     var10 = var10["8Hvr3+"];
                     var10 = var11.bind(var12)(var10);
                     var9['text'] = var10;
-                    var10 = 27;
+                    var10 = 29;
                     var10 = var8[var10];
                     var10 = var7.bind(var6)(var10);
                     var10 = var10.AttachmentIcon;
                     var9['IconComponent'] = var10;
-                    var10 = _closure2_slot8;
+                    var10 = _closure2_slot9;
                     var10 = var10.onAttachPress;
                     var9['onPress'] = var10;
-                    var10 = _closure2_slot7;
+                    var10 = _closure2_slot8;
                     var10 = var10.uploadDisabled;
                     var9['disabled'] = var10;
                     var3[3] = var9;
@@ -926,15 +939,15 @@ case 40:
                     var5 = var5.Zmm6dN;
                     var5 = var9.bind(var10)(var5);
                     var4['text'] = var5;
-                    var5 = 28;
+                    var5 = 30;
                     var5 = var8[var5];
                     var5 = var7.bind(var6)(var5);
                     var5 = var5.ImageIcon;
                     var4['IconComponent'] = var5;
-                    var5 = _closure2_slot8;
+                    var5 = _closure2_slot9;
                     var5 = var5.onViewAll;
                     var4['onPress'] = var5;
-                    var1 = _closure2_slot7;
+                    var1 = _closure2_slot8;
                     var1 = var1.uploadDisabled;
                     var4['disabled'] = var1;
                     var1 = new Array(1);
@@ -946,11 +959,11 @@ case 40:
                     return var1;
                 }
             };
-            var10 = var13.bind(var6)(var2, var10);
-            _closure2_slot10 = var10;
+            var14 = var14.bind(var6)(var2, var13);
+            _closure2_slot11 = var14;
             var2 = var6.useRef;
             var2 = var2.bind(var6)(var3);
-            _closure2_slot11 = var2;
+            _closure2_slot12 = var2;
             var13 = var6.useCallback;
             var3 = new Array(1);
             var3[0] = var8;
@@ -958,7 +971,7 @@ case 40:
                 var4 = _closure1_slot12;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 29;
+                var1 = 31;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -966,7 +979,7 @@ case 40:
                 var5 = arg1;
                 var5 = var5.animatedIndex;
                 var1['animatedIndex'] = var5;
-                var5 = _closure2_slot8;
+                var5 = _closure2_slot9;
                 var5 = var5.onPressHeader;
                 var1['onPress'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
@@ -974,14 +987,15 @@ case 40:
             };
             var13 = var13.bind(var6)(var2, var3);
             var3 = var6.useCallback;
-            var2 = new Array(6);
+            var2 = new Array(7);
             var2[0] = var17;
             var2[1] = var16;
             var2[2] = var8;
-            var14 = var9.id;
-            var2[3] = var14;
+            var19 = var9.id;
+            var2[3] = var19;
             var2[4] = var7;
-            var2[5] = var10;
+            var2[5] = var14;
+            var2[6] = var10;
             var1 = function(arg1) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -996,7 +1010,7 @@ case 41:
                     var3 = _closure1_slot13;
                     var7 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var1 = 30;
+                    var1 = 32;
                     var1 = var10[var1];
                     var2 = var7.bind(var4)(var1);
                     var1 = {};
@@ -1007,54 +1021,56 @@ case 41:
                     var1['animatedPosition'] = var8;
                     var1['initialPosition'] = var6;
                     var8 = _closure1_slot12;
-                    var5 = 31;
+                    var5 = 33;
                     var5 = var10[var5];
                     var6 = var7.bind(var4)(var5);
                     var5 = {};
-                    var12 = _closure2_slot11;
+                    var12 = _closure2_slot12;
                     var5['ref'] = var12;
                     var5['animatedIndex'] = var11;
                     var11 = _closure2_slot0;
                     var11 = var11.id;
                     var5['channelId'] = var11;
-                    var11 = _closure2_slot7;
+                    var11 = _closure2_slot8;
                     var11 = var11.draftType;
                     var5['draftType'] = var11;
-                    var11 = _closure2_slot8;
+                    var11 = _closure2_slot9;
                     var11 = var11.onSend;
                     var5['onSend'] = var11;
                     var6 = var8.bind(var4)(var6, var5);
                     var5 = new Array(2);
                     var5[0] = var6;
-                    var6 = 32;
+                    var6 = 34;
                     var6 = var10[var6];
                     var7 = var7.bind(var4)(var6);
                     var6 = {};
-                    var10 = _closure2_slot7;
+                    var10 = _closure2_slot8;
                     var10 = var10.canPostPolls;
                     var6['canPostPolls'] = var10;
                     var10 = function onHeightChange(arg1) {
                         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                            var1 = _closure2_slot11;
+                            var1 = _closure2_slot12;
                             var4 = var1.current;
                             var1 = null;
-                            var2 = var1 == var4;
+                            var3 = var1 == var4;
                             var1 = undefined;
-                            if(var2) { _fun0012_ip = 17; continue _fun0012 }
+                            if(var3) { _fun0012_ip = 43; continue _fun0012 }
 case 30:
                             var3 = var4.setInsetFab;
+                            var5 = _closure2_slot6;
                             var2 = arg1;
+                            var2 = var2 + var5;
                             var1 = var3.bind(var4)(var2);
-case 17:
+case 43:
                             return var1;
                         }
                     };
                     var6['onHeightChange'] = var10;
-                    var10 = _closure2_slot7;
+                    var10 = _closure2_slot8;
                     var10 = var10.uploadDisabled;
                     var6['uploadDisabled'] = var10;
-                    var9 = _closure2_slot10;
+                    var9 = _closure2_slot11;
                     var6['overflowButtons'] = var9;
                     var6 = var8.bind(var4)(var7, var6);
                     var5[1] = var6;
@@ -1067,7 +1083,7 @@ case 17:
             var3 = _closure1_slot12;
             var6 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 33;
+            var1 = 35;
             var1 = var10[var1];
             var2 = var6.bind(var4)(var1);
             var1 = {};
@@ -1081,7 +1097,7 @@ case 17:
             var1['overlayComponent'] = var12;
             var1['onClose'] = var11;
             var1['transitionState'] = var5;
-            var5 = 34;
+            var5 = 36;
             var5 = var10[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -1115,7 +1131,7 @@ case 17:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 35;
+    var4 = 37;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

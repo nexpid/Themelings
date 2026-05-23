@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var13[var3];
         var6 = var11.bind(var12)(var6);
         var6 = var6.colors;
-        var6 = var6.BACKGROUND_BASE_LOWER;
+        var6 = var6.MOBILE_ACTIONSHEET_BACKGROUND;
         var9 = var9.bind(var14)(var6, var5);
         var _closure2_slot3 = var9;
         var6 = var13[var4];

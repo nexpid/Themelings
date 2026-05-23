@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWER;
+    var13 = var13.MOBILE_ACTIONSHEET_BACKGROUND;
     var10['backgroundColor'] = var13;
     var4['statusBarSpacer'] = var10;
     var10 = {};
@@ -356,7 +356,7 @@ case 12:
             var23 = var21[var3];
             var23 = var6.bind(var4)(var23);
             var23 = var23.colors;
-            var23 = var23.BACKGROUND_BASE_LOWER;
+            var23 = var23.MOBILE_ACTIONSHEET_BACKGROUND;
             var23 = var24.bind(var25)(var23);
             var2['backgroundColor'] = var23;
             var2['borderTopWidth'] = var16;

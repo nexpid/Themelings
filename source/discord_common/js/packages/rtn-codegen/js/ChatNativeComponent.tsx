@@ -394,7 +394,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['registrationName'] = var5;
     var1['topSharedClientThemeViewed'] = var2;
     var4['directEventTypes'] = var1;
-    var2 = {'inverted': true, 'animateEmoji': true, 'HACK_fixModalInteraction': true, 'alwaysRespectKeyboard': true, 'roleStyle': true, 'adjustContentOffsetWithBounds': true, 'keyboardBackgroundRgba': true};
+    var2 = {'inverted': true, 'animateEmoji': true, 'HACK_fixModalInteraction': true, 'alwaysRespectKeyboard': true, 'roleStyle': true, 'adjustContentOffsetWithBounds': true, 'keyboardBackgroundRgba': true, 'channelId': true};
     var1 = 0;
     var5 = var8[var1];
     var1 = undefined;

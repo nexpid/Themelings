@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/powerups/hooks/useIsServerThemeAvailableForGuild.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function useIsServerThemeAvailableForGuild(arg1, arg2) {
+    var2 = function useIsServerThemeAvailableForGuild(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var8 = arg1;
@@ -102,58 +102,6 @@ case 8:
             return var1;
         }
     };
-    var3['default'] = var4;
-    var2 = function getIsServerThemeAvailableForGuild(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var8 = arg1;
-            var4 = arg2;
-            var3 = _closure1_slot2;
-            var1 = var3.getGuild;
-            var1 = var1.bind(var3)(var8);
-            var3 = null;
-            var7 = var3 == var1;
-            var5 = undefined;
-            var6 = undefined;
-            if(var7) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-            var9 = var1.features;
-            var7 = var9.has;
-            var1 = _closure1_slot3;
-            var1 = var1.GUILD_THEME;
-            var6 = var7.bind(var9)(var1);
-case 10:
-            var1 = true;
-            var1 = var1 === var6;
-            if(!var1) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var6 = 3;
-            var6 = var9[var6];
-            var7 = var7.bind(var5)(var6);
-            var6 = var7.getServerThemeEnabled;
-            var9 = var3 != var8;
-            var3 = undefined;
-            if(!var9) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-            var3 = var8;
-case 14:
-            var1 = var6.bind(var7)(var3, var4);
-case 12:
-            if(!var1) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 4;
-            var2 = var6[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = var3.getServerThemeUserEnabled;
-            var1 = var2.bind(var3)(var4);
-case 16:
-            return var1;
-        }
-    };
-    var3['getIsServerThemeAvailableForGuild'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

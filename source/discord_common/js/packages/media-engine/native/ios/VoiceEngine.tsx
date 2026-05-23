@@ -1004,6 +1004,19 @@ case 30:
         };
         var7 = var9.bind(var1)(var10, var7);
         var8['setSystemMicrophoneModeChangeCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'voice-processing-error-callback';
+        var7 = function(arg1) {
+            var1 = arg1;
+            var2 = var1.error;
+            var1 = new Array(1);
+            var1[0] = var2;
+            return var1;
+        };
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setVoiceProcessingErrorCallback'] = var7;
         var8 = 'on-broadcast-thumbnail';
         var7 = function(arg1) {
             var1 = arg1;

@@ -77,15 +77,27 @@ case 7:
 case 0:
                             var6 = arg1;
                             var4 = _closure1_slot0;
-                            var3 = _closure1_slot2;
-                            var1 = 13;
-                            var3 = var3[var1];
+                            var9 = _closure1_slot2;
+                            var3 = 13;
+                            var5 = var9[var3];
                             var1 = undefined;
+                            var8 = var4.bind(var1)(var5);
+                            var7 = var8.getKestrelConfig;
+                            var5 = {};
+                            var10 = 'native.AddMediaToOriginalForumPostActionSheet';
+                            var5['location'] = var10;
+                            var8 = var7.bind(var8)(var5);
+                            var3 = var9[var3];
                             var7 = var4.bind(var1)(var3);
-                            var5 = var7.maxFileSize;
+                            var5 = var7.getEffectiveKestrelLimit;
+                            var3 = 14;
+                            var3 = var9[var3];
+                            var10 = var4.bind(var1)(var3);
+                            var9 = var10.maxFileSize;
                             var3 = _closure4_slot2;
                             var3 = var3.id;
-                            var5 = var5.bind(var7)(var3);
+                            var3 = var9.bind(var10)(var3);
+                            var5 = var5.bind(var7)(var8, var3);
                             var3 = var6.currentSize;
                             if(!(var3 > var5)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
@@ -97,12 +109,12 @@ case 9:
                             var3 = var7.bind(var1)(var3);
                             var3 = _closure1_slot1;
                             var7 = _closure1_slot2;
-                            var2 = 14;
+                            var2 = 15;
                             var2 = var7[var2];
                             var8 = var3.bind(var1)(var2);
                             var2 = var8.hideActionSheet;
                             var2 = var2.bind(var8)();
-                            var2 = 15;
+                            var2 = 16;
                             var2 = var7[var2];
                             var3 = var3.bind(var1)(var2);
                             var2 = {};
@@ -125,7 +137,7 @@ case 8:
                         var2 = var3.bind(var1)(var2);
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var2 = 14;
+                        var2 = 15;
                         var2 = var4[var2];
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.hideActionSheet;
@@ -142,7 +154,7 @@ case 8:
                         var2 = var3.bind(var1)(var2);
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var6 = 16;
+                        var6 = 17;
                         var6 = var4[var6];
                         var7 = var3.bind(var1)(var6);
                         var6 = var7.clearAll;
@@ -150,7 +162,7 @@ case 8:
                         var2 = _closure1_slot8;
                         var2 = var2.ChannelMessage;
                         var2 = var6.bind(var7)(var5, var2);
-                        var2 = 14;
+                        var2 = 15;
                         var2 = var4[var2];
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.hideActionSheet;
@@ -163,7 +175,7 @@ case 8:
                     var21 = var10;
                     var19 = var18.bind(var19)(var21);
                     var18 = var19.get;
-                    var22 = 17;
+                    var22 = 18;
                     var16 = var16[var22];
                     var20 = var20.bind(var5)(var16);
                     var16 = var20.castChannelIdAsMessageId;
@@ -199,7 +211,7 @@ case 17:
                     var14 = function(arg1, arg2) {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 18;
+                        var1 = 19;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -226,7 +238,7 @@ case 20:
 case 21: // try_start_1 // try_end0
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var11 = 20;
+                    var11 = 21;
                     var11 = var14[var11];
                     var11 = var12.bind(var5)(var11);
                     var13 = var11.HTTP;
@@ -265,12 +277,12 @@ case 27: // catch_target1
                     var11 = var12.bind(var5)(var11);
                     var12 = _closure1_slot1;
                     var14 = _closure1_slot2;
-                    var11 = 14;
+                    var11 = 15;
                     var11 = var14[var11];
                     var17 = var12.bind(var5)(var11);
                     var11 = var17.hideActionSheet;
                     var11 = var11.bind(var17)();
-                    var11 = 21;
+                    var11 = 22;
                     var11 = var14[var11];
                     var11 = var12.bind(var5)(var11);
                     var12 = var11.prototype;
@@ -287,13 +299,13 @@ case 27: // catch_target1
 case 29:
                     var12 = _closure1_slot1;
                     var20 = _closure1_slot2;
-                    var11 = 24;
+                    var11 = 25;
                     var11 = var20[var11];
                     var13 = var12.bind(var5)(var11);
                     var12 = var13.show;
                     var11 = {};
                     var19 = _closure1_slot0;
-                    var14 = 25;
+                    var14 = 26;
                     var17 = var20[var14];
                     var17 = var19.bind(var5)(var17);
                     var18 = var17.intl;
@@ -322,14 +334,14 @@ case 32:
 case 28:
                     var12 = _closure1_slot1;
                     var15 = _closure1_slot2;
-                    var11 = 22;
+                    var11 = 23;
                     var11 = var15[var11];
                     var13 = var12.bind(var5)(var11);
                     var12 = var13.sendExplicitMediaClydeError;
                     var11 = var10;
                     var10 = var9.attachments;
                     var14 = _closure1_slot0;
-                    var9 = 23;
+                    var9 = 24;
                     var9 = var15[var9];
                     var9 = var14.bind(var5)(var9);
                     var9 = var9.TrackMediaRedactionContext;
@@ -346,13 +358,13 @@ case 33: // catch_target0
                     var4 = var9.bind(var5)(var4);
                     var10 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var4 = 14;
+                    var4 = 15;
                     var4 = var9[var4];
                     var10 = var10.bind(var5)(var4);
                     var4 = var10.hideActionSheet;
                     var4 = var4.bind(var10)();
                     var4 = _closure1_slot0;
-                    var3 = 19;
+                    var3 = 20;
                     var3 = var9[var3];
                     var5 = var4.bind(var5)(var3);
                     var4 = var5.handleUploadMessageAttachmentsErrors;
@@ -499,7 +511,7 @@ case 2:
     var4['buttonMargin'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 34;
+    var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -532,7 +544,7 @@ case 0:
             var _closure2_slot3 = var6;
             var14 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var6 = 26;
+            var6 = 27;
             var17 = var16[var6];
             var21 = var14.bind(var4)(var17);
             var20 = var21.useStateFromStores;
@@ -593,7 +605,7 @@ case 34:
                 var2 = _closure2_slot0;
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 17;
+                var1 = 18;
                 var5 = var5[var1];
                 var1 = undefined;
                 var5 = var6.bind(var1)(var5);
@@ -605,7 +617,7 @@ case 34:
             var17 = var20.bind(var21)(var17, var6, var14);
             var _closure2_slot6 = var17;
             var14 = _closure1_slot1;
-            var6 = 27;
+            var6 = 28;
             var6 = var16[var6];
             var6 = var14.bind(var4)(var6);
             var6 = var6.bind(var4)();
@@ -634,7 +646,7 @@ case 38:
 case 36:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 15;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var4.bind(var2)(var3);
@@ -644,7 +656,7 @@ case 36:
 case 39:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 28;
+                    var2 = 29;
                     var2 = var3[var2];
                     var3 = undefined;
                     var5 = var4.bind(var3)(var2);
@@ -687,7 +699,7 @@ case 40:
             var1 = function() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 28;
+                var1 = 29;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);
@@ -697,7 +709,7 @@ case 40:
                 var3['added'] = var7;
                 var3 = var5.bind(var6)(var3);
                 var3 = _closure1_slot1;
-                var2 = 14;
+                var2 = 15;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -728,7 +740,7 @@ case 0:
 case 42:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 29;
+                    var2 = 30;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
@@ -784,7 +796,7 @@ case 45:
             var3 = _closure1_slot13;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var1 = 30;
+            var1 = 31;
             var1 = var18[var1];
             var1 = var17.bind(var4)(var1);
             var2 = var1.BottomSheet;
@@ -801,7 +813,7 @@ case 45:
             var8['pointerEvents'] = var9;
             var9 = var13.post;
             var8['style'] = var9;
-            var9 = 31;
+            var9 = 32;
             var9 = var18[var9];
             var9 = var17.bind(var4)(var9);
             var10 = var9.ForumPostListDisabled;
@@ -815,14 +827,14 @@ case 45:
             var9 = var3.bind(var4)(var6, var8);
             var8 = new Array(6);
             var8[0] = var9;
-            var9 = 32;
+            var9 = 33;
             var10 = var18[var9];
             var10 = var17.bind(var4)(var10);
             var15 = var10.Text;
             var10 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var14 = var13.title;
             var10['style'] = var14;
-            var14 = 25;
+            var14 = 26;
             var16 = var18[var14];
             var16 = var17.bind(var4)(var16);
             var22 = var16.intl;
@@ -856,7 +868,7 @@ case 45:
             var10 = {};
             var9 = var13.buttonMargin;
             var10['style'] = var9;
-            var9 = 33;
+            var9 = 34;
             var15 = var18[var9];
             var15 = var17.bind(var4)(var15);
             var16 = var15.BaseTextButton;
@@ -924,7 +936,7 @@ case 45:
             var12 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);

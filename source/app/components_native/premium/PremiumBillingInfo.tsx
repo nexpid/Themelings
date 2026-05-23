@@ -19,7 +19,7 @@ case 0:
             var1 = var4[var1];
             var5 = undefined;
             var3 = var3.bind(var5)(var1);
-            var1 = var3.isAndroid;
+            var1 = var3.isGooglePlayBillingSupported;
             var3 = var1.bind(var3)();
             var1 = null;
             if(!var3) { _fun0001_ip = 2; continue _fun0001 }

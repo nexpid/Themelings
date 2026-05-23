@@ -44,26 +44,25 @@ case 3:
             var3 = var2;
 case 2:
             var2 = var3.isCreatingThread;
-            var5 = var3.isFloatingRefresh;
-            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+            var3 = var3.isFloatingRefresh;
+            var2 = !var2;
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var4 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var2 = 1;
-            var2 = var6[var2];
-            var4 = var4.bind(var1)(var2);
-            var2 = var4.isIOS;
-            var2 = var2.bind(var4)();
-            if(var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var4 = true;
-            var2 = undefined;
-            if(!(var4 === var5)) { _fun0001_ip = 8; continue _fun0001 }
-case 6:
-            var2 = _closure1_slot2;
-case 8:
-            return var2;
+            var4 = 1;
+            var4 = var6[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.isIOS;
+            var2 = var4.bind(var5)();
 case 4:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var1 = undefined;
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
+            var1 = _closure1_slot2;
+case 8:
             return var1;
         }
     };

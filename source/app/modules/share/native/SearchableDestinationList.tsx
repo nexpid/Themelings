@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWER;
+    var13 = var13.MOBILE_ACTIONSHEET_BACKGROUND;
     var9['backgroundColor'] = var13;
     var4['searchBarContainer'] = var9;
     var9 = {};
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_BASE_LOWER;
+    var10 = var10.MOBILE_ACTIONSHEET_BACKGROUND;
     var9['backgroundColor'] = var10;
     var4['noResults'] = var9;
     var4 = var7.bind(var8)(var4);

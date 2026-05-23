@@ -156,7 +156,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.GIFTING_INTENT_FRIENDS_TAB_BADGE;
-    var18 = new Array(23);
+    var18 = new Array(24);
     var18[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -268,6 +268,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.NOTIFICATION_NUDGE_POST_CALL_DISCONNECT;
     var18[22] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.REFERRAL_PROGRAM_ENTRYPOINT_NITRO_BUTTON_NOTIFICATION;
+    var18[23] = var14;
     var _closure1_slot1 = var18;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

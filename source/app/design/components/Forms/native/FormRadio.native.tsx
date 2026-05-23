@@ -106,13 +106,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
     var4 = {};
-    var7 = "function FormRadioNativeTsx1(){const{withSpring,selected,selectedStyles,unselectedStyles,SUBTLE_SPRING}=this.__closure;const defaultAnimation={borderColor:withSpring(selected?selectedStyles.borderColor:unselectedStyles.borderColor,SUBTLE_SPRING,'animate-always'),backgroundColor:withSpring(selected?selectedStyles.backgroundColor:unselectedStyles.backgroundColor,SUBTLE_SPRING,'animate-always')};return defaultAnimation;}";
+    var7 = "function FormRadioNativeTsx1(){const{withSpring,selectedShared,selectedStyles,unselectedStyles,SUBTLE_SPRING}=this.__closure;return withSpring(selectedShared.get()?selectedStyles.borderColor:unselectedStyles.borderColor,SUBTLE_SPRING,'animate-always');}";
     var4['code'] = var7;
     var _closure1_slot6 = var4;
     var4 = {};
-    var7 = "function FormRadioNativeTsx2(){const{useReducedMotion,withSpring,selected,SUBTLE_SPRING}=this.__closure;const unselectedScale=useReducedMotion?1:0.5;return{opacity:withSpring(selected?1:0,SUBTLE_SPRING,'animate-always'),transform:[{scale:withSpring(selected?1:unselectedScale,SUBTLE_SPRING)}]};}";
+    var7 = "function FormRadioNativeTsx2(){const{withSpring,selectedShared,selectedStyles,unselectedStyles,SUBTLE_SPRING}=this.__closure;return withSpring(selectedShared.get()?selectedStyles.backgroundColor:unselectedStyles.backgroundColor,SUBTLE_SPRING,'animate-always');}";
     var4['code'] = var7;
     var _closure1_slot7 = var4;
+    var4 = {};
+    var7 = 'function FormRadioNativeTsx3(){const{borderColor,backgroundColor}=this.__closure;return{borderColor:borderColor.get(),backgroundColor:backgroundColor.get()};}';
+    var4['code'] = var7;
+    var _closure1_slot8 = var4;
+    var4 = {};
+    var7 = "function FormRadioNativeTsx4(){const{useReducedMotion,withSpring,selected,SUBTLE_SPRING}=this.__closure;const unselectedScale=useReducedMotion?1:0.5;return{opacity:withSpring(selected?1:0,SUBTLE_SPRING,'animate-always'),transform:[{scale:withSpring(selected?1:unselectedScale,SUBTLE_SPRING)}]};}";
+    var4['code'] = var7;
+    var _closure1_slot9 = var4;
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -137,92 +145,171 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var3.reducedMotion;
         var3 = var3.enabled;
         var6 = function useRadioStyles(arg1) {
-            var11 = arg1;
-            var _closure3_slot0 = var11;
+            var6 = arg1;
+            var _closure3_slot0 = var6;
             var2 = _closure1_slot5;
-            var8 = undefined;
-            var2 = var2.bind(var8)();
-            var10 = var2.selected;
-            var _closure3_slot1 = var10;
-            var6 = var2.unselected;
-            var _closure3_slot2 = var6;
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var5 = undefined;
+            var2 = var2.bind(var5)();
+            var14 = var2.selected;
+            var _closure3_slot1 = var14;
+            var13 = var2.unselected;
+            var _closure3_slot2 = var13;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var2 = 5;
-            var2 = var9[var2];
-            var3 = var7.bind(var8)(var2);
-            var2 = var3.useAnimatedStyle;
-            var1 = function S() {
+            var7 = var8[var2];
+            var9 = var3.bind(var5)(var7);
+            var7 = var9.useSharedValue;
+            var15 = var7.bind(var9)(var6);
+            var _closure3_slot3 = var15;
+            var10 = _closure1_slot3;
+            var9 = var10.useEffect;
+            var7 = new Array(2);
+            var7[0] = var6;
+            var7[1] = var15;
+            var6 = function() {
+                var3 = _closure3_slot3;
+                var2 = var3.set;
+                var1 = _closure3_slot0;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            var6 = var9.bind(var10)(var6, var7);
+            var6 = var8[var2];
+            var9 = var3.bind(var5)(var6);
+            var7 = var9.useDerivedValue;
+            var6 = function T() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                    var1 = {};
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var5 = 6;
-                    var3 = var3[var5];
-                    var8 = undefined;
-                    var13 = var4.bind(var8)(var3);
-                    var12 = var13.withSpring;
-                    var3 = _closure3_slot0;
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var4[var2];
+                    var6 = undefined;
+                    var5 = var3.bind(var6)(var2);
+                    var4 = var5.withSpring;
+                    var7 = _closure3_slot3;
+                    var3 = var7.get;
+                    var3 = var3.bind(var7)();
                     if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                     var3 = _closure3_slot2;
-                    var11 = var3.borderColor;
+                    var3 = var3.borderColor;
                     _fun0001_ip = 4; continue _fun0001;
 case 2:
-                    var3 = _closure3_slot1;
-                    var11 = var3.borderColor;
+                    var2 = _closure3_slot1;
+                    var3 = var2.borderColor;
 case 4:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var9 = 7;
-                    var6 = var3[var9];
-                    var6 = var4.bind(var8)(var6);
-                    var10 = var6.SUBTLE_SPRING;
-                    var6 = 'animate-always';
-                    var10 = var12.bind(var13)(var11, var10, var6);
-                    var1['borderColor'] = var10;
-                    var3 = var3[var5];
-                    var5 = var4.bind(var8)(var3);
-                    var4 = var5.withSpring;
-                    var3 = _closure3_slot0;
-                    if(var3) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-                    var3 = _closure3_slot2;
-                    var3 = var3.backgroundColor;
-                    _fun0001_ip = 7; continue _fun0001;
-case 5:
-                    var7 = _closure3_slot1;
-                    var3 = var7.backgroundColor;
-case 7:
-                    var7 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var2 = var2[var9];
-                    var2 = var7.bind(var8)(var2);
-                    var2 = var2.SUBTLE_SPRING;
-                    var2 = var4.bind(var5)(var3, var2, var6);
-                    var1['backgroundColor'] = var2;
+                    var2 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var1 = 7;
+                    var1 = var7[var1];
+                    var1 = var2.bind(var6)(var1);
+                    var2 = var1.SUBTLE_SPRING;
+                    var1 = 'animate-always';
+                    var1 = var4.bind(var5)(var3, var2, var1);
                     return var1;
                 }
             };
+            var10 = {};
+            var16 = 6;
+            var11 = var8[var16];
+            var11 = var3.bind(var5)(var11);
+            var11 = var11.withSpring;
+            var10['withSpring'] = var11;
+            var10['selectedShared'] = var15;
+            var10['selectedStyles'] = var14;
+            var10['unselectedStyles'] = var13;
+            var12 = 7;
+            var11 = var8[var12];
+            var11 = var3.bind(var5)(var11);
+            var11 = var11.SUBTLE_SPRING;
+            var10['SUBTLE_SPRING'] = var11;
+            var6['__closure'] = var10;
+            var10 = 12275577765341.0;
+            var6['__workletHash'] = var10;
+            var10 = _closure1_slot6;
+            var6['__initData'] = var10;
+            var7 = var7.bind(var9)(var6);
+            var _closure3_slot4 = var7;
+            var6 = var8[var2];
+            var10 = var3.bind(var5)(var6);
+            var9 = var10.useDerivedValue;
+            var6 = function C() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var4[var2];
+                    var6 = undefined;
+                    var5 = var3.bind(var6)(var2);
+                    var4 = var5.withSpring;
+                    var7 = _closure3_slot3;
+                    var3 = var7.get;
+                    var3 = var3.bind(var7)();
+                    if(var3) { _fun0002_ip = 5; continue _fun0002 }
+case 3:
+                    var3 = _closure3_slot2;
+                    var3 = var3.backgroundColor;
+                    _fun0002_ip = 6; continue _fun0002;
+case 5:
+                    var2 = _closure3_slot1;
+                    var3 = var2.backgroundColor;
+case 6:
+                    var2 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var1 = 7;
+                    var1 = var7[var1];
+                    var1 = var2.bind(var6)(var1);
+                    var2 = var1.SUBTLE_SPRING;
+                    var1 = 'animate-always';
+                    var1 = var4.bind(var5)(var3, var2, var1);
+                    return var1;
+                }
+            };
+            var11 = {};
+            var16 = var8[var16];
+            var16 = var3.bind(var5)(var16);
+            var16 = var16.withSpring;
+            var11['withSpring'] = var16;
+            var11['selectedShared'] = var15;
+            var11['selectedStyles'] = var14;
+            var11['unselectedStyles'] = var13;
+            var12 = var8[var12];
+            var12 = var3.bind(var5)(var12);
+            var12 = var12.SUBTLE_SPRING;
+            var11['SUBTLE_SPRING'] = var12;
+            var6['__closure'] = var11;
+            var11 = 7732795836606.0;
+            var6['__workletHash'] = var11;
+            var11 = _closure1_slot7;
+            var6['__initData'] = var11;
+            var6 = var9.bind(var10)(var6);
+            var _closure3_slot5 = var6;
+            var2 = var8[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.useAnimatedStyle;
+            var1 = function b() {
+                var1 = {};
+                var4 = _closure3_slot4;
+                var3 = var4.get;
+                var3 = var3.bind(var4)();
+                var1['borderColor'] = var3;
+                var3 = _closure3_slot5;
+                var2 = var3.get;
+                var2 = var2.bind(var3)();
+                var1['backgroundColor'] = var2;
+                return var1;
+            };
             var5 = {};
-            var12 = 6;
-            var12 = var9[var12];
-            var12 = var7.bind(var8)(var12);
-            var12 = var12.withSpring;
-            var5['withSpring'] = var12;
-            var5['selected'] = var11;
-            var5['selectedStyles'] = var10;
-            var5['unselectedStyles'] = var6;
-            var6 = 7;
-            var6 = var9[var6];
-            var6 = var7.bind(var8)(var6);
-            var6 = var6.SUBTLE_SPRING;
-            var5['SUBTLE_SPRING'] = var6;
+            var5['borderColor'] = var7;
+            var5['backgroundColor'] = var6;
             var1['__closure'] = var5;
-            var5 = 10943552903194.0;
+            var5 = 5670342272321.0;
             var1['__workletHash'] = var5;
-            var4 = _closure1_slot6;
+            var4 = _closure1_slot8;
             var1['__initData'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -240,15 +327,15 @@ case 7:
             var7 = undefined;
             var3 = var8.bind(var7)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function n() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            var1 = function s() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure3_slot0;
                     var7 = 0.5;
-                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var7 = 1;
+                    if(!var1) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
+                    var7 = 1;
+case 7:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -259,10 +346,10 @@ case 8:
                     var13 = var14.withSpring;
                     var3 = _closure3_slot1;
                     var12 = 0;
-                    if(!var3) { _fun0002_ip = 10; continue _fun0002 }
-case 4:
-                    var12 = 1;
+                    if(!var3) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
+                    var12 = 1;
+case 9:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var9 = 7;
@@ -278,7 +365,7 @@ case 10:
                     var5 = var6.withSpring;
                     var10 = _closure3_slot1;
                     var4 = 1;
-                    if(var10) { _fun0002_ip = 11; continue _fun0002 }
+                    if(var10) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
                     var4 = var7;
 case 11:
@@ -309,9 +396,9 @@ case 11:
             var6 = var6.SUBTLE_SPRING;
             var5['SUBTLE_SPRING'] = var6;
             var1['__closure'] = var5;
-            var5 = 675362542431.0;
+            var5 = 15209729079449.0;
             var1['__workletHash'] = var5;
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot9;
             var1['__initData'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;

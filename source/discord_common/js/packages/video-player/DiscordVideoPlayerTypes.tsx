@@ -84,6 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PLAYBACK_COMPLETE'] = var1;
     var1 = 'buffering_recovery';
     var2['BUFFERING_RECOVERY'] = var1;
+    var1 = 'picture_in_picture';
+    var2['PICTURE_IN_PICTURE'] = var1;
     var10 = dependencyMap;
     var1 = 0;
     var11 = var10[var1];

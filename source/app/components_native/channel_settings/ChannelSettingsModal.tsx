@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWEST;
+    var13 = var13.MOBILE_ACTIONSHEET_BACKGROUND;
     var9['backgroundColor'] = var13;
     var4['container'] = var9;
     var9 = {};
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_BASE_LOW;
+    var10 = var10.MOBILE_ACTIONSHEET_BACKGROUND;
     var9['backgroundColor'] = var10;
     var4['pinsScreen'] = var9;
     var4 = var5.bind(var8)(var4);

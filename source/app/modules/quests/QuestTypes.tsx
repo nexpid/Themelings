@@ -62,6 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MODAL_CLOSED'] = var11;
     var11 = 'ANOTHER_MODAL_OPENED';
     var2['ANOTHER_MODAL_OPENED'] = var11;
+    var11 = 'PICTURE_IN_PICTURE';
+    var2['PICTURE_IN_PICTURE'] = var11;
     var11 = 1;
     var11 = var8[var11];
     var13 = var7.bind(var1)(var11);

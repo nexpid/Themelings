@@ -306,6 +306,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['TASK_BAR_FLASHING'] = var1;
     var1 = 'screen_downtime_reminder';
     var2['SCREEN_DOWNTIME_REMINDER'] = var1;
+    var1 = 'screen_downtime_schedule';
+    var2['SCREEN_DOWNTIME_SCHEDULE'] = var1;
     var1 = 'notifications_email_category';
     var2['NOTIFICATIONS_EMAIL_CATEGORY'] = var1;
     var1 = 'email_list_item_';
@@ -338,8 +340,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CLIPS_ENABLE_DECOUPLED_CLIPPING'] = var1;
     var1 = 'clips_enable_reminders';
     var2['CLIPS_ENABLE_REMINDERS'] = var1;
-    var1 = 'clips_clear_reminder_snooze';
-    var2['CLIPS_CLEAR_REMINDER_SNOOZE'] = var1;
     var1 = 'clips_length';
     var2['CLIPS_LENGTH'] = var1;
     var1 = 'clips_resolution';
@@ -774,6 +774,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['LINUX_PANEL'] = var1;
     var1 = 'games_and_apps_section';
     var2['GAMES_AND_APPS_SECTION'] = var1;
+    var1 = 'connected_apps_sidebar_item';
+    var2['CONNECTED_APPS_SIDEBAR_ITEM'] = var1;
+    var1 = 'connected_apps_panel';
+    var2['CONNECTED_APPS_PANEL'] = var1;
+    var1 = 'connections_category';
+    var2['CONNECTIONS_CATEGORY'] = var1;
     var1 = 'activity_section';
     var2['ACTIVITY_SECTION'] = var1;
     var1 = 'activity_privacy_sidebar_item';

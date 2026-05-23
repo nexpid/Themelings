@@ -280,6 +280,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ANDROID_NOTIFICATION_VIBRATIONS'] = var1;
     var1 = 'ANDROID_NOTIFICATION_SOUNDS';
     var2['ANDROID_NOTIFICATION_SOUNDS'] = var1;
+    var1 = 'IN_APP_MESSAGE_SOUNDS';
+    var2['IN_APP_MESSAGE_SOUNDS'] = var1;
     var1 = 'IOS_NATIVE_PHONE_INTEGRATION';
     var2['IOS_NATIVE_PHONE_INTEGRATION'] = var1;
     var1 = 'FRIEND_STREAM_NOTIFICATIONS';

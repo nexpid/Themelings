@@ -1,8 +1,8 @@
 // app/modules/badges/BadgeDirectoryStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
+    var7 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -42,7 +42,7 @@ case 4:
         }
     };
     var _closure1_slot8 = var1;
-    var2 = function getSingleRequirementThreshold(arg1) {
+    var4 = function getSingleRequirementThreshold(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
@@ -69,61 +69,94 @@ case 9:
             return var1;
         }
     };
-    var _closure1_slot9 = var2;
-    var4 = global;
-    var10 = var4.Object;
-    var9 = var10.defineProperty;
-    var8 = {};
+    var _closure1_slot9 = var4;
+    var2 = function getObtainedAtFromBadge(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var2 = arg1;
+            var3 = null;
+            if(!(var3 == var2)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+            var1 = undefined;
+            return var1;
+case 11:
+            var1 = var2.current_tier;
+            var5 = var3 != var1;
+            var1 = undefined;
+            if(!var5) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            var6 = var2.tier_obtained_at;
+            var5 = var3 == var6;
+            var4 = undefined;
+            if(var5) { _fun0003_ip = 9; continue _fun0003 }
+case 15:
+            var5 = var2.current_tier;
+            var4 = var6[var5];
+case 9:
+            var1 = var4;
+case 13:
+            if(!(var3 == var1)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            var1 = var2.obtained_at;
+case 16:
+            return var1;
+        }
+    };
+    var _closure1_slot10 = var2;
+    var5 = global;
+    var11 = var5.Object;
+    var10 = var11.defineProperty;
+    var9 = {};
     var1 = true;
-    var8['value'] = var1;
+    var9['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var8);
+    var1 = var10.bind(var11)(var3, var1, var9);
     var1 = 0;
-    var8 = var6[var1];
+    var9 = var7[var1];
     var1 = undefined;
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot0 = var8;
-    var8 = 1;
-    var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot1 = var8;
-    var8 = 2;
-    var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot2 = var8;
-    var8 = 3;
-    var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot3 = var8;
-    var8 = 4;
-    var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot4 = var8;
-    var8 = 5;
-    var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot5 = var8;
-    var8 = var4.Map;
-    var9 = var8.prototype;
-    var9 = Object.create(var9, {constructor: {value: var8}});
-    var14 = var9;
-    var8 = new var14[var8](var13);
-    var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot6 = var8;
-    var4 = var4.Set;
-    var8 = var4.prototype;
-    var8 = Object.create(var8, {constructor: {value: var4}});
-    var14 = var8;
-    var4 = new var14[var4](var13);
-    var4 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot7 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var8 = var4.Store;
-    var4 = function(arg1) {
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot0 = var9;
+    var9 = 1;
+    var9 = var7[var9];
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot1 = var9;
+    var9 = 2;
+    var9 = var7[var9];
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot2 = var9;
+    var9 = 3;
+    var9 = var7[var9];
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot3 = var9;
+    var9 = 4;
+    var9 = var7[var9];
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot4 = var9;
+    var9 = 5;
+    var9 = var7[var9];
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot5 = var9;
+    var9 = var5.Map;
+    var10 = var9.prototype;
+    var10 = Object.create(var10, {constructor: {value: var9}});
+    var15 = var10;
+    var9 = new var15[var9](var14);
+    var9 = var9 instanceof Object ? var9 : var10;
+    var _closure1_slot6 = var9;
+    var5 = var5.Set;
+    var9 = var5.prototype;
+    var9 = Object.create(var9, {constructor: {value: var5}});
+    var15 = var9;
+    var5 = new var15[var5](var14);
+    var5 = var5 instanceof Object ? var5 : var9;
+    var _closure1_slot7 = var5;
+    var5 = 6;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var9 = var5.Store;
+    var5 = function(arg1) {
         var4 = function BadgeDirectoryStore() {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var4 = this;
                 var3 = undefined;
@@ -136,14 +169,14 @@ case 0:
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot8;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                if(var1) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0003_ip = 13; continue _fun0003;
-case 11:
+                _fun0004_ip = 20; continue _fun0004;
+case 18:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -152,7 +185,7 @@ case 11:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 13:
+case 20:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -181,42 +214,42 @@ case 13:
         var7 = 'getBadges';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var4 = arg1;
                 var1 = null;
-                if(!(var1 == var4)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                if(!(var1 == var4)) { _fun0005_ip = 21; continue _fun0005 }
+case 12:
                 var3 = _closure1_slot5;
                 var2 = var3.getCurrentUser;
                 var3 = var2.bind(var3)();
                 var5 = var1 == var3;
                 var2 = undefined;
-                if(var5) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                if(var5) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                 var2 = var3.id;
-case 16:
+case 22:
                 var4 = var2;
-case 14:
-                if(!(var1 != var4)) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+case 21:
+                if(!(var1 != var4)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
                 var3 = _closure1_slot6;
                 var2 = var3.get;
                 var5 = var2.bind(var3)(var4);
-                if(!(var1 == var5)) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                if(!(var1 == var5)) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
                 var1 = new Array(0);
-                _fun0004_ip = 22; continue _fun0004;
-case 20:
+                _fun0005_ip = 28; continue _fun0005;
+case 26:
                 var2 = global;
                 var4 = var2.Array;
                 var3 = var4.from;
                 var2 = var5.values;
                 var2 = var2.bind(var5)();
                 var1 = var3.bind(var4)(var2);
-case 22:
+case 28:
                 return var1;
-case 18:
+case 24:
                 var1 = new Array(0);
                 return var1;
             }
@@ -239,40 +272,40 @@ case 18:
         var7 = 'getBadgeById';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var6 = arg2;
                 var3 = null;
-                if(!(var3 == var6)) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
+                if(!(var3 == var6)) { _fun0006_ip = 21; continue _fun0006 }
+case 12:
                 var2 = _closure1_slot5;
                 var1 = var2.getCurrentUser;
                 var2 = var1.bind(var2)();
                 var4 = var3 == var2;
                 var1 = undefined;
-                if(var4) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+                if(var4) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
                 var1 = var2.id;
-case 16:
+case 22:
                 var6 = var1;
-case 14:
+case 21:
                 var4 = var3 != var6;
                 var1 = undefined;
-                if(!var4) { _fun0005_ip = 23; continue _fun0005 }
-case 12:
+                if(!var4) { _fun0006_ip = 29; continue _fun0006 }
+case 19:
                 var5 = _closure1_slot6;
                 var4 = var5.get;
                 var5 = var4.bind(var5)(var6);
                 var3 = var3 == var5;
                 var2 = undefined;
-                if(var3) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+                if(var3) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
                 var4 = var5.get;
                 var3 = arg1;
                 var2 = var4.bind(var5)(var3);
-case 24:
+case 30:
                 var1 = var2;
-case 23:
+case 29:
                 return var1;
             }
         };
@@ -282,7 +315,7 @@ case 23:
         var7 = 'getSingleRequirementProgress';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var4 = this;
                 var3 = var4.getBadgeById;
@@ -293,18 +326,18 @@ case 0:
                 var5 = var1 == var4;
                 var3 = undefined;
                 var2 = undefined;
-                if(var5) { _fun0006_ip = 26; continue _fun0006 }
-case 17:
+                if(var5) { _fun0007_ip = 32; continue _fun0007 }
+case 23:
                 var2 = var4.progress;
-case 26:
-                if(!(var1 != var2)) { _fun0006_ip = 9; continue _fun0006 }
-case 27:
+case 32:
+                if(!(var1 != var2)) { _fun0007_ip = 9; continue _fun0007 }
+case 33:
                 var4 = var2.length;
                 var1 = 0;
-                if(!(var1 === var4)) { _fun0006_ip = 28; continue _fun0006 }
+                if(!(var1 === var4)) { _fun0007_ip = 34; continue _fun0007 }
 case 9:
                 return var3;
-case 28:
+case 34:
                 var1 = var2[var1];
                 return var1;
             }
@@ -315,7 +348,7 @@ case 28:
         var7 = 'getCurrentTier';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var5 = this;
                 var4 = var5.getBadgeById;
@@ -327,12 +360,12 @@ case 0:
                 var6 = var5 == var2;
                 var3 = undefined;
                 var4 = undefined;
-                if(var6) { _fun0007_ip = 19; continue _fun0007 }
-case 26:
+                if(var6) { _fun0008_ip = 25; continue _fun0008 }
+case 32:
                 var4 = var2.current_tier;
-case 19:
-                if(!(var5 == var4)) { _fun0007_ip = 10; continue _fun0007 }
-case 29:
+case 25:
+                if(!(var5 == var4)) { _fun0008_ip = 10; continue _fun0008 }
+case 35:
                 return var3;
 case 10:
                 var3 = var2.tiers;
@@ -355,34 +388,15 @@ case 10:
         var7 = 'getObtainedAt';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-                var7 = arg1;
-                var6 = arg2;
-                var5 = this;
-                var1 = var5.getCurrentTier;
-                var3 = var1.bind(var5)(var7, var6);
-                var4 = null;
-                var8 = var4 == var3;
-                var1 = undefined;
-                if(var8) { _fun0008_ip = 30; continue _fun0008 }
-case 31:
-                var1 = var3.obtained_at;
-case 30:
-                if(!(var4 == var1)) { _fun0008_ip = 3; continue _fun0008 }
-case 14:
-                var3 = var5.getBadgeById;
-                var3 = var3.bind(var5)(var7, var6);
-                var4 = var4 == var3;
-                var2 = undefined;
-                if(var4) { _fun0008_ip = 11; continue _fun0008 }
-case 32:
-                var2 = var3.obtained_at;
-case 11:
-                var1 = var2;
-case 3:
-                return var1;
-            }
+            var5 = this;
+            var3 = _closure1_slot10;
+            var4 = var5.getBadgeById;
+            var2 = arg1;
+            var1 = arg2;
+            var2 = var4.bind(var5)(var2, var1);
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
         var5['value'] = var7;
         var1[6] = var5;
@@ -402,12 +416,12 @@ case 0:
                 var6 = var5 == var2;
                 var3 = undefined;
                 var4 = undefined;
-                if(var6) { _fun0009_ip = 19; continue _fun0009 }
-case 26:
+                if(var6) { _fun0009_ip = 25; continue _fun0009 }
+case 32:
                 var4 = var2.next_tier;
-case 19:
+case 25:
                 if(!(var5 == var4)) { _fun0009_ip = 10; continue _fun0009 }
-case 29:
+case 35:
                 return var3;
 case 10:
                 var3 = var2.tiers;
@@ -443,11 +457,11 @@ case 0:
                 var4 = var3 == var8;
                 var5 = 0;
                 var1 = 0;
-                if(var4) { _fun0010_ip = 33; continue _fun0010 }
-case 19:
+                if(var4) { _fun0010_ip = 36; continue _fun0010 }
+case 25:
                 var3 = var3 == var2;
                 var1 = 0;
-                if(var3) { _fun0010_ip = 33; continue _fun0010 }
+                if(var3) { _fun0010_ip = 36; continue _fun0010 }
 case 9:
                 var3 = global;
                 var4 = var3.Math;
@@ -458,7 +472,7 @@ case 9:
                 var2 = var2.current;
                 var2 = var6 - var2;
                 var1 = var3.bind(var4)(var5, var2);
-case 33:
+case 36:
                 return var1;
             }
         };
@@ -467,14 +481,14 @@ case 33:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var8 = var4.bind(var1)(var8);
-    var4 = 'BadgeDirectoryStore';
-    var8['displayName'] = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var13 = var7.bind(var1)(var4);
-    var4 = {};
-    var9 = function handleFetchSuccess(arg1) {
+    var9 = var5.bind(var1)(var9);
+    var5 = 'BadgeDirectoryStore';
+    var9['displayName'] = var5;
+    var5 = 7;
+    var5 = var7[var5];
+    var14 = var8.bind(var1)(var5);
+    var5 = {};
+    var10 = function handleFetchSuccess(arg1) {
         var1 = arg1;
         var4 = var1.userId;
         var9 = var1.badges;
@@ -518,8 +532,8 @@ case 33:
         var1 = undefined;
         return var1;
     };
-    var4['BADGE_DIRECTORY_FETCH_SUCCESS'] = var9;
-    var9 = function handleBadgeFetchSuccess(arg1) {
+    var5['BADGE_DIRECTORY_FETCH_SUCCESS'] = var10;
+    var10 = function handleBadgeFetchSuccess(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
@@ -536,15 +550,15 @@ case 0:
             var4 = var1.get;
             var6 = var4.bind(var1)(var5);
             var4 = null;
-            if(!(var4 == var6)) { _fun0011_ip = 34; continue _fun0011 }
-case 35:
+            if(!(var4 == var6)) { _fun0011_ip = 37; continue _fun0011 }
+case 38:
             var4 = var3.Map;
             var8 = var4.prototype;
             var8 = Object.create(var8, {constructor: {value: var4}});
             var11 = var8;
             var4 = new var11[var4](var10);
             var6 = var4 instanceof Object ? var4 : var8;
-case 34:
+case 37:
             var3 = var3.Map;
             var4 = var3.prototype;
             var4 = Object.create(var4, {constructor: {value: var3}});
@@ -562,8 +576,8 @@ case 34:
             return var1;
         }
     };
-    var4['BADGE_FETCH_SUCCESS'] = var9;
-    var5 = function handleReset() {
+    var5['BADGE_FETCH_SUCCESS'] = var10;
+    var6 = function handleReset() {
         var1 = global;
         var2 = var1.Map;
         var3 = var2.prototype;
@@ -582,21 +596,22 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var4['LOGOUT'] = var5;
-    var5 = var8.prototype;
-    var5 = Object.create(var5, {constructor: {value: var8}});
-    var14 = var5;
-    var12 = var4;
-    var4 = new var14[var8](var13, var12, var11);
-    var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 8;
-    var6 = var6[var5];
-    var5 = require;
-    var7 = var5.bind(var1)(var6);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/badges/BadgeDirectoryStore.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['default'] = var4;
-    var3['getSingleRequirementThreshold'] = var2;
+    var5['LOGOUT'] = var6;
+    var6 = var9.prototype;
+    var6 = Object.create(var6, {constructor: {value: var9}});
+    var15 = var6;
+    var13 = var5;
+    var5 = new var15[var9](var14, var13, var12);
+    var5 = var5 instanceof Object ? var5 : var6;
+    var6 = 8;
+    var7 = var7[var6];
+    var6 = require;
+    var8 = var6.bind(var1)(var7);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/badges/BadgeDirectoryStore.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['default'] = var5;
+    var3['getSingleRequirementThreshold'] = var4;
+    var3['getObtainedAtFromBadge'] = var2;
     return var1;
 })();

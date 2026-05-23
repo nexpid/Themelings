@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 1;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var5 = var2.useYouBarHorizontalMargin;
+    var5 = var2.useYouBarRightInset;
     var _closure1_slot4 = var5;
     var2 = var2.useYouBarTotalHeight;
     var _closure1_slot5 = var2;

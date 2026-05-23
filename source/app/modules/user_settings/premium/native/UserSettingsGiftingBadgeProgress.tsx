@@ -1,0 +1,1174 @@
+// app/modules/user_settings/premium/native/UserSettingsGiftingBadgeProgress.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = function GiftingBadgeIntro(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var1 = var1.analyticsLocation;
+            var _closure2_slot0 = var1;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 7;
+            var1 = var3[var1];
+            var5 = undefined;
+            var2 = var4.bind(var5)(var1);
+            var1 = 'UserSettingsGiftingBadgeProgress';
+            var2 = var2.bind(var5)(var1);
+            var1 = _closure1_slot12;
+            var17 = var1.bind(var5)(var2);
+            var _closure2_slot1 = var17;
+            var1 = 8;
+            var1 = var3[var1];
+            var2 = var4.bind(var5)(var1);
+            var1 = 9;
+            var1 = var3[var1];
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.USER_SETTINGS_GIFT_INVENTORY;
+            var1 = var2.bind(var5)(var1);
+            var1 = var1.analyticsLocations;
+            var _closure2_slot2 = var1;
+            var2 = _closure1_slot0;
+            var1 = 10;
+            var1 = var3[var1];
+            var4 = var2.bind(var5)(var1);
+            var3 = var4.useStateFromStores;
+            var1 = _closure1_slot7;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var4 = _closure1_slot7;
+                    var3 = var4.getBadgeById;
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 11;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var5.bind(var1)(var2);
+                    var2 = var2.BadgeId;
+                    var2 = var2.GIFTING;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = null;
+                    var3 = var3 == var2;
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var1 = var2.tiers;
+case 2:
+                    return var1;
+                }
+            };
+            var19 = var3.bind(var4)(var2, var1);
+            var1 = null;
+            var2 = var1 == var19;
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var4 = _closure1_slot10;
+            var3 = _closure1_slot6;
+            var2 = {};
+            var6 = var17.wrapper;
+            var2['style'] = var6;
+            var8 = _closure1_slot9;
+            var7 = _closure1_slot6;
+            var6 = {};
+            var9 = var17.introContent;
+            var6['style'] = var9;
+            var20 = _closure1_slot9;
+            var13 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var9 = 12;
+            var9 = var15[var9];
+            var9 = var13.bind(var5)(var9);
+            var18 = var9.Text;
+            var9 = {'variant': 'text-xs/normal', 'color': 'text-muted'};
+            var12 = 13;
+            var11 = var15[var12];
+            var11 = var13.bind(var5)(var11);
+            var23 = var11.intl;
+            var22 = var23.string;
+            var14 = _closure1_slot1;
+            var11 = 14;
+            var21 = var15[var11];
+            var21 = var14.bind(var5)(var21);
+            var21 = var21["4Yp0mI"];
+            var21 = var22.bind(var23)(var21);
+            var9['children'] = var21;
+            var9 = var20.bind(var5)(var18, var9);
+            var6['children'] = var9;
+            var7 = var8.bind(var5)(var7, var6);
+            var6 = new Array(3);
+            var6[0] = var7;
+            var9 = _closure1_slot9;
+            var8 = _closure1_slot6;
+            var7 = {};
+            var17 = var17.introGrid;
+            var7['style'] = var17;
+            var18 = var19.map;
+            var17 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var1 = arg1;
+                    var5 = _closure1_slot10;
+                    var4 = _closure1_slot6;
+                    var3 = {};
+                    var6 = _closure2_slot1;
+                    var6 = var6.introGridItem;
+                    var3['style'] = var6;
+                    var6 = var1.simple_icon_url;
+                    var14 = null;
+                    var7 = var14 != var6;
+                    if(!var7) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
+                    var10 = _closure1_slot9;
+                    var8 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var6 = 15;
+                    var6 = var9[var6];
+                    var9 = undefined;
+                    var8 = var8.bind(var9)(var6);
+                    var6 = {};
+                    var11 = var1.simple_icon_url;
+                    var6['icon'] = var11;
+                    var11 = 44;
+                    var6['size'] = var11;
+                    var7 = var10.bind(var9)(var8, var6);
+case 6:
+                    var6 = new Array(2);
+                    var6[0] = var7;
+                    var9 = _closure1_slot10;
+                    var8 = _closure1_slot6;
+                    var7 = {};
+                    var2 = _closure2_slot1;
+                    var2 = var2.badgeCopy;
+                    var7['style'] = var2;
+                    var13 = _closure1_slot9;
+                    var12 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var11 = 12;
+                    var10 = var2[var11];
+                    var2 = undefined;
+                    var10 = var12.bind(var2)(var10);
+                    var12 = var10.Text;
+                    var10 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
+                    var15 = var1.name;
+                    var16 = var14 != var15;
+                    var14 = '';
+                    if(!var16) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
+                    var14 = var15;
+case 8:
+                    var10['children'] = var14;
+                    var12 = var13.bind(var2)(var12, var10);
+                    var10 = new Array(2);
+                    var10[0] = var12;
+                    var13 = _closure1_slot9;
+                    var15 = _closure1_slot0;
+                    var19 = _closure1_slot2;
+                    var11 = var19[var11];
+                    var11 = var15.bind(var2)(var11);
+                    var12 = var11.Text;
+                    var11 = {'variant': 'text-xs/normal', 'color': 'text-muted'};
+                    var14 = 13;
+                    var14 = var19[var14];
+                    var14 = var15.bind(var2)(var14);
+                    var17 = var14.intl;
+                    var16 = var17.format;
+                    var15 = _closure1_slot1;
+                    var14 = 14;
+                    var14 = var19[var14];
+                    var14 = var15.bind(var2)(var14);
+                    var15 = var14.qvx9E4;
+                    var14 = {};
+                    var18 = _closure1_slot8;
+                    var18 = var18.bind(var2)(var1);
+                    var14['count'] = var18;
+                    var14 = var16.bind(var17)(var15, var14);
+                    var11['children'] = var14;
+                    var11 = var13.bind(var2)(var12, var11);
+                    var10[1] = var11;
+                    var7['children'] = var10;
+                    var7 = var9.bind(var2)(var8, var7);
+                    var6[1] = var7;
+                    var3['children'] = var6;
+                    var1 = var1.key;
+                    var1 = var5.bind(var2)(var4, var3, var1);
+                    return var1;
+                }
+            };
+            var17 = var18.bind(var19)(var17);
+            var7['children'] = var17;
+            var7 = var9.bind(var5)(var8, var7);
+            var6[1] = var7;
+            var9 = _closure1_slot9;
+            var7 = 16;
+            var7 = var15[var7];
+            var7 = var13.bind(var5)(var7);
+            var8 = var7.Button;
+            var7 = {};
+            var17 = 'primary';
+            var7['variant'] = var17;
+            var18 = _closure1_slot9;
+            var16 = 17;
+            var16 = var15[var16];
+            var16 = var13.bind(var5)(var16);
+            var17 = var16.GiftIcon;
+            var16 = {};
+            var19 = 'sm';
+            var16['size'] = var19;
+            var19 = 6;
+            var19 = var15[var19];
+            var19 = var14.bind(var5)(var19);
+            var19 = var19.unsafe_rawColors;
+            var19 = var19.WHITE;
+            var16['color'] = var19;
+            var16 = var18.bind(var5)(var17, var16);
+            var7['icon'] = var16;
+            var12 = var15[var12];
+            var12 = var13.bind(var5)(var12);
+            var13 = var12.intl;
+            var12 = var13.string;
+            var11 = var15[var11];
+            var11 = var14.bind(var5)(var11);
+            var11 = var11.DZnomS;
+            var11 = var12.bind(var13)(var11);
+            var7['text'] = var11;
+            var10 = function onPress() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 18;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openGiftModal;
+                var2 = {};
+                var6 = _closure2_slot0;
+                var2['analyticsLocation'] = var6;
+                var5 = _closure2_slot2;
+                var2['analyticsLocations'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var7['onPress'] = var10;
+            var10 = true;
+            var7['grow'] = var10;
+            var7 = var9.bind(var5)(var8, var7);
+            var6[2] = var7;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 4:
+            return var1;
+        }
+    };
+    var _closure1_slot13 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = metroImportAll;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Pressable;
+    var _closure1_slot5 = var7;
+    var4 = var4.View;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var7 = var6[var4];
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot7 = var7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.getSingleRequirementThreshold;
+    var _closure1_slot8 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot9 = var7;
+    var7 = var4.jsxs;
+    var _closure1_slot10 = var7;
+    var4 = var4.Fragment;
+    var _closure1_slot11 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = function(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var1 = {};
+            var2 = {};
+            var7 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var6 = 6;
+            var4 = var4[var6];
+            var5 = undefined;
+            var4 = var7.bind(var5)(var4);
+            var4 = var4.colors;
+            var4 = var4.BACKGROUND_MOD_MUTED;
+            var2['backgroundColor'] = var4;
+            var7 = arg1;
+            var4 = 0;
+            if(!var7) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
+            var8 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var7 = var7[var6];
+            var7 = var8.bind(var5)(var7);
+            var7 = var7.radii;
+            var4 = var7.md;
+case 10:
+            var2['borderRadius'] = var4;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_16;
+            var2['padding'] = var7;
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_16;
+            var2['gap'] = var7;
+            var1['wrapper'] = var2;
+            var2 = {};
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_8;
+            var2['gap'] = var7;
+            var1['progressContainer'] = var2;
+            var2 = {'flexDirection': 'row', 'alignItems': 'center'};
+            var7 = 'center';
+            var8 = var3[var6];
+            var8 = var4.bind(var5)(var8);
+            var8 = var8.spacing;
+            var8 = var8.PX_4;
+            var2['gap'] = var8;
+            var1['progressRow'] = var2;
+            var2 = {};
+            var8 = 1;
+            var2['flex'] = var8;
+            var1['progressTitleText'] = var2;
+            var2 = {};
+            var9 = var3[var6];
+            var9 = var4.bind(var5)(var9);
+            var9 = var9.spacing;
+            var9 = var9.PX_8;
+            var2['paddingHorizontal'] = var9;
+            var1['progressBarContainer'] = var2;
+            var2 = {};
+            var2['height'] = var6;
+            var9 = var3[var6];
+            var9 = var4.bind(var5)(var9);
+            var9 = var9.radii;
+            var9 = var9.round;
+            var2['borderRadius'] = var9;
+            var9 = var3[var6];
+            var9 = var4.bind(var5)(var9);
+            var9 = var9.colors;
+            var9 = var9.BACKGROUND_MOD_NORMAL;
+            var2['backgroundColor'] = var9;
+            var9 = 'hidden';
+            var2['overflow'] = var9;
+            var1['progressBarTrack'] = var2;
+            var2 = {};
+            var2['height'] = var6;
+            var9 = var3[var6];
+            var9 = var4.bind(var5)(var9);
+            var9 = var9.radii;
+            var9 = var9.round;
+            var2['borderRadius'] = var9;
+            var9 = var3[var6];
+            var9 = var4.bind(var5)(var9);
+            var9 = var9.unsafe_rawColors;
+            var9 = var9.BRAND_500;
+            var2['backgroundColor'] = var9;
+            var1['progressBarFill'] = var2;
+            var2 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center'};
+            var9 = var3[var6];
+            var9 = var4.bind(var5)(var9);
+            var9 = var9.spacing;
+            var9 = var9.PX_16;
+            var2['minHeight'] = var9;
+            var9 = var3[var6];
+            var9 = var4.bind(var5)(var9);
+            var9 = var9.spacing;
+            var9 = var9.PX_4;
+            var2['marginTop'] = var9;
+            var1['progressLabels'] = var2;
+            var2 = {};
+            var2['height'] = var8;
+            var8 = var3[var6];
+            var8 = var4.bind(var5)(var8);
+            var8 = var8.colors;
+            var8 = var8.BACKGROUND_MOD_NORMAL;
+            var2['backgroundColor'] = var8;
+            var1['divider'] = var2;
+            var2 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
+            var1['dropdownRow'] = var2;
+            var2 = {'flexDirection': 'row', 'flexWrap': 'wrap', 'justifyContent': 'center'};
+            var8 = var3[var6];
+            var8 = var4.bind(var5)(var8);
+            var8 = var8.spacing;
+            var8 = var8.PX_4;
+            var2['paddingVertical'] = var8;
+            var1['badgesRow'] = var2;
+            var2 = {'width': '33.33%', 'alignItems': 'center', 'justifyContent': 'center'};
+            var8 = var3[var6];
+            var8 = var4.bind(var5)(var8);
+            var8 = var8.spacing;
+            var8 = var8.PX_8;
+            var2['padding'] = var8;
+            var8 = var3[var6];
+            var8 = var4.bind(var5)(var8);
+            var8 = var8.spacing;
+            var8 = var8.PX_8;
+            var2['gap'] = var8;
+            var1['badgeItem'] = var2;
+            var2 = {'alignItems': 'center', 'gap': 2};
+            var1['badgeCopy'] = var2;
+            var2 = {};
+            var2['textAlign'] = var7;
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_16;
+            var2['marginBottom'] = var7;
+            var1['footerText'] = var2;
+            var2 = {};
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_8;
+            var2['paddingHorizontal'] = var7;
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_4;
+            var2['gap'] = var7;
+            var1['introContent'] = var2;
+            var2 = {'flexDirection': 'row', 'flexWrap': 'wrap', 'justifyContent': 'center'};
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_4;
+            var2['paddingVertical'] = var7;
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_16;
+            var2['paddingHorizontal'] = var7;
+            var1['introGrid'] = var2;
+            var2 = {'width': '33.33%', 'alignItems': 'center', 'justifyContent': 'center'};
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_8;
+            var2['padding'] = var7;
+            var3 = var3[var6];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.spacing;
+            var3 = var3.PX_8;
+            var2['gap'] = var3;
+            var1['introGridItem'] = var2;
+            return var1;
+        }
+    };
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot12 = var4;
+    var4 = 21;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/premium/native/UserSettingsGiftingBadgeProgress.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function UserSettingsGiftingBadgeProgress(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var1 = arg1;
+            var5 = var1.analyticsLocation;
+            var _closure2_slot0 = var5;
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 7;
+            var2 = var6[var2];
+            var4 = undefined;
+            var3 = var7.bind(var4)(var2);
+            var2 = 'UserSettingsGiftingBadgeProgress';
+            var3 = var3.bind(var4)(var2);
+            var2 = _closure1_slot12;
+            var19 = var2.bind(var4)(var3);
+            var _closure2_slot1 = var19;
+            var8 = _closure1_slot4;
+            var3 = var8.useState;
+            var2 = false;
+            var8 = var3.bind(var8)(var2);
+            var3 = _closure1_slot3;
+            var2 = 2;
+            var3 = var3.bind(var4)(var8, var2);
+            var38 = 0;
+            var8 = var3[var38];
+            var2 = 1;
+            var2 = var3[var2];
+            var _closure2_slot2 = var2;
+            var2 = 8;
+            var2 = var6[var2];
+            var3 = var7.bind(var4)(var2);
+            var2 = 9;
+            var2 = var6[var2];
+            var2 = var7.bind(var4)(var2);
+            var2 = var2.USER_SETTINGS_GIFT_INVENTORY;
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.analyticsLocations;
+            var _closure2_slot3 = var2;
+            var3 = _closure1_slot0;
+            var2 = 10;
+            var2 = var6[var2];
+            var7 = var3.bind(var4)(var2);
+            var6 = var7.useStateFromStoresObject;
+            var2 = _closure1_slot7;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var1 = {};
+                    var6 = _closure1_slot7;
+                    var4 = var6.getSingleRequirementProgress;
+                    var7 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var8 = 11;
+                    var3 = var2[var8];
+                    var2 = undefined;
+                    var3 = var7.bind(var2)(var3);
+                    var3 = var3.BadgeId;
+                    var3 = var3.GIFTING;
+                    var4 = var4.bind(var6)(var3);
+                    var3 = null;
+                    var7 = var3 == var4;
+                    var6 = undefined;
+                    if(var7) { _fun0006_ip = 12; continue _fun0006 }
+case 13:
+                    var6 = var4.current;
+case 12:
+                    var7 = var3 != var6;
+                    var4 = 0;
+                    if(!var7) { _fun0006_ip = 14; continue _fun0006 }
+case 15:
+                    var4 = var6;
+case 14:
+                    var1['badgeProgress'] = var4;
+                    var10 = _closure1_slot7;
+                    var9 = var10.getCurrentTier;
+                    var7 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var6 = var4[var8];
+                    var6 = var7.bind(var2)(var6);
+                    var6 = var6.BadgeId;
+                    var6 = var6.GIFTING;
+                    var6 = var9.bind(var10)(var6);
+                    var1['currentTier'] = var6;
+                    var10 = _closure1_slot7;
+                    var9 = var10.getNextTier;
+                    var6 = var4[var8];
+                    var6 = var7.bind(var2)(var6);
+                    var6 = var6.BadgeId;
+                    var6 = var6.GIFTING;
+                    var6 = var9.bind(var10)(var6);
+                    var1['nextTier'] = var6;
+                    var10 = _closure1_slot7;
+                    var9 = var10.getRemainingToNextTier;
+                    var6 = var4[var8];
+                    var6 = var7.bind(var2)(var6);
+                    var6 = var6.BadgeId;
+                    var6 = var6.GIFTING;
+                    var6 = var9.bind(var10)(var6);
+                    var1['giftsRemaining'] = var6;
+                    var6 = _closure1_slot7;
+                    var5 = var6.getBadgeById;
+                    var4 = var4[var8];
+                    var4 = var7.bind(var2)(var4);
+                    var4 = var4.BadgeId;
+                    var4 = var4.GIFTING;
+                    var4 = var5.bind(var6)(var4);
+                    var5 = var3 == var4;
+                    var2 = undefined;
+                    if(var5) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
+                    var2 = var4.tiers;
+case 16:
+                    if(!(var3 == var2)) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
+                    var2 = new Array(0);
+case 18:
+                    var1['tiers'] = var2;
+                    return var1;
+                }
+            };
+            var2 = var6.bind(var7)(var3, var2);
+            var33 = var2.badgeProgress;
+            var20 = var2.currentTier;
+            var35 = var2.nextTier;
+            var9 = var2.giftsRemaining;
+            var21 = var2.tiers;
+            if(!(var38 !== var33)) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
+            var2 = _closure1_slot8;
+            var32 = var2.bind(var4)(var20);
+            var2 = _closure1_slot8;
+            var37 = var2.bind(var4)(var35);
+            var34 = null;
+            if(!(var34 == var35)) { _fun0005_ip = 22; continue _fun0005 }
+case 17:
+            var2 = var32 > var38;
+            var3 = 100;
+            var36 = var3;
+            if(!var2) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
+            var2 = global;
+            var6 = var2.Math;
+            var2 = var6.min;
+            var2 = var2.bind(var6)(var32, var33);
+            var2 = var2 / var32;
+            var36 = var2 * var3;
+case 23:
+            _fun0005_ip = 25; continue _fun0005;
+case 22:
+            var3 = var37 > var38;
+            var6 = 100;
+            var2 = var6;
+            if(!var3) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
+            var3 = var33 / var37;
+            var2 = var3 * var6;
+case 26:
+            var36 = var2;
+case 25:
+            if(!(var34 == var35)) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
+            var3 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var2 = 13;
+            var2 = var10[var2];
+            var2 = var3.bind(var4)(var2);
+            var7 = var2.intl;
+            var6 = var7.formatToPlainString;
+            var3 = _closure1_slot1;
+            var2 = 14;
+            var2 = var10[var2];
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.LnsdbK;
+            var2 = {};
+            var10 = var34 == var20;
+            var11 = undefined;
+            if(var10) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
+            var11 = var20.name;
+case 30:
+            var12 = var34 != var11;
+            var10 = '';
+            if(!var12) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
+            var10 = var11;
+case 32:
+            var2['currentTier'] = var10;
+            var22 = var6.bind(var7)(var3, var2);
+            _fun0005_ip = 34; continue _fun0005;
+case 28:
+            var3 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var2 = 13;
+            var2 = var10[var2];
+            var2 = var3.bind(var4)(var2);
+            var7 = var2.intl;
+            var6 = var7.formatToPlainString;
+            var3 = _closure1_slot1;
+            var2 = 14;
+            var2 = var10[var2];
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.XTX3OO;
+            var2 = {};
+            var2['count'] = var9;
+            var9 = var34 == var35;
+            var10 = undefined;
+            if(var9) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+            var10 = var35.name;
+case 35:
+            var11 = var34 != var10;
+            var9 = '';
+            if(!var11) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
+            var9 = var10;
+case 37:
+            var2['nextTier'] = var9;
+            var22 = var6.bind(var7)(var3, var2);
+case 34:
+            var6 = _closure1_slot10;
+            var3 = _closure1_slot6;
+            var2 = {};
+            var7 = var19.wrapper;
+            var2['style'] = var7;
+            var10 = _closure1_slot10;
+            var9 = _closure1_slot6;
+            var7 = {};
+            var11 = var19.progressContainer;
+            var7['style'] = var11;
+            var14 = _closure1_slot10;
+            var12 = _closure1_slot6;
+            var11 = {};
+            var13 = var19.progressRow;
+            var11['style'] = var13;
+            var15 = var34 == var20;
+            var13 = undefined;
+            if(var15) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
+            var13 = var20.simple_icon_url;
+case 39:
+            var13 = var34 != var13;
+            if(!var13) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
+            var18 = _closure1_slot9;
+            var17 = _closure1_slot1;
+            var23 = _closure1_slot2;
+            var15 = 15;
+            var15 = var23[var15];
+            var17 = var17.bind(var4)(var15);
+            var15 = {};
+            var20 = var20.simple_icon_url;
+            var15['icon'] = var20;
+            var20 = 36;
+            var15['size'] = var20;
+            var20 = {};
+            var23 = 4;
+            var20['margin'] = var23;
+            var15['style'] = var20;
+            var13 = var18.bind(var4)(var17, var15);
+case 41:
+            var15 = new Array(3);
+            var15[0] = var13;
+            var20 = _closure1_slot9;
+            var18 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var13 = 12;
+            var17 = var17[var13];
+            var17 = var18.bind(var4)(var17);
+            var18 = var17.Text;
+            var17 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-strong'};
+            var23 = var19.progressTitleText;
+            var17['style'] = var23;
+            var17['children'] = var22;
+            var17 = var20.bind(var4)(var18, var17);
+            var15[1] = var17;
+            var18 = var34 == var35;
+            var17 = undefined;
+            if(var18) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
+            var17 = var35.simple_icon_url;
+case 43:
+            var17 = var34 != var17;
+            if(!var17) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
+            var22 = _closure1_slot9;
+            var20 = _closure1_slot1;
+            var23 = _closure1_slot2;
+            var18 = 15;
+            var18 = var23[var18];
+            var20 = var20.bind(var4)(var18);
+            var18 = {};
+            var23 = var35.simple_icon_url;
+            var18['icon'] = var23;
+            var23 = 36;
+            var18['size'] = var23;
+            var23 = {};
+            var24 = 4;
+            var23['margin'] = var24;
+            var18['style'] = var23;
+            var17 = var22.bind(var4)(var20, var18);
+case 45:
+            var15[2] = var17;
+            var11['children'] = var15;
+            var12 = var14.bind(var4)(var12, var11);
+            var11 = new Array(2);
+            var11[0] = var12;
+            var15 = _closure1_slot10;
+            var14 = _closure1_slot6;
+            var12 = {};
+            var17 = var19.progressBarContainer;
+            var12['style'] = var17;
+            var20 = _closure1_slot9;
+            var18 = _closure1_slot6;
+            var17 = {};
+            var22 = var19.progressBarTrack;
+            var17['style'] = var22;
+            var24 = _closure1_slot9;
+            var23 = _closure1_slot6;
+            var22 = {};
+            var26 = var19.progressBarFill;
+            var25 = new Array(2);
+            var25[0] = var26;
+            var26 = {};
+            var27 = global;
+            var31 = var27.Math;
+            var30 = var31.min;
+            var29 = var27.Math;
+            var28 = var29.max;
+            var29 = var28.bind(var29)(var36, var38);
+            var28 = 100;
+            var30 = var30.bind(var31)(var29, var28);
+            var27 = var27.HermesInternal;
+            var29 = var27.concat;
+            var28 = '';
+            var27 = '%';
+            var27 = var29.bind(var28)(var30, var27);
+            var26['width'] = var27;
+            var25[1] = var26;
+            var22['style'] = var25;
+            var22 = var24.bind(var4)(var23, var22);
+            var17['children'] = var22;
+            var17 = var20.bind(var4)(var18, var17);
+            var18 = new Array(2);
+            var18[0] = var17;
+            var24 = _closure1_slot9;
+            var23 = _closure1_slot6;
+            var22 = {};
+            var17 = var19.progressLabels;
+            var22['style'] = var17;
+            var27 = _closure1_slot9;
+            var29 = _closure1_slot0;
+            var28 = _closure1_slot2;
+            var17 = var28[var13];
+            var17 = var29.bind(var4)(var17);
+            var26 = var17.Text;
+            var25 = {'variant': 'text-xs/normal', 'color': 'text-muted'};
+            var17 = 13;
+            var20 = var28[var17];
+            var20 = var29.bind(var4)(var20);
+            var31 = var20.intl;
+            var30 = var31.format;
+            var29 = _closure1_slot1;
+            var20 = 14;
+            var28 = var28[var20];
+            var28 = var29.bind(var4)(var28);
+            var29 = var28.iIpfQe;
+            var28 = {};
+            var36 = var32;
+            if(!(var34 != var35)) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
+            var36 = var37;
+case 47:
+            var28['threshold'] = var36;
+            if(!(var34 != var35)) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
+            var32 = var33;
+case 49:
+            var28['count'] = var32;
+            var28 = var30.bind(var31)(var29, var28);
+            var25['children'] = var28;
+            var25 = var27.bind(var4)(var26, var25);
+            var22['children'] = var25;
+            var22 = var24.bind(var4)(var23, var22);
+            var18[1] = var22;
+            var12['children'] = var18;
+            var12 = var15.bind(var4)(var14, var12);
+            var11[1] = var12;
+            var7['children'] = var11;
+            var9 = var10.bind(var4)(var9, var7);
+            var7 = new Array(5);
+            var7[0] = var9;
+            var11 = _closure1_slot9;
+            var23 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var9 = 16;
+            var9 = var18[var9];
+            var9 = var23.bind(var4)(var9);
+            var10 = var9.Button;
+            var9 = {};
+            var12 = 'primary';
+            var9['variant'] = var12;
+            var15 = _closure1_slot9;
+            var12 = 17;
+            var12 = var18[var12];
+            var12 = var23.bind(var4)(var12);
+            var14 = var12.GiftIcon;
+            var12 = {};
+            var22 = 'sm';
+            var12['size'] = var22;
+            var25 = _closure1_slot1;
+            var24 = 6;
+            var22 = var18[var24];
+            var22 = var25.bind(var4)(var22);
+            var22 = var22.unsafe_rawColors;
+            var22 = var22.WHITE;
+            var12['color'] = var22;
+            var12 = var15.bind(var4)(var14, var12);
+            var9['icon'] = var12;
+            var12 = var18[var17];
+            var12 = var23.bind(var4)(var12);
+            var15 = var12.intl;
+            var14 = var15.string;
+            var12 = var18[var20];
+            var12 = var25.bind(var4)(var12);
+            var12 = var12.DZnomS;
+            var12 = var14.bind(var15)(var12);
+            var9['text'] = var12;
+            var12 = function onPress() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 18;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openGiftModal;
+                var2 = {};
+                var6 = _closure2_slot0;
+                var2['analyticsLocation'] = var6;
+                var5 = _closure2_slot3;
+                var2['analyticsLocations'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var9['onPress'] = var12;
+            var12 = true;
+            var9['grow'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
+            var7[1] = var9;
+            var11 = _closure1_slot9;
+            var10 = _closure1_slot6;
+            var9 = {};
+            var12 = var19.divider;
+            var9['style'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
+            var7[2] = var9;
+            var11 = _closure1_slot10;
+            var10 = _closure1_slot5;
+            var9 = {};
+            var12 = var19.dropdownRow;
+            var9['style'] = var12;
+            var12 = function onPress() {
+                var3 = _closure2_slot2;
+                var2 = undefined;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var1 = !var1;
+                    return var1;
+                };
+                var1 = var3.bind(var2)(var1);
+                return var1;
+            };
+            var9['onPress'] = var12;
+            var15 = _closure1_slot9;
+            var12 = var18[var13];
+            var12 = var23.bind(var4)(var12);
+            var14 = var12.Text;
+            var12 = {'variant': 'text-sm/medium', 'color': 'text-strong'};
+            var22 = var18[var17];
+            var22 = var23.bind(var4)(var22);
+            var23 = var22.intl;
+            var22 = var23.string;
+            var18 = var18[var20];
+            var18 = var25.bind(var4)(var18);
+            var18 = var18.WZ4cXA;
+            var18 = var22.bind(var23)(var18);
+            var12['children'] = var18;
+            var14 = var15.bind(var4)(var14, var12);
+            var12 = new Array(2);
+            var12[0] = var14;
+            var18 = _closure1_slot9;
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            if(var8) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
+            var14 = 20;
+            var14 = var23[var14];
+            var14 = var22.bind(var4)(var14);
+            var15 = var14.ChevronSmallDownIcon;
+            _fun0005_ip = 53; continue _fun0005;
+case 51:
+            var14 = 19;
+            var14 = var23[var14];
+            var14 = var22.bind(var4)(var14);
+            var15 = var14.ChevronSmallUpIcon;
+case 53:
+            var14 = {};
+            var23 = _closure1_slot1;
+            var22 = _closure1_slot2;
+            var22 = var22[var24];
+            var22 = var23.bind(var4)(var22);
+            var22 = var22.colors;
+            var22 = var22.INTERACTIVE_ICON_DEFAULT;
+            var14['color'] = var22;
+            var14 = var18.bind(var4)(var15, var14);
+            var12[1] = var14;
+            var9['children'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
+            var7[3] = var9;
+            if(!var8) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
+            var11 = _closure1_slot10;
+            var10 = _closure1_slot11;
+            var9 = {};
+            var15 = _closure1_slot9;
+            var14 = _closure1_slot6;
+            var12 = {};
+            var18 = var19.badgesRow;
+            var12['style'] = var18;
+            var18 = var21.map;
+            var16 = function(arg1) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    var1 = arg1;
+                    var5 = _closure1_slot10;
+                    var4 = _closure1_slot6;
+                    var3 = {};
+                    var6 = _closure2_slot1;
+                    var6 = var6.badgeItem;
+                    var3['style'] = var6;
+                    var6 = var1.simple_icon_url;
+                    var14 = null;
+                    var7 = var14 != var6;
+                    if(!var7) { _fun0007_ip = 6; continue _fun0007 }
+case 7:
+                    var10 = _closure1_slot9;
+                    var8 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var6 = 15;
+                    var6 = var9[var6];
+                    var9 = undefined;
+                    var8 = var8.bind(var9)(var6);
+                    var6 = {};
+                    var11 = var1.simple_icon_url;
+                    var6['icon'] = var11;
+                    var11 = 36;
+                    var6['size'] = var11;
+                    var7 = var10.bind(var9)(var8, var6);
+case 6:
+                    var6 = new Array(2);
+                    var6[0] = var7;
+                    var9 = _closure1_slot10;
+                    var8 = _closure1_slot6;
+                    var7 = {};
+                    var2 = _closure2_slot1;
+                    var2 = var2.badgeCopy;
+                    var7['style'] = var2;
+                    var13 = _closure1_slot9;
+                    var12 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var11 = 12;
+                    var10 = var2[var11];
+                    var2 = undefined;
+                    var10 = var12.bind(var2)(var10);
+                    var12 = var10.Text;
+                    var10 = {'variant': 'text-sm/semibold', 'color': 'text-strong'};
+                    var15 = var1.name;
+                    var16 = var14 != var15;
+                    var14 = '';
+                    if(!var16) { _fun0007_ip = 8; continue _fun0007 }
+case 9:
+                    var14 = var15;
+case 8:
+                    var10['children'] = var14;
+                    var12 = var13.bind(var2)(var12, var10);
+                    var10 = new Array(2);
+                    var10[0] = var12;
+                    var13 = _closure1_slot9;
+                    var15 = _closure1_slot0;
+                    var19 = _closure1_slot2;
+                    var11 = var19[var11];
+                    var11 = var15.bind(var2)(var11);
+                    var12 = var11.Text;
+                    var11 = {'variant': 'text-xs/normal', 'color': 'text-muted'};
+                    var14 = 13;
+                    var14 = var19[var14];
+                    var14 = var15.bind(var2)(var14);
+                    var17 = var14.intl;
+                    var16 = var17.format;
+                    var15 = _closure1_slot1;
+                    var14 = 14;
+                    var14 = var19[var14];
+                    var14 = var15.bind(var2)(var14);
+                    var15 = var14.qvx9E4;
+                    var14 = {};
+                    var18 = _closure1_slot8;
+                    var18 = var18.bind(var2)(var1);
+                    var14['count'] = var18;
+                    var14 = var16.bind(var17)(var15, var14);
+                    var11['children'] = var14;
+                    var11 = var13.bind(var2)(var12, var11);
+                    var10[1] = var11;
+                    var7['children'] = var10;
+                    var7 = var9.bind(var2)(var8, var7);
+                    var6[1] = var7;
+                    var3['children'] = var6;
+                    var1 = var1.key;
+                    var1 = var5.bind(var2)(var4, var3, var1);
+                    return var1;
+                }
+            };
+            var16 = var18.bind(var21)(var16);
+            var12['children'] = var16;
+            var14 = var15.bind(var4)(var14, var12);
+            var12 = new Array(2);
+            var12[0] = var14;
+            var15 = _closure1_slot9;
+            var18 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var13 = var16[var13];
+            var13 = var18.bind(var4)(var13);
+            var14 = var13.Text;
+            var13 = {'style': null, 'variant': 'text-xs/normal', 'color': 'text-muted'};
+            var19 = var19.footerText;
+            var13['style'] = var19;
+            var17 = var16[var17];
+            var17 = var18.bind(var4)(var17);
+            var18 = var17.intl;
+            var17 = var18.string;
+            var19 = _closure1_slot1;
+            var16 = var16[var20];
+            var16 = var19.bind(var4)(var16);
+            var16 = var16["4Yp0mI"];
+            var16 = var17.bind(var18)(var16);
+            var13['children'] = var16;
+            var13 = var15.bind(var4)(var14, var13);
+            var12[1] = var13;
+            var9['children'] = var12;
+            var8 = var11.bind(var4)(var10, var9);
+case 54:
+            var7[4] = var8;
+            var2['children'] = var7;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
+case 20:
+            var3 = _closure1_slot9;
+            var2 = _closure1_slot13;
+            var1 = {};
+            var1['analyticsLocation'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['default'] = var2;
+    return var1;
+})();

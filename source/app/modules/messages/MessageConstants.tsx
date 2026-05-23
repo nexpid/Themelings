@@ -134,6 +134,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GREET'] = var8;
     var8 = 'social_layer_storefront';
     var2['SOCIAL_LAYER_STOREFRONT'] = var8;
+    var8 = 'media_mention';
+    var2['MEDIA_MENTION'] = var8;
     var8 = 'other';
     var2['OTHER'] = var8;
     var8 = 3;

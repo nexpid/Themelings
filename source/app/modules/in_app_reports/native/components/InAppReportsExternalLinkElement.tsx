@@ -154,7 +154,7 @@ case 9:
             var6 = var16[var6];
             var6 = var15.bind(var5)(var6);
             var10 = var6.Text;
-            var6 = {'style': null, 'variant': 'heading-deprecated-12/extrabold', 'color': 'text-default'};
+            var6 = {'style': null, 'variant': 'heading-deprecated-12/extrabold', 'color': 'text-default', 'accessibilityRole': 'header'};
             var12 = var12.headerText;
             var6['style'] = var12;
             var12 = 4;

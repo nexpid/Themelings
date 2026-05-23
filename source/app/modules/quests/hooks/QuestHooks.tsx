@@ -1219,7 +1219,7 @@ case 150:
             var2 = var2.id;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 32;
+            var1 = 31;
             var5 = var5[var1];
             var1 = undefined;
             var1 = var6.bind(var1)(var5);
@@ -1237,7 +1237,7 @@ case 150:
         var1 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 33;
+            var1 = 32;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -1349,7 +1349,7 @@ case 154:
         var3 = var4.bind(var5)(var2, var3);
         var4 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 35;
+        var1 = 34;
         var1 = var2[var1];
         var2 = undefined;
         var1 = var4.bind(var2)(var1);
@@ -1510,7 +1510,7 @@ case 0:
             var3 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 31;
+                var1 = 30;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1541,7 +1541,7 @@ case 0:
             var8 = function() {
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var2 = 43;
+                var2 = 42;
                 var2 = var8[var2];
                 var6 = undefined;
                 var4 = var7.bind(var6)(var2);
@@ -1559,7 +1559,7 @@ case 0:
                 var9 = var4.bind(var5)(var3, var2);
                 var4 = var9.with;
                 var3 = {};
-                var5 = 32;
+                var5 = 31;
                 var2 = var8[var5];
                 var2 = var7.bind(var6)(var2);
                 var2 = var2.FirstPartyQuestTaskTypes;
@@ -1706,7 +1706,7 @@ case 161:
             var1 = function() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 43;
+                var3 = 42;
                 var4 = var4[var3];
                 var3 = undefined;
                 var5 = var5.bind(var3)(var4);
@@ -2387,7 +2387,7 @@ case 173:
         }
     };
     var _closure1_slot35 = var23;
-    var23 = 58;
+    var23 = 57;
     var23 = var25[var23];
     var25 = var24.bind(var1)(var23);
     var24 = var25.fileFinishedImporting;
@@ -2877,65 +2877,18 @@ case 0:
                 var1 = _closure2_slot0;
                 var2 = var2.bind(var4)(var1);
                 var1 = null;
-                if(!(var1 != var2)) { _fun0033_ip = 195; continue _fun0033 }
+                var4 = var1 == var2;
+                if(var4) { _fun0033_ip = 195; continue _fun0033 }
 case 170:
-                var2 = var2.config;
-                var2 = var2.rewardsConfig;
-                var5 = var2.rewards;
-                var4 = var5.find;
-                var2 = function(arg1) {
-                    var1 = arg1;
-                    var2 = var1.type;
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 28;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var1 = var4.bind(var1)(var3);
-                    var1 = var1.QuestRewardTypes;
-                    var1 = var1.VIRTUAL_CURRENCY;
-                    var1 = var2 === var1;
-                    return var1;
-                };
-                var2 = var4.bind(var5)(var2);
-                var5 = var1 == var2;
-                var6 = undefined;
-                var4 = undefined;
-                if(var5) { _fun0033_ip = 122; continue _fun0033 }
-case 40:
-                var4 = var2.type;
-case 122:
                 var5 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var3 = 28;
-                var3 = var7[var3];
-                var3 = var5.bind(var6)(var3);
-                var3 = var3.QuestRewardTypes;
-                var3 = var3.VIRTUAL_CURRENCY;
-                if(!(var4 === var3)) { _fun0033_ip = 19; continue _fun0033 }
-case 193:
-                var4 = var2.premiumOrbQuantity;
-                var3 = var2.orbQuantity;
-                var5 = var1 == var4;
-                var2 = null;
-                if(var5) { _fun0033_ip = 188; continue _fun0033 }
-case 165:
-                var5 = 0;
-                var2 = null;
-                if(!(var5 !== var3)) { _fun0033_ip = 188; continue _fun0033 }
-case 173:
-                var5 = global;
-                var6 = var5.Math;
-                var5 = var6.round;
-                var3 = var4 / var3;
-                var4 = 100;
-                var3 = var3 * var4;
-                var3 = var5.bind(var6)(var3);
-                var2 = var3 / var4;
-case 188:
-                return var2;
-case 19:
-                return var1;
+                var4 = _closure1_slot2;
+                var3 = 25;
+                var4 = var4[var3];
+                var3 = undefined;
+                var4 = var5.bind(var3)(var4);
+                var3 = var4.getQuestOrbMultiplier;
+                var2 = var2.config;
+                var1 = var3.bind(var4)(var2);
 case 195:
                 return var1;
             }
@@ -3168,7 +3121,7 @@ case 114:
         var _closure2_slot3 = var5;
         var6 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var3 = 29;
+        var3 = 28;
         var4 = var4[var3];
         var3 = undefined;
         var4 = var6.bind(var3)(var4);
@@ -3196,7 +3149,7 @@ case 31:
                 var3 = var4.open;
                 var7 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 30;
+                var2 = 29;
                 var6 = var6[var2];
                 var2 = undefined;
                 var7 = var7.bind(var2)(var6);
@@ -3209,7 +3162,7 @@ case 31:
 case 122:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 31;
+                var1 = 30;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -3256,7 +3209,7 @@ case 201:
         var _closure2_slot3 = var3;
         var3 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var2 = 29;
+        var2 = 28;
         var2 = var5[var2];
         var3 = var3.bind(var4)(var2);
         var2 = var3.useQuestImpression;
@@ -3268,7 +3221,7 @@ case 0:
                 var2 = _closure2_slot3;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 31;
+                var1 = 30;
                 var3 = var9[var1];
                 var1 = undefined;
                 var5 = var8.bind(var1)(var3);
@@ -3281,7 +3234,7 @@ case 202:
                 var2 = {};
                 var7 = _closure2_slot1;
                 var2['content'] = var7;
-                var7 = 34;
+                var7 = 33;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContentCTA;
@@ -3310,7 +3263,7 @@ case 144:
                 var2 = {};
                 var7 = _closure2_slot1;
                 var2['content'] = var7;
-                var7 = 34;
+                var7 = 33;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContentCTA;
@@ -3385,7 +3338,7 @@ case 0:
                 var4 = _closure2_slot1;
                 var2 = _closure1_slot15;
                 var4 = var7.bind(var8)(var4, var2);
-                var2 = 36;
+                var2 = 35;
                 var2 = var6[var2];
                 var3 = var5.bind(var3)(var2);
                 var2 = var3.getQuestsFromActivities;
@@ -3417,12 +3370,12 @@ case 0:
             var2 = var4.bind(var6)(var1);
             var1 = var2.hasCollectiblesQuestReward;
             var3 = var1.bind(var2)(var7);
-            var1 = 37;
+            var1 = 36;
             var1 = var5[var1];
             var2 = var4.bind(var6)(var1);
             var1 = var2.getDefaultReward;
             var1 = var1.bind(var2)(var7);
-            var2 = 38;
+            var2 = 37;
             var2 = var5[var2];
             var4 = var4.bind(var6)(var2);
             var2 = var4.useFetchCollectiblesProduct;
@@ -3535,7 +3488,7 @@ case 205:
                 var2 = undefined;
                 var4 = var5.bind(var2)(var1);
                 var3 = var4.markAdContentUnseen;
-                var1 = 39;
+                var1 = 38;
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.AdCreativeType;
@@ -3628,7 +3581,7 @@ case 205:
                     var2 = var1.type;
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 39;
                     var3 = var3[var1];
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3);
@@ -3645,7 +3598,7 @@ case 205:
             var3 = _closure2_slot0;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 40;
+            var2 = 39;
             var2 = var6[var2];
             var2 = var5.bind(var1)(var2);
             var2 = var2.QuestConsoleStartError;
@@ -3825,7 +3778,7 @@ case 0:
             var6 = var2 > var3;
             var5 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var4 = 30;
+            var4 = 29;
             var2 = var11[var4];
             var9 = var5.bind(var10)(var2);
             var7 = var9.getArticleURL;
@@ -3838,7 +3791,7 @@ case 0:
             var3 = var3.QUEST_HOW_TO_XBOX;
             var3 = var4.bind(var5)(var3);
             var4 = _closure1_slot0;
-            var1 = 41;
+            var1 = 40;
             var5 = var11[var1];
             var5 = var4.bind(var10)(var5);
             var12 = var5.intl;
@@ -4024,7 +3977,7 @@ case 57:
 case 167:
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 42;
+            var3 = 41;
             var3 = var8[var3];
             var5 = var4.bind(var5)(var3);
             var4 = var5.formatPercent;
@@ -4077,7 +4030,7 @@ case 44:
             var13 = var4 != var1;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var10 = 32;
+            var10 = 31;
             var1 = var1[var10];
             var1 = var3.bind(var7)(var1);
             var1 = var1.FirstPartyQuestTaskTypesSets;
@@ -4138,7 +4091,7 @@ case 254:
 case 256:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 31;
+            var1 = 30;
             var1 = var11[var1];
             var4 = var4.bind(var7)(var1);
             var1 = var4.isQuestSupportedOnWeb;
@@ -4172,7 +4125,7 @@ case 262:
             var5 = var1.push;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var4 = 41;
+            var4 = 40;
             var6 = var10[var4];
             var6 = var9.bind(var7)(var6);
             var8 = var6.intl;
@@ -4189,7 +4142,7 @@ case 263:
             var3 = var1.push;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 41;
+            var2 = 40;
             var4 = var8[var2];
             var4 = var6.bind(var7)(var4);
             var5 = var4.intl;
@@ -4383,7 +4336,7 @@ case 33:
 case 267:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 44;
+                var1 = 43;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -4427,7 +4380,7 @@ case 162:
                 var1 = function() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 44;
+                    var1 = 43;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -4482,7 +4435,7 @@ case 162:
         var5 = var9.bind(var10)(var7, var3, var5);
         var _closure2_slot2 = var5;
         var7 = _closure1_slot1;
-        var3 = 45;
+        var3 = 44;
         var3 = var8[var3];
         var3 = var7.bind(var4)(var3);
         var7 = var3.bind(var4)();
@@ -4505,7 +4458,7 @@ case 151:
 case 139:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var4 = 46;
+                var4 = 45;
                 var5 = var5[var4];
                 var4 = undefined;
                 var6 = var6.bind(var4)(var5);
@@ -4526,7 +4479,7 @@ case 55:
 case 265:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var2 = 47;
+                var2 = 46;
                 var4 = var9[var2];
                 var7 = undefined;
                 var5 = var8.bind(var7)(var4);
@@ -4588,7 +4541,7 @@ case 0:
             var3 = var4.bind(var6)(var2);
             var2 = var3.isCollectibleQuestRewardPremiumExtendable;
             var2 = var2.bind(var3)(var9);
-            var3 = 48;
+            var3 = 47;
             var3 = var7[var3];
             var7 = var4.bind(var6)(var3);
             var4 = var7.isPremium;
@@ -4600,7 +4553,7 @@ case 0:
 case 271:
             var11 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var15 = 41;
+            var15 = 40;
             var4 = var3[var15];
             var4 = var11.bind(var6)(var4);
             var12 = var4.intl;
@@ -4686,7 +4639,7 @@ case 274:
 case 270:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 41;
+            var1 = 40;
             var3 = var7[var1];
             var3 = var2.bind(var6)(var3);
             var4 = var3.intl;
@@ -4714,7 +4667,7 @@ case 270:
         var5 = var3.bind(var5)(var1);
         var1 = {};
         var3 = _closure1_slot1;
-        var2 = 49;
+        var2 = 48;
         var2 = var6[var2];
         var3 = var3.bind(var4)(var2);
         var2 = {};
@@ -4904,7 +4857,7 @@ case 143:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 37;
+                    var3 = 36;
                     var3 = var7[var3];
                     var4 = var4.bind(var6)(var3);
                     var3 = var4.getFilterGroupHeadingText;
@@ -4936,7 +4889,7 @@ case 143:
                 var1 = {};
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var4 = 37;
+                var4 = 36;
                 var5 = var5[var4];
                 var4 = undefined;
                 var6 = var6.bind(var4)(var5);
@@ -4982,7 +4935,7 @@ case 143:
         var3 = function() {
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 50;
+            var1 = 49;
             var3 = var3[var1];
             var1 = undefined;
             var7 = var4.bind(var1)(var3);
@@ -5018,7 +4971,7 @@ case 0:
                 var3 = var3.bind(var4)(var1);
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 50;
+                var1 = 49;
                 var5 = var5[var1];
                 var1 = undefined;
                 var7 = var6.bind(var1)(var5);
@@ -5131,7 +5084,7 @@ case 36:
                 var3 = var4.filter;
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var2 = 51;
+                var2 = 50;
                 var5 = var5[var2];
                 var2 = undefined;
                 var2 = var6.bind(var2)(var5);
@@ -5397,7 +5350,7 @@ case 39:
                                 var7 = var8.map;
                                 var9 = _closure1_slot0;
                                 var6 = _closure1_slot2;
-                                var3 = 52;
+                                var3 = 51;
                                 var3 = var6[var3];
                                 var6 = undefined;
                                 var3 = var9.bind(var6)(var3);
@@ -5512,7 +5465,7 @@ case 268:
             var _closure2_slot2 = var7;
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 53;
+            var1 = 52;
             var1 = var8[var1];
             var1 = var5.bind(var7)(var1);
             var4 = var1.QuestHomeBountiesExperiment;
@@ -5585,7 +5538,7 @@ case 31:
 case 51:
                                     var4 = _closure1_slot0;
                                     var5 = _closure1_slot2;
-                                    var2 = 54;
+                                    var2 = 53;
                                     var2 = var5[var2];
                                     var6 = undefined;
                                     var4 = var4.bind(var6)(var2);
@@ -5609,7 +5562,7 @@ case 304:
 case 176: // try_start_1
                                     var4 = _closure1_slot0;
                                     var5 = _closure1_slot2;
-                                    var2 = 54;
+                                    var2 = 53;
                                     var2 = var5[var2];
                                     var5 = undefined;
                                     var6 = var4.bind(var5)(var2);
@@ -5751,7 +5704,7 @@ case 0:
             var _closure2_slot0 = var5;
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 55;
+            var3 = 54;
             var4 = var4[var3];
             var3 = undefined;
             var4 = var6.bind(var3)(var4);
@@ -5784,7 +5737,7 @@ case 163:
                     var4 = _closure2_slot1;
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 56;
+                    var2 = 55;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var6.bind(var3)(var2);
@@ -5798,7 +5751,7 @@ case 28:
 case 209:
                     var2 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var1 = 57;
+                    var1 = 56;
                     var1 = var6[var1];
                     var3 = var2.bind(var3)(var1);
                     var2 = var3.fireSurveyAction;
