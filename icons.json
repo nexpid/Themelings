@@ -12089,6 +12089,16 @@
         "width": 24,
         "height": 24
     },
+    "ThemeGrayIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/ThemeGrayIcon.png",
+        "hash": "7be3110b214c461d7e01ca61fbcd6cc0",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ThemeLightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThemeLightIcon.png",
         "hash": "86d4e70a86169368d49d086c67a043a3",
