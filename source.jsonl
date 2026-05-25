@@ -35,7 +35,7 @@
 { "file": "app/actions/GamesActionCreators.native.tsx", "size": 19602 }
 { "file": "app/actions/GIFPickerActionCreators.tsx", "size": 38221 }
 { "file": "app/actions/GiftCodeActionCreators.tsx", "size": 23779 }
-{ "file": "app/actions/GuildActionCreators.tsx", "size": 103309 }
+{ "file": "app/actions/GuildActionCreators.tsx", "size": 103307 }
 { "file": "app/actions/GuildAffinitiesActionCreators.tsx", "size": 2506 }
 { "file": "app/actions/GuildSubscriptionsActionCreators.tsx", "size": 7715 }
 { "file": "app/actions/HubActionCreators.tsx", "size": 15665 }
@@ -2322,7 +2322,7 @@
 { "file": "app/modules/collectibles/nameplates/hooks/useFetchNameplate.tsx", "size": 2542 }
 { "file": "app/modules/collectibles/nameplates/hooks/useNameplate.tsx", "size": 3891 }
 { "file": "app/modules/collectibles/nameplates/native/EditNameplateSection.tsx", "size": 10404 }
-{ "file": "app/modules/collectibles/nameplates/native/Nameplate.tsx", "size": 14119 }
+{ "file": "app/modules/collectibles/nameplates/native/Nameplate.tsx", "size": 14121 }
 { "file": "app/modules/collectibles/nameplates/native/NameplateCardPreview.tsx", "size": 7159 }
 { "file": "app/modules/collectibles/nameplates/native/NameplateDummyUserPreview.tsx", "size": 9456 }
 { "file": "app/modules/collectibles/nameplates/native/NameplatePreview.tsx", "size": 13569 }
@@ -5622,7 +5622,7 @@
 { "file": "app/modules/popout-window/PopoutWindowStore.native.tsx", "size": 7759 }
 { "file": "app/modules/portals/PortalToNativeView.native.tsx", "size": 1942 }
 { "file": "app/modules/premium_apps/ApplicationSubscriptionsActionCreators.tsx", "size": 27319 }
-{ "file": "app/modules/premium_apps/ApplicationSubscriptionsHttpApi.tsx", "size": 12692 }
+{ "file": "app/modules/premium_apps/ApplicationSubscriptionsHttpApi.tsx", "size": 12700 }
 { "file": "app/modules/premium_apps/ApplicationSubscriptionSystemMessageUtils.tsx", "size": 2450 }
 { "file": "app/modules/premium/enhanced_role_colors/EnhancedRoleColorUtils.tsx", "size": 4718 }
 { "file": "app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx", "size": 7874 }
@@ -6971,7 +6971,7 @@
 { "file": "app/modules/threads/native/useCreateThreadViewProps.tsx", "size": 2820 }
 { "file": "app/modules/threads/native/useHandleJoinThreadVoice.tsx", "size": 5798 }
 { "file": "app/modules/threads/sanitizeThreadName.tsx", "size": 1029 }
-{ "file": "app/modules/threads/ThreadActionCreators.tsx", "size": 73531 }
+{ "file": "app/modules/threads/ThreadActionCreators.tsx", "size": 73529 }
 { "file": "app/modules/threads/ThreadActionUtils.tsx", "size": 2153 }
 { "file": "app/modules/threads/ThreadAutoArchive.tsx", "size": 6693 }
 { "file": "app/modules/threads/ThreadBrowserHooks.tsx", "size": 22472 }
