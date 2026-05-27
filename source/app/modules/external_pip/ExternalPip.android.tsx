@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(12);
+        var2 = new Array(13);
         var2[0] = var1;
         var1 = {};
         var6 = 'addOnPipModeWillChangeListener';
@@ -136,6 +136,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['value'] = var6;
         var2[5] = var1;
         var1 = {};
+        var6 = 'refreshPipUi';
+        var1['key'] = var6;
+        var6 = function value() {
+            var2 = _closure1_slot4;
+            var1 = var2.refreshPipUi;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[6] = var1;
+        var1 = {};
         var6 = 'updateSourceTrackingView';
         var1['key'] = var6;
         var6 = function value() {
@@ -143,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[6] = var1;
+        var2[7] = var1;
         var1 = {};
         var6 = 'setEnabled';
         var1['key'] = var6;
@@ -159,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[7] = var1;
+        var2[8] = var1;
         var1 = {};
         var6 = 'setActive';
         var1['key'] = var6;
@@ -171,7 +183,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[8] = var1;
+        var2[9] = var1;
         var1 = {};
         var6 = 'isEnabled';
         var1['key'] = var6;
@@ -181,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[9] = var1;
+        var2[10] = var1;
         var1 = {};
         var6 = 'isSupported';
         var1['key'] = var6;
@@ -193,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[10] = var1;
+        var2[11] = var1;
         var1 = {};
         var6 = 'isInPipMode';
         var1['key'] = var6;
@@ -203,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var5;
-        var2[11] = var1;
+        var2[12] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

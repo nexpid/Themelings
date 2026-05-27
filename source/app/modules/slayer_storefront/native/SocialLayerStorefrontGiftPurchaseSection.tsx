@@ -148,7 +148,7 @@ case 8:
                     var6 = 13;
                     var3 = var3[var6];
                     var5 = var4.bind(var1)(var3);
-                    var4 = var5.openSocialLayerStorefrontProductPurchaseSuccessModal;
+                    var4 = var5.openSocialLayerStorefrontProductGiftPurchaseSuccessModal;
                     var3 = {};
                     var9 = _closure2_slot0;
                     var3['skuId'] = var9;
@@ -167,8 +167,6 @@ case 13:
                     var8 = var9;
 case 12:
                     var3['orbsReward'] = var8;
-                    var8 = true;
-                    var3['isGift'] = var8;
                     var7 = _closure2_slot4;
                     var3['recipient'] = var7;
                     var4 = var4.bind(var5)(var3);

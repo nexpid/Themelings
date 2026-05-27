@@ -170,7 +170,7 @@ case 0:
             var6 = var6.IN_APP_MESSAGE_SOUNDS;
             var1[1] = var6;
             var2['settings'] = var1;
-            var1 = new Array(19);
+            var1 = new Array(20);
             var1[0] = var2;
             var2 = {};
             var6 = var4[var9];
@@ -375,6 +375,23 @@ case 10:
             var2 = {};
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
+            var10 = var5.intl;
+            var6 = var10.string;
+            var5 = var4[var9];
+            var5 = var7.bind(var8)(var5);
+            var5 = var5.t;
+            var5 = var5["0YtG+k"];
+            var5 = var6.bind(var10)(var5);
+            var2['label'] = var5;
+            var5 = _closure1_slot6;
+            var6 = var5.SCREEN_DOWNTIME_REMINDER_NOTIFICATIONS;
+            var5 = new Array(1);
+            var5[0] = var6;
+            var2['settings'] = var5;
+            var1[18] = var2;
+            var2 = {};
+            var5 = var4[var9];
+            var5 = var7.bind(var8)(var5);
             var6 = var5.intl;
             var5 = var6.string;
             var4 = var4[var9];
@@ -388,7 +405,7 @@ case 10:
             var3 = new Array(1);
             var3[0] = var4;
             var2['settings'] = var3;
-            var1[18] = var2;
+            var1[19] = var2;
             return var1;
         }
     };
@@ -463,34 +480,42 @@ case 10:
         var2 = 14;
         var2 = var6[var2];
         var4 = undefined;
-        var7 = var5.bind(var4)(var2);
-        var5 = var7.useGdmAllReactionNotificationExperiment;
+        var8 = var5.bind(var4)(var2);
+        var7 = var8.useGdmAllReactionNotificationExperiment;
         var2 = 'settingsNotificationsScreen';
-        var2 = var5.bind(var7)(var2);
-        var10 = var2.showSettingsToggle;
-        var _closure2_slot0 = var10;
+        var2 = var7.bind(var8)(var2);
+        var11 = var2.showSettingsToggle;
+        var _closure2_slot0 = var11;
+        var2 = 15;
+        var2 = var6[var2];
+        var7 = var5.bind(var4)(var2);
+        var5 = var7.useIsFamilyCenterV3Enabled;
+        var2 = {};
+        var9 = 'SettingsNotificationsScreen';
+        var2['location'] = var9;
+        var10 = var5.bind(var7)(var2);
+        var _closure2_slot1 = var10;
         var2 = _closure1_slot1;
         var5 = 8;
         var5 = var6[var5];
         var8 = var2.bind(var4)(var5);
         var7 = var8.useConfig;
         var5 = {};
-        var9 = 'SettingsNotificationsScreen';
         var5['location'] = var9;
         var5 = var7.bind(var8)(var5);
         var5 = var5.enabled;
-        var _closure2_slot1 = var5;
+        var _closure2_slot2 = var5;
         var9 = _closure1_slot3;
         var8 = var9.useMemo;
         var7 = new Array(2);
-        var7[0] = var10;
+        var7[0] = var11;
         var7[1] = var5;
         var5 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 15;
+                var1 = 16;
                 var1 = var3[var1];
                 var7 = undefined;
                 var3 = var2.bind(var7)(var1);
@@ -500,13 +525,13 @@ case 0:
                 var6 = _closure2_slot0;
                 var6 = var8.bind(var7)(var6);
                 var1['sections'] = var6;
-                var6 = _closure2_slot1;
+                var6 = _closure2_slot2;
                 var4 = undefined;
                 if(!var6) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
                 var6 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var5 = 16;
+                var5 = 17;
                 var5 = var8[var5];
                 var4 = var6.bind(var7)(var5);
 case 12:
@@ -516,17 +541,33 @@ case 12:
             }
         };
         var5 = var8.bind(var9)(var5, var7);
-        var8 = var9.useEffect;
-        var7 = function() {
+        var11 = var9.useEffect;
+        var8 = function() {
             var2 = _closure1_slot5;
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
         };
-        var3 = new Array(0);
-        var3 = var8.bind(var9)(var7, var3);
+        var7 = new Array(0);
+        var7 = var11.bind(var9)(var8, var7);
+        var8 = var9.useEffect;
+        var7 = new Array(1);
+        var7[0] = var10;
+        var3 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 18;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.prefetchFamilyCenterAgeGroupWhen;
+            var2 = _closure2_slot1;
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        };
+        var3 = var8.bind(var9)(var3, var7);
         var3 = _closure1_slot7;
-        var1 = 17;
+        var1 = 19;
         var1 = var6[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
@@ -535,7 +576,7 @@ case 12:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 18;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

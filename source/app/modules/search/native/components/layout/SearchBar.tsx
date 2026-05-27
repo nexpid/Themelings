@@ -312,8 +312,7 @@ case 22:
             var2 = {'position': 'absolute', 'right': 0};
             var2['height'] = var3;
             var1['gradientContainer'] = var2;
-            var2 = {'width': 32, 'position': 'absolute', 'left': 0, 'zIndex': 100};
-            var2['height'] = var3;
+            var2 = {'width': 32, 'position': 'absolute', 'left': 0, 'top': 1, 'bottom': 1, 'zIndex': 100};
             var1['gradient'] = var2;
             return var1;
         }

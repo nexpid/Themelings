@@ -182,6 +182,18 @@ case 0:
             var2 = arg1;
             var15 = var2.streamId;
             var _closure2_slot0 = var15;
+            var7 = var2.userId;
+            var3 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var2 = 15;
+            var2 = var18[var2];
+            var4 = undefined;
+            var6 = var3.bind(var4)(var2);
+            var5 = var6.useSurfaceDirectRendererExperiment;
+            var2 = {};
+            var8 = 'ExternalPipViewVideoStream';
+            var2['location'] = var8;
+            var17 = var5.bind(var6)(var7, var2);
             var2 = function useStreamReady(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -280,7 +292,6 @@ case 14:
                     return var1;
                 }
             };
-            var4 = undefined;
             var2 = var2.bind(var4)(var15);
             var6 = var2.streamReady;
             var _closure2_slot1 = var6;
@@ -289,11 +300,11 @@ case 14:
             var2 = _closure1_slot14;
             var14 = var2.bind(var4)();
             var _closure2_slot2 = var14;
-            var8 = _closure1_slot4;
-            var5 = var8.useMemo;
-            var3 = new Array(2);
-            var3[0] = var14;
-            var3[1] = var6;
+            var9 = _closure1_slot4;
+            var8 = var9.useMemo;
+            var5 = new Array(2);
+            var5[0] = var14;
+            var5[1] = var6;
             var2 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -315,16 +326,14 @@ case 16:
                     return var1;
                 }
             };
-            var16 = var5.bind(var8)(var2, var3);
-            var3 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var2 = 15;
-            var2 = var17[var2];
+            var16 = var8.bind(var9)(var2, var5);
+            var2 = 16;
+            var2 = var18[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useToken;
             var8 = _closure1_slot1;
             var2 = 8;
-            var2 = var17[var2];
+            var2 = var18[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.colors;
             var2 = var2.TEXT_FEEDBACK_INFO;
@@ -352,7 +361,7 @@ case 19:
                     var6 = var2.height;
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 16;
+                    var2 = 17;
                     var3 = var3[var2];
                     var2 = undefined;
                     var5 = var4.bind(var2)(var3);
@@ -376,10 +385,11 @@ case 18:
             var2 = _closure1_slot13;
             var1 = {};
             var9 = _closure1_slot11;
-            var5 = 17;
-            var5 = var17[var5];
+            var5 = 18;
+            var5 = var18[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};
+            var5['useSurfaceDirectRenderer'] = var17;
             var5['style'] = var16;
             var5['streamId'] = var15;
             var5['onReady'] = var12;
@@ -608,15 +618,33 @@ case 0:
             var7 = var1.bind(var4)();
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 18;
+            var1 = 19;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
-            var12 = var1.channelId;
-            var9 = var1.selectedParticipantStreamId;
-            var13 = var1.selectedParticipantUserId;
-            var11 = var1.selectedParticipantSpeaking;
+            var13 = var1.channelId;
+            var10 = var1.selectedParticipantStreamId;
+            var9 = var1.selectedParticipantUserId;
+            var12 = var1.selectedParticipantSpeaking;
             var15 = var1.focusedParticipantType;
+            var8 = _closure1_slot4;
+            var3 = var8.useEffect;
+            var2 = new Array(3);
+            var2[0] = var10;
+            var2[1] = var9;
+            var2[2] = var15;
+            var1 = function() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 20;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.refreshPipUi;
+                var2 = var2.bind(var3)();
+                return var1;
+            };
+            var1 = var3.bind(var8)(var1, var2);
             var3 = _closure1_slot11;
             var2 = _closure1_slot6;
             var1 = {};
@@ -624,49 +652,50 @@ case 0:
             var1['style'] = var7;
             var1['onLayout'] = var5;
             var5 = null;
-            if(!(var5 == var9)) { _fun0009_ip = 23; continue _fun0009 }
-case 18:
-            if(!(var5 == var13)) { _fun0009_ip = 24; continue _fun0009 }
-case 25:
+            if(!(var5 == var10)) { _fun0009_ip = 23; continue _fun0009 }
+case 24:
+            if(!(var5 == var9)) { _fun0009_ip = 25; continue _fun0009 }
+case 26:
             var8 = _closure1_slot11;
             var7 = _closure1_slot15;
             var5 = {};
-            var10 = _closure1_slot10;
-            var10 = var10.STREAM;
-            var10 = var15 === var10;
-            if(var10) { _fun0009_ip = 26; continue _fun0009 }
-case 27:
+            var11 = _closure1_slot10;
+            var11 = var11.STREAM;
+            var11 = var15 === var11;
+            if(var11) { _fun0009_ip = 27; continue _fun0009 }
+case 28:
             var14 = _closure1_slot10;
             var14 = var14.HIDDEN_STREAM;
-            var10 = var15 === var14;
-case 26:
-            var5['wasStream'] = var10;
+            var11 = var15 === var14;
+case 27:
+            var5['wasStream'] = var11;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0009_ip = 28; continue _fun0009;
-case 24:
-            var10 = _closure1_slot11;
+            _fun0009_ip = 29; continue _fun0009;
+case 25:
+            var11 = _closure1_slot11;
             var8 = _closure1_slot16;
             var7 = {};
-            var7['userId'] = var13;
-            var7['channelId'] = var12;
-            var7['speaking'] = var11;
-            var5 = var10.bind(var4)(var8, var7);
-case 28:
-            _fun0009_ip = 29; continue _fun0009;
+            var7['userId'] = var9;
+            var7['channelId'] = var13;
+            var7['speaking'] = var12;
+            var5 = var11.bind(var4)(var8, var7);
+case 29:
+            _fun0009_ip = 30; continue _fun0009;
 case 23:
             var8 = _closure1_slot11;
             var7 = _closure1_slot17;
             var6 = {};
-            var6['streamId'] = var9;
+            var6['streamId'] = var10;
+            var6['userId'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 29:
+case 30:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 19;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

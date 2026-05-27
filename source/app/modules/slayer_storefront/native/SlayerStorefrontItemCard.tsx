@@ -66,46 +66,72 @@ case 0:
             var3 = arg1;
             var1 = var3.sku;
             var _closure2_slot0 = var1;
-            var16 = var3.size;
+            var4 = var3.size;
             var5 = undefined;
-            if(!(var16 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var4 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var16 = 220;
+            var4 = 220;
 case 2:
             var8 = var3.containerStyle;
             var _closure2_slot1 = var5;
+            var _closure2_slot2 = var5;
             var3 = _closure1_slot7;
             var12 = var3.bind(var5)();
+            var6 = 'object';
+            var3 = typeof var4;
+            var11 = var4;
+            if(!(var6 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var3 = {};
+            var3['width'] = var4;
+            var3['height'] = var4;
+            var11 = var3;
+case 4:
+            var3 = global;
+            var7 = var3.Math;
+            var6 = var7.max;
+            var4 = var11.width;
+            var3 = var11.height;
+            var3 = var6.bind(var7)(var4, var3);
+            _closure2_slot1 = var3;
             var7 = _closure1_slot3;
-            var6 = var7.useMemo;
-            var4 = new Array(1);
-            var4[0] = var1;
-            var3 = function() {
+            var9 = var7.useMemo;
+            var6 = new Array(2);
+            var6[0] = var1;
+            var6[1] = var3;
+            var4 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 5;
                 var2 = var2[var1];
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.getCardImageURL;
-                var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var1);
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.getCardImageURL;
+                var2 = _closure2_slot0;
+                var1 = {};
+                var5 = _closure2_slot1;
+                var1['size'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var15 = var6.bind(var7)(var3, var4);
+            var15 = var9.bind(var7)(var4, var6);
             var6 = var7.useMemo;
-            var4 = new Array(1);
+            var4 = new Array(2);
             var4[0] = var1;
+            var4[1] = var3;
             var3 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 5;
                 var2 = var2[var1];
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.getCardBackgroundImageURL;
-                var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var1);
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.getCardBackgroundImageURL;
+                var2 = _closure2_slot0;
+                var1 = {};
+                var5 = _closure2_slot1;
+                var1['size'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
             var14 = var6.bind(var7)(var3, var4);
@@ -118,13 +144,13 @@ case 2:
             var6 = null;
             var9 = var6 == var15;
             var3 = undefined;
-            if(var9) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = var15.toString;
             var3 = var9.bind(var15)();
-case 4:
+case 6:
             var9 = var4.bind(var7)(var3);
-            _closure2_slot1 = var9;
+            _closure2_slot2 = var9;
             var7 = _closure1_slot3;
             var4 = var7.useMemo;
             var3 = new Array(1);
@@ -132,17 +158,17 @@ case 4:
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var3 = _closure2_slot1;
+                    var3 = _closure2_slot2;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    if(!(var1 != var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 7;
                     var1 = var6[var3];
                     var4 = undefined;
                     var7 = var5.bind(var4)(var1);
-                    var1 = _closure2_slot1;
+                    var1 = _closure2_slot2;
                     var8 = var7.bind(var4)(var1);
                     var7 = var8.brighten;
                     var1 = 20;
@@ -159,7 +185,7 @@ case 7:
                     var1[0] = var7;
                     var3 = var6[var3];
                     var3 = var5.bind(var4)(var3);
-                    var2 = _closure2_slot1;
+                    var2 = _closure2_slot2;
                     var4 = var3.bind(var4)(var2);
                     var3 = var4.saturate;
                     var2 = 50;
@@ -170,8 +196,8 @@ case 7:
                     var2 = var3.toRgbString;
                     var2 = var2.bind(var3)();
                     var1[1] = var2;
-                    _fun0002_ip = 8; continue _fun0002;
-case 6:
+                    _fun0002_ip = 10; continue _fun0002;
+case 8:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 4;
@@ -188,35 +214,25 @@ case 6:
                     var3 = var3.BACKGROUND_BASE_LOWEST;
                     var2[1] = var3;
                     var1 = var2;
-case 8:
+case 10:
                     return var1;
                 }
             };
             var9 = var4.bind(var7)(var2, var3);
             var2 = var6 == var1;
             var1 = null;
-            if(var2) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+            if(var2) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var2 = var6 == var15;
             var1 = null;
-            if(var2) { _fun0001_ip = 9; continue _fun0001 }
-case 11:
+            if(var2) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
-            var11 = var12.cardContainer;
+            var13 = var12.cardContainer;
             var7 = new Array(3);
-            var7[0] = var11;
-            var17 = 'object';
-            var13 = typeof var16;
-            var11 = var16;
-            if(!(var17 !== var13)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var13 = {};
-            var13['width'] = var16;
-            var13['height'] = var16;
-            var11 = var13;
-case 12:
+            var7[0] = var13;
             var7[1] = var11;
             var7[2] = var8;
             var2['style'] = var7;
@@ -281,7 +297,7 @@ case 14:
 case 16:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 9:
+case 11:
             return var1;
         }
     };

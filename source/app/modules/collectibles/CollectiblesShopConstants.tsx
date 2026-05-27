@@ -154,12 +154,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var18[var4];
     var5 = var17.bind(var1)(var5);
     var5 = var5.CollectibleSearchItemType;
-    var5 = var5.PROFILE_EFFECT;
+    var5 = var5.NAMEPLATE;
     var6[1] = var5;
     var5 = var18[var4];
     var5 = var17.bind(var1)(var5);
     var5 = var5.CollectibleSearchItemType;
-    var5 = var5.NAMEPLATE;
+    var5 = var5.PROFILE_EFFECT;
     var6[2] = var5;
     var5 = var18[var4];
     var5 = var17.bind(var1)(var5);

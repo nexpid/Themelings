@@ -353,28 +353,28 @@ case 11:
             var5 = var12.bind(var4)(var5);
             var5 = var5.t;
             if(var11) { _fun0002_ip = 12; continue _fun0002 }
-case 7:
-            if(var10) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-            if(var8) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+case 13:
+            if(var10) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            if(var8) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var8 = var5["+9vaAT"];
             var21 = var6.bind(var7)(var8);
-            _fun0002_ip = 17; continue _fun0002;
-case 15:
-            var8 = var5["4a7pVU"];
-            var21 = var6.bind(var7)(var8);
-case 17:
             _fun0002_ip = 18; continue _fun0002;
-case 13:
-            var8 = var5["5UI+bw"];
+case 16:
+            var8 = var5["4a7pVU"];
             var21 = var6.bind(var7)(var8);
 case 18:
             _fun0002_ip = 19; continue _fun0002;
+case 14:
+            var8 = var5["5UI+bw"];
+            var21 = var6.bind(var7)(var8);
+case 19:
+            _fun0002_ip = 20; continue _fun0002;
 case 12:
             var5 = var5["/4bQuG"];
             var21 = var6.bind(var7)(var5);
-case 19:
+case 20:
             var7 = var3.isEarlyAccess;
             var _closure2_slot1 = var7;
             var5 = _closure1_slot3;
@@ -403,14 +403,14 @@ case 19:
 case 0:
                         var2 = _closure2_slot2;
                         var2 = var2.current;
-                        if(var2) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+                        if(var2) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                         var3 = _closure2_slot3;
                         var2 = var3.current;
                         var1 = _closure1_slot8;
                         var1 = var1.AUTO_DISMISS;
                         var1 = var2.bind(var3)(var1);
-case 20:
+case 21:
                         var1 = undefined;
                         return var1;
                     }

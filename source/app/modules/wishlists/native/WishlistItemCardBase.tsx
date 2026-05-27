@@ -389,5 +389,7 @@ case 25:
         }
     };
     var3['default'] = var2;
+    var2 = 170;
+    var3['DEFAULT_ITEM_SIZE'] = var2;
     return var1;
 })();

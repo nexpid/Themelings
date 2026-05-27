@@ -24,7 +24,7 @@ case 3:
 case 5:
             var7 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var2 = var4[var2];
             var4 = undefined;
             var2 = var7.bind(var4)(var2);
@@ -46,7 +46,7 @@ case 10:
 case 9:
             var6 = _closure1_slot10;
             var4 = var6.canBasicChannel;
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot16;
             var3 = var3.VIEW_CHANNEL;
             var3 = var4.bind(var6)(var3, var2);
             var4 = var2;
@@ -67,7 +67,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -125,27 +125,31 @@ case 2:
     var _closure1_slot13 = var4;
     var4 = 11;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.CodedLinkExtendedType;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot14 = var4;
     var4 = 12;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.BasicPermissions;
+    var4 = var4.CodedLinkExtendedType;
     var _closure1_slot15 = var4;
     var4 = 13;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.InviteTypes;
+    var4 = var4.BasicPermissions;
     var _closure1_slot16 = var4;
-    var4 = 23;
+    var4 = 14;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.InviteTypes;
+    var _closure1_slot17 = var4;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/renderer/row_data/embeds/coded_links/invite/VoiceChannelListInviteEmbed.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = function canShowVoiceChannelListInviteEmbed(arg1) {
-        var3 = _closure1_slot17;
+        var3 = _closure1_slot18;
         var2 = undefined;
         var1 = arg1;
         var2 = var3.bind(var2)(var1);
@@ -157,78 +161,78 @@ case 2:
     var2 = function createVoiceChannelListInviteEmbed(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var14 = arg1;
-            var1 = _closure1_slot17;
-            var9 = undefined;
-            var4 = var1.bind(var9)(var14);
+            var16 = arg1;
+            var1 = _closure1_slot18;
+            var11 = undefined;
+            var3 = var1.bind(var11)(var16);
             var1 = null;
-            if(!(var1 != var4)) { _fun0002_ip = 13; continue _fun0002 }
+            if(!(var1 != var3)) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var8 = var4.guild;
-            var _closure2_slot0 = var8;
-            var15 = var4.channel;
-            var5 = _closure1_slot1;
+            var10 = var3.guild;
+            var _closure2_slot0 = var10;
+            var17 = var3.channel;
+            var4 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var4 = 15;
-            var4 = var6[var4];
-            var5 = var5.bind(var9)(var4);
-            var4 = arg2;
-            var5 = var5.bind(var9)(var4);
-            var4 = var5.colors;
-            var12 = var5.baseColors;
-            var5 = var8.icon;
-            var5 = var1 != var5;
-            var10 = undefined;
-            if(!var5) { _fun0002_ip = 15; continue _fun0002 }
+            var3 = 16;
+            var3 = var6[var3];
+            var4 = var4.bind(var11)(var3);
+            var3 = arg2;
+            var3 = var4.bind(var11)(var3);
+            var6 = var3.colors;
+            var14 = var3.baseColors;
+            var3 = var10.icon;
+            var3 = var1 != var3;
+            var12 = undefined;
+            if(!var3) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var6 = _closure1_slot0;
+            var4 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var5 = 16;
-            var5 = var7[var5];
-            var7 = var6.bind(var9)(var5);
-            var6 = var7.getAssetUriForEmbed;
-            var13 = _closure1_slot6;
-            var11 = 128;
-            var5 = false;
-            var5 = var13.bind(var9)(var8, var11, var5);
-            var10 = var6.bind(var7)(var5);
+            var3 = 17;
+            var3 = var7[var3];
+            var7 = var4.bind(var11)(var3);
+            var4 = var7.getAssetUriForEmbed;
+            var9 = _closure1_slot6;
+            var8 = 128;
+            var3 = false;
+            var3 = var9.bind(var11)(var10, var8, var3);
+            var12 = var4.bind(var7)(var3);
 case 15:
-            var11 = _closure1_slot13;
-            var7 = var11.getVoiceStatesForChannelAlt;
-            var6 = var15.id;
-            var5 = var8.id;
-            var5 = var7.bind(var11)(var6, var5);
-            var7 = var5.filter;
-            var6 = function(arg1) {
+            var8 = _closure1_slot14;
+            var7 = var8.getVoiceStatesForChannelAlt;
+            var4 = var17.id;
+            var3 = var10.id;
+            var7 = var7.bind(var8)(var4, var3);
+            var4 = var7.filter;
+            var3 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.voiceState;
                 var1 = var1.selfStream;
                 return var1;
             };
-            var20 = var7.bind(var5)(var6);
-            var13 = new Array(0);
-            var6 = 0;
-            var21 = var13;
-            var19 = 0;
-            var19 = arraySpread(var21, var20, var19);
-            var16 = var5.filter;
-            var7 = function(arg1) {
+            var22 = var4.bind(var7)(var3);
+            var9 = new Array(0);
+            var8 = 0;
+            var23 = var9;
+            var21 = 0;
+            var21 = arraySpread(var23, var22, var21);
+            var13 = var7.filter;
+            var3 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.voiceState;
                 var1 = var1.selfStream;
                 var1 = !var1;
                 return var1;
             };
-            var20 = var16.bind(var5)(var7);
-            var21 = var13;
-            var7 = arraySpread(var21, var20, var19);
-            var11 = var13.slice;
-            var7 = 10;
-            var11 = var11.bind(var13)(var6, var7);
-            var7 = _closure1_slot4;
-            var7 = var7.displayNameStylesEnabled;
-            var _closure2_slot1 = var7;
-            var7 = var11.map;
+            var22 = var13.bind(var7)(var3);
+            var23 = var9;
+            var3 = arraySpread(var23, var22, var21);
+            var4 = var9.slice;
+            var3 = 10;
+            var4 = var4.bind(var9)(var8, var3);
+            var3 = _closure1_slot4;
+            var3 = var3.displayNameStylesEnabled;
+            var _closure2_slot1 = var3;
+            var3 = var4.map;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -256,7 +260,7 @@ case 19:
 case 22:
                     var2 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 18;
                     var1 = var5[var1];
                     var8 = var2.bind(var9)(var1);
                     var7 = var8.getUserAvatarURL;
@@ -268,7 +272,7 @@ case 22:
 case 21:
                     var2 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 18;
                     var1 = var7[var1];
                     var7 = var2.bind(var9)(var1);
                     var2 = var7.getGuildMemberAvatarURLSimple;
@@ -323,7 +327,7 @@ case 24:
 case 34:
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var7 = 18;
+                    var7 = 19;
                     var7 = var10[var7];
                     var9 = var8.bind(var9)(var7);
                     var8 = var9.getName;
@@ -344,149 +348,157 @@ case 35:
                     return var1;
                 }
             };
-            var11 = var7.bind(var11)(var2);
-            var7 = _closure1_slot5;
-            var2 = var7.getStartTime;
-            var2 = var2.bind(var7)(var15);
-            var13 = var1 != var2;
-            var7 = undefined;
-            if(!var13) { _fun0002_ip = 37; continue _fun0002 }
+            var13 = var3.bind(var4)(var2);
+            var3 = _closure1_slot5;
+            var2 = var3.getStartTime;
+            var2 = var2.bind(var3)(var17);
+            var3 = var1 != var2;
+            var9 = undefined;
+            if(!var3) { _fun0002_ip = 37; continue _fun0002 }
 case 38:
-            var7 = var2;
+            var9 = var2;
 case 37:
+            var4 = _closure1_slot13;
+            var3 = var4.getCurrentClientVoiceChannelId;
+            var2 = var10.id;
+            var4 = var3.bind(var4)(var2);
+            var3 = var17.id;
             var2 = {};
-            var21 = var2;
-            var20 = var12;
-            var13 = copyDataProperties(var21, var20);
-            var16 = _closure1_slot3;
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var13 = 19;
-            var13 = var18[var13];
-            var17 = var17.bind(var9)(var13);
-            var13 = var17.getEmbedScrollGradientBackground;
-            var17 = var13.bind(var17)();
-            var18 = var1 != var17;
-            var13 = undefined;
-            if(!var18) { _fun0002_ip = 39; continue _fun0002 }
+            var23 = var2;
+            var22 = var14;
+            var15 = copyDataProperties(var23, var22);
+            var18 = _closure1_slot3;
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var15 = 20;
+            var15 = var20[var15];
+            var19 = var19.bind(var11)(var15);
+            var15 = var19.getEmbedScrollGradientBackground;
+            var19 = var15.bind(var19)();
+            var20 = var1 != var19;
+            var15 = undefined;
+            if(!var20) { _fun0002_ip = 39; continue _fun0002 }
 case 40:
-            var13 = var17;
+            var15 = var19;
 case 39:
-            var13 = var16.bind(var9)(var13);
-            if(!(var1 == var13)) { _fun0002_ip = 41; continue _fun0002 }
+            var15 = var18.bind(var11)(var15);
+            if(!(var1 == var15)) { _fun0002_ip = 41; continue _fun0002 }
 case 42:
-            var13 = var12.backgroundColor;
+            var15 = var14.backgroundColor;
 case 41:
-            var12 = 'backgroundColor';
-            var2[11] = var13;
-            var12 = _closure1_slot14;
-            var13 = var12.VOICE_CHANNEL_LIST_INVITE;
-            var12 = 'extendedType';
-            var2[11] = var13;
-            var13 = var4.headerColor;
-            var12 = 'headerColor';
-            var2[11] = var13;
-            var12 = var8.name;
-            var8 = 'guildName';
-            var2[7] = var12;
-            var8 = 'guildIcon';
-            var2[7] = var10;
-            var10 = '';
-            var8 = 'headerText';
-            var2[7] = var10;
-            var10 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var8 = 20;
-            var8 = var12[var8];
-            var13 = var10.bind(var9)(var8);
-            var12 = var13.computeChannelName;
-            var10 = _closure1_slot12;
-            var8 = _closure1_slot11;
-            var10 = var12.bind(var13)(var15, var10, var8);
-            var8 = 'titleText';
-            var2[7] = var10;
-            var5 = var5.length;
-            if(!(!(var5 > var6))) { _fun0002_ip = 43; continue _fun0002 }
+            var14 = 'backgroundColor';
+            var2[13] = var15;
+            var14 = _closure1_slot15;
+            var15 = var14.VOICE_CHANNEL_LIST_INVITE;
+            var14 = 'extendedType';
+            var2[13] = var15;
+            var15 = var6.headerColor;
+            var14 = 'headerColor';
+            var2[13] = var15;
+            var14 = var10.name;
+            var10 = 'guildName';
+            var2[9] = var14;
+            var10 = 'guildIcon';
+            var2[9] = var12;
+            var12 = '';
+            var10 = 'headerText';
+            var2[9] = var12;
+            var12 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var10 = 21;
+            var10 = var14[var10];
+            var15 = var12.bind(var11)(var10);
+            var14 = var15.computeChannelName;
+            var12 = _closure1_slot12;
+            var10 = _closure1_slot11;
+            var12 = var14.bind(var15)(var17, var12, var10);
+            var10 = 'titleText';
+            var2[9] = var12;
+            var7 = var7.length;
+            if(!(!(var7 > var8))) { _fun0002_ip = 43; continue _fun0002 }
 case 44:
-            var6 = var4.voiceMutedColor;
+            var8 = var6.voiceMutedColor;
             _fun0002_ip = 45; continue _fun0002;
 case 43:
-            var6 = var4.voiceActiveColor;
+            var8 = var6.voiceActiveColor;
 case 45:
-            var5 = 'titleColor';
-            var2[4] = var6;
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var5 = 21;
-            var6 = var10[var5];
-            var6 = var8.bind(var9)(var6);
-            var13 = var6.intl;
-            var12 = var13.string;
-            var6 = var10[var5];
-            var6 = var8.bind(var9)(var6);
-            var6 = var6.t;
-            var6 = var6.gpqgah;
-            var12 = var12.bind(var13)(var6);
-            var6 = 'acceptLabelText';
-            var2[5] = var12;
-            var12 = var4.acceptLabelGreenColor;
-            var6 = 'acceptLabelColor';
-            var2[5] = var12;
-            var12 = var4.acceptLabelGreenBackgroundColor;
-            var6 = 'acceptLabelBackgroundColor';
-            var2[5] = var12;
-            var12 = _closure1_slot1;
-            var6 = 22;
-            var6 = var10[var6];
-            var13 = var12.bind(var9)(var6);
-            var12 = var13.canAcceptInvite;
-            var15 = _closure1_slot8;
-            var6 = new Array(1);
-            var6[0] = var15;
-            var12 = var12.bind(var13)(var6, var14);
-            var6 = 'canBeAccepted';
-            var2[5] = var12;
-            var12 = true;
-            var6 = 'embedCanBeTapped';
-            var2[5] = var12;
-            var6 = _closure1_slot16;
-            var12 = var6.GUILD;
-            var6 = 'type';
-            var2[5] = var12;
-            var6 = 'voiceUsers';
-            var2[5] = var11;
-            var6 = 'voiceStartTimestamp';
+            var7 = 'titleColor';
+            var2[6] = var8;
+            var10 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var7 = 22;
+            var8 = var12[var7];
+            var8 = var10.bind(var11)(var8);
+            var15 = var8.intl;
+            var14 = var15.string;
+            var8 = var12[var7];
+            var8 = var10.bind(var11)(var8);
+            var8 = var8.t;
+            var8 = var8.gpqgah;
+            var14 = var14.bind(var15)(var8);
+            var8 = 'acceptLabelText';
+            var2[7] = var14;
+            var14 = var6.acceptLabelGreenColor;
+            var8 = 'acceptLabelColor';
+            var2[7] = var14;
+            var14 = var6.acceptLabelGreenBackgroundColor;
+            var8 = 'acceptLabelBackgroundColor';
+            var2[7] = var14;
+            var14 = _closure1_slot1;
+            var8 = 23;
+            var8 = var12[var8];
+            var15 = var14.bind(var11)(var8);
+            var14 = var15.canAcceptInvite;
+            var17 = _closure1_slot8;
+            var8 = new Array(1);
+            var8[0] = var17;
+            var14 = var14.bind(var15)(var8, var16);
+            var8 = 'canBeAccepted';
+            var2[7] = var14;
+            var14 = true;
+            var8 = 'embedCanBeTapped';
+            var2[7] = var14;
+            var8 = _closure1_slot17;
+            var14 = var8.GUILD;
+            var8 = 'type';
+            var2[7] = var14;
+            var8 = 'voiceUsers';
+            var2[7] = var13;
+            var8 = 'voiceStartTimestamp';
+            var2[7] = var9;
+            var8 = var12[var7];
+            var8 = var10.bind(var11)(var8);
+            var13 = var8.intl;
+            var9 = var13.string;
+            var8 = var12[var7];
+            var8 = var10.bind(var11)(var8);
+            var8 = var8.t;
+            var8 = var8.zSqdrS;
+            var9 = var9.bind(var13)(var8);
+            var8 = 'emptyStateText';
+            var2[7] = var9;
+            var8 = var12[var7];
+            var8 = var10.bind(var11)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var7 = var12[var7];
+            var7 = var10.bind(var11)(var7);
+            var7 = var7.t;
+            var7 = var7.dI3q4h;
+            var8 = var8.bind(var9)(var7);
+            var7 = var8.toUpperCase;
+            var8 = var7.bind(var8)();
+            var7 = 'streamingLabel';
+            var2[6] = var8;
+            var7 = var6.voiceHeaderBackgroundColor;
+            var6 = 'voiceHeaderBackgroundColor';
             var2[5] = var7;
-            var6 = var10[var5];
-            var6 = var8.bind(var9)(var6);
-            var11 = var6.intl;
-            var7 = var11.string;
-            var6 = var10[var5];
-            var6 = var8.bind(var9)(var6);
-            var6 = var6.t;
-            var6 = var6.zSqdrS;
-            var7 = var7.bind(var11)(var6);
-            var6 = 'emptyStateText';
-            var2[5] = var7;
-            var6 = var10[var5];
-            var6 = var8.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var5 = var10[var5];
-            var5 = var8.bind(var9)(var5);
-            var5 = var5.t;
-            var5 = var5.dI3q4h;
-            var6 = var6.bind(var7)(var5);
-            var5 = var6.toUpperCase;
-            var6 = var5.bind(var6)();
-            var5 = 'streamingLabel';
+            var5 = _closure1_slot4;
+            var6 = var5.useReducedMotion;
+            var5 = 'reducedMotion';
             var2[4] = var6;
-            var5 = var4.voiceHeaderBackgroundColor;
-            var4 = 'voiceHeaderBackgroundColor';
-            var2[3] = var5;
-            var3 = _closure1_slot4;
-            var4 = var3.useReducedMotion;
-            var3 = 'reducedMotion';
+            var4 = var4 === var3;
+            var3 = 'isConnected';
             var2[2] = var4;
             return var2;
 case 13:

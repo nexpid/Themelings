@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/header_bar/FrictionlessGDMsExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
-    var2 = function getFrictionlessGDMsEnabled() {
+    var2 = function getFrictionlessGDMsEnabled(arg1) {
         var1 = false;
         return var1;
     };

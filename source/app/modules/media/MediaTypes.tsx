@@ -356,7 +356,7 @@ case 20:
         return var1;
     };
     var3['embedMediaToMediaItem'] = var4;
-    var2 = function isVisualUnfurledMediaItem(arg1) {
+    var4 = function isVisualUnfurledMediaItem(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;
@@ -383,6 +383,60 @@ case 28:
             return var1;
         }
     };
-    var3['isVisualUnfurledMediaItem'] = var2;
+    var3['isVisualUnfurledMediaItem'] = var4;
+    var2 = function getMediaItemDisplayUrl(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var2 = arg1;
+            var1 = null;
+            if(!(var1 != var2)) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
+            var4 = var2.type;
+            var3 = 'VIDEO';
+            if(!(var3 === var4)) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
+            var3 = var2.proxyUrl;
+            if(!(var1 == var3)) { _fun0006_ip = 34; continue _fun0006 }
+case 32:
+            var4 = var2.proxyUrl;
+            if(!(var1 == var4)) { _fun0006_ip = 3; continue _fun0006 }
+case 35:
+            var4 = var2.url;
+case 3:
+            var5 = var1 != var4;
+            var3 = null;
+            if(!var5) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
+            var3 = var4;
+case 36:
+            return var3;
+case 34:
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 4;
+            var4 = var4[var3];
+            var3 = undefined;
+            var4 = var5.bind(var3)(var4);
+            var3 = var4.toURLSafe;
+            var2 = var2.proxyUrl;
+            var4 = var3.bind(var4)(var2);
+            var3 = var1 == var4;
+            var2 = null;
+            if(var3) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
+            var7 = var4.searchParams;
+            var6 = var7.append;
+            var5 = 'format';
+            var3 = 'webp';
+            var3 = var6.bind(var7)(var5, var3);
+            var3 = var4.toString;
+            var2 = var3.bind(var4)();
+case 38:
+            return var2;
+case 30:
+            return var1;
+        }
+    };
+    var3['getMediaItemDisplayUrl'] = var2;
     return var1;
 })();

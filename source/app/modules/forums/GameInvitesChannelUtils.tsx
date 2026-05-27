@@ -25,6 +25,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/forums/GameInvitesChannelUtils.tsx';
     var4 = var5.bind(var6)(var4);
+    var4 = 'No Mic';
+    var3['GAME_INVITES_CHANNEL_NO_MIC_TAG_NAME'] = var4;
     var4 = function useIsGameInvitesPost(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;

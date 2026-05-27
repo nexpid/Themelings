@@ -4083,7 +4083,7 @@ case 322:
 case 321:
                     var5['shouldUploadFailureSendNotification'] = var20;
                     var5 = var18.bind(var19)(var5);
-                    SaveGenerator(address=1898);
+                    SaveGenerator(address=1897);
 case 323:
                     return var5;
 case 324:
@@ -4714,11 +4714,11 @@ case 304:
                                 var5 = var6.getPendingReplyActionSource;
                                 var6 = var5.bind(var6)(var13);
                                 var5 = 'message_swipe';
-                                if(!(var5 !== var6)) { _fun0028_ip = 381; continue _fun0028 }
-case 382:
+                                if(!(var5 !== var6)) { _fun0028_ip = 323; continue _fun0028 }
+case 381:
                                 var5 = 'message_shortcut';
                                 if(!(var5 === var6)) { _fun0028_ip = 378; continue _fun0028 }
-case 383:
+case 382:
                                 var6 = _closure1_slot18;
                                 var5 = var6.getChannel;
                                 var18 = var5.bind(var6)(var13);
@@ -4735,10 +4735,10 @@ case 383:
                                 var5['channel_id'] = var13;
                                 var16 = var9 == var18;
                                 var15 = undefined;
-                                if(var16) { _fun0028_ip = 384; continue _fun0028 }
-case 385:
-                                var15 = var18.guild_id;
+                                if(var16) { _fun0028_ip = 383; continue _fun0028 }
 case 384:
+                                var15 = var18.guild_id;
+case 383:
                                 var5['guild_id'] = var15;
                                 var5['original_message_id'] = var10;
                                 var15 = 'reply';
@@ -4751,10 +4751,10 @@ case 384:
                                 var16 = var20.collectGuildAnalyticsMetadata;
                                 var21 = var9 == var18;
                                 var15 = undefined;
-                                if(var21) { _fun0028_ip = 386; continue _fun0028 }
-case 387:
-                                var15 = var18.guild_id;
+                                if(var21) { _fun0028_ip = 385; continue _fun0028 }
 case 386:
+                                var15 = var18.guild_id;
+case 385:
                                 var25 = var16.bind(var20)(var15);
                                 var26 = var5;
                                 var15 = copyDataProperties(var26, var25);
@@ -4768,15 +4768,15 @@ case 386:
                                 var15 = copyDataProperties(var26, var25);
                                 var5 = var12.bind(var14)(var6, var5);
                                 _fun0028_ip = 378; continue _fun0028;
-case 381:
+case 323:
                                 var5 = var9 != var10;
                                 var16 = null;
-                                if(!var5) { _fun0028_ip = 388; continue _fun0028 }
-case 389:
+                                if(!var5) { _fun0028_ip = 387; continue _fun0028 }
+case 388:
                                 var6 = _closure1_slot22;
                                 var5 = var6.getMessage;
                                 var16 = var5.bind(var6)(var13, var10);
-case 388:
+case 387:
                                 var6 = _closure1_slot18;
                                 var5 = var6.getChannel;
                                 var15 = var5.bind(var6)(var13);
@@ -4796,16 +4796,16 @@ case 388:
                                 var5['channel_id'] = var13;
                                 var17 = var9 == var15;
                                 var13 = undefined;
-                                if(var17) { _fun0028_ip = 390; continue _fun0028 }
-case 391:
-                                var13 = var15.guild_id;
+                                if(var17) { _fun0028_ip = 389; continue _fun0028 }
 case 390:
+                                var13 = var15.guild_id;
+case 389:
                                 var5['guild_id'] = var13;
                                 var13 = 'reply';
                                 var5['swipe_action'] = var13;
                                 var13 = var9 != var14;
-                                if(!var13) { _fun0028_ip = 392; continue _fun0028 }
-case 327:
+                                if(!var13) { _fun0028_ip = 391; continue _fun0028 }
+case 392:
                                 var15 = var14.id;
                                 var17 = var9 == var16;
                                 var14 = undefined;
@@ -4815,7 +4815,7 @@ case 394:
                                 var14 = var16.id;
 case 393:
                                 var13 = var15 === var14;
-case 392:
+case 391:
                                 var5['is_own_message'] = var13;
                                 var5 = var10.bind(var12)(var6, var5);
 case 378:

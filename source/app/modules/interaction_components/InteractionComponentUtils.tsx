@@ -1268,7 +1268,7 @@ case 137:
             var7 = var13.filter;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 7;
+            var6 = 8;
             var6 = var11[var6];
             var6 = var12.bind(var4)(var6);
             var6 = var6.isNotNullish;
@@ -1369,7 +1369,7 @@ case 131:
             var7 = _closure1_slot13;
             var7 = var7.bind(var4)(var5);
             var6['id'] = var7;
-            var7 = 9;
+            var7 = 6;
             var7 = var12[var7];
             var12 = var11.bind(var4)(var7);
             var11 = var12.toUnfurledMediaItem;
@@ -1402,7 +1402,7 @@ case 129:
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 9;
+                var3 = 6;
                 var4 = var4[var3];
                 var3 = undefined;
                 var5 = var5.bind(var3)(var4);
@@ -1431,7 +1431,7 @@ case 127:
             var7 = _closure1_slot13;
             var7 = var7.bind(var4)(var5);
             var6['id'] = var7;
-            var7 = 9;
+            var7 = 6;
             var7 = var12[var7];
             var12 = var11.bind(var4)(var7);
             var11 = var12.toUnfurledMediaItem;
@@ -1473,7 +1473,7 @@ case 123:
             var7 = var11.filter;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 7;
+            var6 = 8;
             var6 = var13[var6];
             var6 = var12.bind(var4)(var6);
             var6 = var6.isNotNullish;
@@ -1706,7 +1706,7 @@ case 0:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 8;
+                    var2 = 9;
                     var2 = var6[var2];
                     var6 = undefined;
                     var2 = var5.bind(var6)(var2);
@@ -1796,7 +1796,7 @@ case 107:
             var2 = var9.filter;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var1 = var6[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.isNotNullish;
@@ -1819,7 +1819,7 @@ case 107:
         var5 = arg1;
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 9;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -2109,16 +2109,127 @@ case 221:
         }
     };
     var3['getAllTextDisplayContent'] = var4;
+    var4 = function getFirstInteractionComponentMedia(arg1) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+case 0:
+            var2 = _closure1_slot6;
+            var3 = _closure1_slot8;
+            var12 = undefined;
+            var1 = arg1;
+            var3 = var3.bind(var12)(var1);
+            var1 = var3.values;
+            var1 = var1.bind(var3)();
+            var11 = var2.bind(var12)(var1);
+            var3 = var11.bind(var12)();
+            var2 = var3.done;
+            var10 = 6;
+            var9 = 'INVALID';
+            var8 = 0;
+            var1 = null;
+            var7 = 4;
+            var6 = var3;
+            var5 = undefined;
+            var4 = undefined;
+            var3 = undefined;
+            if(var2) { _fun0016_ip = 223; continue _fun0016 }
+case 224:
+            var2 = var6.value;
+            var15 = var2.type;
+            var16 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var14 = var14[var7];
+            var14 = var16.bind(var12)(var14);
+            var14 = var14.ComponentType;
+            var14 = var14.MEDIA_GALLERY;
+            if(!(var15 !== var14)) { _fun0016_ip = 225; continue _fun0016 }
+case 226:
+            var18 = var2.type;
+            var15 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var14 = var14[var7];
+            var14 = var15.bind(var12)(var14);
+            var14 = var14.ComponentType;
+            var17 = var14.THUMBNAIL;
+            var16 = var5;
+            var15 = var4;
+            var14 = var3;
+            if(!(var18 === var17)) { _fun0016_ip = 227; continue _fun0016 }
+case 17:
+            var18 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var17 = var17[var10];
+            var19 = var18.bind(var12)(var17);
+            var18 = var19.getUnfurledMediaItemType;
+            var17 = var2.media;
+            var19 = var18.bind(var19)(var17);
+            var16 = var5;
+            var15 = var4;
+            var14 = var19;
+            if(!(var9 !== var14)) { _fun0016_ip = 227; continue _fun0016 }
+case 228:
+            var17 = {};
+            var20 = var2.media;
+            var21 = var17;
+            var18 = copyDataProperties(var21, var20);
+            var18 = 'type';
+            var17[17] = var19;
+            var19 = var2.description;
+            var18 = 'alt';
+            var17[17] = var19;
+            return var17;
+case 225:
+            var2 = var2.items;
+            var17 = var2[var8];
+            var15 = var4;
+            var14 = var3;
+            var16 = var17;
+            if(!(var1 != var16)) { _fun0016_ip = 227; continue _fun0016 }
+case 229:
+            var18 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var10];
+            var19 = var18.bind(var12)(var2);
+            var18 = var19.getUnfurledMediaItemType;
+            var2 = var17.media;
+            var19 = var18.bind(var19)(var2);
+            var16 = var17;
+            var14 = var3;
+            var15 = var19;
+            if(!(var9 !== var15)) { _fun0016_ip = 227; continue _fun0016 }
+case 230:
+            var2 = {};
+            var20 = var17.media;
+            var21 = var2;
+            var18 = copyDataProperties(var21, var20);
+            var18 = 'type';
+            var2[17] = var19;
+            var18 = var17.description;
+            var17 = 'alt';
+            var2[16] = var18;
+            return var2;
+case 227:
+            var17 = var11.bind(var12)();
+            var2 = var17.done;
+            var5 = var16;
+            var4 = var15;
+            var3 = var14;
+            var6 = var17;
+            if(!var2) { _fun0016_ip = 224; continue _fun0016 }
+case 223:
+            return var1;
+        }
+    };
+    var3['getFirstInteractionComponentMedia'] = var4;
     var4 = function getParents(arg1, arg2) {
         var2 = arg2;
         var _closure2_slot0 = var2;
         var3 = function search(arg1) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var4 = arguments[1];
                 var12 = undefined;
-                if(!(var4 === var12)) { _fun0016_ip = 217; continue _fun0016 }
-case 223:
+                if(!(var4 === var12)) { _fun0017_ip = 217; continue _fun0017 }
+case 231:
                 var4 = new Array(0);
 case 217:
                 var2 = _closure1_slot6;
@@ -2129,8 +2240,8 @@ case 217:
                 var3 = 1;
                 var1 = null;
                 var8 = var5;
-                if(var2) { _fun0016_ip = 48; continue _fun0016 }
-case 224:
+                if(var2) { _fun0017_ip = 48; continue _fun0017 }
+case 232:
                 var5 = var8.value;
                 var2 = _closure1_slot11;
                 var7 = var2.bind(var12)(var5);
@@ -2145,8 +2256,8 @@ case 224:
                 };
                 var6 = var6.bind(var7)(var2);
                 var2 = new Array(1);
-                if(var6) { _fun0016_ip = 225; continue _fun0016 }
-case 226:
+                if(var6) { _fun0017_ip = 233; continue _fun0017 }
+case 234:
                 var6 = _closure2_slot1;
                 var2[0] = var5;
                 var17 = var2;
@@ -2154,17 +2265,17 @@ case 226:
                 var15 = var3;
                 var14 = arraySpread(var17, var16, var15);
                 var6 = var6.bind(var12)(var7, var2);
-                if(!(var1 == var6)) { _fun0016_ip = 227; continue _fun0016 }
-case 228:
+                if(!(var1 == var6)) { _fun0017_ip = 235; continue _fun0017 }
+case 236:
                 var14 = var10.bind(var12)();
                 var7 = var14.done;
                 var8 = var14;
-                if(var7) { _fun0016_ip = 48; continue _fun0016 }
-case 229:
-                _fun0016_ip = 224; continue _fun0016;
-case 227:
+                if(var7) { _fun0017_ip = 48; continue _fun0017 }
+case 237:
+                _fun0017_ip = 232; continue _fun0017;
+case 235:
                 return var6;
-case 225:
+case 233:
                 var2[0] = var5;
                 var17 = var2;
                 var16 = var4;
@@ -2183,7 +2294,7 @@ case 48:
     };
     var3['getParents'] = var4;
     var4 = function makeComponentUploadId(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var3 = {};
             var1 = 'component-upload';
@@ -2197,17 +2308,17 @@ case 0:
             var5 = var4 == var2;
             var6 = undefined;
             var2 = undefined;
-            if(var5) { _fun0017_ip = 230; continue _fun0017 }
-case 231:
+            if(var5) { _fun0018_ip = 238; continue _fun0018 }
+case 239:
             var7 = var1.crypto;
             var5 = var7.randomUUID;
             var2 = var5.bind(var7)();
-case 230:
-            if(!(var4 == var2)) { _fun0017_ip = 222; continue _fun0017 }
+case 238:
+            if(!(var4 == var2)) { _fun0018_ip = 222; continue _fun0018 }
 case 30:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var4 = 6;
+            var4 = 7;
             var4 = var7[var4];
             var5 = var5.bind(var6)(var4);
             var4 = var5.v4;
@@ -2222,11 +2333,11 @@ case 222:
     };
     var3['makeComponentUploadId'] = var4;
     var4 = function deserializeComponentUploadId(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var1 = arg1;
             var2 = undefined;
-case 232: // try_start_0
+case 240: // try_start_0
             var3 = global;
             var5 = var3.JSON;
             var3 = var5.parse;
@@ -2235,30 +2346,30 @@ case 232: // try_start_0
             var5 = null;
             var1 = var5 == var1;
             var4 = undefined;
-            if(var1) { _fun0018_ip = 2; continue _fun0018 }
-case 233:
+            if(var1) { _fun0019_ip = 2; continue _fun0019 }
+case 241:
             var1 = var2;
             var4 = var1.type;
 case 2:
             var3 = 'component-upload';
             var1 = null;
-            if(!(var3 === var4)) { _fun0018_ip = 234; continue _fun0018 }
-case 235:
+            if(!(var3 === var4)) { _fun0019_ip = 242; continue _fun0019 }
+case 243:
             var3 = var2;
             var3 = var3.containerId;
             var4 = 'string';
             var3 = typeof var3;
             var1 = null;
-            if(!(var4 === var3)) { _fun0018_ip = 234; continue _fun0018 }
+            if(!(var4 === var3)) { _fun0019_ip = 242; continue _fun0019 }
 case 207:
             var3 = var2;
             var3 = var3.uniqueId;
             var3 = typeof var3;
             var1 = null;
-            if(!(var4 === var3)) { _fun0018_ip = 234; continue _fun0018 }
-case 236:
+            if(!(var4 === var3)) { _fun0019_ip = 242; continue _fun0019 }
+case 244:
             var1 = var2;
-case 234: // try_end0
+case 242: // try_end0
             return var1;
 case 221: // catch_target0
             CatchBlockStart(arg_register=0);

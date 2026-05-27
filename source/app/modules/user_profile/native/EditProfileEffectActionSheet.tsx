@@ -378,7 +378,7 @@ case 23:
                 var6 = var1 == var3;
                 var3 = undefined;
                 if(var6) { _fun0003_ip = 24; continue _fun0003 }
-case 2:
+case 25:
                 var5 = _closure2_slot1;
                 var6 = var5.items;
                 var5 = 0;
@@ -389,10 +389,10 @@ case 22:
                 var3 = _closure1_slot7;
                 var3 = var3.bind(var4)(var2);
                 var1 = null;
-                if(!var3) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+                if(!var3) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                 var1 = var2;
-case 25:
+case 26:
                 return var1;
             }
         };
@@ -477,10 +477,10 @@ case 0:
             var16 = null;
             var6 = var16 != var5;
             var1 = '';
-            if(!var6) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+            if(!var6) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
             var1 = var5;
-case 27:
+case 28:
             var3 = var3.bind(var4)(var1);
             _closure2_slot2 = var3;
             var6 = _closure1_slot4;
@@ -533,19 +533,19 @@ case 0:
                     var2 = _closure2_slot2;
                     var6 = null;
                     var2 = var6 != var2;
-                    if(!var2) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+                    if(!var2) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                     var5 = _closure2_slot2;
                     var5 = var6 == var5;
                     var3 = undefined;
-                    if(var5) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                    if(var5) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                     var5 = _closure2_slot2;
                     var4 = var5.hasPremiumCustomization;
                     var3 = var4.bind(var5)();
-case 31:
+case 32:
                     var2 = var3;
-case 29:
+case 30:
                     var1['profile_has_nitro_customization'] = var2;
                     return var1;
                 }
@@ -587,8 +587,8 @@ case 0:
                     var1 = _closure2_slot1;
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    if(var1) { _fun0006_ip = 33; continue _fun0006 }
-case 34:
+                    if(var1) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
                     var1 = 15;
                     var5 = var2[var1];
                     var1 = undefined;
@@ -600,14 +600,14 @@ case 34:
                     var8 = _closure2_slot3;
                     var7 = null;
                     var8 = var7 != var8;
-                    if(!var8) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
+                    if(!var8) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
                     var7 = _closure2_slot3;
-case 35:
+case 36:
                     var1['profileEffect'] = var7;
                     var1 = var5.bind(var6)(var1);
-                    _fun0006_ip = 37; continue _fun0006;
-case 33:
+                    _fun0006_ip = 38; continue _fun0006;
+case 34:
                     var1 = 14;
                     var2 = var2[var1];
                     var1 = undefined;
@@ -616,12 +616,12 @@ case 33:
                     var5 = _closure2_slot3;
                     var1 = null;
                     var5 = var1 != var5;
-                    if(!var5) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+                    if(!var5) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
                     var1 = _closure2_slot3;
-case 38:
+case 39:
                     var1 = var2.bind(var3)(var1);
-case 37:
+case 38:
                     var1 = undefined;
                     return var1;
                 }
@@ -694,17 +694,17 @@ case 37:
             var9['user'] = var18;
             var20 = var16 == var19;
             var18 = undefined;
-            if(var20) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+            if(var20) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var18 = var19.skuId;
-case 40:
+case 41:
             var9['currentSkuId'] = var18;
             var18 = var16 == var17;
             var16 = undefined;
-            if(var18) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+            if(var18) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
             var16 = var17.skuId;
-case 42:
+case 43:
             var9['selectedSkuId'] = var16;
             var9['isTryItOut'] = var15;
             var9['onApply'] = var14;

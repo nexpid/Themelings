@@ -615,9 +615,13 @@ case 0:
             var1 = var2.bind(var5)(var1);
             if(!var1) { _fun0003_ip = 43; continue _fun0003 }
 case 44:
-            var5 = var14.type;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
+            var2 = 8;
+            var2 = var8[var2];
+            var5 = var7.bind(var4)(var2);
+            var2 = var5.getProductType;
+            var5 = var2.bind(var5)(var14);
             var2 = 22;
             var2 = var8[var2];
             var2 = var7.bind(var4)(var2);
@@ -726,8 +730,8 @@ case 45:
             var5 = new Array(2);
             var5[0] = var7;
             var6 = !var6;
-            if(!var6) { _fun0003_ip = 34; continue _fun0003 }
-case 47:
+            if(!var6) { _fun0003_ip = 47; continue _fun0003 }
+case 48:
             var9 = _closure1_slot8;
             var8 = _closure1_slot4;
             var7 = {};
@@ -758,7 +762,7 @@ case 47:
             var10[1] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 34:
+case 47:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

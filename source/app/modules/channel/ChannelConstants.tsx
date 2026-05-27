@@ -36,6 +36,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['GAME_SERVERS'] = var2;
     var2 = 'report-to-mod';
     var9['REPORT_TO_MOD'] = var2;
+    var2 = 'official-messages';
+    var9['GUILD_OFFICIAL_MESSAGES'] = var2;
     var _closure1_slot0 = var9;
     var5 = var1.Set;
     var4 = var1.Object;

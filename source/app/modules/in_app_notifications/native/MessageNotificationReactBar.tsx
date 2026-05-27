@@ -24,25 +24,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var7 = var4.Keyboard;
+    var _closure1_slot4 = var7;
     var4 = var4.View;
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.EmojiPickerSource;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.EmojiIntention;
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot8 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -67,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var10;
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -80,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var1;
         var12 = var2.onReactionPress;
         var _closure2_slot1 = var12;
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot10;
         var4 = undefined;
         var8 = var2.bind(var4)();
         var3 = _closure1_slot1;
@@ -115,6 +117,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.channel;
         var2[1] = var1;
         var1 = function() {
+            var2 = _closure1_slot4;
+            var1 = var2.dismiss;
+            var1 = var1.bind(var2)();
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 10;
@@ -128,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure2_slot0;
             var6 = var6.channel;
             var2['channel'] = var6;
-            var6 = _closure1_slot6;
+            var6 = _closure1_slot7;
             var6 = var6.REACTION;
             var2['pickerIntention'] = var6;
             var6 = 11;
@@ -145,15 +150,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['analyticsObject'] = var6;
             var6 = false;
             var2['startExpanded'] = var6;
-            var5 = _closure1_slot5;
+            var5 = _closure1_slot6;
             var5 = var5.NOTIFICATION;
             var2['source'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
         };
         var9 = var3.bind(var9)(var1, var2);
-        var3 = _closure1_slot8;
-        var2 = _closure1_slot4;
+        var3 = _closure1_slot9;
+        var2 = _closure1_slot5;
         var1 = {};
         var8 = var8.container;
         var1['style'] = var8;
@@ -163,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
                 var8 = arg1;
                 var _closure3_slot0 = var8;
-                var5 = _closure1_slot7;
+                var5 = _closure1_slot8;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var7 = 13;
@@ -210,7 +215,7 @@ case 4:
         var8 = var8.bind(var11)(var5);
         var5 = new Array(2);
         var5[0] = var8;
-        var8 = _closure1_slot7;
+        var8 = _closure1_slot8;
         var6 = 13;
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);

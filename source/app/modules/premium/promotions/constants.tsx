@@ -71,5 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['STEELSERIES_PARTNER_ID'] = var5;
     var3['KONTROLFREEK_PARTNER_ID'] = var4;
     var3['LOGITECH_PARTNER_ID'] = var2;
+    var2 = 'xbox';
+    var3['XBOX_PARTNER_ID'] = var2;
     return var1;
 })();

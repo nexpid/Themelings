@@ -2230,6 +2230,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['REFERRAL_PROGRAM_ENTRYPOINT_NITRO_BUTTON_NOTIFICATION'] = var2;
     var1 = 'REFERRAL_PROGRAM_ENTRYPOINT_NITRO_BUTTON_NOTIFICATION';
     var4[var2] = var1;
+    var2 = 759;
+    var4['INVITE_NONFRIENDS_TO_GDM_COACHMARK'] = var2;
+    var1 = 'INVITE_NONFRIENDS_TO_GDM_COACHMARK';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

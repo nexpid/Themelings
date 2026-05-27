@@ -478,9 +478,9 @@ case 15:
             };
             var18 = var3.bind(var4)(var7, var2);
             var4 = _closure1_slot13;
-            var2 = 20;
-            var2 = var10[var2];
-            var3 = var11.bind(var5)(var2);
+            var2 = var10[var15];
+            var2 = var11.bind(var5)(var2);
+            var3 = var2.View;
             var2 = {};
             var2['style'] = var6;
             var8 = _closure1_slot14;

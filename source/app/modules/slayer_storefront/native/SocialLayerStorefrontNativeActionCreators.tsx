@@ -139,7 +139,7 @@ case 2:
         return var1;
     };
     var3['closeSocialLayerStorefrontGiftModal'] = var4;
-    var2 = function openSocialLayerStorefrontProductPurchaseSuccessModal(arg1) {
+    var4 = function openSocialLayerStorefrontProductSelfPurchaseSuccessModal(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var3 = _closure1_slot1;
@@ -164,7 +164,7 @@ case 2:
             var2 = var3.then;
             var1 = function(arg1) {
                 var2 = arg1;
-                var2 = var2.default;
+                var2 = var2.SocialLayerStorefrontProductSelfPurchaseSuccessModal;
                 var _closure4_slot0 = var2;
                 var1 = function(arg1) {
                     var4 = _closure1_slot3;
@@ -189,6 +189,57 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['openSocialLayerStorefrontProductPurchaseSuccessModal'] = var2;
+    var3['openSocialLayerStorefrontProductSelfPurchaseSuccessModal'] = var4;
+    var2 = function openSocialLayerStorefrontProductGiftPurchaseSuccessModal(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.openLazy;
+        var1 = {};
+        var4 = function importer() {
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var2 = 4;
+            var2 = var1[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = 7;
+            var2 = var1[var2];
+            var1 = var1.paths;
+            var3 = var3.bind(var4)(var2, var1);
+            var2 = var3.then;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var2 = var2.SocialLayerStorefrontProductGiftPurchaseSuccessModal;
+                var _closure4_slot0 = var2;
+                var1 = function(arg1) {
+                    var4 = _closure1_slot3;
+                    var3 = _closure4_slot0;
+                    var2 = {};
+                    var5 = _closure2_slot0;
+                    var6 = var2;
+                    var1 = copyDataProperties(var6, var5);
+                    var5 = arg1;
+                    var6 = var2;
+                    var1 = copyDataProperties(var6, var5);
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3, var2);
+                    return var1;
+                };
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1['importer'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['openSocialLayerStorefrontProductGiftPurchaseSuccessModal'] = var2;
     return var1;
 })();

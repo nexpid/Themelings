@@ -1830,12 +1830,12 @@ case 86:
             var7 = var8.isArray;
             var8 = var7.bind(var8)(var9);
             var7 = var9;
-            if(var8) { _fun0010_ip = 155; continue _fun0010 }
-case 158:
+            if(var8) { _fun0010_ip = 158; continue _fun0010 }
+case 159:
             var8 = new Array(1);
             var8[0] = var9;
             var7 = var8;
-case 155:
+case 158:
             var1['guildIds'] = var7;
             var1['query'] = var6;
             var1['limit'] = var5;
@@ -1850,10 +1850,10 @@ case 155:
 case 0:
             var1 = arg2;
             var2 = null;
-            if(!(var2 == var1)) { _fun0011_ip = 159; continue _fun0011 }
-case 160:
+            if(!(var2 == var1)) { _fun0011_ip = 160; continue _fun0011 }
+case 161:
             var1 = {};
-case 159:
+case 160:
             var5 = var1.query;
             var4 = var1.continuationToken;
             var3 = _closure1_slot1;
@@ -1882,10 +1882,10 @@ case 0:
             var7 = arg2;
             var4 = arguments[2];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0012_ip = 161; continue _fun0012 }
-case 162:
+            if(!(var4 === var3)) { _fun0012_ip = 162; continue _fun0012 }
+case 163:
             var4 = true;
-case 161:
+case 162:
             var2 = _closure1_slot1;
             var5 = _closure1_slot3;
             var1 = 14;
@@ -1900,12 +1900,12 @@ case 161:
             var6 = var8.isArray;
             var8 = var6.bind(var8)(var9);
             var6 = var9;
-            if(var8) { _fun0012_ip = 163; continue _fun0012 }
+            if(var8) { _fun0012_ip = 89; continue _fun0012 }
 case 164:
             var8 = new Array(1);
             var8[0] = var9;
             var6 = var8;
-case 163:
+case 89:
             var1['guildIds'] = var6;
             var6 = var5.Array;
             var5 = var6.isArray;
@@ -1963,8 +1963,8 @@ case 167:
 case 168:
             var6 = false;
 case 157:
-            if(!(var4 !== var8)) { _fun0013_ip = 169; continue _fun0013 }
-case 170:
+            if(!(var4 !== var8)) { _fun0013_ip = 159; continue _fun0013 }
+case 169:
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
             var2 = 14;
@@ -1980,7 +1980,7 @@ case 170:
             var2['combine'] = var6;
             var2 = var3.bind(var5)(var2);
             return var1;
-case 169:
+case 159:
             var1 = global;
             var3 = var1.Error;
             var1 = var1.HermesInternal;
@@ -2080,10 +2080,10 @@ case 0:
             var8 = 'sidebar';
             var3['source'] = var8;
             var8 = 'expanded';
-            if(!var9) { _fun0014_ip = 164; continue _fun0014 }
+            if(!var9) { _fun0014_ip = 170; continue _fun0014 }
 case 171:
             var8 = 'collapsed';
-case 164:
+case 170:
             var3['action'] = var8;
             var3 = var6.bind(var7)(var4, var3);
             var3 = _closure1_slot1;

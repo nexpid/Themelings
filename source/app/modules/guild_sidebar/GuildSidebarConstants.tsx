@@ -44,6 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GAME_SERVERS'] = var1;
     var1 = 'game-servers-empty';
     var4['GAME_SERVERS_EMPTY'] = var1;
+    var1 = 'official-messages';
+    var4['GUILD_OFFICIAL_MESSAGES'] = var1;
     var2 = {};
     var1 = 'spacer';
     var2['SPACER'] = var1;

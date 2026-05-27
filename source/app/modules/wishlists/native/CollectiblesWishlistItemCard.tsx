@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot5 = var4;
-    var4 = 7;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -40,34 +40,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;
-            var12 = var5.item;
-            var _closure2_slot0 = var12;
-            var7 = var5.source;
-            var3 = var5.wishlistOwnerId;
-            var _closure2_slot1 = var3;
-            var4 = {'item': 0, 'source': 0, 'wishlistOwnerId': 0};
-            var15 = null;
-            var16 = var4;
-            var1 = silentSetPrototypeOf(var16, var15);
-            var16 = {};
-            var15 = var5;
-            var14 = var4;
-            var5 = copyDataProperties(var16, var15, var14);
-            var8 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var4 = 3;
-            var6 = var6[var4];
-            var4 = undefined;
-            var10 = var8.bind(var4)(var6);
-            var9 = var10.useStateFromStores;
-            var6 = _closure1_slot4;
-            var8 = new Array(1);
-            var8[0] = var6;
-            var11 = var12.skuId;
-            var6 = new Array(2);
-            var6[0] = var11;
-            var6[1] = var3;
-            var3 = function() {
+            var4 = var5.item;
+            var _closure2_slot0 = var4;
+            var8 = var5.source;
+            var7 = var5.wishlistOwnerId;
+            var _closure2_slot1 = var7;
+            var3 = {'item': 0, 'source': 0, 'wishlistOwnerId': 0};
+            var1 = null;
+            var17 = var3;
+            var16 = null;
+            var2 = silentSetPrototypeOf(var17, var16);
+            var17 = {};
+            var16 = var5;
+            var15 = var3;
+            var6 = copyDataProperties(var17, var16, var15);
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var3 = 3;
+            var3 = var12[var3];
+            var5 = undefined;
+            var13 = var11.bind(var5)(var3);
+            var10 = var13.useIsProfileFrameGiftingEnabled;
+            var3 = 'CollectiblesWishlistItemCard';
+            var3 = var10.bind(var13)(var3);
+            var10 = 4;
+            var10 = var12[var10];
+            var13 = var11.bind(var5)(var10);
+            var12 = var13.useStateFromStores;
+            var10 = _closure1_slot4;
+            var11 = new Array(1);
+            var11[0] = var10;
+            var14 = var4.skuId;
+            var10 = new Array(2);
+            var10[0] = var14;
+            var10[1] = var7;
+            var7 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure2_slot1;
@@ -85,29 +92,29 @@ case 2:
                     return var1;
                 }
             };
-            var3 = var9.bind(var10)(var8, var3, var6);
-            var6 = var12.isOwned;
-            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+            var10 = var12.bind(var13)(var11, var7, var10);
+            var7 = var4.isOwned;
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var6 = var3;
+            var7 = var10;
 case 4:
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var3 = 4;
-            var3 = var10[var3];
-            var8 = var8.bind(var4)(var3);
-            var3 = var8.getProductNameAndTypeFromItem;
-            var9 = var3.bind(var8)(var12);
-            var11 = _closure1_slot3;
-            var8 = var11.useCallback;
-            var13 = var12.bundleItems;
-            var3 = new Array(3);
-            var3[0] = var13;
-            var13 = var12.collectiblesItem;
-            var3[1] = var13;
-            var12 = var12.sku;
-            var3[2] = var12;
-            var2 = function() {
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var10 = 5;
+            var10 = var12[var10];
+            var11 = var11.bind(var5)(var10);
+            var10 = var11.getProductNameAndTypeFromItem;
+            var10 = var10.bind(var11)(var4);
+            var13 = _closure1_slot3;
+            var12 = var13.useCallback;
+            var14 = var4.bundleItems;
+            var11 = new Array(3);
+            var11[0] = var14;
+            var14 = var4.collectiblesItem;
+            var11[1] = var14;
+            var14 = var4.sku;
+            var11[2] = var14;
+            var9 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot0;
@@ -128,7 +135,7 @@ case 11:
                     var5 = _closure1_slot5;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 5;
+                    var2 = 6;
                     var2 = var4[var2];
                     var4 = undefined;
                     var3 = var3.bind(var4)(var2);
@@ -143,7 +150,7 @@ case 8:
                     var5 = _closure1_slot5;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 5;
+                    var2 = 6;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -163,7 +170,7 @@ case 6:
                     var5 = _closure1_slot5;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 5;
+                    var2 = 6;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -181,21 +188,42 @@ case 13:
                     return var1;
                 }
             };
-            var8 = var8.bind(var11)(var2, var3);
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot1;
-            var1 = 6;
-            var1 = var10[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = {};
-            var1['accessibilityLabel'] = var9;
-            var1['renderPreview'] = var8;
-            var1['source'] = var7;
-            var1['isOwned'] = var6;
-            var16 = var1;
-            var15 = var5;
-            var5 = copyDataProperties(var16, var15);
-            var1 = var3.bind(var4)(var2, var1);
+            var9 = var12.bind(var13)(var9, var11);
+            var4 = var4.collectiblesItem;
+            var12 = var1 == var4;
+            var11 = undefined;
+            if(var12) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var11 = var4.type;
+case 14:
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var4 = 7;
+            var4 = var13[var4];
+            var4 = var12.bind(var5)(var4);
+            var4 = var4.CollectiblesItemType;
+            var4 = var4.PROFILE_FRAME;
+            if(!(var11 === var4)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+            var1 = null;
+            if(!var3) { _fun0001_ip = 18; continue _fun0001 }
+case 16:
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var2 = 8;
+            var2 = var11[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = {};
+            var2['accessibilityLabel'] = var10;
+            var2['renderPreview'] = var9;
+            var2['source'] = var8;
+            var2['isOwned'] = var7;
+            var17 = var2;
+            var16 = var6;
+            var6 = copyDataProperties(var17, var16);
+            var1 = var4.bind(var5)(var3, var2);
+case 18:
             return var1;
         }
     };

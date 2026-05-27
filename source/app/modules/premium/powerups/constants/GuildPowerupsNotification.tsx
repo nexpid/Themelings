@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var6 = 21600000;
     var3['GUILD_POWERUP_NOTIFICATION_COOLDOWN'] = var6;
-    var6 = 864000000;
+    var6 = 2592000000.0;
     var3['BOOST_TO_UNLOCK_COACHMARK_COOLDOWN'] = var6;
     var3['BOOST_TO_UNLOCK_COACHMARK_MAX_TIMES_TO_RECUR'] = var5;
     var5 = 259200000;
