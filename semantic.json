@@ -6449,6 +6449,96 @@
             }
         ]
     },
+    "MOBILE_COMMAND_BAR_BACKGROUND": {
+        "dark": [
+            "#1e1f22",
+            {
+                "raw": "PRIMARY_700",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#dbdee1",
+            {
+                "raw": "PRIMARY_230",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#1e1f22",
+            {
+                "raw": "PRIMARY_700",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#1e1f22",
+            {
+                "raw": "PRIMARY_700",
+                "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_COMMAND_BAR_DIVIDER": {
+        "dark": [
+            "#111214",
+            {
+                "raw": "PRIMARY_800",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#c4c9ce",
+            {
+                "raw": "PRIMARY_300",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#111214",
+            {
+                "raw": "PRIMARY_800",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#111214",
+            {
+                "raw": "PRIMARY_800",
+                "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_COMMAND_CATEGORIES_BACKGROUND": {
+        "dark": [
+            "#232428",
+            {
+                "raw": "PRIMARY_660",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ebedef",
+            {
+                "raw": "PRIMARY_160",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#000000",
+            {
+                "raw": "BLACK",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#131318",
+            {
+                "raw": "PLUM_23",
+                "opacity": 1
+            }
+        ]
+    },
     "MOBILE_EMBED_BACKGROUND_DEFAULT": {
         "dark": [
             "#111214",
@@ -6536,6 +6626,66 @@
             {
                 "raw": "PLUM_20",
                 "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_FLOATING_ACCESSORY_BACKGROUND": {
+        "dark": [
+            "#111214",
+            {
+                "raw": "PRIMARY_800",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#131318",
+            {
+                "raw": "PLUM_23",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#26272f",
+            {
+                "raw": "PLUM_18",
+                "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_FLOATING_ACCESSORY_BORDER": {
+        "dark": [
+            "#ffffff14",
+            {
+                "raw": "WHITE",
+                "opacity": 0.08
+            }
+        ],
+        "light": [
+            "#00000014",
+            {
+                "raw": "BLACK",
+                "opacity": 0.08
+            }
+        ],
+        "midnight": [
+            "#6c6f7c24",
+            {
+                "raw": "PLUM_11",
+                "opacity": 0.14
+            }
+        ],
+        "darker": [
+            "#6c6f7c1f",
+            {
+                "raw": "PLUM_11",
+                "opacity": 0.12
             }
         ]
     },

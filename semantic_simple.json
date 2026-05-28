@@ -1289,6 +1289,24 @@
         "midnight": "#212229",
         "darker": "#2c2d35"
     },
+    "MOBILE_COMMAND_BAR_BACKGROUND": {
+        "dark": "#1e1f22",
+        "light": "#dbdee1",
+        "midnight": "#1e1f22",
+        "darker": "#1e1f22"
+    },
+    "MOBILE_COMMAND_BAR_DIVIDER": {
+        "dark": "#111214",
+        "light": "#c4c9ce",
+        "midnight": "#111214",
+        "darker": "#111214"
+    },
+    "MOBILE_COMMAND_CATEGORIES_BACKGROUND": {
+        "dark": "#232428",
+        "light": "#ebedef",
+        "midnight": "#000000",
+        "darker": "#131318"
+    },
     "MOBILE_EMBED_BACKGROUND_DEFAULT": {
         "dark": "#111214",
         "light": "#ffffff",
@@ -1306,6 +1324,18 @@
         "light": "#f2f3f5",
         "midnight": "#000000",
         "darker": "#1c1d23"
+    },
+    "MOBILE_FLOATING_ACCESSORY_BACKGROUND": {
+        "dark": "#111214",
+        "light": "#ffffff",
+        "midnight": "#131318",
+        "darker": "#26272f"
+    },
+    "MOBILE_FLOATING_ACCESSORY_BORDER": {
+        "dark": "#ffffff14",
+        "light": "#00000014",
+        "midnight": "#6c6f7c24",
+        "darker": "#6c6f7c1f"
     },
     "MOBILE_FLOATINGBAR_BACKGROUND": {
         "dark": "#111214",
