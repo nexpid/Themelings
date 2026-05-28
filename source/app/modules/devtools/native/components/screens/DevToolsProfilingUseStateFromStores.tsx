@@ -215,9 +215,7 @@ case 0:
             var5 = var15[var7];
             var5 = var12.bind(var4)(var5);
             var9 = var5.TableRowGroup;
-            var5 = {};
-            var11 = 'useStateFromStores Profiling';
-            var5['title'] = var11;
+            var5 = {'title': 'useStateFromStores Profiling', 'hasIcons': false};
             var11 = 6;
             var11 = var15[var11];
             var11 = var12.bind(var4)(var11);
@@ -238,9 +236,7 @@ case 3:
             var7 = var25[var7];
             var7 = var24.bind(var4)(var7);
             var8 = var7.TableRowGroup;
-            var7 = {};
-            var10 = 'useStateFromStores Config';
-            var7['title'] = var10;
+            var7 = {'title': 'useStateFromStores Config', 'hasIcons': false};
             var13 = _closure1_slot4;
             var11 = 7;
             var10 = var25[var11];

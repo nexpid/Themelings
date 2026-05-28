@@ -373,9 +373,7 @@ case 54:
             var5 = var9[var6];
             var5 = var10.bind(var4)(var5);
             var7 = var5.TableRowGroup;
-            var5 = {};
-            var12 = 'Overview';
-            var5['title'] = var12;
+            var5 = {'title': 'Overview', 'hasIcons': false};
             var12 = _closure1_slot11;
             var13 = 23;
             var9 = var9[var13];
@@ -410,9 +408,7 @@ case 57:
             var7 = var10[var6];
             var7 = var12.bind(var4)(var7);
             var8 = var7.TableRowGroup;
-            var7 = {};
-            var14 = 'Server Descriptor';
-            var7['title'] = var14;
+            var7 = {'title': 'Server Descriptor', 'hasIcons': false};
             var17 = _closure1_slot11;
             var10 = var10[var13];
             var10 = var12.bind(var4)(var10);
@@ -448,9 +444,7 @@ case 59:
             var7 = var10[var6];
             var7 = var14.bind(var4)(var7);
             var8 = var7.TableRowGroup;
-            var7 = {};
-            var17 = 'Override Descriptor';
-            var7['title'] = var17;
+            var7 = {'title': 'Override Descriptor', 'hasIcons': false};
             var17 = _closure1_slot11;
             var10 = var10[var13];
             var10 = var14.bind(var4)(var10);
@@ -486,9 +480,7 @@ case 61:
             var6 = var9[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.TableRowGroup;
-            var6 = {};
-            var14 = 'Recent Exposures';
-            var6['title'] = var14;
+            var6 = {'title': 'Recent Exposures', 'hasIcons': false};
             var11 = _closure1_slot11;
             var9 = var9[var13];
             var9 = var10.bind(var4)(var9);
@@ -725,9 +717,7 @@ case 6:
             var5 = var8[var11];
             var5 = var15.bind(var4)(var5);
             var6 = var5.TableRowGroup;
-            var5 = {};
-            var13 = 'Overview';
-            var5['title'] = var13;
+            var5 = {'title': 'Overview', 'hasIcons': false};
             var16 = _closure1_slot11;
             var13 = 23;
             var8 = var8[var13];
@@ -766,9 +756,7 @@ case 71:
             var6 = var15[var11];
             var6 = var16.bind(var4)(var6);
             var7 = var6.TableRowGroup;
-            var6 = {};
-            var18 = 'Guild Assignments';
-            var6['title'] = var18;
+            var6 = {'title': 'Guild Assignments', 'hasIcons': false};
             var22 = _closure1_slot11;
             var18 = var15[var13];
             var18 = var16.bind(var4)(var18);
@@ -794,9 +782,7 @@ case 71:
             var6 = var15[var11];
             var6 = var16.bind(var4)(var6);
             var7 = var6.TableRowGroup;
-            var6 = {};
-            var18 = 'Server Descriptor';
-            var6['title'] = var18;
+            var6 = {'title': 'Server Descriptor', 'hasIcons': false};
             var18 = _closure1_slot11;
             var15 = var15[var13];
             var15 = var16.bind(var4)(var15);
@@ -831,9 +817,7 @@ case 73:
             var6 = var15[var11];
             var6 = var16.bind(var4)(var6);
             var7 = var6.TableRowGroup;
-            var6 = {};
-            var18 = 'Override Descriptor';
-            var6['title'] = var18;
+            var6 = {'title': 'Override Descriptor', 'hasIcons': false};
             var18 = _closure1_slot11;
             var15 = var15[var13];
             var15 = var16.bind(var4)(var15);
@@ -866,9 +850,7 @@ case 75:
             var6 = var6[var11];
             var6 = var7.bind(var4)(var6);
             var7 = var6.TableRowGroup;
-            var6 = {};
-            var11 = 'Recent Exposures';
-            var6['title'] = var11;
+            var6 = {'title': 'Recent Exposures', 'hasIcons': false};
             var11 = var12.length;
             if(!(var14 !== var11)) { _fun0007_ip = 77; continue _fun0007 }
 case 78:
@@ -997,9 +979,7 @@ case 80:
             var5 = var21[var13];
             var5 = var17.bind(var4)(var5);
             var6 = var5.TableRowGroup;
-            var5 = {};
-            var15 = 'Experiment Assignments';
-            var5['title'] = var15;
+            var5 = {'title': 'Experiment Assignments', 'hasIcons': false};
             var15 = var16.map;
             var9 = function(arg1, arg2) {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
@@ -1044,9 +1024,7 @@ case 30:
             var13 = var21[var13];
             var13 = var17.bind(var4)(var13);
             var14 = var13.TableRowGroup;
-            var13 = {};
-            var16 = 'Share';
-            var13['title'] = var16;
+            var13 = {'title': 'Share', 'hasIcons': false};
             var18 = _closure1_slot11;
             var16 = 23;
             var16 = var21[var16];
@@ -1066,7 +1044,7 @@ case 30:
             var8 = var12.kind;
             var6 = 'guild';
             if(!(var6 !== var8)) { _fun0010_ip = 82; continue _fun0010 }
-case 83:
+case 54:
             var9 = _closure1_slot11;
             var8 = _closure1_slot17;
             var6 = {};
@@ -1074,7 +1052,7 @@ case 83:
             var6['override'] = var10;
             var6['experiment'] = var12;
             var6 = var9.bind(var4)(var8, var6);
-            _fun0010_ip = 84; continue _fun0010;
+            _fun0010_ip = 83; continue _fun0010;
 case 82:
             var9 = _closure1_slot11;
             var8 = _closure1_slot18;
@@ -1082,7 +1060,7 @@ case 82:
             var7['id'] = var11;
             var7['override'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 84:
+case 83:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -1378,8 +1356,8 @@ case 0:
             var3 = var3.bind(var5)(var1);
             var1 = var3.isEmpty;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0013_ip = 85; continue _fun0013 }
-case 86:
+            if(var1) { _fun0013_ip = 84; continue _fun0013 }
+case 85:
             var4 = _closure1_slot12;
             var3 = _closure1_slot5;
             var1 = {};
@@ -1431,8 +1409,8 @@ case 86:
             var6[1] = var7;
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0013_ip = 87; continue _fun0013;
-case 85:
+            _fun0013_ip = 86; continue _fun0013;
+case 84:
             var4 = _closure1_slot11;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -1447,7 +1425,7 @@ case 85:
             var6 = var6.NoResults;
             var2['Illustration'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 87:
+case 86:
             return var1;
         }
     };
@@ -1620,10 +1598,10 @@ case 0:
             var8 = var2 == var6;
             var4 = undefined;
             var2 = undefined;
-            if(var8) { _fun0014_ip = 88; continue _fun0014 }
-case 89:
-            var2 = var6.variantId;
+            if(var8) { _fun0014_ip = 87; continue _fun0014 }
 case 88:
+            var2 = var6.variantId;
+case 87:
             var1 = function getVariantLabel(arg1, arg2) {
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
@@ -1631,8 +1609,8 @@ case 0:
                     var5 = arg2;
                     var _closure3_slot0 = var5;
                     var1 = null;
-                    if(!(var1 != var5)) { _fun0015_ip = 90; continue _fun0015 }
-case 91:
+                    if(!(var1 != var5)) { _fun0015_ip = 89; continue _fun0015 }
+case 90:
                     var3 = var4.find;
                     var2 = function(arg1) {
                         var1 = arg1;
@@ -1642,20 +1620,20 @@ case 91:
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
-                    if(!(var1 == var2)) { _fun0015_ip = 92; continue _fun0015 }
-case 93:
+                    if(!(var1 == var2)) { _fun0015_ip = 91; continue _fun0015 }
+case 92:
                     var1 = global;
                     var1 = var1.HermesInternal;
                     var4 = var1.concat;
                     var3 = 'Unknown (';
                     var1 = ')';
                     var1 = var4.bind(var3)(var5, var1);
-                    _fun0015_ip = 94; continue _fun0015;
-case 92:
+                    _fun0015_ip = 93; continue _fun0015;
+case 91:
                     var1 = var2.label;
-case 94:
+case 93:
                     return var1;
-case 90:
+case 89:
                     var1 = 'N/A';
                     return var1;
                 }

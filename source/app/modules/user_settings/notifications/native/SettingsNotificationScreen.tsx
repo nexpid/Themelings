@@ -384,9 +384,12 @@ case 10:
             var5 = var6.bind(var10)(var5);
             var2['label'] = var5;
             var5 = _closure1_slot6;
-            var6 = var5.SCREEN_DOWNTIME_REMINDER_NOTIFICATIONS;
-            var5 = new Array(1);
+            var6 = var5.SCREEN_DOWNTIME_SCHEDULE_NOTIFICATIONS;
+            var5 = new Array(2);
             var5[0] = var6;
+            var6 = _closure1_slot6;
+            var6 = var6.SCREEN_DOWNTIME_REMINDER_NOTIFICATIONS;
+            var5[1] = var6;
             var2['settings'] = var5;
             var1[18] = var2;
             var2 = {};

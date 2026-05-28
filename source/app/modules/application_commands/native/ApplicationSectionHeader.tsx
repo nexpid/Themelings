@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
+    var13 = var13.MOBILE_FLOATING_ACCESSORY_BACKGROUND;
     var10['backgroundColor'] = var13;
     var5['applicationHeaderWrapper'] = var10;
     var10 = {'width': 16, 'height': 16, 'borderRadius': null, 'marginRight': 8};

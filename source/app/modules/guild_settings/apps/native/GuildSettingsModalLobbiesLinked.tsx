@@ -51,6 +51,8 @@ case 5:
             var7 = var9.name;
 case 4:
             var2['title'] = var7;
+            var7 = true;
+            var2['hasIcons'] = var7;
             var7 = var8.map;
             var6 = function(arg1) {
                 var1 = arg1;

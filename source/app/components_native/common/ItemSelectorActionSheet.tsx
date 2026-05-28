@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var13 = var1.title;
+            var15 = var1.title;
             var11 = var1.body;
             var14 = var1.items;
             var _closure2_slot0 = var14;
@@ -45,7 +45,8 @@ case 0:
             var _closure2_slot1 = var2;
             var2 = var1.onItemSelect;
             var _closure2_slot2 = var2;
-            var20 = var1.onClose;
+            var21 = var1.onClose;
+            var13 = var1.hasIcons;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 2;
@@ -54,18 +55,18 @@ case 0:
             var5 = var6.bind(var4)(var1);
             var3 = var5.useToken;
             var2 = _closure1_slot1;
-            var17 = 3;
-            var1 = var7[var17];
+            var18 = 3;
+            var1 = var7[var18];
             var1 = var2.bind(var4)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
             var1 = var1.TABLE_ROW_PADDING;
-            var19 = var3.bind(var5)(var1);
+            var20 = var3.bind(var5)(var1);
             var1 = 4;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
-            var18 = var1.bottom;
+            var19 = var1.bottom;
             var2 = var14.findIndex;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -74,7 +75,7 @@ case 0:
                 var1 = var2 === var1;
                 return var1;
             };
-            var16 = var2.bind(var14)(var1);
+            var17 = var2.bind(var14)(var1);
             var3 = _closure1_slot3;
             var1 = 5;
             var1 = var7[var1];
@@ -88,61 +89,60 @@ case 0:
             var5 = var6.bind(var4)(var5);
             var6 = var5.BottomSheetTitleHeader;
             var5 = {};
-            var5['title'] = var13;
+            var5['title'] = var15;
             var7 = null;
-            var8 = var7 != var20;
+            var8 = var7 != var21;
             if(!var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var15 = _closure1_slot3;
+            var16 = _closure1_slot3;
             var10 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var22 = _closure1_slot2;
             var8 = 7;
-            var8 = var21[var8];
+            var8 = var22[var8];
             var8 = var10.bind(var4)(var8);
             var10 = var8.ActionSheetCloseButton;
             var8 = {};
-            var8['onPress'] = var20;
-            var7 = var15.bind(var4)(var10, var8);
+            var8['onPress'] = var21;
+            var7 = var16.bind(var4)(var10, var8);
 case 2:
             var5['trailing'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['header'] = var5;
             var7 = _closure1_slot4;
             var10 = _closure1_slot0;
-            var15 = _closure1_slot2;
+            var16 = _closure1_slot2;
             var5 = 8;
-            var5 = var15[var5];
+            var5 = var16[var5];
             var5 = var10.bind(var4)(var5);
             var6 = var5.BottomSheetScrollView;
             var5 = {};
             var8 = {};
-            var8['paddingHorizontal'] = var19;
-            var19 = _closure1_slot1;
-            var17 = var15[var17];
-            var17 = var19.bind(var4)(var17);
-            var17 = var17.spacing;
-            var17 = var17.PX_16;
-            var17 = var18 + var17;
-            var8['paddingBottom'] = var17;
+            var8['paddingHorizontal'] = var20;
+            var20 = _closure1_slot1;
+            var18 = var16[var18];
+            var18 = var20.bind(var4)(var18);
+            var18 = var18.spacing;
+            var18 = var18.PX_16;
+            var18 = var19 + var18;
+            var8['paddingBottom'] = var18;
             var5['contentContainerStyle'] = var8;
             var8 = new Array(2);
             var8[0] = var11;
             var11 = _closure1_slot3;
             var9 = 9;
-            var9 = var15[var9];
+            var9 = var16[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.TableRadioGroup;
             var9 = {};
-            var15 = 0;
-            var17 = var16 >= var15;
-            var15 = -1;
-            if(!var17) { _fun0001_ip = 4; continue _fun0001 }
+            var16 = 0;
+            var18 = var17 >= var16;
+            var16 = -1;
+            if(!var18) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var15 = var16;
+            var16 = var17;
 case 4:
-            var9['value'] = var15;
-            var9['accessibilityLabel'] = var13;
-            var13 = false;
+            var9['value'] = var16;
+            var9['accessibilityLabel'] = var15;
             var9['hasIcons'] = var13;
             var13 = function onChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

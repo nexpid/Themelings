@@ -116,6 +116,8 @@ case 3:
                 var7 = var11[var5];
                 var7 = var7.guildName;
                 var1['title'] = var7;
+                var7 = false;
+                var1['hasIcons'] = var7;
                 var9 = _closure1_slot4;
                 var7 = 9;
                 var6 = var16[var7];

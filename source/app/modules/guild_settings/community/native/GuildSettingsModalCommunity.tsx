@@ -121,7 +121,7 @@ case 0:
             var1 = var1.modules;
             var1 = var1.mobile;
             var1 = var1.TABLE_ROW_PADDING;
-            var19 = var4.bind(var6)(var1);
+            var15 = var4.bind(var6)(var1);
             var1 = _closure1_slot18;
             var6 = var1.bind(var5)();
             var1 = 13;
@@ -151,8 +151,8 @@ case 0:
             var1 = var1.guild;
             var _closure2_slot5 = var1;
             var10 = var8[var4];
-            var16 = var7.bind(var5)(var10);
-            var15 = var16.useStateFromStoresObject;
+            var18 = var7.bind(var5)(var10);
+            var16 = var18.useStateFromStoresObject;
             var10 = _closure1_slot7;
             var13 = new Array(1);
             var13[0] = var10;
@@ -188,9 +188,9 @@ case 4:
                     return var1;
                 }
             };
-            var10 = var15.bind(var16)(var13, var10);
-            var29 = var10.canManage;
-            var _closure2_slot6 = var29;
+            var10 = var16.bind(var18)(var13, var10);
+            var30 = var10.canManage;
+            var _closure2_slot6 = var30;
             var13 = var10.isAdmin;
             var4 = var8[var4];
             var10 = var7.bind(var5)(var4);
@@ -233,8 +233,8 @@ case 8:
             var4 = var8.bind(var10)(var7, var4);
             var22 = var4.rulesChannel;
             var _closure2_slot7 = var22;
-            var24 = var4.publicUpdatesChannel;
-            var _closure2_slot8 = var24;
+            var25 = var4.publicUpdatesChannel;
+            var _closure2_slot8 = var25;
             var10 = _closure1_slot3;
             var8 = var10.useEffect;
             var7 = new Array(3);
@@ -328,24 +328,24 @@ case 14:
             var18 = var8.bind(var10)(var4, var7);
             var10 = null;
             var16 = var10 != var1;
-            var15 = _closure1_slot0;
+            var19 = _closure1_slot0;
             var4 = _closure1_slot2;
             var21 = 16;
             var7 = var4[var21];
-            var7 = var15.bind(var5)(var7);
+            var7 = var19.bind(var5)(var7);
             var8 = var7.intl;
             var7 = var8.string;
             var4 = var4[var21];
-            var4 = var15.bind(var5)(var4);
+            var4 = var19.bind(var5)(var4);
             var4 = var4.t;
             if(var16) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var15 = var4.kQzUNk;
-            var15 = var7.bind(var8)(var15);
+            var19 = var4.kQzUNk;
+            var19 = var7.bind(var8)(var19);
             _fun0001_ip = 17; continue _fun0001;
 case 15:
             var4 = var4.aQzVF8;
-            var15 = var7.bind(var8)(var4);
+            var19 = var7.bind(var8)(var4);
 case 17:
             var7 = _closure1_slot3;
             var8 = var7.useEffect;
@@ -648,16 +648,18 @@ case 36:
                     var2 = var7.id;
 case 35:
                     var3['selectedItem'] = var2;
+                    var2 = false;
+                    var3['hasIcons'] = var2;
                     var2 = 'SelectRulesChannel';
                     var2 = var5.bind(var6)(var4, var2, var3);
                     return var1;
                 }
             };
-            var27 = var8.bind(var7)(var3, var4);
+            var28 = var8.bind(var7)(var3, var4);
             var4 = var7.useCallback;
             var3 = new Array(2);
             var3[0] = var2;
-            var3[1] = var24;
+            var3[1] = var25;
             var2 = function() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -721,12 +723,14 @@ case 36:
                     var2 = var7.id;
 case 35:
                     var3['selectedItem'] = var2;
+                    var2 = false;
+                    var3['hasIcons'] = var2;
                     var2 = 'SelectUpdatesChannel';
                     var2 = var5.bind(var6)(var4, var2, var3);
                     return var1;
                 }
             };
-            var25 = var4.bind(var7)(var2, var3);
+            var26 = var4.bind(var7)(var2, var3);
             var3 = var10 == var1;
             var2 = undefined;
             if(var3) { _fun0001_ip = 37; continue _fun0001 }
@@ -791,6 +795,8 @@ case 37:
                 var3['onItemSelect'] = var2;
                 var2 = _closure2_slot10;
                 var3['selectedItem'] = var2;
+                var2 = false;
+                var3['hasIcons'] = var2;
                 var2 = 'SelectLocale';
                 var2 = var5.bind(var6)(var4, var2, var3);
                 return var1;
@@ -820,7 +826,7 @@ case 40:
             var7 = var6.Stack;
             var6 = {};
             var11 = {};
-            var11['paddingHorizontal'] = var19;
+            var11['paddingHorizontal'] = var15;
             var6['style'] = var11;
             var11 = _closure1_slot1;
             var9 = var9[var14];
@@ -829,7 +835,7 @@ case 40:
             var9 = var9.PX_24;
             var6['spacing'] = var9;
             var9 = var10 != var22;
-            var31 = null;
+            var32 = null;
             if(!var9) { _fun0001_ip = 41; continue _fun0001 }
 case 42:
             var11 = _closure1_slot0;
@@ -837,141 +843,144 @@ case 42:
             var9 = 19;
             var9 = var14[var9];
             var20 = var11.bind(var5)(var9);
-            var19 = var20.computeChannelName;
-            var36 = _closure1_slot9;
-            var35 = _closure1_slot8;
-            var34 = true;
-            var38 = var20;
-            var37 = var22;
-            var31 = var38[var19](var37, var36, var35, var34, var33);
+            var15 = var20.computeChannelName;
+            var37 = _closure1_slot9;
+            var36 = _closure1_slot8;
+            var35 = true;
+            var39 = var20;
+            var38 = var22;
+            var32 = var39[var15](var38, var37, var36, var35, var34);
 case 41:
-            var20 = _closure1_slot16;
-            var28 = _closure1_slot0;
-            var26 = _closure1_slot2;
+            var22 = _closure1_slot16;
+            var29 = _closure1_slot0;
+            var27 = _closure1_slot2;
             var11 = 25;
-            var9 = var26[var11];
-            var9 = var28.bind(var5)(var9);
-            var19 = var9.TableRowGroup;
+            var9 = var27[var11];
+            var9 = var29.bind(var5)(var9);
+            var20 = var9.TableRowGroup;
             var9 = {};
-            var14 = var26[var21];
-            var14 = var28.bind(var5)(var14);
+            var14 = var27[var21];
+            var14 = var29.bind(var5)(var14);
             var23 = var14.intl;
-            var22 = var23.string;
-            var14 = var26[var21];
-            var14 = var28.bind(var5)(var14);
+            var15 = var23.string;
+            var14 = var27[var21];
+            var14 = var29.bind(var5)(var14);
             var14 = var14.t;
             var14 = var14["3q1TEo"];
-            var14 = var22.bind(var23)(var14);
+            var14 = var15.bind(var23)(var14);
             var9['helperText'] = var14;
+            var15 = false;
+            var9['hasIcons'] = var15;
             var14 = 26;
-            var22 = var26[var14];
-            var22 = var28.bind(var5)(var22);
-            var23 = var22.TableRow;
-            var22 = {};
-            var30 = var26[var21];
-            var30 = var28.bind(var5)(var30);
-            var33 = var30.intl;
-            var32 = var33.string;
-            var30 = var26[var21];
-            var30 = var28.bind(var5)(var30);
-            var30 = var30.t;
-            var30 = var30.U5BW0c;
-            var30 = var32.bind(var33)(var30);
-            var22['label'] = var30;
-            var29 = !var29;
-            var22['disabled'] = var29;
-            var26 = var26[var14];
-            var26 = var28.bind(var5)(var26);
-            var26 = var26.TableRow;
-            var28 = var26.TrailingText;
-            var26 = {};
-            var32 = var10 != var31;
-            var29 = '';
-            var30 = var29;
-            if(!var32) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
-            var30 = var31;
-case 43:
-            var26['text'] = var30;
-            var26 = var20.bind(var5)(var28, var26);
-            var22['trailing'] = var26;
-            var26 = true;
-            var22['arrow'] = var26;
-            var22['onPress'] = var27;
-            var22 = var20.bind(var5)(var23, var22);
-            var9['children'] = var22;
-            var19 = var20.bind(var5)(var19, var9);
-            var9 = new Array(4);
-            var9[0] = var19;
-            var19 = var10 != var24;
-            var30 = null;
-            if(!var19) { _fun0001_ip = 45; continue _fun0001 }
-case 46:
-            var20 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var19 = 19;
-            var19 = var22[var19];
-            var23 = var20.bind(var5)(var19);
-            var22 = var23.computeChannelName;
-            var36 = _closure1_slot9;
-            var35 = _closure1_slot8;
-            var38 = var23;
-            var37 = var24;
-            var34 = true;
-            var30 = var38[var22](var37, var36, var35, var34, var33);
-case 45:
-            var22 = _closure1_slot16;
-            var28 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            var19 = var27[var11];
-            var19 = var28.bind(var5)(var19);
-            var20 = var19.TableRowGroup;
-            var19 = {};
-            var23 = var27[var21];
-            var23 = var28.bind(var5)(var23);
-            var31 = var23.intl;
-            var24 = var31.string;
-            var23 = var27[var21];
-            var23 = var28.bind(var5)(var23);
-            var23 = var23.t;
-            var23 = var23.Fg6O/5;
-            var23 = var24.bind(var31)(var23);
-            var19['helperText'] = var23;
             var23 = var27[var14];
-            var23 = var28.bind(var5)(var23);
+            var23 = var29.bind(var5)(var23);
             var24 = var23.TableRow;
             var23 = {};
             var31 = var27[var21];
-            var31 = var28.bind(var5)(var31);
-            var33 = var31.intl;
-            var32 = var33.string;
+            var31 = var29.bind(var5)(var31);
+            var34 = var31.intl;
+            var33 = var34.string;
             var31 = var27[var21];
-            var31 = var28.bind(var5)(var31);
+            var31 = var29.bind(var5)(var31);
             var31 = var31.t;
-            var31 = var31.vAyDGU;
-            var31 = var32.bind(var33)(var31);
+            var31 = var31.U5BW0c;
+            var31 = var33.bind(var34)(var31);
             var23['label'] = var31;
-            var31 = !var13;
-            var23['disabled'] = var31;
+            var30 = !var30;
+            var23['disabled'] = var30;
             var27 = var27[var14];
-            var27 = var28.bind(var5)(var27);
+            var27 = var29.bind(var5)(var27);
             var27 = var27.TableRow;
-            var28 = var27.TrailingText;
+            var29 = var27.TrailingText;
             var27 = {};
-            var31 = var10 != var30;
-            if(!var31) { _fun0001_ip = 47; continue _fun0001 }
-case 48:
-            var29 = var30;
-case 47:
-            var27['text'] = var29;
-            var27 = var22.bind(var5)(var28, var27);
+            var33 = var10 != var32;
+            var30 = '';
+            var31 = var30;
+            if(!var33) { _fun0001_ip = 43; continue _fun0001 }
+case 44:
+            var31 = var32;
+case 43:
+            var27['text'] = var31;
+            var27 = var22.bind(var5)(var29, var27);
             var23['trailing'] = var27;
-            var23['arrow'] = var26;
-            var23['onPress'] = var25;
+            var27 = true;
+            var23['arrow'] = var27;
+            var23['onPress'] = var28;
             var23 = var22.bind(var5)(var24, var23);
-            var19['children'] = var23;
-            var19 = var22.bind(var5)(var20, var19);
-            var9[1] = var19;
+            var9['children'] = var23;
+            var20 = var22.bind(var5)(var20, var9);
+            var9 = new Array(4);
+            var9[0] = var20;
+            var20 = var10 != var25;
+            var31 = null;
+            if(!var20) { _fun0001_ip = 45; continue _fun0001 }
+case 46:
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var20 = 19;
+            var20 = var23[var20];
+            var24 = var22.bind(var5)(var20);
+            var23 = var24.computeChannelName;
+            var37 = _closure1_slot9;
+            var36 = _closure1_slot8;
+            var39 = var24;
+            var38 = var25;
+            var35 = true;
+            var31 = var39[var23](var38, var37, var36, var35, var34);
+case 45:
+            var23 = _closure1_slot16;
+            var29 = _closure1_slot0;
+            var28 = _closure1_slot2;
+            var20 = var28[var11];
+            var20 = var29.bind(var5)(var20);
+            var22 = var20.TableRowGroup;
+            var20 = {};
+            var24 = var28[var21];
+            var24 = var29.bind(var5)(var24);
+            var32 = var24.intl;
+            var25 = var32.string;
+            var24 = var28[var21];
+            var24 = var29.bind(var5)(var24);
+            var24 = var24.t;
+            var24 = var24.Fg6O/5;
+            var24 = var25.bind(var32)(var24);
+            var20['helperText'] = var24;
+            var20['hasIcons'] = var15;
+            var24 = var28[var14];
+            var24 = var29.bind(var5)(var24);
+            var25 = var24.TableRow;
+            var24 = {};
+            var32 = var28[var21];
+            var32 = var29.bind(var5)(var32);
+            var34 = var32.intl;
+            var33 = var34.string;
+            var32 = var28[var21];
+            var32 = var29.bind(var5)(var32);
+            var32 = var32.t;
+            var32 = var32.vAyDGU;
+            var32 = var33.bind(var34)(var32);
+            var24['label'] = var32;
+            var32 = !var13;
+            var24['disabled'] = var32;
+            var28 = var28[var14];
+            var28 = var29.bind(var5)(var28);
+            var28 = var28.TableRow;
+            var29 = var28.TrailingText;
+            var28 = {};
+            var32 = var10 != var31;
+            if(!var32) { _fun0001_ip = 47; continue _fun0001 }
+case 48:
+            var30 = var31;
+case 47:
+            var28['text'] = var30;
+            var28 = var23.bind(var5)(var29, var28);
+            var24['trailing'] = var28;
+            var24['arrow'] = var27;
+            var24['onPress'] = var26;
+            var24 = var23.bind(var5)(var25, var24);
+            var20['children'] = var24;
+            var20 = var23.bind(var5)(var22, var20);
+            var9[1] = var20;
             var17 = function() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -1016,6 +1025,8 @@ case 49:
                     var5 = var5.l2g81/;
                     var5 = var6.bind(var8)(var5);
                     var1['helperText'] = var5;
+                    var5 = false;
+                    var1['hasIcons'] = var5;
                     var8 = 26;
                     var5 = var12[var8];
                     var5 = var9.bind(var4)(var5);
@@ -1070,7 +1081,8 @@ case 54:
             var11 = var20.bind(var5)(var11);
             var12 = var11.TableRowGroup;
             var11 = {};
-            var11['helperText'] = var15;
+            var11['helperText'] = var19;
+            var11['hasIcons'] = var15;
             var14 = var17[var14];
             var14 = var20.bind(var5)(var14);
             var15 = var14.TableRow;

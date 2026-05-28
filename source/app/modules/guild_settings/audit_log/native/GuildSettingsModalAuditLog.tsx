@@ -346,9 +346,7 @@ case 12:
                 var1 = undefined;
                 var4 = var11.bind(var1)(var2);
                 var3 = var4.showSimpleActionSheet;
-                var2 = {};
-                var5 = 'GuildSettingsAuditLogFilter';
-                var2['key'] = var5;
+                var2 = {'key': 'GuildSettingsAuditLogFilter', 'options': null, 'hasIcons': false};
                 var6 = {};
                 var8 = 15;
                 var5 = var12[var8];

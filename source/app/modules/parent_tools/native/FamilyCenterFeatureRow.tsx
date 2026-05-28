@@ -206,6 +206,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var7["6JkHSg"];
         var7 = var8.bind(var10)(var7);
         var5['title'] = var7;
+        var7 = true;
+        var5['hasIcons'] = var7;
         var8 = var9.map;
         var7 = function(arg1) {
             var1 = arg1;

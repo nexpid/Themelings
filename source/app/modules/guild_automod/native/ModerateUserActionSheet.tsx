@@ -670,6 +670,8 @@ case 45:
             var7 = var8.bind(var5)(var7);
             var8 = var7.TableRowGroup;
             var7 = {};
+            var11 = true;
+            var7['hasIcons'] = var11;
             var11 = var12.map;
             var10 = function(arg1, arg2) {
                 var5 = _closure1_slot9;

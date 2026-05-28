@@ -254,9 +254,7 @@ case 9:
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.showSimpleActionSheet;
-                    var2 = {};
-                    var6 = 'RoleItem';
-                    var2['key'] = var6;
+                    var2 = {'key': 'RoleItem', 'options': null, 'hasIcons': false};
                     var2['options'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;

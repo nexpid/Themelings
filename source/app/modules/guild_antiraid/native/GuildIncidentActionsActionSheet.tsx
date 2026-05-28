@@ -440,8 +440,7 @@ case 8:
             var6 = var28.bind(var4)(var6);
             var9 = var6.TableRowGroup;
             var7 = {};
-            var6 = false;
-            var7['hasIcons'] = var6;
+            var7['hasIcons'] = var8;
             var23 = _closure1_slot14;
             var6 = 17;
             var12 = var24[var6];

@@ -221,6 +221,7 @@ case 4:
             var5 = var5.ActionSheetRow;
             var10 = var5.Group;
             var5 = {};
+            var5['hasIcons'] = var9;
             var12 = var6[var15];
             var12 = var7.bind(var4)(var12);
             var14 = var12.ActionSheetSwitchRow;
@@ -329,6 +330,7 @@ case 4:
             var6 = var6.ActionSheetRow;
             var7 = var6.Group;
             var6 = {};
+            var6['hasIcons'] = var9;
             var10 = null;
             if(!var11) { _fun0001_ip = 5; continue _fun0001 }
 case 6:

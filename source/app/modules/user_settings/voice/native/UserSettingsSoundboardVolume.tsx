@@ -93,6 +93,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.xbMc8r;
         var5 = var6.bind(var7)(var5);
         var1['title'] = var5;
+        var5 = false;
+        var1['hasIcons'] = var5;
         var5 = 9;
         var5 = var20[var5];
         var5 = var14.bind(var4)(var5);

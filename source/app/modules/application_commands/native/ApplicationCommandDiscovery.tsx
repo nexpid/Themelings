@@ -259,7 +259,7 @@ case 35:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_SURFACE_HIGH;
+    var10 = var10.MOBILE_FLOATING_ACCESSORY_BACKGROUND;
     var9['backgroundColor'] = var10;
     var4['commandsList'] = var9;
     var4 = var7.bind(var8)(var4);

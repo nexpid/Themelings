@@ -141,9 +141,7 @@ case 12:
             var1 = var14[var1];
             var1 = var12.bind(var4)(var1);
             var2 = var1.TableRowGroup;
-            var1 = {};
-            var5 = 'Friend Anniversary';
-            var1['title'] = var5;
+            var1 = {'title': 'Friend Anniversary', 'hasIcons': false};
             var9 = _closure1_slot10;
             var5 = 11;
             var5 = var14[var5];
@@ -225,6 +223,8 @@ case 14:
                 };
                 var5 = var6.bind(var7)(var5);
                 var2['options'] = var5;
+                var5 = false;
+                var2['hasIcons'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
@@ -337,9 +337,7 @@ case 14:
         var3 = undefined;
         var1 = var7.bind(var3)(var1);
         var2 = var1.TableRowGroup;
-        var1 = {};
-        var5 = 'Trial Offers';
-        var1['title'] = var5;
+        var1 = {'title': 'Trial Offers', 'hasIcons': false};
         var12 = _closure1_slot10;
         var6 = 11;
         var5 = var10[var6];
@@ -414,9 +412,7 @@ case 14:
         var1 = var6[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.TableRowGroup;
-        var1 = {};
-        var6 = 'Premium Toggles';
-        var1['title'] = var6;
+        var1 = {'title': 'Premium Toggles', 'hasIcons': false};
         var6 = var7.map;
         var5 = function(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -525,9 +521,7 @@ case 28:
         var3 = undefined;
         var1 = var9.bind(var3)(var1);
         var2 = var1.TableRowGroup;
-        var1 = {};
-        var5 = 'Payment Flow Test';
-        var1['title'] = var5;
+        var1 = {'title': 'Payment Flow Test', 'hasIcons': false};
         var7 = _closure1_slot10;
         var5 = 11;
         var5 = var11[var5];
@@ -579,9 +573,7 @@ case 28:
         var3 = undefined;
         var1 = var9.bind(var3)(var1);
         var2 = var1.TableRowGroup;
-        var1 = {};
-        var5 = 'Orbs';
-        var1['title'] = var5;
+        var1 = {'title': 'Orbs', 'hasIcons': false};
         var7 = _closure1_slot10;
         var5 = 11;
         var5 = var11[var5];
@@ -633,9 +625,7 @@ case 28:
         var3 = undefined;
         var1 = var9.bind(var3)(var1);
         var2 = var1.TableRowGroup;
-        var1 = {};
-        var5 = 'Revenue Smoke Tests';
-        var1['title'] = var5;
+        var1 = {'title': 'Revenue Smoke Tests', 'hasIcons': false};
         var7 = _closure1_slot10;
         var5 = 11;
         var5 = var11[var5];
@@ -687,9 +677,8 @@ case 28:
         var3 = undefined;
         var1 = var9.bind(var3)(var1);
         var2 = var1.TableRowGroup;
-        var1 = {};
+        var1 = {'title': 'Guild Powerups', 'hasIcons': false};
         var10 = 'Guild Powerups';
-        var1['title'] = var10;
         var7 = _closure1_slot10;
         var5 = 11;
         var5 = var11[var5];

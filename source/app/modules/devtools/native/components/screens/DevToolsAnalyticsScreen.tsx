@@ -679,9 +679,7 @@ case 25:
             var17 = var25[var17];
             var17 = var18.bind(var4)(var17);
             var18 = var17.TableRowGroup;
-            var17 = {};
-            var25 = 'Analytics Events';
-            var17['title'] = var25;
+            var17 = {'title': 'Analytics Events', 'hasIcons': false};
             var22 = var22.length;
             if(!(var23 !== var22)) { _fun0004_ip = 32; continue _fun0004 }
 case 33:

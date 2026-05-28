@@ -200,6 +200,8 @@ case 6:
             var6 = var25.bind(var4)(var6);
             var7 = var6.TableRowGroup;
             var6 = {};
+            var9 = false;
+            var6['hasIcons'] = var9;
             var16 = _closure1_slot6;
             var11 = 14;
             var9 = var20[var11];

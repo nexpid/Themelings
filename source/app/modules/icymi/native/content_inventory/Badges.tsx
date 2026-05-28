@@ -388,8 +388,8 @@ case 0:
             var1 = var2.isEntryNew;
             var2 = var1.bind(var2)(var3);
             var1 = null;
-            if(!var2) { _fun0005_ip = 5; continue _fun0005 }
-case 17:
+            if(!var2) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
@@ -419,7 +419,7 @@ case 17:
             var6 = var6.STATUS_POSITIVE;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 5:
+case 17:
             return var1;
         }
     };
@@ -440,13 +440,13 @@ case 0:
             var3 = null;
             var2 = var3 == var12;
             var1 = null;
-            if(var2) { _fun0006_ip = 18; continue _fun0006 }
-case 19:
+            if(var2) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
             var2 = 2;
             var2 = var12 < var2;
             var1 = null;
-            if(var2) { _fun0006_ip = 18; continue _fun0006 }
-case 20:
+            if(var2) { _fun0006_ip = 19; continue _fun0006 }
+case 21:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
@@ -478,7 +478,7 @@ case 20:
             var6 = var6.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 18:
+case 19:
             return var1;
         }
     };
@@ -499,8 +499,8 @@ case 0:
             var4 = null;
             var2 = var4 == var3;
             var1 = null;
-            if(var2) { _fun0007_ip = 21; continue _fun0007 }
-case 19:
+            if(var2) { _fun0007_ip = 22; continue _fun0007 }
+case 20:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 16;
@@ -509,8 +509,8 @@ case 19:
             var2 = var2.TrendingType;
             var2 = var2.TRENDING_TYPE_UNSPECIFIED;
             var1 = null;
-            if(!(var3 !== var2)) { _fun0007_ip = 21; continue _fun0007 }
-case 22:
+            if(!(var3 !== var2)) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
@@ -540,7 +540,7 @@ case 22:
             var6 = var6.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 21:
+case 22:
             return var1;
         }
     };
@@ -560,8 +560,8 @@ case 0:
             var2 = var1.bind(var2)(var3);
             var1 = null;
             var2 = var1 == var2;
-            if(var2) { _fun0008_ip = 23; continue _fun0008 }
-case 24:
+            if(var2) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
@@ -591,7 +591,7 @@ case 24:
             var6 = var6.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 23:
+case 24:
             return var1;
         }
     };
@@ -610,8 +610,8 @@ case 0:
             var1 = var2.getEntryDuration;
             var19 = var1.bind(var2)(var3);
             var1 = null;
-            if(!(var1 != var19)) { _fun0009_ip = 25; continue _fun0009 }
-case 26:
+            if(!(var1 != var19)) { _fun0009_ip = 26; continue _fun0009 }
+case 27:
             var13 = _closure1_slot0;
             var8 = _closure1_slot2;
             var12 = 14;
@@ -673,7 +673,7 @@ case 26:
             var2['iconColor'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 25:
+case 26:
             return var1;
         }
     };

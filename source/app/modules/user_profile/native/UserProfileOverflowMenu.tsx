@@ -1566,10 +1566,8 @@ case 121:
                     var2 = var6[var2];
                     var4 = var9.bind(var1)(var2);
                     var3 = var4.showSimpleActionSheet;
-                    var2 = {};
+                    var2 = {'options': null, 'key': 'copy-info', 'header': null, 'stackingBehavior': 'stack', 'hasIcons': false};
                     var2['options'] = var5;
-                    var5 = 'copy-info';
-                    var2['key'] = var5;
                     var5 = {};
                     var7 = var6[var10];
                     var7 = var9.bind(var1)(var7);
@@ -1582,8 +1580,6 @@ case 121:
                     var6 = var7.bind(var8)(var6);
                     var5['title'] = var6;
                     var2['header'] = var5;
-                    var5 = 'stack';
-                    var2['stackingBehavior'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }

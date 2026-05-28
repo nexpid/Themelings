@@ -109,6 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var5['value'] = var14;
         var5['onChange'] = var10;
+        var10 = false;
+        var5['hasIcons'] = var10;
         var10 = var11.map;
         var7 = function(arg1) {
             var1 = arg1;

@@ -72,9 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var11[var7];
         var7 = var10.bind(var4)(var7);
         var8 = var7.TableRowGroup;
-        var7 = {};
-        var9 = 'Text Variants';
-        var7['title'] = var9;
+        var7 = {'title': 'Text Variants', 'hasIcons': false};
         var9 = 7;
         var9 = var11[var9];
         var9 = var10.bind(var4)(var9);

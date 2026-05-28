@@ -313,6 +313,8 @@ case 12:
             var15 = var15.zdzyFo;
             var15 = var19.bind(var22)(var15);
             var12['title'] = var15;
+            var15 = false;
+            var12['hasIcons'] = var15;
             var19 = var21.map;
             var15 = function(arg1, arg2) {
                 var5 = _closure1_slot6;
@@ -356,6 +358,8 @@ case 14:
             var14 = var14.FkFLDN;
             var14 = var15.bind(var19)(var14);
             var11['title'] = var14;
+            var14 = false;
+            var11['hasIcons'] = var14;
             var15 = var18.map;
             var14 = function(arg1, arg2) {
                 var5 = _closure1_slot6;
@@ -388,6 +392,8 @@ case 16:
             var10 = var23.bind(var4)(var10);
             var11 = var10.TableRowGroup;
             var10 = {};
+            var13 = false;
+            var10['hasIcons'] = var13;
             var15 = _closure1_slot6;
             var13 = 8;
             var13 = var24[var13];

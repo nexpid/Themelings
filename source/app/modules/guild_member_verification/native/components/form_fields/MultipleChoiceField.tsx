@@ -80,15 +80,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var2 = var1.field;
-            var1 = var1.onChange;
-            var _closure2_slot0 = var1;
+            var3 = var1.onChange;
+            var _closure2_slot0 = var3;
+            var10 = var1.hasIcons;
             var1 = _closure1_slot6;
             var4 = undefined;
-            var14 = var1.bind(var4)();
-            var13 = var2.label;
+            var15 = var1.bind(var4)();
+            var14 = var2.label;
             var1 = var2.choices;
             var _closure2_slot1 = var1;
-            var12 = var2.response;
+            var13 = var2.response;
             var6 = _closure1_slot2;
             var3 = var6.useMemo;
             var2 = new Array(1);
@@ -111,44 +112,43 @@ case 0:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
-            var6 = var14.container;
+            var6 = var15.container;
             var1['style'] = var6;
             var8 = _closure1_slot4;
             var7 = _closure1_slot0;
-            var10 = _closure1_slot1;
+            var12 = _closure1_slot1;
             var5 = 7;
-            var5 = var10[var5];
+            var5 = var12[var5];
             var5 = var7.bind(var4)(var5);
             var6 = var5.Text;
             var5 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
-            var14 = var14.formHeader;
-            var5['style'] = var14;
-            var5['children'] = var13;
+            var15 = var15.formHeader;
+            var5['style'] = var15;
+            var5['children'] = var14;
             var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
             var6 = 8;
-            var6 = var10[var6];
+            var6 = var12[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.TableRadioGroup;
             var6 = {};
-            var10 = null;
-            var13 = var10 != var12;
-            var10 = -1;
-            if(!var13) { _fun0001_ip = 2; continue _fun0001 }
+            var12 = null;
+            var14 = var12 != var13;
+            var12 = -1;
+            if(!var14) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var10 = var12;
+            var12 = var13;
 case 2:
-            var6['defaultValue'] = var10;
-            var10 = function onChange(arg1) {
+            var6['defaultValue'] = var12;
+            var12 = function onChange(arg1) {
                 var3 = _closure2_slot0;
                 var2 = undefined;
                 var1 = arg1;
                 var1 = var3.bind(var2)(var1);
                 return var1;
             };
-            var6['onChange'] = var10;
-            var10 = false;
+            var6['onChange'] = var12;
             var6['hasIcons'] = var10;
             var10 = var11.map;
             var9 = function(arg1) {

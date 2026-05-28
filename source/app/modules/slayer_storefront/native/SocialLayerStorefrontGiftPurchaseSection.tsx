@@ -221,26 +221,18 @@ case 12:
             var5['variant'] = var15;
             var15 = 16;
             var15 = var17[var15];
-            var17 = var16.bind(var4)(var15);
-            var16 = var17.getMobileFinePrintMessageForApplication;
-            var14 = var14 != var13;
-            var15 = undefined;
-            if(!var14) { _fun0001_ip = 14; continue _fun0001 }
+            var16 = var16.bind(var4)(var15);
+            var15 = var16.getMobileFinePrintMessageForApplication;
+            var17 = var14 != var13;
+            var14 = undefined;
+            if(!var17) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var15 = var13;
+            var14 = var13;
 case 14:
-            var14 = {};
-            var13 = true;
-            var14['shouldAppendDisclaimer'] = var13;
             var13 = {};
-            var18 = 'SocialLayerStorefrontGiftPurchaseSection';
-            var13['location'] = var18;
-            var23 = var17;
-            var22 = var15;
-            var21 = var10;
-            var20 = var14;
-            var19 = var13;
-            var13 = var23[var16](var22, var21, var20, var19, var18);
+            var17 = true;
+            var13['shouldAppendDisclaimer'] = var17;
+            var13 = var15.bind(var16)(var14, var10, var13);
             var5['children'] = var13;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);

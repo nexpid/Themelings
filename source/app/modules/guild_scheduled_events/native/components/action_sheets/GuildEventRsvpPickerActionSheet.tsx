@@ -192,6 +192,8 @@ case 9:
             var8 = {};
             var8['defaultValue'] = var15;
             var8['onChange'] = var14;
+            var14 = false;
+            var8['hasIcons'] = var14;
             var12 = var17[var12];
             var14 = var16.bind(var4)(var12);
             var12 = var14.getResponseOptions;

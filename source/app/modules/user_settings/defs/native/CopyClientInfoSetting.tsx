@@ -145,6 +145,8 @@ case 0:
             var5 = var5.ActionSheetRow;
             var6 = var5.Group;
             var5 = {};
+            var8 = false;
+            var5['hasIcons'] = var8;
             var15 = _closure1_slot4;
             var8 = var10[var9];
             var8 = var11.bind(var3)(var8);

@@ -96,6 +96,8 @@ case 3:
 case 2:
             var5['defaultValue'] = var9;
             var5['onChange'] = var8;
+            var8 = true;
+            var5['hasIcons'] = var8;
             var18 = _closure1_slot7;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;

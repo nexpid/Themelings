@@ -440,6 +440,7 @@ case 10:
             var32 = var32.xFn72s;
             var32 = var33.bind(var36)(var32);
             var17['title'] = var32;
+            var17['hasIcons'] = var19;
             var32 = 29;
             var28 = var28[var32];
             var28 = var29.bind(var4)(var28);
@@ -597,6 +598,8 @@ case 23:
                         return var1;
                     };
                     var3['onClose'] = var2;
+                    var2 = false;
+                    var3['hasIcons'] = var2;
                     var2 = 'NewChannelFollowerGuildPicker';
                     var2 = var5.bind(var6)(var4, var2, var3);
                     return var1;
@@ -625,6 +628,7 @@ case 23:
             var33 = var33.PDn2fR;
             var33 = var36.bind(var38)(var33);
             var20['title'] = var33;
+            var20['hasIcons'] = var19;
             var28 = var28[var32];
             var28 = var29.bind(var4)(var28);
             var29 = var28.TableRow;

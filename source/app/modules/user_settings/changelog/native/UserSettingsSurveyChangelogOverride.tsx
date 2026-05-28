@@ -38,6 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.ActionSheetRow;
         var6 = var5.Group;
         var5 = {};
+        var8 = true;
+        var5['hasIcons'] = var8;
         var8 = global;
         var9 = var8.Object;
         var8 = var9.entries;
@@ -310,9 +312,7 @@ case 0:
             var1 = var9[var1];
             var1 = var7.bind(var4)(var1);
             var2 = var1.TableRowGroup;
-            var1 = {};
-            var5 = 'Surveys';
-            var1['title'] = var5;
+            var1 = {'title': 'Surveys', 'hasIcons': false};
             var13 = _closure1_slot9;
             var6 = 20;
             var5 = var9[var6];
@@ -576,9 +576,7 @@ case 23:
         var3 = undefined;
         var1 = var7.bind(var3)(var1);
         var2 = var1.TableRowGroup;
-        var1 = {};
-        var5 = 'Changelog';
-        var1['title'] = var5;
+        var1 = {'title': 'Changelog', 'hasIcons': false};
         var12 = _closure1_slot9;
         var6 = 20;
         var5 = var10[var6];

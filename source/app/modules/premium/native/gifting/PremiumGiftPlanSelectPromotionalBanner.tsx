@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var2 = {'minHeight': 60, 'overflow': 'hidden'};
         var1['gradient'] = var2;
-        var2 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'width': '100%', 'aspectRatio': 5, 'opacity': 0.4};
+        var2 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'width': '100%', 'aspectRatio': 5};
         var1['bannerImage'] = var2;
         var2 = {'minHeight': 60, 'justifyContent': 'center', 'gap': 2};
         var5 = _closure1_slot1;

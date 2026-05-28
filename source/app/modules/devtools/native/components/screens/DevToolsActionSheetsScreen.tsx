@@ -379,9 +379,7 @@ case 2:
         var12 = var20[var12];
         var12 = var16.bind(var4)(var12);
         var13 = var12.TableRowGroup;
-        var12 = {};
-        var17 = 'Tap an option to launch the action sheet immediately';
-        var12['description'] = var17;
+        var12 = {'description': 'Tap an option to launch the action sheet immediately', 'hasIcons': false};
         var17 = _closure1_slot7;
         var15 = 15;
         var15 = var20[var15];

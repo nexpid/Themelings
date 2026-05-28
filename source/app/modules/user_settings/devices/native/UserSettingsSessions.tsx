@@ -20,7 +20,7 @@ case 0:
             var5 = var2.bind(var4)(var1);
             var1 = var5.useAuthSessions;
             var1 = var1.bind(var5)();
-            var22 = var1.currentSession;
+            var23 = var1.currentSession;
             var9 = var1.otherSessions;
             var _closure2_slot0 = var9;
             var1 = 10;
@@ -92,7 +92,7 @@ case 0:
             var1 = new Array(0);
             var1 = var5.bind(var6)(var3, var1);
             var1 = null;
-            if(!(var1 != var22)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var1 != var23)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = _closure1_slot11;
             var21 = _closure1_slot0;
@@ -123,19 +123,20 @@ case 3:
             var17 = var17.LLS19o;
             var17 = var18.bind(var20)(var17);
             var7['title'] = var17;
-            var18 = var1 != var22;
-            var17 = null;
-            if(!var18) { _fun0001_ip = 4; continue _fun0001 }
+            var17 = true;
+            var7['hasIcons'] = var17;
+            var20 = var1 != var23;
+            var18 = null;
+            if(!var20) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var21 = _closure1_slot10;
-            var20 = _closure1_slot15;
-            var18 = {};
-            var18['session'] = var22;
-            var22 = true;
-            var18['current'] = var22;
-            var17 = var21.bind(var4)(var20, var18);
+            var22 = _closure1_slot10;
+            var21 = _closure1_slot15;
+            var20 = {};
+            var20['session'] = var23;
+            var20['current'] = var17;
+            var18 = var22.bind(var4)(var21, var20);
 case 4:
-            var7['children'] = var17;
+            var7['children'] = var18;
             var15 = var16.bind(var4)(var15, var7);
             var7 = new Array(3);
             var7[0] = var15;
@@ -149,22 +150,23 @@ case 8:
             if(var15) { _fun0001_ip = 9; continue _fun0001 }
 case 6:
             var16 = _closure1_slot11;
-            var21 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var13 = var17[var13];
-            var13 = var21.bind(var4)(var13);
+            var22 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var13 = var18[var13];
+            var13 = var22.bind(var4)(var13);
             var15 = var13.TableRowGroup;
             var13 = {};
-            var18 = var17[var19];
-            var18 = var21.bind(var4)(var18);
-            var20 = var18.intl;
-            var18 = var20.string;
-            var17 = var17[var19];
-            var17 = var21.bind(var4)(var17);
-            var17 = var17.t;
-            var17 = var17.xx1MWc;
-            var17 = var18.bind(var20)(var17);
-            var13['title'] = var17;
+            var20 = var18[var19];
+            var20 = var22.bind(var4)(var20);
+            var21 = var20.intl;
+            var20 = var21.string;
+            var18 = var18[var19];
+            var18 = var22.bind(var4)(var18);
+            var18 = var18.t;
+            var18 = var18.xx1MWc;
+            var18 = var20.bind(var21)(var18);
+            var13['title'] = var18;
+            var13['hasIcons'] = var17;
             var18 = var9.map;
             var17 = function(arg1) {
                 var1 = arg1;

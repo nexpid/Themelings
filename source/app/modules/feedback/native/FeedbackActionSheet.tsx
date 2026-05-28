@@ -93,10 +93,10 @@ case 0:
             var8 = var1.headerLabel;
             var12 = var1.showHeaderCloseButton;
             var11 = var1.hideDontShowAgainCheckbox;
-            var24 = var1.ratingOptions;
-            var23 = var1.ratingTextLabels;
-            var25 = var1.ratingsBodyLabel;
-            var20 = var1.reasonsHeaderLabel;
+            var25 = var1.ratingOptions;
+            var24 = var1.ratingTextLabels;
+            var26 = var1.ratingsBodyLabel;
+            var21 = var1.reasonsHeaderLabel;
             var27 = var1.reasons;
             var _closure2_slot0 = var27;
             var2 = var1.feedbackReasons;
@@ -122,8 +122,8 @@ case 0:
             var1 = 8;
             var1 = var15[var1];
             var1 = var16.bind(var4)(var1);
-            var26 = var1.bind(var4)(var27);
-            var _closure2_slot7 = var26;
+            var23 = var1.bind(var4)(var27);
+            var _closure2_slot7 = var23;
             var6 = var7.useState;
             var1 = 9;
             var1 = var15[var1];
@@ -139,10 +139,10 @@ case 0:
             var6 = 1;
             var19 = var19[var6];
             var _closure2_slot8 = var19;
-            var21 = var7.useEffect;
+            var20 = var7.useEffect;
             var19 = new Array(3);
             var19[0] = var27;
-            var19[1] = var26;
+            var19[1] = var23;
             var19[2] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -174,12 +174,12 @@ case 2:
                     return var1;
                 }
             };
-            var3 = var21.bind(var7)(var3, var19);
+            var3 = var20.bind(var7)(var3, var19);
             var3 = var7.useState;
             var3 = var3.bind(var7)(var9);
             var3 = var17.bind(var4)(var3, var14);
-            var21 = var3[var1];
-            var _closure2_slot9 = var21;
+            var23 = var3[var1];
+            var _closure2_slot9 = var23;
             var3 = var3[var6];
             var _closure2_slot10 = var3;
             var3 = var7.useState;
@@ -190,15 +190,15 @@ case 2:
             var3 = var3[var6];
             var _closure2_slot12 = var3;
             var3 = var7.useState;
-            var19 = false;
-            var3 = var3.bind(var7)(var19);
+            var20 = false;
+            var3 = var3.bind(var7)(var20);
             var3 = var17.bind(var4)(var3, var14);
-            var26 = var3[var1];
-            var _closure2_slot13 = var26;
+            var19 = var3[var1];
+            var _closure2_slot13 = var19;
             var3 = var3[var6];
             var _closure2_slot14 = var3;
             var3 = var7.useState;
-            var3 = var3.bind(var7)(var19);
+            var3 = var3.bind(var7)(var20);
             var3 = var17.bind(var4)(var3, var14);
             var14 = var3[var1];
             var _closure2_slot15 = var14;
@@ -354,12 +354,12 @@ case 16:
             };
             var2 = var6.bind(var7)(var2, var3);
             var _closure2_slot17 = var2;
-            var15 = var9 !== var21;
+            var15 = var9 !== var23;
             if(!var15) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
             var2 = _closure1_slot6;
             var2 = var2.GOOD;
-            var15 = var21 !== var2;
+            var15 = var23 !== var2;
 case 18:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -388,7 +388,7 @@ case 20:
             var1['scrollable'] = var7;
             var1['ref'] = var5;
             var1['startHeight'] = var6;
-            var7 = var9 == var21;
+            var7 = var9 == var23;
             var5 = undefined;
             if(!var7) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
@@ -407,17 +407,17 @@ case 22:
             var8 = null;
             if(!var12) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var26 = _closure1_slot7;
+            var27 = _closure1_slot7;
             var16 = _closure1_slot0;
-            var27 = _closure1_slot2;
+            var28 = _closure1_slot2;
             var12 = 18;
-            var12 = var27[var12];
+            var12 = var28[var12];
             var12 = var16.bind(var4)(var12);
             var16 = var12.ActionSheetCloseButton;
             var12 = {};
-            var27 = _closure1_slot10;
-            var12['onPress'] = var27;
-            var8 = var26.bind(var4)(var16, var12);
+            var28 = _closure1_slot10;
+            var12['onPress'] = var28;
+            var8 = var27.bind(var4)(var16, var12);
 case 24:
             var5['trailing'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -440,35 +440,35 @@ case 24:
             var12['paddingBottom'] = var16;
             var8[1] = var12;
             var5['contentContainerStyle'] = var8;
-            var8 = var9 != var25;
+            var8 = var9 != var26;
             var12 = null;
             if(!var8) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
             var17 = _closure1_slot7;
             var16 = _closure1_slot0;
-            var26 = _closure1_slot2;
+            var27 = _closure1_slot2;
             var8 = 20;
-            var8 = var26[var8];
+            var8 = var27[var8];
             var8 = var16.bind(var4)(var8);
             var16 = var8.Text;
             var8 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
-            var26 = var18.ratingsHeader;
-            var8['style'] = var26;
-            var8['children'] = var25;
+            var27 = var18.ratingsHeader;
+            var8['style'] = var27;
+            var8['children'] = var26;
             var12 = var17.bind(var4)(var16, var8);
 case 26:
             var8 = new Array(4);
             var8[0] = var12;
             var17 = _closure1_slot7;
             var16 = _closure1_slot1;
-            var25 = _closure1_slot2;
+            var26 = _closure1_slot2;
             var12 = 21;
-            var12 = var25[var12];
+            var12 = var26[var12];
             var16 = var16.bind(var4)(var12);
             var12 = {};
-            var12['ratingOptions'] = var24;
-            var12['textLabels'] = var23;
-            var12['selectedRating'] = var21;
+            var12['ratingOptions'] = var25;
+            var12['textLabels'] = var24;
+            var12['selectedRating'] = var23;
             var12['onChangeRating'] = var19;
             var12 = var17.bind(var4)(var16, var12);
             var8[1] = var12;
@@ -481,13 +481,14 @@ case 29:
             var18 = var18.reasonsList;
             var15['style'] = var18;
             var19 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var23 = _closure1_slot2;
             var18 = 22;
-            var18 = var21[var18];
+            var18 = var23[var18];
             var18 = var19.bind(var4)(var18);
             var19 = var18.TableRowGroup;
             var18 = {};
-            var18['title'] = var20;
+            var18['title'] = var21;
+            var18['hasIcons'] = var20;
             var21 = var22.map;
             var20 = function(arg1, arg2) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {

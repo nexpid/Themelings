@@ -179,6 +179,8 @@ case 0:
             var1 = var12.bind(var4)(var1);
             var2 = var1.TableRowGroup;
             var1 = {};
+            var5 = false;
+            var1['hasIcons'] = var5;
             var7 = _closure1_slot10;
             var9 = 16;
             var5 = var14[var9];

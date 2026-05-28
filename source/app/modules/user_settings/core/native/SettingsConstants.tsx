@@ -298,6 +298,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SUMMARY_REMINDER_NOTIFICATIONS'] = var1;
     var1 = 'SCREEN_DOWNTIME_REMINDER_NOTIFICATIONS';
     var2['SCREEN_DOWNTIME_REMINDER_NOTIFICATIONS'] = var1;
+    var1 = 'SCREEN_DOWNTIME_SCHEDULE_NOTIFICATIONS';
+    var2['SCREEN_DOWNTIME_SCHEDULE_NOTIFICATIONS'] = var1;
     var1 = 'FRIEND_GAMING_ACTIVITY_NOTIFICATIONS';
     var2['FRIEND_GAMING_ACTIVITY_NOTIFICATIONS'] = var1;
     var1 = 'UPCOMING_SERVER_EVENT_NOTIFICATIONS';
@@ -488,6 +490,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ACTIVITY_PRIVACY_DEFAULT_SHARING'] = var1;
     var1 = 'FRIEND_REQUEST_NOTES';
     var2['FRIEND_REQUEST_NOTES'] = var1;
+    var1 = 'NOTIFY_FRIENDS_ON_COME_ONLINE';
+    var2['NOTIFY_FRIENDS_ON_COME_ONLINE'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

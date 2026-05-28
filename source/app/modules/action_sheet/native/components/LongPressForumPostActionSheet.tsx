@@ -1396,6 +1396,8 @@ case 68:
                 var1 = var1.ActionSheetRow;
                 var2 = var1.Group;
                 var1 = {};
+                var6 = true;
+                var1['hasIcons'] = var6;
                 var7 = var8.map;
                 var6 = function(arg1, arg2) {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {

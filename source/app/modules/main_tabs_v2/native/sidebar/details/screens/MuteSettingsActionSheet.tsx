@@ -206,6 +206,8 @@ case 2:
             var1 = var2.bind(var4)(var1);
             var2 = var1.TableRowGroup;
             var1 = {};
+            var7 = false;
+            var1['hasIcons'] = var7;
             var7 = var8.map;
             var6 = function(arg1) {
                 var1 = arg1;
@@ -250,6 +252,8 @@ case 4:
             var7 = var24.bind(var1)(var7);
             var15 = var7.TableRowGroup;
             var7 = {};
+            var27 = true;
+            var7['hasIcons'] = var27;
             var11 = 12;
             var11 = var8[var11];
             var11 = var24.bind(var1)(var11);
@@ -260,7 +264,6 @@ case 4:
             var11 = var24.bind(var1)(var11);
             var20 = var11.Icon;
             var19 = {};
-            var27 = true;
             var19['disableColor'] = var27;
             var11 = _closure1_slot1;
             var21 = 14;

@@ -255,6 +255,8 @@ case 5:
             var17 = var17["1yxTIJ"];
             var17 = var18.bind(var20)(var17);
             var9['title'] = var17;
+            var17 = true;
+            var9['hasIcons'] = var17;
             var18 = var19.map;
             var17 = function(arg1, arg2) {
                 var1 = arg1;

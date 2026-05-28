@@ -241,6 +241,8 @@ case 14:
             var8 = var12.bind(var14)(var10, var9);
 case 2:
             var5['title'] = var8;
+            var8 = true;
+            var5['hasIcons'] = var8;
             var10 = _closure1_slot16;
             var15 = _closure1_slot0;
             var12 = _closure1_slot3;
@@ -362,6 +364,8 @@ case 20:
             var8 = var8.vPHdP5;
             var8 = var9.bind(var10)(var8);
             var5['title'] = var8;
+            var8 = true;
+            var5['hasIcons'] = var8;
             var11 = _closure1_slot16;
             var9 = 22;
             var8 = var17[var9];
@@ -633,6 +637,8 @@ case 29:
             var9 = var9.LPJmL/;
             var9 = var11.bind(var12)(var9);
             var5['title'] = var9;
+            var9 = true;
+            var5['hasIcons'] = var9;
             var9 = var10.map;
             var8 = function(arg1) {
                 var1 = arg1;
@@ -836,6 +842,8 @@ case 36:
             var10 = var10["9Oq93m"];
             var10 = var12.bind(var13)(var10);
             var6['title'] = var10;
+            var10 = true;
+            var6['hasIcons'] = var10;
             var10 = var11.map;
             var9 = function(arg1) {
                 var1 = arg1;

@@ -1125,6 +1125,8 @@ case 75:
             var10 = var11.bind(var5)(var10);
             var11 = var10.TableRowGroup;
             var10 = {};
+            var14 = true;
+            var10['hasIcons'] = var14;
             var14 = var8.map;
             var13 = function(arg1) {
                 var1 = arg1;

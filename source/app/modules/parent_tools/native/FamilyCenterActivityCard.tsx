@@ -482,6 +482,8 @@ case 19:
                 var7 = _closure2_slot1;
                 var7 = var7.id;
                 var2['selectedItem'] = var7;
+                var7 = false;
+                var2['hasIcons'] = var7;
                 var2 = var5.bind(var6)(var4, var3, var2);
                 return var1;
             };

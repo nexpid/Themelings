@@ -520,6 +520,8 @@ case 40:
                 var6['onPress'] = var7;
                 var5[1] = var6;
                 var2['options'] = var5;
+                var5 = false;
+                var2['hasIcons'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
@@ -1384,6 +1386,8 @@ case 75:
                     var6['title'] = var7;
                     var2['header'] = var6;
                     var2['options'] = var5;
+                    var5 = true;
+                    var2['hasIcons'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }

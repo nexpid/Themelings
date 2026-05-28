@@ -607,6 +607,8 @@ case 8:
                 return var1;
             };
             var13['onChange'] = var28;
+            var28 = false;
+            var13['hasIcons'] = var28;
             var29 = var30.map;
             var28 = function(arg1, arg2) {
                 var7 = arg1;

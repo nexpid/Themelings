@@ -406,6 +406,8 @@ case 23:
             var9 = 'Guild Official Games - ';
             var9 = var13.bind(var9)(var18);
             var5['title'] = var9;
+            var9 = false;
+            var5['hasIcons'] = var9;
             if(!(var16 == var8)) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
             var13 = _closure1_slot12;
@@ -506,9 +508,7 @@ case 27:
             var6 = var12[var10];
             var6 = var13.bind(var4)(var6);
             var7 = var6.TableRowGroup;
-            var6 = {};
-            var9 = 'Application';
-            var6['title'] = var9;
+            var6 = {'title': 'Application', 'hasIcons': false};
             var18 = _closure1_slot12;
             var17 = _closure1_slot7;
             var9 = {};
@@ -572,9 +572,7 @@ case 33:
             var6 = var18[var10];
             var6 = var19.bind(var4)(var6);
             var7 = var6.TableRowGroup;
-            var6 = {};
-            var9 = 'Authorization';
-            var6['title'] = var9;
+            var6 = {'title': 'Authorization', 'hasIcons': false};
             var9 = var18[var17];
             var9 = var19.bind(var4)(var9);
             var12 = var9.TableRow;
@@ -701,9 +699,7 @@ case 46:
             var7 = var7[var10];
             var7 = var8.bind(var4)(var7);
             var8 = var7.TableRowGroup;
-            var7 = {};
-            var10 = 'Reward Configuration';
-            var7['title'] = var10;
+            var7 = {'title': 'Reward Configuration', 'hasIcons': false};
             var10 = var15.applicationAccountLinkBenefitConfig;
             var10 = var10.reward_image;
             var12 = var16 != var10;

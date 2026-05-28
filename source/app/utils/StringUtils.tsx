@@ -55,13 +55,9 @@ case 2:
     var6 = var4.bind(var1)(var6);
     var6 = var6.truncateText;
     var3['truncateText'] = var6;
-    var6 = var5[var2];
-    var6 = var4.bind(var1)(var6);
-    var6 = var6.normalize;
-    var3['normalize'] = var6;
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);
-    var2 = var2.countGraphemeClusters;
-    var3['countGraphemeClusters'] = var2;
+    var2 = var2.normalize;
+    var3['normalize'] = var2;
     return var1;
 })();

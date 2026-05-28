@@ -93,6 +93,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var8.vyodkM;
         var8 = var9.bind(var10)(var8);
         var5['title'] = var8;
+        var8 = false;
+        var5['hasIcons'] = var8;
         var9 = 8;
         var8 = var17[var9];
         var8 = var16.bind(var4)(var8);

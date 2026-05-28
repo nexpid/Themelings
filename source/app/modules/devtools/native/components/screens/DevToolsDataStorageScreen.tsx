@@ -40,6 +40,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.ActionSheetRow;
         var6 = var5.Group;
         var5 = {};
+        var13 = false;
+        var5['hasIcons'] = var13;
         var10 = _closure1_slot8;
         var8 = var12[var8];
         var8 = var9.bind(var3)(var8);

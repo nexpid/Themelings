@@ -790,6 +790,8 @@ case 54:
         var5 = var5.ActionSheetRow;
         var6 = var5.Group;
         var5 = {};
+        var7 = true;
+        var5['hasIcons'] = var7;
         var8 = var9.map;
         var7 = function(arg1, arg2) {
             var1 = arg1;

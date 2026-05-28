@@ -17,6 +17,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         var2 = var1.TableRowGroup;
         var1 = {};
+        var6 = true;
+        var1['hasIcons'] = var6;
         var7 = _closure1_slot17;
         var6 = var7.map;
         var5 = function(arg1, arg2) {
@@ -751,6 +753,7 @@ case 11:
             var21 = var21["+BJTcB"];
             var21 = var26.bind(var27)(var21);
             var18['title'] = var21;
+            var18['hasIcons'] = var28;
             var27 = _closure1_slot14;
             var21 = 16;
             var21 = var29[var21];

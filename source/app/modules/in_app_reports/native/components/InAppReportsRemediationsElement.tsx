@@ -84,6 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var8.k+QA9N;
         var8 = var9.bind(var10)(var8);
         var5['title'] = var8;
+        var8 = true;
+        var5['hasIcons'] = var8;
         var5['children'] = var7;
         var5 = var3.bind(var4)(var6, var5);
         var1['children'] = var5;

@@ -547,6 +547,8 @@ case 29:
             var11 = 'Current Guild: ';
             var11 = var12.bind(var11)(var13);
             var4['title'] = var11;
+            var11 = false;
+            var4['hasIcons'] = var11;
             var17 = _closure1_slot18;
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -578,9 +580,7 @@ case 29:
             var9 = var15[var7];
             var9 = var12.bind(var5)(var9);
             var10 = var9.TableRowGroup;
-            var9 = {};
-            var16 = 'Warning State';
-            var9['title'] = var16;
+            var9 = {'title': 'Warning State', 'hasIcons': false};
             var18 = _closure1_slot18;
             var16 = var15[var11];
             var16 = var12.bind(var5)(var16);
@@ -636,9 +636,7 @@ case 29:
             var9 = var15[var7];
             var9 = var12.bind(var5)(var9);
             var10 = var9.TableRowGroup;
-            var9 = {};
-            var16 = 'User Level DCs';
-            var9['title'] = var16;
+            var9 = {'title': 'User Level DCs', 'hasIcons': false};
             var18 = _closure1_slot13;
             var17 = var18.map;
             var16 = function(arg1) {
@@ -659,9 +657,7 @@ case 29:
             var9 = var15[var7];
             var9 = var12.bind(var5)(var9);
             var10 = var9.TableRowGroup;
-            var9 = {};
-            var16 = 'Guild Level DCs';
-            var9['title'] = var16;
+            var9 = {'title': 'Guild Level DCs', 'hasIcons': false};
             var18 = _closure1_slot11;
             var17 = var18.map;
             var16 = function(arg1) {
@@ -688,9 +684,7 @@ case 29:
             var9 = var15[var7];
             var9 = var12.bind(var5)(var9);
             var10 = var9.TableRowGroup;
-            var9 = {};
-            var16 = 'Server Tag Guild Level DCs';
-            var9['title'] = var16;
+            var9 = {'title': 'Server Tag Guild Level DCs', 'hasIcons': false};
             var18 = _closure1_slot12;
             var17 = var18.map;
             var16 = function(arg1) {
@@ -717,9 +711,7 @@ case 29:
             var9 = var15[var7];
             var9 = var12.bind(var5)(var9);
             var10 = var9.TableRowGroup;
-            var9 = {};
-            var16 = 'Powerup Rollback DCs';
-            var9['title'] = var16;
+            var9 = {'title': 'Powerup Rollback DCs', 'hasIcons': false};
             var18 = _closure1_slot14;
             var17 = var18.map;
             var16 = function(arg1) {
@@ -740,9 +732,7 @@ case 29:
             var7 = var15[var7];
             var7 = var12.bind(var5)(var7);
             var9 = var7.TableRowGroup;
-            var7 = {};
-            var13 = 'System Messages';
-            var7['title'] = var13;
+            var7 = {'title': 'System Messages', 'hasIcons': false};
             var13 = _closure1_slot18;
             var11 = var15[var11];
             var11 = var12.bind(var5)(var11);

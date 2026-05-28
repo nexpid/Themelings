@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = var4.BoostedGuildTiers;
     var _closure1_slot3 = var4;
-    var4 = 38;
+    var4 = 39;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -225,7 +225,21 @@ case 91:
             var2 = var2.FRIEND_REQUEST_ACCEPTED;
             if(!(var2 !== var4)) { _fun0001_ip = 92; continue _fun0001 }
 case 93:
+            var2 = _closure1_slot2;
+            var2 = var2.GIFTING_PROMPT;
+            if(!(var2 !== var4)) { _fun0001_ip = 94; continue _fun0001 }
+case 95:
             var2 = null;
+            return var2;
+case 94:
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 38;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGiftIntentSystemMessage;
+            var2 = var2.bind(var4)(var3);
             return var2;
 case 92:
             var5 = _closure1_slot0;

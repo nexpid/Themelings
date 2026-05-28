@@ -232,6 +232,8 @@ case 8:
             var13 = var24.bind(var4)(var13);
             var16 = var13.TableRowGroup;
             var13 = {};
+            var17 = false;
+            var13['hasIcons'] = var17;
             var17 = 16;
             var17 = var22[var17];
             var17 = var24.bind(var4)(var17);
@@ -451,6 +453,8 @@ case 14:
             var9 = var26.bind(var4)(var9);
             var10 = var9.TableRowGroup;
             var9 = {};
+            var11 = false;
+            var9['hasIcons'] = var11;
             var13 = 16;
             var11 = var20[var13];
             var11 = var26.bind(var4)(var11);

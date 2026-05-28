@@ -117,7 +117,7 @@ case 0:
             var2 = 7;
             var2 = var4[var2];
             var3 = var3.bind(var5)(var2);
-            var2 = var3.useShowReactivationPrompt;
+            var2 = var3.useCanSeePushNotificationNudge;
             var2 = var2.bind(var3)();
             var _closure2_slot0 = var2;
             var6 = _closure1_slot3;

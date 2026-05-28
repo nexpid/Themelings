@@ -189,6 +189,8 @@ case 3:
                     var2 = _closure2_slot0;
 case 2:
                     var3['selectedItem'] = var2;
+                    var2 = false;
+                    var3['hasIcons'] = var2;
                     var2 = 'GuildSelector';
                     var2 = var5.bind(var6)(var4, var2, var3);
                     return var1;

@@ -2,13 +2,13 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-        var9 = require;
-        var8 = metroImportDefault;
+        var10 = require;
+        var9 = metroImportDefault;
         var3 = exports;
-        var10 = dependencyMap;
-        var _closure1_slot0 = var9;
-        var _closure1_slot1 = var8;
-        var _closure1_slot2 = var10;
+        var11 = dependencyMap;
+        var _closure1_slot0 = var10;
+        var _closure1_slot1 = var9;
+        var _closure1_slot2 = var11;
         var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -80,7 +80,7 @@ case 22:
                 var7 = undefined;
                 if(!var9) { _fun0002_ip = 23; continue _fun0002 }
 case 21:
-                var9 = _closure1_slot18;
+                var9 = _closure1_slot19;
                 var7 = var9.bind(var8)(var3, var8);
 case 23:
                 _fun0002_ip = 24; continue _fun0002;
@@ -92,7 +92,7 @@ case 24:
                 var6 = var7;
                 _fun0002_ip = 10; continue _fun0002;
 case 12:
-                var7 = _closure1_slot18;
+                var7 = _closure1_slot19;
                 var6 = var7.bind(var8)(var3, var8);
 case 10:
                 var4 = var6;
@@ -151,7 +151,7 @@ case 6:
                 return var1;
             }
         };
-        var _closure1_slot17 = var1;
+        var _closure1_slot18 = var1;
         var1 = function _arrayLikeToArray(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -184,127 +184,146 @@ case 35:
                 return var1;
             }
         };
-        var _closure1_slot18 = var1;
-        var6 = function getPrice(arg1, arg2) {
+        var _closure1_slot19 = var1;
+        var7 = function getCountryPrices(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var2 = arg1;
-                var4 = arg2;
+                var3 = arg2;
                 var1 = var2.prices;
-                var3 = var1[var4];
-                var1 = null;
-                if(!(var1 != var3)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
-                var3 = var2.prices;
-                var3 = var3[var4];
-                var3 = var3.countryPrices;
-                var3 = var3.prices;
-                var5 = var3.length;
-                var3 = 0;
-                if(!(!(var5 > var3))) { _fun0005_ip = 38; continue _fun0005 }
+                var1 = var1[var3];
+                var6 = null;
+                if(!(var6 != var1)) { _fun0005_ip = 4; continue _fun0005 }
 case 36:
-                var7 = var2.prices;
-                var6 = _closure1_slot11;
-                var6 = var6.DEFAULT;
-                var6 = var7[var6];
-                if(!(var1 != var6)) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
-                var7 = var2.prices;
-                var6 = _closure1_slot11;
-                var6 = var6.DEFAULT;
-                var6 = var7[var6];
-                var6 = var6.countryPrices;
-                var6 = var6.prices;
-                var7 = var6.length;
-                var6 = 0;
-                if(!(!(var7 > var6))) { _fun0005_ip = 41; continue _fun0005 }
-case 39:
-                var7 = var2.price;
-                var7 = var1 != var7;
+                var1 = var2.prices;
+                var1 = var1[var3];
+                var1 = var1.countryPrices;
+                var1 = var1.prices;
+                var4 = var1.length;
+                var1 = 0;
+                if(!(!(var4 > var1))) { _fun0005_ip = 14; continue _fun0005 }
+case 4:
+                var5 = var2.prices;
+                var1 = _closure1_slot12;
+                var1 = var1.DEFAULT;
+                var1 = var5[var1];
+                var5 = var6 != var1;
                 var1 = null;
-                if(!var7) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
-                var1 = var2.price;
-case 42:
-                _fun0005_ip = 19; continue _fun0005;
-case 41:
+                if(!var5) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                 var7 = var2.prices;
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot12;
                 var5 = var5.DEFAULT;
                 var5 = var7[var5];
                 var5 = var5.countryPrices;
                 var5 = var5.prices;
-                var1 = var5[var6];
-case 19:
-                _fun0005_ip = 44; continue _fun0005;
-case 38:
+                var7 = var5.length;
+                var5 = 0;
+                var5 = var7 > var5;
+                var1 = null;
+                if(!var5) { _fun0005_ip = 37; continue _fun0005 }
+case 39:
+                var5 = var2.prices;
+                var4 = _closure1_slot12;
+                var4 = var4.DEFAULT;
+                var4 = var5[var4];
+                var1 = var4.countryPrices;
+case 37:
+                _fun0005_ip = 16; continue _fun0005;
+case 14:
                 var2 = var2.prices;
-                var2 = var2[var4];
-                var2 = var2.countryPrices;
-                var2 = var2.prices;
-                var1 = var2[var3];
+                var2 = var2[var3];
+                var1 = var2.countryPrices;
+case 16:
+                return var1;
+            }
+        };
+        var _closure1_slot20 = var7;
+        var6 = function getPrice(arg1, arg2) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var3 = arg1;
+                var4 = _closure1_slot20;
+                var2 = undefined;
+                var1 = arg2;
+                var2 = var4.bind(var2)(var3, var1);
+                var1 = null;
+                if(!(var1 == var2)) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
+                var4 = var3.price;
+                var4 = var1 != var4;
+                var1 = null;
+                if(!var4) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
+                var1 = var3.price;
+case 42:
+                _fun0006_ip = 44; continue _fun0006;
+case 40:
+                var3 = var2.prices;
+                var2 = 0;
+                var1 = var3[var2];
 case 44:
                 return var1;
             }
         };
-        var _closure1_slot19 = var6;
+        var _closure1_slot21 = var6;
         var5 = function hasSocialLayerStorefront(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var5 = arg1;
-                var2 = _closure1_slot6;
+                var2 = _closure1_slot7;
                 var1 = var2.getStorefrontGuildIds;
                 var3 = var1.bind(var2)();
                 var2 = var3.has;
                 var1 = var5.id;
                 var1 = var2.bind(var3)(var1);
-                if(var1) { _fun0006_ip = 45; continue _fun0006 }
+                if(var1) { _fun0007_ip = 45; continue _fun0007 }
 case 46:
                 var1 = 'type';
                 var1 = var1 in var5;
-                if(var1) { _fun0006_ip = 47; continue _fun0006 }
+                if(var1) { _fun0007_ip = 47; continue _fun0007 }
 case 4:
                 var1 = var5.gameApplicationIds;
                 var2 = null;
                 var7 = var2 == var1;
                 var6 = undefined;
-                if(var7) { _fun0006_ip = 48; continue _fun0006 }
+                if(var7) { _fun0007_ip = 48; continue _fun0007 }
 case 49:
                 var6 = var1.length;
 case 48:
                 var1 = 1;
                 var8 = undefined;
-                if(!(var1 === var6)) { _fun0006_ip = 50; continue _fun0006 }
+                if(!(var1 === var6)) { _fun0007_ip = 50; continue _fun0007 }
 case 9:
                 var6 = var5.gameApplicationIds;
                 var1 = 0;
                 var8 = var6[var1];
 case 50:
-                var6 = _closure1_slot6;
+                var6 = _closure1_slot7;
                 var1 = var6.getStorefrontApplicationIds;
                 var7 = var1.bind(var6)();
                 var6 = var2 == var8;
-                if(var6) { _fun0006_ip = 51; continue _fun0006 }
+                if(var6) { _fun0007_ip = 51; continue _fun0007 }
 case 52:
                 var1 = var7.has;
                 var1 = var1.bind(var7)(var8);
                 var6 = !var1;
 case 51:
                 var1 = !var6;
-                if(!var6) { _fun0006_ip = 53; continue _fun0006 }
+                if(!var6) { _fun0007_ip = 53; continue _fun0007 }
 case 54:
                 var6 = var5.features;
                 var5 = var2 == var6;
                 var3 = undefined;
-                if(var5) { _fun0006_ip = 55; continue _fun0006 }
+                if(var5) { _fun0007_ip = 55; continue _fun0007 }
 case 56:
                 var5 = var6.has;
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot11;
                 var4 = var4.SOCIAL_LAYER_STOREFRONT;
                 var3 = var5.bind(var6)(var4);
 case 55:
                 var2 = var2 != var3;
-                if(!var2) { _fun0006_ip = 57; continue _fun0006 }
+                if(!var2) { _fun0007_ip = 57; continue _fun0007 }
 case 58:
                 var2 = var3;
 case 57:
@@ -319,14 +338,14 @@ case 45:
                 return var1;
             }
         };
-        var _closure1_slot20 = var5;
+        var _closure1_slot22 = var5;
         var1 = function isOnCollectiblesShopGameShopPage(arg1, arg2, arg3) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var6 = arg1;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
@@ -336,17 +355,17 @@ case 0:
                 var3 = var1.tab;
                 var4 = var1.applicationId;
                 var5 = var6.indexOf;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot13;
                 var1 = var1.COLLECTIBLES_SHOP;
                 var5 = var5.bind(var6)(var1);
                 var1 = 0;
                 var1 = var5 >= var1;
-                if(!var1) { _fun0007_ip = 13; continue _fun0007 }
+                if(!var1) { _fun0008_ip = 13; continue _fun0008 }
 case 59:
-                var2 = _closure1_slot14;
+                var2 = _closure1_slot15;
                 var2 = var2.GAME_SHOPS;
                 var2 = var3 === var2;
-                if(!var2) { _fun0007_ip = 60; continue _fun0007 }
+                if(!var2) { _fun0008_ip = 60; continue _fun0008 }
 case 61:
                 var3 = arg3;
                 var2 = var4 === var3;
@@ -356,12 +375,12 @@ case 13:
                 return var1;
             }
         };
-        var _closure1_slot21 = var1;
+        var _closure1_slot23 = var1;
         var4 = function getSKUShareURL(arg1, arg2) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var3 = arg2;
-                var7 = _closure1_slot21;
+                var7 = _closure1_slot23;
                 var2 = global;
                 var1 = var2.location;
                 var6 = var1.pathname;
@@ -375,9 +394,9 @@ case 0:
                 var5 = var2.window;
                 var5 = var5.GLOBAL_ENV;
                 var5 = var5.WEBAPP_ENDPOINT;
-                var9 = _closure1_slot12;
-                if(var1) { _fun0008_ip = 62; continue _fun0008 }
-case 63:
+                var9 = _closure1_slot13;
+                if(var1) { _fun0009_ip = 62; continue _fun0009 }
+case 38:
                 var8 = var9.GAME_SHOP;
                 var7 = var3.id;
                 var4 = var3.slug;
@@ -387,7 +406,7 @@ case 63:
                 var4 = var1.concat;
                 var1 = '';
                 var1 = var4.bind(var1)(var6, var5, var7);
-                _fun0008_ip = 64; continue _fun0008;
+                _fun0009_ip = 63; continue _fun0009;
 case 62:
                 var8 = var9.COLLECTIBLES_SHOP_GAME_SHOP;
                 var14 = var3.applicationId;
@@ -400,142 +419,147 @@ case 62:
                 var3 = var2.concat;
                 var2 = '';
                 var1 = var3.bind(var2)(var6, var5, var4);
-case 64:
+case 63:
                 return var1;
             }
         };
-        var _closure1_slot22 = var4;
+        var _closure1_slot24 = var4;
         var1 = global;
-        var12 = var1.Object;
-        var11 = var12.defineProperty;
-        var7 = {};
+        var13 = var1.Object;
+        var12 = var13.defineProperty;
+        var8 = {};
         var1 = true;
-        var7['value'] = var1;
+        var8['value'] = var1;
         var1 = '__esModule';
-        var1 = var11.bind(var12)(var3, var1, var7);
+        var1 = var12.bind(var13)(var3, var1, var8);
         var1 = 0;
-        var7 = var10[var1];
+        var8 = var11[var1];
         var1 = undefined;
-        var7 = var9.bind(var1)(var7);
-        var7 = var7.WishlistRecommendationReason;
-        var _closure1_slot3 = var7;
-        var7 = 1;
-        var7 = var10[var7];
-        var7 = var8.bind(var1)(var7);
-        var _closure1_slot4 = var7;
-        var7 = 2;
-        var7 = var10[var7];
-        var7 = var8.bind(var1)(var7);
-        var _closure1_slot5 = var7;
-        var7 = 3;
-        var7 = var10[var7];
-        var7 = var8.bind(var1)(var7);
-        var _closure1_slot6 = var7;
-        var7 = 4;
-        var7 = var10[var7];
-        var7 = var9.bind(var1)(var7);
-        var8 = var7.getChannelsGameShopPrefix;
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot3 = var8;
+        var8 = 1;
+        var8 = var11[var8];
+        var8 = var10.bind(var1)(var8);
+        var8 = var8.WishlistRecommendationReason;
+        var _closure1_slot4 = var8;
+        var8 = 2;
+        var8 = var11[var8];
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot5 = var8;
+        var8 = 3;
+        var8 = var11[var8];
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot6 = var8;
+        var8 = 4;
+        var8 = var11[var8];
+        var8 = var9.bind(var1)(var8);
         var _closure1_slot7 = var8;
-        var8 = var7.STOREFRONT_MARKETING_GUILD_ID;
-        var _closure1_slot8 = var8;
-        var7 = var7.STOREFRONT_MARKETING_GUILD_ID_TEST;
-        var _closure1_slot9 = var7;
-        var7 = 5;
-        var7 = var10[var7];
-        var7 = var9.bind(var1)(var7);
-        var8 = var7.GuildFeatures;
+        var8 = 5;
+        var8 = var11[var8];
+        var8 = var10.bind(var1)(var8);
+        var9 = var8.getChannelsGameShopPrefix;
+        var _closure1_slot8 = var9;
+        var9 = var8.STOREFRONT_MARKETING_GUILD_ID;
+        var _closure1_slot9 = var9;
+        var8 = var8.STOREFRONT_MARKETING_GUILD_ID_TEST;
         var _closure1_slot10 = var8;
-        var8 = var7.PriceSetAssignmentPurchaseTypes;
-        var _closure1_slot11 = var8;
-        var8 = var7.Routes;
-        var _closure1_slot12 = var8;
-        var7 = var7.SKUProductLines;
-        var _closure1_slot13 = var7;
-        var7 = 6;
-        var7 = var10[var7];
-        var7 = var9.bind(var1)(var7);
-        var7 = var7.CollectibleShopTab;
-        var _closure1_slot14 = var7;
-        var7 = 7;
-        var7 = var10[var7];
-        var7 = var9.bind(var1)(var7);
-        var7 = var7.CurrencyCodes;
-        var _closure1_slot15 = var7;
-        var7 = 8;
-        var7 = var10[var7];
-        var7 = var9.bind(var1)(var7);
-        var8 = var7.SUPPORTS_WEBP;
-        var7 = 'jpg';
-        if(!var8) { _fun0001_ip = 65; continue _fun0001 }
-case 66:
-        var7 = 'webp';
+        var8 = 6;
+        var8 = var11[var8];
+        var8 = var10.bind(var1)(var8);
+        var9 = var8.GuildFeatures;
+        var _closure1_slot11 = var9;
+        var9 = var8.PriceSetAssignmentPurchaseTypes;
+        var _closure1_slot12 = var9;
+        var9 = var8.Routes;
+        var _closure1_slot13 = var9;
+        var8 = var8.SKUProductLines;
+        var _closure1_slot14 = var8;
+        var8 = 7;
+        var8 = var11[var8];
+        var8 = var10.bind(var1)(var8);
+        var8 = var8.CollectibleShopTab;
+        var _closure1_slot15 = var8;
+        var8 = 8;
+        var8 = var11[var8];
+        var8 = var10.bind(var1)(var8);
+        var8 = var8.CurrencyCodes;
+        var _closure1_slot16 = var8;
+        var8 = 9;
+        var8 = var11[var8];
+        var8 = var10.bind(var1)(var8);
+        var9 = var8.SUPPORTS_WEBP;
+        var8 = 'jpg';
+        if(!var9) { _fun0001_ip = 64; continue _fun0001 }
 case 65:
-        var _closure1_slot16 = var7;
-        var8 = 15;
-        var8 = var10[var8];
-        var10 = var9.bind(var1)(var8);
-        var9 = var10.fileFinishedImporting;
-        var8 = 'modules/slayer_storefront/SlayerStorefrontUtils.tsx';
-        var8 = var9.bind(var10)(var8);
-        var3['LARGE_ASSET_FORMAT'] = var7;
-        var7 = function hasPrice(arg1) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        var8 = 'webp';
+case 64:
+        var _closure1_slot17 = var8;
+        var9 = 16;
+        var9 = var11[var9];
+        var11 = var10.bind(var1)(var9);
+        var10 = var11.fileFinishedImporting;
+        var9 = 'modules/slayer_storefront/SlayerStorefrontUtils.tsx';
+        var9 = var10.bind(var11)(var9);
+        var3['LARGE_ASSET_FORMAT'] = var8;
+        var8 = function hasPrice(arg1) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var2 = arg1;
                 var1 = var2.price;
                 var3 = null;
                 var1 = var3 != var1;
-                if(var1) { _fun0009_ip = 67; continue _fun0009 }
-case 68:
+                if(var1) { _fun0010_ip = 66; continue _fun0010 }
+case 67:
                 var4 = var2.prices;
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot12;
                 var2 = var2.DEFAULT;
                 var2 = var4[var2];
                 var1 = var3 != var2;
-case 67:
+case 66:
                 return var1;
             }
         };
-        var3['hasPrice'] = var7;
+        var3['hasPrice'] = var8;
+        var3['getCountryPrices'] = var7;
         var3['getPrice'] = var6;
         var6 = function isGiftPriceDifferent(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var7 = arg1;
-                var2 = _closure1_slot19;
-                var1 = _closure1_slot11;
+                var2 = _closure1_slot21;
+                var1 = _closure1_slot12;
                 var1 = var1.DEFAULT;
                 var6 = undefined;
                 var3 = var2.bind(var6)(var7, var1);
                 var1 = null;
-                if(!(var1 == var3)) { _fun0010_ip = 7; continue _fun0010 }
-case 69:
+                if(!(var1 == var3)) { _fun0011_ip = 7; continue _fun0011 }
+case 68:
                 var2 = {};
                 var5 = 0;
                 var2['amount'] = var5;
-                var5 = _closure1_slot15;
+                var5 = _closure1_slot16;
                 var5 = var5.USD;
                 var2['currency'] = var5;
                 var3 = var2;
 case 7:
-                var5 = _closure1_slot19;
-                var2 = _closure1_slot11;
+                var5 = _closure1_slot21;
+                var2 = _closure1_slot12;
                 var2 = var2.GIFT;
                 var2 = var5.bind(var6)(var7, var2);
-                if(!(var1 == var2)) { _fun0010_ip = 70; continue _fun0010 }
-case 40:
+                if(!(var1 == var2)) { _fun0011_ip = 69; continue _fun0011 }
+case 70:
                 var1 = {};
                 var5 = 0;
                 var1['amount'] = var5;
-                var4 = _closure1_slot15;
+                var4 = _closure1_slot16;
                 var4 = var4.USD;
                 var1['currency'] = var4;
                 var2 = var1;
-case 70:
+case 69:
                 var4 = var3.currency;
                 var1 = var2.currency;
                 var1 = var4 !== var1;
-                if(var1) { _fun0010_ip = 71; continue _fun0010 }
+                if(var1) { _fun0011_ip = 71; continue _fun0011 }
 case 72:
                 var3 = var3.amount;
                 var2 = var2.amount;
@@ -546,7 +570,7 @@ case 71:
         };
         var3['isGiftPriceDifferent'] = var6;
         var6 = function getOrderedStorefrontSkuIds(arg1) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var1 = global;
                 var1 = var1.Set;
@@ -556,7 +580,7 @@ case 0:
                 var1 = new var22[var1](var21);
                 var12 = var1 instanceof Object ? var1 : var2;
                 var1 = new Array(0);
-                var3 = _closure1_slot17;
+                var3 = _closure1_slot18;
                 var2 = arg1;
                 var2 = var2.pages;
                 var10 = undefined;
@@ -569,47 +593,47 @@ case 0:
                 var5 = undefined;
                 var4 = undefined;
                 var3 = undefined;
-                if(var2) { _fun0011_ip = 65; continue _fun0011 }
+                if(var2) { _fun0012_ip = 73; continue _fun0012 }
 case 59:
                 var2 = var7.value;
-                var14 = _closure1_slot17;
+                var14 = _closure1_slot18;
                 var13 = var2.skuIds;
                 var15 = var14.bind(var10)(var13);
                 var14 = var15.bind(var10)();
                 var13 = var14.done;
-                if(var13) { _fun0011_ip = 73; continue _fun0011 }
-case 74:
+                if(var13) { _fun0012_ip = 74; continue _fun0012 }
+case 75:
                 var16 = var14.value;
                 var13 = var12.has;
                 var13 = var13.bind(var12)(var16);
-                if(var13) { _fun0011_ip = 75; continue _fun0011 }
-case 76:
+                if(var13) { _fun0012_ip = 76; continue _fun0012 }
+case 77:
                 var13 = var12.add;
                 var13 = var13.bind(var12)(var16);
                 var13 = var1.push;
                 var13 = var13.bind(var1)(var16);
-case 75:
+case 76:
                 var17 = var15.bind(var10)();
                 var13 = var17.done;
                 var14 = var17;
                 var6 = var16;
-                if(!var13) { _fun0011_ip = 74; continue _fun0011 }
-case 73:
-                var13 = _closure1_slot17;
+                if(!var13) { _fun0012_ip = 75; continue _fun0012 }
+case 74:
+                var13 = _closure1_slot18;
                 var2 = var2.sections;
-                if(!(var8 == var2)) { _fun0011_ip = 38; continue _fun0011 }
+                if(!(var8 == var2)) { _fun0012_ip = 78; continue _fun0012 }
 case 57:
                 var2 = new Array(0);
-case 38:
+case 78:
                 var15 = var13.bind(var10)(var2);
                 var13 = var15.bind(var10)();
                 var2 = var13.done;
                 var14 = var13;
                 var13 = var3;
                 var3 = var13;
-                if(var2) { _fun0011_ip = 77; continue _fun0011 }
-case 44:
-                var16 = _closure1_slot17;
+                if(var2) { _fun0012_ip = 79; continue _fun0012 }
+case 80:
+                var16 = _closure1_slot18;
                 var2 = var14.value;
                 var2 = var2.skuIds;
                 var17 = var16.bind(var10)(var2);
@@ -617,88 +641,88 @@ case 44:
                 var2 = var18.done;
                 var16 = var18;
                 var18 = var16;
-                if(var2) { _fun0011_ip = 78; continue _fun0011 }
-case 79:
+                if(var2) { _fun0012_ip = 81; continue _fun0012 }
+case 82:
                 var19 = var16.value;
                 var2 = var12.has;
                 var2 = var2.bind(var12)(var19);
-                if(var2) { _fun0011_ip = 80; continue _fun0011 }
-case 81:
+                if(var2) { _fun0012_ip = 83; continue _fun0012 }
+case 84:
                 var2 = var12.add;
                 var2 = var2.bind(var12)(var19);
                 var2 = var1.push;
                 var2 = var2.bind(var1)(var19);
-case 80:
+case 83:
                 var20 = var17.bind(var10)();
                 var2 = var20.done;
                 var16 = var20;
                 var18 = var16;
                 var13 = var19;
-                if(!var2) { _fun0011_ip = 79; continue _fun0011 }
-case 78:
+                if(!var2) { _fun0012_ip = 82; continue _fun0012 }
+case 81:
                 var19 = var15.bind(var10)();
                 var2 = var19.done;
                 var5 = var18;
                 var14 = var19;
                 var4 = var17;
                 var3 = var13;
-                if(!var2) { _fun0011_ip = 44; continue _fun0011 }
-case 77:
+                if(!var2) { _fun0012_ip = 80; continue _fun0012 }
+case 79:
                 var13 = var9.bind(var10)();
                 var2 = var13.done;
                 var7 = var13;
-                if(!var2) { _fun0011_ip = 59; continue _fun0011 }
-case 65:
+                if(!var2) { _fun0012_ip = 59; continue _fun0012 }
+case 73:
                 return var1;
             }
         };
         var3['getOrderedStorefrontSkuIds'] = var6;
         var6 = function isGameItemSKU(arg1) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                 var2 = arg1;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0012_ip = 82; continue _fun0012 }
-case 83:
+                if(!var1) { _fun0013_ip = 85; continue _fun0013 }
+case 86:
                 var3 = var2.productLine;
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot14;
                 var2 = var2.SOCIAL_LAYER_GAME_ITEM;
                 var1 = var3 === var2;
-case 82:
+case 85:
                 return var1;
             }
         };
         var3['isGameItemSKU'] = var6;
         var6 = function getMarketingGuildId() {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot6;
                 var3 = var4.getGuild;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var2 = var3.bind(var4)(var2);
                 var3 = null;
-                if(!(var3 != var2)) { _fun0013_ip = 84; continue _fun0013 }
+                if(!(var3 != var2)) { _fun0014_ip = 87; continue _fun0014 }
 case 34:
                 var5 = var2.features;
                 var4 = var5.has;
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot11;
                 var3 = var3.SOCIAL_LAYER_STOREFRONT;
                 var3 = var4.bind(var5)(var3);
-                if(var3) { _fun0013_ip = 85; continue _fun0013 }
-case 84:
-                var1 = _closure1_slot8;
-                _fun0013_ip = 86; continue _fun0013;
-case 85:
+                if(var3) { _fun0014_ip = 88; continue _fun0014 }
+case 87:
+                var1 = _closure1_slot9;
+                _fun0014_ip = 89; continue _fun0014;
+case 88:
                 var1 = var2.id;
-case 86:
+case 89:
                 return var1;
             }
         };
         var3['getMarketingGuildId'] = var6;
         var3['hasSocialLayerStorefront'] = var5;
         var5 = function transformStorefrontMetadataServer(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var3 = arg1;
                 var1 = {};
@@ -706,25 +730,25 @@ case 0:
                 var2 = null;
                 var6 = var2 != var5;
                 var4 = null;
-                if(!var6) { _fun0014_ip = 87; continue _fun0014 }
-case 37:
+                if(!var6) { _fun0015_ip = 90; continue _fun0015 }
+case 36:
                 var4 = var5;
-case 87:
+case 90:
                 var1['logoAssetId'] = var4;
                 var3 = var3.light_theme_logo_asset_id;
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0014_ip = 88; continue _fun0014 }
-case 67:
+                if(!var4) { _fun0015_ip = 42; continue _fun0015 }
+case 66:
                 var2 = var3;
-case 88:
+case 42:
                 var1['lightThemeLogoAssetId'] = var2;
                 return var1;
             }
         };
         var3['transformStorefrontMetadataServer'] = var5;
         var5 = function transformSlayerApplicationStorefrontServer(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var3 = arg1;
                 var1 = {};
@@ -739,7 +763,7 @@ case 0:
                 var5 = var3.pages;
                 var4 = var5.map;
                 var2 = function(arg1) {
-                    _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+                    _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                         var3 = arg1;
                         var1 = {};
@@ -749,8 +773,8 @@ case 0:
                         var5 = null;
                         var6 = var5 != var2;
                         var4 = undefined;
-                        if(!var6) { _fun0016_ip = 59; continue _fun0016 }
-case 89:
+                        if(!var6) { _fun0017_ip = 59; continue _fun0017 }
+case 91:
                         var6 = {};
                         var7 = var3.leaderboard;
                         var7 = var7.title;
@@ -769,8 +793,8 @@ case 59:
                         var4 = var3.sections;
                         var4 = var5 != var4;
                         var2 = undefined;
-                        if(!var4) { _fun0016_ip = 90; continue _fun0016 }
-case 91:
+                        if(!var4) { _fun0017_ip = 92; continue _fun0017 }
+case 93:
                         var5 = var3.sections;
                         var4 = var5.map;
                         var3 = function(arg1) {
@@ -783,7 +807,7 @@ case 91:
                             return var1;
                         };
                         var2 = var4.bind(var5)(var3);
-case 90:
+case 92:
                         var1['sections'] = var2;
                         return var1;
                     }
@@ -792,7 +816,7 @@ case 90:
                 var1['pages'] = var2;
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 9;
+                var2 = 10;
                 var2 = var6[var2];
                 var6 = undefined;
                 var8 = var5.bind(var6)(var2);
@@ -805,94 +829,94 @@ case 90:
                 var5 = null;
                 var7 = var5 != var2;
                 var2 = undefined;
-                if(!var7) { _fun0015_ip = 92; continue _fun0015 }
-case 93:
-                var9 = _closure1_slot4;
+                if(!var7) { _fun0016_ip = 94; continue _fun0016 }
+case 95:
+                var9 = _closure1_slot5;
                 var8 = var9.createFromServer;
                 var7 = var3.application;
                 var2 = var8.bind(var9)(var7);
-case 92:
+case 94:
                 var1['application'] = var2;
                 var2 = var3.storefront_pricing;
                 var5 = var5 != var2;
                 var2 = undefined;
-                if(!var5) { _fun0015_ip = 94; continue _fun0015 }
-case 95:
+                if(!var5) { _fun0016_ip = 96; continue _fun0016 }
+case 97:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var4 = 10;
+                var4 = 11;
                 var4 = var7[var4];
                 var5 = var5.bind(var6)(var4);
                 var4 = var5.transformStorefrontPricesServer;
                 var3 = var3.storefront_pricing;
                 var2 = var4.bind(var5)(var3);
-case 94:
+case 96:
                 var1['storefrontPricing'] = var2;
                 return var1;
             }
         };
         var3['transformSlayerApplicationStorefrontServer'] = var5;
         var5 = function getPrimaryCarouselItemInfo(arg1, arg2) {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                 var1 = arg1;
                 var12 = arg2;
                 var3 = arguments[2];
                 var2 = undefined;
-                if(!(var3 === var2)) { _fun0017_ip = 96; continue _fun0017 }
-case 97:
+                if(!(var3 === var2)) { _fun0018_ip = 98; continue _fun0018 }
+case 99:
                 var3 = {};
-case 96:
+case 98:
                 var3 = var3.size;
                 var11 = 512;
-                if(!(var2 !== var3)) { _fun0017_ip = 82; continue _fun0017 }
-case 98:
+                if(!(var2 !== var3)) { _fun0018_ip = 85; continue _fun0018 }
+case 100:
                 var11 = var3;
-case 82:
+case 85:
                 var4 = null;
-                if(!(var4 != var12)) { _fun0017_ip = 25; continue _fun0017 }
-case 99:
+                if(!(var4 != var12)) { _fun0018_ip = 25; continue _fun0018 }
+case 101:
                 var5 = var4 == var1;
                 var3 = undefined;
-                if(var5) { _fun0017_ip = 100; continue _fun0017 }
-case 101:
+                if(var5) { _fun0018_ip = 102; continue _fun0018 }
+case 103:
                 var5 = var1.tenantMetadata;
                 var6 = var4 == var5;
                 var3 = undefined;
-                if(var6) { _fun0017_ip = 100; continue _fun0017 }
-case 86:
+                if(var6) { _fun0018_ip = 102; continue _fun0018 }
+case 89:
                 var5 = var5.socialLayer;
                 var6 = var4 == var5;
                 var3 = undefined;
-                if(var6) { _fun0017_ip = 100; continue _fun0017 }
+                if(var6) { _fun0018_ip = 102; continue _fun0018 }
 case 59:
                 var3 = var5.carouselItems;
-case 100:
-                if(!(var4 != var3)) { _fun0017_ip = 25; continue _fun0017 }
+case 102:
+                if(!(var4 != var3)) { _fun0018_ip = 25; continue _fun0018 }
 case 11:
                 var3 = var1.tenantMetadata;
                 var3 = var3.socialLayer;
                 var3 = var3.carouselItems;
                 var5 = var3.length;
                 var3 = 0;
-                if(!(var3 !== var5)) { _fun0017_ip = 25; continue _fun0017 }
-case 39:
+                if(!(var3 !== var5)) { _fun0018_ip = 25; continue _fun0018 }
+case 104:
                 var1 = var1.tenantMetadata;
                 var1 = var1.socialLayer;
                 var1 = var1.carouselItems;
                 var3 = var1[var3];
                 var1 = var3.labelIconAssetId;
-                if(!(var4 != var1)) { _fun0017_ip = 102; continue _fun0017 }
-case 103:
+                if(!(var4 != var1)) { _fun0018_ip = 105; continue _fun0018 }
+case 106:
                 var1 = {};
                 var7 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var6 = 11;
+                var6 = 12;
                 var6 = var9[var6];
                 var7 = var7.bind(var2)(var6);
                 var6 = var7.toURLSafe;
                 var8 = _closure1_slot0;
-                var5 = 8;
+                var5 = 9;
                 var5 = var9[var5];
                 var10 = var8.bind(var2)(var5);
                 var9 = var10.getAssetURL;
@@ -905,20 +929,20 @@ case 103:
                 var5 = var6.bind(var7)(var5);
                 var6 = var4 != var5;
                 var4 = undefined;
-                if(!var6) { _fun0017_ip = 104; continue _fun0017 }
-case 105:
+                if(!var6) { _fun0018_ip = 107; continue _fun0018 }
+case 108:
                 var4 = var5;
-case 104:
+case 107:
                 var1['primaryIconAsset'] = var4;
                 var3 = var3.label;
                 var1['primaryIconLabel'] = var3;
-                _fun0017_ip = 106; continue _fun0017;
-case 102:
+                _fun0018_ip = 109; continue _fun0018;
+case 105:
                 var3 = {};
                 var3['primaryIconAsset'] = var2;
                 var3['primaryIconLabel'] = var2;
                 var1 = var3;
-case 106:
+case 109:
                 return var1;
 case 25:
                 var1 = {};
@@ -929,37 +953,37 @@ case 25:
         };
         var3['getPrimaryCarouselItemInfo'] = var5;
         var5 = function getGameItemThumbnailUrl(arg1) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var1 = arg1;
                 var2 = arguments[1];
                 var6 = undefined;
-                if(!(var2 === var6)) { _fun0018_ip = 32; continue _fun0018 }
-case 83:
+                if(!(var2 === var6)) { _fun0019_ip = 32; continue _fun0019 }
+case 86:
                 var2 = {};
 case 32:
                 var2 = var2.size;
                 var8 = 512;
-                if(!(var6 !== var2)) { _fun0018_ip = 98; continue _fun0018 }
-case 107:
+                if(!(var6 !== var2)) { _fun0019_ip = 100; continue _fun0019 }
+case 110:
                 var8 = var2;
-case 98:
+case 100:
                 var3 = null;
-                if(!(var3 != var1)) { _fun0018_ip = 88; continue _fun0018 }
-case 108:
+                if(!(var3 != var1)) { _fun0019_ip = 42; continue _fun0019 }
+case 111:
                 var2 = var1.thumbnailAssetId;
-                if(!(var3 == var2)) { _fun0018_ip = 109; continue _fun0018 }
-case 88:
+                if(!(var3 == var2)) { _fun0019_ip = 40; continue _fun0019 }
+case 42:
                 return var6;
-case 109:
+case 40:
                 var3 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var2 = 11;
+                var2 = 12;
                 var2 = var7[var2];
                 var3 = var3.bind(var6)(var2);
                 var2 = var3.toURLSafe;
                 var5 = _closure1_slot0;
-                var4 = 8;
+                var4 = 9;
                 var4 = var7[var4];
                 var7 = var5.bind(var6)(var4);
                 var6 = var7.getAssetURL;
@@ -975,68 +999,68 @@ case 109:
         };
         var3['getGameItemThumbnailUrl'] = var5;
         var5 = function getCardImageURL(arg1) {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var3 = arg1;
                 var1 = arguments[1];
                 var5 = undefined;
-                if(!(var1 === var5)) { _fun0019_ip = 32; continue _fun0019 }
-case 83:
+                if(!(var1 === var5)) { _fun0020_ip = 32; continue _fun0020 }
+case 86:
                 var1 = {};
 case 32:
                 var1 = var1.size;
                 var8 = 512;
-                if(!(var5 !== var1)) { _fun0019_ip = 98; continue _fun0019 }
-case 107:
+                if(!(var5 !== var1)) { _fun0020_ip = 100; continue _fun0020 }
+case 110:
                 var8 = var1;
-case 98:
+case 100:
                 var1 = null;
                 var2 = var1 == var3;
                 var7 = undefined;
-                if(var2) { _fun0019_ip = 88; continue _fun0019 }
-case 110:
+                if(var2) { _fun0020_ip = 42; continue _fun0020 }
+case 112:
                 var7 = var3.applicationId;
-case 88:
+case 42:
                 var2 = var1 == var3;
                 var6 = undefined;
-                if(var2) { _fun0019_ip = 111; continue _fun0019 }
-case 84:
+                if(var2) { _fun0020_ip = 113; continue _fun0020 }
+case 87:
                 var2 = var3.tenantMetadata;
                 var4 = var1 == var2;
                 var6 = undefined;
-                if(var4) { _fun0019_ip = 111; continue _fun0019 }
+                if(var4) { _fun0020_ip = 113; continue _fun0020 }
 case 49:
                 var2 = var2.socialLayer;
                 var4 = var1 == var2;
                 var6 = undefined;
-                if(var4) { _fun0019_ip = 111; continue _fun0019 }
-case 63:
+                if(var4) { _fun0020_ip = 113; continue _fun0020 }
+case 38:
                 var6 = var2.cardImageAssetId;
-case 111:
-                if(!(var1 == var6)) { _fun0019_ip = 74; continue _fun0019 }
-case 112:
+case 113:
+                if(!(var1 == var6)) { _fun0020_ip = 75; continue _fun0020 }
+case 114:
                 var4 = var1 == var3;
                 var2 = undefined;
-                if(var4) { _fun0019_ip = 70; continue _fun0019 }
-case 113:
-                var2 = var3.thumbnailAssetId;
-case 70:
-                var6 = var2;
-case 74:
-                if(!(var1 != var6)) { _fun0019_ip = 114; continue _fun0019 }
+                if(var4) { _fun0020_ip = 69; continue _fun0020 }
 case 115:
-                if(!(var1 == var7)) { _fun0019_ip = 116; continue _fun0019 }
-case 114:
-                return var5;
+                var2 = var3.thumbnailAssetId;
+case 69:
+                var6 = var2;
+case 75:
+                if(!(var1 != var6)) { _fun0020_ip = 116; continue _fun0020 }
+case 117:
+                if(!(var1 == var7)) { _fun0020_ip = 118; continue _fun0020 }
 case 116:
+                return var5;
+case 118:
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var2 = 11;
+                var2 = 12;
                 var2 = var9[var2];
                 var3 = var3.bind(var5)(var2);
                 var2 = var3.toURLSafe;
                 var4 = _closure1_slot0;
-                var1 = 8;
+                var1 = 9;
                 var1 = var9[var1];
                 var5 = var4.bind(var5)(var1);
                 var4 = var5.getAssetURL;
@@ -1052,58 +1076,58 @@ case 116:
         };
         var3['getCardImageURL'] = var5;
         var5 = function getCardBackgroundImageURL(arg1) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var4 = arg1;
                 var1 = arguments[1];
                 var7 = undefined;
-                if(!(var1 === var7)) { _fun0020_ip = 32; continue _fun0020 }
-case 83:
+                if(!(var1 === var7)) { _fun0021_ip = 32; continue _fun0021 }
+case 86:
                 var1 = {};
 case 32:
                 var1 = var1.size;
                 var8 = 1024;
-                if(!(var7 !== var1)) { _fun0020_ip = 98; continue _fun0020 }
-case 107:
+                if(!(var7 !== var1)) { _fun0021_ip = 100; continue _fun0021 }
+case 110:
                 var8 = var1;
-case 98:
+case 100:
                 var2 = null;
                 var3 = var2 == var4;
                 var1 = undefined;
-                if(var3) { _fun0020_ip = 117; continue _fun0020 }
-case 110:
+                if(var3) { _fun0021_ip = 119; continue _fun0021 }
+case 112:
                 var3 = var4.tenantMetadata;
                 var5 = var2 == var3;
                 var1 = undefined;
-                if(var5) { _fun0020_ip = 117; continue _fun0020 }
-case 36:
+                if(var5) { _fun0021_ip = 119; continue _fun0021 }
+case 120:
                 var3 = var3.socialLayer;
                 var5 = var2 == var3;
                 var1 = undefined;
-                if(var5) { _fun0020_ip = 117; continue _fun0020 }
-case 118:
+                if(var5) { _fun0021_ip = 119; continue _fun0021 }
+case 121:
                 var1 = var3.cardBackgroundImageAssetId;
-case 117:
-                if(!(var2 != var1)) { _fun0020_ip = 119; continue _fun0020 }
+case 119:
+                if(!(var2 != var1)) { _fun0021_ip = 122; continue _fun0021 }
 case 59:
                 var3 = var2 == var4;
                 var1 = undefined;
-                if(var3) { _fun0020_ip = 112; continue _fun0020 }
-case 120:
+                if(var3) { _fun0021_ip = 114; continue _fun0021 }
+case 123:
                 var1 = var4.applicationId;
-case 112:
-                if(!(var2 == var1)) { _fun0020_ip = 121; continue _fun0020 }
-case 119:
+case 114:
+                if(!(var2 == var1)) { _fun0021_ip = 124; continue _fun0021 }
+case 122:
                 return var7;
-case 121:
+case 124:
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var2 = 11;
+                var2 = 12;
                 var2 = var9[var2];
                 var3 = var3.bind(var7)(var2);
                 var2 = var3.toURLSafe;
                 var6 = _closure1_slot0;
-                var5 = 8;
+                var5 = 9;
                 var5 = var9[var5];
                 var7 = var6.bind(var7)(var5);
                 var6 = var7.getAssetURL;
@@ -1111,7 +1135,7 @@ case 121:
                 var4 = var4.tenantMetadata;
                 var4 = var4.socialLayer;
                 var12 = var4.cardBackgroundImageAssetId;
-                var10 = _closure1_slot16;
+                var10 = _closure1_slot17;
                 var14 = var7;
                 var11 = var8;
                 var1 = var14[var6](var13, var12, var11, var10, var9);
@@ -1122,7 +1146,7 @@ case 121:
         var3['getCardBackgroundImageURL'] = var5;
         var3['getSKUShareURL'] = var4;
         var4 = function getForwardedSKUShareURL(arg1, arg2) {
-            var4 = _closure1_slot22;
+            var4 = _closure1_slot24;
             var3 = undefined;
             var2 = arg1;
             var1 = arg2;
@@ -1137,17 +1161,17 @@ case 121:
         };
         var3['getForwardedSKUShareURL'] = var4;
         var4 = function canSeeGameShop(arg1) {
-            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot6;
                 var3 = var4.getGuild;
                 var1 = arg1;
                 var4 = var3.bind(var4)(var1);
                 var1 = null;
                 var1 = var1 != var4;
-                if(!var1) { _fun0021_ip = 46; continue _fun0021 }
+                if(!var1) { _fun0022_ip = 46; continue _fun0022 }
 case 3:
-                var3 = _closure1_slot20;
+                var3 = _closure1_slot22;
                 var2 = undefined;
                 var1 = var3.bind(var2)(var4);
 case 46:
@@ -1156,7 +1180,7 @@ case 46:
         };
         var3['canSeeGameShop'] = var4;
         var4 = function getHasWishlistOrPopularRecommendations(arg1, arg2, arg3) {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var4 = arg1;
                 var1 = arg2;
@@ -1165,29 +1189,29 @@ case 0:
                 var _closure2_slot1 = var1;
                 var3 = var4.length;
                 var1 = 0;
-                if(!(var1 !== var3)) { _fun0022_ip = 122; continue _fun0022 }
+                if(!(var1 !== var3)) { _fun0023_ip = 125; continue _fun0023 }
 case 3:
                 var1 = {};
                 var5 = var4.some;
                 var3 = function(arg1) {
-                    _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+                    _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                         var2 = _closure2_slot0;
                         var1 = arg1;
                         var1 = var1.id;
                         var3 = var2[var1];
                         var1 = null;
-                        if(!(var1 == var3)) { _fun0023_ip = 123; continue _fun0023 }
-case 87:
+                        if(!(var1 == var3)) { _fun0024_ip = 41; continue _fun0024 }
+case 90:
                         var3 = {};
-case 123:
+case 41:
                         var1 = global;
                         var2 = var1.Object;
                         var1 = var2.entries;
                         var3 = var1.bind(var2)(var3);
                         var2 = var3.some;
                         var1 = function(arg1) {
-                            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+                            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                                 var5 = arg1;
                                 var1 = var5[Symbol.iterator];
@@ -1197,31 +1221,31 @@ case 0:
                                 var7 = undefined;
                                 var3 = var3 === var7;
                                 var4 = undefined;
-                                if(var3) { _fun0024_ip = 123; continue _fun0024 }
-case 124:
+                                if(var3) { _fun0025_ip = 41; continue _fun0025 }
+case 126:
                                 var4 = var2;
-case 123:
+case 41:
                                 var2 = undefined;
-                                if(var3) { _fun0024_ip = 84; continue _fun0024 }
-case 98:
+                                if(var3) { _fun0025_ip = 87; continue _fun0025 }
+case 100:
                                 var6 = var5().value;
                                 var5 = var1;
                                 var5 = var5 === var7;
                                 var2 = undefined;
                                 var3 = var5;
-                                if(var5) { _fun0024_ip = 84; continue _fun0024 }
-case 125:
+                                if(var5) { _fun0025_ip = 87; continue _fun0025 }
+case 127:
                                 var2 = var6;
                                 var3 = var5;
-case 84:
-                                if(var3) { _fun0024_ip = 85; continue _fun0024 }
-case 126:
+case 87:
+                                if(var3) { _fun0025_ip = 88; continue _fun0025 }
+case 128:
                                 var1.return();
-case 85:
-                                var1 = _closure1_slot3;
+case 88:
+                                var1 = _closure1_slot4;
                                 var1 = var1.WISHLIST;
                                 var1 = var2 === var1;
-                                if(!var1) { _fun0024_ip = 61; continue _fun0024 }
+                                if(!var1) { _fun0025_ip = 61; continue _fun0025 }
 case 59:
                                 var3 = _closure2_slot1;
                                 var2 = var3.has;
@@ -1238,7 +1262,7 @@ case 61:
                 var1['hasWishlist'] = var3;
                 var3 = var4.some;
                 var2 = function(arg1) {
-                    _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+                    _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
                         var2 = _closure2_slot0;
                         var1 = arg1;
@@ -1246,7 +1270,7 @@ case 0:
                         var4 = var2[var1];
                         var1 = null;
                         var1 = var1 == var4;
-                        if(var1) { _fun0025_ip = 127; continue _fun0025 }
+                        if(var1) { _fun0026_ip = 129; continue _fun0026 }
 case 34:
                         var2 = global;
                         var3 = var2.Object;
@@ -1254,7 +1278,7 @@ case 34:
                         var4 = var2.bind(var3)(var4);
                         var3 = var4.every;
                         var2 = function(arg1) {
-                            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+                            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
                                 var5 = arg1;
                                 var1 = var5[Symbol.iterator];
@@ -1264,126 +1288,126 @@ case 0:
                                 var7 = undefined;
                                 var3 = var3 === var7;
                                 var4 = undefined;
-                                if(var3) { _fun0026_ip = 123; continue _fun0026 }
-case 124:
+                                if(var3) { _fun0027_ip = 41; continue _fun0027 }
+case 126:
                                 var4 = var2;
-case 123:
+case 41:
                                 var2 = undefined;
-                                if(var3) { _fun0026_ip = 84; continue _fun0026 }
-case 98:
+                                if(var3) { _fun0027_ip = 87; continue _fun0027 }
+case 100:
                                 var6 = var5().value;
                                 var5 = var1;
                                 var5 = var5 === var7;
                                 var2 = undefined;
                                 var3 = var5;
-                                if(var5) { _fun0026_ip = 84; continue _fun0026 }
-case 125:
+                                if(var5) { _fun0027_ip = 87; continue _fun0027 }
+case 127:
                                 var2 = var6;
                                 var3 = var5;
-case 84:
-                                if(var3) { _fun0026_ip = 85; continue _fun0026 }
-case 126:
+case 87:
+                                if(var3) { _fun0027_ip = 88; continue _fun0027 }
+case 128:
                                 var1.return();
-case 85:
-                                var1 = _closure1_slot3;
+case 88:
+                                var1 = _closure1_slot4;
                                 var1 = var1.RECOMMENDATION;
                                 var1 = var2 === var1;
-                                if(!var1) { _fun0026_ip = 61; continue _fun0026 }
+                                if(!var1) { _fun0027_ip = 61; continue _fun0027 }
 case 59:
                                 var3 = _closure2_slot1;
                                 var2 = var3.has;
                                 var1 = var2.bind(var3)(var4);
 case 61:
-                                if(var1) { _fun0026_ip = 114; continue _fun0026 }
-case 121:
+                                if(var1) { _fun0027_ip = 116; continue _fun0027 }
+case 124:
                                 var3 = _closure2_slot1;
                                 var2 = var3.has;
                                 var2 = var2.bind(var3)(var4);
                                 var1 = !var2;
-case 114:
+case 116:
                                 return var1;
                             }
                         };
                         var1 = var3.bind(var4)(var2);
-case 127:
+case 129:
                         return var1;
                     }
                 };
                 var2 = var3.bind(var4)(var2);
                 var1['hasPopular'] = var2;
-                _fun0022_ip = 128; continue _fun0022;
-case 122:
+                _fun0023_ip = 130; continue _fun0023;
+case 125:
                 var1 = {'hasWishlist': false, 'hasPopular': false};
-case 128:
+case 130:
                 return var1;
             }
         };
         var3['getHasWishlistOrPopularRecommendations'] = var4;
         var4 = function isOnSocialLayerStorefrontPage(arg1, arg2, arg3, arg4) {
-            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
                 var5 = arg1;
                 var7 = arg4;
-                var4 = _closure1_slot21;
+                var4 = _closure1_slot23;
                 var6 = undefined;
                 var2 = arg2;
                 var1 = arg3;
                 var1 = var4.bind(var6)(var5, var2, var1);
-                if(var1) { _fun0027_ip = 129; continue _fun0027 }
-case 89:
+                if(var1) { _fun0028_ip = 131; continue _fun0028 }
+case 91:
                 var2 = null;
                 var2 = var2 != var7;
-                if(!var2) { _fun0027_ip = 130; continue _fun0027 }
-case 131:
+                if(!var2) { _fun0028_ip = 132; continue _fun0028 }
+case 133:
                 var4 = var5.indexOf;
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot8;
                 var3 = var3.bind(var6)(var7);
                 var4 = var4.bind(var5)(var3);
                 var3 = 0;
                 var2 = var4 >= var3;
-case 130:
+case 132:
                 var1 = var2;
-case 129:
+case 131:
                 return var1;
             }
         };
         var3['isOnSocialLayerStorefrontPage'] = var4;
         var4 = function useGetSocialLayerStorefrontGuildIdAndApplication(arg1) {
-            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
                 var5 = arg1;
                 var _closure2_slot0 = var5;
                 var2 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var4 = 13;
+                var4 = 14;
                 var7 = var6[var4];
                 var4 = undefined;
                 var8 = var2.bind(var4)(var7);
                 var7 = var8.useStateFromStores;
-                var9 = _closure1_slot6;
+                var9 = _closure1_slot7;
                 var3 = new Array(1);
                 var3[0] = var9;
                 var1 = function() {
-                    var3 = _closure1_slot6;
+                    var3 = _closure1_slot7;
                     var2 = var3.getGuildIdFromApplicationId;
                     var1 = _closure2_slot0;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
                 var3 = var7.bind(var8)(var3, var1);
-                var1 = 14;
+                var1 = 15;
                 var1 = var6[var1];
                 var2 = var2.bind(var4)(var1);
                 var1 = var2.useGetOrFetchApplication;
                 var2 = var1.bind(var2)(var5);
                 var1 = {};
                 var5 = null;
-                if(!(var5 == var3)) { _fun0028_ip = 13; continue _fun0028 }
-case 111:
+                if(!(var5 == var3)) { _fun0029_ip = 13; continue _fun0029 }
+case 113:
                 var5 = var5 == var2;
                 var4 = undefined;
-                if(var5) { _fun0028_ip = 60; continue _fun0028 }
-case 132:
+                if(var5) { _fun0029_ip = 60; continue _fun0029 }
+case 134:
                 var4 = var2.guildId;
 case 60:
                 var3 = var4;
@@ -1394,10 +1418,40 @@ case 13:
             }
         };
         var3['useGetSocialLayerStorefrontGuildIdAndApplication'] = var4;
+        var4 = function getSocialLayerStorefrontGuildId(arg1) {
+            _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+case 0:
+                var5 = arg1;
+                var2 = null;
+                if(!(var2 == var5)) { _fun0030_ip = 135; continue _fun0030 }
+case 136:
+                var1 = undefined;
+                return var1;
+case 135:
+                var4 = _closure1_slot7;
+                var1 = var4.getGuildIdFromApplicationId;
+                var1 = var1.bind(var4)(var5);
+                if(!(var2 == var1)) { _fun0030_ip = 30; continue _fun0030 }
+case 85:
+                var4 = _closure1_slot3;
+                var3 = var4.getApplication;
+                var3 = var3.bind(var4)(var5);
+                var4 = var2 == var3;
+                var2 = undefined;
+                if(var4) { _fun0030_ip = 137; continue _fun0030 }
+case 138:
+                var2 = var3.guildId;
+case 137:
+                var1 = var2;
+case 30:
+                return var1;
+            }
+        };
+        var3['getSocialLayerStorefrontGuildId'] = var4;
         var2 = function transformSocialLayerStorefrontAffinityServer(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);

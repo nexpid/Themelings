@@ -140,6 +140,8 @@ case 11:
                         var3 = var3.bind(var4)(var2);
                         var2 = {};
                         var2['field'] = var7;
+                        var9 = false;
+                        var2['hasIcons'] = var9;
                         var9 = function onChange(arg1) {
                             var4 = _closure2_slot1;
                             var3 = _closure4_slot0;

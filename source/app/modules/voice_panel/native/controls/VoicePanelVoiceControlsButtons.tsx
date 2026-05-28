@@ -402,6 +402,8 @@ case 38:
             var7 = var7.mbi/fB;
             var7 = var9.bind(var10)(var7);
             var2['title'] = var7;
+            var7 = true;
+            var2['hasIcons'] = var7;
             var7 = var8.map;
             var6 = function(arg1) {
                 var1 = arg1;
@@ -783,8 +785,8 @@ case 44:
             var13 = var3.handleVolumeChange;
             var2 = var1 == var2;
             var1 = null;
-            if(var2) { _fun0005_ip = 16; continue _fun0005 }
-case 46:
+            if(var2) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
             var4 = _closure1_slot17;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -804,6 +806,8 @@ case 46:
             var6 = var6.pEAl4b;
             var6 = var7.bind(var8)(var6);
             var2['title'] = var6;
+            var6 = false;
+            var2['hasIcons'] = var6;
             var8 = _closure1_slot17;
             var6 = 25;
             var6 = var18[var6];
@@ -822,13 +826,13 @@ case 46:
             var15 = var17.isAndroid;
             var17 = var15.bind(var17)();
             var15 = undefined;
-            if(!var17) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+            if(!var17) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
             var15 = function() {
                 var1 = true;
                 return var1;
             };
-case 47:
+case 48:
             var9['onResponderGrant'] = var15;
             var9['value'] = var14;
             var9['onValueChange'] = var13;
@@ -850,7 +854,7 @@ case 47:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 16:
+case 46:
             return var1;
         }
     };
@@ -1030,14 +1034,14 @@ case 0:
             var1 = var1.id;
             var8 = var3.bind(var8)(var1);
             var1 = null;
-            if(var7) { _fun0007_ip = 49; continue _fun0007 }
-case 50:
-            var1 = null;
-            if(!var4) { _fun0007_ip = 49; continue _fun0007 }
+            if(var7) { _fun0007_ip = 50; continue _fun0007 }
 case 51:
             var1 = null;
-            if(!var2) { _fun0007_ip = 49; continue _fun0007 }
+            if(!var4) { _fun0007_ip = 50; continue _fun0007 }
 case 52:
+            var1 = null;
+            if(!var2) { _fun0007_ip = 50; continue _fun0007 }
+case 53:
             var4 = _closure1_slot17;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -1085,7 +1089,7 @@ case 52:
             var6 = var8.bind(var5)(var7, var6);
             var2['trailing'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 49:
+case 50:
             return var1;
         }
     };
@@ -1234,8 +1238,8 @@ case 0:
             var1 = var4.bind(var9)(var3, var1);
             var _closure2_slot2 = var1;
             var1 = null;
-            if(!var2) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
+            if(!var2) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
             var4 = _closure1_slot17;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -1263,11 +1267,11 @@ case 54:
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var2 = _closure2_slot2;
-                    if(var2) { _fun0009_ip = 55; continue _fun0009 }
-case 56:
-                    var2 = _closure2_slot0;
-                    if(var2) { _fun0009_ip = 55; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 56; continue _fun0009 }
 case 57:
+                    var2 = _closure2_slot0;
+                    if(var2) { _fun0009_ip = 56; continue _fun0009 }
+case 58:
                     var2 = _closure1_slot15;
                     var5 = var2.VIDEO;
                     var4 = function openHideSelfStreamAndVideoConfirmDialog(arg1, arg2) {
@@ -1336,7 +1340,7 @@ case 57:
                     };
                     var3 = var4.bind(var2)(var5, var3);
                     return var2;
-case 55:
+case 56:
                     var3 = _closure2_slot1;
                     var1 = _closure2_slot0;
                     var2 = !var1;
@@ -1358,7 +1362,7 @@ case 55:
             var6 = var7.bind(var8)(var6);
             var2['label'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 53:
+case 54:
             return var1;
         }
     };
@@ -1414,17 +1418,17 @@ case 0:
                 var5 = null;
                 var8 = var5 == var6;
                 var7 = undefined;
-                if(var8) { _fun0010_ip = 58; continue _fun0010 }
-case 59:
+                if(var8) { _fun0010_ip = 59; continue _fun0010 }
+case 60:
                 var7 = var6.location;
-case 58:
+case 59:
                 var2['location'] = var7;
                 var7 = var5 == var6;
                 var5 = undefined;
-                if(var7) { _fun0010_ip = 60; continue _fun0010 }
-case 61:
+                if(var7) { _fun0010_ip = 61; continue _fun0010 }
+case 62:
                 var5 = var6.applicationId;
-case 60:
+case 61:
                 var2['applicationId'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -1458,8 +1462,8 @@ case 0:
             var7 = null;
             var9 = var7 != var11;
             var7 = undefined;
-            if(!var9) { _fun0011_ip = 62; continue _fun0011 }
-case 63:
+            if(!var9) { _fun0011_ip = 63; continue _fun0011 }
+case 64:
             var10 = _closure1_slot17;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1470,7 +1474,7 @@ case 63:
             var8 = {};
             var8['source'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 62:
+case 63:
             var1['icon'] = var7;
             var1['label'] = var6;
             var1['onPress'] = var5;
@@ -1656,8 +1660,8 @@ case 0:
             var7 = null;
             var9 = var7 != var11;
             var7 = undefined;
-            if(!var9) { _fun0012_ip = 64; continue _fun0012 }
-case 65:
+            if(!var9) { _fun0012_ip = 65; continue _fun0012 }
+case 66:
             var10 = _closure1_slot17;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1668,7 +1672,7 @@ case 65:
             var8 = {};
             var8['source'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 64:
+case 65:
             var1['icon'] = var7;
             var1['label'] = var6;
             var1['onPress'] = var5;
@@ -1704,8 +1708,8 @@ case 0:
             var7 = null;
             var9 = var7 != var11;
             var7 = undefined;
-            if(!var9) { _fun0013_ip = 64; continue _fun0013 }
-case 65:
+            if(!var9) { _fun0013_ip = 65; continue _fun0013 }
+case 66:
             var10 = _closure1_slot17;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1716,7 +1720,7 @@ case 65:
             var8 = {};
             var8['source'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 64:
+case 65:
             var1['icon'] = var7;
             var1['label'] = var6;
             var1['onPress'] = var5;

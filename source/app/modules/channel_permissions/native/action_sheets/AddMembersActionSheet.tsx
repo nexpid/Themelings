@@ -96,14 +96,14 @@ case 11:
 case 10:
             var2 = var5.inActionSheet;
             var3 = {'channel': 0, 'guild': 0, 'pendingAdditions': 0, 'setPendingAdditions': 0, 'permission': 0, 'inActionSheet': 0};
-            var35 = null;
-            var36 = var3;
-            var1 = silentSetPrototypeOf(var36, var35);
+            var36 = null;
+            var37 = var3;
+            var1 = silentSetPrototypeOf(var37, var36);
             var7 = 0;
-            var36 = {};
-            var35 = var5;
-            var34 = var3;
-            var11 = copyDataProperties(var36, var35, var34);
+            var37 = {};
+            var36 = var5;
+            var35 = var3;
+            var11 = copyDataProperties(var37, var36, var35);
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
@@ -245,13 +245,13 @@ case 15:
             var1 = var1[var23];
             var5 = var5.bind(var4)(var1);
             var1 = var5.getRolesRows;
-            var37 = var5;
-            var36 = var18;
-            var35 = var14;
-            var34 = var22;
-            var33 = var16;
-            var32 = var8;
-            var5 = var37[var1](var36, var35, var34, var33, var32, var31);
+            var38 = var5;
+            var37 = var18;
+            var36 = var14;
+            var35 = var22;
+            var34 = var16;
+            var33 = var8;
+            var5 = var38[var1](var37, var36, var35, var34, var33, var32);
             var1 = var5.length;
             var1 = var7 === var1;
             if(!var1) { _fun0002_ip = 16; continue _fun0002 }
@@ -284,13 +284,13 @@ case 20:
             var1 = var23[var1];
             var5 = var5.bind(var4)(var1);
             var1 = var5.getMembersRows;
-            var37 = var5;
-            var36 = var6;
-            var35 = var22;
-            var34 = var18;
-            var33 = var16;
-            var32 = var8;
-            var6 = var37[var1](var36, var35, var34, var33, var32, var31);
+            var38 = var5;
+            var37 = var6;
+            var36 = var22;
+            var35 = var18;
+            var34 = var16;
+            var33 = var8;
+            var6 = var38[var1](var37, var36, var35, var34, var33, var32);
             var5 = var14.length;
             var1 = var6.length;
             var1 = var5 + var1;
@@ -360,13 +360,13 @@ case 24:
             var1 = var8;
 case 26:
             var16 = new Array(0);
-            var36 = var16;
-            var35 = var1;
-            var34 = 0;
-            var34 = arraySpread(var36, var35, var34);
-            var36 = var16;
-            var35 = var14;
-            var8 = arraySpread(var36, var35, var34);
+            var37 = var16;
+            var36 = var1;
+            var35 = 0;
+            var35 = arraySpread(var37, var36, var35);
+            var37 = var16;
+            var36 = var14;
+            var8 = arraySpread(var37, var36, var35);
             var1 = var6.length;
             if(!(!(var1 > var7))) { _fun0002_ip = 27; continue _fun0002 }
 case 28:
@@ -389,13 +389,13 @@ case 27:
             var18[0] = var22;
             var1 = var18;
 case 29:
-            var36 = var16;
-            var35 = var1;
-            var34 = var8;
-            var34 = arraySpread(var36, var35, var34);
-            var36 = var16;
-            var35 = var6;
-            var1 = arraySpread(var36, var35, var34);
+            var37 = var16;
+            var36 = var1;
+            var35 = var8;
+            var35 = arraySpread(var37, var36, var35);
+            var37 = var16;
+            var36 = var6;
+            var1 = arraySpread(var37, var36, var35);
             var1 = var14.length;
             var1 = var1 > var7;
             var8 = 0;
@@ -508,6 +508,16 @@ case 39:
             var25 = var25.bind(var4)(var24);
             var24 = {};
             var31 = _closure1_slot0;
+            var29 = var28[var18];
+            var29 = var31.bind(var4)(var29);
+            var32 = var29.intl;
+            var30 = var32.string;
+            var29 = var28[var18];
+            var29 = var31.bind(var4)(var29);
+            var29 = var29.t;
+            var29 = var29["5h0QOP"];
+            var29 = var30.bind(var32)(var29);
+            var24['accessibilityLabel'] = var29;
             var29 = var28[var18];
             var29 = var31.bind(var4)(var29);
             var30 = var29.intl;
@@ -627,9 +637,9 @@ case 44:
 case 42:
             var7 = _closure1_slot17;
             var6 = {};
-            var36 = var6;
-            var35 = var11;
-            var14 = copyDataProperties(var36, var35);
+            var37 = var6;
+            var36 = var11;
+            var14 = copyDataProperties(var37, var36);
             var20 = _closure1_slot20;
             var14 = 'estimatedItemSize';
             var6[13] = var20;
@@ -867,9 +877,9 @@ case 65:
 case 45:
             var8 = _closure1_slot17;
             var7 = {};
-            var36 = var7;
-            var35 = var11;
-            var11 = copyDataProperties(var36, var35);
+            var37 = var7;
+            var36 = var11;
+            var11 = copyDataProperties(var37, var36);
             var12 = _closure1_slot17;
             var14 = _closure1_slot0;
             var13 = _closure1_slot3;

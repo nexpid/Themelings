@@ -346,7 +346,7 @@ case 0:
                 var2 = var1.onPress;
                 var _closure3_slot1 = var2;
                 var18 = var1.theme;
-                var16 = var1.styles;
+                var17 = var1.styles;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 16;
@@ -378,7 +378,7 @@ case 19:
                 var1 = var3.bind(var4)(var1);
                 var1 = var1.IntegrationTypes;
                 var1 = var1.TWITCH;
-                var13 = undefined;
+                var14 = undefined;
                 if(!(var1 === var2)) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
                 var3 = var10.name;
@@ -386,7 +386,7 @@ case 21:
                 var1 = var1.HermesInternal;
                 var2 = var1.concat;
                 var1 = 'twitch.tv/';
-                var13 = var2.bind(var1)(var3);
+                var14 = var2.bind(var1)(var3);
                 _fun0004_ip = 20; continue _fun0004;
 case 18:
                 var2 = var10.account;
@@ -397,7 +397,7 @@ case 18:
 case 23:
                 var1 = var2.name;
 case 22:
-                var13 = var1;
+                var14 = var1;
 case 20:
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -406,96 +406,98 @@ case 20:
                 var3 = var2.bind(var4)(var1);
                 var2 = var3.get;
                 var1 = var10.type;
-                var15 = var2.bind(var3)(var1);
-                var14 = null;
-                var1 = var14 != var15;
-                var12 = null;
+                var11 = var2.bind(var3)(var1);
+                var15 = null;
+                var1 = var15 != var11;
+                var13 = null;
                 if(!var1) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
                 var3 = _closure1_slot16;
                 var2 = _closure1_slot9;
                 var1 = {};
-                var17 = _closure1_slot0;
+                var16 = _closure1_slot0;
                 var19 = _closure1_slot2;
                 var5 = 19;
                 var5 = var19[var5];
-                var8 = var17.bind(var4)(var5);
+                var8 = var16.bind(var4)(var5);
                 var7 = var8.makeSource;
                 var5 = 20;
                 var5 = var19[var5];
-                var17 = var17.bind(var4)(var5);
-                var5 = var17.isThemeDark;
-                var5 = var5.bind(var17)(var18);
-                var15 = var15.icon;
+                var16 = var16.bind(var4)(var5);
+                var5 = var16.isThemeDark;
+                var5 = var5.bind(var16)(var18);
+                var11 = var11.icon;
                 if(var5) { _fun0004_ip = 26; continue _fun0004 }
 case 27:
-                var5 = var15.lightPNG;
+                var5 = var11.lightPNG;
                 _fun0004_ip = 28; continue _fun0004;
 case 26:
-                var5 = var15.darkPNG;
+                var5 = var11.darkPNG;
 case 28:
                 var5 = var7.bind(var8)(var5);
                 var1['source'] = var5;
-                var5 = var16.platformIcon;
+                var5 = var17.platformIcon;
                 var1['style'] = var5;
-                var12 = var3.bind(var4)(var2, var1);
+                var13 = var3.bind(var4)(var2, var1);
 case 24:
                 var3 = _closure1_slot17;
                 var7 = _closure1_slot0;
-                var15 = _closure1_slot2;
+                var16 = _closure1_slot2;
                 var1 = 21;
-                var1 = var15[var1];
+                var1 = var16[var1];
                 var1 = var7.bind(var4)(var1);
                 var2 = var1.TableRowGroup;
                 var1 = {};
+                var11 = true;
+                var1['hasIcons'] = var11;
                 var8 = _closure1_slot16;
                 var5 = 22;
-                var5 = var15[var5];
+                var5 = var16[var5];
                 var5 = var7.bind(var4)(var5);
                 var7 = var5.TableRow;
                 var5 = {};
-                var17 = var10.user;
-                var15 = var14 == var17;
-                var14 = undefined;
-                if(var15) { _fun0004_ip = 29; continue _fun0004 }
+                var18 = var10.user;
+                var16 = var15 == var18;
+                var15 = undefined;
+                if(var16) { _fun0004_ip = 29; continue _fun0004 }
 case 30:
-                var15 = var17.toString;
-                var14 = var15.bind(var17)();
+                var16 = var18.toString;
+                var15 = var16.bind(var18)();
 case 29:
-                var5['label'] = var14;
-                var5['subLabel'] = var13;
-                var15 = _closure1_slot16;
-                var14 = _closure1_slot10;
-                var13 = {};
-                var16 = var16.trailingWrapper;
-                var13['style'] = var16;
-                var16 = var10.syncing;
-                if(!var16) { _fun0004_ip = 31; continue _fun0004 }
+                var5['label'] = var15;
+                var5['subLabel'] = var14;
+                var16 = _closure1_slot16;
+                var15 = _closure1_slot10;
+                var14 = {};
+                var17 = var17.trailingWrapper;
+                var14['style'] = var17;
+                var17 = var10.syncing;
+                if(!var17) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                var19 = _closure1_slot16;
-                var18 = _closure1_slot8;
-                var17 = {'animating': true, 'size': 'small'};
-                var16 = var19.bind(var4)(var18, var17);
+                var20 = _closure1_slot16;
+                var19 = _closure1_slot8;
+                var18 = {'animating': true, 'size': 'small'};
+                var17 = var20.bind(var4)(var19, var18);
 case 31:
-                var13['children'] = var16;
-                var13 = var15.bind(var4)(var14, var13);
-                var5['trailing'] = var13;
-                var13 = var10.enabled;
-                if(!var13) { _fun0004_ip = 33; continue _fun0004 }
+                var14['children'] = var17;
+                var14 = var16.bind(var4)(var15, var14);
+                var5['trailing'] = var14;
+                var14 = var10.enabled;
+                if(!var14) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
-                var14 = var10.syncing;
-                var13 = !var14;
+                var15 = var10.syncing;
+                var14 = !var15;
 case 33:
-                var5['arrow'] = var13;
-                var5['icon'] = var12;
-                var12 = var10.enabled;
-                var12 = !var12;
-                if(var12) { _fun0004_ip = 35; continue _fun0004 }
+                var5['arrow'] = var14;
+                var5['icon'] = var13;
+                var13 = var10.enabled;
+                var13 = !var13;
+                if(var13) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
-                var12 = var10.syncing;
+                var13 = var10.syncing;
 case 35:
-                var5['disabled'] = var12;
-                var11 = function onPress() {
+                var5['disabled'] = var13;
+                var12 = function onPress() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var1 = _closure3_slot0;
@@ -510,7 +512,7 @@ case 37:
                         return var1;
                     }
                 };
-                var5['onPress'] = var11;
+                var5['onPress'] = var12;
                 var7 = var8.bind(var4)(var7, var5);
                 var5 = new Array(2);
                 var5[0] = var7;
@@ -522,15 +524,14 @@ case 37:
                 var6 = var12.bind(var4)(var6);
                 var7 = var6.TableSwitchRow;
                 var6 = {};
-                var11 = global;
-                var14 = var11.Boolean;
-                var11 = var9.state;
-                var11 = var11.enabled;
-                var11 = var14.bind(var4)(var11);
-                var6['value'] = var11;
-                var11 = var10.syncing;
-                var10 = true;
-                var10 = var10 === var11;
+                var14 = global;
+                var15 = var14.Boolean;
+                var14 = var9.state;
+                var14 = var14.enabled;
+                var14 = var15.bind(var4)(var14);
+                var6['value'] = var14;
+                var10 = var10.syncing;
+                var10 = var11 === var10;
                 var6['disabled'] = var10;
                 var9 = var9.handleToggleEnabled;
                 var6['onValueChange'] = var9;

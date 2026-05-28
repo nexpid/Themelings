@@ -271,9 +271,7 @@ case 9:
                     var8 = undefined;
                     var3 = var9.bind(var8)(var1);
                     var2 = var3.showSimpleActionSheet;
-                    var1 = {};
-                    var4 = 'GuildProgressOverviewLongPress';
-                    var1['key'] = var4;
+                    var1 = {'key': 'GuildProgressOverviewLongPress', 'options': null, 'hasIcons': false};
                     var5 = {};
                     var4 = 9;
                     var6 = var10[var4];

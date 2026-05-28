@@ -540,6 +540,8 @@ case 19:
                 var2 = var1.TableRowGroup;
                 var1 = {};
                 var1['description'] = var9;
+                var6 = true;
+                var1['hasIcons'] = var6;
                 var6 = var7.map;
                 var5 = function(arg1) {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {

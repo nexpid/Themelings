@@ -866,17 +866,17 @@ case 74:
             var11['title'] = var27;
             var29 = var1 == var28;
             var27 = undefined;
-            if(var29) { _fun0003_ip = 76; continue _fun0003 }
-case 77:
-            var27 = var28.recentRating;
+            if(var29) { _fun0003_ip = 6; continue _fun0003 }
 case 76:
+            var27 = var28.recentRating;
+case 6:
             var11['rating'] = var27;
             var29 = var1 == var28;
             var27 = undefined;
-            if(var29) { _fun0003_ip = 78; continue _fun0003 }
-case 79:
-            var27 = var28.recentRatingCount;
+            if(var29) { _fun0003_ip = 77; continue _fun0003 }
 case 78:
+            var27 = var28.recentRatingCount;
+case 77:
             var11['ratingCount'] = var27;
             var11['isRecentRating'] = var24;
             var12 = var20.bind(var6)(var19, var11);
@@ -884,12 +884,12 @@ case 71:
             var11 = new Array(3);
             var11[0] = var12;
             var12 = null;
-            if(!var15) { _fun0003_ip = 80; continue _fun0003 }
-case 81:
+            if(!var15) { _fun0003_ip = 79; continue _fun0003 }
+case 80:
             var15 = var1 != var23;
             var12 = null;
-            if(!var15) { _fun0003_ip = 80; continue _fun0003 }
-case 82:
+            if(!var15) { _fun0003_ip = 79; continue _fun0003 }
+case 81:
             var20 = _closure1_slot7;
             var19 = _closure1_slot10;
             var15 = {};
@@ -909,15 +909,15 @@ case 82:
             var21 = false;
             var15['isRecentRating'] = var21;
             var12 = var20.bind(var6)(var19, var15);
-case 80:
+case 79:
             var11[1] = var12;
             var12 = null;
-            if(!var14) { _fun0003_ip = 83; continue _fun0003 }
-case 84:
+            if(!var14) { _fun0003_ip = 82; continue _fun0003 }
+case 83:
             var14 = var1 != var17;
             var12 = null;
-            if(!var14) { _fun0003_ip = 83; continue _fun0003 }
-case 85:
+            if(!var14) { _fun0003_ip = 82; continue _fun0003 }
+case 84:
             var15 = _closure1_slot7;
             var14 = _closure1_slot11;
             var13 = {};
@@ -925,7 +925,7 @@ case 85:
             var13['url'] = var17;
             var13['trackAction'] = var16;
             var12 = var15.bind(var6)(var14, var13);
-case 83:
+case 82:
             var11[2] = var12;
             var8['children'] = var11;
             var8 = var10.bind(var6)(var9, var8);

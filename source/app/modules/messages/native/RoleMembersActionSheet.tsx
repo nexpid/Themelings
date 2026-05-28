@@ -284,7 +284,7 @@ case 14:
                     var14 = var6 == var13;
                     var13 = undefined;
                     if(var14) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+case 5:
                     var14 = _closure2_slot3;
                     var13 = var14.name;
 case 16:
@@ -294,8 +294,8 @@ case 16:
                     var8 = _closure2_slot5;
                     var8 = var6 != var8;
                     var6 = null;
-                    if(!var8) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+                    if(!var8) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                     var9 = _closure1_slot8;
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -311,7 +311,7 @@ case 19:
                     var10 = _closure2_slot5;
                     var7['children'] = var10;
                     var6 = var9.bind(var1)(var8, var7);
-case 18:
+case 17:
                     var5[2] = var6;
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);
@@ -321,8 +321,8 @@ case 18:
             var6 = var4.bind(var6)(var2, var3);
             var2 = var11 == var1;
             var1 = null;
-            if(var2) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(var2) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var4 = _closure1_slot8;
             var3 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -340,16 +340,16 @@ case 21:
             var7 = var7.bind(var5)(var6);
             var6 = {'guildId': null, 'channelId': null, 'roleId': null, 'headerShown': false, 'inActionSheet': true, 'disableStickySections': true, 'disableThemedGradient': true};
             var6['guildId'] = var12;
-            if(!(var11 == var9)) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var9 = _closure1_slot6;
+            if(!(var11 == var9)) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
+            var9 = _closure1_slot6;
+case 21:
             var6['channelId'] = var9;
             var6['roleId'] = var8;
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 20:
+case 19:
             return var1;
         }
     };

@@ -135,6 +135,8 @@ case 0:
             var8 = var8["7Si8Ul"];
             var8 = var11.bind(var12)(var8);
             var5['title'] = var8;
+            var8 = false;
+            var5['hasIcons'] = var8;
             var17 = null;
             var8 = null;
             if(!var10) { _fun0001_ip = 2; continue _fun0001 }

@@ -462,6 +462,8 @@ case 25:
                     var2 = var7;
 case 24:
                     var3['selectedItem'] = var2;
+                    var2 = false;
+                    var3['hasIcons'] = var2;
                     var2 = 'SelectUpdatesChannel';
                     var2 = var5.bind(var6)(var4, var2, var3);
                     return var1;

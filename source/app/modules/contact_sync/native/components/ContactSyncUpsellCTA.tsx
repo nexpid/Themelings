@@ -133,9 +133,7 @@ case 4:
             var1 = undefined;
             var4 = var9.bind(var1)(var2);
             var3 = var4.showSimpleActionSheet;
-            var2 = {};
-            var5 = 'ContactSyncUpsellLongPress';
-            var2['key'] = var5;
+            var2 = {'key': 'ContactSyncUpsellLongPress', 'options': null, 'hasIcons': false};
             var6 = {};
             var5 = 10;
             var7 = var10[var5];

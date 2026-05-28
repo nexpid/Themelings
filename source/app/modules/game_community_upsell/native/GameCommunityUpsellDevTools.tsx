@@ -195,9 +195,7 @@ case 15:
             var11 = var11[var12];
             var11 = var14.bind(var4)(var11);
             var14 = var11.TableRowGroup;
-            var11 = {};
-            var16 = 'Detected Apps';
-            var11['title'] = var16;
+            var11 = {'title': 'Detected Apps', 'hasIcons': false};
             var16 = var18.length;
             if(!(var17 !== var16)) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
@@ -293,9 +291,7 @@ case 23:
             var14 = var22[var12];
             var14 = var20.bind(var4)(var14);
             var15 = var14.TableRowGroup;
-            var14 = {};
-            var16 = 'Store State';
-            var14['title'] = var16;
+            var14 = {'title': 'Store State', 'hasIcons': false};
             var25 = _closure1_slot7;
             var16 = 12;
             var18 = var22[var16];
@@ -340,9 +336,7 @@ case 23:
             var12 = var22[var12];
             var12 = var20.bind(var4)(var12);
             var13 = var12.TableRowGroup;
-            var12 = {};
-            var15 = 'Actions';
-            var12['title'] = var15;
+            var12 = {'title': 'Actions', 'hasIcons': true};
             var18 = _closure1_slot7;
             var15 = var22[var16];
             var15 = var20.bind(var4)(var15);

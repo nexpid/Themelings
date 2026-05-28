@@ -655,6 +655,7 @@ case 40:
             var18 = var19.bind(var4)(var18);
             var19 = var18.TableRowGroup;
             var18 = {};
+            var18['hasIcons'] = var26;
             var24 = null;
             if(!var21) { _fun0001_ip = 45; continue _fun0001 }
 case 46:

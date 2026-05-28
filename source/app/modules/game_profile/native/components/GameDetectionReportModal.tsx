@@ -655,6 +655,8 @@ case 32:
                     }
                 };
                 var12['onChange'] = var15;
+                var15 = false;
+                var12['hasIcons'] = var15;
                 var17 = _closure2_slot16;
                 var16 = var17.map;
                 var15 = function(arg1, arg2) {
@@ -795,6 +797,8 @@ case 34:
                     return var1;
                 };
                 var6['onChange'] = var9;
+                var9 = false;
+                var6['hasIcons'] = var9;
                 var14 = _closure1_slot7;
                 var10 = 16;
                 var9 = var17[var10];

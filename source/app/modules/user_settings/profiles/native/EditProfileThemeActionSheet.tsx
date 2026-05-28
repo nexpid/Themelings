@@ -108,6 +108,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var15.bind(var4)(var6);
         var7 = var6.TableRowGroup;
         var6 = {};
+        var9 = false;
+        var6['hasIcons'] = var9;
         var9 = 9;
         var9 = var16[var9];
         var9 = var15.bind(var4)(var9);

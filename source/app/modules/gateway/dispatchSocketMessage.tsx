@@ -2081,6 +2081,8 @@ case 47:
             var2 = {};
             var4 = 'TYPING_START';
             var2['type'] = var4;
+            var4 = var1.guild_id;
+            var2['guildId'] = var4;
             var4 = var1.channel_id;
             var2['channelId'] = var4;
             var1 = var1.user_id;
@@ -2729,8 +2731,8 @@ case 170:
 case 0:
             var1 = arg1;
             var2 = var1.permission_denied;
-            if(var2) { _fun0038_ip = 171; continue _fun0038 }
-case 106:
+            if(var2) { _fun0038_ip = 41; continue _fun0038 }
+case 32:
             var3 = _closure1_slot27;
             var2 = {};
             var4 = 'FORUM_UNREADS';
@@ -2754,7 +2756,7 @@ case 106:
             var2['threads'] = var1;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
-case 171:
+case 41:
             var1 = undefined;
             return var1;
         }
@@ -2821,7 +2823,7 @@ case 0:
             var1 = arg1;
             var3 = var1.unavailable;
             if(var3) { _fun0040_ip = 37; continue _fun0040 }
-case 172:
+case 171:
             var4 = _closure1_slot2;
             var5 = _closure1_slot3;
             var3 = 16;
@@ -2994,21 +2996,21 @@ case 0:
             var1 = undefined;
             var7 = undefined;
             if(var9) { _fun0043_ip = 104; continue _fun0043 }
-case 173:
+case 172:
             var7 = var8.banned_users;
 case 104:
-            if(!(var6 == var7)) { _fun0043_ip = 174; continue _fun0043 }
-case 175:
-            var7 = new Array(0);
+            if(!(var6 == var7)) { _fun0043_ip = 173; continue _fun0043 }
 case 174:
+            var7 = new Array(0);
+case 173:
             var4['bannedUsers'] = var7;
             var7 = var5.bulk_ban;
             var8 = var6 == var7;
             var5 = undefined;
-            if(var8) { _fun0043_ip = 176; continue _fun0043 }
+            if(var8) { _fun0043_ip = 175; continue _fun0043 }
 case 9:
             var5 = var7.failed_users;
-case 176:
+case 175:
             if(!(var6 == var5)) { _fun0043_ip = 145; continue _fun0043 }
 case 11:
             var5 = new Array(0);
@@ -3091,7 +3093,7 @@ case 0:
                 var4 = var5.bind(var6)(var4);
                 var4 = var3.presences;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0045_ip = 13; continue _fun0045 }
+                if(!(var3 != var4)) { _fun0045_ip = 176; continue _fun0045 }
 case 177:
                 var5 = _closure1_slot31;
                 var2 = _closure2_slot0;
@@ -3102,7 +3104,7 @@ case 177:
                 var3 = var4.forEach;
                 var2 = _closure1_slot33;
                 var2 = var3.bind(var4)(var2);
-case 13:
+case 176:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
                 var1 = 12;
@@ -3390,7 +3392,7 @@ case 0:
             var6 = var6.bind(var7)(var5, var2);
             var2 = null;
             if(!(var2 != var6)) { _fun0047_ip = 179; continue _fun0047 }
-case 177:
+case 180:
             var5 = 'string';
             var2 = typeof var6;
             if(!(var5 !== var2)) { _fun0047_ip = 107; continue _fun0047 }
@@ -3494,22 +3496,22 @@ case 0:
             var5 = var1.nickname;
             var4['nickname'] = var5;
             var5 = var1.is_spam_request;
-            if(var5) { _fun0048_ip = 180; continue _fun0048 }
+            if(var5) { _fun0048_ip = 181; continue _fun0048 }
 case 42:
             var5 = false;
-case 180:
+case 181:
             var4['isSpamRequest'] = var5;
             var5 = var1.is_stranger_request;
-            if(var5) { _fun0048_ip = 181; continue _fun0048 }
+            if(var5) { _fun0048_ip = 182; continue _fun0048 }
 case 11:
             var5 = false;
-case 181:
+case 182:
             var4['isStrangerRequest'] = var5;
             var5 = var1.user_ignored;
-            if(var5) { _fun0048_ip = 182; continue _fun0048 }
-case 183:
+            if(var5) { _fun0048_ip = 183; continue _fun0048 }
+case 176:
             var5 = false;
-case 182:
+case 183:
             var4['userIgnored'] = var5;
             var5 = var1.origin_application_id;
             var4['originApplicationId'] = var5;
@@ -3560,22 +3562,22 @@ case 0:
             var5 = var4.since;
             var1['since'] = var5;
             var5 = var4.is_spam_request;
-            if(var5) { _fun0049_ip = 180; continue _fun0049 }
+            if(var5) { _fun0049_ip = 181; continue _fun0049 }
 case 42:
             var5 = false;
-case 180:
+case 181:
             var1['isSpamRequest'] = var5;
             var5 = var4.is_stranger_request;
-            if(var5) { _fun0049_ip = 181; continue _fun0049 }
+            if(var5) { _fun0049_ip = 182; continue _fun0049 }
 case 11:
             var5 = false;
-case 181:
+case 182:
             var1['isStrangerRequest'] = var5;
             var5 = var4.user_ignored;
-            if(var5) { _fun0049_ip = 182; continue _fun0049 }
-case 183:
+            if(var5) { _fun0049_ip = 183; continue _fun0049 }
+case 176:
             var5 = false;
-case 182:
+case 183:
             var1['userIgnored'] = var5;
             var5 = var4.origin_application_id;
             var1['originApplicationId'] = var5;
@@ -4410,7 +4412,7 @@ case 0:
                     var1 = arg1;
                     var2 = var1.member;
                     var6 = null;
-                    if(!(var6 != var2)) { _fun0056_ip = 181; continue _fun0056 }
+                    if(!(var6 != var2)) { _fun0056_ip = 182; continue _fun0056 }
 case 98:
                     var4 = var1.member;
                     var8 = _closure1_slot28;
@@ -4420,7 +4422,7 @@ case 98:
                     var3 = undefined;
                     var2 = var8.bind(var3)(var7, var2, var4);
                     var2 = var4.presence;
-                    if(!(var6 != var2)) { _fun0056_ip = 181; continue _fun0056 }
+                    if(!(var6 != var2)) { _fun0056_ip = 182; continue _fun0056 }
 case 93:
                     var2 = _closure1_slot33;
                     var5 = _closure1_slot32;
@@ -4429,7 +4431,7 @@ case 93:
                     var1 = var1.guild_id;
                     var1 = var5.bind(var3)(var4, var1);
                     var1 = var2.bind(var3)(var1);
-case 181:
+case 182:
                     var1 = undefined;
                     return var1;
                 }
@@ -5626,28 +5628,28 @@ case 92:
                 var3 = null;
                 var6 = var3 != var5;
                 var4 = null;
-                if(!var6) { _fun0059_ip = 174; continue _fun0059 }
+                if(!var6) { _fun0059_ip = 173; continue _fun0059 }
 case 193:
                 var4 = var5;
-case 174:
+case 173:
                 var1['requestToSpeakTimestamp'] = var4;
                 var4 = var2.self_deaf;
-                if(var4) { _fun0059_ip = 180; continue _fun0059 }
+                if(var4) { _fun0059_ip = 181; continue _fun0059 }
 case 42:
                 var4 = false;
-case 180:
+case 181:
                 var1['selfDeaf'] = var4;
                 var4 = var2.self_mute;
-                if(var4) { _fun0059_ip = 181; continue _fun0059 }
+                if(var4) { _fun0059_ip = 182; continue _fun0059 }
 case 11:
                 var4 = false;
-case 181:
+case 182:
                 var1['selfMute'] = var4;
                 var4 = var2.self_stream;
-                if(var4) { _fun0059_ip = 182; continue _fun0059 }
-case 183:
+                if(var4) { _fun0059_ip = 183; continue _fun0059 }
+case 176:
                 var4 = false;
-case 182:
+case 183:
                 var1['selfStream'] = var4;
                 var4 = var2.self_video;
                 if(var4) { _fun0059_ip = 194; continue _fun0059 }

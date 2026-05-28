@@ -498,6 +498,8 @@ case 2:
             return var1;
         };
         var10['onChange'] = var19;
+        var19 = false;
+        var10['hasIcons'] = var19;
         var21 = _closure1_slot14;
         var20 = var21.map;
         var19 = function(arg1, arg2) {

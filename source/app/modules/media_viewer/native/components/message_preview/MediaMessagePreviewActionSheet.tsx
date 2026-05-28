@@ -181,6 +181,8 @@ case 4:
             var5 = var5.ActionSheetRow;
             var6 = var5.Group;
             var5 = {};
+            var8 = true;
+            var5['hasIcons'] = var8;
             var8 = var16[var15];
             var8 = var21.bind(var4)(var8);
             var12 = var8.ActionSheetRow;

@@ -226,6 +226,8 @@ case 0:
             var18 = var23.bind(var4)(var18);
             var19 = var18.TableRowGroup;
             var18 = {};
+            var20 = true;
+            var18['hasIcons'] = var20;
             var20 = _closure1_slot6;
             var24 = var20.bind(var4)(var21);
             var21 = var24.map;

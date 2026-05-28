@@ -2167,6 +2167,8 @@ case 157:
             var1 = var2.bind(var4)(var1);
             var2 = var1.TableRowGroup;
             var1 = {};
+            var6 = true;
+            var1['hasIcons'] = var6;
             var13 = _closure1_slot12;
             var12 = _closure1_slot16;
             var6 = {};
@@ -2200,6 +2202,8 @@ case 132:
             var1 = var2.bind(var4)(var1);
             var2 = var1.TableRowGroup;
             var1 = {};
+            var6 = true;
+            var1['hasIcons'] = var6;
             var7 = _closure1_slot12;
             var6 = _closure1_slot16;
             var5 = {};

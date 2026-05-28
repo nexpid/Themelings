@@ -49,13 +49,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var13.bind(var3)(var1);
         var2 = var1.TableRowGroup;
         var1 = {};
+        var11 = true;
+        var1['hasIcons'] = var11;
         var8 = _closure1_slot3;
         var6 = 4;
         var5 = var14[var6];
         var5 = var13.bind(var3)(var5);
         var7 = var5.TableRow;
         var5 = {};
-        var11 = true;
         var5['arrow'] = var11;
         var10 = 5;
         var10 = var14[var10];

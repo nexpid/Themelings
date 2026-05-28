@@ -514,9 +514,7 @@ case 18:
             var8 = var13[var9];
             var8 = var14.bind(var4)(var8);
             var10 = var8.TableRowGroup;
-            var8 = {};
-            var12 = 'OTA Status';
-            var8['title'] = var12;
+            var8 = {'title': 'OTA Status', 'hasIcons': true};
             var20 = _closure1_slot8;
             var19 = 15;
             var12 = var13[var19];
@@ -567,9 +565,7 @@ case 18:
             var10 = var13[var9];
             var10 = var14.bind(var4)(var10);
             var11 = var10.TableRowGroup;
-            var10 = {};
-            var15 = 'Manifest';
-            var10['title'] = var15;
+            var10 = {'title': 'Manifest', 'hasIcons': true};
             var15 = _closure1_slot8;
             var13 = var13[var19];
             var13 = var14.bind(var4)(var13);
@@ -617,18 +613,18 @@ case 26:
             var14['icon'] = var21;
             var23 = var25 != var22;
             var21 = '{}';
-            if(!var23) { _fun0002_ip = 13; continue _fun0002 }
-case 28:
+            if(!var23) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var23 = global;
             var27 = var23.JSON;
             var23 = var27.stringify;
             var22 = var22.metadata;
-            if(!(var25 == var22)) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+            if(!(var25 == var22)) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var22 = {};
-case 29:
+case 30:
             var21 = var23.bind(var27)(var22, var25, var26);
-case 13:
+case 28:
             var14['label'] = var21;
             var14 = var20.bind(var4)(var15, var14);
             var13[1] = var14;
@@ -641,9 +637,7 @@ case 13:
             var10 = var20[var9];
             var10 = var21.bind(var4)(var10);
             var11 = var10.TableRowGroup;
-            var10 = {};
-            var13 = 'Build Override Cookie';
-            var10['title'] = var13;
+            var10 = {'title': 'Build Override Cookie', 'hasIcons': true};
             var15 = _closure1_slot8;
             var13 = var20[var19];
             var13 = var21.bind(var4)(var13);
@@ -660,17 +654,17 @@ case 13:
             var13['label'] = var20;
             var21 = var25 == var24;
             var20 = 'Yes';
-            if(!var21) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
+            if(!var21) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var20 = 'No';
-case 31:
+case 32:
             var13['subLabel'] = var20;
             var14 = var15.bind(var4)(var14, var13);
             var13 = new Array(2);
             var13[0] = var14;
             var14 = var25 != var24;
-            if(!var14) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+            if(!var14) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             var21 = _closure1_slot8;
             var23 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -691,7 +685,7 @@ case 34:
             var22 = var22.bind(var23)(var24, var25, var26);
             var15['label'] = var22;
             var14 = var21.bind(var4)(var20, var15);
-case 33:
+case 34:
             var13[1] = var14;
             var10['children'] = var13;
             var10 = var12.bind(var4)(var11, var10);
@@ -702,9 +696,7 @@ case 33:
             var9 = var13[var9];
             var9 = var14.bind(var4)(var9);
             var10 = var9.TableRowGroup;
-            var9 = {};
-            var12 = 'Actions';
-            var9['title'] = var12;
+            var9 = {'title': 'Actions', 'hasIcons': true};
             var20 = _closure1_slot8;
             var12 = var13[var19];
             var12 = var14.bind(var4)(var12);
@@ -737,10 +729,10 @@ case 33:
             var19 = 'Verify OTA Files';
             var13['label'] = var19;
             var19 = 'Verify content hashes for all app files';
-            if(!var16) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
+            if(!var16) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var19 = 'Verification in progress';
-case 35:
+case 36:
             var13['subLabel'] = var19;
             var20 = _closure1_slot8;
             var19 = _closure1_slot0;

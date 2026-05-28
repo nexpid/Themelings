@@ -192,6 +192,8 @@ case 2:
             var5 = var5.UXxPGB;
             var5 = var6.bind(var7)(var5);
             var1['title'] = var5;
+            var5 = false;
+            var1['hasIcons'] = var5;
             var9 = _closure1_slot9;
             var7 = 13;
             var5 = var18[var7];

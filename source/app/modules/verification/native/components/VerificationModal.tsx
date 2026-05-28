@@ -369,9 +369,7 @@ case 7:
                         var1 = undefined;
                         var4 = var9.bind(var1)(var2);
                         var3 = var4.showSimpleActionSheet;
-                        var2 = {};
-                        var5 = 'VerificationOverviewMore';
-                        var2['key'] = var5;
+                        var2 = {'key': 'VerificationOverviewMore', 'options': null, 'hasIcons': false};
                         var6 = {};
                         var5 = 11;
                         var7 = var10[var5];

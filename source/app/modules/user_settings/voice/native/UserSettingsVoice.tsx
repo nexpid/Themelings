@@ -199,12 +199,9 @@ case 4:
         var1 = var2.bind(var3)(var1);
         var2 = var1.TableRowGroup;
         var1 = {};
-        var7 = arg1;
-        var8 = var1;
-        var5 = copyDataProperties(var8, var7);
-        var6 = false;
-        var5 = 'hasIcons';
-        var1[4] = var6;
+        var6 = arg1;
+        var7 = var1;
+        var5 = copyDataProperties(var7, var6);
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };

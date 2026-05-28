@@ -85,6 +85,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['onPress'] = var7;
         var5[1] = var6;
         var2['options'] = var5;
+        var5 = false;
+        var2['hasIcons'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
@@ -198,6 +200,8 @@ case 0:
             var5 = var5.LKCupB;
             var5 = var6.bind(var7)(var5);
             var1['title'] = var5;
+            var5 = false;
+            var1['hasIcons'] = var5;
             var7 = _closure1_slot6;
             var11 = 11;
             var5 = var12[var11];

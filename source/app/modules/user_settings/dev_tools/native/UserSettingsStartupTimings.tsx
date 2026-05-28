@@ -413,9 +413,7 @@ case 0:
                     var8 = var15[var10];
                     var8 = var17.bind(var1)(var8);
                     var11 = var8.TableRowGroup;
-                    var8 = {};
-                    var9 = 'Performance testing';
-                    var8['title'] = var9;
+                    var8 = {'title': 'Performance testing', 'hasIcons': false};
                     var18 = _closure1_slot8;
                     var16 = 19;
                     var9 = var15[var16];
@@ -451,9 +449,7 @@ case 0:
                     var11 = var15[var10];
                     var11 = var17.bind(var1)(var11);
                     var12 = var11.TableRowGroup;
-                    var11 = {};
-                    var13 = 'Key Cold Start Times';
-                    var11['title'] = var13;
+                    var11 = {'title': 'Key Cold Start Times', 'hasIcons': false};
                     var18 = _closure1_slot8;
                     var13 = 21;
                     var15 = var15[var13];
@@ -523,11 +519,11 @@ case 0:
                     var27 = null;
                     var26 = var27 == var24;
                     var24 = undefined;
-                    if(var26) { _fun0004_ip = 5; continue _fun0004 }
-case 15:
+                    if(var26) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                     var26 = _closure2_slot12;
                     var24 = var26.time_display_messages_with_cache_end;
-case 5:
+case 15:
                     var25 = var25.bind(var1)(var24);
                     var24 = ['Cached Messages Render: '];
                     var24[1] = var25;
@@ -541,11 +537,11 @@ case 5:
                     var25 = _closure2_slot12;
                     var27 = var27 == var25;
                     var25 = undefined;
-                    if(var27) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                    if(var27) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
                     var27 = _closure2_slot12;
                     var25 = var27.time_display_latest_messages_end;
-case 16:
+case 17:
                     var26 = var26.bind(var1)(var25);
                     var25 = ['Latest Messages Render: '];
                     var25[1] = var26;
@@ -565,9 +561,7 @@ case 16:
                     var11 = var19[var10];
                     var11 = var17.bind(var1)(var11);
                     var12 = var11.TableRowGroup;
-                    var11 = {};
-                    var14 = 'Legend';
-                    var11['title'] = var14;
+                    var11 = {'title': 'Legend', 'hasIcons': false};
                     var22 = _closure1_slot8;
                     var14 = var19[var13];
                     var14 = var17.bind(var1)(var14);
@@ -618,9 +612,7 @@ case 16:
                     var11 = var19[var10];
                     var11 = var17.bind(var1)(var11);
                     var12 = var11.TableRowGroup;
-                    var11 = {};
-                    var15 = 'Detailed Times';
-                    var11['title'] = var15;
+                    var11 = {'title': 'Detailed Times', 'hasIcons': false};
                     var20 = _closure1_slot8;
                     var15 = var19[var16];
                     var15 = var17.bind(var1)(var15);

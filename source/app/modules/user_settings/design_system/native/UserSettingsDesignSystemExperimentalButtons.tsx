@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var13[var18];
         var11 = var7.bind(var4)(var11);
         var17 = var11.TableRowGroup;
-        var11 = {'title': 'Header Button', 'description': "A specialized version of the 'secondary-overlay' Button which functions as both a Header and a button."};
+        var11 = {'title': 'Header Button', 'description': "A specialized version of the 'secondary-overlay' Button which functions as both a Header and a button.", 'hasIcons': false};
         var19 = {};
         var21 = {};
         var24 = 'center';
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var13[var18];
         var11 = var7.bind(var4)(var11);
         var19 = var11.TableRowGroup;
-        var11 = {'title': 'Input Button', 'description': 'A specialized button which looks like a text field, but functions as a button.'};
+        var11 = {'title': 'Input Button', 'description': 'A specialized button which looks like a text field, but functions as a button.', 'hasIcons': false};
         var20 = var13[var20];
         var20 = var7.bind(var4)(var20);
         var21 = var20.Stack;
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var13[var18];
         var11 = var7.bind(var4)(var11);
         var19 = var11.TableRowGroup;
-        var11 = {'title': 'Twin Buttons', 'description': 'TwinButtons is a specialized layout component, which renders two text buttons horizontally next to each other. A horizontal layout for text buttons is often problematic, since internationalization and font size settings can easily render these buttons unreadable. But TwinButtons will force the two buttons to stack vertically under certain conditions to avoid these issues.'};
+        var11 = {'title': 'Twin Buttons', 'description': 'TwinButtons is a specialized layout component, which renders two text buttons horizontally next to each other. A horizontal layout for text buttons is often problematic, since internationalization and font size settings can easily render these buttons unreadable. But TwinButtons will force the two buttons to stack vertically under certain conditions to avoid these issues.', 'hasIcons': false};
         var20 = var13[var6];
         var20 = var7.bind(var4)(var20);
         var21 = var20.TwinButtons;
@@ -218,7 +218,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var13[var18];
         var11 = var7.bind(var4)(var11);
         var19 = var11.TableRowGroup;
-        var11 = {'title': 'PressableScale', 'description': 'If no button in our catelog of components is compatible with a particular design, then PressableScale can fill some gaps. It will apply the same onPress animation to a custom button.'};
+        var11 = {'title': 'PressableScale', 'description': 'If no button in our catelog of components is compatible with a particular design, then PressableScale can fill some gaps. It will apply the same onPress animation to a custom button.', 'hasIcons': false};
         var20 = {};
         var21 = {};
         var21['padding'] = var22;
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var13[var18];
         var11 = var7.bind(var4)(var11);
         var19 = var11.TableRowGroup;
-        var11 = {'title': 'Experimental Blur Background Row Button', 'description': 'Row Button Row Buttons are full-width, high-emphasis buttons that are used as primary CTAs in a page.'};
+        var11 = {'title': 'Experimental Blur Background Row Button', 'description': 'Row Button Row Buttons are full-width, high-emphasis buttons that are used as primary CTAs in a page.', 'hasIcons': false};
         var20 = {};
         var20 = var8.bind(var4)(var2, var20);
         var11['children'] = var20;
@@ -302,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = var13[var18];
         var18 = var7.bind(var4)(var18);
         var19 = var18.TableRowGroup;
-        var18 = {'title': 'Collapsible Floating Action Button', 'description': 'A variation of the FloatingActionButton which will display some text until the user scrolls. We currently recommend the use of the FloatingActionButton over the CollapsibleFloatingActionButton, as a singular icon button without animation is more compact, understandable, and predictable.'};
+        var18 = {'title': 'Collapsible Floating Action Button', 'description': 'A variation of the FloatingActionButton which will display some text until the user scrolls. We currently recommend the use of the FloatingActionButton over the CollapsibleFloatingActionButton, as a singular icon button without animation is more compact, understandable, and predictable.', 'hasIcons': false};
         var20 = {};
         var21 = {};
         var22 = 48;

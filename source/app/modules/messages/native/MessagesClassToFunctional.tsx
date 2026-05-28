@@ -3317,6 +3317,8 @@ case 400:
         var5['onTapGiftCodeAccept'] = var15;
         var15 = var13.handleTapReferralRedeem;
         var5['onTapReferralRedeem'] = var15;
+        var15 = var13.handleGiftIntentCardViewed;
+        var5['onGiftIntentCardViewed'] = var15;
         var15 = var13.handleTapThreadEmbed;
         var5['onTapThreadEmbed'] = var15;
         var15 = var13.handleTapEmoji;

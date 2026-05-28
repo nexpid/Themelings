@@ -111,9 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var14[var6];
         var7 = var11.bind(var4)(var7);
         var8 = var7.TableRowGroup;
-        var7 = {};
-        var10 = 'Emoji';
-        var7['title'] = var10;
+        var7 = {'title': 'Emoji', 'hasIcons': false};
         var19 = _closure1_slot6;
         var10 = 10;
         var12 = var14[var10];
@@ -131,9 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var14[var6];
         var6 = var11.bind(var4)(var6);
         var7 = var6.TableRowGroup;
-        var6 = {};
-        var9 = 'Display images, videos, and lolcats';
-        var6['title'] = var9;
+        var6 = {'title': 'Display images, videos, and lolcats', 'hasIcons': false};
         var15 = _closure1_slot6;
         var9 = var14[var10];
         var9 = var11.bind(var4)(var9);
@@ -324,9 +320,7 @@ case 4:
         var6 = var14[var6];
         var6 = var11.bind(var1)(var6);
         var7 = var6.TableRowGroup;
-        var6 = {};
-        var9 = 'Who can send you a friend request?';
-        var6['title'] = var9;
+        var6 = {'title': 'Who can send you a friend request?', 'hasIcons': false};
         var15 = _closure1_slot6;
         var10 = 12;
         var9 = var14[var10];

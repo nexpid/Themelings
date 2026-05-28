@@ -174,9 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var17[var7];
         var7 = var14.bind(var4)(var7);
         var8 = var7.TableRowGroup;
-        var7 = {};
-        var10 = 'Shop Toggles';
-        var7['title'] = var10;
+        var7 = {'title': 'Shop Toggles', 'hasIcons': false};
         var11 = 12;
         var10 = var17[var11];
         var10 = var14.bind(var4)(var10);

@@ -157,6 +157,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11['defaultValue'] = var13;
         var13 = var18.onChange;
         var11['onChange'] = var13;
+        var13 = false;
+        var11['hasIcons'] = var13;
         var14 = 11;
         var13 = var21[var14];
         var13 = var20.bind(var4)(var13);

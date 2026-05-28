@@ -87,6 +87,8 @@ case 4:
             var6 = var7.bind(var5)(var6);
             var7 = var6.TableRowGroup;
             var6 = {};
+            var9 = false;
+            var6['hasIcons'] = var9;
             var9 = var10.map;
             var8 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

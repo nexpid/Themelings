@@ -392,6 +392,8 @@ case 4:
             var5 = var10.bind(var4)(var5);
             var10 = var5.TableRowGroup;
             var5 = {};
+            var14 = false;
+            var5['hasIcons'] = var14;
             var5['children'] = var13;
             var10 = var12.bind(var4)(var10, var5);
             var5 = new Array(2);

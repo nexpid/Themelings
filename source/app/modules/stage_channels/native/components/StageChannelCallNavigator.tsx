@@ -294,6 +294,28 @@ case 2:
     var _closure1_slot19 = var1;
     var1 = function StagePromptWrapper(arg1) {
         var1 = arg1;
+        var8 = var1.channel;
+        var4 = _closure1_slot10;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 31;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.DisableCustomTheme;
+        var1 = {};
+        var7 = _closure1_slot10;
+        var6 = _closure1_slot21;
+        var5 = {};
+        var5['channel'] = var8;
+        var5 = var7.bind(var3)(var6, var5);
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot20 = var1;
+    var1 = function StagePromptInner(arg1) {
+        var1 = arg1;
         var6 = var1.channel;
         var2 = _closure1_slot17;
         var4 = undefined;
@@ -301,7 +323,7 @@ case 2:
         var3 = _closure1_slot10;
         var2 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var1 = 31;
+        var1 = 32;
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.AnimatedStartStagePrompt;
@@ -312,7 +334,7 @@ case 2:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -389,7 +411,7 @@ case 2:
     var4['startStagePrompt'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot17 = var4;
-    var4 = 32;
+    var4 = 33;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

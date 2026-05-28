@@ -365,9 +365,7 @@ case 10:
             var9 = var25[var14];
             var9 = var21.bind(var4)(var9);
             var26 = var9.TableRowGroup;
-            var9 = {};
-            var27 = 'Global Overrides';
-            var9['title'] = var27;
+            var9 = {'title': 'Global Overrides', 'hasIcons': false};
             var28 = 9;
             var27 = var25[var28];
             var27 = var21.bind(var4)(var27);
@@ -413,9 +411,7 @@ case 10:
             var14 = var25[var14];
             var14 = var21.bind(var4)(var14);
             var26 = var14.TableRowGroup;
-            var14 = {};
-            var27 = 'Bulk actions';
-            var14['title'] = var27;
+            var14 = {'title': 'Bulk actions', 'hasIcons': true};
             var28 = 20;
             var27 = var25[var28];
             var27 = var21.bind(var4)(var27);

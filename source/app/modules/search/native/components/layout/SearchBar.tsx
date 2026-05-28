@@ -849,11 +849,30 @@ case 0:
                     var8 = var3.bind(var6)(var7);
                     var6 = _closure1_slot9;
                     var3 = var6.getTextInputValue;
-                    var3 = var3.bind(var6)(var7);
-                    var _closure4_slot0 = var3;
+                    var6 = var3.bind(var6)(var7);
+                    var3 = var6.trim;
+                    var10 = var3.bind(var6)();
+                    var _closure4_slot0 = var10;
                     var3 = null;
-                    if(!(var3 != var8)) { _fun0016_ip = 48; continue _fun0016 }
+                    var3 = var3 != var8;
+                    if(!var3) { _fun0016_ip = 48; continue _fun0016 }
 case 49:
+                    var6 = '';
+                    var3 = var6 !== var10;
+case 48:
+                    if(!var3) { _fun0016_ip = 50; continue _fun0016 }
+case 51:
+                    var7 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var6 = 23;
+                    var6 = var9[var6];
+                    var9 = var7.bind(var1)(var6);
+                    var7 = var9.isValidFilterAnswerForSubmit;
+                    var6 = var8.searchTokenType;
+                    var3 = var7.bind(var9)(var6, var10);
+case 50:
+                    if(!var3) { _fun0016_ip = 52; continue _fun0016 }
+case 38:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var3 = 20;
@@ -891,13 +910,13 @@ case 49:
                     var8 = var8.location;
                     var3['location'] = var8;
                     var3 = var6.bind(var7)(var3);
-case 48:
+case 52:
                     var7 = _closure1_slot9;
                     var6 = var7.isQueryStringEmpty;
                     var3 = _closure2_slot0;
                     var3 = var6.bind(var7)(var3);
-                    if(var3) { _fun0016_ip = 50; continue _fun0016 }
-case 51:
+                    if(var3) { _fun0016_ip = 53; continue _fun0016 }
+case 54:
                     var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var6 = 20;
@@ -917,7 +936,7 @@ case 51:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.fetchInitialMessages;
                     var2 = var2.bind(var3)(var4);
-case 50:
+case 53:
                     return var1;
                 }
             };
@@ -940,7 +959,7 @@ case 0:
                 var1 = {};
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 23;
+                var3 = 24;
                 var3 = var5[var3];
                 var7 = undefined;
                 var5 = var4.bind(var7)(var3);
@@ -949,13 +968,13 @@ case 0:
                 var3 = var6.get;
                 var6 = var3.bind(var6)();
                 var3 = 0;
-                if(!var6) { _fun0017_ip = 52; continue _fun0017 }
-case 53:
+                if(!var6) { _fun0017_ip = 55; continue _fun0017 }
+case 56:
                 var3 = 1;
-case 52:
+case 55:
                 var6 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var2 = 24;
+                var2 = 25;
                 var2 = var8[var2];
                 var2 = var6.bind(var7)(var2);
                 var2 = var2.springStandard;
@@ -965,13 +984,13 @@ case 52:
             }
         };
         var21 = {};
-        var23 = 23;
+        var23 = 24;
         var23 = var18[var23];
         var23 = var3.bind(var4)(var23);
         var23 = var23.withSpring;
         var21['withSpring'] = var23;
         var21['gradientVisible'] = var2;
-        var23 = 24;
+        var23 = 25;
         var23 = var18[var23];
         var23 = var3.bind(var4)(var23);
         var23 = var23.springStandard;
@@ -1003,7 +1022,7 @@ case 52:
             return var1;
         };
         var7 = var15.bind(var13)(var2, var7);
-        var2 = 25;
+        var2 = 26;
         var2 = var18[var2];
         var15 = var3.bind(var4)(var2);
         var3 = var15.useToken;
@@ -1023,7 +1042,7 @@ case 52:
             var1[0] = var4;
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 26;
+            var2 = 27;
             var2 = var3[var2];
             var3 = undefined;
             var2 = var5.bind(var3)(var2);
@@ -1041,7 +1060,7 @@ case 52:
         var1 = var2.getTextInputValue;
         var13 = var1.bind(var2)(var17);
         var3 = _closure1_slot15;
-        var1 = 27;
+        var1 = 28;
         var1 = var18[var1];
         var2 = var16.bind(var4)(var1);
         var1 = {};
@@ -1058,7 +1077,7 @@ case 52:
         var12 = {};
         var15 = var19.icon;
         var12['style'] = var15;
-        var15 = 28;
+        var15 = 29;
         var15 = var18[var15];
         var16 = var16.bind(var4)(var15);
         var15 = {};
@@ -1104,7 +1123,7 @@ case 52:
     var4 = var4.bind(var7)(var2);
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 29;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

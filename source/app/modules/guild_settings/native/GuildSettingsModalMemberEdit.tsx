@@ -810,6 +810,8 @@ case 34:
                 var6 = var6.LPJmL/;
                 var6 = var7.bind(var8)(var6);
                 var1['title'] = var6;
+                var6 = false;
+                var1['hasIcons'] = var6;
                 var1['children'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
@@ -1432,7 +1434,7 @@ case 66:
                 var2 = var1 != var28;
                 var16 = null;
                 if(!var2) { _fun0014_ip = 68; continue _fun0014 }
-case 21:
+case 69:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot3;
                 var2 = 34;
@@ -1448,6 +1450,8 @@ case 21:
                 var3 = var12.bind(var5)(var3);
                 var4 = var3.TableRowGroup;
                 var3 = {};
+                var7 = false;
+                var3['hasIcons'] = var7;
                 var9 = _closure1_slot23;
                 var7 = 23;
                 var7 = var21[var7];
@@ -1464,8 +1468,8 @@ case 21:
                 var10 = var21[var10];
                 var10 = var12.bind(var5)(var10);
                 var10 = var10.t;
-                if(var2) { _fun0014_ip = 69; continue _fun0014 }
-case 70:
+                if(var2) { _fun0014_ip = 70; continue _fun0014 }
+case 71:
                 var12 = var10.FN7NIS;
                 var2 = {};
                 var33 = _closure1_slot1;
@@ -1481,8 +1485,8 @@ case 70:
                 var2 = var9.bind(var5)(var8, var7);
                 var3['children'] = var2;
                 var2 = var6.bind(var5)(var4, var3);
-                _fun0014_ip = 27; continue _fun0014;
-case 69:
+                _fun0014_ip = 72; continue _fun0014;
+case 70:
                 var12 = var10.RuL6o7;
                 var10 = {};
                 var31 = _closure1_slot1;
@@ -1498,24 +1502,24 @@ case 69:
                 var7 = var9.bind(var5)(var8, var7);
                 var3['children'] = var7;
                 var2 = var6.bind(var5)(var4, var3);
-case 27:
+case 72:
                 var16 = var2;
 case 68:
                 var2 = _closure1_slot11;
                 var2 = var2.bind(var5)(var30, var25);
-                if(var2) { _fun0014_ip = 71; continue _fun0014 }
-case 72:
+                if(var2) { _fun0014_ip = 73; continue _fun0014 }
+case 74:
                 var3 = _closure1_slot12;
                 var3 = var3.bind(var5)(var30, var23);
                 var2 = !var3;
-case 71:
-                if(var2) { _fun0014_ip = 73; continue _fun0014 }
-case 74:
-                var2 = var25.bot;
 case 73:
-                var10 = undefined;
                 if(var2) { _fun0014_ip = 75; continue _fun0014 }
 case 76:
+                var2 = var25.bot;
+case 75:
+                var10 = undefined;
+                if(var2) { _fun0014_ip = 77; continue _fun0014 }
+case 78:
                 var4 = _closure1_slot23;
                 var20 = _closure1_slot0;
                 var21 = _closure1_slot3;
@@ -1524,6 +1528,8 @@ case 76:
                 var2 = var20.bind(var5)(var2);
                 var3 = var2.TableRowGroup;
                 var2 = {};
+                var6 = false;
+                var2['hasIcons'] = var6;
                 var8 = _closure1_slot23;
                 var6 = 23;
                 var6 = var21[var6];
@@ -1548,7 +1554,7 @@ case 76:
                 var6 = var8.bind(var5)(var7, var6);
                 var2['children'] = var6;
                 var10 = var4.bind(var5)(var3, var2);
-case 75:
+case 77:
                 var4 = _closure1_slot23;
                 var38 = _closure1_slot0;
                 var41 = _closure1_slot3;
@@ -1587,6 +1593,8 @@ case 75:
                 var9 = var38.bind(var5)(var9);
                 var20 = var9.TableRowGroup;
                 var9 = {};
+                var15 = true;
+                var9['hasIcons'] = var15;
                 var35 = _closure1_slot23;
                 var15 = 23;
                 var31 = var41[var15];
@@ -1612,14 +1620,14 @@ case 75:
                 var20 = var21.bind(var5)(var20, var9);
                 var9 = new Array(7);
                 var9[0] = var20;
-                if(var19) { _fun0014_ip = 77; continue _fun0014 }
-case 78:
+                if(var19) { _fun0014_ip = 79; continue _fun0014 }
+case 80:
                 var21 = var23.id;
                 var20 = var25.id;
                 var19 = var21 === var20;
-case 77:
-                if(!var19) { _fun0014_ip = 79; continue _fun0014 }
-case 80:
+case 79:
+                if(!var19) { _fun0014_ip = 81; continue _fun0014 }
+case 82:
                 var31 = _closure1_slot23;
                 var38 = _closure1_slot0;
                 var33 = _closure1_slot3;
@@ -1641,10 +1649,10 @@ case 80:
                 var20['label'] = var33;
                 var35 = var1 != var34;
                 var33 = '';
-                if(!var35) { _fun0014_ip = 81; continue _fun0014 }
-case 82:
+                if(!var35) { _fun0014_ip = 83; continue _fun0014 }
+case 84:
                 var33 = var34;
-case 81:
+case 83:
                 var20['value'] = var33;
                 var36 = _closure1_slot0;
                 var33 = _closure1_slot3;
@@ -1665,23 +1673,23 @@ case 81:
                 var20['maxLength'] = var26;
                 var20['errorMessage'] = var32;
                 var19 = var31.bind(var5)(var21, var20);
-case 79:
+case 81:
                 var9[1] = var19;
-                if(!var17) { _fun0014_ip = 83; continue _fun0014 }
-case 84:
+                if(!var17) { _fun0014_ip = 85; continue _fun0014 }
+case 86:
                 var21 = _closure1_slot23;
                 var20 = _closure1_slot27;
                 var19 = {};
                 var19['guild'] = var30;
                 var19['sortedGuildRoles'] = var29;
-                if(var22) { _fun0014_ip = 85; continue _fun0014 }
-case 86:
-                var27 = var28.roles;
-case 85:
-                if(!(var1 == var27)) { _fun0014_ip = 87; continue _fun0014 }
+                if(var22) { _fun0014_ip = 87; continue _fun0014 }
 case 88:
-                var27 = new Array(0);
+                var27 = var28.roles;
 case 87:
+                if(!(var1 == var27)) { _fun0014_ip = 89; continue _fun0014 }
+case 90:
+                var27 = new Array(0);
+case 89:
                 var19['roles'] = var27;
                 var23 = var23.id;
                 var19['currentUserId'] = var23;
@@ -1691,15 +1699,15 @@ case 87:
                 var22 = var18.handleStartEditingRoles;
                 var19['onStartEditing'] = var22;
                 var17 = var21.bind(var5)(var20, var19);
-case 83:
+case 85:
                 var9[2] = var17;
-                if(!var14) { _fun0014_ip = 89; continue _fun0014 }
-case 90:
-                var14 = var16;
-case 89:
-                var9[3] = var14;
-                if(!var13) { _fun0014_ip = 91; continue _fun0014 }
+                if(!var14) { _fun0014_ip = 91; continue _fun0014 }
 case 92:
+                var14 = var16;
+case 91:
+                var9[3] = var14;
+                if(!var13) { _fun0014_ip = 93; continue _fun0014 }
+case 94:
                 var17 = _closure1_slot23;
                 var23 = _closure1_slot0;
                 var29 = _closure1_slot3;
@@ -1707,6 +1715,8 @@ case 92:
                 var14 = var23.bind(var5)(var14);
                 var16 = var14.TableRowGroup;
                 var14 = {};
+                var19 = false;
+                var14['hasIcons'] = var19;
                 var21 = _closure1_slot23;
                 var19 = var29[var15];
                 var19 = var23.bind(var5)(var19);
@@ -1737,10 +1747,10 @@ case 92:
                 var19 = var21.bind(var5)(var20, var19);
                 var14['children'] = var19;
                 var13 = var17.bind(var5)(var16, var14);
-case 91:
+case 93:
                 var9[4] = var13;
-                if(!var11) { _fun0014_ip = 93; continue _fun0014 }
-case 94:
+                if(!var11) { _fun0014_ip = 95; continue _fun0014 }
+case 96:
                 var14 = _closure1_slot23;
                 var20 = _closure1_slot0;
                 var23 = _closure1_slot3;
@@ -1748,6 +1758,8 @@ case 94:
                 var12 = var20.bind(var5)(var12);
                 var13 = var12.TableRowGroup;
                 var12 = {};
+                var16 = false;
+                var12['hasIcons'] = var16;
                 var17 = _closure1_slot23;
                 var15 = var23[var15];
                 var15 = var20.bind(var5)(var15);
@@ -1778,7 +1790,7 @@ case 94:
                 var15 = var17.bind(var5)(var16, var15);
                 var12['children'] = var15;
                 var11 = var14.bind(var5)(var13, var12);
-case 93:
+case 95:
                 var9[5] = var11;
                 var9[6] = var10;
                 var6['children'] = var9;

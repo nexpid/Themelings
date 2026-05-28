@@ -48,7 +48,7 @@ case 0:
                 return var1;
             };
             var1 = var3.bind(var4)(var2, var1);
-            var10 = var1.activeDevice;
+            var12 = var1.activeDevice;
             var11 = var1.availableDevices;
             var _closure2_slot0 = var11;
             var4 = _closure1_slot3;
@@ -78,34 +78,36 @@ case 0:
 case 3:
             var4 = _closure1_slot11;
             var7 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var2 = 13;
-            var2 = var12[var2];
+            var2 = var13[var2];
             var2 = var7.bind(var5)(var2);
             var3 = var2.VoicePanelFormSection;
             var2 = {};
             var8 = var8.sectionContainer;
             var2['style'] = var8;
             var8 = 14;
-            var13 = var12[var8];
-            var13 = var7.bind(var5)(var13);
-            var14 = var13.intl;
-            var13 = var14.string;
-            var8 = var12[var8];
+            var10 = var13[var8];
+            var10 = var7.bind(var5)(var10);
+            var14 = var10.intl;
+            var10 = var14.string;
+            var8 = var13[var8];
             var8 = var7.bind(var5)(var8);
             var8 = var8.t;
             var8 = var8.CxyS15;
-            var8 = var13.bind(var14)(var8);
+            var8 = var10.bind(var14)(var8);
             var2['title'] = var8;
+            var10 = true;
+            var2['hasIcons'] = var10;
             var8 = _closure1_slot11;
             var6 = 15;
-            var6 = var12[var6];
+            var6 = var13[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.TableRadioGroup;
             var6 = {};
-            var10 = var10.deviceId;
-            var6['defaultValue'] = var10;
-            var10 = function onChange(arg1) {
+            var12 = var12.deviceId;
+            var6['defaultValue'] = var12;
+            var12 = function onChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = arg1;
@@ -131,7 +133,8 @@ case 4:
                     return var1;
                 }
             };
-            var6['onChange'] = var10;
+            var6['onChange'] = var12;
+            var6['hasIcons'] = var10;
             var10 = var11.map;
             var9 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -311,7 +314,7 @@ case 20:
                     return var1;
                 }
             };
-            var11 = var10.bind(var11)(var2, var3);
+            var13 = var10.bind(var11)(var2, var3);
             var10 = _closure1_slot3;
             var3 = var10.useCallback;
             var2 = new Array(2);
@@ -356,7 +359,7 @@ case 23:
                     return var1;
                 }
             };
-            var10 = var3.bind(var10)(var1, var2);
+            var11 = var3.bind(var10)(var1, var2);
             var1 = 22;
             var1 = var7[var1];
             var3 = var4.bind(var5)(var1);
@@ -414,33 +417,36 @@ case 26:
 case 29:
             var4 = _closure1_slot11;
             var7 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var2 = 13;
-            var2 = var13[var2];
+            var2 = var14[var2];
             var2 = var7.bind(var5)(var2);
             var3 = var2.VoicePanelFormSection;
             var2 = {};
-            var14 = 14;
-            var15 = var13[var14];
+            var10 = 14;
+            var15 = var14[var10];
             var15 = var7.bind(var5)(var15);
             var16 = var15.intl;
             var15 = var16.string;
-            var14 = var13[var14];
-            var14 = var7.bind(var5)(var14);
-            var14 = var14.t;
-            var14 = var14.q22XnQ;
-            var14 = var15.bind(var16)(var14);
-            var2['title'] = var14;
+            var10 = var14[var10];
+            var10 = var7.bind(var5)(var10);
+            var10 = var10.t;
+            var10 = var10.q22XnQ;
+            var10 = var15.bind(var16)(var10);
+            var2['title'] = var10;
             var8 = var8.sectionContainer;
             var2['style'] = var8;
+            var10 = true;
+            var2['hasIcons'] = var10;
             var8 = _closure1_slot11;
             var6 = 15;
-            var6 = var13[var6];
+            var6 = var14[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.TableRadioGroup;
             var6 = {};
-            var6['defaultValue'] = var11;
-            var6['onChange'] = var10;
+            var6['defaultValue'] = var13;
+            var6['onChange'] = var11;
+            var6['hasIcons'] = var10;
             var11 = var12.map;
             var10 = function(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {

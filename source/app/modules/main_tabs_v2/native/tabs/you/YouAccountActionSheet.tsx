@@ -159,6 +159,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['title'] = var9;
         var1['onChange'] = var8;
         var1['defaultValue'] = var6;
+        var6 = true;
+        var1['hasIcons'] = var6;
         var6 = var7.map;
         var5 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -319,6 +321,8 @@ case 0:
             var5['title'] = var10;
             var5['onChange'] = var9;
             var5['defaultValue'] = var8;
+            var20 = true;
+            var5['hasIcons'] = var20;
             var11 = _closure1_slot18;
             var9 = 22;
             var8 = var13[var9];
@@ -357,21 +361,20 @@ case 7:
             var11 = var18.bind(var4)(var11);
             var13 = var11.TableRadioRow;
             var11 = {};
-            var21 = _closure1_slot18;
+            var22 = _closure1_slot18;
             var19 = 31;
             var19 = var17[var19];
             var19 = var18.bind(var4)(var19);
-            var20 = var19.ThemeGrayIcon;
+            var21 = var19.ThemeGrayIcon;
             var19 = {};
-            var19 = var21.bind(var4)(var20, var19);
+            var19 = var22.bind(var4)(var21, var19);
             var11['icon'] = var19;
             var17 = var17[var15];
-            var20 = var18.bind(var4)(var17);
-            var19 = var20.getThemeName;
+            var19 = var18.bind(var4)(var17);
+            var18 = var19.getThemeName;
             var17 = _closure1_slot17;
-            var18 = var17.DARK;
-            var17 = true;
-            var17 = var19.bind(var20)(var18, var17);
+            var17 = var17.DARK;
+            var17 = var18.bind(var19)(var17, var20);
             var11['label'] = var17;
             var17 = _closure1_slot17;
             var17 = var17.DARK;
@@ -764,6 +767,8 @@ case 22:
             var7['onChange'] = var13;
             var11 = var11.id;
             var7['defaultValue'] = var11;
+            var11 = true;
+            var7['hasIcons'] = var11;
             var11 = var12.map;
             var10 = function(arg1) {
                 var1 = arg1;
@@ -825,6 +830,8 @@ case 25:
             var2 = var14.bind(var5)(var2);
             var3 = var2.TableRowGroup;
             var2 = {};
+            var6 = true;
+            var2['hasIcons'] = var6;
             var8 = _closure1_slot18;
             var6 = 45;
             var6 = var11[var6];
@@ -1054,6 +1061,8 @@ case 39:
             var1 = var12.bind(var4)(var1);
             var2 = var1.TableRowGroup;
             var1 = {};
+            var5 = false;
+            var1['hasIcons'] = var5;
             var7 = _closure1_slot19;
             var5 = 52;
             var5 = var8[var5];
@@ -1546,22 +1555,22 @@ case 68:
             var8[3] = var12;
             var12 = !var9;
             if(!var12) { _fun0009_ip = 70; continue _fun0009 }
-case 71:
+case 47:
             var12 = var13;
 case 70:
-            if(!var12) { _fun0009_ip = 72; continue _fun0009 }
-case 73:
+            if(!var12) { _fun0009_ip = 71; continue _fun0009 }
+case 72:
             var15 = _closure1_slot18;
             var14 = _closure1_slot23;
             var13 = {};
             var12 = var15.bind(var4)(var14, var13);
-case 72:
+case 71:
             var8[4] = var12;
             var9 = !var9;
-            if(!var9) { _fun0009_ip = 74; continue _fun0009 }
-case 44:
-            var9 = var11;
+            if(!var9) { _fun0009_ip = 73; continue _fun0009 }
 case 74:
+            var9 = var11;
+case 73:
             if(!var9) { _fun0009_ip = 75; continue _fun0009 }
 case 76:
             var12 = _closure1_slot18;

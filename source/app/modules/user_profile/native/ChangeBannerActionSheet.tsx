@@ -512,6 +512,8 @@ case 28:
             var9 = var10.bind(var4)(var9);
             var10 = var9.TableRowGroup;
             var9 = {};
+            var12 = false;
+            var9['hasIcons'] = var12;
             var23 = null;
             var14 = null;
             if(var27) { _fun0003_ip = 29; continue _fun0003 }

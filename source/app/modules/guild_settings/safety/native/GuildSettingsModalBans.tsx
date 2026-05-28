@@ -672,6 +672,8 @@ case 58:
                             var4 = new Array(1);
                             var4[0] = var5;
                             var1['options'] = var4;
+                            var4 = false;
+                            var1['hasIcons'] = var4;
                             var1 = var2.bind(var3)(var1);
 case 54:
                             var1 = undefined;

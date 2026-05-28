@@ -816,6 +816,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_MEMBER_MOD_VIEW'] = var1;
     var1 = 'guild member application review';
     var2['GUILD_MEMBER_APPLICATION_REVIEW'] = var1;
+    var1 = 'game invite channel create post';
+    var2['GAME_INVITE_CHANNEL_CREATE_POST'] = var1;
     var1 = 'for later helpers';
     var2['FOR_LATER_HELPERS'] = var1;
     var1 = 'for later popout';

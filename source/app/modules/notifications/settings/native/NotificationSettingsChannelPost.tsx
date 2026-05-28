@@ -104,6 +104,8 @@ case 0:
             var7 = var7.bK11jO;
             var7 = var8.bind(var14)(var7);
             var5['title'] = var7;
+            var7 = false;
+            var5['hasIcons'] = var7;
             var7 = 7;
             var7 = var17[var7];
             var7 = var16.bind(var4)(var7);

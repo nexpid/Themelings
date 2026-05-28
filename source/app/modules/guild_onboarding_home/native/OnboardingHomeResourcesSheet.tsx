@@ -72,6 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.ActionSheetRow;
         var6 = var5.Group;
         var5 = {};
+        var8 = true;
+        var5['hasIcons'] = var8;
         var8 = var9.map;
         var7 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

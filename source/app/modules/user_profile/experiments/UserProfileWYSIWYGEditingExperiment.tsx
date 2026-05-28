@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_profile/experiments/UserProfileWYSIWYGEditingExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useIsEligibleForUserProfileWYSIWYGEditing(arg1) {
+    var4 = function useIsEligibleForUserProfileWYSIWYGEditing(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.useConfig;
         var1 = {};
@@ -44,6 +44,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var3['useIsEligibleForUserProfileWYSIWYGEditing'] = var2;
+    var3['useIsEligibleForUserProfileWYSIWYGEditing'] = var4;
+    var2 = function getIsEligibleForUserProfileWYSIWYGEditing(arg1) {
+        var3 = _closure1_slot0;
+        var2 = var3.getConfig;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
+        return var1;
+    };
+    var3['getIsEligibleForUserProfileWYSIWYGEditing'] = var2;
     return var1;
 })();

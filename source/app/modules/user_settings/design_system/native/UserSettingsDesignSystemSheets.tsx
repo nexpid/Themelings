@@ -12,8 +12,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = _closure1_slot4;
             var1 = var2.useState;
-            var7 = false;
-            var2 = var1.bind(var2)(var7);
+            var21 = false;
+            var2 = var1.bind(var2)(var21);
             var1 = _closure1_slot3;
             var4 = undefined;
             var6 = 2;
@@ -24,7 +24,7 @@ case 0:
             var25 = var1[var2];
             var5 = _closure1_slot4;
             var1 = var5.useState;
-            var5 = var1.bind(var5)(var7);
+            var5 = var1.bind(var5)(var21);
             var1 = _closure1_slot3;
             var1 = var1.bind(var4)(var5, var6);
             var14 = var1[var3];
@@ -35,15 +35,15 @@ case 0:
             var5 = var5.bind(var7)(var1);
             var1 = _closure1_slot3;
             var1 = var1.bind(var4)(var5, var6);
-            var28 = var1[var3];
-            var23 = var1[var2];
+            var29 = var1[var3];
+            var24 = var1[var2];
             var7 = _closure1_slot4;
             var5 = var7.useState;
             var1 = 'Header subtitle';
             var5 = var5.bind(var7)(var1);
             var1 = _closure1_slot3;
             var1 = var1.bind(var4)(var5, var6);
-            var24 = var1[var3];
+            var28 = var1[var3];
             var13 = var1[var2];
             var _closure2_slot0 = var13;
             var7 = _closure1_slot4;
@@ -69,12 +69,12 @@ case 0:
             var5 = var6.bind(var4)(var5);
             var6 = var5.BottomSheetTitleHeader;
             var5 = {};
-            var5['title'] = var28;
+            var5['title'] = var29;
             var9 = '';
             var8 = undefined;
-            if(!(var9 !== var24)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var9 !== var28)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var8 = var24;
+            var8 = var28;
 case 2:
             var5['subtitle'] = var8;
             var8 = var14;
@@ -127,37 +127,37 @@ case 6:
             var8 = var10.bind(var4)(var8);
             var18 = var8.Stack;
             var8 = {};
-            var22 = _closure1_slot7;
+            var23 = _closure1_slot7;
             var9 = 11;
             var20 = var17[var9];
             var20 = var10.bind(var4)(var20);
-            var21 = var20.TextInput;
+            var22 = var20.TextInput;
             var20 = {};
-            var20['value'] = var28;
-            var20['onChange'] = var23;
-            var23 = 'Title';
-            var20['label'] = var23;
-            var21 = var22.bind(var4)(var21, var20);
+            var20['value'] = var29;
+            var20['onChange'] = var24;
+            var24 = 'Title';
+            var20['label'] = var24;
+            var22 = var23.bind(var4)(var22, var20);
             var20 = new Array(2);
-            var20[0] = var21;
-            var23 = _closure1_slot7;
-            var21 = var17[var9];
-            var21 = var10.bind(var4)(var21);
-            var22 = var21.TextInput;
-            var21 = {'value': null, 'onChange': null, 'label': 'Subtitle', 'maxLength': 100, 'isClearable': true};
-            var21['value'] = var24;
-            var21['onChange'] = var13;
+            var20[0] = var22;
+            var24 = _closure1_slot7;
+            var22 = var17[var9];
+            var22 = var10.bind(var4)(var22);
+            var23 = var22.TextInput;
+            var22 = {'value': null, 'onChange': null, 'label': 'Subtitle', 'maxLength': 100, 'isClearable': true};
+            var22['value'] = var28;
+            var22['onChange'] = var13;
             var13 = true;
-            var24 = function onClear() {
+            var28 = function onClear() {
                 var3 = _closure2_slot0;
                 var2 = undefined;
                 var1 = '';
                 var1 = var3.bind(var2)(var1);
                 return var1;
             };
-            var21['onClear'] = var24;
-            var21 = var23.bind(var4)(var22, var21);
-            var20[1] = var21;
+            var22['onClear'] = var28;
+            var22 = var24.bind(var4)(var23, var22);
+            var20[1] = var22;
             var8['children'] = var20;
             var18 = var19.bind(var4)(var18, var8);
             var8 = new Array(3);
@@ -169,6 +169,7 @@ case 6:
             var18 = var18.ActionSheetRow;
             var19 = var18.Group;
             var18 = {};
+            var18['hasIcons'] = var21;
             var24 = _closure1_slot7;
             var21 = var17[var22];
             var21 = var10.bind(var4)(var21);

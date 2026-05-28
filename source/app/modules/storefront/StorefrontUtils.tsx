@@ -1,12 +1,12 @@
 // app/modules/storefront/StorefrontUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var8 = metroImportDefault;
+    var7 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var8;
-    var _closure1_slot2 = var7;
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var8;
     var1 = function transformStorefrontSKUPricesServer(arg1) {
         var3 = arg1;
         var2 = var3.map;
@@ -299,7 +299,7 @@ case 12:
         return var1;
     };
     var _closure1_slot16 = var1;
-    var4 = function useSKUPrice(arg1) {
+    var5 = function useSKUPrice(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -584,58 +584,127 @@ case 26:
             return var1;
         }
     };
-    var _closure1_slot17 = var4;
+    var _closure1_slot17 = var5;
+    var4 = function formatSKUPrice(arg1, arg2) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var1 = arg1;
+            var6 = var1.normalPrice;
+            var5 = var1.discountedPrice;
+            var3 = var1.discountPercent;
+            var1 = {};
+            var2 = null;
+            var7 = var2 != var6;
+            var4 = null;
+            if(!var7) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
+            var8 = var6.amount;
+            var7 = 0;
+            var7 = var8 > var7;
+            var4 = null;
+            if(!var7) { _fun0008_ip = 54; continue _fun0008 }
+case 5:
+            var9 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var7 = 12;
+            var8 = var8[var7];
+            var7 = undefined;
+            var9 = var9.bind(var7)(var8);
+            var8 = var9.formatPrice;
+            var7 = var6.amount;
+            var6 = var6.currency;
+            var4 = var8.bind(var9)(var7, var6);
+case 54:
+            var1['normalPrice'] = var4;
+            var6 = var2 != var5;
+            var4 = null;
+            if(!var6) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var6 = 12;
+            var7 = var7[var6];
+            var6 = undefined;
+            var8 = var8.bind(var6)(var7);
+            var7 = var8.formatPrice;
+            var6 = var5.amount;
+            var5 = var5.currency;
+            var4 = var7.bind(var8)(var6, var5);
+case 56:
+            var1['discountedPrice'] = var4;
+            var4 = var2 != var3;
+            var2 = null;
+            if(!var4) { _fun0008_ip = 58; continue _fun0008 }
+case 36:
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var4 = 12;
+            var5 = var5[var4];
+            var4 = undefined;
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.formatPercent;
+            var4 = -var3;
+            var3 = 100;
+            var4 = var4 / var3;
+            var3 = arg2;
+            var2 = var5.bind(var6)(var3, var4);
+case 58:
+            var1['discountPercent'] = var2;
+            return var1;
+        }
+    };
+    var _closure1_slot18 = var4;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var5 = {};
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
     var1 = true;
-    var5['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = var10.bind(var11)(var3, var1, var6);
     var1 = 0;
-    var9 = var7[var1];
-    var5 = metroImportAll;
+    var10 = var8[var1];
+    var6 = metroImportAll;
     var1 = undefined;
-    var5 = var5.bind(var1)(var9);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot4 = var5;
-    var5 = 2;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot6 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.CurrencyCodes;
-    var _closure1_slot7 = var8;
-    var8 = var5.PriceSetAssignmentPurchaseTypes;
-    var _closure1_slot8 = var8;
-    var8 = var5.PriceTypes;
-    var _closure1_slot9 = var8;
-    var8 = var5.SKUFlags;
-    var _closure1_slot10 = var8;
-    var5 = var5.SKUProductLines;
-    var _closure1_slot11 = var5;
-    var5 = 5;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.PremiumTypes;
-    var _closure1_slot12 = var5;
-    var5 = 15;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/storefront/StorefrontUtils.tsx';
-    var5 = var6.bind(var7)(var5);
-    var5 = function transformStorefrontPricesServer(arg1) {
+    var6 = var6.bind(var1)(var10);
+    var _closure1_slot3 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot4 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot5 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot6 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.CurrencyCodes;
+    var _closure1_slot7 = var9;
+    var9 = var6.PriceSetAssignmentPurchaseTypes;
+    var _closure1_slot8 = var9;
+    var9 = var6.PriceTypes;
+    var _closure1_slot9 = var9;
+    var9 = var6.SKUFlags;
+    var _closure1_slot10 = var9;
+    var6 = var6.SKUProductLines;
+    var _closure1_slot11 = var6;
+    var6 = 5;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.PremiumTypes;
+    var _closure1_slot12 = var6;
+    var6 = 15;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/storefront/StorefrontUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = function transformStorefrontPricesServer(arg1) {
         var2 = arg1;
         var1 = {};
         var6 = _closure1_slot1;
@@ -667,32 +736,32 @@ case 26:
         var1['rewardResultIdMap'] = var2;
         return var1;
     };
-    var3['transformStorefrontPricesServer'] = var5;
-    var5 = function isSlayerSkuAvailableOnThisPlatform(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+    var3['transformStorefrontPricesServer'] = var6;
+    var6 = function isSlayerSkuAvailableOnThisPlatform(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var4 = arg1;
             var3 = null;
-            if(!(var3 != var4)) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+            if(!(var3 != var4)) { _fun0009_ip = 59; continue _fun0009 }
+case 60:
             var5 = var4.productLine;
             var1 = _closure1_slot11;
             var1 = var1.SOCIAL_LAYER_GAME_ITEM;
-            if(!(var5 === var1)) { _fun0008_ip = 54; continue _fun0008 }
+            if(!(var5 === var1)) { _fun0009_ip = 59; continue _fun0009 }
 case 20:
             var5 = var3 == var4;
             var6 = undefined;
             var1 = undefined;
-            if(var5) { _fun0008_ip = 4; continue _fun0008 }
-case 56:
+            if(var5) { _fun0009_ip = 4; continue _fun0009 }
+case 61:
             var1 = var4.flags;
 case 4:
             var3 = var3 != var1;
             var5 = 0;
-            if(!var3) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
+            if(!var3) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
             var5 = var1;
-case 57:
+case 62:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 8;
@@ -702,15 +771,15 @@ case 57:
             var3 = var3.bind(var4)();
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
-            if(var3) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
+            if(var3) { _fun0009_ip = 64; continue _fun0009 }
+case 65:
             var1 = var7[var1];
             var3 = var4.bind(var6)(var1);
             var1 = var3.isAndroid;
             var1 = var1.bind(var3)();
             var1 = !var1;
-            if(var1) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
+            if(var1) { _fun0009_ip = 66; continue _fun0009 }
+case 67:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var3 = 9;
@@ -720,9 +789,9 @@ case 62:
             var3 = _closure1_slot10;
             var3 = var3.AVAILABLE_ON_ANDROID;
             var1 = var8.bind(var9)(var5, var3);
-case 61:
-            _fun0008_ip = 63; continue _fun0008;
-case 59:
+case 66:
+            _fun0009_ip = 68; continue _fun0009;
+case 64:
             var3 = 9;
             var3 = var7[var3];
             var4 = var4.bind(var6)(var3);
@@ -730,48 +799,41 @@ case 59:
             var2 = _closure1_slot10;
             var2 = var2.AVAILABLE_ON_IOS;
             var1 = var3.bind(var4)(var5, var2);
-case 63:
+case 68:
             return var1;
-case 54:
+case 59:
             var1 = false;
             return var1;
         }
     };
-    var3['isSlayerSkuAvailableOnThisPlatform'] = var5;
-    var3['useSKUPrice'] = var4;
-    var4 = function useFormattedSKUPrice(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+    var3['isSlayerSkuAvailableOnThisPlatform'] = var6;
+    var3['useSKUPrice'] = var5;
+    var5 = function useFormattedSKUPrice(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var2 = arg1;
             var7 = var2.sku;
             var6 = var2.priceSetAssignmentPurchaseType;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0009_ip = 64; continue _fun0009 }
-case 65:
+            if(!(var6 === var5)) { _fun0010_ip = 69; continue _fun0010 }
+case 70:
             var2 = _closure1_slot8;
             var6 = var2.DEFAULT;
-case 64:
+case 69:
             var _closure2_slot0 = var5;
             var _closure2_slot1 = var5;
-            var _closure2_slot2 = var5;
-            var _closure2_slot3 = var5;
             var4 = _closure1_slot17;
             var3 = {};
             var3['sku'] = var7;
             var3['priceSetAssignmentPurchaseType'] = var6;
-            var3 = var4.bind(var5)(var3);
-            var8 = var3.normalPrice;
-            _closure2_slot0 = var8;
-            var7 = var3.discountedPrice;
-            _closure2_slot1 = var7;
-            var6 = var3.discountPercent;
-            _closure2_slot2 = var6;
+            var6 = var4.bind(var5)(var3);
+            _closure2_slot0 = var6;
             var4 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var3 = 10;
-            var3 = var9[var3];
-            var9 = var4.bind(var5)(var3);
-            var5 = var9.useStateFromStores;
+            var3 = var7[var3];
+            var7 = var4.bind(var5)(var3);
+            var5 = var7.useStateFromStores;
             var3 = _closure1_slot4;
             var4 = new Array(1);
             var4[0] = var3;
@@ -780,93 +842,27 @@ case 64:
                 var1 = var1.locale;
                 return var1;
             };
-            var5 = var5.bind(var9)(var4, var3);
-            _closure2_slot3 = var5;
+            var5 = var5.bind(var7)(var4, var3);
+            _closure2_slot1 = var5;
             var4 = _closure1_slot3;
             var3 = var4.useMemo;
-            var2 = new Array(4);
-            var2[0] = var8;
-            var2[1] = var7;
-            var2[2] = var6;
-            var2[3] = var5;
+            var2 = new Array(2);
+            var2[0] = var6;
+            var2[1] = var5;
             var1 = function() {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-                    var1 = {};
-                    var4 = _closure2_slot0;
-                    var2 = null;
-                    var5 = var2 != var4;
-                    var4 = null;
-                    if(!var5) { _fun0010_ip = 66; continue _fun0010 }
-case 67:
-                    var5 = _closure2_slot0;
-                    var6 = var5.amount;
-                    var5 = 0;
-                    var5 = var6 > var5;
-                    var4 = null;
-                    if(!var5) { _fun0010_ip = 66; continue _fun0010 }
-case 68:
-                    var7 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var5 = 12;
-                    var6 = var6[var5];
-                    var5 = undefined;
-                    var8 = var7.bind(var5)(var6);
-                    var7 = var8.formatPrice;
-                    var5 = _closure2_slot0;
-                    var6 = var5.amount;
-                    var5 = _closure2_slot0;
-                    var5 = var5.currency;
-                    var4 = var7.bind(var8)(var6, var5);
-case 66:
-                    var1['normalPrice'] = var4;
-                    var4 = _closure2_slot1;
-                    var5 = var2 != var4;
-                    var4 = null;
-                    if(!var5) { _fun0010_ip = 69; continue _fun0010 }
-case 70:
-                    var7 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var5 = 12;
-                    var6 = var6[var5];
-                    var5 = undefined;
-                    var8 = var7.bind(var5)(var6);
-                    var7 = var8.formatPrice;
-                    var5 = _closure2_slot1;
-                    var6 = var5.amount;
-                    var5 = _closure2_slot1;
-                    var5 = var5.currency;
-                    var4 = var7.bind(var8)(var6, var5);
-case 69:
-                    var1['discountedPrice'] = var4;
-                    var4 = _closure2_slot2;
-                    var4 = var2 != var4;
-                    var2 = null;
-                    if(!var4) { _fun0010_ip = 41; continue _fun0010 }
-case 71:
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var4 = 12;
-                    var5 = var5[var4];
-                    var4 = undefined;
-                    var6 = var6.bind(var4)(var5);
-                    var5 = var6.formatPercent;
-                    var4 = _closure2_slot3;
-                    var3 = _closure2_slot2;
-                    var7 = -var3;
-                    var3 = 100;
-                    var3 = var7 / var3;
-                    var2 = var5.bind(var6)(var4, var3);
-case 41:
-                    var1['discountPercent'] = var2;
-                    return var1;
-                }
+                var4 = _closure1_slot18;
+                var3 = _closure2_slot0;
+                var2 = _closure2_slot1;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
+                return var1;
             };
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         }
     };
-    var3['useFormattedSKUPrice'] = var4;
+    var3['useFormattedSKUPrice'] = var5;
+    var3['formatSKUPrice'] = var4;
     var2 = function useSKUOrbPrice(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -944,11 +940,11 @@ case 22:
 case 0:
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0012_ip = 72; continue _fun0012 }
-case 73:
+                    if(!(var1 != var2)) { _fun0012_ip = 71; continue _fun0012 }
+case 72:
                     var2 = _closure2_slot2;
-                    if(var2) { _fun0012_ip = 74; continue _fun0012 }
-case 67:
+                    if(var2) { _fun0012_ip = 73; continue _fun0012 }
+case 74:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 14;
@@ -962,7 +958,7 @@ case 67:
                     var5 = var5.bind(var6)(var4, var2);
                     var4 = var1 != var5;
                     var2 = null;
-                    if(!var4) { _fun0012_ip = 60; continue _fun0012 }
+                    if(!var4) { _fun0012_ip = 65; continue _fun0012 }
 case 75:
                     var4 = {};
                     var6 = var5.amount;
@@ -970,9 +966,9 @@ case 75:
                     var5 = var5.currency;
                     var4['currency'] = var5;
                     var2 = var4;
-case 60:
+case 65:
                     return var2;
-case 74:
+case 73:
                     var2 = _closure2_slot1;
                     var4 = var1 != var2;
                     var2 = null;
@@ -981,7 +977,7 @@ case 77:
                     var2 = _closure2_slot1;
 case 76:
                     return var2;
-case 72:
+case 71:
                     return var1;
                 }
             };

@@ -661,6 +661,8 @@ case 0:
                 var9 = var9["6yI+JS"];
                 var9 = var14.bind(var17)(var9);
                 var5['description'] = var9;
+                var9 = false;
+                var5['hasIcons'] = var9;
                 var14 = _closure1_slot21;
                 var9 = 25;
                 var9 = var16[var9];
@@ -844,6 +846,8 @@ case 0:
                 var7 = var7.h850Ss;
                 var7 = var8.bind(var9)(var7);
                 var2['title'] = var7;
+                var7 = false;
+                var2['hasIcons'] = var7;
                 var15 = _closure1_slot21;
                 var13 = 29;
                 var7 = var6[var13];
@@ -1050,13 +1054,13 @@ case 58:
                 var1 = null;
                 if(var4) { _fun0012_ip = 60; continue _fun0012 }
 case 6:
-                if(var2) { _fun0012_ip = 45; continue _fun0012 }
-case 61:
+                if(var2) { _fun0012_ip = 61; continue _fun0012 }
+case 62:
                 var2 = _closure1_slot17;
                 var2 = var2.NO_MESSAGES;
                 var13 = undefined;
-                if(!(var3 === var2)) { _fun0012_ip = 62; continue _fun0012 }
-case 63:
+                if(!(var3 === var2)) { _fun0012_ip = 63; continue _fun0012 }
+case 64:
                 var4 = _closure1_slot21;
                 var7 = _closure1_slot0;
                 var20 = _closure1_slot2;
@@ -1095,8 +1099,8 @@ case 63:
                 var6 = var8.bind(var18)(var7, var6);
                 var2['children'] = var6;
                 var13 = var4.bind(var5)(var3, var2);
-                _fun0012_ip = 62; continue _fun0012;
-case 45:
+                _fun0012_ip = 63; continue _fun0012;
+case 61:
                 var4 = _closure1_slot21;
                 var7 = _closure1_slot0;
                 var20 = _closure1_slot2;
@@ -1135,7 +1139,7 @@ case 45:
                 var6 = var8.bind(var18)(var7, var6);
                 var2['children'] = var6;
                 var13 = var4.bind(var5)(var3, var2);
-case 62:
+case 63:
                 var4 = _closure1_slot21;
                 var7 = _closure1_slot0;
                 var20 = _closure1_slot2;
@@ -1162,11 +1166,11 @@ case 62:
                 var15 = var15.stackPadding;
                 var6['style'] = var15;
                 var15 = null;
-                if(!var9) { _fun0012_ip = 64; continue _fun0012 }
-case 65:
+                if(!var9) { _fun0012_ip = 65; continue _fun0012 }
+case 66:
                 var9 = var17.renderMuteSection;
                 var15 = var9.bind(var17)();
-case 64:
+case 65:
                 var9 = new Array(5);
                 var9[0] = var15;
                 var15 = var17.renderNotificationSettings;
@@ -1175,8 +1179,8 @@ case 64:
                 var15 = var16.isForumLikeChannel;
                 var16 = var15.bind(var16)();
                 var15 = null;
-                if(!var16) { _fun0012_ip = 66; continue _fun0012 }
-case 67:
+                if(!var16) { _fun0012_ip = 67; continue _fun0012 }
+case 68:
                 var19 = _closure1_slot21;
                 var23 = _closure1_slot0;
                 var24 = _closure1_slot2;
@@ -1196,16 +1200,18 @@ case 67:
                 var20 = var20.bK11jO;
                 var20 = var21.bind(var22)(var20);
                 var16['title'] = var20;
+                var20 = false;
+                var16['hasIcons'] = var20;
                 var20 = var17.renderForumSettings;
                 var20 = var20.bind(var17)();
                 var16['children'] = var20;
                 var15 = var19.bind(var5)(var18, var16);
-case 66:
+case 67:
                 var9[2] = var15;
                 var9[3] = var13;
                 var10 = null;
-                if(!(var12 !== var11)) { _fun0012_ip = 68; continue _fun0012 }
-case 69:
+                if(!(var12 !== var11)) { _fun0012_ip = 69; continue _fun0012 }
+case 70:
                 var13 = _closure1_slot21;
                 var21 = _closure1_slot0;
                 var22 = _closure1_slot2;
@@ -1214,6 +1220,8 @@ case 69:
                 var11 = var21.bind(var5)(var11);
                 var12 = var11.TableRowGroup;
                 var11 = {};
+                var15 = false;
+                var11['hasIcons'] = var15;
                 var16 = _closure1_slot21;
                 var14 = 25;
                 var14 = var22[var14];
@@ -1236,7 +1244,7 @@ case 69:
                 var14 = var16.bind(var5)(var15, var14);
                 var11['children'] = var14;
                 var10 = var13.bind(var5)(var12, var11);
-case 68:
+case 69:
                 var9[4] = var10;
                 var6['children'] = var9;
                 var6 = var8.bind(var5)(var7, var6);
@@ -1296,16 +1304,16 @@ case 0:
             var2 = var2.bind(var4)(var1);
             var1 = null;
             var4 = var1 == var8;
-            if(var4) { _fun0013_ip = 70; continue _fun0013 }
-case 71:
-            if(!var2) { _fun0013_ip = 72; continue _fun0013 }
-case 73:
+            if(var4) { _fun0013_ip = 71; continue _fun0013 }
+case 72:
+            if(!var2) { _fun0013_ip = 73; continue _fun0013 }
+case 74:
             var5 = _closure1_slot10;
             var4 = var5.has;
             var2 = var8.type;
             var2 = var4.bind(var5)(var2);
-            if(var2) { _fun0013_ip = 74; continue _fun0013 }
-case 72:
+            if(var2) { _fun0013_ip = 75; continue _fun0013 }
+case 73:
             var5 = _closure1_slot21;
             var4 = _closure1_slot27;
             var2 = {};
@@ -1313,8 +1321,8 @@ case 72:
             var11 = var7;
             var9 = copyDataProperties(var12, var11);
             var2 = var5.bind(var6)(var4, var2);
-            _fun0013_ip = 75; continue _fun0013;
-case 74:
+            _fun0013_ip = 43; continue _fun0013;
+case 75:
             var5 = _closure1_slot21;
             var4 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -1327,9 +1335,9 @@ case 74:
             var11 = var7;
             var7 = copyDataProperties(var12, var11);
             var2 = var5.bind(var6)(var4, var3);
-case 75:
+case 43:
             var1 = var2;
-case 70:
+case 71:
             return var1;
         }
     };

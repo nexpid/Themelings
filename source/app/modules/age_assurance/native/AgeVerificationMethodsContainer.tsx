@@ -193,6 +193,8 @@ case 4:
             var9 = var12.bind(var4)(var9);
             var12 = var9.TableRowGroup;
             var9 = {};
+            var15 = false;
+            var9['hasIcons'] = var15;
             var15 = null;
             if(!(var15 != var18)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:

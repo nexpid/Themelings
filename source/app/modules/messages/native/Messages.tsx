@@ -5003,6 +5003,9 @@ case 520:
             var13 = var13.handleTapReferralRedeem;
             var5['onTapReferralRedeem'] = var13;
             var13 = var9.handlers;
+            var13 = var13.handleGiftIntentCardViewed;
+            var5['onGiftIntentCardViewed'] = var13;
+            var13 = var9.handlers;
             var13 = var13.handleTapThreadEmbed;
             var5['onTapThreadEmbed'] = var13;
             var13 = var9.handlers;

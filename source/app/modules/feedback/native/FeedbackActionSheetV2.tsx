@@ -230,8 +230,8 @@ case 6:
             };
             var6 = var18.bind(var15)(var6, var16);
             var6 = var15.useState;
-            var18 = false;
-            var6 = var6.bind(var15)(var18);
+            var27 = false;
+            var6 = var6.bind(var15)(var27);
             var6 = var8.bind(var4)(var6, var17);
             var22 = var6[var1];
             _closure2_slot8 = var22;
@@ -254,8 +254,8 @@ case 8:
             var8 = var12.bind(var15)(var8);
             var15 = _closure1_slot3;
             var8 = var15.bind(var4)(var8, var17);
-            var28 = var8[var1];
-            _closure2_slot12 = var28;
+            var29 = var8[var1];
+            _closure2_slot12 = var29;
             var8 = var8[var14];
             _closure2_slot13 = var8;
             var16 = _closure1_slot4;
@@ -267,7 +267,7 @@ case 8:
             var12 = var12[var14];
             _closure2_slot15 = var12;
             var12 = var16.useState;
-            var12 = var12.bind(var16)(var18);
+            var12 = var12.bind(var16)(var27);
             var12 = var15.bind(var4)(var12, var17);
             var15 = var12[var1];
             _closure2_slot16 = var15;
@@ -505,7 +505,7 @@ case 7:
             _closure2_slot18 = var12;
             var15 = var16.useCallback;
             var14 = new Array(1);
-            var14[0] = var28;
+            var14[0] = var29;
             var12 = function(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -552,9 +552,9 @@ case 38:
             var12 = var12.GOOD;
             if(!(var6 !== var12)) { _fun0002_ip = 39; continue _fun0002 }
 case 40:
-            if(!(var10 != var28)) { _fun0002_ip = 41; continue _fun0002 }
+            if(!(var10 != var29)) { _fun0002_ip = 41; continue _fun0002 }
 case 39:
-            var12 = var10 != var28;
+            var12 = var10 != var29;
             if(!var12) { _fun0002_ip = 42; continue _fun0002 }
 case 43:
             var12 = var10 == var8;
@@ -563,7 +563,7 @@ case 42:
             var14 = var2;
             if(!var12) { _fun0002_ip = 44; continue _fun0002 }
 case 45:
-            var14 = var28.problemsHeader;
+            var14 = var29.problemsHeader;
             var17 = _closure1_slot9;
             var16 = _closure1_slot8;
             var15 = {};
@@ -572,16 +572,17 @@ case 45:
             var18 = {};
             var25 = var11.problemsList;
             var18['style'] = var25;
-            var30 = _closure1_slot0;
-            var32 = _closure1_slot2;
+            var32 = _closure1_slot0;
+            var33 = _closure1_slot2;
             var25 = 18;
-            var25 = var32[var25];
-            var25 = var30.bind(var4)(var25);
-            var27 = var25.TableRowGroup;
+            var25 = var33[var25];
+            var25 = var32.bind(var4)(var25);
+            var28 = var25.TableRowGroup;
             var25 = {};
-            var33 = var28.problemOptions;
-            var29 = var33.map;
-            var28 = function(arg1, arg2) {
+            var25['hasIcons'] = var27;
+            var34 = var29.problemOptions;
+            var30 = var34.map;
+            var29 = function(arg1, arg2) {
                 var6 = arg1;
                 var _closure3_slot0 = var6;
                 var5 = _closure1_slot7;
@@ -609,30 +610,30 @@ case 45:
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var28 = var29.bind(var33)(var28);
-            var25['children'] = var28;
-            var25 = var26.bind(var4)(var27, var25);
+            var29 = var30.bind(var34)(var29);
+            var25['children'] = var29;
+            var25 = var26.bind(var4)(var28, var25);
             var18['children'] = var25;
             var19 = var26.bind(var4)(var19, var18);
             var18 = new Array(2);
             var18[0] = var19;
             var19 = 20;
-            var19 = var32[var19];
-            var19 = var30.bind(var4)(var19);
+            var19 = var33[var19];
+            var19 = var32.bind(var4)(var19);
             var25 = var19.Button;
             var19 = {'variant': 'secondary', 'size': 'sm'};
-            var27 = 14;
-            var28 = var32[var27];
-            var28 = var30.bind(var4)(var28);
-            var29 = var28.intl;
-            var28 = var29.string;
-            var27 = var32[var27];
-            var27 = var30.bind(var4)(var27);
-            var27 = var27.t;
-            var27 = var27["13/7kX"];
-            var27 = var28.bind(var29)(var27);
-            var19['text'] = var27;
-            var27 = function onPress() {
+            var28 = 14;
+            var29 = var33[var28];
+            var29 = var32.bind(var4)(var29);
+            var30 = var29.intl;
+            var29 = var30.string;
+            var28 = var33[var28];
+            var28 = var32.bind(var4)(var28);
+            var28 = var28.t;
+            var28 = var28["13/7kX"];
+            var28 = var29.bind(var30)(var28);
+            var19['text'] = var28;
+            var28 = function onPress() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var1 = _closure2_slot6;
@@ -654,7 +655,7 @@ case 47:
                     return var1;
                 }
             };
-            var19['onPress'] = var27;
+            var19['onPress'] = var28;
             var19 = var26.bind(var4)(var25, var19);
             var18[1] = var19;
             var15['children'] = var18;
@@ -676,6 +677,7 @@ case 41:
             var19 = var29.bind(var4)(var19);
             var26 = var19.TableRowGroup;
             var19 = {};
+            var19['hasIcons'] = var27;
             var28 = var31.map;
             var27 = function(arg1, arg2) {
                 var6 = arg1;

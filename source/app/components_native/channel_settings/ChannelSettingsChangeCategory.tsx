@@ -727,6 +727,8 @@ case 39:
                 var2 = var3.bind(var5)(var2);
                 var3 = var2.TableRowGroup;
                 var2 = {};
+                var7 = false;
+                var2['hasIcons'] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
 case 38:
@@ -842,6 +844,8 @@ case 46:
                 var11 = var16.bind(var4)(var11);
                 var12 = var11.TableRowGroup;
                 var11 = {};
+                var15 = false;
+                var11['hasIcons'] = var15;
                 var15 = 25;
                 var15 = var18[var15];
                 var15 = var16.bind(var4)(var15);

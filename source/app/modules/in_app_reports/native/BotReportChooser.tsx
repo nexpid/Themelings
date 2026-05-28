@@ -307,6 +307,8 @@ case 2:
         var5 = var5.ActionSheetRow;
         var6 = var5.Group;
         var5 = {};
+        var8 = false;
+        var5['hasIcons'] = var8;
         var11 = _closure1_slot4;
         var10 = _closure1_slot7;
         var8 = {};

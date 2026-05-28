@@ -283,6 +283,12 @@ case 28:
     var11['WMF_HW'] = var9;
     var9 = 'wmf_direct_3d';
     var11['WMF_DIRECT_3D'] = var9;
+    var9 = 'wmf_direct_3d_intel';
+    var11['WMF_DIRECT_3D_INTEL'] = var9;
+    var9 = 'wmf_direct_3d_nvidia';
+    var11['WMF_DIRECT_3D_NVIDIA'] = var9;
+    var9 = 'wmf_direct_3d_amd';
+    var11['WMF_DIRECT_3D_AMD'] = var9;
     var9 = 'wmf_chrome';
     var11['WMF_CHROME'] = var9;
     var17 = 'uncategorized';
@@ -312,6 +318,12 @@ case 28:
     var18 = var4.Object;
     var17 = var18.freeze;
     var9 = {};
+    var19 = var11.WMF_DIRECT_3D_INTEL;
+    var9['mediafoundation direct3d intel'] = var19;
+    var19 = var11.WMF_DIRECT_3D_NVIDIA;
+    var9['mediafoundation direct3d nvidia'] = var19;
+    var19 = var11.WMF_DIRECT_3D_AMD;
+    var9['mediafoundation direct3d amd'] = var19;
     var19 = var11.WMF_CHROME;
     var9['mediafoundationvideoencodeaccelerator'] = var19;
     var19 = var11.NVIDIA_CUDA;

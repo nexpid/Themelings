@@ -378,6 +378,8 @@ case 19:
                 return var1;
             };
             var1['onChange'] = var6;
+            var6 = false;
+            var1['hasIcons'] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -99,9 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var13[var5];
         var5 = var10.bind(var4)(var5);
         var6 = var5.TableRowGroup;
-        var5 = {};
-        var8 = 'Logging';
-        var5['title'] = var8;
+        var5 = {'title': 'Logging', 'hasIcons': false};
         var9 = 7;
         var8 = var13[var9];
         var8 = var10.bind(var4)(var8);

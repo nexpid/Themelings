@@ -444,6 +444,8 @@ case 34:
             var26 = var30.bind(var4)(var26);
             var27 = var26.TableRowGroup;
             var26 = {};
+            var31 = false;
+            var26['hasIcons'] = var31;
             var31 = _closure1_slot8;
             var34 = 23;
             var29 = var29[var34];

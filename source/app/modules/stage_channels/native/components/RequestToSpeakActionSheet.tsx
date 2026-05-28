@@ -417,8 +417,8 @@ case 16:
             var6 = var32.bind(var5)(var6);
             var7 = var6.BottomSheet;
             var6 = {};
-            var9 = true;
-            var6['scrollable'] = var9;
+            var26 = true;
+            var6['scrollable'] = var26;
             var9 = 5;
             var9 = var38 >= var9;
             var6['startExpanded'] = var9;
@@ -497,6 +497,7 @@ case 19:
             var18 = var32.bind(var5)(var18);
             var20 = var18.TableRowGroup;
             var18 = {};
+            var18['hasIcons'] = var26;
             var28 = _closure1_slot9;
             var27 = _closure1_slot12;
             var26 = {};

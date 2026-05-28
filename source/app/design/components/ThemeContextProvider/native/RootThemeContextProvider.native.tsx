@@ -200,6 +200,8 @@ case 20:
             var1[3] = var5;
             var4 = 'secondaryColor';
             var1[3] = var5;
+            var4 = 'gradient';
+            var1[3] = var5;
             var1 = var2.bind(var3)(var1);
             return var1;
         };

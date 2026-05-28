@@ -199,9 +199,7 @@ case 2:
         var5 = var13[var5];
         var5 = var12.bind(var4)(var5);
         var6 = var5.TableRowGroup;
-        var5 = {};
-        var8 = 'Quick Actions';
-        var5['title'] = var8;
+        var5 = {'title': 'Quick Actions', 'hasIcons': true};
         var9 = 13;
         var8 = var13[var9];
         var8 = var12.bind(var4)(var8);

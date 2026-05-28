@@ -477,6 +477,8 @@ case 19:
             var3 = var1.TableRowGroup;
             var1 = {};
             var1['title'] = var10;
+            var10 = true;
+            var1['hasIcons'] = var10;
             var10 = var11.map;
             var6 = function(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -665,8 +667,8 @@ case 38:
             var1['children'] = var6;
             var6 = var4.bind(var5)(var3, var1);
             var1 = var6;
-            if(var2) { _fun0002_ip = 40; continue _fun0002 }
-case 41:
+            if(var2) { _fun0002_ip = 38; continue _fun0002 }
+case 40:
             var4 = _closure1_slot10;
             var3 = _closure1_slot6;
             var2 = {};
@@ -686,7 +688,7 @@ case 41:
             var2['contentContainerStyle'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 40:
+case 38:
             return var1;
         }
     };

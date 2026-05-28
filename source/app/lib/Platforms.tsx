@@ -1292,10 +1292,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var5.bind(var1)(var11);
     var10['lightSVG'] = var11;
     var11 = 124;
-    var11 = var6[var11];
-    var11 = var5.bind(var1)(var11);
-    var10['darkSVG'] = var11;
-    var11 = 125;
+    var12 = var6[var11];
+    var12 = var5.bind(var1)(var12);
+    var10['darkSVG'] = var12;
     var11 = var6[var11];
     var11 = var5.bind(var1)(var11);
     var10['whiteSVG'] = var11;
@@ -1303,7 +1302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['enabled'] = var9;
     var8[29] = var2;
     var _closure1_slot2 = var8;
-    var2 = 126;
+    var2 = 125;
     var2 = var6[var2];
     var9 = var7.bind(var1)(var2);
     var7 = var9.keyBy;
@@ -1360,7 +1359,7 @@ case 4:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var2 = 127;
+            var2 = 126;
             var2 = var3[var2];
             var3 = undefined;
             var5 = var4.bind(var3)(var2);
@@ -1436,7 +1435,7 @@ case 8:
         return var1;
     };
     var2['find'] = var4;
-    var4 = 128;
+    var4 = 127;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

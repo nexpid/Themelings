@@ -79,9 +79,7 @@ case 6:
             var1 = var10[var1];
             var1 = var6.bind(var4)(var1);
             var2 = var1.TableRowGroup;
-            var1 = {};
-            var7 = 'React Profiling Renderer';
-            var1['title'] = var7;
+            var1 = {'title': 'React Profiling Renderer', 'hasIcons': false};
             var7 = _closure1_slot6;
             var5 = 9;
             var5 = var10[var5];
@@ -238,9 +236,7 @@ case 9:
             var8 = var26[var8];
             var8 = var23.bind(var4)(var8);
             var9 = var8.TableRowGroup;
-            var8 = {};
-            var12 = 'Component Profiler';
-            var8['title'] = var12;
+            var8 = {'title': 'Component Profiler', 'hasIcons': false};
             var16 = _closure1_slot6;
             var12 = 12;
             var12 = var26[var12];
@@ -285,9 +281,7 @@ case 8:
             var13 = var23[var13];
             var13 = var20.bind(var4)(var13);
             var16 = var13.TableRowGroup;
-            var13 = {};
-            var19 = 'Component Profiler';
-            var13['title'] = var19;
+            var13 = {'title': 'Component Profiler', 'hasIcons': false};
             var21 = _closure1_slot6;
             var19 = 12;
             var19 = var23[var19];
@@ -327,6 +321,8 @@ case 8:
                 var6 = "'";
                 var6 = var11.bind(var10)(var5, var6);
                 var1['title'] = var6;
+                var6 = false;
+                var1['hasIcons'] = var6;
                 var6 = {};
                 var6['stat'] = var8;
                 var8 = 'Mount';

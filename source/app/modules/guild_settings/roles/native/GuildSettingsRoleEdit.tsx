@@ -1207,6 +1207,8 @@ case 18:
             var1 = var14.bind(var3)(var1);
             var2 = var1.TableRowGroup;
             var1 = {};
+            var6 = false;
+            var1['hasIcons'] = var6;
             var8 = _closure1_slot27;
             var6 = 39;
             var5 = var15[var6];
@@ -1309,6 +1311,8 @@ case 18:
             var1 = var10.bind(var3)(var1);
             var2 = var1.TableRowGroup;
             var1 = {};
+            var5 = false;
+            var1['hasIcons'] = var5;
             var5 = 39;
             var5 = var11[var5];
             var5 = var10.bind(var3)(var5);

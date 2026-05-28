@@ -237,6 +237,8 @@ case 9:
                 }
             };
             var5['onChange'] = var8;
+            var8 = false;
+            var5['hasIcons'] = var8;
             var15 = 10;
             var8 = var11[var15];
             var8 = var14.bind(var4)(var8);

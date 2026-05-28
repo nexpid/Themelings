@@ -97,8 +97,8 @@ case 0:
             var1 = var8[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var17 = true;
-            var1['includeKeyboardHeight'] = var17;
+            var11 = true;
+            var1['includeKeyboardHeight'] = var11;
             var1 = var2.bind(var4)(var1);
             var7 = var1.insets;
             var6 = _closure1_slot0;
@@ -204,16 +204,14 @@ case 4:
             var9 = null;
             if(!var8) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var16 = _closure1_slot8;
+            var17 = _closure1_slot8;
             var25 = _closure1_slot0;
             var26 = _closure1_slot2;
             var8 = 13;
             var8 = var26[var8];
             var8 = var25.bind(var4)(var8);
-            var11 = var8.TableRowGroup;
-            var8 = {};
-            var19 = 'Current Override';
-            var8['title'] = var19;
+            var16 = var8.TableRowGroup;
+            var8 = {'title': 'Current Override', 'hasIcons': true};
             var23 = _closure1_slot7;
             var20 = 14;
             var19 = var26[var20];
@@ -271,7 +269,7 @@ case 7:
             var28 = var25.bind(var4)(var28);
             var28 = var28.refreshBuildOverride;
             var21['onPress'] = var28;
-            var21['arrow'] = var17;
+            var21['arrow'] = var11;
             var21 = var23.bind(var4)(var27, var21);
             var19[1] = var21;
             var20 = var26[var20];
@@ -294,17 +292,17 @@ case 7:
             var20 = var23.bind(var4)(var21, var20);
             var19[2] = var20;
             var8['children'] = var19;
-            var9 = var16.bind(var4)(var11, var8);
+            var9 = var17.bind(var4)(var16, var8);
 case 6:
             var8 = new Array(4);
             var8[0] = var9;
-            var16 = _closure1_slot7;
-            var11 = _closure1_slot0;
+            var17 = _closure1_slot7;
+            var16 = _closure1_slot0;
             var19 = _closure1_slot2;
             var9 = 20;
             var9 = var19[var9];
-            var9 = var11.bind(var4)(var9);
-            var11 = var9.TableRadioGroup;
+            var9 = var16.bind(var4)(var9);
+            var16 = var9.TableRadioGroup;
             var9 = {};
             var18 = var10 != var18;
             var19 = var14;
@@ -329,10 +327,10 @@ case 8:
                 return var1;
             };
             var9['onChange'] = var18;
-            var9['hasIcons'] = var17;
+            var9['hasIcons'] = var11;
             var21 = _closure1_slot10;
-            var18 = var21.map;
-            var17 = function(arg1) {
+            var19 = var21.map;
+            var18 = function(arg1) {
                 var1 = arg1;
                 var6 = var1.icon;
                 var5 = var1.value;
@@ -352,9 +350,9 @@ case 8:
                 var1 = var4.bind(var3)(var2, var1, var5);
                 return var1;
             };
-            var17 = var18.bind(var21)(var17);
-            var9['children'] = var17;
-            var9 = var16.bind(var4)(var11, var9);
+            var18 = var19.bind(var21)(var18);
+            var9['children'] = var18;
+            var9 = var17.bind(var4)(var16, var9);
             var8[1] = var9;
             var17 = _closure1_slot7;
             var18 = _closure1_slot0;
@@ -364,8 +362,9 @@ case 8:
             var9 = var18.bind(var4)(var9);
             var16 = var9.TableRowGroup;
             var9 = {};
-            var11 = var22.bind(var4)(var13);
-            var9['title'] = var11;
+            var20 = var22.bind(var4)(var13);
+            var9['title'] = var20;
+            var9['hasIcons'] = var11;
             var11 = 14;
             var11 = var19[var11];
             var11 = var18.bind(var4)(var11);

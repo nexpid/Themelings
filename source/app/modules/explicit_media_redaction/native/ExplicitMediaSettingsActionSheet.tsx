@@ -152,6 +152,8 @@ case 5:
 case 4:
             var9['defaultValue'] = var14;
             var9['onChange'] = var12;
+            var12 = false;
+            var9['hasIcons'] = var12;
             var12 = var13.map;
             var11 = function(arg1) {
                 var1 = arg1;

@@ -509,6 +509,8 @@ case 16:
                 var2 = {};
                 var6 = var1.heading;
                 var2['title'] = var6;
+                var6 = false;
+                var2['hasIcons'] = var6;
                 var7 = var1.options;
                 var6 = var7.map;
                 var1 = function(arg1, arg2) {

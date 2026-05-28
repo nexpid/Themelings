@@ -299,9 +299,7 @@ case 26:
             var7 = var13[var7];
             var7 = var11.bind(var4)(var7);
             var8 = var7.TableRowGroup;
-            var7 = {};
-            var10 = 'Debug details';
-            var7['title'] = var10;
+            var7 = {'title': 'Debug details', 'hasIcons': false};
             var10 = 18;
             var10 = var13[var10];
             var10 = var11.bind(var4)(var10);

@@ -225,6 +225,8 @@ case 7:
                     var1 = _closure2_slot1;
 case 6:
                     var2['selectedItem'] = var1;
+                    var1 = false;
+                    var2['hasIcons'] = var1;
                     var1 = 'WebhookGuildChannelSelector';
                     var1 = var4.bind(var5)(var3, var1, var2);
 case 4:

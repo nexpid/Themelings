@@ -53,6 +53,8 @@ case 0:
             var5 = var5.KzCF/6;
             var5 = var8.bind(var9)(var5);
             var1['title'] = var5;
+            var12 = true;
+            var1['hasIcons'] = var12;
             var11 = _closure1_slot7;
             var10 = 8;
             var5 = var20[var10];
@@ -61,15 +63,14 @@ case 0:
             var8 = {};
             var5 = var20[var14];
             var5 = var16.bind(var4)(var5);
-            var15 = var5.intl;
-            var12 = var15.string;
+            var17 = var5.intl;
+            var15 = var17.string;
             var5 = var20[var14];
             var5 = var16.bind(var4)(var5);
             var5 = var5.t;
             var5 = var5["/CfKoD"];
-            var5 = var12.bind(var15)(var5);
+            var5 = var15.bind(var17)(var5);
             var8['label'] = var5;
-            var12 = true;
             var8['arrow'] = var12;
             var17 = _closure1_slot7;
             var5 = var20[var10];

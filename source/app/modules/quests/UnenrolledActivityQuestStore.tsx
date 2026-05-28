@@ -243,22 +243,21 @@ case 0:
             var2 = 20;
             if(!(var3 >= var2)) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
-            var3 = _closure1_slot7;
-            var2 = var3.values;
-            var3 = var2.bind(var3)();
-            var2 = var3.toArray;
-            var4 = var2.bind(var3)();
-            var3 = var4.sort;
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var2 = 5;
-            var5 = var5[var2];
-            var2 = undefined;
-            var2 = var6.bind(var2)(var5);
-            var2 = var2.compare;
-            var5 = var3.bind(var4)(var2);
-            var4 = var5.slice;
             var2 = global;
+            var5 = var2.Array;
+            var4 = var5.from;
+            var3 = _closure1_slot7;
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.sort;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 5;
+            var6 = var6[var3];
+            var3 = undefined;
+            var3 = var7.bind(var3)(var6);
+            var3 = var3.compare;
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.slice;
             var7 = var2.Math;
             var6 = var7.floor;
             var3 = 10;

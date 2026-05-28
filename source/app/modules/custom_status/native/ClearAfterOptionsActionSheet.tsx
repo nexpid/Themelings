@@ -118,6 +118,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var11.bind(var12)(var10);
         var5['title'] = var10;
         var5['defaultValue'] = var9;
+        var9 = false;
+        var5['hasIcons'] = var9;
         var9 = _closure1_slot3;
         var8 = var9.map;
         var7 = function(arg1) {

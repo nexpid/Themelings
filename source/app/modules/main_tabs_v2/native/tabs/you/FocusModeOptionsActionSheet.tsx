@@ -217,6 +217,8 @@ case 0:
             var11 = var11.sNX1E+;
             var11 = var12.bind(var13)(var11);
             var5['title'] = var11;
+            var11 = false;
+            var5['hasIcons'] = var11;
             var15 = null;
             var11 = null;
             if(!var8) { _fun0001_ip = 2; continue _fun0001 }

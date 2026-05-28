@@ -21,6 +21,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         var2 = var1.TableRowGroup;
         var1 = {};
+        var6 = true;
+        var1['hasIcons'] = var6;
         var6 = var7.map;
         var5 = function(arg1) {
             var1 = arg1;

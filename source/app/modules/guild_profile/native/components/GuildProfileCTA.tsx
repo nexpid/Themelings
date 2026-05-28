@@ -48,13 +48,15 @@ case 0:
             var1 = arg1;
             var12 = var1.profile;
             var _closure2_slot0 = var12;
+            var5 = var1.context;
+            var3 = var1.inviteKey;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var14 = 4;
             var2 = var10[var14];
             var4 = undefined;
             var2 = var9.bind(var4)(var2);
-            var2 = var2.bind(var4)(var12);
+            var2 = var2.bind(var4)(var12, var5, var3);
             var3 = var2.guildId;
             var _closure2_slot1 = var3;
             var5 = var2.validInviteKey;
@@ -374,6 +376,42 @@ case 27:
             var3 = var3.JOIN_VIA_INVITE;
             if(!(var3 !== var7)) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
+            var9 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var14];
+            var3 = var9.bind(var4)(var3);
+            var3 = var3.CTATypes;
+            var3 = var3.ACCEPT_ROLES;
+            if(!(var3 !== var7)) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
+            return var2;
+case 30:
+            var7 = _closure1_slot6;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var2 = 15;
+            var2 = var17[var2];
+            var2 = var16.bind(var4)(var2);
+            var3 = var2.Button;
+            var2 = {};
+            var20 = var2;
+            var19 = var5;
+            var9 = copyDataProperties(var20, var19);
+            var9 = 'onPress';
+            var2[8] = var13;
+            var9 = 16;
+            var14 = var17[var9];
+            var14 = var16.bind(var4)(var14);
+            var15 = var14.intl;
+            var14 = var15.string;
+            var9 = var17[var9];
+            var9 = var16.bind(var4)(var9);
+            var9 = var9.t;
+            var9 = var9.MMlhsr;
+            var14 = var14.bind(var15)(var9);
+            var9 = 'text';
+            var2[8] = var14;
+            var2 = var7.bind(var4)(var3, var2);
             return var2;
 case 28:
             var7 = _closure1_slot6;
@@ -384,9 +422,9 @@ case 28:
             var2 = var15.bind(var4)(var2);
             var3 = var2.Button;
             var2 = {};
-            var19 = var2;
-            var18 = var5;
-            var9 = copyDataProperties(var19, var18);
+            var20 = var2;
+            var19 = var5;
+            var9 = copyDataProperties(var20, var19);
             var9 = 'onPress';
             var2[8] = var13;
             var9 = 16;
@@ -412,9 +450,9 @@ case 26:
             var2 = var14.bind(var4)(var2);
             var3 = var2.Button;
             var2 = {};
-            var19 = var2;
-            var18 = var5;
-            var9 = copyDataProperties(var19, var18);
+            var20 = var2;
+            var19 = var5;
+            var9 = copyDataProperties(var20, var19);
             var9 = 'onPress';
             var2[8] = var12;
             var9 = 16;
@@ -440,9 +478,9 @@ case 24:
             var2 = var13.bind(var4)(var2);
             var3 = var2.Button;
             var2 = {};
-            var19 = var2;
-            var18 = var5;
-            var9 = copyDataProperties(var19, var18);
+            var20 = var2;
+            var19 = var5;
+            var9 = copyDataProperties(var20, var19);
             var9 = 'onPress';
             var2[8] = var11;
             var9 = 16;
@@ -468,9 +506,9 @@ case 22:
             var2 = var12.bind(var4)(var2);
             var3 = var2.Button;
             var2 = {};
-            var19 = var2;
-            var18 = var5;
-            var9 = copyDataProperties(var19, var18);
+            var20 = var2;
+            var19 = var5;
+            var9 = copyDataProperties(var20, var19);
             var9 = 'onPress';
             var2[8] = var10;
             var9 = 16;
@@ -496,9 +534,9 @@ case 20:
             var2 = var11.bind(var4)(var2);
             var3 = var2.Button;
             var2 = {};
-            var19 = var2;
-            var18 = var5;
-            var9 = copyDataProperties(var19, var18);
+            var20 = var2;
+            var19 = var5;
+            var9 = copyDataProperties(var20, var19);
             var9 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -543,9 +581,9 @@ case 18:
             var1 = var8.bind(var4)(var1);
             var2 = var1.Button;
             var1 = {};
-            var19 = var1;
-            var18 = var5;
-            var5 = copyDataProperties(var19, var18);
+            var20 = var1;
+            var19 = var5;
+            var5 = copyDataProperties(var20, var19);
             var5 = 'onPress';
             var1[4] = var6;
             var5 = 16;

@@ -253,9 +253,7 @@ case 19:
         var8 = var16[var9];
         var8 = var10.bind(var4)(var8);
         var13 = var8.TableRowGroup;
-        var8 = {};
-        var14 = 'Local Message Cache Stats';
-        var8['title'] = var14;
+        var8 = {'title': 'Local Message Cache Stats', 'hasIcons': false};
         var19 = _closure1_slot5;
         var17 = 5;
         var14 = var16[var17];
@@ -341,9 +339,7 @@ case 19:
         var9 = var16[var9];
         var9 = var10.bind(var4)(var9);
         var10 = var9.TableRowGroup;
-        var9 = {};
-        var13 = 'Fetch Log (Reversed)';
-        var9['title'] = var13;
+        var9 = {'title': 'Fetch Log (Reversed)', 'hasIcons': false};
         var13 = global;
         var14 = var13.Array;
         var13 = var14.from;

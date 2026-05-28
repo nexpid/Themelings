@@ -280,6 +280,8 @@ case 20:
             var8 = var19.bind(var5)(var8);
             var9 = var8.TableRowGroup;
             var8 = {};
+            var11 = true;
+            var8['hasIcons'] = var11;
             var12 = 15;
             var11 = var21[var12];
             var11 = var19.bind(var5)(var11);

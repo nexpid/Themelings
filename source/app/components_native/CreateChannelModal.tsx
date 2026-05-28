@@ -436,14 +436,14 @@ case 21:
             var10 = var5.bind(var9)(var3, var2);
             var _closure2_slot5 = var10;
             var9 = null;
-            var30 = var9 != var8;
-            if(!var30) { _fun0003_ip = 23; continue _fun0003 }
+            var33 = var9 != var8;
+            if(!var33) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
             var5 = var8.features;
             var3 = var5.has;
             var2 = _closure1_slot16;
             var2 = var2.COMMUNITY;
-            var30 = var3.bind(var5)(var2);
+            var33 = var3.bind(var5)(var2);
 case 23:
             var5 = _closure1_slot12;
             var3 = var5.can;
@@ -510,12 +510,12 @@ case 27:
             var2 = var15[var2];
             var5 = var11.bind(var4)(var2);
             var2 = var5.useCanCreateStageChannelByGuild;
-            var29 = var2.bind(var5)(var23);
+            var30 = var2.bind(var5)(var23);
             var2 = 39;
             var2 = var15[var2];
             var5 = var11.bind(var4)(var2);
             var2 = var5.useGuildEligibleForMediaChannels;
-            var33 = var2.bind(var5)(var8);
+            var34 = var2.bind(var5)(var8);
             var2 = 40;
             var2 = var15[var2];
             var5 = var11.bind(var4)(var2);
@@ -818,7 +818,7 @@ case 50:
                 }
             };
             _closure2_slot17 = var1;
-            var34 = function handleTypeChange(arg1) {
+            var35 = function handleTypeChange(arg1) {
                 var4 = arg1;
                 var3 = _closure2_slot11;
                 var1 = undefined;
@@ -884,13 +884,13 @@ case 53:
             _fun0003_ip = 54; continue _fun0003;
 case 52:
             var28 = _closure1_slot0;
-            var35 = _closure1_slot2;
+            var29 = _closure1_slot2;
             var17 = 26;
-            var21 = var35[var17];
+            var21 = var29[var17];
             var21 = var28.bind(var4)(var21);
             var25 = var21.intl;
             var21 = var25.string;
-            var17 = var35[var17];
+            var17 = var29[var17];
             var17 = var28.bind(var4)(var17);
             var17 = var17.t;
             var17 = var17.OCAkGP;
@@ -913,20 +913,20 @@ case 58:
             var15 = undefined;
             if(!var17) { _fun0003_ip = 59; continue _fun0003 }
 case 60:
-            var35 = _closure1_slot0;
+            var29 = _closure1_slot0;
             var28 = _closure1_slot2;
             var17 = 26;
             var18 = var28[var17];
-            var18 = var35.bind(var4)(var18);
+            var18 = var29.bind(var4)(var18);
             var25 = var18.intl;
             var21 = var25.format;
             var17 = var28[var17];
-            var17 = var35.bind(var4)(var17);
+            var17 = var29.bind(var4)(var17);
             var17 = var17.t;
             var18 = var17.s2ZzZZ;
             var17 = {};
             var28 = var28[var36];
-            var38 = var35.bind(var4)(var28);
+            var38 = var29.bind(var4)(var28);
             var37 = var38.computeChannelName;
             var41 = _closure1_slot14;
             var40 = _closure1_slot13;
@@ -961,7 +961,7 @@ case 61:
             var15 = var17.bind(var4)(var15);
             var17 = var15.TextField;
             var15 = {'autoFocus': true, 'enableAndroidSanitizedInputWorkaround': true};
-            var37 = true;
+            var28 = true;
             var15['value'] = var19;
             var19 = function onChange(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -988,47 +988,47 @@ case 65:
             var19 = var19.GUILD_FORUM;
             if(!(var32 !== var19)) { _fun0003_ip = 66; continue _fun0003 }
 case 67:
-            var28 = _closure1_slot0;
-            var35 = _closure1_slot2;
+            var29 = _closure1_slot0;
+            var36 = _closure1_slot2;
             var19 = 26;
-            var21 = var35[var19];
-            var21 = var28.bind(var4)(var21);
+            var21 = var36[var19];
+            var21 = var29.bind(var4)(var21);
             var25 = var21.intl;
             var21 = var25.string;
-            var19 = var35[var19];
-            var19 = var28.bind(var4)(var19);
+            var19 = var36[var19];
+            var19 = var29.bind(var4)(var19);
             var19 = var19.t;
             var19 = var19.bw/b8E;
             var19 = var21.bind(var25)(var19);
             _fun0003_ip = 68; continue _fun0003;
 case 66:
-            var35 = _closure1_slot0;
-            var36 = _closure1_slot2;
+            var36 = _closure1_slot0;
+            var37 = _closure1_slot2;
             var21 = 26;
-            var25 = var36[var21];
-            var25 = var35.bind(var4)(var25);
-            var28 = var25.intl;
-            var25 = var28.string;
-            var21 = var36[var21];
-            var21 = var35.bind(var4)(var21);
+            var25 = var37[var21];
+            var25 = var36.bind(var4)(var25);
+            var29 = var25.intl;
+            var25 = var29.string;
+            var21 = var37[var21];
+            var21 = var36.bind(var4)(var21);
             var21 = var21.t;
             var21 = var21["5z1Xat"];
-            var19 = var25.bind(var28)(var21);
+            var19 = var25.bind(var29)(var21);
 case 68:
             _fun0003_ip = 69; continue _fun0003;
 case 64:
-            var35 = _closure1_slot0;
-            var36 = _closure1_slot2;
+            var36 = _closure1_slot0;
+            var37 = _closure1_slot2;
             var21 = 26;
-            var25 = var36[var21];
-            var25 = var35.bind(var4)(var25);
-            var28 = var25.intl;
-            var25 = var28.string;
-            var21 = var36[var21];
-            var21 = var35.bind(var4)(var21);
+            var25 = var37[var21];
+            var25 = var36.bind(var4)(var25);
+            var29 = var25.intl;
+            var25 = var29.string;
+            var21 = var37[var21];
+            var21 = var36.bind(var4)(var21);
             var21 = var21.t;
             var21 = var21.eTVbtx;
-            var19 = var25.bind(var28)(var21);
+            var19 = var25.bind(var29)(var21);
 case 69:
             var15['placeholder'] = var19;
             var15 = var18.bind(var4)(var17, var15);
@@ -1049,132 +1049,133 @@ case 71:
             if(!(var32 !== var17)) { _fun0003_ip = 72; continue _fun0003 }
 case 73:
             var21 = _closure1_slot23;
-            var36 = _closure1_slot0;
+            var37 = _closure1_slot0;
             var38 = _closure1_slot2;
             var17 = 52;
             var17 = var38[var17];
-            var17 = var36.bind(var4)(var17);
+            var17 = var37.bind(var4)(var17);
             var19 = var17.TableRowGroup;
             var17 = {};
             var25 = 26;
-            var28 = var38[var25];
-            var28 = var36.bind(var4)(var28);
-            var35 = var28.intl;
-            var28 = var35.string;
+            var29 = var38[var25];
+            var29 = var37.bind(var4)(var29);
+            var36 = var29.intl;
+            var29 = var36.string;
             var25 = var38[var25];
-            var25 = var36.bind(var4)(var25);
+            var25 = var37.bind(var4)(var25);
             var25 = var25.t;
             var25 = var25["7ZcXG2"];
-            var25 = var28.bind(var35)(var25);
+            var25 = var29.bind(var36)(var25);
             var17['title'] = var25;
-            var28 = _closure1_slot21;
-            var36 = _closure1_slot28;
+            var17['hasIcons'] = var28;
+            var29 = _closure1_slot21;
+            var37 = _closure1_slot28;
             var25 = {};
-            var35 = _closure1_slot15;
-            var35 = var35.GUILD_TEXT;
-            var25['channelType'] = var35;
-            var35 = _closure1_slot15;
-            var35 = var35.GUILD_TEXT;
-            var35 = var32 === var35;
-            var25['selected'] = var35;
+            var36 = _closure1_slot15;
+            var36 = var36.GUILD_TEXT;
+            var25['channelType'] = var36;
+            var36 = _closure1_slot15;
+            var36 = var36.GUILD_TEXT;
+            var36 = var32 === var36;
+            var25['selected'] = var36;
             var25['isPrivate'] = var24;
-            var25['onPress'] = var34;
-            var28 = var28.bind(var4)(var36, var25);
+            var25['onPress'] = var35;
+            var29 = var29.bind(var4)(var37, var25);
             var25 = new Array(6);
-            var25[0] = var28;
-            var35 = _closure1_slot21;
-            var28 = {};
-            var38 = _closure1_slot15;
-            var38 = var38.GUILD_VOICE;
-            var28['channelType'] = var38;
-            var38 = _closure1_slot15;
-            var38 = var38.GUILD_VOICE;
-            var38 = var32 === var38;
-            var28['selected'] = var38;
-            var28['isPrivate'] = var24;
-            var28['onPress'] = var34;
-            var28 = var35.bind(var4)(var36, var28);
-            var25[1] = var28;
-            var35 = _closure1_slot21;
-            var28 = {};
-            var38 = _closure1_slot15;
-            var38 = var38.GUILD_FORUM;
-            var28['channelType'] = var38;
-            var38 = _closure1_slot15;
-            var38 = var38.GUILD_FORUM;
-            var38 = var32 === var38;
-            var28['selected'] = var38;
-            var28['isPrivate'] = var24;
-            var28['onPress'] = var34;
-            var28 = var35.bind(var4)(var36, var28);
-            var25[2] = var28;
-            var28 = null;
-            if(!var33) { _fun0003_ip = 74; continue _fun0003 }
-case 75:
+            var25[0] = var29;
             var36 = _closure1_slot21;
-            var35 = _closure1_slot28;
-            var33 = {};
+            var29 = {};
+            var38 = _closure1_slot15;
+            var38 = var38.GUILD_VOICE;
+            var29['channelType'] = var38;
+            var38 = _closure1_slot15;
+            var38 = var38.GUILD_VOICE;
+            var38 = var32 === var38;
+            var29['selected'] = var38;
+            var29['isPrivate'] = var24;
+            var29['onPress'] = var35;
+            var29 = var36.bind(var4)(var37, var29);
+            var25[1] = var29;
+            var36 = _closure1_slot21;
+            var29 = {};
+            var38 = _closure1_slot15;
+            var38 = var38.GUILD_FORUM;
+            var29['channelType'] = var38;
+            var38 = _closure1_slot15;
+            var38 = var38.GUILD_FORUM;
+            var38 = var32 === var38;
+            var29['selected'] = var38;
+            var29['isPrivate'] = var24;
+            var29['onPress'] = var35;
+            var29 = var36.bind(var4)(var37, var29);
+            var25[2] = var29;
+            var29 = null;
+            if(!var34) { _fun0003_ip = 74; continue _fun0003 }
+case 75:
+            var37 = _closure1_slot21;
+            var36 = _closure1_slot28;
+            var34 = {};
             var38 = _closure1_slot15;
             var38 = var38.GUILD_MEDIA;
-            var33['channelType'] = var38;
+            var34['channelType'] = var38;
             var38 = _closure1_slot15;
             var38 = var38.GUILD_MEDIA;
             var38 = var32 === var38;
-            var33['selected'] = var38;
-            var33['isPrivate'] = var24;
-            var33['isBeta'] = var37;
-            var33['onPress'] = var34;
-            var28 = var36.bind(var4)(var35, var33);
+            var34['selected'] = var38;
+            var34['isPrivate'] = var24;
+            var34['isBeta'] = var28;
+            var34['onPress'] = var35;
+            var29 = var37.bind(var4)(var36, var34);
 case 74:
-            var25[3] = var28;
-            var28 = null;
-            if(!var30) { _fun0003_ip = 76; continue _fun0003 }
+            var25[3] = var29;
+            var29 = null;
+            if(!var33) { _fun0003_ip = 76; continue _fun0003 }
 case 77:
-            var33 = _closure1_slot0;
-            var30 = _closure1_slot2;
-            var30 = var30[var22];
-            var30 = var33.bind(var4)(var30);
-            var30 = var30.CreateChannelMode;
-            var30 = var30.PREMIUM_CHANNEL;
-            var28 = null;
-            if(!(var20 !== var30)) { _fun0003_ip = 76; continue _fun0003 }
+            var34 = _closure1_slot0;
+            var33 = _closure1_slot2;
+            var33 = var33[var22];
+            var33 = var34.bind(var4)(var33);
+            var33 = var33.CreateChannelMode;
+            var33 = var33.PREMIUM_CHANNEL;
+            var29 = null;
+            if(!(var20 !== var33)) { _fun0003_ip = 76; continue _fun0003 }
 case 78:
-            var35 = _closure1_slot21;
+            var36 = _closure1_slot21;
+            var34 = _closure1_slot28;
+            var33 = {};
+            var37 = _closure1_slot15;
+            var37 = var37.GUILD_ANNOUNCEMENT;
+            var33['channelType'] = var37;
+            var37 = _closure1_slot15;
+            var37 = var37.GUILD_ANNOUNCEMENT;
+            var37 = var32 === var37;
+            var33['selected'] = var37;
+            var33['isPrivate'] = var24;
+            var33['onPress'] = var35;
+            var29 = var36.bind(var4)(var34, var33);
+case 76:
+            var25[4] = var29;
+            var29 = null;
+            if(!var30) { _fun0003_ip = 79; continue _fun0003 }
+case 80:
+            var29 = null;
+            if(var24) { _fun0003_ip = 79; continue _fun0003 }
+case 81:
+            var34 = _closure1_slot21;
             var33 = _closure1_slot28;
             var30 = {};
             var36 = _closure1_slot15;
-            var36 = var36.GUILD_ANNOUNCEMENT;
+            var36 = var36.GUILD_STAGE_VOICE;
             var30['channelType'] = var36;
             var36 = _closure1_slot15;
-            var36 = var36.GUILD_ANNOUNCEMENT;
+            var36 = var36.GUILD_STAGE_VOICE;
             var36 = var32 === var36;
             var30['selected'] = var36;
             var30['isPrivate'] = var24;
-            var30['onPress'] = var34;
-            var28 = var35.bind(var4)(var33, var30);
-case 76:
-            var25[4] = var28;
-            var28 = null;
-            if(!var29) { _fun0003_ip = 79; continue _fun0003 }
-case 80:
-            var28 = null;
-            if(var24) { _fun0003_ip = 79; continue _fun0003 }
-case 81:
-            var33 = _closure1_slot21;
-            var30 = _closure1_slot28;
-            var29 = {};
-            var35 = _closure1_slot15;
-            var35 = var35.GUILD_STAGE_VOICE;
-            var29['channelType'] = var35;
-            var35 = _closure1_slot15;
-            var35 = var35.GUILD_STAGE_VOICE;
-            var35 = var32 === var35;
-            var29['selected'] = var35;
-            var29['isPrivate'] = var24;
-            var29['onPress'] = var34;
-            var28 = var33.bind(var4)(var30, var29);
+            var30['onPress'] = var35;
+            var29 = var34.bind(var4)(var33, var30);
 case 79:
-            var25[5] = var28;
+            var25[5] = var29;
             var17['children'] = var25;
             var18 = var21.bind(var4)(var19, var17);
 case 72:
@@ -1210,53 +1211,54 @@ case 84:
             var19 = {};
             var25 = _closure1_slot21;
             var23 = _closure1_slot0;
-            var28 = _closure1_slot2;
+            var29 = _closure1_slot2;
             var22 = 52;
-            var22 = var28[var22];
+            var22 = var29[var22];
             var22 = var23.bind(var4)(var22);
             var23 = var22.TableRowGroup;
             var22 = {};
-            var28 = _closure1_slot15;
-            var28 = var28.GUILD_CATEGORY;
-            if(!(var32 !== var28)) { _fun0003_ip = 85; continue _fun0003 }
+            var29 = _closure1_slot15;
+            var29 = var29.GUILD_CATEGORY;
+            if(!(var32 !== var29)) { _fun0003_ip = 85; continue _fun0003 }
 case 86:
-            var28 = _closure1_slot8;
-            var28 = var28.bind(var4)(var32);
-            var34 = _closure1_slot0;
-            var35 = _closure1_slot2;
-            var29 = 26;
-            var30 = var35[var29];
-            var30 = var34.bind(var4)(var30);
-            var33 = var30.intl;
-            var30 = var33.string;
-            var29 = var35[var29];
-            var29 = var34.bind(var4)(var29);
-            var29 = var29.t;
-            if(var28) { _fun0003_ip = 87; continue _fun0003 }
+            var29 = _closure1_slot8;
+            var29 = var29.bind(var4)(var32);
+            var35 = _closure1_slot0;
+            var36 = _closure1_slot2;
+            var30 = 26;
+            var33 = var36[var30];
+            var33 = var35.bind(var4)(var33);
+            var34 = var33.intl;
+            var33 = var34.string;
+            var30 = var36[var30];
+            var30 = var35.bind(var4)(var30);
+            var30 = var30.t;
+            if(var29) { _fun0003_ip = 87; continue _fun0003 }
 case 88:
-            var28 = var29.hfbjIH;
-            var28 = var30.bind(var33)(var28);
+            var29 = var30.hfbjIH;
+            var29 = var33.bind(var34)(var29);
             _fun0003_ip = 89; continue _fun0003;
 case 87:
-            var29 = var29.cLjvKg;
-            var28 = var30.bind(var33)(var29);
+            var30 = var30.cLjvKg;
+            var29 = var33.bind(var34)(var30);
 case 89:
             _fun0003_ip = 90; continue _fun0003;
 case 85:
-            var34 = _closure1_slot0;
-            var35 = _closure1_slot2;
-            var29 = 26;
-            var30 = var35[var29];
-            var30 = var34.bind(var4)(var30);
-            var33 = var30.intl;
-            var30 = var33.string;
-            var29 = var35[var29];
-            var29 = var34.bind(var4)(var29);
-            var29 = var29.t;
-            var29 = var29.RQUk61;
-            var28 = var30.bind(var33)(var29);
+            var35 = _closure1_slot0;
+            var36 = _closure1_slot2;
+            var30 = 26;
+            var33 = var36[var30];
+            var33 = var35.bind(var4)(var33);
+            var34 = var33.intl;
+            var33 = var34.string;
+            var30 = var36[var30];
+            var30 = var35.bind(var4)(var30);
+            var30 = var30.t;
+            var30 = var30.RQUk61;
+            var29 = var33.bind(var34)(var30);
 case 90:
-            var22['description'] = var28;
+            var22['description'] = var29;
+            var22['hasIcons'] = var28;
             var30 = _closure1_slot21;
             var29 = _closure1_slot0;
             var33 = _closure1_slot2;

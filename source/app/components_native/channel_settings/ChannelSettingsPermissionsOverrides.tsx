@@ -892,6 +892,8 @@ case 71:
                     var7 = var8;
 case 70:
                     var1['title'] = var7;
+                    var7 = false;
+                    var1['hasIcons'] = var7;
                     var8 = var9.map;
                     var7 = function(arg1, arg2) {
                         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {

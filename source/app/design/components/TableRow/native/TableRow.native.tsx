@@ -529,12 +529,20 @@ case 53:
             var2 = {};
             var10 = _closure1_slot1;
             var3 = _closure1_slot2;
+            var12 = var3[var11];
+            var12 = var10.bind(var7)(var12);
+            var12 = var12.modules;
+            var12 = var12.mobile;
+            var12 = var12.TABLE_ROW_ICON_SIZE;
+            var2['minWidth'] = var12;
             var3 = var3[var11];
             var3 = var10.bind(var7)(var3);
             var3 = var3.modules;
             var3 = var3.mobile;
             var3 = var3.TABLE_ROW_PADDING;
             var2['marginEnd'] = var3;
+            var2['alignItems'] = var6;
+            var2['justifyContent'] = var6;
             var1['iconContainer'] = var2;
             var2 = {};
             var3 = 18;
@@ -555,30 +563,30 @@ case 57:
             var2 = {};
             var2['flexGrow'] = var5;
             var6 = var5;
-            if(!var8) { _fun0003_ip = 59; continue _fun0003 }
-case 60:
-            var6 = var5;
-            if(var4) { _fun0003_ip = 59; continue _fun0003 }
-case 61:
-            var6 = undefined;
+            if(!var8) { _fun0003_ip = 8; continue _fun0003 }
 case 59:
+            var6 = var5;
+            if(var4) { _fun0003_ip = 8; continue _fun0003 }
+case 60:
+            var6 = undefined;
+case 8:
             var2['flexShrink'] = var6;
             var6 = undefined;
-            if(!var8) { _fun0003_ip = 62; continue _fun0003 }
-case 63:
+            if(!var8) { _fun0003_ip = 61; continue _fun0003 }
+case 11:
             var6 = undefined;
-            if(var4) { _fun0003_ip = 62; continue _fun0003 }
-case 64:
-            var6 = '70%';
+            if(var4) { _fun0003_ip = 61; continue _fun0003 }
 case 62:
+            var6 = '70%';
+case 61:
             var2['maxWidth'] = var6;
             var1['labels'] = var2;
             var2 = {};
             var2['flexShrink'] = var5;
-            if(!var4) { _fun0003_ip = 65; continue _fun0003 }
-case 66:
+            if(!var4) { _fun0003_ip = 63; continue _fun0003 }
+case 64:
             var3 = 0;
-case 65:
+case 63:
             var2['marginStart'] = var3;
             var1['trailingText'] = var2;
             var2 = {};

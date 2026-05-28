@@ -742,9 +742,7 @@ case 21:
             var12 = var17[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.TableRowGroup;
-            var12 = {};
-            var17 = 'Generated Test User Pools';
-            var12['title'] = var17;
+            var12 = {'title': 'Generated Test User Pools', 'hasIcons': true};
             var19 = var18.length;
             var17 = 0;
             var17 = var17 === var19;

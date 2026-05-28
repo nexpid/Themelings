@@ -317,12 +317,12 @@ case 18:
 case 17:
             var13 = var1.textColor;
             if(!(var13 === var4)) { _fun0003_ip = 19; continue _fun0003 }
-case 5:
+case 20:
             var13 = 'text-default';
 case 19:
             var10 = var1.borderRadius;
-            if(!(var10 === var4)) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+            if(!(var10 === var4)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 4;
@@ -330,7 +330,7 @@ case 21:
             var2 = var3.bind(var4)(var2);
             var2 = var2.radii;
             var10 = var2.xs;
-case 20:
+case 21:
             var6 = var1.button;
             var1 = _closure1_slot6;
             var14 = var1.bind(var4)();

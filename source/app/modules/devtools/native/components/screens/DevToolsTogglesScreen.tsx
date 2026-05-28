@@ -225,6 +225,8 @@ case 23:
             var3 = var2.TableRowGroup;
             var2 = {};
             var2['title'] = var7;
+            var7 = false;
+            var2['hasIcons'] = var7;
             var7 = var8.map;
             var6 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -523,9 +525,7 @@ case 5:
             var8 = var23[var15];
             var8 = var20.bind(var4)(var8);
             var11 = var8.TableRowGroup;
-            var8 = {};
-            var13 = 'Actions';
-            var8['title'] = var13;
+            var8 = {'title': 'Actions', 'hasIcons': false};
             var18 = _closure1_slot9;
             var14 = 9;
             var13 = var23[var14];
@@ -583,9 +583,7 @@ case 48:
             var12 = var12[var15];
             var12 = var13.bind(var4)(var12);
             var13 = var12.TableRowGroup;
-            var12 = {};
-            var15 = 'Design Toggles';
-            var12['title'] = var15;
+            var12 = {'title': 'Design Toggles', 'hasIcons': false};
             var16 = var17.map;
             var15 = function(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {

@@ -604,9 +604,7 @@ case 43:
             var1 = undefined;
             var4 = var7.bind(var1)(var2);
             var3 = var4.showSimpleActionSheet;
-            var2 = {};
-            var5 = 'REDESIGN_SUGGESTED_CHANNELS_CLEAR';
-            var2['key'] = var5;
+            var2 = {'key': 'REDESIGN_SUGGESTED_CHANNELS_CLEAR', 'options': null, 'hasIcons': true};
             var6 = {};
             var5 = 19;
             var9 = var8[var5];

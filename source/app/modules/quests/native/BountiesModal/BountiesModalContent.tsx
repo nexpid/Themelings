@@ -16,9 +16,9 @@ case 0:
             var13 = var1.sourceQuestContent;
             var _closure2_slot1 = var13;
             var8 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var24 = _closure1_slot2;
             var1 = 13;
-            var1 = var16[var1];
+            var1 = var24[var1];
             var4 = undefined;
             var2 = var8.bind(var4)(var1);
             var1 = var2.useQuestImpressionId;
@@ -120,7 +120,7 @@ case 2:
             var17 = var2.bind(var4)();
             var _closure2_slot4 = var17;
             var2 = 14;
-            var2 = var16[var2];
+            var2 = var24[var2];
             var3 = var8.bind(var4)(var2);
             var2 = var3.useFetchVirtualCurrencyBalance;
             var2 = var2.bind(var3)();
@@ -256,7 +256,7 @@ case 6:
             };
             var11 = var5.bind(var6)(var2, var3);
             var2 = 16;
-            var2 = var16[var2];
+            var2 = var24[var2];
             var6 = var8.bind(var4)(var2);
             var5 = var6.useStateFromStores;
             var2 = _closure1_slot8;
@@ -271,6 +271,11 @@ case 6:
                 return var1;
             };
             var35 = var5.bind(var6)(var3, var2);
+            var2 = 17;
+            var2 = var24[var2];
+            var3 = var8.bind(var4)(var2);
+            var2 = var3.useRnvHttpEngine;
+            var16 = var2.bind(var3)();
             var6 = _closure1_slot5;
             var5 = var6.useCallback;
             var3 = _closure1_slot3;
@@ -284,7 +289,7 @@ case 0:
 case 8: // try_start_0
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var2 = 17;
+                        var2 = 18;
                         var3 = var3[var2];
                         var2 = undefined;
                         var4 = var4.bind(var2)(var3);
@@ -306,7 +311,7 @@ case 14: // catch_target0
                         CatchBlockStart(arg_register=1);
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot2;
-                        var2 = 18;
+                        var2 = 19;
                         var2 = var8[var2];
                         var6 = undefined;
                         var4 = var7.bind(var6)(var2);
@@ -315,7 +320,7 @@ case 14: // catch_target0
                         var9 = 'QUESTS_BOUNTIES_REWARD_CLAIM_FAILED';
                         var2['key'] = var9;
                         var11 = _closure1_slot0;
-                        var5 = 19;
+                        var5 = 20;
                         var9 = var8[var5];
                         var9 = var11.bind(var6)(var9);
                         var10 = var9.intl;
@@ -326,7 +331,7 @@ case 14: // catch_target0
                         var5 = var5.mn0IdX;
                         var5 = var9.bind(var10)(var5);
                         var2['content'] = var5;
-                        var5 = 20;
+                        var5 = 21;
                         var5 = var8[var5];
                         var5 = var7.bind(var6)(var5);
                         var2['icon'] = var5;
@@ -373,7 +378,7 @@ case 7:
                 var7 = var1.thresholdMet;
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var2 = var12[var1];
                 var1 = undefined;
                 var4 = var11.bind(var1)(var2);
@@ -382,7 +387,7 @@ case 7:
                 var10 = _closure2_slot0;
                 var10 = var10.id;
                 var2['adContentId'] = var10;
-                var10 = 22;
+                var10 = 23;
                 var10 = var12[var10];
                 var10 = var11.bind(var1)(var10);
                 var10 = var10.AdCreativeType;
@@ -462,7 +467,7 @@ case 15:
                     var5 = var4.bind(var5)(var3, var2);
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 23;
+                    var2 = 24;
                     var2 = var3[var2];
                     var3 = undefined;
                     var6 = var4.bind(var3)(var2);
@@ -794,7 +799,7 @@ case 33:
 case 0:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 22;
                     var3 = var10[var1];
                     var1 = undefined;
                     var5 = var9.bind(var1)(var3);
@@ -803,7 +808,7 @@ case 0:
                     var7 = _closure2_slot0;
                     var7 = var7.id;
                     var3['adContentId'] = var7;
-                    var7 = 22;
+                    var7 = 23;
                     var7 = var10[var7];
                     var7 = var9.bind(var1)(var7);
                     var7 = var7.AdCreativeType;
@@ -813,11 +818,11 @@ case 0:
                     var7 = var7.AD_VIDEO_MODAL_CLOSED;
                     var3['event'] = var7;
                     var7 = {};
-                    var8 = 24;
+                    var8 = 25;
                     var8 = var10[var8];
                     var13 = var9.bind(var1)(var8);
                     var12 = var13.getQuestContentName;
-                    var8 = 25;
+                    var8 = 26;
                     var11 = var10[var8];
                     var11 = var9.bind(var1)(var11);
                     var11 = var11.QuestContent;
@@ -829,7 +834,7 @@ case 0:
                     var8 = var8.QuestContent;
                     var8 = var8.VIDEO_MODAL_MOBILE;
                     var7['content_id'] = var8;
-                    var8 = 23;
+                    var8 = 24;
                     var8 = var10[var8];
                     var11 = var9.bind(var1)(var8);
                     var10 = var11.formatVideoProgressRatio;
@@ -856,7 +861,7 @@ case 7:
                     var3 = var4.bind(var5)(var3);
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 26;
+                    var2 = 27;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.hideModal;
@@ -878,7 +883,7 @@ case 7:
 case 0:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 22;
                     var3 = var10[var1];
                     var1 = undefined;
                     var5 = var9.bind(var1)(var3);
@@ -887,7 +892,7 @@ case 0:
                     var7 = _closure2_slot0;
                     var7 = var7.id;
                     var3['adContentId'] = var7;
-                    var7 = 22;
+                    var7 = 23;
                     var7 = var10[var7];
                     var7 = var9.bind(var1)(var7);
                     var7 = var7.AdCreativeType;
@@ -897,11 +902,11 @@ case 0:
                     var7 = var7.AD_VIDEO_MODAL_CLOSED;
                     var3['event'] = var7;
                     var7 = {};
-                    var8 = 24;
+                    var8 = 25;
                     var8 = var10[var8];
                     var13 = var9.bind(var1)(var8);
                     var12 = var13.getQuestContentName;
-                    var8 = 25;
+                    var8 = 26;
                     var11 = var10[var8];
                     var11 = var9.bind(var1)(var11);
                     var11 = var11.QuestContent;
@@ -913,7 +918,7 @@ case 0:
                     var8 = var8.QuestContent;
                     var8 = var8.VIDEO_MODAL_END_CARD;
                     var7['content_id'] = var8;
-                    var8 = 23;
+                    var8 = 24;
                     var8 = var10[var8];
                     var11 = var9.bind(var1)(var8);
                     var10 = var11.formatVideoProgressRatio;
@@ -936,7 +941,7 @@ case 7:
                     var3 = var4.bind(var5)(var3);
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 26;
+                    var2 = 27;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.hideModal;
@@ -950,28 +955,29 @@ case 7:
             var1 = {};
             var6 = _closure1_slot6;
             var5 = {};
-            var24 = var28.videoContainer;
+            var25 = var28.videoContainer;
             var7 = new Array(2);
-            var7[0] = var24;
+            var7[0] = var25;
             var7[1] = var10;
             var5['style'] = var7;
             var10 = _closure1_slot11;
-            var7 = 27;
-            var7 = var16[var7];
+            var7 = 28;
+            var7 = var24[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.AdVideoPlayer;
             var7 = {};
-            var16 = {};
-            var25 = var15.videoHls;
-            var24 = null;
-            var26 = var24 != var25;
-            var24 = '';
-            if(!var26) { _fun0001_ip = 36; continue _fun0001 }
+            var24 = {};
+            var26 = var15.videoHls;
+            var25 = null;
+            var27 = var25 != var26;
+            var25 = '';
+            if(!var27) { _fun0001_ip = 36; continue _fun0001 }
 case 37:
-            var24 = var25;
+            var25 = var26;
 case 36:
-            var16['uri'] = var24;
-            var7['source'] = var16;
+            var24['uri'] = var25;
+            var7['source'] = var24;
+            var7['httpEngine'] = var16;
             var16 = {'timestampSec': 0, 'maxTimestampSec': 0, 'duration': 0};
             var7['initialProgress'] = var16;
             var16 = false;
@@ -992,20 +998,20 @@ case 36:
             var21 = _closure1_slot11;
             var7 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var10 = 28;
+            var10 = 29;
             var10 = var16[var10];
             var10 = var7.bind(var4)(var10);
             var18 = var10.QuestContentImpressionTrackerNative;
             var10 = {};
             var24 = var15.id;
             var10['adContentId'] = var24;
-            var24 = 22;
+            var24 = 23;
             var24 = var16[var24];
             var24 = var7.bind(var4)(var24);
             var24 = var24.AdCreativeType;
             var24 = var24.BOUNTY;
             var10['adCreativeType'] = var24;
-            var24 = 25;
+            var24 = 26;
             var24 = var16[var24];
             var24 = var7.bind(var4)(var24);
             var24 = var24.QuestContent;
@@ -1017,7 +1023,7 @@ case 36:
                 var4 = _closure1_slot11;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 29;
+                var1 = 30;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -1046,7 +1052,7 @@ case 36:
             var24['style'] = var10;
             var31 = _closure1_slot11;
             var10 = _closure1_slot1;
-            var27 = 30;
+            var27 = 31;
             var27 = var16[var27];
             var30 = var10.bind(var4)(var27);
             var27 = {};
@@ -1057,7 +1063,7 @@ case 36:
             var27 = new Array(2);
             var27[0] = var30;
             var32 = _closure1_slot11;
-            var30 = 31;
+            var30 = 32;
             var30 = var16[var30];
             var30 = var7.bind(var4)(var30);
             var31 = var30.BalanceWidgetPill;
@@ -1070,12 +1076,12 @@ case 36:
             var24 = new Array(2);
             var24[0] = var25;
             var27 = _closure1_slot11;
-            var25 = 32;
+            var25 = 33;
             var25 = var16[var25];
             var25 = var7.bind(var4)(var25);
             var26 = var25.PressableOpacity;
             var25 = {'accessibilityLabel': null, 'accessibilityRole': 'button', 'hitSlop': 12};
-            var30 = 19;
+            var30 = 20;
             var31 = var16[var30];
             var31 = var7.bind(var4)(var31);
             var32 = var31.intl;
@@ -1090,7 +1096,7 @@ case 36:
             var28 = var28.closeButton;
             var25['style'] = var28;
             var30 = _closure1_slot11;
-            var28 = 33;
+            var28 = 34;
             var28 = var16[var28];
             var28 = var7.bind(var4)(var28);
             var29 = var28.XSmallIcon;
@@ -1111,7 +1117,7 @@ case 36:
             var18 = var22.bind(var4)(var21, var18);
             var8[2] = var18;
             var22 = _closure1_slot11;
-            var18 = 34;
+            var18 = 35;
             var18 = var16[var18];
             var21 = var10.bind(var4)(var18);
             var18 = {};
@@ -1136,7 +1142,7 @@ case 36:
             var6 = var18.bind(var4)(var8, var6);
             var5[1] = var6;
             var8 = _closure1_slot11;
-            var6 = 35;
+            var6 = 36;
             var6 = var16[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.SafeAreaPaddingView;
@@ -1151,7 +1157,7 @@ case 36:
             var11 = 'box-none';
             var6['pointerEvents'] = var11;
             var11 = _closure1_slot11;
-            var9 = 36;
+            var9 = 37;
             var9 = var16[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -1333,7 +1339,7 @@ case 36:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot18 = var4;
-    var4 = 39;
+    var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1349,7 +1355,7 @@ case 0:
             var _closure2_slot1 = var10;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 37;
+            var1 = 38;
             var1 = var3[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
@@ -1373,7 +1379,7 @@ case 39:
             var4 = _closure1_slot11;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 38;
+            var2 = 39;
             var2 = var13[var2];
             var2 = var12.bind(var5)(var2);
             var3 = var2.ThemeContextProvider;
@@ -1382,20 +1388,20 @@ case 39:
             var7 = var7.DARKER;
             var2['theme'] = var7;
             var8 = _closure1_slot11;
-            var6 = 28;
+            var6 = 29;
             var6 = var13[var6];
             var6 = var12.bind(var5)(var6);
             var7 = var6.QuestContentImpressionTrackerNative;
             var6 = {};
             var11 = var11.id;
             var6['adContentId'] = var11;
-            var11 = 22;
+            var11 = 23;
             var11 = var13[var11];
             var11 = var12.bind(var5)(var11);
             var11 = var11.AdCreativeType;
             var11 = var11.BOUNTY;
             var6['adCreativeType'] = var11;
-            var11 = 25;
+            var11 = 26;
             var11 = var13[var11];
             var11 = var12.bind(var5)(var11);
             var11 = var11.QuestContent;

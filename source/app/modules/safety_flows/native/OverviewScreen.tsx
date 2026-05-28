@@ -188,6 +188,8 @@ case 6:
             var12 = var14.bind(var4)(var12);
             var14 = var12.TableRowGroup;
             var12 = {};
+            var22 = true;
+            var12['hasIcons'] = var22;
             var23 = var16.flow_context;
             var22 = null;
             var24 = var22 == var23;

@@ -303,6 +303,8 @@ case 12:
             var6['subtitle'] = var7;
             var2['header'] = var6;
             var2['options'] = var5;
+            var5 = false;
+            var2['hasIcons'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
         }
