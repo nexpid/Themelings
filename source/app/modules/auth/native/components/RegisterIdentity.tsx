@@ -63,7 +63,7 @@ case 3:
                             var4 = _closure2_slot0;
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var2 = 17;
+                            var2 = 18;
                             var2 = var8[var2];
                             var2 = var7.bind(var5)(var2);
                             var2 = var2.PhoneOrEmailSelectorForceMode;
@@ -78,7 +78,7 @@ case 5: // try_start_0
                                 var3 = _closure2_slot1;
                                 var4 = _closure1_slot0;
                                 var2 = _closure1_slot2;
-                                var1 = 17;
+                                var1 = 18;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var2 = var4.bind(var1)(var2);
@@ -124,11 +124,11 @@ case 4:
 case 12:
                             var4 = _closure1_slot0;
                             var7 = _closure1_slot2;
-                            var2 = 15;
+                            var2 = 16;
                             var2 = var7[var2];
                             var10 = var4.bind(var5)(var2);
                             var9 = var10.handleNextOrSubmitRegistration;
-                            var2 = 11;
+                            var2 = 12;
                             var2 = var7[var2];
                             var2 = var4.bind(var5)(var2);
                             var2 = var2.AuthStates;
@@ -173,16 +173,28 @@ case 2:
                 return var1;
             };
             var _closure2_slot10 = var2;
-            var3 = _closure1_slot16;
-            var7 = var3.bind(var5)();
-            var4 = _closure1_slot1;
+            var2 = global;
+            var6 = var2.Math;
+            var4 = var6.min;
+            var24 = _closure1_slot0;
             var25 = _closure1_slot2;
             var3 = 8;
             var3 = var25[var3];
+            var7 = var24.bind(var5)(var3);
+            var3 = var7.useFontScale;
+            var3 = var3.bind(var7)();
+            var16 = 2;
+            var6 = var4.bind(var6)(var16, var3);
+            var4 = _closure1_slot16;
+            var3 = 45;
+            var3 = var3 * var6;
+            var7 = var4.bind(var5)(var3);
+            var4 = _closure1_slot1;
+            var3 = 9;
+            var3 = var25[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.bind(var5)();
-            var24 = _closure1_slot0;
-            var6 = 9;
+            var6 = 10;
             var6 = var25[var6];
             var10 = var24.bind(var5)(var6);
             var6 = var10.useNavigation;
@@ -196,11 +208,11 @@ case 2:
             };
             var11 = var10.bind(var5)(var6);
             var _closure2_slot3 = var11;
-            var6 = 10;
+            var6 = 11;
             var6 = var25[var6];
             var14 = var24.bind(var5)(var6);
             var13 = var14.useIdentityRegistrationStep;
-            var6 = 11;
+            var6 = 12;
             var10 = var25[var6];
             var10 = var24.bind(var5)(var10);
             var10 = var10.AuthStates;
@@ -219,13 +231,12 @@ case 2:
             var15 = var13.identityError;
             var13 = var13.validateEmail;
             _closure2_slot7 = var13;
-            var16 = _closure1_slot5;
-            var14 = var16.useState;
+            var21 = _closure1_slot5;
+            var14 = var21.useState;
             var13 = false;
-            var16 = var14.bind(var16)(var13);
-            var14 = _closure1_slot4;
-            var13 = 2;
-            var14 = var14.bind(var5)(var16, var13);
+            var14 = var14.bind(var21)(var13);
+            var13 = _closure1_slot4;
+            var14 = var13.bind(var5)(var14, var16);
             var13 = 0;
             var21 = var14[var13];
             var13 = 1;
@@ -233,7 +244,7 @@ case 2:
             _closure2_slot8 = var13;
             var16 = _closure1_slot5;
             var14 = var16.useContext;
-            var13 = 12;
+            var13 = 13;
             var13 = var25[var13];
             var13 = var24.bind(var5)(var13);
             var13 = var13.TrackRegistrationContext;
@@ -262,7 +273,7 @@ case 16:
                 }
             };
             var16 = var13.bind(var14)(var10, var11);
-            var10 = 13;
+            var10 = 14;
             var10 = var25[var10];
             var11 = var4.bind(var5)(var10);
             var10 = var25[var6];
@@ -270,10 +281,10 @@ case 16:
             var10 = var10.AuthStates;
             var10 = var10.REGISTER_IDENTITY;
             var10 = var11.bind(var5)(var10);
-            var10 = 14;
+            var10 = 15;
             var10 = var25[var10];
             var10 = var4.bind(var5)(var10);
-            var11 = 15;
+            var11 = 16;
             var11 = var25[var11];
             var13 = var24.bind(var5)(var11);
             var11 = var13.getPreviousRegistrationTransitionStep;
@@ -283,7 +294,7 @@ case 16:
             var6 = var6.REGISTER_IDENTITY;
             var6 = var11.bind(var13)(var6);
             var6 = var10.bind(var5)(var6);
-            var6 = 16;
+            var6 = 17;
             var6 = var25[var6];
             var6 = var4.bind(var5)(var6);
             var1 = function() {
@@ -301,7 +312,7 @@ case 16:
             };
             var1 = var6.bind(var5)(var1);
             var6 = _closure1_slot14;
-            var1 = 18;
+            var1 = 19;
             var1 = var25[var1];
             var4 = var4.bind(var5)(var1);
             var1 = {};
@@ -319,7 +330,7 @@ case 16:
             var11 = new Array(4);
             var11[0] = var12;
             var14 = _closure1_slot14;
-            var12 = 19;
+            var12 = 20;
             var12 = var25[var12];
             var12 = var24.bind(var5)(var12);
             var13 = var12.RegisterPhoneOrEmailInput;
@@ -341,7 +352,7 @@ case 16:
             var15 = var7.button;
             var12['style'] = var15;
             var18 = _closure1_slot14;
-            var15 = 20;
+            var15 = 21;
             var15 = var25[var15];
             var15 = var24.bind(var5)(var15);
             var17 = var15.Button;
@@ -349,7 +360,7 @@ case 16:
             var15['loading'] = var21;
             var21 = 'lg';
             var15['size'] = var21;
-            var21 = 21;
+            var21 = 22;
             var22 = var25[var21];
             var22 = var24.bind(var5)(var22);
             var23 = var22.intl;
@@ -378,7 +389,7 @@ case 19:
             var15 = _closure1_slot14;
             var14 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var13 = 22;
+            var13 = 23;
             var13 = var17[var13];
             var14 = var14.bind(var5)(var13);
             var13 = {};
@@ -398,7 +409,7 @@ case 21:
             var4 = _closure1_slot14;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 23;
+            var2 = 24;
             var2 = var8[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -424,8 +435,8 @@ case 20:
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var11 = 1;
-    var4 = var6[var11];
+    var4 = 1;
+    var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -440,8 +451,8 @@ case 20:
     var _closure1_slot6 = var7;
     var4 = var4.ScrollView;
     var _closure1_slot7 = var4;
-    var10 = 4;
-    var4 = var6[var10];
+    var4 = 4;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.clearRegistrationErrorMessage;
     var _closure1_slot8 = var7;
@@ -469,26 +480,35 @@ case 20:
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
-    var4 = {};
-    var9 = {'marginTop': 24, 'flex': 1};
-    var4['container'] = var9;
-    var9 = {};
-    var9['flex'] = var11;
-    var4['page'] = var9;
-    var9 = {'width': '100%', 'marginTop': 24};
-    var4['button'] = var9;
-    var9 = {};
-    var9['marginTop'] = var10;
-    var4['errors'] = var9;
-    var9 = {'height': 45, 'marginBottom': 24};
-    var4['segmentedControl'] = var9;
-    var9 = {};
-    var10 = 128;
-    var9['paddingBottom'] = var10;
-    var4['scrollContent'] = var9;
+    var4 = function(arg1) {
+        var1 = {};
+        var3 = 24;
+        var4 = 1;
+        var2 = {'marginTop': 24, 'flex': 1};
+        var1['container'] = var2;
+        var2 = {};
+        var2['flex'] = var4;
+        var1['page'] = var2;
+        var2 = {'width': '100%', 'marginTop': 24};
+        var1['button'] = var2;
+        var2 = {};
+        var4 = 4;
+        var2['marginTop'] = var4;
+        var1['errors'] = var2;
+        var2 = {};
+        var4 = arg1;
+        var2['minHeight'] = var4;
+        var2['marginBottom'] = var3;
+        var1['segmentedControl'] = var2;
+        var2 = {};
+        var3 = 128;
+        var2['paddingBottom'] = var3;
+        var1['scrollContent'] = var2;
+        return var1;
+    };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot16 = var4;
-    var4 = 28;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -497,32 +517,44 @@ case 20:
     var2 = function RegisterIdentity() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var2 = _closure1_slot16;
-            var4 = undefined;
-            var11 = var2.bind(var4)();
+            var2 = global;
+            var8 = var2.Math;
+            var7 = var8.min;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 24;
+            var2 = 8;
+            var2 = var5[var2];
+            var4 = undefined;
+            var6 = var3.bind(var4)(var2);
+            var2 = var6.useFontScale;
+            var2 = var2.bind(var6)();
+            var6 = 2;
+            var8 = var7.bind(var8)(var6, var2);
+            var7 = _closure1_slot16;
+            var2 = 45;
+            var2 = var2 * var8;
+            var11 = var7.bind(var4)(var2);
+            var2 = 25;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.getDeviceCountry;
-            var6 = var2.bind(var3)();
+            var7 = var2.bind(var3)();
             var2 = null;
-            var2 = var2 != var6;
+            var2 = var2 != var7;
             if(!var2) { _fun0004_ip = 22; continue _fun0004 }
 case 23:
             var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = 25;
-            var3 = var7[var3];
+            var8 = _closure1_slot2;
+            var3 = 26;
+            var3 = var8[var3];
             var3 = var5.bind(var4)(var3);
             var5 = var3.EMAIL_FIRST_COUNTRIES;
             var3 = var5.has;
-            var2 = var3.bind(var5)(var6);
+            var2 = var3.bind(var5)(var7);
 case 22:
             var _closure2_slot0 = var2;
-            var6 = _closure1_slot5;
-            var5 = var6.useMemo;
+            var7 = _closure1_slot5;
+            var5 = var7.useMemo;
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
@@ -532,7 +564,7 @@ case 0:
                     var3 = {};
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var8 = 21;
+                    var8 = 22;
                     var2 = var7[var8];
                     var5 = undefined;
                     var2 = var6.bind(var5)(var2);
@@ -541,7 +573,7 @@ case 0:
 case 25:
                     var1 = var2.dEYpSt;
                     var3['descriptor'] = var1;
-                    var9 = 17;
+                    var9 = 18;
                     var1 = var7[var9];
                     var1 = var6.bind(var5)(var1);
                     var1 = var1.PhoneOrEmailSelectorForceMode;
@@ -565,7 +597,7 @@ case 25:
 case 24:
                     var2 = var2.w/qqKK;
                     var3['descriptor'] = var2;
-                    var4 = 17;
+                    var4 = 18;
                     var2 = var7[var4];
                     var2 = var6.bind(var5)(var2);
                     var2 = var2.PhoneOrEmailSelectorForceMode;
@@ -590,17 +622,16 @@ case 26:
                     return var1;
                 }
             };
-            var7 = var5.bind(var6)(var2, var3);
+            var7 = var5.bind(var7)(var2, var3);
             var _closure2_slot1 = var7;
-            var6 = _closure1_slot5;
-            var5 = var6.useState;
+            var8 = _closure1_slot5;
+            var5 = var8.useState;
             var2 = 0;
             var3 = var7[var2];
             var3 = var3.mode;
-            var6 = var5.bind(var6)(var3);
-            var5 = _closure1_slot4;
-            var3 = 2;
-            var3 = var5.bind(var4)(var6, var3);
+            var5 = var5.bind(var8)(var3);
+            var3 = _closure1_slot4;
+            var3 = var3.bind(var4)(var5, var6);
             var6 = var3[var2];
             var2 = 1;
             var2 = var3[var2];
@@ -625,7 +656,7 @@ case 26:
             var12 = var5.bind(var8)(var2, var3);
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 26;
+            var2 = 27;
             var2 = var9[var2];
             var5 = var8.bind(var4)(var2);
             var3 = var5.useSegmentedControlState;
@@ -638,7 +669,7 @@ case 26:
                 var1 = {};
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 21;
+                var2 = 22;
                 var7 = var6[var2];
                 var3 = undefined;
                 var7 = var5.bind(var3)(var7);
@@ -704,7 +735,7 @@ case 27:
             var11 = var11.segmentedControl;
             var5['style'] = var11;
             var12 = _closure1_slot14;
-            var10 = 27;
+            var10 = 28;
             var10 = var9[var10];
             var10 = var8.bind(var4)(var10);
             var11 = var10.SegmentedControl;
@@ -716,7 +747,7 @@ case 27:
             var5['children'] = var10;
             var5 = var7.bind(var4)(var6, var5);
             var1['controlComponent'] = var5;
-            var5 = 21;
+            var5 = 22;
             var6 = var9[var5];
             var6 = var8.bind(var4)(var6);
             var7 = var6.intl;

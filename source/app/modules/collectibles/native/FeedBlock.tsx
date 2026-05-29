@@ -513,6 +513,10 @@ case 24:
             var17['source'] = var13;
             var13 = var18.feedFooterImage;
             var17['style'] = var13;
+            var13 = true;
+            var17['accessibilityElementsHidden'] = var13;
+            var13 = 'no-hide-descendants';
+            var17['importantForAccessibility'] = var13;
             var13 = var17;
             _fun0001_ip = 25; continue _fun0001;
 case 23:
@@ -522,6 +526,10 @@ case 23:
             var17['source'] = var19;
             var19 = var18.feedFooterImage;
             var17['style'] = var19;
+            var19 = true;
+            var17['accessibilityElementsHidden'] = var19;
+            var19 = 'no-hide-descendants';
+            var17['importantForAccessibility'] = var19;
             var13 = var17;
 case 25:
             var13 = var16.bind(var4)(var15, var13);
@@ -544,7 +552,7 @@ case 30:
             var14 = 31;
             var14 = var22[var14];
             var15 = var21.bind(var4)(var14);
-            var14 = {'source': null, 'enableAnimation': true, 'resizeMode': 'contain'};
+            var14 = {'source': null, 'enableAnimation': true, 'resizeMode': 'contain', 'style': null, 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
             var16 = {};
             var19 = 30;
             var19 = var22[var19];
@@ -559,13 +567,11 @@ case 29:
             var15 = 29;
             var15 = var22[var15];
             var16 = var21.bind(var4)(var15);
-            var15 = {};
+            var15 = {'url': null, 'autoplay': true, 'style': null, 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
             var19 = 30;
             var19 = var22[var19];
             var19 = var21.bind(var4)(var19);
             var15['url'] = var19;
-            var19 = true;
-            var15['autoplay'] = var19;
             var19 = var18.feedFooterOrbImage;
             var15['style'] = var19;
             var14 = var17.bind(var4)(var16, var15);
@@ -585,6 +591,10 @@ case 27:
             var15['source'] = var19;
             var18 = var18.feedFooterOrbImage;
             var15['style'] = var18;
+            var18 = true;
+            var15['accessibilityElementsHidden'] = var18;
+            var18 = 'no-hide-descendants';
+            var15['importantForAccessibility'] = var18;
             var14 = var17.bind(var4)(var16, var15);
 case 32:
             var13 = var14;

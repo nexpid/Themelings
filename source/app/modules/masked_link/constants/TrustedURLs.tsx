@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var1.Set;
     var2 = var5.prototype;
     var4 = Object.create(var2, {constructor: {value: var5}});
-    var9 = ['https://account.riotgames.com/#connected-accounts', 'https://aes.sgp.pvp.net/providers/discord/link/v1', 'https://marvelrivals.com/discord', 'https://wutheringwaves-dc.kurogames-global.com/', 'https://id.embark.games/id/connected-platforms', 'https://myaccount.ea.com/am/ui/connected-accounts', 'https://playbpsr.com/discord_bind', 'https://infinitynikki.infoldgames.com/proj/dcbd.html', 'https://vrchat.com/home/profile', 'https://account.1047games.com/', 'https://discord.facepunch.com/'];
+    var9 = ['https://account.riotgames.com/#connected-accounts', 'https://aes.sgp.pvp.net/providers/discord/link/v1', 'https://aes.sgp.pvp.net/providers/discord/link/v1?origin=Discord', 'https://marvelrivals.com/discord', 'https://wutheringwaves-dc.kurogames-global.com/', 'https://id.embark.games/id/connected-platforms', 'https://myaccount.ea.com/am/ui/connected-accounts', 'https://playbpsr.com/discord_bind', 'https://infinitynikki.infoldgames.com/proj/dcbd.html', 'https://vrchat.com/home/profile', 'https://account.1047games.com/', 'https://discord.facepunch.com/'];
     var10 = var4;
     var2 = new var10[var5](var9, var8);
     var8 = var2 instanceof Object ? var2 : var4;

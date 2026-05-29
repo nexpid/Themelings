@@ -514,37 +514,37 @@ case 20:
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;
-            var9 = var2.questHomeHero;
-            var _closure2_slot0 = var9;
+            var3 = var2.questHomeHero;
+            var _closure2_slot0 = var3;
             var8 = var2.shouldShowQuestHomeHeroContent;
             var _closure2_slot1 = var8;
-            var5 = undefined;
-            var _closure2_slot2 = var5;
-            var _closure2_slot3 = var5;
-            var _closure2_slot4 = var5;
-            var _closure2_slot5 = var5;
-            var _closure2_slot6 = var5;
-            var _closure2_slot7 = var5;
-            var _closure2_slot8 = var5;
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var3 = 10;
-            var3 = var6[var3];
-            var3 = var4.bind(var5)(var3);
-            var4 = var3.QuestContent;
+            var6 = undefined;
+            var _closure2_slot2 = var6;
+            var _closure2_slot3 = var6;
+            var _closure2_slot4 = var6;
+            var _closure2_slot5 = var6;
+            var _closure2_slot6 = var6;
+            var _closure2_slot7 = var6;
+            var _closure2_slot8 = var6;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 10;
+            var4 = var7[var4];
+            var4 = var5.bind(var6)(var4);
+            var5 = var4.QuestContent;
             if(var8) { _fun0005_ip = 22; continue _fun0005 }
 case 23:
-            var3 = var4.QUEST_HOME_ENTRYPOINT;
+            var4 = var5.QUEST_HOME_ENTRYPOINT;
             _fun0005_ip = 24; continue _fun0005;
 case 22:
-            var3 = var4.QUEST_HOME_ENTRYPOINT_THEMED;
+            var4 = var5.QUEST_HOME_ENTRYPOINT_THEMED;
 case 24:
-            _closure2_slot2 = var3;
-            var7 = _closure1_slot3;
-            var6 = var7.useMemo;
-            var5 = new Array(1);
-            var5[0] = var3;
-            var4 = function() {
+            _closure2_slot2 = var4;
+            var9 = _closure1_slot3;
+            var7 = var9.useMemo;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var5 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 6;
@@ -557,15 +557,15 @@ case 24:
                 var2 = delete var1.row_index;
                 return var1;
             };
-            var4 = var6.bind(var7)(var4, var5);
-            _closure2_slot3 = var4;
+            var10 = var7.bind(var9)(var5, var6);
+            _closure2_slot3 = var10;
             var7 = _closure1_slot3;
             var6 = var7.useCallback;
             var5 = new Array(4);
-            var5[0] = var9;
+            var5[0] = var3;
             var5[1] = var8;
-            var5[2] = var3;
-            var5[3] = var4;
+            var5[2] = var4;
+            var5[3] = var10;
             var4 = function(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -666,32 +666,46 @@ case 28:
             _closure2_slot7 = var6;
             var9 = _closure1_slot3;
             var5 = var9.useCallback;
-            var4 = new Array(1);
-            var4[0] = var3;
+            var4 = new Array(2);
+            var4[0] = var10;
+            var4[1] = var3;
             var3 = function() {
-                var3 = _closure1_slot1;
-                var8 = _closure1_slot2;
-                var1 = 12;
-                var2 = var8[var1];
-                var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var4 = var5.track;
-                var2 = _closure1_slot4;
-                var3 = var2.QUEST_CONTENT_CLICKED;
-                var2 = {};
-                var7 = false;
-                var2['is_targeted'] = var7;
-                var7 = _closure1_slot0;
-                var6 = 6;
-                var6 = var8[var6];
-                var8 = var7.bind(var1)(var6);
-                var7 = var8.getContentProperties;
-                var6 = _closure2_slot2;
-                var9 = var7.bind(var8)(var6);
-                var10 = var2;
-                var6 = copyDataProperties(var10, var9);
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 12;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.track;
+                    var2 = _closure1_slot4;
+                    var3 = var2.QUEST_CONTENT_CLICKED;
+                    var2 = {};
+                    var6 = false;
+                    var2['is_targeted'] = var6;
+                    var9 = _closure2_slot3;
+                    var10 = var2;
+                    var6 = copyDataProperties(var10, var9);
+                    var7 = _closure2_slot0;
+                    var6 = null;
+                    if(!(var6 == var7)) { _fun0007_ip = 29; continue _fun0007 }
+case 30:
+                    var6 = {};
+                    _fun0007_ip = 31; continue _fun0007;
+case 29:
+                    var7 = {};
+                    var8 = _closure2_slot0;
+                    var8 = var8.id;
+                    var7['ad_content_id'] = var8;
+                    var6 = var7;
+case 31:
+                    var10 = var2;
+                    var9 = var6;
+                    var6 = copyDataProperties(var10, var9);
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
+                }
             };
             var5 = var5.bind(var9)(var3, var4);
             _closure2_slot8 = var5;

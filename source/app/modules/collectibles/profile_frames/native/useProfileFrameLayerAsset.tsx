@@ -50,7 +50,7 @@ case 0:
             var2 = arg1;
             var12 = var2.skuId;
             var7 = var2.layer;
-            var8 = var2.layerWidth;
+            var8 = var2.width;
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
             var9 = 3;

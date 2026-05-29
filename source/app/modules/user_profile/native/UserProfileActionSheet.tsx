@@ -557,18 +557,19 @@ case 43:
                     if(!(var2 != var3)) { _fun0004_ip = 42; continue _fun0004 }
 case 44:
                     var2 = global;
-                    var5 = var2.Math;
-                    var4 = var5.min;
-                    var3 = _closure2_slot26;
-                    var2 = _closure1_slot14;
-                    var3 = var4.bind(var5)(var3, var2);
-                    var4 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var1 = 31;
-                    var1 = var2[var1];
-                    var2 = undefined;
-                    var1 = var4.bind(var2)(var1);
-                    var1 = var1.bind(var2)(var3);
+                    var6 = var2.Math;
+                    var5 = var6.min;
+                    var4 = _closure2_slot26;
+                    var3 = _closure1_slot14;
+                    var4 = var5.bind(var6)(var4, var3);
+                    var5 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 31;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var5.bind(var3)(var2);
+                    var1 = _closure2_slot25;
+                    var1 = var2.bind(var3)(var1, var4);
                     var1 = var1.overflowTop;
                     return var1;
 case 42:

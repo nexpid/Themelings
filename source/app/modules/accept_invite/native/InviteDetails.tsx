@@ -209,7 +209,7 @@ case 22:
             var7 = 18;
             var7 = var12[var7];
             var7 = var8.bind(var5)(var7);
-            var8 = var7.Text;
+            var8 = var7.Heading;
             var7 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var11 = var11.guildNameText;
             var7['style'] = var11;

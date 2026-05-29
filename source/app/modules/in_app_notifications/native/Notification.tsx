@@ -743,10 +743,10 @@ case 0:
             var2 = 13;
             var2 = var5[var2];
             var6 = var3.bind(var4)(var2);
-            var3 = var6.useInAppNotificationRedesign;
+            var3 = var6.useCanExpandInAppNotification;
             var2 = 'NotificationPressable';
             var2 = var3.bind(var6)(var2);
-            var13 = var2.moveTimerBar;
+            var13 = var2.canExpand;
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var1 = var5[var1];

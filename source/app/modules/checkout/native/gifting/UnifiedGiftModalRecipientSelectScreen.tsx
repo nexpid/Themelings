@@ -1,11 +1,11 @@
 // app/modules/checkout/native/gifting/UnifiedGiftModalRecipientSelectScreen.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -41,10 +41,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'flex': 1, 'paddingTop': 16};
+    var10 = 5;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.MOBILE_ACTIONSHEET_BACKGROUND;
+    var9['backgroundColor'] = var10;
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -56,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var1;
         var2 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var1 = 5;
+        var1 = 6;
         var1 = var9[var1];
         var4 = undefined;
         var2 = var2.bind(var4)(var1);
@@ -71,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.container;
         var1['style'] = var5;
         var6 = _closure1_slot1;
-        var5 = 6;
+        var5 = 7;
         var5 = var9[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {};
@@ -84,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.navigate;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var2 = var6[var2];
             var2 = var5.bind(var1)(var2);
             var2 = var2.UnifiedGiftModalScreens;

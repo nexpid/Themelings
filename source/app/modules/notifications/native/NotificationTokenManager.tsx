@@ -950,16 +950,16 @@ case 43:
                 var3 = null;
                 var6 = var3 == var2;
                 var2 = undefined;
-                if(var6) { _fun0013_ip = 44; continue _fun0013 }
-case 45:
+                if(var6) { _fun0013_ip = 8; continue _fun0013 }
+case 44:
                 var7 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var6 = var6[var8];
                 var6 = var7.bind(var4)(var6);
                 var2 = var6.getAndroidNotifChannelStates;
-case 44:
+case 8:
                 if(!(var3 != var2)) { _fun0013_ip = 41; continue _fun0013 }
-case 46:
+case 45:
                 var6 = var2.bind(var4)();
                 var2 = global;
                 var7 = var2.Set;
@@ -985,13 +985,13 @@ case 0:
                         var3 = var2.importance;
                         var1 = 0;
                         var1 = var1 === var3;
-                        if(!var1) { _fun0014_ip = 47; continue _fun0014 }
-case 48:
+                        if(!var1) { _fun0014_ip = 46; continue _fun0014 }
+case 47:
                         var4 = _closure3_slot0;
                         var3 = var4.has;
                         var2 = var2.channelId;
                         var1 = var3.bind(var4)(var2);
-case 47:
+case 46:
                         return var1;
                     }
                 };
@@ -1045,12 +1045,12 @@ case 28:
                 var2 = var3.isAuthenticated;
                 var1 = var2.bind(var3)();
 case 21:
-                if(!var1) { _fun0015_ip = 49; continue _fun0015 }
+                if(!var1) { _fun0015_ip = 48; continue _fun0015 }
 case 17:
                 var2 = _closure1_slot10;
                 var2 = var2.isSwitchingAccount;
                 var1 = !var2;
-case 49:
+case 48:
                 return var1;
             }
         };

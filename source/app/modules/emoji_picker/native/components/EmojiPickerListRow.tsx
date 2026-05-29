@@ -577,8 +577,8 @@ case 0:
                 var5 = arg1;
                 var2 = var5.nativeRow;
                 var4 = undefined;
-                if(!(var2 === var4)) { _fun0008_ip = 37; continue _fun0008 }
-case 45:
+                if(!(var2 === var4)) { _fun0008_ip = 45; continue _fun0008 }
+case 46:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 8;
@@ -586,7 +586,7 @@ case 45:
                 var3 = var3.bind(var4)(var1);
                 var1 = var3.isAndroid;
                 var2 = var1.bind(var3)();
-case 37:
+case 45:
                 var1 = null;
                 var3 = Object.create(var1);
                 var1 = 0;
@@ -597,12 +597,12 @@ case 37:
                 var5 = copyDataProperties(var9, var8, var7);
                 var3 = _closure1_slot7;
                 if(var2) { _fun0008_ip = 2; continue _fun0008 }
-case 46:
+case 47:
                 var2 = _closure1_slot11;
-                _fun0008_ip = 47; continue _fun0008;
+                _fun0008_ip = 48; continue _fun0008;
 case 2:
                 var2 = _closure1_slot10;
-case 47:
+case 48:
                 var1 = {};
                 var9 = var1;
                 var8 = var5;

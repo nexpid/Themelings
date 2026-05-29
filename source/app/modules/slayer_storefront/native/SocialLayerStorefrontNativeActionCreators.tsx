@@ -27,6 +27,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/slayer_storefront/native/SocialLayerStorefrontNativeActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
+    var4 = 'social-layer-storefront-product-details-native-modal';
+    var3['SOCIAL_LAYER_STOREFRONT_PRODUCT_DETAILS_MODAL_KEY'] = var4;
+    var4 = 'social-layer-storefront-native-gift-modal';
+    var3['SOCIAL_LAYER_STOREFRONT_GIFT_MODAL_KEY'] = var4;
+    var4 = 'social-layer-storefront-self-purchase-success-native-modal';
+    var3['SOCIAL_LAYER_STOREFRONT_SELF_PURCHASE_SUCCESS_MODAL_KEY'] = var4;
+    var4 = 'social-layer-storefront-gift-purchase-success-native-modal';
+    var3['SOCIAL_LAYER_STOREFRONT_GIFT_PURCHASE_SUCCESS_MODAL_KEY'] = var4;
     var4 = function openSocialLayerStorefrontProductDetailsModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -61,7 +69,7 @@ case 3:
             var2 = 'modal';
             var4['presentation'] = var2;
             var10 = arg1;
-            var9 = 'social_layer_storefront_product_details_embed';
+            var9 = 'social-layer-storefront-product-details-native-modal';
             var12 = var7;
             var8 = var4;
             var2 = var12[var6](var11, var10, var9, var8, var7);
@@ -78,7 +86,7 @@ case 2:
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.popWithKey;
-        var2 = 'social_layer_storefront_product_details_embed';
+        var2 = 'social-layer-storefront-product-details-native-modal';
         var2 = var3.bind(var4)(var2);
         return var1;
     };
@@ -117,7 +125,7 @@ case 3:
             var2 = 'modal';
             var4['presentation'] = var2;
             var10 = arg1;
-            var9 = 'social-layer-storefront-gift-modal';
+            var9 = 'social-layer-storefront-native-gift-modal';
             var12 = var7;
             var8 = var4;
             var2 = var12[var6](var11, var10, var9, var8, var7);
@@ -134,7 +142,7 @@ case 2:
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.popWithKey;
-        var2 = 'social-layer-storefront-gift-modal';
+        var2 = 'social-layer-storefront-native-gift-modal';
         var2 = var3.bind(var4)(var2);
         return var1;
     };

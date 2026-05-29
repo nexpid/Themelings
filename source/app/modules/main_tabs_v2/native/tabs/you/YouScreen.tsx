@@ -734,7 +734,7 @@ case 37:
             var8 = 42;
             var8 = var16[var8];
             var8 = var9.bind(var4)(var8);
-            var8 = var8.bind(var4)(var23);
+            var8 = var8.bind(var4)(var24, var23);
             var2 = var8.overflowTop;
 case 36:
             _closure2_slot16 = var2;

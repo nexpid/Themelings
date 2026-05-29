@@ -1334,7 +1334,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['inlineRequire'] = var8;
     var2['UserSettingsManager'] = var1;
     var1 = {};
-    var8 = ['POST_CONNECTION_OPEN', 'BILLING_USER_OFFER_FETCH_SUCCESS'];
+    var8 = ['POST_CONNECTION_OPEN'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

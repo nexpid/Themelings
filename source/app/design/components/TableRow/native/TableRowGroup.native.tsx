@@ -12,39 +12,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var5 = var1.title;
+            var8 = var1.style;
+            var6 = var1.lineClamp;
             var3 = _closure1_slot1;
-            var7 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var2 = 5;
-            var2 = var7[var2];
+            var2 = var9[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
             var2 = 'TableRowGroup';
-            var8 = var3.bind(var4)(var2);
+            var10 = var3.bind(var4)(var2);
             var2 = _closure1_slot8;
-            var6 = var2.bind(var4)();
+            var7 = var2.bind(var4)();
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
             var1 = 6;
-            var1 = var7[var1];
+            var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
             var1 = {};
-            var7 = 'header';
-            var1['accessibilityRole'] = var7;
-            var7 = 'text-sm/semibold';
-            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+            var9 = 'header';
+            var1['accessibilityRole'] = var9;
+            var9 = 'text-sm/semibold';
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = 'text-md/medium';
+            var9 = 'text-md/medium';
 case 2:
-            var1['variant'] = var7;
-            var7 = 'text-default';
-            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+            var1['variant'] = var9;
+            var9 = 'text-default';
+            if(!var10) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = 'text-subtle';
+            var9 = 'text-subtle';
 case 4:
-            var1['color'] = var7;
-            var6 = var6.title;
-            var1['style'] = var6;
+            var1['color'] = var9;
+            var9 = var7.title;
+            var7 = new Array(2);
+            var7[0] = var9;
+            var7[1] = var8;
+            var1['style'] = var7;
+            var1['lineClamp'] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -185,7 +191,7 @@ case 13:
                     var2 = true;
                     _closure2_slot1 = var2;
                     var2 = var8;
-                    _fun0003_ip = 4; continue _fun0003;
+                    _fun0003_ip = 14; continue _fun0003;
 case 12:
                     var6 = _closure1_slot7;
                     var5 = _closure1_slot6;
@@ -207,7 +213,7 @@ case 12:
                     var7[1] = var8;
                     var4['children'] = var7;
                     var2 = var6.bind(var3)(var5, var4);
-case 4:
+case 14:
                     var1 = var2;
 case 10:
                     return var1;
@@ -230,19 +236,19 @@ case 10:
             var5['style'] = var8;
             var9 = null;
             var11 = var9 != var20;
-            if(!var11) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(!var11) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var16 = _closure1_slot5;
             var12 = _closure1_slot9;
             var8 = {};
             var8['title'] = var20;
             var11 = var16.bind(var4)(var12, var8);
-case 14:
+case 15:
             var8 = new Array(4);
             var8[0] = var11;
             var11 = var9 != var21;
-            if(!var11) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(!var11) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var20 = _closure1_slot5;
             var16 = _closure1_slot0;
             var23 = _closure1_slot2;
@@ -255,7 +261,7 @@ case 17:
             var12['style'] = var23;
             var12['children'] = var21;
             var11 = var20.bind(var4)(var16, var12);
-case 16:
+case 17:
             var8[1] = var11;
             var16 = _closure1_slot5;
             var12 = _closure1_slot4;
@@ -264,10 +270,10 @@ case 16:
             var20 = new Array(2);
             var20[0] = var21;
             var21 = null;
-            if(!var22) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!var22) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var21 = var14.hasTrailingText;
-case 18:
+case 19:
             var20[1] = var21;
             var11['style'] = var20;
             var11['accessibilityRole'] = var19;
@@ -276,8 +282,8 @@ case 18:
             var11 = var16.bind(var4)(var12, var11);
             var8[2] = var11;
             var9 = var9 != var13;
-            if(!var9) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+            if(!var9) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var12 = _closure1_slot5;
             var11 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -293,7 +299,7 @@ case 21:
             var10['style'] = var14;
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 20:
+case 21:
             var8[3] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

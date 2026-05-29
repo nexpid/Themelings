@@ -196,7 +196,7 @@ case 13:
             var1['preview'] = var2;
             var2 = {'flex': 1, 'justifyContent': 'flex-start', 'alignItems': 'center', 'minHeight': 250};
             var1['previewBundle'] = var2;
-            var2 = {'paddingTop': null, 'height': null, 'flexDirection': 'column', 'alignItems': 'center', 'justifyContent': 'flex-start'};
+            var2 = {'paddingTop': null, 'minHeight': null, 'flexDirection': 'column', 'alignItems': 'center', 'justifyContent': 'flex-start'};
             var11 = _closure1_slot1;
             var4 = _closure1_slot2;
             var8 = var4[var6];
@@ -214,7 +214,7 @@ case 13:
 case 15:
             var4 = '32%';
 case 14:
-            var2['height'] = var4;
+            var2['minHeight'] = var4;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var8 = var3[var6];

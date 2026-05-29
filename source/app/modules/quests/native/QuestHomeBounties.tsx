@@ -1210,22 +1210,22 @@ case 0:
                                     var2 = var7 - var2;
                                     var2 = var5.bind(var6)(var3, var2);
                                     var3 = var4 > var3;
-                                    if(!var3) { _fun0017_ip = 25; continue _fun0017 }
-case 60:
+                                    if(!var3) { _fun0017_ip = 60; continue _fun0017 }
+case 61:
                                     var4 = var2 / var4;
                                     var2 = 0.5;
                                     var3 = var4 >= var2;
-case 25:
+case 60:
                                     var2 = _closure3_slot4;
                                     var2 = var2.current;
-                                    if(!(var3 !== var2)) { _fun0017_ip = 61; continue _fun0017 }
-case 49:
+                                    if(!(var3 !== var2)) { _fun0017_ip = 62; continue _fun0017 }
+case 39:
                                     var2 = _closure3_slot4;
                                     var2['current'] = var3;
                                     var2 = _closure3_slot3;
                                     var1 = undefined;
                                     var1 = var2.bind(var1)(var3);
-case 61:
+case 62:
                                     var1 = undefined;
                                     return var1;
                                 }
@@ -1310,10 +1310,10 @@ case 0:
                     var7 = _closure2_slot18;
                     var8 = !var7;
                     var7 = !var8;
-                    if(var8) { _fun0018_ip = 62; continue _fun0018 }
+                    if(var8) { _fun0018_ip = 63; continue _fun0018 }
 case 30:
                     var7 = undefined;
-case 62:
+case 63:
                     var2['overrideVisibility'] = var7;
                     var6 = function children() {
                         var4 = _closure1_slot8;
@@ -1390,7 +1390,7 @@ case 0:
                         var2 = var5[var2];
                         var5 = null;
                         if(!(var5 != var2)) { _fun0019_ip = 49; continue _fun0019 }
-case 63:
+case 64:
                         var8 = _closure2_slot10;
                         var5 = var8.current;
                         var7 = var5.children;
@@ -1443,10 +1443,10 @@ case 49:
             var12 = var8.bind(var12)(var2, var3);
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
-            if(var9) { _fun0002_ip = 64; continue _fun0002 }
-case 65:
-            if(var1) { _fun0002_ip = 64; continue _fun0002 }
+            if(var9) { _fun0002_ip = 65; continue _fun0002 }
 case 66:
+            if(var1) { _fun0002_ip = 65; continue _fun0002 }
+case 67:
             var1 = {};
             var1['ref'] = var7;
             var7 = var6.container;
@@ -1488,8 +1488,8 @@ case 66:
             var5['CellRendererComponent'] = var11;
             var5 = var8.bind(var4)(var7, var5);
             var1['children'] = var5;
-            _fun0002_ip = 67; continue _fun0002;
-case 64:
+            _fun0002_ip = 68; continue _fun0002;
+case 65:
             var5 = {};
             var6 = var6.container;
             var5['style'] = var6;
@@ -1497,18 +1497,18 @@ case 64:
             var7 = _closure1_slot17;
             var6 = {};
             var10 = _closure1_slot14;
-            if(var9) { _fun0002_ip = 68; continue _fun0002 }
-case 69:
-            var9 = var10.COMPLETED;
-            _fun0002_ip = 70; continue _fun0002;
-case 68:
-            var9 = var10.EMPTY;
+            if(var9) { _fun0002_ip = 69; continue _fun0002 }
 case 70:
+            var9 = var10.COMPLETED;
+            _fun0002_ip = 71; continue _fun0002;
+case 69:
+            var9 = var10.EMPTY;
+case 71:
             var6['reason'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5['children'] = var6;
             var1 = var5;
-case 67:
+case 68:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -153,7 +153,7 @@ case 10:
                         if(!(var4 != var2)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
                         var5 = _closure1_slot4;
-                        var2 = _closure1_slot3;
+                        var2 = var3.id;
                         if(!(var5 === var2)) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
                         var6 = _closure1_slot0;

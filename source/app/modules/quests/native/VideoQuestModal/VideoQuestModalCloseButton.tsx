@@ -31,20 +31,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.onClose;
+            var5 = var1.onClose;
             var7 = var1.iconColor;
             var4 = undefined;
             if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = _closure1_slot1;
-            var5 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var2 = 1;
-            var2 = var5[var2];
+            var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.colors;
             var7 = var2.MOBILE_TEXT_HEADING_PRIMARY;
 case 2:
-            var5 = var1.style;
+            var9 = var1.style;
             var3 = _closure1_slot3;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -64,7 +64,11 @@ case 2:
             var10 = var10.cpT0Cq;
             var10 = var11.bind(var12)(var10);
             var1['accessibilityLabel'] = var10;
-            var1['onPress'] = var9;
+            var1['onPress'] = var5;
+            var5 = new Array(2);
+            var10 = {'flexShrink': 0, 'minWidth': 24, 'minHeight': 24};
+            var5[0] = var10;
+            var5[1] = var9;
             var1['style'] = var5;
             var5 = 4;
             var5 = var8[var5];

@@ -169,7 +169,7 @@ case 0:
             var16 = var1.icon;
             var12 = var1.trailing;
             var6 = var1.arrow;
-            var11 = var1.disabled;
+            var13 = var1.disabled;
             var28 = var1.variant;
             var4 = undefined;
             if(!(var28 === var4)) { _fun0002_ip = 15; continue _fun0002 }
@@ -190,7 +190,7 @@ case 17:
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = 'TableRowInner';
-            var29 = var2.bind(var4)(var1);
+            var11 = var2.bind(var4)(var1);
             var2 = _closure1_slot3;
             var1 = var2.isValidElement;
             var1 = var1.bind(var2)(var12);
@@ -234,25 +234,34 @@ case 24:
             var9 = null;
             var32 = var9 != var10;
             var1 = true;
-            var33 = var1 === var11;
+            var33 = var1 === var13;
             var34 = undefined;
             var31 = var5;
-            var30 = var29;
+            var30 = var11;
             var13 = var34[var3](var33, var32, var31, var30, var29);
-            var2 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 7;
-            var1 = var11[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.useToken;
+            var2 = 7;
+            var1 = var11[var2];
+            var20 = var3.bind(var4)(var1);
+            var19 = var20.useToken;
             var5 = _closure1_slot1;
             var1 = 4;
+            var18 = var11[var1];
+            var18 = var5.bind(var4)(var18);
+            var18 = var18.modules;
+            var18 = var18.mobile;
+            var18 = var18.TABLE_ROW_LABEL_TEXT_STYLE;
+            var26 = var19.bind(var20)(var18);
+            var2 = var11[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useToken;
             var1 = var11[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
-            var1 = var1.TABLE_ROW_LABEL_TEXT_STYLE;
-            var26 = var2.bind(var3)(var1);
+            var1 = var1.TABLE_ROW_LABEL_COLOR;
+            var27 = var2.bind(var3)(var1);
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
@@ -321,22 +330,17 @@ case 27:
 case 30:
             var21 = _closure1_slot6;
             var20 = _closure1_slot0;
-            var27 = _closure1_slot2;
+            var29 = _closure1_slot2;
             var18 = 16;
-            var18 = var27[var18];
+            var18 = var29[var18];
             var18 = var20.bind(var4)(var18);
             var20 = var18.Text;
             var18 = {};
             var18['variant'] = var26;
             var26 = 'text-feedback-critical';
-            var27 = 'danger';
-            if(!(var27 !== var28)) { _fun0002_ip = 31; continue _fun0002 }
+            var29 = 'danger';
+            if(!(var29 !== var28)) { _fun0002_ip = 31; continue _fun0002 }
 case 32:
-            var27 = 'mobile-text-heading-primary';
-            if(!var29) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
-            var27 = 'text-strong';
-case 33:
             var26 = var27;
 case 31:
             var18['color'] = var26;
@@ -347,14 +351,14 @@ case 29:
             var18 = new Array(2);
             var18[0] = var19;
             var19 = var9 != var24;
-            if(!var19) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
+            if(!var19) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var21 = _closure1_slot3;
             var20 = var21.isValidElement;
             var21 = var20.bind(var21)(var24);
             var20 = var24;
-            if(var21) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+            if(var21) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
             var23 = _closure1_slot6;
             var22 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -367,25 +371,25 @@ case 38:
             var21['variant'] = var26;
             var26 = 'text-subtle';
             var27 = 'danger';
-            if(!(var27 === var28)) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
+            if(!(var27 === var28)) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
             var26 = 'text-feedback-critical';
-case 39:
+case 37:
             var21['color'] = var26;
             var21['lineClamp'] = var25;
             var21['children'] = var24;
             var20 = var23.bind(var4)(var22, var21);
-case 37:
-            var19 = var20;
 case 35:
+            var19 = var20;
+case 33:
             var18[1] = var19;
             var15['children'] = var18;
             var16 = var17.bind(var4)(var16, var15);
             var15 = new Array(2);
             var15[0] = var16;
             var16 = var9 != var10;
-            if(!var16) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
+            if(!var16) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
             var19 = _closure1_slot6;
             var18 = _closure1_slot5;
             var17 = {};
@@ -397,18 +401,18 @@ case 42:
             var17['style'] = var20;
             var17['children'] = var10;
             var16 = var19.bind(var4)(var18, var17);
-case 41:
+case 39:
             var15[1] = var16;
             var8['children'] = var15;
             var8 = var14.bind(var4)(var11, var8);
             var5[2] = var8;
             var8 = var9 != var12;
+            if(!var8) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
+            var8 = var9 == var10;
+case 41:
             if(!var8) { _fun0002_ip = 43; continue _fun0002 }
 case 44:
-            var8 = var9 == var10;
-case 43:
-            if(!var8) { _fun0002_ip = 45; continue _fun0002 }
-case 46:
             var11 = _closure1_slot6;
             var10 = _closure1_slot5;
             var9 = {};
@@ -416,10 +420,10 @@ case 46:
             var9['style'] = var13;
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
-case 45:
+case 43:
             var5[3] = var8;
-            if(!var6) { _fun0002_ip = 47; continue _fun0002 }
-case 48:
+            if(!var6) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -429,7 +433,7 @@ case 48:
             var8 = var7.TableRowArrow;
             var7 = {};
             var6 = var9.bind(var4)(var8, var7);
-case 47:
+case 45:
             var5[4] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -481,10 +485,10 @@ case 0:
             var4 = arg3;
             var12 = arguments[3];
             var7 = undefined;
-            if(!(var12 === var7)) { _fun0003_ip = 49; continue _fun0003 }
-case 50:
+            if(!(var12 === var7)) { _fun0003_ip = 47; continue _fun0003 }
+case 48:
             var12 = false;
-case 49:
+case 47:
             var1 = {};
             var2 = {};
             var6 = _closure1_slot1;
@@ -509,21 +513,21 @@ case 49:
             var5 = 1;
             var13 = arg1;
             var10 = var5;
-            if(!var13) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
+            if(!var13) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
             var10 = 0.5;
-case 51:
+case 49:
             var2['opacity'] = var10;
             var10 = undefined;
-            if(!var12) { _fun0003_ip = 53; continue _fun0003 }
-case 54:
+            if(!var12) { _fun0003_ip = 51; continue _fun0003 }
+case 52:
             var13 = _closure1_slot1;
             var12 = _closure1_slot2;
             var12 = var12[var11];
             var12 = var13.bind(var7)(var12);
             var12 = var12.radii;
             var10 = var12.md;
-case 53:
+case 51:
             var2['borderRadius'] = var10;
             var1['row'] = var2;
             var2 = {};
@@ -549,44 +553,44 @@ case 53:
             var2['marginStart'] = var3;
             var1['trailing'] = var2;
             var2 = {'flexShrink': 1, 'flexGrow': 1, 'flexDirection': null, 'alignItems': null, 'justifyContent': 'space-between'};
+            if(!var4) { _fun0003_ip = 53; continue _fun0003 }
+case 54:
+            var9 = 'column';
+case 53:
+            var2['flexDirection'] = var9;
             if(!var4) { _fun0003_ip = 55; continue _fun0003 }
 case 56:
-            var9 = 'column';
-case 55:
-            var2['flexDirection'] = var9;
-            if(!var4) { _fun0003_ip = 57; continue _fun0003 }
-case 58:
             var6 = 'stretch';
-case 57:
+case 55:
             var2['alignItems'] = var6;
             var1['content'] = var2;
             var2 = {};
             var2['flexGrow'] = var5;
             var6 = var5;
             if(!var8) { _fun0003_ip = 8; continue _fun0003 }
-case 59:
+case 57:
             var6 = var5;
             if(var4) { _fun0003_ip = 8; continue _fun0003 }
-case 60:
+case 58:
             var6 = undefined;
 case 8:
             var2['flexShrink'] = var6;
             var6 = undefined;
-            if(!var8) { _fun0003_ip = 61; continue _fun0003 }
+            if(!var8) { _fun0003_ip = 59; continue _fun0003 }
 case 11:
             var6 = undefined;
-            if(var4) { _fun0003_ip = 61; continue _fun0003 }
-case 62:
+            if(var4) { _fun0003_ip = 59; continue _fun0003 }
+case 60:
             var6 = '70%';
-case 61:
+case 59:
             var2['maxWidth'] = var6;
             var1['labels'] = var2;
             var2 = {};
             var2['flexShrink'] = var5;
-            if(!var4) { _fun0003_ip = 63; continue _fun0003 }
-case 64:
+            if(!var4) { _fun0003_ip = 61; continue _fun0003 }
+case 62:
             var3 = 0;
-case 63:
+case 61:
             var2['marginStart'] = var3;
             var1['trailingText'] = var2;
             var2 = {};

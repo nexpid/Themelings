@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var10 = {'moveTimerBar': true, 'redesignEnabled': false};
     var9[1] = var10;
-    var10 = {'moveTimerBar': true, 'redesignEnabled': true};
+    var10 = {'moveTimerBar': false, 'redesignEnabled': true};
     var9[2] = var10;
     var4['variations'] = var9;
     var4 = var5.bind(var8)(var4);

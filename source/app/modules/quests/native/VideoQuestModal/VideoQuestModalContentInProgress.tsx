@@ -903,7 +903,7 @@ case 29:
             var34 = var40[var37];
             var34 = var41.bind(var4)(var34);
             var42 = var34.Text;
-            var34 = {'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
+            var34 = {'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
             var43 = var31.config;
             var43 = var43.messages;
             var43 = var43.gameTitle;
@@ -1413,7 +1413,7 @@ case 44:
             var40 = var19[var41];
             var40 = var7.bind(var4)(var40);
             var46 = var40.Text;
-            var40 = {'variant': 'heading-lg/semibold', 'color': 'white'};
+            var40 = {'variant': 'heading-lg/semibold', 'color': 'white', 'style': null, 'accessibilityRole': 'header'};
             var47 = var24.textShadow;
             var40['style'] = var47;
             var47 = var16.config;

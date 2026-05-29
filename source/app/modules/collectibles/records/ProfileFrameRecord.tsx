@@ -85,14 +85,14 @@ case 4:
         var5 = function ProfileFrameRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var2 = arg1;
+                var3 = arg1;
                 var6 = this;
                 var1 = _closure1_slot2;
                 var4 = _closure2_slot0;
                 var5 = undefined;
                 var1 = var1.bind(var5)(var6, var4);
                 var11 = new Array(1);
-                var11[0] = var2;
+                var11[0] = var3;
                 var1 = _closure1_slot5;
                 var10 = var1.bind(var5)(var4);
                 var4 = _closure1_slot4;
@@ -115,16 +115,49 @@ case 8:
                 var1 = var4.bind(var5)(var6, var1);
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot1;
-                var3 = 7;
-                var3 = var6[var3];
-                var3 = var4.bind(var5)(var3);
-                var3 = var3.CollectiblesItemType;
-                var3 = var3.PROFILE_FRAME;
-                var1['type'] = var3;
-                var3 = var2.label;
-                var1['label'] = var3;
-                var2 = var2.layers;
+                var2 = 7;
+                var2 = var6[var2];
+                var2 = var4.bind(var5)(var2);
+                var2 = var2.CollectiblesItemType;
+                var2 = var2.PROFILE_FRAME;
+                var1['type'] = var2;
+                var2 = var3.label;
+                var1['label'] = var2;
+                var2 = var3.layers;
                 var1['layers'] = var2;
+                var5 = var3.innerWidth;
+                var2 = null;
+                var6 = var2 != var5;
+                var4 = 1200;
+                if(!var6) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+                var4 = var5;
+case 9:
+                var1['innerWidth'] = var4;
+                var5 = var3.overflowTop;
+                var6 = var2 != var5;
+                var4 = 304;
+                if(!var6) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+                var4 = var5;
+case 11:
+                var1['overflowTop'] = var4;
+                var5 = var3.overflowBottom;
+                var6 = var2 != var5;
+                var4 = 212;
+                if(!var6) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+                var4 = var5;
+case 13:
+                var1['overflowBottom'] = var4;
+                var3 = var3.overflowHorizontal;
+                var4 = var2 != var3;
+                var2 = 56;
+                if(!var4) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+                var2 = var3;
+case 15:
+                var1['overflowHorizontal'] = var2;
                 return var1;
             }
         };
@@ -140,23 +173,35 @@ case 8:
         var2 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var2 = arg1;
-                var9 = this;
+                var3 = arg1;
+                var13 = this;
+                var7 = var3.inner_width;
+                var6 = var3.overflow_top;
+                var5 = var3.overflow_bottom;
+                var4 = var3.overflow_horizontal;
+                var2 = {'inner_width': 0, 'overflow_top': 0, 'overflow_bottom': 0, 'overflow_horizontal': 0};
+                var15 = null;
+                var16 = var2;
+                var1 = silentSetPrototypeOf(var16, var15);
+                var16 = {};
+                var15 = var3;
+                var14 = var2;
+                var2 = copyDataProperties(var16, var15, var14);
                 var3 = _closure2_slot0;
                 var1 = {};
-                var _closure3_slot0 = var9;
-                var8 = _closure1_slot6;
-                var5 = _closure1_slot5;
-                var6 = undefined;
-                var7 = var5.bind(var6)(var3);
-                var5 = 'fromServer';
-                var5 = var8.bind(var6)(var7, var5, var9);
-                var _closure3_slot1 = var5;
-                var8 = 'function';
-                var7 = typeof var5;
-                if(!(var8 === var7)) { _fun0003_ip = 3; continue _fun0003 }
-case 9:
-                var5 = function(arg1) {
+                var _closure3_slot0 = var13;
+                var12 = _closure1_slot6;
+                var9 = _closure1_slot5;
+                var10 = undefined;
+                var11 = var9.bind(var10)(var3);
+                var9 = 'fromServer';
+                var9 = var12.bind(var10)(var11, var9, var13);
+                var _closure3_slot1 = var9;
+                var12 = 'function';
+                var11 = typeof var9;
+                if(!(var12 === var11)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+                var9 = function(arg1) {
                     var4 = _closure3_slot1;
                     var3 = var4.apply;
                     var2 = _closure3_slot0;
@@ -164,20 +209,28 @@ case 9:
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
-case 3:
-                var4 = new Array(1);
-                var4[0] = var2;
-                var11 = var5.bind(var6)(var4);
-                var12 = var1;
-                var4 = copyDataProperties(var12, var11);
-                var12 = var1;
-                var11 = var2;
-                var2 = copyDataProperties(var12, var11);
+case 17:
+                var8 = new Array(1);
+                var8[0] = var2;
+                var15 = var9.bind(var10)(var8);
+                var16 = var1;
+                var8 = copyDataProperties(var16, var15);
+                var16 = var1;
+                var15 = var2;
+                var2 = copyDataProperties(var16, var15);
+                var2 = 'innerWidth';
+                var1[1] = var7;
+                var2 = 'overflowTop';
+                var1[1] = var6;
+                var2 = 'overflowBottom';
+                var1[1] = var5;
+                var2 = 'overflowHorizontal';
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var13 = var2;
-                var12 = var1;
-                var1 = new var13[var3](var12, var11);
+                var17 = var2;
+                var16 = var1;
+                var1 = new var17[var3](var16, var15);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             }

@@ -1,0 +1,83 @@
+// app/utils/native/IAPUtils.mock.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var4 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var2 = global;
+    var8 = var2.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var2 = true;
+    var6['value'] = var2;
+    var2 = '__esModule';
+    var2 = var7.bind(var8)(var3, var2, var6);
+    var2 = {};
+    var6 = function loadProducts() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var1 = 0;
+        var4 = var4[var1];
+        var1 = undefined;
+        var1 = var5.bind(var1)(var4);
+        var1 = var1.copiedIAPProducts;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['loadProducts'] = var6;
+    var6 = function purchaseProduct() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.reject;
+        var5 = var1.Error;
+        var1 = var5.prototype;
+        var4 = Object.create(var1, {constructor: {value: var5}});
+        var6 = 'IAPUtils is mocked — purchases cannot be completed in this build.';
+        var7 = var4;
+        var1 = new var7[var5](var6, var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['purchaseProduct'] = var6;
+    var6 = function canMakePayments() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var1 = true;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['canMakePayments'] = var6;
+    var6 = function restorePurchases() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var1 = new Array(0);
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['restorePurchases'] = var6;
+    var1 = function fetchStoreFront() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var1 = {'country': 'US', 'currency': 'usd'};
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['fetchStoreFront'] = var1;
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/native/IAPUtils.mock.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
+})();

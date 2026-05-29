@@ -772,8 +772,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ACTIVITY_PRIVACY_RELATED_SETTINGS'] = var1;
     var1 = 'activity_privacy_to_profile_privacy_navigator';
     var2['ACTIVITY_PRIVACY_TO_PROFILE_PRIVACY_NAVIGATOR'] = var1;
+    var1 = 'activity_sharing_related_settings';
+    var2['ACTIVITY_SHARING_RELATED_SETTINGS'] = var1;
+    var1 = 'activity_privacy_to_registered_games_navigator';
+    var2['ACTIVITY_PRIVACY_TO_REGISTERED_GAMES_NAVIGATOR'] = var1;
     var1 = 'activity_sharing_game_joining_category';
     var2['ACTIVITY_PRIVACY_GAME_JOINING_CATEGORY'] = var1;
+    var1 = 'activity_privacy_game_joining_blurb';
+    var2['ACTIVITY_PRIVACY_GAME_JOINING_BLURB'] = var1;
     var1 = 'activity_sharing_terms_category';
     var2['ACTIVITY_PRIVACY_TERMS_CATEGORY'] = var1;
     var1 = 'activity_privacy_setting';
@@ -798,6 +804,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['REGISTERED_GAMES_ADD_GAME_SETTING'] = var1;
     var1 = 'registered_games_added_games_setting';
     var2['REGISTERED_GAMES_ADDED_GAMES_SETTING'] = var1;
+    var1 = 'registered_games_related_settings';
+    var2['REGISTERED_GAMES_RELATED_SETTINGS'] = var1;
+    var1 = 'registered_games_to_activity_privacy_navigator';
+    var2['REGISTERED_GAMES_TO_ACTIVITY_PRIVACY_NAVIGATOR'] = var1;
     var1 = 'overlay_sidebar_item';
     var2['OVERLAY_SIDEBAR_ITEM'] = var1;
     var1 = 'overlay_panel';

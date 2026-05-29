@@ -586,8 +586,7 @@ case 29:
     var12[0] = var13;
     var10['transform'] = var12;
     var4['canvas'] = var10;
-    var10 = {};
-    var10['position'] = var11;
+    var10 = {'position': 'absolute', 'borderRadius': 16, 'overflow': 'hidden'};
     var4['buttonWrapper'] = var10;
     var10 = {};
     var10['position'] = var11;

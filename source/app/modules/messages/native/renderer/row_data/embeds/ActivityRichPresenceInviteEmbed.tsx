@@ -1343,7 +1343,7 @@ case 177:
             var5 = var2[var10];
             var2 = undefined;
             var9 = var7.bind(var2)(var5);
-            var8 = var9.getGameInviteVisibility;
+            var8 = var9.getApplicationEmbedVisibility;
             var5 = var4.application;
             var12 = var6 == var5;
             var7 = undefined;
@@ -1362,7 +1362,7 @@ case 179:
             var5 = _closure1_slot2;
             var5 = var5[var10];
             var5 = var7.bind(var2)(var5);
-            var5 = var5.GameInviteVisibility;
+            var5 = var5.ApplicationEmbedVisibility;
             var5 = var5.DISPLAY;
             if(!(var5 !== var8)) { _fun0004_ip = 180; continue _fun0004 }
 case 13:
@@ -1370,7 +1370,7 @@ case 13:
             var5 = _closure1_slot2;
             var5 = var5[var10];
             var5 = var7.bind(var2)(var5);
-            var5 = var5.GameInviteVisibility;
+            var5 = var5.ApplicationEmbedVisibility;
             var5 = var5.BLOCK_UNDERAGE;
             if(!(var5 !== var8)) { _fun0004_ip = 181; continue _fun0004 }
 case 182:
@@ -1378,7 +1378,7 @@ case 182:
             var5 = _closure1_slot2;
             var5 = var5[var10];
             var5 = var7.bind(var2)(var5);
-            var5 = var5.GameInviteVisibility;
+            var5 = var5.ApplicationEmbedVisibility;
             var5 = var5.BLOCK_CHANNEL_RESTRICTION;
             if(!(var5 !== var8)) { _fun0004_ip = 181; continue _fun0004 }
 case 183:
@@ -1403,7 +1403,7 @@ case 181:
             var5['headerText'] = var11;
             var7 = var7[var10];
             var7 = var9.bind(var2)(var7);
-            var7 = var7.GameInviteVisibility;
+            var7 = var7.ApplicationEmbedVisibility;
             var7 = var7.BLOCK_UNDERAGE;
             if(!(var8 !== var7)) { _fun0004_ip = 184; continue _fun0004 }
 case 185:

@@ -451,16 +451,16 @@ case 21:
                     var9 = var2 == var7;
                     var7 = undefined;
                     if(var9) { _fun0002_ip = 23; continue _fun0002 }
-case 3:
+case 24:
                     var8 = _closure2_slot1;
                     var7 = var8.id;
 case 23:
                     var8 = var2 != var7;
                     var2 = undefined;
-                    if(!var8) { _fun0002_ip = 24; continue _fun0002 }
+                    if(!var8) { _fun0002_ip = 2; continue _fun0002 }
 case 25:
                     var2 = var7;
-case 24:
+case 2:
                     var3['selectedItem'] = var2;
                     var2 = false;
                     var3['hasIcons'] = var2;

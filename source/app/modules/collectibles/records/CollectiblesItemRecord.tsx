@@ -407,6 +407,14 @@ case 61:
             var4['label'] = var6;
             var6 = var5.layers;
             var4['layers'] = var6;
+            var6 = var5.innerWidth;
+            var4['innerWidth'] = var6;
+            var6 = var5.overflowTop;
+            var4['overflowTop'] = var6;
+            var6 = var5.overflowBottom;
+            var4['overflowBottom'] = var6;
+            var6 = var5.overflowHorizontal;
+            var4['overflowHorizontal'] = var6;
             var6 = var7.prototype;
             var6 = Object.create(var6, {constructor: {value: var7}});
             var12 = var6;

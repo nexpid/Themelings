@@ -445,11 +445,12 @@ case 39:
                     var3 = _closure1_slot2;
                     var1 = 18;
                     var1 = var3[var1];
-                    var3 = undefined;
-                    var2 = var2.bind(var3)(var1);
+                    var4 = undefined;
+                    var3 = var2.bind(var4)(var1);
+                    var2 = _closure2_slot1;
                     var1 = _closure2_slot3;
                     var1 = var1.width;
-                    var1 = var2.bind(var3)(var1);
+                    var1 = var3.bind(var4)(var2, var1);
                     var8 = var1.overflowTop;
                     var4 = var1.overflowBottom;
                     var2 = var1.overflowHorizontal;

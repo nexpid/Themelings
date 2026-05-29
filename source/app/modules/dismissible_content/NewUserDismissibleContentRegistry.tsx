@@ -178,6 +178,11 @@ case 2:
     var11 = var7[var9];
     var11 = var6.bind(var1)(var11);
     var11 = var11.DismissibleContent;
+    var11 = var11.PROFILE_FRAMES_NITRO_TAB_NEW_BADGE;
+    var5[10] = var10;
+    var11 = var7[var9];
+    var11 = var6.bind(var1)(var11);
+    var11 = var11.DismissibleContent;
     var11 = var11.BOGO_2025_ANNOUNCEMENT_MODAL;
     var5[10] = var10;
     var9 = var7[var9];

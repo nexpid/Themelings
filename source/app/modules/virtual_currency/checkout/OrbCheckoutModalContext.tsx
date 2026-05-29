@@ -66,18 +66,19 @@ case 0:
             var _closure2_slot1 = var6;
             var10 = var2.onCheckoutSuccess;
             var _closure2_slot2 = var10;
-            var11 = var2.order;
+            var11 = var2.onSignFailure;
+            var12 = var2.order;
             var9 = undefined;
             var _closure2_slot6 = var9;
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 5;
             var2 = var8[var3];
-            var14 = var5.bind(var9)(var2);
-            var13 = var14.useStateFromStores;
+            var15 = var5.bind(var9)(var2);
+            var14 = var15.useStateFromStores;
             var2 = _closure1_slot6;
-            var12 = new Array(1);
-            var12[0] = var2;
+            var13 = new Array(1);
+            var13[0] = var2;
             var2 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -92,16 +93,16 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var2 = var13.bind(var14)(var12, var2);
+            var2 = var14.bind(var15)(var13, var2);
             var _closure2_slot3 = var2;
             var3 = var8[var3];
-            var15 = var5.bind(var9)(var3);
-            var14 = var15.useStateFromStores;
+            var16 = var5.bind(var9)(var3);
+            var15 = var16.useStateFromStores;
             var3 = _closure1_slot7;
+            var14 = new Array(1);
+            var14[0] = var3;
             var13 = new Array(1);
-            var13[0] = var3;
-            var12 = new Array(1);
-            var12[0] = var7;
+            var13[0] = var7;
             var3 = function() {
                 var3 = _closure1_slot7;
                 var2 = var3.get;
@@ -109,15 +110,15 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var14 = var14.bind(var15)(var13, var3, var12);
+            var15 = var15.bind(var16)(var14, var3, var13);
             var3 = 7;
             var3 = var8[var3];
-            var13 = var5.bind(var9)(var3);
-            var12 = var13.useSKUOrbPrice;
+            var14 = var5.bind(var9)(var3);
+            var13 = var14.useSKUOrbPrice;
             var3 = {};
-            var3['sku'] = var14;
-            var12 = var12.bind(var13)(var3);
-            var _closure2_slot4 = var12;
+            var3['sku'] = var15;
+            var13 = var13.bind(var14)(var3);
+            var _closure2_slot4 = var13;
             var3 = 8;
             var3 = var8[var3];
             var5 = var5.bind(var9)(var3);
@@ -127,7 +128,7 @@ case 0:
             var _closure2_slot5 = var8;
             var5 = _closure1_slot5;
             var3 = new Array(3);
-            var3[0] = var12;
+            var3[0] = var13;
             var3[1] = var8;
             var3[2] = var2;
             var2 = function() {
@@ -185,14 +186,14 @@ case 11:
             var8 = _closure1_slot2;
             var2 = 10;
             var2 = var8[var2];
-            var12 = var3.bind(var9)(var2);
-            var8 = var12.captureBillingMessage;
+            var13 = var3.bind(var9)(var2);
+            var8 = var13.captureBillingMessage;
             var3 = {};
             var2 = {};
             var2['sku_id'] = var7;
             var3['tags'] = var2;
             var2 = 'Orb price not found for product';
-            var2 = var8.bind(var12)(var2, var3);
+            var2 = var8.bind(var13)(var2, var3);
 case 10:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -203,7 +204,8 @@ case 10:
             var2 = {};
             var2['skuId'] = var7;
             var2['loadId'] = var6;
-            var2['order'] = var11;
+            var2['order'] = var12;
+            var2['onSignFailure'] = var11;
             var2 = var3.bind(var8)(var2);
             var11 = var2.redeemVirtualCurrency;
             _closure2_slot6 = var11;

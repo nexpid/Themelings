@@ -14,6 +14,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PERMISSIONS'] = var1;
     var1 = 'Guidelines';
     var4['GUIDELINES'] = var1;
+    var1 = 'Recommended Tags';
+    var4['RECOMMENDED_TAGS'] = var1;
     var1 = 'Tags';
     var4['TAGS'] = var1;
     var1 = 'Default Reaction';

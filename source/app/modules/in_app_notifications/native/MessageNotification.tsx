@@ -614,8 +614,8 @@ case 0:
                 var3 = var3 - var1;
                 var1 = 1;
                 var4 = 0;
-                if(!(!(var3 <= var4))) { _fun0010_ip = 33; continue _fun0010 }
-case 19:
+                if(!(!(var3 <= var4))) { _fun0010_ip = 4; continue _fun0010 }
+case 33:
                 var5 = _closure2_slot4;
                 var4 = var5.get;
                 var4 = var4.bind(var5)();
@@ -624,7 +624,7 @@ case 19:
                 var2 = var2.bind(var5)();
                 var2 = var4 - var2;
                 var1 = var2 / var3;
-case 33:
+case 4:
                 return var1;
             }
         };

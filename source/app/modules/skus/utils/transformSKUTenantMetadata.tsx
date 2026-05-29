@@ -140,6 +140,14 @@ case 16:
             var2['label'] = var7;
             var7 = var3.layers;
             var2['layers'] = var7;
+            var7 = var3.inner_width;
+            var2['innerWidth'] = var7;
+            var7 = var3.overflow_top;
+            var2['overflowTop'] = var7;
+            var7 = var3.overflow_bottom;
+            var2['overflowBottom'] = var7;
+            var7 = var3.overflow_horizontal;
+            var2['overflowHorizontal'] = var7;
             var1 = var2;
 case 15:
             _fun0003_ip = 17; continue _fun0003;
@@ -328,8 +336,8 @@ case 2:
             var4 = var2.expires_at;
             var6 = var6 != var4;
             var4 = undefined;
-            if(!var6) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+            if(!var6) { _fun0006_ip = 14; continue _fun0006 }
+case 24:
             var6 = global;
             var8 = var6.Date;
             var7 = var2.expires_at;
@@ -340,7 +348,7 @@ case 25:
             var10 = var7;
             var6 = new var10[var8](var9, var8);
             var4 = var6 instanceof Object ? var6 : var7;
-case 24:
+case 14:
             var1['expiresAt'] = var4;
             var4 = _closure1_slot5;
             var3 = var2.variant;

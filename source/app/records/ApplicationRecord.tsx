@@ -284,7 +284,7 @@ case 30:
                 var5 = 'ApplicationRecord';
                 var1['location'] = var5;
                 var3 = var3.bind(var4)(var1);
-                var1 = 'https://aes.sgp.pvp.net/providers/discord/link/v1';
+                var1 = 'https://aes.sgp.pvp.net/providers/discord/link/v1?origin=Discord';
                 if(var3) { _fun0005_ip = 32; continue _fun0005 }
 case 28:
                 var1 = var2._connectionEntrypointUrl;

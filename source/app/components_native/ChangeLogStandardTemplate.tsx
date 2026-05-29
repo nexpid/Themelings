@@ -82,6 +82,8 @@ case 9:
         var5 = var7.bind(var4)(var5);
         var7 = var5.LegacyText;
         var5 = {};
+        var12 = 'header';
+        var5['accessibilityRole'] = var12;
         var13 = var9.lheadingText;
         var12 = true;
         var12 = var11.bind(var4)(var13, var12);

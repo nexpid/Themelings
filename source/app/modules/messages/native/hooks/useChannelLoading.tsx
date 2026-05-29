@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var1)(var2);
             var1 = var3.prototype;
             var2 = Object.create(var1, {constructor: {value: var3}});
-            var4 = 'MessagesClassToFunctional';
+            var4 = 'Messages';
             var5 = var2;
             var1 = new var5[var3](var4, var3);
             var1 = var1 instanceof Object ? var1 : var2;

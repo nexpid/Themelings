@@ -1139,6 +1139,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SLAYER_STOREFRONT_SHOP_TAB'] = var1;
     var1 = 'slayer storefront vc gifting panel';
     var2['SLAYER_STOREFRONT_VC_GIFTING_PANEL'] = var1;
+    var1 = 'slayer storefront native gift modal';
+    var2['SLAYER_STOREFRONT_NATIVE_GIFT_MODAL'] = var1;
+    var1 = 'slayer storefront native pdp';
+    var2['SLAYER_STOREFRONT_NATIVE_PDP'] = var1;
     var1 = 'age group';
     var2['AGE_GROUP'] = var1;
     var1 = 'mobile account link large banner';

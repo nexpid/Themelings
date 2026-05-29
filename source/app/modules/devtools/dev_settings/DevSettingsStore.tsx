@@ -179,6 +179,12 @@ case 4:
     var11['category'] = var12;
     var2['premium_roadblocks'] = var11;
     var11 = {};
+    var12 = '[iOS] Force mock IAP products';
+    var11['label'] = var12;
+    var12 = var5.PREMIUM;
+    var11['category'] = var12;
+    var2['force_mock_iap'] = var11;
+    var11 = {};
     var12 = 'Enable staff only test iar menu options';
     var11['label'] = var12;
     var12 = var5.REPORTING;

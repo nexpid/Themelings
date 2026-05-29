@@ -618,13 +618,13 @@ case 0:
                 var1 = var6.budgetPortion;
                 var7 = var3 * var1;
                 var1 = var4.isMuted;
-                if(var1) { _fun0008_ip = 5; continue _fun0008 }
-case 33:
+                if(var1) { _fun0008_ip = 48; continue _fun0008 }
+case 19:
                 var8 = var6.framerate;
-                _fun0008_ip = 34; continue _fun0008;
-case 5:
+                _fun0008_ip = 80; continue _fun0008;
+case 48:
                 var8 = var6.mutedFramerate;
-case 34:
+case 80:
                 var3 = _closure1_slot8;
                 var1 = {};
                 var5 = {};
@@ -681,13 +681,13 @@ case 34:
 case 0:
                 var3 = arg2;
                 var1 = 0;
-                if(!(var1 !== var3)) { _fun0009_ip = 80; continue _fun0009 }
-case 81:
+                if(!(var1 !== var3)) { _fun0009_ip = 81; continue _fun0009 }
+case 82:
                 var4 = arg1;
                 var2 = arg3;
                 var2 = var4 * var2;
                 var1 = var2 / var3;
-case 80:
+case 81:
                 return var1;
             }
         };
@@ -711,15 +711,15 @@ case 0:
 case 23:
                 var2 = var4.pixelCount;
 case 3:
-                if(!(var3 !== var2)) { _fun0010_ip = 82; continue _fun0010 }
-case 83:
+                if(!(var3 !== var2)) { _fun0010_ip = 83; continue _fun0010 }
+case 84:
                 var2 = var1.goliveMaxQuality;
                 var2 = var2.encode;
                 var2 = var2.pixelCount;
-                if(!(!(var10 >= var2))) { _fun0010_ip = 82; continue _fun0010 }
+                if(!(!(var10 >= var2))) { _fun0010_ip = 83; continue _fun0010 }
 case 28:
                 var2 = 0;
-                if(!(!(var10 <= var2))) { _fun0010_ip = 82; continue _fun0010 }
+                if(!(!(var10 <= var2))) { _fun0010_ip = 83; continue _fun0010 }
 case 31:
                 var5 = global;
                 var9 = var5.Math;
@@ -754,8 +754,8 @@ case 31:
                 var4 = var4.bitrateTarget;
                 var4 = var6 != var4;
                 var9 = undefined;
-                if(!var4) { _fun0010_ip = 84; continue _fun0010 }
-case 85:
+                if(!var4) { _fun0010_ip = 85; continue _fun0010 }
+case 86:
                 var8 = var1.scaleLinearly;
                 var4 = var1.goliveMaxQuality;
                 var4 = var4.encode;
@@ -763,7 +763,7 @@ case 85:
                 var4 = var1.goliveMaxQuality;
                 var4 = var4.bitrateTarget;
                 var9 = var8.bind(var1)(var10, var7, var4);
-case 84:
+case 85:
                 var4 = _closure1_slot8;
                 var2 = {};
                 var7 = var1.goliveMaxQuality;
@@ -790,8 +790,8 @@ case 84:
                 var2['bitrateMax'] = var7;
                 var6 = var6 != var9;
                 var3 = undefined;
-                if(!var6) { _fun0010_ip = 86; continue _fun0010 }
-case 87:
+                if(!var6) { _fun0010_ip = 87; continue _fun0010 }
+case 88:
                 var8 = var5.Math;
                 var7 = var8.max;
                 var6 = var5.Math;
@@ -800,7 +800,7 @@ case 87:
                 var5 = var1.options;
                 var5 = var5.videoBitrateFloor;
                 var3 = var7.bind(var8)(var6, var5);
-case 86:
+case 87:
                 var2['bitrateTarget'] = var3;
                 var3 = arg1;
                 var2['localWant'] = var3;
@@ -811,7 +811,7 @@ case 86:
                 var2 = new var18[var4](var17, var16);
                 var2 = var2 instanceof Object ? var2 : var3;
                 return var2;
-case 82:
+case 83:
                 var1 = var1.goliveMaxQuality;
                 return var1;
             }

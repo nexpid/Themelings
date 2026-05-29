@@ -1092,7 +1092,7 @@ case 79:
                 var5['style'] = var8;
                 var8 = 'auto';
                 if(!var10) { _fun0019_ip = 81; continue _fun0019 }
-case 82:
+case 23:
                 var8 = 'none';
 case 81:
                 var5['pointerEvents'] = var8;
@@ -1125,11 +1125,11 @@ case 81:
                 var13 = var13.bind(var4)(var10);
                 var10 = var13.isAndroid;
                 var10 = var10.bind(var13)();
-                if(!var10) { _fun0019_ip = 83; continue _fun0019 }
-case 84:
+                if(!var10) { _fun0019_ip = 82; continue _fun0019 }
+case 83:
                 var13 = var11.renderBorder;
                 var10 = var13.bind(var11)();
-case 83:
+case 82:
                 var8[2] = var10;
                 var10 = var11.renderBottomContainer;
                 var10 = var10.bind(var11)();
@@ -1141,11 +1141,11 @@ case 83:
                 var9 = var10.isAndroid;
                 var9 = var9.bind(var10)();
                 var9 = !var9;
-                if(!var9) { _fun0019_ip = 85; continue _fun0019 }
-case 30:
+                if(!var9) { _fun0019_ip = 84; continue _fun0019 }
+case 85:
                 var10 = var11.renderBorder;
                 var9 = var10.bind(var11)();
-case 85:
+case 84:
                 var8[4] = var9;
                 var5['children'] = var8;
                 var5 = var7.bind(var4)(var6, var5);

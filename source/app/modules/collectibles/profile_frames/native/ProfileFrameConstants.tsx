@@ -32,14 +32,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/profile_frames/native/ProfileFrameConstants.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = 304;
-    var3['PROFILE_FRAME_OVERFLOW_TOP'] = var4;
-    var4 = 212;
-    var3['PROFILE_FRAME_OVERFLOW_BOTTOM'] = var4;
-    var4 = 56;
-    var3['PROFILE_FRAME_OVERFLOW_HORIZONTAL'] = var4;
-    var4 = 1200;
-    var3['PROFILE_FRAME_CONTAINER_WIDTH'] = var4;
     var4 = 480;
     var3['PROFILE_FRAME_RESPONSIVE_RAIL_MIN_PROFILE_HEIGHT'] = var4;
     var4 = 0.66;

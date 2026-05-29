@@ -1,4 +1,4 @@
-// app/modules/activities/utils/getGameInviteVisibility.tsx
+// app/modules/applications/utils/getApplicationEmbedVisibility.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -26,10 +26,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/activities/utils/getGameInviteVisibility.tsx';
+    var5 = 'modules/applications/utils/getApplicationEmbedVisibility.tsx';
     var5 = var6.bind(var7)(var5);
-    var3['GameInviteVisibility'] = var4;
-    var2 = function getGameInviteVisibility(arg1, arg2, arg3) {
+    var3['ApplicationEmbedVisibility'] = var4;
+    var2 = function getApplicationEmbedVisibility(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var9 = arg1;
@@ -90,6 +90,6 @@ case 12:
             return var1;
         }
     };
-    var3['getGameInviteVisibility'] = var2;
+    var3['getApplicationEmbedVisibility'] = var2;
     return var1;
 })();

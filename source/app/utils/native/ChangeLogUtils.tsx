@@ -322,8 +322,8 @@ case 11:
     var11 = 4;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.unsafe_rawColors;
-    var11 = var11.BLUE_345;
+    var11 = var11.colors;
+    var11 = var11.TEXT_LINK;
     var10['color'] = var11;
     var2['link'] = var10;
     var10 = {};

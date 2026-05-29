@@ -65,6 +65,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 'voice_clip';
     var4['VOICE_CLIP'] = var1;
     var2 = {};
+    var1 = 'unclassified';
+    var2['UNCLASSIFIED'] = var1;
     var1 = 'kill';
     var2['KILL'] = var1;
     var1 = 'multikill';

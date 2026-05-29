@@ -2234,6 +2234,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['INVITE_NONFRIENDS_TO_GDM_COACHMARK'] = var2;
     var1 = 'INVITE_NONFRIENDS_TO_GDM_COACHMARK';
     var4[var2] = var1;
+    var2 = 760;
+    var4['PROFILE_FRAMES_NITRO_TAB_NEW_BADGE'] = var2;
+    var1 = 'PROFILE_FRAMES_NITRO_TAB_NEW_BADGE';
+    var4[var2] = var1;
+    var2 = 761;
+    var4['APP_WIDGET_V2_PROFILE_UPSELL_COACHMARK'] = var2;
+    var1 = 'APP_WIDGET_V2_PROFILE_UPSELL_COACHMARK';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

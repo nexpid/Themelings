@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['actionSheetButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 20;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -85,30 +85,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function QuestBottomSheetHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var5 = var1.quest;
-            var3 = var1.step;
-            var6 = var1.withActionSheet;
+            var2 = arg1;
+            var9 = var2.quest;
+            var8 = var2.step;
+            var6 = var2.withActionSheet;
             var4 = undefined;
             if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = false;
 case 2:
-            var1 = var1.location;
-            var2 = _closure1_slot9;
-            var10 = var2.bind(var4)();
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 16;
-            var2 = var8[var2];
-            var7 = var7.bind(var4)(var2);
-            var2 = var7.useActionSheetPressHandler;
-            var13 = var2.bind(var7)(var5);
-            var2 = {};
-            var2['quest'] = var5;
-            var2['step'] = var3;
-            var2['location'] = var1;
-            var1 = function useHeaderCopy(arg1) {
+            var2 = var2.location;
+            var _closure2_slot0 = var4;
+            var _closure2_slot1 = var4;
+            var3 = _closure1_slot9;
+            var10 = var3.bind(var4)();
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var7 = 16;
+            var7 = var5[var7];
+            var11 = var3.bind(var4)(var7);
+            var7 = var11.useActionSheetPressHandler;
+            var13 = var7.bind(var11)(var9);
+            var7 = {};
+            var7['quest'] = var9;
+            var7['step'] = var8;
+            var7['location'] = var2;
+            var2 = function useHeaderCopy(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = arg1;
@@ -447,53 +449,99 @@ case 6:
                     return var1;
                 }
             };
-            var11 = var1.bind(var4)(var2);
+            var11 = var2.bind(var4)(var7);
+            var2 = 17;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useIsScreenReaderEnabled;
+            var8 = var2.bind(var3)();
+            _closure2_slot0 = var8;
+            var7 = _closure1_slot4;
+            var2 = var7.useRef;
+            var5 = null;
+            var14 = var2.bind(var7)(var5);
+            _closure2_slot1 = var14;
+            var3 = var7.useEffect;
+            var2 = new Array(1);
+            var2[0] = var8;
+            var1 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var1 = _closure2_slot0;
+                    if(!var1) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+                    var2 = _closure2_slot1;
+                    var3 = var2.current;
+                    var2 = null;
+                    var1 = var2 != var3;
+case 29:
+                    if(!var1) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 18;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.setAccessibilityFocus;
+                    var1 = {};
+                    var4 = _closure2_slot1;
+                    var1['ref'] = var4;
+                    var4 = 100;
+                    var1['delay'] = var4;
+                    var1 = var2.bind(var3)(var1);
+case 31:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1 = var3.bind(var7)(var1, var2);
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
-            var7 = var10.container;
-            var5 = new Array(2);
-            var5[0] = var7;
-            var7 = var6;
-            if(!var6) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
-            var7 = var10.containerWithActionSheet;
-case 29:
-            var5[1] = var7;
-            var1['style'] = var5;
-            var5 = null;
+            var8 = var10.container;
+            var7 = new Array(2);
+            var7[0] = var8;
+            var8 = var6;
+            if(!var6) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
+            var8 = var10.containerWithActionSheet;
+case 33:
+            var7[1] = var8;
+            var1['style'] = var7;
             var7 = var5 != var11;
-            if(!var7) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+            if(!var7) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
             var9 = _closure1_slot7;
             var8 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var5 = 17;
-            var5 = var14[var5];
+            var15 = _closure1_slot2;
+            var5 = 19;
+            var5 = var15[var5];
             var5 = var8.bind(var4)(var5);
             var8 = var5.Text;
-            var5 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
+            var5 = {'ref': null, 'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
+            var5['ref'] = var14;
             var15 = var10.title;
             var14 = new Array(2);
             var14[0] = var15;
             var15 = var6;
-            if(!var6) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
+            if(!var6) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var15 = var10.titleWithActionSheet;
-case 33:
+case 37:
             var14[1] = var15;
             var5['style'] = var14;
             var5['children'] = var11;
             var7 = var9.bind(var4)(var8, var5);
-case 31:
+case 35:
             var5 = new Array(2);
             var5[0] = var7;
-            if(!var6) { _fun0001_ip = 35; continue _fun0001 }
-case 36:
+            if(!var6) { _fun0001_ip = 39; continue _fun0001 }
+case 40:
             var9 = _closure1_slot7;
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var7 = 18;
+            var7 = 20;
             var7 = var14[var7];
             var7 = var11.bind(var4)(var7);
             var8 = var7.PressableOpacity;
@@ -514,7 +562,7 @@ case 36:
             var7['onPress'] = var13;
             var10 = var10.actionSheetButton;
             var7['style'] = var10;
-            var10 = 19;
+            var10 = 21;
             var10 = var14[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.MoreHorizontalIcon;
@@ -529,7 +577,7 @@ case 36:
             var10 = var9.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 35:
+case 39:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

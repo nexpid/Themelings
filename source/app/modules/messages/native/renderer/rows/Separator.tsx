@@ -35,8 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['dayColor'] = var11;
     var11 = var6[var9];
     var11 = var10.bind(var1)(var11);
-    var11 = var11.unsafe_rawColors;
-    var11 = var11.RED_400;
+    var11 = var11.colors;
+    var11 = var11.BACKGROUND_FEEDBACK_NOTIFICATION;
     var4['unreadColor'] = var11;
     var9 = var6[var9];
     var9 = var10.bind(var1)(var9);

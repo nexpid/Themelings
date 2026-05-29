@@ -855,7 +855,7 @@ case 52:
 case 51:
                 var2 = var9 != var25;
                 var1 = null;
-                if(!var2) { _fun0010_ip = 54; continue _fun0010 }
+                if(!var2) { _fun0010_ip = 25; continue _fun0010 }
 case 34:
                 var6 = _closure1_slot13;
                 var3 = _closure1_slot9;
@@ -890,8 +890,8 @@ case 34:
                 var7 = new Array(2);
                 var7[0] = var8;
                 var8 = null;
-                if(var11) { _fun0010_ip = 55; continue _fun0010 }
-case 56:
+                if(var11) { _fun0010_ip = 54; continue _fun0010 }
+case 55:
                 var20 = _closure1_slot12;
                 var12 = _closure1_slot1;
                 var21 = _closure1_slot2;
@@ -911,11 +911,11 @@ case 56:
                 var21['uri'] = var22;
                 var11['source'] = var21;
                 var8 = var20.bind(var4)(var12, var11);
-case 55:
+case 54:
                 var7[1] = var8;
                 var2['children'] = var7;
                 var1 = var6.bind(var4)(var3, var2);
-case 54:
+case 25:
                 return var1;
 case 49:
                 var1 = {};
@@ -978,8 +978,8 @@ case 53:
                 var8[0] = var11;
                 var10 = var9 != var10;
                 var9 = null;
-                if(!var10) { _fun0010_ip = 57; continue _fun0010 }
-case 58:
+                if(!var10) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
                 var12 = _closure1_slot12;
                 var18 = _closure1_slot0;
                 var19 = _closure1_slot2;
@@ -1017,7 +1017,7 @@ case 58:
                 var13 = var15.bind(var4)(var14, var13);
                 var10['children'] = var13;
                 var9 = var12.bind(var4)(var11, var10);
-case 57:
+case 56:
                 var8[1] = var9;
                 var5['children'] = var8;
                 var5 = var7.bind(var4)(var6, var5);

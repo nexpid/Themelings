@@ -289,6 +289,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['WINDOW_IS_ALWAYS_ON_TOP'] = var1;
     var1 = 'DISCORD_WINDOW_SET_ALWAYS_ON_TOP';
     var2['WINDOW_SET_ALWAYS_ON_TOP'] = var1;
+    var1 = 'DISCORD_WINDOW_OPEN_DOCUMENT_PIP';
+    var2['WINDOW_OPEN_DOCUMENT_PIP'] = var1;
     var1 = 'DISCORD_WINDOW_DEVTOOLS_OPENED';
     var2['WINDOW_DEVTOOLS_OPENED'] = var1;
     var1 = 'DISCORD_WINDOW_DEVTOOLS_CLOSED';

@@ -474,33 +474,33 @@ case 0:
                 var3 = arg1;
                 var2 = _closure2_slot2;
                 var2 = var2.isBlocking;
-                if(var2) { _fun0007_ip = 49; continue _fun0007 }
+                if(var2) { _fun0007_ip = 48; continue _fun0007 }
 case 61:
                 var2 = var3.isLoadingAtTop;
                 if(!var2) { _fun0007_ip = 62; continue _fun0007 }
-case 55:
+case 63:
                 var2 = _closure2_slot22;
                 var2 = var2.current;
-                if(var2) { _fun0007_ip = 8; continue _fun0007 }
-case 63:
+                if(var2) { _fun0007_ip = 64; continue _fun0007 }
+case 65:
                 var2 = _closure2_slot23;
                 var2 = var2.current;
-                if(var2) { _fun0007_ip = 8; continue _fun0007 }
+                if(var2) { _fun0007_ip = 64; continue _fun0007 }
 case 62:
                 var4 = _closure2_slot8;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
-                _fun0007_ip = 64; continue _fun0007;
-case 8:
+                _fun0007_ip = 51; continue _fun0007;
+case 64:
                 var4 = _closure2_slot2;
                 var2 = var4.add;
                 var2 = var2.bind(var4)(var3);
-                _fun0007_ip = 64; continue _fun0007;
-case 49:
+                _fun0007_ip = 51; continue _fun0007;
+case 48:
                 var2 = _closure2_slot2;
                 var1 = var2.add;
                 var1 = var1.bind(var2)(var3);
-case 64:
+case 51:
                 var1 = undefined;
                 return var1;
             }
@@ -536,8 +536,8 @@ case 0:
                 var4 = _closure2_slot0;
                 var4 = var4.current;
                 var6 = var5.bind(var6)(var4);
-                if(!(var7 === var6)) { _fun0008_ip = 65; continue _fun0008 }
-case 66:
+                if(!(var7 === var6)) { _fun0008_ip = 66; continue _fun0008 }
+case 67:
                 var5 = _closure2_slot7;
                 var4 = {};
                 var4['firstVisibleMessageRowIndex'] = var11;
@@ -557,10 +557,10 @@ case 66:
                 var4 = var4.current;
                 var5 = null;
                 var18 = var8;
-                if(!(var5 != var4)) { _fun0008_ip = 67; continue _fun0008 }
-case 68:
+                if(!(var5 != var4)) { _fun0008_ip = 68; continue _fun0008 }
+case 69:
                 var18 = var4;
-case 67:
+case 68:
                 var4 = _closure2_slot17;
                 var4['current'] = var1;
                 var5 = _closure2_slot27;
@@ -584,15 +584,15 @@ case 67:
                 var4['lastVisibleMessageRowIndex'] = var10;
                 var4 = var5.bind(var9)(var4);
                 return var1;
-case 65:
+case 66:
                 var1 = _closure2_slot17;
                 var4 = var1.current;
                 var1 = null;
-                if(!(var1 == var4)) { _fun0008_ip = 69; continue _fun0008 }
+                if(!(var1 == var4)) { _fun0008_ip = 39; continue _fun0008 }
 case 70:
                 var1 = _closure2_slot17;
                 var1['current'] = var8;
-case 69:
+case 39:
                 var1 = _closure2_slot15;
                 if(!var1) { _fun0008_ip = 71; continue _fun0008 }
 case 72:

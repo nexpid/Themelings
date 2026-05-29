@@ -79,7 +79,7 @@ case 0:
             var3 = 5;
             var3 = var11[var3];
             var3 = var5.bind(var6)(var3);
-            var3 = var3.SLAYER_STOREFRONT_VC_GIFTING_PANEL;
+            var3 = var3.SLAYER_STOREFRONT_NATIVE_GIFT_MODAL;
             var1[3] = var3;
             var3 = 1;
             var3 = var4 + var3;

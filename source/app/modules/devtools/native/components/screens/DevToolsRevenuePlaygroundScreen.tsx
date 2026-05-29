@@ -304,83 +304,127 @@ case 14:
         }
     };
     var _closure1_slot14 = var1;
-    var1 = function openTrialOfferActionSheet(arg1) {
-        var5 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 16;
-        var4 = var2[var1];
-        var1 = undefined;
-        var6 = var5.bind(var1)(var4);
-        var5 = var6.openLazy;
-        var4 = _closure1_slot0;
-        var3 = 18;
-        var3 = var2[var3];
-        var4 = var4.bind(var1)(var3);
-        var3 = 17;
-        var3 = var2[var3];
-        var2 = var2.paths;
-        var4 = var4.bind(var1)(var3, var2);
-        var3 = {};
-        var2 = arg1;
-        var3['fallbackPremiumType'] = var2;
-        var2 = 'PremiumTrialOfferActionSheet';
-        var2 = var5.bind(var6)(var4, var2, var3);
-        return var1;
+    var1 = function TrialOfferSheetExample() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 16;
+            var1 = var5[var1];
+            var4 = undefined;
+            var2 = var7.bind(var4)(var1);
+            var1 = var2.usePremiumTrialOffer;
+            var2 = var1.bind(var2)();
+            var _closure2_slot0 = var2;
+            var1 = null;
+            var12 = var1 != var2;
+            var1 = function openTrialOfferActionSheet(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var3 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
+                    var5 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var4 = 17;
+                    var4 = var2[var4];
+                    var7 = undefined;
+                    var5 = var5.bind(var7)(var4);
+                    var4 = var5.openLazy;
+                    var6 = _closure1_slot0;
+                    var3 = 19;
+                    var3 = var2[var3];
+                    var6 = var6.bind(var7)(var3);
+                    var3 = 18;
+                    var3 = var2[var3];
+                    var2 = var2.paths;
+                    var3 = var6.bind(var7)(var3, var2);
+                    var2 = {};
+                    var6 = arg1;
+                    var2['fallbackPremiumType'] = var6;
+                    var1 = _closure2_slot0;
+                    var2['userTrialOffer'] = var1;
+                    var1 = function markAsDismissed() {
+                        var1 = undefined;
+                        return var1;
+                    };
+                    var2['markAsDismissed'] = var1;
+                    var1 = 'PremiumTrialOfferActionSheet';
+                    var1 = var4.bind(var5)(var3, var1, var2);
+case 16:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var _closure2_slot1 = var1;
+            var3 = _closure1_slot11;
+            var1 = 10;
+            var1 = var5[var1];
+            var1 = var7.bind(var4)(var1);
+            var2 = var1.TableRowGroup;
+            var1 = {'title': 'Trial Offers', 'hasIcons': false};
+            var8 = _closure1_slot10;
+            var13 = 11;
+            var5 = var5[var13];
+            var5 = var7.bind(var4)(var5);
+            var7 = var5.TableRow;
+            var5 = {};
+            var10 = 'Trial Offer Nitro Basic';
+            var5['label'] = var10;
+            var11 = 'No trial offer in store';
+            var10 = var11;
+            if(!var12) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
+            var10 = undefined;
+case 18:
+            var5['subLabel'] = var10;
+            var10 = !var12;
+            var5['disabled'] = var10;
+            var14 = function onPress() {
+                var3 = _closure2_slot1;
+                var1 = _closure1_slot9;
+                var2 = var1.TIER_0;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var5['onPress'] = var14;
+            var7 = var8.bind(var4)(var7, var5);
+            var5 = new Array(2);
+            var5[0] = var7;
+            var8 = _closure1_slot10;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var13];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.TableRow;
+            var6 = {};
+            var13 = 'Trial Offer Nitro';
+            var6['label'] = var13;
+            if(!var12) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+            var11 = undefined;
+case 20:
+            var6['subLabel'] = var11;
+            var6['disabled'] = var10;
+            var9 = function onPress() {
+                var3 = _closure2_slot1;
+                var1 = _closure1_slot9;
+                var2 = var1.TIER_2;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var6['onPress'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var _closure1_slot15 = var1;
-    var1 = function TrialOfferSheetExample() {
-        var4 = _closure1_slot11;
-        var7 = _closure1_slot0;
-        var10 = _closure1_slot2;
-        var1 = 10;
-        var1 = var10[var1];
-        var3 = undefined;
-        var1 = var7.bind(var3)(var1);
-        var2 = var1.TableRowGroup;
-        var1 = {'title': 'Trial Offers', 'hasIcons': false};
-        var12 = _closure1_slot10;
-        var6 = 11;
-        var5 = var10[var6];
-        var5 = var7.bind(var3)(var5);
-        var11 = var5.TableRow;
-        var5 = {};
-        var13 = 'Trial Offer Nitro Basic';
-        var5['label'] = var13;
-        var13 = function onPress() {
-            var3 = _closure1_slot15;
-            var1 = _closure1_slot9;
-            var2 = var1.TIER_0;
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            return var1;
-        };
-        var5['onPress'] = var13;
-        var11 = var12.bind(var3)(var11, var5);
-        var5 = new Array(2);
-        var5[0] = var11;
-        var8 = _closure1_slot10;
-        var6 = var10[var6];
-        var6 = var7.bind(var3)(var6);
-        var7 = var6.TableRow;
-        var6 = {};
-        var10 = 'Trial Offer Nitro';
-        var6['label'] = var10;
-        var9 = function onPress() {
-            var3 = _closure1_slot15;
-            var1 = _closure1_slot9;
-            var2 = var1.TIER_2;
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            return var1;
-        };
-        var6['onPress'] = var9;
-        var6 = var8.bind(var3)(var7, var6);
-        var5[1] = var6;
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot16 = var1;
     var1 = function PremiumToggles() {
         var2 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -400,6 +444,31 @@ case 14:
             var2 = var3.allByCategory;
             var1 = _closure1_slot8;
             var1 = var1.PREMIUM;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.filter;
+            var1 = function(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var2 = arg1;
+                    var1 = var2[Symbol.iterator];
+                    var2 = var1().next;
+                    var4 = var2().value;
+                    var3 = var1;
+                    var2 = undefined;
+                    var3 = var3 === var2;
+                    if(var3) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
+                    var2 = var4;
+case 22:
+                    if(var3) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
+                    var1.return();
+case 24:
+                    var1 = 'force_mock_iap';
+                    var1 = var1 !== var2;
+                    return var1;
+                }
+            };
             var1 = var2.bind(var3)(var1);
             return var1;
         };
@@ -415,7 +484,7 @@ case 14:
         var1 = {'title': 'Premium Toggles', 'hasIcons': false};
         var6 = var7.map;
         var5 = function(arg1) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var6 = arg1;
                 var2 = var6[Symbol.iterator];
@@ -427,49 +496,49 @@ case 0:
                 var12 = var2;
                 var12 = var12 === var8;
                 var3 = var12;
-                if(var12) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                if(var12) { _fun0007_ip = 26; continue _fun0007 }
+case 24:
                 var5 = var7;
-case 16:
+case 26:
                 var7 = var5;
                 var4 = var7;
                 var _closure3_slot0 = var7;
                 var5 = undefined;
                 var7 = var3;
-                if(var7) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                if(var7) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
                 var7 = var6().value;
                 var12 = var2;
                 var12 = var12 === var8;
                 var3 = var12;
-                if(var12) { _fun0004_ip = 18; continue _fun0004 }
-case 20:
+                if(var12) { _fun0007_ip = 27; continue _fun0007 }
+case 29:
                 var5 = var7;
-case 18:
+case 27:
                 var10 = var5;
                 var5 = undefined;
                 var7 = var3;
-                if(var7) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+                if(var7) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
                 var6 = var6().value;
                 var7 = var2;
                 var7 = var7 === var8;
                 var3 = var7;
-                if(var7) { _fun0004_ip = 21; continue _fun0004 }
-case 23:
+                if(var7) { _fun0007_ip = 30; continue _fun0007 }
+case 32:
                 var5 = var6;
-case 21: // try_start_0
+case 30: // try_start_0
                 var11 = var5.label;
 case 7: // try_end0
                 var5 = var3;
-                if(var5) { _fun0004_ip = 24; continue _fun0004 }
+                if(var5) { _fun0007_ip = 33; continue _fun0007 }
 case 6:
                 var2.return();
-case 24:
+case 33:
                 var7 = _closure1_slot10;
                 var6 = _closure1_slot0;
                 var12 = _closure1_slot2;
-                var5 = 19;
+                var5 = 20;
                 var5 = var12[var5];
                 var5 = var6.bind(var8)(var5);
                 var6 = var5.TableSwitchRow;
@@ -480,7 +549,7 @@ case 24:
                 var9 = function onValueChange(arg1) {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 21;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -493,20 +562,81 @@ case 24:
                 var5['onValueChange'] = var9;
                 var4 = var7.bind(var8)(var6, var5, var4);
                 return var4;
-case 25: // catch_target0
+case 34: // catch_target0
                 CatchBlockStart(arg_register=0);
-                _fun0004_ip = 26; continue _fun0004;
-case 27:
+                _fun0007_ip = 35; continue _fun0007;
+case 36:
                 CatchBlockStart(arg_register=0);
-case 26:
-                if(var3) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+case 35:
+                if(var3) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
                 var2.return();
-case 28:
+case 37:
                 throw var1;
             }
         };
         var5 = var6.bind(var7)(var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot16 = var1;
+    var1 = function ForceMockIAP() {
+        var6 = _closure1_slot0;
+        var10 = _closure1_slot2;
+        var1 = 9;
+        var1 = var10[var1];
+        var4 = undefined;
+        var7 = var6.bind(var4)(var1);
+        var3 = var7.useStateFromStores;
+        var1 = _closure1_slot7;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            var3 = _closure1_slot7;
+            var2 = var3.get;
+            var1 = 'force_mock_iap';
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var9 = var3.bind(var7)(var2, var1);
+        var3 = _closure1_slot10;
+        var1 = 10;
+        var1 = var10[var1];
+        var1 = var6.bind(var4)(var1);
+        var2 = var1.TableRowGroup;
+        var1 = {'title': 'iOS IAP Mock', 'hasIcons': false};
+        var7 = _closure1_slot10;
+        var5 = 20;
+        var5 = var10[var5];
+        var5 = var6.bind(var4)(var5);
+        var6 = var5.TableSwitchRow;
+        var5 = {'label': 'Force mock IAP products', 'subLabel': 'Replaces StoreKit with hardcoded fixture data. App will restart when toggled.'};
+        var5['value'] = var9;
+        var8 = function onValueChange(arg1) {
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 21;
+            var3 = var4[var1];
+            var1 = undefined;
+            var7 = var5.bind(var1)(var3);
+            var6 = var7.toggle;
+            var5 = 'force_mock_iap';
+            var3 = arg1;
+            var3 = var6.bind(var7)(var5, var3);
+            var5 = _closure1_slot7;
+            var3 = var5.persist;
+            var3 = var3.bind(var5)();
+            var3 = _closure1_slot1;
+            var2 = 22;
+            var2 = var4[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.checkForUpdateAndReload;
+            var2 = var2.bind(var3)();
+            return var1;
+        };
+        var5['onValueChange'] = var8;
+        var5 = var7.bind(var4)(var6, var5);
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
@@ -533,16 +663,16 @@ case 28:
         var10 = function onPress() {
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 21;
+            var1 = 23;
             var3 = var2[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.pushLazy;
             var6 = _closure1_slot0;
-            var5 = 18;
+            var5 = 19;
             var5 = var2[var5];
             var6 = var6.bind(var1)(var5);
-            var5 = 22;
+            var5 = 24;
             var5 = var2[var5];
             var2 = var2.paths;
             var2 = var6.bind(var1)(var5, var2);
@@ -585,16 +715,16 @@ case 28:
         var10 = function onPress() {
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 21;
+            var1 = 23;
             var3 = var2[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.pushLazy;
             var6 = _closure1_slot0;
-            var5 = 18;
+            var5 = 19;
             var5 = var2[var5];
             var6 = var6.bind(var1)(var5);
-            var5 = 23;
+            var5 = 25;
             var5 = var2[var5];
             var2 = var2.paths;
             var2 = var6.bind(var1)(var5, var2);
@@ -637,16 +767,16 @@ case 28:
         var10 = function onPress() {
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 21;
+            var1 = 23;
             var3 = var2[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.pushLazy;
             var6 = _closure1_slot0;
-            var5 = 18;
+            var5 = 19;
             var5 = var2[var5];
             var6 = var6.bind(var1)(var5);
-            var5 = 24;
+            var5 = 26;
             var5 = var2[var5];
             var2 = var2.paths;
             var2 = var6.bind(var1)(var5, var2);
@@ -689,16 +819,16 @@ case 28:
         var10 = function onPress() {
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 21;
+            var1 = 23;
             var3 = var2[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.pushLazy;
             var6 = _closure1_slot0;
-            var5 = 18;
+            var5 = 19;
             var5 = var2[var5];
             var6 = var6.bind(var1)(var5);
-            var5 = 25;
+            var5 = 27;
             var5 = var2[var5];
             var2 = var2.paths;
             var2 = var6.bind(var1)(var5, var2);
@@ -811,7 +941,7 @@ case 28:
     var4['scrollContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot13 = var4;
-    var4 = 27;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -829,15 +959,15 @@ case 28:
         var5 = var5.scrollContainer;
         var1['contentContainerStyle'] = var5;
         var8 = _closure1_slot10;
-        var7 = _closure1_slot16;
+        var7 = _closure1_slot15;
         var5 = {};
         var7 = var8.bind(var4)(var7, var5);
-        var5 = new Array(13);
+        var5 = new Array(15);
         var5[0] = var7;
         var14 = _closure1_slot10;
         var8 = _closure1_slot0;
         var12 = _closure1_slot2;
-        var7 = 26;
+        var7 = 28;
         var9 = var12[var7];
         var9 = var8.bind(var4)(var9);
         var13 = var9.Spacer;
@@ -852,7 +982,7 @@ case 28:
         var9 = var14.bind(var4)(var13, var9);
         var5[1] = var9;
         var14 = _closure1_slot10;
-        var13 = _closure1_slot17;
+        var13 = _closure1_slot16;
         var9 = {};
         var9 = var14.bind(var4)(var13, var9);
         var5[2] = var9;
@@ -869,7 +999,7 @@ case 28:
         var9 = var14.bind(var4)(var13, var9);
         var5[3] = var9;
         var14 = _closure1_slot10;
-        var13 = _closure1_slot18;
+        var13 = _closure1_slot17;
         var9 = {};
         var9 = var14.bind(var4)(var13, var9);
         var5[4] = var9;
@@ -886,7 +1016,7 @@ case 28:
         var9 = var14.bind(var4)(var13, var9);
         var5[5] = var9;
         var14 = _closure1_slot10;
-        var13 = _closure1_slot19;
+        var13 = _closure1_slot18;
         var9 = {};
         var9 = var14.bind(var4)(var13, var9);
         var5[6] = var9;
@@ -903,7 +1033,7 @@ case 28:
         var9 = var14.bind(var4)(var13, var9);
         var5[7] = var9;
         var14 = _closure1_slot10;
-        var13 = _closure1_slot20;
+        var13 = _closure1_slot19;
         var9 = {};
         var9 = var14.bind(var4)(var13, var9);
         var5[8] = var9;
@@ -920,10 +1050,27 @@ case 28:
         var9 = var14.bind(var4)(var13, var9);
         var5[9] = var9;
         var14 = _closure1_slot10;
-        var13 = _closure1_slot21;
+        var13 = _closure1_slot20;
         var9 = {};
         var9 = var14.bind(var4)(var13, var9);
         var5[10] = var9;
+        var14 = _closure1_slot10;
+        var9 = var12[var7];
+        var9 = var8.bind(var4)(var9);
+        var13 = var9.Spacer;
+        var9 = {};
+        var15 = var12[var10];
+        var15 = var11.bind(var4)(var15);
+        var15 = var15.spacing;
+        var15 = var15.PX_16;
+        var9['size'] = var15;
+        var9 = var14.bind(var4)(var13, var9);
+        var5[11] = var9;
+        var14 = _closure1_slot10;
+        var13 = _closure1_slot21;
+        var9 = {};
+        var9 = var14.bind(var4)(var13, var9);
+        var5[12] = var9;
         var9 = _closure1_slot10;
         var7 = var12[var7];
         var7 = var8.bind(var4)(var7);
@@ -935,12 +1082,12 @@ case 28:
         var10 = var10.PX_16;
         var7['size'] = var10;
         var7 = var9.bind(var4)(var8, var7);
-        var5[11] = var7;
+        var5[13] = var7;
         var8 = _closure1_slot10;
         var7 = _closure1_slot14;
         var6 = {};
         var6 = var8.bind(var4)(var7, var6);
-        var5[12] = var6;
+        var5[14] = var6;
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;

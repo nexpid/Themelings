@@ -196,7 +196,7 @@ case 7:
         }
     };
     var _closure1_slot11 = var4;
-    var4 = 23;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -325,15 +325,33 @@ case 0:
                     var4 = _closure1_slot10;
                     var4 = var5.bind(var1)(var4);
                     var3 = _closure2_slot7;
-                    var4 = var3.current;
+                    var5 = var3.current;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0005_ip = 12; continue _fun0005 }
+                    if(!(var3 != var5)) { _fun0005_ip = 12; continue _fun0005 }
 case 13:
-                    var3 = var4.setValue;
-                    var2 = _closure1_slot6;
-                    var2 = var2.SUGGESTED;
-                    var2 = var3.bind(var4)(var2);
+                    var4 = var5.setValue;
+                    var3 = _closure1_slot6;
+                    var3 = var3.SUGGESTED;
+                    var3 = var4.bind(var5)(var3);
 case 12:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 12;
+                    var2 = var8[var2];
+                    var2 = var7.bind(var1)(var2);
+                    var4 = var2.AccessibilityAnnouncer;
+                    var3 = var4.announce;
+                    var2 = 10;
+                    var5 = var8[var2];
+                    var5 = var7.bind(var1)(var5);
+                    var6 = var5.intl;
+                    var5 = var6.string;
+                    var2 = var8[var2];
+                    var2 = var7.bind(var1)(var2);
+                    var2 = var2.t;
+                    var2 = var2.bK5N8u;
+                    var2 = var5.bind(var6)(var2);
+                    var2 = var3.bind(var4)(var2);
                     return var1;
                 }
             };
@@ -355,7 +373,7 @@ case 12:
                 var2 = var3.bind(var1)(var2);
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 12;
+                var2 = 13;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.hideActionSheet;
@@ -364,7 +382,7 @@ case 12:
                 return var1;
             };
             var15 = var3.bind(var6)(var1, var2);
-            var1 = 13;
+            var1 = 14;
             var2 = var13[var1];
             var3 = var21.bind(var4)(var2);
             var2 = var3.useQuestHomeSortOptions;
@@ -374,13 +392,13 @@ case 12:
             var1 = var2.useQuestHomeFilterOptions;
             var19 = var1.bind(var2)();
             var3 = _closure1_slot7;
-            var1 = 14;
+            var1 = 15;
             var1 = var13[var1];
             var1 = var21.bind(var4)(var1);
             var2 = var1.BottomSheet;
             var1 = {};
             var8 = _closure1_slot7;
-            var6 = 15;
+            var6 = 16;
             var6 = var13[var6];
             var6 = var21.bind(var4)(var6);
             var7 = var6.BottomSheetTitleHeader;
@@ -415,7 +433,7 @@ case 14:
             var7 = _closure1_slot8;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 16;
+            var5 = 17;
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.BottomSheetScrollView;
@@ -437,7 +455,7 @@ case 16:
             var12 = _closure1_slot8;
             var25 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var8 = 17;
+            var8 = 18;
             var8 = var21[var8];
             var8 = var25.bind(var4)(var8);
             var11 = var8.Stack;
@@ -450,7 +468,7 @@ case 16:
             var16 = var16.PX_32;
             var8['spacing'] = var16;
             var20 = _closure1_slot7;
-            var16 = 18;
+            var16 = 19;
             var16 = var21[var16];
             var16 = var25.bind(var4)(var16);
             var18 = var16.TableRadioGroup;
@@ -476,7 +494,7 @@ case 16:
                 var5 = _closure1_slot7;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 19;
+                var2 = 20;
                 var2 = var4[var2];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
@@ -501,7 +519,7 @@ case 16:
                 var5 = _closure1_slot7;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 20;
+                var2 = 21;
                 var2 = var4[var2];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
@@ -519,13 +537,13 @@ case 16:
                     var5 = _closure1_slot7;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 21;
+                    var2 = 22;
                     var2 = var9[var2];
                     var4 = undefined;
                     var2 = var8.bind(var4)(var2);
                     var3 = var2.TableCheckboxRow;
                     var2 = {};
-                    var7 = 22;
+                    var7 = 23;
                     var7 = var9[var7];
                     var8 = var8.bind(var4)(var7);
                     var7 = var8.getFilterTypeText;
