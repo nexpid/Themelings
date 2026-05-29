@@ -8015,28 +8015,6 @@
         "width": 120,
         "height": 80
     },
-    "img_nitro_basic": {
-        "file": "app/images/native/premium/perks/img_nitro_basic.png",
-        "hash": "e13d0771e6631382db321c9c579edd39",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 345,
-        "height": 345
-    },
-    "img_nitro_basic_free_trial_stamp": {
-        "file": "app/images/native/premium/perks/img_nitro_basic_free_trial_stamp.png",
-        "hash": "8d87b187972cc84fc26424b2298179dc",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 345,
-        "height": 345
-    },
     "img_nitro_classic_icon_80px": {
         "file": "app/images/native/img_nitro_classic_icon_80px.png",
         "hash": "900d6a1aeefc6f4c571ad9d81203dc5c",
@@ -8136,28 +8114,6 @@
         ],
         "width": 20,
         "height": 20
-    },
-    "img_nitro_standard": {
-        "file": "app/images/native/premium/perks/img_nitro_standard.png",
-        "hash": "78169e1ffaedb26fecee6771c828d634",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 345,
-        "height": 345
-    },
-    "img_nitro_standard_free_trial_stamp": {
-        "file": "app/images/native/premium/perks/img_nitro_standard_free_trial_stamp.png",
-        "hash": "517dbe62e49996980f8195d419393d07",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 345,
-        "height": 345
     },
     "img_nitro_sticker_yellow_24px": {
         "file": "app/images/native/premium/perks/img_nitro_sticker_yellow_24px.png",
