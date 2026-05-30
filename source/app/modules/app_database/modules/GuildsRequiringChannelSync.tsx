@@ -654,23 +654,23 @@ case 58:
                 var4 = var1.bind(var5)(var3);
                 var3 = var4.bind(var5)();
                 var1 = var3.done;
-                if(var1) { _fun0010_ip = 60; continue _fun0010 }
+                if(var1) { _fun0010_ip = 19; continue _fun0010 }
 case 46:
                 var6 = var3.value;
                 var1 = var2.has;
                 var1 = var1.bind(var2)(var6);
-                if(var1) { _fun0010_ip = 15; continue _fun0010 }
+                if(var1) { _fun0010_ip = 60; continue _fun0010 }
 case 61:
                 var1 = {'rolesAreDifferent': true, 'allRoleIds': null};
                 return var1;
-case 15:
+case 60:
                 var1 = var2.add;
                 var1 = var1.bind(var2)(var6);
                 var6 = var4.bind(var5)();
                 var1 = var6.done;
                 var3 = var6;
                 if(!var1) { _fun0010_ip = 46; continue _fun0010 }
-case 60:
+case 19:
                 var1 = {};
                 var3 = false;
                 var1['rolesAreDifferent'] = var3;

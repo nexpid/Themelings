@@ -212,6 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_POWERUPS_GUILD_SETTINGS_TAGS'] = var1;
     var1 = 'guild powerups - guild settings vanity url';
     var2['GUILD_POWERUPS_GUILD_SETTINGS_VANITY_URL'] = var1;
+    var1 = 'guild powerups - guild settings guild theme';
+    var2['GUILD_POWERUPS_GUILD_SETTINGS_GUILD_THEME'] = var1;
     var1 = 'guild powerups - channel list row';
     var2['GUILD_POWERUPS_CHANNEL_LIST_ROW'] = var1;
     var1 = 'guild powerups - coachmark - level up';
@@ -416,6 +418,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['QUEST_EMBED'] = var1;
     var1 = 'quest reward modal';
     var2['QUEST_REWARD_MODAL'] = var1;
+    var1 = 'quest in game modal connect';
+    var2['QUEST_IN_GAME_MODAL_CONNECT'] = var1;
     var1 = 'premium marketing surface';
     var2['PREMIUM_MARKETING_SURFACE'] = var1;
     var1 = 'premium marketing hero cta';
@@ -816,8 +820,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_MEMBER_MOD_VIEW'] = var1;
     var1 = 'guild member application review';
     var2['GUILD_MEMBER_APPLICATION_REVIEW'] = var1;
-    var1 = 'game invite channel create post';
-    var2['GAME_INVITE_CHANNEL_CREATE_POST'] = var1;
+    var1 = 'game invite channel account link banner';
+    var2['GAME_INVITE_CHANNEL_ACCOUNT_LINK_BANNER'] = var1;
     var1 = 'for later helpers';
     var2['FOR_LATER_HELPERS'] = var1;
     var1 = 'for later popout';
@@ -1143,6 +1147,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SLAYER_STOREFRONT_NATIVE_GIFT_MODAL'] = var1;
     var1 = 'slayer storefront native pdp';
     var2['SLAYER_STOREFRONT_NATIVE_PDP'] = var1;
+    var1 = 'slayer storefront native purchase success';
+    var2['SLAYER_STOREFRONT_NATIVE_PURCHASE_SUCCESS'] = var1;
     var1 = 'age group';
     var2['AGE_GROUP'] = var1;
     var1 = 'mobile account link large banner';

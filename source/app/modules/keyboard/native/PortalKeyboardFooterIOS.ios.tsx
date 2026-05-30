@@ -42,10 +42,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
     var4 = {};
-    var7 = "function PortalKeyboardFooterIOSIosTsx1(){const{interpolate,progress,bottom,animatedSheetIndex,height,EXPRESSION_FOOTER_HEIGHT}=this.__closure;const offset=interpolate(progress.get(),[0,1],[0,bottom]);if(animatedSheetIndex.get()>=0){return{transform:[{translateY:height.get()+offset}]};}return{transform:[{translateY:interpolate(animatedSheetIndex.get(),[-1,0],[EXPRESSION_FOOTER_HEIGHT+bottom,0],'clamp')}]};}";
+    var7 = "function PortalKeyboardFooterIOSIosTsx1(){const{interpolate,progress,bottom,keyboardType,KeyboardTypes,animatedSheetIndex,height,EXPRESSION_FOOTER_HEIGHT}=this.__closure;const offset=interpolate(progress.get(),[0,1],[0,bottom]);if(keyboardType.get()===KeyboardTypes.EXPRESSION&&animatedSheetIndex.get()>=0){return{transform:[{translateY:height.get()+offset}]};}return{transform:[{translateY:interpolate(animatedSheetIndex.get(),[-1,0],[EXPRESSION_FOOTER_HEIGHT+bottom,0],'clamp')}]};}";
     var4['code'] = var7;
     var _closure1_slot6 = var4;
-    var4 = 9;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -68,6 +68,7 @@ case 2:
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
             var1 = _closure1_slot5;
             var12 = var1.bind(var4)();
             _closure2_slot1 = var12;
@@ -77,8 +78,8 @@ case 2:
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
-            var16 = var1.bottom;
-            _closure2_slot2 = var16;
+            var17 = var1.bottom;
+            _closure2_slot2 = var17;
             var6 = _closure1_slot0;
             var1 = 5;
             var1 = var8[var1];
@@ -87,51 +88,68 @@ case 2:
             var1 = var1.bind(var9)();
             var14 = var1.height;
             _closure2_slot3 = var14;
-            var17 = var1.progress;
-            _closure2_slot4 = var17;
+            var18 = var1.progress;
+            _closure2_slot4 = var18;
             var1 = 6;
+            var1 = var8[var1];
+            var9 = var6.bind(var4)(var1);
+            var1 = var9.useKeyboardTypeSharedValue;
+            var16 = var1.bind(var9)();
+            _closure2_slot5 = var16;
+            var1 = 7;
             var9 = var8[var1];
             var11 = var6.bind(var4)(var9);
             var10 = var11.useAnimatedStyle;
-            var9 = function E() {
+            var9 = function p() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var2 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var6 = 6;
-                    var1 = var1[var6];
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 7;
+                    var1 = var8[var2];
                     var12 = undefined;
-                    var8 = var2.bind(var12)(var1);
-                    var5 = var8.interpolate;
-                    var2 = _closure2_slot4;
-                    var1 = var2.get;
-                    var4 = var1.bind(var2)();
+                    var10 = var7.bind(var12)(var1);
+                    var9 = var10.interpolate;
+                    var4 = _closure2_slot4;
+                    var1 = var4.get;
+                    var5 = var1.bind(var4)();
                     var1 = _closure2_slot2;
-                    var2 = [0];
-                    var2[1] = var1;
+                    var4 = [0];
+                    var4[1] = var1;
                     var1 = [0, 1];
-                    var5 = var5.bind(var8)(var4, var1, var2);
-                    var2 = _closure2_slot0;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    var2 = 0;
-                    if(!(!(var1 >= var2))) { _fun0002_ip = 4; continue _fun0002 }
+                    var5 = var9.bind(var10)(var5, var1, var4);
+                    var4 = _closure2_slot5;
+                    var1 = var4.get;
+                    var4 = var1.bind(var4)();
+                    var1 = 8;
+                    var1 = var8[var1];
+                    var1 = var7.bind(var12)(var1);
+                    var1 = var1.KeyboardTypes;
+                    var1 = var1.EXPRESSION;
+                    if(!(var4 === var1)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
+                    var4 = _closure2_slot0;
+                    var1 = var4.get;
+                    var4 = var1.bind(var4)();
+                    var1 = 0;
+                    if(!(!(var4 >= var1))) { _fun0002_ip = 6; continue _fun0002 }
+case 4:
                     var1 = {};
                     var4 = {};
                     var11 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var6 = var13[var6];
-                    var10 = var11.bind(var12)(var6);
+                    var2 = var13[var2];
+                    var10 = var11.bind(var12)(var2);
                     var9 = var10.interpolate;
-                    var7 = _closure2_slot0;
-                    var6 = var7.get;
-                    var8 = var6.bind(var7)();
+                    var6 = _closure2_slot0;
+                    var2 = var6.get;
+                    var8 = var2.bind(var6)();
                     var7 = new Array(2);
-                    var6 = -1;
-                    var7[0] = var6;
+                    var2 = -1;
+                    var7[0] = var2;
+                    var2 = 0;
                     var7[1] = var2;
-                    var6 = 7;
+                    var6 = 9;
                     var6 = var13[var6];
                     var6 = var11.bind(var12)(var6);
                     var11 = var6.EXPRESSION_FOOTER_HEIGHT;
@@ -150,8 +168,8 @@ case 5:
                     var2 = new Array(1);
                     var2[0] = var4;
                     var1['transform'] = var2;
-                    _fun0002_ip = 6; continue _fun0002;
-case 4:
+                    _fun0002_ip = 7; continue _fun0002;
+case 6:
                     var2 = {};
                     var4 = {};
                     var6 = _closure2_slot3;
@@ -163,31 +181,37 @@ case 4:
                     var3[0] = var4;
                     var2['transform'] = var3;
                     var1 = var2;
-case 6:
+case 7:
                     return var1;
                 }
             };
             var13 = {};
-            var18 = var8[var1];
-            var18 = var6.bind(var4)(var18);
-            var18 = var18.interpolate;
-            var13['interpolate'] = var18;
-            var13['progress'] = var17;
-            var13['bottom'] = var16;
+            var19 = var8[var1];
+            var19 = var6.bind(var4)(var19);
+            var19 = var19.interpolate;
+            var13['interpolate'] = var19;
+            var13['progress'] = var18;
+            var13['bottom'] = var17;
+            var13['keyboardType'] = var16;
+            var16 = 8;
+            var16 = var8[var16];
+            var16 = var6.bind(var4)(var16);
+            var16 = var16.KeyboardTypes;
+            var13['KeyboardTypes'] = var16;
             var13['animatedSheetIndex'] = var15;
             var13['height'] = var14;
-            var14 = 7;
+            var14 = 9;
             var14 = var8[var14];
             var14 = var6.bind(var4)(var14);
             var14 = var14.EXPRESSION_FOOTER_HEIGHT;
             var13['EXPRESSION_FOOTER_HEIGHT'] = var14;
             var9['__closure'] = var13;
-            var13 = 5681202963788.0;
+            var13 = 9642021588244.0;
             var9['__workletHash'] = var13;
             var13 = _closure1_slot6;
             var9['__initData'] = var13;
             var13 = var10.bind(var11)(var9);
-            _closure2_slot5 = var13;
+            _closure2_slot6 = var13;
             var11 = _closure1_slot3;
             var10 = var11.useMemo;
             var9 = new Array(2);
@@ -198,7 +222,7 @@ case 6:
                 var3 = var1.keyboardStickyFooter;
                 var1 = new Array(2);
                 var1[0] = var3;
-                var2 = _closure2_slot5;
+                var2 = _closure2_slot6;
                 var1[1] = var2;
                 return var1;
             };
@@ -209,7 +233,7 @@ case 6:
             var2 = var1.View;
             var1 = {};
             var1['style'] = var5;
-            var5 = 8;
+            var5 = 10;
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.PortalHost;

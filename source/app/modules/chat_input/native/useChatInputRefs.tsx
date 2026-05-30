@@ -1398,19 +1398,35 @@ case 75:
             var1 = function openSystemKeyboard() {
                 _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
-                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 33;
-                    var3 = var3[var1];
+                    var1 = 18;
+                    var4 = var3[var1];
                     var1 = undefined;
-                    var5 = var4.bind(var1)(var3);
-                    var4 = var5.getKeyboardIsOpen;
-                    var3 = {};
-                    var6 = false;
-                    var3['includeCustomKeyboard'] = var6;
-                    var3 = var4.bind(var5)(var3);
-                    if(var3) { _fun0018_ip = 90; continue _fun0018 }
-case 91:
+                    var6 = var5.bind(var1)(var4);
+                    var4 = var6.getKeyboardType;
+                    var4 = var4.bind(var6)();
+                    var7 = 19;
+                    var3 = var3[var7];
+                    var3 = var5.bind(var1)(var3);
+                    var3 = var3.KeyboardTypes;
+                    var3 = var3.SYSTEM;
+                    var3 = var4 === var3;
+                    if(!var3) { _fun0018_ip = 90; continue _fun0018 }
+case 24:
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var4 = 33;
+                    var4 = var6[var4];
+                    var6 = var5.bind(var1)(var4);
+                    var5 = var6.getKeyboardIsOpen;
+                    var4 = {};
+                    var8 = false;
+                    var4['includeCustomKeyboard'] = var8;
+                    var3 = var5.bind(var6)(var4);
+case 90:
+                    if(var3) { _fun0018_ip = 91; continue _fun0018 }
+case 92:
                     var8 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 20;
@@ -1418,7 +1434,6 @@ case 91:
                     var6 = var8.bind(var1)(var3);
                     var5 = var6.setKeyboardType;
                     var3 = {};
-                    var7 = 19;
                     var7 = var4[var7];
                     var7 = var8.bind(var1)(var7);
                     var7 = var7.KeyboardTypes;
@@ -1437,7 +1452,7 @@ case 91:
                     var2 = _closure2_slot8;
                     var2 = var2.current;
                     var2 = var3.bind(var4)(var2);
-case 90:
+case 91:
                     return var1;
                 }
             };

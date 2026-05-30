@@ -120,7 +120,7 @@ case 2:
     var7 = "function DMMessageStickerGreetingTsx1(){const{styles,isRendered,hasInputText,hasMessages,HEIGHT_COMPACT,HEIGHT_FULL,withDelay,withTiming,STANDARD_EASING}=this.__closure;const gradientOverlayOffset=styles.gradient.height;const hasHeight=isRendered&&!hasInputText;const heightExpanded=(hasMessages?HEIGHT_COMPACT:HEIGHT_FULL)-1;const targetHeight=hasHeight?heightExpanded+gradientOverlayOffset:0;const targetMargin=hasHeight?-gradientOverlayOffset:0;const generateAnimationConfig=function(value){return withDelay(300,withTiming(value,{easing:STANDARD_EASING,duration:250}));};return{justifyContent:'flex-end',overflow:'hidden',marginTop:generateAnimationConfig(targetMargin),height:generateAnimationConfig(targetHeight)};}";
     var4['code'] = var7;
     var _closure1_slot15 = var4;
-    var4 = 31;
+    var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -160,6 +160,22 @@ case 0:
                 var2 = var3.getMessages;
                 var1 = _closure2_slot0;
                 var1 = var1.id;
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.filter;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.type;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 19;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3);
+                    var1 = var1.MessageTypes;
+                    var1 = var1.FRIEND_REQUEST_ACCEPTED;
+                    var1 = var2 !== var1;
+                    return var1;
+                };
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.length;
                 var1 = 0;
@@ -185,7 +201,7 @@ case 0:
             };
             var7 = var7.bind(var11)(var4, var3);
             var4 = _closure1_slot1;
-            var3 = 19;
+            var3 = 20;
             var3 = var9[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.useName;
@@ -220,7 +236,7 @@ case 4:
             var3 = {};
             var3['username'] = var14;
             var18 = var11.bind(var12)(var9, var3);
-            var3 = 20;
+            var3 = 21;
             var3 = var7[var3];
             var9 = var4.bind(var5)(var3);
             var3 = var9.useShowConvoStarterInDM;
@@ -262,7 +278,7 @@ case 0:
 case 9:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 22;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -487,7 +503,7 @@ case 10:
             var17 = var2.isRendered;
             _closure2_slot5 = var17;
             var6 = var2.setIsRendered;
-            var2 = 22;
+            var2 = 23;
             var9 = var7[var2];
             var11 = var4.bind(var5)(var9);
             var9 = var11.useAnimatedStyle;
@@ -519,17 +535,17 @@ case 2:
                     var3 = function generateAnimationConfig(arg1) {
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var1 = 22;
+                        var1 = 23;
                         var1 = var9[var1];
                         var7 = undefined;
                         var4 = var8.bind(var7)(var1);
                         var3 = var4.withDelay;
-                        var1 = 23;
+                        var1 = 24;
                         var1 = var9[var1];
                         var6 = var8.bind(var7)(var1);
                         var5 = var6.withTiming;
                         var2 = {};
-                        var1 = 24;
+                        var1 = 25;
                         var1 = var9[var1];
                         var1 = var8.bind(var7)(var1);
                         var1 = var1.STANDARD_EASING;
@@ -569,13 +585,13 @@ case 29:
             var13 = var4.bind(var5)(var13);
             var13 = var13.withDelay;
             var12['withDelay'] = var13;
-            var13 = 23;
-            var13 = var7[var13];
+            var22 = 24;
+            var13 = var7[var22];
             var13 = var4.bind(var5)(var13);
             var13 = var13.withTiming;
             var12['withTiming'] = var13;
-            var22 = 24;
-            var13 = var7[var22];
+            var13 = 25;
+            var13 = var7[var13];
             var13 = var4.bind(var5)(var13);
             var13 = var13.STANDARD_EASING;
             var12['STANDARD_EASING'] = var13;
@@ -616,7 +632,7 @@ case 31:
             var8 = new Array(2);
             var8[0] = var11;
             var8[1] = var1;
-            var1 = 25;
+            var1 = 26;
             var1 = var7[var1];
             var7 = var4.bind(var5)(var1);
             var4 = var7.useShouldAnimateSticker;
@@ -635,7 +651,7 @@ case 34:
             var2['style'] = var9;
             var2['onLayout'] = var6;
             var9 = _closure1_slot10;
-            var6 = 26;
+            var6 = 27;
             var6 = var11[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};
@@ -665,7 +681,7 @@ case 38:
             var12['style'] = var25;
             var27 = _closure1_slot1;
             var28 = _closure1_slot2;
-            var25 = 28;
+            var25 = 29;
             var25 = var28[var25];
             var27 = var27.bind(var5)(var25);
             var25 = {};
@@ -682,7 +698,7 @@ case 37:
             var24 = _closure1_slot10;
             var20 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var17 = 30;
+            var17 = 31;
             var17 = var25[var17];
             var17 = var20.bind(var5)(var17);
             var20 = var17.Button;
@@ -699,7 +715,7 @@ case 37:
 case 35:
             var25 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var11 = 27;
+            var11 = 28;
             var11 = var17[var11];
             var11 = var25.bind(var5)(var11);
             var12 = var11.PressableOpacity;
@@ -726,7 +742,7 @@ case 41:
             var20 = _closure1_slot10;
             var17 = _closure1_slot1;
             var24 = _closure1_slot2;
-            var14 = 28;
+            var14 = 29;
             var14 = var24[var14];
             var17 = var17.bind(var5)(var14);
             var14 = {};
@@ -740,7 +756,7 @@ case 40:
             var17 = _closure1_slot10;
             var16 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var15 = 29;
+            var15 = 30;
             var15 = var20[var15];
             var15 = var16.bind(var5)(var15);
             var16 = var15.Text;

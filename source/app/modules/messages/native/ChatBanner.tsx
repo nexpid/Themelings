@@ -17,6 +17,13 @@ case 0:
             var2 = _closure1_slot14;
             var4 = undefined;
             var10 = var2.bind(var4)();
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var2 = 13;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = 'OptInChannelBanner';
+            var11 = var3.bind(var4)(var2);
             var8 = _closure1_slot3;
             var5 = var8.useEffect;
             var3 = new Array(1);
@@ -24,7 +31,7 @@ case 0:
             var2 = function() {
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var2 = var9[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -33,7 +40,7 @@ case 0:
                 var3 = var2.CHANNEL_BANNER_VIEWED;
                 var2 = {};
                 var7 = _closure1_slot0;
-                var6 = 14;
+                var6 = 15;
                 var8 = var9[var6];
                 var12 = var7.bind(var1)(var8);
                 var11 = var12.collectGuildAnalyticsMetadata;
@@ -63,7 +70,7 @@ case 0:
             var1 = function() {
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var3 = var6[var1];
                 var1 = undefined;
                 var9 = var4.bind(var1)(var3);
@@ -72,7 +79,7 @@ case 0:
                 var7 = var3.CHANNEL_BANNER_CTA_CLICKED;
                 var4 = {};
                 var5 = _closure1_slot0;
-                var10 = 14;
+                var10 = 15;
                 var3 = var6[var10];
                 var13 = var5.bind(var1)(var3);
                 var12 = var13.collectGuildAnalyticsMetadata;
@@ -95,7 +102,7 @@ case 0:
                 var10 = 'cta_type';
                 var4[9] = var11;
                 var4 = var8.bind(var9)(var7, var4);
-                var4 = 15;
+                var4 = 16;
                 var4 = var6[var4];
                 var7 = var5.bind(var1)(var4);
                 var6 = var7.setOptInChannel;
@@ -116,26 +123,32 @@ case 0:
             var2 = _closure1_slot4;
             var1 = {};
             var6 = var10.optInChannelBannerContainer;
-            var5 = new Array(2);
+            var5 = new Array(3);
             var5[0] = var6;
-            var6 = null;
-            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+            var8 = null;
+            if(var11) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = var10.topBorder;
+            var8 = var10.optInChannelBannerLegacyBorder;
 case 2:
-            var5[1] = var6;
+            var5[1] = var8;
+            var6 = null;
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var6 = var10.topBorder;
+case 4:
+            var5[2] = var6;
             var1['style'] = var5;
             var7 = _closure1_slot12;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var5 = 16;
+            var5 = 17;
             var5 = var16[var5];
             var5 = var15.bind(var4)(var5);
             var6 = var5.Text;
             var5 = {'lineClamp': 2, 'style': null, 'variant': 'text-sm/semibold'};
             var8 = var10.optInChannelBannerText;
             var5['style'] = var8;
-            var12 = 17;
+            var12 = 18;
             var8 = var16[var12];
             var8 = var15.bind(var4)(var8);
             var14 = var8.intl;
@@ -155,7 +168,7 @@ case 2:
             var10 = var10.optInChannelBannerButtonContainer;
             var6['style'] = var10;
             var11 = _closure1_slot12;
-            var9 = 18;
+            var9 = 19;
             var9 = var16[var9];
             var9 = var15.bind(var4)(var9);
             var10 = var9.Button;
@@ -199,7 +212,7 @@ case 0:
             var1 = function() {
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var2 = var9[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -208,7 +221,7 @@ case 0:
                 var3 = var2.CHANNEL_BANNER_VIEWED;
                 var2 = {};
                 var7 = _closure1_slot0;
-                var6 = 14;
+                var6 = 15;
                 var8 = var9[var6];
                 var12 = var7.bind(var1)(var8);
                 var11 = var12.collectGuildAnalyticsMetadata;
@@ -233,7 +246,7 @@ case 0:
             var1 = var3.bind(var5)(var1, var2);
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 19;
+            var1 = 20;
             var1 = var9[var1];
             var2 = var7.bind(var4)(var1);
             var1 = var2.useCanUnarchiveThread;
@@ -244,7 +257,7 @@ case 0:
             var5 = var11.threadBannerContainer;
             var1['style'] = var5;
             var8 = _closure1_slot12;
-            var5 = 16;
+            var5 = 17;
             var5 = var9[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
@@ -255,7 +268,7 @@ case 0:
             var9 = var9.bind(var12)();
             var16 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var18 = 17;
+            var18 = 18;
             var14 = var12[var18];
             var14 = var16.bind(var4)(var14);
             var15 = var14.intl;
@@ -263,21 +276,21 @@ case 0:
             var12 = var12[var18];
             var12 = var16.bind(var4)(var12);
             var12 = var12.t;
-            if(var9) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+            if(var9) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var9 = var12.rEeodK;
             var9 = var14.bind(var15)(var9);
-            _fun0002_ip = 6; continue _fun0002;
-case 4:
+            _fun0002_ip = 8; continue _fun0002;
+case 6:
             var12 = var12["833FDn"];
             var9 = var14.bind(var15)(var12);
-case 6:
+case 8:
             var5['children'] = var9;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            if(!var6) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+            if(!var6) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var9 = _closure1_slot12;
             var8 = _closure1_slot4;
             var7 = {};
@@ -286,7 +299,7 @@ case 8:
             var12 = _closure1_slot12;
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var10 = 18;
+            var10 = 19;
             var10 = var14[var10];
             var10 = var17.bind(var4)(var10);
             var11 = var10.Button;
@@ -304,7 +317,7 @@ case 8:
             var13 = function onPress() {
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var2 = var4[var1];
                 var1 = undefined;
                 var8 = var3.bind(var1)(var2);
@@ -313,7 +326,7 @@ case 8:
                 var6 = var2.CHANNEL_BANNER_CTA_CLICKED;
                 var2 = {};
                 var10 = _closure1_slot0;
-                var9 = 14;
+                var9 = 15;
                 var5 = var4[var9];
                 var13 = var10.bind(var1)(var5);
                 var12 = var13.collectGuildAnalyticsMetadata;
@@ -336,7 +349,7 @@ case 8:
                 var9 = 'cta_type';
                 var2[8] = var10;
                 var2 = var7.bind(var8)(var6, var2);
-                var2 = 20;
+                var2 = 21;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.unarchiveThread;
@@ -348,7 +361,7 @@ case 8:
             var10 = var12.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 7:
+case 9:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -372,7 +385,7 @@ case 0:
             var1 = function() {
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var2 = var9[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -381,7 +394,7 @@ case 0:
                 var3 = var2.CHANNEL_BANNER_VIEWED;
                 var2 = {};
                 var7 = _closure1_slot0;
-                var6 = 14;
+                var6 = 15;
                 var8 = var9[var6];
                 var12 = var7.bind(var1)(var8);
                 var11 = var12.collectGuildAnalyticsMetadata;
@@ -406,7 +419,7 @@ case 0:
             var1 = var3.bind(var5)(var1, var2);
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 19;
+            var1 = 20;
             var1 = var9[var1];
             var2 = var7.bind(var4)(var1);
             var1 = var2.useIsThreadModerator;
@@ -417,7 +430,7 @@ case 0:
             var5 = var11.threadBannerContainer;
             var1['style'] = var5;
             var8 = _closure1_slot12;
-            var5 = 16;
+            var5 = 17;
             var5 = var9[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
@@ -428,7 +441,7 @@ case 0:
             var9 = var9.bind(var12)();
             var16 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var18 = 17;
+            var18 = 18;
             var14 = var12[var18];
             var14 = var16.bind(var4)(var14);
             var15 = var14.intl;
@@ -436,21 +449,21 @@ case 0:
             var12 = var12[var18];
             var12 = var16.bind(var4)(var12);
             var12 = var12.t;
-            if(var9) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
+            if(var9) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var9 = var12.V/JF2N;
             var9 = var14.bind(var15)(var9);
-            _fun0003_ip = 6; continue _fun0003;
-case 4:
+            _fun0003_ip = 8; continue _fun0003;
+case 6:
             var12 = var12.E7oO8u;
             var9 = var14.bind(var15)(var12);
-case 6:
+case 8:
             var5['children'] = var9;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            if(!var6) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+            if(!var6) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var9 = _closure1_slot12;
             var8 = _closure1_slot4;
             var7 = {};
@@ -459,7 +472,7 @@ case 8:
             var12 = _closure1_slot12;
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var10 = 18;
+            var10 = 19;
             var10 = var14[var10];
             var10 = var17.bind(var4)(var10);
             var11 = var10.Button;
@@ -477,7 +490,7 @@ case 8:
             var13 = function onPress() {
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var2 = var5[var1];
                 var1 = undefined;
                 var8 = var3.bind(var1)(var2);
@@ -486,7 +499,7 @@ case 8:
                 var6 = var2.CHANNEL_BANNER_CTA_CLICKED;
                 var2 = {};
                 var10 = _closure1_slot0;
-                var9 = 14;
+                var9 = 15;
                 var4 = var5[var9];
                 var13 = var10.bind(var1)(var4);
                 var12 = var13.collectGuildAnalyticsMetadata;
@@ -509,7 +522,7 @@ case 8:
                 var9 = 'cta_type';
                 var2[8] = var10;
                 var2 = var7.bind(var8)(var6, var2);
-                var2 = 20;
+                var2 = 21;
                 var2 = var5[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.unlockThread;
@@ -520,7 +533,7 @@ case 8:
             var10 = var12.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 7:
+case 9:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -558,30 +571,30 @@ case 0:
             var1 = new Array(0);
             var4 = var5.bind(var7)(var4, var2, var1);
             var1 = null;
-            if(!var4) { _fun0004_ip = 9; continue _fun0004 }
-case 10:
+            if(!var4) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var4 = 0;
             var4 = var26 <= var4;
             var2 = null;
-            if(var4) { _fun0004_ip = 11; continue _fun0004 }
-case 3:
+            if(var4) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var5 = _closure1_slot6;
             var4 = var5.isEstimated;
             var3 = var3.id;
             var4 = var4.bind(var5)(var3);
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var13 = 17;
+            var13 = 18;
             var3 = var3[var13];
             var3 = var5.bind(var6)(var3);
             var3 = var3.t;
-            if(var4) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+            if(var4) { _fun0004_ip = 15; continue _fun0004 }
+case 4:
             var24 = var3.BctFH/;
-            _fun0004_ip = 14; continue _fun0004;
-case 12:
+            _fun0004_ip = 16; continue _fun0004;
+case 15:
             var24 = var3.wvtbbG;
-case 14:
+case 16:
             var5 = _closure1_slot13;
             var4 = _closure1_slot4;
             var3 = {};
@@ -590,7 +603,7 @@ case 14:
             var10 = _closure1_slot12;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var8 = 21;
+            var8 = 22;
             var7 = var16[var8];
             var7 = var12.bind(var6)(var7);
             var9 = var7.PressableOpacity;
@@ -601,7 +614,7 @@ case 14:
             var7['style'] = var19;
             var7['onPress'] = var18;
             var20 = _closure1_slot12;
-            var18 = 16;
+            var18 = 17;
             var18 = var16[var18];
             var18 = var12.bind(var6)(var18);
             var19 = var18.Text;
@@ -641,7 +654,7 @@ case 14:
             var11 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -663,7 +676,7 @@ case 14:
             };
             var8['onPress'] = var11;
             var13 = _closure1_slot12;
-            var11 = 23;
+            var11 = 24;
             var11 = var16[var11];
             var11 = var12.bind(var6)(var11);
             var12 = var11.XSmallBoldIcon;
@@ -683,9 +696,9 @@ case 14:
             var7[1] = var8;
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 11:
+case 13:
             var1 = var2;
-case 9:
+case 11:
             return var1;
         }
     };
@@ -786,6 +799,14 @@ case 9:
     var10['borderBottomColor'] = var15;
     var5['optInChannelBannerContainer'] = var10;
     var10 = {};
+    var10['borderBottomWidth'] = var11;
+    var15 = var7[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BORDER_SUBTLE;
+    var10['borderBottomColor'] = var15;
+    var5['optInChannelBannerLegacyBorder'] = var10;
+    var10 = {};
     var14 = var14.hairlineWidth;
     var10['borderTopWidth'] = var14;
     var12 = var7[var12];
@@ -801,7 +822,7 @@ case 9:
     var5['optInChannelBannerButtonContainer'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot14 = var5;
-    var5 = 24;
+    var5 = 25;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -851,8 +872,8 @@ case 0:
                     var5 = var6.bind(var7)(var5);
                     var1['unreadCount'] = var5;
                     var5 = 0;
-                    if(!(var5 === var2)) { _fun0006_ip = 15; continue _fun0006 }
-case 16:
+                    if(!(var5 === var2)) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
                     var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var4 = 12;
@@ -863,7 +884,7 @@ case 16:
                     var3 = _closure2_slot0;
                     var3 = var3.id;
                     var2 = var4.bind(var5)(var3);
-case 15:
+case 17:
                     var1['oldestUnreadTimestamp'] = var2;
                     return var1;
                 }
@@ -873,39 +894,39 @@ case 15:
             var9 = var1.oldestUnreadTimestamp;
             var1 = var6.isArchivedLockedThread;
             var1 = var1.bind(var6)();
-            if(var1) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
-            var1 = var6.isLockedThread;
-            var1 = var1.bind(var6)();
             if(var1) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
-            var1 = 0;
-            if(!(var10 > var1)) { _fun0005_ip = 21; continue _fun0005 }
+            var1 = var6.isLockedThread;
+            var1 = var1.bind(var6)();
+            if(var1) { _fun0005_ip = 21; continue _fun0005 }
 case 22:
+            var1 = 0;
+            if(!(var10 > var1)) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
             var4 = var11.includes;
             var1 = _closure1_slot7;
             var1 = var1.NEW_MESSAGES;
             var1 = var4.bind(var11)(var1);
-            if(var1) { _fun0005_ip = 23; continue _fun0005 }
-case 21:
+            if(var1) { _fun0005_ip = 25; continue _fun0005 }
+case 23:
             var1 = null;
-            if(!var3) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            if(!var3) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
             var7 = var11.includes;
             var3 = _closure1_slot7;
             var3 = var3.OPT_IN_CHANNEL;
             var3 = var7.bind(var11)(var3);
             var1 = null;
-            if(!var3) { _fun0005_ip = 24; continue _fun0005 }
-case 4:
+            if(!var3) { _fun0005_ip = 26; continue _fun0005 }
+case 6:
             var7 = _closure1_slot12;
             var4 = _closure1_slot15;
             var3 = {};
             var3['channel'] = var6;
             var1 = var7.bind(var5)(var4, var3);
-case 24:
-            _fun0005_ip = 26; continue _fun0005;
-case 23:
+case 26:
+            _fun0005_ip = 28; continue _fun0005;
+case 25:
             var7 = _closure1_slot12;
             var4 = _closure1_slot18;
             var3 = {};
@@ -914,23 +935,23 @@ case 23:
             var3['channel'] = var6;
             var3['handleScrollToNewMessages'] = var8;
             var1 = var7.bind(var5)(var4, var3);
-case 26:
-            _fun0005_ip = 27; continue _fun0005;
-case 19:
+case 28:
+            _fun0005_ip = 29; continue _fun0005;
+case 21:
             var7 = _closure1_slot12;
             var4 = _closure1_slot17;
             var3 = {};
             var3['channel'] = var6;
             var1 = var7.bind(var5)(var4, var3);
-case 27:
-            _fun0005_ip = 28; continue _fun0005;
-case 17:
+case 29:
+            _fun0005_ip = 30; continue _fun0005;
+case 19:
             var4 = _closure1_slot12;
             var3 = _closure1_slot16;
             var2 = {};
             var2['channel'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 28:
+case 30:
             return var1;
         }
     };

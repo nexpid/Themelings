@@ -2201,7 +2201,12 @@ case 323:
             var47 = var49[var47];
             var48 = var48.bind(var5)(var47);
             var47 = var48.createCodedLinkEmbeds;
-            var44 = var47.bind(var48)(var2, var39, var19);
+            r110 = var48;
+            r109 = var2;
+            r108 = var39;
+            r107 = var21;
+            r106 = var19;
+            var44 = r110[var47](r109, r108, r107, r106, r105);
 case 325:
             var1['codedLinks'] = var44;
             var44 = undefined;

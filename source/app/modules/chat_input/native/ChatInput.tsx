@@ -628,48 +628,57 @@ case 0:
 case 20:
             var46 = var1;
 case 19:
-            var14 = _closure1_slot0;
+            var16 = _closure1_slot0;
             var1 = _closure1_slot3;
             var2 = var1[var13];
-            var9 = var14.bind(var6)(var2);
+            var9 = var16.bind(var6)(var2);
             var7 = var9.useToken;
-            var16 = _closure1_slot1;
+            var17 = _closure1_slot1;
             var2 = var1[var30];
-            var2 = var16.bind(var6)(var2);
+            var2 = var17.bind(var6)(var2);
             var2 = var2.modules;
             var2 = var2.mobile;
             var2 = var2.CHAT_INPUT_FLOATING_SCRIM_GRADIENT_HEIGHT;
-            var11 = var7.bind(var9)(var2);
+            var14 = var7.bind(var9)(var2);
             var2 = var1[var13];
-            var9 = var14.bind(var6)(var2);
+            var9 = var16.bind(var6)(var2);
             var7 = var9.useToken;
             var2 = var1[var30];
-            var2 = var16.bind(var6)(var2);
+            var2 = var17.bind(var6)(var2);
             var2 = var2.modules;
             var2 = var2.mobile;
             var2 = var2.CHAT_INPUT_FLOATING_TYPING_GRADIENT_HEIGHT_REDUCED;
             var2 = var7.bind(var9)(var2);
             var7 = var1[var13];
-            var17 = var14.bind(var6)(var7);
-            var9 = var17.useToken;
+            var11 = var16.bind(var6)(var7);
+            var9 = var11.useToken;
             var7 = var1[var30];
-            var7 = var16.bind(var6)(var7);
+            var7 = var17.bind(var6)(var7);
             var7 = var7.modules;
             var7 = var7.mobile;
             var7 = var7.CHAT_INPUT_FLOATING_INLINE_FULL_GRADIENT_HEIGHT;
-            var9 = var9.bind(var17)(var7);
+            var9 = var9.bind(var11)(var7);
             var7 = var1[var13];
-            var14 = var14.bind(var6)(var7);
-            var7 = var14.useToken;
+            var18 = var16.bind(var6)(var7);
+            var11 = var18.useToken;
+            var7 = var1[var30];
+            var7 = var17.bind(var6)(var7);
+            var7 = var7.modules;
+            var7 = var7.mobile;
+            var7 = var7.CHAT_INPUT_FLOATING_SCRIM_GRADIENT_HEIGHT_AT_BOTTOM;
+            var11 = var11.bind(var18)(var7);
+            var7 = var1[var13];
+            var16 = var16.bind(var6)(var7);
+            var7 = var16.useToken;
             var1 = var1[var30];
-            var1 = var16.bind(var6)(var1);
+            var1 = var17.bind(var6)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
             var1 = var1.CHAT_INPUT_CONTAINER_HORIZONTAL_PADDING;
-            var1 = var7.bind(var14)(var1);
+            var1 = var7.bind(var16)(var1);
             _closure2_slot3 = var1;
-            var16 = _closure1_slot6;
-            var14 = var16.useMemo;
+            var17 = _closure1_slot6;
+            var16 = var17.useMemo;
             var7 = new Array(1);
             var7[0] = var1;
             var1 = function() {
@@ -680,7 +689,7 @@ case 19:
                 var1['paddingLeft'] = var2;
                 return var1;
             };
-            var49 = var14.bind(var16)(var1, var7);
+            var49 = var16.bind(var17)(var1, var7);
             var7 = _closure1_slot6;
             var1 = var7.useRef;
             var1 = var1.bind(var7)(var4);
@@ -704,9 +713,9 @@ case 22:
             _fun0003_ip = 23; continue _fun0003;
 case 21:
             var7 = _closure1_slot1;
-            var14 = _closure1_slot3;
+            var17 = _closure1_slot3;
             var1 = 28;
-            var1 = var14[var1];
+            var1 = var17[var1];
             var16 = var7.bind(var6)(var1);
 case 23:
             var1 = var31 != var33;
@@ -717,27 +726,27 @@ case 23:
 case 25:
             var17 = !var1;
 case 24:
-            var14 = _closure1_slot0;
-            var18 = _closure1_slot3;
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot3;
             var7 = 29;
-            var7 = var18[var7];
-            var18 = var14.bind(var6)(var7);
-            var14 = var18.useTypingUserIds;
+            var7 = var19[var7];
+            var19 = var18.bind(var6)(var7);
+            var18 = var19.useTypingUserIds;
             var7 = var12.id;
-            var18 = var14.bind(var18)(var7, var54);
+            var19 = var18.bind(var19)(var7, var54);
             var7 = _closure1_slot22;
             var7 = var7.bind(var6)(var8);
             var41 = var4;
             if(!var4) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
-            var14 = var12.rateLimitPerUser;
-            var14 = var14 > var22;
-            if(var14) { _fun0003_ip = 28; continue _fun0003 }
+            var18 = var12.rateLimitPerUser;
+            var18 = var18 > var22;
+            if(var18) { _fun0003_ip = 28; continue _fun0003 }
 case 29:
-            var18 = var18.length;
-            var14 = var18 > var22;
+            var19 = var19.length;
+            var18 = var19 > var22;
 case 28:
-            var41 = var14;
+            var41 = var18;
 case 26:
             if(!var41) { _fun0003_ip = 30; continue _fun0003 }
 case 31:
@@ -745,10 +754,10 @@ case 31:
 case 30:
             var7 = _closure1_slot21;
             var7 = var7.bind(var6)(var8);
-            var34 = var11;
+            var34 = var14;
             if(!var7) { _fun0003_ip = 32; continue _fun0003 }
 case 33:
-            var34 = var2;
+            var34 = var11;
 case 32:
             var47 = var9;
             if(!var7) { _fun0003_ip = 34; continue _fun0003 }
@@ -1136,7 +1145,7 @@ case 89:
             var13 = var26[var2];
             var32 = var30.bind(var6)(var13);
             var30 = var32.useAnimatedStyle;
-            var13 = function we() {
+            var13 = function We() {
                 var1 = {};
                 var3 = _closure2_slot12;
                 var2 = var3.get;
@@ -2864,7 +2873,7 @@ case 38:
                     var1 = _closure2_slot14;
                     var1 = var1.chatInput;
                     var2 = var1.current;
-                    var1 = var2.focus;
+                    var1 = var2.openSystemKeyboard;
                     var1 = var1.bind(var2)();
 case 190:
                     var1 = undefined;

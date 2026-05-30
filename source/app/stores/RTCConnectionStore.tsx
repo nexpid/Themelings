@@ -1872,47 +1872,73 @@ case 32:
         }
     };
     var2['AUDIO_SET_NOISE_CANCELLATION'] = var11;
-    var11 = function handleVoiceServerUpdate(arg1) {
+    var11 = function handleAudioSetAudioMixerSettings(arg1) {
         _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
+case 0:
+            var1 = arg1;
+            var4 = var1.context;
+            var3 = _closure1_slot14;
+            var3 = var3.DEFAULT;
+            if(!(var4 === var3)) { _fun0035_ip = 93; continue _fun0035 }
+case 19:
+            var3 = _closure1_slot15;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0035_ip = 38; continue _fun0035 }
+case 25:
+            var2 = var3.setSpatialAudioEnabled;
+            var1 = var1.settings;
+            var1 = var1.enabled;
+            var1 = var2.bind(var3)(var1);
+case 38:
+            var1 = undefined;
+            return var1;
+case 93:
+            var1 = false;
+            return var1;
+        }
+    };
+    var2['AUDIO_SET_AUDIO_MIXER_SETTINGS'] = var11;
+    var11 = function handleVoiceServerUpdate(arg1) {
+        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
             var4 = arg1;
             var1 = _closure1_slot15;
             var6 = null;
             var1 = var6 != var1;
-            if(!var1) { _fun0035_ip = 50; continue _fun0035 }
+            if(!var1) { _fun0036_ip = 50; continue _fun0036 }
 case 26:
             var2 = var4.guildId;
             var2 = var6 == var2;
-            if(var2) { _fun0035_ip = 89; continue _fun0035 }
+            if(var2) { _fun0036_ip = 89; continue _fun0036 }
 case 29:
             var7 = var4.guildId;
             var3 = _closure1_slot15;
             var3 = var3.guildId;
             var2 = var7 === var3;
 case 89:
-            if(!var2) { _fun0035_ip = 93; continue _fun0035 }
+            if(!var2) { _fun0036_ip = 94; continue _fun0036 }
 case 88:
             var3 = var4.channelId;
             var3 = var6 == var3;
-            if(var3) { _fun0035_ip = 94; continue _fun0035 }
-case 95:
+            if(var3) { _fun0036_ip = 95; continue _fun0036 }
+case 96:
             var7 = var4.channelId;
             var8 = _closure1_slot15;
             var6 = var8.getNextChannelId;
             var6 = var6.bind(var8)();
             var3 = var7 === var6;
-case 94:
-            if(!var3) { _fun0035_ip = 96; continue _fun0035 }
-case 97:
+case 95:
+            if(!var3) { _fun0036_ip = 97; continue _fun0036 }
+case 98:
             var7 = _closure1_slot15;
             var6 = var7.connect;
             var5 = var4.endpoint;
             var4 = var4.token;
             var4 = var6.bind(var7)(var5, var4);
             var3 = undefined;
-case 96:
+case 97:
             var2 = var3;
-case 93:
+case 94:
             var1 = var2;
 case 50:
             return var1;
@@ -1929,18 +1955,18 @@ case 50:
     };
     var2['CLEAR_LAST_SESSION_VOICE_CHANNEL_ID'] = var10;
     var10 = function handleGuildDelete(arg1) {
-        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
+        _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.guild;
             var4 = _closure1_slot15;
             var3 = null;
-            if(!(var3 != var4)) { _fun0036_ip = 15; continue _fun0036 }
+            if(!(var3 != var4)) { _fun0037_ip = 15; continue _fun0037 }
 case 7:
             var3 = _closure1_slot15;
             var3 = var3.guildId;
             var2 = var2.id;
-            if(!(var3 === var2)) { _fun0036_ip = 15; continue _fun0036 }
+            if(!(var3 === var2)) { _fun0037_ip = 15; continue _fun0037 }
 case 16:
             var2 = _closure1_slot32;
             var1 = undefined;
@@ -1955,43 +1981,43 @@ case 15:
     var2['CHANNEL_DELETE'] = var7;
     var2['THREAD_DELETE'] = var7;
     var7 = function handleCallDelete(arg1) {
-        _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
+        _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.channelId;
             var4 = _closure1_slot15;
             var2 = null;
-            if(!(var2 != var4)) { _fun0037_ip = 98; continue _fun0037 }
+            if(!(var2 != var4)) { _fun0038_ip = 99; continue _fun0038 }
 case 7:
             var2 = _closure1_slot15;
             var2 = var2.channelId;
-            if(!(var2 === var3)) { _fun0037_ip = 98; continue _fun0037 }
+            if(!(var2 === var3)) { _fun0038_ip = 99; continue _fun0038 }
 case 20:
             var2 = _closure1_slot32;
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
-case 98:
+case 99:
             var1 = false;
             return var1;
         }
     };
     var2['CALL_DELETE'] = var7;
     var7 = function handleFocus(arg1) {
-        _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
+        _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.state;
             var2 = _closure1_slot12;
             var2 = var2.ACTIVE;
             var2 = var3 === var2;
-            if(!var2) { _fun0038_ip = 99; continue _fun0038 }
+            if(!var2) { _fun0039_ip = 100; continue _fun0039 }
 case 30:
             var4 = _closure1_slot15;
             var3 = null;
             var2 = var3 != var4;
-case 99:
-            if(!var2) { _fun0038_ip = 12; continue _fun0038 }
+case 100:
+            if(!var2) { _fun0039_ip = 12; continue _fun0039 }
 case 28:
             var3 = _closure1_slot15;
             var2 = var3.resetBackoff;
@@ -2004,7 +2030,7 @@ case 12:
     };
     var2['APP_STATE_UPDATE'] = var7;
     var7 = function handleSimulcastDebugOverrideChanged(arg1) {
-        _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
+        _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.userId;
@@ -2012,7 +2038,7 @@ case 0:
             var3 = var1.quality;
             var2 = _closure1_slot15;
             var1 = null;
-            if(!(var1 != var2)) { _fun0039_ip = 34; continue _fun0039 }
+            if(!(var1 != var2)) { _fun0040_ip = 34; continue _fun0040 }
 case 32:
             var1 = var2.setSimulcastDebugOverride;
             var1 = var1.bind(var2)(var5, var4, var3);

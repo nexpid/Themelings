@@ -176,14 +176,14 @@ case 0:
             var20 = var1.message;
             var19 = var1.channel;
             var9 = var1.layout;
-            var10 = var1.lineClamp;
+            var16 = var1.lineClamp;
             var5 = undefined;
-            if(!(var10 === var5)) { _fun0002_ip = 18; continue _fun0002 }
+            if(!(var16 === var5)) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-            var10 = 1;
+            var16 = 1;
 case 18:
             var12 = var1.muted;
-            var16 = var1.variant;
+            var10 = var1.variant;
             var3 = var1.color;
             var7 = var1.hasReplyNudge;
             var2 = _closure1_slot1;
@@ -282,11 +282,11 @@ case 28:
             var6 = var8.bind(var5)(var6);
             var8 = var6.Text;
             var6 = {};
-            var6['lineClamp'] = var10;
-            var10 = 'text-sm/normal';
-            if(var18) { _fun0002_ip = 33; continue _fun0002 }
+            var6['lineClamp'] = var16;
+            if(!(var1 == var10)) { _fun0002_ip = 33; continue _fun0002 }
 case 34:
-            if(!(var1 == var16)) { _fun0002_ip = 35; continue _fun0002 }
+            var16 = 'text-sm/normal';
+            if(var18) { _fun0002_ip = 35; continue _fun0002 }
 case 36:
             var18 = var15.messagePreview;
             var18 = var18.text;

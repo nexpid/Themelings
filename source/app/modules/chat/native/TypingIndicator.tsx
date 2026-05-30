@@ -59,7 +59,7 @@ case 0:
             var7 = var6[var1];
             var9 = var14.bind(var4)(var7);
             var7 = var9.useAnimatedStyle;
-            var3 = function f() {
+            var3 = function _() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure2_slot2;
@@ -366,9 +366,15 @@ case 18:
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var7 = {};
-    var10 = {'paddingVertical': 4, 'paddingHorizontal': 16, 'alignSelf': 'stretch'};
-    var4 = 16;
+    var10 = {'paddingTop': null, 'paddingBottom': 4, 'paddingHorizontal': 16, 'alignSelf': 'stretch'};
     var12 = 6;
+    var4 = var6[var12];
+    var4 = var13.bind(var1)(var4);
+    var4 = var4.modules;
+    var4 = var4.mobile;
+    var4 = var4.CHAT_INPUT_FLOATING_ACCESSORY_PADDING_TOP;
+    var10['paddingTop'] = var4;
+    var4 = 16;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;

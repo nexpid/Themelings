@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot10;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot10;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -212,9 +212,14 @@ case 35:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.InviteTypes;
+    var4 = var4.PaymentGateways;
     var _closure1_slot7 = var4;
-    var4 = 19;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.InviteTypes;
+    var _closure1_slot8 = var4;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -229,7 +234,7 @@ case 0:
             var3 = var1.theme;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var1 = var5[var1];
             var8 = undefined;
             var1 = var4.bind(var8)(var1);
@@ -279,7 +284,7 @@ case 40:
 case 43:
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var15 = 6;
+            var15 = 7;
             var16 = var19[var15];
             var16 = var18.bind(var8)(var16);
             var17 = var16.intl;
@@ -320,7 +325,7 @@ case 57:
 case 59:
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var7 = 7;
+            var7 = 8;
             var7 = var11[var7];
             var7 = var10.bind(var8)(var7);
             var7 = var7.bind(var8)(var12);
@@ -344,12 +349,12 @@ case 64:
 case 63:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 8;
+            var6 = 9;
             var6 = var11[var6];
             var7 = var10.bind(var8)(var6);
             var6 = var7.isSlayerSkuAvailableOnThisPlatform;
             var7 = var6.bind(var7)(var9);
-            var6 = 9;
+            var6 = 10;
             var6 = var11[var6];
             var10 = var10.bind(var8)(var6);
             var6 = var10.getCardImageURL;
@@ -390,7 +395,7 @@ case 69:
             var6[8] = var11;
             var13 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var14 = 6;
+            var14 = 7;
             var11 = var9[var14];
             var11 = var13.bind(var8)(var11);
             var12 = var11.intl;
@@ -419,7 +424,7 @@ case 69:
             if(var7) { _fun0004_ip = 71; continue _fun0004 }
 case 72:
             var15 = _closure1_slot1;
-            var10 = 10;
+            var10 = 11;
             var10 = var9[var10];
             var10 = var15.bind(var8)(var10);
             var10 = var10.BKf0MM;
@@ -455,7 +460,7 @@ case 78:
             var6[6] = var8;
             var7 = 'canBeAccepted';
             var6[6] = var8;
-            var7 = _closure1_slot7;
+            var7 = _closure1_slot8;
             var8 = var7.GUILD;
             var7 = 'type';
             var6[6] = var8;
@@ -477,7 +482,7 @@ case 54:
             var4 = var3.resolvingGradientStart;
             var3 = 'resolvingGradientStart';
             var1[2] = var4;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var3 = var2.GUILD;
             var2 = 'type';
             var1[1] = var3;
@@ -492,7 +497,7 @@ case 0:
             var _closure2_slot0 = var5;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var4 = var7[var1];
             var1 = undefined;
             var8 = var6.bind(var1)(var4);
@@ -503,7 +508,7 @@ case 0:
             var9 = var6.bind(var8)(var4);
             var _closure2_slot1 = var9;
             var6 = _closure1_slot1;
-            var4 = 12;
+            var4 = 13;
             var4 = var7[var4];
             var6 = var6.bind(var1)(var4);
             var4 = var6.useNativeIAPPayments;
@@ -573,14 +578,14 @@ case 85:
 case 89:
                             var1.return();
 case 88:
-                            var4 = _closure1_slot8;
+                            var4 = _closure1_slot9;
                             var1 = arg2;
                             var1 = var1.codedLinks;
                             var7 = var4.bind(var9)(var1);
                             var4 = var7.bind(var9)();
                             var1 = var4.done;
                             var6 = '-';
-                            var5 = 13;
+                            var5 = 14;
                             if(var1) { _fun0007_ip = 23; continue _fun0007 }
 case 90:
                             var1 = var4.value;
@@ -647,14 +652,14 @@ case 82:
             var4 = function() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                    var3 = _closure1_slot8;
+                    var3 = _closure1_slot9;
                     var2 = _closure2_slot3;
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.bind(var1)();
                     var2 = var3.done;
-                    var10 = 14;
-                    var9 = 15;
+                    var10 = 15;
+                    var9 = 16;
                     var8 = 2;
                     var7 = 0;
                     var6 = 1;
@@ -682,35 +687,46 @@ case 98:
                     var13 = var14.didFetchingSkuFail;
                     var2 = var13.bind(var14)(var16);
 case 97:
-                    if(var2) { _fun0008_ip = 43; continue _fun0008 }
-case 99:
+                    if(var2) { _fun0008_ip = 99; continue _fun0008 }
+case 100:
                     var18 = _closure1_slot0;
                     var17 = _closure1_slot2;
                     var2 = var17[var10];
                     var14 = var18.bind(var1)(var2);
                     var13 = var14.fetchSocialLayerStorefrontSku;
                     var2 = {};
+                    var19 = var17[var9];
+                    var20 = var18.bind(var1)(var19);
+                    var19 = var20.isAndroid;
+                    var19 = var19.bind(var20)();
+                    var2['withGoogleSkuIds'] = var19;
+                    var19 = _closure2_slot2;
+                    var2['countryCode'] = var19;
                     var17 = var17[var9];
                     var18 = var18.bind(var1)(var17);
-                    var17 = var18.isAndroid;
-                    var17 = var17.bind(var18)();
-                    var2['withGoogleSkuIds'] = var17;
-                    var17 = _closure2_slot2;
-                    var2['countryCode'] = var17;
+                    var17 = var18.isIOS;
+                    var18 = var17.bind(var18)();
+                    var17 = undefined;
+                    if(!var18) { _fun0008_ip = 101; continue _fun0008 }
+case 102:
+                    var18 = _closure1_slot7;
+                    var17 = var18.APPLE;
+case 101:
+                    var2['paymentGateway'] = var17;
                     var2 = var13.bind(var14)(var15, var16, var2);
-case 43:
+case 99:
                     var13 = var4.bind(var1)();
                     var2 = var13.done;
                     var3 = var13;
                     if(!var2) { _fun0008_ip = 95; continue _fun0008 }
 case 94:
-                    var3 = _closure1_slot8;
+                    var3 = _closure1_slot9;
                     var2 = _closure2_slot4;
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.bind(var1)();
                     var2 = var3.done;
-                    if(var2) { _fun0008_ip = 100; continue _fun0008 }
-case 101:
+                    if(var2) { _fun0008_ip = 103; continue _fun0008 }
+case 104:
                     var13 = var3.value;
                     var2 = _closure1_slot3;
                     var2 = var2.bind(var1)(var13, var8);
@@ -720,47 +736,58 @@ case 101:
                     var2 = var13.get;
                     var2 = var2.bind(var13)(var16);
                     var2 = var5 != var2;
-                    if(var2) { _fun0008_ip = 102; continue _fun0008 }
-case 103:
+                    if(var2) { _fun0008_ip = 105; continue _fun0008 }
+case 27:
                     var14 = _closure1_slot6;
                     var13 = var14.isFetching;
                     var2 = var13.bind(var14)(var16);
-case 102:
-                    if(var2) { _fun0008_ip = 104; continue _fun0008 }
 case 105:
+                    if(var2) { _fun0008_ip = 106; continue _fun0008 }
+case 107:
                     var14 = _closure1_slot6;
                     var13 = var14.didFetchingSkuFail;
                     var2 = var13.bind(var14)(var16);
-case 104:
-                    if(var2) { _fun0008_ip = 106; continue _fun0008 }
-case 8:
+case 106:
+                    if(var2) { _fun0008_ip = 108; continue _fun0008 }
+case 109:
                     var18 = _closure1_slot0;
                     var17 = _closure1_slot2;
                     var2 = var17[var10];
                     var14 = var18.bind(var1)(var2);
                     var13 = var14.fetchSocialLayerStorefrontSkuForApplication;
                     var2 = {};
+                    var19 = var17[var9];
+                    var20 = var18.bind(var1)(var19);
+                    var19 = var20.isAndroid;
+                    var19 = var19.bind(var20)();
+                    var2['withGoogleSkuIds'] = var19;
+                    var19 = _closure2_slot2;
+                    var2['countryCode'] = var19;
                     var17 = var17[var9];
                     var18 = var18.bind(var1)(var17);
-                    var17 = var18.isAndroid;
-                    var17 = var17.bind(var18)();
-                    var2['withGoogleSkuIds'] = var17;
-                    var17 = _closure2_slot2;
-                    var2['countryCode'] = var17;
+                    var17 = var18.isIOS;
+                    var18 = var17.bind(var18)();
+                    var17 = undefined;
+                    if(!var18) { _fun0008_ip = 110; continue _fun0008 }
+case 111:
+                    var18 = _closure1_slot7;
+                    var17 = var18.APPLE;
+case 110:
+                    var2['paymentGateway'] = var17;
                     var2 = var13.bind(var14)(var15, var16, var2);
-case 106:
+case 108:
                     var13 = var4.bind(var1)();
                     var2 = var13.done;
                     var3 = var13;
-                    if(!var2) { _fun0008_ip = 101; continue _fun0008 }
-case 100:
+                    if(!var2) { _fun0008_ip = 104; continue _fun0008 }
+case 103:
                     return var1;
                 }
             };
             var4 = var6.bind(var7)(var4, var5);
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var4 = 16;
+            var4 = 17;
             var4 = var5[var4];
             var8 = var6.bind(var1)(var4);
             var7 = var8.useStateFromStoresArray;
@@ -783,14 +810,14 @@ case 0:
                         var2 = var1;
                         var3 = undefined;
                         var2 = var2 === var3;
-                        if(var2) { _fun0009_ip = 107; continue _fun0009 }
-case 108:
+                        if(var2) { _fun0009_ip = 112; continue _fun0009 }
+case 113:
                         var3 = var4;
-case 107:
-                        if(var2) { _fun0009_ip = 109; continue _fun0009 }
+case 112:
+                        if(var2) { _fun0009_ip = 114; continue _fun0009 }
 case 34:
                         var1.return();
-case 109:
+case 114:
                         var2 = _closure1_slot6;
                         var1 = var2.get;
                         var1 = var1.bind(var2)(var3);
@@ -814,14 +841,14 @@ case 0:
                         var2 = var1;
                         var3 = undefined;
                         var2 = var2 === var3;
-                        if(var2) { _fun0010_ip = 107; continue _fun0010 }
-case 108:
+                        if(var2) { _fun0010_ip = 112; continue _fun0010 }
+case 113:
                         var3 = var4;
-case 107:
-                        if(var2) { _fun0010_ip = 109; continue _fun0010 }
+case 112:
+                        if(var2) { _fun0010_ip = 114; continue _fun0010 }
 case 34:
                         var1.return();
-case 109:
+case 114:
                         var2 = _closure1_slot6;
                         var1 = var2.get;
                         var1 = var1.bind(var2)(var3);
@@ -834,7 +861,7 @@ case 109:
                 var4 = var5.filter;
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 17;
+                var2 = 18;
                 var6 = var6[var2];
                 var2 = undefined;
                 var2 = var7.bind(var2)(var6);
@@ -862,7 +889,7 @@ case 109:
             };
             var3 = var7.bind(var8)(var6, var3, var4);
             var4 = _closure1_slot1;
-            var2 = 18;
+            var2 = 19;
             var2 = var5[var2];
             var2 = var4.bind(var1)(var2);
             var2 = var2.bind(var1)(var3);

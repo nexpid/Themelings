@@ -793,15 +793,18 @@ case 0:
                             var1['gameId'] = var3;
                             var4 = var2.collectibles_shop_navigation_enabled;
                             var3 = true;
-                            var3 = var3 === var4;
-                            var1['collectiblesShopNavigationEnabled'] = var3;
-                            var2 = var2.excluded_platforms;
-                            var3 = null;
-                            if(!(var3 == var2)) { _fun0005_ip = 93; continue _fun0005 }
+                            var4 = var3 === var4;
+                            var1['collectiblesShopNavigationEnabled'] = var4;
+                            var4 = var2.excluded_platforms;
+                            var5 = null;
+                            if(!(var5 == var4)) { _fun0005_ip = 93; continue _fun0005 }
 case 83:
-                            var2 = new Array(0);
+                            var4 = new Array(0);
 case 93:
-                            var1['excludedPlatforms'] = var2;
+                            var1['excludedPlatforms'] = var4;
+                            var2 = var2.disable_mobile_account_linking;
+                            var2 = var3 === var2;
+                            var1['disableMobileAccountLinking'] = var2;
                             return var1;
                         }
                     };

@@ -162,6 +162,7 @@ case 8:
                 var1['activeOutputSinks'] = var6;
                 var1['videoSupported'] = var5;
                 var1['useElectronVideo'] = var5;
+                var1['spatialAudioEnabled'] = var5;
                 var6 = _closure1_slot10;
                 var1['voiceBitrate'] = var6;
                 var6 = _closure1_slot14;
@@ -267,7 +268,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(26);
+        var1 = new Array(28);
         var1[0] = var5;
         var5 = {};
         var8 = 'getLocalMute';
@@ -1166,7 +1167,7 @@ case 79:
         };
         var7 = var8.bind(var3)(var7);
         var _closure2_slot0 = var7;
-        var6 = function emitStats() {
+        var7 = function emitStats() {
             var1 = undefined;
             var4 = _closure2_slot0;
             var3 = var4.apply;
@@ -1176,8 +1177,40 @@ case 79:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[25] = var5;
+        var5 = {};
+        var7 = 'getSpatialAudioEnabled';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+                var2 = this;
+                var3 = var2.context;
+                var1 = _closure1_slot13;
+                var1 = var1.DEFAULT;
+                var1 = var3 === var1;
+                if(!var1) { _fun0018_ip = 85; continue _fun0018 }
+case 11:
+                var1 = var2.spatialAudioEnabled;
+case 85:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[26] = var5;
+        var5 = {};
+        var7 = 'setSpatialAudioEnabled';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var2 = arg1;
+            var1 = this;
+            var1['spatialAudioEnabled'] = var2;
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[27] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -2,25 +2,20 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
-    var6 = dependencyMap;
+    var4 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var4;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
-    var4 = {};
+    var6 = {};
     var1 = true;
-    var4['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var7 = var6[var1];
-    var4 = metroImportDefault;
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
     var1 = undefined;
-    var4 = var4.bind(var1)(var7);
-    var _closure1_slot2 = var4;
-    var4 = 4;
-    var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/applications/message_embed/native/createActivityMessageEmbed.tsx';
@@ -29,90 +24,73 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.theme;
-            var7 = var1.appId;
-            var8 = var1.embedUrl;
-            var6 = var1.message;
+            var10 = var1.theme;
+            var9 = var1.embedUrl;
+            var8 = var1.message;
+            var5 = var1.app;
+            var4 = var1.params;
             var2 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 1;
-            var1 = var4[var1];
-            var4 = undefined;
-            var5 = var2.bind(var4)(var1);
-            var2 = var5.createAppMessageEmbed;
+            var6 = _closure1_slot1;
+            var1 = 0;
+            var1 = var6[var1];
+            var6 = undefined;
+            var7 = var2.bind(var6)(var1);
+            var2 = var7.createAppMessageEmbed;
             var1 = {};
-            var1['theme'] = var9;
-            var1['appId'] = var7;
-            var1['embedUrl'] = var8;
-            var1['message'] = var6;
-            var2 = var2.bind(var5)(var1);
+            var1['theme'] = var10;
+            var1['embedUrl'] = var9;
+            var1['message'] = var8;
+            var1['app'] = var5;
+            var2 = var2.bind(var7)(var1);
             var1 = null;
             if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var5 = 2;
-            var5 = var9[var5];
-            var6 = var6.bind(var4)(var5);
-            var5 = var6.extractActivityBookmarkParams;
-            var5 = var5.bind(var6)(var8);
-            var8 = var5.linkId;
-            if(!(var1 != var8)) { _fun0001_ip = 4; continue _fun0001 }
+            var7 = var4.linkId;
+            if(!(var1 != var7)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var5 = 3;
-            var5 = var9[var5];
-            var6 = var6.bind(var4)(var5);
-            var5 = var6.getOrFetchCustomActivityLink;
-            var5 = var5.bind(var6)(var7, var8);
-            if(!(var1 != var5)) { _fun0001_ip = 6; continue _fun0001 }
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 1;
+            var3 = var8[var3];
+            var6 = var4.bind(var6)(var3);
+            var4 = var6.getOrFetchCustomActivityLink;
+            var3 = var5.id;
+            var6 = var4.bind(var6)(var3, var7);
+            var4 = var1 == var6;
+            var3 = null;
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var6 = _closure1_slot2;
-            var3 = var6.getApplication;
-            var6 = var3.bind(var6)(var7);
-            var3 = {};
-            var11 = var3;
-            var10 = var2;
-            var7 = copyDataProperties(var11, var10);
-            var7 = var1 == var6;
-            var4 = undefined;
-            if(var7) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var4 = var6.name;
-case 8:
-            var7 = var1 != var4;
+            var4 = {};
+            var12 = var4;
+            var11 = var2;
+            var7 = copyDataProperties(var12, var11);
+            var7 = var5.name;
+            var5 = 'title';
+            var4[4] = var7;
+            var7 = var6.title;
+            var5 = 'header';
+            var4[4] = var7;
+            var7 = var6.description;
+            var5 = 'info';
+            var4[4] = var7;
+            var7 = 'bot';
+            var5 = 'bannerRatio';
+            var4[4] = var7;
+            var5 = var6.getAssetURL;
+            var5 = var5.bind(var6)();
+            var7 = var1 != var5;
             var6 = null;
-            if(!var7) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var6 = var4;
-case 10:
-            var4 = 'title';
-            var3[3] = var6;
-            var6 = var5.title;
-            var4 = 'header';
-            var3[3] = var6;
-            var6 = var5.description;
-            var4 = 'info';
-            var3[3] = var6;
-            var6 = 'bot';
-            var4 = 'bannerRatio';
-            var3[3] = var6;
-            var4 = var5.getAssetURL;
-            var4 = var4.bind(var5)();
-            var6 = var1 != var4;
-            var5 = null;
-            if(!var6) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var5 = var4;
-case 12:
-            var4 = 'staticBannerSrc';
-            var3[3] = var5;
-            var4 = 'tagline';
-            var3[3] = var1;
-            return var3;
+            if(!var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var6 = var5;
+case 8:
+            var5 = 'staticBannerSrc';
+            var4[4] = var6;
+            var5 = 'tagline';
+            var4[4] = var1;
+            var3 = var4;
 case 6:
-            return var1;
+            return var3;
 case 4:
             return var2;
 case 2:

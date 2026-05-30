@@ -61,8 +61,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
-    var10 = 1;
-    var4 = var6[var10];
+    var12 = 1;
+    var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot3 = var4;
@@ -84,10 +84,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'flexDirection': 'row', 'alignItems': 'center'};
-    var4['row'] = var9;
-    var9 = {};
-    var9['flex'] = var10;
     var10 = 5;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var9['padding'] = var13;
+    var4['container'] = var9;
+    var9 = {};
+    var9['flex'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
@@ -186,7 +191,7 @@ case 6:
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;
             var1 = {};
-            var5 = var17.row;
+            var5 = var17.container;
             var1['style'] = var5;
             var6 = var8 == var13;
             var5 = undefined;

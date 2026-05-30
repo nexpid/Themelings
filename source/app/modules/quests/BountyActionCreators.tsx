@@ -1,12 +1,12 @@
 // app/modules/quests/BountyActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var7 = metroImportDefault;
+    var6 = require;
+    var8 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
-    var _closure1_slot2 = var6;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
     var1 = function fetchBountiesAndDispatch() {
         var1 = undefined;
         var4 = _closure1_slot7;
@@ -456,52 +456,52 @@ case 47:
                     var11 = undefined;
                     var16 = undefined;
                     var15 = undefined;
-                    var4 = _closure1_slot4;
-                    var3 = var4.isClaimingBountyReward;
-                    var3 = var3.bind(var4)(var6);
-                    if(var3) { _fun0007_ip = 48; continue _fun0007 }
+                    var5 = _closure1_slot4;
+                    var4 = var5.isClaimingBountyReward;
+                    var4 = var4.bind(var5)(var6);
+                    if(var4) { _fun0007_ip = 48; continue _fun0007 }
 case 49:
-                    var6 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var4 = 4;
-                    var3 = var3[var4];
-                    var8 = var6.bind(var2)(var3);
-                    var6 = var8.dispatch;
-                    var3 = {};
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var6 = 4;
+                    var4 = var4[var6];
+                    var8 = var5.bind(var2)(var4);
+                    var5 = var8.dispatch;
+                    var4 = {};
                     var9 = 'BOUNTIES_CLAIM_REWARD_BEGIN';
-                    var3['type'] = var9;
+                    var4['type'] = var9;
                     var9 = var7;
-                    var3['bountyId'] = var9;
-                    var3 = var6.bind(var8)(var3);
+                    var4['bountyId'] = var9;
+                    var4 = var5.bind(var8)(var4);
 case 50: // try_start_0
-                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var3 = 9;
-                    var3 = var8[var3];
-                    var6 = var6.bind(var2)(var3);
-                    var3 = var6.getSession;
-                    var3 = var3.bind(var6)();
+                    var4 = 9;
+                    var4 = var8[var4];
+                    var5 = var5.bind(var2)(var4);
+                    var4 = var5.getSession;
+                    var4 = var4.bind(var5)();
                     SaveGenerator(address=136);
 case 51:
-                    return var3;
+                    return var4;
 case 5:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0007_ip = 52; continue _fun0007 }
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(var5) { _fun0007_ip = 52; continue _fun0007 }
 case 53:
-                    var12 = var3;
+                    var12 = var4;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var6 = 10;
-                    var6 = var9[var6];
-                    var10 = var8.bind(var2)(var6);
-                    var6 = var10.getOrRefreshAdSession;
-                    var11 = var6.bind(var10)();
+                    var5 = 10;
+                    var5 = var9[var5];
+                    var10 = var8.bind(var2)(var5);
+                    var5 = var10.getOrRefreshAdSession;
+                    var11 = var5.bind(var10)();
                     var10 = 12;
-                    var6 = var9[var10];
-                    var18 = var8.bind(var2)(var6);
+                    var5 = var9[var10];
+                    var18 = var8.bind(var2)(var5);
                     var14 = var18.getAdMetadataSealed;
-                    var6 = 3;
-                    var13 = var9[var6];
+                    var5 = 3;
+                    var13 = var9[var5];
                     var13 = var8.bind(var2)(var13);
                     var13 = var13.QuestContent;
                     var13 = var13.QUEST_HOME_MOBILE_CAROUSEL;
@@ -511,21 +511,21 @@ case 53:
                     var10 = var9[var10];
                     var13 = var8.bind(var2)(var10);
                     var10 = var13.getAdTrafficMetadataSealed;
-                    var6 = var9[var6];
-                    var6 = var8.bind(var2)(var6);
-                    var6 = var6.QuestContent;
-                    var6 = var6.QUEST_HOME_MOBILE_CAROUSEL;
-                    var15 = var10.bind(var13)(var6, var2, var17);
-                    var6 = 11;
-                    var6 = var9[var6];
-                    var6 = var8.bind(var2)(var6);
-                    var9 = var6.HTTP;
+                    var5 = var9[var5];
+                    var5 = var8.bind(var2)(var5);
+                    var5 = var5.QuestContent;
+                    var5 = var5.QUEST_HOME_MOBILE_CAROUSEL;
+                    var15 = var10.bind(var13)(var5, var2, var17);
+                    var5 = 11;
+                    var5 = var9[var5];
+                    var5 = var8.bind(var2)(var5);
+                    var9 = var5.HTTP;
                     var8 = var9.post;
-                    var6 = {};
+                    var5 = {};
                     var13 = _closure1_slot5;
                     var10 = var13.QUESTS_CREATIVES_CLAIM_REWARD;
                     var10 = var10.bind(var13)(var17);
-                    var6['url'] = var10;
+                    var5['url'] = var10;
                     var10 = {};
                     var13 = null;
                     var17 = var13 != var14;
@@ -553,20 +553,20 @@ case 58:
                     var11 = var12.uuid;
 case 57:
                     var10['client_heartbeat_session_id'] = var11;
-                    var6['body'] = var10;
+                    var5['body'] = var10;
                     var10 = false;
-                    var6['rejectWithError'] = var10;
-                    var6 = var8.bind(var9)(var6);
+                    var5['rejectWithError'] = var10;
+                    var5 = var8.bind(var9)(var5);
                     SaveGenerator(address=415);
 case 59:
-                    return var6;
+                    return var5;
 case 60:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
                     if(var8) { _fun0007_ip = 61; continue _fun0007 }
 case 62:
                     var9 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var8 = var8[var4];
+                    var8 = var8[var6];
                     var10 = var9.bind(var2)(var8);
                     var9 = var10.dispatch;
                     var8 = {};
@@ -578,30 +578,30 @@ case 62:
 case 63: // try_end0
                     _fun0007_ip = 48; continue _fun0007;
 case 61:
-                    return var6;
+                    return var5;
 case 52:
-                    return var3;
+                    return var4;
 case 64: // catch_target0
-                    CatchBlockStart(arg_register=2);
-                    var8 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var4 = var9[var4];
-                    var6 = var8.bind(var2)(var4);
+                    CatchBlockStart(arg_register=8);
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var3 = 8;
+                    var3 = var4[var3];
+                    var3 = var5.bind(var2)(var3);
+                    var8 = var3.prototype;
+                    var8 = Object.create(var8, {constructor: {value: var3}});
+                    var22 = var8;
+                    var21 = var9;
+                    var3 = new var22[var3](var21, var20);
+                    var3 = var3 instanceof Object ? var3 : var8;
+                    var4 = var4[var6];
+                    var6 = var5.bind(var2)(var4);
                     var5 = var6.dispatch;
                     var4 = {};
-                    var10 = 'BOUNTIES_CLAIM_REWARD_FAILURE';
-                    var4['type'] = var10;
+                    var8 = 'BOUNTIES_CLAIM_REWARD_FAILURE';
+                    var4['type'] = var8;
                     var4['bountyId'] = var7;
-                    var7 = 8;
-                    var7 = var9[var7];
-                    var7 = var8.bind(var2)(var7);
-                    var8 = var7.prototype;
-                    var8 = Object.create(var8, {constructor: {value: var7}});
-                    var22 = var8;
-                    var21 = var3;
-                    var7 = new var22[var7](var21, var20);
-                    var7 = var7 instanceof Object ? var7 : var8;
-                    var4['error'] = var7;
+                    var4['error'] = var3;
                     var4 = var5.bind(var6)(var4);
                     throw var3;
 case 48:
@@ -622,34 +622,42 @@ case 46:
         return var1;
     };
     var _closure1_slot10 = var1;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var4 = {};
+    var4 = global;
+    var10 = var4.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
     var1 = true;
-    var4['value'] = var1;
+    var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var9.bind(var10)(var3, var1, var5);
     var1 = 0;
-    var4 = var6[var1];
+    var5 = var7[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.Endpoints;
-    var _closure1_slot5 = var4;
-    var4 = 13;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/quests/BountyActionCreators.tsx';
-    var4 = var5.bind(var6)(var4);
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Endpoints;
+    var _closure1_slot5 = var5;
+    var8 = var4.Set;
+    var4 = var8.prototype;
+    var5 = Object.create(var4, {constructor: {value: var8}});
+    var13 = [260019];
+    var14 = var5;
+    var4 = new var14[var8](var13, var12);
+    var4 = var4 instanceof Object ? var4 : var5;
+    var5 = 13;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/quests/BountyActionCreators.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['BOUNTY_CLAIM_REWARD_USER_FACING_ERROR_CODES'] = var4;
     var4 = function fetchQuestHomeBounties() {
         var1 = undefined;
         var4 = _closure1_slot8;

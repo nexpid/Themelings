@@ -121,6 +121,7 @@ case 2:
     var5['hubType'] = var11;
     var5['latestOnboardingQuestionId'] = var11;
     var5['profile'] = var11;
+    var5['guildTheme'] = var11;
     var5['premiumFeatures'] = var11;
     var5['moderatorReporting'] = var11;
     var5['verificationRoleId'] = var11;

@@ -1,0 +1,84 @@
+// app/modules/clips/ClipsV3RuntimeExperiment.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var3 = exports;
+    var8 = dependencyMap;
+    var4 = function isClipsV3Enabled() {
+        var3 = _closure1_slot0;
+        var2 = var3.getConfig;
+        var1 = {};
+        var4 = 'isClipsV3Enabled';
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enableClipsV3;
+        return var1;
+    };
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var8[var1];
+    var1 = undefined;
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createApexExperiment;
+    var5 = {'kind': 'user', 'name': '2026-04-clips-v3-runtime'};
+    var10 = {'enableClipsV3': false, 'enableClipsV3ML': false};
+    var5['defaultConfig'] = var10;
+    var10 = {};
+    var11 = {'enableClipsV3': true, 'enableClipsV3ML': false};
+    var10[1] = var11;
+    var11 = {'enableClipsV3': true, 'enableClipsV3ML': true};
+    var10[2] = var11;
+    var5['variations'] = var10;
+    var5 = var6.bind(var9)(var5);
+    var _closure1_slot0 = var5;
+    var6 = 1;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/clips/ClipsV3RuntimeExperiment.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['ClipsV3RuntimeExperiment'] = var5;
+    var3['isClipsV3Enabled'] = var4;
+    var4 = function getClipsRuntime() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var2 = _closure1_slot1;
+            var1 = undefined;
+            var2 = var2.bind(var1)();
+            var1 = 'v1';
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = 'v3';
+case 2:
+            return var1;
+        }
+    };
+    var3['getClipsRuntime'] = var4;
+    var2 = function isClipsV3MLEnabled() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var2 = var3.getConfig;
+            var1 = {};
+            var4 = 'isClipsV3MLEnabled';
+            var1['location'] = var4;
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.enableClipsV3;
+            var2 = var2.enableClipsV3ML;
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var1 = var2;
+case 4:
+            return var1;
+        }
+    };
+    var3['isClipsV3MLEnabled'] = var2;
+    return var1;
+})();

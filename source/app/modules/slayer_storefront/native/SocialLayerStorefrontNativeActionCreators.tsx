@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -51,17 +51,22 @@ case 0:
             var2 = var4.bind(var5)(var2);
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var4 = 2;
-            var4 = var2[var4];
-            var7 = var5.bind(var1)(var4);
-            var6 = var7.pushLazy;
             var4 = _closure1_slot0;
-            var3 = 4;
+            var2 = _closure1_slot2;
+            var5 = 2;
+            var5 = var2[var5];
+            var6 = var4.bind(var1)(var5);
+            var5 = var6.fetchSocialLayerStorefrontConfig;
+            var5 = var5.bind(var6)();
+            var5 = _closure1_slot1;
+            var3 = 3;
+            var3 = var2[var3];
+            var7 = var5.bind(var1)(var3);
+            var6 = var7.pushLazy;
+            var3 = 5;
             var3 = var2[var3];
             var4 = var4.bind(var1)(var3);
-            var3 = 3;
+            var3 = 4;
             var3 = var2[var3];
             var2 = var2.paths;
             var11 = var4.bind(var1)(var3, var2);
@@ -81,7 +86,7 @@ case 2:
     var4 = function closeSocialLayerStorefrontProductDetailsModal() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -105,31 +110,26 @@ case 0:
             var6 = 'social_layer_storefront_gift_modal';
             var2['location'] = var6;
             var2 = var4.bind(var5)(var2);
-            if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+            if(!var2) { _fun0002_ip = 4; continue _fun0002 }
 case 3:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var4 = 2;
+            var4 = 3;
             var4 = var2[var4];
-            var7 = var5.bind(var1)(var4);
-            var6 = var7.pushLazy;
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.pushLazy;
             var4 = _closure1_slot0;
-            var3 = 4;
-            var3 = var2[var3];
-            var4 = var4.bind(var1)(var3);
             var3 = 5;
             var3 = var2[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = 6;
+            var3 = var2[var3];
             var2 = var2.paths;
-            var11 = var4.bind(var1)(var3, var2);
-            var4 = {};
-            var2 = 'modal';
-            var4['presentation'] = var2;
-            var10 = arg1;
-            var9 = 'social-layer-storefront-native-gift-modal';
-            var12 = var7;
-            var8 = var4;
-            var2 = var12[var6](var11, var10, var9, var8, var7);
-case 2:
+            var4 = var4.bind(var1)(var3, var2);
+            var3 = arg1;
+            var2 = 'social-layer-storefront-native-gift-modal';
+            var2 = var5.bind(var6)(var4, var3, var2);
+case 4:
             return var1;
         }
     };
@@ -137,7 +137,7 @@ case 2:
     var4 = function closeSocialLayerStorefrontGiftModal() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -152,7 +152,7 @@ case 2:
         var _closure2_slot0 = var1;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -161,11 +161,11 @@ case 2:
         var4 = function importer() {
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var2 = 4;
+            var2 = 5;
             var2 = var1[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
-            var2 = 7;
+            var2 = 8;
             var2 = var1[var2];
             var1 = var1.paths;
             var3 = var3.bind(var4)(var2, var1);
@@ -203,7 +203,7 @@ case 2:
         var _closure2_slot0 = var1;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -212,11 +212,11 @@ case 2:
         var4 = function importer() {
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var2 = 4;
+            var2 = 5;
             var2 = var1[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
-            var2 = 7;
+            var2 = 8;
             var2 = var1[var2];
             var1 = var1.paths;
             var3 = var3.bind(var4)(var2, var1);

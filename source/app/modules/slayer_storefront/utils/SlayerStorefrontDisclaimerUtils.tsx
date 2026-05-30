@@ -173,7 +173,7 @@ case 12:
             var2 = var2 != var1;
             var9 = "game's";
             if(!var2) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+case 6:
             var9 = var1;
 case 14:
             var2 = _closure1_slot0;
@@ -183,8 +183,8 @@ case 14:
             var4 = var2.bind(var7)(var4);
             var5 = var4.intl;
             var4 = var5.format;
-            if(var3) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(var3) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var1 = var10[var1];
             var1 = var2.bind(var7)(var1);
             var1 = var1.t;
@@ -192,8 +192,8 @@ case 17:
             var1 = {};
             var1['applicationName'] = var9;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0003_ip = 18; continue _fun0003;
-case 16:
+            _fun0003_ip = 17; continue _fun0003;
+case 15:
             var3 = _closure1_slot1;
             var2 = 5;
             var2 = var10[var2];
@@ -205,7 +205,7 @@ case 16:
             var6 = var6.bind(var7)(var8);
             var2['platforms_info'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 18:
+case 17:
             return var1;
         }
     };
@@ -213,58 +213,69 @@ case 18:
     var4 = function getMobileFinePrintMessageForApplication(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var8 = arg1;
+            var4 = arg1;
             var1 = arg3;
             var1 = var1.shouldAppendDisclaimer;
             var2 = null;
-            var4 = var2 == var8;
-            var7 = undefined;
+            var5 = var2 == var4;
+            var8 = undefined;
             var3 = undefined;
-            if(var4) { _fun0004_ip = 12; continue _fun0004 }
+            if(var5) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
-            var3 = var8.name;
+            var3 = var4.name;
 case 12:
-            var4 = var2 != var3;
+            var5 = var2 != var3;
             var2 = "game's";
-            if(!var4) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+            if(!var5) { _fun0004_ip = 14; continue _fun0004 }
+case 6:
             var2 = var3;
 case 14:
-            var9 = {};
+            var6 = {};
             var3 = arg2;
-            var9['buyButtonLabel'] = var3;
-            var3 = _closure1_slot4;
-            var3 = var3.PAID_TERMS;
-            var9['paidServiceTermURL'] = var3;
-            var9['applicationName'] = var2;
-            var3 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var2 = var3.bind(var7)(var2);
-            var5 = var2.intl;
+            var6['buyButtonLabel'] = var3;
+            var5 = _closure1_slot4;
+            var5 = var5.PAID_TERMS;
+            var6['paidServiceTermURL'] = var5;
+            var6['applicationName'] = var2;
+            if(var1) { _fun0004_ip = 18; continue _fun0004 }
+case 16:
+            var2 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 4;
+            var1 = var9[var1];
+            var1 = var2.bind(var8)(var1);
+            var5 = var1.intl;
+            var2 = var5.format;
+            var7 = _closure1_slot1;
+            var1 = 5;
+            var1 = var9[var1];
+            var1 = var7.bind(var8)(var1);
+            var1 = var1.Ufm9XX;
+            var2 = var2.bind(var5)(var1, var6);
+            var1 = new Array(1);
+            var1[0] = var2;
+            _fun0004_ip = 19; continue _fun0004;
+case 18:
+            var2 = _closure1_slot8;
+            var4 = var2.bind(var8)(var4);
+            var2 = new Array(2);
+            var2[0] = var4;
+            var5 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var4 = 4;
+            var4 = var9[var4];
+            var4 = var5.bind(var8)(var4);
+            var5 = var4.intl;
             var4 = var5.format;
-            var3 = _closure1_slot1;
-            var2 = 5;
-            var2 = var10[var2];
-            var2 = var3.bind(var7)(var2);
-            if(var1) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
-            var1 = var2.Ufm9XX;
-            var1 = var4.bind(var5)(var1, var9);
-            _fun0004_ip = 21; continue _fun0004;
+            var7 = _closure1_slot1;
+            var3 = 5;
+            var3 = var9[var3];
+            var3 = var7.bind(var8)(var3);
+            var3 = var3.Ufm9XX;
+            var3 = var4.bind(var5)(var3, var6);
+            var2[1] = var3;
+            var1 = var2;
 case 19:
-            var3 = var2.N6cvS+;
-            var2 = {};
-            var12 = var2;
-            var11 = var9;
-            var9 = copyDataProperties(var12, var11);
-            var6 = _closure1_slot8;
-            var7 = var6.bind(var7)(var8);
-            var6 = 'platforms_info';
-            var2[5] = var7;
-            var1 = var4.bind(var5)(var3, var2);
-case 21:
             return var1;
         }
     };
@@ -308,13 +319,13 @@ case 0:
             var1 = var4[var1];
             var7 = undefined;
             var1 = var3.bind(var7)(var1);
-            if(var2) { _fun0005_ip = 22; continue _fun0005 }
-case 6:
+            if(var2) { _fun0005_ip = 20; continue _fun0005 }
+case 2:
             var4 = var1.vyAtfo;
-            _fun0005_ip = 23; continue _fun0005;
-case 22:
+            _fun0005_ip = 21; continue _fun0005;
+case 20:
             var4 = var1.yqAKVO;
-case 23:
+case 21:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 4;

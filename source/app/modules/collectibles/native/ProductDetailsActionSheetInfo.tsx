@@ -55,11 +55,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['body'] = var9;
     var9 = {'flexDirection': 'column', 'gap': 6};
     var4['description'] = var9;
-    var9 = {'alignSelf': 'flex-start', 'paddingVertical': 14};
-    var4['badgeWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 13;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -73,120 +71,78 @@ case 0:
             var12 = var1.onTrackPress;
             var1 = _closure1_slot6;
             var4 = undefined;
-            var20 = var1.bind(var4)();
-            var7 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var19 = var1.bind(var4)();
+            var15 = _closure1_slot0;
+            var14 = _closure1_slot2;
             var1 = 4;
-            var1 = var11[var1];
-            var2 = var7.bind(var4)(var1);
+            var1 = var14[var1];
+            var2 = var15.bind(var4)(var1);
             var1 = var2.isPremiumCollectiblesProduct;
             var6 = var1.bind(var2)(var13);
             var1 = 5;
-            var1 = var11[var1];
-            var2 = var7.bind(var4)(var1);
+            var1 = var14[var1];
+            var2 = var15.bind(var4)(var1);
             var1 = var2.useProductPurchaseState;
             var1 = var1.bind(var2)(var13);
             var10 = var1.isPurchased;
             var9 = var1.isPartiallyOwnedBundle;
             var1 = 6;
-            var1 = var11[var1];
-            var2 = var7.bind(var4)(var1);
+            var1 = var14[var1];
+            var2 = var15.bind(var4)(var1);
             var1 = var2.useProductDescription;
             var17 = var1.bind(var2)(var13);
-            var1 = var13.hideBadge;
-            var2 = 7;
-            var2 = var11[var2];
-            var5 = var7.bind(var4)(var2);
-            var3 = var5.useIsProfileFramesEarlyAccessPhase;
-            var2 = 'ProductDetailsActionSheetInfo';
-            var2 = var3.bind(var5)(var2);
-            var5 = var13.type;
-            var3 = 8;
-            var3 = var11[var3];
-            var3 = var7.bind(var4)(var3);
-            var3 = var3.CollectiblesItemType;
-            var3 = var3.PROFILE_FRAME;
-            var7 = var5 === var3;
-            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var7 = var2;
-case 2:
-            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var7 = !var1;
-case 4:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
-            var5 = var20.body;
+            var5 = var19.body;
             var1['style'] = var5;
             var5 = {};
-            var11 = var20.description;
-            var5['style'] = var11;
-            if(!var7) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var15 = _closure1_slot4;
-            var14 = _closure1_slot3;
-            var11 = {};
-            var16 = var20.badgeWrapper;
-            var11['style'] = var16;
-            var18 = _closure1_slot1;
-            var19 = _closure1_slot2;
-            var16 = 9;
-            var16 = var19[var16];
-            var18 = var18.bind(var4)(var16);
-            var16 = {'location': 'ProductDetailsActionSheetInfo', 'inheritLayerScope': true};
-            var16 = var15.bind(var4)(var18, var16);
-            var11['children'] = var16;
-            var7 = var15.bind(var4)(var14, var11);
-case 6:
-            var11 = new Array(3);
-            var11[0] = var7;
+            var7 = var19.description;
+            var5['style'] = var7;
             var16 = _closure1_slot4;
-            var15 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var7 = 10;
-            var18 = var14[var7];
-            var18 = var15.bind(var4)(var18);
-            var19 = var18.Text;
-            var18 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
-            var20 = var20.title;
-            var18['style'] = var20;
-            var20 = var13.name;
-            var18['children'] = var20;
-            var18 = var16.bind(var4)(var19, var18);
-            var11[1] = var18;
+            var7 = 7;
+            var11 = var14[var7];
+            var11 = var15.bind(var4)(var11);
+            var18 = var11.Text;
+            var11 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
+            var19 = var19.title;
+            var11['style'] = var19;
+            var19 = var13.name;
+            var11['children'] = var19;
+            var18 = var16.bind(var4)(var18, var11);
+            var11 = new Array(2);
+            var11[0] = var18;
             var14 = var14[var7];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
             var14 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var14['children'] = var17;
             var14 = var16.bind(var4)(var15, var14);
-            var11[2] = var14;
+            var11[1] = var14;
             var5['children'] = var11;
             var11 = var3.bind(var4)(var2, var5);
             var5 = new Array(2);
             var5[0] = var11;
-            if(var10) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            if(var9) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = !var6;
-            if(!var6) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = _closure1_slot4;
             var10 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var9 = 12;
+            var9 = 9;
             var9 = var14[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
             var9['product'] = var13;
             var9['onTrackPress'] = var12;
             var6 = var11.bind(var4)(var10, var9);
-case 12:
-            _fun0001_ip = 14; continue _fun0001;
-case 10:
+case 6:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var11 = _closure1_slot4;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -194,7 +150,7 @@ case 10:
             var9 = var15.bind(var4)(var9);
             var10 = var9.Text;
             var9 = {'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
-            var12 = 11;
+            var12 = 8;
             var13 = var16[var12];
             var13 = var15.bind(var4)(var13);
             var14 = var13.intl;
@@ -206,9 +162,9 @@ case 10:
             var12 = var13.bind(var14)(var12);
             var9['children'] = var12;
             var6 = var11.bind(var4)(var10, var9);
-case 14:
-            _fun0001_ip = 15; continue _fun0001;
 case 8:
+            _fun0001_ip = 9; continue _fun0001;
+case 2:
             var9 = _closure1_slot4;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -216,7 +172,7 @@ case 8:
             var7 = var13.bind(var4)(var7);
             var8 = var7.Text;
             var7 = {'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
-            var10 = 11;
+            var10 = 8;
             var11 = var14[var10];
             var11 = var13.bind(var4)(var11);
             var12 = var11.intl;
@@ -228,7 +184,7 @@ case 8:
             var10 = var11.bind(var12)(var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 15:
+case 9:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

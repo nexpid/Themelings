@@ -91,7 +91,7 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var4 = var4.PaymentGateways;
     var _closure1_slot4 = var4;
-    var4 = 4;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -167,8 +167,64 @@ case 12:
         }
     };
     var3['captureBillingException'] = var4;
-    var4 = function captureBillingMessage(arg1, arg2) {
+    var4 = function isExpectedHttpClientError(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var3 = arg1;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 4;
+            var1 = var5[var1];
+            var5 = undefined;
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.HTTPResponseError;
+            var1 = var3 instanceof var1;
+            if(!var1) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+            var6 = var3.status;
+            var4 = 400;
+            var1 = var6 >= var4;
+case 14:
+            if(!var1) { _fun0003_ip = 16; continue _fun0003 }
+case 13:
+            var6 = var3.status;
+            var4 = 500;
+            var1 = var6 < var4;
+case 16:
+            if(var1) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 5;
+            var2 = var6[var2];
+            var2 = var4.bind(var5)(var2);
+            var2 = var3 instanceof var2;
+            if(!var2) { _fun0003_ip = 2; continue _fun0003 }
+case 19:
+            var5 = var3.status;
+            var4 = null;
+            var2 = var4 != var5;
+case 2:
+            if(!var2) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
+            var5 = var3.status;
+            var4 = 400;
+            var2 = var5 >= var4;
+case 20:
+            if(!var2) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
+            var4 = var3.status;
+            var3 = 500;
+            var2 = var4 < var3;
+case 22:
+            var1 = var2;
+case 17:
+            return var1;
+        }
+    };
+    var3['isExpectedHttpClientError'] = var4;
+    var4 = function captureBillingMessage(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var7 = arg2;
             var3 = _closure1_slot1;
@@ -186,7 +242,7 @@ case 0:
             var2 = null;
             var8 = var2 == var7;
             var2 = undefined;
-            if(var8) { _fun0003_ip = 12; continue _fun0003 }
+            if(var8) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
             var2 = var7.tags;
 case 12:
@@ -205,77 +261,77 @@ case 12:
     };
     var3['captureBillingMessage'] = var4;
     var2 = function calculateStandardizedUnits(arg1, arg2) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var3 = arg1;
             var4 = arg2;
             var1 = 'P1M';
             var1 = var1 === var3;
             var5 = var1;
-            if(!var1) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+            if(!var1) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var2 = 'P1Y';
             var5 = var2 === var4;
-case 14:
+case 24:
             var2 = true;
-            if(!(var5 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+            if(!(var5 !== var2)) { _fun0005_ip = 26; continue _fun0005 }
+case 15:
             var5 = var1;
-            if(!var1) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+            if(!var1) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var6 = 'P6M';
             var5 = var6 === var4;
-case 18:
-            if(!(var5 !== var2)) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
-            if(!var1) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+case 27:
+            if(!(var5 !== var2)) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
+            if(!var1) { _fun0005_ip = 16; continue _fun0005 }
+case 31:
             var5 = 'P3M';
             var1 = var5 === var4;
-case 22:
-            if(!(var1 !== var2)) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+case 16:
+            if(!(var1 !== var2)) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
             var1 = 'P3M';
             var1 = var1 === var3;
             var5 = var1;
-            if(!var1) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+            if(!var1) { _fun0005_ip = 19; continue _fun0005 }
+case 34:
             var6 = 'P1Y';
             var5 = var6 === var4;
-case 26:
-            if(!(var5 !== var2)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
-            if(!var1) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+case 19:
+            if(!(var5 !== var2)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+            if(!var1) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var5 = 'P6M';
             var1 = var5 === var4;
-case 30:
-            if(!(var1 !== var2)) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+case 37:
+            if(!(var1 !== var2)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var1 = 'P6M';
             var1 = var1 === var3;
-            if(!var1) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+            if(!var1) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var3 = 'P1Y';
             var1 = var3 === var4;
-case 34:
-            if(!(var1 !== var2)) { _fun0004_ip = 32; continue _fun0004 }
-case 36:
+case 41:
+            if(!(var1 !== var2)) { _fun0005_ip = 39; continue _fun0005 }
+case 43:
             var1 = 1;
             return var1;
-case 32:
+case 39:
             var1 = 2;
             return var1;
-case 28:
+case 35:
             var1 = 4;
             return var1;
-case 24:
+case 32:
             var1 = 3;
             return var1;
-case 20:
+case 29:
             var1 = 6;
             return var1;
-case 16:
+case 26:
             var1 = 12;
             return var1;
         }

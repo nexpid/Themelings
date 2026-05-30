@@ -790,32 +790,32 @@ case 71:
     var3['createOneTimePurchaseInvoicePreview'] = var6;
     var3['getSubscriptionInvoice'] = var5;
     var3['useFetchGenericInvoicePreview'] = var4;
-    var4 = function useFetchSubscriptionGiftInvoicePreview(arg1) {
-        var4 = arg1;
-        var _closure2_slot0 = var4;
+    var4 = function useFetchSubscriptionGiftInvoicePreview(arg1, arg2) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
         var6 = _closure1_slot10;
-        var3 = undefined;
-        var5 = var6.bind(var3)(var4);
-        var _closure2_slot1 = var5;
-        var5 = false;
-        var5 = var6.bind(var3)(var5);
-        var _closure2_slot2 = var5;
+        var4 = undefined;
+        var3 = var6.bind(var4)(var5);
+        var _closure2_slot1 = var3;
+        var3 = false;
+        var3 = var6.bind(var4)(var3);
+        var _closure2_slot2 = var3;
         var6 = _closure1_slot8;
-        var5 = function() {
+        var3 = function() {
             var2 = _closure2_slot1;
             var1 = _closure2_slot0;
             var2['current'] = var1;
             var1 = undefined;
             return var1;
         };
-        var5 = var6.bind(var3)(var5);
-        var5 = global;
-        var6 = var5.JSON;
-        var5 = var6.stringify;
-        var7 = var5.bind(var6)(var4);
+        var3 = var6.bind(var4)(var3);
+        var3 = global;
+        var6 = var3.JSON;
+        var3 = var6.stringify;
+        var7 = var3.bind(var6)(var5);
         var6 = _closure1_slot7;
-        var5 = new Array(1);
-        var5[0] = var7;
+        var3 = new Array(1);
+        var3[0] = var7;
         var2 = function() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -844,58 +844,59 @@ case 73:
                 return var1;
             }
         };
-        var2 = var6.bind(var3)(var2, var5);
-        var1 = _closure1_slot21;
-        var1 = var1.bind(var3)(var4, var2);
+        var3 = var6.bind(var4)(var2, var3);
+        var2 = _closure1_slot21;
+        var1 = arg2;
+        var1 = var2.bind(var4)(var5, var3, var1);
         return var1;
     };
     var3['useFetchSubscriptionGiftInvoicePreview'] = var4;
-    var4 = function useFetchSubscriptionInvoicePreview(arg1) {
+    var4 = function useFetchSubscriptionInvoicePreview(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var6 = arg1;
             var _closure2_slot0 = var6;
             var1 = 'subscriptionId';
             var1 = var1 in var6;
-            var4 = var6;
+            var5 = var6;
             if(!var1) { _fun0009_ip = 69; continue _fun0009 }
 case 74:
             var3 = var6.subscriptionId;
             var1 = null;
-            var4 = var6;
+            var5 = var6;
             if(!(var1 == var3)) { _fun0009_ip = 69; continue _fun0009 }
 case 71:
             var1 = var6.subscriptionId;
-            var5 = _closure1_slot4;
+            var4 = _closure1_slot4;
             var3 = _closure1_slot3;
             var1 = undefined;
-            var1 = var5.bind(var1)(var6, var3);
+            var1 = var4.bind(var1)(var6, var3);
             _closure2_slot0 = var1;
-            var4 = var1;
+            var5 = var1;
 case 69:
             var6 = _closure1_slot10;
-            var3 = undefined;
-            var5 = var6.bind(var3)(var4);
-            var _closure2_slot1 = var5;
-            var5 = false;
-            var5 = var6.bind(var3)(var5);
-            var _closure2_slot2 = var5;
+            var4 = undefined;
+            var3 = var6.bind(var4)(var5);
+            var _closure2_slot1 = var3;
+            var3 = false;
+            var3 = var6.bind(var4)(var3);
+            var _closure2_slot2 = var3;
             var6 = _closure1_slot8;
-            var5 = function() {
+            var3 = function() {
                 var2 = _closure2_slot1;
                 var1 = _closure2_slot0;
                 var2['current'] = var1;
                 var1 = undefined;
                 return var1;
             };
-            var5 = var6.bind(var3)(var5);
-            var5 = global;
-            var6 = var5.JSON;
-            var5 = var6.stringify;
-            var7 = var5.bind(var6)(var4);
+            var3 = var6.bind(var4)(var3);
+            var3 = global;
+            var6 = var3.JSON;
+            var3 = var6.stringify;
+            var7 = var3.bind(var6)(var5);
             var6 = _closure1_slot7;
-            var5 = new Array(1);
-            var5[0] = var7;
+            var3 = new Array(1);
+            var3[0] = var7;
             var2 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -943,36 +944,37 @@ case 78:
                     return var1;
                 }
             };
-            var2 = var6.bind(var3)(var2, var5);
-            var1 = _closure1_slot21;
-            var1 = var1.bind(var3)(var4, var2);
+            var3 = var6.bind(var4)(var2, var3);
+            var2 = _closure1_slot21;
+            var1 = arg2;
+            var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
         }
     };
     var3['useFetchSubscriptionInvoicePreview'] = var4;
-    var4 = function useGetSubscriptionInvoice(arg1) {
-        var4 = arg1;
-        var _closure2_slot0 = var4;
-        var5 = _closure1_slot10;
-        var3 = undefined;
-        var5 = var5.bind(var3)(var4);
-        var _closure2_slot1 = var5;
+    var4 = function useGetSubscriptionInvoice(arg1, arg2) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var3 = _closure1_slot10;
+        var4 = undefined;
+        var3 = var3.bind(var4)(var5);
+        var _closure2_slot1 = var3;
         var6 = _closure1_slot8;
-        var5 = function() {
+        var3 = function() {
             var2 = _closure2_slot1;
             var1 = _closure2_slot0;
             var2['current'] = var1;
             var1 = undefined;
             return var1;
         };
-        var5 = var6.bind(var3)(var5);
-        var5 = global;
-        var6 = var5.JSON;
-        var5 = var6.stringify;
-        var7 = var5.bind(var6)(var4);
+        var3 = var6.bind(var4)(var3);
+        var3 = global;
+        var6 = var3.JSON;
+        var3 = var6.stringify;
+        var7 = var3.bind(var6)(var5);
         var6 = _closure1_slot7;
-        var5 = new Array(1);
-        var5[0] = var7;
+        var3 = new Array(1);
+        var3[0] = var7;
         var2 = function() {
             var3 = _closure1_slot19;
             var1 = _closure2_slot1;
@@ -981,9 +983,10 @@ case 78:
             var1 = var3.bind(var1)(var2);
             return var1;
         };
-        var2 = var6.bind(var3)(var2, var5);
-        var1 = _closure1_slot21;
-        var1 = var1.bind(var3)(var4, var2);
+        var3 = var6.bind(var4)(var2, var3);
+        var2 = _closure1_slot21;
+        var1 = arg2;
+        var1 = var2.bind(var4)(var5, var3, var1);
         return var1;
     };
     var3['useGetSubscriptionInvoice'] = var4;

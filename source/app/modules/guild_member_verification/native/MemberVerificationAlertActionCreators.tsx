@@ -467,6 +467,8 @@ case 6:
         var4 = var3.bind(var1)(var2);
         var3 = var4.openLazy;
         var2 = {};
+        var6 = true;
+        var2['isDismissable'] = var6;
         var5 = function importer() {
             var3 = _closure1_slot0;
             var1 = _closure1_slot3;

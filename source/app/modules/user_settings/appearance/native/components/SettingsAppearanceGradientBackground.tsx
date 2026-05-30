@@ -76,371 +76,424 @@ case 2:
         var _closure1_slot9 = var4;
         var4 = var7.memo;
         var2 = function SettingsAppearanceGradientBackground(arg1) {
-            var3 = arg1;
-            var2 = var3.isDimmed;
-            var _closure2_slot0 = var2;
-            var8 = var3.themes;
-            var _closure2_slot1 = var8;
-            var6 = var3.themeIndex;
-            var _closure2_slot2 = var6;
-            var7 = _closure1_slot3;
-            var4 = var7.useMemo;
-            var3 = new Array(3);
-            var3[0] = var8;
-            var3[1] = var6;
-            var3[2] = var2;
-            var2 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 6;
-                    var1 = var2[var1];
-                    var2 = undefined;
-                    var6 = var3.bind(var2)(var1);
-                    var5 = var6.convertThemesToAnimatedThemes;
-                    var4 = _closure2_slot1;
-                    var8 = _closure2_slot0;
-                    var3 = undefined;
-                    if(!var8) { _fun0002_ip = 4; continue _fun0002 }
+                var2 = arg1;
+                var9 = var2.isDimmed;
+                var _closure2_slot0 = var9;
+                var13 = var2.themes;
+                var _closure2_slot1 = var13;
+                var11 = var2.themeIndex;
+                var _closure2_slot2 = var11;
+                var2 = var2.backgroundToken;
+                var4 = undefined;
+                if(!(var2 === var4)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var8 = _closure1_slot5;
-                    var3 = var8.BACKGROUND_GRADIENT_DARK_OPACITY;
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var3 = 9;
+                var3 = var6[var3];
+                var3 = var5.bind(var4)(var3);
+                var3 = var3.colors;
+                var2 = var3.BACKGROUND_SURFACE_HIGH;
 case 4:
-                    var8 = _closure2_slot0;
-                    var2 = undefined;
-                    if(!var8) { _fun0002_ip = 6; continue _fun0002 }
+                var _closure2_slot3 = var2;
+                var _closure2_slot4 = var4;
+                var _closure2_slot5 = var4;
+                var _closure2_slot6 = var4;
+                var _closure2_slot7 = var4;
+                var _closure2_slot8 = var4;
+                var12 = _closure1_slot1;
+                var10 = _closure1_slot2;
+                var3 = 10;
+                var3 = var10[var3];
+                var6 = var12.bind(var4)(var3);
+                var3 = 'SettingsAppearanceGradientBackground';
+                var3 = var6.bind(var4)(var3);
+                _closure2_slot4 = var3;
+                var7 = _closure1_slot3;
+                var8 = var7.useMemo;
+                var6 = new Array(1);
+                var6[0] = var3;
+                var3 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var1 = _closure2_slot4;
+                        if(var1) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-                    var7 = _closure1_slot5;
-                    var2 = var7.BACKGROUND_GRADIENT_LIGHT_OPACITY;
+                        var1 = new Array(0);
+                        _fun0003_ip = 8; continue _fun0003;
 case 6:
-                    var2 = var5.bind(var6)(var4, var3, var2);
-                    var1 = _closure2_slot2;
-                    var1 = var2[var1];
-                    return var1;
-                }
-            };
-            var3 = var4.bind(var7)(var2, var3);
-            var2 = function useThemeStateTracker(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var8 = arg1;
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 6;
-                    var2 = var5[var2];
-                    var6 = undefined;
-                    var3 = var3.bind(var6)(var2);
-                    var2 = var3.useLaunchWelcomeSystemTheme;
-                    var7 = var2.bind(var3)();
-                    var3 = var8.theme;
-                    var2 = 'system';
-                    if(!(var2 === var3)) { _fun0003_ip = 4; continue _fun0003 }
+                        var1 = ['mobile-visual-refresh'];
 case 8:
-                    var8 = var7;
-case 4:
-                    var _closure3_slot0 = var8;
-                    var5 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var2 = 4;
-                    var3 = var9[var2];
-                    var11 = var5.bind(var6)(var3);
-                    var10 = var11.useSharedValue;
-                    var3 = {};
-                    var3['themePrev'] = var8;
-                    var3['themeCurrent'] = var8;
-                    var3 = var10.bind(var11)(var3);
-                    var _closure3_slot1 = var3;
-                    var2 = var9[var2];
-                    var6 = var5.bind(var6)(var2);
-                    var5 = var6.useSharedValue;
-                    var2 = 0;
-                    var2 = var5.bind(var6)(var2);
-                    var _closure3_slot2 = var2;
-                    var6 = _closure1_slot3;
-                    var5 = var6.useEffect;
-                    var4 = new Array(4);
-                    var4[0] = var8;
-                    var4[1] = var3;
-                    var4[2] = var2;
-                    var4[3] = var7;
-                    var1 = function() {
-                        var4 = _closure3_slot1;
-                        var3 = var4.set;
-                        var2 = {};
-                        var6 = _closure3_slot1;
-                        var5 = var6.get;
-                        var5 = var5.bind(var6)();
-                        var5 = var5.themeCurrent;
-                        var2['themePrev'] = var5;
-                        var5 = _closure3_slot0;
-                        var2['themeCurrent'] = var5;
-                        var2 = var3.bind(var4)(var2);
-                        var4 = _closure3_slot2;
-                        var3 = var4.set;
-                        var2 = 0;
-                        var2 = var3.bind(var4)(var2);
-                        var4 = _closure3_slot2;
-                        var3 = var4.set;
-                        var5 = _closure1_slot0;
-                        var8 = _closure1_slot2;
-                        var1 = 7;
-                        var2 = var8[var1];
-                        var1 = undefined;
-                        var7 = var5.bind(var1)(var2);
-                        var6 = var7.withTiming;
-                        var2 = 8;
-                        var2 = var8[var2];
-                        var2 = var5.bind(var1)(var2);
-                        var5 = var2.timingStandard;
-                        var2 = 1;
-                        var2 = var6.bind(var7)(var2, var5);
-                        var2 = var3.bind(var4)(var2);
                         return var1;
-                    };
-                    var1 = var5.bind(var6)(var1, var4);
-                    var1 = {};
-                    var1['themeState'] = var3;
-                    var1['tweener'] = var2;
-                    return var1;
-                }
-            };
-            var4 = undefined;
-            var2 = var2.bind(var4)(var3);
-            var12 = var2.themeState;
-            var _closure2_slot3 = var12;
-            var11 = var2.tweener;
-            var _closure2_slot4 = var11;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var8 = 4;
-            var2 = var10[var8];
-            var6 = var9.bind(var4)(var2);
-            var3 = var6.useSharedValue;
-            var2 = {'width': 0, 'height': 0};
-            var13 = var3.bind(var6)(var2);
-            var _closure2_slot5 = var13;
-            var6 = var7.useCallback;
-            var3 = new Array(1);
-            var3[0] = var13;
-            var2 = function(arg1) {
-                var1 = arg1;
-                var4 = var1.nativeEvent;
-                var3 = _closure2_slot5;
-                var2 = var3.set;
-                var1 = {};
-                var5 = var4.layout;
-                var5 = var5.width;
-                var1['width'] = var5;
-                var4 = var4.layout;
-                var4 = var4.height;
-                var1['height'] = var4;
-                var1 = var2.bind(var3)(var1);
-                var1 = undefined;
-                return var1;
-            };
-            var7 = var6.bind(var7)(var2, var3);
-            var2 = var10[var8];
-            var3 = var9.bind(var4)(var2);
-            var2 = var3.useAnimatedProps;
-            var1 = function P() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    }
+                };
+                var8 = var8.bind(var7)(var3, var6);
+                _closure2_slot5 = var8;
+                var6 = var7.useMemo;
+                var3 = new Array(5);
+                var3[0] = var13;
+                var3[1] = var11;
+                var3[2] = var9;
+                var3[3] = var8;
+                var3[4] = var2;
+                var2 = function() {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var3 = _closure2_slot5;
-                    var1 = var3.get;
-                    var1 = var1.bind(var3)();
-                    var8 = var1.width;
-                    var4 = var1.height;
-                    var7 = 0;
-                    if(!(var7 !== var8)) { _fun0004_ip = 9; continue _fun0004 }
-case 10:
-                    if(!(var7 !== var4)) { _fun0004_ip = 9; continue _fun0004 }
-case 11:
-                    var3 = _closure2_slot3;
-                    var1 = var3.get;
-                    var1 = var1.bind(var3)();
-                    var3 = var1.themePrev;
-                    var5 = var3.colors;
-                    var _closure3_slot0 = var5;
-                    var14 = var3.angle;
-                    var1 = var1.themeCurrent;
-                    var3 = var1.colors;
-                    var _closure3_slot1 = var3;
-                    var3 = var1.angle;
-                    var12 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var6 = 4;
-                    var11 = var10[var6];
-                    var6 = undefined;
-                    var13 = var12.bind(var6)(var11);
-                    var12 = var13.interpolate;
-                    var11 = _closure2_slot4;
-                    var9 = var11.get;
-                    var11 = var9.bind(var11)();
-                    var9 = new Array(2);
-                    var9[0] = var14;
-                    var9[1] = var3;
-                    var3 = [0, 1];
-                    var9 = var12.bind(var13)(var11, var3, var9);
-                    var3 = 90;
-                    var3 = var3 - var9;
-                    var9 = _closure1_slot1;
-                    var1 = 9;
-                    var1 = var10[var1];
-                    var1 = var9.bind(var6)(var1);
-                    var6 = var1.bind(var6)(var3, var8, var4);
-                    var1 = {};
-                    var9 = var5.map;
-                    var3 = function(arg1, arg2) {
-                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                            var8 = arg2;
-                            var5 = _closure1_slot0;
-                            var6 = _closure1_slot2;
-                            var1 = 4;
-                            var2 = var6[var1];
-                            var4 = undefined;
-                            var3 = var5.bind(var4)(var2);
-                            var2 = var3.processColor;
-                            var1 = var6[var1];
-                            var7 = var5.bind(var4)(var1);
-                            var6 = var7.interpolateColor;
-                            var4 = _closure2_slot4;
-                            var1 = var4.get;
-                            var5 = var1.bind(var4)();
-                            var4 = _closure3_slot0;
-                            var4 = var4[var8];
-                            var9 = var4.hex;
-                            var4 = new Array(2);
-                            var4[0] = var9;
-                            var1 = _closure3_slot1;
-                            var1 = var1[var8];
-                            var1 = var1.hex;
-                            var4[1] = var1;
-                            var1 = [0, 1];
-                            var1 = var6.bind(var7)(var5, var1, var4);
-                            var2 = var2.bind(var3)(var1);
-                            var1 = null;
-                            var3 = var1 != var2;
-                            var1 = 0;
-                            if(!var3) { _fun0005_ip = 12; continue _fun0005 }
-case 13:
-                            var1 = var2;
-case 12:
-                            return var1;
-                        }
-                    };
-                    var3 = var9.bind(var5)(var3);
-                    var1['colors'] = var3;
-                    var3 = var5.map;
-                    var2 = function(arg1, arg2) {
-                        var7 = arg2;
                         var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 4;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var5 = var3.bind(var1)(var2);
-                        var4 = var5.interpolate;
-                        var2 = _closure2_slot4;
-                        var1 = var2.get;
-                        var3 = var1.bind(var2)();
-                        var2 = _closure3_slot0;
-                        var2 = var2[var7];
-                        var2 = var2.stop;
-                        var6 = 100;
-                        var8 = var2 / var6;
-                        var2 = new Array(2);
-                        var2[0] = var8;
-                        var1 = _closure3_slot1;
-                        var1 = var1[var7];
-                        var1 = var1.stop;
-                        var1 = var1 / var6;
-                        var2[1] = var1;
-                        var1 = [0, 1];
-                        var1 = var4.bind(var5)(var3, var1, var2);
-                        return var1;
-                    };
-                    var2 = var3.bind(var5)(var2);
-                    var1['locations'] = var2;
-                    var2 = {};
-                    var5 = 2;
-                    var9 = var8 / var5;
-                    var3 = var6[var7];
-                    var3 = var9 + var3;
-                    var3 = var3 / var8;
-                    var2['x'] = var3;
-                    var10 = var4 / var5;
-                    var3 = 1;
-                    var9 = var6[var3];
-                    var9 = var10 - var9;
-                    var9 = var9 / var4;
-                    var2['y'] = var9;
-                    var1['startPoint'] = var2;
-                    var2 = {};
-                    var9 = var8 / var5;
-                    var7 = var6[var7];
-                    var7 = var9 - var7;
-                    var7 = var7 / var8;
-                    var2['x'] = var7;
-                    var5 = var4 / var5;
-                    var3 = var6[var3];
-                    var3 = var5 + var3;
-                    var3 = var3 / var4;
-                    var2['y'] = var3;
-                    var1['endPoint'] = var2;
-                    return var1;
+                        var4 = _closure1_slot2;
+                        var1 = 6;
+                        var1 = var4[var1];
+                        var4 = undefined;
+                        var8 = var3.bind(var4)(var1);
+                        var7 = var8.convertThemesToAnimatedThemes;
+                        var6 = _closure2_slot1;
+                        var3 = _closure2_slot0;
+                        var5 = undefined;
+                        if(!var3) { _fun0004_ip = 9; continue _fun0004 }
+case 5:
+                        var3 = _closure1_slot5;
+                        var5 = var3.BACKGROUND_GRADIENT_DARK_OPACITY;
 case 9:
-                    var1 = _closure1_slot8;
+                        var3 = _closure2_slot0;
+                        var4 = undefined;
+                        if(!var3) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
+                        var2 = _closure1_slot5;
+                        var4 = var2.BACKGROUND_GRADIENT_LIGHT_OPACITY;
+case 10:
+                        var10 = _closure2_slot5;
+                        var9 = _closure2_slot3;
+                        var14 = var8;
+                        var13 = var6;
+                        var12 = var5;
+                        var11 = var4;
+                        var2 = var14[var7](var13, var12, var11, var10, var9, var8);
+                        var1 = _closure2_slot2;
+                        var1 = var2[var1];
+                        return var1;
+                    }
+                };
+                var3 = var6.bind(var7)(var2, var3);
+                var2 = function useThemeStateTracker(arg1) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                        var8 = arg1;
+                        var3 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        var2 = 6;
+                        var2 = var5[var2];
+                        var6 = undefined;
+                        var3 = var3.bind(var6)(var2);
+                        var2 = var3.useLaunchWelcomeSystemTheme;
+                        var7 = var2.bind(var3)();
+                        var3 = var8.theme;
+                        var2 = 'system';
+                        if(!(var2 === var3)) { _fun0005_ip = 9; continue _fun0005 }
+case 12:
+                        var8 = var7;
+case 9:
+                        var _closure3_slot0 = var8;
+                        var5 = _closure1_slot0;
+                        var9 = _closure1_slot2;
+                        var2 = 4;
+                        var3 = var9[var2];
+                        var11 = var5.bind(var6)(var3);
+                        var10 = var11.useSharedValue;
+                        var3 = {};
+                        var3['themePrev'] = var8;
+                        var3['themeCurrent'] = var8;
+                        var3 = var10.bind(var11)(var3);
+                        var _closure3_slot1 = var3;
+                        var2 = var9[var2];
+                        var6 = var5.bind(var6)(var2);
+                        var5 = var6.useSharedValue;
+                        var2 = 0;
+                        var2 = var5.bind(var6)(var2);
+                        var _closure3_slot2 = var2;
+                        var6 = _closure1_slot3;
+                        var5 = var6.useEffect;
+                        var4 = new Array(4);
+                        var4[0] = var8;
+                        var4[1] = var3;
+                        var4[2] = var2;
+                        var4[3] = var7;
+                        var1 = function() {
+                            var4 = _closure3_slot1;
+                            var3 = var4.set;
+                            var2 = {};
+                            var6 = _closure3_slot1;
+                            var5 = var6.get;
+                            var5 = var5.bind(var6)();
+                            var5 = var5.themeCurrent;
+                            var2['themePrev'] = var5;
+                            var5 = _closure3_slot0;
+                            var2['themeCurrent'] = var5;
+                            var2 = var3.bind(var4)(var2);
+                            var4 = _closure3_slot2;
+                            var3 = var4.set;
+                            var2 = 0;
+                            var2 = var3.bind(var4)(var2);
+                            var4 = _closure3_slot2;
+                            var3 = var4.set;
+                            var5 = _closure1_slot0;
+                            var8 = _closure1_slot2;
+                            var1 = 7;
+                            var2 = var8[var1];
+                            var1 = undefined;
+                            var7 = var5.bind(var1)(var2);
+                            var6 = var7.withTiming;
+                            var2 = 8;
+                            var2 = var8[var2];
+                            var2 = var5.bind(var1)(var2);
+                            var5 = var2.timingStandard;
+                            var2 = 1;
+                            var2 = var6.bind(var7)(var2, var5);
+                            var2 = var3.bind(var4)(var2);
+                            return var1;
+                        };
+                        var1 = var5.bind(var6)(var1, var4);
+                        var1 = {};
+                        var1['themeState'] = var3;
+                        var1['tweener'] = var2;
+                        return var1;
+                    }
+                };
+                var2 = var2.bind(var4)(var3);
+                var13 = var2.themeState;
+                _closure2_slot6 = var13;
+                var11 = var2.tweener;
+                _closure2_slot7 = var11;
+                var9 = _closure1_slot0;
+                var8 = 4;
+                var2 = var10[var8];
+                var6 = var9.bind(var4)(var2);
+                var3 = var6.useSharedValue;
+                var2 = {'width': 0, 'height': 0};
+                var14 = var3.bind(var6)(var2);
+                _closure2_slot8 = var14;
+                var6 = var7.useCallback;
+                var3 = new Array(1);
+                var3[0] = var14;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var4 = var1.nativeEvent;
+                    var3 = _closure2_slot8;
+                    var2 = var3.set;
+                    var1 = {};
+                    var5 = var4.layout;
+                    var5 = var5.width;
+                    var1['width'] = var5;
+                    var4 = var4.layout;
+                    var4 = var4.height;
+                    var1['height'] = var4;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
                     return var1;
-                }
-            };
-            var6 = {};
-            var6['gradientSize'] = var13;
-            var13 = _closure1_slot8;
-            var6['animatedLinearGradientLoadingProps'] = var13;
-            var6['themeState'] = var12;
-            var12 = var10[var8];
-            var12 = var9.bind(var4)(var12);
-            var12 = var12.interpolate;
-            var6['interpolate'] = var12;
-            var6['tweener'] = var11;
-            var12 = _closure1_slot1;
-            var11 = 9;
-            var11 = var10[var11];
-            var11 = var12.bind(var4)(var11);
-            var6['getGradientStartPoint'] = var11;
-            var11 = var10[var8];
-            var11 = var9.bind(var4)(var11);
-            var11 = var11.processColor;
-            var6['processColor'] = var11;
-            var8 = var10[var8];
-            var8 = var9.bind(var4)(var8);
-            var8 = var8.interpolateColor;
-            var6['interpolateColor'] = var8;
-            var1['__closure'] = var6;
-            var6 = 5151435414824.0;
-            var1['__workletHash'] = var6;
-            var6 = _closure1_slot9;
-            var1['__initData'] = var6;
-            var6 = var2.bind(var3)(var1);
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot7;
-            var1 = {};
-            var8 = _closure1_slot4;
-            var8 = var8.absoluteFill;
-            var1['style'] = var8;
-            var1['onLayout'] = var7;
-            var14 = _closure1_slot8;
-            var15 = var1;
-            var5 = copyDataProperties(var15, var14);
-            var5 = 'animatedProps';
-            var1[4] = var6;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
+                };
+                var7 = var6.bind(var7)(var2, var3);
+                var2 = var10[var8];
+                var3 = var9.bind(var4)(var2);
+                var2 = var3.useAnimatedProps;
+                var1 = function P() {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                        var3 = _closure2_slot8;
+                        var1 = var3.get;
+                        var1 = var1.bind(var3)();
+                        var8 = var1.width;
+                        var4 = var1.height;
+                        var7 = 0;
+                        if(!(var7 !== var8)) { _fun0006_ip = 13; continue _fun0006 }
+case 14:
+                        if(!(var7 !== var4)) { _fun0006_ip = 13; continue _fun0006 }
+case 15:
+                        var3 = _closure2_slot6;
+                        var1 = var3.get;
+                        var1 = var1.bind(var3)();
+                        var3 = var1.themePrev;
+                        var5 = var3.colors;
+                        var _closure3_slot0 = var5;
+                        var14 = var3.angle;
+                        var1 = var1.themeCurrent;
+                        var3 = var1.colors;
+                        var _closure3_slot1 = var3;
+                        var3 = var1.angle;
+                        var12 = _closure1_slot0;
+                        var10 = _closure1_slot2;
+                        var6 = 4;
+                        var11 = var10[var6];
+                        var6 = undefined;
+                        var13 = var12.bind(var6)(var11);
+                        var12 = var13.interpolate;
+                        var11 = _closure2_slot7;
+                        var9 = var11.get;
+                        var11 = var9.bind(var11)();
+                        var9 = new Array(2);
+                        var9[0] = var14;
+                        var9[1] = var3;
+                        var3 = [0, 1];
+                        var9 = var12.bind(var13)(var11, var3, var9);
+                        var3 = 90;
+                        var3 = var3 - var9;
+                        var9 = _closure1_slot1;
+                        var1 = 11;
+                        var1 = var10[var1];
+                        var1 = var9.bind(var6)(var1);
+                        var6 = var1.bind(var6)(var3, var8, var4);
+                        var1 = {};
+                        var9 = var5.map;
+                        var3 = function(arg1, arg2) {
+                            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                                var8 = arg2;
+                                var5 = _closure1_slot0;
+                                var6 = _closure1_slot2;
+                                var1 = 4;
+                                var2 = var6[var1];
+                                var4 = undefined;
+                                var3 = var5.bind(var4)(var2);
+                                var2 = var3.processColor;
+                                var1 = var6[var1];
+                                var7 = var5.bind(var4)(var1);
+                                var6 = var7.interpolateColor;
+                                var4 = _closure2_slot7;
+                                var1 = var4.get;
+                                var5 = var1.bind(var4)();
+                                var4 = _closure3_slot0;
+                                var4 = var4[var8];
+                                var9 = var4.hex;
+                                var4 = new Array(2);
+                                var4[0] = var9;
+                                var1 = _closure3_slot1;
+                                var1 = var1[var8];
+                                var1 = var1.hex;
+                                var4[1] = var1;
+                                var1 = [0, 1];
+                                var1 = var6.bind(var7)(var5, var1, var4);
+                                var2 = var2.bind(var3)(var1);
+                                var1 = null;
+                                var3 = var1 != var2;
+                                var1 = 0;
+                                if(!var3) { _fun0007_ip = 16; continue _fun0007 }
+case 17:
+                                var1 = var2;
+case 16:
+                                return var1;
+                            }
+                        };
+                        var3 = var9.bind(var5)(var3);
+                        var1['colors'] = var3;
+                        var3 = var5.map;
+                        var2 = function(arg1, arg2) {
+                            var7 = arg2;
+                            var3 = _closure1_slot0;
+                            var2 = _closure1_slot2;
+                            var1 = 4;
+                            var2 = var2[var1];
+                            var1 = undefined;
+                            var5 = var3.bind(var1)(var2);
+                            var4 = var5.interpolate;
+                            var2 = _closure2_slot7;
+                            var1 = var2.get;
+                            var3 = var1.bind(var2)();
+                            var2 = _closure3_slot0;
+                            var2 = var2[var7];
+                            var2 = var2.stop;
+                            var6 = 100;
+                            var8 = var2 / var6;
+                            var2 = new Array(2);
+                            var2[0] = var8;
+                            var1 = _closure3_slot1;
+                            var1 = var1[var7];
+                            var1 = var1.stop;
+                            var1 = var1 / var6;
+                            var2[1] = var1;
+                            var1 = [0, 1];
+                            var1 = var4.bind(var5)(var3, var1, var2);
+                            return var1;
+                        };
+                        var2 = var3.bind(var5)(var2);
+                        var1['locations'] = var2;
+                        var2 = {};
+                        var5 = 2;
+                        var9 = var8 / var5;
+                        var3 = var6[var7];
+                        var3 = var9 + var3;
+                        var3 = var3 / var8;
+                        var2['x'] = var3;
+                        var10 = var4 / var5;
+                        var3 = 1;
+                        var9 = var6[var3];
+                        var9 = var10 - var9;
+                        var9 = var9 / var4;
+                        var2['y'] = var9;
+                        var1['startPoint'] = var2;
+                        var2 = {};
+                        var9 = var8 / var5;
+                        var7 = var6[var7];
+                        var7 = var9 - var7;
+                        var7 = var7 / var8;
+                        var2['x'] = var7;
+                        var5 = var4 / var5;
+                        var3 = var6[var3];
+                        var3 = var5 + var3;
+                        var3 = var3 / var4;
+                        var2['y'] = var3;
+                        var1['endPoint'] = var2;
+                        return var1;
+case 13:
+                        var1 = _closure1_slot8;
+                        return var1;
+                    }
+                };
+                var6 = {};
+                var6['gradientSize'] = var14;
+                var14 = _closure1_slot8;
+                var6['animatedLinearGradientLoadingProps'] = var14;
+                var6['themeState'] = var13;
+                var13 = var10[var8];
+                var13 = var9.bind(var4)(var13);
+                var13 = var13.interpolate;
+                var6['interpolate'] = var13;
+                var6['tweener'] = var11;
+                var11 = 11;
+                var11 = var10[var11];
+                var11 = var12.bind(var4)(var11);
+                var6['getGradientStartPoint'] = var11;
+                var11 = var10[var8];
+                var11 = var9.bind(var4)(var11);
+                var11 = var11.processColor;
+                var6['processColor'] = var11;
+                var8 = var10[var8];
+                var8 = var9.bind(var4)(var8);
+                var8 = var8.interpolateColor;
+                var6['interpolateColor'] = var8;
+                var1['__closure'] = var6;
+                var6 = 5151435414824.0;
+                var1['__workletHash'] = var6;
+                var6 = _closure1_slot9;
+                var1['__initData'] = var6;
+                var6 = var2.bind(var3)(var1);
+                var3 = _closure1_slot6;
+                var2 = _closure1_slot7;
+                var1 = {};
+                var8 = _closure1_slot4;
+                var8 = var8.absoluteFill;
+                var1['style'] = var8;
+                var1['onLayout'] = var7;
+                var15 = _closure1_slot8;
+                var16 = var1;
+                var5 = copyDataProperties(var16, var15);
+                var5 = 'animatedProps';
+                var1[4] = var6;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
+            }
         };
         var2 = var4.bind(var7)(var2);
-        var4 = 10;
+        var4 = 12;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

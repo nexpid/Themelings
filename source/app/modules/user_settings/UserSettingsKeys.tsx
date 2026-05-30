@@ -790,6 +790,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ACTIVITY_PRIVACY_VOICE_JOIN_SETTING'] = var1;
     var1 = 'activity_privacy_terms';
     var2['ACTIVITY_PRIVACY_TERMS'] = var1;
+    var1 = 'activity_privacy_notify_friends_online_setting';
+    var2['ACTIVITY_PRIVACY_NOTIFY_FRIENDS_ONLINE_SETTING'] = var1;
     var1 = 'registered_games_sidebar_item';
     var2['REGISTERED_GAMES_SIDEBAR_ITEM'] = var1;
     var1 = 'registered_games_panel';

@@ -77,30 +77,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
-    var12 = var12.PX_40;
+    var12 = var12.PX_16;
     var9['marginBottom'] = var12;
     var4['description'] = var9;
     var9 = {'flexDirection': 'row', 'flexWrap': 'wrap'};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_8;
+    var9['rowGap'] = var12;
     var4['tierCards'] = var9;
     var9 = {'width': '33.33%', 'alignItems': 'center'};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
     var12 = var12.PX_8;
-    var9['paddingHorizontal'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_16;
-    var9['paddingVertical'] = var12;
+    var9['padding'] = var12;
     var4['tierCard'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.spacing;
     var10 = var10.PX_8;
-    var9['marginBottom'] = var10;
-    var4['icon'] = var9;
+    var9['paddingVertical'] = var10;
+    var4['iconWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
     var4 = 15;
@@ -185,7 +185,7 @@ case 0:
             var8 = var18[var9];
             var8 = var16.bind(var4)(var8);
             var12 = var8.Text;
-            var8 = {'style': null, 'variant': 'heading-xl/bold', 'accessibilityRole': 'header'};
+            var8 = {'style': null, 'variant': 'heading-xl/semibold', 'color': 'text-strong', 'accessibilityRole': 'header'};
             var14 = var10.title;
             var8['style'] = var14;
             var15 = 12;
@@ -205,11 +205,9 @@ case 0:
             var9 = var18[var9];
             var9 = var16.bind(var4)(var9);
             var12 = var9.Text;
-            var9 = {};
+            var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var19 = var10.description;
             var9['style'] = var19;
-            var19 = 'text-md/medium';
-            var9['variant'] = var19;
             var15 = var18[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.intl;
@@ -242,15 +240,15 @@ case 0:
                     var2 = _closure2_slot1;
                     if(var2) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                    var13 = var1.complex_icon_animated_url;
+                    var14 = var1.complex_icon_animated_url;
                     var2 = null;
-                    if(!(var2 == var13)) { _fun0002_ip = 7; continue _fun0002 }
+                    if(!(var2 == var14)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-                    var13 = var1.complex_icon_static_url;
+                    var14 = var1.complex_icon_static_url;
 case 7:
-                    if(!(var2 == var13)) { _fun0002_ip = 9; continue _fun0002 }
+                    if(!(var2 == var14)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                    var13 = var1.simple_icon_url;
+                    var14 = var1.simple_icon_url;
 case 9:
                     _fun0002_ip = 11; continue _fun0002;
 case 5:
@@ -260,7 +258,7 @@ case 5:
 case 13:
                     var2 = var1.simple_icon_url;
 case 12:
-                    var13 = var2;
+                    var14 = var2;
 case 11:
                     var2 = _closure1_slot6;
                     var5 = undefined;
@@ -272,22 +270,26 @@ case 11:
                     var6 = var6.tierCard;
                     var2['style'] = var6;
                     var7 = null;
-                    var8 = var7 != var13;
+                    var8 = var7 != var14;
                     if(!var8) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
                     var10 = _closure1_slot7;
-                    var9 = _closure1_slot1;
-                    var14 = _closure1_slot2;
-                    var6 = 14;
-                    var6 = var14[var6];
-                    var9 = var9.bind(var5)(var6);
+                    var9 = _closure1_slot3;
                     var6 = {};
-                    var6['icon'] = var13;
-                    var13 = 64;
-                    var6['size'] = var13;
                     var12 = _closure2_slot0;
-                    var12 = var12.icon;
+                    var12 = var12.iconWrapper;
                     var6['style'] = var12;
+                    var13 = _closure1_slot1;
+                    var16 = _closure1_slot2;
+                    var12 = 14;
+                    var12 = var16[var12];
+                    var13 = var13.bind(var5)(var12);
+                    var12 = {};
+                    var12['icon'] = var14;
+                    var14 = 58;
+                    var12['size'] = var14;
+                    var12 = var10.bind(var5)(var13, var12);
+                    var6['children'] = var12;
                     var8 = var10.bind(var5)(var9, var6);
 case 14:
                     var6 = new Array(3);
@@ -299,9 +301,7 @@ case 14:
                     var9 = var9[var8];
                     var9 = var10.bind(var5)(var9);
                     var10 = var9.Text;
-                    var9 = {};
-                    var13 = 'text-lg/semibold';
-                    var9['variant'] = var13;
+                    var9 = {'variant': 'text-lg/semibold', 'color': 'text-strong'};
                     var13 = var1.name;
                     var9['children'] = var13;
                     var9 = var12.bind(var5)(var10, var9);
@@ -315,9 +315,7 @@ case 17:
                     var8 = var16[var8];
                     var8 = var13.bind(var5)(var8);
                     var9 = var8.Text;
-                    var8 = {};
-                    var12 = 'text-md/normal';
-                    var8['variant'] = var12;
+                    var8 = {'variant': 'text-md/normal', 'color': 'text-subtle'};
                     var12 = 12;
                     var12 = var16[var12];
                     var12 = var13.bind(var5)(var12);

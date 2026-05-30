@@ -213,7 +213,7 @@ case 35:
     var4 = var5.bind(var1)(var4);
     var4 = var4.SpeakingFlags;
     var _closure1_slot7 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -245,83 +245,83 @@ case 35:
     var2 = function getClipEventsTimeline(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var9 = arg1;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var11 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 4;
-            var4 = var4[var1];
+            var3 = var3[var1];
             var1 = undefined;
-            var4 = var5.bind(var1)(var4);
-            var6 = var4.ClipsTimelineExperiment;
-            var5 = var6.getConfig;
-            var4 = {};
-            var7 = 'getClipEventsTimeline';
-            var4['location'] = var7;
-            var4 = var5.bind(var6)(var4);
-            var4 = var4.enableTimelineUpload;
-            if(!var4) { _fun0004_ip = 36; continue _fun0004 }
+            var3 = var4.bind(var1)(var3);
+            var5 = var3.ClipsTimelineExperiment;
+            var4 = var5.getConfig;
+            var3 = {};
+            var6 = 'getClipEventsTimeline';
+            var3['location'] = var6;
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.enableTimelineUpload;
+            if(!var3) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-            var4 = var9.timeline;
+            var3 = var11.timeline;
             var15 = null;
-            var5 = var15 == var4;
-            var6 = undefined;
-            if(var5) { _fun0004_ip = 38; continue _fun0004 }
-case 9:
-            var6 = var4.length;
-case 38:
-            var7 = var15 != var6;
-            var4 = 0;
-            var5 = 0;
-            if(!var7) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-            var5 = var6;
-case 39:
-            if(!(var4 !== var5)) { _fun0004_ip = 36; continue _fun0004 }
-case 41:
-            var6 = var9.decision;
-            var7 = var15 == var6;
+            var4 = var15 == var3;
             var5 = undefined;
-            if(var7) { _fun0004_ip = 42; continue _fun0004 }
+            if(var4) { _fun0004_ip = 38; continue _fun0004 }
+case 9:
+            var5 = var3.length;
+case 38:
+            var6 = var15 != var5;
+            var4 = 0;
+            var3 = 0;
+            if(!var6) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
+            var3 = var5;
+case 39:
+            if(!(var4 !== var3)) { _fun0004_ip = 36; continue _fun0004 }
+case 41:
+            var5 = var11.decision;
+            var6 = var15 == var5;
+            var3 = undefined;
+            if(var6) { _fun0004_ip = 42; continue _fun0004 }
 case 43:
-            var5 = var6.timestamp;
+            var3 = var5.timestamp;
 case 42:
-            if(!(var15 != var5)) { _fun0004_ip = 36; continue _fun0004 }
+            if(!(var15 != var3)) { _fun0004_ip = 36; continue _fun0004 }
 case 44:
-            var5 = var9.editMetadata;
-            var7 = var15 == var5;
-            var6 = undefined;
-            if(var7) { _fun0004_ip = 14; continue _fun0004 }
+            var3 = var11.editMetadata;
+            var6 = var15 == var3;
+            var5 = undefined;
+            if(var6) { _fun0004_ip = 14; continue _fun0004 }
 case 45:
-            var6 = var5.voiceAudio;
+            var5 = var3.voiceAudio;
 case 14:
-            var5 = false;
-            if(!(var5 !== var6)) { _fun0004_ip = 36; continue _fun0004 }
+            var3 = false;
+            if(!(var3 !== var5)) { _fun0004_ip = 36; continue _fun0004 }
 case 46:
-            var5 = var9.editMetadata;
-            if(!(var15 == var5)) { _fun0004_ip = 47; continue _fun0004 }
+            var3 = var11.editMetadata;
+            if(!(var15 == var3)) { _fun0004_ip = 47; continue _fun0004 }
 case 48:
-            var6 = {};
-            var6['start'] = var4;
-            var8 = var9.length;
-            var7 = 1000;
-            var7 = var8 / var7;
-            var6['end'] = var7;
-            var5 = var6;
+            var5 = {};
+            var5['start'] = var4;
+            var7 = var11.length;
+            var6 = 1000;
+            var6 = var7 / var6;
+            var5['end'] = var6;
+            var3 = var5;
 case 47:
-            var6 = var9.decision;
-            var7 = var6.timestamp;
-            var6 = var9.length;
-            var6 = var7 - var6;
-            var8 = var5.start;
-            var7 = 1000;
-            var8 = var7 * var8;
-            var14 = var6 + var8;
-            var5 = var5.end;
-            var5 = var7 * var5;
-            var13 = var6 + var5;
-            var7 = var9.timeline;
-            var6 = var7.filter;
-            var5 = function(arg1) {
+            var5 = var11.decision;
+            var6 = var5.timestamp;
+            var5 = var11.length;
+            var5 = var6 - var5;
+            var7 = var3.start;
+            var6 = 1000;
+            var7 = var6 * var7;
+            var14 = var5 + var7;
+            var3 = var3.end;
+            var3 = var6 * var3;
+            var13 = var5 + var3;
+            var6 = var11.timeline;
+            var5 = var6.filter;
+            var3 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.signal;
                 var2 = var1.type;
@@ -336,8 +336,8 @@ case 47:
                 var1 = var2 === var1;
                 return var1;
             };
-            var6 = var6.bind(var7)(var5);
-            var5 = var6.sort;
+            var5 = var5.bind(var6)(var3);
+            var3 = var5.sort;
             var2 = function(arg1, arg2) {
                 var1 = arg1;
                 var2 = var1.timestamp;
@@ -346,62 +346,62 @@ case 47:
                 var1 = var2 - var1;
                 return var1;
             };
-            var5 = var5.bind(var6)(var2);
-            var2 = var5.length;
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.length;
             if(!(var4 === var2)) { _fun0004_ip = 49; continue _fun0004 }
 case 36:
             return var1;
 case 49:
             var12 = global;
             var2 = var12.Map;
-            var6 = var2.prototype;
-            var6 = Object.create(var6, {constructor: {value: var2}});
-            var25 = var6;
+            var5 = var2.prototype;
+            var5 = Object.create(var5, {constructor: {value: var2}});
+            var25 = var5;
             var2 = new var25[var2](var24);
-            var11 = var2 instanceof Object ? var2 : var6;
-            var8 = new Array(0);
+            var10 = var2 instanceof Object ? var2 : var5;
+            var9 = new Array(0);
             var2 = _closure1_slot8;
-            var7 = var2.bind(var1)(var5);
-            var6 = var7.bind(var1)();
-            var2 = var6.done;
+            var6 = var2.bind(var1)(var3);
+            var5 = var6.bind(var1)();
+            var2 = var5.done;
             if(var2) { _fun0004_ip = 50; continue _fun0004 }
 case 51:
-            var10 = var6.value;
-            var2 = var10.timestamp;
+            var7 = var5.value;
+            var2 = var7.timestamp;
             if(!(!(var2 >= var14))) { _fun0004_ip = 50; continue _fun0004 }
 case 52:
-            var2 = var10.signal;
+            var2 = var7.signal;
             var17 = var2.speakingFlags;
             var2 = _closure1_slot7;
             var16 = var2.VOICE;
             var17 = var17 & var16;
             var2 = var2.VOICE;
-            var16 = var11.set;
-            var10 = var10.signal;
-            var10 = var10.userId;
+            var16 = var10.set;
+            var7 = var7.signal;
+            var7 = var7.userId;
             var2 = var17 === var2;
-            var2 = var16.bind(var11)(var10, var2);
-            var10 = var7.bind(var1)();
-            var2 = var10.done;
-            var6 = var10;
+            var2 = var16.bind(var10)(var7, var2);
+            var7 = var6.bind(var1)();
+            var2 = var7.done;
+            var5 = var7;
             if(!var2) { _fun0004_ip = 51; continue _fun0004 }
 case 50:
             var2 = _closure1_slot8;
-            var16 = var2.bind(var1)(var11);
-            var6 = var16.bind(var1)();
-            var2 = var6.done;
-            var10 = 2;
-            var7 = 1;
+            var16 = var2.bind(var1)(var10);
+            var5 = var16.bind(var1)();
+            var2 = var5.done;
+            var7 = 2;
+            var6 = 1;
             if(var2) { _fun0004_ip = 53; continue _fun0004 }
 case 54:
-            var17 = var6.value;
+            var17 = var5.value;
             var2 = _closure1_slot3;
-            var2 = var2.bind(var1)(var17, var10);
+            var2 = var2.bind(var1)(var17, var7);
             var19 = var2[var4];
-            var2 = var2[var7];
+            var2 = var2[var6];
             if(!var2) { _fun0004_ip = 55; continue _fun0004 }
 case 56:
-            var17 = var8.push;
+            var17 = var9.push;
             var2 = {};
             var2['timestamp_ms'] = var4;
             var18 = {};
@@ -410,23 +410,23 @@ case 56:
             var19 = var19.VOICE;
             var18['speaking_flags'] = var19;
             var2['speaking'] = var18;
-            var2 = var17.bind(var8)(var2);
+            var2 = var17.bind(var9)(var2);
 case 55:
             var17 = var16.bind(var1)();
             var2 = var17.done;
-            var6 = var17;
+            var5 = var17;
             if(!var2) { _fun0004_ip = 54; continue _fun0004 }
 case 53:
             var2 = _closure1_slot8;
-            var10 = var2.bind(var1)(var5);
-            var5 = var10.bind(var1)();
-            var2 = var5.done;
-            var7 = var5;
-            var6 = undefined;
+            var7 = var2.bind(var1)(var3);
+            var3 = var7.bind(var1)();
+            var2 = var3.done;
+            var6 = var3;
             var5 = undefined;
+            var3 = undefined;
             if(var2) { _fun0004_ip = 57; continue _fun0004 }
 case 58:
-            var20 = var7.value;
+            var20 = var6.value;
             var2 = var20.timestamp;
             if(!(!(var2 < var14))) { _fun0004_ip = 59; continue _fun0004 }
 case 60:
@@ -440,24 +440,24 @@ case 61:
             var16 = var17 & var16;
             var2 = var2.VOICE;
             var2 = var16 === var2;
-            var17 = var11.get;
+            var17 = var10.get;
             var16 = var20.signal;
             var16 = var16.userId;
-            var16 = var17.bind(var11)(var16);
+            var16 = var17.bind(var10)(var16);
             var17 = var15 != var16;
             if(!var17) { _fun0004_ip = 62; continue _fun0004 }
 case 63:
             var17 = var16;
 case 62:
-            var6 = var16;
-            var5 = var2;
+            var5 = var16;
+            var3 = var2;
             if(!(var17 !== var2)) { _fun0004_ip = 59; continue _fun0004 }
 case 64:
-            var18 = var11.set;
+            var18 = var10.set;
             var17 = var20.signal;
             var17 = var17.userId;
-            var17 = var18.bind(var11)(var17, var2);
-            var18 = var8.push;
+            var17 = var18.bind(var10)(var17, var2);
+            var18 = var9.push;
             var17 = {};
             var22 = var12.Math;
             var21 = var22.round;
@@ -473,35 +473,42 @@ case 64:
             var20 = var20.speakingFlags;
             var19['speaking_flags'] = var20;
             var17['speaking'] = var19;
-            var17 = var18.bind(var8)(var17);
-            var6 = var16;
-            var5 = var2;
+            var17 = var18.bind(var9)(var17);
+            var5 = var16;
+            var3 = var2;
 case 59:
-            var16 = var10.bind(var1)();
+            var16 = var7.bind(var1)();
             var2 = var16.done;
-            var7 = var16;
+            var6 = var16;
             if(!var2) { _fun0004_ip = 58; continue _fun0004 }
 case 57:
-            var5 = var8.slice;
+            var3 = var9.slice;
             var2 = _closure1_slot5;
-            var2 = var5.bind(var8)(var4, var2);
-            var6 = var2.length;
-            var5 = var8.length;
-            if(!(var6 !== var5)) { _fun0004_ip = 65; continue _fun0004 }
+            var2 = var3.bind(var9)(var4, var2);
+            var5 = var2.length;
+            var3 = var9.length;
+            if(!(var5 !== var3)) { _fun0004_ip = 65; continue _fun0004 }
 case 66:
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var5 = 6;
-            var5 = var7[var5];
-            var7 = var6.bind(var1)(var5);
+            var5 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var3 = 6;
+            var3 = var10[var3];
+            var7 = var5.bind(var1)(var3);
             var6 = var7.track;
             var3 = _closure1_slot6;
             var5 = var3.CLIP_TIMELINE_TRIMMED;
             var3 = {};
-            var9 = var9.id;
-            var3['clip_uuid'] = var9;
-            var8 = var8.length;
-            var3['clip_event_timeline_size'] = var8;
+            var11 = var11.id;
+            var3['clip_uuid'] = var11;
+            var9 = var9.length;
+            var3['clip_event_timeline_size'] = var9;
+            var9 = _closure1_slot0;
+            var8 = 7;
+            var8 = var10[var8];
+            var9 = var9.bind(var1)(var8);
+            var8 = var9.getClipsRuntime;
+            var8 = var8.bind(var9)();
+            var3['clip_runtime'] = var8;
             var3 = var6.bind(var7)(var5, var3);
 case 65:
             var3 = var2.length;

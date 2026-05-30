@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.CodedLinkExtendedType;
     var _closure1_slot7 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -345,12 +345,18 @@ case 42:
             var4 = var14.bind(var15)(var4);
 case 41:
             var4 = {};
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot1;
+            var14 = 12;
+            var14 = var17[var14];
+            var14 = var16.bind(var7)(var14);
+            var14 = var14.AppMessageEmbedDisplayType;
+            var14 = var14.DISPLAY;
+            var4['displayType'] = var14;
             var14 = var6.id;
             var4['appId'] = var14;
             var13 = var13.id;
             var4['messageId'] = var13;
-            var16 = _closure1_slot0;
-            var17 = _closure1_slot1;
             var13 = 8;
             var14 = var17[var13];
             var14 = var16.bind(var7)(var14);
@@ -374,7 +380,7 @@ case 43:
             var4['iconSrc'] = var10;
             var9 = _closure1_slot0;
             var11 = _closure1_slot1;
-            var13 = 12;
+            var13 = 13;
             var13 = var11[var13];
             var15 = var9.bind(var7)(var13);
             var14 = var15.getActivityLaunchURL;

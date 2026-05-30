@@ -120,16 +120,16 @@ case 0:
             var6 = var4.guild_id;
             var2 = undefined;
             var8 = var8.bind(var2)(var6);
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var6 = 3;
-            var6 = var10[var6];
-            var11 = var9.bind(var2)(var6);
-            var9 = var11.useStateFromStores;
-            var12 = _closure1_slot4;
-            var6 = new Array(1);
-            var6[0] = var12;
-            var5 = function() {
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var9 = 3;
+            var6 = var11[var9];
+            var15 = var10.bind(var2)(var6);
+            var14 = var15.useStateFromStores;
+            var13 = _closure1_slot4;
+            var12 = new Array(1);
+            var12[0] = var13;
+            var6 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var3 = _closure2_slot0;
@@ -146,11 +146,25 @@ case 12:
                     return var1;
                 }
             };
-            var6 = var9.bind(var11)(var6, var5);
-            var9 = _closure1_slot1;
+            var6 = var14.bind(var15)(var12, var6);
+            var9 = var11[var9];
+            var12 = var10.bind(var2)(var9);
+            var10 = var12.useStateFromStores;
+            var9 = new Array(1);
+            var9[0] = var13;
+            var5 = function() {
+                var3 = _closure1_slot4;
+                var2 = var3.lastMessageId;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var9 = var10.bind(var12)(var9, var5);
+            var10 = _closure1_slot1;
             var5 = 4;
-            var5 = var10[var5];
-            var5 = var9.bind(var2)(var5);
+            var5 = var11[var5];
+            var5 = var10.bind(var2)(var5);
             var5 = var5.bind(var2)(var4);
             if(var3) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
@@ -158,17 +172,22 @@ case 15:
 case 14:
             if(var3) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var5 = 5;
-            var5 = var10[var5];
-            var5 = var9.bind(var2)(var5);
+            var5 = var11[var5];
+            var5 = var10.bind(var2)(var5);
             var5 = var5.MessagePreviewTypes;
             var5 = var5.NONE;
             var3 = var8 === var5;
 case 16:
             if(var3) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
+            var5 = null;
+            var3 = var5 == var9;
+case 18:
+            if(var3) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var5 = 5;
@@ -177,17 +196,17 @@ case 19:
             var5 = var5.MessagePreviewTypes;
             var5 = var5.UNREADS;
             var5 = var8 === var5;
-            if(!var5) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
-            var8 = null;
-            if(!(var8 != var7)) { _fun0002_ip = 22; continue _fun0002 }
+            if(!var5) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
+            var8 = null;
+            if(!(var8 != var7)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var6 = var7;
-case 22:
+case 24:
             var5 = !var6;
-case 20:
+case 22:
             var3 = var5;
-case 18:
+case 20:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 6;

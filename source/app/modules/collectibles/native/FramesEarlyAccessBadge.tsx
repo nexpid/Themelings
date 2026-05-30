@@ -28,18 +28,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.Pressable;
-    var _closure1_slot5 = var4;
+    var7 = var4.Pressable;
+    var _closure1_slot5 = var7;
+    var4 = var4.View;
+    var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var _closure1_slot7 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 14;
     var7 = {'top': 14, 'bottom': 14, 'left': 14, 'right': 14};
-    var _closure1_slot8 = var7;
+    var _closure1_slot9 = var7;
     var7 = 4;
     var7 = var6[var7];
     var9 = var5.bind(var1)(var7);
@@ -82,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['textTransform'] = var11;
     var7['text'] = var10;
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot9 = var7;
+    var _closure1_slot10 = var7;
     var7 = function BadgeWithTooltip(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -96,7 +98,7 @@ case 0:
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
             var7 = var1.bind(var4)();
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var10 = var1.bind(var4)();
             var12 = _closure1_slot4;
             var3 = var12.useRef;
@@ -239,12 +241,12 @@ case 7:
             var1 = var1.t;
             var1 = var1["1m6qcO"];
             var9 = var2.bind(var3)(var1);
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
             var1['ref'] = var14;
             var1['onPress'] = var13;
-            var13 = _closure1_slot8;
+            var13 = _closure1_slot9;
             var1['hitSlop'] = var13;
             var13 = 'button';
             var1['accessibilityRole'] = var13;
@@ -255,7 +257,7 @@ case 7:
             var6[0] = var13;
             var6[1] = var8;
             var1['style'] = var6;
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot7;
             var5 = 10;
             var5 = var12[var5];
             var5 = var7.bind(var4)(var5);
@@ -285,65 +287,160 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot10 = var7;
+    var _closure1_slot11 = var7;
+    var7 = function StaticBadge() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var2 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var1 = 6;
+            var1 = var6[var1];
+            var4 = undefined;
+            var1 = var2.bind(var4)(var1);
+            var3 = var1.bind(var4)();
+            var1 = _closure1_slot10;
+            var10 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var1 = 9;
+            var1 = var6[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.isThemeDark;
+            var1 = var1.bind(var2)(var3);
+            if(var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+            var8 = var10.pillLight;
+            _fun0003_ip = 11; continue _fun0003;
+case 9:
+            var8 = var10.pillDark;
+case 11:
+            var11 = 'white';
+            if(!var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+            var11 = 'control-overlay-primary-text-default';
+case 12:
+            var7 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var1 = 7;
+            var2 = var12[var1];
+            var2 = var7.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var12[var1];
+            var1 = var7.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1["1m6qcO"];
+            var9 = var2.bind(var3)(var1);
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot6;
+            var1 = {};
+            var1['accessibilityLabel'] = var9;
+            var13 = var10.pillBase;
+            var6 = new Array(2);
+            var6[0] = var13;
+            var6[1] = var8;
+            var1['style'] = var6;
+            var8 = _closure1_slot7;
+            var5 = 10;
+            var5 = var12[var5];
+            var5 = var7.bind(var4)(var5);
+            var6 = var5.NitroWheelIcon;
+            var5 = {};
+            var13 = 'xs';
+            var5['size'] = var13;
+            var5['color'] = var11;
+            var6 = var8.bind(var4)(var6, var5);
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = 11;
+            var6 = var12[var6];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.Text;
+            var6 = {};
+            var12 = 'text-sm/bold';
+            var6['variant'] = var12;
+            var6['color'] = var11;
+            var10 = var10.text;
+            var6['style'] = var10;
+            var6['children'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot12 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/FramesEarlyAccessBadge.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var5 = var1.location;
-            var7 = var1.tooltipPosition;
+            var7 = var1.location;
+            var8 = var1.tooltipPosition;
             var6 = undefined;
-            if(!(var7 === var6)) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
-            var7 = 'top';
-case 9:
-            var2 = var1.inheritLayerScope;
-            if(!(var2 === var6)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-            var2 = false;
-case 11:
-            var4 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var1 = 12;
-            var1 = var8[var1];
-            var4 = var4.bind(var6)(var1);
-            var1 = var4.useIsProfileFramesEarlyAccessPhase;
-            var4 = var1.bind(var4)(var5);
-            var1 = null;
-            if(!var4) { _fun0003_ip = 13; continue _fun0003 }
+            if(!(var8 === var6)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+            var8 = 'top';
 case 14:
-            var5 = _closure1_slot6;
-            if(var2) { _fun0003_ip = 15; continue _fun0003 }
+            var2 = var1.inheritLayerScope;
+            if(!(var2 === var6)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
+            var2 = false;
 case 16:
+            var4 = var1.disablePressable;
+            if(!(var4 === var6)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
+            var4 = false;
+case 18:
+            var5 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 12;
+            var1 = var9[var1];
+            var5 = var5.bind(var6)(var1);
+            var1 = var5.useIsProfileFramesEarlyAccessPhase;
+            var5 = var1.bind(var5)(var7);
+            var1 = null;
+            if(!var5) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+            var5 = _closure1_slot7;
+            if(var4) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
+            if(var2) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var4 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var2 = 13;
-            var2 = var8[var2];
+            var2 = var7[var2];
             var2 = var4.bind(var6)(var2);
             var4 = var2.LayerScope;
             var2 = {};
-            var8 = 3;
-            var2['zIndex'] = var8;
-            var9 = _closure1_slot10;
-            var8 = {};
-            var8['tooltipPosition'] = var7;
-            var8 = var5.bind(var6)(var9, var8);
-            var2['children'] = var8;
+            var7 = 3;
+            var2['zIndex'] = var7;
+            var9 = _closure1_slot11;
+            var7 = {};
+            var7['tooltipPosition'] = var8;
+            var7 = var5.bind(var6)(var9, var7);
+            var2['children'] = var7;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0003_ip = 17; continue _fun0003;
-case 15:
-            var4 = _closure1_slot10;
+            _fun0004_ip = 26; continue _fun0004;
+case 24:
+            var7 = _closure1_slot11;
+            var4 = {};
+            var4['tooltipPosition'] = var8;
+            var2 = var5.bind(var6)(var7, var4);
+case 26:
+            _fun0004_ip = 27; continue _fun0004;
+case 22:
+            var4 = _closure1_slot12;
             var3 = {};
-            var3['tooltipPosition'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 17:
+case 27:
             var1 = var2;
-case 13:
+case 20:
             return var1;
         }
     };
