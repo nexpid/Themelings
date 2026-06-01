@@ -2139,7 +2139,7 @@
 { "file": "app/modules/channel/trackWaveCtaClicked.tsx", "size": 2309 }
 { "file": "app/modules/channel/useChannelName.tsx", "size": 15648 }
 { "file": "app/modules/channel/useCreateChannelSubmit.tsx", "size": 11926 }
-{ "file": "app/modules/channel/usePrivateChannelWave.native.tsx", "size": 10870 }
+{ "file": "app/modules/channel/usePrivateChannelWave.native.tsx", "size": 12517 }
 { "file": "app/modules/channel/useTextareaPlaceholderAndLabels.tsx", "size": 9805 }
 { "file": "app/modules/channel/useVoiceChannelStartTime.tsx", "size": 3976 }
 { "file": "app/modules/channel/VoiceChannelAnimationStateStore.tsx", "size": 26051 }
@@ -4807,7 +4807,7 @@
 { "file": "app/modules/main_tabs_v2/navigator/getNavigatorCurrentRoute.tsx", "size": 1913 }
 { "file": "app/modules/main_tabs_v2/navigator/useGuildsRouteGuildId.tsx", "size": 2634 }
 { "file": "app/modules/main_tabs_v2/RootNavigationRef.native.tsx", "size": 945 }
-{ "file": "app/modules/main_tabs_v2/useMessagePreviews.tsx", "size": 7256 }
+{ "file": "app/modules/main_tabs_v2/useMessagePreviews.tsx", "size": 6597 }
 { "file": "app/modules/main_tabs_v2/useRecentlyActiveChannelsEnabled.tsx", "size": 1488 }
 { "file": "app/modules/main_tabs_v2/useRecipientsLabel.tsx", "size": 7054 }
 { "file": "app/modules/main_tabs_v2/UserSearchUtils.tsx", "size": 5472 }
