@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = /^https?:\/\/\S+$/;
     var _closure1_slot5 = var4;
-    var4 = 6;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -37,17 +37,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var4 = arg1;
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
+                var5 = arg1;
+                var3 = _closure1_slot1;
+                var7 = _closure1_slot2;
                 var2 = 4;
-                var2 = var6[var2];
+                var2 = var7[var2];
                 var17 = undefined;
-                var5 = var5.bind(var17)(var2);
-                var2 = var5.createMessageRecord;
-                var9 = var2.bind(var5)(var4);
-                var12 = var9.content;
-                var2 = function extractContent(arg1) {
+                var3 = var3.bind(var17)(var2);
+                var6 = _closure1_slot0;
+                var2 = 5;
+                var2 = var7[var2];
+                var6 = var6.bind(var17)(var2);
+                var2 = var6.createMessageRecord;
+                var2 = var2.bind(var6)(var5);
+                var2 = var3.bind(var17)(var2);
+                var12 = var2.content;
+                var3 = function extractContent(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var2 = arg1;
@@ -142,8 +147,8 @@ case 2:
                         return var1;
                     }
                 };
-                var5 = var2.bind(var17)(var9);
-                var2 = function extractMedia(arg1) {
+                var6 = var3.bind(var17)(var2);
+                var3 = function extractMedia(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var2 = arg1;
@@ -412,54 +417,54 @@ case 22:
                         return var1;
                     }
                 };
-                var8 = var2.bind(var17)(var9);
-                var6 = var5.indexOf;
-                var2 = '\n';
-                var14 = var6.bind(var5)(var2);
-                var2 = -1;
-                var13 = var2 === var14;
-                var7 = var5;
+                var9 = var3.bind(var17)(var2);
+                var7 = var6.indexOf;
+                var3 = '\n';
+                var14 = var7.bind(var6)(var3);
+                var3 = -1;
+                var13 = var3 === var14;
+                var8 = var6;
                 if(var13) { _fun0001_ip = 41; continue _fun0001 }
 case 42:
-                var6 = var5.slice;
-                var2 = 0;
-                var7 = var6.bind(var5)(var2, var14);
+                var7 = var6.slice;
+                var3 = 0;
+                var8 = var7.bind(var6)(var3, var14);
 case 41:
-                var6 = var7.match;
-                var2 = _closure1_slot4;
-                var7 = var6.bind(var7)(var2);
+                var7 = var8.match;
+                var3 = _closure1_slot4;
+                var8 = var7.bind(var8)(var3);
                 var10 = null;
-                if(!(var10 == var7)) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
-                var2 = {};
-                var2['body'] = var5;
-                _fun0001_ip = 45; continue _fun0001;
+                if(!(var10 == var8)) { _fun0001_ip = 43; continue _fun0001 }
+case 12:
+                var3 = {};
+                var3['body'] = var6;
+                _fun0001_ip = 44; continue _fun0001;
 case 43:
-                var6 = {};
+                var7 = {};
                 var11 = 1;
-                var15 = var7[var11];
-                var7 = var15.trim;
-                var7 = var7.bind(var15)();
-                var6['title'] = var7;
-                var7 = '';
-                if(var13) { _fun0001_ip = 46; continue _fun0001 }
-case 47:
-                var13 = var5.slice;
-                var11 = var14 + var11;
-                var13 = var13.bind(var5)(var11);
-                var11 = var13.trimStart;
-                var7 = var11.bind(var13)();
+                var15 = var8[var11];
+                var8 = var15.trim;
+                var8 = var8.bind(var15)();
+                var7['title'] = var8;
+                var8 = '';
+                if(var13) { _fun0001_ip = 45; continue _fun0001 }
 case 46:
-                var6['body'] = var7;
-                var2 = var6;
+                var13 = var6.slice;
+                var11 = var14 + var11;
+                var13 = var13.bind(var6)(var11);
+                var11 = var13.trimStart;
+                var8 = var11.bind(var13)();
 case 45:
-                var7 = var2.title;
-                var6 = var2.body;
-                var14 = var4.reactions;
+                var7['body'] = var8;
+                var3 = var7;
+case 44:
+                var8 = var3.title;
+                var7 = var3.body;
+                var14 = var5.reactions;
                 var11 = var10 == var14;
-                var2 = undefined;
-                if(var11) { _fun0001_ip = 48; continue _fun0001 }
-case 49:
+                var3 = undefined;
+                if(var11) { _fun0001_ip = 47; continue _fun0001 }
+case 48:
                 var13 = var14.reduce;
                 var11 = function(arg1, arg2) {
                     var1 = arg2;
@@ -468,107 +473,107 @@ case 49:
                     var1 = var1 + var2;
                     return var1;
                 };
-                var3 = 0;
-                var2 = var13.bind(var14)(var11, var3);
-case 48:
-                var13 = var10 != var2;
+                var4 = 0;
+                var3 = var13.bind(var14)(var11, var4);
+case 47:
+                var13 = var10 != var3;
                 var11 = 0;
-                var3 = 0;
-                if(!var13) { _fun0001_ip = 50; continue _fun0001 }
+                var4 = 0;
+                if(!var13) { _fun0001_ip = 49; continue _fun0001 }
+case 33:
+                var4 = var3;
+case 49:
+                var3 = undefined;
+                if(!(var6 !== var12)) { _fun0001_ip = 50; continue _fun0001 }
 case 51:
-                var3 = var2;
-case 50:
-                var2 = undefined;
-                if(!(var5 !== var12)) { _fun0001_ip = 52; continue _fun0001 }
-case 53:
                 var1 = _closure1_slot3;
-                var1 = var1.bind(var17)(var9);
-                var2 = undefined;
-                if(var1) { _fun0001_ip = 52; continue _fun0001 }
-case 54:
-                var1 = var9.embeds;
+                var1 = var1.bind(var17)(var2);
+                var3 = undefined;
+                if(var1) { _fun0001_ip = 50; continue _fun0001 }
+case 52:
+                var1 = var2.embeds;
                 var11 = var1[var11];
                 var12 = var10 != var11;
                 var1 = undefined;
-                if(!var12) { _fun0001_ip = 55; continue _fun0001 }
-case 56:
+                if(!var12) { _fun0001_ip = 53; continue _fun0001 }
+case 54:
                 var12 = var11.author;
                 var13 = var10 == var12;
                 var16 = undefined;
-                if(var13) { _fun0001_ip = 57; continue _fun0001 }
-case 58:
+                if(var13) { _fun0001_ip = 55; continue _fun0001 }
+case 56:
                 var16 = var12.name;
-case 57:
+case 55:
                 var12 = var11.author;
                 var13 = var10 == var12;
                 var15 = undefined;
-                if(var13) { _fun0001_ip = 59; continue _fun0001 }
-case 60:
+                if(var13) { _fun0001_ip = 57; continue _fun0001 }
+case 58:
                 var15 = var12.iconProxyURL;
-case 59:
-                if(!(var10 == var15)) { _fun0001_ip = 61; continue _fun0001 }
-case 62:
+case 57:
+                if(!(var10 == var15)) { _fun0001_ip = 59; continue _fun0001 }
+case 60:
                 var13 = var11.author;
                 var14 = var10 == var13;
                 var12 = undefined;
-                if(var14) { _fun0001_ip = 63; continue _fun0001 }
-case 64:
+                if(var14) { _fun0001_ip = 61; continue _fun0001 }
+case 62:
                 var12 = var13.iconURL;
-case 63:
-                var15 = var12;
 case 61:
+                var15 = var12;
+case 59:
                 var12 = var11.footer;
                 var13 = var10 == var12;
                 var14 = undefined;
-                if(var13) { _fun0001_ip = 65; continue _fun0001 }
-case 66:
+                if(var13) { _fun0001_ip = 63; continue _fun0001 }
+case 64:
                 var14 = var12.text;
-case 65:
-                if(!(var10 == var14)) { _fun0001_ip = 67; continue _fun0001 }
-case 68:
+case 63:
+                if(!(var10 == var14)) { _fun0001_ip = 65; continue _fun0001 }
+case 66:
                 var13 = var11.provider;
                 var18 = var10 == var13;
                 var12 = undefined;
-                if(var18) { _fun0001_ip = 69; continue _fun0001 }
-case 70:
+                if(var18) { _fun0001_ip = 67; continue _fun0001 }
+case 68:
                 var12 = var13.name;
-case 69:
-                var14 = var12;
 case 67:
+                var14 = var12;
+case 65:
                 var12 = var11.footer;
                 var18 = var10 == var12;
                 var13 = undefined;
-                if(var18) { _fun0001_ip = 71; continue _fun0001 }
-case 72:
+                if(var18) { _fun0001_ip = 69; continue _fun0001 }
+case 70:
                 var13 = var12.iconProxyURL;
-case 71:
-                if(!(var10 == var13)) { _fun0001_ip = 73; continue _fun0001 }
-case 74:
+case 69:
+                if(!(var10 == var13)) { _fun0001_ip = 71; continue _fun0001 }
+case 72:
                 var18 = var11.footer;
                 var19 = var10 == var18;
                 var12 = undefined;
-                if(var19) { _fun0001_ip = 75; continue _fun0001 }
-case 76:
+                if(var19) { _fun0001_ip = 73; continue _fun0001 }
+case 74:
                 var12 = var18.iconURL;
-case 75:
-                var13 = var12;
 case 73:
+                var13 = var12;
+case 71:
                 var12 = var11.url;
                 var18 = var11.color;
                 var19 = var10 != var18;
                 var11 = undefined;
-                if(!var19) { _fun0001_ip = 77; continue _fun0001 }
-case 78:
+                if(!var19) { _fun0001_ip = 75; continue _fun0001 }
+case 76:
                 var11 = var18;
-case 77:
-                if(!(var10 == var16)) { _fun0001_ip = 79; continue _fun0001 }
-case 80:
-                if(!(var10 == var14)) { _fun0001_ip = 79; continue _fun0001 }
-case 81:
+case 75:
+                if(!(var10 == var16)) { _fun0001_ip = 77; continue _fun0001 }
+case 78:
+                if(!(var10 == var14)) { _fun0001_ip = 77; continue _fun0001 }
+case 79:
                 var10 = var10 != var12;
                 var1 = undefined;
-                if(!var10) { _fun0001_ip = 55; continue _fun0001 }
-case 79:
+                if(!var10) { _fun0001_ip = 53; continue _fun0001 }
+case 77:
                 var10 = {};
                 var10['authorName'] = var16;
                 var10['authorIconUrl'] = var15;
@@ -577,20 +582,22 @@ case 79:
                 var10['url'] = var12;
                 var10['color'] = var11;
                 var1 = var10;
-case 55:
-                var2 = var1;
-case 52:
+case 53:
+                var3 = var1;
+case 50:
                 var1 = {};
-                var9 = var9.id;
-                var1['id'] = var9;
-                var1['media'] = var8;
-                var1['title'] = var7;
-                var1['body'] = var6;
-                var1['content'] = var5;
-                var4 = var4.timestamp;
-                var1['timestamp'] = var4;
-                var1['reactionCount'] = var3;
-                var1['embedSource'] = var2;
+                var10 = var2.id;
+                var1['id'] = var10;
+                var1['media'] = var9;
+                var1['title'] = var8;
+                var1['body'] = var7;
+                var1['content'] = var6;
+                var5 = var5.timestamp;
+                var1['timestamp'] = var5;
+                var1['reactionCount'] = var4;
+                var1['embedSource'] = var3;
+                var2 = var2.poll;
+                var1['poll'] = var2;
                 return var1;
             }
         };
@@ -598,12 +605,45 @@ case 52:
         return var1;
     };
     var3['toAnnouncementMessages'] = var4;
-    var2 = function getPosterUrl(arg1) {
+    var4 = function getPollExpiryLabel(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 6;
+            var1 = var4[var1];
+            var6 = undefined;
+            var4 = var3.bind(var6)(var1);
+            var3 = var4.formatExpirationLabel;
+            var1 = arg1;
+            var1 = var1.expiry;
+            var1 = var3.bind(var4)(var1);
+            var3 = null;
+            if(!(var3 == var1)) { _fun0005_ip = 10; continue _fun0005 }
+case 80:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 7;
+            var3 = var7[var2];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.t;
+            var2 = var2.e+J3JZ;
+            var1 = var3.bind(var4)(var2);
+case 10:
+            return var1;
+        }
+    };
+    var3['getPollExpiryLabel'] = var4;
+    var2 = function getPosterUrl(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 5;
+            var1 = 8;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -612,8 +652,8 @@ case 0:
             var3 = var2.bind(var3)(var1);
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0005_ip = 82; continue _fun0005 }
-case 83:
+            if(var2) { _fun0006_ip = 81; continue _fun0006 }
+case 82:
             var6 = var3.searchParams;
             var5 = var6.append;
             var4 = 'format';
@@ -621,7 +661,7 @@ case 83:
             var2 = var5.bind(var6)(var4, var2);
             var2 = var3.toString;
             var1 = var2.bind(var3)();
-case 82:
+case 81:
             return var1;
         }
     };

@@ -23,10 +23,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.SKUProductLines;
     var8 = var4.Set;
     var9 = var5.COLLECTIBLES;
-    var4 = new Array(2);
+    var4 = new Array(3);
     var4[0] = var9;
-    var5 = var5.PREMIUM;
-    var4[1] = var5;
+    var9 = var5.PREMIUM;
+    var4[1] = var9;
+    var5 = var5.SOCIAL_LAYER_GAME_ITEM;
+    var4[2] = var5;
     var5 = var8.prototype;
     var5 = Object.create(var5, {constructor: {value: var8}});
     var13 = var5;

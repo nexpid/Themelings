@@ -536,7 +536,7 @@ case 35:
     var10 = 'modules/premium/promotions/PromotionsActionCreators.tsx';
     var10 = var11.bind(var12)(var10);
     var3['default'] = var9;
-    var8 = function maybeFetchActivePromotions() {
+    var9 = function maybeFetchActivePromotions() {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var4 = arguments[0];
@@ -566,7 +566,22 @@ case 49:
             return var1;
         }
     };
-    var3['maybeFetchActivePromotions'] = var8;
+    var3['maybeFetchActivePromotions'] = var9;
+    var8 = function clearActivePromotions() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ACTIVE_PROMOTIONS_CLEAR';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['clearActivePromotions'] = var8;
     var3['fetchActivePromotions'] = var7;
     var3['dismissOutboundPromotionNotice'] = var6;
     var3['fetchActiveBogoPromotion'] = var5;

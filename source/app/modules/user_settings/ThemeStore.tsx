@@ -39,43 +39,36 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot19 = var2;
+            _closure1_slot20 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
-    var1 = function computeTheme() {
-        var3 = _closure1_slot1;
-        var4 = _closure1_slot2;
-        var2 = 12;
-        var2 = var4[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = _closure1_slot17;
-        var1 = _closure1_slot16;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
     var _closure1_slot20 = var1;
     var9 = function handleThemeChange() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var1 = _closure1_slot20;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 13;
+            var1 = var4[var1];
             var4 = undefined;
-            var3 = var1.bind(var4)();
-            var1 = _closure1_slot18;
+            var5 = var3.bind(var4)(var1);
+            var3 = _closure1_slot18;
+            var1 = _closure1_slot17;
+            var3 = var5.bind(var4)(var3, var1);
+            var1 = _closure1_slot19;
             var1 = var3 !== var1;
             if(!var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            _closure1_slot18 = var3;
+            _closure1_slot19 = var3;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 13;
+            var3 = 14;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot19;
             var2 = var3.bind(var4)(var2);
             var1 = true;
 case 6:
@@ -138,8 +131,13 @@ case 6:
     var2 = 10;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.ThemeTypes;
+    var2 = var2.UserSettingsDelay;
     var _closure1_slot13 = var2;
+    var2 = 11;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.ThemeTypes;
+    var _closure1_slot14 = var2;
     var2 = {};
     var2['UNSET'] = var12;
     var10 = 'UNSET';
@@ -147,18 +145,18 @@ case 6:
     var2['SET'] = var11;
     var10 = 'SET';
     var2[var11] = var10;
-    var _closure1_slot14 = var2;
-    var2 = var2.UNSET;
     var _closure1_slot15 = var2;
-    var _closure1_slot16 = var8;
-    var2 = 11;
+    var2 = var2.UNSET;
+    var _closure1_slot16 = var2;
+    var _closure1_slot17 = var8;
+    var2 = 12;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var2 = var2.bind(var1)();
-    var _closure1_slot17 = var2;
-    var2 = var8[var2];
     var _closure1_slot18 = var2;
-    var2 = 14;
+    var2 = var8[var2];
+    var _closure1_slot19 = var2;
+    var2 = 15;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.PersistedStore;
@@ -175,7 +173,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot19;
+                var1 = _closure1_slot20;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
@@ -222,23 +220,23 @@ case 12:
 case 11:
                 if(!(var5 != var3)) { _fun0004_ip = 10; continue _fun0004 }
 case 13:
-                var4 = _closure1_slot14;
+                var4 = _closure1_slot15;
                 var4 = var4.SET;
-                _closure1_slot15 = var4;
+                _closure1_slot16 = var4;
                 var4 = var2.theme;
-                _closure1_slot18 = var4;
+                _closure1_slot19 = var4;
                 var6 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var4 = 13;
+                var4 = 14;
                 var4 = var8[var4];
                 var6 = var6.bind(var1)(var4);
-                var4 = _closure1_slot18;
+                var4 = _closure1_slot19;
                 var4 = var6.bind(var1)(var4);
                 var4 = var2.preferences;
                 if(!(var5 != var4)) { _fun0004_ip = 10; continue _fun0004 }
 case 14:
                 var2 = var2.preferences;
-                _closure1_slot16 = var2;
+                _closure1_slot17 = var2;
 case 10:
                 var6 = var7.waitFor;
                 var12 = _closure1_slot10;
@@ -261,9 +259,9 @@ case 10:
             var2 = this;
             var2 = var2.theme;
             var1['theme'] = var2;
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot17;
             var1['preferences'] = var3;
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot16;
             var1['status'] = var2;
             return var1;
         };
@@ -273,7 +271,7 @@ case 10:
         var7 = 'theme';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot19;
             return var1;
         };
         var5['get'] = var7;
@@ -282,7 +280,7 @@ case 10:
         var7 = 'systemTheme';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot18;
             return var1;
         };
         var5['get'] = var7;
@@ -291,7 +289,7 @@ case 10:
         var7 = 'themePreferenceForSystemTheme';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            var2 = _closure1_slot16;
+            var2 = _closure1_slot17;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
@@ -339,7 +337,7 @@ case 17:
             var2 = _closure1_slot12;
             var2 = var2.DARK;
             var4 = var4[var2];
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot14;
             var2 = var2.DARK;
             var1 = var5;
             if(!(var4 === var2)) { _fun0006_ip = 16; continue _fun0006 }
@@ -354,7 +352,7 @@ case 18:
             var5 = copyDataProperties(var7, var6);
             var5 = _closure1_slot12;
             var5 = var5.DARK;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot14;
             var3 = var3.DARKER;
             var4[4] = var3;
             var3 = 'preferences';
@@ -366,30 +364,100 @@ case 16:
     };
     var2[1] = var10;
     var8['migrations'] = var2;
-    var2 = 16;
+    var2 = 17;
     var2 = var6[var2];
     var15 = var7.bind(var1)(var2);
     var2 = {};
     var2['CACHE_LOADED'] = var9;
     var10 = function handleConnectionOpen() {
-        var2 = _closure1_slot21;
-        var1 = undefined;
-        var1 = var2.bind(var1)();
+        var1 = function migrateDarkSidebarToProto() {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                var3 = _closure1_slot10;
+                var3 = var3.darkSidebar;
+                if(!var3) { _fun0007_ip = 19; continue _fun0007 }
+case 20:
+                var3 = _closure1_slot11;
+                var3 = var3.settings;
+                var5 = var3.appearance;
+                var3 = null;
+                var6 = var3 == var5;
+                var4 = undefined;
+                var3 = undefined;
+                if(var6) { _fun0007_ip = 18; continue _fun0007 }
+case 7:
+                var3 = var5.darkSidebar;
+case 18:
+                if(var3) { _fun0007_ip = 21; continue _fun0007 }
+case 22:
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var3 = 16;
+                var3 = var6[var3];
+                var3 = var5.bind(var4)(var3);
+                var8 = var3.PreloadedUserSettingsActionCreators;
+                var7 = var8.updateAsync;
+                var3 = _closure1_slot13;
+                var6 = var3.INFREQUENT_USER_ACTION;
+                var5 = 'appearance';
+                var3 = function(arg1) {
+                    var2 = true;
+                    var1 = arg1;
+                    var1['darkSidebar'] = var2;
+                    var1 = undefined;
+                    return var1;
+                };
+                var3 = var7.bind(var8)(var5, var3, var6);
+case 21:
+                var3 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var2 = 17;
+                var2 = var5[var2];
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.wait;
+                var1 = function() {
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 17;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var5 = 'UNSYNCED_USER_SETTINGS_UPDATE';
+                    var2['type'] = var5;
+                    var5 = {};
+                    var6 = false;
+                    var5['darkSidebar'] = var6;
+                    var2['settings'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+case 19:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var2 = undefined;
+        var1 = var1.bind(var2)();
+        var1 = _closure1_slot21;
+        var1 = var1.bind(var2)();
         return var1;
     };
     var2['CONNECTION_OPEN'] = var10;
     var10 = function handleLogOut(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.isSwitchingAccount;
             var1 = !var1;
-            if(!var1) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
+            if(!var1) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
             var3 = _closure1_slot21;
             var2 = undefined;
             var1 = var3.bind(var2)();
-case 19:
+case 23:
             return var1;
         }
     };
@@ -402,37 +470,23 @@ case 19:
     var9 = function handleSystemThemeChange(arg1) {
         var1 = arg1;
         var2 = var1.systemTheme;
-        _closure1_slot17 = var2;
+        _closure1_slot18 = var2;
         var2 = _closure1_slot21;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
     };
     var2['SYSTEM_THEME_CHANGE'] = var9;
-    var9 = function handleDarkSidebarToggle() {
-        var3 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var2 = 15;
-        var2 = var4[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.isThemeLight;
-        var1 = _closure1_slot20;
-        var1 = var1.bind(var4)();
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var2['ACCESSIBILITY_DARK_SIDEBAR_TOGGLE'] = var9;
     var9 = function handleUpdateThemePreferences(arg1) {
         var2 = {};
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot17;
         var5 = var2;
         var3 = copyDataProperties(var5, var4);
         var3 = arg1;
         var4 = var3.preferences;
         var5 = var2;
         var3 = copyDataProperties(var5, var4);
-        _closure1_slot16 = var2;
+        _closure1_slot17 = var2;
         var2 = _closure1_slot21;
         var1 = undefined;
         var1 = var2.bind(var1)();
@@ -468,7 +522,7 @@ case 19:
     var14 = var2;
     var2 = new var16[var8](var15, var14, var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

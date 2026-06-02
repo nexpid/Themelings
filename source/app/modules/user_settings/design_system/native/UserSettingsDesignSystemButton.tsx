@@ -160,7 +160,7 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = function ExampleIconButton(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -315,7 +315,7 @@ case 20:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = function ExampleImageButton(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -447,7 +447,7 @@ case 27:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = function ExampleToggleButton() {
         var4 = _closure1_slot4;
         var3 = var4.useState;
@@ -515,7 +515,7 @@ case 27:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = function ExampleIconToggleButton() {
         var4 = _closure1_slot4;
         var3 = var4.useState;
@@ -575,7 +575,7 @@ case 27:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -623,8 +623,10 @@ case 27:
     var _closure1_slot13 = var4;
     var4 = ['destructive', 'active'];
     var _closure1_slot14 = var4;
-    var4 = ['experimental_premium-primary', 'experimental_premium-secondary'];
+    var4 = ['expressive'];
     var _closure1_slot15 = var4;
+    var4 = ['experimental_premium-primary', 'experimental_premium-secondary'];
+    var _closure1_slot16 = var4;
     var4 = 15;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -663,7 +665,7 @@ case 27:
     var9['paddingVertical'] = var10;
     var4['overlayButtonContainer'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot16 = var4;
+    var _closure1_slot17 = var4;
     var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -671,7 +673,7 @@ case 27:
     var4 = 'modules/user_settings/design_system/native/UserSettingsDesignSystemButton.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function UserSettingsDesignSystemButton() {
-        var1 = _closure1_slot16;
+        var1 = _closure1_slot17;
         var4 = undefined;
         var9 = var1.bind(var4)();
         var _closure2_slot0 = var9;
@@ -780,7 +782,7 @@ case 27:
             var6 = var6.buttonContainer;
             var2['style'] = var6;
             var8 = _closure1_slot9;
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot18;
             var6 = {};
             var6['variant'] = var5;
             var1 = undefined;
@@ -795,7 +797,7 @@ case 27:
         var13[1] = var18;
         var10['children'] = var13;
         var10 = var3.bind(var4)(var12, var10);
-        var18 = new Array(19);
+        var18 = new Array(20);
         var18[0] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
@@ -831,7 +833,7 @@ case 27:
             var6 = var6.buttonContainer;
             var2['style'] = var6;
             var8 = _closure1_slot9;
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot18;
             var6 = {};
             var6['variant'] = var5;
             var1 = undefined;
@@ -862,7 +864,7 @@ case 27:
         var23 = var14[var25];
         var23 = var7.bind(var4)(var23);
         var26 = var23.Text;
-        var23 = {'variant': 'heading-lg/bold', 'children': 'Experimental premium buttons'};
+        var23 = {'variant': 'heading-lg/bold', 'children': 'Expressive buttons'};
         var23 = var27.bind(var4)(var26, var23);
         var13['children'] = var23;
         var19 = var22.bind(var4)(var19, var13);
@@ -881,7 +883,7 @@ case 27:
             var6 = var6.buttonContainer;
             var2['style'] = var6;
             var8 = _closure1_slot9;
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot18;
             var6 = {};
             var6['variant'] = var5;
             var1 = undefined;
@@ -897,6 +899,56 @@ case 27:
         var10['children'] = var13;
         var10 = var3.bind(var4)(var12, var10);
         var18[2] = var10;
+        var10 = var14[var21];
+        var10 = var7.bind(var4)(var10);
+        var12 = var10.Stack;
+        var10 = {};
+        var22 = _closure1_slot9;
+        var13 = var14[var21];
+        var13 = var7.bind(var4)(var13);
+        var19 = var13.Stack;
+        var13 = {};
+        var23 = var9.container;
+        var13['style'] = var23;
+        var27 = _closure1_slot9;
+        var23 = var14[var25];
+        var23 = var7.bind(var4)(var23);
+        var26 = var23.Text;
+        var23 = {'variant': 'heading-lg/bold', 'children': 'Experimental premium buttons'};
+        var23 = var27.bind(var4)(var26, var23);
+        var13['children'] = var23;
+        var19 = var22.bind(var4)(var19, var13);
+        var13 = new Array(2);
+        var13[0] = var19;
+        var22 = _closure1_slot9;
+        var19 = {};
+        var27 = _closure1_slot16;
+        var26 = var27.map;
+        var23 = function(arg1) {
+            var5 = arg1;
+            var4 = _closure1_slot9;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var6 = _closure2_slot0;
+            var6 = var6.buttonContainer;
+            var2['style'] = var6;
+            var8 = _closure1_slot9;
+            var7 = _closure1_slot18;
+            var6 = {};
+            var6['variant'] = var5;
+            var1 = undefined;
+            var6 = var8.bind(var1)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var1)(var3, var2, var5);
+            return var1;
+        };
+        var23 = var26.bind(var27)(var23);
+        var19['children'] = var23;
+        var19 = var22.bind(var4)(var24, var19);
+        var13[1] = var19;
+        var10['children'] = var13;
+        var10 = var3.bind(var4)(var12, var10);
+        var18[3] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var12 = var10.Stack;
@@ -943,7 +995,7 @@ case 27:
             var6[1] = var7;
             var2['style'] = var6;
             var8 = _closure1_slot9;
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot18;
             var6 = {};
             var6['variant'] = var5;
             var1 = undefined;
@@ -958,7 +1010,7 @@ case 27:
         var13[1] = var19;
         var10['children'] = var13;
         var10 = var3.bind(var4)(var12, var10);
-        var18[3] = var10;
+        var18[4] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var12 = var10.Stack;
@@ -1059,7 +1111,7 @@ case 27:
         var19[1] = var22;
         var10['children'] = var19;
         var10 = var3.bind(var4)(var12, var10);
-        var18[4] = var10;
+        var18[5] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var12 = var10.Stack;
@@ -1166,7 +1218,7 @@ case 27:
         var19[1] = var22;
         var10['children'] = var19;
         var10 = var3.bind(var4)(var12, var10);
-        var18[5] = var10;
+        var18[6] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var12 = var10.Stack;
@@ -1209,7 +1261,7 @@ case 27:
         var27 = var9.buttonContainer;
         var23['style'] = var27;
         var31 = _closure1_slot9;
-        var29 = _closure1_slot20;
+        var29 = _closure1_slot21;
         var27 = {};
         var27 = var31.bind(var4)(var29, var27);
         var23['children'] = var27;
@@ -1221,7 +1273,7 @@ case 27:
         var29 = var9.buttonContainer;
         var26['style'] = var29;
         var32 = _closure1_slot9;
-        var31 = _closure1_slot21;
+        var31 = _closure1_slot22;
         var29 = {};
         var29 = var32.bind(var4)(var31, var29);
         var26['children'] = var29;
@@ -1232,7 +1284,7 @@ case 27:
         var19[1] = var22;
         var10['children'] = var19;
         var10 = var3.bind(var4)(var12, var10);
-        var18[6] = var10;
+        var18[7] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var12 = var10.Stack;
@@ -1281,7 +1333,7 @@ case 27:
             var6 = var6.buttonContainer;
             var2['style'] = var6;
             var8 = _closure1_slot9;
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var6 = {};
             var6['variant'] = var5;
             var1 = undefined;
@@ -1296,7 +1348,7 @@ case 27:
         var19[1] = var22;
         var10['children'] = var19;
         var10 = var3.bind(var4)(var12, var10);
-        var18[7] = var10;
+        var18[8] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var12 = var10.Stack;
@@ -1330,7 +1382,7 @@ case 27:
             var6 = var6.buttonContainer;
             var2['style'] = var6;
             var8 = _closure1_slot9;
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var6 = {};
             var6['variant'] = var5;
             var1 = undefined;
@@ -1345,7 +1397,7 @@ case 27:
         var19[1] = var22;
         var10['children'] = var19;
         var10 = var3.bind(var4)(var12, var10);
-        var18[8] = var10;
+        var18[9] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var12 = var10.Stack;
@@ -1383,7 +1435,7 @@ case 27:
             var6[1] = var7;
             var2['style'] = var6;
             var8 = _closure1_slot9;
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var6 = {};
             var6['variant'] = var5;
             var1 = undefined;
@@ -1398,7 +1450,7 @@ case 27:
         var19[1] = var22;
         var10['children'] = var19;
         var10 = var3.bind(var4)(var12, var10);
-        var18[9] = var10;
+        var18[10] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var12 = var10.Stack;
@@ -1436,7 +1488,7 @@ case 27:
         var27[0] = var28;
         var23['style'] = var27;
         var28 = _closure1_slot9;
-        var34 = _closure1_slot19;
+        var34 = _closure1_slot20;
         var27 = {};
         var33 = 25;
         var29 = var14[var33];
@@ -1490,7 +1542,7 @@ case 27:
         var19[1] = var22;
         var10['children'] = var19;
         var10 = var3.bind(var4)(var12, var10);
-        var18[10] = var10;
+        var18[11] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var19 = var10.Stack;
@@ -1548,7 +1600,7 @@ case 27:
         var32 = function(arg1) {
             var5 = arg1;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot19;
             var2 = {};
             var2['variant'] = var5;
             var1 = true;
@@ -1630,7 +1682,7 @@ case 27:
         var22[2] = var23;
         var10['children'] = var22;
         var10 = var3.bind(var4)(var19, var10);
-        var18[11] = var10;
+        var18[12] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var19 = var10.Stack;
@@ -1735,7 +1787,7 @@ case 27:
         var22[2] = var23;
         var10['children'] = var22;
         var10 = var3.bind(var4)(var19, var10);
-        var18[12] = var10;
+        var18[13] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var19 = var10.Stack;
@@ -1767,13 +1819,13 @@ case 27:
         var26 = var9.container;
         var22['style'] = var26;
         var28 = _closure1_slot9;
-        var27 = _closure1_slot17;
+        var27 = _closure1_slot18;
         var26 = {'variant': 'secondary', 'text': 'Search', 'grow': true};
         var27 = var28.bind(var4)(var27, var26);
         var26 = new Array(2);
         var26[0] = var27;
         var29 = _closure1_slot9;
-        var28 = _closure1_slot18;
+        var28 = _closure1_slot19;
         var27 = {};
         var27['variant'] = var30;
         var27 = var29.bind(var4)(var28, var27);
@@ -1783,7 +1835,7 @@ case 27:
         var20[1] = var22;
         var10['children'] = var20;
         var10 = var3.bind(var4)(var19, var10);
-        var18[13] = var10;
+        var18[14] = var10;
         var10 = var14[var21];
         var10 = var7.bind(var4)(var10);
         var20 = var10.Stack;
@@ -1865,7 +1917,7 @@ case 27:
         var45 = function(arg1) {
             var5 = arg1;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['variant'] = var5;
             var1 = undefined;
@@ -1879,7 +1931,7 @@ case 27:
         var46 = function(arg1) {
             var5 = arg1;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['variant'] = var5;
             var1 = undefined;
@@ -1899,7 +1951,7 @@ case 27:
         var22[1] = var23;
         var19['children'] = var22;
         var19 = var3.bind(var4)(var20, var19);
-        var18[14] = var19;
+        var18[15] = var19;
         var19 = var14[var21];
         var19 = var7.bind(var4)(var19);
         var20 = var19.Stack;
@@ -1974,7 +2026,7 @@ case 27:
         var42 = function(arg1) {
             var5 = arg1;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['variant'] = var5;
             var1 = undefined;
@@ -1988,7 +2040,7 @@ case 27:
         var43 = function(arg1) {
             var5 = arg1;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['variant'] = var5;
             var1 = undefined;
@@ -2008,7 +2060,7 @@ case 27:
         var22[1] = var23;
         var19['children'] = var22;
         var19 = var3.bind(var4)(var20, var19);
-        var18[15] = var19;
+        var18[16] = var19;
         var19 = var14[var21];
         var19 = var7.bind(var4)(var19);
         var20 = var19.Stack;
@@ -2094,7 +2146,7 @@ case 27:
         var43 = function(arg1) {
             var5 = arg1;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['variant'] = var5;
             var1 = undefined;
@@ -2108,7 +2160,7 @@ case 27:
         var44 = function(arg1) {
             var5 = arg1;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['variant'] = var5;
             var1 = undefined;
@@ -2129,7 +2181,7 @@ case 27:
         var22[1] = var23;
         var19['children'] = var22;
         var19 = var3.bind(var4)(var20, var19);
-        var18[16] = var19;
+        var18[17] = var19;
         var19 = var14[var21];
         var19 = var7.bind(var4)(var19);
         var20 = var19.Stack;
@@ -2212,7 +2264,7 @@ case 27:
         var34 = function(arg1) {
             var5 = arg1;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['variant'] = var5;
             var1 = undefined;
@@ -2226,7 +2278,7 @@ case 27:
         var35 = function(arg1) {
             var5 = arg1;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['variant'] = var5;
             var1 = undefined;
@@ -2247,7 +2299,7 @@ case 27:
         var22[1] = var23;
         var19['children'] = var22;
         var19 = var3.bind(var4)(var20, var19);
-        var18[17] = var19;
+        var18[18] = var19;
         var19 = var14[var21];
         var19 = var7.bind(var4)(var19);
         var20 = var19.Stack;
@@ -2288,7 +2340,7 @@ case 27:
         var21[1] = var22;
         var19['children'] = var21;
         var19 = var3.bind(var4)(var20, var19);
-        var18[18] = var19;
+        var18[19] = var19;
         var16['children'] = var18;
         var16 = var3.bind(var4)(var17, var16);
         var5['children'] = var16;

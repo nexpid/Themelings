@@ -25,6 +25,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7[1] = var8;
     var8 = {'enabled': true, 'chatInputFloating': true};
     var7[2] = var8;
+    var8 = {'enabled': true, 'chatInputFloating': true};
+    var7[3] = var8;
     var4['variations'] = var7;
     var4 = var5.bind(var1)(var4);
     var _closure1_slot0 = var4;

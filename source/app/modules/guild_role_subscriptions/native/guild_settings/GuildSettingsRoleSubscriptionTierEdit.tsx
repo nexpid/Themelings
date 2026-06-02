@@ -151,11 +151,11 @@ case 11:
             var1 = var1.HermesInternal;
             var2 = var1.concat;
             var1 = 'Unsupported scene: ';
-            var14 = var2.bind(var1)(var6);
+            var15 = var2.bind(var1)(var6);
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
-            var15 = var2;
-            var1 = new var15[var3](var14, var13);
+            var16 = var2;
+            var1 = new var16[var3](var15, var14);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
 case 10:
@@ -171,13 +171,30 @@ case 10:
             return var1;
 case 8:
             var3 = _closure1_slot14;
-            var2 = _closure1_slot0;
-            var6 = _closure1_slot3;
-            var1 = 22;
-            var1 = var6[var1];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.GuildRoleSubscriptionTierDesignTab;
+            var2 = _closure1_slot7;
             var1 = {};
+            var6 = var5.tabContent;
+            var1['style'] = var6;
+            var8 = _closure1_slot14;
+            var11 = _closure1_slot0;
+            var13 = _closure1_slot3;
+            var6 = 20;
+            var6 = var13[var6];
+            var6 = var11.bind(var4)(var6);
+            var7 = var6.SafeAreaPaddingView;
+            var6 = {};
+            var10 = true;
+            var6['bottom'] = var10;
+            var12 = _closure1_slot14;
+            var10 = 22;
+            var10 = var13[var10];
+            var10 = var11.bind(var4)(var10);
+            var11 = var10.GuildRoleSubscriptionTierDesignTab;
+            var10 = {};
+            var10 = var12.bind(var4)(var11, var10);
+            var6['children'] = var10;
+            var6 = var8.bind(var4)(var7, var6);
+            var1['children'] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
 case 6:

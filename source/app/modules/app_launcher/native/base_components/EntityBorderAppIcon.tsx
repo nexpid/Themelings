@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['height'] = var3;
         var2['borderRadius'] = var4;
         var1['appIcon'] = var2;
-        var2 = {'borderWidth': 1, 'borderColor': null, 'overflow': 'hidden'};
+        var2 = {'padding': 1, 'backgroundColor': null, 'overflow': 'hidden'};
         var3 = 1;
         var7 = _closure1_slot0;
         var6 = _closure1_slot1;
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7.bind(var5)(var6);
         var5 = var5.colors;
         var5 = var5.BORDER_SUBTLE;
-        var2['borderColor'] = var5;
+        var2['backgroundColor'] = var5;
         var3 = var4 + var3;
         var2['borderRadius'] = var3;
         var1['entityWrapper'] = var2;

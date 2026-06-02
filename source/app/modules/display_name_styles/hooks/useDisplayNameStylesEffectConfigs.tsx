@@ -43,14 +43,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.DisplayNameEffect;
-    var11 = var9.GLOW;
-    var9 = var7[var5];
-    var9 = var10.bind(var1)(var9);
-    var9 = var9.Ra3/93;
-    var4[10] = var9;
-    var9 = var7[var8];
-    var9 = var6.bind(var1)(var9);
-    var9 = var9.DisplayNameEffect;
     var11 = var9.NEON;
     var9 = var7[var5];
     var9 = var10.bind(var1)(var9);

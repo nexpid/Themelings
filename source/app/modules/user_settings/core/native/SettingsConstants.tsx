@@ -188,6 +188,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DMS_HAPPENING_NOW_CARDS'] = var1;
     var1 = 'EXACT_SEARCH_RESULT_COUNTS';
     var2['EXACT_SEARCH_RESULT_COUNTS'] = var1;
+    var1 = 'MOBILE_VISUAL_REFRESH';
+    var2['MOBILE_VISUAL_REFRESH'] = var1;
     var1 = 'ACCESSIBILITY';
     var2['ACCESSIBILITY'] = var1;
     var1 = 'ROLE_COLORS';

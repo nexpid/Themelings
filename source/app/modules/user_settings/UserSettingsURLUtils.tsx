@@ -195,32 +195,42 @@ case 0:
             var8 = var8.ACCOUNT_STANDING_CATEGORY;
             var10[12] = var8;
             var8 = _closure1_slot4;
-            var13 = var8.PROFILE_CUSTOMIZATION;
+            var8 = var8.PROFILE_CUSTOMIZATION;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var6 = var6.WebUserSettings;
+            var6 = var6.PROFILE_PANEL;
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var8 = var6.CONTENT_AND_SOCIAL;
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var12 = var6.WebUserSettings;
+            if(var1) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
+            var6 = var12.CONTENT_AND_SOCIAL_PANEL;
+            _fun0003_ip = 9; continue _fun0003;
+case 7:
+            var6 = var12.MESSAGING_PERMISSIONS_PANEL;
+case 9:
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var13 = var6.CONNECTED_GAMES;
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var8 = var6[var9];
             var8 = var12.bind(var7)(var8);
             var8 = var8.WebUserSettings;
-            var8 = var8.PROFILE_PANEL;
-            var10[12] = var8;
-            var8 = _closure1_slot4;
-            var13 = var8.CONTENT_AND_SOCIAL;
-            var8 = var6[var9];
-            var8 = var12.bind(var7)(var8);
-            var8 = var8.WebUserSettings;
-            var8 = var8.CONTENT_AND_SOCIAL_PANEL;
-            var10[12] = var8;
-            var8 = _closure1_slot4;
-            var13 = var8.CONNECTED_GAMES;
-            var8 = var6[var9];
-            var8 = var12.bind(var7)(var8);
-            var8 = var8.WebUserSettings;
-            var8 = var8.CONTENT_AND_SOCIAL_CONNECTED_GAMES_CATEGORY;
+            var8 = var8.CONNECTED_GAMES_CATEGORY;
             var10[12] = var8;
             var8 = _closure1_slot4;
             var13 = var8.CONTENT_AND_SOCIAL_CONNECTED_GAMES;
             var8 = var6[var9];
             var8 = var12.bind(var7)(var8);
             var8 = var8.WebUserSettings;
-            var8 = var8.CONTENT_AND_SOCIAL_CONNECTED_GAMES_CATEGORY;
+            var8 = var8.CONNECTED_GAMES_CATEGORY;
             var10[12] = var8;
             var8 = _closure1_slot4;
             var13 = var8.DATA_AND_PRIVACY;
@@ -257,13 +267,13 @@ case 0:
             var6 = var6[var9];
             var6 = var12.bind(var7)(var6);
             var12 = var6.WebUserSettings;
-            if(var1) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+            if(var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var6 = var12.AUTHORIZED_APPS_PANEL;
-            _fun0003_ip = 9; continue _fun0003;
-case 7:
+            _fun0003_ip = 12; continue _fun0003;
+case 10:
             var6 = var12.AUTHORIZED_APPS_CATEGORY;
-case 9:
+case 12:
             var10[7] = var6;
             var6 = _closure1_slot4;
             var6 = var6.CONNECTIONS;
@@ -272,13 +282,13 @@ case 9:
             var8 = var8[var9];
             var8 = var12.bind(var7)(var8);
             var8 = var8.WebUserSettings;
-            if(var1) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(var1) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var1 = var8.CONNECTIONS_PANEL;
-            _fun0003_ip = 12; continue _fun0003;
-case 10:
+            _fun0003_ip = 15; continue _fun0003;
+case 13:
             var1 = var8.CONNECTIONS_CATEGORY;
-case 12:
+case 15:
             var10[5] = var1;
             var1 = _closure1_slot4;
             var12 = var1.CLIPS;
@@ -468,22 +478,22 @@ case 12:
             var6 = _closure1_slot9;
             var6 = var6.bind(var7)(var3);
             var8 = undefined;
-            if(!var6) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+            if(!var6) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var8 = var10[var3];
-case 13:
-            var6 = null;
-            if(!(var6 == var8)) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
+            var6 = null;
+            if(!(var6 == var8)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var9 = _closure1_slot9;
             var12 = var9.bind(var7)(var11);
             var9 = undefined;
-            if(!var12) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+            if(!var12) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var9 = var10[var11];
-case 17:
+case 20:
             var8 = var9;
-case 15:
+case 18:
             var1['target'] = var8;
             var1['path'] = var3;
             var3 = _closure1_slot0;
@@ -492,11 +502,11 @@ case 15:
             var2 = var8[var2];
             var3 = var3.bind(var7)(var2);
             var2 = var3.parse;
-            if(!(var6 == var4)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+            if(!(var6 == var4)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
             var5 = var5.location;
             var4 = var5.search;
-case 19:
+case 22:
             var2 = var2.bind(var3)(var4);
             var1['params'] = var2;
             return var1;

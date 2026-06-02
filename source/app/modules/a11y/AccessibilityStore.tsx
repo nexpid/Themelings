@@ -1239,7 +1239,7 @@ case 67:
             var3 = 'systemForcedColors';
             var2[2] = var4;
             _closure1_slot17 = var2;
-            var1 = true;
+            var1 = undefined;
             return var1;
         }
     };

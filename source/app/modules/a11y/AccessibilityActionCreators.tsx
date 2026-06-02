@@ -193,21 +193,6 @@ case 2:
         return var1;
     };
     var3['toggleColorblindMode'] = var4;
-    var4 = function toggleDarkSidebar() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 4;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'ACCESSIBILITY_DARK_SIDEBAR_TOGGLE';
-        var2['type'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['toggleDarkSidebar'] = var4;
     var4 = function forcedColorsModalSeen() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

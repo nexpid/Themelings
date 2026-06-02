@@ -25,39 +25,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var7 = var6[var4];
     var4 = metroImportAll;
-    var4 = var4.bind(var1)(var7);
+    var7 = var4.bind(var1)(var7);
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot5 = var4;
     var4 = {};
-    var7 = {};
-    var4['Teen Screen Time Illo'] = var7;
-    var7 = {};
-    var4['Gradient Vertical'] = var7;
-    var7 = {};
-    var4['RAW ILLO (Do not deploy)'] = var7;
-    var7 = {};
-    var4['Gradient Horizontal'] = var7;
+    var8 = {};
+    var4['Teen Screen Time Illo'] = var8;
+    var8 = {};
+    var4['Gradient Vertical'] = var8;
+    var8 = {};
+    var4['RAW ILLO (Do not deploy)'] = var8;
+    var8 = {};
+    var4['Gradient Horizontal'] = var8;
     var _closure1_slot6 = var4;
     var4 = {};
-    var7 = new Array(0);
-    var4['Teen Screen Time Illo'] = var7;
-    var7 = new Array(0);
-    var4['Gradient Vertical'] = var7;
-    var7 = new Array(0);
-    var4['RAW ILLO (Do not deploy)'] = var7;
-    var7 = new Array(0);
-    var4['Gradient Horizontal'] = var7;
+    var8 = new Array(0);
+    var4['Teen Screen Time Illo'] = var8;
+    var8 = new Array(0);
+    var4['Gradient Vertical'] = var8;
+    var8 = new Array(0);
+    var4['RAW ILLO (Do not deploy)'] = var8;
+    var8 = new Array(0);
+    var4['Gradient Horizontal'] = var8;
     var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = '../discord_common/js/packages/design/components/Rive/native/generated/TeenScreenTimeRive.tsx';
-    var4 = var5.bind(var6)(var4);
-    var2 = function TeenScreenTimeRive(arg1) {
+    var4 = var7.forwardRef;
+    var2 = function TeenScreenTimeRiveInner(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -86,6 +81,8 @@ case 4:
             var1 = var2.bind(var4)(var1);
             var2 = var1.BaseRive;
             var1 = {};
+            var10 = arg2;
+            var1['ref'] = var10;
             var11 = _closure1_slot1;
             var10 = 4;
             var10 = var12[var10];
@@ -106,6 +103,13 @@ case 4:
             return var1;
         }
     };
+    var2 = var4.bind(var7)(var2);
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/design/components/Rive/native/generated/TeenScreenTimeRive.tsx';
+    var4 = var5.bind(var6)(var4);
     var3['TeenScreenTimeRive'] = var2;
     return var1;
 })();

@@ -66,7 +66,7 @@ case 0:
                     if(var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
                     var2 = undefined;
-                    var8 = undefined;
+                    var9 = undefined;
                     var3 = null;
                     if(!(var3 == var4)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
@@ -81,56 +81,77 @@ case 11:
 case 10:
                     var4 = var5;
 case 8:
-                    var8 = var4;
+                    var9 = var4;
                     if(!(var3 != var4)) { _fun0002_ip = 12; continue _fun0002 }
-case 13: // try_start_0
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var3 = 3;
-                    var3 = var6[var3];
-                    var3 = var5.bind(var2)(var3);
-                    var6 = var3.HTTP;
-                    var5 = var6.get;
-                    var3 = {};
-                    var10 = _closure1_slot5;
-                    var9 = var10.USER_BADGES;
-                    var11 = _closure1_slot7;
-                    var7 = var8;
-                    var7 = var11.bind(var2)(var7);
-                    var7 = var9.bind(var10)(var7);
-                    var3['url'] = var7;
-                    var7 = true;
-                    var3['rejectWithError'] = var7;
-                    var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=147);
-case 14:
-                    return var3;
-case 15:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-                    var7 = var3.body;
+case 13:
                     var5 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var4 = 4;
-                    var4 = var6[var4];
-                    var6 = var5.bind(var2)(var4);
-                    var5 = var6.dispatch;
+                    var4 = _closure1_slot2;
+                    var3 = 3;
+                    var4 = var4[var3];
+                    var7 = var5.bind(var2)(var4);
+                    var5 = var7.dispatch;
                     var4 = {};
-                    var9 = 'BADGE_DIRECTORY_FETCH_SUCCESS';
-                    var4['type'] = var9;
+                    var8 = 'BADGE_DIRECTORY_FETCH_START';
+                    var4['type'] = var8;
+                    var8 = var9;
                     var4['userId'] = var8;
-                    var7 = var7.badges;
-                    var4['badges'] = var7;
-                    var4 = var5.bind(var6)(var4);
-case 18: // try_end0
-                    _fun0002_ip = 12; continue _fun0002;
+                    var4 = var5.bind(var7)(var4);
+case 14: // try_start_0
+                    var5 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var7[var4];
+                    var4 = var5.bind(var2)(var4);
+                    var7 = var4.HTTP;
+                    var5 = var7.get;
+                    var4 = {};
+                    var11 = _closure1_slot5;
+                    var10 = var11.USER_BADGES;
+                    var12 = _closure1_slot7;
+                    var8 = var9;
+                    var8 = var12.bind(var2)(var8);
+                    var8 = var10.bind(var11)(var8);
+                    var4['url'] = var8;
+                    var8 = true;
+                    var4['rejectWithError'] = var8;
+                    var4 = var5.bind(var7)(var4);
+                    SaveGenerator(address=196);
+case 15:
+                    return var4;
 case 16:
-                    return var3;
-case 19: // catch_target0
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(var5) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+                    var10 = var4.body;
+                    var7 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var3];
+                    var8 = var7.bind(var2)(var5);
+                    var7 = var8.dispatch;
+                    var5 = {};
+                    var11 = 'BADGE_DIRECTORY_FETCH_SUCCESS';
+                    var5['type'] = var11;
+                    var11 = var9;
+                    var5['userId'] = var11;
+                    var10 = var10.badges;
+                    var5['badges'] = var10;
+                    var5 = var7.bind(var8)(var5);
+case 19: // try_end0
+                    _fun0002_ip = 12; continue _fun0002;
+case 17:
+                    return var4;
+case 20: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
+                    var3 = var6[var3];
+                    var8 = var4.bind(var2)(var3);
+                    var7 = var8.dispatch;
+                    var3 = {};
+                    var10 = 'BADGE_DIRECTORY_FETCH_FAILURE';
+                    var3['type'] = var10;
+                    var3['userId'] = var9;
+                    var3 = var7.bind(var8)(var3);
                     var3 = 5;
                     var3 = var6[var3];
                     var4 = var4.bind(var2)(var3);
@@ -169,31 +190,31 @@ case 0:
                     StartGenerator();
                     var4 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 20; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 21; continue _fun0003 }
 case 7:
                     var8 = arg1;
                     var2 = undefined;
                     var7 = undefined;
                     var3 = null;
-                    if(!(var3 == var4)) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                    if(!(var3 == var4)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                     var6 = _closure1_slot4;
                     var5 = var6.getCurrentUser;
                     var6 = var5.bind(var6)();
                     var9 = var3 == var6;
                     var5 = undefined;
                     if(var9) { _fun0003_ip = 8; continue _fun0003 }
-case 23:
+case 24:
                     var5 = var6.id;
 case 8:
                     var4 = var5;
-case 21:
+case 22:
                     var7 = var4;
-                    if(!(var3 != var4)) { _fun0003_ip = 24; continue _fun0003 }
-case 25: // try_start_0
+                    if(!(var3 != var4)) { _fun0003_ip = 25; continue _fun0003 }
+case 26: // try_start_0
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 3;
+                    var3 = 4;
                     var3 = var6[var3];
                     var3 = var5.bind(var2)(var3);
                     var6 = var3.HTTP;
@@ -210,15 +231,15 @@ case 25: // try_start_0
                     var3['rejectWithError'] = var8;
                     var3 = var5.bind(var6)(var3);
                     SaveGenerator(address=151);
-case 26:
-                    return var3;
 case 27:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 18; continue _fun0003 }
+                    return var3;
 case 28:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 4;
+                    var4 = 3;
                     var4 = var6[var4];
                     var6 = var5.bind(var2)(var4);
                     var5 = var6.dispatch;
@@ -229,11 +250,11 @@ case 28:
                     var7 = var3.body;
                     var4['badge'] = var7;
                     var4 = var5.bind(var6)(var4);
-case 29: // try_end0
-                    _fun0003_ip = 24; continue _fun0003;
-case 18:
+case 31: // try_end0
+                    _fun0003_ip = 25; continue _fun0003;
+case 29:
                     return var3;
-case 30: // catch_target0
+case 32: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -242,9 +263,9 @@ case 30: // catch_target0
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.captureException;
                     var3 = var3.bind(var4)(var5);
-case 24:
+case 25:
                     return var2;
-case 20:
+case 21:
                     return var1;
                 }
             };

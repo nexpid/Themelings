@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.ClearAfterValues;
     var _closure1_slot2 = var4;
-    var4 = 2;
+    var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -34,45 +34,28 @@ case 0:
             var3 = var3.TODAY;
             if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var2 = 1;
-            var2 = var4[var2];
-            var5 = undefined;
-            var4 = var3.bind(var5)(var2);
-            var3 = 'number';
-            var2 = typeof var1;
-            var3 = var3 === var2;
-            var2 = 'Invalid custom status clear timeout';
-            var2 = var4.bind(var5)(var3, var2);
-            return var1;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 2;
+            var3 = var5[var3];
+            var6 = undefined;
+            var5 = var4.bind(var6)(var3);
+            var4 = 'number';
+            var3 = typeof var1;
+            var4 = var4 === var3;
+            var3 = 'Invalid custom status clear timeout';
+            var3 = var5.bind(var6)(var4, var3);
+            _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var1 = global;
-            var2 = var1.Date;
-            var3 = var2.prototype;
-            var3 = Object.create(var3, {constructor: {value: var2}});
-            var10 = var3;
-            var2 = new var10[var2](var9);
-            var3 = var2 instanceof Object ? var2 : var3;
-            var6 = var1.Date;
-            var1 = var3.getFullYear;
-            var9 = var1.bind(var3)();
-            var1 = var3.getMonth;
-            var8 = var1.bind(var3)();
-            var1 = var3.getDate;
-            var2 = var1.bind(var3)();
-            var1 = 1;
-            var7 = var2 + var1;
-            var2 = var6.prototype;
-            var2 = Object.create(var2, {constructor: {value: var6}});
-            var10 = var2;
-            var1 = new var10[var6](var9, var8, var7, var6);
-            var2 = var1 instanceof Object ? var1 : var2;
-            var1 = var2.getTime;
-            var2 = var1.bind(var2)();
-            var1 = var3.getTime;
-            var1 = var1.bind(var3)();
-            var1 = var2 - var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var2 = var2.Millis;
+            var1 = var2.DAY;
+case 4:
             return var1;
         }
     };

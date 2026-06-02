@@ -81,7 +81,7 @@ case 2:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/hooks/usePremiumDiscountOffer.android.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function usePremiumDiscountOffer() {
+    var4 = function usePremiumDiscountOffer() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -120,6 +120,11 @@ case 6:
             return var1;
         }
     };
-    var3['usePremiumDiscountOffer'] = var2;
+    var3['usePremiumDiscountOffer'] = var4;
+    var2 = function usePremiumGroupDiscountOffer() {
+        var1 = null;
+        return var1;
+    };
+    var3['usePremiumGroupDiscountOffer'] = var2;
     return var1;
 })();

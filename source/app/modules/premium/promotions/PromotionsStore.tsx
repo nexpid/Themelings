@@ -875,6 +875,30 @@ case 45:
         return var1;
     };
     var2['ACTIVE_PROMOTIONS_FETCH_FAIL'] = var9;
+    var9 = function handleActivePromotionsClear() {
+        var2 = _closure1_slot22;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        _closure1_slot16 = var2;
+        var2 = global;
+        var4 = var2.Map;
+        var5 = var4.prototype;
+        var5 = Object.create(var5, {constructor: {value: var4}});
+        var6 = var5;
+        var4 = new var6[var4](var5);
+        var4 = var4 instanceof Object ? var4 : var5;
+        _closure1_slot18 = var4;
+        var4 = null;
+        _closure1_slot11 = var4;
+        var4 = false;
+        _closure1_slot14 = var4;
+        var4 = var2.Date;
+        var2 = var4.now;
+        var2 = var2.bind(var4)();
+        _closure1_slot15 = var2;
+        return var1;
+    };
+    var2['ACTIVE_PROMOTIONS_CLEAR'] = var9;
     var9 = function handleActiveBogoPromotionFetchSuccess(arg1) {
         var1 = arg1;
         var2 = var1.activePromotion;
