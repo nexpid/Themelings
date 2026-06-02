@@ -563,6 +563,18 @@
         "midnight": "#fa777b",
         "darker": "#fa777b"
     },
+    "CONTROL_EXPRESSIVE_BACKGROUND_DEFAULT": {
+        "dark": "#ffffff",
+        "light": "#5865f2",
+        "midnight": "#ffffff",
+        "darker": "#ffffff"
+    },
+    "CONTROL_EXPRESSIVE_TEXT_DEFAULT": {
+        "dark": "#000000",
+        "light": "#ffffff",
+        "midnight": "#000000",
+        "darker": "#000000"
+    },
     "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": {
         "dark": "#4e50588a",
         "light": "#80848e3d",

@@ -2819,6 +2819,66 @@
             }
         ]
     },
+    "CONTROL_EXPRESSIVE_BACKGROUND_DEFAULT": {
+        "dark": [
+            "#ffffff",
+            {
+                "raw": "NEUTRAL_1",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#5865f2",
+            {
+                "raw": "BLURPLE_50",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#ffffff",
+            {
+                "raw": "NEUTRAL_1",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#ffffff",
+            {
+                "raw": "NEUTRAL_1",
+                "opacity": 1
+            }
+        ]
+    },
+    "CONTROL_EXPRESSIVE_TEXT_DEFAULT": {
+        "dark": [
+            "#000000",
+            {
+                "raw": "NEUTRAL_100",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ffffff",
+            {
+                "raw": "NEUTRAL_1",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#000000",
+            {
+                "raw": "NEUTRAL_100",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#000000",
+            {
+                "raw": "NEUTRAL_100",
+                "opacity": 1
+            }
+        ]
+    },
     "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": {
         "dark": [
             "#4e50588a",
