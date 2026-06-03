@@ -30,10 +30,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticsSections;
-    var _closure1_slot6 = var4;
-    var4 = 18;
+    var _closure1_slot7 = var4;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -42,38 +46,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function getGuildsBarGuildMenuItems(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var7 = arg1;
-            var _closure2_slot0 = var7;
-            var12 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var1 = 4;
-            var1 = var5[var1];
-            var9 = undefined;
-            var4 = var12.bind(var9)(var1);
-            var3 = var4.shouldShowUseNewNotificationSystem;
-            var1 = 'GuildPopoutMenu';
-            var3 = var3.bind(var4)(var1);
-            var4 = _closure1_slot5;
-            var1 = var4.isMuted;
-            var7 = var1.bind(var4)(var7);
-            var4 = {};
-            var1 = 5;
-            var1 = var5[var1];
-            var1 = var12.bind(var9)(var1);
-            var1 = var1.EnvelopeIcon;
-            var4['IconComponent'] = var1;
-            var10 = 6;
-            var1 = var5[var10];
-            var1 = var12.bind(var9)(var1);
-            var11 = var1.intl;
-            var8 = var11.string;
-            var1 = var5[var10];
-            var1 = var12.bind(var9)(var1);
-            var1 = var1.t;
-            var1 = var1.e6RscS;
-            var1 = var8.bind(var11)(var1);
-            var4['label'] = var1;
-            var1 = function action() {
+            var6 = arg1;
+            var _closure2_slot0 = var6;
+            var3 = _closure1_slot4;
+            var2 = var3.isLurking;
+            var2 = var2.bind(var3)(var6);
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var2 = 9;
+            var2 = var8[var2];
+            var11 = undefined;
+            var5 = var7.bind(var11)(var2);
+            var3 = var5.shouldShowUseNewNotificationSystem;
+            var2 = 'GuildPopoutMenu';
+            var3 = var3.bind(var5)(var2);
+            var5 = _closure1_slot6;
+            var2 = var5.isMuted;
+            var9 = var2.bind(var5)(var6);
+            var5 = {};
+            var2 = 10;
+            var2 = var8[var2];
+            var2 = var7.bind(var11)(var2);
+            var2 = var2.EnvelopeIcon;
+            var5['IconComponent'] = var2;
+            var12 = 6;
+            var2 = var8[var12];
+            var2 = var7.bind(var11)(var2);
+            var10 = var2.intl;
+            var6 = var10.string;
+            var2 = var8[var12];
+            var2 = var7.bind(var11)(var2);
+            var2 = var2.t;
+            var2 = var2.e6RscS;
+            var2 = var6.bind(var10)(var2);
+            var5['label'] = var2;
+            var2 = function action() {
                 var3 = _closure1_slot3;
                 var2 = undefined;
                 var1 = function* () {
@@ -82,36 +91,36 @@ case 0:
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
+                            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                             var6 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var3 = 8;
+                            var3 = 12;
                             var5 = var2[var3];
                             var3 = undefined;
                             var6 = var6.bind(var3)(var5);
-                            var5 = 7;
+                            var5 = 11;
                             var5 = var2[var5];
                             var2 = var2.paths;
                             var2 = var6.bind(var3)(var5, var2);
                             SaveGenerator(address=54);
-case 4:
+case 6:
                             return var2;
-case 5:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                            if(var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                             var6 = var2.default;
                             var7 = _closure2_slot0;
                             var5 = new Array(1);
                             var5[0] = var7;
-                            var4 = _closure1_slot6;
+                            var4 = _closure1_slot7;
                             var4 = var4.GUILD_LIST;
                             var4 = var6.bind(var3)(var5, var4);
                             return var3;
-case 6:
+case 8:
                             return var2;
-case 2:
+case 4:
                             return var1;
                         }
                     };
@@ -121,29 +130,29 @@ case 2:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var4['action'] = var1;
-            var1 = new Array(3);
-            var1[0] = var4;
-            var4 = {};
-            var8 = 9;
-            var8 = var5[var8];
-            var8 = var12.bind(var9)(var8);
-            var8 = var8.BellIcon;
-            var4['IconComponent'] = var8;
-            var8 = var5[var10];
-            var8 = var12.bind(var9)(var8);
-            var13 = var8.intl;
-            var11 = var13.string;
-            var8 = var5[var10];
-            var8 = var12.bind(var9)(var8);
-            var8 = var8.t;
-            var8 = var8.HcoRu0;
-            var8 = var11.bind(var13)(var8);
-            var4['label'] = var8;
-            var8 = function action() {
+            var5['action'] = var2;
+            var2 = new Array(3);
+            var2[0] = var5;
+            var5 = {};
+            var6 = 13;
+            var6 = var8[var6];
+            var6 = var7.bind(var11)(var6);
+            var6 = var6.BellIcon;
+            var5['IconComponent'] = var6;
+            var6 = var8[var12];
+            var6 = var7.bind(var11)(var6);
+            var13 = var6.intl;
+            var10 = var13.string;
+            var6 = var8[var12];
+            var6 = var7.bind(var11)(var6);
+            var6 = var6.t;
+            var6 = var6.HcoRu0;
+            var6 = var10.bind(var13)(var6);
+            var5['label'] = var6;
+            var6 = function action() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 14;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -152,84 +161,84 @@ case 2:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var4['action'] = var8;
-            var1[1] = var4;
-            var4 = {};
-            var8 = 11;
-            var8 = var5[var8];
-            var8 = var12.bind(var9)(var8);
-            var8 = var8.SettingsIcon;
-            var4['IconComponent'] = var8;
-            var8 = var5[var10];
-            var8 = var12.bind(var9)(var8);
-            var11 = var8.intl;
-            var8 = var11.string;
-            var5 = var5[var10];
-            var5 = var12.bind(var9)(var5);
-            var5 = var5.t;
-            var5 = var5.PdRCRg;
-            var5 = var8.bind(var11)(var5);
-            var4['label'] = var5;
-            var5 = function action() {
+            var5['action'] = var6;
+            var2[1] = var5;
+            var5 = {};
+            var6 = 15;
+            var6 = var8[var6];
+            var6 = var7.bind(var11)(var6);
+            var6 = var6.SettingsIcon;
+            var5['IconComponent'] = var6;
+            var6 = var8[var12];
+            var6 = var7.bind(var11)(var6);
+            var13 = var6.intl;
+            var10 = var13.string;
+            var6 = var8[var12];
+            var6 = var7.bind(var11)(var6);
+            var6 = var6.t;
+            var6 = var6.PdRCRg;
+            var6 = var10.bind(var13)(var6);
+            var5['label'] = var6;
+            var6 = function action() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var4 = _closure1_slot4;
+                    var4 = _closure1_slot5;
                     var3 = var4.getGuild;
                     var2 = _closure2_slot0;
                     var3 = var3.bind(var4)(var2);
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                    if(!(var2 != var3)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 12;
+                    var1 = 16;
                     var1 = var2[var1];
                     var2 = undefined;
                     var1 = var4.bind(var2)(var1);
                     var1 = var1.bind(var2)(var3);
-case 8:
+case 10:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var4['action'] = var5;
-            var1[2] = var4;
-            if(!var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var5 = var1.splice;
-            var4 = {};
-            var8 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            if(var7) { _fun0001_ip = 12; continue _fun0001 }
+            var5['action'] = var6;
+            var2[2] = var5;
+            if(!var3) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var7 = 13;
-            var7 = var3[var7];
-            var7 = var8.bind(var9)(var7);
-            var4['iconSource'] = var7;
-            var13 = _closure1_slot0;
-            var7 = var3[var10];
-            var7 = var13.bind(var9)(var7);
-            var12 = var7.intl;
-            var11 = var12.string;
-            var7 = var3[var10];
-            var7 = var13.bind(var9)(var7);
-            var7 = var7.t;
-            var7 = var7.vRzp7P;
-            var7 = var11.bind(var12)(var7);
-            var4['label'] = var7;
-            var7 = function action() {
+            var6 = var2.splice;
+            var5 = {};
+            var10 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            if(var9) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var9 = 17;
+            var9 = var3[var9];
+            var9 = var10.bind(var11)(var9);
+            var5['iconSource'] = var9;
+            var15 = _closure1_slot0;
+            var9 = var3[var12];
+            var9 = var15.bind(var11)(var9);
+            var14 = var9.intl;
+            var13 = var14.string;
+            var9 = var3[var12];
+            var9 = var15.bind(var11)(var9);
+            var9 = var9.t;
+            var9 = var9.vRzp7P;
+            var9 = var13.bind(var14)(var9);
+            var5['label'] = var9;
+            var9 = function action() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 18;
                 var4 = var2[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.openLazy;
                 var4 = _closure1_slot0;
-                var3 = 8;
+                var3 = 12;
                 var3 = var2[var3];
                 var4 = var4.bind(var1)(var3);
-                var3 = 15;
+                var3 = 19;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var4 = var4.bind(var1)(var3, var2);
@@ -244,37 +253,37 @@ case 13:
                 var2 = var5.bind(var6)(var4, var3, var2);
                 return var1;
             };
-            var4['action'] = var7;
-            var11 = 1;
-            var7 = 0;
-            var7 = var5.bind(var1)(var11, var7, var4);
-            _fun0001_ip = 10; continue _fun0001;
-case 12:
-            var7 = 16;
-            var7 = var3[var7];
-            var7 = var8.bind(var9)(var7);
-            var4['iconSource'] = var7;
-            var8 = _closure1_slot0;
-            var6 = var3[var10];
-            var6 = var8.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var3 = var3[var10];
-            var3 = var8.bind(var9)(var3);
+            var5['action'] = var9;
+            var13 = 1;
+            var9 = 0;
+            var9 = var6.bind(var2)(var13, var9, var5);
+            _fun0001_ip = 12; continue _fun0001;
+case 14:
+            var9 = 20;
+            var9 = var3[var9];
+            var9 = var10.bind(var11)(var9);
+            var5['iconSource'] = var9;
+            var10 = _closure1_slot0;
+            var4 = var3[var12];
+            var4 = var10.bind(var11)(var4);
+            var9 = var4.intl;
+            var4 = var9.string;
+            var3 = var3[var12];
+            var3 = var10.bind(var11)(var3);
             var3 = var3.t;
             var3 = var3.De0BTC;
-            var3 = var6.bind(var7)(var3);
-            var4['label'] = var3;
-            var2 = function action() {
+            var3 = var4.bind(var9)(var3);
+            var5['label'] = var3;
+            var3 = function action() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var3 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                    if(!(var1 != var3)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var3 = 10;
+                    var3 = 14;
                     var3 = var8[var3];
                     var7 = undefined;
                     var5 = var4.bind(var7)(var3);
@@ -284,22 +293,64 @@ case 15:
                     var6 = false;
                     var2['muted'] = var6;
                     var6 = _closure1_slot0;
-                    var1 = 17;
+                    var1 = 21;
                     var1 = var8[var1];
                     var1 = var6.bind(var7)(var1);
                     var1 = var1.NotificationLabels;
                     var1 = var1.Unmuted;
                     var1 = var4.bind(var5)(var3, var2, var1);
-case 14:
+case 16:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var4['action'] = var2;
-            var3 = 1;
-            var2 = 0;
-            var2 = var5.bind(var1)(var3, var2, var4);
-case 10:
+            var5['action'] = var3;
+            var4 = 1;
+            var3 = 0;
+            var3 = var6.bind(var2)(var4, var3, var5);
+case 12:
+            return var2;
+case 2:
+            var2 = {};
+            var3 = 5;
+            var3 = var8[var3];
+            var6 = undefined;
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.DoorExitIcon;
+            var2['IconComponent'] = var3;
+            var3 = 6;
+            var4 = var8[var3];
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.t;
+            var3 = var3["2vl7qn"];
+            var3 = var4.bind(var5)(var3);
+            var2['label'] = var3;
+            var3 = 'destructive';
+            var2['variant'] = var3;
+            var1 = function action() {
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var1 = 7;
+                var2 = var5[var1];
+                var1 = undefined;
+                var6 = var3.bind(var1)(var2);
+                var2 = var6.trackLongPressLeaveClicked;
+                var4 = _closure2_slot0;
+                var2 = var2.bind(var6)(var4);
+                var2 = 8;
+                var2 = var5[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.stopLurkingForGuild;
+                var2 = var2.bind(var3)(var4);
+                return var1;
+            };
+            var2['action'] = var1;
+            var1 = new Array(1);
+            var1[0] = var2;
             return var1;
         }
     };

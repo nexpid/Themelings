@@ -1274,6 +1274,8 @@ case 3:
     var13 = {};
     var17 = var14.TYPE;
     var13[16] = var15;
+    var17 = var14.NAME;
+    var13[16] = var15;
     var7[15] = var13;
     var16 = var9.THREAD;
     var13 = {};

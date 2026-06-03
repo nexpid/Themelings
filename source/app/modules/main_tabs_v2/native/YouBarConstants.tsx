@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 3;
+            var1 = 2;
             var1 = var4[var1];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
@@ -23,28 +23,28 @@ case 0:
 case 3:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 4;
+            var1 = 3;
             var1 = var5[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.isAndroid;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot8;
             _fun0001_ip = 5; continue _fun0001;
 case 2:
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot7;
 case 5:
             return var1;
         }
     };
-    var _closure1_slot11 = var8;
+    var _closure1_slot10 = var8;
     var7 = function useYouBarBottomMargin() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 3;
+            var1 = 2;
             var1 = var9[var1];
             var6 = undefined;
             var1 = var8.bind(var6)(var1);
@@ -56,11 +56,11 @@ case 0:
             var1 = 'useYouBarBottomMargin';
             var1 = var3.bind(var6)(var1);
             var4 = _closure1_slot0;
-            var3 = 7;
+            var3 = 5;
             var3 = var9[var3];
             var7 = var4.bind(var6)(var3);
             var4 = var7.useToken;
-            var3 = 2;
+            var3 = 1;
             var3 = var9[var3];
             var3 = var8.bind(var6)(var3);
             var3 = var3.modules;
@@ -74,20 +74,20 @@ case 7:
 case 9:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 4;
+            var1 = 3;
             var1 = var7[var1];
             var3 = var3.bind(var6)(var1);
             var1 = var3.isAndroid;
             var1 = var1.bind(var3)();
             if(var1) { _fun0002_ip = 8; continue _fun0002 }
 case 10:
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot8;
             _fun0002_ip = 11; continue _fun0002;
 case 8:
             var3 = global;
             var6 = var3.Math;
             var3 = var6.max;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot9;
             var1 = var3.bind(var6)(var2, var5);
 case 11:
             _fun0002_ip = 12; continue _fun0002;
@@ -100,13 +100,13 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot12 = var7;
+    var _closure1_slot11 = var7;
     var6 = function useConnectionBannerHeight() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 8;
+            var2 = 7;
             var2 = var7[var2];
             var6 = undefined;
             var4 = var3.bind(var6)(var2);
@@ -118,7 +118,7 @@ case 0:
             var5 = var2.timeoutMs;
             var2 = var2.hidden;
             var4 = _closure1_slot0;
-            var3 = 9;
+            var3 = 8;
             var3 = var7[var3];
             var7 = var4.bind(var6)(var3);
             var6 = var7.useStateFromStores;
@@ -147,13 +147,13 @@ case 16:
             return var1;
         }
     };
-    var _closure1_slot13 = var6;
+    var _closure1_slot12 = var6;
     var5 = function useYouBarSettingsOutsideSafeAreaTop(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var6[var1];
             var5 = undefined;
             var4 = var3.bind(var5)(var1);
@@ -161,7 +161,7 @@ case 0:
             var1 = arg1;
             var1 = var3.bind(var4)(var1);
             var4 = _closure1_slot1;
-            var3 = 11;
+            var3 = 10;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.bind(var5)();
@@ -169,7 +169,7 @@ case 0:
 case 18:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 4;
+            var2 = 3;
             var2 = var6[var2];
             var4 = var4.bind(var5)(var2);
             var2 = var4.isAndroid;
@@ -184,7 +184,7 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot14 = var5;
+    var _closure1_slot13 = var5;
     var2 = global;
     var11 = var2.Object;
     var10 = var11.defineProperty;
@@ -202,15 +202,10 @@ case 17:
     var9 = var16.bind(var1)(var9);
     var9 = var9.ConnectivityIndicatorState;
     var _closure1_slot4 = var9;
-    var9 = 1;
-    var9 = var17[var9];
-    var9 = var16.bind(var1)(var9);
-    var9 = var9.CHANNEL_DRAWER_SPACING;
-    var _closure1_slot5 = var9;
     var11 = var2.Set;
     var12 = var2.Object;
     var10 = var12.values;
-    var2 = 2;
+    var2 = 1;
     var9 = var17[var2];
     var9 = var15.bind(var1)(var9);
     var9 = var9.spacing;
@@ -220,25 +215,26 @@ case 17:
     var22 = var10;
     var9 = new var22[var11](var21, var20);
     var9 = var9 instanceof Object ? var9 : var10;
-    var _closure1_slot6 = var9;
+    var _closure1_slot5 = var9;
     var9 = var17[var2];
     var9 = var15.bind(var1)(var9);
     var9 = var9.spacing;
     var14 = var9.PX_12;
-    var10 = var2 * var14;
+    var9 = 2;
+    var10 = var9 * var14;
     var9 = 32;
     var13 = var9 + var10;
-    var _closure1_slot7 = var13;
+    var _closure1_slot6 = var13;
     var9 = var17[var2];
     var9 = var15.bind(var1)(var9);
     var9 = var9.spacing;
     var12 = var9.PX_16;
-    var _closure1_slot8 = var12;
+    var _closure1_slot7 = var12;
     var9 = var17[var2];
     var9 = var15.bind(var1)(var9);
     var9 = var9.spacing;
     var11 = var9.PX_24;
-    var _closure1_slot9 = var11;
+    var _closure1_slot8 = var11;
     var9 = var17[var2];
     var9 = var15.bind(var1)(var9);
     var9 = var9.spacing;
@@ -247,12 +243,12 @@ case 17:
     var9 = var15.bind(var1)(var9);
     var9 = var9.spacing;
     var9 = var9.PX_16;
-    var _closure1_slot10 = var9;
+    var _closure1_slot9 = var9;
     var2 = var17[var2];
     var2 = var15.bind(var1)(var2);
     var2 = var2.spacing;
     var2 = var2.PX_16;
-    var15 = 12;
+    var15 = 11;
     var15 = var17[var15];
     var17 = var16.bind(var1)(var15);
     var16 = var17.fileFinishedImporting;
@@ -272,29 +268,40 @@ case 17:
     var8 = function useYouBarRightInset() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var1 = _closure1_slot11;
-            var4 = undefined;
-            var1 = var1.bind(var4)();
-            var5 = _closure1_slot1;
-            var6 = _closure1_slot2;
+            var1 = _closure1_slot10;
+            var8 = undefined;
+            var1 = var1.bind(var8)();
+            var7 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 4;
+            var2 = var9[var2];
+            var2 = var7.bind(var8)(var2);
+            var2 = var2.bind(var8)();
+            var5 = var2.isChatBesideChannelList;
+            var4 = _closure1_slot0;
             var2 = 5;
-            var2 = var6[var2];
-            var2 = var5.bind(var4)(var2);
-            var2 = var2.bind(var4)();
-            var4 = var2.isChatBesideChannelList;
+            var2 = var9[var2];
+            var6 = var4.bind(var8)(var2);
+            var4 = var6.useToken;
+            var2 = 1;
+            var2 = var9[var2];
+            var2 = var7.bind(var8)(var2);
+            var2 = var2.modules;
+            var2 = var2.mobile;
+            var2 = var2.CHANNEL_DRAWER_SPACING;
+            var4 = var4.bind(var6)(var2);
             var2 = var1;
-            if(!var4) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
-            var4 = _closure1_slot5;
-            var2 = var1 - var4;
+            if(!var5) { _fun0005_ip = 14; continue _fun0005 }
 case 21:
-            var4 = _closure1_slot6;
+            var2 = var1 - var4;
+case 14:
+            var4 = _closure1_slot5;
             var3 = var4.has;
             var3 = var3.bind(var4)(var2);
-            if(!var3) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+            if(!var3) { _fun0005_ip = 13; continue _fun0005 }
+case 22:
             var1 = var2;
-case 23:
+case 13:
             return var1;
         }
     };
@@ -306,30 +313,30 @@ case 23:
 case 0:
             var3 = arguments[0];
             var4 = undefined;
-            if(!(var3 === var4)) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+            if(!(var3 === var4)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
             var3 = 0;
-case 25:
+case 23:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var6[var1];
             var6 = var5.bind(var4)(var1);
             var5 = var6.useYouBarEnabled;
             var1 = 'YouBar';
             var6 = var5.bind(var6)(var1);
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot11;
             var5 = var1.bind(var4)();
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot12;
             var4 = var1.bind(var4)();
             var1 = 0;
-            if(!var6) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
-            var2 = _closure1_slot7;
+            if(!var6) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
+            var2 = _closure1_slot6;
             var2 = var5 + var2;
             var2 = var2 + var4;
             var1 = var2 + var3;
-case 27:
+case 25:
             return var1;
         }
     };
@@ -340,20 +347,20 @@ case 27:
 case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 3;
+            var2 = 2;
             var2 = var4[var2];
             var4 = undefined;
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var2 = var2.top;
-            var3 = _closure1_slot14;
+            var3 = _closure1_slot13;
             var1 = arg1;
             var3 = var3.bind(var4)(var1);
             var1 = 16;
-            if(var3) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+            if(var3) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
             var1 = var2;
-case 29:
+case 27:
             return var1;
         }
     };
@@ -363,24 +370,24 @@ case 29:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var4[var1];
             var4 = undefined;
             var5 = var3.bind(var4)(var1);
             var3 = var5.useYouBarEnabled;
             var1 = arg1;
             var1 = var3.bind(var5)(var1);
-            if(!var1) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
+            if(!var1) { _fun0008_ip = 29; continue _fun0008 }
+case 30:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 4;
+            var2 = 3;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.isAndroid;
             var2 = var2.bind(var3)();
             var1 = !var2;
-case 31:
+case 29:
             return var1;
         }
     };

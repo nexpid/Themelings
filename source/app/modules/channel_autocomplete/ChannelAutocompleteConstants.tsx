@@ -29,5 +29,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['REACTION_END_SENTINEL'] = var2;
     var2 = '/';
     var3['COMMAND_SENTINEL'] = var2;
+    var2 = function formatGameMentionRaw(arg1) {
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var4 = var1.concat;
+        var3 = '<@$';
+        var2 = arg1;
+        var1 = '>';
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var3['formatGameMentionRaw'] = var2;
+    var2 = /^<@\$(\d+)>/;
+    var3['GAME_MENTION_RAW_RE'] = var2;
     return var1;
 })();

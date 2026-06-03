@@ -17,12 +17,12 @@ case 0:
             var11 = var1.bind(var5)();
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var10 = 8;
+            var10 = 7;
             var1 = var7[var10];
             var3 = var4.bind(var5)(var1);
             var1 = var3.isEntryActive;
             var1 = var1.bind(var3)(var6);
-            var3 = 10;
+            var3 = 9;
             var3 = var7[var3];
             var8 = var4.bind(var5)(var3);
             var7 = var8.useStateFromStores;
@@ -40,7 +40,7 @@ case 0:
 case 3:
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var1 = var7[var1];
             var1 = var8.bind(var5)(var1);
             var3 = var1.Text;
@@ -90,7 +90,7 @@ case 4:
         var8 = _closure1_slot6;
         var7 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var6 = 9;
+        var6 = 8;
         var6 = var11[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
@@ -174,75 +174,52 @@ case 4:
     var4 = var5.bind(var8)(var4);
     var _closure1_slot9 = var4;
     var4 = function ActiveTimestamp(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var1 = arg1;
-            var12 = var1.entry;
-            var _closure2_slot0 = var12;
-            var6 = var1.style;
-            var2 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var4 = 6;
-            var5 = var8[var4];
-            var4 = undefined;
-            var5 = var2.bind(var4)(var5);
-            var9 = var5.ActiveTimestampStylingExperiment;
-            var7 = var9.useConfig;
-            var5 = {};
-            var10 = 'active_timestamp';
-            var5['location'] = var10;
-            var5 = var7.bind(var9)(var5);
-            var7 = var5.enabled;
-            var5 = 7;
-            var5 = var8[var5];
-            var9 = var2.bind(var4)(var5);
-            var5 = var9.useTimestampTickedNow;
-            var5 = var5.bind(var9)();
-            var11 = var5.now;
-            var _closure2_slot1 = var11;
-            var10 = _closure1_slot3;
-            var9 = var10.useMemo;
-            var5 = new Array(2);
-            var5[0] = var12;
-            var5[1] = var11;
-            var3 = function() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 8;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.formatActiveTimestamp;
-                var2 = _closure2_slot0;
-                var1 = _closure2_slot1;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-            };
-            var5 = var9.bind(var10)(var3, var5);
-            var3 = _closure1_slot6;
-            var1 = 9;
-            var1 = var8[var1];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.Text;
-            var1 = {};
-            var1['style'] = var6;
-            var6 = 'text-sm/medium';
-            if(!var7) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            var6 = 'text-sm/normal';
-case 5:
-            var1['variant'] = var6;
-            var6 = true;
-            var1['tabularNumbers'] = var6;
-            var6 = 'text-feedback-positive';
-            var1['color'] = var6;
-            var1['children'] = var5;
+        var1 = arg1;
+        var11 = var1.entry;
+        var _closure2_slot0 = var11;
+        var6 = var1.style;
+        var2 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 6;
+        var5 = var7[var4];
+        var4 = undefined;
+        var8 = var2.bind(var4)(var5);
+        var5 = var8.useTimestampTickedNow;
+        var5 = var5.bind(var8)();
+        var10 = var5.now;
+        var _closure2_slot1 = var10;
+        var9 = _closure1_slot3;
+        var8 = var9.useMemo;
+        var5 = new Array(2);
+        var5[0] = var11;
+        var5[1] = var10;
+        var3 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.formatActiveTimestamp;
+            var2 = _closure2_slot0;
+            var1 = _closure2_slot1;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-        }
+        };
+        var5 = var8.bind(var9)(var3, var5);
+        var3 = _closure1_slot6;
+        var1 = 8;
+        var1 = var7[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.Text;
+        var1 = {'style': null, 'variant': 'text-sm/medium', 'tabularNumbers': true, 'color': 'text-feedback-positive'};
+        var1['style'] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var _closure1_slot10 = var4;
-    var5 = 21;
+    var5 = 20;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -250,7 +227,7 @@ case 5:
     var5 = var6.bind(var7)(var5);
     var3['ActiveTimestamp'] = var4;
     var4 = function GameTimestampBadge(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
             var9 = var1.entry;
@@ -259,7 +236,7 @@ case 0:
             var11 = var1.bind(var4)();
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.isEntryActive;
@@ -270,13 +247,13 @@ case 0:
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.colors;
-            if(var2) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+            if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var10 = var1.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
-            _fun0003_ip = 9; continue _fun0003;
-case 7:
+            _fun0002_ip = 7; continue _fun0002;
+case 5:
             var10 = var1.STATUS_POSITIVE;
-case 9:
+case 7:
             var3 = _closure1_slot7;
             var2 = _closure1_slot4;
             var1 = {};
@@ -285,7 +262,7 @@ case 9:
             var8 = _closure1_slot6;
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var5 = 11;
+            var5 = 10;
             var5 = var12[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.GameControllerIcon;
@@ -309,23 +286,23 @@ case 9:
     };
     var3['GameTimestampBadge'] = var4;
     var4 = function MarathonBadge(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var4 = 8;
+            var4 = 7;
             var1 = var1[var4];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
             var1 = var2.isEntryMarathon;
             var1 = var1.bind(var2)(var3);
-            if(var1) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+            if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var1 = null;
             return var1;
-case 10:
+case 8:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var4];
@@ -338,13 +315,13 @@ case 10:
             var1 = var7[var1];
             var1 = var6.bind(var5)(var1);
             var1 = var1.colors;
-            if(var2) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+            if(var2) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var7 = var1.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
-            _fun0004_ip = 14; continue _fun0004;
-case 12:
+            _fun0003_ip = 12; continue _fun0003;
+case 10:
             var7 = var1.STATUS_POSITIVE;
-case 14:
+case 12:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var4];
@@ -354,14 +331,14 @@ case 14:
             var6 = var1.text;
             var1 = null;
             var2 = var1 == var6;
-            if(var2) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+            if(var2) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var8 = 12;
+            var8 = 11;
             var8 = var10[var8];
             var8 = var9.bind(var5)(var8);
             var8 = var8.TimerIcon;
@@ -369,38 +346,38 @@ case 16:
             var2['iconColor'] = var7;
             var2['text'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 15:
+case 13:
             return var1;
         }
     };
     var3['MarathonBadge'] = var4;
     var4 = function NewGameBadge(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var4[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
             var1 = var2.isEntryNew;
             var2 = var1.bind(var2)(var3);
             var1 = null;
-            if(!var2) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+            if(!var2) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
             var11 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var7 = 13;
+            var7 = 12;
             var7 = var8[var7];
             var7 = var11.bind(var5)(var7);
             var7 = var7.NewUserIcon;
             var2['Icon'] = var7;
-            var7 = 14;
+            var7 = 13;
             var9 = var8[var7];
             var9 = var11.bind(var5)(var9);
             var10 = var9.intl;
@@ -419,19 +396,19 @@ case 18:
             var6 = var6.STATUS_POSITIVE;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 17:
+case 15:
             return var1;
         }
     };
     var3['NewGameBadge'] = var4;
     var4 = function StreakBadge(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var4[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
@@ -440,24 +417,24 @@ case 0:
             var3 = null;
             var2 = var3 == var12;
             var1 = null;
-            if(var2) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+            if(var2) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var2 = 2;
             var2 = var12 < var2;
             var1 = null;
-            if(var2) { _fun0006_ip = 19; continue _fun0006 }
-case 21:
+            if(var2) { _fun0005_ip = 17; continue _fun0005 }
+case 19:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var7 = 15;
+            var7 = 14;
             var7 = var8[var7];
             var7 = var9.bind(var5)(var7);
             var7 = var7.FlashIcon;
             var2['Icon'] = var7;
-            var7 = 14;
+            var7 = 13;
             var10 = var8[var7];
             var10 = var9.bind(var5)(var10);
             var11 = var10.intl;
@@ -478,19 +455,19 @@ case 21:
             var6 = var6.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 19:
+case 17:
             return var1;
         }
     };
     var3['StreakBadge'] = var4;
     var4 = function TrendingBadge(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var4[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
@@ -499,29 +476,29 @@ case 0:
             var4 = null;
             var2 = var4 == var3;
             var1 = null;
-            if(var2) { _fun0007_ip = 22; continue _fun0007 }
-case 20:
+            if(var2) { _fun0006_ip = 20; continue _fun0006 }
+case 18:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 16;
+            var2 = 15;
             var2 = var8[var2];
             var2 = var7.bind(var5)(var2);
             var2 = var2.TrendingType;
             var2 = var2.TRENDING_TYPE_UNSPECIFIED;
             var1 = null;
-            if(!(var3 !== var2)) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
+            if(!(var3 !== var2)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
             var11 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var7 = 17;
+            var7 = 16;
             var7 = var8[var7];
             var7 = var11.bind(var5)(var7);
             var7 = var7.FireIcon;
             var2['Icon'] = var7;
-            var7 = 14;
+            var7 = 13;
             var9 = var8[var7];
             var9 = var11.bind(var5)(var9);
             var10 = var9.intl;
@@ -540,19 +517,19 @@ case 23:
             var6 = var6.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 22:
+case 20:
             return var1;
         }
     };
     var3['TrendingBadge'] = var4;
     var4 = function ResurrectedBadge(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var4[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
@@ -560,19 +537,19 @@ case 0:
             var2 = var1.bind(var2)(var3);
             var1 = null;
             var2 = var1 == var2;
-            if(var2) { _fun0008_ip = 24; continue _fun0008 }
-case 25:
+            if(var2) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
             var11 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var7 = 18;
+            var7 = 17;
             var7 = var8[var7];
             var7 = var11.bind(var5)(var7);
             var7 = var7.RetryIcon;
             var2['Icon'] = var7;
-            var7 = 14;
+            var7 = 13;
             var9 = var8[var7];
             var9 = var11.bind(var5)(var9);
             var10 = var9.intl;
@@ -591,30 +568,30 @@ case 25:
             var6 = var6.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 24:
+case 22:
             return var1;
         }
     };
     var3['ResurrectedBadge'] = var4;
     var4 = function TopGameBadge(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var4[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
             var1 = var2.getEntryDuration;
             var19 = var1.bind(var2)(var3);
             var1 = null;
-            if(!(var1 != var19)) { _fun0009_ip = 26; continue _fun0009 }
-case 27:
+            if(!(var1 != var19)) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
             var13 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var12 = 14;
+            var12 = 13;
             var2 = var8[var12];
             var2 = var13.bind(var5)(var2);
             var2 = var2.t;
@@ -622,7 +599,7 @@ case 27:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var2 = {};
-            var6 = 19;
+            var6 = 18;
             var6 = var8[var6];
             var6 = var13.bind(var5)(var6);
             var6 = var6.TrophyIcon;
@@ -652,7 +629,7 @@ case 27:
             var18 = var16.Math;
             var17 = var18.round;
             var7 = _closure1_slot1;
-            var16 = 20;
+            var16 = 19;
             var16 = var8[var16];
             var16 = var7.bind(var5)(var16);
             var16 = var16.Seconds;
@@ -673,7 +650,7 @@ case 27:
             var2['iconColor'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 26:
+case 24:
             return var1;
         }
     };
@@ -692,7 +669,7 @@ case 26:
         var8 = _closure1_slot6;
         var7 = _closure1_slot0;
         var12 = _closure1_slot2;
-        var5 = 12;
+        var5 = 11;
         var5 = var12[var5];
         var5 = var7.bind(var4)(var5);
         var7 = var5.TimerIcon;

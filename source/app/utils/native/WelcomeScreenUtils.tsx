@@ -22,36 +22,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
     var4 = 1;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot5 = var8;
+    var _closure1_slot4 = var8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.NO_WELCOME_SCREEN;
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot7 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.JoinGuildSources;
-    var _closure1_slot9 = var4;
     var4 = {};
     var7 = false;
     var4['welcomeScreenModalVisible'] = var7;
     var4['shouldFetchGuildId'] = var1;
-    var _closure1_slot10 = var4;
-    var4 = 13;
+    var _closure1_slot8 = var4;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -64,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var7;
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 6;
+        var1 = 4;
         var1 = var6[var1];
         var4 = undefined;
         var9 = var5.bind(var4)(var1);
@@ -73,21 +64,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.welcomeModalChannelId;
         var _closure2_slot2 = var1;
         var9 = _closure1_slot1;
-        var1 = 7;
+        var1 = 5;
         var1 = var6[var1];
         var1 = var9.bind(var4)(var1);
         var1 = var1.bind(var4)(var7, var8);
         var _closure2_slot3 = var1;
-        var1 = 8;
+        var1 = 6;
         var1 = var6[var1];
         var6 = var5.bind(var4)(var1);
         var5 = var6.useStateFromStoresObject;
-        var1 = _closure1_slot8;
+        var1 = _closure1_slot7;
         var4 = new Array(3);
         var4[0] = var1;
-        var1 = _closure1_slot5;
+        var1 = _closure1_slot4;
         var4[1] = var1;
-        var1 = _closure1_slot7;
+        var1 = _closure1_slot6;
         var4[2] = var1;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -95,17 +86,17 @@ case 0:
                 var2 = _closure2_slot3;
                 if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot8;
                 return var2;
 case 2:
-                var3 = _closure1_slot8;
+                var3 = _closure1_slot7;
                 var2 = var3.getGuild;
                 var4 = _closure2_slot0;
                 var3 = var2.bind(var3)(var4);
-                var5 = _closure1_slot7;
+                var5 = _closure1_slot6;
                 var2 = var5.getSelectableChannelIds;
                 var5 = var2.bind(var5)(var4);
-                var8 = _closure1_slot5;
+                var8 = _closure1_slot4;
                 var2 = var8.get;
                 var6 = var2.bind(var8)(var4);
                 var2 = var8.hasSeen;
@@ -130,7 +121,7 @@ case 7:
 case 6:
                 if(!var2) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                var9 = _closure1_slot6;
+                var9 = _closure1_slot5;
                 var2 = var6 !== var9;
 case 8:
                 if(!var2) { _fun0001_ip = 10; continue _fun0001 }
@@ -183,7 +174,7 @@ case 0:
 case 3:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 9;
+                var2 = 7;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
@@ -200,67 +191,34 @@ case 20:
     };
     var3['useShowWelcomeModal'] = var4;
     var2 = function openWelcomeActionSheet(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var2 = arg1;
-            var3 = var2.guildId;
-            var _closure2_slot0 = var3;
-            var2 = var2.onHide;
-            var _closure2_slot1 = var2;
-            var4 = function openWelcomeActionSheet() {
-                var5 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 10;
-                var4 = var2[var1];
-                var1 = undefined;
-                var6 = var5.bind(var1)(var4);
-                var5 = var6.openLazy;
-                var4 = _closure1_slot0;
-                var3 = 12;
-                var3 = var2[var3];
-                var4 = var4.bind(var1)(var3);
-                var3 = 11;
-                var3 = var2[var3];
-                var2 = var2.paths;
-                var4 = var4.bind(var1)(var3, var2);
-                var8 = _closure2_slot0;
-                var2 = global;
-                var2 = var2.HermesInternal;
-                var3 = var2.concat;
-                var2 = 'GuildWelcomeActionSheet';
-                var3 = var3.bind(var2)(var8);
-                var2 = {};
-                var2['guildId'] = var8;
-                var7 = _closure2_slot1;
-                var2['onHide'] = var7;
-                var2 = var5.bind(var6)(var4, var3, var2);
-                return var1;
-            };
-            var3 = _closure1_slot4;
-            var1 = var3.getLurkingSource;
-            var5 = var1.bind(var3)();
-            var1 = null;
-            var6 = var1 == var5;
-            var1 = undefined;
-            var3 = undefined;
-            if(var6) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
-            var3 = var5.type;
-case 21:
-            var2 = _closure1_slot9;
-            var2 = var2.MOBILE_GUILD_DISCOVERY;
-            if(!(var3 !== var2)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-            var2 = var4.bind(var1)();
-            _fun0003_ip = 25; continue _fun0003;
-case 23:
-            var2 = global;
-            var3 = var2.setTimeout;
-            var2 = 600;
-            var2 = var3.bind(var1)(var4, var2);
-case 25:
-            return var1;
-        }
+        var1 = arg1;
+        var8 = var1.guildId;
+        var7 = var1.onHide;
+        var5 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 8;
+        var4 = var2[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.openLazy;
+        var4 = _closure1_slot0;
+        var3 = 10;
+        var3 = var2[var3];
+        var4 = var4.bind(var1)(var3);
+        var3 = 9;
+        var3 = var2[var3];
+        var2 = var2.paths;
+        var4 = var4.bind(var1)(var3, var2);
+        var2 = global;
+        var2 = var2.HermesInternal;
+        var3 = var2.concat;
+        var2 = 'GuildWelcomeActionSheet';
+        var3 = var3.bind(var2)(var8);
+        var2 = {};
+        var2['guildId'] = var8;
+        var2['onHide'] = var7;
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
     };
     var3['openWelcomeActionSheet'] = var2;
     return var1;

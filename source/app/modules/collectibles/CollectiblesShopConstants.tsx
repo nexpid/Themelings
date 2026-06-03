@@ -270,6 +270,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BUNDLE_VIEW_NAMEPLATE'] = var16;
     var16 = 'full_profile_preview';
     var2['FULL_PROFILE_PREVIEW'] = var16;
+    var16 = 'full_profile_preview_button';
+    var2['FULL_PROFILE_PREVIEW_BUTTON'] = var16;
     var16 = 'view_details';
     var2['VIEW_DETAILS'] = var16;
     var16 = 'payment_options';

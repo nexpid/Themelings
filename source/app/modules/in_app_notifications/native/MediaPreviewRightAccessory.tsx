@@ -886,6 +886,8 @@ case 55:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/in_app_notifications/native/MediaPreviewRightAccessory.tsx';
     var4 = var5.bind(var6)(var4);
+    var4 = 64;
+    var3['PREVIEW_SIZE'] = var4;
     var2 = function MediaPreviewRightAccessory(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:

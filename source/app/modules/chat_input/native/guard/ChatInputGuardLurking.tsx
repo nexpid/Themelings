@@ -75,19 +75,20 @@ case 0:
 case 0:
                     var1 = {};
                     var4 = _closure2_slot1;
-                    var2 = null;
-                    var2 = var2 != var4;
-                    if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+                    var3 = null;
+                    var3 = var3 != var4;
+                    if(!var3) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var5 = _closure1_slot5;
-                    var4 = var5.isLurking;
-                    var3 = _closure2_slot1;
-                    var2 = var4.bind(var5)(var3);
+                    var6 = _closure1_slot5;
+                    var5 = var6.isLurking;
+                    var4 = _closure2_slot1;
+                    var3 = var5.bind(var6)(var4);
 case 2:
-                    var1['isLurking'] = var2;
-                    var3 = _closure1_slot5;
-                    var2 = var3.getLurkingSource;
-                    var2 = var2.bind(var3)();
+                    var1['isLurking'] = var3;
+                    var4 = _closure1_slot5;
+                    var3 = var4.getLurkingSourceForGuild;
+                    var2 = _closure2_slot1;
+                    var2 = var3.bind(var4)(var2);
                     var1['lurkingSource'] = var2;
                     return var1;
                 }
@@ -163,9 +164,10 @@ case 0:
                     var1 = null;
                     if(!(var1 != var2)) { _fun0004_ip = 6; continue _fun0004 }
 case 7:
-                    var3 = _closure1_slot5;
-                    var2 = var3.getLurkingSource;
-                    var2 = var2.bind(var3)();
+                    var6 = _closure1_slot5;
+                    var3 = var6.getLurkingSourceForGuild;
+                    var2 = _closure2_slot1;
+                    var2 = var3.bind(var6)(var2);
                     var6 = var1 == var2;
                     var3 = undefined;
                     var7 = undefined;

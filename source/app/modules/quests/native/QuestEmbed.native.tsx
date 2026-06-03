@@ -119,11 +119,6 @@ case 6:
             var8 = var8.EMBED_MOBILE;
             var1['location'] = var8;
             var8 = 10;
-            var11 = var10[var8];
-            var11 = var9.bind(var6)(var11);
-            var11 = var11.QuestContent;
-            var11 = var11.QUEST_EMBED_MOBILE;
-            var1['questContent'] = var11;
             var8 = var10[var8];
             var8 = var9.bind(var6)(var8);
             var8 = var8.QuestContent;

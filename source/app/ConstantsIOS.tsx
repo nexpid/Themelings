@@ -231,6 +231,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['SUBSCRIPTION_SETTINGS'] = var4;
     var4 = 'game-update';
     var14['GAME_UPDATE'] = var4;
+    var4 = 'roll-dice';
+    var14['ROLL_DICE'] = var4;
     var6 = var1.Set;
     var4 = var6.prototype;
     var5 = Object.create(var4, {constructor: {value: var6}});

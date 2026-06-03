@@ -32,7 +32,8 @@ case 0:
 case 3:
             var1 = {};
 case 2:
-            var9 = var1.deeplinkAttemptId;
+            var10 = var1.deeplinkAttemptId;
+            var9 = var1.fromDeeplink;
             var4 = var1.location;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -46,12 +47,13 @@ case 2:
             var8 = var3.bind(var1)(var2);
             var7 = var8.dispatch;
             var2 = {};
-            var10 = 'DISPLAYED_INVITE_SHOW';
-            var2['type'] = var10;
+            var11 = 'DISPLAYED_INVITE_SHOW';
+            var2['type'] = var11;
             var2['code'] = var5;
-            var10 = arg2;
-            var2['username'] = var10;
-            var2['deeplinkAttemptId'] = var9;
+            var11 = arg2;
+            var2['username'] = var11;
+            var2['deeplinkAttemptId'] = var10;
+            var2['fromDeeplink'] = var9;
             var2 = var7.bind(var8)(var2);
             var2 = 2;
             var2 = var6[var2];

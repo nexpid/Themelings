@@ -116,8 +116,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CONTENT_FILTERS_APPEARANCE_NAVIGATOR'] = var1;
     var1 = 'connected_games_related_settings';
     var2['CONNECTED_GAMES_RELATED_SETTINGS'] = var1;
-    var1 = 'connected_games_connections_navigator';
-    var2['CONNECTED_GAMES_CONNECTIONS_NAVIGATOR'] = var1;
+    var1 = 'connected_games_authorized_apps_navigator';
+    var2['CONNECTED_GAMES_AUTHORIZED_APPS_NAVIGATOR'] = var1;
     var1 = 'connected_games_unavailable';
     var2['CONNECTED_GAMES_UNAVAILABLE'] = var1;
     var1 = 'spam_filters_category';
@@ -636,8 +636,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['VOICE_AUDIO_SUBSYSTEM_SETTING'] = var1;
     var1 = 'voice_quality_of_service_setting';
     var2['VOICE_QUALITY_OF_SERVICE_SETTING'] = var1;
-    var1 = 'spatial_audio_experiment_override_setting';
-    var2['SPATIAL_AUDIO_EXPERIMENT_OVERRIDE_SETTING'] = var1;
     var1 = 'camera_category';
     var2['CAMERA_CATEGORY'] = var1;
     var1 = 'camera_video_preview';

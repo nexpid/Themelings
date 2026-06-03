@@ -670,45 +670,41 @@ case 87:
             var14 = var3.activity;
             var11 = var3.activityApplication;
             var13 = var3.fallbackApplication;
+            var6 = null;
+            var10 = var11;
+            if(!(var6 != var13)) { _fun0007_ip = 89; continue _fun0007 }
+case 12:
+            var10 = var13;
+case 89:
             var3 = _closure1_slot11;
             var3 = var3.bind(var4)(var14, var11);
             var9 = var3.largeImage;
             var8 = var3.smallImage;
-            var7 = _closure1_slot9;
-            var6 = null;
-            var3 = var11;
-            if(!(var6 != var13)) { _fun0007_ip = 89; continue _fun0007 }
-case 90:
-            var3 = var13;
-case 89:
-            var3 = var7.bind(var4)(var14, var3);
+            var3 = _closure1_slot9;
+            var3 = var3.bind(var4)(var14, var10);
             var7 = var3.largeImage;
-            var10 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var3 = 8;
-            var3 = var12[var3];
-            var12 = var10.bind(var4)(var3);
-            var10 = var12.useGame;
-            var16 = var11;
-            if(!(var6 != var13)) { _fun0007_ip = 91; continue _fun0007 }
-case 92:
-            var16 = var13;
+            var3 = var6 == var10;
+            var12 = undefined;
+            if(var3) { _fun0007_ip = 90; continue _fun0007 }
 case 91:
-            var17 = var6 == var16;
-            var3 = undefined;
-            if(var17) { _fun0007_ip = 36; continue _fun0007 }
-case 93:
-            var3 = var16.id;
-case 36:
-            var3 = var10.bind(var12)(var3);
+            var3 = var10.getCanonicalGameId;
+            var12 = var3.bind(var10)();
+case 90:
+            var10 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var3 = 8;
+            var3 = var16[var3];
+            var10 = var10.bind(var4)(var3);
+            var3 = var10.useGame;
+            var3 = var3.bind(var10)(var12);
             var10 = var3.data;
             var3 = var6 == var10;
             var12 = undefined;
-            if(var3) { _fun0007_ip = 94; continue _fun0007 }
-case 95:
+            if(var3) { _fun0007_ip = 10; continue _fun0007 }
+case 92:
             var3 = var10.getCoverURL;
             var12 = var3.bind(var10)();
-case 94:
+case 10:
             var16 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 4;
@@ -716,14 +712,14 @@ case 94:
             var16 = var16.bind(var4)(var10);
             var10 = var16.isListenedSessionEntry;
             var10 = var10.bind(var16)(var15);
-            if(!var10) { _fun0007_ip = 96; continue _fun0007 }
-case 97:
+            if(!var10) { _fun0007_ip = 93; continue _fun0007 }
+case 94:
             var10 = var15.extra;
             var10 = var10.entries;
             var10 = var10.length;
             var16 = 0;
-            if(!(!(var10 > var16))) { _fun0007_ip = 78; continue _fun0007 }
-case 96:
+            if(!(!(var10 > var16))) { _fun0007_ip = 95; continue _fun0007 }
+case 93:
             var17 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var3];
@@ -732,24 +728,24 @@ case 96:
             var10 = var10.bind(var17)(var15);
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            if(var10) { _fun0007_ip = 98; continue _fun0007 }
-case 99:
+            if(var10) { _fun0007_ip = 96; continue _fun0007 }
+case 97:
             var3 = var19[var3];
             var10 = var18.bind(var4)(var3);
             var3 = var10.isTopArtistEntry;
             var3 = var3.bind(var10)(var15);
             var10 = undefined;
-            if(!var3) { _fun0007_ip = 100; continue _fun0007 }
-case 54:
+            if(!var3) { _fun0007_ip = 98; continue _fun0007 }
+case 99:
             var3 = {};
             var17 = var15.extra;
             var17 = var17.media;
             var17 = var17.image_url;
             var3['src'] = var17;
             var10 = var3;
-case 100:
-            _fun0007_ip = 101; continue _fun0007;
 case 98:
+            _fun0007_ip = 100; continue _fun0007;
+case 96:
             var3 = {};
             var17 = 5;
             var17 = var19[var17];
@@ -767,9 +763,9 @@ case 98:
             var17 = var17.media_title;
             var3['alt'] = var17;
             var10 = var3;
-case 101:
-            _fun0007_ip = 84; continue _fun0007;
-case 78:
+case 100:
+            _fun0007_ip = 101; continue _fun0007;
+case 95:
             var3 = {};
             var15 = var15.extra;
             var15 = var15.entries;
@@ -778,7 +774,7 @@ case 78:
             var15 = var15.image_url;
             var3['src'] = var15;
             var10 = var3;
-case 84:
+case 101:
             var3 = _closure1_slot10;
             var2 = {};
             var2['activity'] = var14;
@@ -788,46 +784,46 @@ case 103:
 case 102:
             var2['application'] = var11;
             if(!(var6 == var9)) { _fun0007_ip = 104; continue _fun0007 }
-case 13:
-            if(!(var6 == var10)) { _fun0007_ip = 105; continue _fun0007 }
-case 106:
-            if(!(var6 != var12)) { _fun0007_ip = 107; continue _fun0007 }
-case 108:
-            if(var1) { _fun0007_ip = 109; continue _fun0007 }
+case 105:
+            if(!(var6 == var10)) { _fun0007_ip = 106; continue _fun0007 }
 case 107:
+            if(!(var6 != var12)) { _fun0007_ip = 108; continue _fun0007 }
+case 109:
+            if(var1) { _fun0007_ip = 110; continue _fun0007 }
+case 108:
             var1 = {};
             var1['largeImage'] = var7;
             var1['smallImage'] = var4;
-            _fun0007_ip = 110; continue _fun0007;
-case 109:
+            _fun0007_ip = 111; continue _fun0007;
+case 110:
             var7 = {};
             var11 = {};
             var11['src'] = var12;
             var7['largeImage'] = var11;
             var7['smallImage'] = var4;
             var1 = var7;
-case 110:
-            _fun0007_ip = 111; continue _fun0007;
-case 105:
+case 111:
+            _fun0007_ip = 112; continue _fun0007;
+case 106:
             var7 = {};
             var7['largeImage'] = var10;
             var7['smallImage'] = var4;
             var1 = var7;
-case 111:
-            _fun0007_ip = 112; continue _fun0007;
+case 112:
+            _fun0007_ip = 113; continue _fun0007;
 case 104:
             var7 = {};
             var7['largeImage'] = var9;
             var7['smallImage'] = var8;
             var1 = var7;
-case 112:
+case 113:
             var7 = var1.largeImage;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0007_ip = 113; continue _fun0007 }
-case 114:
+            if(var8) { _fun0007_ip = 114; continue _fun0007 }
+case 115:
             var6 = var7.src;
-case 113:
+case 114:
             var2['largeImageSrc'] = var6;
             var2['trackingSource'] = var5;
             var2 = var3.bind(var4)(var2);
@@ -851,10 +847,10 @@ case 0:
             var5 = null;
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0008_ip = 115; continue _fun0008 }
-case 116:
+            if(var7) { _fun0008_ip = 116; continue _fun0008 }
+case 117:
             var5 = var6.src;
-case 115:
+case 116:
             var2['largeImageSrc'] = var5;
             var5 = arg3;
             var2['trackingSource'] = var5;

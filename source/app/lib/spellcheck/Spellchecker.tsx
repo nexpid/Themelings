@@ -365,7 +365,7 @@ case 28:
                 return var1;
             };
             var1['set'] = var2;
-            var2 = new Array(9);
+            var2 = new Array(10);
             var2[0] = var1;
             var1 = {};
             var6 = 'setLearnedWords';
@@ -545,6 +545,20 @@ case 38:
             var1['value'] = var6;
             var2[7] = var1;
             var1 = {};
+            var6 = 'getCachedMisspelling';
+            var1['key'] = var6;
+            var6 = function value() {
+                var2 = this;
+                var1 = {};
+                var3 = var2.misspelledWord;
+                var1['misspelledWord'] = var3;
+                var2 = var2.corrections;
+                var1['corrections'] = var2;
+                return var1;
+            };
+            var1['value'] = var6;
+            var2[8] = var1;
+            var1 = {};
             var6 = 'replaceMisspelling';
             var1['key'] = var6;
             var5 = function value(arg1) {
@@ -556,7 +570,7 @@ case 38:
                 return var1;
             };
             var1['value'] = var5;
-            var2[8] = var1;
+            var2[9] = var1;
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2);
             return var1;

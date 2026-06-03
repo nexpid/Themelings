@@ -223,52 +223,44 @@ case 0:
             var _closure2_slot1 = var8;
             var1 = 14;
             var1 = var3[var1];
-            var7 = var2.bind(var4)(var1);
-            var1 = var7.useVirtualCurrencyMobileEnabled;
-            var1 = var1.bind(var7)();
-            var12 = var1.enabled;
-            var _closure2_slot2 = var12;
-            var1 = 15;
-            var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useFetchVirtualCurrencyBalance;
             var1 = var1.bind(var2)();
-            var17 = var1.balance;
-            var _closure2_slot3 = var17;
-            var13 = _closure1_slot3;
-            var3 = var13.useMemo;
-            var2 = new Array(2);
+            var16 = var1.balance;
+            var _closure2_slot2 = var16;
+            var12 = _closure1_slot3;
+            var3 = var12.useMemo;
+            var2 = new Array(1);
             var2[0] = var9;
-            var2[1] = var12;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var3 = {};
+                    var2 = {};
                     var8 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var12 = 12;
-                    var2 = var1[var12];
-                    var7 = undefined;
-                    var2 = var8.bind(var7)(var2);
-                    var4 = var2.intl;
-                    var2 = var4.string;
-                    var1 = var1[var12];
-                    var1 = var8.bind(var7)(var1);
+                    var11 = 12;
+                    var3 = var1[var11];
+                    var6 = undefined;
+                    var3 = var8.bind(var6)(var3);
+                    var7 = var3.intl;
+                    var3 = var7.string;
+                    var1 = var1[var11];
+                    var1 = var8.bind(var6)(var1);
                     var1 = var1.t;
                     var1 = var1.xNiB/O;
-                    var1 = var2.bind(var4)(var1);
-                    var3['label'] = var1;
+                    var1 = var3.bind(var7)(var1);
+                    var2['label'] = var1;
                     var1 = function action() {
                         var3 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var1 = 16;
+                        var1 = 15;
                         var2 = var8[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openCollectiblesShopMobile;
                         var2 = {};
                         var7 = _closure1_slot1;
-                        var6 = 17;
+                        var6 = 16;
                         var9 = var8[var6];
                         var9 = var7.bind(var1)(var9);
                         var10 = var9.COLLECTIBLES_SHOP_MOBILE_FEATURED_PAGE_MENU_ITEM;
@@ -285,47 +277,47 @@ case 0:
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var3['action'] = var1;
+                    var2['action'] = var1;
                     var8 = _closure2_slot0;
                     var1 = _closure1_slot6;
-                    var4 = var1.FEATURED_PAGE;
+                    var7 = var1.FEATURED_PAGE;
                     var1 = undefined;
-                    if(!(var8 === var4)) { _fun0004_ip = 9; continue _fun0004 }
+                    if(!(var8 === var7)) { _fun0004_ip = 9; continue _fun0004 }
 case 10:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var4 = 18;
-                    var4 = var9[var4];
-                    var4 = var8.bind(var7)(var4);
-                    var1 = var4.CheckmarkSmallIcon;
+                    var7 = 17;
+                    var7 = var9[var7];
+                    var7 = var8.bind(var6)(var7);
+                    var1 = var7.CheckmarkSmallIcon;
 case 9:
-                    var3['trailingIndicator'] = var1;
-                    var1 = new Array(2);
-                    var1[0] = var3;
-                    var3 = {};
+                    var2['trailingIndicator'] = var1;
+                    var1 = new Array(3);
+                    var1[0] = var2;
+                    var2 = {};
                     var10 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var8 = var4[var12];
-                    var8 = var10.bind(var7)(var8);
+                    var7 = _closure1_slot2;
+                    var8 = var7[var11];
+                    var8 = var10.bind(var6)(var8);
                     var9 = var8.intl;
                     var8 = var9.string;
-                    var4 = var4[var12];
-                    var4 = var10.bind(var7)(var4);
-                    var4 = var4.t;
-                    var4 = var4.RSyoZu;
-                    var4 = var8.bind(var9)(var4);
-                    var3['label'] = var4;
-                    var4 = function action() {
+                    var7 = var7[var11];
+                    var7 = var10.bind(var6)(var7);
+                    var7 = var7.t;
+                    var7 = var7.RSyoZu;
+                    var7 = var8.bind(var9)(var7);
+                    var2['label'] = var7;
+                    var7 = function action() {
                         var3 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var1 = 16;
+                        var1 = 15;
                         var2 = var8[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openCollectiblesShopMobile;
                         var2 = {};
                         var7 = _closure1_slot1;
-                        var6 = 17;
+                        var6 = 16;
                         var9 = var8[var6];
                         var9 = var7.bind(var1)(var9);
                         var10 = var9.COLLECTIBLES_SHOP_MOBILE_SHOP_ALL_MENU_ITEM;
@@ -342,52 +334,46 @@ case 9:
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var3['action'] = var4;
+                    var2['action'] = var7;
                     var9 = _closure2_slot0;
-                    var4 = _closure1_slot6;
-                    var8 = var4.SHOP_ALL;
-                    var4 = undefined;
+                    var7 = _closure1_slot6;
+                    var8 = var7.SHOP_ALL;
+                    var7 = undefined;
                     if(!(var9 === var8)) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var8 = 18;
+                    var8 = 17;
                     var8 = var10[var8];
-                    var8 = var9.bind(var7)(var8);
-                    var4 = var8.CheckmarkSmallIcon;
+                    var8 = var9.bind(var6)(var8);
+                    var7 = var8.CheckmarkSmallIcon;
 case 11:
-                    var3['trailingIndicator'] = var4;
-                    var1[1] = var3;
-                    var3 = _closure2_slot2;
-                    if(var3) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
-                    var3 = new Array(0);
-                    _fun0004_ip = 15; continue _fun0004;
-case 13:
-                    var4 = {};
-                    var11 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var9 = var8[var12];
-                    var9 = var11.bind(var7)(var9);
-                    var10 = var9.intl;
-                    var9 = var10.string;
-                    var8 = var8[var12];
-                    var8 = var11.bind(var7)(var8);
-                    var8 = var8.t;
-                    var8 = var8.EBYkzk;
-                    var8 = var9.bind(var10)(var8);
-                    var4['label'] = var8;
-                    var6 = function action() {
+                    var2['trailingIndicator'] = var7;
+                    var1[1] = var2;
+                    var2 = {};
+                    var10 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var8 = var7[var11];
+                    var8 = var10.bind(var6)(var8);
+                    var9 = var8.intl;
+                    var8 = var9.string;
+                    var7 = var7[var11];
+                    var7 = var10.bind(var6)(var7);
+                    var7 = var7.t;
+                    var7 = var7.EBYkzk;
+                    var7 = var8.bind(var9)(var7);
+                    var2['label'] = var7;
+                    var5 = function action() {
                         var3 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var1 = 16;
+                        var1 = 15;
                         var2 = var8[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openCollectiblesShopMobile;
                         var2 = {};
                         var7 = _closure1_slot1;
-                        var6 = 17;
+                        var6 = 16;
                         var9 = var8[var6];
                         var9 = var7.bind(var1)(var9);
                         var10 = var9.COLLECTIBLES_SHOP_MOBILE_ORBS_MENU_ITEM;
@@ -404,46 +390,39 @@ case 13:
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var4['action'] = var6;
-                    var8 = _closure2_slot0;
-                    var2 = _closure1_slot6;
-                    var6 = var2.ORBS;
-                    var2 = undefined;
-                    if(!(var8 === var6)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-                    var6 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var5 = 18;
-                    var5 = var8[var5];
-                    var5 = var6.bind(var7)(var5);
-                    var2 = var5.CheckmarkSmallIcon;
-case 16:
-                    var4['trailingIndicator'] = var2;
-                    var2 = new Array(1);
-                    var2[0] = var4;
-                    var3 = var2;
-case 15:
-                    var13 = 2;
-                    var15 = var1;
-                    var14 = var3;
-                    var2 = arraySpread(var15, var14, var13);
+                    var2['action'] = var5;
+                    var7 = _closure2_slot0;
+                    var3 = _closure1_slot6;
+                    var5 = var3.ORBS;
+                    var3 = undefined;
+                    if(!(var7 === var5)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                    var5 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var4 = 17;
+                    var4 = var7[var4];
+                    var4 = var5.bind(var6)(var4);
+                    var3 = var4.CheckmarkSmallIcon;
+case 13:
+                    var2['trailingIndicator'] = var3;
+                    var1[2] = var2;
                     return var1;
                 }
             };
-            var11 = var3.bind(var13)(var1, var2);
-            var3 = var13.useCallback;
+            var11 = var3.bind(var12)(var1, var2);
+            var3 = var12.useCallback;
             var2 = new Array(1);
-            var2[0] = var17;
+            var2[0] = var16;
             var1 = function() {
                 var7 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var1 = 19;
+                var1 = 18;
                 var3 = var8[var1];
                 var1 = undefined;
                 var6 = var7.bind(var1)(var3);
                 var5 = var6.openLazy;
                 var4 = {};
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot2;
                 var4['balance'] = var3;
                 var3 = {};
                 var12 = _closure1_slot0;
@@ -461,7 +440,7 @@ case 15:
                 var10 = function onButtonPress() {
                     var3 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 21;
                     var2 = var7[var1];
                     var1 = undefined;
                     var8 = var3.bind(var1)(var2);
@@ -471,21 +450,21 @@ case 15:
                     var2 = {};
                     var9 = 'GO_TO_QUEST_HOME';
                     var2['type'] = var9;
-                    var9 = 17;
+                    var9 = 16;
                     var9 = var7[var9];
                     var9 = var3.bind(var1)(var9);
                     var9 = var9.COLLECTIBLES_SHOP;
                     var2['source'] = var9;
-                    var9 = _closure2_slot3;
+                    var9 = _closure2_slot2;
                     var2['balance'] = var9;
                     var2 = var6.bind(var8)(var4, var2);
-                    var2 = 19;
+                    var2 = 18;
                     var2 = var7[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.hideActionSheet;
                     var2 = var2.bind(var3)();
                     var6 = _closure1_slot0;
-                    var2 = 23;
+                    var2 = 22;
                     var2 = var7[var2];
                     var4 = var6.bind(var1)(var2);
                     var3 = var4.openQuestHome;
@@ -495,7 +474,7 @@ case 15:
                     var5 = _closure1_slot8;
                     var5 = var5.VIRTUAL_CURRENCY;
                     var2['filter'] = var5;
-                    var5 = 24;
+                    var5 = 23;
                     var5 = var7[var5];
                     var5 = var6.bind(var1)(var5);
                     var5 = var5.QuestContent;
@@ -520,7 +499,7 @@ case 15:
                 var9 = function onButtonPress() {
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 21;
                     var5 = var4[var1];
                     var1 = undefined;
                     var7 = var3.bind(var1)(var5);
@@ -530,15 +509,15 @@ case 15:
                     var2 = {};
                     var8 = 'GO_BACK';
                     var2['type'] = var8;
-                    var8 = 17;
+                    var8 = 16;
                     var8 = var4[var8];
                     var8 = var3.bind(var1)(var8);
                     var8 = var8.COLLECTIBLES_SHOP;
                     var2['source'] = var8;
-                    var8 = _closure2_slot3;
+                    var8 = _closure2_slot2;
                     var2['balance'] = var8;
                     var2 = var6.bind(var7)(var5, var2);
-                    var2 = 19;
+                    var2 = 18;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.hideActionSheet;
@@ -547,7 +526,7 @@ case 15:
                 };
                 var3['onButtonPress'] = var9;
                 var4['secondaryButtonConfig'] = var3;
-                var3 = 17;
+                var3 = 16;
                 var3 = var8[var3];
                 var3 = var7.bind(var1)(var3);
                 var3 = var3.COLLECTIBLES_SHOP;
@@ -555,11 +534,11 @@ case 15:
                 var3 = function() {
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var2 = 21;
+                    var2 = 20;
                     var2 = var1[var2];
                     var4 = undefined;
                     var3 = var3.bind(var4)(var2);
-                    var2 = 20;
+                    var2 = 19;
                     var2 = var1[var2];
                     var1 = var1.paths;
                     var3 = var3.bind(var4)(var2, var1);
@@ -576,17 +555,17 @@ case 15:
                 var2 = var5.bind(var6)(var3, var2, var4);
                 return var1;
             };
-            var16 = var3.bind(var13)(var1, var2);
-            var3 = var13.useCallback;
+            var15 = var3.bind(var12)(var1, var2);
+            var3 = var12.useCallback;
             var2 = new Array(2);
             var2[0] = var9;
             var7 = null;
-            var14 = var7 == var8;
+            var13 = var7 == var8;
             var1 = undefined;
-            if(var14) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+            if(var13) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var1 = var8.id;
-case 18:
+case 15:
             var2[1] = var1;
             var1 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -596,16 +575,16 @@ case 0:
                     var4 = var3 == var1;
                     var1 = undefined;
                     var2 = undefined;
-                    if(var4) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+                    if(var4) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
                     var4 = _closure2_slot1;
                     var2 = var4.id;
+case 17:
+                    if(!(var3 != var2)) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
-                    if(!(var3 != var2)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var2 = 22;
+                    var2 = 21;
                     var2 = var7[var2];
                     var9 = var6.bind(var1)(var2);
                     var8 = var9.track;
@@ -617,19 +596,19 @@ case 23:
                     var10 = _closure2_slot0;
                     var2['page_type'] = var10;
                     var2 = var8.bind(var9)(var3, var2);
-                    var2 = 25;
+                    var2 = 24;
                     var2 = var7[var2];
                     var3 = var6.bind(var1)(var2);
                     var2 = var3.popAll;
                     var2 = var2.bind(var3)();
-                    var2 = 26;
+                    var2 = 25;
                     var2 = var7[var2];
                     var3 = var6.bind(var1)(var2);
                     var2 = {};
                     var5 = _closure2_slot1;
                     var5 = var5.id;
                     var2['userId'] = var5;
-                    var5 = 17;
+                    var5 = 16;
                     var5 = var7[var5];
                     var5 = var6.bind(var1)(var5);
                     var6 = var5.COLLECTIBLES_SHOP;
@@ -640,39 +619,36 @@ case 23:
                     var4 = var4.WISHLIST;
                     var2['initialSection'] = var4;
                     var2 = var3.bind(var1)(var2);
-case 22:
+case 19:
                     return var1;
                 }
             };
-            var14 = var3.bind(var13)(var1, var2);
+            var14 = var3.bind(var12)(var1, var2);
             var3 = _closure1_slot11;
             var2 = _closure1_slot4;
             var1 = {};
             var5 = var5.headerRightContainer;
             var1['style'] = var5;
-            if(!var12) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-            var15 = _closure1_slot10;
-            var13 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var5 = 27;
-            var5 = var18[var5];
-            var5 = var13.bind(var4)(var5);
-            var13 = var5.BalanceWidgetPillButton;
+            var13 = _closure1_slot10;
+            var12 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var5 = 26;
+            var5 = var17[var5];
+            var5 = var12.bind(var4)(var5);
+            var12 = var5.BalanceWidgetPillButton;
             var5 = {};
-            var5['balance'] = var17;
-            var5['onPress'] = var16;
-            var12 = var15.bind(var4)(var13, var5);
-case 24:
+            var5['balance'] = var16;
+            var5['onPress'] = var15;
+            var12 = var13.bind(var4)(var12, var5);
             var5 = new Array(3);
             var5[0] = var12;
             var7 = var7 != var8;
-            if(!var7) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+            if(!var7) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var13 = _closure1_slot10;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var8 = 28;
+            var8 = 27;
             var8 = var17[var8];
             var8 = var16.bind(var4)(var8);
             var12 = var8.IconButton;
@@ -688,7 +664,7 @@ case 27:
             var15 = var15["7lZ31J"];
             var15 = var18.bind(var19)(var15);
             var8['accessibilityLabel'] = var15;
-            var15 = 29;
+            var15 = 28;
             var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.HeartIcon;
@@ -697,12 +673,12 @@ case 27:
             var8['icon'] = var15;
             var8['onPress'] = var14;
             var7 = var13.bind(var4)(var12, var8);
-case 26:
+case 21:
             var5[1] = var7;
             var8 = _closure1_slot10;
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var6 = 30;
+            var6 = 29;
             var6 = var15[var6];
             var6 = var14.bind(var4)(var6);
             var7 = var6.ContextMenu;
@@ -737,7 +713,7 @@ case 26:
                 var4 = _closure1_slot10;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 28;
+                var1 = 27;
                 var1 = var7[var1];
                 var3 = undefined;
                 var1 = var6.bind(var3)(var1);
@@ -764,7 +740,7 @@ case 26:
                 var8 = 'sm';
                 var5 = 'size';
                 var1[4] = var8;
-                var5 = 31;
+                var5 = 30;
                 var5 = var7[var5];
                 var5 = var6.bind(var3)(var5);
                 var6 = var5.MenuIcon;
@@ -784,7 +760,7 @@ case 26:
         }
     };
     var _closure1_slot14 = var4;
-    var4 = 34;
+    var4 = 33;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -795,23 +771,23 @@ case 26:
 case 0:
             var3 = arguments[0];
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0006_ip = 28; continue _fun0006 }
-case 29:
+            if(!(var3 === var1)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
             var3 = {};
-case 28:
+case 23:
             var7 = var3.currentScreen;
             var _closure2_slot0 = var7;
             var _closure2_slot1 = var1;
             var _closure2_slot2 = var1;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 32;
+            var4 = 31;
             var4 = var6[var4];
             var8 = var5.bind(var1)(var4);
             var4 = var8.useNavigation;
             var8 = var4.bind(var8)();
             _closure2_slot1 = var8;
-            var4 = 33;
+            var4 = 32;
             var4 = var6[var4];
             var6 = var5.bind(var1)(var4);
             var5 = var6.useYouBarEnabled;

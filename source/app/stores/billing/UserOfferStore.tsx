@@ -1568,50 +1568,18 @@ case 64:
         return var1;
     };
     var2['BILLING_USER_OFFER_FETCH_START'] = var11;
-    var11 = function handleUserTrialOfferFetchSuccess(arg1) {
+    var11 = function handleUserTrialOfferAcknowledgedSuccess(arg1) {
         _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.userTrialOffer;
             var1 = null;
-            if(!(var1 == var3)) { _fun0035_ip = 3; continue _fun0035 }
-case 108:
-            var2 = _closure1_slot25;
-            var1 = undefined;
-            var1 = var2.bind(var1)();
-            _fun0035_ip = 109; continue _fun0035;
-case 3:
-            var1 = _closure1_slot20;
-            var2 = var1.userTrialOffers;
-            var1 = var3.trial_id;
-            var2[var1] = var3;
-case 109:
-            var3 = _closure1_slot20;
-            var2 = global;
-            var4 = var2.Date;
-            var2 = var4.now;
-            var2 = var2.bind(var4)();
-            var3['userOffersLastFetchedAtDate'] = var2;
-            var2 = _closure1_slot20;
-            var1 = false;
-            var2['isFetching'] = var1;
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var2['BILLING_USER_TRIAL_OFFER_FETCH_SUCCESS'] = var11;
-    var11 = function handleUserTrialOfferAcknowledgedSuccess(arg1) {
-        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
-case 0:
-            var1 = arg1;
-            var3 = var1.userTrialOffer;
-            var1 = null;
-            if(!(var1 == var3)) { _fun0036_ip = 63; continue _fun0036 }
+            if(!(var1 == var3)) { _fun0035_ip = 63; continue _fun0035 }
 case 108:
             var2 = _closure1_slot20;
             var1 = {};
             var2['userTrialOffers'] = var1;
-            _fun0036_ip = 4; continue _fun0036;
+            _fun0035_ip = 4; continue _fun0035;
 case 63:
             var1 = _closure1_slot20;
             var2 = var1.userTrialOffers;
@@ -1630,27 +1598,27 @@ case 4:
     };
     var2['BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS'] = var11;
     var11 = function handleUserOfferFetchSuccess(arg1) {
-        _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
+        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.userTrialOffer;
             var5 = var1.userDiscountOffer;
             var1 = null;
             var2 = var1 == var4;
-            if(!var2) { _fun0037_ip = 34; continue _fun0037 }
+            if(!var2) { _fun0036_ip = 34; continue _fun0036 }
 case 61:
             var2 = var1 == var5;
 case 34:
-            if(!var2) { _fun0037_ip = 84; continue _fun0037 }
+            if(!var2) { _fun0036_ip = 84; continue _fun0036 }
 case 95:
             var3 = _closure1_slot25;
             var2 = undefined;
             var2 = var3.bind(var2)();
 case 84:
-            if(!(var1 == var4)) { _fun0037_ip = 110; continue _fun0037 }
+            if(!(var1 == var4)) { _fun0036_ip = 109; continue _fun0036 }
+case 110:
+            if(!(var1 != var5)) { _fun0036_ip = 49; continue _fun0036 }
 case 111:
-            if(!(var1 != var5)) { _fun0037_ip = 49; continue _fun0037 }
-case 112:
             var2 = _closure1_slot20;
             var3 = var2.userDiscountOffers;
             var2 = var5.discountId;
@@ -1658,8 +1626,8 @@ case 112:
             var2 = _closure1_slot20;
             var1 = {};
             var2['userTrialOffers'] = var1;
-            _fun0037_ip = 49; continue _fun0037;
-case 110:
+            _fun0036_ip = 49; continue _fun0036;
+case 109:
             var2 = _closure1_slot20;
             var3 = var2.userTrialOffers;
             var2 = var4.trial_id;
@@ -1686,45 +1654,45 @@ case 49:
     };
     var2['BILLING_USER_OFFER_FETCH_SUCCESS'] = var11;
     var11 = function handleUserOfferAcknowledgedSuccess(arg1) {
-        _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
+        _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.userTrialOffer;
             var3 = var1.userDiscount;
             var4 = var1.userDiscountOffer;
             var1 = null;
-            if(!(var1 == var6)) { _fun0038_ip = 84; continue _fun0038 }
+            if(!(var1 == var6)) { _fun0037_ip = 84; continue _fun0037 }
 case 60:
             var5 = _closure1_slot20;
             var2 = {};
             var5['userTrialOffers'] = var2;
-            _fun0038_ip = 30; continue _fun0038;
+            _fun0037_ip = 30; continue _fun0037;
 case 84:
             var2 = _closure1_slot20;
             var5 = var2.userTrialOffers;
             var2 = var6.trial_id;
             var5[var2] = var6;
 case 30:
-            if(!(var1 == var3)) { _fun0038_ip = 113; continue _fun0038 }
-case 114:
-            if(!(var1 == var4)) { _fun0038_ip = 115; continue _fun0038 }
+            if(!(var1 == var3)) { _fun0037_ip = 112; continue _fun0037 }
+case 113:
+            if(!(var1 == var4)) { _fun0037_ip = 114; continue _fun0037 }
 case 59:
             var2 = _closure1_slot20;
             var1 = {};
             var2['userDiscountOffers'] = var1;
-            _fun0038_ip = 116; continue _fun0038;
-case 115:
+            _fun0037_ip = 115; continue _fun0037;
+case 114:
             var1 = _closure1_slot20;
             var2 = var1.userDiscountOffers;
             var1 = var4.discountId;
             var2[var1] = var4;
-            _fun0038_ip = 116; continue _fun0038;
-case 113:
+            _fun0037_ip = 115; continue _fun0037;
+case 112:
             var1 = _closure1_slot20;
             var2 = var1.userDiscountOffers;
             var1 = var3.discountId;
             var2[var1] = var3;
-case 116:
+case 115:
             var2 = _closure1_slot20;
             var1 = global;
             var3 = var1.Date;
@@ -1755,7 +1723,7 @@ case 116:
     };
     var2['BILLING_USER_OFFER_FETCH_FAIL'] = var11;
     var10 = function handleUserOfferRedeemed(arg1) {
-        _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
+        _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.offerId;
@@ -1779,7 +1747,7 @@ case 0:
             };
             var6 = var5.bind(var6)(var3);
             var3 = null;
-            if(!(var3 != var6)) { _fun0039_ip = 92; continue _fun0039 }
+            if(!(var3 != var6)) { _fun0038_ip = 92; continue _fun0038 }
 case 30:
             var5 = _closure1_slot20;
             var5 = var5.userDiscountOffers;
@@ -1802,12 +1770,12 @@ case 92:
                 return var1;
             };
             var2 = var4.bind(var5)(var2);
-            if(!(var3 != var2)) { _fun0039_ip = 116; continue _fun0039 }
+            if(!(var3 != var2)) { _fun0038_ip = 115; continue _fun0038 }
 case 101:
             var1 = _closure1_slot20;
             var1 = var1.userTrialOffers;
             var1 = delete var1[var2];
-case 116:
+case 115:
             var1 = true;
             return var1;
         }

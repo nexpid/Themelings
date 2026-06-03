@@ -175,16 +175,16 @@ case 30:
 case 32:
             var7 = _closure1_slot3;
             var7 = var7.ENDS_IN;
-            if(!(var7 !== var11)) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+            if(!(var7 !== var11)) { _fun0002_ip = 26; continue _fun0002 }
+case 33:
             var7 = _closure1_slot3;
             var7 = var7.CREDITS_ENDS_IN;
-            if(!(var7 !== var11)) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
+            if(!(var7 !== var11)) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             var7 = _closure1_slot3;
             var7 = var7.SHORT_TIME;
             if(!(var7 !== var11)) { _fun0002_ip = 13; continue _fun0002 }
-case 37:
+case 36:
             var7 = global;
             var9 = var7.Error;
             var7 = var7.HermesInternal;
@@ -219,8 +219,8 @@ case 13:
             var8 = var8.r77oHc;
             var7['minutes'] = var8;
             var3 = var7;
-            _fun0002_ip = 38; continue _fun0002;
-case 35:
+            _fun0002_ip = 37; continue _fun0002;
+case 34:
             var7 = {};
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -241,8 +241,8 @@ case 35:
             var8 = var8.Y4FNdL;
             var7['minutes'] = var8;
             var3 = var7;
-            _fun0002_ip = 38; continue _fun0002;
-case 33:
+            _fun0002_ip = 37; continue _fun0002;
+case 26:
             var7 = {};
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -263,7 +263,7 @@ case 33:
             var8 = var8.Z2LX7K;
             var7['minutes'] = var8;
             var3 = var7;
-            _fun0002_ip = 38; continue _fun0002;
+            _fun0002_ip = 37; continue _fun0002;
 case 31:
             var7 = {};
             var9 = _closure1_slot0;
@@ -285,7 +285,7 @@ case 31:
             var8 = var8.XSbQZZ;
             var7['minutes'] = var8;
             var3 = var7;
-            _fun0002_ip = 38; continue _fun0002;
+            _fun0002_ip = 37; continue _fun0002;
 case 29:
             var7 = {};
             var9 = _closure1_slot0;
@@ -307,7 +307,7 @@ case 29:
             var8 = var8.SBd+Bs;
             var7['minutes'] = var8;
             var3 = var7;
-case 38:
+case 37:
             var7 = _closure1_slot4;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -321,7 +321,7 @@ case 38:
             var6 = var9.bind(var4)(var8, var6);
             var5 = var7.bind(var4)(var6);
             var1 = '';
-case 39: // try_start_0
+case 38: // try_start_0
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 2;
@@ -329,9 +329,9 @@ case 39: // try_start_0
             var7 = var7.bind(var4)(var6);
             var6 = var7.unitsAsStrings;
             var1 = var6.bind(var7)(var5, var3);
-case 40: // try_end0
-            _fun0002_ip = 41; continue _fun0002;
-case 42: // catch_target0
+case 39: // try_end0
+            _fun0002_ip = 40; continue _fun0002;
+case 41: // catch_target0
             CatchBlockStart(arg_register=2);
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -341,7 +341,7 @@ case 42: // catch_target0
             var3 = var4.captureMessage;
             var2 = 'Error trying to format string for fractional nitro duration pill';
             var2 = var3.bind(var4)(var2);
-case 41:
+case 40:
             return var1;
         }
     };

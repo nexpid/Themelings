@@ -66,11 +66,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['code'] = var6;
     var _closure1_slot15 = var2;
     var2 = {};
-    var6 = 'function useHomeDrawerGestureTsx8(event){const{runOnJS,setHomeDrawerState,panelX,FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN,maxX,INITIAL_OPEN_WIDTH,gestureState}=this.__closure;if(event.velocityX>50){runOnJS(setHomeDrawerState)(true);}else if(event.velocityX<-50){runOnJS(setHomeDrawerState)(false);}else{if(panelX.get()===0){runOnJS(setHomeDrawerState)(false);}else if(panelX.get()>FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN*maxX){runOnJS(setHomeDrawerState)(true);}else if(panelX.get()>=INITIAL_OPEN_WIDTH&&event.absoluteX-gestureState.get().initialX>0){runOnJS(setHomeDrawerState)(true);}else{runOnJS(setHomeDrawerState)(false);}}}';
+    var6 = 'function useHomeDrawerGestureTsx8(event){const{runOnJS,setHomeDrawerState,dragOffsetX,INITIAL_OPEN_WIDTH,triggerHapticFeedback,HapticFeedbackTypes,panelX,FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN,maxX,gestureState}=this.__closure;if(event.velocityX>50){runOnJS(setHomeDrawerState)(true);if(dragOffsetX.get()<INITIAL_OPEN_WIDTH){runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}}else if(event.velocityX<-50){runOnJS(setHomeDrawerState)(false);runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.SOFT);}else{if(panelX.get()===0){runOnJS(setHomeDrawerState)(false);}else if(panelX.get()>FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN*maxX){runOnJS(setHomeDrawerState)(true);}else if(panelX.get()>=INITIAL_OPEN_WIDTH&&event.absoluteX-gestureState.get().initialX>0){runOnJS(setHomeDrawerState)(true);}else{runOnJS(setHomeDrawerState)(false);}}}';
     var2['code'] = var6;
     var _closure1_slot16 = var2;
     var2 = {};
-    var6 = 'function useHomeDrawerGestureTsx9(event){const{gestureState,dragOffsetX,INITIAL_OPEN_WIDTH,panelX,DRAWER_RESISTANCE}=this.__closure;if(!gestureState.get().active)return;const newXOffset=event.absoluteX-gestureState.get().initialX;dragOffsetX.set(newXOffset);if(newXOffset>=INITIAL_OPEN_WIDTH){panelX.set(Math.max(newXOffset+gestureState.get().panelX,0));}else{panelX.set(Math.max((newXOffset+gestureState.get().panelX)/DRAWER_RESISTANCE,0));}}';
+    var6 = 'function useHomeDrawerGestureTsx9(event){const{gestureState,dragOffsetX,INITIAL_OPEN_WIDTH,panelX,DRAWER_RESISTANCE}=this.__closure;if(!gestureState.get().active)return;const newXOffset=event.absoluteX-gestureState.get().initialX;dragOffsetX.set(newXOffset);const basePosition=newXOffset+gestureState.get().panelX;if(gestureState.get().panelX===0&&newXOffset>=0&&newXOffset<INITIAL_OPEN_WIDTH){panelX.set(Math.max(basePosition/DRAWER_RESISTANCE,0));}else{panelX.set(Math.max(basePosition,0));}}';
     var2['code'] = var6;
     var _closure1_slot17 = var2;
     var2 = {};
@@ -162,7 +162,7 @@ case 0:
             var8 = var17[var6];
             var18 = var21.bind(var7)(var8);
             var16 = var18.useAnimatedReaction;
-            var14 = function R() {
+            var14 = function f() {
                 var2 = _closure2_slot5;
                 var1 = var2.get;
                 var2 = var1.bind(var2)();
@@ -406,7 +406,7 @@ case 21:
             var3 = var19[var6];
             var14 = var18.bind(var7)(var3);
             var9 = var14.useAnimatedStyle;
-            var3 = function L() {
+            var3 = function y() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = {};
@@ -469,7 +469,7 @@ case 32:
             var9 = var19[var6];
             var15 = var18.bind(var7)(var9);
             var14 = var15.useAnimatedStyle;
-            var9 = function y() {
+            var9 = function Y() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var3 = _closure2_slot0;
@@ -551,7 +551,7 @@ case 33:
             var9 = var19[var6];
             var15 = var18.bind(var7)(var9);
             var14 = var15.useAnimatedStyle;
-            var9 = function k() {
+            var9 = function L() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var3 = _closure2_slot0;
@@ -671,12 +671,12 @@ case 37:
             var6[3] = var10;
             var6[4] = var4;
             var4 = function() {
-                var14 = _closure1_slot0;
-                var15 = _closure1_slot2;
+                var13 = _closure1_slot0;
+                var14 = _closure1_slot2;
                 var2 = 13;
-                var2 = var15[var2];
-                var13 = undefined;
-                var2 = var14.bind(var13)(var2);
+                var2 = var14[var2];
+                var12 = undefined;
+                var2 = var13.bind(var12)(var2);
                 var3 = var2.Gesture;
                 var2 = var3.Pan;
                 var5 = var2.bind(var3)();
@@ -715,8 +715,8 @@ case 37:
                 var6 = {};
                 var7 = _closure2_slot1;
                 var6['gestureState'] = var7;
-                var11 = _closure2_slot0;
-                var6['panelX'] = var11;
+                var10 = _closure2_slot0;
+                var6['panelX'] = var10;
                 var2['__closure'] = var6;
                 var6 = 12233334043271.0;
                 var2['__workletHash'] = var6;
@@ -845,7 +845,7 @@ case 38:
                 };
                 var6 = {};
                 var6['gestureState'] = var7;
-                var6['panelX'] = var11;
+                var6['panelX'] = var10;
                 var2['__closure'] = var6;
                 var6 = 11497858108220.0;
                 var2['__workletHash'] = var6;
@@ -868,42 +868,42 @@ case 36:
                         var2 = var4.get;
                         var2 = var2.bind(var4)();
                         var2 = var2.initialX;
-                        var4 = var3 - var2;
-                        var3 = _closure2_slot5;
-                        var2 = var3.set;
-                        var2 = var2.bind(var3)(var4);
-                        var2 = 144;
-                        if(!(!(var4 >= var2))) { _fun0010_ip = 56; continue _fun0010 }
-case 57:
-                        var5 = _closure2_slot0;
-                        var3 = var5.set;
-                        var2 = global;
-                        var8 = var2.Math;
-                        var7 = var8.max;
-                        var6 = _closure2_slot1;
-                        var2 = var6.get;
-                        var2 = var2.bind(var6)();
+                        var3 = var3 - var2;
+                        var5 = _closure2_slot5;
+                        var2 = var5.set;
+                        var2 = var2.bind(var5)(var3);
+                        var2 = var4.get;
+                        var2 = var2.bind(var4)();
                         var2 = var2.panelX;
-                        var6 = var4 + var2;
-                        var2 = 3;
-                        var6 = var6 / var2;
-                        var2 = 0;
-                        var2 = var7.bind(var8)(var6, var2);
-                        var2 = var3.bind(var5)(var2);
-                        _fun0010_ip = 55; continue _fun0010;
+                        var7 = var3 + var2;
+                        var2 = var4.get;
+                        var2 = var2.bind(var4)();
+                        var2 = var2.panelX;
+                        var6 = 0;
+                        if(!(var6 === var2)) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
+                        if(!(var3 >= var6)) { _fun0010_ip = 56; continue _fun0010 }
+case 9:
+                        var2 = 144;
+                        if(!(!(var3 < var2))) { _fun0010_ip = 58; continue _fun0010 }
 case 56:
+                        var4 = _closure2_slot0;
+                        var3 = var4.set;
+                        var2 = global;
+                        var5 = var2.Math;
+                        var2 = var5.max;
+                        var2 = var2.bind(var5)(var7, var6);
+                        var2 = var3.bind(var4)(var2);
+                        _fun0010_ip = 55; continue _fun0010;
+case 58:
                         var3 = _closure2_slot0;
                         var2 = var3.set;
-                        var5 = global;
-                        var6 = var5.Math;
-                        var5 = var6.max;
-                        var7 = _closure2_slot1;
-                        var1 = var7.get;
-                        var1 = var1.bind(var7)();
-                        var1 = var1.panelX;
-                        var4 = var4 + var1;
-                        var1 = 0;
-                        var1 = var5.bind(var6)(var4, var1);
+                        var1 = global;
+                        var5 = var1.Math;
+                        var4 = var5.max;
+                        var1 = 3;
+                        var1 = var7 / var1;
+                        var1 = var4.bind(var5)(var1, var6);
                         var1 = var2.bind(var3)(var1);
 case 55:
                         var1 = undefined;
@@ -914,13 +914,13 @@ case 55:
                 var8['gestureState'] = var7;
                 var6 = _closure2_slot5;
                 var8['dragOffsetX'] = var6;
-                var9 = 144;
-                var8['INITIAL_OPEN_WIDTH'] = var9;
-                var8['panelX'] = var11;
-                var12 = 3;
-                var8['DRAWER_RESISTANCE'] = var12;
+                var11 = 144;
+                var8['INITIAL_OPEN_WIDTH'] = var11;
+                var8['panelX'] = var10;
+                var15 = 3;
+                var8['DRAWER_RESISTANCE'] = var15;
                 var2['__closure'] = var8;
-                var8 = 15721468150530.0;
+                var8 = 13448993648070.0;
                 var2['__workletHash'] = var8;
                 var8 = _closure1_slot17;
                 var2['__initData'] = var8;
@@ -932,31 +932,31 @@ case 0:
                         var3 = arg1;
                         var2 = var3.velocityX;
                         var1 = 50;
-                        if(!(!(var2 > var1))) { _fun0011_ip = 58; continue _fun0011 }
-case 59:
+                        if(!(!(var2 > var1))) { _fun0011_ip = 59; continue _fun0011 }
+case 60:
                         var2 = var3.velocityX;
                         var1 = -50;
-                        if(!(!(var2 < var1))) { _fun0011_ip = 60; continue _fun0011 }
-case 61:
+                        if(!(!(var2 < var1))) { _fun0011_ip = 61; continue _fun0011 }
+case 62:
                         var4 = _closure2_slot0;
                         var2 = var4.get;
                         var4 = var2.bind(var4)();
                         var2 = 0;
-                        if(!(var2 !== var4)) { _fun0011_ip = 60; continue _fun0011 }
-case 62:
+                        if(!(var2 !== var4)) { _fun0011_ip = 51; continue _fun0011 }
+case 63:
                         var5 = _closure2_slot0;
                         var4 = var5.get;
                         var5 = var4.bind(var5)();
                         var6 = _closure2_slot3;
                         var4 = 0.5;
                         var4 = var4 * var6;
-                        if(!(!(var5 > var4))) { _fun0011_ip = 63; continue _fun0011 }
+                        if(!(!(var5 > var4))) { _fun0011_ip = 64; continue _fun0011 }
 case 30:
                         var5 = _closure2_slot0;
                         var4 = var5.get;
                         var5 = var4.bind(var5)();
                         var4 = 144;
-                        if(!(var5 >= var4)) { _fun0011_ip = 64; continue _fun0011 }
+                        if(!(var5 >= var4)) { _fun0011_ip = 65; continue _fun0011 }
 case 9:
                         var3 = var3.absoluteX;
                         var4 = _closure2_slot1;
@@ -964,7 +964,23 @@ case 9:
                         var1 = var1.bind(var4)();
                         var1 = var1.initialX;
                         var1 = var3 - var1;
-                        if(!(!(var1 > var2))) { _fun0011_ip = 63; continue _fun0011 }
+                        if(!(!(var1 > var2))) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
+                        var5 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var1 = 5;
+                        var1 = var6[var1];
+                        var3 = undefined;
+                        var4 = var5.bind(var3)(var1);
+                        var2 = var4.runOnJS;
+                        var1 = 11;
+                        var1 = var6[var1];
+                        var1 = var5.bind(var3)(var1);
+                        var1 = var1.setHomeDrawerState;
+                        var2 = var2.bind(var4)(var1);
+                        var1 = false;
+                        var1 = var2.bind(var3)(var1);
+                        _fun0011_ip = 66; continue _fun0011;
 case 64:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
@@ -978,26 +994,10 @@ case 64:
                         var1 = var5.bind(var3)(var1);
                         var1 = var1.setHomeDrawerState;
                         var2 = var2.bind(var4)(var1);
-                        var1 = false;
-                        var1 = var2.bind(var3)(var1);
-                        _fun0011_ip = 65; continue _fun0011;
-case 63:
-                        var5 = _closure1_slot0;
-                        var6 = _closure1_slot2;
-                        var1 = 5;
-                        var1 = var6[var1];
-                        var3 = undefined;
-                        var4 = var5.bind(var3)(var1);
-                        var2 = var4.runOnJS;
-                        var1 = 11;
-                        var1 = var6[var1];
-                        var1 = var5.bind(var3)(var1);
-                        var1 = var1.setHomeDrawerState;
-                        var2 = var2.bind(var4)(var1);
                         var1 = true;
                         var1 = var2.bind(var3)(var1);
-                        _fun0011_ip = 65; continue _fun0011;
-case 60:
+                        _fun0011_ip = 66; continue _fun0011;
+case 51:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var1 = 5;
@@ -1012,47 +1012,107 @@ case 60:
                         var2 = var2.bind(var4)(var1);
                         var1 = false;
                         var1 = var2.bind(var3)(var1);
-                        _fun0011_ip = 65; continue _fun0011;
-case 58:
-                        var5 = _closure1_slot0;
-                        var6 = _closure1_slot2;
+                        _fun0011_ip = 66; continue _fun0011;
+case 61:
+                        var4 = _closure1_slot0;
+                        var5 = _closure1_slot2;
                         var1 = 5;
-                        var1 = var6[var1];
+                        var2 = var5[var1];
                         var3 = undefined;
-                        var4 = var5.bind(var3)(var1);
-                        var2 = var4.runOnJS;
-                        var1 = 11;
-                        var1 = var6[var1];
-                        var1 = var5.bind(var3)(var1);
-                        var1 = var1.setHomeDrawerState;
-                        var2 = var2.bind(var4)(var1);
-                        var1 = true;
+                        var7 = var4.bind(var3)(var2);
+                        var6 = var7.runOnJS;
+                        var2 = 11;
+                        var2 = var5[var2];
+                        var2 = var4.bind(var3)(var2);
+                        var2 = var2.setHomeDrawerState;
+                        var6 = var6.bind(var7)(var2);
+                        var2 = false;
+                        var2 = var6.bind(var3)(var2);
+                        var1 = var5[var1];
+                        var7 = var4.bind(var3)(var1);
+                        var6 = var7.runOnJS;
+                        var1 = 7;
+                        var2 = var5[var1];
+                        var2 = var4.bind(var3)(var2);
+                        var2 = var2.triggerHapticFeedback;
+                        var2 = var6.bind(var7)(var2);
+                        var1 = var5[var1];
+                        var1 = var4.bind(var3)(var1);
+                        var1 = var1.HapticFeedbackTypes;
+                        var1 = var1.SOFT;
                         var1 = var2.bind(var3)(var1);
-case 65:
+                        _fun0011_ip = 66; continue _fun0011;
+case 59:
+                        var7 = _closure1_slot0;
+                        var8 = _closure1_slot2;
+                        var1 = 5;
+                        var4 = var8[var1];
+                        var3 = undefined;
+                        var6 = var7.bind(var3)(var4);
+                        var5 = var6.runOnJS;
+                        var4 = 11;
+                        var4 = var8[var4];
+                        var4 = var7.bind(var3)(var4);
+                        var4 = var4.setHomeDrawerState;
+                        var5 = var5.bind(var6)(var4);
+                        var4 = true;
+                        var4 = var5.bind(var3)(var4);
+                        var5 = _closure2_slot5;
+                        var4 = var5.get;
+                        var5 = var4.bind(var5)();
+                        var4 = 144;
+                        if(!(var5 < var4)) { _fun0011_ip = 66; continue _fun0011 }
+case 67:
+                        var4 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        var1 = var5[var1];
+                        var7 = var4.bind(var3)(var1);
+                        var6 = var7.runOnJS;
+                        var1 = 7;
+                        var2 = var5[var1];
+                        var2 = var4.bind(var3)(var2);
+                        var2 = var2.triggerHapticFeedback;
+                        var2 = var6.bind(var7)(var2);
+                        var1 = var5[var1];
+                        var1 = var4.bind(var3)(var1);
+                        var1 = var1.HapticFeedbackTypes;
+                        var1 = var1.IMPACT_MEDIUM;
+                        var1 = var2.bind(var3)(var1);
+case 66:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var8 = {};
-                var12 = 5;
-                var12 = var15[var12];
-                var12 = var14.bind(var13)(var12);
-                var12 = var12.runOnJS;
-                var8['runOnJS'] = var12;
-                var12 = 11;
-                var12 = var15[var12];
-                var12 = var14.bind(var13)(var12);
-                var12 = var12.setHomeDrawerState;
-                var8['setHomeDrawerState'] = var12;
-                var8['panelX'] = var11;
-                var11 = 0.5;
-                var8['FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN'] = var11;
-                var10 = _closure2_slot3;
-                var8['maxX'] = var10;
-                var8['INITIAL_OPEN_WIDTH'] = var9;
+                var15 = 5;
+                var15 = var14[var15];
+                var15 = var13.bind(var12)(var15);
+                var15 = var15.runOnJS;
+                var8['runOnJS'] = var15;
+                var15 = 11;
+                var15 = var14[var15];
+                var15 = var13.bind(var12)(var15);
+                var15 = var15.setHomeDrawerState;
+                var8['setHomeDrawerState'] = var15;
+                var8['dragOffsetX'] = var6;
+                var8['INITIAL_OPEN_WIDTH'] = var11;
+                var11 = 7;
+                var15 = var14[var11];
+                var15 = var13.bind(var12)(var15);
+                var15 = var15.triggerHapticFeedback;
+                var8['triggerHapticFeedback'] = var15;
+                var11 = var14[var11];
+                var11 = var13.bind(var12)(var11);
+                var11 = var11.HapticFeedbackTypes;
+                var8['HapticFeedbackTypes'] = var11;
+                var8['panelX'] = var10;
+                var10 = 0.5;
+                var8['FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN'] = var10;
+                var9 = _closure2_slot3;
+                var8['maxX'] = var9;
                 var8['gestureState'] = var7;
                 var2['__closure'] = var8;
-                var8 = 3807234575610.0;
+                var8 = 3445859985066.0;
                 var2['__workletHash'] = var8;
                 var8 = _closure1_slot16;
                 var2['__initData'] = var8;

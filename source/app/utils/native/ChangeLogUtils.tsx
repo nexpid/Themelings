@@ -103,8 +103,10 @@ case 5:
                                 var1 = var6[var1];
                                 var7 = undefined;
                                 var1 = var5.bind(var7)(var1);
-                                var6 = var1.LegacyText;
+                                var6 = var1.TextWithIOSLinkWorkaround;
                                 var5 = {};
+                                var1 = 'text-sm/normal';
+                                var5['variant'] = var1;
                                 var12 = _closure5_slot2;
                                 var13 = var5;
                                 var1 = copyDataProperties(var13, var12);
@@ -213,10 +215,12 @@ case 12:
             var3 = 7;
             var3 = var10[var3];
             var3 = var9.bind(var5)(var3);
-            var4 = var3.LegacyText;
+            var4 = var3.TextWithIOSLinkWorkaround;
 case 11:
             var3 = _closure1_slot5;
             var2 = {};
+            var9 = 'text-sm/normal';
+            var2['variant'] = var9;
             var8 = var8.text;
             var2['style'] = var8;
             var6 = var6.content;
@@ -275,8 +279,10 @@ case 11:
         var6 = 7;
         var6 = var12[var6];
         var6 = var7.bind(var5)(var6);
-        var7 = var6.LegacyText;
+        var7 = var6.TextWithIOSLinkWorkaround;
         var6 = {};
+        var12 = 'text-sm/normal';
+        var6['variant'] = var12;
         var11 = var11.text;
         var6['style'] = var11;
         var9 = var9.content;
@@ -363,6 +369,8 @@ case 11:
             var4 = _closure1_slot5;
             var3 = _closure1_slot7;
             var2 = {};
+            var1 = 'link';
+            var2['accessibilityRole'] = var1;
             var1 = arg1;
             var2['node'] = var1;
             var1 = arg2;

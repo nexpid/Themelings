@@ -204,10 +204,10 @@ case 9:
 case 8:
             var6 = var4.color;
             var11 = var4.postProcessor;
-            var10 = var4.disableAnimatedEmoji;
-            if(!(var10 === var3)) { _fun0002_ip = 10; continue _fun0002 }
+            var13 = var4.disableAnimatedEmoji;
+            if(!(var13 === var3)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var10 = true;
+            var13 = true;
 case 10:
             var5 = var4.fontScale;
             if(!(var5 === var3)) { _fun0002_ip = 12; continue _fun0002 }
@@ -218,12 +218,22 @@ case 12:
             var8 = '';
             if(!(var8 !== var12)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var8 = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': null, 'unknownUserMentionPlaceholder': true};
-            var13 = new Array(0);
-            var8['mentionChannels'] = var13;
-            var13 = new Array(0);
-            var8['soundboardSounds'] = var13;
-            var8['disableAnimatedEmoji'] = var10;
+            var8 = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'allowGameMentions': false, 'mentionChannels': null, 'mentionGames': null, 'soundboardSounds': null, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false};
+            var10 = true;
+            var14 = new Array(0);
+            var8['mentionChannels'] = var14;
+            var14 = global;
+            var14 = var14.Map;
+            var15 = var14.prototype;
+            var15 = Object.create(var15, {constructor: {value: var14}});
+            var17 = var15;
+            var14 = new var17[var14](var16);
+            var14 = var14 instanceof Object ? var14 : var15;
+            var8['mentionGames'] = var14;
+            var14 = new Array(0);
+            var8['soundboardSounds'] = var14;
+            var8['disableAnimatedEmoji'] = var13;
+            var8['unknownUserMentionPlaceholder'] = var10;
             var8['guildId'] = var9;
             var8['channelId'] = var1;
             var1 = null;

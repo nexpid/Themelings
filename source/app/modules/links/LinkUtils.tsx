@@ -25,7 +25,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var5 = global;
     var11 = var5.Object;
     var10 = var11.defineProperty;
@@ -80,14 +80,14 @@ case 2:
     var14 = var7.bind(var10)(var6);
     var10 = var5.RegExp;
     var6 = var5.HermesInternal;
-    var11 = var6.concat;
-    var13 = '^/channels/(\\d+|';
+    var13 = var6.concat;
+    var11 = '^/channels/(\\d+|';
     var17 = ')(?:/)?(\\d+|';
     var15 = ')?';
-    var19 = var13;
+    var19 = var11;
     var18 = var12;
     var16 = var14;
-    var18 = var19[var11](var18, var17, var16, var15, var14);
+    var18 = var19[var13](var18, var17, var16, var15, var14);
     var7 = var10.prototype;
     var7 = Object.create(var7, {constructor: {value: var10}});
     var19 = var7;
@@ -96,13 +96,13 @@ case 2:
     var _closure1_slot7 = var6;
     var10 = var5.RegExp;
     var6 = var5.HermesInternal;
-    var11 = var6.concat;
+    var13 = var6.concat;
     var17 = ')(?:/)(\\d+|';
     var15 = ')(?:/)(\\d+)';
-    var19 = var13;
+    var19 = var11;
     var18 = var12;
     var16 = var14;
-    var18 = var19[var11](var18, var17, var16, var15, var14);
+    var18 = var19[var13](var18, var17, var16, var15, var14);
     var7 = var10.prototype;
     var7 = Object.create(var7, {constructor: {value: var10}});
     var19 = var7;
@@ -118,9 +118,12 @@ case 2:
     var6 = var6 instanceof Object ? var6 : var7;
     var _closure1_slot9 = var6;
     var10 = var5.RegExp;
-    var6 = var10.prototype;
-    var7 = Object.create(var6, {constructor: {value: var10}});
-    var18 = '^/guild-stages/(\\d+)(?:/)?(\\d+)?';
+    var6 = var5.HermesInternal;
+    var7 = var6.concat;
+    var6 = ')(?:/)(\\d+)/roll-dice(?:/(\\d+)d(\\d+))?$';
+    var18 = var7.bind(var11)(var12, var6);
+    var7 = var10.prototype;
+    var7 = Object.create(var7, {constructor: {value: var10}});
     var19 = var7;
     var6 = new var19[var10](var18, var17);
     var6 = var6 instanceof Object ? var6 : var7;
@@ -128,11 +131,19 @@ case 2:
     var10 = var5.RegExp;
     var6 = var10.prototype;
     var7 = Object.create(var6, {constructor: {value: var10}});
-    var18 = '^/events/(\\d+)(?:/)(\\d+)?((?:/)(\\d+))?';
+    var18 = '^/guild-stages/(\\d+)(?:/)?(\\d+)?';
     var19 = var7;
     var6 = new var19[var10](var18, var17);
     var6 = var6 instanceof Object ? var6 : var7;
     var _closure1_slot11 = var6;
+    var10 = var5.RegExp;
+    var6 = var10.prototype;
+    var7 = Object.create(var6, {constructor: {value: var10}});
+    var18 = '^/events/(\\d+)(?:/)(\\d+)?((?:/)(\\d+))?';
+    var19 = var7;
+    var6 = new var19[var10](var18, var17);
+    var6 = var6 instanceof Object ? var6 : var7;
+    var _closure1_slot12 = var6;
     var10 = var5.RegExp;
     var6 = var5.HermesInternal;
     var11 = var6.concat;
@@ -194,7 +205,7 @@ case 13:
             if(!(!(var7 > var8))) { _fun0002_ip = 14; continue _fun0002 }
 case 12:
             var7 = var10.match;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot11;
             var2 = var7.bind(var10)(var2);
             var2 = null;
             _fun0002_ip = 15; continue _fun0002;
@@ -252,7 +263,7 @@ case 0:
             if(!(var1 != var4)) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
             var3 = var4.match;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var5 = var3.bind(var4)(var2);
             var3 = var1 != var5;
             var2 = null;
@@ -270,7 +281,7 @@ case 22:
             var4 = 2;
             var4 = var5[var4];
             var3['guildEventId'] = var4;
-            var4 = 3;
+            var4 = 4;
             var4 = var5[var4];
             var3['recurrenceId'] = var4;
             var2 = var3;
@@ -282,7 +293,7 @@ case 18:
     };
     var3['tryParseEventDetailsPath'] = var5;
     var3['canViewChannel'] = var4;
-    var2 = function isAccessibleChannelPath(arg1) {
+    var4 = function isAccessibleChannelPath(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -305,7 +316,7 @@ case 6:
             var1 = var1 != var4;
             if(!var1) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var2 = undefined;
             var1 = var3.bind(var2)(var4);
 case 27:
@@ -318,6 +329,66 @@ case 25:
             return var1;
         }
     };
-    var3['isAccessibleChannelPath'] = var2;
+    var3['isAccessibleChannelPath'] = var4;
+    var2 = function tryParseDiceRollLink(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var4 = arg1;
+            var1 = null;
+            if(!(var1 != var4)) { _fun0005_ip = 29; continue _fun0005 }
+case 5:
+            var3 = var4.match;
+            var2 = _closure1_slot10;
+            var6 = var3.bind(var4)(var2);
+            var3 = var1 != var6;
+            var2 = null;
+            if(!var3) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
+            var3 = var6.length;
+            var5 = 2;
+            var3 = var3 > var5;
+            var2 = null;
+            if(!var3) { _fun0005_ip = 30; continue _fun0005 }
+case 32:
+            var3 = {};
+            var4 = 1;
+            var7 = var6[var4];
+            var3['guildId'] = var7;
+            var5 = var6[var5];
+            var3['channelId'] = var5;
+            var5 = var6.length;
+            var7 = 5;
+            if(!(var7 === var5)) { _fun0005_ip = 33; continue _fun0005 }
+case 18:
+            var5 = global;
+            var10 = var5.parseInt;
+            var5 = 3;
+            var9 = var6[var5];
+            var8 = undefined;
+            var5 = 10;
+            var4 = var10.bind(var8)(var9, var5);
+case 33:
+            var3['diceCount'] = var4;
+            var5 = var6.length;
+            var4 = 6;
+            if(!(var7 === var5)) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
+            var5 = global;
+            var8 = var5.parseInt;
+            var5 = 4;
+            var7 = var6[var5];
+            var6 = undefined;
+            var5 = 10;
+            var4 = var8.bind(var6)(var7, var5);
+case 34:
+            var3['diceSides'] = var4;
+            var2 = var3;
+case 30:
+            return var2;
+case 29:
+            return var1;
+        }
+    };
+    var3['tryParseDiceRollLink'] = var2;
     return var1;
 })();

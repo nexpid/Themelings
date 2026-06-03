@@ -2754,15 +2754,6 @@ case 17:
             return var1;
         };
         var9['downloadClipsFile'] = var13;
-        var13 = function stopClipsDownloads() {
-            var1 = _closure1_slot6;
-            var2 = var1.fileManager;
-            var1 = var2.stopClipsDownloads;
-            var1 = var1.bind(var2)();
-            var1 = undefined;
-            return var1;
-        };
-        var9['stopClipsDownloads'] = var13;
         var13 = function canCheckClipsFilesExist() {
             var1 = _closure1_slot6;
             var1 = var1.fileManager;

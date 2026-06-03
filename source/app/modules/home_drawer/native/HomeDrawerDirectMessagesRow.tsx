@@ -28,59 +28,48 @@ case 0:
                 return var1;
             };
             var11 = var3.bind(var5)(var2, var1);
-            var10 = 0;
-            var1 = var11 > var10;
+            var1 = 0;
+            var1 = var11 > var1;
             var5 = null;
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = _closure1_slot4;
-            var7 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var8 = _closure1_slot0;
+            var12 = _closure1_slot2;
             var1 = 4;
-            var1 = var13[var1];
-            var1 = var7.bind(var4)(var1);
+            var1 = var12[var1];
+            var1 = var8.bind(var4)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-xs/medium', 'color': 'mobile-text-heading-primary'};
-            var6 = 5;
-            var8 = var13[var6];
-            var8 = var7.bind(var4)(var8);
-            var12 = var8.intl;
-            var8 = var12.format;
-            var6 = var13[var6];
-            var6 = var7.bind(var4)(var6);
-            var6 = var6.t;
-            var7 = var6.WCMsy8;
-            var6 = {};
-            var6['numPeople'] = var11;
-            var6 = var8.bind(var12)(var7, var6);
-            var1['children'] = var6;
+            var1 = {'variant': 'text-xs/medium', 'color': 'text-default', 'lineClamp': 1};
+            var7 = 5;
+            var9 = var12[var7];
+            var9 = var8.bind(var4)(var9);
+            var10 = var9.intl;
+            var9 = var10.format;
+            var7 = var12[var7];
+            var7 = var8.bind(var4)(var7);
+            var7 = var7.t;
+            var8 = var7.WCMsy8;
+            var7 = {};
+            var7['numPeople'] = var11;
+            var7 = var9.bind(var10)(var8, var7);
+            var1['children'] = var7;
             var5 = var3.bind(var4)(var2, var1);
 case 2:
             var3 = _closure1_slot4;
-            var7 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var1 = 6;
-            var1 = var12[var1];
-            var1 = var7.bind(var4)(var1);
+            var1 = var13[var1];
+            var1 = var12.bind(var4)(var1);
             var2 = var1.HomeDrawerSharedItem;
             var1 = {};
             var8 = _closure1_slot4;
             var6 = 4;
-            var6 = var12[var6];
-            var6 = var7.bind(var4)(var6);
+            var6 = var13[var6];
+            var6 = var12.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {};
-            var12 = 'text-md/semibold';
-            var6['variant'] = var12;
-            var11 = var11 > var10;
-            var10 = 'text-muted';
-            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var10 = 'mobile-text-heading-primary';
-case 4:
-            var6['color'] = var10;
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var6 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var9 = 5;
             var10 = var13[var9];
             var10 = var12.bind(var4)(var10);
@@ -151,16 +140,16 @@ case 0:
             var1 = var1.bind(var5)();
             var3 = var1.isChatBesideChannelList;
             var1 = null;
-            if(!var6) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+            if(!var6) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var1 = null;
-            if(var3) { _fun0002_ip = 6; continue _fun0002 }
-case 8:
+            if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
             var4 = _closure1_slot4;
             var3 = _closure1_slot5;
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
-case 6:
+case 4:
             return var1;
         }
     };

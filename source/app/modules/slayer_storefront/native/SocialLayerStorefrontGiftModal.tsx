@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot5 = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -44,25 +44,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var13 = var1.skuId;
-            var _closure2_slot0 = var13;
-            var11 = var1.analyticsLocations;
-            var10 = var1.lockedRecipientUser;
-            var9 = var1.onGiftModalDismiss;
-            var8 = var1.giftingOrigin;
-            var _closure2_slot1 = var8;
+            var15 = var1.skuId;
+            var _closure2_slot0 = var15;
+            var8 = var1.analyticsLocations;
+            var12 = var1.lockedRecipientUser;
+            var11 = var1.onGiftModalDismiss;
+            var10 = var1.giftingOrigin;
+            var _closure2_slot1 = var10;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 4;
             var1 = var3[var1];
             var6 = undefined;
-            var12 = var2.bind(var6)(var1);
-            var5 = var12.useStateFromStores;
+            var13 = var2.bind(var6)(var1);
+            var5 = var13.useStateFromStores;
             var1 = _closure1_slot3;
             var4 = new Array(1);
             var4[0] = var1;
             var2 = new Array(1);
-            var2[0] = var13;
+            var2[0] = var15;
             var1 = function() {
                 var3 = _closure1_slot3;
                 var2 = var3.get;
@@ -70,27 +70,27 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var12 = var5.bind(var12)(var4, var1, var2);
-            var _closure2_slot2 = var12;
+            var14 = var5.bind(var13)(var4, var1, var2);
+            var _closure2_slot2 = var14;
             var2 = _closure1_slot1;
             var1 = 5;
             var1 = var3[var1];
             var4 = var2.bind(var6)(var1);
             var1 = new Array(1);
-            var19 = 0;
-            var21 = var1;
-            var20 = var11;
-            var11 = arraySpread(var21, var20, var19);
+            var20 = 0;
+            var22 = var1;
+            var21 = var8;
+            var8 = arraySpread(var22, var21, var20);
             var5 = 6;
             var5 = var3[var5];
             var5 = var2.bind(var6)(var5);
             var5 = var5.SLAYER_STOREFRONT_NATIVE_GIFT_MODAL;
-            var1[10] = var5;
+            var1[7] = var5;
             var5 = 1;
-            var5 = var11 + var5;
+            var5 = var8 + var5;
             var1 = var4.bind(var6)(var1);
-            var11 = var1.analyticsLocations;
-            var _closure2_slot3 = var11;
+            var13 = var1.analyticsLocations;
+            var _closure2_slot3 = var13;
             var1 = 7;
             var1 = var3[var1];
             var2 = var2.bind(var6)(var1);
@@ -132,8 +132,9 @@ case 2:
                 }
             };
             var1 = var2.bind(var6)(var1);
+            var8 = null;
+            var2 = var8 == var14;
             var1 = null;
-            var2 = var1 == var12;
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var3 = _closure1_slot0;
@@ -144,42 +145,53 @@ case 5:
             var2 = var3.isSocialLayerStorefrontGiftingSupported;
             var2 = var2.bind(var3)();
             var5 = _closure1_slot5;
-            var4 = _closure1_slot1;
-            var14 = _closure1_slot2;
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+            var3 = _closure1_slot1;
+            var19 = _closure1_slot2;
             var2 = 11;
-            var2 = var14[var2];
-            var3 = var4.bind(var6)(var2);
+            var2 = var19[var2];
+            var3 = var3.bind(var6)(var2);
             var2 = {};
-            var2['onDismiss'] = var9;
+            var2['onDismiss'] = var11;
             var18 = _closure1_slot0;
-            var15 = 12;
-            var16 = var14[var15];
+            var4 = 12;
+            var16 = var19[var4];
             var16 = var18.bind(var6)(var16);
             var17 = var16.intl;
             var16 = var17.string;
-            var15 = var14[var15];
-            var15 = var18.bind(var6)(var15);
-            var15 = var15.t;
-            var15 = var15.JCFN/y;
-            var15 = var16.bind(var17)(var15);
-            var2['title'] = var15;
+            var4 = var19[var4];
+            var4 = var18.bind(var6)(var4);
+            var4 = var4.t;
+            var4 = var4.JCFN/y;
+            var4 = var16.bind(var17)(var4);
+            var2['title'] = var4;
             var2 = var5.bind(var6)(var3, var2);
             _fun0001_ip = 8; continue _fun0001;
 case 6:
+            var4 = _closure1_slot0;
+            var16 = _closure1_slot2;
             var3 = 13;
-            var3 = var14[var3];
-            var4 = var4.bind(var6)(var3);
+            var3 = var16[var3];
+            var3 = var4.bind(var6)(var3);
+            var4 = var3.NativePaymentContextProvider;
             var3 = {};
-            var3['skuId'] = var13;
-            var12 = var12.applicationId;
-            var3['applicationId'] = var12;
-            var3['analyticsLocations'] = var11;
-            var3['lockedRecipientUser'] = var10;
-            var3['onGiftModalDismiss'] = var9;
-            var3['giftingOrigin'] = var8;
-            var8 = function validateRecipient() {
+            var17 = new Array(0);
+            var3['skuIDs'] = var17;
+            var3['activeSubscription'] = var8;
+            var8 = _closure1_slot1;
+            var7 = 14;
+            var7 = var16[var7];
+            var8 = var8.bind(var6)(var7);
+            var7 = {};
+            var7['skuId'] = var15;
+            var14 = var14.applicationId;
+            var7['applicationId'] = var14;
+            var7['analyticsLocations'] = var13;
+            var7['lockedRecipientUser'] = var12;
+            var7['onGiftModalDismiss'] = var11;
+            var7['giftingOrigin'] = var10;
+            var10 = function validateRecipient() {
                 var1 = global;
                 var3 = var1.Promise;
                 var2 = var3.resolve;
@@ -187,12 +199,12 @@ case 6:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var3['validateRecipient'] = var8;
-            var8 = function renderProductDetails() {
+            var7['validateRecipient'] = var10;
+            var10 = function renderProductDetails() {
                 var4 = _closure1_slot5;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -202,15 +214,15 @@ case 6:
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var3['renderProductDetails'] = var8;
-            var7 = function renderPurchaseSection(arg1) {
+            var7['renderProductDetails'] = var10;
+            var9 = function renderPurchaseSection(arg1) {
                 var1 = arg1;
                 var7 = var1.isPurchaseDisabled;
                 var6 = var1.giftOptions;
                 var4 = _closure1_slot5;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 15;
+                var1 = 16;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -228,7 +240,9 @@ case 6:
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var3['renderPurchaseSection'] = var7;
+            var7['renderPurchaseSection'] = var9;
+            var7 = var5.bind(var6)(var8, var7);
+            var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
 case 8:
             var1 = var2;

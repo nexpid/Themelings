@@ -34,6 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['Lemon'] = var1;
     var1 = 'white';
     var4['White'] = var1;
+    var1 = 'black';
+    var4['Black'] = var1;
     var2 = {};
     var1 = 'account';
     var2['ACCOUNT'] = var1;

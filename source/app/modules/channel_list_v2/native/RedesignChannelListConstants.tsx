@@ -51,7 +51,6 @@ case 2:
         var6 = 8;
         var3['CHANNEL_PADDING_VERTICAL'] = var6;
         var3['CHANNEL_TITLE_LINE_HEIGHT'] = var5;
-        var3['CHANNEL_DRAWER_SPACING'] = var6;
         var5 = 40;
         var3['SEARCH_BAR_HEIGHT'] = var5;
         var3['SEARCH_BAR_MARGIN_BOTTOM'] = var6;

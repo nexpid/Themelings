@@ -53,28 +53,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = _closure1_slot1;
-            var11 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var1 = 5;
-            var1 = var11[var1];
+            var1 = var12[var1];
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
             var1 = 'GuildsBarFavorites';
-            var10 = var3.bind(var4)(var1);
+            var11 = var3.bind(var4)(var1);
             var5 = _closure1_slot0;
             var1 = 6;
-            var3 = var11[var1];
+            var3 = var12[var1];
             var6 = var5.bind(var4)(var3);
             var3 = var6.useGuildsBarAnimatedWrapperStyles;
             var7 = var3.bind(var6)();
             var3 = 7;
-            var3 = var11[var3];
+            var3 = var12[var3];
             var6 = var5.bind(var4)(var3);
             var3 = var6.useIsFavoritesGuildSelected;
             var8 = var3.bind(var6)();
             var3 = 8;
-            var3 = var11[var3];
-            var12 = var5.bind(var4)(var3);
-            var6 = var12.useStateFromStores;
+            var3 = var12[var3];
+            var10 = var5.bind(var4)(var3);
+            var6 = var10.useStateFromStores;
             var3 = _closure1_slot3;
             var5 = new Array(1);
             var5[0] = var3;
@@ -84,15 +84,15 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var5 = var6.bind(var12)(var5, var3);
+            var5 = var6.bind(var10)(var5, var3);
             var3 = 9;
-            var3 = var11[var3];
+            var3 = var12[var3];
             var3 = var2.bind(var4)(var3);
             var3 = var3.bind(var4)(var5);
             var6 = var3.badge;
-            var12 = var3.unread;
+            var10 = var3.unread;
             var3 = 10;
-            var3 = var11[var3];
+            var3 = var12[var3];
             var5 = var2.bind(var4)(var3);
             var3 = {};
             var3['mentionCount'] = var6;
@@ -100,17 +100,17 @@ case 0:
             var5 = var3.badge;
             var6 = var3.cutouts;
             var3 = _closure1_slot5;
-            var1 = var11[var1];
+            var1 = var12[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['selected'] = var8;
-            var10 = !var10;
-            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+            var11 = !var11;
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var10 = !var8;
+            var11 = !var8;
 case 2:
-            var1['circle'] = var10;
-            var1['unread'] = var12;
+            var1['circle'] = var11;
+            var1['unread'] = var10;
             var1['styles'] = var7;
             var1['cutouts'] = var6;
             var1['overState'] = var4;
@@ -121,13 +121,13 @@ case 2:
             var7 = 11;
             var11 = var10[var7];
             var11 = var6.bind(var4)(var11);
-            var13 = var11.intl;
-            var11 = var13.string;
+            var12 = var11.intl;
+            var11 = var12.string;
             var7 = var10[var7];
             var7 = var6.bind(var4)(var7);
             var7 = var7.t;
             var7 = var7.wMWyci;
-            var7 = var11.bind(var13)(var7);
+            var7 = var11.bind(var12)(var7);
             var1['label'] = var7;
             var1['externalChildren'] = var5;
             var7 = _closure1_slot5;
@@ -136,7 +136,6 @@ case 2:
             var5 = var6.bind(var4)(var5);
             var11 = var5.HomeDrawerFavoritesRowExpandedChildren;
             var5 = {};
-            var5['unread'] = var12;
             var5 = var7.bind(var4)(var11, var5);
             var1['expandedChildren'] = var5;
             var5 = 13;

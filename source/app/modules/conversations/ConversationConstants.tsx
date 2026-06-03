@@ -30,5 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['STALE_AFTER_MS'] = var2;
     var2 = 10;
     var3['CONVERSATION_FEEDBACK_RATINGS_CACHE_MAX'] = var2;
+    var2 = 4;
+    var3['PREVIEW_MESSAGE_COUNT'] = var2;
     return var1;
 })();

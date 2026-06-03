@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot15;
+            var9 = _closure1_slot16;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot16;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = function getApplicationIdsByTaskTypes(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -200,7 +200,7 @@ case 36:
             var19 = var3;
             var1 = new var19[var1](var18);
             var4 = var1 instanceof Object ? var1 : var3;
-            var5 = _closure1_slot14;
+            var5 = _closure1_slot15;
             var1 = undefined;
             var3 = arg2;
             var9 = var5.bind(var1)(var3);
@@ -234,7 +234,7 @@ case 42:
             var13 = var5;
             if(!var15) { _fun0004_ip = 40; continue _fun0004 }
 case 43:
-            var15 = _closure1_slot14;
+            var15 = _closure1_slot15;
             var3 = var3.applications;
             var16 = var15.bind(var1)(var3);
             var17 = var16.bind(var1)();
@@ -275,7 +275,7 @@ case 45:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var20 = function hasPlayOnDesktopTask(arg1) {
         var1 = arg1;
         var1 = var1.quest;
@@ -295,7 +295,7 @@ case 45:
         var1 = var1 != var2;
         return var1;
     };
-    var _closure1_slot17 = var20;
+    var _closure1_slot18 = var20;
     var19 = function hasPlayActivityTask(arg1) {
         var1 = arg1;
         var1 = var1.config;
@@ -314,7 +314,7 @@ case 45:
         var1 = var1 != var2;
         return var1;
     };
-    var _closure1_slot18 = var19;
+    var _closure1_slot19 = var19;
     var18 = function shouldUsePlayOnDesktopTask(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -323,7 +323,7 @@ case 0:
             var1 = var1 != var2;
             if(!var1) { _fun0005_ip = 33; continue _fun0005 }
 case 47:
-            var4 = _closure1_slot17;
+            var4 = _closure1_slot18;
             var3 = {};
             var3['quest'] = var2;
             var2 = undefined;
@@ -332,7 +332,7 @@ case 33:
             return var1;
         }
     };
-    var _closure1_slot19 = var18;
+    var _closure1_slot20 = var18;
     var16 = function isInGameQuest(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -363,7 +363,7 @@ case 33:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot20 = var16;
+    var _closure1_slot21 = var16;
     var9 = function isQuestProgressingOnConsole(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -401,7 +401,7 @@ case 48:
             return var1;
         }
     };
-    var _closure1_slot21 = var9;
+    var _closure1_slot22 = var9;
     var1 = function _isPlayOnDesktopTaskType(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -425,7 +425,7 @@ case 52:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var8 = function getDefaultWatchVideoTask(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -469,7 +469,7 @@ case 56:
             return var1;
         }
     };
-    var _closure1_slot23 = var8;
+    var _closure1_slot24 = var8;
     var7 = function getDefaultInGameTask(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -504,10 +504,10 @@ case 61:
             return var1;
         }
     };
-    var _closure1_slot24 = var7;
+    var _closure1_slot25 = var7;
     var6 = function getRemainingTaskTime(arg1) {
         var1 = arg1;
-        var3 = _closure1_slot26;
+        var3 = _closure1_slot27;
         var2 = var1.targetSeconds;
         var1 = var1.progressSeconds;
         var2 = var2 - var1;
@@ -515,7 +515,7 @@ case 61:
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var _closure1_slot25 = var6;
+    var _closure1_slot26 = var6;
     var5 = function parseMinutesAndSecondsFromSeconds(arg1) {
         var8 = arg1;
         var1 = {};
@@ -540,7 +540,7 @@ case 61:
         var1['seconds'] = var2;
         return var1;
     };
-    var _closure1_slot26 = var5;
+    var _closure1_slot27 = var5;
     var2 = function formatWatchTaskTime(arg1, arg2) {
         var1 = global;
         var3 = var1.String;
@@ -563,7 +563,7 @@ case 61:
         var1 = var3.bind(var2)(var5, var1, var4);
         return var1;
     };
-    var _closure1_slot27 = var2;
+    var _closure1_slot28 = var2;
     var1 = global;
     var13 = var1.Object;
     var12 = var13.defineProperty;
@@ -797,7 +797,7 @@ case 74:
 case 70:
             if(!(var1 != var5)) { _fun0012_ip = 75; continue _fun0012 }
 case 9:
-            var2 = _closure1_slot21;
+            var2 = _closure1_slot22;
             var2 = var2.bind(var7)(var3);
             if(var2) { _fun0012_ip = 76; continue _fun0012 }
 case 77:
@@ -944,35 +944,35 @@ case 80:
     var21 = function _getTaskDetailsForType(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-            var3 = arg1;
-            var2 = var3.quest;
-            var7 = var3.taskType;
-            var3 = var3.includeTaskTypes;
-            var9 = undefined;
-            if(!(var3 === var9)) { _fun0014_ip = 92; continue _fun0014 }
+            var1 = arg1;
+            var10 = var1.quest;
+            var8 = var1.taskType;
+            var9 = var1.includeTaskTypes;
+            var4 = undefined;
+            if(!(var9 === var4)) { _fun0014_ip = 92; continue _fun0014 }
 case 93:
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var4 = 1;
-            var4 = var6[var4];
-            var4 = var5.bind(var9)(var4);
-            var4 = var4.FirstPartyQuestTaskTypesSets;
-            var3 = var4.ALL;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 1;
+            var1 = var5[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.FirstPartyQuestTaskTypesSets;
+            var9 = var1.ALL;
 case 92:
-            var _closure2_slot0 = var3;
-            var3 = var2.config;
-            var3 = var3.taskConfigV2;
-            var11 = null;
-            var4 = var7;
-            if(!(var11 == var4)) { _fun0014_ip = 94; continue _fun0014 }
+            var _closure2_slot0 = var9;
+            var1 = var10.config;
+            var3 = var1.taskConfigV2;
+            var1 = null;
+            var5 = var8;
+            if(!(var1 == var5)) { _fun0014_ip = 94; continue _fun0014 }
 case 95:
-            var5 = global;
-            var8 = var5.Object;
-            var6 = var8.values;
-            var5 = var3.tasks;
-            var8 = var6.bind(var8)(var5);
-            var6 = var8.filter;
-            var5 = function(arg1) {
+            var6 = global;
+            var11 = var6.Object;
+            var7 = var11.values;
+            var6 = var3.tasks;
+            var11 = var7.bind(var11)(var6);
+            var7 = var11.filter;
+            var6 = function(arg1) {
                 var3 = _closure2_slot0;
                 var2 = var3.has;
                 var1 = arg1;
@@ -980,99 +980,122 @@ case 95:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var6 = var6.bind(var8)(var5);
-            var5 = 0;
-            var6 = var6[var5];
-            var8 = var11 == var6;
-            var5 = undefined;
-            if(var8) { _fun0014_ip = 96; continue _fun0014 }
+            var7 = var7.bind(var11)(var6);
+            var6 = 0;
+            var7 = var7[var6];
+            var11 = var1 == var7;
+            var6 = undefined;
+            if(var11) { _fun0014_ip = 96; continue _fun0014 }
 case 97:
-            var5 = var6.type;
+            var6 = var7.type;
 case 96:
-            var4 = var5;
+            var5 = var6;
 case 94:
-            var5 = var3.tasks;
-            var10 = var5[var4];
-            if(!(var11 == var10)) { _fun0014_ip = 89; continue _fun0014 }
-case 98:
             var6 = var3.tasks;
-            var8 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var5 = 1;
-            var5 = var12[var5];
-            var5 = var8.bind(var9)(var5);
-            var5 = var5.FirstPartyQuestTaskTypes;
-            var5 = var5.STREAM_ON_DESKTOP;
-            var10 = var6[var5];
+            var12 = var6[var5];
+            if(!(var1 == var12)) { _fun0014_ip = 89; continue _fun0014 }
+case 98:
+            var7 = var3.tasks;
+            var11 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var6 = 1;
+            var6 = var13[var6];
+            var6 = var11.bind(var4)(var6);
+            var6 = var6.FirstPartyQuestTaskTypes;
+            var6 = var6.STREAM_ON_DESKTOP;
+            var12 = var7[var6];
 case 89:
-            if(!(var11 != var10)) { _fun0014_ip = 99; continue _fun0014 }
+            if(!(var1 != var12)) { _fun0014_ip = 99; continue _fun0014 }
 case 100:
-            var8 = var10.target;
-            var6 = _closure1_slot11;
-            var6 = var6.bind(var9)(var2, var10);
-            var10 = global;
-            var13 = var10.Object;
-            var12 = var13.values;
+            var11 = var12.target;
+            var7 = _closure1_slot11;
+            var7 = var7.bind(var4)(var10, var12);
+            var12 = global;
+            var14 = var12.Object;
+            var13 = var14.values;
             var3 = var3.tasks;
-            var13 = var12.bind(var13)(var3);
-            var12 = var13.find;
-            var3 = _closure1_slot22;
-            var12 = var12.bind(var13)(var3);
-            var13 = var11 == var12;
+            var14 = var13.bind(var14)(var3);
+            var13 = var14.find;
+            var3 = _closure1_slot23;
+            var13 = var13.bind(var14)(var3);
+            var14 = var1 == var13;
+            var3 = undefined;
+            if(var14) { _fun0014_ip = 101; continue _fun0014 }
+case 10:
+            var14 = var13.applications;
+            var13 = var1 == var14;
             var3 = undefined;
             if(var13) { _fun0014_ip = 101; continue _fun0014 }
-case 10:
-            var12 = var12.applications;
-            var11 = var11 == var12;
-            var3 = undefined;
-            if(var11) { _fun0014_ip = 101; continue _fun0014 }
 case 102:
-            var11 = var12.map;
-            var1 = function(arg1) {
+            var13 = var14.map;
+            var2 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.id;
                 return var1;
             };
-            var3 = var11.bind(var12)(var1);
+            var3 = var13.bind(var14)(var2);
 case 101:
-            var1 = {};
-            var1['progressSeconds'] = var6;
-            var1['targetSeconds'] = var8;
-            var12 = var10.Math;
-            var11 = var12.ceil;
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var10 = 3;
-            var10 = var14[var10];
-            var10 = var13.bind(var9)(var10);
-            var10 = var10.Seconds;
-            var10 = var10.MINUTE;
-            var10 = var8 / var10;
-            var10 = var11.bind(var12)(var10);
-            var1['targetMinutes'] = var10;
-            var5 = _closure1_slot9;
-            var5 = var5.bind(var9)(var8, var6);
-            var1['percentComplete'] = var5;
-            var1['taskType'] = var4;
-            var1['applications'] = var3;
-            return var1;
+            var2 = {};
+            var2['progressSeconds'] = var7;
+            var2['targetSeconds'] = var11;
+            var14 = var12.Math;
+            var13 = var14.ceil;
+            var15 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var12 = 3;
+            var12 = var16[var12];
+            var12 = var15.bind(var4)(var12);
+            var12 = var12.Seconds;
+            var12 = var12.MINUTE;
+            var12 = var11 / var12;
+            var12 = var13.bind(var14)(var12);
+            var2['targetMinutes'] = var12;
+            var6 = _closure1_slot9;
+            var6 = var6.bind(var4)(var11, var7);
+            var2['percentComplete'] = var6;
+            var2['taskType'] = var5;
+            var2['applications'] = var3;
+            return var2;
 case 99:
-            var1 = global;
-            var3 = var1.Error;
-            var16 = var2.id;
-            var1 = var1.HermesInternal;
-            var5 = var1.concat;
-            var19 = 'No task with type ';
-            var17 = ' found for quest ';
-            var15 = '!';
-            var18 = var7;
-            var18 = var19[var5](var18, var17, var16, var15, var14);
-            var2 = var3.prototype;
-            var2 = Object.create(var2, {constructor: {value: var3}});
-            var19 = var2;
-            var1 = new var19[var3](var18, var17);
-            var1 = var1 instanceof Object ? var1 : var2;
-            throw var1;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 4;
+            var2 = var5[var2];
+            var5 = var3.bind(var4)(var2);
+            var4 = var5.captureQuestsException;
+            var7 = global;
+            var6 = var7.Error;
+            var12 = var10.id;
+            var2 = var7.HermesInternal;
+            var11 = var2.concat;
+            var3 = 'Quest ';
+            var2 = ' has no task matching the include filters';
+            var18 = var11.bind(var3)(var12, var2);
+            var3 = var6.prototype;
+            var3 = Object.create(var3, {constructor: {value: var6}});
+            var19 = var3;
+            var2 = new var19[var6](var18, var17);
+            var3 = var2 instanceof Object ? var2 : var3;
+            var2 = {};
+            var6 = {};
+            var11 = '_getTaskDetailsForType';
+            var6['source'] = var11;
+            var2['tags'] = var6;
+            var6 = {};
+            var10 = var10.id;
+            var6['questId'] = var10;
+            var6['taskType'] = var8;
+            var8 = var7.Array;
+            var7 = var8.from;
+            if(!(var1 == var9)) { _fun0014_ip = 103; continue _fun0014 }
+case 104:
+            var9 = new Array(0);
+case 103:
+            var7 = var7.bind(var8)(var9);
+            var6['includeTaskTypes'] = var7;
+            var2['extra'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
     var _closure1_slot12 = var21;
@@ -1099,23 +1122,361 @@ case 73:
         }
     };
     var _closure1_slot13 = var21;
-    var21 = 5;
+    var21 = function _getQuestTaskDetails(arg1, arg2) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+case 0:
+            var7 = arg1;
+            var2 = arg2;
+            var1 = _closure1_slot21;
+            var5 = undefined;
+            var1 = var1.bind(var5)(var7);
+            if(var1) { _fun0016_ip = 105; continue _fun0016 }
+case 106:
+            var1 = _closure1_slot4;
+            var1 = var1.bind(var5)(var7);
+            if(var1) { _fun0016_ip = 107; continue _fun0016 }
+case 108:
+            var1 = _closure1_slot7;
+            var1 = var1.bind(var5)(var7);
+            if(var1) { _fun0016_ip = 109; continue _fun0016 }
+case 28:
+            var1 = _closure1_slot20;
+            var1 = var1.bind(var5)(var7);
+            if(var1) { _fun0016_ip = 110; continue _fun0016 }
+case 111:
+            var1 = _closure1_slot19;
+            var1 = var1.bind(var5)(var7);
+            var6 = _closure1_slot12;
+            var4 = {};
+            var4['quest'] = var7;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var8 = 1;
+            var8 = var10[var8];
+            var8 = var9.bind(var5)(var8);
+            var8 = var8.FirstPartyQuestTaskTypes;
+            if(var1) { _fun0016_ip = 112; continue _fun0016 }
+case 113:
+            var1 = var8.STREAM_ON_DESKTOP;
+            var4['taskType'] = var1;
+            var1 = var6.bind(var5)(var4);
+            _fun0016_ip = 94; continue _fun0016;
+case 112:
+            var8 = var8.PLAY_ACTIVITY;
+            var4['taskType'] = var8;
+            var1 = var6.bind(var5)(var4);
+case 94:
+            _fun0016_ip = 114; continue _fun0016;
+case 110:
+            var6 = _closure1_slot12;
+            var4 = {};
+            var4['quest'] = var7;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var8 = 1;
+            var8 = var10[var8];
+            var8 = var9.bind(var5)(var8);
+            var8 = var8.FirstPartyQuestTaskTypes;
+            var8 = var8.PLAY_ON_DESKTOP;
+            var4['taskType'] = var8;
+            var1 = var6.bind(var5)(var4);
+case 114:
+            _fun0016_ip = 115; continue _fun0016;
+case 109:
+            var6 = _closure1_slot12;
+            var4 = {};
+            var4['quest'] = var7;
+            var9 = _closure1_slot24;
+            var8 = var7.config;
+            var9 = var9.bind(var5)(var8);
+            var8 = null;
+            var10 = var8 == var9;
+            var8 = undefined;
+            if(var10) { _fun0016_ip = 116; continue _fun0016 }
+case 40:
+            var8 = var9.type;
+case 116:
+            var4['taskType'] = var8;
+            var1 = var6.bind(var5)(var4);
+case 115:
+            _fun0016_ip = 117; continue _fun0016;
+case 107:
+            var4 = {};
+            var4['quest'] = var7;
+            var6 = null;
+            if(!(var6 == var2)) { _fun0016_ip = 26; continue _fun0016 }
+case 118:
+            var6 = _closure1_slot22;
+            var6 = var6.bind(var5)(var7);
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var7 = 1;
+            var7 = var9[var7];
+            var7 = var8.bind(var5)(var7);
+            var7 = var7.FirstPartyQuestTaskTypesSets;
+            if(var6) { _fun0016_ip = 119; continue _fun0016 }
+case 101:
+            var6 = var7.ALL;
+            _fun0016_ip = 120; continue _fun0016;
+case 119:
+            var6 = var7.CONSOLE;
+case 120:
+            var2 = var6;
+case 26:
+            var4['includeTaskTypes'] = var2;
+            var2 = function(arg1) {
+                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+                    var1 = arg1;
+                    var5 = var1.quest;
+                    var4 = var1.includeTaskTypes;
+                    var3 = undefined;
+                    if(!(var4 === var3)) { _fun0017_ip = 28; continue _fun0017 }
+case 52:
+                    var2 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var1 = 1;
+                    var1 = var6[var1];
+                    var1 = var2.bind(var3)(var1);
+                    var1 = var1.FirstPartyQuestTaskTypesSets;
+                    var4 = var1.ALL;
+case 28:
+                    var6 = _closure1_slot15;
+                    var2 = global;
+                    var8 = var2.Object;
+                    var7 = var8.values;
+                    var9 = var5.userStatus;
+                    var10 = null;
+                    var11 = var10 == var9;
+                    var2 = undefined;
+                    if(var11) { _fun0017_ip = 55; continue _fun0017 }
+case 121:
+                    var2 = var9.progress;
+case 55:
+                    if(!(var10 == var2)) { _fun0017_ip = 122; continue _fun0017 }
+case 123:
+                    var2 = {};
+case 122:
+                    var8 = var7.bind(var8)(var2);
+                    var7 = var8.sort;
+                    var2 = function(arg1, arg2) {
+                        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+                            var3 = arg1;
+                            var2 = arg2;
+                            var4 = null;
+                            var5 = var4 == var3;
+                            var6 = undefined;
+                            if(var5) { _fun0018_ip = 63; continue _fun0018 }
+case 124:
+                            var5 = var3.heartbeat;
+                            var7 = var4 == var5;
+                            var6 = undefined;
+                            if(var7) { _fun0018_ip = 63; continue _fun0018 }
+case 125:
+                            var6 = var5.lastBeatAt;
+case 63:
+                            var7 = var4 == var2;
+                            var5 = undefined;
+                            if(var7) { _fun0018_ip = 111; continue _fun0018 }
+case 126:
+                            var7 = var2.heartbeat;
+                            var8 = var4 == var7;
+                            var5 = undefined;
+                            if(var8) { _fun0018_ip = 111; continue _fun0018 }
+case 127:
+                            var5 = var7.lastBeatAt;
+case 111:
+                            if(!(var4 != var6)) { _fun0018_ip = 70; continue _fun0018 }
+case 128:
+                            if(!(var4 == var5)) { _fun0018_ip = 129; continue _fun0018 }
+case 70:
+                            if(!(var4 == var6)) { _fun0018_ip = 58; continue _fun0018 }
+case 82:
+                            if(!(var4 == var5)) { _fun0018_ip = 58; continue _fun0018 }
+case 60:
+                            var8 = var4 == var3;
+                            var7 = undefined;
+                            if(var8) { _fun0018_ip = 61; continue _fun0018 }
+case 11:
+                            var7 = var3.updatedAt;
+case 61:
+                            if(!(var4 != var7)) { _fun0018_ip = 58; continue _fun0018 }
+case 54:
+                            var7 = var4 == var2;
+                            var1 = undefined;
+                            if(var7) { _fun0018_ip = 76; continue _fun0018 }
+case 130:
+                            var1 = var2.updatedAt;
+case 76:
+                            if(!(var4 == var1)) { _fun0018_ip = 131; continue _fun0018 }
+case 58:
+                            var8 = var4 != var6;
+                            var7 = 1;
+                            var1 = var7;
+                            if(!var8) { _fun0018_ip = 88; continue _fun0018 }
+case 132:
+                            var4 = var4 == var5;
+                            var1 = var7;
+                            if(!var4) { _fun0018_ip = 88; continue _fun0018 }
+case 96:
+                            var1 = -1;
+case 88:
+                            _fun0018_ip = 133; continue _fun0018;
+case 131:
+                            var4 = global;
+                            var8 = var4.Date;
+                            var9 = var3.updatedAt;
+                            var7 = var8.prototype;
+                            var7 = Object.create(var7, {constructor: {value: var8}});
+                            var10 = var7;
+                            var3 = new var10[var8](var9, var8);
+                            var7 = var3 instanceof Object ? var3 : var7;
+                            var3 = var7.valueOf;
+                            var3 = var3.bind(var7)();
+                            var7 = var4.Date;
+                            var9 = var2.updatedAt;
+                            var4 = var7.prototype;
+                            var4 = Object.create(var4, {constructor: {value: var7}});
+                            var10 = var4;
+                            var2 = new var10[var7](var9, var8);
+                            var4 = var2 instanceof Object ? var2 : var4;
+                            var2 = var4.valueOf;
+                            var2 = var2.bind(var4)();
+                            var3 = var3 > var2;
+                            var2 = 1;
+                            if(!var3) { _fun0018_ip = 134; continue _fun0018 }
+case 116:
+                            var2 = -1;
+case 134:
+                            var1 = var2;
+case 133:
+                            _fun0018_ip = 135; continue _fun0018;
+case 129:
+                            var2 = global;
+                            var3 = var2.Date;
+                            var4 = var3.prototype;
+                            var4 = Object.create(var4, {constructor: {value: var3}});
+                            var10 = var4;
+                            var9 = var6;
+                            var3 = new var10[var3](var9, var8);
+                            var4 = var3 instanceof Object ? var3 : var4;
+                            var3 = var4.valueOf;
+                            var3 = var3.bind(var4)();
+                            var2 = var2.Date;
+                            var4 = var2.prototype;
+                            var4 = Object.create(var4, {constructor: {value: var2}});
+                            var10 = var4;
+                            var9 = var5;
+                            var2 = new var10[var2](var9, var8);
+                            var4 = var2 instanceof Object ? var2 : var4;
+                            var2 = var4.valueOf;
+                            var2 = var2.bind(var4)();
+                            var3 = var3 > var2;
+                            var2 = 1;
+                            if(!var3) { _fun0018_ip = 136; continue _fun0018 }
+case 105:
+                            var2 = -1;
+case 136:
+                            var1 = var2;
+case 135:
+                            return var1;
+                        }
+                    };
+                    var8 = var7.bind(var8)(var2);
+                    var7 = var8.filter;
+                    var9 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var11[var2];
+                    var2 = var9.bind(var3)(var2);
+                    var2 = var2.isNotNullish;
+                    var2 = var7.bind(var8)(var2);
+                    var9 = var6.bind(var3)(var2);
+                    var6 = var9.bind(var3)();
+                    var2 = var6.done;
+                    var8 = var6;
+                    var7 = undefined;
+                    if(var2) { _fun0017_ip = 137; continue _fun0017 }
+case 138:
+                    var2 = var8.value;
+                    var6 = _closure1_slot13;
+                    var2 = var2.eventName;
+                    var12 = var6.bind(var3)(var2);
+                    var11 = var7;
+                    if(!(var10 != var12)) { _fun0017_ip = 38; continue _fun0017 }
+case 139:
+                    var11 = var7;
+                    if(!(var10 != var4)) { _fun0017_ip = 38; continue _fun0017 }
+case 140:
+                    var2 = var4.has;
+                    var2 = var2.bind(var4)(var12);
+                    var11 = var7;
+                    if(!var2) { _fun0017_ip = 38; continue _fun0017 }
+case 141:
+                    var6 = _closure1_slot12;
+                    var2 = {};
+                    var2['quest'] = var5;
+                    var2['taskType'] = var12;
+                    var2['includeTaskTypes'] = var4;
+                    var2 = var6.bind(var3)(var2);
+                    var11 = var2;
+                    if(!(var10 == var11)) { _fun0017_ip = 25; continue _fun0017 }
+case 38:
+                    var12 = var9.bind(var3)();
+                    var6 = var12.done;
+                    var7 = var11;
+                    var8 = var12;
+                    if(var6) { _fun0017_ip = 137; continue _fun0017 }
+case 142:
+                    _fun0017_ip = 138; continue _fun0017;
+case 25:
+                    return var2;
+case 137:
+                    var2 = _closure1_slot12;
+                    var1 = {};
+                    var1['quest'] = var5;
+                    var1['includeTaskTypes'] = var4;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                }
+            };
+            var1 = var2.bind(var5)(var4);
+case 117:
+            _fun0016_ip = 143; continue _fun0016;
+case 105:
+            var2 = {'progressSeconds': 0, 'targetSeconds': 1, 'targetMinutes': 1, 'percentComplete': 0};
+            var6 = 1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.FirstPartyQuestTaskTypes;
+            var3 = var3.STREAM_ON_DESKTOP;
+            var2['taskType'] = var3;
+            var1 = var2;
+case 143:
+            return var1;
+        }
+    };
+    var _closure1_slot14 = var21;
+    var21 = 6;
     var21 = var23[var21];
     var23 = var22.bind(var1)(var21);
     var22 = var23.fileFinishedImporting;
     var21 = 'modules/quests/utils/QuestTaskUtils.tsx';
     var21 = var22.bind(var23)(var21);
     var21 = function getAllApplicationIds(arg1) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 == var4)) { _fun0016_ip = 36; continue _fun0016 }
+            if(!(var1 == var4)) { _fun0019_ip = 36; continue _fun0019 }
 case 37:
             var1 = undefined;
             return var1;
 case 36:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot17;
             var1 = global;
             var5 = var1.Object;
             var2 = var5.keys;
@@ -1130,7 +1491,7 @@ case 36:
     };
     var3['getAllApplicationIds'] = var21;
     var21 = function getDesktopApplicationIds(arg1) {
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot17;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 1;
@@ -1147,9 +1508,9 @@ case 36:
     };
     var3['getDesktopApplicationIds'] = var21;
     var21 = function getConsoleApplicationId(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot17;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 1;
@@ -1169,19 +1530,19 @@ case 0:
             var3 = var4.bind(var1)(var2, var3);
             var2 = null;
             var2 = var2 == var3;
-            if(var2) { _fun0017_ip = 103; continue _fun0017 }
+            if(var2) { _fun0020_ip = 144; continue _fun0020 }
 case 84:
             var2 = 0;
             var1 = var3[var2];
-case 103:
+case 144:
             return var1;
         }
     };
     var3['getConsoleApplicationId'] = var21;
     var21 = function getPlayActivityApplicationId(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot17;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 1;
@@ -1196,7 +1557,7 @@ case 0:
             var3 = var4.bind(var1)(var2, var3);
             var2 = null;
             var2 = var2 == var3;
-            if(var2) { _fun0018_ip = 74; continue _fun0018 }
+            if(var2) { _fun0021_ip = 74; continue _fun0021 }
 case 30:
             var2 = 0;
             var1 = var3[var2];
@@ -1206,9 +1567,9 @@ case 74:
     };
     var3['getPlayActivityApplicationId'] = var21;
     var21 = function getInGameApplicationId(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot17;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 1;
@@ -1223,7 +1584,7 @@ case 0:
             var3 = var4.bind(var1)(var2, var3);
             var2 = null;
             var2 = var2 == var3;
-            if(var2) { _fun0019_ip = 74; continue _fun0019 }
+            if(var2) { _fun0022_ip = 74; continue _fun0022 }
 case 30:
             var2 = 0;
             var1 = var3[var2];
@@ -1233,9 +1594,9 @@ case 74:
     };
     var3['getInGameApplicationId'] = var21;
     var21 = function getActivityApplicationId(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot17;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 1;
@@ -1255,19 +1616,19 @@ case 0:
             var3 = var4.bind(var1)(var2, var3);
             var2 = null;
             var2 = var2 == var3;
-            if(var2) { _fun0020_ip = 103; continue _fun0020 }
+            if(var2) { _fun0023_ip = 144; continue _fun0023 }
 case 84:
             var2 = 0;
             var1 = var3[var2];
-case 103:
+case 144:
             return var1;
         }
     };
     var3['getActivityApplicationId'] = var21;
     var21 = function getStreamingApplicationId(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot17;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 1;
@@ -1282,7 +1643,7 @@ case 0:
             var3 = var4.bind(var1)(var2, var3);
             var2 = null;
             var2 = var2 == var3;
-            if(var2) { _fun0021_ip = 74; continue _fun0021 }
+            if(var2) { _fun0024_ip = 74; continue _fun0024 }
 case 30:
             var2 = 0;
             var1 = var3[var2];
@@ -1361,18 +1722,18 @@ case 74:
     var3['hasStandaloneGameplayTasks'] = var11;
     var3['hasActivityTasks'] = var10;
     var10 = function(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var4 = arg1;
             var1 = _closure1_slot6;
             var3 = undefined;
             var1 = var1.bind(var3)(var4);
-            if(!var1) { _fun0022_ip = 104; continue _fun0022 }
+            if(!var1) { _fun0025_ip = 125; continue _fun0025 }
 case 29:
             var2 = _closure1_slot5;
             var2 = var2.bind(var3)(var4);
             var1 = !var2;
-case 104:
+case 125:
             return var1;
         }
     };
@@ -1406,368 +1767,73 @@ case 104:
     var3['getQuestTaskTypes'] = var9;
     var3['getDefaultWatchVideoTask'] = var8;
     var8 = function(arg1, arg2) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var7 = arg1;
-            var2 = arg2;
-            var1 = _closure1_slot20;
-            var5 = undefined;
-            var1 = var1.bind(var5)(var7);
-            if(var1) { _fun0023_ip = 105; continue _fun0023 }
-case 106:
-            var1 = _closure1_slot4;
-            var1 = var1.bind(var5)(var7);
-            if(var1) { _fun0023_ip = 107; continue _fun0023 }
-case 108:
-            var1 = _closure1_slot7;
-            var1 = var1.bind(var5)(var7);
-            if(var1) { _fun0023_ip = 109; continue _fun0023 }
-case 28:
-            var1 = _closure1_slot19;
-            var1 = var1.bind(var5)(var7);
-            if(var1) { _fun0023_ip = 110; continue _fun0023 }
-case 111:
-            var1 = _closure1_slot18;
-            var1 = var1.bind(var5)(var7);
-            var6 = _closure1_slot12;
-            var4 = {};
-            var4['quest'] = var7;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var8 = 1;
-            var8 = var10[var8];
-            var8 = var9.bind(var5)(var8);
-            var8 = var8.FirstPartyQuestTaskTypes;
-            if(var1) { _fun0023_ip = 112; continue _fun0023 }
-case 113:
-            var1 = var8.STREAM_ON_DESKTOP;
-            var4['taskType'] = var1;
-            var1 = var6.bind(var5)(var4);
-            _fun0023_ip = 94; continue _fun0023;
-case 112:
-            var8 = var8.PLAY_ACTIVITY;
-            var4['taskType'] = var8;
-            var1 = var6.bind(var5)(var4);
-case 94:
-            _fun0023_ip = 114; continue _fun0023;
-case 110:
-            var6 = _closure1_slot12;
-            var4 = {};
-            var4['quest'] = var7;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var8 = 1;
-            var8 = var10[var8];
-            var8 = var9.bind(var5)(var8);
-            var8 = var8.FirstPartyQuestTaskTypes;
-            var8 = var8.PLAY_ON_DESKTOP;
-            var4['taskType'] = var8;
-            var1 = var6.bind(var5)(var4);
-case 114:
-            _fun0023_ip = 115; continue _fun0023;
-case 109:
-            var6 = _closure1_slot12;
-            var4 = {};
-            var4['quest'] = var7;
-            var9 = _closure1_slot23;
-            var8 = var7.config;
-            var9 = var9.bind(var5)(var8);
-            var8 = null;
-            var10 = var8 == var9;
-            var8 = undefined;
-            if(var10) { _fun0023_ip = 116; continue _fun0023 }
-case 40:
-            var8 = var9.type;
-case 116:
-            var4['taskType'] = var8;
-            var1 = var6.bind(var5)(var4);
-case 115:
-            _fun0023_ip = 117; continue _fun0023;
-case 107:
-            var4 = {};
-            var4['quest'] = var7;
-            var6 = null;
-            if(!(var6 == var2)) { _fun0023_ip = 26; continue _fun0023 }
-case 118:
-            var6 = _closure1_slot21;
-            var6 = var6.bind(var5)(var7);
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var7 = 1;
-            var7 = var9[var7];
-            var7 = var8.bind(var5)(var7);
-            var7 = var7.FirstPartyQuestTaskTypesSets;
-            if(var6) { _fun0023_ip = 119; continue _fun0023 }
-case 101:
-            var6 = var7.ALL;
-            _fun0023_ip = 120; continue _fun0023;
-case 119:
-            var6 = var7.CONSOLE;
-case 120:
-            var2 = var6;
-case 26:
-            var4['includeTaskTypes'] = var2;
-            var2 = function(arg1) {
-                _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
-case 0:
-                    var1 = arg1;
-                    var5 = var1.quest;
-                    var4 = var1.includeTaskTypes;
-                    var3 = undefined;
-                    if(!(var4 === var3)) { _fun0024_ip = 28; continue _fun0024 }
-case 52:
-                    var2 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var1 = 1;
-                    var1 = var6[var1];
-                    var1 = var2.bind(var3)(var1);
-                    var1 = var1.FirstPartyQuestTaskTypesSets;
-                    var4 = var1.ALL;
-case 28:
-                    var6 = _closure1_slot14;
-                    var2 = global;
-                    var8 = var2.Object;
-                    var7 = var8.values;
-                    var10 = var5.userStatus;
-                    var9 = null;
-                    var11 = var9 == var10;
-                    var2 = undefined;
-                    if(var11) { _fun0024_ip = 55; continue _fun0024 }
-case 121:
-                    var2 = var10.progress;
-case 55:
-                    if(!(var9 == var2)) { _fun0024_ip = 122; continue _fun0024 }
-case 123:
-                    var2 = {};
-case 122:
-                    var8 = var7.bind(var8)(var2);
-                    var7 = var8.sort;
-                    var2 = function(arg1, arg2) {
-                        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
-case 0:
-                            var3 = arg1;
-                            var2 = arg2;
-                            var4 = null;
-                            var5 = var4 == var3;
-                            var6 = undefined;
-                            if(var5) { _fun0025_ip = 63; continue _fun0025 }
-case 124:
-                            var5 = var3.heartbeat;
-                            var7 = var4 == var5;
-                            var6 = undefined;
-                            if(var7) { _fun0025_ip = 63; continue _fun0025 }
-case 104:
-                            var6 = var5.lastBeatAt;
-case 63:
-                            var7 = var4 == var2;
-                            var5 = undefined;
-                            if(var7) { _fun0025_ip = 111; continue _fun0025 }
-case 125:
-                            var7 = var2.heartbeat;
-                            var8 = var4 == var7;
-                            var5 = undefined;
-                            if(var8) { _fun0025_ip = 111; continue _fun0025 }
+            var2 = _closure1_slot14;
+            var6 = undefined;
+            var1 = arg2;
+            var1 = var2.bind(var6)(var7, var1);
+            var3 = null;
+            if(!(var3 == var1)) { _fun0026_ip = 123; continue _fun0026 }
+case 145:
+            var5 = _closure1_slot12;
+            var2 = {};
+            var2['quest'] = var7;
+            var2 = var5.bind(var6)(var2);
+            if(!(var3 == var2)) { _fun0026_ip = 77; continue _fun0026 }
 case 126:
-                            var5 = var7.lastBeatAt;
-case 111:
-                            if(!(var4 != var6)) { _fun0025_ip = 70; continue _fun0025 }
-case 127:
-                            if(!(var4 == var5)) { _fun0025_ip = 128; continue _fun0025 }
-case 70:
-                            if(!(var4 == var6)) { _fun0025_ip = 58; continue _fun0025 }
-case 82:
-                            if(!(var4 == var5)) { _fun0025_ip = 58; continue _fun0025 }
-case 60:
-                            var8 = var4 == var3;
-                            var7 = undefined;
-                            if(var8) { _fun0025_ip = 61; continue _fun0025 }
-case 11:
-                            var7 = var3.updatedAt;
-case 61:
-                            if(!(var4 != var7)) { _fun0025_ip = 58; continue _fun0025 }
-case 54:
-                            var7 = var4 == var2;
-                            var1 = undefined;
-                            if(var7) { _fun0025_ip = 76; continue _fun0025 }
-case 129:
-                            var1 = var2.updatedAt;
-case 76:
-                            if(!(var4 == var1)) { _fun0025_ip = 130; continue _fun0025 }
-case 58:
-                            var8 = var4 != var6;
-                            var7 = 1;
-                            var1 = var7;
-                            if(!var8) { _fun0025_ip = 88; continue _fun0025 }
-case 131:
-                            var4 = var4 == var5;
-                            var1 = var7;
-                            if(!var4) { _fun0025_ip = 88; continue _fun0025 }
-case 96:
-                            var1 = -1;
-case 88:
-                            _fun0025_ip = 132; continue _fun0025;
-case 130:
-                            var4 = global;
-                            var8 = var4.Date;
-                            var9 = var3.updatedAt;
-                            var7 = var8.prototype;
-                            var7 = Object.create(var7, {constructor: {value: var8}});
-                            var10 = var7;
-                            var3 = new var10[var8](var9, var8);
-                            var7 = var3 instanceof Object ? var3 : var7;
-                            var3 = var7.valueOf;
-                            var3 = var3.bind(var7)();
-                            var7 = var4.Date;
-                            var9 = var2.updatedAt;
-                            var4 = var7.prototype;
-                            var4 = Object.create(var4, {constructor: {value: var7}});
-                            var10 = var4;
-                            var2 = new var10[var7](var9, var8);
-                            var4 = var2 instanceof Object ? var2 : var4;
-                            var2 = var4.valueOf;
-                            var2 = var2.bind(var4)();
-                            var3 = var3 > var2;
-                            var2 = 1;
-                            if(!var3) { _fun0025_ip = 133; continue _fun0025 }
-case 116:
-                            var2 = -1;
-case 133:
-                            var1 = var2;
-case 132:
-                            _fun0025_ip = 134; continue _fun0025;
-case 128:
-                            var2 = global;
-                            var3 = var2.Date;
-                            var4 = var3.prototype;
-                            var4 = Object.create(var4, {constructor: {value: var3}});
-                            var10 = var4;
-                            var9 = var6;
-                            var3 = new var10[var3](var9, var8);
-                            var4 = var3 instanceof Object ? var3 : var4;
-                            var3 = var4.valueOf;
-                            var3 = var3.bind(var4)();
-                            var2 = var2.Date;
-                            var4 = var2.prototype;
-                            var4 = Object.create(var4, {constructor: {value: var2}});
-                            var10 = var4;
-                            var9 = var5;
-                            var2 = new var10[var2](var9, var8);
-                            var4 = var2 instanceof Object ? var2 : var4;
-                            var2 = var4.valueOf;
-                            var2 = var2.bind(var4)();
-                            var3 = var3 > var2;
-                            var2 = 1;
-                            if(!var3) { _fun0025_ip = 135; continue _fun0025 }
-case 105:
-                            var2 = -1;
-case 135:
-                            var1 = var2;
-case 134:
-                            return var1;
-                        }
-                    };
-                    var8 = var7.bind(var8)(var2);
-                    var7 = var8.filter;
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var2 = 4;
-                    var2 = var11[var2];
-                    var2 = var10.bind(var3)(var2);
-                    var2 = var2.isNotNullish;
-                    var2 = var7.bind(var8)(var2);
-                    var8 = var6.bind(var3)(var2);
-                    var6 = var8.bind(var3)();
-                    var2 = var6.done;
-                    if(var2) { _fun0024_ip = 136; continue _fun0024 }
-case 137:
-                    var2 = var6.value;
-                    var7 = _closure1_slot13;
-                    var2 = var2.eventName;
-                    var7 = var7.bind(var3)(var2);
-                    if(!(var9 != var7)) { _fun0024_ip = 138; continue _fun0024 }
-case 22:
-                    if(!(var9 != var4)) { _fun0024_ip = 138; continue _fun0024 }
-case 139:
-                    var2 = var4.has;
-                    var2 = var2.bind(var4)(var7);
-                    if(var2) { _fun0024_ip = 140; continue _fun0024 }
-case 138:
-                    var10 = var8.bind(var3)();
-                    var2 = var10.done;
-                    var6 = var10;
-                    if(var2) { _fun0024_ip = 136; continue _fun0024 }
-case 141:
-                    _fun0024_ip = 137; continue _fun0024;
-case 140:
-                    var6 = _closure1_slot12;
-                    var2 = {};
-                    var2['quest'] = var5;
-                    var2['taskType'] = var7;
-                    var2['includeTaskTypes'] = var4;
-                    var2 = var6.bind(var3)(var2);
-                    return var2;
-case 136:
-                    var2 = _closure1_slot12;
-                    var1 = {};
-                    var1['quest'] = var5;
-                    var1['includeTaskTypes'] = var4;
-                    var1 = var2.bind(var3)(var1);
-                    return var1;
-                }
-            };
-            var1 = var2.bind(var5)(var4);
-case 117:
-            _fun0023_ip = 142; continue _fun0023;
-case 105:
-            var2 = {'progressSeconds': 0, 'targetSeconds': 1, 'targetMinutes': 1, 'percentComplete': 0};
-            var6 = 1;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var6];
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.FirstPartyQuestTaskTypes;
-            var3 = var3.STREAM_ON_DESKTOP;
-            var2['taskType'] = var3;
-            var1 = var2;
-case 142:
+            var3 = {'progressSeconds': 0, 'targetSeconds': 1, 'targetMinutes': 1, 'percentComplete': 0};
+            var7 = 1;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var7];
+            var4 = var5.bind(var6)(var4);
+            var4 = var4.FirstPartyQuestTaskTypes;
+            var4 = var4.STREAM_ON_DESKTOP;
+            var3['taskType'] = var4;
+            var2 = var3;
+case 77:
+            return var2;
+case 123:
             return var1;
         }
     };
     var3['getQuestTaskDetails'] = var8;
     var3['getDefaultInGameTask'] = var7;
     var7 = function getThirdPartyTaskDetails(arg1) {
-        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var3 = arg1;
-            var4 = _closure1_slot24;
+            var4 = _closure1_slot25;
             var1 = var3.config;
             var6 = undefined;
             var5 = var4.bind(var6)(var1);
             var1 = null;
-            if(!(var1 != var5)) { _fun0026_ip = 87; continue _fun0026 }
-case 104:
+            if(!(var1 != var5)) { _fun0027_ip = 87; continue _fun0027 }
+case 125:
             var4 = var3.userStatus;
             var7 = var1 == var4;
             var3 = undefined;
-            if(var7) { _fun0026_ip = 143; continue _fun0026 }
-case 125:
+            if(var7) { _fun0027_ip = 146; continue _fun0027 }
+case 126:
             var7 = var4.progress;
             var4 = var1 == var7;
             var3 = undefined;
-            if(var4) { _fun0026_ip = 143; continue _fun0026 }
-case 126:
+            if(var4) { _fun0027_ip = 146; continue _fun0027 }
+case 127:
             var4 = var5.type;
             var4 = var7[var4];
             var7 = var1 == var4;
             var3 = undefined;
-            if(var7) { _fun0026_ip = 143; continue _fun0026 }
-case 144:
+            if(var7) { _fun0027_ip = 146; continue _fun0027 }
+case 147:
             var3 = var4.value;
-case 143:
+case 146:
             var7 = var1 != var3;
             var4 = 0;
-            if(!var7) { _fun0026_ip = 83; continue _fun0026 }
-case 145:
+            if(!var7) { _fun0027_ip = 83; continue _fun0027 }
+case 148:
             var4 = var3;
 case 83:
             var3 = _closure1_slot9;
@@ -1793,11 +1859,11 @@ case 87:
     var3['getRemainingTaskTime'] = var6;
     var3['parseMinutesAndSecondsFromSeconds'] = var5;
     var4 = function formatWatchTaskRemainingTime(arg1) {
-        var3 = _closure1_slot25;
+        var3 = _closure1_slot26;
         var4 = undefined;
         var1 = arg1;
         var1 = var3.bind(var4)(var1);
-        var3 = _closure1_slot27;
+        var3 = _closure1_slot28;
         var2 = var1.minutes;
         var1 = var1.seconds;
         var1 = var3.bind(var4)(var2, var1);

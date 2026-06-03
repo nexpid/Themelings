@@ -130,11 +130,6 @@ case 2:
             var9 = var9.QUEST_ACTIVITY_BOTTOM_SHEET;
             var2['location'] = var9;
             var32 = 11;
-            var9 = var6[var32];
-            var9 = var7.bind(var4)(var9);
-            var9 = var9.QuestContent;
-            var9 = var9.RUNNING_ACTIVITY;
-            var2['questContent'] = var9;
             var6 = var6[var32];
             var6 = var7.bind(var4)(var6);
             var6 = var6.QuestContent;

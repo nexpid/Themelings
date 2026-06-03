@@ -430,7 +430,7 @@ case 20:
             var19['text'] = var27;
             var27 = 'primary';
             var19['variant'] = var27;
-            var27 = 'md';
+            var27 = 'sm';
             var19['size'] = var27;
             var10 = var26.bind(var4)(var21, var19);
 case 19:

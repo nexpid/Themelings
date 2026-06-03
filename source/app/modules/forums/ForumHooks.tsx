@@ -1780,14 +1780,11 @@ case 111:
                     var2 = var4[var2];
                     var4 = var3.bind(var5)(var2);
                     var3 = _closure2_slot0;
-                    var2 = {};
+                    var2 = {'formatInline': null, 'noStyleAndInteraction': null, 'allowHeading': true, 'allowList': true, 'allowGameMentions': true};
                     var7 = _closure2_slot1;
                     var2['formatInline'] = var7;
                     var7 = _closure2_slot2;
                     var2['noStyleAndInteraction'] = var7;
-                    var7 = true;
-                    var2['allowHeading'] = var7;
-                    var2['allowList'] = var7;
                     var6 = _closure2_slot3;
                     var2['textColor'] = var6;
                     var1 = var4.bind(var5)(var3, var2);

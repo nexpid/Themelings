@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var5 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var4 = 11;
+        var4 = 9;
         var4 = var10[var4];
         var5 = var5.bind(var7)(var4);
         var4 = var5.useAnimatedStyle;
@@ -119,7 +119,7 @@ case 5:
             var7 = _closure1_slot7;
             var6 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var5 = 11;
+            var5 = 9;
             var5 = var10[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.View;
@@ -174,7 +174,7 @@ case 7:
             var10 = _closure1_slot7;
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var8 = 11;
+            var8 = 9;
             var8 = var11[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.View;
@@ -430,7 +430,7 @@ case 0:
             var20 = var1.icon;
             var25 = var1.textChildren;
             var21 = var1.children;
-            var24 = var1.alertLabel;
+            var26 = var1.alertLabel;
             var23 = var1.accessoryLabelNode;
             var16 = var1.rightAccessory;
             var32 = var1.header;
@@ -441,6 +441,7 @@ case 13:
             var9 = false;
 case 12:
             var12 = var1.onAccessibilityExpand;
+            var22 = var1.bodyStyle;
             var1 = _closure1_slot10;
             var14 = var1.bind(var4)();
             var2 = _closure1_slot0;
@@ -454,7 +455,7 @@ case 12:
             var2 = _closure1_slot9;
             var1 = {};
             var7 = null;
-            var5 = var7 != var24;
+            var5 = var7 != var26;
             var6 = null;
             if(!var5) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
@@ -465,28 +466,28 @@ case 15:
             var5['style'] = var15;
             var19 = _closure1_slot7;
             var18 = _closure1_slot0;
-            var22 = _closure1_slot2;
+            var24 = _closure1_slot2;
             var15 = 7;
-            var15 = var22[var15];
+            var15 = var24[var15];
             var15 = var18.bind(var4)(var15);
             var17 = var15.CircleErrorIcon;
             var15 = {};
-            var26 = var14.warningIcon;
-            var15['style'] = var26;
-            var26 = 'black';
-            var15['color'] = var26;
+            var27 = var14.warningIcon;
+            var15['style'] = var27;
+            var27 = 'black';
+            var15['color'] = var27;
             var17 = var19.bind(var4)(var17, var15);
             var15 = new Array(2);
             var15[0] = var17;
             var19 = _closure1_slot7;
             var17 = 8;
-            var17 = var22[var17];
+            var17 = var24[var17];
             var17 = var18.bind(var4)(var17);
             var18 = var17.Text;
             var17 = {'variant': 'text-xs/bold', 'color': 'black'};
-            var22 = var24.toUpperCase;
-            var22 = var22.bind(var24)();
-            var17['children'] = var22;
+            var24 = var26.toUpperCase;
+            var24 = var24.bind(var26)();
+            var17['children'] = var24;
             var17 = var19.bind(var4)(var18, var17);
             var15[1] = var17;
             var5['children'] = var15;
@@ -506,17 +507,25 @@ case 17:
             var19 = _closure1_slot7;
             var18 = _closure1_slot6;
             var15 = {};
-            var22 = var14.iconContainer;
-            var15['style'] = var22;
+            var24 = var14.iconContainer;
+            var15['style'] = var24;
             var15['children'] = var20;
             var17 = var19.bind(var4)(var18, var15);
 case 16:
             var15 = new Array(3);
             var15[0] = var17;
             var19 = _closure1_slot8;
-            var18 = _closure1_slot6;
+            var18 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var17 = 9;
+            var17 = var20[var17];
+            var17 = var18.bind(var4)(var17);
+            var18 = var17.View;
             var17 = {};
-            var20 = var14.body;
+            var24 = var14.body;
+            var20 = new Array(2);
+            var20[0] = var24;
+            var20[1] = var22;
             var17['style'] = var20;
             var22 = _closure1_slot6;
             var20 = {};
@@ -542,7 +551,7 @@ case 21:
             var30 = _closure1_slot7;
             var29 = _closure1_slot0;
             var31 = _closure1_slot2;
-            var28 = 9;
+            var28 = 10;
             var28 = var31[var28];
             var28 = var29.bind(var4)(var28);
             var29 = var28.SimpleNotificationHeader;
@@ -556,7 +565,7 @@ case 20:
             var31 = _closure1_slot7;
             var30 = _closure1_slot1;
             var33 = _closure1_slot2;
-            var29 = 9;
+            var29 = 10;
             var29 = var33[var29];
             var30 = var30.bind(var4)(var29);
             var29 = {};
@@ -616,7 +625,7 @@ case 29:
             var8['accessibilityRole'] = var12;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var12 = 10;
+            var12 = 11;
             var13 = var17[var12];
             var13 = var16.bind(var4)(var13);
             var15 = var13.intl;
@@ -670,7 +679,7 @@ case 0:
             var8 = var1.bind(var4)();
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 11;
+            var1 = 9;
             var6 = var5[var1];
             var10 = var3.bind(var4)(var6);
             var7 = var10.useSharedValue;

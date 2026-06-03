@@ -95,13 +95,14 @@ case 11:
 case 10:
             if(!var3) { _fun0002_ip = 6; continue _fun0002 }
 case 12:
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 9;
             var2 = var4[var2];
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.fetchUserTrialOffer;
-            var2 = var2.bind(var3)();
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.fetchUserOffer;
+            var2 = 'ReferralMessageManager';
+            var2 = var3.bind(var4)(var2);
 case 6:
             return var1;
         }

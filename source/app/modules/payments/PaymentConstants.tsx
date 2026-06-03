@@ -14,6 +14,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['MOBILE_WEB_REDIRECT_CHECKOUT'] = var1;
     var1 = 'meta_quest_web_redirect_checkout';
     var7['META_QUEST_WEB_REDIRECT_CHECKOUT'] = var1;
+    var1 = 'dev_storybook_checkout';
+    var7['DEV_STORYBOOK_CHECKOUT'] = var1;
     var6 = {};
     var1 = 'premium_checkout_success';
     var6['PREMIUM_CHECKOUT_SUCCESS'] = var1;

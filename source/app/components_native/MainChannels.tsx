@@ -85,8 +85,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.radii;
-    var11 = var11.sm;
+    var11 = var11.modules;
+    var11 = var11.mobile;
+    var11 = var11.CHANNEL_DRAWER_CORNER_RADIUS;
     var10['borderTopRightRadius'] = var11;
     var4['sideTablet'] = var10;
     var4 = var8.bind(var9)(var4);

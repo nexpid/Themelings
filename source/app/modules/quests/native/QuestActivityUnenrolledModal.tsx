@@ -82,11 +82,6 @@ case 0:
             var8 = var8.QUEST_ACTIVITY_UNENROLLED_MODAL;
             var3['location'] = var8;
             var8 = 18;
-            var9 = var5[var8];
-            var9 = var2.bind(var4)(var9);
-            var9 = var9.QuestContent;
-            var9 = var9.QUEST_ACTIVITY_UNENROLLED_MODAL;
-            var3['questContent'] = var9;
             var8 = var5[var8];
             var8 = var2.bind(var4)(var8);
             var8 = var8.QuestContent;

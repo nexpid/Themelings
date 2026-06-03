@@ -165,13 +165,14 @@ case 16:
                 var3[0] = var9;
                 if(var7) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-                var9 = _closure1_slot1;
+                var9 = _closure1_slot0;
                 var11 = _closure1_slot3;
                 var7 = 9;
                 var7 = var11[var7];
-                var9 = var9.bind(var10)(var7);
-                var7 = var9.fetchUserTrialOffer;
-                var7 = var7.bind(var9)();
+                var10 = var9.bind(var10)(var7);
+                var9 = var10.fetchUserOffer;
+                var7 = 'usePremiumFeatureUpsellGetNitro';
+                var7 = var9.bind(var10)(var7);
                 _fun0001_ip = 19; continue _fun0001;
 case 17:
                 var9 = var8.Promise;
