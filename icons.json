@@ -10680,16 +10680,6 @@
         "width": 24,
         "height": 24
     },
-    "ReactionPlusIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/ReactionPlusIcon.png",
-        "hash": "6baa06ba8797fbdcc6a617e9ba2bb840",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "RecordPlayerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/RecordPlayerIcon.png",
         "hash": "88d061a76594f03187e4bf612ecd1256",
