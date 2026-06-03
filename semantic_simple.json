@@ -216,10 +216,28 @@
         "darker": "#26272ff5"
     },
     "BORDER_FEEDBACK_CRITICAL": {
-        "dark": "#d22d3933",
-        "light": "#d22d393d",
-        "midnight": "#d22d393d",
-        "darker": "#d22d3933"
+        "dark": "#fa777b",
+        "light": "#a12829",
+        "midnight": "#fa777b",
+        "darker": "#fa777b"
+    },
+    "BORDER_FEEDBACK_INFO": {
+        "dark": "#2eb6ff",
+        "light": "#006be7",
+        "midnight": "#2eb6ff",
+        "darker": "#2eb6ff"
+    },
+    "BORDER_FEEDBACK_POSITIVE": {
+        "dark": "#2dc771",
+        "light": "#248045",
+        "midnight": "#2dc771",
+        "darker": "#2dc771"
+    },
+    "BORDER_FEEDBACK_WARNING": {
+        "dark": "#f0b232",
+        "light": "#9a650d",
+        "midnight": "#f0b232",
+        "darker": "#f0b232"
     },
     "BORDER_FOCUS": {
         "dark": "#00aafc",
@@ -1043,6 +1061,30 @@
         "midnight": "#26b968",
         "darker": "#26b968"
     },
+    "INLINENOTICE_BORDER_CRITICAL": {
+        "dark": "#d22d3985",
+        "light": "#d22d3999",
+        "midnight": "#d22d3999",
+        "darker": "#d22d3985"
+    },
+    "INLINENOTICE_BORDER_INFO": {
+        "dark": "#0074e385",
+        "light": "#0074e399",
+        "midnight": "#0074e399",
+        "darker": "#0074e385"
+    },
+    "INLINENOTICE_BORDER_POSITIVE": {
+        "dark": "#00854585",
+        "light": "#00854599",
+        "midnight": "#00854599",
+        "darker": "#00854585"
+    },
+    "INLINENOTICE_BORDER_WARNING": {
+        "dark": "#f8a30052",
+        "light": "#f8a3005c",
+        "midnight": "#f8a300b8",
+        "darker": "#f8a30052"
+    },
     "INPUT_BACKGROUND_DEFAULT": {
         "dark": "#1e1f22",
         "light": "#00000014",
@@ -1062,10 +1104,10 @@
         "darker": "#6c6f7c52"
     },
     "INPUT_BORDER_ERROR_DEFAULT": {
-        "dark": "#d22d3933",
-        "light": "#d22d393d",
-        "midnight": "#d22d393d",
-        "darker": "#d22d3933"
+        "dark": "#fa777b",
+        "light": "#a12829",
+        "midnight": "#fa777b",
+        "darker": "#fa777b"
     },
     "INPUT_ICON_DEFAULT": {
         "dark": "#dbdee1",
