@@ -914,6 +914,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIFTING_BADGE_POST_PURCHASE'] = var1;
     var1 = 'gifting badge coachmark';
     var2['GIFTING_BADGE_COACHMARK'] = var1;
+    var1 = 'gifting badge info action sheet';
+    var2['GIFTING_BADGE_INFO_ACTION_SHEET'] = var1;
     var1 = 'third party promotions modal';
     var2['THIRD_PARTY_PROMOTIONS_MODAL'] = var1;
     var1 = 'recurring 3pp modal';

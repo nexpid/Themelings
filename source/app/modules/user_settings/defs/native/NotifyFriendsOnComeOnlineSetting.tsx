@@ -64,20 +64,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
     var2['parent'] = var9;
     var9 = 4;
-    var10 = var6[var9];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.NotifyFriendsOnComeOnline;
-    var10 = var10.useSetting;
-    var2['useValue'] = var10;
     var9 = var6[var9];
     var9 = var5.bind(var1)(var9);
     var9 = var9.NotifyFriendsOnComeOnline;
-    var9 = var9.updateSetting;
+    var9 = var9.useSetting;
+    var2['useValue'] = var9;
+    var9 = 5;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.onNotifyFriendsOnComeOnlineSettingsChanged;
     var2['onValueChange'] = var9;
     var8 = function usePredicate() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 6;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['usePredicate'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

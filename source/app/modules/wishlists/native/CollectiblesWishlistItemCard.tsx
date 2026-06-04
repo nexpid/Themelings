@@ -118,17 +118,17 @@ case 4:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot0;
-                    var2 = var1.bundleItems;
-                    var1 = null;
-                    if(!(var1 == var2)) { _fun0003_ip = 6; continue _fun0003 }
+                    var1 = var1.bundleItems;
+                    var7 = null;
+                    if(!(var7 == var1)) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-                    var2 = _closure2_slot0;
-                    var2 = var2.collectiblesItem;
-                    if(!(var1 == var2)) { _fun0003_ip = 8; continue _fun0003 }
+                    var1 = _closure2_slot0;
+                    var1 = var1.collectiblesItem;
+                    if(!(var7 == var1)) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                    var2 = _closure2_slot0;
-                    var2 = var2.sku;
-                    var2 = var1 != var2;
+                    var1 = _closure2_slot0;
+                    var1 = var1.sku;
+                    var2 = var7 != var1;
                     var1 = null;
                     if(!var2) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
@@ -157,11 +157,11 @@ case 8:
                     var3 = var2.CollectiblesPreview;
                     var2 = {};
                     var6 = {};
-                    var8 = 'single';
-                    var6['type'] = var8;
-                    var8 = _closure2_slot0;
-                    var8 = var8.collectiblesItem;
-                    var6['item'] = var8;
+                    var9 = 'single';
+                    var6['type'] = var9;
+                    var9 = _closure2_slot0;
+                    var9 = var9.collectiblesItem;
+                    var6['item'] = var9;
                     var2['collectiblesItemData'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
 case 12:
@@ -177,11 +177,25 @@ case 6:
                     var3 = var2.CollectiblesPreview;
                     var2 = {};
                     var6 = {};
-                    var8 = 'bundle';
-                    var6['type'] = var8;
-                    var7 = _closure2_slot0;
-                    var7 = var7.bundleItems;
-                    var6['items'] = var7;
+                    var9 = 'bundle';
+                    var6['type'] = var9;
+                    var8 = _closure2_slot0;
+                    var9 = var8.bundleItems;
+                    var6['items'] = var9;
+                    var9 = var8.sku;
+                    var10 = var7 == var9;
+                    var8 = undefined;
+                    if(var10) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+                    var8 = var9.previewAssetPaths;
+case 14:
+                    var9 = var7 != var8;
+                    var7 = undefined;
+                    if(!var9) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+                    var7 = var8;
+case 16:
+                    var6['previewAssets'] = var7;
                     var2['collectiblesItemData'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
 case 13:
@@ -192,10 +206,10 @@ case 13:
             var4 = var4.collectiblesItem;
             var12 = var1 == var4;
             var11 = undefined;
-            if(var12) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(var12) { _fun0001_ip = 18; continue _fun0001 }
+case 16:
             var11 = var4.type;
-case 14:
+case 18:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var4 = 7;
@@ -203,11 +217,11 @@ case 14:
             var4 = var12.bind(var5)(var4);
             var4 = var4.CollectiblesItemType;
             var4 = var4.PROFILE_FRAME;
-            if(!(var11 === var4)) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(!(var11 === var4)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var1 = null;
-            if(!var3) { _fun0001_ip = 18; continue _fun0001 }
-case 16:
+            if(!var3) { _fun0001_ip = 21; continue _fun0001 }
+case 19:
             var4 = _closure1_slot5;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -223,7 +237,7 @@ case 16:
             var16 = var6;
             var6 = copyDataProperties(var17, var16);
             var1 = var4.bind(var5)(var3, var2);
-case 18:
+case 21:
             return var1;
         }
     };

@@ -219,7 +219,7 @@ case 21:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var4 = function createFastConnectSocket() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -491,6 +491,8 @@ case 30:
     var8 = var5.currentState;
     var5 = 'initial app state (import time)';
     var5 = var9.bind(var10)(var5, var8);
+    var5 = null;
+    var _closure1_slot8 = var5;
     var5 = var4.bind(var1)();
     var5 = 14;
     var5 = var7[var5];
@@ -521,6 +523,11 @@ case 45:
         }
     };
     var3['closeFastConnectSocket'] = var4;
+    var4 = function getLastFastConnectIdentifyUserId() {
+        var1 = _closure1_slot8;
+        return var1;
+    };
+    var3['getLastFastConnectIdentifyUserId'] = var4;
     var2 = function identifyWebSocket() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -634,13 +641,20 @@ case 56:
                     var8 = var8.bind(var9)();
                     var7 = var8.userId;
 case 58:
-                    var2 = _closure1_slot8;
+                    var9 = var5 != var7;
+                    var8 = null;
+                    if(!var9) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
+                    var8 = var7;
+case 59:
+                    _closure1_slot8 = var8;
+                    var2 = _closure1_slot9;
                     var8 = var5 != var7;
                     var5 = null;
-                    if(!var8) { _fun0006_ip = 59; continue _fun0006 }
-case 60:
+                    if(!var8) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
                     var5 = var7;
-case 59:
+case 61:
                     var2 = var2.bind(var1)(var4, var5, var6);
                     var4 = true;
                     var3['identify'] = var4;

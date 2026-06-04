@@ -158,8 +158,10 @@ case 2:
                 var3 = 'bundle';
                 var1['type'] = var3;
                 var2 = _closure2_slot0;
-                var2 = var2.items;
-                var1['items'] = var2;
+                var3 = var2.items;
+                var1['items'] = var3;
+                var2 = var2.previewAssets;
+                var1['previewAssets'] = var2;
                 return var1;
             }
         };

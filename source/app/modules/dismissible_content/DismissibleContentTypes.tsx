@@ -156,7 +156,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.GIFTING_INTENT_FRIENDS_TAB_BADGE;
-    var18 = new Array(25);
+    var18 = new Array(26);
     var18[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -278,6 +278,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.APP_WIDGET_V2_PROFILE_UPSELL_COACHMARK;
     var18[24] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.APP_WIDGET_V2_PROFILE_UPSELL_SUGGESTED;
+    var18[25] = var14;
     var _closure1_slot1 = var18;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

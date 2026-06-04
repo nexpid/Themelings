@@ -27,15 +27,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useGetOrFetchStorefrontPricesForApplicationId(arg1) {
         var2 = arg1;
-        var6 = var2.applicationId;
-        var _closure2_slot0 = var6;
-        var5 = var2.location;
-        var _closure2_slot1 = var5;
+        var5 = var2.applicationId;
+        var _closure2_slot0 = var5;
         var4 = _closure1_slot2;
         var3 = var4.useEffect;
-        var2 = new Array(2);
-        var2[0] = var6;
-        var2[1] = var5;
+        var2 = new Array(1);
+        var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -51,10 +48,8 @@ case 3:
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.fetchStorefrontPricesForApplicationId;
                 var1 = {};
-                var5 = _closure2_slot0;
-                var1['applicationId'] = var5;
-                var4 = _closure2_slot1;
-                var1['location'] = var4;
+                var4 = _closure2_slot0;
+                var1['applicationId'] = var4;
                 var1 = var2.bind(var3)(var1);
 case 2:
                 var1 = undefined;
@@ -68,15 +63,12 @@ case 2:
     var3['useGetOrFetchStorefrontPricesForApplicationId'] = var4;
     var2 = function useGetOrFetchStorefrontPricesForSkuIds(arg1) {
         var2 = arg1;
-        var6 = var2.skuIds;
-        var _closure2_slot0 = var6;
-        var5 = var2.location;
-        var _closure2_slot1 = var5;
+        var5 = var2.skuIds;
+        var _closure2_slot0 = var5;
         var4 = _closure1_slot2;
         var3 = var4.useEffect;
-        var2 = new Array(2);
-        var2[0] = var6;
-        var2[1] = var5;
+        var2 = new Array(1);
+        var2[0] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -93,10 +85,8 @@ case 5:
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.fetchStorefrontPricesForSkuIds;
                 var1 = {};
-                var5 = _closure2_slot0;
-                var1['skuIds'] = var5;
-                var4 = _closure2_slot1;
-                var1['location'] = var4;
+                var4 = _closure2_slot0;
+                var1['skuIds'] = var4;
                 var1 = var2.bind(var3)(var1);
 case 4:
                 var1 = undefined;

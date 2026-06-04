@@ -967,13 +967,13 @@ case 112:
 case 39:
             var3 = var6.isScheduledForDeletion;
             var3 = var3.bind(var6)();
-            if(var3) { _fun0006_ip = 114; continue _fun0006 }
-case 115:
+            if(var3) { _fun0006_ip = 95; continue _fun0006 }
+case 114:
             var15 = _closure1_slot7;
             var14 = var15.has;
             var3 = var6.type;
             var3 = var14.bind(var15)(var3);
-            if(var3) { _fun0006_ip = 55; continue _fun0006 }
+            if(var3) { _fun0006_ip = 115; continue _fun0006 }
 case 116:
             var3 = var6.computeLurkerPermissionsAllowList;
             var14 = var3.bind(var6)();
@@ -1052,7 +1052,7 @@ case 124:
 case 123:
             var2 = _closure1_slot23;
             return var2;
-case 55:
+case 115:
             var4 = _closure1_slot13;
             var3 = var4.getChannel;
             var2 = var6.parent_id;
@@ -1080,7 +1080,7 @@ case 125:
             var2 = _closure1_slot23;
 case 127:
             return var2;
-case 114:
+case 95:
             var1 = _closure1_slot23;
             return var1;
         }
@@ -1271,7 +1271,7 @@ case 142:
             var2 = !var1;
 case 60:
             var1 = !var2;
-            if(!var2) { _fun0011_ip = 115; continue _fun0011 }
+            if(!var2) { _fun0011_ip = 114; continue _fun0011 }
 case 31:
             var2 = var3 != var7;
             if(!var2) { _fun0011_ip = 143; continue _fun0011 }
@@ -1291,7 +1291,7 @@ case 145:
             var2 = var3;
 case 143:
             var1 = var2;
-case 115:
+case 114:
             return var1;
         }
     };

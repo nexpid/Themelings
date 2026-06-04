@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot36 = var2;
+            _closure1_slot37 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot36 = var1;
+    var _closure1_slot37 = var1;
     var10 = function getDefaultSelectedTab() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -98,7 +98,7 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot37 = var10;
+    var _closure1_slot38 = var10;
     var12 = function freshTeenActivityWithMap() {
         var2 = global;
         var1 = var2.Map;
@@ -179,7 +179,7 @@ case 17:
         var2 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var _closure1_slot38 = var12;
+    var _closure1_slot39 = var12;
     var11 = function freshTeenActivityTotals() {
         var1 = {};
         var3 = _closure1_slot14;
@@ -206,7 +206,7 @@ case 17:
         var1[1] = var3;
         return var1;
     };
-    var _closure1_slot39 = var11;
+    var _closure1_slot40 = var11;
     var1 = function processLinkedUsers() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -243,7 +243,7 @@ case 22:
             return var1;
         }
     };
-    var _closure1_slot40 = var1;
+    var _closure1_slot41 = var1;
     var1 = function processTeenActivityTotals(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -256,7 +256,7 @@ case 23:
             return var1;
         }
     };
-    var _closure1_slot41 = var1;
+    var _closure1_slot42 = var1;
     var1 = function processTeenActions(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -264,7 +264,7 @@ case 0:
             var1 = arg2;
             if(var1) { _fun0005_ip = 24; continue _fun0005 }
 case 25:
-            var4 = _closure1_slot38;
+            var4 = _closure1_slot39;
             var1 = undefined;
             var1 = var4.bind(var1)();
             _fun0005_ip = 26; continue _fun0005;
@@ -303,11 +303,11 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot42 = var1;
+    var _closure1_slot43 = var1;
     var1 = function processGuilds(arg1) {
         var5 = arg1;
         var4 = var5.reduce;
-        var3 = _closure1_slot35;
+        var3 = _closure1_slot36;
         var1 = function(arg1, arg2) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -343,11 +343,11 @@ case 13:
             }
         };
         var1 = var4.bind(var5)(var1, var3);
-        _closure1_slot35 = var1;
+        _closure1_slot36 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot43 = var1;
+    var _closure1_slot44 = var1;
     var1 = function processInvoices(arg1) {
         var4 = arg1;
         var3 = var4.reduce;
@@ -391,18 +391,18 @@ case 31:
         };
         var1 = {};
         var2 = var3.bind(var4)(var2, var1);
-        _closure1_slot33 = var2;
-        var1 = undefined;
-        return var1;
-    };
-    var _closure1_slot44 = var1;
-    var1 = function handleFetchStart() {
-        var1 = true;
-        _closure1_slot24 = var1;
+        _closure1_slot34 = var2;
         var1 = undefined;
         return var1;
     };
     var _closure1_slot45 = var1;
+    var1 = function handleFetchStart() {
+        var1 = true;
+        _closure1_slot25 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var _closure1_slot46 = var1;
     var1 = function handleInitialLoad(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -424,48 +424,48 @@ case 0:
             var12 = var3.invoices;
             _closure1_slot15 = var2;
             _closure1_slot16 = var1;
-            var2 = _closure1_slot42;
+            var2 = _closure1_slot43;
             var1 = undefined;
             var2 = var2.bind(var1)(var15);
-            var2 = _closure1_slot41;
+            var2 = _closure1_slot42;
             var2 = var2.bind(var1)(var14);
-            var2 = _closure1_slot43;
+            var2 = _closure1_slot44;
             var2 = var2.bind(var1)(var13);
-            var2 = _closure1_slot40;
+            var2 = _closure1_slot41;
             var2 = var2.bind(var1)(var11);
             var2 = null;
             if(!(var2 != var12)) { _fun0009_ip = 35; continue _fun0009 }
 case 36:
-            var11 = _closure1_slot44;
+            var11 = _closure1_slot45;
             var11 = var11.bind(var1)(var12);
 case 35:
-            _closure1_slot27 = var10;
-            _closure1_slot28 = var9;
-            _closure1_slot29 = var8;
-            _closure1_slot30 = var5;
+            _closure1_slot28 = var10;
+            _closure1_slot29 = var9;
+            _closure1_slot30 = var8;
+            _closure1_slot31 = var5;
             var8 = var2 != var7;
             var5 = null;
             if(!var8) { _fun0009_ip = 37; continue _fun0009 }
 case 38:
             var5 = var7;
 case 37:
-            _closure1_slot31 = var5;
+            _closure1_slot32 = var5;
             var7 = var2 != var6;
             var5 = null;
             if(!var7) { _fun0009_ip = 39; continue _fun0009 }
 case 40:
             var5 = var6;
 case 39:
-            _closure1_slot32 = var5;
+            _closure1_slot33 = var5;
             var5 = var2 != var4;
             var2 = null;
             if(!var5) { _fun0009_ip = 41; continue _fun0009 }
 case 42:
             var2 = var4;
 case 41:
-            _closure1_slot34 = var2;
+            _closure1_slot35 = var2;
             var2 = false;
-            _closure1_slot24 = var2;
+            _closure1_slot25 = var2;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 11;
@@ -477,31 +477,31 @@ case 41:
             var2 = var6.now;
             var2 = var2.bind(var6)();
             var2 = var4.bind(var5)(var2);
-            _closure1_slot25 = var2;
+            _closure1_slot26 = var2;
             var2 = true;
-            _closure1_slot23 = var2;
+            _closure1_slot24 = var2;
             return var1;
         }
     };
-    var _closure1_slot46 = var1;
+    var _closure1_slot47 = var1;
     var1 = function handleLinkedUserFetch(arg1) {
         var1 = arg1;
         var3 = var1.linkedUsers;
-        var2 = _closure1_slot40;
-        var1 = undefined;
-        var2 = var2.bind(var1)(var3);
-        return var1;
-    };
-    var _closure1_slot47 = var1;
-    var1 = function handleRequestLinkSuccess(arg1) {
-        var1 = arg1;
-        var3 = var1.linkedUsers;
-        var2 = _closure1_slot40;
+        var2 = _closure1_slot41;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
     var _closure1_slot48 = var1;
+    var1 = function handleRequestLinkSuccess(arg1) {
+        var1 = arg1;
+        var3 = var1.linkedUsers;
+        var2 = _closure1_slot41;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var3);
+        return var1;
+    };
+    var _closure1_slot49 = var1;
     var1 = function handleTeenActivityFetch(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -524,22 +524,22 @@ case 32:
             var4 = var3.monthlyPurchases;
             _closure1_slot15 = var14;
             _closure1_slot16 = var2;
-            var2 = _closure1_slot42;
-            var2 = var2.bind(var1)(var13);
-            var2 = _closure1_slot41;
-            var2 = var2.bind(var1)(var12);
             var2 = _closure1_slot43;
+            var2 = var2.bind(var1)(var13);
+            var2 = _closure1_slot42;
+            var2 = var2.bind(var1)(var12);
+            var2 = _closure1_slot44;
             var2 = var2.bind(var1)(var10);
             var2 = null;
             if(!(var2 != var11)) { _fun0010_ip = 44; continue _fun0010 }
 case 45:
-            var10 = _closure1_slot44;
+            var10 = _closure1_slot45;
             var10 = var10.bind(var1)(var11);
 case 44:
-            _closure1_slot27 = var9;
-            _closure1_slot28 = var8;
+            _closure1_slot28 = var9;
+            _closure1_slot29 = var8;
             var8 = false;
-            _closure1_slot24 = var8;
+            _closure1_slot25 = var8;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var8 = 11;
@@ -551,78 +551,80 @@ case 44:
             var8 = var11.now;
             var8 = var8.bind(var11)();
             var8 = var9.bind(var10)(var8);
-            _closure1_slot25 = var8;
-            _closure1_slot29 = var7;
-            _closure1_slot30 = var5;
+            _closure1_slot26 = var8;
+            _closure1_slot30 = var7;
+            _closure1_slot31 = var5;
             var7 = var2 != var6;
             var5 = null;
             if(!var7) { _fun0010_ip = 46; continue _fun0010 }
 case 47:
             var5 = var6;
 case 46:
-            _closure1_slot31 = var5;
+            _closure1_slot32 = var5;
             var5 = var2 != var4;
             var2 = null;
             if(!var5) { _fun0010_ip = 48; continue _fun0010 }
 case 49:
             var2 = var4;
 case 48:
-            _closure1_slot32 = var2;
+            _closure1_slot33 = var2;
             return var1;
 case 43:
             var1 = false;
             return var1;
         }
     };
-    var _closure1_slot49 = var1;
+    var _closure1_slot50 = var1;
     var1 = function handleTeenActivityMoreFetch(arg1) {
         var1 = arg1;
         var1 = var1.familyCenterTeenActivity;
         var6 = var1.actions;
         var3 = var1.guilds;
-        var5 = _closure1_slot42;
+        var5 = _closure1_slot43;
         var1 = undefined;
         var4 = true;
         var4 = var5.bind(var1)(var6, var4);
-        var2 = _closure1_slot43;
-        var2 = var2.bind(var1)(var3);
-        return var1;
-    };
-    var _closure1_slot50 = var1;
-    var1 = function handleUserLinkStatusUpdate(arg1) {
-        var1 = arg1;
-        var3 = var1.linkedUsers;
-        var2 = _closure1_slot40;
-        var1 = undefined;
+        var2 = _closure1_slot44;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
     var _closure1_slot51 = var1;
-    var1 = function handleUserLinkRemove(arg1) {
+    var1 = function handleUserLinkStatusUpdate(arg1) {
         var1 = arg1;
         var3 = var1.linkedUsers;
-        var2 = _closure1_slot40;
+        var2 = _closure1_slot41;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
     var _closure1_slot52 = var1;
-    var1 = function handleLinkCodeFetch(arg1) {
+    var1 = function handleUserLinkRemove(arg1) {
         var1 = arg1;
-        var2 = var1.linkCode;
-        _closure1_slot21 = var2;
+        var3 = var1.linkedUsers;
+        var2 = _closure1_slot41;
         var1 = undefined;
+        var2 = var2.bind(var1)(var3);
         return var1;
     };
     var _closure1_slot53 = var1;
-    var1 = function handleTabSelect(arg1) {
+    var1 = function handleLinkCodeFetch(arg1) {
         var1 = arg1;
-        var2 = var1.tab;
+        var3 = var1.linkCode;
+        var2 = var1.expiresAt;
+        _closure1_slot21 = var3;
         _closure1_slot22 = var2;
         var1 = undefined;
         return var1;
     };
     var _closure1_slot54 = var1;
+    var1 = function handleTabSelect(arg1) {
+        var1 = arg1;
+        var2 = var1.tab;
+        _closure1_slot23 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var _closure1_slot55 = var1;
     var1 = function handleCurrentUserUpdate(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -661,7 +663,7 @@ case 52:
             var4 = var4.length;
             if(!(!(var5 > var4))) { _fun0011_ip = 45; continue _fun0011 }
 case 14:
-            var4 = _closure1_slot40;
+            var4 = _closure1_slot41;
             var3 = var3.linked_users;
             var3 = var4.bind(var1)(var3);
             _fun0011_ip = 53; continue _fun0011;
@@ -680,7 +682,7 @@ case 50:
             return var1;
         }
     };
-    var _closure1_slot55 = var1;
+    var _closure1_slot56 = var1;
     var1 = function handleConnectionOpen(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -689,7 +691,7 @@ case 0:
             var1 = null;
             if(!(var1 != var3)) { _fun0012_ip = 54; continue _fun0012 }
 case 55:
-            var2 = _closure1_slot40;
+            var2 = _closure1_slot41;
             var1 = undefined;
             var2 = var2.bind(var1)(var3);
             return var1;
@@ -698,7 +700,7 @@ case 54:
             return var1;
         }
     };
-    var _closure1_slot56 = var1;
+    var _closure1_slot57 = var1;
     var1 = function handleSetLocationMetadata(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -716,50 +718,50 @@ case 55:
 case 58:
             var2 = var3;
 case 57:
-            _closure1_slot26 = var2;
+            _closure1_slot27 = var2;
 case 56:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot57 = var1;
+    var _closure1_slot58 = var1;
     var1 = function reset() {
         var4 = null;
         _closure1_slot15 = var4;
         _closure1_slot16 = var4;
         var1 = {};
         _closure1_slot17 = var1;
-        var2 = _closure1_slot38;
+        var2 = _closure1_slot39;
         var1 = undefined;
         var2 = var2.bind(var1)();
         _closure1_slot19 = var2;
-        var2 = _closure1_slot39;
+        var2 = _closure1_slot40;
         var2 = var2.bind(var1)();
         _closure1_slot20 = var2;
         var2 = {};
-        _closure1_slot35 = var2;
+        _closure1_slot36 = var2;
         var2 = false;
-        _closure1_slot24 = var2;
-        _closure1_slot25 = var4;
-        var5 = _closure1_slot37;
+        _closure1_slot25 = var2;
+        _closure1_slot26 = var4;
+        var5 = _closure1_slot38;
         var5 = var5.bind(var1)();
-        _closure1_slot22 = var5;
+        _closure1_slot23 = var5;
         _closure1_slot18 = var2;
         var5 = new Array(0);
-        _closure1_slot27 = var5;
-        var5 = new Array(0);
         _closure1_slot28 = var5;
-        _closure1_slot29 = var4;
+        var5 = new Array(0);
+        _closure1_slot29 = var5;
         _closure1_slot30 = var4;
         _closure1_slot31 = var4;
         _closure1_slot32 = var4;
+        _closure1_slot33 = var4;
         var5 = {};
-        _closure1_slot33 = var5;
-        _closure1_slot34 = var4;
-        _closure1_slot23 = var2;
+        _closure1_slot34 = var5;
+        _closure1_slot35 = var4;
+        _closure1_slot24 = var2;
         return var1;
     };
-    var _closure1_slot58 = var1;
+    var _closure1_slot59 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -828,25 +830,26 @@ case 56:
     var11 = var11.bind(var1)();
     var _closure1_slot20 = var11;
     var _closure1_slot21 = var8;
+    var _closure1_slot22 = var8;
     var10 = var10.bind(var1)();
-    var _closure1_slot22 = var10;
-    var _closure1_slot23 = var9;
+    var _closure1_slot23 = var10;
     var _closure1_slot24 = var9;
-    var _closure1_slot25 = var8;
+    var _closure1_slot25 = var9;
     var _closure1_slot26 = var8;
-    var9 = new Array(0);
-    var _closure1_slot27 = var9;
+    var _closure1_slot27 = var8;
     var9 = new Array(0);
     var _closure1_slot28 = var9;
-    var _closure1_slot29 = var8;
+    var9 = new Array(0);
+    var _closure1_slot29 = var9;
     var _closure1_slot30 = var8;
     var _closure1_slot31 = var8;
     var _closure1_slot32 = var8;
+    var _closure1_slot33 = var8;
     var9 = {};
-    var _closure1_slot33 = var9;
-    var _closure1_slot34 = var8;
-    var8 = {};
+    var _closure1_slot34 = var9;
     var _closure1_slot35 = var8;
+    var8 = {};
+    var _closure1_slot36 = var8;
     var2 = function(arg1) {
         var4 = function FamilyCenterStore() {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
@@ -857,9 +860,9 @@ case 0:
                 var4 = undefined;
                 var1 = var1.bind(var4)(var5, var3);
                 var1 = {};
-                var7 = _closure1_slot56;
+                var7 = _closure1_slot57;
                 var1['CONNECTION_OPEN'] = var7;
-                var7 = _closure1_slot55;
+                var7 = _closure1_slot56;
                 var1['CURRENT_USER_UPDATE'] = var7;
                 var7 = function CACHE_LOADED_LAZY() {
                     var2 = _closure3_slot0;
@@ -868,36 +871,36 @@ case 0:
                     return var1;
                 };
                 var1['CACHE_LOADED_LAZY'] = var7;
-                var7 = _closure1_slot46;
-                var1['FAMILY_CENTER_INITIAL_LOAD'] = var7;
-                var7 = _closure1_slot45;
-                var1['FAMILY_CENTER_FETCH_START'] = var7;
                 var7 = _closure1_slot47;
-                var1['FAMILY_CENTER_LINKED_USERS_FETCH_SUCCESS'] = var7;
-                var7 = _closure1_slot49;
-                var1['FAMILY_CENTER_TEEN_ACTIVITY_FETCH_SUCCESS'] = var7;
-                var7 = _closure1_slot50;
-                var1['FAMILY_CENTER_TEEN_ACTIVITY_MORE_FETCH_SUCCESS'] = var7;
+                var1['FAMILY_CENTER_INITIAL_LOAD'] = var7;
+                var7 = _closure1_slot46;
+                var1['FAMILY_CENTER_FETCH_START'] = var7;
                 var7 = _closure1_slot48;
-                var1['FAMILY_CENTER_REQUEST_LINK_SUCCESS'] = var7;
+                var1['FAMILY_CENTER_LINKED_USERS_FETCH_SUCCESS'] = var7;
+                var7 = _closure1_slot50;
+                var1['FAMILY_CENTER_TEEN_ACTIVITY_FETCH_SUCCESS'] = var7;
                 var7 = _closure1_slot51;
-                var1['FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS'] = var7;
+                var1['FAMILY_CENTER_TEEN_ACTIVITY_MORE_FETCH_SUCCESS'] = var7;
+                var7 = _closure1_slot49;
+                var1['FAMILY_CENTER_REQUEST_LINK_SUCCESS'] = var7;
                 var7 = _closure1_slot52;
-                var1['FAMILY_CENTER_REQUEST_LINK_REMOVE_SUCCESS'] = var7;
+                var1['FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS'] = var7;
                 var7 = _closure1_slot53;
-                var1['FAMILY_CENTER_LINK_CODE_FETCH_SUCCESS'] = var7;
+                var1['FAMILY_CENTER_REQUEST_LINK_REMOVE_SUCCESS'] = var7;
                 var7 = _closure1_slot54;
+                var1['FAMILY_CENTER_LINK_CODE_FETCH_SUCCESS'] = var7;
+                var7 = _closure1_slot55;
                 var1['FAMILY_CENTER_HANDLE_TAB_SELECT'] = var7;
-                var7 = _closure1_slot57;
-                var1['SET_LOCATION_METADATA'] = var7;
                 var7 = _closure1_slot58;
+                var1['SET_LOCATION_METADATA'] = var7;
+                var7 = _closure1_slot59;
                 var1['LOGOUT'] = var7;
                 var10 = new Array(1);
                 var10[0] = var1;
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot36;
+                var1 = _closure1_slot37;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0014_ip = 59; continue _fun0014 }
 case 60:
@@ -936,7 +939,7 @@ case 61:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(27);
+        var1 = new Array(28);
         var1[0] = var5;
         var5 = {};
         var7 = 'loadCache';
@@ -952,21 +955,21 @@ case 0:
                 var2 = null;
                 if(!(var2 != var1)) { _fun0015_ip = 62; continue _fun0015 }
 case 8:
-                var5 = _closure1_slot40;
+                var5 = _closure1_slot41;
                 var4 = var1.linkedUsers;
                 var3 = undefined;
                 var4 = var5.bind(var3)(var4);
-                var5 = _closure1_slot43;
+                var5 = _closure1_slot44;
                 var4 = var1.guilds;
                 var4 = var5.bind(var3)(var4);
-                var4 = _closure1_slot42;
+                var4 = _closure1_slot43;
                 var2 = var1.teenActivity;
                 var2 = var4.bind(var3)(var2);
                 var2 = var1.teenActivityTotals;
                 var1 = function teenActivityTotalsFromSnapshot(arg1) {
                     var6 = arg1;
                     var5 = var6.reduce;
-                    var2 = _closure1_slot39;
+                    var2 = _closure1_slot40;
                     var1 = undefined;
                     var4 = var2.bind(var1)();
                     var2 = function(arg1, arg2) {
@@ -1113,7 +1116,7 @@ case 68:
             var2['teenActivity'] = var5;
             var5 = var4.Object;
             var4 = var5.values;
-            var3 = _closure1_slot35;
+            var3 = _closure1_slot36;
             var3 = var4.bind(var5)(var3);
             var2['guilds'] = var3;
             var1['data'] = var2;
@@ -1240,25 +1243,34 @@ case 73:
         var5['value'] = var7;
         var1[9] = var5;
         var5 = {};
-        var7 = 'getGuild';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var2 = _closure1_slot35;
-            var1 = arg1;
-            var1 = var2[var1];
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[10] = var5;
-        var5 = {};
-        var7 = 'getSelectedTab';
+        var7 = 'getLinkCodeExpiresAt';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot22;
             return var1;
         };
         var5['value'] = var7;
+        var1[10] = var5;
+        var5 = {};
+        var7 = 'getGuild';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = _closure1_slot36;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
+        };
+        var5['value'] = var7;
         var1[11] = var5;
+        var5 = {};
+        var7 = 'getSelectedTab';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot23;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[12] = var5;
         var5 = {};
         var7 = 'getStartId';
         var5['key'] = var7;
@@ -1267,16 +1279,16 @@ case 73:
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'getIsInitialized';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot23;
+            var1 = _closure1_slot24;
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'getAreLinkedUsersProcessed';
         var5['key'] = var7;
@@ -1285,36 +1297,27 @@ case 73:
             return var1;
         };
         var5['value'] = var7;
-        var1[14] = var5;
-        var5 = {};
-        var7 = 'getUserCountry';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot26;
-            return var1;
-        };
-        var5['value'] = var7;
         var1[15] = var5;
         var5 = {};
-        var7 = 'isLoading';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot24;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[16] = var5;
-        var5 = {};
-        var7 = 'getTopUserActivities';
+        var7 = 'getUserCountry';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot27;
             return var1;
         };
         var5['value'] = var7;
+        var1[16] = var5;
+        var5 = {};
+        var7 = 'isLoading';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot25;
+            return var1;
+        };
+        var5['value'] = var7;
         var1[17] = var5;
         var5 = {};
-        var7 = 'getTopGuildActivities';
+        var7 = 'getTopUserActivities';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot28;
@@ -1323,7 +1326,7 @@ case 73:
         var5['value'] = var7;
         var1[18] = var5;
         var5 = {};
-        var7 = 'getTotalSpendAmount';
+        var7 = 'getTopGuildActivities';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot29;
@@ -1332,7 +1335,7 @@ case 73:
         var5['value'] = var7;
         var1[19] = var5;
         var5 = {};
-        var7 = 'getTotalSpendCurrency';
+        var7 = 'getTotalSpendAmount';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot30;
@@ -1341,7 +1344,7 @@ case 73:
         var5['value'] = var7;
         var1[20] = var5;
         var5 = {};
-        var7 = 'getSpendingLimit';
+        var7 = 'getTotalSpendCurrency';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot31;
@@ -1350,7 +1353,7 @@ case 73:
         var5['value'] = var7;
         var1[21] = var5;
         var5 = {};
-        var7 = 'getMonthlyPurchases';
+        var7 = 'getSpendingLimit';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot32;
@@ -1359,32 +1362,41 @@ case 73:
         var5['value'] = var7;
         var1[22] = var5;
         var5 = {};
-        var7 = 'getPurchaseInfo';
+        var7 = 'getMonthlyPurchases';
         var5['key'] = var7;
-        var7 = function value(arg1) {
-            var2 = _closure1_slot33;
-            var1 = arg1;
-            var1 = var2[var1];
+        var7 = function value() {
+            var1 = _closure1_slot33;
             return var1;
         };
         var5['value'] = var7;
         var1[23] = var5;
         var5 = {};
-        var7 = 'getAgeGroup';
+        var7 = 'getPurchaseInfo';
         var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot34;
+        var7 = function value(arg1) {
+            var2 = _closure1_slot34;
+            var1 = arg1;
+            var1 = var2[var1];
             return var1;
         };
         var5['value'] = var7;
         var1[24] = var5;
+        var5 = {};
+        var7 = 'getAgeGroup';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot35;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[25] = var5;
         var5 = {};
         var7 = 'canRefetch';
         var5['key'] = var7;
         var7 = function value() {
             _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
-                var3 = _closure1_slot25;
+                var3 = _closure1_slot26;
                 var1 = null;
                 var1 = var1 === var3;
                 if(var1) { _fun0021_ip = 74; continue _fun0021 }
@@ -1396,7 +1408,7 @@ case 23:
                 var3 = undefined;
                 var5 = var5.bind(var3)(var4);
                 var4 = var5.age;
-                var3 = _closure1_slot25;
+                var3 = _closure1_slot26;
                 var3 = var4.bind(var5)(var3);
                 var2 = _closure1_slot11;
                 var1 = var3 > var2;
@@ -1405,7 +1417,7 @@ case 74:
             }
         };
         var5['value'] = var7;
-        var1[25] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'isCurrentUserInRestrictedHours';
         var5['key'] = var7;
@@ -1453,7 +1465,7 @@ case 78:
             }
         };
         var5['value'] = var6;
-        var1[26] = var5;
+        var1[27] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

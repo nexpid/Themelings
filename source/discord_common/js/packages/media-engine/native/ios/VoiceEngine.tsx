@@ -642,30 +642,38 @@ case 21:
             var6 = 'destroy';
             var1['key'] = var6;
             var6 = function value() {
-                var2 = this;
-                var4 = var2.subscriptions;
-                var3 = var4.forEach;
-                var1 = function(arg1) {
-                    var2 = arg1;
-                    var1 = var2.remove;
-                    var1 = var1.bind(var2)();
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                    var5 = arguments[0];
+                    var2 = this;
+                    var1 = undefined;
+                    if(!(var5 === var1)) { _fun0008_ip = 25; continue _fun0008 }
+case 15:
+                    var5 = false;
+case 25:
+                    var6 = var2.subscriptions;
+                    var4 = var6.forEach;
+                    var3 = function(arg1) {
+                        var2 = arg1;
+                        var1 = var2.remove;
+                        var1 = var1.bind(var2)();
+                        return var1;
+                    };
+                    var3 = var4.bind(var6)(var3);
+                    var4 = var2.subscriptions;
+                    var3 = 0;
+                    var4['length'] = var3;
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var3 = 4;
+                    var3 = var6[var3];
+                    var3 = var4.bind(var1)(var3);
+                    var4 = var3.VoiceEngine;
+                    var3 = var4.connectionInstanceDestroy;
+                    var2 = var2.id;
+                    var2 = var3.bind(var4)(var2, var5);
                     return var1;
-                };
-                var1 = var3.bind(var4)(var1);
-                var3 = var2.subscriptions;
-                var1 = 0;
-                var3['length'] = var1;
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var1 = 4;
-                var3 = var3[var1];
-                var1 = undefined;
-                var3 = var4.bind(var1)(var3);
-                var4 = var3.VoiceEngine;
-                var3 = var4.connectionInstanceDestroy;
-                var2 = var2.id;
-                var2 = var3.bind(var4)(var2);
-                return var1;
+                }
             };
             var1['value'] = var6;
             var2[1] = var1;
@@ -683,10 +691,10 @@ case 21:
             var6 = 'boundConnectionMethod';
             var1['key'] = var6;
             var6 = function value(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var1 = arg1;
-case 25: // try_start_0
+case 26: // try_start_0
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot1;
                     var2 = 4;
@@ -715,9 +723,9 @@ case 25: // try_start_0
                     var2 = this;
                     var2 = var2.id;
                     var2 = var4.bind(var5)(var3, var2);
-case 26: // try_end0
+case 27: // try_end0
                     return var2;
-case 27: // catch_target0
+case 28: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var3 = _closure1_slot4;
                     var2 = var3.warn;
@@ -760,19 +768,19 @@ case 27: // catch_target0
                 var6 = var7.addListener;
                 var5 = arg1;
                 var2 = function(arg1) {
-                    _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                    _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                         var4 = arg1;
                         var2 = _closure3_slot0;
                         var3 = var2.id;
                         var2 = var4.connectionId;
                         var2 = var3 === var2;
-                        if(!var2) { _fun0009_ip = 28; continue _fun0009 }
-case 29:
+                        if(!var2) { _fun0010_ip = 29; continue _fun0010 }
+case 30:
                         var2 = _closure3_slot2;
-case 28:
-                        if(!var2) { _fun0009_ip = 30; continue _fun0009 }
-case 31:
+case 29:
+                        if(!var2) { _fun0010_ip = 31; continue _fun0010 }
+case 32:
                         var3 = _closure3_slot2;
                         var1 = _closure3_slot1;
                         var2 = undefined;
@@ -785,7 +793,7 @@ case 31:
                         var7 = var1;
                         var6 = undefined;
                         var1 = apply(var8, var7, var6);
-case 30:
+case 31:
                         var1 = undefined;
                         return var1;
                     }

@@ -190,7 +190,7 @@ case 10:
                 return var1;
             };
             var6 = var2.bind(var4)();
-            var5 = _closure1_slot17;
+            var5 = _closure1_slot18;
             var7 = _closure1_slot0;
             var11 = _closure1_slot3;
             var2 = 20;
@@ -212,7 +212,7 @@ case 10:
             var8 = var9.bind(var10)(var8);
             var2['accessibilityLabel'] = var8;
             var2['onPress'] = var6;
-            var8 = _closure1_slot17;
+            var8 = _closure1_slot18;
             var6 = 21;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
@@ -230,7 +230,7 @@ case 10:
             var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 4:
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var2 = _closure1_slot0;
             var5 = _closure1_slot3;
             var1 = 16;
@@ -244,7 +244,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var1 = function ManageAccounts(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -253,7 +253,7 @@ case 0:
             var _closure2_slot0 = var11;
             var1 = var1.navigation;
             var _closure2_slot1 = var1;
-            var1 = _closure1_slot20;
+            var1 = _closure1_slot21;
             var4 = undefined;
             var22 = var1.bind(var4)();
             var _closure2_slot2 = var22;
@@ -294,7 +294,7 @@ case 0:
             var1 = var12[var1];
             var3 = var9.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function c() {
+            var1 = function l() {
                 var1 = {};
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot3;
@@ -325,7 +325,7 @@ case 0:
             var1['__closure'] = var5;
             var5 = 3389178545077.0;
             var1['__workletHash'] = var5;
-            var5 = _closure1_slot21;
+            var5 = _closure1_slot22;
             var1['__initData'] = var5;
             var1 = var2.bind(var3)(var1);
             var _closure2_slot6 = var1;
@@ -366,7 +366,7 @@ case 20:
                 }
             };
             var1 = var2.bind(var3)(var1);
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var1 = 27;
             var1 = var12[var1];
             var1 = var9.bind(var4)(var1);
@@ -376,7 +376,7 @@ case 20:
             var1['style'] = var5;
             var8 = true;
             var1['bottom'] = var8;
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot18;
             var5 = 28;
             var5 = var12[var5];
             var6 = var6.bind(var4)(var5);
@@ -406,7 +406,7 @@ case 20:
 case 0:
                     var17 = arg1;
                     var _closure3_slot0 = var17;
-                    var5 = _closure1_slot17;
+                    var5 = _closure1_slot18;
                     var2 = _closure1_slot1;
                     var1 = _closure1_slot3;
                     var9 = 29;
@@ -442,16 +442,18 @@ case 30:
                             var8 = _closure1_slot3;
                             var5 = 19;
                             var5 = var8[var5];
-                            var7 = var7.bind(var6)(var5);
-                            var5 = var7.switchAccount;
-                            var2 = var2.id;
-                            var2 = var5.bind(var7)(var2);
+                            var8 = var7.bind(var6)(var5);
+                            var7 = var8.switchAccount;
+                            var5 = var2.id;
+                            var2 = _closure1_slot14;
+                            var2 = var2.MANAGE_ACCOUNTS_MODAL;
+                            var2 = var7.bind(var8)(var5, var6, var2);
                             var2 = undefined;
                             _fun0006_ip = 31; continue _fun0006;
 case 29:
                             var7 = _closure2_slot1;
                             var5 = var7.push;
-                            var4 = _closure1_slot16;
+                            var4 = _closure1_slot17;
                             var4 = var4.LOGIN;
                             var4 = var5.bind(var7)(var4);
                             var5 = _closure1_slot1;
@@ -460,7 +462,7 @@ case 29:
                             var4 = var7[var4];
                             var6 = var5.bind(var6)(var4);
                             var5 = var6.track;
-                            var3 = _closure1_slot15;
+                            var3 = _closure1_slot16;
                             var4 = var3.LOGIN_VIEWED;
                             var3 = {};
                             var7 = 'multi_account_invalid_user';
@@ -477,7 +479,7 @@ case 24:
                     var2['onPressUser'] = var6;
                     var6 = true;
                     var2['showActiveAccountLabel'] = var6;
-                    var8 = _closure1_slot17;
+                    var8 = _closure1_slot18;
                     var7 = _closure1_slot0;
                     var13 = _closure1_slot3;
                     var10 = 30;
@@ -496,7 +498,7 @@ case 24:
                     var11 = _closure2_slot0;
                     if(!var11) { _fun0005_ip = 32; continue _fun0005 }
 case 33:
-                    var15 = _closure1_slot17;
+                    var15 = _closure1_slot18;
                     var13 = _closure1_slot1;
                     var16 = _closure1_slot3;
                     var12 = 31;
@@ -505,8 +507,8 @@ case 33:
                     var12 = {};
                     var16 = _closure1_slot12;
                     var12['duration'] = var16;
-                    var19 = _closure1_slot17;
-                    var18 = _closure1_slot22;
+                    var19 = _closure1_slot18;
+                    var18 = _closure1_slot23;
                     var16 = {};
                     var16['user'] = var17;
                     var16 = var19.bind(var4)(var18, var16);
@@ -516,7 +518,7 @@ case 32:
                     var6['children'] = var11;
                     var6 = var8.bind(var4)(var7, var6);
                     var2['leading'] = var6;
-                    var8 = _closure1_slot17;
+                    var8 = _closure1_slot18;
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot3;
                     var6 = var6[var10];
@@ -529,7 +531,7 @@ case 32:
                     var10 = var10.trailingIconContainer;
                     var6['style'] = var10;
                     var10 = _closure2_slot0;
-                    var13 = _closure1_slot17;
+                    var13 = _closure1_slot18;
                     var12 = _closure1_slot1;
                     var16 = _closure1_slot3;
                     var11 = 31;
@@ -541,7 +543,7 @@ case 32:
                     var15 = _closure2_slot2;
                     var15 = var15.trailingIcon;
                     var11['style'] = var15;
-                    var15 = _closure1_slot17;
+                    var15 = _closure1_slot18;
                     var14 = _closure1_slot0;
                     if(var10) { _fun0005_ip = 34; continue _fun0005 }
 case 35:
@@ -587,7 +589,7 @@ case 37:
             var10 = 16;
             var5['scrollEventThrottle'] = var10;
             var5['scrollEnabled'] = var8;
-            var10 = _closure1_slot17;
+            var10 = _closure1_slot18;
             var8 = 30;
             var8 = var12[var8];
             var8 = var9.bind(var4)(var8);
@@ -598,7 +600,7 @@ case 37:
             var11 = !var11;
             if(!var11) { _fun0003_ip = 39; continue _fun0003 }
 case 40:
-            var14 = _closure1_slot17;
+            var14 = _closure1_slot18;
             var28 = _closure1_slot1;
             var26 = _closure1_slot3;
             var12 = 31;
@@ -607,14 +609,14 @@ case 40:
             var12 = {};
             var15 = _closure1_slot12;
             var12['duration'] = var15;
-            var17 = _closure1_slot17;
+            var17 = _closure1_slot18;
             var25 = _closure1_slot0;
             var19 = 33;
             var15 = var26[var19];
             var15 = var25.bind(var4)(var15);
             var16 = var15.FormRow;
             var15 = {};
-            var24 = _closure1_slot17;
+            var24 = _closure1_slot18;
             var21 = 34;
             var21 = var26[var21];
             var21 = var25.bind(var4)(var21);
@@ -628,7 +630,7 @@ case 40:
             var21['color'] = var27;
             var21 = var24.bind(var4)(var23, var21);
             var15['leading'] = var21;
-            var21 = _closure1_slot17;
+            var21 = _closure1_slot18;
             var19 = var26[var19];
             var19 = var25.bind(var4)(var19);
             var19 = var19.FormRow;
@@ -659,7 +661,7 @@ case 0:
 case 42:
                     var3 = _closure2_slot1;
                     var2 = var3.push;
-                    var1 = _closure1_slot16;
+                    var1 = _closure1_slot17;
                     var1 = var1.LOGIN;
                     var1 = var2.bind(var3)(var1);
                     var3 = _closure1_slot1;
@@ -669,7 +671,7 @@ case 42:
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.track;
-                    var1 = _closure1_slot15;
+                    var1 = _closure1_slot16;
                     var2 = var1.LOGIN_VIEWED;
                     var1 = {};
                     var5 = 'multi_account_add_account';
@@ -732,7 +734,7 @@ case 39:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot24 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -781,33 +783,35 @@ case 39:
     var4 = var5.bind(var1)(var4);
     var8 = var4.MANAGE_EDIT_TRANSITION_DURATION;
     var _closure1_slot12 = var8;
-    var4 = var4.MAX_ACCOUNTS;
-    var _closure1_slot13 = var4;
+    var8 = var4.MAX_ACCOUNTS;
+    var _closure1_slot13 = var8;
+    var4 = var4.MultiAccountSwitchLocation;
+    var _closure1_slot14 = var4;
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ManageAccountsScreens;
-    var _closure1_slot14 = var4;
+    var _closure1_slot15 = var4;
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.AnalyticEvents;
-    var _closure1_slot15 = var8;
+    var _closure1_slot16 = var8;
     var4 = var4.AuthStates;
-    var _closure1_slot16 = var4;
+    var _closure1_slot17 = var4;
     var4 = 11;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot17 = var8;
+    var _closure1_slot18 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot18 = var4;
+    var _closure1_slot19 = var4;
     var4 = 12;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var4 = var8.createNativeStackNavigator;
     var4 = var4.bind(var8)();
-    var _closure1_slot19 = var4;
+    var _closure1_slot20 = var4;
     var4 = 13;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -843,11 +847,11 @@ case 39:
     var10['position'] = var11;
     var4['trailingIcon'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot20 = var4;
+    var _closure1_slot21 = var4;
     var4 = {};
     var8 = 'function ManageAccountsModalTsx1(){const{withTiming,leadingWidth,MANAGE_EDIT_TRANSITION_DURATION}=this.__closure;return{width:withTiming(leadingWidth.get(),{duration:MANAGE_EDIT_TRANSITION_DURATION})};}';
     var4['code'] = var8;
-    var _closure1_slot21 = var4;
+    var _closure1_slot22 = var4;
     var4 = var7.memo;
     var2 = function ManageAccountsModal(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -857,7 +861,7 @@ case 0:
             var4 = undefined;
             if(!(var5 === var4)) { _fun0008_ip = 44; continue _fun0008 }
 case 45:
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot15;
             var5 = var1.MANAGE_ACCOUNTS;
 case 44:
             var _closure2_slot0 = var4;
@@ -884,8 +888,8 @@ case 44:
             var1 = 1;
             var1 = var2[var1];
             _closure2_slot2 = var1;
-            var3 = _closure1_slot18;
-            var6 = _closure1_slot19;
+            var3 = _closure1_slot19;
+            var6 = _closure1_slot20;
             var2 = var6.Navigator;
             var1 = {};
             var1['initialRouteName'] = var5;
@@ -906,7 +910,7 @@ case 0:
                         var8 = var3;
                         var7 = var2;
                         var8 = copyDataProperties(var9, var8, var7);
-                        var4 = _closure1_slot17;
+                        var4 = _closure1_slot18;
                         var2 = _closure1_slot0;
                         var3 = _closure1_slot3;
                         var1 = 36;
@@ -953,10 +957,10 @@ case 46:
                 }
             };
             var1['screenOptions'] = var5;
-            var11 = _closure1_slot17;
+            var11 = _closure1_slot18;
             var8 = var6.Screen;
             var5 = {};
-            var10 = _closure1_slot14;
+            var10 = _closure1_slot15;
             var12 = var10.MANAGE_ACCOUNTS;
             var5['name'] = var12;
             var12 = function options() {
@@ -1003,7 +1007,7 @@ case 49:
                         return var1;
                     };
                     var2 = var5.bind(var6)(var9, var2);
-                    _fun0010_ip = 26; continue _fun0010;
+                    _fun0010_ip = 50; continue _fun0010;
 case 48:
                     var4 = var4.i4jeWR;
                     var4 = var7.bind(var8)(var4);
@@ -1015,7 +1019,7 @@ case 48:
                         return var1;
                     };
                     var2 = var5.bind(var6)(var4, var3);
-case 26:
+case 50:
                     var1['headerRight'] = var2;
                     return var1;
                 }
@@ -1024,8 +1028,8 @@ case 26:
             var12 = function children(arg1) {
                 var1 = arg1;
                 var1 = var1.navigation;
-                var4 = _closure1_slot17;
-                var3 = _closure1_slot23;
+                var4 = _closure1_slot18;
+                var3 = _closure1_slot24;
                 var2 = {};
                 var5 = _closure2_slot1;
                 var2['isEditing'] = var5;
@@ -1038,7 +1042,7 @@ case 26:
             var8 = var11.bind(var4)(var8, var5);
             var5 = new Array(4);
             var5[0] = var8;
-            var12 = _closure1_slot17;
+            var12 = _closure1_slot18;
             var11 = var6.Screen;
             var8 = {};
             var13 = var10.ACCOUNT_DISABLED_OR_DELETION_SCHEDULED;
@@ -1063,7 +1067,7 @@ case 26:
             };
             var8['options'] = var13;
             var13 = function children() {
-                var4 = _closure1_slot17;
+                var4 = _closure1_slot18;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot3;
                 var1 = 38;
@@ -1109,7 +1113,7 @@ case 26:
             var8['children'] = var13;
             var8 = var12.bind(var4)(var11, var8);
             var5[1] = var8;
-            var12 = _closure1_slot17;
+            var12 = _closure1_slot18;
             var11 = var6.Screen;
             var8 = {};
             var13 = var10.LOGIN;
@@ -1122,7 +1126,7 @@ case 26:
             };
             var8['options'] = var13;
             var13 = function children() {
-                var4 = _closure1_slot17;
+                var4 = _closure1_slot18;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot3;
                 var1 = 40;
@@ -1138,7 +1142,7 @@ case 26:
             var8['children'] = var13;
             var8 = var12.bind(var4)(var11, var8);
             var5[2] = var8;
-            var8 = _closure1_slot17;
+            var8 = _closure1_slot18;
             var7 = var6.Screen;
             var6 = {};
             var10 = var10.MFA;
@@ -1151,7 +1155,7 @@ case 26:
             };
             var6['options'] = var10;
             var9 = function children() {
-                var4 = _closure1_slot17;
+                var4 = _closure1_slot18;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot3;
                 var1 = 41;

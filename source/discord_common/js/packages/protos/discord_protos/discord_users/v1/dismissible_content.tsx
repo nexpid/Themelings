@@ -2242,6 +2242,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['APP_WIDGET_V2_PROFILE_UPSELL_COACHMARK'] = var2;
     var1 = 'APP_WIDGET_V2_PROFILE_UPSELL_COACHMARK';
     var4[var2] = var1;
+    var2 = 762;
+    var4['PARENTAL_CONSENT_GRACE_WARNING'] = var2;
+    var1 = 'PARENTAL_CONSENT_GRACE_WARNING';
+    var4[var2] = var1;
+    var2 = 763;
+    var4['APP_WIDGET_V2_PROFILE_UPSELL_SUGGESTED'] = var2;
+    var1 = 'APP_WIDGET_V2_PROFILE_UPSELL_SUGGESTED';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

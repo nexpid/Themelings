@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var2 = function initializeState() {
         var1 = false;
         var _closure1_slot0 = var1;
@@ -62,17 +62,24 @@ case 4:
         var3 = new var5[var3](var4);
         var3 = var3 instanceof Object ? var3 : var4;
         var _closure1_slot3 = var3;
+        var3 = var1.Map;
+        var4 = var3.prototype;
+        var4 = Object.create(var4, {constructor: {value: var3}});
+        var5 = var4;
+        var3 = new var5[var3](var4);
+        var3 = var3 instanceof Object ? var3 : var4;
+        var _closure1_slot4 = var3;
         var1 = var1.Map;
         var3 = var1.prototype;
         var3 = Object.create(var3, {constructor: {value: var1}});
         var5 = var3;
         var1 = new var5[var1](var4);
         var1 = var1 instanceof Object ? var1 : var3;
-        var _closure1_slot4 = var1;
+        var _closure1_slot5 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot11 = var2;
+    var _closure1_slot12 = var2;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -85,23 +92,23 @@ case 4:
     var7 = var5[var1];
     var1 = undefined;
     var7 = var6.bind(var1)(var7);
-    var _closure1_slot5 = var7;
+    var _closure1_slot6 = var7;
     var7 = 1;
     var7 = var5[var7];
     var7 = var6.bind(var1)(var7);
-    var _closure1_slot6 = var7;
+    var _closure1_slot7 = var7;
     var7 = 2;
     var7 = var5[var7];
     var7 = var6.bind(var1)(var7);
-    var _closure1_slot7 = var7;
+    var _closure1_slot8 = var7;
     var7 = 3;
     var7 = var5[var7];
     var7 = var6.bind(var1)(var7);
-    var _closure1_slot8 = var7;
+    var _closure1_slot9 = var7;
     var7 = 4;
     var7 = var5[var7];
     var7 = var6.bind(var1)(var7);
-    var _closure1_slot9 = var7;
+    var _closure1_slot10 = var7;
     var2 = var2.bind(var1)();
     var2 = 5;
     var2 = var5[var2];
@@ -114,13 +121,13 @@ case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var2 = _closure2_slot0;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
                 var9 = var1.bind(var3)(var2);
-                var2 = _closure1_slot7;
-                var1 = _closure1_slot10;
+                var2 = _closure1_slot8;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -133,7 +140,7 @@ case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
-                var6 = _closure1_slot8;
+                var6 = _closure1_slot9;
                 var6 = var6.bind(var3)(var4);
                 var6 = var6.constructor;
                 var5 = arguments;
@@ -144,11 +151,11 @@ case 8:
             }
         };
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot9;
+        var5 = _closure1_slot10;
         var3 = undefined;
         var2 = arg1;
         var2 = var5.bind(var3)(var4, var2);
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot7;
         var5 = {};
         var1 = 'isFetchingQuestHomeBounties';
         var5['key'] = var1;
@@ -157,7 +164,7 @@ case 8:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(6);
+        var1 = new Array(7);
         var1[0] = var5;
         var5 = {};
         var7 = 'questHomeBounties';
@@ -214,7 +221,7 @@ case 8:
         var5 = {};
         var7 = 'getAdDecisionByPlacementAndAdCreativeId';
         var5['key'] = var7;
-        var6 = function value(arg1, arg2) {
+        var7 = function value(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var3 = _closure1_slot4;
@@ -239,8 +246,29 @@ case 11:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[5] = var5;
+        var5 = {};
+        var7 = 'getBountyVideoProgress';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var3 = _closure1_slot5;
+                var2 = var3.get;
+                var1 = arg1;
+                var2 = var2.bind(var3)(var1);
+                var1 = null;
+                var3 = var1 != var2;
+                if(!var3) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                var1 = var2;
+case 13:
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[6] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -252,7 +280,7 @@ case 11:
     var12 = var6.bind(var1)(var2);
     var2 = {};
     var8 = function handleLogout() {
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot12;
         var1 = undefined;
         var2 = var2.bind(var1)();
         return var1;
@@ -370,7 +398,7 @@ case 11:
         return var1;
     };
     var2['BOUNTIES_CLAIM_REWARD_SUCCESS'] = var8;
-    var4 = function handleClaimBountyRewardFailure(arg1) {
+    var8 = function handleClaimBountyRewardFailure(arg1) {
         var1 = arg1;
         var4 = var1.bountyId;
         var1 = global;
@@ -387,7 +415,45 @@ case 11:
         var1 = undefined;
         return var1;
     };
-    var2['BOUNTIES_CLAIM_REWARD_FAILURE'] = var4;
+    var2['BOUNTIES_CLAIM_REWARD_FAILURE'] = var8;
+    var8 = function handleBountyVideoProgressUpdate(arg1) {
+        var1 = arg1;
+        var5 = var1.bountyId;
+        var8 = var1.timestampSec;
+        var7 = var1.maxTimestampSec;
+        var6 = var1.duration;
+        var1 = global;
+        var4 = var1.Map;
+        var10 = _closure1_slot5;
+        var3 = var4.prototype;
+        var3 = Object.create(var3, {constructor: {value: var4}});
+        var11 = var3;
+        var1 = new var11[var4](var10, var9);
+        var1 = var1 instanceof Object ? var1 : var3;
+        var4 = var1.set;
+        var3 = {};
+        var3['timestampSec'] = var8;
+        var3['maxTimestampSec'] = var7;
+        var3['duration'] = var6;
+        var3 = var4.bind(var1)(var5, var3);
+        _closure1_slot5 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['BOUNTIES_VIDEO_PROGRESS_UPDATE'] = var8;
+    var4 = function handleAdSessionReset() {
+        var1 = global;
+        var1 = var1.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var3 = var2;
+        var1 = new var3[var1](var2);
+        var2 = var1 instanceof Object ? var1 : var2;
+        _closure1_slot5 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var2['AD_SESSION_RESET'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var13 = var4;

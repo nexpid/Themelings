@@ -286,7 +286,7 @@ case 0:
                                     var12 = var6.bind(var1)(var4);
                                     var9 = var12.getAdMetadataSealed;
                                     var4 = _closure3_slot1;
-                                    var7 = var4.questContent;
+                                    var7 = var4.sourceQuestContent;
                                     var9 = var9.bind(var12)(var7, var11);
                                     var7 = var4.shouldExtendSession;
                                     var15 = var7.bind(var4)(var11);
@@ -501,7 +501,7 @@ case 35:
                                     var10 = var9.bind(var1)(var8);
                                     var9 = var10.getAdTrafficMetadataSealed;
                                     var5 = _closure3_slot1;
-                                    var8 = var5.questContent;
+                                    var8 = var5.sourceQuestContent;
                                     var12 = var7 == var11;
                                     var5 = undefined;
                                     if(var12) { _fun0005_ip = 37; continue _fun0005 }
@@ -880,7 +880,7 @@ case 0:
                             var12 = var6.bind(var1)(var2);
                             var11 = var12.getAdMetadataSealed;
                             var2 = _closure3_slot0;
-                            var9 = var2.questContent;
+                            var9 = var2.sourceQuestContent;
                             var4 = arg1;
                             var9 = var11.bind(var12)(var9, var4);
                             var2 = var2.entity;
@@ -1035,7 +1035,7 @@ case 63:
                             var8 = var8[var10];
                             var10 = var9.bind(var1)(var8);
                             var9 = var10.getAdTrafficMetadataSealed;
-                            var8 = var5.questContent;
+                            var8 = var5.sourceQuestContent;
                             var12 = var7 == var11;
                             var5 = undefined;
                             if(var12) { _fun0008_ip = 65; continue _fun0008 }

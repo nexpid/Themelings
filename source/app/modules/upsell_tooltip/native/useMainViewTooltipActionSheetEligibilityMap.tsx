@@ -56,25 +56,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var7;
     var7 = 9;
     var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var9 = var7.PREMIUM_TIER_0_LIKELIHOOD_TRIAL_ID;
-    var10 = var7.PREMIUM_TIER_2_LIKELIHOOD_TRIAL_ID;
-    var7 = var7.PREMIUM_TIER_2_REACTIVATION_TRIAL_ID;
+    var8 = var5.bind(var1)(var7);
+    var10 = var8.PREMIUM_TIER_0_LIKELIHOOD_TRIAL_ID;
+    var7 = var8.PREMIUM_TIER_2_HFU_TWO_WEEK_TRIAL_ID;
+    var11 = var8.PREMIUM_TIER_2_LIKELIHOOD_TRIAL_ID;
+    var9 = var8.PREMIUM_TIER_2_REACTIVATION_TRIAL_ID;
     var8 = 10;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.UserSettingsTypes;
     var _closure1_slot12 = var8;
     var8 = var4.Set;
-    var4 = new Array(3);
-    var4[0] = var10;
-    var4[1] = var9;
-    var4[2] = var7;
+    var4 = new Array(4);
+    var4[0] = var11;
+    var4[1] = var10;
+    var4[2] = var9;
+    var4[3] = var7;
     var7 = var8.prototype;
     var7 = Object.create(var7, {constructor: {value: var8}});
-    var14 = var7;
-    var13 = var4;
-    var4 = new var14[var8](var13, var12);
+    var15 = var7;
+    var14 = var4;
+    var4 = new var15[var8](var14, var13);
     var4 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot13 = var4;
     var4 = 32;
@@ -551,19 +553,19 @@ case 39:
             var22 = var20 != var28;
             if(!var22) { _fun0001_ip = 40; continue _fun0001 }
 case 41:
-            var31 = _closure1_slot13;
-            var30 = var31.has;
-            var29 = var28.trial_id;
-            var22 = var30.bind(var31)(var29);
+            var29 = var28.expires_at;
+            var22 = var20 == var29;
 case 40:
             if(!var22) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
-            var29 = var28.expires_at;
-            var22 = var20 == var29;
+            var22 = !var27;
 case 42:
             if(!var22) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
-            var22 = !var27;
+            var30 = _closure1_slot13;
+            var29 = var30.has;
+            var27 = var28.trial_id;
+            var22 = var29.bind(var30)(var27);
 case 44:
             var8['isEligible'] = var22;
             var27 = var20 == var28;

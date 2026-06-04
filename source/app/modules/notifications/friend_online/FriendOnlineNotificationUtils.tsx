@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/notifications/friend_online/FriendOnlineNotificationUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function onFriendOnlineNotificationSettingsChanged(arg1) {
+    var4 = function onFriendOnlineNotificationSettingsChanged(arg1) {
         var6 = arg1;
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
@@ -58,6 +58,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var3['onFriendOnlineNotificationSettingsChanged'] = var2;
+    var3['onFriendOnlineNotificationSettingsChanged'] = var4;
+    var2 = function onNotifyFriendsOnComeOnlineSettingsChanged(arg1) {
+        var6 = arg1;
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 2;
+        var2 = var4[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var3 = var2.NotifyFriendsOnComeOnline;
+        var2 = var3.updateSetting;
+        var2 = var2.bind(var3)(var6);
+        var3 = _closure1_slot1;
+        var2 = 3;
+        var2 = var4[var2];
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot4;
+        var3 = var2.NOTIFICATION_SETTINGS_UPDATED;
+        var2 = {};
+        var7 = _closure1_slot3;
+        var7 = var7.ACCOUNT;
+        var2['update_type'] = var7;
+        var2['notify_friends_on_come_online'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var3['onNotifyFriendsOnComeOnlineSettingsChanged'] = var2;
     return var1;
 })();

@@ -888,8 +888,6 @@ case 83:
             var6 = var7.useGetOrFetchStorefrontPricesForSkuIds;
             var1 = {};
             var1['skuIds'] = var8;
-            var8 = 'useWishlistRecommendationsWithWishlists';
-            var1['location'] = var8;
             var1 = var6.bind(var7)(var1);
             var1 = {};
             var1['recommendations'] = var5;

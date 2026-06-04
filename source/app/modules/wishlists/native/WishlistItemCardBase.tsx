@@ -127,6 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = 'elevation';
     var9[13] = var15;
     var4['ownedOverlay'] = var9;
+    var9 = {'width': '100%', 'height': '100%', 'justifyContent': 'center', 'alignItems': 'center'};
+    var4['previewWrap'] = var9;
     var9 = {};
     var9['opacity'] = var13;
     var4['ownedCard'] = var9;
@@ -175,7 +177,7 @@ case 4:
             var9 = var1.accessibilityHidden;
             var12 = var1.recipientName;
             var1 = _closure1_slot8;
-            var22 = var1.bind(var5)();
+            var23 = var1.bind(var5)();
             var13 = _closure1_slot0;
             var1 = _closure1_slot2;
             var4 = 7;
@@ -201,8 +203,8 @@ case 4:
             var13 = var13.bind(var5)(var6);
             var6 = var13.useToken;
             var15 = _closure1_slot1;
-            var23 = 4;
-            var1 = var1[var23];
+            var22 = 4;
+            var1 = var1[var22];
             var1 = var15.bind(var5)(var1);
             var1 = var1.colors;
             var1 = var1.BG_SURFACE_RAISED;
@@ -212,7 +214,7 @@ case 4:
 case 7:
             var6 = var4;
 case 6:
-            var4 = var22.card;
+            var4 = var23.card;
             var7 = new Array(3);
             var7[0] = var4;
             var4 = {};
@@ -294,7 +296,7 @@ case 13:
             var4 = _closure1_slot5;
             var18 = _closure1_slot4;
             var3 = {'style': null, 'pointerEvents': 'none', 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
-            var6 = var22.ownedOverlay;
+            var6 = var23.ownedOverlay;
             var3['style'] = var6;
             var20 = true;
             var8 = 'no-hide-descendants';
@@ -305,7 +307,7 @@ case 13:
             var12 = var6.CheckmarkLargeBoldIcon;
             var6 = {};
             var21 = _closure1_slot1;
-            var16 = var16[var23];
+            var16 = var16[var22];
             var16 = var21.bind(var5)(var16);
             var16 = var16.colors;
             var16 = var16.WHITE;
@@ -322,11 +324,15 @@ case 13:
             var3 = {};
             var16 = _closure1_slot5;
             var12 = {};
-            var21 = var14;
+            var22 = var23.previewWrap;
+            var21 = new Array(2);
+            var21[0] = var22;
+            var22 = var14;
             if(!var14) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var21 = var22.ownedCard;
+            var22 = var23.ownedCard;
 case 15:
+            var21[1] = var22;
             var12['style'] = var21;
             var12['aria-hidden'] = var20;
             var19 = var19.bind(var5)();

@@ -998,15 +998,15 @@ case 161:
                 var8 = var11.bind(var9)(var8);
                 var8 = var8.ReactionTypes;
                 var8 = var8.BURST;
-                if(!(var2 !== var8)) { _fun0008_ip = 35; continue _fun0008 }
-case 162:
+                if(!(var2 !== var8)) { _fun0008_ip = 162; continue _fun0008 }
+case 163:
                 var8 = _closure1_slot0;
                 var1 = _closure1_slot2;
                 var1 = var1[var10];
                 var1 = var8.bind(var9)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.VOTE;
-                if(!(var2 !== var1)) { _fun0008_ip = 163; continue _fun0008 }
+                if(!(var2 !== var1)) { _fun0008_ip = 29; continue _fun0008 }
 case 164:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': null, 'me_burst': false, 'count': 1, 'count_details': null, 'burst_count': 0};
@@ -1018,7 +1018,7 @@ case 164:
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
                 _fun0008_ip = 160; continue _fun0008;
-case 163:
+case 29:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
                 var1['emoji'] = var7;
@@ -1029,7 +1029,7 @@ case 163:
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
                 _fun0008_ip = 160; continue _fun0008;
-case 35:
+case 162:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
                 var1['emoji'] = var7;

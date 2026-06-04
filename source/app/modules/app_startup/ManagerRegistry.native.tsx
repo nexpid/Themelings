@@ -258,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['hasStoreChangeListeners'] = var4;
     var2['ChannelCallManager'] = var1;
     var1 = {};
-    var8 = ['GUILD_CREATE', 'POST_CONNECTION_OPEN', 'CHANNEL_SYNC'];
+    var8 = ['GUILD_CREATE', 'POST_CONNECTION_OPEN', 'CHANNEL_SYNC', 'LOGOUT'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
@@ -876,7 +876,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['loadAfterConnectionOpen'] = var4;
     var2['MetricKitManager'] = var1;
     var1 = {};
-    var8 = ['LOGOUT'];
+    var8 = ['LOGOUT', 'MULTI_ACCOUNT_SWITCH_START'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

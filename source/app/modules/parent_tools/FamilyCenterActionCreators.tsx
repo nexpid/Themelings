@@ -303,8 +303,9 @@ case 13:
                     var4 = var5.then;
                     var2 = function(arg1) {
                         var1 = arg1;
-                        var1 = var1.body;
-                        var1 = var1.link_code;
+                        var2 = var1.body;
+                        var1 = var2.link_code;
+                        var5 = var2.expires_at;
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var2 = 5;
@@ -313,9 +314,10 @@ case 13:
                         var4 = var4.bind(var2)(var3);
                         var3 = var4.dispatch;
                         var2 = {};
-                        var5 = 'FAMILY_CENTER_LINK_CODE_FETCH_SUCCESS';
-                        var2['type'] = var5;
+                        var6 = 'FAMILY_CENTER_LINK_CODE_FETCH_SUCCESS';
+                        var2['type'] = var6;
                         var2['linkCode'] = var1;
+                        var2['expiresAt'] = var5;
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };

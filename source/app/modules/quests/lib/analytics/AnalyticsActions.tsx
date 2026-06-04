@@ -553,7 +553,7 @@ case 53:
                     var5 = var5[var11];
                     var6 = var6.bind(var4)(var5);
                     var5 = var6.getAdTrafficMetadataSealed;
-                    var13 = var5.bind(var6)(var10, var3);
+                    var13 = var5.bind(var6)(var7, var3);
                     var6 = _closure1_slot14;
                     var5 = {};
                     var5['questId'] = var3;

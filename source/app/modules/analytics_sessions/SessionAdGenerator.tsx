@@ -40,7 +40,7 @@ case 4:
 case 2:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 3;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -80,7 +80,7 @@ case 2:
     var _closure1_slot3 = var5;
     var5 = null;
     var _closure1_slot4 = var5;
-    var5 = 4;
+    var5 = 5;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -90,8 +90,8 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arguments[0];
-            var6 = undefined;
-            if(!(var1 === var6)) { _fun0002_ip = 6; continue _fun0002 }
+            var5 = undefined;
+            if(!(var1 === var5)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
             var1 = false;
 case 6:
@@ -99,14 +99,14 @@ case 6:
             var3 = var2.Date;
             var2 = var3.now;
             var4 = var2.bind(var3)();
-            var5 = _closure1_slot4;
-            var2 = null;
-            if(!(var2 != var5)) { _fun0002_ip = 8; continue _fun0002 }
+            var6 = _closure1_slot4;
+            var3 = null;
+            if(!(var3 != var6)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var5 = _closure1_slot5;
-            var2 = _closure1_slot4;
-            var2 = var5.bind(var6)(var2);
-            if(var2) { _fun0002_ip = 8; continue _fun0002 }
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot4;
+            var3 = var6.bind(var5)(var3);
+            if(var3) { _fun0002_ip = 8; continue _fun0002 }
 case 10:
             if(!var1) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
@@ -116,24 +116,33 @@ case 11:
             var1 = _closure1_slot4;
             _fun0002_ip = 13; continue _fun0002;
 case 8:
-            var2 = {};
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var3 = {};
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var8 = 1;
-            var8 = var7[var8];
-            var9 = var5.bind(var6)(var8);
+            var8 = var6[var8];
+            var9 = var7.bind(var5)(var8);
             var8 = var9.v4;
             var8 = var8.bind(var9)();
-            var2['uuid'] = var8;
-            var2['createdAtTimestamp'] = var4;
-            var2['lastUsedTimestamp'] = var4;
+            var3['uuid'] = var8;
+            var3['createdAtTimestamp'] = var4;
+            var3['lastUsedTimestamp'] = var4;
             var4 = 2;
-            var4 = var7[var4];
-            var4 = var5.bind(var6)(var4);
+            var4 = var6[var4];
+            var4 = var7.bind(var5)(var4);
             var4 = var4.CLIENT_SESSION_STORAGE_VERSION;
-            var2['version'] = var4;
-            _closure1_slot4 = var2;
-            var1 = var2;
+            var3['version'] = var4;
+            _closure1_slot4 = var3;
+            var4 = _closure1_slot1;
+            var3 = 3;
+            var3 = var6[var3];
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.dispatch;
+            var3 = {};
+            var6 = 'AD_SESSION_RESET';
+            var3['type'] = var6;
+            var3 = var4.bind(var5)(var3);
+            var1 = _closure1_slot4;
 case 13:
             return var1;
         }

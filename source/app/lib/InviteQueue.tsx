@@ -242,9 +242,15 @@ case 0:
                         var2 = var3.getChannel;
                         var1 = arg1;
                         var7 = var2.bind(var3)(var1);
-                        var1 = null;
-                        if(!(var1 != var7)) { _fun0004_ip = 14; continue _fun0004 }
+                        var4 = null;
+                        if(!(var4 == var7)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
+                        var3 = _closure3_slot2;
+                        var2 = undefined;
+                        var1 = false;
+                        var1 = var3.bind(var2)(var4, var1);
+                        _fun0004_ip = 16; continue _fun0004;
+case 14:
                         var6 = _closure3_slot0;
                         var5 = var6._sendInvite;
                         var2 = _closure3_slot1;
@@ -255,7 +261,7 @@ case 15:
                         var13 = var6;
                         var12 = var7;
                         var1 = var13[var5](var12, var11, var10, var9, var8, var7);
-case 14:
+case 16:
                         var1 = undefined;
                         return var1;
                     }

@@ -222,6 +222,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FAMILY_CENTER_RESTRICTED_SCHEDULE_UPDATED'] = var4;
     var1 = 'FAMILY_CENTER_RESTRICTED_SCHEDULE_UPDATED';
     var2[var4] = var1;
+    var4 = 55;
+    var2['VOICE_CHANNEL_ACTIVITY_PEAK_AFFINITY'] = var4;
+    var1 = 'VOICE_CHANNEL_ACTIVITY_PEAK_AFFINITY';
+    var2[var4] = var1;
     var4 = 999999;
     var2['TEST'] = var4;
     var1 = 'TEST';

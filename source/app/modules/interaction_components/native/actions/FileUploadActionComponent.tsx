@@ -522,7 +522,7 @@ case 42:
     var4['defaultAttachmentIconWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 34;
+    var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -596,13 +596,25 @@ case 43:
             var1 = 'FileUploadActionComponent requires a valid channel';
             var1 = var11.bind(var5)(var8, var1);
             var1 = 19;
+            var8 = var7[var1];
+            var18 = var3.bind(var5)(var8);
+            var11 = var18.getKestrelConfig;
+            var8 = {};
+            var19 = 'native.FileUploadActionComponent';
+            var8['location'] = var19;
+            var18 = var11.bind(var18)(var8);
             var1 = var7[var1];
             var11 = var3.bind(var5)(var1);
-            var8 = var11.maxFileSize;
-            var1 = var10.guild_id;
-            var11 = var8.bind(var11)(var1);
-            var _closure2_slot4 = var11;
+            var8 = var11.getEffectiveKestrelLimit;
             var1 = 20;
+            var1 = var7[var1];
+            var20 = var3.bind(var5)(var1);
+            var19 = var20.maxFileSize;
+            var1 = var10.guild_id;
+            var1 = var19.bind(var20)(var1);
+            var11 = var8.bind(var11)(var18, var1);
+            var _closure2_slot4 = var11;
+            var1 = 21;
             var1 = var7[var1];
             var3 = var3.bind(var5)(var1);
             var1 = var3.useFileUploadComponentState;
@@ -630,7 +642,7 @@ case 48:
 case 47:
             var9 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var1 = 21;
+            var1 = 22;
             var1 = var19[var1];
             var1 = var9.bind(var5)(var1);
             var1 = var1.ComponentType;
@@ -677,7 +689,7 @@ case 55:
                             var10 = var2.bind(var4)(var5);
                             var6 = var10.bind(var4)();
                             var2 = var6.done;
-                            var8 = 23;
+                            var8 = 24;
                             var7 = var6;
                             if(var2) { _fun0007_ip = 56; continue _fun0007 }
 case 57:
@@ -708,7 +720,7 @@ case 63:
 case 61:
                             var6 = _closure1_slot0;
                             var7 = _closure1_slot2;
-                            var3 = 24;
+                            var3 = 25;
                             var3 = var7[var3];
                             var7 = var6.bind(var4)(var3);
                             var6 = var7.showFileSizeExceededAlert;
@@ -722,7 +734,7 @@ case 56:
                             var2 = function(arg1) {
                                 var2 = _closure1_slot0;
                                 var7 = _closure1_slot2;
-                                var1 = 25;
+                                var1 = 26;
                                 var1 = var7[var1];
                                 var4 = undefined;
                                 var3 = var2.bind(var4)(var1);
@@ -730,7 +742,7 @@ case 56:
                                 var1 = _closure2_slot2;
                                 var1 = var2.bind(var3)(var1);
                                 var3 = _closure1_slot1;
-                                var2 = 26;
+                                var2 = 27;
                                 var2 = var7[var2];
                                 var4 = var3.bind(var4)(var2);
                                 var3 = var4.setFile;
@@ -765,7 +777,7 @@ case 53:
 case 37:
                             var3 = _closure1_slot1;
                             var11 = _closure1_slot2;
-                            var2 = 22;
+                            var2 = 23;
                             var2 = var11[var2];
                             var10 = undefined;
                             var4 = var3.bind(var10)(var2);
@@ -838,7 +850,7 @@ case 51:
                 var _closure3_slot0 = var8;
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 26;
+                var1 = 27;
                 var2 = var2[var1];
                 var1 = undefined;
                 var7 = var5.bind(var1)(var2);
@@ -882,7 +894,7 @@ case 51:
                 var3 = function onDismissKeyboard() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 27;
+                    var1 = 28;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
@@ -904,13 +916,13 @@ case 51:
                 var _closure3_slot1 = var2;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 28;
+                var1 = 29;
                 var2 = var7[var1];
                 var1 = undefined;
                 var3 = var6.bind(var1)(var2);
                 var2 = var3.dismissGlobalKeyboard;
                 var2 = var2.bind(var3)();
-                var5 = 27;
+                var5 = 28;
                 var2 = var7[var5];
                 var4 = var6.bind(var1)(var2);
                 var3 = var4.showMediaKeyboardActionSheet;
@@ -926,7 +938,7 @@ case 51:
                 var9 = function onAttachPress() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 29;
+                    var1 = 30;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -942,7 +954,7 @@ case 51:
                 var9 = function onPressCamera(arg1) {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 29;
+                    var1 = 30;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -967,7 +979,7 @@ case 0:
                         var4 = var1.isIncluded;
                         var7 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var1 = 27;
+                        var1 = 28;
                         var6 = var6[var1];
                         var1 = undefined;
                         var7 = var7.bind(var1)(var6);
@@ -977,7 +989,7 @@ case 0:
 case 65:
                         var4 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var3 = 29;
+                        var3 = 30;
                         var3 = var6[var3];
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.mediaNodeToUploadItem;
@@ -993,7 +1005,7 @@ case 64:
                         var2 = function(arg1) {
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 30;
+                            var1 = 31;
                             var2 = var2[var1];
                             var1 = undefined;
                             var4 = var3.bind(var1)(var2);
@@ -1020,7 +1032,7 @@ case 66:
                 var9 = function onViewAll() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 29;
+                    var1 = 30;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -1042,13 +1054,13 @@ case 66:
                 var8 = function onManageLimited() {
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 29;
+                    var1 = 30;
                     var2 = var8[var1];
                     var1 = undefined;
                     var4 = var7.bind(var1)(var2);
                     var3 = var4.handleLimitedPickerDialog;
                     var2 = {};
-                    var6 = 27;
+                    var6 = 28;
                     var6 = var8[var6];
                     var6 = var7.bind(var1)(var6);
                     var6 = var6.hideMediaKeyboardActionSheet;
@@ -1080,13 +1092,13 @@ case 68:
             var4 = _closure1_slot10;
             var3 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var1 = 31;
+            var1 = 32;
             var1 = var16[var1];
             var1 = var3.bind(var5)(var1);
             var3 = var1.Stack;
             var1 = {};
             var10 = _closure1_slot1;
-            var9 = 32;
+            var9 = 33;
             var9 = var16[var9];
             var9 = var10.bind(var5)(var9);
             var9 = var9.spacing;
@@ -1120,7 +1132,7 @@ case 75:
             var12 = _closure1_slot9;
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var10 = 33;
+            var10 = 34;
             var10 = var14[var10];
             var10 = var11.bind(var5)(var10);
             var11 = var10.TableRowGroup;

@@ -121,6 +121,7 @@ case 0:
             var25 = var2.rewardRemainingSeconds;
             var27 = var2.rewardTotalSeconds;
             var12 = var2.normalizedProgress;
+            var19 = var2.initialProgress;
             var17 = var2.repeat;
             var29 = var2.isActive;
             var4 = undefined;
@@ -146,7 +147,7 @@ case 2:
             var2 = var15[var2];
             var3 = var13.bind(var4)(var2);
             var2 = var3.useRnvHttpEngine;
-            var19 = var2.bind(var3)();
+            var30 = var2.bind(var3)();
             var6 = 8;
             var2 = var15[var6];
             var3 = var13.bind(var4)(var2);
@@ -174,14 +175,14 @@ case 4:
                     var4 = var5.withTiming;
                     var6 = _closure2_slot0;
                     var3 = 0;
-                    if(!var6) { _fun0002_ip = 3; continue _fun0002 }
-case 6:
+                    if(!var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var6 = true;
                     var3 = 0;
-                    if(!(var6 !== var8)) { _fun0002_ip = 3; continue _fun0002 }
-case 7:
+                    if(!(var6 !== var8)) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
                     var3 = 1;
-case 3:
+case 6:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 10;
@@ -225,27 +226,26 @@ case 3:
             var8 = var13.bind(var4)(var8);
             var15 = var8.AdVideoPlayer;
             var13 = {};
-            var30 = {};
-            var32 = var22.videoHls;
+            var31 = {};
+            var33 = var22.videoHls;
             var8 = null;
-            var33 = var8 != var32;
-            var31 = '';
-            if(!var33) { _fun0001_ip = 8; continue _fun0001 }
+            var34 = var8 != var33;
+            var32 = '';
+            if(!var34) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            var32 = var33;
 case 9:
-            var31 = var32;
-case 8:
-            var30['uri'] = var31;
-            var13['source'] = var30;
-            var13['httpEngine'] = var19;
-            var19 = {'timestampSec': 0, 'maxTimestampSec': 0, 'duration': 0};
+            var31['uri'] = var32;
+            var13['source'] = var31;
+            var13['httpEngine'] = var30;
             var13['initialProgress'] = var19;
             var19 = false;
             var13['isFullscreen'] = var19;
             var29 = !var29;
-            if(var29) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var29) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var29 = var11;
-case 10:
+case 11:
             var13['externallyPaused'] = var29;
             var29 = _closure1_slot4;
             var29 = var29.absoluteFillObject;
@@ -264,10 +264,10 @@ case 10:
             var15[0] = var13;
             var13 = var8 == var10;
             var8 = undefined;
-            if(var13) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(var13) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var8 = var10.bind(var4)();
-case 12:
+case 13:
             var15[1] = var8;
             var19 = _closure1_slot6;
             var10 = _closure1_slot1;

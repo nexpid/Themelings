@@ -680,6 +680,50 @@ case 46:
         return var1;
     };
     var3['fetchBountyPreview'] = var4;
+    var4 = function setBountyVideoProgress(arg1, arg2) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var5 = arg2;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var3 = 10;
+            var4 = var1[var3];
+            var1 = undefined;
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.getCurrentAdSession;
+            var6 = var4.bind(var6)();
+            var4 = null;
+            if(!(var4 != var6)) { _fun0008_ip = 65; continue _fun0008 }
+case 66:
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = var4[var3];
+            var7 = var6.bind(var1)(var3);
+            var6 = var7.getOrRefreshAdSession;
+            var3 = true;
+            var3 = var6.bind(var7)(var3);
+            var3 = _closure1_slot1;
+            var2 = 4;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var6 = 'BOUNTIES_VIDEO_PROGRESS_UPDATE';
+            var2['type'] = var6;
+            var6 = arg1;
+            var2['bountyId'] = var6;
+            var6 = var5.timestampSec;
+            var2['timestampSec'] = var6;
+            var6 = var5.maxTimestampSec;
+            var2['maxTimestampSec'] = var6;
+            var5 = var5.duration;
+            var2['duration'] = var5;
+            var2 = var3.bind(var4)(var2);
+case 65:
+            return var1;
+        }
+    };
+    var3['setBountyVideoProgress'] = var4;
     var2 = function claimBountyReward() {
         var1 = undefined;
         var4 = _closure1_slot10;

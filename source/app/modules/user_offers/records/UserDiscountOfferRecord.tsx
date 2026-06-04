@@ -192,7 +192,7 @@ case 15:
             }
         };
         var6['value'] = var2;
-        var2 = new Array(6);
+        var2 = new Array(7);
         var2[0] = var6;
         var6 = {};
         var7 = 'isApplied';
@@ -263,6 +263,19 @@ case 17:
         };
         var6['value'] = var7;
         var2[5] = var6;
+        var6 = {};
+        var7 = 'getIsMultiIntervalDiscount';
+        var6['key'] = var7;
+        var7 = function value() {
+            var2 = this;
+            var1 = var2.getFullIntervalCount;
+            var2 = var1.bind(var2)();
+            var1 = 1;
+            var1 = var2 > var1;
+            return var1;
+        };
+        var6['value'] = var7;
+        var2[6] = var6;
         var6 = {};
         var7 = 'createFromServer';
         var6['key'] = var7;

@@ -903,7 +903,7 @@ case 18:
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
-            var3 = var1.items;
+            var3 = var1.messages;
             var _closure2_slot0 = var3;
             var3 = var1.hasMore;
             var _closure2_slot1 = var3;

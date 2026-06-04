@@ -45,7 +45,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -71,8 +71,10 @@ case 2:
     var _closure1_slot5 = var7;
     var7 = var4.PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID;
     var _closure1_slot6 = var7;
-    var4 = var4.PREMIUM_TIER_2_REFERRAL_TRIAL_ID;
-    var _closure1_slot7 = var4;
+    var7 = var4.PREMIUM_TIER_2_REFERRAL_TRIAL_ID;
+    var _closure1_slot7 = var7;
+    var4 = var4.PREMIUM_TIER_2_HFU_TWO_WEEK_TRIAL_ID;
+    var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -80,16 +82,16 @@ case 2:
     var4 = 'modules/premium/hooks/usePremiumTrialOffer.native.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function usePremiumTrialOffer() {
-        var4 = _closure1_slot0;
+        var3 = _closure1_slot0;
         var5 = _closure1_slot1;
         var2 = 4;
         var2 = var5[var2];
-        var9 = undefined;
-        var6 = var4.bind(var9)(var2);
+        var7 = undefined;
+        var6 = var3.bind(var7)(var2);
         var5 = var6.useStateFromStoresObject;
         var2 = _closure1_slot2;
-        var4 = new Array(1);
-        var4[0] = var2;
+        var3 = new Array(1);
+        var3[0] = var2;
         var2 = function() {
             var1 = {};
             var3 = _closure1_slot2;
@@ -101,25 +103,28 @@ case 2:
             var1['offerIds'] = var2;
             return var1;
         };
-        var2 = var5.bind(var6)(var4, var2);
-        var8 = var2.offerIds;
-        var7 = _closure1_slot8;
+        var2 = var5.bind(var6)(var3, var2);
+        var6 = var2.offerIds;
+        var5 = _closure1_slot9;
         var2 = _closure1_slot6;
-        var6 = var7.bind(var9)(var2, var8);
+        var10 = var5.bind(var7)(var2, var6);
         var2 = _closure1_slot3;
-        var5 = var7.bind(var9)(var2, var8);
+        var9 = var5.bind(var7)(var2, var6);
         var2 = _closure1_slot4;
-        var4 = var7.bind(var9)(var2, var8);
+        var8 = var5.bind(var7)(var2, var6);
         var2 = _closure1_slot5;
-        var2 = var7.bind(var9)(var2, var8);
+        var2 = var5.bind(var7)(var2, var6);
         var3 = _closure1_slot7;
-        var7 = var7.bind(var9)(var3, var8);
-        var3 = new Array(5);
-        var3[0] = var7;
-        var3[1] = var6;
-        var3[2] = var5;
-        var3[3] = var4;
-        var3[4] = var2;
+        var11 = var5.bind(var7)(var3, var6);
+        var3 = new Array(6);
+        var3[0] = var11;
+        var3[1] = var10;
+        var3[2] = var9;
+        var3[3] = var8;
+        var4 = _closure1_slot8;
+        var4 = var5.bind(var7)(var4, var6);
+        var3[4] = var4;
+        var3[5] = var2;
         var2 = var3.find;
         var1 = function(arg1) {
             var2 = null;

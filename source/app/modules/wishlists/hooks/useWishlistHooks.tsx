@@ -326,8 +326,6 @@ case 45:
             var14 = var15.useGetOrFetchStorefrontPricesForSkuIds;
             var13 = {};
             var13['skuIds'] = var16;
-            var16 = 'useFetchWishlist';
-            var13['location'] = var16;
             var13 = var14.bind(var15)(var13);
             var6 = var12[var6];
             var13 = var9.bind(var7)(var6);

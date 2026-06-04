@@ -38,22 +38,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.MAX_ACCOUNTS;
-    var _closure1_slot7 = var4;
+    var7 = var4.MAX_ACCOUNTS;
+    var _closure1_slot7 = var7;
+    var4 = var4.MultiAccountSwitchLocation;
+    var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.AnalyticEvents;
-    var _closure1_slot8 = var7;
+    var _closure1_slot9 = var7;
     var4 = var4.AuthStates;
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot10 = var7;
+    var _closure1_slot11 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = 7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -102,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['color'] = var10;
     var4['addAccountLabel'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -110,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/multi_account/native/ChooseAccount.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function ChooseAccount() {
-        var1 = _closure1_slot12;
+        var1 = _closure1_slot13;
         var4 = undefined;
         var12 = var1.bind(var4)();
         var16 = _closure1_slot0;
@@ -142,15 +144,17 @@ case 3:
                 var2 = 12;
                 var4 = var4[var2];
                 var2 = undefined;
-                var5 = var5.bind(var2)(var4);
-                var4 = var5.switchAccount;
-                var3 = var3.id;
-                var3 = var4.bind(var5)(var3);
+                var6 = var5.bind(var2)(var4);
+                var5 = var6.switchAccount;
+                var4 = var3.id;
+                var3 = _closure1_slot8;
+                var3 = var3.CHOOSE_ACCOUNT;
+                var3 = var5.bind(var6)(var4, var2, var3);
                 return var2;
 case 2:
                 var4 = _closure2_slot0;
                 var3 = var4.push;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var2 = var2.LOGIN;
                 var2 = var3.bind(var4)(var2);
                 var4 = _closure1_slot1;
@@ -160,7 +164,7 @@ case 2:
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
                 var3 = var4.track;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
                 var2 = var1.LOGIN_VIEWED;
                 var1 = {};
                 var5 = 'choose_account_user_invalid';
@@ -316,7 +320,7 @@ case 4:
         };
         var1 = var1.bind(var4)();
         var _closure2_slot3 = var1;
-        var3 = _closure1_slot10;
+        var3 = _closure1_slot11;
         var19 = _closure1_slot1;
         var1 = 18;
         var1 = var17[var1];
@@ -358,7 +362,7 @@ case 4:
         var1['backgroundImageCover'] = var6;
         var6 = var12.container;
         var1['contentStyle'] = var6;
-        var7 = _closure1_slot11;
+        var7 = _closure1_slot12;
         var6 = _closure1_slot5;
         var5 = {};
         var8 = var12.mainCard;
@@ -367,7 +371,7 @@ case 4:
         var8 = function(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;
-            var5 = _closure1_slot10;
+            var5 = _closure1_slot11;
             var11 = _closure1_slot1;
             var12 = _closure1_slot3;
             var2 = 21;
@@ -543,7 +547,7 @@ case 0:
 case 16:
                 var3 = _closure2_slot0;
                 var2 = var3.push;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
                 var1 = var1.LOGIN;
                 var1 = var2.bind(var3)(var1);
                 var3 = _closure1_slot1;
@@ -553,7 +557,7 @@ case 16:
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.track;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
                 var2 = var1.LOGIN_VIEWED;
                 var1 = {};
                 var5 = 'choose_account_add_account';

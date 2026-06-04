@@ -33,8 +33,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var8 = var4.AnalyticEvents;
+    var _closure1_slot7 = var8;
     var4 = var4.Endpoints;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var8 = var7.bind(var1)(var4);
@@ -44,8 +46,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7;
     var4 = new var13[var8](var12, var11);
     var4 = var4 instanceof Object ? var4 : var7;
-    var _closure1_slot8 = var4;
-    var4 = 9;
+    var _closure1_slot9 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -74,9 +76,12 @@ case 3:
                         var2 = arg1;
                         var6 = var2.id;
                         var5 = undefined;
+                        var12 = undefined;
                         var14 = undefined;
+                        var17 = undefined;
                         var13 = undefined;
-                        SaveGenerator(address=28);
+                        var9 = undefined;
+                        SaveGenerator(address=34);
 case 4:
                         return var5;
 case 5:
@@ -84,80 +89,121 @@ case 5:
                         if(var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
                         var7 = _closure1_slot2;
-                        var9 = _closure1_slot3;
+                        var10 = _closure1_slot3;
                         var4 = 5;
-                        var4 = var9[var4];
-                        var9 = var7.bind(var5)(var4);
-                        var7 = var9.getToken;
+                        var4 = var10[var4];
+                        var10 = var7.bind(var5)(var4);
+                        var7 = var10.getToken;
                         var4 = var6;
-                        var4 = var7.bind(var9)(var4);
-                        var14 = var4;
+                        var4 = var7.bind(var10)(var4);
+                        var17 = var4;
                         var10 = null;
                         if(!(var10 != var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                        var7 = var14;
+                        var7 = var17;
                         var4 = '';
                         if(!(var4 === var7)) { _fun0001_ip = 10; continue _fun0001 }
 case 8:
                         var7 = _closure1_slot1;
-                        var9 = _closure1_slot3;
+                        var11 = _closure1_slot3;
                         var4 = 6;
-                        var4 = var9[var4];
-                        var9 = var7.bind(var5)(var4);
-                        var7 = var9.dispatch;
+                        var4 = var11[var4];
+                        var11 = var7.bind(var5)(var4);
+                        var7 = var11.dispatch;
                         var4 = {};
-                        var11 = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
-                        var4['type'] = var11;
-                        var11 = var6;
-                        var4['userId'] = var11;
-                        var4 = var7.bind(var9)(var4);
+                        var15 = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
+                        var4['type'] = var15;
+                        var15 = var6;
+                        var4['userId'] = var15;
+                        var4 = var7.bind(var11)(var4);
                         _fun0001_ip = 11; continue _fun0001;
 case 10:
-                        var9 = _closure1_slot1;
+                        var11 = _closure1_slot1;
                         var4 = _closure1_slot3;
                         var7 = 6;
                         var4 = var4[var7];
-                        var11 = var9.bind(var5)(var4);
-                        var9 = var11.dispatch;
+                        var15 = var11.bind(var5)(var4);
+                        var11 = var15.dispatch;
                         var4 = {};
-                        var12 = 'MULTI_ACCOUNT_VALIDATE_TOKEN_REQUEST';
-                        var4['type'] = var12;
-                        var12 = var6;
-                        var4['userId'] = var12;
-                        var4 = var9.bind(var11)(var4);
+                        var16 = 'MULTI_ACCOUNT_VALIDATE_TOKEN_REQUEST';
+                        var4['type'] = var16;
+                        var16 = var6;
+                        var4['userId'] = var16;
+                        var4 = var11.bind(var15)(var4);
 case 12: // try_start_0
-                        var9 = _closure1_slot0;
-                        var11 = _closure1_slot3;
+                        var11 = _closure1_slot0;
+                        var15 = _closure1_slot3;
                         var4 = 7;
-                        var4 = var11[var4];
-                        var4 = var9.bind(var5)(var4);
-                        var11 = var4.HTTP;
-                        var9 = var11.get;
+                        var4 = var15[var4];
+                        var4 = var11.bind(var5)(var4);
+                        var15 = var4.HTTP;
+                        var11 = var15.get;
                         var4 = {};
-                        var12 = _closure1_slot7;
-                        var12 = var12.ME;
-                        var4['url'] = var12;
-                        var12 = {};
-                        var12['authorization'] = var14;
-                        var4['headers'] = var12;
-                        var12 = 3;
-                        var4['retries'] = var12;
-                        var12 = false;
-                        var4['rejectWithError'] = var12;
-                        var4 = var9.bind(var11)(var4);
-                        SaveGenerator(address=278);
+                        var16 = _closure1_slot8;
+                        var16 = var16.ME;
+                        var4['url'] = var16;
+                        var16 = {};
+                        var16['authorization'] = var17;
+                        var4['headers'] = var16;
+                        var16 = 3;
+                        var4['retries'] = var16;
+                        var16 = false;
+                        var4['rejectWithError'] = var16;
+                        var4 = var11.bind(var15)(var4);
+                        SaveGenerator(address=284);
 case 13:
                         return var4;
 case 14:
-                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
-                        if(var9) { _fun0001_ip = 15; continue _fun0001 }
+                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=10);
+                        if(var11) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
                         var13 = var4;
 case 17: // try_end0
+                        var11 = var13;
+                        var11 = var11.body;
+                        var14 = var11;
+                        var15 = var10 == var11;
+                        var11 = undefined;
+                        if(var15) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+                        var11 = var14.id;
+case 18:
+                        var12 = var11;
+                        var14 = var10 != var11;
+                        var11 = null;
+                        if(!var14) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+                        var11 = var12;
+case 20:
+                        var9 = var11;
+                        if(!(var10 != var11)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
+                        var12 = var9;
+                        var11 = var6;
+                        if(!(var12 !== var11)) { _fun0001_ip = 22; continue _fun0001 }
+case 24:
+                        var14 = {};
+                        var11 = var6;
+                        var14['expected_user_id'] = var11;
+                        var14['actual_user_id'] = var9;
+                        var12 = _closure1_slot9;
+                        var11 = var12.log;
+                        var9 = 'Found per-user token authentication mismatch';
+                        var9 = var11.bind(var12)(var9, var14);
+                        var11 = _closure1_slot1;
+                        var12 = _closure1_slot3;
+                        var9 = 8;
+                        var9 = var12[var9];
+                        var12 = var11.bind(var5)(var9);
+                        var11 = var12.track;
+                        var9 = _closure1_slot7;
+                        var9 = var9.MULTI_ACCOUNT_VALIDATE_TOKEN_USER_MISMATCH;
+                        var9 = var11.bind(var12)(var9, var14);
+case 22:
                         var11 = _closure2_slot0;
                         var9 = var6;
-                        if(!(var11 !== var9)) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+                        if(!(var11 !== var9)) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
                         var11 = _closure1_slot1;
                         var9 = _closure1_slot3;
                         var9 = var9[var7];
@@ -169,7 +215,7 @@ case 19:
                         var13 = var13.body;
                         var9['user'] = var13;
                         var9 = var11.bind(var12)(var9);
-case 18:
+case 25:
                         var11 = _closure1_slot1;
                         var9 = _closure1_slot3;
                         var9 = var9[var7];
@@ -185,31 +231,31 @@ case 11:
                         return var5;
 case 15:
                         return var4;
-case 20: // catch_target0
+case 27: // catch_target0
                         CatchBlockStart(arg_register=8);
                         var8 = var9;
                         var9 = var10 == var9;
                         var11 = undefined;
-                        if(var9) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+                        if(var9) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
                         var9 = var8;
                         var11 = var9.status;
-case 21:
+case 28:
                         var9 = 401;
                         var9 = var9 === var11;
                         var4 = var9;
-                        if(var9) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
+                        if(var9) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
                         var9 = var8;
                         var10 = var10 == var9;
                         var9 = undefined;
-                        if(var10) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
+                        if(var10) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
                         var9 = var8.status;
-case 25:
+case 32:
                         var8 = 403;
                         var4 = var8 === var9;
-case 23:
+case 30:
                         var8 = var4;
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot3;
@@ -218,10 +264,10 @@ case 23:
                         var4 = var5.dispatch;
                         var3 = {};
                         var7 = 'MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS';
-                        if(!var8) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+                        if(!var8) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
                         var7 = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
-case 27:
+case 34:
                         var3['type'] = var7;
                         var3['userId'] = var6;
                         var3 = var4.bind(var5)(var3);
@@ -257,12 +303,13 @@ case 2:
         return var1;
     };
     var3['validateMultiAccountTokens'] = var4;
-    var4 = function switchAccount(arg1, arg2) {
+    var4 = function switchAccount(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = arg1;
             var8 = arg2;
-            var7 = _closure1_slot8;
+            var11 = arg3;
+            var7 = _closure1_slot9;
             var5 = var7.log;
             var2 = global;
             var1 = var2.HermesInternal;
@@ -280,19 +327,37 @@ case 0:
             var4 = var4.bind(var5)(var1);
             var1 = var4.getToken;
             var7 = var1.bind(var4)(var6);
-            var1 = null;
-            if(!(var1 != var7)) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+            var10 = null;
+            if(!(var10 != var7)) { _fun0002_ip = 36; continue _fun0002 }
+case 8:
             var4 = _closure1_slot1;
             var9 = _closure1_slot3;
-            var1 = 8;
+            var1 = 6;
+            var1 = var9[var1];
+            var9 = var4.bind(var5)(var1);
+            var4 = var9.dispatch;
+            var1 = {};
+            var12 = 'MULTI_ACCOUNT_SWITCH_START';
+            var1['type'] = var12;
+            var1['targetUserId'] = var6;
+            var12 = var10 != var11;
+            var10 = null;
+            if(!var12) { _fun0002_ip = 10; continue _fun0002 }
+case 37:
+            var10 = var11;
+case 10:
+            var1['location'] = var10;
+            var1 = var4.bind(var9)(var1);
+            var4 = _closure1_slot1;
+            var9 = _closure1_slot3;
+            var1 = 9;
             var1 = var9[var1];
             var4 = var4.bind(var5)(var1);
             var1 = var4.switchAccountToken;
             var1 = var1.bind(var4)(var7, var8);
-            _fun0002_ip = 31; continue _fun0002;
-case 29:
-            var8 = _closure1_slot8;
+            _fun0002_ip = 38; continue _fun0002;
+case 36:
+            var8 = _closure1_slot9;
             var7 = var8.log;
             var4 = 'Switching accounts failed because there was no token';
             var4 = var7.bind(var8)(var4);
@@ -310,7 +375,7 @@ case 29:
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)();
-case 31:
+case 38:
             return var1;
         }
     };
