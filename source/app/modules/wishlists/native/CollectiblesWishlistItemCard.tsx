@@ -207,7 +207,7 @@ case 13:
             var12 = var1 == var4;
             var11 = undefined;
             if(var12) { _fun0001_ip = 18; continue _fun0001 }
-case 16:
+case 19:
             var11 = var4.type;
 case 18:
             var12 = _closure1_slot0;
@@ -217,11 +217,11 @@ case 18:
             var4 = var12.bind(var5)(var4);
             var4 = var4.CollectiblesItemType;
             var4 = var4.PROFILE_FRAME;
-            if(!(var11 === var4)) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(!(var11 === var4)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var1 = null;
-            if(!var3) { _fun0001_ip = 21; continue _fun0001 }
-case 19:
+            if(!var3) { _fun0001_ip = 22; continue _fun0001 }
+case 20:
             var4 = _closure1_slot5;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -237,7 +237,7 @@ case 19:
             var16 = var6;
             var6 = copyDataProperties(var17, var16);
             var1 = var4.bind(var5)(var3, var2);
-case 21:
+case 22:
             return var1;
         }
     };

@@ -148,16 +148,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var6 = var1.channel;
-            var21 = var1.channelCategoryName;
+            var21 = var1.channel;
+            var20 = var1.channelCategoryName;
             var26 = var1.subtitle;
-            var11 = var1.unreadBadge;
-            var16 = var1.mentionBadge;
-            var20 = var1.locked;
+            var10 = var1.unreadBadge;
+            var15 = var1.mentionBadge;
+            var19 = var1.locked;
             var4 = undefined;
-            if(!(var20 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var19 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var20 = false;
+            var19 = false;
 case 2:
             var25 = var1.unread;
             if(!(var25 === var4)) { _fun0001_ip = 4; continue _fun0001 }
@@ -170,10 +170,10 @@ case 7:
             var2 = _closure1_slot7;
             var24 = var2.ONLY_MENTIONS;
 case 6:
-            var18 = var1.live;
-            if(!(var18 === var4)) { _fun0001_ip = 8; continue _fun0001 }
+            var17 = var1.live;
+            if(!(var17 === var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var18 = false;
+            var17 = false;
 case 8:
             var23 = var1.muted;
             if(!(var23 === var4)) { _fun0001_ip = 10; continue _fun0001 }
@@ -181,23 +181,23 @@ case 11:
             var23 = false;
 case 10:
             var3 = var1.latestMessageTimestamp;
-            var13 = var1.end;
-            var19 = var1.connected;
-            var17 = var1.mentionCount;
+            var12 = var1.end;
+            var18 = var1.connected;
+            var16 = var1.mentionCount;
             var27 = var1.channelName;
             var5 = var1.fontScale;
-            var15 = var1.isSubscriptionGated;
-            if(!(var15 === var4)) { _fun0001_ip = 12; continue _fun0001 }
+            var14 = var1.isSubscriptionGated;
+            if(!(var14 === var4)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var15 = false;
-case 12:
-            var14 = var1.needSubscriptionToAccess;
-            if(!(var14 === var4)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
             var14 = false;
+case 12:
+            var13 = var1.needSubscriptionToAccess;
+            if(!(var13 === var4)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var13 = false;
 case 14:
-            var9 = null;
-            var1 = var9 == var3;
+            var8 = null;
+            var1 = var8 == var3;
             var22 = null;
             if(var1) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
@@ -205,9 +205,9 @@ case 17:
             if(var23) { _fun0001_ip = 16; continue _fun0001 }
 case 18:
             var2 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var1 = 14;
-            var1 = var7[var1];
+            var1 = var6[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.getRelativeTimestamp;
             var22 = var1.bind(var2)(var3);
@@ -221,14 +221,14 @@ case 16:
             var1 = 15;
             var1 = var32[var1];
             var3 = var31.bind(var4)(var1);
-            var7 = _closure1_slot10;
+            var6 = _closure1_slot10;
             var2 = _closure1_slot9;
             var1 = {};
-            var8 = new Array(4);
-            var8[0] = var11;
+            var7 = new Array(4);
+            var7[0] = var10;
             var28 = _closure1_slot8;
-            var12 = _closure1_slot3;
-            var11 = {};
+            var11 = _closure1_slot3;
+            var10 = {};
             var29 = {'position': 'relative', 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexShrink': 0, 'flexGrow': 0};
             var30 = 9;
             var30 = var32[var30];
@@ -248,15 +248,15 @@ case 16:
             var36 = var30.margin;
             var37 = var29;
             var30 = copyDataProperties(var37, var36);
-            var11['style'] = var29;
-            var29 = var6.isGroupDM;
-            var29 = var29.bind(var6)();
+            var10['style'] = var29;
+            var29 = var21.isGroupDM;
+            var29 = var29.bind(var21)();
             var32 = _closure1_slot8;
             if(var29) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
             var30 = _closure1_slot12;
             var29 = {};
-            var29['channel'] = var6;
+            var29['channel'] = var21;
             var29 = var32.bind(var4)(var30, var29);
             _fun0001_ip = 21; continue _fun0001;
 case 19:
@@ -266,22 +266,22 @@ case 19:
             var30 = var34[var30];
             var31 = var31.bind(var4)(var30);
             var30 = {};
-            var30['channel'] = var6;
+            var30['channel'] = var21;
             var33 = var33.icon;
             var33 = var33.avatarSize;
             var30['size'] = var33;
             var29 = var32.bind(var4)(var31, var30);
 case 21:
-            var11['children'] = var29;
-            var11 = var28.bind(var4)(var12, var11);
-            var8[1] = var11;
-            var12 = _closure1_slot1;
+            var10['children'] = var29;
+            var10 = var28.bind(var4)(var11, var10);
+            var7[1] = var10;
+            var11 = _closure1_slot1;
             var28 = _closure1_slot2;
-            var11 = 17;
-            var11 = var28[var11];
-            var12 = var12.bind(var4)(var11);
-            var11 = {};
-            if(!(var9 == var27)) { _fun0001_ip = 22; continue _fun0001 }
+            var10 = 17;
+            var10 = var28[var10];
+            var11 = var11.bind(var4)(var10);
+            var10 = {};
+            if(!(var8 == var27)) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
             var29 = _closure1_slot0;
             var30 = _closure1_slot2;
@@ -291,44 +291,43 @@ case 23:
             var30 = var31.computeChannelName;
             var29 = _closure1_slot6;
             var28 = _closure1_slot5;
-            var27 = var30.bind(var31)(var6, var29, var28);
+            var27 = var30.bind(var31)(var21, var29, var28);
 case 22:
-            var11['name'] = var27;
-            var11['subtitle'] = var26;
-            var11['unread'] = var25;
-            var11['resolvedUnreadSetting'] = var24;
-            var11['muted'] = var23;
-            var11['lastMessageTimestampString'] = var22;
-            var11['channel'] = var6;
-            var11['channelCategoryName'] = var21;
-            var11['locked'] = var20;
-            var11['connected'] = var19;
-            var11['live'] = var18;
-            var11['mentionCount'] = var17;
-            var11['mentionBadge'] = var16;
-            var11['isSubscriptionGated'] = var15;
-            var11['needSubscriptionToAccess'] = var14;
-            var11 = var12.bind(var4)(var11);
-            var8[2] = var11;
-            var11 = var9 != var13;
-            var9 = null;
-            if(!var11) { _fun0001_ip = 24; continue _fun0001 }
+            var10['name'] = var27;
+            var10['subtitle'] = var26;
+            var10['unread'] = var25;
+            var10['resolvedUnreadSetting'] = var24;
+            var10['muted'] = var23;
+            var10['lastMessageTimestampString'] = var22;
+            var10['channel'] = var21;
+            var10['channelCategoryName'] = var20;
+            var10['locked'] = var19;
+            var10['connected'] = var18;
+            var10['live'] = var17;
+            var10['mentionCount'] = var16;
+            var10['mentionBadge'] = var15;
+            var10['isSubscriptionGated'] = var14;
+            var10['needSubscriptionToAccess'] = var13;
+            var10 = var11.bind(var4)(var10);
+            var7[2] = var10;
+            var10 = var8 != var12;
+            var8 = null;
+            if(!var10) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var12 = _closure1_slot8;
-            var11 = _closure1_slot3;
-            var10 = {};
-            var14 = {};
-            var15 = 8;
-            var14['paddingLeft'] = var15;
-            var10['style'] = var14;
-            var10['children'] = var13;
-            var9 = var12.bind(var4)(var11, var10);
+            var11 = _closure1_slot8;
+            var10 = _closure1_slot3;
+            var9 = {};
+            var13 = {};
+            var14 = 8;
+            var13['paddingLeft'] = var14;
+            var9['style'] = var13;
+            var9['children'] = var12;
+            var8 = var11.bind(var4)(var10, var9);
 case 24:
-            var8[3] = var9;
-            var1['children'] = var8;
-            var2 = var7.bind(var4)(var2, var1);
+            var7[3] = var8;
+            var1['children'] = var7;
+            var2 = var6.bind(var4)(var2, var1);
             var1 = {};
-            var1['channel'] = var6;
             var1['fontScale'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

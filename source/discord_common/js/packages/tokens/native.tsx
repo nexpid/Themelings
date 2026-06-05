@@ -386,6 +386,11 @@ case 41:
     };
     var12 = var13.bind(var1)(var14, var12);
     var7['modules'] = var12;
+    var12 = 9;
+    var12 = var10[var12];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.SpacePx;
+    var7['space'] = var12;
     var7['spacing'] = var8;
     var8 = {};
     var12 = function isSemanticColor(arg1) {
@@ -567,7 +572,7 @@ case 68:
 case 70:
             var13 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var9 = 9;
+            var9 = 10;
             var9 = var15[var9];
             var13 = var13.bind(var5)(var9);
             var15 = var14.color;
@@ -681,7 +686,7 @@ case 94:
 case 97:
             var3 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var13[var1];
             var3 = var3.bind(var5)(var1);
             var1 = var3.transformColorForReducedSaturation;
@@ -692,7 +697,7 @@ case 96:
 case 99:
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var12[var1];
             var7 = var7.bind(var5)(var1);
             var1 = var7.transformColorContrast;
@@ -708,7 +713,7 @@ case 98:
 case 101:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 9;
+            var2 = 10;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var3 = var2.bind(var5)(var3);
@@ -724,7 +729,7 @@ case 100:
     var12 = function adjustColorSaturation(arg1, arg2, arg3) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 10;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
@@ -739,7 +744,7 @@ case 100:
     var11 = function adjustColorContrast(arg1, arg2, arg3, arg4) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 10;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var6 = var3.bind(var1)(var2);
@@ -754,7 +759,7 @@ case 100:
     };
     var8['adjustColorContrast'] = var11;
     var7['internal'] = var8;
-    var8 = 11;
+    var8 = 12;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;

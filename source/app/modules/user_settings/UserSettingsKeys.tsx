@@ -328,6 +328,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CLIPS_ENABLE_DECOUPLED_CLIPPING'] = var1;
     var1 = 'clips_enable_reminders';
     var2['CLIPS_ENABLE_REMINDERS'] = var1;
+    var1 = 'clips_show_pov_clips';
+    var2['CLIPS_SHOW_POV_CLIPS'] = var1;
     var1 = 'clips_length';
     var2['CLIPS_LENGTH'] = var1;
     var1 = 'clips_resolution';

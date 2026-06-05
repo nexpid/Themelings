@@ -56,7 +56,7 @@ case 0:
             var1 = arg1;
             var2 = var1.channelId;
             var _closure2_slot0 = var2;
-            var16 = var1.hideGifFavorites;
+            var17 = var1.hideGifFavorites;
             var10 = var1.onDismiss;
             var2 = var1.onPressEmoji;
             var _closure2_slot1 = var2;
@@ -64,11 +64,12 @@ case 0:
             var _closure2_slot2 = var2;
             var2 = var1.onPressGIF;
             var _closure2_slot3 = var2;
-            var14 = var1.visibleTabs;
+            var15 = var1.visibleTabs;
+            var14 = var1.initialGifQuery;
             var3 = _closure1_slot3;
             var2 = var3.useRef;
             var1 = null;
-            var20 = var2.bind(var3)(var1);
+            var21 = var2.bind(var3)(var1);
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 5;
@@ -77,7 +78,7 @@ case 0:
             var7 = var4.bind(var5)(var2);
             var3 = var7.useSharedValue;
             var2 = -1;
-            var19 = var3.bind(var7)(var2);
+            var20 = var3.bind(var7)(var2);
             var2 = 6;
             var2 = var6[var2];
             var7 = var4.bind(var5)(var2);
@@ -87,7 +88,7 @@ case 0:
             var2 = var4.bind(var5)(var2);
             var2 = var2.KeyboardTypes;
             var2 = var2.EXPRESSION;
-            var17 = var3.bind(var7)(var2);
+            var18 = var3.bind(var7)(var2);
             var2 = 8;
             var2 = var6[var2];
             var8 = var4.bind(var5)(var2);
@@ -102,7 +103,7 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var18 = var7.bind(var8)(var3, var2);
+            var19 = var7.bind(var8)(var3, var2);
             var2 = function dismissSheet() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -129,7 +130,7 @@ case 0:
             var11 = true;
             var2['ignoreKeyboard'] = var11;
             var2 = var7.bind(var5)(var2);
-            var22 = var2.height;
+            var23 = var2.height;
             var2 = 12;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
@@ -139,9 +140,9 @@ case 0:
             var2 = var6[var2];
             var2 = var4.bind(var5)(var2);
             var2 = var2.NAV_BAR_HEIGHT_MULTILINE;
-            var2 = var22 - var2;
+            var2 = var23 - var2;
             var12 = var2 - var3;
-            if(!(var5 !== var18)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var5 !== var19)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var4 = _closure1_slot9;
             var3 = _closure1_slot8;
@@ -157,42 +158,42 @@ case 3:
 case 5:
             var9 = _closure1_slot7;
             var8 = _closure1_slot1;
-            var21 = _closure1_slot2;
+            var22 = _closure1_slot2;
             var6 = 15;
-            var6 = var21[var6];
+            var6 = var22[var6];
             var8 = var8.bind(var5)(var6);
             var6 = {};
-            var6['animatedSheetIndex'] = var19;
+            var6['animatedSheetIndex'] = var20;
             var7 = var9.bind(var5)(var8, var6);
 case 4:
             var6 = new Array(2);
             var6[0] = var7;
             var9 = _closure1_slot7;
             var8 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var22 = _closure1_slot2;
             var7 = 16;
-            var7 = var21[var7];
+            var7 = var22[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.BottomSheet;
             var7 = {};
             var7['scrollable'] = var11;
-            var7['animatedIndex'] = var19;
+            var7['animatedIndex'] = var20;
             var11 = _closure1_slot5;
-            var11 = var22 * var11;
+            var11 = var23 * var11;
             var7['startHeight'] = var11;
             var7['containerHeight'] = var12;
             var7['onDismiss'] = var10;
             var11 = _closure1_slot1;
             var10 = 17;
-            var10 = var21[var10];
+            var10 = var22[var10];
             var11 = var11.bind(var5)(var10);
             var10 = {};
-            var10['bottomSheetRef'] = var20;
-            var10['bottomSheetIndex'] = var19;
-            var10['channel'] = var18;
-            var10['expressionType'] = var17;
-            var10['hideGifFavorites'] = var16;
-            var16 = function onPressEmoji(arg1) {
+            var10['bottomSheetRef'] = var21;
+            var10['bottomSheetIndex'] = var20;
+            var10['channel'] = var19;
+            var10['expressionType'] = var18;
+            var10['hideGifFavorites'] = var17;
+            var17 = function onPressEmoji(arg1) {
                 var4 = _closure2_slot1;
                 var1 = undefined;
                 var3 = arg1;
@@ -201,8 +202,8 @@ case 4:
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var10['onPressEmoji'] = var16;
-            var16 = function onPressGIF(arg1) {
+            var10['onPressEmoji'] = var17;
+            var17 = function onPressGIF(arg1) {
                 var4 = _closure2_slot3;
                 var1 = undefined;
                 var3 = arg1;
@@ -211,8 +212,8 @@ case 4:
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var10['onPressGIF'] = var16;
-            var15 = function onPressSticker(arg1) {
+            var10['onPressGIF'] = var17;
+            var16 = function onPressSticker(arg1) {
                 var4 = _closure2_slot2;
                 var1 = undefined;
                 var3 = arg1;
@@ -221,8 +222,9 @@ case 4:
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var10['onPressSticker'] = var15;
-            var10['visibleTabs'] = var14;
+            var10['onPressSticker'] = var16;
+            var10['visibleTabs'] = var15;
+            var10['initialGifQuery'] = var14;
             var13 = _closure1_slot6;
             var10['stickerFormats'] = var13;
             var10['height'] = var12;

@@ -280,6 +280,8 @@ case 25:
             var3['contentMessage'] = var9;
             var3['hideSimpleEmbedContent'] = var14;
             var3['formatInline'] = var13;
+            var9 = true;
+            var3['allowGameMentions'] = var9;
             var9 = var11;
             if(var11) { _fun0004_ip = 27; continue _fun0004 }
 case 28:

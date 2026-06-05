@@ -61,7 +61,7 @@ case 2:
         }
     };
     var3['getClipsRuntime'] = var4;
-    var2 = function isClipsV3MLEnabled() {
+    var4 = function isClipsV3MLEnabled() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -79,6 +79,25 @@ case 4:
             return var1;
         }
     };
-    var3['isClipsV3MLEnabled'] = var2;
+    var3['isClipsV3MLEnabled'] = var4;
+    var2 = function useIsClipsV3MLEnabled() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var2 = var3.useConfig;
+            var1 = {};
+            var4 = 'isClipsV3MLEnabled';
+            var1['location'] = var4;
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.enableClipsV3;
+            var2 = var2.enableClipsV3ML;
+            if(!var1) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
+            var1 = var2;
+case 4:
+            return var1;
+        }
+    };
+    var3['useIsClipsV3MLEnabled'] = var2;
     return var1;
 })();

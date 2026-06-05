@@ -3213,6 +3213,8 @@ case 85:
         var5['onTapCommandMention'] = var15;
         var15 = var13.handleLongPressCommandMention;
         var5['onLongPressCommandMention'] = var15;
+        var15 = var13.handleTapGameMention;
+        var5['onTapGameMention'] = var15;
         var15 = var13.handleTapLink;
         var5['onTapLink'] = var15;
         var15 = var13.handleLongPressLink;
@@ -3319,6 +3321,10 @@ case 402:
         var5['onTapReferralRedeem'] = var15;
         var15 = var13.handleGiftIntentCardViewed;
         var5['onGiftIntentCardViewed'] = var15;
+        var15 = var13.handleTapGiftIntentPrimaryCta;
+        var5['onTapGiftIntentPrimaryCta'] = var15;
+        var15 = var13.handleTapGiftIntentSecondaryCta;
+        var5['onTapGiftIntentSecondaryCta'] = var15;
         var15 = var13.handleTapThreadEmbed;
         var5['onTapThreadEmbed'] = var15;
         var15 = var13.handleTapEmoji;

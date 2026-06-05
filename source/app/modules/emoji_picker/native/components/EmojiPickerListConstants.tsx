@@ -40,13 +40,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 33;
     var3['IMAGE_SIZE'] = var5;
     var7 = 8;
-    var3['LABEL_MARGIN'] = var7;
+    var3['LABEL_TOP_PADDING'] = var7;
     var7 = 16;
     var3['LABEL_HEIGHT'] = var7;
+    var7 = 4;
+    var3['LABEL_BOTTOM_PADDING'] = var7;
     var5 = var5 + var6;
     var3['ROW_HEIGHT'] = var5;
-    var5 = 4;
-    var3['SPACER_TOP_HEIGHT'] = var5;
     var3['EmojiPickerRenderingDataType'] = var4;
     var4 = 40;
     var3['NSFW_ROW_HEIGHT'] = var4;

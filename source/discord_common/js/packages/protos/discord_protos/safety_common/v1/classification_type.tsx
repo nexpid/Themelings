@@ -582,6 +582,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['EARLY_FRAUD_WARNING_HIGH_RISK_SMITE'] = var5;
     var1 = 'EARLY_FRAUD_WARNING_HIGH_RISK_SMITE';
     var2[var5] = var1;
+    var5 = 3115;
+    var2['INAPPROPRIATE_SEXUAL_INTERACTIONS_WITH_MINORS_NON_GROOMING_SMITE'] = var5;
+    var1 = 'INAPPROPRIATE_SEXUAL_INTERACTIONS_WITH_MINORS_NON_GROOMING_SMITE';
+    var2[var5] = var1;
     var5 = 4000;
     var2['PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK'] = var5;
     var1 = 'PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK';

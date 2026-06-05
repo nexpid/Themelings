@@ -114,20 +114,25 @@ case 7:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
-            var14 = var2.style;
-            var8 = var2.active;
+            var15 = var2.style;
+            var14 = var2.active;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+            if(!(var14 === var4)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var8 = false;
+            var14 = false;
 case 8:
+            var8 = var2.showKeyboardIcon;
+            if(!(var8 === var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var8 = var14;
+case 10:
             var13 = var2.onPress;
             var _closure2_slot0 = var13;
-            var15 = _closure1_slot0;
-            var17 = _closure1_slot2;
+            var16 = _closure1_slot0;
+            var18 = _closure1_slot2;
             var2 = 4;
-            var2 = var17[var2];
-            var5 = var15.bind(var4)(var2);
+            var2 = var18[var2];
+            var5 = var16.bind(var4)(var2);
             var3 = var5.useMobileVisualRefreshConfig;
             var2 = {};
             var6 = 'ChatInputExpressionButton';
@@ -136,61 +141,61 @@ case 8:
             var9 = var2.enabled;
             var5 = var2.chatInputFloating;
             var6 = 5;
-            var2 = var17[var6];
-            var11 = var15.bind(var4)(var2);
+            var2 = var18[var6];
+            var11 = var16.bind(var4)(var2);
             var7 = var11.useToken;
-            var16 = _closure1_slot1;
+            var17 = _closure1_slot1;
             var2 = 3;
-            var3 = var17[var2];
-            var3 = var16.bind(var4)(var3);
+            var3 = var18[var2];
+            var3 = var17.bind(var4)(var3);
             var3 = var3.modules;
             var3 = var3.mobile;
             var3 = var3.CHAT_INPUT_ACTION_BUTTON_SIZE;
             var7 = var7.bind(var11)(var3);
-            var3 = var17[var6];
-            var12 = var15.bind(var4)(var3);
+            var3 = var18[var6];
+            var12 = var16.bind(var4)(var3);
             var11 = var12.useToken;
-            var3 = var17[var2];
-            var3 = var16.bind(var4)(var3);
+            var3 = var18[var2];
+            var3 = var17.bind(var4)(var3);
             var3 = var3.modules;
             var3 = var3.mobile;
             var3 = var3.CHAT_INPUT_PILL_PADDING;
             var11 = var11.bind(var12)(var3);
-            var3 = var17[var6];
-            var18 = var15.bind(var4)(var3);
-            var12 = var18.useToken;
-            var3 = var17[var2];
-            var3 = var16.bind(var4)(var3);
+            var3 = var18[var6];
+            var19 = var16.bind(var4)(var3);
+            var12 = var19.useToken;
+            var3 = var18[var2];
+            var3 = var17.bind(var4)(var3);
             var3 = var3.modules;
             var3 = var3.mobile;
             var3 = var3.CHAT_INPUT_PILL_BORDER_WIDTH;
-            var3 = var12.bind(var18)(var3);
-            var12 = var17[var6];
-            var19 = var15.bind(var4)(var12);
-            var18 = var19.useToken;
-            var12 = var17[var2];
-            var12 = var16.bind(var4)(var12);
+            var3 = var12.bind(var19)(var3);
+            var12 = var18[var6];
+            var20 = var16.bind(var4)(var12);
+            var19 = var20.useToken;
+            var12 = var18[var2];
+            var12 = var17.bind(var4)(var12);
             var12 = var12.modules;
             var12 = var12.mobile;
             var12 = var12.CHAT_INPUT_ICON_SIZE;
-            var12 = var18.bind(var19)(var12);
-            var6 = var17[var6];
-            var15 = var15.bind(var4)(var6);
-            var6 = var15.useToken;
-            var2 = var17[var2];
-            var2 = var16.bind(var4)(var2);
+            var12 = var19.bind(var20)(var12);
+            var6 = var18[var6];
+            var16 = var16.bind(var4)(var6);
+            var6 = var16.useToken;
+            var2 = var18[var2];
+            var2 = var17.bind(var4)(var2);
             var2 = var2.modules;
             var2 = var2.mobile;
             var2 = var2.CHAT_INPUT_ACTION_BUTTON_MIN_TOUCH_TARGET_SIZE;
-            var6 = var6.bind(var15)(var2);
+            var6 = var6.bind(var16)(var2);
             var2 = var7;
-            if(var9) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+            if(var9) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var11 = var11 + var3;
             var3 = 2;
             var3 = var3 * var11;
             var2 = var7 - var3;
-case 10:
+case 12:
             var3 = _closure1_slot5;
             var11 = var3.bind(var4)(var9, var5, var2);
             var3 = global;
@@ -217,42 +222,42 @@ case 10:
             var13 = var2.bind(var3)(var1);
             var3 = _closure1_slot4;
             var2 = _closure1_slot0;
-            var15 = _closure1_slot2;
+            var16 = _closure1_slot2;
             var1 = 6;
-            var1 = var15[var1];
+            var1 = var16[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
             var1['ref'] = var13;
-            var15 = var11.expressionButton;
+            var16 = var11.expressionButton;
             var13 = new Array(2);
-            var13[0] = var15;
-            var13[1] = var14;
+            var13[0] = var16;
+            var13[1] = var15;
             var1['style'] = var13;
             var13 = var7 > var6;
             var6 = undefined;
-            if(!var13) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+            if(!var13) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var6 = var7;
-case 12:
+case 14:
             var1['hitSlop'] = var6;
             var6 = 'button';
             var1['accessibilityRole'] = var6;
             var6 = _closure1_slot0;
             var13 = _closure1_slot2;
             var7 = 7;
-            var14 = var13[var7];
-            var14 = var6.bind(var4)(var14);
-            var15 = var14.intl;
-            var14 = var15.string;
+            var15 = var13[var7];
+            var15 = var6.bind(var4)(var15);
+            var16 = var15.intl;
+            var15 = var16.string;
             var7 = var13[var7];
             var7 = var6.bind(var4)(var7);
             var7 = var7.t;
             var7 = var7.iZ7Mz9;
-            var7 = var14.bind(var15)(var7);
+            var7 = var15.bind(var16)(var7);
             var1['accessibilityLabel'] = var7;
             var7 = {};
-            var7['expanded'] = var8;
+            var7['expanded'] = var14;
             var1['accessibilityState'] = var7;
             var1['onPress'] = var5;
             var7 = _closure1_slot4;
@@ -263,10 +268,10 @@ case 12:
             var5 = {};
             var5['size'] = var12;
             var12 = !var9;
-            if(!var12) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(!var12) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var12 = var11.expressionButtonIconPosition;
-case 14:
+case 16:
             var9 = new Array(2);
             var9[0] = var12;
             var11 = var11.expressionButtonIconTint;
@@ -274,15 +279,15 @@ case 14:
             var5['style'] = var9;
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
-            if(var8) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(var8) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var8 = 10;
             var8 = var11[var8];
-            _fun0002_ip = 18; continue _fun0002;
-case 16:
+            _fun0002_ip = 20; continue _fun0002;
+case 18:
             var10 = 9;
             var8 = var11[var10];
-case 18:
+case 20:
             var8 = var9.bind(var4)(var8);
             var5['source'] = var8;
             var5 = var7.bind(var4)(var6, var5);

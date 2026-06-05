@@ -58,15 +58,13 @@ case 2:
     var9 = var7.bind(var1)(var5);
     var6 = var9.createApexExperiment;
     var5 = {'kind': 'user', 'name': '2026-03-clips-experiment'};
-    var10 = {'enableClips': false, 'ignorePlatformRestriction': false, 'enableScreenshotKeybind': false, 'enableAdvancedSignals': false};
+    var10 = {'enableClips': false, 'ignorePlatformRestriction': false};
     var5['defaultConfig'] = var10;
     var10 = {};
-    var11 = {'enableClips': true, 'ignorePlatformRestriction': false, 'enableScreenshotKeybind': false, 'enableAdvancedSignals': false};
+    var11 = {'enableClips': true, 'ignorePlatformRestriction': false};
     var10[1] = var11;
-    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'enableScreenshotKeybind': false, 'enableAdvancedSignals': true};
+    var11 = {'enableClips': true, 'ignorePlatformRestriction': true};
     var10[2] = var11;
-    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'enableScreenshotKeybind': false, 'enableAdvancedSignals': false};
-    var10[3] = var11;
     var5['variations'] = var10;
     var5 = var6.bind(var9)(var5);
     var _closure1_slot6 = var5;
@@ -163,37 +161,14 @@ case 10:
     var3['useIsClipsAvailable'] = var5;
     var3['isUserPremiumTypeForClipsEarlyAccess'] = var4;
     var4 = function isScreenshotKeybindEnabled() {
-        var3 = _closure1_slot6;
-        var2 = var3.getConfig;
-        var1 = {};
-        var4 = 'isScreenshotKeybindEnabled';
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.enableScreenshotKeybind;
+        var1 = false;
         return var1;
     };
     var3['isScreenshotKeybindEnabled'] = var4;
-    var4 = function useScreenshotKeybindEnabled() {
-        var3 = _closure1_slot6;
-        var2 = var3.useConfig;
-        var1 = {};
-        var4 = 'useScreenshotKeybindEnabled';
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.enableScreenshotKeybind;
+    var2 = function useScreenshotKeybindEnabled() {
+        var1 = false;
         return var1;
     };
-    var3['useScreenshotKeybindEnabled'] = var4;
-    var2 = function areAdvancedSignalsEnabled() {
-        var3 = _closure1_slot6;
-        var2 = var3.getConfig;
-        var1 = {};
-        var4 = 'areAdvancedSignalsEnabled';
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.enableAdvancedSignals;
-        return var1;
-    };
-    var3['areAdvancedSignalsEnabled'] = var2;
+    var3['useScreenshotKeybindEnabled'] = var2;
     return var1;
 })();

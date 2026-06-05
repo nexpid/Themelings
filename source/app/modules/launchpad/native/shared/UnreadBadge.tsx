@@ -55,9 +55,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var2 = var1.unread;
-            var14 = var1.resolvedUnreadSetting;
-            var12 = var1.muted;
-            var7 = var1.isThread;
+            var13 = var1.resolvedUnreadSetting;
+            var11 = var1.muted;
             var1 = _closure1_slot7;
             var5 = undefined;
             var6 = var1.bind(var5)();
@@ -72,24 +71,18 @@ case 0:
             var1 = var4[var1];
             var3 = var3.bind(var5)(var1);
             var1 = var3.useFontScale;
-            var16 = var1.bind(var3)();
+            var15 = var1.bind(var3)();
             var1 = null;
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
-            var9 = var6.unreadBadge;
+            var7 = var6.unreadBadge;
             var6 = new Array(3);
-            var6[0] = var9;
-            var9 = var8.unreadBadge;
-            if(var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var7 = var9.position;
-            _fun0001_ip = 6; continue _fun0001;
-case 4:
-            var7 = var9.positionThread;
-case 6:
+            var6[0] = var7;
+            var7 = var8.unreadBadge;
+            var7 = var7.position;
             var6[1] = var7;
             var7 = {};
             var9 = var8.unreadBadge;
@@ -100,40 +93,39 @@ case 6:
             var7['height'] = var8;
             var6[2] = var7;
             var2['style'] = var6;
-            var8 = _closure1_slot6;
             var7 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var9 = 8;
-            var6 = var13[var9];
+            var12 = _closure1_slot2;
+            var8 = 8;
+            var6 = var12[var8];
             var7 = var7.bind(var5)(var6);
             var6 = {};
-            var10 = true;
-            var6['classic'] = var10;
-            var10 = _closure1_slot0;
-            var9 = var13[var9];
-            var9 = var10.bind(var5)(var9);
-            var13 = var9.CHANNEL_BADGE_SIZE;
-            var9 = global;
-            var15 = var9.Math;
-            var10 = var15.max;
-            var9 = 1;
-            var10 = var10.bind(var15)(var16, var9);
-            var10 = var13 * var10;
-            var6['size'] = var10;
-            var10 = {};
-            var13 = _closure1_slot5;
-            var13 = var13.ALL_MESSAGES;
-            if(!(var14 === var13)) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            if(!var12) { _fun0001_ip = 9; continue _fun0001 }
-case 7:
-            var9 = _closure1_slot4;
-case 9:
-            var10['opacity'] = var9;
-            var9 = new Array(1);
-            var9[0] = var10;
-            var6['badgeStyle'] = var9;
-            var6 = var8.bind(var5)(var7, var6);
+            var9 = true;
+            var6['classic'] = var9;
+            var9 = _closure1_slot0;
+            var8 = var12[var8];
+            var8 = var9.bind(var5)(var8);
+            var12 = var8.CHANNEL_BADGE_SIZE;
+            var8 = global;
+            var14 = var8.Math;
+            var9 = var14.max;
+            var8 = 1;
+            var9 = var9.bind(var14)(var15, var8);
+            var9 = var12 * var9;
+            var6['size'] = var9;
+            var9 = {};
+            var12 = _closure1_slot5;
+            var12 = var12.ALL_MESSAGES;
+            if(!(var13 === var12)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
+            var8 = _closure1_slot4;
+case 6:
+            var9['opacity'] = var8;
+            var8 = new Array(1);
+            var8[0] = var9;
+            var6['badgeStyle'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 2:

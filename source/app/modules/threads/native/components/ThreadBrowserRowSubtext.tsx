@@ -189,9 +189,7 @@ case 10:
             var1 = var7[var1];
             var7 = var6.bind(var4)(var1);
             var6 = _closure2_slot0;
-            var1 = {};
-            var8 = true;
-            var1['formatInline'] = var8;
+            var1 = {'formatInline': true, 'allowGameMentions': true};
             var1 = var7.bind(var4)(var6, var1);
             var1 = var1.content;
             var2['children'] = var1;

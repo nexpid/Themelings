@@ -2547,14 +2547,19 @@ case 36:
             var1 = var8.guild_id;
 case 293:
             var1 = var5 != var1;
-            if(var1) { _fun0025_ip = 124; continue _fun0025 }
+            if(var1) { _fun0025_ip = 149; continue _fun0025 }
 case 127:
+            var2 = var5 == var8;
+            var6 = undefined;
+            if(var2) { _fun0025_ip = 45; continue _fun0025 }
+case 139:
             var6 = var8.type;
+case 45:
             var2 = _closure1_slot23;
             var2 = var2.DM;
             var2 = var6 === var2;
-            if(!var2) { _fun0025_ip = 71; continue _fun0025 }
-case 42:
+            if(!var2) { _fun0025_ip = 294; continue _fun0025 }
+case 40:
             var7 = _closure1_slot18;
             var6 = var7.getUser;
             var3 = var8.getRecipientId;
@@ -2562,15 +2567,15 @@ case 42:
             var3 = var6.bind(var7)(var3);
             var5 = var5 == var3;
             var4 = undefined;
-            if(var5) { _fun0025_ip = 142; continue _fun0025 }
-case 294:
+            if(var5) { _fun0025_ip = 124; continue _fun0025 }
+case 48:
             var4 = var3.bot;
-case 142:
+case 124:
             var3 = true;
             var2 = var3 === var4;
-case 71:
+case 294:
             var1 = var2;
-case 124:
+case 149:
             return var1;
         }
     };

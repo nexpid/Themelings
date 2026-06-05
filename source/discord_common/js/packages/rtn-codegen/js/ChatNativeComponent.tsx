@@ -58,6 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['registrationName'] = var5;
     var1['topLongPressCommandMention'] = var2;
     var2 = {};
+    var5 = 'onTapGameMention';
+    var2['registrationName'] = var5;
+    var1['topTapGameMention'] = var2;
+    var2 = {};
     var5 = 'onTapLink';
     var2['registrationName'] = var5;
     var1['topTapLink'] = var2;
@@ -137,6 +141,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'onGiftIntentCardViewed';
     var2['registrationName'] = var5;
     var1['topGiftIntentCardViewed'] = var2;
+    var2 = {};
+    var5 = 'onTapGiftIntentPrimaryCta';
+    var2['registrationName'] = var5;
+    var1['topTapGiftIntentPrimaryCta'] = var2;
+    var2 = {};
+    var5 = 'onTapGiftIntentSecondaryCta';
+    var2['registrationName'] = var5;
+    var1['topTapGiftIntentSecondaryCta'] = var2;
     var2 = {};
     var5 = 'onTapAvatar';
     var2['registrationName'] = var5;
@@ -404,7 +416,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var11 = var7.bind(var1)(var5);
     var9 = var11.ConditionallyIgnoredEventHandlers;
-    var5 = {'onChatScrollPosition': true, 'onTapImage': true, 'onTapChannel': true, 'onLongPressChannel': true, 'onTapAttachmentLink': true, 'onLongPressAttachmentLink': true, 'onTapCall': true, 'onTapMention': true, 'onTapCommandMention': true, 'onLongPressCommandMention': true, 'onTapLink': true, 'onLongPressLink': true, 'onTapReaction': true, 'onTapMessage': true, 'onDoubleTapMessage': true, 'onLongPressReaction': true, 'onLongPressMessage': true, 'onInitiateReply': true, 'onInitiateThread': true, 'onInitiateEdit': true, 'onTapSeparator': true, 'onTapInviteEmbed': true, 'onTapInviteEmbedAccept': true, 'onTapJoinActivity': true, 'onTapJoinRichPresence': true, 'onPressKey': true, 'onTapGiftCodeEmbed': true, 'onTapGiftCodeAccept': true, 'onTapReferralRedeem': true, 'onGiftIntentCardViewed': true, 'onTapAvatar': true, 'onTapSticker': true, 'onLongPressSticker': true, 'onLongPressAvatar': true, 'onTapUsername': true, 'onLongPressUsername': true, 'onTapMessageReply': true, 'onTapSummary': true, 'onTapSummaryJump': true, 'onTapEmoji': true, 'onTapThreadEmbed': true, 'onTapButtonActionComponent': true, 'onTapSelectActionComponent': true, 'onTapWelcomeReply': true, 'onTapInviteToSpeak': true, 'onTapTimestamp': true, 'onTapInlineCode': true, 'onTapRoleIcon': true, 'onTapVoiceChannelBadge': true, 'onTapGameIcon': true, 'onTapSuppressNotificationsIcon': true, 'onTapConnectionsRoleTag': true, 'onTapTimeoutIcon': true, 'onTapAutoModerationActions': true, 'onTapAutoModerationFeedback': true, 'onTapSeeMore': true, 'onTapTag': true, 'onTapCancelUploadItem': true, 'onTapFollowForumPost': true, 'onTapShareForumPost': true, 'onTapReactionOverflow': true, 'onTapCopyText': true, 'onTapOpTag': true, 'onMediaAttachmentPlaybackEnded': true, 'onMediaAttachmentPlaybackStarted': true, 'onVoiceMessagePlaybackFailed': true, 'onTapNavBar': true, 'onTapShowAltText': true, 'onTapTableView': true, 'onTapPostPreviewEmbed': true, 'onTapDismissMediaPostSharePrompt': true, 'onTapChannelPromptButton': true, 'onTapObscuredMediaLearnMore': true, 'onTapObscuredMediaToggle': true, 'onTapSafetyPolicyNoticeEmbed': true, 'onTapSafetySystemNotificationCta': true, 'onTapPollAnswer': true, 'onTapPollSubmitVote': true, 'onTapPollAction': true, 'onLongPressPollImage': true, 'onTapCtaButton': true, 'onFirstLayout': true, 'onMessageVisibilityChanged': true, 'onCompleteFirstLayout': true, 'onMessageAccessibilityAction': true, 'onMediaPlayFinishedAnalytics': true, 'onTapForwardFooter': true, 'onTapInlineForward': true, 'onTapClanTagChiplet': true, 'onTapContentInventoryEntryEmbed': true, 'onTapCheckpointCard': true, 'onTapSoundmoji': true, 'onTapAppMessageEmbed': true, 'onTapPreviewSharedClientTheme': true, 'onSharedClientThemeViewed': true};
+    var5 = {'onChatScrollPosition': true, 'onTapImage': true, 'onTapChannel': true, 'onLongPressChannel': true, 'onTapAttachmentLink': true, 'onLongPressAttachmentLink': true, 'onTapCall': true, 'onTapMention': true, 'onTapCommandMention': true, 'onLongPressCommandMention': true, 'onTapGameMention': true, 'onTapLink': true, 'onLongPressLink': true, 'onTapReaction': true, 'onTapMessage': true, 'onDoubleTapMessage': true, 'onLongPressReaction': true, 'onLongPressMessage': true, 'onInitiateReply': true, 'onInitiateThread': true, 'onInitiateEdit': true, 'onTapSeparator': true, 'onTapInviteEmbed': true, 'onTapInviteEmbedAccept': true, 'onTapJoinActivity': true, 'onTapJoinRichPresence': true, 'onPressKey': true, 'onTapGiftCodeEmbed': true, 'onTapGiftCodeAccept': true, 'onTapReferralRedeem': true, 'onGiftIntentCardViewed': true, 'onTapGiftIntentPrimaryCta': true, 'onTapGiftIntentSecondaryCta': true, 'onTapAvatar': true, 'onTapSticker': true, 'onLongPressSticker': true, 'onLongPressAvatar': true, 'onTapUsername': true, 'onLongPressUsername': true, 'onTapMessageReply': true, 'onTapSummary': true, 'onTapSummaryJump': true, 'onTapEmoji': true, 'onTapThreadEmbed': true, 'onTapButtonActionComponent': true, 'onTapSelectActionComponent': true, 'onTapWelcomeReply': true, 'onTapInviteToSpeak': true, 'onTapTimestamp': true, 'onTapInlineCode': true, 'onTapRoleIcon': true, 'onTapVoiceChannelBadge': true, 'onTapGameIcon': true, 'onTapSuppressNotificationsIcon': true, 'onTapConnectionsRoleTag': true, 'onTapTimeoutIcon': true, 'onTapAutoModerationActions': true, 'onTapAutoModerationFeedback': true, 'onTapSeeMore': true, 'onTapTag': true, 'onTapCancelUploadItem': true, 'onTapFollowForumPost': true, 'onTapShareForumPost': true, 'onTapReactionOverflow': true, 'onTapCopyText': true, 'onTapOpTag': true, 'onMediaAttachmentPlaybackEnded': true, 'onMediaAttachmentPlaybackStarted': true, 'onVoiceMessagePlaybackFailed': true, 'onTapNavBar': true, 'onTapShowAltText': true, 'onTapTableView': true, 'onTapPostPreviewEmbed': true, 'onTapDismissMediaPostSharePrompt': true, 'onTapChannelPromptButton': true, 'onTapObscuredMediaLearnMore': true, 'onTapObscuredMediaToggle': true, 'onTapSafetyPolicyNoticeEmbed': true, 'onTapSafetySystemNotificationCta': true, 'onTapPollAnswer': true, 'onTapPollSubmitVote': true, 'onTapPollAction': true, 'onLongPressPollImage': true, 'onTapCtaButton': true, 'onFirstLayout': true, 'onMessageVisibilityChanged': true, 'onCompleteFirstLayout': true, 'onMessageAccessibilityAction': true, 'onMediaPlayFinishedAnalytics': true, 'onTapForwardFooter': true, 'onTapInlineForward': true, 'onTapClanTagChiplet': true, 'onTapContentInventoryEntryEmbed': true, 'onTapCheckpointCard': true, 'onTapSoundmoji': true, 'onTapAppMessageEmbed': true, 'onTapPreviewSharedClientTheme': true, 'onSharedClientThemeViewed': true};
     var13 = var9.bind(var11)(var5);
     var14 = var2;
     var5 = copyDataProperties(var14, var13);

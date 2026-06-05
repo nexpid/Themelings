@@ -414,9 +414,6 @@ case 20:
             var23 = {};
             var23['unread'] = var22;
             var23['resolvedUnreadSetting'] = var21;
-            var36 = var17.isThread;
-            var36 = var36.bind(var17)();
-            var23['isThread'] = var36;
             var23['muted'] = var18;
             var23 = var35.bind(var3)(var34, var23);
             var6['unreadBadge'] = var23;

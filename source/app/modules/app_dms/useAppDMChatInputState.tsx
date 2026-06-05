@@ -94,30 +94,33 @@ case 0:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure2_slot0;
-                    var2 = var3.isDM;
-                    var2 = var2.bind(var3)();
-                    var4 = true;
-                    if(!(var4 === var2)) { _fun0002_ip = 2; continue _fun0002 }
+                    var1 = null;
+                    if(!(var1 != var3)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var3 = _closure1_slot8;
-                    var2 = var3.getUser;
-                    var5 = _closure2_slot0;
-                    var1 = var5.getRecipientId;
-                    var1 = var1.bind(var5)();
-                    var2 = var2.bind(var3)(var1);
-                    var3 = undefined;
-                    var1 = null;
-                    if(!(var3 !== var2)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                    var3 = var2.bot;
-                    var1 = null;
-                    if(!(var4 === var3)) { _fun0002_ip = 4; continue _fun0002 }
-case 6:
-                    var1 = var2;
+                    var4 = _closure2_slot0;
+                    var3 = var4.isDM;
+                    var3 = var3.bind(var4)();
+                    var5 = true;
+                    if(!(var5 === var3)) { _fun0002_ip = 2; continue _fun0002 }
 case 4:
-                    return var1;
+                    var4 = _closure1_slot8;
+                    var3 = var4.getUser;
+                    var6 = _closure2_slot0;
+                    var2 = var6.getRecipientId;
+                    var2 = var2.bind(var6)();
+                    var3 = var3.bind(var4)(var2);
+                    var4 = undefined;
+                    var2 = null;
+                    if(!(var4 !== var3)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                    var4 = var3.bot;
+                    var2 = null;
+                    if(!(var5 === var4)) { _fun0002_ip = 5; continue _fun0002 }
+case 7:
+                    var2 = var3;
+case 5:
+                    return var2;
 case 2:
-                    var1 = null;
                     return var1;
                 }
             };
@@ -141,11 +144,11 @@ case 0:
                     var1 = null;
                     var5 = var1 == var5;
                     var1 = undefined;
-                    if(var5) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+                    if(var5) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var4 = _closure2_slot1;
                     var1 = var4.id;
-case 7:
+case 8:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -163,43 +166,43 @@ case 0:
                     var3 = _closure2_slot1;
                     var4 = null;
                     var1 = undefined;
-                    if(!(var4 !== var3)) { _fun0004_ip = 9; continue _fun0004 }
-case 10:
+                    if(!(var4 !== var3)) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var6 = _closure1_slot6;
                     var5 = var6.getUserProfile;
                     var3 = _closure2_slot1;
                     var8 = var4 == var3;
                     var3 = undefined;
-                    if(var8) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                    if(var8) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                     var7 = _closure2_slot1;
                     var3 = var7.id;
-case 11:
+case 12:
                     var3 = var5.bind(var6)(var3);
                     var4 = var4 == var3;
                     var2 = undefined;
-                    if(var4) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                    if(var4) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                     var2 = var3.application;
-case 13:
+case 14:
                     var1 = var2;
-case 9:
+case 10:
                     return var1;
                 }
             };
             var9 = var9.bind(var10)(var8, var2);
             var2 = null;
             var8 = var7;
-            if(!(var2 == var8)) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!(var2 == var8)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var10 = var2 == var9;
             var7 = undefined;
-            if(var10) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(var10) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var7 = var9.id;
-case 17:
+case 18:
             var8 = var7;
-case 15:
+case 16:
             _closure2_slot2 = var8;
             var11 = _closure1_slot3;
             var10 = var11.useEffect;
@@ -211,8 +214,8 @@ case 15:
 case 0:
                     var1 = _closure2_slot2;
                     var5 = null;
-                    if(!(var5 == var1)) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                    if(!(var5 == var1)) { _fun0005_ip = 20; continue _fun0005 }
+case 3:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 9;
@@ -228,14 +231,14 @@ case 22:
                     var2 = var6.id;
 case 21:
                     if(!(var5 == var2)) { _fun0005_ip = 23; continue _fun0005 }
-case 14:
+case 15:
                     var2 = _closure1_slot9;
 case 23:
                     var1 = {};
                     var5 = true;
                     var1['withMutualGuilds'] = var5;
                     var1 = var3.bind(var4)(var2, var4, var1);
-case 19:
+case 20:
                     var1 = undefined;
                     return var1;
                 }
@@ -264,7 +267,7 @@ case 27:
                     var2 = var4.id;
 case 26:
                     if(!(var3 != var2)) { _fun0006_ip = 28; continue _fun0006 }
-case 29:
+case 4:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 10;
@@ -295,10 +298,10 @@ case 28:
             var6['applicationId'] = var8;
             var12 = var2 == var4;
             var11 = undefined;
-            if(var12) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
-            var11 = var4.id;
+            if(var12) { _fun0001_ip = 29; continue _fun0001 }
 case 30:
+            var11 = var4.id;
+case 29:
             var11 = var2 != var11;
             var6['allowFetch'] = var11;
             var11 = true;
@@ -314,10 +317,10 @@ case 0:
                     var2 = null;
                     var3 = var2 == var1;
                     var2 = undefined;
-                    if(var3) { _fun0007_ip = 32; continue _fun0007 }
-case 33:
-                    var2 = var1.id;
+                    if(var3) { _fun0007_ip = 31; continue _fun0007 }
 case 32:
+                    var2 = var1.id;
+case 31:
                     var1 = _closure2_slot2;
                     var1 = var2 === var1;
                     return var1;
@@ -326,10 +329,10 @@ case 32:
             var6 = var7.bind(var9)(var6);
             var7 = var2 == var6;
             var10 = undefined;
-            if(var7) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
-            var10 = var6.application;
+            if(var7) { _fun0001_ip = 33; continue _fun0001 }
 case 34:
+            var10 = var6.application;
+case 33:
             _closure2_slot3 = var10;
             var9 = _closure1_slot3;
             var7 = var9.useMemo;
@@ -342,13 +345,13 @@ case 0:
                     var1 = null;
                     var3 = var1 != var3;
                     var1 = undefined;
-                    if(!var3) { _fun0008_ip = 7; continue _fun0008 }
-case 36:
+                    if(!var3) { _fun0008_ip = 8; continue _fun0008 }
+case 35:
                     var4 = _closure1_slot7;
                     var3 = var4.createFromServer;
                     var2 = _closure2_slot3;
                     var1 = var3.bind(var4)(var2);
-case 7:
+case 8:
                     return var1;
                 }
             };
@@ -361,34 +364,34 @@ case 7:
             var6 = var7.useGetOrFetchApplication;
             var9 = var2 == var5;
             var1 = undefined;
-            if(!var9) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
-            var1 = var8;
+            if(!var9) { _fun0001_ip = 36; continue _fun0001 }
 case 37:
+            var1 = var8;
+case 36:
             var6 = var6.bind(var7)(var1);
             var1 = {};
-            if(!(var2 != var5)) { _fun0001_ip = 39; continue _fun0001 }
-case 40:
-            var6 = var5;
+            if(!(var2 != var5)) { _fun0001_ip = 38; continue _fun0001 }
 case 39:
+            var6 = var5;
+case 38:
             var7 = var2 != var6;
             var5 = undefined;
-            if(!var7) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
-            var5 = var6;
+            if(!var7) { _fun0001_ip = 40; continue _fun0001 }
 case 41:
+            var5 = var6;
+case 40:
             var1['application'] = var5;
             var5 = var2 == var4;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
-            var3 = var4.bot;
+            if(var5) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
+            var3 = var4.bot;
+case 42:
             var2 = var2 != var3;
-            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
-case 46:
-            var2 = var3;
+            if(!var2) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
+            var2 = var3;
+case 44:
             var1['isAppDM'] = var2;
             return var1;
         }

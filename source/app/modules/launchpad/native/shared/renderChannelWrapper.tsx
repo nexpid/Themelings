@@ -6,48 +6,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var6;
-    var1 = function getStyles(arg1, arg2) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var6 = arg2;
-            var2 = new Array(3);
-            var1 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'position': 'relative'};
-            var2[0] = var1;
-            var4 = {};
-            var1 = _closure1_slot4;
-            var5 = var1.layout;
-            var1 = arg1;
-            if(var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = var5.margin;
-            var7 = var1.marginVertical;
-            var1 = 2;
-            var1 = var1 * var7;
-            var1 = var6 - var1;
-            var4['minHeight'] = var1;
-            var2[1] = var4;
-            var1 = _closure1_slot4;
-            var1 = var1.container;
-            var1 = var1.padding;
-            var2[2] = var1;
-            var1 = var2;
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
-            var5 = var5.marginThread;
-            var7 = var5.marginVertical;
-            var5 = 2;
-            var5 = var5 * var7;
-            var5 = var6 - var5;
-            var4['minHeight'] = var5;
-            var2[1] = var4;
-            var3 = _closure1_slot4;
-            var3 = var3.container;
-            var3 = var3.paddingThread;
-            var2[2] = var3;
-            var1 = var2;
-case 4:
-            return var1;
-        }
+    var1 = function getStyles(arg1) {
+        var1 = new Array(3);
+        var2 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'position': 'relative'};
+        var1[0] = var2;
+        var3 = {};
+        var4 = _closure1_slot4;
+        var4 = var4.layout;
+        var4 = var4.margin;
+        var5 = var4.marginVertical;
+        var4 = 2;
+        var5 = var4 * var5;
+        var4 = arg1;
+        var4 = var4 - var5;
+        var3['minHeight'] = var4;
+        var1[1] = var3;
+        var2 = _closure1_slot4;
+        var2 = var2.container;
+        var2 = var2.padding;
+        var1[2] = var2;
+        return var1;
     };
     var _closure1_slot5 = var1;
     var1 = global;
@@ -85,42 +63,25 @@ case 4:
     var4 = 'modules/launchpad/native/shared/renderChannelWrapper.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function renderChannelWrapper(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var1 = arg2;
-            var10 = var1.channel;
-            var2 = var1.fontScale;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 4;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var7 = var1.bind(var4)(var2);
-            var3 = _closure1_slot3;
-            var2 = _closure1_slot2;
-            var1 = {};
-            var6 = _closure1_slot5;
-            var5 = null;
-            var9 = var5 == var10;
-            var8 = undefined;
-            if(var9) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            var9 = var10.isThread;
-            var8 = var9.bind(var10)();
-case 5:
-            var5 = var5 != var8;
-            if(!var5) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-            var5 = var8;
-case 7:
-            var5 = var6.bind(var4)(var5, var7);
-            var1['style'] = var5;
-            var5 = arg1;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
+        var1 = arg2;
+        var2 = var1.fontScale;
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var1 = 4;
+        var1 = var4[var1];
+        var4 = undefined;
+        var1 = var3.bind(var4)(var1);
+        var6 = var1.bind(var4)(var2);
+        var3 = _closure1_slot3;
+        var2 = _closure1_slot2;
+        var1 = {};
+        var5 = _closure1_slot5;
+        var5 = var5.bind(var4)(var6);
+        var1['style'] = var5;
+        var5 = arg1;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var3['default'] = var2;
     return var1;

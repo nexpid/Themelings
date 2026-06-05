@@ -1046,7 +1046,7 @@ case 0:
                 var1 = arg1;
                 var13 = var1.heading;
                 var18 = var1.location;
-                var20 = var1.LocationIcon;
+                var21 = var1.LocationIcon;
                 var10 = var1.topic;
                 var19 = var1.isLiveStreaming;
                 var12 = var1.LiveIcon;
@@ -1054,12 +1054,12 @@ case 0:
                 var6 = var1.joinButton;
                 var1 = _closure1_slot24;
                 var4 = undefined;
-                var21 = var1.bind(var4)();
+                var22 = var1.bind(var4)();
                 var3 = _closure1_slot14;
                 var2 = _closure1_slot5;
                 var1 = {};
                 var5 = {};
-                var8 = var21.row;
+                var8 = var22.row;
                 var5['style'] = var8;
                 var14 = null;
                 if(!(var14 == var12)) { _fun0009_ip = 49; continue _fun0009 }
@@ -1067,14 +1067,14 @@ case 50:
                 var11 = _closure1_slot13;
                 var9 = _closure1_slot5;
                 var8 = {};
-                var15 = var21.liveDot;
+                var15 = var22.liveDot;
                 var8['style'] = var15;
                 var9 = var11.bind(var4)(var9, var8);
                 _fun0009_ip = 51; continue _fun0009;
 case 49:
                 var11 = _closure1_slot13;
                 var8 = {'size': 'xxs', 'color': 'status-positive'};
-                var15 = var21.calendarIcon;
+                var15 = var22.calendarIcon;
                 var8['style'] = var15;
                 var9 = var11.bind(var4)(var12, var8);
 case 51:
@@ -1096,12 +1096,12 @@ case 52:
                 var9['variant'] = var17;
                 var17 = 'status-positive';
                 var9['color'] = var17;
-                var22 = var21.headingText;
+                var20 = var22.headingText;
                 var17 = new Array(2);
-                var17[0] = var22;
+                var17[0] = var20;
                 if(!var19) { _fun0009_ip = 54; continue _fun0009 }
 case 24:
-                var19 = var21.uppercase;
+                var19 = var22.uppercase;
 case 54:
                 var17[1] = var19;
                 var9['style'] = var17;
@@ -1120,18 +1120,19 @@ case 54:
                 var7 = var8.bind(var4)(var7);
                 var8 = var7.Text;
                 var7 = {'style': null, 'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'redesign-channel-name-text'};
-                var11 = var21.topic;
+                var11 = var22.topic;
                 var7['style'] = var11;
+                var20 = 1;
                 var7['children'] = var10;
                 var7 = var9.bind(var4)(var8, var7);
                 var5[2] = var7;
                 var9 = _closure1_slot13;
                 var8 = _closure1_slot5;
                 var7 = {};
-                var11 = var21.row;
+                var11 = var22.row;
                 var10 = new Array(2);
                 var10[0] = var11;
-                var11 = var21.infoRow;
+                var11 = var22.infoRow;
                 var10[1] = var11;
                 var7['style'] = var10;
                 var10 = var14 != var18;
@@ -1140,36 +1141,37 @@ case 56:
                 var13 = _closure1_slot14;
                 var12 = _closure1_slot15;
                 var11 = {};
-                var17 = var14 != var20;
+                var17 = var14 != var21;
                 if(!var17) { _fun0009_ip = 57; continue _fun0009 }
 case 58:
                 var19 = _closure1_slot13;
                 var14 = {'style': null, 'size': 'xxs', 'color': 'redesign-channel-name-muted-text'};
-                var21 = var21.liveNowIcon;
-                var14['style'] = var21;
-                var17 = var19.bind(var4)(var20, var14);
+                var22 = var22.liveNowIcon;
+                var14['style'] = var22;
+                var17 = var19.bind(var4)(var21, var14);
 case 57:
                 var14 = new Array(2);
                 var14[0] = var17;
                 var17 = _closure1_slot13;
-                var21 = _closure1_slot0;
-                var22 = _closure1_slot3;
-                var15 = var22[var15];
-                var15 = var21.bind(var4)(var15);
+                var22 = _closure1_slot0;
+                var23 = _closure1_slot3;
+                var15 = var23[var15];
+                var15 = var22.bind(var4)(var15);
                 var16 = var15.Text;
                 var15 = {'lineClamp': 1, 'variant': 'text-xs/medium', 'color': 'redesign-channel-name-muted-text'};
                 var19 = {};
-                var20 = 13;
-                var20 = var22[var20];
-                var21 = var21.bind(var4)(var20);
-                var20 = var21.isAndroid;
-                var21 = var20.bind(var21)();
-                var20 = 0;
-                if(!var21) { _fun0009_ip = 59; continue _fun0009 }
+                var21 = 13;
+                var21 = var23[var21];
+                var22 = var22.bind(var4)(var21);
+                var21 = var22.isAndroid;
+                var22 = var21.bind(var22)();
+                var21 = 0;
+                if(!var22) { _fun0009_ip = 59; continue _fun0009 }
 case 60:
-                var20 = -2;
+                var21 = -2;
 case 59:
-                var19['marginTop'] = var20;
+                var19['marginTop'] = var21;
+                var19['flexShrink'] = var20;
                 var15['style'] = var19;
                 var15['children'] = var18;
                 var15 = var17.bind(var4)(var16, var15);

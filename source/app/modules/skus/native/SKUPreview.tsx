@@ -203,6 +203,8 @@ case 12:
             var5['size'] = var9;
             var8 = var8.previewAssets;
             var5['previewAssets'] = var8;
+            var8 = true;
+            var5['disableStaticBackground'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

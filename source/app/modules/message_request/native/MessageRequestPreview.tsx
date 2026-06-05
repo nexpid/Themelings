@@ -324,9 +324,7 @@ case 22:
             var9 = 12;
             var9 = var11[var9];
             var11 = var10.bind(var4)(var9);
-            var9 = {};
-            var10 = true;
-            var9['noStyleAndInteraction'] = var10;
+            var9 = {'noStyleAndInteraction': true, 'allowGameMentions': true};
             var9 = var11.bind(var4)(var12, var9);
             var9 = var9.content;
             var11 = global;

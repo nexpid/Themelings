@@ -28,13 +28,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var8;
     var8 = var4.LABEL_HEIGHT;
     var _closure1_slot5 = var8;
-    var4 = var4.LABEL_MARGIN;
-    var _closure1_slot6 = var4;
+    var8 = var4.LABEL_TOP_PADDING;
+    var _closure1_slot6 = var8;
+    var4 = var4.LABEL_BOTTOM_PADDING;
+    var _closure1_slot7 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         var4 = arg1;
@@ -153,8 +155,10 @@ case 6:
                 var3['size'] = var4;
                 _fun0001_ip = 9; continue _fun0001;
 case 4:
-                var4 = _closure1_slot5;
-                var2 = _closure1_slot6;
+                var5 = _closure1_slot5;
+                var4 = _closure1_slot6;
+                var4 = var5 + var4;
+                var2 = _closure1_slot7;
                 var2 = var4 + var2;
                 var3['size'] = var2;
                 _fun0001_ip = 9; continue _fun0001;
@@ -265,7 +269,7 @@ case 19:
         var1 = var3.bind(var4)(var1);
         var1 = var1.bind(var4)(var2);
         var9 = var1.onViewableItemsChanged;
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot8;
         var2 = _closure1_slot0;
         var1 = 6;
         var1 = var15[var1];

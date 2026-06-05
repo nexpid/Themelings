@@ -88,14 +88,14 @@ case 0:
             var16 = var2.channel;
             var _closure2_slot0 = var16;
             var12 = var2.expressionType;
-            var21 = var2.hideGifFavorites;
+            var22 = var2.hideGifFavorites;
             var4 = undefined;
-            if(!(var21 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var22 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var21 = false;
+            var22 = false;
 case 2:
             var15 = var2.onPressEmoji;
-            var23 = var2.onPressSticker;
+            var24 = var2.onPressSticker;
             var20 = var2.onPressGIF;
             var14 = var2.onBackspace;
             var9 = var2.visibleTabs;
@@ -103,7 +103,8 @@ case 2:
 case 5:
             var9 = _closure1_slot6;
 case 4:
-            var22 = var2.stickerFormats;
+            var21 = var2.initialGifQuery;
+            var23 = var2.stickerFormats;
             var8 = var2.height;
             var13 = var2.inPortalKeyboard;
             var _closure2_slot1 = var4;
@@ -128,7 +129,7 @@ case 4:
             var19 = var5.expressionPickerSelectedIndex;
             var12 = var5.expressionPickerViewType;
             _closure2_slot2 = var12;
-            var25 = var5.expressionPickerTabStrings;
+            var26 = var5.expressionPickerTabStrings;
             var9 = var7.useMemo;
             var6 = new Array(1);
             var6[0] = var16;
@@ -162,8 +163,8 @@ case 4:
             var9 = var6.bind(var4)(var5);
             var6 = var9.useSegmentedControlState;
             var5 = {};
-            var24 = 0;
-            var5['pageWidth'] = var24;
+            var25 = 0;
+            var5['pageWidth'] = var25;
             var5['defaultIndex'] = var19;
             var19 = function onSetActiveIndex(arg1) {
                 var7 = _closure1_slot0;
@@ -188,7 +189,7 @@ case 4:
                 return var1;
             };
             var5['onSetActiveIndex'] = var19;
-            var24 = var25.map;
+            var25 = var26.map;
             var19 = function(arg1) {
                 var2 = arg1;
                 var1 = {};
@@ -198,9 +199,9 @@ case 4:
                 var1['page'] = var2;
                 return var1;
             };
-            var19 = var24.bind(var25)(var19);
+            var19 = var25.bind(var26)(var19);
             var5['items'] = var19;
-            var26 = var6.bind(var9)(var5);
+            var27 = var6.bind(var9)(var5);
             var6 = var7.useEffect;
             var5 = new Array(1);
             var5[0] = var12;
@@ -333,24 +334,24 @@ case 18:
 case 20:
             var5['style'] = var8;
             var8 = _closure1_slot9;
-            var25 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            var24 = 17;
-            var24 = var27[var24];
-            var24 = var25.bind(var4)(var24);
-            var25 = var24.SegmentedControl;
-            var24 = {};
-            var24['state'] = var26;
-            var24 = var8.bind(var4)(var25, var24);
-            var5['children'] = var24;
+            var26 = _closure1_slot0;
+            var28 = _closure1_slot2;
+            var25 = 17;
+            var25 = var28[var25];
+            var25 = var26.bind(var4)(var25);
+            var26 = var25.SegmentedControl;
+            var25 = {};
+            var25['state'] = var27;
+            var25 = var8.bind(var4)(var26, var25);
+            var5['children'] = var25;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
             var7 = _closure1_slot4;
             var6 = {};
-            var24 = var11.expressionPickerContent;
+            var25 = var11.expressionPickerContent;
             var11 = new Array(2);
-            var11[0] = var24;
+            var11[0] = var25;
             var11[1] = var19;
             var6['style'] = var11;
             var11 = _closure1_slot5;
@@ -368,16 +369,16 @@ case 24:
 case 26:
             var19 = _closure1_slot9;
             var12 = _closure1_slot1;
-            var24 = _closure1_slot2;
+            var25 = _closure1_slot2;
             var11 = 20;
-            var11 = var24[var11];
+            var11 = var25[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
             var11['bottomSheetRef'] = var17;
             var11['bottomSheetIndex'] = var18;
             var11['channel'] = var16;
-            var11['onPressSticker'] = var23;
-            var11['stickerFormats'] = var22;
+            var11['onPressSticker'] = var24;
+            var11['stickerFormats'] = var23;
             var11['inPortalKeyboard'] = var13;
             var9 = var19.bind(var4)(var12, var11);
 case 25:
@@ -385,17 +386,18 @@ case 25:
 case 23:
             var19 = _closure1_slot9;
             var12 = _closure1_slot1;
-            var22 = _closure1_slot2;
+            var23 = _closure1_slot2;
             var11 = 19;
-            var11 = var22[var11];
+            var11 = var23[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
             var11['bottomSheetRef'] = var17;
-            var22 = var16.id;
-            var11['channelId'] = var22;
-            var22 = var16.guild_id;
-            var11['guildId'] = var22;
-            var11['hideFavorites'] = var21;
+            var23 = var16.id;
+            var11['channelId'] = var23;
+            var23 = var16.guild_id;
+            var11['guildId'] = var23;
+            var11['hideFavorites'] = var22;
+            var11['initialQuery'] = var21;
             var11['onPressGIF'] = var20;
             var9 = var19.bind(var4)(var12, var11);
 case 27:

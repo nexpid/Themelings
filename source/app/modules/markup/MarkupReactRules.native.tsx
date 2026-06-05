@@ -1377,7 +1377,7 @@ case 107:
         }
     };
     var _closure1_slot19 = var5;
-    var5 = 50;
+    var5 = 51;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -2748,6 +2748,30 @@ case 95:
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
+            var8 = var7.GAME_MENTION;
+            var7 = {};
+            var11 = function react(arg1, arg2, arg3) {
+                var1 = arg3;
+                var5 = _closure1_slot14;
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 49;
+                var2 = var4[var2];
+                var4 = undefined;
+                var3 = var3.bind(var4)(var2);
+                var2 = {};
+                var6 = arg1;
+                var2['node'] = var6;
+                var2['state'] = var1;
+                var1 = var1.key;
+                var1 = var5.bind(var4)(var3, var2, var1);
+                return var1;
+            };
+            var7['react'] = var11;
+            var1[7] = var7;
+            var7 = var6[var2];
+            var7 = var3.bind(var5)(var7);
+            var7 = var7.AST_KEY;
             var8 = var7.TIMESTAMP;
             var7 = {};
             var11 = var6[var9];
@@ -2764,7 +2788,7 @@ case 95:
                 var5 = _closure1_slot14;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 49;
+                var1 = 50;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
