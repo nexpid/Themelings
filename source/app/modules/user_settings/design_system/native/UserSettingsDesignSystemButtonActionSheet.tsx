@@ -306,12 +306,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6['onPress'] = var12;
-            var12 = {};
-            var13 = true;
-            var12['selected'] = var13;
-            var6['accessibilityState'] = var12;
-            var12 = 'radio';
-            var6['accessibilityRole'] = var12;
             var11 = var9.bind(var1)(var11, var6);
             var6 = new Array(2);
             var6[0] = var11;
@@ -378,12 +372,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6['onPress'] = var12;
-            var12 = {};
-            var13 = true;
-            var12['selected'] = var13;
-            var6['accessibilityState'] = var12;
-            var12 = 'radio';
-            var6['accessibilityRole'] = var12;
             var11 = var9.bind(var1)(var11, var6);
             var6 = new Array(2);
             var6[0] = var11;
@@ -484,9 +472,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = 'right';
             var6['align'] = var13;
             var13 = _closure2_slot0;
-            var14 = var13.iconPosition;
-            var14 = var14 === var5;
-            var6['selected'] = var14;
+            var13 = var13.iconPosition;
+            var13 = var13 === var5;
+            var6['selected'] = var13;
             var6['label'] = var5;
             var12 = function onPress() {
                 var3 = _closure2_slot5;
@@ -496,13 +484,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6['onPress'] = var12;
-            var12 = {};
-            var13 = var13.iconPosition;
-            var13 = var13 === var5;
-            var12['selected'] = var13;
-            var6['accessibilityState'] = var12;
-            var12 = 'radio';
-            var6['accessibilityRole'] = var12;
             var11 = var9.bind(var1)(var11, var6);
             var6 = new Array(2);
             var6[0] = var11;
@@ -543,8 +524,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var13 = arg1;
-                var _closure3_slot0 = var13;
+                var12 = arg1;
+                var _closure3_slot0 = var12;
                 var5 = _closure1_slot5;
                 var1 = _closure1_slot3;
                 var4 = var1.Fragment;
@@ -562,16 +543,16 @@ case 0:
                 var1['align'] = var6;
                 var6 = _closure2_slot0;
                 var6 = var6.enableLoadingState;
-                var6 = var6 === var13;
+                var6 = var6 === var12;
                 var1['selected'] = var6;
                 var6 = true;
-                var6 = var6 === var13;
-                var14 = 'Disabled';
+                var6 = var6 === var12;
+                var12 = 'Disabled';
                 if(!var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var14 = 'Enabled';
+                var12 = 'Enabled';
 case 2:
-                var1['label'] = var14;
+                var1['label'] = var12;
                 var11 = function onPress() {
                     var3 = _closure2_slot6;
                     var2 = _closure3_slot0;
@@ -580,14 +561,6 @@ case 2:
                     return var1;
                 };
                 var1['onPress'] = var11;
-                var11 = {};
-                var12 = _closure2_slot0;
-                var12 = var12.enableLoadingState;
-                var12 = var12 === var13;
-                var11['selected'] = var12;
-                var1['accessibilityState'] = var11;
-                var11 = 'radio';
-                var1['accessibilityRole'] = var11;
                 var8 = var9.bind(var2)(var8, var1);
                 var1 = new Array(2);
                 var1[0] = var8;

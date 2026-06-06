@@ -17,33 +17,40 @@ case 0:
             var1 = _closure1_slot11;
             var4 = undefined;
             var10 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 8;
+            var1 = var9[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useRadioA11yNative;
+            var1 = {};
+            var1['selected'] = var8;
+            var1 = var2.bind(var3)(var1);
+            var7 = var1.accessibilityRole;
+            var6 = var1.accessibilityState;
             var3 = _closure1_slot10;
             var2 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var1 = 8;
-            var1 = var6[var1];
+            var1 = 9;
+            var1 = var9[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var7 = var10.rowContainer;
-            var6 = new Array(2);
-            var6[0] = var7;
-            var7 = undefined;
+            var11 = var10.rowContainer;
+            var9 = new Array(2);
+            var9[0] = var11;
+            var11 = undefined;
             if(!var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = var10.containerSelected;
+            var11 = var10.containerSelected;
 case 2:
-            var6[1] = var7;
-            var1['style'] = var6;
-            var6 = 'radio';
-            var1['accessibilityRole'] = var6;
-            var6 = {};
-            var6['selected'] = var8;
+            var9[1] = var11;
+            var1['style'] = var9;
+            var1['accessibilityRole'] = var7;
             var1['accessibilityState'] = var6;
             var1['onPress'] = var5;
             var7 = _closure1_slot9;
             var9 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var5 = 9;
+            var5 = 10;
             var5 = var6[var5];
             var6 = var9.bind(var4)(var5);
             var5 = {};
@@ -52,11 +59,11 @@ case 2:
             var11 = _closure1_slot2;
             if(var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = 11;
+            var8 = 12;
             var8 = var11[var8];
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var10 = 10;
+            var10 = 11;
             var8 = var11[var10];
 case 6:
             var8 = var9.bind(var4)(var8);
@@ -67,12 +74,12 @@ case 6:
             var8 = _closure1_slot9;
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var6 = 12;
+            var6 = 13;
             var6 = var15[var6];
             var6 = var14.bind(var4)(var6);
             var7 = var6.Text;
             var6 = {'variant': 'text-sm/normal', 'color': 'text-default'};
-            var9 = 13;
+            var9 = 14;
             var10 = var15[var9];
             var10 = var14.bind(var4)(var10);
             var12 = var10.intl;
@@ -82,7 +89,7 @@ case 6:
             var9 = var9.t;
             var10 = var9.CgmBaG;
             var9 = {};
-            var13 = 14;
+            var13 = 15;
             var13 = var15[var13];
             var18 = var14.bind(var4)(var13);
             var17 = var18.formatPrice;
@@ -90,7 +97,7 @@ case 6:
             var13 = var13.USD;
             var13 = var17.bind(var18)(var19, var13);
             var9['price'] = var13;
-            var13 = 15;
+            var13 = 16;
             var13 = var15[var13];
             var15 = var14.bind(var4)(var13);
             var14 = var15.formatPlanInterval;
@@ -218,7 +225,7 @@ case 6:
     var4['backToTemplates'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -237,7 +244,7 @@ case 6:
         var17 = var1.bind(var4)();
         var2 = _closure1_slot1;
         var22 = _closure1_slot2;
-        var1 = 16;
+        var1 = 17;
         var1 = var22[var1];
         var1 = var2.bind(var4)(var1);
         var1 = var1.bind(var4)();
@@ -256,7 +263,7 @@ case 6:
         var _closure2_slot4 = var1;
         var3 = _closure1_slot9;
         var21 = _closure1_slot0;
-        var1 = 17;
+        var1 = 18;
         var1 = var22[var1];
         var1 = var21.bind(var4)(var1);
         var2 = var1.BottomSheet;
@@ -268,7 +275,7 @@ case 6:
         var8 = var17.container;
         var5['style'] = var8;
         var10 = _closure1_slot10;
-        var8 = 18;
+        var8 = 19;
         var8 = var22[var8];
         var8 = var21.bind(var4)(var8);
         var9 = var8.BottomSheetScrollView;
@@ -277,12 +284,12 @@ case 6:
         var11['paddingBottom'] = var12;
         var8['contentContainerStyle'] = var11;
         var13 = _closure1_slot9;
-        var15 = 12;
+        var15 = 13;
         var11 = var22[var15];
         var11 = var21.bind(var4)(var11);
         var12 = var11.Text;
         var11 = {'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
-        var18 = 13;
+        var18 = 14;
         var14 = var22[var18];
         var14 = var21.bind(var4)(var14);
         var26 = var14.intl;
@@ -302,12 +309,13 @@ case 6:
         var11 = new Array(9);
         var11[0] = var12;
         var20 = _closure1_slot9;
-        var12 = 19;
+        var12 = 20;
         var13 = var22[var12];
         var13 = var21.bind(var4)(var13);
         var14 = var13.Spacer;
         var13 = {};
-        var13['size'] = var15;
+        var25 = 12;
+        var13['size'] = var25;
         var13 = var20.bind(var4)(var14, var13);
         var11[1] = var13;
         var20 = _closure1_slot9;
@@ -324,7 +332,7 @@ case 6:
         var25 = var25.t;
         var26 = var25["5i7Uhb"];
         var25 = {};
-        var31 = 14;
+        var31 = 15;
         var31 = var22[var31];
         var32 = var21.bind(var4)(var31);
         var31 = var32.formatPrice;
@@ -384,7 +392,7 @@ case 6:
         var13 = var23.bind(var4)(var14, var13);
         var11[5] = var13;
         var23 = _closure1_slot9;
-        var13 = 20;
+        var13 = 21;
         var13 = var22[var13];
         var13 = var21.bind(var4)(var13);
         var14 = var13.BaseTextButton;
@@ -438,7 +446,7 @@ case 6:
         var19 = function onPress() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 21;
+            var1 = 22;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);

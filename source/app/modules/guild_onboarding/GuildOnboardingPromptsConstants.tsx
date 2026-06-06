@@ -311,13 +311,15 @@ case 41:
             var5 = var3.connection_type;
             var4 = _closure1_slot8;
             var4 = var4.APPLICATION;
-            if(!(var5 !== var4)) { _fun0006_ip = 43; continue _fun0006 }
+            if(!(var4 !== var5)) { _fun0006_ip = 43; continue _fun0006 }
 case 44:
-            var5 = var3.connection_type;
             var4 = _closure1_slot8;
             var4 = var4.PROVIDER_CONNECTED_ACCOUNT;
-            if(!(var5 === var4)) { _fun0006_ip = 45; continue _fun0006 }
+            if(!(var4 !== var5)) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
+            var4 = var3.connection_type;
+            _fun0006_ip = 47; continue _fun0006;
+case 45:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var7 = 5;
@@ -327,23 +329,23 @@ case 46:
             var5 = var8.isNullOrEmpty;
             var4 = var3.provider_id;
             var4 = var5.bind(var8)(var4);
-            if(var4) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+            if(var4) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
             var8 = _closure1_slot10;
             var5 = var8.includes;
             var4 = var3.provider_id;
             var4 = var5.bind(var8)(var4);
-            if(var4) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+            if(var4) { _fun0006_ip = 50; continue _fun0006 }
+case 51:
             var5 = var1.push;
             var4 = 'Invalid platform ID';
             var4 = var5.bind(var1)(var4);
-            _fun0006_ip = 49; continue _fun0006;
-case 47:
+            _fun0006_ip = 50; continue _fun0006;
+case 48:
             var5 = var1.push;
             var4 = 'Platform ID is required for platform connections';
             var4 = var5.bind(var1)(var4);
-case 49:
+case 50:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var7];
@@ -351,12 +353,12 @@ case 49:
             var5 = var6.isNullOrEmpty;
             var4 = var3.application_id;
             var4 = var5.bind(var6)(var4);
-            if(var4) { _fun0006_ip = 45; continue _fun0006 }
-case 51:
+            if(var4) { _fun0006_ip = 47; continue _fun0006 }
+case 52:
             var5 = var1.push;
             var4 = 'Application ID not allowed for platform connections';
             var4 = var5.bind(var1)(var4);
-            _fun0006_ip = 45; continue _fun0006;
+            _fun0006_ip = 47; continue _fun0006;
 case 43:
             var7 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -367,12 +369,12 @@ case 43:
             var7 = var8.isNullOrEmpty;
             var4 = var3.application_id;
             var4 = var7.bind(var8)(var4);
-            if(!var4) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+            if(!var4) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
             var7 = var1.push;
             var4 = 'Application ID is required for application connections';
             var4 = var7.bind(var1)(var4);
-case 52:
+case 53:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
@@ -380,33 +382,33 @@ case 52:
             var4 = var5.isNullOrEmpty;
             var2 = var3.provider_id;
             var2 = var4.bind(var5)(var2);
-            if(var2) { _fun0006_ip = 45; continue _fun0006 }
-case 54:
+            if(var2) { _fun0006_ip = 47; continue _fun0006 }
+case 55:
             var4 = var1.push;
             var2 = 'Platform ID not allowed for application connections';
             var2 = var4.bind(var1)(var2);
-case 45:
+case 47:
             var4 = var3.description;
             var2 = null;
             var2 = var2 != var4;
-            if(!var2) { _fun0006_ip = 55; continue _fun0006 }
-case 56:
+            if(!var2) { _fun0006_ip = 56; continue _fun0006 }
+case 57:
             var3 = var3.description;
             var4 = var3.length;
             var3 = 100;
             var2 = var4 > var3;
-case 55:
-            if(!var2) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
+case 56:
+            if(!var2) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
             var3 = var1.push;
             var2 = 'Description must be 100 characters or less';
             var2 = var3.bind(var1)(var2);
-            _fun0006_ip = 57; continue _fun0006;
+case 58:
+            return var1;
 case 42:
             var3 = var1.push;
             var2 = 'Invalid connection type';
             var2 = var3.bind(var1)(var2);
-case 57:
             return var1;
         }
     };
@@ -542,8 +544,8 @@ case 0:
             var1 = var6.options;
             var2 = var1.length;
             var1 = 0;
-            if(!(!(var2 > var1))) { _fun0007_ip = 59; continue _fun0007 }
-case 60:
+            if(!(!(var2 > var1))) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
             var2 = _closure1_slot13;
             var4 = undefined;
             var3 = var2.bind(var4)();
@@ -561,7 +563,7 @@ case 60:
             var1 = var5.bind(var4)(var1);
             var1 = var1.bind(var4)(var3, var2);
             return var1;
-case 59:
+case 60:
             var1 = false;
             return var1;
         }
@@ -612,26 +614,26 @@ case 0:
                 var5 = null;
                 var7 = var5 == var6;
                 var4 = undefined;
-                if(var7) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
+                if(var7) { _fun0008_ip = 62; continue _fun0008 }
+case 63:
                 var4 = var6.id;
-case 61:
+case 62:
                 var1['emoji_id'] = var4;
                 var6 = var2.emoji;
                 var7 = var5 == var6;
                 var4 = undefined;
-                if(var7) { _fun0008_ip = 59; continue _fun0008 }
-case 63:
+                if(var7) { _fun0008_ip = 60; continue _fun0008 }
+case 64:
                 var4 = var6.name;
-case 59:
+case 60:
                 var1['emoji_name'] = var4;
                 var4 = var2.emoji;
                 var5 = var5 == var4;
                 var3 = undefined;
-                if(var5) { _fun0008_ip = 64; continue _fun0008 }
-case 65:
+                if(var5) { _fun0008_ip = 65; continue _fun0008 }
+case 66:
                 var3 = var4.animated;
-case 64:
+case 65:
                 var1['emoji_animated'] = var3;
                 var3 = var2.title;
                 var1['title'] = var3;
@@ -672,34 +674,34 @@ case 0:
             var1['defaultChannelIds'] = var3;
             var4 = var2.responses;
             var3 = null;
-            if(!(var3 == var4)) { _fun0009_ip = 66; continue _fun0009 }
+            if(!(var3 == var4)) { _fun0009_ip = 67; continue _fun0009 }
 case 28:
             var4 = new Array(0);
-case 66:
+case 67:
             var1['responses'] = var4;
             var4 = var2.mode;
             var1['mode'] = var4;
             var4 = var2.enabled;
             var1['enabled'] = var4;
             var4 = var2.onboarding_prompts_seen;
-            if(!(var3 == var4)) { _fun0009_ip = 67; continue _fun0009 }
-case 68:
+            if(!(var3 == var4)) { _fun0009_ip = 68; continue _fun0009 }
+case 69:
             var4 = {};
-case 67:
+case 68:
             var1['onboardingPromptsSeen'] = var4;
             var4 = var2.onboarding_responses_seen;
-            if(!(var3 == var4)) { _fun0009_ip = 69; continue _fun0009 }
+            if(!(var3 == var4)) { _fun0009_ip = 70; continue _fun0009 }
 case 13:
             var4 = {};
-case 69:
+case 70:
             var1['onboardingResponsesSeen'] = var4;
             var4 = var2.below_requirements;
             var1['belowRequirements'] = var4;
             var2 = var2.connections;
-            if(!(var3 == var2)) { _fun0009_ip = 70; continue _fun0009 }
-case 71:
+            if(!(var3 == var2)) { _fun0009_ip = 71; continue _fun0009 }
+case 72:
             var2 = new Array(0);
-case 70:
+case 71:
             var1['connections'] = var2;
             return var1;
         }
@@ -711,17 +713,17 @@ case 0:
             var3 = arg1;
             var4 = null;
             var1 = var4 == var3;
-            if(var1) { _fun0010_ip = 72; continue _fun0010 }
-case 73:
+            if(var1) { _fun0010_ip = 73; continue _fun0010 }
+case 74:
             var2 = var3.id;
             var2 = var4 == var2;
             if(!var2) { _fun0010_ip = 33; continue _fun0010 }
-case 74:
+case 75:
             var3 = var3.name;
             var2 = var4 == var3;
 case 33:
             var1 = var2;
-case 72:
+case 73:
             return var1;
         }
     };
@@ -744,40 +746,40 @@ case 0:
             var1 = 1;
             var3 = var3[var1];
             var1 = 'app';
-            if(!(var1 === var7)) { _fun0011_ip = 75; continue _fun0011 }
+            if(!(var1 === var7)) { _fun0011_ip = 76; continue _fun0011 }
 case 28:
-            if(!(var2 !== var3)) { _fun0011_ip = 75; continue _fun0011 }
-case 66:
+            if(!(var2 !== var3)) { _fun0011_ip = 76; continue _fun0011 }
+case 67:
             var1 = '';
-            if(!(var1 === var3)) { _fun0011_ip = 76; continue _fun0011 }
-case 75:
+            if(!(var1 === var3)) { _fun0011_ip = 77; continue _fun0011 }
+case 76:
             var6 = 'provider';
             var1 = null;
-            if(!(var6 === var7)) { _fun0011_ip = 64; continue _fun0011 }
-case 77:
-            var1 = null;
-            if(!(var2 !== var3)) { _fun0011_ip = 64; continue _fun0011 }
+            if(!(var6 === var7)) { _fun0011_ip = 65; continue _fun0011 }
 case 78:
+            var1 = null;
+            if(!(var2 !== var3)) { _fun0011_ip = 65; continue _fun0011 }
+case 79:
             var2 = '';
             var1 = null;
-            if(!(var2 !== var3)) { _fun0011_ip = 64; continue _fun0011 }
-case 59:
+            if(!(var2 !== var3)) { _fun0011_ip = 65; continue _fun0011 }
+case 60:
             var2 = {};
             var5 = _closure1_slot8;
             var5 = var5.PROVIDER_CONNECTED_ACCOUNT;
             var2['type'] = var5;
             var2['providerId'] = var3;
             var1 = var2;
-case 64:
-            _fun0011_ip = 79; continue _fun0011;
-case 76:
+case 65:
+            _fun0011_ip = 80; continue _fun0011;
+case 77:
             var2 = {};
             var4 = _closure1_slot8;
             var4 = var4.APPLICATION;
             var2['type'] = var4;
             var2['applicationId'] = var3;
             var1 = var2;
-case 79:
+case 80:
             return var1;
         }
     };
@@ -837,13 +839,13 @@ case 0:
                     var5 = _closure2_slot1;
                     var3 = var5.has;
                     var3 = var3.bind(var5)(var4);
-                    if(!var3) { _fun0013_ip = 80; continue _fun0013 }
+                    if(!var3) { _fun0013_ip = 81; continue _fun0013 }
 case 13:
                     var6 = _closure2_slot0;
                     var5 = var6.push;
                     var3 = 'Duplicate connection configuration';
                     var3 = var5.bind(var6)(var3);
-case 80:
+case 81:
                     var3 = _closure2_slot1;
                     var2 = var3.add;
                     var2 = var2.bind(var3)(var4);
@@ -860,8 +862,8 @@ case 80:
             var6 = 2;
             var5 = 0;
             var4 = 1;
-            if(var2) { _fun0012_ip = 48; continue _fun0012 }
-case 59:
+            if(var2) { _fun0012_ip = 82; continue _fun0012 }
+case 60:
             var12 = var3.value;
             var2 = _closure1_slot5;
             var12 = var2.bind(var8)(var12, var6);
@@ -872,8 +874,8 @@ case 59:
             var12 = var7.bind(var8)();
             var2 = var12.done;
             var3 = var12;
-            if(!var2) { _fun0012_ip = 59; continue _fun0012 }
-case 48:
+            if(!var2) { _fun0012_ip = 60; continue _fun0012 }
+case 82:
             return var1;
         }
     };

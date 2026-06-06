@@ -325,53 +325,55 @@ case 0:
                         var1 = arg2;
                         var4 = var2[var1];
                         var3 = new Array(0);
-                        var2 = _closure1_slot8;
-                        var1 = var5.userIds;
+                        var1 = null;
+                        if(!(var1 != var3)) { _fun0007_ip = 44; continue _fun0007 }
+case 3:
+                        var6 = _closure1_slot8;
+                        var2 = var5.userIds;
                         var10 = undefined;
-                        var9 = var2.bind(var10)(var1);
+                        var9 = var6.bind(var10)(var2);
                         var6 = var9.bind(var10)();
                         var2 = var6.done;
-                        var1 = null;
                         var7 = var6;
                         var6 = undefined;
                         if(var2) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+case 35:
                         var13 = var7.value;
                         var12 = _closure3_slot0;
                         var2 = var12.get;
                         var13 = var2.bind(var12)(var13);
                         var12 = var6;
-                        if(!(var1 != var13)) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
+                        if(!(var1 != var13)) { _fun0007_ip = 45; continue _fun0007 }
+case 11:
                         var2 = _closure2_slot1;
                         var12 = var6;
-                        if(!(var1 != var2)) { _fun0007_ip = 46; continue _fun0007 }
-case 48:
+                        if(!(var1 != var2)) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
                         var2 = _closure2_slot1;
                         var2 = var2.bind(var10)(var13);
                         var12 = var2;
-                        if(!(var1 != var2)) { _fun0007_ip = 46; continue _fun0007 }
-case 49:
+                        if(!(var1 != var2)) { _fun0007_ip = 45; continue _fun0007 }
+case 47:
                         var13 = var3.push;
                         var13 = var13.bind(var3)(var2);
                         var12 = var2;
-case 46:
+case 45:
                         var13 = var9.bind(var10)();
                         var2 = var13.done;
                         var6 = var12;
                         var7 = var13;
-                        if(!var2) { _fun0007_ip = 45; continue _fun0007 }
+                        if(!var2) { _fun0007_ip = 35; continue _fun0007 }
 case 44:
                         var2 = var1 == var4;
                         var1 = null;
-                        if(var2) { _fun0007_ip = 50; continue _fun0007 }
-case 39:
+                        if(var2) { _fun0007_ip = 48; continue _fun0007 }
+case 14:
                         var2 = {};
                         var2['embeddedActivity'] = var5;
                         var2['application'] = var4;
                         var2['userParticipantAvatarUrls'] = var3;
                         var1 = var2;
-case 50:
+case 48:
                         return var1;
                     }
                 };
@@ -447,26 +449,26 @@ case 50:
 case 0:
                 var1 = _closure2_slot0;
                 var3 = null;
-                if(!(var3 != var1)) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
+                if(!(var3 != var1)) { _fun0008_ip = 49; continue _fun0008 }
+case 50:
                 var1 = _closure2_slot0;
                 var1 = var1.id;
-                if(!(var3 != var1)) { _fun0008_ip = 51; continue _fun0008 }
-case 53:
+                if(!(var3 != var1)) { _fun0008_ip = 49; continue _fun0008 }
+case 51:
                 var1 = _closure2_slot0;
                 var3 = var1.id;
                 var1 = '';
-                if(!(var1 === var3)) { _fun0008_ip = 54; continue _fun0008 }
-case 51:
+                if(!(var1 === var3)) { _fun0008_ip = 52; continue _fun0008 }
+case 49:
                 var1 = _closure1_slot7;
-                _fun0008_ip = 55; continue _fun0008;
-case 54:
+                _fun0008_ip = 53; continue _fun0008;
+case 52:
                 var4 = _closure1_slot6;
                 var3 = var4.getEmbeddedActivitiesForChannel;
                 var2 = _closure2_slot0;
                 var2 = var2.id;
                 var1 = var3.bind(var4)(var2);
-case 55:
+case 53:
                 return var1;
             }
         };
@@ -495,16 +497,16 @@ case 55:
 case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0009_ip = 56; continue _fun0009 }
-case 52:
+                if(!(var1 == var3)) { _fun0009_ip = 54; continue _fun0009 }
+case 50:
                 var1 = _closure1_slot7;
-                _fun0009_ip = 57; continue _fun0009;
-case 56:
+                _fun0009_ip = 55; continue _fun0009;
+case 54:
                 var4 = _closure1_slot6;
                 var3 = var4.getEmbeddedActivitiesForGuild;
                 var2 = _closure2_slot0;
                 var1 = var3.bind(var4)(var2);
-case 57:
+case 55:
                 return var1;
             }
         };
@@ -541,21 +543,21 @@ case 0:
                     var2 = var2.location;
                     var5 = var3.bind(var4)(var2);
                     var3 = null;
-                    if(!(var3 != var5)) { _fun0010_ip = 58; continue _fun0010 }
+                    if(!(var3 != var5)) { _fun0010_ip = 56; continue _fun0010 }
 case 28:
                     var7 = _closure3_slot0;
                     var4 = var7.get;
                     var4 = var4.bind(var7)(var5);
-                    if(!(var3 == var4)) { _fun0010_ip = 59; continue _fun0010 }
-case 60:
+                    if(!(var3 == var4)) { _fun0010_ip = 57; continue _fun0010 }
+case 58:
                     var4 = new Array(0);
-case 59:
+case 57:
                     var3 = var4.push;
                     var3 = var3.bind(var4)(var6);
                     var3 = _closure3_slot0;
                     var2 = var3.set;
                     var2 = var2.bind(var3)(var5, var4);
-case 58:
+case 56:
                     return var1;
                 }
             };
@@ -608,7 +610,7 @@ case 0:
                     var1 = undefined;
                     var3 = undefined;
                     if(var7) { _fun0011_ip = 35; continue _fun0011 }
-case 61:
+case 59:
                     var7 = var6.embeddedActivity;
                     var9 = var7.userIds;
                     var7 = var9.values;
@@ -626,16 +628,16 @@ case 0:
                             var4 = null;
                             var6 = var4 == var1;
                             var1 = undefined;
-                            if(var6) { _fun0012_ip = 62; continue _fun0012 }
-case 63:
+                            if(var6) { _fun0012_ip = 60; continue _fun0012 }
+case 61:
                             var3 = _closure4_slot0;
                             var3 = var3.application;
                             var4 = var4 == var3;
                             var1 = undefined;
-                            if(var4) { _fun0012_ip = 62; continue _fun0012 }
-case 64:
-                            var1 = var3.id;
+                            if(var4) { _fun0012_ip = 60; continue _fun0012 }
 case 62:
+                            var1 = var3.id;
+case 60:
                             var1 = var2 === var1;
                             return var1;
                         }
@@ -645,15 +647,15 @@ case 62:
                     var4 = var5.set;
                     var2 = var8 == var6;
                     var3 = undefined;
-                    if(var2) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+                    if(var2) { _fun0011_ip = 47; continue _fun0011 }
+case 63:
                     var2 = var6.application;
                     var8 = var8 == var2;
                     var3 = undefined;
-                    if(var8) { _fun0011_ip = 65; continue _fun0011 }
-case 67:
+                    if(var8) { _fun0011_ip = 47; continue _fun0011 }
+case 64:
                     var3 = var2.id;
-case 65:
+case 47:
                     var2 = {};
                     var11 = var2;
                     var10 = var6;

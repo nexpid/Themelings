@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -152,17 +152,17 @@ case 0:
             var _closure2_slot1 = var4;
             var4 = _closure1_slot7;
             var6 = undefined;
-            var16 = var4.bind(var6)();
+            var18 = var4.bind(var6)();
             var5 = var2.id;
             var _closure2_slot2 = var5;
             var10 = var2.isPremium;
-            var13 = _closure1_slot4;
-            var11 = var13.useState;
-            var14 = _closure1_slot0;
+            var12 = _closure1_slot4;
+            var11 = var12.useState;
+            var13 = _closure1_slot0;
             var4 = _closure1_slot2;
             var7 = 6;
             var4 = var4[var7];
-            var4 = var14.bind(var6)(var4);
+            var4 = var13.bind(var6)(var4);
             var4 = var4.PremiumAppIconIds;
             var4 = var4.PIRATE;
             if(!(var5 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
@@ -171,29 +171,38 @@ case 3:
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var15 = _closure1_slot6;
-            var17 = _closure1_slot1;
-            var18 = _closure1_slot2;
-            var14 = 7;
-            var14 = var18[var14];
-            var19 = var17.bind(var6)(var14);
-            var18 = var19.random;
-            var17 = var15.length;
-            var14 = 1;
-            var17 = var17 - var14;
-            var14 = 0;
-            var14 = var18.bind(var19)(var14, var17);
-            var14 = var15[var14];
-            var4 = var14.bind(var15)();
+            var16 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var13 = 7;
+            var13 = var17[var13];
+            var19 = var16.bind(var6)(var13);
+            var17 = var19.random;
+            var16 = var15.length;
+            var13 = 1;
+            var16 = var16 - var13;
+            var13 = 0;
+            var13 = var17.bind(var19)(var13, var16);
+            var13 = var15[var13];
+            var4 = var13.bind(var15)();
 case 4:
-            var13 = var11.bind(var13)(var4);
+            var12 = var11.bind(var12)(var4);
             var11 = _closure1_slot3;
             var4 = 1;
-            var11 = var11.bind(var6)(var13, var4);
+            var11 = var11.bind(var6)(var12, var4);
             var4 = 0;
-            var13 = var11[var4];
+            var15 = var11[var4];
             var11 = var3 === var5;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
+            var12 = 8;
+            var12 = var3[var12];
+            var16 = var4.bind(var6)(var12);
+            var13 = var16.useRadioA11yNative;
+            var12 = {};
+            var12['selected'] = var11;
+            var12 = var13.bind(var16)(var12);
+            var13 = var12.accessibilityRole;
+            var12 = var12.accessibilityState;
             var3 = var3[var7];
             var3 = var4.bind(var6)(var3);
             var3 = var3.PremiumAppIconIds;
@@ -211,41 +220,41 @@ case 5:
 case 9:
             var4 = _closure1_slot5;
             var3 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var2 = 8;
-            var2 = var17[var2];
+            var19 = _closure1_slot2;
+            var2 = 9;
+            var2 = var19[var2];
             var2 = var3.bind(var6)(var2);
             var3 = var2.TableRow;
             var2 = {};
-            var15 = _closure1_slot1;
-            var14 = 9;
-            var14 = var17[var14];
-            var15 = var15.bind(var6)(var14);
-            var14 = {};
-            var14['id'] = var5;
-            var16 = var16.icon;
-            var14['style'] = var16;
-            var14 = var4.bind(var6)(var15, var14);
-            var2['icon'] = var14;
-            var2['label'] = var13;
-            var13 = function onLongPress() {
+            var17 = _closure1_slot1;
+            var16 = 10;
+            var16 = var19[var16];
+            var17 = var17.bind(var6)(var16);
+            var16 = {};
+            var16['id'] = var5;
+            var18 = var18.icon;
+            var16['style'] = var18;
+            var16 = var4.bind(var6)(var17, var16);
+            var2['icon'] = var16;
+            var2['label'] = var15;
+            var15 = function onLongPress() {
                 var3 = _closure2_slot1;
                 var2 = _closure2_slot2;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
                 return var1;
             };
-            var2['onLongPress'] = var13;
-            var12 = function onPress() {
+            var2['onLongPress'] = var15;
+            var14 = function onPress() {
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot2;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
                 return var1;
             };
-            var2['onPress'] = var12;
-            var12 = 'radio';
-            var2['accessibilityRole'] = var12;
+            var2['onPress'] = var14;
+            var2['accessibilityRole'] = var13;
+            var2['accessibilityState'] = var12;
             if(var11) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             if(!var10) { _fun0001_ip = 10; continue _fun0001 }
@@ -256,7 +265,7 @@ case 10:
             var10 = _closure1_slot5;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var8 = 10;
+            var8 = 11;
             var8 = var12[var8];
             var8 = var9.bind(var6)(var8);
             var9 = var8.FormRadio;

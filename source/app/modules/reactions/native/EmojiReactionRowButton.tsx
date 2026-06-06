@@ -20,6 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -28,12 +29,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.EMOJI_URL_BASE_SIZE;
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 4;
     var7 = var6[var4];
     var9 = var5.bind(var1)(var7);
@@ -68,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot5 = var7;
+    var _closure1_slot6 = var7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -118,7 +119,7 @@ case 4:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -133,7 +134,7 @@ case 0:
             var11 = var1.onPress;
             var7 = var1.iconSize;
             var10 = var1.styles;
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot6;
             var4 = undefined;
             var5 = var2.bind(var4)(var3);
             var3 = _closure1_slot0;
@@ -178,7 +179,7 @@ case 12:
 case 11:
             var7 = var2;
 case 9:
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot5;
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 8;
@@ -228,7 +229,7 @@ case 0:
             var19 = var1.emojiLineHeight;
             var7 = var1.onPress;
             var6 = var1.styles;
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot6;
             var4 = undefined;
             var5 = var1.bind(var4)(var2);
             var2 = _closure1_slot1;
@@ -238,17 +239,28 @@ case 0:
             var2 = var2.bind(var4)(var1);
             var1 = 'EmojiReactionRowButton';
             var18 = var2.bind(var4)(var1);
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot7;
             var22 = undefined;
             var21 = var9;
             var9 = var22[var1](var21, var20, var19, var18, var17);
-            var3 = _closure1_slot4;
+            var8 = _closure1_slot3;
+            var3 = var8.useMemo;
+            var2 = function() {
+                var1 = {};
+                var2 = true;
+                var1['foreground'] = var2;
+                return var1;
+            };
+            var1 = new Array(0);
+            var8 = var3.bind(var8)(var2, var1);
+            var3 = _closure1_slot5;
             var10 = _closure1_slot0;
             var1 = 8;
             var1 = var11[var1];
             var1 = var10.bind(var4)(var1);
             var2 = var1.PressableOpacity;
-            var1 = {'activeOpacity': 0.5, 'accessibilityRole': 'button', 'accessibilityLabel': null, 'disabled': null, 'hitSlop': 4};
+            var1 = {'androidRippleConfig': null, 'activeOpacity': 0.5, 'accessibilityRole': 'button', 'accessibilityLabel': null, 'disabled': null, 'hitSlop': 4};
+            var1['androidRippleConfig'] = var8;
             var8 = 9;
             var12 = var11[var8];
             var12 = var10.bind(var4)(var12);
@@ -281,7 +293,7 @@ case 13:
             var5 = null;
             if(!var6) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot5;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
             var6 = 11;
@@ -317,7 +329,7 @@ case 19:
             var10['id'] = var15;
             var14 = var14.animated;
             var10['animated'] = var14;
-            var13 = _closure1_slot3;
+            var13 = _closure1_slot4;
             var10['size'] = var13;
             var9 = var11.bind(var12)(var10);
 case 21:

@@ -149,12 +149,11 @@ case 2:
                     var4 = _closure2_slot1;
                     var3 = _closure1_slot7;
                     var3 = var3.NUF;
-                    if(!(var4 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+                    if(!(var3 !== var4)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var4 = _closure2_slot1;
                     var3 = _closure1_slot7;
                     var3 = var3.IN_APP;
-                    if(!(var4 === var3)) { _fun0002_ip = 6; continue _fun0002 }
+                    if(!(var3 === var4)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
                     var6 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -241,15 +240,14 @@ case 6:
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var4 = _closure2_slot1;
-                    var3 = _closure1_slot7;
-                    var3 = var3.NUF;
-                    if(!(var4 !== var3)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
                     var3 = _closure2_slot1;
                     var2 = _closure1_slot7;
+                    var2 = var2.NUF;
+                    if(!(var2 !== var3)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+                    var2 = _closure1_slot7;
                     var2 = var2.IN_APP;
-                    if(!(var3 === var2)) { _fun0003_ip = 14; continue _fun0003 }
+                    if(!(var2 === var3)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;

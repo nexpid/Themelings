@@ -78,7 +78,7 @@ case 4:
     var1 = undefined;
     var6 = var6.bind(var1)(var9);
     var _closure1_slot2 = var6;
-    var6 = 4;
+    var6 = 5;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -90,28 +90,42 @@ case 4:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = _closure1_slot3;
-            var5 = undefined;
-            var1 = var1.bind(var5)();
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var3 = 3;
-            var3 = var6[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.isWindows;
-            var3 = var3.bind(var4)();
-            var4 = _closure1_slot2;
-            var2 = var4.getState;
+            var6 = undefined;
+            var1 = var1.bind(var6)();
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 3;
+            var2 = var7[var2];
+            var4 = var5.bind(var6)(var2);
+            var2 = var4.isWindows;
             var2 = var2.bind(var4)();
-            var2 = var2.clipsSettings;
-            var2 = var2.decoupledClipsEnabled;
-            if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+            var4 = 4;
+            var4 = var7[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.isClipsSettingsRedesignEnabled;
+            var4 = var4.bind(var5)();
+            if(var4) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-            var1 = var3;
-case 6:
+            var4 = _closure1_slot2;
+            var3 = var4.getState;
+            var3 = var3.bind(var4)();
+            var3 = var3.clipsSettings;
+            var4 = var3.decoupledClipsEnabled;
+            var3 = var1;
             if(!var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-            var1 = var2;
+            var3 = var2;
 case 8:
+            if(!var3) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            var3 = var4;
+case 10:
+            return var3;
+case 6:
+            if(!var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+            var1 = var2;
+case 12:
             return var1;
         }
     };
@@ -119,9 +133,9 @@ case 8:
     var2 = function useIsDecoupledClipsEnabled() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var1 = _closure1_slot4;
+            var2 = _closure1_slot4;
             var6 = undefined;
-            var1 = var1.bind(var6)();
+            var2 = var2.bind(var6)();
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 3;
@@ -131,12 +145,12 @@ case 0:
             var3 = var3.bind(var4)();
             var4 = 2;
             var4 = var7[var4];
-            var6 = var5.bind(var6)(var4);
-            var5 = var6.useStateFromStores;
-            var2 = _closure1_slot2;
+            var9 = var5.bind(var6)(var4);
+            var8 = var9.useStateFromStores;
+            var1 = _closure1_slot2;
             var4 = new Array(1);
-            var4[0] = var2;
-            var2 = function() {
+            var4[0] = var1;
+            var1 = function() {
                 var2 = _closure1_slot2;
                 var1 = var2.getState;
                 var1 = var1.bind(var2)();
@@ -144,15 +158,31 @@ case 0:
                 var1 = var1.decoupledClipsEnabled;
                 return var1;
             };
-            var2 = var5.bind(var6)(var4, var2);
-            if(!var1) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
-            var1 = var3;
-case 10:
-            if(!var1) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+            var4 = var8.bind(var9)(var4, var1);
+            var1 = 4;
+            var1 = var7[var1];
+            var5 = var5.bind(var6)(var1);
+            var1 = var5.useIsClipsSettingsRedesignEnabled;
+            var1 = var1.bind(var5)();
+            if(var1) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var1 = var2;
-case 12:
+            if(!var2) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
+            var1 = var3;
+case 16:
+            if(!var1) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
+            var1 = var4;
+case 18:
+            _fun0004_ip = 20; continue _fun0004;
+case 14:
+            if(!var2) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
+            var2 = var3;
+case 21:
+            var1 = var2;
+case 20:
             return var1;
         }
     };

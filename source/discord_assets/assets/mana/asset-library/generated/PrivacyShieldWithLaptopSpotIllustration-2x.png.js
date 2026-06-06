@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/PrivacyShieldWithLaptopSpotIllustration-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/34dac1c7caefee3f8101aa9e6f1a9c8f4c00c94484c224945df56a0764b35dd3.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/cb5af499f926973ca1ad8c17051e306249060a38a2bb58153b1fc42a2764f191.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 109301;
+    var4 = 109622;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

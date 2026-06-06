@@ -240,23 +240,31 @@ case 2:
             var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             var6 = var5.bind(var4)(var3, var1);
 case 28:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 23;
+            var1 = var4[var1];
+            var5 = undefined;
+            var4 = var3.bind(var5)(var1);
+            var3 = var4.useCheckboxA11yNative;
+            var1 = {};
+            var1['checked'] = var10;
+            var1 = var3.bind(var4)(var1);
+            var11 = var1.accessibilityRole;
+            var9 = var1.accessibilityState;
             var1 = null;
             var3 = var1 == var6;
             if(var3) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
-            var5 = _closure1_slot10;
+            var4 = _closure1_slot10;
             var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 23;
-            var2 = var4[var2];
-            var4 = undefined;
-            var2 = var3.bind(var4)(var2);
+            var12 = _closure1_slot2;
+            var2 = 24;
+            var2 = var12[var2];
+            var2 = var3.bind(var5)(var2);
             var3 = var2.Button;
             var2 = {};
-            var9 = 'checkbox';
-            var2['accessibilityRole'] = var9;
-            var9 = {};
-            var9['checked'] = var10;
+            var2['accessibilityRole'] = var11;
             var2['accessibilityState'] = var9;
             var9 = 'tertiary';
             if(!var10) { _fun0001_ip = 32; continue _fun0001 }
@@ -274,7 +282,7 @@ case 32:
             };
             var2['onPress'] = var7;
             var2['icon'] = var6;
-            var1 = var5.bind(var4)(var3, var2);
+            var1 = var4.bind(var5)(var3, var2);
 case 30:
             return var1;
         }
@@ -420,7 +428,7 @@ case 30:
     var4['scrollContentContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot13 = var4;
-    var4 = 34;
+    var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -434,7 +442,7 @@ case 0:
             var12 = var1.bind(var4)();
             var21 = _closure1_slot1;
             var23 = _closure1_slot2;
-            var1 = 24;
+            var1 = 25;
             var1 = var23[var1];
             var1 = var21.bind(var4)(var1);
             var1 = var1.bind(var4)();
@@ -466,7 +474,7 @@ case 0:
             var1 = var1[var2];
             var _closure2_slot2 = var1;
             var25 = _closure1_slot0;
-            var1 = 25;
+            var1 = 26;
             var1 = var23[var1];
             var2 = var25.bind(var4)(var1);
             var1 = var2.useNavigation;
@@ -488,10 +496,10 @@ case 35:
                         var2 = var3.bind(var4)(var2);
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var3 = 27;
+                        var3 = 28;
                         var3 = var2[var3];
                         var5 = var5.bind(var4)(var3);
-                        var3 = 26;
+                        var3 = 27;
                         var3 = var2[var3];
                         var2 = var2.paths;
                         var2 = var5.bind(var4)(var3, var2);
@@ -504,7 +512,7 @@ case 37:
 case 39:
                         var5 = _closure1_slot1;
                         var7 = _closure1_slot2;
-                        var3 = 28;
+                        var3 = 29;
                         var3 = var7[var3];
                         var9 = var5.bind(var4)(var3);
                         var8 = var9.fetchPopularGuildsFromCategories;
@@ -526,7 +534,7 @@ case 43:
 case 45:
                         var8 = _closure1_slot1;
                         var14 = _closure1_slot2;
-                        var7 = 29;
+                        var7 = 30;
                         var7 = var14[var7];
                         var9 = var8.bind(var4)(var7);
                         var8 = var9.open;
@@ -534,7 +542,7 @@ case 45:
                         var11 = 'ICYMIInfoModal';
                         var7['key'] = var11;
                         var13 = _closure1_slot0;
-                        var10 = 30;
+                        var10 = 31;
                         var11 = var14[var10];
                         var11 = var13.bind(var4)(var11);
                         var12 = var11.intl;
@@ -579,7 +587,7 @@ case 34:
             var1[0] = var8;
             var1[1] = var6;
             var13 = var3.bind(var5)(var2, var1);
-            var1 = 31;
+            var1 = 32;
             var1 = var23[var1];
             var8 = var25.bind(var4)(var1);
             var3 = var8.useStateFromStoresArray;
@@ -603,7 +611,7 @@ case 0:
                     var _closure3_slot0 = var6;
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 32;
+                    var1 = 33;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var4.bind(var1)(var3);
@@ -666,14 +674,14 @@ case 48:
             var2 = _closure1_slot11;
             var1 = {};
             var14 = _closure1_slot10;
-            var8 = 33;
+            var8 = 34;
             var5 = var23[var8];
             var5 = var25.bind(var4)(var5);
             var9 = var5.Text;
             var5 = {'variant': 'heading-xl/semibold', 'color': 'mobile-text-heading-primary'};
             var17 = var12.title;
             var5['style'] = var17;
-            var18 = 30;
+            var18 = 31;
             var17 = var23[var18];
             var17 = var25.bind(var4)(var17);
             var24 = var17.intl;
@@ -779,7 +787,7 @@ case 49:
             var12 = _closure1_slot10;
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var10 = 23;
+            var10 = 24;
             var10 = var14[var10];
             var10 = var17.bind(var4)(var10);
             var11 = var10.Button;

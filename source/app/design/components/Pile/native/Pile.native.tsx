@@ -163,16 +163,15 @@ case 14:
                     var1 = var9.bind(var4)(var1);
                     var1 = var1.CutoutShape;
                     var1 = var1.Circle;
-                    if(!(var6 !== var1)) { _fun0002_ip = 15; continue _fun0002 }
+                    if(!(var1 !== var6)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-                    var6 = _closure2_slot0;
                     var9 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var13];
                     var1 = var9.bind(var4)(var1);
                     var1 = var1.CutoutShape;
                     var1 = var1.RoundedRect;
-                    if(!(var6 !== var1)) { _fun0002_ip = 17; continue _fun0002 }
+                    if(!(var1 !== var6)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;

@@ -331,12 +331,11 @@ case 0:
                     var4 = _closure2_slot0;
                     var3 = _closure1_slot10;
                     var3 = var3.NUF;
-                    if(!(var4 !== var3)) { _fun0002_ip = 5; continue _fun0002 }
+                    if(!(var3 !== var4)) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                    var4 = _closure2_slot0;
                     var3 = _closure1_slot10;
                     var3 = var3.IN_APP;
-                    if(!(var4 === var3)) { _fun0002_ip = 7; continue _fun0002 }
+                    if(!(var3 === var4)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -441,12 +440,11 @@ case 0:
                 var4 = _closure2_slot0;
                 var3 = _closure1_slot10;
                 var3 = var3.NUF;
-                if(!(var4 !== var3)) { _fun0003_ip = 9; continue _fun0003 }
+                if(!(var3 !== var4)) { _fun0003_ip = 9; continue _fun0003 }
 case 6:
-                var4 = _closure2_slot0;
                 var3 = _closure1_slot10;
                 var3 = var3.IN_APP;
-                if(!(var4 === var3)) { _fun0003_ip = 10; continue _fun0003 }
+                if(!(var3 === var4)) { _fun0003_ip = 10; continue _fun0003 }
 case 8:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;

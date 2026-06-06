@@ -261,12 +261,11 @@ case 21:
                     var14 = var4.type;
                     var13 = _closure1_slot7;
                     var13 = var13.EMOJI;
-                    if(!(var14 !== var13)) { _fun0002_ip = 22; continue _fun0002 }
+                    if(!(var13 !== var14)) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
-                    var14 = var4.type;
                     var13 = _closure1_slot7;
                     var13 = var13.NSFW;
-                    if(!(var14 === var13)) { _fun0002_ip = 24; continue _fun0002 }
+                    if(!(var13 === var14)) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
                     var15 = _closure3_slot0;
                     var14 = var15.push;

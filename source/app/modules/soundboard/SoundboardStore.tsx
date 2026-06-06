@@ -1175,11 +1175,11 @@ case 0:
             var5 = var1.proto;
             var1 = _closure1_slot13;
             var1 = var1.FRECENCY_AND_FAVORITES_SETTINGS;
-            if(!(var3 !== var1)) { _fun0018_ip = 5; continue _fun0018 }
+            if(!(var1 !== var3)) { _fun0018_ip = 5; continue _fun0018 }
 case 84:
             var1 = _closure1_slot13;
             var1 = var1.PRELOADED_USER_SETTINGS;
-            if(!(var3 === var1)) { _fun0018_ip = 85; continue _fun0018 }
+            if(!(var1 === var3)) { _fun0018_ip = 85; continue _fun0018 }
 case 61:
             var1 = _closure1_slot29;
             var3 = undefined;

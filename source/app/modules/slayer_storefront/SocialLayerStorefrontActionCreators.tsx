@@ -871,151 +871,17 @@ case 80:
         return var1;
     };
     var _closure1_slot16 = var1;
-    var1 = function fetchSocialLayerSKUPurchaseEligibilityHelper(arg1, arg2) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-            var8 = arg2;
-            var _closure2_slot0 = var8;
-            var4 = _closure1_slot4;
-            var3 = var4.getSKUEligibility;
-            var5 = var3.bind(var4)(var8);
-            var3 = 'checking';
-            var3 = var3 !== var5;
-            if(!var3) { _fun0006_ip = 45; continue _fun0006 }
-case 101:
-            var4 = 'eligible';
-            var3 = var4 !== var5;
-case 45:
-            if(!var3) { _fun0006_ip = 48; continue _fun0006 }
-case 102:
-            var4 = 'ineligible';
-            var3 = var4 !== var5;
-case 48:
-            if(!var3) { _fun0006_ip = 103; continue _fun0006 }
-case 11:
-            var6 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var3 = 4;
-            var3 = var5[var3];
-            var4 = undefined;
-            var7 = var6.bind(var4)(var3);
-            var6 = var7.dispatch;
-            var3 = {};
-            var9 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_START';
-            var3['type'] = var9;
-            var3['skuId'] = var8;
-            var3 = var6.bind(var7)(var3);
-            var3 = global;
-            var7 = var3.setTimeout;
-            var6 = _closure1_slot10;
-            var3 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-                    var5 = _closure1_slot4;
-                    var3 = var5.getSKUEligibility;
-                    var2 = _closure2_slot0;
-                    var3 = var3.bind(var5)(var2);
-                    var2 = 'checking';
-                    if(!(var2 === var3)) { _fun0007_ip = 104; continue _fun0007 }
-case 105:
-                    var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var1 = 4;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.dispatch;
-                    var1 = {'type': 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE', 'skuId': null, 'reason': 'interaction_deadline'};
-                    var4 = _closure2_slot0;
-                    var1['skuId'] = var4;
-                    var1 = var2.bind(var3)(var1);
-case 104:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var3 = var7.bind(var4)(var3, var6);
-            var3 = _closure1_slot0;
-            var2 = 5;
-            var2 = var5[var2];
-            var2 = var3.bind(var4)(var2);
-            var4 = var2.HTTP;
-            var3 = var4.post;
-            var2 = {};
-            var5 = arg1;
-            var2['url'] = var5;
-            var5 = true;
-            var2['rejectWithError'] = var5;
-            var4 = var3.bind(var4)(var2);
-            var3 = var4.then;
-            var2 = function(arg1) {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 4;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.dispatch;
-                var2 = {};
-                var5 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_CREATE';
-                var2['type'] = var5;
-                var5 = _closure2_slot0;
-                var2['skuId'] = var5;
-                var5 = arg1;
-                var5 = var5.body;
-                var5 = var5.interaction_id;
-                var2['interactionId'] = var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.catch;
-            var1 = function(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-                    var6 = arg1;
-                    var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var1 = 4;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.dispatch;
-                    var2 = {};
-                    var5 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE';
-                    var2['type'] = var5;
-                    var5 = _closure2_slot0;
-                    var2['skuId'] = var5;
-                    var5 = null;
-                    var7 = var5 == var6;
-                    var5 = undefined;
-                    if(var7) { _fun0008_ip = 106; continue _fun0008 }
-case 107:
-                    var5 = var6.status;
-case 106:
-                    var2['httpStatus'] = var5;
-                    var2 = var3.bind(var4)(var2);
-                    return var1;
-                }
-            };
-            var1 = var2.bind(var3)(var1);
-case 103:
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var _closure1_slot17 = var1;
     var1 = function _fetchSocialLayerStorefrontAffinity() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
         var3 = function* () {
             var1 = function* anon_0_() {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 108; continue _fun0009 }
+                    if(var2) { _fun0006_ip = 101; continue _fun0006 }
 case 69:
                     var6 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -1044,11 +910,11 @@ case 48: // try_start_0
                     var3['rejectWithError'] = var8;
                     var3 = var6.bind(var7)(var3);
                     SaveGenerator(address=118);
-case 109:
+case 102:
                     return var3;
-case 110:
+case 103:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0009_ip = 111; continue _fun0009 }
+                    if(var6) { _fun0006_ip = 104; continue _fun0006 }
 case 14:
                     var6 = var3.body;
                     var8 = _closure1_slot1;
@@ -1067,9 +933,9 @@ case 14:
                     var10 = var10.bind(var11)(var6);
                     var7['affinity'] = var10;
                     var7 = var8.bind(var9)(var7);
-case 112: // try_end0
+case 105: // try_end0
                     return var6;
-case 111:
+case 104:
                     return var3;
 case 23: // catch_target0
                     CatchBlockStart(arg_register=2);
@@ -1084,14 +950,14 @@ case 23: // catch_target0
                     var2 = var3.bind(var4)(var2);
                     var2 = null;
                     return var2;
-case 108:
+case 101:
                     return var1;
                 }
             };
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot18 = var4;
+        _closure1_slot17 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1099,7 +965,7 @@ case 108:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot17 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -1164,15 +1030,15 @@ case 108:
     var5 = var6.bind(var7)(var5);
     var3['_fetchSocialLayerStorefront'] = var4;
     var4 = function fetchSocialLayerStorefrontForApplication(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var7 = arg1;
             var5 = arguments[1];
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0010_ip = 113; continue _fun0010 }
-case 114:
+            if(!(var5 === var4)) { _fun0007_ip = 106; continue _fun0007 }
+case 107:
             var5 = {};
-case 113:
+case 106:
             var3 = _closure1_slot11;
             var2 = {};
             var6 = 'application';
@@ -1187,15 +1053,15 @@ case 113:
     };
     var3['fetchSocialLayerStorefrontForApplication'] = var4;
     var4 = function fetchSocialLayerStorefront(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var7 = arg1;
             var5 = arguments[1];
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0011_ip = 113; continue _fun0011 }
-case 114:
+            if(!(var5 === var4)) { _fun0008_ip = 106; continue _fun0008 }
+case 107:
             var5 = {};
-case 113:
+case 106:
             var3 = _closure1_slot11;
             var2 = {};
             var6 = 'guild';
@@ -1210,15 +1076,15 @@ case 113:
     };
     var3['fetchSocialLayerStorefront'] = var4;
     var4 = function fetchSocialLayerStorefrontSkuForApplication(arg1, arg2) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var5 = arg2;
             var4 = arguments[2];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0012_ip = 113; continue _fun0012 }
-case 114:
+            if(!(var4 === var3)) { _fun0009_ip = 106; continue _fun0009 }
+case 107:
             var4 = {};
-case 113:
+case 106:
             var2 = _closure1_slot13;
             var7 = _closure1_slot5;
             var6 = var7.SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU_BY_APPLICATION_ID;
@@ -1230,15 +1096,15 @@ case 113:
     };
     var3['fetchSocialLayerStorefrontSkuForApplication'] = var4;
     var4 = function fetchSocialLayerStorefrontSku(arg1, arg2) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var5 = arg2;
             var4 = arguments[2];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0013_ip = 113; continue _fun0013 }
-case 114:
+            if(!(var4 === var3)) { _fun0010_ip = 106; continue _fun0010 }
+case 107:
             var4 = {};
-case 113:
+case 106:
             var2 = _closure1_slot13;
             var7 = _closure1_slot5;
             var6 = var7.SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU;
@@ -1293,32 +1159,145 @@ case 113:
     };
     var3['fetchSocialLayerStorefrontConfig'] = var4;
     var4 = function fetchSocialLayerSKUPurchaseEligibility(arg1, arg2) {
-        var4 = arg2;
-        var3 = _closure1_slot17;
-        var5 = _closure1_slot5;
-        var2 = var5.SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU_ELIGIBILITY;
-        var1 = arg1;
-        var2 = var2.bind(var5)(var1, var4);
-        var1 = undefined;
-        var2 = var3.bind(var1)(var2, var4);
-        return var1;
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+            var8 = arg2;
+            var _closure2_slot0 = var8;
+            var3 = _closure1_slot4;
+            var2 = var3.getSKUEligibility;
+            var4 = var2.bind(var3)(var8);
+            var2 = 'checking';
+            var2 = var2 !== var4;
+            if(!var2) { _fun0011_ip = 45; continue _fun0011 }
+case 108:
+            var3 = 'eligible';
+            var2 = var3 !== var4;
+case 45:
+            if(!var2) { _fun0011_ip = 48; continue _fun0011 }
+case 109:
+            var3 = 'ineligible';
+            var2 = var3 !== var4;
+case 48:
+            if(!var2) { _fun0011_ip = 110; continue _fun0011 }
+case 11:
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 4;
+            var2 = var6[var2];
+            var4 = undefined;
+            var7 = var3.bind(var4)(var2);
+            var3 = var7.dispatch;
+            var2 = {};
+            var9 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_START';
+            var2['type'] = var9;
+            var2['skuId'] = var8;
+            var2 = var3.bind(var7)(var2);
+            var2 = global;
+            var7 = var2.setTimeout;
+            var3 = _closure1_slot10;
+            var2 = function() {
+                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+                    var5 = _closure1_slot4;
+                    var3 = var5.getSKUEligibility;
+                    var2 = _closure2_slot0;
+                    var3 = var3.bind(var5)(var2);
+                    var2 = 'checking';
+                    if(!(var2 === var3)) { _fun0012_ip = 111; continue _fun0012 }
+case 112:
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 4;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.dispatch;
+                    var1 = {'type': 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE', 'skuId': null, 'reason': 'interaction_deadline'};
+                    var4 = _closure2_slot0;
+                    var1['skuId'] = var4;
+                    var1 = var2.bind(var3)(var1);
+case 111:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var2 = var7.bind(var4)(var2, var3);
+            var3 = _closure1_slot0;
+            var2 = 5;
+            var2 = var6[var2];
+            var2 = var3.bind(var4)(var2);
+            var4 = var2.HTTP;
+            var3 = var4.post;
+            var2 = {};
+            var7 = _closure1_slot5;
+            var6 = var7.SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU_ELIGIBILITY;
+            var5 = arg1;
+            var5 = var6.bind(var7)(var5, var8);
+            var2['url'] = var5;
+            var5 = true;
+            var2['rejectWithError'] = var5;
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.then;
+            var2 = function(arg1) {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var5 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_CREATE';
+                var2['type'] = var5;
+                var5 = _closure2_slot0;
+                var2['skuId'] = var5;
+                var5 = arg1;
+                var5 = var5.body;
+                var5 = var5.interaction_id;
+                var2['interactionId'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.catch;
+            var1 = function(arg1) {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+                    var6 = arg1;
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 4;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var5 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE';
+                    var2['type'] = var5;
+                    var5 = _closure2_slot0;
+                    var2['skuId'] = var5;
+                    var5 = null;
+                    var7 = var5 == var6;
+                    var5 = undefined;
+                    if(var7) { _fun0013_ip = 113; continue _fun0013 }
+case 114:
+                    var5 = var6.status;
+case 113:
+                    var2['httpStatus'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                }
+            };
+            var1 = var2.bind(var3)(var1);
+case 110:
+            var1 = undefined;
+            return var1;
+        }
     };
     var3['fetchSocialLayerSKUPurchaseEligibility'] = var4;
-    var4 = function fetchSocialLayerSKUPurchaseEligibilityForApplication(arg1, arg2) {
-        var4 = arg2;
-        var3 = _closure1_slot17;
-        var5 = _closure1_slot5;
-        var2 = var5.SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU_ELIGIBILITY_FOR_APPLICATION_ID;
-        var1 = arg1;
-        var2 = var2.bind(var5)(var1, var4);
-        var1 = undefined;
-        var2 = var3.bind(var1)(var2, var4);
-        return var1;
-    };
-    var3['fetchSocialLayerSKUPurchaseEligibilityForApplication'] = var4;
     var2 = function fetchSocialLayerStorefrontAffinity() {
         var1 = undefined;
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot17;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

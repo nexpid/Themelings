@@ -147,99 +147,94 @@ case 15:
             var2 = function(arg1, arg2, arg3) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var3 = arg1;
-                    var7 = arg2;
-                    var8 = arg3;
-                    var2 = _closure1_slot0;
+                    var2 = arg1;
+                    var6 = arg2;
+                    var7 = arg3;
+                    var4 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var5 = 4;
-                    var1 = var1[var5];
-                    var6 = undefined;
-                    var1 = var2.bind(var6)(var1);
+                    var8 = 4;
+                    var1 = var1[var8];
+                    var5 = undefined;
+                    var1 = var4.bind(var5)(var1);
                     var1 = var1.FastListItemTypes;
                     var1 = var1.ITEM;
-                    if(!(var3 !== var1)) { _fun0003_ip = 17; continue _fun0003 }
+                    if(!(var1 !== var2)) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
-                    var2 = _closure1_slot0;
+                    var4 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var1 = var1[var5];
-                    var1 = var2.bind(var6)(var1);
+                    var1 = var1[var8];
+                    var1 = var4.bind(var5)(var1);
                     var1 = var1.FastListItemTypes;
                     var1 = var1.SECTION;
-                    if(!(var3 !== var1)) { _fun0003_ip = 19; continue _fun0003 }
+                    if(!(var1 !== var2)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
-                    var2 = _closure1_slot0;
+                    var4 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var1 = var1[var5];
-                    var1 = var2.bind(var6)(var1);
+                    var1 = var1[var8];
+                    var1 = var4.bind(var5)(var1);
                     var1 = var1.FastListItemTypes;
-                    var2 = var1.SECTION_FOOTER;
-                    var1 = undefined;
-                    if(!(var3 === var2)) { _fun0003_ip = 21; continue _fun0003 }
+                    var1 = var1.SECTION_FOOTER;
+                    if(!(var1 !== var2)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+                    return var5;
 case 11:
-                    var5 = _closure2_slot1;
-                    var2 = null;
-                    var5 = var2 == var5;
-                    var2 = undefined;
-                    if(var5) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                    var9 = _closure2_slot1;
-                    var5 = _closure1_slot1;
-                    var10 = _closure1_slot2;
-                    var3 = 5;
-                    var3 = var10[var3];
-                    var3 = var5.bind(var6)(var3);
-                    var5 = var3.SECTION_FOOTER;
-                    var3 = -1;
-                    var2 = var9.bind(var6)(var5, var7, var3);
+                    var4 = _closure2_slot1;
+                    var1 = null;
+                    var4 = var1 == var4;
+                    var1 = undefined;
+                    if(var4) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-                    var1 = var2;
+                    var8 = _closure2_slot1;
+                    var4 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var9[var2];
+                    var2 = var4.bind(var5)(var2);
+                    var4 = var2.SECTION_FOOTER;
+                    var2 = -1;
+                    var1 = var8.bind(var5)(var4, var6, var2);
 case 21:
-                    _fun0003_ip = 24; continue _fun0003;
+                    return var1;
 case 19:
-                    var5 = _closure2_slot1;
-                    var2 = null;
-                    var5 = var2 == var5;
-                    var2 = undefined;
-                    if(var5) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-                    var9 = _closure2_slot1;
-                    var5 = _closure1_slot1;
-                    var10 = _closure1_slot2;
-                    var3 = 5;
-                    var3 = var10[var3];
-                    var3 = var5.bind(var6)(var3);
-                    var5 = var3.SECTION_HEADER;
-                    var3 = -1;
-                    var2 = var9.bind(var6)(var5, var7, var3);
-case 25:
-                    var1 = var2;
+                    var4 = _closure2_slot1;
+                    var1 = null;
+                    var4 = var1 == var4;
+                    var1 = undefined;
+                    if(var4) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
-                    _fun0003_ip = 27; continue _fun0003;
+                    var8 = _closure2_slot1;
+                    var4 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var9[var2];
+                    var2 = var4.bind(var5)(var2);
+                    var4 = var2.SECTION_HEADER;
+                    var2 = -1;
+                    var1 = var8.bind(var5)(var4, var6, var2);
+case 23:
+                    return var1;
 case 17:
-                    var2 = _closure2_slot1;
-                    var3 = null;
-                    var9 = var3 == var2;
-                    var2 = undefined;
-                    if(var9) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
-                    var5 = _closure2_slot1;
-                    var9 = _closure1_slot1;
-                    var10 = _closure1_slot2;
-                    var4 = 5;
-                    var4 = var10[var4];
-                    var4 = var9.bind(var6)(var4);
-                    var4 = var4.ITEM;
-                    var9 = var3 != var8;
-                    var3 = -1;
-                    if(!var9) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
-                    var3 = var8;
-case 30:
-                    var2 = var5.bind(var6)(var4, var7, var3);
+                    var1 = _closure2_slot1;
+                    var2 = null;
+                    var8 = var2 == var1;
+                    var1 = undefined;
+                    if(var8) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+                    var4 = _closure2_slot1;
+                    var8 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var9[var3];
+                    var3 = var8.bind(var5)(var3);
+                    var3 = var3.ITEM;
+                    var8 = var2 != var7;
+                    var2 = -1;
+                    if(!var8) { _fun0003_ip = 27; continue _fun0003 }
 case 28:
-                    var1 = var2;
+                    var2 = var7;
 case 27:
+                    var1 = var4.bind(var5)(var3, var6, var2);
+case 25:
                     return var1;
                 }
             };
@@ -254,53 +249,53 @@ case 27:
 case 0:
                     var1 = _closure2_slot3;
                     var2 = null;
-                    if(!(var2 == var1)) { _fun0004_ip = 32; continue _fun0004 }
+                    if(!(var2 == var1)) { _fun0004_ip = 29; continue _fun0004 }
 case 3:
                     var1 = _closure2_slot2;
                     var2 = var2 == var1;
                     var1 = undefined;
-                    if(var2) { _fun0004_ip = 33; continue _fun0004 }
-case 32:
+                    if(var2) { _fun0004_ip = 30; continue _fun0004 }
+case 29:
                     var2 = _closure2_slot0;
                     var3 = {};
                     var5 = _closure2_slot3;
-                    if(var2) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+                    if(var2) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
                     var3['top'] = var5;
                     var2 = _closure2_slot2;
                     var3['bottom'] = var2;
                     var2 = var3;
-                    _fun0004_ip = 36; continue _fun0004;
-case 34:
+                    _fun0004_ip = 33; continue _fun0004;
+case 31:
                     var3['left'] = var5;
                     var4 = _closure2_slot2;
                     var3['right'] = var4;
                     var2 = var3;
-case 36:
-                    var1 = var2;
 case 33:
+                    var1 = var2;
+case 30:
                     return var1;
                 }
             };
             var13 = var3.bind(var13)(var1, var2);
             var2 = var14.scrollReporting;
             var1 = 'animatedCallbacks';
-            if(!(var1 !== var2)) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+            if(!(var1 !== var2)) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
-            _fun0002_ip = 39; continue _fun0002;
-case 37:
+            _fun0002_ip = 36; continue _fun0002;
+case 34:
             var2 = _closure1_slot0;
             var41 = _closure1_slot2;
             var1 = 4;
             var1 = var41[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.AnimatedFastList;
-case 39:
+case 36:
             var2 = _closure1_slot4;
             var1 = {};
             var1['accessibilityLabel'] = var40;
@@ -311,10 +306,10 @@ case 39:
             var1['batchesToRender'] = var37;
             var1['chunkBase'] = var35;
             var35 = 'disabled';
-            if(!var36) { _fun0002_ip = 40; continue _fun0002 }
-case 41:
+            if(!var36) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
             var35 = 'default';
-case 40:
+case 37:
             var1['stickySectionsVariant'] = var35;
             var1['footerSize'] = var34;
             var1['getRecyclerKey'] = var33;
@@ -330,10 +325,10 @@ case 40:
             var26 = var14.scrollReporting;
             var16 = 'animatedScrollPosition';
             var24 = undefined;
-            if(!(var16 !== var26)) { _fun0002_ip = 42; continue _fun0002 }
-case 43:
+            if(!(var16 !== var26)) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
             var24 = var25;
-case 42:
+case 39:
             var1['onScroll'] = var24;
             var1['onScrollBeginDrag'] = var23;
             var1['onScrollEndDrag'] = var22;
@@ -350,20 +345,20 @@ case 42:
             var1['scrollIndicatorInsets'] = var13;
             var15 = var14.scrollReporting;
             var13 = undefined;
-            if(!(var16 === var15)) { _fun0002_ip = 44; continue _fun0002 }
-case 45:
+            if(!(var16 === var15)) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
             var13 = var14.scrollPosition;
-case 44:
+case 41:
             var1['scrollPosValue'] = var13;
             var1['sections'] = var12;
             var1['sectionSize'] = var11;
             var1['sectionFooterSize'] = var10;
             var1['showsHorizontalScrollIndicator'] = var9;
             var1['showsVerticalScrollIndicator'] = var8;
-            if(var6) { _fun0002_ip = 46; continue _fun0002 }
-case 47:
+            if(var6) { _fun0002_ip = 43; continue _fun0002 }
+case 44:
             var6 = var7;
-case 46:
+case 43:
             var1['stickyHeaderFooter'] = var6;
             var1['style'] = var5;
             var1 = var2.bind(var4)(var3, var1);

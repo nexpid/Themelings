@@ -1,0 +1,101 @@
+// app/modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var3 = exports;
+    var8 = dependencyMap;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var13 = true;
+    var4['value'] = var13;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var5 = {};
+    var1 = 0;
+    var5['STEP_1_LOADED'] = var1;
+    var4 = 'STEP_1_LOADED';
+    var5[var1] = var4;
+    var6 = 1;
+    var5['STEP_2_CLICKED_INTERNAL'] = var6;
+    var4 = 'STEP_2_CLICKED_INTERNAL';
+    var5[var6] = var4;
+    var9 = 2;
+    var5['STEP_3_CLICKED_EXTERNAL'] = var9;
+    var4 = 'STEP_3_CLICKED_EXTERNAL';
+    var5[var9] = var4;
+    var9 = 3;
+    var5['STEP_4_VIEWED_NON_IMPRESSION'] = var9;
+    var4 = 'STEP_4_VIEWED_NON_IMPRESSION';
+    var5[var9] = var4;
+    var9 = 4;
+    var5['STEP_5_VIEWED_IMPRESSION'] = var9;
+    var4 = 'STEP_5_VIEWED_IMPRESSION';
+    var5[var9] = var4;
+    var4 = var8[var1];
+    var1 = undefined;
+    var10 = var7.bind(var1)(var4);
+    var9 = var10.createApexExperiment;
+    var4 = {'name': '2026-05-use-ad-analytics-interface', 'kind': 'user'};
+    var11 = {'enabled': false, 'maxStep': 4294967295};
+    var4['defaultConfig'] = var11;
+    var11 = {};
+    var12 = {'enabled': false, 'maxStep': 4294967295};
+    var11[0] = var12;
+    var12 = {};
+    var12['enabled'] = var13;
+    var14 = var5.STEP_1_LOADED;
+    var12['maxStep'] = var14;
+    var11[1] = var12;
+    var12 = {};
+    var12['enabled'] = var13;
+    var14 = var5.STEP_2_CLICKED_INTERNAL;
+    var12['maxStep'] = var14;
+    var11[2] = var12;
+    var12 = {};
+    var12['enabled'] = var13;
+    var14 = var5.STEP_3_CLICKED_EXTERNAL;
+    var12['maxStep'] = var14;
+    var11[3] = var12;
+    var12 = {};
+    var12['enabled'] = var13;
+    var14 = var5.STEP_4_VIEWED_NON_IMPRESSION;
+    var12['maxStep'] = var14;
+    var11[4] = var12;
+    var12 = {};
+    var12['enabled'] = var13;
+    var13 = var5.STEP_5_VIEWED_IMPRESSION;
+    var12['maxStep'] = var13;
+    var11[5] = var12;
+    var4['variations'] = var11;
+    var4 = var9.bind(var10)(var4);
+    var _closure1_slot0 = var4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['AdAnalyticsInterfaceExperimentStep'] = var5;
+    var3['AdAnalyticsInterfaceExperiment'] = var4;
+    var2 = function shouldMigrateToAdAnalyticsInterface(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var2 = var3.getConfig;
+            var1 = {};
+            var4 = arg2;
+            var1['location'] = var4;
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.enabled;
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = var2.maxStep;
+            var2 = arg1;
+            var1 = var2 <= var3;
+case 2:
+            return var1;
+        }
+    };
+    var3['shouldMigrateToAdAnalyticsInterface'] = var2;
+    return var1;
+})();

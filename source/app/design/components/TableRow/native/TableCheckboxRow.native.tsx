@@ -38,11 +38,11 @@ case 0:
             var _closure2_slot0 = var8;
             var18 = var5.label;
             var17 = var5.subLabel;
-            var12 = var5.disabled;
+            var16 = var5.disabled;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var16 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var12 = false;
+            var16 = false;
 case 2:
             var14 = var5.onPress;
             var _closure2_slot1 = var14;
@@ -52,25 +52,25 @@ case 2:
             var22 = var3;
             var21 = null;
             var2 = silentSetPrototypeOf(var22, var21);
-            var6 = 0;
+            var7 = 0;
             var22 = {};
             var21 = var5;
             var20 = var3;
-            var16 = copyDataProperties(var22, var21, var20);
+            var12 = copyDataProperties(var22, var21, var20);
             var _closure2_slot2 = var4;
-            var13 = _closure1_slot0;
-            var15 = _closure1_slot1;
-            var2 = 2;
-            var2 = var15[var2];
-            var3 = var13.bind(var4)(var2);
-            var2 = var3.useSharedValue;
-            var7 = var2.bind(var3)(var6);
-            _closure2_slot2 = var7;
-            var6 = _closure1_slot2;
-            var9 = var6.useCallback;
-            var3 = new Array(1);
-            var3[0] = var7;
-            var2 = function() {
+            var2 = _closure1_slot0;
+            var19 = _closure1_slot1;
+            var3 = 2;
+            var3 = var19[var3];
+            var6 = var2.bind(var4)(var3);
+            var3 = var6.useSharedValue;
+            var13 = var3.bind(var6)(var7);
+            _closure2_slot2 = var13;
+            var7 = _closure1_slot2;
+            var9 = var7.useCallback;
+            var6 = new Array(1);
+            var6[0] = var13;
+            var3 = function() {
                 var3 = _closure2_slot2;
                 var2 = var3.set;
                 var1 = 1;
@@ -78,12 +78,12 @@ case 2:
                 var1 = undefined;
                 return var1;
             };
-            var9 = var9.bind(var6)(var2, var3);
-            var3 = var6.useCallback;
-            var2 = new Array(3);
-            var2[0] = var14;
-            var2[1] = var7;
-            var2[2] = var8;
+            var9 = var9.bind(var7)(var3, var6);
+            var6 = var7.useCallback;
+            var3 = new Array(3);
+            var3[0] = var14;
+            var3[1] = var13;
+            var3[2] = var8;
             var1 = function() {
                 var4 = _closure2_slot2;
                 var3 = var4.set;
@@ -96,61 +96,58 @@ case 2:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var7 = var3.bind(var6)(var1, var2);
+            var7 = var6.bind(var7)(var1, var3);
             var1 = 3;
-            var2 = var15[var1];
-            var3 = var13.bind(var4)(var2);
-            var2 = var3.getNodeText;
-            var14 = var2.bind(var3)(var18);
-            var1 = var15[var1];
-            var2 = var13.bind(var4)(var1);
-            var1 = var2.getNodeText;
-            var6 = var1.bind(var2)(var17);
-            var3 = _closure1_slot3;
+            var3 = var19[var1];
+            var6 = var2.bind(var4)(var3);
+            var3 = var6.getNodeText;
+            var14 = var3.bind(var6)(var18);
+            var1 = var19[var1];
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.getNodeText;
+            var6 = var1.bind(var3)(var17);
             var1 = 4;
-            var1 = var15[var1];
-            var1 = var13.bind(var4)(var1);
+            var1 = var19[var1];
+            var13 = var2.bind(var4)(var1);
+            var3 = var13.useCheckboxA11yNative;
+            var1 = {};
+            var1['checked'] = var8;
+            var1['disabled'] = var16;
+            var1 = var3.bind(var13)(var1);
+            var13 = var1.accessibilityRole;
+            var15 = var1.accessibilityState;
+            var3 = _closure1_slot3;
+            var1 = 5;
+            var1 = var19[var1];
+            var1 = var2.bind(var4)(var1);
             var2 = var1.TableRow;
             var1 = {};
             var22 = var1;
-            var21 = var16;
-            var16 = copyDataProperties(var22, var21);
+            var21 = var12;
+            var12 = copyDataProperties(var22, var21);
             var19 = false;
-            var16 = 'arrow';
-            var1[15] = var19;
-            var16 = 'label';
-            var1[15] = var18;
-            var16 = 'subLabel';
-            var1[15] = var17;
-            var16 = 'disabled';
-            var1[15] = var12;
-            var16 = {};
-            var16['disabled'] = var12;
-            var16['checked'] = var8;
+            var12 = 'arrow';
+            var1[11] = var19;
+            var12 = 'label';
+            var1[11] = var18;
+            var12 = 'subLabel';
+            var1[11] = var17;
+            var12 = 'disabled';
+            var1[11] = var16;
             var12 = 'accessibilityState';
-            var1[11] = var16;
-            var16 = true;
+            var1[11] = var15;
+            var15 = true;
             var12 = 'accessible';
-            var1[11] = var16;
-            var12 = 5;
-            var12 = var15[var12];
-            var13 = var13.bind(var4)(var12);
-            var12 = var13.isIOS;
-            var12 = var12.bind(var13)();
-            var13 = 'checkbox';
-            if(!var12) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var13 = 'switch';
-case 4:
+            var1[11] = var15;
             var12 = 'accessibilityRole';
             var1[11] = var13;
             var11 = var11 != var6;
             var13 = '';
             var12 = var13;
-            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = var6;
-case 6:
+case 4:
             var6 = global;
             var6 = var6.HermesInternal;
             var11 = var6.concat;

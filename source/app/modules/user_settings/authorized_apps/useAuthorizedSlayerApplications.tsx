@@ -97,15 +97,17 @@ case 6:
                     var4 = _closure2_slot2;
                     var3 = var4.filter;
                     var2 = function(arg1) {
-                        var2 = _closure1_slot1;
-                        var3 = _closure1_slot2;
-                        var1 = 3;
-                        var1 = var3[var1];
-                        var3 = undefined;
-                        var2 = var2.bind(var3)(var1);
                         var1 = arg1;
-                        var1 = var1.application;
-                        var1 = var2.bind(var3)(var1);
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var2 = 3;
+                        var3 = var3[var2];
+                        var2 = undefined;
+                        var4 = var4.bind(var2)(var3);
+                        var3 = var4.isSocialLayerSDKAuthorization;
+                        var2 = var1.application;
+                        var1 = var1.scopes;
+                        var1 = var3.bind(var4)(var2, var1);
                         return var1;
                     };
                     var3 = var3.bind(var4)(var2);

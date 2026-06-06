@@ -47,30 +47,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var9 = var1.consent;
-            var6 = var1.onToggleConsent;
-            var5 = var1.asCheckbox;
+            var5 = var1.onToggleConsent;
+            var6 = var1.asCheckbox;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = false;
+            var6 = false;
 case 2:
             var1 = _closure1_slot10;
             var11 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useCheckboxA11yNative;
+            var1 = {};
+            var1['checked'] = var9;
+            var1 = var2.bind(var3)(var1);
+            var7 = var1.accessibilityRole;
+            var8 = var1.accessibilityState;
             var3 = _closure1_slot9;
             var2 = _closure1_slot4;
             var1 = {};
-            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = var11.radio;
+            var10 = var11.radio;
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var7 = var11.checkbox;
+            var10 = var11.checkbox;
 case 6:
-            var1['style'] = var7;
-            var7 = {};
-            var7['checked'] = var9;
-            var1['accessibilityState'] = var7;
-            var7 = 'checkbox';
+            var1['style'] = var10;
+            var1['accessibilityState'] = var8;
             var1['accessibilityRole'] = var7;
             var12 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -85,15 +93,15 @@ case 6:
             var7 = var7.Y7Kgvf;
             var7 = var8.bind(var10)(var7);
             var1['accessibilityLabel'] = var7;
-            var1['onPress'] = var6;
-            var6 = {'top': 11, 'bottom': 11, 'left': 11};
-            var1['hitSlop'] = var6;
+            var1['onPress'] = var5;
+            var5 = 11;
+            var7 = {'top': 11, 'bottom': 11, 'left': 11};
+            var1['hitSlop'] = var7;
             var8 = _closure1_slot8;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            if(var5) { _fun0001_ip = 7; continue _fun0001 }
+            if(var6) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var5 = 10;
             var5 = var10[var5];
             var5 = var7.bind(var4)(var5);
             var5 = var5.FormRow;
@@ -103,7 +111,7 @@ case 8:
             var6 = var8.bind(var4)(var6, var5);
             _fun0001_ip = 9; continue _fun0001;
 case 7:
-            var5 = 9;
+            var5 = 10;
             var5 = var10[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.FormCheckbox;
@@ -206,7 +214,7 @@ case 9:
     var4['checkboxLabel'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -255,7 +263,7 @@ case 14:
             var13 = _closure1_slot8;
             var10 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var9 = 11;
+            var9 = 12;
             var9 = var14[var9];
             var10 = var10.bind(var6)(var9);
             var9 = {};
@@ -299,7 +307,7 @@ case 18:
             var10 = _closure1_slot8;
             var9 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var7 = 11;
+            var7 = 12;
             var7 = var13[var7];
             var9 = var9.bind(var6)(var7);
             var7 = {};

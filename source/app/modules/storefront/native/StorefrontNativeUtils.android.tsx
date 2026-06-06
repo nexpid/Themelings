@@ -137,13 +137,16 @@ case 12:
 case 11:
                     if(!(var2 == var1)) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-                    var1 = {'normalPrice': null, 'discountedPrice': null, 'discountPercent': null};
+                    var1 = {'normalPrice': null, 'discountedPrice': null, 'discountPercent': null, 'userPrice': null};
                     _fun0004_ip = 15; continue _fun0004;
 case 13:
                     var2 = {'normalPrice': null, 'discountedPrice': null, 'discountPercent': null};
+                    var4 = _closure2_slot1;
+                    var4 = var4.priceString;
+                    var2['normalPrice'] = var4;
                     var3 = _closure2_slot1;
                     var3 = var3.priceString;
-                    var2['normalPrice'] = var3;
+                    var2['userPrice'] = var3;
                     var1 = var2;
 case 15:
                     return var1;

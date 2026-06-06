@@ -60,60 +60,57 @@ case 0:
             var1 = _closure1_slot6;
             var4 = undefined;
             var17 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useCheckboxA11yNative;
+            var1 = {};
+            var1['checked'] = var10;
+            var1 = var2.bind(var3)(var1);
+            var7 = var1.accessibilityRole;
+            var6 = var1.accessibilityState;
             var3 = _closure1_slot4;
             var2 = _closure1_slot2;
             var1 = {};
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var6 = 3;
-            var6 = var8[var6];
-            var7 = var7.bind(var4)(var6);
-            var6 = var7.isIOS;
-            var7 = var6.bind(var7)();
-            var6 = 'checkbox';
-            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+            var1['accessibilityRole'] = var7;
+            var8 = '';
+            var7 = var8;
+            if(!var20) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = 'switch';
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot1;
+            var9 = 4;
+            var11 = var15[var9];
+            var11 = var14.bind(var4)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
+            var9 = var15[var9];
+            var9 = var14.bind(var4)(var9);
+            var9 = var9.t;
+            var9 = var9.EkokLy;
+            var14 = var11.bind(var12)(var9);
+            var9 = global;
+            var9 = var9.HermesInternal;
+            var12 = var9.concat;
+            var11 = ' (';
+            var9 = ')';
+            var7 = var12.bind(var11)(var14, var9);
 case 2:
-            var1['accessibilityRole'] = var6;
-            var7 = '';
-            var6 = var7;
-            if(!var20) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var12 = _closure1_slot0;
-            var14 = _closure1_slot1;
-            var8 = 4;
-            var9 = var14[var8];
-            var9 = var12.bind(var4)(var9);
-            var11 = var9.intl;
-            var9 = var11.string;
-            var8 = var14[var8];
-            var8 = var12.bind(var4)(var8);
-            var8 = var8.t;
-            var8 = var8.EkokLy;
-            var12 = var9.bind(var11)(var8);
-            var8 = global;
-            var8 = var8.HermesInternal;
-            var11 = var8.concat;
-            var9 = ' (';
-            var8 = ')';
-            var6 = var11.bind(var9)(var12, var8);
-case 4:
-            var6 = var21 + var6;
+            var7 = var21 + var7;
             var12 = null;
-            var8 = var12 != var16;
-            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var8 = global;
-            var8 = var8.HermesInternal;
-            var9 = var8.concat;
-            var8 = ', ';
-            var7 = var9.bind(var8)(var16);
-case 6:
-            var6 = var6 + var7;
-            var1['accessibilityLabel'] = var6;
-            var6 = {};
-            var6['checked'] = var10;
+            var9 = var12 != var16;
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var9 = global;
+            var9 = var9.HermesInternal;
+            var11 = var9.concat;
+            var9 = ', ';
+            var8 = var11.bind(var9)(var16);
+case 4:
+            var7 = var7 + var8;
+            var1['accessibilityLabel'] = var7;
             var1['accessibilityState'] = var6;
             var5 = function onPress() {
                 var3 = _closure2_slot1;
@@ -160,8 +157,8 @@ case 6:
             var15['variant'] = var19;
             var19 = new Array(2);
             var19[0] = var21;
-            if(!var20) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var20) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var23 = _closure1_slot5;
             var27 = _closure1_slot0;
             var28 = _closure1_slot1;
@@ -183,7 +180,7 @@ case 9:
             var24 = [' ', '*'];
             var21['children'] = var24;
             var20 = var23.bind(var4)(var22, var21);
-case 8:
+case 6:
             var19[1] = var20;
             var15['children'] = var19;
             var15 = var7.bind(var4)(var18, var15);
@@ -192,8 +189,8 @@ case 8:
             var11 = new Array(2);
             var11[0] = var14;
             var12 = var12 != var16;
-            if(!var12) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var15 = _closure1_slot4;
             var14 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -203,7 +200,7 @@ case 11:
             var13 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
             var13['children'] = var16;
             var12 = var15.bind(var4)(var14, var13);
-case 10:
+case 8:
             var11[1] = var12;
             var9['children'] = var11;
             var9 = var7.bind(var4)(var10, var9);

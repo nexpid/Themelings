@@ -144,7 +144,7 @@ case 12:
     var _closure1_slot7 = var6;
     var6 = null;
     var _closure1_slot8 = var6;
-    var6 = 6;
+    var6 = 7;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -240,29 +240,29 @@ case 13:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = arg1;
-            var7 = arguments[1];
+            var6 = arguments[1];
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0004_ip = 2; continue _fun0004 }
+            if(!(var6 === var4)) { _fun0004_ip = 2; continue _fun0004 }
 case 15:
             var1 = _closure1_slot11;
-            var7 = var1.bind(var4)();
+            var6 = var1.bind(var4)();
 case 2:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var6 = 4;
-            var2 = var2[var6];
+            var7 = 4;
+            var2 = var2[var7];
             var2 = var5.bind(var4)(var2);
             var2 = var2.WebBrowserType;
             var2 = var2.SAFARI;
-            if(!(var7 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
+            if(!(var6 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var6];
+            var2 = var2[var7];
             var2 = var5.bind(var4)(var2);
             var2 = var2.WebBrowserType;
             var2 = var2.CHROME;
-            if(!(var7 === var2)) { _fun0004_ip = 18; continue _fun0004 }
+            if(!(var6 === var2)) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
             var2 = _closure1_slot10;
             var2 = var2.bind(var4)();
@@ -270,11 +270,11 @@ case 19:
 case 18:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var6];
+            var2 = var2[var7];
             var2 = var5.bind(var4)(var2);
             var2 = var2.WebBrowserType;
             var2 = var2.IN_APP;
-            if(!(var7 === var2)) { _fun0004_ip = 20; continue _fun0004 }
+            if(!(var6 === var2)) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -293,32 +293,28 @@ case 22:
 case 20:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var6];
+            var2 = var2[var7];
             var2 = var5.bind(var4)(var2);
             var2 = var2.WebBrowserType;
             var2 = var2.IN_APP;
-            if(!(var7 !== var2)) { _fun0004_ip = 23; continue _fun0004 }
+            if(!(var2 !== var6)) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var6];
+            var2 = var2[var7];
             var2 = var5.bind(var4)(var2);
             var2 = var2.WebBrowserType;
             var2 = var2.CHROME;
-            if(!(var7 !== var2)) { _fun0004_ip = 25; continue _fun0004 }
+            if(!(var2 !== var6)) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
-            var2 = global;
-            var6 = var2.Error;
-            var2 = var2.HermesInternal;
-            var5 = var2.concat;
-            var2 = 'Unknown browser type: ';
-            var10 = var5.bind(var2)(var7);
-            var5 = var6.prototype;
-            var5 = Object.create(var5, {constructor: {value: var6}});
-            var11 = var5;
-            var2 = new var11[var6](var10, var9);
-            var2 = var2 instanceof Object ? var2 : var5;
-            throw var2;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 6;
+            var2 = var7[var2];
+            var5 = var5.bind(var4)(var2);
+            var2 = var5.assertNever;
+            var2 = var2.bind(var5)(var6);
+            return var2;
 case 25:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;

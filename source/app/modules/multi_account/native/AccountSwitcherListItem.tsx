@@ -147,7 +147,7 @@ case 8:
     var5['accountInfo'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot11 = var5;
-    var5 = 17;
+    var5 = 18;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -280,12 +280,20 @@ case 19:
 case 18:
             var4 = _closure1_slot3;
 case 20:
+            var3 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var2 = 15;
+            var2 = var12[var2];
+            var12 = var3.bind(var5)(var2);
+            var3 = var12.useRadioA11yNative;
+            var2 = {};
+            var2['selected'] = var13;
+            var2 = var3.bind(var12)(var2);
+            var14 = var2.accessibilityRole;
+            var12 = var2.accessibilityState;
             var3 = _closure1_slot10;
             var2 = {};
-            var12 = 'radio';
-            var2['accessibilityRole'] = var12;
-            var12 = {};
-            var12['selected'] = var13;
+            var2['accessibilityRole'] = var14;
             var2['accessibilityState'] = var12;
             var12 = undefined;
             if(var13) { _fun0002_ip = 21; continue _fun0002 }
@@ -321,7 +329,7 @@ case 21:
             var14 = _closure1_slot9;
             var18 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var12 = 15;
+            var12 = 16;
             var12 = var24[var12];
             var12 = var18.bind(var5)(var12);
             var13 = var12.Avatar;
@@ -346,7 +354,7 @@ case 21:
             var20 = var20.username;
             var16['style'] = var20;
             var23 = _closure1_slot1;
-            var20 = 16;
+            var20 = 17;
             var20 = var24[var20];
             var24 = var23.bind(var5)(var20);
             var23 = var24.getUserTag;

@@ -449,7 +449,7 @@ case 4:
     var _closure1_slot13 = var7;
     var4 = 'FamilyCenterActivityRowGuild';
     var7['displayName'] = var4;
-    var4 = 21;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -486,6 +486,14 @@ case 14:
             var3 = var3.bind(var4)(var1);
             if(var3) { _fun0003_ip = 12; continue _fun0003 }
 case 15:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var9];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.isGift;
+            var3 = var3.bind(var4)(var1);
+            if(var3) { _fun0003_ip = 12; continue _fun0003 }
+case 16:
             var3 = null;
             return var3;
 case 12:
@@ -495,8 +503,16 @@ case 12:
             var4 = var4.bind(var5)(var3);
             var3 = var4.isPurchase;
             var3 = var3.bind(var4)(var1);
-            if(var3) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(var3) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var9];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.isGift;
+            var3 = var3.bind(var4)(var1);
+            if(var3) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var6 = _closure1_slot8;
             var4 = _closure1_slot3;
             var3 = {};
@@ -507,31 +523,70 @@ case 17:
             var7 = var8.isUserAction;
             var7 = var7.bind(var8)(var1);
             var10 = _closure1_slot8;
-            if(var7) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+            if(var7) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var8 = _closure1_slot13;
             var7 = {};
             var7['action'] = var1;
             var7 = var10.bind(var5)(var8, var7);
-            _fun0003_ip = 20; continue _fun0003;
-case 18:
+            _fun0003_ip = 23; continue _fun0003;
+case 21:
             var9 = _closure1_slot11;
             var8 = {};
             var8['action'] = var1;
             var7 = var10.bind(var5)(var9, var8);
-case 20:
+case 23:
             var3['children'] = var7;
             var3 = var6.bind(var5)(var4, var3);
             return var3;
-case 16:
+case 19:
+            var6 = _closure1_slot5;
+            var4 = var6.getGiftInfo;
+            var3 = var1.entity_id;
+            var7 = var4.bind(var6)(var3);
+            var3 = null;
+            if(!(var3 != var7)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
+            var6 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var4 = 21;
+            var4 = var15[var4];
+            var6 = var6.bind(var5)(var4);
+            var4 = var6.getGiftRowDisplayInfo;
+            var4 = var4.bind(var6)(var7);
+            var14 = var4.skuId;
+            var13 = var4.subscriptionPlanId;
+            var12 = var4.price;
+            var11 = var4.gifterUserId;
+            var10 = var4.claimed;
+            var9 = var4.offeredAt;
+            var8 = var4.claimedAt;
+            var7 = _closure1_slot8;
+            var6 = _closure1_slot1;
+            var4 = 22;
+            var4 = var15[var4];
+            var6 = var6.bind(var5)(var4);
+            var4 = {};
+            var4['skuId'] = var14;
+            var4['subscriptionPlanId'] = var13;
+            var4['price'] = var12;
+            var4['gifterUserId'] = var11;
+            var4['claimed'] = var10;
+            var4['offeredAt'] = var9;
+            var4['claimedAt'] = var8;
+            var4 = var7.bind(var5)(var6, var4);
+            return var4;
+case 24:
+            return var3;
+case 17:
             var4 = _closure1_slot5;
             var3 = var4.getPurchaseInfo;
             var1 = var1.entity_id;
             var6 = var3.bind(var4)(var1);
             var1 = null;
             var3 = var1 == var6;
-            if(var3) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+            if(var3) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var4 = _closure1_slot8;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -548,7 +603,7 @@ case 22:
             var6 = var6.currency;
             var2['currency'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 21:
+case 26:
             return var1;
         }
     };

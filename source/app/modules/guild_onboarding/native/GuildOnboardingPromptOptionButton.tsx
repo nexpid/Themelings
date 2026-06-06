@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function GuildOnboardingPromptOptionButtonTsx4(){const{useReducedMotion,scale}=this.__closure;return useReducedMotion?{}:{transform:[{scale:scale.get()}]};}';
     var4['code'] = var7;
     var _closure1_slot15 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -354,8 +354,8 @@ case 16:
             var2 = _closure1_slot3;
             var1 = 2;
             var1 = var2.bind(var4)(var3, var1);
-            var20 = var1[var13];
-            _closure2_slot6 = var20;
+            var19 = var1[var13];
+            _closure2_slot6 = var19;
             var3 = 1;
             var1 = var1[var3];
             _closure2_slot7 = var1;
@@ -364,7 +364,7 @@ case 16:
             _closure2_slot8 = var1;
             var5 = var14.useEffect;
             var2 = new Array(1);
-            var2[0] = var20;
+            var2[0] = var19;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -515,19 +515,19 @@ case 24:
                 }
             };
             var18 = {};
-            var18['showMemberCount'] = var20;
-            var20 = var1[var11];
-            var20 = var2.bind(var4)(var20);
-            var20 = var20.withDelay;
-            var18['withDelay'] = var20;
-            var20 = var1[var32];
-            var20 = var2.bind(var4)(var20);
-            var20 = var20.withTiming;
-            var18['withTiming'] = var20;
-            var20 = var1[var11];
-            var20 = var2.bind(var4)(var20);
-            var20 = var20.Easing;
-            var18['Easing'] = var20;
+            var18['showMemberCount'] = var19;
+            var19 = var1[var11];
+            var19 = var2.bind(var4)(var19);
+            var19 = var19.withDelay;
+            var18['withDelay'] = var19;
+            var19 = var1[var32];
+            var19 = var2.bind(var4)(var19);
+            var19 = var19.withTiming;
+            var18['withTiming'] = var19;
+            var19 = var1[var11];
+            var19 = var2.bind(var4)(var19);
+            var19 = var19.Easing;
+            var18['Easing'] = var19;
             var18['useReducedMotion'] = var26;
             var5['__closure'] = var18;
             var18 = 9518487706997.0;
@@ -538,8 +538,8 @@ case 24:
             var1 = var1[var11];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useSharedValue;
-            var25 = var1.bind(var2)(var3);
-            _closure2_slot9 = var25;
+            var21 = var1.bind(var2)(var3);
+            _closure2_slot9 = var21;
             var30 = var6;
             if(!var6) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
@@ -706,47 +706,47 @@ case 53:
             };
             var16 = var3.bind(var5)(var1, var2);
             var14 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var23 = _closure1_slot2;
             var1 = 15;
-            var2 = var21[var1];
-            var22 = var14.bind(var4)(var2);
-            var5 = var22.useToken;
+            var2 = var23[var1];
+            var19 = var14.bind(var4)(var2);
+            var5 = var19.useToken;
             var2 = _closure1_slot1;
             var18 = 8;
-            var3 = var21[var18];
+            var3 = var23[var18];
             var3 = var2.bind(var4)(var3);
             var3 = var3.colors;
             var3 = var3.BACKGROUND_BRAND;
-            var28 = var5.bind(var22)(var3);
+            var28 = var5.bind(var19)(var3);
             _closure2_slot12 = var28;
-            var3 = var21[var1];
-            var22 = var14.bind(var4)(var3);
-            var5 = var22.useToken;
-            var3 = var21[var18];
+            var3 = var23[var1];
+            var19 = var14.bind(var4)(var3);
+            var5 = var19.useToken;
+            var3 = var23[var18];
             var3 = var2.bind(var4)(var3);
             var3 = var3.colors;
             var3 = var3.BORDER_SUBTLE;
-            var27 = var5.bind(var22)(var3);
+            var27 = var5.bind(var19)(var3);
             _closure2_slot13 = var27;
-            var3 = var21[var1];
-            var22 = var14.bind(var4)(var3);
-            var5 = var22.useToken;
-            var3 = var21[var18];
+            var3 = var23[var1];
+            var19 = var14.bind(var4)(var3);
+            var5 = var19.useToken;
+            var3 = var23[var18];
             var3 = var2.bind(var4)(var3);
             var3 = var3.colors;
             var3 = var3.BORDER_STRONG;
-            var31 = var5.bind(var22)(var3);
+            var31 = var5.bind(var19)(var3);
             _closure2_slot14 = var31;
-            var1 = var21[var1];
+            var1 = var23[var1];
             var5 = var14.bind(var4)(var1);
             var3 = var5.useToken;
-            var1 = var21[var18];
+            var1 = var23[var18];
             var1 = var2.bind(var4)(var1);
             var1 = var1.colors;
             var1 = var1.BACKGROUND_BASE_LOWEST;
-            var23 = var3.bind(var5)(var1);
-            _closure2_slot15 = var23;
-            var1 = var21[var11];
+            var25 = var3.bind(var5)(var1);
+            _closure2_slot15 = var25;
+            var1 = var23[var11];
             var5 = var14.bind(var4)(var1);
             var3 = var5.useAnimatedStyle;
             var1 = function L() {
@@ -820,29 +820,29 @@ case 62:
                     return var1;
                 }
             };
-            var22 = {};
-            var22['useReducedMotion'] = var26;
-            var33 = var21[var11];
+            var19 = {};
+            var19['useReducedMotion'] = var26;
+            var33 = var23[var11];
             var33 = var14.bind(var4)(var33);
             var33 = var33.Easing;
-            var22['Easing'] = var33;
-            var32 = var21[var32];
+            var19['Easing'] = var33;
+            var32 = var23[var32];
             var32 = var14.bind(var4)(var32);
             var32 = var32.withTiming;
-            var22['withTiming'] = var32;
-            var22['selected'] = var9;
-            var22['selectedBorderColor'] = var31;
-            var22['isNew'] = var30;
-            var22['unselectedBrandBorderColor'] = var28;
-            var22['unselectedBorderColor'] = var27;
-            var22['selectedBackgroundColor'] = var23;
-            var1['__closure'] = var22;
-            var22 = 17180171486485.0;
-            var1['__workletHash'] = var22;
-            var22 = _closure1_slot14;
-            var1['__initData'] = var22;
-            var22 = var3.bind(var5)(var1);
-            var1 = var21[var11];
+            var19['withTiming'] = var32;
+            var19['selected'] = var9;
+            var19['selectedBorderColor'] = var31;
+            var19['isNew'] = var30;
+            var19['unselectedBrandBorderColor'] = var28;
+            var19['unselectedBorderColor'] = var27;
+            var19['selectedBackgroundColor'] = var25;
+            var1['__closure'] = var19;
+            var19 = 17180171486485.0;
+            var1['__workletHash'] = var19;
+            var19 = _closure1_slot14;
+            var1['__initData'] = var19;
+            var25 = var3.bind(var5)(var1);
+            var1 = var23[var11];
             var5 = var14.bind(var4)(var1);
             var3 = var5.useAnimatedStyle;
             var1 = function X() {
@@ -867,38 +867,47 @@ case 42:
                     return var1;
                 }
             };
-            var23 = {};
-            var23['useReducedMotion'] = var26;
-            var23['scale'] = var25;
-            var1['__closure'] = var23;
-            var23 = 319662489785.0;
-            var1['__workletHash'] = var23;
-            var23 = _closure1_slot15;
-            var1['__initData'] = var23;
-            var23 = var3.bind(var5)(var1);
+            var19 = {};
+            var19['useReducedMotion'] = var26;
+            var19['scale'] = var21;
+            var1['__closure'] = var19;
+            var19 = 319662489785.0;
+            var1['__workletHash'] = var19;
+            var19 = _closure1_slot15;
+            var1['__initData'] = var19;
+            var26 = var3.bind(var5)(var1);
+            var1 = 16;
+            var1 = var23[var1];
+            var5 = var14.bind(var4)(var1);
+            var3 = var5.useCheckboxA11yNative;
+            var1 = {};
+            var1['checked'] = var9;
+            var1 = var3.bind(var5)(var1);
+            var21 = var1.accessibilityRole;
+            var19 = var1.accessibilityState;
             var3 = _closure1_slot10;
-            var1 = var21[var11];
+            var1 = var23[var11];
             var1 = var2.bind(var4)(var1);
             var2 = var1.View;
             var1 = {};
             var5 = new Array(3);
-            var5[0] = var23;
-            var5[1] = var22;
-            var22 = var10.container;
-            var5[2] = var22;
+            var5[0] = var26;
+            var5[1] = var25;
+            var25 = var10.container;
+            var5[2] = var25;
             var1['style'] = var5;
-            var5 = 16;
-            var5 = var21[var5];
+            var5 = 17;
+            var5 = var23[var5];
             var5 = var14.bind(var4)(var5);
             var14 = var5.PressableOpacity;
             var5 = {};
-            var21 = 0.6;
-            var5['activeOpacity'] = var21;
-            var22 = var10.optionButton;
-            var21 = new Array(1);
-            var21[0] = var22;
-            var5['style'] = var21;
-            var21 = function onPress() {
+            var23 = 0.6;
+            var5['activeOpacity'] = var23;
+            var25 = var10.optionButton;
+            var23 = new Array(1);
+            var23[0] = var25;
+            var5['style'] = var23;
+            var23 = function onPress() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var4 = _closure2_slot2;
@@ -917,8 +926,8 @@ case 65:
                     return var1;
                 }
             };
-            var5['onPress'] = var21;
-            var21 = function onPressIn() {
+            var5['onPress'] = var23;
+            var23 = function onPressIn() {
                 var4 = _closure2_slot9;
                 var3 = var4.set;
                 var13 = _closure1_slot0;
@@ -959,8 +968,8 @@ case 65:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var5['onPressIn'] = var21;
-            var19 = function onPressOut() {
+            var5['onPressIn'] = var23;
+            var22 = function onPressOut() {
                 var4 = _closure2_slot9;
                 var3 = var4.set;
                 var10 = _closure1_slot0;
@@ -989,11 +998,8 @@ case 65:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var5['onPressOut'] = var19;
-            var19 = 'checkbox';
-            var5['accessibilityRole'] = var19;
-            var19 = {};
-            var19['checked'] = var9;
+            var5['onPressOut'] = var22;
+            var5['accessibilityRole'] = var21;
             var5['accessibilityState'] = var19;
             var5['accessibilityLabel'] = var16;
             var16 = undefined;
@@ -1055,7 +1061,7 @@ case 78:
             var16['style'] = var22;
             var23 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var22 = 17;
+            var22 = 18;
             var22 = var25[var22];
             var23 = var23.bind(var4)(var22);
             var22 = {};
@@ -1069,7 +1075,7 @@ case 78:
 case 80:
             var27 = _closure1_slot1;
             var28 = _closure1_slot2;
-            var26 = 18;
+            var26 = 19;
             var26 = var28[var26];
             var28 = var27.bind(var4)(var26);
             var27 = var28.getEmojiURL;
@@ -1115,7 +1121,7 @@ case 77:
             var26 = _closure1_slot9;
             var25 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var17 = 19;
+            var17 = 20;
             var23 = var23[var17];
             var23 = var25.bind(var4)(var23);
             var25 = var23.Text;
@@ -1206,7 +1212,7 @@ case 90:
             var14[1] = var15;
             var11['style'] = var14;
             var15 = _closure1_slot0;
-            var14 = 20;
+            var14 = 21;
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.CheckmarkSmallIcon;
@@ -1235,7 +1241,7 @@ case 97:
             var9 = _closure1_slot9;
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var11 = 21;
+            var11 = 22;
             var7 = var15[var11];
             var7 = var14.bind(var4)(var7);
             var8 = var7.TextBadge;

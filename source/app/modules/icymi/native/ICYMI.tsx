@@ -626,46 +626,33 @@ case 0:
                     var1 = 'message';
                     if(!(var1 !== var2)) { _fun0008_ip = 12; continue _fun0008 }
 case 13:
-                    var1 = var6.data;
-                    var2 = var1.kind;
                     var1 = 'contentInventory';
                     if(!(var1 !== var2)) { _fun0008_ip = 14; continue _fun0008 }
 case 15:
-                    var1 = var6.data;
-                    var2 = var1.kind;
                     var1 = 'loading';
                     if(!(var1 !== var2)) { _fun0008_ip = 16; continue _fun0008 }
 case 17:
-                    var1 = var6.data;
-                    var2 = var1.kind;
                     var1 = 'bottomLoading';
                     if(!(var1 !== var2)) { _fun0008_ip = 18; continue _fun0008 }
 case 19:
-                    var1 = var6.data;
-                    var2 = var1.kind;
                     var1 = 'end';
                     if(!(var1 !== var2)) { _fun0008_ip = 20; continue _fun0008 }
 case 21:
-                    var1 = var6.data;
-                    var2 = var1.kind;
                     var1 = 'guildEvent';
                     if(!(var1 !== var2)) { _fun0008_ip = 22; continue _fun0008 }
 case 23:
-                    var1 = var6.data;
-                    var2 = var1.kind;
                     var1 = 'recommendedGuilds';
                     if(!(var1 !== var2)) { _fun0008_ip = 24; continue _fun0008 }
 case 25:
-                    var1 = var6.data;
-                    var2 = var1.kind;
                     var1 = 'icymiHeader';
                     if(!(var1 !== var2)) { _fun0008_ip = 26; continue _fun0008 }
 case 27:
-                    var1 = var6.data;
-                    var2 = var1.kind;
                     var1 = 'forumThread';
-                    if(!(var1 === var2)) { _fun0008_ip = 28; continue _fun0008 }
+                    if(!(var1 !== var2)) { _fun0008_ip = 28; continue _fun0008 }
 case 29:
+                    var1 = null;
+                    return var1;
+case 28:
                     var4 = _closure1_slot14;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -698,9 +685,6 @@ case 29:
                     var1['visible'] = var5;
                     var5 = var4.bind(var3)(var2, var1);
                     _fun0008_ip = 30; continue _fun0008;
-case 28:
-                    var1 = null;
-                    return var1;
 case 26:
                     var4 = _closure1_slot14;
                     var2 = _closure1_slot1;

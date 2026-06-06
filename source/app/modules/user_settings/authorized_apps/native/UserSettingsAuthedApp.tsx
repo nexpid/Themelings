@@ -271,7 +271,7 @@ case 2:
     var11 = 13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_12;
     var10['marginTop'] = var13;
     var5['warningContainer'] = var10;

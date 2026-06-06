@@ -10,207 +10,197 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function createItem(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var5 = arg1;
-            var8 = arg2;
-            var4 = arg3;
-            var3 = var8.type;
+            var4 = arg1;
+            var7 = arg2;
+            var3 = arg3;
+            var2 = var7.type;
             var9 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var7 = 2;
-            var2 = var2[var7];
+            var5 = _closure1_slot2;
+            var8 = 2;
+            var5 = var5[var8];
             var6 = undefined;
-            var2 = var9.bind(var6)(var2);
-            var2 = var2.ICYMIItemTypes;
-            var2 = var2.MESSAGE;
-            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = var9.bind(var6)(var5);
+            var5 = var5.ICYMIItemTypes;
+            var5 = var5.MESSAGE;
+            if(!(var5 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = var8.type;
             var9 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var7];
-            var2 = var9.bind(var6)(var2);
-            var2 = var2.ICYMIItemTypes;
-            var2 = var2.ACTIVITY;
-            if(!(var3 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+            var5 = _closure1_slot2;
+            var5 = var5[var8];
+            var5 = var9.bind(var6)(var5);
+            var5 = var5.ICYMIItemTypes;
+            var5 = var5.ACTIVITY;
+            if(!(var5 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = var8.type;
             var9 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var7];
-            var2 = var9.bind(var6)(var2);
-            var2 = var2.ICYMIItemTypes;
-            var2 = var2.CUSTOM_STATUS;
-            if(!(var3 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+            var5 = _closure1_slot2;
+            var5 = var5[var8];
+            var5 = var9.bind(var6)(var5);
+            var5 = var5.ICYMIItemTypes;
+            var5 = var5.CUSTOM_STATUS;
+            if(!(var5 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
-            var3 = var8.type;
             var9 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var7];
-            var2 = var9.bind(var6)(var2);
-            var2 = var2.ICYMIItemTypes;
-            var2 = var2.GUILD_EVENT;
-            if(!(var3 !== var2)) { _fun0001_ip = 7; continue _fun0001 }
+            var5 = _closure1_slot2;
+            var5 = var5[var8];
+            var5 = var9.bind(var6)(var5);
+            var5 = var5.ICYMIItemTypes;
+            var5 = var5.GUILD_EVENT;
+            if(!(var5 !== var2)) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var3 = var8.type;
-            var2 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var1 = var1[var7];
-            var1 = var2.bind(var6)(var1);
+            var1 = var1[var8];
+            var1 = var5.bind(var6)(var1);
             var1 = var1.ICYMIItemTypes;
-            var2 = var1.RECOMMENDED_GUILDS;
-            var1 = null;
-            if(!(var3 === var2)) { _fun0001_ip = 9; continue _fun0001 }
+            var1 = var1.RECOMMENDED_GUILDS;
+            if(!(var1 !== var2)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var2 = {};
-            var3 = var5.id;
-            var2['id'] = var3;
-            var3 = global;
-            var7 = var3.Date;
-            var6 = var7.now;
-            var6 = var6.bind(var7)();
-            var2['timestamp'] = var6;
-            var6 = {};
-            var7 = 'recommendedGuilds';
-            var6['kind'] = var7;
-            var2['data'] = var6;
-            var6 = var5.score;
-            var2['score'] = var6;
-            var7 = var3.JSON;
-            var6 = var7.stringify;
-            var3 = var5.score_components;
-            var3 = var6.bind(var7)(var3);
-            var2['debugScore'] = var3;
-            var2['unread'] = var4;
-            var1 = var2;
+            var1 = null;
+            return var1;
 case 9:
-            _fun0001_ip = 11; continue _fun0001;
+            var1 = {};
+            var2 = var4.id;
+            var1['id'] = var2;
+            var2 = global;
+            var6 = var2.Date;
+            var5 = var6.now;
+            var5 = var5.bind(var6)();
+            var1['timestamp'] = var5;
+            var5 = {};
+            var6 = 'recommendedGuilds';
+            var5['kind'] = var6;
+            var1['data'] = var5;
+            var5 = var4.score;
+            var1['score'] = var5;
+            var6 = var2.JSON;
+            var5 = var6.stringify;
+            var2 = var4.score_components;
+            var2 = var5.bind(var6)(var2);
+            var1['debugScore'] = var2;
+            var1['unread'] = var3;
+            return var1;
 case 7:
-            var2 = {};
-            var3 = var5.id;
-            var2['id'] = var3;
-            var3 = global;
-            var7 = var3.Date;
-            var6 = var7.now;
-            var6 = var6.bind(var7)();
-            var2['timestamp'] = var6;
-            var6 = {};
-            var7 = 'guildEvent';
-            var6['kind'] = var7;
-            var7 = var8.event_id;
-            var6['eventId'] = var7;
-            var2['data'] = var6;
-            var6 = var5.score;
-            var2['score'] = var6;
-            var7 = var3.JSON;
-            var6 = var7.stringify;
-            var3 = var5.score_components;
-            var3 = var6.bind(var7)(var3);
-            var2['debugScore'] = var3;
-            var2['unread'] = var4;
-            var1 = var2;
-case 11:
-            _fun0001_ip = 12; continue _fun0001;
+            var1 = {};
+            var2 = var4.id;
+            var1['id'] = var2;
+            var2 = global;
+            var6 = var2.Date;
+            var5 = var6.now;
+            var5 = var5.bind(var6)();
+            var1['timestamp'] = var5;
+            var5 = {};
+            var6 = 'guildEvent';
+            var5['kind'] = var6;
+            var6 = var7.event_id;
+            var5['eventId'] = var6;
+            var1['data'] = var5;
+            var5 = var4.score;
+            var1['score'] = var5;
+            var6 = var2.JSON;
+            var5 = var6.stringify;
+            var2 = var4.score_components;
+            var2 = var5.bind(var6)(var2);
+            var1['debugScore'] = var2;
+            var1['unread'] = var3;
+            return var1;
 case 4:
-            var2 = {};
-            var3 = var5.id;
-            var2['id'] = var3;
-            var3 = global;
-            var7 = var3.Date;
-            var6 = var7.now;
-            var6 = var6.bind(var7)();
-            var2['timestamp'] = var6;
-            var6 = {};
-            var7 = 'contentInventory';
-            var6['kind'] = var7;
-            var7 = var8.activity;
-            var6['content'] = var7;
-            var2['data'] = var6;
-            var6 = var5.score;
-            var2['score'] = var6;
-            var7 = var3.JSON;
-            var6 = var7.stringify;
-            var3 = var5.score_components;
-            var3 = var6.bind(var7)(var3);
-            var2['debugScore'] = var3;
-            var2['unread'] = var4;
-            var1 = var2;
-case 12:
-            _fun0001_ip = 13; continue _fun0001;
+            var1 = {};
+            var2 = var4.id;
+            var1['id'] = var2;
+            var2 = global;
+            var6 = var2.Date;
+            var5 = var6.now;
+            var5 = var5.bind(var6)();
+            var1['timestamp'] = var5;
+            var5 = {};
+            var6 = 'contentInventory';
+            var5['kind'] = var6;
+            var6 = var7.activity;
+            var5['content'] = var6;
+            var1['data'] = var5;
+            var5 = var4.score;
+            var1['score'] = var5;
+            var6 = var2.JSON;
+            var5 = var6.stringify;
+            var2 = var4.score_components;
+            var2 = var5.bind(var6)(var2);
+            var1['debugScore'] = var2;
+            var1['unread'] = var3;
+            return var1;
 case 2:
-            var2 = var8.message;
-            var3 = var2.id;
-            var2 = var8.message;
-            var2 = var2.channel_id;
-            if(!(var3 === var2)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var3 = var8.threadChannel;
-            var2 = null;
-            if(!(var2 == var3)) { _fun0001_ip = 16; continue _fun0001 }
-case 14:
+            var1 = var7.message;
+            var2 = var1.id;
+            var1 = var7.message;
+            var1 = var1.channel_id;
+            if(!(var2 === var1)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var2 = var7.threadChannel;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0001_ip = 13; continue _fun0001 }
+case 11:
+            var1 = {};
+            var2 = var4.id;
+            var1['id'] = var2;
+            var2 = global;
+            var6 = var2.Date;
+            var5 = var6.now;
+            var5 = var5.bind(var6)();
+            var1['timestamp'] = var5;
+            var5 = var4.data;
+            var5 = var5.channel_type;
+            var1['channelType'] = var5;
+            var5 = {};
+            var6 = 'message';
+            var5['kind'] = var6;
+            var6 = var7.message;
+            var5['message'] = var6;
+            var6 = var4.data;
+            var6 = var6.has_mention;
+            var5['mentioned'] = var6;
+            var6 = var4.data;
+            var6 = var6.message_context;
+            var5['messageContext'] = var6;
+            var1['data'] = var5;
+            var5 = var4.score;
+            var1['score'] = var5;
+            var6 = var2.JSON;
+            var5 = var6.stringify;
+            var2 = var4.score_components;
+            var2 = var5.bind(var6)(var2);
+            var1['debugScore'] = var2;
+            var1['unread'] = var3;
+            _fun0001_ip = 14; continue _fun0001;
+case 13:
             var2 = {};
-            var3 = var5.id;
-            var2['id'] = var3;
-            var3 = global;
-            var7 = var3.Date;
-            var6 = var7.now;
-            var6 = var6.bind(var7)();
+            var5 = var4.id;
+            var2['id'] = var5;
+            var5 = global;
+            var8 = var5.Date;
+            var6 = var8.now;
+            var6 = var6.bind(var8)();
             var2['timestamp'] = var6;
-            var6 = var5.data;
+            var6 = var4.data;
             var6 = var6.channel_type;
             var2['channelType'] = var6;
             var6 = {};
-            var7 = 'message';
-            var6['kind'] = var7;
-            var7 = var8.message;
-            var6['message'] = var7;
-            var7 = var5.data;
-            var7 = var7.has_mention;
-            var6['mentioned'] = var7;
-            var7 = var5.data;
-            var7 = var7.message_context;
-            var6['messageContext'] = var7;
+            var8 = 'forumThread';
+            var6['kind'] = var8;
+            var8 = var7.message;
+            var6['message'] = var8;
+            var7 = var7.threadChannel;
+            var6['threadChannel'] = var7;
             var2['data'] = var6;
-            var6 = var5.score;
+            var6 = var4.score;
             var2['score'] = var6;
-            var7 = var3.JSON;
-            var6 = var7.stringify;
-            var3 = var5.score_components;
-            var3 = var6.bind(var7)(var3);
-            var2['debugScore'] = var3;
-            var2['unread'] = var4;
-            _fun0001_ip = 17; continue _fun0001;
-case 16:
-            var3 = {};
-            var6 = var5.id;
-            var3['id'] = var6;
-            var6 = global;
-            var9 = var6.Date;
-            var7 = var9.now;
-            var7 = var7.bind(var9)();
-            var3['timestamp'] = var7;
-            var7 = var5.data;
-            var7 = var7.channel_type;
-            var3['channelType'] = var7;
-            var7 = {};
-            var9 = 'forumThread';
-            var7['kind'] = var9;
-            var9 = var8.message;
-            var7['message'] = var9;
-            var8 = var8.threadChannel;
-            var7['threadChannel'] = var8;
-            var3['data'] = var7;
-            var7 = var5.score;
-            var3['score'] = var7;
-            var7 = var6.JSON;
-            var6 = var7.stringify;
-            var5 = var5.score_components;
-            var5 = var6.bind(var7)(var5);
-            var3['debugScore'] = var5;
-            var3['unread'] = var4;
-            var2 = var3;
-case 17:
+            var6 = var5.JSON;
+            var5 = var6.stringify;
+            var4 = var4.score_components;
+            var4 = var5.bind(var6)(var4);
+            var2['debugScore'] = var4;
+            var2['unread'] = var3;
             var1 = var2;
-case 13:
+case 14:
             return var1;
         }
     };
@@ -361,24 +351,24 @@ case 0:
             var7 = undefined;
             var6 = undefined;
             var10 = 0;
-            if(!var1) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!var1) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var10 = var19;
-            if(!(!(var10 >= var3))) { _fun0002_ip = 18; continue _fun0002 }
-case 20:
+            if(!(!(var10 >= var3))) { _fun0002_ip = 15; continue _fun0002 }
+case 17:
             var25 = var2[var9];
             var21 = var19 + 1;
             var1 = var25.id;
             var1 = var14[var1];
             var23 = var8;
             var22 = var6;
-            if(var1) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+            if(var1) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var1 = var25.id;
             var24 = var15[var1];
             var1 = var12 == var24;
-            if(!var1) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(!var1) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var27 = var25.type;
             var28 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -387,52 +377,52 @@ case 24:
             var26 = var26.ICYMIItemTypes;
             var26 = var26.MESSAGE;
             var1 = var27 === var26;
+case 20:
+            if(!var1) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
-            if(!var1) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
             var26 = var25.data;
             var26 = var26.message_context;
             var28 = var12 == var26;
             var27 = undefined;
-            if(var28) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+            if(var28) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var27 = var26.reference_message_id;
-case 27:
+case 24:
             var1 = var12 != var27;
             var8 = var26;
-case 25:
-            if(!var1) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+case 22:
+            if(!var1) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var1 = var25.data;
             var1 = var1.message_id;
             var24 = var15[var1];
-case 29:
+case 26:
             var23 = var8;
             var22 = var6;
             var7 = var24;
-            if(!(var12 != var7)) { _fun0002_ip = 21; continue _fun0002 }
-case 31:
+            if(!(var12 != var7)) { _fun0002_ip = 18; continue _fun0002 }
+case 28:
             var1 = _closure1_slot5;
             var1 = var1.bind(var17)(var25, var24, var20);
             var23 = var8;
             var7 = var24;
             var22 = var1;
-            if(!(var12 != var22)) { _fun0002_ip = 21; continue _fun0002 }
-case 32:
+            if(!(var12 != var22)) { _fun0002_ip = 18; continue _fun0002 }
+case 29:
             var25 = var5.push;
             var25 = var25.bind(var5)(var1);
             var23 = var8;
             var7 = var24;
             var22 = var1;
-case 21:
+case 18:
             var9 = var9 + 1;
             var1 = var2.length;
             var8 = var23;
             var6 = var22;
             var19 = var21;
             var10 = var19;
-            if(var9 < var1) { _fun0002_ip = 19; continue _fun0002 }
-case 18:
+            if(var9 < var1) { _fun0002_ip = 16; continue _fun0002 }
+case 15:
             var1 = var16.length;
             var1 = var13 < var1;
             var9 = false;
@@ -440,23 +430,23 @@ case 18:
             var8 = undefined;
             var7 = undefined;
             var6 = undefined;
-            if(!var1) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
-            if(!(!(var10 >= var3))) { _fun0002_ip = 33; continue _fun0002 }
-case 2:
+            if(!var1) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
+            if(!(!(var10 >= var3))) { _fun0002_ip = 30; continue _fun0002 }
+case 32:
             var22 = var16[var13];
             var10 = var10 + 1;
             var1 = var22.id;
             var1 = var14[var1];
             var20 = var8;
             var19 = var6;
-            if(var1) { _fun0002_ip = 16; continue _fun0002 }
-case 35:
+            if(var1) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var1 = var22.id;
             var21 = var15[var1];
             var1 = var12 == var21;
-            if(!var1) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
+            if(!var1) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
             var24 = var22.type;
             var25 = _closure1_slot0;
             var23 = _closure1_slot2;
@@ -465,50 +455,50 @@ case 37:
             var23 = var23.ICYMIItemTypes;
             var23 = var23.MESSAGE;
             var1 = var24 === var23;
-case 36:
-            if(!var1) { _fun0002_ip = 38; continue _fun0002 }
-case 39:
+case 35:
+            if(!var1) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
             var23 = var22.data;
             var23 = var23.message_context;
             var25 = var12 == var23;
             var24 = undefined;
-            if(var25) { _fun0002_ip = 40; continue _fun0002 }
-case 41:
-            var24 = var23.reference_message_id;
+            if(var25) { _fun0002_ip = 39; continue _fun0002 }
 case 40:
+            var24 = var23.reference_message_id;
+case 39:
             var1 = var12 != var24;
             var8 = var23;
-case 38:
-            if(!var1) { _fun0002_ip = 42; continue _fun0002 }
-case 43:
+case 37:
+            if(!var1) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
             var1 = var22.data;
             var1 = var1.message_id;
             var21 = var15[var1];
-case 42:
+case 41:
             var20 = var8;
             var19 = var6;
             var7 = var21;
-            if(!(var12 != var7)) { _fun0002_ip = 16; continue _fun0002 }
-case 44:
+            if(!(var12 != var7)) { _fun0002_ip = 33; continue _fun0002 }
+case 43:
             var1 = _closure1_slot5;
             var1 = var1.bind(var17)(var22, var21, var9);
             var20 = var8;
             var7 = var21;
             var19 = var1;
-            if(!(var12 != var19)) { _fun0002_ip = 16; continue _fun0002 }
-case 45:
+            if(!(var12 != var19)) { _fun0002_ip = 33; continue _fun0002 }
+case 44:
             var22 = var4.push;
             var22 = var22.bind(var4)(var1);
             var20 = var8;
             var7 = var21;
             var19 = var1;
-case 16:
+case 33:
             var13 = var13 + 1;
             var1 = var16.length;
             var8 = var20;
             var6 = var19;
-            if(var13 < var1) { _fun0002_ip = 34; continue _fun0002 }
-case 33:
+            if(var13 < var1) { _fun0002_ip = 31; continue _fun0002 }
+case 30:
             var1 = {};
             var1['unreadItems'] = var5;
             var1['readItems'] = var4;

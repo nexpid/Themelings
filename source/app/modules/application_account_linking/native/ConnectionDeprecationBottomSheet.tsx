@@ -18,12 +18,12 @@ case 0:
             var8 = var1.bind(var4)();
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 28;
+            var1 = 29;
             var1 = var6[var1];
             var2 = var3.bind(var4)(var1);
             var1 = var2.isThemeDark;
             var1 = var1.bind(var2)(var7);
-            var2 = 29;
+            var2 = 30;
             var2 = var6[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.makeSource;
@@ -44,7 +44,7 @@ case 4:
             var7 = _closure1_slot8;
             var6 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var10 = 30;
+            var10 = 31;
             var5 = var12[var10];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -86,7 +86,7 @@ case 6:
             var8 = _closure1_slot8;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var9 = 31;
+            var9 = 32;
             var6 = var11[var9];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -171,7 +171,7 @@ case 5:
     var4['connectionIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 33;
+    var4 = 34;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -450,11 +450,36 @@ case 18:
             var26 = var27.format;
             var23 = var20[var21];
             var23 = var25.bind(var4)(var23);
-            var24 = var23.YnnXb6;
+            var24 = var23.DfSSdL;
             var23 = {};
             var29 = var29.name;
             var23['connectionName'] = var29;
             var23['applicationName'] = var28;
+            var28 = 200;
+            var23['orbCount'] = var28;
+            var28 = function orbsIconHook() {
+                var4 = _closure1_slot8;
+                var2 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var1 = 25;
+                var1 = var7[var1];
+                var3 = undefined;
+                var1 = var2.bind(var3)(var1);
+                var2 = var1.OrbsIcon;
+                var1 = {};
+                var6 = 'xs';
+                var1['size'] = var6;
+                var6 = _closure1_slot1;
+                var5 = 8;
+                var5 = var7[var5];
+                var5 = var6.bind(var3)(var5);
+                var5 = var5.colors;
+                var5 = var5.TEXT_STRONG;
+                var1['color'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
+            };
+            var23['orbsIconHook'] = var28;
             var23 = var26.bind(var27)(var24, var23);
             var14['children'] = var23;
             var14 = var22.bind(var4)(var17, var14);
@@ -467,7 +492,7 @@ case 18:
             var10 = var9.Stack;
             var9 = {};
             var17 = _closure1_slot8;
-            var12 = 25;
+            var12 = 26;
             var11 = var20[var12];
             var11 = var19.bind(var4)(var11);
             var14 = var11.Button;
@@ -482,7 +507,7 @@ case 18:
             var21 = var22.bind(var23)(var21);
             var11['text'] = var21;
             var23 = _closure1_slot8;
-            var21 = 26;
+            var21 = 27;
             var21 = var20[var21];
             var21 = var19.bind(var4)(var21);
             var22 = var21.WindowLaunchIcon;
@@ -523,7 +548,7 @@ case 17:
 case 16:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 27;
+                    var2 = 28;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.openUserSettings;
@@ -648,7 +673,7 @@ case 20:
             var3 = var7.bind(var8)(var3, var1);
             var1 = var3.fetchingConnections;
             var8 = var3.matchingPlatform;
-            var3 = 32;
+            var3 = 33;
             var3 = var6[var3];
             var7 = var4.bind(var5)(var3);
             var6 = var7.useGetOrFetchApplication;

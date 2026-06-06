@@ -234,6 +234,13 @@ case 0:
             var3 = var1.id;
             var1 = 'null';
             var10 = var1 === var3;
+            var1 = 33;
+            var1 = var6[var1];
+            var7 = var2.bind(var4)(var1);
+            var3 = var7.useCheckboxA11yNative;
+            var1 = {};
+            var1['checked'] = var17;
+            var13 = var3.bind(var7)(var1);
             var3 = _closure1_slot13;
             var1 = 26;
             var1 = var6[var1];
@@ -253,19 +260,16 @@ case 0:
                 return var1;
             };
             var1['onPress'] = var5;
-            var13 = 'checkbox';
-            var5 = var13;
-            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
             var5 = 'text';
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var5 = var13.accessibilityRole;
 case 2:
             var1['accessibilityRole'] = var5;
             var5 = undefined;
             if(var10) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var6 = {};
-            var6['checked'] = var17;
-            var5 = var6;
+            var5 = var13.accessibilityState;
 case 4:
             var1['accessibilityState'] = var5;
             var7 = _closure1_slot14;
@@ -274,7 +278,7 @@ case 4:
             var11 = _closure1_slot13;
             var9 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var8 = 33;
+            var8 = 34;
             var8 = var16[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.TableRowGroupTitle;
@@ -295,9 +299,9 @@ case 7:
             var10 = {};
             var16 = var15.selectAllContainer;
             var10['style'] = var16;
-            var10['accessibilityRole'] = var13;
-            var13 = {};
-            var13['checked'] = var17;
+            var16 = var13.accessibilityRole;
+            var10['accessibilityRole'] = var16;
+            var13 = var13.accessibilityState;
             var10['accessibilityState'] = var13;
             var16 = _closure1_slot13;
             var13 = {};
@@ -305,7 +309,7 @@ case 7:
             var13['style'] = var15;
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var14 = 34;
+            var14 = 35;
             var14 = var21[var14];
             var14 = var20.bind(var4)(var14);
             var15 = var14.FormCheckbox;
@@ -520,7 +524,7 @@ case 16:
 case 19:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 35;
+            var2 = 36;
             var18 = var4[var2];
             var20 = var3.bind(var5)(var18);
             var18 = var20.getChannelIconWithGuild;
@@ -542,7 +546,7 @@ case 20:
             var4 = _closure1_slot13;
             var20 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var2 = 36;
+            var2 = 37;
             var2 = var27[var2];
             var2 = var20.bind(var5)(var2);
             var3 = var2.TableCheckboxRow;
@@ -550,7 +554,7 @@ case 20:
             var2['start'] = var14;
             var2['end'] = var11;
             var2['disabled'] = var8;
-            var11 = 37;
+            var11 = 38;
             var11 = var27[var11];
             var11 = var20.bind(var5)(var11);
             var14 = var11.TableRowIcon;
@@ -600,7 +604,7 @@ case 25:
             var20['onLayout'] = var23;
             var29 = _closure1_slot0;
             var30 = _closure1_slot2;
-            var26 = 38;
+            var26 = 39;
             var23 = var30[var26];
             var23 = var29.bind(var5)(var23);
             var24 = var23.TextBadge;
@@ -642,7 +646,7 @@ case 27:
 case 28:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var13 = 39;
+            var13 = 40;
             var13 = var15[var13];
             var15 = var14.bind(var5)(var13);
             var14 = var15.parseTopic;
@@ -684,7 +688,7 @@ case 18:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot18 = var4;
-    var4 = 40;
+    var4 = 41;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

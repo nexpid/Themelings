@@ -493,7 +493,7 @@ case 29:
         var2['minHeight'] = var8;
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_8;
         var2['paddingHorizontal'] = var8;
         var1['headerWrapper'] = var2;
@@ -503,17 +503,17 @@ case 29:
         var2['alignSelf'] = var7;
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_24;
         var2['marginHorizontal'] = var8;
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_24;
         var2['marginBottom'] = var8;
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_8;
         var2['marginTop'] = var8;
         var8 = var6[var3];
@@ -526,7 +526,7 @@ case 29:
         var2 = {};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_16;
         var2['paddingHorizontal'] = var7;
         var7 = arg1;
@@ -535,7 +535,7 @@ case 29:
         var2 = {'flexDirection': 'row', 'gap': null, 'flex': 1};
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.spacing;
+        var3 = var3.space;
         var3 = var3.PX_16;
         var2['gap'] = var3;
         var1['twoColumnRow'] = var2;

@@ -691,7 +691,7 @@ case 63:
         return var1;
     };
     var4['OAUTH2_TOKEN_CREATE'] = var10;
-    var5 = function handleOAuth2TokenDelete(arg1) {
+    var10 = function handleOAuth2TokenDelete(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
@@ -720,7 +720,34 @@ case 64:
             return var1;
         }
     };
-    var4['OAUTH2_TOKEN_DELETE'] = var5;
+    var4['OAUTH2_TOKEN_DELETE'] = var10;
+    var5 = function handleLogout() {
+        var1 = global;
+        var1 = var1.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var4 = var2;
+        var1 = new var4[var1](var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        _closure1_slot12 = var1;
+        var1 = new Array(0);
+        _closure1_slot13 = var1;
+        var1 = new Array(0);
+        _closure1_slot14 = var1;
+        var1 = _closure1_slot11;
+        var1 = var1.NOT_FETCHED;
+        _closure1_slot15 = var1;
+        var3 = _closure1_slot16;
+        var1 = var3.clear;
+        var1 = var1.bind(var3)();
+        var3 = _closure1_slot17;
+        var1 = 1;
+        var1 = var3 + var1;
+        _closure1_slot17 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var4['LOGOUT'] = var5;
     var5 = var9.prototype;
     var5 = Object.create(var5, {constructor: {value: var9}});
     var15 = var5;

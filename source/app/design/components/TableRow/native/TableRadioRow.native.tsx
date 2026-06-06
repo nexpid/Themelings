@@ -38,11 +38,11 @@ case 0:
             var _closure2_slot0 = var2;
             var17 = var5.label;
             var16 = var5.subLabel;
-            var11 = var5.disabled;
+            var15 = var5.disabled;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var15 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var11 = false;
+            var15 = false;
 case 2:
             var9 = var5.accessibilityHint;
             var8 = var5.legacyCompat_selected;
@@ -56,7 +56,7 @@ case 2:
             var21 = {};
             var20 = var5;
             var19 = var3;
-            var15 = copyDataProperties(var21, var20, var19);
+            var11 = copyDataProperties(var21, var20, var19);
             var _closure2_slot2 = var4;
             var7 = _closure1_slot2;
             var3 = var7.useContext;
@@ -74,62 +74,59 @@ case 2:
 case 5:
             var8 = var1 === var2;
 case 4:
-            var12 = _closure1_slot0;
-            var14 = _closure1_slot1;
+            var2 = _closure1_slot0;
+            var18 = _closure1_slot1;
             var1 = 3;
-            var2 = var14[var1];
-            var3 = var12.bind(var4)(var2);
-            var2 = var3.getNodeText;
-            var13 = var2.bind(var3)(var17);
-            var1 = var14[var1];
-            var2 = var12.bind(var4)(var1);
-            var1 = var2.getNodeText;
-            var7 = var1.bind(var2)(var16);
-            var3 = _closure1_slot3;
+            var3 = var18[var1];
+            var7 = var2.bind(var4)(var3);
+            var3 = var7.getNodeText;
+            var13 = var3.bind(var7)(var17);
+            var1 = var18[var1];
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.getNodeText;
+            var7 = var1.bind(var3)(var16);
             var1 = 4;
-            var1 = var14[var1];
-            var1 = var12.bind(var4)(var1);
+            var1 = var18[var1];
+            var12 = var2.bind(var4)(var1);
+            var3 = var12.useRadioA11yNative;
+            var1 = {};
+            var1['selected'] = var8;
+            var1['disabled'] = var15;
+            var1 = var3.bind(var12)(var1);
+            var12 = var1.accessibilityRole;
+            var14 = var1.accessibilityState;
+            var3 = _closure1_slot3;
+            var1 = 5;
+            var1 = var18[var1];
+            var1 = var2.bind(var4)(var1);
             var2 = var1.TableRow;
             var1 = {};
             var21 = var1;
-            var20 = var15;
-            var15 = copyDataProperties(var21, var20);
+            var20 = var11;
+            var11 = copyDataProperties(var21, var20);
             var18 = false;
-            var15 = 'arrow';
-            var1[14] = var18;
-            var15 = 'label';
-            var1[14] = var17;
-            var15 = 'subLabel';
-            var1[14] = var16;
-            var15 = 'disabled';
-            var1[14] = var11;
-            var15 = {};
-            var15['disabled'] = var11;
-            var15['selected'] = var8;
+            var11 = 'arrow';
+            var1[10] = var18;
+            var11 = 'label';
+            var1[10] = var17;
+            var11 = 'subLabel';
+            var1[10] = var16;
+            var11 = 'disabled';
+            var1[10] = var15;
             var11 = 'accessibilityState';
-            var1[10] = var15;
-            var15 = true;
+            var1[10] = var14;
+            var14 = true;
             var11 = 'accessible';
-            var1[10] = var15;
-            var11 = 5;
-            var11 = var14[var11];
-            var12 = var12.bind(var4)(var11);
-            var11 = var12.isIOS;
-            var11 = var11.bind(var12)();
-            var12 = 'radio';
-            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var12 = 'button';
-case 6:
+            var1[10] = var14;
             var11 = 'accessibilityRole';
             var1[10] = var12;
             var10 = var10 != var7;
             var12 = '';
             var11 = var12;
-            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = var7;
-case 8:
+case 6:
             var7 = global;
             var7 = var7.HermesInternal;
             var10 = var7.concat;
@@ -144,13 +141,13 @@ case 8:
 case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                    if(!(var2 != var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var4 = _closure2_slot1;
                     var3 = undefined;
                     var2 = arg1;
                     var2 = var4.bind(var3)(var2);
-case 10:
+case 8:
                     var3 = _closure2_slot2;
                     var2 = _closure2_slot0;
                     var1 = undefined;

@@ -422,6 +422,15 @@ case 2:
     };
     var3['isPurchase'] = var6;
     var6 = function(arg1) {
+        var1 = arg1;
+        var2 = var1.display_type;
+        var1 = _closure1_slot7;
+        var1 = var1.GIFTS;
+        var1 = var2 === var1;
+        return var1;
+    };
+    var3['isGift'] = var6;
+    var6 = function(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var5 = arg1;

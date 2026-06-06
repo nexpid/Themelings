@@ -804,29 +804,23 @@ case 0:
                                         if(var3) { _fun0007_ip = 44; continue _fun0007 }
 case 45:
                                         var3 = _closure5_slot0;
-                                        var5 = var3.rowType;
+                                        var7 = var3.rowType;
                                         var3 = _closure1_slot13;
                                         var3 = var3.ROLE;
-                                        if(!(var5 !== var3)) { _fun0007_ip = 46; continue _fun0007 }
+                                        if(!(var3 !== var7)) { _fun0007_ip = 46; continue _fun0007 }
 case 47:
-                                        var3 = _closure5_slot0;
-                                        var5 = var3.rowType;
                                         var3 = _closure1_slot13;
                                         var3 = var3.ADMINISTRATOR;
-                                        if(!(var5 !== var3)) { _fun0007_ip = 46; continue _fun0007 }
+                                        if(!(var3 !== var7)) { _fun0007_ip = 46; continue _fun0007 }
 case 48:
-                                        var3 = _closure5_slot0;
-                                        var5 = var3.rowType;
                                         var3 = _closure1_slot13;
                                         var3 = var3.MEMBER;
-                                        if(!(var5 !== var3)) { _fun0007_ip = 49; continue _fun0007 }
+                                        if(!(var3 !== var7)) { _fun0007_ip = 49; continue _fun0007 }
 case 50:
-                                        var3 = _closure5_slot0;
-                                        var7 = var3.rowType;
                                         var3 = _closure1_slot13;
                                         var3 = var3.OWNER;
                                         var5 = undefined;
-                                        if(!(var7 === var3)) { _fun0007_ip = 51; continue _fun0007 }
+                                        if(!(var3 === var7)) { _fun0007_ip = 51; continue _fun0007 }
 case 49:
                                         var8 = _closure1_slot12;
                                         var7 = var8.getUser;

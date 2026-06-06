@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['code'] = var7;
     var _closure1_slot13 = var4;
     var4 = {};
-    var7 = 'function MediaPlaybackPanelUITsx2(props,previous){const{cheapWorkletShallowEqual,MediaPlaybackPanelModes,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{mode:modeToSet,windowDimensions:windowDimensions,canShowPIP:canShowPIP}=props;if(modeToSet===MediaPlaybackPanelModes.PIP){const{width:width,height:height}=canShowPIP?{width:120,height:120}:{width:0,height:0};updateSharedValueIfChanged(wrapperDimensions,{width:width,height:height});}else if(modeToSet===MediaPlaybackPanelModes.DISMISSED){updateSharedValueIfChanged(wrapperOffset,{y:windowDimensions.height});}}';
+    var7 = 'function MediaPlaybackPanelUITsx2(props,previous){const{cheapWorkletShallowEqual,MediaPlaybackPanelModes,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{mode:modeToSet,windowDimensions:windowDimensions,canShowPIP:canShowPIP}=props;switch(modeToSet){case MediaPlaybackPanelModes.PIP:{const{width:width,height:height}=canShowPIP?{width:120,height:120}:{width:0,height:0};updateSharedValueIfChanged(wrapperDimensions,{width:width,height:height});break;}case MediaPlaybackPanelModes.DISMISSED:updateSharedValueIfChanged(wrapperOffset,{y:windowDimensions.height});break;default:modeToSet;}}';
     var4['code'] = var7;
     var _closure1_slot14 = var4;
     var4 = {};
@@ -268,11 +268,11 @@ case 5:
                         var3 = var3.canShowPIP;
                         var4 = _closure1_slot8;
                         var4 = var4.PIP;
-                        if(!(var5 !== var4)) { _fun0002_ip = 6; continue _fun0002 }
+                        if(!(var4 !== var5)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
                         var4 = _closure1_slot8;
                         var4 = var4.DISMISSED;
-                        if(!(var5 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+                        if(!(var4 === var5)) { _fun0002_ip = 4; continue _fun0002 }
 case 8:
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
@@ -324,7 +324,7 @@ case 4:
                 var11['wrapperDimensions'] = var15;
                 var11['wrapperOffset'] = var24;
                 var7['__closure'] = var11;
-                var11 = 8412437178561.0;
+                var11 = 5458787116551.0;
                 var7['__workletHash'] = var11;
                 var11 = _closure1_slot14;
                 var7['__initData'] = var11;

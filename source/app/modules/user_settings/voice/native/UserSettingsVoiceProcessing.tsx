@@ -367,12 +367,12 @@ case 7:
     var11 = 5;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_4;
     var10['paddingTop'] = var13;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_4;
     var10['gap'] = var11;
     var5['optionsDescriptionContainer'] = var10;

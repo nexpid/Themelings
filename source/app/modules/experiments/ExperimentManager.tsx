@@ -151,11 +151,11 @@ case 0:
             var5 = arg3;
             var2 = _closure1_slot5;
             var2 = var2.LEGACY;
-            if(!(var3 !== var2)) { _fun0002_ip = 12; continue _fun0002 }
+            if(!(var2 !== var3)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
             var2 = _closure1_slot5;
             var2 = var2.APEX;
-            if(!(var3 === var2)) { _fun0002_ip = 14; continue _fun0002 }
+            if(!(var2 === var3)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
             var2 = null;
             if(!(var2 != var5)) { _fun0002_ip = 16; continue _fun0002 }

@@ -166,7 +166,7 @@ case 9:
             var2['borderRadius'] = var13;
             var9 = var9[var7];
             var9 = var11.bind(var6)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_16;
             var2['marginBottom'] = var9;
             var1['card'] = var2;
@@ -199,12 +199,12 @@ case 13:
             var9 = _closure1_slot2;
             var8 = var9[var7];
             var8 = var11.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_12;
             var2['marginBottom'] = var8;
             var8 = var9[var7];
             var8 = var11.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_12;
             var2['marginHorizontal'] = var8;
             var1['content'] = var2;
@@ -227,7 +227,7 @@ case 13:
             var3 = 'center';
             var9 = var9[var7];
             var9 = var11.bind(var6)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_4;
             var2['marginBottom'] = var9;
             var1['guildNameRow'] = var2;
@@ -236,7 +236,7 @@ case 13:
             var9 = _closure1_slot2;
             var9 = var9[var7];
             var9 = var11.bind(var6)(var9);
-            var11 = var9.spacing;
+            var11 = var9.space;
             if(var5) { _fun0004_ip = 15; continue _fun0004 }
 case 16:
             var9 = var11.PX_4;
@@ -253,7 +253,7 @@ case 17:
             var9 = _closure1_slot2;
             var9 = var9[var7];
             var9 = var11.bind(var6)(var9);
-            var11 = var9.spacing;
+            var11 = var9.space;
             if(var5) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
             var9 = var11.PX_4;
@@ -269,7 +269,7 @@ case 20:
             var8 = _closure1_slot2;
             var8 = var8[var7];
             var8 = var9.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var2['gap'] = var8;
             var1['memberCounts'] = var2;
@@ -278,7 +278,7 @@ case 20:
             var8 = _closure1_slot2;
             var8 = var8[var7];
             var8 = var9.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             if(var5) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
             var5 = var8.PX_8;

@@ -50,31 +50,31 @@ case 6:
             _fun0001_ip = 5; continue _fun0001;
         }
 case 7:
-        var2 = 3;
-        var2 = var5[var2];
-        var10 = var4.bind(var1)(var2);
-        var8 = var10;
-        for(var2 in var8)
+        var6 = 3;
+        var2 = var5[var6];
+        var9 = var4.bind(var1)(var2);
+        for(var2 in var9)
 case 8:
         {
 case 9:
             var12 = var2;
-            var11 = var10[var12];
+            var11 = var5[var6];
+            var11 = var4.bind(var1)(var11);
+            var11 = var11[var12];
             var3[var12] = var11;
             _fun0001_ip = 8; continue _fun0001;
         }
 case 10:
-        var6 = 4;
-        var2 = var5[var6];
-        var9 = var4.bind(var1)(var2);
-        for(var2 in var9)
+        var2 = 4;
+        var2 = var5[var2];
+        var10 = var4.bind(var1)(var2);
+        var8 = var10;
+        for(var2 in var8)
 case 11:
         {
 case 12:
             var12 = var2;
-            var11 = var5[var6];
-            var11 = var4.bind(var1)(var11);
-            var11 = var11[var12];
+            var11 = var10[var12];
             var3[var12] = var11;
             _fun0001_ip = 11; continue _fun0001;
         }
@@ -184,7 +184,22 @@ case 33:
             _fun0001_ip = 32; continue _fun0001;
         }
 case 34:
-        var2 = 12;
+        var6 = 12;
+        var2 = var5[var6];
+        var9 = var4.bind(var1)(var2);
+        for(var2 in var9)
+case 35:
+        {
+case 36:
+            var12 = var2;
+            var11 = var5[var6];
+            var11 = var4.bind(var1)(var11);
+            var11 = var11[var12];
+            var3[var12] = var11;
+            _fun0001_ip = 35; continue _fun0001;
+        }
+case 37:
+        var2 = 13;
         var6 = var5[var2];
         var6 = var4.bind(var1)(var6);
         var6 = var6.ManaContext;
@@ -197,7 +212,7 @@ case 34:
         var2 = var4.bind(var1)(var2);
         var2 = var2.useManaContext;
         var3['useManaContext'] = var2;
-        var2 = 13;
+        var2 = 14;
         var2 = var5[var2];
         var2 = var4.bind(var1)(var2);
         var2 = var2.isImage;

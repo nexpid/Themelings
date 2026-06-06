@@ -118,16 +118,16 @@ case 0:
             var4 = undefined;
             var20 = var2.bind(var4)();
             var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var2 = 6;
-            var2 = var5[var2];
-            var8 = var3.bind(var4)(var2);
-            var6 = var8.useGetOrFetchApplication;
+            var2 = var9[var2];
+            var6 = var3.bind(var4)(var2);
+            var5 = var6.useGetOrFetchApplication;
             var2 = var16.applicationId;
-            var19 = var6.bind(var8)(var2);
+            var19 = var5.bind(var6)(var2);
             var _closure2_slot0 = var19;
             var2 = 7;
-            var2 = var5[var2];
+            var2 = var9[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useFormattedSKUPrice;
             var2 = {};
@@ -136,13 +136,7 @@ case 0:
             var6 = var6.GIFT;
             var2['priceSetAssignmentPurchaseType'] = var6;
             var2 = var3.bind(var5)(var2);
-            var10 = var2.normalPrice;
-            var2 = var2.discountedPrice;
-            var6 = null;
-            if(!(var6 != var2)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var10 = var2;
-case 2:
+            var10 = var2.userPrice;
             var5 = _closure1_slot3;
             var3 = var5.useMemo;
             var2 = new Array(1);
@@ -153,8 +147,8 @@ case 0:
                     var2 = _closure2_slot0;
                     var1 = null;
                     var2 = var1 == var2;
-                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                    if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 8;
@@ -171,7 +165,7 @@ case 5:
                     var5 = 20;
                     var2['size'] = var5;
                     var1 = var3.bind(var4)(var2);
-case 4:
+case 2:
                     return var1;
                 }
             };
@@ -181,33 +175,33 @@ case 4:
             var1 = {};
             var5 = var20.container;
             var1['style'] = var5;
-            var9 = _closure1_slot7;
-            var8 = _closure1_slot1;
-            var11 = _closure1_slot2;
+            var8 = _closure1_slot7;
+            var6 = _closure1_slot1;
             var5 = 9;
-            var5 = var11[var5];
-            var8 = var8.bind(var4)(var5);
+            var5 = var9[var5];
+            var6 = var6.bind(var4)(var5);
             var5 = {};
             var5['sku'] = var16;
-            var11 = 55;
-            var5['size'] = var11;
-            var8 = var9.bind(var4)(var8, var5);
+            var9 = 55;
+            var5['size'] = var9;
+            var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(3);
-            var5[0] = var8;
+            var5[0] = var6;
             var8 = {};
-            var9 = var20.text;
-            var8['style'] = var9;
+            var6 = var20.text;
+            var8['style'] = var6;
+            var6 = null;
             var11 = var6 != var19;
-            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = _closure1_slot8;
             var12 = _closure1_slot5;
             var9 = {};
             var14 = var20.appInfo;
             var9['style'] = var14;
             var15 = var6 != var22;
-            if(!var15) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var15) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var18 = _closure1_slot7;
             var17 = _closure1_slot4;
             var14 = {};
@@ -217,7 +211,7 @@ case 9:
             var20 = var20.appIcon;
             var14['style'] = var20;
             var15 = var18.bind(var4)(var17, var14);
-case 8:
+case 6:
             var14 = new Array(2);
             var14[0] = var15;
             var18 = _closure1_slot7;
@@ -234,7 +228,7 @@ case 8:
             var14[1] = var15;
             var9['children'] = var14;
             var11 = var13.bind(var4)(var12, var9);
-case 6:
+case 4:
             var9 = new Array(2);
             var9[0] = var11;
             var15 = _closure1_slot7;
@@ -255,8 +249,8 @@ case 6:
             var8 = var3.bind(var4)(var2, var8);
             var5[1] = var8;
             var6 = var6 != var10;
-            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = _closure1_slot7;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -267,7 +261,7 @@ case 11:
             var7['variant'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 10:
+case 8:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -133,6 +133,8 @@ case 2:
     var2['OPEN_CONTEXT_MENU'] = var9;
     var9 = 'OPEN_QUEST_HOME';
     var2['OPEN_QUEST_HOME'] = var9;
+    var9 = 'OPEN_QUEST_HOME_TO_CLAIM';
+    var2['OPEN_QUEST_HOME_TO_CLAIM'] = var9;
     var9 = 'QUEST_BAR.COPY_LINK';
     var2['QUEST_BAR_COPY_LINK'] = var9;
     var9 = 'CONTEXT_MENU.COPY_LINK';

@@ -188,7 +188,7 @@ case 0:
             var2 = {};
             var3 = var3[var9];
             var3 = var6.bind(var8)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_8;
             var3 = -var3;
             var2['left'] = var3;

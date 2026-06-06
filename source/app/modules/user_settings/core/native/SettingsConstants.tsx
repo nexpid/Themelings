@@ -494,6 +494,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FRIEND_REQUEST_NOTES'] = var1;
     var1 = 'NOTIFY_FRIENDS_ON_COME_ONLINE';
     var2['NOTIFY_FRIENDS_ON_COME_ONLINE'] = var1;
+    var1 = 'NOTIFY_FRIENDS_ON_PROFILE_UPDATE';
+    var2['NOTIFY_FRIENDS_ON_PROFILE_UPDATE'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

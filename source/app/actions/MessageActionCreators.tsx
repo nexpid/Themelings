@@ -5195,43 +5195,39 @@ case 420:
                                                 var4 = var7.bind(var1)(var4);
                                                 var4 = var4.CodedLinkType;
                                                 var4 = var4.APP_DIRECTORY_PROFILE;
-                                                if(!(var5 !== var4)) { _fun0032_ip = 421; continue _fun0032 }
+                                                if(!(var4 !== var5)) { _fun0032_ip = 421; continue _fun0032 }
 case 422:
-                                                var5 = var3.type;
                                                 var7 = _closure1_slot0;
                                                 var4 = _closure1_slot2;
                                                 var4 = var4[var9];
                                                 var4 = var7.bind(var1)(var4);
                                                 var4 = var4.CodedLinkType;
                                                 var4 = var4.APP_DIRECTORY_STOREFRONT;
-                                                if(!(var5 !== var4)) { _fun0032_ip = 423; continue _fun0032 }
+                                                if(!(var4 !== var5)) { _fun0032_ip = 423; continue _fun0032 }
 case 424:
-                                                var5 = var3.type;
                                                 var7 = _closure1_slot0;
                                                 var4 = _closure1_slot2;
                                                 var4 = var4[var9];
                                                 var4 = var7.bind(var1)(var4);
                                                 var4 = var4.CodedLinkType;
                                                 var4 = var4.APP_DIRECTORY_STOREFRONT_SKU;
-                                                if(!(var5 !== var4)) { _fun0032_ip = 425; continue _fun0032 }
+                                                if(!(var4 !== var5)) { _fun0032_ip = 425; continue _fun0032 }
 case 426:
-                                                var5 = var3.type;
                                                 var7 = _closure1_slot0;
                                                 var4 = _closure1_slot2;
                                                 var4 = var4[var9];
                                                 var4 = var7.bind(var1)(var4);
                                                 var4 = var4.CodedLinkType;
                                                 var4 = var4.ACTIVITY_BOOKMARK;
-                                                if(!(var5 !== var4)) { _fun0032_ip = 427; continue _fun0032 }
+                                                if(!(var4 !== var5)) { _fun0032_ip = 427; continue _fun0032 }
 case 428:
-                                                var5 = var3.type;
                                                 var7 = _closure1_slot0;
                                                 var4 = _closure1_slot2;
                                                 var4 = var4[var9];
                                                 var4 = var7.bind(var1)(var4);
                                                 var4 = var4.CodedLinkType;
                                                 var4 = var4.APP_OAUTH2_LINK;
-                                                if(!(var5 === var4)) { _fun0032_ip = 404; continue _fun0032 }
+                                                if(!(var4 === var5)) { _fun0032_ip = 404; continue _fun0032 }
 case 429:
                                                 var5 = _closure1_slot0;
                                                 var7 = _closure1_slot2;

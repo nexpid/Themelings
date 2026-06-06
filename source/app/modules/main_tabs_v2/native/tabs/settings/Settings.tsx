@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['containerTablet'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -78,11 +78,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function Settings() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 5;
             var2 = var5[var2];
             var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useReportProfileModalTransition;
+            var2 = var2.bind(var3)();
+            var3 = _closure1_slot1;
+            var2 = 6;
+            var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var11 = var2.top;
@@ -91,7 +97,7 @@ case 0:
             var _closure2_slot1 = var10;
             var6 = var2.right;
             var _closure2_slot2 = var6;
-            var2 = 6;
+            var2 = 7;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var8 = var2.bind(var4)();
@@ -99,7 +105,7 @@ case 0:
 case 3:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.isIpadOS;
@@ -159,7 +165,7 @@ case 6:
             var1['style'] = var5;
             var6 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var5 = 8;
+            var5 = 9;
             var5 = var10[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.View;
@@ -175,7 +181,7 @@ case 9:
             var9 = _closure1_slot5;
             var8 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var7 = 9;
+            var7 = 10;
             var7 = var10[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
