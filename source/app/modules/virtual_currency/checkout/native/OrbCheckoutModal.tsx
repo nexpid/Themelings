@@ -299,10 +299,6 @@ case 16:
                         var2 = var2.PAYMENT_FLOW_CANCELED;
                         if(!(var3 !== var2)) { _fun0004_ip = 17; continue _fun0004 }
 case 18:
-                        var2 = _closure1_slot8;
-                        var2 = var2.PAYMENT_FLOW_FAILED;
-                        if(!(var3 === var2)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var2 = 10;
@@ -319,23 +315,23 @@ case 20:
                         var7 = 'duration_ms';
                         var2[6] = var8;
                         var7 = null;
-                        if(!(var7 == var10)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+                        if(!(var7 == var10)) { _fun0004_ip = 19; continue _fun0004 }
+case 10:
                         var7 = {};
-                        _fun0004_ip = 23; continue _fun0004;
-case 21:
+                        _fun0004_ip = 20; continue _fun0004;
+case 19:
                         var9 = {};
                         var11 = var10.code;
                         var9['payment_error_code'] = var11;
                         var10 = var10.message;
                         var9['error_message'] = var10;
                         var7 = var9;
-case 23:
+case 20:
                         var13 = var2;
                         var12 = var7;
                         var7 = copyDataProperties(var13, var12);
                         var2 = var5.bind(var6)(var3, var2);
-                        _fun0004_ip = 19; continue _fun0004;
+                        _fun0004_ip = 21; continue _fun0004;
 case 17:
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -353,7 +349,7 @@ case 17:
                         var7 = 'duration_ms';
                         var2[6] = var8;
                         var2 = var5.bind(var6)(var3, var2);
-                        _fun0004_ip = 19; continue _fun0004;
+                        _fun0004_ip = 21; continue _fun0004;
 case 15:
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -371,7 +367,7 @@ case 15:
                         var7 = 'duration_ms';
                         var2[6] = var8;
                         var2 = var5.bind(var6)(var3, var2);
-                        _fun0004_ip = 19; continue _fun0004;
+                        _fun0004_ip = 21; continue _fun0004;
 case 13:
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -389,7 +385,7 @@ case 13:
                         var7 = 'duration_ms';
                         var2[6] = var8;
                         var2 = var5.bind(var6)(var3, var2);
-                        _fun0004_ip = 19; continue _fun0004;
+                        _fun0004_ip = 21; continue _fun0004;
 case 11:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -409,7 +405,7 @@ case 11:
                         var4 = 'continue_session_initial_step';
                         var1[3] = var5;
                         var1 = var2.bind(var3)(var1);
-case 19:
+case 21:
                         var1 = undefined;
                         return var1;
                     }
@@ -451,14 +447,14 @@ case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
                     var3 = var2 != var3;
-                    if(!var3) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+                    if(!var3) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                     var4 = _closure2_slot4;
                     var4 = var4.current;
                     var3 = var2 !== var4;
-case 24:
+case 22:
                     if(!var3) { _fun0005_ip = 14; continue _fun0005 }
-case 26:
+case 24:
                     var6 = _closure2_slot2;
                     var3 = _closure1_slot8;
                     var5 = var3.PAYMENT_FLOW_FAILED;
@@ -476,10 +472,10 @@ case 14:
             var2 = var2.current;
             var3 = null;
             var15 = var6;
-            if(!(var3 != var2)) { _fun0002_ip = 27; continue _fun0002 }
-case 21:
+            if(!(var3 != var2)) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var15 = var2;
-case 27:
+case 25:
             var3 = _closure1_slot6;
             var2 = new Array(3);
             var2[0] = var7;
