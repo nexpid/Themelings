@@ -11829,6 +11829,16 @@
         "width": 420,
         "height": 112
     },
+    "SubscriptionIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/SubscriptionIcon.png",
+        "hash": "648b6791176add4ac6a2018a27641a15",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "success-header": {
         "file": "app/images/native/oauth2/success-header.png",
         "hash": "dc953fc221fa07a0f6638b7e2877ae0b",
