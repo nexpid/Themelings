@@ -16,9 +16,11 @@ case 0:
             var13 = var1.sourceQuestContent;
             var _closure2_slot1 = var13;
             var4 = undefined;
+            var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
+            var _closure2_slot10 = var4;
             var1 = _closure1_slot14;
             var1 = var1.bind(var4)();
             var _closure2_slot2 = var1;
@@ -233,12 +235,12 @@ case 6:
                 }
             };
             var11 = var3.bind(var5)(var1, var2);
-            var16 = _closure1_slot0;
-            var17 = _closure1_slot2;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var1 = 12;
-            var1 = var17[var1];
-            var5 = var16.bind(var4)(var1);
-            var3 = var5.useStateFromStores;
+            var1 = var6[var1];
+            var8 = var5.bind(var4)(var1);
+            var3 = var8.useStateFromStores;
             var1 = _closure1_slot6;
             var2 = new Array(1);
             var2[0] = var1;
@@ -250,34 +252,56 @@ case 6:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var32 = var3.bind(var5)(var2, var1);
+            var32 = var3.bind(var8)(var2, var1);
             var1 = 13;
-            var1 = var17[var1];
-            var2 = var16.bind(var4)(var1);
+            var1 = var6[var1];
+            var2 = var5.bind(var4)(var1);
             var1 = var2.useFetchVirtualCurrencyBalance;
             var1 = var1.bind(var2)();
             var30 = var1.balance;
             var1 = 14;
-            var1 = var17[var1];
-            var3 = var16.bind(var4)(var1);
+            var1 = var6[var1];
+            var3 = var5.bind(var4)(var1);
             var2 = var3.useBountyVideoProgressPersistence;
             var1 = {};
-            var5 = var15.id;
-            var1['bountyId'] = var5;
-            var14 = 15;
-            var5 = var17[var14];
-            var5 = var16.bind(var4)(var5);
-            var5 = var5.BountyVideoEndMode;
-            var5 = var5.END_CARD;
-            var1['endMode'] = var5;
+            var8 = var15.id;
+            var1['bountyId'] = var8;
+            var19 = 15;
+            var8 = var6[var19];
+            var8 = var5.bind(var4)(var8);
+            var8 = var8.BountyVideoEndMode;
+            var8 = var8.END_CARD;
+            var1['endMode'] = var8;
             var1 = var2.bind(var3)(var1);
             var24 = var1.initialProgress;
             var2 = var1.handleProgress;
             var _closure2_slot4 = var2;
             var1 = var1.flushProgress;
             var _closure2_slot5 = var1;
-            var8 = _closure1_slot4;
-            var6 = var8.useCallback;
+            var3 = 16;
+            var3 = var6[var3];
+            var3 = var5.bind(var4)(var3);
+            var6 = var3.BountiesStage1Experiment;
+            var5 = var6.useConfig;
+            var3 = {};
+            var8 = _closure1_slot7;
+            var8 = var8.VIDEO_MODAL_MOBILE;
+            var3['location'] = var8;
+            var3 = var5.bind(var6)(var3);
+            var6 = var3.enabled;
+            var5 = var3.rewardTimerSeconds;
+            var3 = 1000;
+            if(var6) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var6 = var15.rewardTimerSeconds;
+            var8 = var3 * var6;
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
+            var8 = var3 * var5;
+case 9:
+            _closure2_slot6 = var8;
+            var12 = _closure1_slot4;
+            var6 = var12.useCallback;
             var5 = _closure1_slot3;
             var3 = function* () {
                 var1 = function* anon_0_() {
@@ -285,11 +309,11 @@ case 6:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0004_ip = 7; continue _fun0004 }
-case 8: // try_start_0
+                        if(var2) { _fun0004_ip = 10; continue _fun0004 }
+case 11: // try_start_0
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var2 = 16;
+                        var2 = 17;
                         var3 = var3[var2];
                         var2 = undefined;
                         var4 = var4.bind(var2)(var3);
@@ -298,62 +322,63 @@ case 8: // try_start_0
                         var2 = var2.id;
                         var2 = var3.bind(var4)(var2);
                         SaveGenerator(address=59);
-case 9:
+case 12:
                         return var2;
-case 10:
+case 13:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0004_ip = 11; continue _fun0004 }
-case 12: // try_end0
-                        _fun0004_ip = 13; continue _fun0004;
-case 11:
+                        if(var3) { _fun0004_ip = 14; continue _fun0004 }
+case 15: // try_end0
+                        _fun0004_ip = 16; continue _fun0004;
+case 14:
                         return var2;
-case 14: // catch_target0
+case 17: // catch_target0
                         CatchBlockStart(arg_register=3);
                         var5 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var2 = 17;
+                        var2 = 18;
                         var3 = var3[var2];
                         var2 = undefined;
                         var3 = var5.bind(var2)(var3);
                         var2 = var3.openBountyRewardClaimErrorToast;
                         var2 = var2.bind(var3)(var4);
-case 13:
+case 16:
                         var2 = undefined;
                         return var2;
-case 7:
+case 10:
                         return var1;
                     }
                 };
                 return var1;
             };
             var5 = var5.bind(var4)(var3);
-            var12 = var15.id;
+            var14 = var15.id;
             var3 = new Array(1);
-            var3[0] = var12;
-            var12 = var6.bind(var8)(var5, var3);
-            var3 = 18;
-            var3 = var17[var3];
-            var6 = var16.bind(var4)(var3);
+            var3[0] = var14;
+            var14 = var6.bind(var12)(var5, var3);
+            var17 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var3 = 19;
+            var3 = var16[var3];
+            var6 = var17.bind(var4)(var3);
             var5 = var6.useBountiesModalVideoAnalytics;
             var3 = {};
-            var8 = var15.id;
-            var3['bountyId'] = var8;
+            var12 = var15.id;
+            var3['bountyId'] = var12;
             var3['sourceQuestContent'] = var13;
-            var8 = _closure1_slot7;
             var3['rewardDurationMs'] = var8;
             var3 = var5.bind(var6)(var3);
-            var19 = var3.handleVideoProgressAnalytics;
-            var _closure2_slot6 = var19;
+            var20 = var3.handleVideoProgressAnalytics;
+            _closure2_slot7 = var20;
             var6 = var3.handleVideoEndAnalytics;
-            var8 = _closure1_slot4;
-            var5 = var8.useCallback;
+            var12 = _closure1_slot4;
+            var5 = var12.useCallback;
             var3 = new Array(2);
-            var3[0] = var19;
+            var3[0] = var20;
             var3[1] = var2;
             var2 = function(arg1, arg2, arg3) {
                 var5 = arg1;
                 var4 = arg2;
-                var3 = _closure2_slot6;
+                var3 = _closure2_slot7;
                 var1 = undefined;
                 var3 = var3.bind(var1)(var5, var4);
                 var3 = _closure2_slot4;
@@ -361,61 +386,61 @@ case 7:
                 var2 = var3.bind(var1)(var5, var4, var2);
                 return var1;
             };
-            var8 = var5.bind(var8)(var2, var3);
-            var2 = var17[var14];
-            var5 = var16.bind(var4)(var2);
+            var12 = var5.bind(var12)(var2, var3);
+            var2 = var16[var19];
+            var5 = var17.bind(var4)(var2);
             var3 = var5.useBountiesModalTiming;
             var2 = {};
-            var14 = var17[var14];
-            var14 = var16.bind(var4)(var14);
-            var14 = var14.BountyVideoEndMode;
-            var14 = var14.END_CARD;
-            var2['endMode'] = var14;
-            var14 = _closure1_slot7;
-            var2['rewardDurationMs'] = var14;
+            var16 = var16[var19];
+            var16 = var17.bind(var4)(var16);
+            var16 = var16.BountyVideoEndMode;
+            var16 = var16.END_CARD;
+            var2['endMode'] = var16;
+            var2['rewardDurationMs'] = var8;
             var2['isCompleted'] = var32;
-            var2['onRewardEarned'] = var12;
-            var2['onVideoProgress'] = var8;
+            var2['onRewardEarned'] = var14;
+            var2['onVideoProgress'] = var12;
             var2['onVideoEnd'] = var6;
             var6 = var24.maxTimestampSec;
             var2['initialMaxVideoProgressSec'] = var6;
-            var8 = var24.duration;
+            var12 = var24.duration;
             var6 = 0;
-            var8 = var8 > var6;
+            var12 = var12 > var6;
             var6 = null;
-            if(!var8) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!var12) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var6 = var24.duration;
-case 15:
+case 18:
             var2['initialVideoDurationSec'] = var6;
             var2 = var3.bind(var5)(var2);
             var31 = var2.isCtaVisible;
             var14 = var2.isEndCardVisible;
-            _closure2_slot7 = var14;
+            _closure2_slot8 = var14;
             var29 = var2.handleVideoEnd;
             var28 = var2.handleVideoProgress;
             var27 = var2.rewardRemainingSeconds;
             var26 = var2.rewardTotalSeconds;
             var25 = var2.normalizedProgress;
-            var8 = var2.maxVideoProgressSeconds;
-            _closure2_slot8 = var8;
+            var12 = var2.maxVideoProgressSeconds;
+            _closure2_slot9 = var12;
             var6 = var2.videoDuration;
-            _closure2_slot9 = var6;
-            var12 = _closure1_slot4;
-            var5 = var12.useCallback;
+            _closure2_slot10 = var6;
+            var16 = _closure1_slot4;
+            var5 = var16.useCallback;
             var2 = var15.id;
-            var3 = new Array(5);
+            var3 = new Array(6);
             var3[0] = var2;
-            var3[1] = var8;
-            var3[2] = var13;
-            var3[3] = var6;
-            var3[4] = var1;
+            var3[1] = var12;
+            var3[2] = var8;
+            var3[3] = var13;
+            var3[4] = var6;
+            var3[5] = var1;
             var2 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var1 = 19;
+                    var1 = 20;
                     var3 = var10[var1];
                     var1 = undefined;
                     var6 = var9.bind(var1)(var3);
@@ -424,7 +449,7 @@ case 0:
                     var7 = _closure2_slot0;
                     var7 = var7.id;
                     var4['adContentId'] = var7;
-                    var7 = 20;
+                    var7 = 21;
                     var7 = var10[var7];
                     var7 = var9.bind(var1)(var7);
                     var7 = var7.AdCreativeType;
@@ -434,11 +459,11 @@ case 0:
                     var7 = var7.AD_VIDEO_MODAL_CLOSED;
                     var4['event'] = var7;
                     var7 = {};
-                    var8 = 21;
+                    var8 = 22;
                     var8 = var10[var8];
                     var13 = var9.bind(var1)(var8);
                     var12 = var13.getQuestContentName;
-                    var8 = 22;
+                    var8 = 23;
                     var11 = var10[var8];
                     var11 = var9.bind(var1)(var11);
                     var11 = var11.QuestContent;
@@ -450,27 +475,30 @@ case 0:
                     var8 = var8.QuestContent;
                     var8 = var8.VIDEO_MODAL_MOBILE;
                     var7['content_id'] = var8;
-                    var8 = 23;
+                    var8 = 24;
                     var8 = var10[var8];
                     var11 = var9.bind(var1)(var8);
                     var10 = var11.formatVideoProgressRatio;
-                    var9 = _closure2_slot8;
-                    var12 = _closure2_slot9;
+                    var9 = _closure2_slot9;
+                    var12 = _closure2_slot10;
                     var8 = null;
                     var12 = var8 != var12;
                     var8 = 0;
-                    if(!var12) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
-                    var8 = _closure2_slot9;
-case 17:
+                    if(!var12) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
+                    var8 = _closure2_slot10;
+case 20:
                     var8 = var10.bind(var11)(var9, var8);
                     var7['video_progress'] = var8;
-                    var9 = _closure2_slot8;
-                    var8 = 1000;
-                    var9 = var8 * var9;
-                    var8 = _closure1_slot7;
-                    var8 = var9 >= var8;
+                    var8 = _closure2_slot9;
+                    var9 = 1000;
+                    var10 = var9 * var8;
+                    var8 = _closure2_slot6;
+                    var8 = var10 >= var8;
                     var7['threshold_met'] = var8;
+                    var8 = _closure2_slot6;
+                    var8 = var8 / var9;
+                    var7['reward_timer_seconds'] = var8;
                     var4['properties'] = var7;
                     var7 = _closure2_slot1;
                     var4['sourceQuestContent'] = var7;
@@ -479,7 +507,7 @@ case 17:
                     var3 = var3.bind(var1)();
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 24;
+                    var2 = 25;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.hideModal;
@@ -487,22 +515,23 @@ case 17:
                     return var1;
                 }
             };
-            var23 = var5.bind(var12)(var2, var3);
+            var23 = var5.bind(var16)(var2, var3);
             var5 = _closure1_slot4;
             var3 = var5.useCallback;
-            var12 = var15.id;
-            var2 = new Array(5);
-            var2[0] = var12;
-            var2[1] = var8;
-            var2[2] = var13;
-            var2[3] = var6;
-            var2[4] = var1;
+            var16 = var15.id;
+            var2 = new Array(6);
+            var2[0] = var16;
+            var2[1] = var12;
+            var2[2] = var8;
+            var2[3] = var13;
+            var2[4] = var6;
+            var2[5] = var1;
             var1 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var1 = 19;
+                    var1 = 20;
                     var3 = var10[var1];
                     var1 = undefined;
                     var6 = var9.bind(var1)(var3);
@@ -511,7 +540,7 @@ case 0:
                     var7 = _closure2_slot0;
                     var7 = var7.id;
                     var4['adContentId'] = var7;
-                    var7 = 20;
+                    var7 = 21;
                     var7 = var10[var7];
                     var7 = var9.bind(var1)(var7);
                     var7 = var7.AdCreativeType;
@@ -521,11 +550,11 @@ case 0:
                     var7 = var7.AD_VIDEO_MODAL_CLOSED;
                     var4['event'] = var7;
                     var7 = {};
-                    var8 = 21;
+                    var8 = 22;
                     var8 = var10[var8];
                     var13 = var9.bind(var1)(var8);
                     var12 = var13.getQuestContentName;
-                    var8 = 22;
+                    var8 = 23;
                     var11 = var10[var8];
                     var11 = var9.bind(var1)(var11);
                     var11 = var11.QuestContent;
@@ -537,23 +566,27 @@ case 0:
                     var8 = var8.QuestContent;
                     var8 = var8.VIDEO_MODAL_END_CARD;
                     var7['content_id'] = var8;
-                    var8 = 23;
+                    var8 = 24;
                     var8 = var10[var8];
                     var11 = var9.bind(var1)(var8);
                     var10 = var11.formatVideoProgressRatio;
-                    var9 = _closure2_slot8;
-                    var12 = _closure2_slot9;
+                    var9 = _closure2_slot9;
+                    var12 = _closure2_slot10;
                     var8 = null;
                     var12 = var8 != var12;
                     var8 = 0;
-                    if(!var12) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
-                    var8 = _closure2_slot9;
-case 17:
+                    if(!var12) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
+                    var8 = _closure2_slot10;
+case 20:
                     var8 = var10.bind(var11)(var9, var8);
                     var7['video_progress'] = var8;
                     var8 = true;
                     var7['threshold_met'] = var8;
+                    var9 = _closure2_slot6;
+                    var8 = 1000;
+                    var8 = var9 / var8;
+                    var7['reward_timer_seconds'] = var8;
                     var4['properties'] = var7;
                     var7 = _closure2_slot1;
                     var4['sourceQuestContent'] = var7;
@@ -562,7 +595,7 @@ case 17:
                     var3 = var3.bind(var1)();
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 24;
+                    var2 = 25;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.hideModal;
@@ -581,7 +614,7 @@ case 17:
             var21 = _closure1_slot10;
             var7 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var17 = 25;
+            var17 = 26;
             var17 = var16[var17];
             var17 = var7.bind(var4)(var17);
             var20 = var17.BountyVideo;
@@ -606,7 +639,7 @@ case 17:
                 var4 = _closure1_slot10;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 26;
+                var1 = 27;
                 var1 = var8[var1];
                 var3 = undefined;
                 var1 = var7.bind(var3)(var1);
@@ -615,13 +648,13 @@ case 17:
                 var6 = _closure2_slot0;
                 var6 = var6.id;
                 var1['adContentId'] = var6;
-                var6 = 20;
+                var6 = 21;
                 var6 = var8[var6];
                 var6 = var7.bind(var3)(var6);
                 var6 = var6.AdCreativeType;
                 var6 = var6.BOUNTY;
                 var1['adCreativeType'] = var6;
-                var6 = 22;
+                var6 = 23;
                 var6 = var8[var6];
                 var6 = var7.bind(var3)(var6);
                 var6 = var6.QuestContent;
@@ -629,20 +662,20 @@ case 17:
                 var1['questContent'] = var6;
                 var6 = _closure2_slot1;
                 var1['sourceQuestContent'] = var6;
-                var5 = _closure2_slot7;
+                var5 = _closure2_slot8;
                 var1['overrideVisibility'] = var5;
                 var5 = function children() {
                     var4 = _closure1_slot10;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 27;
+                    var1 = 28;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
                     var1 = {};
                     var6 = _closure2_slot0;
                     var1['bounty'] = var6;
-                    var6 = _closure2_slot7;
+                    var6 = _closure2_slot8;
                     var1['visible'] = var6;
                     var5 = _closure2_slot1;
                     var1['sourceQuestContent'] = var5;
@@ -665,7 +698,7 @@ case 17:
             var6['style'] = var10;
             var22 = _closure1_slot10;
             var10 = _closure1_slot1;
-            var20 = 28;
+            var20 = 29;
             var20 = var16[var20];
             var21 = var10.bind(var4)(var20);
             var20 = {};
@@ -675,7 +708,7 @@ case 17:
             var6 = var19.bind(var4)(var8, var6);
             var5[1] = var6;
             var8 = _closure1_slot10;
-            var6 = 29;
+            var6 = 30;
             var6 = var16[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.SafeAreaPaddingView;
@@ -689,7 +722,7 @@ case 17:
             var11 = 'box-none';
             var6['pointerEvents'] = var11;
             var11 = _closure1_slot10;
-            var9 = 30;
+            var9 = 31;
             var9 = var16[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -737,7 +770,7 @@ case 17:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.BOUNTY_REWARD_DURATION_MS;
+    var4 = var4.QuestsExperimentLocations;
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -812,7 +845,7 @@ case 17:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 33;
+    var4 = 34;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -828,7 +861,7 @@ case 0:
             var _closure2_slot1 = var10;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 31;
+            var1 = 32;
             var1 = var3[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
@@ -847,12 +880,12 @@ case 0:
             var _closure2_slot2 = var11;
             var1 = null;
             var2 = var1 == var11;
-            if(var2) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
+            if(var2) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
             var4 = _closure1_slot10;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 32;
+            var2 = 33;
             var2 = var13[var2];
             var2 = var12.bind(var5)(var2);
             var3 = var2.ThemeContextProvider;
@@ -861,20 +894,20 @@ case 20:
             var7 = var7.DARKER;
             var2['theme'] = var7;
             var8 = _closure1_slot10;
-            var6 = 26;
+            var6 = 27;
             var6 = var13[var6];
             var6 = var12.bind(var5)(var6);
             var7 = var6.QuestContentImpressionTrackerNative;
             var6 = {};
             var11 = var11.id;
             var6['adContentId'] = var11;
-            var11 = 20;
+            var11 = 21;
             var11 = var13[var11];
             var11 = var12.bind(var5)(var11);
             var11 = var11.AdCreativeType;
             var11 = var11.BOUNTY;
             var6['adCreativeType'] = var11;
-            var11 = 22;
+            var11 = 23;
             var11 = var13[var11];
             var11 = var12.bind(var5)(var11);
             var11 = var11.QuestContent;
@@ -899,7 +932,7 @@ case 20:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 19:
+case 22:
             return var1;
         }
     };

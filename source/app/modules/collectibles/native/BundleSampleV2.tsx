@@ -277,15 +277,15 @@ case 0:
             var7 = var1.disableStaticBackground;
             var6 = var1.mutedStaticBackground;
             var9 = var1.composedFallbackProps;
+            var4 = var1.exposureLocation;
             var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var5 = _closure1_slot2;
             var1 = 14;
-            var1 = var4[var1];
+            var1 = var5[var1];
             var5 = undefined;
-            var4 = var3.bind(var5)(var1);
-            var3 = var4.useCollectiblesMobileFlexibleBundlesExperiment;
-            var1 = 'CollectiblesShopCardAssetTileV2';
-            var1 = var3.bind(var4)(var1);
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.useCollectiblesMobileFlexibleBundlesExperiment;
+            var1 = var1.bind(var3)(var4);
             var1 = var1.enabled;
             var4 = _closure1_slot5;
             if(var1) { _fun0003_ip = 27; continue _fun0003 }
@@ -519,49 +519,55 @@ case 0:
 case 13:
             var1 = 'small';
 case 12:
-            var9 = var6.previewAssets;
-            var8 = var6.disableStaticBackground;
-            if(!(var8 === var5)) { _fun0004_ip = 30; continue _fun0004 }
+            var10 = var6.previewAssets;
+            var9 = var6.disableStaticBackground;
+            if(!(var9 === var5)) { _fun0004_ip = 30; continue _fun0004 }
 case 31:
-            var8 = false;
+            var9 = false;
 case 30:
-            var7 = var6.mutedStaticBackground;
-            if(!(var7 === var5)) { _fun0004_ip = 32; continue _fun0004 }
+            var8 = var6.mutedStaticBackground;
+            if(!(var8 === var5)) { _fun0004_ip = 32; continue _fun0004 }
 case 33:
-            var7 = false;
+            var8 = false;
 case 32:
-            var6 = {};
-            var6['deco'] = var4;
-            var6['pfx'] = var3;
-            var6['nameplate'] = var2;
-            var6['size'] = var1;
-            var2 = null;
-            var3 = var2 == var9;
-            var1 = undefined;
-            if(var3) { _fun0004_ip = 34; continue _fun0004 }
+            var6 = var6.exposureLocation;
+            if(!(var6 === var5)) { _fun0004_ip = 34; continue _fun0004 }
 case 35:
-            var1 = var9.fgStatic;
+            var6 = 'CollectiblesShopCardAssetTileV2';
 case 34:
-            if(!(var2 == var1)) { _fun0004_ip = 36; continue _fun0004 }
+            var7 = {};
+            var7['deco'] = var4;
+            var7['pfx'] = var3;
+            var7['nameplate'] = var2;
+            var7['size'] = var1;
+            var2 = null;
+            var3 = var2 == var10;
+            var1 = undefined;
+            if(var3) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
+            var1 = var10.fgStatic;
+case 36:
+            if(!(var2 == var1)) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var3 = _closure1_slot5;
             var2 = _closure1_slot10;
             var1 = {};
-            var11 = var1;
-            var10 = var6;
-            var4 = copyDataProperties(var11, var10);
+            var12 = var1;
+            var11 = var7;
+            var4 = copyDataProperties(var12, var11);
             var1 = var3.bind(var5)(var2, var1);
-            _fun0004_ip = 38; continue _fun0004;
-case 36:
+            _fun0004_ip = 9; continue _fun0004;
+case 38:
             var4 = _closure1_slot5;
             var3 = _closure1_slot11;
             var2 = {};
-            var2['previewAssets'] = var9;
-            var2['disableStaticBackground'] = var8;
-            var2['mutedStaticBackground'] = var7;
-            var2['composedFallbackProps'] = var6;
+            var2['previewAssets'] = var10;
+            var2['disableStaticBackground'] = var9;
+            var2['mutedStaticBackground'] = var8;
+            var2['composedFallbackProps'] = var7;
+            var2['exposureLocation'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 38:
+case 9:
             return var1;
         }
     };

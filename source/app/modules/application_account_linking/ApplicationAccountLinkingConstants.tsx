@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var1.Set;
     var2 = var6.prototype;
     var4 = Object.create(var2, {constructor: {value: var6}});
-    var11 = ['1443349464290168976', '1443350165678198935'];
+    var11 = ['1443349464290168976', '1443350165678198935', '1443033465766281327'];
     var12 = var4;
     var2 = new var12[var6](var11, var10);
     var4 = var2 instanceof Object ? var2 : var4;

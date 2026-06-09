@@ -91,9 +91,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5[700] = var10;
     var _closure1_slot8 = var5;
     var5 = {};
-    var6 = var6.GINTO_NORD_EXTRA_BOLD;
-    var5[800] = var6;
+    var10 = var6.GINTO_NORD_EXTRA_BOLD;
+    var5[800] = var10;
     var _closure1_slot9 = var5;
+    var5 = {};
+    var10 = var6.CODE_NORMAL;
+    var5[400] = var10;
+    var6 = var6.CODE_BOLD;
+    var5[700] = var6;
+    var _closure1_slot10 = var5;
     var6 = var4.Object;
     var5 = var6.fromEntries;
     var10 = 7;
@@ -135,8 +141,10 @@ case 4:
             var4['headline'] = var10;
             var10 = _closure1_slot7;
             var4['display'] = var10;
-            var9 = _closure1_slot8;
-            var4['primary'] = var9;
+            var10 = _closure1_slot8;
+            var4['primary'] = var10;
+            var9 = _closure1_slot10;
+            var4['code'] = var9;
             var4 = var4[var7];
             var4 = var4[var6];
             var3['fontFamily'] = var4;
@@ -168,7 +176,7 @@ case 2:
     var4 = var4.Boolean;
     var4 = var10.bind(var11)(var4);
     var5 = var5.bind(var6)(var4);
-    var _closure1_slot10 = var5;
+    var _closure1_slot11 = var5;
     var4 = 8;
     var4 = var8[var4];
     var10 = var7.bind(var1)(var4);
@@ -221,22 +229,22 @@ case 14:
         }
     };
     var4 = var6.bind(var10)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var6 = var9.forwardRef;
     var4 = function(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var9 = arg1;
-            var12 = var9.variant;
+            var13 = var9.variant;
             var14 = var9.color;
             var10 = var9.style;
             var8 = var9.lineClamp;
             var7 = var9.ellipsizeMode;
-            var13 = var9.tabularNumbers;
+            var12 = var9.tabularNumbers;
             var4 = undefined;
-            if(!(var13 === var4)) { _fun0003_ip = 16; continue _fun0003 }
+            if(!(var12 === var4)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
-            var13 = false;
+            var12 = false;
 case 16:
             var1 = var9.animated;
             if(!(var1 === var4)) { _fun0003_ip = 18; continue _fun0003 }
@@ -257,14 +265,14 @@ case 20:
             var17 = var9;
             var16 = var5;
             var5 = copyDataProperties(var18, var17, var16);
-            var11 = _closure1_slot11;
+            var11 = _closure1_slot12;
             var15 = var6 != var14;
             var3 = 'text-default';
             if(!var15) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
             var3 = var14;
 case 22:
-            var11 = var11.bind(var4)(var3, var13);
+            var11 = var11.bind(var4)(var3, var12);
             if(var2) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
             if(var1) { _fun0003_ip = 26; continue _fun0003 }
@@ -277,15 +285,23 @@ case 28:
             _fun0003_ip = 29; continue _fun0003;
 case 24:
             var2 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var1 = 9;
-            var1 = var13[var1];
+            var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.NativeText;
 case 29:
+            var2 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var1 = 10;
+            var1 = var12[var1];
+            var12 = var2.bind(var4)(var1);
+            var2 = var12.useTypographyVariantRemap;
+            var1 = false;
+            var12 = var2.bind(var12)(var13, var1);
             var2 = _closure1_slot4;
             var1 = {};
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot11;
             var12 = var9[var12];
             var9 = new Array(3);
             var9[0] = var12;
@@ -313,26 +329,38 @@ case 30:
         }
     };
     var4 = var6.bind(var9)(var4);
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var6 = var9.forwardRef;
     var2 = function(arg1, arg2) {
-        var4 = _closure1_slot4;
-        var3 = _closure1_slot12;
-        var2 = {};
-        var1 = arg2;
-        var2['ref'] = var1;
-        var6 = arg1;
-        var7 = var2;
-        var1 = copyDataProperties(var7, var6);
-        var5 = 'header';
-        var1 = 'accessibilityRole';
-        var2[0] = var5;
-        var1 = undefined;
-        var1 = var4.bind(var1)(var3, var2);
+        var5 = arg1;
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var2 = 10;
+        var2 = var4[var2];
+        var4 = undefined;
+        var7 = var3.bind(var4)(var2);
+        var6 = var7.useTypographyVariantRemap;
+        var3 = var5.variant;
+        var2 = true;
+        var6 = var6.bind(var7)(var3, var2);
+        var3 = _closure1_slot4;
+        var2 = _closure1_slot13;
+        var1 = {};
+        var7 = arg2;
+        var1['ref'] = var7;
+        var9 = var1;
+        var8 = var5;
+        var5 = copyDataProperties(var9, var8);
+        var7 = 'header';
+        var5 = 'accessibilityRole';
+        var1[4] = var7;
+        var5 = 'variant';
+        var1[4] = var6;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var2 = var6.bind(var9)(var2);
-    var6 = 10;
+    var6 = 11;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

@@ -30,6 +30,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['HANGOUT_WINDOW_SET'] = var1;
     var1 = 'populated_clip_gallery_closed';
     var2['POPULATED_CLIP_GALLERY_CLOSED'] = var1;
+    var1 = 'topical_navigation_multiple_impressions';
+    var2['TOPICAL_NAVIGATION_MULTIPLE_IMPRESSIONS'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

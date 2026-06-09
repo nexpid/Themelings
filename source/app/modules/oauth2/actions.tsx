@@ -588,92 +588,6 @@ case 50:
         return var1;
     };
     var _closure1_slot15 = var1;
-    var1 = function _claimIncentivizedAccountLinkingReward() {
-        var5 = undefined;
-        var1 = undefined;
-        var4 = _closure1_slot3;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-                    StartGenerator();
-                    var2 = arg1;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0009_ip = 55; continue _fun0009 }
-case 15:
-                    var11 = var2.applicationId;
-                    var7 = var2.onSuccess;
-                    var5 = var2.onError;
-                    var3 = undefined;
-                    SaveGenerator(address=36);
-case 56:
-                    return var3;
-case 57:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(var6) { _fun0009_ip = 58; continue _fun0009 }
-case 59: // try_start_0
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var6 = 4;
-                    var6 = var9[var6];
-                    var6 = var8.bind(var3)(var6);
-                    var9 = var6.HTTP;
-                    var8 = var9.post;
-                    var6 = {};
-                    var10 = _closure1_slot7;
-                    var10 = var10.OAUTH2_ACCOUNT_LINKING_ACHIEVEMENT;
-                    var6['url'] = var10;
-                    var10 = {};
-                    var10['application_id'] = var11;
-                    var6['body'] = var10;
-                    var10 = true;
-                    var6['rejectWithError'] = var10;
-                    var6 = var8.bind(var9)(var6);
-                    SaveGenerator(address=118);
-case 60:
-                    return var6;
-case 52:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(var8) { _fun0009_ip = 61; continue _fun0009 }
-case 62:
-                    var9 = var7;
-                    var8 = null;
-                    if(!(var8 != var9)) { _fun0009_ip = 63; continue _fun0009 }
-case 64:
-                    var7 = var7.bind(var3)();
-case 63: // try_end0
-                    _fun0009_ip = 65; continue _fun0009;
-case 61:
-                    return var6;
-case 66: // catch_target0
-                    CatchBlockStart(arg_register=3);
-                    var7 = var5;
-                    var6 = null;
-                    if(!(var6 != var7)) { _fun0009_ip = 65; continue _fun0009 }
-case 40:
-                    var4 = var5.bind(var3)(var4);
-case 65:
-                    return var3;
-case 58:
-                    return var2;
-case 55:
-                    return var1;
-                }
-            };
-            var2 = var1.next;
-            var2 = var2.bind(var1)();
-            return var1;
-        };
-        var4 = var4.bind(var5)(var3);
-        _closure1_slot16 = var4;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot16 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -824,7 +738,7 @@ case 55:
         return var1;
     };
     var3['finishUserCode'] = var4;
-    var4 = function finishUserCodeTwoWayLinkError() {
+    var2 = function finishUserCodeTwoWayLinkError() {
         var1 = undefined;
         var4 = _closure1_slot15;
         var3 = var4.apply;
@@ -834,17 +748,6 @@ case 55:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['finishUserCodeTwoWayLinkError'] = var4;
-    var2 = function claimIncentivizedAccountLinkingReward() {
-        var1 = undefined;
-        var4 = _closure1_slot16;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var3['claimIncentivizedAccountLinkingReward'] = var2;
+    var3['finishUserCodeTwoWayLinkError'] = var2;
     return var1;
 })();

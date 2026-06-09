@@ -84,7 +84,7 @@ case 2:
             var2['label'] = var7;
             var7 = _closure1_slot3;
             var7 = var7.COLLECTIBLES_SHOP;
-            var11 = new Array(7);
+            var11 = new Array(8);
             var11[0] = var7;
             var7 = _closure1_slot3;
             var7 = var7.QUEST_HOME;
@@ -97,17 +97,20 @@ case 5:
 case 4:
             var11[2] = var3;
             var3 = _closure1_slot3;
-            var3 = var3.PREMIUM_GUILD_BOOSTING;
+            var3 = var3.PREMIUM_MANAGE_SUBSCRIPTIONS;
             var11[3] = var3;
             var3 = _closure1_slot3;
-            var3 = var3.PREMIUM_GIFTING;
+            var3 = var3.PREMIUM_GUILD_BOOSTING;
             var11[4] = var3;
             var3 = _closure1_slot3;
-            var3 = var3.GUILD_ROLE_SUBSCRIPTIONS;
+            var3 = var3.PREMIUM_GIFTING;
             var11[5] = var3;
             var3 = _closure1_slot3;
-            var3 = var3.PREMIUM_RESTORE_SUBSCRIPTION;
+            var3 = var3.GUILD_ROLE_SUBSCRIPTIONS;
             var11[6] = var3;
+            var3 = _closure1_slot3;
+            var3 = var3.PREMIUM_RESTORE_SUBSCRIPTION;
+            var11[7] = var3;
             var10 = var11.filter;
             var7 = _closure1_slot0;
             var3 = _closure1_slot1;

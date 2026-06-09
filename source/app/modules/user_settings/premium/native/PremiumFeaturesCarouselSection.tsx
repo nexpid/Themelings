@@ -521,9 +521,8 @@ case 4:
             var12 = _closure1_slot2;
             var5 = 18;
             var5 = var12[var5];
-            var7 = var7.bind(var4)(var5);
-            var5 = var7.isMetaQuest;
-            var5 = var5.bind(var7)();
+            var5 = var7.bind(var4)(var5);
+            var5 = var5.isThumbstickScrollDevice;
             var12 = _closure1_slot10;
             if(var5) { _fun0002_ip = 7; continue _fun0002 }
 case 8:

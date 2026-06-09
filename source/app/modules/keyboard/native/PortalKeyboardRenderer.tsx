@@ -99,7 +99,7 @@ case 6:
         }
     };
     var _closure1_slot8 = var4;
-    var4 = 10;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -198,6 +198,129 @@ case 12:
             };
             var3 = new Array(0);
             var3 = var8.bind(var9)(var6, var3);
+            var8 = var9.useLayoutEffect;
+            var6 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 6;
+                    var4 = var4[var2];
+                    var2 = undefined;
+                    var5 = var5.bind(var2)(var4);
+                    var4 = var5.isAndroid;
+                    var4 = var4.bind(var5)();
+                    if(!var4) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var3 = 9;
+                    var3 = var5[var3];
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.getRootNavigationRef;
+                    var5 = var3.bind(var4)();
+                    var _closure3_slot0 = var5;
+                    var3 = null;
+                    if(!(var3 == var5)) { _fun0004_ip = 16; continue _fun0004 }
+case 14:
+                    return var2;
+case 16:
+                    var4 = function onNavigationStateChange() {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                            var5 = _closure1_slot0;
+                            var1 = _closure1_slot2;
+                            var4 = 8;
+                            var3 = var1[var4];
+                            var1 = undefined;
+                            var3 = var5.bind(var1)(var3);
+                            var6 = var3.PortalKeyboardUIStore;
+                            var5 = var6.getField;
+                            var3 = 'keyboard';
+                            var5 = var5.bind(var6)(var3);
+                            var3 = null;
+                            var3 = var3 != var5;
+                            if(!var3) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
+                            var7 = var5.channelId;
+                            var8 = _closure1_slot0;
+                            var9 = _closure1_slot2;
+                            var6 = 10;
+                            var6 = var9[var6];
+                            var6 = var8.bind(var1)(var6);
+                            var6 = var6.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
+                            var3 = var7 !== var6;
+case 17:
+                            if(!var3) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+                            var7 = _closure1_slot0;
+                            var8 = _closure1_slot2;
+                            var6 = 11;
+                            var6 = var8[var6];
+                            var7 = var7.bind(var1)(var6);
+                            var6 = var7.getFocusedChannelId;
+                            var6 = var6.bind(var7)();
+                            var5 = var5.channelId;
+                            var3 = var6 !== var5;
+case 19:
+                            if(!var3) { _fun0005_ip = 21; continue _fun0005 }
+case 4:
+                            var6 = _closure1_slot0;
+                            var3 = _closure1_slot2;
+                            var5 = 4;
+                            var5 = var3[var5];
+                            var7 = var6.bind(var1)(var5);
+                            var5 = var7.getKeyboardType;
+                            var5 = var5.bind(var7)();
+                            var9 = 5;
+                            var3 = var3[var9];
+                            var3 = var6.bind(var1)(var3);
+                            var3 = var3.KeyboardTypes;
+                            var3 = var3.SYSTEM;
+                            if(!(var5 !== var3)) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
+                            var8 = _closure1_slot0;
+                            var7 = _closure1_slot2;
+                            var3 = 12;
+                            var3 = var7[var3];
+                            var6 = var8.bind(var1)(var3);
+                            var5 = var6.setKeyboardType;
+                            var3 = {};
+                            var7 = var7[var9];
+                            var7 = var8.bind(var1)(var7);
+                            var7 = var7.KeyboardTypes;
+                            var7 = var7.SYSTEM;
+                            var3['type'] = var7;
+                            var3 = var5.bind(var6)(var3);
+case 22:
+                            var3 = _closure1_slot0;
+                            var2 = _closure1_slot2;
+                            var2 = var2[var4];
+                            var3 = var3.bind(var1)(var2);
+                            var2 = var3.closePortalKeyboardIfUnhandled;
+                            var2 = var2.bind(var3)();
+case 21:
+                            return var1;
+                        }
+                    };
+                    var _closure3_slot1 = var4;
+                    var3 = var5.addListener;
+                    var2 = 'state';
+                    var2 = var3.bind(var5)(var2, var4);
+                    var1 = function() {
+                        var4 = _closure3_slot0;
+                        var3 = var4.removeListener;
+                        var2 = _closure3_slot1;
+                        var1 = 'state';
+                        var1 = var3.bind(var4)(var1, var2);
+                        var1 = undefined;
+                        return var1;
+                    };
+                    return var1;
+                }
+            };
+            var3 = new Array(0);
+            var3 = var8.bind(var9)(var6, var3);
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
             var3 = 8;
@@ -217,14 +340,14 @@ case 12:
             var9 = var6.length;
             var3 = 0;
             var9 = var3 === var9;
-            if(var9) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(var9) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var10 = var6.length;
             var3 = 1;
             var3 = var10 - var3;
             var3 = var6[var3];
             var9 = var3 === var5;
-case 14:
+case 24:
             _closure2_slot2 = var9;
             var6 = _closure1_slot3;
             var5 = var6.useMemo;
@@ -232,40 +355,40 @@ case 14:
             var3[0] = var9;
             var3[1] = var8;
             var2 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var3 = _closure2_slot1;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                    if(!(var1 != var3)) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
                     var1 = _closure2_slot2;
-                    if(var1) { _fun0004_ip = 18; continue _fun0004 }
-case 16:
+                    if(var1) { _fun0006_ip = 28; continue _fun0006 }
+case 26:
                     var1 = _closure1_slot6;
-                    _fun0004_ip = 19; continue _fun0004;
-case 18:
+                    _fun0006_ip = 29; continue _fun0006;
+case 28:
                     var3 = _closure2_slot1;
                     var2 = new Array(1);
                     var2[0] = var3;
                     var1 = var2;
-case 19:
+case 29:
                     return var1;
                 }
             };
             var8 = var5.bind(var6)(var2, var3);
-            if(var1) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+            if(var1) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var1 = _closure1_slot3;
             var3 = var1.Fragment;
-            _fun0002_ip = 22; continue _fun0002;
-case 20:
+            _fun0002_ip = 32; continue _fun0002;
+case 30:
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 9;
+            var1 = 13;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.PortalKeyboard;
-case 22:
+case 32:
             var2 = _closure1_slot5;
             var1 = {};
             var6 = _closure1_slot0;

@@ -126,6 +126,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SCAN_QR_CODE'] = var1;
     var1 = 'PREMIUM';
     var2['PREMIUM'] = var1;
+    var1 = 'PREMIUM_MANAGE_SUBSCRIPTIONS';
+    var2['PREMIUM_MANAGE_SUBSCRIPTIONS'] = var1;
     var1 = 'PREMIUM_MANAGE_PLAN';
     var2['PREMIUM_MANAGE_PLAN'] = var1;
     var1 = 'PREMIUM_PLAN_SELECT';

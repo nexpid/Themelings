@@ -1271,8 +1271,13 @@ case 65:
             var32['pfx'] = var35;
             var34 = var34.firstNameplate;
             var32['nameplate'] = var34;
+            var34 = var37.previewAssets;
+            var32['previewAssets'] = var34;
+            var32['disableStaticBackground'] = var21;
             var34 = 'large';
             var32['size'] = var34;
+            var34 = 'ProductPurchaseSuccessModal';
+            var32['exposureLocation'] = var34;
             var32 = var31.bind(var4)(var33, var32);
             var29['children'] = var32;
             var28 = var31.bind(var4)(var30, var29);

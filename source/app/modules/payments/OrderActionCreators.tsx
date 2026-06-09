@@ -331,6 +331,77 @@ case 39:
         return var1;
     };
     var _closure1_slot14 = var1;
+    var1 = function _fetchOrderEntitlements() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0005_ip = 48; continue _fun0005 }
+case 40:
+                    var6 = arg1;
+                    var5 = undefined;
+                    var4 = undefined;
+case 49: // try_start_0
+                    var3 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var2 = 9;
+                    var2 = var8[var2];
+                    var2 = var3.bind(var5)(var2);
+                    var5 = var2.HTTP;
+                    var3 = var5.get;
+                    var2 = {};
+                    var8 = _closure1_slot8;
+                    var7 = var8.ORDER_ENTITLEMENTS;
+                    var6 = var7.bind(var8)(var6);
+                    var2['url'] = var6;
+                    var6 = false;
+                    var2['rejectWithError'] = var6;
+                    var2 = var3.bind(var5)(var2);
+                    SaveGenerator(address=86);
+case 50:
+                    return var2;
+case 51:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0005_ip = 52; continue _fun0005 }
+case 4:
+                    var4 = var2;
+                    var5 = var2.body;
+                    var3 = null;
+                    if(!(var3 == var5)) { _fun0005_ip = 47; continue _fun0005 }
+case 45:
+                    var3 = new Array(0);
+                    _fun0005_ip = 53; continue _fun0005;
+case 47:
+                    var3 = var4.body;
+case 53: // try_end0
+                    return var3;
+case 52:
+                    return var2;
+case 54: // catch_target0
+                    CatchBlockStart(arg_register=1);
+                    var2 = new Array(0);
+                    return var2;
+case 48:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot15 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot15 = var1;
     var1 = global;
     var9 = var1.Object;
     var5 = var9.defineProperty;
@@ -450,7 +521,7 @@ case 39:
         return var1;
     };
     var3['signOrder'] = var4;
-    var2 = function getOrder() {
+    var4 = function getOrder() {
         var1 = undefined;
         var4 = _closure1_slot14;
         var3 = var4.apply;
@@ -460,6 +531,17 @@ case 39:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['getOrder'] = var2;
+    var3['getOrder'] = var4;
+    var2 = function fetchOrderEntitlements() {
+        var1 = undefined;
+        var4 = _closure1_slot15;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchOrderEntitlements'] = var2;
     return var1;
 })();

@@ -18,8 +18,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/quests/native/BountiesModal/BountiesModalConstants.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = 15000;
-    var3['BOUNTY_REWARD_DURATION_MS'] = var2;
     var2 = 10000;
     var3['BOUNTY_REWARD_CLAIM_FAILED_TOAST_DURATION_MS'] = var2;
     return var1;

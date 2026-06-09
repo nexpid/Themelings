@@ -252,7 +252,7 @@ case 10:
     var7 = 'function PremiumGiftPlanSelectTsx2(value,index){const{lastItemIndex,leftOffset,centerOffset,rightOffset,carouselStep}=this.__closure;const activeIndex=index-value;const leftT=Math.max(0,Math.min(1,activeIndex));const rightT=Math.max(0,Math.min(1,activeIndex-(lastItemIndex-1)));const offset=leftOffset+leftT*(centerOffset-leftOffset)+rightT*(rightOffset-centerOffset);return{transform:[{translateX:value*carouselStep+offset}]};}';
     var4['code'] = var7;
     var _closure1_slot18 = var4;
-    var4 = 39;
+    var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -975,7 +975,7 @@ case 49:
             var10 = _closure1_slot12;
             var9 = _closure1_slot1;
             var31 = _closure1_slot2;
-            var4 = 31;
+            var4 = 32;
             var4 = var31[var4];
             var9 = var9.bind(var5)(var4);
             var4 = {'animated': true, 'barStyle': 'light-content'};
@@ -998,7 +998,7 @@ case 48:
             var7['accessibilityRole'] = var40;
             var38 = _closure1_slot0;
             var39 = _closure1_slot2;
-            var47 = 32;
+            var47 = 33;
             var15 = var39[var47];
             var15 = var38.bind(var5)(var15);
             var32 = var15.intl;
@@ -1013,7 +1013,7 @@ case 48:
             var15 = {};
             var32 = var8.closeButton;
             var15['style'] = var32;
-            var32 = 33;
+            var32 = 34;
             var32 = var39[var32];
             var32 = var38.bind(var5)(var32);
             var34 = var32.XSmallIcon;
@@ -1029,7 +1029,7 @@ case 48:
             var7 = var10.bind(var5)(var9, var7);
             var4[1] = var7;
             var9 = _closure1_slot1;
-            var7 = 34;
+            var7 = 35;
             var7 = var39[var7];
             var15 = var9.bind(var5)(var7);
             var7 = {};
@@ -1041,7 +1041,7 @@ case 48:
             var34 = var8.headerImage;
             var32[1] = var34;
             var7['style'] = var32;
-            var32 = 35;
+            var32 = 36;
             var32 = var39[var32];
             var32 = var9.bind(var5)(var32);
             var7['source'] = var32;
@@ -1056,7 +1056,7 @@ case 48:
             var7['style'] = var15;
             var7 = var10.bind(var5)(var31, var7);
             var4[3] = var7;
-            var7 = 36;
+            var7 = 37;
             var7 = var39[var7];
             var9 = var9.bind(var5)(var7);
             var7 = {};
@@ -1078,7 +1078,7 @@ case 48:
             var15 = _closure1_slot13;
             var11 = {};
             var34 = {};
-            var32 = 37;
+            var32 = 38;
             var32 = var39[var32];
             var32 = var38.bind(var5)(var32);
             var32 = var32.NAV_BAR_HEIGHT;
@@ -1121,7 +1121,7 @@ case 50:
             var39 = _closure1_slot12;
             var38 = _closure1_slot0;
             var37 = _closure1_slot2;
-            var34 = 38;
+            var34 = 39;
             var37 = var37[var34];
             var37 = var38.bind(var5)(var37);
             var38 = var37.Text;
@@ -1222,6 +1222,13 @@ case 64:
             var40['nextTierName'] = var42;
             var42 = var35.simple_icon_url;
             var40['nextTierIcon'] = var42;
+            var46 = _closure1_slot1;
+            var47 = _closure1_slot2;
+            var42 = 29;
+            var42 = var47[var42];
+            var42 = var46.bind(var5)(var42);
+            var42 = var42.PREMIUM_GIFT_PLAN_SELECTION;
+            var40['analyticsLocation'] = var42;
             var40 = var39.bind(var5)(var41, var40);
             var37['children'] = var40;
             var34 = var39.bind(var5)(var38, var37);
@@ -1241,7 +1248,7 @@ case 70:
             var42 = _closure1_slot12;
             var41 = _closure1_slot1;
             var46 = _closure1_slot2;
-            var40 = 29;
+            var40 = 30;
             var40 = var46[var40];
             var41 = var41.bind(var5)(var40);
             var40 = {};
@@ -1409,6 +1416,13 @@ case 82:
             var33['nextTierName'] = var36;
             var35 = var35.simple_icon_url;
             var33['nextTierIcon'] = var35;
+            var36 = _closure1_slot1;
+            var37 = _closure1_slot2;
+            var35 = 29;
+            var35 = var37[var35];
+            var35 = var36.bind(var5)(var35);
+            var35 = var35.PREMIUM_GIFT_PLAN_SELECTION;
+            var33['analyticsLocation'] = var35;
             var33 = var15.bind(var5)(var34, var33);
             var31['children'] = var33;
             var31 = var15.bind(var5)(var32, var31);
@@ -1433,7 +1447,7 @@ case 84:
 case 88:
             var19 = _closure1_slot1;
             var31 = _closure1_slot2;
-            var18 = 29;
+            var18 = 30;
             var18 = var31[var18];
             var19 = var19.bind(var5)(var18);
             var18 = {};
@@ -1517,7 +1531,7 @@ case 93:
             var15 = _closure1_slot12;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var13 = 30;
+            var13 = 31;
             var13 = var17[var13];
             var13 = var14.bind(var5)(var13);
             var14 = var13.PremiumGiftWishlistBanner;

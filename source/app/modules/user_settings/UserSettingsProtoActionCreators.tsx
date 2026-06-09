@@ -2,13 +2,13 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-        var13 = require;
-        var9 = metroImportDefault;
+        var14 = require;
+        var10 = metroImportDefault;
         var3 = exports;
-        var14 = dependencyMap;
-        var _closure1_slot0 = var13;
-        var _closure1_slot1 = var9;
-        var _closure1_slot2 = var14;
+        var15 = dependencyMap;
+        var _closure1_slot0 = var14;
+        var _closure1_slot1 = var10;
+        var _closure1_slot2 = var15;
         var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -185,7 +185,7 @@ case 35:
             }
         };
         var _closure1_slot14 = var1;
-        var6 = function updateUserAllGuildSettings(arg1, arg2) {
+        var7 = function updateUserAllGuildSettings(arg1, arg2) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var5 = _closure1_slot12;
@@ -202,8 +202,8 @@ case 35:
             var1 = var4.bind(var5)(var3, var2, var1);
             return var1;
         };
-        var _closure1_slot15 = var6;
-        var5 = function updateUserGuildSettings(arg1, arg2, arg3) {
+        var _closure1_slot15 = var7;
+        var6 = function updateUserGuildSettings(arg1, arg2, arg3) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
@@ -229,10 +229,29 @@ case 35:
             var1 = var4.bind(var5)(var3, var2, var1);
             return var1;
         };
-        var _closure1_slot16 = var5;
+        var _closure1_slot16 = var6;
+        var5 = function setGuildThemeSourcePreferenceOverride(arg1, arg2) {
+            var2 = arg2;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot16;
+            var2 = _closure1_slot8;
+            var4 = var2.INFREQUENT_USER_ACTION;
+            var3 = undefined;
+            var2 = arg1;
+            var1 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var1['guildThemeSourcePreference'] = var2;
+                var1 = undefined;
+                return var1;
+            };
+            var1 = var5.bind(var3)(var2, var1, var4);
+            return var1;
+        };
+        var _closure1_slot17 = var5;
         var4 = function updateRecurringDismissibleContentState() {
             var1 = undefined;
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot19;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -240,7 +259,7 @@ case 35:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure1_slot17 = var4;
+        var _closure1_slot18 = var4;
         var1 = function _updateRecurringDismissibleContentState() {
             var5 = undefined;
             var1 = undefined;
@@ -296,7 +315,7 @@ case 36:
                 return var1;
             };
             var4 = var4.bind(var5)(var3);
-            _closure1_slot18 = var4;
+            _closure1_slot19 = var4;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -304,7 +323,7 @@ case 36:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure1_slot18 = var1;
+        var _closure1_slot19 = var1;
         var1 = function _updateGuildDismissedContent() {
             var5 = undefined;
             var1 = undefined;
@@ -360,7 +379,7 @@ case 42:
                 return var1;
             };
             var4 = var4.bind(var5)(var3);
-            _closure1_slot19 = var4;
+            _closure1_slot20 = var4;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -368,60 +387,60 @@ case 42:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure1_slot19 = var1;
-        var7 = global;
-        var11 = var7.Object;
-        var10 = var11.defineProperty;
-        var8 = {};
+        var _closure1_slot20 = var1;
+        var8 = global;
+        var12 = var8.Object;
+        var11 = var12.defineProperty;
+        var9 = {};
         var1 = true;
-        var8['value'] = var1;
+        var9['value'] = var1;
         var1 = '__esModule';
-        var1 = var10.bind(var11)(var3, var1, var8);
+        var1 = var11.bind(var12)(var3, var1, var9);
         var1 = 0;
-        var8 = var14[var1];
+        var9 = var15[var1];
         var1 = undefined;
-        var8 = var9.bind(var1)(var8);
-        var _closure1_slot3 = var8;
-        var8 = 1;
-        var8 = var14[var8];
-        var8 = var9.bind(var1)(var8);
-        var _closure1_slot4 = var8;
-        var8 = 2;
-        var8 = var14[var8];
-        var8 = var9.bind(var1)(var8);
-        var _closure1_slot5 = var8;
-        var8 = 3;
-        var8 = var14[var8];
-        var8 = var9.bind(var1)(var8);
-        var _closure1_slot6 = var8;
-        var8 = 4;
-        var10 = var14[var8];
-        var10 = var13.bind(var1)(var10);
-        var12 = var10.UserSettingsTypes;
-        var _closure1_slot7 = var12;
-        var10 = var10.UserSettingsDelay;
-        var _closure1_slot8 = var10;
-        var10 = 5;
-        var10 = var14[var10];
-        var10 = var13.bind(var1)(var10);
-        var11 = var10.AbortCodes;
-        var _closure1_slot9 = var11;
-        var11 = var10.Endpoints;
-        var _closure1_slot10 = var11;
-        var10 = var10.AnalyticEvents;
-        var _closure1_slot11 = var10;
-        var8 = var14[var8];
-        var8 = var13.bind(var1)(var8);
-        var11 = var8.UserSettingsDelay;
-        var10 = var7.Date;
-        var8 = var10.now;
-        var8 = var8.bind(var10)();
-        var8 = 6;
-        var10 = var14[var8];
-        var17 = var9.bind(var1)(var10);
-        var16 = var17.subscribe;
-        var15 = 'CONNECTION_OPEN';
-        var10 = function() {
+        var9 = var10.bind(var1)(var9);
+        var _closure1_slot3 = var9;
+        var9 = 1;
+        var9 = var15[var9];
+        var9 = var10.bind(var1)(var9);
+        var _closure1_slot4 = var9;
+        var9 = 2;
+        var9 = var15[var9];
+        var9 = var10.bind(var1)(var9);
+        var _closure1_slot5 = var9;
+        var9 = 3;
+        var9 = var15[var9];
+        var9 = var10.bind(var1)(var9);
+        var _closure1_slot6 = var9;
+        var9 = 4;
+        var11 = var15[var9];
+        var11 = var14.bind(var1)(var11);
+        var13 = var11.UserSettingsTypes;
+        var _closure1_slot7 = var13;
+        var11 = var11.UserSettingsDelay;
+        var _closure1_slot8 = var11;
+        var11 = 5;
+        var11 = var15[var11];
+        var11 = var14.bind(var1)(var11);
+        var12 = var11.AbortCodes;
+        var _closure1_slot9 = var12;
+        var12 = var11.Endpoints;
+        var _closure1_slot10 = var12;
+        var11 = var11.AnalyticEvents;
+        var _closure1_slot11 = var11;
+        var9 = var15[var9];
+        var9 = var14.bind(var1)(var9);
+        var12 = var9.UserSettingsDelay;
+        var11 = var8.Date;
+        var9 = var11.now;
+        var9 = var9.bind(var11)();
+        var9 = 6;
+        var11 = var15[var9];
+        var18 = var10.bind(var1)(var11);
+        var17 = var18.subscribe;
+        var16 = 'CONNECTION_OPEN';
+        var11 = function() {
             var1 = global;
             var2 = var1.Date;
             var1 = var2.now;
@@ -429,12 +448,12 @@ case 42:
             var1 = undefined;
             return var1;
         };
-        var10 = var16.bind(var17)(var15, var10);
-        var8 = var14[var8];
-        var15 = var9.bind(var1)(var8);
-        var10 = var15.subscribe;
-        var9 = 'CONNECTION_CLOSED';
-        var8 = function() {
+        var11 = var17.bind(var18)(var16, var11);
+        var9 = var15[var9];
+        var16 = var10.bind(var1)(var9);
+        var11 = var16.subscribe;
+        var10 = 'CONNECTION_CLOSED';
+        var9 = function() {
             var1 = global;
             var2 = var1.Date;
             var1 = var2.now;
@@ -442,30 +461,30 @@ case 42:
             var1 = undefined;
             return var1;
         };
-        var8 = var10.bind(var15)(var9, var8);
-        var8 = var7.document;
-        var9 = 'undefined';
-        var8 = typeof var8;
-        if(!(var9 !== var8)) { _fun0001_ip = 44; continue _fun0001 }
+        var9 = var11.bind(var16)(var10, var9);
+        var9 = var8.document;
+        var10 = 'undefined';
+        var9 = typeof var9;
+        if(!(var10 !== var9)) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
-        var15 = var7.document;
-        var10 = var15.addEventListener;
-        var9 = 'mousedown';
+        var16 = var8.document;
+        var11 = var16.addEventListener;
+        var10 = 'mousedown';
+        var9 = function() {
+            var1 = undefined;
+            return var1;
+        };
+        var9 = var11.bind(var16)(var10, var9);
+        var11 = var8.document;
+        var10 = var11.addEventListener;
+        var9 = 'keydown';
         var8 = function() {
             var1 = undefined;
             return var1;
         };
-        var8 = var10.bind(var15)(var9, var8);
-        var10 = var7.document;
-        var9 = var10.addEventListener;
-        var8 = 'keydown';
-        var7 = function() {
-            var1 = undefined;
-            return var1;
-        };
-        var7 = var9.bind(var10)(var8, var7);
+        var8 = var10.bind(var11)(var9, var8);
 case 44:
-        var7 = function() {
+        var8 = function() {
             var4 = _closure1_slot5;
             var3 = function UserSettingsProtoActionCreators(arg1, arg2) {
                 var3 = this;
@@ -982,22 +1001,22 @@ case 88:
                     var12 = var5.timeoutDelay;
                     var10 = var7 < var12;
 case 87:
-                    if(!var10) { _fun0009_ip = 81; continue _fun0009 }
-case 89:
+                    if(!var10) { _fun0009_ip = 89; continue _fun0009 }
+case 90:
                     var12 = var5.rateLimited;
                     var10 = !var12;
-case 81:
-                    if(!var10) { _fun0009_ip = 90; continue _fun0009 }
-case 91:
+case 89:
+                    if(!var10) { _fun0009_ip = 91; continue _fun0009 }
+case 92:
                     var10 = global;
                     var12 = var10.clearTimeout;
                     var10 = var3.timeout;
                     var10 = var12.bind(var1)(var10);
                     var3['timeout'] = var1;
-case 90:
+case 91:
                     var10 = var3.timeout;
-                    if(!(var8 == var10)) { _fun0009_ip = 92; continue _fun0009 }
-case 93:
+                    if(!(var8 == var10)) { _fun0009_ip = 93; continue _fun0009 }
+case 94:
                     var12 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var20 = 10;
@@ -1008,8 +1027,8 @@ case 93:
                     var12 = var7 * var10;
                     var10 = var9.jitter;
                     var13 = var12;
-                    if(!var10) { _fun0009_ip = 94; continue _fun0009 }
-case 95:
+                    if(!var10) { _fun0009_ip = 95; continue _fun0009 }
+case 96:
                     var10 = global;
                     var15 = var10.Math;
                     var14 = var15.floor;
@@ -1030,7 +1049,7 @@ case 95:
                     var10 = var16 * var10;
                     var10 = var14.bind(var15)(var10);
                     var13 = var12 + var10;
-case 94:
+case 95:
                     var14 = var4.logger;
                     var12 = var14.log;
                     var10 = 'Scheduling save from markDirty';
@@ -1041,10 +1060,10 @@ case 94:
                     var10 = var12.bind(var1)(var10, var13);
                     var3['timeout'] = var10;
                     var3['timeoutDelay'] = var7;
-case 92:
+case 93:
                     var7 = var9.cleanup;
-                    if(!(var8 != var7)) { _fun0009_ip = 96; continue _fun0009 }
-case 97:
+                    if(!(var8 != var7)) { _fun0009_ip = 97; continue _fun0009 }
+case 98:
                     var22 = var5.cleanupFuncs;
                     var7 = new Array(0);
                     var23 = var7;
@@ -1054,18 +1073,18 @@ case 97:
                     var23 = var7;
                     var10 = arraySpread(var23, var22, var21);
                     var3['cleanupFuncs'] = var7;
-case 96:
+case 97:
                     var7 = var9.onError;
                     var7 = var8 == var7;
-                    if(var7) { _fun0009_ip = 98; continue _fun0009 }
-case 99:
+                    if(var7) { _fun0009_ip = 99; continue _fun0009 }
+case 100:
                     var13 = var5.errorCallbacks;
                     var12 = var13.includes;
                     var10 = var9.onError;
                     var7 = var12.bind(var13)(var10);
-case 98:
-                    if(var7) { _fun0009_ip = 100; continue _fun0009 }
-case 101:
+case 99:
+                    if(var7) { _fun0009_ip = 101; continue _fun0009 }
+case 102:
                     var22 = var5.errorCallbacks;
                     var7 = new Array(1);
                     var23 = var7;
@@ -1076,10 +1095,10 @@ case 101:
                     var9 = 1;
                     var9 = var10 + var9;
                     var3['errorCallbacks'] = var7;
-case 100:
+case 101:
                     var7 = var5.protoToSave;
-                    if(!(var8 != var7)) { _fun0009_ip = 102; continue _fun0009 }
-case 103:
+                    if(!(var8 != var7)) { _fun0009_ip = 103; continue _fun0009 }
+case 104:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var6 = 8;
@@ -1090,10 +1109,10 @@ case 103:
                     var5 = var5.protoToSave;
                     var5 = var7.bind(var8)(var6, var5, var2);
                     var3['protoToSave'] = var5;
-                    _fun0009_ip = 104; continue _fun0009;
-case 102:
+                    _fun0009_ip = 105; continue _fun0009;
+case 103:
                     var3['protoToSave'] = var2;
-case 104:
+case 105:
                     var2 = var4.dispatchChanges;
                     var2 = var2.bind(var4)(var3);
                     return var1;
@@ -1145,7 +1164,7 @@ case 0:
                     var4 = var3.bind(var4)(var5);
                     var3 = null;
                     if(!(var3 == var4)) { _fun0010_ip = 4; continue _fun0010 }
-case 105:
+case 106:
                     var4 = {};
 case 4:
                     var3 = this;
@@ -1179,16 +1198,16 @@ case 0:
                     var4 = var5.hasLoaded;
                     var1 = arg1;
                     var1 = var4.bind(var5)(var1);
-                    if(!var1) { _fun0011_ip = 106; continue _fun0011 }
+                    if(!var1) { _fun0011_ip = 107; continue _fun0011 }
 case 3:
                     var4 = true;
                     var1 = var4 !== var3;
-case 106:
-                    if(var1) { _fun0011_ip = 107; continue _fun0011 }
-case 108:
+case 107:
+                    if(var1) { _fun0011_ip = 108; continue _fun0011 }
+case 109:
                     var1 = var2.loadIfNecessary;
                     var1 = var1.bind(var2)(var3);
-case 107:
+case 108:
                     var1 = undefined;
                     return var1;
                 }
@@ -1207,8 +1226,8 @@ case 0:
                         var3 = arg1;
                         var5 = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0012_ip = 109; continue _fun0012 }
-case 110:
+                        if(var2) { _fun0012_ip = 110; continue _fun0012 }
+case 111:
                         var13 = var3;
                         var10 = undefined;
                         var4 = undefined;
@@ -1218,16 +1237,16 @@ case 110:
                         var2 = var5.getEditInfo;
                         var2 = var2.bind(var5)();
                         var2 = var2.editInfo;
-                        if(var3) { _fun0012_ip = 111; continue _fun0012 }
-case 112:
+                        if(var3) { _fun0012_ip = 112; continue _fun0012 }
+case 113:
                         var3 = var2.loaded;
                         if(var3) { _fun0012_ip = 39; continue _fun0012 }
-case 113:
+case 114:
                         var2 = var2.loading;
-                        if(!var2) { _fun0012_ip = 111; continue _fun0012 }
+                        if(!var2) { _fun0012_ip = 112; continue _fun0012 }
 case 39:
                         return var10;
-case 111:
+case 112:
                         var9 = var5.logger;
                         var3 = var9.log;
                         var2 = 'Loading proto';
@@ -1237,7 +1256,7 @@ case 111:
                         var9 = true;
                         var2['loading'] = var9;
                         var2 = var3.bind(var5)(var2);
-case 114: // try_start_0
+case 115: // try_start_0
                         var3 = _closure1_slot0;
                         var9 = _closure1_slot2;
                         var2 = 9;
@@ -1255,7 +1274,7 @@ case 114: // try_start_0
                         var2['rejectWithError'] = var11;
                         var2 = var3.bind(var9)(var2);
                         SaveGenerator(address=186);
-case 115:
+case 83:
                         return var2;
 case 116:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
@@ -1273,8 +1292,8 @@ case 20:
                         var12 = var12.bind(var15)(var9, var16);
                         var4 = var12;
                         var9 = null;
-                        if(!(var9 != var12)) { _fun0012_ip = 118; continue _fun0012 }
-case 119:
+                        if(!(var9 != var12)) { _fun0012_ip = 44; continue _fun0012 }
+case 118:
                         var9 = _closure1_slot1;
                         var12 = _closure1_slot2;
                         var15 = 14;
@@ -1305,38 +1324,38 @@ case 119:
                         var12['proto'] = var15;
                         var3['settings'] = var12;
                         var12 = var14;
-                        if(var14) { _fun0012_ip = 120; continue _fun0012 }
-case 121:
-                        var12 = var13;
+                        if(var14) { _fun0012_ip = 119; continue _fun0012 }
 case 120:
+                        var12 = var13;
+case 119:
                         var3['resetEditInfo'] = var12;
                         var3['local'] = var11;
                         var3 = var9.bind(var10)(var3);
                         SaveGenerator(address=410);
-case 122:
+case 121:
                         return var3;
-case 123:
+case 122:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
-                        if(var9) { _fun0012_ip = 124; continue _fun0012 }
-case 125:
-                        if(!var8) { _fun0012_ip = 126; continue _fun0012 }
-case 127:
+                        if(var9) { _fun0012_ip = 123; continue _fun0012 }
+case 124:
+                        if(!var8) { _fun0012_ip = 125; continue _fun0012 }
+case 126:
                         var8 = var5.markDirtyFromMigration;
                         var6 = var8.bind(var5)(var7, var6);
-case 126: // try_end0
+case 125: // try_end0
                         return var4;
-case 124:
+case 123:
                         return var3;
-case 118: // try_start_1
+case 44: // try_start_1
                         var4 = var5.dispatchChanges;
                         var3 = {'loading': false, 'loaded': true};
                         var3 = var4.bind(var5)(var3);
-case 128: // try_end1
+case 127: // try_end1
                         var3 = undefined;
                         return var3;
 case 117:
                         return var2;
-case 129: // catch_target0 // catch_target1
+case 128: // catch_target0 // catch_target1
                         CatchBlockStart(arg_register=1);
                         var4 = var5.dispatchChanges;
                         var3 = {};
@@ -1344,7 +1363,7 @@ case 129: // catch_target0 // catch_target1
                         var3['loading'] = var6;
                         var3 = var4.bind(var5)(var3);
                         throw var2;
-case 109:
+case 110:
                         return var1;
                     }
                 };
@@ -1507,70 +1526,108 @@ case 40:
             var1 = var4.bind(var1)(var3, var2);
             return var1;
         };
-        var10 = var7.bind(var1)();
-        var7 = 15;
-        var7 = var14[var7];
-        var7 = var13.bind(var1)(var7);
-        var20 = var7.PreloadedUserSettings;
-        var19 = var12.PRELOADED_USER_SETTINGS;
-        var8 = var10.prototype;
-        var8 = Object.create(var8, {constructor: {value: var10}});
-        var21 = var8;
-        var7 = new var21[var10](var20, var19, var18);
-        var9 = var7 instanceof Object ? var7 : var8;
-        var _closure1_slot12 = var9;
-        var7 = 16;
-        var7 = var14[var7];
-        var7 = var13.bind(var1)(var7);
-        var20 = var7.FrecencyUserSettings;
-        var19 = var12.FRECENCY_AND_FAVORITES_SETTINGS;
-        var8 = var10.prototype;
-        var8 = Object.create(var8, {constructor: {value: var10}});
-        var21 = var8;
-        var7 = new var21[var10](var20, var19, var18);
-        var8 = var7 instanceof Object ? var7 : var8;
-        var7 = {};
-        var15 = var12.PRELOADED_USER_SETTINGS;
-        var7[14] = var9;
-        var12 = var12.FRECENCY_AND_FAVORITES_SETTINGS;
-        var7[11] = var8;
-        var12 = 22;
-        var12 = var14[var12];
-        var14 = var13.bind(var1)(var12);
-        var13 = var14.fileFinishedImporting;
-        var12 = 'modules/user_settings/UserSettingsProtoActionCreators.tsx';
-        var12 = var13.bind(var14)(var12);
-        var3['UserSettingsDelay'] = var11;
-        var11 = function markUserSettingsLoadOkayForDevelopment() {
+        var11 = var8.bind(var1)();
+        var8 = 15;
+        var8 = var15[var8];
+        var8 = var14.bind(var1)(var8);
+        var21 = var8.PreloadedUserSettings;
+        var20 = var13.PRELOADED_USER_SETTINGS;
+        var9 = var11.prototype;
+        var9 = Object.create(var9, {constructor: {value: var11}});
+        var22 = var9;
+        var8 = new var22[var11](var21, var20, var19);
+        var10 = var8 instanceof Object ? var8 : var9;
+        var _closure1_slot12 = var10;
+        var8 = 16;
+        var8 = var15[var8];
+        var8 = var14.bind(var1)(var8);
+        var21 = var8.FrecencyUserSettings;
+        var20 = var13.FRECENCY_AND_FAVORITES_SETTINGS;
+        var9 = var11.prototype;
+        var9 = Object.create(var9, {constructor: {value: var11}});
+        var22 = var9;
+        var8 = new var22[var11](var21, var20, var19);
+        var9 = var8 instanceof Object ? var8 : var9;
+        var8 = {};
+        var16 = var13.PRELOADED_USER_SETTINGS;
+        var8[15] = var10;
+        var13 = var13.FRECENCY_AND_FAVORITES_SETTINGS;
+        var8[12] = var9;
+        var13 = 22;
+        var13 = var15[var13];
+        var15 = var14.bind(var1)(var13);
+        var14 = var15.fileFinishedImporting;
+        var13 = 'modules/user_settings/UserSettingsProtoActionCreators.tsx';
+        var13 = var14.bind(var15)(var13);
+        var3['UserSettingsDelay'] = var12;
+        var12 = function markUserSettingsLoadOkayForDevelopment() {
             var1 = undefined;
             return var1;
         };
-        var3['markUserSettingsLoadOkayForDevelopment'] = var11;
-        var3['UserSettingsProtoActionCreators'] = var10;
-        var3['PreloadedUserSettingsActionCreators'] = var9;
-        var3['FrecencyUserSettingsActionCreators'] = var8;
-        var3['UserSettingsActionCreatorsByType'] = var7;
-        var3['updateUserAllGuildSettings'] = var6;
-        var3['updateUserGuildSettings'] = var5;
-        var5 = function setGuildThemeSourcePreferenceOverride(arg1, arg2) {
-            var2 = arg2;
-            var _closure2_slot0 = var2;
-            var5 = _closure1_slot16;
-            var2 = _closure1_slot8;
-            var4 = var2.INFREQUENT_USER_ACTION;
-            var3 = undefined;
+        var3['markUserSettingsLoadOkayForDevelopment'] = var12;
+        var3['UserSettingsProtoActionCreators'] = var11;
+        var3['PreloadedUserSettingsActionCreators'] = var10;
+        var3['FrecencyUserSettingsActionCreators'] = var9;
+        var3['UserSettingsActionCreatorsByType'] = var8;
+        var3['updateUserAllGuildSettings'] = var7;
+        var3['updateUserGuildSettings'] = var6;
+        var6 = function setDefaultGuildThemePreference(arg1) {
             var2 = arg1;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot12;
+            var4 = var5.updateAsync;
+            var2 = _closure1_slot8;
+            var3 = var2.INFREQUENT_USER_ACTION;
+            var2 = 'appearance';
             var1 = function(arg1) {
-                var2 = _closure2_slot0;
-                var1 = arg1;
-                var1['guildThemeSourcePreference'] = var2;
-                var1 = undefined;
-                return var1;
+                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+                    var2 = arg1;
+                    var4 = var2.defaultGuildThemePreference;
+                    var1 = null;
+                    if(!(var1 == var4)) { _fun0014_ip = 129; continue _fun0014 }
+case 130:
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 15;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var1 = var5.bind(var1)(var3);
+                    var1 = var1.GuildThemeSourcePreference;
+                    var4 = var1.UNSPECIFIED;
+case 129:
+                    var3 = _closure2_slot0;
+                    if(!(var4 !== var3)) { _fun0014_ip = 131; continue _fun0014 }
+case 132:
+                    var1 = _closure2_slot0;
+                    var2['defaultGuildThemePreference'] = var1;
+                    var1 = undefined;
+                    return var1;
+case 131:
+                    var1 = false;
+                    return var1;
+                }
             };
-            var1 = var5.bind(var3)(var2, var1, var4);
+            var1 = var4.bind(var5)(var2, var1, var3);
             return var1;
         };
+        var3['setDefaultGuildThemePreference'] = var6;
         var3['setGuildThemeSourcePreferenceOverride'] = var5;
+        var5 = function clearGuildThemeSourcePreferenceOverride(arg1) {
+            var4 = _closure1_slot17;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 15;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var1 = var1.GuildThemeSourcePreference;
+            var2 = var1.UNSPECIFIED;
+            var1 = arg1;
+            var1 = var4.bind(var3)(var1, var2);
+            return var1;
+        };
+        var3['clearGuildThemeSourcePreferenceOverride'] = var5;
         var5 = function updateUserChannelSettings(arg1, arg2, arg3, arg4) {
             var2 = arg2;
             var _closure2_slot0 = var2;
@@ -1602,7 +1659,7 @@ case 40:
             var4 = arg1;
             var _closure2_slot0 = var4;
             var3 = function trackDismissibleContentDismissedBeforeConnectionOpen(arg1) {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                     var7 = arg1;
                     var3 = _closure1_slot6;
@@ -1610,8 +1667,8 @@ case 0:
                     var1 = _closure1_slot7;
                     var1 = var1.PRELOADED_USER_SETTINGS;
                     var1 = var2.bind(var3)(var1);
-                    if(var1) { _fun0014_ip = 130; continue _fun0014 }
-case 131:
+                    if(var1) { _fun0015_ip = 133; continue _fun0015 }
+case 134:
                     var1 = _closure1_slot6;
                     var1 = var1.settings;
                     var3 = var1.userContent;
@@ -1619,13 +1676,13 @@ case 131:
                     var4 = var2 == var3;
                     var1 = undefined;
                     var5 = undefined;
-                    if(var4) { _fun0014_ip = 41; continue _fun0014 }
+                    if(var4) { _fun0015_ip = 41; continue _fun0015 }
 case 39:
                     var5 = var3.dismissedContents;
 case 41:
                     var2 = var2 != var5;
-                    if(!var2) { _fun0014_ip = 132; continue _fun0014 }
-case 133:
+                    if(!var2) { _fun0015_ip = 135; continue _fun0015 }
+case 136:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 17;
@@ -1633,9 +1690,9 @@ case 133:
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.hasBit;
                     var2 = var3.bind(var4)(var5, var7);
-case 132:
-                    if(var2) { _fun0014_ip = 134; continue _fun0014 }
 case 135:
+                    if(var2) { _fun0015_ip = 137; continue _fun0015 }
+case 138:
                     var3 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var2 = 18;
@@ -1654,70 +1711,15 @@ case 135:
                     var2['content_type'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;
-case 134:
+case 137:
                     return var1;
-case 130:
+case 133:
                     var1 = undefined;
                     return var1;
                 }
             };
             var2 = undefined;
             var2 = var3.bind(var2)(var4);
-            var5 = _closure1_slot12;
-            var4 = var5.updateAsync;
-            var2 = _closure1_slot8;
-            var3 = var2.INFREQUENT_USER_ACTION;
-            var2 = 'userContent';
-            var1 = function(arg1) {
-                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
-case 0:
-                    var3 = arg1;
-                    var5 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var6 = 17;
-                    var2 = var1[var6];
-                    var1 = undefined;
-                    var9 = var5.bind(var1)(var2);
-                    var8 = var9.hasBit;
-                    var7 = var3.dismissedContents;
-                    var5 = _closure2_slot0;
-                    var5 = var8.bind(var9)(var7, var5);
-                    if(var5) { _fun0015_ip = 136; continue _fun0015 }
-case 28:
-                    var5 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var4 = var4[var6];
-                    var6 = var5.bind(var1)(var4);
-                    var5 = var6.addBit;
-                    var4 = var3.dismissedContents;
-                    var2 = _closure2_slot0;
-                    var2 = var5.bind(var6)(var4, var2);
-                    var3['dismissedContents'] = var2;
-                    return var1;
-case 136:
-                    var1 = false;
-                    return var1;
-                }
-            };
-            var1 = var4.bind(var5)(var2, var1, var3);
-            return var1;
-        };
-        var3['addDismissedContent'] = var5;
-        var3['updateRecurringDismissibleContentState'] = var4;
-        var4 = function updateGuildDismissedContent() {
-            var1 = undefined;
-            var4 = _closure1_slot19;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
-        var3['updateGuildDismissedContent'] = var4;
-        var4 = function removeDismissedContent(arg1) {
-            var2 = arg1;
-            var _closure2_slot0 = var2;
             var5 = _closure1_slot12;
             var4 = var5.updateAsync;
             var2 = _closure1_slot8;
@@ -1737,11 +1739,66 @@ case 0:
                     var7 = var3.dismissedContents;
                     var5 = _closure2_slot0;
                     var5 = var8.bind(var9)(var7, var5);
-                    if(var5) { _fun0016_ip = 137; continue _fun0016 }
+                    if(var5) { _fun0016_ip = 139; continue _fun0016 }
+case 28:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var6];
+                    var6 = var5.bind(var1)(var4);
+                    var5 = var6.addBit;
+                    var4 = var3.dismissedContents;
+                    var2 = _closure2_slot0;
+                    var2 = var5.bind(var6)(var4, var2);
+                    var3['dismissedContents'] = var2;
+                    return var1;
+case 139:
+                    var1 = false;
+                    return var1;
+                }
+            };
+            var1 = var4.bind(var5)(var2, var1, var3);
+            return var1;
+        };
+        var3['addDismissedContent'] = var5;
+        var3['updateRecurringDismissibleContentState'] = var4;
+        var4 = function updateGuildDismissedContent() {
+            var1 = undefined;
+            var4 = _closure1_slot20;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
+        var3['updateGuildDismissedContent'] = var4;
+        var4 = function removeDismissedContent(arg1) {
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot12;
+            var4 = var5.updateAsync;
+            var2 = _closure1_slot8;
+            var3 = var2.INFREQUENT_USER_ACTION;
+            var2 = 'userContent';
+            var1 = function(arg1) {
+                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+                    var3 = arg1;
+                    var5 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var6 = 17;
+                    var2 = var1[var6];
+                    var1 = undefined;
+                    var9 = var5.bind(var1)(var2);
+                    var8 = var9.hasBit;
+                    var7 = var3.dismissedContents;
+                    var5 = _closure2_slot0;
+                    var5 = var8.bind(var9)(var7, var5);
+                    if(var5) { _fun0017_ip = 140; continue _fun0017 }
 case 28:
                     var5 = false;
                     return var5;
-case 137:
+case 140:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var4 = var4[var6];
@@ -1759,7 +1816,7 @@ case 137:
         };
         var3['removeDismissedContent'] = var4;
         var4 = function removeDismissedRecurringContent(arg1) {
-            var4 = _closure1_slot17;
+            var4 = _closure1_slot18;
             var3 = undefined;
             var2 = arg1;
             var1 = {'lastDismissedVersion': 0, 'lastDismissedAtMs': '0', 'lastDismissedObjectId': '0', 'numTimesDismissed': 0};
@@ -1773,13 +1830,13 @@ case 137:
             var3 = var1.INFREQUENT_USER_ACTION;
             var2 = undefined;
             var1 = function(arg1) {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                     var1 = arg1;
                     var2 = var1.guilds;
                     var5 = null;
-                    if(!(var5 != var2)) { _fun0017_ip = 138; continue _fun0017 }
-case 139:
+                    if(!(var5 != var2)) { _fun0018_ip = 141; continue _fun0018 }
+case 130:
                     var4 = global;
                     var3 = var4.Object;
                     var2 = var3.values;
@@ -1788,10 +1845,10 @@ case 139:
                     var1 = var3.length;
                     var2 = 0;
                     var1 = var2 < var1;
-                    if(!var1) { _fun0017_ip = 138; continue _fun0017 }
-case 105:
+                    if(!var1) { _fun0018_ip = 141; continue _fun0018 }
+case 106:
                     var6 = var3[var2];
-                    if(!(var5 != var6)) { _fun0017_ip = 140; continue _fun0017 }
+                    if(!(var5 != var6)) { _fun0018_ip = 142; continue _fun0018 }
 case 7:
                     var1 = {};
                     var6['guildDismissibleContentStates'] = var1;
@@ -1802,11 +1859,11 @@ case 7:
                     var1 = new var9[var1](var8);
                     var1 = var1 instanceof Object ? var1 : var7;
                     var6['dismissedGuildContent'] = var1;
-case 140:
+case 142:
                     var2 = var2 + 1;
                     var1 = var3.length;
-                    if(var2 < var1) { _fun0017_ip = 105; continue _fun0017 }
-case 138:
+                    if(var2 < var1) { _fun0018_ip = 106; continue _fun0018 }
+case 141:
                     var1 = undefined;
                     return var1;
                 }
@@ -1847,7 +1904,7 @@ case 138:
             var3 = var1.INFREQUENT_USER_ACTION;
             var2 = 'userContent';
             var1 = function(arg1) {
-                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                     var3 = arg1;
                     var1 = global;
@@ -1873,8 +1930,8 @@ case 0:
                     var6 = var5;
                     var5 = var2;
                     var2 = var5;
-                    if(var4) { _fun0018_ip = 141; continue _fun0018 }
-case 140:
+                    if(var4) { _fun0019_ip = 90; continue _fun0019 }
+case 142:
                     var14 = var6.value;
                     var12 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -1882,8 +1939,8 @@ case 140:
                     var12 = var12.bind(var1)(var4);
                     var4 = var12.isSingleUseDismissibleContent;
                     var4 = var4.bind(var12)(var14);
-                    if(var4) { _fun0018_ip = 83; continue _fun0018 }
-case 142:
+                    if(var4) { _fun0019_ip = 143; continue _fun0019 }
+case 144:
                     var12 = var3.recurringDismissibleContentStates;
                     var13 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -1893,22 +1950,22 @@ case 142:
                     var4 = var4.bind(var13)(var14);
                     var12[var14] = var4;
                     var12 = var5;
-                    _fun0018_ip = 143; continue _fun0018;
-case 83:
+                    _fun0019_ip = 145; continue _fun0019;
+case 143:
                     var13 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var4 = var4[var8];
                     var13 = var13.bind(var1)(var4);
                     var4 = var13.addBit;
                     var12 = var4.bind(var13)(var5, var14);
-case 143:
+case 145:
                     var13 = var9.bind(var1)();
                     var4 = var13.done;
                     var5 = var12;
                     var6 = var13;
                     var2 = var5;
-                    if(!var4) { _fun0018_ip = 140; continue _fun0018 }
-case 141:
+                    if(!var4) { _fun0019_ip = 142; continue _fun0019 }
+case 90:
                     var3['dismissedContents'] = var2;
                     return var1;
                 }

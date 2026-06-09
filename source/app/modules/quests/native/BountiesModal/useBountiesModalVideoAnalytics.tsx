@@ -74,11 +74,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var6.bind(var5)(var4);
         var _closure2_slot5 = var4;
         var6 = var5.useCallback;
-        var4 = new Array(4);
+        var4 = new Array(5);
         var4[0] = var9;
         var4[1] = var8;
         var4[2] = var7;
         var4[3] = var1;
+        var4[4] = var3;
         var1 = function(arg1) {
             var1 = arg1;
             var8 = var1.videoTimestampSeconds;
@@ -111,6 +112,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure2_slot3;
             var6['impression_id'] = var8;
             var6['threshold_met'] = var7;
+            var8 = _closure2_slot2;
+            var7 = 1000;
+            var7 = var8 / var7;
+            var6['reward_timer_seconds'] = var7;
             var2['properties'] = var6;
             var5 = _closure2_slot1;
             var2['sourceQuestContent'] = var5;

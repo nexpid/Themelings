@@ -186,25 +186,25 @@ case 18:
                     var1 = var2 === var3;
 case 16:
                     if(var1) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+case 5:
                     var2 = _closure2_slot4;
                     var2 = var4 == var2;
                     var3 = undefined;
-                    if(var2) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+                    if(var2) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                     var2 = _closure2_slot4;
                     var3 = var2.state;
-case 22:
+case 21:
                     var2 = 'error';
                     var2 = var2 === var3;
-                    if(!var2) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+                    if(!var2) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                     var3 = _closure2_slot4;
                     var3 = var3.endedAt;
                     var2 = var4 != var3;
-case 24:
-                    if(!var2) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+case 23:
+                    if(!var2) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                     var3 = global;
                     var4 = var3.Date;
                     var3 = var4.now;
@@ -214,11 +214,11 @@ case 27:
                     var4 = var4 - var3;
                     var3 = 3600000;
                     var2 = var4 < var3;
-case 26:
+case 25:
                     var1 = var2;
 case 20:
-                    if(var1) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+                    if(var1) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 7;
@@ -231,7 +231,7 @@ case 29:
                     var5 = _closure2_slot1;
                     var1['includeBundles'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 28:
+case 27:
                     var1 = undefined;
                     return var1;
                 }
@@ -241,10 +241,10 @@ case 28:
             var1['product'] = var5;
             var4 = var4 == var2;
             var3 = undefined;
-            if(var4) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
-            var3 = var2.state;
+            if(var4) { _fun0001_ip = 29; continue _fun0001 }
 case 30:
+            var3 = var2.state;
+case 29:
             var2 = 'fetching';
             var2 = var2 === var3;
             var1['isFetching'] = var2;

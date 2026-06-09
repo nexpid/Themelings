@@ -188,6 +188,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PROFILE_PRIVACY_CATEGORY'] = var1;
     var1 = 'profile_privacy_setting';
     var2['PROFILE_PRIVACY_SETTING'] = var1;
+    var1 = 'notify_friends_on_profile_update_setting';
+    var2['NOTIFY_FRIENDS_ON_PROFILE_UPDATE_SETTING'] = var1;
     var1 = 'profile_privacy_related_settings';
     var2['PROFILE_PRIVACY_RELATED_SETTINGS'] = var1;
     var1 = 'profile_privacy_to_activity_privacy_navigator';

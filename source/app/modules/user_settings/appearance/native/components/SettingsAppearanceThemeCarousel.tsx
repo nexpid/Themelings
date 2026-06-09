@@ -1,11 +1,11 @@
 // app/modules/user_settings/appearance/native/components/SettingsAppearanceThemeCarousel.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var15 = metroImportDefault;
+    var14 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var15;
+    var _closure1_slot1 = var14;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -15,8 +15,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var11 = 0;
-    var7 = var6[var11];
+    var10 = 0;
+    var7 = var6[var10];
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
@@ -28,10 +28,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var7;
     var4 = var4.ScrollView;
     var _closure1_slot5 = var4;
-    var13 = 2;
-    var4 = var6[var13];
-    var16 = var15.bind(var1)(var4);
-    var _closure1_slot6 = var16;
+    var12 = 2;
+    var4 = var6[var12];
+    var15 = var14.bind(var1)(var4);
+    var _closure1_slot6 = var15;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var8 = var15.bind(var1)(var4);
+    var8 = var14.bind(var1)(var4);
     var7 = var8.createAnimatedComponent;
     var4 = 5;
     var4 = var6[var4];
@@ -53,103 +53,103 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var7 = {};
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var14 = 7;
-    var10 = var6[var14];
-    var10 = var15.bind(var1)(var10);
-    var10 = var10.spacing;
-    var10 = var10.PX_24;
-    var4['gap'] = var10;
-    var10 = 'center';
-    var4['alignItems'] = var10;
-    var7['container'] = var4;
-    var4 = {};
-    var4['textAlign'] = var10;
-    var7['textCentered'] = var4;
-    var10 = {'minHeight': 20, 'marginTop': null, 'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
-    var4 = 20;
-    var12 = var6[var14];
-    var12 = var15.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_4;
-    var10['marginTop'] = var12;
-    var12 = 'row';
-    var7['titleContainer'] = var10;
-    var10 = {};
-    var17 = 'absolute';
-    var10['position'] = var17;
-    var17 = var6[var14];
-    var17 = var15.bind(var1)(var17);
-    var17 = var17.spacing;
-    var17 = var17.PX_24;
-    var10['left'] = var17;
-    var7['floatingNuxContainer'] = var10;
-    var10 = {'borderRadius': null, 'flexDirection': 'row', 'alignItems': 'center'};
-    var17 = var6[var14];
-    var17 = var15.bind(var1)(var17);
-    var17 = var17.radii;
-    var17 = var17.lg;
-    var10['borderRadius'] = var17;
-    var17 = var6[var14];
-    var17 = var15.bind(var1)(var17);
-    var17 = var17.spacing;
-    var17 = var17.PX_4;
-    var10['padding'] = var17;
-    var17 = var6[var14];
-    var17 = var15.bind(var1)(var17);
-    var17 = var17.spacing;
-    var17 = var17.PX_8;
-    var10['paddingRight'] = var17;
-    var17 = var6[var14];
-    var17 = var15.bind(var1)(var17);
-    var17 = var17.shadows;
-    var20 = var17.SHADOW_LOW;
-    var21 = var10;
-    var17 = copyDataProperties(var21, var20);
-    var18 = '#000000';
-    var17 = 'shadowColor';
-    var10[16] = var18;
-    var7['floatingNux'] = var10;
-    var10 = {};
-    var18 = {};
-    var17 = '90deg';
-    var18['rotate'] = var17;
-    var17 = new Array(1);
-    var17[0] = var18;
-    var10['transform'] = var17;
-    var7['arrowLeft'] = var10;
-    var10 = {'position': 'absolute', 'alignSelf': 'center'};
-    var17 = var16.THEME_ITEM_WIDTH;
-    var10['width'] = var17;
-    var16 = var16.THEME_ITEM_HEIGHT;
-    var10['height'] = var16;
-    var16 = var6[var14];
-    var16 = var15.bind(var1)(var16);
+    var9 = {};
+    var13 = 7;
+    var11 = var6[var13];
+    var11 = var14.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_24;
+    var9['gap'] = var11;
+    var11 = 'center';
+    var9['alignItems'] = var11;
+    var4['container'] = var9;
+    var9 = {};
+    var9['textAlign'] = var11;
+    var4['textCentered'] = var9;
+    var9 = {'minHeight': 20, 'marginTop': null, 'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
+    var11 = var6[var13];
+    var11 = var14.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_4;
+    var9['marginTop'] = var11;
+    var11 = 'row';
+    var4['titleContainer'] = var9;
+    var9 = {};
+    var16 = 'absolute';
+    var9['position'] = var16;
+    var16 = var6[var13];
+    var16 = var14.bind(var1)(var16);
+    var16 = var16.spacing;
+    var16 = var16.PX_24;
+    var9['left'] = var16;
+    var4['floatingNuxContainer'] = var9;
+    var9 = {'borderRadius': null, 'flexDirection': 'row', 'alignItems': 'center'};
+    var16 = var6[var13];
+    var16 = var14.bind(var1)(var16);
     var16 = var16.radii;
-    var16 = var16.md;
-    var10['borderRadius'] = var16;
-    var14 = var6[var14];
-    var14 = var15.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT;
-    var10['borderColor'] = var14;
-    var10['borderWidth'] = var13;
-    var7['selectionBorder'] = var10;
-    var10 = {};
-    var10['flexDirection'] = var12;
-    var7['a11yThemeList'] = var10;
-    var10 = {};
-    var10['flexGrow'] = var11;
-    var7['a11yThemeListScroll'] = var10;
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot11 = var7;
-    var7 = {};
-    var8 = "function SettingsAppearanceThemeCarouselTsx1(){const{withTiming,isMidnightNuxVisible,timingStandard}=this.__closure;return{opacity:withTiming(isMidnightNuxVisible.get()?1:0,timingStandard),pointerEvents:isMidnightNuxVisible.get()?'auto':'none'};}";
-    var7['code'] = var8;
-    var _closure1_slot12 = var7;
+    var16 = var16.lg;
+    var9['borderRadius'] = var16;
+    var16 = var6[var13];
+    var16 = var14.bind(var1)(var16);
+    var16 = var16.spacing;
+    var16 = var16.PX_4;
+    var9['padding'] = var16;
+    var16 = var6[var13];
+    var16 = var14.bind(var1)(var16);
+    var16 = var16.spacing;
+    var16 = var16.PX_8;
+    var9['paddingRight'] = var16;
+    var16 = var6[var13];
+    var16 = var14.bind(var1)(var16);
+    var16 = var16.shadows;
+    var19 = var16.SHADOW_LOW;
+    var20 = var9;
+    var16 = copyDataProperties(var20, var19);
+    var17 = '#000000';
+    var16 = 'shadowColor';
+    var9[15] = var17;
+    var4['floatingNux'] = var9;
+    var9 = {};
+    var17 = {};
+    var16 = '90deg';
+    var17['rotate'] = var16;
+    var16 = new Array(1);
+    var16[0] = var17;
+    var9['transform'] = var16;
+    var4['arrowLeft'] = var9;
+    var9 = {'position': 'absolute', 'alignSelf': 'center'};
+    var16 = var15.THEME_ITEM_WIDTH;
+    var9['width'] = var16;
+    var15 = var15.THEME_ITEM_HEIGHT;
+    var9['height'] = var15;
+    var15 = var6[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.radii;
+    var15 = var15.md;
+    var9['borderRadius'] = var15;
+    var13 = var6[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT;
+    var9['borderColor'] = var13;
+    var9['borderWidth'] = var12;
+    var4['selectionBorder'] = var9;
+    var9 = {};
+    var9['flexDirection'] = var11;
+    var4['a11yThemeList'] = var9;
+    var9 = {};
+    var9['flexGrow'] = var10;
+    var4['a11yThemeListScroll'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot11 = var4;
+    var4 = {};
+    var7 = "function SettingsAppearanceThemeCarouselTsx1(){const{withTiming,isMidnightNuxVisible,timingStandard}=this.__closure;return{opacity:withTiming(isMidnightNuxVisible.get()?1:0,timingStandard),pointerEvents:isMidnightNuxVisible.get()?'auto':'none'};}";
+    var4['code'] = var7;
+    var _closure1_slot12 = var4;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -410,7 +410,7 @@ case 6:
             var1 = var7[var8];
             var3 = var21.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function D() {
+            var1 = function L() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -530,6 +530,14 @@ case 17:
             var6 = {};
             if(var20) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var20 = 16;
+            var20 = var22[var20];
+            var20 = var21.bind(var4)(var20);
+            var20 = var20.isThumbstickScrollDevice;
+            if(var20) { _fun0001_ip = 19; continue _fun0001 }
+case 21:
             var22 = _closure1_slot8;
             var21 = _closure1_slot9;
             var20 = {};
@@ -545,7 +553,7 @@ case 20:
             var23[0] = var26;
             var27 = _closure1_slot1;
             var35 = _closure1_slot2;
-            var26 = 16;
+            var26 = 17;
             var26 = var35[var26];
             var27 = var27.bind(var4)(var26);
             var26 = {};
@@ -580,11 +588,11 @@ case 0:
                     var6 = var1.bind(var4)(var3);
                     var4 = _closure2_slot7;
                     var4 = var4.current;
-                    if(!(var6 !== var4)) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+                    if(!(var6 !== var4)) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var4 = 17;
+                    var4 = 18;
                     var7 = var10[var4];
                     var5 = undefined;
                     var8 = var9.bind(var5)(var7);
@@ -598,10 +606,10 @@ case 22:
                     var4['current'] = var6;
                     var4 = _closure2_slot11;
                     var4 = var4.bind(var5)(var6);
-case 21:
+case 22:
                     var4 = _closure2_slot4;
-                    if(!var4) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+                    if(!var4) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
                     var4 = _closure1_slot6;
                     var5 = var4.THEME_ITEM_WIDTH;
                     var4 = var4.THEME_ITEM_HORIZONTAL_MARGIN;
@@ -616,25 +624,25 @@ case 24:
                     var2 = var5 / var2;
                     var2 = var4 + var2;
                     var4 = var3 < var2;
-                    if(!var4) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+                    if(!var4) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
                     var5 = _closure2_slot10;
                     var3 = var5.set;
                     var2 = true;
                     var2 = var3.bind(var5)(var2);
-case 25:
+case 26:
                     var3 = _closure2_slot9;
                     var2 = var3.set;
                     var5 = _closure2_slot10;
                     var1 = var5.get;
                     var1 = var1.bind(var5)();
                     var1 = !var1;
-                    if(!var1) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+                    if(!var1) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
                     var1 = !var4;
-case 27:
+case 28:
                     var1 = var2.bind(var3)(var1);
-case 23:
+case 24:
                     var1 = undefined;
                     return var1;
                 }
@@ -644,7 +652,7 @@ case 23:
             var23[1] = var26;
             var20['children'] = var23;
             var20 = var22.bind(var4)(var21, var20);
-            _fun0001_ip = 29; continue _fun0001;
+            _fun0001_ip = 30; continue _fun0001;
 case 19:
             var23 = _closure1_slot7;
             var22 = _closure1_slot5;
@@ -679,7 +687,7 @@ case 19:
             var24 = var25.bind(var17)(var24);
             var21['children'] = var24;
             var20 = var23.bind(var4)(var22, var21);
-case 29:
+case 30:
             var6['children'] = var20;
             var6 = var9.bind(var4)(var7, var6);
             var5[1] = var6;
@@ -696,8 +704,8 @@ case 29:
             var21 = var15.textCentered;
             var20[1] = var21;
             var6['style'] = var20;
-            if(!var18) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
+            if(!var18) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var16 = var17[var16];
             var17 = var16.type;
             var18 = _closure1_slot0;
@@ -706,11 +714,11 @@ case 31:
             var16 = var18.bind(var4)(var16);
             var16 = var16.ClientThemeType;
             var16 = var16.STANDARD_BACKGROUND_THEME;
-            if(!(var17 === var16)) { _fun0001_ip = 32; continue _fun0001 }
-case 30:
+            if(!(var17 === var16)) { _fun0001_ip = 33; continue _fun0001 }
+case 31:
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var16 = 18;
+            var16 = 19;
             var17 = var20[var16];
             var17 = var19.bind(var4)(var17);
             var18 = var17.intl;
@@ -718,20 +726,20 @@ case 30:
             var16 = var20[var16];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            if(var10) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
+            if(var10) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var10 = var16.d5Gu9A;
             var10 = var17.bind(var18)(var10);
-            _fun0001_ip = 35; continue _fun0001;
-case 33:
+            _fun0001_ip = 36; continue _fun0001;
+case 34:
             var16 = var16.lhV0Y2;
             var10 = var17.bind(var18)(var16);
-case 35:
-            _fun0001_ip = 36; continue _fun0001;
-case 32:
+case 36:
+            _fun0001_ip = 37; continue _fun0001;
+case 33:
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var16 = 18;
+            var16 = 19;
             var17 = var20[var16];
             var17 = var19.bind(var4)(var17);
             var18 = var17.intl;
@@ -741,7 +749,7 @@ case 32:
             var16 = var16.t;
             var16 = var16.VqGKm0;
             var10 = var17.bind(var18)(var16);
-case 36:
+case 37:
             var6['children'] = var10;
             var6 = var9.bind(var4)(var7, var6);
             var5[2] = var6;
@@ -779,7 +787,7 @@ case 36:
             var18 = var13.iconInteractive;
             var15[1] = var18;
             var10['style'] = var15;
-            var15 = 19;
+            var15 = 20;
             var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var10['source'] = var15;
@@ -799,7 +807,7 @@ case 36:
             var11 = {'animated': true, 'style': null, 'variant': 'eyebrow', 'maxFontSizeMultiplier': 1.5};
             var13 = var13.textNormal;
             var11['style'] = var13;
-            var13 = 18;
+            var13 = 19;
             var14 = var17[var13];
             var14 = var16.bind(var4)(var14);
             var15 = var14.intl;

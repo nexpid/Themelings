@@ -191,6 +191,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GIFT_OPTION_WISHLIST_BANNER_VIEWED'] = var2;
     var2 = 'impression_gift_selection_wishlist_section_viewed';
     var4['GIFT_SELECTION_WISHLIST_SECTION_VIEWED'] = var2;
+    var2 = 'impression_gifting_badge_progress_banner';
+    var4['GIFTING_BADGE_PROGRESS_BANNER'] = var2;
     var2 = 'impression_global_discovery';
     var4['GLOBAL_DISCOVERY'] = var2;
     var2 = 'impression_global_discovery_apps';

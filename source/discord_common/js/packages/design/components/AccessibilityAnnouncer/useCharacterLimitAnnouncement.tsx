@@ -71,7 +71,7 @@ case 6:
                 var6 = var3.AccessibilityAnnouncer;
                 var5 = var6.announce;
                 var4 = _closure2_slot2;
-                var3 = 'polite';
+                var3 = 'assertive';
                 var3 = var5.bind(var6)(var4, var3);
                 _fun0001_ip = 2; continue _fun0001;
 case 4:

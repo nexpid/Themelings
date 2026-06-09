@@ -163,6 +163,12 @@ case 11:
     };
     var8 = 'match';
     var4[7] = var10;
+    var10 = function parse() {
+        var1 = {'type': 'text', 'content': ''};
+        return var1;
+    };
+    var8 = 'parse';
+    var4[7] = var10;
     var2['invisibleUnicode'] = var4;
     var4 = {};
     var8 = function parse(arg1, arg2, arg3) {

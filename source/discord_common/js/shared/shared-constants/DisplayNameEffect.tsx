@@ -34,6 +34,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GLOW'] = var4;
     var1 = 'GLOW';
     var2[var4] = var1;
+    var4 = 7;
+    var2['PRISM'] = var4;
+    var1 = 'PRISM';
+    var2[var4] = var1;
+    var4 = 8;
+    var2['GUMMY'] = var4;
+    var1 = 'GUMMY';
+    var2[var4] = var1;
     var4 = 1001;
     var2['TEST_1'] = var4;
     var1 = 'TEST_1';

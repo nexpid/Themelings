@@ -132,6 +132,11 @@ case 3:
             var32 = false;
 case 2:
             var _closure2_slot0 = var32;
+            var33 = var2.isRecapPageRevealed;
+            if(!(var33 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var33 = false;
+case 4:
             var7 = var2.isScrollingInBoundsSharedValue;
             var _closure2_slot1 = var7;
             var10 = var2.renderEndCard;
@@ -141,17 +146,17 @@ case 2:
             var2 = _closure1_slot10;
             var9 = var2.bind(var4)();
             var15 = _closure1_slot0;
-            var34 = _closure1_slot2;
+            var35 = _closure1_slot2;
             var2 = 6;
-            var2 = var34[var2];
+            var2 = var35[var2];
             var3 = var15.bind(var4)(var2);
             var2 = var3.useRnvHttpEngine;
-            var33 = var2.bind(var3)();
+            var34 = var2.bind(var3)();
             var6 = 7;
-            var2 = var34[var6];
+            var2 = var35[var6];
             var3 = var15.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function O() {
+            var1 = function X() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure2_slot1;
@@ -159,12 +164,12 @@ case 0:
                     var1 = var1 == var2;
                     var7 = undefined;
                     var8 = undefined;
-                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                    if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = _closure2_slot1;
                     var1 = var2.get;
                     var8 = var1.bind(var2)();
-case 4:
+case 6:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -174,14 +179,14 @@ case 4:
                     var4 = var5.withTiming;
                     var6 = _closure2_slot0;
                     var3 = 0;
-                    if(!var6) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    if(!var6) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var6 = true;
                     var3 = 0;
-                    if(!(var6 !== var8)) { _fun0002_ip = 6; continue _fun0002 }
-case 8:
+                    if(!(var6 !== var8)) { _fun0002_ip = 8; continue _fun0002 }
+case 10:
                     var3 = 1;
-case 6:
+case 8:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 9;
@@ -196,13 +201,13 @@ case 6:
             var5 = {};
             var5['isScrollingInBoundsSharedValue'] = var7;
             var7 = 8;
-            var7 = var34[var7];
+            var7 = var35[var7];
             var7 = var15.bind(var4)(var7);
             var7 = var7.withTiming;
             var5['withTiming'] = var7;
             var5['isActive'] = var32;
             var7 = 9;
-            var7 = var34[var7];
+            var7 = var35[var7];
             var7 = var15.bind(var4)(var7);
             var7 = var7.timingStandard;
             var5['timingStandard'] = var7;
@@ -221,31 +226,35 @@ case 6:
             var5['style'] = var13;
             var16 = _closure1_slot5;
             var13 = 10;
-            var13 = var34[var13];
+            var13 = var35[var13];
             var13 = var15.bind(var4)(var13);
             var15 = var13.AdVideoPlayer;
             var13 = {};
             var13['ref'] = var8;
-            var34 = {};
-            var36 = var22.videoHls;
+            var35 = {};
+            var37 = var22.videoHls;
             var8 = null;
-            var37 = var8 != var36;
-            var35 = '';
-            if(!var37) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var35 = var36;
-case 9:
-            var34['uri'] = var35;
-            var13['source'] = var34;
-            var13['httpEngine'] = var33;
+            var38 = var8 != var37;
+            var36 = '';
+            if(!var38) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var36 = var37;
+case 11:
+            var35['uri'] = var36;
+            var13['source'] = var35;
+            var13['httpEngine'] = var34;
             var13['initialProgress'] = var23;
             var23 = false;
             var13['isFullscreen'] = var23;
             var32 = !var32;
-            if(var32) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(var32) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var32 = var24;
-case 11:
+case 13:
+            if(var32) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+            var32 = var33;
+case 15:
             var13['externallyPaused'] = var32;
             var32 = _closure1_slot4;
             var32 = var32.absoluteFillObject;
@@ -265,10 +274,10 @@ case 11:
             var15[0] = var13;
             var13 = var8 == var10;
             var8 = undefined;
-            if(var13) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(var13) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var8 = var10.bind(var4)();
-case 13:
+case 17:
             var15[1] = var8;
             var19 = _closure1_slot6;
             var10 = _closure1_slot1;
