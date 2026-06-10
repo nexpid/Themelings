@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 10;
         var6 = var12[var7];
         var6 = var9.bind(var4)(var6);
-        var6 = var6.spacing;
+        var6 = var6.space;
         var6 = var6.PX_8;
         var5['marginBottom'] = var6;
         var1['style'] = var5;

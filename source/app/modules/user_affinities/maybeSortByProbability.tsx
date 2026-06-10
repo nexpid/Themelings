@@ -82,16 +82,16 @@ case 11:
 case 10:
                     var4 = var4 != var3;
                     var2 = 0;
-                    if(!var4) { _fun0002_ip = 4; continue _fun0002 }
-case 12:
+                    if(!var4) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var2 = var3;
-case 4:
+case 12:
                     var1 = var1 - var2;
                     return var1;
                 }
             };
             var2 = var5.bind(var7)(var2);
-            _fun0001_ip = 13; continue _fun0001;
+            _fun0001_ip = 14; continue _fun0001;
 case 4:
             var5 = new Array(0);
             var10 = var5;
@@ -133,16 +133,16 @@ case 11:
 case 10:
                     var4 = var4 != var3;
                     var2 = 0;
-                    if(!var4) { _fun0003_ip = 4; continue _fun0003 }
-case 12:
+                    if(!var4) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var2 = var3;
-case 4:
+case 12:
                     var1 = var1 - var2;
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var3);
-case 13:
+case 14:
             var1 = var2;
 case 2:
             return var1;

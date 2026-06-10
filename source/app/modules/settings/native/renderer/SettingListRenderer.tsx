@@ -422,7 +422,7 @@ case 30:
         var11 = 7;
         var11 = var14[var11];
         var11 = var13.bind(var4)(var11);
-        var11 = var11.spacing;
+        var11 = var11.space;
         var11 = var11.PX_16;
         var12 = var12 + var11;
         var11 = 'paddingBottom';
@@ -631,7 +631,7 @@ case 37:
         var14 = 7;
         var14 = var9[var14];
         var14 = var11.bind(var4)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_16;
         var15 = var15 + var14;
         var14 = 'paddingBottom';

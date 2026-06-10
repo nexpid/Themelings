@@ -301,10 +301,10 @@ case 6:
 case 9:
             var1 = var20 != var24;
 case 8:
-            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
-case 10:
-            var5 = 'dark';
+            if(!var1) { _fun0002_ip = 10; continue _fun0002 }
 case 6:
+            var5 = 'dark';
+case 10:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 12;

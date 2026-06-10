@@ -79,6 +79,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['darkenColor'] = var6;
     var6 = var5[var2];
     var6 = var4.bind(var1)(var6);
+    var6 = var6.brightenColor;
+    var3['brightenColor'] = var6;
+    var6 = var5[var2];
+    var6 = var4.bind(var1)(var6);
     var6 = var6.setColorOpacity;
     var3['setColorOpacity'] = var6;
     var2 = var5[var2];

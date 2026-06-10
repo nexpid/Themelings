@@ -220,14 +220,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['marginVertical'] = var13;
     var4['reasonTextArea'] = var10;
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['marginBottom'] = var11;
     var4['buttonContainer'] = var10;
@@ -433,7 +433,7 @@ case 2:
         var14 = 9;
         var7 = var18[var14];
         var7 = var20.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_12;
         var5['paddingHorizontal'] = var7;
         var6 = var6.bottom;
@@ -451,7 +451,7 @@ case 2:
         var12 = {};
         var14 = var18[var14];
         var14 = var20.bind(var4)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_16;
         var12['marginVertical'] = var14;
         var8['style'] = var12;

@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot4 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -49,8 +49,13 @@ case 0:
             var6 = var1.bind(var5)();
             var1 = 4;
             var1 = var3[var1];
+            var5 = var2.bind(var4)(var1);
+            var1 = var5.useShopOrientationLock;
+            var1 = var1.bind(var5)();
+            var1 = 5;
+            var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
-            var1 = var2.useShopOrientationLock;
+            var1 = var2.useGiftCardMobileConsumptionHalfsheet;
             var1 = var1.bind(var2)();
             var1 = var6.params;
             var5 = null;
@@ -68,7 +73,7 @@ case 4:
             var3 = _closure1_slot4;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.CollectiblesShopV2;
@@ -84,7 +89,7 @@ case 6:
 case 9:
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var9 = 6;
+            var9 = 7;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var8 = var9.COLLECTIBLES_SHOP;

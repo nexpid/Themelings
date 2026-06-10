@@ -66,12 +66,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 8;
     var11 = var7[var10];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_12;
     var9['paddingTop'] = var11;
     var11 = var7[var10];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var9['gap'] = var11;
     var11 = 'center';
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var11 = var7[var10];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_24;
     var9['paddingVertical'] = var11;
     var2['tableGroup'] = var9;

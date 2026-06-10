@@ -131,7 +131,7 @@ case 6:
             var12 = 9;
             var11 = var22[var12];
             var11 = var23.bind(var4)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_16;
             var9['spacing'] = var11;
             var11 = var15.content;
@@ -180,7 +180,7 @@ case 6:
             var19 = {};
             var12 = var22[var12];
             var12 = var23.bind(var4)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var12 = var12.PX_8;
             var19['spacing'] = var12;
             var12 = 13;

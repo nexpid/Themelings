@@ -139,6 +139,9 @@ case 6:
                     var2 = 3;
                     var2 = var7.bind(var1)(var2);
                     var3['maximumDate'] = var2;
+                    var2 = 100;
+                    var2 = var7.bind(var1)(var2);
+                    var3['minimumDate'] = var2;
                     var2 = true;
                     var3['requireDateChanged'] = var2;
                     var2 = 'DatePicker';

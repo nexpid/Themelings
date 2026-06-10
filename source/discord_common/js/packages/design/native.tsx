@@ -199,7 +199,22 @@ case 36:
             _fun0001_ip = 35; continue _fun0001;
         }
 case 37:
-        var2 = 13;
+        var6 = 13;
+        var2 = var5[var6];
+        var9 = var4.bind(var1)(var2);
+        for(var2 in var9)
+case 38:
+        {
+case 39:
+            var12 = var2;
+            var11 = var5[var6];
+            var11 = var4.bind(var1)(var11);
+            var11 = var11[var12];
+            var3[var12] = var11;
+            _fun0001_ip = 38; continue _fun0001;
+        }
+case 40:
+        var2 = 14;
         var6 = var5[var2];
         var6 = var4.bind(var1)(var6);
         var6 = var6.ManaContext;
@@ -212,7 +227,7 @@ case 37:
         var2 = var4.bind(var1)(var2);
         var2 = var2.useManaContext;
         var3['useManaContext'] = var2;
-        var2 = 14;
+        var2 = 15;
         var2 = var5[var2];
         var2 = var4.bind(var1)(var2);
         var2 = var2.isImage;

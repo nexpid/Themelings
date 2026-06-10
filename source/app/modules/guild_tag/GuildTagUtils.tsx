@@ -298,13 +298,13 @@ case 28:
             var3 = null;
             var1 = var3 != var1;
             if(!var1) { _fun0005_ip = 32; continue _fun0005 }
-case 13:
+case 33:
             var1 = var3 != var4;
 case 32:
-            if(!var1) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+            if(!var1) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
             var1 = !var2;
-case 33:
+case 34:
             return var1;
         }
     };
@@ -321,14 +321,14 @@ case 0:
             var1 = _closure1_slot8;
             var6 = undefined;
             if(!(var6 === var2)) { _fun0007_ip = 5; continue _fun0007 }
-case 35:
+case 36:
             var4 = null;
             var9 = var4 == var5;
             var4 = undefined;
-            if(var9) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
+            if(var9) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
             var4 = var5.primaryGuild;
-case 36:
+case 37:
             var2 = var4;
 case 5:
             var1 = var1.bind(var6)(var2);
@@ -336,19 +336,19 @@ case 5:
             var1 = var1.guildId;
             var4 = null;
             var1 = var4 != var1;
-            if(!var1) { _fun0007_ip = 38; continue _fun0007 }
-case 39:
+            if(!var1) { _fun0007_ip = 39; continue _fun0007 }
+case 40:
             var1 = var4 != var2;
-case 38:
-            if(!var1) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
-            var2 = var4 != var7;
-            if(!var2) { _fun0007_ip = 42; continue _fun0007 }
-case 43:
-            var2 = var4 != var8;
+case 39:
+            if(!var1) { _fun0007_ip = 41; continue _fun0007 }
 case 42:
-            if(!var2) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+            var2 = var4 != var7;
+            if(!var2) { _fun0007_ip = 43; continue _fun0007 }
+case 44:
+            var2 = var4 != var8;
+case 43:
+            if(!var2) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
             var5 = _closure1_slot0;
             var9 = _closure1_slot1;
             var4 = 6;
@@ -359,9 +359,9 @@ case 45:
             var3 = var6.getMember;
             var3 = var3.bind(var6)(var7, var8);
             var2 = var4.bind(var5)(var3);
-case 44:
+case 45:
             var1 = !var2;
-case 40:
+case 41:
             return var1;
         }
     };

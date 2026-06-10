@@ -156,7 +156,7 @@ case 21:
 case 22:
             var1 = 'AV1X';
             if(!(var1 !== var2)) { _fun0004_ip = 8; continue _fun0004 }
-case 3:
+case 5:
             var1 = _closure1_slot13;
             var1 = var1.UNKNOWN;
             _fun0004_ip = 23; continue _fun0004;
@@ -1830,10 +1830,10 @@ case 166:
 case 22:
                 var10 = var7 != var8;
                 var5 = 0;
-                if(!var10) { _fun0016_ip = 5; continue _fun0016 }
+                if(!var10) { _fun0016_ip = 4; continue _fun0016 }
 case 167:
                 var5 = var8;
-case 5:
+case 4:
                 var7 = var7 != var6;
                 var4 = 0;
                 if(!var7) { _fun0016_ip = 159; continue _fun0016 }

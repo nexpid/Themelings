@@ -270,6 +270,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['QUEST_HOME_SEARCH_RESULT'] = var6;
     var2 = 'QUEST_HOME_SEARCH_RESULT';
     var4[var6] = var2;
+    var6 = 65;
+    var4['PLAY_QUEST_MODAL'] = var6;
+    var2 = 'PLAY_QUEST_MODAL';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

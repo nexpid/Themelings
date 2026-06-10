@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = 5;
     var15 = var7[var13];
     var15 = var14.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_24;
     var11['minHeight'] = var15;
     var5['growSpacing'] = var11;
@@ -114,12 +114,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['flexGrow'] = var12;
     var12 = var7[var13];
     var12 = var14.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var11['paddingHorizontal'] = var12;
     var12 = var7[var13];
     var12 = var14.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var11['paddingBottom'] = var12;
     var5['container'] = var11;
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'textAlign': 'center', 'marginHorizontal': null, 'textTransform': 'uppercase'};
     var13 = var7[var13];
     var13 = var14.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var11['marginHorizontal'] = var13;
     var5['orText'] = var11;
@@ -226,7 +226,7 @@ case 0:
             var7 = 5;
             var7 = var12[var7];
             var7 = var10.bind(var4)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_16;
             var7 = var8 + var7;
             var6['paddingBottom'] = var7;

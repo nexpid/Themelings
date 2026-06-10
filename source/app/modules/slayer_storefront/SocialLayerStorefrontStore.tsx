@@ -1132,6 +1132,15 @@ case 0:
             _closure1_slot18 = var5;
             var6 = var4.Set;
             var7 = var1.storefronts;
+            var5 = var7.filter;
+            var4 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.guildId;
+                var1 = null;
+                var1 = var1 != var2;
+                return var1;
+            };
+            var7 = var5.bind(var7)(var4);
             var5 = var7.map;
             var4 = function(arg1) {
                 var1 = arg1;
@@ -1148,12 +1157,20 @@ case 0:
             var7 = var1.storefronts;
             var6 = var7.reduce;
             var5 = function(arg1, arg2) {
-                var1 = arg1;
-                var2 = arg2;
-                var3 = var2.guildId;
-                var2 = var2.applicationId;
-                var1[var3] = var2;
-                return var1;
+                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+case 0:
+                    var1 = arg1;
+                    var2 = arg2;
+                    var4 = var2.guildId;
+                    var3 = null;
+                    if(!(var3 != var4)) { _fun0019_ip = 67; continue _fun0019 }
+case 68:
+                    var3 = var2.guildId;
+                    var2 = var2.applicationId;
+                    var1[var3] = var2;
+case 67:
+                    return var1;
+                }
             };
             var4 = {};
             var4 = var6.bind(var7)(var5, var4);
@@ -1161,15 +1178,23 @@ case 0:
             var7 = var1.storefronts;
             var6 = var7.reduce;
             var5 = function(arg1, arg2) {
-                var1 = arg1;
-                var2 = arg2;
-                var4 = var2.applicationId;
-                var3 = var2.guildId;
-                var1[var4] = var3;
-                var3 = var2.gameId;
-                var2 = var2.guildId;
-                var1[var3] = var2;
-                return var1;
+                _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+case 0:
+                    var1 = arg1;
+                    var2 = arg2;
+                    var4 = var2.guildId;
+                    var3 = null;
+                    if(!(var3 != var4)) { _fun0020_ip = 69; continue _fun0020 }
+case 68:
+                    var4 = var2.applicationId;
+                    var3 = var2.guildId;
+                    var1[var4] = var3;
+                    var3 = var2.gameId;
+                    var2 = var2.guildId;
+                    var1[var3] = var2;
+case 69:
+                    return var1;
+                }
             };
             var4 = {};
             var4 = var6.bind(var7)(var5, var4);
@@ -1205,10 +1230,10 @@ case 0:
             var3 = var1.announcementModalConfig;
             var1 = null;
             var4 = var1 != var3;
-            if(!var4) { _fun0018_ip = 67; continue _fun0018 }
-case 68:
+            if(!var4) { _fun0018_ip = 70; continue _fun0018 }
+case 71:
             var1 = var3;
-case 67:
+case 70:
             _closure1_slot24 = var1;
             var1 = undefined;
             return var1;
@@ -1246,7 +1271,7 @@ case 67:
     };
     var2['SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_START'] = var8;
     var8 = function handleSKUPurchaseEligibilityCheckCreate(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.skuId;
@@ -1256,23 +1281,23 @@ case 0:
             var2 = null;
             var3 = var2 == var1;
             var2 = undefined;
-            if(var3) { _fun0019_ip = 8; continue _fun0019 }
+            if(var3) { _fun0021_ip = 8; continue _fun0021 }
 case 6:
             var2 = var1.state;
 case 8:
             var1 = 'checking';
             var1 = var1 === var2;
-            if(!var1) { _fun0019_ip = 69; continue _fun0019 }
+            if(!var1) { _fun0021_ip = 72; continue _fun0021 }
 case 20:
             var3 = _closure1_slot16;
             var2 = var3.has;
             var2 = var2.bind(var3)(var7);
-            if(var2) { _fun0019_ip = 34; continue _fun0019 }
+            if(var2) { _fun0021_ip = 34; continue _fun0021 }
 case 16:
             var2 = _closure1_slot15;
             var2[var7] = var6;
             var2 = undefined;
-            _fun0019_ip = 47; continue _fun0019;
+            _fun0021_ip = 47; continue _fun0021;
 case 34:
             var5 = _closure1_slot16;
             var3 = var5.delete;
@@ -1287,20 +1312,20 @@ case 34:
             var2 = undefined;
 case 47:
             var1 = var2;
-case 69:
+case 72:
             return var1;
         }
     };
     var2['SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_CREATE'] = var8;
     var8 = function handleSKUPurchaseEligibilityCheckFailure(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var2 = arg1;
             var5 = var2.skuId;
             var7 = var2.reason;
             var1 = undefined;
-            if(!(var7 === var1)) { _fun0020_ip = 40; continue _fun0020 }
-case 70:
+            if(!(var7 === var1)) { _fun0022_ip = 40; continue _fun0022 }
+case 73:
             var7 = 'http_error';
 case 40:
             var6 = var2.httpStatus;
@@ -1309,15 +1334,15 @@ case 40:
             var4 = null;
             var8 = var4 == var2;
             var4 = undefined;
-            if(var8) { _fun0020_ip = 71; continue _fun0020 }
+            if(var8) { _fun0022_ip = 74; continue _fun0022 }
 case 10:
             var4 = var2.state;
-case 71:
+case 74:
             var2 = 'checking';
-            if(!(var2 !== var4)) { _fun0020_ip = 11; continue _fun0020 }
-case 72:
+            if(!(var2 !== var4)) { _fun0022_ip = 11; continue _fun0022 }
+case 75:
             var2 = 'interaction_deadline';
-            if(!(var2 !== var7)) { _fun0020_ip = 73; continue _fun0020 }
+            if(!(var2 !== var7)) { _fun0022_ip = 76; continue _fun0022 }
 case 11:
             var2 = {};
             var9 = _closure1_slot14;
@@ -1331,14 +1356,14 @@ case 11:
             var2[4] = var4;
             _closure1_slot14 = var2;
             return var1;
-case 73:
+case 76:
             var1 = false;
             return var1;
         }
     };
     var2['SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE'] = var8;
     var8 = function handleSKUPurchaseEligibilityResponse(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.skuId;
@@ -1348,30 +1373,30 @@ case 0:
             var7 = _closure1_slot7;
             var1 = var7.getId;
             var1 = var1.bind(var7)();
-            if(!(var1 === var6)) { _fun0021_ip = 74; continue _fun0021 }
-case 75:
+            if(!(var1 === var6)) { _fun0023_ip = 77; continue _fun0023 }
+case 78:
             var1 = {};
             var8 = _closure1_slot14;
             var9 = var1;
             var6 = copyDataProperties(var9, var8);
-            if(var3) { _fun0021_ip = 76; continue _fun0021 }
+            if(var3) { _fun0023_ip = 79; continue _fun0023 }
 case 32:
             var3 = {};
             var6 = 'ineligible';
             var3['state'] = var6;
             var3['ineligibleReason'] = var5;
-            _fun0021_ip = 77; continue _fun0021;
-case 76:
+            _fun0023_ip = 80; continue _fun0023;
+case 79:
             var5 = {};
             var6 = 'eligible';
             var5['state'] = var6;
             var3 = var5;
-case 77:
+case 80:
             var1[3] = var3;
             _closure1_slot14 = var1;
             var1 = undefined;
             return var1;
-case 74:
+case 77:
             var1 = false;
             return var1;
         }

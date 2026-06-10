@@ -53,11 +53,13 @@ case 0:
             var2['type'] = var7;
             var7 = var6.flags;
             var2['flags'] = var7;
-            var6 = var6.size;
-            var2['size'] = var6;
+            var7 = var6.size;
+            var2['size'] = var7;
             var2['duration'] = var10;
-            var6 = arg4;
-            var2['message_id'] = var6;
+            var7 = arg4;
+            var2['message_id'] = var7;
+            var6 = var6.id;
+            var2['attachment_id'] = var6;
             var6 = global;
             var8 = var6.Math;
             var7 = var8.min;

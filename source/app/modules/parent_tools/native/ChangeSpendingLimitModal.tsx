@@ -284,7 +284,7 @@ case 15:
             var22 = 5;
             var11 = var40[var22];
             var11 = var43.bind(var4)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_16;
             var8['spacing'] = var11;
             var15 = _closure1_slot6;
@@ -316,7 +316,7 @@ case 15:
             var13 = {};
             var22 = var40[var22];
             var22 = var43.bind(var4)(var22);
-            var22 = var22.spacing;
+            var22 = var22.space;
             var22 = var22.PX_8;
             var13['spacing'] = var22;
             var28 = _closure1_slot6;
@@ -590,7 +590,7 @@ case 28:
     var9 = {'flexDirection': 'row', 'gap': null, 'alignItems': 'flex-start'};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var9['gap'] = var13;
     var4['warningRow'] = var9;

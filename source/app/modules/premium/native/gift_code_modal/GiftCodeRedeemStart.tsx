@@ -476,7 +476,7 @@ case 8:
     var14 = var14.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var14;
     var4['container'] = var9;
-    var9 = {'flex': 1, 'alignItems': 'center', 'justifyContent': 'center', 'paddingTop': 28, 'paddingBottom': 12};
+    var9 = {'flex': 1, 'alignItems': 'center', 'justifyContent': 'center', 'paddingTop': 28};
     var4['body'] = var9;
     var9 = {};
     var9['flex'] = var13;
@@ -498,9 +498,7 @@ case 8:
     var4['message'] = var9;
     var9 = {'textAlign': 'center', 'paddingHorizontal': 32};
     var4['text'] = var9;
-    var9 = {};
-    var11 = 24;
-    var9['paddingHorizontal'] = var11;
+    var9 = {'paddingHorizontal': 24, 'paddingBottom': 12};
     var4['footer'] = var9;
     var9 = {'justifyContent': 'center', 'width': '100%', 'position': 'absolute', 'top': 0, 'left': 0, 'opacity': 0.4, 'height': 275};
     var4['confettiBackground'] = var9;

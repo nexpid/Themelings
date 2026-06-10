@@ -121,8 +121,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CHAT_INPUT_FLOATING_ENTER_OPACITY_TIMING_CONFIG'] = var4;
     var4 = {'mass': 0.5, 'damping': 13, 'stiffness': 400};
     var3['CHAT_INPUT_FLOATING_BOUNCE_SPRING_CONFIG'] = var4;
-    var4 = 30;
-    var3['CHAT_INPUT_FLOATING_EMOJI_SLIDE_RETURN_DELAY_MS'] = var4;
     var3['CHAT_INPUT_FLOATING_BOUNCE_ENTER_DELAY_MS'] = var2;
     return var1;
 })();

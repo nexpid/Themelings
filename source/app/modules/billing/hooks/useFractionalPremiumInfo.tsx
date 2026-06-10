@@ -508,23 +508,23 @@ case 55:
             var14 = _closure1_slot14;
             var14 = var14.bind(var12)(var15, var11);
             if(var14) { _fun0006_ip = 57; continue _fun0006 }
-case 32:
+case 58:
             var15 = _closure1_slot7;
             var14 = var15.fetchingAllEntitlements;
 case 57:
-            if(var14) { _fun0006_ip = 58; continue _fun0006 }
+            if(var14) { _fun0006_ip = 37; continue _fun0006 }
 case 59:
             var15 = _closure1_slot15;
             var14 = var15.bind(var12)(var11);
-case 58:
-            if(var14) { _fun0006_ip = 38; continue _fun0006 }
-case 60:
+case 37:
+            if(var14) { _fun0006_ip = 60; continue _fun0006 }
+case 61:
             var15 = _closure1_slot7;
             var17 = var15.applicationIdsFetching;
             var16 = var17.has;
             var15 = _closure1_slot12;
             var14 = var16.bind(var17)(var15);
-case 38:
+case 60:
             var1['isFetching'] = var14;
             var1['entitlements'] = var10;
             var1['unactivatedFractionalPremiumUnits'] = var8;
@@ -555,8 +555,8 @@ case 0:
                     var4 = _closure2_slot3;
                     var1 = undefined;
                     var4 = var6.bind(var1)(var5, var4);
-                    if(!var4) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
+                    if(!var4) { _fun0007_ip = 62; continue _fun0007 }
+case 63:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var4 = 13;
@@ -568,11 +568,11 @@ case 62:
                     var7 = var7.FRACTIONAL_REDEMPTION;
                     var4['entitlementType'] = var7;
                     var4 = var5.bind(var6)(var4);
-case 61:
+case 62:
                     var4 = _closure1_slot15;
                     var3 = _closure2_slot3;
                     var3 = var4.bind(var1)(var3);
-                    if(!var3) { _fun0007_ip = 63; continue _fun0007 }
+                    if(!var3) { _fun0007_ip = 64; continue _fun0007 }
 case 24:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -582,7 +582,7 @@ case 24:
                     var3 = var4.fetchUserEntitlementsForApplication;
                     var2 = _closure1_slot12;
                     var2 = var3.bind(var4)(var2);
-case 63:
+case 64:
                     return var1;
                 }
             };
@@ -628,10 +628,10 @@ case 0:
                         var4 = var5.isEqual;
                         var3 = _closure3_slot0;
                         var3 = var4.bind(var5)(var1, var3);
-                        if(var3) { _fun0008_ip = 64; continue _fun0008 }
-case 65:
+                        if(var3) { _fun0008_ip = 65; continue _fun0008 }
+case 66:
                         var1 = _closure3_slot0;
-case 64:
+case 65:
                         return var1;
                     }
                 };

@@ -50,12 +50,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = 3;
         var11 = var10[var8];
         var11 = var9.bind(var3)(var11);
-        var11 = var11.spacing;
+        var11 = var11.space;
         var11 = var11.PX_16;
         var7['paddingVertical'] = var11;
         var8 = var10[var8];
         var8 = var9.bind(var3)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_16;
         var7['paddingHorizontal'] = var8;
         var1['contentContainerStyle'] = var7;

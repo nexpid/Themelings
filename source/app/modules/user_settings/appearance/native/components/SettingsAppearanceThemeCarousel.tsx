@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = 7;
     var11 = var6[var13];
     var11 = var14.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_24;
     var9['gap'] = var11;
     var11 = 'center';
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'minHeight': 20, 'marginTop': null, 'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
     var11 = var6[var13];
     var11 = var14.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_4;
     var9['marginTop'] = var11;
     var11 = 'row';
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['position'] = var16;
     var16 = var6[var13];
     var16 = var14.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_24;
     var9['left'] = var16;
     var4['floatingNuxContainer'] = var9;
@@ -94,12 +94,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var16;
     var16 = var6[var13];
     var16 = var14.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_4;
     var9['padding'] = var16;
     var16 = var6[var13];
     var16 = var14.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_8;
     var9['paddingRight'] = var16;
     var16 = var6[var13];

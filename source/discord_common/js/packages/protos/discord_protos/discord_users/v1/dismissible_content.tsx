@@ -2254,6 +2254,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_THEME_NUX_FOLLOWUP'] = var2;
     var1 = 'GUILD_THEME_NUX_FOLLOWUP';
     var4[var2] = var1;
+    var2 = 765;
+    var4['GIFT_CARD_MOBILE_CONSUMPTION_UNAVAILABLE_HALFSHEET'] = var2;
+    var1 = 'GIFT_CARD_MOBILE_CONSUMPTION_UNAVAILABLE_HALFSHEET';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

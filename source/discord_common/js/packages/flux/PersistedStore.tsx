@@ -719,39 +719,38 @@ case 5:
         var8 = function value(arg1, arg2) {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                var3 = arg1;
-                var6 = arg2;
-                var4 = var3.omit;
-                var1 = null;
-                var1 = var1 == var4;
-                if(var1) { _fun0012_ip = 41; continue _fun0012 }
-case 48:
-                var2 = var4.includes;
-                var2 = var2.bind(var4)(var6);
-                var1 = !var2;
-case 41:
-                if(!var1) { _fun0012_ip = 49; continue _fun0012 }
-case 50:
-                var4 = var3.type;
-                var2 = 'all';
-                var2 = var2 === var4;
-                if(var2) { _fun0012_ip = 51; continue _fun0012 }
-case 52:
-                var4 = var3.type;
-                var3 = 'user-data-only';
-                var3 = var3 === var4;
-                if(!var3) { _fun0012_ip = 4; continue _fun0012 }
-case 9:
-                var4 = _closure2_slot0;
-                var5 = var4.userAgnosticPersistKeys;
-                var4 = var5.has;
-                var4 = var4.bind(var5)(var6);
-                var3 = !var4;
-case 4:
-                var2 = var3;
-case 51:
-                var1 = var2;
+                var1 = arg1;
+                var3 = arg2;
+                var4 = var1.omit;
+                var2 = null;
+                if(!(var2 != var4)) { _fun0012_ip = 48; continue _fun0012 }
 case 49:
+                var2 = var4.includes;
+                var2 = var2.bind(var4)(var3);
+                if(var2) { _fun0012_ip = 50; continue _fun0012 }
+case 48:
+                var4 = var1.type;
+                var2 = 'all';
+                if(!(var2 !== var4)) { _fun0012_ip = 51; continue _fun0012 }
+case 2:
+                var2 = 'user-data-only';
+                if(!(var2 !== var4)) { _fun0012_ip = 52; continue _fun0012 }
+case 53:
+                var1 = var1.type;
+                var1 = false;
+                return var1;
+case 52:
+                var1 = _closure2_slot0;
+                var2 = var1.userAgnosticPersistKeys;
+                var1 = var2.has;
+                var1 = var1.bind(var2)(var3);
+                var1 = !var1;
+                return var1;
+case 51:
+                var1 = true;
+                return var1;
+case 50:
+                var1 = false;
                 return var1;
             }
         };
@@ -779,32 +778,32 @@ case 0:
                     var5 = var3 === var1;
                     var3 = undefined;
                     if(var5) { _fun0013_ip = 23; continue _fun0013 }
-case 53:
+case 54:
                     var3 = var4;
 case 23:
                     var4 = undefined;
-                    if(var5) { _fun0013_ip = 54; continue _fun0013 }
+                    if(var5) { _fun0013_ip = 55; continue _fun0013 }
 case 42:
                     var8 = var7().value;
                     var7 = var2;
                     var7 = var7 === var1;
                     var4 = undefined;
                     var5 = var7;
-                    if(var7) { _fun0013_ip = 54; continue _fun0013 }
-case 55:
+                    if(var7) { _fun0013_ip = 55; continue _fun0013 }
+case 53:
                     var4 = var8;
                     var5 = var7;
-case 54:
+case 55:
                     if(var5) { _fun0013_ip = 56; continue _fun0013 }
-case 57:
+case 52:
                     var2.return();
 case 56:
                     var8 = _closure2_slot0;
                     var7 = var8.shouldClear;
                     var5 = _closure3_slot0;
                     var5 = var7.bind(var8)(var5, var6);
-                    if(!var5) { _fun0013_ip = 58; continue _fun0013 }
-case 59:
+                    if(!var5) { _fun0013_ip = 57; continue _fun0013 }
+case 50:
                     var2 = _closure2_slot0;
                     var7 = var2._writePromises;
                     var5 = var7.delete;
@@ -817,7 +816,7 @@ case 59:
                     var2 = var2.bind(var1)(var4);
                     var2 = false;
                     var2 = var3.bind(var1)(var2);
-case 58:
+case 57:
                     return var1;
                 }
             };
@@ -871,7 +870,7 @@ case 0:
                         var2 = var2.bind(var6)(var4);
                         var6 = null;
                         if(!(var6 == var2)) { _fun0014_ip = 35; continue _fun0014 }
-case 60:
+case 58:
                         var2 = _closure1_slot12;
 case 35:
                         var2 = var2._state;
@@ -911,11 +910,11 @@ case 45:
                     var5 = _closure3_slot0;
                     var2 = var5.hasOwnProperty;
                     var2 = var2.bind(var5)(var4);
-                    if(var2) { _fun0015_ip = 61; continue _fun0015 }
-case 55:
+                    if(var2) { _fun0015_ip = 59; continue _fun0015 }
+case 53:
                     var2 = undefined;
                     return var2;
-case 61:
+case 59:
                     var2 = var3.initializeFromState;
                     var1 = _closure3_slot0;
                     var1 = var1[var4];
@@ -967,19 +966,19 @@ case 0:
                 var8 = arg2;
                 var2 = _closure1_slot13;
                 var10 = null;
-                if(!(var10 != var2)) { _fun0016_ip = 62; continue _fun0016 }
-case 63:
+                if(!(var10 != var2)) { _fun0016_ip = 60; continue _fun0016 }
+case 61:
                 var5 = _closure2_slot0;
                 var3 = var5.shouldClear;
                 var2 = _closure1_slot13;
                 var2 = var3.bind(var5)(var2, var4);
-                if(var2) { _fun0016_ip = 64; continue _fun0016 }
-case 62:
+                if(var2) { _fun0016_ip = 62; continue _fun0016 }
+case 60:
                 var2 = _closure2_slot0;
                 var2 = var2._clearAllPromise;
                 var2 = var10 != var2;
                 var6 = null;
-                if(var2) { _fun0016_ip = 65; continue _fun0016 }
+                if(var2) { _fun0016_ip = 63; continue _fun0016 }
 case 12:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -990,11 +989,11 @@ case 12:
                 var3 = var2.Storage;
                 var2 = var3.get;
                 var6 = var2.bind(var3)(var4);
+case 63:
+                if(!(var10 == var6)) { _fun0016_ip = 64; continue _fun0016 }
 case 65:
-                if(!(var10 == var6)) { _fun0016_ip = 66; continue _fun0016 }
-case 67:
                 var6 = _closure1_slot12;
-case 66:
+case 64:
                 var3 = var6._state;
                 var9 = var6._version;
                 var5 = _closure1_slot5;
@@ -1004,63 +1003,63 @@ case 66:
                 var11 = var10 == var8;
                 var6 = 0;
                 var5 = 0;
-                if(var11) { _fun0016_ip = 68; continue _fun0016 }
-case 69:
+                if(var11) { _fun0016_ip = 66; continue _fun0016 }
+case 67:
                 var5 = var8.length;
-case 68:
-                if(!(var6 !== var5)) { _fun0016_ip = 70; continue _fun0016 }
-case 71:
-                if(!(var9 !== var5)) { _fun0016_ip = 70; continue _fun0016 }
-case 72:
-                if(!(var10 == var8)) { _fun0016_ip = 73; continue _fun0016 }
+case 66:
+                if(!(var6 !== var5)) { _fun0016_ip = 68; continue _fun0016 }
+case 69:
+                if(!(var9 !== var5)) { _fun0016_ip = 68; continue _fun0016 }
 case 70:
+                if(!(var10 == var8)) { _fun0016_ip = 71; continue _fun0016 }
+case 68:
                 var11 = global;
                 var12 = var11.Object;
                 var11 = var12.values;
                 var11 = var11.bind(var12)(var2);
                 var11 = var11.length;
-                if(!(!(var11 > var6))) { _fun0016_ip = 74; continue _fun0016 }
-case 75:
+                if(!(!(var11 > var6))) { _fun0016_ip = 72; continue _fun0016 }
+case 73:
                 var11 = {};
                 var11['state'] = var3;
                 var12 = false;
                 var11['requiresPersist'] = var12;
-                _fun0016_ip = 76; continue _fun0016;
-case 74:
+                _fun0016_ip = 74; continue _fun0016;
+case 72:
                 var12 = {};
                 var12['state'] = var2;
                 var13 = true;
                 var12['requiresPersist'] = var13;
                 var11 = var12;
-case 76:
+case 74:
                 return var11;
-case 73:
+case 71:
                 var11 = var10 != var9;
                 var6 = 0;
-                if(!var11) { _fun0016_ip = 77; continue _fun0016 }
-case 78:
+                if(!var11) { _fun0016_ip = 75; continue _fun0016 }
+case 76:
                 var6 = var9;
-case 77:
-                if(!(var10 == var9)) { _fun0016_ip = 79; continue _fun0016 }
-case 80:
+case 75:
+                if(!(var10 == var9)) { _fun0016_ip = 77; continue _fun0016 }
+case 78:
                 var3 = var2;
-case 79:
+case 77:
                 var2 = var3;
                 var3 = var2;
-                if(!(var6 < var5)) { _fun0016_ip = 81; continue _fun0016 }
-case 82:
+                if(!(var6 < var5)) { _fun0016_ip = 79; continue _fun0016 }
+case 80:
                 var9 = var8[var6];
                 var2 = var9.bind(var7)(var2);
                 var6 = var6 + 1;
                 var3 = var2;
-                if(var6 < var5) { _fun0016_ip = 82; continue _fun0016 }
-case 81:
+                if(var6 < var5) { _fun0016_ip = 80; continue _fun0016 }
+case 79:
                 var2 = {};
                 var2['state'] = var3;
                 var3 = true;
                 var2['requiresPersist'] = var3;
                 return var2;
-case 64:
+case 62:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 10;

@@ -104,13 +104,13 @@ case 2:
         var10 = 12;
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_16;
         var12['paddingHorizontal'] = var13;
         var13 = 'center';
         var16 = var6[var10];
         var16 = var11.bind(var1)(var16);
-        var16 = var16.spacing;
+        var16 = var16.space;
         var16 = var16.PX_24;
         var12['gap'] = var16;
         var16 = 13;
@@ -122,7 +122,7 @@ case 2:
 case 7:
         var16 = var6[var10];
         var16 = var11.bind(var1)(var16);
-        var16 = var16.spacing;
+        var16 = var16.space;
         var15 = var16.PX_16;
 case 6:
         var12['marginBottom'] = var15;
@@ -132,7 +132,7 @@ case 6:
         var12['flexDirection'] = var15;
         var15 = var6[var10];
         var15 = var11.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_16;
         var12['gap'] = var15;
         var7['landscapeContainer'] = var12;
@@ -144,17 +144,17 @@ case 6:
         var12 = {'width': '100%', 'gap': null, 'alignItems': 'center'};
         var14 = var6[var10];
         var14 = var11.bind(var1)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_16;
         var12['gap'] = var14;
         var14 = var6[var10];
         var14 = var11.bind(var1)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_16;
         var12['paddingHorizontal'] = var14;
         var14 = var6[var10];
         var14 = var11.bind(var1)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_16;
         var12['marginBottom'] = var14;
         var7['segmentedControlContainer'] = var12;

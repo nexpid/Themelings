@@ -167,14 +167,14 @@ case 15:
     var11 = 6;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_4;
     var13['marginBottom'] = var14;
     var7['header'] = var13;
     var13 = {};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var13['marginBottom'] = var14;
     var7['description'] = var13;

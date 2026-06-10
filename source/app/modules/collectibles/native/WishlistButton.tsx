@@ -56,13 +56,13 @@ case 4:
             var1 = _closure1_slot16;
             var1 = var1[var3];
             var11 = var9[var1];
-            var1 = 15;
+            var1 = 13;
             var1 = var12[var1];
             var9 = var5.bind(var4)(var1);
             var1 = var9.useThemeContext;
             var1 = var1.bind(var9)();
             var9 = var1.theme;
-            var1 = 16;
+            var1 = 15;
             var1 = var12[var1];
             var5 = var5.bind(var4)(var1);
             var1 = var5.isThemeLight;
@@ -92,7 +92,7 @@ case 11:
             var3 = var5.useContext;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 17;
+            var1 = 16;
             var1 = var12[var1];
             var1 = var9.bind(var4)(var1);
             var1 = var1.AccessibilityPreferencesContext;
@@ -253,7 +253,7 @@ case 34:
                         var3 = var4.set;
                         var12 = _closure1_slot0;
                         var13 = _closure1_slot2;
-                        var1 = 18;
+                        var1 = 17;
                         var5 = var13[var1];
                         var1 = undefined;
                         var9 = var12.bind(var1)(var5);
@@ -331,7 +331,7 @@ case 0:
                     var2 = copyDataProperties(var17, var16);
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var11 = 19;
+                    var11 = 18;
                     var2 = var2[var11];
                     var9 = undefined;
                     var14 = var4.bind(var9)(var2);
@@ -345,7 +345,7 @@ case 38:
 case 37:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var10 = 20;
+                    var10 = 19;
                     var2 = var4[var10];
                     var2 = var5.bind(var9)(var2);
                     var2 = var2.SUBTLE_SPRING;
@@ -378,13 +378,13 @@ case 39:
             };
             var12 = {};
             var12['styles'] = var8;
-            var24 = 19;
+            var24 = 18;
             var13 = var20[var24];
             var13 = var21.bind(var4)(var13);
             var13 = var13.withSpring;
             var12['withSpring'] = var13;
             var12['showFilled'] = var22;
-            var18 = 20;
+            var18 = 19;
             var13 = var20[var18];
             var13 = var21.bind(var4)(var13);
             var13 = var13.SUBTLE_SPRING;
@@ -411,7 +411,7 @@ case 0:
                     var2 = copyDataProperties(var14, var13);
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var4 = 19;
+                    var4 = 18;
                     var4 = var5[var4];
                     var5 = undefined;
                     var10 = var6.bind(var5)(var4);
@@ -424,7 +424,7 @@ case 42:
 case 41:
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 20;
+                    var2 = 19;
                     var2 = var9[var2];
                     var2 = var4.bind(var5)(var2);
                     var3 = var2.SUBTLE_SPRING;
@@ -653,7 +653,7 @@ case 53:
             var8['pointerEvents'] = var14;
             var22 = _closure1_slot12;
             var13 = _closure1_slot0;
-            var20 = 21;
+            var20 = 20;
             var20 = var17[var20];
             var20 = var13.bind(var4)(var20);
             var21 = var20.HeartOutlineIcon;
@@ -680,7 +680,7 @@ case 53:
             var11['style'] = var12;
             var11['pointerEvents'] = var14;
             var23 = _closure1_slot12;
-            var12 = 22;
+            var12 = 21;
             var21 = var17[var12];
             var21 = var13.bind(var4)(var21);
             var22 = var21.HeartIcon;
@@ -748,7 +748,7 @@ case 0:
             var6 = copyDataProperties(var24, var23, var22);
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 23;
+            var3 = 22;
             var7 = var10[var3];
             var5 = undefined;
             var16 = var9.bind(var5)(var7);
@@ -777,7 +777,7 @@ case 0:
             };
             var3 = var8.bind(var12)(var7, var3);
             var8 = _closure1_slot1;
-            var7 = 24;
+            var7 = 23;
             var7 = var10[var7];
             var7 = var8.bind(var5)(var7);
             var7 = var7.bind(var5)();
@@ -785,7 +785,7 @@ case 0:
             var _closure2_slot3 = var20;
             var19 = var7.showWishlistNUXActionSheet;
             var _closure2_slot4 = var19;
-            var8 = 25;
+            var8 = 24;
             var7 = var10[var8];
             var7 = var9.bind(var5)(var7);
             var18 = var7.intl;
@@ -837,7 +837,7 @@ case 55:
             var8 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 26;
+                var1 = 25;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -851,7 +851,7 @@ case 55:
                 return var1;
             };
             var11 = var17.bind(var18)(var8, var11);
-            var8 = 27;
+            var8 = 26;
             var8 = var10[var8];
             var10 = var9.bind(var5)(var8);
             var9 = var10.useWishlistButtonState;
@@ -1125,7 +1125,7 @@ case 66:
     var9 = 'function WishlistButtonTsx4(){const{animationFillProgress,styles,showFilled,interpolate,Extrapolation}=this.__closure;const progress=animationFillProgress.get();return{...styles.animationFill,opacity:showFilled?interpolate(progress,[0,0.7],[1,0],Extrapolation.CLAMP):0,transform:[{scale:interpolate(progress,[0,0.625,1],[0,1.35,1],Extrapolation.CLAMP)}]};}';
     var6['code'] = var9;
     var _closure1_slot21 = var6;
-    var6 = 30;
+    var6 = 29;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -1149,14 +1149,14 @@ case 0:
             var10 = var9.skuId;
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 28;
+            var3 = 27;
             var3 = var11[var3];
             var5 = undefined;
             var4 = var8.bind(var5)(var3);
             var3 = var4.useProductPurchaseState;
             var3 = var3.bind(var4)(var9);
             var3 = var3.isPurchased;
-            var4 = 29;
+            var4 = 28;
             var4 = var11[var4];
             var8 = var8.bind(var5)(var4);
             var4 = var8.isWishlistableCollectiblesProduct;

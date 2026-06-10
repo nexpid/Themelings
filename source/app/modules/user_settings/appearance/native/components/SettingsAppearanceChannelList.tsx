@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'flex': 1, 'marginTop': null, 'borderRadius': null, 'width': '100%', 'borderWidth': 1};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['marginTop'] = var12;
     var12 = var6[var10];
@@ -248,7 +248,7 @@ case 10:
             var18 = 4;
             var18 = var12[var18];
             var18 = var7.bind(var4)(var18);
-            var18 = var18.spacing;
+            var18 = var18.space;
             var18 = var18.PX_16;
             var17['paddingVertical'] = var18;
             var6['contentContainerStyle'] = var17;

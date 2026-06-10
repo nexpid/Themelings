@@ -46,6 +46,24 @@ case 2:
         }
     };
     var3['isTestModeForApplication'] = var4;
+    var4 = function isAnyApplicationInTestMode() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = _closure1_slot3;
+            var1 = var3.getTestModeApplicationId;
+            var3 = var1.bind(var3)();
+            var1 = null;
+            var1 = var1 != var3;
+            if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var3 = _closure1_slot2;
+            var2 = var3.getIsEnabled;
+            var1 = var2.bind(var3)();
+case 4:
+            return var1;
+        }
+    };
+    var3['isAnyApplicationInTestMode'] = var4;
     var2 = function useIsTestModeForApplication(arg1) {
         var6 = arg1;
         var _closure2_slot0 = var6;
@@ -64,26 +82,26 @@ case 2:
         var2 = new Array(1);
         var2[0] = var6;
         var1 = function() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                 var6 = _closure1_slot3;
                 var5 = var6.inTestModeForApplication;
                 var2 = _closure2_slot0;
                 var2 = var5.bind(var6)(var2);
-                if(var2) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                if(var2) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var5 = _closure1_slot2;
                 var4 = var5.inDevModeForApplication;
                 var3 = _closure2_slot0;
                 var2 = var4.bind(var5)(var3);
-case 6:
+case 8:
                 var1 = var2;
-case 4:
+case 6:
                 return var1;
             }
         };

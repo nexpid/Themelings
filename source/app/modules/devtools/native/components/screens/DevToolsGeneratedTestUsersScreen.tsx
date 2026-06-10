@@ -248,7 +248,7 @@ case 15:
         var14 = 27;
         var14 = var12[var14];
         var14 = var15.bind(var3)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_12;
         var10['paddingHorizontal'] = var14;
         var5['style'] = var10;
@@ -585,14 +585,14 @@ case 17:
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['padding'] = var12;
     var4['contentContainer'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['marginBottom'] = var10;
     var4['inputContainer'] = var9;
@@ -715,7 +715,7 @@ case 21:
             var11 = 27;
             var11 = var17[var11];
             var11 = var12.bind(var4)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_16;
             var10 = var10.bottom;
             var10 = var11 + var10;

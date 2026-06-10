@@ -114,6 +114,8 @@ case 0:
         var26['NITRO_HOME_TAB'] = var1;
         var1 = 'quest_orb_multiplier_tab_tooltip';
         var26['QUEST_ORB_MULTIPLIER_TAB_TOOLTIP'] = var1;
+        var1 = 'play_quest_connection_modal';
+        var26['PLAY_QUEST_CONNECTION_MODAL'] = var1;
         var7 = var2.Set;
         var23 = 0;
         var5 = var25[var23];

@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['minWidth'] = var14;
     var16 = var6[var10];
     var16 = var11.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_12;
     var9['marginRight'] = var16;
     var16 = var6[var10];

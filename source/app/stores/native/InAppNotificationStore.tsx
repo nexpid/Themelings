@@ -1039,13 +1039,22 @@ case 72:
         var1 = false;
         _closure1_slot29 = var1;
         var4 = _closure1_slot0;
-        var2 = _closure1_slot2;
+        var3 = _closure1_slot2;
         var1 = 23;
-        var2 = var2[var1];
+        var3 = var3[var1];
         var1 = undefined;
-        var2 = var4.bind(var1)(var2);
-        var2 = var2.EMPTY_SCHEDULE_SNAPSHOT;
-        _closure1_slot30 = var2;
+        var3 = var4.bind(var1)(var3);
+        var3 = var3.EMPTY_SCHEDULE_SNAPSHOT;
+        _closure1_slot30 = var3;
+        var3 = null;
+        _closure1_slot26 = var3;
+        var4 = _closure1_slot27;
+        var3 = var4.removeAll;
+        var2 = function() {
+            var1 = true;
+            return var1;
+        };
+        var2 = var3.bind(var4)(var2);
         return var1;
     };
     var2['LOGOUT'] = var11;

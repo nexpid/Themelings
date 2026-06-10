@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 20;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -184,19 +184,16 @@ case 5:
             var2 = var2.bind(var3)(var4);
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            if(var2) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            var2 = 11;
-            var2 = var8[var2];
-            var10 = var4.bind(var5)(var2);
-            var3 = var10.darkenColor;
-            var2 = 0.8;
-            var2 = var3.bind(var10)(var9, var2);
-            _fun0001_ip = 9; continue _fun0001;
-case 7:
             var3 = 10;
             var3 = var8[var3];
             var8 = var4.bind(var5)(var3);
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var3 = var8.darkenColor;
+            var2 = 0.8;
+            var2 = var3.bind(var8)(var9, var2);
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var4 = var8.brightenColor;
             var3 = 0.8;
             var2 = var4.bind(var8)(var9, var3);
@@ -204,7 +201,7 @@ case 9:
             var11[1] = var2;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 12;
+            var2 = 11;
             var2 = var4[var2];
             var4 = var3.bind(var5)(var2);
             var3 = var4.useServerInviteDetails;
@@ -248,7 +245,7 @@ case 12:
             var10 = _closure1_slot5;
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var7 = 13;
+            var7 = 12;
             var7 = var12[var7];
             var9 = var9.bind(var5)(var7);
             var7 = {};
@@ -270,7 +267,7 @@ case 14:
             var8['style'] = var10;
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var19 = 14;
+            var19 = 13;
             var10 = var12[var19];
             var11 = var11.bind(var5)(var10);
             var10 = {};
@@ -297,7 +294,7 @@ case 14:
             var11 = {};
             var19 = var27.guildNameContainer;
             var11['style'] = var19;
-            var21 = 15;
+            var21 = 14;
             var12 = var12[var21];
             var12 = var17.bind(var5)(var12);
             var17 = var12.Text;
@@ -312,13 +309,13 @@ case 16:
             var19 = _closure1_slot5;
             var18 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var17 = 16;
+            var17 = 15;
             var17 = var25[var17];
             var18 = var18.bind(var5)(var17);
             var17 = {};
             var17['guild'] = var20;
             var24 = _closure1_slot0;
-            var23 = 17;
+            var23 = 16;
             var23 = var25[var23];
             var23 = var24.bind(var5)(var23);
             var23 = var23.Icon;
@@ -419,14 +416,14 @@ case 17:
             var13 = _closure1_slot5;
             var12 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var11 = 18;
+            var11 = 17;
             var11 = var17[var11];
             var11 = var12.bind(var5)(var11);
             var12 = var11.Button;
             var11 = {'variant': 'active', 'size': 'md'};
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var16 = 19;
+            var16 = 18;
             var17 = var20[var16];
             var17 = var19.bind(var5)(var17);
             var18 = var17.intl;

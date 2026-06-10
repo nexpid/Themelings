@@ -960,6 +960,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['LAYOUT_DEBUGGING_VERTICAL_SPACING'] = var1;
     var1 = 'highlight_mana_components';
     var2['HIGHLIGHT_MANA_COMPONENTS'] = var1;
+    var1 = 'highlight_mana_text';
+    var2['HIGHLIGHT_MANA_TEXT'] = var1;
     var1 = 'highlight_void_components';
     var2['HIGHLIGHT_VOID_COMPONENTS'] = var1;
     var1 = 'axe_auditing';

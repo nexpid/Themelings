@@ -746,7 +746,7 @@ case 0:
                 var11 = 11;
                 var11 = var15[var11];
                 var11 = var13.bind(var4)(var11);
-                var11 = var11.spacing;
+                var11 = var11.space;
                 var11 = var11.PX_24;
                 var9['spacing'] = var11;
                 var11 = var14.renderVerificationLevelSection;

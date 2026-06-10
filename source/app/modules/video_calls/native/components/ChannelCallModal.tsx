@@ -553,7 +553,7 @@ case 24:
 case 23:
                     var1 = null;
                     if(!(var6 === var4)) { _fun0007_ip = 26; continue _fun0007 }
-case 8:
+case 27:
                     var6 = _closure2_slot6;
                     var4 = var6.get;
                     var6 = var4.bind(var6)();
@@ -561,33 +561,33 @@ case 8:
                     var4 = var6 < var4;
                     var1 = null;
                     if(!var4) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
+case 28:
                     var4 = _closure1_slot12;
                     var1 = var4.OPENING;
 case 26:
-                    _fun0007_ip = 28; continue _fun0007;
+                    _fun0007_ip = 29; continue _fun0007;
 case 25:
                     var4 = _closure1_slot12;
                     var1 = var4.CLOSING;
-case 28:
-                    _fun0007_ip = 29; continue _fun0007;
+case 29:
+                    _fun0007_ip = 30; continue _fun0007;
 case 22:
                     var5 = _closure2_slot6;
                     var4 = var5.get;
                     var4 = var4.bind(var5)();
                     var2 = _closure2_slot10;
                     var2 = -var2;
-                    if(!(var4 !== var2)) { _fun0007_ip = 30; continue _fun0007 }
-case 31:
+                    if(!(var4 !== var2)) { _fun0007_ip = 31; continue _fun0007 }
+case 2:
                     var2 = _closure1_slot12;
                     var2 = var2.CLOSED;
                     _fun0007_ip = 32; continue _fun0007;
-case 30:
+case 31:
                     var3 = _closure1_slot12;
                     var2 = var3.OPEN;
 case 32:
                     var1 = var2;
-case 29:
+case 30:
                     return var1;
                 }
             };

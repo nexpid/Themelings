@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['flexGrow'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_24;
     var9['minHeight'] = var13;
     var4['growContainer'] = var9;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var9['marginBottom'] = var13;
     var9['textAlign'] = var12;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['alignSelf'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_24;
     var9['paddingTop'] = var10;
     var4['errorContainer'] = var9;
@@ -337,13 +337,13 @@ case 20:
             var7 = 8;
             var8 = var22[var7];
             var8 = var20.bind(var4)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var8 = var14 + var8;
             var6['paddingBottom'] = var8;
             var7 = var22[var7];
             var7 = var20.bind(var4)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_16;
             var6['paddingHorizontal'] = var7;
             var5[1] = var6;

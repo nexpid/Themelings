@@ -33,6 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['Utility'] = var5;
     var5 = 'crashpad';
     var4['Crashpad'] = var5;
+    var5 = 'clips';
+    var4['Clips'] = var5;
     var2 = function() {
         var4 = _closure1_slot1;
         var3 = function ProcessUtils() {

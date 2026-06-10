@@ -915,7 +915,7 @@ case 29:
     var8 = 'function PremiumNitroHomeTsx1(){const{floatTabBottomOffset}=this.__closure;return{bottom:floatTabBottomOffset.get()};}';
     var5['code'] = var8;
     var _closure1_slot29 = var5;
-    var5 = 59;
+    var5 = 60;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -941,10 +941,15 @@ case 0:
             var2 = var5.bind(var4)(var2);
             var2 = var2.OpenNitroTriggerPoint;
             var2 = var6.bind(var7)(var2);
+            var2 = 37;
+            var2 = var3[var2];
+            var6 = var5.bind(var4)(var2);
+            var2 = var6.useGiftCardMobileConsumptionHalfsheet;
+            var2 = var2.bind(var6)();
             var2 = _closure1_slot25;
             var15 = var2.bind(var4)();
             var7 = _closure1_slot1;
-            var2 = 37;
+            var2 = 38;
             var2 = var3[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -1020,7 +1025,7 @@ case 0:
             };
             var2 = new Array(0);
             var9 = var8.bind(var9)(var6, var2);
-            var6 = 38;
+            var6 = 39;
             var2 = var3[var6];
             var21 = var5.bind(var4)(var2);
             var20 = var21.useStateFromStores;
@@ -1108,16 +1113,16 @@ case 35:
             };
             var6 = new Array(0);
             var17 = var10.bind(var12)(var8, var6);
-            var6 = 39;
+            var6 = 40;
             var6 = var3[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.bind(var4)();
-            var6 = 40;
+            var6 = 41;
             var6 = var3[var6];
             var8 = var5.bind(var4)(var6);
             var6 = var8.useIsInReverseTrial;
             var8 = var6.bind(var8)();
-            var6 = 41;
+            var6 = 42;
             var6 = var3[var6];
             var10 = var5.bind(var4)(var6);
             var6 = var10.useMaybeFetchTieredTenureBadgeData;
@@ -1140,7 +1145,7 @@ case 35:
             };
             var6 = new Array(0);
             var6 = var12.bind(var21)(var10, var6);
-            var6 = 42;
+            var6 = 43;
             var6 = var3[var6];
             var12 = var5.bind(var4)(var6);
             var10 = var12.useSegmentedControlState;
@@ -1214,7 +1219,7 @@ case 35:
             var6['pageWidth'] = var19;
             var6['onPageChange'] = var17;
             var21 = var10.bind(var12)(var6);
-            var6 = 43;
+            var6 = 44;
             var3 = var3[var6];
             var10 = var5.bind(var4)(var3);
             var5 = var10.useSharedValue;
@@ -1263,12 +1268,12 @@ case 40:
                     var2 = var3.set;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var4 = 43;
+                    var4 = 44;
                     var4 = var9[var4];
                     var7 = undefined;
                     var6 = var8.bind(var7)(var4);
                     var5 = var6.withDelay;
-                    var4 = 44;
+                    var4 = 45;
                     var4 = var9[var4];
                     var8 = var8.bind(var7)(var4);
                     var7 = var8.withSpring;
@@ -1286,7 +1291,7 @@ case 39:
                 }
             };
             var2 = var5.bind(var17)(var2, var3);
-            var2 = 45;
+            var2 = 46;
             var3 = var28[var2];
             var5 = var12.bind(var4)(var3);
             var3 = var5.useThemeContext;
@@ -1299,7 +1304,7 @@ case 39:
             var2 = _closure1_slot13;
             var17 = var2.MIDNIGHT;
             var27 = _closure1_slot1;
-            var2 = 46;
+            var2 = 47;
             var3 = var28[var2];
             var5 = var27.bind(var4)(var3);
             var3 = var7.endsAt;
@@ -1323,12 +1328,12 @@ case 39:
 case 0:
                     var8 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var4 = 47;
+                    var4 = 48;
                     var5 = var3[var4];
                     var1 = undefined;
                     var6 = var8.bind(var1)(var5);
                     var5 = var6.UNSAFE_isDismissibleContentDismissed;
-                    var7 = 48;
+                    var7 = 49;
                     var3 = var3[var7];
                     var3 = var8.bind(var1)(var3);
                     var3 = var3.DismissibleContent;
@@ -1375,7 +1380,7 @@ case 43:
 case 46:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 49;
+                    var2 = 50;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.markReferralProgramEntrypointBadgeAcknowledged;
@@ -1392,12 +1397,12 @@ case 45:
 case 0:
                     var8 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 47;
+                    var3 = 48;
                     var5 = var4[var3];
                     var1 = undefined;
                     var7 = var8.bind(var1)(var5);
                     var5 = var7.UNSAFE_isDismissibleContentDismissed;
-                    var6 = 48;
+                    var6 = 49;
                     var4 = var4[var6];
                     var4 = var8.bind(var1)(var4);
                     var4 = var4.DismissibleContent;
@@ -1455,12 +1460,12 @@ case 47:
 case 50:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var3 = 47;
+                    var3 = 48;
                     var3 = var8[var3];
                     var4 = undefined;
                     var6 = var7.bind(var4)(var3);
                     var5 = var6.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
-                    var3 = 48;
+                    var3 = 49;
                     var3 = var8[var3];
                     var3 = var7.bind(var4)(var3);
                     var3 = var3.DismissibleContent;
@@ -1474,12 +1479,12 @@ case 49:
 case 52:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var2 = 50;
+                    var2 = 51;
                     var2 = var8[var2];
                     var3 = undefined;
                     var5 = var7.bind(var3)(var2);
                     var4 = var5.markSnowflakeBoundDismissibleContentAsDismissed;
-                    var2 = 48;
+                    var2 = 49;
                     var2 = var8[var2];
                     var2 = var7.bind(var3)(var2);
                     var2 = var2.DismissibleContent;
@@ -1508,13 +1513,13 @@ case 51:
             var5[1] = var12;
             var1['style'] = var5;
             var14 = _closure1_slot18;
-            var5 = 51;
+            var5 = 52;
             var5 = var28[var5];
             var12 = var27.bind(var4)(var5);
             var5 = {};
             var24 = var15.background;
             var5['style'] = var24;
-            var24 = 52;
+            var24 = 53;
             var24 = var28[var24];
             var24 = var27.bind(var4)(var24);
             var5['source'] = var24;
@@ -1541,7 +1546,7 @@ case 56:
             var14 = _closure1_slot18;
             var12 = _closure1_slot1;
             var24 = _closure1_slot2;
-            var8 = 53;
+            var8 = 54;
             var8 = var24[var8];
             var12 = var12.bind(var4)(var8);
             var8 = {};
@@ -1557,7 +1562,7 @@ case 55:
             var24 = _closure1_slot18;
             var23 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var14 = 54;
+            var14 = 55;
             var14 = var25[var14];
             var14 = var23.bind(var4)(var14);
             var23 = var14.SegmentedControlPages;
@@ -1598,7 +1603,7 @@ case 57:
             var9['onLayout'] = var13;
             var20 = _closure1_slot18;
             var14 = _closure1_slot0;
-            var13 = 55;
+            var13 = 56;
             var13 = var23[var13];
             var13 = var14.bind(var4)(var13);
             var14 = var13.SegmentedControl;
@@ -1617,7 +1622,7 @@ case 60:
             var14 = _closure1_slot18;
             var13 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var12 = 56;
+            var12 = 57;
             var12 = var20[var12];
             var13 = var13.bind(var4)(var12);
             var12 = {};
@@ -1641,7 +1646,7 @@ case 59:
             var9[1] = var10;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 57;
+            var10 = 58;
             var10 = var13[var10];
             var12 = var12.bind(var4)(var10);
             var10 = var12.isAndroid;
@@ -1651,7 +1656,7 @@ case 59:
 case 62:
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var10 = 58;
+            var10 = 59;
             var10 = var14[var10];
             var12 = var12.bind(var4)(var10);
             var10 = {};

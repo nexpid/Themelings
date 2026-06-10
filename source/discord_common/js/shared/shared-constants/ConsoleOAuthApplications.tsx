@@ -25,6 +25,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = new var11[var7](var10, var9);
     var5 = var5 instanceof Object ? var5 : var6;
     var2['PLAYSTATION_APPLICATION_IDS'] = var5;
+    var7 = var1.Set;
+    var5 = var7.prototype;
+    var6 = Object.create(var5, {constructor: {value: var7}});
+    var10 = ['622174530214821906'];
+    var11 = var6;
+    var5 = new var11[var7](var10, var9);
+    var5 = var5 instanceof Object ? var5 : var6;
+    var2['IMPLICIT_IDENTIFY_PREMIUM_APPLICATION_IDS'] = var5;
     var6 = var1.Set;
     var1 = var6.prototype;
     var5 = Object.create(var1, {constructor: {value: var6}});

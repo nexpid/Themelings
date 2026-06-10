@@ -49,7 +49,7 @@ case 9:
 case 8:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var9 = 5;
+                var9 = 4;
                 var2 = var2[var9];
                 var3 = undefined;
                 var7 = var4.bind(var3)(var2);
@@ -58,7 +58,7 @@ case 8:
                 var2 = var4.bind(var7)(var2);
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var10 = 4;
+                var10 = 2;
                 var4 = var4[var10];
                 var8 = var7.bind(var3)(var4);
                 var7 = var8.setColorOpacity;
@@ -113,7 +113,7 @@ case 6:
                 var2 = {};
                 var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var9 = 5;
+                var9 = 4;
                 var4 = var3[var9];
                 var3 = undefined;
                 var8 = var7.bind(var3)(var4);
@@ -122,7 +122,7 @@ case 6:
                 var4 = var7.bind(var8)(var4);
                 var8 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var10 = 4;
+                var10 = 2;
                 var7 = var7[var10];
                 var12 = var8.bind(var3)(var7);
                 var8 = var12.setColorOpacity;
@@ -179,7 +179,7 @@ case 4:
                 var3 = var3.unsafe_rawColors;
                 var3 = var3.WHITE;
                 var4 = _closure1_slot0;
-                var2 = 4;
+                var2 = 2;
                 var8 = var7[var2];
                 var10 = var4.bind(var5)(var8);
                 var9 = var10.getContrastingColor;
@@ -250,7 +250,7 @@ case 23:
         var _closure2_slot2 = var11;
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var10 = 7;
+        var10 = 6;
         var2 = var9[var10];
         var7 = undefined;
         var3 = var8.bind(var7)(var2);
@@ -279,12 +279,12 @@ case 25:
                 var3 = {};
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var4 = 8;
+                var4 = 7;
                 var6 = var9[var4];
                 var4 = undefined;
                 var7 = var8.bind(var4)(var6);
                 var6 = var7.withSpring;
-                var10 = 7;
+                var10 = 6;
                 var10 = var9[var10];
                 var12 = var8.bind(var4)(var10);
                 var11 = var12.interpolate;
@@ -295,7 +295,7 @@ case 25:
                 var5[1] = var2;
                 var2 = [0, 1];
                 var5 = var11.bind(var12)(var10, var2, var5);
-                var2 = 9;
+                var2 = 8;
                 var2 = var9[var2];
                 var2 = var8.bind(var4)(var2);
                 var4 = var2.ON_PRESS_SPRING;
@@ -311,7 +311,7 @@ case 25:
         var5 = {};
         var5['width'] = var12;
         var5['scaleAmountInPx'] = var11;
-        var11 = 8;
+        var11 = 7;
         var11 = var9[var11];
         var11 = var8.bind(var7)(var11);
         var11 = var11.withSpring;
@@ -321,7 +321,7 @@ case 25:
         var10 = var10.interpolate;
         var5['interpolate'] = var10;
         var5['pressed'] = var6;
-        var6 = 9;
+        var6 = 8;
         var6 = var9[var6];
         var6 = var8.bind(var7)(var6);
         var6 = var6.ON_PRESS_SPRING;
@@ -449,7 +449,7 @@ case 25:
         var3 = var3[var2];
         var4 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 5;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
@@ -777,7 +777,7 @@ case 27:
     var13 = "function ButtonHooksNativeTsx2(){const{width,scaleAmountInPx,withSpring,interpolate,pressed,ON_PRESS_SPRING}=this.__closure;const scale=width.get()>0?(width.get()-scaleAmountInPx)/width.get():1;return{transform:[{scale:withSpring(interpolate(pressed.get(),[0,1],[1,scale]),ON_PRESS_SPRING,'animate-always')}]};}";
     var10['code'] = var13;
     var _closure1_slot11 = var10;
-    var10 = 15;
+    var10 = 14;
     var10 = var12[var10];
     var12 = var11.bind(var1)(var10);
     var11 = var12.fileFinishedImporting;
@@ -823,7 +823,7 @@ case 27:
         var _closure2_slot2 = var11;
         var8 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var7 = 7;
+        var7 = 6;
         var2 = var10[var7];
         var3 = var8.bind(var9)(var2);
         var2 = var3.useAnimatedStyle;
@@ -871,7 +871,7 @@ case 57:
                 var1 = {};
                 var4 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var2 = 7;
+                var2 = 6;
                 var8 = var7[var2];
                 var11 = var4.bind(var5)(var8);
                 var10 = var11.interpolateColor;
@@ -930,7 +930,7 @@ case 59:
             var _closure2_slot4 = var5;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var12 = 7;
+            var12 = 6;
             var3 = var3[var12];
             var4 = var4.bind(var5)(var3);
             var3 = var4.useSharedValue;
@@ -1057,7 +1057,7 @@ case 60:
 case 5:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var4[var2];
             var2 = var3.bind(var5)(var2);
             var6 = var2.BUTTON_DEFAULT_MAX_FONT_SIZE_MULTIPLIER;
@@ -1066,7 +1066,7 @@ case 68:
             var _closure2_slot3 = var5;
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var3 = 11;
+            var3 = 10;
             var3 = var9[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.useFontScale;
@@ -1084,12 +1084,12 @@ case 68:
 case 0:
                     var8 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var6 = 12;
+                    var6 = 11;
                     var2 = var1[var6];
                     var7 = undefined;
                     var5 = var8.bind(var7)(var2);
                     var2 = var5.getIconSize;
-                    var3 = 10;
+                    var3 = 9;
                     var1 = var1[var3];
                     var1 = var8.bind(var7)(var1);
                     var1 = var1.MEDIUM_BUTTON_ICON_SIZE;
@@ -1133,7 +1133,7 @@ case 72:
 case 73:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 13;
+                    var4 = 12;
                     var4 = var8[var4];
                     var4 = var6.bind(var7)(var4);
                     var4 = var4.TextStyleSheet;
@@ -1143,7 +1143,7 @@ case 73:
                     var3 = _closure2_slot0;
                     var3 = var9.bind(var10)(var3);
                     var3 = var4[var3];
-                    var4 = 14;
+                    var4 = 13;
                     var4 = var8[var4];
                     var6 = var6.bind(var7)(var4);
                     var4 = var6.isAndroid;

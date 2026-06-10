@@ -423,10 +423,10 @@ case 42:
 case 0:
             var5 = arguments[1];
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0008_ip = 43; continue _fun0008 }
-case 44:
-            var5 = 'useEnabledGuildThemeForGuildId';
+            if(!(var5 === var4)) { _fun0008_ip = 19; continue _fun0008 }
 case 43:
+            var5 = 'useEnabledGuildThemeForGuildId';
+case 19:
             var3 = _closure1_slot11;
             var2 = _closure1_slot0;
             var6 = _closure1_slot1;

@@ -596,10 +596,10 @@ case 34:
 case 33:
             var1 = {};
             var5 = _closure1_slot13;
-            if(!(var8 == var6)) { _fun0012_ip = 5; continue _fun0012 }
-case 35:
+            if(!(var8 == var6)) { _fun0012_ip = 3; continue _fun0012 }
+case 14:
             var6 = _closure1_slot7;
-case 5:
+case 3:
             var10 = var5[var6];
             var11 = var1;
             var5 = copyDataProperties(var11, var10);
@@ -746,10 +746,10 @@ case 0:
                 var4 = undefined;
                 var5 = var2 === var4;
                 var2 = undefined;
-                if(var5) { _fun0013_ip = 36; continue _fun0013 }
-case 37:
-                var2 = var3;
+                if(var5) { _fun0013_ip = 35; continue _fun0013 }
 case 36:
+                var2 = var3;
+case 35:
                 var3 = undefined;
                 if(var5) { _fun0013_ip = 26; continue _fun0013 }
 case 11:
@@ -764,7 +764,7 @@ case 7:
                 var5 = var6;
 case 26:
                 if(var5) { _fun0013_ip = 30; continue _fun0013 }
-case 38:
+case 37:
                 var1.return();
 case 30:
                 var1 = new Array(2);
@@ -816,10 +816,10 @@ case 0:
                 var4 = undefined;
                 var5 = var2 === var4;
                 var2 = undefined;
-                if(var5) { _fun0014_ip = 36; continue _fun0014 }
-case 37:
-                var2 = var3;
+                if(var5) { _fun0014_ip = 35; continue _fun0014 }
 case 36:
+                var2 = var3;
+case 35:
                 var3 = undefined;
                 if(var5) { _fun0014_ip = 26; continue _fun0014 }
 case 11:
@@ -834,7 +834,7 @@ case 7:
                 var5 = var6;
 case 26:
                 if(var5) { _fun0014_ip = 30; continue _fun0014 }
-case 38:
+case 37:
                 var1.return();
 case 30:
                 var1 = new Array(2);
@@ -879,19 +879,19 @@ case 0:
             var1 = _closure1_slot7;
             var4 = var3[var1];
             var1 = null;
-            if(!(var1 == var4)) { _fun0015_ip = 39; continue _fun0015 }
+            if(!(var1 == var4)) { _fun0015_ip = 38; continue _fun0015 }
 case 23:
             var4 = {};
-case 39:
+case 38:
             var5 = var1 == var4;
             var1 = undefined;
             var3 = undefined;
-            if(var5) { _fun0015_ip = 40; continue _fun0015 }
-case 41:
-            var3 = var4.pendingLegacyUsernameDisabled;
+            if(var5) { _fun0015_ip = 39; continue _fun0015 }
 case 40:
-            if(!(var1 !== var3)) { _fun0015_ip = 42; continue _fun0015 }
-case 43:
+            var3 = var4.pendingLegacyUsernameDisabled;
+case 39:
+            if(!(var1 !== var3)) { _fun0015_ip = 41; continue _fun0015 }
+case 42:
             var4 = _closure1_slot13;
             var3 = _closure1_slot7;
             var2 = {};
@@ -902,7 +902,7 @@ case 43:
             var2[4] = var1;
             var4[var3] = var2;
             return var1;
-case 42:
+case 41:
             var1 = false;
             return var1;
         }
@@ -915,19 +915,19 @@ case 0:
             var1 = _closure1_slot7;
             var4 = var3[var1];
             var1 = null;
-            if(!(var1 == var4)) { _fun0016_ip = 39; continue _fun0016 }
+            if(!(var1 == var4)) { _fun0016_ip = 38; continue _fun0016 }
 case 23:
             var4 = {};
-case 39:
+case 38:
             var5 = var1 == var4;
             var1 = undefined;
             var3 = undefined;
-            if(var5) { _fun0016_ip = 40; continue _fun0016 }
-case 41:
-            var3 = var4.pendingPrimaryGuildId;
+            if(var5) { _fun0016_ip = 39; continue _fun0016 }
 case 40:
-            if(!(var1 !== var3)) { _fun0016_ip = 42; continue _fun0016 }
-case 43:
+            var3 = var4.pendingPrimaryGuildId;
+case 39:
+            if(!(var1 !== var3)) { _fun0016_ip = 41; continue _fun0016 }
+case 42:
             var4 = _closure1_slot13;
             var3 = _closure1_slot7;
             var2 = {};
@@ -938,7 +938,7 @@ case 43:
             var2[4] = var1;
             var4[var3] = var2;
             return var1;
-case 42:
+case 41:
             var1 = false;
             return var1;
         }
@@ -955,10 +955,10 @@ case 0:
             _closure1_slot16 = var1;
             var2 = _closure1_slot17;
             var5 = null;
-            if(!(var5 == var3)) { _fun0017_ip = 44; continue _fun0017 }
-case 45:
-            var3 = _closure1_slot7;
+            if(!(var5 == var3)) { _fun0017_ip = 43; continue _fun0017 }
 case 44:
+            var3 = _closure1_slot7;
+case 43:
             var1 = global;
             var7 = var1.Object;
             var6 = var7.fromEntries;
@@ -977,10 +977,10 @@ case 0:
                     var7 = undefined;
                     var4 = var2 === var7;
                     var2 = undefined;
-                    if(var4) { _fun0018_ip = 36; continue _fun0018 }
-case 37:
-                    var2 = var3;
+                    if(var4) { _fun0018_ip = 35; continue _fun0018 }
 case 36:
+                    var2 = var3;
+case 35:
                     var3 = undefined;
                     if(var4) { _fun0018_ip = 26; continue _fun0018 }
 case 11:
@@ -995,7 +995,7 @@ case 7:
                     var4 = var5;
 case 26:
                     if(var4) { _fun0018_ip = 30; continue _fun0018 }
-case 38:
+case 37:
                     var1.return();
 case 30:
                     var1 = new Array(2);
@@ -1008,10 +1008,10 @@ case 30:
             };
             var1 = var8.bind(var9)(var1);
             var1 = var6.bind(var7)(var1);
-            if(!(var5 == var1)) { _fun0017_ip = 46; continue _fun0017 }
-case 19:
-            var1 = _closure1_slot11;
+            if(!(var5 == var1)) { _fun0017_ip = 45; continue _fun0017 }
 case 46:
+            var1 = _closure1_slot11;
+case 45:
             var2[var3] = var1;
             var1 = undefined;
             return var1;

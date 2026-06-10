@@ -238,7 +238,7 @@ case 35:
     var10 = 8;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_12;
     var9['paddingHorizontal'] = var13;
     var9['flex'] = var12;
@@ -246,7 +246,7 @@ case 35:
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['paddingVertical'] = var10;
     var4['searchField'] = var9;
@@ -348,7 +348,7 @@ case 40:
             var8 = 8;
             var8 = var14[var8];
             var8 = var12.bind(var4)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var13 = var10 + var8;
 case 39:

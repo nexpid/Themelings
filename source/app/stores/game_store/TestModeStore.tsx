@@ -222,8 +222,17 @@ case 9:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(12);
+        var1 = new Array(13);
         var1[0] = var5;
+        var5 = {};
+        var7 = 'getTestModeApplicationId';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot10;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'inTestModeForApplication';
         var5['key'] = var7;
@@ -234,7 +243,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'inTestModeForEmbeddedApplication';
         var5['key'] = var7;
@@ -254,7 +263,7 @@ case 11:
             }
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'shouldDisplayTestMode';
         var5['key'] = var7;
@@ -281,7 +290,7 @@ case 13:
             }
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
@@ -290,7 +299,7 @@ case 13:
             return var1;
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'isTestMode';
         var5['key'] = var7;
@@ -301,7 +310,7 @@ case 13:
             return var1;
         };
         var5['get'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'isFetchingAuthorization';
         var5['key'] = var7;
@@ -313,7 +322,7 @@ case 13:
             return var1;
         };
         var5['get'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'testModeEmbeddedApplicationId';
         var5['key'] = var7;
@@ -331,7 +340,7 @@ case 15:
             }
         };
         var5['get'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'testModeApplicationId';
         var5['key'] = var7;
@@ -340,7 +349,7 @@ case 15:
             return var1;
         };
         var5['get'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'testModeOriginURL';
         var5['key'] = var7;
@@ -349,7 +358,7 @@ case 15:
             return var1;
         };
         var5['get'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'error';
         var5['key'] = var7;
@@ -358,7 +367,7 @@ case 15:
             return var1;
         };
         var5['get'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'whenInitialized';
         var5['key'] = var7;
@@ -389,7 +398,7 @@ case 16:
             return var1;
         };
         var5['value'] = var6;
-        var1[11] = var5;
+        var1[12] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

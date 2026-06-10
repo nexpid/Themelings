@@ -38,12 +38,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 4;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_12;
     var9['gap'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_24;
     var9['marginHorizontal'] = var10;
     var4['messagesHeaderContainer'] = var9;

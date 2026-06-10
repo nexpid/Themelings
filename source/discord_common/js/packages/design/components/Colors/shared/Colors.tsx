@@ -1,4 +1,4 @@
-// app/design/components/Colors/shared/Colors.tsx
+// discord_common/js/packages/design/components/Colors/shared/Colors.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = metroImportDefault;
     var3 = exports;
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var7 = var5.bind(var1)(var6);
     var6 = var7.fileFinishedImporting;
-    var5 = 'design/components/Colors/shared/Colors.tsx';
+    var5 = '../discord_common/js/packages/design/components/Colors/shared/Colors.tsx';
     var5 = var6.bind(var7)(var5);
     var3['WCAGContrastRatios'] = var4;
     var4 = function getContrastingColor(arg1) {

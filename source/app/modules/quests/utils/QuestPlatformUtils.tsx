@@ -1,13 +1,13 @@
 // app/modules/quests/utils/QuestPlatformUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
+    var8 = require;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var8;
-    var5 = function supportedConsoles(arg1) {
+    var _closure1_slot2 = var9;
+    var6 = function supportedConsoles(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = new Array(0);
@@ -61,7 +61,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot8 = var5;
+    var _closure1_slot8 = var6;
     var4 = function getPlatformTypeForHintMessage(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -397,36 +397,43 @@ case 18:
     var _closure1_slot12 = var1;
     var1 = global;
     var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var6 = {};
+    var7 = var10.defineProperty;
+    var5 = {};
     var1 = true;
-    var6['value'] = var1;
+    var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var6);
+    var1 = var7.bind(var10)(var3, var1, var5);
     var1 = 0;
-    var6 = var8[var1];
+    var5 = var9[var1];
     var1 = undefined;
-    var6 = var7.bind(var1)(var6);
-    var6 = var6.QuestTaskPlatform;
-    var _closure1_slot3 = var6;
-    var6 = 1;
-    var6 = var8[var6];
-    var6 = var7.bind(var1)(var6);
-    var9 = var6.AnalyticEvents;
-    var _closure1_slot4 = var9;
-    var9 = var6.ComponentActions;
-    var _closure1_slot5 = var9;
-    var9 = var6.PlatformTypes;
-    var _closure1_slot6 = var9;
-    var6 = var6.UserSettingsSections;
-    var _closure1_slot7 = var6;
-    var6 = 17;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/quests/utils/QuestPlatformUtils.tsx';
-    var6 = var7.bind(var8)(var6);
-    var6 = function supportedTaskPlatforms(arg1) {
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.QuestTaskPlatform;
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var9[var5];
+    var5 = var8.bind(var1)(var5);
+    var7 = var5.AnalyticEvents;
+    var _closure1_slot4 = var7;
+    var7 = var5.ComponentActions;
+    var _closure1_slot5 = var7;
+    var7 = var5.PlatformTypes;
+    var _closure1_slot6 = var7;
+    var5 = var5.UserSettingsSections;
+    var _closure1_slot7 = var5;
+    var5 = {};
+    var7 = 'desktop';
+    var5['DESKTOP'] = var7;
+    var7 = 'xbox';
+    var5['XBOX'] = var7;
+    var7 = 'playstation';
+    var5['PLAYSTATION'] = var7;
+    var7 = 17;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/quests/utils/QuestPlatformUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var7 = function supportedTaskPlatforms(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var5 = arg1;
@@ -484,9 +491,9 @@ case 45:
             return var1;
         }
     };
-    var3['supportedTaskPlatforms'] = var6;
-    var3['supportedConsoles'] = var5;
-    var5 = function isQuestSupportedOnWeb(arg1) {
+    var3['supportedTaskPlatforms'] = var7;
+    var3['supportedConsoles'] = var6;
+    var6 = function isQuestSupportedOnWeb(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = arg1;
@@ -509,7 +516,8 @@ case 47:
             return var1;
         }
     };
-    var3['isQuestSupportedOnWeb'] = var5;
+    var3['isQuestSupportedOnWeb'] = var6;
+    var3['PlayQuestPlatform'] = var5;
     var3['getPlatformTypeForHintMessage'] = var4;
     var4 = function openAuthorizationConnectionModal(arg1, arg2) {
         var1 = arg1;
@@ -919,7 +927,7 @@ case 73:
         return var1;
     };
     var3['openConsoleConnectionSettings'] = var4;
-    var2 = function openAddConsoleConnectionModal(arg1, arg2) {
+    var4 = function openAddConsoleConnectionModal(arg1, arg2) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var7 = arg2;
@@ -1005,6 +1013,44 @@ case 77:
             return var1;
         }
     };
-    var3['openAddConsoleConnectionModal'] = var2;
+    var3['openAddConsoleConnectionModal'] = var4;
+    var2 = function openSingleConsoleConnectionModal(arg1, arg2, arg3) {
+        var7 = arg2;
+        var1 = arg1;
+        var8 = var1.quest;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var2 = 4;
+        var2 = var4[var2];
+        var3 = undefined;
+        var6 = var5.bind(var3)(var2);
+        var5 = var6.trackQuestContentClicked;
+        var2 = {};
+        var8 = var8.id;
+        var2['questId'] = var8;
+        var8 = var7.content;
+        var2['questContent'] = var8;
+        var8 = var7.position;
+        var2['questContentPosition'] = var8;
+        var8 = var7.rowIndex;
+        var2['questContentRowIndex'] = var8;
+        var8 = var7.ctaContent;
+        var2['questContentCTA'] = var8;
+        var8 = var7.impressionId;
+        var2['impressionId'] = var8;
+        var7 = var7.sourceQuestContent;
+        var2['sourceQuestContent'] = var7;
+        var2 = var5.bind(var6)(var2);
+        var2 = _closure1_slot1;
+        var1 = 5;
+        var1 = var4[var1];
+        var2 = var2.bind(var3)(var1);
+        var1 = {};
+        var4 = arg3;
+        var1['platformType'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['openSingleConsoleConnectionModal'] = var2;
     return var1;
 })();

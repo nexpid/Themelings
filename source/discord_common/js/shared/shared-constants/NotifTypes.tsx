@@ -226,6 +226,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['VOICE_CHANNEL_ACTIVITY_PEAK_AFFINITY'] = var4;
     var1 = 'VOICE_CHANNEL_ACTIVITY_PEAK_AFFINITY';
     var2[var4] = var1;
+    var4 = 56;
+    var2['PARENTAL_CONSENT_FINAL_WARNING'] = var4;
+    var1 = 'PARENTAL_CONSENT_FINAL_WARNING';
+    var2[var4] = var1;
     var4 = 999999;
     var2['TEST'] = var4;
     var1 = 'TEST';

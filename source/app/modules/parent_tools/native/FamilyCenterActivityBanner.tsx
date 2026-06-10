@@ -121,14 +121,14 @@ case 2:
     var9 = {'maxWidth': 243, 'maxHeight': 119};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var9['marginBottom'] = var13;
     var4['art'] = var9;
     var9 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var9['marginBottom'] = var11;
     var9['textAlign'] = var10;

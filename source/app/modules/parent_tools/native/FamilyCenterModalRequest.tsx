@@ -686,12 +686,12 @@ case 15:
     var14 = 6;
     var17 = var10[var14];
     var17 = var15.bind(var1)(var17);
-    var17 = var17.spacing;
+    var17 = var17.space;
     var17 = var17.PX_16;
     var16['marginTop'] = var17;
     var17 = var10[var14];
     var17 = var15.bind(var1)(var17);
-    var17 = var17.spacing;
+    var17 = var17.space;
     var17 = var17.PX_16;
     var16['marginBottom'] = var17;
     var11['headerText'] = var16;
@@ -706,7 +706,7 @@ case 15:
     var16 = {};
     var17 = var10[var14];
     var17 = var15.bind(var1)(var17);
-    var17 = var17.spacing;
+    var17 = var17.space;
     var17 = var17.PX_8;
     var16['marginBottom'] = var17;
     var11['header'] = var16;
@@ -727,7 +727,7 @@ case 15:
     var17['backgroundColor'] = var18;
     var18 = var10[var14];
     var18 = var15.bind(var1)(var18);
-    var18 = var18.spacing;
+    var18 = var18.space;
     var18 = var18.PX_24;
     var17['marginBottom'] = var18;
     var11['ring'] = var17;

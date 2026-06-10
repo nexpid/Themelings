@@ -543,7 +543,7 @@ case 9:
     var15 = 6;
     var14 = var6[var15];
     var14 = var16.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_24;
     var9['paddingHorizontal'] = var14;
     var4['container'] = var9;
@@ -572,7 +572,7 @@ case 9:
     var9 = {'alignItems': 'center', 'width': '100%', 'gap': null, 'zIndex': 2};
     var17 = var6[var15];
     var17 = var16.bind(var1)(var17);
-    var17 = var17.spacing;
+    var17 = var17.space;
     var17 = var17.PX_16;
     var9['gap'] = var17;
     var4['content'] = var9;
@@ -582,7 +582,7 @@ case 9:
     var9 = {'position': 'absolute', 'bottom': null, 'alignSelf': 'center', 'zIndex': 2};
     var15 = var6[var15];
     var15 = var16.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_32;
     var9['bottom'] = var15;
     var4['footer'] = var9;

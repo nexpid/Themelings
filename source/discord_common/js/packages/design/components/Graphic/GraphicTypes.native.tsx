@@ -22,13 +22,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var1 = 'type';
-            var1 = var1 in var2;
-            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
             var3 = var2.type;
-            var2 = 'image';
-            var1 = var2 === var3;
+            var1 = 'image';
+            var1 = var1 === var3;
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var2 = var2.type;
+            var1 = false;
 case 2:
             return var1;
         }

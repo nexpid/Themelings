@@ -213,51 +213,78 @@ case 35:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var5 = arg2;
-            var4 = arg3;
+            var6 = arg2;
+            var5 = arg3;
             var2 = var1.getCurrentSubscriptionPlanIdForGroup;
-            var3 = var2.bind(var1)(var4);
-            var2 = var1.type;
-            var1 = _closure1_slot7;
-            var1 = var1.PREMIUM;
-            var1 = var2 === var1;
-            if(!var1) { _fun0004_ip = 36; continue _fun0004 }
+            var4 = var2.bind(var1)(var5);
+            var3 = var1.type;
+            var2 = _closure1_slot7;
+            var2 = var2.PREMIUM;
+            if(!(var3 === var2)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
             var2 = null;
-            var1 = var2 == var3;
+            if(!(var2 != var4)) { _fun0004_ip = 12; continue _fun0004 }
 case 36:
-            if(var1) { _fun0004_ip = 38; continue _fun0004 }
+            var2 = {};
+            var2['oldPlanId'] = var4;
+            var2['newPlanId'] = var6;
+            var3 = null;
+            if(!(var3 != var4)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-            var7 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var2 = 5;
-            var10 = var9[var2];
-            var8 = undefined;
-            var12 = var7.bind(var8)(var10);
-            var10 = null;
-            var11 = var10 != var3;
-            var10 = 'Current subscription has no plan in group';
-            var10 = var12.bind(var8)(var11, var10);
-            var2 = var9[var2];
-            var7 = var7.bind(var8)(var2);
-            var2 = _closure1_slot8;
-            var2 = var2.PREMIUM_YEAR_TIER_1;
-            var2 = var3 === var2;
-            if(!var2) { _fun0004_ip = 40; continue _fun0004 }
+            var3 = _closure1_slot8;
+            var3 = var3.PREMIUM_YEAR_TIER_1;
+            if(!(var4 === var3)) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
-            var6 = _closure1_slot8;
-            var6 = var6.PREMIUM_MONTH_TIER_2;
-            var2 = var5 === var6;
+            var3 = _closure1_slot8;
+            var3 = var3.PREMIUM_MONTH_TIER_2;
+            if(!(var6 !== var3)) { _fun0004_ip = 42; continue _fun0004 }
 case 40:
-            var6 = !var2;
-            var2 = 'Unexpected plan switch';
-            var2 = var7.bind(var8)(var6, var2);
-            var2 = var4.indexOf;
-            var3 = var2.bind(var4)(var3);
-            var2 = var4.indexOf;
-            var2 = var2.bind(var4)(var5);
-            var1 = var3 < var2;
+            var3 = var5.indexOf;
+            var4 = var3.bind(var5)(var4);
+            var3 = var5.indexOf;
+            var3 = var3.bind(var5)(var6);
+            var3 = var4 < var3;
+            return var3;
+case 42:
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 6;
+            var4 = var4[var3];
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var5 = var3.CheckoutError;
+            var3 = {};
+            var4 = 'Unexpected plan switch';
+            var3['message'] = var4;
+            var3['extraSentryInformation'] = var2;
+            var4 = var5.prototype;
+            var4 = Object.create(var4, {constructor: {value: var5}});
+            var8 = var4;
+            var7 = var3;
+            var3 = new var8[var5](var7, var6);
+            var3 = var3 instanceof Object ? var3 : var4;
+            throw var3;
 case 38:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 6;
+            var3 = var3[var1];
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3);
+            var3 = var1.CheckoutError;
+            var1 = {};
+            var4 = 'Current subscription has no plan in group';
+            var1['message'] = var4;
+            var1['extraSentryInformation'] = var2;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var8 = var2;
+            var7 = var1;
+            var1 = new var8[var3](var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
+case 12:
+            var1 = true;
             return var1;
         }
     };
@@ -298,7 +325,7 @@ case 38:
     var _closure1_slot8 = var9;
     var6 = var6.SubscriptionPlanInfo;
     var _closure1_slot9 = var6;
-    var6 = 11;
+    var6 = 12;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -340,8 +367,8 @@ case 0:
             var1 = var3.get;
             var1 = var1.bind(var3)(var10);
             var5 = null;
-            if(!(var5 == var1)) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(!(var5 == var1)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var3 = _closure1_slot9;
             var3 = var3[var10];
             var8 = _closure1_slot1;
@@ -358,7 +385,7 @@ case 43:
             var5 = var9.bind(var5)(var10);
             var5 = var8.bind(var4)(var6, var5);
             var6 = _closure1_slot0;
-            var5 = 6;
+            var5 = 7;
             var5 = var7[var5];
             var6 = var6.bind(var4)(var5);
             var5 = var6.castPremiumSubscriptionAsSkuId;
@@ -367,17 +394,17 @@ case 43:
             var6 = _closure1_slot5;
             var3 = var6.isFetchingForSKU;
             var3 = var3.bind(var6)(var5);
-            if(var3) { _fun0005_ip = 42; continue _fun0005 }
-case 44:
+            if(var3) { _fun0005_ip = 43; continue _fun0005 }
+case 45:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var2 = var6[var2];
             var4 = var3.bind(var4)(var2);
             var3 = var4.fetchSubscriptionPlansForSKU;
             var2 = arg2;
             var2 = var3.bind(var4)(var5, var2);
-case 42:
+case 43:
             return var1;
         }
     };
@@ -389,7 +416,7 @@ case 42:
         var _closure2_slot1 = var7;
         var4 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var1 = 8;
+        var1 = 9;
         var1 = var5[var1];
         var6 = undefined;
         var9 = var4.bind(var6)(var1);
@@ -404,23 +431,23 @@ case 0:
                 var2 = null;
                 var4 = var2 != var3;
                 var3 = null;
-                if(!var4) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+                if(!var4) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
                 var5 = _closure1_slot5;
                 var4 = var5.get;
                 var1 = _closure2_slot0;
                 var3 = var4.bind(var5)(var1);
-case 45:
+case 46:
                 var1 = new Array(2);
                 var1[0] = var3;
                 var2 = var2 != var3;
-                if(!var2) { _fun0006_ip = 47; continue _fun0006 }
-case 39:
+                if(!var2) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
                 var5 = _closure1_slot5;
                 var4 = var5.isFetchingForSKU;
                 var3 = var3.skuId;
                 var2 = var4.bind(var5)(var3);
-case 47:
+case 48:
                 var1[1] = var2;
                 return var1;
             }
@@ -447,14 +474,14 @@ case 47:
 case 0:
                 var2 = _closure2_slot2;
                 var4 = null;
-                if(!(var4 == var2)) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
-                var2 = _closure2_slot0;
-                if(!(var4 != var2)) { _fun0007_ip = 48; continue _fun0007 }
-case 50:
-                var2 = _closure2_slot3;
-                if(var2) { _fun0007_ip = 48; continue _fun0007 }
+                if(!(var4 == var2)) { _fun0007_ip = 50; continue _fun0007 }
 case 51:
+                var2 = _closure2_slot0;
+                if(!(var4 != var2)) { _fun0007_ip = 50; continue _fun0007 }
+case 52:
+                var2 = _closure2_slot3;
+                if(var2) { _fun0007_ip = 50; continue _fun0007 }
+case 53:
                 var2 = _closure1_slot9;
                 var10 = _closure2_slot0;
                 var2 = var2[var10];
@@ -472,11 +499,11 @@ case 51:
                 var4 = var9.bind(var4)(var10);
                 var4 = var6.bind(var7)(var5, var4);
                 var6 = _closure1_slot0;
-                var3 = 7;
+                var3 = 8;
                 var3 = var8[var3];
                 var4 = var6.bind(var7)(var3);
                 var3 = var4.fetchSubscriptionPlansForSKU;
-                var5 = 6;
+                var5 = 7;
                 var5 = var8[var5];
                 var6 = var6.bind(var7)(var5);
                 var5 = var6.castPremiumSubscriptionAsSkuId;
@@ -484,7 +511,7 @@ case 51:
                 var2 = var5.bind(var6)(var2);
                 var1 = _closure2_slot1;
                 var1 = var3.bind(var4)(var2, var1);
-case 48:
+case 50:
                 var1 = undefined;
                 return var1;
             }
@@ -502,7 +529,7 @@ case 0:
             var4 = var5.keys;
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var8 = 9;
+            var8 = 10;
             var2 = var2[var8];
             var7 = undefined;
             var2 = var6.bind(var7)(var2);
@@ -523,22 +550,22 @@ case 0:
             var5 = var3.status;
             var4 = _closure1_slot6;
             var4 = var4.PAUSED;
-            if(!(var5 === var4)) { _fun0008_ip = 52; continue _fun0008 }
-case 53:
+            if(!(var5 === var4)) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
             var5 = var3.pauseEndsAt;
             var4 = null;
-            if(!(var4 == var5)) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+            if(!(var4 == var5)) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
             var4 = {};
             var5 = new Array(0);
             var4['durations'] = var5;
             var5 = 0;
             var4['currentDaysPaused'] = var5;
             return var4;
-case 54:
+case 56:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var4 = 10;
+            var4 = 11;
             var10 = var6[var4];
             var11 = var5.bind(var7)(var10);
             var10 = var3.currentPeriodStart;
@@ -559,8 +586,8 @@ case 54:
             var6 = var1.bind(var7)(var2);
             var5 = var6.bind(var7)();
             var1 = var5.done;
-            if(var1) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
+            if(var1) { _fun0008_ip = 58; continue _fun0008 }
+case 59:
             var10 = var5.value;
             var11 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -568,21 +595,21 @@ case 57:
             var1 = var11.bind(var7)(var1);
             var1 = var1.PauseDuration;
             var1 = var1[var10];
-            if(!(var1 > var3)) { _fun0008_ip = 58; continue _fun0008 }
-case 59:
+            if(!(var1 > var3)) { _fun0008_ip = 60; continue _fun0008 }
+case 61:
             var1 = var4.push;
             var1 = var1.bind(var4)(var10);
-case 58:
+case 60:
             var10 = var6.bind(var7)();
             var1 = var10.done;
             var5 = var10;
-            if(!var1) { _fun0008_ip = 57; continue _fun0008 }
-case 56:
+            if(!var1) { _fun0008_ip = 59; continue _fun0008 }
+case 58:
             var1 = {};
             var1['durations'] = var4;
             var1['currentDaysPaused'] = var3;
             return var1;
-case 52:
+case 54:
             var1 = {};
             var1['durations'] = var2;
             var2 = 0;
@@ -597,29 +624,29 @@ case 0:
             var4 = arg1;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0009_ip = 60; continue _fun0009 }
-case 61:
+            if(!var1) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 10;
+            var2 = 11;
             var3 = var3[var2];
             var2 = undefined;
             var3 = var5.bind(var2)(var3);
             var2 = var3.isMoment;
             var1 = var2.bind(var3)(var4);
-case 60:
-            if(!var1) { _fun0009_ip = 62; continue _fun0009 }
+case 62:
+            if(!var1) { _fun0009_ip = 64; continue _fun0009 }
 case 36:
             var3 = var4.isSameOrAfter;
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 10;
+            var2 = 11;
             var2 = var5[var2];
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
             var2 = var2.bind(var5)();
             var1 = var3.bind(var4)(var2);
-case 62:
+case 64:
             return var1;
         }
     };
