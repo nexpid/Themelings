@@ -4482,7 +4482,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "app/modules/media_viewer/native/images/ic_eye.png",
+        "file": "app/modules/parent_tools/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -11091,7 +11091,7 @@
         "height": 16
     },
     "search_empty_state": {
-        "file": "app/modules/hub/native/images/search_empty_state.png",
+        "file": "app/modules/directory_channels/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
