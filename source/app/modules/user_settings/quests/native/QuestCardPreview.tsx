@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 6;
             var7 = var9[var7];
             var7 = var10.bind(var3)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_16;
             var5['containerPadding'] = var7;
             var7 = 2;

@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'paddingHorizontal': null, 'gap': 4, 'height': 19};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_8;
     var9['paddingHorizontal'] = var10;
     var4['fullGradientContent'] = var9;

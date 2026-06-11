@@ -113,7 +113,7 @@ case 6:
             var8 = 7;
             var16 = var13[var8];
             var16 = var12.bind(var4)(var16);
-            var16 = var16.spacing;
+            var16 = var16.space;
             var16 = var16.PX_24;
             var1['spacing'] = var16;
             var1['style'] = var5;
@@ -140,7 +140,7 @@ case 6:
             var6['align'] = var15;
             var8 = var13[var8];
             var8 = var12.bind(var4)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_4;
             var6['spacing'] = var8;
             if(!var11) { _fun0001_ip = 8; continue _fun0001 }

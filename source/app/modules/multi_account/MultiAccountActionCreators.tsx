@@ -77,9 +77,9 @@ case 3:
                         var6 = var2.id;
                         var5 = undefined;
                         var12 = undefined;
-                        var14 = undefined;
-                        var17 = undefined;
                         var13 = undefined;
+                        var17 = undefined;
+                        var14 = undefined;
                         var9 = undefined;
                         SaveGenerator(address=34);
 case 4:
@@ -157,21 +157,21 @@ case 14:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=10);
                         if(var11) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-                        var13 = var4;
+                        var14 = var4;
 case 17: // try_end0
-                        var11 = var13;
+                        var11 = var14;
                         var11 = var11.body;
-                        var14 = var11;
+                        var13 = var11;
                         var15 = var10 == var11;
                         var11 = undefined;
                         if(var15) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-                        var11 = var14.id;
+                        var11 = var13.id;
 case 18:
                         var12 = var11;
-                        var14 = var10 != var11;
+                        var13 = var10 != var11;
                         var11 = null;
-                        if(!var14) { _fun0001_ip = 20; continue _fun0001 }
+                        if(!var13) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
                         var11 = var12;
 case 20:
@@ -180,55 +180,65 @@ case 20:
 case 23:
                         var12 = var9;
                         var11 = var6;
-                        if(!(var12 !== var11)) { _fun0001_ip = 22; continue _fun0001 }
-case 24:
-                        var14 = {};
+                        if(!(var12 === var11)) { _fun0001_ip = 24; continue _fun0001 }
+case 22:
+                        var12 = _closure2_slot0;
                         var11 = var6;
-                        var14['expected_user_id'] = var11;
-                        var14['actual_user_id'] = var9;
+                        if(!(var12 !== var11)) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+                        var12 = _closure1_slot1;
+                        var11 = _closure1_slot3;
+                        var11 = var11[var7];
+                        var13 = var12.bind(var5)(var11);
+                        var12 = var13.dispatch;
+                        var11 = {};
+                        var15 = 'USER_UPDATE';
+                        var11['type'] = var15;
+                        var14 = var14.body;
+                        var11['user'] = var14;
+                        var11 = var12.bind(var13)(var11);
+case 25:
+                        var12 = _closure1_slot1;
+                        var11 = _closure1_slot3;
+                        var11 = var11[var7];
+                        var13 = var12.bind(var5)(var11);
+                        var12 = var13.dispatch;
+                        var11 = {};
+                        var14 = 'MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS';
+                        var11['type'] = var14;
+                        var14 = var6;
+                        var11['userId'] = var14;
+                        var11 = var12.bind(var13)(var11);
+case 11:
+                        return var5;
+case 24:
+                        var16 = {};
+                        var13 = var6;
+                        var16['expected_user_id'] = var13;
+                        var16['actual_user_id'] = var9;
                         var12 = _closure1_slot9;
                         var11 = var12.log;
                         var9 = 'Found per-user token authentication mismatch';
-                        var9 = var11.bind(var12)(var9, var14);
-                        var11 = _closure1_slot1;
-                        var12 = _closure1_slot3;
-                        var9 = 8;
-                        var9 = var12[var9];
-                        var12 = var11.bind(var5)(var9);
-                        var11 = var12.track;
-                        var9 = _closure1_slot7;
-                        var9 = var9.MULTI_ACCOUNT_VALIDATE_TOKEN_USER_MISMATCH;
-                        var9 = var11.bind(var12)(var9, var14);
-case 22:
-                        var11 = _closure2_slot0;
-                        var9 = var6;
-                        if(!(var11 !== var9)) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
+                        var9 = var11.bind(var12)(var9, var16);
                         var11 = _closure1_slot1;
                         var9 = _closure1_slot3;
+                        var12 = 8;
+                        var12 = var9[var12];
+                        var15 = var11.bind(var5)(var12);
+                        var14 = var15.track;
+                        var12 = _closure1_slot7;
+                        var12 = var12.MULTI_ACCOUNT_VALIDATE_TOKEN_USER_MISMATCH;
+                        var12 = var14.bind(var15)(var12, var16);
                         var9 = var9[var7];
                         var12 = var11.bind(var5)(var9);
                         var11 = var12.dispatch;
                         var9 = {};
-                        var14 = 'USER_UPDATE';
+                        var14 = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
                         var9['type'] = var14;
-                        var13 = var13.body;
-                        var9['user'] = var13;
-                        var9 = var11.bind(var12)(var9);
-case 25:
-                        var11 = _closure1_slot1;
-                        var9 = _closure1_slot3;
-                        var9 = var9[var7];
-                        var12 = var11.bind(var5)(var9);
-                        var11 = var12.dispatch;
-                        var9 = {};
-                        var13 = 'MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS';
-                        var9['type'] = var13;
-                        var13 = var6;
                         var9['userId'] = var13;
                         var9 = var11.bind(var12)(var9);
-case 11:
-                        return var5;
+                        var9 = undefined;
+                        return var9;
 case 15:
                         return var4;
 case 27: // catch_target0

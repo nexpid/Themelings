@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['paddingHorizontal'] = var10;
     var4['wrap'] = var9;
@@ -151,12 +151,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = 5;
         var10 = var17[var8];
         var10 = var9.bind(var4)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_16;
         var5['paddingVertical'] = var10;
         var8 = var17[var8];
         var8 = var9.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_16;
         var6 = var6.bottom;
         var6 = var8 + var6;

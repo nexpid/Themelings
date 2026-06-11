@@ -70,7 +70,7 @@ case 2:
             var10 = var8[var6];
             var5 = undefined;
             var10 = var9.bind(var5)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_8;
             var2['padding'] = var10;
             var8 = var8[var6];
@@ -102,7 +102,7 @@ case 4:
             var2['borderRadius'] = var7;
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_8;
             var2['marginRight'] = var7;
             var1['avatar'] = var2;
@@ -111,7 +111,7 @@ case 4:
             var2['flex'] = var7;
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_40;
             var2['paddingRight'] = var3;
             var1['content'] = var2;

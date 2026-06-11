@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['borderColor'] = var14;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_4;
     var11['margin'] = var14;
     var7['card'] = var11;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'position': 'absolute', 'bottom': 20, 'left': 0, 'right': 0, 'paddingHorizontal': null, 'alignItems': 'flex-start'};
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var11['paddingHorizontal'] = var12;
     var7['textContainer'] = var11;

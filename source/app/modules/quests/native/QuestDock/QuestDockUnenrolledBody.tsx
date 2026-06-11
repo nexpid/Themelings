@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': null, 'flexWrap': 'wrap'};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['gap'] = var13;
     var4['titleRow'] = var10;

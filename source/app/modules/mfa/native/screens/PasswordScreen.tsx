@@ -209,7 +209,7 @@ case 2:
             var5 = var22[var5];
             var5 = var25.bind(var4)(var5);
             var14 = var5.TextInput;
-            var10 = {'autoFocus': true, 'textContentType': 'password', 'label': null, 'placeholder': null, 'autoComplete': 'current-password', 'errorMessage': null, 'returnKeyType': 'done'};
+            var10 = {'autoFocus': true, 'required': true, 'textContentType': 'password', 'label': null, 'placeholder': null, 'autoComplete': 'current-password', 'errorMessage': null, 'returnKeyType': 'done'};
             var18 = true;
             var5 = 'password';
             var23 = var22[var20];

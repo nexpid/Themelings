@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderBottomWidth'] = var13;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var9['paddingBottom'] = var14;
     var9['flex'] = var13;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'marginTop': null, 'position': 'relative', 'height': 280};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_12;
     var9['marginTop'] = var13;
     var4['collectiblePreview'] = var9;
@@ -604,12 +604,12 @@ case 21:
         var12 = 6;
         var14 = var11[var12];
         var14 = var13.bind(var4)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_16;
         var8['paddingHorizontal'] = var14;
         var12 = var11[var12];
         var12 = var13.bind(var4)(var12);
-        var12 = var12.spacing;
+        var12 = var12.space;
         var12 = var12.PX_12;
         var8['paddingTop'] = var12;
         var6['style'] = var8;

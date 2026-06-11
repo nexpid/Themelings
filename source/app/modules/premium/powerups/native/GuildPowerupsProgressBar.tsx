@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 5;
     var2 = var8[var12];
     var2 = var13.bind(var1)(var2);
-    var2 = var2.spacing;
+    var2 = var2.space;
     var2 = var2.PX_4;
     var4 = var15 * var2;
     var2 = ['rgba(255, 115, 250, 0.4)', 'rgba(255, 115, 250, 0.1)'];
@@ -67,12 +67,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var11 = var8[var12];
     var11 = var13.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_4;
     var2['paddingVertical'] = var11;
     var11 = var8[var12];
     var11 = var13.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var2['paddingHorizontal'] = var11;
     var6['container'] = var2;
@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'flexDirection': 'row', 'justifyContent': 'space-between', 'alignItems': 'center'};
     var12 = var8[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_12;
     var11['paddingHorizontal'] = var12;
     var6['textContainer'] = var11;

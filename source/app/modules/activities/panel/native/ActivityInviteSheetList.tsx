@@ -308,13 +308,13 @@ case 2:
         var10 = 5;
         var13 = var12[var10];
         var13 = var11.bind(var4)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_16;
         var13 = var14 + var13;
         var9['paddingBottom'] = var13;
         var10 = var12[var10];
         var10 = var11.bind(var4)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_12;
         var9['paddingHorizontal'] = var10;
         var1['contentContainerStyle'] = var9;

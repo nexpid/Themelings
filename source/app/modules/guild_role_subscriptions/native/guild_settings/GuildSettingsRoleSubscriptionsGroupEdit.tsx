@@ -395,7 +395,7 @@ case 49:
             var8 = 17;
             var8 = var15[var8];
             var8 = var7.bind(var4)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var8 = var18 + var8;
             var5['paddingBottom'] = var8;

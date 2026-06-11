@@ -213,7 +213,7 @@ case 27:
                     var3 = var4.measureViewRefInWindow;
                     var2 = var7.ref;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=111);
+                    SaveGenerator(address=112);
 case 28:
                     return var2;
 case 29:
@@ -227,30 +227,30 @@ case 31:
                     var4 = var10.measureViewRefInView;
                     var3 = var7.ref;
                     var3 = var4.bind(var10)(var3, var12);
-                    SaveGenerator(address=158);
-case 32:
+                    SaveGenerator(address=159);
+case 16:
                     return var3;
-case 33:
+case 32:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
+                    if(var4) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
                     if(!(var11 != var2)) { _fun0002_ip = 25; continue _fun0002 }
-case 36:
+case 35:
                     if(!(var11 != var3)) { _fun0002_ip = 25; continue _fun0002 }
-case 37:
+case 36:
                     var10 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var4 = var4[var13];
                     var10 = var10.bind(var8)(var4);
                     var4 = var10.measureViewInWindow;
                     var4 = var4.bind(var10)(var12);
-                    SaveGenerator(address=213);
-case 38:
+                    SaveGenerator(address=214);
+case 37:
                     return var4;
-case 39:
+case 38:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(var10) { _fun0002_ip = 40; continue _fun0002 }
-case 41:
+                    if(var10) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
                     var7 = var7.offset;
                     var5 = function calculateScrollOffset() {
                         var1 = undefined;
@@ -263,29 +263,29 @@ case 41:
                         return var1;
                     };
                     var5 = var5.bind(var8)(var7, var2);
-                    SaveGenerator(address=245);
-case 42:
+                    SaveGenerator(address=246);
+case 41:
                     return var5;
-case 43:
+case 42:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(var7) { _fun0002_ip = 44; continue _fun0002 }
-case 45:
+                    if(var7) { _fun0002_ip = 43; continue _fun0002 }
+case 44:
                     var14 = global;
                     var7 = var14.Number;
                     var7 = var7.MAX_SAFE_INTEGER;
-                    if(!(var5 === var7)) { _fun0002_ip = 46; continue _fun0002 }
-case 47:
+                    if(!(var5 === var7)) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
                     var7 = _closure2_slot2;
                     var12 = var7.current;
                     if(!(var11 != var12)) { _fun0002_ip = 25; continue _fun0002 }
-case 48:
+case 47:
                     var10 = var12.scrollToEnd;
                     var7 = {};
                     var13 = true;
                     var7['animated'] = var13;
                     var7 = var10.bind(var12)(var7);
                     _fun0002_ip = 25; continue _fun0002;
-case 46:
+case 45:
                     var7 = {};
                     var10 = _closure2_slot0;
                     var7['insets'] = var10;
@@ -320,8 +320,8 @@ case 46:
                     var10 = var7.scrollOffset;
                     var15 = var15 + var10;
                     var10 = undefined;
-                    if(!(!(var15 <= var12))) { _fun0002_ip = 49; continue _fun0002 }
-case 50:
+                    if(!(!(var15 <= var12))) { _fun0002_ip = 48; continue _fun0002 }
+case 49:
                     var15 = var14.Math;
                     var14 = var15.max;
                     var13 = var13 - var12;
@@ -338,43 +338,43 @@ case 50:
                     var7 = var7.scrollOffset;
                     var7 = var13 + var7;
                     var10 = undefined;
-                    if(!(!(var7 <= var12))) { _fun0002_ip = 49; continue _fun0002 }
-case 51:
+                    if(!(!(var7 <= var12))) { _fun0002_ip = 48; continue _fun0002 }
+case 50:
                     var10 = var7 - var12;
-case 49:
+case 48:
                     if(!(var11 != var10)) { _fun0002_ip = 25; continue _fun0002 }
-case 52:
+case 51:
                     var7 = _closure2_slot2;
                     var14 = var7.current;
                     var12 = var11 == var14;
                     var6 = undefined;
-                    if(var12) { _fun0002_ip = 53; continue _fun0002 }
-case 54:
+                    if(var12) { _fun0002_ip = 52; continue _fun0002 }
+case 53:
                     var12 = var14.scrollTo;
                     var12 = var11 == var12;
                     var6 = undefined;
-                    if(var12) { _fun0002_ip = 53; continue _fun0002 }
-case 55:
+                    if(var12) { _fun0002_ip = 52; continue _fun0002 }
+case 54:
                     var13 = var14.scrollTo;
                     var12 = {'x': 0, 'y': null, 'animated': true};
                     var12['y'] = var10;
                     var6 = var13.bind(var14)(var12);
-case 53:
+case 52:
                     var6 = var11 != var6;
                     var8 = undefined;
-                    if(var6) { _fun0002_ip = 56; continue _fun0002 }
-case 57:
+                    if(var6) { _fun0002_ip = 55; continue _fun0002 }
+case 56:
                     var7 = var7.current;
                     var6 = var11 == var7;
                     var8 = var7;
-case 56:
-                    if(var6) { _fun0002_ip = 58; continue _fun0002 }
-case 59:
+case 55:
+                    if(var6) { _fun0002_ip = 57; continue _fun0002 }
+case 58:
                     var7 = var8.scrollToOffset;
                     var6 = var11 == var7;
-case 58:
+case 57:
                     if(var6) { _fun0002_ip = 25; continue _fun0002 }
-case 60:
+case 59:
                     var7 = var8.scrollToOffset;
                     var6 = {};
                     var6['offset'] = var10;
@@ -383,11 +383,11 @@ case 60:
 case 25:
                     var6 = undefined;
                     return var6;
-case 44:
+case 43:
                     return var5;
-case 40:
+case 39:
                     return var4;
-case 34:
+case 33:
                     return var3;
 case 30:
                     return var2;

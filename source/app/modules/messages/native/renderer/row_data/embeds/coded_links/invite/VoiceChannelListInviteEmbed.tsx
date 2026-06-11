@@ -267,15 +267,15 @@ case 22:
                     var5 = var4.user;
                     var2 = false;
                     var1 = 24;
-                    var5 = var7.bind(var8)(var5, var2, var1);
+                    var7 = var7.bind(var8)(var5, var2, var1);
                     _fun0003_ip = 23; continue _fun0003;
 case 21:
                     var2 = _closure1_slot1;
-                    var7 = _closure1_slot2;
+                    var5 = _closure1_slot2;
                     var1 = 18;
-                    var1 = var7[var1];
-                    var7 = var2.bind(var9)(var1);
-                    var2 = var7.getGuildMemberAvatarURLSimple;
+                    var1 = var5[var1];
+                    var5 = var2.bind(var9)(var1);
+                    var2 = var5.getGuildMemberAvatarURLSimple;
                     var1 = {};
                     var8 = _closure2_slot0;
                     var8 = var8.id;
@@ -287,44 +287,57 @@ case 21:
                     var1['avatar'] = var8;
                     var8 = 24;
                     var1['size'] = var8;
-                    var5 = var2.bind(var7)(var1);
+                    var7 = var2.bind(var5)(var1);
 case 23:
+                    var2 = 'number';
+                    var1 = typeof var7;
+                    var5 = var7;
+                    if(!(var2 === var1)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
+                    var2 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var1 = 17;
+                    var1 = var8[var1];
+                    var2 = var2.bind(var9)(var1);
+                    var1 = var2.getAssetUriForEmbed;
+                    var5 = var1.bind(var2)(var7);
+case 24:
                     var1 = _closure2_slot1;
                     var2 = undefined;
-                    if(!var1) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+                    if(!var1) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                     var7 = var3 == var6;
                     var1 = undefined;
-                    if(var7) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+                    if(var7) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                     var6 = var6.displayNameStyles;
                     var7 = var3 == var6;
                     var1 = undefined;
-                    if(var7) { _fun0003_ip = 26; continue _fun0003 }
-case 28:
-                    var1 = var6.fontId;
-case 26:
-                    if(!(var3 == var1)) { _fun0003_ip = 29; continue _fun0003 }
+                    if(var7) { _fun0003_ip = 28; continue _fun0003 }
 case 30:
+                    var1 = var6.fontId;
+case 28:
+                    if(!(var3 == var1)) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
                     var6 = var4.user;
                     var7 = var6.displayNameStyles;
                     var8 = var3 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+                    if(var8) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
                     var6 = var7.fontId;
-case 31:
+case 33:
                     var1 = var6;
-case 29:
+case 31:
                     var2 = var1;
-case 24:
+case 26:
                     var1 = {};
                     var6 = var4.user;
                     var6 = var6.id;
                     var1['userId'] = var6;
                     var6 = var4.nick;
-                    if(!(var3 == var6)) { _fun0003_ip = 33; continue _fun0003 }
-case 34:
+                    if(!(var3 == var6)) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var7 = 19;
@@ -333,16 +346,16 @@ case 34:
                     var8 = var9.getName;
                     var7 = var4.user;
                     var6 = var8.bind(var9)(var7);
-case 33:
+case 35:
                     var1['displayName'] = var6;
                     var1['avatarUrl'] = var5;
                     var4 = var4.voiceState;
                     var4 = var4.selfStream;
                     var3 = var3 != var4;
-                    if(!var3) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+                    if(!var3) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
                     var3 = var4;
-case 35:
+case 37:
                     var1['isStreaming'] = var3;
                     var1['fontId'] = var2;
                     return var1;
@@ -354,10 +367,10 @@ case 35:
             var2 = var2.bind(var4)(var17);
             var4 = var1 != var2;
             var12 = undefined;
-            if(!var4) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+            if(!var4) { _fun0002_ip = 39; continue _fun0002 }
+case 30:
             var12 = var2;
-case 37:
+case 39:
             var5 = _closure1_slot13;
             var4 = var5.getCurrentClientVoiceChannelId;
             var2 = var8.id;
@@ -377,15 +390,15 @@ case 37:
             var19 = var15.bind(var19)();
             var20 = var1 != var19;
             var15 = undefined;
-            if(!var20) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
-            var15 = var19;
-case 39:
-            var15 = var18.bind(var7)(var15);
-            if(!(var1 == var15)) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
-            var15 = var14.backgroundColor;
+            if(!var20) { _fun0002_ip = 40; continue _fun0002 }
 case 41:
+            var15 = var19;
+case 40:
+            var15 = var18.bind(var7)(var15);
+            if(!(var1 == var15)) { _fun0002_ip = 42; continue _fun0002 }
+case 43:
+            var15 = var14.backgroundColor;
+case 42:
             var14 = 'backgroundColor';
             var2[13] = var15;
             var14 = _closure1_slot15;
@@ -415,13 +428,13 @@ case 41:
             var8 = 'titleText';
             var2[7] = var11;
             var3 = var3.length;
-            if(!(!(var3 > var6))) { _fun0002_ip = 43; continue _fun0002 }
-case 44:
-            var6 = var10.voiceMutedColor;
-            _fun0002_ip = 45; continue _fun0002;
-case 43:
-            var6 = var10.voiceActiveColor;
+            if(!(!(var3 > var6))) { _fun0002_ip = 44; continue _fun0002 }
 case 45:
+            var6 = var10.voiceMutedColor;
+            _fun0002_ip = 46; continue _fun0002;
+case 44:
+            var6 = var10.voiceActiveColor;
+case 46:
             var3 = 'titleColor';
             var2[2] = var6;
             var6 = _closure1_slot0;

@@ -192,7 +192,7 @@ case 15:
             }
         };
         var6['value'] = var2;
-        var2 = new Array(7);
+        var2 = new Array(8);
         var2[0] = var6;
         var6 = {};
         var7 = 'isApplied';
@@ -219,6 +219,18 @@ case 15:
         var6['value'] = var7;
         var2[2] = var6;
         var6 = {};
+        var7 = 'hasAcknowledged';
+        var6['key'] = var7;
+        var7 = function value() {
+            var1 = this;
+            var2 = var1.expiresAt;
+            var1 = null;
+            var1 = var1 != var2;
+            return var1;
+        };
+        var6['value'] = var7;
+        var2[3] = var6;
+        var6 = {};
         var7 = 'getFullIntervalCount';
         var6['key'] = var7;
         var7 = function value() {
@@ -238,7 +250,7 @@ case 17:
             }
         };
         var6['value'] = var7;
-        var2[3] = var6;
+        var2[4] = var6;
         var6 = {};
         var7 = 'getDiscountInterval';
         var6['key'] = var7;
@@ -249,7 +261,7 @@ case 17:
             return var1;
         };
         var6['value'] = var7;
-        var2[4] = var6;
+        var2[5] = var6;
         var6 = {};
         var7 = 'getApplicableSubscriptionInterval';
         var6['key'] = var7;
@@ -262,7 +274,7 @@ case 17:
             return var1;
         };
         var6['value'] = var7;
-        var2[5] = var6;
+        var2[6] = var6;
         var6 = {};
         var7 = 'getIsMultiIntervalDiscount';
         var6['key'] = var7;
@@ -275,7 +287,7 @@ case 17:
             return var1;
         };
         var6['value'] = var7;
-        var2[6] = var6;
+        var2[7] = var6;
         var6 = {};
         var7 = 'createFromServer';
         var6['key'] = var7;

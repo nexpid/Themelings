@@ -194,7 +194,7 @@ case 2:
             var2 = {'flexDirection': 'column', 'pointerEvents': 'box-none', 'flexGrow': 1, 'flexShrink': 0, 'justifyContent': 'space-between'};
             var11 = var3[var6];
             var11 = var4.bind(var5)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_16;
             var2['padding'] = var11;
             var1['videoContentWrapper'] = var2;
@@ -234,12 +234,12 @@ case 2:
             var2['borderColor'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var2['paddingHorizontal'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_24;
             var2['paddingTop'] = var8;
             var1['questDetailsLandscape'] = var2;
@@ -250,12 +250,12 @@ case 2:
             var2 = {};
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var2['paddingHorizontal'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_8;
             var2['paddingVertical'] = var8;
             var1['footer'] = var2;
@@ -278,12 +278,12 @@ case 2:
             var2['position'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var2['top'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var2['left'] = var8;
             var1['closeButtonLandscape'] = var2;
@@ -876,7 +876,7 @@ case 29:
             var21 = 7;
             var17 = var40[var21];
             var17 = var38.bind(var4)(var17);
-            var17 = var17.spacing;
+            var17 = var17.space;
             var17 = var17.PX_24;
             var14['spacing'] = var17;
             var17 = var28.questDetailsLandscape;
@@ -888,7 +888,7 @@ case 29:
             var24 = 'horizontal';
             var20 = var40[var21];
             var20 = var38.bind(var4)(var20);
-            var20 = var20.spacing;
+            var20 = var20.space;
             var20 = var20.PX_8;
             var17['spacing'] = var20;
             var20 = 26;
@@ -984,7 +984,7 @@ case 31:
             var24 = _closure1_slot1;
             var21 = var32[var21];
             var21 = var24.bind(var4)(var21);
-            var21 = var21.spacing;
+            var21 = var21.space;
             var21 = var21.PX_16;
             var18['spacing'] = var21;
             var25 = _closure1_slot9;
@@ -1389,7 +1389,7 @@ case 44:
             var32['direction'] = var34;
             var34 = var19[var22];
             var34 = var21.bind(var4)(var34);
-            var34 = var34.spacing;
+            var34 = var34.space;
             var34 = var34.PX_24;
             var32['spacing'] = var34;
             var34 = var19[var6];
@@ -1398,7 +1398,7 @@ case 44:
             var34 = {'direction': 'horizontal', 'justify': 'space-between'};
             var36 = var19[var22];
             var36 = var21.bind(var4)(var36);
-            var36 = var36.spacing;
+            var36 = var36.space;
             var36 = var36.PX_8;
             var34['spacing'] = var36;
             var36 = 26;
@@ -1500,7 +1500,7 @@ case 44:
             var6['style'] = var26;
             var19 = var19[var22];
             var19 = var21.bind(var4)(var19);
-            var19 = var19.spacing;
+            var19 = var19.space;
             var19 = var19.PX_4;
             var6['spacing'] = var19;
             var6['onLayout'] = var17;
@@ -1733,7 +1733,7 @@ case 54:
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var10['padding'] = var11;
     var4['footerButton'] = var10;

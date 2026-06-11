@@ -255,20 +255,20 @@ case 0:
             var _closure2_slot2 = var15;
             var2 = _closure1_slot12;
             var4 = undefined;
-            var7 = var2.bind(var4)();
+            var6 = var2.bind(var4)();
             var13 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var2 = 13;
-            var2 = var10[var2];
-            var6 = var13.bind(var4)(var2);
-            var2 = var6.useHasPreviewableMedia;
-            var18 = var2.bind(var6)(var8);
+            var2 = var7[var2];
+            var5 = var13.bind(var4)(var2);
+            var2 = var5.useHasPreviewableMedia;
+            var18 = var2.bind(var5)(var8);
             var _closure2_slot3 = var18;
             var14 = _closure1_slot3;
-            var9 = var14.useMemo;
+            var10 = var14.useMemo;
             var2 = var8.embeds;
-            var6 = new Array(1);
-            var6[0] = var2;
+            var5 = new Array(1);
+            var5[0] = var2;
             var2 = function() {
                 var1 = _closure2_slot0;
                 var3 = var1.embeds;
@@ -284,13 +284,13 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var16 = var9.bind(var14)(var2, var6);
+            var16 = var10.bind(var14)(var2, var5);
             var _closure2_slot4 = var16;
-            var9 = var14.useMemo;
-            var6 = new Array(2);
-            var6[0] = var18;
+            var10 = var14.useMemo;
+            var5 = new Array(2);
+            var5[0] = var18;
             var2 = var8.embeds;
-            var6[1] = var2;
+            var5[1] = var2;
             var2 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -320,24 +320,24 @@ case 12:
                     return var1;
                 }
             };
-            var12 = var9.bind(var14)(var2, var6);
+            var11 = var10.bind(var14)(var2, var5);
             var2 = var8.content;
-            var6 = var2.length;
+            var5 = var2.length;
             var2 = 0;
-            var17 = var6 > var2;
+            var17 = var5 > var2;
             var _closure2_slot5 = var17;
             var2 = _closure1_slot1;
-            var6 = 14;
-            var6 = var10[var6];
-            var9 = var2.bind(var4)(var6);
-            var6 = {};
-            var11 = true;
-            var6['ignoreKeyboard'] = var11;
-            var6 = var9.bind(var4)(var6);
-            var9 = var6.height;
-            var11 = var14.useCallback;
-            var6 = new Array(1);
-            var6[0] = var1;
+            var5 = 14;
+            var5 = var7[var5];
+            var10 = var2.bind(var4)(var5);
+            var5 = {};
+            var12 = true;
+            var5['ignoreKeyboard'] = var12;
+            var5 = var10.bind(var4)(var5);
+            var12 = var5.height;
+            var10 = var14.useCallback;
+            var5 = new Array(1);
+            var5[0] = var1;
             var1 = function(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -356,11 +356,11 @@ case 16:
                     return var1;
                 }
             };
-            var6 = var11.bind(var14)(var1, var6);
+            var5 = var10.bind(var14)(var1, var5);
             var1 = 9;
-            var11 = var10[var1];
-            var13 = var13.bind(var4)(var11);
-            var11 = var13.useAnimatedStyle;
+            var10 = var7[var1];
+            var13 = var13.bind(var4)(var10);
+            var10 = var13.useAnimatedStyle;
             var3 = function l() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -434,23 +434,23 @@ case 22:
             var3['__workletHash'] = var14;
             var14 = _closure1_slot16;
             var3['__initData'] = var14;
-            var11 = var11.bind(var13)(var3);
+            var10 = var10.bind(var13)(var3);
             var3 = _closure1_slot8;
-            var1 = var10[var1];
+            var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.View;
             var1 = {};
-            var10 = var7.expandedPreviewOverlay;
-            var7 = new Array(2);
-            var7[0] = var10;
-            var10 = null;
-            if(!var12) { _fun0004_ip = 28; continue _fun0004 }
+            var7 = var6.expandedPreviewOverlay;
+            var6 = new Array(2);
+            var6[0] = var7;
+            var7 = null;
+            if(!var11) { _fun0004_ip = 28; continue _fun0004 }
 case 29:
-            var10 = var11;
+            var7 = var10;
 case 28:
-            var7[1] = var10;
-            var1['style'] = var7;
-            var1['onLayout'] = var6;
+            var6[1] = var7;
+            var1['style'] = var6;
+            var1['onLayout'] = var5;
             var7 = _closure1_slot8;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -462,9 +462,15 @@ case 28:
             var5['message'] = var8;
             var8 = 6;
             var5['lineClamp'] = var8;
-            var8 = 0.25;
-            var8 = var8 * var9;
-            var5['maxHeight'] = var8;
+            var11 = 0.25;
+            var11 = var11 * var12;
+            var5['maxHeight'] = var11;
+            var9 = _closure1_slot1;
+            var8 = var10[var8];
+            var8 = var9.bind(var4)(var8);
+            var8 = var8.colors;
+            var8 = var8.MOBILE_ALERT_BACKGROUND_DEFAULT;
+            var5['backgroundColor'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

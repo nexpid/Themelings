@@ -617,29 +617,29 @@ case 69:
     var2 = function acknowledgeUserOffer(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var3 = arg1;
+            var5 = arg1;
             var2 = arg2;
-            var5 = null;
-            var6 = var5 != var3;
+            var3 = null;
+            var6 = var3 != var5;
             var4 = undefined;
             var7 = undefined;
             if(!var6) { _fun0004_ip = 81; continue _fun0004 }
 case 82:
-            var6 = var3.expires_at;
-            var6 = var5 == var6;
+            var6 = var5.expires_at;
+            var6 = var3 == var6;
             var7 = undefined;
             if(!var6) { _fun0004_ip = 81; continue _fun0004 }
 case 83:
-            var7 = var3.id;
+            var7 = var5.id;
 case 81:
-            var3 = var5 != var2;
+            var3 = var3 == var2;
             var6 = undefined;
-            if(!var3) { _fun0004_ip = 84; continue _fun0004 }
+            if(var3) { _fun0004_ip = 84; continue _fun0004 }
 case 85:
-            var3 = var2.expiresAt;
-            var3 = var5 == var3;
+            var3 = var2.hasAcknowledged;
+            var3 = var3.bind(var2)();
             var6 = undefined;
-            if(!var3) { _fun0004_ip = 84; continue _fun0004 }
+            if(var3) { _fun0004_ip = 84; continue _fun0004 }
 case 86:
             var6 = var2.id;
 case 84:

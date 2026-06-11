@@ -40,7 +40,7 @@ case 0:
         var10 = 3;
         var4 = var6[var10];
         var4 = var11.bind(var1)(var4);
-        var4 = var4.spacing;
+        var4 = var4.space;
         var13 = var4.PX_16;
         var _closure1_slot8 = var13;
         var4 = 4;
@@ -65,14 +65,14 @@ case 2:
         var9['height'] = var12;
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
-        var12 = var12.spacing;
+        var12 = var12.space;
         var12 = var12.PX_8;
         var9['paddingBottom'] = var12;
         var4['scroller'] = var9;
         var9 = {};
         var10 = var6[var10];
         var10 = var11.bind(var1)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_16;
         var9['paddingHorizontal'] = var10;
         var4['scrollerContent'] = var9;

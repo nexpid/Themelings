@@ -782,7 +782,7 @@ case 66:
             var7 = 8;
             var7 = var10[var7];
             var7 = var8.bind(var4)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_24;
             var1['spacing'] = var7;
             var8 = var6.Array;
@@ -1281,7 +1281,7 @@ case 84:
             var8 = 8;
             var8 = var21[var8];
             var8 = var10.bind(var4)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_24;
             var5['spacing'] = var8;
             var21 = _closure1_slot10;

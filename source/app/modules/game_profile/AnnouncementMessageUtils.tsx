@@ -448,7 +448,7 @@ case 43:
                 var7['title'] = var8;
                 var8 = '';
                 if(var13) { _fun0001_ip = 45; continue _fun0001 }
-case 46:
+case 26:
                 var13 = var6.slice;
                 var11 = var14 + var11;
                 var13 = var13.bind(var6)(var11);
@@ -463,8 +463,8 @@ case 44:
                 var14 = var5.reactions;
                 var11 = var10 == var14;
                 var3 = undefined;
-                if(var11) { _fun0001_ip = 47; continue _fun0001 }
-case 48:
+                if(var11) { _fun0001_ip = 46; continue _fun0001 }
+case 47:
                 var13 = var14.reduce;
                 var11 = function(arg1, arg2) {
                     var1 = arg2;
@@ -475,105 +475,105 @@ case 48:
                 };
                 var4 = 0;
                 var3 = var13.bind(var14)(var11, var4);
-case 47:
+case 46:
                 var13 = var10 != var3;
                 var11 = 0;
                 var4 = 0;
-                if(!var13) { _fun0001_ip = 49; continue _fun0001 }
-case 33:
-                var4 = var3;
+                if(!var13) { _fun0001_ip = 48; continue _fun0001 }
 case 49:
+                var4 = var3;
+case 48:
                 var3 = undefined;
                 if(!(var6 !== var12)) { _fun0001_ip = 50; continue _fun0001 }
-case 51:
+case 36:
                 var1 = _closure1_slot3;
                 var1 = var1.bind(var17)(var2);
                 var3 = undefined;
                 if(var1) { _fun0001_ip = 50; continue _fun0001 }
-case 52:
+case 51:
                 var1 = var2.embeds;
                 var11 = var1[var11];
                 var12 = var10 != var11;
                 var1 = undefined;
-                if(!var12) { _fun0001_ip = 53; continue _fun0001 }
-case 54:
+                if(!var12) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
                 var12 = var11.author;
                 var13 = var10 == var12;
                 var16 = undefined;
-                if(var13) { _fun0001_ip = 55; continue _fun0001 }
-case 56:
-                var16 = var12.name;
+                if(var13) { _fun0001_ip = 54; continue _fun0001 }
 case 55:
+                var16 = var12.name;
+case 54:
                 var12 = var11.author;
                 var13 = var10 == var12;
                 var15 = undefined;
-                if(var13) { _fun0001_ip = 57; continue _fun0001 }
-case 58:
-                var15 = var12.iconProxyURL;
+                if(var13) { _fun0001_ip = 56; continue _fun0001 }
 case 57:
-                if(!(var10 == var15)) { _fun0001_ip = 59; continue _fun0001 }
-case 60:
+                var15 = var12.iconProxyURL;
+case 56:
+                if(!(var10 == var15)) { _fun0001_ip = 58; continue _fun0001 }
+case 59:
                 var13 = var11.author;
                 var14 = var10 == var13;
                 var12 = undefined;
-                if(var14) { _fun0001_ip = 61; continue _fun0001 }
-case 62:
-                var12 = var13.iconURL;
+                if(var14) { _fun0001_ip = 60; continue _fun0001 }
 case 61:
+                var12 = var13.iconURL;
+case 60:
                 var15 = var12;
-case 59:
+case 58:
                 var12 = var11.footer;
                 var13 = var10 == var12;
                 var14 = undefined;
-                if(var13) { _fun0001_ip = 63; continue _fun0001 }
-case 64:
-                var14 = var12.text;
+                if(var13) { _fun0001_ip = 62; continue _fun0001 }
 case 63:
-                if(!(var10 == var14)) { _fun0001_ip = 65; continue _fun0001 }
-case 66:
+                var14 = var12.text;
+case 62:
+                if(!(var10 == var14)) { _fun0001_ip = 64; continue _fun0001 }
+case 65:
                 var13 = var11.provider;
                 var18 = var10 == var13;
                 var12 = undefined;
-                if(var18) { _fun0001_ip = 67; continue _fun0001 }
-case 68:
+                if(var18) { _fun0001_ip = 66; continue _fun0001 }
+case 35:
                 var12 = var13.name;
-case 67:
+case 66:
                 var14 = var12;
-case 65:
+case 64:
                 var12 = var11.footer;
                 var18 = var10 == var12;
                 var13 = undefined;
-                if(var18) { _fun0001_ip = 69; continue _fun0001 }
-case 70:
+                if(var18) { _fun0001_ip = 67; continue _fun0001 }
+case 68:
                 var13 = var12.iconProxyURL;
-case 69:
-                if(!(var10 == var13)) { _fun0001_ip = 71; continue _fun0001 }
-case 72:
+case 67:
+                if(!(var10 == var13)) { _fun0001_ip = 69; continue _fun0001 }
+case 70:
                 var18 = var11.footer;
                 var19 = var10 == var18;
                 var12 = undefined;
-                if(var19) { _fun0001_ip = 73; continue _fun0001 }
-case 74:
+                if(var19) { _fun0001_ip = 71; continue _fun0001 }
+case 72:
                 var12 = var18.iconURL;
-case 73:
-                var13 = var12;
 case 71:
+                var13 = var12;
+case 69:
                 var12 = var11.url;
                 var18 = var11.color;
                 var19 = var10 != var18;
                 var11 = undefined;
-                if(!var19) { _fun0001_ip = 75; continue _fun0001 }
-case 76:
+                if(!var19) { _fun0001_ip = 73; continue _fun0001 }
+case 74:
                 var11 = var18;
-case 75:
-                if(!(var10 == var16)) { _fun0001_ip = 77; continue _fun0001 }
-case 78:
-                if(!(var10 == var14)) { _fun0001_ip = 77; continue _fun0001 }
-case 79:
+case 73:
+                if(!(var10 == var16)) { _fun0001_ip = 75; continue _fun0001 }
+case 76:
+                if(!(var10 == var14)) { _fun0001_ip = 75; continue _fun0001 }
+case 77:
                 var10 = var10 != var12;
                 var1 = undefined;
-                if(!var10) { _fun0001_ip = 53; continue _fun0001 }
-case 77:
+                if(!var10) { _fun0001_ip = 52; continue _fun0001 }
+case 75:
                 var10 = {};
                 var10['authorName'] = var16;
                 var10['authorIconUrl'] = var15;
@@ -582,7 +582,7 @@ case 77:
                 var10['url'] = var12;
                 var10['color'] = var11;
                 var1 = var10;
-case 53:
+case 52:
                 var3 = var1;
 case 50:
                 var1 = {};
@@ -620,7 +620,7 @@ case 0:
             var1 = var3.bind(var4)(var1);
             var3 = null;
             if(!(var3 == var1)) { _fun0005_ip = 10; continue _fun0005 }
-case 80:
+case 78:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 7;
@@ -652,8 +652,8 @@ case 0:
             var3 = var2.bind(var3)(var1);
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0006_ip = 81; continue _fun0006 }
-case 82:
+            if(var2) { _fun0006_ip = 79; continue _fun0006 }
+case 80:
             var6 = var3.searchParams;
             var5 = var6.append;
             var4 = 'format';
@@ -661,7 +661,7 @@ case 82:
             var2 = var5.bind(var6)(var4, var2);
             var2 = var3.toString;
             var1 = var2.bind(var3)();
-case 81:
+case 79:
             return var1;
         }
     };

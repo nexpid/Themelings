@@ -265,12 +265,12 @@ case 20:
             var9 = 13;
             var11 = var21[var9];
             var11 = var10.bind(var5)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_12;
             var8['paddingHorizontal'] = var11;
             var9 = var21[var9];
             var9 = var10.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_16;
             var8['paddingBottom'] = var9;
             var6['style'] = var8;

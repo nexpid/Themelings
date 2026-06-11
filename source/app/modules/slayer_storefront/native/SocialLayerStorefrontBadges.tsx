@@ -43,7 +43,7 @@ case 0:
         var11 = 4;
         var10 = var6[var11];
         var10 = var12.bind(var1)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_4;
         var9['gap'] = var10;
         var10 = var6[var11];
@@ -53,7 +53,7 @@ case 0:
         var9['borderRadius'] = var10;
         var10 = var6[var11];
         var10 = var12.bind(var1)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_8;
         var9['paddingHorizontal'] = var10;
         var10 = var6[var11];
@@ -67,7 +67,7 @@ case 0:
         var9['textTransform'] = var10;
         var10 = var6[var11];
         var10 = var12.bind(var1)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_12;
         var9['fontSize'] = var10;
         var10 = 5;
@@ -77,7 +77,7 @@ case 0:
         var10 = var10.bind(var13)();
         var11 = var6[var11];
         var11 = var12.bind(var1)(var11);
-        var11 = var11.spacing;
+        var11 = var11.space;
         if(var10) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
         var10 = var11.PX_16;

@@ -950,7 +950,7 @@ case 99:
             var3 = 27;
             var3 = var8[var3];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var2 = var3.PX_4;
 case 90:
             var7['marginRight'] = var2;

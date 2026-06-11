@@ -516,7 +516,7 @@ case 6:
             var8 = 13;
             var8 = var32[var8];
             var8 = var26.bind(var4)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_24;
             var5['spacing'] = var8;
             var8 = var11.sceneInner;
@@ -1524,7 +1524,7 @@ case 44:
     var12 = 13;
     var16 = var6[var12];
     var16 = var13.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_16;
     var11['paddingBottom'] = var16;
     var4['container'] = var11;
@@ -1539,7 +1539,7 @@ case 44:
     var11['flex'] = var15;
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_16;
     var11['paddingHorizontal'] = var15;
     var4['sceneInner'] = var11;
@@ -1551,7 +1551,7 @@ case 44:
     var11['paddingBottom'] = var14;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var11['paddingHorizontal'] = var14;
     var4['sceneFooter'] = var11;

@@ -1002,10 +1002,10 @@ case 0:
                     var10 = null;
                     var3 = var10 == var2;
                     var11 = undefined;
-                    if(var3) { _fun0012_ip = 48; continue _fun0012 }
-case 49:
-                    var11 = var2.label;
+                    if(var3) { _fun0012_ip = 21; continue _fun0012 }
 case 48:
+                    var11 = var2.label;
+case 21:
                     var3 = _closure1_slot16;
                     var9 = _closure1_slot0;
                     var12 = _closure1_slot2;
@@ -1052,10 +1052,10 @@ case 48:
                     var8 = {};
                     var12 = var10 != var11;
                     var10 = '';
-                    if(!var12) { _fun0012_ip = 50; continue _fun0012 }
-case 51:
-                    var10 = var11;
+                    if(!var12) { _fun0012_ip = 49; continue _fun0012 }
 case 50:
+                    var10 = var11;
+case 49:
                     var8['text'] = var10;
                     var8 = var3.bind(var4)(var9, var8);
                     var5['trailing'] = var8;
@@ -1072,8 +1072,8 @@ case 50:
             var17 = var17.bind(var5)();
             var9[2] = var17;
             var10 = null;
-            if(!var13) { _fun0001_ip = 52; continue _fun0001 }
-case 53:
+            if(!var13) { _fun0001_ip = 51; continue _fun0001 }
+case 52:
             var13 = _closure1_slot16;
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -1105,7 +1105,7 @@ case 53:
             var14 = var13.bind(var5)(var15, var14);
             var11['children'] = var14;
             var10 = var13.bind(var5)(var12, var11);
-case 52:
+case 51:
             var9[3] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var5)(var7, var6);

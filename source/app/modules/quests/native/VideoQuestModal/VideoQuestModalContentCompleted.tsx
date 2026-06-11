@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 4;
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_16;
     var10['padding'] = var15;
     var4['content'] = var10;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_16;
     var10['marginBottom'] = var15;
     var4['contentEndCardHeader'] = var10;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['borderTopColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_24;
     var10['paddingTop'] = var14;
     var4['contentEndCard'] = var10;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['height'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_24;
     var10['marginBottom'] = var14;
     var14 = var6[var11];
@@ -453,7 +453,7 @@ case 4:
             var22 = 4;
             var15 = var15[var22];
             var15 = var20.bind(var4)(var15);
-            var15 = var15.spacing;
+            var15 = var15.space;
             var15 = var15.PX_24;
             var9['spacing'] = var15;
             var20 = var26.content;
@@ -595,7 +595,7 @@ case 17:
             var32 = _closure1_slot1;
             var16 = var31[var22];
             var16 = var32.bind(var4)(var16);
-            var16 = var16.spacing;
+            var16 = var16.space;
             var16 = var16.PX_4;
             var13['spacing'] = var16;
             var16 = var26.contentEndCardHeaderCopy;
@@ -717,7 +717,7 @@ case 19:
             var16 = _closure1_slot1;
             var13 = var26[var22];
             var13 = var16.bind(var4)(var13);
-            var13 = var13.spacing;
+            var13 = var13.space;
             var13 = var13.PX_16;
             var10['spacing'] = var13;
             var17 = _closure1_slot6;

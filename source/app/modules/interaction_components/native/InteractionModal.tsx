@@ -324,12 +324,12 @@ case 2:
     var10['flexGrow'] = var13;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['paddingHorizontal'] = var14;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['gap'] = var14;
     var5['modalContent'] = var10;
@@ -338,12 +338,12 @@ case 2:
     var10['flexDirection'] = var14;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['marginBottom'] = var14;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['paddingHorizontal'] = var14;
     var5['header'] = var10;
@@ -353,7 +353,7 @@ case 2:
     var10 = {};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['marginRight'] = var13;
     var5['icon'] = var10;
@@ -362,7 +362,7 @@ case 2:
     var10['marginTop'] = var13;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['marginBottom'] = var14;
     var5['footer'] = var10;
@@ -379,7 +379,7 @@ case 2:
     var10 = {};
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['marginBottom'] = var11;
     var5['error'] = var10;

@@ -402,7 +402,7 @@ case 29:
             var3 = var6.bind(var7)(var3, var5);
             var1['percentComplete'] = var3;
             if(!(!(var11 < var9))) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+case 13:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = var3[var12];
@@ -414,7 +414,7 @@ case 32:
             var3 = var3.t;
             var3 = var3["+Gyklt"];
             var3 = var5.bind(var6)(var3);
-            _fun0004_ip = 33; continue _fun0004;
+            _fun0004_ip = 32; continue _fun0004;
 case 31:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -433,7 +433,7 @@ case 31:
             var4['total'] = var9;
             var4['step'] = var8;
             var3 = var6.bind(var7)(var5, var4);
-case 33:
+case 32:
             var1['subtitle'] = var3;
             var1['completed'] = var2;
             return var1;
@@ -479,10 +479,10 @@ case 0:
             var2 = _closure1_slot8;
             var2 = var4 - var2;
             var2 = var3 < var2;
-            if(!var1) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
-            var1 = !var2;
+            if(!var1) { _fun0005_ip = 33; continue _fun0005 }
 case 34:
+            var1 = !var2;
+case 33:
             return var1;
         }
     };

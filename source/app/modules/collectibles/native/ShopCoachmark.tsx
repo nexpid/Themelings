@@ -155,7 +155,7 @@ case 5:
                 var6 = 6;
                 var6 = var9[var6];
                 var6 = var8.bind(var7)(var6);
-                var6 = var6.spacing;
+                var6 = var6.space;
                 var5 = var6.PX_12;
 case 4:
                 var1['offsetY'] = var5;

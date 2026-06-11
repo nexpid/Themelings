@@ -473,7 +473,7 @@ case 22:
             var14 = 8;
             var27 = var18[var14];
             var27 = var30.bind(var4)(var27);
-            var27 = var27.spacing;
+            var27 = var27.space;
             var27 = var27.PX_8;
             var9['spacing'] = var27;
             var27 = var13.textContainer;
@@ -531,7 +531,7 @@ case 26:
             var16 = _closure1_slot1;
             var14 = var26[var14];
             var14 = var16.bind(var4)(var14);
-            var14 = var14.spacing;
+            var14 = var14.space;
             var14 = var14.PX_12;
             var10['spacing'] = var14;
             var13 = var13.buttonsContainer;
@@ -672,12 +672,12 @@ case 0:
             var9 = var3[var7];
             var6 = undefined;
             var9 = var8.bind(var6)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_16;
             var2['paddingHorizontal'] = var9;
             var3 = var3[var7];
             var3 = var8.bind(var6)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_16;
             var2['paddingBottom'] = var3;
             var1['contentContainer'] = var2;
@@ -697,7 +697,7 @@ case 38:
             var8 = _closure1_slot2;
             var8 = var8[var7];
             var8 = var9.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var9 = var8.PX_8;
             var8 = 52;
             var3 = var8 + var9;
@@ -749,7 +749,7 @@ case 40:
             var8 = _closure1_slot2;
             var8 = var8[var7];
             var8 = var9.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var3 = var8.PX_12;
 case 39:
             var2['bottom'] = var3;
@@ -760,17 +760,17 @@ case 39:
             var8 = _closure1_slot2;
             var10 = var8[var7];
             var10 = var9.bind(var6)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_16;
             var2['top'] = var10;
             var10 = var8[var7];
             var10 = var9.bind(var6)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_16;
             var2['right'] = var10;
             var8 = var8[var7];
             var8 = var9.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var2['gap'] = var8;
             var1['contextMenuContainer'] = var2;
@@ -783,7 +783,7 @@ case 42:
             var9 = _closure1_slot2;
             var9 = var9[var7];
             var9 = var10.bind(var6)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var8 = var9.PX_16;
 case 41:
             var2['paddingTop'] = var8;
@@ -791,12 +791,12 @@ case 41:
             var8 = _closure1_slot2;
             var10 = var8[var7];
             var10 = var9.bind(var6)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_8;
             var2['gap'] = var10;
             var8 = var8[var7];
             var8 = var9.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var2['marginBottom'] = var8;
             var2['textAlign'] = var3;
@@ -812,7 +812,7 @@ case 44:
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var3 = var4.PX_16;
 case 43:
             var2['paddingTop'] = var3;

@@ -74,7 +74,7 @@ case 5:
             var7 = 7;
             var7 = var9[var7];
             var7 = var8.bind(var6)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var3 = var7.PX_8;
 case 4:
             var2['marginTop'] = var3;
@@ -86,7 +86,7 @@ case 7:
             var4 = 7;
             var4 = var8[var4];
             var4 = var7.bind(var6)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var3 = var4.PX_8;
 case 6:
             var2['paddingLeft'] = var3;
@@ -95,7 +95,7 @@ case 6:
             var7 = 7;
             var9 = var3[var7];
             var9 = var8.bind(var6)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_8;
             var2['gap'] = var9;
             var1['headerTitleContainer'] = var2;
@@ -106,7 +106,7 @@ case 6:
             var2 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center'};
             var3 = var3[var7];
             var3 = var8.bind(var6)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_8;
             var2['gap'] = var3;
             var3 = undefined;
@@ -116,7 +116,7 @@ case 9:
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var3 = var4.PX_8;
 case 8:
             var2['marginTop'] = var3;

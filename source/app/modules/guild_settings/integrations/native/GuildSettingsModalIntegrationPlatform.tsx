@@ -121,7 +121,7 @@ case 4:
     var11 = 11;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['paddingTop'] = var11;
     var7['form'] = var10;
@@ -893,7 +893,7 @@ case 58:
             var14 = _closure1_slot1;
             var8 = var8[var16];
             var8 = var14.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_24;
             var12['spacing'] = var8;
             var14 = var1 == var15;

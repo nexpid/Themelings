@@ -48,14 +48,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 5;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingHorizontal'] = var12;
     var4['memberListContainer'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['paddingVertical'] = var12;
     var4['memberListTitle'] = var9;

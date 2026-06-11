@@ -498,7 +498,7 @@ case 13:
     var10 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['marginTop'] = var13;
     var4['divider'] = var10;
@@ -512,12 +512,12 @@ case 13:
     var10['borderRadius'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_4;
     var10['paddingHorizontal'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_4;
     var10['marginBottom'] = var13;
     var13 = 'center';

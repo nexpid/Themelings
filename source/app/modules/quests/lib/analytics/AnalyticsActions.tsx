@@ -1,12 +1,12 @@
 // app/modules/quests/lib/analytics/AnalyticsActions.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
-    var10 = metroImportDefault;
+    var8 = require;
+    var11 = metroImportDefault;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
-    var _closure1_slot1 = var10;
-    var _closure1_slot2 = var8;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var9;
     var1 = function assignBillingSessionId(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -284,7 +284,7 @@ case 24:
         }
     };
     var _closure1_slot13 = var1;
-    var5 = function trackQuestEvent(arg1) {
+    var6 = function trackQuestEvent(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = arg1;
@@ -325,8 +325,8 @@ case 30:
             return var1;
         }
     };
-    var _closure1_slot14 = var5;
-    var4 = function trackAdContentEvent(arg1) {
+    var _closure1_slot14 = var6;
+    var5 = function trackAdContentEvent(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var3 = arg1;
@@ -367,8 +367,8 @@ case 5:
             return var1;
         }
     };
-    var _closure1_slot15 = var4;
-    var1 = function getCommonClickEventProperties() {
+    var _closure1_slot15 = var5;
+    var4 = function getCommonClickEventProperties() {
         var1 = undefined;
         var4 = _closure1_slot17;
         var3 = var4.apply;
@@ -378,7 +378,7 @@ case 5:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot16 = var4;
     var1 = function _getCommonClickEventProperties() {
         var5 = undefined;
         var1 = undefined;
@@ -747,57 +747,57 @@ case 65:
         return var1;
     };
     var _closure1_slot19 = var1;
-    var6 = global;
-    var12 = var6.Object;
-    var11 = var12.defineProperty;
-    var9 = {};
+    var7 = global;
+    var13 = var7.Object;
+    var12 = var13.defineProperty;
+    var10 = {};
     var1 = true;
-    var9['value'] = var1;
+    var10['value'] = var1;
     var1 = '__esModule';
-    var1 = var11.bind(var12)(var3, var1, var9);
+    var1 = var12.bind(var13)(var3, var1, var10);
     var1 = 0;
-    var9 = var8[var1];
+    var10 = var9[var1];
     var1 = undefined;
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot3 = var9;
-    var9 = 1;
-    var9 = var8[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot4 = var9;
-    var9 = 2;
-    var9 = var8[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot5 = var9;
-    var9 = 3;
-    var9 = var8[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot6 = var9;
-    var9 = 4;
-    var9 = var8[var9];
-    var9 = var7.bind(var1)(var9);
-    var9 = var9.AnalyticEvents;
-    var _closure1_slot7 = var9;
-    var10 = var6.Set;
-    var11 = var9.QUEST_CONTENT_VIEWED;
-    var6 = new Array(2);
-    var6[0] = var11;
-    var9 = var9.QUEST_CONTENT_CLICKED;
-    var6[1] = var9;
-    var9 = var10.prototype;
-    var9 = Object.create(var9, {constructor: {value: var10}});
-    var16 = var9;
-    var15 = var6;
-    var6 = new var16[var10](var15, var14);
-    var6 = var6 instanceof Object ? var6 : var9;
-    var _closure1_slot8 = var6;
-    var6 = 19;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/quests/lib/analytics/AnalyticsActions.tsx';
-    var6 = var7.bind(var8)(var6);
-    var3['trackQuestEvent'] = var5;
-    var5 = function trackAppStoreOverlayEvent(arg1, arg2, arg3, arg4, arg5) {
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot3 = var10;
+    var10 = 1;
+    var10 = var9[var10];
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot4 = var10;
+    var10 = 2;
+    var10 = var9[var10];
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot5 = var10;
+    var10 = 3;
+    var10 = var9[var10];
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot6 = var10;
+    var10 = 4;
+    var10 = var9[var10];
+    var10 = var8.bind(var1)(var10);
+    var10 = var10.AnalyticEvents;
+    var _closure1_slot7 = var10;
+    var11 = var7.Set;
+    var12 = var10.QUEST_CONTENT_VIEWED;
+    var7 = new Array(2);
+    var7[0] = var12;
+    var10 = var10.QUEST_CONTENT_CLICKED;
+    var7[1] = var10;
+    var10 = var11.prototype;
+    var10 = Object.create(var10, {constructor: {value: var11}});
+    var17 = var10;
+    var16 = var7;
+    var7 = new var17[var11](var16, var15);
+    var7 = var7 instanceof Object ? var7 : var10;
+    var _closure1_slot8 = var7;
+    var7 = 19;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/quests/lib/analytics/AnalyticsActions.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['trackQuestEvent'] = var6;
+    var6 = function trackAppStoreOverlayEvent(arg1, arg2, arg3, arg4, arg5) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = arg2;
@@ -865,8 +865,8 @@ case 77:
             return var1;
         }
     };
-    var3['trackAppStoreOverlayEvent'] = var5;
-    var5 = function trackAdContentAppStoreOverlayEvent(arg1, arg2, arg3, arg4, arg5) {
+    var3['trackAppStoreOverlayEvent'] = var6;
+    var6 = function trackAdContentAppStoreOverlayEvent(arg1, arg2, arg3, arg4, arg5) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
@@ -932,8 +932,9 @@ case 81:
             return var1;
         }
     };
-    var3['trackAdContentAppStoreOverlayEvent'] = var5;
-    var3['trackAdContentEvent'] = var4;
+    var3['trackAdContentAppStoreOverlayEvent'] = var6;
+    var3['trackAdContentEvent'] = var5;
+    var3['getCommonClickEventProperties'] = var4;
     var4 = function trackQuestContentClicked() {
         var1 = undefined;
         var4 = _closure1_slot18;

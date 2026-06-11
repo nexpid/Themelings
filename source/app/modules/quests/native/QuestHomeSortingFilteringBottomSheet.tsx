@@ -151,7 +151,7 @@ case 6:
     var11 = 6;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['paddingHorizontal'] = var13;
     var4['content'] = var9;
@@ -160,7 +160,7 @@ case 6:
     var9 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['paddingTop'] = var13;
     var4['footerInline'] = var9;
@@ -464,7 +464,7 @@ case 16:
             var16 = 6;
             var16 = var21[var16];
             var16 = var18.bind(var4)(var16);
-            var16 = var16.spacing;
+            var16 = var16.space;
             var16 = var16.PX_32;
             var8['spacing'] = var16;
             var20 = _closure1_slot7;

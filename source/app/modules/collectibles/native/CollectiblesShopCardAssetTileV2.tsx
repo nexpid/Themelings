@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 6;
     var4 = var6[var11];
     var4 = var12.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var4 = var4.PX_16;
     var4 = var9 * var4;
     var13 = var8 - var4;
@@ -449,7 +449,7 @@ case 34:
             var16 = 6;
             var19 = var18[var16];
             var19 = var17.bind(var4)(var19);
-            var19 = var19.spacing;
+            var19 = var19.space;
             var19 = var19.PX_32;
             var19 = var20 - var19;
             var14['previewWidth'] = var19;

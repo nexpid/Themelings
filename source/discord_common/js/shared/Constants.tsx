@@ -1846,6 +1846,8 @@ case 4:
     var17['MKTG_PAGE_CTA_CLICKED'] = var2;
     var2 = 'mktg_page_scrolled';
     var17['MKTG_PAGE_SCROLLED'] = var2;
+    var2 = 'mktg_consent_timing_measured';
+    var17['MKTG_CONSENT_TIMING_MEASURED'] = var2;
     var2 = 'mktg_video_played';
     var17['MKTG_VIDEO_PLAYED'] = var2;
     var2 = 'deep_link_clicked';

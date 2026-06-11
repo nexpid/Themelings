@@ -706,7 +706,7 @@ case 22:
             var14 = 14;
             var14 = var9[var14];
             var14 = var17.bind(var4)(var14);
-            var14 = var14.spacing;
+            var14 = var14.space;
             var14 = var14.PX_24;
             var11['spacing'] = var14;
             var14 = {};

@@ -638,17 +638,23 @@ case 10:
                         var4 = _closure1_slot6;
                         var3 = var4.getChannel;
                         var1 = arg1;
-                        var5 = var3.bind(var4)(var1);
+                        var3 = var3.bind(var4)(var1);
                         var1 = null;
-                        var1 = var1 != var5;
+                        var1 = var1 != var3;
                         if(!var1) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
-                        var4 = _closure1_slot7;
-                        var3 = var4.can;
+                        var5 = _closure1_slot7;
+                        var4 = var5.can;
                         var2 = _closure1_slot12;
                         var2 = var2.VIEW_CHANNEL;
-                        var1 = var3.bind(var4)(var2, var5);
+                        var1 = var4.bind(var5)(var2, var3);
 case 12:
+                        if(!var1) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+                        var2 = var3.isMediaThread;
+                        var2 = var2.bind(var3)();
+                        var1 = !var2;
+case 14:
                         return var1;
                     }
                 };
@@ -660,22 +666,22 @@ case 12:
             var9 = var11.bind(var12)(var10, var9);
             var1['threadIds'] = var9;
             var1['canLoadMore'] = var8;
-            if(var3) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var3 = var6;
-case 14:
-            if(!var3) { _fun0001_ip = 16; continue _fun0001 }
+            if(var3) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var3 = var5;
+            var3 = var6;
 case 16:
             if(!var3) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
+            var3 = var5;
+case 18:
+            if(!var3) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var6 = _closure1_slot7;
             var5 = var6.can;
             var4 = _closure1_slot12;
             var4 = var4.READ_MESSAGE_HISTORY;
             var3 = var5.bind(var6)(var4, var7);
-case 18:
+case 20:
             var1['loading'] = var3;
             var1['loadMore'] = var2;
             return var1;

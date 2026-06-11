@@ -1194,7 +1194,7 @@ case 28:
             var2 = var2.AutomodQuarantineUserMessageEmbedKeys;
             var2 = var2.CLAN_TAG;
             if(!(var2 !== var3)) { _fun0013_ip = 97; continue _fun0013 }
-case 6:
+case 98:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 10;
@@ -1321,28 +1321,28 @@ case 0:
             var13 = var3 == var4;
             var9 = null;
             if(var13) { _fun0014_ip = 32; continue _fun0014 }
-case 98:
+case 99:
             var9 = var4;
 case 32:
             var13 = var3 != var9;
             var4 = undefined;
-            if(!var13) { _fun0014_ip = 99; continue _fun0014 }
-case 100:
+            if(!var13) { _fun0014_ip = 100; continue _fun0014 }
+case 101:
             var4 = var9;
-case 99:
+case 100:
             var1['notificationType'] = var4;
             var9 = var3 != var11;
             var4 = undefined;
-            if(!var9) { _fun0014_ip = 101; continue _fun0014 }
-case 102:
+            if(!var9) { _fun0014_ip = 102; continue _fun0014 }
+case 103:
             var9 = global;
             var9 = var9.parseInt;
             var4 = var9.bind(var2)(var11);
-case 101:
+case 102:
             var1['joinAttempts'] = var4;
             var9 = var3 != var12;
             var4 = undefined;
-            if(!var9) { _fun0014_ip = 103; continue _fun0014 }
+            if(!var9) { _fun0014_ip = 104; continue _fun0014 }
 case 51:
             var9 = global;
             var9 = var9.Date;
@@ -1352,42 +1352,42 @@ case 51:
             var15 = var12;
             var9 = new var16[var9](var15, var14);
             var4 = var9 instanceof Object ? var9 : var11;
-case 103:
+case 104:
             var1['raidDatetime'] = var4;
             var9 = var3 != var10;
             var4 = undefined;
-            if(!var9) { _fun0014_ip = 104; continue _fun0014 }
-case 105:
+            if(!var9) { _fun0014_ip = 105; continue _fun0014 }
+case 106:
             var9 = global;
             var9 = var9.parseInt;
             var4 = var9.bind(var2)(var10);
-case 104:
+case 105:
             var1['dmsSent'] = var4;
             var9 = var3 != var8;
             var4 = undefined;
-            if(!var9) { _fun0014_ip = 106; continue _fun0014 }
-case 107:
+            if(!var9) { _fun0014_ip = 107; continue _fun0014 }
+case 108:
             var4 = var8;
-case 106:
+case 107:
             var1['raidType'] = var4;
             var8 = var3 != var7;
             var4 = undefined;
-            if(!var8) { _fun0014_ip = 108; continue _fun0014 }
-case 109:
+            if(!var8) { _fun0014_ip = 109; continue _fun0014 }
+case 110:
             var4 = var7;
-case 108:
+case 109:
             var1['resolvedReason'] = var4;
             var7 = var3 != var6;
             var4 = undefined;
-            if(!var7) { _fun0014_ip = 110; continue _fun0014 }
-case 111:
+            if(!var7) { _fun0014_ip = 111; continue _fun0014 }
+case 112:
             var4 = var6;
-case 110:
+case 111:
             var1['decisionId'] = var4;
             var3 = var3 != var5;
             var2 = undefined;
-            if(!var3) { _fun0014_ip = 112; continue _fun0014 }
-case 113:
+            if(!var3) { _fun0014_ip = 113; continue _fun0014 }
+case 114:
             var3 = global;
             var3 = var3.Date;
             var4 = var3.prototype;
@@ -1396,7 +1396,7 @@ case 113:
             var15 = var5;
             var3 = new var16[var3](var15, var14);
             var2 = var3 instanceof Object ? var3 : var4;
-case 112:
+case 113:
             var1['suspiciousMentionActivityUntil'] = var2;
             return var1;
         }
@@ -1408,20 +1408,20 @@ case 112:
 case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0015_ip = 114; continue _fun0015 }
-case 115:
+            if(!(var1 != var4)) { _fun0015_ip = 115; continue _fun0015 }
+case 116:
             var3 = _closure1_slot20;
             var2 = undefined;
             var2 = var3.bind(var2)(var4);
             var3 = var2.alertActionsExecution;
             var4 = var1 != var3;
             var2 = null;
-            if(!var4) { _fun0015_ip = 116; continue _fun0015 }
+            if(!var4) { _fun0015_ip = 117; continue _fun0015 }
 case 43:
             var2 = var3;
-case 116:
+case 117:
             return var2;
-case 114:
+case 115:
             return var1;
         }
     };
@@ -1431,8 +1431,8 @@ case 114:
 case 0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 != var3)) { _fun0016_ip = 117; continue _fun0016 }
-case 118:
+            if(!(var1 != var3)) { _fun0016_ip = 118; continue _fun0016 }
+case 119:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var6 = 19;
@@ -1441,7 +1441,7 @@ case 118:
             var2 = var4.bind(var5)(var2);
             var2 = var2.RaidResolutionType;
             var2 = var2.LEGITIMATE_ACTIVITY;
-            if(!(var2 !== var3)) { _fun0016_ip = 119; continue _fun0016 }
+            if(!(var2 !== var3)) { _fun0016_ip = 120; continue _fun0016 }
 case 5:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -1449,16 +1449,16 @@ case 5:
             var2 = var4.bind(var5)(var2);
             var2 = var2.RaidResolutionType;
             var2 = var2.DM_SPAM;
-            if(!(var2 !== var3)) { _fun0016_ip = 120; continue _fun0016 }
-case 121:
+            if(!(var2 !== var3)) { _fun0016_ip = 121; continue _fun0016 }
+case 122:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.RaidResolutionType;
             var2 = var2.JOIN_RAID;
-            if(!(var2 !== var3)) { _fun0016_ip = 122; continue _fun0016 }
-case 123:
+            if(!(var2 !== var3)) { _fun0016_ip = 123; continue _fun0016 }
+case 124:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 10;
@@ -1472,7 +1472,7 @@ case 123:
             var2 = var2.GPg6JM;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 122:
+case 123:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 10;
@@ -1486,7 +1486,7 @@ case 122:
             var2 = var2.qhaRbG;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 120:
+case 121:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 10;
@@ -1500,7 +1500,7 @@ case 120:
             var2 = var2.j5V0ij;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 119:
+case 120:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 10;
@@ -1514,7 +1514,7 @@ case 119:
             var1 = var1.riQ+HH;
             var1 = var2.bind(var3)(var1);
             return var1;
-case 117:
+case 118:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 10;

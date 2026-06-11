@@ -367,7 +367,7 @@ case 16:
     var11 = 7;
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_24;
     var10['marginVertical'] = var15;
     var15 = 'relative';
@@ -384,14 +384,14 @@ case 16:
     var10 = {};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['marginStart'] = var13;
     var5['progressStart'] = var10;
     var10 = {};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['marginEnd'] = var13;
     var13 = var7[var11];
@@ -413,7 +413,7 @@ case 16:
     var10['backgroundColor'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var13 = var13 - var14;
     var10['start'] = var13;
@@ -421,7 +421,7 @@ case 16:
     var10 = {'padding': null, 'borderRadius': null, 'position': 'absolute', 'width': 24, 'height': 24, 'top': 4294967287, 'start': null, 'alignItems': 'center', 'justifyContent': 'center'};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_4;
     var10['padding'] = var13;
     var13 = var7[var11];
@@ -431,7 +431,7 @@ case 16:
     var10['borderRadius'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['start'] = var13;
     var13 = var7[var11];
@@ -457,7 +457,7 @@ case 16:
     var10 = {'padding': null, 'paddingTop': 0, 'flex': 1};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['padding'] = var13;
     var5['contentContainer'] = var10;
@@ -466,12 +466,12 @@ case 16:
     var10['flexDirection'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['marginTop'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['gap'] = var13;
     var5['perkRowContainer'] = var10;
@@ -482,7 +482,7 @@ case 16:
     var10 = {};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['marginStart'] = var13;
     var5['perkText'] = var10;
@@ -491,7 +491,7 @@ case 16:
     var10['marginTop'] = var13;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['paddingTop'] = var11;
     var5['footerContainer'] = var10;

@@ -203,11 +203,6 @@ case 4:
     var9['overflow'] = var10;
     var4['inputContainer'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_8;
-    var9['paddingHorizontal'] = var14;
     var4['iconsContainer'] = var9;
     var9 = {'flex': 1, 'borderRadius': null, 'border': 0};
     var14 = var6[var11];
@@ -225,7 +220,7 @@ case 4:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.spacing;
-    var14 = var14.PX_8;
+    var14 = var14.PX_12;
     var9['paddingHorizontal'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -266,7 +261,7 @@ case 4:
     var7 = 'function MessageReplyInputTsx1(){const{interpolate,sv,REPLY_BAR_HEIGHT}=this.__closure;return{height:interpolate(sv.get(),[0,1],[0,REPLY_BAR_HEIGHT]),opacity:sv.get()};}';
     var4['code'] = var7;
     var _closure1_slot13 = var4;
-    var4 = 25;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -327,11 +322,11 @@ case 0:
             var _closure2_slot10 = var2;
             var2 = _closure1_slot12;
             var13 = var2.bind(var4)();
-            var3 = _closure1_slot1;
+            var5 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 12;
             var2 = var8[var2];
-            var3 = var3.bind(var4)(var2);
+            var3 = var5.bind(var4)(var2);
             var2 = {};
             var2['includeKeyboardHeight'] = var27;
             var2 = var3.bind(var4)(var2);
@@ -340,12 +335,16 @@ case 0:
             var _closure2_slot11 = var2;
             var11 = var7.channel;
             var _closure2_slot12 = var11;
-            var5 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var3 = 13;
             var3 = var8[var3];
-            var5 = var5.bind(var4)(var3);
-            var3 = var5.useNullableMessageAuthor;
-            var10 = var3.bind(var5)(var2);
+            var10 = var10.bind(var4)(var3);
+            var3 = var10.useNullableMessageAuthor;
+            var10 = var3.bind(var10)(var2);
+            var3 = 14;
+            var3 = var8[var3];
+            var3 = var5.bind(var4)(var3);
+            var32 = var3.bind(var4)(var11, var27);
             var8 = _closure1_slot5;
             var5 = var8.useMemo;
             var3 = new Array(3);
@@ -397,30 +396,40 @@ case 5:
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                             StartGenerator();
+                            var12 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0004_ip = 7; continue _fun0004 }
 case 8:
                             var2 = _closure2_slot5;
-                            var4 = true;
-                            if(!(var4 !== var2)) { _fun0004_ip = 9; continue _fun0004 }
+                            var6 = true;
+                            if(!(var6 !== var2)) { _fun0004_ip = 9; continue _fun0004 }
 case 10:
-                            var2 = arg1;
-                            var2 = var2.channel;
+                            var2 = var12.channel;
                             var9 = var2.id;
                             var2 = _closure2_slot3;
-                            var5 = var2.length;
+                            var4 = var2.length;
                             var2 = 0;
-                            if(!(var2 !== var5)) { _fun0004_ip = 9; continue _fun0004 }
+                            if(!(var2 !== var4)) { _fun0004_ip = 9; continue _fun0004 }
 case 11:
                             var2 = null;
                             if(!(var2 != var9)) { _fun0004_ip = 9; continue _fun0004 }
 case 12:
-                            var2 = _closure2_slot6;
-                            var5 = undefined;
-                            var2 = var2.bind(var5)(var4);
                             var8 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var4 = 14;
+                            var4 = 15;
+                            var4 = var2[var4];
+                            var5 = undefined;
+                            var11 = var8.bind(var5)(var4);
+                            var7 = var11.trackInAppNotificationAccessoryClicked;
+                            var4 = 16;
+                            var4 = var2[var4];
+                            var4 = var8.bind(var5)(var4);
+                            var4 = var4.InAppNotificationAccessoryTypes;
+                            var4 = var4.SEND_MESSAGE_BUTTON;
+                            var4 = var7.bind(var11)(var12, var4);
+                            var4 = _closure2_slot6;
+                            var4 = var4.bind(var5)(var6);
+                            var4 = 17;
                             var6 = var2[var4];
                             var7 = var8.bind(var5)(var6);
                             var6 = var7.triggerHapticFeedback;
@@ -430,7 +439,7 @@ case 12:
                             var4 = var4.IMPACT_MEDIUM;
                             var4 = var6.bind(var7)(var4);
                             var4 = _closure1_slot1;
-                            var6 = 15;
+                            var6 = 18;
                             var6 = var2[var6];
                             var11 = var4.bind(var5)(var6);
                             var8 = var11.parse;
@@ -439,7 +448,7 @@ case 12:
                             var7 = var6.bind(var7)(var9);
                             var6 = _closure2_slot3;
                             var8 = var8.bind(var11)(var7, var6);
-                            var12 = 16;
+                            var12 = 19;
                             var2 = var2[var12];
                             var7 = var4.bind(var5)(var2);
                             var4 = var7.sendMessage;
@@ -471,7 +480,7 @@ case 15:
                             var14 = false;
                             var13 = var2;
                             var2 = var17[var4](var16, var15, var14, var13, var12);
-                            SaveGenerator(address=290);
+                            SaveGenerator(address=338);
 case 16:
                             return var2;
 case 17:
@@ -540,7 +549,7 @@ case 0:
                     var1 = var1.bind(var2)();
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 20;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -551,7 +560,7 @@ case 0:
 case 0:
                             var4 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 18;
+                            var1 = 21;
                             var2 = var2[var1];
                             var1 = undefined;
                             var4 = var4.bind(var1)(var2);
@@ -653,7 +662,7 @@ case 27:
             var11 = _closure1_slot10;
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var14 = 19;
+            var14 = 22;
             var9 = var9[var14];
             var9 = var10.bind(var4)(var9);
             var10 = var9.IconButton;
@@ -669,7 +678,7 @@ case 29:
             var29 = _closure1_slot10;
             var20 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var12 = 20;
+            var12 = 23;
             var12 = var24[var12];
             var12 = var20.bind(var4)(var12);
             var21 = var12.ArrowAngleLeftUpIcon;
@@ -685,15 +694,28 @@ case 29:
             var12 = var29.bind(var4)(var21, var12);
             var9['icon'] = var12;
             var12 = function onPress() {
-                var3 = _closure2_slot8;
-                var1 = _closure2_slot7;
-                var2 = !var1;
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var1 = 15;
+                var2 = var8[var1];
                 var1 = undefined;
+                var6 = var7.bind(var1)(var2);
+                var5 = var6.trackInAppNotificationAccessoryClicked;
+                var4 = _closure2_slot0;
+                var3 = 16;
+                var3 = var8[var3];
+                var3 = var7.bind(var1)(var3);
+                var3 = var3.InAppNotificationAccessoryTypes;
+                var3 = var3.REPLY_TOGGLE;
+                var3 = var5.bind(var6)(var4, var3);
+                var3 = _closure2_slot8;
+                var2 = _closure2_slot7;
+                var2 = !var2;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
             var9['onPress'] = var12;
-            var21 = 21;
+            var21 = 24;
             var12 = var24[var21];
             var12 = var20.bind(var4)(var12);
             var30 = var12.intl;
@@ -708,7 +730,7 @@ case 29:
             var9 = new Array(3);
             var9[0] = var10;
             var12 = _closure1_slot10;
-            var10 = 22;
+            var10 = 25;
             var10 = var24[var10];
             var10 = var20.bind(var4)(var10);
             var11 = var10.NativeTextInput;
@@ -721,13 +743,15 @@ case 29:
             var10['placeholderTextColor'] = var28;
             var28 = var24[var21];
             var28 = var20.bind(var4)(var28);
-            var30 = var28.intl;
-            var29 = var30.string;
+            var31 = var28.intl;
+            var30 = var31.formatToPlainString;
             var28 = var24[var21];
             var28 = var20.bind(var4)(var28);
             var28 = var28.t;
-            var28 = var28.TBA5Xg;
-            var28 = var29.bind(var30)(var28);
+            var29 = var28["8lzR/R"];
+            var28 = {};
+            var28['channel'] = var32;
+            var28 = var30.bind(var31)(var29, var28);
             var10['placeholder'] = var28;
             var10['autoFocus'] = var27;
             var10['value'] = var16;
@@ -745,7 +769,7 @@ case 29:
             var15 = var13.IconButton;
             var13 = {'variant': 'icon-only', 'size': 'sm'};
             var29 = _closure1_slot10;
-            var27 = 23;
+            var27 = 26;
             var27 = var24[var27];
             var27 = var20.bind(var4)(var27);
             var28 = var27.ReactionIcon;
@@ -788,7 +812,7 @@ case 29:
             var21 = var26.bind(var27)(var21);
             var14['accessibilityLabel'] = var21;
             var21 = _closure1_slot10;
-            var19 = 24;
+            var19 = 27;
             var19 = var24[var19];
             var19 = var20.bind(var4)(var19);
             var20 = var19.SendMessageIcon;

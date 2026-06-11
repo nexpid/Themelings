@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 8;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var9['paddingHorizontal'] = var14;
     var4['innerContainer'] = var9;
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var9['padding'] = var14;
     var14 = var6[var10];
@@ -116,14 +116,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var9['paddingHorizontal'] = var14;
     var14 = 'flex-start';
     var9['alignItems'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var9['gap'] = var14;
     var4['orbsInnerContainer'] = var9;
@@ -136,12 +136,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['flexDirection'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_12;
     var9['gap'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['paddingHorizontal'] = var10;
     var4['skeletonContainer'] = var9;
@@ -867,7 +867,7 @@ case 46:
             var31 = _closure1_slot1;
             var34 = var29[var32];
             var34 = var31.bind(var5)(var34);
-            var34 = var34.spacing;
+            var34 = var34.space;
             var34 = var34.PX_12;
             var34 = var35 + var34;
             var19['snapToInterval'] = var34;
@@ -876,7 +876,7 @@ case 46:
             var30 = var30.COLLECTIBLES_SHOP_CARD_WIDTH;
             var29 = var29[var32];
             var29 = var31.bind(var5)(var29);
-            var29 = var29.spacing;
+            var29 = var29.space;
             var29 = var29.PX_12;
             var29 = var30 + var29;
             var19['estimatedItemSize'] = var29;
@@ -893,7 +893,7 @@ case 46:
                 var6 = var6[var1];
                 var1 = undefined;
                 var6 = var7.bind(var1)(var6);
-                var6 = var6.spacing;
+                var6 = var6.space;
                 var6 = var6.PX_16;
                 var5['width'] = var6;
                 var2['style'] = var5;
@@ -912,7 +912,7 @@ case 46:
                 var6 = var6[var1];
                 var1 = undefined;
                 var6 = var7.bind(var1)(var6);
-                var6 = var6.spacing;
+                var6 = var6.space;
                 var6 = var6.PX_16;
                 var5['width'] = var6;
                 var2['style'] = var5;
@@ -931,7 +931,7 @@ case 46:
                 var6 = var6[var1];
                 var1 = undefined;
                 var6 = var7.bind(var1)(var6);
-                var6 = var6.spacing;
+                var6 = var6.space;
                 var6 = var6.PX_12;
                 var5['width'] = var6;
                 var2['style'] = var5;

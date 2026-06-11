@@ -350,7 +350,7 @@ case 20:
             var25 = _closure1_slot1;
             var9 = var16[var9];
             var9 = var25.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_24;
             var6['spacing'] = var9;
             var9 = {};

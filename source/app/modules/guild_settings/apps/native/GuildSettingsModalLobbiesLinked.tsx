@@ -234,7 +234,7 @@ case 9:
         var13 = {};
         var11 = var9[var15];
         var11 = var17.bind(var4)(var11);
-        var11 = var11.spacing;
+        var11 = var11.space;
         var11 = var11.PX_16;
         var13['paddingTop'] = var11;
         var11 = new Array(2);
@@ -252,7 +252,7 @@ case 9:
         var11['style'] = var18;
         var15 = var9[var15];
         var15 = var17.bind(var4)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_24;
         var11['spacing'] = var15;
         var15 = var16.map;

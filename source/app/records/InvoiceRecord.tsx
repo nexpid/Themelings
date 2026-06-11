@@ -198,7 +198,7 @@ case 16:
                 var3 = var4 == var3;
                 var1 = null;
                 if(var3) { _fun0005_ip = 15; continue _fun0005 }
-case 13:
+case 17:
                 var2 = var2.unitPrice;
                 var1 = var2.amount;
 case 15:
@@ -219,13 +219,13 @@ case 0:
                 var1 = null;
                 var4 = var1 != var3;
                 var5 = null;
-                if(!var4) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
+                if(!var4) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
                 var5 = var3.invoice_preview;
-case 17:
+case 18:
                 var _closure3_slot1 = var5;
-                if(!(var1 != var5)) { _fun0006_ip = 19; continue _fun0006 }
-case 13:
+                if(!(var1 != var5)) { _fun0006_ip = 20; continue _fun0006 }
+case 17:
                 var6 = var5.line_items;
                 var4 = var6.map;
                 var3 = function(arg1) {
@@ -247,8 +247,8 @@ case 0:
                         var4 = var2.bind(var4)(var1);
                         var1 = null;
                         var2 = var1 == var4;
-                        if(var2) { _fun0007_ip = 20; continue _fun0007 }
-case 21:
+                        if(var2) { _fun0007_ip = 21; continue _fun0007 }
+case 22:
                         var2 = {};
                         var4 = var4.sku_id;
                         var2['skuId'] = var4;
@@ -262,7 +262,7 @@ case 21:
                         var3 = var3.quantity;
                         var2['quantity'] = var3;
                         var1 = var2;
-case 20:
+case 21:
                         return var1;
                     }
                 };
@@ -293,7 +293,7 @@ case 20:
                 var2 = new var8[var4](var7, var6);
                 var2 = var2 instanceof Object ? var2 : var3;
                 return var2;
-case 19:
+case 20:
                 return var1;
             }
         };
@@ -398,20 +398,20 @@ case 0:
                 };
                 var1 = var2.bind(var3)(var1);
                 var2 = null;
-                if(!(var2 != var1)) { _fun0010_ip = 22; continue _fun0010 }
-case 23:
+                if(!(var2 != var1)) { _fun0010_ip = 23; continue _fun0010 }
+case 24:
                 var3 = var1.discounts;
                 var4 = var3.length;
                 var3 = 0;
-                if(!(var3 !== var4)) { _fun0010_ip = 22; continue _fun0010 }
-case 24:
+                if(!(var3 !== var4)) { _fun0010_ip = 23; continue _fun0010 }
+case 25:
                 var1 = var1.discounts;
                 var1 = var1[var3];
-                if(!(var2 == var1)) { _fun0010_ip = 6; continue _fun0010 }
-case 22:
+                if(!(var2 == var1)) { _fun0010_ip = 26; continue _fun0010 }
+case 23:
                 var2 = undefined;
                 return var2;
-case 6:
+case 26:
                 var1 = var1.discount_id;
                 return var1;
             }
@@ -434,8 +434,8 @@ case 0:
                 var5 = var4 == var7;
                 var9 = undefined;
                 var4 = undefined;
-                if(var5) { _fun0011_ip = 25; continue _fun0011 }
-case 26:
+                if(var5) { _fun0011_ip = 27; continue _fun0011 }
+case 28:
                 var6 = var7.map;
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot1;
@@ -444,7 +444,7 @@ case 26:
                 var5 = var8.bind(var9)(var5);
                 var5 = var5.createInvoiceItemFromServer;
                 var4 = var6.bind(var7)(var5);
-case 25:
+case 27:
                 var1['invoiceItems'] = var4;
                 var4 = var2.total;
                 var1['total'] = var4;
@@ -507,8 +507,8 @@ case 0:
                 var5 = var4 == var7;
                 var9 = undefined;
                 var4 = undefined;
-                if(var5) { _fun0012_ip = 27; continue _fun0012 }
-case 28:
+                if(var5) { _fun0012_ip = 29; continue _fun0012 }
+case 30:
                 var6 = var7.map;
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot1;
@@ -517,7 +517,7 @@ case 28:
                 var5 = var8.bind(var9)(var5);
                 var5 = var5.createInvoiceItemFromServer;
                 var4 = var6.bind(var7)(var5);
-case 27:
+case 29:
                 var1['invoiceItems'] = var4;
                 var4 = var2.amount;
                 var1['total'] = var4;

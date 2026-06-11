@@ -641,12 +641,12 @@ case 53:
         var7 = var6[var3];
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_16;
         var2['paddingHorizontal'] = var7;
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.spacing;
+        var3 = var3.space;
         var3 = var3.PX_24;
         var2['gap'] = var3;
         var1['wrapper'] = var2;

@@ -205,7 +205,7 @@ case 10:
                 var33 = 6;
                 var10 = var10[var33];
                 var10 = var11.bind(var4)(var10);
-                var10 = var10.spacing;
+                var10 = var10.space;
                 var10 = var10.PX_4;
                 var23['hitSlop'] = var10;
                 var36 = var23;

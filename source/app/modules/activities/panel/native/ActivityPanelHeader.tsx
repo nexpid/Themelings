@@ -425,7 +425,7 @@ case 19:
     var13 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': null, 'flexShrink': 1};
     var15 = var10[var15];
     var15 = var16.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_8;
     var13['gap'] = var15;
     var4['buttonContainer'] = var13;

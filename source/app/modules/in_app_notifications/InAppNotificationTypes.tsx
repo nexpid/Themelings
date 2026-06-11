@@ -1,0 +1,32 @@
+// app/modules/in_app_notifications/InAppNotificationTypes.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = {};
+    var1 = 'REPLY_TOGGLE';
+    var2['REPLY_TOGGLE'] = var1;
+    var1 = 'SEND_MESSAGE_BUTTON';
+    var2['SEND_MESSAGE_BUTTON'] = var1;
+    var1 = 'REACTION_BUTTON';
+    var2['REACTION_BUTTON'] = var1;
+    var1 = 'REACTION_PICKER_BUTTON';
+    var2['REACTION_PICKER_BUTTON'] = var1;
+    var4 = dependencyMap;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = require;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/in_app_notifications/InAppNotificationTypes.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['InAppNotificationAccessoryTypes'] = var2;
+    return var1;
+})();

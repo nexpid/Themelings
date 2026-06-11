@@ -129,9 +129,10 @@ case 0:
                     var3 = null;
                     if(!(var3 != var4)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                    var2 = _closure2_slot1;
-                    var2 = var2.expiresAt;
-                    if(!(var3 == var2)) { _fun0002_ip = 8; continue _fun0002 }
+                    var3 = _closure2_slot1;
+                    var2 = var3.hasAcknowledged;
+                    var2 = var2.bind(var3)();
+                    if(var2) { _fun0002_ip = 8; continue _fun0002 }
 case 6:
                     var2 = undefined;
                     return var2;

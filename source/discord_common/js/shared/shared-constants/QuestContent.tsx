@@ -274,6 +274,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PLAY_QUEST_MODAL'] = var6;
     var2 = 'PLAY_QUEST_MODAL';
     var4[var6] = var2;
+    var6 = 66;
+    var4['VIDEO_MODAL_MOBILE_FOOTER'] = var6;
+    var2 = 'VIDEO_MODAL_MOBILE_FOOTER';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

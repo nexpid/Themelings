@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 5;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_24;
     var9['padding'] = var12;
     var12 = var6[var10];
@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['gap'] = var12;
     var4['container'] = var9;
@@ -71,14 +71,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'display': 'flex', 'flexDirection': 'column'};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['gap'] = var12;
     var4['benefits'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'gap': null, 'alignItems': 'center'};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_8;
     var9['gap'] = var10;
     var4['benefitRow'] = var9;

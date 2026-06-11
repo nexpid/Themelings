@@ -345,7 +345,7 @@ case 42:
                     var6 = var8.enableZstdStreamSupport;
                     var6 = var6.bind(var8)(var9);
 case 41:
-                    var6 = {'open': false, 'gateway': null, 'identify': false, 'messages': null, 'clientState': null};
+                    var6 = {'open': false, 'gateway': null, 'identify': false, 'messages': null, 'clientState': null, 'userId': null};
                     var6['gateway'] = var7;
                     var7 = new Array(0);
                     var6['messages'] = var7;
@@ -517,6 +517,7 @@ case 29:
             var3 = var3.bind(var4)();
             var1 = var1.window;
             var1['_ws'] = var2;
+            _closure1_slot8 = var2;
 case 45:
             var1 = undefined;
             return var1;
@@ -648,13 +649,20 @@ case 60:
                     var8 = var7;
 case 59:
                     _closure1_slot8 = var8;
+                    var9 = var5 != var7;
+                    var8 = null;
+                    if(!var9) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
+                    var8 = var7;
+case 61:
+                    var3['userId'] = var8;
                     var2 = _closure1_slot9;
                     var8 = var5 != var7;
                     var5 = null;
-                    if(!var8) { _fun0006_ip = 61; continue _fun0006 }
-case 62:
+                    if(!var8) { _fun0006_ip = 63; continue _fun0006 }
+case 64:
                     var5 = var7;
-case 61:
+case 63:
                     var2 = var2.bind(var1)(var4, var5, var6);
                     var4 = true;
                     var3['identify'] = var4;

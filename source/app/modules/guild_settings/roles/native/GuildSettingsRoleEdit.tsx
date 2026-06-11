@@ -1566,7 +1566,7 @@ case 82:
                 var16 = 21;
                 var16 = var13[var16];
                 var16 = var20.bind(var4)(var16);
-                var16 = var16.spacing;
+                var16 = var16.space;
                 var16 = var16.PX_24;
                 var11['spacing'] = var16;
                 var16 = _closure1_slot22;
@@ -1619,7 +1619,7 @@ case 81:
                 var11 = 21;
                 var10 = var13[var11];
                 var10 = var12.bind(var4)(var10);
-                var10 = var10.spacing;
+                var10 = var10.space;
                 var10 = var10.PX_24;
                 var6['spacing'] = var10;
                 var10 = {};
@@ -1627,7 +1627,7 @@ case 81:
                 var10['flex'] = var14;
                 var11 = var13[var11];
                 var11 = var12.bind(var4)(var11);
-                var11 = var11.spacing;
+                var11 = var11.space;
                 var11 = var11.PX_16;
                 var10['paddingHorizontal'] = var11;
                 var6['style'] = var10;

@@ -321,7 +321,7 @@ case 30:
             var5 = 17;
             var5 = var15[var5];
             var5 = var14.bind(var4)(var5);
-            var13 = var5.bind(var4)(var13, var11);
+            var13 = var5.bind(var4)(var13, var11, var10);
             var5 = new Array(2);
             var5[0] = var13;
             var5[1] = var6;
@@ -388,7 +388,7 @@ case 34:
             var1 = 17;
             var1 = var5[var1];
             var1 = var9.bind(var4)(var1);
-            var17 = var1.bind(var4)(var3, var15);
+            var17 = var1.bind(var4)(var3, var15, var14);
             var3 = _closure1_slot0;
             var1 = 18;
             var1 = var5[var1];

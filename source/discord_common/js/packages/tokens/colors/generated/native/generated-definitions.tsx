@@ -1008,7 +1008,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8[12] = var14;
     var7['CARD_SECONDARY_PRESSED_BG'] = var8;
     var8 = {};
-    var8['category'] = var10;
+    var8['category'] = var12;
     var15 = var9.DARK;
     var14 = {'raw': 'PRIMARY_600', 'opacity': 1};
     var8[14] = var14;

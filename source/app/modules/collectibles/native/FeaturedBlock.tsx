@@ -33,11 +33,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
-    var8 = var8.spacing;
+    var8 = var8.space;
     var10 = var8.PX_16;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var11 = var4.PX_12;
     var4 = 4;
     var4 = var6[var4];

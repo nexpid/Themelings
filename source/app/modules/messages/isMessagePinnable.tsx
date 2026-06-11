@@ -94,11 +94,18 @@ case 13:
 case 12:
             if(!var1) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
+            var5 = var3.type;
+            var4 = _closure1_slot4;
+            var4 = var4.GUILD_STAGE_VOICE;
+            var1 = var5 !== var4;
+case 14:
+            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var3 = var3.type;
             var2 = _closure1_slot4;
-            var2 = var2.GUILD_STAGE_VOICE;
+            var2 = var2.MEDIA_THREAD;
             var1 = var3 !== var2;
-case 14:
+case 16:
             return var1;
         }
     };

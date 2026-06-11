@@ -25,64 +25,74 @@ case 0:
             var7 = var1.channel;
             var3 = var1.canChat;
             var6 = var1.renderReactions;
-            var11 = var1.canAddNewReactions;
+            var12 = var1.canAddNewReactions;
             var2 = var1.isLurking;
             var5 = var1.communicationDisabled;
-            var8 = var1.isActiveChannelOrUnarchivableThread;
+            var9 = var1.isActiveChannelOrUnarchivableThread;
             var4 = var1.isAutomodQuarantined;
             var1 = var7.isPrivate;
-            var10 = var1.bind(var7)();
+            var11 = var1.bind(var7)();
             var1 = var7.isSystemDM;
-            var9 = var1.bind(var7)();
+            var10 = var1.bind(var7)();
+            var1 = var7.isMediaThread;
+            var8 = var1.bind(var7)();
             if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = var10;
+            var3 = var11;
 case 2:
             if(!var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = var8;
+            var3 = var9;
 case 4:
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var3 = !var8;
+case 6:
             var1 = {};
             var6 = !var6;
             var1['disableReactionReads'] = var6;
             var6 = var2;
-            if(var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var6 = !var3;
-case 6:
-            if(var6) { _fun0001_ip = 8; continue _fun0001 }
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var7 = true;
-            var7 = var7 === var11;
-            if(var7) { _fun0001_ip = 10; continue _fun0001 }
+            var6 = !var3;
+case 8:
+            if(var6) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var7 = var10;
-case 10:
-            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
+            var7 = true;
+            var7 = var7 === var12;
+            if(var7) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var7 = !var9;
+            var7 = var11;
 case 12:
             if(!var7) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var7 = var8;
+            var7 = !var10;
 case 14:
-            var6 = !var7;
-case 8:
-            var1['disableReactionCreates'] = var6;
-            if(var2) { _fun0001_ip = 16; continue _fun0001 }
+            if(!var7) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var2 = !var3;
+            var7 = var9;
 case 16:
-            if(var2) { _fun0001_ip = 18; continue _fun0001 }
+            if(!var7) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var3 = true;
-            var2 = var3 === var5;
+            var7 = !var8;
 case 18:
+            var6 = !var7;
+case 10:
+            var1['disableReactionCreates'] = var6;
             if(var2) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
+            var2 = !var3;
+case 20:
+            if(var2) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
+            var3 = true;
+            var2 = var3 === var5;
+case 22:
+            if(var2) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var3 = true;
             var2 = var3 === var4;
-case 20:
+case 24:
             var1['disableReactionUpdates'] = var2;
             return var1;
         }

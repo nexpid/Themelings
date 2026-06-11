@@ -153,7 +153,7 @@ case 8:
             var16 = 5;
             var8 = var20[var16];
             var8 = var18.bind(var4)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var5['spacing'] = var8;
             var8 = var19.wrapper;
@@ -165,7 +165,7 @@ case 8:
             var8 = {'align': 'center', 'direction': 'horizontal'};
             var11 = var20[var16];
             var11 = var18.bind(var4)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_16;
             var8['spacing'] = var11;
             var15 = _closure1_slot6;
@@ -185,7 +185,7 @@ case 8:
             var12['direction'] = var22;
             var16 = var20[var16];
             var16 = var18.bind(var4)(var16);
-            var16 = var16.spacing;
+            var16 = var16.space;
             var16 = var16.PX_4;
             var12['spacing'] = var16;
             var16 = var19.rewardDetailsCopy;
@@ -303,12 +303,12 @@ case 9:
     var10 = 5;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['paddingHorizontal'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var9['paddingBottom'] = var13;
     var4['wrapper'] = var9;

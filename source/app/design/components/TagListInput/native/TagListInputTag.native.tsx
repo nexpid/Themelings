@@ -111,7 +111,12 @@ case 12:
             var2['flexDirection'] = var7;
             var7 = 'center';
             var2['alignItems'] = var7;
+            var7 = 1;
+            var2['flexShrink'] = var7;
             var1['tagWrapper'] = var2;
+            var2 = {};
+            var2['flexShrink'] = var7;
+            var1['tagText'] = var2;
             var2 = {};
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
@@ -176,7 +181,7 @@ case 16:
             var1 = 'TagListInputTag';
             var2 = var2.bind(var4)(var1);
             var1 = _closure1_slot6;
-            var12 = var1.bind(var4)(var2);
+            var10 = var1.bind(var4)(var2);
             var2 = _closure1_slot0;
             var1 = 6;
             var5 = var13[var1];
@@ -210,38 +215,38 @@ case 16:
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
-            var14 = var12.tagWrapper;
+            var14 = var10.tagWrapper;
             var13 = new Array(4);
             var13[0] = var14;
             var14 = undefined;
             if(!var11) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-            var14 = var12.highlightedTagWrapper;
+            var14 = var10.highlightedTagWrapper;
 case 18:
             var13[1] = var14;
             var14 = undefined;
             if(!var16) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
-            var14 = var12.start;
+            var14 = var10.start;
 case 20:
             var13[2] = var14;
             var14 = undefined;
             if(!var15) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
-            var14 = var12.end;
+            var14 = var10.end;
 case 22:
             var13[3] = var14;
             var1['style'] = var13;
-            var10 = function onPress() {
+            var12 = function onPress() {
                 var3 = _closure2_slot0;
                 var2 = undefined;
                 var1 = 'select';
                 var1 = var3.bind(var2)(var1);
                 return var1;
             };
-            var1['onPress'] = var10;
-            var10 = 'button';
-            var1['accessibilityRole'] = var10;
+            var1['onPress'] = var12;
+            var12 = 'button';
+            var1['accessibilityRole'] = var12;
             var1['accessibilityLabel'] = var8;
             var1['accessibilityActions'] = var7;
             var1['onAccessibilityAction'] = var5;
@@ -250,25 +255,27 @@ case 22:
             var5 = var7 != var5;
             if(!var5) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
-            var10 = _closure1_slot4;
+            var12 = _closure1_slot4;
             var8 = _closure1_slot3;
             var5 = {};
-            var12 = var12.tagIcon;
-            var5['style'] = var12;
-            var12 = var9.icon;
-            var5['children'] = var12;
-            var7 = var10.bind(var4)(var8, var5);
+            var13 = var10.tagIcon;
+            var5['style'] = var13;
+            var13 = var9.icon;
+            var5['children'] = var13;
+            var7 = var12.bind(var4)(var8, var5);
 case 24:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot4;
             var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var6 = 9;
-            var6 = var10[var6];
+            var6 = var12[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'lineClamp': 1, 'variant': 'text-sm/medium'};
+            var6 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium'};
+            var10 = var10.tagText;
+            var6['style'] = var10;
             var10 = 'text-default';
             if(!var11) { _fun0002_ip = 26; continue _fun0002 }
 case 27:

@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 5;
     var4 = var6[var10];
     var4 = var11.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var12 = var4.PX_12;
     var4 = {'mass': 1, 'stiffness': 100, 'damping': 15};
     var _closure1_slot9 = var4;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var9['paddingHorizontal'] = var14;
     var9['paddingVertical'] = var12;
@@ -84,12 +84,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['minHeight'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['bottom'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['left'] = var12;
     var4['banner'] = var9;
@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'alignItems': 'center', 'justifyContent': 'center', 'marginLeft': null, 'flexShrink': 1};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_12;
     var9['marginLeft'] = var10;
     var4['bannerTextContainer'] = var9;
@@ -171,7 +171,7 @@ case 0:
             var3 = 5;
             var3 = var6[var3];
             var3 = var2.bind(var4)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_16;
             var3 = var8 * var3;
             var14 = var7 - var3;

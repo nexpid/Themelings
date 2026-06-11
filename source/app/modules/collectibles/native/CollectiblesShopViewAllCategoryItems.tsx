@@ -357,12 +357,12 @@ case 10:
             var18 = 6;
             var23 = var21[var18];
             var23 = var22.bind(var4)(var23);
-            var23 = var23.spacing;
+            var23 = var23.space;
             var23 = var23.PX_16;
             var13['paddingTop'] = var23;
             var18 = var21[var18];
             var18 = var22.bind(var4)(var18);
-            var18 = var18.spacing;
+            var18 = var18.space;
             var18 = var18.PX_16;
             var18 = var19 + var18;
             var13['paddingBottom'] = var18;

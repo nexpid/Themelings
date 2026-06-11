@@ -1101,7 +1101,7 @@ case 68:
             var9 = 33;
             var9 = var16[var9];
             var9 = var10.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_12;
             var1['spacing'] = var9;
             var7 = var7.length;

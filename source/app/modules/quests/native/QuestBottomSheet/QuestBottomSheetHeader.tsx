@@ -50,12 +50,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 6;
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['paddingHorizontal'] = var10;
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_8;
     var9['paddingTop'] = var10;
     var4['container'] = var9;
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 'center';
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var9['paddingHorizontal'] = var11;
     var4['containerWithActionSheet'] = var9;

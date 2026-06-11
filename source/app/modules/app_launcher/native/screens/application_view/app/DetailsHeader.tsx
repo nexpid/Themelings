@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {'display': 'flex', 'flexDirection': 'row', 'gap': null, 'overflow': 'hidden'};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_4;
     var10['gap'] = var14;
     var4['nameContainer'] = var10;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {'justifyContent': 'center', 'paddingVertical': 2};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['paddingHorizontal'] = var13;
     var13 = var6[var11];

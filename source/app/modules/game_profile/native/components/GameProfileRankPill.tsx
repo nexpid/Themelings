@@ -55,14 +55,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['paddingHorizontal'] = var12;
     var12 = 'center';
     var9['alignItems'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_4;
     var9['gap'] = var12;
     var10 = var6[var10];

@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = 7;
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['marginTop'] = var13;
     var7['subscribeNowPressable'] = var10;

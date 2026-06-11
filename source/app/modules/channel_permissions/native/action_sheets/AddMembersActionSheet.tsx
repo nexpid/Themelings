@@ -653,12 +653,12 @@ case 42:
             var16 = 14;
             var21 = var20[var16];
             var21 = var19.bind(var4)(var21);
-            var21 = var21.spacing;
+            var21 = var21.space;
             var21 = var21.PX_16;
             var14['paddingHorizontal'] = var21;
             var16 = var20[var16];
             var16 = var19.bind(var4)(var16);
-            var16 = var16.spacing;
+            var16 = var16.space;
             var16 = var16.PX_16;
             var13 = var13.bottom;
             var13 = var16 + var13;
@@ -1005,12 +1005,12 @@ case 66:
     var11 = 14;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['paddingHorizontal'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_12;
     var10['paddingTop'] = var13;
     var5['inputContainer'] = var10;
@@ -1026,7 +1026,7 @@ case 66:
     var10 = {};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['paddingTop'] = var13;
     var5['emptyState'] = var10;
@@ -1040,7 +1040,7 @@ case 66:
     var10 = {};
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_12;
     var10['paddingVertical'] = var11;
     var5['sectionRowWrapper'] = var10;

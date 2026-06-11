@@ -204,6 +204,12 @@ case 8:
             var17 = null;
             if(!var1) { _fun0001_ip = 7; continue _fun0001 }
 case 9:
+            var3 = var18.top;
+            var1 = 0;
+            var1 = var3 > var1;
+            var17 = null;
+            if(!var1) { _fun0001_ip = 7; continue _fun0001 }
+case 10:
             var17 = var14.iosPaddingThemeAdjust;
 case 7:
             var3 = _closure1_slot8;

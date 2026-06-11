@@ -157,8 +157,8 @@ case 13:
             var1 = null;
             if(!(var1 == var8)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            if(!(var1 == var14)) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+            if(!(var1 == var14)) { _fun0002_ip = 7; continue _fun0002 }
+case 17:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -172,8 +172,8 @@ case 18:
             var1['guildId'] = var9;
             var1['panelVariant'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0002_ip = 19; continue _fun0002;
-case 17:
+            _fun0002_ip = 18; continue _fun0002;
+case 7:
             var11 = _closure1_slot6;
             var4 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -190,8 +190,8 @@ case 17:
             var3['cardKey'] = var12;
             var3['panelVariant'] = var6;
             var1 = var11.bind(var5)(var4, var3);
-case 19:
-            _fun0002_ip = 20; continue _fun0002;
+case 18:
+            _fun0002_ip = 19; continue _fun0002;
 case 15:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
@@ -208,7 +208,7 @@ case 15:
             var2['fullwidth'] = var7;
             var2['panelVariant'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 20:
+case 19:
             return var1;
         }
     };

@@ -835,13 +835,13 @@ case 33:
             var10 = 12;
             var23 = var42[var10];
             var23 = var32.bind(var4)(var23);
-            var23 = var23.spacing;
+            var23 = var23.space;
             var23 = var23.PX_16;
             var23 = var26 + var23;
             _closure2_slot41 = var23;
             var10 = var42[var10];
             var10 = var32.bind(var4)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_16;
             var37 = var16 + var10;
             _closure2_slot42 = var37;
@@ -3672,7 +3672,7 @@ case 72:
     var16 = var15.EXPANDED_HEADER_TOTAL_CONSUMED_SPACE_IN_PARENT;
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_4;
     var15 = var16 + var15;
     var9['paddingTop'] = var15;
@@ -3747,7 +3747,7 @@ case 72:
     var14 = var13.EXPANDED_HEADER_TOTAL_CONSUMED_SPACE_IN_PARENT;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_4;
     var13 = var14 + var13;
     var9['paddingTop'] = var13;

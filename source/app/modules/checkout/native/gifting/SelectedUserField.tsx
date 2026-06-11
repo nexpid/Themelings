@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 4;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['marginHorizontal'] = var12;
     var4['container'] = var9;
@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'flex': 1, 'paddingHorizontal': null, 'paddingVertical': 6};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingHorizontal'] = var12;
     var12 = 6;
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var9['marginRight'] = var13;
     var4['searchIcon'] = var9;
@@ -85,12 +85,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'alignItems': 'center', 'justifyContent': 'center', 'minWidth': 44, 'minHeight': 44};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingRight'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_8;
     var9['paddingLeft'] = var10;
     var4['clearButton'] = var9;

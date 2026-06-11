@@ -258,6 +258,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COPY_LINK'] = var16;
     var16 = 'use_now';
     var2['USE_NOW'] = var16;
+    var16 = 'edit_profile';
+    var2['EDIT_PROFILE'] = var16;
     var16 = 'unlock_with_nitro';
     var2['UNLOCK_WITH_NITRO'] = var16;
     var16 = 'add_to_collection';

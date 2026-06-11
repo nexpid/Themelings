@@ -22,5 +22,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['STATUS_PADDING'] = var2;
     var2 = {'XSMALL': 6, 'SMALL': 8, 'REFRESH_MEDIUM_10': 10, 'MEDIUM': 12, 'LARGE': 16, 'XLARGE': 24};
     var3['StatusSizes'] = var2;
+    var2 = 1.5;
+    var3['VR_STATUS_WIDTH_RATIO'] = var2;
+    var2 = 1;
+    var3['VR_STATUS_SCALE'] = var2;
     return var1;
 })();

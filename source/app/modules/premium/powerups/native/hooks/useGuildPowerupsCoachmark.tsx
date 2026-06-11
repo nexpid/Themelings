@@ -68,7 +68,7 @@ case 0:
             var8 = var7[var4];
             var5 = undefined;
             var8 = var6.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var9 = var8.PX_16;
             var8 = 2;
             var9 = var8 * var9;

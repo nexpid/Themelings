@@ -176,10 +176,10 @@ case 17:
 case 16:
             var3 = var1 != var2;
             var1 = '';
-            if(!var3) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-            var1 = var2;
+            if(!var3) { _fun0003_ip = 11; continue _fun0003 }
 case 18:
+            var1 = var2;
+case 11:
             return var1;
         }
     };

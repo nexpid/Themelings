@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['roundButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 15;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -78,10 +78,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MessageNotificationReactBar(arg1) {
         var2 = arg1;
-        var1 = var2.notification;
-        var _closure2_slot0 = var1;
-        var11 = var2.onReactionPress;
-        var _closure2_slot1 = var11;
+        var11 = var2.notification;
+        var _closure2_slot0 = var11;
+        var1 = var2.onReactionPress;
+        var _closure2_slot1 = var1;
         var6 = var2.animationStyle;
         var2 = _closure1_slot10;
         var4 = undefined;
@@ -115,16 +115,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var14[var3];
         var13 = var10.bind(var4)(var3);
         var9 = var13.useEmojisForReactionRow;
-        var7 = var1.channel;
+        var7 = var11.channel;
         var3 = 48;
         var15 = var9.bind(var13)(var7, var15, var3);
         var9 = _closure1_slot3;
-        var7 = var9.useCallback;
-        var3 = new Array(2);
-        var3[0] = var11;
-        var1 = var1.channel;
-        var3[1] = var1;
-        var1 = function() {
+        var13 = var9.useCallback;
+        var7 = new Array(2);
+        var7[0] = var1;
+        var7[1] = var11;
+        var3 = function() {
             var2 = _closure1_slot4;
             var1 = var2.dismiss;
             var1 = var1.bind(var2)();
@@ -134,23 +133,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var8[var1];
             var1 = undefined;
             var4 = var7.bind(var1)(var2);
+            var3 = var4.trackInAppNotificationAccessoryClicked;
+            var6 = _closure2_slot0;
+            var2 = 11;
+            var2 = var8[var2];
+            var2 = var7.bind(var1)(var2);
+            var2 = var2.InAppNotificationAccessoryTypes;
+            var2 = var2.REACTION_PICKER_BUTTON;
+            var2 = var3.bind(var4)(var6, var2);
+            var2 = 12;
+            var2 = var8[var2];
+            var4 = var7.bind(var1)(var2);
             var3 = var4.openEmojiPickerActionSheet;
             var2 = {};
             var9 = _closure2_slot1;
             var2['onPressEmoji'] = var9;
-            var6 = _closure2_slot0;
             var6 = var6.channel;
             var2['channel'] = var6;
             var6 = _closure1_slot7;
             var6 = var6.REACTION;
             var2['pickerIntention'] = var6;
-            var6 = 11;
+            var6 = 13;
             var6 = var8[var6];
             var6 = var7.bind(var1)(var6);
             var6 = var6.ReactionTypes;
             var6 = var6.NORMAL;
             var2['reactionType'] = var6;
-            var6 = 12;
+            var6 = 14;
             var6 = var8[var6];
             var6 = var7.bind(var1)(var6);
             var6 = var6.ReactionLocations;
@@ -164,9 +173,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var13 = var7.bind(var9)(var1, var3);
+        var13 = var13.bind(var9)(var3, var7);
+        var7 = var9.useCallback;
+        var3 = new Array(2);
+        var3[0] = var11;
+        var3[1] = var1;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var3 = arg1;
+                var8 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var1 = 10;
+                var2 = var9[var1];
+                var1 = undefined;
+                var7 = var8.bind(var1)(var2);
+                var6 = var7.trackInAppNotificationAccessoryClicked;
+                var5 = _closure2_slot0;
+                var4 = 11;
+                var4 = var9[var4];
+                var4 = var8.bind(var1)(var4);
+                var4 = var4.InAppNotificationAccessoryTypes;
+                var4 = var4.REACTION_BUTTON;
+                var4 = var6.bind(var7)(var5, var4);
+                var4 = null;
+                if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var2 = _closure2_slot1;
+                var2 = var2.bind(var1)(var3);
+case 2:
+                return var1;
+            }
+        };
+        var1 = var7.bind(var9)(var1, var3);
+        var _closure2_slot3 = var1;
         var3 = _closure1_slot9;
-        var1 = 13;
+        var1 = 15;
         var1 = var14[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.View;
@@ -185,14 +227,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['style'] = var9;
         var9 = var15.map;
         var8 = function(arg1, arg2) {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var8 = arg1;
                 var _closure3_slot0 = var8;
                 var5 = _closure1_slot8;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var7 = 14;
+                var7 = 16;
                 var2 = var2[var7];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
@@ -200,26 +242,17 @@ case 0:
                 var2 = {'emoji': null, 'onPress': null, 'emojiSize': 20, 'emojiFontSize': 16, 'emojiContainerSize': 40, 'emojiLineHeight': 22};
                 var9 = null;
                 var10 = var9 != var8;
-                if(!var10) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+                if(!var10) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var9 = var8;
-case 2:
+case 4:
                 var2['emoji'] = var9;
                 var6 = function onPress() {
-                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                        var3 = _closure3_slot0;
-                        var1 = null;
-                        var1 = var1 != var3;
-                        if(!var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                        var4 = _closure2_slot1;
-                        var3 = _closure3_slot0;
-                        var2 = undefined;
-                        var1 = var4.bind(var2)(var3);
-case 4:
-                        return var1;
-                    }
+                    var3 = _closure2_slot3;
+                    var2 = _closure3_slot0;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    return var1;
                 };
                 var2['onPress'] = var6;
                 var6 = _closure2_slot2;
@@ -239,7 +272,7 @@ case 4:
         var9 = var9.bind(var15)(var8);
         var8 = new Array(2);
         var8[0] = var9;
-        var9 = 14;
+        var9 = 16;
         var9 = var14[var9];
         var9 = var10.bind(var4)(var9);
         var10 = var9.EmojiPickerRowButton;

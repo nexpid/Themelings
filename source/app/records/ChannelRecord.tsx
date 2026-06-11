@@ -510,7 +510,7 @@ case 19:
     var _closure1_slot16 = var10;
     var13 = var6.Set;
     var12 = var54.DM;
-    var10 = new Array(14);
+    var10 = new Array(15);
     var10[0] = var12;
     var12 = var54.GROUP_DM;
     var10[1] = var12;
@@ -538,6 +538,8 @@ case 19:
     var10[12] = var12;
     var12 = var54.GUILD_MEDIA;
     var10[13] = var12;
+    var12 = var54.MEDIA_THREAD;
+    var10[14] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
     var60 = var12;
@@ -754,12 +756,14 @@ case 19:
     var _closure1_slot24 = var10;
     var13 = var6.Set;
     var12 = var54.ANNOUNCEMENT_THREAD;
-    var10 = new Array(3);
+    var10 = new Array(4);
     var10[0] = var12;
     var12 = var54.PUBLIC_THREAD;
     var10[1] = var12;
     var12 = var54.PRIVATE_THREAD;
     var10[2] = var12;
+    var12 = var54.MEDIA_THREAD;
+    var10[3] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
     var60 = var12;
@@ -1130,7 +1134,7 @@ case 46:
             }
         };
         var5['get'] = var1;
-        var1 = new Array(56);
+        var1 = new Array(57);
         var1[0] = var5;
         var5 = {};
         var7 = 'topic';
@@ -1614,6 +1618,19 @@ case 27:
         var5['value'] = var7;
         var1[23] = var5;
         var5 = {};
+        var7 = 'isMediaThread';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = this;
+            var2 = var1.type;
+            var1 = _closure1_slot11;
+            var1 = var1.MEDIA_THREAD;
+            var1 = var2 === var1;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[24] = var5;
+        var5 = {};
         var7 = 'isRingable';
         var5['key'] = var7;
         var7 = function value() {
@@ -1636,7 +1653,7 @@ case 64:
             }
         };
         var5['value'] = var7;
-        var1[24] = var5;
+        var1[25] = var5;
         var5 = {};
         var7 = 'isCategory';
         var5['key'] = var7;
@@ -1649,7 +1666,7 @@ case 64:
             return var1;
         };
         var5['value'] = var7;
-        var1[25] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'isVocal';
         var5['key'] = var7;
@@ -1662,7 +1679,7 @@ case 64:
             return var1;
         };
         var5['value'] = var7;
-        var1[26] = var5;
+        var1[27] = var5;
         var5 = {};
         var7 = 'isGuildVocal';
         var5['key'] = var7;
@@ -1675,7 +1692,7 @@ case 64:
             return var1;
         };
         var5['value'] = var7;
-        var1[27] = var5;
+        var1[28] = var5;
         var5 = {};
         var7 = 'isGuildVocalOrThread';
         var5['key'] = var7;
@@ -1694,7 +1711,7 @@ case 66:
             }
         };
         var5['value'] = var7;
-        var1[28] = var5;
+        var1[29] = var5;
         var5 = {};
         var7 = 'isGuildVoice';
         var5['key'] = var7;
@@ -1707,7 +1724,7 @@ case 66:
             return var1;
         };
         var5['value'] = var7;
-        var1[29] = var5;
+        var1[30] = var5;
         var5 = {};
         var7 = 'isGuildVoiceOrThread';
         var5['key'] = var7;
@@ -1726,7 +1743,7 @@ case 66:
             }
         };
         var5['value'] = var7;
-        var1[30] = var5;
+        var1[31] = var5;
         var5 = {};
         var7 = 'isGuildStageVoice';
         var5['key'] = var7;
@@ -1739,7 +1756,7 @@ case 66:
             return var1;
         };
         var5['value'] = var7;
-        var1[31] = var5;
+        var1[32] = var5;
         var5 = {};
         var7 = 'isListenModeCapable';
         var5['key'] = var7;
@@ -1750,7 +1767,7 @@ case 66:
             return var1;
         };
         var5['value'] = var7;
-        var1[32] = var5;
+        var1[33] = var5;
         var5 = {};
         var7 = 'isThread';
         var5['key'] = var7;
@@ -1763,7 +1780,7 @@ case 66:
             return var1;
         };
         var5['value'] = var7;
-        var1[33] = var5;
+        var1[34] = var5;
         var5 = {};
         var7 = 'isAnnouncementThread';
         var5['key'] = var7;
@@ -1776,7 +1793,7 @@ case 66:
             return var1;
         };
         var5['value'] = var7;
-        var1[34] = var5;
+        var1[35] = var5;
         var5 = {};
         var7 = 'isVocalThread';
         var5['key'] = var7;
@@ -1799,7 +1816,7 @@ case 41:
             }
         };
         var5['value'] = var7;
-        var1[35] = var5;
+        var1[36] = var5;
         var5 = {};
         var7 = 'isActiveThread';
         var5['key'] = var7;
@@ -1826,7 +1843,7 @@ case 59:
             }
         };
         var5['value'] = var7;
-        var1[36] = var5;
+        var1[37] = var5;
         var5 = {};
         var7 = 'isDirectory';
         var5['key'] = var7;
@@ -1839,7 +1856,7 @@ case 59:
             return var1;
         };
         var5['value'] = var7;
-        var1[37] = var5;
+        var1[38] = var5;
         var5 = {};
         var7 = 'isForumLikeChannel';
         var5['key'] = var7;
@@ -1858,7 +1875,7 @@ case 66:
             }
         };
         var5['value'] = var7;
-        var1[38] = var5;
+        var1[39] = var5;
         var5 = {};
         var7 = 'isForumChannel';
         var5['key'] = var7;
@@ -1871,7 +1888,7 @@ case 66:
             return var1;
         };
         var5['value'] = var7;
-        var1[39] = var5;
+        var1[40] = var5;
         var5 = {};
         var7 = 'isMediaChannel';
         var5['key'] = var7;
@@ -1884,7 +1901,7 @@ case 66:
             return var1;
         };
         var5['value'] = var7;
-        var1[40] = var5;
+        var1[41] = var5;
         var5 = {};
         var7 = 'isMediaPost';
         var5['key'] = var7;
@@ -1907,7 +1924,7 @@ case 67:
             }
         };
         var5['value'] = var7;
-        var1[41] = var5;
+        var1[42] = var5;
         var5 = {};
         var7 = 'isRoleSubscriptionTemplatePreviewChannel';
         var5['key'] = var7;
@@ -1920,7 +1937,7 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[42] = var5;
+        var1[43] = var5;
         var5 = {};
         var7 = 'isOwner';
         var5['key'] = var7;
@@ -1932,7 +1949,7 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[43] = var5;
+        var1[44] = var5;
         var5 = {};
         var7 = 'isObfuscated';
         var5['key'] = var7;
@@ -1945,7 +1962,7 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[44] = var5;
+        var1[45] = var5;
         var5 = {};
         var7 = 'getGuildId';
         var5['key'] = var7;
@@ -1955,7 +1972,7 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[45] = var5;
+        var1[46] = var5;
         var5 = {};
         var7 = 'getApplicationId';
         var5['key'] = var7;
@@ -1965,7 +1982,7 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[46] = var5;
+        var1[47] = var5;
         var5 = {};
         var7 = 'getDefaultSortOrder';
         var5['key'] = var7;
@@ -1990,7 +2007,7 @@ case 51:
             }
         };
         var5['value'] = var7;
-        var1[47] = var5;
+        var1[48] = var5;
         var5 = {};
         var7 = 'getDefaultLayout';
         var5['key'] = var7;
@@ -2048,7 +2065,7 @@ case 74:
             }
         };
         var5['value'] = var7;
-        var1[48] = var5;
+        var1[49] = var5;
         var5 = {};
         var7 = 'getDefaultTagSetting';
         var5['key'] = var7;
@@ -2073,7 +2090,7 @@ case 51:
             }
         };
         var5['value'] = var7;
-        var1[49] = var5;
+        var1[50] = var5;
         var5 = {};
         var7 = 'isModeratorReportChannel';
         var5['key'] = var7;
@@ -2086,7 +2103,7 @@ case 51:
             return var1;
         };
         var5['value'] = var7;
-        var1[50] = var5;
+        var1[51] = var5;
         var5 = {};
         var7 = 'isSpoilerChannel';
         var5['key'] = var7;
@@ -2099,7 +2116,7 @@ case 51:
             return var1;
         };
         var5['value'] = var7;
-        var1[51] = var5;
+        var1[52] = var5;
         var5 = {};
         var7 = 'isGameInvitesChannel';
         var5['key'] = var7;
@@ -2112,7 +2129,7 @@ case 51:
             return var1;
         };
         var5['value'] = var7;
-        var1[52] = var5;
+        var1[53] = var5;
         var5 = {};
         var7 = 'accessPermissions';
         var5['key'] = var7;
@@ -2125,7 +2142,7 @@ case 51:
             return var1;
         };
         var5['get'] = var7;
-        var1[53] = var5;
+        var1[54] = var5;
         var5 = {};
         var7 = 'hasFlag';
         var5['key'] = var7;
@@ -2144,7 +2161,7 @@ case 51:
             return var1;
         };
         var5['value'] = var7;
-        var1[54] = var5;
+        var1[55] = var5;
         var5 = {};
         var7 = 'isHDStreamSplashed';
         var5['key'] = var7;
@@ -2177,7 +2194,7 @@ case 42:
             }
         };
         var5['get'] = var6;
-        var1[55] = var5;
+        var1[56] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -4035,6 +4052,9 @@ case 166:
     var56 = var54.PRIVATE_THREAD;
     var55 = var6.fromServer;
     var51[55] = var55;
+    var56 = var54.MEDIA_THREAD;
+    var55 = var6.fromServer;
+    var51[55] = var55;
     var56 = var54.GUILD_DIRECTORY;
     var55 = var18.fromServer;
     var51[55] = var55;
@@ -4067,6 +4087,8 @@ case 166:
     var55 = var54.PUBLIC_THREAD;
     var51[54] = var6;
     var55 = var54.PRIVATE_THREAD;
+    var51[54] = var6;
+    var55 = var54.MEDIA_THREAD;
     var51[54] = var6;
     var55 = var54.GUILD_DIRECTORY;
     var51[54] = var15;

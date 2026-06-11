@@ -832,7 +832,7 @@ case 35:
     var11 = 8;
     var5 = var7[var11];
     var5 = var12.bind(var1)(var5);
-    var5 = var5.spacing;
+    var5 = var5.space;
     var5 = var5.PX_16;
     var _closure1_slot12 = var5;
     var5 = 9;
@@ -843,7 +843,7 @@ case 35:
     var10 = {'display': 'flex', 'flexGrow': 1, 'flexShrink': 1};
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['paddingHorizontal'] = var11;
     var5['container'] = var10;

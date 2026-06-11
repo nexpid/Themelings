@@ -691,7 +691,7 @@ case 52:
             var31 = 8;
             var31 = var33[var31];
             var31 = var32.bind(var4)(var31);
-            var31 = var31.spacing;
+            var31 = var31.space;
             var31 = var31.PX_16;
             var28['size'] = var31;
             var28 = var30.bind(var4)(var29, var28);
@@ -742,7 +742,7 @@ case 51:
             var24 = 8;
             var24 = var19[var24];
             var24 = var13.bind(var4)(var24);
-            var24 = var24.spacing;
+            var24 = var24.space;
             var24 = var24.PX_16;
             var21['size'] = var24;
             var21 = var23.bind(var4)(var22, var21);
@@ -849,14 +849,14 @@ case 51:
     var10 = 8;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['right'] = var13;
     var4['wishlistButton'] = var9;
     var9 = {'position': 'absolute', 'top': 0, 'right': null, 'zIndex': 2, 'width': null, 'height': null, 'alignItems': 'center', 'justifyContent': 'center'};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var15 = var13.PX_16;
     var13 = 9;
     var14 = var6[var13];
@@ -865,7 +865,7 @@ case 51:
     var15 = var15 + var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var14 = var15 + var14;
     var9['right'] = var14;
@@ -931,7 +931,7 @@ case 51:
     var9 = {'position': 'absolute', 'top': 0, 'left': null, 'zIndex': 2};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['left'] = var10;
     var4['badgeWrapper'] = var9;

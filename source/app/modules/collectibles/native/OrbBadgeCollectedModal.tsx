@@ -311,12 +311,12 @@ case 4:
     var10 = 5;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['padding'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_32;
     var9['gap'] = var12;
     var4['body'] = var9;
@@ -324,7 +324,7 @@ case 4:
     var12 = 'stretch';
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_32;
     var9['gap'] = var14;
     var4['bottomContainer'] = var9;
@@ -332,7 +332,7 @@ case 4:
     var9['alignItems'] = var13;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var9['gap'] = var14;
     var4['textContainer'] = var9;
@@ -343,7 +343,7 @@ case 4:
     var9['alignItems'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['gap'] = var10;
     var4['buttonsContainer'] = var9;

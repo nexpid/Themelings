@@ -379,19 +379,19 @@ case 6:
     var14 = {};
     var16 = var7[var17];
     var16 = var18.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_4;
     var14['marginLeft'] = var16;
     var8['monetizationDisclosureTextStyle'] = var14;
     var14 = {'flexDirection': 'row', 'alignItems': 'center'};
     var16 = var7[var17];
     var16 = var18.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_24;
     var14['marginBottom'] = var16;
     var16 = var7[var17];
     var16 = var18.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_16;
     var14['gap'] = var16;
     var8['monetizationDisclosureContainerStyle'] = var14;
@@ -1136,7 +1136,7 @@ case 52:
             var44 = 10;
             var44 = var46[var44];
             var44 = var45.bind(var4)(var44);
-            var44 = var44.spacing;
+            var44 = var44.space;
             var43 = var44.PX_16;
 case 51:
             var29['size'] = var43;

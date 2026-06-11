@@ -789,7 +789,7 @@ case 29:
                 var8 = 13;
                 var8 = var11[var8];
                 var8 = var9.bind(var4)(var8);
-                var8 = var8.spacing;
+                var8 = var8.space;
                 var8 = var8.PX_24;
                 var5['spacing'] = var8;
                 var8 = {};

@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 4;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_4;
     var11['paddingStart'] = var12;
     var8['variantsContainer'] = var11;
@@ -61,7 +61,7 @@ case 0:
             var7 = var4[var6];
             var5 = undefined;
             var7 = var8.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_4;
             var7 = -var7;
             var2['marginStart'] = var7;

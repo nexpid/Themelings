@@ -245,10 +245,10 @@ case 0:
             if(var4) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
             var7 = var8.PX_12;
-            _fun0004_ip = 38; continue _fun0004;
+            _fun0004_ip = 9; continue _fun0004;
 case 36:
             var7 = var8.PX_24;
-case 38:
+case 9:
             var2['paddingHorizontal'] = var7;
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -262,13 +262,13 @@ case 38:
             var7 = var7[var6];
             var7 = var8.bind(var5)(var7);
             var7 = var7.space;
-            if(var4) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-            var4 = var7.PX_16;
-            _fun0004_ip = 14; continue _fun0004;
+            if(var4) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
+            var4 = var7.PX_16;
+            _fun0004_ip = 40; continue _fun0004;
+case 38:
             var4 = var7.PX_24;
-case 14:
+case 40:
             var2['paddingBottom'] = var4;
             var4 = 1;
             var2['flex'] = var4;

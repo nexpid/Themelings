@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 7;
     var4 = var8[var12];
     var4 = var13.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var4 = var4.PX_16;
     var11['marginTop'] = var4;
     var4 = 24;

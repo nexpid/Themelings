@@ -487,7 +487,7 @@ case 13:
     var11 = 8;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['marginBottom'] = var13;
     var4['themeSection'] = var10;
@@ -496,7 +496,7 @@ case 13:
     var10['flexDirection'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_12;
     var10['gap'] = var13;
     var4['themeSelector'] = var10;
@@ -505,7 +505,7 @@ case 13:
     var10['alignItems'] = var13;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_4;
     var10['gap'] = var14;
     var4['themeOption'] = var10;
@@ -531,7 +531,7 @@ case 13:
     var10['alignItems'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_4;
     var10['gap'] = var13;
     var4['resetButton'] = var10;
