@@ -74,12 +74,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['flexGrow'] = var14;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['paddingTop'] = var14;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_12;
     var10['paddingBottom'] = var12;
     var7['button'] = var10;

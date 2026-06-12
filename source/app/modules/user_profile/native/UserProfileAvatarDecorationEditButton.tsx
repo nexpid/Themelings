@@ -314,7 +314,7 @@ case 19:
             var12 = 7;
             var12 = var15[var12];
             var12 = var14.bind(var4)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var14 = var12.PX_4;
             var12 = 2;
             var12 = var12 * var14;

@@ -82,8 +82,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot27 = var4;
     var4 = /subscriptions\/(\d+)/;
     var _closure1_slot28 = var4;
-    var4 = /games\/([^\/]+)\/updates\/([^\/]+)/;
-    var _closure1_slot29 = var4;
     var4 = function parseQuery(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -162,7 +160,7 @@ case 13: // catch_target0
             return var1;
         }
     };
-    var _closure1_slot30 = var4;
+    var _closure1_slot29 = var4;
     var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -186,9 +184,9 @@ case 14:
             var4 = var2.bind(var13)(var1);
             var2 = var4.sanitizeUrl;
             var1 = arg1;
-            var40 = var2.bind(var4)(var1);
+            var38 = var2.bind(var4)(var1);
             var16 = null;
-            if(!(var16 != var40)) { _fun0003_ip = 16; continue _fun0003 }
+            if(!(var16 != var38)) { _fun0003_ip = 16; continue _fun0003 }
 case 8:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -196,13 +194,13 @@ case 8:
             var1 = var4[var1];
             var2 = var2.bind(var13)(var1);
             var1 = var2.parse;
-            var1 = var1.bind(var2)(var40);
+            var1 = var1.bind(var2)(var38);
             var21 = var1.protocol;
-            var35 = var1.host;
+            var33 = var1.host;
             var14 = var1.hostname;
-            var41 = var1.pathname;
+            var39 = var1.pathname;
             var15 = var1.query;
-            var4 = _closure1_slot30;
+            var4 = _closure1_slot29;
             var5 = var16 != var15;
             var1 = '';
             var2 = var1;
@@ -226,7 +224,7 @@ case 17:
             var6 = var9[var6];
             var8 = var8.bind(var13)(var6);
             var6 = var8.findCodedLink;
-            var6 = var6.bind(var8)(var40);
+            var6 = var6.bind(var8)(var38);
             if(!(var16 != var6)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
             var9 = var6.type;
@@ -466,7 +464,7 @@ case 19:
             var8 = var10[var8];
             var8 = var9.bind(var13)(var8);
             var8 = var8.findGiftCodes;
-            var10 = var8.bind(var13)(var40);
+            var10 = var8.bind(var13)(var38);
             var8 = var10.length;
             var9 = 0;
             if(!(!(var8 > var9))) { _fun0003_ip = 51; continue _fun0003 }
@@ -477,7 +475,7 @@ case 52:
             var8 = var12[var8];
             var11 = var11.bind(var13)(var8);
             var8 = var11.findRemoteAuthFingerprint;
-            var11 = var8.bind(var11)(var35, var41);
+            var11 = var8.bind(var11)(var33, var39);
             if(!(var16 != var11)) { _fun0003_ip = 53; continue _fun0003 }
 case 54:
             var8 = var11.length;
@@ -489,7 +487,7 @@ case 53:
             var8 = var8[var17];
             var12 = var12.bind(var13)(var8);
             var8 = var12.isDiscordHostname;
-            var8 = var8.bind(var12)(var35);
+            var8 = var8.bind(var12)(var33);
             if(var8) { _fun0003_ip = 56; continue _fun0003 }
 case 57:
             var12 = _closure1_slot1;
@@ -505,68 +503,68 @@ case 58:
             var8 = var8[var17];
             var12 = var12.bind(var13)(var8);
             var8 = var12.isDiscordLocalhost;
-            var8 = var8.bind(var12)(var35, var14);
+            var8 = var8.bind(var12)(var33, var14);
             if(!var8) { _fun0003_ip = 59; continue _fun0003 }
 case 56:
-            if(!(var16 != var41)) { _fun0003_ip = 59; continue _fun0003 }
+            if(!(var16 != var39)) { _fun0003_ip = 59; continue _fun0003 }
 case 60:
             var12 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var34 = 14;
-            var8 = var8[var34];
+            var32 = 14;
+            var8 = var8[var32];
             var12 = var12.bind(var13)(var8);
             var8 = var12.tryParseDiceRollLink;
-            var12 = var8.bind(var12)(var41);
+            var12 = var8.bind(var12)(var39);
             if(!(var16 == var12)) { _fun0003_ip = 61; continue _fun0003 }
 case 62:
             var14 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var8 = var8[var34];
+            var8 = var8[var32];
             var14 = var14.bind(var13)(var8);
             var8 = var14.tryParseChannelPath;
-            var14 = var8.bind(var14)(var41);
+            var14 = var8.bind(var14)(var39);
             if(!(var16 == var14)) { _fun0003_ip = 63; continue _fun0003 }
 case 64:
-            var17 = var41.match;
+            var17 = var39.match;
             var8 = _closure1_slot25;
-            var22 = var17.bind(var41)(var8);
+            var22 = var17.bind(var39)(var8);
             if(!(var16 != var22)) { _fun0003_ip = 65; continue _fun0003 }
 case 66:
             var8 = var22.length;
             var21 = 1;
             if(!(!(var8 > var21))) { _fun0003_ip = 67; continue _fun0003 }
 case 65:
-            var17 = var41.match;
+            var17 = var39.match;
             var8 = _closure1_slot26;
-            var24 = var17.bind(var41)(var8);
+            var24 = var17.bind(var39)(var8);
             if(!(var16 != var24)) { _fun0003_ip = 68; continue _fun0003 }
 case 69:
             var8 = var24.length;
             var23 = 1;
             if(!(!(var8 > var23))) { _fun0003_ip = 70; continue _fun0003 }
 case 68:
-            var17 = var41.match;
+            var17 = var39.match;
             var8 = _closure1_slot27;
-            var8 = var17.bind(var41)(var8);
+            var8 = var17.bind(var39)(var8);
             if(!(var16 == var8)) { _fun0003_ip = 71; continue _fun0003 }
 case 72:
-            var17 = var41.match;
+            var17 = var39.match;
             var8 = _closure1_slot28;
-            var8 = var17.bind(var41)(var8);
+            var8 = var17.bind(var39)(var8);
             if(!(var16 == var8)) { _fun0003_ip = 73; continue _fun0003 }
 case 74:
-            var17 = var41.match;
+            var17 = var39.match;
             var8 = _closure1_slot15;
-            var26 = var17.bind(var41)(var8);
+            var26 = var17.bind(var39)(var8);
             if(!(var16 != var26)) { _fun0003_ip = 75; continue _fun0003 }
 case 76:
             var8 = var26.length;
             var25 = 1;
             if(!(!(var8 > var25))) { _fun0003_ip = 77; continue _fun0003 }
 case 75:
-            var17 = var41.match;
+            var17 = var39.match;
             var8 = _closure1_slot16;
-            var8 = var17.bind(var41)(var8);
+            var8 = var17.bind(var39)(var8);
             if(!(var16 != var8)) { _fun0003_ip = 78; continue _fun0003 }
 case 79:
             var17 = _closure1_slot0;
@@ -584,276 +582,267 @@ case 80:
             var28 = var17.bind(var28)(var8);
             if(!(var16 == var28)) { _fun0003_ip = 82; continue _fun0003 }
 case 78:
-            var17 = var41.match;
+            var17 = var39.match;
             var8 = _closure1_slot17;
-            var8 = var17.bind(var41)(var8);
+            var8 = var17.bind(var39)(var8);
             if(!(var16 == var8)) { _fun0003_ip = 83; continue _fun0003 }
 case 84:
-            var17 = var41.match;
+            var17 = var39.match;
             var8 = _closure1_slot14;
-            var17 = var17.bind(var41)(var8);
+            var17 = var17.bind(var39)(var8);
             if(!(var16 != var17)) { _fun0003_ip = 85; continue _fun0003 }
 case 86:
             var30 = var17.length;
             var8 = 1;
             if(!(!(var30 > var8))) { _fun0003_ip = 87; continue _fun0003 }
 case 85:
-            var31 = var41.match;
-            var30 = _closure1_slot29;
-            var32 = var31.bind(var41)(var30);
-            if(!(var16 != var32)) { _fun0003_ip = 88; continue _fun0003 }
-case 89:
-            var30 = var32.length;
-            var31 = 2;
-            if(!(!(var30 > var31))) { _fun0003_ip = 90; continue _fun0003 }
-case 88:
-            var33 = var41.match;
+            var31 = var39.match;
             var30 = _closure1_slot13;
-            var33 = var33.bind(var41)(var30);
-            if(!(var16 != var33)) { _fun0003_ip = 91; continue _fun0003 }
-case 92:
-            var36 = var33.length;
+            var31 = var31.bind(var39)(var30);
+            if(!(var16 != var31)) { _fun0003_ip = 88; continue _fun0003 }
+case 89:
+            var34 = var31.length;
             var30 = 1;
-            if(!(var36 > var30)) { _fun0003_ip = 91; continue _fun0003 }
-case 93:
-            var36 = var33[var30];
+            if(!(var34 > var30)) { _fun0003_ip = 88; continue _fun0003 }
+case 90:
+            var34 = var31[var30];
             var30 = 'composeMessage';
-            if(!(var30 !== var36)) { _fun0003_ip = 94; continue _fun0003 }
-case 95:
+            if(!(var30 !== var34)) { _fun0003_ip = 91; continue _fun0003 }
+case 92:
             var30 = 'contactSync';
-            if(!(var30 !== var36)) { _fun0003_ip = 96; continue _fun0003 }
-case 97:
+            if(!(var30 !== var34)) { _fun0003_ip = 93; continue _fun0003 }
+case 94:
             var30 = 'addFriends';
-            if(!(var30 !== var36)) { _fun0003_ip = 98; continue _fun0003 }
-case 99:
+            if(!(var30 !== var34)) { _fun0003_ip = 95; continue _fun0003 }
+case 96:
             var30 = 'friends';
-            if(!(var30 !== var36)) { _fun0003_ip = 100; continue _fun0003 }
-case 101:
+            if(!(var30 !== var34)) { _fun0003_ip = 97; continue _fun0003 }
+case 98:
             var30 = 'editProfile';
-            if(!(var30 !== var36)) { _fun0003_ip = 102; continue _fun0003 }
-case 103:
+            if(!(var30 !== var34)) { _fun0003_ip = 99; continue _fun0003 }
+case 100:
             var30 = 'voiceChannel';
-            if(!(var30 !== var36)) { _fun0003_ip = 104; continue _fun0003 }
-case 105:
+            if(!(var30 !== var34)) { _fun0003_ip = 101; continue _fun0003 }
+case 102:
             var30 = 'sessionManagement';
-            if(!(var30 !== var36)) { _fun0003_ip = 106; continue _fun0003 }
-case 107:
+            if(!(var30 !== var34)) { _fun0003_ip = 103; continue _fun0003 }
+case 104:
             var30 = 'home';
-            if(!(var30 !== var36)) { _fun0003_ip = 108; continue _fun0003 }
-case 109:
+            if(!(var30 !== var34)) { _fun0003_ip = 105; continue _fun0003 }
+case 106:
             var30 = 'icymi';
-            if(!(var30 !== var36)) { _fun0003_ip = 110; continue _fun0003 }
-case 111:
+            if(!(var30 !== var34)) { _fun0003_ip = 107; continue _fun0003 }
+case 108:
             var30 = 'connections';
-            if(!(var30 !== var36)) { _fun0003_ip = 112; continue _fun0003 }
-case 113:
+            if(!(var30 !== var34)) { _fun0003_ip = 109; continue _fun0003 }
+case 110:
             var30 = 'family-center';
-            if(!(var30 !== var36)) { _fun0003_ip = 114; continue _fun0003 }
-case 115:
+            if(!(var30 !== var34)) { _fun0003_ip = 111; continue _fun0003 }
+case 112:
             var30 = 'promo-url';
-            if(!(var30 !== var36)) { _fun0003_ip = 116; continue _fun0003 }
-case 117:
+            if(!(var30 !== var34)) { _fun0003_ip = 113; continue _fun0003 }
+case 114:
             var30 = 'account-standing';
-            if(!(var30 !== var36)) { _fun0003_ip = 118; continue _fun0003 }
-case 119:
+            if(!(var30 !== var34)) { _fun0003_ip = 115; continue _fun0003 }
+case 116:
             var30 = 'mobile-web-redirect-checkout';
-            if(!(var30 !== var36)) { _fun0003_ip = 120; continue _fun0003 }
-case 121:
+            if(!(var30 !== var34)) { _fun0003_ip = 117; continue _fun0003 }
+case 118:
             var30 = 'open-shop';
-            if(!(var30 !== var36)) { _fun0003_ip = 122; continue _fun0003 }
-case 123:
+            if(!(var30 !== var34)) { _fun0003_ip = 119; continue _fun0003 }
+case 120:
             var30 = 'authorized-apps';
-            if(!(var30 !== var36)) { _fun0003_ip = 124; continue _fun0003 }
-case 125:
+            if(!(var30 !== var34)) { _fun0003_ip = 121; continue _fun0003 }
+case 122:
             var30 = 'share';
-            if(!(var30 !== var36)) { _fun0003_ip = 126; continue _fun0003 }
-case 127:
+            if(!(var30 !== var34)) { _fun0003_ip = 123; continue _fun0003 }
+case 124:
             var30 = 'dave-protocol-verification';
-            if(!(var30 !== var36)) { _fun0003_ip = 128; continue _fun0003 }
-case 129:
-            var30 = 'gift';
-            if(!(var30 !== var36)) { _fun0003_ip = 130; continue _fun0003 }
-case 131:
-            var30 = 'store';
-            if(!(var30 !== var36)) { _fun0003_ip = 132; continue _fun0003 }
-case 133:
-            var30 = 'connected-games';
-            if(!(var30 !== var36)) { _fun0003_ip = 134; continue _fun0003 }
-case 135:
-            var30 = 'boost-settings';
-            if(!(var30 !== var36)) { _fun0003_ip = 136; continue _fun0003 }
-case 137:
-            var30 = 'quest-preview-tool';
-            if(!(var30 !== var36)) { _fun0003_ip = 138; continue _fun0003 }
-case 139:
-            var33 = 'subscription-settings';
-            var30 = null;
-            if(!(var33 === var36)) { _fun0003_ip = 140; continue _fun0003 }
-case 141:
-            var33 = {};
-            var36 = _closure1_slot7;
-            var36 = var36.SUBSCRIPTION_SETTINGS;
-            var33['type'] = var36;
-            var30 = var33;
-            _fun0003_ip = 140; continue _fun0003;
-case 138:
-            var36 = _closure1_slot30;
-            var37 = var16 != var15;
-            var33 = var1;
-            if(!var37) { _fun0003_ip = 142; continue _fun0003 }
-case 143:
-            var33 = var15;
-case 142:
-            var33 = var36.bind(var13)(var33);
-            var36 = var33.quest_id;
-            var33 = {};
-            var37 = _closure1_slot7;
-            var37 = var37.QUEST_PREVIEW_TOOL;
-            var33['type'] = var37;
-            var33['questId'] = var36;
-            var30 = var33;
-            _fun0003_ip = 140; continue _fun0003;
-case 136:
-            var33 = {};
-            var36 = _closure1_slot7;
-            var36 = var36.BOOST_SETTINGS;
-            var33['type'] = var36;
-            var30 = var33;
-            _fun0003_ip = 140; continue _fun0003;
-case 134:
-            var33 = {};
-            var36 = _closure1_slot7;
-            var36 = var36.CONNECTED_GAMES;
-            var33['type'] = var36;
-            var30 = var33;
-            _fun0003_ip = 140; continue _fun0003;
-case 132:
-            var36 = _closure1_slot30;
-            var37 = var16 != var15;
-            var33 = var1;
-            if(!var37) { _fun0003_ip = 144; continue _fun0003 }
-case 145:
-            var33 = var15;
-case 144:
-            var33 = var36.bind(var13)(var33);
-            var36 = var33.section;
-            var33 = {};
-            var37 = _closure1_slot7;
-            var37 = var37.NITRO_HOME;
-            var33['type'] = var37;
-            var33['section'] = var36;
-            var30 = var33;
-            _fun0003_ip = 140; continue _fun0003;
-case 130:
-            var33 = {};
-            var36 = _closure1_slot7;
-            var36 = var36.GIFT;
-            var33['type'] = var36;
-            var30 = var33;
-            _fun0003_ip = 140; continue _fun0003;
-case 128:
-            var36 = _closure1_slot30;
-            var37 = var16 != var15;
-            var33 = var1;
-            if(!var37) { _fun0003_ip = 146; continue _fun0003 }
-case 147:
-            var33 = var15;
-case 146:
-            var33 = var36.bind(var13)(var33);
-            var37 = var33.userId;
-            var36 = var33.fingerprint;
-            var33 = var16 != var37;
-            var30 = null;
-            if(!var33) { _fun0003_ip = 140; continue _fun0003 }
-case 148:
-            var33 = var16 != var36;
-            var30 = null;
-            if(!var33) { _fun0003_ip = 140; continue _fun0003 }
-case 149:
-            var38 = _closure1_slot0;
-            var39 = _closure1_slot2;
-            var33 = 19;
-            var33 = var39[var33];
-            var39 = var38.bind(var13)(var33);
-            var38 = var39.getSecureFramesDeeplinkExperiment;
-            var33 = {};
-            var42 = 'parseUrl';
-            var33['location'] = var42;
-            var33 = var38.bind(var39)(var33);
-            var33 = var33.enabled;
-            var30 = null;
-            if(!var33) { _fun0003_ip = 140; continue _fun0003 }
-case 150:
-            var33 = {};
-            var38 = _closure1_slot7;
-            var38 = var38.DAVE_PROTOCOL_VERIFICATION;
-            var33['type'] = var38;
-            var33['userId'] = var37;
-            var33['fingerprint'] = var36;
-            var30 = var33;
-            _fun0003_ip = 140; continue _fun0003;
+            if(!(var30 !== var34)) { _fun0003_ip = 125; continue _fun0003 }
 case 126:
+            var30 = 'gift';
+            if(!(var30 !== var34)) { _fun0003_ip = 127; continue _fun0003 }
+case 128:
+            var30 = 'store';
+            if(!(var30 !== var34)) { _fun0003_ip = 129; continue _fun0003 }
+case 130:
+            var30 = 'connected-games';
+            if(!(var30 !== var34)) { _fun0003_ip = 131; continue _fun0003 }
+case 132:
+            var30 = 'boost-settings';
+            if(!(var30 !== var34)) { _fun0003_ip = 133; continue _fun0003 }
+case 134:
+            var30 = 'quest-preview-tool';
+            if(!(var30 !== var34)) { _fun0003_ip = 135; continue _fun0003 }
+case 136:
+            var31 = 'subscription-settings';
+            var30 = null;
+            if(!(var31 === var34)) { _fun0003_ip = 137; continue _fun0003 }
+case 138:
+            var31 = {};
+            var34 = _closure1_slot7;
+            var34 = var34.SUBSCRIPTION_SETTINGS;
+            var31['type'] = var34;
+            var30 = var31;
+            _fun0003_ip = 137; continue _fun0003;
+case 135:
+            var34 = _closure1_slot29;
+            var35 = var16 != var15;
+            var31 = var1;
+            if(!var35) { _fun0003_ip = 139; continue _fun0003 }
+case 140:
+            var31 = var15;
+case 139:
+            var31 = var34.bind(var13)(var31);
+            var34 = var31.quest_id;
+            var31 = {};
+            var35 = _closure1_slot7;
+            var35 = var35.QUEST_PREVIEW_TOOL;
+            var31['type'] = var35;
+            var31['questId'] = var34;
+            var30 = var31;
+            _fun0003_ip = 137; continue _fun0003;
+case 133:
+            var31 = {};
+            var34 = _closure1_slot7;
+            var34 = var34.BOOST_SETTINGS;
+            var31['type'] = var34;
+            var30 = var31;
+            _fun0003_ip = 137; continue _fun0003;
+case 131:
+            var31 = {};
+            var34 = _closure1_slot7;
+            var34 = var34.CONNECTED_GAMES;
+            var31['type'] = var34;
+            var30 = var31;
+            _fun0003_ip = 137; continue _fun0003;
+case 129:
+            var34 = _closure1_slot29;
+            var35 = var16 != var15;
+            var31 = var1;
+            if(!var35) { _fun0003_ip = 141; continue _fun0003 }
+case 142:
+            var31 = var15;
+case 141:
+            var31 = var34.bind(var13)(var31);
+            var34 = var31.section;
+            var31 = {};
+            var35 = _closure1_slot7;
+            var35 = var35.NITRO_HOME;
+            var31['type'] = var35;
+            var31['section'] = var34;
+            var30 = var31;
+            _fun0003_ip = 137; continue _fun0003;
+case 127:
+            var31 = {};
+            var34 = _closure1_slot7;
+            var34 = var34.GIFT;
+            var31['type'] = var34;
+            var30 = var31;
+            _fun0003_ip = 137; continue _fun0003;
+case 125:
+            var34 = _closure1_slot29;
+            var35 = var16 != var15;
+            var31 = var1;
+            if(!var35) { _fun0003_ip = 143; continue _fun0003 }
+case 144:
+            var31 = var15;
+case 143:
+            var31 = var34.bind(var13)(var31);
+            var35 = var31.userId;
+            var34 = var31.fingerprint;
+            var31 = var16 != var35;
+            var30 = null;
+            if(!var31) { _fun0003_ip = 137; continue _fun0003 }
+case 145:
+            var31 = var16 != var34;
+            var30 = null;
+            if(!var31) { _fun0003_ip = 137; continue _fun0003 }
+case 146:
             var36 = _closure1_slot0;
             var37 = _closure1_slot2;
-            var33 = 18;
-            var33 = var37[var33];
-            var36 = var36.bind(var13)(var33);
-            var33 = var36.isIOS;
-            var33 = var33.bind(var36)();
+            var31 = 19;
+            var31 = var37[var31];
+            var37 = var36.bind(var13)(var31);
+            var36 = var37.getSecureFramesDeeplinkExperiment;
+            var31 = {};
+            var40 = 'parseUrl';
+            var31['location'] = var40;
+            var31 = var36.bind(var37)(var31);
+            var31 = var31.enabled;
             var30 = null;
-            if(!var33) { _fun0003_ip = 140; continue _fun0003 }
-case 151:
-            var36 = _closure1_slot30;
-            var37 = var16 != var15;
-            var33 = var1;
-            if(!var37) { _fun0003_ip = 152; continue _fun0003 }
-case 153:
-            var33 = var15;
-case 152:
-            var36 = var36.bind(var13)(var33);
-            var38 = var36.text;
-            var37 = var36.channelId;
-            var33 = var36.shareId;
-            var43 = var36.attachmentManifest;
-            var42 = function isValidUUID(arg1) {
+            if(!var31) { _fun0003_ip = 137; continue _fun0003 }
+case 147:
+            var31 = {};
+            var36 = _closure1_slot7;
+            var36 = var36.DAVE_PROTOCOL_VERIFICATION;
+            var31['type'] = var36;
+            var31['userId'] = var35;
+            var31['fingerprint'] = var34;
+            var30 = var31;
+            _fun0003_ip = 137; continue _fun0003;
+case 123:
+            var34 = _closure1_slot0;
+            var35 = _closure1_slot2;
+            var31 = 18;
+            var31 = var35[var31];
+            var34 = var34.bind(var13)(var31);
+            var31 = var34.isIOS;
+            var31 = var31.bind(var34)();
+            var30 = null;
+            if(!var31) { _fun0003_ip = 137; continue _fun0003 }
+case 148:
+            var34 = _closure1_slot29;
+            var35 = var16 != var15;
+            var31 = var1;
+            if(!var35) { _fun0003_ip = 149; continue _fun0003 }
+case 150:
+            var31 = var15;
+case 149:
+            var34 = var34.bind(var13)(var31);
+            var36 = var34.text;
+            var35 = var34.channelId;
+            var31 = var34.shareId;
+            var41 = var34.attachmentManifest;
+            var40 = function isValidUUID(arg1) {
                 var3 = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
                 var2 = var3.test;
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            _closure2_slot0 = var42;
-            var39 = 'string';
-            var44 = typeof var33;
-            var36 = undefined;
-            if(!(var39 === var44)) { _fun0003_ip = 154; continue _fun0003 }
+            _closure2_slot0 = var40;
+            var37 = 'string';
+            var42 = typeof var31;
+            var34 = undefined;
+            if(!(var37 === var42)) { _fun0003_ip = 151; continue _fun0003 }
+case 152:
+            var40 = var40.bind(var13)(var31);
+            var34 = undefined;
+            if(!var40) { _fun0003_ip = 151; continue _fun0003 }
+case 153:
+            var34 = var31;
+case 151:
+            var31 = typeof var41;
+            if(!(var37 !== var31)) { _fun0003_ip = 154; continue _fun0003 }
 case 155:
-            var42 = var42.bind(var13)(var33);
-            var36 = undefined;
-            if(!var42) { _fun0003_ip = 154; continue _fun0003 }
-case 156:
-            var36 = var33;
+            var37 = new Array(0);
+            _fun0003_ip = 156; continue _fun0003;
 case 154:
-            var33 = typeof var43;
-            if(!(var39 !== var33)) { _fun0003_ip = 157; continue _fun0003 }
+            var31 = global;
+            var40 = var31.JSON;
+            var31 = var40.parse;
+            var37 = var31.bind(var40)(var41);
+case 156:
+            var31 = global;
+            var40 = var31.Array;
+            var31 = var40.isArray;
+            var31 = var31.bind(var40)(var37);
+            if(var31) { _fun0003_ip = 157; continue _fun0003 }
 case 158:
-            var39 = new Array(0);
-            _fun0003_ip = 159; continue _fun0003;
+            var37 = new Array(0);
 case 157:
-            var33 = global;
-            var42 = var33.JSON;
-            var33 = var42.parse;
-            var39 = var33.bind(var42)(var43);
-case 159:
-            var33 = global;
-            var42 = var33.Array;
-            var33 = var42.isArray;
-            var33 = var33.bind(var42)(var39);
-            if(var33) { _fun0003_ip = 160; continue _fun0003 }
-case 161:
-            var39 = new Array(0);
-case 160:
-            var33 = var39.filter;
+            var31 = var37.filter;
             var27 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -862,436 +851,401 @@ case 0:
                     var4 = 'string';
                     var1 = typeof var1;
                     var1 = var4 === var1;
-                    if(!var1) { _fun0004_ip = 162; continue _fun0004 }
-case 163:
+                    if(!var1) { _fun0004_ip = 159; continue _fun0004 }
+case 160:
                     var3 = var2.temporaryFilename;
                     var3 = typeof var3;
                     var1 = var4 === var3;
+case 159:
+                    if(!var1) { _fun0004_ip = 161; continue _fun0004 }
 case 162:
-                    if(!var1) { _fun0004_ip = 164; continue _fun0004 }
-case 165:
                     var4 = _closure2_slot0;
                     var3 = var2.temporaryFilename;
                     var2 = undefined;
                     var1 = var4.bind(var2)(var3);
-case 164:
+case 161:
                     return var1;
                 }
             };
-            var33 = var33.bind(var39)(var27);
-            var27 = {};
-            var39 = _closure1_slot7;
-            var39 = var39.SHARE;
-            var27['type'] = var39;
-            var27['text'] = var38;
-            var27['channelId'] = var37;
-            var27['shareId'] = var36;
-            var27['attachmentManifest'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 124:
-            var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.AUTHORIZED_APPS;
-            var27['type'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 122:
-            var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.SHOP;
-            var27['type'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 120:
-            var33 = _closure1_slot0;
-            var36 = _closure1_slot2;
-            var27 = 16;
-            var27 = var36[var27];
-            var33 = var33.bind(var13)(var27);
-            var27 = var33.isMobileWebRedirectCheckoutEnabled;
-            var27 = var27.bind(var33)();
-            if(!var27) { _fun0003_ip = 166; continue _fun0003 }
-case 167:
-            var36 = _closure1_slot0;
-            var37 = _closure1_slot2;
-            var33 = 17;
-            var33 = var37[var33];
-            var36 = var36.bind(var13)(var33);
-            var33 = var36.isMetaQuest;
-            var33 = var33.bind(var36)();
-            var27 = !var33;
-case 166:
-            var36 = _closure1_slot30;
-            var37 = var16 != var15;
-            var33 = var1;
-            if(!var37) { _fun0003_ip = 168; continue _fun0003 }
-case 169:
-            var33 = var15;
-case 168:
-            var37 = var36.bind(var13)(var33);
-            var33 = _closure1_slot12;
-            var36 = var33.DEEP_LINK_ACTION;
-            var36 = var37[var36];
-            var33 = var33.GUILD_ID;
-            var33 = var37[var33];
-            var30 = null;
-            if(!var27) { _fun0003_ip = 140; continue _fun0003 }
-case 170:
+            var31 = var31.bind(var37)(var27);
             var27 = {};
             var37 = _closure1_slot7;
-            var37 = var37.MOBILE_WEB_REDIRECT_CHECKOUT;
+            var37 = var37.SHARE;
             var27['type'] = var37;
-            if(!(var16 == var36)) { _fun0003_ip = 171; continue _fun0003 }
-case 172:
-            var37 = _closure1_slot11;
-            var36 = var37.DEFAULT;
-case 171:
-            var27['deepLinkAction'] = var36;
-            var27['guildId'] = var33;
+            var27['text'] = var36;
+            var27['channelId'] = var35;
+            var27['shareId'] = var34;
+            var27['attachmentManifest'] = var31;
             var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 118:
+            _fun0003_ip = 137; continue _fun0003;
+case 121:
             var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.ACCOUNT_STANDING;
-            var27['type'] = var33;
-            var27['pathname'] = var41;
+            var31 = _closure1_slot7;
+            var31 = var31.AUTHORIZED_APPS;
+            var27['type'] = var31;
             var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 116:
-            var33 = _closure1_slot30;
-            var36 = var16 != var15;
+            _fun0003_ip = 137; continue _fun0003;
+case 119:
+            var27 = {};
+            var31 = _closure1_slot7;
+            var31 = var31.SHOP;
+            var27['type'] = var31;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 117:
+            var31 = _closure1_slot0;
+            var34 = _closure1_slot2;
+            var27 = 16;
+            var27 = var34[var27];
+            var31 = var31.bind(var13)(var27);
+            var27 = var31.isMobileWebRedirectCheckoutEnabled;
+            var27 = var27.bind(var31)();
+            if(!var27) { _fun0003_ip = 163; continue _fun0003 }
+case 164:
+            var34 = _closure1_slot0;
+            var35 = _closure1_slot2;
+            var31 = 17;
+            var31 = var35[var31];
+            var34 = var34.bind(var13)(var31);
+            var31 = var34.isMetaQuest;
+            var31 = var31.bind(var34)();
+            var27 = !var31;
+case 163:
+            var34 = _closure1_slot29;
+            var35 = var16 != var15;
+            var31 = var1;
+            if(!var35) { _fun0003_ip = 165; continue _fun0003 }
+case 166:
+            var31 = var15;
+case 165:
+            var35 = var34.bind(var13)(var31);
+            var31 = _closure1_slot12;
+            var34 = var31.DEEP_LINK_ACTION;
+            var34 = var35[var34];
+            var31 = var31.GUILD_ID;
+            var31 = var35[var31];
+            var30 = null;
+            if(!var27) { _fun0003_ip = 137; continue _fun0003 }
+case 167:
+            var27 = {};
+            var35 = _closure1_slot7;
+            var35 = var35.MOBILE_WEB_REDIRECT_CHECKOUT;
+            var27['type'] = var35;
+            if(!(var16 == var34)) { _fun0003_ip = 168; continue _fun0003 }
+case 169:
+            var35 = _closure1_slot11;
+            var34 = var35.DEFAULT;
+case 168:
+            var27['deepLinkAction'] = var34;
+            var27['guildId'] = var31;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 115:
+            var27 = {};
+            var31 = _closure1_slot7;
+            var31 = var31.ACCOUNT_STANDING;
+            var27['type'] = var31;
+            var27['pathname'] = var39;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 113:
+            var31 = _closure1_slot29;
+            var34 = var16 != var15;
             var27 = var1;
-            if(!var36) { _fun0003_ip = 173; continue _fun0003 }
+            if(!var34) { _fun0003_ip = 170; continue _fun0003 }
+case 171:
+            var27 = var15;
+case 170:
+            var27 = var31.bind(var13)(var27);
+            var31 = var27.promo_url;
+            var30 = null;
+            if(!(var13 !== var31)) { _fun0003_ip = 137; continue _fun0003 }
+case 172:
+            var27 = {};
+            var34 = _closure1_slot7;
+            var34 = var34.FEATURE_PROMO_URL;
+            var27['type'] = var34;
+            var27['promoUrl'] = var31;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 111:
+            var27 = {};
+            var31 = _closure1_slot7;
+            var31 = var31.FAMILY_CENTER;
+            var27['type'] = var31;
+            var27['pathname'] = var39;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 109:
+            var31 = _closure1_slot29;
+            var34 = var16 != var15;
+            var27 = var1;
+            if(!var34) { _fun0003_ip = 173; continue _fun0003 }
 case 174:
             var27 = var15;
 case 173:
-            var27 = var33.bind(var13)(var27);
-            var33 = var27.promo_url;
-            var30 = null;
-            if(!(var13 !== var33)) { _fun0003_ip = 140; continue _fun0003 }
-case 175:
+            var27 = var31.bind(var13)(var27);
+            var31 = var27.source;
             var27 = {};
-            var36 = _closure1_slot7;
-            var36 = var36.FEATURE_PROMO_URL;
-            var27['type'] = var36;
-            var27['promoUrl'] = var33;
+            var34 = _closure1_slot7;
+            var34 = var34.CONNECTIONS;
+            var27['type'] = var34;
+            var27['source'] = var31;
             var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 114:
+            _fun0003_ip = 137; continue _fun0003;
+case 107:
             var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.FAMILY_CENTER;
-            var27['type'] = var33;
-            var27['pathname'] = var41;
+            var31 = _closure1_slot7;
+            var31 = var31.ICYMI;
+            var27['type'] = var31;
             var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 112:
-            var33 = _closure1_slot30;
-            var36 = var16 != var15;
+            _fun0003_ip = 137; continue _fun0003;
+case 105:
+            var31 = _closure1_slot29;
+            var34 = var16 != var15;
             var27 = var1;
-            if(!var36) { _fun0003_ip = 176; continue _fun0003 }
-case 177:
-            var27 = var15;
+            if(!var34) { _fun0003_ip = 175; continue _fun0003 }
 case 176:
-            var27 = var33.bind(var13)(var27);
-            var33 = var27.source;
+            var27 = var15;
+case 175:
+            var27 = var31.bind(var13)(var27);
+            var35 = var27.guild_id;
+            var34 = var27.highlight_channel_id;
+            var31 = var27.highlight_message_id;
             var27 = {};
             var36 = _closure1_slot7;
-            var36 = var36.CONNECTIONS;
+            var36 = var36.GUILD_HOME;
             var27['type'] = var36;
-            var27['source'] = var33;
+            var27['guildId'] = var35;
+            var27['highlightChannelId'] = var34;
+            var27['highlightMessageId'] = var31;
             var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 110:
+            _fun0003_ip = 137; continue _fun0003;
+case 103:
             var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.ICYMI;
-            var27['type'] = var33;
+            var31 = _closure1_slot7;
+            var31 = var31.SESSION_MANAGEMENT;
+            var27['type'] = var31;
             var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 108:
-            var33 = _closure1_slot30;
-            var36 = var16 != var15;
+            _fun0003_ip = 137; continue _fun0003;
+case 101:
+            var31 = _closure1_slot29;
+            var34 = var16 != var15;
             var27 = var1;
-            if(!var36) { _fun0003_ip = 178; continue _fun0003 }
-case 179:
-            var27 = var15;
+            if(!var34) { _fun0003_ip = 177; continue _fun0003 }
 case 178:
-            var27 = var33.bind(var13)(var27);
+            var27 = var15;
+case 177:
+            var27 = var31.bind(var13)(var27);
             var37 = var27.guild_id;
-            var36 = var27.highlight_channel_id;
-            var33 = var27.highlight_message_id;
+            var36 = var27.channel_id;
+            var35 = var27.user_id;
+            var34 = var27.via;
+            var31 = var27.action;
             var27 = {};
-            var38 = _closure1_slot7;
-            var38 = var38.GUILD_HOME;
-            var27['type'] = var38;
-            var27['guildId'] = var37;
-            var27['highlightChannelId'] = var36;
-            var27['highlightMessageId'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 106:
-            var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.SESSION_MANAGEMENT;
-            var27['type'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 104:
-            var33 = _closure1_slot30;
-            var36 = var16 != var15;
-            var27 = var1;
-            if(!var36) { _fun0003_ip = 180; continue _fun0003 }
-case 181:
-            var27 = var15;
-case 180:
-            var27 = var33.bind(var13)(var27);
-            var39 = var27.guild_id;
-            var38 = var27.channel_id;
-            var37 = var27.user_id;
-            var36 = var27.via;
-            var33 = var27.action;
-            var27 = {};
-            var42 = _closure1_slot7;
-            var42 = var42.VOICE_CHANNEL;
-            var27['type'] = var42;
-            var27['guildId'] = var39;
-            var27['channelId'] = var38;
-            var27['userId'] = var37;
-            var27['via'] = var36;
-            var27['action'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 102:
-            var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.EDIT_PROFILE;
-            var27['type'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 100:
-            var33 = _closure1_slot30;
-            var36 = var16 != var15;
-            var27 = var1;
-            if(!var36) { _fun0003_ip = 182; continue _fun0003 }
-case 183:
-            var27 = var15;
-case 182:
-            var27 = var33.bind(var13)(var27);
-            var33 = var27.user_id;
-            var27 = {};
-            var36 = _closure1_slot7;
-            var36 = var36.FRIENDS;
-            var27['type'] = var36;
-            var27['userId'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 98:
-            var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.ADD_FRIENDS;
-            var27['type'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 96:
-            var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.CONTACT_SYNC;
-            var27['type'] = var33;
-            var30 = var27;
-            _fun0003_ip = 140; continue _fun0003;
-case 94:
-            var27 = {};
-            var33 = _closure1_slot7;
-            var33 = var33.COMPOSE_MESSAGE;
-            var27['type'] = var33;
-            var30 = var27;
-case 140:
-            if(!(var16 == var30)) { _fun0003_ip = 184; continue _fun0003 }
-case 91:
-            var33 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            var27 = var27[var34];
-            var33 = var33.bind(var13)(var27);
-            var27 = var33.tryParseEventDetailsPath;
-            var34 = var27.bind(var33)(var41);
-            if(!(var16 == var34)) { _fun0003_ip = 185; continue _fun0003 }
-case 186:
-            var33 = var41.match;
-            var27 = _closure1_slot19;
-            var27 = var33.bind(var41)(var27);
-            if(!(var16 == var27)) { _fun0003_ip = 187; continue _fun0003 }
-case 188:
-            var33 = var41.match;
-            var27 = _closure1_slot20;
-            var33 = var33.bind(var41)(var27);
-            if(!(var16 == var33)) { _fun0003_ip = 189; continue _fun0003 }
-case 190:
-            var36 = var41.match;
-            var27 = _closure1_slot21;
-            var36 = var36.bind(var41)(var27);
-            if(!(var16 == var36)) { _fun0003_ip = 191; continue _fun0003 }
-case 192:
-            var37 = var41.match;
-            var27 = _closure1_slot22;
-            var37 = var37.bind(var41)(var27);
-            if(!(var16 == var37)) { _fun0003_ip = 193; continue _fun0003 }
-case 194:
-            var38 = var41.match;
-            var27 = _closure1_slot23;
-            var38 = var38.bind(var41)(var27);
-            if(!(var16 == var38)) { _fun0003_ip = 195; continue _fun0003 }
-case 196:
-            var39 = var41.match;
-            var27 = _closure1_slot24;
-            var27 = var39.bind(var41)(var27);
-            if(!(var16 == var27)) { _fun0003_ip = 197; continue _fun0003 }
-case 59:
-            var39 = var16 == var35;
-            var27 = undefined;
-            if(var39) { _fun0003_ip = 198; continue _fun0003 }
-case 199:
-            var41 = var35.match;
-            var39 = _closure1_slot18;
-            var27 = var41.bind(var35)(var39);
-case 198:
-            if(!(var16 == var27)) { _fun0003_ip = 200; continue _fun0003 }
-case 201:
-            var27 = _closure1_slot10;
-            var39 = var16 == var27;
-            var27 = undefined;
-            if(var39) { _fun0003_ip = 202; continue _fun0003 }
-case 203:
-            var39 = _closure1_slot10;
-            var39 = var39.url;
-            var27 = var39.host;
-case 202:
-            if(!(var35 !== var27)) { _fun0003_ip = 204; continue _fun0003 }
-case 205:
-            var27 = {};
-            var27['fingerprint'] = var7;
-            var27['attemptId'] = var4;
-            var27['installationId'] = var2;
-            var35 = {};
-            var39 = _closure1_slot7;
-            var39 = var39.NONE;
-            var35['type'] = var39;
-            var27['payload'] = var35;
-            _fun0003_ip = 206; continue _fun0003;
-case 204:
-            var35 = {};
-            var35['fingerprint'] = var7;
-            var35['attemptId'] = var4;
-            var35['installationId'] = var2;
-            var39 = {};
-            var41 = _closure1_slot7;
-            var41 = var41.MOBILE_NATIVE_UPDATE;
-            var39['type'] = var41;
-            var39['url'] = var40;
-            var35['payload'] = var39;
-            var27 = var35;
-case 206:
-            _fun0003_ip = 207; continue _fun0003;
-case 200:
-            var35 = {};
-            var35['fingerprint'] = var7;
-            var35['attemptId'] = var4;
-            var35['installationId'] = var2;
-            var39 = {};
-            var41 = _closure1_slot7;
-            var41 = var41.PROMOTIONS;
-            var39['type'] = var41;
-            var39['url'] = var40;
-            var35['payload'] = var39;
-            var27 = var35;
-case 207:
-            return var27;
-case 197:
-            var35 = _closure1_slot30;
-            var27 = global;
-            var39 = var27.decodeURIComponent;
-            var40 = var16 != var15;
-            var27 = var1;
-            if(!var40) { _fun0003_ip = 208; continue _fun0003 }
-case 209:
-            var27 = var15;
-case 208:
-            var27 = var39.bind(var13)(var27);
-            var27 = var35.bind(var13)(var27);
-            var39 = var27.user_code;
-            var27 = {};
-            var27['fingerprint'] = var7;
-            var27['attemptId'] = var4;
-            var27['installationId'] = var2;
-            var35 = {};
             var40 = _closure1_slot7;
-            var40 = var40.ACTIVATE_DEVICE;
-            var35['type'] = var40;
-            var35['userCode'] = var39;
-            var27['payload'] = var35;
-            return var27;
+            var40 = var40.VOICE_CHANNEL;
+            var27['type'] = var40;
+            var27['guildId'] = var37;
+            var27['channelId'] = var36;
+            var27['userId'] = var35;
+            var27['via'] = var34;
+            var27['action'] = var31;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 99:
+            var27 = {};
+            var31 = _closure1_slot7;
+            var31 = var31.EDIT_PROFILE;
+            var27['type'] = var31;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 97:
+            var31 = _closure1_slot29;
+            var34 = var16 != var15;
+            var27 = var1;
+            if(!var34) { _fun0003_ip = 179; continue _fun0003 }
+case 180:
+            var27 = var15;
+case 179:
+            var27 = var31.bind(var13)(var27);
+            var31 = var27.user_id;
+            var27 = {};
+            var34 = _closure1_slot7;
+            var34 = var34.FRIENDS;
+            var27['type'] = var34;
+            var27['userId'] = var31;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 95:
+            var27 = {};
+            var31 = _closure1_slot7;
+            var31 = var31.ADD_FRIENDS;
+            var27['type'] = var31;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 93:
+            var27 = {};
+            var31 = _closure1_slot7;
+            var31 = var31.CONTACT_SYNC;
+            var27['type'] = var31;
+            var30 = var27;
+            _fun0003_ip = 137; continue _fun0003;
+case 91:
+            var27 = {};
+            var31 = _closure1_slot7;
+            var31 = var31.COMPOSE_MESSAGE;
+            var27['type'] = var31;
+            var30 = var27;
+case 137:
+            if(!(var16 == var30)) { _fun0003_ip = 181; continue _fun0003 }
+case 88:
+            var31 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var27 = var27[var32];
+            var31 = var31.bind(var13)(var27);
+            var27 = var31.tryParseEventDetailsPath;
+            var32 = var27.bind(var31)(var39);
+            if(!(var16 == var32)) { _fun0003_ip = 182; continue _fun0003 }
+case 183:
+            var31 = var39.match;
+            var27 = _closure1_slot19;
+            var27 = var31.bind(var39)(var27);
+            if(!(var16 == var27)) { _fun0003_ip = 184; continue _fun0003 }
+case 185:
+            var31 = var39.match;
+            var27 = _closure1_slot20;
+            var31 = var31.bind(var39)(var27);
+            if(!(var16 == var31)) { _fun0003_ip = 186; continue _fun0003 }
+case 187:
+            var34 = var39.match;
+            var27 = _closure1_slot21;
+            var34 = var34.bind(var39)(var27);
+            if(!(var16 == var34)) { _fun0003_ip = 188; continue _fun0003 }
+case 189:
+            var35 = var39.match;
+            var27 = _closure1_slot22;
+            var35 = var35.bind(var39)(var27);
+            if(!(var16 == var35)) { _fun0003_ip = 190; continue _fun0003 }
+case 191:
+            var36 = var39.match;
+            var27 = _closure1_slot23;
+            var36 = var36.bind(var39)(var27);
+            if(!(var16 == var36)) { _fun0003_ip = 192; continue _fun0003 }
+case 193:
+            var37 = var39.match;
+            var27 = _closure1_slot24;
+            var27 = var37.bind(var39)(var27);
+            if(!(var16 == var27)) { _fun0003_ip = 194; continue _fun0003 }
+case 59:
+            var37 = var16 == var33;
+            var27 = undefined;
+            if(var37) { _fun0003_ip = 195; continue _fun0003 }
+case 196:
+            var39 = var33.match;
+            var37 = _closure1_slot18;
+            var27 = var39.bind(var33)(var37);
 case 195:
-            var35 = _closure1_slot3;
-            var27 = 3;
-            var35 = var35.bind(var13)(var38, var27);
-            var27 = 1;
-            var45 = var35[var27];
-            var27 = 2;
-            var41 = var35[var27];
-            var35 = _closure1_slot30;
+            if(!(var16 == var27)) { _fun0003_ip = 197; continue _fun0003 }
+case 198:
+            var27 = _closure1_slot10;
+            var37 = var16 == var27;
+            var27 = undefined;
+            if(var37) { _fun0003_ip = 199; continue _fun0003 }
+case 200:
+            var37 = _closure1_slot10;
+            var37 = var37.url;
+            var27 = var37.host;
+case 199:
+            if(!(var33 !== var27)) { _fun0003_ip = 201; continue _fun0003 }
+case 202:
+            var27 = {};
+            var27['fingerprint'] = var7;
+            var27['attemptId'] = var4;
+            var27['installationId'] = var2;
+            var33 = {};
+            var37 = _closure1_slot7;
+            var37 = var37.NONE;
+            var33['type'] = var37;
+            var27['payload'] = var33;
+            _fun0003_ip = 203; continue _fun0003;
+case 201:
+            var33 = {};
+            var33['fingerprint'] = var7;
+            var33['attemptId'] = var4;
+            var33['installationId'] = var2;
+            var37 = {};
+            var39 = _closure1_slot7;
+            var39 = var39.MOBILE_NATIVE_UPDATE;
+            var37['type'] = var39;
+            var37['url'] = var38;
+            var33['payload'] = var37;
+            var27 = var33;
+case 203:
+            _fun0003_ip = 204; continue _fun0003;
+case 197:
+            var33 = {};
+            var33['fingerprint'] = var7;
+            var33['attemptId'] = var4;
+            var33['installationId'] = var2;
+            var37 = {};
+            var39 = _closure1_slot7;
+            var39 = var39.PROMOTIONS;
+            var37['type'] = var39;
+            var37['url'] = var38;
+            var33['payload'] = var37;
+            var27 = var33;
+case 204:
+            return var27;
+case 194:
+            var33 = _closure1_slot29;
+            var27 = global;
+            var37 = var27.decodeURIComponent;
             var38 = var16 != var15;
             var27 = var1;
-            if(!var38) { _fun0003_ip = 210; continue _fun0003 }
-case 211:
+            if(!var38) { _fun0003_ip = 205; continue _fun0003 }
+case 206:
             var27 = var15;
-case 210:
-            var27 = var35.bind(var13)(var27);
-            var38 = var27.feature;
+case 205:
+            var27 = var37.bind(var13)(var27);
+            var27 = var33.bind(var13)(var27);
+            var37 = var27.user_code;
             var27 = {};
             var27['fingerprint'] = var7;
             var27['attemptId'] = var4;
             var27['installationId'] = var2;
-            var35 = {};
-            var39 = _closure1_slot7;
-            var39 = var39.GUILD_SETTINGS_PICKER;
-            var35['type'] = var39;
-            var40 = _closure1_slot1;
-            var42 = _closure1_slot2;
-            var39 = 22;
-            var43 = var42[var39];
-            var44 = var40.bind(var13)(var43);
-            var43 = _closure1_slot5;
-            var43 = var44.bind(var13)(var43, var45);
-            var35['settingsSection'] = var43;
-            var39 = var42[var39];
-            var40 = var40.bind(var13)(var39);
-            var39 = _closure1_slot6;
-            var39 = var40.bind(var13)(var39, var41);
-            var35['settingsSubsection'] = var39;
-            var35['feature'] = var38;
-            var27['payload'] = var35;
-            return var27;
-case 193:
-            var35 = _closure1_slot3;
-            var27 = 4;
-            var35 = var35.bind(var13)(var37, var27);
-            var27 = 1;
-            var37 = var35[var27];
-            var27 = 2;
-            var43 = var35[var27];
-            var27 = 3;
-            var39 = var35[var27];
-            var27 = {};
-            var27['fingerprint'] = var7;
-            var27['attemptId'] = var4;
-            var27['installationId'] = var2;
-            var35 = {};
+            var33 = {};
             var38 = _closure1_slot7;
-            var38 = var38.GUILD_SETTINGS;
-            var35['type'] = var38;
-            var35['guildId'] = var37;
+            var38 = var38.ACTIVATE_DEVICE;
+            var33['type'] = var38;
+            var33['userCode'] = var37;
+            var27['payload'] = var33;
+            return var27;
+case 192:
+            var33 = _closure1_slot3;
+            var27 = 3;
+            var33 = var33.bind(var13)(var36, var27);
+            var27 = 1;
+            var43 = var33[var27];
+            var27 = 2;
+            var39 = var33[var27];
+            var33 = _closure1_slot29;
+            var36 = var16 != var15;
+            var27 = var1;
+            if(!var36) { _fun0003_ip = 207; continue _fun0003 }
+case 208:
+            var27 = var15;
+case 207:
+            var27 = var33.bind(var13)(var27);
+            var36 = var27.feature;
+            var27 = {};
+            var27['fingerprint'] = var7;
+            var27['attemptId'] = var4;
+            var27['installationId'] = var2;
+            var33 = {};
+            var37 = _closure1_slot7;
+            var37 = var37.GUILD_SETTINGS_PICKER;
+            var33['type'] = var37;
             var38 = _closure1_slot1;
             var40 = _closure1_slot2;
             var37 = 22;
@@ -1299,189 +1253,208 @@ case 193:
             var42 = var38.bind(var13)(var41);
             var41 = _closure1_slot5;
             var41 = var42.bind(var13)(var41, var43);
-            var35['settingsSection'] = var41;
+            var33['settingsSection'] = var41;
             var37 = var40[var37];
             var38 = var38.bind(var13)(var37);
             var37 = _closure1_slot6;
             var37 = var38.bind(var13)(var37, var39);
-            var35['settingsSubsection'] = var37;
-            var27['payload'] = var35;
+            var33['settingsSubsection'] = var37;
+            var33['feature'] = var36;
+            var27['payload'] = var33;
             return var27;
-case 191:
-            var35 = _closure1_slot3;
+case 190:
+            var33 = _closure1_slot3;
+            var27 = 4;
+            var33 = var33.bind(var13)(var35, var27);
+            var27 = 1;
+            var35 = var33[var27];
             var27 = 2;
-            var35 = var35.bind(var13)(var36, var27);
-            var27 = var35[var9];
-            var27 = 1;
-            var37 = var35[var27];
-            var35 = _closure1_slot30;
-            var27 = global;
-            var36 = var27.decodeURIComponent;
-            var38 = var16 != var15;
-            var27 = var1;
-            if(!var38) { _fun0003_ip = 212; continue _fun0003 }
-case 213:
-            var27 = var15;
-case 212:
-            var27 = var36.bind(var13)(var27);
-            var36 = var35.bind(var13)(var27);
-            var27 = {};
-            var27['fingerprint'] = var7;
-            var27['attemptId'] = var4;
-            var27['installationId'] = var2;
-            var35 = {};
-            var38 = _closure1_slot7;
-            var38 = var38.USER_CONNECTIONS_CALLBACK;
-            var35['type'] = var38;
-            var35['provider'] = var37;
-            var35['searchParams'] = var36;
-            var27['payload'] = var35;
-            return var27;
-case 189:
-            var35 = _closure1_slot30;
-            var27 = global;
-            var36 = var27.decodeURIComponent;
-            var37 = var16 != var15;
-            var27 = var1;
-            if(!var37) { _fun0003_ip = 214; continue _fun0003 }
-case 215:
-            var27 = var15;
-case 214:
-            var27 = var36.bind(var13)(var27);
-            var27 = var35.bind(var13)(var27);
-            var36 = var27.code;
-            var35 = var27.state;
-            var27 = 1;
+            var41 = var33[var27];
+            var27 = 3;
             var37 = var33[var27];
             var27 = {};
             var27['fingerprint'] = var7;
             var27['attemptId'] = var4;
             var27['installationId'] = var2;
             var33 = {};
-            var38 = _closure1_slot7;
-            var38 = var38.USER_CONNECTIONS_LINK_CALLBACK;
-            var33['type'] = var38;
-            var33['provider'] = var37;
-            var33['callbackCode'] = var36;
-            var33['callbackState'] = var35;
+            var36 = _closure1_slot7;
+            var36 = var36.GUILD_SETTINGS;
+            var33['type'] = var36;
+            var33['guildId'] = var35;
+            var36 = _closure1_slot1;
+            var38 = _closure1_slot2;
+            var35 = 22;
+            var39 = var38[var35];
+            var40 = var36.bind(var13)(var39);
+            var39 = _closure1_slot5;
+            var39 = var40.bind(var13)(var39, var41);
+            var33['settingsSection'] = var39;
+            var35 = var38[var35];
+            var36 = var36.bind(var13)(var35);
+            var35 = _closure1_slot6;
+            var35 = var36.bind(var13)(var35, var37);
+            var33['settingsSubsection'] = var35;
             var27['payload'] = var33;
             return var27;
-case 187:
-            var35 = _closure1_slot30;
+case 188:
+            var33 = _closure1_slot3;
+            var27 = 2;
+            var33 = var33.bind(var13)(var34, var27);
+            var27 = var33[var9];
+            var27 = 1;
+            var35 = var33[var27];
+            var33 = _closure1_slot29;
             var27 = global;
-            var33 = var27.decodeURIComponent;
-            var33 = var33.bind(var13)(var15);
-            var33 = var35.bind(var13)(var33);
-            var37 = var33.key;
-            var38 = var33.redirect;
-            var39 = var33.fingerprint;
-            if(!(var16 != var37)) { _fun0003_ip = 216; continue _fun0003 }
-case 217:
-            if(!(var16 != var38)) { _fun0003_ip = 216; continue _fun0003 }
-case 218:
-            var36 = var27.URL;
-            var33 = var27.location;
-            var40 = var33.protocol;
-            var33 = var27.window;
-            var33 = var33.GLOBAL_ENV;
-            var35 = var33.WEBAPP_ENDPOINT;
-            var33 = var27.HermesInternal;
-            var33 = var33.concat;
-            var47 = var33.bind(var1)(var40, var35);
-            var35 = var36.prototype;
-            var35 = Object.create(var35, {constructor: {value: var36}});
-            var49 = var35;
-            var48 = var38;
-            var33 = new var49[var36](var48, var47, var46);
-            var36 = var33 instanceof Object ? var33 : var35;
-            if(!(var16 != var39)) { _fun0003_ip = 219; continue _fun0003 }
-case 220:
-            var38 = var36.searchParams;
-            var35 = var38.append;
-            var33 = 'fingerprint';
-            var33 = var35.bind(var38)(var33, var39);
-case 219:
-            var33 = {};
-            var33['fingerprint'] = var39;
-            var33['attemptId'] = var4;
-            var33['installationId'] = var2;
-            var35 = {};
-            var38 = _closure1_slot7;
-            var38 = var38.MOBILE_WEB_HANDOFF;
-            var35['type'] = var38;
-            var35['nonce'] = var37;
-            var35['redirectUrl'] = var36;
-            var35['fingerprint'] = var39;
-            var33['payload'] = var35;
-            return var33;
-case 216:
-            var35 = _closure1_slot1;
-            var41 = _closure1_slot2;
-            var33 = 20;
-            var33 = var41[var33];
-            var38 = var35.bind(var13)(var33);
-            var37 = var38.track;
-            var33 = _closure1_slot4;
-            var36 = var33.MOBILE_WEB_HANDOFF_FAILURE;
-            var35 = {};
-            var33 = 'invalid_query_params';
-            var35['reason'] = var33;
-            var40 = _closure1_slot0;
-            var33 = 21;
-            var33 = var41[var33];
-            var40 = var40.bind(var13)(var33);
-            var33 = var40.maybeExtractId;
-            var33 = var33.bind(var40)(var39);
-            var35['fingerprint'] = var33;
-            var33 = {};
-            var33['fingerprint'] = var39;
-            var33 = var37.bind(var38)(var36, var35, var33);
-            var35 = var27.Error;
-            var27 = var35.prototype;
-            var33 = Object.create(var27, {constructor: {value: var35}});
-            var48 = 'Missing nonce or redirect query params';
-            var49 = var33;
-            var27 = new var49[var35](var48, var47);
-            var27 = var27 instanceof Object ? var27 : var33;
-            throw var27;
-case 185:
+            var34 = var27.decodeURIComponent;
+            var36 = var16 != var15;
+            var27 = var1;
+            if(!var36) { _fun0003_ip = 209; continue _fun0003 }
+case 210:
+            var27 = var15;
+case 209:
+            var27 = var34.bind(var13)(var27);
+            var34 = var33.bind(var13)(var27);
             var27 = {};
             var27['fingerprint'] = var7;
             var27['attemptId'] = var4;
             var27['installationId'] = var2;
             var33 = {};
-            var35 = _closure1_slot7;
-            var35 = var35.GUILD_EVENT_DETAILS;
-            var33['type'] = var35;
-            var35 = var34.guildEventId;
-            var33['guildEventId'] = var35;
-            var35 = var34.guildId;
-            var33['guildId'] = var35;
-            var34 = var34.recurrenceId;
-            var33['recurrenceId'] = var34;
+            var36 = _closure1_slot7;
+            var36 = var36.USER_CONNECTIONS_CALLBACK;
+            var33['type'] = var36;
+            var33['provider'] = var35;
+            var33['searchParams'] = var34;
             var27['payload'] = var33;
+            return var27;
+case 186:
+            var33 = _closure1_slot29;
+            var27 = global;
+            var34 = var27.decodeURIComponent;
+            var35 = var16 != var15;
+            var27 = var1;
+            if(!var35) { _fun0003_ip = 211; continue _fun0003 }
+case 212:
+            var27 = var15;
+case 211:
+            var27 = var34.bind(var13)(var27);
+            var27 = var33.bind(var13)(var27);
+            var34 = var27.code;
+            var33 = var27.state;
+            var27 = 1;
+            var35 = var31[var27];
+            var27 = {};
+            var27['fingerprint'] = var7;
+            var27['attemptId'] = var4;
+            var27['installationId'] = var2;
+            var31 = {};
+            var36 = _closure1_slot7;
+            var36 = var36.USER_CONNECTIONS_LINK_CALLBACK;
+            var31['type'] = var36;
+            var31['provider'] = var35;
+            var31['callbackCode'] = var34;
+            var31['callbackState'] = var33;
+            var27['payload'] = var31;
             return var27;
 case 184:
+            var33 = _closure1_slot29;
+            var27 = global;
+            var31 = var27.decodeURIComponent;
+            var31 = var31.bind(var13)(var15);
+            var31 = var33.bind(var13)(var31);
+            var35 = var31.key;
+            var36 = var31.redirect;
+            var37 = var31.fingerprint;
+            if(!(var16 != var35)) { _fun0003_ip = 213; continue _fun0003 }
+case 214:
+            if(!(var16 != var36)) { _fun0003_ip = 213; continue _fun0003 }
+case 215:
+            var34 = var27.URL;
+            var31 = var27.location;
+            var38 = var31.protocol;
+            var31 = var27.window;
+            var31 = var31.GLOBAL_ENV;
+            var33 = var31.WEBAPP_ENDPOINT;
+            var31 = var27.HermesInternal;
+            var31 = var31.concat;
+            var45 = var31.bind(var1)(var38, var33);
+            var33 = var34.prototype;
+            var33 = Object.create(var33, {constructor: {value: var34}});
+            var47 = var33;
+            var46 = var36;
+            var31 = new var47[var34](var46, var45, var44);
+            var34 = var31 instanceof Object ? var31 : var33;
+            if(!(var16 != var37)) { _fun0003_ip = 216; continue _fun0003 }
+case 217:
+            var36 = var34.searchParams;
+            var33 = var36.append;
+            var31 = 'fingerprint';
+            var31 = var33.bind(var36)(var31, var37);
+case 216:
+            var31 = {};
+            var31['fingerprint'] = var37;
+            var31['attemptId'] = var4;
+            var31['installationId'] = var2;
+            var33 = {};
+            var36 = _closure1_slot7;
+            var36 = var36.MOBILE_WEB_HANDOFF;
+            var33['type'] = var36;
+            var33['nonce'] = var35;
+            var33['redirectUrl'] = var34;
+            var33['fingerprint'] = var37;
+            var31['payload'] = var33;
+            return var31;
+case 213:
+            var33 = _closure1_slot1;
+            var39 = _closure1_slot2;
+            var31 = 20;
+            var31 = var39[var31];
+            var36 = var33.bind(var13)(var31);
+            var35 = var36.track;
+            var31 = _closure1_slot4;
+            var34 = var31.MOBILE_WEB_HANDOFF_FAILURE;
+            var33 = {};
+            var31 = 'invalid_query_params';
+            var33['reason'] = var31;
+            var38 = _closure1_slot0;
+            var31 = 21;
+            var31 = var39[var31];
+            var38 = var38.bind(var13)(var31);
+            var31 = var38.maybeExtractId;
+            var31 = var31.bind(var38)(var37);
+            var33['fingerprint'] = var31;
+            var31 = {};
+            var31['fingerprint'] = var37;
+            var31 = var35.bind(var36)(var34, var33, var31);
+            var33 = var27.Error;
+            var27 = var33.prototype;
+            var31 = Object.create(var27, {constructor: {value: var33}});
+            var46 = 'Missing nonce or redirect query params';
+            var47 = var31;
+            var27 = new var47[var33](var46, var45);
+            var27 = var27 instanceof Object ? var27 : var31;
+            throw var27;
+case 182:
             var27 = {};
             var27['fingerprint'] = var7;
             var27['attemptId'] = var4;
             var27['installationId'] = var2;
-            var27['payload'] = var30;
-            return var27;
-case 90:
-            var27 = {};
-            var27['fingerprint'] = var7;
-            var27['attemptId'] = var4;
-            var27['installationId'] = var2;
-            var30 = {};
+            var31 = {};
             var33 = _closure1_slot7;
-            var33 = var33.GAME_UPDATE;
-            var30['type'] = var33;
-            var33 = 1;
-            var33 = var32[var33];
-            var30['gameId'] = var33;
-            var31 = var32[var31];
-            var30['gameUpdateId'] = var31;
+            var33 = var33.GUILD_EVENT_DETAILS;
+            var31['type'] = var33;
+            var33 = var32.guildEventId;
+            var31['guildEventId'] = var33;
+            var33 = var32.guildId;
+            var31['guildId'] = var33;
+            var32 = var32.recurrenceId;
+            var31['recurrenceId'] = var32;
+            var27['payload'] = var31;
+            return var27;
+case 181:
+            var27 = {};
+            var27['fingerprint'] = var7;
+            var27['attemptId'] = var4;
+            var27['installationId'] = var2;
             var27['payload'] = var30;
             return var27;
 case 87:
@@ -1498,13 +1471,13 @@ case 87:
             var8['payload'] = var17;
             return var8;
 case 83:
-            var17 = _closure1_slot30;
+            var17 = _closure1_slot29;
             var27 = var16 != var15;
             var8 = var1;
-            if(!var27) { _fun0003_ip = 221; continue _fun0003 }
-case 222:
+            if(!var27) { _fun0003_ip = 218; continue _fun0003 }
+case 219:
             var8 = var15;
-case 221:
+case 218:
             var8 = var17.bind(var13)(var8);
             var30 = var8.token;
             var8 = {};
@@ -1517,10 +1490,10 @@ case 221:
             var17['type'] = var27;
             var31 = var16 != var30;
             var27 = null;
-            if(!var31) { _fun0003_ip = 223; continue _fun0003 }
-case 224:
+            if(!var31) { _fun0003_ip = 220; continue _fun0003 }
+case 221:
             var27 = var30;
-case 223:
+case 220:
             var17['token'] = var27;
             var8['payload'] = var17;
             return var8;
@@ -1534,9 +1507,9 @@ case 82:
             var27 = var27.OAUTH2_AUTHORIZE;
             var17['type'] = var27;
             var27 = {};
-            var48 = var27;
-            var47 = var28;
-            var28 = copyDataProperties(var48, var47);
+            var46 = var27;
+            var45 = var28;
+            var28 = copyDataProperties(var46, var45);
             var28 = 'wasDeepLink';
             var27[27] = var29;
             var17['props'] = var27;
@@ -1575,23 +1548,23 @@ case 71:
             var17 = var25.parse;
             var26 = var16 != var15;
             var8 = var1;
-            if(!var26) { _fun0003_ip = 225; continue _fun0003 }
-case 226:
+            if(!var26) { _fun0003_ip = 222; continue _fun0003 }
+case 223:
             var8 = var15;
-case 225:
+case 222:
             var8 = var17.bind(var25)(var8);
             var8 = var8.ad_creative_ids;
-            if(!(var16 == var8)) { _fun0003_ip = 227; continue _fun0003 }
-case 228:
+            if(!(var16 == var8)) { _fun0003_ip = 224; continue _fun0003 }
+case 225:
             var8 = new Array(0);
-case 227:
+case 224:
             var17 = new Array(1);
             var17[0] = var8;
             var8 = var17.flat;
             var26 = var8.bind(var17)();
             var8 = var26.length;
-            if(!(!(var8 > var9))) { _fun0003_ip = 229; continue _fun0003 }
-case 230:
+            if(!(!(var8 > var9))) { _fun0003_ip = 226; continue _fun0003 }
+case 227:
             var8 = {};
             var8['fingerprint'] = var7;
             var8['attemptId'] = var4;
@@ -1604,8 +1577,8 @@ case 230:
             var17['sort'] = var19;
             var17['filter'] = var18;
             var8['payload'] = var17;
-            _fun0003_ip = 231; continue _fun0003;
-case 229:
+            _fun0003_ip = 228; continue _fun0003;
+case 226:
             var17 = {};
             var17['fingerprint'] = var7;
             var17['attemptId'] = var4;
@@ -1617,7 +1590,7 @@ case 229:
             var25['adCreativeIds'] = var26;
             var17['payload'] = var25;
             var8 = var17;
-case 231:
+case 228:
             return var8;
 case 70:
             var8 = {};
@@ -1649,12 +1622,12 @@ case 67:
             var8['payload'] = var17;
             return var8;
 case 63:
-            var8 = _closure1_slot30;
+            var8 = _closure1_slot29;
             var17 = var16 != var15;
-            if(!var17) { _fun0003_ip = 232; continue _fun0003 }
-case 233:
+            if(!var17) { _fun0003_ip = 229; continue _fun0003 }
+case 230:
             var1 = var15;
-case 232:
+case 229:
             var1 = var8.bind(var13)(var1);
             var13 = var1.summaryId;
             var1 = {};
@@ -1663,15 +1636,15 @@ case 232:
             var1['installationId'] = var2;
             var8 = {};
             var15 = var14.messageId;
-            if(!(var16 == var15)) { _fun0003_ip = 234; continue _fun0003 }
-case 235:
+            if(!(var16 == var15)) { _fun0003_ip = 231; continue _fun0003 }
+case 232:
             var15 = _closure1_slot7;
             var15 = var15.CHANNEL;
-            _fun0003_ip = 236; continue _fun0003;
-case 234:
+            _fun0003_ip = 233; continue _fun0003;
+case 231:
             var16 = _closure1_slot7;
             var15 = var16.MESSAGE;
-case 236:
+case 233:
             var8['type'] = var15;
             var15 = var14.guildId;
             var8['guildId'] = var15;

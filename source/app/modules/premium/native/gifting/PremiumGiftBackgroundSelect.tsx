@@ -234,7 +234,7 @@ case 10:
     var11 = 6;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_24;
     var10['marginTop'] = var11;
     var5['scrollView'] = var10;

@@ -97,12 +97,12 @@ case 12:
             var3 = _closure1_slot2;
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_8;
             var2['paddingHorizontal'] = var7;
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_4;
             var2['paddingVertical'] = var7;
             var7 = 'hidden';
@@ -127,7 +127,7 @@ case 12:
             var2 = {};
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_4;
             var2['paddingRight'] = var7;
             var7 = 0;
@@ -139,7 +139,7 @@ case 12:
             var2 = {};
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_4;
             var2['marginRight'] = var3;
             var1['end'] = var2;

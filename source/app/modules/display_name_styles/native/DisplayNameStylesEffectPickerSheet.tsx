@@ -151,12 +151,12 @@ case 4:
     var10 = 6;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var9['padding'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['paddingLeft'] = var13;
     var9['alignItems'] = var12;

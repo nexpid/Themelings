@@ -712,6 +712,22 @@ case 41:
                     var3 = _closure3_slot2;
                     var2['enabledExperiments'] = var3;
                     var1['experiments'] = var2;
+                    var2 = function captureException(arg1, arg2) {
+                        var3 = _closure1_slot2;
+                        var2 = _closure1_slot3;
+                        var1 = 50;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.captureException;
+                        var2 = {};
+                        var1 = arg2;
+                        var2['tags'] = var1;
+                        var1 = arg1;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
+                    };
+                    var1['captureException'] = var2;
                     return var1;
                 };
                 var1 = var3.bind(var4)(var1, var2);

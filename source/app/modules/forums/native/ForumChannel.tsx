@@ -1286,7 +1286,7 @@ case 99:
                 var19 = 13;
                 var19 = var21[var19];
                 var19 = var20.bind(var4)(var19);
-                var19 = var19.spacing;
+                var19 = var19.space;
                 var14 = var19.PX_8;
 case 98:
                 var18['paddingTop'] = var14;
@@ -1296,7 +1296,7 @@ case 98:
                 var19 = 13;
                 var19 = var14[var19];
                 var19 = var12.bind(var4)(var19);
-                var19 = var19.spacing;
+                var19 = var19.space;
                 var19 = var19.PX_16;
                 var19 = var20 + var19;
                 var18['paddingBottom'] = var19;
@@ -2147,7 +2147,7 @@ case 131:
                 var14 = 13;
                 var14 = var18[var14];
                 var14 = var16.bind(var4)(var14);
-                var14 = var14.spacing;
+                var14 = var14.space;
                 var14 = var14.PX_16;
                 var14 = var15 + var14;
                 var8['positionBottom'] = var14;

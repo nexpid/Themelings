@@ -1,4 +1,4 @@
-// discord_assets/assets/mana/asset-library/generated/GameDiversityTier10BigBadge-2x.png.js
+// discord_assets/assets/mana/asset-library/generated/GameDiversityTier10LargeBadge-2x.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,11 +16,11 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/mana/asset-library/generated/GameDiversityTier10BigBadge-2x.png.js';
+    var2 = '../discord_assets/assets/mana/asset-library/generated/GameDiversityTier10LargeBadge-2x.png.js';
     var2 = var4.bind(var5)(var2);
     var2 = 'https://cdn.discordapp.com/assets/content/44f8af61f60d0d3de9e9897c0691cdd472a7a5c29cc6e88164cf07fa670c980c.png';
     var3['default'] = var2;
-    var2 = 'https://cdn.discordapp.com/assets/mana/asset-library/generated/GameDiversityTier10BigBadge-2x.png';
+    var2 = 'https://cdn.discordapp.com/assets/mana/asset-library/generated/GameDiversityTier10LargeBadge-2x.png';
     var3['vanityUrl'] = var2;
     var2 = {};
     var4 = 18953;

@@ -211,7 +211,7 @@ case 4:
     var10['backgroundColor'] = var13;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_48;
     var11 = -var11;
     var10['marginTop'] = var11;

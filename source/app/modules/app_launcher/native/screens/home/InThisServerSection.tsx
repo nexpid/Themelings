@@ -31,7 +31,9 @@ case 0:
             var2 = var8[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.PressableScale;
-            var2 = {};
+            var2 = {'accessible': true, 'accessibilityLabel': null, 'accessibilityRole': 'button'};
+            var8 = var1.name;
+            var2['accessibilityLabel'] = var8;
             var6 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:

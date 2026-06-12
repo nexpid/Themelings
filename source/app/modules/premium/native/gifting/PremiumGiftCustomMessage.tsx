@@ -123,12 +123,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 5;
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_24;
     var11['marginTop'] = var14;
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var11['marginHorizontal'] = var12;
     var5['container'] = var11;

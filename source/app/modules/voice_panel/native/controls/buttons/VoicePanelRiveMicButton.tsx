@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 4;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -38,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.color;
-            var8 = var1.muted;
+            var10 = var1.color;
+            var7 = var1.muted;
             var4 = _closure1_slot3;
             var3 = _closure1_slot2;
             var2 = {};
-            var5 = {'width': 24, 'height': 24, 'pointerEvents': 'none'};
-            var2['style'] = var5;
+            var1 = {'width': 24, 'height': 24, 'pointerEvents': 'none'};
+            var2['style'] = var1;
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var1 = 3;
@@ -53,17 +53,37 @@ case 0:
             var5 = var6.bind(var1)(var5);
             var6 = var5.MicrophoneRive;
             var5 = {};
-            var7 = {};
-            var7['fill'] = var9;
-            var9 = !var8;
-            var7['on'] = var9;
-            var5['dataBinding'] = var7;
-            var7 = 'On';
-            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+            var9 = {};
+            var9['fill'] = var10;
+            var11 = !var7;
+            var9['on'] = var11;
+            var5['dataBinding'] = var9;
+            var9 = 'On';
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = 'Off';
+            var9 = 'Off';
 case 2:
-            var5['defaultViewModelInstance'] = var7;
+            var5['defaultViewModelInstance'] = var9;
+            var9 = _closure1_slot3;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot1;
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var7 = 5;
+            var7 = var12[var7];
+            var7 = var11.bind(var1)(var7);
+            var8 = var7.MicrophoneIcon;
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
+            var7 = 4;
+            var7 = var12[var7];
+            var7 = var11.bind(var1)(var7);
+            var8 = var7.MicrophoneSlashIcon;
+case 6:
+            var7 = {};
+            var7['color'] = var10;
+            var7 = var9.bind(var1)(var8, var7);
+            var5['fallback'] = var7;
             var5 = var4.bind(var1)(var6, var5);
             var2['children'] = var5;
             var1 = var4.bind(var1)(var3, var2);

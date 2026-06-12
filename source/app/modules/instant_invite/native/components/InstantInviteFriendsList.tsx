@@ -301,14 +301,14 @@ case 2:
         var10 = 5;
         var14 = var12[var10];
         var14 = var11.bind(var4)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_16;
         var13 = var13.bottom;
         var13 = var14 + var13;
         var9['paddingBottom'] = var13;
         var10 = var12[var10];
         var10 = var11.bind(var4)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_12;
         var9['paddingHorizontal'] = var10;
         var1['contentContainerStyle'] = var9;

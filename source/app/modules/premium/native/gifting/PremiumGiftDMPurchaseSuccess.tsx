@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 4;
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_24;
     var9['marginTop'] = var10;
     var10 = 'center';
@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var9['marginTop'] = var11;
     var9['textAlign'] = var10;

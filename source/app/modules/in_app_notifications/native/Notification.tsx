@@ -292,7 +292,7 @@ case 11:
     var10 = {};
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_12;
     var10['marginRight'] = var14;
     var5['iconContainer'] = var10;
@@ -304,12 +304,12 @@ case 11:
     var10['backgroundColor'] = var14;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['paddingHorizontal'] = var14;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var10['paddingVertical'] = var14;
     var14 = 'row';
@@ -319,7 +319,7 @@ case 11:
     var10 = {};
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_16;
     var10['padding'] = var15;
     var10['flexDirection'] = var14;
@@ -331,7 +331,7 @@ case 11:
     var10 = {'width': 12, 'height': 12};
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_4;
     var10['marginRight'] = var14;
     var5['warningIcon'] = var10;
@@ -400,7 +400,7 @@ case 11:
     var10['borderRadius'] = var13;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var10['marginBottom'] = var11;
     var5['dragHandle'] = var10;

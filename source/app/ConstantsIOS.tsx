@@ -229,8 +229,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['QUEST_HOME_PREVIEW'] = var4;
     var4 = 'subscription-settings';
     var14['SUBSCRIPTION_SETTINGS'] = var4;
-    var4 = 'game-update';
-    var14['GAME_UPDATE'] = var4;
     var4 = 'roll-dice';
     var14['ROLL_DICE'] = var4;
     var6 = var1.Set;

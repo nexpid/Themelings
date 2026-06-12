@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 6;
     var4 = var6[var11];
     var4 = var12.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var13 = var4.PX_12;
     var _closure1_slot10 = var13;
     var4 = 7;
@@ -72,12 +72,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['position'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['right'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['top'] = var11;
     var4['rightAccessoryAbsolute'] = var10;

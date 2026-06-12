@@ -151,7 +151,7 @@ case 5:
 case 8:
         var15 = var6[var11];
         var15 = var12.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var14 = var15.PX_16;
 case 7:
         var9['paddingHorizontal'] = var14;
@@ -164,7 +164,7 @@ case 7:
 case 10:
         var11 = var6[var11];
         var11 = var12.bind(var1)(var11);
-        var11 = var11.spacing;
+        var11 = var11.space;
         var10 = var11.PX_8;
 case 9:
         var9['paddingVertical'] = var10;

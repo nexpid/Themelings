@@ -1356,7 +1356,7 @@ case 83:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(38);
+        var1 = new Array(37);
         var1[0] = var5;
         var5 = {};
         var7 = 'send';
@@ -1482,18 +1482,6 @@ case 133:
         var5['value'] = var7;
         var1[2] = var5;
         var5 = {};
-        var7 = 'ping';
-        var5['key'] = var7;
-        var7 = function value() {
-            var2 = this;
-            var1 = var2.sendHeartbeat;
-            var1 = var1.bind(var2)();
-            var1 = undefined;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[3] = var5;
-        var5 = {};
         var7 = 'doResumeOrClose';
         var5['key'] = var7;
         var7 = function value() {
@@ -1548,7 +1536,7 @@ case 142:
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'doResume';
         var5['key'] = var7;
@@ -1626,7 +1614,7 @@ case 147:
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'handleHello';
         var5['key'] = var7;
@@ -1727,7 +1715,7 @@ case 40:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'handleReady';
         var5['key'] = var7;
@@ -1786,7 +1774,7 @@ case 157:
             }
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'handleResumed';
         var5['key'] = var7;
@@ -1799,7 +1787,7 @@ case 157:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'handleClose';
         var5['key'] = var7;
@@ -1897,7 +1885,7 @@ case 160:
             }
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'disconnect';
         var5['key'] = var7;
@@ -1941,7 +1929,7 @@ case 160:
             return var1;
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'reconnect';
         var5['key'] = var7;
@@ -1980,7 +1968,7 @@ case 160:
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'cleanupWebSocket';
         var5['key'] = var7;
@@ -2016,7 +2004,7 @@ case 167:
             }
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'cleanupState';
         var5['key'] = var7;
@@ -2034,7 +2022,7 @@ case 167:
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'parseWebSocketMessage';
         var5['key'] = var7;
@@ -2100,7 +2088,7 @@ case 173:
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'clearHelloTimeout';
         var5['key'] = var7;
@@ -2124,7 +2112,7 @@ case 127:
             }
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'handleHeartbeatAck';
         var5['key'] = var7;
@@ -2182,7 +2170,7 @@ case 132:
             }
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'handleHeartbeatTimeout';
         var5['key'] = var7;
@@ -2229,7 +2217,7 @@ case 132:
             return var1;
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'startHeartbeater';
         var5['key'] = var7;
@@ -2301,7 +2289,7 @@ case 179:
             }
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'sendHeartbeat';
         var5['key'] = var7;
@@ -2368,7 +2356,7 @@ case 183:
             }
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'stopHeartbeater';
         var5['key'] = var7;
@@ -2402,7 +2390,7 @@ case 10:
             }
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'connect';
         var5['key'] = var7;
@@ -2437,7 +2425,7 @@ case 152:
             }
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'identify';
         var5['key'] = var7;
@@ -2485,7 +2473,7 @@ case 32:
             }
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'expeditedHeartbeat';
         var5['key'] = var7;
@@ -2580,7 +2568,7 @@ case 188:
             }
         };
         var5['value'] = var7;
-        var1[23] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'resetBackoff';
         var5['key'] = var7;
@@ -2632,7 +2620,7 @@ case 193:
             }
         };
         var5['value'] = var7;
-        var1[24] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'close';
         var5['key'] = var7;
@@ -2668,7 +2656,7 @@ case 193:
             return var1;
         };
         var5['value'] = var7;
-        var1[25] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'destroy';
         var5['key'] = var7;
@@ -2680,7 +2668,7 @@ case 193:
             return var1;
         };
         var5['value'] = var7;
-        var1[26] = var5;
+        var1[25] = var5;
         var5 = {};
         var7 = 'selectProtocol';
         var5['key'] = var7;
@@ -2801,7 +2789,7 @@ case 194:
             }
         };
         var5['value'] = var7;
-        var1[27] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'updateSession';
         var5['key'] = var7;
@@ -2821,7 +2809,7 @@ case 194:
             return var1;
         };
         var5['value'] = var7;
-        var1[28] = var5;
+        var1[27] = var5;
         var5 = {};
         var7 = 'speaking';
         var5['key'] = var7;
@@ -2862,7 +2850,7 @@ case 4:
             }
         };
         var5['value'] = var7;
-        var1[29] = var5;
+        var1[28] = var5;
         var5 = {};
         var7 = 'video';
         var5['key'] = var7;
@@ -2887,7 +2875,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[30] = var5;
+        var1[29] = var5;
         var5 = {};
         var7 = 'mediaSinkWants';
         var5['key'] = var7;
@@ -2910,7 +2898,7 @@ case 206:
             }
         };
         var5['value'] = var7;
-        var1[31] = var5;
+        var1[30] = var5;
         var5 = {};
         var7 = 'secureFramesReadyForTransition';
         var5['key'] = var7;
@@ -2927,7 +2915,7 @@ case 206:
             return var1;
         };
         var5['value'] = var7;
-        var1[32] = var5;
+        var1[31] = var5;
         var5 = {};
         var7 = 'sendMLSKeyPackage';
         var5['key'] = var7;
@@ -2953,7 +2941,7 @@ case 206:
             return var1;
         };
         var5['value'] = var7;
-        var1[33] = var5;
+        var1[32] = var5;
         var5 = {};
         var7 = 'sendMLSCommitWelcome';
         var5['key'] = var7;
@@ -2979,7 +2967,7 @@ case 206:
             return var1;
         };
         var5['value'] = var7;
-        var1[34] = var5;
+        var1[33] = var5;
         var5 = {};
         var7 = 'flagMLSInvalidCommitWelcome';
         var5['key'] = var7;
@@ -2996,7 +2984,7 @@ case 206:
             return var1;
         };
         var5['value'] = var7;
-        var1[35] = var5;
+        var1[34] = var5;
         var5 = {};
         var7 = 'noRoute';
         var5['key'] = var7;
@@ -3011,7 +2999,7 @@ case 206:
             return var1;
         };
         var5['value'] = var7;
-        var1[36] = var5;
+        var1[35] = var5;
         var5 = {};
         var7 = 'setHeartbeatIntervalModifier';
         var5['key'] = var7;
@@ -3023,7 +3011,7 @@ case 206:
             return var1;
         };
         var5['value'] = var6;
-        var1[37] = var5;
+        var1[36] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

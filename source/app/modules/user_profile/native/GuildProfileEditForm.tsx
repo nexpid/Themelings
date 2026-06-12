@@ -321,7 +321,7 @@ case 0:
             var20 = 24;
             var2 = var8[var20];
             var2 = var7.bind(var5)(var2);
-            var2 = var2.spacing;
+            var2 = var2.space;
             var11 = var2.PX_16;
             var2 = 25;
             var2 = var8[var2];
@@ -353,7 +353,7 @@ case 0:
             var10['type'] = var11;
             var11 = var8[var20];
             var11 = var7.bind(var5)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_64;
             var10['value'] = var11;
             var9['offset'] = var10;
@@ -619,7 +619,7 @@ case 42:
             var3 = _closure1_slot2;
             var3 = var3[var20];
             var3 = var8.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_16;
             var29 = var7 + var3;
             var64 = {};
@@ -1197,7 +1197,7 @@ case 84:
             var18 = {};
             var20 = var17[var20];
             var20 = var22.bind(var5)(var20);
-            var20 = var20.spacing;
+            var20 = var20.space;
             var20 = var20.PX_16;
             var19 = var19.bottom;
             var19 = var20 + var19;

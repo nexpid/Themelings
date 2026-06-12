@@ -128,12 +128,12 @@ case 2:
     var10 = 5;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingHorizontal'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingBottom'] = var12;
     var4['container'] = var9;

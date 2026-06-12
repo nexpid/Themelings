@@ -261,7 +261,7 @@ case 0:
             var9 = 2;
             var12 = var11[var6];
             var12 = var13.bind(var5)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var12 = var12.PX_8;
             var2['marginRight'] = var12;
             var1['textContainer'] = var2;
@@ -301,7 +301,7 @@ case 7:
             var2 = {'width': 8, 'height': 32};
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_24;
             var2['paddingRight'] = var7;
             var1['icon'] = var2;

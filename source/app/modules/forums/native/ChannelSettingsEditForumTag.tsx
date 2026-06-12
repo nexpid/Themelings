@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['paddingHorizontal'] = var12;
     var12 = var6[var11];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingTop'] = var12;
     var4['sections'] = var9;

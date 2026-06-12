@@ -293,7 +293,7 @@ case 2:
     var14 = 7;
     var2 = var10[var14];
     var2 = var15.bind(var1)(var2);
-    var2 = var2.spacing;
+    var2 = var2.space;
     var2 = var2.PX_12;
     var _closure1_slot14 = var2;
     var2 = 8;
@@ -310,7 +310,7 @@ case 2:
     var13 = {};
     var17 = var10[var14];
     var17 = var15.bind(var1)(var17);
-    var17 = var17.spacing;
+    var17 = var17.space;
     var17 = var17.PX_16;
     var13['marginTop'] = var17;
     var8['carouselContainer'] = var13;
@@ -321,7 +321,7 @@ case 2:
     var13 = {};
     var17 = var10[var14];
     var17 = var15.bind(var1)(var17);
-    var17 = var17.spacing;
+    var17 = var17.space;
     var17 = var17.PX_32;
     var17 = -var17;
     var13['marginBottom'] = var17;
@@ -345,12 +345,12 @@ case 2:
     var13 = {};
     var16 = var10[var14];
     var16 = var15.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_24;
     var13['marginTop'] = var16;
     var14 = var10[var14];
     var14 = var15.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_24;
     var13['marginHorizontal'] = var14;
     var8['cardTitle'] = var13;

@@ -80,12 +80,12 @@ case 4:
             var6 = 5;
             var9 = var4[var6];
             var9 = var8.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_4;
             var2['paddingBottom'] = var9;
             var4 = var4[var6];
             var4 = var8.bind(var5)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var4 = var4.PX_8;
             var2['gap'] = var4;
             var4 = 'center';

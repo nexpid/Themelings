@@ -949,70 +949,21 @@ case 42:
 case 0:
             var1 = arg1;
             var3 = var1.guildId;
-            var9 = var1.errors;
+            var2 = var1.errors;
             var1 = _closure1_slot6;
             var1 = var1.OPEN;
             _closure1_slot16 = var1;
-            var2 = _closure1_slot17;
+            var1 = _closure1_slot17;
             var5 = null;
             if(!(var5 == var3)) { _fun0017_ip = 44; continue _fun0017 }
 case 45:
             var3 = _closure1_slot7;
 case 44:
-            var1 = global;
-            var7 = var1.Object;
-            var6 = var7.fromEntries;
-            var8 = var1.Object;
-            var1 = var8.entries;
-            var9 = var1.bind(var8)(var9);
-            var8 = var9.map;
-            var1 = function(arg1) {
-                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
-case 0:
-                    var5 = arg1;
-                    var1 = var5[Symbol.iterator];
-                    var5 = var1().next;
-                    var3 = var5().value;
-                    var2 = var1;
-                    var7 = undefined;
-                    var4 = var2 === var7;
-                    var2 = undefined;
-                    if(var4) { _fun0018_ip = 36; continue _fun0018 }
-case 37:
-                    var2 = var3;
-case 36:
-                    var3 = undefined;
-                    if(var4) { _fun0018_ip = 26; continue _fun0018 }
-case 11:
-                    var6 = var5().value;
-                    var5 = var1;
-                    var5 = var5 === var7;
-                    var3 = undefined;
-                    var4 = var5;
-                    if(var5) { _fun0018_ip = 26; continue _fun0018 }
-case 7:
-                    var3 = var6;
-                    var4 = var5;
-case 26:
-                    if(var4) { _fun0018_ip = 30; continue _fun0018 }
-case 38:
-                    var1.return();
-case 30:
-                    var1 = new Array(2);
-                    var1[0] = var2;
-                    var2 = new Array(1);
-                    var2[0] = var3;
-                    var1[1] = var2;
-                    return var1;
-                }
-            };
-            var1 = var8.bind(var9)(var1);
-            var1 = var6.bind(var7)(var1);
-            if(!(var5 == var1)) { _fun0017_ip = 46; continue _fun0017 }
-case 19:
-            var1 = _closure1_slot11;
+            if(!(var5 == var2)) { _fun0017_ip = 27; continue _fun0017 }
 case 46:
-            var2[var3] = var1;
+            var2 = _closure1_slot11;
+case 27:
+            var1[var3] = var2;
             var1 = undefined;
             return var1;
         }

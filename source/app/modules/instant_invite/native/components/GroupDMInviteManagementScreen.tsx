@@ -237,7 +237,7 @@ case 11:
                 var10 = var9[var1];
                 var1 = undefined;
                 var10 = var6.bind(var1)(var10);
-                var10 = var10.spacing;
+                var10 = var10.space;
                 var10 = var10.PX_12;
                 var7['marginHorizontal'] = var10;
                 var2['style'] = var7;

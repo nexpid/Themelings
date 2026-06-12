@@ -47,12 +47,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 5;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['top'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['left'] = var12;
     var12 = var6[var10];

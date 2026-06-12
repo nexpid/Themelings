@@ -53,7 +53,7 @@ case 2:
             var5 = var5[var4];
             var4 = undefined;
             var4 = var6.bind(var4)(var5);
-            var4 = var4.spacing;
+            var4 = var4.space;
             if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var3 = var4.PX_12;

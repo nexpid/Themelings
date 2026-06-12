@@ -43,19 +43,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 4;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['marginHorizontal'] = var13;
     var4['header'] = var9;
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_24;
     var9['width'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_24;
     var9['height'] = var13;
     var4['headerSpacer'] = var9;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['marginHorizontal'] = var10;
     var4['contentContainer'] = var9;
@@ -273,7 +273,7 @@ case 9:
             var11 = 4;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var10 = var11.PX_16;
 case 8:
             var9 = var9 + var10;

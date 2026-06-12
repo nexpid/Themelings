@@ -588,14 +588,14 @@ case 66:
                 var1 = _closure2_slot17;
                 var4 = var1.current;
                 var1 = null;
-                if(!(var1 == var4)) { _fun0008_ip = 39; continue _fun0008 }
-case 70:
+                if(!(var1 == var4)) { _fun0008_ip = 70; continue _fun0008 }
+case 71:
                 var1 = _closure2_slot17;
                 var1['current'] = var8;
-case 39:
+case 70:
                 var1 = _closure2_slot15;
-                if(!var1) { _fun0008_ip = 71; continue _fun0008 }
-case 72:
+                if(!var1) { _fun0008_ip = 72; continue _fun0008 }
+case 73:
                 var5 = _closure1_slot6;
                 var4 = var5.log;
                 var24 = _closure2_slot11;
@@ -605,7 +605,7 @@ case 72:
                 var22 = var6;
                 var21 = var8;
                 var1 = var26[var4](var25, var24, var23, var22, var21, var20);
-case 71:
+case 72:
                 var1 = undefined;
                 return var1;
             }

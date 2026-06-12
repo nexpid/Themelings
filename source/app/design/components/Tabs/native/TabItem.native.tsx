@@ -282,7 +282,7 @@ case 8:
     var9 = 5;
     var13 = var6[var9];
     var13 = var10.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var12['marginLeft'] = var13;
     var7['count'] = var12;

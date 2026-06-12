@@ -538,7 +538,7 @@ case 0:
             var2['borderRadius'] = var8;
             var8 = var4[var7];
             var8 = var5.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_12;
             var2['padding'] = var8;
             var8 = 'space-between';
@@ -575,7 +575,7 @@ case 40:
             var4 = _closure1_slot2;
             var8 = var4[var7];
             var8 = var5.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_4;
             var2['marginEnd'] = var8;
             var1['nitroWheel'] = var2;
@@ -583,7 +583,7 @@ case 40:
             var8 = 'center';
             var10 = var4[var7];
             var10 = var5.bind(var6)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_4;
             var2['marginEnd'] = var10;
             var1['labelContainer'] = var2;

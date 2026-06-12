@@ -295,14 +295,14 @@ case 13:
     var12 = 5;
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var11['marginTop'] = var14;
     var2['container'] = var11;
     var11 = {};
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var11['paddingVertical'] = var14;
     var2['containerWithDivider'] = var11;
@@ -317,7 +317,7 @@ case 13:
     var11 = {'flexDirection': 'row', 'alignItems': 'center'};
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var11['gap'] = var14;
     var12 = var7[var12];

@@ -537,6 +537,30 @@ case 26:
         return var1;
     };
     var3['useQuestsEmbedFallbackAnalytics'] = var4;
+    var4 = function useBountyCarouselEmptyStateAnalytics(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot3;
+        var3 = var4.useEffect;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trackBountyCarouselEmptyStateViewed;
+            var2 = _closure2_slot0;
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        };
+        var1 = var3.bind(var4)(var1, var2);
+        var1 = undefined;
+        return var1;
+    };
+    var3['useBountyCarouselEmptyStateAnalytics'] = var4;
     var2 = function useQuestHomeEntrypointAnalyticsEvents(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:

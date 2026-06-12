@@ -431,26 +431,26 @@ case 37:
                 var7 = var4.outbound_terms_and_conditions;
                 var8 = var5 != var7;
                 var6 = var2;
-                if(!var8) { _fun0004_ip = 14; continue _fun0004 }
-case 39:
+                if(!var8) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
                 var6 = var7;
-case 14:
+case 39:
                 var1['outboundTermsAndConditions'] = var6;
                 var7 = var4.outbound_redemption_page_link;
                 var8 = var5 != var7;
                 var6 = var2;
-                if(!var8) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+                if(!var8) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
                 var6 = var7;
-case 40:
+case 41:
                 var1['outboundRedemptionPageLink'] = var6;
                 var7 = var4.outbound_redemption_url_format;
                 var8 = var5 != var7;
                 var6 = var2;
-                if(!var8) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+                if(!var8) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
                 var6 = var7;
-case 42:
+case 43:
                 var1['outboundRedemptionUrlFormat'] = var6;
                 var6 = var4.flags;
                 var1['flags'] = var6;
@@ -459,14 +459,14 @@ case 42:
                 var6 = var4.outbound_restricted_countries;
                 var1['outboundRestrictedCountries'] = var6;
                 var6 = var4.allowed_countries;
-                if(!(var5 == var6)) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+                if(!(var5 == var6)) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
                 var6 = new Array(0);
-case 44:
+case 45:
                 var1['allowedCountries'] = var6;
                 var6 = var4.country_list_mode;
-                if(!(var5 == var6)) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+                if(!(var5 == var6)) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot1;
                 var7 = 7;
@@ -475,63 +475,63 @@ case 47:
                 var7 = var9.bind(var7)(var8);
                 var7 = var7.CountryListMode;
                 var6 = var7.BLOCKLIST;
-case 46:
+case 47:
                 var1['countryListMode'] = var6;
                 var6 = var4.promotion_type;
                 var1['promotionType'] = var6;
                 var7 = var4.partner_id;
                 var8 = var5 != var7;
                 var6 = null;
-                if(!var8) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
+                if(!var8) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
                 var6 = var7;
-case 48:
+case 49:
                 var1['partnerId'] = var6;
                 var6 = var4.marketing_components;
-                if(!(var5 == var6)) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
+                if(!(var5 == var6)) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
                 var6 = new Array(0);
-case 50:
+case 51:
                 var1['marketingComponents'] = var6;
                 var7 = var4.metadata;
                 var8 = var5 == var7;
                 var6 = undefined;
-                if(var8) { _fun0004_ip = 52; continue _fun0004 }
-case 53:
+                if(var8) { _fun0004_ip = 53; continue _fun0004 }
+case 54:
                 var7 = var7.premium_promotion;
                 var8 = var5 == var7;
                 var6 = undefined;
-                if(var8) { _fun0004_ip = 52; continue _fun0004 }
-case 54:
+                if(var8) { _fun0004_ip = 53; continue _fun0004 }
+case 55:
                 var6 = var7.reward_sku_ids;
-case 52:
-                if(!(var5 == var6)) { _fun0004_ip = 55; continue _fun0004 }
-case 56:
+case 53:
+                if(!(var5 == var6)) { _fun0004_ip = 56; continue _fun0004 }
+case 57:
                 var8 = var4.metadata;
                 var9 = var5 == var8;
                 var7 = undefined;
-                if(var9) { _fun0004_ip = 57; continue _fun0004 }
-case 58:
+                if(var9) { _fun0004_ip = 58; continue _fun0004 }
+case 59:
                 var8 = var8.gift_promotion;
                 var9 = var5 == var8;
                 var7 = undefined;
-                if(var9) { _fun0004_ip = 57; continue _fun0004 }
-case 59:
-                var7 = var8.reward_sku_ids;
-case 57:
-                var6 = var7;
-case 55:
-                if(!(var5 == var6)) { _fun0004_ip = 60; continue _fun0004 }
-case 61:
-                var6 = new Array(0);
+                if(var9) { _fun0004_ip = 58; continue _fun0004 }
 case 60:
+                var7 = var8.reward_sku_ids;
+case 58:
+                var6 = var7;
+case 56:
+                if(!(var5 == var6)) { _fun0004_ip = 61; continue _fun0004 }
+case 62:
+                var6 = new Array(0);
+case 61:
                 var1['rewardSkuIds'] = var6;
                 var4 = var4.promotion_key;
                 var5 = var5 != var4;
-                if(!var5) { _fun0004_ip = 62; continue _fun0004 }
-case 63:
+                if(!var5) { _fun0004_ip = 63; continue _fun0004 }
+case 64:
                 var2 = var4;
-case 62:
+case 63:
                 var1['promotionKey'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

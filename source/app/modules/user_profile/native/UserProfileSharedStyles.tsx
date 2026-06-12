@@ -112,7 +112,7 @@ case 0:
             var8 = var5[var6];
             var5 = undefined;
             var8 = var9.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var2['marginBottom'] = var8;
             var1['profileTablist'] = var2;

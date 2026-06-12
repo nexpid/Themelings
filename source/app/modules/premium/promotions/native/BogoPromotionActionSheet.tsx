@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 8;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['padding'] = var13;
     var13 = var6[var10];
@@ -80,14 +80,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_24;
     var9['marginBottom'] = var13;
     var4['container'] = var9;
     var9 = {'marginTop': null, 'width': 335, 'height': 48};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_24;
     var9['marginTop'] = var13;
     var4['buttonContainer'] = var9;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'alignSelf': 'center', 'paddingBottom': null, 'height': 213, 'width': 335, 'borderRadius': null, 'marginBottom': 12};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingBottom'] = var12;
     var10 = var6[var10];

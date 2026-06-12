@@ -405,7 +405,7 @@ case 7:
     var11 = {};
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var11['marginBottom'] = var12;
     var5['ageVerificationNotice'] = var11;

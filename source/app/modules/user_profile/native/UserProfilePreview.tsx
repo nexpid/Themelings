@@ -122,7 +122,7 @@ case 10:
             var2 = {};
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var4 = var4.PX_12;
             var2['marginTop'] = var4;
             var1['aboutMeCard'] = var2;

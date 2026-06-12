@@ -351,7 +351,7 @@ case 10:
     var10 = 6;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_12;
     var9['gap'] = var14;
     var4['threeButtonLayout'] = var9;
@@ -362,7 +362,7 @@ case 10:
     var9['flexDirection'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_12;
     var9['gap'] = var10;
     var4['iconButtonGroup'] = var9;
@@ -552,7 +552,7 @@ case 42:
             var27 = _closure1_slot2;
             var1 = var27[var1];
             var1 = var38.bind(var4)(var1);
-            var1 = var1.spacing;
+            var1 = var1.space;
             var1 = var1.PX_12;
             var6['gap'] = var1;
             var1 = new Array(2);

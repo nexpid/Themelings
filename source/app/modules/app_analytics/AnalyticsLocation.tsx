@@ -272,6 +272,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_SUBSCRIPTION_CANCELLATION_MODAL'] = var1;
     var1 = 'application one time purchase payment modal';
     var2['APPLICATION_OTP_PAYMENT_MODAL'] = var1;
+    var1 = 'application subscription checkout';
+    var2['APPLICATION_SUBSCRIPTION_CHECKOUT'] = var1;
     var1 = 'application subscription cancellation modal';
     var2['APPLICATION_SUBSCRIPTION_CANCELLATION_MODAL'] = var1;
     var1 = 'pending plan change notice';

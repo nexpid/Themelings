@@ -145,7 +145,7 @@ case 4:
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(8);
+        var2 = new Array(9);
         var2[0] = var1;
         var1 = {};
         var6 = 'isBlocking';
@@ -295,6 +295,20 @@ case 20:
         var1['value'] = var6;
         var2[5] = var1;
         var1 = {};
+        var6 = 'clear';
+        var1['key'] = var6;
+        var6 = function value() {
+            var2 = this;
+            var1 = new Array(0);
+            var2['queue'] = var1;
+            var1 = null;
+            var2['queueStartTimestamp'] = var1;
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[6] = var1;
+        var1 = {};
         var6 = 'flush';
         var1['key'] = var6;
         var6 = function value() {
@@ -330,7 +344,7 @@ case 3:
             return var1;
         };
         var1['value'] = var6;
-        var2[6] = var1;
+        var2[7] = var1;
         var1 = {};
         var6 = 'cleanup';
         var1['key'] = var6;
@@ -346,7 +360,7 @@ case 3:
             return var1;
         };
         var1['value'] = var5;
-        var2[7] = var1;
+        var2[8] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

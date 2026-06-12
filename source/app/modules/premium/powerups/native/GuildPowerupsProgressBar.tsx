@@ -482,7 +482,7 @@ case 18:
             var10 = var10[var14];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-md/medium', 'color': 'text-default'};
+            var10 = {'variant': 'text-xs/semibold', 'color': 'text-default'};
             if(!(!(var12 >= var13))) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
             var17 = _closure1_slot0;
@@ -531,7 +531,7 @@ case 21:
             var14 = var20[var14];
             var14 = var16.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'text-md/medium', 'color': 'text-default'};
+            var14 = {'variant': 'text-xs/semibold', 'color': 'text-default'};
             var21 = {};
             var22 = 0.7;
             var21['opacity'] = var22;

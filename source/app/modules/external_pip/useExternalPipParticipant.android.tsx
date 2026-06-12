@@ -301,8 +301,8 @@ case 39:
                 var8 = undefined;
                 var6 = undefined;
                 var4 = undefined;
-                var2 = undefined;
                 var7 = undefined;
+                var2 = undefined;
                 var9 = undefined;
                 if(var1) { _fun0004_ip = 45; continue _fun0004 }
 case 46:
@@ -450,8 +450,8 @@ case 51:
                 var8 = var22;
                 var13 = var26;
                 var4 = var12;
-                var2 = var11;
-                var7 = var10;
+                var7 = var11;
+                var2 = var10;
                 var9 = var8;
                 if(!var1) { _fun0004_ip = 46; continue _fun0004 }
 case 45:
@@ -471,11 +471,11 @@ case 79:
 case 77:
                 if(!(var5 == var6)) { _fun0004_ip = 80; continue _fun0004 }
 case 81:
-                var10 = var5 == var2;
+                var10 = var5 == var7;
                 var8 = undefined;
                 if(var10) { _fun0004_ip = 82; continue _fun0004 }
 case 83:
-                var10 = var2.user;
+                var10 = var7.user;
                 var11 = var5 == var10;
                 var8 = undefined;
                 if(var11) { _fun0004_ip = 82; continue _fun0004 }

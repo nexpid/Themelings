@@ -75,98 +75,124 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var13 = var1.trinketsAnimationUrl;
+            var12 = var1.trinketsAnimationUrl;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 6;
             var1 = var3[var1];
             var5 = undefined;
-            var7 = var2.bind(var5)(var1);
-            var4 = var7.useMobileVisualRefreshConfig;
+            var6 = var2.bind(var5)(var1);
+            var4 = var6.useMobileVisualRefreshConfig;
             var1 = {};
             var8 = 'GiftIconTrinketsAnimation';
             var1['location'] = var8;
-            var1 = var4.bind(var7)(var1);
-            var10 = var1.enabled;
+            var1 = var4.bind(var6)(var1);
+            var6 = var1.enabled;
             var1 = 7;
             var1 = var3[var1];
-            var7 = var2.bind(var5)(var1);
-            var4 = var7.useToken;
-            var8 = _closure1_slot1;
+            var8 = var2.bind(var5)(var1);
+            var4 = var8.useToken;
+            var9 = _closure1_slot1;
             var1 = 8;
             var1 = var3[var1];
-            var1 = var8.bind(var5)(var1);
+            var1 = var9.bind(var5)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
             var1 = var1.CHAT_INPUT_ACTION_BUTTON_SIZE;
-            var4 = var4.bind(var7)(var1);
+            var4 = var4.bind(var8)(var1);
             var1 = _closure1_slot6;
-            var11 = var1.bind(var5)(var4);
+            var8 = var1.bind(var5)(var4);
             var1 = 9;
             var1 = var3[var1];
-            var8 = var2.bind(var5)(var1);
-            var7 = var8.useStateFromStores;
+            var4 = var2.bind(var5)(var1);
+            var3 = var4.useStateFromStores;
             var1 = _closure1_slot4;
-            var4 = new Array(1);
-            var4[0] = var1;
+            var2 = new Array(1);
+            var2[0] = var1;
             var1 = function() {
                 var1 = _closure1_slot4;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var9 = var7.bind(var8)(var4, var1);
+            var11 = var3.bind(var4)(var2, var1);
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var10 = var8.trinkets;
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var10 = var8.trinketsRefresh;
+case 4:
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 10;
             var1 = var3[var1];
             var2 = var2.bind(var5)(var1);
             var1 = var2.isNullOrEmpty;
-            var2 = var1.bind(var2)(var13);
+            var2 = var1.bind(var2)(var12);
             var1 = null;
-            if(var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var2) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
-            if(var10) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var7 = var11.container;
-            _fun0001_ip = 6; continue _fun0001;
-case 4:
-            var7 = var11.containerRefresh;
-case 6:
-            var2['style'] = var7;
-            var7 = 'none';
-            var2['pointerEvents'] = var7;
-            var8 = _closure1_slot5;
-            var7 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var6 = 11;
-            var6 = var12[var6];
-            var7 = var7.bind(var5)(var6);
-            var6 = {};
-            var12 = {};
-            var12['uri'] = var13;
-            var6['source'] = var12;
-            if(var10) { _fun0001_ip = 7; continue _fun0001 }
+            if(var6) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var10 = var11.trinkets;
+            var6 = var8.container;
             _fun0001_ip = 9; continue _fun0001;
 case 7:
-            var10 = var11.trinketsRefresh;
+            var6 = var8.containerRefresh;
 case 9:
+            var2['style'] = var6;
+            var6 = 'none';
+            var2['pointerEvents'] = var6;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 11;
+            var6 = var9[var6];
+            var8 = var8.bind(var5)(var6);
+            var6 = var8.isAndroid;
+            var6 = var6.bind(var8)();
+            var9 = _closure1_slot5;
+            if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var8 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var6 = 13;
+            var6 = var13[var6];
+            var8 = var8.bind(var5)(var6);
+            var6 = {};
+            var13 = {};
+            var13['uri'] = var12;
+            var6['source'] = var13;
             var6['style'] = var10;
-            var10 = 'contain';
-            var6['resizeMode'] = var10;
-            var9 = !var9;
-            var6['enableAnimation'] = var9;
-            var6 = var8.bind(var5)(var7, var6);
+            var13 = 'contain';
+            var6['resizeMode'] = var13;
+            var13 = !var11;
+            var6['enableAnimation'] = var13;
+            var6 = var9.bind(var5)(var8, var6);
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
+            var8 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var7 = 12;
+            var7 = var13[var7];
+            var7 = var8.bind(var5)(var7);
+            var8 = var7.APNGPlayer;
+            var7 = {};
+            var7['url'] = var12;
+            var11 = !var11;
+            var7['autoplay'] = var11;
+            var7['style'] = var10;
+            var6 = var9.bind(var5)(var8, var7);
+case 12:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 2:
+case 5:
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

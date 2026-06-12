@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var6[var3];
         var4 = undefined;
         var8 = var5.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_16;
         var2['marginHorizontal'] = var8;
         var1['headerBarText'] = var2;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.spacing;
+        var3 = var3.space;
         var3 = var3.PX_16;
         var2['paddingHorizontal'] = var3;
         var1['button'] = var2;

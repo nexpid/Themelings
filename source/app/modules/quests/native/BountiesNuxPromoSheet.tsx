@@ -84,6 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var11.bind(var4)(var1);
         var2 = var1.PromoSheet;
         var1 = {};
+        var6 = 'purple';
+        var1['gradientColor'] = var6;
         var8 = 8;
         var6 = var12[var8];
         var6 = var11.bind(var4)(var6);
@@ -102,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var12[var8];
         var6 = var11.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.aC3Dwj;
+        var6 = var6.LY+igv;
         var6 = var10.bind(var13)(var6);
         var1['description'] = var6;
         var6 = _closure1_slot4;

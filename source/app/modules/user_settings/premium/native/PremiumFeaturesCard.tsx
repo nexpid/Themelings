@@ -457,7 +457,7 @@ case 40:
             var2 = 19;
             var2 = var17[var2];
             var2 = var3.bind(var4)(var2);
-            var3 = var2.t3TzwQ;
+            var3 = var2.FwjZzr;
             var2 = {};
             var17 = var16.percentage;
             var18 = var10 != var17;

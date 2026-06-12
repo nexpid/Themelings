@@ -107,58 +107,58 @@ case 0:
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var2 = arg1;
-                        var3 = arg2;
+                        var12 = arg2;
                         var1 = null;
                         if(!(var1 != var2)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                        var5 = var2.type;
-                        var4 = 'custom';
-                        if(!(var4 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
+                        var4 = var2.type;
+                        var3 = 'custom';
+                        if(!(var3 !== var4)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                        var10 = _closure1_slot0;
-                        var11 = _closure1_slot2;
-                        var4 = 5;
-                        var4 = var11[var4];
-                        var9 = undefined;
-                        var8 = var10.bind(var9)(var4);
-                        var6 = var8.getGuildThemePresetAppearance;
-                        var4 = var2.preset;
-                        var6 = var6.bind(var8)(var4, var3);
+                        var9 = _closure1_slot0;
+                        var10 = _closure1_slot2;
+                        var3 = 5;
+                        var3 = var10[var3];
+                        var8 = undefined;
+                        var7 = var9.bind(var8)(var3);
+                        var5 = var7.getGuildThemePresetAppearance;
+                        var3 = var2.preset;
+                        var5 = var5.bind(var7)(var3, var12);
+                        var3 = {};
+                        var7 = 4;
+                        var7 = var10[var7];
+                        var7 = var9.bind(var8)(var7);
+                        var7 = var7.ClientThemeType;
+                        var7 = var7.CUSTOM_BACKGROUND_GRADIENT;
+                        var3['type'] = var7;
+                        var4 = _closure1_slot6;
+                        var3['getName'] = var4;
+                        var3['theme'] = var12;
                         var4 = {};
-                        var8 = 4;
-                        var8 = var11[var8];
-                        var8 = var10.bind(var9)(var8);
-                        var8 = var8.ClientThemeType;
-                        var8 = var8.CUSTOM_BACKGROUND_GRADIENT;
-                        var4['type'] = var8;
-                        var5 = _closure1_slot6;
-                        var4['getName'] = var5;
-                        var4['theme'] = var3;
-                        var5 = {};
-                        var10 = var6.colors;
-                        var9 = var10.map;
-                        var8 = function(arg1) {
+                        var9 = var5.colors;
+                        var8 = var9.map;
+                        var7 = function(arg1) {
                             var1 = arg1;
                             var1 = var1.hex;
                             return var1;
                         };
-                        var8 = var9.bind(var10)(var8);
-                        var5['colors'] = var8;
-                        var8 = var6.angle;
-                        var5['gradientAngle'] = var8;
-                        var9 = var6.colors;
-                        var8 = var9.map;
-                        var7 = function(arg1) {
+                        var7 = var8.bind(var9)(var7);
+                        var4['colors'] = var7;
+                        var7 = var5.angle;
+                        var4['gradientAngle'] = var7;
+                        var8 = var5.colors;
+                        var7 = var8.map;
+                        var6 = function(arg1) {
                             var1 = arg1;
                             var1 = var1.stop;
                             return var1;
                         };
-                        var7 = var8.bind(var9)(var7);
-                        var5['gradientColorStops'] = var7;
-                        var6 = var6.baseMix;
-                        var5['baseMix'] = var6;
-                        var4['customThemeSettings'] = var5;
-                        return var4;
+                        var6 = var7.bind(var8)(var6);
+                        var4['gradientColorStops'] = var6;
+                        var5 = var5.baseMix;
+                        var4['baseMix'] = var5;
+                        var3['customThemeSettings'] = var4;
+                        return var3;
 case 4:
                         var4 = var2.customUserThemeSettings;
                         var2 = var4.colors;
@@ -167,26 +167,26 @@ case 4:
                         var2 = {};
                         var10 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var7 = 4;
-                        var8 = var9[var7];
+                        var3 = 4;
+                        var3 = var9[var3];
                         var7 = undefined;
-                        var8 = var10.bind(var7)(var8);
-                        var8 = var8.ClientThemeType;
-                        var8 = var8.CUSTOM_BACKGROUND_GRADIENT;
-                        var2['type'] = var8;
-                        var8 = _closure1_slot6;
-                        var2['getName'] = var8;
-                        var2['theme'] = var3;
+                        var3 = var10.bind(var7)(var3);
+                        var3 = var3.ClientThemeType;
+                        var3 = var3.CUSTOM_BACKGROUND_GRADIENT;
+                        var2['type'] = var3;
+                        var3 = _closure1_slot6;
+                        var2['getName'] = var3;
+                        var2['theme'] = var12;
                         var3 = {};
                         var8 = 5;
                         var9 = var9[var8];
                         var10 = var10.bind(var7)(var9);
                         var9 = var10.getSingleColorGuildThemeGradientColors;
-                        var13 = var9.bind(var10)(var11);
+                        var14 = var9.bind(var10)(var11, var12);
                         var9 = new Array(0);
-                        var14 = var9;
-                        var12 = 0;
-                        var10 = arraySpread(var14, var13, var12);
+                        var15 = var9;
+                        var13 = 0;
+                        var10 = arraySpread(var15, var14, var13);
                         var3['colors'] = var9;
                         var9 = new Array(0);
                         var3['gradientColorStops'] = var9;

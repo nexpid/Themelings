@@ -1111,7 +1111,7 @@ case 50:
             var12 = 20;
             var12 = var31[var12];
             var12 = var16.bind(var4)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var12 = var12.PX_24;
             var3['itemSpacing'] = var12;
             var3['items'] = var9;

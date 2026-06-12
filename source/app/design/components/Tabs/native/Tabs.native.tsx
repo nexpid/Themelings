@@ -78,7 +78,7 @@ case 0:
             var2 = {};
             var9 = var4[var6];
             var9 = var7.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_16;
             var2['marginHorizontal'] = var9;
             var2['flexDirection'] = var8;
@@ -88,7 +88,7 @@ case 0:
             var2 = {'position': 'absolute', 'width': '100%', 'height': '100%', 'flexDirection': 'row', 'alignItems': 'flex-end'};
             var4 = var4[var6];
             var4 = var7.bind(var5)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var4 = var4.PX_16;
             var2['marginLeft'] = var4;
             var1['indicatorContainer'] = var2;

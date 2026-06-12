@@ -973,7 +973,7 @@ case 72:
             var1 = undefined;
             var12 = var12.bind(var1)(var10);
             var10 = var12.getSingleColorGuildThemeGradientColors;
-            var15 = var10.bind(var12)(var13);
+            var15 = var10.bind(var12)(var13, var6);
             var12 = new Array(0);
             var16 = var12;
             var14 = 0;

@@ -278,7 +278,7 @@ case 30:
         var12 = 7;
         var15 = var7[var12];
         var15 = var13.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_8;
         var11['borderRadius'] = var15;
         var15 = 'center';
@@ -301,7 +301,7 @@ case 30:
         var17 = var17.bind(var18)();
         var18 = var7[var12];
         var18 = var13.bind(var1)(var18);
-        var18 = var18.spacing;
+        var18 = var18.space;
         if(var17) { _fun0001_ip = 37; continue _fun0001 }
 case 38:
         var17 = var18.PX_16;

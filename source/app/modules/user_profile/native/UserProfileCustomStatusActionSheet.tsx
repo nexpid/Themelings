@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 6;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var9['marginHorizontal'] = var14;
     var4['statusPreviewContainer'] = var9;

@@ -122,7 +122,7 @@ case 0:
             var4 = var4[var6];
             var5 = undefined;
             var4 = var7.bind(var5)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var4 = var4.PX_8;
             var2['marginEnd'] = var4;
             var7 = arg1;

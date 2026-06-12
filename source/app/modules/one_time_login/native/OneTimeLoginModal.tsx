@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['alignItems'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['gap'] = var12;
     var4['bottomContent'] = var9;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'display': 'flex', 'flexDirection': 'row', 'gap': null, 'alignItems': 'center', 'marginBottom': 48};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['gap'] = var12;
     var4['loadingContainer'] = var9;

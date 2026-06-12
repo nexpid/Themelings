@@ -399,7 +399,7 @@ case 4:
     var10 = {};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['padding'] = var14;
     var4['container'] = var10;
@@ -409,12 +409,12 @@ case 4:
     var10 = {'flexDirection': 'row', 'justifyContent': 'center'};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['marginBottom'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['gap'] = var11;
     var4['balancePillContainer'] = var10;

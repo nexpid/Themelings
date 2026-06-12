@@ -36,214 +36,200 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var11 = arg1;
-                    var7 = arg2;
-                    var14 = arg3;
+                    var14 = arg1;
+                    var8 = arg2;
+                    var17 = arg3;
                     var5 = undefined;
-                    var10 = undefined;
+                    var13 = undefined;
                     var4 = undefined;
-                    var6 = _closure1_slot4;
-                    var2 = var6.getCurrentUser;
-                    var8 = var2.bind(var6)();
-                    var6 = null;
-                    var9 = var6 == var8;
-                    var2 = undefined;
-                    if(var9) { _fun0001_ip = 4; continue _fun0001 }
+                    var6 = undefined;
+                    var9 = _closure1_slot4;
+                    var7 = var9.getCurrentUser;
+                    var10 = var7.bind(var9)();
+                    var9 = null;
+                    var11 = var9 == var10;
+                    var7 = undefined;
+                    if(var11) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                    var2 = var8.id;
+                    var7 = var10.id;
 case 4:
-                    var10 = var2;
-                    if(!(var6 == var2)) { _fun0001_ip = 6; continue _fun0001 }
+                    var13 = var7;
+                    if(!(var9 == var7)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
                     return var5;
 case 6:
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var2 = 9;
-                    var2 = var9[var2];
-                    var8 = var8.bind(var5)(var2);
-                    var2 = var8.getShouldConvertBioEmoji;
-                    var8 = var2.bind(var8)();
-                    var2 = var11;
-                    var2 = var2.bio;
-                    var2 = var6 != var2;
-                    if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var7 = 9;
+                    var7 = var11[var7];
+                    var10 = var10.bind(var5)(var7);
+                    var7 = var10.getShouldConvertBioEmoji;
+                    var10 = var7.bind(var10)();
+                    var7 = var14;
+                    var7 = var7.bio;
+                    var7 = var9 != var7;
+                    if(!var7) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                    var2 = var8;
+                    var7 = var10;
 case 8:
-                    if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+                    if(!var7) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-                    var8 = var11;
-                    var9 = _closure1_slot1;
+                    var10 = var14;
+                    var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    var2 = 10;
-                    var2 = var12[var2];
-                    var12 = var9.bind(var5)(var2);
-                    var9 = var12.parse;
-                    var2 = var8.bio;
-                    var2 = var9.bind(var12)(var5, var2);
-                    var2 = var2.content;
-                    var8['bio'] = var2;
+                    var7 = 10;
+                    var7 = var12[var7];
+                    var12 = var11.bind(var5)(var7);
+                    var11 = var12.parse;
+                    var7 = var10.bio;
+                    var7 = var11.bind(var12)(var5, var7);
+                    var7 = var7.content;
+                    var10['bio'] = var7;
 case 10: // try_start_0
-                    var8 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var9 = 11;
-                    var2 = var2[var9];
-                    var13 = var8.bind(var5)(var2);
-                    var12 = var13.dispatch;
-                    var8 = {};
-                    var2 = 'USER_PROFILE_UPDATE_START';
-                    var8['type'] = var2;
-                    var2 = var10;
-                    var8['userId'] = var2;
-                    var2 = var7;
-                    var8['guildId'] = var2;
-                    var8 = var12.bind(var13)(var8);
-                    if(!(var6 == var2)) { _fun0001_ip = 12; continue _fun0001 }
+                    var10 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var12 = 11;
+                    var7 = var7[var12];
+                    var15 = var10.bind(var5)(var7);
+                    var11 = var15.dispatch;
+                    var10 = {};
+                    var7 = 'USER_PROFILE_UPDATE_START';
+                    var10['type'] = var7;
+                    var7 = var13;
+                    var10['userId'] = var7;
+                    var7 = var8;
+                    var10['guildId'] = var7;
+                    var10 = var11.bind(var15)(var10);
+                    if(!(var9 == var7)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-                    var2 = {};
-                    var12 = _closure1_slot8;
-                    var8 = var12.USER_PROFILE;
-                    var6 = _closure1_slot9;
-                    var6 = var8.bind(var12)(var6);
-                    var2['url'] = var6;
-                    var8 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var6 = 12;
-                    var6 = var12[var6];
-                    var6 = var8.bind(var5)(var6);
-                    var6 = var6.SafetyScannedUploadSurface;
-                    var6 = var6.USER_DEFAULT_PROFILE_BANNER;
-                    var2['bannerSurface'] = var6;
+                    var7 = {};
+                    var15 = _closure1_slot8;
+                    var11 = var15.USER_PROFILE;
+                    var10 = _closure1_slot9;
+                    var10 = var11.bind(var15)(var10);
+                    var7['url'] = var10;
+                    var11 = _closure1_slot0;
+                    var15 = _closure1_slot2;
+                    var10 = 12;
+                    var10 = var15[var10];
+                    var10 = var11.bind(var5)(var10);
+                    var10 = var10.SafetyScannedUploadSurface;
+                    var10 = var10.USER_DEFAULT_PROFILE_BANNER;
+                    var7['bannerSurface'] = var10;
                     _fun0001_ip = 14; continue _fun0001;
 case 12:
-                    var6 = {};
-                    var15 = _closure1_slot8;
-                    var13 = var15.USER_GUILD_PROFILE;
-                    var12 = var7;
-                    var8 = _closure1_slot9;
-                    var8 = var13.bind(var15)(var12, var8);
-                    var6['url'] = var8;
-                    var12 = _closure1_slot0;
-                    var13 = _closure1_slot2;
-                    var8 = 12;
-                    var8 = var13[var8];
-                    var8 = var12.bind(var5)(var8);
-                    var8 = var8.SafetyScannedUploadSurface;
-                    var8 = var8.USER_GUILD_PROFILE_BANNER;
-                    var6['bannerSurface'] = var8;
-                    var2 = var6;
+                    var10 = {};
+                    var18 = _closure1_slot8;
+                    var16 = var18.USER_GUILD_PROFILE;
+                    var15 = var8;
+                    var11 = _closure1_slot9;
+                    var11 = var16.bind(var18)(var15, var11);
+                    var10['url'] = var11;
+                    var15 = _closure1_slot0;
+                    var16 = _closure1_slot2;
+                    var11 = 12;
+                    var11 = var16[var11];
+                    var11 = var15.bind(var5)(var11);
+                    var11 = var11.SafetyScannedUploadSurface;
+                    var11 = var11.USER_GUILD_PROFILE_BANNER;
+                    var10['bannerSurface'] = var11;
+                    var7 = var10;
 case 14:
-                    var12 = var2.url;
-                    var15 = var2.bannerSurface;
-                    var6 = _closure1_slot0;
-                    var13 = _closure1_slot2;
-                    var2 = 13;
-                    var2 = var13[var2];
-                    var2 = var6.bind(var5)(var2);
-                    var8 = var2.HTTP;
-                    var6 = var8.patch;
-                    var2 = {};
-                    var2['url'] = var12;
-                    var2['body'] = var11;
-                    var12 = _closure1_slot1;
-                    var11 = 14;
-                    var11 = var13[var11];
-                    var13 = var12.bind(var5)(var11);
-                    var12 = var13.buildHeadersForMd5;
-                    var11 = {};
-                    var11[14] = var14;
-                    var11 = var12.bind(var13)(var11);
-                    var2['headers'] = var11;
-                    var11 = false;
-                    var2['rejectWithError'] = var11;
-                    var2 = var6.bind(var8)(var2);
-                    SaveGenerator(address=470);
+                    var15 = var7.url;
+                    var18 = var7.bannerSurface;
+                    var10 = _closure1_slot0;
+                    var16 = _closure1_slot2;
+                    var7 = 13;
+                    var7 = var16[var7];
+                    var7 = var10.bind(var5)(var7);
+                    var11 = var7.HTTP;
+                    var10 = var11.patch;
+                    var7 = {};
+                    var7['url'] = var15;
+                    var7['body'] = var14;
+                    var15 = _closure1_slot1;
+                    var14 = 14;
+                    var14 = var16[var14];
+                    var16 = var15.bind(var5)(var14);
+                    var15 = var16.buildHeadersForMd5;
+                    var14 = {};
+                    var14[17] = var17;
+                    var14 = var15.bind(var16)(var14);
+                    var7['headers'] = var14;
+                    var14 = true;
+                    var7['oldFormErrors'] = var14;
+                    var14 = false;
+                    var7['rejectWithError'] = var14;
+                    var7 = var10.bind(var11)(var7);
+                    SaveGenerator(address=479);
 case 15:
-                    return var2;
+                    return var7;
 case 16:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(var6) { _fun0001_ip = 17; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=9);
+                    if(var10) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-                    var4 = var2;
-                    var6 = var2.ok;
-                    if(var6) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-                    var11 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var8 = 15;
-                    var8 = var6[var8];
-                    var8 = var11.bind(var5)(var8);
-                    var8 = var8.APIError;
-                    var13 = var4;
-                    var11 = var8.prototype;
-                    var11 = Object.create(var11, {constructor: {value: var8}});
-                    var18 = var11;
-                    var17 = var13;
-                    var8 = new var18[var8](var17, var16);
-                    var12 = var8 instanceof Object ? var8 : var11;
-                    var8 = _closure1_slot1;
-                    var6 = var6[var9];
-                    var11 = var8.bind(var5)(var6);
-                    var8 = var11.dispatch;
-                    var6 = {};
-                    var14 = 'USER_PROFILE_UPDATE_FAILURE';
-                    var6['type'] = var14;
-                    var14 = var7;
-                    var6['guildId'] = var14;
-                    var13 = var13.body;
-                    var6['errors'] = var13;
-                    var6['apiError'] = var12;
-                    var6 = var8.bind(var11)(var6);
-                    _fun0001_ip = 21; continue _fun0001;
-case 19:
-                    var8 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var6 = var6[var9];
-                    var9 = var8.bind(var5)(var6);
-                    var8 = var9.dispatch;
-                    var6 = {};
-                    var11 = 'USER_PROFILE_UPDATE_SUCCESS';
-                    var6['type'] = var11;
-                    var6['userId'] = var10;
-                    var10 = var7;
-                    var6['guildId'] = var10;
-                    var10 = var4;
-                    var16 = var10.body;
-                    var17 = var6;
-                    var10 = copyDataProperties(var17, var16);
-                    var6 = var8.bind(var9)(var6);
-case 21: // try_end0
-                    return var4;
+                    var11 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var10 = var10[var12];
+                    var12 = var11.bind(var5)(var10);
+                    var11 = var12.dispatch;
+                    var10 = {};
+                    var14 = 'USER_PROFILE_UPDATE_SUCCESS';
+                    var10['type'] = var14;
+                    var10['userId'] = var13;
+                    var13 = var8;
+                    var10['guildId'] = var13;
+                    var19 = var7.body;
+                    var20 = var10;
+                    var13 = copyDataProperties(var20, var19);
+                    var10 = var11.bind(var12)(var10);
+case 19: // try_end0
+                    return var7;
 case 17:
-                    return var2;
-case 22: // catch_target0
-                    CatchBlockStart(arg_register=1);
-                    var6 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var4 = 15;
-                    var4 = var8[var4];
-                    var4 = var6.bind(var5)(var4);
-                    var4 = var4.APIError;
-                    var6 = var4.prototype;
-                    var6 = Object.create(var6, {constructor: {value: var4}});
-                    var18 = var6;
-                    var17 = var2;
-                    var4 = new var18[var4](var17, var16);
-                    var6 = var4 instanceof Object ? var4 : var6;
+                    return var7;
+case 20: // catch_target0
+                    CatchBlockStart(arg_register=6);
+                    var2 = var7;
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var10 = 15;
+                    var10 = var12[var10];
+                    var10 = var11.bind(var5)(var10);
+                    var10 = var10.APIError;
+                    var11 = var10.prototype;
+                    var11 = Object.create(var11, {constructor: {value: var10}});
+                    var21 = var11;
+                    var20 = var7;
+                    var10 = new var21[var10](var20, var19);
+                    var6 = var10 instanceof Object ? var10 : var11;
+                    var10 = var9 == var7;
+                    var7 = undefined;
+                    if(var10) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
+                    var10 = var2;
+                    var7 = var10.body;
+case 21:
+                    var4 = var7;
+                    if(!(var9 == var7)) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
+                    var7 = {};
+                    _fun0001_ip = 25; continue _fun0001;
+case 23:
+                    var7 = var4;
+case 25:
                     var4 = _closure1_slot1;
+                    var9 = _closure1_slot2;
                     var3 = 11;
-                    var3 = var8[var3];
+                    var3 = var9[var3];
                     var5 = var4.bind(var5)(var3);
                     var4 = var5.dispatch;
                     var3 = {};
-                    var8 = 'USER_PROFILE_UPDATE_FAILURE';
-                    var3['type'] = var8;
-                    var3['guildId'] = var7;
-                    var7 = {};
+                    var9 = 'USER_PROFILE_UPDATE_FAILURE';
+                    var3['type'] = var9;
+                    var3['guildId'] = var8;
                     var3['errors'] = var7;
                     var3['apiError'] = var6;
                     var3 = var4.bind(var5)(var3);
@@ -285,19 +271,19 @@ case 2:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 23; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 12; continue _fun0002 }
 case 3:
                     var2 = _closure1_slot5;
                     var3 = var2.applicationWidgetConfigs;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+                    if(!(var2 != var3)) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
                     var2 = _closure1_slot5;
                     var2 = var2.applicationWidgetConfigs;
                     var3 = var2.length;
                     var2 = 0;
-                    if(!(!(var3 > var2))) { _fun0002_ip = 26; continue _fun0002 }
-case 24:
+                    if(!(!(var3 > var2))) { _fun0002_ip = 28; continue _fun0002 }
+case 26:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var3 = 11;
@@ -309,7 +295,7 @@ case 24:
                     var8 = 'USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_START';
                     var2['type'] = var8;
                     var2 = var4.bind(var7)(var2);
-case 27: // try_start_0
+case 29: // try_start_0
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 13;
@@ -325,12 +311,12 @@ case 27: // try_start_0
                     var2['rejectWithError'] = var8;
                     var2 = var4.bind(var7)(var2);
                     SaveGenerator(address=158);
-case 28:
+case 30:
                     return var2;
-case 29:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
                     var7 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var3];
@@ -343,11 +329,11 @@ case 31:
                     var9 = var9.application_configs;
                     var4['applicationConfigs'] = var9;
                     var4 = var7.bind(var8)(var4);
-case 32: // try_end0
-                    _fun0002_ip = 26; continue _fun0002;
-case 30:
+case 34: // try_end0
+                    _fun0002_ip = 28; continue _fun0002;
+case 32:
                     return var2;
-case 33: // catch_target0
+case 35: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -364,10 +350,10 @@ case 33: // catch_target0
                     var3 = var4.captureException;
                     var3 = var3.bind(var4)(var2);
                     throw var2;
-case 26:
+case 28:
                     var2 = undefined;
                     return var2;
-case 23:
+case 12:
                     return var1;
                 }
             };
@@ -523,12 +509,12 @@ case 0:
             var6 = var3 == var4;
             var1 = undefined;
             var5 = undefined;
-            if(var6) { _fun0003_ip = 34; continue _fun0003 }
-case 25:
+            if(var6) { _fun0003_ip = 36; continue _fun0003 }
+case 27:
             var5 = var4.id;
-case 34:
-            if(!(var3 != var5)) { _fun0003_ip = 35; continue _fun0003 }
 case 36:
+            if(!(var3 != var5)) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 11;
@@ -544,7 +530,7 @@ case 36:
             var2['ttlInSeconds'] = var6;
             var2['userId'] = var5;
             var2 = var3.bind(var4)(var2);
-case 35:
+case 37:
             return var1;
         }
     };

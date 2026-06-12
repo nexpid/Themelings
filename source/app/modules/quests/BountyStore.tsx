@@ -524,6 +524,13 @@ case 48:
         var5 = new var9[var5](var8);
         var5 = var5 instanceof Object ? var5 : var6;
         _closure1_slot2 = var5;
+        var5 = var2.Map;
+        var6 = var5.prototype;
+        var6 = Object.create(var6, {constructor: {value: var5}});
+        var9 = var6;
+        var5 = new var9[var5](var8);
+        var5 = var5 instanceof Object ? var5 : var6;
+        _closure1_slot5 = var5;
         var6 = var2.Map;
         var8 = _closure1_slot4;
         var5 = var6.prototype;

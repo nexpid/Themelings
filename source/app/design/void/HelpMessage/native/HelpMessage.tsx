@@ -180,12 +180,12 @@ case 10:
     var14 = 4;
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_8;
     var13['padding'] = var16;
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_8;
     var13['gap'] = var16;
     var2['container'] = var13;
@@ -195,7 +195,7 @@ case 10:
     var13['flex'] = var10;
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_8;
     var13['marginLeft'] = var16;
     var2['content'] = var13;

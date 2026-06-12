@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = ['artboard', 'stateMachine', 'defaultViewModelInstance'];
+    var1 = ['fallback', 'artboard', 'stateMachine', 'defaultViewModelInstance'];
     var _closure1_slot3 = var1;
     var1 = global;
     var9 = var1.Object;
@@ -55,11 +55,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = ['threeFriends', 'twoFriends-reducedMotion', 'threeFriends-reducedMotion', 'twoFriends'];
     var4['Friends 01 Rotation'] = var8;
     var _closure1_slot7 = var4;
-    var4 = var7.forwardRef;
-    var2 = function CheckpointFriendsRiveInner(arg1, arg2) {
+    var8 = var7.forwardRef;
+    var4 = function CheckpointFriendsRiveInner(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
+            var1 = var3.fallback;
             var1 = var3.artboard;
             var9 = 'MAIN';
             var4 = undefined;
@@ -107,8 +108,36 @@ case 4:
             return var1;
         }
     };
+    var4 = var8.bind(var7)(var4);
+    var _closure1_slot8 = var4;
+    var4 = var7.forwardRef;
+    var2 = function CheckpointFriendsRiveWithBoundary(arg1, arg2) {
+        var7 = arg1;
+        var4 = _closure1_slot5;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 5;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.RiveErrorBoundary;
+        var1 = {};
+        var6 = var7.fallback;
+        var1['fallback'] = var6;
+        var6 = _closure1_slot8;
+        var5 = {};
+        var8 = arg2;
+        var5['ref'] = var8;
+        var10 = var5;
+        var9 = var7;
+        var7 = copyDataProperties(var10, var9);
+        var5 = var4.bind(var3)(var6, var5);
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
     var2 = var4.bind(var7)(var2);
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

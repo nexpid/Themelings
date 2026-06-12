@@ -314,7 +314,7 @@ case 17:
             var11 = 17;
             var11 = var28[var11];
             var11 = var12.bind(var5)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_16;
             var8['spacing'] = var11;
             var13 = 18;

@@ -91,7 +91,7 @@ case 0:
             var9 = 2;
             var12 = var11[var8];
             var12 = var13.bind(var7)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var12 = var12.PX_8;
             var2['marginRight'] = var12;
             var1['textContainer'] = var2;

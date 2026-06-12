@@ -1,4 +1,4 @@
-// app/modules/game_update/GameUpdateStore.tsx
+// app/modules/guild_config_gates/GuildConfigGatesStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = metroImportDefault;
     var3 = exports;
@@ -74,12 +74,11 @@ case 4:
     var2 = {};
     var _closure1_slot5 = var2;
     var2 = 5;
-    var7 = var5[var2];
-    var2 = metroImportAll;
-    var2 = var2.bind(var1)(var7);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var7 = var2.Store;
     var2 = function(arg1) {
-        var4 = function GameUpdateStore() {
+        var4 = function GuildConfigGatesStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = this;
@@ -121,128 +120,69 @@ case 8:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot1;
         var5 = {};
-        var1 = 'get';
+        var1 = 'hasLoaded';
         var5['key'] = var1;
         var1 = function value(arg1) {
             var2 = _closure1_slot5;
             var1 = arg1;
-            var1 = var2[var1];
+            var2 = var2[var1];
+            var1 = null;
+            var1 = var1 != var2;
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(3);
+        var1 = new Array(2);
         var1[0] = var5;
         var5 = {};
-        var7 = 'isLoading';
+        var7 = 'getGates';
         var5['key'] = var7;
-        var7 = function value(arg1) {
+        var6 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var2 = _closure1_slot5;
                 var1 = arg1;
-                var3 = var2[var1];
-                var1 = null;
-                var4 = var1 == var3;
-                var2 = undefined;
-                if(var4) { _fun0003_ip = 9; continue _fun0003 }
+                var1 = var2[var1];
+                var2 = null;
+                if(!(var2 == var1)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var2 = var3.loading;
+                var1 = {'guildVerificationRoleEnabled': false, 'applicationIdentityLinkedRolesEnabled': false};
 case 9:
-                var1 = var1 != var2;
-                if(!var1) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-                var1 = var2;
-case 11:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[1] = var5;
-        var5 = {};
-        var7 = 'getError';
-        var5['key'] = var7;
-        var6 = function value(arg1) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                var2 = _closure1_slot5;
-                var1 = arg1;
-                var3 = var2[var1];
-                var1 = null;
-                var4 = var1 == var3;
-                var2 = undefined;
-                if(var4) { _fun0004_ip = 13; continue _fun0004 }
-case 10:
-                var2 = var3.error;
-case 13:
-                var3 = var1 != var2;
-                var1 = null;
-                if(!var3) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
-                var1 = var2;
-case 14:
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[2] = var5;
+        var1[1] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
     var7 = var2.bind(var1)(var7);
-    var2 = 'GameUpdateStore';
+    var2 = 'GuildConfigGatesStore';
     var7['displayName'] = var2;
     var2 = 6;
     var2 = var5[var2];
     var11 = var6.bind(var1)(var2);
     var2 = {};
-    var8 = function handleGameUpdateFetchStart(arg1) {
+    var8 = function handleFetchSuccess(arg1) {
         var1 = arg1;
-        var3 = var1.id;
+        var3 = var1.guildId;
+        var5 = var1.guildVerificationRoleEnabled;
+        var4 = var1.applicationIdentityLinkedRolesEnabled;
         var2 = _closure1_slot5;
-        var1 = {'loading': true, 'update': null, 'error': null};
+        var1 = {};
+        var1['guildVerificationRoleEnabled'] = var5;
+        var1['applicationIdentityLinkedRolesEnabled'] = var4;
         var2[var3] = var1;
         var1 = undefined;
         return var1;
     };
-    var2['GAME_UPDATE_FETCH_START'] = var8;
-    var8 = function handleGameUpdateFetchSuccess(arg1) {
-        var1 = arg1;
-        var3 = var1.id;
-        var4 = var1.update;
-        var2 = _closure1_slot5;
-        var1 = {'loading': false, 'update': null, 'error': null};
-        var1['update'] = var4;
-        var2[var3] = var1;
+    var2['GUILD_CONFIG_GATES_FETCH_SUCCESS'] = var8;
+    var4 = function handleLogout() {
+        var1 = {};
+        _closure1_slot5 = var1;
         var1 = undefined;
         return var1;
     };
-    var2['GAME_UPDATE_FETCH_SUCCESS'] = var8;
-    var4 = function handleGameUpdateFetchFailure(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var1 = arg1;
-            var4 = var1.id;
-            var5 = var1.error;
-            var3 = _closure1_slot5;
-            var2 = {};
-            var1 = false;
-            var2['loading'] = var1;
-            var7 = var3[var4];
-            var1 = null;
-            var8 = var1 == var7;
-            var1 = undefined;
-            var6 = undefined;
-            if(var8) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
-            var6 = var7.update;
-case 16:
-            var2['update'] = var6;
-            var2['error'] = var5;
-            var3[var4] = var2;
-            return var1;
-        }
-    };
-    var2['GAME_UPDATE_FETCH_FAILURE'] = var4;
+    var2['LOGOUT'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var12 = var4;
@@ -254,7 +194,7 @@ case 16:
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/game_update/GameUpdateStore.tsx';
+    var4 = 'modules/guild_config_gates/GuildConfigGatesStore.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

@@ -995,12 +995,12 @@ case 82:
     var10['borderTopColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_12;
     var10['marginTop'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var10['marginBottom'] = var14;
     var4['forYouDivider'] = var10;

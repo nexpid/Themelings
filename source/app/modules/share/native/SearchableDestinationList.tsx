@@ -60,12 +60,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 7;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['paddingHorizontal'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var9['paddingBottom'] = var13;
     var13 = var6[var10];
@@ -120,7 +120,7 @@ case 5:
             var3 = 7;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var18 = var3.PX_8;
 case 4:
             var12 = var2.insetEnd;
@@ -131,7 +131,7 @@ case 7:
             var3 = 7;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var12 = var3.PX_12;
 case 6:
             var14 = var2.autoFocusSearch;

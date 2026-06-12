@@ -343,7 +343,7 @@ case 37:
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingVertical'] = var12;
     var4['inviteAppsContainerNonSticky'] = var9;
@@ -359,12 +359,12 @@ case 37:
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['marginHorizontal'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['paddingTop'] = var12;
     var4['emptyActionContainer'] = var9;

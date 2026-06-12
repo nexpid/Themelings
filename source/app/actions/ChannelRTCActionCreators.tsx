@@ -220,25 +220,6 @@ case 2:
         return var1;
     };
     var2['updateStageVideoLimitBoostUpsellDismissed'] = var7;
-    var7 = function updateForceTextView(arg1, arg2) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 1;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'CHANNEL_RTC_UPDATE_FORCE_TEXT_VIEW';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['channelId'] = var5;
-        var5 = arg2;
-        var2['forceTextView'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var2['updateForceTextView'] = var7;
     var7 = function updateChatOpen(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:

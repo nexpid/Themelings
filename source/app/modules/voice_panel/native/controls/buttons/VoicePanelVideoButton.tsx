@@ -11,13 +11,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.isVideoEnabled;
-            var10 = var1.color;
+            var8 = var1.isVideoEnabled;
+            var11 = var1.color;
             var4 = _closure1_slot10;
             var3 = _closure1_slot4;
             var2 = {};
-            var5 = {'width': 24, 'height': 24, 'pointerEvents': 'none'};
-            var2['style'] = var5;
+            var1 = {'width': 24, 'height': 24, 'pointerEvents': 'none'};
+            var2['style'] = var1;
             var7 = _closure1_slot10;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -27,16 +27,36 @@ case 0:
             var5 = var6.bind(var1)(var5);
             var6 = var5.CameraRive;
             var5 = {};
-            var8 = {};
-            var8['fill'] = var10;
-            var8['on'] = var9;
-            var5['dataBinding'] = var8;
-            var8 = 'CamOff';
-            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+            var10 = {};
+            var10['fill'] = var11;
+            var10['on'] = var8;
+            var5['dataBinding'] = var10;
+            var10 = 'CamOff';
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var8 = 'CamOn';
+            var10 = 'CamOn';
 case 2:
-            var5['defaultViewModelInstance'] = var8;
+            var5['defaultViewModelInstance'] = var10;
+            var10 = _closure1_slot10;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var8 = 20;
+            var8 = var13[var8];
+            var8 = var12.bind(var1)(var8);
+            var9 = var8.VideoSlashIcon;
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
+            var8 = 19;
+            var8 = var13[var8];
+            var8 = var12.bind(var1)(var8);
+            var9 = var8.VideoIcon;
+case 6:
+            var8 = {};
+            var8['color'] = var11;
+            var8 = var10.bind(var1)(var9, var8);
+            var5['fallback'] = var8;
             var5 = var7.bind(var1)(var6, var5);
             var2['children'] = var5;
             var1 = var4.bind(var1)(var3, var2);
@@ -88,7 +108,7 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot10 = var4;
-    var4 = 19;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -138,12 +158,12 @@ case 0:
                     var8 = var2.bind(var4)(var1);
                     var1 = null;
                     var1 = var1 != var8;
-                    if(!var1) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
+                    if(!var1) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var2 = var8.isPrivate;
                     var2 = var2.bind(var8)();
-                    if(var2) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                    if(var2) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var4 = 11;
@@ -157,9 +177,9 @@ case 7:
                     var13 = var7;
                     var12 = var8;
                     var2 = var13[var6](var12, var11, var10, var9, var8);
-case 6:
+case 9:
                     var1 = var2;
-case 4:
+case 7:
                     return var1;
                 }
             };
@@ -188,8 +208,8 @@ case 4:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot2;
-                    if(var2) { _fun0004_ip = 6; continue _fun0004 }
-case 8:
+                    if(var2) { _fun0004_ip = 9; continue _fun0004 }
+case 11:
                     var8 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var2 = 12;
@@ -208,16 +228,16 @@ case 8:
                     var2 = {};
                     var2 = var9.bind(var10)(var8, var2);
                     var2 = var6.bind(var7)(var5, var2);
-                    _fun0004_ip = 9; continue _fun0004;
-case 6:
+                    _fun0004_ip = 12; continue _fun0004;
+case 9:
                     var6 = _closure1_slot6;
                     var5 = var6.getChannel;
                     var2 = _closure2_slot0;
                     var5 = var5.bind(var6)(var2);
                     var _closure3_slot0 = var5;
                     var2 = null;
-                    if(!(var2 != var5)) { _fun0004_ip = 9; continue _fun0004 }
-case 10:
+                    if(!(var2 != var5)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                     var2 = function animateToggleVideo() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -232,13 +252,13 @@ case 10:
                     };
                     var _closure3_slot1 = var2;
                     var4 = _closure2_slot3;
-                    if(var4) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                    if(var4) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                     var5 = _closure1_slot5;
                     var4 = var5.isReactingToThermalState;
                     var4 = var4.bind(var5)();
-                    if(!var4) { _fun0004_ip = 11; continue _fun0004 }
-case 13:
+                    if(!var4) { _fun0004_ip = 14; continue _fun0004 }
+case 16:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 15;
@@ -253,11 +273,11 @@ case 13:
                         return var1;
                     };
                     var1 = var3.bind(var4)(var1);
-                    _fun0004_ip = 9; continue _fun0004;
-case 11:
+                    _fun0004_ip = 12; continue _fun0004;
+case 14:
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 9:
+case 12:
                     var1 = undefined;
                     return var1;
                 }
@@ -280,23 +300,23 @@ case 9:
             var7 = var13[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.t;
-            if(var9) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-            var7 = var8.v8K+8W;
-            var7 = var11.bind(var12)(var7);
-            _fun0002_ip = 16; continue _fun0002;
-case 14:
-            var8 = var8.EnX2Jl;
-            var7 = var11.bind(var12)(var8);
-case 16:
-            var1['accessibilityLabel'] = var7;
             if(var9) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            var7 = var10.iconBg;
+            var7 = var8.v8K+8W;
+            var7 = var11.bind(var12)(var7);
             _fun0002_ip = 19; continue _fun0002;
 case 17:
-            var7 = var10.iconBgSelected;
+            var8 = var8.EnX2Jl;
+            var7 = var11.bind(var12)(var8);
 case 19:
+            var1['accessibilityLabel'] = var7;
+            if(var9) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+            var7 = var10.iconBg;
+            _fun0002_ip = 22; continue _fun0002;
+case 20:
+            var7 = var10.iconBgSelected;
+case 22:
             var1['style'] = var7;
             var8 = _closure1_slot3;
             var7 = var8.useMemo;
@@ -317,15 +337,15 @@ case 0:
                     var1 = _closure2_slot3;
                     var2['isVideoEnabled'] = var1;
                     var5 = _closure2_slot1;
-                    if(var1) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+                    if(var1) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                     var1 = var5.iconFill;
                     var1 = var1.color;
-                    _fun0005_ip = 22; continue _fun0005;
-case 20:
+                    _fun0005_ip = 25; continue _fun0005;
+case 23:
                     var5 = var5.iconFillSelected;
                     var1 = var5.color;
-case 22:
+case 25:
                     var2['color'] = var1;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2);

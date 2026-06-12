@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var11 = var8[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_4;
     var10['marginEnd'] = var11;
     var4['restricted'] = var10;

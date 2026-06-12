@@ -53,7 +53,7 @@ case 5:
             var3 = 1;
             var3 = var5[var3];
             var3 = var4.bind(var20)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var10 = var3.PX_24;
 case 4:
             var _closure2_slot2 = var10;

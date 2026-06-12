@@ -11847,9 +11847,7 @@ case 211:
             var6[1] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UnitIdInExperiment'];
             var1[1] = var6;
-            var6 = {};
-            var7 = 'FILTER_CATEGORY_UTILITY';
-            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var6 = {'discord_protos.discord_experimentation.v1.filter_category': 'FILTER_CATEGORY_UTILITY', 'discord_protos.discord_experimentation.v1.filter_evaluation_mode': 'FILTER_EVALUATION_MODE_LAZY'};
             var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;

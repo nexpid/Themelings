@@ -139,6 +139,7 @@ case 5:
 case 4:
             var7 = var2.isScrollingInBoundsSharedValue;
             var _closure2_slot1 = var7;
+            var34 = var2.automaticallyWaitsToMinimizeStalling;
             var10 = var2.renderEndCard;
             var8 = var2.playerRef;
             var17 = var2.onPlayerStateChange;
@@ -146,17 +147,17 @@ case 4:
             var2 = _closure1_slot10;
             var9 = var2.bind(var4)();
             var15 = _closure1_slot0;
-            var35 = _closure1_slot2;
+            var36 = _closure1_slot2;
             var2 = 6;
-            var2 = var35[var2];
+            var2 = var36[var2];
             var3 = var15.bind(var4)(var2);
             var2 = var3.useRnvHttpEngine;
-            var34 = var2.bind(var3)();
+            var35 = var2.bind(var3)();
             var6 = 7;
-            var2 = var35[var6];
+            var2 = var36[var6];
             var3 = var15.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function X() {
+            var1 = function W() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure2_slot1;
@@ -201,13 +202,13 @@ case 8:
             var5 = {};
             var5['isScrollingInBoundsSharedValue'] = var7;
             var7 = 8;
-            var7 = var35[var7];
+            var7 = var36[var7];
             var7 = var15.bind(var4)(var7);
             var7 = var7.withTiming;
             var5['withTiming'] = var7;
             var5['isActive'] = var32;
             var7 = 9;
-            var7 = var35[var7];
+            var7 = var36[var7];
             var7 = var15.bind(var4)(var7);
             var7 = var7.timingStandard;
             var5['timingStandard'] = var7;
@@ -226,23 +227,24 @@ case 8:
             var5['style'] = var13;
             var16 = _closure1_slot5;
             var13 = 10;
-            var13 = var35[var13];
+            var13 = var36[var13];
             var13 = var15.bind(var4)(var13);
             var15 = var13.AdVideoPlayer;
             var13 = {};
             var13['ref'] = var8;
-            var35 = {};
-            var37 = var22.videoHls;
+            var36 = {};
+            var38 = var22.videoHls;
             var8 = null;
-            var38 = var8 != var37;
-            var36 = '';
-            if(!var38) { _fun0001_ip = 11; continue _fun0001 }
+            var39 = var8 != var38;
+            var37 = '';
+            if(!var39) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var36 = var37;
+            var37 = var38;
 case 11:
-            var35['uri'] = var36;
-            var13['source'] = var35;
-            var13['httpEngine'] = var34;
+            var36['uri'] = var37;
+            var13['source'] = var36;
+            var13['httpEngine'] = var35;
+            var13['automaticallyWaitsToMinimizeStalling'] = var34;
             var13['initialProgress'] = var23;
             var23 = false;
             var13['isFullscreen'] = var23;

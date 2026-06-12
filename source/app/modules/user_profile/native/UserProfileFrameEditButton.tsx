@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 7;
     var4 = var6[var10];
     var4 = var11.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var13 = var4.PX_4;
     var _closure1_slot10 = var13;
     var4 = 8;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['paddingTop'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_4;
     var9['marginLeft'] = var10;
     var4['newBadge'] = var9;
@@ -418,7 +418,7 @@ case 30:
             var12 = 7;
             var15 = var14[var12];
             var15 = var13.bind(var4)(var15);
-            var15 = var15.spacing;
+            var15 = var15.space;
             var15 = var15.PX_8;
             var15 = var17 * var15;
             var15 = var16 - var15;

@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {'position': 'absolute', 'marginBottom': null, 'left': 0, 'right': 0};
     var9 = var6[var9];
     var9 = var11.bind(var1)(var9);
-    var9 = var9.spacing;
+    var9 = var9.space;
     var9 = var9.PX_4;
     var8['marginBottom'] = var9;
     var9 = 12;

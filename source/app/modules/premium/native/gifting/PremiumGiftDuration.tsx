@@ -254,7 +254,7 @@ case 12:
     var10 = 5;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var12['marginTop'] = var14;
     var7['container'] = var12;
@@ -278,7 +278,7 @@ case 12:
     var12 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var12['marginStart'] = var13;
     var13 = var6[var10];
@@ -288,7 +288,7 @@ case 12:
     var12['backgroundColor'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var12['paddingHorizontal'] = var13;
     var13 = var6[var10];
@@ -306,14 +306,14 @@ case 12:
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['marginHorizontal'] = var12;
     var4['durationContainer'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_24;
     var9['marginTop'] = var10;
     var4['durationTitle'] = var9;

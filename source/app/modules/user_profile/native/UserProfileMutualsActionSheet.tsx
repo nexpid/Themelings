@@ -278,14 +278,14 @@ case 8:
     var11 = 7;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['paddingTop'] = var13;
     var5['container'] = var10;
     var10 = {};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['paddingTop'] = var13;
     var13 = 'center';
@@ -304,7 +304,7 @@ case 8:
     var10 = {'flexDirection': 'row', 'alignItems': 'center'};
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_4;
     var10['gap'] = var11;
     var5['mutualGuildSubLabel'] = var10;

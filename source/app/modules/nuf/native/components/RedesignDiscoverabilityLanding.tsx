@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['paddingTop'] = var13;
     var4['topContainer'] = var9;
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['width'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_32;
     var9['marginBottom'] = var12;
     var4['image'] = var9;
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['textAlign'] = var12;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['marginBottom'] = var13;
     var4['title'] = var9;
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['textAlign'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_32;
     var9['marginBottom'] = var10;
     var4['subtitle'] = var9;
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 4;
         var7 = var14[var7];
         var7 = var17.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_16;
         var6['paddingHorizontal'] = var7;
         var1['contentContainerStyle'] = var6;

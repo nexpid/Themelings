@@ -1973,7 +1973,7 @@ case 123:
             var9 = 41;
             var9 = var34[var9];
             var9 = var10.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_24;
             var2['itemSpacing'] = var9;
             var2['items'] = var8;

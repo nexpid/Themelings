@@ -515,12 +515,12 @@ case 8:
             var12 = var11[var8];
             var9 = undefined;
             var12 = var10.bind(var9)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var12 = var12.PX_8;
             var7['paddingHorizontal'] = var12;
             var8 = var11[var8];
             var8 = var10.bind(var9)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_8;
             var7['paddingVertical'] = var8;
             var5 = var7;

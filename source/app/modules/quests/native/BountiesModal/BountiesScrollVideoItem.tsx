@@ -450,6 +450,8 @@ case 34:
             var5['normalizedProgress'] = var17;
             var5['repeat'] = var16;
             var5['initialProgress'] = var15;
+            var15 = false;
+            var5['automaticallyWaitsToMinimizeStalling'] = var15;
             var5['isActive'] = var14;
             var5['isRecapPageRevealed'] = var13;
             var5['isScrollingInBoundsSharedValue'] = var12;

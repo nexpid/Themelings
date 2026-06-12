@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_40;
     var9['paddingTop'] = var13;
     var4['iosPaddingThemeAdjust'] = var9;
@@ -80,14 +80,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingHorizontal'] = var12;
     var4['container'] = var9;
     var9 = {'marginTop': null, 'backgroundColor': 'transparent', 'paddingHorizontal': 0};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['marginTop'] = var10;
     var4['inputContainer'] = var9;
@@ -250,7 +250,7 @@ case 7:
             var18 = 5;
             var18 = var19[var18];
             var18 = var12.bind(var4)(var18);
-            var18 = var18.spacing;
+            var18 = var18.space;
             var18 = var18.PX_16;
             var18 = var20 + var18;
             var17['paddingBottom'] = var18;

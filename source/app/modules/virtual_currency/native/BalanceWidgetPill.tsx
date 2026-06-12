@@ -52,12 +52,12 @@ case 0:
         var9['borderRadius'] = var13;
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_12;
         var9['paddingHorizontal'] = var13;
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_4;
         var9['paddingVertical'] = var13;
         var13 = var6[var10];

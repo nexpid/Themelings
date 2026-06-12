@@ -1190,7 +1190,7 @@ case 91:
         var9 = {'marginBottom': null, 'flexDirection': 'row', 'justifyContent': 'center', 'width': '100%'};
         var10 = var6[var10];
         var10 = var11.bind(var1)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_16;
         var9['marginBottom'] = var10;
         var4['addFriendsButtonContainer'] = var9;

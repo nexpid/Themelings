@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['padding'] = var12;
     var4['rowDetailsContainer'] = var9;
@@ -68,14 +68,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var9['marginBottom'] = var13;
     var4['sectionTitle'] = var9;
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['paddingVertical'] = var13;
     var9['alignItems'] = var12;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_12;
     var9['padding'] = var12;
     var10 = var6[var10];

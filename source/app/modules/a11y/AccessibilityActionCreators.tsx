@@ -573,6 +573,24 @@ case 7:
         return var1;
     };
     var3['setSwitchIconsEnabled'] = var4;
+    var4 = function setChatBarSettings(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ACCESSIBILITY_SET_CHAT_BAR_SETTINGS';
+        var2['type'] = var5;
+        var6 = arg1;
+        var7 = var2;
+        var5 = copyDataProperties(var7, var6);
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['setChatBarSettings'] = var4;
     var2 = function setHDRDynamicRange(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

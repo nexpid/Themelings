@@ -578,7 +578,7 @@ case 35:
             var25 = 9;
             var25 = var27[var25];
             var25 = var26.bind(var4)(var25);
-            var25 = var25.spacing;
+            var25 = var25.space;
             var25 = var25.PX_24;
             var24['marginBottom'] = var25;
             var23[2] = var24;

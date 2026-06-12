@@ -70,9 +70,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = _closure1_slot4;
         var3 = new Array(3);
         var3[0] = var7;
-        var7 = _closure1_slot10;
+        var7 = _closure1_slot5;
         var3[1] = var7;
-        var2 = _closure1_slot5;
+        var2 = _closure1_slot6;
         var3[2] = var2;
         var2 = new Array(1);
         var2[0] = var6;
@@ -123,7 +123,7 @@ case 7:
                 var2 = {};
                 var8 = _closure2_slot0;
                 var2['channelId'] = var8;
-                var10 = _closure1_slot10;
+                var10 = _closure1_slot5;
                 var2['VideoSpeakerStore'] = var10;
                 var10 = _closure1_slot4;
                 var2['ChannelRTCStore'] = var10;
@@ -134,7 +134,7 @@ case 10:
                 var11 = new Array(0);
                 _fun0001_ip = 11; continue _fun0001;
 case 9:
-                var9 = _closure1_slot5;
+                var9 = _closure1_slot6;
                 var8 = var9.getAllActiveStreamsForChannel;
                 var7 = _closure2_slot0;
                 var11 = var8.bind(var9)(var7);
@@ -284,7 +284,7 @@ case 4:
 case 0:
                     var3 = arg1;
                     var4 = var3.id;
-                    var5 = _closure1_slot6;
+                    var5 = _closure1_slot7;
                     var1 = var5.getId;
                     var1 = var1.bind(var5)();
                     var1 = var4 !== var1;
@@ -353,11 +353,11 @@ case 0:
             var3 = var3[var9];
             var8 = var4.bind(var5)(var3);
             var7 = var8.useStateFromStores;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var4 = new Array(1);
             var4[0] = var3;
             var3 = function() {
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var1 = var2.getChannelId;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -379,12 +379,12 @@ case 49:
             var3 = var3[var9];
             var5 = var4.bind(var5)(var3);
             var4 = var5.useStateFromStores;
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot8;
             var3 = new Array(3);
             var3[0] = var9;
             var9 = _closure1_slot3;
             var3[1] = var9;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var3[2] = var2;
             var2 = new Array(3);
             var2[0] = var8;
@@ -393,7 +393,7 @@ case 49:
             var1 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var5 = _closure1_slot7;
+                    var5 = _closure1_slot8;
                     var3 = var5.getChannel;
                     var1 = _closure2_slot1;
                     var1 = var3.bind(var5)(var1);
@@ -407,7 +407,7 @@ case 52:
                     var3 = var5 != var3;
                     if(!var3) { _fun0007_ip = 53; continue _fun0007 }
 case 41:
-                    var7 = _closure1_slot8;
+                    var7 = _closure1_slot9;
                     var6 = var7.isLocalVideoDisabled;
                     var2 = _closure2_slot2;
                     var2 = var2.id;

@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 7;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var12 = -var12;
     var9['marginHorizontal'] = var12;
@@ -70,14 +70,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['flexDirection'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['gap'] = var12;
     var4['attachmentPreviewContentContainer'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingHorizontal'] = var12;
     var4['attachmentPreviewContentContainerRevamp'] = var9;

@@ -404,14 +404,15 @@ case 27:
             var16 = false;
 case 26:
             var _closure2_slot13 = var16;
-            var60 = var13.httpEngine;
+            var61 = var13.httpEngine;
+            var60 = var13.automaticallyWaitsToMinimizeStalling;
             var58 = var13.repeat;
             if(!(var58 === var4)) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
             var58 = false;
 case 28:
             var _closure2_slot14 = var58;
-            var62 = var13.ref;
+            var63 = var13.ref;
             var _closure2_slot15 = var4;
             var _closure2_slot16 = var4;
             var _closure2_slot17 = var4;
@@ -463,9 +464,9 @@ case 30:
             _closure2_slot17 = var10;
             var14 = var22.useState;
             var10 = {};
-            var66 = var10;
-            var65 = var56;
-            var19 = copyDataProperties(var66, var65);
+            var67 = var10;
+            var66 = var56;
+            var19 = copyDataProperties(var67, var66);
             var10 = var14.bind(var22)(var10);
             var10 = var17.bind(var4)(var10, var53);
             var19 = var10[var32];
@@ -533,14 +534,14 @@ case 37:
 case 36:
             _closure2_slot27 = var35;
             var50 = _closure1_slot0;
-            var61 = _closure1_slot2;
+            var62 = _closure1_slot2;
             var17 = 10;
-            var8 = var61[var17];
+            var8 = var62[var17];
             var10 = var50.bind(var4)(var8);
             var8 = var10.useSharedValue;
             var52 = var8.bind(var10)(var14);
             _closure2_slot28 = var52;
-            var8 = function de() {
+            var8 = function he() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = _closure2_slot22;
@@ -598,10 +599,10 @@ case 40:
             var10 = _closure1_slot20;
             var8['__initData'] = var10;
             _closure2_slot29 = var8;
-            var10 = var61[var17];
+            var10 = var62[var17];
             var20 = var50.bind(var4)(var10);
             var16 = var20.useAnimatedStyle;
-            var10 = function he() {
+            var10 = function pe() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = _closure2_slot29;
@@ -639,12 +640,12 @@ case 50:
             var33 = {};
             var33['shouldShowControls'] = var8;
             var47 = 11;
-            var47 = var61[var47];
+            var47 = var62[var47];
             var47 = var50.bind(var4)(var47);
             var47 = var47.withSpring;
             var33['withSpring'] = var47;
             var47 = 12;
-            var47 = var61[var47];
+            var47 = var62[var47];
             var47 = var50.bind(var4)(var47);
             var47 = var47.SUBTLE_SPRING;
             var33['SUBTLE_SPRING'] = var47;
@@ -655,15 +656,15 @@ case 50:
             var10['__initData'] = var33;
             var20 = var16.bind(var20)(var10);
             var8 = var8.bind(var4)();
-            var10 = var61[var17];
+            var10 = var62[var17];
             var16 = var50.bind(var4)(var10);
             var10 = var16.useSharedValue;
             var49 = var10.bind(var16)(var32);
             _closure2_slot30 = var49;
-            var10 = var61[var17];
+            var10 = var62[var17];
             var33 = var50.bind(var4)(var10);
             var16 = var33.useAnimatedStyle;
-            var10 = function pe() {
+            var10 = function be() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -690,13 +691,13 @@ case 50:
             };
             var47 = {};
             var48 = 13;
-            var48 = var61[var48];
+            var48 = var62[var48];
             var48 = var50.bind(var4)(var48);
             var48 = var48.withTiming;
             var47['withTiming'] = var48;
             var47['progressSharedValue'] = var49;
             var48 = 14;
-            var48 = var61[var48];
+            var48 = var62[var48];
             var48 = var50.bind(var4)(var48);
             var48 = var48.timingFast;
             var47['timingFast'] = var48;
@@ -887,7 +888,7 @@ case 54:
             };
             var51 = var53.bind(var50)(var37, var51);
             _closure2_slot34 = var51;
-            var61 = var50.useImperativeHandle;
+            var62 = var50.useImperativeHandle;
             var53 = new Array(5);
             var53[0] = var51;
             var53[1] = var36;
@@ -981,7 +982,7 @@ case 61:
                 var1['pause'] = var2;
                 return var1;
             };
-            var37 = var61.bind(var50)(var62, var37, var53);
+            var37 = var62.bind(var50)(var63, var37, var53);
             var53 = var50.useCallback;
             var37 = new Array(6);
             var37[0] = var59;
@@ -1348,12 +1349,12 @@ case 82:
             if(var34) { _fun0002_ip = 85; continue _fun0002 }
 case 86:
             var50 = _closure1_slot17;
-            var66 = var19.timestampSec;
-            var65 = var19.maxTimestampSec;
-            var64 = var19.duration;
-            var67 = undefined;
-            var63 = var54;
-            var23 = var67[var50](var66, var65, var64, var63, var62);
+            var67 = var19.timestampSec;
+            var66 = var19.maxTimestampSec;
+            var65 = var19.duration;
+            var68 = undefined;
+            var64 = var54;
+            var23 = var68[var50](var67, var66, var65, var64, var63);
             var34 = !var23;
 case 85:
             _closure2_slot39 = var34;
@@ -1866,8 +1867,9 @@ case 114:
 case 117:
             var44 = _closure1_slot11;
             var22 = _closure1_slot14;
-            var8 = {'mixWithOthers': 'inherit', 'httpEngine': null, 'ref': null, 'accessible': false, 'importantForAccessibility': 'no-hide-descendants', 'accessibilityRole': 'none'};
-            var8['httpEngine'] = var60;
+            var8 = {'mixWithOthers': 'inherit', 'httpEngine': null, 'automaticallyWaitsToMinimizeStalling': null, 'ref': null, 'accessible': false, 'importantForAccessibility': 'no-hide-descendants', 'accessibilityRole': 'none'};
+            var8['httpEngine'] = var61;
+            var8['automaticallyWaitsToMinimizeStalling'] = var60;
             var8['ref'] = var59;
             var59 = var15.video;
             var8['style'] = var59;

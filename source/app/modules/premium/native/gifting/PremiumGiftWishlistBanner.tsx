@@ -71,12 +71,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 9;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
-    var8 = var8.spacing;
+    var8 = var8.space;
     var8 = var8.PX_16;
     var _closure1_slot16 = var8;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var4 = var4.PX_16;
     var _closure1_slot17 = var4;
     var4 = 10;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var6[var3];
         var4 = undefined;
         var9 = var5.bind(var4)(var9);
-        var9 = var9.spacing;
+        var9 = var9.space;
         var9 = var9.PX_4;
         var2['marginBottom'] = var9;
         var9 = _closure1_slot17;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var11 = var6[var3];
         var11 = var5.bind(var4)(var11);
-        var11 = var11.spacing;
+        var11 = var11.space;
         var11 = var11.PX_12;
         var2['marginBottom'] = var11;
         var2['paddingHorizontal'] = var9;
@@ -745,7 +745,7 @@ case 38:
             var16 = 9;
             var16 = var19[var16];
             var16 = var18.bind(var4)(var16);
-            var16 = var16.spacing;
+            var16 = var16.space;
             var16 = var16.PX_8;
             var12['paddingVertical'] = var16;
             var6['contentContainerStyle'] = var12;

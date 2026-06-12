@@ -1028,7 +1028,7 @@ case 72:
     var4['headerTitleContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot13 = var4;
-    var4 = 30;
+    var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1040,12 +1040,12 @@ case 0:
             var1 = arg1;
             var14 = var1.guild;
             var _closure2_slot0 = var14;
-            var17 = var1.role;
-            var _closure2_slot1 = var17;
+            var18 = var1.role;
+            var _closure2_slot1 = var18;
             var12 = var1.locked;
             var2 = var1.onConnectionsChanged;
             var _closure2_slot2 = var2;
-            var16 = var1.integrations;
+            var17 = var1.integrations;
             var4 = undefined;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
@@ -1055,19 +1055,25 @@ case 0:
             var6 = _closure1_slot2;
             var1 = 26;
             var1 = var6[var1];
+            var7 = var2.bind(var4)(var1);
+            var3 = var7.useApplicationIdentityLinkedRolesEnabled;
+            var1 = var14.id;
+            var16 = var3.bind(var7)(var1);
+            var1 = 27;
+            var1 = var6[var1];
             var8 = var2.bind(var4)(var1);
             var7 = var8.useApplicationIdentityLinkedRolesEnabled;
             var3 = var14.id;
             var1 = 'guild_settings_roles_edit_connections';
             var15 = var7.bind(var8)(var3, var1);
-            var1 = 27;
+            var1 = 28;
             var3 = var6[var1];
             var11 = var2.bind(var4)(var3);
             var10 = var11.useStateFromStores;
             var3 = _closure1_slot5;
             var8 = new Array(1);
             var8[0] = var3;
-            var3 = var17.id;
+            var3 = var18.id;
             var7 = new Array(2);
             var7[0] = var3;
             var3 = var14.id;
@@ -1121,7 +1127,16 @@ case 5:
             var _closure2_slot3 = var1;
             var6 = var1.length;
             var2 = 1;
-            if(!(!(var6 > var2))) { _fun0013_ip = 24; continue _fun0013 }
+            if(!(!(var6 > var2))) { _fun0013_ip = 76; continue _fun0013 }
+case 77:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 9;
+            var2 = var7[var2];
+            var2 = var6.bind(var4)(var2);
+            var2 = var2.ConnectionConfigurationRuleOperator;
+            var26 = var2.AND;
+            _fun0013_ip = 78; continue _fun0013;
 case 76:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -1129,22 +1144,13 @@ case 76:
             var2 = var7[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.ConnectionConfigurationRuleOperator;
-            var25 = var2.AND;
-            _fun0013_ip = 77; continue _fun0013;
-case 24:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 9;
-            var2 = var7[var2];
-            var2 = var6.bind(var4)(var2);
-            var2 = var2.ConnectionConfigurationRuleOperator;
-            var25 = var2.OR;
-case 77:
-            _closure2_slot4 = var25;
+            var26 = var2.OR;
+case 78:
+            _closure2_slot4 = var26;
             var7 = _closure1_slot3;
             var6 = var7.useMemo;
             var2 = new Array(2);
-            var2[0] = var25;
+            var2[0] = var26;
             var2[1] = var1;
             var1 = function() {
                 _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
@@ -1158,37 +1164,37 @@ case 0:
                     var1 = var5.bind(var1)(var4);
                     var1 = var1.ConnectionConfigurationRuleOperator;
                     var1 = var1.OR;
-                    if(!(var3 !== var1)) { _fun0016_ip = 78; continue _fun0016 }
-case 79:
+                    if(!(var3 !== var1)) { _fun0016_ip = 79; continue _fun0016 }
+case 80:
                     var3 = _closure2_slot3;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0016_ip = 80; continue _fun0016 }
+                    if(!(var1 != var3)) { _fun0016_ip = 81; continue _fun0016 }
 case 43:
                     var1 = _closure2_slot3;
                     var1 = var1.length;
                     var4 = 0;
-                    if(!(!(var1 > var4))) { _fun0016_ip = 81; continue _fun0016 }
-case 80:
-                    var1 = new Array(0);
-                    _fun0016_ip = 82; continue _fun0016;
+                    if(!(!(var1 > var4))) { _fun0016_ip = 82; continue _fun0016 }
 case 81:
+                    var1 = new Array(0);
+                    _fun0016_ip = 83; continue _fun0016;
+case 82:
                     var3 = _closure2_slot3;
                     var1 = var3[var4];
-case 82:
-                    _fun0016_ip = 83; continue _fun0016;
-case 78:
+case 83:
+                    _fun0016_ip = 84; continue _fun0016;
+case 79:
                     var3 = _closure2_slot3;
                     var2 = var3.flat;
                     var1 = var2.bind(var3)();
-case 83:
+case 84:
                     return var1;
                 }
             };
-            var22 = var6.bind(var7)(var1, var2);
-            _closure2_slot5 = var22;
+            var23 = var6.bind(var7)(var1, var2);
+            _closure2_slot5 = var23;
             var6 = var7.useMemo;
             var2 = new Array(1);
-            var2[0] = var22;
+            var2[0] = var23;
             var1 = function() {
                 var1 = global;
                 var3 = var1.Set;
@@ -1207,10 +1213,10 @@ case 83:
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             };
-            var19 = var6.bind(var7)(var1, var2);
+            var20 = var6.bind(var7)(var1, var2);
             var6 = var7.useMemo;
             var2 = new Array(1);
-            var2[0] = var22;
+            var2[0] = var23;
             var1 = function() {
                 var2 = global;
                 var3 = var2.Set;
@@ -1247,23 +1253,23 @@ case 69:
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             };
-            var18 = var6.bind(var7)(var1, var2);
-            var1 = var19.size;
+            var19 = var6.bind(var7)(var1, var2);
+            var1 = var20.size;
             var2 = 0;
             var11 = var1 > var2;
             var13 = null;
             var6 = var13 != var3;
             var1 = 0;
-            if(!var6) { _fun0013_ip = 84; continue _fun0013 }
-case 85:
+            if(!var6) { _fun0013_ip = 85; continue _fun0013 }
+case 86:
             var1 = var3;
-case 84:
-            var23 = var1 > var2;
+case 85:
+            var24 = var1 > var2;
             var3 = _closure1_slot10;
             var6 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var1 = 28;
-            var1 = var21[var1];
+            var22 = _closure1_slot2;
+            var1 = 29;
+            var1 = var22[var1];
             var1 = var6.bind(var4)(var1);
             var2 = var1.Form;
             var1 = {};
@@ -1273,24 +1279,24 @@ case 84:
             var1['keyboardShouldPersistTaps'] = var5;
             var7 = _closure1_slot11;
             var5 = 14;
-            var5 = var21[var5];
+            var5 = var22[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.Stack;
             var5 = {};
             var10 = _closure1_slot1;
             var8 = 8;
-            var8 = var21[var8];
+            var8 = var22[var8];
             var8 = var10.bind(var4)(var8);
             var8 = var8.space;
             var8 = var8.PX_24;
             var5['spacing'] = var8;
-            var21 = _closure1_slot10;
+            var22 = _closure1_slot10;
             var10 = _closure1_slot17;
             var8 = {};
-            var24 = function clearConnections() {
+            var25 = function clearConnections() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 29;
+                var1 = 30;
                 var2 = var2[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -1303,26 +1309,26 @@ case 84:
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var8['clearConnections'] = var24;
+            var8['clearConnections'] = var25;
             var8['locked'] = var12;
             var8['hasConnections'] = var11;
-            var8['hasMembers'] = var23;
-            var10 = var21.bind(var4)(var10, var8);
+            var8['hasMembers'] = var24;
+            var10 = var22.bind(var4)(var10, var8);
             var8 = new Array(4);
             var8[0] = var10;
             var10 = null;
-            if(!var11) { _fun0013_ip = 86; continue _fun0013 }
-case 87:
-            var24 = _closure1_slot10;
-            var23 = _closure1_slot18;
-            var21 = {};
-            var21['locked'] = var12;
-            var21['currentOperator'] = var25;
-            var21['roleConnectionConfigurations'] = var22;
-            var25 = function setPendingRoleConfigurations(arg1, arg2) {
+            if(!var11) { _fun0013_ip = 87; continue _fun0013 }
+case 88:
+            var25 = _closure1_slot10;
+            var24 = _closure1_slot18;
+            var22 = {};
+            var22['locked'] = var12;
+            var22['currentOperator'] = var26;
+            var22['roleConnectionConfigurations'] = var23;
+            var26 = function setPendingRoleConfigurations(arg1, arg2) {
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 29;
+                var1 = 30;
                 var2 = var2[var1];
                 var1 = undefined;
                 var6 = var4.bind(var1)(var2);
@@ -1338,19 +1344,19 @@ case 87:
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var21['setPendingRoleConfigurations'] = var25;
-            var10 = var24.bind(var4)(var23, var21);
-case 86:
+            var22['setPendingRoleConfigurations'] = var26;
+            var10 = var25.bind(var4)(var24, var22);
+case 87:
             var8[1] = var10;
             var10 = null;
-            if(!var11) { _fun0013_ip = 88; continue _fun0013 }
-case 89:
-            var21 = _closure1_slot19;
-            var11 = var17.id;
-            var30 = function(arg1) {
+            if(!var11) { _fun0013_ip = 89; continue _fun0013 }
+case 90:
+            var22 = _closure1_slot19;
+            var11 = var18.id;
+            var31 = function(arg1) {
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 29;
+                var1 = 30;
                 var2 = var2[var1];
                 var1 = undefined;
                 var6 = var4.bind(var1)(var2);
@@ -1366,26 +1372,26 @@ case 89:
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var32 = undefined;
-            var31 = var22;
-            var29 = var12;
-            var28 = undefined;
-            var27 = var16;
-            var10 = var32[var21](var31, var30, var29, var28, var27, var26);
-case 88:
+            var33 = undefined;
+            var32 = var23;
+            var30 = var12;
+            var29 = undefined;
+            var28 = var17;
+            var10 = var33[var22](var32, var31, var30, var29, var28, var27);
+case 89:
             var8[2] = var10;
             var11 = _closure1_slot10;
             var10 = _closure1_slot20;
             var9 = {};
-            var20 = function handleConnectionTapped(arg1) {
+            var21 = function handleConnectionTapped(arg1) {
                 _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                     var5 = arguments[1];
                     var1 = undefined;
-                    if(!(var5 === var1)) { _fun0018_ip = 90; continue _fun0018 }
-case 91:
+                    if(!(var5 === var1)) { _fun0018_ip = 91; continue _fun0018 }
+case 92:
                     var5 = undefined;
-case 90:
+case 91:
                     var10 = _closure2_slot5;
                     var8 = new Array(0);
                     var9 = 0;
@@ -1402,7 +1408,7 @@ case 90:
                     var3 = var4.bind(var8)(var3);
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 29;
+                    var4 = 30;
                     var4 = var6[var4];
                     var6 = var5.bind(var1)(var4);
                     var5 = var6.updateRoleConnectionConfigurations;
@@ -1417,17 +1423,19 @@ case 90:
                     return var1;
                 }
             };
-            var9['handleConnectionTapped'] = var20;
-            var9['excludedConnections'] = var19;
-            var9['excludedApplications'] = var18;
-            var17 = var17.id;
-            var9['roleId'] = var17;
-            var9['integrations'] = var16;
+            var9['handleConnectionTapped'] = var21;
+            var9['excludedConnections'] = var20;
+            var9['excludedApplications'] = var19;
+            var18 = var18.id;
+            var9['roleId'] = var18;
+            var9['integrations'] = var17;
+            if(var16) { _fun0013_ip = 93; continue _fun0013 }
+case 94:
             var13 = null;
-            if(!var15) { _fun0013_ip = 92; continue _fun0013 }
+            if(!var15) { _fun0013_ip = 95; continue _fun0013 }
 case 93:
             var13 = var14.gameApplicationIds;
-case 92:
+case 95:
             var9['gameApplicationIds'] = var13;
             var9['locked'] = var12;
             var9 = var11.bind(var4)(var10, var9);

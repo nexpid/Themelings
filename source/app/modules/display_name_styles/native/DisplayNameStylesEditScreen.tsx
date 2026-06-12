@@ -93,7 +93,7 @@ case 8:
                 var4 = var7[var4];
                 var7 = undefined;
                 var4 = var5.bind(var7)(var4);
-                var4 = var4.spacing;
+                var4 = var4.space;
                 var4 = var4.PX_16;
                 var1['marginHorizontal'] = var4;
                 var5 = {};
@@ -162,7 +162,7 @@ case 14:
         var13 = _closure1_slot11;
         var10['MEDIA_PICKER_SEND_BUTTON_SPRING'] = var13;
         var2['__closure'] = var10;
-        var10 = 10858711048130.0;
+        var10 = 16786362025671.0;
         var2['__workletHash'] = var10;
         var10 = _closure1_slot16;
         var2['__initData'] = var10;
@@ -299,7 +299,7 @@ case 14:
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['padding'] = var13;
     var4['contentContainer'] = var9;
@@ -318,7 +318,7 @@ case 14:
     var9 = {'padding': null, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_12;
     var9['padding'] = var13;
     var13 = 'row';
@@ -335,14 +335,14 @@ case 14:
     var9['flexDirection'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_24;
     var9['gap'] = var13;
     var4['fieldButtonChevron'] = var9;
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['marginVertical'] = var13;
     var13 = var6[var10];
@@ -358,7 +358,7 @@ case 14:
     var9['borderTopColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['gap'] = var10;
     var4['buttonContainer'] = var9;
@@ -369,7 +369,7 @@ case 14:
     var4['code'] = var7;
     var _closure1_slot15 = var4;
     var4 = {};
-    var7 = "function DisplayNameStylesEditScreenTsx2(){const{visible,tokens,reducedMotion,withSpring,MEDIA_PICKER_SEND_BUTTON_SPRING}=this.__closure;const targetOpacity=visible?1:0;const targetTranslateY=visible?0:60;const targetScale=visible?1:0.9;return{position:'absolute',bottom:0,left:0,right:0,marginHorizontal:tokens.spacing.PX_16,flexDirection:'column',justifyContent:'flex-end',transform:[{translateY:reducedMotion?targetTranslateY:withSpring(targetTranslateY,MEDIA_PICKER_SEND_BUTTON_SPRING)},{scale:reducedMotion?targetScale:withSpring(targetScale,MEDIA_PICKER_SEND_BUTTON_SPRING)}],opacity:reducedMotion?targetOpacity:withSpring(targetOpacity,MEDIA_PICKER_SEND_BUTTON_SPRING)};}";
+    var7 = "function DisplayNameStylesEditScreenTsx2(){const{visible,tokens,reducedMotion,withSpring,MEDIA_PICKER_SEND_BUTTON_SPRING}=this.__closure;const targetOpacity=visible?1:0;const targetTranslateY=visible?0:60;const targetScale=visible?1:0.9;return{position:'absolute',bottom:0,left:0,right:0,marginHorizontal:tokens.space.PX_16,flexDirection:'column',justifyContent:'flex-end',transform:[{translateY:reducedMotion?targetTranslateY:withSpring(targetTranslateY,MEDIA_PICKER_SEND_BUTTON_SPRING)},{scale:reducedMotion?targetScale:withSpring(targetScale,MEDIA_PICKER_SEND_BUTTON_SPRING)}],opacity:reducedMotion?targetOpacity:withSpring(targetOpacity,MEDIA_PICKER_SEND_BUTTON_SPRING)};}";
     var4['code'] = var7;
     var _closure1_slot16 = var4;
     var4 = 48;

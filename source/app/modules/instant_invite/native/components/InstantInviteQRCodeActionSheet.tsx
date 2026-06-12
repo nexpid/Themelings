@@ -57,13 +57,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 7;
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_12;
     var9['padding'] = var10;
     var10 = 'center';
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_24;
     var9['gap'] = var13;
     var4['container'] = var9;
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_4;
     var9['padding'] = var13;
     var13 = var6[var11];
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var13.lg;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_4;
     var13 = var14 + var13;
     var9['borderRadius'] = var13;
