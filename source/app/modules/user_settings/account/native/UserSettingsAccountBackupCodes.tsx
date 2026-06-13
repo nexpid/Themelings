@@ -256,14 +256,14 @@ case 10:
             var5 = {};
             var8 = var13[var9];
             var8 = var12.bind(var4)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_24;
             var5['spacing'] = var8;
             var8 = {};
             var8['paddingHorizontal'] = var14;
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_16;
             var8['paddingTop'] = var9;
             var5['style'] = var8;

@@ -169,7 +169,7 @@ case 2:
     var10 = 17;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['marginBottom'] = var12;
     var12 = var6[var10];
@@ -181,7 +181,7 @@ case 2:
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['marginBottom'] = var12;
     var12 = 0.8;
@@ -194,12 +194,12 @@ case 2:
     var9 = {'position': 'absolute', 'paddingHorizontal': null, 'display': 'flex', 'justifyContent': 'center', 'width': '100%'};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['paddingHorizontal'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['marginBottom'] = var13;
     var4['onboardingPolicy'] = var9;
@@ -213,7 +213,7 @@ case 2:
     var9 = {'alignItems': 'center', 'marginTop': 4294967272};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['paddingHorizontal'] = var10;
     var4['landingBody'] = var9;

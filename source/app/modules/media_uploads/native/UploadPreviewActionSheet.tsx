@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var11;
     var11 = var6[var10];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var9['padding'] = var11;
     var11 = var6[var10];
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.md;
     var10 = var6[var10];
     var10 = var12.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_4;
     var10 = var11 - var10;
     var9['borderRadius'] = var10;
@@ -478,12 +478,12 @@ case 26:
             var2 = 7;
             var3 = var7[var2];
             var3 = var6.bind(var4)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_32;
             var3 = var9 + var3;
             var2 = var7[var2];
             var2 = var6.bind(var4)(var2);
-            var2 = var2.spacing;
+            var2 = var2.space;
             var2 = var2.PX_16;
             var5 = var3 + var2;
 case 25:
@@ -512,7 +512,7 @@ case 27:
             var9 = 7;
             var9 = var31[var9];
             var9 = var10.bind(var4)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_16;
             var7['padding'] = var9;
             var7['paddingBottom'] = var8;

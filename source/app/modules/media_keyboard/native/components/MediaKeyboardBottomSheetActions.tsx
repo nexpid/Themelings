@@ -64,7 +64,7 @@ case 0:
             var6 = 4;
             var9 = var11[var6];
             var9 = var10.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_8;
             var2['paddingVertical'] = var9;
             var9 = var11[var6];
@@ -85,7 +85,7 @@ case 3:
             var9 = _closure1_slot2;
             var9 = var9[var6];
             var9 = var10.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var8 = var9.PX_24;
 case 2:
             var2['marginBottom'] = var8;

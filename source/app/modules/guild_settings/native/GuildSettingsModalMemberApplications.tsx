@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 5;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_12;
     var10['paddingHorizontal'] = var13;
     var13 = 16;
@@ -483,7 +483,7 @@ case 23:
             var19 = _closure1_slot1;
             var17 = var17[var20];
             var17 = var19.bind(var4)(var17);
-            var17 = var17.spacing;
+            var17 = var17.space;
             var17 = var17.PX_16;
             var17 = var18 + var17;
             var16['paddingBottom'] = var17;

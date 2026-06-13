@@ -327,7 +327,7 @@ case 0:
             var7 = {};
             var10 = var30[var10];
             var10 = var13.bind(var4)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_24;
             var7['spacing'] = var10;
             var10 = {};

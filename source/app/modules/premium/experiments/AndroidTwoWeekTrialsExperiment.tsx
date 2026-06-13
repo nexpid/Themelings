@@ -17,12 +17,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6.bind(var1)(var4);
     var5 = var8.createApexExperiment;
     var4 = {'name': '2026-06-android-two-week-trials', 'kind': 'user'};
-    var9 = {'enabled': false, 'discountCTAEnabled': false};
+    var9 = {'enabled': false, 'trialCTAEnabled': false};
     var4['defaultConfig'] = var9;
     var9 = {};
-    var10 = {'enabled': false, 'discountCTAEnabled': true};
+    var10 = {'enabled': true, 'trialCTAEnabled': true};
     var9[1] = var10;
-    var10 = {'enabled': true, 'discountCTAEnabled': true};
+    var10 = {'enabled': true, 'trialCTAEnabled': false};
     var9[2] = var10;
     var4['variations'] = var9;
     var4 = var5.bind(var8)(var4);
@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/premium/experiments/AndroidTwoWeekTrialsExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['AndroidTwoWeekTrialsExperiment'] = var4;
-    var2 = function isAndroidTwoWeekTrialsExperimentEnabled(arg1) {
+    var4 = function isAndroidTwoWeekTrialsExperimentEnabled(arg1) {
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
@@ -45,6 +45,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var3['isAndroidTwoWeekTrialsExperimentEnabled'] = var2;
+    var3['isAndroidTwoWeekTrialsExperimentEnabled'] = var4;
+    var2 = function isAndroidTwoWeekTrialsTrialCTAEnabled(arg1) {
+        var1 = arg1;
+        var4 = var1.location;
+        var3 = _closure1_slot0;
+        var2 = var3.getConfig;
+        var1 = {};
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.trialCTAEnabled;
+        return var1;
+    };
+    var3['isAndroidTwoWeekTrialsTrialCTAEnabled'] = var2;
     return var1;
 })();

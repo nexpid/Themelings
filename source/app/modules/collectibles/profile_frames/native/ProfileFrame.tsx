@@ -3,10 +3,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
-    var _closure1_slot0 = var5;
     var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
     var1 = function ProfileFrameLayer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -23,15 +22,15 @@ case 0:
             var _closure2_slot3 = var1;
             var9 = var2.containerWidth;
             var11 = var2.containerHeight;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var5 = undefined;
             var8 = var3.bind(var5)();
             var3 = 2;
             var3 = var3 * var1;
             var16 = var9 + var3;
             var _closure2_slot4 = var16;
-            var9 = _closure1_slot1;
-            var12 = _closure1_slot2;
+            var9 = _closure1_slot0;
+            var12 = _closure1_slot1;
             var3 = 6;
             var3 = var12[var3];
             var9 = var9.bind(var5)(var3);
@@ -44,7 +43,7 @@ case 0:
             var _closure2_slot5 = var18;
             var3 = var3.imageHeight;
             var _closure2_slot6 = var3;
-            var12 = _closure1_slot3;
+            var12 = _closure1_slot2;
             var10 = var12.useMemo;
             var15 = var7.anchor;
             var9 = new Array(6);
@@ -65,7 +64,7 @@ case 0:
                     var2['left'] = var3;
                     var1 = -var1;
                     var2['right'] = var1;
-                    var5 = _closure1_slot6;
+                    var5 = _closure1_slot5;
                     var1 = _closure2_slot0;
                     var3 = var1.order;
                     var3 = var5[var3];
@@ -154,7 +153,7 @@ case 17:
 case 16:
             if(!var10) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot4;
             var1 = var1 * var4;
             var10 = var11 < var1;
 case 18:
@@ -170,17 +169,17 @@ case 23:
             var7 = 'border';
             if(!(var7 !== var10)) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var12 = _closure1_slot8;
-            var10 = _closure1_slot4;
+            var12 = _closure1_slot7;
+            var10 = _closure1_slot3;
             var7 = {};
             var14 = var8.layer;
             var13 = new Array(2);
             var13[0] = var14;
             var13[1] = var9;
             var7['style'] = var13;
-            var15 = _closure1_slot8;
-            var14 = _closure1_slot1;
-            var17 = _closure1_slot2;
+            var15 = _closure1_slot7;
+            var14 = _closure1_slot0;
+            var17 = _closure1_slot1;
             var13 = 7;
             var13 = var17[var13];
             var14 = var14.bind(var5)(var13);
@@ -206,8 +205,8 @@ case 28:
             var4 = var10.ceil;
             var3 = var11 / var3;
             var10 = var4.bind(var10)(var3);
-            var4 = _closure1_slot8;
-            var3 = _closure1_slot4;
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot3;
             var2 = {};
             var11 = var8.layer;
             var8 = new Array(2);
@@ -219,9 +218,9 @@ case 28:
             var7 = {};
             var7['length'] = var10;
             var6 = function(arg1, arg2) {
-                var5 = _closure1_slot8;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
+                var5 = _closure1_slot7;
+                var2 = _closure1_slot0;
+                var3 = _closure1_slot1;
                 var1 = 7;
                 var1 = var3[var1];
                 var4 = undefined;
@@ -252,93 +251,7 @@ case 20:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
-    var1 = function AnimatedProfileFrameLayer(arg1) {
-        var4 = arg1;
-        var13 = var4.animatedPosition;
-        var _closure2_slot0 = var13;
-        var12 = var4.safeAreaTop;
-        var _closure2_slot1 = var12;
-        var9 = var4.layer;
-        var3 = {'animatedPosition': 0, 'safeAreaTop': 0, 'layer': 0};
-        var15 = null;
-        var16 = var3;
-        var1 = silentSetPrototypeOf(var16, var15);
-        var16 = {};
-        var15 = var4;
-        var14 = var3;
-        var15 = copyDataProperties(var16, var15, var14);
-        var1 = _closure1_slot9;
-        var4 = undefined;
-        var6 = var1.bind(var4)();
-        var7 = _closure1_slot0;
-        var10 = _closure1_slot2;
-        var1 = 8;
-        var3 = var10[var1];
-        var7 = var7.bind(var4)(var3);
-        var3 = var7.useAnimatedStyle;
-        var2 = function n() {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                var1 = {};
-                var3 = {};
-                var4 = _closure2_slot0;
-                var2 = var4.get;
-                var4 = var2.bind(var4)();
-                var6 = _closure2_slot1;
-                var2 = null;
-                var6 = var2 != var6;
-                var2 = 0;
-                if(!var6) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
-                var2 = _closure2_slot1;
-case 29:
-                var2 = var4 + var2;
-                var3['translateY'] = var2;
-                var2 = new Array(1);
-                var2[0] = var3;
-                var1['transform'] = var2;
-                return var1;
-            }
-        };
-        var11 = {};
-        var11['animatedPosition'] = var13;
-        var11['safeAreaTop'] = var12;
-        var2['__closure'] = var11;
-        var11 = 12494689338933.0;
-        var2['__workletHash'] = var11;
-        var11 = _closure1_slot10;
-        var2['__initData'] = var11;
-        var7 = var3.bind(var7)(var2);
-        var3 = _closure1_slot8;
-        var2 = _closure1_slot1;
-        var1 = var10[var1];
-        var1 = var2.bind(var4)(var1);
-        var2 = var1.View;
-        var1 = {};
-        var10 = var6.container;
-        var6 = new Array(3);
-        var6[0] = var10;
-        var6[1] = var7;
-        var7 = {};
-        var11 = _closure1_slot6;
-        var10 = var9.order;
-        var10 = var11[var10];
-        var7['zIndex'] = var10;
-        var6[2] = var7;
-        var1['style'] = var6;
-        var7 = _closure1_slot8;
-        var6 = _closure1_slot11;
-        var5 = {};
-        var5['layer'] = var9;
-        var16 = var5;
-        var8 = copyDataProperties(var16, var15);
-        var5 = var7.bind(var4)(var6, var5);
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot12 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -352,30 +265,30 @@ case 29:
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var4;
+    var _closure1_slot2 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.View;
-    var _closure1_slot4 = var7;
+    var _closure1_slot3 = var7;
     var10 = var4.StyleSheet;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.PROFILE_FRAME_RESPONSIVE_RAIL_MIN_PROFILE_HEIGHT;
-    var _closure1_slot5 = var7;
+    var _closure1_slot4 = var7;
     var4 = var4.PROFILE_FRAME_Z_INDEX;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.UserProfileThemeTypes;
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -401,19 +314,15 @@ case 29:
     var9[9] = var11;
     var4['layer'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
-    var4 = {};
-    var7 = 'function ProfileFrameTsx1(){const{animatedPosition,safeAreaTop}=this.__closure;var _safeAreaTop;return{transform:[{translateY:animatedPosition.get()+((_safeAreaTop=safeAreaTop)!==null&&_safeAreaTop!==void 0?_safeAreaTop:0)}]};}';
-    var4['code'] = var7;
-    var _closure1_slot10 = var4;
-    var4 = 10;
+    var _closure1_slot8 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/profile_frames/native/ProfileFrame.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function ProfileFrame(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var8 = var1.frame;
@@ -426,20 +335,16 @@ case 0:
             var _closure2_slot3 = var11;
             var12 = var1.frameOrder;
             var _closure2_slot4 = var12;
-            var2 = var1.animatedPosition;
-            var _closure2_slot5 = var2;
-            var2 = var1.safeAreaTop;
-            var _closure2_slot6 = var2;
             var2 = var1.filterLayer;
-            var _closure2_slot7 = var2;
+            var _closure2_slot5 = var2;
             var4 = undefined;
+            var _closure2_slot6 = var4;
+            var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
-            var _closure2_slot10 = var4;
-            var _closure2_slot11 = var4;
-            var6 = _closure1_slot9;
+            var6 = _closure1_slot8;
             var6 = var6.bind(var4)();
-            var10 = _closure1_slot3;
+            var10 = _closure1_slot2;
             var9 = var10.useMemo;
             var13 = var8.layers;
             var7 = new Array(4);
@@ -452,53 +357,53 @@ case 0:
                 var3 = var1.layers;
                 var2 = var3.filter;
                 var1 = function(arg1) {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var5 = arg1;
                         var1 = _closure2_slot4;
                         var4 = null;
                         var1 = var4 == var1;
-                        if(var1) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                        if(var1) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                         var6 = _closure2_slot4;
                         var2 = var5.order;
                         var1 = var6 === var2;
-case 31:
-                        if(!var1) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
-                        var2 = _closure2_slot7;
+case 29:
+                        if(!var1) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
+                        var2 = _closure2_slot5;
                         var4 = var4 != var2;
-                        if(!var4) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
-                        var6 = _closure2_slot7;
+                        if(!var4) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
+                        var6 = _closure2_slot5;
                         var2 = undefined;
                         var2 = var6.bind(var2)(var5);
                         var4 = !var2;
-case 35:
+case 33:
                         var2 = !var4;
-                        if(var4) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                        if(var4) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
                         var4 = _closure2_slot3;
-                        var3 = _closure1_slot7;
+                        var3 = _closure1_slot6;
                         var3 = var3.PREVIEW;
                         var3 = var4 === var3;
-                        if(var3) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                        if(var3) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                         var6 = var5.anchor;
                         var4 = 'top';
                         var4 = var4 === var6;
-                        if(!var4) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                        if(!var4) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
                         var6 = var5.type;
                         var5 = 'staple';
                         var4 = var5 === var6;
-case 41:
-                        var3 = var4;
 case 39:
-                        var2 = var3;
+                        var3 = var4;
 case 37:
+                        var2 = var3;
+case 35:
                         var1 = var2;
-case 33:
+case 31:
                         return var1;
                     }
                 };
@@ -508,97 +413,61 @@ case 33:
             var7 = var9.bind(var10)(var2, var7);
             var9 = var7.length;
             var2 = 0;
-            if(!(var2 !== var9)) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
-            if(!(var2 !== var3)) { _fun0004_ip = 43; continue _fun0004 }
-case 45:
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var2 = 9;
+            if(!(var2 !== var9)) { _fun0003_ip = 41; continue _fun0003 }
+case 42:
+            if(!(var2 !== var3)) { _fun0003_ip = 41; continue _fun0003 }
+case 43:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var2 = 8;
             var2 = var10[var2];
             var2 = var9.bind(var4)(var2);
             var2 = var2.bind(var4)(var8, var3);
             var3 = var2.scale;
-            _closure2_slot8 = var3;
+            _closure2_slot6 = var3;
             var3 = var2.overflowTop;
-            _closure2_slot9 = var3;
+            _closure2_slot7 = var3;
             var3 = var2.overflowBottom;
-            _closure2_slot10 = var3;
+            _closure2_slot8 = var3;
             var2 = var2.overflowHorizontal;
-            _closure2_slot11 = var2;
-            var3 = _closure1_slot8;
-            var2 = _closure1_slot4;
+            _closure2_slot9 = var2;
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot3;
             var1 = {};
             var6 = var6.container;
             var1['style'] = var6;
             var6 = var7.map;
             var5 = function(arg1) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                    var2 = arg1;
-                    var4 = _closure2_slot5;
-                    var1 = null;
-                    if(!(var1 == var4)) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
-                    var7 = _closure1_slot8;
-                    var6 = _closure1_slot11;
-                    var5 = {};
-                    var1 = _closure2_slot0;
-                    var1 = var1.skuId;
-                    var5['skuId'] = var1;
-                    var5['layer'] = var2;
-                    var1 = _closure2_slot8;
-                    var5['scale'] = var1;
-                    var1 = _closure2_slot9;
-                    var5['overflowTop'] = var1;
-                    var1 = _closure2_slot10;
-                    var5['overflowBottom'] = var1;
-                    var1 = _closure2_slot11;
-                    var5['overflowHorizontal'] = var1;
-                    var1 = _closure2_slot1;
-                    var5['containerWidth'] = var1;
-                    var1 = _closure2_slot2;
-                    var5['containerHeight'] = var1;
-                    var4 = var2.id;
-                    var1 = undefined;
-                    var1 = var7.bind(var1)(var6, var5, var4);
-                    _fun0006_ip = 48; continue _fun0006;
-case 46:
-                    var6 = _closure1_slot8;
-                    var5 = _closure1_slot12;
-                    var4 = {};
-                    var7 = _closure2_slot5;
-                    var4['animatedPosition'] = var7;
-                    var7 = _closure2_slot6;
-                    var4['safeAreaTop'] = var7;
-                    var7 = _closure2_slot0;
-                    var7 = var7.skuId;
-                    var4['skuId'] = var7;
-                    var4['layer'] = var2;
-                    var7 = _closure2_slot8;
-                    var4['scale'] = var7;
-                    var7 = _closure2_slot9;
-                    var4['overflowTop'] = var7;
-                    var7 = _closure2_slot10;
-                    var4['overflowBottom'] = var7;
-                    var7 = _closure2_slot11;
-                    var4['overflowHorizontal'] = var7;
-                    var7 = _closure2_slot1;
-                    var4['containerWidth'] = var7;
-                    var3 = _closure2_slot2;
-                    var4['containerHeight'] = var3;
-                    var3 = var2.id;
-                    var2 = undefined;
-                    var1 = var6.bind(var2)(var5, var4, var3);
-case 48:
-                    return var1;
-                }
+                var1 = arg1;
+                var5 = _closure1_slot7;
+                var4 = _closure1_slot9;
+                var3 = {};
+                var6 = _closure2_slot0;
+                var6 = var6.skuId;
+                var3['skuId'] = var6;
+                var3['layer'] = var1;
+                var6 = _closure2_slot6;
+                var3['scale'] = var6;
+                var6 = _closure2_slot7;
+                var3['overflowTop'] = var6;
+                var6 = _closure2_slot8;
+                var3['overflowBottom'] = var6;
+                var6 = _closure2_slot9;
+                var3['overflowHorizontal'] = var6;
+                var6 = _closure2_slot1;
+                var3['containerWidth'] = var6;
+                var2 = _closure2_slot2;
+                var3['containerHeight'] = var2;
+                var2 = var1.id;
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4, var3, var2);
+                return var1;
             };
             var5 = var6.bind(var7)(var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-case 43:
+case 41:
             var1 = null;
             return var1;
         }

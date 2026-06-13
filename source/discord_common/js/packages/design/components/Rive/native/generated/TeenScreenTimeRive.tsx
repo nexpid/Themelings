@@ -89,8 +89,6 @@ case 4:
             var10 = var12[var10];
             var10 = var11.bind(var4)(var10);
             var1['src'] = var10;
-            var10 = 'teen_screen_time';
-            var1['resourceName'] = var10;
             var1['artboard'] = var9;
             var9 = _closure1_slot6;
             var1['artboardProperties'] = var9;

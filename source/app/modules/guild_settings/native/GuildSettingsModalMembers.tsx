@@ -265,7 +265,7 @@ case 35:
     var11 = 14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_12;
     var10['paddingHorizontal'] = var14;
     var10['flex'] = var13;
@@ -273,7 +273,7 @@ case 35:
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_12;
     var10['paddingVertical'] = var11;
     var4['searchFieldContainer'] = var10;
@@ -1283,7 +1283,7 @@ case 92:
             var16 = _closure1_slot1;
             var14 = var14[var17];
             var14 = var16.bind(var4)(var14);
-            var14 = var14.spacing;
+            var14 = var14.space;
             var14 = var14.PX_16;
             var14 = var15 + var14;
             var13['paddingBottom'] = var14;

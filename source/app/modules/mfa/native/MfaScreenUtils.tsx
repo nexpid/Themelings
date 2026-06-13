@@ -50,7 +50,7 @@ case 4:
             var6 = 2;
             var7 = var7[var6];
             var7 = var9.bind(var5)(var7);
-            var9 = var7.spacing;
+            var9 = var7.space;
             if(var8) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var7 = var9.PX_16;
@@ -63,7 +63,7 @@ case 7:
             var7 = _closure1_slot2;
             var7 = var7[var6];
             var7 = var9.bind(var5)(var7);
-            var9 = var7.spacing;
+            var9 = var7.space;
             if(var8) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var7 = var9.PX_16;
@@ -76,7 +76,7 @@ case 10:
             var7 = _closure1_slot2;
             var7 = var7[var6];
             var7 = var9.bind(var5)(var7);
-            var9 = var7.spacing;
+            var9 = var7.space;
             if(var8) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
             var7 = var9.PX_16;
@@ -99,7 +99,7 @@ case 13:
             var7 = _closure1_slot2;
             var7 = var7[var6];
             var7 = var9.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_24;
             var2['paddingBottom'] = var7;
             var1['mfaContainerHeader'] = var2;
@@ -111,7 +111,7 @@ case 15:
             var10 = _closure1_slot2;
             var10 = var10[var6];
             var10 = var11.bind(var5)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var9 = var10.PX_32;
 case 14:
             var2['marginHorizontal'] = var9;
@@ -122,7 +122,7 @@ case 17:
             var8 = _closure1_slot2;
             var8 = var8[var6];
             var8 = var9.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var7 = var8.PX_12;
 case 16:
             var2['marginTop'] = var7;
@@ -151,7 +151,7 @@ case 16:
             var2 = {};
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_24;
             var2['paddingTop'] = var3;
             var1['submit'] = var2;

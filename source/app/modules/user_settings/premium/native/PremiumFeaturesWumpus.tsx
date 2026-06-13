@@ -63,11 +63,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var14 = var2.premiumType;
-            var _closure2_slot0 = var14;
+            var15 = var2.premiumType;
+            var _closure2_slot0 = var15;
+            var12 = var2.style;
             var2 = _closure1_slot7;
             var4 = undefined;
-            var13 = var2.bind(var4)();
+            var14 = var2.bind(var4)();
             var7 = _closure1_slot0;
             var11 = _closure1_slot1;
             var2 = 4;
@@ -78,7 +79,7 @@ case 0:
             var5 = _closure1_slot2;
             var3 = var5.useMemo;
             var2 = new Array(2);
-            var2[0] = var14;
+            var2[0] = var15;
             var2[1] = var6;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -140,37 +141,38 @@ case 7:
             };
             var1 = var3.bind(var5)(var1, var2);
             var9 = var1.wumpusImageSource;
-            var16 = var1.cloudsImageSource;
+            var17 = var1.cloudsImageSource;
             var3 = _closure1_slot6;
             var2 = _closure1_slot5;
             var1 = {};
             var8 = _closure1_slot4;
             var6 = 11;
             var5 = var11[var6];
-            var15 = var7.bind(var4)(var5);
+            var16 = var7.bind(var4)(var5);
             var5 = {};
-            var10 = var13.clouds;
+            var10 = var14.clouds;
             var5['style'] = var10;
             var10 = 'contain';
             var5['resizeMode'] = var10;
-            var5['source'] = var16;
-            var15 = var8.bind(var4)(var15, var5);
+            var5['source'] = var17;
+            var16 = var8.bind(var4)(var16, var5);
             var5 = new Array(2);
-            var5[0] = var15;
+            var5[0] = var16;
             var6 = var11[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            var15 = var13.wumpus;
-            var11 = new Array(2);
-            var11[0] = var15;
-            var12 = _closure1_slot3;
-            var12 = var12.TIER_0;
-            var12 = var14 === var12;
-            if(!var12) { _fun0001_ip = 11; continue _fun0001 }
+            var16 = var14.wumpus;
+            var11 = new Array(3);
+            var11[0] = var16;
+            var13 = _closure1_slot3;
+            var13 = var13.TIER_0;
+            var13 = var15 === var13;
+            if(!var13) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var12 = var13.wumpusLeft;
+            var13 = var14.wumpusLeft;
 case 11:
-            var11[1] = var12;
+            var11[1] = var13;
+            var11[2] = var12;
             var6['style'] = var11;
             var6['resizeMode'] = var10;
             var6['source'] = var9;

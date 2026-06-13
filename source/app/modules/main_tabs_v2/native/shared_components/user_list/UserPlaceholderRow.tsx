@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var6[var3];
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_16;
         var2['paddingHorizontal'] = var7;
         var7 = arg1;
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_16;
         var2['marginHorizontal'] = var7;
         var7 = 1;
@@ -70,12 +70,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_32;
         var2['width'] = var7;
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_32;
         var2['height'] = var7;
         var7 = var6[var3];
@@ -151,7 +151,7 @@ case 5:
             var3 = 5;
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var5 = var3.PX_48;
 case 4:
             var _closure2_slot0 = var4;

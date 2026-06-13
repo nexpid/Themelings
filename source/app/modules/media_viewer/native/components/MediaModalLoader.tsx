@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = 5;
     var16 = var6[var16];
     var16 = var17.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_12;
     var14['marginTop'] = var16;
     var4['loaderIndicator'] = var14;

@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot28 = var1;
     var1 = function handleThemeChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -54,7 +54,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
     var1 = function handleReducedMotionChange(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -75,7 +75,7 @@ case 5:
             return var1;
         }
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot30 = var1;
     var1 = function handleLaunchWelcomeReset() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -101,7 +101,7 @@ case 5:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot31 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -444,7 +444,29 @@ case 19:
         return var1;
     };
     var _closure1_slot26 = var4;
-    var4 = 57;
+    var4 = function handleResetInAppNotificationExpandNux() {
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 24;
+        var2 = var4[var1];
+        var1 = undefined;
+        var6 = var3.bind(var1)(var2);
+        var5 = var6.removeDismissedContent;
+        var2 = 25;
+        var2 = var4[var2];
+        var2 = var3.bind(var1)(var2);
+        var2 = var2.DismissibleContent;
+        var2 = var2.IN_APP_NOTIFICATION_EXPAND_NUX;
+        var2 = var5.bind(var6)(var2);
+        var2 = 33;
+        var2 = var4[var2];
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.resetExpandNUXState;
+        var2 = var2.bind(var3)();
+        return var1;
+    };
+    var _closure1_slot27 = var4;
+    var4 = 58;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -458,12 +480,12 @@ case 0:
             var9 = var2.bind(var4)();
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 33;
+            var2 = 34;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var8 = var2.bind(var4)();
             var5 = _closure1_slot0;
-            var3 = 34;
+            var3 = 35;
             var2 = var6[var3];
             var11 = var5.bind(var4)(var2);
             var10 = var11.useStateFromStoresObject;
@@ -542,7 +564,7 @@ case 0:
             var10 = 1;
             var10 = var12[var10];
             var _closure2_slot4 = var10;
-            var10 = 35;
+            var10 = 36;
             var10 = var6[var10];
             var10 = var5.bind(var4)(var10);
             var12 = var10.IgnoreProfileSpeedbumpDisabled;
@@ -617,12 +639,12 @@ case 25:
             var20 = _closure1_slot20;
             var18 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var7 = 37;
+            var7 = 38;
             var6 = var17[var7];
             var6 = var18.bind(var4)(var6);
             var8 = var6.TableRowGroup;
             var6 = {'title': 'General', 'hasIcons': false};
-            var12 = 38;
+            var12 = 39;
             var9 = var17[var12];
             var9 = var18.bind(var4)(var9);
             var10 = var9.TableSwitchRow;
@@ -633,7 +655,7 @@ case 25:
             var11 = function onValueChange() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 39;
+                var1 = 40;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -651,7 +673,7 @@ case 25:
             var8 = var20.bind(var4)(var8, var6);
             var6 = new Array(9);
             var6[0] = var8;
-            var8 = 40;
+            var8 = 41;
             var9 = var17[var8];
             var9 = var18.bind(var4)(var9);
             var11 = var9.Spacer;
@@ -684,20 +706,20 @@ case 26:
             var23 = _closure1_slot20;
             var17 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var25 = 41;
+            var25 = 42;
             var25 = var16[var25];
             var25 = var17.bind(var4)(var25);
             var26 = var25.ThemeLightIcon;
             var25 = {};
             var25 = var23.bind(var4)(var26, var25);
             var18['icon'] = var25;
-            var25 = 42;
+            var25 = 43;
             var25 = var16[var25];
             var26 = var17.bind(var4)(var25);
             var25 = var26.isThemeLight;
             var25 = var25.bind(var26)(var27);
             var18['value'] = var25;
-            var25 = _closure1_slot28;
+            var25 = _closure1_slot29;
             var18['onValueChange'] = var25;
             var19 = var20.bind(var4)(var19, var18);
             var18 = new Array(2);
@@ -708,7 +730,7 @@ case 26:
             var19 = {};
             var25 = 'Reduced Motion';
             var19['label'] = var25;
-            var25 = 43;
+            var25 = 44;
             var25 = var16[var25];
             var25 = var17.bind(var4)(var25);
             var26 = var25.AccessibilityIcon;
@@ -716,7 +738,7 @@ case 26:
             var25 = var23.bind(var4)(var26, var25);
             var19['icon'] = var25;
             var19['value'] = var21;
-            var21 = _closure1_slot29;
+            var21 = _closure1_slot30;
             var19['onValueChange'] = var21;
             var19 = var23.bind(var4)(var20, var19);
             var18[1] = var19;
@@ -749,7 +771,7 @@ case 26:
                 var4 = _closure1_slot20;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 38;
+                var1 = 39;
                 var1 = var9[var1];
                 var3 = undefined;
                 var1 = var8.bind(var3)(var1);
@@ -760,7 +782,7 @@ case 26:
 case 0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 44;
+                        var1 = 45;
                         var3 = var3[var1];
                         var1 = undefined;
                         var5 = var4.bind(var1)(var3);
@@ -780,7 +802,7 @@ case 29:
                 };
                 var1['onValueChange'] = var6;
                 var1['label'] = var5;
-                var6 = 45;
+                var6 = 46;
                 var6 = var9[var6];
                 var6 = var8.bind(var3)(var6);
                 var8 = var6.PencilIcon;
@@ -813,7 +835,7 @@ case 29:
             var9 = var17.bind(var4)(var9);
             var18 = var9.TableRowGroup;
             var9 = {};
-            var15 = 46;
+            var15 = 47;
             var20 = var16[var15];
             var20 = var17.bind(var4)(var20);
             var25 = var20.intl;
@@ -825,7 +847,7 @@ case 29:
             var20 = var21.bind(var25)(var20);
             var9['title'] = var20;
             var9['hasIcons'] = var11;
-            var11 = 47;
+            var11 = 48;
             var16 = var16[var11];
             var16 = var17.bind(var4)(var16);
             var21 = var16.TableRow;
@@ -843,14 +865,14 @@ case 30:
             var13 = _closure1_slot20;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var24 = 48;
+            var24 = 49;
             var24 = var17[var24];
             var24 = var16.bind(var4)(var24);
             var25 = var24.LanguageIcon;
             var24 = {};
             var24 = var13.bind(var4)(var25, var24);
             var20['icon'] = var24;
-            var24 = 49;
+            var24 = 50;
             var25 = var17[var24];
             var25 = var16.bind(var4)(var25);
             var26 = var25.TableRowArrow;
@@ -858,7 +880,7 @@ case 30:
             var25 = var13.bind(var4)(var26, var25);
             var20['trailing'] = var25;
             var21 = var23.bind(var4)(var21, var20);
-            var20 = new Array(10);
+            var20 = new Array(11);
             var20[0] = var21;
             var21 = var17[var11];
             var21 = var16.bind(var4)(var21);
@@ -866,7 +888,7 @@ case 30:
             var21 = {'label': 'Reset Double Tap Emoji State', 'subLabel': 'Clears double tap emoji and resets dismissible content.'};
             var25 = _closure1_slot25;
             var21['onPress'] = var25;
-            var25 = 50;
+            var25 = 51;
             var26 = var17[var25];
             var26 = var16.bind(var4)(var26);
             var27 = var26.KeyIcon;
@@ -884,6 +906,26 @@ case 30:
             var21 = var17[var11];
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
+            var21 = {'label': 'Reset In App Notif Expand NUX', 'subLabel': 'Resets in app notification expand NUX dismissible content.'};
+            var26 = _closure1_slot27;
+            var21['onPress'] = var26;
+            var26 = var17[var25];
+            var26 = var16.bind(var4)(var26);
+            var27 = var26.KeyIcon;
+            var26 = {};
+            var26 = var13.bind(var4)(var27, var26);
+            var21['icon'] = var26;
+            var26 = var17[var24];
+            var26 = var16.bind(var4)(var26);
+            var27 = var26.TableRowArrow;
+            var26 = {};
+            var26 = var13.bind(var4)(var27, var26);
+            var21['trailing'] = var26;
+            var21 = var13.bind(var4)(var23, var21);
+            var20[2] = var21;
+            var21 = var17[var11];
+            var21 = var16.bind(var4)(var21);
+            var23 = var21.TableRow;
             var21 = {};
             var26 = var17[var15];
             var26 = var16.bind(var4)(var26);
@@ -897,9 +939,9 @@ case 30:
             var21['label'] = var15;
             var15 = 'Dismisses dev tools when launching.';
             var21['subLabel'] = var15;
-            var15 = _closure1_slot27;
+            var15 = _closure1_slot28;
             var21['onPress'] = var15;
-            var15 = 51;
+            var15 = 52;
             var26 = var17[var15];
             var26 = var16.bind(var4)(var26);
             var27 = var26.WrenchIcon;
@@ -913,7 +955,7 @@ case 30:
             var26 = var13.bind(var4)(var27, var26);
             var21['trailing'] = var26;
             var21 = var13.bind(var4)(var23, var21);
-            var20[2] = var21;
+            var20[3] = var21;
             var21 = var17[var11];
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
@@ -933,7 +975,7 @@ case 30:
             var26 = var13.bind(var4)(var27, var26);
             var21['trailing'] = var26;
             var21 = var13.bind(var4)(var23, var21);
-            var20[3] = var21;
+            var20[4] = var21;
             var21 = var17[var11];
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
@@ -953,12 +995,12 @@ case 30:
             var26 = var13.bind(var4)(var27, var26);
             var21['trailing'] = var26;
             var21 = var13.bind(var4)(var23, var21);
-            var20[4] = var21;
+            var20[5] = var21;
             var21 = var17[var11];
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
             var21 = {'label': 'Reset Launch Welcome', 'subLabel': 'Resets launch welcome NUX flag, requires an app restart to take effect.'};
-            var26 = _closure1_slot30;
+            var26 = _closure1_slot31;
             var21['onPress'] = var26;
             var26 = var17[var25];
             var26 = var16.bind(var4)(var26);
@@ -973,7 +1015,7 @@ case 30:
             var26 = var13.bind(var4)(var27, var26);
             var21['trailing'] = var26;
             var21 = var13.bind(var4)(var23, var21);
-            var20[5] = var21;
+            var20[6] = var21;
             var21 = var17[var11];
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
@@ -993,14 +1035,14 @@ case 30:
             var26 = var13.bind(var4)(var27, var26);
             var21['trailing'] = var26;
             var21 = var13.bind(var4)(var23, var21);
-            var20[6] = var21;
+            var20[7] = var21;
             var21 = var17[var11];
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
             var21 = {};
             var26 = 'Test captcha';
             var21['label'] = var26;
-            var26 = 52;
+            var26 = 53;
             var26 = var17[var26];
             var26 = var16.bind(var4)(var26);
             var26 = var26.showCaptchaTestModal;
@@ -1018,12 +1060,12 @@ case 30:
             var24 = var13.bind(var4)(var25, var24);
             var21['trailing'] = var24;
             var21 = var13.bind(var4)(var23, var21);
-            var20[7] = var21;
+            var20[8] = var21;
             var12 = var17[var12];
             var12 = var16.bind(var4)(var12);
             var21 = var12.TableSwitchRow;
             var12 = {'label': 'Ignored Profile Speedbump Suppression', 'subLabel': 'Suppresses the speedbump for ignored profiles.'};
-            var23 = 53;
+            var23 = 54;
             var23 = var17[var23];
             var23 = var16.bind(var4)(var23);
             var24 = var23.EyeSlashIcon;
@@ -1034,7 +1076,7 @@ case 30:
             var22 = function onValueChange() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 35;
+                var1 = 36;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -1047,13 +1089,13 @@ case 30:
             };
             var12['onValueChange'] = var22;
             var12 = var13.bind(var4)(var21, var12);
-            var20[8] = var12;
+            var20[9] = var12;
             var12 = var17[var11];
             var12 = var16.bind(var4)(var12);
             var22 = var12.TableRow;
             var21 = {'label': 'Show App Rating Modal', 'subLabel': 'Attempts to show the app rating modal -- this may not visually show anything on debug builds or if your device has already been shown the modal recently.'};
             var12 = _closure1_slot1;
-            var23 = 54;
+            var23 = 55;
             var23 = var17[var23];
             var23 = var12.bind(var4)(var23);
             var21['onPress'] = var23;
@@ -1064,7 +1106,7 @@ case 30:
             var23 = var13.bind(var4)(var24, var23);
             var21['icon'] = var23;
             var21 = var13.bind(var4)(var22, var21);
-            var20[9] = var21;
+            var20[10] = var21;
             var9['children'] = var20;
             var9 = var19.bind(var4)(var18, var9);
             var6[6] = var9;
@@ -1099,7 +1141,7 @@ case 30:
             var18 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 55;
+                var1 = 56;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -1174,7 +1216,7 @@ case 30:
             var19 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 56;
+                var1 = 57;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1266,7 +1308,7 @@ case 30:
 case 24:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 36;
+            var2 = 37;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.default;

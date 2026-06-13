@@ -364,7 +364,7 @@ case 20:
             var10 = _closure1_slot2;
             var10 = var10[var6];
             var10 = var11.bind(var5)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             if(var8) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
             var11 = var10.PX_4;
@@ -379,12 +379,12 @@ case 23:
             var8 = _closure1_slot2;
             var11 = var8[var6];
             var11 = var10.bind(var5)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_8;
             var2['paddingVertical'] = var11;
             var11 = var8[var6];
             var11 = var10.bind(var5)(var11);
-            var11 = var11.spacing;
+            var11 = var11.space;
             var11 = var11.PX_24;
             var2['paddingHorizontal'] = var11;
             var8 = var8[var6];
@@ -442,12 +442,12 @@ case 28:
             var2 = {'position': 'absolute', 'flexDirection': 'row', 'alignItems': 'center'};
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_4;
             var2['top'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_12;
             var2['right'] = var8;
             var2['paddingTop'] = var7;
@@ -455,7 +455,7 @@ case 28:
             var2 = {'flexDirection': 'row', 'alignItems': 'center'};
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_16;
             var2['gap'] = var3;
             var1['buttonsFloating'] = var2;

@@ -393,7 +393,7 @@ case 20:
     var14 = {'flexDirection': 'row', 'alignItems': 'center'};
     var15 = var11[var15];
     var15 = var16.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_8;
     var14['gap'] = var15;
     var4['titleContainer'] = var14;

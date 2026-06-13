@@ -34,15 +34,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useGuildThemeNuxTrigger(arg1) {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var3 = 2;
-        var3 = var6[var3];
-        var4 = undefined;
-        var8 = var5.bind(var4)(var3);
+        var1 = 2;
+        var4 = var6[var1];
+        var1 = undefined;
+        var8 = var5.bind(var1)(var4);
         var7 = var8.useStateFromStores;
-        var3 = _closure1_slot4;
+        var4 = _closure1_slot4;
         var5 = new Array(1);
-        var5[0] = var3;
-        var3 = function() {
+        var5[0] = var4;
+        var4 = function() {
             var3 = _closure1_slot4;
             var2 = var3.getKey;
             var2 = var2.bind(var3)();
@@ -56,10 +56,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2 === var1;
             return var1;
         };
-        var5 = var7.bind(var8)(var5, var3);
+        var5 = var7.bind(var8)(var5, var4);
         var8 = _closure1_slot3;
         var7 = var8.useCallback;
-        var3 = function(arg1) {
+        var4 = function(arg1) {
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 5;
@@ -86,17 +86,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var12[var5](var11, var10, var9, var8, var7);
             return var1;
         };
-        var1 = new Array(0);
-        var1 = var7.bind(var8)(var3, var1);
-        var3 = _closure1_slot1;
-        var2 = 7;
-        var2 = var6[var2];
-        var3 = var3.bind(var4)(var2);
-        var2 = {};
-        var2['isNuxOpen'] = var5;
-        var2['openNux'] = var1;
-        var1 = arg1;
-        var1 = var3.bind(var4)(var1, var2);
+        var2 = new Array(0);
+        var2 = var7.bind(var8)(var4, var2);
+        var4 = _closure1_slot1;
+        var3 = 7;
+        var3 = var6[var3];
+        var4 = var4.bind(var1)(var3);
+        var3 = {};
+        var3['isNuxOpen'] = var5;
+        var3['openNux'] = var2;
+        var2 = arg1;
+        var2 = var4.bind(var1)(var2, var3);
         return var1;
     };
     var3['default'] = var2;

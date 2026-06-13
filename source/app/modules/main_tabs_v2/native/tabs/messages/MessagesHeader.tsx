@@ -42,12 +42,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 4;
     var4 = var7[var11];
     var4 = var13.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var16 = var4.PX_16;
     var _closure1_slot8 = var16;
     var4 = var7[var11];
     var4 = var13.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var15 = var4.PX_8;
     var _closure1_slot9 = var15;
     var4 = 8;
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['flexDirection'] = var15;
     var15 = var7[var11];
     var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_8;
     var10['gap'] = var15;
     var15 = 'space-between';

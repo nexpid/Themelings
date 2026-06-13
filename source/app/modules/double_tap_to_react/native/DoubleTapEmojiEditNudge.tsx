@@ -389,7 +389,7 @@ case 15:
         var7 = var6[var3];
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_4;
         var2['marginHorizontal'] = var7;
         var1['doubleTapEmojiContainer'] = var2;
@@ -413,14 +413,14 @@ case 15:
         var2 = {'marginTop': null, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'flexWrap': 'wrap'};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_8;
         var2['marginTop'] = var7;
         var1['doubleTapEmojiEditNudgeContainer'] = var2;
         var2 = {};
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.spacing;
+        var3 = var3.space;
         var3 = var3.PX_4;
         var2['marginHorizontal'] = var3;
         var1['editButton'] = var2;

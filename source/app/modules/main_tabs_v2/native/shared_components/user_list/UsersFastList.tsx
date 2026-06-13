@@ -157,11 +157,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {'position': 'absolute', 'left': null, 'top': 5};
     var12 = var6[var11];
     var12 = var14.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_4;
     var11 = var6[var11];
     var11 = var14.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_4;
     var11 = var11 / var13;
     var11 = var12 + var11;

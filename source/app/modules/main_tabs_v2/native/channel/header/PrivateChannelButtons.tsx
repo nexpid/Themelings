@@ -130,17 +130,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['borderRadius'] = var12;
     var12 = var6[var14];
     var12 = var15.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_32;
     var10['minHeight'] = var12;
     var12 = var6[var14];
     var12 = var15.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_32;
     var10['minWidth'] = var12;
     var12 = var6[var14];
     var12 = var15.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_4;
     var10['padding'] = var12;
     var12 = 'center';
@@ -957,7 +957,7 @@ case 24:
                     var13 = 15;
                     var13 = var15[var13];
                     var13 = var14.bind(var4)(var13);
-                    var13 = var13.spacing;
+                    var13 = var13.space;
                     var11 = var13.PX_4;
 case 83:
                     var10['marginLeft'] = var11;

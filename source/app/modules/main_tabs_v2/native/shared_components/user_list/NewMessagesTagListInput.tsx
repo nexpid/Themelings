@@ -46,12 +46,12 @@ case 0:
         var11 = 5;
         var15 = var6[var11];
         var15 = var12.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_16;
         var10['paddingHorizontal'] = var15;
         var15 = var6[var11];
         var15 = var12.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_8;
         var10['paddingBottom'] = var15;
         var15 = var6[var11];
@@ -63,7 +63,7 @@ case 0:
         var10 = {};
         var15 = var6[var11];
         var15 = var12.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_12;
         var10['marginLeft'] = var15;
         var15 = 6;
@@ -80,7 +80,7 @@ case 2:
         var10 = {};
         var11 = var6[var11];
         var11 = var12.bind(var1)(var11);
-        var11 = var11.spacing;
+        var11 = var11.space;
         var11 = var11.PX_12;
         var10['marginHorizontal'] = var11;
         var4['showSearchButton'] = var10;

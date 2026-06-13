@@ -17,11 +17,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.bind(var1)(var5);
     var _closure1_slot0 = var4;
     var4 = {};
-    var5 = 'function getRecapPullProgress_useBountiesRecapScrollTsx1(scrollOffset,lastBountyOffset,revealHeight){if(revealHeight<=0){return 0;}return(scrollOffset-lastBountyOffset)/revealHeight;}';
+    var5 = 'function getRevealProgress_useBountiesRecapScrollTsx1(scrollOffset,startOffset,revealHeight){if(revealHeight<=0){return 0;}return(scrollOffset-startOffset)/revealHeight;}';
     var4['code'] = var5;
     var _closure1_slot1 = var4;
     var4 = function() {
-        var1 = function getRecapPullProgress(arg1, arg2, arg3) {
+        var1 = function getRevealProgress(arg1, arg2, arg3) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = arg3;
@@ -39,7 +39,7 @@ case 2:
         };
         var2 = {};
         var1['__closure'] = var2;
-        var2 = 10405717437970.0;
+        var2 = 9769647749947.0;
         var1['__workletHash'] = var2;
         var2 = _closure1_slot1;
         var1['__initData'] = var2;
@@ -56,7 +56,7 @@ case 2:
     var5 = var6.bind(var7)(var5);
     var5 = 2;
     var3['RECAP_SNAP_EPSILON'] = var5;
-    var3['getRecapPullProgress'] = var4;
+    var3['getRevealProgress'] = var4;
     var2 = function useBountiesRecapScroll(arg1) {
         var3 = arg1;
         var1 = var3.listRef;

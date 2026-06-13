@@ -25,7 +25,7 @@ case 0:
             var2 = var1.premiumType;
             var1 = var1.setPlanInterval;
             var _closure2_slot1 = var1;
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var23 = var1.bind(var4)();
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -42,13 +42,13 @@ case 2:
             var1 = var3.bind(var4)(var1);
             var7 = var1.TableRow;
 case 4:
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot6;
             var1 = var1.YEAR;
             var19 = null;
             var30 = null;
             if(!(var24 === var1)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot5;
             var1 = global;
             var1 = var1.HermesInternal;
             var5 = var1.concat;
@@ -72,8 +72,8 @@ case 5:
             var1 = var2.bind(var3)(var1);
             var9 = var1.accessibilityRole;
             var8 = var1.accessibilityState;
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot3;
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot4;
             var1 = {};
             var12 = var23.container;
             var5 = new Array(2);
@@ -84,14 +84,14 @@ case 8:
 case 7:
             var5[1] = var6;
             var1['style'] = var5;
-            var6 = _closure1_slot6;
+            var6 = _closure1_slot7;
             var5 = {};
-            var17 = _closure1_slot7;
-            var13 = _closure1_slot3;
+            var17 = _closure1_slot8;
+            var13 = _closure1_slot4;
             var12 = {};
             var15 = var23.labelContainer;
             var12['style'] = var15;
-            var21 = _closure1_slot6;
+            var21 = _closure1_slot7;
             var18 = _closure1_slot0;
             var15 = _closure1_slot2;
             var16 = 11;
@@ -101,7 +101,7 @@ case 7:
             var18 = {};
             var15 = 'text-md/semibold';
             var18['variant'] = var15;
-            var22 = _closure1_slot5;
+            var22 = _closure1_slot6;
             var22 = var22.MONTH;
             if(!(var24 !== var22)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
@@ -139,12 +139,12 @@ case 11:
             var19 = var19 != var30;
             if(!var19) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var22 = _closure1_slot6;
-            var21 = _closure1_slot3;
+            var22 = _closure1_slot7;
+            var21 = _closure1_slot4;
             var20 = {};
             var23 = var23.labelPromo;
             var20['style'] = var23;
-            var25 = _closure1_slot6;
+            var25 = _closure1_slot7;
             var27 = _closure1_slot0;
             var31 = _closure1_slot2;
             var23 = var31[var16];
@@ -174,7 +174,7 @@ case 12:
             var12['children'] = var18;
             var12 = var17.bind(var4)(var13, var12);
             var5['label'] = var12;
-            var13 = _closure1_slot6;
+            var13 = _closure1_slot7;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
             var11 = var11[var16];
@@ -206,7 +206,7 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -220,31 +220,32 @@ case 12:
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var13 = 2;
     var4 = var6[var13];
     var4 = var5.bind(var1)(var4);
     var7 = var4.PREMIUM_YEARLY_DISCOUNT_PERCENT;
-    var _closure1_slot4 = var7;
-    var7 = var4.SubscriptionIntervalTypes;
     var _closure1_slot5 = var7;
+    var7 = var4.SubscriptionIntervalTypes;
+    var _closure1_slot6 = var7;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot6 = var8;
+    var _closure1_slot7 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var8 = var7.YEAR;
     var4 = new Array(2);
     var4[0] = var8;
     var7 = var7.MONTH;
     var4[1] = var7;
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 4;
     var7 = var6[var4];
     var9 = var5.bind(var1)(var7);
@@ -298,7 +299,7 @@ case 12:
     var12['borderRadius'] = var13;
     var7['labelPromo'] = var12;
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot9 = var7;
+    var _closure1_slot10 = var7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -318,15 +319,15 @@ case 12:
     var9['marginTop'] = var10;
     var4['durationTitle'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot10 = var4;
-    var4 = 13;
+    var _closure1_slot11 = var4;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/native/gifting/PremiumGiftDuration.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function PremiumGiftDuration() {
-        var1 = _closure1_slot10;
+        var1 = _closure1_slot11;
         var4 = undefined;
         var10 = var1.bind(var4)();
         var13 = _closure1_slot0;
@@ -338,16 +339,57 @@ case 12:
         var1 = var1.bind(var2)();
         var1 = var1.planInterval;
         var _closure2_slot0 = var1;
-        var3 = _closure1_slot7;
-        var2 = _closure1_slot3;
+        var3 = _closure1_slot1;
+        var1 = 13;
+        var1 = var14[var1];
+        var7 = var3.bind(var4)(var1);
+        var2 = var7.useConfig;
         var1 = {};
-        var5 = var10.durationContainer;
-        var1['style'] = var5;
-        var9 = _closure1_slot6;
+        var8 = 'PremiumGiftDuration';
+        var1['location'] = var8;
+        var1 = var2.bind(var7)(var1);
+        var2 = var1.monthlyDefaultSelected;
+        var1 = 14;
+        var1 = var14[var1];
+        var1 = var3.bind(var4)(var1);
+        var1 = var1.bind(var4)(var2);
+        var _closure2_slot1 = var1;
+        var7 = _closure1_slot3;
+        var3 = var7.useMemo;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                var1 = _closure2_slot1;
+                var4 = _closure1_slot9;
+                if(var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+                var1 = var4;
+                _fun0002_ip = 16; continue _fun0002;
+case 14:
+                var3 = new Array(0);
+                var5 = 0;
+                var7 = var3;
+                var6 = var4;
+                var2 = arraySpread(var7, var6, var5);
+                var2 = var3.reverse;
+                var1 = var2.bind(var3)();
+case 16:
+                return var1;
+            }
+        };
+        var8 = var3.bind(var7)(var1, var2);
+        var3 = _closure1_slot8;
+        var2 = _closure1_slot4;
+        var1 = {};
+        var7 = var10.durationContainer;
+        var1['style'] = var7;
+        var9 = _closure1_slot7;
         var5 = 11;
         var5 = var14[var5];
         var5 = var13.bind(var4)(var5);
-        var8 = var5.Text;
+        var7 = var5.Text;
         var5 = {};
         var10 = var10.durationTitle;
         var5['style'] = var10;
@@ -364,15 +406,14 @@ case 12:
         var10 = var10["8XT6Nf"];
         var10 = var11.bind(var12)(var10);
         var5['children'] = var10;
-        var8 = var9.bind(var4)(var8, var5);
+        var7 = var9.bind(var4)(var7, var5);
         var5 = new Array(2);
-        var5[0] = var8;
-        var8 = _closure1_slot8;
+        var5[0] = var7;
         var7 = var8.map;
         var6 = function(arg1, arg2) {
             var1 = arg1;
-            var5 = _closure1_slot6;
-            var4 = _closure1_slot11;
+            var5 = _closure1_slot7;
+            var4 = _closure1_slot12;
             var3 = {};
             var2 = _closure2_slot0;
             var2 = var2 === var1;

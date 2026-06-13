@@ -157,7 +157,7 @@ case 2:
             var15 = 9;
             var15 = var22[var15];
             var15 = var6.bind(var4)(var15);
-            var15 = var15.spacing;
+            var15 = var15.space;
             var15 = var15.PX_16;
             var15 = var17 + var15;
             var7['paddingBottom'] = var15;
@@ -463,14 +463,14 @@ case 16:
     var9['flexGrow'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_24;
     var9['minHeight'] = var12;
     var4['redesignGrowSpacing'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['paddingHorizontal'] = var10;
     var4['redesignButtonContainer'] = var9;

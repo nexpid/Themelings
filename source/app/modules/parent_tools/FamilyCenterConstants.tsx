@@ -198,6 +198,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['HideQRCode'] = var7;
     var6 = 'HideQRCode';
     var9[var7] = var6;
+    var9['NufConsentGateLinkCodeError'] = var22;
+    var6 = 'NufConsentGateLinkCodeError';
+    var9[var22] = var6;
     var7 = var4.Map;
     var4 = var14.USER_INTERACTION;
     var6 = new Array(2);

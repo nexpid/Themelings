@@ -215,6 +215,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['QuestBar'] = var4;
     var4 = 'quest_home_desktop';
     var5['QuestHome'] = var4;
+    var4 = 'quest_in_game_modal';
+    var5['QuestInGameModal'] = var4;
     var4 = 'quest_activity_panel';
     var5['QuestActivityPanel'] = var4;
     var4 = 'quest_embed';

@@ -1154,7 +1154,7 @@ case 47:
             var14 = _closure1_slot1;
             var12 = var20[var12];
             var12 = var14.bind(var4)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var12 = var12.PX_24;
             var9['spacing'] = var12;
             var15 = _closure1_slot15;

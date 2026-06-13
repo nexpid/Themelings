@@ -666,7 +666,7 @@ case 30:
                     var5 = 18;
                     var5 = var8[var5];
                     var5 = var6.bind(var7)(var5);
-                    var5 = var5.spacing;
+                    var5 = var5.space;
                     var3 = var5.PX_64;
 case 29:
                     var3 = var4 + var3;
@@ -1934,12 +1934,12 @@ case 120:
             var2 = {'position': 'absolute', 'marginTop': null, 'left': null, 'zIndex': 99, 'alignItems': 'center', 'justifyContent': 'center'};
             var7 = var6[var3];
             var7 = var4.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_4;
             var2['marginTop'] = var7;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_16;
             var2['left'] = var3;
             var1['backButton'] = var2;

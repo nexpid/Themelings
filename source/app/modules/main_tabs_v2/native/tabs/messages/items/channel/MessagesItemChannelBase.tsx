@@ -99,12 +99,12 @@ case 0:
             var2['borderRadius'] = var10;
             var10 = var7[var6];
             var10 = var9.bind(var5)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_8;
             var2['marginHorizontal'] = var10;
             var7 = var7[var6];
             var7 = var9.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_8;
             var2['paddingHorizontal'] = var7;
             var7 = 0;
@@ -114,7 +114,7 @@ case 3:
             var9 = _closure1_slot2;
             var9 = var9[var6];
             var9 = var10.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var7 = var9.PX_8;
 case 2:
             var2['paddingVertical'] = var7;
@@ -125,7 +125,7 @@ case 5:
             var8 = _closure1_slot2;
             var8 = var8[var6];
             var8 = var9.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var7 = var8.PX_4;
 case 4:
             var2['marginVertical'] = var7;

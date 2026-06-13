@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = ['fallback', 'artboard', 'stateMachine', 'defaultViewModelInstance'];
+    var1 = ['fallback', 'artboard', 'stateMachine', 'defaultViewModelInstance', 'dataBinding', 'onDataBindingChange'];
     var _closure1_slot3 = var1;
     var1 = global;
     var9 = var1.Object;
@@ -26,11 +26,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var4];
     var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
+    var _closure1_slot5 = var7;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = {};
     var8 = {};
     var9 = 'boolean';
@@ -45,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var8['reducedMotion'] = var9;
     var4['Torbs_Shine'] = var8;
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = {};
     var8 = ['Instance'];
     var4['Torbs_Multiply'] = var8;
@@ -55,66 +56,187 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['Orb Mid Shine'] = var8;
     var8 = ['Instance'];
     var4['Torbs_Shine'] = var8;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
+    var4 = {};
+    var8 = function TorbsMultiplyBindings(arg1) {
+        var1 = arg1;
+        var11 = var1.instance;
+        var10 = var1.reducedMotionEnabled;
+        var8 = var1.playIfNeeded;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 3;
+        var1 = var3[var1];
+        var4 = undefined;
+        var3 = var2.bind(var4)(var1);
+        var2 = var3.useBooleanBinding;
+        var12 = 'reducedMotion';
+        var13 = var3;
+        var9 = undefined;
+        var1 = var13[var2](var12, var11, var10, var9, var8, var7);
+        var1 = null;
+        return var1;
+    };
+    var4['Torbs_Multiply'] = var8;
+    var8 = function ShardsAllNitroBindings(arg1) {
+        var1 = arg1;
+        var11 = var1.instance;
+        var10 = var1.reducedMotionEnabled;
+        var8 = var1.playIfNeeded;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 3;
+        var1 = var3[var1];
+        var4 = undefined;
+        var3 = var2.bind(var4)(var1);
+        var2 = var3.useBooleanBinding;
+        var12 = 'reducedMotion';
+        var13 = var3;
+        var9 = undefined;
+        var1 = var13[var2](var12, var11, var10, var9, var8, var7);
+        var1 = null;
+        return var1;
+    };
+    var4['Shards_All_Nitro'] = var8;
+    var8 = function OrbMidShineBindings(arg1) {
+        var1 = arg1;
+        var11 = var1.instance;
+        var10 = var1.reducedMotionEnabled;
+        var8 = var1.playIfNeeded;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 3;
+        var1 = var3[var1];
+        var4 = undefined;
+        var3 = var2.bind(var4)(var1);
+        var2 = var3.useBooleanBinding;
+        var12 = 'reducedMotion';
+        var13 = var3;
+        var9 = undefined;
+        var1 = var13[var2](var12, var11, var10, var9, var8, var7);
+        var1 = null;
+        return var1;
+    };
+    var4['Orb Mid Shine'] = var8;
+    var8 = function TorbsShineBindings(arg1) {
+        var1 = arg1;
+        var11 = var1.instance;
+        var10 = var1.reducedMotionEnabled;
+        var8 = var1.playIfNeeded;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 3;
+        var1 = var3[var1];
+        var4 = undefined;
+        var3 = var2.bind(var4)(var1);
+        var2 = var3.useBooleanBinding;
+        var12 = 'reducedMotion';
+        var13 = var3;
+        var9 = undefined;
+        var1 = var13[var2](var12, var11, var10, var9, var8, var7);
+        var1 = null;
+        return var1;
+    };
+    var4['Torbs_Shine'] = var8;
+    var _closure1_slot9 = var4;
     var8 = var7.forwardRef;
     var4 = function NitroQuestOrbsMultiplierRiveInner(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var3 = arg1;
-            var1 = var3.fallback;
-            var1 = var3.artboard;
-            var9 = 'Torbs_Multiply';
+            var5 = arg1;
+            var2 = var5.fallback;
+            var2 = var5.artboard;
+            var10 = 'Torbs_Multiply';
             var4 = undefined;
-            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var4 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var9 = var1;
+            var10 = var2;
 case 2:
-            var6 = var3.stateMachine;
-            var1 = var3.defaultViewModelInstance;
-            var7 = 'Instance';
-            if(!(var4 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
+            var _closure2_slot0 = var10;
+            var7 = var5.stateMachine;
+            var2 = var5.defaultViewModelInstance;
+            var8 = 'Instance';
+            if(!(var4 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = var1;
+            var8 = var2;
 case 4:
-            var2 = _closure1_slot4;
-            var1 = _closure1_slot3;
-            var13 = var2.bind(var4)(var3, var1);
-            var3 = _closure1_slot5;
+            var12 = var5.dataBinding;
+            var _closure2_slot1 = var12;
+            var11 = var5.onDataBindingChange;
+            var _closure2_slot2 = var11;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot3;
+            var5 = var3.bind(var4)(var5, var2);
+            var6 = _closure1_slot5;
+            var3 = var6.useCallback;
+            var2 = new Array(3);
+            var2[0] = var10;
+            var2[1] = var12;
+            var2[2] = var11;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var4 = _closure1_slot9;
+                    var1 = _closure2_slot0;
+                    var5 = var4[var1];
+                    var1 = null;
+                    var4 = var1 == var5;
+                    if(var4) { _fun0002_ip = 6; continue _fun0002 }
+case 3:
+                    var4 = _closure1_slot6;
+                    var3 = {};
+                    var8 = arg1;
+                    var9 = var3;
+                    var6 = copyDataProperties(var9, var8);
+                    var7 = _closure2_slot1;
+                    var6 = 'dataBinding';
+                    var3[5] = var7;
+                    var6 = _closure2_slot2;
+                    var2 = 'onDataBindingChange';
+                    var3[1] = var6;
+                    var2 = undefined;
+                    var1 = var4.bind(var2)(var5, var3);
+case 6:
+                    return var1;
+                }
+            };
+            var6 = var3.bind(var6)(var1, var2);
+            var3 = _closure1_slot6;
             var2 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var1 = 3;
-            var1 = var12[var1];
+            var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BaseRive;
             var1 = {};
-            var10 = arg2;
-            var1['ref'] = var10;
-            var11 = _closure1_slot1;
-            var10 = 4;
-            var10 = var12[var10];
-            var10 = var11.bind(var4)(var10);
-            var1['src'] = var10;
-            var10 = 'nitro_quest_orbs_multiplier';
-            var1['resourceName'] = var10;
-            var1['artboard'] = var9;
-            var9 = _closure1_slot6;
-            var1['artboardProperties'] = var9;
-            var8 = _closure1_slot7;
-            var1['artboardViewModelInstances'] = var8;
-            var1['defaultViewModelInstance'] = var7;
-            var1['stateMachine'] = var6;
-            var14 = var1;
-            var5 = copyDataProperties(var14, var13);
+            var11 = arg2;
+            var1['ref'] = var11;
+            var12 = _closure1_slot1;
+            var11 = 4;
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var1['src'] = var11;
+            var1['artboard'] = var10;
+            var10 = _closure1_slot7;
+            var1['artboardProperties'] = var10;
+            var9 = _closure1_slot8;
+            var1['artboardViewModelInstances'] = var9;
+            var1['defaultViewModelInstance'] = var8;
+            var1['stateMachine'] = var7;
+            var1['renderDataBinding'] = var6;
+            var15 = var1;
+            var14 = var5;
+            var5 = copyDataProperties(var15, var14);
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot10 = var4;
     var4 = var7.forwardRef;
     var2 = function NitroQuestOrbsMultiplierRiveWithBoundary(arg1, arg2) {
         var7 = arg1;
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot6;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 5;
@@ -125,7 +247,7 @@ case 4:
         var1 = {};
         var6 = var7.fallback;
         var1['fallback'] = var6;
-        var6 = _closure1_slot8;
+        var6 = _closure1_slot10;
         var5 = {};
         var8 = arg2;
         var5['ref'] = var8;

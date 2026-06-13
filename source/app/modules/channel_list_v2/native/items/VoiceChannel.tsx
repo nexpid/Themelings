@@ -161,7 +161,7 @@ case 2:
     var11 = 11;
     var10 = var8[var11];
     var10 = var12.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_8;
     var4['gap'] = var10;
     var6['channelInfo'] = var4;

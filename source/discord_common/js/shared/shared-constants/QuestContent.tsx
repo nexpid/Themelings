@@ -278,6 +278,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VIDEO_MODAL_MOBILE_FOOTER'] = var6;
     var2 = 'VIDEO_MODAL_MOBILE_FOOTER';
     var4[var6] = var2;
+    var6 = 67;
+    var4['QUEST_HOME_ENTRYPOINT_MOBILE'] = var6;
+    var2 = 'QUEST_HOME_ENTRYPOINT_MOBILE';
+    var4[var6] = var2;
+    var6 = 68;
+    var4['BOUNTIES_END_INTERSTITIAL'] = var6;
+    var2 = 'BOUNTIES_END_INTERSTITIAL';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

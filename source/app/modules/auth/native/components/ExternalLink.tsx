@@ -66,7 +66,7 @@ case 2:
             var5 = _closure1_slot2;
             var5 = var5[var7];
             var5 = var8.bind(var6)(var5);
-            var8 = var5.spacing;
+            var8 = var5.space;
             if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var5 = var8.PX_16;
@@ -79,7 +79,7 @@ case 6:
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             if(var3) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
             var3 = var4.PX_16;

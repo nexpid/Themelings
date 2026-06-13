@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 4;
     var2 = var7[var12];
     var2 = var13.bind(var1)(var2);
-    var2 = var2.spacing;
+    var2 = var2.space;
     var2 = var2.PX_24;
     var2 = var5 + var2;
     var5 = 5;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {};
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var11['marginHorizontal'] = var12;
     var5['headerText'] = var11;

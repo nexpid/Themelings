@@ -2130,22 +2130,22 @@ case 82:
     var12 = 15;
     var9 = var7[var12];
     var9 = var13.bind(var1)(var9);
-    var9 = var9.spacing;
+    var9 = var9.space;
     var9 = var9.PX_16;
     var5['top'] = var9;
     var9 = var7[var12];
     var9 = var13.bind(var1)(var9);
-    var9 = var9.spacing;
+    var9 = var9.space;
     var9 = var9.PX_16;
     var5['bottom'] = var9;
     var9 = var7[var12];
     var9 = var13.bind(var1)(var9);
-    var9 = var9.spacing;
+    var9 = var9.space;
     var9 = var9.PX_16;
     var5['left'] = var9;
     var9 = var7[var12];
     var9 = var13.bind(var1)(var9);
-    var9 = var9.spacing;
+    var9 = var9.space;
     var9 = var9.PX_16;
     var5['right'] = var9;
     var _closure1_slot34 = var5;
@@ -2195,7 +2195,7 @@ case 82:
     var11['flex'] = var19;
     var19 = var7[var12];
     var19 = var13.bind(var1)(var19);
-    var19 = var19.spacing;
+    var19 = var19.space;
     var19 = var19.PX_12;
     var11['marginRight'] = var19;
     var19 = var7[var12];
@@ -2219,7 +2219,7 @@ case 82:
     var11['flexDirection'] = var18;
     var18 = var7[var12];
     var18 = var13.bind(var1)(var18);
-    var18 = var18.spacing;
+    var18 = var18.space;
     var18 = var18.PX_4;
     var11['gap'] = var18;
     var5['statusRow'] = var11;
@@ -2931,7 +2931,7 @@ case 113:
     var5 = var9.bind(var8)(var5);
     var _closure1_slot46 = var5;
     var5 = {};
-    var9 = 'function YouBarTsx9(){const{withSpring,badgeCount,YOU_BAR_SPRING_CONFIG,tokens}=this.__closure;return{transform:[{scaleX:withSpring(badgeCount>0?1:0,YOU_BAR_SPRING_CONFIG)}],marginLeft:withSpring(badgeCount>0?tokens.spacing.PX_4:0,YOU_BAR_SPRING_CONFIG),opacity:withSpring(badgeCount>0?1:0,YOU_BAR_SPRING_CONFIG)};}';
+    var9 = 'function YouBarTsx9(){const{withSpring,badgeCount,YOU_BAR_SPRING_CONFIG,tokens}=this.__closure;return{transform:[{scaleX:withSpring(badgeCount>0?1:0,YOU_BAR_SPRING_CONFIG)}],marginLeft:withSpring(badgeCount>0?tokens.space.PX_4:0,YOU_BAR_SPRING_CONFIG),opacity:withSpring(badgeCount>0?1:0,YOU_BAR_SPRING_CONFIG)};}';
     var5['code'] = var9;
     var _closure1_slot47 = var5;
     var9 = var8.memo;
@@ -2999,7 +2999,7 @@ case 116:
                     var3 = 15;
                     var3 = var12[var3];
                     var3 = var11.bind(var7)(var3);
-                    var3 = var3.spacing;
+                    var3 = var3.space;
                     var4 = var3.PX_4;
 case 115:
                     var3 = _closure1_slot19;
@@ -3037,7 +3037,7 @@ case 117:
             var9 = var2.bind(var4)(var9);
             var7['tokens'] = var9;
             var1['__closure'] = var7;
-            var7 = 14674365796853.0;
+            var7 = 10347584544432.0;
             var1['__workletHash'] = var7;
             var7 = _closure1_slot47;
             var1['__initData'] = var7;
@@ -4028,7 +4028,7 @@ case 170:
             var3 = var32[var27];
             var16 = var20.bind(var4)(var3);
             var5 = var16.useAnimatedStyle;
-            var3 = function ge() {
+            var3 = function Ae() {
                 _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
 case 0:
                     var1 = {};

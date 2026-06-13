@@ -158,7 +158,7 @@ case 8:
     var4 = 9;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var4 = var4.PX_4;
     var _closure1_slot13 = var4;
     var4 = 10;
@@ -239,7 +239,7 @@ case 8:
         var9 = var7[var4];
         var5 = undefined;
         var9 = var6.bind(var5)(var9);
-        var9 = var9.spacing;
+        var9 = var9.space;
         var9 = var9.PX_24;
         var9 = var10 + var9;
         var2['left'] = var9;
@@ -248,13 +248,13 @@ case 8:
         var9 = var8 - var3;
         var8 = var7[var4];
         var8 = var6.bind(var5)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_24;
         var8 = var9 - var8;
         var2['width'] = var8;
         var4 = var7[var4];
         var4 = var6.bind(var5)(var4);
-        var4 = var4.spacing;
+        var4 = var4.space;
         var4 = var4.PX_16;
         var4 = var3 + var4;
         var2['left'] = var4;

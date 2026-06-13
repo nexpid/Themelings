@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 11;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_4;
     var10['marginHorizontal'] = var12;
     var4['subLabelSeparator'] = var10;

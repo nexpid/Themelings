@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 8;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            var2 = var2.spacing;
+            var2 = var2.space;
             var2 = var2.PX_4;
             var1['scrollIndicatorInsetEnd'] = var2;
             return var1;

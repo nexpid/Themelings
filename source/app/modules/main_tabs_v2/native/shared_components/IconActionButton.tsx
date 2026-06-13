@@ -176,7 +176,7 @@ case 12:
             var2['position'] = var7;
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_8;
             var2['marginLeft'] = var3;
             var1['countStyle'] = var2;

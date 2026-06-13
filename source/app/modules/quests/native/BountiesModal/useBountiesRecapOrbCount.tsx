@@ -70,7 +70,7 @@ case 2:
     var4 = var4.bind(var1)();
     var _closure1_slot5 = var4;
     var5 = {};
-    var8 = 'function useBountiesRecapOrbCountTsx2(){const{enabled,recapRevealHeight,getRecapPullProgress,scrollY,lastBountyScrollOffset,RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS,getRecapOrbCountFromPullProgress,targetOrbAmount}=this.__closure;if(!enabled||recapRevealHeight<=0){return 0;}const pullProgress=getRecapPullProgress(scrollY.get(),lastBountyScrollOffset,recapRevealHeight)/RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS;return getRecapOrbCountFromPullProgress(pullProgress,targetOrbAmount);}';
+    var8 = 'function useBountiesRecapOrbCountTsx2(){const{enabled,recapRevealHeight,getRevealProgress,scrollY,lastBountyScrollOffset,RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS,getRecapOrbCountFromPullProgress,targetOrbAmount}=this.__closure;if(!enabled||recapRevealHeight<=0){return 0;}const pullProgress=getRevealProgress(scrollY.get(),lastBountyScrollOffset,recapRevealHeight)/RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS;return getRecapOrbCountFromPullProgress(pullProgress,targetOrbAmount);}';
     var5['code'] = var8;
     var _closure1_slot6 = var5;
     var5 = {};
@@ -113,7 +113,7 @@ case 2:
         var3 = var9[var12];
         var5 = var10.bind(var11)(var3);
         var4 = var5.useAnimatedReaction;
-        var3 = function P() {
+        var3 = function b() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var2 = _closure2_slot4;
@@ -129,7 +129,7 @@ case 7:
                 var3 = var4[var3];
                 var4 = undefined;
                 var8 = var5.bind(var4)(var3);
-                var7 = var8.getRecapPullProgress;
+                var7 = var8.getRevealProgress;
                 var5 = _closure2_slot0;
                 var3 = var5.get;
                 var6 = var3.bind(var5)();
@@ -153,8 +153,8 @@ case 5:
         var16 = 3;
         var16 = var9[var16];
         var16 = var10.bind(var11)(var16);
-        var16 = var16.getRecapPullProgress;
-        var7['getRecapPullProgress'] = var16;
+        var16 = var16.getRevealProgress;
+        var7['getRevealProgress'] = var16;
         var7['scrollY'] = var15;
         var7['lastBountyScrollOffset'] = var14;
         var14 = 0.95;
@@ -163,7 +163,7 @@ case 5:
         var7['getRecapOrbCountFromPullProgress'] = var14;
         var7['targetOrbAmount'] = var13;
         var3['__closure'] = var7;
-        var7 = 2318143317914.0;
+        var7 = 4104379785818.0;
         var3['__workletHash'] = var7;
         var7 = _closure1_slot6;
         var3['__initData'] = var7;

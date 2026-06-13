@@ -44,7 +44,7 @@ case 0:
         var10 = 4;
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_16;
         var9['paddingHorizontal'] = var13;
         var13 = 5;
@@ -56,7 +56,7 @@ case 0:
 case 3:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var12 = var13.PX_16;
 case 2:
         var9['paddingBottom'] = var12;
@@ -64,7 +64,7 @@ case 2:
         var9 = {'flexDirection': 'column', 'alignItems': 'center'};
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
-        var12 = var12.spacing;
+        var12 = var12.space;
         var12 = var12.PX_8;
         var9['marginTop'] = var12;
         var4['gifContainer'] = var9;
@@ -83,7 +83,7 @@ case 2:
         var9 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'stretch', 'width': '100%'};
         var10 = var6[var10];
         var10 = var11.bind(var1)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_16;
         var9['marginTop'] = var10;
         var4['favoriteButtonContainer'] = var9;
@@ -142,7 +142,7 @@ case 2:
                 var4 = var4[var2];
                 var2 = undefined;
                 var2 = var5.bind(var2)(var4);
-                var2 = var2.spacing;
+                var2 = var2.space;
                 var4 = var2.PX_16;
                 var2 = 2;
                 var2 = var2 * var4;

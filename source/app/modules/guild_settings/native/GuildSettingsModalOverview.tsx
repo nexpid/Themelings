@@ -2470,7 +2470,7 @@ case 71:
             var12 = 17;
             var12 = var9[var12];
             var12 = var13.bind(var4)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var12 = var12.PX_24;
             var10['spacing'] = var12;
             var12 = var14.renderGuildName;

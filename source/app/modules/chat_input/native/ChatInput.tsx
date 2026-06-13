@@ -332,7 +332,7 @@ case 0:
             var3 = var3[var7];
             var6 = undefined;
             var3 = var8.bind(var6)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_8;
             var2['paddingVertical'] = var3;
             var8 = _closure1_slot24;
@@ -394,7 +394,7 @@ case 15:
             var9 = _closure1_slot3;
             var9 = var9[var7];
             var9 = var11.bind(var6)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var8 = var9.PX_4;
 case 14:
             var2['left'] = var8;

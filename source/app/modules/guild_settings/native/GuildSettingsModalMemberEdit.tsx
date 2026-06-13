@@ -1584,7 +1584,7 @@ case 77:
                 var9 = 18;
                 var9 = var41[var9];
                 var9 = var12.bind(var5)(var9);
-                var9 = var9.spacing;
+                var9 = var9.space;
                 var9 = var9.PX_24;
                 var6['spacing'] = var9;
                 var21 = _closure1_slot23;

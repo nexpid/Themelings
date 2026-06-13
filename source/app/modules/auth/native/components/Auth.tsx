@@ -264,7 +264,7 @@ case 24:
                 var23 = 11;
                 var23 = var25[var23];
                 var23 = var24.bind(var4)(var23);
-                var23 = var23.spacing;
+                var23 = var23.space;
                 var22 = var23.PX_12;
 case 23:
                 var20['paddingLeft'] = var22;
@@ -273,12 +273,12 @@ case 23:
                 var21 = 11;
                 var24 = var23[var21];
                 var24 = var22.bind(var4)(var24);
-                var24 = var24.spacing;
+                var24 = var24.space;
                 var24 = var24.PX_24;
                 var20['paddingTop'] = var24;
                 var21 = var23[var21];
                 var21 = var22.bind(var4)(var21);
-                var21 = var21.spacing;
+                var21 = var21.space;
                 var21 = var21.PX_16;
                 var20['paddingBottom'] = var21;
                 var16['headerLeftContainerStyle'] = var20;

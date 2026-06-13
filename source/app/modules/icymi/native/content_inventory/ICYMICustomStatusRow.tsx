@@ -365,10 +365,10 @@ case 13:
             var4 = var28.emoji_name;
             var8 = var1 != var4;
             var3 = '';
-            if(!var8) { _fun0002_ip = 5; continue _fun0002 }
+            if(!var8) { _fun0002_ip = 6; continue _fun0002 }
 case 15:
             var3 = var4;
-case 5:
+case 6:
             var9['name'] = var3;
             var3 = var28.emoji_animated;
             var9['animated'] = var3;

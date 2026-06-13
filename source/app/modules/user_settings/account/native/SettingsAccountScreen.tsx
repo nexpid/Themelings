@@ -542,12 +542,12 @@ case 10:
     var10 = {};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['paddingHorizontal'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['paddingTop'] = var14;
     var4['controlContainer'] = var10;
@@ -557,7 +557,7 @@ case 10:
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_24;
     var10['paddingTop'] = var11;
     var4['standingPage'] = var10;

@@ -619,10 +619,10 @@ case 29:
             var27 = var23.JSON;
             var23 = var27.stringify;
             var22 = var22.metadata;
-            if(!(var25 == var22)) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
-            var22 = {};
+            if(!(var25 == var22)) { _fun0002_ip = 13; continue _fun0002 }
 case 30:
+            var22 = {};
+case 13:
             var21 = var23.bind(var27)(var22, var25, var26);
 case 28:
             var14['label'] = var21;
@@ -654,17 +654,17 @@ case 28:
             var13['label'] = var20;
             var21 = var25 == var24;
             var20 = 'Yes';
-            if(!var21) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
-            var20 = 'No';
+            if(!var21) { _fun0002_ip = 31; continue _fun0002 }
 case 32:
+            var20 = 'No';
+case 31:
             var13['subLabel'] = var20;
             var14 = var15.bind(var4)(var14, var13);
             var13 = new Array(2);
             var13[0] = var14;
             var14 = var25 != var24;
-            if(!var14) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
+            if(!var14) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var21 = _closure1_slot8;
             var23 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -685,7 +685,7 @@ case 35:
             var22 = var22.bind(var23)(var24, var25, var26);
             var15['label'] = var22;
             var14 = var21.bind(var4)(var20, var15);
-case 34:
+case 33:
             var13[1] = var14;
             var10['children'] = var13;
             var10 = var12.bind(var4)(var11, var10);
@@ -729,10 +729,10 @@ case 34:
             var19 = 'Verify OTA Files';
             var13['label'] = var19;
             var19 = 'Verify content hashes for all app files';
-            if(!var16) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
-            var19 = 'Verification in progress';
+            if(!var16) { _fun0002_ip = 35; continue _fun0002 }
 case 36:
+            var19 = 'Verification in progress';
+case 35:
             var13['subLabel'] = var19;
             var20 = _closure1_slot8;
             var19 = _closure1_slot0;

@@ -170,7 +170,7 @@ case 11:
             var11 = 10;
             var10 = var10[var11];
             var10 = var12.bind(var4)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             if(var9) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var9 = var10.PX_16;
@@ -183,7 +183,7 @@ case 14:
             var9 = _closure1_slot2;
             var9 = var9[var11];
             var9 = var10.bind(var4)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_12;
             var8['paddingTop'] = var9;
             var5 = var8;
@@ -198,12 +198,12 @@ case 16:
             var7 = 10;
             var10 = var9[var7];
             var10 = var8.bind(var4)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_16;
             var6['paddingRight'] = var10;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_12;
             var6['paddingTop'] = var7;
             var7 = 0;

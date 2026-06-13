@@ -219,7 +219,7 @@ case 12:
     var8 = 12;
     var14 = var7[var14];
     var14 = var10.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var13['gap'] = var14;
     var5['fileInfoAttachmentPreviewFile'] = var13;

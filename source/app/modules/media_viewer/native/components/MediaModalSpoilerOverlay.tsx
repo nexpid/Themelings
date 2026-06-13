@@ -52,14 +52,14 @@ case 0:
         var14 = 5;
         var13 = var6[var14];
         var13 = var15.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_4;
         var10['gap'] = var13;
         var4['obscureContentContainer'] = var10;
         var10 = {};
         var13 = var6[var14];
         var13 = var15.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_16;
         var10['paddingHorizontal'] = var13;
         var13 = var6[var14];
@@ -69,7 +69,7 @@ case 0:
         var10['borderRadius'] = var13;
         var13 = var6[var14];
         var13 = var15.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_32;
         var10['height'] = var13;
         var13 = 6;

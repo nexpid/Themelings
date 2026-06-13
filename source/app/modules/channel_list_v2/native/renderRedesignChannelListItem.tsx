@@ -284,7 +284,7 @@ case 14:
     var8 = 14;
     var11 = var6[var8];
     var11 = var9.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var7['marginTop'] = var11;
     var4['showAllVoiceChannelsButtonLastShownChannelActive'] = var7;
@@ -292,7 +292,7 @@ case 14:
     var7['marginHorizontal'] = var10;
     var8 = var6[var8];
     var8 = var9.bind(var1)(var8);
-    var8 = var8.spacing;
+    var8 = var8.space;
     var8 = var8.PX_8;
     var7['marginTop'] = var8;
     var4['showAllVoiceChannelsButtonLastShownChannelInactive'] = var7;

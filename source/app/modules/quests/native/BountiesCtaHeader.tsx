@@ -11,8 +11,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var7 = var2.bounties;
-            var _closure2_slot0 = var7;
+            var9 = var2.bounties;
+            var _closure2_slot0 = var9;
             var18 = var2.isEmptyOrCompleted;
             var4 = undefined;
             if(!(var18 === var4)) { _fun0001_ip = 2; continue _fun0001 }
@@ -20,31 +20,32 @@ case 3:
             var18 = false;
 case 2:
             var5 = var2.containerRef;
+            var _closure2_slot1 = var4;
             var2 = _closure1_slot10;
             var19 = var2.bind(var4)();
             var3 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var2 = 8;
-            var6 = var11[var2];
-            var10 = var3.bind(var4)(var6);
-            var9 = var10.useStateFromStores;
-            var6 = _closure1_slot5;
+            var7 = var6[var2];
+            var11 = var3.bind(var4)(var7);
+            var10 = var11.useStateFromStores;
+            var7 = _closure1_slot5;
             var8 = new Array(1);
-            var8[0] = var6;
-            var6 = function() {
+            var8[0] = var7;
+            var7 = function() {
                 var1 = _closure1_slot5;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var6 = var9.bind(var10)(var8, var6);
-            var2 = var11[var2];
-            var9 = var3.bind(var4)(var2);
-            var8 = var9.useStateFromStores;
+            var7 = var10.bind(var11)(var8, var7);
+            var2 = var6[var2];
+            var11 = var3.bind(var4)(var2);
+            var10 = var11.useStateFromStores;
             var2 = _closure1_slot6;
-            var6 = new Array(1);
-            var6[0] = var2;
-            var3 = new Array(1);
-            var3[0] = var7;
+            var8 = new Array(1);
+            var8[0] = var2;
+            var7 = new Array(1);
+            var7[0] = var9;
             var2 = function() {
                 var3 = _closure2_slot0;
                 var2 = var3.some;
@@ -68,62 +69,80 @@ case 2:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var8 = var8.bind(var9)(var6, var2, var3);
+            var8 = var10.bind(var11)(var8, var2, var7);
+            var2 = 10;
+            var2 = var6[var2];
+            var6 = var3.bind(var4)(var2);
+            var3 = var6.useVideoModalPlacementEnabled;
+            var2 = 'BountiesCtaHeader';
+            var3 = var3.bind(var6)(var2);
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 11;
+            var2 = var7[var2];
+            var2 = var6.bind(var4)(var2);
+            var2 = var2.QuestContent;
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var7 = var2.QUEST_HOME_MOBILE_CAROUSEL;
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
+            var7 = var2.VIDEO_MODAL_MOBILE;
+case 6:
+            _closure2_slot1 = var7;
             var6 = _closure1_slot3;
             var3 = var6.useCallback;
-            var2 = new Array(1);
-            var2[0] = var7;
+            var2 = new Array(2);
+            var2[0] = var9;
+            var2[1] = var7;
             var1 = function() {
                 var1 = _closure2_slot0;
-                var10 = 0;
-                var8 = var1[var10];
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var1 = 10;
-                var3 = var7[var1];
+                var9 = 0;
+                var6 = var1[var9];
+                var11 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 12;
+                var3 = var4[var1];
                 var1 = undefined;
-                var9 = var6.bind(var1)(var3);
-                var4 = var9.trackAdContentClicked;
+                var8 = var11.bind(var1)(var3);
+                var7 = var8.trackAdContentClicked;
                 var3 = {};
-                var5 = _closure1_slot7;
-                var3['adContentId'] = var5;
-                var5 = 9;
-                var5 = var7[var5];
-                var5 = var6.bind(var1)(var5);
-                var5 = var5.AdCreativeType;
-                var5 = var5.BOUNTY;
-                var3['adCreativeType'] = var5;
-                var5 = 11;
-                var11 = var7[var5];
-                var11 = var6.bind(var1)(var11);
-                var11 = var11.QuestContent;
-                var11 = var11.QUEST_HOME_MOBILE_CAROUSEL;
-                var3['questContent'] = var11;
-                var11 = 12;
-                var11 = var7[var11];
-                var11 = var6.bind(var1)(var11);
-                var11 = var11.QuestContentCTA;
-                var11 = var11.START_BOUNTY;
-                var3['questContentCTA'] = var11;
-                var11 = var7[var5];
-                var11 = var6.bind(var1)(var11);
-                var11 = var11.QuestContent;
-                var11 = var11.QUEST_HOME_MOBILE_CAROUSEL;
-                var3['sourceQuestContent'] = var11;
-                var3['questContentPosition'] = var10;
-                var3 = var4.bind(var9)(var3);
+                var10 = _closure1_slot7;
+                var3['adContentId'] = var10;
+                var10 = 9;
+                var10 = var4[var10];
+                var10 = var11.bind(var1)(var10);
+                var10 = var10.AdCreativeType;
+                var10 = var10.BOUNTY;
+                var3['adCreativeType'] = var10;
+                var10 = 11;
+                var12 = var4[var10];
+                var12 = var11.bind(var1)(var12);
+                var12 = var12.QuestContent;
+                var12 = var12.QUEST_HOME_ENTRYPOINT_MOBILE;
+                var3['questContent'] = var12;
+                var12 = 13;
+                var12 = var4[var12];
+                var12 = var11.bind(var1)(var12);
+                var12 = var12.QuestContentCTA;
+                var12 = var12.START_BOUNTY;
+                var3['questContentCTA'] = var12;
+                var10 = var4[var10];
+                var10 = var11.bind(var1)(var10);
+                var10 = var10.QuestContent;
+                var10 = var10.QUEST_HOME_ENTRYPOINT_MOBILE;
+                var3['sourceQuestContent'] = var10;
+                var3['questContentPosition'] = var9;
+                var3 = var7.bind(var8)(var3);
                 var3 = _closure1_slot1;
-                var2 = 13;
-                var2 = var7[var2];
+                var2 = 14;
+                var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.showModal;
                 var2 = {};
-                var8 = var8.id;
-                var2['bountyId'] = var8;
-                var5 = var7[var5];
-                var5 = var6.bind(var1)(var5);
-                var5 = var5.QuestContent;
-                var5 = var5.QUEST_HOME_MOBILE_CAROUSEL;
+                var6 = var6.id;
+                var2['bountyId'] = var6;
+                var5 = _closure2_slot1;
                 var2['sourceQuestContent'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -137,11 +156,12 @@ case 2:
             var1['style'] = var5;
             var7 = _closure1_slot9;
             var10 = _closure1_slot1;
-            var5 = 14;
+            var11 = _closure1_slot2;
+            var5 = 15;
             var5 = var11[var5];
             var6 = var10.bind(var4)(var5);
             var5 = {};
-            var9 = 15;
+            var9 = 16;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var5['uri'] = var9;
@@ -152,12 +172,12 @@ case 2:
             var9[1] = var10;
             var5['style'] = var9;
             var9 = var8;
-            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var9) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var11 = _closure1_slot8;
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var8 = 16;
+            var8 = 17;
             var8 = var12[var8];
             var8 = var10.bind(var4)(var8);
             var10 = var8.NewTag;
@@ -169,7 +189,7 @@ case 5:
             var12 = var19.newPillText;
             var8['textStyle'] = var12;
             var9 = var11.bind(var4)(var10, var8);
-case 4:
+case 7:
             var8 = new Array(2);
             var8[0] = var9;
             var11 = _closure1_slot9;
@@ -180,12 +200,12 @@ case 4:
             var14 = _closure1_slot8;
             var26 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var21 = 17;
+            var21 = 18;
             var12 = var24[var21];
             var12 = var26.bind(var4)(var12);
             var13 = var12.Text;
             var12 = {'variant': 'text-lg/semibold', 'color': 'white'};
-            var23 = 18;
+            var23 = 19;
             var15 = var24[var23];
             var15 = var26.bind(var4)(var15);
             var22 = var15.intl;
@@ -219,21 +239,21 @@ case 4:
             var24 = var24[var23];
             var24 = var28.bind(var4)(var24);
             var28 = var24.t;
-            if(var18) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(var18) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var24 = var28.AZGGo1;
-            _fun0001_ip = 8; continue _fun0001;
-case 6:
+            _fun0001_ip = 11; continue _fun0001;
+case 9:
             var24 = var28.q4wlOE;
-case 8:
+case 11:
             var24 = var26.bind(var27)(var24);
             var19['children'] = var24;
             var20 = var22.bind(var4)(var20, var19);
             var19 = new Array(2);
             var19[0] = var20;
             var20 = !var18;
-            if(!var20) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+            if(!var20) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var24 = _closure1_slot8;
             var26 = _closure1_slot0;
             var31 = _closure1_slot2;
@@ -252,14 +272,14 @@ case 10:
             var26 = var25.fjSvsC;
             var25 = {};
             var30 = _closure1_slot1;
-            var29 = 19;
+            var29 = 20;
             var29 = var31[var29];
             var29 = var30.bind(var4)(var29);
             var25['onClick'] = var29;
             var25 = var27.bind(var28)(var26, var25);
             var21['children'] = var25;
             var20 = var24.bind(var4)(var22, var21);
-case 9:
+case 12:
             var19[1] = var20;
             var13['children'] = var19;
             var13 = var15.bind(var4)(var14, var13);
@@ -267,7 +287,7 @@ case 9:
             var15 = _closure1_slot8;
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var13 = 20;
+            var13 = 21;
             var13 = var19[var13];
             var13 = var20.bind(var4)(var13);
             var14 = var13.Button;
@@ -281,23 +301,23 @@ case 9:
             var19 = var19[var23];
             var19 = var22.bind(var4)(var19);
             var22 = var19.t;
-            if(var18) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(var18) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var19 = var22["1kkbKw"];
-            _fun0001_ip = 13; continue _fun0001;
-case 11:
+            _fun0001_ip = 16; continue _fun0001;
+case 14:
             var19 = var22.hvVgAZ;
-case 13:
+case 16:
             var19 = var20.bind(var21)(var19);
             var13['text'] = var19;
-            if(!var18) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!var18) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var18 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var17 = 19;
+            var17 = 20;
             var17 = var19[var17];
             var16 = var18.bind(var4)(var17);
-case 14:
+case 17:
             var13['onPress'] = var16;
             var13 = var15.bind(var4)(var14, var13);
             var12[2] = var13;
@@ -516,7 +536,7 @@ case 14:
         var _closure2_slot0 = var1;
         var2 = _closure1_slot1;
         var11 = _closure1_slot2;
-        var1 = 21;
+        var1 = 22;
         var1 = var11[var1];
         var4 = undefined;
         var1 = var2.bind(var4)(var1);
@@ -526,19 +546,19 @@ case 14:
         var12 = var1.isInView;
         var3 = _closure1_slot8;
         var10 = _closure1_slot0;
-        var1 = 22;
+        var1 = 23;
         var1 = var11[var1];
         var1 = var10.bind(var4)(var1);
         var2 = var1.ThemeContextProvider;
         var1 = {};
-        var5 = 23;
+        var5 = 24;
         var5 = var11[var5];
         var5 = var10.bind(var4)(var5);
         var5 = var5.ThemeTypes;
         var5 = var5.DARKER;
         var1['theme'] = var5;
         var7 = _closure1_slot8;
-        var5 = 24;
+        var5 = 25;
         var5 = var11[var5];
         var5 = var10.bind(var4)(var5);
         var6 = var5.QuestContentImpressionTrackerNative;
@@ -555,7 +575,7 @@ case 14:
         var13 = var11[var9];
         var13 = var10.bind(var4)(var13);
         var13 = var13.QuestContent;
-        var13 = var13.QUEST_HOME_MOBILE_CAROUSEL;
+        var13 = var13.QUEST_HOME_ENTRYPOINT_MOBILE;
         var5['questContent'] = var13;
         var13 = 0;
         var5['questContentPosition'] = var13;
@@ -563,7 +583,7 @@ case 14:
         var9 = var11[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.QuestContent;
-        var9 = var9.QUEST_HOME_MOBILE_CAROUSEL;
+        var9 = var9.QUEST_HOME_ENTRYPOINT_MOBILE;
         var5['sourceQuestContent'] = var9;
         var8 = function children() {
             var4 = _closure1_slot8;
@@ -586,7 +606,7 @@ case 14:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 25;
+    var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -68,14 +68,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 9;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_24;
     var9['marginTop'] = var13;
     var4['globalName'] = var9;
     var9 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_24;
     var9['marginTop'] = var11;
     var4['button'] = var9;

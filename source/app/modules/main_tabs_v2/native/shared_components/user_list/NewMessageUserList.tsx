@@ -634,7 +634,7 @@ case 46:
     var13 = 9;
     var16 = var9[var13];
     var16 = var14.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_8;
     var12['paddingTop'] = var16;
     var7['searchBarRowContainer'] = var12;

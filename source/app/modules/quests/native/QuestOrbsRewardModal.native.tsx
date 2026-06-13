@@ -863,7 +863,7 @@ case 35:
                 return var1;
             };
             var1 = new Array(0);
-            var11 = var5.bind(var7)(var3, var1);
+            var16 = var5.bind(var7)(var3, var1);
             var7 = _closure1_slot5;
             var5 = var7.useCallback;
             var3 = function() {
@@ -874,7 +874,7 @@ case 35:
                 return var1;
             };
             var1 = new Array(0);
-            var10 = var5.bind(var7)(var3, var1);
+            var13 = var5.bind(var7)(var3, var1);
             var7 = _closure1_slot5;
             var5 = var7.useCallback;
             var3 = function() {
@@ -1104,14 +1104,23 @@ case 48:
             var5 = var14.root;
             var1['style'] = var5;
             var9 = _closure1_slot15;
-            var7 = _closure1_slot23;
-            var5 = {};
-            var5['useReducedMotion'] = var15;
-            var12 = var14.background;
-            var5['style'] = var12;
-            var5['onStaticBgLoad'] = var11;
-            var5['onAnimatedBgLoad'] = var10;
-            var5['isAppActive'] = var20;
+            var7 = _closure1_slot8;
+            var5 = {'style': null, 'accessible': false, 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
+            var10 = _closure1_slot7;
+            var10 = var10.absoluteFill;
+            var5['style'] = var10;
+            var21 = true;
+            var12 = _closure1_slot15;
+            var11 = _closure1_slot23;
+            var10 = {};
+            var10['useReducedMotion'] = var15;
+            var22 = var14.background;
+            var10['style'] = var22;
+            var10['onStaticBgLoad'] = var16;
+            var10['onAnimatedBgLoad'] = var13;
+            var10['isAppActive'] = var20;
+            var10 = var12.bind(var4)(var11, var10);
+            var5['children'] = var10;
             var7 = var9.bind(var4)(var7, var5);
             var5 = new Array(3);
             var5[0] = var7;
@@ -1135,7 +1144,6 @@ case 54:
             var16 = _closure1_slot15;
             var13 = _closure1_slot6;
             var12 = {};
-            var21 = true;
             var12['animating'] = var21;
             var12 = var16.bind(var4)(var13, var12);
             var9['children'] = var12;
@@ -1180,7 +1188,7 @@ case 60:
             var10[0] = var11;
             var13 = _closure1_slot15;
             var12 = _closure1_slot8;
-            var11 = {};
+            var11 = {'style': null, 'accessible': false, 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
             var16 = var14.animation;
             var11['style'] = var16;
             var21 = _closure1_slot15;

@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['header'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -274,7 +274,7 @@ case 10:
             var11['onComplete'] = var10;
             var5['initialParams'] = var11;
             var7 = var8.bind(var4)(var7, var5);
-            var5 = new Array(4);
+            var5 = new Array(5);
             var5[0] = var7;
             var11 = var6.Screen;
             var7 = {};
@@ -369,11 +369,11 @@ case 10:
             var7 = {};
             var12 = 'contact-sync';
             var7['name'] = var12;
-            var13 = {};
-            var12 = false;
-            var13['headerShown'] = var12;
-            var7['options'] = var13;
-            var13 = function getComponent() {
+            var12 = {};
+            var13 = false;
+            var12['headerShown'] = var13;
+            var7['options'] = var12;
+            var12 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 19;
@@ -383,23 +383,43 @@ case 10:
                 var1 = var1.ContactSyncOnboardingModal;
                 return var1;
             };
-            var7['getComponent'] = var13;
-            var13 = {};
-            var13['onComplete'] = var10;
-            var7['initialParams'] = var13;
+            var7['getComponent'] = var12;
+            var12 = {};
+            var12['onComplete'] = var10;
+            var7['initialParams'] = var12;
             var7 = var8.bind(var4)(var11, var7);
             var5[2] = var7;
-            var7 = var6.Screen;
-            var6 = {};
-            var11 = 'discoverability';
-            var6['name'] = var11;
-            var11 = {};
-            var11['headerShown'] = var12;
-            var6['options'] = var11;
-            var9 = function getComponent() {
+            var11 = var6.Screen;
+            var7 = {};
+            var12 = 'discoverability';
+            var7['name'] = var12;
+            var12 = {};
+            var12['headerShown'] = var13;
+            var7['options'] = var12;
+            var12 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 20;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.default;
+                return var1;
+            };
+            var7['getComponent'] = var12;
+            var12 = {};
+            var12['onComplete'] = var10;
+            var7['initialParams'] = var12;
+            var7 = var8.bind(var4)(var11, var7);
+            var5[3] = var7;
+            var7 = var6.Screen;
+            var6 = {};
+            var11 = 'connect-guardian';
+            var6['name'] = var11;
+            var9 = function getComponent() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 21;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -411,7 +431,7 @@ case 10:
             var9['onComplete'] = var10;
             var6['initialParams'] = var9;
             var6 = var8.bind(var4)(var7, var6);
-            var5[3] = var6;
+            var5[4] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

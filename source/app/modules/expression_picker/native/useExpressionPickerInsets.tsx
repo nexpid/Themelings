@@ -76,7 +76,7 @@ case 2:
             var2 = 4;
             var2 = var6[var2];
             var2 = var4.bind(var5)(var2);
-            var2 = var2.spacing;
+            var2 = var2.space;
             var2 = var2.PX_16;
             var2 = var3 + var2;
             var1['safeAreaBottomKeyboardAware'] = var2;

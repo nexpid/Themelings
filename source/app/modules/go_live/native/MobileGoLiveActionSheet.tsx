@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = 14;
     var15 = var7[var13];
     var15 = var14.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_24;
     var12['gap'] = var15;
     var4['wrapper'] = var12;
@@ -95,14 +95,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = {};
     var15 = var7[var13];
     var15 = var14.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_16;
     var12['marginHorizontal'] = var15;
     var4['section'] = var12;
     var12 = {'flexDirection': 'row', 'alignItems': 'center'};
     var13 = var7[var13];
     var13 = var14.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_4;
     var12['gap'] = var13;
     var4['highQualityLabel'] = var12;

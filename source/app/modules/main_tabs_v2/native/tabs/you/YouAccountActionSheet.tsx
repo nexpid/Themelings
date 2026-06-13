@@ -1562,24 +1562,24 @@ case 68:
             var8[3] = var12;
             var12 = !var9;
             if(!var12) { _fun0009_ip = 70; continue _fun0009 }
-case 47:
+case 71:
             var12 = var13;
 case 70:
-            if(!var12) { _fun0009_ip = 71; continue _fun0009 }
-case 72:
+            if(!var12) { _fun0009_ip = 72; continue _fun0009 }
+case 73:
             var15 = _closure1_slot19;
             var14 = _closure1_slot24;
             var13 = {};
             var12 = var15.bind(var4)(var14, var13);
-case 71:
+case 72:
             var8[4] = var12;
             var9 = !var9;
-            if(!var9) { _fun0009_ip = 73; continue _fun0009 }
-case 74:
+            if(!var9) { _fun0009_ip = 74; continue _fun0009 }
+case 75:
             var9 = var11;
-case 73:
-            if(!var9) { _fun0009_ip = 75; continue _fun0009 }
-case 76:
+case 74:
+            if(!var9) { _fun0009_ip = 76; continue _fun0009 }
+case 44:
             var12 = _closure1_slot19;
             var11 = _closure1_slot1;
             var13 = _closure1_slot3;
@@ -1588,7 +1588,7 @@ case 76:
             var11 = var11.bind(var4)(var10);
             var10 = {'title': 'Developer Tools', 'embedded': true};
             var9 = var12.bind(var4)(var11, var10);
-case 75:
+case 76:
             var8[5] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

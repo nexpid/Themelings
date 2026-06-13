@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 2;
     var11 = var6[var12];
     var11 = var7.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_80;
     var11 = var12 * var11;
     var10['maxHeight'] = var11;

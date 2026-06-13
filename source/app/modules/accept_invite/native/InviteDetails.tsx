@@ -852,14 +852,11 @@ case 66:
 case 65:
             var2['memberCount'] = var3;
             var3 = var2.memberCount;
-            if(!(var4 === var3)) { _fun0006_ip = 12; continue _fun0006 }
-case 67:
-            var3 = var2.memberCount;
             var1 = null;
-            if(!(var4 !== var3)) { _fun0006_ip = 68; continue _fun0006 }
-case 12:
-            var1 = var2;
+            if(!(var4 !== var3)) { _fun0006_ip = 67; continue _fun0006 }
 case 68:
+            var1 = var2;
+case 67:
             return var1;
         }
     };
@@ -1141,8 +1138,8 @@ case 0:
                     var5 = var2.bind(var3)();
                     var3 = '';
                     var2 = var3;
-                    if(var5) { _fun0010_ip = 67; continue _fun0010 }
-case 85:
+                    if(var5) { _fun0010_ip = 85; continue _fun0010 }
+case 86:
                     var1 = _closure2_slot4;
                     var6 = var1.discriminator;
                     var1 = global;
@@ -1150,7 +1147,7 @@ case 85:
                     var5 = var1.concat;
                     var1 = '#';
                     var2 = var5.bind(var1)(var6);
-case 67:
+case 85:
                     var1 = global;
                     var1 = var1.HermesInternal;
                     var1 = var1.concat;
@@ -1173,20 +1170,20 @@ case 83:
             var8 = var8.t;
             var8 = var8.e/6Ogt;
             var8 = var10.bind(var11)(var8);
-            if(var16) { _fun0009_ip = 86; continue _fun0009 }
-case 87:
-            if(!var7) { _fun0009_ip = 88; continue _fun0009 }
-case 89:
-            var7 = var9 != var6;
+            if(var16) { _fun0009_ip = 87; continue _fun0009 }
 case 88:
+            if(!var7) { _fun0009_ip = 89; continue _fun0009 }
+case 90:
+            var7 = var9 != var6;
+case 89:
             var20 = var8;
             var19 = var6;
-            if(!var7) { _fun0009_ip = 90; continue _fun0009 }
-case 91:
+            if(!var7) { _fun0009_ip = 91; continue _fun0009 }
+case 92:
             var20 = var6;
             var19 = var20;
-            _fun0009_ip = 90; continue _fun0009;
-case 86:
+            _fun0009_ip = 91; continue _fun0009;
+case 87:
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
             var7 = var6[var21];
@@ -1199,7 +1196,7 @@ case 86:
             var6 = var6.IRoQXr;
             var20 = var7.bind(var8)(var6);
             var19 = var20;
-case 90:
+case 91:
             var8 = _closure1_slot13;
             var11 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -1252,15 +1249,15 @@ case 90:
             var17 = var17[var21];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            if(var16) { _fun0009_ip = 92; continue _fun0009 }
-case 93:
+            if(var16) { _fun0009_ip = 93; continue _fun0009 }
+case 94:
             var16 = var17.ndsK4Z;
             var16 = var18.bind(var19)(var16);
-            _fun0009_ip = 94; continue _fun0009;
-case 92:
+            _fun0009_ip = 95; continue _fun0009;
+case 93:
             var17 = var17.WAI6xu;
             var16 = var18.bind(var19)(var17);
-case 94:
+case 95:
             var10['text'] = var16;
             var15 = function handleCancelPress() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -1286,10 +1283,10 @@ case 0:
                     var7 = null;
                     var9 = var7 == var8;
                     var7 = undefined;
-                    if(var9) { _fun0011_ip = 95; continue _fun0011 }
-case 96:
+                    if(var9) { _fun0011_ip = 96; continue _fun0011 }
+case 97:
                     var7 = var8.id;
-case 95:
+case 96:
                     var3['guild_id'] = var7;
                     var3 = var5.bind(var6)(var4, var3);
                     var2 = _closure2_slot2;

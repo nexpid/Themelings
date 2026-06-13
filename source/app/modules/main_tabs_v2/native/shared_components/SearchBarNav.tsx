@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 5;
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_16;
     var10['paddingHorizontal'] = var15;
     var15 = var6[var12];
@@ -65,14 +65,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['paddingLeft'] = var14;
     var4['cancelText'] = var10;
     var10 = {};
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var10['marginRight'] = var12;
     var4['cancelIcon'] = var10;

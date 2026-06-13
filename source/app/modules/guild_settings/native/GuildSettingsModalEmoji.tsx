@@ -467,14 +467,14 @@ case 29:
     var13 = 9;
     var14 = var9[var13];
     var14 = var10.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_12;
     var12['paddingHorizontal'] = var14;
     var4['list'] = var12;
     var12 = {};
     var13 = var9[var13];
     var13 = var10.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var12['paddingVertical'] = var13;
     var4['section'] = var12;

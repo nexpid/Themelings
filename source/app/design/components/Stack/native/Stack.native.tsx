@@ -82,16 +82,16 @@ case 7:
 case 6:
             var2 = var1.align;
             var7 = 'stretch';
-            if(!(var4 !== var2)) { _fun0002_ip = 2; continue _fun0002 }
-case 8:
+            if(!(var4 !== var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var7 = var2;
-case 2:
+case 8:
             var2 = var1.justify;
             var3 = 'flex-start';
-            if(!(var4 !== var2)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            if(!(var4 !== var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = var2;
-case 9:
+case 10:
             var5 = var1.children;
             var8 = var1.style;
             var6 = var1.onLayout;

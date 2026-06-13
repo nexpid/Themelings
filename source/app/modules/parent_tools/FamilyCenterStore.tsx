@@ -773,6 +773,8 @@ case 61:
         _closure1_slot16 = var4;
         var1 = {};
         _closure1_slot17 = var1;
+        _closure1_slot21 = var4;
+        _closure1_slot22 = var4;
         var2 = _closure1_slot40;
         var1 = undefined;
         var2 = var2.bind(var1)();

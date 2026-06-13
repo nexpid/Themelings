@@ -116,7 +116,7 @@ case 2:
         var11 = 13;
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_12;
         var10['marginTop'] = var14;
         var4['buttonContainer'] = var10;
@@ -126,12 +126,12 @@ case 2:
         var10['marginLeft'] = var13;
         var13 = var6[var11];
         var13 = var12.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_16;
         var10['marginTop'] = var13;
         var13 = var6[var11];
         var13 = var12.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_16;
         var10['marginBottom'] = var13;
         var13 = var6[var11];
@@ -145,7 +145,7 @@ case 2:
         var10 = {};
         var13 = var6[var11];
         var13 = var12.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_4;
         var10['paddingTop'] = var13;
         var4['favoriteContainer'] = var10;
@@ -403,7 +403,7 @@ case 15:
                         var14 = 13;
                         var14 = var17[var14];
                         var14 = var16.bind(var4)(var14);
-                        var14 = var14.spacing;
+                        var14 = var14.space;
                         var14 = var14.PX_16;
                         var13['height'] = var14;
                         var9['style'] = var13;
@@ -1311,7 +1311,7 @@ case 76:
                 var27 = 13;
                 var27 = var29[var27];
                 var27 = var28.bind(var5)(var27);
-                var27 = var27.spacing;
+                var27 = var27.space;
                 var27 = var27.PX_16;
                 var26['height'] = var27;
                 var14['style'] = var26;
@@ -1394,7 +1394,7 @@ case 79:
                 var26 = 13;
                 var26 = var28[var26];
                 var26 = var27.bind(var5)(var26);
-                var26 = var26.spacing;
+                var26 = var26.space;
                 var26 = var26.PX_16;
                 var20['height'] = var26;
                 var14['style'] = var20;

@@ -742,7 +742,7 @@ case 4:
                 var2['borderRadius'] = var11;
                 var9 = var8[var9];
                 var9 = var10.bind(var6)(var9);
-                var9 = var9.spacing;
+                var9 = var9.space;
                 var9 = var9.PX_4;
                 var2['paddingVertical'] = var9;
                 var1['sectionHeader'] = var2;

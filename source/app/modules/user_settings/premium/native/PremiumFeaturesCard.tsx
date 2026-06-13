@@ -703,7 +703,7 @@ case 71:
             var3 = var12.bind(var4)(var3);
             var3 = var3.t;
             var3 = var3.J61px0;
-            var29 = var5.bind(var7)(var3);
+            var28 = var5.bind(var7)(var3);
             var9 = var31 === var2;
             var7 = _closure1_slot1;
             var2 = 27;
@@ -880,10 +880,10 @@ case 62:
             var1[0] = var36;
             var1 = var2.bind(var3)(var27, var1);
             var35 = var1.discountedPriceString;
-            var28 = var19 != var27;
-            if(!var28) { _fun0003_ip = 97; continue _fun0003 }
+            var29 = var19 != var27;
+            if(!var29) { _fun0003_ip = 97; continue _fun0003 }
 case 98:
-            var28 = var19 != var35;
+            var29 = var19 != var35;
 case 97:
             var12 = var25;
             if(!var12) { _fun0003_ip = 99; continue _fun0003 }
@@ -915,7 +915,7 @@ case 99:
             var5['discountOffer'] = var27;
             var38 = var19 != var34;
             var5['isActiveDiscount'] = var38;
-            var5['shouldShowDiscountUpsell'] = var28;
+            var5['shouldShowDiscountUpsell'] = var29;
             var5['premiumType'] = var31;
             var5['trialOffer'] = var37;
             var6 = var23.bind(var4)(var6, var5);
@@ -1032,10 +1032,10 @@ case 115:
             var16 = var30[var16];
             var16 = var18.bind(var4)(var16);
             var18 = var16.Button;
-            var16 = {'text': null, 'icon': null, 'iconPosition': null, 'variant': 'experimental_premium-secondary', 'size': 'md', 'grow': true};
+            var16 = {};
             if(var9) { _fun0003_ip = 116; continue _fun0003 }
 case 117:
-            if(var28) { _fun0003_ip = 118; continue _fun0003 }
+            if(var29) { _fun0003_ip = 118; continue _fun0003 }
 case 119:
             var30 = _closure1_slot12;
             var30 = var30.TIER_0;
@@ -1084,42 +1084,54 @@ case 118:
             var31['percent'] = var35;
             var30 = var33.bind(var34)(var32, var31);
 case 123:
-            var29 = var30;
+            var28 = var30;
 case 116:
-            var16['text'] = var29;
+            var16['text'] = var28;
             if(!(var19 == var27)) { _fun0003_ip = 124; continue _fun0003 }
 case 125:
-            var27 = undefined;
+            var28 = undefined;
             if(!var9) { _fun0003_ip = 126; continue _fun0003 }
 case 124:
-            var31 = _closure1_slot17;
-            var30 = _closure1_slot0;
-            var34 = _closure1_slot2;
-            var29 = 40;
-            var29 = var34[var29];
-            var29 = var30.bind(var4)(var29);
-            var30 = var29.NitroWheelIcon;
-            var29 = {};
-            var32 = var17.buttonIcon;
-            var29['style'] = var32;
-            var33 = _closure1_slot1;
-            var32 = 11;
-            var32 = var34[var32];
-            var32 = var33.bind(var4)(var32);
-            var32 = var32.colors;
-            var32 = var32.BACKGROUND_BRAND;
-            var29['color'] = var32;
-            var32 = 'sm';
-            var29['size'] = var32;
-            var27 = var31.bind(var4)(var30, var29);
+            var32 = _closure1_slot17;
+            var31 = _closure1_slot0;
+            var35 = _closure1_slot2;
+            var30 = 40;
+            var30 = var35[var30];
+            var30 = var31.bind(var4)(var30);
+            var31 = var30.NitroWheelIcon;
+            var30 = {};
+            var33 = var17.buttonIcon;
+            var30['style'] = var33;
+            var34 = _closure1_slot1;
+            var33 = 11;
+            var33 = var35[var33];
+            var33 = var34.bind(var4)(var33);
+            var33 = var33.colors;
+            var33 = var33.CONTROL_OVERLAY_PRIMARY_TEXT_DEFAULT;
+            var30['color'] = var33;
+            var33 = 'sm';
+            var30['size'] = var33;
+            var28 = var32.bind(var4)(var31, var30);
 case 126:
-            var16['icon'] = var27;
-            var27 = undefined;
-            if(!var28) { _fun0003_ip = 127; continue _fun0003 }
+            var16['icon'] = var28;
+            var28 = undefined;
+            if(!var29) { _fun0003_ip = 127; continue _fun0003 }
 case 128:
-            var27 = 'start';
+            var28 = 'start';
 case 127:
-            var16['iconPosition'] = var27;
+            var16['iconPosition'] = var28;
+            if(!(var19 == var27)) { _fun0003_ip = 129; continue _fun0003 }
+case 130:
+            var27 = 'experimental_premium-secondary';
+            if(!var9) { _fun0003_ip = 131; continue _fun0003 }
+case 129:
+            var27 = 'primary-overlay';
+case 131:
+            var16['variant'] = var27;
+            var27 = 'md';
+            var16['size'] = var27;
+            var27 = true;
+            var16['grow'] = var27;
             var26 = !var26;
             var16['shiny'] = var26;
             var16['disabled'] = var25;
@@ -1150,7 +1162,7 @@ case 127:
             var16['onPress'] = var24;
             var16 = var23.bind(var4)(var18, var16);
             var12['children'] = var16;
-            _fun0003_ip = 129; continue _fun0003;
+            _fun0003_ip = 132; continue _fun0003;
 case 114:
             var16 = {'style': null, 'accessible': true, 'accessibilityRole': 'text'};
             var18 = var17.currentPlanLabel;
@@ -1176,7 +1188,7 @@ case 114:
             var18 = var24.bind(var4)(var23, var18);
             var16['children'] = var18;
             var12 = var16;
-case 129:
+case 132:
             var11 = var15.bind(var4)(var14, var12);
 case 112:
             var10[4] = var11;
@@ -1184,8 +1196,8 @@ case 112:
             var10 = var3.bind(var4)(var2, var8);
             var8 = new Array(2);
             var8[0] = var10;
-            if(!var9) { _fun0003_ip = 130; continue _fun0003 }
-case 131:
+            if(!var9) { _fun0003_ip = 133; continue _fun0003 }
+case 134:
             var12 = _closure1_slot17;
             var11 = _closure1_slot4;
             var10 = {};
@@ -1216,23 +1228,23 @@ case 131:
             var15['trialPeriod'] = var20;
             var22 = var19 == var21;
             var20 = undefined;
-            if(var22) { _fun0003_ip = 132; continue _fun0003 }
-case 133:
+            if(var22) { _fun0003_ip = 135; continue _fun0003 }
+case 136:
             var20 = var21.priceString;
-case 132:
+case 135:
             var21 = var19 != var20;
             var19 = '$...';
-            if(!var21) { _fun0003_ip = 134; continue _fun0003 }
-case 135:
+            if(!var21) { _fun0003_ip = 137; continue _fun0003 }
+case 138:
             var19 = var20;
-case 134:
+case 137:
             var15['price'] = var19;
             var15 = var17.bind(var18)(var16, var15);
             var13['children'] = var15;
             var13 = var12.bind(var4)(var14, var13);
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 130:
+case 133:
             var8[1] = var9;
             var6['children'] = var8;
             var6 = var3.bind(var4)(var7, var6);

@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 5;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var10['gap'] = var14;
     var4['suggestionsContainer'] = var10;
@@ -55,14 +55,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['justifyContent'] = var14;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var10['paddingVertical'] = var14;
     var4['footerSuggestionsContainer'] = var10;
     var10 = {};
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var10['marginBottom'] = var12;
     var10['textAlign'] = var11;
@@ -149,7 +149,7 @@ case 3:
                 var7 = 5;
                 var7 = var9[var7];
                 var7 = var8.bind(var3)(var7);
-                var7 = var7.spacing;
+                var7 = var7.space;
                 var7 = var7.PX_8;
                 var1['hitSlop'] = var7;
                 var1['text'] = var5;

@@ -30,6 +30,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['QUEST_HOME_MOBILE_CAROUSEL'] = var5;
     var1 = 'QUEST_HOME_MOBILE_CAROUSEL';
     var2[var5] = var1;
+    var5 = 5;
+    var2['VIDEO_MODAL_MOBILE'] = var5;
+    var1 = 'VIDEO_MODAL_MOBILE';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

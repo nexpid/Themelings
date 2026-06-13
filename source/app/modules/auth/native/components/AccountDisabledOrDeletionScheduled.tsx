@@ -58,7 +58,7 @@ case 0:
             var3 = var3[var8];
             var7 = undefined;
             var3 = var6.bind(var7)(var3);
-            var6 = var3.spacing;
+            var6 = var3.space;
             if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var6.PX_16;
@@ -74,7 +74,7 @@ case 6:
             var6 = _closure1_slot2;
             var6 = var6[var8];
             var6 = var9.bind(var7)(var6);
-            var6 = var6.spacing;
+            var6 = var6.space;
             var3 = var6.PX_16;
 case 5:
             var2['paddingHorizontal'] = var3;

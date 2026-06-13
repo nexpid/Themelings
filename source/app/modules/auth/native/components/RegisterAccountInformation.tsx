@@ -91,7 +91,7 @@ case 0:
             var4 = var4[var3];
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_24;
             var2['marginTop'] = var3;
             var1['container'] = var2;

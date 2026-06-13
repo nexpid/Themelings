@@ -122,7 +122,7 @@ case 4:
     var10 = 5;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_4;
     var9['paddingTop'] = var10;
     var4['ctaContainer'] = var9;

@@ -1437,7 +1437,7 @@ case 122:
             var34 = 25;
             var34 = var37[var34];
             var34 = var38.bind(var4)(var34);
-            var34 = var34.spacing;
+            var34 = var34.space;
             var34 = var34.PX_16;
             var33['marginHorizontal'] = var34;
             var29['style'] = var33;

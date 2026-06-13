@@ -85,7 +85,7 @@ case 18:
                     var4 = 3;
                     var4 = var8[var4];
                     var4 = var6.bind(var7)(var4);
-                    var4 = var4.spacing;
+                    var4 = var4.space;
                     var4 = var4.PX_16;
                     var3 = var4 + var5;
 case 20:
@@ -99,7 +99,7 @@ case 4:
                     var3 = var3[var2];
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
-                    var2 = var2.spacing;
+                    var2 = var2.space;
                     var2 = var2.PX_16;
                     return var2;
 case 2:

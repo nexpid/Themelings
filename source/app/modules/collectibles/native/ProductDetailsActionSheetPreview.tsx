@@ -187,32 +187,34 @@ case 4:
     var _closure1_slot14 = var4;
     var4 = function ProfileEffectPreview(arg1) {
         var1 = arg1;
-        var9 = var1.profileEffect;
+        var10 = var1.profileEffect;
+        var9 = var1.profileEffectRestartKey;
         var8 = var1.width;
-        var12 = var1.handlePreviewPress;
+        var13 = var1.handlePreviewPress;
         var6 = var1.onTrackPress;
         var1 = _closure1_slot13;
         var4 = undefined;
         var7 = var1.bind(var4)();
         var2 = _closure1_slot0;
-        var11 = _closure1_slot2;
+        var12 = _closure1_slot2;
         var1 = 8;
-        var1 = var11[var1];
+        var1 = var12[var1];
         var2 = var2.bind(var4)(var1);
         var1 = var2.useCurrentUser;
-        var10 = var1.bind(var2)();
+        var11 = var1.bind(var2)();
         var3 = _closure1_slot11;
         var2 = _closure1_slot14;
         var1 = {};
-        var1['handlePreviewPress'] = var12;
+        var1['handlePreviewPress'] = var13;
         var1['onTrackPress'] = var6;
         var6 = _closure1_slot1;
         var5 = 9;
-        var5 = var11[var5];
+        var5 = var12[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {};
-        var5['user'] = var10;
-        var5['profileEffect'] = var9;
+        var5['user'] = var11;
+        var5['profileEffect'] = var10;
+        var5['profileEffectRestartKey'] = var9;
         var5['maxWidth'] = var8;
         var7 = var7.profilePreview;
         var5['style'] = var7;
@@ -355,33 +357,45 @@ case 4:
     var4['nameplate'] = var7;
     var _closure1_slot19 = var4;
     var4 = function BundlePreview(arg1) {
-        var2 = arg1;
-        var10 = var2.product;
-        var _closure2_slot0 = var10;
-        var6 = var2.width;
-        var _closure2_slot1 = var6;
-        var8 = var2.handlePreviewPress;
-        var _closure2_slot2 = var8;
-        var1 = var2.onTrackPress;
-        var _closure2_slot3 = var1;
-        var2 = var2.onActiveItemTypeChange;
-        var _closure2_slot4 = var2;
+        var1 = arg1;
+        var14 = var1.product;
+        var _closure2_slot0 = var14;
+        var7 = var1.width;
+        var _closure2_slot1 = var7;
+        var13 = var1.handlePreviewPress;
+        var _closure2_slot2 = var13;
+        var8 = var1.onTrackPress;
+        var _closure2_slot3 = var8;
+        var1 = var1.onActiveItemTypeChange;
+        var _closure2_slot4 = var1;
         var9 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var2 = 14;
-        var2 = var11[var2];
+        var1 = 14;
+        var1 = var11[var1];
         var4 = undefined;
-        var3 = var9.bind(var4)(var2);
-        var2 = var3.useShopProductItems;
-        var7 = var2.bind(var3)(var10);
-        var _closure2_slot5 = var7;
+        var2 = var9.bind(var4)(var1);
+        var1 = var2.useShopProductItems;
+        var10 = var1.bind(var2)(var14);
+        var _closure2_slot5 = var10;
+        var1 = _closure1_slot6;
+        var6 = 0;
+        var3 = var1.bind(var4)(var6);
+        var2 = _closure1_slot3;
+        var1 = 2;
+        var3 = var2.bind(var4)(var3, var1);
+        var1 = var3[var6];
+        var _closure2_slot6 = var1;
+        var2 = 1;
+        var2 = var3[var2];
+        var _closure2_slot7 = var2;
         var3 = _closure1_slot5;
-        var2 = new Array(5);
-        var2[0] = var10;
-        var2[1] = var6;
-        var2[2] = var8;
-        var2[3] = var7;
-        var2[4] = var1;
+        var2 = new Array(6);
+        var2[0] = var14;
+        var2[1] = var7;
+        var2[2] = var13;
+        var2[3] = var10;
+        var2[4] = var8;
+        var2[5] = var1;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -415,6 +429,8 @@ case 7:
                 var9 = _closure2_slot5;
                 var9 = var9.firstProfileEffect;
                 var4['profileEffect'] = var9;
+                var9 = _closure2_slot6;
+                var4['profileEffectRestartKey'] = var9;
                 var9 = _closure2_slot1;
                 var4['width'] = var9;
                 var9 = _closure2_slot2;
@@ -508,78 +524,107 @@ case 10:
                 return var1;
             }
         };
-        var7 = var3.bind(var4)(var1, var2);
-        var _closure2_slot6 = var7;
+        var8 = var3.bind(var4)(var1, var2);
+        var _closure2_slot8 = var8;
         var1 = 16;
         var1 = var11[var1];
         var3 = var9.bind(var4)(var1);
         var2 = var3.useSegmentedControlState;
         var1 = {};
-        var1['items'] = var7;
-        var1['pageWidth'] = var6;
-        var6 = 0;
+        var1['items'] = var8;
+        var1['pageWidth'] = var7;
         var1['defaultIndex'] = var6;
-        var5 = function onSetActiveIndex(arg1) {
+        var6 = function onPageChange(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var3 = _closure2_slot6;
+                var3 = _closure2_slot8;
+                var1 = arg1;
+                var3 = var3[var1];
+                var1 = null;
+                var5 = var1 == var3;
+                var1 = undefined;
+                var4 = undefined;
+                if(var5) { _fun0004_ip = 12; continue _fun0004 }
+case 7:
+                var4 = var3.id;
+case 12:
+                var3 = 'profile';
+                if(!(var3 === var4)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                var3 = _closure2_slot7;
+                var2 = function(arg1) {
+                    var2 = arg1;
+                    var1 = 1;
+                    var1 = var2 + var1;
+                    return var1;
+                };
+                var2 = var3.bind(var1)(var2);
+case 13:
+                return var1;
+            }
+        };
+        var1['onPageChange'] = var6;
+        var5 = function onSetActiveIndex(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var3 = _closure2_slot8;
                 var1 = arg1;
                 var3 = var3[var1];
                 var4 = null;
                 var6 = var4 == var3;
                 var1 = undefined;
                 var5 = undefined;
-                if(var6) { _fun0004_ip = 12; continue _fun0004 }
+                if(var6) { _fun0005_ip = 12; continue _fun0005 }
 case 7:
                 var5 = var3.id;
 case 12:
-                if(!(var4 != var5)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                if(!(var4 != var5)) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                 var3 = _closure1_slot19;
                 var6 = var3[var5];
-                if(!(var4 != var6)) { _fun0004_ip = 13; continue _fun0004 }
-case 15:
+                if(!(var4 != var6)) { _fun0005_ip = 15; continue _fun0005 }
+case 17:
                 var3 = _closure2_slot4;
-                if(!(var4 != var3)) { _fun0004_ip = 13; continue _fun0004 }
-case 16:
+                if(!(var4 != var3)) { _fun0005_ip = 15; continue _fun0005 }
+case 18:
                 var3 = _closure2_slot4;
                 var3 = var3.bind(var1)(var6);
-case 13:
+case 15:
                 var3 = 'profile';
-                if(!(var3 !== var5)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
-                var3 = 'decoration';
-                if(!(var3 !== var5)) { _fun0004_ip = 19; continue _fun0004 }
+                if(!(var3 !== var5)) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
-                var3 = 'nameplate';
-                if(!(var3 === var5)) { _fun0004_ip = 21; continue _fun0004 }
+                var3 = 'decoration';
+                if(!(var3 !== var5)) { _fun0005_ip = 21; continue _fun0005 }
 case 22:
+                var3 = 'nameplate';
+                if(!(var3 === var5)) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                 var3 = _closure2_slot3;
-                if(!(var4 != var3)) { _fun0004_ip = 21; continue _fun0004 }
-case 23:
+                if(!(var4 != var3)) { _fun0005_ip = 23; continue _fun0005 }
+case 25:
                 var5 = _closure2_slot3;
                 var3 = _closure1_slot10;
                 var3 = var3.BUNDLE_VIEW_NAMEPLATE;
                 var3 = var5.bind(var1)(var3);
-                _fun0004_ip = 21; continue _fun0004;
-case 19:
+                _fun0005_ip = 23; continue _fun0005;
+case 21:
                 var3 = _closure2_slot3;
-                if(!(var4 != var3)) { _fun0004_ip = 21; continue _fun0004 }
-case 24:
+                if(!(var4 != var3)) { _fun0005_ip = 23; continue _fun0005 }
+case 26:
                 var5 = _closure2_slot3;
                 var3 = _closure1_slot10;
                 var3 = var3.BUNDLE_VIEW_AVATAR_DECORATION;
                 var3 = var5.bind(var1)(var3);
-                _fun0004_ip = 21; continue _fun0004;
-case 17:
+                _fun0005_ip = 23; continue _fun0005;
+case 19:
                 var3 = _closure2_slot3;
-                if(!(var4 != var3)) { _fun0004_ip = 21; continue _fun0004 }
-case 25:
+                if(!(var4 != var3)) { _fun0005_ip = 23; continue _fun0005 }
+case 27:
                 var3 = _closure2_slot3;
                 var2 = _closure1_slot10;
                 var2 = var2.BUNDLE_VIEW_PROFILE_EFFECT;
                 var2 = var3.bind(var1)(var2);
-case 21:
+case 23:
                 return var1;
             }
         };
@@ -631,7 +676,7 @@ case 21:
     };
     var _closure1_slot20 = var4;
     var4 = function IndividualProductPreview(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.product;
@@ -647,54 +692,54 @@ case 0:
             var2 = var6.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.NAMEPLATE;
-            if(!(var2 !== var3)) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
-            var6 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var10];
-            var2 = var6.bind(var4)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.PROFILE_EFFECT;
-            if(!(var2 !== var3)) { _fun0005_ip = 28; continue _fun0005 }
+            if(!(var2 !== var3)) { _fun0006_ip = 28; continue _fun0006 }
 case 29:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var10];
             var2 = var6.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
-            var2 = var2.PROFILE_FRAME;
-            if(!(var2 !== var3)) { _fun0005_ip = 30; continue _fun0005 }
+            var2 = var2.PROFILE_EFFECT;
+            if(!(var2 !== var3)) { _fun0006_ip = 30; continue _fun0006 }
 case 31:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var10];
             var2 = var6.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
-            var2 = var2.AVATAR_DECORATION;
-            if(!(var2 !== var3)) { _fun0005_ip = 32; continue _fun0005 }
+            var2 = var2.PROFILE_FRAME;
+            if(!(var2 !== var3)) { _fun0006_ip = 32; continue _fun0006 }
 case 33:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var10];
             var2 = var6.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
-            var2 = var2.EXTERNAL_SKU;
-            if(!(var2 !== var3)) { _fun0005_ip = 34; continue _fun0005 }
+            var2 = var2.AVATAR_DECORATION;
+            if(!(var2 !== var3)) { _fun0006_ip = 34; continue _fun0006 }
 case 35:
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var10];
+            var2 = var6.bind(var4)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.EXTERNAL_SKU;
+            if(!(var2 !== var3)) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
             var2 = null;
             return var2;
-case 34:
+case 36:
             var3 = var5.skuId;
             var2 = _closure1_slot9;
             var2 = var2.FRACTIONAL_PREMIUM;
-            if(!(var3 !== var2)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+            if(!(var3 !== var2)) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
             var6 = var5.skuId;
             var2 = _closure1_slot9;
             var3 = var2.ORB_PROFILE_BADGE;
             var2 = null;
-            if(!(var6 === var3)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+            if(!(var6 === var3)) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
             var10 = _closure1_slot11;
             var6 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -704,9 +749,9 @@ case 39:
             var6 = var3.OrbBadgePreview;
             var3 = {};
             var2 = var10.bind(var4)(var6, var3);
+case 40:
+            _fun0006_ip = 42; continue _fun0006;
 case 38:
-            _fun0005_ip = 40; continue _fun0005;
-case 36:
             var10 = _closure1_slot11;
             var6 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -716,9 +761,9 @@ case 36:
             var6 = var3.FractionalNitroPreview;
             var3 = {};
             var2 = var10.bind(var4)(var6, var3);
-case 40:
+case 42:
             return var2;
-case 32:
+case 34:
             var6 = _closure1_slot11;
             var3 = _closure1_slot17;
             var2 = {};
@@ -727,7 +772,7 @@ case 32:
             var2['onTrackPress'] = var7;
             var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 30:
+case 32:
             var6 = _closure1_slot11;
             var3 = _closure1_slot16;
             var2 = {};
@@ -740,7 +785,7 @@ case 30:
             var2['onTrackPress'] = var7;
             var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 28:
+case 30:
             var6 = _closure1_slot11;
             var3 = _closure1_slot15;
             var2 = {};
@@ -753,7 +798,7 @@ case 28:
             var2['onTrackPress'] = var7;
             var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 26:
+case 28:
             var3 = _closure1_slot11;
             var2 = _closure1_slot18;
             var1 = {};
@@ -770,7 +815,7 @@ case 26:
     var4 = 'modules/collectibles/native/ProductDetailsActionSheetPreview.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var2 = arg1;
             var13 = var2.product;
@@ -812,8 +857,8 @@ case 0:
             var1 = var1.CollectiblesItemType;
             var1 = var1.BUNDLE;
             var5 = var2 === var1;
-            if(!var5) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+            if(!var5) { _fun0007_ip = 6; continue _fun0007 }
+case 43:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 21;
@@ -821,7 +866,7 @@ case 42:
             var2 = var2.bind(var4)(var1);
             var1 = var2.isValidCollectiblesBundle;
             var5 = var1.bind(var2)(var13);
-case 41:
+case 6:
             var3 = _closure1_slot11;
             var2 = _closure1_slot8;
             var1 = {};
@@ -829,8 +874,8 @@ case 41:
             var1['style'] = var8;
             var1['onLayout'] = var7;
             var8 = _closure1_slot11;
-            if(var5) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+            if(var5) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
             var7 = _closure1_slot21;
             var5 = {};
             var5['product'] = var13;
@@ -838,8 +883,8 @@ case 44:
             var5['handlePreviewPress'] = var11;
             var5['onTrackPress'] = var10;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0006_ip = 45; continue _fun0006;
-case 43:
+            _fun0007_ip = 46; continue _fun0007;
+case 44:
             var7 = _closure1_slot20;
             var6 = {};
             var6['product'] = var13;
@@ -848,7 +893,7 @@ case 43:
             var6['onTrackPress'] = var10;
             var6['onActiveItemTypeChange'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 45:
+case 46:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

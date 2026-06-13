@@ -458,6 +458,32 @@ case 55:
         return var1;
     };
     var3['useComputedGroupDmName'] = var6;
+    var6 = function computeGroupDmName(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.isObfuscated;
+            var2 = var2.bind(var1)();
+            if(var2) { _fun0008_ip = 57; continue _fun0008 }
+case 12:
+            var2 = var1.isMultiUserDM;
+            var2 = var2.bind(var1)();
+            if(!var2) { _fun0008_ip = 57; continue _fun0008 }
+case 58:
+            var2 = var1.name;
+            var3 = '';
+            var1 = undefined;
+            if(!(var3 !== var2)) { _fun0008_ip = 59; continue _fun0008 }
+case 60:
+            var1 = var2;
+case 59:
+            return var1;
+case 57:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var3['computeGroupDmName'] = var6;
     var3['computeChannelName'] = var5;
     var3['escapeChannelName'] = var4;
     var2 = function unescapeChannelName(arg1) {

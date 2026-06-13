@@ -386,7 +386,7 @@ case 18:
     var10 = {'marginRight': null, 'alignItems': 'center', 'flexDirection': 'row', 'flex': 1};
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var10['marginRight'] = var12;
     var7['horiz'] = var10;

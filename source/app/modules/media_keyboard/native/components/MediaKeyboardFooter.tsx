@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 4;
     var2 = var7[var12];
     var2 = var13.bind(var1)(var2);
-    var2 = var2.spacing;
+    var2 = var2.space;
     var2 = var2.PX_16;
     var11['padding'] = var2;
     var2 = 280;
@@ -55,12 +55,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {};
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_32;
     var11['marginBottom'] = var14;
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_48;
     var11['height'] = var14;
     var5['buttonWrapper'] = var11;
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['color'] = var14;
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var11['margin'] = var12;
     var5['loadingSpinner'] = var11;

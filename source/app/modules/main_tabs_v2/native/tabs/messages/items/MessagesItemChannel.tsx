@@ -121,11 +121,11 @@ case 6:
         var1 = 4;
         var2 = var9[var1];
         var2 = var5.bind(var7)(var2);
-        var2 = var2.spacing;
+        var2 = var2.space;
         var2 = var2.PX_16;
         var1 = var9[var1];
         var1 = var5.bind(var7)(var1);
-        var1 = var1.spacing;
+        var1 = var1.space;
         var11 = var1.PX_32;
         var1 = {};
         var1['avatar'] = var11;

@@ -1113,7 +1113,7 @@ case 70:
     var11 = {'flexDirection': 'row', 'alignItems': 'center', 'marginRight': null, 'gap': 2};
     var16 = var8[var13];
     var16 = var14.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_16;
     var11['marginRight'] = var16;
     var6['emojiOptionsButton'] = var11;

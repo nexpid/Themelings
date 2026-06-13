@@ -485,7 +485,7 @@ case 0:
             var4 = var4[var6];
             var5 = undefined;
             var4 = var7.bind(var5)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var4 = var4.PX_16;
             var2['paddingHorizontal'] = var4;
             var4 = _closure1_slot9;
@@ -500,7 +500,7 @@ case 25:
             var7 = _closure1_slot2;
             var7 = var7[var6];
             var7 = var8.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var4 = var7.PX_12;
 case 24:
             var2['gap'] = var4;

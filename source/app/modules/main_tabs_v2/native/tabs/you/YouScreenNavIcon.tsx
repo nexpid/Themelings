@@ -65,7 +65,7 @@ case 5:
         var11 = 5;
         var4 = var6[var11];
         var4 = var12.bind(var1)(var4);
-        var4 = var4.spacing;
+        var4 = var4.space;
         var4 = var4.PX_32;
         var4 = var4 - var10;
         var16 = var4 / var9;
@@ -157,7 +157,7 @@ case 16:
         var10['borderRadius'] = var17;
         var17 = var6[var11];
         var17 = var12.bind(var1)(var17);
-        var17 = var17.spacing;
+        var17 = var17.space;
         var17 = var17.PX_4;
         var10['marginHorizontal'] = var17;
         var17 = var6[var15];
@@ -194,7 +194,7 @@ case 20:
 case 23:
         var17 = var6[var11];
         var17 = var12.bind(var1)(var17);
-        var17 = var17.spacing;
+        var17 = var17.space;
         var16 = var17.PX_4;
 case 22:
         var10['marginLeft'] = var16;
@@ -207,7 +207,7 @@ case 22:
 case 25:
         var16 = var6[var11];
         var16 = var12.bind(var1)(var16);
-        var16 = var16.spacing;
+        var16 = var16.space;
         var15 = var16.PX_4;
 case 24:
         var10['marginTop'] = var15;
@@ -246,7 +246,7 @@ case 24:
         var10 = {};
         var13 = var6[var11];
         var13 = var12.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_12;
         var10['width'] = var13;
         var13 = '75%';
@@ -255,7 +255,7 @@ case 24:
         var10 = {};
         var11 = var6[var11];
         var11 = var12.bind(var1)(var11);
-        var11 = var11.spacing;
+        var11 = var11.space;
         var11 = var11.PX_8;
         var10['width'] = var11;
         var11 = '45%';
@@ -312,7 +312,7 @@ case 28:
                 var5 = 5;
                 var5 = var9[var5];
                 var5 = var8.bind(var4)(var5);
-                var5 = var5.spacing;
+                var5 = var5.space;
                 var5 = var5.PX_8;
                 var1['hitSlop'] = var5;
                 if(!var6) { _fun0002_ip = 30; continue _fun0002 }

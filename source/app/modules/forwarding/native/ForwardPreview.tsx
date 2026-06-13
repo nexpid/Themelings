@@ -171,7 +171,7 @@ case 5:
     var10 = 4;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_12;
     var9['gap'] = var12;
     var4['forwardPreview'] = var9;

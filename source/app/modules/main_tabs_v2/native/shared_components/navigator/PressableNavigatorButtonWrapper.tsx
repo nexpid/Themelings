@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var11];
     var11 = metroImportDefault;
     var11 = var11.bind(var1)(var12);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var9['padding'] = var11;
     var9['height'] = var10;

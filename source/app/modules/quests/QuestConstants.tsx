@@ -232,7 +232,7 @@ case 4:
         var5 = var25.bind(var1)(var5);
         var5 = var5.QuestPlacement;
         var8 = var5.DESKTOP_ACCOUNT_PANEL_AREA;
-        var5 = new Array(4);
+        var5 = new Array(5);
         var5[0] = var8;
         var8 = var26[var6];
         var8 = var25.bind(var1)(var8);
@@ -244,11 +244,16 @@ case 4:
         var8 = var8.QuestPlacement;
         var8 = var8.QUEST_HOME_BANNER_DESKTOP;
         var5[2] = var8;
+        var8 = var26[var6];
+        var8 = var25.bind(var1)(var8);
+        var8 = var8.QuestPlacement;
+        var8 = var8.QUEST_HOME_MOBILE_CAROUSEL;
+        var5[3] = var8;
         var6 = var26[var6];
         var6 = var25.bind(var1)(var6);
         var6 = var6.QuestPlacement;
-        var6 = var6.QUEST_HOME_MOBILE_CAROUSEL;
-        var5[3] = var6;
+        var6 = var6.VIDEO_MODAL_MOBILE;
+        var5[4] = var6;
         var6 = var7.prototype;
         var6 = Object.create(var6, {constructor: {value: var7}});
         var36 = var6;

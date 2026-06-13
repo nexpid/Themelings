@@ -897,12 +897,12 @@ case 43:
                 var2['borderRadius'] = var11;
                 var11 = var7[var4];
                 var11 = var5.bind(var6)(var11);
-                var11 = var11.spacing;
+                var11 = var11.space;
                 var11 = var11.PX_8;
                 var2['paddingHorizontal'] = var11;
                 var11 = var7[var4];
                 var11 = var5.bind(var6)(var11);
-                var11 = var11.spacing;
+                var11 = var11.space;
                 var11 = var11.PX_4;
                 var2['paddingVertical'] = var11;
                 var1['listHeader'] = var2;
@@ -917,7 +917,7 @@ case 43:
                 var2['colorHex'] = var8;
                 var8 = var7[var4];
                 var8 = var5.bind(var6)(var8);
-                var8 = var8.spacing;
+                var8 = var8.space;
                 var8 = var8.PX_4;
                 var2['labelPadding'] = var8;
                 var3 = _closure2_slot3;
@@ -927,7 +927,7 @@ case 43:
                 var2['labelSecondarySize'] = var8;
                 var4 = var7[var4];
                 var4 = var5.bind(var6)(var4);
-                var4 = var4.spacing;
+                var4 = var4.space;
                 var4 = var4.PX_16;
                 var2['padding'] = var4;
                 var4 = 'circle';

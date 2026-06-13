@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 7;
     var4 = var6[var12];
     var4 = var13.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var14 = var4.PX_8;
     var _closure1_slot13 = var14;
     var4 = 8;
@@ -84,12 +84,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_16;
     var10['marginHorizontal'] = var15;
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_12;
     var10['gap'] = var15;
     var10['paddingTop'] = var14;
@@ -97,12 +97,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_12;
     var10['marginTop'] = var14;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_4;
     var10['marginBottom'] = var14;
     var4['linkedLobby'] = var10;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['marginTop'] = var11;
     var11 = var6[var12];
     var11 = var13.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['marginBottom'] = var11;
     var4['searchLocked'] = var10;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_12;
     var10['paddingBottom'] = var12;
     var10['zIndex'] = var11;

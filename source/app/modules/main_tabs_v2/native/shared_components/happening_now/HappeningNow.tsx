@@ -93,7 +93,7 @@ case 2:
     var14 = 8;
     var14 = var7[var14];
     var14 = var15.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var12['paddingHorizontal'] = var14;
     var12['flex'] = var13;

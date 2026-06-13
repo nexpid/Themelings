@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 5;
     var11 = var6[var12];
     var11 = var13.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_12;
     var10['paddingLeft'] = var11;
     var11 = 6;
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var16 = var6[var12];
     var16 = var13.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_12;
     var10['marginHorizontal'] = var16;
     var10['flex'] = var15;

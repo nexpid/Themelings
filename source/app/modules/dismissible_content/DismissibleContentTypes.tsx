@@ -288,7 +288,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.GIFTING_PROMOTION_ICON;
-    var17 = new Array(20);
+    var17 = new Array(21);
     var17[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -385,6 +385,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.GAME_SERVER_NEW_GAMES_COACHMARK;
     var17[19] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.PREMIUM_OFFER_TAB_BADGE_POPOVER;
+    var17[20] = var14;
     var _closure1_slot2 = var17;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

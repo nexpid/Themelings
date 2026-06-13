@@ -100,7 +100,7 @@ case 4:
         var11['flexDirection'] = var15;
         var15 = var6[var12];
         var15 = var13.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_8;
         var11['gap'] = var15;
         var7['emojiRow'] = var11;
@@ -126,7 +126,7 @@ case 4:
         var11['borderRadius'] = var15;
         var15 = var6[var12];
         var15 = var13.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_8;
         var11['padding'] = var15;
         var11['margin'] = var14;

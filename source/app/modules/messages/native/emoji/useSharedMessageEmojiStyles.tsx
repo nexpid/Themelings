@@ -35,12 +35,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var12 = var6[var9];
     var12 = var10.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var8['marginTop'] = var12;
     var12 = var6[var9];
     var12 = var10.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var8['marginBottom'] = var12;
     var8['marginLeft'] = var11;

@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['nitroWheel'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -69,22 +69,29 @@ case 0:
             var4 = undefined;
             var8 = var2.bind(var4)();
             var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var2 = 5;
-            var2 = var9[var2];
+            var2 = var10[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)();
-            var11 = var2.analyticsLocations;
-            var _closure2_slot1 = var11;
-            var10 = _closure1_slot3;
-            var3 = var10.useEffect;
-            var2 = new Array(2);
-            var2[0] = var11;
-            var2[1] = var1;
+            var13 = var2.analyticsLocations;
+            var _closure2_slot1 = var13;
+            var2 = _closure1_slot0;
+            var3 = 6;
+            var3 = var10[var3];
+            var11 = var2.bind(var4)(var3);
+            var9 = var11.useNitroTrialCtaOverride;
+            var3 = 'user_profile_upsell_button';
+            var9 = var9.bind(var11)(var3);
+            var12 = _closure1_slot3;
+            var11 = var12.useEffect;
+            var3 = new Array(2);
+            var3[0] = var13;
+            var3[1] = var1;
             var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 6;
+                var1 = 7;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -110,18 +117,17 @@ case 0:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var1 = var3.bind(var10)(var1, var2);
+            var1 = var11.bind(var12)(var1, var3);
             var3 = _closure1_slot9;
-            var2 = _closure1_slot0;
-            var1 = 7;
-            var1 = var9[var1];
+            var1 = 8;
+            var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Button;
             var1 = {};
             var7 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 8;
+                var1 = 9;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -154,11 +160,15 @@ case 0:
             var7 = 'active';
             var1['variant'] = var7;
             var7 = null;
-            if(!(var7 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var7 != var9)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
+            var6 = var9;
+case 2:
+            if(!(var7 == var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var7 = 9;
+            var7 = 10;
             var9 = var12[var7];
             var9 = var11.bind(var4)(var9);
             var10 = var9.intl;
@@ -168,12 +178,12 @@ case 3:
             var7 = var7.t;
             var7 = var7.pj0XBN;
             var6 = var9.bind(var10)(var7);
-case 2:
+case 4:
             var1['text'] = var6;
             var7 = _closure1_slot9;
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var5 = 10;
+            var5 = 11;
             var5 = var9[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.NitroWheelIcon;

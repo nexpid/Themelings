@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var10[var2];
     var1 = undefined;
     var4 = var8.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var6 = var4.PX_24;
     var _closure1_slot0 = var6;
     var4 = 1;
@@ -31,12 +31,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var5;
     var4 = var10[var2];
     var4 = var8.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var4 = var4.PX_16;
     var _closure1_slot2 = var4;
     var2 = var10[var2];
     var2 = var8.bind(var1)(var2);
-    var2 = var2.spacing;
+    var2 = var2.space;
     var2 = var2.PX_12;
     var _closure1_slot3 = var2;
     var8 = 2;

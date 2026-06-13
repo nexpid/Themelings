@@ -56,12 +56,12 @@ case 0:
             var9 = var3[var6];
             var5 = undefined;
             var9 = var8.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_12;
             var2['paddingHorizontal'] = var9;
             var3 = var3[var6];
             var3 = var8.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_8;
             var2['paddingBottom'] = var3;
             var1['container'] = var2;
@@ -94,7 +94,7 @@ case 4:
             var2['backgroundColor'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var9 = var8.PX_8;
             var10 = _closure1_slot0;
             var8 = 6;
@@ -119,12 +119,12 @@ case 4:
             var2['borderColor'] = var7;
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_12;
             var2['paddingHorizontal'] = var7;
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_16;
             var2['paddingTop'] = var7;
             var7 = var3[var6];
@@ -166,7 +166,7 @@ case 4:
             var2 = {};
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_4;
             var2['marginTop'] = var8;
             var2['textAlign'] = var7;
@@ -174,7 +174,7 @@ case 4:
             var2 = {};
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_8;
             var2['marginTop'] = var3;
             var1['spacing'] = var2;

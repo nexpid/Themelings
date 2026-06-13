@@ -347,7 +347,7 @@ case 0:
             var9 = var3[var7];
             var6 = undefined;
             var9 = var8.bind(var6)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_12;
             var2['padding'] = var9;
             var9 = var3[var7];
@@ -437,7 +437,7 @@ case 17:
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var3 = var4.PX_12;
 case 16:
             var2['marginLeft'] = var3;

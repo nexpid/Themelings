@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var8[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var4 = var4.PX_48;
     var _closure1_slot6 = var4;
     var5 = function useTabletIconYouWidth() {
@@ -69,7 +69,7 @@ case 5:
                 var2 = var1[var8];
                 var1 = undefined;
                 var1 = var4.bind(var1)(var2);
-                var1 = var1.spacing;
+                var1 = var1.space;
                 var4 = var1.PX_32;
                 _fun0001_ip = 6; continue _fun0001;
 case 4:
@@ -78,7 +78,7 @@ case 4:
                 var2 = var1[var8];
                 var1 = undefined;
                 var1 = var5.bind(var1)(var2);
-                var1 = var1.spacing;
+                var1 = var1.space;
                 var4 = var1.PX_12;
 case 6:
                 var6 = _closure1_slot0;
@@ -91,7 +91,7 @@ case 6:
                 var6 = _closure1_slot1;
                 var2 = var2[var8];
                 var2 = var6.bind(var7)(var2);
-                var2 = var2.spacing;
+                var2 = var2.space;
                 var2 = var2.PX_8;
                 var2 = var5 - var2;
                 var2 = var2 - var4;
@@ -146,19 +146,19 @@ case 0:
             var5 = _closure1_slot4;
             var3 = var12[var7];
             var3 = var10.bind(var6)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_8;
             var11 = var5 + var3;
             var3 = var12[var7];
             var3 = var10.bind(var6)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_4;
             var5 = 2;
             var3 = var3 / var5;
             var11 = var11 - var3;
             var3 = var12[var7];
             var3 = var10.bind(var6)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_4;
             var3 = var3 / var5;
             var13 = _closure1_slot0;
@@ -173,7 +173,7 @@ case 8:
             var12 = _closure1_slot2;
             var12 = var12[var7];
             var12 = var13.bind(var6)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var12 = var12.PX_4;
             var12 = var12 / var5;
             var9 = var12 / var5;
@@ -229,7 +229,7 @@ case 9:
             var4 = _closure1_slot2;
             var9 = var4[var7];
             var9 = var5.bind(var6)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_8;
             var9 = var10 + var9;
             var2['right'] = var9;
@@ -239,7 +239,7 @@ case 9:
             var9 = var8 * var3;
             var8 = var4[var7];
             var8 = var5.bind(var6)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_8;
             var8 = var9 + var8;
             var2['right'] = var8;
@@ -248,7 +248,7 @@ case 9:
             var2 = {'position': 'absolute', 'top': 0};
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
-            var4 = var4.spacing;
+            var4 = var4.space;
             var4 = var4.PX_8;
             var2['right'] = var4;
             var2['width'] = var3;

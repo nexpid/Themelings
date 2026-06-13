@@ -593,7 +593,7 @@ case 32:
     var11 = 10;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_12;
     var10['gap'] = var14;
     var4['container'] = var10;

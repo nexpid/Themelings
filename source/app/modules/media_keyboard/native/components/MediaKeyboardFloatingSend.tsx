@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['code'] = var8;
     var _closure1_slot10 = var4;
     var4 = {};
-    var8 = 'function MediaKeyboardFloatingSendTsx3(){const{insetFab,tokens,withSpring,sendVisibleSharedValue}=this.__closure;return{height:insetFab+tokens.spacing.PX_64+tokens.spacing.PX_32,opacity:withSpring(sendVisibleSharedValue.get()?1:0)};}';
+    var8 = 'function MediaKeyboardFloatingSendTsx3(){const{insetFab,tokens,withSpring,sendVisibleSharedValue}=this.__closure;return{height:insetFab+tokens.space.PX_64+tokens.space.PX_32,opacity:withSpring(sendVisibleSharedValue.get()?1:0)};}';
     var4['code'] = var8;
     var _closure1_slot11 = var4;
     var4 = {};
@@ -235,12 +235,12 @@ case 0:
                     var7 = var6[var4];
                     var5 = undefined;
                     var7 = var8.bind(var5)(var7);
-                    var7 = var7.spacing;
+                    var7 = var7.space;
                     var7 = var7.PX_64;
                     var7 = var9 + var7;
                     var4 = var6[var4];
                     var4 = var8.bind(var5)(var4);
-                    var4 = var4.spacing;
+                    var4 = var4.space;
                     var4 = var4.PX_32;
                     var4 = var7 + var4;
                     var1['height'] = var4;
@@ -276,7 +276,7 @@ case 6:
             var14['withSpring'] = var15;
             var14['sendVisibleSharedValue'] = var16;
             var3['__closure'] = var14;
-            var14 = 6460157053585.0;
+            var14 = 6402761213297.0;
             var3['__workletHash'] = var14;
             var14 = _closure1_slot11;
             var3['__initData'] = var14;

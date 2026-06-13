@@ -772,8 +772,8 @@ case 48:
             var5[3] = var8;
             var6 = var6.size;
             var6 = var6 > var7;
-            if(!var6) { _fun0002_ip = 8; continue _fun0002 }
-case 49:
+            if(!var6) { _fun0002_ip = 49; continue _fun0002 }
+case 50:
             var9 = _closure1_slot10;
             var8 = _closure1_slot6;
             var7 = {};
@@ -809,7 +809,7 @@ case 49:
             var10 = var12.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 8:
+case 49:
             var5[4] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

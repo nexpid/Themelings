@@ -3700,7 +3700,7 @@ case 101:
                     var30 = 72;
                     var30 = var33[var30];
                     var33 = var31.bind(var11)(var30);
-                    var31 = var33.canManageGuildOfficialMessages;
+                    var31 = var33.canSendGuildOfficialMessages;
                     var30 = '_sendMessage';
                     var30 = var31.bind(var33)(var38, var41, var30);
                     var33 = var40;
@@ -4967,7 +4967,7 @@ case 116:
                                                 var9 = var4.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.INVITE;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 405; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 405; continue _fun0032 }
 case 406:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -4975,7 +4975,7 @@ case 406:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.TEMPLATE;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 407; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 407; continue _fun0032 }
 case 171:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -4983,7 +4983,7 @@ case 171:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.BUILD_OVERRIDE;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 8:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -4991,7 +4991,7 @@ case 8:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.EXPERIMENT;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 54:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -4999,7 +4999,7 @@ case 54:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.MANUAL_BUILD_OVERRIDE;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 409:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -5007,7 +5007,7 @@ case 409:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.EVENT;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 410:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -5015,7 +5015,7 @@ case 410:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.CHANNEL_LINK;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 411:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -5023,7 +5023,7 @@ case 411:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.EMBEDDED_ACTIVITY_INVITE;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 412; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 412; continue _fun0032 }
 case 413:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -5031,7 +5031,7 @@ case 413:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.GUILD_PRODUCT;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 219:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -5039,7 +5039,7 @@ case 219:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.SERVER_SHOP;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 414:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -5047,7 +5047,7 @@ case 414:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.SOCIAL_LAYER_STOREFRONT;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 415:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -5055,7 +5055,7 @@ case 415:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.SOCIAL_LAYER_STOREFRONT_APP;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 416:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -5063,7 +5063,7 @@ case 416:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.QUESTS_EMBED;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 255; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 255; continue _fun0032 }
 case 417:
                                                 var10 = _closure1_slot0;
                                                 var9 = _closure1_slot3;
@@ -5071,7 +5071,7 @@ case 417:
                                                 var9 = var10.bind(var1)(var9);
                                                 var9 = var9.CodedLinkType;
                                                 var9 = var9.COLLECTIBLES_SHOP;
-                                                if(!(var7 !== var9)) { _fun0032_ip = 408; continue _fun0032 }
+                                                if(!(var9 !== var7)) { _fun0032_ip = 408; continue _fun0032 }
 case 418:
                                                 var9 = global;
                                                 var10 = var9.Error;

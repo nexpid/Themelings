@@ -82,25 +82,33 @@ case 4:
                 var3 = var3[var5];
                 var3 = var7.bind(var4)(var3);
                 var3 = var3.DisplayNameEffect;
+                var3 = var3.GUMMY;
+                if(!(var3 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
+                var7 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var3 = var3[var5];
+                var3 = var7.bind(var4)(var3);
+                var3 = var3.DisplayNameEffect;
                 var3 = var3.TOON;
-                if(!(var3 !== var6)) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+                if(!(var3 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var5];
                 var3 = var7.bind(var4)(var3);
                 var3 = var3.DisplayNameEffect;
                 var3 = var3.NEON;
-                if(!(var3 !== var6)) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+                if(!(var3 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var5];
                 var3 = var7.bind(var4)(var3);
                 var3 = var3.DisplayNameEffect;
                 var3 = var3.POP;
-                if(!(var3 !== var6)) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+                if(!(var3 !== var6)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var5];
@@ -111,13 +119,13 @@ case 10:
                 var1 = new Array(1);
                 var1[0] = var2;
                 return var1;
-case 9:
+case 10:
                 var1 = [1036166];
                 return var1;
-case 7:
+case 8:
                 var1 = [6888941];
                 return var1;
-case 5:
+case 6:
                 var1 = [15999128];
                 return var1;
 case 2:
