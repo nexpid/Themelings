@@ -8453,7 +8453,7 @@
 { "file": "app/stores/LocalActivityStore.tsx", "size": 30978 }
 { "file": "app/stores/MaskedLinkStore.tsx", "size": 16581 }
 { "file": "app/stores/MaskedLinkStoreMethodsAdditional.native.tsx", "size": 2073 }
-{ "file": "app/stores/MediaEngineStore.tsx", "size": 429794 }
+{ "file": "app/stores/MediaEngineStore.tsx", "size": 429793 }
 { "file": "app/stores/MessageReactionsStore.tsx", "size": 12714 }
 { "file": "app/stores/MessageStore.tsx", "size": 103806 }
 { "file": "app/stores/MFAStore.tsx", "size": 8869 }
@@ -9313,7 +9313,7 @@
 { "file": "discord_common/js/packages/protos/discord_protos/discord_kkv_store_value_models/v1/applications.tsx", "size": 40496 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 81003 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/frecency_user_settings.tsx", "size": 197352 }
-{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 962899 }
+{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 962897 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx", "size": 14092 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx", "size": 122841 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_nitro_gift_banner.tsx", "size": 30789 }

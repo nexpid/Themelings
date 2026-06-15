@@ -2497,10 +2497,10 @@ case 244:
 case 247:
             var3 = var2 - var3;
             var3 = var4 + var3;
-            _fun0020_ip = 242; continue _fun0020;
+            _fun0020_ip = 248; continue _fun0020;
 case 246:
             var3 = var4 + var2;
-case 242:
+case 248:
             var1['accumulated'] = var3;
             var1['lastValue'] = var2;
             return var1;
