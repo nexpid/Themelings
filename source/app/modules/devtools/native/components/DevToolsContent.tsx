@@ -198,7 +198,7 @@ case 4:
     var10['backgroundColor'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['padding'] = var13;
     var2['devToolsContainer'] = var10;
@@ -207,7 +207,7 @@ case 4:
     var10['flexDirection'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['gap'] = var13;
     var2['sortingIcons'] = var10;
@@ -219,12 +219,12 @@ case 4:
     var10['backgroundColor'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_32;
     var10['width'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_32;
     var10['height'] = var13;
     var11 = var7[var11];
@@ -667,8 +667,8 @@ case 38:
             var1['children'] = var6;
             var6 = var4.bind(var5)(var3, var1);
             var1 = var6;
-            if(var2) { _fun0002_ip = 40; continue _fun0002 }
-case 41:
+            if(var2) { _fun0002_ip = 38; continue _fun0002 }
+case 40:
             var4 = _closure1_slot10;
             var3 = _closure1_slot6;
             var2 = {};
@@ -681,14 +681,14 @@ case 41:
             var8 = 8;
             var8 = var11[var8];
             var8 = var10.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var8 = var9 + var8;
             var7['paddingBottom'] = var8;
             var2['contentContainerStyle'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 40:
+case 38:
             return var1;
         }
     };

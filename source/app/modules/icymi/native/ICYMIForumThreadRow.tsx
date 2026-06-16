@@ -454,7 +454,7 @@ case 18:
         var5 = var5[var4];
         var4 = undefined;
         var4 = var6.bind(var4)(var5);
-        var4 = var4.spacing;
+        var4 = var4.space;
         var4 = var4.PX_8;
         var2['marginTop'] = var4;
         var4 = var3.margin;

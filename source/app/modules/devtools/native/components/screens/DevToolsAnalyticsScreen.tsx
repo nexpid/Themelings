@@ -449,14 +449,14 @@ case 9:
     var9 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['padding'] = var13;
     var4['contentContainer'] = var9;
     var9 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var9['paddingHorizontal'] = var13;
     var4['searchFieldContainer'] = var9;

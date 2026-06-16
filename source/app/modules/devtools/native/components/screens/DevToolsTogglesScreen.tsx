@@ -379,14 +379,14 @@ case 22:
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['paddingHorizontal'] = var12;
     var4['wrap'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['paddingVertical'] = var10;
     var4['container'] = var9;
@@ -507,7 +507,7 @@ case 5:
             var8 = 8;
             var8 = var23[var8];
             var8 = var11.bind(var4)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_16;
             var7 = var7.bottom;
             var7 = var8 + var7;

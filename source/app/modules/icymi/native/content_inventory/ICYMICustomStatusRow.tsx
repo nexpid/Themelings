@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 6;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var4 = var4.PX_8;
     var _closure1_slot11 = var4;
     var4 = 7;
@@ -137,26 +137,26 @@ case 0:
             var2 = {};
             var3 = 'absolute';
             var2['position'] = var3;
-            var7 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var6 = 6;
-            var4 = var4[var6];
-            var5 = undefined;
-            var4 = var7.bind(var5)(var4);
-            var7 = var4.spacing;
+            var3 = 56;
             if(var11) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var4 = var7.PX_40;
-            _fun0001_ip = 4; continue _fun0001;
+            var6 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var4 = 6;
+            var5 = var5[var4];
+            var4 = undefined;
+            var4 = var6.bind(var4)(var5);
+            var4 = var4.space;
+            var3 = var4.PX_40;
 case 2:
-            var4 = var7.PX_56;
-case 4:
-            var2['top'] = var4;
+            var2['top'] = var3;
             var1['bubbles'] = var2;
             var2 = {'marginLeft': 32, 'borderRadius': null, 'height': 12, 'width': 12, 'overflow': 'hidden'};
             var10 = _closure1_slot1;
             var8 = _closure1_slot2;
+            var6 = 6;
             var4 = var8[var6];
+            var5 = undefined;
             var4 = var10.bind(var5)(var4);
             var4 = var4.radii;
             var4 = var4.round;
@@ -174,7 +174,7 @@ case 4:
             var7 = 'row';
             var12 = var8[var6];
             var12 = var10.bind(var5)(var12);
-            var12 = var12.spacing;
+            var12 = var12.space;
             var12 = var12.PX_8;
             var2['gap'] = var12;
             var1['title'] = var2;
@@ -198,10 +198,10 @@ case 4:
             var2['borderRadius'] = var8;
             var8 = 1;
             var10 = 17;
-            if(!var11) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            var10 = 0;
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            var10 = 0;
+case 4:
             var2['marginBottom'] = var10;
             var2['overflow'] = var4;
             var1['card'] = var2;
@@ -211,7 +211,7 @@ case 5:
             var3 = _closure1_slot2;
             var10 = var3[var6];
             var10 = var4.bind(var5)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_12;
             var10 = var11 + var10;
             var2['paddingVertical'] = var10;
@@ -234,7 +234,7 @@ case 5:
             var2['marginBottom'] = var9;
             var9 = var3[var6];
             var9 = var4.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_48;
             var2['minHeight'] = var9;
             var9 = var3[var6];
@@ -250,7 +250,7 @@ case 5:
             var2['borderRadius'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_4;
             var2['gap'] = var8;
             var2['flexDirection'] = var7;
@@ -304,12 +304,12 @@ case 0:
             var1 = null;
             var6 = var1 == var4;
             var2 = undefined;
-            if(var6) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-            var2 = var4.backgroundColor;
+            if(var6) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            if(!(var1 == var2)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            var2 = var4.backgroundColor;
+case 6:
+            if(!(var1 == var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 6;
@@ -317,7 +317,7 @@ case 10:
             var4 = var6.bind(var5)(var4);
             var4 = var4.colors;
             var2 = var4.CARD_BACKGROUND_DEFAULT;
-case 9:
+case 8:
             var20 = var3.bind(var5)(var2);
             _closure2_slot5 = var20;
             var3 = _closure1_slot0;
@@ -350,25 +350,25 @@ case 9:
             var4 = var28.emoji_id;
             var3 = var1 == var4;
             var8 = undefined;
-            if(var3) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+            if(var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = var4.toString;
             var8 = var3.bind(var4)();
-case 11:
+case 10:
             var4 = '0';
             var3 = null;
-            if(!(var4 !== var8)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-            var3 = var28.emoji_id;
+            if(!(var4 !== var8)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
+            var3 = var28.emoji_id;
+case 12:
             var9['id'] = var3;
             var4 = var28.emoji_name;
             var8 = var1 != var4;
             var3 = '';
-            if(!var8) { _fun0002_ip = 6; continue _fun0002 }
+            if(!var8) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
             var3 = var4;
-case 6:
+case 14:
             var9['name'] = var3;
             var3 = var28.emoji_animated;
             var9['animated'] = var3;
@@ -589,7 +589,7 @@ case 35:
                     var17 = 6;
                     var18 = var14[var17];
                     var18 = var19.bind(var2)(var18);
-                    var18 = var18.spacing;
+                    var18 = var18.space;
                     var18 = var18.PX_16;
                     var20['right'] = var18;
                     var18 = 3;
@@ -626,7 +626,7 @@ case 35:
                     var15 = {'position': 'absolute', 'right': null, 'bottom': 3};
                     var17 = var14[var17];
                     var17 = var19.bind(var2)(var17);
-                    var17 = var17.spacing;
+                    var17 = var17.space;
                     var17 = var17.PX_16;
                     var18 = var17 + var18;
                     var17 = _closure1_slot11;
@@ -680,7 +680,7 @@ case 34:
                     var17 = 6;
                     var18 = var15[var17];
                     var18 = var19.bind(var3)(var18);
-                    var18 = var18.spacing;
+                    var18 = var18.space;
                     var18 = var18.PX_16;
                     var21['right'] = var18;
                     var18 = 3;
@@ -717,7 +717,7 @@ case 34:
                     var16 = {'position': 'absolute', 'right': null, 'bottom': 3};
                     var17 = var15[var17];
                     var17 = var19.bind(var3)(var17);
-                    var17 = var17.spacing;
+                    var17 = var17.space;
                     var17 = var17.PX_16;
                     var18 = var17 + var18;
                     var17 = _closure1_slot11;
@@ -976,7 +976,7 @@ case 52:
             var16 = 6;
             var14 = var30[var16];
             var14 = var27.bind(var5)(var14);
-            var14 = var14.spacing;
+            var14 = var14.space;
             var14 = var14.PX_16;
             var26 = var26 - var14;
             var14 = 40;
@@ -1009,7 +1009,7 @@ case 52:
             var36 = var33.width;
             var35 = var30[var16];
             var35 = var27.bind(var5)(var35);
-            var35 = var35.spacing;
+            var35 = var35.space;
             var35 = var35.PX_16;
             var36 = var36 - var35;
             var35 = 86;

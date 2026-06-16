@@ -963,14 +963,14 @@ case 35:
     var10 = 13;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['marginBottom'] = var12;
     var4['tableRowGroupContainer'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_12;
     var9['marginHorizontal'] = var10;
     var4['tableContainer'] = var9;

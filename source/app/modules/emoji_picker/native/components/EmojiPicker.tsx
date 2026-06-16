@@ -64,12 +64,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 6;
     var15 = var6[var11];
     var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_8;
     var10['paddingTop'] = var15;
     var15 = var6[var11];
     var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_12;
     var10['gap'] = var15;
     var4['header'] = var10;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = copyDataProperties(var18, var17);
     var11 = var6[var11];
     var11 = var13.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var12 = var11 + var12;
     var11 = 'height';

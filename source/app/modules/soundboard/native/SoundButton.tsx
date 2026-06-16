@@ -140,12 +140,12 @@ case 2:
         var13 = {'position': 'absolute', 'top': null, 'end': null, 'width': 12, 'height': 12};
         var15 = var6[var14];
         var15 = var9.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_12;
         var13['top'] = var15;
         var15 = var6[var14];
         var15 = var9.bind(var1)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_12;
         var13['end'] = var15;
         var14 = var6[var14];

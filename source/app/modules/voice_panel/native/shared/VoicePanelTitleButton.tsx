@@ -143,7 +143,7 @@ case 6:
             var6 = 16;
             var6 = var8[var6];
             var6 = var7.bind(var4)(var6);
-            var6 = var6.spacing;
+            var6 = var6.space;
             var6 = var6.PX_4;
             var6 = -var6;
             var1['iconOpticalOffsetMargin'] = var6;
@@ -260,7 +260,7 @@ case 0:
             var5 = 16;
             var5 = var16[var5];
             var5 = var7.bind(var4)(var5);
-            var5 = var5.spacing;
+            var5 = var5.space;
             var5 = var5.PX_8;
             var1['spacing'] = var5;
             var11 = _closure1_slot9;
@@ -291,10 +291,10 @@ case 8:
 case 7:
             var13 = var7 != var10;
             var7 = '???';
-            if(!var13) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var7 = var10;
+            if(!var13) { _fun0002_ip = 4; continue _fun0002 }
 case 9:
+            var7 = var10;
+case 4:
             var5['text'] = var7;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -380,10 +380,10 @@ case 0:
             var7 = null;
             var8 = var7 != var8;
             var7 = undefined;
-            if(!var8) { _fun0003_ip = 7; continue _fun0003 }
+            if(!var8) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
             var7 = 'start';
-case 7:
+case 10:
             var1['iconPosition'] = var7;
             var1['text'] = var6;
             var1['onPress'] = var5;

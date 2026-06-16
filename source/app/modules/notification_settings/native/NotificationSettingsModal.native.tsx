@@ -1447,7 +1447,7 @@ case 60:
                 var11 = 20;
                 var11 = var13[var11];
                 var11 = var12.bind(var5)(var11);
-                var11 = var11.spacing;
+                var11 = var11.space;
                 var11 = var11.PX_24;
                 var4['spacing'] = var11;
                 var11 = var8.formStack;
@@ -1469,7 +1469,7 @@ case 60:
                 var4 = var7.bind(var5)(var6, var4);
                 var1['children'] = var4;
                 var1 = var3.bind(var5)(var2, var1);
-                _fun0009_ip = 52; continue _fun0009;
+                _fun0009_ip = 63; continue _fun0009;
 case 62:
                 var4 = _closure1_slot31;
                 var7 = _closure1_slot0;
@@ -1492,7 +1492,7 @@ case 62:
                 var10 = 20;
                 var10 = var12[var10];
                 var10 = var11.bind(var5)(var10);
-                var10 = var10.spacing;
+                var10 = var10.space;
                 var10 = var10.PX_24;
                 var6['spacing'] = var10;
                 var8 = var8.formStack;
@@ -1503,7 +1503,7 @@ case 62:
                 var6 = var4.bind(var5)(var7, var6);
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
-case 52:
+case 63:
                 return var1;
             }
         };
@@ -1555,7 +1555,7 @@ case 0:
                     var3 = var3.bind(var4)(var1);
                     var1 = null;
                     if(!var3) { _fun0010_ip = 61; continue _fun0010 }
-case 63:
+case 64:
                     var1 = var2;
 case 61:
                     return var1;
@@ -1680,12 +1680,12 @@ case 0:
                     var4 = _closure1_slot12;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3);
-                    if(var1) { _fun0011_ip = 64; continue _fun0011 }
-case 65:
+                    if(var1) { _fun0011_ip = 65; continue _fun0011 }
+case 66:
                     var2 = _closure1_slot23;
                     var2 = var2.GUILD_CATEGORY;
                     var1 = var3 === var2;
-case 64:
+case 65:
                     return var1;
                 }
             };
@@ -1893,10 +1893,10 @@ case 0:
             var6['name'] = var5;
             var5 = {};
             var9 = null;
-            if(!(var9 == var7)) { _fun0012_ip = 66; continue _fun0012 }
-case 67:
+            if(!(var9 == var7)) { _fun0012_ip = 67; continue _fun0012 }
+case 68:
             var7 = _closure1_slot30;
-case 66:
+case 67:
             var5['guildId'] = var7;
             var6['params'] = var5;
             var5 = new Array(1);

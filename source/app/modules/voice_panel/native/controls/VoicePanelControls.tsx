@@ -104,7 +104,7 @@ case 0:
         var11 = {'position': 'absolute', 'left': 0, 'right': 0, 'zIndex': 20, 'flexDirection': 'row', 'justifyContent': 'space-between', 'alignItems': 'center'};
         var12 = var6[var12];
         var12 = var13.bind(var1)(var12);
-        var12 = var12.spacing;
+        var12 = var12.space;
         var12 = var12.PX_16;
         var11['marginHorizontal'] = var12;
         var8['buttonsWrapper'] = var11;

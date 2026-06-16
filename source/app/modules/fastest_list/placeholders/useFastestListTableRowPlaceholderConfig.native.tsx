@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 2;
             var1 = var6[var3];
             var1 = var4.bind(var5)(var1);
-            var1 = var1.spacing;
+            var1 = var1.space;
             var1 = var1.PX_16;
             var7['labelPadding'] = var1;
             var1 = 0;
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['labelSize'] = var1;
             var1 = var6[var3];
             var1 = var4.bind(var5)(var1);
-            var1 = var1.spacing;
+            var1 = var1.space;
             var1 = var1.PX_12;
             var7['padding'] = var1;
             var1 = var9.placeholderAvatar;
@@ -151,14 +151,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['dividerColorHex'] = var1;
             var1 = var6[var3];
             var1 = var4.bind(var5)(var1);
-            var1 = var1.spacing;
+            var1 = var1.space;
             var2 = var1.PX_12;
             var1 = var9.placeholderAvatar;
             var1 = var1.width;
             var2 = var2 + var1;
             var1 = var6[var3];
             var1 = var4.bind(var5)(var1);
-            var1 = var1.spacing;
+            var1 = var1.space;
             var1 = var1.PX_16;
             var1 = var2 + var1;
             var8['dividerPaddingLeft'] = var1;
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['colorHex'] = var9;
             var9 = var6[var3];
             var9 = var4.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_16;
             var2['paddingVertical'] = var9;
             var9 = var6[var3];
@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['borderRadius'] = var9;
             var9 = var6[var3];
             var9 = var4.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_96;
             var2['width'] = var9;
             var1['sectionHeader'] = var2;

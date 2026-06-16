@@ -151,7 +151,7 @@ case 4:
     var11 = 15;
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_8;
     var10['marginVertical'] = var15;
     var10['textAlign'] = var14;

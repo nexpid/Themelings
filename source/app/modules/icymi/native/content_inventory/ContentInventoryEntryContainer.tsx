@@ -82,7 +82,7 @@ case 6:
             var7 = var9[var6];
             var5 = undefined;
             var7 = var8.bind(var5)(var7);
-            var7 = var7.spacing;
+            var7 = var7.space;
             var7 = var7.PX_12;
             var2['gap'] = var7;
             var4 = var4.margin;
@@ -110,7 +110,7 @@ case 8:
             var3 = _closure1_slot2;
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.spacing;
+            var3 = var3.space;
             var3 = var3.PX_8;
             var2['gap'] = var3;
             var1['subTitleContainer'] = var2;

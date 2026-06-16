@@ -379,7 +379,10 @@ case 29:
     var9[11] = var11;
     var9[9] = var11;
     var4['fgClip'] = var9;
-    var9 = {'width': '100%', 'height': '100%'};
+    var9 = {};
+    var18 = var8.absoluteFillObject;
+    var19 = var9;
+    var10 = copyDataProperties(var19, var18);
     var4['fgImage'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;

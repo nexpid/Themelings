@@ -328,7 +328,7 @@ case 40:
     var11 = 3;
     var4 = var6[var11];
     var4 = var12.bind(var1)(var4);
-    var4 = var4.spacing;
+    var4 = var4.space;
     var13 = var4.PX_4;
     var4 = var6[var11];
     var4 = var12.bind(var1)(var4);
@@ -348,7 +348,7 @@ case 40:
     var10['borderRadius'] = var15;
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_32;
     var10['height'] = var16;
     var10['paddingVertical'] = var13;
@@ -370,7 +370,7 @@ case 40:
     var10 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var10['marginHorizontal'] = var13;
     var4['icon'] = var10;

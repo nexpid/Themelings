@@ -97,14 +97,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['backgroundColor'] = var7;
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_8;
         var2['gap'] = var7;
         var1['chatContainer'] = var2;
         var2 = {'flexDirection': 'row', 'alignItems': 'center'};
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.spacing;
+        var3 = var3.space;
         var3 = var3.PX_4;
         var2['gap'] = var3;
         var1['header'] = var2;

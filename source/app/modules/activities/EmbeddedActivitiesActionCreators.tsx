@@ -1999,16 +1999,16 @@ case 253:
                     var13 = var14.getShelfFetchStatus;
                     var6 = var8;
                     var6 = var13.bind(var14)(var6);
-                    var13 = null;
-                    if(!(var13 != var6)) { _fun0009_ip = 254; continue _fun0009 }
+                    var14 = null;
+                    if(!(var14 != var6)) { _fun0009_ip = 254; continue _fun0009 }
 case 255:
                     var6 = var6.isFetching;
                     if(!var6) { _fun0009_ip = 254; continue _fun0009 }
 case 14:
                     var6 = global;
                     var17 = var6.Promise;
-                    var14 = var17.prototype;
-                    var16 = Object.create(var14, {constructor: {value: var17}});
+                    var13 = var17.prototype;
+                    var16 = Object.create(var13, {constructor: {value: var17}});
                     var24 = function(arg1) {
                         var7 = _closure1_slot29;
                         var6 = var7.bind;
@@ -2030,11 +2030,11 @@ case 14:
                         return var1;
                     };
                     var25 = var16;
-                    var14 = new var25[var17](var24, var23);
-                    var20 = var14 instanceof Object ? var14 : var16;
+                    var13 = new var25[var17](var24, var23);
+                    var20 = var13 instanceof Object ? var13 : var16;
                     var17 = var6.Promise;
-                    var14 = var17.prototype;
-                    var16 = Object.create(var14, {constructor: {value: var17}});
+                    var13 = var17.prototype;
+                    var16 = Object.create(var13, {constructor: {value: var17}});
                     var24 = function(arg1) {
                         var7 = _closure1_slot29;
                         var6 = var7.bind;
@@ -2056,48 +2056,48 @@ case 14:
                         return var1;
                     };
                     var25 = var16;
-                    var14 = new var25[var17](var24, var23);
-                    var17 = var14 instanceof Object ? var14 : var16;
+                    var13 = new var25[var17](var24, var23);
+                    var17 = var13 instanceof Object ? var13 : var16;
                     var16 = var6.Promise;
-                    var14 = var16.race;
+                    var13 = var16.race;
                     var6 = new Array(2);
                     var6[0] = var20;
                     var6[1] = var17;
-                    var6 = var14.bind(var16)(var6);
+                    var6 = var13.bind(var16)(var6);
                     SaveGenerator(address=323);
 case 231:
                     return var6;
 case 256:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=13);
-                    if(var14) { _fun0009_ip = 257; continue _fun0009 }
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=12);
+                    if(var13) { _fun0009_ip = 257; continue _fun0009 }
 case 186:
-                    var14 = _closure4_slot1;
-                    if(!(var13 != var14)) { _fun0009_ip = 258; continue _fun0009 }
+                    var13 = _closure4_slot1;
+                    if(!(var14 != var13)) { _fun0009_ip = 258; continue _fun0009 }
 case 259:
                     var16 = _closure1_slot1;
                     var17 = _closure1_slot2;
-                    var14 = 25;
-                    var14 = var17[var14];
-                    var20 = var16.bind(var7)(var14);
+                    var13 = 25;
+                    var13 = var17[var13];
+                    var20 = var16.bind(var7)(var13);
                     var17 = var20.unsubscribe;
                     var16 = _closure4_slot1;
-                    var14 = 'EMBEDDED_ACTIVITY_FETCH_SHELF_SUCCESS';
-                    var14 = var17.bind(var20)(var14, var16);
-                    _closure4_slot1 = var13;
+                    var13 = 'EMBEDDED_ACTIVITY_FETCH_SHELF_SUCCESS';
+                    var13 = var17.bind(var20)(var13, var16);
+                    _closure4_slot1 = var7;
 case 258:
-                    var14 = _closure4_slot2;
-                    if(!(var13 != var14)) { _fun0009_ip = 254; continue _fun0009 }
+                    var13 = _closure4_slot2;
+                    if(!(var14 != var13)) { _fun0009_ip = 254; continue _fun0009 }
 case 260:
-                    var16 = _closure1_slot1;
-                    var17 = _closure1_slot2;
-                    var14 = 25;
-                    var14 = var17[var14];
-                    var20 = var16.bind(var7)(var14);
-                    var17 = var20.unsubscribe;
-                    var16 = _closure4_slot2;
-                    var14 = 'EMBEDDED_ACTIVITY_FETCH_SHELF_FAIL';
-                    var14 = var17.bind(var20)(var14, var16);
-                    _closure4_slot2 = var13;
+                    var14 = _closure1_slot1;
+                    var16 = _closure1_slot2;
+                    var13 = 25;
+                    var13 = var16[var13];
+                    var17 = var14.bind(var7)(var13);
+                    var16 = var17.unsubscribe;
+                    var14 = _closure4_slot2;
+                    var13 = 'EMBEDDED_ACTIVITY_FETCH_SHELF_FAIL';
+                    var13 = var16.bind(var17)(var13, var14);
+                    _closure4_slot2 = var7;
 case 254:
                     var13 = {};
                     var14 = var5;

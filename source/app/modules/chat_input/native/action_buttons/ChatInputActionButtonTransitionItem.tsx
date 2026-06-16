@@ -155,7 +155,7 @@ case 10:
             var3 = var1[var8];
             var9 = var9.bind(var4)(var3);
             var3 = var9.useAnimatedStyle;
-            var2 = function v() {
+            var2 = function T() {
                 var1 = {};
                 var3 = _closure2_slot2;
                 var2 = var3.get;
@@ -237,7 +237,7 @@ case 10:
         var2 = var1.View;
         var1 = {};
         var8 = _closure1_slot6;
-        var10 = var8.transitionItem;
+        var10 = var8.transitionItemCentered;
         var8 = new Array(2);
         var8[0] = var10;
         var8[1] = var9;
@@ -286,6 +286,8 @@ case 10:
     var11 = 'absolute';
     var10['position'] = var11;
     var5['transitionItem'] = var10;
+    var10 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'alignItems': 'center', 'justifyContent': 'center'};
+    var5['transitionItemCentered'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot6 = var5;
     var5 = {};

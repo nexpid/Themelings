@@ -167,7 +167,7 @@ case 2:
         var9 = var6[var3];
         var4 = undefined;
         var9 = var5.bind(var4)(var9);
-        var9 = var9.spacing;
+        var9 = var9.space;
         var9 = var9.PX_4;
         var2['paddingBottom'] = var9;
         var9 = var8.margin;
@@ -178,7 +178,7 @@ case 2:
         var2['flexDirection'] = var9;
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);
-        var9 = var9.spacing;
+        var9 = var9.space;
         var9 = var9.PX_4;
         var2['paddingBottom'] = var9;
         var8 = var8.margin;
@@ -189,7 +189,7 @@ case 2:
         var2 = {'flexGrow': 1, 'flexShrink': 1};
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_12;
         var2['marginLeft'] = var8;
         var1['headerInfo'] = var2;

@@ -208,7 +208,7 @@ case 17:
     var2 = 1;
     var9 = var17[var2];
     var9 = var15.bind(var1)(var9);
-    var9 = var9.spacing;
+    var9 = var9.space;
     var21 = var10.bind(var12)(var9);
     var10 = var11.prototype;
     var10 = Object.create(var10, {constructor: {value: var11}});

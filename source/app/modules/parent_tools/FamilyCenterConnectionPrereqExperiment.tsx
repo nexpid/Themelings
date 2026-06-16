@@ -1,4 +1,4 @@
-// app/modules/main_tabs_v2/native/friends/screens/GDMSuggestedFriendsExperiment.tsx
+// app/modules/parent_tools/FamilyCenterConnectionPrereqExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'name': '2026-04-mobile-gdm-suggested-friends', 'kind': 'user'};
+    var2 = {'name': '2026-06-family-center-connection-prereq', 'kind': 'user'};
     var8 = {};
     var9 = false;
     var8['enabled'] = var9;
@@ -31,9 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/main_tabs_v2/native/friends/screens/GDMSuggestedFriendsExperiment.tsx';
+    var4 = 'modules/parent_tools/FamilyCenterConnectionPrereqExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
-    var3['GDMSuggestedFriendsExperiment'] = var2;
+    var3['FamilyCenterConnectionPrereqExperiment'] = var2;
     return var1;
 })();

@@ -6192,7 +6192,7 @@ case 385:
         }
     };
     var71['getIntervalMonths'] = var78;
-    var78 = 34;
+    var78 = 33;
     var78 = var16[var78];
     var78 = var15.bind(var1)(var78);
     var78 = var78.getUserMaxFileSize;
@@ -6887,7 +6887,7 @@ case 542:
     var71['formatPriceString'] = var18;
     var71['StreamQuality'] = var69;
     var71 = var72.bind(var73)(var71);
-    var72 = 35;
+    var72 = 34;
     var72 = var16[var72];
     var74 = var15.bind(var1)(var72);
     var73 = var74.fileFinishedImporting;
@@ -8900,34 +8900,19 @@ case 35:
         _fun0096: for(var _fun0096_ip = 0; ; ) switch(_fun0096_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.planId;
+            var3 = var1.planId;
             var6 = var1.isGift;
             var5 = var1.priceOptions;
             var4 = var1.subscriptionPlan;
-            var7 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 33;
-            var1 = var3[var1];
-            var3 = undefined;
-            var9 = var7.bind(var3)(var1);
-            var7 = var9.getConfig;
-            var1 = {};
-            var10 = 'getSavingsPercent';
-            var1['location'] = var10;
-            var1 = var7.bind(var9)(var1);
-            var7 = var1.enabled;
             var1 = _closure1_slot15;
-            var1 = var1[var8];
-            if(!var7) { _fun0096_ip = 83; continue _fun0096 }
-case 398:
-            var8 = null;
-            var7 = var8 != var4;
-case 83:
-            if(!var7) { _fun0096_ip = 487; continue _fun0096 }
-case 634:
-            var2 = _closure1_slot104;
-            var1 = var2.bind(var3)(var4, var6, var5);
-case 487:
+            var1 = var1[var3];
+            var3 = null;
+            if(!(var3 != var4)) { _fun0096_ip = 462; continue _fun0096 }
+case 103:
+            var3 = _closure1_slot104;
+            var2 = undefined;
+            var1 = var3.bind(var2)(var4, var6, var5);
+case 462:
             return var1;
         }
     };

@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = 6;
     var16 = var6[var14];
     var16 = var9.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_16;
     var13['paddingHorizontal'] = var16;
     var4['scrollView'] = var13;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13['flex'] = var15;
     var14 = var6[var14];
     var14 = var9.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_16;
     var13['paddingHorizontal'] = var14;
     var13['marginTop'] = var8;

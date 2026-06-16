@@ -121,7 +121,7 @@ case 2:
             var20 = _closure1_slot1;
             var18 = var16[var18];
             var18 = var20.bind(var4)(var18);
-            var18 = var18.spacing;
+            var18 = var18.space;
             var18 = var18.PX_16;
             var18 = var19 + var18;
             var8['paddingBottom'] = var18;

@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13['backgroundColor'] = var16;
     var16 = var6[var14];
     var16 = var15.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_12;
     var13['paddingHorizontal'] = var16;
     var13['flex'] = var9;
@@ -721,7 +721,7 @@ case 36:
         var11 = 7;
         var11 = var14[var11];
         var11 = var13.bind(var4)(var11);
-        var11 = var11.spacing;
+        var11 = var11.space;
         var11 = var11.PX_16;
         var11 = var12 + var11;
         var2['insetEnd'] = var11;

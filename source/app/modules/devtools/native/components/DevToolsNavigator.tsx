@@ -159,7 +159,7 @@ case 2:
                     var10 = 9;
                     var10 = var12[var10];
                     var10 = var11.bind(var1)(var10);
-                    var10 = var10.spacing;
+                    var10 = var10.space;
                     var10 = var10.PX_8;
                     var9['marginLeft'] = var10;
                     var6['style'] = var9;

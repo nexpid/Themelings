@@ -145,7 +145,7 @@ case 9:
     var12 = 10;
     var14 = var9[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var11['padding'] = var14;
     var12 = var9[var12];

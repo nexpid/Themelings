@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['marginEnd'] = var11;
     var7['iconMargin'] = var10;

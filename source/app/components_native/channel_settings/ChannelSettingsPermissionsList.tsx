@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_12;
     var10['paddingHorizontal'] = var14;
     var10['flex'] = var13;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var10['paddingVertical'] = var11;
     var4['containerSearchBar'] = var10;
@@ -800,12 +800,12 @@ case 54:
             var10 = 10;
             var14 = var13[var10];
             var14 = var12.bind(var4)(var14);
-            var14 = var14.spacing;
+            var14 = var14.space;
             var14 = var14.PX_8;
             var7['insetStart'] = var14;
             var10 = var13[var10];
             var10 = var12.bind(var4)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_8;
             var10 = var10 + var11;
             var7['insetEnd'] = var10;

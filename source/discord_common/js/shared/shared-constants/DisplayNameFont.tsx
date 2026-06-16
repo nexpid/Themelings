@@ -58,6 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ZILLA_SLAB'] = var4;
     var1 = 'ZILLA_SLAB';
     var2[var4] = var1;
+    var4 = 13;
+    var2['PLAYPEN_SANS'] = var4;
+    var1 = 'PLAYPEN_SANS';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -128,20 +128,20 @@ case 4:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var11 = var1.variant;
-            var10 = var1.isSelected;
+            var12 = var1.variant;
+            var7 = var1.isSelected;
             var5 = var1.onSelect;
             var1 = _closure1_slot7;
             var4 = undefined;
-            var9 = var1.bind(var4)(var10);
+            var10 = var1.bind(var4)(var7);
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 5;
             var1 = var6[var1];
             var3 = var2.bind(var4)(var1);
             var1 = var3.useProductPurchaseState;
-            var1 = var1.bind(var3)(var11);
-            var7 = var1.isPurchased;
+            var1 = var1.bind(var3)(var12);
+            var8 = var1.isPurchased;
             var3 = _closure1_slot4;
             var1 = 6;
             var1 = var6[var1];
@@ -150,34 +150,55 @@ case 0:
             var1 = {};
             var6 = 'button';
             var1['accessibilityRole'] = var6;
-            var6 = var11.name;
+            if(var8) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+            var6 = var12.name;
+            _fun0002_ip = 7; continue _fun0002;
+case 5:
+            var13 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var11 = 7;
+            var14 = var16[var11];
+            var14 = var13.bind(var4)(var14);
+            var15 = var14.intl;
+            var14 = var15.formatToPlainString;
+            var11 = var16[var11];
+            var11 = var13.bind(var4)(var11);
+            var11 = var11.t;
+            var13 = var11.SfQB4+;
+            var11 = {};
+            var16 = var12.name;
+            var11['variantLabel'] = var16;
+            var6 = var14.bind(var15)(var13, var11);
+case 7:
             var1['accessibilityLabel'] = var6;
             var6 = {};
-            var6['selected'] = var10;
+            var6['selected'] = var7;
             var1['accessibilityState'] = var6;
             var1['onPress'] = var5;
-            var5 = var9.variantOption;
+            var5 = var10.variantOption;
             var1['style'] = var5;
+            var7 = _closure1_slot4;
             var6 = _closure1_slot3;
             var5 = {};
-            var10 = var9.variantOptionInner;
-            var9 = new Array(2);
-            var9[0] = var10;
-            var10 = {};
-            var12 = var11.variantValue;
-            var10['backgroundColor'] = var12;
-            var9[1] = var10;
-            var5['style'] = var9;
-            if(!var7) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            var10 = _closure1_slot4;
-            var9 = _closure1_slot9;
-            var8 = {};
-            var8['variant'] = var11;
-            var7 = var10.bind(var4)(var9, var8);
-case 5:
-            var5['children'] = var7;
-            var5 = var3.bind(var4)(var6, var5);
+            var11 = var10.variantOptionInner;
+            var10 = new Array(2);
+            var10[0] = var11;
+            var11 = {};
+            var13 = var12.variantValue;
+            var11['backgroundColor'] = var13;
+            var10[1] = var11;
+            var5['style'] = var10;
+            if(!var8) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var11 = _closure1_slot4;
+            var10 = _closure1_slot9;
+            var9 = {};
+            var9['variant'] = var12;
+            var8 = var11.bind(var4)(var10, var9);
+case 8:
+            var5['children'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -191,14 +212,14 @@ case 0:
             var2 = var1.variant;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var1 = var7[var1];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
             var5 = var1.bind(var4)(var2);
             var3 = _closure1_slot4;
             var2 = _closure1_slot0;
-            var1 = 8;
+            var1 = 9;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.CheckmarkSmallIcon;
@@ -209,13 +230,13 @@ case 0:
             var6 = var8[var6];
             var6 = var7.bind(var4)(var6);
             var6 = var6.colors;
-            if(var5) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+            if(var5) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var5 = var6.WHITE;
-            _fun0003_ip = 9; continue _fun0003;
-case 7:
+            _fun0003_ip = 12; continue _fun0003;
+case 10:
             var5 = var6.BLACK;
-case 9:
+case 12:
             var1['color'] = var5;
             var5 = 'md';
             var1['size'] = var5;
@@ -244,14 +265,14 @@ case 0:
             var12 = var1.bind(var5)();
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var3[var1];
             var2 = var2.bind(var5)(var1);
             var1 = var2.getIsVariantProduct;
             var2 = var1.bind(var2)(var11);
             var1 = null;
-            if(!var2) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+            if(!var2) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -263,12 +284,12 @@ case 11:
             var13 = _closure1_slot4;
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var16 = 10;
+            var16 = 11;
             var8 = var20[var16];
             var8 = var19.bind(var5)(var8);
             var9 = var8.Text;
             var8 = {'variant': 'text-md/bold', 'color': 'mobile-text-heading-primary'};
-            var14 = 11;
+            var14 = 7;
             var15 = var20[var14];
             var15 = var19.bind(var5)(var15);
             var18 = var15.intl;
@@ -285,8 +306,8 @@ case 11:
             var9 = var11.variants;
             var9 = var9.length;
             var9 = var9 > var17;
-            if(!var9) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+            if(!var9) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var15 = _closure1_slot4;
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -301,7 +322,7 @@ case 13:
             var16 = var16.variantLabel;
             var13['children'] = var16;
             var9 = var15.bind(var5)(var14, var13);
-case 12:
+case 15:
             var8[1] = var9;
             var6['children'] = var8;
             var8 = var4.bind(var5)(var3, var6);
@@ -344,7 +365,7 @@ case 12:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 10:
+case 13:
             return var1;
         }
     };

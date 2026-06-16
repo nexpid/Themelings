@@ -503,7 +503,7 @@ case 2:
         var10 = 5;
         var10 = var12[var10];
         var10 = var11.bind(var4)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_4;
         var6['dragBoundsPadding'] = var10;
         var10 = function onChangePosition(arg1) {

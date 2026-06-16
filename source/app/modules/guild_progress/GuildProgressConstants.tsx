@@ -35,6 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['DOWNLOAD'] = var1;
     var1 = 'Add App';
     var4['ADD_APP'] = var1;
+    var1 = 'Boost Server';
+    var4['BOOST'] = var1;
     var1 = 'Dismiss Guild Progress';
     var4['DISMISS_GUILD_PROGRESS'] = var1;
     var1 = 'Discord Overview Video';

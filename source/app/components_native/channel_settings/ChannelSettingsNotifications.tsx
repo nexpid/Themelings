@@ -388,7 +388,7 @@ case 26:
     var10['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_16;
     var10['paddingTop'] = var13;
     var7['screenContainer'] = var10;
@@ -1305,7 +1305,7 @@ case 82:
                 var15 = 16;
                 var15 = var18[var15];
                 var15 = var17.bind(var5)(var15);
-                var15 = var15.spacing;
+                var15 = var15.space;
                 var15 = var15.PX_24;
                 var6['spacing'] = var15;
                 var13 = var13.stackPadding;

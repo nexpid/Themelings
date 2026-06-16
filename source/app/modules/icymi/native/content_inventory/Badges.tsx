@@ -150,12 +150,12 @@ case 4:
     var10 = 5;
     var12 = var7[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_4;
     var9['paddingVertical'] = var12;
     var12 = var7[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['paddingLeft'] = var12;
     var12 = var7[var10];

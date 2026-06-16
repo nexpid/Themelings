@@ -207,7 +207,7 @@ case 5:
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['padding'] = var10;
     var4['content'] = var9;
@@ -682,7 +682,7 @@ case 25:
             var10 = 18;
             var15 = var17[var10];
             var15 = var19.bind(var4)(var15);
-            var15 = var15.spacing;
+            var15 = var15.space;
             var15 = var15.PX_16;
             var9['size'] = var15;
             var9 = var20.bind(var4)(var11, var9);
@@ -752,7 +752,7 @@ case 26:
             var19 = _closure1_slot1;
             var18 = var16[var10];
             var18 = var19.bind(var4)(var18);
-            var18 = var18.spacing;
+            var18 = var18.space;
             var18 = var18.PX_16;
             var9['size'] = var18;
             var9 = var23.bind(var4)(var15, var9);
@@ -825,7 +825,7 @@ case 29:
             var9 = {};
             var18 = var16[var10];
             var18 = var19.bind(var4)(var18);
-            var18 = var18.spacing;
+            var18 = var18.space;
             var18 = var18.PX_16;
             var9['size'] = var18;
             var9 = var23.bind(var4)(var15, var9);
@@ -1116,7 +1116,7 @@ case 30:
             var8 = {};
             var10 = var17[var10];
             var10 = var12.bind(var4)(var10);
-            var10 = var10.spacing;
+            var10 = var10.space;
             var10 = var10.PX_16;
             var8['size'] = var10;
             var8 = var13.bind(var4)(var9, var8);

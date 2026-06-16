@@ -41,13 +41,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot18 = var2;
+            _closure1_slot20 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot20 = var1;
     var1 = function setOptions(arg1) {
         var1 = {};
         var6 = _closure1_slot16;
@@ -78,7 +78,24 @@ case 4:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot21 = var1;
+    var1 = function setRoutingKeyTags(arg1) {
+        var1 = arg1;
+        _closure1_slot19 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot3;
+        var1 = 11;
+        var3 = var3[var1];
+        var1 = undefined;
+        var3 = var4.bind(var1)(var3);
+        var5 = var3.Storage;
+        var4 = var5.set;
+        var3 = _closure1_slot18;
+        var2 = _closure1_slot19;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var _closure1_slot22 = var1;
     var2 = global;
     var10 = var2.Object;
     var9 = var10.defineProperty;
@@ -323,6 +340,10 @@ case 12:
     var18 = var9;
     var9 = copyDataProperties(var19, var18);
     var _closure1_slot17 = var8;
+    var8 = 'DeveloperOptionsRoutingKey';
+    var _closure1_slot18 = var8;
+    var8 = new Array(0);
+    var _closure1_slot19 = var8;
     var8 = 13;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
@@ -340,7 +361,7 @@ case 0:
                 var1 = _closure1_slot7;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot6;
-                var1 = _closure1_slot18;
+                var1 = _closure1_slot20;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 16; continue _fun0004 }
 case 10:
@@ -376,32 +397,44 @@ case 17:
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var4 = _closure1_slot0;
-                var2 = _closure1_slot3;
-                var1 = 11;
-                var2 = var2[var1];
+                var1 = _closure1_slot3;
+                var6 = 11;
+                var2 = var1[var6];
                 var1 = undefined;
                 var2 = var4.bind(var1)(var2);
                 var5 = var2.Storage;
                 var4 = var5.get;
                 var2 = _closure1_slot15;
-                var4 = var4.bind(var5)(var2);
-                var2 = null;
-                if(!(var2 != var4)) { _fun0005_ip = 18; continue _fun0005 }
+                var5 = var4.bind(var5)(var2);
+                var4 = null;
+                if(!(var4 != var5)) { _fun0005_ip = 18; continue _fun0005 }
 case 10:
                 var2 = {};
-                var6 = _closure1_slot16;
-                var7 = var2;
-                var5 = copyDataProperties(var7, var6);
-                var7 = var2;
-                var6 = var4;
-                var4 = copyDataProperties(var7, var6);
+                var8 = _closure1_slot16;
+                var9 = var2;
+                var7 = copyDataProperties(var9, var8);
+                var9 = var2;
+                var8 = var5;
+                var5 = copyDataProperties(var9, var8);
                 _closure1_slot17 = var2;
 case 18:
+                var5 = _closure1_slot0;
+                var2 = _closure1_slot3;
+                var2 = var2[var6];
+                var2 = var5.bind(var1)(var2);
+                var6 = var2.Storage;
+                var5 = var6.get;
+                var2 = _closure1_slot18;
+                var2 = var5.bind(var6)(var2);
+                if(!(var4 != var2)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+                _closure1_slot19 = var2;
+case 19:
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(20);
+        var1 = new Array(22);
         var1[0] = var5;
         var5 = {};
         var7 = 'isTracingRequests';
@@ -586,7 +619,7 @@ case 18:
         var5 = {};
         var7 = 'getDebugOptionsHeaderValue';
         var5['key'] = var7;
-        var6 = function getDebugOptionsHeaderValue() {
+        var7 = function getDebugOptionsHeaderValue() {
             var3 = global;
             var6 = var3.Object;
             var5 = var6.keys;
@@ -617,8 +650,39 @@ case 18:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[19] = var5;
+        var5 = {};
+        var7 = 'routingKeyTags';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot19;
+            return var1;
+        };
+        var5['get'] = var7;
+        var1[20] = var5;
+        var5 = {};
+        var7 = 'getRoutingKeyHeaderValue';
+        var5['key'] = var7;
+        var6 = function getRoutingKeyHeaderValue() {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var1 = _closure1_slot19;
+                var4 = var1.length;
+                var3 = 0;
+                var1 = null;
+                if(!(var3 !== var4)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
+                var4 = _closure1_slot19;
+                var3 = var4.join;
+                var2 = ',';
+                var1 = var3.bind(var4)(var2);
+case 21:
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[21] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -629,15 +693,18 @@ case 18:
     var19 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function handleLogout(arg1) {
-        var3 = _closure1_slot19;
-        var2 = _closure1_slot16;
+        var4 = _closure1_slot21;
+        var3 = _closure1_slot16;
         var1 = undefined;
+        var3 = var4.bind(var1)(var3);
+        var3 = _closure1_slot22;
+        var2 = new Array(0);
         var2 = var3.bind(var1)(var2);
         return var1;
     };
     var2['LOGOUT'] = var9;
     var9 = function handleConnectionOpen(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var3 = arg1;
             var1 = var3.user;
@@ -645,30 +712,30 @@ case 0:
             var4 = null;
             var2 = var4 != var1;
             var6 = 0;
-            if(!var2) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+            if(!var2) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
             var6 = var1;
-case 19:
+case 23:
             var2 = _closure1_slot9;
             var5 = var2.STAFF;
             var5 = var6 & var5;
             var2 = var2.STAFF;
             var2 = var5 === var2;
             var6 = var2;
-            if(var6) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+            if(var6) { _fun0007_ip = 25; continue _fun0007 }
+case 26:
             var3 = var3.user;
             var3 = var3.personal_connection_id;
             var6 = var4 != var3;
-case 21:
-            if(!var2) { _fun0006_ip = 23; continue _fun0006 }
+case 25:
+            if(!var2) { _fun0007_ip = 27; continue _fun0007 }
 case 18:
             var4 = _closure1_slot14;
             var3 = var4.set;
             var2 = _closure1_slot17;
             var2 = var2.sourceMapsEnabled;
             var2 = var3.bind(var4)(var2);
-case 23:
+case 27:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
             var1 = 12;
@@ -685,15 +752,24 @@ case 23:
         }
     };
     var2['CONNECTION_OPEN'] = var9;
-    var4 = function handleUpdateSettings(arg1) {
+    var9 = function handleUpdateSettings(arg1) {
         var1 = arg1;
         var3 = var1.settings;
-        var2 = _closure1_slot19;
+        var2 = _closure1_slot21;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
-    var2['DEVELOPER_OPTIONS_UPDATE_SETTINGS'] = var4;
+    var2['DEVELOPER_OPTIONS_UPDATE_SETTINGS'] = var9;
+    var4 = function handleSetRoutingKey(arg1) {
+        var1 = arg1;
+        var3 = var1.tags;
+        var2 = _closure1_slot22;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var3);
+        return var1;
+    };
+    var2['DEVELOPER_OPTIONS_SET_ROUTING_KEY'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var20 = var4;

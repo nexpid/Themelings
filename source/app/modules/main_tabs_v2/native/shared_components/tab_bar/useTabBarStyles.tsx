@@ -130,10 +130,10 @@ case 0:
             var3 = var3.colors;
             var3 = var3.BACKGROUND_SURFACE_HIGH;
             var2['backgroundColor'] = var3;
-            var1['tabBar'] = var2;
-            var2 = {};
             var9 = 0;
-            var2['borderTopWidth'] = var9;
+            var2['elevation'] = var9;
+            var1['tabBar'] = var2;
+            var2 = {'borderTopWidth': 0, 'elevation': 0};
             var1['tabBarYou'] = var2;
             var2 = {};
             var3 = var12[var7];

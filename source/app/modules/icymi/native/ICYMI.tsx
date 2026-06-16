@@ -1189,7 +1189,7 @@ case 38:
         var2['backgroundColor'] = var7;
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.spacing;
+        var3 = var3.space;
         var3 = var3.PX_8;
         var2['paddingHorizontal'] = var3;
         var3 = 'hidden';
@@ -1261,17 +1261,17 @@ case 38:
         var2 = {};
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_16;
         var2['marginRight'] = var8;
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_32;
         var2['height'] = var8;
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_32;
         var2['width'] = var8;
         var2['alignItems'] = var7;
@@ -1292,7 +1292,7 @@ case 38:
         var2 = {'flexDirection': 'row', 'alignItems': 'center'};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_12;
         var2['gap'] = var7;
         var1['headerActions'] = var2;
@@ -1306,7 +1306,7 @@ case 38:
         var2 = {'flex': 1, 'justifyContent': 'center'};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_96;
         var2['paddingTop'] = var7;
         var1['loading'] = var2;

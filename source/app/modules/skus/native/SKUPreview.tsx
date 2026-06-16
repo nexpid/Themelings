@@ -98,7 +98,7 @@ case 8:
             var14 = 6;
             var14 = var13[var14];
             var14 = var16.bind(var4)(var14);
-            var14 = var14.spacing;
+            var14 = var14.space;
             var14 = var14.PX_48;
             var14 = var15 - var14;
             var6['previewWidth'] = var14;
@@ -370,7 +370,7 @@ case 16:
     var13 = 6;
     var13 = var9[var13];
     var13 = var14.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var12['padding'] = var13;
     var7['profileFrameContainer'] = var12;

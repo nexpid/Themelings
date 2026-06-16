@@ -1617,8 +1617,8 @@ case 32:
                             var1['src'] = var4;
                             var1 = var2.bind(var3)(var1);
 case 98: // try_end0
-                            _fun0025_ip = 46; continue _fun0025;
-case 99: // catch_target0
+                            _fun0025_ip = 99; continue _fun0025;
+case 66: // catch_target0
                             CatchBlockStart(arg_register=2);
                             var4 = _closure1_slot1;
                             var2 = _closure1_slot2;
@@ -1628,7 +1628,7 @@ case 99: // catch_target0
                             var2 = var4.bind(var1)(var2);
                             var1 = var2.captureException;
                             var1 = var1.bind(var2)(var3);
-case 46:
+case 99:
                             var1 = undefined;
                             return var1;
                         }

@@ -507,7 +507,7 @@ case 20:
     var11 = copyDataProperties(var26, var25);
     var11 = var6[var14];
     var11 = var16.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var15 = 'margin';
     var10[14] = var11;
@@ -536,7 +536,7 @@ case 20:
     var10 = {};
     var23 = var6[var14];
     var23 = var16.bind(var1)(var23);
-    var23 = var23.spacing;
+    var23 = var23.space;
     var23 = var23.PX_16;
     var10['marginTop'] = var23;
     var4['videoUnavailableSpinner'] = var10;
@@ -553,12 +553,12 @@ case 20:
     var10['borderRadius'] = var23;
     var23 = var6[var14];
     var23 = var16.bind(var1)(var23);
-    var23 = var23.spacing;
+    var23 = var23.space;
     var23 = var23.PX_8;
     var10['padding'] = var23;
     var23 = var6[var14];
     var23 = var16.bind(var1)(var23);
-    var23 = var23.spacing;
+    var23 = var23.space;
     var23 = var23.PX_8;
     var10['margin'] = var23;
     var10['justifyContent'] = var12;
@@ -571,7 +571,7 @@ case 20:
     var10 = {};
     var20 = var6[var14];
     var20 = var16.bind(var1)(var20);
-    var20 = var20.spacing;
+    var20 = var20.space;
     var20 = var20.PX_4;
     var10['marginLeft'] = var20;
     var10['textAlign'] = var12;
@@ -579,7 +579,7 @@ case 20:
     var10 = {'marginBottom': null, 'resizeMode': 'contain', 'aspectRatio': 2.5, 'width': '80%'};
     var20 = var6[var14];
     var20 = var16.bind(var1)(var20);
-    var20 = var20.spacing;
+    var20 = var20.space;
     var20 = var20.PX_8;
     var10['marginBottom'] = var20;
     var4['unavaiableImage'] = var10;
@@ -599,7 +599,7 @@ case 20:
     var10[17] = var17;
     var14 = var6[var14];
     var14 = var16.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var10[14] = var14;
     var10[12] = var12;

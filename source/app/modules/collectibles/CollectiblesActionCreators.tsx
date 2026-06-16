@@ -1652,7 +1652,7 @@ case 113:
 case 174:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 26;
+                    var2 = 27;
                     var2 = var6[var2];
                     var2 = var5.bind(var3)(var2);
                     var2 = var2.CollectiblesMarketingReleaseType;
@@ -1678,14 +1678,14 @@ case 177:
                     var4 = var8.bind(var11)(var4);
                     var4 = {};
                     var8 = _closure1_slot0;
-                    var11 = 27;
+                    var11 = 28;
                     var11 = var10[var11];
                     var11 = var8.bind(var3)(var11);
                     var11 = var11.CollectiblesMarketingPlatform;
                     var11 = var11.MOBILE;
                     var4['platform'] = var11;
                     var9 = var4;
-                    var4 = 26;
+                    var4 = 27;
                     var4 = var10[var4];
                     var4 = var8.bind(var3)(var4);
                     var4 = var4.CollectiblesMarketingReleaseType;
@@ -2341,7 +2341,7 @@ case 183:
     var19['fetchCollectiblesPurchases'] = var13;
     var19['fetchCollectiblesProduct'] = var12;
     var19['claimPremiumCollectiblesProduct'] = var10;
-    var20 = 28;
+    var20 = 29;
     var20 = var22[var20];
     var22 = var21.bind(var1)(var20);
     var21 = var22.fileFinishedImporting;
@@ -2543,6 +2543,62 @@ case 26:
     var3['fetchCollectiblesPurchases'] = var13;
     var3['fetchCollectiblesProduct'] = var12;
     var3['maybeFetchCollectiblesProduct'] = var11;
+    var11 = function(arg1) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+case 0:
+            var1 = global;
+            var2 = var1.Date;
+            var1 = var2.now;
+            var9 = var1.bind(var2)();
+            var3 = _closure1_slot24;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 26;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var2);
+            var4 = var5.extendVariantsProducts;
+            var2 = new Array(1);
+            var6 = arg1;
+            var2[0] = var6;
+            var2 = var4.bind(var5)(var2);
+            var7 = var3.bind(var1)(var2);
+            var3 = var7.bind(var1)();
+            var2 = var3.done;
+            var6 = 18;
+            var5 = 'COLLECTIBLES_PRODUCT_FETCH_SUCCESS';
+            var4 = null;
+            if(var2) { _fun0021_ip = 133; continue _fun0021 }
+case 11:
+            var12 = var3.value;
+            var11 = _closure1_slot6;
+            var10 = var11.getProduct;
+            var2 = var12.skuId;
+            var2 = var10.bind(var11)(var2);
+            if(!(var4 == var2)) { _fun0021_ip = 260; continue _fun0021 }
+case 61:
+            var10 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var11 = var10.bind(var1)(var2);
+            var10 = var11.dispatch;
+            var2 = {};
+            var2['type'] = var5;
+            var13 = var12.skuId;
+            var2['skuId'] = var13;
+            var2['product'] = var12;
+            var2['endedAt'] = var9;
+            var2 = var10.bind(var11)(var2);
+case 260:
+            var10 = var7.bind(var1)();
+            var2 = var10.done;
+            var3 = var10;
+            if(!var2) { _fun0021_ip = 11; continue _fun0021 }
+case 133:
+            return var1;
+        }
+    };
+    var3['seedCollectiblesProductFromStandaloneLoad'] = var11;
     var3['claimPremiumCollectiblesProduct'] = var10;
     var3['validateCollectiblesRecipient'] = var9;
     var3['validateCollectiblesRecipientsBatch'] = var8;

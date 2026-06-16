@@ -66,7 +66,7 @@ case 0:
         var10 = 8;
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_16;
         var9['marginTop'] = var13;
         var13 = 'center';
@@ -91,7 +91,7 @@ case 2:
         var9 = {};
         var14 = var6[var10];
         var14 = var11.bind(var1)(var14);
-        var14 = var14.spacing;
+        var14 = var14.space;
         var14 = var14.PX_16;
         var9['marginTop'] = var14;
         var9['alignSelf'] = var13;
@@ -99,12 +99,12 @@ case 2:
         var9 = {};
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_8;
         var9['gap'] = var13;
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
-        var13 = var13.spacing;
+        var13 = var13.space;
         var13 = var13.PX_24;
         var9['marginTop'] = var13;
         var4['buttonContainer'] = var9;

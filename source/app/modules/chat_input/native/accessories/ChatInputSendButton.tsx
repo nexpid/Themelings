@@ -154,11 +154,13 @@ case 7:
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
-    var4 = function(arg1) {
+    var4 = function(arg1, arg2) {
         var1 = {};
         var2 = {};
         var3 = arg1;
         var2['width'] = var3;
+        var3 = arg2;
+        var2['height'] = var3;
         var1['button'] = var2;
         var2 = {};
         var5 = _closure1_slot1;
@@ -195,23 +197,32 @@ case 0:
             var11 = var1.cleanup;
             var2 = var1.type;
             var7 = var1.withBounce;
-            var3 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var1 = 9;
-            var1 = var15[var1];
+            var6 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var3 = 9;
+            var1 = var16[var3];
             var4 = undefined;
-            var5 = var3.bind(var4)(var1);
-            var3 = var5.useToken;
-            var6 = _closure1_slot1;
+            var18 = var6.bind(var4)(var1);
+            var17 = var18.useToken;
+            var15 = _closure1_slot1;
             var1 = 8;
-            var1 = var15[var1];
-            var1 = var6.bind(var4)(var1);
+            var5 = var16[var1];
+            var5 = var15.bind(var4)(var5);
+            var5 = var5.modules;
+            var5 = var5.mobile;
+            var5 = var5.CHAT_INPUT_SEND_BUTTON_WIDTH;
+            var5 = var17.bind(var18)(var5);
+            var3 = var16[var3];
+            var6 = var6.bind(var4)(var3);
+            var3 = var6.useToken;
+            var1 = var16[var1];
+            var1 = var15.bind(var4)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
-            var1 = var1.CHAT_INPUT_SEND_BUTTON_WIDTH;
-            var3 = var3.bind(var5)(var1);
+            var1 = var1.CHAT_INPUT_SEND_BUTTON_HEIGHT;
+            var3 = var3.bind(var6)(var1);
             var1 = _closure1_slot11;
-            var15 = var1.bind(var4)(var3);
+            var15 = var1.bind(var4)(var5, var3);
             var1 = _closure1_slot10;
             var1 = var1.BUTTON_SEND_VOICE_MESSAGE;
             var5 = var2 === var1;
@@ -337,7 +348,7 @@ case 18:
             var7 = var11.bind(var4)(var7);
             var7 = var7.modules;
             var7 = var7.mobile;
-            var7 = var7.CHAT_INPUT_ACTION_BUTTON_SIZE;
+            var7 = var7.CHAT_INPUT_SEND_BUTTON_HEIGHT;
             var7 = var10.bind(var15)(var7);
             var2 = var20[var2];
             var10 = var12.bind(var4)(var2);
@@ -349,7 +360,7 @@ case 18:
             var1 = var1.CHAT_INPUT_ACTION_BUTTON_MARGIN;
             var16 = var2.bind(var10)(var1);
             var1 = _closure1_slot11;
-            var15 = var1.bind(var4)(var8);
+            var15 = var1.bind(var4)(var8, var7);
             var1 = 15;
             var1 = var20[var1];
             var10 = var12.bind(var4)(var1);
@@ -404,27 +415,27 @@ case 18:
             var10 = var21.bind(var22)(var20, var10, var12);
             _closure2_slot4 = var10;
             var12 = !var10;
-            if(var12) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-            var12 = var19;
+            if(var12) { _fun0003_ip = 17; continue _fun0003 }
 case 20:
-            if(!var12) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-            if(var6) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-            var6 = var18;
-case 24:
-            if(var6) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
-            var6 = !var17;
-case 26:
-            var12 = var6;
+            var12 = var19;
+case 17:
+            if(!var12) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
+            if(var6) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+            var6 = var18;
+case 23:
+            if(var6) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+            var6 = !var17;
+case 25:
+            var12 = var6;
+case 21:
             _closure2_slot5 = var12;
-            if(!var5) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
-            var5 = !var12;
+            if(!var5) { _fun0003_ip = 27; continue _fun0003 }
 case 28:
+            var5 = !var12;
+case 27:
             _closure2_slot6 = var5;
             var19 = _closure1_slot4;
             var18 = var19.useMemo;
@@ -465,10 +476,10 @@ case 28:
                 return var1;
             };
             var3 = var18.bind(var19)(var6, var3);
-            if(!var2) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
-            if(var1) { _fun0003_ip = 32; continue _fun0003 }
+            if(!var2) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
+            if(var1) { _fun0003_ip = 31; continue _fun0003 }
+case 29:
             var6 = _closure1_slot9;
             var3 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -484,8 +495,8 @@ case 30:
             var2['getItemKey'] = var17;
             var17 = var6.bind(var4)(var3, var2);
             var6 = _closure1_slot9;
-            if(var1) { _fun0003_ip = 33; continue _fun0003 }
-case 34:
+            if(var1) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
             var2 = _closure1_slot5;
             var1 = {};
             var3 = {};
@@ -496,8 +507,8 @@ case 34:
             var1['style'] = var3;
             var1['children'] = var17;
             var1 = var6.bind(var4)(var2, var1);
-            _fun0003_ip = 35; continue _fun0003;
-case 33:
+            _fun0003_ip = 34; continue _fun0003;
+case 32:
             var3 = _closure1_slot15;
             var2 = {};
             var2['buttonWidth'] = var8;
@@ -506,29 +517,32 @@ case 33:
             var2['sendVoiceMessageEnabled'] = var5;
             var2['children'] = var17;
             var1 = var6.bind(var4)(var3, var2);
-case 35:
+case 34:
             return var1;
-case 32:
+case 31:
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
             var1 = {};
             var6 = {};
             var11 = var11 * var16;
-            if(var5) { _fun0003_ip = 36; continue _fun0003 }
-case 37:
-            var8 = var8 + var11;
-            _fun0003_ip = 38; continue _fun0003;
+            if(var5) { _fun0003_ip = 35; continue _fun0003 }
 case 36:
+            var8 = var8 + var11;
+            _fun0003_ip = 37; continue _fun0003;
+case 35:
             var8 = var7 + var11;
-case 38:
+case 37:
             var6['width'] = var8;
             var6['height'] = var7;
+            var7 = 'center';
+            var6['alignItems'] = var7;
+            var6['justifyContent'] = var7;
             var1['style'] = var6;
             var8 = _closure1_slot9;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            if(var5) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
+            if(var5) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
             var5 = 12;
             var5 = var11[var5];
             var6 = var7.bind(var4)(var5);
@@ -562,8 +576,8 @@ case 40:
             var12 = !var12;
             var5['disabled'] = var12;
             var5 = var8.bind(var4)(var6, var5);
-            _fun0003_ip = 41; continue _fun0003;
-case 39:
+            _fun0003_ip = 40; continue _fun0003;
+case 38:
             var6 = 11;
             var6 = var11[var6];
             var7 = var7.bind(var4)(var6);
@@ -572,7 +586,7 @@ case 39:
             var9 = var9.id;
             var6['channelId'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 41:
+case 40:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

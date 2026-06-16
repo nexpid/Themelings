@@ -535,7 +535,7 @@ case 56:
     var12 = var12.ALL;
     var10['viewerConnectivity'] = var12;
     var10['maxAutoClips'] = var11;
-    var11 = {'enableDistributedSignals': true, 'enablePhraseSignals': true, 'enableGameSignals': true};
+    var11 = {'enableDistributedSignals': true, 'enableGameSignals': true};
     var10['clipSignals'] = var11;
     var10['debugTooltipsEnabled'] = var5;
     var10['enableAutoclipping'] = var1;

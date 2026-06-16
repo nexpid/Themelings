@@ -1578,12 +1578,12 @@ case 87:
     var10 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var10['gap'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var10['padding'] = var14;
     var14 = var6[var11];
@@ -1604,7 +1604,7 @@ case 87:
     var10['backgroundColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_16;
     var10['marginHorizontal'] = var11;
     var4['blockedMemberWarning'] = var10;

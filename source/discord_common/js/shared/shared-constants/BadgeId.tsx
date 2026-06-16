@@ -78,6 +78,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIFTING'] = var4;
     var1 = 'GIFTING';
     var2[var4] = var1;
+    var4 = 18;
+    var2['ACCOUNT_AGE'] = var4;
+    var1 = 'ACCOUNT_AGE';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

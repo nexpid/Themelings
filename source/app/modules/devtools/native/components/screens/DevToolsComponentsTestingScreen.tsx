@@ -254,12 +254,12 @@ case 15:
     var13 = {};
     var16 = var6[var14];
     var16 = var15.bind(var1)(var16);
-    var16 = var16.spacing;
+    var16 = var16.space;
     var16 = var16.PX_16;
     var13['padding'] = var16;
     var14 = var6[var14];
     var14 = var15.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_32;
     var13['paddingBottom'] = var14;
     var4['contentContainer'] = var13;

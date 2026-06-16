@@ -400,7 +400,7 @@ case 56:
             var11 = var3.channelId;
             var10 = var3.messageId;
             var7 = _closure1_slot1;
-            var3 = 45;
+            var3 = 44;
             var3 = var6[var3];
             var9 = var7.bind(var2)(var3);
             var8 = var9.trackWithMetadata;
@@ -418,7 +418,7 @@ case 56:
             var7 = _closure1_slot27;
             var3 = var7.enqueue;
             var3 = var3.bind(var7)(var4);
-            var3 = 44;
+            var3 = 43;
             var3 = var6[var3];
             var5 = var5.bind(var2)(var3);
             var3 = var5.playInAppMessageSound;
@@ -455,7 +455,7 @@ case 55:
         var8 = var3.channelId;
         var7 = var3.messageId;
         var4 = _closure1_slot1;
-        var3 = 45;
+        var3 = 44;
         var3 = var5[var3];
         var5 = var4.bind(var1)(var3);
         var4 = var5.trackWithMetadata;
@@ -919,7 +919,7 @@ case 70:
     var2 = var5.bind(var1)(var2);
     var2 = var2.EMPTY_SCHEDULE_SNAPSHOT;
     var _closure1_slot30 = var2;
-    var2 = 46;
+    var2 = 45;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -1012,7 +1012,7 @@ case 72:
     var8 = var2.bind(var1)(var8);
     var2 = 'InAppNotificationStore';
     var8['displayName'] = var2;
-    var2 = 47;
+    var2 = 46;
     var2 = var6[var2];
     var14 = var7.bind(var1)(var2);
     var2 = {};
@@ -1409,14 +1409,7 @@ case 120:
             var15 = var8[var14];
             var16 = var10.bind(var1)(var15);
             var15 = var16.shouldIncludeSelectedChannel;
-            var16 = var15.bind(var16)();
-            var15 = 41;
-            var15 = var8[var15];
-            var18 = var10.bind(var1)(var15);
-            var17 = var18.getShowInAppReactionNotificationExperiment;
-            var15 = 'handleReactionAdd';
-            var15 = var17.bind(var18)(var15);
-            var15 = var15.enabled;
+            var15 = var15.bind(var16)();
             var8 = var8[var14];
             var14 = var10.bind(var1)(var8);
             var10 = var14.shouldNotifyForReaction;
@@ -1424,8 +1417,7 @@ case 120:
             var8['message'] = var4;
             var8['channel'] = var9;
             var8['reactor'] = var11;
-            var8['includeSelectedChannel'] = var16;
-            var8['notifyMessageAuthor'] = var15;
+            var8['includeSelectedChannel'] = var15;
             var8 = var10.bind(var14)(var8);
             if(var8) { _fun0015_ip = 123; continue _fun0015 }
 case 124:
@@ -1562,7 +1554,7 @@ case 0:
             var6 = var1.savedMessage;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 42;
+            var1 = 41;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1651,7 +1643,7 @@ case 0:
             var8 = var1.subtitle;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 43;
+            var1 = 42;
             var1 = var3[var1];
             var5 = undefined;
             var3 = var2.bind(var5)(var1);
@@ -2057,7 +2049,7 @@ case 159:
 case 36:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 43;
+            var1 = 42;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -2177,7 +2169,7 @@ case 163:
     var13 = var2;
     var2 = new var15[var8](var14, var13, var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 48;
+    var4 = 47;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

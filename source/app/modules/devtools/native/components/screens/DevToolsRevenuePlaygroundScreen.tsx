@@ -1024,7 +1024,7 @@ case 44:
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['padding'] = var10;
     var4['scrollContainer'] = var9;
@@ -1065,7 +1065,7 @@ case 44:
         var10 = 19;
         var15 = var12[var10];
         var15 = var11.bind(var4)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_16;
         var9['size'] = var15;
         var9 = var14.bind(var4)(var13, var9);
@@ -1082,7 +1082,7 @@ case 44:
         var9 = {};
         var15 = var12[var10];
         var15 = var11.bind(var4)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_16;
         var9['size'] = var15;
         var9 = var14.bind(var4)(var13, var9);
@@ -1099,7 +1099,7 @@ case 44:
         var9 = {};
         var15 = var12[var10];
         var15 = var11.bind(var4)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_16;
         var9['size'] = var15;
         var9 = var14.bind(var4)(var13, var9);
@@ -1116,7 +1116,7 @@ case 44:
         var9 = {};
         var15 = var12[var10];
         var15 = var11.bind(var4)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_16;
         var9['size'] = var15;
         var9 = var14.bind(var4)(var13, var9);
@@ -1133,7 +1133,7 @@ case 44:
         var9 = {};
         var15 = var12[var10];
         var15 = var11.bind(var4)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_16;
         var9['size'] = var15;
         var9 = var14.bind(var4)(var13, var9);
@@ -1150,7 +1150,7 @@ case 44:
         var9 = {};
         var15 = var12[var10];
         var15 = var11.bind(var4)(var15);
-        var15 = var15.spacing;
+        var15 = var15.space;
         var15 = var15.PX_16;
         var9['size'] = var15;
         var9 = var14.bind(var4)(var13, var9);
@@ -1167,7 +1167,7 @@ case 44:
         var7 = {};
         var10 = var12[var10];
         var10 = var11.bind(var4)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_16;
         var7['size'] = var10;
         var7 = var9.bind(var4)(var8, var7);

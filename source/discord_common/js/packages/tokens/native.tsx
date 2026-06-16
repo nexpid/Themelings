@@ -1,11 +1,11 @@
 // discord_common/js/packages/tokens/native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var9 = require;
-    var13 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var10 = dependencyMap;
     var _closure1_slot0 = var9;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var10;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -220,39 +220,34 @@ case 35:
     var2 = var10[var2];
     var2 = var9.bind(var1)(var2);
     var2 = var2._private;
-    var14 = var2.Modules;
+    var13 = var2.Modules;
     var2 = 5;
     var2 = var10[var2];
     var2 = var9.bind(var1)(var2);
     var2 = var2._private;
     var2 = var2.Shadows;
-    var8 = 6;
-    var8 = var10[var8];
-    var8 = var9.bind(var1)(var8);
-    var8 = var8._private;
-    var8 = var8.Spacing;
-    var12 = var7.Symbol;
+    var8 = var7.Symbol;
     var7 = 'semanticColor';
-    var7 = var12.bind(var1)(var7);
+    var7 = var8.bind(var1)(var7);
     var _closure1_slot7 = var7;
     var7 = {};
     var7['themes'] = var6;
-    var12 = 7;
-    var15 = var10[var12];
-    var16 = var13.bind(var1)(var15);
-    var15 = function(arg1, arg2) {
+    var8 = 6;
+    var14 = var10[var8];
+    var15 = var12.bind(var1)(var14);
+    var14 = function(arg1, arg2) {
         var1 = {};
         var3 = _closure1_slot7;
         var2 = arg2;
         var1[2] = var2;
         return var1;
     };
-    var15 = var16.bind(var1)(var4, var15);
-    var7['colors'] = var15;
+    var14 = var15.bind(var1)(var4, var14);
+    var7['colors'] = var14;
     var7['unsafe_rawColors'] = var5;
-    var15 = var10[var12];
-    var16 = var13.bind(var1)(var15);
-    var15 = function(arg1) {
+    var14 = var10[var8];
+    var15 = var12.bind(var1)(var14);
+    var14 = function(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var4 = function createResolve(arg1) {
@@ -331,19 +326,19 @@ case 31:
         var1['elevation'] = var2;
         return var1;
     };
-    var15 = var16.bind(var1)(var2, var15);
-    var7['shadows'] = var15;
-    var15 = 8;
-    var15 = var10[var15];
-    var15 = var9.bind(var1)(var15);
-    var15 = var15.Radius;
-    var7['radii'] = var15;
-    var12 = var10[var12];
-    var13 = var13.bind(var1)(var12);
-    var12 = function(arg1) {
+    var14 = var15.bind(var1)(var2, var14);
+    var7['shadows'] = var14;
+    var14 = 7;
+    var14 = var10[var14];
+    var14 = var9.bind(var1)(var14);
+    var14 = var14.Radius;
+    var7['radii'] = var14;
+    var8 = var10[var8];
+    var12 = var12.bind(var1)(var8);
+    var8 = function(arg1) {
         var2 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 7;
+        var1 = 6;
         var1 = var3[var1];
         var4 = undefined;
         var3 = var2.bind(var4)(var1);
@@ -384,14 +379,13 @@ case 41:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var12 = var13.bind(var1)(var14, var12);
-    var7['modules'] = var12;
-    var12 = 9;
-    var12 = var10[var12];
-    var12 = var9.bind(var1)(var12);
-    var12 = var12.SpacePx;
-    var7['space'] = var12;
-    var7['spacing'] = var8;
+    var8 = var12.bind(var1)(var13, var8);
+    var7['modules'] = var8;
+    var8 = 8;
+    var8 = var10[var8];
+    var8 = var9.bind(var1)(var8);
+    var8 = var8.SpacePx;
+    var7['space'] = var8;
     var8 = {};
     var12 = function isSemanticColor(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -572,7 +566,7 @@ case 68:
 case 70:
             var13 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var9 = 10;
+            var9 = 9;
             var9 = var15[var9];
             var13 = var13.bind(var5)(var9);
             var15 = var14.color;
@@ -686,7 +680,7 @@ case 94:
 case 97:
             var3 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var1 = var13[var1];
             var3 = var3.bind(var5)(var1);
             var1 = var3.transformColorForReducedSaturation;
@@ -697,7 +691,7 @@ case 96:
 case 99:
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var1 = var12[var1];
             var7 = var7.bind(var5)(var1);
             var1 = var7.transformColorContrast;
@@ -713,7 +707,7 @@ case 98:
 case 101:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var3 = var2.bind(var5)(var3);
@@ -729,7 +723,7 @@ case 100:
     var12 = function adjustColorSaturation(arg1, arg2, arg3) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
@@ -744,7 +738,7 @@ case 100:
     var11 = function adjustColorContrast(arg1, arg2, arg3, arg4) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var6 = var3.bind(var1)(var2);
@@ -759,7 +753,7 @@ case 100:
     };
     var8['adjustColorContrast'] = var11;
     var7['internal'] = var8;
-    var8 = 12;
+    var8 = 11;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;

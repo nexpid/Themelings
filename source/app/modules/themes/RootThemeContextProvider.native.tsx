@@ -91,55 +91,65 @@ case 0:
             var11 = 'RootThemeContextProvider';
             var6['location'] = var11;
             var6 = var13.bind(var14)(var6);
-            var14 = var6.enabled;
-            var _closure2_slot0 = var14;
-            var13 = var6.chatInputFloating;
-            var _closure2_slot1 = var13;
+            var15 = var6.enabled;
+            var _closure2_slot0 = var15;
+            var14 = var6.chatInputFloating;
+            var _closure2_slot1 = var14;
+            var13 = var6.chatInputLegacySendButton;
+            var _closure2_slot2 = var13;
             var6 = 8;
             var6 = var12[var6];
             var9 = var9.bind(var4)(var6);
             var6 = var9.useManaTypeConsolidationExperiment;
             var12 = var6.bind(var9)(var11);
-            var _closure2_slot2 = var12;
+            var _closure2_slot3 = var12;
             var11 = _closure1_slot3;
             var9 = var11.useMemo;
-            var6 = new Array(3);
-            var6[0] = var14;
-            var6[1] = var13;
-            var6[2] = var12;
+            var6 = new Array(4);
+            var6[0] = var15;
+            var6[1] = var14;
+            var6[2] = var13;
+            var6[3] = var12;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = new Array(0);
-                    var3 = _closure2_slot1;
+                    var3 = _closure2_slot2;
                     if(!var3) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
                     var4 = var2.push;
-                    var3 = 'mobile-visual-refresh-floating';
+                    var3 = 'mobile-visual-refresh-legacy-send-button';
                     var3 = var4.bind(var2)(var3);
 case 2:
-                    var3 = _closure2_slot0;
+                    var3 = _closure2_slot1;
                     if(!var3) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                     var4 = var2.push;
-                    var3 = 'mobile-visual-refresh';
+                    var3 = 'mobile-visual-refresh-floating';
                     var3 = var4.bind(var2)(var3);
 case 4:
-                    var1 = _closure2_slot2;
-                    if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+                    var3 = _closure2_slot0;
+                    if(!var3) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
+                    var4 = var2.push;
+                    var3 = 'mobile-visual-refresh';
+                    var3 = var4.bind(var2)(var3);
+case 6:
+                    var1 = _closure2_slot3;
+                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = var2.push;
                     var1 = 'mana-type-consolidation';
                     var1 = var3.bind(var2)(var1);
-case 6:
+case 8:
                     var3 = var2.length;
                     var1 = 0;
                     var3 = var3 > var1;
                     var1 = undefined;
-                    if(!var3) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                    if(!var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var1 = var2;
-case 8:
+case 10:
                     return var1;
                 }
             };
@@ -148,13 +158,13 @@ case 8:
             var3 = var3 != var2;
             var12 = 0;
             var13 = 0;
-            if(!var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var2.theme;
             var2 = _closure1_slot6;
             var2 = var2.LIGHT;
-            if(!(var3 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!(var3 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
             var2 = 9;
@@ -166,8 +176,8 @@ case 13:
             var2 = var2.ThemeContextFlags;
             var2 = var2.MOBILE_DARK_GRADIENT_THEME_ENABLED;
             var2 = var3.bind(var9)(var12, var2);
-            _fun0001_ip = 14; continue _fun0001;
-case 12:
+            _fun0001_ip = 16; continue _fun0001;
+case 14:
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
             var3 = 9;
@@ -179,13 +189,13 @@ case 12:
             var3 = var3.ThemeContextFlags;
             var3 = var3.MOBILE_LIGHT_GRADIENT_THEME_ENABLED;
             var2 = var9.bind(var11)(var12, var3);
-case 14:
+case 16:
             var13 = var2;
-case 10:
+case 12:
             var2 = 1;
             var12 = var13;
-            if(!(var2 !== var8)) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!(var2 !== var8)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
             var3 = 9;
@@ -197,35 +207,35 @@ case 16:
             var3 = var3.ThemeContextFlags;
             var3 = var3.REDUCE_SATURATION_ENABLED;
             var12 = var9.bind(var11)(var13, var3);
-case 15:
+case 17:
             var9 = var12;
-            if(!(var2 !== var7)) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(!(var2 !== var7)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var11 = _closure1_slot0;
             var3 = _closure1_slot2;
             var15 = 9;
             var3 = var3[var15];
             var11 = var11.bind(var4)(var3);
             var3 = var11.setThemeFlag;
-            if(!(!(var7 > var2))) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(!(!(var7 > var2))) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var13 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var15];
             var2 = var13.bind(var4)(var2);
             var2 = var2.ThemeContextFlags;
             var2 = var2.REDUCED_CONTRAST_ENABLED;
-            _fun0001_ip = 21; continue _fun0001;
-case 19:
+            _fun0001_ip = 23; continue _fun0001;
+case 21:
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
             var13 = var13[var15];
             var13 = var14.bind(var4)(var13);
             var13 = var13.ThemeContextFlags;
             var2 = var13.INCREASED_CONTRAST_ENABLED;
-case 21:
+case 23:
             var9 = var3.bind(var11)(var12, var2);
-case 17:
+case 19:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var11 = _closure1_slot2;

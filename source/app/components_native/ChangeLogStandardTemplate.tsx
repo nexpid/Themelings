@@ -411,13 +411,13 @@ case 22:
     var12['borderTopColor'] = var18;
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
-    var18 = var18.spacing;
+    var18 = var18.space;
     var18 = var18.PX_12;
     var12['gap'] = var18;
     var12['paddingHorizontal'] = var17;
     var17 = var9[var13];
     var17 = var14.bind(var1)(var17);
-    var17 = var17.spacing;
+    var17 = var17.space;
     var17 = var17.PX_12;
     var12['paddingVertical'] = var17;
     var5['footer'] = var12;

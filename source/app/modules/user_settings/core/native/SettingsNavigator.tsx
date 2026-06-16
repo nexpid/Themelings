@@ -424,6 +424,8 @@ case 14:
                             return var1;
                         };
                         var5['onPress'] = var8;
+                        var8 = 'button';
+                        var5['accessibilityRole'] = var8;
                         var8 = 27;
                         var12 = var11[var8];
                         var12 = var9.bind(var1)(var12);

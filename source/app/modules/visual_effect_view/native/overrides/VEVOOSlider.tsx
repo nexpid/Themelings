@@ -43,7 +43,7 @@ case 3:
         var12 = 4;
         var12 = var6[var12];
         var12 = var13.bind(var1)(var12);
-        var12 = var12.spacing;
+        var12 = var12.space;
         var11 = var12.PX_8;
 case 2:
         var10['marginTop'] = var11;

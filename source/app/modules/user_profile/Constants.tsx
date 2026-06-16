@@ -529,8 +529,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var19.bind(var20)(var18);
     var18 = 300;
     var3['USER_PROFILE_TOOLTIP_DELAY'] = var18;
-    var18 = 'guild_booster_lvl';
-    var3['GUILD_BOOSTER_BADGE_PREFIX'] = var18;
     var18 = function getBadgeName(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

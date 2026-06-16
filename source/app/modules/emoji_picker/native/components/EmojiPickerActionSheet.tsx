@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 9;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var12 = -var12;
     var9['marginBottom'] = var12;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['paddingHorizontal'] = var12;
     var12 = var6[var10];
@@ -96,14 +96,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'flexDirection': 'column', 'alignItems': 'center'};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_16;
     var9['marginBottom'] = var12;
     var4['headerText'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
+    var12 = var12.space;
     var12 = var12.PX_8;
     var9['marginTop'] = var12;
     var4['headerSpacer'] = var9;
@@ -227,7 +227,7 @@ case 6:
             var8 = 9;
             var1 = var20[var8];
             var1 = var19.bind(var4)(var1);
-            var1 = var1.spacing;
+            var1 = var1.space;
             var1 = var1.PX_16;
             var25 = var11 + var1;
             var1 = 16;

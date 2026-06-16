@@ -55,12 +55,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 6;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_32;
     var10['width'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_32;
     var10['height'] = var13;
     var13 = var6[var11];

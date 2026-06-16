@@ -175,12 +175,12 @@ case 17:
     var9['borderRadius'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_8;
     var9['padding'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
+    var13 = var13.space;
     var13 = var13.PX_12;
     var9['paddingRight'] = var13;
     var13 = var6[var10];
@@ -204,7 +204,7 @@ case 17:
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_12;
     var9['paddingLeft'] = var10;
     var4['multilineContainer'] = var9;

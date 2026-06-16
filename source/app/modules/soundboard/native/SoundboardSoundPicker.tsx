@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 10;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
+    var11 = var11.space;
     var11 = var11.PX_8;
     var10['padding'] = var11;
     var11 = '100%';
@@ -385,7 +385,7 @@ case 4:
             var27 = 10;
             var27 = var17[var27];
             var27 = var11.bind(var4)(var27);
-            var27 = var27.spacing;
+            var27 = var27.space;
             var27 = var27.PX_16;
             var27 = var28 + var27;
             var21['insetBottom'] = var27;

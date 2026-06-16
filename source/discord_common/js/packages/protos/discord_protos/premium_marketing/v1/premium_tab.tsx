@@ -263,7 +263,7 @@ case 28:
 case 30:
                 var26 = var24;
                 if(!(var13 === var24)) { _fun0004_ip = 31; continue _fun0004 }
-case 6:
+case 32:
                 var27 = _closure1_slot0;
                 var25 = _closure1_slot1;
                 var25 = var25[var14];
@@ -385,8 +385,8 @@ case 0:
                 var3 = arg3;
                 var2 = var5.badgeLabel;
                 var6 = '';
-                if(!(var6 !== var2)) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                if(!(var6 !== var2)) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -401,10 +401,10 @@ case 33:
                 var4 = var7.string;
                 var2 = var5.badgeLabel;
                 var2 = var4.bind(var7)(var2);
-case 32:
+case 33:
                 var2 = var5.acknowledgedBadgeLabel;
                 if(!(var6 !== var2)) { _fun0005_ip = 26; continue _fun0005 }
-case 34:
+case 35:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -422,8 +422,8 @@ case 34:
 case 26:
                 var4 = var5.showHoverGradient;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                if(!(var2 !== var4)) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                 var8 = var1.tag;
                 var9 = _closure1_slot0;
                 var7 = _closure1_slot1;
@@ -438,10 +438,10 @@ case 36:
                 var7 = var8.bool;
                 var4 = var5.showHoverGradient;
                 var4 = var7.bind(var8)(var4);
-case 35:
+case 36:
                 var4 = var5.deeplinkSection;
-                if(!(var6 !== var4)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                if(!(var6 !== var4)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -456,10 +456,10 @@ case 38:
                 var6 = var7.string;
                 var4 = var5.deeplinkSection;
                 var4 = var6.bind(var7)(var4);
-case 37:
+case 38:
                 var4 = var5.badgeLabelLocalized;
-                if(!var4) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                if(!var4) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot1;
                 var4 = 6;
@@ -482,10 +482,10 @@ case 40:
                 var6 = var7.bind(var8)(var6, var4, var3);
                 var4 = var6.join;
                 var4 = var4.bind(var6)();
-case 39:
+case 40:
                 var4 = var5.acknowledgedBadgeLabelLocalized;
                 if(!var4) { _fun0005_ip = 17; continue _fun0005 }
-case 41:
+case 42:
                 var12 = _closure1_slot0;
                 var13 = _closure1_slot1;
                 var10 = 6;
@@ -509,11 +509,11 @@ case 41:
                 var4 = var4.bind(var6)();
 case 17:
                 var4 = var3.writeUnknownFields;
-                if(!(var2 !== var4)) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                if(!(var2 !== var4)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+                if(!(var2 == var4)) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 7;
@@ -522,12 +522,12 @@ case 45:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 44:
+case 45:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 42:
+case 43:
                 return var1;
             }
         };

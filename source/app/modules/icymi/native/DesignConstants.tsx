@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = metroImportDefault;
     var1 = undefined;
     var2 = var2.bind(var1)(var4);
-    var2 = var2.spacing;
+    var2 = var2.space;
     var2 = var2.PX_12;
     var4 = 1;
     var5 = var5[var4];

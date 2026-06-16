@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 6;
         var1 = var12[var1];
         var1 = var7.bind(var4)(var1);
-        var1 = var1.spacing;
+        var1 = var1.space;
         var14 = var1.PX_8;
         var _closure2_slot2 = var14;
         var11 = _closure1_slot0;
@@ -257,7 +257,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['borderRadius'] = var15;
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_24;
     var11['paddingTop'] = var15;
     var15 = 'hidden';
@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {};
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
+    var15 = var15.space;
     var15 = var15.PX_24;
     var11['paddingBottom'] = var15;
     var5['scrollViewContent'] = var11;
@@ -274,12 +274,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['position'] = var14;
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var11['right'] = var14;
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
+    var14 = var14.space;
     var14 = var14.PX_8;
     var11['top'] = var14;
     var12 = var7[var12];

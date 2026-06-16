@@ -161,7 +161,7 @@ case 4:
     var9['backgroundColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
+    var10 = var10.space;
     var10 = var10.PX_16;
     var9['paddingTop'] = var10;
     var4['screenContainer'] = var9;
@@ -233,13 +233,13 @@ case 7:
             var9 = 12;
             var18 = var16[var9];
             var18 = var15.bind(var5)(var18);
-            var18 = var18.spacing;
+            var18 = var18.space;
             var18 = var18.PX_12;
             var17['paddingHorizontal'] = var18;
             var6['style'] = var17;
             var9 = var16[var9];
             var9 = var15.bind(var5)(var9);
-            var9 = var9.spacing;
+            var9 = var9.space;
             var9 = var9.PX_24;
             var6['spacing'] = var9;
             if(!var12) { _fun0002_ip = 8; continue _fun0002 }

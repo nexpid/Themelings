@@ -132,62 +132,45 @@ case 0:
             var1 = arg1;
             var3 = var1.emojiContainerSize;
             var11 = var1.onPress;
-            var7 = var1.iconSize;
+            var8 = var1.iconSize;
             var10 = var1.styles;
             var2 = _closure1_slot6;
             var4 = undefined;
             var5 = var2.bind(var4)(var3);
             var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var2 = 6;
-            var6 = var8[var2];
+            var6 = var7[var2];
             var9 = var3.bind(var4)(var6);
             var6 = var9.useThemeContext;
             var6 = var6.bind(var9)();
             var6 = var6.theme;
-            var2 = var8[var2];
+            var2 = var7[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.isThemeLight;
             var3 = var2.bind(var3)(var6);
             var6 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var2 = 5;
-            var2 = var8[var2];
+            var2 = var7[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
             if(var3) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var8 = var2.PRIMARY_300;
+            var7 = var2.PRIMARY_300;
             _fun0002_ip = 8; continue _fun0002;
 case 6:
-            var8 = var2.PRIMARY_500;
+            var7 = var2.PRIMARY_500;
 case 8:
-            var3 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var2 = 7;
-            var2 = var6[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = 'EmojiPickerRowButton';
-            var3 = var3.bind(var4)(var2);
-            var2 = null;
-            if(!(var2 == var7)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var2 = 'md';
-            if(!var3) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-            var2 = 'refresh_sm';
-case 11:
-            var7 = var2;
-case 9:
             var3 = _closure1_slot5;
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var9[var1];
             var1 = var6.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {'activeOpacity': 0.5, 'accessibilityRole': 'button', 'accessibilityLabel': null, 'hitSlop': 4};
-            var12 = 9;
+            var12 = 8;
             var13 = var9[var12];
             var13 = var6.bind(var4)(var13);
             var14 = var13.intl;
@@ -204,12 +187,19 @@ case 9:
             var5[0] = var11;
             var5[1] = var10;
             var1['style'] = var5;
-            var5 = 10;
+            var5 = 9;
             var5 = var9[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.ReactionIcon;
             var5 = {};
-            var5['color'] = var8;
+            var5['color'] = var7;
+            var7 = null;
+            var9 = var7 != var8;
+            var7 = 'md';
+            if(!var9) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var7 = var8;
+case 9:
             var5['size'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
@@ -234,7 +224,7 @@ case 0:
             var5 = var1.bind(var4)(var2);
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var1 = 7;
+            var1 = 10;
             var1 = var11[var1];
             var2 = var2.bind(var4)(var1);
             var1 = 'EmojiReactionRowButton';
@@ -255,13 +245,13 @@ case 0:
             var8 = var3.bind(var8)(var2, var1);
             var3 = _closure1_slot5;
             var10 = _closure1_slot0;
-            var1 = 8;
+            var1 = 7;
             var1 = var11[var1];
             var1 = var10.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {'androidRippleConfig': null, 'activeOpacity': 0.5, 'accessibilityRole': 'button', 'accessibilityLabel': null, 'disabled': null, 'hitSlop': 4};
             var1['androidRippleConfig'] = var8;
-            var8 = 9;
+            var8 = 8;
             var12 = var11[var8];
             var12 = var10.bind(var4)(var12);
             var15 = var12.intl;
@@ -274,10 +264,10 @@ case 0:
             var10 = null;
             var17 = var10 == var14;
             var16 = undefined;
-            if(var17) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+            if(var17) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var16 = var14.name;
-case 13:
+case 11:
             var8['emojiName'] = var16;
             var8 = var12.bind(var15)(var11, var8);
             var1['accessibilityLabel'] = var8;
@@ -291,8 +281,8 @@ case 13:
             var1['style'] = var5;
             var6 = var10 != var14;
             var5 = null;
-            if(!var6) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+            if(!var6) { _fun0003_ip = 13; continue _fun0003 }
+case 9:
             var8 = _closure1_slot5;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -307,17 +297,17 @@ case 16:
             var9 = var14.id;
             var11 = var10 == var9;
             var9 = '';
-            if(!var11) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+            if(!var11) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var9 = var14.surrogates;
-case 17:
+case 14:
             var6['name'] = var9;
             var9 = var14.id;
-            if(!(var10 == var9)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+            if(!(var10 == var9)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var9 = var14.url;
-            _fun0003_ip = 21; continue _fun0003;
-case 19:
+            _fun0003_ip = 18; continue _fun0003;
+case 16:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
             var10 = 12;
@@ -332,10 +322,10 @@ case 19:
             var13 = _closure1_slot4;
             var10['size'] = var13;
             var9 = var11.bind(var12)(var10);
-case 21:
+case 18:
             var6['src'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 15:
+case 13:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -348,8 +338,8 @@ case 0:
             var3 = arg1;
             var1 = arg2;
             var2 = null;
-            if(!(var2 != var3)) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+            if(!(var2 != var3)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var4 = var3.type;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -359,15 +349,15 @@ case 23:
             var2 = var6.bind(var2)(var5);
             var2 = var2.EmojiTypes;
             var2 = var2.UNICODE;
-            if(!(var4 !== var2)) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
-            var2 = var3.id;
-            _fun0004_ip = 26; continue _fun0004;
-case 24:
-            var2 = var3.surrogates;
-case 26:
-            var1 = var2;
+            if(!(var4 !== var2)) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
+            var2 = var3.id;
+            _fun0004_ip = 23; continue _fun0004;
+case 21:
+            var2 = var3.surrogates;
+case 23:
+            var1 = var2;
+case 19:
             return var1;
         }
     };

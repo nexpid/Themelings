@@ -23,9 +23,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.StyleSheet;
     var _closure1_slot3 = var4;
     var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 3;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
@@ -38,7 +43,7 @@ case 0:
             var2 = {};
             var9 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var6 = 3;
+            var6 = 4;
             var8 = var5[var6];
             var5 = undefined;
             var8 = var9.bind(var5)(var8);
@@ -113,7 +118,7 @@ case 5:
         }
     };
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -137,59 +142,83 @@ case 7:
             var13 = var1.accessibilityActions;
             var8 = var1.onAccessibilityAction;
             var7 = var1.IconComponent;
-            var2 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var1 = 4;
-            var1 = var20[var1];
-            var10 = var2.bind(var4)(var1);
-            var3 = var10.useMobileVisualRefreshConfig;
+            var20 = _closure1_slot0;
+            var24 = _closure1_slot2;
+            var1 = 5;
+            var1 = var24[var1];
+            var3 = var20.bind(var4)(var1);
+            var2 = var3.useMobileVisualRefreshConfig;
             var1 = {};
-            var18 = 'ChatInputActionButton';
-            var1['location'] = var18;
-            var1 = var3.bind(var10)(var1);
+            var10 = 'ChatInputActionButton';
+            var1['location'] = var10;
+            var1 = var2.bind(var3)(var1);
             var19 = var1.enabled;
-            var3 = 5;
-            var1 = var20[var3];
-            var23 = var2.bind(var4)(var1);
-            var18 = var23.useToken;
-            var24 = _closure1_slot1;
-            var1 = 3;
-            var10 = var20[var1];
-            var10 = var24.bind(var4)(var10);
-            var10 = var10.modules;
-            var10 = var10.mobile;
-            var10 = var10.CHAT_INPUT_ACTION_BUTTON_SIZE;
-            var18 = var18.bind(var23)(var10);
-            var10 = var20[var3];
-            var25 = var2.bind(var4)(var10);
-            var23 = var25.useToken;
-            var10 = var20[var1];
-            var10 = var24.bind(var4)(var10);
+            var3 = var1.chatInputFloating;
+            var18 = 6;
+            var1 = var24[var18];
+            var25 = var20.bind(var4)(var1);
+            var10 = var25.useToken;
+            var23 = _closure1_slot1;
+            var2 = 4;
+            var1 = var24[var2];
+            var1 = var23.bind(var4)(var1);
+            var1 = var1.modules;
+            var1 = var1.mobile;
+            var1 = var1.CHAT_INPUT_ACTION_BUTTON_SIZE;
+            var1 = var10.bind(var25)(var1);
+            var10 = var24[var18];
+            var26 = var20.bind(var4)(var10);
+            var25 = var26.useToken;
+            var10 = var24[var2];
+            var10 = var23.bind(var4)(var10);
             var10 = var10.modules;
             var10 = var10.mobile;
             var10 = var10.CHAT_INPUT_ACTION_BUTTON_MARGIN;
-            var10 = var23.bind(var25)(var10);
-            var3 = var20[var3];
-            var23 = var2.bind(var4)(var3);
-            var3 = var23.useToken;
-            var1 = var20[var1];
-            var1 = var24.bind(var4)(var1);
-            var1 = var1.modules;
-            var1 = var1.mobile;
-            var1 = var1.CHAT_INPUT_ACTION_BUTTON_MIN_TOUCH_TARGET_SIZE;
-            var1 = var3.bind(var23)(var1);
-            var3 = _closure1_slot4;
-            var10 = var3.bind(var4)(var19, var18, var10);
-            var3 = global;
-            var19 = var3.Math;
-            var3 = var19.max;
-            var18 = var1 - var18;
+            var10 = var25.bind(var26)(var10);
+            var18 = var24[var18];
+            var20 = var20.bind(var4)(var18);
+            var18 = var20.useToken;
+            var2 = var24[var2];
+            var2 = var23.bind(var4)(var2);
+            var2 = var2.modules;
+            var2 = var2.mobile;
+            var2 = var2.CHAT_INPUT_ACTION_BUTTON_MIN_TOUCH_TARGET_SIZE;
+            var18 = var18.bind(var20)(var2);
+            var2 = _closure1_slot5;
+            var10 = var2.bind(var4)(var19, var1, var10);
+            var2 = undefined;
+            if(!var3) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var19 = _closure1_slot3;
+            var3 = var19.flatten;
+            var19 = var3.bind(var19)(var21);
+            var3 = null;
+            var20 = var3 == var19;
+            var3 = undefined;
+            if(var20) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+            var3 = var19.height;
+case 11:
+            var2 = var3;
+case 9:
+            var19 = 'number';
+            var3 = typeof var2;
+            if(!(var19 === var3)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+            var1 = var2;
+case 13:
+            var2 = global;
+            var3 = var2.Math;
+            var2 = var3.max;
+            var18 = var18 - var1;
             var1 = 2;
             var1 = var18 / var1;
             var18 = 0;
-            var19 = var3.bind(var19)(var18, var1);
-            var3 = _closure1_slot3;
-            var1 = 6;
+            var19 = var2.bind(var3)(var18, var1);
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var1 = 7;
             var1 = var20[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
@@ -201,22 +230,22 @@ case 7:
             var20[0] = var23;
             var20[1] = var21;
             var21 = var11;
-            if(!var11) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            if(!var11) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var21 = !var9;
-case 9:
-            if(!var21) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+case 15:
+            if(!var21) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var21 = var22;
-case 11:
+case 17:
             var20[2] = var21;
             var1['style'] = var20;
             var20 = var19 > var18;
             var18 = undefined;
-            if(!var20) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!var20) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var18 = var19;
-case 13:
+case 19:
             var1['hitSlop'] = var18;
             var1['disabled'] = var9;
             var1['accessible'] = var16;
@@ -224,16 +253,16 @@ case 13:
             var1['accessibilityRole'] = var16;
             var16 = {};
             var16['disabled'] = var9;
-            var28 = var16;
-            var27 = var17;
-            var17 = copyDataProperties(var28, var27);
+            var29 = var16;
+            var28 = var17;
+            var17 = copyDataProperties(var29, var28);
             var1['accessibilityState'] = var16;
             var1['accessibilityLabel'] = var15;
             var1['accessibilityHint'] = var14;
             var1['accessibilityActions'] = var13;
             var1['onAccessibilityAction'] = var8;
             var1['onPress'] = var6;
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot4;
             var5 = {};
             var8 = 'custom';
             var5['size'] = var8;
@@ -241,20 +270,20 @@ case 13:
             var8 = new Array(4);
             var8[0] = var13;
             var13 = var11;
-            if(!var11) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+            if(!var11) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var13 = var10.actionButtonIconActive;
-case 15:
+case 21:
             var8[1] = var13;
-            if(!var11) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+            if(!var11) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var11 = var12;
-case 17:
+case 23:
             var8[2] = var11;
-            if(!var9) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+            if(!var9) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var9 = var10.actionButtonIconDisabled;
-case 19:
+case 25:
             var8[3] = var9;
             var5['style'] = var8;
             var5 = var6.bind(var4)(var7, var5);
@@ -266,7 +295,7 @@ case 19:
     var4 = var4.bind(var7)(var2);
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var6[var5];
         var5 = undefined;
         var5 = var7.bind(var5)(var6);
-        var5 = var5.spacing;
+        var5 = var5.space;
         var5 = var5.PX_8;
         var2['gap'] = var5;
         var4 = _closure1_slot10;

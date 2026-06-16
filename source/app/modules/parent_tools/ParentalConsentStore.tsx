@@ -190,6 +190,16 @@ case 11:
         return var1;
     };
     var2['GUARDIAN_CONNECT_REQUIRED'] = var6;
+    var6 = function handleGuardianConnectCleared() {
+        var2 = false;
+        _closure1_slot5 = var2;
+        var2 = _closure1_slot6;
+        var1 = var2.persist;
+        var1 = var1.bind(var2)();
+        var1 = undefined;
+        return var1;
+    };
+    var2['GUARDIAN_CONNECT_CLEARED'] = var6;
     var6 = function handleNUFCompleted() {
         var2 = false;
         _closure1_slot5 = var2;

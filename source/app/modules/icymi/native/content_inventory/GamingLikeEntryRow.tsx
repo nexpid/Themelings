@@ -208,7 +208,7 @@ case 4:
         var2 = {'display': 'flex', 'flexDirection': 'row', 'gap': null, 'flexWrap': 'wrap', 'alignItems': 'center', 'marginTop': 6};
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.spacing;
+        var3 = var3.space;
         var3 = var3.PX_8;
         var2['gap'] = var3;
         var1['badges'] = var2;

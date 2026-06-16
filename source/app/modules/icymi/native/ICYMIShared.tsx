@@ -511,7 +511,7 @@ case 15:
             var2 = {'flexDirection': 'row', 'alignItems': 'center'};
             var8 = var6[var3];
             var8 = var4.bind(var5)(var8);
-            var8 = var8.spacing;
+            var8 = var8.space;
             var8 = var8.PX_4;
             var2['gap'] = var8;
             var1['genContentSubtitle'] = var2;

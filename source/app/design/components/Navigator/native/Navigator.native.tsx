@@ -693,7 +693,7 @@ case 47:
     var4['headerRightContainerStyle'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 20;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -744,41 +744,27 @@ case 51:
     var2 = function Navigator(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var5 = arg1;
-            var6 = var5.useContainer;
+            var3 = arg1;
+            var6 = var3.useContainer;
             var4 = undefined;
             if(!(var6 === var4)) { _fun0008_ip = 5; continue _fun0008 }
 case 53:
             var6 = true;
 case 5:
-            var1 = var5.android_blockParentGestures;
-            if(!(var1 === var4)) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
-            var1 = false;
-case 54:
-            var9 = var5.containerStyle;
-            var3 = {'useContainer': 0, 'android_blockParentGestures': 0, 'containerStyle': 0};
-            var12 = null;
-            var13 = var3;
-            var2 = silentSetPrototypeOf(var13, var12);
+            var9 = var3.containerStyle;
+            var1 = null;
+            var2 = Object.create(var1);
+            var1 = 0;
+            var2['useContainer'] = var1;
+            var2['containerStyle'] = var1;
             var13 = {};
-            var12 = var5;
-            var11 = var3;
+            var12 = var3;
+            var11 = var2;
             var8 = copyDataProperties(var13, var12, var11);
-            var2 = _closure1_slot7;
-            var7 = var2.bind(var4)();
-            if(var1) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
-            var3 = _closure1_slot5;
-            _fun0008_ip = 58; continue _fun0008;
-case 56:
-            var2 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var1 = 19;
-            var1 = var10[var1];
-            var3 = var2.bind(var4)(var1);
-case 58:
-            var2 = _closure1_slot6;
+            var1 = _closure1_slot7;
+            var7 = var1.bind(var4)();
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var1 = {};
             var10 = var7.container;
             var7 = new Array(2);
@@ -786,20 +772,20 @@ case 58:
             var7[1] = var9;
             var1['style'] = var7;
             var7 = _closure1_slot6;
-            if(var6) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
+            if(var6) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
             var6 = _closure1_slot8;
-            _fun0008_ip = 61; continue _fun0008;
-case 59:
+            _fun0008_ip = 56; continue _fun0008;
+case 54:
             var6 = _closure1_slot9;
-case 61:
+case 56:
             var5 = {};
             var13 = var5;
             var12 = var8;
             var8 = copyDataProperties(var13, var12);
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
-            var1 = var2.bind(var4)(var3, var1);
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };

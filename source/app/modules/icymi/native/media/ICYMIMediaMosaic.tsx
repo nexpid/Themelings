@@ -1464,7 +1464,7 @@ case 74:
         var2['borderRadius'] = var9;
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);
-        var9 = var9.spacing;
+        var9 = var9.space;
         var9 = var9.PX_4;
         var2['padding'] = var9;
         var1['muteIcon'] = var2;
@@ -1481,7 +1481,7 @@ case 74:
         var2['borderRadius'] = var9;
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);
-        var9 = var9.spacing;
+        var9 = var9.space;
         var9 = var9.PX_12;
         var2['paddingHorizontal'] = var9;
         var9 = 6;

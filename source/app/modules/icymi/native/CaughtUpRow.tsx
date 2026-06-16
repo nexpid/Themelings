@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var7[var4];
         var5 = undefined;
         var9 = var6.bind(var5)(var9);
-        var9 = var9.spacing;
+        var9 = var9.space;
         var9 = var9.PX_32;
         var2['marginVertical'] = var9;
         var1['container'] = var2;
@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['marginHorizontal'] = var9;
         var9 = var7[var4];
         var9 = var6.bind(var5)(var9);
-        var9 = var9.spacing;
+        var9 = var9.space;
         var9 = var9.PX_24;
         var2['marginBottom'] = var9;
         var1['textContainer'] = var2;
@@ -83,14 +83,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['flex'] = var8;
         var8 = var7[var4];
         var8 = var6.bind(var5)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_24;
         var2['marginBottom'] = var8;
         var1['recommendedGuildsContainer'] = var2;
         var2 = {'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
         var8 = var7[var4];
         var8 = var6.bind(var5)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_24;
         var2['marginBottom'] = var8;
         var1['iconWrapper'] = var2;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {'alignSelf': 'center', 'marginBottom': null, 'textAlign': 'center'};
         var8 = var7[var4];
         var8 = var6.bind(var5)(var8);
-        var8 = var8.spacing;
+        var8 = var8.space;
         var8 = var8.PX_8;
         var2['marginBottom'] = var8;
         var1['headerText'] = var2;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {'flex': 1, 'width': '100%'};
         var4 = var7[var4];
         var4 = var6.bind(var5)(var4);
-        var4 = var4.spacing;
+        var4 = var4.space;
         var4 = var4.PX_12;
         var2['gap'] = var4;
         var3 = var3.margin;

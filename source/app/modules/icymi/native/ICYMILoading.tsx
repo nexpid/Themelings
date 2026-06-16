@@ -272,7 +272,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['borderRadius'] = var7;
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
+        var7 = var7.space;
         var7 = var7.PX_12;
         var2['marginRight'] = var7;
         var1['avatar'] = var2;
@@ -283,12 +283,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var10 = var6[var3];
         var10 = var5.bind(var4)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_16;
         var2['height'] = var10;
         var10 = var6[var3];
         var10 = var5.bind(var4)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_12;
         var2['marginBottom'] = var10;
         var2['borderRadius'] = var8;
@@ -297,7 +297,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var10 = var6[var3];
         var10 = var5.bind(var4)(var10);
-        var10 = var10.spacing;
+        var10 = var10.space;
         var10 = var10.PX_16;
         var2['height'] = var10;
         var9 = var9.margin;

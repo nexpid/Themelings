@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'actions/DeveloperOptionsActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function setDeveloperOptionSettings(arg1) {
+    var4 = function setDeveloperOptionSettings(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -37,6 +37,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['setDeveloperOptionSettings'] = var2;
+    var3['setDeveloperOptionSettings'] = var4;
+    var2 = function setRoutingKeyTags(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.dispatch;
+        var1 = {};
+        var4 = 'DEVELOPER_OPTIONS_SET_ROUTING_KEY';
+        var1['type'] = var4;
+        var4 = arg1;
+        var1['tags'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['setRoutingKeyTags'] = var2;
     return var1;
 })();

@@ -14,8 +14,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['MANUAL'] = var1;
     var1 = 'distributed';
     var8['DISTRIBUTED'] = var1;
-    var1 = 'phrase';
-    var8['PHRASE'] = var1;
     var1 = 'yelling';
     var8['YELLING'] = var1;
     var1 = 'laughter';
