@@ -9400,14 +9400,15 @@
         "height": 24
     },
     "lock": {
-        "file": "app/images/native/premium/guild_boosting/lock.png",
-        "hash": "54ed58b5b2d02aabe1b1b19fc7b3ba09",
+        "file": "app/modules/user_settings/account/native/images/lock.png",
+        "hash": "6fbfa0aa2194635b21a8ebd068b44d0c",
         "scales": [
+            1,
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 121,
+        "height": 90
     },
     "locke_2": {
         "file": "app/images/native/avatars/locke_2.png",
