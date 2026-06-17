@@ -2956,7 +2956,7 @@ case 171:
                         var5 = var9[var5];
                         var9 = var6.bind(var7)(var5);
                         var6 = var9.backgroundify;
-                        var5 = function() {
+                        var5 = function _trySend() {
                             var5 = _closure1_slot56;
                             var4 = var5._sendMessage;
                             var3 = _closure2_slot0;
@@ -5540,9 +5540,10 @@ case 64:
                                                 var13 = var1;
                                                 var10 = copyDataProperties(var13, var12);
                                                 var5 = var9[var5];
-                                                var7 = var7.bind(var8)(var5);
-                                                var5 = var7.getClipContextProperties;
-                                                var12 = var5.bind(var7)();
+                                                var8 = var7.bind(var8)(var5);
+                                                var7 = var8.getClipContextProperties;
+                                                var5 = 'trackClipsShared';
+                                                var12 = var7.bind(var8)(var5);
                                                 var13 = var1;
                                                 var5 = copyDataProperties(var13, var12);
                                                 var8 = _closure7_slot0;

@@ -661,8 +661,8 @@ case 0:
                 return var1;
             };
             var2 = var5.bind(var6)(var4, var2);
-            var5 = null;
-            var4 = var5 != var2;
+            var10 = null;
+            var4 = var10 != var2;
             var6 = undefined;
             if(!var4) { _fun0006_ip = 104; continue _fun0006 }
 case 105:
@@ -756,54 +756,84 @@ case 117:
                         var1 = var6.id;
 case 116:
                         if(!(var5 === var1)) { _fun0007_ip = 118; continue _fun0007 }
-case 19:
+case 119:
                         var1 = {};
                         var5 = var2 == var6;
-                        var8 = undefined;
-                        if(var5) { _fun0007_ip = 119; continue _fun0007 }
+                        var9 = undefined;
+                        if(var5) { _fun0007_ip = 120; continue _fun0007 }
+case 121:
+                        var9 = var6.type;
 case 120:
+                        var7 = _closure1_slot8;
+                        var8 = var7.ACTIVITY;
+                        var7 = undefined;
+                        if(!(var9 !== var8)) { _fun0007_ip = 122; continue _fun0007 }
+case 123:
+                        var9 = var2 == var6;
+                        var8 = undefined;
+                        if(var9) { _fun0007_ip = 124; continue _fun0007 }
+case 21:
+                        var8 = var6.streamId;
+case 124:
+                        var9 = var2 != var8;
+                        var7 = undefined;
+                        if(!var9) { _fun0007_ip = 122; continue _fun0007 }
+case 18:
+                        var7 = var8;
+case 122:
+                        var1['focusedParticipantStreamId'] = var7;
+                        var7 = var2 == var6;
+                        var8 = undefined;
+                        if(var7) { _fun0007_ip = 125; continue _fun0007 }
+case 126:
                         var8 = var6.type;
-case 119:
+case 125:
                         var5 = _closure1_slot8;
                         var7 = var5.ACTIVITY;
                         var5 = undefined;
-                        if(!(var8 !== var7)) { _fun0007_ip = 18; continue _fun0007 }
-case 121:
+                        if(!(var8 !== var7)) { _fun0007_ip = 127; continue _fun0007 }
+case 128:
                         var8 = var2 == var6;
                         var7 = undefined;
-                        if(var8) { _fun0007_ip = 122; continue _fun0007 }
-case 123:
-                        var7 = var6.streamId;
-case 122:
+                        if(var8) { _fun0007_ip = 129; continue _fun0007 }
+case 130:
+                        var8 = var6.user;
+                        var9 = var2 == var8;
+                        var7 = undefined;
+                        if(var9) { _fun0007_ip = 129; continue _fun0007 }
+case 131:
+                        var7 = var8.id;
+case 129:
                         var8 = var2 != var7;
                         var5 = undefined;
-                        if(!var8) { _fun0007_ip = 18; continue _fun0007 }
-case 124:
+                        if(!var8) { _fun0007_ip = 127; continue _fun0007 }
+case 132:
                         var5 = var7;
-case 18:
-                        var1['focusedParticipantStreamId'] = var5;
+case 127:
+                        var1['focusedParticipantUserId'] = var5;
                         var7 = var2 == var6;
                         var5 = undefined;
-                        if(var7) { _fun0007_ip = 125; continue _fun0007 }
-case 126:
+                        if(var7) { _fun0007_ip = 133; continue _fun0007 }
+case 134:
                         var5 = var6.type;
-case 125:
+case 133:
                         var6 = var2 != var5;
                         var2 = undefined;
-                        if(!var6) { _fun0007_ip = 127; continue _fun0007 }
-case 128:
+                        if(!var6) { _fun0007_ip = 135; continue _fun0007 }
+case 136:
                         var2 = var5;
-case 127:
+case 135:
                         var1['focusedParticipantType'] = var2;
-                        _fun0007_ip = 129; continue _fun0007;
+                        _fun0007_ip = 56; continue _fun0007;
 case 118:
                         var2 = {};
                         var2['focusedParticipantStreamId'] = var4;
+                        var2['focusedParticipantUserId'] = var4;
                         var3 = _closure3_slot2;
                         var3 = var3.current;
                         var2['focusedParticipantType'] = var3;
                         var1 = var2;
-case 129:
+case 56:
                         return var1;
                     }
                 };
@@ -812,25 +842,30 @@ case 129:
             };
             var2 = var2.bind(var8)(var4);
             var9 = var2.focusedParticipantStreamId;
+            var7 = var2.focusedParticipantUserId;
             var2 = var2.focusedParticipantType;
             var4 = _closure1_slot11;
             var3 = {};
             var3['channelId'] = var6;
             var3['focusedParticipantStreamId'] = var9;
             var3 = var4.bind(var8)(var3);
-            var7 = var3.selectedStreamId;
+            var11 = var3.selectedStreamId;
             var4 = var3.selectedParticipantUserId;
             var3 = var3.selectedParticipantSpeaking;
-            if(!(var5 != var9)) { _fun0006_ip = 130; continue _fun0006 }
-case 131:
-            var7 = var9;
-case 130:
-            var9 = var5 != var7;
+            if(!(var10 != var9)) { _fun0006_ip = 137; continue _fun0006 }
+case 115:
+            var11 = var9;
+case 137:
+            var12 = var10 != var11;
             var5 = undefined;
-            if(!var9) { _fun0006_ip = 15; continue _fun0006 }
-case 44:
-            var5 = var7;
-case 15:
+            if(!var12) { _fun0006_ip = 138; continue _fun0006 }
+case 139:
+            var5 = var11;
+case 138:
+            if(!(var10 != var9)) { _fun0006_ip = 140; continue _fun0006 }
+case 141:
+            var4 = var7;
+case 140:
             var7 = {};
             var7['selectedParticipantStreamId'] = var5;
             var1 = function useSetHasActiveVideoOutputSink(arg1) {
@@ -848,7 +883,7 @@ case 0:
                         var _closure4_slot0 = var3;
                         var2 = null;
                         if(!(var2 == var3)) { _fun0008_ip = 31; continue _fun0008 }
-case 132:
+case 142:
                         var2 = undefined;
                         return var2;
 case 31:

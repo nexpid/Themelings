@@ -79,7 +79,7 @@ case 5:
     var5 = var6.fileFinishedImporting;
     var4 = 'actions/DefaultRouteActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function saveLastRoute(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
@@ -104,7 +104,7 @@ case 7:
         }
     };
     var3['saveLastRoute'] = var4;
-    var2 = function(arg1) {
+    var2 = function saveLastNonVoiceRoute(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = arg1;

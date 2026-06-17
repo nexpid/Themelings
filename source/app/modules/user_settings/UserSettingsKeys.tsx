@@ -582,6 +582,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['HIGH_DYNAMIC_RANGE'] = var1;
     var1 = 'role_style';
     var2['ROLE_STYLE'] = var1;
+    var1 = 'official_message_style';
+    var2['OFFICIAL_MESSAGE_STYLE'] = var1;
     var1 = 'enable_switch_icons';
     var2['ENABLE_SWITCH_ICONS'] = var1;
     var1 = 'color_and_contrast_related_settings';
@@ -756,6 +758,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DEFAULT_KEYBINDS_SETTING'] = var1;
     var1 = 'system_helper_category';
     var2['SYSTEM_HELPER_CATEGORY'] = var1;
+    var1 = 'system_advanced_category';
+    var2['SYSTEM_ADVANCED_CATEGORY'] = var1;
     var1 = 'keybinds_sidebar_item';
     var2['KEYBINDS_SIDEBAR_ITEM'] = var1;
     var1 = 'keybinds_panel';

@@ -61,11 +61,11 @@ case 0:
             var1 = arg1;
             var2 = var1.skuId;
             var9 = var1.subscriptionPlanId;
-            var14 = var1.price;
-            var12 = var1.gifterUserId;
-            var16 = var1.claimed;
-            var8 = var1.offeredAt;
-            var7 = var1.claimedAt;
+            var8 = var1.price;
+            var14 = var1.gifterUserId;
+            var13 = var1.claimed;
+            var7 = var1.offeredAt;
+            var6 = var1.claimedAt;
             var1 = _closure1_slot6;
             var5 = undefined;
             var11 = var1.bind(var5)();
@@ -79,23 +79,22 @@ case 0:
             var3 = _closure1_slot0;
             var1 = 6;
             var1 = var4[var1];
-            var6 = var3.bind(var5)(var1);
-            var1 = var6.useTeenUserForId;
-            var18 = var1.bind(var6)(var12);
+            var12 = var3.bind(var5)(var1);
+            var1 = var12.useTeenUserForId;
+            var16 = var1.bind(var12)(var14);
             var1 = 7;
             var1 = var4[var1];
-            var6 = var3.bind(var5)(var1);
-            var4 = var6.getPurchaseDisplayInfo;
+            var12 = var3.bind(var5)(var1);
+            var4 = var12.getPurchaseDisplayInfo;
             var1 = null;
-            var12 = var1 != var15;
+            var14 = var1 != var15;
             var3 = null;
-            if(!var12) { _fun0001_ip = 2; continue _fun0001 }
+            if(!var14) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var15;
 case 2:
-            var3 = var4.bind(var6)(var3, var9);
-            var13 = var3.displayName;
-            var6 = var3.typeName;
+            var3 = var4.bind(var12)(var3, var9);
+            var17 = var3.displayName;
             var12 = var3.isSubscription;
             if(!(var1 != var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
@@ -105,7 +104,7 @@ case 6:
 case 7:
             return var1;
 case 4:
-            if(!(var1 != var13)) { _fun0001_ip = 8; continue _fun0001 }
+            if(!(var1 != var17)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -114,34 +113,24 @@ case 9:
             var4 = var3.bind(var5)(var2);
             var3 = var4.getGiftSubtext;
             var2 = {};
-            var2['claimed'] = var16;
-            var2['price'] = var14;
-            var16 = var1 != var18;
-            var14 = null;
-            if(!var16) { _fun0001_ip = 10; continue _fun0001 }
+            var2['claimed'] = var13;
+            var2['price'] = var8;
+            var13 = var1 != var16;
+            var8 = null;
+            if(!var13) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var17 = _closure1_slot1;
-            var19 = _closure1_slot2;
-            var16 = 9;
-            var16 = var19[var16];
-            var17 = var17.bind(var5)(var16);
-            var16 = var17.getName;
-            var14 = var16.bind(var17)(var18);
+            var14 = _closure1_slot1;
+            var18 = _closure1_slot2;
+            var13 = 9;
+            var13 = var18[var13];
+            var14 = var14.bind(var5)(var13);
+            var13 = var14.getName;
+            var8 = var13.bind(var14)(var16);
 case 10:
-            var2['gifterName'] = var14;
-            var2['offeredAt'] = var8;
-            var2['claimedAt'] = var7;
+            var2['gifterName'] = var8;
+            var2['offeredAt'] = var7;
+            var2['claimedAt'] = var6;
             var14 = var3.bind(var4)(var2);
-            var17 = var13;
-            if(!(var1 != var6)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var4 = var2.concat;
-            var3 = '';
-            var2 = ' • ';
-            var17 = var4.bind(var3)(var13, var2, var6);
-case 12:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -149,18 +138,18 @@ case 12:
             var2['style'] = var6;
             var8 = _closure1_slot4;
             var7 = _closure1_slot1;
-            var16 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var6 = 10;
-            var6 = var16[var6];
+            var6 = var13[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};
-            var6['displayName'] = var13;
+            var6['displayName'] = var17;
             var16 = var1 != var15;
             var13 = null;
-            if(!var16) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!var16) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var13 = var15;
-case 14:
+case 12:
             var6['product'] = var13;
             var6['isSubscription'] = var12;
             var6['subscriptionPlanId'] = var9;

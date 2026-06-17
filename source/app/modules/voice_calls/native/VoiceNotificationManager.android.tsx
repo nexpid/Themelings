@@ -643,7 +643,7 @@ case 56:
                     var4['priority'] = var9;
                     var15 = _closure3_slot0;
                     var13 = var15.createAction;
-                    var9 = 'SelectChannel';
+                    var9 = 'SelectVoiceChannel';
                     var9 = var13.bind(var15)(var14, var9, var5);
                     var4['contentAction'] = var9;
                     var13 = var15.createAction;

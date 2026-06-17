@@ -72,7 +72,7 @@ case 2:
             return var1;
         };
         var1['get'] = var3;
-        var3 = new Array(19);
+        var3 = new Array(20);
         var3[0] = var1;
         var1 = {};
         var6 = 'withoutLogging';
@@ -476,6 +476,21 @@ case 4:
         };
         var1['value'] = var6;
         var3[18] = var1;
+        var1 = {};
+        var6 = 'deleteSyncUnsafe';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var1 = this;
+            var3 = var1.table;
+            var2 = var3.deleteSyncUnsafe;
+            var1 = new Array(1);
+            var4 = arg1;
+            var1[0] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1['value'] = var6;
+        var3[19] = var1;
         var1 = {};
         var6 = 'cell';
         var1['key'] = var6;

@@ -427,24 +427,31 @@ case 0:
             var2 = _closure1_slot15;
             var4 = undefined;
             var11 = var2.bind(var4)();
+            var8 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var2 = 18;
+            var2 = var18[var2];
+            var3 = var8.bind(var4)(var2);
+            var2 = var3.useIsScreenReaderEnabled;
+            var5 = var2.bind(var3)();
             var3 = _closure1_slot4;
             var2 = var3.useState;
-            var7 = 0;
-            var3 = var2.bind(var3)(var7);
+            var14 = 0;
+            var3 = var2.bind(var3)(var14);
             var2 = _closure1_slot3;
-            var12 = 2;
-            var3 = var2.bind(var4)(var3, var12);
-            var9 = var3[var7];
+            var16 = 2;
+            var3 = var2.bind(var4)(var3, var16);
+            var9 = var3[var14];
             var _closure2_slot2 = var9;
             var2 = 1;
-            var8 = var3[var2];
-            var _closure2_slot3 = var8;
-            var5 = _closure1_slot4;
-            var3 = var5.useEffect;
+            var12 = var3[var2];
+            var _closure2_slot3 = var12;
+            var7 = _closure1_slot4;
+            var3 = var7.useEffect;
             var2 = new Array(3);
             var2[0] = var9;
-            var14 = var10.length;
-            var2[1] = var14;
+            var19 = var10.length;
+            var2[1] = var19;
             var2[2] = var1;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -468,20 +475,20 @@ case 4:
                     return var1;
                 }
             };
-            var1 = var3.bind(var5)(var1, var2);
+            var1 = var3.bind(var7)(var1, var2);
             var1 = _closure1_slot13;
             var2 = var15 * var1;
             var1 = _closure1_slot14;
             var1 = var2 + var1;
             var _closure2_slot4 = var1;
             var3 = global;
-            var5 = var3.Math;
-            var3 = var5.max;
+            var7 = var3.Math;
+            var3 = var7.max;
             var2 = var15 - var2;
-            var2 = var2 / var12;
-            var16 = var3.bind(var5)(var7, var2);
-            var5 = _closure1_slot4;
-            var3 = var5.useCallback;
+            var2 = var2 / var16;
+            var16 = var3.bind(var7)(var14, var2);
+            var7 = _closure1_slot4;
+            var3 = var7.useCallback;
             var2 = new Array(2);
             var2[0] = var1;
             var1 = var10.length;
@@ -513,22 +520,22 @@ case 4:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var14 = var3.bind(var5)(var1, var2);
+            var14 = var3.bind(var7)(var1, var2);
             var3 = _closure1_slot11;
             var2 = _closure1_slot12;
             var1 = {};
-            var7 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var5 = 18;
-            var5 = var12[var5];
-            var5 = var7.bind(var4)(var5);
-            var5 = var5.isThumbstickScrollDevice;
-            var12 = _closure1_slot10;
-            if(var5) { _fun0002_ip = 7; continue _fun0002 }
+            var7 = 19;
+            var7 = var18[var7];
+            var7 = var8.bind(var4)(var7);
+            var7 = var7.isThumbstickScrollDevice;
+            if(var7) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
+            if(var5) { _fun0002_ip = 7; continue _fun0002 }
+case 9:
+            var8 = _closure1_slot10;
             var7 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var5 = 19;
+            var5 = 20;
             var5 = var18[var5];
             var7 = var7.bind(var4)(var5);
             var5 = {};
@@ -566,10 +573,11 @@ case 8:
             var5['mode'] = var15;
             var15 = {'parallaxScrollingScale': 1, 'parallaxScrollingOffset': 45};
             var5['modeConfig'] = var15;
-            var5['onSnapToItem'] = var8;
-            var7 = var12.bind(var4)(var7, var5);
-            _fun0002_ip = 9; continue _fun0002;
+            var5['onSnapToItem'] = var12;
+            var7 = var8.bind(var4)(var7, var5);
+            _fun0002_ip = 10; continue _fun0002;
 case 7:
+            var12 = _closure1_slot10;
             var8 = _closure1_slot5;
             var5 = {'style': null, 'contentContainerStyle': null, 'horizontal': true, 'showsHorizontalScrollIndicator': false, 'decelerationRate': 'fast', 'snapToOffsets': null, 'scrollEventThrottle': 100};
             var18 = var11.questScroller;
@@ -605,13 +613,13 @@ case 0:
                     var6 = var7 < var1;
                     var2 = undefined;
                     var1 = undefined;
-                    if(!var6) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+                    if(!var6) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                     var6 = {};
                     var8 = _closure1_slot14;
                     var6['marginRight'] = var8;
                     var1 = var6;
-case 10:
+case 11:
                     var3['style'] = var1;
                     var1 = arg1;
                     var3['children'] = var1;
@@ -627,13 +635,13 @@ case 10:
             var13 = var14.bind(var10)(var13);
             var5['children'] = var13;
             var7 = var12.bind(var4)(var8, var5);
-case 9:
+case 10:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot10;
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var6 = 20;
+            var6 = 21;
             var6 = var12[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.CarouselPagination;
@@ -651,7 +659,7 @@ case 9:
         }
     };
     var _closure1_slot19 = var2;
-    var8 = 24;
+    var8 = 25;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -665,7 +673,7 @@ case 9:
         var11 = var1.bind(var4)();
         var2 = _closure1_slot1;
         var17 = _closure1_slot2;
-        var1 = 21;
+        var1 = 22;
         var1 = var17[var1];
         var1 = var2.bind(var4)(var1);
         var1 = var1.bind(var4)();
@@ -687,7 +695,7 @@ case 9:
         var14 = _closure1_slot4;
         var13 = var14.useState;
         var16 = _closure1_slot0;
-        var2 = 22;
+        var2 = 23;
         var2 = var17[var2];
         var15 = var16.bind(var4)(var2);
         var2 = var15.getWindowDimensions;
@@ -707,11 +715,11 @@ case 9:
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var2 = _closure2_slot1;
-                if(var2) { _fun0005_ip = 12; continue _fun0005 }
-case 13:
+                if(var2) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var3 = 23;
+                var3 = 24;
                 var4 = var4[var3];
                 var3 = undefined;
                 var6 = var5.bind(var3)(var4);
@@ -725,7 +733,7 @@ case 13:
                 var2 = _closure2_slot2;
                 var1 = true;
                 var1 = var2.bind(var3)(var1);
-case 12:
+case 13:
                 var1 = undefined;
                 return var1;
             }

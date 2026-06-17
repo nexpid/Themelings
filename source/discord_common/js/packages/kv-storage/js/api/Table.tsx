@@ -142,7 +142,7 @@ case 6:
             return var1;
         };
         var5['value'] = var2;
-        var2 = new Array(18);
+        var2 = new Array(19);
         var2[0] = var5;
         var5 = {};
         var7 = 'get';
@@ -791,7 +791,7 @@ case 20:
         var5 = {};
         var7 = 'getMapEntriesSyncUnsafe';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var7 = arguments[0];
@@ -821,8 +821,43 @@ case 26:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var2[17] = var5;
+        var5 = {};
+        var7 = 'deleteSyncUnsafe';
+        var5['key'] = var7;
+        var6 = function value() {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+                var8 = arguments[0];
+                var5 = this;
+                var1 = undefined;
+                if(!(var8 === var1)) { _fun0017_ip = 26; continue _fun0017 }
+case 27:
+                var8 = new Array(0);
+case 26:
+                var4 = var5.database;
+                var3 = var4.executeSync;
+                var2 = {};
+                var6 = 'kv.delete_many';
+                var2['type'] = var6;
+                var6 = var5.tableId;
+                var2['table'] = var6;
+                var7 = _closure1_slot0;
+                var9 = _closure1_slot1;
+                var6 = 3;
+                var6 = var9[var6];
+                var7 = var7.bind(var1)(var6);
+                var6 = var7.combineKeyPrefix;
+                var5 = var5.prefix;
+                var5 = var6.bind(var7)(var5, var8);
+                var2['key'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var2[18] = var5;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
@@ -837,17 +872,17 @@ case 26:
             var2 = var5.bind(var1)(var3, var2);
             var2 = {};
             var5 = function trimOrphans(arg1) {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                     var6 = arg1;
                     var2 = _closure3_slot0;
                     var2 = var2.prefix;
                     var2 = var2.length;
                     var3 = 1;
-                    if(!(var3 === var2)) { _fun0017_ip = 19; continue _fun0017 }
+                    if(!(var3 === var2)) { _fun0018_ip = 19; continue _fun0018 }
 case 29:
                     var2 = var6.length;
-                    if(!(var3 === var2)) { _fun0017_ip = 19; continue _fun0017 }
+                    if(!(var3 === var2)) { _fun0018_ip = 19; continue _fun0018 }
 case 30:
                     var4 = _closure3_slot0;
                     var3 = var4.transaction;
@@ -906,17 +941,17 @@ case 19:
             };
             var2['trimChannel'] = var5;
             var5 = function trimChannelsIn(arg1, arg2) {
-                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                     var6 = arg1;
                     var2 = _closure3_slot0;
                     var2 = var2.prefix;
                     var2 = var2.length;
                     var3 = 1;
-                    if(!(var3 === var2)) { _fun0018_ip = 31; continue _fun0018 }
+                    if(!(var3 === var2)) { _fun0019_ip = 31; continue _fun0019 }
 case 29:
                     var2 = var6.length;
-                    if(!(var3 === var2)) { _fun0018_ip = 31; continue _fun0018 }
+                    if(!(var3 === var2)) { _fun0019_ip = 31; continue _fun0019 }
 case 30:
                     var4 = _closure3_slot0;
                     var3 = var4.transaction;
@@ -951,17 +986,17 @@ case 31:
             };
             var2['trimChannelsIn'] = var5;
             var4 = function trimChannelsNotIn(arg1, arg2) {
-                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+                _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                     var6 = arg1;
                     var2 = _closure3_slot0;
                     var2 = var2.prefix;
                     var2 = var2.length;
                     var3 = 1;
-                    if(!(var3 === var2)) { _fun0019_ip = 31; continue _fun0019 }
+                    if(!(var3 === var2)) { _fun0020_ip = 31; continue _fun0020 }
 case 29:
                     var2 = var6.length;
-                    if(!(var3 === var2)) { _fun0019_ip = 31; continue _fun0019 }
+                    if(!(var3 === var2)) { _fun0020_ip = 31; continue _fun0020 }
 case 30:
                     var4 = _closure3_slot0;
                     var3 = var4.transaction;
@@ -1010,12 +1045,12 @@ case 31:
         var3 = 'put';
         var1['key'] = var3;
         var3 = function value(arg1) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var6 = arguments[1];
                 var7 = this;
                 var1 = undefined;
-                if(!(var6 === var1)) { _fun0020_ip = 28; continue _fun0020 }
+                if(!(var6 === var1)) { _fun0021_ip = 28; continue _fun0021 }
 case 27:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -1057,12 +1092,12 @@ case 28:
         var6 = 'putAll';
         var1['key'] = var6;
         var6 = function value(arg1) {
-            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var6 = arguments[1];
                 var7 = this;
                 var1 = undefined;
-                if(!(var6 === var1)) { _fun0021_ip = 28; continue _fun0021 }
+                if(!(var6 === var1)) { _fun0022_ip = 28; continue _fun0022 }
 case 27:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -1103,12 +1138,12 @@ case 28:
         var6 = 'delete';
         var1['key'] = var6;
         var6 = function value() {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var8 = arguments[0];
                 var5 = this;
                 var1 = undefined;
-                if(!(var8 === var1)) { _fun0022_ip = 26; continue _fun0022 }
+                if(!(var8 === var1)) { _fun0023_ip = 26; continue _fun0023 }
 case 27:
                 var8 = new Array(0);
 case 26:
@@ -1175,12 +1210,12 @@ case 26:
         var6 = 'deleteAllExcept';
         var1['key'] = var6;
         var6 = function value() {
-            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                 var8 = arguments[0];
                 var5 = this;
                 var1 = undefined;
-                if(!(var8 === var1)) { _fun0023_ip = 26; continue _fun0023 }
+                if(!(var8 === var1)) { _fun0024_ip = 26; continue _fun0024 }
 case 27:
                 var8 = new Array(0);
 case 26:
@@ -1212,12 +1247,12 @@ case 26:
         var6 = 'deleteGeneration';
         var1['key'] = var6;
         var6 = function value() {
-            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                 var8 = arguments[0];
                 var5 = this;
                 var1 = undefined;
-                if(!(var8 === var1)) { _fun0024_ip = 26; continue _fun0024 }
+                if(!(var8 === var1)) { _fun0025_ip = 26; continue _fun0025 }
 case 27:
                 var8 = new Array(0);
 case 26:

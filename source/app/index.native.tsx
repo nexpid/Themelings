@@ -277,7 +277,7 @@ case 2:
             return var1;
         };
         var5 = var6.bind(var1)(var7, var5);
-        var7 = 'SelectChannel';
+        var7 = 'SelectVoiceChannel';
         var5 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;

@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.screenKey;
+            var7 = var1.screenKey;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 4;
@@ -58,12 +58,12 @@ case 0:
             var2 = var1.Navigator;
             var1 = {};
             var5 = null;
-            var9 = var5 != var8;
-            var10 = 'home';
-            var5 = var10;
-            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+            var8 = var5 != var7;
+            var9 = 'home';
+            var5 = var9;
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = var8;
+            var5 = var7;
 case 2:
             var1['initialRouteName'] = var5;
             var5 = function screenOptions(arg1) {
@@ -114,18 +114,18 @@ case 2:
                 return var1;
             };
             var1['screenOptions'] = var5;
-            var9 = _closure1_slot4;
+            var8 = _closure1_slot4;
             var5 = _closure1_slot6;
-            var8 = var5.Screen;
+            var7 = var5.Screen;
             var5 = {};
-            var5['name'] = var10;
-            var12 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var10 = 6;
-            var10 = var11[var10];
-            var10 = var12.bind(var4)(var10);
-            var5['component'] = var10;
-            var10 = function options() {
+            var5['name'] = var9;
+            var11 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var9 = 6;
+            var9 = var12[var9];
+            var9 = var11.bind(var4)(var9);
+            var5['component'] = var9;
+            var9 = function options() {
                 var1 = {};
                 var2 = function headerTitle() {
                     var4 = _closure1_slot5;
@@ -174,18 +174,26 @@ case 2:
                 var1['title'] = var2;
                 return var1;
             };
-            var5['options'] = var10;
-            var8 = var9.bind(var4)(var8, var5);
+            var5['options'] = var9;
+            var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
-            var5[0] = var8;
-            var8 = global;
-            var9 = var8.Object;
+            var5[0] = var7;
+            var7 = global;
+            var9 = var7.Object;
             var8 = var9.entries;
-            var10 = _closure1_slot0;
-            var7 = 10;
-            var7 = var11[var7];
-            var7 = var10.bind(var4)(var7);
-            var7 = var7.DevToolsScreens;
+            var7 = {};
+            var11 = _closure1_slot0;
+            var10 = 10;
+            var13 = var12[var10];
+            var13 = var11.bind(var4)(var13);
+            var14 = var13.DevToolsScreens;
+            var15 = var7;
+            var13 = copyDataProperties(var15, var14);
+            var10 = var12[var10];
+            var10 = var11.bind(var4)(var10);
+            var14 = var10.PerformanceTestingScreens;
+            var15 = var7;
+            var10 = copyDataProperties(var15, var14);
             var8 = var8.bind(var9)(var7);
             var7 = var8.map;
             var6 = function(arg1) {

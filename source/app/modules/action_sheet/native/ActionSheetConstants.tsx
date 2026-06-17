@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = {'damping': 17, 'stiffness': 240, 'mass': 0.5, 'restDisplacementThreshold': 0.4};
     var3['ACTION_SHEET_SPRING_CONFIG'] = var6;
     var6 = {};
-    var7 = 1;
+    var7 = 250;
     var6['duration'] = var7;
     var3['ACTION_SHEET_SPRING_CONFIG_REDUCED_MOTION'] = var6;
     var3['ACTION_SHEET_BORDER_RADIUS'] = var5;

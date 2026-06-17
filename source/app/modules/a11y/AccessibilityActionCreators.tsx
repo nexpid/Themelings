@@ -475,6 +475,32 @@ case 7:
         return var1;
     };
     var3['setRoleStyle'] = var4;
+    var4 = function setOfficialMessageStyle(arg1) {
+        var6 = arg1;
+        var4 = _closure1_slot0;
+        var5 = _closure1_slot1;
+        var1 = 4;
+        var3 = var5[var1];
+        var1 = undefined;
+        var8 = var4.bind(var1)(var3);
+        var7 = var8.dispatch;
+        var3 = {};
+        var9 = 'ACCESSIBILITY_SET_OFFICIAL_MESSAGE_STYLE';
+        var3['type'] = var9;
+        var3['officialMessageStyle'] = var6;
+        var3 = var7.bind(var8)(var3);
+        var3 = 5;
+        var3 = var5[var3];
+        var5 = var4.bind(var1)(var3);
+        var4 = var5.track;
+        var2 = _closure1_slot3;
+        var3 = var2.OFFICIAL_MESSAGE_STYLE_SETTING_UPDATED;
+        var2 = {};
+        var2['official_message_style'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var3['setOfficialMessageStyle'] = var4;
     var4 = function setDisplayNameStylesEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

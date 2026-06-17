@@ -238,6 +238,15 @@ case 12:
         }
     };
     var3['updateChatInputContainerHeight'] = var4;
+    var4 = function rearmColdStartReemissions(arg1) {
+        var3 = _closure1_slot4;
+        var2 = var3.delete;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
+    };
+    var3['rearmColdStartReemissions'] = var4;
     var4 = function updateShowingAutoComplete(arg1, arg2) {
         var2 = arg1;
         var _closure2_slot0 = var2;

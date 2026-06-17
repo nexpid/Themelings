@@ -39,13 +39,86 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot20 = var2;
+            _closure1_slot22 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot22 = var1;
+    var1 = function maybeApplyNoTextColorForLightCustomTheme() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var1 = _closure1_slot20;
+            var1 = var1.officialMessageStyleExplicitlySet;
+            var1 = !var1;
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var2 = _closure1_slot20;
+            var4 = var2.officialMessageStyle;
+            var2 = 'default';
+            var4 = var2 !== var4;
+            if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var2 = _closure1_slot10;
+            var5 = var2.theme;
+            var2 = _closure1_slot13;
+            var2 = var2.LIGHT;
+            var4 = var5 !== var2;
+case 8:
+            if(var4) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 11;
+            var2 = var6[var2];
+            var9 = undefined;
+            var2 = var5.bind(var9)(var2);
+            var5 = var2.ClientThemeSettings;
+            var2 = var5.getSetting;
+            var6 = var2.bind(var5)();
+            var2 = var6.backgroundGradientPresetId;
+            var5 = null;
+            var2 = var5 != var2;
+            if(var2) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var6 = var6.customUserThemeSettings;
+            var8 = var5 == var6;
+            var7 = undefined;
+            if(var8) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            var6 = var6.colors;
+            var8 = var5 == var6;
+            var7 = undefined;
+            if(var8) { _fun0002_ip = 14; continue _fun0002 }
+case 16:
+            var7 = var6.length;
+case 14:
+            var8 = var5 != var7;
+            var6 = 0;
+            var5 = 0;
+            if(!var8) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+            var5 = var7;
+case 17:
+            var2 = var5 > var6;
+case 12:
+            var4 = !var2;
+case 10:
+            var2 = !var4;
+            if(var4) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+            var4 = _closure1_slot20;
+            var3 = 'no_text_color';
+            var4['officialMessageStyle'] = var3;
+            var2 = true;
+case 19:
+            var1 = var2;
+case 6:
+            return var1;
+        }
+    };
+    var _closure1_slot23 = var1;
     var1 = ['fontScale'];
     var _closure1_slot3 = var1;
     var1 = global;
@@ -87,24 +160,30 @@ case 4:
     var _closure1_slot10 = var2;
     var2 = 7;
     var2 = var8[var2];
-    var2 = var7.bind(var1)(var2);
-    var11 = var2.Accessibility;
-    var _closure1_slot11 = var11;
+    var2 = var9.bind(var1)(var2);
+    var _closure1_slot11 = var2;
     var2 = 8;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
+    var11 = var2.Accessibility;
+    var _closure1_slot12 = var11;
+    var2 = var2.ThemeTypes;
+    var _closure1_slot13 = var2;
+    var2 = 9;
+    var2 = var8[var2];
+    var2 = var7.bind(var1)(var2);
     var4 = var2.MESSAGE_GROUP_SPACING;
-    var _closure1_slot12 = var4;
+    var _closure1_slot14 = var4;
     var4 = var2.DEFAULT_COMPACT_SPACING;
-    var _closure1_slot13 = var4;
+    var _closure1_slot15 = var4;
     var2 = var2.DEFAULT_COZY_SPACING;
-    var _closure1_slot14 = var2;
+    var _closure1_slot16 = var2;
     var4 = {};
     var2 = 'default';
     var4['DEFAULT'] = var2;
     var2 = 'high';
     var4['HIGH'] = var2;
-    var _closure1_slot15 = var4;
+    var _closure1_slot17 = var4;
     var2 = {};
     var5 = 'flexible';
     var2['FLEXIBLE'] = var5;
@@ -112,8 +191,8 @@ case 4:
     var2['CONDENSED'] = var5;
     var5 = 'hidden';
     var2['HIDDEN'] = var5;
-    var _closure1_slot16 = var2;
-    var5 = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'displayNameStylesEnabled': true, 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false, 'enableCustomCursor': true, 'switchIconsEnabled': false, 'appsButtonEnabled': true};
+    var _closure1_slot18 = var2;
+    var5 = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'officialMessageStyle': 'default', 'officialMessageStyleExplicitlySet': false, 'displayNameStylesEnabled': true, 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false, 'enableCustomCursor': true, 'switchIconsEnabled': false, 'appsButtonEnabled': true};
     var12 = var11.FONT_SIZE_DEFAULT;
     var5['fontSize'] = var12;
     var11 = var11.ZOOM_DEFAULT;
@@ -126,17 +205,17 @@ case 4:
     var5['emojiButtonEnabled'] = var10;
     var5['gifButtonEnabled'] = var10;
     var5['stickerButtonEnabled'] = var10;
-    var _closure1_slot17 = var5;
-    var _closure1_slot18 = var5;
-    var5 = {12: 'font-size-12', 14: 'font-size-14', 15: 'font-size-15', 16: 'font-size-16', 18: 'font-size-18', 20: 'font-size-20', 24: 'font-size-24'};
     var _closure1_slot19 = var5;
-    var5 = 11;
+    var _closure1_slot20 = var5;
+    var5 = {12: 'font-size-12', 14: 'font-size-14', 15: 'font-size-15', 16: 'font-size-16', 18: 'font-size-18', 20: 'font-size-20', 24: 'font-size-24'};
+    var _closure1_slot21 = var5;
+    var5 = 12;
     var5 = var8[var5];
     var5 = var9.bind(var1)(var5);
     var10 = var5.DeviceSettingsStore;
     var5 = function(arg1) {
         var4 = function AccessibilityStore() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var4 = this;
                 var3 = undefined;
@@ -147,16 +226,16 @@ case 0:
                 var1 = _closure1_slot8;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot7;
-                var1 = _closure1_slot20;
+                var1 = _closure1_slot22;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                if(var1) { _fun0003_ip = 11; continue _fun0003 }
+case 21:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0002_ip = 8; continue _fun0002;
-case 6:
+                _fun0003_ip = 22; continue _fun0003;
+case 11:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -165,7 +244,7 @@ case 6:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 8:
+case 22:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -180,72 +259,78 @@ case 8:
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var5 = arg1;
-                var4 = this;
-                var3 = var4.waitFor;
-                var1 = _closure1_slot10;
-                var1 = var3.bind(var4)(var1);
+                var6 = arg1;
+                var5 = this;
+                var3 = var5.waitFor;
+                var1 = _closure1_slot11;
+                var1 = var3.bind(var5)(var1);
                 var1 = {};
-                var8 = _closure1_slot17;
-                var9 = var1;
-                var3 = copyDataProperties(var9, var8);
-                var3 = null;
-                var6 = var3 != var5;
+                var9 = _closure1_slot19;
+                var10 = var1;
+                var3 = copyDataProperties(var10, var9);
                 var4 = null;
-                if(!var6) { _fun0003_ip = 7; continue _fun0003 }
-case 9:
-                var4 = var5;
-case 7:
-                var9 = var1;
-                var8 = var4;
-                var4 = copyDataProperties(var9, var8);
-                _closure1_slot18 = var1;
+                var7 = var4 != var6;
+                var3 = null;
+                if(!var7) { _fun0004_ip = 21; continue _fun0004 }
+case 23:
+                var3 = var6;
+case 21:
+                var10 = var1;
+                var9 = var3;
+                var3 = copyDataProperties(var10, var9);
+                _closure1_slot20 = var1;
                 var1 = global;
-                var5 = var1.isNaN;
-                var1 = _closure1_slot18;
-                var4 = var1.fontSize;
+                var6 = var1.isNaN;
+                var1 = _closure1_slot20;
+                var3 = var1.fontSize;
                 var1 = undefined;
-                var4 = var5.bind(var1)(var4);
-                if(!var4) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                var5 = _closure1_slot18;
-                var4 = _closure1_slot11;
-                var4 = var4.FONT_SIZE_DEFAULT;
-                var5['fontSize'] = var4;
-case 10:
-                var6 = _closure1_slot12;
-                var5 = var6.indexOf;
-                var4 = _closure1_slot18;
-                var4 = var4.messageGroupSpacing;
-                var7 = var3 != var4;
-                var4 = -1;
-                if(!var7) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-                var7 = _closure1_slot18;
-                var4 = var7.messageGroupSpacing;
-case 12:
-                var5 = var5.bind(var6)(var4);
-                var4 = 0;
-                if(!(var5 < var4)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                var2 = _closure1_slot18;
-                var2['messageGroupSpacing'] = var3;
+                var3 = var6.bind(var1)(var3);
+                if(!var3) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
+                var6 = _closure1_slot20;
+                var3 = _closure1_slot12;
+                var3 = var3.FONT_SIZE_DEFAULT;
+                var6['fontSize'] = var3;
+case 24:
+                var7 = _closure1_slot14;
+                var6 = var7.indexOf;
+                var3 = _closure1_slot20;
+                var3 = var3.messageGroupSpacing;
+                var8 = var4 != var3;
+                var3 = -1;
+                if(!var8) { _fun0004_ip = 14; continue _fun0004 }
+case 26:
+                var8 = _closure1_slot20;
+                var3 = var8.messageGroupSpacing;
 case 14:
+                var6 = var6.bind(var7)(var3);
+                var3 = 0;
+                if(!(var6 < var3)) { _fun0004_ip = 10; continue _fun0004 }
+case 18:
+                var3 = _closure1_slot20;
+                var3['messageGroupSpacing'] = var4;
+case 10:
+                var4 = var5.syncWith;
+                var6 = _closure1_slot11;
+                var3 = new Array(1);
+                var3[0] = var6;
+                var2 = _closure1_slot23;
+                var2 = var4.bind(var5)(var3, var2);
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(43);
+        var1 = new Array(44);
         var1[0] = var5;
         var5 = {};
         var7 = 'fontScale';
         var5['key'] = var7;
         var7 = function get() {
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var2 = var2.fontSize;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var1 = var1.FONT_SIZE_DEFAULT;
             var2 = var2 / var1;
             var1 = 100;
@@ -258,7 +343,7 @@ case 14:
         var7 = 'fontSize';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.fontSize;
             return var1;
         };
@@ -268,9 +353,9 @@ case 14:
         var7 = 'isFontScaledUp';
         var5['key'] = var7;
         var7 = function get() {
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var2 = var2.fontSize;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var1 = var1.FONT_SIZE_DEFAULT;
             var1 = var2 > var1;
             return var1;
@@ -281,9 +366,9 @@ case 14:
         var7 = 'isFontScaledDown';
         var5['key'] = var7;
         var7 = function get() {
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var2 = var2.fontSize;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var1 = var1.FONT_SIZE_DEFAULT;
             var1 = var2 < var1;
             return var1;
@@ -294,42 +379,42 @@ case 14:
         var7 = 'fontScaleClass';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var3 = this;
-                var2 = _closure1_slot19;
+                var2 = _closure1_slot21;
                 var1 = var3.fontSize;
                 var2 = var2[var1];
                 var1 = null;
                 var5 = var1 != var2;
                 var1 = '';
                 var4 = var1;
-                if(!var5) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                if(!var5) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                 var4 = var2;
-case 16:
+case 27:
                 var5 = var3.isFontScaledUp;
                 var2 = global;
-                if(var5) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                if(var5) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                 var3 = var3.isFontScaledDown;
                 var5 = var2.HermesInternal;
                 var5 = var5.concat;
-                if(var3) { _fun0004_ip = 20; continue _fun0004 }
+                if(var3) { _fun0005_ip = 31; continue _fun0005 }
 case 4:
                 var1 = var5.bind(var1)(var4);
-                _fun0004_ip = 21; continue _fun0004;
-case 20:
+                _fun0005_ip = 32; continue _fun0005;
+case 31:
                 var3 = 'a11y-font-scaled-down ';
                 var1 = var5.bind(var3)(var4);
-case 21:
-                _fun0004_ip = 22; continue _fun0004;
-case 18:
+case 32:
+                _fun0005_ip = 33; continue _fun0005;
+case 29:
                 var2 = var2.HermesInternal;
                 var3 = var2.concat;
                 var2 = 'a11y-font-scaled-up ';
                 var1 = var3.bind(var2)(var4);
-case 22:
+case 33:
                 return var1;
             }
         };
@@ -339,7 +424,7 @@ case 22:
         var7 = 'zoom';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.zoom;
             return var1;
         };
@@ -349,9 +434,9 @@ case 22:
         var7 = 'isZoomedIn';
         var5['key'] = var7;
         var7 = function get() {
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var2 = var2.zoom;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var1 = var1.ZOOM_DEFAULT;
             var1 = var2 > var1;
             return var1;
@@ -362,9 +447,9 @@ case 22:
         var7 = 'isZoomedOut';
         var5['key'] = var7;
         var7 = function get() {
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var2 = var2.zoom;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var1 = var1.ZOOM_DEFAULT;
             var1 = var2 < var1;
             return var1;
@@ -375,7 +460,7 @@ case 22:
         var7 = 'keyboardModeEnabled';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.keyboardModeEnabled;
             return var1;
         };
@@ -385,7 +470,7 @@ case 22:
         var7 = 'colorblindMode';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.colorblindMode;
             return var1;
         };
@@ -395,7 +480,7 @@ case 22:
         var7 = 'lowContrastMode';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.lowContrastMode;
             return var1;
         };
@@ -405,7 +490,7 @@ case 22:
         var7 = 'saturation';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.saturation;
             return var1;
         };
@@ -415,7 +500,7 @@ case 22:
         var7 = 'contrast';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.contrast;
             return var1;
         };
@@ -425,7 +510,7 @@ case 22:
         var7 = 'desaturateUserColors';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.desaturateUserColors;
             return var1;
         };
@@ -435,7 +520,7 @@ case 22:
         var7 = 'forcedColorsModalSeen';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.forcedColorsModalSeen;
             return var1;
         };
@@ -445,7 +530,7 @@ case 22:
         var7 = 'keyboardNavigationExplainerModalSeen';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.keyboardNavigationExplainerModalSeen;
             return var1;
         };
@@ -455,34 +540,34 @@ case 22:
         var7 = 'messageGroupSpacing';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var1 = _closure1_slot18;
+                var1 = _closure1_slot20;
                 var3 = var1.messageGroupSpacing;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0005_ip = 5; continue _fun0005 }
-case 23:
+                if(!(var1 == var3)) { _fun0006_ip = 5; continue _fun0006 }
+case 34:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var3 = var3[var1];
                 var1 = undefined;
                 var1 = var4.bind(var1)(var3);
                 var3 = var1.MessageDisplayCompact;
                 var1 = var3.getSetting;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
-                var1 = _closure1_slot14;
-                _fun0005_ip = 3; continue _fun0005;
-case 24:
-                var1 = _closure1_slot13;
+                if(var1) { _fun0006_ip = 8; continue _fun0006 }
+case 35:
+                var1 = _closure1_slot16;
+                _fun0006_ip = 3; continue _fun0006;
+case 8:
+                var1 = _closure1_slot15;
 case 3:
-                _fun0005_ip = 26; continue _fun0005;
+                _fun0006_ip = 36; continue _fun0006;
 case 5:
-                var2 = _closure1_slot18;
+                var2 = _closure1_slot20;
                 var1 = var2.messageGroupSpacing;
-case 26:
+case 36:
                 return var1;
             }
         };
@@ -492,24 +577,24 @@ case 26:
         var7 = 'isMessageGroupSpacingIncreased';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 10;
+                var2 = 11;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
                 var3 = var2.MessageDisplayCompact;
                 var2 = var3.getSetting;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
-                var2 = _closure1_slot14;
-                _fun0006_ip = 29; continue _fun0006;
-case 27:
-                var2 = _closure1_slot13;
-case 29:
+                if(var2) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
+                var2 = _closure1_slot16;
+                _fun0007_ip = 39; continue _fun0007;
+case 37:
+                var2 = _closure1_slot15;
+case 39:
                 var1 = this;
                 var1 = var1.messageGroupSpacing;
                 var1 = var1 > var2;
@@ -522,24 +607,24 @@ case 29:
         var7 = 'isMessageGroupSpacingDecreased';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 10;
+                var2 = 11;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
                 var3 = var2.MessageDisplayCompact;
                 var2 = var3.getSetting;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
-                var2 = _closure1_slot14;
-                _fun0007_ip = 29; continue _fun0007;
-case 27:
-                var2 = _closure1_slot13;
-case 29:
+                if(var2) { _fun0008_ip = 37; continue _fun0008 }
+case 38:
+                var2 = _closure1_slot16;
+                _fun0008_ip = 39; continue _fun0008;
+case 37:
+                var2 = _closure1_slot15;
+case 39:
                 var1 = this;
                 var1 = var1.messageGroupSpacing;
                 var1 = var1 < var2;
@@ -552,7 +637,7 @@ case 29:
         var7 = 'isSubmitButtonEnabled';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.submitButtonEnabled;
             return var1;
         };
@@ -562,7 +647,7 @@ case 29:
         var7 = 'syncProfileThemeWithUserTheme';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.syncProfileThemeWithUserTheme;
             return var1;
         };
@@ -572,7 +657,7 @@ case 29:
         var7 = 'systemPrefersReducedMotion';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.systemPrefersReducedMotion;
             return var1;
         };
@@ -582,7 +667,7 @@ case 29:
         var7 = 'rawPrefersReducedMotion';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.prefersReducedMotion;
             return var1;
         };
@@ -592,24 +677,24 @@ case 29:
         var7 = 'useReducedMotion';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-                var2 = _closure1_slot18;
+                var2 = _closure1_slot20;
                 var3 = var2.prefersReducedMotion;
                 var2 = 'no-preference';
-                if(!(var2 !== var3)) { _fun0008_ip = 7; continue _fun0008 }
-case 30:
+                if(!(var2 !== var3)) { _fun0009_ip = 21; continue _fun0009 }
+case 40:
                 var2 = 'reduce';
-                if(!(var2 !== var3)) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
-                var1 = _closure1_slot18;
+                if(!(var2 !== var3)) { _fun0009_ip = 41; continue _fun0009 }
+case 42:
+                var1 = _closure1_slot20;
                 var1 = var1.systemPrefersReducedMotion;
                 var1 = var2 === var1;
                 return var1;
-case 31:
+case 41:
                 var1 = true;
                 return var1;
-case 7:
+case 21:
                 var1 = false;
                 return var1;
             }
@@ -620,7 +705,7 @@ case 7:
         var7 = 'systemForcedColors';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.systemForcedColors;
             return var1;
         };
@@ -630,7 +715,7 @@ case 7:
         var7 = 'syncForcedColors';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.syncForcedColors;
             return var1;
         };
@@ -640,18 +725,18 @@ case 7:
         var7 = 'useForcedColors';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                var1 = _closure1_slot18;
+                var1 = _closure1_slot20;
                 var1 = var1.syncForcedColors;
                 var1 = !var1;
-                if(var1) { _fun0009_ip = 33; continue _fun0009 }
-case 23:
-                var2 = _closure1_slot18;
+                if(var1) { _fun0010_ip = 43; continue _fun0010 }
+case 34:
+                var2 = _closure1_slot20;
                 var3 = var2.systemForcedColors;
                 var2 = 'active';
                 var1 = var2 !== var3;
-case 33:
+case 43:
                 var1 = !var1;
                 return var1;
             }
@@ -662,7 +747,7 @@ case 33:
         var7 = 'systemPrefersContrast';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.systemPrefersContrast;
             return var1;
         };
@@ -672,7 +757,7 @@ case 33:
         var7 = 'systemPrefersCrossfades';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.systemPrefersCrossfades;
             return var1;
         };
@@ -682,7 +767,7 @@ case 33:
         var7 = 'alwaysShowLinkDecorations';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.alwaysShowLinkDecorations;
             return var1;
         };
@@ -692,7 +777,7 @@ case 33:
         var7 = 'enableCustomCursor';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.enableCustomCursor;
             return var1;
         };
@@ -702,114 +787,124 @@ case 33:
         var7 = 'roleStyle';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.roleStyle;
             return var1;
         };
         var5['get'] = var7;
         var1[32] = var5;
         var5 = {};
-        var7 = 'displayNameStylesEnabled';
+        var7 = 'officialMessageStyle';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
-            var1 = var1.displayNameStylesEnabled;
+            var1 = _closure1_slot20;
+            var1 = var1.officialMessageStyle;
             return var1;
         };
         var5['get'] = var7;
         var1[33] = var5;
         var5 = {};
-        var7 = 'isHighContrastModeEnabled';
+        var7 = 'displayNameStylesEnabled';
         var5['key'] = var7;
         var7 = function get() {
-            var2 = _closure1_slot18;
-            var2 = var2.contrastMode;
-            var1 = _closure1_slot15;
-            var1 = var1.HIGH;
-            var1 = var2 === var1;
+            var1 = _closure1_slot20;
+            var1 = var1.displayNameStylesEnabled;
             return var1;
         };
         var5['get'] = var7;
         var1[34] = var5;
         var5 = {};
-        var7 = 'isSwitchIconsEnabled';
+        var7 = 'isHighContrastModeEnabled';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
-            var1 = var1.switchIconsEnabled;
+            var2 = _closure1_slot20;
+            var2 = var2.contrastMode;
+            var1 = _closure1_slot17;
+            var1 = var1.HIGH;
+            var1 = var2 === var1;
             return var1;
         };
         var5['get'] = var7;
         var1[35] = var5;
         var5 = {};
-        var7 = 'isAppsButtonEnabled';
+        var7 = 'isSwitchIconsEnabled';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
-            var1 = var1.appsButtonEnabled;
+            var1 = _closure1_slot20;
+            var1 = var1.switchIconsEnabled;
             return var1;
         };
         var5['get'] = var7;
         var1[36] = var5;
         var5 = {};
-        var7 = 'expressionPickerFormat';
+        var7 = 'isAppsButtonEnabled';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
-            var1 = var1.expressionPickerFormat;
+            var1 = _closure1_slot20;
+            var1 = var1.appsButtonEnabled;
             return var1;
         };
         var5['get'] = var7;
         var1[37] = var5;
         var5 = {};
-        var7 = 'condensePickerWhenNarrow';
+        var7 = 'expressionPickerFormat';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
-            var1 = var1.condensePickerWhenNarrow;
+            var1 = _closure1_slot20;
+            var1 = var1.expressionPickerFormat;
             return var1;
         };
         var5['get'] = var7;
         var1[38] = var5;
         var5 = {};
-        var7 = 'isEmojiButtonEnabled';
+        var7 = 'condensePickerWhenNarrow';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
-            var1 = var1.emojiButtonEnabled;
+            var1 = _closure1_slot20;
+            var1 = var1.condensePickerWhenNarrow;
             return var1;
         };
         var5['get'] = var7;
         var1[39] = var5;
         var5 = {};
-        var7 = 'isGifButtonEnabled';
+        var7 = 'isEmojiButtonEnabled';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
-            var1 = var1.gifButtonEnabled;
+            var1 = _closure1_slot20;
+            var1 = var1.emojiButtonEnabled;
             return var1;
         };
         var5['get'] = var7;
         var1[40] = var5;
         var5 = {};
-        var7 = 'isStickerButtonEnabled';
+        var7 = 'isGifButtonEnabled';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot18;
-            var1 = var1.stickerButtonEnabled;
+            var1 = _closure1_slot20;
+            var1 = var1.gifButtonEnabled;
             return var1;
         };
         var5['get'] = var7;
         var1[41] = var5;
         var5 = {};
+        var7 = 'isStickerButtonEnabled';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot20;
+            var1 = var1.stickerButtonEnabled;
+            return var1;
+        };
+        var5['get'] = var7;
+        var1[42] = var5;
+        var5 = {};
         var7 = 'getUserAgnosticState';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             return var1;
         };
         var5['value'] = var6;
-        var1[42] = var5;
+        var1[43] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -819,11 +914,11 @@ case 33:
     var10['persistKey'] = var5;
     var5 = new Array(11);
     var11 = function() {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var8 = 12;
+            var8 = 13;
             var2 = var2[var8];
             var7 = undefined;
             var2 = var3.bind(var7)(var2);
@@ -831,10 +926,10 @@ case 0:
             var2 = var3.get;
             var12 = 'a11yFontScale';
             var4 = var2.bind(var3)(var12);
-            if(var4) { _fun0010_ip = 34; continue _fun0010 }
-case 27:
+            if(var4) { _fun0011_ip = 44; continue _fun0011 }
+case 37:
             var4 = 100;
-case 34:
+case 44:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -843,11 +938,11 @@ case 34:
             var2 = var3.get;
             var11 = 'a11yZoom';
             var3 = var2.bind(var3)(var11);
-            if(var3) { _fun0010_ip = 8; continue _fun0010 }
-case 35:
-            var2 = _closure1_slot11;
+            if(var3) { _fun0011_ip = 22; continue _fun0011 }
+case 45:
+            var2 = _closure1_slot12;
             var3 = var2.ZOOM_DEFAULT;
-case 8:
+case 22:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -856,10 +951,10 @@ case 8:
             var2 = var5.get;
             var6 = 'a11yColorblindMode';
             var2 = var2.bind(var5)(var6);
-            if(var2) { _fun0010_ip = 36; continue _fun0010 }
-case 37:
+            if(var2) { _fun0011_ip = 46; continue _fun0011 }
+case 47:
             var2 = false;
-case 36:
+case 46:
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var9 = var1[var8];
@@ -888,7 +983,7 @@ case 36:
     };
     var5[0] = var11;
     var11 = function(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var5 = arg1;
             var4 = var5.fontScale;
@@ -897,40 +992,40 @@ case 0:
             var1 = undefined;
             var2 = var3.bind(var1)(var5, var2);
             var1 = 82;
-            if(!(var1 !== var4)) { _fun0011_ip = 38; continue _fun0011 }
-case 39:
+            if(!(var1 !== var4)) { _fun0012_ip = 48; continue _fun0012 }
+case 49:
             var1 = 92;
-            if(!(var1 !== var4)) { _fun0011_ip = 18; continue _fun0011 }
-case 40:
+            if(!(var1 !== var4)) { _fun0012_ip = 29; continue _fun0012 }
+case 50:
             var5 = 16;
             var1 = 100;
             var3 = var5;
-            if(!(var1 !== var4)) { _fun0011_ip = 41; continue _fun0011 }
-case 42:
+            if(!(var1 !== var4)) { _fun0012_ip = 51; continue _fun0012 }
+case 52:
             var1 = 110;
-            if(!(var1 !== var4)) { _fun0011_ip = 43; continue _fun0011 }
-case 44:
+            if(!(var1 !== var4)) { _fun0012_ip = 53; continue _fun0012 }
+case 54:
             var1 = 125;
-            if(!(var1 !== var4)) { _fun0011_ip = 45; continue _fun0011 }
-case 6:
+            if(!(var1 !== var4)) { _fun0012_ip = 55; continue _fun0012 }
+case 11:
             var1 = 150;
             var3 = var5;
-            if(!(var1 === var4)) { _fun0011_ip = 41; continue _fun0011 }
-case 46:
+            if(!(var1 === var4)) { _fun0012_ip = 51; continue _fun0012 }
+case 56:
             var3 = 24;
-            _fun0011_ip = 41; continue _fun0011;
-case 45:
+            _fun0012_ip = 51; continue _fun0012;
+case 55:
             var3 = 20;
-            _fun0011_ip = 41; continue _fun0011;
-case 43:
+            _fun0012_ip = 51; continue _fun0012;
+case 53:
             var3 = 18;
-            _fun0011_ip = 41; continue _fun0011;
-case 18:
+            _fun0012_ip = 51; continue _fun0012;
+case 29:
             var3 = 15;
-            _fun0011_ip = 41; continue _fun0011;
-case 38:
+            _fun0012_ip = 51; continue _fun0012;
+case 48:
             var3 = 12;
-case 41:
+case 51:
             var1 = {};
             var7 = var1;
             var6 = var2;
@@ -986,7 +1081,7 @@ case 41:
         var3 = var2.saturation;
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var2 = 13;
+        var2 = 14;
         var4 = var4[var2];
         var2 = undefined;
         var2 = var5.bind(var2)(var4);
@@ -1009,33 +1104,33 @@ case 41:
     };
     var5[6] = var11;
     var11 = function(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
-case 47: // try_start_0
+case 57: // try_start_0
             var2 = var1;
             var2 = delete var2.disableVoiceBackgrounds;
-case 48: // try_end0
-            _fun0012_ip = 49; continue _fun0012;
-case 50: // catch_target0
+case 58: // try_end0
+            _fun0013_ip = 59; continue _fun0013;
+case 60: // catch_target0
             CatchBlockStart(arg_register=1);
-case 49:
+case 59:
             return var1;
         }
     };
     var5[7] = var11;
     var11 = function(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
-case 47: // try_start_0
+case 57: // try_start_0
             var2 = var1;
             var2 = delete var2.hideGuildTags;
-case 48: // try_end0
-            _fun0013_ip = 49; continue _fun0013;
-case 50: // catch_target0
+case 58: // try_end0
+            _fun0014_ip = 59; continue _fun0014;
+case 60: // catch_target0
             CatchBlockStart(arg_register=1);
-case 49:
+case 59:
             return var1;
         }
     };
@@ -1059,7 +1154,7 @@ case 49:
         var3 = true;
         var2 = 'appsButtonEnabled';
         var1[1] = var3;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot18;
         var4 = var2.FLEXIBLE;
         var2 = 'expressionPickerFormat';
         var1[1] = var4;
@@ -1075,189 +1170,189 @@ case 49:
     };
     var5[10] = var11;
     var10['migrations'] = var5;
-    var5 = 14;
+    var5 = 15;
     var5 = var8[var5];
     var15 = var9.bind(var1)(var5);
     var5 = {};
     var11 = function handleFontScaleTo(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.fontSize;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var4 = var1.FONT_SIZES;
             var1 = var4.indexOf;
             var4 = var1.bind(var4)(var2);
             var1 = 0;
-            if(!(!(var4 >= var1))) { _fun0014_ip = 51; continue _fun0014 }
-case 16:
-            var1 = _closure1_slot11;
+            if(!(!(var4 >= var1))) { _fun0015_ip = 61; continue _fun0015 }
+case 27:
+            var1 = _closure1_slot12;
             var2 = var1.FONT_SIZE_DEFAULT;
-case 51:
-            var1 = _closure1_slot11;
+case 61:
+            var1 = _closure1_slot12;
             var1 = var1.FONT_SIZE_MAX;
-            if(!(!(var2 > var1))) { _fun0014_ip = 52; continue _fun0014 }
-case 53:
-            var1 = _closure1_slot11;
+            if(!(!(var2 > var1))) { _fun0015_ip = 62; continue _fun0015 }
+case 63:
+            var1 = _closure1_slot12;
             var1 = var1.FONT_SIZE_MIN;
-            if(!(!(var2 < var1))) { _fun0014_ip = 52; continue _fun0014 }
-case 54:
-            var1 = _closure1_slot18;
+            if(!(!(var2 < var1))) { _fun0015_ip = 62; continue _fun0015 }
+case 64:
+            var1 = _closure1_slot20;
             var1 = var1.fontSize;
-            if(!(var1 !== var2)) { _fun0014_ip = 52; continue _fun0014 }
-case 55:
+            if(!(var1 !== var2)) { _fun0015_ip = 62; continue _fun0015 }
+case 65:
             var1 = {};
-            var5 = _closure1_slot18;
+            var5 = _closure1_slot20;
             var6 = var1;
             var4 = copyDataProperties(var6, var5);
-            _closure1_slot18 = var1;
+            _closure1_slot20 = var1;
             var1['fontSize'] = var2;
             var1 = undefined;
             return var1;
-case 52:
+case 62:
             var1 = false;
             return var1;
         }
     };
     var5['ACCESSIBILITY_SET_FONT_SIZE'] = var11;
     var11 = function handleZoomTo(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.zoom;
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot12;
             var3 = var3.ZOOM_MIN;
-            if(!(!(var4 < var3))) { _fun0015_ip = 56; continue _fun0015 }
-case 57:
+            if(!(!(var4 < var3))) { _fun0016_ip = 66; continue _fun0016 }
+case 67:
             var4 = var1.zoom;
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot12;
             var3 = var3.ZOOM_MAX;
-            if(!(!(var4 > var3))) { _fun0015_ip = 56; continue _fun0015 }
-case 58:
-            var3 = _closure1_slot18;
+            if(!(!(var4 > var3))) { _fun0016_ip = 66; continue _fun0016 }
+case 68:
+            var3 = _closure1_slot20;
             var4 = var3.zoom;
             var3 = var1.zoom;
-            if(!(var4 !== var3)) { _fun0015_ip = 56; continue _fun0015 }
-case 24:
+            if(!(var4 !== var3)) { _fun0016_ip = 66; continue _fun0016 }
+case 8:
             var3 = {};
-            var5 = _closure1_slot18;
+            var5 = _closure1_slot20;
             var6 = var3;
             var4 = copyDataProperties(var6, var5);
-            _closure1_slot18 = var3;
+            _closure1_slot20 = var3;
             var1 = var1.zoom;
             var3['zoom'] = var1;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.setZoomFactor;
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var2 = var2.zoom;
             var2 = var3.bind(var4)(var2);
             return var1;
-case 56:
+case 66:
             var1 = false;
             return var1;
         }
     };
     var5['ACCESSIBILITY_SET_ZOOM'] = var11;
     var11 = function handleResetToDefault() {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var5 = var2.fontSize;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var4 = var2.FONT_SIZE_DEFAULT;
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot20;
             var3 = var3.zoom;
             var2 = var2.ZOOM_DEFAULT;
-            if(!(var5 === var4)) { _fun0016_ip = 7; continue _fun0016 }
-case 59:
-            if(!(var3 === var2)) { _fun0016_ip = 7; continue _fun0016 }
-case 31:
+            if(!(var5 === var4)) { _fun0017_ip = 21; continue _fun0017 }
+case 9:
+            if(!(var3 === var2)) { _fun0017_ip = 21; continue _fun0017 }
+case 41:
             var2 = false;
             return var2;
-case 7:
+case 21:
             var2 = {};
-            var6 = _closure1_slot18;
+            var6 = _closure1_slot20;
             var7 = var2;
             var3 = copyDataProperties(var7, var6);
-            _closure1_slot18 = var2;
+            _closure1_slot20 = var2;
             var3 = var2.fontSize;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var2 = var2.FONT_SIZE_DEFAULT;
-            if(!(var3 !== var2)) { _fun0016_ip = 60; continue _fun0016 }
-case 61:
-            var3 = _closure1_slot18;
-            var2 = _closure1_slot11;
+            if(!(var3 !== var2)) { _fun0017_ip = 69; continue _fun0017 }
+case 70:
+            var3 = _closure1_slot20;
+            var2 = _closure1_slot12;
             var2 = var2.FONT_SIZE_DEFAULT;
             var3['fontSize'] = var2;
-case 60:
-            var2 = _closure1_slot18;
+case 69:
+            var2 = _closure1_slot20;
             var3 = var2.zoom;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var2 = var2.ZOOM_DEFAULT;
-            if(!(var3 !== var2)) { _fun0016_ip = 62; continue _fun0016 }
-case 63:
-            var3 = _closure1_slot18;
-            var2 = _closure1_slot11;
+            if(!(var3 !== var2)) { _fun0017_ip = 71; continue _fun0017 }
+case 72:
+            var3 = _closure1_slot20;
+            var2 = _closure1_slot12;
             var2 = var2.ZOOM_DEFAULT;
             var3['zoom'] = var2;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 9;
+            var2 = 10;
             var3 = var3[var2];
             var2 = undefined;
             var3 = var4.bind(var2)(var3);
             var2 = var3.setZoomFactor;
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.zoom;
             var1 = var2.bind(var3)(var1);
-case 62:
+case 71:
             var1 = undefined;
             return var1;
         }
     };
     var5['ACCESSIBILITY_RESET_TO_DEFAULT'] = var11;
     var11 = function handleEnableKeyboardMode() {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var2 = var2.keyboardModeEnabled;
-            if(var2) { _fun0017_ip = 64; continue _fun0017 }
-case 65:
+            if(var2) { _fun0018_ip = 73; continue _fun0018 }
+case 74:
             var2 = {};
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot20;
             var5 = var2;
             var3 = copyDataProperties(var5, var4);
-            _closure1_slot18 = var2;
+            _closure1_slot20 = var2;
             var1 = true;
             var2['keyboardModeEnabled'] = var1;
             var1 = undefined;
             return var1;
-case 64:
+case 73:
             var1 = false;
             return var1;
         }
     };
     var5['ACCESSIBILITY_KEYBOARD_MODE_ENABLE'] = var11;
     var11 = function handleDisableKeyboardMode() {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var2 = var2.keyboardModeEnabled;
-            if(var2) { _fun0018_ip = 66; continue _fun0018 }
-case 65:
+            if(var2) { _fun0019_ip = 75; continue _fun0019 }
+case 74:
             var2 = false;
             return var2;
-case 66:
+case 75:
             var2 = {};
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot20;
             var5 = var2;
             var3 = copyDataProperties(var5, var4);
-            _closure1_slot18 = var2;
+            _closure1_slot20 = var2;
             var1 = false;
             var2['keyboardModeEnabled'] = var1;
             var1 = undefined;
@@ -1267,10 +1362,10 @@ case 66:
     var5['ACCESSIBILITY_KEYBOARD_MODE_DISABLE'] = var11;
     var11 = function handleToggleColorblindMode() {
         var2 = {};
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot20;
         var5 = var2;
         var3 = copyDataProperties(var5, var4);
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = var2.colorblindMode;
         var1 = !var1;
         var2['colorblindMode'] = var1;
@@ -1280,10 +1375,10 @@ case 66:
     var5['ACCESSIBILITY_COLORBLIND_TOGGLE'] = var11;
     var11 = function handleToggleLowContrastMode() {
         var2 = {};
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot20;
         var5 = var2;
         var3 = copyDataProperties(var5, var4);
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = var2.lowContrastMode;
         var1 = !var1;
         var2['lowContrastMode'] = var1;
@@ -1293,10 +1388,10 @@ case 66:
     var5['ACCESSIBILITY_LOW_CONTRAST_TOGGLE'] = var11;
     var11 = function handleSetSaturation(arg1) {
         var2 = {};
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot20;
         var5 = var2;
         var3 = copyDataProperties(var5, var4);
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = arg1;
         var1 = var1.saturation;
         var2['saturation'] = var1;
@@ -1306,10 +1401,10 @@ case 66:
     var5['ACCESSIBILITY_SET_SATURATION'] = var11;
     var11 = function handledesaturateUserColorsToggle() {
         var2 = {};
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot20;
         var5 = var2;
         var3 = copyDataProperties(var5, var4);
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = var2.desaturateUserColors;
         var1 = !var1;
         var2['desaturateUserColors'] = var1;
@@ -1318,10 +1413,10 @@ case 66:
     };
     var5['ACCESSIBILITY_DESATURATE_ROLES_TOGGLE'] = var11;
     var11 = function handleSystemColorPreferencesChanged(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var2 = {};
-            var6 = _closure1_slot18;
+            var6 = _closure1_slot20;
             var7 = var2;
             var3 = copyDataProperties(var7, var6);
             var3 = arg1;
@@ -1329,120 +1424,120 @@ case 0:
             var4 = null;
             var5 = var4 != var3;
             var4 = 'none';
-            if(!var5) { _fun0019_ip = 67; continue _fun0019 }
-case 68:
+            if(!var5) { _fun0020_ip = 76; continue _fun0020 }
+case 77:
             var4 = var3;
-case 67:
+case 76:
             var3 = 'systemForcedColors';
             var2[2] = var4;
-            _closure1_slot18 = var2;
+            _closure1_slot20 = var2;
             var1 = undefined;
             return var1;
         }
     };
     var5['ACCESSIBILITY_SYSTEM_COLOR_PREFERENCES_CHANGED'] = var11;
     var11 = function handleSystemPrefersContrastChanged(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var3 = arg1;
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var4 = var1.systemPrefersContrast;
             var1 = var3.systemPrefersContrast;
-            if(!(var4 !== var1)) { _fun0020_ip = 44; continue _fun0020 }
-case 57:
+            if(!(var4 !== var1)) { _fun0021_ip = 54; continue _fun0021 }
+case 67:
             var1 = {};
-            var5 = _closure1_slot18;
+            var5 = _closure1_slot20;
             var6 = var1;
             var4 = copyDataProperties(var6, var5);
             var4 = var3.systemPrefersContrast;
             var3 = 'systemPrefersContrast';
             var1[2] = var4;
-            _closure1_slot18 = var1;
+            _closure1_slot20 = var1;
             var1 = undefined;
             return var1;
-case 44:
+case 54:
             var1 = false;
             return var1;
         }
     };
     var5['ACCESSIBILITY_SYSTEM_PREFERS_CONTRAST_CHANGED'] = var11;
     var11 = function handleSystemPrefersReducedMotionChanged(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var3 = arg1;
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var4 = var1.systemPrefersReducedMotion;
             var1 = var3.systemPrefersReducedMotion;
-            if(!(var4 !== var1)) { _fun0021_ip = 44; continue _fun0021 }
-case 57:
+            if(!(var4 !== var1)) { _fun0022_ip = 54; continue _fun0022 }
+case 67:
             var1 = {};
-            var5 = _closure1_slot18;
+            var5 = _closure1_slot20;
             var6 = var1;
             var4 = copyDataProperties(var6, var5);
             var4 = var3.systemPrefersReducedMotion;
             var3 = 'systemPrefersReducedMotion';
             var1[2] = var4;
-            _closure1_slot18 = var1;
+            _closure1_slot20 = var1;
             var1 = undefined;
             return var1;
-case 44:
+case 54:
             var1 = false;
             return var1;
         }
     };
     var5['ACCESSIBILITY_SYSTEM_PREFERS_REDUCED_MOTION_CHANGED'] = var11;
     var11 = function handleSystemPrefersCrossfadesChanged(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var3 = arg1;
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var4 = var1.systemPrefersCrossfades;
             var1 = var3.systemPrefersCrossfades;
-            if(!(var4 !== var1)) { _fun0022_ip = 44; continue _fun0022 }
-case 57:
+            if(!(var4 !== var1)) { _fun0023_ip = 54; continue _fun0023 }
+case 67:
             var1 = {};
-            var5 = _closure1_slot18;
+            var5 = _closure1_slot20;
             var6 = var1;
             var4 = copyDataProperties(var6, var5);
             var4 = var3.systemPrefersCrossfades;
             var3 = 'systemPrefersCrossfades';
             var1[2] = var4;
-            _closure1_slot18 = var1;
+            _closure1_slot20 = var1;
             var1 = undefined;
             return var1;
-case 44:
+case 54:
             var1 = false;
             return var1;
         }
     };
     var5['ACCESSIBILITY_SYSTEM_PREFERS_CROSSFADES_CHANGED'] = var11;
     var11 = function handleSetPrefersReducedMotion(arg1) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var3 = arg1;
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var4 = var1.prefersReducedMotion;
             var1 = var3.prefersReducedMotion;
-            if(!(var4 !== var1)) { _fun0023_ip = 44; continue _fun0023 }
-case 57:
+            if(!(var4 !== var1)) { _fun0024_ip = 54; continue _fun0024 }
+case 67:
             var1 = {};
-            var5 = _closure1_slot18;
+            var5 = _closure1_slot20;
             var6 = var1;
             var4 = copyDataProperties(var6, var5);
             var4 = var3.prefersReducedMotion;
             var3 = 'prefersReducedMotion';
             var1[2] = var4;
-            _closure1_slot18 = var1;
+            _closure1_slot20 = var1;
             var1 = undefined;
             return var1;
-case 44:
+case 54:
             var1 = false;
             return var1;
         }
     };
     var5['ACCESSIBILITY_SET_PREFERS_REDUCED_MOTION'] = var11;
     var11 = function handleSetSyncForcedColors(arg1) {
-        var2 = _closure1_slot18;
+        var2 = _closure1_slot20;
         var1 = arg1;
         var1 = var1.syncForcedColors;
         var2['syncForcedColors'] = var1;
@@ -1452,34 +1547,34 @@ case 44:
     var5['ACCESSIBILITY_SET_SYNC_FORCED_COLORS'] = var11;
     var11 = function handleSetAlwaysShowLinkDecorations(arg1) {
         var2 = {};
-        var5 = _closure1_slot18;
+        var5 = _closure1_slot20;
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = arg1;
         var4 = var3.alwaysShowLinkDecorations;
         var3 = 'alwaysShowLinkDecorations';
         var2[2] = var4;
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = undefined;
         return var1;
     };
     var5['ACCESSIBILITY_SET_ALWAYS_SHOW_LINK_DECORATIONS'] = var11;
     var11 = function handleSetEnableCustomCursor(arg1) {
         var2 = {};
-        var5 = _closure1_slot18;
+        var5 = _closure1_slot20;
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = arg1;
         var4 = var3.enableCustomCursor;
         var3 = 'enableCustomCursor';
         var2[2] = var4;
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = undefined;
         return var1;
     };
     var5['ACCESSIBILITY_SET_ENABLE_CUSTOM_CURSOR'] = var11;
     var11 = function handleSetRoleStyle(arg1) {
-        var2 = _closure1_slot18;
+        var2 = _closure1_slot20;
         var1 = arg1;
         var1 = var1.roleStyle;
         var2['roleStyle'] = var1;
@@ -1487,8 +1582,20 @@ case 44:
         return var1;
     };
     var5['ACCESSIBILITY_SET_ROLE_STYLE'] = var11;
+    var11 = function handleSetOfficialMessageStyle(arg1) {
+        var3 = _closure1_slot20;
+        var2 = arg1;
+        var2 = var2.officialMessageStyle;
+        var3['officialMessageStyle'] = var2;
+        var2 = _closure1_slot20;
+        var1 = true;
+        var2['officialMessageStyleExplicitlySet'] = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var5['ACCESSIBILITY_SET_OFFICIAL_MESSAGE_STYLE'] = var11;
     var11 = function handleSetDisplayNameStylesEnabled(arg1) {
-        var2 = _closure1_slot18;
+        var2 = _closure1_slot20;
         var1 = arg1;
         var1 = var1.enabled;
         var2['displayNameStylesEnabled'] = var1;
@@ -1497,7 +1604,7 @@ case 44:
     };
     var5['ACCESSIBILITY_SET_DISPLAY_NAME_STYLES_ENABLED'] = var11;
     var11 = function handleForcedColorsModalSeen() {
-        var2 = _closure1_slot18;
+        var2 = _closure1_slot20;
         var1 = true;
         var2['forcedColorsModalSeen'] = var1;
         var1 = undefined;
@@ -1506,13 +1613,13 @@ case 44:
     var5['ACCESSIBILITY_FORCED_COLORS_MODAL_SEEN'] = var11;
     var11 = function handleKeyboardNavigationExplainerModalSeen() {
         var2 = {};
-        var5 = _closure1_slot18;
+        var5 = _closure1_slot20;
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var4 = true;
         var3 = 'keyboardNavigationExplainerModalSeen';
         var2[2] = var4;
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = undefined;
         return var1;
     };
@@ -1521,22 +1628,22 @@ case 44:
         var1 = arg1;
         var4 = var1.messageGroupSpacing;
         var2 = {};
-        var5 = _closure1_slot18;
+        var5 = _closure1_slot20;
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'messageGroupSpacing';
         var2[2] = var4;
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = undefined;
         return var1;
     };
     var5['ACCESSIBILITY_SET_MESSAGE_GROUP_SPACING'] = var11;
     var11 = function handleSubmitButtonToggle() {
         var2 = {};
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot20;
         var5 = var2;
         var3 = copyDataProperties(var5, var4);
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = var2.submitButtonEnabled;
         var1 = !var1;
         var2['submitButtonEnabled'] = var1;
@@ -1546,10 +1653,10 @@ case 44:
     var5['ACCESSIBILITY_SUBMIT_BUTTON_TOGGLE'] = var11;
     var11 = function handleSyncProfileThemeWithUserThemeToggle() {
         var2 = {};
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot20;
         var5 = var2;
         var3 = copyDataProperties(var5, var4);
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = var2.syncProfileThemeWithUserTheme;
         var1 = !var1;
         var2['syncProfileThemeWithUserTheme'] = var1;
@@ -1561,12 +1668,12 @@ case 44:
         var1 = arg1;
         var4 = var1.contrast;
         var2 = {};
-        var5 = _closure1_slot18;
+        var5 = _closure1_slot20;
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'contrast';
         var2[2] = var4;
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = undefined;
         return var1;
     };
@@ -1575,112 +1682,112 @@ case 44:
         var1 = arg1;
         var4 = var1.contrastMode;
         var2 = {};
-        var5 = _closure1_slot18;
+        var5 = _closure1_slot20;
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'contrastMode';
         var2[2] = var4;
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = undefined;
         return var1;
     };
     var5['ACCESSIBILITY_SET_CONTRAST_MODE'] = var11;
     var11 = function handleSetSwitchIconsEnabled(arg1) {
         var2 = {};
-        var5 = _closure1_slot18;
+        var5 = _closure1_slot20;
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = arg1;
         var4 = var3.switchIconsEnabled;
         var3 = 'switchIconsEnabled';
         var2[2] = var4;
-        _closure1_slot18 = var2;
+        _closure1_slot20 = var2;
         var1 = undefined;
         return var1;
     };
     var5['ACCESSIBILITY_SET_SWITCH_ICONS_ENABLED'] = var11;
     var6 = function handleSetChatBarSettings(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var5 = arg1;
             var2 = {};
-            var8 = _closure1_slot18;
+            var8 = _closure1_slot20;
             var9 = var2;
             var3 = copyDataProperties(var9, var8);
             var3 = var5.appsButtonEnabled;
             var4 = null;
             var3 = var4 != var3;
-            if(!var3) { _fun0024_ip = 27; continue _fun0024 }
-case 69:
+            if(!var3) { _fun0025_ip = 37; continue _fun0025 }
+case 78:
             var6 = {};
             var7 = var5.appsButtonEnabled;
             var6['appsButtonEnabled'] = var7;
             var3 = var6;
-case 27:
+case 37:
             var9 = var2;
             var8 = var3;
             var3 = copyDataProperties(var9, var8);
             var3 = var5.expressionPickerFormat;
             var3 = var4 != var3;
-            if(!var3) { _fun0024_ip = 43; continue _fun0024 }
-case 70:
+            if(!var3) { _fun0025_ip = 53; continue _fun0025 }
+case 79:
             var6 = {};
             var7 = var5.expressionPickerFormat;
             var6['expressionPickerFormat'] = var7;
             var3 = var6;
-case 43:
+case 53:
             var9 = var2;
             var8 = var3;
             var3 = copyDataProperties(var9, var8);
             var3 = var5.condensePickerWhenNarrow;
             var3 = var4 != var3;
-            if(!var3) { _fun0024_ip = 71; continue _fun0024 }
-case 72:
+            if(!var3) { _fun0025_ip = 80; continue _fun0025 }
+case 81:
             var6 = {};
             var7 = var5.condensePickerWhenNarrow;
             var6['condensePickerWhenNarrow'] = var7;
             var3 = var6;
-case 71:
+case 80:
             var9 = var2;
             var8 = var3;
             var3 = copyDataProperties(var9, var8);
             var3 = var5.emojiButtonEnabled;
             var3 = var4 != var3;
-            if(!var3) { _fun0024_ip = 15; continue _fun0024 }
-case 73:
+            if(!var3) { _fun0025_ip = 18; continue _fun0025 }
+case 16:
             var6 = {};
             var7 = var5.emojiButtonEnabled;
             var6['emojiButtonEnabled'] = var7;
             var3 = var6;
-case 15:
+case 18:
             var9 = var2;
             var8 = var3;
             var3 = copyDataProperties(var9, var8);
             var3 = var5.gifButtonEnabled;
             var3 = var4 != var3;
-            if(!var3) { _fun0024_ip = 74; continue _fun0024 }
-case 75:
+            if(!var3) { _fun0025_ip = 82; continue _fun0025 }
+case 83:
             var6 = {};
             var7 = var5.gifButtonEnabled;
             var6['gifButtonEnabled'] = var7;
             var3 = var6;
-case 74:
+case 82:
             var9 = var2;
             var8 = var3;
             var3 = copyDataProperties(var9, var8);
             var3 = var5.stickerButtonEnabled;
             var3 = var4 != var3;
-            if(!var3) { _fun0024_ip = 76; continue _fun0024 }
-case 77:
+            if(!var3) { _fun0025_ip = 84; continue _fun0025 }
+case 85:
             var4 = {};
             var5 = var5.stickerButtonEnabled;
             var4['stickerButtonEnabled'] = var5;
             var3 = var4;
-case 76:
+case 84:
             var9 = var2;
             var8 = var3;
             var3 = copyDataProperties(var9, var8);
-            _closure1_slot18 = var2;
+            _closure1_slot20 = var2;
             var1 = undefined;
             return var1;
         }
@@ -1692,7 +1799,7 @@ case 76:
     var14 = var5;
     var5 = new var16[var10](var15, var14, var13);
     var5 = var5 instanceof Object ? var5 : var6;
-    var6 = 15;
+    var6 = 16;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

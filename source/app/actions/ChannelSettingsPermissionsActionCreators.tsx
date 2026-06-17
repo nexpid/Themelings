@@ -187,6 +187,7 @@ case 14:
             var _closure3_slot1 = var2;
             var1 = undefined;
             var2 = var2.bind(var1)();
+            var2 = !var2;
             return var1;
         };
         var7 = var3;

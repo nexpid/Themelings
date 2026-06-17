@@ -286,6 +286,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BOUNTIES_END_INTERSTITIAL'] = var6;
     var2 = 'BOUNTIES_END_INTERSTITIAL';
     var4[var6] = var2;
+    var6 = 69;
+    var4['QUEST_HOME_EXPIRED_SECTION'] = var6;
+    var2 = 'QUEST_HOME_EXPIRED_SECTION';
+    var4[var6] = var2;
+    var6 = 70;
+    var4['QUEST_HOME_PREVIEW_SECTION'] = var6;
+    var2 = 'QUEST_HOME_PREVIEW_SECTION';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

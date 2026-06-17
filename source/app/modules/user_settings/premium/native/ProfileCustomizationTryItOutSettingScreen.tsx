@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['activityIndicator'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -83,22 +83,22 @@ case 0:
             var6 = undefined;
             var8 = var2.bind(var6)();
             var10 = _closure1_slot1;
-            var11 = _closure1_slot2;
+            var16 = _closure1_slot2;
             var2 = 8;
-            var3 = var11[var2];
+            var3 = var16[var2];
             var4 = var10.bind(var6)(var3);
             var3 = 9;
-            var3 = var11[var3];
+            var3 = var16[var3];
             var3 = var10.bind(var6)(var3);
             var3 = var3.USER_SETTINGS_TRY_OUT_PREMIUM;
             var3 = var4.bind(var6)(var3);
             var5 = var3.analyticsLocations;
             var15 = var3.sourceAnalyticsLocations;
             var _closure2_slot0 = var15;
-            var4 = _closure1_slot0;
+            var11 = _closure1_slot0;
             var3 = 10;
-            var3 = var11[var3];
-            var12 = var4.bind(var6)(var3);
+            var3 = var16[var3];
+            var12 = var11.bind(var6)(var3);
             var9 = var12.useStateFromStores;
             var3 = _closure1_slot6;
             var4 = new Array(1);
@@ -112,14 +112,14 @@ case 0:
             var13 = var9.bind(var12)(var4, var3);
             var _closure2_slot1 = var13;
             var3 = 11;
-            var3 = var11[var3];
+            var3 = var16[var3];
             var3 = var10.bind(var6)(var3);
             var4 = var3.bind(var6)();
             var3 = var4.categories;
             var _closure2_slot2 = var3;
             var9 = var4.isFetching;
             var4 = 12;
-            var4 = var11[var4];
+            var4 = var16[var4];
             var10 = var10.bind(var6)(var4);
             var4 = {};
             var12 = true;
@@ -131,10 +131,10 @@ case 0:
             var10 = var10.setPendingAvatarDecoration;
             var _closure2_slot4 = var10;
             var14 = _closure1_slot3;
-            var17 = var14.useEffect;
-            var16 = new Array(1);
-            var16[0] = var13;
-            var11 = function() {
+            var19 = var14.useEffect;
+            var18 = new Array(1);
+            var18[0] = var13;
+            var17 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure2_slot1;
@@ -161,12 +161,12 @@ case 2:
                     return var1;
                 }
             };
-            var11 = var17.bind(var14)(var11, var16);
-            var16 = var14.useEffect;
-            var11 = new Array(3);
-            var11[0] = var4;
-            var11[1] = var10;
-            var11[2] = var3;
+            var17 = var19.bind(var14)(var17, var18);
+            var18 = var14.useEffect;
+            var17 = new Array(3);
+            var17[0] = var4;
+            var17[1] = var10;
+            var17[2] = var3;
             var10 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -198,33 +198,41 @@ case 4:
                     return var1;
                 }
             };
-            var10 = var16.bind(var14)(var10, var11);
+            var10 = var18.bind(var14)(var10, var17);
+            var10 = 15;
+            var10 = var16[var10];
+            var11 = var11.bind(var6)(var10);
+            var10 = var11.useVisibleFontOrder;
+            var10 = var10.bind(var11)();
+            var _closure2_slot5 = var10;
             var16 = var14.useEffect;
-            var11 = function() {
+            var11 = new Array(1);
+            var11[0] = var10;
+            var10 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 15;
+                var1 = 16;
                 var2 = var6[var1];
                 var1 = undefined;
                 var4 = var5.bind(var1)(var2);
                 var3 = var4.setTryItOutDisplayNameStyles;
-                var2 = 16;
+                var2 = 17;
                 var2 = var6[var2];
-                var5 = var5.bind(var1)(var2);
-                var2 = var5.generateRandomDisplayNameStyles;
-                var2 = var2.bind(var5)();
+                var6 = var5.bind(var1)(var2);
+                var5 = var6.generateRandomDisplayNameStyles;
+                var2 = _closure2_slot5;
+                var2 = var5.bind(var6)(var2);
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var10 = new Array(0);
-            var10 = var16.bind(var14)(var11, var10);
+            var10 = var16.bind(var14)(var10, var11);
             var11 = var14.useEffect;
             var10 = new Array(1);
             var10[0] = var15;
             var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 17;
+                var1 = 18;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -271,7 +279,7 @@ case 9:
             var10 = var8.container;
             var5['style'] = var10;
             var11 = _closure1_slot1;
-            var10 = 18;
+            var10 = 19;
             var10 = var14[var10];
             var11 = var11.bind(var6)(var10);
             var10 = {};

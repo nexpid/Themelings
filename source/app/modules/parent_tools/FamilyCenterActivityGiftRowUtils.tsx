@@ -16,20 +16,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
     var4 = function formatGiftDate(arg1) {
+        var1 = global;
+        var1 = var1.Intl;
+        var7 = var1.DateTimeFormat;
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 0;
-        var3 = var6[var1];
-        var2 = undefined;
-        var4 = var5.bind(var2)(var3);
-        var3 = var4.format;
         var1 = var6[var1];
-        var5 = var5.bind(var2)(var1);
-        var2 = var5.parseISO;
+        var4 = undefined;
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.intl;
+        var9 = var1.currentLocale;
+        var1 = var7.prototype;
+        var2 = Object.create(var1, {constructor: {value: var7}});
+        var8 = {'month': 'short', 'day': 'numeric'};
+        var10 = var2;
+        var1 = new var10[var7](var9, var8, var7);
+        var3 = var1 instanceof Object ? var1 : var2;
+        var2 = var3.format;
+        var1 = 1;
+        var1 = var6[var1];
+        var5 = var5.bind(var4)(var1);
+        var4 = var5.parseISO;
         var1 = arg1;
-        var2 = var2.bind(var5)(var1);
-        var1 = 'MMM d';
-        var1 = var3.bind(var4)(var2, var1);
+        var1 = var4.bind(var5)(var1);
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var _closure1_slot3 = var4;
@@ -77,7 +88,7 @@ case 0:
 case 3:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 1;
+            var3 = 2;
             var4 = var4[var3];
             var3 = undefined;
             var5 = var5.bind(var3)(var4);
@@ -99,7 +110,7 @@ case 8:
 case 6:
             var5 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var4 = 2;
+            var4 = 0;
             var4 = var13[var4];
             var12 = undefined;
             var4 = var5.bind(var12)(var4);
@@ -119,7 +130,7 @@ case 7:
             var3[0] = var2;
             var4 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 2;
+            var2 = 0;
             var2 = var12[var2];
             var9 = undefined;
             var2 = var4.bind(var9)(var2);

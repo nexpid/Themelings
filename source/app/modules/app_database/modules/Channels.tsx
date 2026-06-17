@@ -605,13 +605,12 @@ case 9:
         var6 = 'handleGuildDelete';
         var1['key'] = var6;
         var6 = function handleGuildDelete(arg1, arg2) {
-            var4 = this;
-            var3 = var4.deleteMany;
+            var3 = this;
+            var2 = var3.deleteManySyncUnsafe;
             var1 = arg1;
             var1 = var1.guild;
-            var2 = var1.id;
-            var1 = arg2;
-            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.id;
+            var1 = var2.bind(var3)(var1);
             var1 = undefined;
             return var1;
         };
@@ -783,22 +782,28 @@ case 59:
         var1['value'] = var6;
         var2[12] = var1;
         var1 = {};
-        var6 = 'deleteMany';
+        var6 = 'deleteManySyncUnsafe';
         var1['key'] = var6;
-        var5 = function deleteMany(arg1, arg2) {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 5;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.channelsTransaction;
-            var2 = arg2;
-            var4 = var3.bind(var4)(var2);
-            var3 = var4.delete;
-            var2 = arg1;
-            var2 = var3.bind(var4)(var2);
-            return var1;
+        var5 = function deleteManySyncUnsafe(arg1) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 5;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.channels;
+                var4 = var2.bind(var3)();
+                var2 = null;
+                if(!(var2 != var4)) { _fun0011_ip = 4; continue _fun0011 }
+case 61:
+                var3 = var4.deleteSyncUnsafe;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
+case 4:
+                return var1;
+            }
         };
         var1['value'] = var5;
         var2[13] = var1;

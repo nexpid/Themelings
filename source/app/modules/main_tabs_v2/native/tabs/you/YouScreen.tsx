@@ -1291,6 +1291,8 @@ case 88:
             var59['top'] = var53;
             var52[1] = var59;
             var42['style'] = var52;
+            var52 = 'button';
+            var42['accessibilityRole'] = var52;
             var52 = var60[var49];
             var52 = var57.bind(var4)(var52);
             var61 = var52.intl;
@@ -1571,6 +1573,8 @@ case 110:
             var52['top'] = var53;
             var51[1] = var52;
             var44['style'] = var51;
+            var51 = 'button';
+            var44['accessibilityRole'] = var51;
             var51 = var50[var49];
             var51 = var48.bind(var4)(var51);
             var52 = var51.intl;

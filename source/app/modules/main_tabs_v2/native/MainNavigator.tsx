@@ -822,6 +822,9 @@ case 34:
                             var3 = 'slide_from_bottom';
                             var2 = 'animation';
                             var1[1] = var3;
+                            var8 = _closure2_slot7;
+                            var9 = var1;
+                            var2 = copyDataProperties(var9, var8);
                             return var1;
                         }
                     };

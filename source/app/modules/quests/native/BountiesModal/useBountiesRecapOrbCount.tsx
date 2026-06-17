@@ -70,11 +70,11 @@ case 2:
     var4 = var4.bind(var1)();
     var _closure1_slot5 = var4;
     var5 = {};
-    var8 = 'function useBountiesRecapOrbCountTsx2(){const{enabled,recapRevealHeight,getRevealProgress,scrollY,lastBountyScrollOffset,RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS,getRecapOrbCountFromPullProgress,targetOrbAmount}=this.__closure;if(!enabled||recapRevealHeight<=0){return 0;}const pullProgress=getRevealProgress(scrollY.get(),lastBountyScrollOffset,recapRevealHeight)/RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS;return getRecapOrbCountFromPullProgress(pullProgress,targetOrbAmount);}';
+    var8 = 'function useBountiesRecapOrbCountTsx2(){const{enabled,recapRevealHeight,getRevealProgress,scrollY,lastBountyScrollOffset,RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS,getRecapOrbCountFromPullProgress,targetOrbAmount}=this.__closure;if(!enabled||recapRevealHeight<=0){return{count:0,revealed:false};}const pullProgress=getRevealProgress(scrollY.get(),lastBountyScrollOffset,recapRevealHeight)/RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS;if(pullProgress<=0.1){return{count:0,revealed:false};}return{count:getRecapOrbCountFromPullProgress(pullProgress,targetOrbAmount),revealed:true};}';
     var5['code'] = var8;
     var _closure1_slot6 = var5;
     var5 = {};
-    var8 = 'function useBountiesRecapOrbCountTsx3(count,previousCount){const{runOnJS,setDisplayCount}=this.__closure;if(count!==previousCount){runOnJS(setDisplayCount)(count);}}';
+    var8 = 'function useBountiesRecapOrbCountTsx3({count:count,revealed:revealed}){const{runOnJS,resetDisplayCount,setDisplayCountMonotonic}=this.__closure;if(!revealed){runOnJS(resetDisplayCount)();return;}runOnJS(setDisplayCountMonotonic)(count);}';
     var5['code'] = var8;
     var _closure1_slot7 = var5;
     var5 = 4;
@@ -86,117 +86,169 @@ case 2:
     var3['getRecapOrbCountFromPullProgress'] = var4;
     var2 = function useBountiesRecapOrbCount(arg1) {
         var1 = arg1;
-        var15 = var1.scrollY;
-        var _closure2_slot0 = var15;
-        var14 = var1.lastBountyScrollOffset;
-        var _closure2_slot1 = var14;
-        var16 = var1.recapRevealHeight;
-        var _closure2_slot2 = var16;
-        var13 = var1.targetOrbAmount;
-        var _closure2_slot3 = var13;
-        var17 = var1.enabled;
-        var _closure2_slot4 = var17;
-        var4 = _closure1_slot3;
-        var3 = var4.useState;
+        var16 = var1.scrollY;
+        var _closure2_slot0 = var16;
+        var15 = var1.lastBountyScrollOffset;
+        var _closure2_slot1 = var15;
+        var17 = var1.recapRevealHeight;
+        var _closure2_slot2 = var17;
+        var14 = var1.targetOrbAmount;
+        var _closure2_slot3 = var14;
+        var18 = var1.enabled;
+        var _closure2_slot4 = var18;
+        var7 = _closure1_slot3;
+        var3 = var7.useState;
         var1 = 0;
-        var4 = var3.bind(var4)(var1);
+        var4 = var3.bind(var7)(var1);
         var3 = _closure1_slot2;
-        var11 = undefined;
-        var12 = 2;
-        var4 = var3.bind(var11)(var4, var12);
+        var12 = undefined;
+        var13 = 2;
+        var4 = var3.bind(var12)(var4, var13);
         var1 = var4[var1];
         var3 = 1;
-        var8 = var4[var3];
-        var _closure2_slot5 = var8;
-        var10 = _closure1_slot0;
-        var9 = _closure1_slot1;
-        var3 = var9[var12];
-        var5 = var10.bind(var11)(var3);
+        var3 = var4[var3];
+        var _closure2_slot5 = var3;
+        var5 = var7.useCallback;
+        var4 = function(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var3 = _closure2_slot5;
+            var1 = undefined;
+            var2 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = arg1;
+                    var3 = _closure3_slot0;
+                    if(!(var3 > var1)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                    var1 = _closure3_slot0;
+case 5:
+                    return var1;
+                }
+            };
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        };
+        var3 = new Array(0);
+        var8 = var5.bind(var7)(var4, var3);
+        var _closure2_slot6 = var8;
+        var5 = var7.useCallback;
+        var4 = function() {
+            var3 = _closure2_slot5;
+            var1 = undefined;
+            var2 = 0;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        };
+        var3 = new Array(0);
+        var9 = var5.bind(var7)(var4, var3);
+        var _closure2_slot7 = var9;
+        var11 = _closure1_slot0;
+        var10 = _closure1_slot1;
+        var3 = var10[var13];
+        var5 = var11.bind(var12)(var3);
         var4 = var5.useAnimatedReaction;
         var3 = function b() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var2 = _closure2_slot4;
-                if(!var2) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+                var1 = _closure2_slot4;
+                if(!var1) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                 var3 = _closure2_slot2;
-                var2 = 0;
-                if(!(!(var3 <= var2))) { _fun0002_ip = 5; continue _fun0002 }
-case 7:
-                var5 = _closure1_slot0;
-                var4 = _closure1_slot1;
-                var3 = 3;
-                var3 = var4[var3];
-                var4 = undefined;
-                var8 = var5.bind(var4)(var3);
-                var7 = var8.getRevealProgress;
-                var5 = _closure2_slot0;
-                var3 = var5.get;
-                var6 = var3.bind(var5)();
-                var5 = _closure2_slot1;
-                var3 = _closure2_slot2;
-                var5 = var7.bind(var8)(var6, var5, var3);
-                var3 = 0.95;
-                var3 = var5 / var3;
-                var2 = _closure1_slot5;
-                var1 = _closure2_slot3;
-                var1 = var2.bind(var4)(var3, var1);
-                return var1;
-case 5:
                 var1 = 0;
+                if(!(!(var3 <= var1))) { _fun0003_ip = 7; continue _fun0003 }
+case 9:
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var1 = 3;
+                var1 = var5[var1];
+                var5 = undefined;
+                var8 = var4.bind(var5)(var1);
+                var7 = var8.getRevealProgress;
+                var4 = _closure2_slot0;
+                var1 = var4.get;
+                var6 = var1.bind(var4)();
+                var4 = _closure2_slot1;
+                var1 = _closure2_slot2;
+                var4 = var7.bind(var8)(var6, var4, var1);
+                var1 = 0.95;
+                var4 = var4 / var1;
+                var1 = 0.1;
+                if(!(!(var4 <= var1))) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                var1 = {};
+                var3 = _closure1_slot5;
+                var2 = _closure2_slot3;
+                var2 = var3.bind(var5)(var4, var2);
+                var1['count'] = var2;
+                var2 = true;
+                var1['revealed'] = var2;
+                _fun0003_ip = 12; continue _fun0003;
+case 10:
+                var1 = {'count': 0, 'revealed': false};
+case 12:
+                return var1;
+case 7:
+                var1 = {'count': 0, 'revealed': false};
                 return var1;
             }
         };
         var7 = {};
-        var7['enabled'] = var17;
-        var7['recapRevealHeight'] = var16;
-        var16 = 3;
-        var16 = var9[var16];
-        var16 = var10.bind(var11)(var16);
-        var16 = var16.getRevealProgress;
-        var7['getRevealProgress'] = var16;
-        var7['scrollY'] = var15;
-        var7['lastBountyScrollOffset'] = var14;
-        var14 = 0.95;
-        var7['RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS'] = var14;
-        var14 = _closure1_slot5;
-        var7['getRecapOrbCountFromPullProgress'] = var14;
-        var7['targetOrbAmount'] = var13;
+        var7['enabled'] = var18;
+        var7['recapRevealHeight'] = var17;
+        var17 = 3;
+        var17 = var10[var17];
+        var17 = var11.bind(var12)(var17);
+        var17 = var17.getRevealProgress;
+        var7['getRevealProgress'] = var17;
+        var7['scrollY'] = var16;
+        var7['lastBountyScrollOffset'] = var15;
+        var15 = 0.95;
+        var7['RECAP_ORB_COUNT_REACHES_TARGET_AT_PROGRESS'] = var15;
+        var15 = _closure1_slot5;
+        var7['getRecapOrbCountFromPullProgress'] = var15;
+        var7['targetOrbAmount'] = var14;
         var3['__closure'] = var7;
-        var7 = 4104379785818.0;
+        var7 = 2855285055570.0;
         var3['__workletHash'] = var7;
         var7 = _closure1_slot6;
         var3['__initData'] = var7;
-        var2 = function p(arg1, arg2) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        var2 = function p(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var3 = arg1;
-                var1 = arg2;
-                if(!(var3 !== var1)) { _fun0003_ip = 8; continue _fun0003 }
-case 6:
+                var1 = arg1;
+                var3 = var1.count;
+                var6 = var1.revealed;
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 2;
-                var1 = var2[var1];
-                var2 = undefined;
-                var5 = var4.bind(var2)(var1);
-                var4 = var5.runOnJS;
-                var1 = _closure2_slot5;
-                var1 = var4.bind(var5)(var1);
-                var1 = var1.bind(var2)(var3);
-case 8:
+                var2 = var2[var1];
                 var1 = undefined;
+                var5 = var4.bind(var1)(var2);
+                var4 = var5.runOnJS;
+                if(var6) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                var6 = _closure2_slot7;
+                var6 = var4.bind(var5)(var6);
+                var6 = var6.bind(var1)();
+                _fun0004_ip = 15; continue _fun0004;
+case 13:
+                var2 = _closure2_slot6;
+                var2 = var4.bind(var5)(var2);
+                var2 = var2.bind(var1)(var3);
+case 15:
                 return var1;
             }
         };
         var7 = {};
-        var9 = var9[var12];
-        var9 = var10.bind(var11)(var9);
-        var9 = var9.runOnJS;
-        var7['runOnJS'] = var9;
-        var7['setDisplayCount'] = var8;
+        var10 = var10[var13];
+        var10 = var11.bind(var12)(var10);
+        var10 = var10.runOnJS;
+        var7['runOnJS'] = var10;
+        var7['resetDisplayCount'] = var9;
+        var7['setDisplayCountMonotonic'] = var8;
         var2['__closure'] = var7;
-        var7 = 9695149305796.0;
+        var7 = 12006414940221.0;
         var2['__workletHash'] = var7;
         var6 = _closure1_slot7;
         var2['__initData'] = var6;

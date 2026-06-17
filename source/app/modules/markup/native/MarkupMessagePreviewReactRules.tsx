@@ -38,179 +38,178 @@ case 4:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.iconColor;
-            var _closure2_slot0 = var2;
+            var16 = var1.iconColor;
+            var _closure2_slot0 = var16;
             var2 = var1.iconSize;
             var _closure2_slot1 = var2;
-            var2 = var1.channelIconSize;
-            var _closure2_slot2 = var2;
+            var17 = var1.channelIconSize;
             var1 = var1.customEmojiSize;
             var5 = undefined;
             if(!(var1 === var5)) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
             var1 = 15;
 case 5:
-            var _closure2_slot3 = var1;
+            var _closure2_slot2 = var1;
             var1 = {};
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.TEXT;
-            var7 = {};
-            var4 = _closure1_slot7;
-            var7['react'] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.STRIKETHROUGH;
-            var7 = {};
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var6 = 7;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.TEXT;
+            var2 = {};
+            var8 = _closure1_slot7;
+            var2['react'] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.STRIKETHROUGH;
+            var2 = {};
             var11 = 8;
-            var10 = var6[var11];
-            var10 = var3.bind(var5)(var10);
-            var12 = var10.DEFAULT_RULES;
-            var10 = var6[var2];
-            var10 = var3.bind(var5)(var10);
-            var10 = var10.AST_KEY;
-            var10 = var10.STRIKETHROUGH;
-            var14 = var12[var10];
-            var15 = var7;
-            var10 = copyDataProperties(var15, var14);
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var10 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
+            var7 = var7.AST_KEY;
+            var7 = var7.STRIKETHROUGH;
+            var21 = var10[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
             var10 = 'react';
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.UNDERLINE;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.UNDERLINE;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.UNDERLINE;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = var7.UNDERLINE;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.ITALICS;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.ITALICS;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.ITALICS;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = var7.ITALICS;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.STRONG;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.STRONG;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.STRONG;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = var7.STRONG;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.LINK;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.LINK;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.LINK;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = var7.LINK;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.URL;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.URL;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.URL;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = var7.URL;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.AUTOLINK;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.AUTOLINK;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.AUTOLINK;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = var7.AUTOLINK;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.LINE_BREAK;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.LINE_BREAK;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.LINE_BREAK;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var12 = function react() {
+            var7 = var7.LINE_BREAK;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var7 = function react() {
                 var1 = '\n';
                 return var1;
             };
-            var7[9] = var12;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.HIGHLIGHT;
-            var7 = {};
-            var12 = function react(arg1, arg2, arg3) {
+            var2[9] = var7;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.HIGHLIGHT;
+            var2 = {};
+            var7 = function react(arg1, arg2, arg3) {
                 var1 = arg3;
                 var5 = _closure1_slot4;
                 var3 = _closure1_slot1;
@@ -233,51 +232,51 @@ case 5:
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var7['react'] = var12;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var2['react'] = var7;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.BLOCK_QUOTE;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.BLOCK_QUOTE;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.BLOCK_QUOTE;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = var7.BLOCK_QUOTE;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.PARAGRAPH;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.PARAGRAPH;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.PARAGRAPH;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var13 = 600;
-            var12 = 'order';
-            var7[11] = var13;
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.EMOJI;
-            var7 = {};
-            var12 = function react(arg1) {
+            var7 = var7.PARAGRAPH;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var12 = 600;
+            var7 = 'order';
+            var2[6] = var12;
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.EMOJI;
+            var2 = {};
+            var7 = function react(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = arg1;
@@ -289,14 +288,14 @@ case 7:
                     return var1;
                 }
             };
-            var7['react'] = var12;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.CUSTOM_EMOJI;
-            var7 = {};
-            var12 = function react(arg1, arg2, arg3) {
+            var2['react'] = var7;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.CUSTOM_EMOJI;
+            var2 = {};
+            var7 = function react(arg1, arg2, arg3) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var7 = arg1;
@@ -314,7 +313,7 @@ case 9:
                     var5 = undefined;
                     var4 = var9.bind(var5)(var2);
                     var3 = var4.makeSizeStyle;
-                    var2 = _closure2_slot3;
+                    var2 = _closure2_slot2;
                     var8 = var3.bind(var4)(var2);
                     var4 = _closure1_slot4;
                     var3 = _closure1_slot1;
@@ -364,14 +363,14 @@ case 13:
                     return var1;
                 }
             };
-            var7['react'] = var12;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.SPOILER;
-            var7 = {};
-            var12 = function react(arg1, arg2, arg3) {
+            var2['react'] = var7;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.SPOILER;
+            var2 = {};
+            var7 = function react(arg1, arg2, arg3) {
                 var1 = arg3;
                 var5 = _closure1_slot4;
                 var3 = _closure1_slot1;
@@ -398,14 +397,14 @@ case 13:
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var7['react'] = var12;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.STATIC_ROUTE_LINK;
-            var7 = {};
-            var12 = function react(arg1, arg2, arg3) {
+            var2['react'] = var7;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.STATIC_ROUTE_LINK;
+            var2 = {};
+            var7 = function react(arg1, arg2, arg3) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var6 = arg1;
@@ -433,41 +432,41 @@ case 15:
                     return var1;
                 }
             };
-            var7['react'] = var12;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var2['react'] = var7;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.INLINE_CODE;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.INLINE_CODE;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.INLINE_CODE;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = var7.INLINE_CODE;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.CODE_BLOCK;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.CODE_BLOCK;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.CODE_BLOCK;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var13 = function parse(arg1, arg2, arg3) {
+            var7 = var7.CODE_BLOCK;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var12 = function parse(arg1, arg2, arg3) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var5 = _closure1_slot0;
@@ -504,132 +503,88 @@ case 17:
                     return var1;
                 }
             };
-            var12 = 'parse';
-            var7[11] = var13;
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = 'parse';
+            var2[6] = var12;
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.MENTION;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.MENTION;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.MENTION;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
+            var7 = var7.MENTION;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.CHANNEL_MENTION;
+            var2 = {};
+            var7 = var14[var11];
+            var7 = var13.bind(var5)(var7);
+            var12 = var7.DEFAULT_RULES;
+            var7 = var14[var6];
+            var7 = var13.bind(var5)(var7);
             var7 = var7.AST_KEY;
-            var8 = var7.CHANNEL_MENTION;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
-            var12 = var12.AST_KEY;
-            var12 = var12.CHANNEL_MENTION;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var12 = function react(arg1, arg2, arg3) {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-                    var6 = arg1;
-                    var5 = arg2;
-                    var4 = arg3;
-                    var2 = var6.inContent;
-                    var1 = null;
-                    if(!(var1 != var2)) { _fun0007_ip = 12; continue _fun0007 }
-case 19:
-                    var8 = _closure1_slot5;
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var1 = 13;
-                    var1 = var11[var1];
-                    var7 = undefined;
-                    var1 = var10.bind(var7)(var1);
-                    var3 = var1.LegacyText;
-                    var2 = {};
-                    var1 = var6.inContent;
-                    var9 = var5.bind(var7)(var1, var4);
-                    var1 = new Array(3);
-                    var1[0] = var9;
-                    var9 = ' › ';
-                    var1[1] = var9;
-                    var9 = 4;
-                    var9 = var11[var9];
-                    var10 = var10.bind(var7)(var9);
-                    var9 = var10.smartOutput;
-                    var9 = var9.bind(var10)(var6, var5, var4);
-                    var1[2] = var9;
-                    var2['children'] = var1;
-                    var1 = var4.key;
-                    var1 = var8.bind(var7)(var3, var2, var1);
-                    _fun0007_ip = 20; continue _fun0007;
-case 12:
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 4;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var3 = var7.bind(var2)(var3);
-                    var2 = var3.smartOutput;
-                    var1 = var2.bind(var3)(var6, var5, var4);
-case 20:
-                    return var1;
-                }
-            };
-            var7[9] = var12;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.ATTACHMENT_LINK;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
+            var7 = var7.CHANNEL_MENTION;
+            var21 = var12[var7];
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            var7 = 13;
+            var12 = var14[var7];
+            var12 = var13.bind(var5)(var12);
+            var12 = var12.inlineChannelMentionReact;
+            var2[9] = var12;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.ATTACHMENT_LINK;
+            var2 = {};
+            var12 = var14[var11];
+            var12 = var13.bind(var5)(var12);
+            var15 = var12.DEFAULT_RULES;
+            var12 = var14[var6];
+            var12 = var13.bind(var5)(var12);
             var12 = var12.AST_KEY;
             var12 = var12.ATTACHMENT_LINK;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
+            var21 = var15[var12];
+            var22 = var2;
+            var12 = copyDataProperties(var22, var21);
             var12 = function react(arg1, arg2, arg3) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = arg3;
                     var5 = _closure1_slot5;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 14;
                     var2 = var9[var2];
                     var4 = undefined;
                     var2 = var8.bind(var4)(var2);
                     var3 = var2.LegacyText;
                     var2 = {};
-                    var6 = 14;
+                    var6 = 15;
                     var6 = var9[var6];
                     var8 = var8.bind(var4)(var6);
                     var6 = var8.isFabric;
                     var6 = var6.bind(var8)();
                     var8 = '📎 ';
-                    if(var6) { _fun0008_ip = 21; continue _fun0008 }
-case 22:
+                    if(var6) { _fun0007_ip = 19; continue _fun0007 }
+case 20:
                     var10 = _closure1_slot4;
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var6 = 15;
+                    var6 = 16;
                     var6 = var11[var6];
                     var6 = var9.bind(var4)(var6);
                     var9 = var6.AttachmentIcon;
@@ -639,7 +594,7 @@ case 22:
                     var11 = _closure2_slot1;
                     var6['size'] = var11;
                     var8 = var10.bind(var4)(var9, var6);
-case 21:
+case 19:
                     var6 = new Array(2);
                     var6[0] = var8;
                     var8 = _closure1_slot0;
@@ -658,212 +613,91 @@ case 21:
                     return var1;
                 }
             };
-            var7[9] = var12;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.SOUNDBOARD;
-            var7 = {};
-            var12 = var6[var11];
-            var12 = var3.bind(var5)(var12);
-            var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
-            var12 = var3.bind(var5)(var12);
+            var2[9] = var12;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.SOUNDBOARD;
+            var2 = {};
+            var12 = var14[var11];
+            var12 = var13.bind(var5)(var12);
+            var15 = var12.DEFAULT_RULES;
+            var12 = var14[var6];
+            var12 = var13.bind(var5)(var12);
             var12 = var12.AST_KEY;
             var12 = var12.SOUNDBOARD;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
-            var7[9] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.GUILD;
-            var7 = {};
-            var7['react'] = var4;
-            var1[7] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.CHANNEL;
-            var7 = {};
-            var12 = function react(arg1, arg2, arg3) {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-                    var11 = arg1;
-                    var1 = arg3;
-                    var5 = var11.iconType;
-                    var2 = 'text';
-                    if(!(var2 !== var5)) { _fun0009_ip = 23; continue _fun0009 }
-case 9:
-                    var2 = 'forum';
-                    if(!(var2 !== var5)) { _fun0009_ip = 23; continue _fun0009 }
-case 24:
-                    var2 = 'media';
-                    if(!(var2 !== var5)) { _fun0009_ip = 23; continue _fun0009 }
-case 6:
-                    var2 = 'thread';
-                    if(!(var2 !== var5)) { _fun0009_ip = 25; continue _fun0009 }
-case 26:
-                    var2 = 'post';
-                    if(!(var2 !== var5)) { _fun0009_ip = 25; continue _fun0009 }
-case 27:
-                    var2 = 'message';
-                    if(!(var2 !== var5)) { _fun0009_ip = 28; continue _fun0009 }
-case 29:
-                    var2 = undefined;
-                    var3 = 'voice';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 31:
-                    var3 = 'voice-locked';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 32:
-                    var3 = 'stage';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 33:
-                    var3 = 'stage-locked';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 34:
-                    var3 = 'locked';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 35:
-                    var3 = 'guide';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 36:
-                    var3 = 'home';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 37:
-                    var3 = 'browse';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 38:
-                    var3 = 'customize';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 39:
-                    var3 = 'linked-roles';
-                    var8 = undefined;
-                    var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0009_ip = 30; continue _fun0009 }
-case 40:
-                    var4 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var3 = 17;
-                    var3 = var6[var3];
-                    var4 = var4.bind(var2)(var3);
-                    var3 = var4.assertNever;
-                    var3 = var3.bind(var4)(var5);
-                    var8 = undefined;
-                    var7 = undefined;
-                    _fun0009_ip = 30; continue _fun0009;
-case 28:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 14;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var4 = var4.bind(var2)(var3);
-                    var3 = var4.isFabric;
-                    var4 = var3.bind(var4)();
-                    var3 = '💬';
-                    if(var4) { _fun0009_ip = 41; continue _fun0009 }
-case 42:
-                    var6 = _closure1_slot4;
-                    var5 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var4 = 13;
-                    var4 = var12[var4];
-                    var4 = var5.bind(var2)(var4);
-                    var5 = var4.ThemedIcon;
-                    var4 = {};
-                    var10 = _closure1_slot1;
-                    var9 = 16;
-                    var9 = var12[var9];
-                    var9 = var10.bind(var2)(var9);
-                    var4['source'] = var9;
-                    var10 = _closure2_slot2;
-                    var4['size'] = var10;
-                    var9 = _closure2_slot0;
-                    var4['themedColor'] = var9;
-                    var3 = var6.bind(var2)(var5, var4);
-case 41:
-                    var8 = var3;
-                    var7 = undefined;
-                    _fun0009_ip = 30; continue _fun0009;
-case 25:
-                    var8 = '"';
-                    var7 = var8;
-                    _fun0009_ip = 30; continue _fun0009;
-case 23:
-                    var8 = '#';
-                    var7 = undefined;
-case 30:
-                    var5 = _closure1_slot5;
-                    var9 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var2 = 13;
-                    var2 = var10[var2];
-                    var4 = undefined;
-                    var2 = var9.bind(var4)(var2);
-                    var3 = var2.LegacyText;
-                    var2 = {};
-                    var6 = new Array(3);
-                    var6[0] = var8;
-                    var8 = 4;
-                    var8 = var10[var8];
-                    var10 = var9.bind(var4)(var8);
-                    var9 = var10.smartOutput;
-                    var8 = arg2;
-                    var8 = var9.bind(var10)(var11, var8, var1);
-                    var6[1] = var8;
-                    var6[2] = var7;
-                    var2['children'] = var6;
-                    var1 = var1.key;
-                    var1 = var5.bind(var4)(var3, var2, var1);
-                    return var1;
-                }
-            };
-            var7['react'] = var12;
-            var1[7] = var7;
-            var7 = var6[var2];
+            var21 = var15[var12];
+            var22 = var2;
+            var12 = copyDataProperties(var22, var21);
+            var2[9] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.GUILD;
+            var2 = {};
+            var2['react'] = var8;
+            var1[2] = var2;
+            var2 = var14[var6];
+            var2 = var13.bind(var5)(var2);
+            var2 = var2.AST_KEY;
+            var3 = var2.CHANNEL;
+            var2 = {};
+            var7 = var14[var7];
+            var12 = var13.bind(var5)(var7);
+            var8 = var12.createInlineChannelReact;
+            var7 = 15;
+            var7 = var14[var7];
+            var13 = var13.bind(var5)(var7);
+            var7 = var13.isFabric;
+            var13 = var7.bind(var13)();
+            var7 = '💬';
+            if(var13) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+            var15 = _closure1_slot4;
+            var14 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var13 = 14;
+            var13 = var20[var13];
+            var13 = var14.bind(var5)(var13);
+            var14 = var13.ThemedIcon;
+            var13 = {};
+            var19 = _closure1_slot1;
+            var18 = 17;
+            var18 = var20[var18];
+            var18 = var19.bind(var5)(var18);
+            var13['source'] = var18;
+            var13['size'] = var17;
+            var13['themedColor'] = var16;
+            var7 = var15.bind(var5)(var14, var13);
+case 21:
+            var7 = var8.bind(var12)(var7);
+            var2['react'] = var7;
+            var1[2] = var2;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var7 = var2[var6];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
             var8 = var7.COMMAND_MENTION;
             var7 = {};
-            var12 = var6[var11];
+            var12 = var2[var11];
             var12 = var3.bind(var5)(var12);
             var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
+            var12 = var2[var6];
             var12 = var3.bind(var5)(var12);
             var12 = var12.AST_KEY;
             var12 = var12.COMMAND_MENTION;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
+            var21 = var13[var12];
+            var22 = var7;
+            var12 = copyDataProperties(var22, var21);
             var12 = function react(arg1, arg2, arg3) {
                 var1 = arg3;
                 var5 = _closure1_slot5;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var2 = 13;
+                var2 = 14;
                 var2 = var8[var2];
                 var4 = undefined;
                 var2 = var7.bind(var4)(var2);
@@ -885,21 +719,21 @@ case 30:
             };
             var7[9] = var12;
             var1[7] = var7;
-            var7 = var6[var2];
+            var7 = var2[var6];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
             var8 = var7.TIMESTAMP;
             var7 = {};
-            var12 = var6[var11];
+            var12 = var2[var11];
             var12 = var3.bind(var5)(var12);
             var13 = var12.DEFAULT_RULES;
-            var12 = var6[var2];
+            var12 = var2[var6];
             var12 = var3.bind(var5)(var12);
             var12 = var12.AST_KEY;
             var12 = var12.TIMESTAMP;
-            var14 = var13[var12];
-            var15 = var7;
-            var12 = copyDataProperties(var15, var14);
+            var21 = var13[var12];
+            var22 = var7;
+            var12 = copyDataProperties(var22, var21);
             var12 = function react(arg1, arg2, arg3) {
                 var5 = _closure1_slot4;
                 var2 = _closure1_slot1;
@@ -920,23 +754,23 @@ case 30:
             };
             var7[9] = var12;
             var1[7] = var7;
-            var7 = var6[var2];
+            var7 = var2[var6];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
             var8 = var7.LIST;
             var7 = {};
-            var11 = var6[var11];
+            var11 = var2[var11];
             var11 = var3.bind(var5)(var11);
             var12 = var11.DEFAULT_RULES;
-            var11 = var6[var2];
+            var11 = var2[var6];
             var11 = var3.bind(var5)(var11);
             var11 = var11.AST_KEY;
             var11 = var11.LIST;
-            var14 = var12[var11];
-            var15 = var7;
-            var11 = copyDataProperties(var15, var14);
+            var21 = var12[var11];
+            var22 = var7;
+            var11 = copyDataProperties(var22, var21);
             var9 = function react(arg1, arg2, arg3) {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var1 = arg1;
                     var1 = var1.items;
@@ -947,14 +781,14 @@ case 0:
                     var3 = var4.isArray;
                     var3 = var3.bind(var4)(var1);
                     var6 = var1;
-                    if(!var3) { _fun0010_ip = 43; continue _fun0010 }
-case 44:
+                    if(!var3) { _fun0008_ip = 6; continue _fun0008 }
+case 23:
                     var6 = var1[var2];
-case 43:
+case 6:
                     var1 = null;
                     var2 = var1 == var6;
-                    if(var2) { _fun0010_ip = 45; continue _fun0010 }
-case 46:
+                    if(var2) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 4;
@@ -965,20 +799,21 @@ case 46:
                     var3 = arg2;
                     var2 = arg3;
                     var1 = var4.bind(var5)(var6, var3, var2);
-case 45:
+case 24:
                     return var1;
                 }
             };
             var7[9] = var9;
             var1[7] = var7;
-            var7 = var6[var2];
+            var7 = var2[var6];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
             var8 = var7.HEADING;
             var7 = {};
+            var4 = _closure1_slot7;
             var7['react'] = var4;
             var1[7] = var7;
-            var2 = var6[var2];
+            var2 = var2[var6];
             var2 = var3.bind(var5)(var2);
             var2 = var2.AST_KEY;
             var3 = var2.SUBTEXT;
@@ -1033,7 +868,7 @@ case 45:
     var5 = 'modules/markup/native/MarkupMessagePreviewReactRules.tsx';
     var5 = var6.bind(var7)(var5);
     var4 = function createChannelListMessagePreviewReactRules(arg1, arg2, arg3, arg4) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var9 = arg3;
             var8 = arg4;
@@ -1048,13 +883,13 @@ case 0:
             var6 = var2.bind(var4)(var1);
             var4 = null;
             var5 = var9;
-            if(!(var4 != var8)) { _fun0011_ip = 47; continue _fun0011 }
-case 48:
+            if(!(var4 != var8)) { _fun0009_ip = 26; continue _fun0009 }
+case 27:
             var1 = global;
             var2 = var1.Math;
             var1 = var2.min;
             var5 = var1.bind(var2)(var9, var8);
-case 47:
+case 26:
             var2 = _closure1_slot8;
             var1 = {};
             var8 = arg2;
@@ -1076,8 +911,8 @@ case 47:
             var6 = var7[var6];
             var7 = var4 != var6;
             var4 = 0;
-            if(!var7) { _fun0011_ip = 14; continue _fun0011 }
-case 49:
+            if(!var7) { _fun0009_ip = 14; continue _fun0009 }
+case 28:
             var4 = var6;
 case 14:
             var4 = var4 * var5;

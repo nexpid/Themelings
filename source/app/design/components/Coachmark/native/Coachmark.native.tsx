@@ -258,7 +258,7 @@ case 17:
             var33 = undefined;
             if(!var34) { _fun0001_ip = 16; continue _fun0001 }
 case 18:
-            var33 = var17.closeButtonSpacing;
+            var33 = var17.textOnlyPadding;
 case 16:
             var32[1] = var33;
             var27['style'] = var32;
@@ -692,11 +692,10 @@ case 51:
     var10 = {};
     var16 = var7[var11];
     var16 = var12.bind(var1)(var16);
-    var16 = var16.modules;
-    var16 = var16.mobile;
-    var16 = var16.COACHMARK_BUTTON_SPACING;
-    var10['paddingTop'] = var16;
-    var5['closeButtonSpacing'] = var10;
+    var16 = var16.space;
+    var16 = var16.PX_24;
+    var10['paddingHorizontal'] = var16;
+    var5['textOnlyPadding'] = var10;
     var10 = {};
     var10['borderWidth'] = var15;
     var15 = var7[var11];

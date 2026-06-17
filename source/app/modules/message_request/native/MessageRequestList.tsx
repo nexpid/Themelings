@@ -564,7 +564,7 @@ case 31:
     var7 = 'preview-message-request';
     var4['PREVIEW_MESSAGE_REQUEST'] = var7;
     var _closure1_slot11 = var4;
-    var4 = 25;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -595,10 +595,17 @@ case 0:
             var3 = _closure1_slot0;
             var1 = 21;
             var1 = var6[var1];
-            var3 = var3.bind(var4)(var1);
-            var1 = var3.useListHasSingleMessageRequest;
-            var1 = var1.bind(var3)();
+            var10 = var3.bind(var4)(var1);
+            var1 = var10.useListHasSingleMessageRequest;
+            var1 = var1.bind(var10)();
             var _closure2_slot3 = var1;
+            var1 = 22;
+            var1 = var6[var1];
+            var6 = var3.bind(var4)(var1);
+            var3 = var6.useIsMessageRequestRestrictedViewer;
+            var1 = 'MessageRequestList';
+            var1 = var3.bind(var6)(var1);
+            var _closure2_slot4 = var1;
             var1 = var2.length;
             var11 = 0;
             if(!(var11 !== var1)) { _fun0004_ip = 33; continue _fun0004 }
@@ -617,7 +624,7 @@ case 34:
             var10 = {};
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var12 = 23;
+            var12 = 24;
             var12 = var14[var12];
             var13 = var13.bind(var4)(var12);
             var12 = var13.isAndroid;
@@ -643,17 +650,37 @@ case 35:
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = arg1;
-                    var1 = var1.item;
-                    var _closure3_slot0 = var1;
-                    var4 = 'string';
-                    var3 = typeof var1;
-                    if(!(var4 !== var3)) { _fun0005_ip = 37; continue _fun0005 }
+                    var2 = var1.item;
+                    var _closure3_slot0 = var2;
+                    var3 = 'string';
+                    var1 = typeof var2;
+                    if(!(var3 !== var1)) { _fun0005_ip = 37; continue _fun0005 }
 case 38:
+                    var1 = var2.channel;
+                    var4 = var1.id;
+                    var5 = _closure2_slot2;
+                    var6 = var5.length;
+                    var3 = 1;
+                    var3 = var6 - var3;
+                    var5 = var5[var3];
+                    var3 = null;
+                    var7 = var3 == var5;
+                    var6 = undefined;
+                    var3 = undefined;
+                    if(var7) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
+                    var5 = var5.channel;
+                    var3 = var5.id;
+case 39:
+                    var7 = var4 === var3;
+                    var4 = _closure2_slot4;
                     var5 = _closure1_slot8;
-                    var4 = _closure1_slot12;
-                    var3 = {};
-                    var3['messageRequest'] = var1;
-                    var2 = function goToMessageRequestPreview() {
+                    if(var4) { _fun0005_ip = 34; continue _fun0005 }
+case 41:
+                    var9 = _closure1_slot12;
+                    var4 = {};
+                    var4['messageRequest'] = var2;
+                    var10 = function goToMessageRequestPreview() {
                         var3 = _closure2_slot0;
                         var1 = _closure3_slot0;
                         var1 = var1.channel;
@@ -662,66 +689,72 @@ case 38:
                         var1 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var3['goToMessageRequestPreview'] = var2;
-                    var2 = var1.channel;
-                    var8 = var2.id;
-                    var7 = _closure2_slot2;
-                    var9 = var7.length;
-                    var2 = 1;
-                    var2 = var9 - var2;
-                    var9 = var7[var2];
-                    var2 = null;
-                    var10 = var2 == var9;
-                    var2 = undefined;
-                    var7 = undefined;
-                    if(var10) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
-                    var9 = var9.channel;
-                    var7 = var9.id;
-case 39:
-                    var7 = var8 === var7;
-                    var3['isLastRow'] = var7;
-                    var6 = _closure2_slot3;
-                    var3['hasSingleMessageRequest'] = var6;
-                    var1 = var1.channel;
+                    var4['goToMessageRequestPreview'] = var10;
+                    var4['isLastRow'] = var7;
+                    var1 = _closure2_slot3;
+                    var4['hasSingleMessageRequest'] = var1;
+                    var1 = var2.channel;
                     var1 = var1.id;
-                    var1 = var5.bind(var2)(var4, var3, var1);
-                    _fun0005_ip = 41; continue _fun0005;
-case 37:
-                    var5 = _closure1_slot8;
-                    var4 = _closure1_slot5;
+                    var1 = var5.bind(var6)(var9, var4, var1);
+                    _fun0005_ip = 42; continue _fun0005;
+case 34:
+                    var4 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var3 = 26;
+                    var3 = var9[var3];
+                    var4 = var4.bind(var6)(var3);
                     var3 = {};
-                    var6 = _closure2_slot1;
-                    var6 = var6.sectionContainer;
-                    var3['style'] = var6;
-                    var8 = _closure1_slot8;
-                    var10 = _closure1_slot0;
-                    var14 = _closure1_slot2;
-                    var2 = 24;
-                    var6 = var14[var2];
-                    var2 = undefined;
-                    var6 = var10.bind(var2)(var6);
-                    var7 = var6.Text;
-                    var6 = {'variant': 'eyebrow', 'color': 'text-default'};
-                    var9 = 6;
-                    var11 = var14[var9];
-                    var11 = var10.bind(var2)(var11);
-                    var12 = var11.intl;
-                    var11 = var12.format;
-                    var9 = var14[var9];
-                    var9 = var10.bind(var2)(var9);
-                    var9 = var9.t;
-                    var10 = var9.evH4Yb;
-                    var9 = {};
-                    var13 = _closure2_slot2;
-                    var13 = var13.length;
-                    var9['pendingRequestNumber'] = var13;
-                    var9 = var11.bind(var12)(var10, var9);
-                    var6['children'] = var9;
-                    var6 = var8.bind(var2)(var7, var6);
-                    var3['children'] = var6;
-                    var1 = var5.bind(var2)(var4, var3);
-case 41:
+                    var3['messageRequest'] = var2;
+                    var8 = function goToMessageRequestPreview() {
+                        var3 = _closure2_slot0;
+                        var1 = _closure3_slot0;
+                        var1 = var1.channel;
+                        var2 = var1.id;
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
+                        return var1;
+                    };
+                    var3['goToMessageRequestPreview'] = var8;
+                    var3['isLastRow'] = var7;
+                    var2 = var2.channel;
+                    var2 = var2.id;
+                    var1 = var5.bind(var6)(var4, var3, var2);
+case 42:
+                    return var1;
+case 37:
+                    var4 = _closure1_slot8;
+                    var3 = _closure1_slot5;
+                    var2 = {};
+                    var5 = _closure2_slot1;
+                    var5 = var5.sectionContainer;
+                    var2['style'] = var5;
+                    var7 = _closure1_slot8;
+                    var9 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var1 = 25;
+                    var5 = var13[var1];
+                    var1 = undefined;
+                    var5 = var9.bind(var1)(var5);
+                    var6 = var5.Text;
+                    var5 = {'variant': 'eyebrow', 'color': 'text-default'};
+                    var8 = 6;
+                    var10 = var13[var8];
+                    var10 = var9.bind(var1)(var10);
+                    var11 = var10.intl;
+                    var10 = var11.format;
+                    var8 = var13[var8];
+                    var8 = var9.bind(var1)(var8);
+                    var8 = var8.t;
+                    var9 = var8.evH4Yb;
+                    var8 = {};
+                    var12 = _closure2_slot2;
+                    var12 = var12.length;
+                    var8['pendingRequestNumber'] = var12;
+                    var8 = var10.bind(var11)(var9, var8);
+                    var5['children'] = var8;
+                    var5 = var7.bind(var1)(var6, var5);
+                    var2['children'] = var5;
+                    var1 = var4.bind(var1)(var3, var2);
                     return var1;
                 }
             };
@@ -733,7 +766,7 @@ case 33:
             var3 = _closure1_slot8;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 22;
+            var1 = 23;
             var1 = var9[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};

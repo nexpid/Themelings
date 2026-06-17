@@ -1,26 +1,23 @@
 // app/modules/messages/BurstReactionEffectUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
+    var6 = require;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
-    var _closure1_slot1 = var8;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
     var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var2);
-    var5 = {};
-    var1 = 'out of burst reactions modal';
-    var5['OUT_OF_BURSTS'] = var1;
+    var1 = var5.bind(var8)(var3, var1, var2);
     var1 = 1;
-    var2 = var8[var1];
+    var2 = var7[var1];
     var1 = undefined;
-    var9 = var7.bind(var1)(var2);
-    var6 = var9.memoize;
+    var8 = var6.bind(var1)(var2);
+    var5 = var8.memoize;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -50,14 +47,13 @@ case 2:
             return var1;
         }
     };
-    var2 = var6.bind(var9)(var2);
-    var6 = 2;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/messages/BurstReactionEffectUtils.tsx';
-    var6 = var7.bind(var8)(var6);
-    var3['BurstAnalyticTypes'] = var5;
+    var2 = var5.bind(var8)(var2);
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/messages/BurstReactionEffectUtils.tsx';
+    var5 = var6.bind(var7)(var5);
     var4 = function(arg1, arg2) {
         var12 = arg1;
         var4 = arg2;
