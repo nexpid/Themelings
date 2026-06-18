@@ -49,72 +49,18 @@ case 4:
     var1 = function MaybeClearBuildOverride() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var5 = _closure1_slot10;
-            var4 = var5.useState;
-            var1 = false;
-            var6 = var4.bind(var5)(var1);
-            var4 = _closure1_slot9;
-            var5 = undefined;
-            var1 = 2;
-            var4 = var4.bind(var5)(var6, var1);
-            var1 = 0;
-            var7 = var4[var1];
-            var1 = 1;
-            var1 = var4[var1];
-            var _closure2_slot0 = var1;
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 12;
-            var1 = var6[var1];
-            var8 = var4.bind(var5)(var1);
-            var6 = var8.useStateFromStores;
-            var1 = _closure1_slot13;
-            var4 = new Array(1);
-            var4[0] = var1;
-            var1 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var3 = _closure1_slot13;
-                    var1 = var3.getCurrentBuildOverride;
-                    var1 = var1.bind(var3)();
-                    var5 = var1.overrides;
-                    var3 = null;
-                    var6 = var3 == var5;
-                    var4 = undefined;
-                    var1 = undefined;
-                    if(var6) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 13;
-                    var2 = var7[var2];
-                    var2 = var6.bind(var4)(var2);
-                    var2 = var2.DEVICE_FIELD;
-                    var2 = var5[var2];
-                    var3 = var3 == var2;
-                    var1 = undefined;
-                    if(var3) { _fun0003_ip = 6; continue _fun0003 }
-case 8:
-                    var1 = var2.id;
-case 6:
-                    return var1;
-                }
-            };
-            var4 = var6.bind(var8)(var4, var1);
-            var1 = null;
-            if(!(var1 != var4)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var3 = function() {
-                var4 = _closure1_slot8;
-                var3 = undefined;
+            var1 = function _clearOverride() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot8;
                 var2 = function* () {
                     var1 = function* anon_0_() {
-                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0004_ip = 11; continue _fun0004 }
-case 12: // try_start_0
+                            if(var2) { _fun0003_ip = 6; continue _fun0003 }
+case 7: // try_start_0
                             var3 = _closure2_slot0;
                             var4 = undefined;
                             var2 = true;
@@ -127,45 +73,95 @@ case 12: // try_start_0
                             var2 = var3.clearBuildOverride;
                             var2 = var2.bind(var3)();
                             SaveGenerator(address=60);
-case 13:
+case 8:
                             return var2;
-case 14:
+case 9:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0004_ip = 15; continue _fun0004 }
-case 16: // try_end0
-                            _fun0004_ip = 17; continue _fun0004;
-case 15:
+                            if(var3) { _fun0003_ip = 10; continue _fun0003 }
+case 11: // try_end0
+                            _fun0003_ip = 12; continue _fun0003;
+case 10:
                             return var2;
-case 18: // catch_target0
+case 13: // catch_target0
                             CatchBlockStart(arg_register=1);
                             var4 = _closure2_slot0;
                             var3 = undefined;
                             var2 = false;
                             var2 = var4.bind(var3)(var2);
-case 17:
+case 12:
                             var2 = undefined;
                             return var2;
-case 11:
+case 6:
                             return var1;
                         }
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot1 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var6 = var3.bind(var5)();
+            var _closure2_slot1 = var1;
+            var4 = _closure1_slot10;
+            var3 = var4.useState;
+            var1 = false;
+            var4 = var3.bind(var4)(var1);
+            var3 = _closure1_slot9;
+            var5 = undefined;
+            var1 = 2;
+            var3 = var3.bind(var5)(var4, var1);
+            var1 = 0;
+            var7 = var3[var1];
+            var1 = 1;
+            var1 = var3[var1];
+            var _closure2_slot0 = var1;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 12;
+            var1 = var4[var1];
+            var8 = var3.bind(var5)(var1);
+            var4 = var8.useStateFromStores;
+            var1 = _closure1_slot13;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var3 = _closure1_slot13;
+                    var1 = var3.getCurrentBuildOverride;
+                    var1 = var1.bind(var3)();
+                    var5 = var1.overrides;
+                    var3 = null;
+                    var6 = var3 == var5;
+                    var4 = undefined;
+                    var1 = undefined;
+                    if(var6) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var2 = 13;
+                    var2 = var7[var2];
+                    var2 = var6.bind(var4)(var2);
+                    var2 = var2.DEVICE_FIELD;
+                    var2 = var5[var2];
+                    var3 = var3 == var2;
+                    var1 = undefined;
+                    if(var3) { _fun0004_ip = 14; continue _fun0004 }
+case 16:
+                    var1 = var2.id;
+case 14:
+                    return var1;
+                }
+            };
+            var3 = var4.bind(var8)(var3, var1);
+            var1 = null;
+            if(!(var1 != var3)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var4 = _closure1_slot14;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -188,10 +184,20 @@ case 11:
             var7 = var7["/Nz9rY"];
             var7 = var8.bind(var9)(var7);
             var2['text'] = var7;
+            var6 = function clearOverride() {
+                var1 = undefined;
+                var4 = _closure2_slot1;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
             var2['onPress'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 9:
+case 17:
             return var1;
         }
     };
@@ -296,7 +302,7 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0005_ip = 19; continue _fun0005 }
-case 18:
+case 13:
                 var1 = var8.apply;
                 var1 = var1.bind(var8)(var4, var9);
                 _fun0005_ip = 20; continue _fun0005;
@@ -326,7 +332,7 @@ case 20:
         var5 = {};
         var1 = 'componentDidCatch';
         var5['key'] = var1;
-        var1 = function value(arg1, arg2) {
+        var1 = function componentDidCatch(arg1, arg2) {
             var4 = this;
             var3 = var4.triggerSoftCrash;
             var2 = arg1;
@@ -341,7 +347,7 @@ case 20:
         var5 = {};
         var7 = 'triggerSoftCrash';
         var5['key'] = var7;
-        var7 = function value(arg1, arg2) {
+        var7 = function triggerSoftCrash(arg1, arg2) {
             var7 = arg1;
             var8 = arg2;
             var3 = this;
@@ -373,7 +379,7 @@ case 20:
         var5 = {};
         var7 = 'handleReload';
         var5['key'] = var7;
-        var7 = function value() {
+        var7 = function handleReload() {
             var1 = _closure1_slot11;
             var2 = var1.BundleUpdaterManager;
             var1 = var2.reload;
@@ -386,7 +392,7 @@ case 20:
         var5 = {};
         var7 = 'componentDidMount';
         var5['key'] = var7;
-        var7 = function value() {
+        var7 = function componentDidMount() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var2 = this;
@@ -421,12 +427,12 @@ case 21:
         var5 = {};
         var7 = 'componentWillUnmount';
         var5['key'] = var7;
-        var7 = function value() {
+        var7 = function componentWillUnmount() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.discordErrorsSet;
-                if(!var1) { _fun0007_ip = 7; continue _fun0007 }
+                if(!var1) { _fun0007_ip = 15; continue _fun0007 }
 case 23:
                 var1 = global;
                 var3 = var1.window;
@@ -434,7 +440,7 @@ case 23:
                 var3['DiscordErrors'] = var1;
                 var1 = false;
                 var2['discordErrorsSet'] = var1;
-case 7:
+case 15:
                 var1 = undefined;
                 return var1;
             }
@@ -444,7 +450,7 @@ case 7:
         var5 = {};
         var7 = 'render';
         var5['key'] = var7;
-        var6 = function value() {
+        var6 = function render() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var15 = this;

@@ -49,8 +49,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['gradientAngle'] = var4;
             var4 = var2.sku_ids;
             var3['skuIds'] = var4;
-            var2 = var2.end_time;
-            var3['endTime'] = var2;
+            var4 = var2.end_time;
+            var3['endTime'] = var4;
+            var4 = var2.cta_type;
+            var3['ctaType'] = var4;
+            var2 = var2.logo_url;
+            var3['logoUrl'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;

@@ -77,12 +77,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var16.colors;
     var16 = var16.MOBILE_FLOATING_ACCESSORY_BORDER;
     var9['borderColor'] = var16;
-    var16 = var6[var11];
-    var16 = var12.bind(var1)(var16);
-    var16 = var16.modules;
-    var16 = var16.mobile;
-    var16 = var16.CHAT_INPUT_FLOATING_ACCESSORY_MARGIN_BOTTOM;
-    var9['marginTop'] = var16;
     var16 = 'hidden';
     var9['overflow'] = var16;
     var4['applicationCommandBar'] = var9;

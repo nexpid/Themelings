@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.WHITE;
+    var12 = var12.MOBILE_TEXT_HEADING_PRIMARY;
     var9['tintColor'] = var12;
     var4['nitroWheel'] = var9;
     var9 = {};

@@ -877,7 +877,7 @@ case 29:
     var14 = var14.lg;
     var11['borderRadius'] = var14;
     var8['backButtonWrapper'] = var11;
-    var11 = {'textAlign': 'center', 'width': '80%'};
+    var11 = {'textAlign': 'center', 'width': '80%', 'lineHeight': 28};
     var8['headerText'] = var11;
     var11 = {'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center'};
     var8['pillParent'] = var11;

@@ -576,7 +576,7 @@ case 8:
             var3 = var5[var3];
             var10 = var2.bind(var4)(var3);
             var6 = var10.useAnimatedProps;
-            var3 = function X() {
+            var3 = function U() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -1924,41 +1924,97 @@ case 0:
             var3 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var2 = _closure2_slot5;
-                    if(!var2) { _fun0007_ip = 56; continue _fun0007 }
+                    var3 = _closure2_slot5;
+                    if(!var3) { _fun0007_ip = 56; continue _fun0007 }
 case 57:
-                    var8 = _closure1_slot0;
+                    var5 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 53;
-                    var2 = var9[var2];
+                    var4 = 53;
+                    var6 = var9[var4];
                     var7 = undefined;
-                    var6 = var8.bind(var7)(var2);
+                    var8 = var5.bind(var7)(var6);
+                    var6 = var8.shouldMigrateToAdAnalyticsInterface;
+                    var4 = var9[var4];
+                    var4 = var5.bind(var7)(var4);
+                    var4 = var4.AdAnalyticsInterfaceExperimentStep;
+                    var5 = var4.STEP_2_CLICKED_INTERNAL;
+                    var4 = 'video_quest_modal_in_progress';
+                    var4 = var6.bind(var8)(var5, var4);
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    if(var4) { _fun0007_ip = 58; continue _fun0007 }
+case 59:
+                    var4 = 59;
+                    var4 = var10[var4];
+                    var6 = var9.bind(var7)(var4);
                     var5 = var6.trackQuestContentClicked;
                     var4 = {};
-                    var2 = _closure2_slot1;
-                    var10 = var2.id;
-                    var4['questId'] = var10;
-                    var10 = 54;
-                    var10 = var9[var10];
-                    var10 = var8.bind(var7)(var10);
-                    var10 = var10.QuestContent;
-                    var10 = var10.VIDEO_MODAL_MOBILE;
-                    var4['questContent'] = var10;
-                    var10 = 55;
-                    var10 = var9[var10];
-                    var10 = var8.bind(var7)(var10);
-                    var10 = var10.QuestContentCTA;
-                    var10 = var10.MOBILE_SHARESHEET;
-                    var4['questContentCTA'] = var10;
-                    var10 = _closure2_slot3;
-                    var4['impressionId'] = var10;
-                    var10 = _closure2_slot0;
-                    var4['sourceQuestContent'] = var10;
+                    var8 = _closure2_slot1;
+                    var8 = var8.id;
+                    var4['questId'] = var8;
+                    var8 = 58;
+                    var8 = var10[var8];
+                    var8 = var9.bind(var7)(var8);
+                    var8 = var8.QuestContent;
+                    var8 = var8.VIDEO_MODAL_MOBILE;
+                    var4['questContent'] = var8;
+                    var8 = 57;
+                    var8 = var10[var8];
+                    var8 = var9.bind(var7)(var8);
+                    var8 = var8.QuestContentCTA;
+                    var8 = var8.MOBILE_SHARESHEET;
+                    var4['questContentCTA'] = var8;
+                    var8 = _closure2_slot3;
+                    var4['impressionId'] = var8;
+                    var8 = _closure2_slot0;
+                    var4['sourceQuestContent'] = var8;
                     var4 = var5.bind(var6)(var4);
-                    var4 = _closure2_slot4;
-                    var3 = true;
-                    var3 = var4.bind(var7)(var3);
-                    var3 = 56;
+                    _fun0007_ip = 60; continue _fun0007;
+case 58:
+                    var4 = 54;
+                    var4 = var10[var4];
+                    var6 = var9.bind(var7)(var4);
+                    var5 = var6.captureAdUserAction;
+                    var4 = {};
+                    var8 = 55;
+                    var8 = var10[var8];
+                    var8 = var9.bind(var7)(var8);
+                    var8 = var8.AdUserActionType;
+                    var8 = var8.CLICK_INTERNAL;
+                    var4['type'] = var8;
+                    var8 = 56;
+                    var8 = var10[var8];
+                    var8 = var9.bind(var7)(var8);
+                    var8 = var8.AdCreativeType;
+                    var8 = var8.QUEST;
+                    var4['adCreativeType'] = var8;
+                    var8 = _closure2_slot1;
+                    var8 = var8.id;
+                    var4['adCreativeId'] = var8;
+                    var8 = 57;
+                    var8 = var10[var8];
+                    var8 = var9.bind(var7)(var8);
+                    var8 = var8.QuestContentCTA;
+                    var8 = var8.MOBILE_SHARESHEET;
+                    var4['questContentCTA'] = var8;
+                    var8 = 58;
+                    var8 = var10[var8];
+                    var8 = var9.bind(var7)(var8);
+                    var8 = var8.QuestContent;
+                    var8 = var8.VIDEO_MODAL_MOBILE;
+                    var4['surfaceId'] = var8;
+                    var8 = _closure2_slot0;
+                    var4['sourceQuestContent'] = var8;
+                    var8 = _closure2_slot3;
+                    var4['impressionId'] = var8;
+                    var4 = var5.bind(var6)(var4);
+case 60:
+                    var5 = _closure2_slot4;
+                    var4 = true;
+                    var4 = var5.bind(var7)(var4);
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var3 = 60;
                     var3 = var9[var3];
                     var6 = var8.bind(var7)(var3);
                     var5 = var6.showShareActionSheet;
@@ -1967,6 +2023,7 @@ case 57:
                     var3 = var9[var3];
                     var9 = var8.bind(var7)(var3);
                     var8 = var9.getQuestUrl;
+                    var2 = _closure2_slot1;
                     var3 = var2.id;
                     var3 = var8.bind(var9)(var3);
                     var4['message'] = var3;
@@ -2000,7 +2057,7 @@ case 56:
                 }
             };
             var17 = var17.bind(var18)(var3, var10);
-            var3 = 57;
+            var3 = 61;
             var3 = var23[var3];
             var19 = var6.bind(var4)(var3);
             var10 = var19.useVideoQuestClickCtaAndMaybeCloseModal;
@@ -2017,7 +2074,7 @@ case 56:
             var2 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 58;
+                var1 = 62;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -2030,7 +2087,7 @@ case 56:
                 return var1;
             };
             var18 = var10.bind(var18)(var2, var3);
-            var2 = 59;
+            var2 = 63;
             var2 = var23[var2];
             var10 = var6.bind(var4)(var2);
             var3 = var10.useVideoExternallyPaused;
@@ -2039,7 +2096,7 @@ case 56:
             var2 = var22.config;
             var2 = var2.taskConfigV2;
             var3 = var2.tasks;
-            var2 = 60;
+            var2 = 64;
             var2 = var23[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.FirstPartyQuestTaskTypes;
@@ -2047,8 +2104,8 @@ case 56:
             var24 = var3[var2];
             var6 = null;
             var2 = var6 == var24;
-            if(var2) { _fun0006_ip = 58; continue _fun0006 }
-case 59:
+            if(var2) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
             var23 = _closure1_slot0;
             var25 = _closure1_slot2;
             var3 = 37;
@@ -2058,15 +2115,15 @@ case 59:
             var23 = var3.bind(var23)(var24);
             var3 = 'portrait';
             var2 = var3 === var23;
-case 58:
-            var3 = _closure1_slot9;
-            if(var2) { _fun0006_ip = 60; continue _fun0006 }
 case 61:
+            var3 = _closure1_slot9;
+            if(var2) { _fun0006_ip = 63; continue _fun0006 }
+case 64:
             var2 = _closure1_slot22;
-            _fun0006_ip = 62; continue _fun0006;
-case 60:
+            _fun0006_ip = 65; continue _fun0006;
+case 63:
             var2 = _closure1_slot23;
-case 62:
+case 65:
             var1 = {};
             var1['quest'] = var22;
             var1['captionsEnabled'] = var21;
@@ -2092,7 +2149,7 @@ case 62:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 61;
+    var4 = 65;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

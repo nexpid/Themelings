@@ -195,23 +195,30 @@ case 9:
     var8 = function onSwitchStart() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var2 = _closure1_slot12;
-            var1 = var2.enqueue;
-            var1 = var1.bind(var2)();
-            var2 = _closure1_slot11;
-            var1 = null;
-            if(!(var1 !== var2)) { _fun0004_ip = 10; continue _fun0004 }
+            var4 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var2);
+            var4 = var5.popWithKey;
+            var2 = _closure1_slot5;
+            var2 = var4.bind(var5)(var2);
+            var4 = _closure1_slot12;
+            var2 = var4.enqueue;
+            var2 = var2.bind(var4)();
+            var4 = _closure1_slot11;
+            var2 = null;
+            if(!(var2 !== var4)) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
-            var1 = global;
-            var4 = var1.clearTimeout;
+            var2 = global;
+            var4 = var2.clearTimeout;
             var2 = _closure1_slot11;
-            var1 = undefined;
-            var1 = var4.bind(var1)(var2);
+            var2 = var4.bind(var1)(var2);
 case 10:
-            var1 = global;
-            var5 = var1.setTimeout;
+            var2 = global;
+            var5 = var2.setTimeout;
             var4 = _closure1_slot10;
-            var1 = undefined;
             var2 = function() {
                 var2 = _closure1_slot12;
                 var1 = var2.pop;
@@ -376,21 +383,13 @@ case 12:
     };
     var2['onSwitchError'] = var8;
     var8 = function onTokenSet() {
-        var4 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 7;
-        var2 = var2[var1];
-        var1 = undefined;
-        var5 = var4.bind(var1)(var2);
-        var4 = var5.popWithKey;
-        var2 = _closure1_slot5;
-        var2 = var4.bind(var5)(var2);
-        var4 = _closure1_slot12;
-        var2 = var4.pop;
-        var2 = var2.bind(var4)();
-        var2 = global;
-        var4 = var2.clearTimeout;
+        var2 = _closure1_slot12;
+        var1 = var2.pop;
+        var1 = var1.bind(var2)();
+        var1 = global;
+        var4 = var1.clearTimeout;
         var2 = _closure1_slot11;
+        var1 = undefined;
         var2 = var4.bind(var1)(var2);
         var2 = null;
         _closure1_slot11 = var2;

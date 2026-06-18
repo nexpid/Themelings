@@ -133,7 +133,7 @@ case 11:
         }
     };
     var _closure1_slot14 = var1;
-    var9 = function resetStoreState() {
+    var4 = function resetStoreState() {
         var1 = {};
         _closure1_slot8 = var1;
         var1 = {};
@@ -145,7 +145,7 @@ case 11:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot15 = var9;
+    var _closure1_slot15 = var4;
     var1 = global;
     var10 = var1.Object;
     var8 = var10.defineProperty;
@@ -386,8 +386,8 @@ case 22:
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
-    var2['LOGOUT'] = var9;
-    var9 = function handleFetchStart(arg1) {
+    var2['LOGOUT'] = var4;
+    var10 = function handleFetchStart(arg1) {
         var1 = arg1;
         var4 = var1.priceId;
         var3 = _closure1_slot14;
@@ -398,8 +398,8 @@ case 22:
         var2 = var3.bind(var1)(var4, var2);
         return var1;
     };
-    var2['SKUS_PRICING_FETCH_START'] = var9;
-    var9 = function handleFetchSuccess(arg1) {
+    var2['SKUS_PRICING_FETCH_START'] = var10;
+    var10 = function handleFetchSuccess(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
@@ -461,8 +461,8 @@ case 23:
             return var1;
         }
     };
-    var2['SKUS_PRICING_FETCH_SUCCESS'] = var9;
-    var4 = function handleFetchFail(arg1) {
+    var2['SKUS_PRICING_FETCH_SUCCESS'] = var10;
+    var9 = function handleFetchFail(arg1) {
         var1 = arg1;
         var4 = var1.priceId;
         var3 = _closure1_slot14;
@@ -478,7 +478,8 @@ case 23:
         var2 = var3.bind(var1)(var4, var2);
         return var1;
     };
-    var2['SKUS_PRICING_FETCH_FAIL'] = var4;
+    var2['SKUS_PRICING_FETCH_FAIL'] = var9;
+    var2['STOREFRONT_PROMOTION_ID_OVERRIDE_SET'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var14 = var4;

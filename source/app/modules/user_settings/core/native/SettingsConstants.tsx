@@ -290,6 +290,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IOS_NATIVE_PHONE_INTEGRATION'] = var1;
     var1 = 'FRIEND_STREAM_NOTIFICATIONS';
     var2['FRIEND_STREAM_NOTIFICATIONS'] = var1;
+    var1 = 'FRIEND_ANNIVERSARY_NOTIFICATIONS';
+    var2['FRIEND_ANNIVERSARY_NOTIFICATIONS'] = var1;
     var1 = 'COMMUNITY_ACTIVITY_ALERTS';
     var2['COMMUNITY_ACTIVITY_ALERTS'] = var1;
     var1 = 'PROFILE_UPDATES_NOTIFICATIONS';

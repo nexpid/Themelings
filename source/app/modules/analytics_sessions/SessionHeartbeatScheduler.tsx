@@ -152,7 +152,7 @@ case 17:
                     var10 = {};
                     var6 = var2.createdAtTimestamp;
                     var10['client_heartbeat_initialization_timestamp'] = var6;
-                    var6 = 28;
+                    var6 = 29;
                     var10['client_heartbeat_version'] = var6;
                     var8 = _closure1_slot0;
                     var6 = 12;
@@ -269,7 +269,7 @@ case 24:
             var3 = 0;
             var3 = var4 > var3;
             var1['active'] = var3;
-            var3 = 28;
+            var3 = 29;
             var1['ver'] = var3;
             var1['reasons'] = var2;
             return var1;
@@ -450,7 +450,7 @@ case 24:
                     var1 = _closure1_slot8;
                     var2 = var1.CLIENT_HEARTBEAT_SKIPPED;
                     var1 = {};
-                    var5 = 28;
+                    var5 = 29;
                     var1['client_heartbeat_version'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
 case 41:

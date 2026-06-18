@@ -38,6 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['MAX_CONCURRENT_SAVES'] = var1;
     var1 = 'no_eligible_source';
     var6['NO_ELIGIBLE_SOURCE'] = var1;
+    var1 = 'module_not_loaded';
+    var6['MODULE_NOT_LOADED'] = var1;
+    var1 = 'buffer_warming_up';
+    var6['BUFFER_WARMING_UP'] = var1;
     var5 = {};
     var1 = 'anger';
     var5['ANGER'] = var1;

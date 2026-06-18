@@ -1,129 +1,153 @@
 // app/modules/in_app_notifications/native/MessageReplyInput.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function AnimatedChatInputReplyBar(arg1) {
-        var1 = arg1;
-        var3 = var1.replying;
-        var _closure2_slot0 = var3;
-        var10 = var1.pendingReply;
-        var9 = var1.pendingReplyAuthor;
-        var8 = var1.onToggleReplyMention;
-        var1 = _closure1_slot12;
-        var4 = undefined;
-        var7 = var1.bind(var4)();
-        var6 = _closure1_slot0;
-        var11 = _closure1_slot2;
-        var1 = 9;
-        var12 = var11[var1];
-        var14 = var6.bind(var4)(var12);
-        var13 = var14.useSharedValue;
-        var12 = 0;
-        var14 = var13.bind(var14)(var12);
-        var _closure2_slot1 = var14;
-        var15 = _closure1_slot5;
-        var13 = var15.useEffect;
-        var12 = new Array(2);
-        var12[0] = var3;
-        var12[1] = var14;
-        var3 = function() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var2 = _closure2_slot0;
-                var4 = _closure2_slot1;
-                var3 = var4.set;
-                var6 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var1 = 10;
-                var5 = var5[var1];
-                var1 = undefined;
-                var7 = var6.bind(var1)(var5);
-                var6 = var7.withTiming;
-                var5 = {};
-                var8 = 150;
-                var5['duration'] = var8;
-                if(var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var2 = 0;
-                var2 = var6.bind(var7)(var2, var5);
-                var2 = var3.bind(var4)(var2);
-                _fun0001_ip = 4; continue _fun0001;
-case 2:
-                var2 = 1;
-                var2 = var6.bind(var7)(var2, var5);
-                var2 = var3.bind(var4)(var2);
-case 4:
-                return var1;
-            }
-        };
-        var3 = var13.bind(var15)(var3, var12);
-        var3 = var11[var1];
-        var12 = var6.bind(var4)(var3);
-        var3 = var12.useAnimatedStyle;
-        var2 = function u() {
+            var1 = arg1;
+            var3 = var1.replying;
+            var _closure2_slot0 = var3;
+            var10 = var1.pendingReply;
+            var9 = var1.pendingReplyAuthor;
+            var8 = var1.onToggleReplyMention;
+            var16 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 9;
+            var1 = var6[var1];
+            var4 = undefined;
+            var11 = var16.bind(var4)(var1);
+            var7 = var11.useMobileVisualRefreshConfig;
             var1 = {};
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 9;
-            var3 = var3[var2];
-            var2 = undefined;
-            var7 = var4.bind(var2)(var3);
-            var6 = var7.interpolate;
-            var3 = _closure2_slot1;
-            var2 = var3.get;
-            var5 = var2.bind(var3)();
-            var4 = [0, 1];
-            var2 = [0, 40];
-            var2 = var6.bind(var7)(var5, var4, var2);
-            var1['height'] = var2;
-            var2 = var3.get;
-            var2 = var2.bind(var3)();
-            var1['opacity'] = var2;
+            var12 = 'MessageReplyInput';
+            var1['location'] = var12;
+            var1 = var7.bind(var11)(var1);
+            var11 = var1.chatInputFloating;
+            var1 = _closure1_slot12;
+            var12 = var1.bind(var4)();
+            var1 = 10;
+            var7 = var6[var1];
+            var14 = var16.bind(var4)(var7);
+            var13 = var14.useSharedValue;
+            var7 = 0;
+            var14 = var13.bind(var14)(var7);
+            var _closure2_slot1 = var14;
+            var15 = _closure1_slot5;
+            var13 = var15.useEffect;
+            var7 = new Array(2);
+            var7[0] = var3;
+            var7[1] = var14;
+            var3 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var2 = _closure2_slot0;
+                    var4 = _closure2_slot1;
+                    var3 = var4.set;
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var1 = 11;
+                    var5 = var5[var1];
+                    var1 = undefined;
+                    var7 = var6.bind(var1)(var5);
+                    var6 = var7.withTiming;
+                    var5 = {};
+                    var8 = 150;
+                    var5['duration'] = var8;
+                    if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var2 = 0;
+                    var2 = var6.bind(var7)(var2, var5);
+                    var2 = var3.bind(var4)(var2);
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
+                    var2 = 1;
+                    var2 = var6.bind(var7)(var2, var5);
+                    var2 = var3.bind(var4)(var2);
+case 4:
+                    return var1;
+                }
+            };
+            var3 = var13.bind(var15)(var3, var7);
+            var3 = var6[var1];
+            var7 = var16.bind(var4)(var3);
+            var3 = var7.useAnimatedStyle;
+            var2 = function y() {
+                var1 = {};
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 10;
+                var3 = var3[var2];
+                var2 = undefined;
+                var7 = var4.bind(var2)(var3);
+                var6 = var7.interpolate;
+                var3 = _closure2_slot1;
+                var2 = var3.get;
+                var5 = var2.bind(var3)();
+                var4 = [0, 1];
+                var2 = [0, 40];
+                var2 = var6.bind(var7)(var5, var4, var2);
+                var1['height'] = var2;
+                var2 = var3.get;
+                var2 = var2.bind(var3)();
+                var1['opacity'] = var2;
+                return var1;
+            };
+            var13 = {};
+            var15 = var6[var1];
+            var15 = var16.bind(var4)(var15);
+            var15 = var15.interpolate;
+            var13['interpolate'] = var15;
+            var13['sv'] = var14;
+            var14 = 40;
+            var13['REPLY_BAR_HEIGHT'] = var14;
+            var2['__closure'] = var13;
+            var13 = 878601267127.0;
+            var2['__workletHash'] = var13;
+            var13 = _closure1_slot13;
+            var2['__initData'] = var13;
+            var7 = var3.bind(var7)(var2);
+            var3 = _closure1_slot10;
+            var2 = _closure1_slot1;
+            var1 = var6[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.View;
+            var1 = {};
+            var13 = var12.replyBarContainer;
+            var6 = new Array(3);
+            var6[0] = var13;
+            if(var11) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            var11 = var12.replyBarNoRedesign;
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
+            var11 = var12.replyBarRedesign;
+case 7:
+            var6[1] = var11;
+            var6[2] = var7;
+            var1['style'] = var6;
+            var7 = _closure1_slot10;
+            var6 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var5 = 12;
+            var5 = var11[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.ChatInputReplyBar;
+            var5 = {};
+            var5['pendingReply'] = var10;
+            var5['pendingReplyAuthor'] = var9;
+            var5['onToggleReplyMention'] = var8;
+            var8 = true;
+            var5['chatInputFloatingOverride'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
-        };
-        var13 = {};
-        var15 = var11[var1];
-        var15 = var6.bind(var4)(var15);
-        var15 = var15.interpolate;
-        var13['interpolate'] = var15;
-        var13['sv'] = var14;
-        var14 = 40;
-        var13['REPLY_BAR_HEIGHT'] = var14;
-        var2['__closure'] = var13;
-        var13 = 878601267127.0;
-        var2['__workletHash'] = var13;
-        var13 = _closure1_slot13;
-        var2['__initData'] = var13;
-        var12 = var3.bind(var12)(var2);
-        var3 = _closure1_slot10;
-        var2 = _closure1_slot1;
-        var1 = var11[var1];
-        var1 = var2.bind(var4)(var1);
-        var2 = var1.View;
-        var1 = {};
-        var13 = var7.replyBarContainer;
-        var7 = new Array(2);
-        var7[0] = var13;
-        var7[1] = var12;
-        var1['style'] = var7;
-        var7 = _closure1_slot10;
-        var5 = 11;
-        var5 = var11[var5];
-        var5 = var6.bind(var4)(var5);
-        var6 = var5.ChatInputReplyBar;
-        var5 = {};
-        var5['pendingReply'] = var10;
-        var5['pendingReplyAuthor'] = var9;
-        var5['onToggleReplyMention'] = var8;
-        var5 = var7.bind(var4)(var6, var5);
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        }
     };
     var _closure1_slot14 = var1;
     var1 = global;
@@ -137,11 +161,11 @@ case 4:
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
     var7 = var6[var4];
@@ -158,7 +182,7 @@ case 4:
     var13 = var4.StyleSheet;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -178,97 +202,111 @@ case 4:
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'flexDirection': 'column', 'gap': 0, 'backgroundColor': null, 'padding': 0};
-    var11 = 8;
-    var10 = var6[var11];
-    var10 = var12.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.MOBILE_ALERT_BACKGROUND_DEFAULT;
-    var9['backgroundColor'] = var10;
-    var10 = var6[var11];
-    var10 = var12.bind(var1)(var10);
-    var10 = var10.space;
-    var10 = var10.PX_12;
-    var9['marginHorizontal'] = var10;
-    var10 = var6[var11];
-    var10 = var12.bind(var1)(var10);
-    var10 = var10.space;
-    var10 = var10.PX_4;
-    var9['marginBottom'] = var10;
-    var10 = var6[var11];
-    var10 = var12.bind(var1)(var10);
-    var10 = var10.radii;
-    var10 = var10.lg;
-    var9['borderRadius'] = var10;
-    var10 = 'hidden';
-    var9['overflow'] = var10;
+    var10 = 8;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.MOBILE_ALERT_BACKGROUND_DEFAULT;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_12;
+    var9['marginHorizontal'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_4;
+    var9['marginBottom'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.lg;
+    var9['borderRadius'] = var12;
+    var12 = 'hidden';
+    var9['overflow'] = var12;
     var4['inputContainer'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
     var4['iconsContainer'] = var9;
     var9 = {'flex': 1, 'borderRadius': null, 'border': 0};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
     var14 = var14.radii;
     var14 = var14.none;
     var9['borderRadius'] = var14;
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
     var14 = var14.TEXT_DEFAULT;
     var9['color'] = var14;
     var4['input'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
     var14 = var14.space;
     var14 = var14.PX_12;
     var9['paddingHorizontal'] = var14;
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
     var14 = var14.space;
     var14 = var14.PX_12;
     var9['paddingVertical'] = var14;
     var4['inputRow'] = var9;
     var9 = {};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
     var14 = var14.INPUT_PLACEHOLDER_TEXT_DEFAULT;
     var9['color'] = var14;
     var4['placeholderText'] = var9;
     var9 = {'justifyContent': 'center', 'alignContent': 'center'};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.space;
-    var14 = var14.PX_4;
-    var9['paddingLeft'] = var14;
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
     var14 = var14.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var14;
     var13 = var13.hairlineWidth;
     var9['borderBottomWidth'] = var13;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BORDER_MUTED;
-    var9['borderBottomColor'] = var11;
-    var9['overflow'] = var10;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BORDER_MUTED;
+    var9['borderBottomColor'] = var13;
+    var9['overflow'] = var12;
     var4['replyBarContainer'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_12;
+    var9['paddingLeft'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_8;
+    var9['paddingRight'] = var12;
+    var4['replyBarNoRedesign'] = var9;
+    var9 = {};
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.space;
+    var10 = var10.PX_4;
+    var9['paddingLeft'] = var10;
+    var4['replyBarRedesign'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
     var4 = {};
     var7 = 'function MessageReplyInputTsx1(){const{interpolate,sv,REPLY_BAR_HEIGHT}=this.__closure;return{height:interpolate(sv.get(),[0,1],[0,REPLY_BAR_HEIGHT]),opacity:sv.get()};}';
     var4['code'] = var7;
     var _closure1_slot13 = var4;
-    var4 = 28;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/in_app_notifications/native/MessageReplyInput.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function MessageReplyInput(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var7 = var1.notification;
@@ -322,11 +360,11 @@ case 0:
             var _closure2_slot10 = var2;
             var2 = _closure1_slot12;
             var13 = var2.bind(var4)();
-            var5 = _closure1_slot1;
+            var14 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 12;
+            var2 = 13;
             var2 = var8[var2];
-            var3 = var5.bind(var4)(var2);
+            var3 = var14.bind(var4)(var2);
             var2 = {};
             var2['includeKeyboardHeight'] = var27;
             var2 = var3.bind(var4)(var2);
@@ -335,16 +373,22 @@ case 0:
             var _closure2_slot11 = var2;
             var11 = var7.channel;
             var _closure2_slot12 = var11;
-            var10 = _closure1_slot0;
-            var3 = 13;
-            var3 = var8[var3];
-            var10 = var10.bind(var4)(var3);
-            var3 = var10.useNullableMessageAuthor;
-            var10 = var3.bind(var10)(var2);
+            var5 = _closure1_slot0;
             var3 = 14;
             var3 = var8[var3];
-            var3 = var5.bind(var4)(var3);
+            var10 = var5.bind(var4)(var3);
+            var3 = var10.useNullableMessageAuthor;
+            var10 = var3.bind(var10)(var2);
+            var3 = 15;
+            var3 = var8[var3];
+            var3 = var14.bind(var4)(var3);
             var32 = var3.bind(var4)(var11, var27);
+            var3 = 16;
+            var3 = var8[var3];
+            var8 = var5.bind(var4)(var3);
+            var5 = var8.useInputStyles;
+            var3 = {};
+            var29 = var5.bind(var8)(var3);
             var8 = _closure1_slot5;
             var5 = var8.useMemo;
             var3 = new Array(3);
@@ -370,16 +414,16 @@ case 0:
             var8 = _closure1_slot5;
             var5 = var8.useLayoutEffect;
             var3 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = _closure2_slot2;
                     var2 = var1.current;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0003_ip = 5; continue _fun0003 }
-case 6:
+                    if(!(var1 != var2)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                     var1 = var2.focus;
                     var1 = var1.bind(var2)();
-case 5:
+case 8:
                     var1 = undefined;
                     return var1;
                 }
@@ -393,35 +437,35 @@ case 5:
                 var3 = undefined;
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
-                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                             StartGenerator();
                             var12 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0004_ip = 7; continue _fun0004 }
-case 8:
+                            if(var2) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
                             var2 = _closure2_slot5;
                             var6 = true;
-                            if(!(var6 !== var2)) { _fun0004_ip = 9; continue _fun0004 }
-case 10:
+                            if(!(var6 !== var2)) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
                             var2 = var12.channel;
                             var9 = var2.id;
                             var2 = _closure2_slot3;
                             var4 = var2.length;
                             var2 = 0;
-                            if(!(var2 !== var4)) { _fun0004_ip = 9; continue _fun0004 }
-case 11:
+                            if(!(var2 !== var4)) { _fun0005_ip = 12; continue _fun0005 }
+case 14:
                             var2 = null;
-                            if(!(var2 != var9)) { _fun0004_ip = 9; continue _fun0004 }
-case 12:
+                            if(!(var2 != var9)) { _fun0005_ip = 12; continue _fun0005 }
+case 15:
                             var8 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var4 = 15;
+                            var4 = 17;
                             var4 = var2[var4];
                             var5 = undefined;
                             var11 = var8.bind(var5)(var4);
                             var7 = var11.trackInAppNotificationAccessoryClicked;
-                            var4 = 16;
+                            var4 = 18;
                             var4 = var2[var4];
                             var4 = var8.bind(var5)(var4);
                             var4 = var4.InAppNotificationAccessoryTypes;
@@ -429,7 +473,7 @@ case 12:
                             var4 = var7.bind(var11)(var12, var4);
                             var4 = _closure2_slot6;
                             var4 = var4.bind(var5)(var6);
-                            var4 = 17;
+                            var4 = 19;
                             var6 = var2[var4];
                             var7 = var8.bind(var5)(var6);
                             var6 = var7.triggerHapticFeedback;
@@ -439,7 +483,7 @@ case 12:
                             var4 = var4.IMPACT_MEDIUM;
                             var4 = var6.bind(var7)(var4);
                             var4 = _closure1_slot1;
-                            var6 = 18;
+                            var6 = 20;
                             var6 = var2[var6];
                             var11 = var4.bind(var5)(var6);
                             var8 = var11.parse;
@@ -448,17 +492,17 @@ case 12:
                             var7 = var6.bind(var7)(var9);
                             var6 = _closure2_slot3;
                             var8 = var8.bind(var11)(var7, var6);
-                            var12 = 19;
+                            var12 = 21;
                             var2 = var2[var12];
                             var7 = var4.bind(var5)(var2);
                             var4 = var7.sendMessage;
                             var2 = {};
                             var6 = _closure2_slot7;
-                            if(var6) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                            if(var6) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                             var6 = {};
-                            _fun0004_ip = 15; continue _fun0004;
-case 13:
+                            _fun0005_ip = 18; continue _fun0005;
+case 16:
                             var11 = _closure1_slot1;
                             var10 = _closure1_slot2;
                             var10 = var10[var12];
@@ -466,7 +510,7 @@ case 13:
                             var11 = var12.getSendMessageOptionsForReply;
                             var10 = _closure2_slot13;
                             var6 = var11.bind(var12)(var10);
-case 15:
+case 18:
                             var16 = var2;
                             var15 = var6;
                             var6 = copyDataProperties(var16, var15);
@@ -481,12 +525,12 @@ case 15:
                             var13 = var2;
                             var2 = var17[var4](var16, var15, var14, var13, var12);
                             SaveGenerator(address=338);
-case 16:
-                            return var2;
-case 17:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
+                            return var2;
+case 20:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                            if(var4) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
                             var4 = _closure2_slot1;
                             var4 = var4.bind(var5)();
                             var4 = _closure2_slot6;
@@ -494,12 +538,12 @@ case 19:
                             var4 = _closure2_slot4;
                             var3 = '';
                             var3 = var4.bind(var5)(var3);
-case 9:
+case 12:
                             var3 = undefined;
                             return var3;
-case 18:
+case 21:
                             return var2;
-case 7:
+case 10:
                             return var1;
                         }
                     };
@@ -536,31 +580,31 @@ case 7:
             var7 = var7.guild;
             var8 = var1 == var7;
             var1 = undefined;
-            if(var8) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+            if(var8) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var1 = var7.id;
-case 20:
+case 23:
             var2[1] = var1;
             var1 = function() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var2 = _closure1_slot6;
                     var1 = var2.dismiss;
                     var1 = var1.bind(var2)();
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 22;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.openEmojiPickerActionSheet;
                     var2 = {};
                     var6 = function onPressEmoji(arg1) {
-                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                             var4 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 21;
+                            var1 = 23;
                             var2 = var2[var1];
                             var1 = undefined;
                             var4 = var4.bind(var1)(var2);
@@ -583,11 +627,11 @@ case 0:
                             var2 = _closure2_slot2;
                             var3 = var2.current;
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0006_ip = 22; continue _fun0006 }
+                            if(!(var2 != var3)) { _fun0007_ip = 25; continue _fun0007 }
 case 2:
                             var2 = var3.focus;
                             var2 = var2.bind(var3)();
-case 22:
+case 25:
                             return var1;
                         }
                     };
@@ -600,25 +644,25 @@ case 22:
                     var5 = null;
                     var9 = var5 != var8;
                     var7 = undefined;
-                    if(!var9) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+                    if(!var9) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
                     var7 = var8;
-case 23:
+case 26:
                     var2['channel'] = var7;
                     var6 = _closure2_slot0;
                     var7 = var6.guild;
                     var8 = var5 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+                    if(var8) { _fun0006_ip = 28; continue _fun0006 }
+case 29:
                     var6 = var7.id;
-case 25:
+case 28:
                     var7 = var5 != var6;
                     var5 = undefined;
-                    if(!var7) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+                    if(!var7) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
                     var5 = var6;
-case 27:
+case 30:
                     var2['guildId'] = var5;
                     var5 = false;
                     var2['startExpanded'] = var5;
@@ -662,23 +706,23 @@ case 27:
             var11 = _closure1_slot10;
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var14 = 22;
+            var14 = 24;
             var9 = var9[var14];
             var9 = var10.bind(var4)(var9);
             var10 = var9.IconButton;
             var9 = {};
             var12 = 'icon-only';
-            if(!var20) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+            if(!var20) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
             var12 = 'secondary';
-case 29:
+case 32:
             var9['variant'] = var12;
             var25 = 'sm';
             var9['size'] = var25;
-            var29 = _closure1_slot10;
+            var30 = _closure1_slot10;
             var20 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var12 = 23;
+            var12 = 25;
             var12 = var24[var12];
             var12 = var20.bind(var4)(var12);
             var21 = var12.ArrowAngleLeftUpIcon;
@@ -686,23 +730,23 @@ case 29:
             var12['size'] = var25;
             var23 = _closure1_slot1;
             var22 = 8;
-            var30 = var24[var22];
-            var30 = var23.bind(var4)(var30);
-            var30 = var30.colors;
-            var30 = var30.CHAT_INPUT_ICON_DEFAULT_TINT;
-            var12['color'] = var30;
-            var12 = var29.bind(var4)(var21, var12);
+            var31 = var24[var22];
+            var31 = var23.bind(var4)(var31);
+            var31 = var31.colors;
+            var31 = var31.CHAT_INPUT_ICON_DEFAULT_TINT;
+            var12['color'] = var31;
+            var12 = var30.bind(var4)(var21, var12);
             var9['icon'] = var12;
             var12 = function onPress() {
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 15;
+                var1 = 17;
                 var2 = var8[var1];
                 var1 = undefined;
                 var6 = var7.bind(var1)(var2);
                 var5 = var6.trackInAppNotificationAccessoryClicked;
                 var4 = _closure2_slot0;
-                var3 = 16;
+                var3 = 18;
                 var3 = var8[var3];
                 var3 = var7.bind(var1)(var3);
                 var3 = var3.InAppNotificationAccessoryTypes;
@@ -715,28 +759,32 @@ case 29:
                 return var1;
             };
             var9['onPress'] = var12;
-            var21 = 24;
+            var21 = 26;
             var12 = var24[var21];
             var12 = var20.bind(var4)(var12);
-            var30 = var12.intl;
-            var29 = var30.string;
+            var31 = var12.intl;
+            var30 = var31.string;
             var12 = var24[var21];
             var12 = var20.bind(var4)(var12);
             var12 = var12.t;
             var12 = var12["5IEsGx"];
-            var12 = var29.bind(var30)(var12);
+            var12 = var30.bind(var31)(var12);
             var9['accessibilityLabel'] = var12;
             var10 = var11.bind(var4)(var10, var9);
             var9 = new Array(3);
             var9[0] = var10;
             var12 = _closure1_slot10;
-            var10 = 25;
+            var10 = 27;
             var10 = var24[var10];
             var10 = var20.bind(var4)(var10);
             var11 = var10.NativeTextInput;
             var10 = {};
             var10['ref'] = var28;
-            var28 = var13.input;
+            var30 = var13.input;
+            var28 = new Array(2);
+            var28[0] = var30;
+            var29 = var29.text;
+            var28[1] = var29;
             var10['style'] = var28;
             var28 = var13.placeholderText;
             var28 = var28.color;
@@ -769,7 +817,7 @@ case 29:
             var15 = var13.IconButton;
             var13 = {'variant': 'icon-only', 'size': 'sm'};
             var29 = _closure1_slot10;
-            var27 = 26;
+            var27 = 28;
             var27 = var24[var27];
             var27 = var20.bind(var4)(var27);
             var28 = var27.ReactionIcon;
@@ -812,7 +860,7 @@ case 29:
             var21 = var26.bind(var27)(var21);
             var14['accessibilityLabel'] = var21;
             var21 = _closure1_slot10;
-            var19 = 27;
+            var19 = 29;
             var19 = var24[var19];
             var19 = var20.bind(var4)(var19);
             var20 = var19.SendMessageIcon;

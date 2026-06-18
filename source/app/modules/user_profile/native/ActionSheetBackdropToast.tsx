@@ -311,6 +311,8 @@ case 7:
         var12 = new Array(1);
         var12[0] = var13;
         var1['style'] = var12;
+        var12 = 'none';
+        var1['pointerEvents'] = var12;
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.View;

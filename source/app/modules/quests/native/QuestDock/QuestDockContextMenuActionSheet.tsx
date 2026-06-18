@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var7;
     var4 = var4.jsxs;
     var _closure1_slot6 = var4;
-    var4 = 33;
+    var4 = 36;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -282,55 +282,117 @@ case 2:
             var17 = var18.bind(var4)(var20, var17);
             var12['label'] = var17;
             var17 = function onPress() {
-                var8 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var1 = 18;
-                var3 = var4[var1];
-                var1 = undefined;
-                var6 = var8.bind(var1)(var3);
-                var5 = var6.trackQuestContentClicked;
-                var3 = {};
-                var9 = _closure2_slot0;
-                var7 = var9.id;
-                var3['questId'] = var7;
-                var7 = 12;
-                var10 = var4[var7];
-                var10 = var8.bind(var1)(var10);
-                var10 = var10.QuestContent;
-                var10 = var10.QUEST_BAR_MOBILE;
-                var3['questContent'] = var10;
-                var10 = 13;
-                var10 = var4[var10];
-                var10 = var8.bind(var1)(var10);
-                var10 = var10.QuestContentCTA;
-                var10 = var10.CONTEXT_MENU_LEARN_MORE;
-                var3['questContentCTA'] = var10;
-                var10 = var4[var7];
-                var10 = var8.bind(var1)(var10);
-                var10 = var10.QuestContent;
-                var10 = var10.QUEST_BAR_MOBILE;
-                var3['sourceQuestContent'] = var10;
-                var3 = var5.bind(var6)(var3);
-                var3 = 19;
-                var3 = var4[var3];
-                var6 = var8.bind(var1)(var3);
-                var5 = var6.openQuestHome;
-                var3 = {};
-                var9 = var9.id;
-                var3['scrollToQuestId'] = var9;
-                var7 = var4[var7];
-                var7 = var8.bind(var1)(var7);
-                var7 = var7.QuestContent;
-                var7 = var7.QUEST_BAR_MOBILE;
-                var3['fromContent'] = var7;
-                var3 = var5.bind(var6)(var3);
-                var3 = _closure1_slot1;
-                var2 = 14;
-                var2 = var4[var2];
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.hideActionSheet;
-                var2 = var2.bind(var3)();
-                return var1;
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var4 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var3 = 18;
+                    var5 = var7[var3];
+                    var1 = undefined;
+                    var6 = var4.bind(var1)(var5);
+                    var5 = var6.shouldMigrateToAdAnalyticsInterface;
+                    var3 = var7[var3];
+                    var3 = var4.bind(var1)(var3);
+                    var3 = var3.AdAnalyticsInterfaceExperimentStep;
+                    var4 = var3.STEP_2_CLICKED_INTERNAL;
+                    var3 = 'quest_dock_context_menu';
+                    var3 = var5.bind(var6)(var4, var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var3 = 22;
+                    var3 = var8[var3];
+                    var5 = var7.bind(var1)(var3);
+                    var4 = var5.trackQuestContentClicked;
+                    var3 = {};
+                    var6 = _closure2_slot0;
+                    var6 = var6.id;
+                    var3['questId'] = var6;
+                    var6 = 12;
+                    var9 = var8[var6];
+                    var9 = var7.bind(var1)(var9);
+                    var9 = var9.QuestContent;
+                    var9 = var9.QUEST_BAR_MOBILE;
+                    var3['questContent'] = var9;
+                    var9 = 13;
+                    var9 = var8[var9];
+                    var9 = var7.bind(var1)(var9);
+                    var9 = var9.QuestContentCTA;
+                    var9 = var9.CONTEXT_MENU_LEARN_MORE;
+                    var3['questContentCTA'] = var9;
+                    var6 = var8[var6];
+                    var6 = var7.bind(var1)(var6);
+                    var6 = var6.QuestContent;
+                    var6 = var6.QUEST_BAR_MOBILE;
+                    var3['sourceQuestContent'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
+                    var3 = 19;
+                    var3 = var8[var3];
+                    var5 = var7.bind(var1)(var3);
+                    var4 = var5.captureAdUserAction;
+                    var3 = {};
+                    var6 = 20;
+                    var6 = var8[var6];
+                    var6 = var7.bind(var1)(var6);
+                    var6 = var6.AdUserActionType;
+                    var6 = var6.CLICK_INTERNAL;
+                    var3['type'] = var6;
+                    var6 = 21;
+                    var6 = var8[var6];
+                    var6 = var7.bind(var1)(var6);
+                    var6 = var6.AdCreativeType;
+                    var6 = var6.QUEST;
+                    var3['adCreativeType'] = var6;
+                    var6 = _closure2_slot0;
+                    var6 = var6.id;
+                    var3['adCreativeId'] = var6;
+                    var6 = 13;
+                    var6 = var8[var6];
+                    var6 = var7.bind(var1)(var6);
+                    var6 = var6.QuestContentCTA;
+                    var6 = var6.CONTEXT_MENU_LEARN_MORE;
+                    var3['questContentCTA'] = var6;
+                    var6 = 12;
+                    var9 = var8[var6];
+                    var9 = var7.bind(var1)(var9);
+                    var9 = var9.QuestContent;
+                    var9 = var9.QUEST_BAR_MOBILE;
+                    var3['surfaceId'] = var9;
+                    var6 = var8[var6];
+                    var6 = var7.bind(var1)(var6);
+                    var6 = var6.QuestContent;
+                    var6 = var6.QUEST_BAR_MOBILE;
+                    var3['sourceQuestContent'] = var6;
+                    var3 = var4.bind(var5)(var3);
+case 6:
+                    var8 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 23;
+                    var3 = var4[var3];
+                    var6 = var8.bind(var1)(var3);
+                    var5 = var6.openQuestHome;
+                    var3 = {};
+                    var7 = _closure2_slot0;
+                    var7 = var7.id;
+                    var3['scrollToQuestId'] = var7;
+                    var7 = 12;
+                    var7 = var4[var7];
+                    var7 = var8.bind(var1)(var7);
+                    var7 = var7.QuestContent;
+                    var7 = var7.QUEST_BAR_MOBILE;
+                    var3['fromContent'] = var7;
+                    var3 = var5.bind(var6)(var3);
+                    var3 = _closure1_slot1;
+                    var2 = 14;
+                    var2 = var4[var2];
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.hideActionSheet;
+                    var2 = var2.bind(var3)();
+                    return var1;
+                }
             };
             var12['onPress'] = var17;
             var13 = var18.bind(var4)(var13, var12);
@@ -345,7 +407,7 @@ case 2:
             var20 = var20.ActionSheetRow;
             var22 = var20.Icon;
             var20 = {};
-            var24 = 20;
+            var24 = 24;
             var24 = var19[var24];
             var24 = var23.bind(var4)(var24);
             var24 = var24.CircleQuestionIcon;
@@ -371,7 +433,7 @@ case 2:
             var20 = function onPress() {
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 21;
+                var1 = 25;
                 var2 = var4[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -421,7 +483,7 @@ case 2:
             var20 = var20.ActionSheetRow;
             var22 = var20.Icon;
             var20 = {};
-            var24 = 22;
+            var24 = 26;
             var24 = var19[var24];
             var24 = var23.bind(var4)(var24);
             var24 = var24.XSmallIcon;
@@ -457,75 +519,130 @@ case 2:
             var20 = _closure1_slot3;
             var19 = function* () {
                 var1 = function* anon_0_() {
-                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                        var9 = _closure1_slot0;
-                        var10 = _closure1_slot2;
-                        var2 = 23;
-                        var2 = var10[var2];
+                        if(var2) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
+                        var6 = _closure1_slot0;
+                        var9 = _closure1_slot2;
+                        var2 = 27;
+                        var2 = var9[var2];
                         var3 = undefined;
-                        var7 = var9.bind(var3)(var2);
-                        var6 = var7.dismissQuestContent;
-                        var11 = _closure2_slot0;
-                        var5 = var11.id;
-                        var8 = 12;
-                        var2 = var10[var8];
-                        var2 = var9.bind(var3)(var2);
+                        var8 = var6.bind(var3)(var2);
+                        var7 = var8.dismissQuestContent;
+                        var2 = _closure2_slot0;
+                        var5 = var2.id;
+                        var10 = 12;
+                        var2 = var9[var10];
+                        var2 = var6.bind(var3)(var2);
                         var2 = var2.QuestContent;
                         var2 = var2.QUEST_BAR_MOBILE;
-                        var2 = var6.bind(var7)(var5, var2);
-                        var6 = _closure1_slot1;
+                        var2 = var7.bind(var8)(var5, var2);
+                        var7 = _closure1_slot1;
                         var5 = 14;
-                        var5 = var10[var5];
-                        var6 = var6.bind(var3)(var5);
-                        var5 = var6.hideActionSheet;
-                        var5 = var5.bind(var6)();
+                        var5 = var9[var5];
+                        var7 = var7.bind(var3)(var5);
+                        var5 = var7.hideActionSheet;
+                        var5 = var5.bind(var7)();
                         var5 = 18;
-                        var5 = var10[var5];
+                        var7 = var9[var5];
+                        var8 = var6.bind(var3)(var7);
+                        var7 = var8.shouldMigrateToAdAnalyticsInterface;
+                        var5 = var9[var5];
+                        var5 = var6.bind(var3)(var5);
+                        var5 = var5.AdAnalyticsInterfaceExperimentStep;
+                        var6 = var5.STEP_2_CLICKED_INTERNAL;
+                        var5 = 'quest_dock_context_menu';
+                        var5 = var7.bind(var8)(var6, var5);
+                        var9 = _closure1_slot0;
+                        var8 = _closure1_slot2;
+                        if(var5) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+                        var5 = 22;
+                        var5 = var8[var5];
                         var7 = var9.bind(var3)(var5);
                         var6 = var7.trackQuestContentClicked;
                         var5 = {};
+                        var12 = _closure2_slot0;
+                        var12 = var12.id;
+                        var5['questId'] = var12;
+                        var12 = var8[var10];
+                        var12 = var9.bind(var3)(var12);
+                        var12 = var12.QuestContent;
+                        var12 = var12.QUEST_BAR_MOBILE;
+                        var5['questContent'] = var12;
+                        var12 = 13;
+                        var12 = var8[var12];
+                        var12 = var9.bind(var3)(var12);
+                        var12 = var12.QuestContentCTA;
+                        var12 = var12.CONTEXT_MENU_HIDE_CONTENT;
+                        var5['questContentCTA'] = var12;
+                        var12 = var8[var10];
+                        var12 = var9.bind(var3)(var12);
+                        var12 = var12.QuestContent;
+                        var12 = var12.QUEST_BAR_MOBILE;
+                        var5['sourceQuestContent'] = var12;
+                        var5 = var6.bind(var7)(var5);
+                        _fun0003_ip = 11; continue _fun0003;
+case 9:
+                        var5 = 19;
+                        var5 = var8[var5];
+                        var7 = var9.bind(var3)(var5);
+                        var6 = var7.captureAdUserAction;
+                        var5 = {};
+                        var12 = 20;
+                        var12 = var8[var12];
+                        var12 = var9.bind(var3)(var12);
+                        var12 = var12.AdUserActionType;
+                        var12 = var12.CLICK_INTERNAL;
+                        var5['type'] = var12;
+                        var12 = 21;
+                        var12 = var8[var12];
+                        var12 = var9.bind(var3)(var12);
+                        var12 = var12.AdCreativeType;
+                        var12 = var12.QUEST;
+                        var5['adCreativeType'] = var12;
+                        var11 = _closure2_slot0;
                         var11 = var11.id;
-                        var5['questId'] = var11;
-                        var11 = var10[var8];
-                        var11 = var9.bind(var3)(var11);
-                        var11 = var11.QuestContent;
-                        var11 = var11.QUEST_BAR_MOBILE;
-                        var5['questContent'] = var11;
+                        var5['adCreativeId'] = var11;
                         var11 = 13;
-                        var11 = var10[var11];
+                        var11 = var8[var11];
                         var11 = var9.bind(var3)(var11);
                         var11 = var11.QuestContentCTA;
                         var11 = var11.CONTEXT_MENU_HIDE_CONTENT;
                         var5['questContentCTA'] = var11;
-                        var8 = var10[var8];
+                        var11 = var8[var10];
+                        var11 = var9.bind(var3)(var11);
+                        var11 = var11.QuestContent;
+                        var11 = var11.QUEST_BAR_MOBILE;
+                        var5['surfaceId'] = var11;
+                        var8 = var8[var10];
                         var8 = var9.bind(var3)(var8);
                         var8 = var8.QuestContent;
                         var8 = var8.QUEST_BAR_MOBILE;
                         var5['sourceQuestContent'] = var8;
                         var5 = var6.bind(var7)(var5);
-                        SaveGenerator(address=229);
-case 6:
+case 11:
+                        SaveGenerator(address=480);
+case 12:
                         return var2;
-case 7:
+case 13:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                        if(var5) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var4 = 24;
+                        var4 = 28;
                         var4 = var6[var4];
                         var5 = var5.bind(var3)(var4);
                         var4 = var5.displayQuestDismissalToast;
                         var4 = var4.bind(var5)();
                         return var3;
-case 8:
+case 14:
                         return var2;
-case 4:
+case 7:
                         return var1;
                     }
                 };
@@ -539,8 +656,8 @@ case 4:
             var7 = var9.bind(var4)(var8, var7);
             var5[1] = var7;
             var6 = var6.preview;
-            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var6) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var9 = _closure1_slot6;
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -570,7 +687,7 @@ case 11:
             var12 = var12.ActionSheetRow;
             var18 = var12.Icon;
             var12 = {};
-            var19 = 25;
+            var19 = 29;
             var19 = var17[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.TrophyIcon;
@@ -619,7 +736,7 @@ case 11:
             var18 = var18.ActionSheetRow;
             var19 = var18.Icon;
             var18 = {};
-            var22 = 26;
+            var22 = 30;
             var22 = var17[var22];
             var22 = var20.bind(var4)(var22);
             var22 = var22.RedoIcon;
@@ -675,7 +792,7 @@ case 11:
             var18 = var18.ActionSheetRow;
             var19 = var18.Icon;
             var18 = {};
-            var22 = 27;
+            var22 = 31;
             var22 = var17[var22];
             var22 = var20.bind(var4)(var22);
             var22 = var22.UndoIcon;
@@ -723,7 +840,7 @@ case 11:
             var18 = var18.ActionSheetRow;
             var19 = var18.Icon;
             var18 = {};
-            var22 = 28;
+            var22 = 32;
             var22 = var17[var22];
             var22 = var20.bind(var4)(var22);
             var22 = var22.UnsendIcon;
@@ -771,7 +888,7 @@ case 11:
             var18 = var18.ActionSheetRow;
             var19 = var18.Icon;
             var18 = {};
-            var22 = 29;
+            var22 = 33;
             var23 = var17[var22];
             var23 = var20.bind(var4)(var23);
             var23 = var23.EyeIcon;
@@ -797,12 +914,12 @@ case 11:
             var18 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 23;
+                var1 = 27;
                 var3 = var4[var1];
                 var1 = undefined;
                 var7 = var5.bind(var1)(var3);
                 var6 = var7.markAdContentUnseen;
-                var3 = 30;
+                var3 = 21;
                 var3 = var4[var3];
                 var3 = var5.bind(var1)(var3);
                 var3 = var3.AdCreativeType;
@@ -857,7 +974,7 @@ case 11:
             var18 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 31;
+                var1 = 34;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);
@@ -918,7 +1035,7 @@ case 11:
             var14 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 32;
+                var1 = 35;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);
@@ -939,7 +1056,7 @@ case 11:
             var10[6] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 10:
+case 16:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

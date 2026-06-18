@@ -54,6 +54,7 @@ case 0:
             var23 = var1.user;
             var20 = var1.channel;
             var22 = var1.displayProfile;
+            var7 = var1.scrollPosition;
             var5 = undefined;
             var _closure2_slot1 = var5;
             var2 = _closure1_slot1;
@@ -81,9 +82,9 @@ case 0:
 case 3:
             var3 = var20.guild_id;
 case 2:
-            var7 = var1 == var20;
+            var8 = var1 == var20;
             var2 = undefined;
-            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var2 = var20.id;
 case 4:
@@ -104,29 +105,41 @@ case 4:
             var2 = var4[var2];
             var6 = var3.bind(var5)(var2);
             var2 = _closure1_slot6;
-            var8 = var6.bind(var5)(var2);
+            var28 = var6.bind(var5)(var2);
             var2 = 11;
+            var2 = var4[var2];
+            var6 = var3.bind(var5)(var2);
+            var2 = {};
+            var2['scrollPosition'] = var7;
+            var2['bannerHeight'] = var28;
+            var2 = var6.bind(var5)(var2);
+            var18 = var2.bannerAnimatedStyle;
+            var15 = var2.bannerImageAnimatedStyle;
+            var9 = var2.contentAnimatedStyle;
+            var14 = var2.blurAnimatedProps;
+            var8 = var2.showBlur;
+            var2 = 12;
             var2 = var4[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.bind(var5)();
             var16 = var2.bottom;
-            var2 = 12;
+            var2 = 13;
             var2 = var4[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
             var2['user'] = var23;
             var2['displayProfile'] = var22;
             var2 = var3.bind(var5)(var2);
-            var9 = var2.theme;
+            var10 = var2.theme;
             var7 = var2.primaryColor;
             var6 = var2.secondaryColor;
             var3 = _closure1_slot0;
-            var2 = 13;
+            var2 = 14;
             var2 = var4[var2];
             var4 = var3.bind(var5)(var2);
             var3 = var4.useUserProfileColors;
             var2 = {};
-            var2['theme'] = var9;
+            var2['theme'] = var10;
             var2['primaryColor'] = var7;
             var2['secondaryColor'] = var6;
             var2 = var3.bind(var4)(var2);
@@ -143,13 +156,13 @@ case 7:
                 var3 = var4.bind(var1)(var3);
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var5 = 14;
+                var5 = 15;
                 var5 = var4[var5];
                 var6 = var3.bind(var1)(var5);
                 var5 = var6.copy;
                 var2 = _closure2_slot1;
                 var2 = var5.bind(var6)(var2);
-                var2 = 15;
+                var2 = 16;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.presentUsernameCopied;
@@ -162,19 +175,27 @@ case 7:
             var11 = _closure1_slot7;
             var10 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var6 = 16;
+            var6 = 17;
             var6 = var13[var6];
             var7 = var10.bind(var5)(var6);
             var6 = {};
             var6['user'] = var23;
             var6['displayProfile'] = var22;
-            var6['bannerHeight'] = var8;
+            var6['bannerHeight'] = var28;
+            var6['bannerAnimatedStyle'] = var18;
+            var6['bannerImageAnimatedStyle'] = var15;
+            var6['blurAnimatedProps'] = var14;
+            var6['showBlur'] = var8;
             var7 = var11.bind(var5)(var7, var6);
             var6 = new Array(2);
             var6[0] = var7;
-            var8 = _closure1_slot3;
+            var7 = 18;
+            var7 = var13[var7];
+            var7 = var10.bind(var5)(var7);
+            var8 = var7.View;
             var7 = {};
-            var9 = 17;
+            var7['style'] = var9;
+            var9 = 19;
             var9 = var13[var9];
             var10 = var10.bind(var5)(var9);
             var9 = {};
@@ -220,7 +241,7 @@ case 10:
             var13['style'] = var15;
             var16 = _closure1_slot1;
             var28 = _closure1_slot2;
-            var15 = 18;
+            var15 = 20;
             var15 = var28[var15];
             var16 = var16.bind(var5)(var15);
             var15 = {};
@@ -244,7 +265,7 @@ case 14:
             var15['badgeContainerBackground'] = var21;
             var30 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var27 = 19;
+            var27 = 21;
             var28 = var24[var27];
             var28 = var30.bind(var5)(var28);
             var29 = var28.intl;
@@ -266,7 +287,7 @@ case 14:
                 var2 = var3.bind(var1)(var2);
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 15;
+                var2 = 16;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.presentUserPronouns;
@@ -286,7 +307,7 @@ case 14:
             var18 = var19.cards;
             var14['style'] = var18;
             var18 = _closure1_slot1;
-            var17 = 20;
+            var17 = 22;
             var17 = var24[var17];
             var18 = var18.bind(var5)(var17);
             var17 = {};
@@ -319,7 +340,7 @@ case 6:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 21;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -174,7 +174,7 @@ case 8:
             var1['disabled'] = var6;
             var6 = var17.container;
             var1['style'] = var6;
-            var5 = function onPress() {
+            var5 = function handlePress() {
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var1 = 8;

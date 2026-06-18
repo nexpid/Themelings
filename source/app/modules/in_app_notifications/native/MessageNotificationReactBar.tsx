@@ -21,8 +21,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
-    var10 = 1;
-    var4 = var6[var10];
+    var4 = 1;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.Keyboard;
     var _closure1_slot4 = var7;
@@ -50,10 +50,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'alignSelf': 'center', 'flexDirection': 'row', 'gap': 8, 'alignItems': 'center', 'paddingVertical': 12};
+    var9 = {'alignSelf': 'center', 'flexDirection': 'row', 'gap': 8, 'alignItems': 'center', 'justifyContent': 'space-between', 'paddingHorizontal': 12, 'paddingVertical': 10, 'width': '100%'};
     var4['container'] = var9;
-    var9 = {};
-    var9['height'] = var10;
+    var9 = {'height': 1, 'backgroundColor': null, 'margin': 0, 'padding': 0};
     var10 = 6;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);

@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var4 = 1;
         var2['opacity'] = var4;
-        var1['threeTierBundle'] = var2;
+        var1['solidAvatar'] = var2;
         var2 = {};
         var2['position'] = var3;
         var1['avatarDecoration'] = var2;
@@ -92,7 +92,7 @@ case 0:
             var12 = var1.size;
             var8 = var1.avatarSource;
             var11 = var1.animate;
-            var15 = var1.threeTierBundle;
+            var18 = var1.threeTierBundle;
             var1 = _closure1_slot8;
             var4 = undefined;
             var10 = var1.bind(var4)(var12);
@@ -117,26 +117,32 @@ case 0:
             var7 = _closure1_slot5;
             var6 = _closure1_slot3;
             var5 = {};
-            var16 = var10.avatar;
-            var14 = new Array(2);
-            var14[0] = var16;
-            if(!var15) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var15 = var10.threeTierBundle;
-case 2:
-            var14[1] = var15;
-            var5['style'] = var14;
-            var14 = 'contain';
-            var5['resizeMode'] = var14;
+            var14 = var10.avatar;
+            var15 = new Array(2);
+            var15[0] = var14;
             var14 = null;
-            if(!(var14 == var8)) { _fun0001_ip = 4; continue _fun0001 }
+            var16 = var14 != var8;
+            if(var16) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var17 = true;
+            var16 = var17 === var18;
+case 2:
+            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            var16 = var10.solidAvatar;
+case 4:
+            var15[1] = var16;
+            var5['style'] = var15;
+            var15 = 'contain';
+            var5['resizeMode'] = var15;
+            if(!(var14 == var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
             var14 = 7;
             var14 = var16[var14];
             var8 = var15.bind(var4)(var14);
-case 4:
+case 6:
             var5['source'] = var8;
             var8 = false;
             var5['accessible'] = var8;

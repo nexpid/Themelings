@@ -108,8 +108,6 @@ case 12:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/hooks/useHasExpiredShopBlocks.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = 600000;
-    var3['COLLECTIBLES_SHOP_HOME_CACHE_DURATION'] = var4;
     var2 = function(arg1, arg2, arg3) {
         var6 = arg1;
         var8 = arg2;

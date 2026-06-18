@@ -267,6 +267,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['WISHLIST_POPULAR_SKU_IDS'] = var15;
     var15 = {};
     var3['SHOP_CARD_PER_PRODUCT_NEW_BADGE_EXPIRY_SETTINGS'] = var15;
+    var15 = 600000;
+    var3['COLLECTIBLES_SHOP_CACHE_DURATION_MS'] = var15;
+    var3['COLLECTIBLES_SHOP_FETCH_ERROR_RETRY_THRESHOLD_MS'] = var15;
     var3['ViewState'] = var14;
     var14 = 24;
     var3['SEARCH_BAR_ICON_WIDTH_PX'] = var14;

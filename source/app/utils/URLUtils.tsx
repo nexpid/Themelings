@@ -346,7 +346,7 @@ case 46:
     var18 = var16.RegExp;
     var2 = var16.HermesInternal;
     var17 = var2.concat;
-    var15 = '(?:(?:(?:[a-z]+:)?//)|www\\.)(?:\\S+(?::\\S*)?@)?(?:localhost|';
+    var15 = '(?:(?:(?:[a-z]+:)?//)|www\\.)(?:[^\\s:@]+(?::[^\\s@]*)?@)?(?:localhost|';
     var2 = '|(?:[a-z\\u00a1-\\uffff0-9-_]+\\.)+(?:(?:[a-z\\u00a1-\\uffff]{2,})))(?::\\d{2,5})?(?:[/?#][^\\s"]*)?';
     var22 = var17.bind(var15)(var19, var2);
     var2 = var18.prototype;

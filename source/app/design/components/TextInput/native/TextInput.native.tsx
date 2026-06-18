@@ -31,22 +31,34 @@ case 0:
             var12 = arg1;
             var10 = var12.label;
             var11 = var12.accessibilityLabel;
-            var2 = _closure1_slot2;
-            var1 = var2.useId;
-            var8 = var1.bind(var2)();
+            var1 = var12.errorMessage;
+            var16 = var12.status;
+            var3 = _closure1_slot2;
+            var2 = var3.useId;
+            var8 = var2.bind(var3)();
             var15 = var12.fieldLabel;
             var9 = null;
             if(!(var9 == var15)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = 'string';
-            var2 = typeof var10;
-            var1 = undefined;
-            if(!(var3 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+            var4 = 'string';
+            var3 = typeof var10;
+            var2 = undefined;
+            if(!(var4 === var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = var10;
+            var2 = var10;
 case 4:
-            var15 = var1;
+            var15 = var2;
 case 2:
+            if(!(var9 == var16)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var2 = var9 != var1;
+            var1 = undefined;
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var1 = 'error';
+case 8:
+            var16 = var1;
+case 6:
             var4 = _closure1_slot3;
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -56,15 +68,15 @@ case 2:
             var1 = var2.bind(var3)(var1);
             var2 = var1.Input;
             var1 = {};
-            var18 = var1;
-            var17 = var12;
-            var6 = copyDataProperties(var18, var17);
+            var19 = var1;
+            var18 = var12;
+            var6 = copyDataProperties(var19, var18);
             var6 = var9 != var10;
             var7 = undefined;
-            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = var8;
-case 6:
+case 10:
             var6 = 'labelId';
             var1[5] = var7;
             var7 = _closure1_slot3;
@@ -75,11 +87,13 @@ case 6:
             var5 = var13.bind(var3)(var5);
             var6 = var5.TextField;
             var5 = {};
-            var16 = arg2;
-            var5['ref'] = var16;
-            var18 = var5;
-            var17 = var12;
-            var12 = copyDataProperties(var18, var17);
+            var17 = arg2;
+            var5['ref'] = var17;
+            var19 = var5;
+            var18 = var12;
+            var12 = copyDataProperties(var19, var18);
+            var12 = 'status';
+            var5[11] = var16;
             var12 = 'fieldLabel';
             var5[11] = var15;
             var12 = 4;
@@ -87,33 +101,33 @@ case 6:
             var13 = var13.bind(var3)(var12);
             var12 = var13.isAndroid;
             var12 = var12.bind(var13)();
-            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var12) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var13 = var9 != var10;
             var12 = undefined;
-            if(var13) { _fun0001_ip = 10; continue _fun0001 }
-case 8:
-            if(!(var9 == var11)) { _fun0001_ip = 11; continue _fun0001 }
+            if(var13) { _fun0001_ip = 14; continue _fun0001 }
 case 12:
+            if(!(var9 == var11)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var15 = 'string';
             var14 = typeof var10;
             var13 = undefined;
-            if(!(var15 === var14)) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(!(var15 === var14)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var13 = var10;
-case 13:
+case 17:
             var11 = var13;
-case 11:
+case 15:
             var12 = var11;
-case 10:
+case 14:
             var11 = 'accessibilityLabel';
             var5[10] = var12;
             var10 = var9 != var10;
             var9 = undefined;
-            if(!var10) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!var10) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var9 = var8;
-case 15:
+case 19:
             var8 = 'accessibilityLabelledBy';
             var5[7] = var9;
             var6 = var7.bind(var3)(var6, var5);

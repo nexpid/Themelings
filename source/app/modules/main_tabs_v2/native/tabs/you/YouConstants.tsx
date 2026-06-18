@@ -37,8 +37,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['YOU_SCREEN_ID'] = var6;
     var6 = 150;
     var3['YOU_BANNER_IMAGE_HEIGHT'] = var6;
-    var6 = 0.125;
-    var3['YOU_BANNER_VERTICAL_TRANSLATE_SCALE_FACTOR'] = var6;
     var6 = 6;
     var3['YOU_AVATAR_PADDING'] = var6;
     var3['YOU_AVATAR_SIZE'] = var5;
@@ -54,8 +52,5 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['YOU_ACTION_SHEET_TOP_INSET'] = var2;
     var2 = {'xOffset': 0, 'yOffset': 2, 'shadowColorIos': '#000000', 'shadowOpacity': 0.08, 'shadowRadius': 2.62, 'elevation': 4, 'shadowColorAndroid': '#000000'};
     var3['YOU_SCREEN_DROP_SHADOW'] = var2;
-    var2 = 1.5;
-    var3['SCROLL_POSITION_COEFFICIENT'] = var2;
-    var3['SCALE_FACTOR'] = var2;
     return var1;
 })();

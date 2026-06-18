@@ -52,41 +52,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = 5;
-            var3 = var7[var3];
-            var4 = undefined;
-            var9 = var6.bind(var4)(var3);
-            var8 = var9.useStateFromStores;
-            var3 = _closure1_slot6;
-            var5 = new Array(1);
-            var5[0] = var3;
-            var3 = function() {
-                var3 = _closure1_slot6;
-                var2 = var3.getGuild;
-                var1 = _closure2_slot0;
-                var1 = var1.guildId;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var3 = var8.bind(var9)(var5, var3);
-            var5 = 6;
-            var5 = var7[var5];
-            var8 = var6.bind(var4)(var5);
-            var5 = var8.useAgeGateVerifyContentForGuild;
-            var11 = var5.bind(var8)(var3);
-            var8 = var11.modalType;
-            var9 = _closure1_slot4;
-            var5 = _closure1_slot3;
-            var9 = var9.bind(var4)(var11, var5);
-            var5 = 7;
-            var5 = var7[var5];
-            var7 = var6.bind(var4)(var5);
-            var6 = var7.useMaybePerformReactiveCheckForSource;
-            var5 = _closure1_slot7;
-            var5 = var5.NSFW_SERVER;
-            var5 = var6.bind(var7)(var5);
             var6 = function handleDisagree() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -111,6 +76,41 @@ case 2:
                     return var1;
                 }
             };
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var3 = 5;
+            var3 = var11[var3];
+            var4 = undefined;
+            var9 = var7.bind(var4)(var3);
+            var8 = var9.useStateFromStores;
+            var3 = _closure1_slot6;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = function() {
+                var3 = _closure1_slot6;
+                var2 = var3.getGuild;
+                var1 = _closure2_slot0;
+                var1 = var1.guildId;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var3 = var8.bind(var9)(var5, var3);
+            var5 = 6;
+            var5 = var11[var5];
+            var8 = var7.bind(var4)(var5);
+            var5 = var8.useAgeGateVerifyContentForGuild;
+            var12 = var5.bind(var8)(var3);
+            var8 = var12.modalType;
+            var9 = _closure1_slot4;
+            var5 = _closure1_slot3;
+            var9 = var9.bind(var4)(var12, var5);
+            var5 = 7;
+            var5 = var11[var5];
+            var11 = var7.bind(var4)(var5);
+            var7 = var11.useMaybePerformReactiveCheckForSource;
+            var5 = _closure1_slot7;
+            var5 = var5.NSFW_SERVER;
+            var5 = var7.bind(var11)(var5);
             var12 = _closure1_slot5;
             var11 = var12.useCallback;
             var7 = function() {
@@ -195,7 +195,7 @@ case 10:
             var3 = var3.bind(var4)(var2);
             var2 = {};
             var2['modalType'] = var8;
-            var10 = function onAgree() {
+            var10 = function handleAgree() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 8;

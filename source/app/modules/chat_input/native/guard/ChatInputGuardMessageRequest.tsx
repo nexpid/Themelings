@@ -51,6 +51,12 @@ case 0:
             var _closure2_slot1 = var2;
             var2 = 5;
             var2 = var5[var2];
+            var7 = var3.bind(var4)(var2);
+            var6 = var7.useIsMessageRequestRestrictedViewer;
+            var2 = 'ChatInputGuardMessageRequest';
+            var9 = var6.bind(var7)(var2);
+            var2 = 6;
+            var2 = var5[var2];
             var8 = var3.bind(var4)(var2);
             var7 = var8.useStateFromStores;
             var2 = _closure1_slot4;
@@ -66,7 +72,7 @@ case 0:
                 return var1;
             };
             var6 = var7.bind(var8)(var6, var2);
-            var2 = 6;
+            var2 = 7;
             var2 = var5[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useMessageRequestActions;
@@ -75,7 +81,7 @@ case 0:
             var6 = function onError() {
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var1 = 7;
+                var1 = 8;
                 var2 = var7[var1];
                 var1 = undefined;
                 var4 = var6.bind(var1)(var2);
@@ -84,7 +90,7 @@ case 0:
                 var8 = 'MESSAGE_REQUEST_REQUEST_ERROR_ALERT_TITLE';
                 var2['key'] = var8;
                 var10 = _closure1_slot0;
-                var5 = 8;
+                var5 = 9;
                 var8 = var7[var5];
                 var8 = var10.bind(var1)(var8);
                 var9 = var8.intl;
@@ -95,7 +101,7 @@ case 0:
                 var5 = var5.EDYbS+;
                 var5 = var8.bind(var9)(var5);
                 var2['content'] = var5;
-                var5 = 9;
+                var5 = 10;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var2['icon'] = var5;
@@ -118,7 +124,7 @@ case 0:
             var _closure2_slot3 = var3;
             var10 = var2.isAcceptLoading;
             var5 = var2.isRejectLoading;
-            var12 = var2.isUserProfileLoading;
+            var13 = var2.isUserProfileLoading;
             var11 = var2.isOptimisticAccepted;
             var6 = var2.isOptimisticRejected;
             var7 = var10;
@@ -128,7 +134,7 @@ case 3:
 case 2:
             if(var7) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = var12;
+            var7 = var13;
 case 4:
             if(var7) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -166,7 +172,7 @@ case 13:
 case 15:
                             var6 = _closure1_slot0;
                             var7 = _closure1_slot2;
-                            var5 = 10;
+                            var5 = 11;
                             var5 = var7[var5];
                             var7 = var6.bind(var3)(var5);
                             var6 = var7.transitionToChannel;
@@ -199,7 +205,7 @@ case 10:
                 };
                 return var1;
             };
-            var14 = var2.bind(var4)();
+            var15 = var2.bind(var4)();
             var1 = function() {
                 var4 = _closure1_slot3;
                 var3 = undefined;
@@ -252,81 +258,99 @@ case 16:
             var8 = var1.bind(var4)();
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var1 = 11;
-            var1 = var15[var1];
+            var16 = _closure1_slot2;
+            var1 = 12;
+            var1 = var16[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var13 = 'button-action';
-            var1['type'] = var13;
-            var18 = _closure1_slot0;
-            var13 = 8;
-            var16 = var15[var13];
-            var16 = var18.bind(var4)(var16);
-            var19 = var16.intl;
-            var17 = var19.string;
-            var16 = var15[var13];
-            var16 = var18.bind(var4)(var16);
-            var16 = var16.t;
-            var16 = var16.e/eQVB;
-            var16 = var17.bind(var19)(var16);
-            var1['message'] = var16;
-            var16 = var15[var13];
-            var16 = var18.bind(var4)(var16);
-            var19 = var16.intl;
-            var17 = var19.string;
-            var16 = var15[var13];
-            var16 = var18.bind(var4)(var16);
-            var16 = var16.t;
-            var16 = var16.HcVzGI;
-            var16 = var17.bind(var19)(var16);
-            var1['subtext'] = var16;
-            var16 = var15[var13];
-            var16 = var18.bind(var4)(var16);
-            var17 = var16.intl;
-            var16 = var17.string;
-            var15 = var15[var13];
-            var15 = var18.bind(var4)(var15);
-            var15 = var15.t;
-            var15 = var15.Kz8Pwr;
-            var15 = var16.bind(var17)(var15);
-            var1['buttonPrimaryText'] = var15;
-            var1['buttonPrimaryOnPress'] = var14;
-            var1['buttonPrimaryDisabled'] = var7;
-            if(var10) { _fun0001_ip = 18; continue _fun0001 }
+            var14 = 'button-action';
+            var1['type'] = var14;
+            var17 = _closure1_slot0;
+            var14 = 9;
+            var18 = var16[var14];
+            var18 = var17.bind(var4)(var18);
+            var20 = var18.intl;
+            var19 = var20.string;
+            var18 = var16[var14];
+            var18 = var17.bind(var4)(var18);
+            var18 = var18.t;
+            var18 = var18.e/eQVB;
+            var18 = var19.bind(var20)(var18);
+            var1['message'] = var18;
+            var16 = var16[var14];
+            var16 = var17.bind(var4)(var16);
+            var18 = var16.intl;
+            var17 = var18.string;
+            var19 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var16 = var16[var14];
+            var16 = var19.bind(var4)(var16);
+            var19 = var16.t;
+            if(var9) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var10 = var12;
+            var16 = var19.HcVzGI;
+            _fun0001_ip = 20; continue _fun0001;
 case 18:
-            if(var10) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-            var10 = var11;
+            var16 = var19.YQ0uUE;
 case 20:
+            var16 = var17.bind(var18)(var16);
+            var1['subtext'] = var16;
+            var19 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var17 = var16[var14];
+            var17 = var19.bind(var4)(var17);
+            var18 = var17.intl;
+            var17 = var18.string;
+            var16 = var16[var14];
+            var16 = var19.bind(var4)(var16);
+            var16 = var16.t;
+            var16 = var16.Kz8Pwr;
+            var16 = var17.bind(var18)(var16);
+            var1['buttonPrimaryText'] = var16;
+            var1['buttonPrimaryOnPress'] = var15;
+            var1['buttonPrimaryDisabled'] = var7;
+            if(var10) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
+            var10 = var13;
+case 21:
+            if(var10) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
+            var10 = var11;
+case 23:
             var1['buttonPrimaryLoading'] = var10;
-            var12 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var10 = var9[var13];
-            var10 = var12.bind(var4)(var10);
+            var11 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var10 = var10[var14];
+            var10 = var11.bind(var4)(var10);
             var11 = var10.intl;
             var10 = var11.string;
-            var9 = var9[var13];
-            var9 = var12.bind(var4)(var9);
-            var9 = var9.t;
-            var9 = var9.B2nygW;
+            var13 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var12 = var12[var14];
+            var12 = var13.bind(var4)(var12);
+            var12 = var12.t;
+            if(var9) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+            var9 = var12.B2nygW;
+            _fun0001_ip = 27; continue _fun0001;
+case 25:
+            var9 = var12.BVN4pL;
+case 27:
             var9 = var10.bind(var11)(var9);
             var1['buttonSecondaryText'] = var9;
             var1['buttonSecondaryOnPress'] = var8;
             var1['buttonSecondaryDisabled'] = var7;
-            if(var5) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(var5) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var5 = var6;
-case 22:
+case 28:
             var1['buttonSecondaryLoading'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

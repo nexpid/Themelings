@@ -382,125 +382,155 @@ case 20:
     };
     var _closure1_slot11 = var5;
     var4 = function NativeChannelRowPreview(arg1) {
-        var1 = arg1;
-        var9 = var1.message;
-        var2 = var1.lineClamp;
-        var _closure2_slot0 = var2;
-        var7 = var1.messageSizeCacheRef;
-        var6 = var1.maxHeight;
-        var5 = var1.backgroundColor;
-        var2 = _closure1_slot1;
-        var11 = _closure1_slot2;
-        var3 = 20;
-        var3 = var11[var3];
-        var4 = undefined;
-        var3 = var2.bind(var4)(var3);
-        var12 = var3.bind(var4)();
-        var8 = _closure1_slot0;
-        var3 = 21;
-        var3 = var11[var3];
-        var14 = var8.bind(var4)(var3);
-        var13 = var14.createNativeStyleProperties;
-        var3 = {};
-        var15 = 22;
-        var15 = var11[var15];
-        var15 = var2.bind(var4)(var15);
-        var15 = var15.colors;
-        var15 = var15.TEXT_DEFAULT;
-        var3['seeMoreLabelColor'] = var15;
-        var3 = var13.bind(var14)(var3);
-        var3 = var3.bind(var4)(var12);
-        var _closure2_slot1 = var3;
-        var3 = 23;
-        var12 = var11[var3];
-        var12 = var8.bind(var4)(var12);
-        var13 = var12.RenderEmbeds;
-        var12 = var13.getSetting;
-        var15 = var12.bind(var13)();
-        var _closure2_slot2 = var15;
-        var12 = var11[var3];
-        var12 = var8.bind(var4)(var12);
-        var13 = var12.InlineEmbedMedia;
-        var12 = var13.getSetting;
-        var14 = var12.bind(var13)();
-        var _closure2_slot3 = var14;
-        var3 = var11[var3];
-        var3 = var8.bind(var4)(var3);
-        var8 = var3.InlineAttachmentMedia;
-        var3 = var8.getSetting;
-        var3 = var3.bind(var8)();
-        var _closure2_slot4 = var3;
-        var13 = _closure1_slot3;
-        var12 = var13.useMemo;
-        var8 = new Array(3);
-        var8[0] = var15;
-        var8[1] = var14;
-        var8[2] = var3;
-        var3 = function() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 24;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var2 = var1.prototype;
-            var2 = Object.create(var2, {constructor: {value: var1}});
-            var7 = var2;
-            var1 = new var7[var1](var6);
-            var1 = var1 instanceof Object ? var1 : var2;
-            var3 = var1.setOptions;
-            var2 = {'renderEmbeds': null, 'inlineEmbedMedia': null, 'inlineAttachmentMedia': null, 'renderReactions': false, 'animateEmoji': false, 'gifAutoPlay': false, 'renderReplies': false, 'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInviteEmbed': false, 'renderThreadEmbeds': false, 'renderForumPostActions': false, 'ignoreMentioned': true, 'enableSwipeActions': false, 'renderExecutedCommands': false, 'useAlternateEmbedColors': true};
-            var5 = _closure2_slot2;
-            var2['renderEmbeds'] = var5;
-            var5 = _closure2_slot3;
-            var2['inlineEmbedMedia'] = var5;
-            var4 = _closure2_slot4;
-            var2['inlineAttachmentMedia'] = var4;
-            var2 = var3.bind(var1)(var2);
-            return var1;
-        };
-        var8 = var12.bind(var13)(var3, var8);
-        var3 = _closure1_slot6;
-        var1 = 25;
-        var1 = var11[var1];
-        var2 = var2.bind(var4)(var1);
-        var1 = {'pointerEvents': 'none', 'horizontalOffset': 0};
-        var10 = function modifyRow(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var3 = arg1;
-                var4 = _closure1_slot0;
+            var1 = arg1;
+            var9 = var1.message;
+            var2 = var1.lineClamp;
+            var _closure2_slot0 = var2;
+            var7 = var1.messageSizeCacheRef;
+            var6 = var1.maxHeight;
+            var5 = var1.backgroundColor;
+            var3 = var1.gifAutoPlay;
+            var4 = undefined;
+            if(!(var3 === var4)) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
+            var3 = false;
+case 40:
+            var _closure2_slot1 = var3;
+            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var _closure2_slot5 = var4;
+            var2 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var8 = 20;
+            var8 = var11[var8];
+            var8 = var2.bind(var4)(var8);
+            var13 = var8.bind(var4)();
+            var12 = _closure1_slot0;
+            var8 = 21;
+            var8 = var11[var8];
+            var15 = var12.bind(var4)(var8);
+            var14 = var15.createNativeStyleProperties;
+            var8 = {};
+            var16 = 22;
+            var16 = var11[var16];
+            var16 = var2.bind(var4)(var16);
+            var16 = var16.colors;
+            var16 = var16.TEXT_DEFAULT;
+            var8['seeMoreLabelColor'] = var16;
+            var8 = var14.bind(var15)(var8);
+            var8 = var8.bind(var4)(var13);
+            _closure2_slot2 = var8;
+            var8 = 23;
+            var13 = var11[var8];
+            var13 = var12.bind(var4)(var13);
+            var14 = var13.RenderEmbeds;
+            var13 = var14.getSetting;
+            var16 = var13.bind(var14)();
+            _closure2_slot3 = var16;
+            var13 = var11[var8];
+            var13 = var12.bind(var4)(var13);
+            var14 = var13.InlineEmbedMedia;
+            var13 = var14.getSetting;
+            var15 = var13.bind(var14)();
+            _closure2_slot4 = var15;
+            var8 = var11[var8];
+            var8 = var12.bind(var4)(var8);
+            var12 = var8.InlineAttachmentMedia;
+            var8 = var12.getSetting;
+            var14 = var8.bind(var12)();
+            _closure2_slot5 = var14;
+            var13 = _closure1_slot3;
+            var12 = var13.useMemo;
+            var8 = new Array(4);
+            var8[0] = var16;
+            var8[1] = var15;
+            var8[2] = var14;
+            var8[3] = var3;
+            var3 = function() {
+                var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 26;
+                var1 = 24;
                 var2 = var2[var1];
                 var1 = undefined;
-                var2 = var4.bind(var1)(var2);
-                var2 = var2.MessageContextType;
-                var2 = var2.SEARCH;
-                var3['contextType'] = var2;
-                var5 = _closure2_slot0;
-                var2 = null;
-                if(!(var2 != var5)) { _fun0003_ip = 40; continue _fun0003 }
-case 41:
-                var2 = {'numberOfLines': null, 'expandable': false, 'seeMoreLabel': '...'};
-                var5 = _closure2_slot0;
-                var2['numberOfLines'] = var5;
+                var1 = var3.bind(var1)(var2);
+                var2 = var1.prototype;
+                var2 = Object.create(var2, {constructor: {value: var1}});
+                var8 = var2;
+                var1 = new var8[var1](var7);
+                var1 = var1 instanceof Object ? var1 : var2;
+                var3 = var1.setOptions;
+                var2 = {};
+                var5 = _closure2_slot3;
+                var2['renderEmbeds'] = var5;
+                var5 = _closure2_slot4;
+                var2['inlineEmbedMedia'] = var5;
+                var5 = _closure2_slot5;
+                var2['inlineAttachmentMedia'] = var5;
+                var5 = false;
+                var2['renderReactions'] = var5;
+                var2['animateEmoji'] = var5;
                 var4 = _closure2_slot1;
-                var4 = var4.seeMoreLabelColor;
-                var2['seeMoreLabelColor'] = var4;
-                var3['truncation'] = var2;
-case 40:
+                var2['gifAutoPlay'] = var4;
+                var2['renderReplies'] = var5;
+                var2['renderCodedLinks'] = var5;
+                var2['renderGiftCode'] = var5;
+                var2['renderActivityInviteEmbed'] = var5;
+                var2['renderThreadEmbeds'] = var5;
+                var2['renderForumPostActions'] = var5;
+                var4 = true;
+                var2['ignoreMentioned'] = var4;
+                var2['enableSwipeActions'] = var5;
+                var2['renderExecutedCommands'] = var5;
+                var2['useAlternateEmbedColors'] = var4;
+                var2 = var3.bind(var1)(var2);
                 return var1;
-            }
-        };
-        var1['modifyRow'] = var10;
-        var1['message'] = var9;
-        var1['rowGenerator'] = var8;
-        var1['messageSizeCacheRef'] = var7;
-        var1['maxHeight'] = var6;
-        var1['backgroundColor'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+            };
+            var8 = var12.bind(var13)(var3, var8);
+            var3 = _closure1_slot6;
+            var1 = 25;
+            var1 = var11[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {'pointerEvents': 'none', 'horizontalOffset': 0};
+            var10 = function modifyRow(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var3 = arg1;
+                    var4 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 26;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var4.bind(var1)(var2);
+                    var2 = var2.MessageContextType;
+                    var2 = var2.SEARCH;
+                    var3['contextType'] = var2;
+                    var5 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 != var5)) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
+                    var2 = {'numberOfLines': null, 'expandable': false, 'seeMoreLabel': '...'};
+                    var5 = _closure2_slot0;
+                    var2['numberOfLines'] = var5;
+                    var4 = _closure2_slot2;
+                    var4 = var4.seeMoreLabelColor;
+                    var2['seeMoreLabelColor'] = var4;
+                    var3['truncation'] = var2;
+case 42:
+                    return var1;
+                }
+            };
+            var1['modifyRow'] = var10;
+            var1['message'] = var9;
+            var1['rowGenerator'] = var8;
+            var1['messageSizeCacheRef'] = var7;
+            var1['maxHeight'] = var6;
+            var1['backgroundColor'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var _closure1_slot12 = var4;
     var1 = global;
@@ -571,7 +601,7 @@ case 40:
     var _closure1_slot9 = var6;
     var6 = var9.memo;
     var2 = function(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var6 = arg1;
             var _closure2_slot0 = var6;
@@ -607,10 +637,10 @@ case 0:
             var4 = var7.isMessageContentPreviewable;
             var3 = var6.message;
             var3 = var4.bind(var7)(var3);
-            if(!var3) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
-            if(var1) { _fun0004_ip = 42; continue _fun0004 }
-case 44:
+            if(!var3) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
+            if(var1) { _fun0005_ip = 44; continue _fun0005 }
+case 46:
             var4 = _closure1_slot6;
             var3 = _closure1_slot12;
             var1 = {};
@@ -618,8 +648,8 @@ case 44:
             var13 = var6;
             var7 = copyDataProperties(var14, var13);
             var1 = var4.bind(var5)(var3, var1);
-            _fun0004_ip = 45; continue _fun0004;
-case 42:
+            _fun0005_ip = 47; continue _fun0005;
+case 44:
             var4 = _closure1_slot6;
             var3 = _closure1_slot11;
             var2 = {};
@@ -627,7 +657,7 @@ case 42:
             var13 = var6;
             var6 = copyDataProperties(var14, var13);
             var1 = var4.bind(var5)(var3, var2);
-case 45:
+case 47:
             return var1;
         }
     };

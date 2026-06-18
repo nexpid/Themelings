@@ -454,7 +454,7 @@ case 21:
     var4 = var4.ThemeContext;
     var7['contextType'] = var4;
     var4 = {};
-    var8 = function renderFallback(arg1, arg2) {
+    var8 = function defaultRenderFallback(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var4 = _closure1_slot11;

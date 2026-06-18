@@ -87,7 +87,7 @@ case 0:
             var3 = arg1;
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var6 = 7;
+            var6 = 11;
             var1 = var1[var6];
             var4 = undefined;
             var5 = var5.bind(var4)(var1);
@@ -188,7 +188,7 @@ case 0:
             var4 = arg1;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var5 = 7;
+            var5 = 11;
             var2 = var2[var5];
             var8 = undefined;
             var3 = var3.bind(var8)(var2);
@@ -270,12 +270,12 @@ case 0:
             var _closure2_slot0 = var1;
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 9;
+            var1 = 13;
             var4 = var7[var1];
             var1 = undefined;
             var4 = var5.bind(var1)(var4);
             var6 = var4.openPlayStoreInlineInstall;
-            var4 = 10;
+            var4 = 14;
             var4 = var7[var4];
             var4 = var5.bind(var1)(var4);
             var5 = var4.clearAppStoreOverlayOpen;
@@ -305,7 +305,7 @@ case 16:
                 var3 = var6.bind(var1)(var5, var4, var3);
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 11;
+                var3 = 15;
                 var3 = var5[var3];
                 var3 = var4.bind(var1)(var3);
                 var4 = var3.ComponentDispatch;
@@ -333,7 +333,7 @@ case 38:
                     var3 = var6.bind(var5)(var4, var3);
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 11;
+                    var3 = 15;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
                     var4 = var3.ComponentDispatch;
@@ -380,7 +380,7 @@ case 18:
                 var3 = var5.bind(var1)(var4, var3);
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 11;
+                var3 = 15;
                 var3 = var5[var3];
                 var3 = var4.bind(var1)(var3);
                 var4 = var3.ComponentDispatch;
@@ -427,7 +427,7 @@ case 18:
     var5['XBOX'] = var7;
     var7 = 'playstation';
     var5['PLAYSTATION'] = var7;
-    var7 = 17;
+    var7 = 21;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -520,43 +520,92 @@ case 47:
     var3['PlayQuestPlatform'] = var5;
     var3['getPlatformTypeForHintMessage'] = var4;
     var4 = function openAuthorizationConnectionModal(arg1, arg2) {
-        var1 = arg1;
-        var4 = arg2;
-        var5 = var1.platformType;
-        var9 = var1.quest;
-        var7 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 4;
-        var3 = var6[var1];
-        var1 = undefined;
-        var8 = var7.bind(var1)(var3);
-        var7 = var8.trackQuestContentClicked;
-        var3 = {};
-        var9 = var9.id;
-        var3['questId'] = var9;
-        var9 = var4.content;
-        var3['questContent'] = var9;
-        var9 = var4.sourceQuestContent;
-        var3['sourceQuestContent'] = var9;
-        var9 = var4.ctaContent;
-        var3['questContentCTA'] = var9;
-        var9 = var4.impressionId;
-        var3['impressionId'] = var9;
-        var3 = var7.bind(var8)(var3);
-        var3 = _closure1_slot1;
-        var2 = 5;
-        var2 = var6[var2];
-        var3 = var3.bind(var1)(var2);
-        var2 = {};
-        var2['platformType'] = var5;
-        var4 = var4.ctaContent;
-        var2['location'] = var4;
-        var2 = var3.bind(var1)(var2);
-        return var1;
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var1 = arg1;
+            var4 = arg2;
+            var5 = var1.platformType;
+            var8 = var1.quest;
+            var6 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var3 = 4;
+            var7 = var10[var3];
+            var1 = undefined;
+            var9 = var6.bind(var1)(var7);
+            var7 = var9.shouldMigrateToAdAnalyticsInterface;
+            var3 = var10[var3];
+            var3 = var6.bind(var1)(var3);
+            var3 = var3.AdAnalyticsInterfaceExperimentStep;
+            var6 = var3.STEP_2_CLICKED_INTERNAL;
+            var3 = 'open_authorization_connection_modal';
+            var3 = var7.bind(var9)(var6, var3);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            if(var3) { _fun0009_ip = 49; continue _fun0009 }
+case 50:
+            var3 = 8;
+            var3 = var11[var3];
+            var7 = var10.bind(var1)(var3);
+            var6 = var7.trackQuestContentClicked;
+            var3 = {};
+            var9 = var8.id;
+            var3['questId'] = var9;
+            var9 = var4.content;
+            var3['questContent'] = var9;
+            var9 = var4.sourceQuestContent;
+            var3['sourceQuestContent'] = var9;
+            var9 = var4.ctaContent;
+            var3['questContentCTA'] = var9;
+            var9 = var4.impressionId;
+            var3['impressionId'] = var9;
+            var3 = var6.bind(var7)(var3);
+            _fun0009_ip = 51; continue _fun0009;
+case 49:
+            var3 = 5;
+            var3 = var11[var3];
+            var7 = var10.bind(var1)(var3);
+            var6 = var7.captureAdUserAction;
+            var3 = {};
+            var9 = 6;
+            var9 = var11[var9];
+            var9 = var10.bind(var1)(var9);
+            var9 = var9.AdUserActionType;
+            var9 = var9.CLICK_INTERNAL;
+            var3['type'] = var9;
+            var9 = 7;
+            var9 = var11[var9];
+            var9 = var10.bind(var1)(var9);
+            var9 = var9.AdCreativeType;
+            var9 = var9.QUEST;
+            var3['adCreativeType'] = var9;
+            var8 = var8.id;
+            var3['adCreativeId'] = var8;
+            var8 = var4.ctaContent;
+            var3['questContentCTA'] = var8;
+            var8 = var4.content;
+            var3['surfaceId'] = var8;
+            var8 = var4.sourceQuestContent;
+            var3['sourceQuestContent'] = var8;
+            var8 = var4.impressionId;
+            var3['impressionId'] = var8;
+            var3 = var6.bind(var7)(var3);
+case 51:
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 9;
+            var2 = var6[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = {};
+            var2['platformType'] = var5;
+            var4 = var4.ctaContent;
+            var2['location'] = var4;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        }
     };
     var3['openAuthorizationConnectionModal'] = var4;
     var4 = function getExpiredCredentialsHintMessage(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var3 = _closure1_slot9;
             var4 = undefined;
@@ -564,31 +613,31 @@ case 0:
             var3 = var3.bind(var4)(var1);
             var1 = _closure1_slot6;
             var1 = var1.XBOX;
-            if(!(var3 !== var1)) { _fun0009_ip = 49; continue _fun0009 }
-case 50:
+            if(!(var3 !== var1)) { _fun0010_ip = 52; continue _fun0010 }
+case 53:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 6;
+            var1 = 10;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.t;
             var1 = var1.iDiwby;
-            _fun0009_ip = 51; continue _fun0009;
-case 49:
+            _fun0010_ip = 54; continue _fun0010;
+case 52:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 6;
+            var2 = 10;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
             var1 = var2.mytEv+;
-case 51:
+case 54:
             return var1;
         }
     };
     var3['getExpiredCredentialsHintMessage'] = var4;
     var4 = function openGameLinkDirectly(arg1, arg2) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var10 = arg1;
             var15 = arg2;
@@ -596,7 +645,7 @@ case 0:
             var _closure2_slot1 = var15;
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var13 = 8;
+            var13 = 12;
             var3 = var1[var13];
             var1 = undefined;
             var6 = var5.bind(var1)(var3);
@@ -608,8 +657,8 @@ case 0:
             var5 = null;
             var7 = var5 == var9;
             var6 = null;
-            if(var7) { _fun0010_ip = 52; continue _fun0010 }
-case 53:
+            if(var7) { _fun0011_ip = 55; continue _fun0011 }
+case 56:
             var8 = _closure1_slot10;
             var7 = {};
             var12 = _closure1_slot0;
@@ -625,14 +674,14 @@ case 53:
             var9 = var9.ios;
             var7['ios'] = var9;
             var6 = var8.bind(var1)(var7);
-case 52:
-            var11 = var3;
-            if(!(var5 != var6)) { _fun0010_ip = 54; continue _fun0010 }
 case 55:
+            var11 = var3;
+            if(!(var5 != var6)) { _fun0011_ip = 57; continue _fun0011 }
+case 58:
             var11 = var6;
-case 54:
+case 57:
             var3 = var11;
-case 56: // try_start_0
+case 59: // try_start_0
             var7 = global;
             var8 = var7.URL;
             var19 = var3;
@@ -645,27 +694,27 @@ case 56: // try_start_0
             var7 = var8.has;
             var3 = 'dclid';
             var3 = var7.bind(var8)(var3);
-case 57: // try_end0
+case 60: // try_end0
             var7 = var3;
-            _fun0010_ip = 58; continue _fun0010;
-case 59: // catch_target0
+            _fun0011_ip = 61; continue _fun0011;
+case 62: // catch_target0
             CatchBlockStart(arg_register=2);
             var7 = false;
-case 58:
+case 61:
             var14 = undefined;
             var3 = var11;
-            if(!var7) { _fun0010_ip = 60; continue _fun0010 }
-case 61:
+            if(!var7) { _fun0011_ip = 63; continue _fun0011 }
+case 64:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var7 = 12;
+            var7 = 16;
             var7 = var9[var7];
             var8 = var8.bind(var1)(var7);
             var7 = var8.v4;
             var8 = var7.bind(var8)();
             var9 = var11;
             var7 = var8;
-case 62: // try_start_1
+case 65: // try_start_1
             var11 = global;
             var16 = var11.URL;
             var19 = var9;
@@ -681,18 +730,18 @@ case 62: // try_start_1
             var7 = var16.bind(var17)(var7, var12);
             var7 = var11.toString;
             var7 = var7.bind(var11)();
-case 63: // try_end1
-            _fun0010_ip = 64; continue _fun0010;
-case 65: // catch_target1
+case 66: // try_end1
+            _fun0011_ip = 67; continue _fun0011;
+case 68: // catch_target1
             CatchBlockStart(arg_register=10);
             var7 = var9;
-case 64:
+case 67:
             var3 = var7;
             var14 = var8;
-case 60:
+case 63:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var7 = 4;
+            var7 = 8;
             var7 = var9[var7];
             var12 = var8.bind(var1)(var7);
             var11 = var12.trackQuestContentClicked;
@@ -711,7 +760,7 @@ case 60:
             var7['sourceQuestContent'] = var15;
             var7['clickId'] = var14;
             var7 = var11.bind(var12)(var7);
-            var7 = 11;
+            var7 = 15;
             var7 = var9[var7];
             var7 = var8.bind(var1)(var7);
             var12 = var7.ComponentDispatch;
@@ -719,7 +768,7 @@ case 60:
             var7 = _closure1_slot5;
             var7 = var7.QUEST_GAME_LINK_OPENED;
             var7 = var11.bind(var12)(var7);
-            var7 = 13;
+            var7 = 17;
             var7 = var9[var7];
             var7 = var8.bind(var1)(var7);
             var9 = var7.AppStoreBottomSheetOverlayFeatureGate;
@@ -729,16 +778,16 @@ case 60:
             var7['location'] = var11;
             var7 = var8.bind(var9)(var7);
             var7 = var7.enabled;
-            if(var7) { _fun0010_ip = 66; continue _fun0010 }
-case 67:
-            if(!(var5 != var6)) { _fun0010_ip = 66; continue _fun0010 }
-case 68:
+            if(var7) { _fun0011_ip = 69; continue _fun0011 }
+case 70:
+            if(!(var5 != var6)) { _fun0011_ip = 69; continue _fun0011 }
+case 71:
             var6 = var10.config;
             var9 = var6.ctaConfig;
             var7 = var5 == var9;
             var6 = null;
-            if(var7) { _fun0010_ip = 69; continue _fun0010 }
-case 70:
+            if(var7) { _fun0011_ip = 72; continue _fun0011 }
+case 73:
             var8 = _closure1_slot11;
             var7 = {};
             var12 = _closure1_slot0;
@@ -754,14 +803,14 @@ case 70:
             var9 = var9.ios;
             var7['ios'] = var9;
             var6 = var8.bind(var1)(var7);
-case 69:
-            if(!(var5 != var6)) { _fun0010_ip = 66; continue _fun0010 }
-case 71:
+case 72:
+            if(!(var5 != var6)) { _fun0011_ip = 69; continue _fun0011 }
+case 74:
             var5 = _closure1_slot12;
             var4 = function(arg1, arg2, arg3) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 4;
+                var1 = 8;
                 var2 = var2[var1];
                 var1 = undefined;
                 var7 = var3.bind(var1)(var2);
@@ -777,10 +826,10 @@ case 71:
             };
             var4 = var5.bind(var1)(var6, var4);
             return var1;
-case 66:
+case 69:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 14;
+            var2 = 18;
             var2 = var5[var2];
             var2 = var4.bind(var1)(var2);
             var2 = var2.bind(var1)(var3);
@@ -789,7 +838,7 @@ case 66:
     };
     var3['openGameLinkDirectly'] = var4;
     var4 = function openAdGameLinkDirectly(arg1, arg2) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var13 = arg2;
@@ -804,13 +853,13 @@ case 0:
             var1 = undefined;
             var6 = var5.bind(var1)(var7);
             var5 = null;
-            if(!(var5 != var6)) { _fun0011_ip = 49; continue _fun0011 }
-case 72:
+            if(!(var5 != var6)) { _fun0012_ip = 52; continue _fun0012 }
+case 75:
             var3 = var6;
-case 49:
+case 52:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var8 = 4;
+            var8 = 8;
             var8 = var10[var8];
             var12 = var9.bind(var1)(var8);
             var11 = var12.trackAdContentClicked;
@@ -828,7 +877,7 @@ case 49:
             var13 = var13.sourceQuestContent;
             var8['sourceQuestContent'] = var13;
             var8 = var11.bind(var12)(var8);
-            var8 = 11;
+            var8 = 15;
             var8 = var10[var8];
             var8 = var9.bind(var1)(var8);
             var12 = var8.ComponentDispatch;
@@ -836,7 +885,7 @@ case 49:
             var8 = _closure1_slot5;
             var8 = var8.QUEST_GAME_LINK_OPENED;
             var8 = var11.bind(var12)(var8);
-            var8 = 13;
+            var8 = 17;
             var8 = var10[var8];
             var8 = var9.bind(var1)(var8);
             var10 = var8.AppStoreBottomSheetOverlayFeatureGate;
@@ -846,19 +895,19 @@ case 49:
             var8['location'] = var11;
             var8 = var9.bind(var10)(var8);
             var8 = var8.enabled;
-            if(var8) { _fun0011_ip = 73; continue _fun0011 }
-case 74:
-            if(!(var5 != var6)) { _fun0011_ip = 73; continue _fun0011 }
-case 75:
+            if(var8) { _fun0012_ip = 76; continue _fun0012 }
+case 77:
+            if(!(var5 != var6)) { _fun0012_ip = 76; continue _fun0012 }
+case 78:
             var6 = _closure1_slot11;
             var6 = var6.bind(var1)(var7);
-            if(!(var5 != var6)) { _fun0011_ip = 73; continue _fun0011 }
-case 76:
+            if(!(var5 != var6)) { _fun0012_ip = 76; continue _fun0012 }
+case 79:
             var5 = _closure1_slot12;
             var4 = function(arg1, arg2, arg3) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 4;
+                var1 = 8;
                 var2 = var2[var1];
                 var1 = undefined;
                 var7 = var3.bind(var1)(var2);
@@ -879,10 +928,10 @@ case 76:
             };
             var4 = var5.bind(var1)(var6, var4);
             return var1;
-case 73:
+case 76:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 14;
+            var2 = 18;
             var2 = var5[var2];
             var2 = var4.bind(var1)(var2);
             var2 = var2.bind(var1)(var3);
@@ -891,54 +940,120 @@ case 73:
     };
     var3['openAdGameLinkDirectly'] = var4;
     var4 = function openConsoleConnectionSettings(arg1, arg2) {
-        var8 = arg2;
-        var1 = arg1;
-        var9 = var1.quest;
-        var3 = _closure1_slot0;
-        var5 = _closure1_slot2;
-        var1 = 4;
-        var2 = var5[var1];
-        var1 = undefined;
-        var7 = var3.bind(var1)(var2);
-        var6 = var7.trackQuestContentClicked;
-        var2 = {};
-        var9 = var9.id;
-        var2['questId'] = var9;
-        var9 = var8.content;
-        var2['questContent'] = var9;
-        var9 = var8.position;
-        var2['questContentPosition'] = var9;
-        var9 = var8.ctaContent;
-        var2['questContentCTA'] = var9;
-        var9 = var8.impressionId;
-        var2['impressionId'] = var9;
-        var8 = var8.sourceQuestContent;
-        var2['sourceQuestContent'] = var8;
-        var2 = var6.bind(var7)(var2);
-        var2 = 15;
-        var2 = var5[var2];
-        var2 = var3.bind(var1)(var2);
-        var3 = var2.openUserSettings;
-        var2 = {};
-        var4 = _closure1_slot7;
-        var4 = var4.CONNECTIONS;
-        var2['screen'] = var4;
-        var2 = var3.bind(var1)(var2);
-        return var1;
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var6 = arg2;
+            var1 = arg1;
+            var7 = var1.quest;
+            var3 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 4;
+            var5 = var9[var2];
+            var1 = undefined;
+            var8 = var3.bind(var1)(var5);
+            var5 = var8.shouldMigrateToAdAnalyticsInterface;
+            var2 = var9[var2];
+            var2 = var3.bind(var1)(var2);
+            var2 = var2.AdAnalyticsInterfaceExperimentStep;
+            var3 = var2.STEP_2_CLICKED_INTERNAL;
+            var2 = 'open_console_connection_settings';
+            var2 = var5.bind(var8)(var3, var2);
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            if(var2) { _fun0013_ip = 6; continue _fun0013 }
+case 42:
+            var2 = 8;
+            var2 = var10[var2];
+            var5 = var9.bind(var1)(var2);
+            var3 = var5.trackQuestContentClicked;
+            var2 = {};
+            var8 = var7.id;
+            var2['questId'] = var8;
+            var8 = var6.content;
+            var2['questContent'] = var8;
+            var8 = var6.position;
+            var2['questContentPosition'] = var8;
+            var8 = var6.ctaContent;
+            var2['questContentCTA'] = var8;
+            var8 = var6.impressionId;
+            var2['impressionId'] = var8;
+            var8 = var6.sourceQuestContent;
+            var2['sourceQuestContent'] = var8;
+            var2 = var3.bind(var5)(var2);
+            _fun0013_ip = 80; continue _fun0013;
+case 6:
+            var2 = 5;
+            var2 = var10[var2];
+            var5 = var9.bind(var1)(var2);
+            var3 = var5.captureAdUserAction;
+            var2 = {};
+            var8 = 6;
+            var8 = var10[var8];
+            var8 = var9.bind(var1)(var8);
+            var8 = var8.AdUserActionType;
+            var8 = var8.CLICK_INTERNAL;
+            var2['type'] = var8;
+            var8 = 7;
+            var8 = var10[var8];
+            var8 = var9.bind(var1)(var8);
+            var8 = var8.AdCreativeType;
+            var8 = var8.QUEST;
+            var2['adCreativeType'] = var8;
+            var7 = var7.id;
+            var2['adCreativeId'] = var7;
+            var7 = var6.ctaContent;
+            var2['questContentCTA'] = var7;
+            var7 = var6.content;
+            var2['surfaceId'] = var7;
+            var7 = var6.sourceQuestContent;
+            var2['sourceQuestContent'] = var7;
+            var7 = var6.impressionId;
+            var2['impressionId'] = var7;
+            var6 = var6.position;
+            var2['questContentPosition'] = var6;
+            var2 = var3.bind(var5)(var2);
+case 80:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 19;
+            var2 = var5[var2];
+            var2 = var3.bind(var1)(var2);
+            var3 = var2.openUserSettings;
+            var2 = {};
+            var4 = _closure1_slot7;
+            var4 = var4.CONNECTIONS;
+            var2['screen'] = var4;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        }
     };
     var3['openConsoleConnectionSettings'] = var4;
     var4 = function openAddConsoleConnectionModal(arg1, arg2) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var7 = arg2;
             var1 = arg1;
             var4 = var1.quest;
             var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var2 = 4;
-            var2 = var3[var2];
+            var6 = var9[var2];
             var3 = undefined;
-            var6 = var5.bind(var3)(var2);
+            var8 = var5.bind(var3)(var6);
+            var6 = var8.shouldMigrateToAdAnalyticsInterface;
+            var2 = var9[var2];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.AdAnalyticsInterfaceExperimentStep;
+            var5 = var2.STEP_2_CLICKED_INTERNAL;
+            var2 = 'open_add_console_connection_modal';
+            var2 = var6.bind(var8)(var5, var2);
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            if(var2) { _fun0014_ip = 81; continue _fun0014 }
+case 42:
+            var2 = 8;
+            var2 = var10[var2];
+            var6 = var9.bind(var3)(var2);
             var5 = var6.trackQuestContentClicked;
             var2 = {};
             var8 = var4.id;
@@ -953,18 +1068,53 @@ case 0:
             var2['questContentCTA'] = var8;
             var8 = var7.impressionId;
             var2['impressionId'] = var8;
-            var7 = var7.sourceQuestContent;
-            var2['sourceQuestContent'] = var7;
+            var8 = var7.sourceQuestContent;
+            var2['sourceQuestContent'] = var8;
             var2 = var5.bind(var6)(var2);
+            _fun0014_ip = 82; continue _fun0014;
+case 81:
+            var2 = 5;
+            var2 = var10[var2];
+            var6 = var9.bind(var3)(var2);
+            var5 = var6.captureAdUserAction;
+            var2 = {};
+            var8 = 6;
+            var8 = var10[var8];
+            var8 = var9.bind(var3)(var8);
+            var8 = var8.AdUserActionType;
+            var8 = var8.CLICK_INTERNAL;
+            var2['type'] = var8;
+            var8 = 7;
+            var8 = var10[var8];
+            var8 = var9.bind(var3)(var8);
+            var8 = var8.AdCreativeType;
+            var8 = var8.QUEST;
+            var2['adCreativeType'] = var8;
+            var8 = var4.id;
+            var2['adCreativeId'] = var8;
+            var8 = var7.ctaContent;
+            var2['questContentCTA'] = var8;
+            var8 = var7.content;
+            var2['surfaceId'] = var8;
+            var8 = var7.sourceQuestContent;
+            var2['sourceQuestContent'] = var8;
+            var8 = var7.impressionId;
+            var2['impressionId'] = var8;
+            var8 = var7.position;
+            var2['questContentPosition'] = var8;
+            var7 = var7.rowIndex;
+            var2['questContentRowIndex'] = var7;
+            var2 = var5.bind(var6)(var2);
+case 82:
             var2 = _closure1_slot8;
             var6 = var2.bind(var3)(var4);
             var4 = var6.length;
             var2 = 1;
-            if(!(var2 !== var4)) { _fun0012_ip = 77; continue _fun0012 }
-case 78:
+            if(!(var2 !== var4)) { _fun0014_ip = 83; continue _fun0014 }
+case 84:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 16;
+            var2 = 20;
             var2 = var5[var2];
             var5 = var4.bind(var3)(var2);
             var4 = var5.dispatch;
@@ -974,7 +1124,7 @@ case 78:
             var7 = function onComplete(arg1) {
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 5;
+                var1 = 9;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -989,19 +1139,19 @@ case 78:
             var7 = var7.Set;
             var8 = var7.prototype;
             var8 = Object.create(var8, {constructor: {value: var7}});
-            var10 = var8;
-            var9 = var6;
-            var7 = new var10[var7](var9, var8);
+            var13 = var8;
+            var12 = var6;
+            var7 = new var13[var7](var12, var11);
             var7 = var7 instanceof Object ? var7 : var8;
             var2['includedPlatformTypes'] = var7;
             var7 = false;
             var2['includeApplicationConnections'] = var7;
             var2 = var4.bind(var5)(var2);
             return var3;
-case 77:
+case 83:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 5;
+            var1 = 9;
             var1 = var4[var1];
             var2 = var2.bind(var3)(var1);
             var1 = {};
@@ -1015,41 +1165,94 @@ case 77:
     };
     var3['openAddConsoleConnectionModal'] = var4;
     var2 = function openSingleConsoleConnectionModal(arg1, arg2, arg3) {
-        var7 = arg2;
-        var1 = arg1;
-        var8 = var1.quest;
-        var5 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var2 = 4;
-        var2 = var4[var2];
-        var3 = undefined;
-        var6 = var5.bind(var3)(var2);
-        var5 = var6.trackQuestContentClicked;
-        var2 = {};
-        var8 = var8.id;
-        var2['questId'] = var8;
-        var8 = var7.content;
-        var2['questContent'] = var8;
-        var8 = var7.position;
-        var2['questContentPosition'] = var8;
-        var8 = var7.rowIndex;
-        var2['questContentRowIndex'] = var8;
-        var8 = var7.ctaContent;
-        var2['questContentCTA'] = var8;
-        var8 = var7.impressionId;
-        var2['impressionId'] = var8;
-        var7 = var7.sourceQuestContent;
-        var2['sourceQuestContent'] = var7;
-        var2 = var5.bind(var6)(var2);
-        var2 = _closure1_slot1;
-        var1 = 5;
-        var1 = var4[var1];
-        var2 = var2.bind(var3)(var1);
-        var1 = {};
-        var4 = arg3;
-        var1['platformType'] = var4;
-        var1 = var2.bind(var3)(var1);
-        return var1;
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+            var6 = arg2;
+            var1 = arg1;
+            var7 = var1.quest;
+            var4 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 4;
+            var5 = var9[var2];
+            var3 = undefined;
+            var8 = var4.bind(var3)(var5);
+            var5 = var8.shouldMigrateToAdAnalyticsInterface;
+            var2 = var9[var2];
+            var2 = var4.bind(var3)(var2);
+            var2 = var2.AdAnalyticsInterfaceExperimentStep;
+            var4 = var2.STEP_2_CLICKED_INTERNAL;
+            var2 = 'open_single_console_connection_modal';
+            var2 = var5.bind(var8)(var4, var2);
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            if(var2) { _fun0015_ip = 81; continue _fun0015 }
+case 42:
+            var2 = 8;
+            var2 = var10[var2];
+            var5 = var9.bind(var3)(var2);
+            var4 = var5.trackQuestContentClicked;
+            var2 = {};
+            var8 = var7.id;
+            var2['questId'] = var8;
+            var8 = var6.content;
+            var2['questContent'] = var8;
+            var8 = var6.position;
+            var2['questContentPosition'] = var8;
+            var8 = var6.rowIndex;
+            var2['questContentRowIndex'] = var8;
+            var8 = var6.ctaContent;
+            var2['questContentCTA'] = var8;
+            var8 = var6.impressionId;
+            var2['impressionId'] = var8;
+            var8 = var6.sourceQuestContent;
+            var2['sourceQuestContent'] = var8;
+            var2 = var4.bind(var5)(var2);
+            _fun0015_ip = 82; continue _fun0015;
+case 81:
+            var2 = 5;
+            var2 = var10[var2];
+            var5 = var9.bind(var3)(var2);
+            var4 = var5.captureAdUserAction;
+            var2 = {};
+            var8 = 6;
+            var8 = var10[var8];
+            var8 = var9.bind(var3)(var8);
+            var8 = var8.AdUserActionType;
+            var8 = var8.CLICK_INTERNAL;
+            var2['type'] = var8;
+            var8 = 7;
+            var8 = var10[var8];
+            var8 = var9.bind(var3)(var8);
+            var8 = var8.AdCreativeType;
+            var8 = var8.QUEST;
+            var2['adCreativeType'] = var8;
+            var7 = var7.id;
+            var2['adCreativeId'] = var7;
+            var7 = var6.ctaContent;
+            var2['questContentCTA'] = var7;
+            var7 = var6.content;
+            var2['surfaceId'] = var7;
+            var7 = var6.sourceQuestContent;
+            var2['sourceQuestContent'] = var7;
+            var7 = var6.impressionId;
+            var2['impressionId'] = var7;
+            var7 = var6.position;
+            var2['questContentPosition'] = var7;
+            var6 = var6.rowIndex;
+            var2['questContentRowIndex'] = var6;
+            var2 = var4.bind(var5)(var2);
+case 82:
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 9;
+            var1 = var4[var1];
+            var2 = var2.bind(var3)(var1);
+            var1 = {};
+            var4 = arg3;
+            var1['platformType'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        }
     };
     var3['openSingleConsoleConnectionModal'] = var2;
     return var1;

@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot16 = var2;
+    var _closure1_slot15 = var2;
     var1 = function Tile(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -330,7 +330,7 @@ case 17:
                 }
             };
             var23 = var5.bind(var13)(var2, var3);
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var2 = var18.id;
             var19 = null;
             if(!(var19 == var2)) { _fun0001_ip = 19; continue _fun0001 }
@@ -737,6 +737,103 @@ case 40:
             return var1;
         }
     };
+    var _closure1_slot16 = var1;
+    var1 = function CustomScrollView(arg1) {
+        var3 = _closure1_slot13;
+        var4 = undefined;
+        var5 = var3.bind(var4)();
+        var6 = _closure1_slot3;
+        var3 = var6.useRef;
+        var7 = 0;
+        var3 = var3.bind(var6)(var7);
+        var _closure2_slot0 = var3;
+        var6 = _closure1_slot3;
+        var3 = var6.useRef;
+        var3 = var3.bind(var6)(var7);
+        var _closure2_slot1 = var3;
+        var7 = _closure1_slot3;
+        var6 = var7.useRef;
+        var3 = null;
+        var9 = var6.bind(var7)(var3);
+        var _closure2_slot2 = var9;
+        var8 = _closure1_slot3;
+        var7 = var8.useCallback;
+        var6 = function(arg1) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                var3 = arg1;
+                var1 = _closure2_slot0;
+                var4 = var1.current;
+                var1 = _closure2_slot1;
+                var6 = var1.current;
+                var7 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var1 = 25;
+                var5 = var5[var1];
+                var1 = undefined;
+                var7 = var7.bind(var1)(var5);
+                var5 = var7.getWindowDimensions;
+                var5 = var5.bind(var7)();
+                var5 = var5.width;
+                var5 = var6 + var5;
+                var5 = var5 > var3;
+                var4 = var3 > var4;
+                if(var4) { _fun0008_ip = 42; continue _fun0008 }
+case 43:
+                var4 = var5;
+case 42:
+                if(!var4) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
+                var4 = _closure2_slot2;
+                var5 = var4.current;
+                var4 = null;
+                if(!(var4 != var5)) { _fun0008_ip = 44; continue _fun0008 }
+case 46:
+                var4 = var5.scrollToEnd;
+                var4 = var4.bind(var5)();
+case 44:
+                var2 = _closure2_slot0;
+                var2['current'] = var3;
+                return var1;
+            }
+        };
+        var3 = new Array(0);
+        var8 = var7.bind(var8)(var6, var3);
+        var7 = _closure1_slot3;
+        var6 = var7.useCallback;
+        var3 = function(arg1) {
+            var2 = _closure2_slot1;
+            var1 = arg1;
+            var1 = var1.nativeEvent;
+            var1 = var1.contentOffset;
+            var1 = var1.x;
+            var2['current'] = var1;
+            var1 = undefined;
+            return var1;
+        };
+        var2 = new Array(0);
+        var7 = var6.bind(var7)(var3, var2);
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot5;
+        var1 = {};
+        var10 = arg1;
+        var11 = var1;
+        var6 = copyDataProperties(var11, var10);
+        var6 = 'ref';
+        var1[5] = var9;
+        var6 = 'onContentSizeChange';
+        var1[5] = var8;
+        var6 = 'onScroll';
+        var1[5] = var7;
+        var7 = 16;
+        var6 = 'scrollEventThrottle';
+        var1[5] = var7;
+        var6 = var5.scrollview;
+        var5 = 'contentContainerStyle';
+        var1[4] = var6;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
     var _closure1_slot17 = var1;
     var1 = global;
     var9 = var1.Object;
@@ -924,103 +1021,6 @@ case 40:
     var9 = "function ImageCarouselTsx1(){const{withTiming,animatedStylePropValue,STANDARD_EASING,withSpring}=this.__closure;return{opacity:withTiming(animatedStylePropValue.get(),{duration:300,easing:STANDARD_EASING},'animate-always'),transform:[{scale:withSpring(animatedStylePropValue.get(),{stiffness:80,damping:6,mass:0.3},'animate-always')}]};}";
     var5['code'] = var9;
     var _closure1_slot14 = var5;
-    var5 = function CustomScrollView(arg1) {
-        var3 = _closure1_slot13;
-        var4 = undefined;
-        var5 = var3.bind(var4)();
-        var6 = _closure1_slot3;
-        var3 = var6.useRef;
-        var7 = 0;
-        var3 = var3.bind(var6)(var7);
-        var _closure2_slot0 = var3;
-        var6 = _closure1_slot3;
-        var3 = var6.useRef;
-        var3 = var3.bind(var6)(var7);
-        var _closure2_slot1 = var3;
-        var7 = _closure1_slot3;
-        var6 = var7.useRef;
-        var3 = null;
-        var9 = var6.bind(var7)(var3);
-        var _closure2_slot2 = var9;
-        var8 = _closure1_slot3;
-        var7 = var8.useCallback;
-        var6 = function(arg1) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-                var3 = arg1;
-                var1 = _closure2_slot0;
-                var4 = var1.current;
-                var1 = _closure2_slot1;
-                var6 = var1.current;
-                var7 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var1 = 25;
-                var5 = var5[var1];
-                var1 = undefined;
-                var7 = var7.bind(var1)(var5);
-                var5 = var7.getWindowDimensions;
-                var5 = var5.bind(var7)();
-                var5 = var5.width;
-                var5 = var6 + var5;
-                var5 = var5 > var3;
-                var4 = var3 > var4;
-                if(var4) { _fun0008_ip = 42; continue _fun0008 }
-case 43:
-                var4 = var5;
-case 42:
-                if(!var4) { _fun0008_ip = 44; continue _fun0008 }
-case 45:
-                var4 = _closure2_slot2;
-                var5 = var4.current;
-                var4 = null;
-                if(!(var4 != var5)) { _fun0008_ip = 44; continue _fun0008 }
-case 46:
-                var4 = var5.scrollToEnd;
-                var4 = var4.bind(var5)();
-case 44:
-                var2 = _closure2_slot0;
-                var2['current'] = var3;
-                return var1;
-            }
-        };
-        var3 = new Array(0);
-        var8 = var7.bind(var8)(var6, var3);
-        var7 = _closure1_slot3;
-        var6 = var7.useCallback;
-        var3 = function(arg1) {
-            var2 = _closure2_slot1;
-            var1 = arg1;
-            var1 = var1.nativeEvent;
-            var1 = var1.contentOffset;
-            var1 = var1.x;
-            var2['current'] = var1;
-            var1 = undefined;
-            return var1;
-        };
-        var2 = new Array(0);
-        var7 = var6.bind(var7)(var3, var2);
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot5;
-        var1 = {};
-        var10 = arg1;
-        var11 = var1;
-        var6 = copyDataProperties(var11, var10);
-        var6 = 'ref';
-        var1[5] = var9;
-        var6 = 'onContentSizeChange';
-        var1[5] = var8;
-        var6 = 'onScroll';
-        var1[5] = var7;
-        var7 = 16;
-        var6 = 'scrollEventThrottle';
-        var1[5] = var7;
-        var6 = var5.scrollview;
-        var5 = 'contentContainerStyle';
-        var1[4] = var6;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot15 = var5;
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -1149,7 +1149,7 @@ case 4:
             var5[1] = var6;
             var1['style'] = var5;
             var7 = _closure1_slot12;
-            var6 = _closure1_slot15;
+            var6 = _closure1_slot17;
             var5 = {'horizontal': true, 'keyboardShouldPersistTaps': 'always', 'showsHorizontalScrollIndicator': false, 'accessibilityRole': 'list'};
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -1178,7 +1178,7 @@ case 59:
             var10 = function(arg1) {
                 var1 = arg1;
                 var5 = _closure1_slot11;
-                var4 = _closure1_slot17;
+                var4 = _closure1_slot16;
                 var3 = {};
                 var6 = _closure2_slot0;
                 var3['channelId'] = var6;

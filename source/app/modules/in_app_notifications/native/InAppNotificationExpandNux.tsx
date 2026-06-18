@@ -50,7 +50,7 @@ case 2:
     var3['MAX_TIMES_SHOWN'] = var5;
     var5 = 86400000;
     var3['ONE_DAY_MS'] = var5;
-    var5 = 2000;
+    var5 = 1000;
     var3['NUX_REVEAL_DELAY_MS'] = var5;
     var5 = 300;
     var3['NUX_REVEAL_DURATION_MS'] = var5;

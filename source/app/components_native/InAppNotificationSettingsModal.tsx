@@ -39,11 +39,63 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot20 = var2;
+            _closure1_slot19 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
+    };
+    var _closure1_slot19 = var1;
+    var1 = function ConnectedInAppNotificationSettingsScreen(arg1) {
+        var1 = arg1;
+        var6 = var1.channel;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 20;
+        var3 = var4[var3];
+        var4 = undefined;
+        var7 = var5.bind(var4)(var3);
+        var5 = var7.useStateFromStores;
+        var8 = _closure1_slot12;
+        var3 = new Array(1);
+        var3[0] = var8;
+        var2 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                var3 = _closure2_slot0;
+                var1 = null;
+                var3 = var1 != var3;
+                var5 = undefined;
+                var1 = undefined;
+                if(!var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                var6 = _closure1_slot9;
+                var4 = _closure2_slot0;
+                var4 = var4.type;
+                var4 = var6.bind(var5)(var4);
+                var1 = undefined;
+                if(!var4) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
+                var5 = _closure1_slot12;
+                var4 = var5.isChannelMuted;
+                var2 = _closure2_slot0;
+                var3 = var2.getGuildId;
+                var3 = var3.bind(var2)();
+                var2 = var2.id;
+                var1 = var4.bind(var5)(var3, var2);
+case 6:
+                return var1;
+            }
+        };
+        var5 = var5.bind(var7)(var3, var2);
+        var3 = _closure1_slot16;
+        var2 = _closure1_slot18;
+        var1 = {};
+        var1['channel'] = var6;
+        var1['isMuted'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var _closure1_slot20 = var1;
     var1 = function getScreens(arg1, arg2) {
@@ -55,7 +107,7 @@ case 4:
         var1 = {};
         var2 = {};
         var5 = function headerTitle() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var11 = _closure2_slot0;
                 var4 = _closure1_slot16;
@@ -80,8 +132,8 @@ case 0:
                 var1['title'] = var5;
                 var5 = null;
                 var7 = var5 != var11;
-                if(!var7) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                if(!var7) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var7 = 16;
@@ -94,7 +146,7 @@ case 7:
                 var16 = var10;
                 var15 = var11;
                 var5 = var16[var9](var15, var14, var13, var12, var11);
-case 6:
+case 9:
                 var1['subtitle'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
@@ -113,7 +165,7 @@ case 6:
         var2['headerLeft'] = var4;
         var3 = function render() {
             var4 = _closure1_slot16;
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot20;
             var2 = {};
             var1 = _closure2_slot0;
             var2['channel'] = var1;
@@ -198,7 +250,7 @@ case 6:
     var8 = var7.PureComponent;
     var4 = function(arg1) {
         var4 = function InAppNotificationSettingsScreen(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var5 = this;
                 var13 = 0;
@@ -215,14 +267,14 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot20;
+                var1 = _closure1_slot19;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                if(var1) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0003_ip = 10; continue _fun0003;
-case 8:
+                _fun0004_ip = 13; continue _fun0004;
+case 11:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -230,19 +282,19 @@ case 8:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 10:
+case 13:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var3 = function() {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var1 = _closure3_slot0;
                         var1 = var1.props;
                         var2 = var1.channel;
                         var1 = var1.isMuted;
                         var3 = null;
-                        if(!(var3 != var2)) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                        if(!(var3 != var2)) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                         var4 = _closure1_slot1;
                         var10 = _closure1_slot2;
                         var3 = 13;
@@ -268,7 +320,7 @@ case 12:
                         var14 = var4;
                         var12 = var2;
                         var1 = var15[var5](var14, var13, var12, var11, var10);
-case 11:
+case 14:
                         var1 = undefined;
                         return var1;
                     }
@@ -303,15 +355,15 @@ case 11:
         var1 = 'renderGroupDMNotificationSettings';
         var5['key'] = var1;
         var1 = function value() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var9 = this;
                 var1 = var9.props;
                 var8 = var1.channel;
                 var10 = var1.isMuted;
                 var1 = null;
-                if(!(var1 != var8)) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
+                if(!(var1 != var8)) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
                 var12 = _closure1_slot0;
                 var16 = _closure1_slot2;
                 var2 = 16;
@@ -353,7 +405,7 @@ case 14:
                 var2['children'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
                 return var2;
-case 13:
+case 16:
                 return var1;
             }
         };
@@ -364,15 +416,15 @@ case 13:
         var7 = 'renderTextChannelNotificationSettings';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var1 = this;
                 var1 = var1.props;
                 var6 = var1.channel;
                 var1 = null;
                 var2 = var1 == var6;
-                if(var2) { _fun0006_ip = 15; continue _fun0006 }
-case 16:
+                if(var2) { _fun0007_ip = 18; continue _fun0007 }
+case 19:
                 var5 = _closure1_slot16;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
@@ -384,7 +436,7 @@ case 16:
                 var6 = var6.id;
                 var2['channelId'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
-case 15:
+case 18:
                 return var1;
             }
         };
@@ -394,37 +446,37 @@ case 15:
         var7 = 'renderChannelNotificationSettings';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var3 = this;
                 var1 = var3.props;
                 var2 = var1.channel;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0007_ip = 17; continue _fun0007 }
-case 18:
+                if(!(var1 != var2)) { _fun0008_ip = 20; continue _fun0008 }
+case 21:
                 var4 = var2.type;
                 var5 = _closure1_slot14;
                 var5 = var5.GROUP_DM;
-                if(!(var5 !== var4)) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
+                if(!(var5 !== var4)) { _fun0008_ip = 22; continue _fun0008 }
+case 23:
                 var5 = _closure1_slot14;
                 var5 = var5.GUILD_TEXT;
-                if(!(var5 !== var4)) { _fun0007_ip = 21; continue _fun0007 }
-case 22:
+                if(!(var5 !== var4)) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
                 var2 = _closure1_slot14;
                 var2 = var2.GUILD_ANNOUNCEMENT;
-                if(!(var2 !== var4)) { _fun0007_ip = 21; continue _fun0007 }
-case 23:
+                if(!(var2 !== var4)) { _fun0008_ip = 24; continue _fun0008 }
+case 26:
                 return var1;
-case 21:
+case 24:
                 var2 = var3.renderTextChannelNotificationSettings;
                 var2 = var2.bind(var3)();
                 return var2;
-case 19:
+case 22:
                 var2 = var3.renderGroupDMNotificationSettings;
                 var2 = var2.bind(var3)();
                 return var2;
-case 17:
+case 20:
                 return var1;
             }
         };
@@ -521,58 +573,6 @@ case 17:
     };
     var4 = var4.bind(var1)(var8);
     var _closure1_slot18 = var4;
-    var4 = function ConnectedInAppNotificationSettingsScreen(arg1) {
-        var1 = arg1;
-        var6 = var1.channel;
-        var _closure2_slot0 = var6;
-        var5 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var3 = 20;
-        var3 = var4[var3];
-        var4 = undefined;
-        var7 = var5.bind(var4)(var3);
-        var5 = var7.useStateFromStores;
-        var8 = _closure1_slot12;
-        var3 = new Array(1);
-        var3[0] = var8;
-        var2 = function() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-                var3 = _closure2_slot0;
-                var1 = null;
-                var3 = var1 != var3;
-                var5 = undefined;
-                var1 = undefined;
-                if(!var3) { _fun0008_ip = 24; continue _fun0008 }
-case 25:
-                var6 = _closure1_slot9;
-                var4 = _closure2_slot0;
-                var4 = var4.type;
-                var4 = var6.bind(var5)(var4);
-                var1 = undefined;
-                if(!var4) { _fun0008_ip = 24; continue _fun0008 }
-case 26:
-                var5 = _closure1_slot12;
-                var4 = var5.isChannelMuted;
-                var2 = _closure2_slot0;
-                var3 = var2.getGuildId;
-                var3 = var3.bind(var2)();
-                var2 = var2.id;
-                var1 = var4.bind(var5)(var3, var2);
-case 24:
-                return var1;
-            }
-        };
-        var5 = var5.bind(var7)(var3, var2);
-        var3 = _closure1_slot16;
-        var2 = _closure1_slot18;
-        var1 = {};
-        var1['channel'] = var6;
-        var1['isMuted'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot19 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         var1 = arg1;

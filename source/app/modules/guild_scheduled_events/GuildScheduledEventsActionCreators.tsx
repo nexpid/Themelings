@@ -960,20 +960,22 @@ case 64:
                         var8 = _closure2_slot1;
                         var8 = var11.bind(var12)(var10, var9, var8);
                         var2['url'] = var8;
-                        var8 = {'limit': null, 'with_member': true, 'upgrade_response_type': true};
+                        var8 = {};
                         var9 = _closure2_slot3;
                         var8['limit'] = var9;
+                        var9 = true;
+                        var8['with_member'] = var9;
                         var2['query'] = var8;
                         var8 = false;
                         var2['rejectWithError'] = var8;
                         var2 = var4.bind(var7)(var2);
-                        SaveGenerator(address=151);
-case 44:
+                        SaveGenerator(address=146);
+case 65:
                         return var2;
-case 18:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0010_ip = 65; continue _fun0010 }
 case 66:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(var4) { _fun0010_ip = 42; continue _fun0010 }
+case 67:
                         var4 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var3 = 10;
@@ -995,7 +997,7 @@ case 66:
                         var3 = var2.body;
                         var3 = var3.users;
                         return var3;
-case 65:
+case 42:
                         return var2;
 case 62:
                         var2 = new Array(0);
@@ -1109,8 +1111,8 @@ case 0:
             var7 = arg4;
             var3 = this;
             var1 = null;
-            if(!(var1 == var7)) { _fun0011_ip = 67; continue _fun0011 }
-case 68:
+            if(!(var1 == var7)) { _fun0011_ip = 68; continue _fun0011 }
+case 69:
             var8 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 12;
@@ -1135,7 +1137,7 @@ case 68:
             var1['is_canceled'] = var8;
             var1 = var2.bind(var3)(var1, var6, var5);
             return var1;
-case 67:
+case 68:
             var2 = var3.updateGuildEventException;
             var1 = {};
             var8 = var7.scheduled_start_time;

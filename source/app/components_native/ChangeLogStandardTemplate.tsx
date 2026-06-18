@@ -12,9 +12,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var2.className;
         var _closure2_slot0 = var3;
         var10 = var2.children;
-        var2 = _closure1_slot13;
-        var4 = undefined;
-        var9 = var2.bind(var4)();
         var11 = function getStyles(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -69,6 +66,9 @@ case 9:
                 return var1;
             }
         };
+        var1 = _closure1_slot13;
+        var4 = undefined;
+        var9 = var1.bind(var4)();
         var3 = _closure1_slot11;
         var2 = _closure1_slot4;
         var1 = {};

@@ -753,34 +753,55 @@ case 43:
     var7 = 'function ChannelCallNavigatorTsx4(isMoving,previous){const{runOnJS,setShouldRenderChat}=this.__closure;if(!isMoving||isMoving===previous)return;runOnJS(setShouldRenderChat)(true);}';
     var4['code'] = var7;
     var _closure1_slot18 = var4;
-    var4 = 28;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/video_calls/native/components/ChannelCallNavigator.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function ChannelCallNavigator(arg1) {
-        var1 = arg1;
-        var8 = var1.channel;
-        var1 = _closure1_slot9;
-        var5 = var1.MAIN_CALL_SCREEN;
-        var4 = _closure1_slot12;
-        var2 = _closure1_slot0;
-        var3 = _closure1_slot2;
-        var1 = 27;
-        var1 = var3[var1];
-        var3 = undefined;
-        var1 = var2.bind(var3)(var1);
-        var2 = var1.Navigator;
-        var1 = {};
-        var7 = _closure1_slot19;
-        var6 = {};
-        var6['channel'] = var8;
-        var6 = var7.bind(var3)(var6);
-        var1['screens'] = var6;
-        var1['initialRouteName'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var1 = arg1;
+            var11 = var1.channel;
+            var1 = _closure1_slot9;
+            var8 = var1.MAIN_CALL_SCREEN;
+            var4 = _closure1_slot12;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 27;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.Provider;
+            var1 = {};
+            var6 = var11.guild_id;
+            var5 = null;
+            var7 = var5 != var6;
+            if(!var7) { _fun0009_ip = 45; continue _fun0009 }
+case 46:
+            var5 = var6;
+case 45:
+            var1['value'] = var5;
+            var7 = _closure1_slot12;
+            var6 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var5 = 28;
+            var5 = var10[var5];
+            var5 = var6.bind(var3)(var5);
+            var6 = var5.Navigator;
+            var5 = {};
+            var10 = _closure1_slot19;
+            var9 = {};
+            var9['channel'] = var11;
+            var9 = var10.bind(var3)(var9);
+            var5['screens'] = var9;
+            var5['initialRouteName'] = var8;
+            var5 = var7.bind(var3)(var6, var5);
+            var1['children'] = var5;
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        }
     };
     var3['default'] = var2;
     return var1;

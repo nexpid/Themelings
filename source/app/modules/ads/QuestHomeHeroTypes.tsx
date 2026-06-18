@@ -75,6 +75,8 @@ case 3:
             var8['linearGradient'] = var10;
             var10 = var9.radial_gradient;
             var8['radialGradient'] = var10;
+            var10 = var9.gradient_preset;
+            var8['gradientPreset'] = var10;
             var11 = _closure1_slot0;
             var10 = _closure1_slot1;
             var12 = var10[var7];
