@@ -6,6 +6,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = dependencyMap;
     var _closure1_slot0 = var17;
     var _closure1_slot1 = var18;
+    var1 = function conceal(arg1) {
+        var2 = arg1;
+        var1 = 0;
+        var4 = var2[var1];
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var2 = '';
+        var1 = '…';
+        var1 = var3.bind(var2)(var4, var1);
+        return var1;
+    };
+    var _closure1_slot9 = var1;
     var1 = function present(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -99,7 +112,7 @@ case 19:
             var1 = var3;
             if(!var5) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var1 = var2.bind(var4)(var3);
 case 20:
             return var1;
@@ -155,7 +168,7 @@ case 27:
             var1 = var3;
             if(!var5) { _fun0004_ip = 29; continue _fun0004 }
 case 30:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var1 = var2.bind(var4)(var3);
 case 29:
             return var1;
@@ -480,7 +493,7 @@ case 24:
             var7 = var2.username;
             _fun0009_ip = 78; continue _fun0009;
 case 77:
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot9;
             var4 = var2.username;
             var7 = var5.bind(var6)(var4);
 case 78:
@@ -538,7 +551,7 @@ case 70:
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var5 = {};
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot8;
             var8 = var5;
             var2 = copyDataProperties(var8, var7);
             var7 = arg2;
@@ -563,7 +576,7 @@ case 84:
     var5 = function useUserTag(arg1, arg2) {
         var5 = _closure1_slot14;
         var4 = {};
-        var9 = _closure1_slot9;
+        var9 = _closure1_slot8;
         var10 = var4;
         var2 = copyDataProperties(var10, var9);
         var9 = arg2;
@@ -681,21 +694,8 @@ case 38:
     var _closure1_slot6 = var15;
     var15 = '???';
     var _closure1_slot7 = var15;
-    var15 = function conceal(arg1) {
-        var2 = arg1;
-        var1 = 0;
-        var4 = var2[var1];
-        var1 = global;
-        var1 = var1.HermesInternal;
-        var3 = var1.concat;
-        var2 = '';
-        var1 = '…';
-        var1 = var3.bind(var2)(var4, var1);
-        return var1;
-    };
-    var _closure1_slot8 = var15;
     var15 = {'mode': 'full', 'decoration': 'never', 'identifiable': 'auto'};
-    var _closure1_slot9 = var15;
+    var _closure1_slot8 = var15;
     var15 = {};
     var15['getName'] = var13;
     var15['useName'] = var12;

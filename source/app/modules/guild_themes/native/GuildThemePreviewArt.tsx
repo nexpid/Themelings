@@ -112,6 +112,7 @@ case 0:
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var5 = arg1;
+                        var8 = arg2;
                         var1 = null;
                         if(!(var1 != var5)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
@@ -123,38 +124,37 @@ case 5:
                         var7 = var2[var3];
                         if(!(var1 == var7)) { _fun0002_ip = 6; continue _fun0002 }
 case 4:
-                        var11 = _closure1_slot0;
-                        var8 = _closure1_slot2;
-                        var10 = 5;
-                        var9 = var8[var10];
-                        var8 = undefined;
-                        var11 = var11.bind(var8)(var9);
-                        var9 = var11.getGuildThemePreset;
+                        var12 = _closure1_slot0;
+                        var9 = _closure1_slot2;
+                        var11 = 5;
+                        var9 = var9[var11];
+                        var10 = undefined;
+                        var12 = var12.bind(var10)(var9);
+                        var9 = var12.getGuildThemePreset;
                         var5 = var5.presetId;
-                        var9 = var9.bind(var11)(var5);
+                        var9 = var9.bind(var12)(var5);
                         if(!(var1 == var9)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
                         return var1;
 case 7:
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var2 = var2[var10];
-                        var8 = var5.bind(var8)(var2);
-                        var5 = var8.getGuildThemePresetAppearance;
-                        var2 = arg2;
-                        var5 = var5.bind(var8)(var9, var2);
+                        var2 = var2[var11];
+                        var5 = var5.bind(var10)(var2);
+                        var2 = var5.getGuildThemePresetAppearance;
+                        var5 = var2.bind(var5)(var9, var8);
                         var2 = {};
-                        var10 = var5.colors;
-                        var9 = var10.map;
-                        var8 = function(arg1) {
+                        var11 = var5.colors;
+                        var10 = var11.map;
+                        var9 = function(arg1) {
                             var1 = arg1;
                             var1 = var1.hex;
                             return var1;
                         };
-                        var8 = var9.bind(var10)(var8);
-                        var2['colors'] = var8;
-                        var9 = var5.colors;
-                        var8 = var9.map;
+                        var9 = var10.bind(var11)(var9);
+                        var2['colors'] = var9;
+                        var10 = var5.colors;
+                        var9 = var10.map;
                         var6 = function(arg1) {
                             var1 = arg1;
                             var2 = var1.stop;
@@ -162,25 +162,25 @@ case 7:
                             var1 = var2 / var1;
                             return var1;
                         };
-                        var6 = var8.bind(var9)(var6);
+                        var6 = var9.bind(var10)(var6);
                         var2['locations'] = var6;
                         var5 = var5.angle;
                         var2['angle'] = var5;
                         return var2;
 case 6:
                         var2 = {};
-                        var8 = _closure1_slot0;
+                        var9 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var5 = 5;
                         var6 = var6[var5];
                         var5 = undefined;
-                        var6 = var8.bind(var5)(var6);
+                        var6 = var9.bind(var5)(var6);
                         var5 = var6.getSingleColorGuildThemeGradientColors;
-                        var13 = var5.bind(var6)(var7);
+                        var14 = var5.bind(var6)(var7, var8);
                         var5 = new Array(0);
-                        var14 = var5;
-                        var12 = 0;
-                        var6 = arraySpread(var14, var13, var12);
+                        var15 = var5;
+                        var13 = 0;
+                        var6 = arraySpread(var15, var14, var13);
                         var2['colors'] = var5;
                         var4 = var4.gradientAngle;
                         var5 = var1 != var4;

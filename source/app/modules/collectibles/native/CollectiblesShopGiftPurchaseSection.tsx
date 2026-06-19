@@ -11,41 +11,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.product;
-            var _closure2_slot0 = var8;
+            var7 = var1.product;
+            var _closure2_slot0 = var7;
             var15 = var1.isPurchaseDisabled;
-            var7 = var1.giftOptions;
-            var _closure2_slot1 = var7;
+            var6 = var1.giftOptions;
+            var _closure2_slot1 = var6;
             var2 = var1.baseAnalyticsFields;
             var _closure2_slot2 = var2;
             var1 = var1.giftingOrigin;
             var _closure2_slot3 = var1;
             var2 = _closure1_slot1;
-            var13 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var1 = 9;
-            var1 = var13[var1];
+            var1 = var8[var1];
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var1 = var1.insets;
             var3 = _closure1_slot13;
             var1 = var1.bottom;
-            var6 = var3.bind(var4)(var1);
+            var10 = var3.bind(var4)(var1);
             var3 = _closure1_slot0;
             var1 = 10;
-            var1 = var13[var1];
+            var1 = var8[var1];
             var1 = var3.bind(var4)(var1);
-            var10 = var1.GiftingBadgeExperiment;
-            var5 = var10.useConfig;
+            var12 = var1.GiftingBadgeExperiment;
+            var5 = var12.useConfig;
             var1 = {};
-            var12 = 'CollectiblesShopGiftPurchaseSection';
-            var1['location'] = var12;
-            var1 = var5.bind(var10)(var1);
+            var13 = 'CollectiblesShopGiftPurchaseSection';
+            var1['location'] = var13;
+            var1 = var5.bind(var12)(var1);
             var5 = var1.enabled;
             var1 = 11;
-            var1 = var13[var1];
-            var12 = var3.bind(var4)(var1);
-            var10 = var12.useStateFromStoresObject;
+            var1 = var8[var1];
+            var13 = var3.bind(var4)(var1);
+            var12 = var13.useStateFromStoresObject;
             var1 = _closure1_slot6;
             var3 = new Array(1);
             var3[0] = var1;
@@ -90,9 +90,9 @@ case 2:
                     return var1;
                 }
             };
-            var1 = var10.bind(var12)(var3, var1);
-            var10 = var1.nextTier;
-            var14 = var1.giftsToNextTier;
+            var1 = var12.bind(var13)(var3, var1);
+            var13 = var1.nextTier;
+            var16 = var1.giftsToNextTier;
             var1 = var1.badgeProgress;
             var _closure2_slot4 = var1;
             var12 = _closure1_slot4;
@@ -110,15 +110,15 @@ case 2:
             var1 = var3[var1];
             var _closure2_slot6 = var1;
             var1 = 13;
-            var1 = var13[var1];
+            var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var3 = var1.analyticsLocations;
             var1 = 14;
-            var1 = var13[var1];
+            var1 = var8[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var1['product'] = var8;
+            var1['product'] = var7;
             var1['analyticsLocations'] = var3;
             var3 = function onPurchaseComplete() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -264,14 +264,14 @@ case 9:
             };
             var1['onPurchasePending'] = var3;
             var3 = {};
-            var8 = true;
-            var3['isGift'] = var8;
-            var3['options'] = var7;
+            var7 = true;
+            var3['isGift'] = var7;
+            var3['options'] = var6;
             var1['giftParams'] = var3;
             var1 = var2.bind(var4)(var1);
             var _closure2_slot7 = var1;
-            var7 = _closure1_slot4;
-            var3 = var7.useEffect;
+            var6 = _closure1_slot4;
+            var3 = var6.useEffect;
             var2 = function() {
                 var1 = function() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -300,38 +300,38 @@ case 11:
                 return var1;
             };
             var1 = new Array(0);
-            var1 = var3.bind(var7)(var2, var1);
+            var1 = var3.bind(var6)(var2, var1);
             var3 = _closure1_slot12;
             var2 = _closure1_slot5;
             var1 = {};
-            var6 = var6.container;
+            var6 = var10.container;
             var1['style'] = var6;
-            var13 = null;
+            var14 = null;
             var6 = null;
             if(!var5) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var5 = var13 != var10;
+            var5 = var14 != var13;
             var6 = null;
             if(!var5) { _fun0001_ip = 13; continue _fun0001 }
 case 15:
             var8 = _closure1_slot11;
             var7 = _closure1_slot1;
-            var16 = _closure1_slot2;
+            var17 = _closure1_slot2;
             var5 = 21;
-            var5 = var16[var5];
+            var5 = var17[var5];
             var7 = var7.bind(var4)(var5);
             var5 = {};
-            var5['giftsToNextTier'] = var14;
-            var14 = var10.name;
-            var16 = var13 != var14;
-            var13 = '';
-            if(!var16) { _fun0001_ip = 16; continue _fun0001 }
+            var5['giftsToNextTier'] = var16;
+            var16 = var13.name;
+            var17 = var14 != var16;
+            var14 = '';
+            if(!var17) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var13 = var14;
+            var14 = var16;
 case 16:
-            var5['nextTierName'] = var13;
-            var10 = var10.simple_icon_url;
-            var5['nextTierIcon'] = var10;
+            var5['nextTierName'] = var14;
+            var13 = var13.simple_icon_url;
+            var5['nextTierIcon'] = var13;
             var6 = var8.bind(var4)(var7, var5);
 case 13:
             var5 = new Array(3);
@@ -344,8 +344,10 @@ case 13:
             var6 = var13.bind(var4)(var6);
             var7 = var6.TextWithIOSLinkWorkaround;
             var6 = {};
-            var10 = 'text-xs/normal';
-            var6['variant'] = var10;
+            var16 = 'text-xs/normal';
+            var6['variant'] = var16;
+            var10 = var10.disclaimer;
+            var6['style'] = var10;
             var10 = 23;
             var16 = var14[var10];
             var16 = var13.bind(var4)(var16);
@@ -511,6 +513,10 @@ case 13:
         var10 = var2;
         var3 = copyDataProperties(var10, var9);
         var1['container'] = var2;
+        var2 = {};
+        var3 = true;
+        var2['includeFontPadding'] = var3;
+        var1['disclaimer'] = var2;
         return var1;
     };
     var4 = var7.bind(var8)(var4);

@@ -417,6 +417,8 @@ case 48:
                 var3 = var1.updateActiveErrors;
                 var2['MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR'] = var3;
                 var3 = var1.updateActiveErrors;
+                var2['MEDIA_ENGINE_VIDEO_FILTER_ERROR'] = var3;
+                var3 = var1.updateActiveErrors;
                 var2['MEDIA_ENGINE_VIDEO_STATE_CHANGED'] = var3;
                 var3 = var1.updateActiveErrors;
                 var2['NATIVE_SCREEN_SHARE_PICKER_UPDATE'] = var3;

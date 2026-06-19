@@ -332,7 +332,7 @@ case 51:
     var7 = var8.fileFinishedImporting;
     var6 = 'utils/StripeUtils.tsx';
     var6 = var7.bind(var8)(var6);
-    var6 = function(arg1) {
+    var6 = function validateExpiry(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -341,7 +341,7 @@ case 0:
             var3 = undefined;
 case 53: // try_start_0
             var4 = var1;
-            var1 = function(arg1) {
+            var1 = function parseExpString(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var4 = arg1;
@@ -367,11 +367,11 @@ case 54:
                             return var1;
                         }
                     };
-                    var _closure3_slot1 = var5;
+                    var _closure3_slot2 = var5;
                     var3 = var4.split;
                     var2 = /[.\-/\s]+/g;
                     var3 = var3.bind(var4)(var2);
-                    var _closure3_slot2 = var3;
+                    var _closure3_slot1 = var3;
                     var2 = var3.length;
                     var7 = 2;
                     if(!(var7 !== var2)) { _fun0005_ip = 55; continue _fun0005 }
@@ -392,8 +392,8 @@ case 0:
                             var3 = var3.bind(var4)(var1);
                             if(!var3) { _fun0007_ip = 57; continue _fun0007 }
 case 58:
-                            var5 = _closure3_slot1;
-                            var8 = _closure3_slot2;
+                            var5 = _closure3_slot2;
+                            var8 = _closure3_slot1;
                             var3 = var2.HermesInternal;
                             var7 = var3.concat;
                             var6 = '';
@@ -404,7 +404,7 @@ case 57:
                             var3 = 1;
                             if(!(var1 < var3)) { _fun0007_ip = 59; continue _fun0007 }
 case 60:
-                            var3 = _closure3_slot1;
+                            var3 = _closure3_slot2;
                             var2 = var2.HermesInternal;
                             var6 = var2.concat;
                             var5 = '';
@@ -673,7 +673,7 @@ case 89:
     };
     var3['authenticatePaymentIntentForPaymentId'] = var5;
     var3['getStripeElementLocale'] = var4;
-    var2 = function() {
+    var2 = function useStripeLocale() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
         var2 = 7;

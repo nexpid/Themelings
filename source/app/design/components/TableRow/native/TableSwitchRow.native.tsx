@@ -84,15 +84,6 @@ case 2:
             var30 = var3;
             var15 = copyDataProperties(var32, var31, var30);
             var _closure2_slot2 = var4;
-            var2 = _closure1_slot7;
-            var21 = var2.bind(var4)();
-            var2 = _closure1_slot0;
-            var18 = _closure1_slot1;
-            var3 = 5;
-            var3 = var18[var3];
-            var7 = var2.bind(var4)(var3);
-            var3 = var7.isAndroid;
-            var7 = var3.bind(var7)();
             var9 = function handleOnPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -111,6 +102,15 @@ case 4:
                     return var1;
                 }
             };
+            var2 = _closure1_slot7;
+            var21 = var2.bind(var4)();
+            var2 = _closure1_slot0;
+            var18 = _closure1_slot1;
+            var3 = 5;
+            var3 = var18[var3];
+            var7 = var2.bind(var4)(var3);
+            var3 = var7.isAndroid;
+            var7 = var3.bind(var7)();
             var3 = 6;
             var11 = var18[var3];
             var12 = var2.bind(var4)(var11);

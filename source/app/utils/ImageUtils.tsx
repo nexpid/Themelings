@@ -764,7 +764,7 @@ case 67:
     };
     var3['makeCssUrlString'] = var6;
     var3['getPalette'] = var5;
-    var5 = function(arg1) {
+    var5 = function getPaletteForAvatar(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 2;

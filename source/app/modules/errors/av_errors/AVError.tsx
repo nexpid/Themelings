@@ -77,6 +77,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['CAMERA_SEND_LOW_FPS'] = var4;
     var4 = 'screenshare-os-error';
     var7['SCREENSHARE_OS_ERROR'] = var4;
+    var4 = 'video-background-unavailable';
+    var7['VIDEO_BACKGROUND_UNAVAILABLE'] = var4;
     var6 = {};
     var4 = 'audio';
     var6['Audio'] = var4;
@@ -275,6 +277,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['category'] = var13;
     var8['isErrorOutbound'] = var12;
     var4[9] = var8;
+    var10 = var7.VIDEO_BACKGROUND_UNAVAILABLE;
+    var8 = {};
+    var12 = 2016;
+    var8['errorCode'] = var12;
+    var12 = var5.Warning;
+    var8['severity'] = var12;
+    var12 = var6.Video;
+    var8['category'] = var12;
+    var8['isErrorOutbound'] = var11;
+    var4[9] = var8;
     var10 = var7.NO_INPUT_DEVICES;
     var8 = {};
     var12 = 3001;
@@ -365,6 +377,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['KrispInitErrorWeight32k'] = var8;
     var8 = 'NoiseCancellerError.KRISP_INIT_ERROR_WEIGHT_VAD';
     var4['KrispInitErrorWeightVad'] = var8;
+    var8 = 'VideoBackgroundError.UNSUPPORTED';
+    var4['VideoBackgroundUnsupported'] = var8;
+    var8 = 'VideoBackgroundError.INIT_FAILED';
+    var4['VideoBackgroundInitFailed'] = var8;
     var8 = function validateUniqueErrorCodes() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:

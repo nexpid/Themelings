@@ -702,8 +702,8 @@ case 51:
             var _closure2_slot2 = var14;
             var6 = var11.footer;
             var _closure2_slot3 = var6;
-            var15 = var11.onExpand;
-            var _closure2_slot4 = var15;
+            var13 = var11.onExpand;
+            var _closure2_slot4 = var13;
             var27 = var11.onDismiss;
             var _closure2_slot5 = var27;
             var26 = var11.keyboardShouldPersistTaps;
@@ -717,14 +717,14 @@ case 51:
             var39 = var11.contentHeight;
             var2 = {'scrollable': 0, 'startHeight': 0, 'maxHeight': 0, 'containerHeight': 0, 'startExpanded': 0, 'backdropOpacity': 0, 'backdropChildren': 0, 'header': 0, 'handleComponent': 0, 'handleDisabled': 0, 'dismissAccessibilityLabel': 0, 'footer': 0, 'onExpand': 0, 'onDismiss': 0, 'keyboardShouldPersistTaps': 0, 'children': 0, 'backgroundStyles': 0, 'contentStyles': 0, 'bodyStyles': 0, 'borderGradient': 0, 'showGradient': 0, 'extraContent': 0, 'contentHeight': 0};
             var7 = null;
-            var48 = var2;
-            var47 = null;
-            var1 = silentSetPrototypeOf(var48, var47);
+            var49 = var2;
+            var48 = null;
+            var1 = silentSetPrototypeOf(var49, var48);
             var17 = 0;
-            var48 = {};
-            var47 = var11;
-            var46 = var2;
-            var1 = copyDataProperties(var48, var47, var46);
+            var49 = {};
+            var48 = var11;
+            var47 = var2;
+            var1 = copyDataProperties(var49, var48, var47);
             var _closure2_slot6 = var5;
             var _closure2_slot7 = var5;
             var _closure2_slot8 = var5;
@@ -742,15 +742,15 @@ case 51:
             var11 = 15;
             var11 = var33[var11];
             var11 = var23.bind(var5)(var11);
-            var13 = var12.bind(var25)(var11);
-            var44 = var13.transitionState;
-            _closure2_slot6 = var44;
-            var12 = var13.close;
+            var15 = var12.bind(var25)(var11);
+            var45 = var15.transitionState;
+            _closure2_slot6 = var45;
+            var12 = var15.close;
             _closure2_slot7 = var12;
-            var11 = var13.onLeave;
+            var11 = var15.onLeave;
             _closure2_slot8 = var11;
-            var13 = var13.registerDismissHandler;
-            _closure2_slot9 = var13;
+            var15 = var15.registerDismissHandler;
+            _closure2_slot9 = var15;
             var20 = 8;
             var20 = var33[var20];
             var20 = var23.bind(var5)(var20);
@@ -805,28 +805,28 @@ case 55:
             var23 = var30.useLayoutEffect;
             var17 = new Array(2);
             var17[0] = var27;
-            var17[1] = var13;
-            var13 = function() {
+            var17[1] = var15;
+            var15 = function() {
                 var3 = _closure2_slot9;
                 var2 = _closure2_slot5;
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var13 = var23.bind(var30)(var13, var17);
-            var17 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var23 = 17;
-            var23 = var13[var23];
-            var33 = var17.bind(var5)(var23);
-            var27 = var33.useBottomSheetImperativeHandle;
-            var23 = arg2;
-            var23 = var27.bind(var33)(var23, var41);
-            var33 = var30.useEffect;
-            var27 = new Array(2);
-            var27[0] = var44;
-            var27[1] = var12;
-            var23 = function() {
+            var15 = var23.bind(var30)(var15, var17);
+            var46 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var17 = 17;
+            var17 = var15[var17];
+            var27 = var46.bind(var5)(var17);
+            var23 = var27.useBottomSheetImperativeHandle;
+            var17 = arg2;
+            var17 = var23.bind(var27)(var17, var41);
+            var27 = var30.useEffect;
+            var23 = new Array(2);
+            var23[0] = var45;
+            var23[1] = var12;
+            var17 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var3 = _closure2_slot6;
@@ -868,12 +868,12 @@ case 62:
                     return var1;
                 }
             };
-            var23 = var33.bind(var30)(var23, var27);
-            var23 = 18;
-            var23 = var13[var23];
-            var33 = var17.bind(var5)(var23);
-            var27 = var33.useUnmountEffect;
-            var23 = function() {
+            var17 = var27.bind(var30)(var17, var23);
+            var17 = 18;
+            var17 = var15[var17];
+            var27 = var46.bind(var5)(var17);
+            var23 = var27.useUnmountEffect;
+            var17 = function() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var2 = _closure2_slot13;
@@ -894,10 +894,10 @@ case 28:
                     return var1;
                 }
             };
-            var23 = var27.bind(var33)(var23);
-            var27 = var30.useCallback;
-            var23 = new Array(1);
-            var23[0] = var12;
+            var17 = var23.bind(var27)(var17);
+            var23 = var30.useCallback;
+            var17 = new Array(1);
+            var17[0] = var12;
             var12 = function(arg1, arg2, arg3, arg4, arg5) {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -944,11 +944,11 @@ case 64:
                     return var1;
                 }
             };
-            var12 = var27.bind(var30)(var12, var23);
-            var27 = var30.useCallback;
-            var23 = new Array(1);
-            var23[0] = var15;
-            var15 = function() {
+            var12 = var23.bind(var30)(var12, var17);
+            var23 = var30.useCallback;
+            var17 = new Array(1);
+            var17[0] = var13;
+            var13 = function() {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                     var4 = _closure2_slot11;
@@ -965,25 +965,23 @@ case 69:
                     return var1;
                 }
             };
-            var33 = var27.bind(var30)(var15, var23);
-            var15 = var1.animatedIndex;
+            var33 = var23.bind(var30)(var13, var17);
+            var17 = var1.animatedIndex;
             var27 = 14;
-            var13 = var13[var27];
-            var23 = var17.bind(var5)(var13);
-            var17 = var23.useSharedValue;
+            var13 = var15[var27];
+            var42 = var46.bind(var5)(var13);
+            var23 = var42.useSharedValue;
             var13 = -1;
-            var13 = var17.bind(var23)(var13);
-            if(!(var7 != var15)) { _fun0009_ip = 71; continue _fun0009 }
+            var13 = var23.bind(var42)(var13);
+            if(!(var7 != var17)) { _fun0009_ip = 71; continue _fun0009 }
 case 72:
-            var13 = var15;
+            var13 = var17;
 case 71:
             _closure2_slot14 = var13;
-            var45 = _closure1_slot0;
-            var15 = _closure1_slot2;
             var17 = var15[var27];
-            var30 = var45.bind(var5)(var17);
-            var23 = var30.useDerivedValue;
-            var17 = function Se() {
+            var42 = var46.bind(var5)(var17);
+            var23 = var42.useDerivedValue;
+            var17 = function he() {
                 var2 = _closure2_slot14;
                 var1 = var2.get;
                 var2 = var1.bind(var2)();
@@ -991,32 +989,32 @@ case 71:
                 var1 = var2 <= var1;
                 return var1;
             };
-            var42 = {};
-            var42['animatedIndex'] = var13;
-            var17['__closure'] = var42;
-            var42 = 4341912681188.0;
-            var17['__workletHash'] = var42;
-            var42 = _closure1_slot21;
-            var17['__initData'] = var42;
-            var43 = var23.bind(var30)(var17);
-            _closure2_slot15 = var43;
+            var43 = {};
+            var43['animatedIndex'] = var13;
+            var17['__closure'] = var43;
+            var43 = 4341912681188.0;
+            var17['__workletHash'] = var43;
+            var43 = _closure1_slot21;
+            var17['__initData'] = var43;
+            var44 = var23.bind(var42)(var17);
+            _closure2_slot15 = var44;
             var17 = var15[var27];
-            var42 = var45.bind(var5)(var17);
-            var30 = var42.useAnimatedReaction;
-            var23 = function Ee() {
+            var43 = var46.bind(var5)(var17);
+            var42 = var43.useAnimatedReaction;
+            var23 = function Se() {
                 var2 = _closure2_slot15;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
                 return var1;
             };
             var17 = {};
-            var17['animatedIsVisuallyClosed'] = var43;
+            var17['animatedIsVisuallyClosed'] = var44;
             var23['__closure'] = var17;
             var17 = 6995719052506.0;
             var23['__workletHash'] = var17;
             var17 = _closure1_slot22;
             var23['__initData'] = var17;
-            var17 = function be(arg1) {
+            var17 = function _e(arg1) {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                     var1 = arg1;
@@ -1043,20 +1041,19 @@ case 74:
                     return var1;
                 }
             };
-            var43 = {};
-            var43['transitionState'] = var44;
-            var44 = var15[var27];
-            var44 = var45.bind(var5)(var44);
-            var44 = var44.runOnJS;
-            var43['runOnJS'] = var44;
-            var43['onLeave'] = var11;
-            var17['__closure'] = var43;
-            var43 = 77590951197.0;
-            var17['__workletHash'] = var43;
-            var43 = _closure1_slot23;
-            var17['__initData'] = var43;
-            var17 = var30.bind(var42)(var23, var17);
-            var30 = _closure1_slot4;
+            var44 = {};
+            var44['transitionState'] = var45;
+            var45 = var15[var27];
+            var45 = var46.bind(var5)(var45);
+            var45 = var45.runOnJS;
+            var44['runOnJS'] = var45;
+            var44['onLeave'] = var11;
+            var17['__closure'] = var44;
+            var44 = 77590951197.0;
+            var17['__workletHash'] = var44;
+            var44 = _closure1_slot23;
+            var17['__initData'] = var44;
+            var17 = var42.bind(var43)(var23, var17);
             var23 = var30.useCallback;
             var17 = new Array(1);
             var17[0] = var14;

@@ -39,94 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot23 = var2;
+            _closure1_slot21 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
-    var1 = ['channelId', 'analyticsLocation'];
-    var _closure1_slot3 = var1;
-    var1 = ['channelId', 'analyticsLocation'];
-    var _closure1_slot4 = var1;
-    var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
-    var11 = 0;
-    var4 = var10[var11];
-    var1 = undefined;
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var13 = 1;
-    var4 = var10[var13];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var7 = 2;
-    var4 = var10[var7];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var5 = 3;
-    var4 = var10[var5];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 4;
-    var4 = var10[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot9 = var4;
-    var12 = 5;
-    var4 = var10[var12];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot10 = var4;
-    var4 = 6;
-    var4 = var10[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot11 = var4;
-    var4 = 7;
-    var4 = var10[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot12 = var4;
-    var4 = 8;
-    var4 = var10[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot13 = var4;
-    var4 = 9;
-    var4 = var10[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot14 = var4;
-    var4 = 10;
-    var4 = var10[var4];
-    var4 = var9.bind(var1)(var4);
-    var6 = var4.AbortCodes;
-    var _closure1_slot15 = var6;
-    var6 = var4.Endpoints;
-    var _closure1_slot16 = var6;
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot17 = var4;
-    var4 = 11;
-    var4 = var10[var4];
-    var4 = var9.bind(var1)(var4);
-    var4 = var4.MESSAGE_HTTP_TIMEOUT_RETRY_OPTIONS;
-    var _closure1_slot18 = var4;
-    var6 = {};
-    var6['SEND'] = var11;
-    var4 = 'SEND';
-    var6[var11] = var4;
-    var6['EDIT'] = var13;
-    var4 = 'EDIT';
-    var6[var13] = var4;
-    var6['COMMAND'] = var7;
-    var4 = 'COMMAND';
-    var6[var7] = var4;
-    var6['SEND_ANNOUNCEMENT'] = var5;
-    var4 = 'SEND_ANNOUNCEMENT';
-    var6[var5] = var4;
-    var _closure1_slot19 = var6;
+    var _closure1_slot21 = var1;
     var5 = function isMessageDataSend(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -145,7 +64,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot20 = var5;
+    var _closure1_slot22 = var5;
     var4 = function isMessageDataEdit(arg1) {
         var1 = arg1;
         var2 = var1.type;
@@ -154,7 +73,88 @@ case 6:
         var1 = var2 === var1;
         return var1;
     };
-    var _closure1_slot21 = var4;
+    var _closure1_slot23 = var4;
+    var1 = ['channelId', 'analyticsLocation'];
+    var _closure1_slot3 = var1;
+    var1 = ['channelId', 'analyticsLocation'];
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var11 = var1.Object;
+    var7 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var11)(var3, var1, var6);
+    var15 = 0;
+    var6 = var10[var15];
+    var1 = undefined;
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot5 = var6;
+    var13 = 1;
+    var6 = var10[var13];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot6 = var6;
+    var14 = 2;
+    var6 = var10[var14];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot7 = var6;
+    var11 = 3;
+    var6 = var10[var11];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot8 = var6;
+    var6 = 4;
+    var6 = var10[var6];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot9 = var6;
+    var12 = 5;
+    var6 = var10[var12];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot10 = var6;
+    var6 = 6;
+    var6 = var10[var6];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot11 = var6;
+    var6 = 7;
+    var6 = var10[var6];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot12 = var6;
+    var6 = 8;
+    var6 = var10[var6];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot13 = var6;
+    var6 = 9;
+    var6 = var10[var6];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot14 = var6;
+    var6 = 10;
+    var6 = var10[var6];
+    var6 = var9.bind(var1)(var6);
+    var7 = var6.AbortCodes;
+    var _closure1_slot15 = var7;
+    var7 = var6.Endpoints;
+    var _closure1_slot16 = var7;
+    var6 = var6.AnalyticEvents;
+    var _closure1_slot17 = var6;
+    var6 = 11;
+    var6 = var10[var6];
+    var6 = var9.bind(var1)(var6);
+    var6 = var6.MESSAGE_HTTP_TIMEOUT_RETRY_OPTIONS;
+    var _closure1_slot18 = var6;
+    var6 = {};
+    var6['SEND'] = var15;
+    var7 = 'SEND';
+    var6[var15] = var7;
+    var6['EDIT'] = var13;
+    var7 = 'EDIT';
+    var6[var13] = var7;
+    var6['COMMAND'] = var14;
+    var7 = 'COMMAND';
+    var6[var14] = var7;
+    var6['SEND_ANNOUNCEMENT'] = var11;
+    var7 = 'SEND_ANNOUNCEMENT';
+    var6[var11] = var7;
+    var _closure1_slot19 = var6;
     var11 = 12;
     var7 = var10[var11];
     var7 = var8.bind(var1)(var7);
@@ -169,7 +169,7 @@ case 6:
     var11 = var11.MINUTE;
     var11 = var12 * var11;
     var7[1] = var11;
-    var _closure1_slot22 = var7;
+    var _closure1_slot20 = var7;
     var7 = 23;
     var7 = var10[var7];
     var8 = var8.bind(var1)(var7);
@@ -204,7 +204,7 @@ case 8:
                 var1 = _closure1_slot9;
                 var10 = var1.bind(var5)(var4);
                 var4 = _closure1_slot8;
-                var1 = _closure1_slot23;
+                var1 = _closure1_slot21;
                 var1 = var1.bind(var5)();
                 if(var1) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
@@ -563,7 +563,7 @@ case 30:
         var7 = 'startQueueMetricTimers';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot20;
             var2 = var3.map;
             var1 = function(arg1) {
                 var4 = arg1;
@@ -1182,8 +1182,8 @@ case 56:
     var7 = var7.bind(var1)(var8);
     var8 = var7.prototype;
     var8 = Object.create(var8, {constructor: {value: var7}});
-    var17 = var8;
-    var7 = new var17[var7](var16);
+    var19 = var8;
+    var7 = new var19[var7](var18);
     var7 = var7 instanceof Object ? var7 : var8;
     var8 = 24;
     var8 = var10[var8];
@@ -1195,7 +1195,7 @@ case 56:
     var3['MessageDataType'] = var6;
     var3['isMessageDataSend'] = var5;
     var3['isMessageDataEdit'] = var4;
-    var4 = function(arg1) {
+    var4 = function isMessageDataCommand(arg1) {
         var1 = arg1;
         var2 = var1.type;
         var1 = _closure1_slot19;
@@ -1204,16 +1204,16 @@ case 56:
         return var1;
     };
     var3['isMessageDataCommand'] = var4;
-    var2 = function(arg1) {
+    var2 = function getFailedMessageId(arg1) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var2 = arg1;
-            var4 = _closure1_slot20;
+            var4 = _closure1_slot22;
             var3 = undefined;
             var4 = var4.bind(var3)(var2);
             if(var4) { _fun0017_ip = 59; continue _fun0017 }
 case 60:
-            var1 = _closure1_slot21;
+            var1 = _closure1_slot23;
             var1 = var1.bind(var3)(var2);
             var3 = var2.message;
             if(var1) { _fun0017_ip = 61; continue _fun0017 }

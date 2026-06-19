@@ -105,7 +105,7 @@ case 7:
     };
     var3['getCardSecondaryBg'] = var5;
     var3['CARD_PRIMARY_PRESSED_BG'] = var4;
-    var2 = function(arg1) {
+    var2 = function createCardShadowToken(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var4 = _closure1_slot0;

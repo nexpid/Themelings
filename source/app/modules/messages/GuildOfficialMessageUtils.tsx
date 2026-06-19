@@ -323,12 +323,42 @@ case 28:
         }
     };
     var3['getAccessibleGuildOfficialTextColor'] = var8;
+    var8 = function showGuildOfficialMessageGradient(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var3 = arg1;
+            var1 = 'no_gradient';
+            var1 = var1 !== var3;
+            if(!var1) { _fun0008_ip = 15; continue _fun0008 }
+case 7:
+            var2 = 'hidden';
+            var1 = var2 !== var3;
+case 15:
+            return var1;
+        }
+    };
+    var3['showGuildOfficialMessageGradient'] = var8;
+    var8 = function showGuildOfficialMessageTextColor(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var3 = arg1;
+            var1 = 'no_text_color';
+            var1 = var1 !== var3;
+            if(!var1) { _fun0009_ip = 15; continue _fun0009 }
+case 7:
+            var2 = 'hidden';
+            var1 = var2 !== var3;
+case 15:
+            return var1;
+        }
+    };
+    var3['showGuildOfficialMessageTextColor'] = var8;
     var3['isGuildOfficialMessagesEnabled'] = var7;
     var3['useIsGuildOfficialMessagesEnabled'] = var6;
     var3['canManageGuildOfficialMessages'] = var5;
     var3['useCanManageGuildOfficialMessages'] = var4;
     var4 = function useCanToggleGuildOfficialMessages(arg1, arg2, arg3) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var7 = arg1;
             var5 = arg2;
@@ -338,14 +368,14 @@ case 0:
             var8 = var2 != var1;
             var6 = undefined;
             var2 = undefined;
-            if(!var8) { _fun0008_ip = 30; continue _fun0008 }
+            if(!var8) { _fun0010_ip = 30; continue _fun0010 }
 case 31:
             var2 = var1;
 case 30:
             var1 = arg3;
             var1 = var4.bind(var6)(var2, var5, var1);
             var1 = !var1;
-            if(var1) { _fun0008_ip = 32; continue _fun0008 }
+            if(var1) { _fun0010_ip = 32; continue _fun0010 }
 case 33:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -355,17 +385,17 @@ case 33:
             var1 = var2.bind(var6)(var7);
 case 32:
             var1 = !var1;
-            if(!var1) { _fun0008_ip = 34; continue _fun0008 }
+            if(!var1) { _fun0010_ip = 34; continue _fun0010 }
 case 35:
             var4 = var7.hasFlag;
             var2 = _closure1_slot8;
             var2 = var2.IS_GUILD_OFFICIAL;
             var2 = var4.bind(var7)(var2);
-            if(var2) { _fun0008_ip = 36; continue _fun0008 }
+            if(var2) { _fun0010_ip = 36; continue _fun0010 }
 case 37:
             var2 = _closure1_slot14;
             var2 = var2.bind(var6)(var5);
-            _fun0008_ip = 38; continue _fun0008;
+            _fun0010_ip = 38; continue _fun0010;
 case 36:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -382,7 +412,7 @@ case 34:
     };
     var3['useCanToggleGuildOfficialMessages'] = var4;
     var2 = function canSendGuildOfficialMessages(arg1, arg2, arg3) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = arg2;
             var6 = _closure1_slot12;
@@ -390,7 +420,7 @@ case 0:
             var5 = arg1;
             var1 = arg3;
             var1 = var6.bind(var3)(var5, var4, var1);
-            if(!var1) { _fun0009_ip = 39; continue _fun0009 }
+            if(!var1) { _fun0011_ip = 39; continue _fun0011 }
 case 20:
             var2 = _closure1_slot14;
             var1 = var2.bind(var3)(var4);

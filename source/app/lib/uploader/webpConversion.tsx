@@ -704,41 +704,22 @@ case 3:
                     var4 = undefined;
                     var11 = undefined;
                     var _closure4_slot1 = var4;
-                    var3 = undefined;
                     var7 = undefined;
                     var12 = undefined;
                     var10 = undefined;
                     var14 = undefined;
                     var16 = undefined;
                     var15 = undefined;
-                    var13 = null;
-                    if(!(var13 != var2)) { _fun0003_ip = 74; continue _fun0003 }
-case 75:
-                    var18 = _closure1_slot4;
-                    var17 = var18.verbose;
-                    var5 = var9;
-                    var20 = var5.name;
-                    var5 = global;
-                    var6 = var5.HermesInternal;
-                    var19 = var6.concat;
-                    var6 = '[WebP] Starting conversion for: ';
-                    var6 = var19.bind(var6)(var20);
-                    var6 = var17.bind(var18)(var6);
-                    var17 = var5.performance;
-                    var6 = var17.now;
-                    var6 = var6.bind(var17)();
-                    var11 = var6;
-                    _closure4_slot1 = var6;
                     var3 = function createFailedResult(arg1) {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                             var5 = arguments[1];
                             var1 = undefined;
-                            if(!(var5 === var1)) { _fun0004_ip = 76; continue _fun0004 }
-case 77:
+                            if(!(var5 === var1)) { _fun0004_ip = 74; continue _fun0004 }
+case 75:
                             var1 = _closure4_slot0;
                             var5 = var1.size;
-case 76:
+case 74:
                             var1 = {};
                             var2 = false;
                             var1['success'] = var2;
@@ -751,12 +732,12 @@ case 76:
                             var3 = 0;
                             var4 = var4 > var3;
                             var3 = 1;
-                            if(!var4) { _fun0004_ip = 78; continue _fun0004 }
-case 79:
+                            if(!var4) { _fun0004_ip = 76; continue _fun0004 }
+case 77:
                             var4 = _closure4_slot0;
                             var4 = var4.size;
                             var3 = var5 / var4;
-case 78:
+case 76:
                             var1['compressionRatio'] = var3;
                             var3 = arg1;
                             var1['reason'] = var3;
@@ -773,11 +754,29 @@ case 78:
                             return var1;
                         }
                     };
+                    var13 = null;
+                    if(!(var13 != var2)) { _fun0003_ip = 78; continue _fun0003 }
+case 79:
+                    var18 = _closure1_slot4;
+                    var17 = var18.verbose;
+                    var5 = var9;
+                    var20 = var5.name;
+                    var5 = global;
+                    var6 = var5.HermesInternal;
+                    var19 = var6.concat;
+                    var6 = '[WebP] Starting conversion for: ';
+                    var6 = var19.bind(var6)(var20);
+                    var6 = var17.bind(var18)(var6);
+                    var17 = var5.performance;
+                    var6 = var17.now;
+                    var6 = var6.bind(var17)();
+                    var11 = var6;
+                    _closure4_slot1 = var6;
 case 80: // try_start_0
                     var17 = _closure1_slot6;
                     var6 = var9;
                     var6 = var17.bind(var4)(var6);
-                    SaveGenerator(address=146);
+                    SaveGenerator(address=144);
 case 81:
                     return var6;
 case 82:
@@ -799,7 +798,7 @@ case 86:
                         return var1;
                     };
                     var8 = var8.bind(var4)(var17);
-                    SaveGenerator(address=182);
+                    SaveGenerator(address=180);
 case 87:
                     return var8;
 case 88:
@@ -813,7 +812,7 @@ case 92:
                     var17 = var10;
                     var17 = var17.webpBlob;
                     if(!(var13 != var17)) { _fun0003_ip = 91; continue _fun0003 }
-case 93:
+case 46:
                     var17 = var10;
                     var14 = var17.webpBlob;
                     var17 = var9;
@@ -822,18 +821,18 @@ case 93:
                     var20 = var17 > var18;
                     var19 = 1;
                     var17 = var19;
-                    if(!var20) { _fun0003_ip = 94; continue _fun0003 }
-case 95:
+                    if(!var20) { _fun0003_ip = 93; continue _fun0003 }
+case 94:
                     var20 = var14;
                     var21 = var20.size;
                     var20 = var9;
                     var20 = var20.size;
                     var17 = var21 / var20;
-case 94:
+case 93:
                     var16 = var17;
                     var17 = var19 - var17;
                     var15 = var17;
-                    if(!(!(var17 < var18))) { _fun0003_ip = 34; continue _fun0003 }
+                    if(!(!(var17 < var18))) { _fun0003_ip = 95; continue _fun0003 }
 case 96:
                     var18 = var5.performance;
                     var17 = var18.now;
@@ -873,7 +872,7 @@ case 96:
                     var16 = var16.bind(var17)(var18);
                     var11['compressTimeMs'] = var16;
                     _fun0003_ip = 97; continue _fun0003;
-case 34:
+case 95:
                     var17 = _closure1_slot4;
                     var16 = var17.verbose;
                     var19 = var5.Math;
@@ -904,16 +903,16 @@ case 91: // try_start_1
                     var11 = var3;
                     var10 = var10.reason;
                     var12 = var10;
-                    if(!(var13 == var10)) { _fun0003_ip = 98; continue _fun0003 }
-case 99:
+                    if(!(var13 == var10)) { _fun0003_ip = 16; continue _fun0003 }
+case 98:
                     var10 = _closure1_slot5;
                     var10 = var10.UNKNOWN_ERROR;
-                    _fun0003_ip = 100; continue _fun0003;
-case 98:
+                    _fun0003_ip = 38; continue _fun0003;
+case 16:
                     var10 = var12;
-case 100:
+case 38:
                     var10 = var11.bind(var4)(var10);
-case 67: // try_end1
+case 99: // try_end1
                     return var10;
 case 89:
                     return var8;
@@ -928,11 +927,11 @@ case 85: // try_start_2
                     var7 = var10.bind(var11)(var7);
                     var7 = var3;
                     var7 = var7.bind(var4)(var8);
-case 101: // try_end2
+case 100: // try_end2
                     return var7;
 case 83:
                     return var6;
-case 102: // catch_target0 // catch_target1 // catch_target2
+case 101: // catch_target0 // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=7);
                     var7 = _closure1_slot4;
                     var6 = var7.error;
@@ -947,7 +946,7 @@ case 102: // catch_target0 // catch_target1 // catch_target2
                     var2 = var2.CONVERSION_FAILED;
                     var2 = var3.bind(var4)(var2);
                     return var2;
-case 74:
+case 78:
                     var2 = global;
                     var4 = var2.Error;
                     var2 = var4.prototype;

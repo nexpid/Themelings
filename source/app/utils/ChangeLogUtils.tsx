@@ -7,67 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
-    var5 = function getDefaultRules(arg1) {
-        var1 = {};
-        var4 = _closure1_slot13;
-        var3 = undefined;
-        var2 = arg1;
-        var5 = var4.bind(var3)(var2);
-        var6 = var1;
-        var2 = copyDataProperties(var6, var5);
-        return var1;
-    };
-    var _closure1_slot16 = var5;
-    var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var4);
-    var4 = 0;
-    var9 = var7[var4];
-    var1 = undefined;
-    var9 = var8.bind(var1)(var9);
-    var9 = var9.defaultRules;
-    var9 = var9.lheading;
-    var _closure1_slot3 = var9;
-    var9 = var7[var4];
-    var9 = var8.bind(var1)(var9);
-    var9 = var9.defaultRules;
-    var9 = var9.heading;
-    var _closure1_slot4 = var9;
-    var9 = var7[var4];
-    var9 = var8.bind(var1)(var9);
-    var9 = var9.defaultRules;
-    var9 = var9.link;
-    var _closure1_slot5 = var9;
-    var9 = var7[var4];
-    var9 = var8.bind(var1)(var9);
-    var9 = var9.defaultRules;
-    var9 = var9.image;
-    var _closure1_slot6 = var9;
-    var9 = var7[var4];
-    var9 = var8.bind(var1)(var9);
-    var9 = var9.defaultRules;
-    var9 = var9.list;
-    var _closure1_slot7 = var9;
-    var9 = var7[var4];
-    var9 = var8.bind(var1)(var9);
-    var9 = var9.defaultRules;
-    var9 = var9.blockQuote;
-    var _closure1_slot8 = var9;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var4 = var4.defaultRules;
-    var4 = var4.paragraph;
-    var _closure1_slot9 = var4;
-    var4 = /\{(.+?)}/;
-    var _closure1_slot10 = var4;
-    var4 = /^\$(\w+?)\$/;
-    var _closure1_slot11 = var4;
-    var4 = function parseWithClassNameExtraction(arg1) {
+    var1 = function parseWithClassNameExtraction(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -82,15 +22,16 @@ case 2:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var5 = arg1;
-                    var8 = _closure1_slot10;
-                    var3 = var8.exec;
+                    var6 = _closure1_slot10;
+                    var3 = var6.exec;
                     var4 = 1;
                     var1 = var5[var4];
-                    var7 = var3.bind(var8)(var1);
-                    var6 = var5[var4];
-                    var3 = var6.replace;
+                    var7 = var3.bind(var6)(var1);
+                    var8 = var5[var4];
+                    var6 = var8.replace;
+                    var3 = _closure1_slot10;
                     var1 = '';
-                    var3 = var3.bind(var6)(var8, var1);
+                    var3 = var6.bind(var8)(var3, var1);
                     var1 = _closure2_slot0;
                     var6 = var3;
                     if(!var1) { _fun0002_ip = 4; continue _fun0002 }
@@ -131,8 +72,8 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot12 = var4;
-    var4 = function defaultRules(arg1) {
+    var _closure1_slot12 = var1;
+    var1 = function defaultRules(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var6 = arg1;
@@ -447,8 +388,8 @@ case 33:
             return var1;
         }
     };
-    var _closure1_slot13 = var4;
-    var4 = function specialRules(arg1) {
+    var _closure1_slot13 = var1;
+    var1 = function specialRules(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = {};
@@ -499,8 +440,8 @@ case 34:
             return var1;
         }
     };
-    var _closure1_slot14 = var4;
-    var4 = function messageRules(arg1) {
+    var _closure1_slot14 = var1;
+    var1 = function messageRules(arg1) {
         var1 = {};
         var5 = _closure1_slot13;
         var4 = undefined;
@@ -537,7 +478,67 @@ case 34:
         var1[1] = var3;
         return var1;
     };
-    var _closure1_slot15 = var4;
+    var _closure1_slot15 = var1;
+    var5 = function getDefaultRules(arg1) {
+        var1 = {};
+        var4 = _closure1_slot13;
+        var3 = undefined;
+        var2 = arg1;
+        var5 = var4.bind(var3)(var2);
+        var6 = var1;
+        var2 = copyDataProperties(var6, var5);
+        return var1;
+    };
+    var _closure1_slot16 = var5;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var4 = 0;
+    var9 = var7[var4];
+    var1 = undefined;
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.defaultRules;
+    var9 = var9.lheading;
+    var _closure1_slot3 = var9;
+    var9 = var7[var4];
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.defaultRules;
+    var9 = var9.heading;
+    var _closure1_slot4 = var9;
+    var9 = var7[var4];
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.defaultRules;
+    var9 = var9.link;
+    var _closure1_slot5 = var9;
+    var9 = var7[var4];
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.defaultRules;
+    var9 = var9.image;
+    var _closure1_slot6 = var9;
+    var9 = var7[var4];
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.defaultRules;
+    var9 = var9.list;
+    var _closure1_slot7 = var9;
+    var9 = var7[var4];
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.defaultRules;
+    var9 = var9.blockQuote;
+    var _closure1_slot8 = var9;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.defaultRules;
+    var4 = var4.paragraph;
+    var _closure1_slot9 = var4;
+    var4 = /\{(.+?)}/;
+    var _closure1_slot10 = var4;
+    var4 = /^\$(\w+?)\$/;
+    var _closure1_slot11 = var4;
     var4 = {};
     var4['getDefaultRules'] = var5;
     var5 = function getSpecialRules(arg1) {
@@ -593,15 +594,15 @@ case 0:
             var2 = arg1;
             var3 = var2.content;
             var2 = null;
-            if(!(var2 == var8)) { _fun0006_ip = 6; continue _fun0006 }
-case 7:
+            if(!(var2 == var8)) { _fun0006_ip = 7; continue _fun0006 }
+case 35:
             var2 = {};
-            _fun0006_ip = 35; continue _fun0006;
-case 6:
+            _fun0006_ip = 36; continue _fun0006;
+case 7:
             var7 = {};
             var7['changeLog'] = var8;
             var2 = var7;
-case 35:
+case 36:
             var2 = var4.bind(var5)(var3, var6, var2);
             var1['content'] = var2;
             return var1;

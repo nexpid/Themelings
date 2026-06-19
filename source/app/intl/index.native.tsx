@@ -272,7 +272,7 @@ case 9:
     var8 = var7.bind(var1)(var8);
     var8 = var8.getLanguages;
     var3['getLanguages'] = var8;
-    var5 = function(arg1) {
+    var5 = function useSyncMessages(arg1) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
         var2 = 6;

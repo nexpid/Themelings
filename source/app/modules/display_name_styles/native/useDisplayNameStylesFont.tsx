@@ -13,10 +13,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var5.bind(var8)(var3, var1, var4);
-    var4 = {};
-    var5 = 0;
-    var8 = var7[var5];
+    var1 = 0;
+    var4 = var7[var1];
     var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.FLYWHEEL_FONTS;
+    var _closure1_slot2 = var4;
+    var4 = {};
+    var5 = 1;
+    var8 = var7[var5];
     var8 = var6.bind(var1)(var8);
     var8 = var8.DisplayNameFont;
     var9 = var8.CHERRY_BOMB;
@@ -58,14 +63,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.ZILLA_SLAB;
     var8 = 'Tempo-SemiBold';
     var4[8] = var8;
+    var8 = var7[var5];
+    var8 = var6.bind(var1)(var8);
+    var8 = var8.DisplayNameFont;
+    var9 = var8.PLAYPEN_SANS;
+    var8 = 'PlaypenSans-Bold';
+    var4[8] = var8;
+    var8 = var7[var5];
+    var8 = var6.bind(var1)(var8);
+    var8 = var8.DisplayNameFont;
+    var9 = var8.ORBITRON;
+    var8 = 'Orbitron-Bold';
+    var4[8] = var8;
+    var8 = var7[var5];
+    var8 = var6.bind(var1)(var8);
+    var8 = var8.DisplayNameFont;
+    var9 = var8.NEW_ROCKER;
+    var8 = 'NewRocker-Normal';
+    var4[8] = var8;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.DisplayNameFont;
-    var8 = var5.PLAYPEN_SANS;
-    var5 = 'PlaypenSans-Bold';
+    var8 = var5.KALAM;
+    var5 = 'Kalam-Bold';
     var4[7] = var5;
-    var _closure1_slot2 = var4;
-    var5 = 2;
+    var _closure1_slot3 = var4;
+    var5 = 4;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -79,25 +102,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var1 = var1.displayNameStyles;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var3 = 1;
-            var4 = var4[var3];
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 2;
+            var4 = var8[var3];
             var3 = undefined;
-            var6 = var5.bind(var3)(var4);
-            var5 = var6.useDisplayNameStylesEnabled;
+            var9 = var6.bind(var3)(var4);
+            var5 = var9.useDisplayNameStylesEnabled;
             var4 = {};
             var7 = 'useDisplayNameStylesFont-native';
             var4['location'] = var7;
-            var4 = var5.bind(var6)(var4);
-            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = var5.bind(var9)(var4);
+            var4 = 3;
+            var4 = var8[var4];
+            var6 = var6.bind(var3)(var4);
+            var4 = var6.useIsDisplayNameStylesFlywheelViewersEnabled;
+            var4 = var4.bind(var6)(var7);
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var4 = null;
-            if(!(var4 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+            var5 = null;
+            if(!(var5 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            if(var4) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            var6 = _closure1_slot2;
+            var5 = var6.includes;
+            var4 = var1.fontId;
+            var4 = var5.bind(var6)(var4);
+            if(!var4) { _fun0001_ip = 5; continue _fun0001 }
 case 2:
             return var3;
-case 4:
-            var2 = _closure1_slot2;
+case 5:
+            var2 = _closure1_slot3;
             var1 = var1.fontId;
             var1 = var2[var1];
             return var1;

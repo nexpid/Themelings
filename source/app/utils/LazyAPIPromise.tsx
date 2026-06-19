@@ -35,33 +35,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'utils/LazyAPIPromise.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useLazyAPIPromise(arg1, arg2) {
-        var2 = arg1;
-        var _closure2_slot0 = var2;
-        var2 = arg2;
-        var _closure2_slot1 = var2;
-        var10 = _closure1_slot4;
-        var4 = var10.useState;
-        var3 = false;
-        var3 = var4.bind(var10)(var3);
-        var8 = _closure1_slot3;
-        var2 = undefined;
-        var7 = 2;
-        var5 = var8.bind(var2)(var3, var7);
-        var3 = 0;
-        var4 = var5[var3];
-        var6 = 1;
-        var5 = var5[var6];
-        var _closure2_slot2 = var5;
-        var9 = var10.useState;
-        var5 = null;
-        var5 = var9.bind(var10)(var5);
-        var5 = var8.bind(var2)(var5, var7);
-        var3 = var5[var3];
-        var5 = var5[var6];
-        var _closure2_slot3 = var5;
-        var1 = function() {
-            var4 = _closure1_slot2;
-            var3 = undefined;
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
+        var1 = function _execFn() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot2;
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -130,22 +111,47 @@ case 2:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot4 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var2 = var1.bind(var2)();
+        var _closure2_slot4 = var1;
+        var10 = _closure1_slot4;
+        var4 = var10.useState;
+        var1 = false;
+        var1 = var4.bind(var10)(var1);
+        var8 = _closure1_slot3;
+        var7 = undefined;
+        var6 = 2;
+        var1 = var8.bind(var7)(var1, var6);
+        var3 = 0;
+        var4 = var1[var3];
+        var5 = 1;
+        var1 = var1[var5];
+        var _closure2_slot2 = var1;
+        var9 = var10.useState;
+        var1 = null;
+        var1 = var9.bind(var10)(var1);
+        var1 = var8.bind(var7)(var1, var6);
+        var3 = var1[var3];
+        var1 = var1[var5];
+        var _closure2_slot3 = var1;
         var1 = new Array(2);
+        var2 = function execFn() {
+            var1 = undefined;
+            var4 = _closure2_slot4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var1[0] = var2;
         var2 = {};
         var2['loading'] = var4;

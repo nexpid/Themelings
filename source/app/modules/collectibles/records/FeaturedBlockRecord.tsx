@@ -50,22 +50,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     var4 = arg1;
-                    var5 = var4.type;
+                    var3 = var4.type;
                     var6 = _closure1_slot0;
-                    var3 = _closure1_slot1;
+                    var5 = _closure1_slot1;
                     var1 = 4;
-                    var3 = var3[var1];
+                    var5 = var5[var1];
                     var1 = undefined;
-                    var1 = var6.bind(var1)(var3);
+                    var1 = var6.bind(var1)(var5);
                     var1 = var1.FeaturedSubblockType;
-                    var3 = var1.CATEGORY;
-                    var1 = var4;
-                    if(!(var5 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+                    var1 = var1.CATEGORY;
+                    if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
+                    var1 = var4.type;
+                    var1 = var4;
+                    _fun0001_ip = 4; continue _fun0001;
+case 2:
                     var3 = _closure1_slot4;
                     var2 = var3.fromServer;
                     var1 = var2.bind(var3)(var4);
-case 2:
+case 4:
                     return var1;
                 }
             };

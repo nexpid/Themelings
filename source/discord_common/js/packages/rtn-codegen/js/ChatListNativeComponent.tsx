@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = 'DCDChatList';
     var2['uiViewClassName'] = var9;
     var1 = {};
-    var1['bottomContentInset'] = var5;
+    var1['floatingChatInputEnabled'] = var5;
     var2['validAttributes'] = var1;
     var _closure1_slot0 = var2;
     var1 = 0;

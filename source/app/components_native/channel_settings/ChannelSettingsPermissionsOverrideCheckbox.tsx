@@ -7,299 +7,327 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
-    var1 = function OverrideOption(arg1) {
+    var1 = function getAccessibilityLabel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var7 = var1.type;
-            var _closure2_slot0 = var7;
-            var9 = var1.selected;
-            var _closure2_slot1 = var9;
-            var11 = var1.styles;
-            var _closure2_slot2 = var11;
-            var5 = var1.onPress;
-            var14 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var1 = 6;
-            var1 = var13[var1];
-            var4 = undefined;
-            var3 = var14.bind(var4)(var1);
-            var2 = var3.useRadioA11yNative;
-            var1 = {};
-            var1['selected'] = var9;
-            var1 = var2.bind(var3)(var1);
-            var8 = var1.accessibilityRole;
-            var12 = var1.accessibilityState;
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot3;
-            var1 = {};
-            var1['accessibilityRole'] = var8;
-            var8 = 5;
-            var13 = var13[var8];
-            var13 = var14.bind(var4)(var13);
-            var13 = var13.DENY;
-            if(!(var7 !== var13)) { _fun0001_ip = 2; continue _fun0001 }
+            var3 = arg1;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var6 = 5;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.DENY;
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var14 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var13 = var13[var8];
-            var13 = var14.bind(var4)(var13);
-            var13 = var13.ALLOW;
-            if(!(var7 !== var13)) { _fun0001_ip = 4; continue _fun0001 }
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.ALLOW;
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var14 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var13 = var13[var8];
-            var13 = var14.bind(var4)(var13);
-            var14 = var13.PASSTHROUGH;
-            var13 = undefined;
-            if(!(var7 === var14)) { _fun0001_ip = 6; continue _fun0001 }
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.PASSTHROUGH;
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var14 = 7;
-            var15 = var18[var14];
-            var15 = var17.bind(var4)(var15);
-            var16 = var15.intl;
-            var15 = var16.string;
-            var14 = var18[var14];
-            var14 = var17.bind(var4)(var14);
-            var14 = var14.t;
-            var14 = var14.ujC3ZS;
-            var13 = var15.bind(var16)(var14);
+            return var5;
 case 6:
-            _fun0001_ip = 8; continue _fun0001;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 6;
+            var3 = var7[var2];
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.ujC3ZS;
+            var2 = var3.bind(var4)(var2);
+            return var2;
 case 4:
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var14 = 7;
-            var15 = var18[var14];
-            var15 = var17.bind(var4)(var15);
-            var16 = var15.intl;
-            var15 = var16.string;
-            var14 = var18[var14];
-            var14 = var17.bind(var4)(var14);
-            var14 = var14.t;
-            var14 = var14.RzDfSk;
-            var13 = var15.bind(var16)(var14);
-case 8:
-            _fun0001_ip = 9; continue _fun0001;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 6;
+            var3 = var7[var2];
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.RzDfSk;
+            var2 = var3.bind(var4)(var2);
+            return var2;
 case 2:
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var14 = 7;
-            var15 = var18[var14];
-            var15 = var17.bind(var4)(var15);
-            var16 = var15.intl;
-            var15 = var16.string;
-            var14 = var18[var14];
-            var14 = var17.bind(var4)(var14);
-            var14 = var14.t;
-            var14 = var14["6639O5"];
-            var13 = var15.bind(var16)(var14);
-case 9:
-            var1['accessibilityLabel'] = var13;
-            var1['accessibilityState'] = var12;
-            var6 = function style(arg1) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var1 = arg1;
-                    var1 = var1.pressed;
-                    var3 = _closure2_slot1;
-                    if(var3) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-                    if(var1) { _fun0002_ip = 10; continue _fun0002 }
-case 12:
-                    var1 = _closure2_slot2;
-                    var1 = var1.iconWrapper;
-                    return var1;
-case 10:
-                    var4 = _closure2_slot0;
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var6 = 5;
-                    var5 = var3[var6];
-                    var3 = undefined;
-                    var5 = var7.bind(var3)(var5);
-                    var5 = var5.DENY;
-                    if(!(var5 !== var4)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-                    var7 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var5 = var5[var6];
-                    var5 = var7.bind(var3)(var5);
-                    var5 = var5.ALLOW;
-                    if(!(var5 !== var4)) { _fun0002_ip = 5; continue _fun0002 }
-case 15:
-                    var5 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var1 = var1[var6];
-                    var1 = var5.bind(var3)(var1);
-                    var1 = var1.PASSTHROUGH;
-                    var3 = undefined;
-                    if(!(var1 === var4)) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-                    var1 = _closure2_slot1;
-                    var4 = _closure2_slot2;
-                    if(var1) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
-                    var1 = var4.passthroughActive;
-                    _fun0002_ip = 20; continue _fun0002;
-case 18:
-                    var1 = var4.passthroughSelected;
-case 20:
-                    var3 = var1;
-                    _fun0002_ip = 16; continue _fun0002;
-case 5:
-                    var1 = _closure2_slot1;
-                    var4 = _closure2_slot2;
-                    if(var1) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
-                    var1 = var4.allowActive;
-                    _fun0002_ip = 23; continue _fun0002;
-case 21:
-                    var1 = var4.allowSelected;
-case 23:
-                    var3 = var1;
-                    _fun0002_ip = 16; continue _fun0002;
-case 13:
-                    var1 = _closure2_slot1;
-                    var4 = _closure2_slot2;
-                    if(var1) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
-                    var1 = var4.denyActive;
-                    _fun0002_ip = 26; continue _fun0002;
-case 24:
-                    var1 = var4.denySelected;
-case 26:
-                    var3 = var1;
-case 16:
-                    var1 = new Array(2);
-                    var1[0] = var3;
-                    var2 = _closure2_slot2;
-                    var2 = var2.iconWrapper;
-                    var1[1] = var2;
-                    return var1;
-                }
-            };
-            var1['style'] = var6;
-            var1['onPress'] = var5;
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var5 = var5[var8];
-            var5 = var6.bind(var4)(var5);
-            var5 = var5.DENY;
-            if(!(var7 !== var5)) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var5 = var5[var8];
-            var5 = var6.bind(var4)(var5);
-            var5 = var5.ALLOW;
-            if(!(var7 !== var5)) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var5 = var5[var8];
-            var5 = var6.bind(var4)(var5);
-            var6 = var5.PASSTHROUGH;
-            var5 = null;
-            if(!(var7 === var6)) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
-            var8 = _closure1_slot5;
-            var7 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var6 = 10;
-            var6 = var12[var6];
-            var6 = var7.bind(var4)(var6);
-            var7 = var6.SlashIcon;
-            var6 = {};
-            var12 = 'sm';
-            var6['size'] = var12;
-            var12 = var11.icon;
-            var6['style'] = var12;
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var12 = 3;
-            var12 = var14[var12];
-            var12 = var13.bind(var4)(var12);
-            var13 = var12.colors;
-            if(var9) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
-            var12 = var13.INTERACTIVE_TEXT_DEFAULT;
-            _fun0001_ip = 35; continue _fun0001;
-case 33:
-            var12 = var13.WHITE;
-case 35:
-            var6['color'] = var12;
-            var5 = var8.bind(var4)(var7, var6);
-case 31:
-            _fun0001_ip = 36; continue _fun0001;
-case 29:
-            var8 = _closure1_slot5;
-            var7 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var6 = 9;
-            var6 = var12[var6];
-            var6 = var7.bind(var4)(var6);
-            var7 = var6.CheckmarkLargeBoldIcon;
-            var6 = {};
-            var12 = 'sm';
-            var6['size'] = var12;
-            var12 = var11.icon;
-            var6['style'] = var12;
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var12 = 3;
-            var12 = var14[var12];
-            var12 = var13.bind(var4)(var12);
-            var13 = var12.colors;
-            if(var9) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
-            var12 = var13.ICON_FEEDBACK_POSITIVE;
-            _fun0001_ip = 39; continue _fun0001;
-case 37:
-            var12 = var13.WHITE;
-case 39:
-            var6['color'] = var12;
-            var5 = var8.bind(var4)(var7, var6);
-case 36:
-            _fun0001_ip = 40; continue _fun0001;
-case 27:
-            var8 = _closure1_slot5;
-            var7 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var6 = 8;
-            var6 = var12[var6];
-            var6 = var7.bind(var4)(var6);
-            var7 = var6.DenyIcon;
-            var6 = {};
-            var12 = 'sm';
-            var6['size'] = var12;
-            var11 = var11.icon;
-            var6['style'] = var11;
-            var11 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var10 = 3;
-            var10 = var12[var10];
-            var10 = var11.bind(var4)(var10);
-            var10 = var10.colors;
-            if(var9) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
-            var9 = var10.ICON_FEEDBACK_CRITICAL;
-            _fun0001_ip = 43; continue _fun0001;
-case 41:
-            var9 = var10.WHITE;
-case 43:
-            var6['color'] = var9;
-            var5 = var8.bind(var4)(var7, var6);
-case 40:
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 6;
+            var2 = var6[var1];
+            var2 = var4.bind(var5)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.t;
+            var1 = var1["6639O5"];
+            var1 = var2.bind(var3)(var1);
             return var1;
         }
     };
     var _closure1_slot8 = var1;
+    var1 = function getIcon(arg1, arg2, arg3) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = arg1;
+            var5 = arg2;
+            var7 = arg3;
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var8 = 5;
+            var1 = var1[var8];
+            var4 = undefined;
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.DENY;
+            if(!(var1 !== var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.ALLOW;
+            if(!(var1 !== var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.PASSTHROUGH;
+            if(!(var1 !== var2)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var1 = null;
+            return var1;
+case 12:
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 9;
+            var1 = var8[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.SlashIcon;
+            var1 = {};
+            var8 = 'sm';
+            var1['size'] = var8;
+            var8 = var7.icon;
+            var1['style'] = var8;
+            var9 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var8 = 3;
+            var8 = var10[var8];
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.colors;
+            if(var5) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            var8 = var9.INTERACTIVE_TEXT_DEFAULT;
+            _fun0002_ip = 16; continue _fun0002;
+case 14:
+            var8 = var9.WHITE;
+case 16:
+            var1['color'] = var8;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+case 10:
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 8;
+            var1 = var8[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.CheckmarkLargeBoldIcon;
+            var1 = {};
+            var8 = 'sm';
+            var1['size'] = var8;
+            var8 = var7.icon;
+            var1['style'] = var8;
+            var9 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var8 = 3;
+            var8 = var10[var8];
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.colors;
+            if(var5) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+            var8 = var9.ICON_FEEDBACK_POSITIVE;
+            _fun0002_ip = 19; continue _fun0002;
+case 17:
+            var8 = var9.WHITE;
+case 19:
+            var1['color'] = var8;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+case 8:
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 7;
+            var1 = var8[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.DenyIcon;
+            var1 = {};
+            var8 = 'sm';
+            var1['size'] = var8;
+            var7 = var7.icon;
+            var1['style'] = var7;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var6 = 3;
+            var6 = var8[var6];
+            var6 = var7.bind(var4)(var6);
+            var6 = var6.colors;
+            if(var5) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+            var5 = var6.ICON_FEEDBACK_CRITICAL;
+            _fun0002_ip = 22; continue _fun0002;
+case 20:
+            var5 = var6.WHITE;
+case 22:
+            var1['color'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot9 = var1;
+    var1 = function getPressableStyleOverrides(arg1, arg2, arg3) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var5 = arg1;
+            var1 = arg2;
+            var2 = arg3;
+            var8 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var7 = 5;
+            var6 = var3[var7];
+            var3 = undefined;
+            var6 = var8.bind(var3)(var6);
+            var6 = var6.DENY;
+            if(!(var6 !== var5)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var7];
+            var6 = var8.bind(var3)(var6);
+            var6 = var6.ALLOW;
+            if(!(var6 !== var5)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var7];
+            var4 = var6.bind(var3)(var4);
+            var4 = var4.PASSTHROUGH;
+            if(!(var4 !== var5)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
+            return var3;
+case 27:
+            if(var1) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
+            var3 = var2.passthroughActive;
+            _fun0003_ip = 31; continue _fun0003;
+case 29:
+            var3 = var2.passthroughSelected;
+case 31:
+            return var3;
+case 25:
+            if(var1) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
+            var3 = var2.allowActive;
+            _fun0003_ip = 34; continue _fun0003;
+case 32:
+            var3 = var2.allowSelected;
+case 34:
+            return var3;
+case 23:
+            if(var1) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
+            var1 = var2.denyActive;
+            _fun0003_ip = 37; continue _fun0003;
+case 35:
+            var1 = var2.denySelected;
+case 37:
+            return var1;
+        }
+    };
+    var _closure1_slot10 = var1;
+    var1 = function OverrideOption(arg1) {
+        var1 = arg1;
+        var8 = var1.type;
+        var _closure2_slot0 = var8;
+        var7 = var1.selected;
+        var _closure2_slot1 = var7;
+        var6 = var1.styles;
+        var _closure2_slot2 = var6;
+        var9 = var1.onPress;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 10;
+        var1 = var3[var1];
+        var4 = undefined;
+        var3 = var2.bind(var4)(var1);
+        var2 = var3.useRadioA11yNative;
+        var1 = {};
+        var1['selected'] = var7;
+        var1 = var2.bind(var3)(var1);
+        var12 = var1.accessibilityRole;
+        var11 = var1.accessibilityState;
+        var3 = _closure1_slot5;
+        var2 = _closure1_slot3;
+        var1 = {};
+        var1['accessibilityRole'] = var12;
+        var12 = _closure1_slot8;
+        var12 = var12.bind(var4)(var8);
+        var1['accessibilityLabel'] = var12;
+        var1['accessibilityState'] = var11;
+        var10 = function style(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var1 = arg1;
+                var1 = var1.pressed;
+                var3 = _closure2_slot1;
+                if(var3) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
+                if(var1) { _fun0004_ip = 38; continue _fun0004 }
+case 40:
+                var1 = _closure2_slot2;
+                var1 = var1.iconWrapper;
+                _fun0004_ip = 41; continue _fun0004;
+case 38:
+                var6 = _closure1_slot10;
+                var5 = _closure2_slot0;
+                var4 = _closure2_slot1;
+                var3 = _closure2_slot2;
+                var2 = undefined;
+                var4 = var6.bind(var2)(var5, var4, var3);
+                var2 = new Array(2);
+                var2[0] = var4;
+                var3 = var3.iconWrapper;
+                var2[1] = var3;
+                var1 = var2;
+case 41:
+                return var1;
+            }
+        };
+        var1['style'] = var10;
+        var1['onPress'] = var9;
+        var5 = _closure1_slot9;
+        var5 = var5.bind(var4)(var8, var7, var6);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot11 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -445,17 +473,17 @@ case 40:
     var _closure1_slot7 = var4;
     var4 = var7.memo;
     var2 = function ChannelSettingsPermissionsOverrideCheckbox(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.value;
             var _closure2_slot0 = var2;
             var8 = var1.disabled;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0003_ip = 44; continue _fun0003 }
-case 45:
+            if(!(var8 === var4)) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
             var8 = false;
-case 44:
+case 42:
             var1 = var1.onValueChange;
             var _closure2_slot1 = var1;
             var _closure2_slot2 = var4;
@@ -469,17 +497,17 @@ case 44:
             var7 = new Array(2);
             var7[0] = var9;
             var9 = var8;
-            if(!var9) { _fun0003_ip = 46; continue _fun0003 }
-case 47:
+            if(!var9) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
             var9 = var10.disabled;
-case 46:
+case 44:
             var7[1] = var9;
             var1['style'] = var7;
             var7 = 'auto';
-            if(!var8) { _fun0003_ip = 48; continue _fun0003 }
-case 49:
+            if(!var8) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
             var7 = 'none';
-case 48:
+case 46:
             var1['pointerEvents'] = var7;
             var7 = 'radiogroup';
             var1['accessibilityRole'] = var7;
@@ -489,7 +517,7 @@ case 48:
                 var7 = arg1;
                 var _closure3_slot0 = var7;
                 var5 = _closure1_slot5;
-                var4 = _closure1_slot8;
+                var4 = _closure1_slot11;
                 var3 = {};
                 var3['type'] = var7;
                 var6 = _closure2_slot0;
@@ -498,24 +526,24 @@ case 48:
                 var2 = _closure2_slot2;
                 var3['styles'] = var2;
                 var1 = function onPress() {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                         var3 = _closure2_slot1;
                         var2 = null;
                         var2 = var2 != var3;
-                        if(!var2) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
+                        if(!var2) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
                         var4 = _closure2_slot0;
                         var3 = _closure3_slot0;
                         var2 = var4 !== var3;
-case 50:
-                        if(!var2) { _fun0004_ip = 52; continue _fun0004 }
-case 10:
+case 48:
+                        if(!var2) { _fun0006_ip = 50; continue _fun0006 }
+case 38:
                         var3 = _closure2_slot1;
                         var2 = _closure3_slot0;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
-case 52:
+case 50:
                         var1 = undefined;
                         return var1;
                     }

@@ -73,5 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['LOGITECH_PARTNER_ID'] = var2;
     var2 = 'xbox';
     var3['XBOX_PARTNER_ID'] = var2;
+    var2 = 'youtube';
+    var3['YOUTUBE_PARTNER_ID'] = var2;
     return var1;
 })();

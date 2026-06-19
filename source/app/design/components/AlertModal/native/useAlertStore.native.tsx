@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'design/components/AlertModal/native/useAlertStore.native.tsx';
     var5 = var6.bind(var7)(var5);
     var3['useAlertStore'] = var4;
-    var4 = function() {
+    var4 = function dismissAlerts() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot4;
@@ -133,7 +133,7 @@ case 7:
         }
     };
     var3['dismissAlerts'] = var4;
-    var4 = function(arg1) {
+    var4 = function dismissAlert(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var5 = arg1;
@@ -228,7 +228,7 @@ case 17:
         }
     };
     var3['dismissAlert'] = var4;
-    var2 = function(arg1, arg2, arg3, arg4) {
+    var2 = function openAlert(arg1, arg2, arg3, arg4) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;

@@ -48,9 +48,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var7 = var1.product;
         var _closure2_slot0 = var7;
-        var9 = var1.analyticsLocations;
+        var11 = var1.analyticsLocations;
         var8 = var1.onBuy;
         var _closure2_slot1 = var8;
+        var9 = var1.orderId;
         var10 = undefined;
         var _closure2_slot3 = var10;
         var1 = function _onPurchaseComplete() {
@@ -133,14 +134,14 @@ case 2:
         var1 = var5[var1];
         _closure2_slot3 = var1;
         var5 = _closure1_slot1;
-        var11 = _closure1_slot2;
+        var12 = _closure1_slot2;
         var1 = 5;
-        var1 = var11[var1];
+        var1 = var12[var1];
         var5 = var5.bind(var10)(var1);
         var1 = {};
         var1['product'] = var7;
-        var1['analyticsLocations'] = var9;
-        var9 = function onPurchaseComplete() {
+        var1['analyticsLocations'] = var11;
+        var11 = function onPurchaseComplete() {
             var1 = undefined;
             var4 = _closure2_slot5;
             var3 = var4.apply;
@@ -150,20 +151,21 @@ case 2:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var1['onPurchaseComplete'] = var9;
-        var9 = function onPurchaseError() {
+        var1['onPurchaseComplete'] = var11;
+        var11 = function onPurchaseError() {
             var3 = _closure2_slot3;
             var1 = undefined;
             var2 = false;
             var2 = var3.bind(var1)(var2);
             return var1;
         };
-        var1['onPurchaseError'] = var9;
-        var9 = function onPurchasePending() {
+        var1['onPurchaseError'] = var11;
+        var11 = function onPurchasePending() {
             var1 = undefined;
             return var1;
         };
-        var1['onPurchasePending'] = var9;
+        var1['onPurchasePending'] = var11;
+        var1['orderId'] = var9;
         var9 = var5.bind(var10)(var1);
         var _closure2_slot4 = var9;
         var1 = {};

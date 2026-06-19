@@ -202,7 +202,7 @@ case 35:
     var _closure1_slot3 = var4;
     var4 = [25, 50, 75];
     var _closure1_slot4 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -588,42 +588,56 @@ case 47:
         var4[2] = var8;
         var4[3] = var7;
         var4[4] = var6;
-        var3 = function(arg1) {
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var1 = 4;
-            var2 = var9[var1];
-            var1 = undefined;
-            var4 = var8.bind(var1)(var2);
-            var3 = var4.trackAdContentEvent;
-            var2 = {};
-            var7 = _closure2_slot0;
-            var2['adContentId'] = var7;
-            var7 = 5;
-            var7 = var9[var7];
-            var7 = var8.bind(var1)(var7);
-            var7 = var7.AdCreativeType;
-            var7 = var7.BOUNTY;
-            var2['adCreativeType'] = var7;
-            var6 = _closure1_slot3;
-            var6 = var6.AD_VIDEO_PAUSED;
-            var2['event'] = var6;
-            var6 = {};
-            var7 = arg1;
-            var6['video_timestamp_seconds'] = var7;
-            var7 = _closure2_slot4;
-            var6['video_session_id'] = var7;
-            var7 = _closure2_slot3;
-            var6['impression_id'] = var7;
-            var8 = _closure2_slot2;
-            var7 = 1000;
-            var7 = var8 / var7;
-            var6['reward_timer_seconds'] = var7;
-            var2['properties'] = var6;
-            var5 = _closure2_slot1;
-            var2['sourceQuestContent'] = var5;
-            var2 = var3.bind(var4)(var2);
-            return var1;
+        var3 = function(arg1, arg2) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 7;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var2 = var2.PlaybackTriggerSource;
+                var3 = var2.USER_INTERACTION;
+                var2 = arg2;
+                if(!(var2 === var3)) { _fun0009_ip = 49; continue _fun0009 }
+case 47:
+                var8 = _closure1_slot0;
+                var9 = _closure1_slot1;
+                var2 = 4;
+                var2 = var9[var2];
+                var4 = var8.bind(var1)(var2);
+                var3 = var4.trackAdContentEvent;
+                var2 = {};
+                var7 = _closure2_slot0;
+                var2['adContentId'] = var7;
+                var7 = 5;
+                var7 = var9[var7];
+                var7 = var8.bind(var1)(var7);
+                var7 = var7.AdCreativeType;
+                var7 = var7.BOUNTY;
+                var2['adCreativeType'] = var7;
+                var6 = _closure1_slot3;
+                var6 = var6.AD_VIDEO_PAUSED;
+                var2['event'] = var6;
+                var6 = {};
+                var7 = arg1;
+                var6['video_timestamp_seconds'] = var7;
+                var7 = _closure2_slot4;
+                var6['video_session_id'] = var7;
+                var7 = _closure2_slot3;
+                var6['impression_id'] = var7;
+                var8 = _closure2_slot2;
+                var7 = 1000;
+                var7 = var8 / var7;
+                var6['reward_timer_seconds'] = var7;
+                var2['properties'] = var6;
+                var5 = _closure2_slot1;
+                var2['sourceQuestContent'] = var5;
+                var2 = var3.bind(var4)(var2);
+case 49:
+                return var1;
+            }
         };
         var3 = var11.bind(var5)(var3, var4);
         var1['handleVideoPausedAnalytics'] = var3;
@@ -634,42 +648,56 @@ case 47:
         var3[2] = var8;
         var3[3] = var7;
         var3[4] = var6;
-        var2 = function(arg1) {
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var1 = 4;
-            var2 = var9[var1];
-            var1 = undefined;
-            var4 = var8.bind(var1)(var2);
-            var3 = var4.trackAdContentEvent;
-            var2 = {};
-            var7 = _closure2_slot0;
-            var2['adContentId'] = var7;
-            var7 = 5;
-            var7 = var9[var7];
-            var7 = var8.bind(var1)(var7);
-            var7 = var7.AdCreativeType;
-            var7 = var7.BOUNTY;
-            var2['adCreativeType'] = var7;
-            var6 = _closure1_slot3;
-            var6 = var6.AD_VIDEO_RESUMED;
-            var2['event'] = var6;
-            var6 = {};
-            var7 = arg1;
-            var6['video_timestamp_seconds'] = var7;
-            var7 = _closure2_slot4;
-            var6['video_session_id'] = var7;
-            var7 = _closure2_slot3;
-            var6['impression_id'] = var7;
-            var8 = _closure2_slot2;
-            var7 = 1000;
-            var7 = var8 / var7;
-            var6['reward_timer_seconds'] = var7;
-            var2['properties'] = var6;
-            var5 = _closure2_slot1;
-            var2['sourceQuestContent'] = var5;
-            var2 = var3.bind(var4)(var2);
-            return var1;
+        var2 = function(arg1, arg2) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 7;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var2 = var2.PlaybackTriggerSource;
+                var3 = var2.USER_INTERACTION;
+                var2 = arg2;
+                if(!(var2 === var3)) { _fun0010_ip = 49; continue _fun0010 }
+case 47:
+                var8 = _closure1_slot0;
+                var9 = _closure1_slot1;
+                var2 = 4;
+                var2 = var9[var2];
+                var4 = var8.bind(var1)(var2);
+                var3 = var4.trackAdContentEvent;
+                var2 = {};
+                var7 = _closure2_slot0;
+                var2['adContentId'] = var7;
+                var7 = 5;
+                var7 = var9[var7];
+                var7 = var8.bind(var1)(var7);
+                var7 = var7.AdCreativeType;
+                var7 = var7.BOUNTY;
+                var2['adCreativeType'] = var7;
+                var6 = _closure1_slot3;
+                var6 = var6.AD_VIDEO_RESUMED;
+                var2['event'] = var6;
+                var6 = {};
+                var7 = arg1;
+                var6['video_timestamp_seconds'] = var7;
+                var7 = _closure2_slot4;
+                var6['video_session_id'] = var7;
+                var7 = _closure2_slot3;
+                var6['impression_id'] = var7;
+                var8 = _closure2_slot2;
+                var7 = 1000;
+                var7 = var8 / var7;
+                var6['reward_timer_seconds'] = var7;
+                var2['properties'] = var6;
+                var5 = _closure2_slot1;
+                var2['sourceQuestContent'] = var5;
+                var2 = var3.bind(var4)(var2);
+case 49:
+                return var1;
+            }
         };
         var2 = var4.bind(var5)(var2, var3);
         var1['handleVideoResumedAnalytics'] = var2;

@@ -3672,7 +3672,7 @@ case 191:
     var5 = 'lib/ChannelMessages.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var2 = function(arg1) {
+    var2 = function flatMapChannelMessages(arg1) {
         var3 = arg1;
         var2 = var3.flatMap;
         var1 = function(arg1) {

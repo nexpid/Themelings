@@ -35,21 +35,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
-        var4 = 2;
-        var3 = var7[var4];
-        var5 = undefined;
-        var9 = var6.bind(var5)(var3);
-        var8 = var9.makeMutable;
-        var3 = 0;
-        var8 = var8.bind(var9)(var3);
-        var1['panelX'] = var8;
-        var4 = var7[var4];
-        var6 = var6.bind(var5)(var4);
-        var5 = var6.makeMutable;
-        var4 = {'active': false, 'initialX': 0, 'initialY': 0, 'panelX': 0};
-        var4 = var5.bind(var6)(var4);
-        var1['gestureState'] = var4;
-        var1['maxX'] = var3;
+        var3 = 2;
+        var5 = var7[var3];
+        var4 = undefined;
+        var8 = var6.bind(var4)(var5);
+        var5 = var8.makeMutable;
+        var9 = 0;
+        var5 = var5.bind(var8)(var9);
+        var1['panelX'] = var5;
+        var5 = var7[var3];
+        var11 = var6.bind(var4)(var5);
+        var10 = var11.makeMutable;
+        var5 = false;
+        var8 = {'active': false, 'initialX': 0, 'initialY': 0, 'panelX': 0};
+        var8 = var10.bind(var11)(var8);
+        var1['gestureState'] = var8;
+        var1['maxX'] = var9;
+        var8 = {};
+        var8['current'] = var9;
+        var1['lastInteractionAt'] = var8;
+        var3 = var7[var3];
+        var4 = var6.bind(var4)(var3);
+        var3 = var4.makeMutable;
+        var3 = var3.bind(var4)(var5);
+        var1['isPanelTouchActive'] = var3;
         var3 = function setPanelX(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -85,7 +94,7 @@ case 4:
             }
         };
         var1['setPanelX'] = var3;
-        var2 = function updateMaxX(arg1, arg2) {
+        var3 = function updateMaxX(arg1, arg2) {
             var1 = arg2;
             var2 = arg1;
             var3 = var2.width;
@@ -105,7 +114,20 @@ case 4:
             var2 = var3.bind(var1)(var2);
             return var1;
         };
-        var1['updateMaxX'] = var2;
+        var1['updateMaxX'] = var3;
+        var2 = function noteInteraction() {
+            var2 = _closure2_slot1;
+            var1 = undefined;
+            var2 = var2.bind(var1)();
+            var3 = var2.lastInteractionAt;
+            var2 = global;
+            var4 = var2.Date;
+            var2 = var4.now;
+            var2 = var2.bind(var4)();
+            var3['current'] = var2;
+            return var1;
+        };
+        var1['noteInteraction'] = var2;
         return var1;
     };
     var2 = var7.bind(var8)(var2, var4);

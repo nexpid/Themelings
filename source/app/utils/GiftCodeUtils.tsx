@@ -1,12 +1,54 @@
 // app/utils/GiftCodeUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var11 = require;
-    var15 = metroImportDefault;
+    var16 = metroImportDefault;
     var3 = exports;
     var12 = dependencyMap;
     var _closure1_slot0 = var11;
-    var _closure1_slot1 = var15;
+    var _closure1_slot1 = var16;
     var _closure1_slot2 = var12;
+    var8 = function getGiftExperience(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var5 = 7;
+            var1 = var1[var5];
+            var4 = undefined;
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.isMobile;
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var5];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.isTablet;
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            var3 = null;
+            var1 = arg1;
+            if(!(var3 == var1)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            var1 = arg2;
+            if(var1) { _fun0001_ip = 5; continue _fun0001 }
+case 7:
+            var1 = _closure1_slot17;
+            var1 = var1.CUSTOM_STYLE;
+            _fun0001_ip = 8; continue _fun0001;
+case 5:
+            var3 = _closure1_slot17;
+            var1 = var3.CUSTOM_MESSAGE_EMOJI_SOUNDBOARD;
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
+case 2:
+            var2 = _closure1_slot17;
+            var1 = var2.DEFAULT;
+case 9:
+            return var1;
+        }
+    };
+    var _closure1_slot18 = var8;
     var7 = function cleanCode(arg1) {
         var4 = arg1;
         var3 = var4.replace;
@@ -22,33 +64,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot3;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
-                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     StartGenerator();
                     var4 = arguments[1];
                     var2 = arguments[2];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+                    if(var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var11 = arg1;
                     var6 = undefined;
-                    if(!(var4 === var6)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+                    if(!(var4 === var6)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var4 = false;
-case 4:
+case 12:
                     var10 = var4;
-                    if(!(var2 === var6)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+                    if(!(var2 === var6)) { _fun0002_ip = 14; continue _fun0002 }
+case 3:
                     var2 = false;
-case 6:
+case 14:
                     var9 = var2;
                     SaveGenerator(address=43);
-case 8:
+case 15:
                     return var6;
-case 9:
+case 16:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11: // try_start_0
+                    if(var3) { _fun0002_ip = 17; continue _fun0002 }
+case 18: // try_start_0
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 8;
@@ -71,12 +113,12 @@ case 11: // try_start_0
                     var3['rejectWithError'] = var8;
                     var3 = var4.bind(var7)(var3);
                     SaveGenerator(address=146);
-case 12:
+case 19:
                     return var3;
-case 13:
+case 20:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+                    if(var4) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                     var4 = var3.body;
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -111,11 +153,11 @@ case 15:
                     var5 = {};
                     var5['flush'] = var12;
                     var5 = var9.bind(var10)(var8, var7, var5);
-case 16: // try_end0
+case 23: // try_end0
                     return var4;
-case 14:
+case 21:
                     return var3;
-case 17: // catch_target0
+case 24: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -140,9 +182,9 @@ case 17: // catch_target0
                     var3 = new var17[var3](var16, var15);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
-case 10:
+case 17:
                     return var2;
-case 2:
+case 10:
                     return var1;
                 }
             };
@@ -323,21 +365,21 @@ case 2:
     };
     var _closure1_slot21 = var6;
     var5 = function getErrorMessage(arg1, arg2, arg3, arg4, arg5) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var6 = arg2;
             var5 = undefined;
             var2 = arg3;
             var4 = undefined;
-            if(var2) { _fun0002_ip = 4; continue _fun0002 }
-case 3:
+            if(var2) { _fun0003_ip = 12; continue _fun0003 }
+case 11:
             var2 = arg4;
             var4 = undefined;
-            if(var2) { _fun0002_ip = 4; continue _fun0002 }
-case 18:
+            if(var2) { _fun0003_ip = 12; continue _fun0003 }
+case 25:
             var4 = var1;
-case 4:
+case 12:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 12;
@@ -354,65 +396,65 @@ case 4:
             var1['onGoToLibrary'] = var9;
             var1 = var7.bind(var8)(var2, var1);
             var2 = null;
-            if(!(var2 == var4)) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+            if(!(var2 == var4)) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var4 = var2 == var6;
             var2 = null;
-            if(var4) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+            if(var4) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var4 = _closure1_slot23;
             var7 = _closure1_slot6;
             var3 = var7.getCurrentUser;
             var3 = var3.bind(var7)();
             var2 = var4.bind(var5)(var6, var3);
-case 21:
+case 28:
             var1 = var2;
-case 19:
+case 26:
             return var1;
         }
     };
     var _closure1_slot22 = var5;
     var2 = function getGiftCodeRedeemError(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.code;
             var2 = _closure1_slot9;
             var2 = var2.INVALID_GIFT_SELF_REDEMPTION;
-            if(!(var2 !== var3)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+            if(!(var2 !== var3)) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var2 = _closure1_slot9;
             var2 = var2.INVALID_GIFT_REDEMPTION_EXHAUSTED;
-            if(!(var2 !== var3)) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+            if(!(var2 !== var3)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var2 = _closure1_slot9;
             var2 = var2.INVALID_GIFT_REDEMPTION_OWNED;
-            if(!(var2 !== var3)) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-            var2 = _closure1_slot9;
-            var2 = var2.UNKNOWN_GIFT_CODE;
-            if(!(var2 !== var3)) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
-            var2 = _closure1_slot9;
-            var2 = var2.INVALID_GIFT_REDEMPTION_SUBSCRIPTION_INCOMPATIBLE;
-            if(!(var2 !== var3)) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
-            var2 = _closure1_slot9;
-            var2 = var2.INVALID_GIFT_REDEMPTION_SUBSCRIPTION_MANAGED;
-            if(!(var2 !== var3)) { _fun0003_ip = 33; continue _fun0003 }
-case 22:
-            var2 = _closure1_slot9;
-            var2 = var2.INVALID_GIFT_REDEMPTION_INVOICE_OPEN;
-            if(!(var2 !== var3)) { _fun0003_ip = 34; continue _fun0003 }
+            if(!(var2 !== var3)) { _fun0004_ip = 34; continue _fun0004 }
 case 35:
             var2 = _closure1_slot9;
-            var2 = var2.INVALID_GIFT_REDEMPTION_FRAUD_REJECTED;
-            if(!(var2 !== var3)) { _fun0003_ip = 36; continue _fun0003 }
+            var2 = var2.UNKNOWN_GIFT_CODE;
+            if(!(var2 !== var3)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
             var2 = _closure1_slot9;
-            var2 = var2.BILLING_NON_REFUNDABLE_PAYMENT_SOURCE;
-            if(!(var2 !== var3)) { _fun0003_ip = 38; continue _fun0003 }
+            var2 = var2.INVALID_GIFT_REDEMPTION_SUBSCRIPTION_INCOMPATIBLE;
+            if(!(var2 !== var3)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
+            var2 = _closure1_slot9;
+            var2 = var2.INVALID_GIFT_REDEMPTION_SUBSCRIPTION_MANAGED;
+            if(!(var2 !== var3)) { _fun0004_ip = 40; continue _fun0004 }
+case 29:
+            var2 = _closure1_slot9;
+            var2 = var2.INVALID_GIFT_REDEMPTION_INVOICE_OPEN;
+            if(!(var2 !== var3)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
+            var2 = _closure1_slot9;
+            var2 = var2.INVALID_GIFT_REDEMPTION_FRAUD_REJECTED;
+            if(!(var2 !== var3)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+            var2 = _closure1_slot9;
+            var2 = var2.BILLING_NON_REFUNDABLE_PAYMENT_SOURCE;
+            if(!(var2 !== var3)) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 12;
@@ -427,7 +469,7 @@ case 39:
             var2 = var2.s9+XlB;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 38:
+case 45:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 12;
@@ -442,7 +484,7 @@ case 38:
             var2 = var2.mXMmWE;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 36:
+case 43:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 12;
@@ -457,7 +499,7 @@ case 36:
             var2 = var2.ypuSd8;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 34:
+case 41:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 12;
@@ -472,7 +514,7 @@ case 34:
             var2 = var2.U26WX+;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 33:
+case 40:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 12;
@@ -487,7 +529,7 @@ case 33:
             var2 = var2["9i1J30"];
             var2 = var3.bind(var4)(var2);
             return var2;
-case 31:
+case 38:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var12 = 12;
@@ -518,19 +560,19 @@ case 31:
             var7 = var7[var12];
             var7 = var10.bind(var11)(var7);
             var7 = var7.t;
-            if(var6) { _fun0003_ip = 40; continue _fun0003 }
-case 41:
+            if(var6) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
             var6 = var7.FSOz78;
             var6 = var8.bind(var9)(var6);
-            _fun0003_ip = 42; continue _fun0003;
-case 40:
+            _fun0004_ip = 49; continue _fun0004;
+case 47:
             var7 = var7.lG6a5x;
             var6 = var8.bind(var9)(var7);
-case 42:
+case 49:
             var2['planName'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 29:
+case 36:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 12;
@@ -545,7 +587,7 @@ case 29:
             var2 = var2.roztIr;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 27:
+case 34:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 12;
@@ -560,7 +602,7 @@ case 27:
             var2 = var2.mdLtb5;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 25:
+case 32:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 12;
@@ -575,7 +617,7 @@ case 25:
             var2 = var2.Iw2TUW;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 23:
+case 30:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 12;
@@ -593,66 +635,66 @@ case 23:
         }
     };
     var _closure1_slot23 = var2;
-    var8 = global;
-    var13 = var8.Object;
-    var10 = var13.defineProperty;
-    var9 = {};
+    var9 = global;
+    var14 = var9.Object;
+    var13 = var14.defineProperty;
+    var10 = {};
     var1 = true;
-    var9['value'] = var1;
+    var10['value'] = var1;
     var1 = '__esModule';
-    var1 = var10.bind(var13)(var3, var1, var9);
-    var14 = 0;
-    var9 = var12[var14];
+    var1 = var13.bind(var14)(var3, var1, var10);
+    var15 = 0;
+    var10 = var12[var15];
     var1 = undefined;
-    var9 = var15.bind(var1)(var9);
-    var _closure1_slot3 = var9;
-    var13 = 1;
-    var9 = var12[var13];
-    var9 = var15.bind(var1)(var9);
-    var _closure1_slot4 = var9;
-    var10 = 2;
-    var9 = var12[var10];
-    var9 = var15.bind(var1)(var9);
-    var _closure1_slot5 = var9;
-    var18 = 3;
-    var9 = var12[var18];
-    var9 = var15.bind(var1)(var9);
-    var _closure1_slot6 = var9;
-    var20 = 4;
-    var9 = var12[var20];
-    var9 = var11.bind(var1)(var9);
-    var16 = var9.Endpoints;
-    var _closure1_slot7 = var16;
-    var16 = var9.AnalyticEvents;
-    var _closure1_slot8 = var16;
-    var16 = var9.AbortCodes;
-    var _closure1_slot9 = var16;
-    var16 = var9.GiftCodeModalStates;
-    var _closure1_slot10 = var16;
-    var16 = var9.MessageEmbedTypes;
-    var _closure1_slot11 = var16;
-    var9 = var9.MessageTypes;
-    var _closure1_slot12 = var9;
-    var17 = 5;
-    var9 = var12[var17];
-    var9 = var11.bind(var1)(var9);
-    var16 = var9.PremiumTypes;
-    var _closure1_slot13 = var16;
-    var9 = var9.SubscriptionIntervalTypes;
-    var _closure1_slot14 = var9;
-    var19 = 6;
-    var9 = var12[var19];
-    var16 = var15.bind(var1)(var9);
-    var15 = var16.escape;
-    var9 = var8.window;
-    var9 = var9.GLOBAL_ENV;
-    var9 = var9.GIFT_CODE_HOST;
-    var9 = var15.bind(var16)(var9);
-    var15 = new Array(1);
-    var15[0] = var9;
-    var21 = ['discordapp.com/gifts', 'discord.com/gifts'];
-    var16 = var21.map;
-    var9 = function(arg1) {
+    var10 = var16.bind(var1)(var10);
+    var _closure1_slot3 = var10;
+    var14 = 1;
+    var10 = var12[var14];
+    var10 = var16.bind(var1)(var10);
+    var _closure1_slot4 = var10;
+    var13 = 2;
+    var10 = var12[var13];
+    var10 = var16.bind(var1)(var10);
+    var _closure1_slot5 = var10;
+    var19 = 3;
+    var10 = var12[var19];
+    var10 = var16.bind(var1)(var10);
+    var _closure1_slot6 = var10;
+    var21 = 4;
+    var10 = var12[var21];
+    var10 = var11.bind(var1)(var10);
+    var17 = var10.Endpoints;
+    var _closure1_slot7 = var17;
+    var17 = var10.AnalyticEvents;
+    var _closure1_slot8 = var17;
+    var17 = var10.AbortCodes;
+    var _closure1_slot9 = var17;
+    var17 = var10.GiftCodeModalStates;
+    var _closure1_slot10 = var17;
+    var17 = var10.MessageEmbedTypes;
+    var _closure1_slot11 = var17;
+    var10 = var10.MessageTypes;
+    var _closure1_slot12 = var10;
+    var18 = 5;
+    var10 = var12[var18];
+    var10 = var11.bind(var1)(var10);
+    var17 = var10.PremiumTypes;
+    var _closure1_slot13 = var17;
+    var10 = var10.SubscriptionIntervalTypes;
+    var _closure1_slot14 = var10;
+    var20 = 6;
+    var10 = var12[var20];
+    var17 = var16.bind(var1)(var10);
+    var16 = var17.escape;
+    var10 = var9.window;
+    var10 = var10.GLOBAL_ENV;
+    var10 = var10.GIFT_CODE_HOST;
+    var10 = var16.bind(var17)(var10);
+    var16 = new Array(1);
+    var16[0] = var10;
+    var22 = ['discordapp.com/gifts', 'discord.com/gifts'];
+    var17 = var22.map;
+    var10 = function(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 6;
@@ -664,30 +706,30 @@ case 23:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var26 = var16.bind(var21)(var9);
-    var27 = var15;
-    var25 = var13;
-    var9 = arraySpread(var27, var26, var25);
-    var9 = var15.join;
-    var16 = '|';
-    var22 = var9.bind(var15)(var16);
-    var21 = var8.RegExp;
-    var9 = var8.HermesInternal;
-    var15 = var9.concat;
-    var24 = '(?: |^|https?://)(?:';
-    var9 = ')/([a-z0-9-]+)';
-    var27 = var15.bind(var24)(var22, var9);
-    var15 = var21.prototype;
-    var15 = Object.create(var15, {constructor: {value: var21}});
-    var22 = 'gi';
-    var28 = var15;
-    var26 = var22;
-    var9 = new var28[var21](var27, var26, var25);
-    var9 = var9 instanceof Object ? var9 : var15;
-    var _closure1_slot15 = var9;
-    var21 = ['discord.com/billing/promotions', 'promos.discord.gg'];
-    var15 = var21.map;
-    var9 = function(arg1) {
+    var27 = var17.bind(var22)(var10);
+    var28 = var16;
+    var26 = var14;
+    var10 = arraySpread(var28, var27, var26);
+    var10 = var16.join;
+    var17 = '|';
+    var23 = var10.bind(var16)(var17);
+    var22 = var9.RegExp;
+    var10 = var9.HermesInternal;
+    var16 = var10.concat;
+    var25 = '(?: |^|https?://)(?:';
+    var10 = ')/([a-z0-9-]+)';
+    var28 = var16.bind(var25)(var23, var10);
+    var16 = var22.prototype;
+    var16 = Object.create(var16, {constructor: {value: var22}});
+    var23 = 'gi';
+    var29 = var16;
+    var27 = var23;
+    var10 = new var29[var22](var28, var27, var26);
+    var10 = var10 instanceof Object ? var10 : var16;
+    var _closure1_slot15 = var10;
+    var22 = ['discord.com/billing/promotions', 'promos.discord.gg'];
+    var16 = var22.map;
+    var10 = function(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 6;
@@ -699,23 +741,23 @@ case 23:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var26 = var15.bind(var21)(var9);
-    var15 = new Array(0);
-    var27 = var15;
-    var25 = 0;
-    var9 = arraySpread(var27, var26, var25);
-    var9 = var15.join;
-    var23 = var9.bind(var15)(var16);
-    var21 = var8.RegExp;
-    var9 = var8.HermesInternal;
-    var15 = var9.concat;
-    var9 = ')(/|(/)?\\?code=)([a-z0-9-]+)';
-    var27 = var15.bind(var24)(var23, var9);
-    var9 = var21.prototype;
-    var28 = Object.create(var9, {constructor: {value: var21}});
-    var26 = var22;
-    var9 = new var28[var21](var27, var26, var25);
-    var9 = function(arg1, arg2) {
+    var27 = var16.bind(var22)(var10);
+    var16 = new Array(0);
+    var28 = var16;
+    var26 = 0;
+    var10 = arraySpread(var28, var27, var26);
+    var10 = var16.join;
+    var24 = var10.bind(var16)(var17);
+    var22 = var9.RegExp;
+    var10 = var9.HermesInternal;
+    var16 = var10.concat;
+    var10 = ')(/|(/)?\\?code=)([a-z0-9-]+)';
+    var28 = var16.bind(var25)(var24, var10);
+    var10 = var22.prototype;
+    var29 = Object.create(var10, {constructor: {value: var22}});
+    var27 = var23;
+    var10 = new var29[var22](var28, var27, var26);
+    var10 = function(arg1, arg2) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var2 = global;
@@ -742,82 +784,40 @@ case 23:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var21 = var9.bind(var1)(var20, var20);
-    var15 = new Array(4);
-    var15[0] = var21;
-    var19 = var9.bind(var1)(var20, var19);
-    var15[1] = var19;
-    var9 = var9.bind(var1)(var17, var18);
-    var15[2] = var9;
-    var9 = '[a-zA-Z]{4}-?[0-9a-zA-Z]{4}-?[a-zA-Z]{4}';
-    var15[3] = var9;
-    var9 = var15.join;
-    var17 = var9.bind(var15)(var16);
-    var15 = var8.RegExp;
-    var8 = var8.HermesInternal;
-    var16 = var8.concat;
-    var9 = '^(WUMP-?)?(';
-    var8 = ')$';
-    var27 = var16.bind(var9)(var17, var8);
-    var9 = var15.prototype;
-    var9 = Object.create(var9, {constructor: {value: var15}});
-    var28 = var9;
-    var8 = new var28[var15](var27, var26);
-    var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot16 = var8;
+    var22 = var10.bind(var1)(var21, var21);
+    var16 = new Array(4);
+    var16[0] = var22;
+    var20 = var10.bind(var1)(var21, var20);
+    var16[1] = var20;
+    var10 = var10.bind(var1)(var18, var19);
+    var16[2] = var10;
+    var10 = '[a-zA-Z]{4}-?[0-9a-zA-Z]{4}-?[a-zA-Z]{4}';
+    var16[3] = var10;
+    var10 = var16.join;
+    var18 = var10.bind(var16)(var17);
+    var16 = var9.RegExp;
+    var9 = var9.HermesInternal;
+    var17 = var9.concat;
+    var10 = '^(WUMP-?)?(';
+    var9 = ')$';
+    var28 = var17.bind(var10)(var18, var9);
+    var10 = var16.prototype;
+    var10 = Object.create(var10, {constructor: {value: var16}});
+    var29 = var10;
+    var9 = new var29[var16](var28, var27);
+    var9 = var9 instanceof Object ? var9 : var10;
+    var _closure1_slot16 = var9;
     var9 = {};
-    var9['DEFAULT'] = var14;
-    var8 = 'DEFAULT';
-    var9[var14] = var8;
-    var9['CUSTOM_STYLE'] = var13;
-    var8 = 'CUSTOM_STYLE';
-    var9[var13] = var8;
-    var9['CUSTOM_MESSAGE_EMOJI_SOUNDBOARD'] = var10;
-    var8 = 'CUSTOM_MESSAGE_EMOJI_SOUNDBOARD';
-    var9[var10] = var8;
+    var9['DEFAULT'] = var15;
+    var10 = 'DEFAULT';
+    var9[var15] = var10;
+    var9['CUSTOM_STYLE'] = var14;
+    var10 = 'CUSTOM_STYLE';
+    var9[var14] = var10;
+    var9['CUSTOM_MESSAGE_EMOJI_SOUNDBOARD'] = var13;
+    var10 = 'CUSTOM_MESSAGE_EMOJI_SOUNDBOARD';
+    var9[var13] = var10;
     var _closure1_slot17 = var9;
-    var8 = function getGiftExperience(arg1, arg2) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-            var3 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var5 = 7;
-            var1 = var1[var5];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var1 = var1.isMobile;
-            if(var1) { _fun0004_ip = 43; continue _fun0004 }
-case 7:
-            var3 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var5];
-            var1 = var3.bind(var4)(var1);
-            var1 = var1.isTablet;
-            if(var1) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
-            var3 = null;
-            var1 = arg1;
-            if(!(var3 == var1)) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
-            var1 = arg2;
-            if(var1) { _fun0004_ip = 45; continue _fun0004 }
-case 47:
-            var1 = _closure1_slot17;
-            var1 = var1.CUSTOM_STYLE;
-            _fun0004_ip = 48; continue _fun0004;
-case 45:
-            var3 = _closure1_slot17;
-            var1 = var3.CUSTOM_MESSAGE_EMOJI_SOUNDBOARD;
-case 48:
-            _fun0004_ip = 49; continue _fun0004;
-case 43:
-            var2 = _closure1_slot17;
-            var1 = var2.DEFAULT;
-case 49:
-            return var1;
-        }
-    };
-    var _closure1_slot18 = var8;
     var10 = 17;
     var10 = var12[var10];
     var12 = var11.bind(var1)(var10);
@@ -826,7 +826,7 @@ case 49:
     var10 = var11.bind(var12)(var10);
     var3['GiftExperience'] = var9;
     var3['getGiftExperience'] = var8;
-    var8 = function(arg1) {
+    var8 = function shouldShowCustomGiftExperience(arg1) {
         var4 = _closure1_slot18;
         var3 = undefined;
         var2 = arg1;
@@ -858,7 +858,7 @@ case 52:
             var2 = var2 != var1;
             var4 = var6;
             if(!var2) { _fun0005_ip = 54; continue _fun0005 }
-case 9:
+case 16:
             var4 = var1;
 case 54:
             var1 = global;
@@ -905,11 +905,11 @@ case 55:
             var1['subscriptionPlanId'] = var2;
             var2 = undefined;
             if(!(var6 !== var5)) { _fun0006_ip = 57; continue _fun0006 }
-case 45:
+case 5:
             var3 = var3 != var5;
             var2 = undefined;
             if(!var3) { _fun0006_ip = 57; continue _fun0006 }
-case 32:
+case 39:
             var3 = global;
             var4 = var3.Number;
             var3 = var4.parseInt;
@@ -921,7 +921,7 @@ case 57:
     };
     var3['parseComboId'] = var8;
     var3['cleanCode'] = var7;
-    var7 = function(arg1) {
+    var7 = function isGiftCodeEmbed(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var4 = arg1;
@@ -935,7 +935,7 @@ case 58:
             var1 = _closure1_slot12;
             var1 = var1.CUSTOM_GIFT;
             var1 = var6 === var1;
-            if(!var1) { _fun0007_ip = 47; continue _fun0007 }
+            if(!var1) { _fun0007_ip = 7; continue _fun0007 }
 case 59:
             var6 = var5 == var4;
             var7 = undefined;
@@ -950,18 +950,18 @@ case 62:
 case 60:
             var6 = 1;
             var1 = var6 === var7;
-case 47:
+case 7:
             if(!var1) { _fun0007_ip = 63; continue _fun0007 }
 case 64:
             var5 = var5 == var4;
             var3 = undefined;
-            if(var5) { _fun0007_ip = 20; continue _fun0007 }
-case 45:
+            if(var5) { _fun0007_ip = 27; continue _fun0007 }
+case 5:
             var5 = var4.embeds;
             var4 = 0;
             var4 = var5[var4];
             var3 = var4.type;
-case 20:
+case 27:
             var2 = _closure1_slot11;
             var2 = var2.GIFT;
             var1 = var3 === var2;
@@ -988,13 +988,13 @@ case 51:
             var2 = var4.exec;
             var4 = var2.bind(var4)(var10);
             if(!(var9 != var4)) { _fun0008_ip = 66; continue _fun0008 }
-case 28:
+case 35:
             var2 = var3.size;
             var7 = 3;
             var6 = 1;
             var5 = undefined;
             if(!(var2 < var7)) { _fun0008_ip = 66; continue _fun0008 }
-case 30:
+case 37:
             var11 = var3.add;
             var12 = _closure1_slot19;
             var2 = var4[var6];
@@ -1007,7 +1007,7 @@ case 30:
 case 67:
             var2 = var3.size;
             var4 = var11;
-            if(var2 < var7) { _fun0008_ip = 30; continue _fun0008 }
+            if(var2 < var7) { _fun0008_ip = 37; continue _fun0008 }
 case 66:
             var2 = var1.Array;
             var1 = var2.from;
@@ -1033,7 +1033,7 @@ case 68:
             var2 = var2.GLOBAL_ENV;
             var2 = var2.GIFT_CODE_HOST;
             var3 = null;
-            if(!(var3 == var2)) { _fun0009_ip = 47; continue _fun0009 }
+            if(!(var3 == var2)) { _fun0009_ip = 7; continue _fun0009 }
 case 59:
             var3 = var1.location;
             var6 = var3.host;
@@ -1042,7 +1042,7 @@ case 59:
             var3 = '/gifts/';
             var5 = var4.bind(var3)(var7);
             _fun0009_ip = 70; continue _fun0009;
-case 47:
+case 7:
             var3 = var1.HermesInternal;
             var4 = var3.concat;
             var3 = '/';
@@ -1111,34 +1111,34 @@ case 0:
             var5 = var2.opened;
             var6 = var2.isCustomGift;
             var2 = null;
-            if(!(var2 == var7)) { _fun0010_ip = 35; continue _fun0010 }
-case 8:
+            if(!(var2 == var7)) { _fun0010_ip = 42; continue _fun0010 }
+case 15:
             if(var4) { _fun0010_ip = 71; continue _fun0010 }
 case 72:
             if(var1) { _fun0010_ip = 71; continue _fun0010 }
 case 73:
-            if(!(var2 == var3)) { _fun0010_ip = 35; continue _fun0010 }
+            if(!(var2 == var3)) { _fun0010_ip = 42; continue _fun0010 }
 case 71:
             if(!var6) { _fun0010_ip = 64; continue _fun0010 }
 case 74:
             if(var5) { _fun0010_ip = 64; continue _fun0010 }
 case 75:
             if(var4) { _fun0010_ip = 64; continue _fun0010 }
-case 44:
+case 4:
             if(var1) { _fun0010_ip = 64; continue _fun0010 }
 case 62:
             var1 = _closure1_slot10;
             var1 = var1.OPEN;
             _fun0010_ip = 76; continue _fun0010;
 case 64:
-            if(!var4) { _fun0010_ip = 48; continue _fun0010 }
+            if(!var4) { _fun0010_ip = 8; continue _fun0010 }
 case 77:
             var4 = arg2;
             var4 = var4.isSubscription;
             if(var4) { _fun0010_ip = 78; continue _fun0010 }
 case 79:
             if(!(var2 == var3)) { _fun0010_ip = 78; continue _fun0010 }
-case 48:
+case 8:
             var2 = _closure1_slot10;
             var2 = var2.CONFIRM;
             _fun0010_ip = 80; continue _fun0010;
@@ -1149,7 +1149,7 @@ case 80:
             var1 = var2;
 case 76:
             _fun0010_ip = 81; continue _fun0010;
-case 35:
+case 42:
             var2 = _closure1_slot10;
             var1 = var2.ERROR;
 case 81:
@@ -1265,11 +1265,11 @@ case 92:
             var4 = _closure1_slot10;
             var4 = var4.SUCCESS;
             if(!(var4 !== var5)) { _fun0012_ip = 93; continue _fun0012 }
-case 11:
+case 18:
             var4 = _closure1_slot10;
             var4 = var4.OPEN;
-            if(!(var4 !== var5)) { _fun0012_ip = 14; continue _fun0012 }
-case 46:
+            if(!(var4 !== var5)) { _fun0012_ip = 21; continue _fun0012 }
+case 6:
             var4 = _closure1_slot10;
             var4 = var4.CONFIRM;
             var4 = null;
@@ -1343,7 +1343,7 @@ case 96:
             var2 = var4.bind(var5)(var3);
 case 106:
             return var2;
-case 14:
+case 21:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 12;
@@ -1740,7 +1740,7 @@ case 109:
 case 64:
             var8 = _closure1_slot10;
             var8 = var8.SUCCESS;
-            if(!(var8 !== var9)) { _fun0014_ip = 17; continue _fun0014 }
+            if(!(var8 !== var9)) { _fun0014_ip = 24; continue _fun0014 }
 case 112:
             var8 = _closure1_slot10;
             var8 = var8.CONFIRM;
@@ -1800,7 +1800,7 @@ case 117:
             var8['intervalCount'] = var14;
             var8 = var9.bind(var11)(var12, var8);
             return var8;
-case 17:
+case 24:
             var8 = null;
             if(!(var8 == var10)) { _fun0014_ip = 118; continue _fun0014 }
 case 119:
@@ -1937,7 +1937,7 @@ case 122:
         }
     };
     var3['processGiftCodeInput'] = var5;
-    var5 = function(arg1, arg2) {
+    var5 = function useGetGiftCode(arg1, arg2) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var2 = arg2;
@@ -1985,7 +1985,7 @@ case 60:
         return var1;
     };
     var3['useGetGiftCode'] = var5;
-    var4 = function(arg1) {
+    var4 = function trackStep(arg1) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;

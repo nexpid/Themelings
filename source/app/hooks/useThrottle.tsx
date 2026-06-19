@@ -5,6 +5,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
+    var1 = function throttleStateFn(arg1) {
+        var1 = arg1;
+        return var1;
+    };
+    var _closure1_slot4 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -19,11 +24,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var2 = var2.bind(var1)(var5);
     var _closure1_slot2 = var2;
-    var2 = function throttleStateFn(arg1) {
-        var1 = arg1;
-        return var1;
-    };
-    var _closure1_slot3 = var2;
     var2 = function useThrottledFunction(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -96,7 +96,7 @@ case 3:
             return var1;
         }
     };
-    var _closure1_slot4 = var2;
+    var _closure1_slot3 = var2;
     var5 = 2;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -117,8 +117,8 @@ case 6:
 case 5:
             var _closure2_slot1 = var8;
             var _closure2_slot2 = var8;
-            var7 = _closure1_slot4;
-            var13 = _closure1_slot3;
+            var7 = _closure1_slot3;
+            var13 = _closure1_slot4;
             var10 = arguments[3];
             var14 = undefined;
             var12 = var4;

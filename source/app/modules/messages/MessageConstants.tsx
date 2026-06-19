@@ -166,8 +166,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GUILD_OFFICIAL_HIGHLIGHT_ALPHA_COLOR'] = var8;
     var8 = 0.16;
     var3['GUILD_OFFICIAL_HIGHLIGHT_ALPHA'] = var8;
-    var8 = 0.2;
-    var3['GUILD_OFFICIAL_HIGHLIGHT_SELECTED_ALPHA'] = var8;
     var3['FileUploadErrorTypes'] = var7;
     var3['MessageTagTypes'] = var6;
     var6 = 209715200;

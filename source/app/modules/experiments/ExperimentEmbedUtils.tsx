@@ -124,57 +124,52 @@ case 8:
     var4 = function getExperimentServerAssignmentLabel(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var5 = arg1;
-            var3 = arg2;
-            var2 = null;
-            var4 = var2 == var3;
+            var4 = arg1;
+            var2 = arg2;
             var1 = null;
-            if(var4) { _fun0004_ip = 9; continue _fun0004 }
+            if(!(var1 != var2)) { _fun0004_ip = 9; continue _fun0004 }
 case 10:
-            var4 = var2 == var5;
-            var1 = null;
-            if(var4) { _fun0004_ip = 9; continue _fun0004 }
-case 3:
-            var8 = var5.system;
-            var10 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var9 = 0;
-            var7 = var6[var9];
-            var6 = undefined;
-            var7 = var10.bind(var6)(var7);
-            var7 = var7.ExperimentSystem;
-            var7 = var7.LEGACY;
-            if(!(var8 !== var7)) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
-            var7 = var5.system;
+            if(!(var1 != var4)) { _fun0004_ip = 9; continue _fun0004 }
+case 11:
+            var7 = var4.system;
             var8 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var5 = var5[var9];
-            var5 = var8.bind(var6)(var5);
-            var5 = var5.ExperimentSystem;
-            var5 = var5.APEX;
-            var2 = null;
-            if(!(var7 === var5)) { _fun0004_ip = 13; continue _fun0004 }
+            var9 = 0;
+            var6 = var5[var9];
+            var5 = undefined;
+            var6 = var8.bind(var5)(var6);
+            var6 = var6.ExperimentSystem;
+            var6 = var6.LEGACY;
+            if(!(var6 !== var7)) { _fun0004_ip = 12; continue _fun0004 }
+case 8:
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var9];
+            var6 = var8.bind(var5)(var6);
+            var6 = var6.ExperimentSystem;
+            var6 = var6.APEX;
+            if(!(var6 !== var7)) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-            var8 = var3.variantId;
-            var5 = global;
-            var5 = var5.HermesInternal;
-            var7 = var5.concat;
-            var5 = 'Variant ';
-            var2 = var7.bind(var5)(var8);
+            var4 = var4.system;
+            return var1;
 case 13:
-            _fun0004_ip = 15; continue _fun0004;
-case 11:
-            var5 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var4 = 1;
-            var4 = var7[var4];
-            var5 = var5.bind(var6)(var4);
-            var4 = var5.getExperimentBucketName;
-            var3 = var3.bucket;
-            var2 = var4.bind(var5)(var3);
-case 15:
-            var1 = var2;
+            var7 = var2.variantId;
+            var4 = global;
+            var4 = var4.HermesInternal;
+            var6 = var4.concat;
+            var4 = 'Variant ';
+            var4 = var6.bind(var4)(var7);
+            return var4;
+case 12:
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 1;
+            var3 = var6[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.getExperimentBucketName;
+            var2 = var2.bucket;
+            var2 = var3.bind(var4)(var2);
+            return var2;
 case 9:
             return var1;
         }

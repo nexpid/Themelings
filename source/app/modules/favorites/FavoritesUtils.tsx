@@ -85,15 +85,22 @@ case 8:
     var2 = function canFavoriteChannelType(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var3 = arg1;
-            var2 = arg2;
-            var1 = var3.isThread;
-            var1 = var1.bind(var3)();
+            var4 = arg1;
+            var3 = arg2;
+            var1 = var4.isCategory;
+            var1 = var1.bind(var4)();
             var1 = !var1;
-            if(var1) { _fun0003_ip = 2; continue _fun0003 }
-case 9:
+            if(!var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+            var2 = var4.isThread;
+            var2 = var2.bind(var4)();
+            var2 = !var2;
+            if(var2) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+            var2 = var3;
+case 11:
             var1 = var2;
-case 2:
+case 9:
             return var1;
         }
     };

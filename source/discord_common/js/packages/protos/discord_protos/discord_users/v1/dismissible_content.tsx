@@ -2270,6 +2270,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_OFFER_TAB_BADGE_POPOVER'] = var2;
     var1 = 'PREMIUM_OFFER_TAB_BADGE_POPOVER';
     var4[var2] = var1;
+    var2 = 769;
+    var4['HOME_DRAWER_SWIPE_PEEK_NUX'] = var2;
+    var1 = 'HOME_DRAWER_SWIPE_PEEK_NUX';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

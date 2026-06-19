@@ -1,8 +1,9 @@
 // app/modules/checkout/CheckoutError.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
     var7 = metroImportDefault;
     var3 = exports;
-    var5 = dependencyMap;
+    var6 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -42,87 +43,73 @@ case 4:
         }
     };
     var _closure1_slot5 = var1;
-    var4 = global;
-    var9 = var4.Object;
+    var1 = global;
+    var9 = var1.Object;
     var8 = var9.defineProperty;
-    var6 = {};
+    var4 = {};
     var1 = true;
-    var6['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var6);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var6 = var5[var1];
+    var4 = var6[var1];
     var1 = undefined;
-    var6 = var7.bind(var1)(var6);
-    var _closure1_slot0 = var6;
-    var6 = 1;
-    var6 = var5[var6];
-    var6 = var7.bind(var1)(var6);
-    var _closure1_slot1 = var6;
-    var6 = 2;
-    var6 = var5[var6];
-    var6 = var7.bind(var1)(var6);
-    var _closure1_slot2 = var6;
-    var6 = 3;
-    var6 = var5[var6];
-    var6 = var7.bind(var1)(var6);
-    var _closure1_slot3 = var6;
-    var6 = 4;
-    var6 = var5[var6];
-    var6 = var7.bind(var1)(var6);
-    var _closure1_slot4 = var6;
-    var6 = 5;
-    var6 = var5[var6];
-    var6 = var7.bind(var1)(var6);
-    var4 = var4.Error;
-    var4 = var6.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.RevenueError;
     var2 = function(arg1) {
         var3 = function CheckoutError(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var2 = arg1;
-                var6 = this;
-                var1 = var2.message;
-                var3 = var2.extraSentryInformation;
-                var5 = undefined;
-                if(!(var3 === var5)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-                var3 = null;
-case 6:
-                var2 = var2.errorHandlingBehavior;
-                if(!(var2 === var5)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                var2 = 'close-and-alert';
-case 8:
-                var8 = _closure1_slot1;
-                var4 = _closure2_slot0;
-                var8 = var8.bind(var5)(var6, var4);
-                var11 = new Array(1);
-                var11[0] = var1;
+                var4 = this;
+                var1 = _closure1_slot1;
+                var2 = _closure2_slot0;
+                var3 = undefined;
+                var1 = var1.bind(var3)(var4, var2);
+                var9 = new Array(1);
+                var1 = arg1;
+                var9[0] = var1;
                 var1 = _closure1_slot3;
-                var10 = var1.bind(var5)(var4);
-                var4 = _closure1_slot2;
+                var8 = var1.bind(var3)(var2);
+                var2 = _closure1_slot2;
                 var1 = _closure1_slot5;
-                var1 = var1.bind(var5)();
-                if(var1) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-                var1 = var10.apply;
-                var1 = var1.bind(var10)(var6, var11);
-                _fun0002_ip = 12; continue _fun0002;
-case 10:
-                var8 = global;
-                var9 = var8.Reflect;
-                var8 = var9.construct;
-                var7 = _closure1_slot3;
-                var7 = var7.bind(var5)(var6);
-                var7 = var7.constructor;
-                var1 = var8.bind(var9)(var10, var11, var7);
-case 12:
-                var1 = var4.bind(var5)(var6, var1);
-                var4 = 'FatalCheckoutError';
-                var1['name'] = var4;
-                var1['extraSentryInformation'] = var3;
-                var1['errorHandlingBehavior'] = var2;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                var1 = var8.apply;
+                var1 = var1.bind(var8)(var4, var9);
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
+                var6 = global;
+                var7 = var6.Reflect;
+                var6 = var7.construct;
+                var5 = _closure1_slot3;
+                var5 = var5.bind(var3)(var4);
+                var5 = var5.constructor;
+                var1 = var6.bind(var7)(var8, var9, var5);
+case 8:
+                var1 = var2.bind(var3)(var4, var1);
+                var2 = 'FatalCheckoutError';
+                var1['name'] = var2;
                 return var1;
             }
         };
@@ -137,9 +124,8 @@ case 12:
     };
     var2 = var2.bind(var1)(var4);
     var4 = 6;
-    var5 = var5[var4];
-    var4 = require;
-    var6 = var4.bind(var1)(var5);
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/checkout/CheckoutError.tsx';
     var4 = var5.bind(var6)(var4);

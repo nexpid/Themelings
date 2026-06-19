@@ -222,7 +222,7 @@ case 0:
             var4 = 8;
             var4 = var8[var4];
             var8 = var7.bind(var5)(var4);
-            var7 = var8.useIsDisplayNameStylesFlywheelEnabled;
+            var7 = var8.useIsDisplayNameStylesFlywheelSettersEnabled;
             var4 = 'DisplayNameStylesEffectPickerSheet';
             var4 = var7.bind(var8)(var4);
             var8 = _closure1_slot7;

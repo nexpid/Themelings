@@ -547,7 +547,7 @@ case 28:
             var1 = 19;
             var1 = var7[var1];
             var12 = var4.bind(var5)(var1);
-            var11 = var12.useIsDisplayNameStylesFlywheelEnabled;
+            var11 = var12.useIsDisplayNameStylesFlywheelSettersEnabled;
             var1 = 'DisplayNameStylesEditScreen';
             var47 = var11.bind(var12)(var1);
             var1 = 20;

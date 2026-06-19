@@ -196,6 +196,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ACCESSIBILITY'] = var1;
     var1 = 'ROLE_COLORS';
     var2['ROLE_COLORS'] = var1;
+    var1 = 'OFFICIAL_MESSAGE_STYLE';
+    var2['OFFICIAL_MESSAGE_STYLE'] = var1;
     var1 = 'DISPLAY_NAME_STYLES_ROUTE';
     var2['DISPLAY_NAME_STYLES_ROUTE'] = var1;
     var1 = 'DISPLAY_NAME_STYLES_ACCESSIBILITY';

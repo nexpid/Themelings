@@ -34,25 +34,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var2 = arg1;
-                var7 = _closure1_slot0;
-                var1 = _closure1_slot1;
-                var6 = 0;
-                var5 = var1[var6];
-                var1 = undefined;
-                var5 = var7.bind(var1)(var5);
-                var7 = var5.default;
-                var5 = var7.isOnline;
-                var5 = var5.bind(var7)();
-                if(var5) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var7 = _closure1_slot2;
-                var5 = var7.push;
-                var5 = var5.bind(var7)(var2);
-                var5 = _closure1_slot3;
-                if(var5) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-                var5 = true;
-                _closure1_slot3 = var5;
                 var5 = function whenOnline() {
                     var3 = _closure1_slot2;
                     var4 = var3.forEach;
@@ -79,6 +60,25 @@ case 5:
                     return var1;
                 };
                 var _closure3_slot0 = var5;
+                var7 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var6 = 0;
+                var4 = var1[var6];
+                var1 = undefined;
+                var4 = var7.bind(var1)(var4);
+                var7 = var4.default;
+                var4 = var7.isOnline;
+                var4 = var4.bind(var7)();
+                if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var7 = _closure1_slot2;
+                var4 = var7.push;
+                var4 = var4.bind(var7)(var2);
+                var4 = _closure1_slot3;
+                if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                var4 = true;
+                _closure1_slot3 = var4;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var3 = var3[var6];
@@ -86,6 +86,7 @@ case 5:
                 var4 = var3.default;
                 var3 = var4.addOnlineCallback;
                 var3 = var3.bind(var4)(var5);
+                return var1;
 case 4:
                 return var1;
 case 2:

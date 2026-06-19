@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot17 = var9;
     var4 = var2[var4];
     var2 = var2[var6];
-    var6 = 32;
+    var6 = 34;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -1106,8 +1106,10 @@ case 56:
             };
             var3 = var3.bind(var5)(var7);
             var13 = var8.useCallback;
-            var7 = new Array(1);
+            var7 = new Array(3);
             var7[0] = var4;
+            var7[1] = var30;
+            var7[2] = var18;
             var3 = function(arg1) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
@@ -1122,20 +1124,58 @@ case 0:
                         var5 = var4.subscriptionPlanId;
                         var2 = _closure2_slot27;
                         if(!(var5 === var2)) { _fun0012_ip = 92; continue _fun0012 }
-case 93:
+case 24:
                         var2 = _closure2_slot17;
                         var5 = undefined;
                         var2 = var2.bind(var5)(var4);
-                        var6 = _closure3_slot0;
-                        var4 = null;
-                        if(!(var4 != var6)) { _fun0012_ip = 94; continue _fun0012 }
+                        var2 = _closure2_slot1;
+                        var6 = null;
+                        var2 = var6 != var2;
+                        var4 = undefined;
+                        if(!var2) { _fun0012_ip = 93; continue _fun0012 }
+case 94:
+                        var7 = _closure2_slot0;
+                        var10 = var7.location_stack;
+                        var8 = var6 == var10;
+                        var7 = undefined;
+                        if(var8) { _fun0012_ip = 95; continue _fun0012 }
+case 96:
+                        var9 = var10.includes;
+                        var11 = _closure1_slot1;
+                        var12 = _closure1_slot2;
+                        var8 = 29;
+                        var8 = var12[var8];
+                        var8 = var11.bind(var5)(var8);
+                        var8 = var8.PREMIUM_GIFT_INTENT_CARD;
+                        var7 = var9.bind(var10)(var8);
 case 95:
+                        var2 = var6 != var7;
+                        var4 = var7;
+case 93:
+                        if(!var2) { _fun0012_ip = 97; continue _fun0012 }
+case 45:
+                        var2 = var4;
+case 97:
+                        if(!var2) { _fun0012_ip = 98; continue _fun0012 }
+case 42:
+                        var4 = _closure1_slot0;
+                        var7 = _closure1_slot2;
+                        var2 = 30;
+                        var2 = var7[var2];
+                        var7 = var4.bind(var5)(var2);
+                        var4 = var7.logGiftIntentFlowPurchasedGift;
+                        var2 = _closure2_slot1;
+                        var2 = var4.bind(var7)(var2);
+case 98:
+                        var4 = _closure3_slot0;
+                        if(!(var6 != var4)) { _fun0012_ip = 99; continue _fun0012 }
+case 100:
                         var4 = _closure3_slot0;
                         var4 = var4.bind(var5)();
-case 94:
+case 99:
                         var4 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var3 = 29;
+                        var3 = 31;
                         var3 = var6[var3];
                         var5 = var4.bind(var5)(var3);
                         var4 = var5.unsubscribe;
@@ -1169,7 +1209,7 @@ case 0:
 case 14:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
-                            var2 = 29;
+                            var2 = 31;
                             var3 = var6[var2];
                             var2 = undefined;
                             var8 = var5.bind(var2)(var3);
@@ -1178,18 +1218,18 @@ case 14:
                             var3 = arg1;
                             var3 = var7.bind(var8)(var5, var3);
                             var5 = _closure1_slot0;
-                            var3 = 30;
+                            var3 = 32;
                             var3 = var6[var3];
                             var5 = var5.bind(var2)(var3);
                             var3 = var5.isAndroid;
                             var3 = var3.bind(var5)();
-                            if(var3) { _fun0013_ip = 96; continue _fun0013 }
-case 97:
+                            if(var3) { _fun0013_ip = 101; continue _fun0013 }
+case 102:
                             var5 = _closure2_slot26;
                             var6 = var5.orderId;
                             var5 = null;
-                            if(!(var5 != var6)) { _fun0013_ip = 96; continue _fun0013 }
-case 98: // try_start_0
+                            if(!(var5 != var6)) { _fun0013_ip = 101; continue _fun0013 }
+case 103: // try_start_0
                             var8 = _closure1_slot16;
                             var7 = var8.info;
                             var6 = {};
@@ -1210,14 +1250,14 @@ case 98: // try_start_0
                             var5 = var5.orderId;
                             var5 = var6.bind(var7)(var5);
                             SaveGenerator(address=202);
-case 99:
+case 104:
                             return var5;
-case 100:
+case 105:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                            if(var6) { _fun0013_ip = 101; continue _fun0013 }
-case 102: // try_end0
-                            _fun0013_ip = 96; continue _fun0013;
-case 101:
+                            if(var6) { _fun0013_ip = 106; continue _fun0013 }
+case 107: // try_end0
+                            _fun0013_ip = 101; continue _fun0013;
+case 106:
                             return var5;
 case 80: // catch_target0
                             CatchBlockStart(arg_register=6);
@@ -1251,7 +1291,7 @@ case 80: // catch_target0
                             var4['orderId'] = var3;
                             var3 = 'Failed to sign order in purchase completion';
                             var3 = var5.bind(var6)(var3, var4);
-case 96:
+case 101:
                             return var2;
 case 60:
                             return var1;
@@ -1286,7 +1326,7 @@ case 60:
             var3 = function(arg1) {
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var1 = 29;
+                var1 = 31;
                 var2 = var6[var1];
                 var1 = undefined;
                 var7 = var4.bind(var1)(var2);
@@ -1296,7 +1336,7 @@ case 60:
                 var2 = var5.bind(var7)(var4, var2);
                 var4 = _closure2_slot3;
                 var5 = _closure1_slot0;
-                var3 = 31;
+                var3 = 33;
                 var3 = var6[var3];
                 var3 = var5.bind(var1)(var3);
                 var3 = var3.PaymentFlowStep;
@@ -1337,7 +1377,7 @@ case 0:
                     var2 = var3.bind(var4)(var2);
                     var3 = null;
                     if(!(var3 == var2)) { _fun0014_ip = 26; continue _fun0014 }
-case 103:
+case 108:
                     var2 = _closure2_slot25;
                     var2 = var2.bind(var1)(var3);
                     _fun0014_ip = 21; continue _fun0014;
@@ -1354,13 +1394,13 @@ case 26:
                     var7 = var3 == var4;
                     var2 = undefined;
                     if(var7) { _fun0014_ip = 20; continue _fun0014 }
-case 104:
+case 109:
                     var2 = var4.current;
 case 20:
                     var4 = var3 != var2;
                     var3 = null;
                     if(!var4) { _fun0014_ip = 42; continue _fun0014 }
-case 105:
+case 97:
                     var3 = var2;
 case 42:
                     var2 = _closure2_slot25;
@@ -1375,23 +1415,23 @@ case 21:
                     var _closure3_slot1 = var2;
                     var3 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var2 = 30;
+                    var2 = 32;
                     var2 = var8[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.isAndroid;
                     var2 = var2.bind(var3)();
-                    if(!var2) { _fun0014_ip = 106; continue _fun0014 }
-case 107:
+                    if(!var2) { _fun0014_ip = 110; continue _fun0014 }
+case 111:
                     var9 = function handleGPlayUpdatePurchaseAction(arg1) {
                         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                             var4 = arg1;
                             var1 = var4.isActivePurchase;
-                            if(!var1) { _fun0015_ip = 108; continue _fun0015 }
-case 109:
+                            if(!var1) { _fun0015_ip = 112; continue _fun0015 }
+case 113:
                             var5 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 29;
+                            var1 = 31;
                             var1 = var3[var1];
                             var3 = undefined;
                             var8 = var5.bind(var3)(var1);
@@ -1402,12 +1442,12 @@ case 109:
                             var4 = var4.billingResult;
                             var2 = _closure1_slot11;
                             var2 = var2.OK;
-                            if(!(var4 !== var2)) { _fun0015_ip = 108; continue _fun0015 }
+                            if(!(var4 !== var2)) { _fun0015_ip = 112; continue _fun0015 }
 case 41:
                             var2 = _closure2_slot39;
                             var1 = _closure3_slot1;
                             var1 = var2.bind(var3)(var1);
-case 108:
+case 112:
                             var1 = undefined;
                             return var1;
                         }
@@ -1415,17 +1455,17 @@ case 108:
                     var _closure3_slot2 = var9;
                     var3 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var2 = 29;
+                    var2 = 31;
                     var2 = var8[var2];
                     var8 = var3.bind(var1)(var2);
                     var3 = var8.subscribe;
                     var2 = 'GPLAY_UPDATE_PURCHASE_STATE';
                     var2 = var3.bind(var8)(var2, var9);
-case 106:
+case 110:
                     var3 = _closure2_slot3;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 31;
+                    var2 = 33;
                     var2 = var9[var2];
                     var2 = var8.bind(var1)(var2);
                     var2 = var2.PaymentFlowStep;
@@ -1454,23 +1494,23 @@ case 106:
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0016_ip = 93; continue _fun0016 }
-case 110:
+                                if(var2) { _fun0016_ip = 114; continue _fun0016 }
+case 115:
                                 var4 = _closure2_slot38;
                                 var3 = _closure3_slot1;
                                 var2 = undefined;
                                 var2 = var4.bind(var2)(var3);
                                 SaveGenerator(address=32);
-case 111:
+case 116:
                                 return var2;
-case 112:
+case 117:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                                 if(var3) { _fun0016_ip = 91; continue _fun0016 }
-case 113:
+case 118:
                                 return var2;
 case 91:
                                 return var2;
-case 93:
+case 114:
                                 return var1;
                             }
                         };

@@ -1688,6 +1688,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PREMIUM_TIER_2_REVERSE_FOLLOWUP_TRIAL_ID'] = var59;
     var3['PREMIUM_TIER_2_QUEST_REWARD_REVERSE_TRIAL_ID'] = var58;
     var3['PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID'] = var57;
+    var57 = '1149009610275815424';
+    var3['PREMIUM_TIER_2_GOOGLE_PLAY_SIX_MONTH_TRIAL_ID'] = var57;
     var3['PREMIUM_TRIAL_IDS_ALL'] = var56;
     var56 = '844502143447597056';
     var3['PREMIUM_TIER_2_3P_ONE_MONTH_TRIAL_ID'] = var56;

@@ -46,8 +46,25 @@ case 0:
             var3['learnMoreLink'] = var17;
             var3 = var12.bind(var16)(var9, var3);
             var2['subLabel'] = var3;
-            var3 = new Array(11);
+            var3 = new Array(12);
             var3[0] = var2;
+            var2 = {};
+            var9 = _closure1_slot5;
+            var12 = var9.OFFICIAL_MESSAGE_STYLE;
+            var9 = new Array(1);
+            var9[0] = var12;
+            var2['settings'] = var9;
+            var9 = var15[var4];
+            var9 = var8.bind(var6)(var9);
+            var16 = var9.intl;
+            var12 = var16.string;
+            var9 = var15[var4];
+            var9 = var8.bind(var6)(var9);
+            var9 = var9.t;
+            var9 = var9.a3IPrX;
+            var9 = var12.bind(var16)(var9);
+            var2['subLabel'] = var9;
+            var3[1] = var2;
             var2 = {};
             var9 = _closure1_slot5;
             var12 = var9.DISPLAY_NAME_STYLES_ACCESSIBILITY;
@@ -107,7 +124,7 @@ case 0:
             var9['onClickOpenModal'] = var18;
             var9 = var16.bind(var17)(var12, var9);
             var2['subLabel'] = var9;
-            var3[1] = var2;
+            var3[2] = var2;
             var2 = {};
             var9 = _closure1_slot5;
             var12 = var9.CONTRAST_MODE;
@@ -124,7 +141,7 @@ case 0:
             var9 = var9.Ax4Pgn;
             var9 = var12.bind(var16)(var9);
             var2['subLabel'] = var9;
-            var3[2] = var2;
+            var3[3] = var2;
             var2 = {};
             var9 = _closure1_slot5;
             var12 = var9.REDUCE_SATURATION;
@@ -141,7 +158,7 @@ case 0:
             var9 = var9["0PbE/H"];
             var9 = var12.bind(var16)(var9);
             var2['subLabel'] = var9;
-            var3[3] = var2;
+            var3[4] = var2;
             var2 = {};
             var9 = _closure1_slot5;
             var12 = var9.SHOW_LINK_DECORATIONS;
@@ -158,7 +175,7 @@ case 0:
             var9 = var9["72i5GI"];
             var9 = var12.bind(var16)(var9);
             var2['subLabel'] = var9;
-            var3[4] = var2;
+            var3[5] = var2;
             var2 = {};
             var9 = _closure1_slot5;
             var12 = var9.SHOW_ON_OFF_INDICATORS;
@@ -175,7 +192,7 @@ case 0:
             var9 = var9["3QuI9+"];
             var9 = var12.bind(var16)(var9);
             var2['subLabel'] = var9;
-            var3[5] = var2;
+            var3[6] = var2;
             var2 = {};
             var9 = var15[var4];
             var9 = var8.bind(var6)(var9);
@@ -213,7 +230,7 @@ case 0:
             var9['onThemeClick'] = var18;
             var9 = var16.bind(var17)(var12, var9);
             var2['subLabel'] = var9;
-            var3[6] = var2;
+            var3[7] = var2;
             var2 = {};
             var9 = var15[var4];
             var9 = var8.bind(var6)(var9);
@@ -251,7 +268,7 @@ case 0:
             var4['helpdeskArticle'] = var13;
             var4 = var9.bind(var12)(var8, var4);
             var2['subLabel'] = var4;
-            var3[7] = var2;
+            var3[8] = var2;
             var2 = {};
             var4 = _closure1_slot5;
             var8 = var4.AUTOPLAY_GIF;
@@ -270,7 +287,7 @@ case 3:
             var8 = var9.bind(var6)(var11);
 case 2:
             var2['subLabel'] = var8;
-            var3[8] = var2;
+            var3[9] = var2;
             var2 = {};
             var8 = _closure1_slot5;
             var9 = var8.ANIMATE_EMOJI;
@@ -288,7 +305,7 @@ case 5:
             var8 = var9.bind(var6)(var10);
 case 4:
             var2['subLabel'] = var8;
-            var3[9] = var2;
+            var3[10] = var2;
             var2 = {};
             var8 = _closure1_slot5;
             var9 = var8.ANIMATE_STICKERS;
@@ -306,7 +323,7 @@ case 7:
             var4 = var5.bind(var6)(var7);
 case 6:
             var2['subLabel'] = var4;
-            var3[10] = var2;
+            var3[11] = var2;
             var2 = var3.filter;
             var1 = function(arg1) {
                 var2 = null;

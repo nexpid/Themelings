@@ -1143,7 +1143,7 @@ case 46:
             var9 = var29.bind(var5)(var9);
             var9 = var9.QuestBottomSheetStep;
             var9 = var9.CONSOLE_CONNECT;
-            if(!(var30 !== var9)) { _fun0009_ip = 47; continue _fun0009 }
+            if(!(var9 !== var30)) { _fun0009_ip = 47; continue _fun0009 }
 case 48:
             var29 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -1151,8 +1151,8 @@ case 48:
             var9 = var29.bind(var5)(var9);
             var9 = var9.QuestBottomSheetStep;
             var29 = var9.TASK_STATUS;
-            var9 = undefined;
-            if(!(var30 === var29)) { _fun0009_ip = 49; continue _fun0009 }
+            var9 = null;
+            if(!(var29 === var30)) { _fun0009_ip = 49; continue _fun0009 }
 case 50:
             if(var28) { _fun0009_ip = 51; continue _fun0009 }
 case 52:
@@ -1246,8 +1246,7 @@ case 64:
             var10 = var18.bind(var5)(var14, var11);
 case 63:
             var9 = var10;
-case 49:
-            _fun0009_ip = 66; continue _fun0009;
+            _fun0009_ip = 49; continue _fun0009;
 case 47:
             var14 = _closure1_slot10;
             var11 = _closure1_slot18;
@@ -1257,11 +1256,11 @@ case 47:
             var15 = var16 === var15;
             var10['disabled'] = var15;
             var9 = var14.bind(var5)(var11, var10);
-case 66:
+case 49:
             var2['ctaButton'] = var9;
             var8 = var8 != var12;
-            if(!var8) { _fun0009_ip = 67; continue _fun0009 }
-case 68:
+            if(!var8) { _fun0009_ip = 66; continue _fun0009 }
+case 67:
             var11 = _closure1_slot10;
             var14 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -1295,7 +1294,7 @@ case 68:
             var12 = 'lg';
             var9['size'] = var12;
             var8 = var11.bind(var5)(var10, var9);
-case 67:
+case 66:
             var2['backButton'] = var8;
             var2['style'] = var7;
             var2['withSafeArea'] = var6;

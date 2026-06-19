@@ -16,7 +16,7 @@ case 0:
             if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var4 = var1.hasFlag;
-            var2 = _closure1_slot29;
+            var2 = _closure1_slot30;
             var2 = var2.HAS_THREAD;
             var2 = var4.bind(var1)(var2);
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
@@ -106,12 +106,12 @@ case 10:
             if(!(var2 != var10)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
             var3 = var10.type;
-            var2 = _closure1_slot27;
+            var2 = _closure1_slot28;
             var2 = var2.CHANNEL_NAME_CHANGE;
             if(!(var3 !== var2)) { _fun0001_ip = 13; continue _fun0001 }
 case 15:
             var3 = var10.type;
-            var2 = _closure1_slot27;
+            var2 = _closure1_slot28;
             var2 = var2.THREAD_STARTER_MESSAGE;
             if(!(var3 !== var2)) { _fun0001_ip = 13; continue _fun0001 }
 case 16:
@@ -126,10 +126,10 @@ case 19:
             var2['messageCountLabel'] = var7;
             var2['messageCountAccessibilityLabel'] = var6;
             var3 = {};
-            var11 = _closure1_slot26;
+            var11 = _closure1_slot27;
             var11 = var11.LOADED;
             var3['state'] = var11;
-            var12 = _closure1_slot34;
+            var12 = _closure1_slot35;
             var11 = {'message': null, 'roleStyle': null, 'options': null, 'isFirst': true, 'isEditing': false, 'canShowImages': true, 'isSystemDM': false, 'isInlineReplyPreview': true};
             var11['message'] = var10;
             var13 = arg2;
@@ -238,7 +238,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot32 = var1;
+    var _closure1_slot33 = var1;
     var1 = function getForumPostActions(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -328,7 +328,7 @@ case 30:
             return var1;
         }
     };
-    var _closure1_slot33 = var1;
+    var _closure1_slot34 = var1;
     var2 = function createMessageContent(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -418,7 +418,7 @@ case 42:
             if(!var28) { _fun0003_ip = 44; continue _fun0003 }
 case 45:
             var22 = var2.type;
-            var21 = _closure1_slot27;
+            var21 = _closure1_slot28;
             var21 = var21.CUSTOM_GIFT;
             var28 = var22 !== var21;
 case 44:
@@ -497,7 +497,7 @@ case 57:
             var18 = var22.bind(var5)(var14);
 case 56:
             var23 = var2.type;
-            var14 = _closure1_slot27;
+            var14 = _closure1_slot28;
             var22 = var14.THREAD_STARTER_MESSAGE;
             var14 = null;
             if(!(var23 === var22)) { _fun0003_ip = 58; continue _fun0003 }
@@ -578,15 +578,15 @@ case 79:
             var40 = var2.isFirstMessageInForumPost;
             var23 = var40.bind(var2)(var16);
 case 78:
-            r111 = var25;
-            r110 = var2;
-            r109 = var39;
-            r108 = var37;
-            r107 = var6;
-            r106 = var23;
-            r105 = var32;
-            r104 = var32;
-            var22 = r111[var24](r110, r109, r108, r107, r106, r105, r104, r103);
+            r113 = var25;
+            r112 = var2;
+            r111 = var39;
+            r110 = var37;
+            r109 = var6;
+            r108 = var23;
+            r107 = var32;
+            r106 = var32;
+            var22 = r113[var24](r112, r111, r110, r109, r108, r107, r106, r105);
 case 73:
             var25 = var22.content;
             var37 = var22.hasSpoilerEmbeds;
@@ -731,7 +731,7 @@ case 88:
             var25 = var25.bind(var30)(var22);
             var37 = var17 != var25;
             var30 = var2.state;
-            var22 = _closure1_slot28;
+            var22 = _closure1_slot29;
             var22 = var22.SEND_FAILED;
             var22 = var30 !== var22;
             if(var22) { _fun0003_ip = 90; continue _fun0003 }
@@ -912,7 +912,7 @@ case 116:
             var70 = var23.bind(var30)(var22);
 case 114:
             var23 = var2.hasFlag;
-            var22 = _closure1_slot29;
+            var22 = _closure1_slot30;
             var22 = var22.SOURCE_MESSAGE_DELETED;
             var22 = var23.bind(var2)(var22);
             if(!var22) { _fun0003_ip = 117; continue _fun0003 }
@@ -940,7 +940,7 @@ case 117:
             var73 = var22.colorString;
             var76 = var22.colorStrings;
             var23 = var2.type;
-            var22 = _closure1_slot27;
+            var22 = _closure1_slot28;
             var22 = var22.INTERACTION_PREMIUM_UPSELL;
             if(!(var23 === var22)) { _fun0003_ip = 119; continue _fun0003 }
 case 120:
@@ -960,7 +960,7 @@ case 120:
             var24 = var30.bind(var31)(var23, var22);
 case 119:
             var23 = var2.type;
-            var22 = _closure1_slot27;
+            var22 = _closure1_slot28;
             var22 = var22.REPLY;
             var99 = undefined;
             if(!(var23 === var22)) { _fun0003_ip = 121; continue _fun0003 }
@@ -996,7 +996,7 @@ case 129:
             _fun0003_ip = 121; continue _fun0003;
 case 128:
             var22 = {};
-            var23 = _closure1_slot26;
+            var23 = _closure1_slot27;
             var23 = var23.SYSTEM;
             var22['state'] = var23;
             var34 = _closure1_slot0;
@@ -1016,7 +1016,7 @@ case 128:
             _fun0003_ip = 121; continue _fun0003;
 case 126:
             var22 = {};
-            var23 = _closure1_slot26;
+            var23 = _closure1_slot27;
             var23 = var23.SYSTEM;
             var22['state'] = var23;
             var34 = _closure1_slot0;
@@ -1053,16 +1053,16 @@ case 131:
             var22 = var22.bind(var23)(var20);
             if(var22) { _fun0003_ip = 132; continue _fun0003 }
 case 133:
-            var23 = _closure1_slot34;
+            var23 = _closure1_slot35;
             var22 = {'message': null, 'messageForward': null, 'roleStyle': null, 'isFirst': true, 'isEditing': false, 'canShowImages': true, 'isSystemDM': false, 'isInlineReplyPreview': true};
             var22['message'] = var20;
             var22['messageForward'] = var30;
             var22['roleStyle'] = var13;
             var36 = false;
             var31 = {};
-            r110 = var31;
-            r109 = var7;
-            var34 = copyDataProperties(r110, r109);
+            r112 = var31;
+            r111 = var7;
+            var34 = copyDataProperties(r112, r111);
             var34 = 'renderReplies';
             var31[33] = var36;
             var22['options'] = var31;
@@ -1191,13 +1191,13 @@ case 163:
             var43 = var31.bind(var5)(var30);
             var36 = var43.hasFlag;
             var31 = var32.flags;
-            var30 = _closure1_slot29;
+            var30 = _closure1_slot30;
             var30 = var30.IS_VOICE_MESSAGE;
             var30 = var36.bind(var43)(var31, var30);
             if(var30) { _fun0003_ip = 167; continue _fun0003 }
 case 168:
             var31 = var32.type;
-            var30 = _closure1_slot27;
+            var30 = _closure1_slot28;
             var30 = var30.POLL_RESULT;
             if(!(var31 !== var30)) { _fun0003_ip = 169; continue _fun0003 }
 case 170:
@@ -1207,7 +1207,7 @@ case 170:
             var36 = var31.bind(var5)(var30);
             var34 = var36.hasFlag;
             var31 = var32.flags;
-            var30 = _closure1_slot29;
+            var30 = _closure1_slot30;
             var30 = var30.IS_COMPONENTS_V2;
             var30 = var34.bind(var36)(var31, var30);
             if(var30) { _fun0003_ip = 171; continue _fun0003 }
@@ -1304,14 +1304,14 @@ case 161:
             var22 = var31.bind(var32)(var30);
 case 180:
             var30 = var20.type;
-            var20 = _closure1_slot27;
+            var20 = _closure1_slot28;
             var20 = var20.POLL_RESULT;
             if(!(var30 === var20)) { _fun0003_ip = 181; continue _fun0003 }
 case 182:
             var23['content'] = var22;
 case 181:
             var20 = {};
-            var30 = _closure1_slot26;
+            var30 = _closure1_slot27;
             var30 = var30.LOADED;
             var20['state'] = var30;
             var20['message'] = var23;
@@ -1323,7 +1323,7 @@ case 183:
             _fun0003_ip = 121; continue _fun0003;
 case 134:
             var20 = {};
-            var22 = _closure1_slot26;
+            var22 = _closure1_slot27;
             var22 = var22.SYSTEM;
             var20['state'] = var22;
             var31 = _closure1_slot0;
@@ -1343,7 +1343,7 @@ case 134:
             _fun0003_ip = 121; continue _fun0003;
 case 132:
             var20 = {};
-            var22 = _closure1_slot26;
+            var22 = _closure1_slot27;
             var22 = var22.SYSTEM;
             var20['state'] = var22;
             var31 = _closure1_slot0;
@@ -1363,7 +1363,7 @@ case 132:
             _fun0003_ip = 121; continue _fun0003;
 case 130:
             var20 = {};
-            var22 = _closure1_slot26;
+            var22 = _closure1_slot27;
             var22 = var22.SYSTEM;
             var20['state'] = var22;
             var31 = _closure1_slot0;
@@ -1384,15 +1384,15 @@ case 121:
             var96 = undefined;
             if(!var15) { _fun0003_ip = 184; continue _fun0003 }
 case 185:
-            var15 = _closure1_slot32;
-            r111 = undefined;
-            r110 = var2;
-            r109 = var13;
-            r108 = var6;
-            r107 = var16;
-            r106 = var7;
-            r105 = var19;
-            var96 = r111[var15](r110, r109, r108, r107, r106, r105, r104);
+            var15 = _closure1_slot33;
+            r113 = undefined;
+            r112 = var2;
+            r111 = var13;
+            r110 = var6;
+            r109 = var16;
+            r108 = var7;
+            r107 = var19;
+            var96 = r113[var15](r112, r111, r110, r109, r108, r107, r106);
 case 184:
             var20 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -1512,7 +1512,7 @@ case 198:
             var20 = {};
             var20['uploaderFile'] = var25;
             var30 = var2.state;
-            var25 = _closure1_slot28;
+            var25 = _closure1_slot29;
             var25 = var25.SEND_FAILED;
             var25 = var30 === var25;
             var20['isFailedMessage'] = var25;
@@ -1522,7 +1522,7 @@ case 200:
             if(!var15) { _fun0003_ip = 202; continue _fun0003 }
 case 203:
             var22 = var2.state;
-            var20 = _closure1_slot28;
+            var20 = _closure1_slot29;
             var20 = var20.SEND_FAILED;
             if(!(var22 === var20)) { _fun0003_ip = 204; continue _fun0003 }
 case 202:
@@ -1552,7 +1552,7 @@ case 205:
             if(!var15) { _fun0003_ip = 206; continue _fun0003 }
 case 207:
             var20 = var2.state;
-            var15 = _closure1_slot28;
+            var15 = _closure1_slot29;
             var15 = var15.SEND_FAILED;
             if(!(var20 === var15)) { _fun0003_ip = 208; continue _fun0003 }
 case 206:
@@ -1695,7 +1695,7 @@ case 231:
             var94 = var95.getGuildTagBadgeUrl;
             var92 = var27.guildId;
             var81 = var27.badge;
-            var27 = _closure1_slot31;
+            var27 = _closure1_slot32;
             var27 = var27.SIZE_12;
             var1 = var94.bind(var95)(var92, var81, var27);
 case 230:
@@ -1715,7 +1715,7 @@ case 233:
             var1 = var39;
 case 232:
             var4 = var1.flags;
-            var1 = _closure1_slot29;
+            var1 = _closure1_slot30;
             var1 = var1.IS_VOICE_MESSAGE;
             var27 = var15.bind(var27)(var4, var1);
             var15 = _closure1_slot5;
@@ -1738,7 +1738,7 @@ case 237:
             var95 = var81.bind(var5)(var15);
             var92 = var95.hasFlag;
             var81 = var2.flags;
-            var15 = _closure1_slot29;
+            var15 = _closure1_slot30;
             var15 = var15.SENT_BY_SOCIAL_LAYER_INTEGRATION;
             var4 = var92.bind(var95)(var81, var15);
 case 236:
@@ -1754,7 +1754,7 @@ case 238:
             if(!var1) { _fun0003_ip = 240; continue _fun0003 }
 case 241:
             var4 = var39.hasFlag;
-            var1 = _closure1_slot29;
+            var1 = _closure1_slot30;
             var1 = var1.IS_GUILD_OFFICIAL;
             var1 = var4.bind(var39)(var1);
             var92 = undefined;
@@ -1764,61 +1764,95 @@ case 241:
 case 242:
             var4 = _closure1_slot20;
             var1 = var4.getGuild;
-            var4 = var1.bind(var4)(var63);
-            var1 = var17 != var4;
+            var1 = var1.bind(var4)(var63);
+            var4 = var17 != var1;
             var92 = undefined;
             var95 = undefined;
             var81 = undefined;
-            if(!var1) { _fun0003_ip = 240; continue _fun0003 }
+            if(!var4) { _fun0003_ip = 240; continue _fun0003 }
 case 243:
-            var100 = _closure1_slot0;
-            var97 = _closure1_slot2;
-            var1 = 68;
-            var97 = var97[var1];
-            r100 = var100.bind(var5)(var97);
-            var100 = r100.isGuildOfficialMessagesEnabled;
-            var97 = 'createMessageContent';
-            var97 = var100.bind(r100)(var4, var97);
+            var97 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            r100 = 68;
+            var4 = var4[r100];
+            var100 = var97.bind(var5)(var4);
+            var97 = var100.isGuildOfficialMessagesEnabled;
+            var4 = 'createMessageContent';
+            var4 = var97.bind(var100)(var1, var4);
             var92 = undefined;
             var95 = undefined;
             var81 = undefined;
-            if(!var97) { _fun0003_ip = 240; continue _fun0003 }
+            if(!var4) { _fun0003_ip = 240; continue _fun0003 }
 case 244:
-            r103 = var4.officialMessageColor;
+            r103 = var1.officialMessageColor;
             if(!(var17 == r103)) { _fun0003_ip = 245; continue _fun0003 }
 case 246:
             r103 = _closure1_slot24;
 case 245:
-            var4 = _closure1_slot25;
-            var97 = r103 | var4;
-            r101 = _closure1_slot1;
-            r102 = _closure1_slot2;
-            var4 = 69;
-            var100 = r102[var4];
-            var100 = r101.bind(var5)(var100);
-            r100 = var100.internal;
-            var100 = r100.resolveSemanticColor;
-            var4 = r102[var4];
-            var4 = r101.bind(var5)(var4);
-            var4 = var4.colors;
-            var4 = var4.BACKGROUND_BASE_LOWER;
-            r100 = var100.bind(r100)(var19, var4);
-            var4 = _closure1_slot4;
-            var4 = var4.desaturateUserColors;
-            var100 = 1;
-            if(!var4) { _fun0003_ip = 247; continue _fun0003 }
+            var1 = _closure1_slot4;
+            var100 = var1.officialMessageStyle;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[r100];
+            var4 = var4.bind(var5)(var1);
+            var1 = var4.showGuildOfficialMessageGradient;
+            r104 = var1.bind(var4)(var100);
+            var97 = undefined;
+            if(!r104) { _fun0003_ip = 247; continue _fun0003 }
 case 248:
-            var4 = _closure1_slot4;
-            var100 = var4.saturation;
+            var1 = _closure1_slot26;
+            var97 = r103 | var1;
 case 247:
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[r100];
+            var4 = var4.bind(var5)(var1);
+            var1 = var4.showGuildOfficialMessageTextColor;
+            var1 = var1.bind(var4)(var100);
+            var4 = undefined;
+            if(!var1) { _fun0003_ip = 249; continue _fun0003 }
+case 250:
+            r102 = _closure1_slot1;
+            r105 = _closure1_slot2;
+            var1 = 69;
+            var100 = r105[var1];
+            var100 = r102.bind(var5)(var100);
+            r101 = var100.internal;
+            var100 = r101.resolveSemanticColor;
+            var1 = r105[var1];
+            var1 = r102.bind(var5)(var1);
+            var1 = var1.colors;
+            var1 = var1.BACKGROUND_BASE_LOWER;
+            r102 = var100.bind(r101)(var19, var1);
+            var1 = _closure1_slot4;
+            var1 = var1.desaturateUserColors;
+            r101 = 1;
+            if(!var1) { _fun0003_ip = 251; continue _fun0003 }
+case 252:
+            var1 = _closure1_slot4;
+            r101 = var1.saturation;
+case 251:
+            var100 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[r100];
+            r100 = var100.bind(var5)(var1);
+            var100 = r100.getAccessibleGuildOfficialTextColor;
+            var1 = 0;
+            if(!r104) { _fun0003_ip = 253; continue _fun0003 }
+case 254:
+            var1 = _closure1_slot25;
+case 253:
+            r113 = r100;
+            r112 = r103;
+            r111 = r102;
+            r110 = r101;
+            r109 = var1;
+            var100 = r113[var100](r112, r111, r110, r109, r108);
+            var1 = var100.num;
+            var4 = var1.bind(var100)();
+case 249:
             r101 = _closure1_slot0;
             r102 = _closure1_slot2;
-            var1 = r102[var1];
-            var4 = r101.bind(var5)(var1);
-            var1 = var4.getAccessibleGuildOfficialTextColor;
-            var4 = var1.bind(var4)(r103, r100, var100);
-            var1 = var4.num;
-            var95 = var1.bind(var4)();
             var1 = 28;
             var100 = r102[var1];
             var100 = r101.bind(var5)(var100);
@@ -1829,6 +1863,7 @@ case 247:
             var1 = var1.t;
             var1 = var1.GzDTxY;
             var81 = var100.bind(r100)(var1);
+            var95 = var4;
             var92 = var97;
 case 240:
             var4 = _closure1_slot0;
@@ -1847,69 +1882,69 @@ case 240:
             var1['channelId'] = var97;
             var100 = var17 != var63;
             var97 = undefined;
-            if(!var100) { _fun0003_ip = 249; continue _fun0003 }
-case 250:
+            if(!var100) { _fun0003_ip = 255; continue _fun0003 }
+case 256:
             var97 = var63;
-case 249:
+case 255:
             var1['guildId'] = var97;
             var97 = var2;
-            if(!(var17 != var39)) { _fun0003_ip = 251; continue _fun0003 }
-case 252:
+            if(!(var17 != var39)) { _fun0003_ip = 257; continue _fun0003 }
+case 258:
             var97 = var39;
-case 251:
+case 257:
             var97 = var97.flags;
             var1['flags'] = var97;
             var97 = var2.type;
             var1['type'] = var97;
             var97 = var2.nonce;
-            if(!(var17 != var97)) { _fun0003_ip = 253; continue _fun0003 }
-case 254:
+            if(!(var17 != var97)) { _fun0003_ip = 259; continue _fun0003 }
+case 260:
             var97 = var2.nonce;
             var100 = 'string';
             var97 = typeof var97;
-            if(!(var100 === var97)) { _fun0003_ip = 255; continue _fun0003 }
-case 253:
+            if(!(var100 === var97)) { _fun0003_ip = 261; continue _fun0003 }
+case 259:
             var97 = var2.nonce;
-            _fun0003_ip = 256; continue _fun0003;
-case 255:
+            _fun0003_ip = 262; continue _fun0003;
+case 261:
             var100 = global;
             r100 = var100.String;
             var100 = var2.nonce;
             var97 = r100.bind(var5)(var100);
-case 256:
+case 262:
             var1['nonce'] = var97;
             var97 = var2.state;
             var1['state'] = var97;
             var1['reactions'] = var18;
             var97 = undefined;
-            if(var51) { _fun0003_ip = 257; continue _fun0003 }
-case 258:
+            if(var51) { _fun0003_ip = 263; continue _fun0003 }
+case 264:
             var97 = var99;
-case 257:
+case 263:
             var1['referencedMessage'] = var97;
             var1['threadEmbed'] = var96;
             var97 = var17 != var98;
             var96 = undefined;
-            if(!var97) { _fun0003_ip = 259; continue _fun0003 }
-case 260:
+            if(!var97) { _fun0003_ip = 265; continue _fun0003 }
+case 266:
             var97 = var98.getForwardInfo;
             var96 = var97.bind(var98)();
-case 259:
+case 265:
             var1['forwardInfo'] = var96;
             var93 = !var93;
-            if(!var93) { _fun0003_ip = 261; continue _fun0003 }
-case 262:
+            if(!var93) { _fun0003_ip = 267; continue _fun0003 }
+case 268:
             var93 = var2.mentioned;
-case 261:
+case 267:
             var1['mentioned'] = var93;
             var93 = var2.isEdited;
             var96 = var93.bind(var2)();
             var93 = var94;
-            if(!var96) { _fun0003_ip = 263; continue _fun0003 }
-case 264:
+            if(!var96) { _fun0003_ip = 269; continue _fun0003 }
+case 270:
             var93 = var94;
-            if(var51) { _fun0003_ip = 263; continue _fun0003 }
-case 265:
+            if(var51) { _fun0003_ip = 269; continue _fun0003 }
+case 271:
             var98 = _closure1_slot0;
             var99 = _closure1_slot2;
             var94 = 28;
@@ -1922,25 +1957,25 @@ case 265:
             var94 = var94.t;
             var94 = var94.C8sXIM;
             var93 = var96.bind(var97)(var94);
-case 263:
+case 269:
             var1['edited'] = var93;
             var93 = var26.editedColor;
             var1['editedColor'] = var93;
             var93 = var2.isUnsupported;
-            if(var93) { _fun0003_ip = 266; continue _fun0003 }
-case 267:
-            if(!(var17 == var95)) { _fun0003_ip = 268; continue _fun0003 }
-case 269:
+            if(var93) { _fun0003_ip = 272; continue _fun0003 }
+case 273:
+            if(!(var17 == var95)) { _fun0003_ip = 274; continue _fun0003 }
+case 275:
             var93 = var26.textColor;
-            _fun0003_ip = 270; continue _fun0003;
-case 268:
+            _fun0003_ip = 276; continue _fun0003;
+case 274:
             var94 = 4278190080.0;
             var93 = var94 | var95;
-case 270:
-            _fun0003_ip = 271; continue _fun0003;
-case 266:
+case 276:
+            _fun0003_ip = 277; continue _fun0003;
+case 272:
             var93 = var26.unsupportedColor;
-case 271:
+case 277:
             var1['textColor'] = var93;
             var1['officialMessageColor'] = var92;
             var92 = var26.linkColor;
@@ -1960,79 +1995,79 @@ case 271:
             var1['gifAutoPlay'] = var53;
             var1['animateEmoji'] = var79;
             var79 = var75;
-            if(!var68) { _fun0003_ip = 272; continue _fun0003 }
-case 273:
+            if(!var68) { _fun0003_ip = 278; continue _fun0003 }
+case 279:
             var79 = var71.username;
-case 272:
+case 278:
             var80 = var17 != var79;
             var75 = undefined;
-            if(!var80) { _fun0003_ip = 274; continue _fun0003 }
-case 275:
+            if(!var80) { _fun0003_ip = 280; continue _fun0003 }
+case 281:
             var75 = var79;
-case 274:
+case 280:
             var1['username'] = var75;
             var75 = undefined;
-            if(var68) { _fun0003_ip = 276; continue _fun0003 }
-case 277:
+            if(var68) { _fun0003_ip = 282; continue _fun0003 }
+case 283:
             var75 = var78.uri;
-case 276:
+case 282:
             var1['avatarURL'] = var75;
             var75 = null;
-            if(var68) { _fun0003_ip = 278; continue _fun0003 }
-case 279:
+            if(var68) { _fun0003_ip = 284; continue _fun0003 }
+case 285:
             var75 = var77;
-case 278:
+case 284:
             var1['avatarDecorationURL'] = var75;
             var71 = var71.id;
             var1['authorId'] = var71;
-            if(var68) { _fun0003_ip = 280; continue _fun0003 }
-case 281:
+            if(var68) { _fun0003_ip = 286; continue _fun0003 }
+case 287:
             var71 = 'username';
-            if(!(var71 === var13)) { _fun0003_ip = 280; continue _fun0003 }
-case 282:
+            if(!(var71 === var13)) { _fun0003_ip = 286; continue _fun0003 }
+case 288:
             var75 = _closure1_slot3;
             var77 = var17 != var73;
             var71 = undefined;
-            if(!var77) { _fun0003_ip = 283; continue _fun0003 }
-case 284:
+            if(!var77) { _fun0003_ip = 289; continue _fun0003 }
+case 290:
             var71 = var73;
-case 283:
+case 289:
             var71 = var75.bind(var5)(var71);
-            if(!(var17 == var71)) { _fun0003_ip = 285; continue _fun0003 }
+            if(!(var17 == var71)) { _fun0003_ip = 291; continue _fun0003 }
+case 292:
+            var71 = var26.defaultUsernameColor;
+case 291:
+            _fun0003_ip = 293; continue _fun0003;
 case 286:
             var71 = var26.defaultUsernameColor;
-case 285:
-            _fun0003_ip = 287; continue _fun0003;
-case 280:
-            var71 = var26.defaultUsernameColor;
-case 287:
+case 293:
             var1['usernameColor'] = var71;
             var71 = null;
-            if(var68) { _fun0003_ip = 288; continue _fun0003 }
-case 289:
+            if(var68) { _fun0003_ip = 294; continue _fun0003 }
+case 295:
             var77 = _closure1_slot3;
             var78 = var17 != var73;
             var75 = undefined;
-            if(!var78) { _fun0003_ip = 290; continue _fun0003 }
-case 291:
+            if(!var78) { _fun0003_ip = 296; continue _fun0003 }
+case 297:
             var75 = var73;
-case 290:
+case 296:
             var77 = var77.bind(var5)(var75);
             var78 = var17 != var77;
             var75 = null;
-            if(!var78) { _fun0003_ip = 292; continue _fun0003 }
-case 293:
+            if(!var78) { _fun0003_ip = 298; continue _fun0003 }
+case 299:
             var75 = var77;
-case 292:
+case 298:
             var71 = var75;
-case 288:
+case 294:
             var1['roleColor'] = var71;
             var71 = null;
-            if(!var74) { _fun0003_ip = 294; continue _fun0003 }
-case 295:
+            if(!var74) { _fun0003_ip = 300; continue _fun0003 }
+case 301:
             var71 = null;
-            if(var68) { _fun0003_ip = 294; continue _fun0003 }
-case 296:
+            if(var68) { _fun0003_ip = 300; continue _fun0003 }
+case 302:
             var75 = _closure1_slot0;
             var77 = _closure1_slot2;
             var74 = 71;
@@ -2040,7 +2075,7 @@ case 296:
             var75 = var75.bind(var5)(var74);
             var74 = var75.processColorStrings;
             var71 = var74.bind(var75)(var76);
-case 294:
+case 300:
             var1['roleColors'] = var71;
             var71 = 'dot';
             var71 = var71 === var13;
@@ -2049,35 +2084,35 @@ case 294:
             var71 = var71 === var13;
             var1['shouldShowRoleOnName'] = var71;
             var1['showLinkDecorations'] = var65;
-            if(var68) { _fun0003_ip = 297; continue _fun0003 }
-case 298:
+            if(var68) { _fun0003_ip = 303; continue _fun0003 }
+case 304:
             var71 = _closure1_slot3;
             var74 = var17 != var73;
             var65 = undefined;
-            if(!var74) { _fun0003_ip = 299; continue _fun0003 }
-case 300:
+            if(!var74) { _fun0003_ip = 305; continue _fun0003 }
+case 306:
             var65 = var73;
-case 299:
+case 305:
             var65 = var71.bind(var5)(var65);
-            if(!(var17 == var65)) { _fun0003_ip = 301; continue _fun0003 }
-case 302:
+            if(!(var17 == var65)) { _fun0003_ip = 307; continue _fun0003 }
+case 308:
             var65 = var26.defaultUsernameColor;
-case 301:
-            _fun0003_ip = 303; continue _fun0003;
-case 297:
-            var65 = var26.defaultUsernameColor;
+case 307:
+            _fun0003_ip = 309; continue _fun0003;
 case 303:
+            var65 = var26.defaultUsernameColor;
+case 309:
             var1['colorString'] = var65;
             var65 = undefined;
-            if(var68) { _fun0003_ip = 304; continue _fun0003 }
-case 305:
+            if(var68) { _fun0003_ip = 310; continue _fun0003 }
+case 311:
             var65 = var70;
-case 304:
+case 310:
             var1['roleIcon'] = var65;
             var70 = var17 != var72;
             var65 = undefined;
-            if(!var70) { _fun0003_ip = 306; continue _fun0003 }
-case 307:
+            if(!var70) { _fun0003_ip = 312; continue _fun0003 }
+case 313:
             var71 = _closure1_slot0;
             var73 = _closure1_slot2;
             var70 = 72;
@@ -2085,32 +2120,32 @@ case 307:
             var71 = var71.bind(var5)(var70);
             var70 = var71.createConnectionsRoleTag;
             var65 = var70.bind(var71)(var72);
-case 306:
+case 312:
             var1['connectionsRoleTag'] = var65;
             var65 = undefined;
-            if(var68) { _fun0003_ip = 308; continue _fun0003 }
-case 309:
+            if(var68) { _fun0003_ip = 314; continue _fun0003 }
+case 315:
             var65 = var69;
-case 308:
+case 314:
             var1['timestamp'] = var65;
             var65 = undefined;
-            if(var68) { _fun0003_ip = 310; continue _fun0003 }
-case 311:
+            if(var68) { _fun0003_ip = 316; continue _fun0003 }
+case 317:
             var65 = var26.timestampColor;
-case 310:
+case 316:
             var1['timestampColor'] = var65;
             var65 = undefined;
-            if(var68) { _fun0003_ip = 312; continue _fun0003 }
-case 313:
+            if(var68) { _fun0003_ip = 318; continue _fun0003 }
+case 319:
             var65 = var66;
-case 312:
+case 318:
             var1['timestampAccessibilityLabel'] = var65;
             var1['content'] = var64;
             var1['isEditing'] = var11;
             var1['renderContentOnly'] = var51;
             var64 = undefined;
-            if(!(var5 !== var67)) { _fun0003_ip = 314; continue _fun0003 }
-case 315:
+            if(!(var5 !== var67)) { _fun0003_ip = 320; continue _fun0003 }
+case 321:
             var66 = _closure1_slot0;
             var68 = _closure1_slot2;
             var65 = 73;
@@ -2118,7 +2153,7 @@ case 315:
             var66 = var66.bind(var5)(var65);
             var65 = var66.createSurveyIndication;
             var64 = var65.bind(var66)(var2, var19, var67);
-case 314:
+case 320:
             var1['surveyIndication'] = var64;
             var65 = _closure1_slot0;
             var66 = _closure1_slot2;
@@ -2130,32 +2165,32 @@ case 314:
             var1['ephemeralIndication'] = var64;
             var1['interactionStatus'] = var52;
             var52 = undefined;
-            if(!var55) { _fun0003_ip = 316; continue _fun0003 }
-case 317:
+            if(!var55) { _fun0003_ip = 322; continue _fun0003 }
+case 323:
             var64 = _closure1_slot0;
             var65 = _closure1_slot2;
             var55 = 75;
             var55 = var65[var55];
             var65 = var64.bind(var5)(var55);
             var64 = var65.createExecutedCommand;
-            r106 = var26.defaultUsernameColor;
-            r111 = var65;
-            r110 = var2;
-            r109 = var21;
-            r108 = var13;
-            r107 = var19;
-            var52 = r111[var64](r110, r109, r108, r107, r106, r105);
-case 316:
+            r108 = var26.defaultUsernameColor;
+            r113 = var65;
+            r112 = var2;
+            r111 = var21;
+            r110 = var13;
+            r109 = var19;
+            var52 = r113[var64](r112, r111, r110, r109, r108, r107);
+case 322:
             var1['executedCommand'] = var52;
             var52 = var39.components;
             var52 = var52.length;
             var55 = var52 > var49;
             var52 = undefined;
-            if(!var55) { _fun0003_ip = 318; continue _fun0003 }
-case 319:
+            if(!var55) { _fun0003_ip = 324; continue _fun0003 }
+case 325:
             var52 = undefined;
-            if(!var54) { _fun0003_ip = 318; continue _fun0003 }
-case 320:
+            if(!var54) { _fun0003_ip = 324; continue _fun0003 }
+case 326:
             var55 = _closure1_slot1;
             var64 = _closure1_slot2;
             var54 = 48;
@@ -2175,32 +2210,32 @@ case 320:
             var54['colors'] = var26;
             var53 = var39.components;
             var52 = var55.bind(var5)(var54, var53);
-case 318:
+case 324:
             var1['components'] = var52;
             var52 = 0;
-            if(var51) { _fun0003_ip = 321; continue _fun0003 }
-case 322:
+            if(var51) { _fun0003_ip = 327; continue _fun0003 }
+case 328:
             var52 = var26.feedbackColor;
-case 321:
+case 327:
             var1['feedbackColor'] = var52;
             var49 = 0;
-            if(var51) { _fun0003_ip = 323; continue _fun0003 }
-case 324:
+            if(var51) { _fun0003_ip = 329; continue _fun0003 }
+case 330:
             var49 = var26.highlightColor;
-case 323:
+case 329:
             var1['highlightColor'] = var49;
             var51 = var17 != var50;
             var49 = undefined;
-            if(!var51) { _fun0003_ip = 325; continue _fun0003 }
-case 326:
+            if(!var51) { _fun0003_ip = 331; continue _fun0003 }
+case 332:
             var49 = var50;
-case 325:
+case 331:
             var1['embeds'] = var49;
-            if(var48) { _fun0003_ip = 327; continue _fun0003 }
-case 328:
+            if(var48) { _fun0003_ip = 333; continue _fun0003 }
+case 334:
             var48 = new Array(0);
-            _fun0003_ip = 329; continue _fun0003;
-case 327:
+            _fun0003_ip = 335; continue _fun0003;
+case 333:
             var50 = _closure1_slot0;
             var51 = _closure1_slot2;
             var49 = 76;
@@ -2208,30 +2243,30 @@ case 327:
             var50 = var50.bind(var5)(var49);
             var49 = var50.createGiftCodeEmbed;
             var48 = var49.bind(var50)(var2, var19);
-case 329:
+case 335:
             var1['giftCodes'] = var48;
-            if(var45) { _fun0003_ip = 330; continue _fun0003 }
-case 331:
+            if(var45) { _fun0003_ip = 336; continue _fun0003 }
+case 337:
             var45 = new Array(0);
-            _fun0003_ip = 332; continue _fun0003;
-case 330:
+            _fun0003_ip = 338; continue _fun0003;
+case 336:
             var49 = _closure1_slot0;
             var50 = _closure1_slot2;
             var48 = 77;
             var48 = var50[var48];
             var49 = var49.bind(var5)(var48);
             var48 = var49.createCodedLinkEmbeds;
-            r111 = var49;
-            r110 = var2;
-            r109 = var39;
-            r108 = var21;
-            r107 = var19;
-            var45 = r111[var48](r110, r109, r108, r107, r106);
-case 332:
+            r113 = var49;
+            r112 = var2;
+            r111 = var39;
+            r110 = var21;
+            r109 = var19;
+            var45 = r113[var48](r112, r111, r110, r109, r108);
+case 338:
             var1['codedLinks'] = var45;
             var45 = undefined;
-            if(!var47) { _fun0003_ip = 333; continue _fun0003 }
-case 334:
+            if(!var47) { _fun0003_ip = 339; continue _fun0003 }
+case 340:
             var48 = _closure1_slot0;
             var49 = _closure1_slot2;
             var47 = 78;
@@ -2239,11 +2274,11 @@ case 334:
             var48 = var48.bind(var5)(var47);
             var47 = var48.createActivityInstanceEmbed;
             var45 = var47.bind(var48)(var2);
-case 333:
+case 339:
             var1['activityInstanceEmbed'] = var45;
             var45 = undefined;
-            if(!var46) { _fun0003_ip = 335; continue _fun0003 }
-case 336:
+            if(!var46) { _fun0003_ip = 341; continue _fun0003 }
+case 342:
             var47 = _closure1_slot0;
             var48 = _closure1_slot2;
             var46 = 79;
@@ -2251,42 +2286,42 @@ case 336:
             var47 = var47.bind(var5)(var46);
             var46 = var47.createActivityRichPresenceInviteEmbed;
             var45 = var46.bind(var47)(var2, var21);
-case 335:
-            var1['activityRichPresenceInviteEmbed'] = var45;
-            if(!var41) { _fun0003_ip = 337; continue _fun0003 }
-case 338:
-            if(!var42) { _fun0003_ip = 339; continue _fun0003 }
-case 340:
-            if(var43) { _fun0003_ip = 341; continue _fun0003 }
-case 342:
-            var43 = var44;
 case 341:
-            var42 = var43;
-case 339:
-            if(var42) { _fun0003_ip = 343; continue _fun0003 }
+            var1['activityRichPresenceInviteEmbed'] = var45;
+            if(!var41) { _fun0003_ip = 343; continue _fun0003 }
 case 344:
+            if(!var42) { _fun0003_ip = 345; continue _fun0003 }
+case 346:
+            if(var43) { _fun0003_ip = 347; continue _fun0003 }
+case 348:
+            var43 = var44;
+case 347:
+            var42 = var43;
+case 345:
+            if(var42) { _fun0003_ip = 349; continue _fun0003 }
+case 350:
             var42 = var37;
-case 343:
+case 349:
             var41 = var42;
-case 337:
+case 343:
             var1['useAttachmentGridLayout'] = var41;
             var1['useAttachmentUploadPreview'] = var37;
             var1['attachments'] = var36;
             var42 = 1;
             var36 = var42;
-            if(!var37) { _fun0003_ip = 345; continue _fun0003 }
-case 346:
+            if(!var37) { _fun0003_ip = 351; continue _fun0003 }
+case 352:
             var41 = var2.state;
-            var37 = _closure1_slot28;
+            var37 = _closure1_slot29;
             var37 = var37.SEND_FAILED;
             var36 = var42;
-            if(!(var41 === var37)) { _fun0003_ip = 345; continue _fun0003 }
-case 347:
+            if(!(var41 === var37)) { _fun0003_ip = 351; continue _fun0003 }
+case 353:
             var36 = 0.2;
-case 345:
+case 351:
             var1['attachmentsOpacity'] = var36;
-            if(var35) { _fun0003_ip = 348; continue _fun0003 }
-case 349:
+            if(var35) { _fun0003_ip = 354; continue _fun0003 }
+case 355:
             var36 = _closure1_slot1;
             var37 = _closure1_slot2;
             var35 = 80;
@@ -2305,46 +2340,46 @@ case 349:
             var37 = var37 === var38;
             var35['isUserInteracting'] = var37;
             var35 = var36.bind(var5)(var35);
-            _fun0003_ip = 350; continue _fun0003;
-case 348:
+            _fun0003_ip = 356; continue _fun0003;
+case 354:
             var35 = new Array(0);
-case 350:
+case 356:
             var1['stickers'] = var35;
-            if(!var29) { _fun0003_ip = 351; continue _fun0003 }
-case 352:
+            if(!var29) { _fun0003_ip = 357; continue _fun0003 }
+case 358:
             var29 = var34;
-case 351:
+case 357:
             var1['communicationDisabled'] = var29;
             var34 = var17 == var21;
-            if(var34) { _fun0003_ip = 353; continue _fun0003 }
-case 354:
+            if(var34) { _fun0003_ip = 359; continue _fun0003 }
+case 360:
             var29 = var21.isForumPost;
             var29 = var29.bind(var21)();
             var34 = !var29;
-case 353:
+case 359:
             var29 = !var34;
-            if(var34) { _fun0003_ip = 355; continue _fun0003 }
-case 356:
+            if(var34) { _fun0003_ip = 361; continue _fun0003 }
+case 362:
             var35 = var2.id;
             var34 = var2.channel_id;
             var29 = var35 === var34;
-case 355:
+case 361:
             var1['isFirstForumPostMessage'] = var29;
             var34 = var17 != var21;
             var29 = undefined;
-            if(!var34) { _fun0003_ip = 357; continue _fun0003 }
-case 358:
+            if(!var34) { _fun0003_ip = 363; continue _fun0003 }
+case 364:
             var34 = var21.isForumPost;
             var34 = var34.bind(var21)();
             var29 = undefined;
-            if(!var34) { _fun0003_ip = 357; continue _fun0003 }
-case 359:
+            if(!var34) { _fun0003_ip = 363; continue _fun0003 }
+case 365:
             var29 = undefined;
-            if(!var33) { _fun0003_ip = 357; continue _fun0003 }
-case 360:
-            var33 = _closure1_slot33;
+            if(!var33) { _fun0003_ip = 363; continue _fun0003 }
+case 366:
+            var33 = _closure1_slot34;
             var29 = var33.bind(var5)(var2, var21);
-case 357:
+case 363:
             var1['postActions'] = var29;
             var29 = var2.author;
             var29 = var29.id;
@@ -2374,11 +2409,11 @@ case 357:
             var29 = var34.bind(var5)(var29);
             var29 = var31.bind(var33)(var29);
             var1['swipeToEditIconUrl'] = var29;
-            if(var28) { _fun0003_ip = 361; continue _fun0003 }
-case 362:
+            if(var28) { _fun0003_ip = 367; continue _fun0003 }
+case 368:
             var28 = new Array(0);
-            _fun0003_ip = 363; continue _fun0003;
-case 361:
+            _fun0003_ip = 369; continue _fun0003;
+case 367:
             var31 = _closure1_slot0;
             var33 = _closure1_slot2;
             var29 = 83;
@@ -2386,7 +2421,7 @@ case 361:
             var31 = var31.bind(var5)(var29);
             var29 = var31.createPostPreviewEmbeds;
             var28 = var29.bind(var31)(var2, var13, var32);
-case 363:
+case 369:
             var1['postPreviewEmbeds'] = var28;
             var28 = _closure1_slot0;
             var29 = _closure1_slot2;
@@ -2424,10 +2459,10 @@ case 363:
             var25 = var29.bind(var30)(var28, var25, var26);
             var1['ctaButton'] = var25;
             var25 = undefined;
-            if(!var27) { _fun0003_ip = 364; continue _fun0003 }
-case 365:
+            if(!var27) { _fun0003_ip = 370; continue _fun0003 }
+case 371:
             var25 = var26.embedBackgroundColor;
-case 364:
+case 370:
             var1['audioAttachmentBackgroundColor'] = var25;
             var26 = _closure1_slot0;
             var27 = _closure1_slot2;
@@ -2444,11 +2479,11 @@ case 364:
             var1['gameApplicationId'] = var15;
             var15 = var17 == var21;
             var20 = undefined;
-            if(var15) { _fun0003_ip = 366; continue _fun0003 }
-case 367:
+            if(var15) { _fun0003_ip = 372; continue _fun0003 }
+case 373:
             var20 = var21.type;
-case 366:
-            var15 = _closure1_slot30;
+case 372:
+            var15 = _closure1_slot31;
             var15 = var15.GUILD_ANNOUNCEMENT;
             var15 = var20 === var15;
             var1['isAnnouncementChannel'] = var15;
@@ -2465,10 +2500,10 @@ case 366:
             return var1;
 case 64:
             var4 = var2.type;
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot28;
             var1 = var1.THREAD_CREATED;
-            if(!(var4 !== var1)) { _fun0003_ip = 368; continue _fun0003 }
-case 369:
+            if(!(var4 !== var1)) { _fun0003_ip = 374; continue _fun0003 }
+case 375:
             var4 = _closure1_slot0;
             var15 = _closure1_slot2;
             var1 = 40;
@@ -2482,25 +2517,25 @@ case 369:
             var1['roleStyle'] = var13;
             var20 = var17 == var21;
             var17 = undefined;
-            if(var20) { _fun0003_ip = 370; continue _fun0003 }
-case 371:
+            if(var20) { _fun0003_ip = 376; continue _fun0003 }
+case 377:
             var20 = var21.isForumPost;
             var17 = var20.bind(var21)();
-case 370:
+case 376:
             var1['isForumPost'] = var17;
             var1 = var4.bind(var15)(var1);
-            _fun0003_ip = 372; continue _fun0003;
-case 368:
+            _fun0003_ip = 378; continue _fun0003;
+case 374:
             var4 = {};
-            var15 = _closure1_slot32;
-            r111 = undefined;
-            r110 = var2;
-            r109 = var13;
-            r108 = var6;
-            r107 = var16;
-            r106 = var7;
-            r105 = var19;
-            var15 = r111[var15](r110, r109, r108, r107, r106, r105, r104);
+            var15 = _closure1_slot33;
+            r113 = undefined;
+            r112 = var2;
+            r111 = var13;
+            r110 = var6;
+            r109 = var16;
+            r108 = var7;
+            r107 = var19;
+            var15 = r113[var15](r112, r111, r110, r109, r108, r107, r106);
             var4['threadEmbed'] = var15;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -2513,15 +2548,15 @@ case 368:
             var15['theme'] = var19;
             var15['reactions'] = var18;
             var15['roleStyle'] = var13;
-            r109 = var16.bind(var17)(var15);
-            r110 = var4;
-            var15 = copyDataProperties(r110, r109);
+            r111 = var16.bind(var17)(var15);
+            r112 = var4;
+            var15 = copyDataProperties(r112, r111);
             var1 = var4;
-case 372:
+case 378:
             return var1;
 case 62:
             var1 = {};
-            var4 = _closure1_slot34;
+            var4 = _closure1_slot35;
             var3 = {};
             var3['message'] = var14;
             var3['roleStyle'] = var13;
@@ -2531,9 +2566,9 @@ case 62:
             var3['isSystemDM'] = var9;
             var3['isInlineReplyPreview'] = var6;
             var6 = {};
-            r110 = var6;
-            r109 = var7;
-            var7 = copyDataProperties(r110, r109);
+            r112 = var6;
+            r111 = var7;
+            var7 = copyDataProperties(r112, r111);
             var9 = false;
             var7 = 'renderThreadEmbeds';
             var6[6] = var9;
@@ -2542,16 +2577,16 @@ case 62:
             var7 = 'shouldDisableInteractiveComponents';
             var6[6] = var8;
             var3['options'] = var6;
-            r109 = var4.bind(var5)(var3);
-            r110 = var1;
-            var3 = copyDataProperties(r110, r109);
+            r111 = var4.bind(var5)(var3);
+            r112 = var1;
+            var3 = copyDataProperties(r112, r111);
             var3 = var2.id;
             var2 = 'id';
             var1[1] = var3;
             return var1;
         }
     };
-    var _closure1_slot34 = var2;
+    var _closure1_slot35 = var2;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -2651,29 +2686,31 @@ case 62:
     var4 = var5.bind(var1)(var4);
     var8 = var4.DEFAULT_GUILD_OFFICIAL_COLOR;
     var _closure1_slot24 = var8;
+    var8 = var4.GUILD_OFFICIAL_HIGHLIGHT_ALPHA;
+    var _closure1_slot25 = var8;
     var4 = var4.GUILD_OFFICIAL_HIGHLIGHT_ALPHA_COLOR;
-    var _closure1_slot25 = var4;
+    var _closure1_slot26 = var4;
     var4 = 21;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ReferencedMessageRowState;
-    var _closure1_slot26 = var4;
+    var _closure1_slot27 = var4;
     var4 = 22;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.MessageTypes;
-    var _closure1_slot27 = var8;
-    var8 = var4.MessageStates;
     var _closure1_slot28 = var8;
-    var8 = var4.MessageFlags;
+    var8 = var4.MessageStates;
     var _closure1_slot29 = var8;
+    var8 = var4.MessageFlags;
+    var _closure1_slot30 = var8;
     var4 = var4.ChannelTypes;
-    var _closure1_slot30 = var4;
+    var _closure1_slot31 = var4;
     var4 = 23;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.GuildTagBadgeSize;
-    var _closure1_slot31 = var4;
+    var _closure1_slot32 = var4;
     var4 = 89;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

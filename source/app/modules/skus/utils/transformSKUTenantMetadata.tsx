@@ -85,140 +85,130 @@ case 8:
     var1 = function transformCollectiblesItemFromServer(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var3 = arg1;
-            var5 = null;
-            if(!(var5 == var3)) { _fun0003_ip = 2; continue _fun0003 }
+            var2 = arg1;
+            var4 = null;
+            if(!(var4 == var2)) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
             var1 = undefined;
             return var1;
 case 2:
-            var2 = var3.type;
+            var6 = var2.type;
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var8 = 0;
             var1 = var1[var8];
-            var6 = undefined;
-            var1 = var7.bind(var6)(var1);
+            var5 = undefined;
+            var1 = var7.bind(var5)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.AVATAR_DECORATION;
-            if(!(var2 !== var1)) { _fun0003_ip = 10; continue _fun0003 }
+            if(!(var1 !== var6)) { _fun0003_ip = 10; continue _fun0003 }
 case 5:
-            var2 = var3.type;
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var8];
-            var1 = var7.bind(var6)(var1);
+            var1 = var7.bind(var5)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.NAMEPLATE;
-            if(!(var2 !== var1)) { _fun0003_ip = 11; continue _fun0003 }
+            if(!(var1 !== var6)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var2 = var3.type;
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var8];
-            var1 = var7.bind(var6)(var1);
+            var1 = var7.bind(var5)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.PROFILE_EFFECT;
-            if(!(var2 !== var1)) { _fun0003_ip = 13; continue _fun0003 }
+            if(!(var1 !== var6)) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-            var7 = var3.type;
-            var2 = _closure1_slot0;
+            var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var8];
-            var1 = var2.bind(var6)(var1);
+            var1 = var7.bind(var5)(var1);
             var1 = var1.CollectiblesItemType;
-            var2 = var1.PROFILE_FRAME;
-            var1 = undefined;
-            if(!(var7 === var2)) { _fun0003_ip = 15; continue _fun0003 }
+            var1 = var1.PROFILE_FRAME;
+            if(!(var1 !== var6)) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
-            var2 = {};
-            var7 = var3.id;
-            var2['id'] = var7;
-            var7 = var3.type;
-            var2['type'] = var7;
-            var7 = var3.label;
-            var2['label'] = var7;
-            var7 = var3.layers;
-            var2['layers'] = var7;
-            var7 = var3.inner_width;
-            var2['innerWidth'] = var7;
-            var7 = var3.overflow_top;
-            var2['overflowTop'] = var7;
-            var7 = var3.overflow_bottom;
-            var2['overflowBottom'] = var7;
-            var7 = var3.overflow_horizontal;
-            var2['overflowHorizontal'] = var7;
-            var1 = var2;
+            return var5;
 case 15:
-            _fun0003_ip = 17; continue _fun0003;
+            var1 = {};
+            var6 = var2.id;
+            var1['id'] = var6;
+            var6 = var2.type;
+            var1['type'] = var6;
+            var6 = var2.label;
+            var1['label'] = var6;
+            var6 = var2.layers;
+            var1['layers'] = var6;
+            var6 = var2.inner_width;
+            var1['innerWidth'] = var6;
+            var6 = var2.overflow_top;
+            var1['overflowTop'] = var6;
+            var6 = var2.overflow_bottom;
+            var1['overflowBottom'] = var6;
+            var6 = var2.overflow_horizontal;
+            var1['overflowHorizontal'] = var6;
+            return var1;
 case 13:
-            var2 = {};
-            var7 = var3.id;
-            var2['id'] = var7;
-            var7 = var3.type;
-            var2['type'] = var7;
-            var7 = var3.title;
-            var2['title'] = var7;
-            var7 = var3.description;
-            var2['description'] = var7;
-            var7 = var3.accessibilityLabel;
-            var2['accessibilityLabel'] = var7;
-            var7 = var3.animationType;
-            var2['animationType'] = var7;
-            var7 = var3.staticFrameSrc;
-            var2['staticFrameSrc'] = var7;
-            var7 = var3.thumbnailPreviewSrc;
-            var2['thumbnailPreviewSrc'] = var7;
-            var7 = var3.reducedMotionSrc;
-            var2['reducedMotionSrc'] = var7;
-            var9 = var3.effects;
-            var7 = var5 == var9;
-            var5 = undefined;
-            if(var7) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-            var8 = var9.map;
-            var7 = _closure1_slot3;
-            var5 = var8.bind(var9)(var7);
+            var1 = {};
+            var6 = var2.id;
+            var1['id'] = var6;
+            var6 = var2.type;
+            var1['type'] = var6;
+            var6 = var2.title;
+            var1['title'] = var6;
+            var6 = var2.description;
+            var1['description'] = var6;
+            var6 = var2.accessibilityLabel;
+            var1['accessibilityLabel'] = var6;
+            var6 = var2.animationType;
+            var1['animationType'] = var6;
+            var6 = var2.staticFrameSrc;
+            var1['staticFrameSrc'] = var6;
+            var6 = var2.thumbnailPreviewSrc;
+            var1['thumbnailPreviewSrc'] = var6;
+            var6 = var2.reducedMotionSrc;
+            var1['reducedMotionSrc'] = var6;
+            var8 = var2.effects;
+            var6 = var4 == var8;
+            var4 = undefined;
+            if(var6) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
-            var2['effects'] = var5;
-            var1 = var2;
+            var7 = var8.map;
+            var6 = _closure1_slot3;
+            var4 = var7.bind(var8)(var6);
 case 17:
-            _fun0003_ip = 20; continue _fun0003;
+            var1['effects'] = var4;
+            return var1;
 case 11:
-            var2 = {};
-            var5 = var3.id;
-            var2['id'] = var5;
-            var5 = var3.type;
-            var2['type'] = var5;
-            var5 = var3.asset;
-            var2['asset'] = var5;
-            var7 = _closure1_slot2;
-            var5 = var3.assets;
-            var5 = var7.bind(var6)(var5);
-            var2['assets'] = var5;
-            var5 = var3.label;
-            var2['label'] = var5;
-            var5 = var3.palette;
-            var2['palette'] = var5;
-            var1 = var2;
-case 20:
-            _fun0003_ip = 21; continue _fun0003;
+            var1 = {};
+            var4 = var2.id;
+            var1['id'] = var4;
+            var4 = var2.type;
+            var1['type'] = var4;
+            var4 = var2.asset;
+            var1['asset'] = var4;
+            var6 = _closure1_slot2;
+            var4 = var2.assets;
+            var4 = var6.bind(var5)(var4);
+            var1['assets'] = var4;
+            var4 = var2.label;
+            var1['label'] = var4;
+            var4 = var2.palette;
+            var1['palette'] = var4;
+            return var1;
 case 10:
-            var2 = {};
-            var5 = var3.id;
-            var2['id'] = var5;
-            var5 = var3.type;
-            var2['type'] = var5;
-            var5 = var3.asset;
-            var2['asset'] = var5;
-            var5 = _closure1_slot2;
-            var4 = var3.assets;
-            var4 = var5.bind(var6)(var4);
-            var2['assets'] = var4;
-            var3 = var3.label;
-            var2['label'] = var3;
-            var1 = var2;
-case 21:
+            var1 = {};
+            var4 = var2.id;
+            var1['id'] = var4;
+            var4 = var2.type;
+            var1['type'] = var4;
+            var4 = var2.asset;
+            var1['asset'] = var4;
+            var4 = _closure1_slot2;
+            var3 = var2.assets;
+            var3 = var4.bind(var5)(var3);
+            var1['assets'] = var3;
+            var2 = var2.label;
+            var1['label'] = var2;
             return var1;
         }
     };
@@ -289,8 +279,8 @@ case 2:
             var3 = var2.expires_at;
             var4 = var4 != var3;
             var3 = undefined;
-            if(!var4) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
+            if(!var4) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
             var4 = global;
             var6 = var4.Date;
             var7 = var2.expires_at;
@@ -299,7 +289,7 @@ case 23:
             var8 = var5;
             var4 = new var8[var6](var7, var6);
             var3 = var4 instanceof Object ? var4 : var5;
-case 22:
+case 19:
             var1['expiresAt'] = var3;
             var3 = var2.card_image_asset_id;
             var1['cardImageAssetId'] = var3;
@@ -336,8 +326,8 @@ case 2:
             var4 = var2.expires_at;
             var6 = var6 != var4;
             var4 = undefined;
-            if(!var6) { _fun0006_ip = 14; continue _fun0006 }
-case 24:
+            if(!var6) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
             var6 = global;
             var8 = var6.Date;
             var7 = var2.expires_at;
@@ -348,7 +338,7 @@ case 24:
             var10 = var7;
             var6 = new var10[var8](var9, var8);
             var4 = var6 instanceof Object ? var6 : var7;
-case 14:
+case 21:
             var1['expiresAt'] = var4;
             var4 = _closure1_slot5;
             var3 = var2.variant;

@@ -88,7 +88,7 @@ case 2:
     var5 = var6.fileFinishedImporting;
     var4 = 'design/components/Coachmark/native/AnimatedCoachmark.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function AnimatedCoachmark(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;

@@ -119,45 +119,42 @@ case 9:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = arg1;
-                    var4 = var2.type;
-                    var5 = _closure1_slot0;
+                    var5 = var2.type;
+                    var4 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var8 = 5;
                     var1 = var1[var8];
                     var6 = undefined;
-                    var1 = var5.bind(var6)(var1);
+                    var1 = var4.bind(var6)(var1);
                     var1 = var1.StageChannelParticipantTypes;
-                    var1 = var1.STREAM;
-                    var1 = var4 === var1;
-                    if(var1) { _fun0002_ip = 11; continue _fun0002 }
+                    var4 = var1.STREAM;
+                    var1 = true;
+                    if(!(var4 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-                    var5 = var2.type;
                     var7 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var4 = var4[var8];
                     var4 = var7.bind(var6)(var4);
                     var4 = var4.StageChannelParticipantTypes;
                     var4 = var4.VOICE;
-                    var4 = var5 === var4;
-                    if(!var4) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-                    var7 = var2.voiceState;
-                    var5 = null;
-                    var8 = var5 == var7;
-                    var5 = undefined;
-                    if(var8) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-                    var5 = var7.selfVideo;
-case 15:
-                    var4 = var5;
+                    var1 = false;
+                    if(!(var4 === var5)) { _fun0002_ip = 11; continue _fun0002 }
 case 13:
+                    var5 = var2.voiceState;
+                    var4 = null;
+                    var7 = var4 == var5;
+                    var4 = undefined;
+                    if(var7) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+                    var4 = var5.selfVideo;
+case 14:
                     var1 = var4;
 case 11:
                     var5 = _closure1_slot4;
                     var4 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    if(var1) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+                    if(var1) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                     var1 = 8;
                     var1 = var7[var1];
                     var8 = var4.bind(var6)(var1);
@@ -174,8 +171,8 @@ case 18:
                     var1 = 'stage-user-participant-';
                     var1 = var9.bind(var1)(var10);
                     var1 = var5.bind(var6)(var8, var3, var1);
-                    _fun0002_ip = 19; continue _fun0002;
-case 17:
+                    _fun0002_ip = 18; continue _fun0002;
+case 16:
                     var3 = 7;
                     var3 = var7[var3];
                     var4 = var4.bind(var6)(var3);
@@ -192,7 +189,7 @@ case 17:
                     var2 = 'stage-media-participant-';
                     var2 = var7.bind(var2)(var8);
                     var1 = var5.bind(var6)(var4, var3, var2);
-case 19:
+case 18:
                     return var1;
                 }
             };

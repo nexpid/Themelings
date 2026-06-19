@@ -1,14 +1,149 @@
 // app/design/void/RadioGroup/native/RadioGroup.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var14 = metroImportDefault;
+    var15 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
-    var _closure1_slot1 = var14;
+    var _closure1_slot1 = var15;
     var _closure1_slot2 = var8;
-    var1 = function RadioBar(arg1) {
+    var1 = function getOuterStylesFromSize() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var3 = arguments[0];
+            var1 = undefined;
+            if(!(var3 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = _closure1_slot8;
+            var3 = var1.MEDIUM;
+case 2:
+            var1 = {};
+            var2 = 2;
+            var4 = var2 * var3;
+            var1['width'] = var4;
+            var2 = var2 * var3;
+            var1['height'] = var2;
+            var2 = _closure1_slot9;
+            var2 = var2[var3];
+            var1['padding'] = var2;
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var1;
+    var1 = function getTickStylesFromSize() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = arguments[0];
+            var1 = undefined;
+            if(!(var2 === var1)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+            var1 = _closure1_slot8;
+            var2 = var1.MEDIUM;
+case 2:
+            var1 = {};
+            var1['width'] = var2;
+            var1['height'] = var2;
+            return var1;
+        }
+    };
+    var _closure1_slot12 = var1;
+    var1 = function RadioEmpty(arg1) {
+        var1 = arg1;
+        var8 = var1.size;
+        var6 = var1.style;
+        var1 = _closure1_slot10;
+        var4 = undefined;
+        var5 = var1.bind(var4)();
+        var3 = _closure1_slot6;
+        var2 = _closure1_slot4;
+        var1 = {};
+        var9 = var5.radioIcon;
+        var5 = new Array(3);
+        var5[0] = var9;
+        var7 = _closure1_slot11;
+        var7 = var7.bind(var4)(var8);
+        var5[1] = var7;
+        var5[2] = var6;
+        var1['style'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot13 = var1;
+    var1 = function RadioSelected(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var10 = var1.size;
+            var7 = var1.active;
+            var6 = var1.style;
+            var1 = _closure1_slot10;
+            var4 = undefined;
+            var8 = var1.bind(var4)();
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var11 = var8.radioIcon;
+            var5 = new Array(4);
+            var5[0] = var11;
+            var11 = _closure1_slot11;
+            var11 = var11.bind(var4)(var10);
+            var5[1] = var11;
+            if(!var7) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
+            var7 = var8.radioIconSelected;
+case 4:
+            var5[2] = var7;
+            var5[3] = var6;
+            var1['style'] = var5;
+            var7 = _closure1_slot6;
+            var6 = _closure1_slot4;
+            var5 = {};
+            var11 = var8.radioTick;
+            var8 = new Array(2);
+            var8[0] = var11;
+            var9 = _closure1_slot12;
+            var9 = var9.bind(var4)(var10);
+            var8[1] = var9;
+            var5['style'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot14 = var1;
+    var4 = function RadioIndicator(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var1 = arg1;
+            var7 = var1.size;
+            var6 = var1.active;
+            var2 = var1.style;
+            var5 = _closure1_slot6;
+            if(var6) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
+            var8 = _closure1_slot13;
+            var4 = {};
+            var4['size'] = var7;
+            var4['style'] = var2;
+            var1 = undefined;
+            var1 = var5.bind(var1)(var8, var4);
+            _fun0004_ip = 8; continue _fun0004;
+case 6:
+            var4 = _closure1_slot14;
+            var3 = {};
+            var3['size'] = var7;
+            var3['active'] = var6;
+            var3['style'] = var2;
+            var2 = undefined;
+            var1 = var5.bind(var2)(var4, var3);
+case 8:
+            return var1;
+        }
+    };
+    var _closure1_slot15 = var4;
+    var1 = function RadioBar(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var15 = var1.checked;
@@ -28,13 +163,13 @@ case 0:
             var2['size'] = var7;
             var2['active'] = var15;
             var7 = var6.bind(var4)(var3, var2);
-            if(var15) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var15) { _fun0005_ip = 9; continue _fun0005 }
+case 10:
             var12 = var11.collapsibleBackground;
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
+            _fun0005_ip = 11; continue _fun0005;
+case 9:
             var12 = var11.collapsibleBackgroundSelected;
-case 4:
+case 11:
             var3 = _closure1_slot0;
             var16 = _closure1_slot2;
             var2 = 6;
@@ -57,25 +192,25 @@ case 4:
             var1['accessibilityState'] = var6;
             var1['disabled'] = var9;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+            if(var9) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
             var6 = var14;
-case 5:
+case 12:
             var1['onPress'] = var6;
             var6 = new Array(3);
             var6[0] = var13;
-            if(!var9) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+            if(!var9) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
             var9 = var11.disabled;
-case 7:
+case 14:
             var6[1] = var9;
             var11 = var5.collapsibleContent;
             var9 = null;
             var11 = var9 != var11;
-            if(!var11) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+            if(!var11) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
             var11 = var12;
-case 9:
+case 16:
             var6[2] = var11;
             var1['DEPRECATED_style'] = var6;
             var6 = var5.name;
@@ -83,30 +218,30 @@ case 9:
             var6 = var5.desc;
             var1['subLabel'] = var6;
             var6 = null;
-            if(var10) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(var10) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
             var6 = null;
-            if(!var8) { _fun0001_ip = 11; continue _fun0001 }
-case 13:
+            if(!var8) { _fun0005_ip = 18; continue _fun0005 }
+case 20:
             var6 = var7;
-case 11:
+case 18:
             var1['trailing'] = var6;
             var6 = var5.leading;
-            if(!(var9 != var6)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!(var9 != var6)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var5 = var5.leading;
-            _fun0001_ip = 16; continue _fun0001;
-case 14:
+            _fun0005_ip = 23; continue _fun0005;
+case 21:
             var6 = null;
-            if(!var10) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(!var10) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var6 = null;
-            if(!var8) { _fun0001_ip = 17; continue _fun0001 }
-case 19:
+            if(!var8) { _fun0005_ip = 24; continue _fun0005 }
+case 26:
             var6 = var7;
-case 17:
+case 24:
             var5 = var6;
-case 16:
+case 23:
             var1['leading'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -114,7 +249,7 @@ case 16:
     };
     var _closure1_slot16 = var1;
     var2 = function RadioItem(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var11 = var1.option;
@@ -133,11 +268,9 @@ case 0:
             var1 = var1.onPress;
             var _closure2_slot6 = var1;
             var5 = undefined;
-            var _closure2_slot8 = var5;
-            var1 = _closure1_slot10;
-            var10 = var1.bind(var5)();
+            var _closure2_slot7 = var5;
             var8 = function handlePress(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var2 = arg1;
                     var1 = var2.preventDefault;
@@ -147,25 +280,27 @@ case 0:
                     var3 = var1 == var3;
                     var4 = undefined;
                     var1 = undefined;
-                    if(var3) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+                    if(var3) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
                     var3 = _closure2_slot6;
                     var2 = _closure2_slot0;
                     var1 = var3.bind(var4)(var2);
-case 20:
+case 27:
                     return var1;
                 }
             };
-            var _closure2_slot7 = var8;
-            if(var13) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
+            var _closure2_slot8 = var8;
+            var1 = _closure1_slot10;
+            var10 = var1.bind(var5)();
+            if(var13) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
             var13 = var11.disabled;
-case 22:
-            _closure2_slot8 = var13;
+case 29:
+            _closure2_slot7 = var13;
             var2 = var11.collapsibleContent;
             var1 = null;
-            if(!(var1 == var2)) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+            if(!(var1 == var2)) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
             var3 = _closure1_slot6;
             var2 = _closure1_slot16;
             var1 = {};
@@ -180,8 +315,8 @@ case 25:
             var1['indicatorLeft'] = var7;
             var1['showIndicator'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0002_ip = 26; continue _fun0002;
-case 24:
+            _fun0006_ip = 33; continue _fun0006;
+case 31:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
@@ -214,13 +349,13 @@ case 24:
                 var2['style'] = var6;
                 var6 = _closure2_slot3;
                 var2['size'] = var6;
-                var6 = _closure2_slot8;
+                var6 = _closure2_slot7;
                 var6 = !var6;
                 var6 = !var6;
                 var2['disabled'] = var6;
                 var5 = function onPress(arg1) {
                     var3 = arg1;
-                    var2 = _closure2_slot7;
+                    var2 = _closure2_slot8;
                     var1 = undefined;
                     var2 = var2.bind(var1)(var3);
                     var2 = _closure3_slot0;
@@ -240,72 +375,72 @@ case 24:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 26:
+case 33:
             return var1;
         }
     };
     var _closure1_slot17 = var2;
     var5 = function RadioGroup(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.value;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+            if(!(var2 === var4)) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
             var2 = null;
-case 27:
+case 34:
             var _closure2_slot0 = var2;
             var7 = var1.options;
-            if(!(var7 === var4)) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+            if(!(var7 === var4)) { _fun0008_ip = 36; continue _fun0008 }
+case 37:
             var7 = new Array(0);
-case 29:
+case 36:
             var _closure2_slot1 = var7;
             var2 = var1.style;
             var _closure2_slot2 = var2;
             var2 = var1.size;
-            if(!(var2 === var4)) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+            if(!(var2 === var4)) { _fun0008_ip = 38; continue _fun0008 }
+case 39:
             var3 = _closure1_slot8;
             var2 = var3.MEDIUM;
-case 31:
+case 38:
             var _closure2_slot3 = var2;
             var2 = var1.disabled;
-            if(!(var2 === var4)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+            if(!(var2 === var4)) { _fun0008_ip = 40; continue _fun0008 }
+case 41:
             var2 = false;
-case 33:
+case 40:
             var _closure2_slot4 = var2;
             var2 = var1.withSpacing;
-            if(!(var2 === var4)) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+            if(!(var2 === var4)) { _fun0008_ip = 42; continue _fun0008 }
+case 43:
             var2 = false;
-case 35:
+case 42:
             var _closure2_slot5 = var2;
             var2 = var1.indicatorLeft;
-            if(!(var2 === var4)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(!(var2 === var4)) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
             var2 = false;
-case 37:
+case 44:
             var _closure2_slot6 = var2;
             var2 = var1.showIndicator;
-            if(!(var2 === var4)) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+            if(!(var2 === var4)) { _fun0008_ip = 46; continue _fun0008 }
+case 47:
             var2 = true;
-case 39:
+case 46:
             var _closure2_slot7 = var2;
             var2 = var1.withDividers;
-            if(!(var2 === var4)) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
+            if(!(var2 === var4)) { _fun0008_ip = 48; continue _fun0008 }
+case 49:
             var2 = true;
-case 41:
+case 48:
             var _closure2_slot8 = var2;
             var1 = var1.onChange;
-            if(!(var1 === var4)) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+            if(!(var1 === var4)) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
             var1 = _closure1_slot5;
-case 43:
+case 50:
             var _closure2_slot9 = var1;
             var _closure2_slot10 = var4;
             var2 = _closure1_slot10;
@@ -316,7 +451,7 @@ case 43:
             var1 = {};
             var6 = var7.map;
             var5 = function(arg1, arg2) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var6 = arg1;
                     var9 = arg2;
@@ -339,26 +474,26 @@ case 0:
                     var2 = var2.length;
                     var13 = 1;
                     var2 = var2 - var13;
-                    if(!(var9 !== var2)) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+                    if(!(var9 !== var2)) { _fun0009_ip = 52; continue _fun0009 }
+case 53:
                     var2 = _closure2_slot5;
-                    if(var2) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+                    if(var2) { _fun0009_ip = 54; continue _fun0009 }
+case 55:
                     var2 = {};
-                    _fun0005_ip = 49; continue _fun0005;
-case 47:
+                    _fun0009_ip = 56; continue _fun0009;
+case 54:
                     var7 = {};
                     var8 = 8;
                     var7['marginBottom'] = var8;
                     var2 = var7;
-case 49:
-                    _fun0005_ip = 25; continue _fun0005;
-case 45:
+case 56:
+                    _fun0009_ip = 32; continue _fun0009;
+case 52:
                     var7 = {};
                     var8 = 0;
                     var7['marginBottom'] = var8;
                     var2 = var7;
-case 25:
+case 32:
                     var1[1] = var2;
                     var11['style'] = var1;
                     var1 = _closure2_slot3;
@@ -389,12 +524,12 @@ case 25:
                     var11 = var11.length;
                     var13 = var11 - var13;
                     var11 = null;
-                    if(!(var9 !== var13)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                    if(!(var9 !== var13)) { _fun0009_ip = 57; continue _fun0009 }
+case 58:
                     var13 = _closure2_slot8;
                     var11 = null;
-                    if(!var13) { _fun0005_ip = 50; continue _fun0005 }
-case 52:
+                    if(!var13) { _fun0009_ip = 57; continue _fun0009 }
+case 59:
                     var14 = _closure1_slot6;
                     var13 = _closure1_slot4;
                     var12 = {};
@@ -402,7 +537,7 @@ case 52:
                     var15 = var15.divider;
                     var12['style'] = var15;
                     var11 = var14.bind(var2)(var13, var12);
-case 50:
+case 57:
                     var10[1] = var11;
                     var3['children'] = var10;
                     var11 = var1.JSON;
@@ -423,268 +558,133 @@ case 50:
         }
     };
     var1 = global;
-    var10 = var1.Object;
-    var6 = var10.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var6.bind(var10)(var3, var1, var4);
-    var1 = 0;
-    var6 = var8[var1];
-    var4 = metroImportAll;
-    var1 = undefined;
-    var4 = var4.bind(var1)(var6);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var4 = var4.View;
-    var _closure1_slot4 = var4;
-    var12 = 2;
-    var4 = var8[var12];
-    var4 = var7.bind(var1)(var4);
-    var4 = var4.NOOP;
-    var _closure1_slot5 = var4;
-    var11 = 3;
-    var4 = var8[var11];
-    var4 = var7.bind(var1)(var4);
-    var6 = var4.jsx;
-    var _closure1_slot6 = var6;
-    var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var11 = var1.Object;
+    var9 = var11.defineProperty;
     var6 = {};
-    var10 = 8;
-    var6['SMALL'] = var10;
-    var4 = 'SMALL';
-    var6[var10] = var4;
-    var10 = 10;
-    var6['MEDIUM'] = var10;
-    var4 = 'MEDIUM';
-    var6[var10] = var4;
-    var10 = 12;
-    var6['LARGE'] = var10;
-    var4 = 'LARGE';
-    var6[var10] = var4;
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var11)(var3, var1, var6);
+    var1 = 0;
+    var9 = var8[var1];
+    var6 = metroImportAll;
+    var1 = undefined;
+    var6 = var6.bind(var1)(var9);
+    var _closure1_slot3 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.View;
+    var _closure1_slot4 = var6;
+    var13 = 2;
+    var6 = var8[var13];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.NOOP;
+    var _closure1_slot5 = var6;
+    var12 = 3;
+    var6 = var8[var12];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.jsx;
+    var _closure1_slot6 = var9;
+    var6 = var6.jsxs;
+    var _closure1_slot7 = var6;
+    var6 = {};
+    var11 = 8;
+    var6['SMALL'] = var11;
+    var9 = 'SMALL';
+    var6[var11] = var9;
+    var11 = 10;
+    var6['MEDIUM'] = var11;
+    var9 = 'MEDIUM';
+    var6[var11] = var9;
+    var11 = 12;
+    var6['LARGE'] = var11;
+    var9 = 'LARGE';
+    var6[var11] = var9;
     var _closure1_slot8 = var6;
-    var10 = {};
-    var4 = var6.SMALL;
-    var10[3] = var12;
-    var4 = var6.MEDIUM;
-    var10[3] = var11;
-    var11 = var6.LARGE;
-    var4 = 4;
-    var10[10] = var4;
-    var _closure1_slot9 = var10;
-    var4 = var8[var4];
-    var11 = var7.bind(var1)(var4);
-    var10 = var11.createStyles;
-    var4 = {};
-    var12 = {'flex': 0, 'marginRight': 8, 'borderRadius': null, 'borderColor': null, 'borderWidth': 2};
-    var13 = 5;
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.round;
-    var12['borderRadius'] = var15;
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.TEXT_MUTED;
-    var12['borderColor'] = var15;
-    var4['radioIcon'] = var12;
-    var12 = {};
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.INTERACTIVE_TEXT_ACTIVE;
-    var12['borderColor'] = var15;
-    var4['radioIconSelected'] = var12;
-    var12 = {};
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.round;
-    var12['borderRadius'] = var15;
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.CONTROL_BRAND_FOREGROUND;
-    var12['backgroundColor'] = var15;
-    var4['radioTick'] = var12;
-    var12 = {};
-    var15 = 0.3;
-    var12['opacity'] = var15;
-    var4['disabled'] = var12;
-    var12 = {'height': 1, 'alignSelf': 'stretch', 'backgroundColor': null, 'marginLeft': 16};
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BORDER_SUBTLE;
-    var12['backgroundColor'] = var15;
-    var4['divider'] = var12;
-    var12 = {};
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.sm;
-    var12['borderRadius'] = var15;
-    var15 = 'hidden';
-    var12['overflow'] = var15;
-    var4['collapsibleStyle'] = var12;
-    var12 = {};
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BACKGROUND_BASE_LOWEST;
-    var12['backgroundColor'] = var15;
-    var4['collapsibleBackgroundSelected'] = var12;
-    var12 = {};
-    var13 = var8[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
-    var12['backgroundColor'] = var13;
-    var4['collapsibleBackground'] = var12;
-    var12 = {'paddingVertical': 4, 'paddingHorizontal': 12};
-    var4['collapsibleContainer'] = var12;
-    var4 = var10.bind(var11)(var4);
-    var _closure1_slot10 = var4;
-    var4 = function getOuterStylesFromSize() {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-            var3 = arguments[0];
-            var1 = undefined;
-            if(!(var3 === var1)) { _fun0006_ip = 53; continue _fun0006 }
-case 54:
-            var1 = _closure1_slot8;
-            var3 = var1.MEDIUM;
-case 53:
-            var1 = {};
-            var2 = 2;
-            var4 = var2 * var3;
-            var1['width'] = var4;
-            var2 = var2 * var3;
-            var1['height'] = var2;
-            var2 = _closure1_slot9;
-            var2 = var2[var3];
-            var1['padding'] = var2;
-            return var1;
-        }
-    };
-    var _closure1_slot11 = var4;
-    var4 = function getTickStylesFromSize() {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-            var2 = arguments[0];
-            var1 = undefined;
-            if(!(var2 === var1)) { _fun0007_ip = 53; continue _fun0007 }
-case 54:
-            var1 = _closure1_slot8;
-            var2 = var1.MEDIUM;
-case 53:
-            var1 = {};
-            var1['width'] = var2;
-            var1['height'] = var2;
-            return var1;
-        }
-    };
-    var _closure1_slot12 = var4;
-    var4 = function RadioEmpty(arg1) {
-        var1 = arg1;
-        var8 = var1.size;
-        var6 = var1.style;
-        var1 = _closure1_slot10;
-        var4 = undefined;
-        var5 = var1.bind(var4)();
-        var3 = _closure1_slot6;
-        var2 = _closure1_slot4;
-        var1 = {};
-        var9 = var5.radioIcon;
-        var5 = new Array(3);
-        var5[0] = var9;
-        var7 = _closure1_slot11;
-        var7 = var7.bind(var4)(var8);
-        var5[1] = var7;
-        var5[2] = var6;
-        var1['style'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot13 = var4;
-    var4 = function RadioSelected(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-            var1 = arg1;
-            var10 = var1.size;
-            var7 = var1.active;
-            var6 = var1.style;
-            var1 = _closure1_slot10;
-            var4 = undefined;
-            var8 = var1.bind(var4)();
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot4;
-            var1 = {};
-            var11 = var8.radioIcon;
-            var5 = new Array(4);
-            var5[0] = var11;
-            var11 = _closure1_slot11;
-            var11 = var11.bind(var4)(var10);
-            var5[1] = var11;
-            if(!var7) { _fun0008_ip = 55; continue _fun0008 }
-case 56:
-            var7 = var8.radioIconSelected;
-case 55:
-            var5[2] = var7;
-            var5[3] = var6;
-            var1['style'] = var5;
-            var7 = _closure1_slot6;
-            var6 = _closure1_slot4;
-            var5 = {};
-            var11 = var8.radioTick;
-            var8 = new Array(2);
-            var8[0] = var11;
-            var9 = _closure1_slot12;
-            var9 = var9.bind(var4)(var10);
-            var8[1] = var9;
-            var5['style'] = var8;
-            var5 = var7.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
-    };
-    var _closure1_slot14 = var4;
-    var4 = function RadioIndicator(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-            var1 = arg1;
-            var7 = var1.size;
-            var6 = var1.active;
-            var2 = var1.style;
-            var5 = _closure1_slot6;
-            if(var6) { _fun0009_ip = 57; continue _fun0009 }
-case 58:
-            var8 = _closure1_slot13;
-            var4 = {};
-            var4['size'] = var7;
-            var4['style'] = var2;
-            var1 = undefined;
-            var1 = var5.bind(var1)(var8, var4);
-            _fun0009_ip = 59; continue _fun0009;
-case 57:
-            var4 = _closure1_slot14;
-            var3 = {};
-            var3['size'] = var7;
-            var3['active'] = var6;
-            var3['style'] = var2;
-            var2 = undefined;
-            var1 = var5.bind(var2)(var4, var3);
-case 59:
-            return var1;
-        }
-    };
-    var _closure1_slot15 = var4;
+    var11 = {};
+    var9 = var6.SMALL;
+    var11[8] = var13;
+    var9 = var6.MEDIUM;
+    var11[8] = var12;
+    var12 = var6.LARGE;
+    var9 = 4;
+    var11[11] = var9;
+    var _closure1_slot9 = var11;
+    var9 = var8[var9];
+    var12 = var7.bind(var1)(var9);
+    var11 = var12.createStyles;
+    var9 = {};
+    var13 = {'flex': 0, 'marginRight': 8, 'borderRadius': null, 'borderColor': null, 'borderWidth': 2};
+    var14 = 5;
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.round;
+    var13['borderRadius'] = var16;
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.TEXT_MUTED;
+    var13['borderColor'] = var16;
+    var9['radioIcon'] = var13;
+    var13 = {};
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.INTERACTIVE_TEXT_ACTIVE;
+    var13['borderColor'] = var16;
+    var9['radioIconSelected'] = var13;
+    var13 = {};
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.round;
+    var13['borderRadius'] = var16;
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.CONTROL_BRAND_FOREGROUND;
+    var13['backgroundColor'] = var16;
+    var9['radioTick'] = var13;
+    var13 = {};
+    var16 = 0.3;
+    var13['opacity'] = var16;
+    var9['disabled'] = var13;
+    var13 = {'height': 1, 'alignSelf': 'stretch', 'backgroundColor': null, 'marginLeft': 16};
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.BORDER_SUBTLE;
+    var13['backgroundColor'] = var16;
+    var9['divider'] = var13;
+    var13 = {};
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.sm;
+    var13['borderRadius'] = var16;
+    var16 = 'hidden';
+    var13['overflow'] = var16;
+    var9['collapsibleStyle'] = var13;
+    var13 = {};
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.BACKGROUND_BASE_LOWEST;
+    var13['backgroundColor'] = var16;
+    var9['collapsibleBackgroundSelected'] = var13;
+    var13 = {};
+    var14 = var8[var14];
+    var14 = var15.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
+    var13['backgroundColor'] = var14;
+    var9['collapsibleBackground'] = var13;
+    var13 = {'paddingVertical': 4, 'paddingHorizontal': 12};
+    var9['collapsibleContainer'] = var13;
+    var9 = var11.bind(var12)(var9);
+    var _closure1_slot10 = var9;
     var4['Sizes'] = var6;
     var5['Sizes'] = var6;
     var6 = 9;

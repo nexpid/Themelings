@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'hooks/useTimeout.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1, arg2) {
+    var2 = function useTimeout(arg1, arg2) {
         var3 = arg1;
         var6 = arg2;
         var _closure2_slot0 = var3;

@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot15 = var2;
+            _closure1_slot17 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot17 = var1;
     var1 = function hasVideoBackgroundLive(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -95,7 +95,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot18 = var1;
     var1 = function handleSyncedStoresUpdate() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -107,8 +107,10 @@ case 0:
 case 7:
             var1 = false;
             _closure1_slot13 = var1;
+            _closure1_slot15 = var1;
+            _closure1_slot16 = var1;
 case 16:
-            var2 = _closure1_slot16;
+            var2 = _closure1_slot18;
             var1 = undefined;
             var2 = var2.bind(var1)();
             if(!var2) { _fun0003_ip = 17; continue _fun0003 }
@@ -123,7 +125,7 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -174,8 +176,10 @@ case 17:
     var8 = null;
     var _closure1_slot12 = var8;
     var _closure1_slot13 = var2;
-    var2 = {};
-    var _closure1_slot14 = var2;
+    var8 = {};
+    var _closure1_slot14 = var8;
+    var _closure1_slot15 = var2;
+    var _closure1_slot16 = var2;
     var2 = 11;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -193,7 +197,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot17;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
@@ -240,13 +244,13 @@ case 21:
             var2[0] = var5;
             var5 = _closure1_slot8;
             var2[1] = var5;
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot19;
             var1 = var3.bind(var4)(var2, var1);
             var1 = undefined;
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(6);
         var1[0] = var5;
         var5 = {};
         var7 = 'videoFilterAssets';
@@ -269,12 +273,30 @@ case 21:
         var5 = {};
         var7 = 'hasUsedBackgroundInCall';
         var5['key'] = var7;
-        var6 = function get() {
+        var7 = function get() {
             var1 = _closure1_slot13;
             return var1;
         };
-        var5['get'] = var6;
+        var5['get'] = var7;
         var1[3] = var5;
+        var5 = {};
+        var7 = 'videoBackgroundUnavailable';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot15;
+            return var1;
+        };
+        var5['get'] = var7;
+        var1[4] = var5;
+        var5 = {};
+        var7 = 'videoBackgroundPreviewUnavailable';
+        var5['key'] = var7;
+        var6 = function get() {
+            var1 = _closure1_slot16;
+            return var1;
+        };
+        var5['get'] = var6;
+        var1[5] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -337,7 +359,7 @@ case 21:
 case 0:
             var1 = arg1;
             var4 = var1.backgroundOption;
-            var2 = _closure1_slot16;
+            var2 = _closure1_slot18;
             var1 = undefined;
             var2 = var2.bind(var1)(var4);
             if(!var2) { _fun0005_ip = 22; continue _fun0005 }
@@ -355,9 +377,9 @@ case 0:
             var1 = arg1;
             var4 = var1.settings;
             var5 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 10;
-            var2 = var2[var1];
+            var1 = _closure1_slot1;
+            var6 = 10;
+            var2 = var1[var6];
             var1 = undefined;
             var2 = var5.bind(var1)(var2);
             var2 = var2.FilterSettingsKey;
@@ -367,19 +389,55 @@ case 0:
 case 25:
             var2 = true;
             _closure1_slot11 = var2;
+            var2 = false;
+            _closure1_slot15 = var2;
 case 24:
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var5.bind(var1)(var2);
+            var2 = var2.FilterSettingsKey;
+            var2 = var2.CAMERA_BACKGROUND_PREVIEW;
+            var2 = var2 in var4;
+            if(!var2) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
+            var2 = false;
+            _closure1_slot16 = var2;
+case 26:
             return var1;
         }
     };
     var2['MEDIA_ENGINE_APPLY_MEDIA_FILTER_SETTINGS'] = var9;
+    var9 = function handleVideoFilterError(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.target;
+            var1 = 'live';
+            if(!(var1 !== var2)) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
+            var1 = true;
+            _closure1_slot16 = var1;
+            _fun0007_ip = 30; continue _fun0007;
+case 28:
+            var1 = true;
+            _closure1_slot15 = var1;
+case 30:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var2['MEDIA_ENGINE_VIDEO_FILTER_ERROR'] = var9;
     var4 = function handleLogout() {
         var1 = false;
         _closure1_slot11 = var1;
         _closure1_slot13 = var1;
-        var1 = null;
-        _closure1_slot12 = var1;
-        var1 = {};
-        _closure1_slot14 = var1;
+        var3 = null;
+        _closure1_slot12 = var3;
+        var3 = {};
+        _closure1_slot14 = var3;
+        _closure1_slot15 = var1;
+        _closure1_slot16 = var1;
         var1 = undefined;
         return var1;
     };

@@ -355,6 +355,8 @@ case 26:
                     var5 = var7[var5];
                     var5 = var6.bind(var3)(var5);
                     var1['imageUrl'] = var5;
+                    var5 = false;
+                    var1['isAnimated'] = var5;
                     var5 = _closure2_slot3;
                     var5 = var5.coachmarkImage;
                     var1['style'] = var5;

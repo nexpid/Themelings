@@ -34,8 +34,6 @@ case 2:
             var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var5 = new Array(0);
-                    var _closure3_slot0 = var5;
                     var6 = function pushGuild(arg1) {
                         var3 = _closure3_slot0;
                         var2 = var3.push;
@@ -46,6 +44,8 @@ case 0:
                         return var1;
                     };
                     var _closure3_slot1 = var6;
+                    var5 = new Array(0);
+                    var _closure3_slot0 = var5;
                     var4 = _closure2_slot0;
                     var3 = null;
                     if(!(var3 != var4)) { _fun0002_ip = 4; continue _fun0002 }

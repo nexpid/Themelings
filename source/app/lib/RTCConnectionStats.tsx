@@ -116,23 +116,20 @@ case 6:
         var6 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var5 = arguments[0];
-                var3 = this;
+                var6 = arguments[0];
+                var5 = this;
                 var4 = undefined;
-                if(!(var5 === var4)) { _fun0004_ip = 8; continue _fun0004 }
+                if(!(var6 === var4)) { _fun0004_ip = 8; continue _fun0004 }
 case 9:
-                var6 = _closure1_slot0;
+                var3 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var2 = 3;
-                var2 = var7[var2];
-                var6 = var6.bind(var4)(var2);
-                var2 = var6.now;
-                var5 = var2.bind(var6)();
+                var1 = 3;
+                var1 = var7[var1];
+                var3 = var3.bind(var4)(var1);
+                var1 = var3.now;
+                var6 = var1.bind(var3)();
 case 8:
                 var _closure3_slot0 = var4;
-                var2 = var3.getStateDurations;
-                var2 = var2.bind(var3)(var5);
-                _closure3_slot0 = var2;
                 var3 = function totalDuration(arg1) {
                     var2 = arg1;
                     var _closure4_slot0 = var2;
@@ -161,6 +158,9 @@ case 10:
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
+                var1 = var5.getStateDurations;
+                var1 = var1.bind(var5)(var6);
+                _closure3_slot0 = var1;
                 var1 = {};
                 var2 = _closure1_slot5;
                 var5 = var2.AWAITING_ENDPOINT;

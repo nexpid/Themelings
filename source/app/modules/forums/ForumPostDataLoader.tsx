@@ -227,7 +227,7 @@ case 24:
                     var9 = true;
                     var6['rejectWithError'] = var9;
                     var6 = var7.bind(var8)(var6);
-                    SaveGenerator(address=197);
+                    SaveGenerator(address=195);
 case 25:
                     return var6;
 case 26:
@@ -705,8 +705,8 @@ case 44:
 case 43:
             if(!var10) { _fun0008_ip = 45; continue _fun0008 }
 case 46:
-            if(var9) { _fun0008_ip = 47; continue _fun0008 }
-case 48:
+            if(var9) { _fun0008_ip = 25; continue _fun0008 }
+case 47:
             var9 = var1.id;
             var8 = function preloadForumPostDataFrom(arg1, arg2) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -720,8 +720,8 @@ case 0:
                     var1 = var4.id;
                     var5 = var5.bind(var6)(var1, var7);
                     var1 = undefined;
-                    if(var5) { _fun0009_ip = 49; continue _fun0009 }
-case 50:
+                    if(var5) { _fun0009_ip = 48; continue _fun0009 }
+case 49:
                     var6 = _closure1_slot7;
                     var5 = var4.id;
                     var8 = var6.bind(var1)(var5);
@@ -752,13 +752,13 @@ case 50:
                     var2 = _closure1_slot15;
                     var2 = var2.bind(var1)(var4, var3);
                     return var1;
-case 49:
+case 48:
                     return var1;
                 }
             };
             var8 = var8.bind(var7)(var6, var9);
             _fun0008_ip = 45; continue _fun0008;
-case 47:
+case 25:
             var5 = _closure1_slot15;
             var8 = var1.id;
             var1 = new Array(1);
@@ -768,10 +768,10 @@ case 45:
             var1 = {};
             var1['loaded'] = var2;
             var2 = null;
-            if(!var4) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
-            var2 = var3;
+            if(!var4) { _fun0008_ip = 50; continue _fun0008 }
 case 51:
+            var2 = var3;
+case 50:
             var1['firstMessage'] = var2;
             return var1;
         }

@@ -514,47 +514,47 @@ case 36:
             var5 = var8.bind(var4)(var5);
             var11 = var5.InlineAttachmentMedia;
             var5 = var11.useSetting;
-            r107 = var5.bind(var11)();
+            r108 = var5.bind(var11)();
             var5 = var13[var2];
             var5 = var8.bind(var4)(var5);
             var11 = var5.InlineEmbedMedia;
             var5 = var11.useSetting;
-            r106 = var5.bind(var11)();
+            r107 = var5.bind(var11)();
             var5 = var13[var2];
             var5 = var8.bind(var4)(var5);
             var11 = var5.RenderEmbeds;
             var5 = var11.useSetting;
-            r105 = var5.bind(var11)();
+            r106 = var5.bind(var11)();
             var5 = var13[var2];
             var5 = var8.bind(var4)(var5);
             var11 = var5.RenderReactions;
             var5 = var11.useSetting;
-            r104 = var5.bind(var11)();
+            r105 = var5.bind(var11)();
             var5 = var13[var2];
             var5 = var8.bind(var4)(var5);
             var11 = var5.DeveloperMode;
             var5 = var11.useSetting;
-            r103 = var5.bind(var11)();
+            r104 = var5.bind(var11)();
             var5 = var13[var2];
             var5 = var8.bind(var4)(var5);
             var11 = var5.AnimateEmoji;
             var5 = var11.useSetting;
-            r112 = var5.bind(var11)();
+            r113 = var5.bind(var11)();
             var5 = var13[var2];
             var5 = var8.bind(var4)(var5);
             var11 = var5.AnimateStickers;
             var5 = var11.useSetting;
-            r111 = var5.bind(var11)();
+            r112 = var5.bind(var11)();
             var5 = var13[var2];
             var5 = var8.bind(var4)(var5);
             var11 = var5.GifAutoPlay;
             var5 = var11.useSetting;
-            r109 = var5.bind(var11)();
+            r110 = var5.bind(var11)();
             var2 = var13[var2];
             var2 = var8.bind(var4)(var2);
             var5 = var2.TimestampHourCycle;
             var2 = var5.useSetting;
-            r108 = var2.bind(var5)();
+            r109 = var2.bind(var5)();
             var2 = var13[var3];
             var15 = var8.bind(var4)(var2);
             var14 = var15.useStateFromStores;
@@ -567,7 +567,7 @@ case 36:
                 return var1;
             };
             var2 = new Array(0);
-            r115 = var14.bind(var15)(var11, var5, var2);
+            r116 = var14.bind(var15)(var11, var5, var2);
             var2 = 62;
             var2 = var13[var2];
             var5 = var8.bind(var4)(var2);
@@ -1488,6 +1488,8 @@ case 55:
                 var1['useReducedMotion'] = var3;
                 var3 = var2.roleStyle;
                 var1['roleStyle'] = var3;
+                var3 = var2.officialMessageStyle;
+                var1['officialMessageStyle'] = var3;
                 var3 = var2.saturation;
                 var1['saturation'] = var3;
                 var2 = var2.displayNameStylesEnabled;
@@ -1497,8 +1499,9 @@ case 55:
             var2 = new Array(0);
             var2 = var19.bind(var20)(var18, var16, var2);
             var61 = var2.useReducedMotion;
-            r102 = var2.roleStyle;
-            r114 = var2.saturation;
+            r103 = var2.roleStyle;
+            r102 = var2.officialMessageStyle;
+            r115 = var2.saturation;
             var60 = var2.displayNameStylesEnabled;
             var2 = var13[var3];
             var20 = var8.bind(var4)(var2);
@@ -1538,8 +1541,8 @@ case 55:
             var2 = 70;
             var2 = var13[var2];
             var2 = var8.bind(var4)(var2);
-            r120 = var2.isVersionEqual;
-            r122 = function() {
+            r121 = var2.isVersionEqual;
+            r123 = function() {
                 var3 = _closure1_slot21;
                 var1 = var3.getInteractionComponentStates;
                 var2 = var1.bind(var3)();
@@ -1550,10 +1553,10 @@ case 55:
                 var1[1] = var2;
                 return var1;
             };
-            r121 = new Array(0);
-            r124 = var25;
-            r123 = var19;
-            var2 = r124[var20](r123, r122, r121, r120, r119);
+            r122 = new Array(0);
+            r125 = var25;
+            r124 = var19;
+            var2 = r125[var20](r124, r123, r122, r121, r120);
             var2 = var15.bind(var4)(var2, var11);
             var52 = var2[var14];
             var51 = var2[var5];
@@ -1739,8 +1742,8 @@ case 81:
             var2 = var2.bind(var4)(var8, var11);
             var47 = var2[var5];
             var8 = _closure1_slot0;
-            r116 = _closure1_slot2;
-            var2 = r116[var3];
+            r117 = _closure1_slot2;
+            var2 = r117[var3];
             var13 = var8.bind(var4)(var2);
             var11 = var13.useStateFromStores;
             var2 = _closure1_slot34;
@@ -1753,11 +1756,11 @@ case 81:
             };
             var45 = var11.bind(var13)(var5, var2);
             var2 = 74;
-            var2 = r116[var2];
+            var2 = r117[var2];
             var5 = var8.bind(var4)(var2);
             var2 = var5.useIsPaymentsBlocked;
             var44 = var2.bind(var5)();
-            var2 = r116[var3];
+            var2 = r117[var3];
             var13 = var8.bind(var4)(var2);
             var11 = var13.useStateFromStores;
             var2 = _closure1_slot32;
@@ -1782,7 +1785,7 @@ case 83:
                 }
             };
             var43 = var11.bind(var13)(var5, var2);
-            var2 = r116[var3];
+            var2 = r117[var3];
             var13 = var8.bind(var4)(var2);
             var11 = var13.useStateFromStores;
             var2 = _closure1_slot24;
@@ -1796,7 +1799,7 @@ case 83:
                 return var1;
             };
             var42 = var11.bind(var13)(var5, var2);
-            var2 = r116[var3];
+            var2 = r117[var3];
             var13 = var8.bind(var4)(var2);
             var11 = var13.useStateFromStores;
             var2 = _closure1_slot28;
@@ -1809,7 +1812,7 @@ case 83:
                 return var1;
             };
             var40 = var11.bind(var13)(var5, var2);
-            var2 = r116[var3];
+            var2 = r117[var3];
             var13 = var8.bind(var4)(var2);
             var11 = var13.useStateFromStores;
             var2 = _closure1_slot10;
@@ -1823,22 +1826,22 @@ case 83:
             };
             var41 = var11.bind(var13)(var5, var2);
             var2 = 75;
-            var2 = r116[var2];
+            var2 = r117[var2];
             var5 = var8.bind(var4)(var2);
             var2 = var5.useMessageJumpAndroidKeyboardHeight;
             var39 = var2.bind(var5)();
             var2 = _closure1_slot1;
             var5 = 76;
-            var5 = r116[var5];
+            var5 = r117[var5];
             var5 = var2.bind(var4)(var5);
             var37 = var5.bind(var4)();
             var5 = 77;
-            var5 = r116[var5];
+            var5 = r117[var5];
             var11 = var8.bind(var4)(var5);
             var5 = var11.useChannelSummariesExperiment;
             var5 = var5.bind(var11)(var7);
             var _closure2_slot7 = var5;
-            var11 = r116[var3];
+            var11 = r117[var3];
             var15 = var8.bind(var4)(var11);
             var14 = var15.useStateFromStores;
             var11 = _closure1_slot31;
@@ -1929,7 +1932,7 @@ case 91:
             };
             var5 = var13.bind(var14)(var5, var11);
             var5 = 79;
-            var11 = r116[var5];
+            var11 = r117[var5];
             var15 = var8.bind(var4)(var11);
             var13 = var15.useShouldTrackAnnouncementMessageViews;
             var11 = {};
@@ -1938,14 +1941,14 @@ case 91:
             var11['messages'] = var89;
             var11['isMessagesReady'] = var50;
             var36 = var13.bind(var15)(var11);
-            var11 = r116[var5];
+            var11 = r117[var5];
             var15 = var8.bind(var4)(var11);
             var13 = var15.useShouldTrackRichPresenceInviteEmbedViews;
             var11 = {};
             var11['messages'] = var89;
             var11['isMessagesReady'] = var50;
             var35 = var13.bind(var15)(var11);
-            var11 = r116[var5];
+            var11 = r117[var5];
             var15 = var8.bind(var4)(var11);
             var13 = var15.useShouldTrackOfficialMessageViews;
             var11 = {};
@@ -1953,7 +1956,7 @@ case 91:
             var11['messages'] = var89;
             var11['isMessagesReady'] = var50;
             var34 = var13.bind(var15)(var11);
-            var5 = r116[var5];
+            var5 = r117[var5];
             var13 = var8.bind(var4)(var5);
             var11 = var13.useShouldTrackVoiceInviteEmbedViews;
             var5 = {};
@@ -1961,12 +1964,12 @@ case 91:
             var5['isMessagesReady'] = var50;
             var33 = var11.bind(var13)(var5);
             var5 = 80;
-            var5 = r116[var5];
+            var5 = r117[var5];
             var11 = var8.bind(var4)(var5);
             var5 = var11.useShouldDisplaySpoilerObscurity;
             var32 = var5.bind(var11)(var7);
             var5 = 81;
-            var5 = r116[var5];
+            var5 = r117[var5];
             var11 = var8.bind(var4)(var5);
             var5 = var11.useIsAgeVerified;
             var19 = var5.bind(var11)();
@@ -1998,7 +2001,7 @@ case 91:
             };
             var5 = var13.bind(var14)(var5, var11);
             var5 = 83;
-            var5 = r116[var5];
+            var5 = r117[var5];
             var13 = var8.bind(var4)(var5);
             var11 = var13.useShouldDisableInteractiveComponents;
             var5 = var7.id;
@@ -2034,7 +2037,7 @@ case 5:
             var5 = var13.bind(var89)(var5);
             var5 = _closure1_slot26;
             var29 = var5.bind(var4)(var11);
-            var5 = r116[var3];
+            var5 = r117[var3];
             var15 = var8.bind(var4)(var5);
             var14 = var15.useStateFromStores;
             var5 = _closure1_slot15;
@@ -2051,21 +2054,21 @@ case 5:
             };
             var28 = var14.bind(var15)(var13, var5, var11);
             var5 = 84;
-            var5 = r116[var5];
+            var5 = r117[var5];
             var5 = var2.bind(var4)(var5);
-            r110 = var5.bind(var4)();
+            r111 = var5.bind(var4)();
             var5 = 85;
-            var5 = r116[var5];
+            var5 = r117[var5];
             var5 = var2.bind(var4)(var5);
             var5 = var5.bind(var4)(var89);
             var26 = var5.unloadedContentEntryMessageIds;
             var25 = var5.unloadableContentEntryMessageIds;
-            var5 = r116[var3];
+            var5 = r117[var3];
             var14 = var8.bind(var4)(var5);
             var13 = var14.useStateFromStores;
-            r117 = _closure1_slot52;
+            r118 = _closure1_slot52;
             var11 = new Array(1);
-            var11[0] = r117;
+            var11[0] = r118;
             var5 = function() {
                 _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
@@ -2088,8 +2091,8 @@ case 88:
                     return var1;
                 }
             };
-            r113 = var13.bind(var14)(var11, var5);
-            var5 = r116[var3];
+            r114 = var13.bind(var14)(var11, var5);
+            var5 = r117[var3];
             var14 = var8.bind(var4)(var5);
             var13 = var14.useStateFromStores;
             var5 = _closure1_slot17;
@@ -2103,7 +2106,7 @@ case 88:
             };
             var54 = var13.bind(var14)(var11, var5);
             var5 = 86;
-            var5 = r116[var5];
+            var5 = r117[var5];
             var13 = var8.bind(var4)(var5);
             var11 = var13.useColorStore;
             var5 = function(arg1) {
@@ -2117,7 +2120,7 @@ case 88:
                 return var1;
             };
             var20 = var11.bind(var13)(var5);
-            var5 = r116[var3];
+            var5 = r117[var3];
             var14 = var8.bind(var4)(var5);
             var13 = var14.useStateFromStores;
             var5 = _closure1_slot13;
@@ -2131,7 +2134,7 @@ case 88:
                 return var1;
             };
             var18 = var13.bind(var14)(var11, var5);
-            var5 = r116[var3];
+            var5 = r117[var3];
             var15 = var8.bind(var4)(var5);
             var14 = var15.useStateFromStores;
             var5 = _closure1_slot53;
@@ -2164,7 +2167,7 @@ case 35:
                 }
             };
             var68 = var14.bind(var15)(var13, var5, var11);
-            var5 = r116[var3];
+            var5 = r117[var3];
             var14 = var8.bind(var4)(var5);
             var13 = var14.useStateFromStoresObject;
             var5 = _closure1_slot56;
@@ -2295,7 +2298,7 @@ case 95:
                 }
             };
             var11 = var13.bind(var14)(var11, var5);
-            var5 = r116[var3];
+            var5 = r117[var3];
             var15 = var8.bind(var4)(var5);
             var14 = var15.useStateFromStoresArray;
             var5 = _closure1_slot50;
@@ -2326,7 +2329,7 @@ case 95:
             };
             var16 = var14.bind(var15)(var13, var5);
             var _closure2_slot9 = var16;
-            var5 = r116[var3];
+            var5 = r117[var3];
             var15 = var8.bind(var4)(var5);
             var14 = var15.useStateFromStoresObject;
             var5 = _closure1_slot55;
@@ -2365,9 +2368,9 @@ case 107:
                 return var1;
             };
             var15 = var14.bind(var15)(var13, var5);
-            var5 = r116[var3];
-            r119 = var8.bind(var4)(var5);
-            r118 = r119.useStateFromStoresArray;
+            var5 = r117[var3];
+            r120 = var8.bind(var4)(var5);
+            r119 = r120.useStateFromStoresArray;
             var5 = _closure1_slot37;
             var14 = new Array(1);
             var14[0] = var5;
@@ -2383,12 +2386,12 @@ case 107:
                 return var1;
             };
             var5 = new Array(0);
-            var14 = r118.bind(r119)(var14, var13, var5);
-            var3 = r116[var3];
+            var14 = r119.bind(r120)(var14, var13, var5);
+            var3 = r117[var3];
             var13 = var8.bind(var4)(var3);
             var5 = var13.useStateFromStores;
             var3 = new Array(1);
-            var3[0] = r117;
+            var3[0] = r118;
             var1 = function() {
                 _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
@@ -2407,16 +2410,16 @@ case 33:
             };
             var13 = var5.bind(var13)(var3, var1);
             var1 = 89;
-            var1 = r116[var1];
+            var1 = r117[var1];
             var3 = var8.bind(var4)(var1);
             var1 = var3.useFetchSocialLayerStorefrontProductDetailsEmbedData;
             var1 = var1.bind(var3)(var89);
             var3 = _closure1_slot65;
             var5 = 90;
-            var1 = r116[var5];
+            var1 = r117[var5];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var5 = r116[var5];
+            var5 = r117[var5];
             var5 = var8.bind(var4)(var5);
             var5 = var5.Profiles;
             var5 = var5.Messages;
@@ -2425,42 +2428,43 @@ case 33:
             var7 = var5.bind(var7)();
             if(!var7) { _fun0004_ip = 109; continue _fun0004 }
 case 110:
-            r116 = _closure1_slot64;
+            r117 = _closure1_slot64;
             var8 = _closure1_slot1;
-            r117 = _closure1_slot2;
+            r118 = _closure1_slot2;
             var5 = 91;
-            var5 = r117[var5];
+            var5 = r118[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};
-            r117 = true;
-            var5['absolute'] = r117;
-            var7 = r116.bind(var4)(var8, var5);
+            r118 = true;
+            var5['absolute'] = r118;
+            var7 = r117.bind(var4)(var8, var5);
 case 109:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot64;
             var7 = _closure1_slot1;
-            r116 = _closure1_slot2;
+            r117 = _closure1_slot2;
             var6 = 92;
-            var6 = r116[var6];
+            var6 = r117[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            r116 = arg2;
-            var6['ref'] = r116;
-            var6['theme'] = r115;
-            var6['saturation'] = r114;
-            var6['isStaff'] = r113;
-            var6['animateEmoji'] = r112;
-            var6['animateStickers'] = r111;
-            var6['containerWidth'] = r110;
-            var6['gifAutoPlay'] = r109;
-            var6['timestampHourCycle'] = r108;
-            var6['inlineAttachmentMedia'] = r107;
-            var6['inlineEmbedMedia'] = r106;
-            var6['renderEmbeds'] = r105;
-            var6['renderReactions'] = r104;
-            var6['developerMode'] = r103;
-            var6['roleStyle'] = r102;
+            r117 = arg2;
+            var6['ref'] = r117;
+            var6['theme'] = r116;
+            var6['saturation'] = r115;
+            var6['isStaff'] = r114;
+            var6['animateEmoji'] = r113;
+            var6['animateStickers'] = r112;
+            var6['containerWidth'] = r111;
+            var6['gifAutoPlay'] = r110;
+            var6['timestampHourCycle'] = r109;
+            var6['inlineAttachmentMedia'] = r108;
+            var6['inlineEmbedMedia'] = r107;
+            var6['renderEmbeds'] = r106;
+            var6['renderReactions'] = r105;
+            var6['developerMode'] = r104;
+            var6['roleStyle'] = r103;
+            var6['officialMessageStyle'] = r102;
             var6['guildId'] = r101;
             var6['currentUserId'] = r100;
             var6['channelId'] = var100;
@@ -2577,9 +2581,9 @@ case 118:
             var10 = var11;
 case 117:
             var6['officialMessageColor'] = var10;
-            r123 = var6;
-            r122 = var9;
-            var9 = copyDataProperties(r123, r122);
+            r124 = var6;
+            r123 = var9;
+            var9 = copyDataProperties(r124, r123);
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;

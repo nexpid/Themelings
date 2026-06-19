@@ -826,6 +826,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_MEMBER_APPLICATION_REVIEW'] = var1;
     var1 = 'game invite channel account link banner';
     var2['GAME_INVITE_CHANNEL_ACCOUNT_LINK_BANNER'] = var1;
+    var1 = 'game invite channel post creation';
+    var2['GAME_INVITE_CHANNEL_POST_CREATION'] = var1;
+    var1 = 'game invite channel post';
+    var2['GAME_INVITE_CHANNEL_POST'] = var1;
     var1 = 'game invite channel empty state';
     var2['GAME_INVITE_CHANNEL_EMPTY_STATE'] = var1;
     var1 = 'for later helpers';

@@ -485,13 +485,14 @@ case 10:
             var3 = Object.create(var2);
             var2 = 0;
             var3['onPress'] = var2;
-            var9 = {};
-            var8 = var4;
-            var7 = var3;
-            var8 = copyDataProperties(var9, var8, var7);
-            var1 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
+            var8 = {};
+            var7 = var4;
+            var6 = var3;
+            var7 = copyDataProperties(var8, var7, var6);
+            var2 = function _handlePress() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -528,30 +529,35 @@ case 12:
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure4_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure4_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure3_slot1 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var4 = undefined;
-            var6 = var1.bind(var4)();
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot11;
-            var1 = {};
-            var9 = var1;
-            var5 = copyDataProperties(var9, var8);
-            var5 = 'onPress';
-            var1[4] = var6;
-            var1 = var3.bind(var4)(var2, var1);
+            var _closure3_slot1 = var2;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot11;
+            var2 = {};
+            var8 = var2;
+            var5 = copyDataProperties(var8, var7);
+            var5 = function handlePress() {
+                var1 = undefined;
+                var4 = _closure3_slot1;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
+            var1 = 'onPress';
+            var2[0] = var5;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
             return var1;
         };
         return var1;
@@ -569,7 +575,7 @@ case 22:
             var2 = false;
 case 21:
             var _closure2_slot1 = var2;
-            var1 = function(arg1) {
+            var1 = function renderBackImage(arg1) {
                 var4 = arg1;
                 var2 = var4.onPress;
                 var _closure3_slot0 = var2;

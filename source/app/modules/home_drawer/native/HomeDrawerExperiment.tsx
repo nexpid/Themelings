@@ -16,12 +16,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var2.bind(var1)(var4);
     var2 = {'name': '2025-10-mobile-home-drawer', 'kind': 'user'};
-    var6 = {'enableHome': false, 'landOnHome': false};
+    var6 = {'enableHome': false, 'landOnHome': false, 'enablePeekHint': false};
     var2['defaultConfig'] = var6;
     var6 = {};
-    var7 = {'enableHome': true, 'landOnHome': false};
+    var7 = {'enableHome': true, 'landOnHome': false, 'enablePeekHint': true};
     var6[1] = var7;
-    var7 = {'enableHome': true, 'landOnHome': true};
+    var7 = {'enableHome': true, 'landOnHome': true, 'enablePeekHint': false};
     var6[2] = var7;
     var2['variations'] = var6;
     var2 = var4.bind(var1)(var2);

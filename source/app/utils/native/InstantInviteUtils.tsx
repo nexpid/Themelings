@@ -552,7 +552,7 @@ case 2:
     var3['INVITE_OPTIONS_50_TIMES'] = var6;
     var3['INVITE_OPTIONS_100_TIMES'] = var5;
     var3['MAX_USES_OPTIONS'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function getInviteChannelId(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = arg1;
@@ -624,7 +624,7 @@ case 4:
         }
     };
     var3['getInviteChannelId'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function shouldRenderInvite(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var7 = arg1;
@@ -697,7 +697,7 @@ case 17:
         }
     };
     var3['shouldRenderInvite'] = var4;
-    var2 = function(arg1) {
+    var2 = function useShouldShowInviteInActionBar(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var9 = arg1;

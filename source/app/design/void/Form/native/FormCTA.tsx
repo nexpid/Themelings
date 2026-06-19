@@ -131,26 +131,65 @@ case 0:
             var14 = var2.onPress;
             var10 = var2.onLongPress;
             var18 = var2.variant;
-            var2 = _closure1_slot5;
-            var5 = undefined;
-            var15 = var2.bind(var5)();
-            var17 = null;
-            var2 = var17 != var24;
-            var6 = null;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+            var7 = function renderTrailing() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var2 = _closure2_slot0;
+                    if(var2) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-            var7 = _closure1_slot4;
-            var3 = _closure1_slot3;
-            var2 = {};
+                    var1 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 == var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var5 = _closure1_slot4;
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 8;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = var2.Arrow;
+                    var2 = {};
+                    var1 = var5.bind(var4)(var3, var2);
+case 4:
+                    _fun0002_ip = 6; continue _fun0002;
+case 2:
+                    var5 = _closure1_slot4;
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 7;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = var2.FormCheckbox;
+                    var2 = {};
+                    var6 = true;
+                    var2['checked'] = var6;
+                    var1 = var5.bind(var4)(var3, var2);
+case 6:
+                    return var1;
+                }
+            };
+            var1 = _closure1_slot5;
+            var5 = undefined;
+            var15 = var1.bind(var5)();
+            var17 = null;
+            var1 = var17 != var24;
+            var6 = null;
+            if(!var1) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot3;
+            var1 = {};
             var8 = new Array(2);
             var8[0] = var12;
             var12 = null;
-            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var16) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var12 = var15.completedIcon;
-case 4:
+case 9:
             var8[1] = var12;
-            var2['style'] = var8;
+            var1['style'] = var8;
             var20 = _closure1_slot4;
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
@@ -174,48 +213,9 @@ case 4:
             var21 = true;
             var8['disableColor'] = var21;
             var8 = var20.bind(var5)(var12, var8);
-            var2['children'] = var8;
-            var6 = var7.bind(var5)(var3, var2);
-case 2:
-            var7 = function renderTrailing() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var2 = _closure2_slot0;
-                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
+            var1['children'] = var8;
+            var6 = var3.bind(var5)(var2, var1);
 case 7:
-                    var1 = _closure2_slot1;
-                    var2 = null;
-                    if(!(var2 == var1)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var5 = _closure1_slot4;
-                    var3 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var2 = 8;
-                    var2 = var4[var2];
-                    var4 = undefined;
-                    var2 = var3.bind(var4)(var2);
-                    var3 = var2.Arrow;
-                    var2 = {};
-                    var1 = var5.bind(var4)(var3, var2);
-case 8:
-                    _fun0002_ip = 10; continue _fun0002;
-case 6:
-                    var5 = _closure1_slot4;
-                    var3 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var2 = 7;
-                    var2 = var4[var2];
-                    var4 = undefined;
-                    var2 = var3.bind(var4)(var2);
-                    var3 = var2.FormCheckbox;
-                    var2 = {};
-                    var6 = true;
-                    var2['checked'] = var6;
-                    var1 = var5.bind(var4)(var3, var2);
-case 10:
-                    return var1;
-                }
-            };
             var8 = null;
             if(!(var5 !== var4)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:

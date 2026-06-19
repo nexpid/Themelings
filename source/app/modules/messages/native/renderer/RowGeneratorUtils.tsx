@@ -30,37 +30,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var2;
     var2 = 3;
     var2 = var7[var2];
-    var2 = var6.bind(var1)(var2);
-    var9 = var2.DEFAULT_GUILD_OFFICIAL_COLOR;
-    var _closure1_slot5 = var9;
-    var2 = var2.GUILD_OFFICIAL_HIGHLIGHT_ALPHA_COLOR;
-    var _closure1_slot6 = var2;
+    var2 = var12.bind(var1)(var2);
+    var _closure1_slot5 = var2;
     var2 = 4;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var2 = var2.SwipeActionsType;
+    var9 = var2.DEFAULT_GUILD_OFFICIAL_COLOR;
+    var _closure1_slot6 = var9;
+    var2 = var2.GUILD_OFFICIAL_HIGHLIGHT_ALPHA_COLOR;
     var _closure1_slot7 = var2;
     var2 = 5;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var9 = var2.MessageFlags;
-    var _closure1_slot8 = var9;
-    var2 = var2.MessageTypes;
-    var _closure1_slot9 = var2;
+    var2 = var2.SwipeActionsType;
+    var _closure1_slot8 = var2;
     var2 = 6;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var9 = var2.MessageFlags;
+    var _closure1_slot9 = var9;
+    var2 = var2.MessageTypes;
+    var _closure1_slot10 = var2;
+    var2 = 7;
     var9 = var7[var2];
     var11 = var6.bind(var1)(var9);
     var10 = var11.experimental_createToken;
     var9 = function() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var2 = 7;
+        var2 = 8;
         var2 = var6[var2];
         var5 = undefined;
         var4 = var3.bind(var5)(var2);
         var3 = var4.hexWithOpacity;
         var2 = _closure1_slot1;
-        var1 = 8;
+        var1 = 9;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
         var1 = var1.unsafe_rawColors;
@@ -74,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6.bind(var1)(var2);
     var9 = var10.createNativeStyleProperties;
     var2 = {};
-    var11 = 8;
+    var11 = 9;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
@@ -112,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT;
     var2['editingColor'] = var11;
     var2 = var9.bind(var10)(var2);
-    var _closure1_slot10 = var2;
+    var _closure1_slot11 = var2;
     var9 = var8.Set;
     var8 = var4.MediaManager;
     var4 = var8.getConstants;
@@ -123,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var8;
     var4 = new var18[var9](var17, var16);
     var4 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = {};
     var8 = function getImageSrc(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -143,7 +147,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot12;
             var4 = var5.has;
             var3 = 'webp';
             var2 = var4.bind(var5)(var3);
@@ -154,7 +158,7 @@ case 7:
 case 6:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var3 = var3[var2];
             var2 = undefined;
             var5 = var4.bind(var2)(var3);
@@ -182,7 +186,7 @@ case 0:
             var6 = var1.theme;
             var5 = var1.isEditing;
             var1 = var1.isAutomodBlockedMessage;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot11;
             var3 = undefined;
             var2 = var2.bind(var3)(var6);
             if(var5) { _fun0002_ip = 10; continue _fun0002 }
@@ -190,107 +194,117 @@ case 11:
             if(var1) { _fun0002_ip = 12; continue _fun0002 }
 case 5:
             var5 = var7.hasFlag;
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var1 = var1.IS_GUILD_OFFICIAL;
             var1 = var5.bind(var7)(var1);
             if(!var1) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var6 = _closure1_slot3;
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var9 = 10;
+            var1 = var1[var9];
+            var6 = var5.bind(var3)(var1);
+            var5 = var6.showGuildOfficialMessageGradient;
+            var1 = _closure1_slot3;
+            var1 = var1.officialMessageStyle;
+            var1 = var5.bind(var6)(var1);
+            if(!var1) { _fun0002_ip = 13; continue _fun0002 }
+case 15:
+            var6 = _closure1_slot4;
             var5 = var6.getChannel;
             var1 = var7.getChannelId;
             var1 = var1.bind(var7)();
-            var9 = var5.bind(var6)(var1);
-            var8 = _closure1_slot4;
+            var10 = var5.bind(var6)(var1);
+            var8 = _closure1_slot5;
             var6 = var8.getGuild;
             var1 = null;
-            var10 = var1 == var9;
+            var11 = var1 == var10;
             var5 = undefined;
-            if(var10) { _fun0002_ip = 15; continue _fun0002 }
+            if(var11) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+            var5 = var10.guild_id;
 case 16:
-            var5 = var9.guild_id;
-case 15:
             var6 = var6.bind(var8)(var5);
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var5 = 9;
-            var5 = var9[var5];
+            var5 = _closure1_slot2;
+            var5 = var5[var9];
             var9 = var8.bind(var3)(var5);
             var8 = var9.isGuildOfficialMessagesEnabled;
             var5 = 'RowGeneratorUtils';
             var5 = var8.bind(var9)(var6, var5);
-            if(var5) { _fun0002_ip = 17; continue _fun0002 }
+            if(var5) { _fun0002_ip = 18; continue _fun0002 }
 case 13:
             var5 = var7.mentioned;
-            if(var5) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(var5) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var5 = 10;
+            var5 = 11;
             var5 = var9[var5];
             var8 = var8.bind(var3)(var5);
             var5 = var8.hasEphemeralAppearance;
             var8 = var5.bind(var8)(var7);
             var5 = undefined;
-            if(!var8) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+            if(!var8) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var8 = {};
             var10 = var7.type;
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot10;
             var9 = var9.GIFTING_PROMPT;
-            if(!(var10 !== var9)) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
-            var9 = var2.ephemeralBackgroundColor;
-            _fun0002_ip = 24; continue _fun0002;
-case 22:
-            var9 = var2.giftIntentEphemeralBackgroundColor;
+            if(!(var10 !== var9)) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
+            var9 = var2.ephemeralBackgroundColor;
+            _fun0002_ip = 25; continue _fun0002;
+case 23:
+            var9 = var2.giftIntentEphemeralBackgroundColor;
+case 25:
             var8['backgroundColor'] = var9;
             var9 = var2.ephemeralGutterColor;
             var8['gutterColor'] = var9;
             var5 = var8;
-case 20:
-            _fun0002_ip = 25; continue _fun0002;
-case 18:
+case 21:
+            _fun0002_ip = 26; continue _fun0002;
+case 19:
             var8 = {};
             var9 = var2.mentionedBackgroundColor;
             var8['backgroundColor'] = var9;
             var9 = var2.mentionedGutterColor;
             var8['gutterColor'] = var9;
             var5 = var8;
-case 25:
+case 26:
             return var5;
-case 17:
+case 18:
             var8 = var1 == var6;
             var5 = undefined;
-            if(var8) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
-            var5 = var6.officialMessageColor;
-case 26:
-            if(!(var1 == var5)) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
-            var5 = _closure1_slot5;
+            if(var8) { _fun0002_ip = 27; continue _fun0002 }
 case 28:
+            var5 = var6.officialMessageColor;
+case 27:
+            if(!(var1 == var5)) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
+            var5 = _closure1_slot6;
+case 29:
             var1 = var7.mentioned;
-            if(var1) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+            if(var1) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var8[var1];
             var6 = var6.bind(var3)(var1);
             var1 = var6.hasEphemeralAppearance;
             var1 = var1.bind(var6)(var7);
             var3 = undefined;
-            if(!var1) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
-            var3 = var2.ephemeralGutterColor;
-case 32:
-            _fun0002_ip = 34; continue _fun0002;
-case 30:
-            var3 = var2.mentionedGutterColor;
+            if(!var1) { _fun0002_ip = 33; continue _fun0002 }
 case 34:
+            var3 = var2.ephemeralGutterColor;
+case 33:
+            _fun0002_ip = 35; continue _fun0002;
+case 31:
+            var3 = var2.mentionedGutterColor;
+case 35:
             var1 = {};
-            var4 = _closure1_slot6;
+            var4 = _closure1_slot7;
             var4 = var5 | var4;
             var1['backgroundColor'] = var4;
             var1['gutterColor'] = var3;
@@ -313,28 +327,28 @@ case 10:
     var5 = function createSwipeActions(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var1 = arg1;
-            if(var1) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
-            var1 = var3.NONE;
-            _fun0003_ip = 37; continue _fun0003;
-case 35:
-            var2 = arg2;
-            if(var2) { _fun0003_ip = 38; continue _fun0003 }
-case 39:
-            var2 = var3.REPLY;
-            _fun0003_ip = 40; continue _fun0003;
-case 38:
-            var2 = var3.REPLY_EDIT;
-case 40:
-            var1 = var2;
+            if(var1) { _fun0003_ip = 36; continue _fun0003 }
 case 37:
+            var1 = var3.NONE;
+            _fun0003_ip = 38; continue _fun0003;
+case 36:
+            var2 = arg2;
+            if(var2) { _fun0003_ip = 39; continue _fun0003 }
+case 40:
+            var2 = var3.REPLY;
+            _fun0003_ip = 41; continue _fun0003;
+case 39:
+            var2 = var3.REPLY_EDIT;
+case 41:
+            var1 = var2;
+case 38:
             return var1;
         }
     };
     var4['createSwipeActions'] = var5;
-    var5 = 12;
+    var5 = 13;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
