@@ -1130,6 +1130,18 @@ case 9:
         var2['APPLICATION_DIRECTORY_SEARCH'] = var16;
         var16 = '/family-center';
         var2['FAMILY_CENTER'] = var16;
+        var16 = function FAMILY_CENTER_MY_FAMILY(arg1, arg2) {
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var5 = var1.concat;
+            var4 = '/feature/family-center/my-family/';
+            var3 = arg1;
+            var2 = '/';
+            var1 = arg2;
+            var1 = var5.bind(var4)(var3, var2, var1);
+            return var1;
+        };
+        var2['FAMILY_CENTER_MY_FAMILY'] = var16;
         var16 = function SERVER_SHOP(arg1) {
             var1 = global;
             var1 = var1.HermesInternal;
