@@ -11092,7 +11092,7 @@
         "height": 16
     },
     "search_empty_state": {
-        "file": "app/modules/directory_channels/native/images/search_empty_state.png",
+        "file": "app/modules/hub/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
