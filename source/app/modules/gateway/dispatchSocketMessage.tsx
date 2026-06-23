@@ -494,7 +494,7 @@ case 56:
 case 58:
             var20 = _closure1_slot0;
             var22 = _closure1_slot3;
-            var19 = 35;
+            var19 = 36;
             var19 = var22[var19];
             var23 = var20.bind(var1)(var19);
             var22 = var23.isEqualAvatarDecoration;
@@ -746,7 +746,7 @@ case 0:
             var2 = arg1;
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var1 = 36;
+            var1 = 37;
             var1 = var5[var1];
             var6 = undefined;
             var5 = var3.bind(var6)(var1);
@@ -6033,7 +6033,7 @@ case 198:
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
-    var7 = ['HAVEN_CONNECT'];
+    var7 = ['GUILD_ROOM_CONNECT'];
     var4 = function(arg1, arg2) {
         var3 = _closure1_slot27;
         var2 = {};
@@ -6042,6 +6042,62 @@ case 198:
         var5 = _closure1_slot0;
         var4 = _closure1_slot3;
         var1 = 34;
+        var4 = var4[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.serverGuildRoomToClient;
+        var4 = arg1;
+        var4 = var5.bind(var6)(var4);
+        var2['room'] = var4;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
+    var7 = ['GUILD_ROOM_DISCONNECT'];
+    var4 = function(arg1, arg2) {
+        var1 = arg1;
+        var3 = _closure1_slot27;
+        var2 = {};
+        var4 = arg2;
+        var2['type'] = var4;
+        var4 = var1.user_id;
+        var2['userId'] = var4;
+        var1 = var1.room_id;
+        var2['roomId'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
+    var7 = ['GUILD_ROOM_UPDATE'];
+    var4 = function(arg1, arg2) {
+        var3 = _closure1_slot27;
+        var2 = {};
+        var4 = arg2;
+        var2['type'] = var4;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot3;
+        var1 = 34;
+        var4 = var4[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.serverGuildRoomToClient;
+        var4 = arg1;
+        var4 = var5.bind(var6)(var4);
+        var2['room'] = var4;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
+    var7 = ['HAVEN_CONNECT'];
+    var4 = function(arg1, arg2) {
+        var3 = _closure1_slot27;
+        var2 = {};
+        var4 = arg2;
+        var2['type'] = var4;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot3;
+        var1 = 35;
         var4 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
@@ -6077,7 +6133,7 @@ case 198:
         var2['type'] = var4;
         var5 = _closure1_slot0;
         var4 = _closure1_slot3;
-        var1 = 34;
+        var1 = 35;
         var4 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
@@ -6105,7 +6161,7 @@ case 198:
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
-    var4 = 37;
+    var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

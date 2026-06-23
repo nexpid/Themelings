@@ -2380,46 +2380,46 @@ case 150:
                 var17 = var9 == var16;
                 var15 = undefined;
                 if(var17) { _fun0037_ip = 151; continue _fun0037 }
-case 121:
+case 152:
                 var15 = var16.id;
 case 151:
                 var15 = var9 == var15;
                 var14['idIsNull'] = var15;
                 var17 = var9 == var16;
                 var15 = undefined;
-                if(var17) { _fun0037_ip = 152; continue _fun0037 }
-case 123:
+                if(var17) { _fun0037_ip = 153; continue _fun0037 }
+case 154:
                 var15 = var16.username;
-case 152:
+case 153:
                 var15 = var9 == var15;
                 var14['usernameIsNull'] = var15;
                 var17 = var9 == var16;
                 var15 = undefined;
-                if(var17) { _fun0037_ip = 153; continue _fun0037 }
-case 21:
+                if(var17) { _fun0037_ip = 155; continue _fun0037 }
+case 156:
                 var15 = var16.isBot;
-case 153:
+case 155:
                 var14['isBot'] = var15;
                 var17 = var9 == var16;
                 var15 = undefined;
-                if(var17) { _fun0037_ip = 154; continue _fun0037 }
-case 112:
+                if(var17) { _fun0037_ip = 114; continue _fun0037 }
+case 157:
                 var15 = var16.isFriend;
-case 154:
+case 114:
                 var14['isFriend'] = var15;
                 var17 = var9 == var16;
                 var15 = undefined;
-                if(var17) { _fun0037_ip = 155; continue _fun0037 }
-case 124:
+                if(var17) { _fun0037_ip = 158; continue _fun0037 }
+case 159:
                 var15 = var16.isProvisional;
-case 155:
+case 158:
                 var14['isProvisional'] = var15;
                 var17 = var9 == var16;
                 var15 = undefined;
-                if(var17) { _fun0037_ip = 126; continue _fun0037 }
-case 156:
+                if(var17) { _fun0037_ip = 160; continue _fun0037 }
+case 161:
                 var15 = var16.globalName;
-case 126:
+case 160:
                 var15 = var9 == var15;
                 var14['globalNameIsNull'] = var15;
                 var15 = var4.length;
@@ -2464,7 +2464,7 @@ case 118:
                 var2 = var2.bind(var1)();
                 var4 = var1._worker;
                 var1 = null;
-                if(!(var1 != var4)) { _fun0038_ip = 157; continue _fun0038 }
+                if(!(var1 != var4)) { _fun0038_ip = 162; continue _fun0038 }
 case 67:
                 var3 = _closure1_slot17;
                 var1 = var3.prototype;
@@ -2476,7 +2476,7 @@ case 67:
                 var1 = new var9[var3](var8, var7, var6, var5);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
-case 157:
+case 162:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;

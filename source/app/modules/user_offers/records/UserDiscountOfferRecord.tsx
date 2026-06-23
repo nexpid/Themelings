@@ -192,7 +192,7 @@ case 15:
             }
         };
         var6['value'] = var2;
-        var2 = new Array(8);
+        var2 = new Array(9);
         var2[0] = var6;
         var6 = {};
         var7 = 'isApplied';
@@ -289,10 +289,56 @@ case 17:
         var6['value'] = var7;
         var2[7] = var6;
         var6 = {};
+        var7 = 'getApproximateDiscountAmountOff';
+        var6['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var2 = this;
+                var4 = var2.discount;
+                var1 = null;
+                var6 = var1 == var4;
+                var5 = undefined;
+                var3 = undefined;
+                if(var6) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+                var3 = var4.amount;
+case 19:
+                if(!(var1 != var3)) { _fun0005_ip = 21; continue _fun0005 }
+case 17:
+                var3 = global;
+                var4 = var3.parseFloat;
+                var2 = var2.discount;
+                var2 = var2.amount;
+                var6 = var4.bind(var5)(var2);
+                var4 = var3.Number;
+                var2 = var4.isNaN;
+                var4 = var2.bind(var4)(var6);
+                var2 = null;
+                if(var4) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
+                var5 = var3.Math;
+                var4 = var5.round;
+                var3 = 100;
+                var7 = var6 / var3;
+                var6 = arg1;
+                var3 = 1;
+                var3 = var3 - var7;
+                var3 = var6 * var3;
+                var2 = var4.bind(var5)(var3);
+case 22:
+                return var2;
+case 21:
+                return var1;
+            }
+        };
+        var6['value'] = var7;
+        var2[8] = var6;
+        var6 = {};
         var7 = 'createFromServer';
         var6['key'] = var7;
         var1 = function value(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var4 = arg1;
                 var3 = _closure2_slot0;
@@ -327,8 +373,8 @@ case 0:
                 var2 = null;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                if(!var6) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
                 var6 = global;
                 var8 = var6.Date;
                 var9 = var4.applied_at;
@@ -337,13 +383,13 @@ case 20:
                 var10 = var7;
                 var6 = new var10[var8](var9, var8);
                 var5 = var6 instanceof Object ? var6 : var7;
-case 19:
+case 24:
                 var1['appliedAt'] = var5;
                 var5 = var4.deleted_at;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+                if(!var6) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
                 var6 = global;
                 var8 = var6.Date;
                 var9 = var4.deleted_at;
@@ -352,13 +398,13 @@ case 22:
                 var10 = var7;
                 var6 = new var10[var8](var9, var8);
                 var5 = var6 instanceof Object ? var6 : var7;
-case 21:
+case 26:
                 var1['deletedAt'] = var5;
                 var5 = var4.expires_at;
                 var5 = var2 != var5;
                 var2 = null;
-                if(!var5) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+                if(!var5) { _fun0006_ip = 28; continue _fun0006 }
+case 29:
                 var5 = global;
                 var6 = var5.Date;
                 var9 = var4.expires_at;
@@ -367,7 +413,7 @@ case 24:
                 var10 = var5;
                 var4 = new var10[var6](var9, var8);
                 var2 = var4 instanceof Object ? var4 : var5;
-case 23:
+case 28:
                 var1['expiresAt'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

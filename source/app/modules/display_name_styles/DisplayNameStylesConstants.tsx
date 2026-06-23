@@ -175,74 +175,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6[7] = var4;
     var5 = var6.map;
     var4 = function(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var5 = arg1;
-            var1 = var5[Symbol.iterator];
-            var5 = var1().next;
-            var2 = var5().value;
-            var3 = var1;
-            var7 = undefined;
-            var4 = var3 === var7;
-            var3 = undefined;
-            if(var4) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var3 = var2;
-case 2:
-            var2 = undefined;
-            if(var4) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var6 = var5().value;
-            var5 = var1;
-            var5 = var5 === var7;
-            var2 = undefined;
-            var4 = var5;
-            if(var5) { _fun0001_ip = 4; continue _fun0001 }
-case 6:
-            var2 = var6;
-            var4 = var5;
-case 4:
-            if(var4) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            var1.return();
-case 7:
-            var1 = {};
-            var1['start'] = var3;
-            var1['end'] = var2;
-            var2 = '';
-            var1['name'] = var2;
-            return var1;
-        }
+        var1 = {};
+        var2 = arg1;
+        var1['colors'] = var2;
+        var2 = '';
+        var1['name'] = var2;
+        return var1;
     };
     var6 = var5.bind(var6)(var4);
     var _closure1_slot3 = var6;
-    var5 = new Array(6);
-    var4 = [7183099, 6082490, 16762000, 14970082];
+    var5 = new Array(12);
+    var4 = [16747146, 16765286, 7068042, 6080767];
     var5[0] = var4;
-    var4 = [16521573, 16095292, 13018645, 2417517];
+    var4 = [16756838, 13035611, 4183728, 6003455];
     var5[1] = var4;
-    var4 = [2417517, 1628845, 1874155, 11080677];
+    var4 = [6018784, 7052031, 11561983, 16743124];
     var5[2] = var4;
-    var4 = [16735702, 12790527, 6888941, 2522592];
+    var4 = [16743096, 12610559, 7052031, 6280880];
     var5[3] = var4;
-    var4 = [16332578, 16095292, 13018645, 1027403];
+    var4 = [16769126, 8051066, 5230806, 7052031];
     var5[4] = var4;
-    var4 = [695675, 1628845, 9497343, 747943];
+    var4 = [16743034, 16743096, 11561983, 7047935];
     var5[5] = var4;
+    var4 = [8051082, 5230784, 6007039, 11041535];
+    var5[6] = var4;
+    var4 = [16756858, 16743080, 14707670, 8026879];
+    var5[7] = var4;
+    var4 = [16769126, 16755547, 16743050, 15231952];
+    var5[8] = var4;
+    var4 = [6080767, 6280880, 11984998, 16769126];
+    var5[9] = var4;
+    var4 = [11041535, 15231952, 16743050, 16756858];
+    var5[10] = var4;
+    var4 = [7052031, 5230806, 8051066, 16769126];
+    var5[11] = var4;
     var _closure1_slot4 = var5;
-    var4 = new Array(6);
-    var12 = [16332578, 16095292, 13018645, 2417517, 1874155];
+    var4 = new Array(12);
+    var12 = [16726843, 16752172, 16771372, 3528283, 2924287];
     var4[0] = var12;
-    var12 = [7183099, 6082490, 2417517, 16762000, 16521573];
+    var12 = [16723085, 11545855, 5975295, 2924287, 2938592];
     var4[1] = var12;
-    var12 = [12790527, 11080677, 6888941, 2522592, 1628845];
+    var12 = [2949038, 2938592, 2924287, 7035903, 11545855];
     var4[2] = var12;
-    var12 = [16735702, 14970082, 12423167, 9497343, 6082490];
+    var12 = [16723021, 16747052, 16771372, 3528283, 10370047];
     var4[3] = var12;
-    var12 = [14287177, 16521573, 16095292, 13018645, 1027403];
+    var12 = [3528283, 2938560, 2924287, 7035903, 16739286];
     var4[4] = var12;
-    var12 = [747943, 1874155, 1628845, 695675, 2417517];
+    var12 = [16735035, 16764972, 3528283, 2938592, 7035903];
     var4[5] = var12;
+    var12 = [10416383, 5230847, 2924287, 3894271, 5979094];
+    var4[6] = var12;
+    var12 = [14090122, 9102928, 3524955, 1615994, 752266];
+    var4[7] = var12;
+    var12 = [16756976, 16739286, 14045152, 10497279, 7023830];
+    var4[8] = var12;
+    var12 = [16769115, 16755500, 16739116, 16726861, 14036075];
+    var4[9] = var12;
+    var12 = [13041648, 7074006, 2938560, 1618121, 2915030];
+    var4[10] = var12;
+    var12 = [16764972, 16747067, 16735083, 16726942, 14036182];
+    var4[11] = var12;
     var _closure1_slot5 = var4;
     var12 = 2;
     var12 = var14[var12];
@@ -259,7 +251,7 @@ case 7:
     var3['DISPLAY_NAME_STYLES_GUMMY_PRESETS'] = var5;
     var3['DISPLAY_NAME_STYLES_PRISM_PRESETS'] = var4;
     var2 = function getColorPresetsForEffect(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
@@ -270,32 +262,32 @@ case 0:
             var3 = var5.bind(var6)(var3);
             var3 = var3.DisplayNameEffect;
             var3 = var3.GUMMY;
-            if(!(var3 !== var4)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.DisplayNameEffect;
             var3 = var3.PRISM;
-            if(!(var3 !== var4)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+            if(!(var3 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.DisplayNameEffect;
             var3 = var3.GRADIENT;
-            if(!(var3 !== var4)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.DisplayNameEffect;
             var3 = var3.GLOW;
-            if(!(var3 !== var4)) { _fun0002_ip = 13; continue _fun0002 }
-case 15:
+            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var5 = _closure1_slot2;
             var4 = var5.map;
             var3 = function(arg1) {
@@ -306,24 +298,20 @@ case 15:
             };
             var3 = var4.bind(var5)(var3);
             return var3;
-case 13:
+case 6:
             var4 = _closure1_slot3;
             var3 = var4.map;
             var2 = function(arg1) {
-                var2 = arg1;
-                var3 = var2.start;
-                var1 = new Array(2);
-                var1[0] = var3;
-                var2 = var2.end;
-                var1[1] = var2;
+                var1 = arg1;
+                var1 = var1.colors;
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
             return var2;
-case 11:
+case 4:
             var2 = _closure1_slot5;
             return var2;
-case 9:
+case 2:
             var1 = _closure1_slot4;
             return var1;
         }

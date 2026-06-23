@@ -52,6 +52,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['HEADER'] = var2;
     var2 = 'APPLICATION';
     var4['APPLICATION'] = var2;
+    var2 = 'GAME_PROFILE';
+    var4['GAME_PROFILE'] = var2;
     var2 = 'SKU';
     var4['SKU'] = var2;
     var2 = 'LINK';
@@ -70,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = '*';
     var2['GUILD'] = var7;
     var7 = '$';
-    var2['APPLICATION'] = var7;
+    var2['GAME_PROFILE'] = var7;
     var7 = 2;
     var8 = var8[var7];
     var7 = require;

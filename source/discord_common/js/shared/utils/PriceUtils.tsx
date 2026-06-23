@@ -2009,8 +2009,33 @@ case 2:
         }
     };
     var3['convertToMinorCurrencyUnits'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var2 = _closure1_slot6;
+            var1 = arg2;
+            var3 = var2[var1];
+            var1 = null;
+            if(!(var1 != var3)) { _fun0004_ip = 12; continue _fun0004 }
+case 3:
+            var7 = 10;
+            var6 = var3;
+            var3 = exponentiationOperator(var7, var6);
+            var2 = global;
+            var5 = var2.Math;
+            var4 = var5.floor;
+            var2 = arg1;
+            var2 = var2 / var3;
+            var2 = var4.bind(var5)(var2);
+            var2 = var2 * var3;
+            return var2;
+case 12:
+            return var1;
+        }
+    };
+    var3['floorToWholeCurrencyUnits'] = var4;
+    var2 = function(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var5 = arg1;
             var1 = _closure1_slot5;
@@ -2027,19 +2052,19 @@ case 0:
             var1 = 1;
             var5 = var5[var1];
             var1 = var2;
-            if(!(var4 !== var5)) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+            if(!(var4 !== var5)) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
             var4 = _closure1_slot8;
             var3 = var5.toUpperCase;
             var3 = var3.bind(var5)();
             var3 = var4[var3];
             var4 = null;
-            if(!(var4 != var3)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+            if(!(var4 != var3)) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var2 = var3;
-case 14:
+case 15:
             var1 = var2;
-case 12:
+case 13:
             return var1;
         }
     };

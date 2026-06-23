@@ -122,7 +122,7 @@ case 9:
                         var6 = var6[var1];
                         var1 = undefined;
                         var6 = var7.bind(var1)(var6);
-                        var6 = var6.JumpTypes;
+                        var6 = var6.JumpType;
                         var6 = var6.INSTANT;
                         var2['jumpType'] = var6;
                         var1 = var5.bind(var1)(var4, var3, var2);

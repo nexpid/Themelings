@@ -289,13 +289,13 @@ case 55:
 case 40:
             var4 = var3.name;
             if(!(var1 != var4)) { _fun0004_ip = 57; continue _fun0004 }
-case 58:
+case 6:
             var5 = var3.animated;
             var4 = var1 != var5;
-            if(!var4) { _fun0004_ip = 59; continue _fun0004 }
-case 60:
-            var4 = var5;
+            if(!var4) { _fun0004_ip = 58; continue _fun0004 }
 case 59:
+            var4 = var5;
+case 58:
             var3['animated'] = var4;
             var2['victorEmoji'] = var3;
 case 57:

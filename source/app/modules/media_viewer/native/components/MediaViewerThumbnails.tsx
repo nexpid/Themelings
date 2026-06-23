@@ -93,7 +93,8 @@ case 4:
             var12 = _closure1_slot2;
             var2 = 8;
             var2 = var12[var2];
-            var3 = var7.bind(var5)(var2);
+            var2 = var7.bind(var5)(var2);
+            var3 = var2.View;
             var2 = {};
             var6 = _closure1_slot6;
             var11 = var6.absoluteFill;
@@ -193,7 +194,8 @@ case 8:
             var14 = _closure1_slot2;
             var1 = 8;
             var1 = var14[var1];
-            var2 = var10.bind(var4)(var1);
+            var1 = var10.bind(var4)(var1);
+            var2 = var1.View;
             var1 = {};
             var7 = var13.thumbnailButtonPortrait;
             var5 = new Array(2);
@@ -390,7 +392,7 @@ case 8:
             return var1;
         };
         var14 = var18.bind(var23)(var5, var14);
-        var5 = 14;
+        var5 = 8;
         var5 = var21[var5];
         var22 = var2.bind(var4)(var5);
         var18 = var22.useAnimatedProps;
@@ -417,7 +419,7 @@ case 8:
             var4 = _closure1_slot8;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 8;
+            var1 = 14;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -435,7 +437,7 @@ case 8:
             var4 = _closure1_slot8;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 8;
+            var1 = 14;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);

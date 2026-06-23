@@ -990,8 +990,8 @@ case 0:
                             var2 = var3.remove;
                             var2 = var2.bind(var3)();
                             var3 = var6.saved;
-                            if(var3) { _fun0008_ip = 104; continue _fun0008 }
-case 105:
+                            if(var3) { _fun0008_ip = 41; continue _fun0008 }
+case 104:
                             var5 = _closure1_slot1;
                             var4 = _closure1_slot2;
                             var3 = 3;
@@ -1005,14 +1005,14 @@ case 105:
                             var8 = var6.action;
                             var6 = 'Recording was shared but not saved to Photos, so it cannot be sent.';
                             var7 = 'cancelled';
-                            if(!(var7 === var8)) { _fun0008_ip = 106; continue _fun0008 }
-case 107:
-                            var6 = 'Recording was cancelled and not saved.';
+                            if(!(var7 === var8)) { _fun0008_ip = 105; continue _fun0008 }
 case 106:
+                            var6 = 'Recording was cancelled and not saved.';
+case 105:
                             var3['body'] = var6;
                             var3 = var4.bind(var5)(var3);
-                            _fun0008_ip = 108; continue _fun0008;
-case 104:
+                            _fun0008_ip = 107; continue _fun0008;
+case 41:
                             var3 = global;
                             var4 = var3.setTimeout;
                             var2 = _closure1_slot3;
@@ -1023,16 +1023,16 @@ case 104:
 case 0:
                                         StartGenerator();
                                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                        if(var2) { _fun0009_ip = 109; continue _fun0009 }
+                                        if(var2) { _fun0009_ip = 108; continue _fun0009 }
 case 3:
                                         var4 = _closure4_slot0;
                                         var3 = null;
-                                        if(!(var3 != var4)) { _fun0009_ip = 110; continue _fun0009 }
-case 111:
+                                        if(!(var3 != var4)) { _fun0009_ip = 109; continue _fun0009 }
+case 110:
                                         var3 = _closure4_slot0;
                                         var2 = undefined;
                                         var2 = var3.bind(var2)();
-case 110:
+case 109:
                                         var2 = _closure5_slot0;
                                         var5 = var2.timestampedTranscription;
                                         var4 = var2.audioFilePath;
@@ -1051,10 +1051,10 @@ case 110:
                                         SaveGenerator(address=77);
 case 31:
                                         return var2;
-case 112:
+case 111:
                                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                                         if(var4) { _fun0009_ip = 23; continue _fun0009 }
-case 113:
+case 112:
                                         var6 = _closure1_slot4;
                                         var5 = var6.getState;
                                         var7 = var5.bind(var6)();
@@ -1069,7 +1069,7 @@ case 113:
                                         return var3;
 case 23:
                                         return var2;
-case 109:
+case 108:
                                         return var1;
                                     }
                                 };
@@ -1078,7 +1078,7 @@ case 109:
                             var2 = var2.bind(var3)(var1);
                             var1 = 1000;
                             var1 = var4.bind(var3)(var2, var1);
-case 108:
+case 107:
                             var1 = undefined;
                             return var1;
                         }
@@ -1103,14 +1103,14 @@ case 108:
                     };
                     var2 = var2.bind(var3)();
                     SaveGenerator(address=100);
-case 114:
+case 113:
                     return var2;
-case 115:
+case 106:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0007_ip = 116; continue _fun0007 }
-case 117:
+                    if(var4) { _fun0007_ip = 114; continue _fun0007 }
+case 105:
                     return var3;
-case 116:
+case 114:
                     return var2;
 case 102:
                     return var1;
@@ -1153,13 +1153,13 @@ case 44:
                     var5 = undefined;
                     var2 = var2.bind(var5)();
                     SaveGenerator(address=29);
-case 118:
+case 115:
                     return var2;
-case 119:
+case 116:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0010_ip = 17; continue _fun0010 }
-case 120:
-                    if(!var2) { _fun0010_ip = 121; continue _fun0010 }
+case 117:
+                    if(!var2) { _fun0010_ip = 118; continue _fun0010 }
 case 45:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -1184,12 +1184,12 @@ case 45:
                     var3['frameRate'] = var8;
                     var3 = var6.bind(var7)(var3);
                     SaveGenerator(address=147);
-case 122:
+case 119:
                     return var3;
-case 123:
+case 120:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
                     if(var6) { _fun0010_ip = 21; continue _fun0010 }
-case 124:
+case 121:
                     var6 = function startRecordingProcess() {
                         var1 = undefined;
                         var4 = _closure1_slot9;
@@ -1208,9 +1208,9 @@ case 49:
 case 50:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
                     if(var6) { _fun0010_ip = 22; continue _fun0010 }
-case 125:
+case 122:
                     var6 = var4.success;
-case 121:
+case 118:
                     return var5;
 case 22:
                     return var4;

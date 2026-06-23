@@ -266,6 +266,8 @@ case 24:
             var12 = var12.KgPx1D;
             var12 = var13.bind(var14)(var12);
             var11['label'] = var12;
+            var12 = 2;
+            var11['lineClamp'] = var12;
             return var11;
 case 22:
             if(!var10) { _fun0004_ip = 16; continue _fun0004 }

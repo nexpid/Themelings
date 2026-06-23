@@ -597,10 +597,10 @@ case 0:
                 var1[1] = var3;
                 var3 = var2.source_class_list;
                 var2 = null;
-                if(!(var2 == var3)) { _fun0009_ip = 36; continue _fun0009 }
-case 37:
-                var3 = new Array(0);
+                if(!(var2 == var3)) { _fun0009_ip = 8; continue _fun0009 }
 case 36:
+                var3 = new Array(0);
+case 8:
                 var4 = 2;
                 var6 = var1;
                 var5 = var3;
@@ -1031,8 +1031,8 @@ case 0:
                 var1 = _closure1_slot11;
                 var2 = var1.MEDIA_VIEWER;
                 var1 = undefined;
-                if(!(var3 === var2)) { _fun0010_ip = 38; continue _fun0010 }
-case 39:
+                if(!(var3 === var2)) { _fun0010_ip = 37; continue _fun0010 }
+case 38:
                 var2 = {};
                 var3 = 60000;
                 var2['throttlePeriod'] = var3;
@@ -1045,7 +1045,7 @@ case 39:
                 };
                 var2['throttleKeys'] = var3;
                 var1 = var2;
-case 38:
+case 37:
                 return var1;
             }
         };
@@ -1204,46 +1204,46 @@ case 0:
                 var4 = arg2;
                 var7 = arguments[2];
                 var5 = undefined;
-                if(!(var7 === var5)) { _fun0011_ip = 40; continue _fun0011 }
+                if(!(var7 === var5)) { _fun0011_ip = 39; continue _fun0011 }
 case 34:
                 var7 = {};
-case 40:
+case 39:
                 var1 = global;
                 var2 = var1.String;
                 var9 = var2.bind(var5)(var6);
                 var3 = _closure1_slot21;
-                if(!var3) { _fun0011_ip = 41; continue _fun0011 }
+                if(!var3) { _fun0011_ip = 40; continue _fun0011 }
 case 33:
                 var3 = null;
-                if(!(var3 != var4)) { _fun0011_ip = 41; continue _fun0011 }
-case 42:
+                if(!(var3 != var4)) { _fun0011_ip = 40; continue _fun0011 }
+case 41:
                 var10 = var1.Array;
                 var8 = var10.isArray;
                 var3 = _closure1_slot22;
                 var3 = var3[var6];
                 var8 = var8.bind(var10)(var3);
                 var3 = _closure1_slot22;
-                if(var8) { _fun0011_ip = 43; continue _fun0011 }
-case 44:
+                if(var8) { _fun0011_ip = 42; continue _fun0011 }
+case 5:
                 var8 = new Array(1);
                 var8[0] = var4;
                 var3[var6] = var8;
-                _fun0011_ip = 41; continue _fun0011;
-case 43:
+                _fun0011_ip = 40; continue _fun0011;
+case 42:
                 var8 = var3[var6];
                 var3 = var8.push;
                 var3 = var3.bind(var8)(var4);
-case 41:
+case 40:
                 var8 = var7.throttlePercent;
                 var3 = null;
-                if(!(var3 != var8)) { _fun0011_ip = 45; continue _fun0011 }
-case 46:
+                if(!(var3 != var8)) { _fun0011_ip = 43; continue _fun0011 }
+case 44:
                 var8 = var1.Math;
                 var3 = var8.random;
                 var8 = var3.bind(var8)();
                 var3 = var7.throttlePercent;
-                if(!(!(var8 > var3))) { _fun0011_ip = 47; continue _fun0011 }
-case 45:
+                if(!(!(var8 > var3))) { _fun0011_ip = 45; continue _fun0011 }
+case 43:
                 var3 = _closure1_slot26;
                 var4 = var3.bind(var5)(var4);
                 var8 = _closure1_slot27;
@@ -1257,7 +1257,7 @@ case 45:
                 var2['fingerprint'] = var7;
                 var2 = var3.bind(var5)(var6, var4, var2);
                 return var2;
-case 47:
+case 45:
                 var2 = var1.Promise;
                 var1 = var2.resolve;
                 var1 = var1.bind(var2)();
@@ -1339,12 +1339,12 @@ case 0:
                 var1 = _closure1_slot13;
                 var1 = var1.GAME;
                 var1 = var3 === var1;
-                if(var1) { _fun0012_ip = 48; continue _fun0012 }
-case 49:
+                if(var1) { _fun0012_ip = 46; continue _fun0012 }
+case 47:
                 var2 = _closure1_slot13;
                 var2 = var2.DEPRECATED_GAME;
                 var1 = var3 === var2;
-case 48:
+case 46:
                 return var1;
             }
         };

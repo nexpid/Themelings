@@ -153,7 +153,7 @@ case 18:
             var16 = 3;
             var16 = var19[var16];
             var16 = var18.bind(var10)(var16);
-            var16 = var16.JumpTypes;
+            var16 = var16.JumpType;
             var16 = var16.INSTANT;
             var15 = var17 !== var16;
 case 17:

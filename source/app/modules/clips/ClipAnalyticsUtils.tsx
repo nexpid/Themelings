@@ -207,41 +207,49 @@ case 36:
             var3 = var6.bind(var4)(var3);
             var3 = var3.ClipSignalTypes;
             var3 = var3.MANUAL;
-            if(!(var3 !== var2)) { _fun0004_ip = 22; continue _fun0004 }
-case 39:
+            if(!(var3 !== var2)) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var6.bind(var4)(var3);
             var3 = var3.ClipSignalTypes;
             var3 = var3.DISTRIBUTED;
-            if(!(var3 !== var2)) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+            if(!(var3 !== var2)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var6.bind(var4)(var3);
             var3 = var3.ClipSignalTypes;
             var3 = var3.LAUGHTER;
-            if(!(var3 !== var2)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+            if(!(var3 !== var2)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var5];
+            var3 = var6.bind(var4)(var3);
+            var3 = var3.ClipSignalTypes;
+            var3 = var3.YELLING;
+            if(!(var3 !== var2)) { _fun0004_ip = 43; continue _fun0004 }
+case 45:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var3.bind(var4)(var1);
             var1 = var1.ClipSignalTypes;
             var1 = var1.GAME_EVENT;
-            if(!(var1 !== var2)) { _fun0004_ip = 42; continue _fun0004 }
-case 44:
+            if(!(var1 !== var2)) { _fun0004_ip = 43; continue _fun0004 }
+case 46:
             var1 = 'unknown';
             return var1;
-case 42:
+case 43:
             var1 = 'auto_ml';
             return var1;
-case 40:
+case 41:
             var1 = 'distributed';
             return var1;
-case 22:
+case 39:
             var1 = 'manual';
             return var1;
         }
@@ -283,10 +291,10 @@ case 0:
             var3 = var3.bind(var4)();
             var4 = null;
             var4 = var4 == var3;
-            if(var4) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+            if(var4) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
             var2 = var3.id;
-case 45:
+case 47:
             var1['current_clip_session_id'] = var2;
             return var1;
         }
@@ -333,78 +341,91 @@ case 0:
             var3 = _closure1_slot6;
             var2 = arg1;
             var2 = var2.timeline;
-            var11 = undefined;
-            var10 = var3.bind(var11)(var2);
-            var3 = var10.bind(var11)();
+            var12 = undefined;
+            var11 = var3.bind(var12)(var2);
+            var3 = var11.bind(var12)();
             var2 = var3.done;
-            var9 = 'manual';
-            var8 = 'distributed';
-            var7 = 'laughter';
+            var10 = 'manual';
+            var9 = 'distributed';
+            var8 = 'laughter';
+            var7 = 'shouting';
             var6 = global;
             var5 = 'game_event:';
             var4 = 4;
-            if(var2) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
-            var2 = var3.value;
-            var13 = var2.signal;
-            var14 = var13.type;
-            var15 = _closure1_slot0;
-            var13 = _closure1_slot1;
-            var13 = var13[var4];
-            var13 = var15.bind(var11)(var13);
-            var13 = var13.ClipSignalTypes;
-            var13 = var13.MANUAL;
-            if(!(var13 !== var14)) { _fun0006_ip = 49; continue _fun0006 }
+            if(var2) { _fun0006_ip = 49; continue _fun0006 }
 case 50:
-            var15 = _closure1_slot0;
-            var13 = _closure1_slot1;
-            var13 = var13[var4];
-            var13 = var15.bind(var11)(var13);
-            var13 = var13.ClipSignalTypes;
-            var13 = var13.DISTRIBUTED;
-            if(!(var13 !== var14)) { _fun0006_ip = 51; continue _fun0006 }
+            var2 = var3.value;
+            var14 = var2.signal;
+            var15 = var14.type;
+            var16 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var14 = var14[var4];
+            var14 = var16.bind(var12)(var14);
+            var14 = var14.ClipSignalTypes;
+            var14 = var14.MANUAL;
+            if(!(var14 !== var15)) { _fun0006_ip = 51; continue _fun0006 }
 case 52:
-            var15 = _closure1_slot0;
-            var13 = _closure1_slot1;
-            var13 = var13[var4];
-            var13 = var15.bind(var11)(var13);
-            var13 = var13.ClipSignalTypes;
-            var13 = var13.LAUGHTER;
-            if(!(var13 !== var14)) { _fun0006_ip = 53; continue _fun0006 }
-case 19:
-            var15 = _closure1_slot0;
-            var13 = _closure1_slot1;
-            var13 = var13[var4];
-            var13 = var15.bind(var11)(var13);
-            var13 = var13.ClipSignalTypes;
-            var13 = var13.GAME_EVENT;
-            if(!(var13 === var14)) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
-            var13 = var1.push;
+            var16 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var14 = var14[var4];
+            var14 = var16.bind(var12)(var14);
+            var14 = var14.ClipSignalTypes;
+            var14 = var14.DISTRIBUTED;
+            if(!(var14 !== var15)) { _fun0006_ip = 27; continue _fun0006 }
+case 14:
+            var16 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var14 = var14[var4];
+            var14 = var16.bind(var12)(var14);
+            var14 = var14.ClipSignalTypes;
+            var14 = var14.LAUGHTER;
+            if(!(var14 !== var15)) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
+            var16 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var14 = var14[var4];
+            var14 = var16.bind(var12)(var14);
+            var14 = var14.ClipSignalTypes;
+            var14 = var14.YELLING;
+            if(!(var14 !== var15)) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
+            var16 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var14 = var14[var4];
+            var14 = var16.bind(var12)(var14);
+            var14 = var14.ClipSignalTypes;
+            var14 = var14.GAME_EVENT;
+            if(!(var14 === var15)) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
+            var14 = var1.push;
             var2 = var2.signal;
-            var14 = var2.eventType;
+            var15 = var2.eventType;
             var2 = var6.HermesInternal;
             var2 = var2.concat;
-            var2 = var2.bind(var5)(var14);
-            var2 = var13.bind(var1)(var2);
-            _fun0006_ip = 54; continue _fun0006;
-case 53:
+            var2 = var2.bind(var5)(var15);
+            var2 = var14.bind(var1)(var2);
+            _fun0006_ip = 57; continue _fun0006;
+case 55:
             var2 = var1.push;
             var2 = var2.bind(var1)(var7);
-            _fun0006_ip = 54; continue _fun0006;
-case 51:
+            _fun0006_ip = 57; continue _fun0006;
+case 53:
             var2 = var1.push;
             var2 = var2.bind(var1)(var8);
-            _fun0006_ip = 54; continue _fun0006;
-case 49:
+            _fun0006_ip = 57; continue _fun0006;
+case 27:
             var2 = var1.push;
             var2 = var2.bind(var1)(var9);
-case 54:
-            var13 = var10.bind(var11)();
-            var2 = var13.done;
-            var3 = var13;
-            if(!var2) { _fun0006_ip = 48; continue _fun0006 }
-case 47:
+            _fun0006_ip = 57; continue _fun0006;
+case 51:
+            var2 = var1.push;
+            var2 = var2.bind(var1)(var10);
+case 57:
+            var14 = var11.bind(var12)();
+            var2 = var14.done;
+            var3 = var14;
+            if(!var2) { _fun0006_ip = 50; continue _fun0006 }
+case 49:
             return var1;
         }
     };
@@ -419,8 +440,8 @@ case 0:
             var5 = null;
             var1 = var5 != var9;
             var3 = null;
-            if(!var1) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
+            if(!var1) { _fun0007_ip = 59; continue _fun0007 }
+case 60:
             var7 = _closure1_slot4;
             var4 = var7.getRTCConnection;
             var10 = _closure1_slot0;
@@ -432,7 +453,7 @@ case 57:
             var1 = var8.encodeStreamKey;
             var1 = var1.bind(var8)(var9);
             var3 = var4.bind(var7)(var1);
-case 56:
+case 59:
             var1 = {};
             var7 = _closure1_slot9;
             var4 = undefined;
@@ -446,28 +467,28 @@ case 56:
             var6 = copyDataProperties(var12, var11);
             var6 = var5 == var3;
             var7 = undefined;
-            if(var6) { _fun0007_ip = 58; continue _fun0007 }
-case 59:
+            if(var6) { _fun0007_ip = 61; continue _fun0007 }
+case 62:
             var6 = var3.getRTCConnectionId;
             var7 = var6.bind(var3)();
-case 58:
+case 61:
             var6 = 'rtc_connection_id';
             var1[5] = var7;
             var6 = var5 == var3;
             var7 = undefined;
-            if(var6) { _fun0007_ip = 60; continue _fun0007 }
+            if(var6) { _fun0007_ip = 63; continue _fun0007 }
 case 15:
             var6 = var3.getMediaSessionId;
             var7 = var6.bind(var3)();
-case 60:
+case 63:
             var6 = 'media_session_id';
             var1[5] = var7;
             var5 = var5 == var3;
             var4 = undefined;
-            if(var5) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
+            if(var5) { _fun0007_ip = 64; continue _fun0007 }
+case 65:
             var4 = var3.parentMediaSessionId;
-case 61:
+case 64:
             var3 = 'parent_media_session_id';
             var1[2] = var4;
             var4 = var2.guildId;
@@ -511,7 +532,7 @@ case 0:
             for(var1 in var9)
 case 4:
             {
-case 63:
+case 66:
                 var15 = var1;
                 var13 = var2.framesEncodedByEncoder;
                 var16 = var13[var15];
@@ -525,16 +546,16 @@ case 63:
                 var14 = var13.bind(var8)(var15);
                 var17 = var6 != var14;
                 var13 = 0;
-                if(!var17) { _fun0008_ip = 64; continue _fun0008 }
-case 65:
+                if(!var17) { _fun0008_ip = 52; continue _fun0008 }
+case 67:
                 var13 = var14;
-case 64:
+case 52:
                 var14 = var8.set;
                 var13 = var13 + var16;
                 var13 = var14.bind(var8)(var15, var13);
                 _fun0008_ip = 4; continue _fun0008;
             }
-case 66:
+case 68:
             var1 = {};
             var18 = arg1;
             var19 = var1;
@@ -549,10 +570,10 @@ case 66:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 67; continue _fun0008 }
-case 68:
+            if(!var9) { _fun0008_ip = 69; continue _fun0008 }
+case 70:
             var7 = var4;
-case 67:
+case 69:
             var4 = 'frames_encoded_nvidia_cuda';
             var1[3] = var7;
             var7 = var8.get;
@@ -565,10 +586,10 @@ case 67:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 69; continue _fun0008 }
-case 70:
+            if(!var9) { _fun0008_ip = 71; continue _fun0008 }
+case 72:
             var7 = var4;
-case 69:
+case 71:
             var4 = 'frames_encoded_nvidia_direct3d';
             var1[3] = var7;
             var7 = var8.get;
@@ -581,10 +602,10 @@ case 69:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 71; continue _fun0008 }
-case 72:
+            if(!var9) { _fun0008_ip = 73; continue _fun0008 }
+case 74:
             var7 = var4;
-case 71:
+case 73:
             var4 = 'frames_encoded_openh264';
             var1[3] = var7;
             var7 = var8.get;
@@ -597,10 +618,10 @@ case 71:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 73; continue _fun0008 }
-case 74:
+            if(!var9) { _fun0008_ip = 75; continue _fun0008 }
+case 76:
             var7 = var4;
-case 73:
+case 75:
             var4 = 'frames_encoded_videotoolbox';
             var1[3] = var7;
             var7 = var8.get;
@@ -613,10 +634,10 @@ case 73:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 75; continue _fun0008 }
-case 76:
+            if(!var9) { _fun0008_ip = 77; continue _fun0008 }
+case 78:
             var7 = var4;
-case 75:
+case 77:
             var4 = 'frames_encoded_amd_direct3d';
             var1[3] = var7;
             var7 = var8.get;
@@ -629,10 +650,10 @@ case 75:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 77; continue _fun0008 }
-case 78:
+            if(!var9) { _fun0008_ip = 79; continue _fun0008 }
+case 80:
             var7 = var4;
-case 77:
+case 79:
             var4 = 'frames_encoded_amd_vaapi';
             var1[3] = var7;
             var7 = var8.get;
@@ -645,10 +666,10 @@ case 77:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 79; continue _fun0008 }
-case 80:
+            if(!var9) { _fun0008_ip = 81; continue _fun0008 }
+case 82:
             var7 = var4;
-case 79:
+case 81:
             var4 = 'frames_encoded_intel';
             var1[3] = var7;
             var7 = var8.get;
@@ -661,10 +682,10 @@ case 79:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 81; continue _fun0008 }
-case 82:
+            if(!var9) { _fun0008_ip = 83; continue _fun0008 }
+case 84:
             var7 = var4;
-case 81:
+case 83:
             var4 = 'frames_encoded_intel_direct3d';
             var1[3] = var7;
             var7 = var8.get;
@@ -677,10 +698,10 @@ case 81:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 83; continue _fun0008 }
-case 84:
+            if(!var9) { _fun0008_ip = 85; continue _fun0008 }
+case 86:
             var7 = var4;
-case 83:
+case 85:
             var4 = 'frames_encoded_wmf_direct3d_intel';
             var1[3] = var7;
             var7 = var8.get;
@@ -693,10 +714,10 @@ case 83:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 85; continue _fun0008 }
-case 86:
+            if(!var9) { _fun0008_ip = 87; continue _fun0008 }
+case 88:
             var7 = var4;
-case 85:
+case 87:
             var4 = 'frames_encoded_wmf_direct3d_nvidia';
             var1[3] = var7;
             var7 = var8.get;
@@ -709,10 +730,10 @@ case 85:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 87; continue _fun0008 }
-case 88:
+            if(!var9) { _fun0008_ip = 89; continue _fun0008 }
+case 90:
             var7 = var4;
-case 87:
+case 89:
             var4 = 'frames_encoded_wmf_direct3d_amd';
             var1[3] = var7;
             var7 = var8.get;
@@ -725,10 +746,10 @@ case 87:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 89; continue _fun0008 }
-case 90:
+            if(!var9) { _fun0008_ip = 91; continue _fun0008 }
+case 92:
             var7 = var4;
-case 89:
+case 91:
             var9 = var8.get;
             var12 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -736,21 +757,6 @@ case 89:
             var4 = var12.bind(var10)(var4);
             var4 = var4.Encoders;
             var4 = var4.WMF_DIRECT_3D_INTEL;
-            var9 = var9.bind(var8)(var4);
-            var12 = var6 != var9;
-            var4 = 0;
-            if(!var12) { _fun0008_ip = 91; continue _fun0008 }
-case 92:
-            var4 = var9;
-case 91:
-            var7 = var7 + var4;
-            var9 = var8.get;
-            var12 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var4 = var4[var11];
-            var4 = var12.bind(var10)(var4);
-            var4 = var4.Encoders;
-            var4 = var4.WMF_DIRECT_3D_NVIDIA;
             var9 = var9.bind(var8)(var4);
             var12 = var6 != var9;
             var4 = 0;
@@ -765,7 +771,7 @@ case 93:
             var4 = var4[var11];
             var4 = var12.bind(var10)(var4);
             var4 = var4.Encoders;
-            var4 = var4.WMF_DIRECT_3D_AMD;
+            var4 = var4.WMF_DIRECT_3D_NVIDIA;
             var9 = var9.bind(var8)(var4);
             var12 = var6 != var9;
             var4 = 0;
@@ -773,6 +779,21 @@ case 93:
 case 96:
             var4 = var9;
 case 95:
+            var7 = var7 + var4;
+            var9 = var8.get;
+            var12 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var11];
+            var4 = var12.bind(var10)(var4);
+            var4 = var4.Encoders;
+            var4 = var4.WMF_DIRECT_3D_AMD;
+            var9 = var9.bind(var8)(var4);
+            var12 = var6 != var9;
+            var4 = 0;
+            if(!var12) { _fun0008_ip = 97; continue _fun0008 }
+case 98:
+            var4 = var9;
+case 97:
             var7 = var7 + var4;
             var4 = 'frames_encoded_wmf_direct3d';
             var1[3] = var7;
@@ -786,10 +807,10 @@ case 95:
             var4 = var7.bind(var8)(var4);
             var9 = var6 != var4;
             var7 = 0;
-            if(!var9) { _fun0008_ip = 97; continue _fun0008 }
-case 98:
+            if(!var9) { _fun0008_ip = 99; continue _fun0008 }
+case 100:
             var7 = var4;
-case 97:
+case 99:
             var4 = 'frames_encoded_uncategorized';
             var1[3] = var7;
             var7 = var8.get;
@@ -802,10 +823,10 @@ case 97:
             var4 = var7.bind(var8)(var4);
             var6 = var6 != var4;
             var5 = 0;
-            if(!var6) { _fun0008_ip = 99; continue _fun0008 }
-case 100:
+            if(!var6) { _fun0008_ip = 101; continue _fun0008 }
+case 102:
             var5 = var4;
-case 99:
+case 101:
             var4 = 'frames_encoded_unknown';
             var1[3] = var5;
             var5 = var2.framesSubmitted;

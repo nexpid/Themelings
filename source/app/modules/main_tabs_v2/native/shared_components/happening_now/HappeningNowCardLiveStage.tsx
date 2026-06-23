@@ -598,7 +598,7 @@ case 0:
             var6 = var2.panelVariant;
             var5 = undefined;
             if(!(var6 === var5)) { _fun0003_ip = 53; continue _fun0003 }
-case 54:
+case 25:
             var6 = false;
 case 53:
             var _closure2_slot1 = var5;
@@ -675,8 +675,8 @@ case 53:
             var1 = var1.bind(var3)(var4);
             var9 = var1.stream;
             var17 = null;
-            if(!(var17 == var9)) { _fun0003_ip = 55; continue _fun0003 }
-case 56:
+            if(!(var17 == var9)) { _fun0003_ip = 54; continue _fun0003 }
+case 55:
             var4 = _closure1_slot8;
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -686,10 +686,10 @@ case 56:
             var1 = {};
             var1['onPress'] = var12;
             var12 = 'large';
-            if(!var8) { _fun0003_ip = 57; continue _fun0003 }
-case 58:
-            var12 = 'full';
+            if(!var8) { _fun0003_ip = 56; continue _fun0003 }
 case 57:
+            var12 = 'full';
+case 56:
             var1['width'] = var12;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -708,18 +708,18 @@ case 57:
             var18 = _closure1_slot4;
             var15 = {};
             var25 = 0;
-            if(!(var25 !== var27)) { _fun0003_ip = 59; continue _fun0003 }
-case 60:
-            var20 = var21.stagePreviewBackground;
-            _fun0003_ip = 61; continue _fun0003;
+            if(!(var25 !== var27)) { _fun0003_ip = 58; continue _fun0003 }
 case 59:
+            var20 = var21.stagePreviewBackground;
+            _fun0003_ip = 21; continue _fun0003;
+case 58:
             var20 = var21.stagePreviewBackgroundNoAudience;
-case 61:
+case 21:
             var15['style'] = var20;
             var20 = var26.length;
             var20 = var20 > var25;
-            if(!var20) { _fun0003_ip = 62; continue _fun0003 }
-case 63:
+            if(!var20) { _fun0003_ip = 60; continue _fun0003 }
+case 61:
             var28 = _closure1_slot7;
             var30 = _closure1_slot0;
             var31 = _closure1_slot2;
@@ -740,15 +740,15 @@ case 63:
             var29 = var29.REFRESH_MEDIUM_32;
             var22['size'] = var29;
             var20 = var28.bind(var5)(var23, var22);
-case 62:
+case 60:
             var15['children'] = var20;
             var18 = var19.bind(var5)(var18, var15);
             var15 = new Array(2);
             var15[0] = var18;
             var18 = var27 > var25;
             var17 = null;
-            if(!var18) { _fun0003_ip = 64; continue _fun0003 }
-case 65:
+            if(!var18) { _fun0003_ip = 62; continue _fun0003 }
+case 63:
             var20 = _closure1_slot7;
             var19 = _closure1_slot4;
             var18 = {};
@@ -769,10 +769,10 @@ case 65:
             var26 = var26.length;
             var26 = var26 > var25;
             var25 = 0;
-            if(!var26) { _fun0003_ip = 66; continue _fun0003 }
-case 67:
+            if(!var26) { _fun0003_ip = 64; continue _fun0003 }
+case 65:
             var25 = 1;
-case 66:
+case 64:
             var24 = var24 - var25;
             var21['userCount'] = var24;
             var24 = true;
@@ -788,7 +788,7 @@ case 66:
             var21 = var23.bind(var5)(var22, var21);
             var18['children'] = var21;
             var17 = var20.bind(var5)(var19, var18);
-case 64:
+case 62:
             var15[1] = var17;
             var12['children'] = var15;
             var13 = var14.bind(var5)(var13, var12);
@@ -801,17 +801,17 @@ case 64:
             var13['renderingContext'] = var7;
             var17 = 'guild';
             var16 = undefined;
-            if(!(var17 === var7)) { _fun0003_ip = 68; continue _fun0003 }
-case 69:
+            if(!(var17 === var7)) { _fun0003_ip = 66; continue _fun0003 }
+case 67:
             var16 = var10;
-case 68:
+case 66:
             var13['guildId'] = var16;
             var13 = var15.bind(var5)(var14, var13);
             var12[1] = var13;
             var1['children'] = var12;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 70; continue _fun0003;
-case 55:
+            _fun0003_ip = 68; continue _fun0003;
+case 54:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -828,7 +828,7 @@ case 55:
             var2['renderingContext'] = var7;
             var2['panelVariant'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 70:
+case 68:
             return var1;
         }
     };

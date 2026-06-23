@@ -237,6 +237,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['Deeplink'] = var4;
     var4 = 'dm_header_activity';
     var5['DmHeaderActivity'] = var4;
+    var4 = 'quick_switcher';
+    var5['QuickSwitcher'] = var4;
     var4 = {};
     var10 = 'full_profile';
     var4['FullProfile'] = var10;

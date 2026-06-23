@@ -2739,20 +2739,20 @@ case 251:
                     var14 = 'image/jpeg';
                     var10 = 'jpg';
                     var8 = var14;
-                    if(!(var10 !== var12)) { _fun0025_ip = 252; continue _fun0025 }
-case 279:
+                    if(!(var10 !== var12)) { _fun0025_ip = 279; continue _fun0025 }
+case 280:
                     var10 = 'jpeg';
                     var8 = var14;
-                    if(!(var10 !== var12)) { _fun0025_ip = 252; continue _fun0025 }
-case 280:
+                    if(!(var10 !== var12)) { _fun0025_ip = 279; continue _fun0025 }
+case 281:
                     var10 = var4.file;
                     var8 = var10.type;
-case 252:
+case 279:
                     var10 = var2.uploadAnalytics;
                     var10['convertedMimeType'] = var8;
                     var21 = var4.fileSize;
-                    if(!(var9 == var21)) { _fun0025_ip = 281; continue _fun0025 }
-case 282:
+                    if(!(var9 == var21)) { _fun0025_ip = 282; continue _fun0025 }
+case 283:
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var10 = 29;
@@ -2760,22 +2760,22 @@ case 282:
                     var12 = var12.bind(var13)(var10);
                     var10 = var12.getFileData;
                     var10 = var10.bind(var12)(var7);
-                    SaveGenerator(address=1314);
-case 283:
-                    return var10;
+                    SaveGenerator(address=1312);
 case 284:
-                    ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
-                    if(var12) { _fun0025_ip = 285; continue _fun0025 }
-case 286:
-                    var21 = var10.size;
-                    _fun0025_ip = 281; continue _fun0025;
-case 285:
                     return var10;
-case 281:
+case 285:
+                    ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
+                    if(var12) { _fun0025_ip = 286; continue _fun0025 }
+case 287:
+                    var21 = var10.size;
+                    _fun0025_ip = 282; continue _fun0025;
+case 286:
+                    return var10;
+case 282:
                     var2['postCompressionSize'] = var21;
                     var2['currentSize'] = var21;
-                    if(!(var9 != var21)) { _fun0025_ip = 287; continue _fun0025 }
-case 288:
+                    if(!(var9 != var21)) { _fun0025_ip = 288; continue _fun0025 }
+case 224:
                     var12 = _closure1_slot18;
                     var10 = var12.log;
                     var26 = var2.mimeType;
@@ -2808,7 +2808,7 @@ case 288:
                     var2['item'] = var8;
                     var2['reactNativeFilePrepped'] = var5;
                     return var2;
-case 287:
+case 288:
                     var10 = _closure1_slot18;
                     var9 = var10.error;
                     var13 = var2.id;

@@ -617,7 +617,7 @@ case 40:
             var4 = 7;
             var4 = var7[var4];
             var4 = var6.bind(var1)(var4);
-            var4 = var4.JumpTypes;
+            var4 = var4.JumpType;
             var4 = var4.ANIMATED;
             var3['jumpType'] = var4;
             var6 = null;
@@ -2502,7 +2502,7 @@ case 177:
                         var6 = var6[var5];
                         var5 = undefined;
                         var5 = var7.bind(var5)(var6);
-                        var5 = var5.JumpTypes;
+                        var5 = var5.JumpType;
                         var5 = var5.ANIMATED;
                         _fun0030_ip = 144; continue _fun0030;
 case 27:
@@ -3282,7 +3282,7 @@ case 253:
                 var17 = 7;
                 var17 = var20[var17];
                 var17 = var19.bind(var15)(var17);
-                var17 = var17.JumpTypes;
+                var17 = var17.JumpType;
                 var16 = var17.ANIMATED;
 case 252:
                 var1['jumpType'] = var16;

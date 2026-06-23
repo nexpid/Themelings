@@ -336,7 +336,7 @@ case 0:
                 var3 = arg1;
                 var1 = null;
                 if(!(var1 != var3)) { _fun0007_ip = 17; continue _fun0007 }
-case 18:
+case 14:
                 var2 = _closure1_slot7;
                 var6 = var2[var3];
                 var3 = global;
@@ -344,10 +344,10 @@ case 18:
                 var4 = var5.values;
                 var7 = var1 == var6;
                 var2 = undefined;
-                if(var7) { _fun0007_ip = 11; continue _fun0007 }
+                if(var7) { _fun0007_ip = 18; continue _fun0007 }
 case 19:
                 var2 = var6.catalog;
-case 11:
+case 18:
                 if(!(var1 == var2)) { _fun0007_ip = 20; continue _fun0007 }
 case 21:
                 var2 = {};
@@ -357,7 +357,7 @@ case 20:
                 var7 = 0;
                 var2 = null;
                 if(!(var7 !== var4)) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
+case 5:
                 var5 = var3.Math;
                 var4 = var5.min;
                 var6 = var8.map;
@@ -393,7 +393,7 @@ case 0:
                 var3 = null;
                 var1 = var3 != var4;
                 if(!var1) { _fun0008_ip = 9; continue _fun0008 }
-case 18:
+case 23:
                 var2 = _closure1_slot7;
                 var2 = var2[var4];
                 var4 = var3 == var2;
@@ -420,7 +420,7 @@ case 0:
                 var3 = null;
                 var1 = var3 != var4;
                 if(!var1) { _fun0009_ip = 26; continue _fun0009 }
-case 18:
+case 23:
                 var2 = _closure1_slot7;
                 var2 = var2[var4];
                 var4 = var3 == var2;

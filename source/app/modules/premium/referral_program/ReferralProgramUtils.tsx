@@ -355,7 +355,7 @@ case 17:
             var4 = null;
             var4 = var4 != var8;
             if(!var4) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+case 4:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var5 = 4;
@@ -373,20 +373,20 @@ case 21:
 case 20:
             var2 = var4;
 case 19:
-            if(!var1) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
-            var1 = var2;
+            if(!var1) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
-            if(!var1) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+            var1 = var2;
+case 21:
+            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var2 = null;
             var1 = var2 != var3;
-case 24:
-            if(!var1) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+case 23:
+            if(!var1) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var2 = 0;
             var1 = var3 > var2;
-case 26:
+case 25:
             return var1;
         }
     };

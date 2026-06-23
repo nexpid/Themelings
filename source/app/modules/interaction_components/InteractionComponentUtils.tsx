@@ -1225,6 +1225,8 @@ case 166:
             var6['minValues'] = var7;
             var7 = var2.max_values;
             var6['maxValues'] = var7;
+            var7 = var2.file_types;
+            var6['fileTypes'] = var7;
             return var6;
 case 138:
             var7 = var2.component;
@@ -2378,6 +2380,149 @@ case 222: // catch_target0
         }
     };
     var3['deserializeComponentUploadId'] = var4;
+    var4 = function getFileUploadComponentSubtitle(arg1, arg2, arg3, arg4) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+case 0:
+            var10 = arg1;
+            var7 = arg2;
+            var9 = arg3;
+            var8 = arg4;
+            var1 = null;
+            if(!(var1 == var9)) { _fun0020_ip = 247; continue _fun0020 }
+case 248:
+            var1 = 1;
+            if(!(!(var10 > var1))) { _fun0020_ip = 249; continue _fun0020 }
+case 34:
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 3;
+            var3 = var6[var1];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var4 = var3.intl;
+            var3 = var4.format;
+            var1 = var6[var1];
+            var1 = var5.bind(var2)(var1);
+            var1 = var1.t;
+            var2 = var1.tyxwW1;
+            var1 = {};
+            var1['maxValues'] = var7;
+            var1['maxSize'] = var8;
+            var1 = var3.bind(var4)(var2, var1);
+            _fun0020_ip = 250; continue _fun0020;
+case 249:
+            if(!(var10 !== var7)) { _fun0020_ip = 251; continue _fun0020 }
+case 85:
+            var6 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 3;
+            var4 = var11[var2];
+            var3 = undefined;
+            var4 = var6.bind(var3)(var4);
+            var5 = var4.intl;
+            var4 = var5.format;
+            var2 = var11[var2];
+            var2 = var6.bind(var3)(var2);
+            var2 = var2.t;
+            var3 = var2.ZG+3Ck;
+            var2 = {};
+            var2['minValues'] = var10;
+            var2['maxValues'] = var7;
+            var2['maxSize'] = var8;
+            var2 = var4.bind(var5)(var3, var2);
+            _fun0020_ip = 252; continue _fun0020;
+case 251:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var3 = 3;
+            var5 = var12[var3];
+            var4 = undefined;
+            var5 = var11.bind(var4)(var5);
+            var6 = var5.intl;
+            var5 = var6.format;
+            var3 = var12[var3];
+            var3 = var11.bind(var4)(var3);
+            var3 = var3.t;
+            var4 = var3.SAr31z;
+            var3 = {};
+            var3['minValues'] = var10;
+            var3['maxSize'] = var8;
+            var2 = var5.bind(var6)(var4, var3);
+case 252:
+            var1 = var2;
+case 250:
+            _fun0020_ip = 253; continue _fun0020;
+case 247:
+            var2 = 1;
+            if(!(!(var10 > var2))) { _fun0020_ip = 228; continue _fun0020 }
+case 254:
+            var6 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 3;
+            var4 = var11[var2];
+            var3 = undefined;
+            var4 = var6.bind(var3)(var4);
+            var5 = var4.intl;
+            var4 = var5.format;
+            var2 = var11[var2];
+            var2 = var6.bind(var3)(var2);
+            var2 = var2.t;
+            var3 = var2.QLrHJG;
+            var2 = {};
+            var2['maxValues'] = var7;
+            var2['types'] = var9;
+            var2['maxSize'] = var8;
+            var2 = var4.bind(var5)(var3, var2);
+            _fun0020_ip = 255; continue _fun0020;
+case 228:
+            if(!(var10 !== var7)) { _fun0020_ip = 256; continue _fun0020 }
+case 257:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var3 = 3;
+            var5 = var12[var3];
+            var4 = undefined;
+            var5 = var11.bind(var4)(var5);
+            var6 = var5.intl;
+            var5 = var6.format;
+            var3 = var12[var3];
+            var3 = var11.bind(var4)(var3);
+            var3 = var3.t;
+            var4 = var3["05AyNA"];
+            var3 = {};
+            var3['minValues'] = var10;
+            var3['maxValues'] = var7;
+            var3['types'] = var9;
+            var3['maxSize'] = var8;
+            var3 = var5.bind(var6)(var4, var3);
+            _fun0020_ip = 258; continue _fun0020;
+case 256:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var4 = 3;
+            var6 = var12[var4];
+            var5 = undefined;
+            var6 = var11.bind(var5)(var6);
+            var7 = var6.intl;
+            var6 = var7.format;
+            var4 = var12[var4];
+            var4 = var11.bind(var5)(var4);
+            var4 = var4.t;
+            var5 = var4.Xp4xMV;
+            var4 = {};
+            var4['minValues'] = var10;
+            var4['types'] = var9;
+            var4['maxSize'] = var8;
+            var3 = var6.bind(var7)(var5, var4);
+case 258:
+            var2 = var3;
+case 255:
+            var1 = var2;
+case 253:
+            return var1;
+        }
+    };
+    var3['getFileUploadComponentSubtitle'] = var4;
     var2 = function transformComponents(arg1) {
         var4 = arg1;
         var3 = var4.map;

@@ -106,7 +106,7 @@ case 3:
             var7 = var6.TableRadioGroup;
             var6 = {};
             var12 = var12.deviceId;
-            var6['defaultValue'] = var12;
+            var6['value'] = var12;
             var12 = function onChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:

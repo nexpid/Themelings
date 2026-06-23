@@ -1355,98 +1355,163 @@ case 126:
     var6 = function getMentionIconType(arg1) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
-            var5 = arg1;
+            var7 = arg1;
             var1 = null;
-            if(!(var1 != var5)) { _fun0018_ip = 141; continue _fun0018 }
+            if(!(var1 != var7)) { _fun0018_ip = 141; continue _fun0018 }
 case 142:
-            var1 = var5.isMediaChannel;
-            var4 = var1.bind(var5)();
-            var3 = var5.type;
+            var1 = var7.isNSFW;
+            var4 = var1.bind(var7)();
+            var1 = var7.isSpoilerChannel;
+            var5 = var1.bind(var7)();
+            var1 = var7.isMediaChannel;
+            var3 = var1.bind(var7)();
+            var6 = var7.type;
             var1 = _closure1_slot12;
             var1 = var1.GUILD_VOICE;
-            if(!(var3 !== var1)) { _fun0018_ip = 143; continue _fun0018 }
-case 131:
-            var3 = var5.type;
+            if(!(var6 !== var1)) { _fun0018_ip = 143; continue _fun0018 }
+case 30:
+            var6 = var7.type;
             var1 = _closure1_slot12;
             var1 = var1.GUILD_STAGE_VOICE;
-            if(!(var3 !== var1)) { _fun0018_ip = 144; continue _fun0018 }
+            if(!(var6 !== var1)) { _fun0018_ip = 95; continue _fun0018 }
+case 135:
+            var8 = _closure1_slot6;
+            var6 = var8.has;
+            var1 = var7.type;
+            var1 = var6.bind(var8)(var1);
+            if(var1) { _fun0018_ip = 144; continue _fun0018 }
 case 145:
-            var6 = _closure1_slot6;
-            var3 = var6.has;
-            var1 = var5.type;
-            var1 = var3.bind(var6)(var1);
-            if(var1) { _fun0018_ip = 146; continue _fun0018 }
-case 147:
-            var3 = var5.type;
+            var6 = var7.type;
             var1 = _closure1_slot12;
             var1 = var1.GUILD_FORUM;
-            if(!(var3 !== var1)) { _fun0018_ip = 148; continue _fun0018 }
-case 13:
-            var6 = var5.type;
+            if(!(var6 !== var1)) { _fun0018_ip = 105; continue _fun0018 }
+case 63:
+            var6 = var7.type;
             var1 = _closure1_slot12;
-            var3 = var1.GUILD_MEDIA;
-            var1 = 'media';
-            if(!(var6 !== var3)) { _fun0018_ip = 149; continue _fun0018 }
-case 58:
-            var7 = _closure1_slot5;
-            var6 = var7.has;
-            var3 = var5.type;
-            var6 = var6.bind(var7)(var3);
-            var3 = undefined;
-            if(!var6) { _fun0018_ip = 124; continue _fun0018 }
-case 150:
-            var3 = 'text';
-case 124:
-            var1 = var3;
+            var1 = var1.GUILD_MEDIA;
+            if(!(var6 !== var1)) { _fun0018_ip = 146; continue _fun0018 }
+case 147:
+            var6 = var7.type;
+            var1 = _closure1_slot12;
+            var1 = var1.GUILD_ANNOUNCEMENT;
+            if(!(var6 !== var1)) { _fun0018_ip = 148; continue _fun0018 }
 case 149:
-            _fun0018_ip = 73; continue _fun0018;
-case 148:
-            var3 = 'forum';
-            if(!var4) { _fun0018_ip = 16; continue _fun0018 }
-case 125:
-            var3 = 'media';
-case 16:
-            var1 = var3;
-case 73:
-            _fun0018_ip = 151; continue _fun0018;
-case 146:
-            var3 = var5.isForumPost;
-            var4 = var3.bind(var5)();
-            var3 = 'thread';
-            if(!var4) { _fun0018_ip = 22; continue _fun0018 }
-case 152:
-            var3 = 'post';
-case 22:
-            var1 = var3;
+            var8 = _closure1_slot5;
+            var6 = var8.has;
+            var1 = var7.type;
+            var6 = var6.bind(var8)(var1);
+            var1 = undefined;
+            if(!var6) { _fun0018_ip = 150; continue _fun0018 }
 case 151:
-            _fun0018_ip = 107; continue _fun0018;
+            var6 = 'text-nsfw';
+            if(var4) { _fun0018_ip = 152; continue _fun0018 }
+case 153:
+            var8 = 'text';
+            if(!var5) { _fun0018_ip = 154; continue _fun0018 }
+case 155:
+            var8 = 'text-spoiler';
+case 154:
+            var6 = var8;
+case 152:
+            var1 = var6;
+case 150:
+            _fun0018_ip = 156; continue _fun0018;
+case 148:
+            var6 = 'announcement-nsfw';
+            if(var4) { _fun0018_ip = 157; continue _fun0018 }
+case 158:
+            var8 = 'announcement';
+            if(!var5) { _fun0018_ip = 159; continue _fun0018 }
+case 160:
+            var8 = 'announcement-spoiler';
+case 159:
+            var6 = var8;
+case 157:
+            var1 = var6;
+case 156:
+            _fun0018_ip = 67; continue _fun0018;
+case 146:
+            var6 = 'media';
+            if(!var4) { _fun0018_ip = 161; continue _fun0018 }
+case 24:
+            var6 = 'media-nsfw';
+case 161:
+            var1 = var6;
+case 67:
+            _fun0018_ip = 84; continue _fun0018;
+case 105:
+            if(var3) { _fun0018_ip = 85; continue _fun0018 }
+case 162:
+            var3 = 'forum-nsfw';
+            if(var4) { _fun0018_ip = 163; continue _fun0018 }
+case 164:
+            var6 = 'forum';
+            if(!var5) { _fun0018_ip = 165; continue _fun0018 }
+case 166:
+            var6 = 'forum-spoiler';
+case 165:
+            var3 = var6;
+case 163:
+            _fun0018_ip = 90; continue _fun0018;
+case 85:
+            var6 = 'media';
+            if(!var4) { _fun0018_ip = 167; continue _fun0018 }
+case 168:
+            var6 = 'media-nsfw';
+case 167:
+            var3 = var6;
+case 90:
+            var1 = var3;
+case 84:
+            _fun0018_ip = 169; continue _fun0018;
 case 144:
-            var6 = _closure1_slot9;
-            var4 = var6.can;
+            var3 = var7.isForumPost;
+            var6 = var3.bind(var7)();
+            var3 = 'thread';
+            if(!var6) { _fun0018_ip = 170; continue _fun0018 }
+case 171:
+            var3 = 'post';
+case 170:
+            var1 = var3;
+case 169:
+            _fun0018_ip = 172; continue _fun0018;
+case 95:
+            var8 = _closure1_slot9;
+            var6 = var8.can;
             var3 = _closure1_slot13;
             var3 = var3.CONNECT;
-            var4 = var4.bind(var6)(var3, var5);
+            var6 = var6.bind(var8)(var3, var7);
             var3 = 'stage-locked';
-            if(!var4) { _fun0018_ip = 18; continue _fun0018 }
-case 153:
+            if(!var6) { _fun0018_ip = 173; continue _fun0018 }
+case 174:
             var3 = 'stage';
-case 18:
+case 173:
             var1 = var3;
-case 107:
-            _fun0018_ip = 126; continue _fun0018;
+case 172:
+            _fun0018_ip = 175; continue _fun0018;
 case 143:
-            var4 = _closure1_slot9;
-            var3 = var4.can;
+            var6 = _closure1_slot9;
+            var3 = var6.can;
             var2 = _closure1_slot13;
             var2 = var2.CONNECT;
-            var3 = var3.bind(var4)(var2, var5);
+            var3 = var3.bind(var6)(var2, var7);
             var2 = 'voice-locked';
-            if(!var3) { _fun0018_ip = 154; continue _fun0018 }
-case 25:
-            var2 = 'voice';
-case 154:
+            if(!var3) { _fun0018_ip = 176; continue _fun0018 }
+case 177:
+            var3 = 'voice-nsfw';
+            if(var4) { _fun0018_ip = 178; continue _fun0018 }
+case 179:
+            var4 = 'voice';
+            if(!var5) { _fun0018_ip = 180; continue _fun0018 }
+case 181:
+            var4 = 'voice-spoiler';
+case 180:
+            var3 = var4;
+case 178:
+            var2 = var3;
+case 176:
             var1 = var2;
-case 126:
+case 175:
             return var1;
 case 141:
             var1 = 'text';
@@ -1474,19 +1539,19 @@ case 38:
             var6 = var2.type;
             var5 = _closure1_slot12;
             var5 = var5.GUILD_TEXT;
-            if(!(var6 !== var5)) { _fun0019_ip = 155; continue _fun0019 }
+            if(!(var6 !== var5)) { _fun0019_ip = 182; continue _fun0019 }
 case 101:
             var6 = _closure1_slot8;
             var5 = var6.getDefaultChannel;
             var5 = var5.bind(var6)(var4);
             var6 = var3 != var5;
             var3 = null;
-            if(!var6) { _fun0019_ip = 156; continue _fun0019 }
-case 157:
+            if(!var6) { _fun0019_ip = 183; continue _fun0019 }
+case 184:
             var3 = var5.id;
-case 156:
+case 183:
             _fun0019_ip = 102; continue _fun0019;
-case 155:
+case 182:
             var3 = var2.id;
 case 102:
             var2 = _closure1_slot18;
@@ -1519,13 +1584,13 @@ case 0:
 case 115:
             if(var5) { _fun0020_ip = 72; continue _fun0020 }
 case 70:
-            if(!(var4 == var1)) { _fun0020_ip = 158; continue _fun0020 }
-case 145:
+            if(!(var4 == var1)) { _fun0020_ip = 185; continue _fun0020 }
+case 186:
             var9 = _closure1_slot29;
             var5 = var2.id;
             var4 = arg3;
             var1 = var9.bind(var6)(var7, var5, var4);
-case 158:
+case 185:
             _fun0020_ip = 138; continue _fun0020;
 case 72:
             var5 = _closure1_slot30;
@@ -1552,43 +1617,43 @@ case 138:
 case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var1 != var2)) { _fun0021_ip = 159; continue _fun0021 }
-case 160:
+            if(!(var1 != var2)) { _fun0021_ip = 187; continue _fun0021 }
+case 188:
             var4 = var2.type;
             var3 = _closure1_slot12;
             var3 = var3.GUILD_ANNOUNCEMENT;
-            if(!(var3 !== var4)) { _fun0021_ip = 161; continue _fun0021 }
-case 162:
+            if(!(var3 !== var4)) { _fun0021_ip = 189; continue _fun0021 }
+case 190:
             var3 = _closure1_slot12;
             var3 = var3.GUILD_TEXT;
-            if(!(var3 !== var4)) { _fun0021_ip = 161; continue _fun0021 }
+            if(!(var3 !== var4)) { _fun0021_ip = 189; continue _fun0021 }
 case 61:
             var3 = _closure1_slot12;
             var3 = var3.GUILD_FORUM;
-            if(!(var3 !== var4)) { _fun0021_ip = 161; continue _fun0021 }
-case 163:
+            if(!(var3 !== var4)) { _fun0021_ip = 189; continue _fun0021 }
+case 191:
             var3 = _closure1_slot12;
             var3 = var3.GUILD_MEDIA;
-            if(!(var3 !== var4)) { _fun0021_ip = 161; continue _fun0021 }
+            if(!(var3 !== var4)) { _fun0021_ip = 189; continue _fun0021 }
 case 101:
             var3 = _closure1_slot12;
             var3 = var3.GROUP_DM;
-            if(!(var3 !== var4)) { _fun0021_ip = 164; continue _fun0021 }
+            if(!(var3 !== var4)) { _fun0021_ip = 192; continue _fun0021 }
 case 51:
             var3 = _closure1_slot12;
             var3 = var3.DM;
-            if(!(var3 !== var4)) { _fun0021_ip = 164; continue _fun0021 }
+            if(!(var3 !== var4)) { _fun0021_ip = 192; continue _fun0021 }
 case 39:
             return var1;
-case 164:
+case 192:
             var3 = _closure1_slot19;
             var3 = var3.DM_CHANNEL;
             return var3;
-case 161:
+case 189:
             var2 = _closure1_slot19;
             var2 = var2.GUILD_CHANNEL;
             return var2;
-case 159:
+case 187:
             return var1;
         }
     };

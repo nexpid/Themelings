@@ -1783,7 +1783,7 @@ case 122:
                         var3 = undefined;
                         var1 = var9.bind(var3)(var1);
                         var2 = var1.TableRow;
-                        var1 = {'start': null, 'end': true, 'label': null, 'labelLineClamp': 1, 'icon': null, 'arrow': true};
+                        var1 = {'start': null, 'end': true, 'height': '100%', 'label': null, 'labelLineClamp': 1, 'icon': null, 'arrow': true};
                         var7 = _closure2_slot23;
                         var7 = !var7;
                         var1['start'] = var7;
@@ -1828,7 +1828,7 @@ case 124:
                         var3 = undefined;
                         var1 = var7.bind(var3)(var1);
                         var2 = var1.TableRow;
-                        var1 = {'start': true, 'label': null, 'labelLineClamp': 1};
+                        var1 = {'start': true, 'height': '100%', 'label': null, 'labelLineClamp': 1};
                         var9 = 16;
                         var10 = var8[var9];
                         var10 = var7.bind(var3)(var10);

@@ -1429,7 +1429,7 @@ case 80:
                 var10 = var5[var8];
                 var5 = undefined;
                 var10 = var11.bind(var5)(var10);
-                var10 = var10.JumpTypes;
+                var10 = var10.JumpType;
                 var10 = var10.INSTANT;
                 var3['jumpType'] = var10;
                 var10 = var7.focusTargetId;
@@ -1459,7 +1459,7 @@ case 84:
                     var5 = var5[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
-                    var5 = var5.JumpTypes;
+                    var5 = var5.JumpType;
                     var5 = var5.INSTANT;
                     var2['jumpType'] = var5;
                     var4 = _closure2_slot2;
@@ -1481,7 +1481,7 @@ case 82:
                 var6 = _closure1_slot2;
                 var6 = var6[var8];
                 var6 = var7.bind(var5)(var6);
-                var6 = var6.JumpTypes;
+                var6 = var6.JumpType;
                 var6 = var6.INSTANT;
                 var3['jumpType'] = var6;
                 var6 = _closure2_slot2;

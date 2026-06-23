@@ -1208,7 +1208,7 @@ case 30:
                         var7 = 21;
                         var7 = var9[var7];
                         var7 = var8.bind(var1)(var7);
-                        var7 = var7.JumpTypes;
+                        var7 = var7.JumpType;
                         var7 = var7.INSTANT;
                         var2['jumpType'] = var7;
                         var2 = var5.bind(var6)(var4, var3, var2);

@@ -5904,8 +5904,17 @@ case 173:
         _fun0062: for(var _fun0062_ip = 0; ; ) switch(_fun0062_ip) {
 case 0:
             var3 = arg1;
+            var4 = arguments[1];
             var _closure2_slot0 = var3;
-            var1 = function getSortPriority(arg1) {
+            var6 = undefined;
+            if(!(var4 === var6)) { _fun0062_ip = 212; continue _fun0062 }
+case 157:
+            var4 = _closure1_slot46;
+case 212:
+            var _closure2_slot1 = var6;
+            var _closure2_slot2 = var6;
+            var _closure2_slot3 = var6;
+            var2 = function getSortPriority(arg1) {
                 _fun0063: for(var _fun0063_ip = 0; ; ) switch(_fun0063_ip) {
 case 0:
                     var4 = arg1;
@@ -6011,84 +6020,83 @@ case 462:
                     return var1;
                 }
             };
-            var _closure2_slot4 = var1;
-            var5 = _closure1_slot10;
-            var4 = var5.getRunningVerifiedApplicationIds;
-            var9 = var4.bind(var5)();
-            var _closure2_slot1 = var9;
-            var4 = var3.includes;
-            var8 = '_';
-            var4 = var4.bind(var3)(var8);
-            var _closure2_slot2 = var4;
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot3;
-            var4 = 38;
-            var4 = var6[var4];
-            var6 = undefined;
-            var7 = var5.bind(var6)(var4);
-            var5 = var7.stripDiacritics;
-            var4 = var3.toLowerCase;
-            var4 = var4.bind(var3)();
-            var7 = var5.bind(var7)(var4);
-            var5 = var7.replaceAll;
-            var4 = ' ';
-            var4 = var5.bind(var7)(var8, var4);
-            var _closure2_slot3 = var4;
-            var3 = var3.length;
-            var4 = 0;
-            if(!(var4 !== var3)) { _fun0062_ip = 465; continue _fun0062 }
-case 172:
-            var3 = _closure1_slot26;
-            var5 = var3.games;
-            _fun0062_ip = 453; continue _fun0062;
+            var _closure2_slot4 = var2;
+            var7 = _closure1_slot10;
+            var5 = var7.getRunningVerifiedApplicationIds;
+            var10 = var5.bind(var7)();
+            _closure2_slot1 = var10;
+            var5 = var3.includes;
+            var9 = '_';
+            var5 = var5.bind(var3)(var9);
+            _closure2_slot2 = var5;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot3;
+            var5 = 38;
+            var5 = var8[var5];
+            var8 = var7.bind(var6)(var5);
+            var7 = var8.stripDiacritics;
+            var5 = var3.toLowerCase;
+            var5 = var5.bind(var3)();
+            var8 = var7.bind(var8)(var5);
+            var7 = var8.replaceAll;
+            var5 = ' ';
+            var5 = var7.bind(var8)(var9, var5);
+            _closure2_slot3 = var5;
+            var5 = var3.length;
+            var3 = 0;
+            if(!(var3 !== var5)) { _fun0062_ip = 465; continue _fun0062 }
+case 466:
+            var5 = _closure1_slot26;
+            var5 = var5.games;
+            _fun0062_ip = 467; continue _fun0062;
 case 465:
-            var3 = global;
-            var8 = var3.Array;
-            var7 = var8.from;
-            var10 = var3.Set;
-            var3 = new Array(0);
-            var15 = var3;
-            var14 = var9;
-            var13 = 0;
-            var13 = arraySpread(var15, var14, var13);
-            var12 = _closure1_slot49;
-            var9 = var12.keys;
-            var14 = var9.bind(var12)();
-            var15 = var3;
-            var9 = arraySpread(var15, var14, var13);
-            var9 = var10.prototype;
-            var9 = Object.create(var9, {constructor: {value: var10}});
-            var16 = var9;
-            var15 = var3;
-            var3 = new var16[var10](var15, var14);
-            var3 = var3 instanceof Object ? var3 : var9;
-            var8 = var7.bind(var8)(var3);
-            var7 = var8.map;
-            var3 = function(arg1) {
+            var7 = global;
+            var9 = var7.Array;
+            var8 = var9.from;
+            var11 = var7.Set;
+            var7 = new Array(0);
+            var16 = var7;
+            var15 = var10;
+            var14 = 0;
+            var14 = arraySpread(var16, var15, var14);
+            var13 = _closure1_slot49;
+            var10 = var13.keys;
+            var15 = var10.bind(var13)();
+            var16 = var7;
+            var10 = arraySpread(var16, var15, var14);
+            var10 = var11.prototype;
+            var10 = Object.create(var10, {constructor: {value: var11}});
+            var17 = var10;
+            var16 = var7;
+            var7 = new var17[var11](var16, var15);
+            var7 = var7 instanceof Object ? var7 : var10;
+            var9 = var8.bind(var9)(var7);
+            var8 = var9.map;
+            var7 = function(arg1) {
                 var3 = _closure1_slot26;
                 var2 = var3.getDetectableGame;
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var8 = var7.bind(var8)(var3);
-            var7 = var8.filter;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot3;
-            var3 = 44;
-            var3 = var10[var3];
-            var3 = var9.bind(var6)(var3);
-            var3 = var3.isNotNullish;
-            var5 = var7.bind(var8)(var3);
-case 453:
+            var9 = var8.bind(var9)(var7);
+            var8 = var9.filter;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot3;
+            var7 = 44;
+            var7 = var11[var7];
+            var7 = var10.bind(var6)(var7);
+            var7 = var7.isNotNullish;
+            var5 = var8.bind(var9)(var7);
+case 467:
             var7 = _closure1_slot1;
             var8 = _closure1_slot3;
-            var3 = 42;
-            var3 = var8[var3];
-            var3 = var7.bind(var6)(var3);
-            var6 = var3.bind(var6)(var5);
+            var2 = 42;
+            var2 = var8[var2];
+            var2 = var7.bind(var6)(var2);
+            var6 = var2.bind(var6)(var5);
             var5 = var6.filter;
-            var3 = function(arg1) {
+            var2 = function(arg1) {
                 _fun0064: for(var _fun0064_ip = 0; ; ) switch(_fun0064_ip) {
 case 0:
                     var4 = arg1;
@@ -6114,9 +6122,9 @@ case 44:
                     return var1;
                 }
             };
-            var6 = var5.bind(var6)(var3);
+            var6 = var5.bind(var6)(var2);
             var5 = var6.map;
-            var3 = function(arg1) {
+            var2 = function(arg1) {
                 var4 = arg1;
                 var1 = {};
                 var1['game'] = var4;
@@ -6126,37 +6134,36 @@ case 44:
                 var1['score'] = var2;
                 return var1;
             };
-            var6 = var5.bind(var6)(var3);
+            var6 = var5.bind(var6)(var2);
             var5 = var6.filter;
-            var3 = function(arg1) {
+            var2 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.score;
                 var1 = 0;
                 var1 = var2 > var1;
                 return var1;
             };
-            var6 = var5.bind(var6)(var3);
+            var6 = var5.bind(var6)(var2);
             var5 = var6.sortBy;
-            var3 = function(arg1) {
+            var2 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.score;
                 return var1;
             };
-            var5 = var5.bind(var6)(var3);
-            var3 = var5.map;
-            var2 = function(arg1) {
+            var5 = var5.bind(var6)(var2);
+            var2 = var5.map;
+            var1 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.game;
                 return var1;
             };
-            var3 = var3.bind(var5)(var2);
-            var2 = var3.reverse;
-            var3 = var2.bind(var3)();
-            var2 = var3.value;
-            var3 = var2.bind(var3)();
-            var2 = var3.slice;
-            var1 = _closure1_slot46;
-            var1 = var2.bind(var3)(var4, var1);
+            var2 = var2.bind(var5)(var1);
+            var1 = var2.reverse;
+            var2 = var1.bind(var2)();
+            var1 = var2.value;
+            var2 = var1.bind(var2)();
+            var1 = var2.slice;
+            var1 = var1.bind(var2)(var3, var4);
             return var1;
         }
     };
@@ -6170,7 +6177,7 @@ case 0:
             var1 = var2.bind(var3)(var1);
             var1 = !var1;
             if(!var1) { _fun0065_ip = 38; continue _fun0065 }
-case 466:
+case 468:
             var3 = arg1;
             var2 = arg3;
             var1 = var3 === var2;
@@ -6212,8 +6219,8 @@ case 162:
             var3 = var2.bind(var4)(var1);
             var2 = var3.bind(var4)();
             var1 = var2.done;
-            if(var1) { _fun0066_ip = 467; continue _fun0066 }
-case 468:
+            if(var1) { _fun0066_ip = 469; continue _fun0066 }
+case 470:
             var1 = var2.value;
             var8 = var1.name;
             var7 = var5.username;
@@ -6226,13 +6233,13 @@ case 45:
             var6 = var3.bind(var4)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0066_ip = 467; continue _fun0066 }
-case 469:
-            _fun0066_ip = 468; continue _fun0066;
+            if(var1) { _fun0066_ip = 469; continue _fun0066 }
+case 466:
+            _fun0066_ip = 470; continue _fun0066;
 case 14:
             var1 = true;
             return var1;
-case 467:
+case 469:
             var1 = false;
             return var1;
         }
@@ -6248,6 +6255,37 @@ case 467:
     var3['default'] = var7;
     var3['WHITESPACE_REGEX'] = var6;
     var3['calculateScore'] = var5;
+    var5 = function getGameProfileMatchTier(arg1, arg2, arg3) {
+        _fun0067: for(var _fun0067_ip = 0; ; ) switch(_fun0067_ip) {
+case 0:
+            var2 = arg1;
+            var3 = arg2;
+            var1 = var2.toLocaleLowerCase;
+            var2 = var1.bind(var2)();
+            if(!(var2 !== var3)) { _fun0067_ip = 155; continue _fun0067 }
+case 29:
+            var1 = var2.startsWith;
+            var2 = var1.bind(var2)(var3);
+            var3 = 7;
+            var1 = var3;
+            if(var2) { _fun0067_ip = 218; continue _fun0067 }
+case 196:
+            var2 = global;
+            var5 = var2.Math;
+            var4 = var5.max;
+            var2 = arg3;
+            var3 = var3 - var2;
+            var2 = 1;
+            var1 = var4.bind(var5)(var2, var3);
+case 218:
+            _fun0067_ip = 220; continue _fun0067;
+case 155:
+            var1 = _closure1_slot51;
+case 220:
+            return var1;
+        }
+    };
+    var3['getGameProfileMatchTier'] = var5;
     var4 = function getBoosterMap(arg1) {
         var3 = _closure1_slot59;
         var2 = var3.get;

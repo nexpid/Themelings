@@ -780,7 +780,7 @@ case 52:
             var13 = var14.bind(var4)(var13);
             var14 = var13.Button;
             var13 = {};
-            var17 = 'experimental_premium-secondary';
+            var17 = 'primary-overlay';
             var13['variant'] = var17;
             var17 = _closure1_slot7;
             var17 = var17.TIER_0;

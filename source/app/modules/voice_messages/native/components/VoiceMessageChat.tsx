@@ -3,11 +3,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
         var5 = require;
-        var16 = metroImportDefault;
+        var18 = metroImportDefault;
         var3 = exports;
         var6 = dependencyMap;
         var _closure1_slot0 = var5;
-        var _closure1_slot1 = var16;
+        var _closure1_slot1 = var18;
         var _closure1_slot2 = var6;
         var1 = function WaveformBar(arg1) {
             var1 = arg1;
@@ -540,7 +540,7 @@ case 19:
                 var3 = var8[var5];
                 var7 = var2.bind(var4)(var3);
                 var3 = var7.useAnimatedStyle;
-                var1 = function G() {
+                var1 = function U() {
                     var1 = {};
                     var3 = _closure2_slot0;
                     var2 = var3.get;
@@ -638,7 +638,7 @@ case 26:
         var11 = 0;
         var4 = var6[var11];
         var1 = undefined;
-        var4 = var16.bind(var1)(var4);
+        var4 = var18.bind(var1)(var4);
         var _closure1_slot3 = var4;
         var10 = 1;
         var7 = var6[var10];
@@ -653,7 +653,7 @@ case 26:
         var _closure1_slot5 = var4;
         var4 = 3;
         var4 = var6[var4];
-        var4 = var16.bind(var1)(var4);
+        var4 = var18.bind(var1)(var4);
         var _closure1_slot6 = var4;
         var4 = 4;
         var4 = var6[var4];
@@ -687,7 +687,7 @@ case 26:
         var _closure1_slot15 = var4;
         var4 = 8;
         var4 = var6[var4];
-        var8 = var16.bind(var1)(var4);
+        var8 = var18.bind(var1)(var4);
         var4 = var8.createAnimatedComponent;
         var4 = var4.bind(var8)(var12);
         var _closure1_slot16 = var4;
@@ -696,10 +696,17 @@ case 26:
         var12 = var5.bind(var1)(var4);
         var8 = var12.createStyles;
         var4 = {};
-        var13 = {'height': '100%', 'flexDirection': 'row', 'alignItems': 'center', 'padding': 12};
-        var15 = 10;
-        var14 = var6[var15];
-        var14 = var16.bind(var1)(var14);
+        var13 = {'height': '100%', 'flexDirection': 'row', 'alignItems': 'center', 'paddingVertical': null, 'paddingHorizontal': 12};
+        var15 = 'center';
+        var17 = 10;
+        var14 = var6[var17];
+        var14 = var18.bind(var1)(var14);
+        var14 = var14.modules;
+        var14 = var14.mobile;
+        var14 = var14.VOICE_MESSAGE_RECORDING_CONTAINER_PADDING_VERTICAL;
+        var13['paddingVertical'] = var14;
+        var14 = var6[var17];
+        var14 = var18.bind(var1)(var14);
         var14 = var14.radii;
         var14 = var14.xxl;
         var13['borderRadius'] = var14;
@@ -707,8 +714,8 @@ case 26:
         var13 = {'position': 'absolute', 'left': 12};
         var4['loading'] = var13;
         var13 = {'height': 6, 'width': 6, 'backgroundColor': null, 'marginHorizontal': 4, 'borderRadius': 6};
-        var14 = var6[var15];
-        var14 = var16.bind(var1)(var14);
+        var14 = var6[var17];
+        var14 = var18.bind(var1)(var14);
         var14 = var14.unsafe_rawColors;
         var14 = var14.RED_400;
         var13['backgroundColor'] = var14;
@@ -720,8 +727,8 @@ case 26:
         var13 = {'flex': 1, 'height': '100%', 'overflow': 'hidden', 'justifyContent': 'flex-end', 'flexDirection': 'row', 'alignItems': 'center', 'marginLeft': 8};
         var4['waveformContainer'] = var13;
         var13 = {};
-        var14 = var6[var15];
-        var14 = var16.bind(var1)(var14);
+        var14 = var6[var17];
+        var14 = var18.bind(var1)(var14);
         var14 = var14.colors;
         var14 = var14.WHITE;
         var13['backgroundColor'] = var14;
@@ -731,22 +738,32 @@ case 26:
         var4['durationContainer'] = var13;
         var13 = {};
         var14 = 11;
-        var14 = var6[var14];
-        var17 = var5.bind(var1)(var14);
-        var14 = var17.isAndroid;
-        var14 = var14.bind(var17)();
-        var15 = var6[var15];
-        var15 = var16.bind(var1)(var15);
-        var15 = var15.modules;
-        var15 = var15.mobile;
-        if(var14) { _fun0001_ip = 28; continue _fun0001 }
+        var16 = var6[var14];
+        var19 = var5.bind(var1)(var16);
+        var16 = var19.isAndroid;
+        var16 = var16.bind(var19)();
+        var17 = var6[var17];
+        var17 = var18.bind(var1)(var17);
+        var17 = var17.modules;
+        var17 = var17.mobile;
+        if(var16) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
-        var14 = var15.VOICE_MESSAGE_DURATION_LINE_HEIGHT_IOS;
+        var16 = var17.VOICE_MESSAGE_DURATION_LINE_HEIGHT_IOS;
         _fun0001_ip = 30; continue _fun0001;
 case 28:
-        var14 = var15.VOICE_MESSAGE_DURATION_LINE_HEIGHT_ANDROID;
+        var16 = var17.VOICE_MESSAGE_DURATION_LINE_HEIGHT_ANDROID;
 case 30:
-        var13['lineHeight'] = var14;
+        var13['lineHeight'] = var16;
+        var14 = var6[var14];
+        var16 = var5.bind(var1)(var14);
+        var14 = var16.isAndroid;
+        var16 = var14.bind(var16)();
+        var14 = undefined;
+        if(!var16) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
+        var14 = var15;
+case 31:
+        var13['textAlignVertical'] = var14;
         var4['duration'] = var13;
         var4 = var8.bind(var12)(var4);
         var _closure1_slot17 = var4;
@@ -818,8 +835,8 @@ case 0:
 case 0:
                         var3 = _closure2_slot0;
                         var1 = undefined;
-                        if(var3) { _fun0009_ip = 31; continue _fun0009 }
-case 32:
+                        if(var3) { _fun0009_ip = 33; continue _fun0009 }
+case 34:
                         var3 = global;
                         var5 = var3.setTimeout;
                         var4 = function() {
@@ -858,7 +875,7 @@ case 32:
                             return var1;
                         };
                         return var2;
-case 31:
+case 33:
                         return var1;
                     }
                 };
@@ -880,7 +897,7 @@ case 0:
                         var1 = 1;
                         var1 = var1 === var3;
                         if(!var1) { _fun0010_ip = 16; continue _fun0010 }
-case 33:
+case 35:
                         var1 = _closure2_slot0;
 case 16:
                         return var1;
@@ -899,13 +916,13 @@ case 16:
 case 0:
                         var3 = arg1;
                         var1 = var3;
-                        if(!var1) { _fun0011_ip = 34; continue _fun0011 }
-case 35:
-                        var2 = arg2;
-                        var1 = var3 !== var2;
-case 34:
                         if(!var1) { _fun0011_ip = 36; continue _fun0011 }
 case 37:
+                        var2 = arg2;
+                        var1 = var3 !== var2;
+case 36:
+                        if(!var1) { _fun0011_ip = 38; continue _fun0011 }
+case 39:
                         var4 = _closure2_slot4;
                         var3 = var4.set;
                         var9 = _closure1_slot0;
@@ -931,7 +948,7 @@ case 37:
                         var2 = var3.set;
                         var1 = 0;
                         var1 = var2.bind(var3)(var1);
-case 36:
+case 38:
                         var1 = undefined;
                         return var1;
                     }
@@ -1015,8 +1032,8 @@ case 36:
                 var7[1] = var8;
                 var1['style'] = var7;
                 var7 = null;
-                if(var5) { _fun0008_ip = 38; continue _fun0008 }
-case 39:
+                if(var5) { _fun0008_ip = 40; continue _fun0008 }
+case 41:
                 var9 = _closure1_slot14;
                 var8 = _closure1_slot16;
                 var5 = {};
@@ -1036,7 +1053,7 @@ case 39:
                 var11 = 'small';
                 var5['size'] = var11;
                 var7 = var9.bind(var4)(var8, var5);
-case 38:
+case 40:
                 var5 = new Array(3);
                 var5[0] = var7;
                 var9 = _closure1_slot14;

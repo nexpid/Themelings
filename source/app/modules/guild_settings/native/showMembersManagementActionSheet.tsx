@@ -6,9 +6,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
-    var1 = metroImportAll;
-    var _closure1_slot2 = var1;
-    var _closure1_slot3 = var6;
+    var _closure1_slot2 = var6;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -21,13 +19,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var1];
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.Permissions;
-    var _closure1_slot5 = var4;
-    var4 = 9;
+    var _closure1_slot3 = var4;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -37,40 +30,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.guild;
-            var _closure2_slot0 = var8;
+            var9 = var1.guild;
+            var _closure2_slot0 = var9;
+            var3 = var1.canPrune;
             var2 = var1.selectedRoleId;
             var _closure2_slot1 = var2;
             var1 = var1.onFilterRoleId;
             var _closure2_slot2 = var1;
-            var3 = {};
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot3;
-            var11 = 2;
-            var4 = var10[var11];
+            var4 = {};
+            var10 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var11 = 1;
+            var7 = var5[var11];
             var1 = undefined;
-            var4 = var9.bind(var1)(var4);
-            var7 = var4.intl;
-            var5 = var7.string;
-            var4 = var10[var11];
-            var4 = var9.bind(var1)(var4);
-            var4 = var4.t;
-            var4 = var4.pEasFX;
-            var4 = var5.bind(var7)(var4);
-            var3['label'] = var4;
-            var4 = function onPress() {
+            var7 = var10.bind(var1)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var5 = var5[var11];
+            var5 = var10.bind(var1)(var5);
+            var5 = var5.t;
+            var5 = var5.pEasFX;
+            var5 = var7.bind(var8)(var5);
+            var4['label'] = var5;
+            var5 = function onPress() {
                 var5 = _closure1_slot1;
-                var2 = _closure1_slot3;
-                var1 = 3;
+                var2 = _closure1_slot2;
+                var1 = 2;
                 var4 = var2[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.openLazy;
                 var4 = _closure1_slot0;
-                var3 = 5;
+                var3 = 4;
                 var3 = var2[var3];
                 var4 = var4.bind(var1)(var3);
-                var3 = 4;
+                var3 = 3;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var4 = var4.bind(var1)(var3, var2);
@@ -85,27 +79,29 @@ case 0:
                 var2 = var5.bind(var6)(var4, var2, var3);
                 return var1;
             };
-            var3['onPress'] = var4;
+            var4['onPress'] = var5;
             var5 = new Array(1);
-            var5[0] = var3;
-            var7 = _closure1_slot4;
-            var4 = var7.can;
-            var9 = _closure1_slot2;
-            var3 = 6;
-            var3 = var10[var3];
-            var12 = var9.bind(var1)(var3);
-            var10 = var12.combine;
-            var3 = _closure1_slot5;
-            var9 = var3.MANAGE_GUILD;
-            var3 = var3.KICK_MEMBERS;
-            var3 = var10.bind(var12)(var9, var3);
-            var3 = var4.bind(var7)(var3, var8);
-            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+            var5[0] = var4;
+            var4 = null;
+            if(!(var4 == var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var4 = 5;
+            var4 = var8[var4];
+            var8 = var7.bind(var1)(var4);
+            var7 = var8.canPruneGuildMembers;
+            var10 = _closure1_slot3;
+            var4 = var10.getCurrentUser;
+            var4 = var4.bind(var10)();
+            var3 = var7.bind(var8)(var9, var4);
+case 2:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var5.push;
             var3 = {};
             var10 = _closure1_slot0;
-            var7 = _closure1_slot3;
+            var7 = _closure1_slot2;
             var8 = var7[var11];
             var8 = var10.bind(var1)(var8);
             var9 = var8.intl;
@@ -118,17 +114,17 @@ case 3:
             var3['label'] = var7;
             var6 = function onPress() {
                 var5 = _closure1_slot1;
-                var2 = _closure1_slot3;
-                var1 = 3;
+                var2 = _closure1_slot2;
+                var1 = 2;
                 var4 = var2[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.openLazy;
                 var4 = _closure1_slot0;
-                var3 = 5;
+                var3 = 4;
                 var3 = var2[var3];
                 var4 = var4.bind(var1)(var3);
-                var3 = 7;
+                var3 = 6;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var4 = var4.bind(var1)(var3, var2);
@@ -143,10 +139,10 @@ case 3:
             var6 = true;
             var3['isDestructive'] = var6;
             var3 = var4.bind(var5)(var3);
-case 2:
+case 4:
             var3 = _closure1_slot0;
-            var4 = _closure1_slot3;
-            var2 = 8;
+            var4 = _closure1_slot2;
+            var2 = 7;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.showSimpleActionSheet;
@@ -161,40 +157,41 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var7 = var1.guild;
-            var _closure2_slot0 = var7;
-            var2 = var1.selectedRoleId;
-            var _closure2_slot1 = var2;
+            var8 = var1.guild;
+            var _closure2_slot0 = var8;
+            var2 = var1.canPrune;
+            var3 = var1.selectedRoleId;
+            var _closure2_slot1 = var3;
             var1 = var1.onFilterRoleId;
             var _closure2_slot2 = var1;
-            var2 = {};
-            var8 = _closure1_slot0;
-            var11 = _closure1_slot3;
-            var10 = 2;
-            var1 = var11[var10];
+            var3 = {};
+            var11 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var10 = 1;
+            var6 = var1[var10];
             var9 = undefined;
-            var1 = var8.bind(var9)(var1);
-            var6 = var1.intl;
-            var3 = var6.string;
-            var1 = var11[var10];
-            var1 = var8.bind(var9)(var1);
+            var6 = var11.bind(var9)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var1 = var1[var10];
+            var1 = var11.bind(var9)(var1);
             var1 = var1.t;
             var1 = var1.pEasFX;
-            var1 = var3.bind(var6)(var1);
-            var2['label'] = var1;
+            var1 = var6.bind(var7)(var1);
+            var3['label'] = var1;
             var1 = function action() {
                 var5 = _closure1_slot1;
-                var2 = _closure1_slot3;
-                var1 = 3;
+                var2 = _closure1_slot2;
+                var1 = 2;
                 var4 = var2[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.openLazy;
                 var4 = _closure1_slot0;
-                var3 = 5;
+                var3 = 4;
                 var3 = var2[var3];
                 var4 = var4.bind(var1)(var3);
-                var3 = 4;
+                var3 = 3;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var4 = var4.bind(var1)(var3, var2);
@@ -209,27 +206,29 @@ case 0:
                 var2 = var5.bind(var6)(var4, var2, var3);
                 return var1;
             };
-            var2['action'] = var1;
+            var3['action'] = var1;
             var1 = new Array(1);
-            var1[0] = var2;
-            var6 = _closure1_slot4;
-            var3 = var6.can;
-            var8 = _closure1_slot2;
-            var2 = 6;
-            var2 = var11[var2];
-            var12 = var8.bind(var9)(var2);
-            var11 = var12.combine;
-            var2 = _closure1_slot5;
-            var8 = var2.MANAGE_GUILD;
-            var2 = var2.KICK_MEMBERS;
-            var2 = var11.bind(var12)(var8, var2);
-            var2 = var3.bind(var6)(var2, var7);
-            if(!var2) { _fun0002_ip = 4; continue _fun0002 }
-case 3:
+            var1[0] = var3;
+            var3 = null;
+            if(!(var3 == var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 5;
+            var3 = var7[var3];
+            var7 = var6.bind(var9)(var3);
+            var6 = var7.canPruneGuildMembers;
+            var11 = _closure1_slot3;
+            var3 = var11.getCurrentUser;
+            var3 = var3.bind(var11)();
+            var2 = var6.bind(var7)(var8, var3);
+case 6:
+            if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = var1.push;
             var2 = {};
             var8 = _closure1_slot0;
-            var5 = _closure1_slot3;
+            var5 = _closure1_slot2;
             var6 = var5[var10];
             var6 = var8.bind(var9)(var6);
             var7 = var6.intl;
@@ -242,17 +241,17 @@ case 3:
             var2['label'] = var5;
             var4 = function action() {
                 var5 = _closure1_slot1;
-                var2 = _closure1_slot3;
-                var1 = 3;
+                var2 = _closure1_slot2;
+                var1 = 2;
                 var4 = var2[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.openLazy;
                 var4 = _closure1_slot0;
-                var3 = 5;
+                var3 = 4;
                 var3 = var2[var3];
                 var4 = var4.bind(var1)(var3);
-                var3 = 7;
+                var3 = 6;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var4 = var4.bind(var1)(var3, var2);
@@ -267,7 +266,7 @@ case 3:
             var4 = 'destructive';
             var2['variant'] = var4;
             var2 = var3.bind(var1)(var2);
-case 4:
+case 8:
             return var1;
         }
     };

@@ -407,7 +407,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.VANITY_URL_POWERUP_ROLLBACK_NOTIFICATION;
-    var15 = new Array(7);
+    var15 = new Array(8);
     var15[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -439,6 +439,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.MOBILE_ACCOUNT_LINKING_BANNER;
     var15[6] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.FILE_UPLOAD_POWERUP_ROLLBACK_NOTIFICATION;
+    var15[7] = var14;
     var _closure1_slot4 = var15;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

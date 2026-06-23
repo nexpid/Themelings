@@ -679,7 +679,7 @@ case 24: // try_start_0
                         var8 = var8.bind(var2)(var3);
                         var3 = var8.canOpenSpotifyUrl;
                         var3 = var3.bind(var8)();
-                        SaveGenerator(address=75);
+                        SaveGenerator(address=76);
 case 25:
                         return var3;
 case 26:
@@ -1269,7 +1269,7 @@ case 75: // try_start_0
                         var3 = _closure2_slot0;
                         var3 = var3.id;
                         var3 = var11.bind(var12)(var10, var3);
-                        SaveGenerator(address=100);
+                        SaveGenerator(address=101);
 case 76:
                         return var3;
 case 77:
@@ -1280,16 +1280,16 @@ case 79:
                         var10 = var3.button_urls;
                         var11 = var10.length;
                         var10 = _closure2_slot2;
-                        if(!(!(var11 <= var10))) { _fun0011_ip = 48; continue _fun0011 }
-case 80:
+                        if(!(!(var11 <= var10))) { _fun0011_ip = 80; continue _fun0011 }
+case 81:
                         var9 = var9.button_urls;
                         var8 = _closure2_slot2;
                         var8 = var9[var8];
                         var6 = var8;
                         var9 = 'string';
                         var8 = typeof var8;
-                        if(!(var9 === var8)) { _fun0011_ip = 81; continue _fun0011 }
-case 82:
+                        if(!(var9 === var8)) { _fun0011_ip = 82; continue _fun0011 }
+case 83:
                         var10 = _closure1_slot1;
                         var9 = _closure1_slot2;
                         var8 = 48;
@@ -1301,23 +1301,23 @@ case 82:
                         var9 = null;
                         var10 = var9 == var6;
                         var6 = undefined;
-                        if(var10) { _fun0011_ip = 83; continue _fun0011 }
-case 84:
+                        if(var10) { _fun0011_ip = 84; continue _fun0011 }
+case 85:
                         var10 = var5;
                         var6 = var10.protocol;
-case 83:
-                        if(!(var9 != var6)) { _fun0011_ip = 85; continue _fun0011 }
-case 86:
+case 84:
+                        if(!(var9 != var6)) { _fun0011_ip = 86; continue _fun0011 }
+case 87:
                         var6 = var5;
                         var10 = var9 == var6;
                         var6 = undefined;
-                        if(var10) { _fun0011_ip = 87; continue _fun0011 }
-case 88:
+                        if(var10) { _fun0011_ip = 88; continue _fun0011 }
+case 89:
                         var10 = var5;
                         var6 = var10.hostname;
-case 87:
-                        if(!(var9 != var6)) { _fun0011_ip = 85; continue _fun0011 }
-case 89:
+case 88:
+                        if(!(var9 != var6)) { _fun0011_ip = 86; continue _fun0011 }
+case 90:
                         var9 = _closure1_slot1;
                         var6 = _closure1_slot2;
                         var8 = var6[var8];
@@ -1348,19 +1348,19 @@ case 89:
                         var7 = false;
                         var4['trusted'] = var7;
                         var4 = var5.bind(var6)(var4);
-case 90: // try_end0
-                        _fun0011_ip = 91; continue _fun0011;
-case 85:
+case 91: // try_end0
+                        _fun0011_ip = 92; continue _fun0011;
+case 86:
                         return var2;
-case 81:
+case 82:
                         return var2;
-case 48:
+case 80:
                         return var2;
 case 78:
                         return var3;
-case 92: // catch_target0
+case 17: // catch_target0
                         CatchBlockStart(arg_register=2);
-case 91:
+case 92:
                         return var2;
 case 73:
                         return var1;

@@ -24,72 +24,106 @@ case 0:
                     var2 = 'text';
                     if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var2 = 'forum';
+                    var2 = 'text-nsfw';
                     if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
 case 6:
-                    var2 = 'media';
+                    var2 = 'text-spoiler';
                     if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
 case 7:
-                    var2 = 'thread';
-                    if(!(var2 !== var5)) { _fun0002_ip = 8; continue _fun0002 }
+                    var2 = 'announcement';
+                    if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 8:
+                    var2 = 'announcement-nsfw';
+                    if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
 case 9:
-                    var2 = 'post';
-                    if(!(var2 !== var5)) { _fun0002_ip = 8; continue _fun0002 }
+                    var2 = 'announcement-spoiler';
+                    if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
 case 10:
-                    var2 = 'message';
-                    if(!(var2 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
+                    var2 = 'forum';
+                    if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 11:
+                    var2 = 'forum-nsfw';
+                    if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
 case 12:
+                    var2 = 'forum-spoiler';
+                    if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 13:
+                    var2 = 'media';
+                    if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 14:
+                    var2 = 'media-nsfw';
+                    if(!(var2 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 15:
+                    var2 = 'thread';
+                    if(!(var2 !== var5)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+                    var2 = 'post';
+                    if(!(var2 !== var5)) { _fun0002_ip = 16; continue _fun0002 }
+case 18:
+                    var2 = 'message';
+                    if(!(var2 !== var5)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
                     var2 = undefined;
                     var3 = 'voice';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                     var3 = 'voice-locked';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 15:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 23:
+                    var3 = 'voice-nsfw';
+                    var8 = undefined;
+                    var7 = undefined;
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 24:
+                    var3 = 'voice-spoiler';
+                    var8 = undefined;
+                    var7 = undefined;
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 25:
                     var3 = 'stage';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 16:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 26:
                     var3 = 'stage-locked';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 17:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 27:
                     var3 = 'locked';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 18:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 28:
                     var3 = 'guide';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 19:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 29:
                     var3 = 'home';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 20:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 30:
                     var3 = 'browse';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 21:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 31:
                     var3 = 'customize';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 22:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 32:
                     var3 = 'linked-roles';
                     var8 = undefined;
                     var7 = undefined;
-                    if(!(var3 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
-case 23:
+                    if(!(var3 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 33:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
                     var3 = 4;
@@ -99,19 +133,19 @@ case 23:
                     var3 = var3.bind(var4)(var5);
                     var8 = undefined;
                     var7 = undefined;
-                    _fun0002_ip = 13; continue _fun0002;
-case 11:
+                    _fun0002_ip = 21; continue _fun0002;
+case 19:
                     var8 = _closure2_slot0;
                     var7 = undefined;
-                    _fun0002_ip = 13; continue _fun0002;
-case 8:
+                    _fun0002_ip = 21; continue _fun0002;
+case 16:
                     var8 = '"';
                     var7 = var8;
-                    _fun0002_ip = 13; continue _fun0002;
+                    _fun0002_ip = 21; continue _fun0002;
 case 4:
                     var8 = '#';
                     var7 = undefined;
-case 13:
+case 21:
                     var5 = _closure1_slot2;
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot1;
@@ -173,8 +207,8 @@ case 0:
             var4 = arg3;
             var2 = var6.inContent;
             var1 = null;
-            if(!(var1 != var2)) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+            if(!(var1 != var2)) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
             var8 = _closure1_slot2;
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
@@ -199,8 +233,8 @@ case 25:
             var2['children'] = var1;
             var1 = var4.key;
             var1 = var8.bind(var7)(var3, var2, var1);
-            _fun0003_ip = 26; continue _fun0003;
-case 24:
+            _fun0003_ip = 36; continue _fun0003;
+case 34:
             var7 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 2;
@@ -209,7 +243,7 @@ case 24:
             var3 = var7.bind(var2)(var3);
             var2 = var3.smartOutput;
             var1 = var2.bind(var3)(var6, var5, var4);
-case 26:
+case 36:
             return var1;
         }
     };

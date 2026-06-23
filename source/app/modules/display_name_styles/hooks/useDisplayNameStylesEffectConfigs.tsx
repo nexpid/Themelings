@@ -114,10 +114,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.DisplayNameEffect;
     var10 = var10.TOON;
     var5[9] = var9;
+    var10 = var7[var8];
+    var10 = var6.bind(var1)(var10);
+    var10 = var10.DisplayNameEffect;
+    var10 = var10.POP;
+    var5[9] = var9;
     var8 = var7[var8];
     var8 = var6.bind(var1)(var8);
     var8 = var8.DisplayNameEffect;
-    var8 = var8.POP;
+    var8 = var8.GUMMY;
     var5[7] = var9;
     var _closure1_slot5 = var5;
     var5 = 6;

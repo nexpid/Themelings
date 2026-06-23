@@ -510,10 +510,10 @@ case 0:
             var2 = {'fontSize': 18, 'textAlign': 'center', 'alignSelf': 'center', 'maxWidth': null, 'marginBottom': 24, 'marginHorizontal': 16};
             var4 = 300;
             var5 = arg1;
-            if(!var5) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
-            var4 = 480;
+            if(!var5) { _fun0003_ip = 11; continue _fun0003 }
 case 21:
+            var4 = 480;
+case 11:
             var2['maxWidth'] = var4;
             var1['subHeader'] = var2;
             var2 = {};
@@ -628,13 +628,13 @@ case 0:
                     var3 = _closure2_slot1;
                     var1 = null;
                     var3 = var1 != var3;
-                    if(!var3) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+                    if(!var3) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                     var4 = _closure1_slot12;
                     var3 = var4.getInvite;
                     var2 = _closure2_slot1;
                     var1 = var3.bind(var4)(var2);
-case 23:
+case 22:
                     return var1;
                 }
             };
@@ -717,13 +717,13 @@ case 0:
                     var2 = var8 != var2;
                     var6 = null;
                     if(!var2) { _fun0006_ip = 11; continue _fun0006 }
-case 25:
+case 24:
                     var2 = _closure2_slot2;
                     var2 = var2.type;
                     var2 = var8 != var2;
                     var6 = null;
                     if(!var2) { _fun0006_ip = 11; continue _fun0006 }
-case 26:
+case 25:
                     var3 = _closure1_slot19;
                     var2 = _closure2_slot2;
                     var2 = var2.type;
@@ -752,39 +752,39 @@ case 11:
                     var6 = _closure2_slot2;
                     var9 = var8 == var6;
                     var6 = undefined;
-                    if(var9) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+                    if(var9) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
                     var9 = _closure2_slot2;
                     var9 = var9.guild;
                     var10 = var8 == var9;
                     var6 = undefined;
-                    if(var10) { _fun0006_ip = 27; continue _fun0006 }
-case 29:
+                    if(var10) { _fun0006_ip = 26; continue _fun0006 }
+case 28:
                     var6 = var9.id;
-case 27:
+case 26:
                     var2['guild_id'] = var6;
                     var6 = _closure2_slot2;
                     var9 = var8 == var6;
                     var6 = undefined;
                     if(var9) { _fun0006_ip = 12; continue _fun0006 }
-case 30:
+case 29:
                     var9 = _closure2_slot2;
                     var9 = var9.channel;
                     var10 = var8 == var9;
                     var6 = undefined;
                     if(var10) { _fun0006_ip = 12; continue _fun0006 }
-case 31:
+case 30:
                     var6 = var9.id;
 case 12:
                     var2['channel_id'] = var6;
                     var6 = _closure2_slot2;
                     var8 = var8 == var6;
                     var6 = undefined;
-                    if(var8) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
+                    if(var8) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
                     var7 = _closure2_slot2;
                     var6 = var7.code;
-case 32:
+case 31:
                     var2['invite_code'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;
@@ -824,10 +824,10 @@ case 32:
                 return var1;
             };
             var5 = var6.bind(var7)(var5);
-            if(!var3) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
-            if(var2) { _fun0004_ip = 36; continue _fun0004 }
+            if(!var3) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
+            if(var2) { _fun0004_ip = 35; continue _fun0004 }
+case 33:
             var5 = _closure1_slot20;
             var3 = _closure1_slot4;
             var2 = {};
@@ -851,8 +851,8 @@ case 34:
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var3 = _closure2_slot3;
-                    if(var3) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
+                    if(var3) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var3 = 34;
@@ -874,8 +874,8 @@ case 38:
                     var3 = _closure1_slot14;
                     var3 = var3.REGISTER_VIEWED;
                     var3 = var4.bind(var5)(var3);
-                    _fun0007_ip = 39; continue _fun0007;
-case 37:
+                    _fun0007_ip = 38; continue _fun0007;
+case 36:
                     var4 = _closure2_slot0;
                     var3 = var4.push;
                     var1 = _closure1_slot16;
@@ -884,7 +884,7 @@ case 37:
                     var5 = true;
                     var1['fromRegister'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 39:
+case 38:
                     var1 = undefined;
                     return var1;
                 }
@@ -977,19 +977,19 @@ case 39:
             var9['invite'] = var15;
             var9['guildTemplate'] = var14;
             var14 = null;
-            if(!var10) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-            var14 = var11;
+            if(!var10) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
+            var14 = var11;
+case 39:
             var9['inlineButtons'] = var14;
             var12 = var13.bind(var4)(var12, var9);
             var9 = new Array(3);
             var9[0] = var12;
             var10 = !var10;
-            if(!var10) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
-            var10 = var11;
+            if(!var10) { _fun0004_ip = 41; continue _fun0004 }
 case 42:
+            var10 = var11;
+case 41:
             var9[1] = var10;
             var12 = _closure1_slot20;
             var11 = _closure1_slot0;
@@ -1008,7 +1008,7 @@ case 42:
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 36:
+case 35:
             var3 = _closure1_slot20;
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;

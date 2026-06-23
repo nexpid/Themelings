@@ -6,6 +6,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var4[var1];
     var1 = undefined;
     var5 = var3.bind(var1)(var5);
+    var5 = 1;
+    var5 = var4[var5];
+    var5 = var3.bind(var1)(var5);
     var5 = global;
     var6 = var5.String;
     var6 = var6.prototype;
@@ -30,7 +33,7 @@ case 2:
         }
     };
     var5['toLocaleLowerCase'] = var2;
-    var2 = 1;
+    var2 = 2;
     var2 = var4[var2];
     var4 = var3.bind(var1)(var2);
     var3 = var4.fileFinishedImporting;

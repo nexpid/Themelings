@@ -630,13 +630,13 @@ case 0:
             var2 = _closure1_slot7;
             var2 = var2[var3];
             var4 = null;
-            if(!(var4 != var2)) { _fun0017_ip = 53; continue _fun0017 }
-case 17:
+            if(!(var4 != var2)) { _fun0017_ip = 51; continue _fun0017 }
+case 28:
             var3 = var2.newMemberActions;
-            if(!(var4 == var3)) { _fun0017_ip = 38; continue _fun0017 }
-case 54:
+            if(!(var4 == var3)) { _fun0017_ip = 15; continue _fun0017 }
+case 29:
             var3 = new Array(0);
-case 38:
+case 15:
             var2['newMemberActions'] = var3;
             var4 = var2.newMemberActions;
             var3 = var4.findIndex;
@@ -651,8 +651,8 @@ case 38:
             var4 = var3.bind(var4)(var1);
             var1 = -1;
             var1 = var1 !== var4;
-            if(!var1) { _fun0017_ip = 55; continue _fun0017 }
-case 21:
+            if(!var1) { _fun0017_ip = 53; continue _fun0017 }
+case 46:
             var3 = var2.newMemberActions;
             var2 = {};
             var7 = var2;
@@ -660,9 +660,9 @@ case 21:
             var5 = copyDataProperties(var7, var6);
             var3[var4] = var2;
             var1 = true;
-case 55:
-            return var1;
 case 53:
+            return var1;
+case 51:
             var1 = false;
             return var1;
         }
@@ -677,7 +677,7 @@ case 0:
             var3 = var1.id;
             var4 = var4[var3];
             var3 = null;
-            if(!(var3 != var4)) { _fun0018_ip = 56; continue _fun0018 }
+            if(!(var3 != var4)) { _fun0018_ip = 54; continue _fun0018 }
 case 47:
             var4 = _closure1_slot7;
             var3 = var1.id;
@@ -687,7 +687,7 @@ case 47:
             var1 = delete var2[var1];
             var1 = undefined;
             return var1;
-case 56:
+case 54:
             var1 = false;
             return var1;
         }

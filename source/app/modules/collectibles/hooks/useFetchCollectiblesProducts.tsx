@@ -77,7 +77,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot8;
+            var9 = _closure1_slot9;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -89,7 +89,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot9;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -148,7 +148,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot8 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,7 +181,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -211,9 +211,14 @@ case 35:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SKUProductLines;
+    var4 = var4.COLLECTIBLES_PRODUCT_FETCH_ERROR_RETRY_THRESHOLD_MS;
     var _closure1_slot6 = var4;
-    var4 = 8;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SKUProductLines;
+    var _closure1_slot7 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -226,7 +231,7 @@ case 35:
         var _closure2_slot1 = var2;
         var10 = _closure1_slot0;
         var11 = _closure1_slot1;
-        var7 = 5;
+        var7 = 6;
         var3 = var11[var7];
         var6 = undefined;
         var12 = var10.bind(var6)(var3);
@@ -303,126 +308,126 @@ case 0:
                 var1 = global;
                 var2 = var1.Date;
                 var1 = var2.now;
-                var17 = var1.bind(var2)();
-                var3 = _closure1_slot7;
+                var16 = var1.bind(var2)();
+                var3 = _closure1_slot8;
                 var2 = _closure2_slot0;
                 var1 = var2.entries;
                 var2 = var1.bind(var2)();
                 var1 = undefined;
-                var14 = var3.bind(var1)(var2);
-                var3 = var14.bind(var1)();
+                var13 = var3.bind(var1)(var2);
+                var3 = var13.bind(var1)();
                 var2 = var3.done;
-                var13 = 7;
-                var12 = 'fetching';
-                var11 = null;
-                var10 = 3600000;
+                var12 = 8;
+                var11 = 'fetching';
+                var10 = null;
                 var9 = 'error';
                 var8 = 0;
-                var7 = 6;
+                var7 = 7;
                 var6 = 2;
                 var5 = 1;
                 var4 = true;
                 if(var2) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-                var18 = var3.value;
+                var17 = var3.value;
                 var2 = _closure1_slot2;
-                var2 = var2.bind(var1)(var18, var6);
-                var19 = var2[var8];
-                var20 = var2[var5];
+                var2 = var2.bind(var1)(var17, var6);
+                var18 = var2[var8];
+                var19 = var2[var5];
                 var2 = _closure2_slot2;
-                var22 = var2[var19];
+                var21 = var2[var18];
                 var2 = _closure2_slot3;
-                var2 = var2[var19];
-                var18 = _closure2_slot4;
-                var21 = var18[var19];
-                var18 = _closure2_slot1;
-                var19 = var4 === var18;
-                if(!var19) { _fun0004_ip = 38; continue _fun0004 }
+                var2 = var2[var18];
+                var17 = _closure2_slot4;
+                var20 = var17[var18];
+                var17 = _closure2_slot1;
+                var18 = var4 === var17;
+                if(!var18) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-                var18 = var11 == var2;
-                var23 = undefined;
-                if(var18) { _fun0004_ip = 40; continue _fun0004 }
+                var17 = var10 == var2;
+                var22 = undefined;
+                if(var17) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
-                var23 = var2.type;
+                var22 = var2.type;
 case 40:
-                var24 = _closure1_slot0;
-                var18 = _closure1_slot1;
-                var18 = var18[var7];
-                var18 = var24.bind(var1)(var18);
-                var18 = var18.CollectiblesItemType;
-                var18 = var18.BUNDLE;
-                var19 = var23 === var18;
+                var23 = _closure1_slot0;
+                var17 = _closure1_slot1;
+                var17 = var17[var7];
+                var17 = var23.bind(var1)(var17);
+                var17 = var17.CollectiblesItemType;
+                var17 = var17.BUNDLE;
+                var18 = var22 === var17;
 case 38:
-                if(!var19) { _fun0004_ip = 42; continue _fun0004 }
+                if(!var18) { _fun0004_ip = 42; continue _fun0004 }
 case 43:
-                var18 = var2.items;
-                var18 = var18.length;
-                var19 = var8 === var18;
+                var17 = var2.items;
+                var17 = var17.length;
+                var18 = var8 === var17;
 case 42:
-                var23 = var11 == var21;
-                var18 = undefined;
-                if(var23) { _fun0004_ip = 44; continue _fun0004 }
+                var22 = var10 == var20;
+                var17 = undefined;
+                if(var22) { _fun0004_ip = 44; continue _fun0004 }
 case 45:
-                var18 = var21.state;
+                var17 = var20.state;
 case 44:
-                var18 = var9 === var18;
-                if(!var18) { _fun0004_ip = 18; continue _fun0004 }
-case 46:
-                var23 = var21.endedAt;
-                var18 = var11 != var23;
-case 18:
-                if(!var18) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
-                var23 = var21.endedAt;
-                var23 = var17 - var23;
-                var18 = var23 < var10;
+                var17 = var9 === var17;
+                if(!var17) { _fun0004_ip = 46; continue _fun0004 }
 case 47:
-                var2 = var11 != var2;
-                if(!var2) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
-                var2 = !var19;
+                var22 = var20.endedAt;
+                var17 = var10 != var22;
+case 46:
+                if(!var17) { _fun0004_ip = 48; continue _fun0004 }
 case 49:
-                if(var2) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
-                var19 = var11 != var22;
-                if(!var19) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
-                var23 = var22.productLine;
+                var22 = var20.endedAt;
+                var23 = var16 - var22;
                 var22 = _closure1_slot6;
-                var22 = var22.COLLECTIBLES;
-                var19 = var23 !== var22;
-case 53:
-                var2 = var19;
+                var17 = var23 < var22;
+case 48:
+                var2 = var10 != var2;
+                if(!var2) { _fun0004_ip = 50; continue _fun0004 }
 case 51:
-                if(var2) { _fun0004_ip = 26; continue _fun0004 }
+                var2 = !var18;
+case 50:
+                if(var2) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
+                var18 = var10 != var21;
+                if(!var18) { _fun0004_ip = 54; continue _fun0004 }
 case 55:
-                var22 = var11 == var21;
-                var19 = undefined;
-                if(var22) { _fun0004_ip = 27; continue _fun0004 }
-case 56:
-                var19 = var21.state;
-case 27:
-                var2 = var12 === var19;
-case 26:
-                if(var2) { _fun0004_ip = 57; continue _fun0004 }
-case 58:
+                var22 = var21.productLine;
+                var21 = _closure1_slot7;
+                var21 = var21.COLLECTIBLES;
+                var18 = var22 !== var21;
+case 54:
                 var2 = var18;
+case 52:
+                if(var2) { _fun0004_ip = 56; continue _fun0004 }
 case 57:
-                if(var2) { _fun0004_ip = 59; continue _fun0004 }
-case 60:
-                var18 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var2 = var2[var13];
-                var19 = var18.bind(var1)(var2);
-                var18 = var19.fetchCollectiblesProduct;
-                var2 = {};
-                var21 = _closure2_slot1;
-                var2['includeBundles'] = var21;
-                var2 = var18.bind(var19)(var20, var2);
+                var21 = var10 == var20;
+                var18 = undefined;
+                if(var21) { _fun0004_ip = 58; continue _fun0004 }
 case 59:
-                var18 = var14.bind(var1)();
-                var2 = var18.done;
-                var3 = var18;
+                var18 = var20.state;
+case 58:
+                var2 = var11 === var18;
+case 56:
+                if(var2) { _fun0004_ip = 60; continue _fun0004 }
+case 61:
+                var2 = var17;
+case 60:
+                if(var2) { _fun0004_ip = 62; continue _fun0004 }
+case 63:
+                var17 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var2 = var2[var12];
+                var18 = var17.bind(var1)(var2);
+                var17 = var18.fetchCollectiblesProduct;
+                var2 = {};
+                var20 = _closure2_slot1;
+                var2['includeBundles'] = var20;
+                var2 = var17.bind(var18)(var19, var2);
+case 62:
+                var17 = var13.bind(var1)();
+                var2 = var17.done;
+                var3 = var17;
                 if(!var2) { _fun0004_ip = 37; continue _fun0004 }
 case 36:
                 return var1;
@@ -440,30 +445,30 @@ case 0:
                 var7 = var5 == var1;
                 var2 = undefined;
                 if(var7) { _fun0005_ip = 3; continue _fun0005 }
-case 61:
+case 64:
                 var2 = var1.state;
 case 3:
                 var1 = 'fetching';
                 var1 = var1 === var2;
-                if(var1) { _fun0005_ip = 62; continue _fun0005 }
-case 63:
+                if(var1) { _fun0005_ip = 65; continue _fun0005 }
+case 66:
                 var2 = arg1;
                 var2 = var5 == var2;
-                if(!var2) { _fun0005_ip = 64; continue _fun0005 }
-case 65:
+                if(!var2) { _fun0005_ip = 67; continue _fun0005 }
+case 68:
                 var3 = _closure2_slot4;
                 var3 = var3[var6];
                 var5 = var5 == var3;
                 var4 = undefined;
-                if(var5) { _fun0005_ip = 66; continue _fun0005 }
-case 67:
+                if(var5) { _fun0005_ip = 69; continue _fun0005 }
+case 70:
                 var4 = var3.state;
-case 66:
+case 69:
                 var3 = 'error';
                 var2 = var3 !== var4;
-case 64:
+case 67:
                 var1 = var2;
-case 62:
+case 65:
                 return var1;
             }
         };

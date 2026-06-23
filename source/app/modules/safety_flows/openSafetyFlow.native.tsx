@@ -73,6 +73,15 @@ case 19:
                     var7 = var7.AGE_VERIFICATION;
                     if(!(var8 !== var7)) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
+                    var8 = var14.task_type;
+                    var9 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var10];
+                    var7 = var9.bind(var3)(var7);
+                    var7 = var7.TaskType;
+                    var7 = var7.PARENTAL_CONSENT_CONNECTION;
+                    if(!(var8 !== var7)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var7 = var7[var10];
@@ -80,24 +89,33 @@ case 21:
                     var8 = var7.TASK_TYPE_TO_SCREENS;
                     var7 = var14.task_type;
                     var7 = var8[var7];
-                    if(!(var4 == var7)) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+                    if(!(var4 == var7)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var7 = var7[var10];
                     var7 = var8.bind(var3)(var7);
                     var7 = var7.SafetyFlowScreens;
                     var7 = var7.UPDATE_APP;
-                    _fun0001_ip = 24; continue _fun0001;
-case 22:
+                    _fun0001_ip = 26; continue _fun0001;
+case 24:
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var8 = var8[var10];
                     var8 = var9.bind(var3)(var8);
                     var8 = var8.SafetyFlowScreens;
                     var7 = var8.OVERVIEW;
-case 24:
-                    _fun0001_ip = 25; continue _fun0001;
+case 26:
+                    _fun0001_ip = 27; continue _fun0001;
+case 22:
+                    var9 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var8 = var8[var10];
+                    var8 = var9.bind(var3)(var8);
+                    var8 = var8.SafetyFlowScreens;
+                    var7 = var8.PARENTAL_CONSENT_CONNECTION;
+case 27:
+                    _fun0001_ip = 28; continue _fun0001;
 case 20:
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -105,7 +123,7 @@ case 20:
                     var8 = var9.bind(var3)(var8);
                     var8 = var8.SafetyFlowScreens;
                     var7 = var8.AGE_VERIFICATION;
-case 25:
+case 28:
                     var9 = _closure1_slot1;
                     var13 = _closure1_slot2;
                     var8 = 5;
@@ -128,13 +146,13 @@ case 25:
                     var7 = var12.bind(var3)(var7);
                     var7 = var7.SAFETY_FLOWS_MODAL_KEY;
                     var7 = var10.bind(var11)(var9, var8, var7);
-case 26: // try_end0
+case 29: // try_end0
                     _fun0001_ip = 12; continue _fun0001;
 case 18:
                     return var3;
 case 16:
                     return var6;
-case 27: // catch_target0
+case 30: // catch_target0
                     CatchBlockStart(arg_register=5);
                     var7 = _closure1_slot1;
                     var10 = _closure1_slot2;

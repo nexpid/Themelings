@@ -276,9 +276,9 @@ case 0:
             var5 = var1.context;
             var10 = null;
             if(!(var10 != var9)) { _fun0004_ip = 18; continue _fun0004 }
-case 11:
-            if(!(var10 != var7)) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
+            if(!(var10 != var7)) { _fun0004_ip = 18; continue _fun0004 }
+case 20:
             var2 = _closure1_slot4;
             var1 = var2.getChannel;
             var11 = var1.bind(var2)(var9);
@@ -295,10 +295,10 @@ case 19:
             var1['action'] = var12;
             var12 = var10 == var11;
             var10 = undefined;
-            if(var12) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+            if(var12) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var10 = var11.guild_id;
-case 20:
+case 21:
             var1['guild_id'] = var10;
             var1['channel_id'] = var9;
             var1['message_id'] = var7;
@@ -378,40 +378,40 @@ case 0:
             var1 = var2.attachmentIds;
             var8 = var2.embedIds;
             var7 = null;
-            if(!(var7 != var11)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
-            if(!(var7 != var10)) { _fun0005_ip = 22; continue _fun0005 }
+            if(!(var7 != var11)) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
+            if(!(var7 != var10)) { _fun0005_ip = 23; continue _fun0005 }
 case 13:
             var2 = var7 == var1;
             var6 = undefined;
             var3 = undefined;
-            if(var2) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            if(var2) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var3 = var1.length;
-case 24:
+case 25:
             var4 = var7 != var3;
             var5 = 0;
             var2 = 0;
-            if(!var4) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
-            var2 = var3;
-case 26:
-            if(!(var5 === var2)) { _fun0005_ip = 21; continue _fun0005 }
+            if(!var4) { _fun0005_ip = 27; continue _fun0005 }
 case 28:
+            var2 = var3;
+case 27:
+            if(!(var5 === var2)) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var2 = var7 == var8;
             var3 = undefined;
-            if(var2) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+            if(var2) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var3 = var8.length;
-case 29:
+case 31:
             var4 = var7 != var3;
             var2 = 0;
-            if(!var4) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+            if(!var4) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
             var2 = var3;
-case 31:
-            if(!(var5 !== var2)) { _fun0005_ip = 22; continue _fun0005 }
-case 21:
+case 33:
+            if(!(var5 !== var2)) { _fun0005_ip = 23; continue _fun0005 }
+case 29:
             var4 = _closure1_slot4;
             var3 = var4.getChannel;
             var13 = var3.bind(var4)(var11);
@@ -427,10 +427,10 @@ case 21:
             var3['channel_id'] = var11;
             var14 = var7 == var13;
             var11 = undefined;
-            if(var14) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+            if(var14) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
             var11 = var13.guild_id;
-case 33:
+case 35:
             var3['guild_id'] = var11;
             var3['message_id'] = var10;
             var3['embed_ids'] = var8;
@@ -475,31 +475,31 @@ case 33:
             var2['name'] = var9;
             var10 = var7 == var1;
             var9 = undefined;
-            if(var10) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+            if(var10) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var9 = var1.length;
-case 35:
+case 37:
             var10 = var7 != var9;
             var1 = 0;
-            if(!var10) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+            if(!var10) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var1 = var9;
-case 37:
+case 39:
             var9 = var7 == var8;
             var6 = undefined;
-            if(var9) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+            if(var9) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var6 = var8.length;
-case 39:
+case 41:
             var7 = var7 != var6;
             var5 = 0;
-            if(!var7) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+            if(!var7) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var5 = var6;
-case 41:
+case 43:
             var1 = var1 + var5;
             var1 = var3.bind(var4)(var2, var1);
-case 22:
+case 23:
             var1 = undefined;
             return var1;
         }
@@ -515,7 +515,7 @@ case 0:
             var9 = var1.numOfEmbeds;
             var1 = var1.numOfEmbedsPendingScan;
             var11 = null;
-            if(!(var11 != var13)) { _fun0006_ip = 43; continue _fun0006 }
+            if(!(var11 != var13)) { _fun0006_ip = 45; continue _fun0006 }
 case 13:
             var4 = _closure1_slot4;
             var3 = var4.getChannel;
@@ -533,10 +533,10 @@ case 13:
             var3['channel_id'] = var13;
             var13 = var11 == var12;
             var11 = undefined;
-            if(var13) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+            if(var13) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
             var11 = var12.guild_id;
-case 44:
+case 21:
             var3['guild_id'] = var11;
             var3['num_of_attachments'] = var10;
             var3['num_of_attachments_pending_scan'] = var2;
@@ -545,7 +545,7 @@ case 44:
             var3 = var6.bind(var8)(var4, var3);
             var4 = var2 + var1;
             var1 = 0;
-            if(!(var4 > var1)) { _fun0006_ip = 43; continue _fun0006 }
+            if(!(var4 > var1)) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -562,7 +562,7 @@ case 46:
             var5 = var5.EXPLICIT_MEDIA_PENDING_MESSAGE_LOADED_V2;
             var1['name'] = var5;
             var1 = var2.bind(var3)(var1, var4);
-case 43:
+case 45:
             var1 = undefined;
             return var1;
         }
@@ -604,7 +604,7 @@ case 53:
             if(!(var18 != var20)) { _fun0007_ip = 52; continue _fun0007 }
 case 9:
             if(var7) { _fun0007_ip = 54; continue _fun0007 }
-case 44:
+case 21:
             if(var6) { _fun0007_ip = 54; continue _fun0007 }
 case 55:
             if(!var5) { _fun0007_ip = 52; continue _fun0007 }
@@ -835,7 +835,7 @@ case 70:
 case 73:
             var1 = !var3;
             if(var3) { _fun0012_ip = 48; continue _fun0012 }
-case 23:
+case 24:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 15;
@@ -862,7 +862,7 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isVerifiedAdult;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0013_ip = 21; continue _fun0013 }
+            if(!var3) { _fun0013_ip = 29; continue _fun0013 }
 case 69:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -880,7 +880,7 @@ case 75:
 case 74:
             var2['toggle_direction'] = var6;
             var2 = var4.bind(var5)(var3, var2);
-case 21:
+case 29:
             return var1;
         }
     };
@@ -918,17 +918,17 @@ case 11:
                     var1 = var6 > var5;
 case 15:
                     if(var1) { _fun0015_ip = 79; continue _fun0015 }
-case 24:
+case 25:
                     var5 = var3.message;
                     var6 = var4 == var5;
                     var2 = undefined;
                     if(var6) { _fun0015_ip = 16; continue _fun0015 }
-case 26:
+case 27:
                     var2 = var5.embeds;
 case 16:
                     var2 = var4 != var2;
                     if(!var2) { _fun0015_ip = 80; continue _fun0015 }
-case 30:
+case 32:
                     var3 = var3.message;
                     var3 = var3.embeds;
                     var4 = var3.length;

@@ -326,6 +326,8 @@ case 32:
             var7 = true;
             var6 = 'embedCanBeTapped';
             var5[5] = var7;
+            var6 = 'canBeAccepted';
+            var5[5] = var7;
             var6 = _closure1_slot7;
             var7 = var6.GUILD;
             var6 = 'type';

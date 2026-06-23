@@ -69,10 +69,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var5];
         var1 = var6.bind(var4)(var1);
         var2 = var1.TableRow;
-        var1 = {};
+        var1 = {'onPress': null, 'end': true, 'height': '100%'};
         var1['onPress'] = var9;
-        var9 = true;
-        var1['end'] = var9;
         var10 = _closure1_slot4;
         var9 = _closure1_slot2;
         var8 = {};

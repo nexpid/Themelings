@@ -722,6 +722,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COLLECTIBLES_SHOP_FULLSCREEN'] = var1;
     var1 = 'collectibles shop orbs tab';
     var2['COLLECTIBLES_SHOP_ORBS_TAB'] = var1;
+    var1 = 'collectibles shop orbs upsell banner';
+    var2['COLLECTIBLES_SHOP_ORBS_UPSELL_BANNER'] = var1;
     var1 = 'collectibles shop avatar decorations tab';
     var2['COLLECTIBLES_SHOP_AVATAR_DECORATIONS_TAB'] = var1;
     var1 = 'collectibles shop profile effects tab';

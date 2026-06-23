@@ -165,13 +165,13 @@ case 11:
                         var1 = 2;
                         var3 = var1 & var3;
                         var1 = var5;
-                        if(!var3) { _fun0004_ip = 8; continue _fun0004 }
-case 13:
+                        if(!var3) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                         var4 = 'function';
                         var3 = typeof var5;
                         var1 = var5;
-                        if(!(var4 === var3)) { _fun0004_ip = 8; continue _fun0004 }
-case 14:
+                        if(!(var4 === var3)) { _fun0004_ip = 13; continue _fun0004 }
+case 15:
                         var1 = function(arg1) {
                             var4 = _closure4_slot1;
                             var3 = var4.apply;
@@ -180,7 +180,7 @@ case 14:
                             var1 = var3.bind(var4)(var2, var1);
                             return var1;
                         };
-case 8:
+case 13:
                         return var1;
                     }
                 };

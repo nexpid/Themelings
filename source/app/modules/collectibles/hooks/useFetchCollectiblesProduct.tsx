@@ -35,9 +35,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SKUProductLines;
+    var4 = var4.COLLECTIBLES_PRODUCT_FETCH_ERROR_RETRY_THRESHOLD_MS;
     var _closure1_slot6 = var4;
-    var4 = 8;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SKUProductLines;
+    var _closure1_slot7 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -52,7 +57,7 @@ case 0:
             var _closure2_slot1 = var9;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var7 = 5;
+            var7 = 6;
             var2 = var2[var7];
             var3 = undefined;
             var8 = var4.bind(var3)(var2);
@@ -82,7 +87,7 @@ case 2:
             if(!var10) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var5 = var2.productLine;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot7;
             var2 = var2.COLLECTIBLES;
             var10 = var5 !== var2;
 case 4:
@@ -129,7 +134,7 @@ case 9:
 case 8:
             var14 = _closure1_slot0;
             var15 = _closure1_slot1;
-            var7 = 6;
+            var7 = 7;
             var7 = var15[var7];
             var7 = var14.bind(var3)(var7);
             var7 = var7.CollectiblesItemType;
@@ -186,25 +191,25 @@ case 18:
                     var1 = var2 === var3;
 case 16:
                     if(var1) { _fun0003_ip = 20; continue _fun0003 }
-case 5:
+case 21:
                     var2 = _closure2_slot4;
                     var2 = var4 == var2;
                     var3 = undefined;
-                    if(var2) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                    if(var2) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                     var2 = _closure2_slot4;
                     var3 = var2.state;
-case 21:
+case 22:
                     var2 = 'error';
                     var2 = var2 === var3;
-                    if(!var2) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+                    if(!var2) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
                     var3 = _closure2_slot4;
                     var3 = var3.endedAt;
                     var2 = var4 != var3;
-case 23:
-                    if(!var2) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+case 24:
+                    if(!var2) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                     var3 = global;
                     var4 = var3.Date;
                     var3 = var4.now;
@@ -212,16 +217,16 @@ case 26:
                     var3 = _closure2_slot4;
                     var3 = var3.endedAt;
                     var4 = var4 - var3;
-                    var3 = 3600000;
+                    var3 = _closure1_slot6;
                     var2 = var4 < var3;
-case 25:
+case 26:
                     var1 = var2;
 case 20:
-                    if(var1) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+                    if(var1) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
-                    var1 = 7;
+                    var1 = 8;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -231,7 +236,7 @@ case 28:
                     var5 = _closure2_slot1;
                     var1['includeBundles'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 27:
+case 28:
                     var1 = undefined;
                     return var1;
                 }
@@ -241,10 +246,10 @@ case 27:
             var1['product'] = var5;
             var4 = var4 == var2;
             var3 = undefined;
-            if(var4) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
+            if(var4) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var3 = var2.state;
-case 29:
+case 30:
             var2 = 'fetching';
             var2 = var2 === var3;
             var1['isFetching'] = var2;

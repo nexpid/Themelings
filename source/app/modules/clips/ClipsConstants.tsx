@@ -180,6 +180,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['MIN_MAX_AUTO_CLIPS'] = var4;
     var4 = 50;
     var3['MAX_MAX_AUTO_CLIPS'] = var4;
+    var4 = 1073741824;
+    var3['BYTES_PER_GB'] = var4;
+    var4 = 16106127360.0;
+    var3['MAX_TRANSIENT_STORAGE_BYTES'] = var4;
+    var4 = '.autoclip-cache';
+    var3['TRANSIENT_AUTOCLIP_DIRNAME'] = var4;
     var3['ClipsTrackSuffixes'] = var2;
     return var1;
 })();

@@ -1021,7 +1021,7 @@ case 82:
             var2 = var4 === var5;
 case 81:
             if(var2) { _fun0013_ip = 83; continue _fun0013 }
-case 9:
+case 84:
             var3 = _closure1_slot12;
             var2 = var3.isNetworkRoaming;
 case 83:

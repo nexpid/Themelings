@@ -1115,8 +1115,8 @@ case 0:
                 var2 = this;
                 var3 = var2.createdAt;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0014_ip = 30; continue _fun0014 }
-case 109:
+                if(!(var1 != var3)) { _fun0014_ip = 109; continue _fun0014 }
+case 110:
                 var1 = {};
                 var3 = var2.action;
                 var3 = var3.type;
@@ -1128,7 +1128,7 @@ case 109:
                 var2 = var2.traces;
                 var1['traces'] = var2;
                 return var1;
-case 30:
+case 109:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;

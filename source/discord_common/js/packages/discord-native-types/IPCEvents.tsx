@@ -74,6 +74,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['LOAD_CLIPS_DIRECTORY'] = var1;
     var1 = 'DISCORD_DELETE_CLIP';
     var2['DELETE_CLIP'] = var1;
+    var1 = 'DISCORD_MOVE_CLIP';
+    var2['MOVE_CLIP'] = var1;
     var1 = 'DISCORD_CHECK_FOR_UPDATES';
     var2['CHECK_FOR_UPDATES'] = var1;
     var1 = 'DISCORD_DESKTOP_CAPTURER_GET_SOURCES';
@@ -103,6 +105,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FILE_MANAGER_SHOW_OPEN_DIALOG'] = var1;
     var1 = 'DISCORD_FILE_MANAGER_SHOW_ITEM_IN_FOLDER';
     var2['FILE_MANAGER_SHOW_ITEM_IN_FOLDER'] = var1;
+    var1 = 'DISCORD_FILE_MANAGER_CREATE_DIRECTORY_IF_NOT_EXISTS';
+    var2['FILE_MANAGER_CREATE_DIRECTORY_IF_NOT_EXISTS'] = var1;
     var1 = 'DISCORD_GPU_SETTINGS_SET_ENABLE_HWACCEL';
     var2['GPU_SETTINGS_SET_ENABLE_HWACCEL'] = var1;
     var1 = 'DISCORD_GPU_SETTINGS_GET_ENABLE_HWACCEL_SYNC';

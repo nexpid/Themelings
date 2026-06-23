@@ -2132,7 +2132,7 @@ case 72: // try_start_1
                     var1 = 100;
                     var1 = var3.bind(var4)(var2, var1);
 case 82: // try_end1
-                    _fun0019_ip = 91; continue _fun0019;
+                    _fun0019_ip = 94; continue _fun0019;
 case 83: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot18;
@@ -2155,7 +2155,7 @@ case 83: // catch_target0 // catch_target1
                     var4['action'] = var5;
                     var1['args'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 91:
+case 94:
                     var1 = undefined;
                     return var1;
                 }
@@ -2420,8 +2420,8 @@ case 0:
                     StartGenerator();
                     var13 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0022_ip = 166; continue _fun0022 }
-case 167:
+                    if(var4) { _fun0022_ip = 153; continue _fun0022 }
+case 166:
                     var _closure4_slot0 = var13;
                     var5 = undefined;
                     var3 = undefined;
@@ -2464,7 +2464,7 @@ case 47:
                     var6 = var11.bind(var13)(var6);
                     var11 = _closure1_slot20;
                     var6 = 'initializing';
-                    if(!(var6 === var11)) { _fun0022_ip = 168; continue _fun0022 }
+                    if(!(var6 === var11)) { _fun0022_ip = 167; continue _fun0022 }
 case 7: // try_start_0
                     var11 = _closure1_slot11;
                     var6 = var11.getId;
@@ -2504,12 +2504,12 @@ case 7: // try_start_0
                     };
                     var6 = var11.bind(var12)(var6);
                     SaveGenerator(address=271);
-case 169:
+case 168:
                     return var6;
-case 170:
+case 169:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=10);
-                    if(var11) { _fun0022_ip = 171; continue _fun0022 }
-case 172:
+                    if(var11) { _fun0022_ip = 170; continue _fun0022 }
+case 171:
                     var12 = _closure1_slot3;
                     var11 = 3;
                     var13 = var12.bind(var5)(var6, var11);
@@ -2521,8 +2521,8 @@ case 172:
                     var7 = var13[var12];
                     var12 = var3;
                     var12 = var12.bind(var5)();
-                    if(var11) { _fun0022_ip = 173; continue _fun0022 }
-case 174:
+                    if(var11) { _fun0022_ip = 172; continue _fun0022 }
+case 173:
                     var11 = function dontLoadLateLazyCache() {
                         var3 = _closure1_slot32;
                         var2 = undefined;
@@ -2549,14 +2549,14 @@ case 174:
                     };
                     var11 = var11.bind(var5)();
                     SaveGenerator(address=333);
-case 175:
+case 174:
                     return var11;
 case 25:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(!var12) { _fun0022_ip = 176; continue _fun0022 }
-case 177: // try_end0
+                    if(!var12) { _fun0022_ip = 175; continue _fun0022 }
+case 176: // try_end0
                     return var11;
-case 173: // try_start_1
+case 172: // try_start_1
                     var20 = var10;
                     var19 = var9;
                     var18 = var8;
@@ -2574,18 +2574,18 @@ case 173: // try_start_1
                     var21 = undefined;
                     var7 = var21[var7](var20, var19, var18, var17, var16);
                     SaveGenerator(address=369);
+case 177:
+                    return var7;
 case 178:
-                    return var7;
-case 179:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0022_ip = 180; continue _fun0022 }
-case 176: // try_end1
-                    _fun0022_ip = 181; continue _fun0022;
-case 180:
+                    if(var8) { _fun0022_ip = 179; continue _fun0022 }
+case 175: // try_end1
+                    _fun0022_ip = 31; continue _fun0022;
+case 179:
                     return var7;
-case 171:
+case 170:
                     return var6;
-case 182: // catch_target0 // catch_target1
+case 180: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=9);
                     var9 = _closure1_slot18;
                     var8 = var9.error;
@@ -2614,9 +2614,9 @@ case 182: // catch_target0 // catch_target1
                     var9['action'] = var10;
                     var6['args'] = var9;
                     var6 = var7.bind(var8)(var6);
-case 181:
+case 31:
                     return var5;
-case 168:
+case 167:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var4 = 26;
@@ -2637,7 +2637,7 @@ case 0:
                             var5 = var2 == var3;
                             var1 = undefined;
                             if(var5) { _fun0023_ip = 68; continue _fun0023 }
-case 183:
+case 181:
                             var3 = var3.dispatcher;
                             var2 = var2 == var3;
                             var1 = undefined;
@@ -2653,7 +2653,7 @@ case 68:
                     var2 = var4.bind(var5)(var3, var2);
                     var2 = undefined;
                     return var2;
-case 166:
+case 153:
                     return var1;
                 }
             };

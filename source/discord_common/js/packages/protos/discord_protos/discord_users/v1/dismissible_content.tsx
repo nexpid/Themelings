@@ -2274,6 +2274,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['HOME_DRAWER_SWIPE_PEEK_NUX'] = var2;
     var1 = 'HOME_DRAWER_SWIPE_PEEK_NUX';
     var4[var2] = var1;
+    var2 = 770;
+    var4['FILE_UPLOAD_POWERUP_ROLLBACK_NOTIFICATION'] = var2;
+    var1 = 'FILE_UPLOAD_POWERUP_ROLLBACK_NOTIFICATION';
+    var4[var2] = var1;
+    var2 = 771;
+    var4['FILE_UPLOAD_POWERUP_ROLLBACK_MODAL'] = var2;
+    var1 = 'FILE_UPLOAD_POWERUP_ROLLBACK_MODAL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

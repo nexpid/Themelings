@@ -655,7 +655,7 @@ case 18:
                 var6 = 18;
                 var6 = var8[var6];
                 var6 = var7.bind(var1)(var6);
-                var6 = var6.JumpTypes;
+                var6 = var6.JumpType;
                 var6 = var6.ANIMATED;
                 var5['jumpType'] = var6;
                 var2['jump'] = var5;

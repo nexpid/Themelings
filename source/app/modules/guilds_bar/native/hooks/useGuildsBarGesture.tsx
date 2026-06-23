@@ -2009,7 +2009,7 @@ case 211:
                     _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                         var1 = arg1;
-                        if(var1) { _fun0017_ip = 41; continue _fun0017 }
+                        if(var1) { _fun0017_ip = 4; continue _fun0017 }
 case 212:
                         var2 = _closure3_slot0;
                         var1 = _closure1_slot13;
@@ -2018,11 +2018,11 @@ case 212:
                         var1 = var1.bind(var3)();
                         var2 = var2[var1];
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0017_ip = 41; continue _fun0017 }
+                        if(!(var1 != var2)) { _fun0017_ip = 4; continue _fun0017 }
 case 213:
                         var1 = var2.action;
                         var1 = var1.bind(var2)();
-case 41:
+case 4:
                         var2 = _closure1_slot13;
                         var4 = var2.activeIndex;
                         var3 = var4.set;

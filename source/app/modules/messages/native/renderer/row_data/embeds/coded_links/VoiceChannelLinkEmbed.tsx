@@ -268,7 +268,6 @@ case 26:
             var6 = true;
             var5 = 'embedCanBeTapped';
             var2[4] = var6;
-            var6 = false;
             var5 = 'canBeAccepted';
             var2[4] = var6;
             var6 = _closure1_slot0;

@@ -529,8 +529,8 @@ case 0:
             var7 = var3.bind(var5)(var2, var1);
             var1 = null;
             var2 = var1 != var7;
-            if(!var2) { _fun0009_ip = 13; continue _fun0009 }
-case 19:
+            if(!var2) { _fun0009_ip = 19; continue _fun0009 }
+case 20:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 7;
@@ -544,15 +544,15 @@ case 19:
             var2 = _closure1_slot11;
             var7 = var2.PENDING;
             var2 = arg2;
-            if(!(var2 !== var7)) { _fun0009_ip = 20; continue _fun0009 }
-case 21:
-            var2 = _closure1_slot6;
-            _fun0009_ip = 22; continue _fun0009;
-case 20:
-            var2 = _closure1_slot10;
+            if(!(var2 !== var7)) { _fun0009_ip = 21; continue _fun0009 }
 case 22:
+            var2 = _closure1_slot6;
+            _fun0009_ip = 23; continue _fun0009;
+case 21:
+            var2 = _closure1_slot10;
+case 23:
             var1 = var4.bind(var5)(var3, var2);
-case 13:
+case 19:
             return var1;
         }
     };

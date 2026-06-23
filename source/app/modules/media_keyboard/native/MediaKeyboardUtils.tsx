@@ -349,7 +349,7 @@ case 46:
                 var3 = var4.launchCamera;
                 var2 = {'mediaType': 'mixed', 'includeBase64': false, 'quality': null, 'videoQuality': 'high', 'saveToPhotos': null, 'skipProcessing': true};
                 var6 = _closure1_slot0;
-                var5 = 16;
+                var5 = 12;
                 var5 = var8[var5];
                 var6 = var6.bind(var7)(var5);
                 var5 = var6.getImageCompressionQuality;
@@ -542,7 +542,7 @@ case 0:
             var _closure2_slot6 = var1;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 17;
+            var1 = 16;
             var4 = var4[var1];
             var1 = undefined;
             var5 = var5.bind(var1)(var4);
@@ -552,7 +552,7 @@ case 0:
 case 70:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 18;
+            var4 = 17;
             var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.getSystemVersionMajor;
@@ -638,7 +638,7 @@ case 77:
                     var8 = _closure2_slot2;
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var6 = 17;
+                    var6 = 16;
                     var6 = var10[var6];
                     var9 = var9.bind(var5)(var6);
                     var6 = var9.isIOS;
@@ -679,7 +679,7 @@ case 12:
                     var4['selections'] = var3;
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 17;
+                    var3 = 16;
                     var3 = var6[var3];
                     var7 = var7.bind(var5)(var3);
                     var3 = var7.isIOS;
@@ -888,7 +888,7 @@ case 39:
                     var3 = var3.bind(var4)();
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 19;
+                    var3 = 18;
                     var3 = var7[var3];
                     var6 = var6.bind(var4)(var3);
                     var3 = var6.presentLimitedLibraryPicker;
@@ -982,7 +982,7 @@ case 103:
                     var8['guild_id'] = var15;
                     var8 = var13.bind(var14)(var10, var8);
                     var8 = _closure1_slot0;
-                    var3 = 24;
+                    var3 = 23;
                     var3 = var9[var3];
                     var10 = var8.bind(var4)(var3);
                     var9 = var10.handleDocumentSelection;
@@ -1028,7 +1028,7 @@ case 110:
                                     var13 = var9.uri;
                                     var3 = _closure1_slot0;
                                     var4 = _closure1_slot2;
-                                    var2 = 16;
+                                    var2 = 12;
                                     var2 = var4[var2];
                                     var8 = undefined;
                                     var4 = var3.bind(var8)(var2);
@@ -1059,7 +1059,7 @@ case 43:
                                     var3 = {};
                                     var11 = _closure1_slot1;
                                     var12 = _closure1_slot2;
-                                    var10 = 25;
+                                    var10 = 24;
                                     var10 = var12[var10];
                                     var11 = var11.bind(var8)(var10);
                                     var10 = var11.uniqueId;
@@ -1434,7 +1434,7 @@ case 4:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var13 = 26;
+    var13 = 25;
     var13 = var15[var13];
     var15 = var14.bind(var1)(var13);
     var14 = var15.fileFinishedImporting;
@@ -1453,29 +1453,22 @@ case 0:
             var1 = 12;
             var3 = var3[var1];
             var1 = undefined;
-            var5 = var4.bind(var1)(var3);
-            var4 = var5.getFile;
-            var3 = {};
-            var8 = var9.uri;
-            var3['uri'] = var8;
-            var8 = var9.filename;
-            var3['overrideFilename'] = var8;
-            var8 = var9.mimeType;
-            var3['overrideType'] = var8;
-            var3 = var4.bind(var5)(var3);
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.getFileFromUploadItem;
+            var3 = var3.bind(var4)(var9);
             var8 = var3.filename;
             var4 = var10.target;
             var3 = _closure1_slot9;
             var3 = var3.COMMAND;
             if(!(var4 === var3)) { _fun0019_ip = 132; continue _fun0019 }
-case 13:
+case 133:
             var3 = arg2;
             var4 = var3.current;
             var3 = var4.getApplicationCommandManager;
             var11 = var3.bind(var4)();
             var3 = null;
             if(!(var3 != var11)) { _fun0019_ip = 132; continue _fun0019 }
-case 133:
+case 134:
             var5 = var11.insertOrJumpCommandOption;
             var4 = {};
             var4['displayText'] = var8;
@@ -1546,7 +1539,7 @@ case 0:
             var11 = var1.bind(var3)(var4);
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 20;
+            var1 = 19;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
@@ -1569,15 +1562,15 @@ case 0:
             var4 = var7 == var11;
             var3 = undefined;
             if(var4) { _fun0020_ip = 17; continue _fun0020 }
-case 134:
+case 135:
             var3 = var11.guild_id;
 case 17:
-            if(!(var7 == var3)) { _fun0020_ip = 135; continue _fun0020 }
-case 136:
+            if(!(var7 == var3)) { _fun0020_ip = 136; continue _fun0020 }
+case 137:
             var3 = _closure1_slot14;
             var3 = var3.DM_CHANNEL;
             _fun0020_ip = 20; continue _fun0020;
-case 135:
+case 136:
             var4 = _closure1_slot14;
             var3 = var4.GUILD_CHANNEL;
 case 20:
@@ -1597,37 +1590,37 @@ case 20:
             var13 = var7 == var11;
             var12 = undefined;
             if(var13) { _fun0020_ip = 24; continue _fun0020 }
-case 137:
+case 138:
             var12 = var11.id;
 case 24:
             var3['channel_id'] = var12;
             var13 = var7 == var11;
             var12 = undefined;
             if(var13) { _fun0020_ip = 10; continue _fun0020 }
-case 138:
+case 139:
             var12 = var11.guild_id;
 case 10:
             var3['guild_id'] = var12;
             var3 = var9.bind(var10)(var4, var3);
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 21;
+            var2 = 20;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.openGiftModal;
             var2 = {};
             var10 = var7 != var11;
             var9 = undefined;
-            if(!var10) { _fun0020_ip = 139; continue _fun0020 }
+            if(!var10) { _fun0020_ip = 140; continue _fun0020 }
 case 26:
             var10 = var11.isDM;
             var10 = var10.bind(var11)();
             var9 = undefined;
-            if(!var10) { _fun0020_ip = 139; continue _fun0020 }
+            if(!var10) { _fun0020_ip = 140; continue _fun0020 }
 case 6:
             var10 = var11.getRecipientId;
             var9 = var10.bind(var11)();
-case 139:
+case 140:
             var2['recipientUserId'] = var9;
             var2['analyticsLocation'] = var5;
             var5 = arg1;
@@ -1638,18 +1631,18 @@ case 139:
             var2['navigationParams'] = var5;
             var9 = var7 == var8;
             var5 = undefined;
-            if(var9) { _fun0020_ip = 140; continue _fun0020 }
-case 141:
+            if(var9) { _fun0020_ip = 141; continue _fun0020 }
+case 142:
             var5 = var8.current;
-case 140:
+case 141:
             var7 = var7 != var5;
             var5 = undefined;
-            if(!var7) { _fun0020_ip = 142; continue _fun0020 }
-case 143:
+            if(!var7) { _fun0020_ip = 143; continue _fun0020 }
+case 144:
             var5 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 22;
+                var1 = 21;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1660,7 +1653,7 @@ case 143:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-case 142:
+case 143:
             var2['onDismiss'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
@@ -1691,38 +1684,38 @@ case 0:
             var11 = var4 == var5;
             var10 = undefined;
             if(var11) { _fun0021_ip = 113; continue _fun0021 }
-case 144:
+case 145:
             var10 = var5.guild_id;
 case 113:
             var6['guild_id'] = var10;
             var6 = var8.bind(var9)(var7, var6);
-            if(!(var4 != var5)) { _fun0021_ip = 145; continue _fun0021 }
-case 146:
+            if(!(var4 != var5)) { _fun0021_ip = 146; continue _fun0021 }
+case 134:
             var6 = var3.current;
             var4 = var6.openSystemKeyboard;
             var4 = var4.bind(var6)();
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var4 = 17;
+            var4 = 16;
             var4 = var7[var4];
             var6 = var6.bind(var1)(var4);
             var4 = var6.isIOS;
             var4 = var4.bind(var6)();
-            if(!var4) { _fun0021_ip = 134; continue _fun0021 }
+            if(!var4) { _fun0021_ip = 135; continue _fun0021 }
 case 69:
             var4 = var3.current;
             var3 = var4.blur;
             var3 = var3.bind(var4)();
-case 134:
+case 135:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 23;
+            var2 = 22;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.navigateToThreadCreation;
             var2 = 'Plus Button';
             var2 = var3.bind(var4)(var5, var2);
-case 145:
+case 146:
             return var1;
         }
     };
@@ -1757,7 +1750,7 @@ case 101:
             var1 = {};
             var9 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var4 = 25;
+            var4 = 24;
             var8 = var5[var4];
             var4 = undefined;
             var10 = var9.bind(var4)(var8);
@@ -1809,7 +1802,7 @@ case 101:
             var3 = function onDismissKeyboard() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 19;
+                var1 = 18;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -1842,7 +1835,7 @@ case 101:
         var _closure2_slot2 = var2;
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var5 = 19;
+        var5 = 18;
         var2 = var7[var5];
         var4 = var6.bind(var1)(var2);
         var3 = var4.showMediaKeyboardActionSheet;
@@ -1901,7 +1894,7 @@ case 101:
             var3 = var1.isIncluded;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 19;
+            var1 = 18;
             var6 = var6[var1];
             var1 = undefined;
             var7 = var7.bind(var1)(var6);
@@ -1939,7 +1932,7 @@ case 101:
             var2 = {};
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 19;
+            var1 = 18;
             var4 = var4[var1];
             var1 = undefined;
             var4 = var5.bind(var1)(var4);

@@ -1677,11 +1677,11 @@ case 66:
                         var3 = var2.action;
                         var1 = var4 == var3;
 case 117:
-                        if(var1) { _fun0024_ip = 81; continue _fun0024 }
-case 4:
+                        if(var1) { _fun0024_ip = 80; continue _fun0024 }
+case 28:
                         var1 = var2.action;
                         var1 = var1.bind(var2)();
-case 81:
+case 80:
                         var1 = undefined;
                         return var1;
                     }

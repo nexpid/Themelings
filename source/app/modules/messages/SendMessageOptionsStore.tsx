@@ -177,15 +177,21 @@ case 4:
             if(!var2) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
             var4 = var1.nonce;
-            var3 = _closure1_slot6;
-            var2 = var4 in var3;
+            var3 = var1.id;
+            var2 = var4 !== var3;
 case 12:
             if(!var2) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
+            var4 = var1.nonce;
+            var3 = _closure1_slot6;
+            var2 = var4 in var3;
+case 14:
+            if(!var2) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var2 = _closure1_slot6;
             var1 = var1.nonce;
             var1 = delete var2[var1];
-case 14:
+case 16:
             var1 = undefined;
             return var1;
         }

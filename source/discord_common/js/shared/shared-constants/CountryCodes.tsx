@@ -729,14 +729,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = new var12[var7](var11, var10);
     var5 = var5 instanceof Object ? var5 : var6;
     var2['QUESTS_3P_DATA_OPT_OUT_COUNTRIES'] = var5;
-    var7 = var1.Set;
-    var5 = var7.prototype;
-    var6 = Object.create(var5, {constructor: {value: var7}});
-    var11 = ['AL', 'AR', 'AZ', 'CO', 'CT', 'DC', 'HI', 'IA', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NY', 'OH', 'OK', 'PA', 'PR', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY'];
-    var12 = var6;
-    var5 = new var12[var7](var11, var10);
-    var5 = var5 instanceof Object ? var5 : var6;
-    var2['NITRO_TAX_EXCLUSIVE_US_STATES'] = var5;
     var6 = var1.Set;
     var1 = var6.prototype;
     var5 = Object.create(var1, {constructor: {value: var6}});

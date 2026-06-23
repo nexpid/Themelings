@@ -245,7 +245,7 @@ case 0:
                 var2 = null;
                 var3['action'] = var2;
                 if(!(var2 != var4)) { _fun0004_ip = 36; continue _fun0004 }
-case 3:
+case 37:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 2;
@@ -292,31 +292,31 @@ case 0:
                 var3 = var5.bind(var1)();
                 var2 = var3.done;
                 var4 = null;
-                if(var2) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                if(var2) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                 var8 = var3.value;
                 var2 = var8.action;
                 var2 = var4 != var2;
-                if(!var2) { _fun0005_ip = 9; continue _fun0005 }
-case 39:
+                if(!var2) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var9 = var4 == var7;
                 if(var9) { _fun0005_ip = 36; continue _fun0005 }
-case 40:
+case 42:
                 var10 = var8.shouldFlush;
                 var9 = var10.bind(var8)(var7, var6);
 case 36:
                 var2 = var9;
-case 9:
-                if(!var2) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+case 40:
+                if(!var2) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                 var2 = var8.flush;
                 var2 = var2.bind(var8)();
-case 41:
+case 43:
                 var8 = var5.bind(var1)();
                 var2 = var8.done;
                 var3 = var8;
-                if(!var2) { _fun0005_ip = 38; continue _fun0005 }
-case 37:
+                if(!var2) { _fun0005_ip = 39; continue _fun0005 }
+case 38:
                 return var1;
             }
         };

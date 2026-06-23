@@ -60,7 +60,7 @@ case 0:
             var2 = var4[var2];
             var16 = undefined;
             var2 = var3.bind(var16)(var2);
-            var2 = var2.JumpTypes;
+            var2 = var2.JumpType;
             var12 = var2.ANIMATED;
             var7 = var1.jumpSequenceId;
             var4 = var1.focusTargetId;

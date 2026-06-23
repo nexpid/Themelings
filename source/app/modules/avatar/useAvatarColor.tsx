@@ -135,7 +135,7 @@ case 13: // try_start_0
                     var8 = var8.bind(var2)(var7);
                     var7 = var8.getPaletteForAvatar;
                     var5 = var7.bind(var8)(var5);
-                    SaveGenerator(address=138);
+                    SaveGenerator(address=136);
 case 14:
                     return var5;
 case 15:

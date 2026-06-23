@@ -632,15 +632,15 @@ case 91:
             var1 = _closure1_slot8;
             var1 = var1.VIDEO_PLAYER_VIDEO;
             if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
-case 93:
+case 31:
             var1 = _closure1_slot8;
             var1 = var1.VIDEO_PLAYER_VIDEO_LOW_RES;
             if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
-case 94:
+case 93:
             var1 = _closure1_slot8;
             var1 = var1.VIDEO_PLAYER_VIDEO_HLS;
             if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
-case 36:
+case 94:
             var1 = _closure1_slot8;
             var1 = var1.VIDEO_PLAYER_THUMBNAIL;
             if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
@@ -648,22 +648,22 @@ case 55:
             var1 = _closure1_slot8;
             var1 = var1.VIDEO_PLAYER_CAPTION;
             if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
-case 42:
+case 95:
             var1 = _closure1_slot8;
             var5 = var1.VIDEO_PLAYER_TRANSCRIPT;
             var9 = false;
             var6 = undefined;
             var1 = false;
-            if(!(var5 === var7)) { _fun0006_ip = 95; continue _fun0006 }
+            if(!(var5 === var7)) { _fun0006_ip = 96; continue _fun0006 }
 case 92:
             var10 = var2.config;
             var5 = 'taskConfigV2';
             var5 = var5 in var10;
-            if(var5) { _fun0006_ip = 39; continue _fun0006 }
-case 96:
+            if(var5) { _fun0006_ip = 97; continue _fun0006 }
+case 98:
             var5 = null;
             return var5;
-case 39:
+case 97:
             var5 = var2.config;
             var5 = var5.taskConfigV2;
             var10 = var5.tasks;
@@ -674,160 +674,160 @@ case 39:
             var14 = undefined;
             var5 = var12.bind(var14)(var5);
             var12 = var5.FirstPartyQuestTaskTypes;
-            if(var4) { _fun0006_ip = 97; continue _fun0006 }
-case 98:
+            if(var4) { _fun0006_ip = 99; continue _fun0006 }
+case 100:
             var5 = var12.WATCH_VIDEO;
-            _fun0006_ip = 99; continue _fun0006;
-case 97:
-            var5 = var12.WATCH_VIDEO_ON_MOBILE;
+            _fun0006_ip = 101; continue _fun0006;
 case 99:
+            var5 = var12.WATCH_VIDEO_ON_MOBILE;
+case 101:
             var10 = var10[var5];
             var5 = _closure1_slot9;
             var7 = var5[var7];
             var5 = null;
             var12 = var5 == var10;
             var13 = undefined;
-            if(var12) { _fun0006_ip = 100; continue _fun0006 }
-case 101:
+            if(var12) { _fun0006_ip = 102; continue _fun0006 }
+case 103:
             var12 = var10.assets;
             var10 = var7.variant;
             var10 = var12[var10];
             var12 = var5 == var10;
             var13 = undefined;
-            if(var12) { _fun0006_ip = 100; continue _fun0006 }
-case 52:
+            if(var12) { _fun0006_ip = 102; continue _fun0006 }
+case 104:
             var7 = var7.property;
             var13 = var10[var7];
-case 100:
+case 102:
             var7 = var5 == var13;
             var9 = false;
             var1 = true;
             var6 = var13;
-            if(!var7) { _fun0006_ip = 95; continue _fun0006 }
-case 102:
+            if(!var7) { _fun0006_ip = 96; continue _fun0006 }
+case 105:
             return var5;
 case 90:
             var5 = var2.config;
             var7 = var5.cosponsorMetadata;
             var5 = null;
-            if(!(var5 != var7)) { _fun0006_ip = 103; continue _fun0006 }
-case 104:
+            if(!(var5 != var7)) { _fun0006_ip = 106; continue _fun0006 }
+case 107:
             var7 = 'dark';
-            if(!(var7 === var8)) { _fun0006_ip = 105; continue _fun0006 }
-case 106:
-            var7 = var2.config;
-            var7 = var7.cosponsorMetadata;
-            var7 = var7.logotypeDark;
-            if(!(var5 == var7)) { _fun0006_ip = 107; continue _fun0006 }
-case 105:
-            var7 = 'light';
             if(!(var7 === var8)) { _fun0006_ip = 108; continue _fun0006 }
 case 109:
             var7 = var2.config;
             var7 = var7.cosponsorMetadata;
-            var7 = var7.logotypeLight;
+            var7 = var7.logotypeDark;
             if(!(var5 == var7)) { _fun0006_ip = 110; continue _fun0006 }
 case 108:
+            var7 = 'light';
+            if(!(var7 === var8)) { _fun0006_ip = 111; continue _fun0006 }
+case 112:
+            var7 = var2.config;
+            var7 = var7.cosponsorMetadata;
+            var7 = var7.logotypeLight;
+            if(!(var5 == var7)) { _fun0006_ip = 113; continue _fun0006 }
+case 111:
             var7 = var2.config;
             var7 = var7.cosponsorMetadata;
             var6 = var7.logotype;
             var9 = true;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
-case 110:
+            _fun0006_ip = 96; continue _fun0006;
+case 113:
             var7 = var2.config;
             var7 = var7.cosponsorMetadata;
             var6 = var7.logotypeLight;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
-case 107:
+            _fun0006_ip = 96; continue _fun0006;
+case 110:
             var7 = var2.config;
             var7 = var7.cosponsorMetadata;
             var6 = var7.logotypeDark;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
-case 103:
+            _fun0006_ip = 96; continue _fun0006;
+case 106:
             return var5;
 case 88:
             var5 = 'dark';
-            if(!(var5 === var8)) { _fun0006_ip = 111; continue _fun0006 }
-case 112:
-            var5 = var2.config;
-            var5 = var5.assets;
-            var7 = var5.logotypeDark;
-            var5 = null;
-            if(!(var5 == var7)) { _fun0006_ip = 113; continue _fun0006 }
-case 111:
-            var5 = 'light';
             if(!(var5 === var8)) { _fun0006_ip = 114; continue _fun0006 }
 case 115:
             var5 = var2.config;
             var5 = var5.assets;
-            var7 = var5.logotypeLight;
+            var7 = var5.logotypeDark;
             var5 = null;
             if(!(var5 == var7)) { _fun0006_ip = 116; continue _fun0006 }
 case 114:
+            var5 = 'light';
+            if(!(var5 === var8)) { _fun0006_ip = 117; continue _fun0006 }
+case 118:
+            var5 = var2.config;
+            var5 = var5.assets;
+            var7 = var5.logotypeLight;
+            var5 = null;
+            if(!(var5 == var7)) { _fun0006_ip = 119; continue _fun0006 }
+case 117:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.logotype;
             var9 = true;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
-case 116:
+            _fun0006_ip = 96; continue _fun0006;
+case 119:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.logotypeLight;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
-case 113:
+            _fun0006_ip = 96; continue _fun0006;
+case 116:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.logotypeDark;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
+            _fun0006_ip = 96; continue _fun0006;
 case 86:
             var5 = 'dark';
-            if(!(var5 === var8)) { _fun0006_ip = 117; continue _fun0006 }
-case 118:
-            var5 = var2.config;
-            var5 = var5.assets;
-            var7 = var5.gameTileDark;
-            var5 = null;
-            if(!(var5 == var7)) { _fun0006_ip = 119; continue _fun0006 }
-case 117:
-            var5 = 'light';
             if(!(var5 === var8)) { _fun0006_ip = 120; continue _fun0006 }
 case 121:
             var5 = var2.config;
             var5 = var5.assets;
-            var7 = var5.gameTileLight;
+            var7 = var5.gameTileDark;
             var5 = null;
             if(!(var5 == var7)) { _fun0006_ip = 122; continue _fun0006 }
 case 120:
+            var5 = 'light';
+            if(!(var5 === var8)) { _fun0006_ip = 123; continue _fun0006 }
+case 124:
+            var5 = var2.config;
+            var5 = var5.assets;
+            var7 = var5.gameTileLight;
+            var5 = null;
+            if(!(var5 == var7)) { _fun0006_ip = 125; continue _fun0006 }
+case 123:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.gameTile;
             var9 = true;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
-case 122:
+            _fun0006_ip = 96; continue _fun0006;
+case 125:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.gameTileLight;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
-case 119:
+            _fun0006_ip = 96; continue _fun0006;
+case 122:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.gameTileDark;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
+            _fun0006_ip = 96; continue _fun0006;
 case 84:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -843,13 +843,13 @@ case 84:
             var7 = var13.bind(var12)(var7);
             var7 = var7.QuestRewardTypes;
             var7 = var7.VIRTUAL_CURRENCY;
-            if(!(var10 !== var7)) { _fun0006_ip = 123; continue _fun0006 }
-case 124:
+            if(!(var10 !== var7)) { _fun0006_ip = 126; continue _fun0006 }
+case 127:
             var6 = var5.asset;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
-case 123:
+            _fun0006_ip = 96; continue _fun0006;
+case 126:
             var5 = null;
             return var5;
 case 82:
@@ -867,8 +867,8 @@ case 82:
             var5 = var13.bind(var12)(var5);
             var5 = var5.QuestRewardTypes;
             var5 = var5.VIRTUAL_CURRENCY;
-            if(!(var10 !== var5)) { _fun0006_ip = 125; continue _fun0006 }
-case 126:
+            if(!(var10 !== var5)) { _fun0006_ip = 128; continue _fun0006 }
+case 129:
             var5 = _closure1_slot12;
             var10 = var7.assetVideo;
             var7 = var7.asset;
@@ -876,20 +876,20 @@ case 126:
             var9 = false;
             var6 = var7;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
-case 125:
+            _fun0006_ip = 96; continue _fun0006;
+case 128:
             var5 = null;
             var10 = var5 != var11;
             var7 = undefined;
-            if(!var10) { _fun0006_ip = 127; continue _fun0006 }
-case 128:
+            if(!var10) { _fun0006_ip = 130; continue _fun0006 }
+case 131:
             var10 = _closure1_slot10;
             var7 = var10[var11];
-case 127:
-            if(!(var5 == var7)) { _fun0006_ip = 129; continue _fun0006 }
 case 130:
-            if(var4) { _fun0006_ip = 131; continue _fun0006 }
-case 132:
+            if(!(var5 == var7)) { _fun0006_ip = 132; continue _fun0006 }
+case 133:
+            if(var4) { _fun0006_ip = 134; continue _fun0006 }
+case 135:
             var4 = {'url': null, 'mimetype': 'video/webm', 'isAnimated': true};
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -897,8 +897,8 @@ case 132:
             var5 = var11[var5];
             var5 = var10.bind(var12)(var5);
             var4['url'] = var5;
-            _fun0006_ip = 133; continue _fun0006;
-case 131:
+            _fun0006_ip = 136; continue _fun0006;
+case 134:
             var5 = {'url': null, 'mimetype': 'video/mp4', 'isAnimated': true};
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -907,13 +907,13 @@ case 131:
             var10 = var11.bind(var12)(var10);
             var5['url'] = var10;
             var4 = var5;
-case 133:
-            _fun0006_ip = 134; continue _fun0006;
-case 129:
+case 136:
+            _fun0006_ip = 137; continue _fun0006;
+case 132:
             var5 = {'url': null, 'mimetype': 'video/webm', 'isAnimated': true};
             var5['url'] = var7;
             var4 = var5;
-case 134:
+case 137:
             return var4;
 case 80:
             var4 = var2.config;
@@ -921,7 +921,7 @@ case 80:
             var6 = var4.questBarHero;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
+            _fun0006_ip = 96; continue _fun0006;
 case 78:
             var4 = var2.config;
             var4 = var4.assets;
@@ -931,8 +931,8 @@ case 78:
             var9 = false;
             var6 = var10;
             var1 = false;
-            if(!var5) { _fun0006_ip = 95; continue _fun0006 }
-case 135:
+            if(!var5) { _fun0006_ip = 96; continue _fun0006 }
+case 138:
             return var4;
 case 76:
             var7 = _closure1_slot12;
@@ -947,7 +947,7 @@ case 76:
             var9 = false;
             var6 = var5;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
+            _fun0006_ip = 96; continue _fun0006;
 case 74:
             var4 = var2.config;
             var4 = var4.assets;
@@ -957,8 +957,8 @@ case 74:
             var9 = false;
             var6 = var10;
             var1 = false;
-            if(!var5) { _fun0006_ip = 95; continue _fun0006 }
-case 136:
+            if(!var5) { _fun0006_ip = 96; continue _fun0006 }
+case 139:
             return var4;
 case 72:
             var4 = var2.config;
@@ -966,7 +966,7 @@ case 72:
             var6 = var4.hero;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 95; continue _fun0006;
+            _fun0006_ip = 96; continue _fun0006;
 case 70:
             var7 = _closure1_slot12;
             var4 = var2.config;
@@ -980,27 +980,27 @@ case 70:
             var9 = false;
             var6 = var5;
             var1 = false;
-case 95:
+case 96:
             var5 = _closure1_slot11;
             var4 = var2.id;
             var3 = {};
             var2 = undefined;
             var7 = undefined;
-            if(!var9) { _fun0006_ip = 137; continue _fun0006 }
-case 138:
+            if(!var9) { _fun0006_ip = 140; continue _fun0006 }
+case 141:
             var7 = var8;
-case 137:
+case 140:
             var3['theme'] = var7;
             var2 = var5.bind(var2)(var4, var6, var3);
-            if(!var1) { _fun0006_ip = 139; continue _fun0006 }
-case 140:
+            if(!var1) { _fun0006_ip = 142; continue _fun0006 }
+case 143:
             var3 = var2.mimetype;
             var1 = null;
             var3 = var1 == var3;
-            if(var3) { _fun0006_ip = 141; continue _fun0006 }
-case 139:
+            if(var3) { _fun0006_ip = 144; continue _fun0006 }
+case 142:
             var1 = var2;
-case 141:
+case 144:
             return var1;
         }
     };
@@ -1011,29 +1011,29 @@ case 141:
 case 0:
             var5 = arg1;
             var1 = null;
-            if(!(var1 == var5)) { _fun0007_ip = 142; continue _fun0007 }
-case 143:
+            if(!(var1 == var5)) { _fun0007_ip = 145; continue _fun0007 }
+case 146:
             var1 = undefined;
             return var1;
-case 142:
+case 145:
             var2 = var5.startsWith;
             var1 = 'http://';
             var2 = var2.bind(var5)(var1);
             var1 = var5;
             if(var2) { _fun0007_ip = 16; continue _fun0007 }
-case 144:
+case 147:
             var3 = var5.startsWith;
             var2 = 'https://';
             var2 = var3.bind(var5)(var2);
             var1 = var5;
             if(var2) { _fun0007_ip = 16; continue _fun0007 }
-case 145:
+case 148:
             var3 = var5.startsWith;
             var2 = 'blob:';
             var2 = var3.bind(var5)(var2);
             var1 = var5;
             if(var2) { _fun0007_ip = 16; continue _fun0007 }
-case 146:
+case 149:
             var4 = _closure1_slot3;
             var2 = global;
             var2 = var2.HermesInternal;
@@ -1059,20 +1059,20 @@ case 0:
             var1 = var5.bind(var2)(var1);
             var2 = var1.bind(var2)();
             var1 = 3;
-            if(!(!(var2 < var1))) { _fun0008_ip = 147; continue _fun0008 }
-case 148:
+            if(!(!(var2 < var1))) { _fun0008_ip = 150; continue _fun0008 }
+case 151:
             var1 = {};
             var5 = var4 * var2;
             var1['width'] = var5;
             var2 = var3 * var2;
             var1['height'] = var2;
-            _fun0008_ip = 149; continue _fun0008;
-case 147:
+            _fun0008_ip = 152; continue _fun0008;
+case 150:
             var2 = {};
             var2['width'] = var4;
             var2['height'] = var3;
             var1 = var2;
-case 149:
+case 152:
             return var1;
         }
     };

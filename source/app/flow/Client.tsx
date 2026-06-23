@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var1)(var6);
     var6 = var6.GuildThemeSourcePreference;
     var3['GuildThemeSourcePreference'] = var6;
-    var3['JumpTypes'] = var5;
+    var3['JumpType'] = var5;
     var3['RunningProcessFullscreenType'] = var4;
     var3['QueryUserNotificationState'] = var2;
     var2 = {'compatibilityHook': false, 'warn': false, 'enabled': false, 'enabledOOP': false, 'allowHook': true, 'supportsOutOfProcessOverlay': false};

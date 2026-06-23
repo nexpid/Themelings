@@ -78,6 +78,8 @@ case 8:
                     var2['row_index'] = var7;
                     var7 = var12.adContentId;
                     var2['ad_content_id'] = var7;
+                    var7 = var12.relatedQuestId;
+                    var2['quest_id'] = var7;
                     var2 = var4.bind(var5)(var3, var2);
                     _fun0001_ip = 10; continue _fun0001;
 case 4:
@@ -96,7 +98,7 @@ case 4:
                     var2['impressionId'] = var15;
                     var2['clickId'] = var14;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=357);
+                    SaveGenerator(address=368);
 case 11:
                     return var2;
 case 12:
@@ -335,7 +337,7 @@ case 29:
             var2 = var4.bind(var1)(var2);
             var2 = var2.AdCreativeType;
             var2 = var2.QUEST;
-            if(!(var3 !== var2)) { _fun0002_ip = 14; continue _fun0002 }
+            if(!(var3 !== var2)) { _fun0002_ip = 11; continue _fun0002 }
 case 33:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -377,7 +379,7 @@ case 33:
             var2['properties'] = var5;
             var2 = var3.bind(var4)(var2);
             _fun0002_ip = 31; continue _fun0002;
-case 14:
+case 11:
             var13 = var6.adCreativeId;
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;

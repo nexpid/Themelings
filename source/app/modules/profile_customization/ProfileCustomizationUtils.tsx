@@ -366,19 +366,19 @@ case 5:
             };
             var3 = var6.bind(var7)(var4, var3);
             var4 = null;
-            if(!(var4 == var5)) { _fun0007_ip = 12; continue _fun0007 }
-case 36:
+            if(!(var4 == var5)) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
             var1 = var1.avatarDecoration;
-            _fun0007_ip = 20; continue _fun0007;
-case 12:
+            _fun0007_ip = 38; continue _fun0007;
+case 36:
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
+            if(var4) { _fun0007_ip = 39; continue _fun0007 }
+case 40:
             var2 = var3.avatarDecoration;
-case 37:
+case 39:
             var1 = var2;
-case 20:
+case 38:
             return var1;
         }
     };
@@ -405,7 +405,7 @@ case 0:
                 var1 = _closure2_slot1;
                 var2 = null;
                 if(!(var2 != var1)) { _fun0009_ip = 10; continue _fun0009 }
-case 39:
+case 41:
                 var6 = _closure1_slot4;
                 var5 = var6.getGuildMemberProfile;
                 var1 = _closure2_slot0;
@@ -414,11 +414,11 @@ case 39:
                 var4 = var5.bind(var6)(var4, var1);
                 var5 = var2 == var4;
                 var1 = undefined;
-                if(var5) { _fun0009_ip = 40; continue _fun0009 }
-case 41:
+                if(var5) { _fun0009_ip = 42; continue _fun0009 }
+case 43:
                 var1 = var4.profileEffect;
-case 40:
-                _fun0009_ip = 37; continue _fun0009;
+case 42:
+                _fun0009_ip = 44; continue _fun0009;
 case 10:
                 var5 = _closure1_slot4;
                 var4 = var5.getUserProfile;
@@ -427,12 +427,12 @@ case 10:
                 var3 = var4.bind(var5)(var3);
                 var4 = var2 == var3;
                 var2 = undefined;
-                if(var4) { _fun0009_ip = 42; continue _fun0009 }
-case 43:
+                if(var4) { _fun0009_ip = 45; continue _fun0009 }
+case 46:
                 var2 = var3.profileEffect;
-case 42:
+case 45:
                 var1 = var2;
-case 37:
+case 44:
                 return var1;
             }
         };
@@ -462,7 +462,7 @@ case 0:
                 var1 = _closure2_slot1;
                 var2 = null;
                 if(!(var2 != var1)) { _fun0010_ip = 10; continue _fun0010 }
-case 39:
+case 41:
                 var6 = _closure1_slot4;
                 var5 = var6.getGuildMemberProfile;
                 var1 = _closure2_slot0;
@@ -471,11 +471,11 @@ case 39:
                 var4 = var5.bind(var6)(var4, var1);
                 var5 = var2 == var4;
                 var1 = undefined;
-                if(var5) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
+                if(var5) { _fun0010_ip = 42; continue _fun0010 }
+case 43:
                 var1 = var4.profileFrame;
-case 40:
-                _fun0010_ip = 37; continue _fun0010;
+case 42:
+                _fun0010_ip = 44; continue _fun0010;
 case 10:
                 var5 = _closure1_slot4;
                 var4 = var5.getUserProfile;
@@ -484,12 +484,12 @@ case 10:
                 var3 = var4.bind(var5)(var3);
                 var4 = var2 == var3;
                 var2 = undefined;
-                if(var4) { _fun0010_ip = 42; continue _fun0010 }
-case 43:
+                if(var4) { _fun0010_ip = 45; continue _fun0010 }
+case 46:
                 var2 = var3.profileFrame;
-case 42:
+case 45:
                 var1 = var2;
-case 37:
+case 44:
                 return var1;
             }
         };
@@ -601,7 +601,7 @@ case 0:
             var4 = var1.guildId;
             var3 = undefined;
             if(!(var3 === var5)) { _fun0011_ip = 3; continue _fun0011 }
-case 44:
+case 47:
             return var3;
 case 3:
             var2 = _closure1_slot6;
@@ -613,10 +613,10 @@ case 3:
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var3 = var1 != var2;
-            if(!var3) { _fun0011_ip = 45; continue _fun0011 }
-case 46:
+            if(!var3) { _fun0011_ip = 48; continue _fun0011 }
+case 49:
             var1 = var2;
-case 45:
+case 48:
             return var1;
         }
     };
@@ -627,15 +627,15 @@ case 0:
             var2 = arg1;
             var1 = undefined;
             if(!(var1 !== var2)) { _fun0012_ip = 29; continue _fun0012 }
-case 47:
+case 50:
             var1 = null;
             var1 = var1 != var2;
-            _fun0012_ip = 48; continue _fun0012;
+            _fun0012_ip = 51; continue _fun0012;
 case 29:
             var3 = null;
             var2 = arg2;
             var1 = var3 != var2;
-case 48:
+case 51:
             return var1;
         }
     };
@@ -646,15 +646,15 @@ case 0:
             var2 = arg1;
             var1 = undefined;
             if(!(var1 !== var2)) { _fun0013_ip = 29; continue _fun0013 }
-case 47:
+case 50:
             var1 = null;
             var1 = var1 != var2;
-            _fun0013_ip = 48; continue _fun0013;
+            _fun0013_ip = 51; continue _fun0013;
 case 29:
             var3 = null;
             var2 = arg2;
             var1 = var3 != var2;
-case 48:
+case 51:
             return var1;
         }
     };
@@ -664,11 +664,11 @@ case 48:
 case 0:
             var2 = arg1;
             var1 = 'set';
-            if(!(var1 !== var2)) { _fun0014_ip = 49; continue _fun0014 }
-case 50:
+            if(!(var1 !== var2)) { _fun0014_ip = 52; continue _fun0014 }
+case 53:
             var1 = 'remove';
-            if(!(var1 !== var2)) { _fun0014_ip = 51; continue _fun0014 }
-case 52:
+            if(!(var1 !== var2)) { _fun0014_ip = 54; continue _fun0014 }
+case 55:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 5;
@@ -688,8 +688,8 @@ case 52:
             var1 = var1["/b5nqj"];
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-            _fun0014_ip = 53; continue _fun0014;
-case 51:
+            _fun0014_ip = 56; continue _fun0014;
+case 54:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 5;
@@ -709,8 +709,8 @@ case 51:
             var1 = var1.f1+oNk;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-            _fun0014_ip = 53; continue _fun0014;
-case 49:
+            _fun0014_ip = 56; continue _fun0014;
+case 52:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 5;
@@ -730,7 +730,7 @@ case 49:
             var1 = var1.dyU5c5;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-case 53:
+case 56:
             var1 = undefined;
             return var1;
         }

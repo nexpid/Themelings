@@ -160,6 +160,19 @@ case 3:
             var13 = var15.buttonAction;
 case 2:
             var1['buttonAction'] = var13;
+            var15 = var20.button;
+            var16 = var9 == var15;
+            var13 = undefined;
+            if(var16) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var15 = var15.navigableStorefrontApplicationId;
+            var16 = var9 == var15;
+            var13 = undefined;
+            if(var16) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
+            var13 = var15.value;
+case 4:
+            var1['applicationId'] = var13;
             var1['analyticsLocations'] = var12;
             var1['analyticsPage'] = var11;
             var1['onPaymentSuccess'] = var7;
@@ -224,8 +237,8 @@ case 2:
             var8 = var20.assetUrl;
             var7 = '';
             var8 = var7 !== var8;
-            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var8) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var11 = _closure1_slot6;
             var10 = _closure1_slot3;
             var7 = {};
@@ -238,7 +251,7 @@ case 5:
             var12 = 'contain';
             var7['resizeMode'] = var12;
             var8 = var11.bind(var4)(var10, var7);
-case 4:
+case 7:
             var7 = new Array(4);
             var7[0] = var8;
             var16 = _closure1_slot6;
@@ -266,8 +279,8 @@ case 4:
             var13 = ' ';
             var12[1] = var13;
             var13 = var9 != var22;
-            if(!var13) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var13) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var21 = _closure1_slot6;
             var19 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -292,15 +305,15 @@ case 7:
             var22 = var22.linkText;
             var16['children'] = var22;
             var13 = var21.bind(var4)(var19, var16);
-case 6:
+case 9:
             var12[2] = var13;
             var8['children'] = var12;
             var8 = var11.bind(var4)(var10, var8);
             var7[2] = var8;
             var8 = var20.button;
             var8 = var9 != var8;
-            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var8) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var11 = _closure1_slot6;
             var10 = _closure1_slot4;
             var9 = {};
@@ -342,7 +355,7 @@ case 9:
             var12 = var11.bind(var4)(var13, var12);
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
-case 8:
+case 11:
             var7[3] = var8;
             var5['children'] = var7;
             var5 = var6.bind(var4)(var2, var5);

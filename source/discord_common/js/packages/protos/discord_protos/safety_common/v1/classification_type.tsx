@@ -586,6 +586,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['INAPPROPRIATE_SEXUAL_INTERACTIONS_WITH_MINORS_NON_GROOMING_SMITE'] = var5;
     var1 = 'INAPPROPRIATE_SEXUAL_INTERACTIONS_WITH_MINORS_NON_GROOMING_SMITE';
     var2[var5] = var1;
+    var5 = 3125;
+    var2['HARASSMENT_AND_NONIMMINENT_AND_OR_NON_PHYSICAL_THREATS_GUILD_SMITE'] = var5;
+    var1 = 'HARASSMENT_AND_NONIMMINENT_AND_OR_NON_PHYSICAL_THREATS_GUILD_SMITE';
+    var2[var5] = var1;
+    var5 = 3200;
+    var2['QUARANTINE_SMITE'] = var5;
+    var1 = 'QUARANTINE_SMITE';
+    var2[var5] = var1;
     var5 = 4000;
     var2['PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK'] = var5;
     var1 = 'PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK';

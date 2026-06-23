@@ -667,7 +667,7 @@ case 86:
             var1 = var1[var11];
             var9 = undefined;
             var1 = var10.bind(var9)(var1);
-            var1 = var1.JumpTypes;
+            var1 = var1.JumpType;
             var1 = var1.INSTANT;
             if(!(var3 !== var1)) { _fun0006_ip = 87; continue _fun0006 }
 case 88:
@@ -675,7 +675,7 @@ case 88:
             var1 = _closure1_slot2;
             var1 = var1[var11];
             var1 = var3.bind(var9)(var1);
-            var1 = var1.JumpTypes;
+            var1 = var1.JumpType;
             var3 = var1.ANIMATED;
             _fun0006_ip = 89; continue _fun0006;
 case 87:
@@ -683,7 +683,7 @@ case 87:
             var1 = _closure1_slot2;
             var1 = var1[var11];
             var1 = var10.bind(var9)(var1);
-            var1 = var1.JumpTypes;
+            var1 = var1.JumpType;
             var3 = var1.INSTANT;
 case 89:
             var1 = {};
@@ -728,7 +728,7 @@ case 85:
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
-            var2 = var2.JumpTypes;
+            var2 = var2.JumpType;
             var2 = var2.ANIMATED;
             var1['jumpType'] = var2;
             return var1;

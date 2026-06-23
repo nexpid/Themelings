@@ -16,6 +16,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['XBOX'] = var1;
     var1 = 'playstation';
     var2['PLAYSTATION'] = var1;
+    var1 = 'switch';
+    var2['SWITCH'] = var1;
+    var1 = 'apple arcade';
+    var2['APPLE_ARCADE'] = var1;
+    var1 = 'netflix';
+    var2['NETFLIX'] = var1;
+    var1 = 'amazon kids+';
+    var2['AMAZON_KIDS_PLUS'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

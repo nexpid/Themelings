@@ -628,7 +628,7 @@ case 31:
 case 33:
             var2 = var7.useThumbnail;
             if(var2) { _fun0007_ip = 32; continue _fun0007 }
-case 34:
+case 9:
             var5 = _closure1_slot9;
             var4 = _closure1_slot13;
             var2 = {};
@@ -637,7 +637,7 @@ case 34:
             var11 = var7;
             var9 = copyDataProperties(var12, var11);
             var2 = var5.bind(var6)(var4, var2);
-            _fun0007_ip = 35; continue _fun0007;
+            _fun0007_ip = 34; continue _fun0007;
 case 32:
             var5 = _closure1_slot9;
             var4 = _closure1_slot14;
@@ -650,7 +650,7 @@ case 32:
             var7 = var7.thumbnailUrlOverride;
             var3['thumbnailUrlOverride'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 35:
+case 34:
             var1 = var2;
 case 30:
             return var1;

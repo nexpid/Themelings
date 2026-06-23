@@ -306,17 +306,17 @@ case 40:
             var2 = var3.bind(var4)(var2);
             var4 = var1 != var7;
             var3 = null;
-            if(!var4) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+            if(!var4) { _fun0004_ip = 15; continue _fun0004 }
+case 43:
             var5 = var6.getParticipant;
             var4 = var8.getSpeaker;
             var4 = var4.bind(var8)(var7);
             var3 = var5.bind(var6)(var7, var4);
-case 43:
-            if(!(var1 != var3)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+            if(!(var1 != var3)) { _fun0004_ip = 44; continue _fun0004 }
 case 45:
             var2 = var3;
-case 14:
+case 44:
             var4 = _closure1_slot12;
             var3 = undefined;
             var3 = var4.bind(var3)(var2);
@@ -398,45 +398,45 @@ case 0:
                     var1 = _closure2_slot1;
                     var1 = var3.bind(var5)(var1);
                     var5 = null;
-                    if(!(var5 != var1)) { _fun0007_ip = 51; continue _fun0007 }
-case 52:
+                    if(!(var5 != var1)) { _fun0007_ip = 46; continue _fun0007 }
+case 51:
                     var3 = _closure1_slot3;
                     var1 = var3.getCurrentEmbeddedActivity;
                     var1 = var1.bind(var3)();
                     var3 = _closure2_slot2;
                     var3 = var5 != var3;
-                    if(!var3) { _fun0007_ip = 53; continue _fun0007 }
+                    if(!var3) { _fun0007_ip = 52; continue _fun0007 }
 case 41:
                     var7 = _closure1_slot9;
                     var6 = var7.isLocalVideoDisabled;
                     var2 = _closure2_slot2;
                     var2 = var2.id;
                     var3 = var6.bind(var7)(var2);
-case 53:
+case 52:
                     var1 = var5 != var1;
-                    if(!var1) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+                    if(!var1) { _fun0007_ip = 50; continue _fun0007 }
+case 53:
                     var2 = _closure2_slot0;
                     var1 = !var2;
-case 54:
-                    if(var1) { _fun0007_ip = 46; continue _fun0007 }
-case 56:
+case 50:
+                    if(var1) { _fun0007_ip = 54; continue _fun0007 }
+case 49:
                     var2 = _closure2_slot2;
                     var2 = var5 != var2;
-                    if(!var2) { _fun0007_ip = 57; continue _fun0007 }
-case 58:
+                    if(!var2) { _fun0007_ip = 47; continue _fun0007 }
+case 55:
                     var4 = _closure2_slot2;
                     var4 = var4.streamId;
                     var2 = var5 != var4;
+case 47:
+                    if(!var2) { _fun0007_ip = 56; continue _fun0007 }
 case 57:
-                    if(!var2) { _fun0007_ip = 59; continue _fun0007 }
-case 60:
                     var2 = !var3;
-case 59:
+case 56:
                     var1 = var2;
-case 46:
+case 54:
                     return var1;
-case 51:
+case 46:
                     var1 = false;
                     return var1;
                 }

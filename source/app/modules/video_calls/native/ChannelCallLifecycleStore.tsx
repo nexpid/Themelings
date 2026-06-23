@@ -383,10 +383,10 @@ case 0:
             var1 = undefined;
             var4 = var6.bind(var1)(var4);
             var4 = var4.bind(var1)(var2, var5);
-            if(var4) { _fun0008_ip = 4; continue _fun0008 }
-case 3:
+            if(var4) { _fun0008_ip = 5; continue _fun0008 }
+case 16:
             _closure1_slot14 = var2;
-case 4:
+case 5:
             return var1;
         }
     };

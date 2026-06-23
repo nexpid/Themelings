@@ -346,7 +346,22 @@ case 2:
     var12[8] = var14;
     var12[9] = var13;
     var5 = function() {
-        var1 = '∞';
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 4;
+        var3 = var6[var1];
+        var2 = undefined;
+        var3 = var5.bind(var2)(var3);
+        var4 = var3.intl;
+        var3 = var4.formatToPlainString;
+        var1 = var6[var1];
+        var1 = var5.bind(var2)(var1);
+        var1 = var1.t;
+        var2 = var1.r/IcuP;
+        var1 = {};
+        var5 = 0;
+        var1['maxUses'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var4 = function() {

@@ -913,14 +913,14 @@ case 37:
                     var11 = var11 > var10;
                     var10 = undefined;
                     if(!var11) { _fun0009_ip = 38; continue _fun0009 }
-case 39:
+case 4:
                     var10 = _closure2_slot18;
 case 38:
                     var1['containerWidth'] = var10;
                     var9 = _closure2_slot21;
                     var1['isVisible'] = var9;
                     var1 = var8.bind(var7)(var6, var1);
-                    _fun0009_ip = 40; continue _fun0009;
+                    _fun0009_ip = 39; continue _fun0009;
 case 36:
                     var8 = _closure1_slot12;
                     var6 = _closure1_slot0;
@@ -932,7 +932,7 @@ case 36:
                     var6 = var5.WishlistEmptyState;
                     var5 = {};
                     var1 = var8.bind(var7)(var6, var5);
-case 40:
+case 39:
                     var2['children'] = var1;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2);
@@ -1033,10 +1033,10 @@ case 40:
             var17 = _closure1_slot9;
             var20 = var17.WISHLIST;
             var17 = 0;
-            if(!(var11 === var20)) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
-            var17 = var23;
+            if(!(var11 === var20)) { _fun0003_ip = 40; continue _fun0003 }
 case 41:
+            var17 = var23;
+case 40:
             var6['defaultIndex'] = var17;
             var17 = _closure1_slot1;
             var33 = _closure1_slot2;
@@ -1086,16 +1086,16 @@ case 41:
 case 0:
                     var3 = _closure2_slot4;
                     var5 = undefined;
-                    if(!(var5 !== var3)) { _fun0010_ip = 43; continue _fun0010 }
-case 44:
+                    if(!(var5 !== var3)) { _fun0010_ip = 5; continue _fun0010 }
+case 42:
                     var4 = _closure2_slot4;
                     var2 = _closure1_slot9;
                     var3 = var2.WISHLIST;
                     var2 = 0;
-                    if(!(var4 === var3)) { _fun0010_ip = 45; continue _fun0010 }
-case 46:
+                    if(!(var4 === var3)) { _fun0010_ip = 43; continue _fun0010 }
+case 44:
                     var2 = 1;
-case 45:
+case 43:
                     var _closure3_slot1 = var2;
                     var2 = global;
                     var4 = var2.setTimeout;
@@ -1117,36 +1117,36 @@ case 45:
                     var2 = 80;
                     var2 = var4.bind(var5)(var3, var2);
                     var _closure3_slot0 = var2;
-case 43:
+case 5:
                     var1 = function() {
                         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                             var3 = _closure3_slot0;
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0011_ip = 47; continue _fun0011 }
-case 48:
+                            if(!(var2 != var3)) { _fun0011_ip = 45; continue _fun0011 }
+case 46:
                             var3 = global;
                             var4 = var3.clearTimeout;
                             var3 = _closure3_slot0;
                             var1 = undefined;
                             var1 = var4.bind(var1)(var3);
-case 47:
+case 45:
                             var4 = _closure2_slot6;
                             var3 = var4.isFocused;
                             var3 = var3.bind(var4)();
-                            if(var3) { _fun0011_ip = 49; continue _fun0011 }
-case 50:
+                            if(var3) { _fun0011_ip = 47; continue _fun0011 }
+case 48:
                             var4 = _closure2_slot6;
                             var3 = var4.getParent;
                             var4 = var3.bind(var4)();
                             var2 = var2 != var4;
-                            if(!var2) { _fun0011_ip = 51; continue _fun0011 }
-case 43:
+                            if(!var2) { _fun0011_ip = 49; continue _fun0011 }
+case 5:
                             var3 = var4.isFocused;
                             var2 = var3.bind(var4)();
-case 51:
-                            if(!var2) { _fun0011_ip = 49; continue _fun0011 }
-case 52:
+case 49:
+                            if(!var2) { _fun0011_ip = 47; continue _fun0011 }
+case 50:
                             var3 = _closure2_slot6;
                             var2 = var3.setParams;
                             var1 = {};
@@ -1154,7 +1154,7 @@ case 52:
                             var4 = var4.MAIN;
                             var1['initialTab'] = var4;
                             var1 = var2.bind(var3)(var1);
-case 49:
+case 47:
                             var1 = undefined;
                             return var1;
                         }
@@ -1237,10 +1237,10 @@ case 49:
             var14['user'] = var32;
             var32 = var30 == var31;
             var30 = undefined;
-            if(var32) { _fun0003_ip = 53; continue _fun0003 }
-case 54:
+            if(var32) { _fun0003_ip = 51; continue _fun0003 }
+case 52:
             var30 = var31.pronouns;
-case 53:
+case 51:
             var14['pronouns'] = var30;
             var14['badges'] = var29;
             var14['badgeContainerBackground'] = var24;
@@ -1315,10 +1315,10 @@ case 53:
             var18 = {};
             var18['state'] = var22;
             var24 = undefined;
-            if(!var25) { _fun0003_ip = 55; continue _fun0003 }
-case 56:
+            if(!var25) { _fun0003_ip = 53; continue _fun0003 }
+case 54:
             var24 = 'gradient-background';
-case 55:
+case 53:
             var18['variant'] = var24;
             var18 = var23.bind(var4)(var21, var18);
             var15['children'] = var18;

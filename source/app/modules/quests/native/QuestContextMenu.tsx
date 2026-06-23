@@ -693,7 +693,7 @@ case 0:
                     var5 = undefined;
                     var4 = undefined;
                     if(var3) { _fun0006_ip = 24; continue _fun0006 }
-case 4:
+case 20:
                     var3 = _closure2_slot9;
                     var4 = var3.id;
 case 24:

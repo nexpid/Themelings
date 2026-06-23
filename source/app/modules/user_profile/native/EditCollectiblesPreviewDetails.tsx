@@ -371,16 +371,16 @@ case 32:
 case 35:
             var15 = var13.name;
 case 34:
-            if(!(var16 == var15)) { _fun0002_ip = 4; continue _fun0002 }
-case 36:
+            if(!(var16 == var15)) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var17 = var16 == var12;
             var16 = undefined;
-            if(var17) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+            if(var17) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
             var16 = var12.name;
-case 37:
+case 38:
             var15 = var16;
-case 4:
+case 36:
             var6['children'] = var15;
             var8 = var9.bind(var5)(var8, var6);
             var6 = new Array(2);

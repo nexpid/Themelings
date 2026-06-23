@@ -309,7 +309,7 @@ case 47:
                     };
                     var1 = var2.bind(var3)(var1);
                     if(var1) { _fun0006_ip = 54; continue _fun0006 }
-case 41:
+case 11:
                     var1 = undefined;
                     return var1;
 case 54:
@@ -1103,12 +1103,12 @@ case 0:
                         var2 = var2.id;
                         var2 = var3.bind(var4)(var2);
                         if(!var2) { _fun0018_ip = 132; continue _fun0018 }
-case 133:
+case 54:
                         var2 = _closure3_slot0;
                         var3 = var2.onUpdate;
                         var2 = null;
                         if(!(var2 != var3)) { _fun0018_ip = 132; continue _fun0018 }
-case 134:
+case 133:
                         var2 = var3.call;
                         var1 = _closure3_slot0;
                         var1 = var2.bind(var3)(var1);
@@ -1131,8 +1131,8 @@ case 0:
                         var6 = var5;
                         var5 = false;
                         var3 = false;
-                        if(var4) { _fun0019_ip = 135; continue _fun0019 }
-case 136:
+                        if(var4) { _fun0019_ip = 57; continue _fun0019 }
+case 134:
                         var9 = _closure1_slot19;
                         var4 = var6.value;
                         var4 = var4.members;
@@ -1142,7 +1142,7 @@ case 136:
                         var11 = var5;
                         var10 = var9;
                         var9 = var11;
-                        if(var4) { _fun0019_ip = 137; continue _fun0019 }
+                        if(var4) { _fun0019_ip = 135; continue _fun0019 }
 case 17:
                         var4 = var10.value;
                         var14 = _closure3_slot0;
@@ -1150,35 +1150,35 @@ case 17:
                         var4 = var4.user;
                         var4 = var4.id;
                         var13 = var13.bind(var14)(var4);
-                        if(var13) { _fun0019_ip = 138; continue _fun0019 }
+                        if(var13) { _fun0019_ip = 136; continue _fun0019 }
 case 2:
                         var13 = var11;
-case 138:
+case 136:
                         var14 = var12.bind(var1)();
                         var4 = var14.done;
                         var11 = var13;
                         var10 = var14;
                         var9 = var11;
                         if(!var4) { _fun0019_ip = 17; continue _fun0019 }
-case 137:
+case 135:
                         var10 = var7.bind(var1)();
                         var4 = var10.done;
                         var5 = var9;
                         var6 = var10;
                         var3 = var5;
-                        if(!var4) { _fun0019_ip = 136; continue _fun0019 }
-case 135:
-                        if(!var3) { _fun0019_ip = 139; continue _fun0019 }
-case 140:
+                        if(!var4) { _fun0019_ip = 134; continue _fun0019 }
+case 57:
+                        if(!var3) { _fun0019_ip = 137; continue _fun0019 }
+case 138:
                         var3 = _closure3_slot0;
                         var4 = var3.onUpdate;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0019_ip = 139; continue _fun0019 }
-case 141:
+                        if(!(var3 != var4)) { _fun0019_ip = 137; continue _fun0019 }
+case 139:
                         var3 = var4.call;
                         var2 = _closure3_slot0;
                         var2 = var3.bind(var4)(var2);
-case 139:
+case 137:
                         return var1;
                     }
                 };
@@ -1188,18 +1188,18 @@ case 139:
 case 0:
                         var2 = arguments[0];
                         var1 = undefined;
-                        if(!(var2 === var1)) { _fun0020_ip = 142; continue _fun0020 }
-case 143:
+                        if(!(var2 === var1)) { _fun0020_ip = 140; continue _fun0020 }
+case 141:
                         var2 = false;
-case 142:
+case 140:
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
                         var4 = 13;
                         var4 = var6[var4];
                         var4 = var5.bind(var1)(var4);
                         var4 = var4.shouldUseCache;
-                        if(var4) { _fun0020_ip = 144; continue _fun0020 }
-case 145:
+                        if(var4) { _fun0020_ip = 142; continue _fun0020 }
+case 143:
                         var4 = _closure1_slot10;
                         var3 = var4.getUserAffinities;
                         var5 = var3.bind(var4)();
@@ -1216,7 +1216,7 @@ case 0:
                                 var2[var3] = var5;
                                 var2 = 5;
                                 if(!(var4 <= var2)) { _fun0021_ip = 5; continue _fun0021 }
-case 136:
+case 134:
                                 var2 = _closure3_slot0;
                                 var1 = var2.updateUser;
                                 var1 = var1.bind(var2)(var3);
@@ -1227,20 +1227,20 @@ case 5:
                         };
                         var3 = var4.bind(var5)(var3);
                         var4 = undefined;
-                        if(var2) { _fun0020_ip = 146; continue _fun0020 }
-case 147:
+                        if(var2) { _fun0020_ip = 144; continue _fun0020 }
+case 145:
                         var3 = _closure3_slot0;
                         var3 = var3.onUpdate;
                         var5 = null;
                         var2 = var5 == var3;
                         var4 = var3;
+case 144:
+                        if(var2) { _fun0020_ip = 142; continue _fun0020 }
 case 146:
-                        if(var2) { _fun0020_ip = 144; continue _fun0020 }
-case 49:
                         var3 = var4.call;
                         var2 = _closure3_slot0;
                         var2 = var3.bind(var4)(var2);
-case 144:
+case 142:
                         return var1;
                     }
                 };
@@ -1251,12 +1251,12 @@ case 144:
                 var3 = var6[var3];
                 var3 = var5.bind(var1)(var3);
                 var3 = var3.shouldUseCache;
-                if(var3) { _fun0010_ip = 148; continue _fun0010 }
-case 149:
+                if(var3) { _fun0010_ip = 147; continue _fun0010 }
+case 148:
                 var3 = var4.initializeUsersFromStores;
                 var3 = var3.bind(var4)();
-                _fun0010_ip = 150; continue _fun0010;
-case 148:
+                _fun0010_ip = 149; continue _fun0010;
+case 147:
                 var3 = var4.initializeUsersFromCache;
                 var4 = var3.bind(var4)();
                 var3 = var4.then;
@@ -1277,7 +1277,7 @@ case 41:
                     }
                 };
                 var2 = var3.bind(var4)(var2);
-case 150:
+case 149:
                 return var1;
             }
         };
@@ -1299,8 +1299,8 @@ case 37:
                 var3 = arg1;
                 var2['onUpdate'] = var3;
                 var3 = null;
-                if(!var5) { _fun0023_ip = 151; continue _fun0023 }
-case 133:
+                if(!var5) { _fun0023_ip = 150; continue _fun0023 }
+case 54:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 14;
@@ -1317,7 +1317,7 @@ case 0:
                         var _closure4_slot0 = var1;
                         var4 = _closure3_slot0;
                         var4 = var4.currentQuery;
-                        if(!(var4 === var5)) { _fun0024_ip = 152; continue _fun0024 }
+                        if(!(var4 === var5)) { _fun0024_ip = 47; continue _fun0024 }
 case 121:
                         var4 = new Array(0);
                         _closure4_slot0 = var4;
@@ -1334,8 +1334,8 @@ case 0:
                                 var3 = undefined;
                                 var3 = var6.bind(var3)(var5);
                                 var3 = var3.shouldUseCache;
-                                if(var3) { _fun0025_ip = 153; continue _fun0025 }
-case 145:
+                                if(var3) { _fun0025_ip = 151; continue _fun0025 }
+case 143:
                                 var6 = _closure1_slot15;
                                 var5 = var6.has;
                                 var8 = _closure1_slot12;
@@ -1344,10 +1344,10 @@ case 145:
                                 var3 = var7.bind(var8)(var3);
                                 var3 = var5.bind(var6)(var3);
                                 if(var3) { _fun0025_ip = 24; continue _fun0025 }
-case 154:
+case 152:
                                 var5 = _closure3_slot0;
                                 var5 = var5.withGameFriends;
-                                if(!var5) { _fun0025_ip = 155; continue _fun0025 }
+                                if(!var5) { _fun0025_ip = 153; continue _fun0025 }
 case 19:
                                 var6 = _closure1_slot9;
                                 var5 = var6.getGameFriendsForUser;
@@ -1355,51 +1355,51 @@ case 19:
                                 var4 = var5.bind(var6)(var4);
                                 var5 = var4.length;
                                 var4 = 0;
-                                if(!(!(var5 > var4))) { _fun0025_ip = 156; continue _fun0025 }
-case 155:
+                                if(!(!(var5 > var4))) { _fun0025_ip = 154; continue _fun0025 }
+case 153:
                                 var4 = _closure3_slot0;
                                 var3 = var4.getItem;
                                 var2 = var2.id;
                                 var5 = var3.bind(var4)(var2);
                                 var3 = null;
                                 var2 = var1;
-                                if(!(var3 != var5)) { _fun0025_ip = 157; continue _fun0025 }
-case 158:
+                                if(!(var3 != var5)) { _fun0025_ip = 155; continue _fun0025 }
+case 156:
                                 var4 = _closure4_slot0;
                                 var3 = var4.push;
                                 var3 = var3.bind(var4)(var5);
                                 var2 = true;
-case 157:
+case 155:
                                 return var2;
-case 156:
+case 154:
                                 return var1;
 case 24:
                                 return var1;
-case 153:
+case 151:
                                 var1 = false;
                                 return var1;
                             }
                         };
                         var3 = false;
                         var3 = var6.bind(var7)(var5, var3);
-                        if(!var3) { _fun0024_ip = 152; continue _fun0024 }
-case 42:
+                        if(!var3) { _fun0024_ip = 47; continue _fun0024 }
+case 61:
                         var3 = _closure3_slot0;
                         var3['filteredGuildMembers'] = var4;
                         var4 = var3.onUpdate;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0024_ip = 152; continue _fun0024 }
-case 159:
+                        if(!(var3 != var4)) { _fun0024_ip = 47; continue _fun0024 }
+case 157:
                         var3 = var4.call;
                         var2 = _closure3_slot0;
                         var2 = var3.bind(var4)(var2);
-case 152:
+case 47:
                         return var1;
                     }
                 };
                 var4 = 20;
                 var3 = var6.bind(var7)(var5, var4);
-case 151:
+case 150:
                 var2['userSearchContext'] = var3;
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
@@ -1603,10 +1603,10 @@ case 0:
                 var4 = arg1;
                 var6 = var5.bind(var6)(var4);
                 var4 = '';
-                if(!(var4 !== var6)) { _fun0027_ip = 58; continue _fun0027 }
-case 134:
+                if(!(var4 !== var6)) { _fun0027_ip = 158; continue _fun0027 }
+case 133:
                 var4 = arg2;
-                if(!var4) { _fun0027_ip = 160; continue _fun0027 }
+                if(!var4) { _fun0027_ip = 159; continue _fun0027 }
 case 36:
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
@@ -1616,10 +1616,10 @@ case 36:
                 var4 = var5.requestMembers;
                 var3 = null;
                 var3 = var4.bind(var5)(var3, var6);
-case 160:
+case 159:
                 var5 = var2.userSearchContext;
                 var3 = null;
-                if(!(var3 != var5)) { _fun0027_ip = 161; continue _fun0027 }
+                if(!(var3 != var5)) { _fun0027_ip = 160; continue _fun0027 }
 case 51:
                 var4 = var5.setQuery;
                 var3 = {};
@@ -1629,15 +1629,15 @@ case 51:
                 var6 = 0.002592;
                 var3['boosterFallback'] = var6;
                 var3 = var4.bind(var5)(var3);
-                _fun0027_ip = 161; continue _fun0027;
-case 58:
+                _fun0027_ip = 160; continue _fun0027;
+case 158:
                 var3 = var2.userSearchContext;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0027_ip = 161; continue _fun0027 }
-case 55:
+                if(!(var2 != var3)) { _fun0027_ip = 160; continue _fun0027 }
+case 161:
                 var2 = var3.clearQuery;
                 var2 = var2.bind(var3)();
-case 161:
+case 160:
                 return var1;
             }
         };
@@ -1662,10 +1662,10 @@ case 0:
                 var1 = var5.bind(var6)(var1);
                 var _closure3_slot1 = var1;
                 var5 = var3.currentQuery;
-                if(!(var5 !== var1)) { _fun0028_ip = 137; continue _fun0028 }
+                if(!(var5 !== var1)) { _fun0028_ip = 162; continue _fun0028 }
 case 131:
                 var5 = '';
-                if(!(var5 !== var1)) { _fun0028_ip = 162; continue _fun0028 }
+                if(!(var5 !== var1)) { _fun0028_ip = 114; continue _fun0028 }
 case 42:
                 var5 = new Array(0);
                 var3['filteredFriends'] = var5;
@@ -1708,13 +1708,13 @@ case 163:
                 };
                 var5 = var6.bind(var7)(var5);
                 _fun0028_ip = 164; continue _fun0028;
-case 162:
+case 114:
                 var5 = null;
                 var3['filteredFriends'] = var5;
                 var3['filteredGuildMembers'] = var5;
 case 164:
                 var3['currentQuery'] = var1;
-case 137:
+case 162:
                 var5 = var3.currentQuery;
                 var1 = '';
                 if(!(var1 !== var5)) { _fun0028_ip = 165; continue _fun0028 }
@@ -1834,8 +1834,8 @@ case 46:
                 if(!var5) { _fun0030_ip = 46; continue _fun0030 }
 case 166:
                 var5 = var4.withGameFriends;
-                if(!var5) { _fun0030_ip = 8; continue _fun0030 }
-case 167:
+                if(!var5) { _fun0030_ip = 167; continue _fun0030 }
+case 168:
                 var6 = _closure1_slot9;
                 var5 = var6.getGameRelationships;
                 var6 = var5.bind(var6)();
@@ -1852,7 +1852,7 @@ case 167:
                     return var1;
                 };
                 var3 = var5.bind(var6)(var3);
-case 8:
+case 167:
                 var3 = _closure1_slot19;
                 var5 = _closure1_slot8;
                 var2 = var5.getSuggestions;
@@ -1860,8 +1860,8 @@ case 8:
                 var5 = var3.bind(var1)(var2);
                 var3 = var5.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0030_ip = 168; continue _fun0030 }
-case 117:
+                if(var2) { _fun0030_ip = 169; continue _fun0030 }
+case 170:
                 var2 = var3.value;
                 var6 = var4.updateUser;
                 var2 = var2.user;
@@ -1870,8 +1870,8 @@ case 117:
                 var6 = var5.bind(var1)();
                 var2 = var6.done;
                 var3 = var6;
-                if(!var2) { _fun0030_ip = 117; continue _fun0030 }
-case 168:
+                if(!var2) { _fun0030_ip = 170; continue _fun0030 }
+case 169:
                 var3 = var4.handleUserAffinitiesUpdate;
                 var2 = true;
                 var2 = var3.bind(var4)(var2);
@@ -1904,8 +1904,8 @@ case 0:
                     var5 = var3.bind(var1)(var2);
                     var3 = var5.bind(var1)();
                     var2 = var3.done;
-                    if(var2) { _fun0031_ip = 169; continue _fun0031 }
-case 54:
+                    if(var2) { _fun0031_ip = 171; continue _fun0031 }
+case 172:
                     var7 = var3.value;
                     var6 = _closure3_slot0;
                     var2 = var6.updateUserCached;
@@ -1913,8 +1913,8 @@ case 54:
                     var6 = var5.bind(var1)();
                     var2 = var6.done;
                     var3 = var6;
-                    if(!var2) { _fun0031_ip = 54; continue _fun0031 }
-case 169:
+                    if(!var2) { _fun0031_ip = 172; continue _fun0031 }
+case 171:
                     return var1;
                 }
             };
@@ -1938,8 +1938,8 @@ case 0:
                 var7 = undefined;
                 var3 = var5.bind(var7)(var3);
                 var3 = var3.shouldUseCache;
-                if(var3) { _fun0032_ip = 170; continue _fun0032 }
-case 145:
+                if(var3) { _fun0032_ip = 173; continue _fun0032 }
+case 143:
                 var3 = var2.withGameFriends;
                 if(!var3) { _fun0032_ip = 52; continue _fun0032 }
 case 127:
@@ -1948,7 +1948,7 @@ case 127:
                 var3 = var3.bind(var5)(var4);
                 var5 = var3.length;
                 var3 = 0;
-                if(!(!(var5 > var3))) { _fun0032_ip = 171; continue _fun0032 }
+                if(!(!(var5 > var3))) { _fun0032_ip = 174; continue _fun0032 }
 case 52:
                 var5 = _closure1_slot15;
                 var3 = var5.has;
@@ -1960,29 +1960,29 @@ case 52:
                 var1 = var6.getRelationshipType;
                 var1 = var1.bind(var6)(var4);
                 var1 = var3.bind(var5)(var1);
-                if(var1) { _fun0032_ip = 171; continue _fun0032 }
-case 172:
+                if(var1) { _fun0032_ip = 174; continue _fun0032 }
+case 175:
                 var3 = var2.indexMap;
                 var1 = var3.delete;
                 var1 = var1.bind(var3)(var4);
                 return var1;
-case 171:
+case 174:
                 var1 = var2.getItem;
                 var5 = var1.bind(var2)(var4);
                 var1 = null;
-                if(!(var1 != var5)) { _fun0032_ip = 173; continue _fun0032 }
-case 174:
+                if(!(var1 != var5)) { _fun0032_ip = 176; continue _fun0032 }
+case 177:
                 var3 = var2.indexMap;
                 var1 = var3.set;
                 var1 = var1.bind(var3)(var4, var5);
                 _fun0032_ip = 65; continue _fun0032;
-case 173:
+case 176:
                 var3 = var2.indexMap;
                 var2 = var3.delete;
                 var1 = var2.bind(var3)(var4);
 case 65:
                 return var1;
-case 170:
+case 173:
                 var1 = false;
                 return var1;
             }
@@ -2001,7 +2001,7 @@ case 0:
                 var1 = var3.getUser;
                 var3 = var1.bind(var3)(var6);
                 var1 = null;
-                if(!(var1 != var3)) { _fun0033_ip = 175; continue _fun0033 }
+                if(!(var1 != var3)) { _fun0033_ip = 178; continue _fun0033 }
 case 40:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -2022,22 +2022,22 @@ case 40:
                 var14 = var1 != var12;
                 var4 = 0;
                 var11 = 0;
-                if(!var14) { _fun0033_ip = 176; continue _fun0033 }
-case 177:
+                if(!var14) { _fun0033_ip = 56; continue _fun0033 }
+case 179:
                 var11 = var12;
-case 176:
+case 56:
                 var5['affinity'] = var11;
                 var12 = var8.currentQuery;
                 var11 = '';
-                if(!(var11 !== var12)) { _fun0033_ip = 174; continue _fun0033 }
-case 178:
+                if(!(var11 !== var12)) { _fun0033_ip = 177; continue _fun0033 }
+case 180:
                 var12 = _closure1_slot21;
                 var11 = var8.currentQuery;
                 var8 = {};
                 var14 = true;
                 var8['contains'] = var14;
                 var7 = var12.bind(var9)(var13, var11, var8);
-case 174:
+case 177:
                 var5['firstMatch'] = var7;
                 var8 = _closure1_slot0;
                 var7 = _closure1_slot2;
@@ -2049,12 +2049,12 @@ case 174:
                 var3 = _closure1_slot14;
                 var3 = var3.FRIEND;
                 if(!(var7 !== var3)) { _fun0033_ip = 110; continue _fun0033 }
-case 179:
+case 181:
                 var3 = _closure1_slot9;
                 var2 = var3.getGameFriendsForUser;
                 var3 = var2.bind(var3)(var6);
                 var2 = var3.length;
-                if(!(!(var2 > var4))) { _fun0033_ip = 180; continue _fun0033 }
+                if(!(!(var2 > var4))) { _fun0033_ip = 182; continue _fun0033 }
 case 110:
                 var2 = {};
                 var17 = var2;
@@ -2063,7 +2063,7 @@ case 110:
                 var6 = 'type';
                 var2[5] = var7;
                 return var2;
-case 180:
+case 182:
                 var2 = {};
                 var17 = var2;
                 var16 = var5;
@@ -2073,7 +2073,7 @@ case 180:
                 var3 = 'type';
                 var2[2] = var4;
                 return var2;
-case 175:
+case 178:
                 return var1;
             }
         };
@@ -2091,30 +2091,30 @@ case 0:
                 var4 = var5.has;
                 var1 = var2.type;
                 var1 = var4.bind(var5)(var1);
-                if(var1) { _fun0034_ip = 181; continue _fun0034 }
+                if(var1) { _fun0034_ip = 183; continue _fun0034 }
 case 50:
                 var5 = var3.indexMap;
                 var4 = var5.delete;
                 var1 = var2.id;
                 var1 = var4.bind(var5)(var1);
                 return var1;
-case 181:
+case 183:
                 var1 = var3.getItemCached;
                 var6 = var1.bind(var3)(var2);
                 var1 = null;
                 if(!(var1 != var6)) { _fun0034_ip = 63; continue _fun0034 }
-case 182:
+case 184:
                 var5 = var3.indexMap;
                 var4 = var5.set;
                 var1 = var2.id;
                 var1 = var4.bind(var5)(var1, var6);
-                _fun0034_ip = 183; continue _fun0034;
+                _fun0034_ip = 185; continue _fun0034;
 case 63:
                 var4 = var3.indexMap;
                 var3 = var4.delete;
                 var2 = var2.id;
                 var1 = var3.bind(var4)(var2);
-case 183:
+case 185:
                 return var1;
             }
         };
@@ -2130,8 +2130,8 @@ case 0:
                 var4 = this;
                 var1 = null;
                 var2 = var1 == var5;
-                if(var2) { _fun0035_ip = 178; continue _fun0035 }
-case 184:
+                if(var2) { _fun0035_ip = 180; continue _fun0035 }
+case 186:
                 var2 = {};
                 var3 = var5.type;
                 var2['type'] = var3;
@@ -2152,17 +2152,17 @@ case 184:
                 if(!(var3 === var7)) { _fun0035_ip = 49; continue _fun0035 }
 case 19:
                 var3 = var5.nick;
-                _fun0035_ip = 155; continue _fun0035;
+                _fun0035_ip = 153; continue _fun0035;
 case 49:
                 var7 = _closure1_slot21;
                 var6 = var5.names;
                 var5 = var4.currentQuery;
                 var4 = undefined;
                 var3 = var7.bind(var4)(var6, var5);
-case 155:
+case 153:
                 var2['firstMatch'] = var3;
                 var1 = var2;
-case 178:
+case 180:
                 return var1;
             }
         };
@@ -2207,7 +2207,7 @@ case 0:
             var7 = var3.excludeCurrentUser;
             var21 = undefined;
             if(!(var7 === var21)) { _fun0036_ip = 2; continue _fun0036 }
-case 185:
+case 187:
             var7 = false;
 case 2:
             var _closure2_slot10 = var7;
@@ -2218,10 +2218,10 @@ case 9:
 case 8:
             var _closure2_slot11 = var6;
             var5 = var3.withAlphabeticalSections;
-            if(!(var5 === var21)) { _fun0036_ip = 186; continue _fun0036 }
-case 187:
+            if(!(var5 === var21)) { _fun0036_ip = 188; continue _fun0036 }
+case 58:
             var5 = true;
-case 186:
+case 188:
             var _closure2_slot12 = var5;
             var _closure2_slot13 = var21;
             var _closure2_slot14 = var21;

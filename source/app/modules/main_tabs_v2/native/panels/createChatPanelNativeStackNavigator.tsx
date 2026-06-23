@@ -178,7 +178,12 @@ case 11:
         var5 = var10.bind(var13)(var5, var8);
         var10 = var5.state;
         var _closure2_slot3 = var10;
-        var8 = var5.filteredDescriptors;
+        var12 = var5.filteredDescriptors;
+        var5 = 4;
+        var5 = var11[var5];
+        var8 = var6.bind(var4)(var5);
+        var5 = var8.useAccessibilityPatchedDescriptors;
+        var8 = var5.bind(var8)(var12);
         var12 = var13.useEffect;
         var5 = new Array(3);
         var5[0] = var9;
@@ -268,7 +273,7 @@ case 13:
         var2 = var12.bind(var13)(var2, var5);
         var2 = _closure1_slot3;
         var1 = {};
-        var5 = 4;
+        var5 = 5;
         var5 = var11[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.NativeStackView;
@@ -288,7 +293,7 @@ case 13:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

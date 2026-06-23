@@ -292,21 +292,41 @@ case 28:
                 var8 = _closure1_slot8;
                 var1['color'] = var8;
                 var17 = var2.bind(var4)(var3, var1);
+                var8 = undefined;
+                if(!var7) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
+                var1 = {};
+                var12 = _closure1_slot0;
+                var15 = _closure1_slot2;
+                var2 = 8;
+                var3 = var15[var2];
+                var3 = var12.bind(var4)(var3);
+                var9 = var3.intl;
+                var3 = var9.string;
+                var2 = var15[var2];
+                var2 = var12.bind(var4)(var2);
+                var2 = var2.t;
+                var2 = var2.y2b7CA;
+                var2 = var3.bind(var9)(var2);
+                var1['text'] = var2;
+                var8 = var1;
+case 30:
                 var3 = _closure1_slot6;
                 var2 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 8;
+                var1 = 9;
                 var1 = var9[var1];
                 var1 = var2.bind(var4)(var1);
                 var2 = var1.PressableScale;
                 var1 = {};
-                var8 = arg2;
-                var1['ref'] = var8;
-                var8 = var14.container;
-                var1['style'] = var8;
-                var8 = 'button';
-                var1['accessibilityRole'] = var8;
+                var12 = arg2;
+                var1['ref'] = var12;
+                var12 = var14.container;
+                var1['style'] = var12;
+                var12 = 'button';
+                var1['accessibilityRole'] = var12;
                 var1['accessibilityLabel'] = var10;
+                var1['accessibilityValue'] = var8;
                 var1['onPress'] = var5;
                 var8 = _closure1_slot1;
                 var5 = 5;
@@ -315,8 +335,8 @@ case 28:
                 var5 = var5.space;
                 var5 = var5.PX_8;
                 var1['hitSlop'] = var5;
-                if(!var6) { _fun0002_ip = 30; continue _fun0002 }
-case 2:
+                if(!var6) { _fun0002_ip = 8; continue _fun0002 }
+case 32:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var5 = 3;
@@ -325,9 +345,9 @@ case 2:
                 var5 = var8.isYouNavFloating;
                 var5 = var5.bind(var8)();
                 var6 = !var5;
-case 30:
-                if(!var6) { _fun0002_ip = 31; continue _fun0002 }
-case 5:
+case 8:
+                if(!var6) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
                 var9 = _closure1_slot6;
                 var8 = _closure1_slot5;
                 var5 = {};
@@ -354,12 +374,12 @@ case 5:
                 var12[1] = var15;
                 var5['children'] = var12;
                 var6 = var9.bind(var4)(var8, var5);
-case 31:
+case 33:
                 var5 = new Array(3);
                 var5[0] = var6;
                 var6 = var17;
-                if(!var7) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
+                if(!var7) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
                 var9 = _closure1_slot6;
                 var8 = _closure1_slot3;
                 var7 = {};
@@ -383,11 +403,11 @@ case 33:
                 var12[1] = var15;
                 var7['children'] = var12;
                 var6 = var9.bind(var4)(var8, var7);
-case 32:
+case 35:
                 var5[1] = var6;
                 var12 = null;
-                if(!(var12 == var11)) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
+                if(!(var12 == var11)) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var6 = 3;
@@ -396,12 +416,12 @@ case 35:
                 var6 = var7.isYouNavFloating;
                 var7 = var6.bind(var7)();
                 var6 = null;
-                if(!var7) { _fun0002_ip = 36; continue _fun0002 }
-case 34:
+                if(!var7) { _fun0002_ip = 20; continue _fun0002 }
+case 37:
                 var9 = _closure1_slot4;
                 var15 = _closure1_slot0;
                 var16 = _closure1_slot2;
-                var7 = 9;
+                var7 = 10;
                 var7 = var16[var7];
                 var7 = var15.bind(var4)(var7);
                 var8 = var7.Text;
@@ -414,22 +434,22 @@ case 34:
                 var14 = var15.isYouNavFloating;
                 var15 = var14.bind(var15)();
                 var14 = 'text-sm/semibold';
-                if(!var15) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+                if(!var15) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
                 var14 = 'text-xs/semibold';
-case 37:
+case 39:
                 var7['variant'] = var14;
                 var13 = _closure1_slot9;
                 var7['color'] = var13;
                 var13 = 2;
                 var7['maxFontSizeMultiplier'] = var13;
-                if(!(var12 != var11)) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
+                if(!(var12 != var11)) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
                 var10 = var11;
-case 39:
+case 41:
                 var7['children'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 36:
+case 20:
                 var5[2] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
@@ -439,7 +459,7 @@ case 36:
         var4 = var4.bind(var7)(var2);
         var2 = var7.memo;
         var2 = var2.bind(var7)(var4);
-        var4 = 10;
+        var4 = 11;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

@@ -143,7 +143,7 @@ case 21:
             var20 = 19;
             var20 = var9[var20];
             var20 = var21.bind(var12)(var20);
-            var20 = var20.JumpTypes;
+            var20 = var20.JumpType;
             var20 = var20.ANIMATED;
             var2['jumpType'] = var20;
             var2 = var14.bind(var18)(var2);
@@ -416,7 +416,7 @@ case 60:
             var14 = 19;
             var14 = var16[var14];
             var14 = var15.bind(var12)(var14);
-            var14 = var14.JumpTypes;
+            var14 = var14.JumpType;
             var14 = var14.ANIMATED;
             var13['jumpType'] = var14;
             var2['jump'] = var13;

@@ -534,7 +534,7 @@ case 73:
             var5 = 45;
             var5 = var7[var5];
             var5 = var6.bind(var1)(var5);
-            var5 = var5.JumpTypes;
+            var5 = var5.JumpType;
             var3 = var5.INSTANT;
 case 72:
             var _closure2_slot5 = var3;
@@ -574,7 +574,7 @@ case 80:
                     var3 = 45;
                     var3 = var9[var3];
                     var3 = var7.bind(var1)(var3);
-                    var3 = var3.JumpTypes;
+                    var3 = var3.JumpType;
                     var3 = var3.INSTANT;
                     var4['overrideScrollJumpType'] = var3;
                     var3 = true;
@@ -598,7 +598,7 @@ case 74:
                     var7 = 45;
                     var7 = var10[var7];
                     var7 = var9.bind(var1)(var7);
-                    var7 = var7.JumpTypes;
+                    var7 = var7.JumpType;
                     var7 = var7.ANIMATED;
                     var7 = var8 === var7;
                     var2['animated'] = var7;
@@ -2250,7 +2250,7 @@ case 210:
             var11 = var2[var8];
             var2 = undefined;
             var11 = var12.bind(var2)(var11);
-            var11 = var11.JumpTypes;
+            var11 = var11.JumpType;
             var11 = var11.INSTANT;
             var7['jumpType'] = var11;
             var11 = var4.focusTargetId;
@@ -2278,7 +2278,7 @@ case 213:
                 var4 = var4[var1];
                 var1 = undefined;
                 var4 = var5.bind(var1)(var4);
-                var4 = var4.JumpTypes;
+                var4 = var4.JumpType;
                 var4 = var4.INSTANT;
                 var2['jumpType'] = var4;
                 var1 = var3.bind(var1)(var2);
@@ -2297,7 +2297,7 @@ case 212:
             var6 = _closure1_slot2;
             var6 = var6[var8];
             var6 = var7.bind(var2)(var6);
-            var6 = var6.JumpTypes;
+            var6 = var6.JumpType;
             var6 = var6.INSTANT;
             var1['jumpType'] = var6;
             var1 = var5.bind(var2)(var1);
@@ -2338,7 +2338,7 @@ case 215:
             var3 = 45;
             var3 = var5[var3];
             var3 = var4.bind(var1)(var3);
-            var3 = var3.JumpTypes;
+            var3 = var3.JumpType;
             var13 = var3.ANIMATED;
 case 40:
             var8 = var11.scrollPosition;
@@ -2376,7 +2376,7 @@ case 222:
             var11 = 45;
             var11 = var16[var11];
             var11 = var15.bind(var1)(var11);
-            var11 = var11.JumpTypes;
+            var11 = var11.JumpType;
             var11 = var11.INSTANT;
             var4 = var13 === var11;
 case 221:
@@ -2405,7 +2405,7 @@ case 224:
             var14 = 45;
             var14 = var16[var14];
             var14 = var15.bind(var1)(var14);
-            var15 = var14.JumpTypes;
+            var15 = var14.JumpType;
             if(var11) { _fun0034_ip = 95; continue _fun0034 }
 case 225:
             var14 = var15.INSTANT;
