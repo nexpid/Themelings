@@ -35,9 +35,40 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot9 = var2;
+            _closure1_slot8 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
+            return var1;
+        }
+    };
+    var _closure1_slot8 = var1;
+    var1 = function clearContent(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = arg1;
+            var _closure2_slot0 = var3;
+            var2 = null;
+            if(!(var2 == var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var6 = _closure1_slot5;
+            var5 = var6.slice;
+            var4 = 0;
+            var2 = -1;
+            var2 = var5.bind(var6)(var4, var2);
+            _closure1_slot5 = var2;
+case 6:
+            var4 = _closure1_slot5;
+            var3 = var4.filter;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.key;
+                var1 = _closure2_slot0;
+                var1 = var2 !== var1;
+                return var1;
+            };
+            var1 = var3.bind(var4)(var1);
+            _closure1_slot5 = var1;
+            var1 = undefined;
             return var1;
         }
     };
@@ -80,7 +111,7 @@ case 4:
     var _closure1_slot5 = var2;
     var _closure1_slot6 = var1;
     var2 = function setContent(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
             var9 = var2.content;
@@ -90,15 +121,15 @@ case 0:
             var3 = var2.backdropKind;
             var6 = var2.stackingBehavior;
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var6 = 'replaceTopSheet';
-case 6:
-            var2 = var2.appEntryKey;
-            if(!(var2 === var1)) { _fun0002_ip = 8; continue _fun0002 }
+            if(!(var6 === var1)) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-            var2 = 'main';
+            var6 = 'replaceTopSheet';
 case 8:
+            var2 = var2.appEntryKey;
+            if(!(var2 === var1)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            var2 = 'main';
+case 10:
             var5 = {};
             var5['content'] = var9;
             var5['key'] = var8;
@@ -113,13 +144,13 @@ case 8:
             var2 = 3;
             var2 = var4 < var2;
             var4 = 'replaceAll';
-            if(!(var4 !== var6)) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            var4 = 'stack';
-            if(!(var4 === var6)) { _fun0002_ip = 12; continue _fun0002 }
+            if(!(var4 !== var6)) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-            if(var2) { _fun0002_ip = 14; continue _fun0002 }
-case 12:
+            var4 = 'stack';
+            if(!(var4 === var6)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+            if(var2) { _fun0003_ip = 16; continue _fun0003 }
+case 14:
             var7 = _closure1_slot5;
             var6 = var7.slice;
             var4 = 0;
@@ -127,8 +158,8 @@ case 12:
             var4 = var6.bind(var7)(var4, var2);
             var2 = var4.concat;
             var2 = var2.bind(var4)(var5);
-            _fun0002_ip = 15; continue _fun0002;
-case 14:
+            _fun0003_ip = 17; continue _fun0003;
+case 16:
             var11 = _closure1_slot5;
             var4 = new Array(1);
             var10 = 0;
@@ -138,49 +169,18 @@ case 14:
             var6 = 1;
             var6 = var7 + var6;
             var2 = var4;
-case 15:
-            _fun0002_ip = 16; continue _fun0002;
-case 10:
+case 17:
+            _fun0003_ip = 18; continue _fun0003;
+case 12:
             var4 = new Array(1);
             var4[0] = var5;
             var2 = var4;
-case 16:
+case 18:
             _closure1_slot5 = var2;
             return var1;
         }
     };
     var _closure1_slot7 = var2;
-    var2 = function clearContent(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var3 = arg1;
-            var _closure2_slot0 = var3;
-            var2 = null;
-            if(!(var2 == var3)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
-            var6 = _closure1_slot5;
-            var5 = var6.slice;
-            var4 = 0;
-            var2 = -1;
-            var2 = var5.bind(var6)(var4, var2);
-            _closure1_slot5 = var2;
-case 17:
-            var4 = _closure1_slot5;
-            var3 = var4.filter;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var2 = var1.key;
-                var1 = _closure2_slot0;
-                var1 = var2 !== var1;
-                return var1;
-            };
-            var1 = var3.bind(var4)(var1);
-            _closure1_slot5 = var1;
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var _closure1_slot8 = var2;
     var2 = 5;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -204,7 +204,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot2;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot8;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
@@ -389,7 +389,7 @@ case 24:
     var8 = function handleHideActionSheet(arg1) {
         var1 = arg1;
         var3 = var1.key;
-        var2 = _closure1_slot8;
+        var2 = _closure1_slot9;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -403,7 +403,7 @@ case 24:
     };
     var2['HIDE_ALL_ACTION_SHEETS'] = var8;
     var8 = function handleHideActionSheetQuickSwitcher() {
-        var3 = _closure1_slot8;
+        var3 = _closure1_slot9;
         var1 = undefined;
         var2 = 'QuickSwitcher';
         var2 = var3.bind(var1)(var2);
@@ -437,12 +437,12 @@ case 0:
             var4 = var1.length;
             var3 = _closure1_slot5;
             var3 = var3.length;
-            if(!(var4 !== var3)) { _fun0010_ip = 8; continue _fun0010 }
+            if(!(var4 !== var3)) { _fun0010_ip = 10; continue _fun0010 }
 case 25:
             _closure1_slot5 = var1;
             var1 = undefined;
             return var1;
-case 8:
+case 10:
             var1 = false;
             return var1;
         }

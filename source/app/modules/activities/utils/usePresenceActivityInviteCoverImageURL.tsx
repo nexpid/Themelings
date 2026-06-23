@@ -9,24 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var8;
     var _closure1_slot3 = var6;
-    var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = function _getPresenceActivityInviteCoverImageURL(arg1) {
+    var1 = function _getPresenceActivityInviteCoverImageURL(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -100,7 +83,24 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot6 = var4;
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -182,7 +182,7 @@ case 15:
         return var1;
     };
     var3['usePresenceActivityInviteCoverImageURL'] = var4;
-    var2 = function(arg1) {
+    var2 = function getPresenceActivityInviteCoverImageURL(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;

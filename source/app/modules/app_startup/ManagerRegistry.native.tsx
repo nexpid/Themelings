@@ -1012,6 +1012,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['PromotionsManager'] = var1;
     var1 = {};
     var8 = function inlineRequire() {

@@ -1,36 +1,12 @@
 // app/modules/action_sheet/native/ActionSheetActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var4 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var4;
+    var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
-    var1 = ['impressionName', 'impressionProperties', 'backdropKind', 'disableHapticOnOpen', 'appEntryKey'];
-    var _closure1_slot3 = var1;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var2 = {};
-    var1 = true;
-    var2['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
-    var1 = 0;
-    var2 = var7[var1];
-    var1 = undefined;
-    var2 = var4.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 1;
-    var4 = var7[var2];
-    var2 = metroImportAll;
-    var2 = var2.bind(var1)(var4);
-    var2 = 2;
-    var2 = var7[var2];
-    var2 = var6.bind(var1)(var2);
-    var2 = var2.jsx;
-    var _closure1_slot5 = var2;
     var2 = function showActionSheet(arg1) {
         var1 = arg1;
         var3 = var1.content;
@@ -125,6 +101,30 @@ case 4:
         return var1;
     };
     var _closure1_slot6 = var2;
+    var1 = ['impressionName', 'impressionProperties', 'backdropKind', 'disableHapticOnOpen', 'appEntryKey'];
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var8 = var7[var4];
+    var4 = metroImportAll;
+    var4 = var4.bind(var1)(var8);
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
     var4 = {};
     var8 = function openLazy(arg1, arg2, arg3, arg4) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -161,28 +161,28 @@ case 0:
                     var1 = null;
                     if(!(var1 == var2)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                    var11 = {};
+                    var10 = {};
                     _fun0003_ip = 11; continue _fun0003;
 case 9:
-                    var11 = _closure2_slot1;
+                    var10 = _closure2_slot1;
 case 11:
-                    var9 = var11.impressionName;
-                    var8 = var11.impressionProperties;
-                    var7 = var11.backdropKind;
-                    var5 = var11.disableHapticOnOpen;
-                    var4 = var11.appEntryKey;
-                    var10 = _closure1_slot4;
-                    var3 = _closure1_slot3;
+                    var9 = var10.impressionName;
+                    var8 = var10.impressionProperties;
+                    var7 = var10.backdropKind;
+                    var5 = var10.disableHapticOnOpen;
+                    var4 = var10.appEntryKey;
+                    var3 = _closure1_slot4;
+                    var2 = _closure1_slot3;
                     var1 = undefined;
-                    var12 = var10.bind(var1)(var11, var3);
-                    var11 = _closure1_slot5;
-                    var10 = {};
-                    var13 = var10;
-                    var3 = copyDataProperties(var13, var12);
-                    var3 = arg1;
-                    var10 = var11.bind(var1)(var3, var10);
+                    var13 = var3.bind(var1)(var10, var2);
                     var3 = _closure1_slot6;
                     var2 = {};
+                    var12 = _closure1_slot5;
+                    var11 = {};
+                    var14 = var11;
+                    var10 = copyDataProperties(var14, var13);
+                    var10 = arg1;
+                    var10 = var12.bind(var1)(var10, var11);
                     var2['content'] = var10;
                     var10 = _closure2_slot0;
                     var2['key'] = var10;

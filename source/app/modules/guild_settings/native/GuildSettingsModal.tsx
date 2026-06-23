@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot9 = var4;
-    var4 = 51;
+    var4 = 52;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -73,14 +73,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 47;
+            var2 = 48;
             var2 = var7[var2];
             var5 = undefined;
             var2 = var4.bind(var5)(var2);
             var2 = var2.bind(var5)();
             var3 = var2.bottom;
             var _closure2_slot0 = var3;
-            var2 = 48;
+            var2 = 49;
             var2 = var7[var2];
             var4 = var4.bind(var5)(var2);
             var2 = function() {
@@ -92,7 +92,7 @@ case 0:
             var2 = var4.bind(var5)(var2);
             var _closure2_slot1 = var2;
             var6 = _closure1_slot0;
-            var4 = 49;
+            var4 = 50;
             var4 = var7[var4];
             var8 = var6.bind(var5)(var4);
             var7 = var8.useStateFromStores;
@@ -434,6 +434,42 @@ case 3:
                         };
                         var3['render'] = var12;
                         var1[5] = var3;
+                        var6 = var2.TAG;
+                        var3 = {};
+                        var12 = var10[var7];
+                        var12 = var9.bind(var8)(var12);
+                        var12 = var12.ImpressionNames;
+                        var12 = var12.GUILD_SETTINGS_TAG;
+                        var3['impressionName'] = var12;
+                        var12 = var10[var5];
+                        var12 = var9.bind(var8)(var12);
+                        var14 = var12.intl;
+                        var13 = var14.string;
+                        var12 = var10[var5];
+                        var12 = var9.bind(var8)(var12);
+                        var12 = var12.t;
+                        var12 = var12["2QmKZ2"];
+                        var12 = var13.bind(var14)(var12);
+                        var3['title'] = var12;
+                        var12 = function render() {
+                            var4 = _closure1_slot9;
+                            var2 = _closure1_slot1;
+                            var3 = _closure1_slot2;
+                            var1 = 19;
+                            var1 = var3[var1];
+                            var3 = undefined;
+                            var2 = var2.bind(var3)(var1);
+                            var1 = {};
+                            var6 = _closure4_slot0;
+                            var1['guildId'] = var6;
+                            var7 = _closure4_slot1;
+                            var8 = var1;
+                            var5 = copyDataProperties(var8, var7);
+                            var1 = var4.bind(var3)(var2, var1);
+                            return var1;
+                        };
+                        var3['render'] = var12;
+                        var1[5] = var3;
                         var6 = var2.WEBHOOKS;
                         var3 = {};
                         var12 = var10[var7];
@@ -455,7 +491,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 19;
+                            var1 = 20;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -489,7 +525,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 20;
+                            var1 = 21;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -526,7 +562,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 19;
+                            var1 = 20;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -565,7 +601,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 21;
+                            var1 = 22;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -597,7 +633,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 22;
+                            var1 = 23;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -632,7 +668,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 23;
+                            var1 = 24;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -663,7 +699,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 24;
+                            var1 = 25;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -701,7 +737,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 25;
+                            var1 = 26;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -737,7 +773,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 26;
+                            var1 = 27;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -773,7 +809,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 27;
+                            var1 = 28;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -804,7 +840,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 28;
+                            var1 = 29;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -838,7 +874,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 29;
+                            var1 = 30;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -875,7 +911,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 30;
+                            var1 = 31;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -912,7 +948,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 31;
+                            var1 = 32;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -933,7 +969,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot0;
                             var3 = _closure1_slot2;
-                            var1 = 32;
+                            var1 = 33;
                             var1 = var3[var1];
                             var3 = undefined;
                             var1 = var2.bind(var3)(var1);
@@ -963,7 +999,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 33;
+                            var1 = 34;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -992,7 +1028,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 34;
+                            var1 = 35;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1032,7 +1068,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 35;
+                            var1 = 36;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1069,7 +1105,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 36;
+                            var1 = 37;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1106,7 +1142,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 37;
+                            var1 = 38;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1140,7 +1176,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 38;
+                            var1 = 39;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1168,7 +1204,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 39;
+                            var1 = 40;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1196,7 +1232,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 40;
+                            var1 = 41;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1224,7 +1260,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 41;
+                            var1 = 42;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1252,7 +1288,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 42;
+                            var1 = 43;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1284,7 +1320,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 43;
+                            var1 = 44;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1312,7 +1348,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 44;
+                            var1 = 45;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1340,7 +1376,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 45;
+                            var1 = 46;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1372,7 +1408,7 @@ case 3:
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 46;
+                            var1 = 47;
                             var1 = var3[var1];
                             var3 = undefined;
                             var2 = var2.bind(var3)(var1);
@@ -1462,7 +1498,7 @@ case 9:
             var4 = _closure1_slot9;
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 50;
+            var2 = 51;
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Navigator;

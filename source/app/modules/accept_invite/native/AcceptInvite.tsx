@@ -7,6 +7,104 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var14;
     var _closure1_slot2 = var6;
+    var1 = function getInviteState(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var5 = null;
+            var4 = var5 == var1;
+            var2 = undefined;
+            var3 = undefined;
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = var1.state;
+case 2:
+            var3 = var5 == var3;
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var6 = var5 == var1;
+            var4 = undefined;
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var4 = var1.channel;
+case 6:
+            var3 = var5 == var4;
+case 4:
+            if(!(var5 != var1)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var4 = var1.state;
+            if(!(var5 != var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 11:
+            var5 = var1.state;
+            var3 = _closure1_slot8;
+            var3 = var3.RESOLVED;
+            if(!(var3 !== var5)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var3 = _closure1_slot8;
+            var3 = var3.ACCEPTED;
+            if(!(var3 !== var5)) { _fun0001_ip = 12; continue _fun0001 }
+case 14:
+            var3 = _closure1_slot8;
+            var3 = var3.EXPIRED;
+            if(!(var3 !== var5)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+            var3 = _closure1_slot8;
+            var3 = var3.BANNED;
+            if(!(var3 !== var5)) { _fun0001_ip = 15; continue _fun0001 }
+case 17:
+            var3 = _closure1_slot8;
+            var3 = var3.ERROR;
+            if(!(var3 !== var5)) { _fun0001_ip = 15; continue _fun0001 }
+case 18:
+            var3 = _closure1_slot8;
+            var3 = var3.RESOLVING;
+            if(!(var3 !== var5)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var3 = _closure1_slot8;
+            var3 = var3.APP_NOT_OPENED;
+            if(!(var3 !== var5)) { _fun0001_ip = 19; continue _fun0001 }
+case 21:
+            var3 = _closure1_slot8;
+            var3 = var3.APP_OPENED;
+            if(!(var3 !== var5)) { _fun0001_ip = 19; continue _fun0001 }
+case 22:
+            var3 = _closure1_slot8;
+            var3 = var3.APP_OPENING;
+            if(!(var3 !== var5)) { _fun0001_ip = 19; continue _fun0001 }
+case 23:
+            var3 = _closure1_slot8;
+            var3 = var3.ACCEPTING;
+            if(!(var3 !== var5)) { _fun0001_ip = 19; continue _fun0001 }
+case 24:
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 7;
+            var3 = var6[var3];
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.assertNever;
+            var3 = var3.bind(var4)(var5);
+            return var2;
+case 19:
+            var2 = _closure1_slot12;
+            var2 = var2.LOADING;
+            return var2;
+case 15:
+            var2 = _closure1_slot12;
+            var2 = var2.ERROR;
+            return var2;
+case 12:
+            var1 = _closure1_slot12;
+            var1 = var1.DETAILS;
+            return var1;
+case 8:
+            var1 = _closure1_slot12;
+            var1 = var1.LOADING;
+            return var1;
+        }
+    };
+    var _closure1_slot13 = var1;
     var1 = function InviteResolving() {
         var1 = _closure1_slot11;
         var4 = undefined;
@@ -42,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot14 = var1;
     var1 = function AcceptInviteCardComponent(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = arg1;
             var7 = var6.invite;
@@ -68,15 +166,15 @@ case 0:
             var5[0] = var7;
             var5[1] = var3;
             var2 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var5 = _closure1_slot13;
                     var3 = _closure2_slot0;
                     var1 = undefined;
                     var3 = var5.bind(var1)(var3);
                     var5 = _closure2_slot1;
-                    if(!(var3 !== var5)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
+                    if(!(var3 !== var5)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var4 = 9;
@@ -86,28 +184,28 @@ case 3:
                     var4 = var4.bind(var5)();
                     var2 = _closure2_slot2;
                     var2 = var2.bind(var1)(var3);
-case 2:
+case 25:
                     return var1;
                 }
             };
             var2 = var8.bind(var9)(var2, var5);
             var2 = null;
-            if(!(var2 != var7)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!(var2 != var7)) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var2 = _closure1_slot12;
             var2 = var2.DETAILS;
-            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!(var2 !== var3)) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
             var2 = _closure1_slot12;
             var2 = var2.ERROR;
-            if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!(var2 !== var3)) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
             var5 = _closure1_slot9;
             var3 = _closure1_slot14;
             var2 = {};
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 8:
+case 31:
             var5 = _closure1_slot9;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -122,7 +220,7 @@ case 8:
             var2[7] = var7;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 6:
+case 29:
             var5 = _closure1_slot9;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -137,7 +235,7 @@ case 6:
             var2[5] = var7;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 4:
+case 27:
             var3 = _closure1_slot9;
             var2 = _closure1_slot14;
             var1 = {};
@@ -226,104 +324,6 @@ case 4:
     var7 = 'ERROR';
     var4[var8] = var7;
     var _closure1_slot12 = var4;
-    var4 = function getInviteState(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var1 = arg1;
-            var5 = null;
-            var4 = var5 == var1;
-            var2 = undefined;
-            var3 = undefined;
-            if(var4) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-            var3 = var1.state;
-case 10:
-            var3 = var5 == var3;
-            if(!var3) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-            var6 = var5 == var1;
-            var4 = undefined;
-            if(var6) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-            var4 = var1.channel;
-case 14:
-            var3 = var5 == var4;
-case 12:
-            if(!(var5 != var1)) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-            var4 = var1.state;
-            if(!(var5 != var4)) { _fun0003_ip = 16; continue _fun0003 }
-case 18:
-            if(var3) { _fun0003_ip = 16; continue _fun0003 }
-case 19:
-            var5 = var1.state;
-            var3 = _closure1_slot8;
-            var3 = var3.RESOLVED;
-            if(!(var3 !== var5)) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-            var3 = _closure1_slot8;
-            var3 = var3.ACCEPTED;
-            if(!(var3 !== var5)) { _fun0003_ip = 20; continue _fun0003 }
-case 22:
-            var3 = _closure1_slot8;
-            var3 = var3.EXPIRED;
-            if(!(var3 !== var5)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-            var3 = _closure1_slot8;
-            var3 = var3.BANNED;
-            if(!(var3 !== var5)) { _fun0003_ip = 23; continue _fun0003 }
-case 25:
-            var3 = _closure1_slot8;
-            var3 = var3.ERROR;
-            if(!(var3 !== var5)) { _fun0003_ip = 23; continue _fun0003 }
-case 26:
-            var3 = _closure1_slot8;
-            var3 = var3.RESOLVING;
-            if(!(var3 !== var5)) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-            var3 = _closure1_slot8;
-            var3 = var3.APP_NOT_OPENED;
-            if(!(var3 !== var5)) { _fun0003_ip = 27; continue _fun0003 }
-case 29:
-            var3 = _closure1_slot8;
-            var3 = var3.APP_OPENED;
-            if(!(var3 !== var5)) { _fun0003_ip = 27; continue _fun0003 }
-case 30:
-            var3 = _closure1_slot8;
-            var3 = var3.APP_OPENING;
-            if(!(var3 !== var5)) { _fun0003_ip = 27; continue _fun0003 }
-case 31:
-            var3 = _closure1_slot8;
-            var3 = var3.ACCEPTING;
-            if(!(var3 !== var5)) { _fun0003_ip = 27; continue _fun0003 }
-case 32:
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var3 = 7;
-            var3 = var6[var3];
-            var4 = var4.bind(var2)(var3);
-            var3 = var4.assertNever;
-            var3 = var3.bind(var4)(var5);
-            return var2;
-case 27:
-            var2 = _closure1_slot12;
-            var2 = var2.LOADING;
-            return var2;
-case 23:
-            var2 = _closure1_slot12;
-            var2 = var2.ERROR;
-            return var2;
-case 20:
-            var1 = _closure1_slot12;
-            var1 = var1.DETAILS;
-            return var1;
-case 16:
-            var1 = _closure1_slot12;
-            var1 = var1.LOADING;
-            return var1;
-        }
-    };
-    var _closure1_slot13 = var4;
     var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -367,7 +367,7 @@ case 36:
             var2 = var6.splash;
 case 35:
             if(!(var1 != var2)) { _fun0004_ip = 37; continue _fun0004 }
-case 22:
+case 14:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 12;

@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/activate_device/native/ActivateDeviceError.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function ActivateDeviceError(arg1) {
         var1 = arg1;
         var9 = var1.onRetry;
         var1 = _closure1_slot8;

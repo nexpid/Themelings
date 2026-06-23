@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['mediaHiddenRow'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 20;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -342,46 +342,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
                 var1 = arg1;
                 var _closure3_slot0 = var1;
-                var3 = _closure1_slot0;
+                var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var2 = 15;
                 var2 = var4[var2];
                 var5 = undefined;
-                var3 = var3.bind(var5)(var2);
-                var2 = var3.maybeCreateSingleForwardForMessage;
-                var2 = var2.bind(var3)(var1);
-                var3 = null;
-                var7 = var1;
-                if(!(var3 != var2)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var2 = var2.messageSnapshot;
-                var7 = var2.message;
-case 2:
-                var2 = var7.attachments;
-                var4 = var2.length;
-                var2 = var7.embeds;
-                var2 = var2.length;
-                var4 = var4 + var2;
-                var6 = _closure1_slot0;
-                var8 = _closure1_slot2;
-                var2 = 16;
-                var2 = var8[var2];
-                var6 = var6.bind(var5)(var2);
-                var2 = var6.getMessageStickers;
-                var2 = var2.bind(var6)(var7);
-                var2 = var2.length;
-                var14 = var4 + var2;
-                var4 = _closure2_slot3;
-                var6 = arg2;
+                var2 = var3.bind(var5)(var2);
+                var14 = var2.bind(var5)(var1);
+                var3 = _closure2_slot3;
+                var4 = arg2;
                 var2 = 1;
-                var2 = var6 - var2;
-                var2 = var4[var2];
+                var2 = var4 - var2;
+                var2 = var3[var2];
+                var3 = null;
                 var7 = var3 == var2;
-                if(var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+                if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var3 = 17;
+                var3 = 16;
                 var3 = var6[var3];
                 var6 = var4.bind(var5)(var3);
                 var4 = var6.isSameDay;
@@ -389,12 +368,12 @@ case 5:
                 var2 = var1.timestamp;
                 var2 = var4.bind(var6)(var3, var2);
                 var7 = !var2;
-case 4:
+case 2:
                 var4 = _closure1_slot7;
                 var3 = _closure1_slot4;
                 var2 = {};
-                if(!var7) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+                if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var9 = _closure1_slot7;
                 var8 = _closure1_slot4;
                 var6 = {};
@@ -417,7 +396,7 @@ case 7:
                 var13 = var20.bind(var5)(var13);
                 var15 = var13.Text;
                 var13 = {'variant': 'text-xs/semibold', 'color': 'text-muted'};
-                var19 = 17;
+                var19 = 16;
                 var19 = var21[var19];
                 var22 = var20.bind(var5)(var19);
                 var21 = var22.dateFormat;
@@ -436,7 +415,7 @@ case 7:
                 var10[2] = var13;
                 var6['children'] = var10;
                 var7 = var9.bind(var5)(var8, var6);
-case 6:
+case 4:
                 var6 = new Array(3);
                 var6[0] = var7;
                 var9 = _closure1_slot7;
@@ -448,7 +427,7 @@ case 6:
                 var15 = _closure1_slot6;
                 var13 = _closure1_slot1;
                 var22 = _closure1_slot2;
-                var10 = 18;
+                var10 = 17;
                 var10 = var22[var10];
                 var13 = var13.bind(var5)(var10);
                 var10 = {};
@@ -462,7 +441,7 @@ case 6:
                 var10[0] = var13;
                 var16 = _closure1_slot6;
                 var21 = _closure1_slot0;
-                var13 = 19;
+                var13 = 18;
                 var13 = var22[var13];
                 var13 = var21.bind(var5)(var13);
                 var15 = var13.PressableOpacity;
@@ -499,8 +478,8 @@ case 6:
                 var6[1] = var7;
                 var7 = 0;
                 var7 = var14 > var7;
-                if(!var7) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+                if(!var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var10 = _closure1_slot6;
                 var9 = _closure1_slot4;
                 var8 = {};
@@ -514,7 +493,7 @@ case 9:
                 var11 = var13.bind(var5)(var12, var11);
                 var8['children'] = var11;
                 var7 = var10.bind(var5)(var9, var8);
-case 8:
+case 6:
                 var6[2] = var7;
                 var2['children'] = var6;
                 var1 = var1.id;

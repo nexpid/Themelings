@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var9)(var4);
     var _closure1_slot9 = var4;
     var4 = var7.memo;
-    var2 = function(arg1) {
+    var2 = function ActivityInviteSheetRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -88,6 +88,13 @@ case 0:
             var _closure2_slot2 = var5;
             var9 = var3.sendState;
             var16 = var3.start;
+            var7 = function handlePress() {
+                var3 = _closure2_slot0;
+                var2 = _closure2_slot2;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
             var3 = _closure1_slot9;
             var4 = undefined;
             var13 = var3.bind(var4)();
@@ -96,33 +103,26 @@ case 0:
             var _closure2_slot3 = var17;
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var7 = 9;
-            var7 = var3[var7];
-            var18 = var6.bind(var4)(var7);
-            var14 = var18.useStateFromStores;
-            var7 = _closure1_slot4;
-            var12 = new Array(1);
-            var12[0] = var7;
-            var7 = function() {
+            var12 = 9;
+            var12 = var3[var12];
+            var19 = var6.bind(var4)(var12);
+            var18 = var19.useStateFromStores;
+            var12 = _closure1_slot4;
+            var14 = new Array(1);
+            var14[0] = var12;
+            var12 = function() {
                 var3 = _closure1_slot4;
                 var2 = var3.getChannel;
                 var1 = _closure2_slot3;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var30 = var14.bind(var18)(var12, var7);
-            var12 = _closure1_slot1;
-            var7 = 10;
-            var7 = var3[var7];
-            var7 = var12.bind(var4)(var7);
-            var18 = var7.bind(var4)(var30);
-            var7 = function handlePress() {
-                var3 = _closure2_slot0;
-                var2 = _closure2_slot2;
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
+            var30 = var18.bind(var19)(var14, var12);
+            var14 = _closure1_slot1;
+            var12 = 10;
+            var12 = var3[var12];
+            var12 = var14.bind(var4)(var12);
+            var18 = var12.bind(var4)(var30);
             var5 = var5.type;
             var12 = 11;
             var3 = var3[var12];
@@ -415,7 +415,7 @@ case 33:
             var17[0] = var18;
             var2 = var17;
 case 31:
-            var5 = function I(arg1) {
+            var5 = function P(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = arg1;

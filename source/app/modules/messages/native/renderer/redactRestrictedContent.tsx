@@ -76,82 +76,91 @@ case 2:
     var2 = function redactRestrictedContent(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var5 = arg1;
+            var1 = arg1;
             var6 = null;
-            var1 = var5;
-            if(!(var6 != var5)) { _fun0002_ip = 14; continue _fun0002 }
+            if(!(var6 != var1)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
             var3 = 'string';
-            var2 = typeof var5;
-            var1 = var5;
+            var2 = typeof var1;
             if(!(var3 !== var2)) { _fun0002_ip = 14; continue _fun0002 }
 case 16:
-            var4 = global;
-            var3 = var4.Array;
-            var2 = var3.isArray;
-            var2 = var2.bind(var3)(var5);
+            var3 = global;
+            var4 = var3.Array;
+            var2 = var4.isArray;
+            var2 = var2.bind(var4)(var1);
             if(var2) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            var3 = var5.type;
+            var4 = var1.type;
             var2 = 'link';
-            if(!(var2 !== var3)) { _fun0002_ip = 19; continue _fun0002 }
+            if(!(var2 !== var4)) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
-            var3 = var5.type;
+            var4 = var1.type;
             var2 = 'attachmentLink';
-            if(!(var2 !== var3)) { _fun0002_ip = 19; continue _fun0002 }
+            if(!(var2 !== var4)) { _fun0002_ip = 19; continue _fun0002 }
 case 21:
-            var3 = var5.type;
+            var4 = var1.type;
             var2 = 'customEmoji';
-            if(!(var2 !== var3)) { _fun0002_ip = 22; continue _fun0002 }
+            if(!(var2 !== var4)) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
-            var3 = var5.content;
-            var2 = var5;
-            if(!(var6 != var3)) { _fun0002_ip = 24; continue _fun0002 }
-case 12:
-            var3 = {};
-            var10 = var3;
-            var9 = var5;
-            var6 = copyDataProperties(var10, var9);
-            var8 = _closure1_slot1;
-            var7 = var5.content;
-            var6 = undefined;
-            var7 = var8.bind(var6)(var7);
-            var6 = 'content';
-            var3[5] = var7;
-            var2 = var3;
-case 24:
-            _fun0002_ip = 25; continue _fun0002;
-case 22:
-            var3 = {};
-            var6 = 'text';
-            var3['type'] = var6;
-            var7 = var5.alt;
-            var4 = var4.HermesInternal;
-            var6 = var4.concat;
-            var4 = ':';
-            var4 = var6.bind(var4)(var7, var4);
-            var3['content'] = var4;
-            var2 = var3;
+            var2 = var1.content;
+            var5 = var1;
+            if(!(var6 != var2)) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
-            _fun0002_ip = 26; continue _fun0002;
-case 19:
-            var3 = {};
-            var4 = 'inlineCode';
-            var3['type'] = var4;
-            var7 = _closure1_slot0;
-            var6 = var5.content;
+            var2 = {};
+            var10 = var2;
+            var9 = var1;
+            var4 = copyDataProperties(var10, var9);
+            var8 = _closure1_slot1;
+            var7 = var1.content;
             var4 = undefined;
-            var4 = var7.bind(var4)(var6);
-            var3['content'] = var4;
-            var2 = var3;
-case 26:
-            _fun0002_ip = 27; continue _fun0002;
-case 17:
-            var4 = var5.map;
-            var3 = _closure1_slot1;
-            var2 = var4.bind(var5)(var3);
+            var7 = var8.bind(var4)(var7);
+            var4 = 'content';
+            var2[3] = var7;
+            var5 = var2;
+case 24:
+            var4 = var1.items;
+            var2 = var5;
+            if(!(var6 != var4)) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
-            var1 = var2;
+            var4 = {};
+            var10 = var4;
+            var9 = var5;
+            var5 = copyDataProperties(var10, var9);
+            var7 = _closure1_slot1;
+            var6 = var1.items;
+            var5 = undefined;
+            var6 = var7.bind(var5)(var6);
+            var5 = 'items';
+            var4[4] = var6;
+            var2 = var4;
+case 26:
+            return var2;
+case 22:
+            var2 = {};
+            var4 = 'text';
+            var2['type'] = var4;
+            var5 = var1.alt;
+            var3 = var3.HermesInternal;
+            var4 = var3.concat;
+            var3 = ':';
+            var3 = var4.bind(var3)(var5, var3);
+            var2['content'] = var3;
+            return var2;
+case 19:
+            var2 = {};
+            var3 = 'inlineCode';
+            var2['type'] = var3;
+            var5 = _closure1_slot0;
+            var4 = var1.content;
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var2['content'] = var3;
+            return var2;
+case 17:
+            var3 = var1.map;
+            var2 = _closure1_slot1;
+            var2 = var3.bind(var1)(var2);
+            return var2;
 case 14:
             return var1;
         }

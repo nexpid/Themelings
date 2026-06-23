@@ -287,7 +287,7 @@ case 10:
             var3['canUnarchiveThread'] = var8;
             var3['isLurking'] = var7;
             var3['favorites'] = var2;
-            var2 = function(arg1) {
+            var2 = function getActionSheetButtons(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = arg1;

@@ -100,12 +100,12 @@ case 2:
             var1 = var9[var4];
             var5 = undefined;
             var1 = var8.bind(var5)(var1);
-            var10 = var1.TimestampBadge;
+            var10 = var1.PartyBadge;
             var1 = new Array(2);
             var1[0] = var10;
             var4 = var9[var4];
             var4 = var8.bind(var5)(var4);
-            var4 = var4.PartyBadge;
+            var4 = var4.TimestampBadge;
             var1[1] = var4;
             var7 = var1;
 case 10:

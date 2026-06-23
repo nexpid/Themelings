@@ -509,6 +509,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8[var6];
     var9 = var7.bind(var1)(var9);
     var9 = var9.NotifTypes;
+    var11 = var9.PARENTAL_CONSENT_FINAL_WARNING;
+    var9 = var8[var10];
+    var9 = var7.bind(var1)(var9);
+    var9 = var9.NotifSettings;
+    var12 = var9.SYSTEM;
+    var9 = new Array(1);
+    var9[0] = var12;
+    var2[10] = var9;
+    var9 = var8[var6];
+    var9 = var7.bind(var1)(var9);
+    var9 = var9.NotifTypes;
     var11 = var9.CUSTOM_STATUS_UPDATE;
     var9 = var8[var10];
     var9 = var7.bind(var1)(var9);

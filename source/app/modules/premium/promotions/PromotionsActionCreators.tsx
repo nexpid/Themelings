@@ -36,6 +36,8 @@ case 3:
                     var10 = undefined;
                     var12 = undefined;
 case 4: // try_start_0
+                    var3 = _closure1_slot4;
+                    var14 = var3.locale;
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var6 = 6;
@@ -45,6 +47,7 @@ case 4: // try_start_0
                     var3 = {};
                     var13 = 'ACTIVE_PROMOTIONS_FETCH';
                     var3['type'] = var13;
+                    var3['locale'] = var14;
                     var3 = var5.bind(var11)(var3);
                     var5 = _closure1_slot0;
                     var3 = 7;
@@ -62,8 +65,6 @@ case 4: // try_start_0
                     var11 = var11.PROMOTIONS;
                     var3['url'] = var11;
                     var11 = {};
-                    var14 = _closure1_slot4;
-                    var14 = var14.locale;
                     var11['locale'] = var14;
                     var11['platform'] = var13;
                     var3['query'] = var11;
@@ -71,7 +72,7 @@ case 4: // try_start_0
                     var3['oldFormErrors'] = var11;
                     var3['rejectWithError'] = var11;
                     var3 = var5.bind(var9)(var3);
-                    SaveGenerator(address=178);
+                    SaveGenerator(address=183);
 case 5:
                     return var3;
 case 6:
@@ -94,7 +95,7 @@ case 10:
                     var9 = _closure1_slot7;
                     var5 = false;
                     var5 = var11.bind(var13)(var9, var5);
-                    SaveGenerator(address=255);
+                    SaveGenerator(address=260);
 case 11:
                     return var5;
 case 12:
