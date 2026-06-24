@@ -12821,6 +12821,16 @@
         "width": 24,
         "height": 24
     },
+    "WebhookPlusIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/WebhookPlusIcon.png",
+        "hash": "b83c9486cfaf14d2dd0ad9edbe75c34d",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "welcome-bg": {
         "file": "app/images/native/welcome-bg.png",
         "hash": "38957e8b938c7ee2a40f1e8c893feb71",
