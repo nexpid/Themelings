@@ -179,7 +179,7 @@ case 4:
         return var1;
     };
     var3['AnalyticsLocationProvider'] = var4;
-    var2 = function() {
+    var2 = function useLocationStackFromLocationContext() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot3;

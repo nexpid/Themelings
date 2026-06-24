@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guild_role_subscriptions/native/system_message/GuildRoleSubscriptionSystemMessageUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1, arg2, arg3) {
+    var2 = function handleRoleSubscriptionPurchaseSystemMessageCtaClicked(arg1, arg2, arg3) {
         var9 = arg1;
         var8 = arg2;
         var7 = arg3;

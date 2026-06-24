@@ -370,7 +370,7 @@ case 21:
         return var1;
     };
     var4['SAVED_CUSTOM_THEMES_FETCH_START'] = var10;
-    var10 = function SAVED_CUSTOM_THEMES_FETCH_SUCCESS(arg1) {
+    var10 = function handleCustomThemesFetchSuccess(arg1) {
         var1 = arg1;
         var4 = var1.themes;
         var1 = _closure1_slot8;
@@ -401,7 +401,7 @@ case 21:
         return var1;
     };
     var4['SAVED_CUSTOM_THEMES_FETCH_SUCCESS'] = var10;
-    var5 = function SAVED_CUSTOM_THEMES_FETCH_FAILURE(arg1) {
+    var5 = function handleCustomThemesFetchFailure(arg1) {
         var1 = arg1;
         var5 = var1.error;
         var2 = _closure1_slot8;

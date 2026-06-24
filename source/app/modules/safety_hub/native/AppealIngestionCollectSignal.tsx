@@ -148,18 +148,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var1 = var1.isDsaEligible;
         var _closure2_slot0 = var1;
-        var1 = _closure1_slot8;
-        var4 = undefined;
-        var15 = var1.bind(var4)();
-        var _closure2_slot1 = var15;
-        var18 = _closure1_slot0;
-        var21 = _closure1_slot2;
-        var1 = 9;
-        var1 = var21[var1];
-        var2 = var18.bind(var4)(var1);
-        var1 = var2.useSafetyHubAppealSignal;
-        var1 = var1.bind(var2)();
-        var _closure2_slot2 = var1;
         var1 = function handleAppealSignalSelect(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -243,6 +231,18 @@ case 4:
             }
         };
         var _closure2_slot3 = var1;
+        var1 = _closure1_slot8;
+        var4 = undefined;
+        var15 = var1.bind(var4)();
+        var _closure2_slot1 = var15;
+        var18 = _closure1_slot0;
+        var21 = _closure1_slot2;
+        var1 = 9;
+        var1 = var21[var1];
+        var2 = var18.bind(var4)(var1);
+        var1 = var2.useSafetyHubAppealSignal;
+        var1 = var1.bind(var2)();
+        var _closure2_slot2 = var1;
         var17 = 14;
         var1 = var21[var17];
         var1 = var18.bind(var4)(var1);

@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/self_mod/SelfModUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function() {
+    var2 = function isCurrentUserTeen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = _closure1_slot0;

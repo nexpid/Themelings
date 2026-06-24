@@ -11,9 +11,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var22 = var1.isUploading;
-            var8 = var1.guild;
-            var _closure2_slot0 = var8;
+            var20 = var1.isUploading;
+            var10 = var1.guild;
+            var _closure2_slot0 = var10;
             var2 = var1.emojisLength;
             var _closure2_slot1 = var2;
             var21 = var1.description;
@@ -30,51 +30,10 @@ case 2:
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
-            var1 = _closure1_slot16;
-            var18 = var1.bind(var4)();
-            _closure2_slot3 = var18;
-            var3 = _closure1_slot5;
-            var2 = var3.useState;
-            var1 = false;
-            var2 = var2.bind(var3)(var1);
-            var1 = _closure1_slot4;
-            var5 = 2;
-            var1 = var1.bind(var4)(var2, var5);
-            var2 = 0;
-            var20 = var1[var2];
-            var7 = 1;
-            var1 = var1[var7];
-            _closure2_slot4 = var1;
-            var3 = _closure1_slot5;
-            var1 = var3.useState;
-            var9 = null;
-            var3 = var1.bind(var3)(var9);
-            var1 = _closure1_slot4;
-            var1 = var1.bind(var4)(var3, var5);
-            var14 = var1[var2];
-            var1 = var1[var7];
-            _closure2_slot5 = var1;
-            var6 = _closure1_slot5;
-            var3 = var6.useState;
-            var1 = '';
-            var3 = var3.bind(var6)(var1);
-            var1 = _closure1_slot4;
-            var1 = var1.bind(var4)(var3, var5);
-            var2 = var1[var2];
-            _closure2_slot6 = var2;
-            var1 = var1[var7];
-            _closure2_slot7 = var1;
-            var6 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var2 = 10;
-            var2 = var1[var2];
-            var3 = var6.bind(var4)(var2);
-            var2 = var3.useManageResourcePermissions;
-            var2 = var2.bind(var3)(var8);
-            var10 = var2.canCreateExpressions;
-            var2 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
+            var1 = function _handleImagePicker() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -154,9 +113,17 @@ case 16:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
                             if(var6) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-                            var6 = function(arg1, arg2, arg3) {
+                            var6 = function upload(arg1, arg2, arg3) {
                                 var7 = arg1;
                                 var _closure6_slot0 = var7;
+                                var3 = _closure2_slot1;
+                                var1 = 1;
+                                var4 = var3 + var1;
+                                var1 = global;
+                                var1 = var1.HermesInternal;
+                                var3 = var1.concat;
+                                var1 = 'emoji_';
+                                var6 = var3.bind(var1)(var4);
                                 var4 = _closure1_slot0;
                                 var3 = _closure1_slot2;
                                 var1 = 11;
@@ -169,14 +136,6 @@ case 18:
                                 var8 = var8.id;
                                 var3['guildId'] = var8;
                                 var3['image'] = var7;
-                                var7 = _closure2_slot1;
-                                var6 = 1;
-                                var8 = var7 + var6;
-                                var6 = global;
-                                var6 = var6.HermesInternal;
-                                var7 = var6.concat;
-                                var6 = 'emoji_';
-                                var6 = var7.bind(var6)(var8);
                                 var3['name'] = var6;
                                 var6 = arg3;
                                 var3['roles'] = var6;
@@ -338,21 +297,16 @@ case 4:
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot8 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var19 = var2.bind(var4)();
+            var _closure2_slot8 = var1;
             var3 = function createUploadInstructionsListItem(arg1, arg2) {
                 var1 = {};
                 var2 = global;
@@ -366,6 +320,48 @@ case 4:
                 var1['text'] = var2;
                 return var1;
             };
+            var1 = _closure1_slot16;
+            var18 = var1.bind(var4)();
+            _closure2_slot3 = var18;
+            var5 = _closure1_slot5;
+            var2 = var5.useState;
+            var1 = false;
+            var2 = var2.bind(var5)(var1);
+            var1 = _closure1_slot4;
+            var5 = 2;
+            var1 = var1.bind(var4)(var2, var5);
+            var2 = 0;
+            var19 = var1[var2];
+            var7 = 1;
+            var1 = var1[var7];
+            _closure2_slot4 = var1;
+            var6 = _closure1_slot5;
+            var1 = var6.useState;
+            var9 = null;
+            var6 = var1.bind(var6)(var9);
+            var1 = _closure1_slot4;
+            var1 = var1.bind(var4)(var6, var5);
+            var14 = var1[var2];
+            var1 = var1[var7];
+            _closure2_slot5 = var1;
+            var8 = _closure1_slot5;
+            var6 = var8.useState;
+            var1 = '';
+            var6 = var6.bind(var8)(var1);
+            var1 = _closure1_slot4;
+            var1 = var1.bind(var4)(var6, var5);
+            var2 = var1[var2];
+            _closure2_slot6 = var2;
+            var1 = var1[var7];
+            _closure2_slot7 = var1;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var2 = 10;
+            var2 = var1[var2];
+            var8 = var6.bind(var4)(var2);
+            var2 = var8.useManageResourcePermissions;
+            var2 = var2.bind(var8)(var10);
+            var10 = var2.canCreateExpressions;
             var24 = 13;
             var2 = var1[var24];
             var2 = var6.bind(var4)(var2);
@@ -429,19 +425,29 @@ case 4:
 case 33:
             var12 = _closure1_slot14;
             var11 = _closure1_slot0;
-            var23 = _closure1_slot2;
+            var22 = _closure1_slot2;
             var8 = 16;
-            var8 = var23[var8];
+            var8 = var22[var8];
             var8 = var11.bind(var4)(var8);
             var11 = var8.Button;
             var8 = {};
-            var23 = 'sm';
-            var8['size'] = var23;
-            if(var20) { _fun0001_ip = 34; continue _fun0001 }
+            var22 = 'sm';
+            var8['size'] = var22;
+            if(var19) { _fun0001_ip = 34; continue _fun0001 }
 case 35:
-            var20 = var22;
+            var19 = var20;
 case 34:
-            var8['loading'] = var20;
+            var8['loading'] = var19;
+            var19 = function handleImagePicker() {
+                var1 = undefined;
+                var4 = _closure2_slot8;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
             var8['onPress'] = var19;
             var23 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -527,7 +533,7 @@ case 36:
                 return var1;
             };
             var13['keyExtractor'] = var17;
-            var16 = function renderItem(arg1) {
+            var16 = function renderUploadInstructionsListItem(arg1) {
                 var1 = arg1;
                 var5 = var1.item;
                 var4 = _closure1_slot13;

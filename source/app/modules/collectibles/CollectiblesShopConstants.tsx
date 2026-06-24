@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CollectiblesSearchBarCTAName'] = var13;
     var3['CollectibleShopTab'] = var12;
     var3['CollectiblesIndexPageTabs'] = var11;
-    var11 = function(arg1) {
+    var11 = function isIndexPageTab(arg1) {
         var3 = _closure1_slot3;
         var2 = var3.includes;
         var1 = arg1;
@@ -290,7 +290,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['isIndexPageTab'] = var11;
-    var11 = function(arg1) {
+    var11 = function shouldAddTabToUrl(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -331,7 +331,7 @@ case 6:
     var3['SHOP_ALL_PAGE_SIZE'] = var10;
     var3['ShopPurchaseType'] = var9;
     var3['EXTERNAL_PRODUCT_SKU_IDS'] = var8;
-    var8 = function(arg1) {
+    var8 = function isFractionalPremiumSku(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -346,7 +346,7 @@ case 6:
         return var1;
     };
     var3['isFractionalPremiumSku'] = var8;
-    var7 = function(arg1) {
+    var7 = function isExternalProduct(arg1) {
         var3 = _closure1_slot4;
         var2 = var3.has;
         var1 = arg1;

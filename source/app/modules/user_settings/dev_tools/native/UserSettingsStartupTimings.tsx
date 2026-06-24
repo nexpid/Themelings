@@ -116,6 +116,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function UserSettingsStartupTimings() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
+            var1 = function renderTime(arg1) {
+                var8 = arg1;
+                var4 = _closure1_slot8;
+                var3 = _closure1_slot13;
+                var2 = {};
+                var1 = 'text-brand';
+                var2['color'] = var1;
+                var1 = 1000;
+                var9 = var8 / var1;
+                var1 = global;
+                var7 = var1.Math;
+                var6 = var7.round;
+                var5 = _closure2_slot13;
+                var8 = var8 / var5;
+                var5 = 100;
+                var5 = var8 * var5;
+                var11 = var6.bind(var7)(var5);
+                var1 = var1.HermesInternal;
+                var7 = var1.concat;
+                var14 = '';
+                var12 = 's (';
+                var10 = '%)';
+                var13 = var9;
+                var1 = var14[var7](var13, var12, var11, var10, var9);
+                var2['children'] = var1;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
+                return var1;
+            };
+            var _closure2_slot15 = var1;
+            var1 = function renderTTi(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var6 = arg1;
+                    var4 = _closure1_slot8;
+                    var3 = _closure1_slot13;
+                    var2 = {};
+                    var1 = 'text-brand';
+                    var2['color'] = var1;
+                    var1 = null;
+                    var5 = var1 == var6;
+                    var7 = '';
+                    var1 = var7;
+                    if(var5) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var5 = 0;
+                    var5 = var6 <= var5;
+                    var1 = var7;
+                    if(var5) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
+                    var5 = 1000;
+                    var6 = var6 / var5;
+                    var5 = 's';
+                    var1 = var6 + var5;
+case 2:
+                    var2['children'] = var1;
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3, var2);
+                    return var1;
+                }
+            };
+            var _closure2_slot16 = var1;
             var1 = _closure1_slot11;
             var4 = undefined;
             var5 = var1.bind(var4)();
@@ -254,28 +316,28 @@ case 0:
             var3 = null;
             var7 = var3 == var6;
             var2 = undefined;
-            if(var7) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var7) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var2 = var6.time_first_contentful_paint;
-case 2:
+case 5:
             var3 = var3 != var2;
             var1 = 0;
-            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var1 = var2;
-case 4:
+case 7:
             var _closure2_slot13 = var1;
             var6 = _closure1_slot5;
             var3 = var6.useCallback;
             var2 = _closure1_slot3;
             var1 = function* () {
                 var1 = function* anon_0_() {
-                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                        if(var2) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var2 = 10;
@@ -285,12 +347,12 @@ case 7:
                         var2 = var4.getAppFirstVisibleTimestamp;
                         var2 = var2.bind(var4)();
                         SaveGenerator(address=46);
-case 8:
-                        return var2;
-case 9:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
+                        return var2;
+case 12:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(var4) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var4 = 12;
@@ -307,9 +369,9 @@ case 11:
                         var4 = 'Startup Timing';
                         var4 = var6.bind(var7)(var5, var4);
                         return var3;
-case 10:
+case 13:
                         return var2;
-case 6:
+case 9:
                         return var1;
                     }
                 };
@@ -319,68 +381,6 @@ case 6:
             var1 = new Array(0);
             var1 = var3.bind(var6)(var2, var1);
             var _closure2_slot14 = var1;
-            var1 = function renderTime(arg1) {
-                var8 = arg1;
-                var4 = _closure1_slot8;
-                var3 = _closure1_slot13;
-                var2 = {};
-                var1 = 'text-brand';
-                var2['color'] = var1;
-                var1 = 1000;
-                var9 = var8 / var1;
-                var1 = global;
-                var7 = var1.Math;
-                var6 = var7.round;
-                var5 = _closure2_slot13;
-                var8 = var8 / var5;
-                var5 = 100;
-                var5 = var8 * var5;
-                var11 = var6.bind(var7)(var5);
-                var1 = var1.HermesInternal;
-                var7 = var1.concat;
-                var14 = '';
-                var12 = 's (';
-                var10 = '%)';
-                var13 = var9;
-                var1 = var14[var7](var13, var12, var11, var10, var9);
-                var2['children'] = var1;
-                var1 = undefined;
-                var1 = var4.bind(var1)(var3, var2);
-                return var1;
-            };
-            var _closure2_slot15 = var1;
-            var1 = function renderTTi(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var6 = arg1;
-                    var4 = _closure1_slot8;
-                    var3 = _closure1_slot13;
-                    var2 = {};
-                    var1 = 'text-brand';
-                    var2['color'] = var1;
-                    var1 = null;
-                    var5 = var1 == var6;
-                    var7 = '';
-                    var1 = var7;
-                    if(var5) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-                    var5 = 0;
-                    var5 = var6 <= var5;
-                    var1 = var7;
-                    if(var5) { _fun0003_ip = 12; continue _fun0003 }
-case 14:
-                    var5 = 1000;
-                    var6 = var6 / var5;
-                    var5 = 's';
-                    var1 = var6 + var5;
-case 12:
-                    var2['children'] = var1;
-                    var1 = undefined;
-                    var1 = var4.bind(var1)(var3, var2);
-                    return var1;
-                }
-            };
-            var _closure2_slot16 = var1;
             var3 = _closure1_slot8;
             var2 = _closure1_slot6;
             var1 = {};
@@ -474,9 +474,9 @@ case 0:
                     var19 = {};
                     var23 = _closure1_slot13;
                     var20 = {};
-                    var24 = _closure2_slot15;
+                    var25 = _closure2_slot15;
                     var22 = _closure2_slot7;
-                    var24 = var24.bind(var1)(var22);
+                    var24 = var25.bind(var1)(var22);
                     var22 = ['Native: '];
                     var22[1] = var24;
                     var20['children'] = var22;
@@ -484,34 +484,30 @@ case 0:
                     var20 = new Array(8);
                     var20[0] = var22;
                     var22 = {};
-                    var25 = _closure2_slot15;
                     var24 = _closure2_slot11;
-                    var25 = var25.bind(var1)(var24);
+                    var26 = var25.bind(var1)(var24);
                     var24 = ['JS Imports: '];
-                    var24[1] = var25;
+                    var24[1] = var26;
                     var22['children'] = var24;
                     var22 = var4.bind(var1)(var23, var22);
                     var20[1] = var22;
                     var22 = {};
-                    var25 = _closure2_slot15;
                     var24 = _closure2_slot8;
-                    var25 = var25.bind(var1)(var24);
+                    var26 = var25.bind(var1)(var24);
                     var24 = ['Mini Cache: '];
-                    var24[1] = var25;
+                    var24[1] = var26;
                     var22['children'] = var24;
                     var22 = var4.bind(var1)(var23, var22);
                     var20[2] = var22;
                     var22 = {};
-                    var25 = _closure2_slot15;
                     var24 = _closure2_slot9;
-                    var25 = var25.bind(var1)(var24);
+                    var26 = var25.bind(var1)(var24);
                     var24 = ['Lazy Cache: '];
-                    var24[1] = var25;
+                    var24[1] = var26;
                     var22['children'] = var24;
                     var22 = var4.bind(var1)(var23, var22);
                     var20[3] = var22;
                     var22 = {};
-                    var25 = _closure2_slot15;
                     var24 = _closure2_slot10;
                     var25 = var25.bind(var1)(var24);
                     var24 = ['Ready: '];
@@ -522,14 +518,13 @@ case 0:
                     var22 = {};
                     var25 = _closure2_slot16;
                     var24 = _closure2_slot13;
-                    var25 = var25.bind(var1)(var24);
+                    var26 = var25.bind(var1)(var24);
                     var24 = ['TTI (first contentful paint): '];
-                    var24[1] = var25;
+                    var24[1] = var26;
                     var22['children'] = var24;
                     var22 = var4.bind(var1)(var23, var22);
                     var20[5] = var22;
                     var22 = {};
-                    var25 = _closure2_slot16;
                     var24 = _closure2_slot12;
                     var27 = null;
                     var26 = var27 == var24;

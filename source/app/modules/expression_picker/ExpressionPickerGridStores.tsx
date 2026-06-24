@@ -6,25 +6,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var10;
     var7 = function createStore() {
-        var5 = _closure1_slot0;
-        var6 = _closure1_slot1;
-        var1 = 0;
-        var1 = var6[var1];
-        var4 = undefined;
-        var3 = var5.bind(var4)(var1);
-        var1 = var3.createWithEqualityFn;
-        var3 = var1.bind(var3)();
-        var1 = 1;
-        var1 = var6[var1];
-        var6 = var5.bind(var4)(var1);
-        var5 = var6.subscribeWithSelector;
-        var1 = function() {
-            var1 = _closure1_slot2;
-            return var1;
-        };
-        var1 = var5.bind(var6)(var1);
-        var4 = var3.bind(var4)(var1);
-        var _closure2_slot0 = var4;
         var3 = function getState() {
             var2 = _closure2_slot0;
             var1 = var2.getState;
@@ -32,6 +13,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var _closure2_slot1 = var3;
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var1 = 0;
+        var1 = var7[var1];
+        var5 = undefined;
+        var4 = var6.bind(var5)(var1);
+        var1 = var4.createWithEqualityFn;
+        var4 = var1.bind(var4)();
+        var1 = 1;
+        var1 = var7[var1];
+        var7 = var6.bind(var5)(var1);
+        var6 = var7.subscribeWithSelector;
+        var1 = function() {
+            var1 = _closure1_slot2;
+            return var1;
+        };
+        var1 = var6.bind(var7)(var1);
+        var4 = var4.bind(var5)(var1);
+        var _closure2_slot0 = var4;
         var1 = {};
         var1['useStore'] = var4;
         var1['getState'] = var3;

@@ -138,7 +138,7 @@ case 14:
 case 0:
                     var5 = _closure2_slot0;
                     var4 = _closure2_slot6;
-                    var3 = function(arg1, arg2) {
+                    var3 = function defaultFilter(arg1, arg2) {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                             var1 = arg1;

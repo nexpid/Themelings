@@ -54,7 +54,7 @@ case 2:
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/messages/BurstReactionEffectUtils.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function(arg1, arg2) {
+    var4 = function replaceAnimationColors(arg1, arg2) {
         var12 = arg1;
         var4 = arg2;
         var3 = _closure1_slot0;

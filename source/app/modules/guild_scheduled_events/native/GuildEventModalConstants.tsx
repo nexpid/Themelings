@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GUILD_EVENTS_LIST_ACTION_SHEET_KEY'] = var2;
     var2 = 'guild-scheduled-events-info';
     var3['GUILD_EVENT_INFO_ACTION_SHEET_KEY'] = var2;
-    var2 = function(arg1, arg2) {
+    var2 = function isGuildEventValid(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = '';

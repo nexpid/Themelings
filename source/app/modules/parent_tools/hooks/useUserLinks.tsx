@@ -1,11 +1,11 @@
 // app/modules/parent_tools/hooks/useUserLinks.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
-    var7 = metroImportDefault;
+    var10 = metroImportDefault;
     var3 = exports;
     var9 = dependencyMap;
     var _closure1_slot0 = var8;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var10;
     var _closure1_slot2 = var9;
     var6 = function useUserIdsForLinkStatus(arg1) {
         var5 = arg1;
@@ -103,57 +103,9 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot14 = var6;
-    var4 = function useActiveLinkUserIds() {
-        var3 = _closure1_slot14;
-        var1 = _closure1_slot11;
-        var2 = var1.ACTIVE;
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        return var1;
-    };
-    var _closure1_slot15 = var4;
-    var1 = global;
-    var11 = var1.Object;
-    var10 = var11.defineProperty;
-    var5 = {};
-    var1 = true;
-    var5['value'] = var1;
-    var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var5);
-    var1 = 0;
-    var10 = var9[var1];
-    var5 = metroImportAll;
-    var1 = undefined;
-    var5 = var5.bind(var1)(var10);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var5 = var9[var5];
-    var5 = var7.bind(var1)(var5);
-    var _closure1_slot4 = var5;
-    var5 = 2;
-    var5 = var9[var5];
-    var5 = var7.bind(var1)(var5);
-    var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var9[var5];
-    var5 = var8.bind(var1)(var5);
-    var7 = var5.ACCEPTED_LINK_REQUEST_TIMESTAMP_FORMATTER;
-    var _closure1_slot6 = var7;
-    var7 = var5.FAMILY_CENTER_REQUEST_QR_CODE_URL;
-    var _closure1_slot7 = var7;
-    var7 = var5.MAX_PARENT_TO_TEEN_ACTIVE_CONNECTIONS;
-    var _closure1_slot8 = var7;
-    var7 = var5.MAX_TEEN_TO_PARENT_ACTIVE_CONNECTIONS;
-    var _closure1_slot9 = var7;
-    var7 = var5.PENDING_LINK_REQUEST_TIMESTAMP_FORMATTER;
-    var _closure1_slot10 = var7;
-    var7 = var5.UserLinkStatus;
-    var _closure1_slot11 = var7;
-    var5 = var5.UserLinkType;
-    var _closure1_slot12 = var5;
+    var _closure1_slot13 = var6;
     var5 = function useUsersForLinkStatus(arg1) {
-        var4 = _closure1_slot14;
+        var4 = _closure1_slot13;
         var5 = undefined;
         var3 = arg1;
         var3 = var4.bind(var5)(var3);
@@ -191,7 +143,55 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot13 = var5;
+    var _closure1_slot14 = var5;
+    var4 = function useActiveLinkUserIds() {
+        var3 = _closure1_slot13;
+        var1 = _closure1_slot11;
+        var2 = var1.ACTIVE;
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var _closure1_slot15 = var4;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var7);
+    var1 = 0;
+    var11 = var9[var1];
+    var7 = metroImportAll;
+    var1 = undefined;
+    var7 = var7.bind(var1)(var11);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var10 = var7.ACCEPTED_LINK_REQUEST_TIMESTAMP_FORMATTER;
+    var _closure1_slot6 = var10;
+    var10 = var7.FAMILY_CENTER_REQUEST_QR_CODE_URL;
+    var _closure1_slot7 = var10;
+    var10 = var7.MAX_PARENT_TO_TEEN_ACTIVE_CONNECTIONS;
+    var _closure1_slot8 = var10;
+    var10 = var7.MAX_TEEN_TO_PARENT_ACTIVE_CONNECTIONS;
+    var _closure1_slot9 = var10;
+    var10 = var7.PENDING_LINK_REQUEST_TIMESTAMP_FORMATTER;
+    var _closure1_slot10 = var10;
+    var10 = var7.UserLinkStatus;
+    var _closure1_slot11 = var10;
+    var7 = var7.UserLinkType;
+    var _closure1_slot12 = var7;
     var7 = 8;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -202,7 +202,7 @@ case 2:
     var3['useUsersForLinkStatus'] = var5;
     var3['useActiveLinkUserIds'] = var4;
     var4 = function useActiveLinkUsers() {
-        var3 = _closure1_slot13;
+        var3 = _closure1_slot14;
         var1 = _closure1_slot11;
         var2 = var1.ACTIVE;
         var1 = undefined;
@@ -210,7 +210,7 @@ case 2:
         return var1;
     };
     var3['useActiveLinkUsers'] = var4;
-    var4 = function() {
+    var4 = function useHasActiveLinks() {
         var2 = _closure1_slot15;
         var1 = undefined;
         var1 = var2.bind(var1)();

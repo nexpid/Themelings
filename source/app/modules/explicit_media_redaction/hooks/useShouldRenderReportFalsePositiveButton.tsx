@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/explicit_media_redaction/hooks/useShouldRenderReportFalsePositiveButton.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function shouldRenderReportFalsePositiveButton(arg1) {
         var3 = _closure1_slot2;
         var2 = var3.getFpMessageInfo;
         var1 = arg1;
@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['shouldRenderReportFalsePositiveButton'] = var4;
-    var2 = function(arg1) {
+    var2 = function useShouldRenderReportFalsePositiveButton(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;

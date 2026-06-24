@@ -4,30 +4,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
-    var1 = true;
-    var4['value'] = var1;
+    var7 = true;
+    var4['value'] = var7;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var9 = {};
     var4 = {};
     var1 = false;
     var4['enabled'] = var1;
-    var1 = 0;
-    var7 = var6[var1];
-    var1 = undefined;
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.t;
-    var7 = var7["2lfjU+"];
-    var4['defaultBody'] = var7;
     var9[0] = var4;
-    var4 = {'enabled': true, 'defaultBody': null};
+    var4 = {};
+    var4['enabled'] = var7;
     var9[1] = var4;
-    var10 = {'enabled': false, 'defaultBody': null};
-    var4 = 1;
+    var10 = {};
+    var10['enabled'] = var1;
+    var4 = 0;
     var7 = var6[var4];
+    var1 = undefined;
     var11 = var5.bind(var1)(var7);
     var8 = var11.createApexExperiment;
     var7 = {'name': '2026-04-riot-social-sdk-migration', 'kind': 'user'};
@@ -51,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['variations'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot2 = var4;
-    var4 = 2;
+    var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -83,7 +79,7 @@ case 4:
         }
     };
     var3['useIsRiotSocialSDKMigrationEnabled'] = var4;
-    var4 = function getIsRiotSocialSDKMigrationEnabled(arg1) {
+    var2 = function getIsRiotSocialSDKMigrationEnabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
@@ -108,47 +104,6 @@ case 4:
             return var1;
         }
     };
-    var3['getIsRiotSocialSDKMigrationEnabled'] = var4;
-    var2 = function useRiotSocialSDKMigrationDefaultBody(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var4 = arg1;
-            var3 = _closure1_slot0;
-            var2 = var3.useConfig;
-            var2 = var2.bind(var3)(var4);
-            var5 = _closure1_slot1;
-            var3 = var5.useConfig;
-            var5 = var3.bind(var5)(var4);
-            var3 = _closure1_slot2;
-            var1 = var3.useConfig;
-            var3 = var1.bind(var3)(var4);
-            var6 = var2.enabled;
-            var4 = null;
-            var1 = null;
-            if(var6) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
-            var6 = var5.enabled;
-            var1 = null;
-            if(var6) { _fun0003_ip = 6; continue _fun0003 }
-case 8:
-            var6 = var3.enabled;
-            var1 = null;
-            if(var6) { _fun0003_ip = 6; continue _fun0003 }
-case 9:
-            var2 = var2.defaultBody;
-            if(!(var4 == var2)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-            var2 = var5.defaultBody;
-case 10:
-            if(!(var4 == var2)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-            var2 = var3.defaultBody;
-case 12:
-            var1 = var2;
-case 6:
-            return var1;
-        }
-    };
-    var3['useRiotSocialSDKMigrationDefaultBody'] = var2;
+    var3['getIsRiotSocialSDKMigrationEnabled'] = var2;
     return var1;
 })();

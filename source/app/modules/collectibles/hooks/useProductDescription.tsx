@@ -76,7 +76,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot5;
+            var9 = _closure1_slot4;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -88,7 +88,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot5;
+            var7 = _closure1_slot4;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -147,7 +147,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot4 = var1;
+    var _closure1_slot3 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -180,22 +180,8 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot5 = var1;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.useMemo;
-    var _closure1_slot2 = var4;
-    var4 = function getBundleDescription(arg1) {
+    var _closure1_slot4 = var1;
+    var1 = function getBundleDescription(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var6 = arg1;
@@ -208,7 +194,7 @@ case 32:
             if(var2) { _fun0004_ip = 37; continue _fun0004 }
 case 31:
             var4 = new Array(0);
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot3;
             var2 = var6.bundledProducts;
             var7 = null;
             if(!(var7 == var2)) { _fun0004_ip = 38; continue _fun0004 }
@@ -381,14 +367,28 @@ case 50:
             return var1;
         }
     };
-    var _closure1_slot3 = var4;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useMemo;
+    var _closure1_slot2 = var4;
     var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/hooks/useProductDescription.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function useProductDescription(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var6 = arg1;
@@ -473,7 +473,7 @@ case 68:
                     var3 = '';
                     return var3;
 case 67:
-                    var5 = _closure1_slot3;
+                    var5 = _closure1_slot5;
                     var4 = _closure2_slot0;
                     var3 = _closure2_slot1;
                     var3 = var5.bind(var6)(var4, var3);
@@ -558,7 +558,7 @@ case 69:
                     var3 = var3.summary;
                     return var3;
 case 71:
-                    var3 = _closure1_slot3;
+                    var3 = _closure1_slot5;
                     var1 = _closure2_slot0;
                     var2 = _closure2_slot1;
                     var3 = var3.bind(var5)(var1, var2);

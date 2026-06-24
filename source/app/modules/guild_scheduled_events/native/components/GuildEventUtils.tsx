@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guild_scheduled_events/native/components/GuildEventUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1, arg2, arg3) {
+    var4 = function getEventLocationIconSource(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var7 = arg2;
@@ -71,7 +71,7 @@ case 9:
         }
     };
     var3['getEventLocationIconSource'] = var4;
-    var2 = function(arg1, arg2, arg3) {
+    var2 = function getEventLocationIconComponent(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var8 = arg2;

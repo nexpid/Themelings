@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/video_calls/native/ChannelCallUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function voiceSettings() {
         var1 = {};
         var8 = _closure1_slot0;
         var5 = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['voiceSettings'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function videoParticipantsHidden(arg1, arg2) {
         var3 = arg2;
         var1 = arg1;
         var _closure2_slot0 = var1;
@@ -189,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['openHideSelfStreamAndVideoConfirmDialog'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function selfVideoHidden(arg1, arg2) {
         var1 = arg2;
         var _closure2_slot0 = var1;
         var1 = {};
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['selfVideoHidden'] = var4;
-    var4 = function(arg1) {
+    var4 = function reportStreamIssue(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var1 = {};
@@ -312,7 +312,7 @@ case 2:
         return var1;
     };
     var3['reportStreamIssue'] = var4;
-    var4 = function(arg1, arg2, arg3) {
+    var4 = function invite(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var4 = arg1;
@@ -426,7 +426,7 @@ case 8:
         }
     };
     var3['invite'] = var4;
-    var4 = function(arg1) {
+    var4 = function rtcDebugPanel(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var1 = {};
@@ -466,7 +466,7 @@ case 8:
         return var1;
     };
     var3['rtcDebugPanel'] = var4;
-    var2 = function() {
+    var2 = function shareActivityLogs() {
         var1 = {};
         var8 = _closure1_slot0;
         var5 = _closure1_slot2;

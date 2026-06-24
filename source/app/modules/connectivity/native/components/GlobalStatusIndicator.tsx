@@ -299,7 +299,7 @@ case 17:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/connectivity/native/components/GlobalStatusIndicator.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function _default(arg1) {
+    var4 = function GlobalStatusIndicator(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;

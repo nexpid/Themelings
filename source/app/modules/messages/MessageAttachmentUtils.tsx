@@ -189,7 +189,7 @@ case 2:
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/messages/MessageAttachmentUtils.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function(arg1, arg2) {
+    var5 = function getObscureReasonForAttachment(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var11 = arg1;
@@ -274,7 +274,7 @@ case 11:
         }
     };
     var3['getObscureReasonForAttachment'] = var5;
-    var5 = function(arg1, arg2, arg3, arg4) {
+    var5 = function getObscureReasonForEmbed(arg1, arg2, arg3, arg4) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var9 = arg1;
@@ -351,7 +351,7 @@ case 38:
         }
     };
     var3['getObscureReasonForEmbed'] = var5;
-    var5 = function(arg1, arg2) {
+    var5 = function getObscureReasonForUnfurledMediaItem(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var10 = arg1;
@@ -544,7 +544,7 @@ case 59:
         return var1;
     };
     var3['useShouldObscure'] = var4;
-    var2 = function(arg1) {
+    var2 = function getObscuredAlt(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = arg1;

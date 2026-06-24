@@ -1,38 +1,15 @@
 // app/modules/guild_role_subscriptions/GuildRoleSubscriptionsHttpApi.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var22 = require;
+    var5 = require;
     var3 = exports;
-    var23 = dependencyMap;
-    var _closure1_slot0 = var22;
-    var _closure1_slot1 = var23;
-    var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
-    var1 = 0;
-    var5 = var23[var1];
-    var4 = metroImportDefault;
-    var1 = undefined;
-    var4 = var4.bind(var1)(var5);
-    var _closure1_slot2 = var4;
-    var4 = 1;
-    var4 = var23[var4];
-    var4 = var22.bind(var1)(var4);
-    var4 = var4.Endpoints;
-    var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var23[var4];
-    var4 = var22.bind(var1)(var4);
-    var4 = var4.PriceTierTypes;
-    var _closure1_slot4 = var4;
-    var4 = function() {
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function _updateGuildRoleSubscriptionGroupListing() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2, arg3) {
+        var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -95,25 +72,21 @@ case 2:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var20 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot5 = var1;
+    var1 = function _createGuildRoleSubscriptionGroupListing() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2) {
+        var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -175,25 +148,21 @@ case 11:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var19 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot6 = var1;
+    var1 = function _deleteGuildRoleSubscriptionGroupListing() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2) {
+        var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -252,25 +221,21 @@ case 19:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var18 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot7 = var1;
+    var1 = function _createGuildRoleSubscriptionListing() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2, arg3) {
+        var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -358,25 +323,21 @@ case 24:
             var2 = var2.bind(var1)();
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var17 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot8 = var1;
+    var1 = function _updateGuildRoleSubscriptionListing() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2, arg3, arg4) {
+        var3 = function* (arg1, arg2, arg3, arg4) {
             var1 = function* anon_0_(arg1, arg2, arg3, arg4) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -465,25 +426,21 @@ case 36:
             var2 = var2.bind(var1)();
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot9 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var16 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot9 = var1;
+    var1 = function _getGuildRoleSubscriptionGroupListingsForGuild() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -570,25 +527,21 @@ case 46:
             var2 = var2.bind(var1)();
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot10 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var15 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot10 = var1;
+    var1 = function _getGuildRoleSubscriptionsSettings() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -630,25 +583,21 @@ case 16:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot11 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var14 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot11 = var1;
+    var1 = function _updateGuildRoleSubscriptionsSettings() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2) {
+        var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -710,25 +659,21 @@ case 11:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot12 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var13 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot12 = var1;
+    var1 = function _getPriceTiers() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -793,25 +738,21 @@ case 60:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot13 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var12 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot13 = var1;
+    var1 = function _getGuildRoleSubscriptionGroupListing() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2) {
+        var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -893,25 +834,21 @@ case 65:
             var2 = var2.bind(var1)();
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot14 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var11 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot14 = var1;
+    var1 = function _getGuildRoleSubscriptionGroupForSubscriptionPlan() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -971,25 +908,21 @@ case 19:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot15 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var10 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot15 = var1;
+    var1 = function _deleteGuildRoleSubscriptionListing() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2, arg3) {
+        var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -1049,25 +982,21 @@ case 31:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot16 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var9 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot16 = var1;
+    var1 = function _archiveGuildRoleSubscriptionListing() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2, arg3) {
+        var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -1129,25 +1058,21 @@ case 79:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot17 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var8 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot17 = var1;
+    var1 = function _getGuildRoleSubscriptionTrials() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -1207,25 +1132,21 @@ case 19:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot18 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var7 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot18 = var1;
+    var1 = function _updateGuildRoleSubscriptionsTrial() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2, arg3) {
+        var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
@@ -1288,25 +1209,21 @@ case 2:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot19 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var6 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot19 = var1;
+    var1 = function _getGuildRoleSubscriptionTrialEligibility() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1, arg2, arg3) {
+        var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
@@ -1368,25 +1285,21 @@ case 11:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot20 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var5 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot20 = var1;
+    var1 = function _getGuildMonetizationRestrictions() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
@@ -1462,25 +1375,21 @@ case 81:
             var2 = var2.bind(var1)();
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot21 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var4 = var4.bind(var1)();
-    var2 = function() {
+    var _closure1_slot21 = var1;
+    var1 = function _fetchHighlightedCreatorGuildDetails() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
@@ -1554,44 +1463,243 @@ case 90:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot22 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var2 = var2.bind(var1)();
-    var21 = 5;
-    var21 = var23[var21];
-    var23 = var22.bind(var1)(var21);
-    var22 = var23.fileFinishedImporting;
-    var21 = 'modules/guild_role_subscriptions/GuildRoleSubscriptionsHttpApi.tsx';
-    var21 = var22.bind(var23)(var21);
-    var3['updateGuildRoleSubscriptionGroupListing'] = var20;
-    var3['createGuildRoleSubscriptionGroupListing'] = var19;
-    var3['deleteGuildRoleSubscriptionGroupListing'] = var18;
-    var3['createGuildRoleSubscriptionListing'] = var17;
-    var3['updateGuildRoleSubscriptionListing'] = var16;
-    var3['getGuildRoleSubscriptionGroupListingsForGuild'] = var15;
-    var3['getGuildRoleSubscriptionsSettings'] = var14;
-    var3['updateGuildRoleSubscriptionsSettings'] = var13;
-    var3['getPriceTiers'] = var12;
-    var3['getGuildRoleSubscriptionGroupListing'] = var11;
-    var3['getGuildRoleSubscriptionGroupForSubscriptionPlan'] = var10;
-    var3['deleteGuildRoleSubscriptionListing'] = var9;
-    var3['archiveGuildRoleSubscriptionListing'] = var8;
-    var3['getGuildRoleSubscriptionTrials'] = var7;
-    var3['updateGuildRoleSubscriptionsTrial'] = var6;
-    var3['getGuildRoleSubscriptionTrialEligibility'] = var5;
+    var _closure1_slot22 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = metroImportDefault;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PriceTierTypes;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/GuildRoleSubscriptionsHttpApi.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function updateGuildRoleSubscriptionGroupListing() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['updateGuildRoleSubscriptionGroupListing'] = var4;
+    var4 = function createGuildRoleSubscriptionGroupListing() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['createGuildRoleSubscriptionGroupListing'] = var4;
+    var4 = function deleteGuildRoleSubscriptionGroupListing() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['deleteGuildRoleSubscriptionGroupListing'] = var4;
+    var4 = function createGuildRoleSubscriptionListing() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['createGuildRoleSubscriptionListing'] = var4;
+    var4 = function updateGuildRoleSubscriptionListing() {
+        var1 = undefined;
+        var4 = _closure1_slot9;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['updateGuildRoleSubscriptionListing'] = var4;
+    var4 = function getGuildRoleSubscriptionGroupListingsForGuild() {
+        var1 = undefined;
+        var4 = _closure1_slot10;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['getGuildRoleSubscriptionGroupListingsForGuild'] = var4;
+    var4 = function getGuildRoleSubscriptionsSettings() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['getGuildRoleSubscriptionsSettings'] = var4;
+    var4 = function updateGuildRoleSubscriptionsSettings() {
+        var1 = undefined;
+        var4 = _closure1_slot12;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['updateGuildRoleSubscriptionsSettings'] = var4;
+    var4 = function getPriceTiers() {
+        var1 = undefined;
+        var4 = _closure1_slot13;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['getPriceTiers'] = var4;
+    var4 = function getGuildRoleSubscriptionGroupListing() {
+        var1 = undefined;
+        var4 = _closure1_slot14;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['getGuildRoleSubscriptionGroupListing'] = var4;
+    var4 = function getGuildRoleSubscriptionGroupForSubscriptionPlan() {
+        var1 = undefined;
+        var4 = _closure1_slot15;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['getGuildRoleSubscriptionGroupForSubscriptionPlan'] = var4;
+    var4 = function deleteGuildRoleSubscriptionListing() {
+        var1 = undefined;
+        var4 = _closure1_slot16;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['deleteGuildRoleSubscriptionListing'] = var4;
+    var4 = function archiveGuildRoleSubscriptionListing() {
+        var1 = undefined;
+        var4 = _closure1_slot17;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['archiveGuildRoleSubscriptionListing'] = var4;
+    var4 = function getGuildRoleSubscriptionTrials() {
+        var1 = undefined;
+        var4 = _closure1_slot18;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['getGuildRoleSubscriptionTrials'] = var4;
+    var4 = function updateGuildRoleSubscriptionsTrial() {
+        var1 = undefined;
+        var4 = _closure1_slot19;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['updateGuildRoleSubscriptionsTrial'] = var4;
+    var4 = function getGuildRoleSubscriptionTrialEligibility() {
+        var1 = undefined;
+        var4 = _closure1_slot20;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['getGuildRoleSubscriptionTrialEligibility'] = var4;
+    var4 = function getGuildMonetizationRestrictions() {
+        var1 = undefined;
+        var4 = _closure1_slot21;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
     var3['getGuildMonetizationRestrictions'] = var4;
+    var2 = function fetchHighlightedCreatorGuildDetails() {
+        var1 = undefined;
+        var4 = _closure1_slot22;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
     var3['fetchHighlightedCreatorGuildDetails'] = var2;
     return var1;
 })();

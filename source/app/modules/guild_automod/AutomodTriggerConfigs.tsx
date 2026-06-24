@@ -470,7 +470,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['triggerConfigs'] = var6;
     var3['AutomodTriggerCategory'] = var5;
     var3['AUTOMOD_RULE_CONFIGS_BY_CATEGORY'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function checkTriggerTypeForFlag(arg1, arg2) {
         var2 = _closure1_slot5;
         var1 = arg1;
         var1 = var2[var1];

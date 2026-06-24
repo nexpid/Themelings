@@ -17,101 +17,11 @@ case 0:
             var8 = var1.isLastRow;
             var1 = var1.hasSingleMessageRequest;
             var _closure2_slot1 = var1;
-            var2 = _closure1_slot10;
             var4 = undefined;
-            var23 = var2.bind(var4)();
-            var30 = var14.user;
-            var _closure2_slot2 = var30;
-            var2 = var14.channel;
-            var _closure2_slot3 = var2;
-            var10 = var2.id;
-            var _closure2_slot4 = var10;
-            var9 = _closure1_slot3;
-            var6 = var9.useCallback;
-            var3 = function() {
-                var6 = _closure1_slot1;
-                var7 = _closure1_slot2;
-                var1 = 7;
-                var2 = var7[var1];
-                var1 = undefined;
-                var4 = var6.bind(var1)(var2);
-                var3 = var4.open;
-                var2 = {};
-                var8 = 'MESSAGE_REQUEST_REQUEST_ERROR_ALERT_TITLE';
-                var2['key'] = var8;
-                var10 = _closure1_slot0;
-                var5 = 6;
-                var8 = var7[var5];
-                var8 = var10.bind(var1)(var8);
-                var9 = var8.intl;
-                var8 = var9.string;
-                var5 = var7[var5];
-                var5 = var10.bind(var1)(var5);
-                var5 = var5.t;
-                var5 = var5.EDYbS+;
-                var5 = var8.bind(var9)(var5);
-                var2['content'] = var5;
-                var5 = 8;
-                var5 = var7[var5];
-                var5 = var6.bind(var1)(var5);
-                var2['icon'] = var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            var2 = new Array(0);
-            var6 = var6.bind(var9)(var3, var2);
-            var9 = _closure1_slot3;
-            var3 = var9.useCallback;
-            var2 = new Array(2);
-            var2[0] = var10;
-            var2[1] = var1;
-            var1 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var1 = _closure2_slot1;
-                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var6 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var3 = 9;
-                    var5 = var4[var3];
-                    var3 = undefined;
-                    var6 = var6.bind(var3)(var5);
-                    var5 = var6.transitionToChannel;
-                    var2 = _closure2_slot4;
-                    var2 = var5.bind(var6)(var2);
-                    var2 = _closure1_slot1;
-                    var1 = 10;
-                    var1 = var4[var1];
-                    var2 = var2.bind(var3)(var1);
-                    var1 = var2.pop;
-                    var1 = var1.bind(var2)();
-case 2:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var9 = var3.bind(var9)(var1, var2);
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 11;
-            var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.useMessageRequestActions;
-            var1 = {};
-            var1['user'] = var30;
-            var1['onAcceptSuccess'] = var9;
-            var1['onError'] = var6;
-            var1 = var2.bind(var3)(var1);
-            var2 = var1.acceptMessageRequest;
-            var _closure2_slot5 = var2;
-            var2 = var1.rejectMessageRequest;
-            var _closure2_slot6 = var2;
-            var27 = var1.isAcceptLoading;
-            var20 = var1.isRejectLoading;
-            var25 = var1.isUserProfileLoading;
-            var24 = var1.isOptimisticAccepted;
-            var19 = var1.isOptimisticRejected;
+            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
             var22 = function handleRejectMessageRequest() {
                 var3 = _closure2_slot6;
                 var1 = _closure2_slot3;
@@ -155,6 +65,100 @@ case 2:
                 return var1;
             };
             var _closure2_slot9 = var9;
+            var2 = _closure1_slot10;
+            var23 = var2.bind(var4)();
+            var30 = var14.user;
+            _closure2_slot2 = var30;
+            var2 = var14.channel;
+            _closure2_slot3 = var2;
+            var11 = var2.id;
+            var _closure2_slot4 = var11;
+            var10 = _closure1_slot3;
+            var6 = var10.useCallback;
+            var3 = function() {
+                var6 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var1 = 7;
+                var2 = var7[var1];
+                var1 = undefined;
+                var4 = var6.bind(var1)(var2);
+                var3 = var4.open;
+                var2 = {};
+                var8 = 'MESSAGE_REQUEST_REQUEST_ERROR_ALERT_TITLE';
+                var2['key'] = var8;
+                var10 = _closure1_slot0;
+                var5 = 6;
+                var8 = var7[var5];
+                var8 = var10.bind(var1)(var8);
+                var9 = var8.intl;
+                var8 = var9.string;
+                var5 = var7[var5];
+                var5 = var10.bind(var1)(var5);
+                var5 = var5.t;
+                var5 = var5.EDYbS+;
+                var5 = var8.bind(var9)(var5);
+                var2['content'] = var5;
+                var5 = 8;
+                var5 = var7[var5];
+                var5 = var6.bind(var1)(var5);
+                var2['icon'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var2 = new Array(0);
+            var6 = var6.bind(var10)(var3, var2);
+            var10 = _closure1_slot3;
+            var3 = var10.useCallback;
+            var2 = new Array(2);
+            var2[0] = var11;
+            var2[1] = var1;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = _closure2_slot1;
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 9;
+                    var5 = var4[var3];
+                    var3 = undefined;
+                    var6 = var6.bind(var3)(var5);
+                    var5 = var6.transitionToChannel;
+                    var2 = _closure2_slot4;
+                    var2 = var5.bind(var6)(var2);
+                    var2 = _closure1_slot1;
+                    var1 = 10;
+                    var1 = var4[var1];
+                    var2 = var2.bind(var3)(var1);
+                    var1 = var2.pop;
+                    var1 = var1.bind(var2)();
+case 2:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var10 = var3.bind(var10)(var1, var2);
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 11;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useMessageRequestActions;
+            var1 = {};
+            var1['user'] = var30;
+            var1['onAcceptSuccess'] = var10;
+            var1['onError'] = var6;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.acceptMessageRequest;
+            _closure2_slot5 = var2;
+            var2 = var1.rejectMessageRequest;
+            _closure2_slot6 = var2;
+            var27 = var1.isAcceptLoading;
+            var20 = var1.isRejectLoading;
+            var25 = var1.isUserProfileLoading;
+            var24 = var1.isOptimisticAccepted;
+            var19 = var1.isOptimisticRejected;
             var21 = var27;
             if(var21) { _fun0001_ip = 4; continue _fun0001 }
 case 5:

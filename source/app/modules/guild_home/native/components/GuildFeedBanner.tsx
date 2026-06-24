@@ -163,10 +163,30 @@ case 0:
             var2 = var1.hideDescription;
             var13 = var1.hideMemberCount;
             var4 = undefined;
+            var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
+            var9 = function handleLoad() {
+                var4 = _closure2_slot1;
+                var3 = var4.set;
+                var5 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var1 = 16;
+                var2 = var8[var1];
+                var1 = undefined;
+                var7 = var5.bind(var1)(var2);
+                var6 = var7.withTiming;
+                var2 = 17;
+                var2 = var8[var2];
+                var2 = var5.bind(var1)(var2);
+                var5 = var2.timingSlow;
+                var2 = 1;
+                var2 = var6.bind(var7)(var2, var5);
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
             var1 = _closure1_slot13;
             var26 = var1.bind(var4)();
             var3 = _closure1_slot0;
@@ -177,7 +197,7 @@ case 0:
             var7 = var8.useSharedValue;
             var5 = 0;
             var8 = var7.bind(var8)(var5);
-            var _closure2_slot1 = var8;
+            _closure2_slot1 = var8;
             var1 = var6[var1];
             var5 = var3.bind(var4)(var1);
             var3 = var5.useAnimatedStyle;
@@ -204,12 +224,12 @@ case 0:
             var3 = var3.bind(var4)();
             var7 = var3.height;
             var3 = global;
-            var9 = var3.Math;
-            var8 = var9.max;
+            var10 = var3.Math;
+            var8 = var10.max;
             var3 = 0.22;
             var7 = var3 * var7;
             var3 = _closure1_slot9;
-            var11 = var8.bind(var9)(var7, var3);
+            var11 = var8.bind(var10)(var7, var3);
             var3 = 11;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
@@ -323,25 +343,6 @@ case 11:
             var6 = var2.bind(var4)(var5);
             var5 = var6.getGuildBadgeSource;
             var25 = var5.bind(var6)(var15);
-            var9 = function handleLoad() {
-                var4 = _closure2_slot1;
-                var3 = var4.set;
-                var5 = _closure1_slot0;
-                var8 = _closure1_slot2;
-                var1 = 16;
-                var2 = var8[var1];
-                var1 = undefined;
-                var7 = var5.bind(var1)(var2);
-                var6 = var7.withTiming;
-                var2 = 17;
-                var2 = var8[var2];
-                var2 = var5.bind(var1)(var2);
-                var5 = var2.timingSlow;
-                var2 = 1;
-                var2 = var6.bind(var7)(var2, var5);
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
             var5 = 18;
             var5 = var3[var5];
             var14 = var2.bind(var4)(var5);
@@ -740,7 +741,7 @@ case 27:
     };
     var _closure1_slot15 = var4;
     var4 = var7.memo;
-    var2 = function(arg1) {
+    var2 = function GuildFeedBannerContainer(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;

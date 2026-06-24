@@ -7,6 +7,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var10;
     var _closure1_slot2 = var6;
+    var1 = function rowModifierShared(arg1, arg2) {
+        var3 = arg1;
+        var1 = arg2;
+        var1 = !var1;
+        var3['canAddNewReactions'] = var1;
+        var4 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 11;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var4.bind(var1)(var2);
+        var2 = var2.MessageContextType;
+        var2 = var2.MEDIA_VIEWER;
+        var3['contextType'] = var2;
+        return var1;
+    };
+    var _closure1_slot20 = var1;
     var1 = function MeasureMessage(arg1) {
         var2 = arg1;
         var11 = var2.message;
@@ -17,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var9;
         var13 = var2.disableReactionCreates;
         var _closure2_slot3 = var13;
-        var2 = _closure1_slot18;
+        var2 = _closure1_slot17;
         var4 = undefined;
         var6 = var2.bind(var4)();
         var _closure2_slot4 = var6;
@@ -83,7 +100,7 @@ case 2:
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var3 = arg1;
-                        var4 = _closure1_slot17;
+                        var4 = _closure1_slot20;
                         var2 = _closure2_slot3;
                         var1 = undefined;
                         var2 = var4.bind(var1)(var3, var2);
@@ -214,23 +231,6 @@ case 6:
     var4 = new var16[var4](var15);
     var8 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot16 = var8;
-    var4 = function rowModifierShared(arg1, arg2) {
-        var3 = arg1;
-        var1 = arg2;
-        var1 = !var1;
-        var3['canAddNewReactions'] = var1;
-        var4 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 11;
-        var2 = var2[var1];
-        var1 = undefined;
-        var2 = var4.bind(var1)(var2);
-        var2 = var2.MessageContextType;
-        var2 = var2.MEDIA_VIEWER;
-        var3['contextType'] = var2;
-        return var1;
-    };
-    var _closure1_slot17 = var4;
     var7 = var8.setOptions;
     var4 = {'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInstanceEmbed': false, 'renderActivityInviteEmbed': false, 'renderComponents': false, 'renderEmbeds': false, 'ignoreMentioned': true, 'inlineAttachmentMedia': false, 'inlineEmbedMedia': false, 'renderReactions': true, 'renderAttachments': false, 'renderReplies': false, 'renderThreadEmbeds': false, 'renderPolls': false, 'renderForumPostActions': false, 'forcedTheme': null, 'forceHideSimpleEmbedContent': true};
     var9 = var9.DARK;
@@ -244,7 +244,7 @@ case 6:
     var11 = {'position': 'absolute', 'top': 0, 'left': 4294957297, 'bottom': 0, 'width': '100%', 'opacity': 0};
     var7['dummyLayout'] = var11;
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot18 = var7;
+    var _closure1_slot17 = var7;
     var7 = var6[var4];
     var11 = var5.bind(var1)(var7);
     var8 = var11.createNativeStyleProperties;
@@ -281,7 +281,7 @@ case 6:
     var12 = var12.REACTION_TEXT_REACTED_DEFAULT;
     var7['activeReactionTextColor'] = var12;
     var7 = var8.bind(var11)(var7);
-    var _closure1_slot19 = var7;
+    var _closure1_slot18 = var7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createNativeStyleProperties;
@@ -297,7 +297,7 @@ case 6:
     var9 = var9.TEXT_DEFAULT;
     var4['seeMoreLabelColor'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot20 = var4;
+    var _closure1_slot19 = var4;
     var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -412,12 +412,12 @@ case 8:
             };
             var23 = new Array(0);
             var23 = var27.bind(var29)(var24, var23);
-            var27 = _closure1_slot19;
+            var27 = _closure1_slot18;
             var23 = _closure1_slot12;
             var24 = var23.MIDNIGHT;
             var29 = var27.bind(var5)(var24);
             var _closure2_slot17 = var29;
-            var24 = _closure1_slot20;
+            var24 = _closure1_slot19;
             var23 = var23.MIDNIGHT;
             var23 = var24.bind(var5)(var23);
             var31 = var23.editedColor;
@@ -438,7 +438,7 @@ case 8:
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var3 = arg1;
-                    var6 = _closure1_slot17;
+                    var6 = _closure1_slot20;
                     var2 = _closure2_slot11;
                     var1 = undefined;
                     var6 = var6.bind(var1)(var3, var2);

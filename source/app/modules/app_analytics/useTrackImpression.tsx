@@ -229,15 +229,7 @@ case 28:
             var _closure2_slot2 = var3;
             var _closure2_slot3 = var1;
             var _closure2_slot4 = var1;
-            var _closure2_slot5 = var1;
-            var4 = _closure1_slot3;
-            var5 = var4.useRef;
-            var5 = var5.bind(var4)(var1);
-            _closure2_slot3 = var5;
-            var5 = var4.useRef;
-            var5 = var5.bind(var4)(var1);
-            _closure2_slot4 = var5;
-            var5 = function trackImpressionEffect() {
+            var3 = function trackImpressionEffect() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var4 = _closure1_slot1;
@@ -315,7 +307,14 @@ case 35:
                     return var1;
                 }
             };
-            _closure2_slot5 = var5;
+            var _closure2_slot5 = var3;
+            var4 = _closure1_slot3;
+            var5 = var4.useRef;
+            var5 = var5.bind(var4)(var1);
+            _closure2_slot3 = var5;
+            var5 = var4.useRef;
+            var5 = var5.bind(var4)(var1);
+            _closure2_slot4 = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 11;

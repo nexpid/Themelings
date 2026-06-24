@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/CollectiblesBadges.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function NewBadge(arg1) {
         var1 = arg1;
         var8 = var1.style;
         var1 = _closure1_slot7;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['NewBadge'] = var4;
-    var4 = function(arg1) {
+    var4 = function LockBadge(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -267,7 +267,7 @@ case 6:
         }
     };
     var3['LockBadge'] = var4;
-    var4 = function(arg1) {
+    var4 = function PremiumBadge(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -371,7 +371,7 @@ case 6:
         }
     };
     var3['PremiumBadge'] = var4;
-    var2 = function(arg1) {
+    var2 = function LimitedTimeBadge(arg1) {
         var1 = arg1;
         var8 = var1.style;
         var1 = _closure1_slot7;

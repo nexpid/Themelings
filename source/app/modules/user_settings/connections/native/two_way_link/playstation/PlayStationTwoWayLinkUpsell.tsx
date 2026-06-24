@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_settings/connections/native/two_way_link/playstation/PlayStationTwoWayLinkUpsell.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function() {
+    var2 = function PlayStationTwoWayLinkUpsell() {
         var2 = _closure1_slot7;
         var4 = undefined;
         var9 = var2.bind(var4)();

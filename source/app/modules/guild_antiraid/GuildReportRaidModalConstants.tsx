@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['COMMUNITY_PORTAL_SERVER_SAFETY_PAGE'] = var6;
     var3['ReportRaidTypes'] = var5;
     var3['REPORT_RAID_OPTIONS'] = var4;
-    var2 = function(arg1) {
+    var2 = function getReportRaidTypeLabel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;

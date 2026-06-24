@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/application_commands/native/ApplicationCommandLoadingItem.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default() {
+    var2 = function ApplicationCommandLoadingItem() {
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 6;

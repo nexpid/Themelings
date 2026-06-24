@@ -69,7 +69,7 @@ case 4:
         }
     };
     var3['pickHelloSticker'] = var4;
-    var4 = function(arg1) {
+    var4 = function pickWelcomeSticker(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot2;
@@ -112,7 +112,7 @@ case 4:
         }
     };
     var3['pickWelcomeSticker'] = var4;
-    var2 = function(arg1, arg2, arg3) {
+    var2 = function handleWelcomeCtaClicked(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var9 = arg1;

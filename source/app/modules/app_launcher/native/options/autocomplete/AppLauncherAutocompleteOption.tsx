@@ -81,83 +81,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function AppLauncherAutocompleteOption(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var7 = var2.style;
-            var3 = var2.option;
+            var1 = arg1;
+            var7 = var1.style;
+            var3 = var1.option;
             var _closure2_slot0 = var3;
-            var3 = var2.onSelect;
+            var3 = var1.onSelect;
             var _closure2_slot1 = var3;
-            var3 = var2.onOpenAutocompleteSheet;
+            var3 = var1.onOpenAutocompleteSheet;
             var _closure2_slot2 = var3;
-            var3 = var2.onDismissAutocompleteSheet;
+            var3 = var1.onDismissAutocompleteSheet;
             var _closure2_slot3 = var3;
-            var3 = var2.channel;
+            var3 = var1.channel;
             var _closure2_slot4 = var3;
-            var3 = var2.activeCommand;
+            var3 = var1.activeCommand;
             var _closure2_slot5 = var3;
-            var3 = var2.optionValues;
+            var3 = var1.optionValues;
             var _closure2_slot6 = var3;
-            var3 = var2.initialValue;
+            var3 = var1.initialValue;
             var _closure2_slot7 = var3;
-            var12 = var2.autoFocus;
-            var10 = var2.hasError;
-            var4 = _closure1_slot4;
-            var3 = var4.useState;
-            var2 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var3 = _closure2_slot7;
-                    var1 = null;
-                    if(!(var1 != var3)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var1 = _closure2_slot7;
-                    var3 = var1.type;
-                    var1 = 'text';
-                    if(!(var1 === var3)) { _fun0002_ip = 2; continue _fun0002 }
-case 4:
-                    var1 = _closure2_slot7;
-                    var3 = var1.text;
-                    var1 = '';
-                    if(!(var1 === var3)) { _fun0002_ip = 5; continue _fun0002 }
-case 2:
-                    var1 = undefined;
-                    return var1;
-case 5:
-                    var1 = {};
-                    var2 = _closure2_slot7;
-                    var3 = var2.text;
-                    var1['displayName'] = var3;
-                    var3 = var2.text;
-                    var1['name'] = var3;
-                    var2 = var2.text;
-                    var1['value'] = var2;
-                    return var1;
-                }
-            };
-            var6 = var3.bind(var4)(var2);
-            var3 = _closure1_slot3;
+            var12 = var1.autoFocus;
+            var10 = var1.hasError;
             var4 = undefined;
-            var2 = 2;
-            var3 = var3.bind(var4)(var6, var2);
-            var2 = 0;
-            var9 = var3[var2];
-            var _closure2_slot8 = var9;
-            var2 = 1;
-            var2 = var3[var2];
-            var _closure2_slot9 = var2;
-            var2 = _closure1_slot6;
-            var8 = var2.bind(var4)();
+            var _closure2_slot8 = var4;
+            var _closure2_slot9 = var4;
             var6 = function onPress() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure2_slot2;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0003_ip = 6; continue _fun0003 }
+                    if(!(var1 != var3)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
                     var3 = _closure2_slot2;
                     var1 = undefined;
                     var1 = var3.bind(var1)();
-case 6:
+case 2:
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 6;
@@ -207,6 +164,51 @@ case 6:
                     return var1;
                 }
             };
+            var8 = _closure1_slot4;
+            var3 = var8.useState;
+            var1 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var3 = _closure2_slot7;
+                    var1 = null;
+                    if(!(var1 != var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 3:
+                    var1 = _closure2_slot7;
+                    var3 = var1.type;
+                    var1 = 'text';
+                    if(!(var1 === var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
+                    var1 = _closure2_slot7;
+                    var3 = var1.text;
+                    var1 = '';
+                    if(!(var1 === var3)) { _fun0003_ip = 6; continue _fun0003 }
+case 4:
+                    var1 = undefined;
+                    return var1;
+case 6:
+                    var1 = {};
+                    var2 = _closure2_slot7;
+                    var3 = var2.text;
+                    var1['displayName'] = var3;
+                    var3 = var2.text;
+                    var1['name'] = var3;
+                    var2 = var2.text;
+                    var1['value'] = var2;
+                    return var1;
+                }
+            };
+            var8 = var3.bind(var8)(var1);
+            var3 = _closure1_slot3;
+            var1 = 2;
+            var3 = var3.bind(var4)(var8, var1);
+            var1 = 0;
+            var9 = var3[var1];
+            _closure2_slot8 = var9;
+            var1 = 1;
+            var1 = var3[var1];
+            _closure2_slot9 = var1;
+            var1 = _closure1_slot6;
+            var8 = var1.bind(var4)();
             var2 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 10;

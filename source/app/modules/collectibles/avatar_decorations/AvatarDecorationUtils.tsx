@@ -5,14 +5,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var6;
-    var1 = global;
-    var8 = var1.Object;
-    var5 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var8)(var3, var1, var4);
     var5 = function parseAvatarDecorationData(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -114,6 +106,14 @@ case 21:
         }
     };
     var _closure1_slot3 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var8 = {};
+    var1 = true;
+    var8['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var8);
     var1 = 2;
     var6 = var6[var1];
     var1 = undefined;
@@ -123,7 +123,7 @@ case 21:
     var6 = var7.bind(var8)(var6);
     var3['parseAvatarDecorationData'] = var5;
     var3['isAvatarDecorationExpired'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function isEqualAvatarDecoration(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = arg1;
@@ -152,7 +152,7 @@ case 26:
         }
     };
     var3['isEqualAvatarDecoration'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function hasGlobalDefaultAvatarDecoration(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;

@@ -1,14 +1,6 @@
 // app/modules/main_tabs_v2/native/shared_components/guild_channels/layouts/utils/deepmerge.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
-    var2 = global;
-    var7 = var2.Object;
-    var6 = var7.defineProperty;
-    var4 = {};
-    var5 = true;
-    var4['value'] = var5;
-    var2 = '__esModule';
-    var2 = var6.bind(var7)(var3, var2, var4);
     var2 = function isObject(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -52,7 +44,7 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot0 = var2;
+    var _closure1_slot1 = var2;
     var2 = function merge(arg1) {
         var6 = 0;
         var4 = copyRestArgs(var6);
@@ -98,14 +90,14 @@ case 14:
                         var1 = var2.bind(var5)(var1);
                         if(var1) { _fun0003_ip = 15; continue _fun0003 }
 case 13:
-                        var5 = _closure1_slot0;
+                        var5 = _closure1_slot1;
                         var2 = _closure3_slot0;
                         var2 = var2[var3];
                         var8 = undefined;
                         var2 = var5.bind(var8)(var2);
                         if(!var2) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
-                        var5 = _closure1_slot0;
+                        var5 = _closure1_slot1;
                         var2 = _closure3_slot1;
                         var2 = var2[var3];
                         var2 = var5.bind(var8)(var2);
@@ -118,7 +110,7 @@ case 16:
                         _fun0003_ip = 11; continue _fun0003;
 case 18:
                         var2 = _closure3_slot0;
-                        var6 = _closure1_slot1;
+                        var6 = _closure1_slot2;
                         var5 = var2[var3];
                         var1 = _closure3_slot1;
                         var1 = var1[var3];
@@ -127,7 +119,7 @@ case 18:
                         _fun0003_ip = 11; continue _fun0003;
 case 15:
                         var2 = _closure3_slot0;
-                        var1 = _closure1_slot1;
+                        var1 = _closure1_slot2;
                         var1 = var1.options;
                         var1 = var1.mergeArrays;
                         if(var1) { _fun0003_ip = 19; continue _fun0003 }
@@ -175,15 +167,23 @@ case 9:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot1 = var2;
+    var _closure1_slot2 = var2;
+    var4 = global;
+    var8 = var4.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var5 = true;
+    var6['value'] = var5;
+    var4 = '__esModule';
+    var4 = var7.bind(var8)(var3, var4, var6);
     var4 = {};
     var4['mergeArrays'] = var5;
-    var _closure1_slot2 = var4;
+    var _closure1_slot0 = var4;
     var2['options'] = var4;
     var1 = function(arg1, arg2) {
         var8 = 1;
         var5 = copyRestArgs(var8);
-        var3 = _closure1_slot1;
+        var3 = _closure1_slot2;
         var1 = {};
         var4 = true;
         var1['mergeArrays'] = var4;
@@ -200,7 +200,7 @@ case 9:
         var8 = var3;
         var7 = var4;
         var1 = apply(var8, var7, var6);
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot0;
         var3['options'] = var2;
         return var1;
     };

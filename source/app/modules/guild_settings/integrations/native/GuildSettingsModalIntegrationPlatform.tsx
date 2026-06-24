@@ -611,16 +611,35 @@ case 0:
             var _closure2_slot1 = var1;
             var5 = undefined;
             var _closure2_slot8 = var5;
-            var7 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var7 = function onConectTap() {
+                var2 = _closure2_slot1;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 30;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openUserSettings;
+                var2 = {};
+                var5 = _closure1_slot15;
+                var5 = var5.CONNECTIONS;
+                var2['screen'] = var5;
+                var5 = true;
+                var2['isRootScreen'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var8 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var1 = 24;
-            var1 = var11[var1];
-            var4 = var7.bind(var5)(var1);
+            var1 = var13[var1];
+            var4 = var8.bind(var5)(var1);
             var2 = var4.useToken;
-            var15 = _closure1_slot1;
+            var17 = _closure1_slot1;
             var16 = 11;
-            var1 = var11[var16];
-            var1 = var15.bind(var5)(var1);
+            var1 = var13[var16];
+            var1 = var17.bind(var5)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
             var1 = var1.TABLE_ROW_PADDING;
@@ -629,18 +648,18 @@ case 0:
             var14 = var1.bind(var5)();
             var _closure2_slot2 = var14;
             var1 = 25;
-            var1 = var11[var1];
-            var2 = var7.bind(var5)(var1);
+            var1 = var13[var1];
+            var2 = var8.bind(var5)(var1);
             var1 = var2.useNavigation;
             var6 = var1.bind(var2)();
             var _closure2_slot3 = var6;
             var4 = 26;
-            var1 = var11[var4];
-            var17 = var7.bind(var5)(var1);
-            var13 = var17.useStateFromStoresObject;
+            var1 = var13[var4];
+            var19 = var8.bind(var5)(var1);
+            var15 = var19.useStateFromStoresObject;
             var1 = _closure1_slot11;
-            var8 = new Array(1);
-            var8[0] = var1;
+            var11 = new Array(1);
+            var11[0] = var1;
             var2 = function() {
                 var1 = {};
                 var3 = _closure1_slot11;
@@ -655,21 +674,21 @@ case 0:
                 var1['hasChanges'] = var2;
                 return var1;
             };
-            var2 = var13.bind(var17)(var8, var2);
-            var8 = var2.submitting;
-            var _closure2_slot4 = var8;
-            var13 = var2.hasChanges;
-            var _closure2_slot5 = var13;
+            var2 = var15.bind(var19)(var11, var2);
+            var11 = var2.submitting;
+            var _closure2_slot4 = var11;
+            var15 = var2.hasChanges;
+            var _closure2_slot5 = var15;
             var2 = var2.guild;
             var _closure2_slot6 = var2;
-            var13 = 27;
-            var13 = var11[var13];
-            var13 = var15.bind(var5)(var13);
-            var13 = var13.bind(var5)();
-            var _closure2_slot7 = var13;
-            var4 = var11[var4];
-            var11 = var7.bind(var5)(var4);
-            var7 = var11.useStateFromStores;
+            var15 = 27;
+            var15 = var13[var15];
+            var15 = var17.bind(var5)(var15);
+            var15 = var15.bind(var5)();
+            var _closure2_slot7 = var15;
+            var4 = var13[var4];
+            var13 = var8.bind(var5)(var4);
+            var8 = var13.useStateFromStores;
             var4 = new Array(1);
             var4[0] = var1;
             var1 = function() {
@@ -679,13 +698,13 @@ case 0:
                 var1 = var1.integrations;
                 return var1;
             };
-            var11 = var7.bind(var11)(var4, var1);
+            var13 = var8.bind(var13)(var4, var1);
             var1 = null;
-            var4 = var1 == var11;
+            var4 = var1 == var13;
             var15 = undefined;
             if(var4) { _fun0007_ip = 43; continue _fun0007 }
 case 44:
-            var7 = var11.filter;
+            var8 = var13.filter;
             var4 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.type;
@@ -693,7 +712,7 @@ case 44:
                 var1 = var2 === var1;
                 return var1;
             };
-            var15 = var7.bind(var11)(var4);
+            var15 = var8.bind(var13)(var4);
 case 43:
             if(!(var1 != var2)) { _fun0007_ip = 45; continue _fun0007 }
 case 46:
@@ -716,30 +735,30 @@ case 46:
             _closure2_slot8 = var2;
             var4 = var6.setOptions;
             var2 = {};
-            var7 = undefined;
-            if(!var8) { _fun0007_ip = 47; continue _fun0007 }
+            var8 = undefined;
+            if(!var11) { _fun0007_ip = 47; continue _fun0007 }
 case 48:
-            var7 = function() {
+            var8 = function() {
                 var1 = null;
                 return var1;
             };
 case 47:
-            var2['headerLeft'] = var7;
-            var8 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var7 = 18;
-            var7 = var11[var7];
-            var8 = var8.bind(var5)(var7);
-            var7 = var8.get;
-            var8 = var7.bind(var8)(var3);
-            var11 = var1 == var8;
-            var7 = undefined;
-            if(var11) { _fun0007_ip = 49; continue _fun0007 }
+            var2['headerLeft'] = var8;
+            var11 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var8 = 18;
+            var8 = var13[var8];
+            var11 = var11.bind(var5)(var8);
+            var8 = var11.get;
+            var11 = var8.bind(var11)(var3);
+            var13 = var1 == var11;
+            var8 = undefined;
+            if(var13) { _fun0007_ip = 49; continue _fun0007 }
 case 50:
-            var7 = var8.name;
+            var8 = var11.name;
 case 49:
-            var2['title'] = var7;
-            var7 = function headerRight() {
+            var2['title'] = var8;
+            var8 = function headerRight() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var1 = _closure2_slot4;
@@ -789,27 +808,8 @@ case 55:
                     return var1;
                 }
             };
-            var2['headerRight'] = var7;
+            var2['headerRight'] = var8;
             var2 = var4.bind(var6)(var2);
-            var7 = function onConectTap() {
-                var2 = _closure2_slot1;
-                var1 = undefined;
-                var2 = var2.bind(var1)();
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var2 = 30;
-                var2 = var4[var2];
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.openUserSettings;
-                var2 = {};
-                var5 = _closure1_slot15;
-                var5 = var5.CONNECTIONS;
-                var2['screen'] = var5;
-                var5 = true;
-                var2['isRootScreen'] = var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
             var2 = _closure1_slot14;
             var2 = var2.YOUTUBE;
             if(!(var2 !== var3)) { _fun0007_ip = 56; continue _fun0007 }

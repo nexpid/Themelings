@@ -175,7 +175,32 @@ case 7:
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
-            var _closure2_slot8 = var4;
+            var2 = function updateInputHexValueFromHsv(arg1) {
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 9;
+                var2 = var4[var1];
+                var1 = undefined;
+                var6 = var3.bind(var1)(var2);
+                var5 = var6.hsvToRgbWorklet;
+                var2 = arg1;
+                var7 = var5.bind(var6)(var2);
+                var2 = 10;
+                var2 = var4[var2];
+                var6 = var3.bind(var1)(var2);
+                var5 = var6.rgbToHex;
+                var2 = 0;
+                var4 = var7[var2];
+                var2 = 1;
+                var3 = var7[var2];
+                var2 = 2;
+                var2 = var7[var2];
+                var3 = var5.bind(var6)(var4, var3, var2);
+                var2 = _closure2_slot2;
+                var2 = var2.bind(var1)(var3);
+                return var1;
+            };
+            var _closure2_slot8 = var2;
             var2 = _closure1_slot8;
             var8 = var2.bind(var4)();
             var3 = _closure1_slot0;
@@ -290,32 +315,6 @@ case 13:
             var2 = var3.concat;
             var23 = var2.bind(var3)(var5);
 case 12:
-            var2 = function updateInputHexValueFromHsv(arg1) {
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var1 = 9;
-                var2 = var4[var1];
-                var1 = undefined;
-                var6 = var3.bind(var1)(var2);
-                var5 = var6.hsvToRgbWorklet;
-                var2 = arg1;
-                var7 = var5.bind(var6)(var2);
-                var2 = 10;
-                var2 = var4[var2];
-                var6 = var3.bind(var1)(var2);
-                var5 = var6.rgbToHex;
-                var2 = 0;
-                var4 = var7[var2];
-                var2 = 1;
-                var3 = var7[var2];
-                var2 = 2;
-                var2 = var7[var2];
-                var3 = var5.bind(var6)(var4, var3, var2);
-                var2 = _closure2_slot2;
-                var2 = var2.bind(var1)(var3);
-                return var1;
-            };
-            _closure2_slot7 = var2;
             var6 = _closure1_slot4;
             var3 = var6.useCallback;
             var2 = new Array(6);
@@ -375,12 +374,12 @@ case 16:
                 }
             };
             var5 = var3.bind(var6)(var1, var2);
-            _closure2_slot8 = var5;
+            _closure2_slot7 = var5;
             var3 = var6.useCallback;
             var2 = new Array(1);
             var2[0] = var5;
             var1 = function() {
-                var2 = _closure2_slot8;
+                var2 = _closure2_slot7;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var3 = _closure1_slot1;
@@ -601,7 +600,7 @@ case 22:
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
                 var3 = var5.runOnJS;
-                var2 = _closure2_slot7;
+                var2 = _closure2_slot8;
                 var3 = var3.bind(var5)(var2);
                 var2 = {};
                 var6 = _closure2_slot4;

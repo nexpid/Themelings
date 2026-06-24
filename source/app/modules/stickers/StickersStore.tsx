@@ -39,76 +39,29 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot16 = var2;
+            _closure1_slot15 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
+    var _closure1_slot15 = var1;
+    var1 = function loadSavedGuildStickers() {
+        var1 = undefined;
+        var4 = _closure1_slot17;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
     var _closure1_slot16 = var1;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var2 = {};
-    var1 = true;
-    var2['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
-    var10 = 0;
-    var2 = var6[var10];
-    var1 = undefined;
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var9 = 1;
-    var2 = var6[var9];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 3;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = 5;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot8 = var2;
-    var2 = 6;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot9 = var2;
-    var2 = 7;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot10 = var2;
-    var2 = 8;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot11 = var2;
-    var2 = 9;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot12 = var2;
-    var2 = {};
-    var2['Unloaded'] = var10;
-    var8 = 'Unloaded';
-    var2[var10] = var8;
-    var2['Loaded'] = var9;
-    var8 = 'Loaded';
-    var2[var9] = var8;
-    var _closure1_slot13 = var2;
-    var2 = var2.Unloaded;
-    var _closure1_slot14 = var2;
-    var2 = function() {
+    var1 = function _loadSavedGuildStickers() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot8;
-        var3 = undefined;
-        var2 = function* () {
+        var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -200,22 +153,75 @@ case 6:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot17 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var2 = var2.bind(var1)();
-    var _closure1_slot15 = var2;
+    var _closure1_slot17 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var10 = 0;
+    var2 = var6[var10];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var9 = 1;
+    var2 = var6[var9];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot8 = var2;
+    var2 = 6;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot9 = var2;
+    var2 = 7;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot10 = var2;
+    var2 = 8;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot11 = var2;
+    var2 = 9;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot12 = var2;
+    var2 = {};
+    var2['Unloaded'] = var10;
+    var8 = 'Unloaded';
+    var2[var10] = var8;
+    var2['Loaded'] = var9;
+    var8 = 'Loaded';
+    var2[var9] = var8;
+    var _closure1_slot13 = var2;
+    var2 = var2.Unloaded;
+    var _closure1_slot14 = var2;
     var2 = 15;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -233,7 +239,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot16;
+                var1 = _closure1_slot15;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
@@ -316,7 +322,7 @@ case 18:
         var7 = 'getStickerMetadataArrays';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot16;
             var1 = undefined;
             var1 = var3.bind(var1)();
             var3 = _closure1_slot11;
@@ -359,7 +365,7 @@ case 18:
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var4 = arg1;
-                var3 = _closure1_slot15;
+                var3 = _closure1_slot16;
                 var1 = undefined;
                 var1 = var3.bind(var1)();
                 var3 = _closure1_slot11;
@@ -427,7 +433,7 @@ case 19:
         var7 = 'getAllGuildStickers';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot16;
             var2 = undefined;
             var2 = var3.bind(var2)();
             var2 = _closure1_slot11;
@@ -452,7 +458,7 @@ case 19:
         var7 = 'getStickersByGuildId';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot16;
             var2 = undefined;
             var2 = var3.bind(var2)();
             var3 = _closure1_slot11;
@@ -473,7 +479,7 @@ case 19:
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
-    var9 = function BACKGROUND_SYNC() {
+    var9 = function handleBackgroundSync() {
         var1 = _closure1_slot13;
         var1 = var1.Unloaded;
         _closure1_slot14 = var1;
@@ -481,7 +487,7 @@ case 19:
         return var1;
     };
     var2['BACKGROUND_SYNC'] = var9;
-    var9 = function CONNECTION_OPEN(arg1) {
+    var9 = function handleConnectionOpen(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
@@ -516,7 +522,7 @@ case 24:
         }
     };
     var2['CONNECTION_OPEN'] = var9;
-    var4 = function LOGOUT() {
+    var4 = function handleLogout() {
         var1 = _closure1_slot13;
         var1 = var1.Unloaded;
         _closure1_slot14 = var1;

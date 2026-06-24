@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/collectibles/CollectiblesDebugStore.tsx';
     var5 = var6.bind(var7)(var5);
     var3['useCollectiblesDebugStore'] = var4;
-    var2 = function(arg1) {
+    var2 = function addDebugLog(arg1) {
         var1 = global;
         var2 = var1.Date;
         var3 = var2.prototype;

@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_settings/premium/native/UserSettingsPremium.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function UserSettingsPremium(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -124,7 +124,7 @@ case 0:
             var _closure2_slot3 = var1;
             var1 = var2.isFromTextSection;
             var15 = var2.onClose;
-            var18 = var2.premiumFeatureCardOrder;
+            var19 = var2.premiumFeatureCardOrder;
             var16 = var2.onPaymentSuccess;
             var14 = var2.onPaymentDismiss;
             var6 = undefined;
@@ -293,9 +293,9 @@ case 11:
             };
             var5 = var5.bind(var9)(var4, var1);
             _closure2_slot7 = var5;
-            var19 = _closure1_slot4;
-            var1 = var19.useRef;
-            var1 = var1.bind(var19)(var5);
+            var18 = _closure1_slot4;
+            var1 = var18.useRef;
+            var1 = var1.bind(var18)(var5);
             _closure2_slot8 = var1;
             var1 = var12[var2];
             var20 = var11.bind(var6)(var1);
@@ -415,7 +415,7 @@ case 7:
             var9 = var11.bind(var6)(var2);
             var2 = var9.useIsPaymentsBlocked;
             var2 = var2.bind(var9)();
-            var27 = var19.useEffect;
+            var27 = var18.useEffect;
             var21 = function() {
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
@@ -446,8 +446,8 @@ case 7:
                 return var1;
             };
             var9 = new Array(0);
-            var9 = var27.bind(var19)(var21, var9);
-            var21 = var19.useEffect;
+            var9 = var27.bind(var18)(var21, var9);
+            var21 = var18.useEffect;
             var9 = new Array(1);
             var9[0] = var5;
             var5 = function() {
@@ -494,7 +494,7 @@ case 18:
                     return var1;
                 }
             };
-            var5 = var21.bind(var19)(var5, var9);
+            var5 = var21.bind(var18)(var5, var9);
             var5 = 28;
             var5 = var12[var5];
             var9 = var11.bind(var6)(var5);
@@ -512,7 +512,7 @@ case 18:
             var11 = var11.bind(var6)(var9);
             var9 = var11.usePremiumTrialOfferPremiumType;
             var12 = var9.bind(var11)();
-            var11 = var19.useEffect;
+            var11 = var18.useEffect;
             var9 = new Array(2);
             var9[0] = var21;
             var9[1] = var5;
@@ -550,9 +550,9 @@ case 21:
                     return var1;
                 }
             };
-            var5 = var11.bind(var19)(var5, var9);
-            var19 = null;
-            var21 = var19 != var25;
+            var5 = var11.bind(var18)(var5, var9);
+            var18 = null;
+            var21 = var18 != var25;
             if(!var21) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
             var21 = var20;
@@ -568,7 +568,7 @@ case 25:
             var9 = var9.bind(var6)(var5);
             var5 = var9.useHasTier2Premium;
             var11 = var5.bind(var9)();
-            if(!(var19 != var4)) { _fun0001_ip = 27; continue _fun0001 }
+            if(!(var18 != var4)) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
             if(!var20) { _fun0001_ip = 27; continue _fun0001 }
 case 29:
@@ -636,7 +636,7 @@ case 42:
             var11 = var13[var11];
             var11 = var12.bind(var6)(var11);
             var11 = var11.PremiumFeatureCardOrder;
-            var18 = var11.TIER_2_LEADING;
+            var19 = var11.TIER_2_LEADING;
             _fun0001_ip = 41; continue _fun0001;
 case 39:
             var12 = _closure1_slot0;
@@ -645,7 +645,7 @@ case 39:
             var11 = var13[var11];
             var11 = var12.bind(var6)(var11);
             var11 = var11.PremiumFeatureCardOrder;
-            var18 = var11.TIER_0_LEADING;
+            var19 = var11.TIER_0_LEADING;
 case 41:
             var13 = _closure1_slot19;
             var12 = _closure1_slot1;
@@ -759,22 +759,25 @@ case 51:
 case 50:
             var11['accountCredit'] = var20;
             var11['onClose'] = var15;
-            if(!(var19 == var18)) { _fun0001_ip = 52; continue _fun0001 }
+            if(!(var18 == var19)) { _fun0001_ip = 52; continue _fun0001 }
 case 53:
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var19 = 40;
-            var19 = var21[var19];
-            var19 = var20.bind(var6)(var19);
-            var19 = var19.PremiumFeatureCardOrder;
-            var18 = var19.TIER_2_LEADING;
+            var18 = 40;
+            var18 = var21[var18];
+            var18 = var20.bind(var6)(var18);
+            var18 = var18.PremiumFeatureCardOrder;
+            var18 = var18.TIER_2_LEADING;
+            _fun0001_ip = 54; continue _fun0001;
 case 52:
+            var18 = var19;
+case 54:
             var11['premiumFeatureCardOrder'] = var18;
             var11['entitlements'] = var17;
             var11['onPaymentSuccess'] = var16;
             var11['onPaymentDismiss'] = var14;
             var11 = var13.bind(var6)(var12, var11);
-            _fun0001_ip = 54; continue _fun0001;
+            _fun0001_ip = 55; continue _fun0001;
 case 37:
             var14 = _closure1_slot19;
             var13 = _closure1_slot1;
@@ -785,12 +788,12 @@ case 37:
             var12 = {};
             var12['onClose'] = var15;
             var11 = var14.bind(var6)(var13, var12);
-case 54:
+case 55:
             var4['children'] = var11;
             var4 = var10.bind(var6)(var9, var4);
             var2['children'] = var4;
             var2 = var5.bind(var6)(var3, var2);
-            _fun0001_ip = 55; continue _fun0001;
+            _fun0001_ip = 56; continue _fun0001;
 case 33:
             var4 = _closure1_slot7;
             var3 = {};
@@ -805,7 +808,7 @@ case 33:
             var7 = var5.bind(var6)(var8, var7);
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 55:
+case 56:
             var1 = var2;
 case 32:
             return var1;

@@ -225,6 +225,27 @@ case 6:
             return var1;
         }
     };
+    var _closure1_slot10 = var1;
+    var1 = function showDemoPromoSheet() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 13;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.openLazy;
+        var3 = function() {
+            var1 = global;
+            var3 = var1.Promise;
+            var2 = var3.resolve;
+            var1 = _closure1_slot12;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var2 = 'promo-sheet-demo';
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
     var _closure1_slot11 = var1;
     var1 = function DemoPromoSheet() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -354,27 +375,6 @@ case 10:
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = function showDemoPromoSheet() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 13;
-        var2 = var2[var1];
-        var1 = undefined;
-        var5 = var3.bind(var1)(var2);
-        var4 = var5.openLazy;
-        var3 = function() {
-            var1 = global;
-            var3 = var1.Promise;
-            var2 = var3.resolve;
-            var1 = _closure1_slot12;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var2 = 'promo-sheet-demo';
-        var2 = var4.bind(var5)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot10 = var4;
     var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -443,7 +443,7 @@ case 10:
                 var1 = global;
                 var3 = var1.Promise;
                 var2 = var3.resolve;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot10;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
@@ -492,7 +492,7 @@ case 10:
         var16 = var17.bind(var4)(var16);
         var17 = var16.Button;
         var16 = {};
-        var19 = _closure1_slot10;
+        var19 = _closure1_slot11;
         var16['onPress'] = var19;
         var19 = 'Show Promo Sheet';
         var16['text'] = var19;

@@ -101,8 +101,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var14;
         var1 = var1.onSave;
         var _closure2_slot3 = var1;
-        var1 = _closure1_slot12;
         var4 = undefined;
+        var _closure2_slot7 = var4;
+        var1 = function handleSave() {
+            var1 = undefined;
+            var4 = _closure2_slot11;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
+        var _closure2_slot10 = var1;
+        var1 = function _handleSave() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot3;
+            var2 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3: // try_start_0
+                        var5 = _closure2_slot3;
+                        var2 = _closure2_slot7;
+                        var4 = undefined;
+                        var2 = var5.bind(var4)(var2);
+                        SaveGenerator(address=29);
+case 4:
+                        return var2;
+case 5:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                        if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                        var3 = _closure2_slot2;
+                        var3 = var3.bind(var4)();
+case 8: // try_end0
+                        _fun0001_ip = 9; continue _fun0001;
+case 6:
+                        return var2;
+case 10: // catch_target0
+                        CatchBlockStart(arg_register=1);
+case 9:
+                        var2 = undefined;
+                        return var2;
+case 2:
+                        return var1;
+                    }
+                };
+                return var1;
+            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot11 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
+        var _closure2_slot11 = var1;
+        var1 = _closure1_slot12;
         var11 = var1.bind(var4)();
         var _closure2_slot4 = var11;
         var7 = _closure1_slot1;
@@ -137,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var2.bind(var4)(var3, var1);
         var1 = 0;
         var1 = var3[var1];
-        var _closure2_slot7 = var1;
+        _closure2_slot7 = var1;
         var2 = 1;
         var2 = var3[var2];
         var _closure2_slot8 = var2;
@@ -148,12 +210,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[2] = var8;
         var2[3] = var1;
         var1 = function() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = _closure2_slot1;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+                if(!(var3 != var4)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var4 = _closure2_slot5;
                 var3 = var4.filter;
                 var2 = function(arg1) {
@@ -162,27 +224,27 @@ case 3:
                     var3 = var2.roles;
                     var2 = var3.filter;
                     var1 = function(arg1) {
-                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                             var4 = arg1;
                             var1 = _closure2_slot1;
                             var3 = var4 === var1;
-                            if(!var3) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                            if(!var3) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                             var6 = _closure2_slot7;
                             var5 = var6.has;
                             var1 = _closure4_slot0;
                             var1 = var1.id;
                             var1 = var5.bind(var6)(var1);
                             var3 = !var1;
-case 4:
+case 13:
                             var1 = !var3;
-                            if(var3) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                            if(var3) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                             var3 = _closure2_slot6;
                             var2 = var3.has;
                             var1 = var2.bind(var3)(var4);
-case 6:
+case 15:
                             return var1;
                         }
                     };
@@ -208,7 +270,7 @@ case 6:
                 var1 = new var6[var3](var5, var4);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
-case 2:
+case 11:
                 var1 = global;
                 var1 = var1.Set;
                 var2 = var1.prototype;
@@ -221,61 +283,6 @@ case 2:
         };
         var1 = var3.bind(var5)(var1, var2);
         var _closure2_slot9 = var1;
-        var1 = function() {
-            var4 = _closure1_slot3;
-            var3 = undefined;
-            var2 = function* () {
-                var1 = function* anon_0_() {
-                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                        StartGenerator();
-                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 8; continue _fun0003 }
-case 9: // try_start_0
-                        var5 = _closure2_slot3;
-                        var2 = _closure2_slot7;
-                        var4 = undefined;
-                        var2 = var5.bind(var4)(var2);
-                        SaveGenerator(address=29);
-case 10:
-                        return var2;
-case 11:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-                        var3 = _closure2_slot2;
-                        var3 = var3.bind(var4)();
-case 14: // try_end0
-                        _fun0003_ip = 15; continue _fun0003;
-case 12:
-                        return var2;
-case 16: // catch_target0
-                        CatchBlockStart(arg_register=1);
-case 15:
-                        var2 = undefined;
-                        return var2;
-case 8:
-                        return var1;
-                    }
-                };
-                return var1;
-            };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
-            return var1;
-        };
-        var1 = var1.bind(var4)();
-        var _closure2_slot10 = var1;
         var3 = _closure1_slot11;
         var2 = _closure1_slot6;
         var1 = {};
@@ -542,8 +549,7 @@ case 22:
 case 24:
                     var2 = _closure2_slot8;
                     var1 = undefined;
-                    var1 = var2.bind(var1)(var3);
-                    var1 = undefined;
+                    var2 = var2.bind(var1)(var3);
                     return var1;
                 }
             };

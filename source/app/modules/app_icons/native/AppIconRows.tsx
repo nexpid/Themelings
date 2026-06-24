@@ -22,25 +22,7 @@ case 3:
             var _closure2_slot0 = var1;
             var _closure2_slot1 = var5;
             var _closure2_slot2 = var5;
-            var _closure2_slot3 = var5;
-            var3 = _closure1_slot11;
-            var7 = var3.bind(var5)();
-            var8 = _closure1_slot4;
-            var4 = var8.useState;
-            var3 = false;
-            var8 = var4.bind(var8)(var3);
-            var4 = _closure1_slot3;
-            var3 = 2;
-            var4 = var4.bind(var5)(var8, var3);
-            var3 = 0;
-            var3 = var4[var3];
-            _closure2_slot1 = var3;
-            var3 = 1;
-            var3 = var4[var3];
-            _closure2_slot2 = var3;
-            var11 = var1.icons;
-            var10 = var1.title;
-            var1 = function onLongPress(arg1) {
+            var3 = function onLongPress(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure1_slot0;
@@ -62,7 +44,24 @@ case 4:
                     return var1;
                 }
             };
-            _closure2_slot3 = var1;
+            var _closure2_slot3 = var3;
+            var3 = _closure1_slot11;
+            var7 = var3.bind(var5)();
+            var8 = _closure1_slot4;
+            var4 = var8.useState;
+            var3 = false;
+            var8 = var4.bind(var8)(var3);
+            var4 = _closure1_slot3;
+            var3 = 2;
+            var4 = var4.bind(var5)(var8, var3);
+            var3 = 0;
+            var3 = var4[var3];
+            _closure2_slot1 = var3;
+            var3 = 1;
+            var3 = var4[var3];
+            _closure2_slot2 = var3;
+            var11 = var1.icons;
+            var10 = var1.title;
             var4 = _closure1_slot8;
             var3 = _closure1_slot5;
             var1 = {};

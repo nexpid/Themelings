@@ -7,6 +7,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var5;
     var _closure1_slot2 = var6;
+    var1 = function getAccessibilityLabelFormatter() {
+        var1 = {};
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var2 = 6;
+        var3 = var7[var2];
+        var5 = undefined;
+        var3 = var6.bind(var5)(var3);
+        var3 = var3.t;
+        var3 = var3["1Rcf/h"];
+        var1['minutes'] = var3;
+        var3 = var7[var2];
+        var3 = var6.bind(var5)(var3);
+        var3 = var3.t;
+        var3 = var3.vgnx51;
+        var1['hours'] = var3;
+        var3 = var7[var2];
+        var3 = var6.bind(var5)(var3);
+        var3 = var3.t;
+        var3 = var3.fNvE50;
+        var1['days'] = var3;
+        var3 = var7[var2];
+        var3 = var6.bind(var5)(var3);
+        var4 = var3.intl;
+        var3 = var4.string;
+        var2 = var7[var2];
+        var2 = var6.bind(var5)(var2);
+        var2 = var2.t;
+        var2 = var2.P7Gygz;
+        var2 = var3.bind(var4)(var2);
+        var1['month'] = var2;
+        return var1;
+    };
+    var _closure1_slot11 = var1;
     var1 = ['can_send_message', 'parent_channel_type'];
     var _closure1_slot3 = var1;
     var1 = global;
@@ -46,40 +80,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var8;
     var4 = var4.UserNotificationSettings;
     var _closure1_slot10 = var4;
-    var4 = function getAccessibilityLabelFormatter() {
-        var1 = {};
-        var6 = _closure1_slot0;
-        var7 = _closure1_slot2;
-        var2 = 6;
-        var3 = var7[var2];
-        var5 = undefined;
-        var3 = var6.bind(var5)(var3);
-        var3 = var3.t;
-        var3 = var3["1Rcf/h"];
-        var1['minutes'] = var3;
-        var3 = var7[var2];
-        var3 = var6.bind(var5)(var3);
-        var3 = var3.t;
-        var3 = var3.vgnx51;
-        var1['hours'] = var3;
-        var3 = var7[var2];
-        var3 = var6.bind(var5)(var3);
-        var3 = var3.t;
-        var3 = var3.fNvE50;
-        var1['days'] = var3;
-        var3 = var7[var2];
-        var3 = var6.bind(var5)(var3);
-        var4 = var3.intl;
-        var3 = var4.string;
-        var2 = var7[var2];
-        var2 = var6.bind(var5)(var2);
-        var2 = var2.t;
-        var2 = var2.P7Gygz;
-        var2 = var3.bind(var4)(var2);
-        var1['month'] = var2;
-        return var1;
-    };
-    var _closure1_slot11 = var4;
     var4 = 16;
     var4 = var6[var4];
     var8 = var7.bind(var1)(var4);
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var3['getTimestampString'] = var4;
-    var4 = function(arg1) {
+    var4 = function getTimestampAccessibilityLabel(arg1) {
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
         var2 = 7;
@@ -165,27 +165,6 @@ case 2:
 case 0:
             var10 = arg1;
             var3 = arg2;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 10;
-            var4 = var4[var1];
-            var1 = undefined;
-            var5 = var5.bind(var1)(var4);
-            var4 = var5.collectThreadMetadata;
-            var18 = var4.bind(var5)(var10);
-            var7 = null;
-            if(!(var7 != var18)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-            var4 = var10.getGuildId;
-            var15 = var4.bind(var10)();
-            var14 = var10.parent_id;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var8 = 11;
-            var4 = var4[var8];
-            var5 = var5.bind(var1)(var4);
-            var4 = var5.getCurrentChannelSettings;
-            var6 = var4.bind(var5)(var15, var14);
             var12 = function getNotificationAnalyticsString(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -202,8 +181,8 @@ case 0:
                     var3 = var4.bind(var6)(var10, var3);
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    if(var3) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                    if(var3) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var3 = var6[var1];
                     var8 = var4.bind(var5)(var3);
                     var7 = var8.hasFlag;
@@ -212,8 +191,8 @@ case 7:
                     var3 = var7.bind(var8)(var10, var3);
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    if(var3) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                    if(var3) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var1 = var8[var1];
                     var9 = var7.bind(var5)(var1);
                     var3 = var9.hasFlag;
@@ -227,17 +206,17 @@ case 9:
                     var3 = var9.bind(var5)(var3);
                     var9 = var3.MessageNotificationSettings;
                     var3 = _closure1_slot10;
-                    if(var1) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                    if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var1 = var3.NULL;
                     var1 = var9[var1];
-                    _fun0003_ip = 12; continue _fun0003;
-case 10:
+                    _fun0003_ip = 10; continue _fun0003;
+case 8:
                     var3 = var3.NO_MESSAGES;
                     var1 = var9[var3];
-case 12:
-                    _fun0003_ip = 13; continue _fun0003;
-case 8:
+case 10:
+                    _fun0003_ip = 11; continue _fun0003;
+case 6:
                     var3 = 11;
                     var3 = var8[var3];
                     var3 = var7.bind(var5)(var3);
@@ -245,9 +224,9 @@ case 8:
                     var3 = _closure1_slot10;
                     var3 = var3.ONLY_MENTIONS;
                     var1 = var7[var3];
-case 13:
-                    _fun0003_ip = 14; continue _fun0003;
-case 6:
+case 11:
+                    _fun0003_ip = 12; continue _fun0003;
+case 4:
                     var3 = 11;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
@@ -255,10 +234,31 @@ case 6:
                     var2 = _closure1_slot10;
                     var2 = var2.ALL_MESSAGES;
                     var1 = var3[var2];
-case 14:
+case 12:
                     return var1;
                 }
             };
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 10;
+            var4 = var4[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.collectThreadMetadata;
+            var18 = var4.bind(var5)(var10);
+            var7 = null;
+            if(!(var7 != var18)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+            var4 = var10.getGuildId;
+            var15 = var4.bind(var10)();
+            var14 = var10.parent_id;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var8 = 11;
+            var4 = var4[var8];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.getCurrentChannelSettings;
+            var6 = var4.bind(var5)(var15, var14);
             var9 = _closure1_slot7;
             var5 = var9.flags;
             var4 = var10.id;
@@ -359,12 +359,12 @@ case 21:
             var2 = _closure1_slot9;
             var2 = var2.THREAD_NOTIFICATION_SETTINGS_UPDATED;
             var2 = var3.bind(var4)(var2, var5);
-case 4:
+case 13:
             return var1;
         }
     };
     var3['trackThreadNotificationSettingsUpdated'] = var4;
-    var2 = function(arg1) {
+    var2 = function useLastMessageTimestamp(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;

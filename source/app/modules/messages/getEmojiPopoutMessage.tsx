@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/messages/getEmojiPopoutMessage.tsx';
     var5 = var6.bind(var7)(var5);
     var3['EmojiPopoutType'] = var4;
-    var2 = function(arg1) {
+    var2 = function getEmojiPopoutData(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;

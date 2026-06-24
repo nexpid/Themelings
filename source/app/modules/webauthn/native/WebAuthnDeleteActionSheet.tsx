@@ -91,9 +91,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var1.deleting;
         var1 = var1.setDeleting;
         var _closure2_slot1 = var1;
-        var1 = _closure1_slot7;
-        var4 = undefined;
-        var16 = var1.bind(var4)();
         var11 = function handleClose() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -106,6 +103,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var _closure2_slot2 = var11;
+        var1 = _closure1_slot7;
+        var4 = undefined;
+        var16 = var1.bind(var4)();
         var3 = _closure1_slot6;
         var17 = _closure1_slot0;
         var18 = _closure1_slot2;

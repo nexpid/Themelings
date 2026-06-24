@@ -302,7 +302,27 @@ case 5:
             var _closure2_slot10 = var5;
             var _closure2_slot11 = var5;
             var _closure2_slot12 = var5;
-            var _closure2_slot13 = var5;
+            var23 = function handleShowProfileActionSheet() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 26;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = {};
+                var5 = _closure2_slot10;
+                var2['sourceAnalyticsLocations'] = var5;
+                var5 = true;
+                var2['ignoreBlockedSpeedBump'] = var5;
+                var5 = _closure2_slot3;
+                var2['location'] = var5;
+                var6 = _closure2_slot11;
+                var7 = var2;
+                var4 = copyDataProperties(var7, var6);
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var _closure2_slot13 = var23;
             var1 = _closure1_slot14;
             var28 = var1.bind(var5)();
             var6 = _closure1_slot0;
@@ -440,8 +460,8 @@ case 13:
             var18 = var13.bind(var5)(var11);
             var13 = var18.useCreateUserProfileAnalyticsContext;
             var11 = {};
-            var23 = 'ACTION_SHEET';
-            var11['layout'] = var23;
+            var24 = 'ACTION_SHEET';
+            var11['layout'] = var24;
             var11['sourceSessionId'] = var21;
             var11['userId'] = var3;
             var11['channelId'] = var38;
@@ -568,27 +588,6 @@ case 25:
             var3 = var6.bind(var7)(var3, var4);
             if(!(var1 != var37)) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
-            var23 = function handleShowProfileActionSheet() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 26;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = {};
-                var5 = _closure2_slot10;
-                var2['sourceAnalyticsLocations'] = var5;
-                var5 = true;
-                var2['ignoreBlockedSpeedBump'] = var5;
-                var5 = _closure2_slot3;
-                var2['location'] = var5;
-                var6 = _closure2_slot11;
-                var7 = var2;
-                var4 = copyDataProperties(var7, var6);
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            _closure2_slot13 = var23;
             var3 = 'block';
             var27 = var3 === var22;
             var4 = _closure1_slot12;

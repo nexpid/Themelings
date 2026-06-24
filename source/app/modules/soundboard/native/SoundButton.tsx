@@ -9,6 +9,165 @@ case 0:
         var _closure1_slot0 = var5;
         var _closure1_slot1 = var9;
         var _closure1_slot2 = var6;
+        var1 = function useAnimation(arg1) {
+            var10 = arg1;
+            var _closure2_slot0 = var10;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 5;
+            var2 = var9[var6];
+            var7 = undefined;
+            var3 = var8.bind(var7)(var2);
+            var2 = var3.useAnimatedStyle;
+            var1 = function t() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = _closure2_slot0;
+                    var2 = var1.sharedValues;
+                    var3 = var2.pressed;
+                    var2 = var3.get;
+                    var13 = var2.bind(var3)();
+                    var2 = var1.sharedValues;
+                    var3 = var2.playing;
+                    var2 = var3.get;
+                    var2 = var2.bind(var3)();
+                    var4 = 0;
+                    var11 = var2 > var4;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var8 = 5;
+                    var2 = var2[var8];
+                    var5 = undefined;
+                    var16 = var3.bind(var5)(var2);
+                    var15 = var16.withDelay;
+                    var1 = var1.playingAnimationDelay;
+                    var9 = null;
+                    var2 = var9 != var1;
+                    var12 = 0;
+                    if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var12 = var1;
+case 2:
+                    var14 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var3 = 10;
+                    var1 = var2[var3];
+                    var19 = var14.bind(var5)(var1);
+                    var18 = var19.withSpring;
+                    var1 = var2[var8];
+                    var22 = var14.bind(var5)(var1);
+                    var21 = var22.interpolate;
+                    var1 = _closure2_slot0;
+                    var7 = var1.sharedValues;
+                    var17 = var7.playing;
+                    var7 = var17.get;
+                    var20 = var7.bind(var17)();
+                    var7 = var1.scaleFactors;
+                    var7 = var7.playing;
+                    var17 = [1];
+                    var17[1] = var7;
+                    var7 = [0, 1];
+                    var17 = var21.bind(var22)(var20, var7, var17);
+                    var7 = _closure1_slot9;
+                    var7 = var18.bind(var19)(var17, var7);
+                    var7 = var15.bind(var16)(var12, var7);
+                    var3 = var2[var3];
+                    var12 = var14.bind(var5)(var3);
+                    var3 = var12.withSpring;
+                    var2 = var2[var8];
+                    var16 = var14.bind(var5)(var2);
+                    var15 = var16.interpolate;
+                    var2 = var1.sharedValues;
+                    var14 = var2.pressed;
+                    var2 = var14.get;
+                    var14 = var2.bind(var14)();
+                    var1 = var1.scaleFactors;
+                    var1 = var1.pressed;
+                    var2 = [1];
+                    var2[1] = var1;
+                    var1 = [0, 1];
+                    var2 = var15.bind(var16)(var14, var1, var2);
+                    var1 = _closure1_slot9;
+                    var12 = var3.bind(var12)(var2, var1);
+                    var1 = {};
+                    var3 = {};
+                    var2 = var12;
+                    if(!(var4 === var13)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var2 = var12;
+                    if(!var11) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
+                    var2 = var7;
+case 4:
+                    var3['scale'] = var2;
+                    var2 = new Array(2);
+                    var2[0] = var3;
+                    var3 = {};
+                    var7 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var8];
+                    var8 = var7.bind(var5)(var6);
+                    var7 = var8.interpolate;
+                    var11 = _closure2_slot0;
+                    var6 = var11.sharedValues;
+                    var12 = var6.pressed;
+                    var6 = var12.get;
+                    var6 = var6.bind(var12)();
+                    var11 = var9 == var11;
+                    var5 = undefined;
+                    if(var11) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+                    var10 = _closure2_slot0;
+                    var5 = var10.pressedRotationDegrees;
+case 7:
+                    var9 = var9 != var5;
+                    var4 = 0;
+                    if(!var9) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+                    var4 = var5;
+case 9:
+                    var5 = [0];
+                    var5[1] = var4;
+                    var4 = [0, 1];
+                    var7 = var7.bind(var8)(var6, var4, var5);
+                    var4 = global;
+                    var4 = var4.HermesInternal;
+                    var6 = var4.concat;
+                    var5 = '';
+                    var4 = 'deg';
+                    var4 = var6.bind(var5)(var7, var4);
+                    var3['rotate'] = var4;
+                    var2[1] = var3;
+                    var1['transform'] = var2;
+                    return var1;
+                }
+            };
+            var5 = {};
+            var5['animationConfig'] = var10;
+            var10 = var9[var6];
+            var10 = var8.bind(var7)(var10);
+            var10 = var10.withDelay;
+            var5['withDelay'] = var10;
+            var10 = 10;
+            var10 = var9[var10];
+            var10 = var8.bind(var7)(var10);
+            var10 = var10.withSpring;
+            var5['withSpring'] = var10;
+            var6 = var9[var6];
+            var6 = var8.bind(var7)(var6);
+            var6 = var6.interpolate;
+            var5['interpolate'] = var6;
+            var6 = _closure1_slot9;
+            var5['SPRING_CONFIG'] = var6;
+            var1['__closure'] = var5;
+            var5 = 13932429225740.0;
+            var1['__workletHash'] = var5;
+            var4 = _closure1_slot12;
+            var1['__initData'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var _closure1_slot14 = var1;
         var1 = global;
         var8 = var1.Object;
         var7 = var8.defineProperty;
@@ -112,10 +271,10 @@ case 0:
         var4 = var18.isIOS;
         var18 = var4.bind(var18)();
         var4 = undefined;
-        if(!var18) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+        if(!var18) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
         var4 = var17;
-case 2:
+case 11:
         var13['fontSize'] = var4;
         var4 = 28;
         var10['emoji'] = var13;
@@ -169,164 +328,6 @@ case 2:
         var9 = 'function SoundButtonTsx1(){const{animationConfig,withDelay,withSpring,interpolate,SPRING_CONFIG}=this.__closure;var _animationConfig$play,_animationConfig$pres,_animationConfig;const isNotPressed=animationConfig.sharedValues.pressed.get()===0;const isPlaying=animationConfig.sharedValues.playing.get()>0;const shouldDoPlayingAnimation=isNotPressed&&isPlaying;const playingAnimationScaleValue=withDelay((_animationConfig$play=animationConfig.playingAnimationDelay)!==null&&_animationConfig$play!==void 0?_animationConfig$play:0,withSpring(interpolate(animationConfig.sharedValues.playing.get(),[0,1],[1,animationConfig.scaleFactors.playing]),SPRING_CONFIG));const pressedAnimationScaleValue=withSpring(interpolate(animationConfig.sharedValues.pressed.get(),[0,1],[1,animationConfig.scaleFactors.pressed]),SPRING_CONFIG);const rotationScaleValue=interpolate(animationConfig.sharedValues.pressed.get(),[0,1],[0,(_animationConfig$pres=(_animationConfig=animationConfig)===null||_animationConfig===void 0?void 0:_animationConfig.pressedRotationDegrees)!==null&&_animationConfig$pres!==void 0?_animationConfig$pres:0]);return{transform:[{scale:shouldDoPlayingAnimation?playingAnimationScaleValue:pressedAnimationScaleValue},{rotate:rotationScaleValue+"deg"}]};}';
         var7['code'] = var9;
         var _closure1_slot12 = var7;
-        var7 = function useAnimation(arg1) {
-            var10 = arg1;
-            var _closure2_slot0 = var10;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var6 = 5;
-            var2 = var9[var6];
-            var7 = undefined;
-            var3 = var8.bind(var7)(var2);
-            var2 = var3.useAnimatedStyle;
-            var1 = function t() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var1 = _closure2_slot0;
-                    var2 = var1.sharedValues;
-                    var3 = var2.pressed;
-                    var2 = var3.get;
-                    var13 = var2.bind(var3)();
-                    var2 = var1.sharedValues;
-                    var3 = var2.playing;
-                    var2 = var3.get;
-                    var2 = var2.bind(var3)();
-                    var4 = 0;
-                    var11 = var2 > var4;
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var8 = 5;
-                    var2 = var2[var8];
-                    var5 = undefined;
-                    var17 = var3.bind(var5)(var2);
-                    var16 = var17.withDelay;
-                    var1 = var1.playingAnimationDelay;
-                    var9 = null;
-                    var2 = var9 != var1;
-                    var7 = 0;
-                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                    var7 = var1;
-case 4:
-                    var15 = _closure1_slot0;
-                    var14 = _closure1_slot2;
-                    var2 = 10;
-                    var1 = var14[var2];
-                    var19 = var15.bind(var5)(var1);
-                    var18 = var19.withSpring;
-                    var1 = var14[var8];
-                    var22 = var15.bind(var5)(var1);
-                    var21 = var22.interpolate;
-                    var1 = _closure2_slot0;
-                    var3 = var1.sharedValues;
-                    var12 = var3.playing;
-                    var3 = var12.get;
-                    var20 = var3.bind(var12)();
-                    var3 = var1.scaleFactors;
-                    var3 = var3.playing;
-                    var12 = [1];
-                    var12[1] = var3;
-                    var3 = [0, 1];
-                    var3 = var21.bind(var22)(var20, var3, var12);
-                    var12 = _closure1_slot9;
-                    var3 = var18.bind(var19)(var3, var12);
-                    var7 = var16.bind(var17)(var7, var3);
-                    var2 = var14[var2];
-                    var3 = var15.bind(var5)(var2);
-                    var2 = var3.withSpring;
-                    var14 = var14[var8];
-                    var17 = var15.bind(var5)(var14);
-                    var16 = var17.interpolate;
-                    var14 = var1.sharedValues;
-                    var15 = var14.pressed;
-                    var14 = var15.get;
-                    var15 = var14.bind(var15)();
-                    var1 = var1.scaleFactors;
-                    var1 = var1.pressed;
-                    var14 = [1];
-                    var14[1] = var1;
-                    var1 = [0, 1];
-                    var1 = var16.bind(var17)(var15, var1, var14);
-                    var12 = var2.bind(var3)(var1, var12);
-                    var1 = {};
-                    var3 = {};
-                    var2 = var12;
-                    if(!(var4 === var13)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-                    var2 = var12;
-                    if(!var11) { _fun0002_ip = 6; continue _fun0002 }
-case 8:
-                    var2 = var7;
-case 6:
-                    var3['scale'] = var2;
-                    var2 = new Array(2);
-                    var2[0] = var3;
-                    var3 = {};
-                    var7 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var6 = var6[var8];
-                    var8 = var7.bind(var5)(var6);
-                    var7 = var8.interpolate;
-                    var11 = _closure2_slot0;
-                    var6 = var11.sharedValues;
-                    var12 = var6.pressed;
-                    var6 = var12.get;
-                    var6 = var6.bind(var12)();
-                    var11 = var9 == var11;
-                    var5 = undefined;
-                    if(var11) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-                    var10 = _closure2_slot0;
-                    var5 = var10.pressedRotationDegrees;
-case 9:
-                    var9 = var9 != var5;
-                    var4 = 0;
-                    if(!var9) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-                    var4 = var5;
-case 11:
-                    var5 = [0];
-                    var5[1] = var4;
-                    var4 = [0, 1];
-                    var7 = var7.bind(var8)(var6, var4, var5);
-                    var4 = global;
-                    var4 = var4.HermesInternal;
-                    var6 = var4.concat;
-                    var5 = '';
-                    var4 = 'deg';
-                    var4 = var6.bind(var5)(var7, var4);
-                    var3['rotate'] = var4;
-                    var2[1] = var3;
-                    var1['transform'] = var2;
-                    return var1;
-                }
-            };
-            var5 = {};
-            var5['animationConfig'] = var10;
-            var10 = var9[var6];
-            var10 = var8.bind(var7)(var10);
-            var10 = var10.withDelay;
-            var5['withDelay'] = var10;
-            var10 = 10;
-            var10 = var9[var10];
-            var10 = var8.bind(var7)(var10);
-            var10 = var10.withSpring;
-            var5['withSpring'] = var10;
-            var6 = var9[var6];
-            var6 = var8.bind(var7)(var6);
-            var6 = var6.interpolate;
-            var5['interpolate'] = var6;
-            var6 = _closure1_slot9;
-            var5['SPRING_CONFIG'] = var6;
-            var1['__closure'] = var5;
-            var5 = 13932429225740.0;
-            var1['__workletHash'] = var5;
-            var4 = _closure1_slot12;
-            var1['__initData'] = var4;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var _closure1_slot13 = var7;
         var7 = function SoundButtonEmoji(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -336,13 +337,12 @@ case 0:
                 var1 = _closure1_slot10;
                 var4 = undefined;
                 var9 = var1.bind(var4)();
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot14;
                 var1 = {};
                 var1['sharedValues'] = var3;
                 var5 = {'pressed': 0.8, 'playing': 1.2};
                 var1['scaleFactors'] = var5;
                 var10 = var2.bind(var4)(var1);
-                var2 = _closure1_slot13;
                 var1 = {};
                 var1['sharedValues'] = var3;
                 var3 = {'pressed': 0.7200000000000001, 'playing': 1.08};
@@ -395,7 +395,7 @@ case 13:
                 return var1;
             }
         };
-        var _closure1_slot14 = var7;
+        var _closure1_slot13 = var7;
         var7 = var8.memo;
         var2 = function(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -568,7 +568,7 @@ case 21:
                     }
                 };
                 var13 = var11.bind(var5)(var3, var9);
-                var3 = function(arg1) {
+                var3 = function useAnimationSharedValuesAndHandlers(arg1) {
                     var9 = arg1;
                     var _closure3_slot0 = var9;
                     var7 = _closure1_slot0;
@@ -645,7 +645,7 @@ case 26:
                     return var1;
                 };
                 var16 = var3.bind(var4)(var18);
-                var9 = _closure1_slot13;
+                var9 = _closure1_slot14;
                 var3 = {};
                 var11 = var16.sharedValues;
                 var3['sharedValues'] = var11;
@@ -727,7 +727,7 @@ case 32:
                 if(!var12) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
                 var14 = _closure1_slot6;
-                var13 = _closure1_slot14;
+                var13 = _closure1_slot13;
                 var11 = {};
                 var16 = var16.sharedValues;
                 var11['sharedValues'] = var16;

@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/notifications/profile_updates/sender/NotifyFriendsOnProfileUpdateExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var4 = function(arg1) {
+    var4 = function useNotifyFriendsOnProfileUpdateExperiment(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.useConfig;
         var1 = {};
@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['useNotifyFriendsOnProfileUpdateExperiment'] = var4;
-    var2 = function(arg1) {
+    var2 = function getNotifyFriendsOnProfileUpdateExperiment(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.getConfig;
         var1 = {};

@@ -213,7 +213,7 @@ case 11:
     var5 = 'modules/wishlists/records/SKUWishlistItemRecord.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var2 = function(arg1) {
+    var2 = function isSKUWishlistItemRecord(arg1) {
         var2 = _closure1_slot6;
         var1 = arg1;
         var1 = var1 instanceof var2;

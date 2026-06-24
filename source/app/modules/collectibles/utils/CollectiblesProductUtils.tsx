@@ -5,27 +5,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = dependencyMap;
     var _closure1_slot0 = var10;
     var _closure1_slot1 = var11;
-    var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
-    var1 = 0;
-    var5 = var11[var1];
-    var4 = metroImportDefault;
-    var1 = undefined;
-    var4 = var4.bind(var1)(var5);
-    var _closure1_slot2 = var4;
-    var4 = 1;
-    var4 = var11[var4];
-    var4 = var10.bind(var1)(var4);
-    var5 = var4.CurrencyCodes;
-    var _closure1_slot3 = var5;
-    var4 = var4.PriceSetAssignmentPurchaseTypes;
-    var _closure1_slot4 = var4;
     var8 = function getProductOrbPrice(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -205,6 +184,27 @@ case 15:
         }
     };
     var _closure1_slot9 = var4;
+    var1 = global;
+    var13 = var1.Object;
+    var12 = var13.defineProperty;
+    var9 = {};
+    var1 = true;
+    var9['value'] = var1;
+    var1 = '__esModule';
+    var1 = var12.bind(var13)(var3, var1, var9);
+    var1 = 0;
+    var12 = var11[var1];
+    var9 = metroImportDefault;
+    var1 = undefined;
+    var9 = var9.bind(var1)(var12);
+    var _closure1_slot2 = var9;
+    var9 = 1;
+    var9 = var11[var9];
+    var9 = var10.bind(var1)(var9);
+    var12 = var9.CurrencyCodes;
+    var _closure1_slot3 = var12;
+    var9 = var9.PriceSetAssignmentPurchaseTypes;
+    var _closure1_slot4 = var9;
     var9 = 3;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
@@ -215,7 +215,7 @@ case 15:
     var3['getProductFiatPrice'] = var7;
     var3['getHasOrbPrice'] = var6;
     var3['getHasNonOrbPrice'] = var5;
-    var5 = function(arg1) {
+    var5 = function isOrbsExclusiveProduct(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
@@ -238,7 +238,7 @@ case 17:
         }
     };
     var3['isOrbsExclusiveProduct'] = var5;
-    var5 = function(arg1) {
+    var5 = function getProductsWithOrbsPrice(arg1) {
         var3 = arg1;
         var2 = var3.filter;
         var1 = function(arg1) {
@@ -262,7 +262,7 @@ case 21:
     };
     var3['getProductsWithOrbsPrice'] = var5;
     var3['getIsVariantProduct'] = var4;
-    var4 = function(arg1) {
+    var4 = function getProductSkuIds(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = arg1;
@@ -289,7 +289,7 @@ case 24:
         }
     };
     var3['getProductSkuIds'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function getSelectedProduct(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var4 = arg1;
@@ -315,7 +315,7 @@ case 25:
         }
     };
     var3['getSelectedProduct'] = var4;
-    var2 = function(arg1) {
+    var2 = function getProductType(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var2 = arg1;

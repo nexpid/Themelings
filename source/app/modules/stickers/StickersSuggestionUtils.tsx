@@ -1,18 +1,6 @@
 // app/modules/stickers/StickersSuggestionUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
-    var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
-    var1 = /(!|\.|;|,|-|—|–|\?|"|')/g;
-    var _closure1_slot0 = var1;
-    var1 = /(\n|\t|\s)/g;
-    var _closure1_slot1 = var1;
     var4 = function removePunctuation(arg1) {
         var5 = arg1;
         var4 = var5.replace;
@@ -26,6 +14,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot2 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = /(!|\.|;|,|-|—|–|\?|"|')/g;
+    var _closure1_slot0 = var1;
+    var1 = /(\n|\t|\s)/g;
+    var _closure1_slot1 = var1;
     var5 = dependencyMap;
     var1 = 0;
     var6 = var5[var1];
@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/stickers/StickersSuggestionUtils.tsx';
     var5 = var6.bind(var7)(var5);
     var3['removePunctuation'] = var4;
-    var2 = function(arg1) {
+    var2 = function getQueriesFromUserInput(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;

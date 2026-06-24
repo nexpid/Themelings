@@ -7,6 +7,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var18;
     var _closure1_slot2 = var6;
+    var1 = function isSamePremiumType(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var2 = arg1;
+            var1 = null;
+            if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = var2.planIdFromItems;
+            var1 = var1 != var4;
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var2 = 14;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var2 = var3.getPremiumType;
+            var3 = var2.bind(var3)(var4);
+            var2 = arg2;
+            var1 = var3 === var2;
+case 4:
+            return var1;
+case 2:
+            var1 = false;
+            return var1;
+        }
+    };
+    var _closure1_slot23 = var1;
     var4 = global;
     var9 = var4.Object;
     var8 = var9.defineProperty;
@@ -182,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['objectType'] = var7;
     var _closure1_slot21 = var4;
     var4 = function PriceText(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.premiumItem;
@@ -220,35 +249,35 @@ case 0:
             var10 = null;
             var7 = var10 == var22;
             var6 = undefined;
-            if(var7) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var7) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var6 = var22.priceString;
-case 2:
+case 6:
             var14 = var10 != var6;
             var13 = '$...';
             var7 = var13;
-            if(!var14) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var14) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var7 = var6;
-case 4:
+case 8:
             var6 = var2.interval;
             var2 = var2.intervalCount;
             var9 = var8.bind(var9)(var7, var6, var2);
-            if(!(var10 != var12)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            if(!(var10 == var11)) { _fun0001_ip = 8; continue _fun0001 }
-case 6:
-            if(!(var10 != var16)) { _fun0001_ip = 9; continue _fun0001 }
+            if(!(var10 != var12)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            if(!(var10 == var11)) { _fun0002_ip = 12; continue _fun0002 }
 case 10:
-            if(!(var10 == var15)) { _fun0001_ip = 11; continue _fun0001 }
-case 9:
-            if(!(var10 != var27)) { _fun0001_ip = 12; continue _fun0001 }
+            if(!(var10 != var16)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+            if(!(var10 == var15)) { _fun0002_ip = 15; continue _fun0002 }
 case 13:
+            if(!(var10 != var27)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var6 = _closure1_slot11;
             var2 = var27.sku_id;
             var2 = var6[var2];
-            if(!(var3 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
-case 12:
+            if(!(var3 !== var2)) { _fun0002_ip = 18; continue _fun0002 }
+case 16:
             var7 = _closure1_slot18;
             var6 = _closure1_slot4;
             var2 = {};
@@ -266,16 +295,16 @@ case 12:
             var8 = {'variant': 'text-md/bold', 'color': 'always-white'};
             var20 = var10 == var22;
             var23 = undefined;
-            if(var20) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(var20) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var23 = var22.priceString;
-case 15:
+case 19:
             var25 = var10 != var23;
             var20 = var13;
-            if(!var25) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(!var25) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var20 = var23;
-case 17:
+case 21:
             var8['children'] = var20;
             var14 = var19.bind(var4)(var14, var8);
             var8 = new Array(2);
@@ -297,8 +326,8 @@ case 17:
             var8[1] = var14;
             var2['children'] = var8;
             var2 = var7.bind(var4)(var6, var2);
-            _fun0001_ip = 19; continue _fun0001;
-case 14:
+            _fun0002_ip = 23; continue _fun0002;
+case 18:
             var8 = _closure1_slot17;
             var24 = _closure1_slot0;
             var23 = _closure1_slot2;
@@ -325,53 +354,53 @@ case 14:
             var23 = {};
             var28 = var10 == var27;
             var26 = undefined;
-            if(var28) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(var28) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var26 = var27.interval;
-case 20:
+case 24:
             var23['intervalType'] = var26;
             var28 = var10 == var27;
             var26 = undefined;
-            if(var28) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(var28) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var26 = var27.interval_count;
-case 22:
+case 26:
             var23['intervalCount'] = var26;
             var23 = var24.bind(var25)(var23);
             var14['trialPeriod'] = var23;
             var24 = var10 == var22;
             var23 = undefined;
-            if(var24) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
+            if(var24) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var23 = var22.priceString;
-case 24:
+case 28:
             var24 = var10 != var23;
             var22 = var13;
-            if(!var24) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+            if(!var24) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var22 = var23;
-case 26:
+case 30:
             var14['price'] = var22;
             var14 = var20.bind(var21)(var19, var14);
             var6['children'] = var14;
             var2 = var8.bind(var4)(var7, var6);
-case 19:
+case 23:
             return var2;
-case 11:
+case 15:
             var6 = var15.planIdFromItems;
             var2 = _closure1_slot16;
             var2 = var2.PREMIUM_YEAR_TIER_2;
-            if(!(var6 === var2)) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+            if(!(var6 === var2)) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var2 = _closure1_slot23;
             var2 = var2.bind(var4)(var15, var3);
-            if(!var2) { _fun0001_ip = 28; continue _fun0001 }
-case 30:
-            if(!(var10 != var15)) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+            if(!var2) { _fun0002_ip = 32; continue _fun0002 }
+case 34:
+            if(!(var10 != var15)) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
             var2 = var15.hasActiveTrial;
-            if(var2) { _fun0001_ip = 28; continue _fun0001 }
-case 31:
+            if(var2) { _fun0002_ip = 32; continue _fun0002 }
+case 35:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 17;
@@ -385,10 +414,10 @@ case 31:
             var3 = var2.z2oQtA;
             var2 = {};
             var8 = var16.percentage;
-            if(!(var10 == var8)) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
+            if(!(var10 == var8)) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
             var8 = _closure1_slot8;
-case 33:
+case 37:
             var2['percent'] = var8;
             var2['regularPrice'] = var9;
             var14 = _closure1_slot0;
@@ -399,20 +428,20 @@ case 33:
             var8 = var8.bind(var14)(var15, var17);
             var2['renewalDate'] = var8;
             var7 = var6.bind(var7)(var3, var2);
-            _fun0001_ip = 35; continue _fun0001;
-case 28:
+            _fun0002_ip = 39; continue _fun0002;
+case 32:
             var2 = var15.hasAnyPremiumGroup;
-            if(!var2) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+            if(!var2) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
             var3 = var15.metadata;
             var6 = var10 == var3;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
+            if(var6) { _fun0002_ip = 42; continue _fun0002 }
+case 43:
             var2 = var3.active_discount_expires_at;
-case 38:
-            if(!(var10 == var2)) { _fun0001_ip = 40; continue _fun0001 }
-case 36:
+case 42:
+            if(!(var10 == var2)) { _fun0002_ip = 44; continue _fun0002 }
+case 40:
             var3 = _closure1_slot0;
             var14 = _closure1_slot2;
             var2 = 17;
@@ -426,21 +455,21 @@ case 36:
             var3 = var2["3ZiutU"];
             var2 = {};
             var14 = var16.percentage;
-            if(!(var10 == var14)) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+            if(!(var10 == var14)) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
             var14 = _closure1_slot10;
-case 41:
+case 45:
             var2['percent'] = var14;
             var14 = var16.duration;
-            if(!(var10 == var14)) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
+            if(!(var10 == var14)) { _fun0002_ip = 47; continue _fun0002 }
+case 48:
             var14 = _closure1_slot9;
-case 43:
+case 47:
             var2['numMonths'] = var14;
             var2['regularPrice'] = var9;
             var7 = var6.bind(var8)(var3, var2);
-            _fun0001_ip = 35; continue _fun0001;
-case 40:
+            _fun0002_ip = 39; continue _fun0002;
+case 44:
             var3 = _closure1_slot0;
             var17 = _closure1_slot2;
             var2 = 18;
@@ -462,10 +491,10 @@ case 40:
             var17 = var16.percentage;
             var18 = var10 != var17;
             var16 = 0;
-            if(!var18) { _fun0001_ip = 45; continue _fun0001 }
-case 46:
+            if(!var18) { _fun0002_ip = 49; continue _fun0002 }
+case 50:
             var16 = var17;
-case 45:
+case 49:
             var2['percent'] = var16;
             var16 = global;
             var17 = var16.Date;
@@ -478,13 +507,13 @@ case 45:
             var15 = var15 instanceof Object ? var15 : var16;
             var2['discountEndDate'] = var15;
             var15 = var10 != var14;
-            if(!var15) { _fun0001_ip = 47; continue _fun0001 }
-case 48:
+            if(!var15) { _fun0002_ip = 51; continue _fun0002 }
+case 52:
             var13 = var14;
-case 47:
+case 51:
             var2['regularPrice'] = var13;
             var7 = var6.bind(var8)(var3, var2);
-case 35:
+case 39:
             var6 = _closure1_slot17;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -498,7 +527,7 @@ case 35:
             var2['children'] = var7;
             var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 8:
+case 12:
             var3 = _closure1_slot17;
             var6 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -523,16 +552,16 @@ case 8:
             var12 = var11.discount;
             var13 = var10 == var12;
             var11 = undefined;
-            if(var13) { _fun0001_ip = 49; continue _fun0001 }
-case 50:
+            if(var13) { _fun0002_ip = 53; continue _fun0002 }
+case 54:
             var11 = var12.userUsageLimit;
-case 49:
+case 53:
             var12 = var10 != var11;
             var10 = 1;
-            if(!var12) { _fun0001_ip = 51; continue _fun0001 }
-case 52:
+            if(!var12) { _fun0002_ip = 55; continue _fun0002 }
+case 56:
             var10 = var11;
-case 51:
+case 55:
             var5['numMonths'] = var10;
             var5['regularPrice'] = var9;
             var5 = var7.bind(var8)(var6, var5);
@@ -542,42 +571,13 @@ case 51:
         }
     };
     var _closure1_slot22 = var4;
-    var4 = function isSamePremiumType(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var2 = arg1;
-            var1 = null;
-            if(!(var1 != var2)) { _fun0002_ip = 53; continue _fun0002 }
-case 54:
-            var4 = var2.planIdFromItems;
-            var1 = var1 != var4;
-            if(!var1) { _fun0002_ip = 55; continue _fun0002 }
-case 56:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 14;
-            var3 = var3[var2];
-            var2 = undefined;
-            var3 = var5.bind(var2)(var3);
-            var2 = var3.getPremiumType;
-            var3 = var2.bind(var3)(var4);
-            var2 = arg2;
-            var1 = var3 === var2;
-case 55:
-            return var1;
-case 53:
-            var1 = false;
-            return var1;
-        }
-    };
-    var _closure1_slot23 = var4;
     var4 = 42;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_settings/premium/native/PremiumFeaturesCard.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function PremiumFeaturesCard(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;

@@ -18,6 +18,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.bind(var3)();
         return var1;
     };
+    var _closure1_slot11 = var1;
+    var1 = function shuffleOptionsTree(arg1) {
+        var5 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 8;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.shuffle;
+        var4 = var5.map;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var2 = arg1;
+                var1 = {};
+                var7 = var1;
+                var6 = var2;
+                var3 = copyDataProperties(var7, var6);
+                var5 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var3 = 8;
+                var4 = var4[var3];
+                var3 = undefined;
+                var5 = var5.bind(var3)(var4);
+                var4 = var5.shuffle;
+                var3 = var2.problemOptions;
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.concat;
+                var2 = var2.freeformConfig;
+                var5 = null;
+                if(!(var5 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var2 = new Array(0);
+case 2:
+                var3 = var3.bind(var4)(var2);
+                var2 = 'problemOptions';
+                var1[1] = var3;
+                return var1;
+            }
+        };
+        var1 = var4.bind(var5)(var1);
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
     var _closure1_slot12 = var1;
     var1 = global;
     var8 = var1.Object;
@@ -82,51 +127,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['problemsList'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = function shuffleOptionsTree(arg1) {
-        var5 = arg1;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 8;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.shuffle;
-        var4 = var5.map;
-        var1 = function(arg1) {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                var2 = arg1;
-                var1 = {};
-                var7 = var1;
-                var6 = var2;
-                var3 = copyDataProperties(var7, var6);
-                var5 = _closure1_slot1;
-                var4 = _closure1_slot2;
-                var3 = 8;
-                var4 = var4[var3];
-                var3 = undefined;
-                var5 = var5.bind(var3)(var4);
-                var4 = var5.shuffle;
-                var3 = var2.problemOptions;
-                var4 = var4.bind(var5)(var3);
-                var3 = var4.concat;
-                var2 = var2.freeformConfig;
-                var5 = null;
-                if(!(var5 == var2)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var2 = new Array(0);
-case 2:
-                var3 = var3.bind(var4)(var2);
-                var2 = 'problemOptions';
-                var1[1] = var3;
-                return var1;
-            }
-        };
-        var1 = var4.bind(var5)(var1);
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var _closure1_slot11 = var4;
     var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -188,7 +188,7 @@ case 4:
             var6 = var1.bind(var4)(var19);
             _closure2_slot5 = var6;
             var8 = var15.useState;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var1 = var1.bind(var4)(var19);
             var1 = var8.bind(var15)(var1);
             var8 = _closure1_slot3;
@@ -220,7 +220,7 @@ case 0:
                     if(var3) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
                     var3 = _closure2_slot7;
-                    var4 = _closure1_slot11;
+                    var4 = _closure1_slot12;
                     var2 = _closure2_slot0;
                     var2 = var4.bind(var1)(var2);
                     var2 = var3.bind(var1)(var2);
@@ -471,7 +471,7 @@ case 26:
                     var4 = _closure2_slot17;
                     var3 = false;
                     var3 = var4.bind(var1)(var3);
-                    var2 = _closure1_slot12;
+                    var2 = _closure1_slot11;
                     var2 = var2.bind(var1)();
 case 28:
                     return var1;
@@ -539,7 +539,7 @@ case 35:
                     var2 = true;
                     var2 = var3.bind(var1)(var2);
 case 36:
-                    var2 = _closure1_slot12;
+                    var2 = _closure1_slot11;
                     var2 = var2.bind(var1)();
                     return var1;
                 }
@@ -872,7 +872,7 @@ case 57:
             var13 = var14.bind(var4)(var13);
             var14 = var13.ActionSheetCloseButton;
             var13 = {};
-            var16 = _closure1_slot12;
+            var16 = _closure1_slot11;
             var13['onPress'] = var16;
             var10 = var15.bind(var4)(var14, var13);
 case 56:

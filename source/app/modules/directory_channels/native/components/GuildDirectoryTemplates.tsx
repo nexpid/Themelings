@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/directory_channels/native/components/GuildDirectoryTemplates.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function _default(arg1) {
+    var4 = function GuildDirectoryTemplates(arg1) {
         var26 = arg1;
         var _closure2_slot0 = var26;
         var2 = _closure1_slot11;

@@ -137,7 +137,7 @@ case 8:
     var2 = var5[var2];
     var11 = var6.bind(var1)(var2);
     var2 = {};
-    var8 = function TOAST_OPEN(arg1) {
+    var8 = function handleOpen(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
@@ -162,7 +162,7 @@ case 11:
         }
     };
     var2['TOAST_OPEN'] = var8;
-    var4 = function TOAST_CLOSE() {
+    var4 = function handleClose() {
         var1 = null;
         _closure1_slot5 = var1;
         var1 = undefined;

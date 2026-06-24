@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/client_themes/native/ClientThemesOverrides.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function useGradientBottom() {
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
         var3 = 2;
@@ -77,7 +77,7 @@ case 2:
         return var1;
     };
     var3['useGradientBottom'] = var4;
-    var4 = function() {
+    var4 = function useGradientTop() {
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
         var3 = 2;
@@ -116,7 +116,7 @@ case 2:
         return var1;
     };
     var3['useGradientTop'] = var4;
-    var4 = function() {
+    var4 = function useGradientMidpoint() {
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
         var3 = 2;
@@ -155,7 +155,7 @@ case 2:
         return var1;
     };
     var3['useGradientMidpoint'] = var4;
-    var2 = function(arg1) {
+    var2 = function useClientThemesOverride(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;

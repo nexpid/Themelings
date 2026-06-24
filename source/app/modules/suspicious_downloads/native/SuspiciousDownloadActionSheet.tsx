@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/suspicious_downloads/native/SuspiciousDownloadActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function SuspiciousDownloadActionSheet(arg1) {
         var1 = arg1;
         var1 = var1.href;
         var _closure2_slot0 = var1;

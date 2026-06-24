@@ -485,7 +485,7 @@ case 75:
             var21 = var21.rBIGBL;
             var21 = var22.bind(var24)(var21);
             var3['buttonPrimaryText'] = var21;
-            var21 = function buttonPrimaryOnPress() {
+            var21 = function handleCreateThread() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 31;
@@ -693,7 +693,7 @@ case 61:
             var17 = var17.lm1UKt;
             var17 = var18.bind(var19)(var17);
             var2['buttonPrimaryText'] = var17;
-            var17 = function buttonPrimaryOnPress() {
+            var17 = function handleVerifyEmail() {
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 23;
@@ -750,7 +750,7 @@ case 59:
             var17 = var17["50gfOv"];
             var17 = var18.bind(var19)(var17);
             var2['buttonPrimaryText'] = var17;
-            var17 = function buttonPrimaryOnPress() {
+            var17 = function handleVerifyPhone() {
                 var4 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var1 = 23;

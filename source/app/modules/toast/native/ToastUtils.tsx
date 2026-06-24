@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/toast/native/ToastUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function presentAddedFriendToast() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['presentAddedFriendToast'] = var4;
-    var4 = function(arg1) {
+    var4 = function presentFriendRequestAcceptedToast(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var10 = arg1;
@@ -119,7 +119,7 @@ case 4:
         }
     };
     var3['presentFriendRequestAcceptedToast'] = var4;
-    var4 = function() {
+    var4 = function presentGameFriendRequestAcceptedToast() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -153,7 +153,7 @@ case 4:
         return var1;
     };
     var3['presentGameFriendRequestAcceptedToast'] = var4;
-    var4 = function() {
+    var4 = function presentFriendRequestIgnoredToast() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -187,7 +187,7 @@ case 4:
         return var1;
     };
     var3['presentFriendRequestIgnoredToast'] = var4;
-    var4 = function() {
+    var4 = function presentGameFriendRequestIgnoredToast() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -221,7 +221,7 @@ case 4:
         return var1;
     };
     var3['presentGameFriendRequestIgnoredToast'] = var4;
-    var4 = function() {
+    var4 = function presentLinkCopied() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -253,7 +253,7 @@ case 4:
         return var1;
     };
     var3['presentLinkCopied'] = var4;
-    var4 = function() {
+    var4 = function presentInviteSent() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -285,7 +285,7 @@ case 4:
         return var1;
     };
     var3['presentInviteSent'] = var4;
-    var4 = function() {
+    var4 = function presentIdCopied() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -317,7 +317,7 @@ case 4:
         return var1;
     };
     var3['presentIdCopied'] = var4;
-    var4 = function() {
+    var4 = function presentImageSaved() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -349,7 +349,7 @@ case 4:
         return var1;
     };
     var3['presentImageSaved'] = var4;
-    var4 = function() {
+    var4 = function presentVideoSaved() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -381,7 +381,7 @@ case 4:
         return var1;
     };
     var3['presentVideoSaved'] = var4;
-    var4 = function() {
+    var4 = function presentGifSaved() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -413,7 +413,7 @@ case 4:
         return var1;
     };
     var3['presentGifSaved'] = var4;
-    var4 = function() {
+    var4 = function presentMessageCopied() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -445,7 +445,7 @@ case 4:
         return var1;
     };
     var3['presentMessageCopied'] = var4;
-    var4 = function() {
+    var4 = function presentMessageIdCopied() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -477,7 +477,7 @@ case 4:
         return var1;
     };
     var3['presentMessageIdCopied'] = var4;
-    var4 = function() {
+    var4 = function presentPostIdCopied() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -509,7 +509,7 @@ case 4:
         return var1;
     };
     var3['presentPostIdCopied'] = var4;
-    var4 = function() {
+    var4 = function presentUsernameCopied() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -541,7 +541,7 @@ case 4:
         return var1;
     };
     var3['presentUsernameCopied'] = var4;
-    var4 = function() {
+    var4 = function presentFeedbackSent() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -575,7 +575,7 @@ case 4:
         return var1;
     };
     var3['presentFeedbackSent'] = var4;
-    var4 = function(arg1) {
+    var4 = function presentEmoji(arg1) {
         var7 = arg1;
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
@@ -617,7 +617,7 @@ case 4:
         return var1;
     };
     var3['presentEmoji'] = var4;
-    var4 = function(arg1) {
+    var4 = function presentNoiseCancellation(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = arg1;
@@ -678,7 +678,7 @@ case 11:
         }
     };
     var3['presentNoiseCancellation'] = var4;
-    var4 = function() {
+    var4 = function presentNoiseCancellationError() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -712,7 +712,7 @@ case 11:
         return var1;
     };
     var3['presentNoiseCancellationError'] = var4;
-    var4 = function(arg1) {
+    var4 = function presentError(arg1) {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -737,7 +737,7 @@ case 11:
         return var1;
     };
     var3['presentError'] = var4;
-    var4 = function() {
+    var4 = function presentVoiceActivityDetectionError() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -771,7 +771,7 @@ case 11:
         return var1;
     };
     var3['presentVoiceActivityDetectionError'] = var4;
-    var4 = function(arg1) {
+    var4 = function roleIdCopied(arg1) {
         var11 = arg1;
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
@@ -810,7 +810,7 @@ case 11:
         return var1;
     };
     var3['roleIdCopied'] = var4;
-    var4 = function() {
+    var4 = function communityRequirementSatisfied() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -844,7 +844,7 @@ case 11:
         return var1;
     };
     var3['communityRequirementSatisfied'] = var4;
-    var4 = function() {
+    var4 = function communityAdminOnly() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -876,7 +876,7 @@ case 11:
         return var1;
     };
     var3['communityAdminOnly'] = var4;
-    var4 = function(arg1) {
+    var4 = function unverifiedVoiceGate(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var6 = arg1;
@@ -1037,7 +1037,7 @@ case 27:
         }
     };
     var3['unverifiedVoiceGate'] = var4;
-    var4 = function() {
+    var4 = function transferOwnershipProtected() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1069,7 +1069,7 @@ case 27:
         return var1;
     };
     var3['transferOwnershipProtected'] = var4;
-    var4 = function(arg1) {
+    var4 = function memberOrRoleRemovedToast(arg1) {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1104,7 +1104,7 @@ case 27:
         return var1;
     };
     var3['memberOrRoleRemovedToast'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function memberOrRoleAddedToast(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var6 = arg1;
@@ -1197,7 +1197,7 @@ case 36:
         }
     };
     var3['memberOrRoleAddedToast'] = var4;
-    var4 = function() {
+    var4 = function roleTemplateAppliedToast() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1231,7 +1231,7 @@ case 36:
         return var1;
     };
     var3['roleTemplateAppliedToast'] = var4;
-    var4 = function() {
+    var4 = function roleCreatedToast() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1265,7 +1265,7 @@ case 36:
         return var1;
     };
     var3['roleCreatedToast'] = var4;
-    var4 = function() {
+    var4 = function roleCreateFailedToast() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1299,7 +1299,7 @@ case 36:
         return var1;
     };
     var3['roleCreateFailedToast'] = var4;
-    var4 = function(arg1) {
+    var4 = function presentFailedToast(arg1) {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1324,7 +1324,7 @@ case 36:
         return var1;
     };
     var3['presentFailedToast'] = var4;
-    var4 = function() {
+    var4 = function presentCommandCopied() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1356,7 +1356,7 @@ case 36:
         return var1;
     };
     var3['presentCommandCopied'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function presentGuildMemberBio(arg1, arg2) {
         var1 = arg2;
         var _closure2_slot0 = var1;
         var3 = _closure1_slot1;
@@ -1393,7 +1393,7 @@ case 36:
         return var1;
     };
     var3['presentGuildMemberBio'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function presentGuildMemberPronouns(arg1, arg2) {
         var1 = arg2;
         var _closure2_slot0 = var1;
         var3 = _closure1_slot1;
@@ -1430,7 +1430,7 @@ case 36:
         return var1;
     };
     var3['presentGuildMemberPronouns'] = var4;
-    var4 = function() {
+    var4 = function presentUserPronouns() {
         var3 = _closure1_slot1;
         var9 = _closure1_slot2;
         var1 = 1;
@@ -1457,7 +1457,7 @@ case 36:
         return var1;
     };
     var3['presentUserPronouns'] = var4;
-    var4 = function() {
+    var4 = function presentCopiedToClipboard() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1498,7 +1498,7 @@ case 36:
         return var1;
     };
     var3['presentCopiedToClipboard'] = var4;
-    var4 = function() {
+    var4 = function presentGuildRoleSubscriptionTrialTierMonthCost() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1530,7 +1530,7 @@ case 36:
         return var1;
     };
     var3['presentGuildRoleSubscriptionTrialTierMonthCost'] = var4;
-    var4 = function() {
+    var4 = function showVoiceRecordingFailed() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1564,7 +1564,7 @@ case 36:
         return var1;
     };
     var3['showVoiceRecordingFailed'] = var4;
-    var4 = function() {
+    var4 = function showMaxGroupMembers() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1598,7 +1598,7 @@ case 36:
         return var1;
     };
     var3['showMaxGroupMembers'] = var4;
-    var4 = function() {
+    var4 = function showTransferOwnershipSuccess() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1632,7 +1632,7 @@ case 36:
         return var1;
     };
     var3['showTransferOwnershipSuccess'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function showSafetySuccess(arg1, arg2) {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1657,7 +1657,7 @@ case 36:
         return var1;
     };
     var3['showSafetySuccess'] = var4;
-    var4 = function() {
+    var4 = function showVerificationSent() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1691,7 +1691,7 @@ case 36:
         return var1;
     };
     var3['showVerificationSent'] = var4;
-    var2 = function(arg1) {
+    var2 = function presentTimestamp(arg1) {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;

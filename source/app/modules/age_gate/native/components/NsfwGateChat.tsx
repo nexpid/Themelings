@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/age_gate/native/components/NsfwGateChat.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default() {
+    var2 = function NsfwGateChat() {
         var1 = _closure1_slot8;
         var4 = undefined;
         var12 = var1.bind(var4)();

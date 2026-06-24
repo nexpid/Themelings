@@ -181,7 +181,6 @@ case 0:
             var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
             var _closure2_slot6 = var5;
-            var _closure2_slot7 = var5;
             var1 = function handleCanJoin() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -206,6 +205,22 @@ case 4:
                     var2 = var5.bind(var1)(var4, var3, var2);
                     return var1;
                 }
+            };
+            var _closure2_slot7 = var1;
+            var1 = function onEmbeddedActivityItemPress() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 19;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = {};
+                var5 = _closure2_slot6;
+                var2['embeddedActivityJoinability'] = var5;
+                var4 = _closure2_slot7;
+                var2['handleCanJoin'] = var4;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
             var _closure2_slot8 = var1;
             var1 = _closure1_slot15;
@@ -363,22 +378,6 @@ case 16:
             var12 = var4.bind(var5)(var2);
 case 15:
             var28 = var23.name;
-            var2 = function onEmbeddedActivityItemPress() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 19;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = {};
-                var5 = _closure2_slot6;
-                var2['embeddedActivityJoinability'] = var5;
-                var4 = _closure2_slot8;
-                var2['handleCanJoin'] = var4;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            _closure2_slot7 = var2;
             var2 = _closure1_slot16;
             var25 = var2.bind(var5)(var3);
             var4 = _closure1_slot10;
@@ -407,7 +406,7 @@ case 15:
             var6 = _closure1_slot13;
             var2['androidRippleConfig'] = var6;
             var6 = function onPress() {
-                var2 = _closure2_slot7;
+                var2 = _closure2_slot8;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 return var1;
@@ -605,7 +604,7 @@ case 26:
             var18 = var17.BaseTextButton;
             var17 = {};
             var22 = function onPress() {
-                var2 = _closure2_slot7;
+                var2 = _closure2_slot8;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 return var1;

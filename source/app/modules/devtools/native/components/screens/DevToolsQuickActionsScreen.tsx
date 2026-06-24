@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot24 = var1;
     var1 = function handleThemeChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -54,7 +54,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot25 = var1;
     var1 = function handleReducedMotionChange(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -75,7 +75,7 @@ case 5:
             return var1;
         }
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot26 = var1;
     var1 = function handleLaunchWelcomeReset() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -99,6 +99,199 @@ case 5:
         var2 = var2.DismissibleContent;
         var2 = var2.SEEN_OLD_DESIGN;
         var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var _closure1_slot27 = var1;
+    var1 = function showVibingWumpus() {
+        var5 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 27;
+        var4 = var3[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.pushLazy;
+        var7 = _closure1_slot0;
+        var4 = 29;
+        var4 = var3[var4];
+        var7 = var7.bind(var1)(var4);
+        var4 = 30;
+        var4 = var3[var4];
+        var3 = var3.paths;
+        var4 = var7.bind(var1)(var4, var3);
+        var3 = {};
+        var7 = function onClose() {
+            var1 = undefined;
+            return var1;
+        };
+        var3['onClose'] = var7;
+        var2 = _closure1_slot18;
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
+    };
+    var _closure1_slot28 = var1;
+    var1 = function handleResetDoubleTapState() {
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var2 = 24;
+        var5 = var4[var2];
+        var1 = undefined;
+        var8 = var3.bind(var1)(var5);
+        var7 = var8.removeDismissedContent;
+        var5 = 25;
+        var6 = var4[var5];
+        var6 = var3.bind(var1)(var6);
+        var6 = var6.DismissibleContent;
+        var6 = var6.DOUBLE_TAP_TO_REACT_UPSELL;
+        var6 = var7.bind(var8)(var6);
+        var6 = var4[var2];
+        var8 = var3.bind(var1)(var6);
+        var7 = var8.removeDismissedContent;
+        var6 = var4[var5];
+        var6 = var3.bind(var1)(var6);
+        var6 = var6.DismissibleContent;
+        var6 = var6.DOUBLE_TAP_TO_REACT_REMINDER;
+        var6 = var7.bind(var8)(var6);
+        var6 = var4[var2];
+        var7 = var3.bind(var1)(var6);
+        var6 = var7.removeDismissedContent;
+        var5 = var4[var5];
+        var5 = var3.bind(var1)(var5);
+        var5 = var5.DismissibleContent;
+        var5 = var5.DOUBLE_TAP_TO_REACT_EXPANDED_UPSELL;
+        var5 = var6.bind(var7)(var5);
+        var5 = var4[var2];
+        var5 = var3.bind(var1)(var5);
+        var6 = var5.PreloadedUserSettingsActionCreators;
+        var5 = var6.updateAsync;
+        var2 = var4[var2];
+        var2 = var3.bind(var1)(var2);
+        var2 = var2.UserSettingsDelay;
+        var4 = var2.INFREQUENT_USER_ACTION;
+        var3 = 'textAndImages';
+        var2 = function(arg1) {
+            var1 = undefined;
+            var2 = arg1;
+            var2['defaultReactionEmoji'] = var1;
+            return var1;
+        };
+        var2 = var5.bind(var6)(var3, var2, var4);
+        return var1;
+    };
+    var _closure1_slot29 = var1;
+    var1 = function launchTotpSetupSuccess() {
+        var4 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var1 = 27;
+        var3 = var5[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.pop;
+        var3 = var3.bind(var4)();
+        var3 = global;
+        var4 = var3.Promise;
+        var3 = var4.all;
+        var7 = _closure1_slot0;
+        var6 = 29;
+        var2 = var5[var6];
+        var9 = var7.bind(var1)(var2);
+        var2 = 31;
+        var8 = var5[var2];
+        var2 = var5.paths;
+        var8 = var9.bind(var1)(var8, var2);
+        var2 = new Array(2);
+        var2[0] = var8;
+        var6 = var5[var6];
+        var7 = var7.bind(var1)(var6);
+        var6 = 32;
+        var6 = var5[var6];
+        var5 = var5.paths;
+        var5 = var7.bind(var1)(var6, var5);
+        var2[1] = var5;
+        var4 = var3.bind(var4)(var2);
+        var3 = var4.then;
+        var2 = function(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                var8 = arg1;
+                var2 = var8[Symbol.iterator];
+                var8 = var2().next;
+                var4 = undefined;
+                var3 = undefined;
+                var7 = undefined;
+                var9 = var8().value;
+                var10 = var2;
+                var10 = var10 === var4;
+                var3 = var10;
+                if(var10) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
+                var7 = var9;
+case 7: // try_start_0
+                var9 = var7;
+                var6 = var9.default;
+case 9: // try_end0
+                var7 = undefined;
+                var9 = var3;
+                if(var9) { _fun0003_ip = 10; continue _fun0003 }
+case 2:
+                var8 = var8().value;
+                var9 = var2;
+                var9 = var9 === var4;
+                var3 = var9;
+                if(var9) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                var7 = var8;
+case 10: // try_start_1
+                var5 = var7.TwoFAModalSetupSections;
+case 12: // try_end1
+                var7 = var3;
+                if(var7) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+                var2.return();
+case 13:
+                var7 = var6;
+                var6 = var7.open;
+                var5 = var5.SUCCESS;
+                var5 = var6.bind(var7)(var5);
+                return var4;
+case 15: // catch_target1
+                CatchBlockStart(arg_register=0);
+                _fun0003_ip = 16; continue _fun0003;
+case 17: // catch_target0
+                CatchBlockStart(arg_register=0);
+                _fun0003_ip = 16; continue _fun0003;
+case 18:
+                CatchBlockStart(arg_register=0);
+case 16:
+                if(var3) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
+                var2.return();
+case 19:
+                throw var1;
+            }
+        };
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var _closure1_slot30 = var1;
+    var1 = function handleResetInAppNotificationExpandNux() {
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 24;
+        var2 = var4[var1];
+        var1 = undefined;
+        var6 = var3.bind(var1)(var2);
+        var5 = var6.removeDismissedContent;
+        var2 = 25;
+        var2 = var4[var2];
+        var2 = var3.bind(var1)(var2);
+        var2 = var2.DismissibleContent;
+        var2 = var2.IN_APP_NOTIFICATION_EXPAND_NUX;
+        var2 = var5.bind(var6)(var2);
+        var2 = 33;
+        var2 = var4[var2];
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.resetExpandNUXState;
+        var2 = var2.bind(var3)();
         return var1;
     };
     var _closure1_slot31 = var1;
@@ -273,199 +466,6 @@ case 5:
         return var1;
     };
     var _closure1_slot23 = var4;
-    var4 = function showVibingWumpus() {
-        var5 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 27;
-        var4 = var3[var1];
-        var1 = undefined;
-        var6 = var5.bind(var1)(var4);
-        var5 = var6.pushLazy;
-        var7 = _closure1_slot0;
-        var4 = 29;
-        var4 = var3[var4];
-        var7 = var7.bind(var1)(var4);
-        var4 = 30;
-        var4 = var3[var4];
-        var3 = var3.paths;
-        var4 = var7.bind(var1)(var4, var3);
-        var3 = {};
-        var7 = function onClose() {
-            var1 = undefined;
-            return var1;
-        };
-        var3['onClose'] = var7;
-        var2 = _closure1_slot18;
-        var2 = var5.bind(var6)(var4, var3, var2);
-        return var1;
-    };
-    var _closure1_slot24 = var4;
-    var4 = function handleResetDoubleTapState() {
-        var3 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var2 = 24;
-        var5 = var4[var2];
-        var1 = undefined;
-        var8 = var3.bind(var1)(var5);
-        var7 = var8.removeDismissedContent;
-        var5 = 25;
-        var6 = var4[var5];
-        var6 = var3.bind(var1)(var6);
-        var6 = var6.DismissibleContent;
-        var6 = var6.DOUBLE_TAP_TO_REACT_UPSELL;
-        var6 = var7.bind(var8)(var6);
-        var6 = var4[var2];
-        var8 = var3.bind(var1)(var6);
-        var7 = var8.removeDismissedContent;
-        var6 = var4[var5];
-        var6 = var3.bind(var1)(var6);
-        var6 = var6.DismissibleContent;
-        var6 = var6.DOUBLE_TAP_TO_REACT_REMINDER;
-        var6 = var7.bind(var8)(var6);
-        var6 = var4[var2];
-        var7 = var3.bind(var1)(var6);
-        var6 = var7.removeDismissedContent;
-        var5 = var4[var5];
-        var5 = var3.bind(var1)(var5);
-        var5 = var5.DismissibleContent;
-        var5 = var5.DOUBLE_TAP_TO_REACT_EXPANDED_UPSELL;
-        var5 = var6.bind(var7)(var5);
-        var5 = var4[var2];
-        var5 = var3.bind(var1)(var5);
-        var6 = var5.PreloadedUserSettingsActionCreators;
-        var5 = var6.updateAsync;
-        var2 = var4[var2];
-        var2 = var3.bind(var1)(var2);
-        var2 = var2.UserSettingsDelay;
-        var4 = var2.INFREQUENT_USER_ACTION;
-        var3 = 'textAndImages';
-        var2 = function(arg1) {
-            var1 = undefined;
-            var2 = arg1;
-            var2['defaultReactionEmoji'] = var1;
-            return var1;
-        };
-        var2 = var5.bind(var6)(var3, var2, var4);
-        return var1;
-    };
-    var _closure1_slot25 = var4;
-    var4 = function launchTotpSetupSuccess() {
-        var4 = _closure1_slot1;
-        var5 = _closure1_slot2;
-        var1 = 27;
-        var3 = var5[var1];
-        var1 = undefined;
-        var4 = var4.bind(var1)(var3);
-        var3 = var4.pop;
-        var3 = var3.bind(var4)();
-        var3 = global;
-        var4 = var3.Promise;
-        var3 = var4.all;
-        var7 = _closure1_slot0;
-        var6 = 29;
-        var2 = var5[var6];
-        var9 = var7.bind(var1)(var2);
-        var2 = 31;
-        var8 = var5[var2];
-        var2 = var5.paths;
-        var8 = var9.bind(var1)(var8, var2);
-        var2 = new Array(2);
-        var2[0] = var8;
-        var6 = var5[var6];
-        var7 = var7.bind(var1)(var6);
-        var6 = 32;
-        var6 = var5[var6];
-        var5 = var5.paths;
-        var5 = var7.bind(var1)(var6, var5);
-        var2[1] = var5;
-        var4 = var3.bind(var4)(var2);
-        var3 = var4.then;
-        var2 = function(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                var8 = arg1;
-                var2 = var8[Symbol.iterator];
-                var8 = var2().next;
-                var4 = undefined;
-                var3 = undefined;
-                var7 = undefined;
-                var9 = var8().value;
-                var10 = var2;
-                var10 = var10 === var4;
-                var3 = var10;
-                if(var10) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
-                var7 = var9;
-case 7: // try_start_0
-                var9 = var7;
-                var6 = var9.default;
-case 9: // try_end0
-                var7 = undefined;
-                var9 = var3;
-                if(var9) { _fun0003_ip = 10; continue _fun0003 }
-case 2:
-                var8 = var8().value;
-                var9 = var2;
-                var9 = var9 === var4;
-                var3 = var9;
-                if(var9) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                var7 = var8;
-case 10: // try_start_1
-                var5 = var7.TwoFAModalSetupSections;
-case 12: // try_end1
-                var7 = var3;
-                if(var7) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-                var2.return();
-case 13:
-                var7 = var6;
-                var6 = var7.open;
-                var5 = var5.SUCCESS;
-                var5 = var6.bind(var7)(var5);
-                return var4;
-case 15: // catch_target1
-                CatchBlockStart(arg_register=0);
-                _fun0003_ip = 16; continue _fun0003;
-case 17: // catch_target0
-                CatchBlockStart(arg_register=0);
-                _fun0003_ip = 16; continue _fun0003;
-case 18:
-                CatchBlockStart(arg_register=0);
-case 16:
-                if(var3) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-                var2.return();
-case 19:
-                throw var1;
-            }
-        };
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var _closure1_slot26 = var4;
-    var4 = function handleResetInAppNotificationExpandNux() {
-        var3 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var1 = 24;
-        var2 = var4[var1];
-        var1 = undefined;
-        var6 = var3.bind(var1)(var2);
-        var5 = var6.removeDismissedContent;
-        var2 = 25;
-        var2 = var4[var2];
-        var2 = var3.bind(var1)(var2);
-        var2 = var2.DismissibleContent;
-        var2 = var2.IN_APP_NOTIFICATION_EXPAND_NUX;
-        var2 = var5.bind(var6)(var2);
-        var2 = 33;
-        var2 = var4[var2];
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.resetExpandNUXState;
-        var2 = var2.bind(var3)();
-        return var1;
-    };
-    var _closure1_slot27 = var4;
     var4 = 58;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -719,7 +719,7 @@ case 26:
             var25 = var26.isThemeLight;
             var25 = var25.bind(var26)(var27);
             var18['value'] = var25;
-            var25 = _closure1_slot29;
+            var25 = _closure1_slot25;
             var18['onValueChange'] = var25;
             var19 = var20.bind(var4)(var19, var18);
             var18 = new Array(2);
@@ -738,7 +738,7 @@ case 26:
             var25 = var23.bind(var4)(var26, var25);
             var19['icon'] = var25;
             var19['value'] = var21;
-            var21 = _closure1_slot30;
+            var21 = _closure1_slot26;
             var19['onValueChange'] = var21;
             var19 = var23.bind(var4)(var20, var19);
             var18[1] = var19;
@@ -886,7 +886,7 @@ case 30:
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
             var21 = {'label': 'Reset Double Tap Emoji State', 'subLabel': 'Clears double tap emoji and resets dismissible content.'};
-            var25 = _closure1_slot25;
+            var25 = _closure1_slot29;
             var21['onPress'] = var25;
             var25 = 51;
             var26 = var17[var25];
@@ -907,7 +907,7 @@ case 30:
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
             var21 = {'label': 'Reset In App Notif Expand NUX', 'subLabel': 'Resets in app notification expand NUX dismissible content.'};
-            var26 = _closure1_slot27;
+            var26 = _closure1_slot31;
             var21['onPress'] = var26;
             var26 = var17[var25];
             var26 = var16.bind(var4)(var26);
@@ -939,7 +939,7 @@ case 30:
             var21['label'] = var15;
             var15 = 'Dismisses dev tools when launching.';
             var21['subLabel'] = var15;
-            var15 = _closure1_slot28;
+            var15 = _closure1_slot24;
             var21['onPress'] = var15;
             var15 = 52;
             var26 = var17[var15];
@@ -980,7 +980,7 @@ case 30:
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
             var21 = {'label': 'Show TOTP Setup Success', 'subLabel': 'Dismisses dev tools when launching.'};
-            var26 = _closure1_slot26;
+            var26 = _closure1_slot30;
             var21['onPress'] = var26;
             var26 = var17[var25];
             var26 = var16.bind(var4)(var26);
@@ -1000,7 +1000,7 @@ case 30:
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
             var21 = {'label': 'Reset Launch Welcome', 'subLabel': 'Resets launch welcome NUX flag, requires an app restart to take effect.'};
-            var26 = _closure1_slot31;
+            var26 = _closure1_slot27;
             var21['onPress'] = var26;
             var26 = var17[var25];
             var26 = var16.bind(var4)(var26);
@@ -1020,7 +1020,7 @@ case 30:
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
             var21 = {'label': 'Launch Vibing Wumpus', 'subLabel': 'Vibe with the one and only'};
-            var26 = _closure1_slot24;
+            var26 = _closure1_slot28;
             var21['onPress'] = var26;
             var26 = var17[var25];
             var26 = var16.bind(var4)(var26);

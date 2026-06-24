@@ -75,7 +75,7 @@ case 4:
         var6 = var7.fileFinishedImporting;
         var5 = 'modules/stickers/native/NativeLottieView.tsx';
         var5 = var6.bind(var7)(var5);
-        var4 = function _default(arg1) {
+        var4 = function NativeLottieView(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var1 = arg1;

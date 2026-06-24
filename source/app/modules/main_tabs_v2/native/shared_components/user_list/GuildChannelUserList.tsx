@@ -1080,7 +1080,7 @@ case 63:
                             return var1;
                         }
                     };
-                    var _closure3_slot2 = var1;
+                    var _closure3_slot4 = var1;
                     var1 = _closure2_slot20;
                     if(!var1) { _fun0019_ip = 65; continue _fun0019 }
 case 64:
@@ -1213,9 +1213,9 @@ case 79:
                     return var2;
 case 78:
                     var8 = var1.user;
-                    var _closure3_slot3 = var8;
+                    var _closure3_slot2 = var8;
                     var9 = var1.memberListMember;
-                    var _closure3_slot4 = var9;
+                    var _closure3_slot3 = var9;
                     var13 = var1.guildMember;
                     var12 = var1.comparator;
                     var3 = var1.end;
@@ -1339,7 +1339,7 @@ case 114:
                             var3 = _closure2_slot3;
                             var2 = {};
                             var2['user'] = var6;
-                            var5 = _closure3_slot2;
+                            var5 = _closure3_slot4;
                             var1 = undefined;
                             var5 = var5.bind(var1)();
                             var2['index'] = var5;
@@ -1367,12 +1367,12 @@ case 117:
                             var5 = _closure2_slot0;
 case 119:
                             var1['channelId'] = var5;
-                            var5 = _closure3_slot4;
+                            var5 = _closure3_slot3;
                             var7 = var7 == var5;
                             var5 = undefined;
                             if(var7) { _fun0021_ip = 120; continue _fun0021 }
 case 61:
-                            var6 = _closure3_slot4;
+                            var6 = _closure3_slot3;
                             var5 = var6.colorRoleId;
 case 120:
                             var1['roleId'] = var5;
@@ -1398,9 +1398,9 @@ case 3:
                             var1 = function() {
                                 var3 = _closure2_slot4;
                                 var2 = {};
-                                var4 = _closure3_slot3;
-                                var2['user'] = var4;
                                 var4 = _closure3_slot2;
+                                var2['user'] = var4;
+                                var4 = _closure3_slot4;
                                 var1 = undefined;
                                 var4 = var4.bind(var1)();
                                 var2['index'] = var4;

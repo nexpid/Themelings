@@ -1612,7 +1612,7 @@ case 73:
         var5 = var6.fileFinishedImporting;
         var4 = 'modules/user_settings/appearance/native/SettingsAppearanceThemePickerScreen.tsx';
         var4 = var5.bind(var6)(var4);
-        var2 = function _default(arg1) {
+        var2 = function ConnectedThemePicker(arg1) {
             _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var1 = arg1;

@@ -333,7 +333,7 @@ case 28:
         }
     };
     var3['isFlaggedContentEmpty'] = var4;
-    var4 = function(arg1) {
+    var4 = function getAppealSignalDisplayText(arg1) {
         var2 = {};
         var3 = _closure1_slot4;
         var5 = var3.DIDNT_VIOLATE_POLICY;
@@ -389,7 +389,7 @@ case 28:
         return var1;
     };
     var3['getAppealSignalDisplayText'] = var4;
-    var4 = function(arg1) {
+    var4 = function capitalizeText(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var4 = arg1;
@@ -444,7 +444,7 @@ case 36:
         }
     };
     var3['isGuildClassification'] = var4;
-    var4 = function(arg1) {
+    var4 = function getRequestReviewErrorFromCode(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = _closure1_slot7;
@@ -513,7 +513,7 @@ case 41:
         }
     };
     var3['getClassificationExpiration'] = var4;
-    var4 = function() {
+    var4 = function useIsSuspendedUser() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
         var2 = 8;

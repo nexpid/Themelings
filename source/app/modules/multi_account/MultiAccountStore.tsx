@@ -41,13 +41,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot15 = var2;
+            _closure1_slot14 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var1 = function removeAccountById(arg1) {
         var4 = arg1;
         var _closure2_slot0 = var4;
@@ -72,7 +72,7 @@ case 4:
         var2 = var2.bind(var3)(var4);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot15 = var1;
     var1 = function setTokenStatus(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -101,7 +101,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var9 = var1.Object;
     var4 = var9.defineProperty;
@@ -149,8 +149,6 @@ case 6:
     var _closure1_slot12 = var2;
     var4 = new Array(0);
     var _closure1_slot13 = var4;
-    var4 = false;
-    var _closure1_slot14 = var4;
     var4 = 9;
     var4 = var7[var4];
     var4 = var8.bind(var1)(var4);
@@ -168,7 +166,7 @@ case 0:
                 var1 = _closure1_slot7;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot6;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot14;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
@@ -221,7 +219,7 @@ case 11:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(9);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
         var7 = 'getCanUseMultiAccountMobile';
@@ -307,23 +305,14 @@ case 11:
         var5 = {};
         var7 = 'canUseMultiAccountNotifications';
         var5['key'] = var7;
-        var7 = function get() {
+        var6 = function get() {
             var2 = this;
             var1 = var2.getCanUseMultiAccountMobile;
             var1 = var1.bind(var2)();
             return var1;
         };
-        var5['get'] = var7;
-        var1[7] = var5;
-        var5 = {};
-        var7 = 'isSwitchingAccount';
-        var5['key'] = var7;
-        var6 = function get() {
-            var1 = _closure1_slot14;
-            return var1;
-        };
         var5['get'] = var6;
-        var1[8] = var5;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -374,12 +363,10 @@ case 0:
             var _closure2_slot0 = var4;
             var3 = var4.id;
             var _closure1_slot10 = var3;
-            var3 = false;
-            _closure1_slot14 = var3;
             var3 = _closure1_slot11;
             var3 = !var3;
-            if(!var3) { _fun0006_ip = 8; continue _fun0006 }
-case 19:
+            if(!var3) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
             var7 = _closure1_slot1;
             var6 = _closure1_slot3;
             var5 = 6;
@@ -387,12 +374,12 @@ case 19:
             var6 = undefined;
             var5 = var7.bind(var6)(var5);
             var3 = var5.bind(var6)(var4);
-case 8:
-            if(!var3) { _fun0006_ip = 20; continue _fun0006 }
-case 3:
+case 19:
+            if(!var3) { _fun0006_ip = 3; continue _fun0006 }
+case 21:
             var3 = true;
             _closure1_slot11 = var3;
-case 20:
+case 3:
             var5 = _closure1_slot13;
             var3 = var5.slice;
             var3 = var3.bind(var5)();
@@ -407,8 +394,8 @@ case 20:
             };
             var5 = var6.bind(var3)(var5);
             var6 = -1;
-            if(!(!(var5 > var6))) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+            if(!(!(var5 > var6))) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
             var7 = var3.push;
             var6 = {};
             var8 = var4.id;
@@ -426,8 +413,8 @@ case 22:
             var6['pushSyncToken'] = var8;
             var6 = var7.bind(var3)(var6);
             _closure1_slot13 = var3;
-            _fun0006_ip = 23; continue _fun0006;
-case 21:
+            _fun0006_ip = 24; continue _fun0006;
+case 22:
             var6 = _closure1_slot13;
             var7 = var6[var5];
             var6 = var4.avatar;
@@ -446,12 +433,12 @@ case 21:
             var4 = var4.VALID;
             var5['tokenStatus'] = var4;
             _closure1_slot13 = var3;
-case 23:
+case 24:
             var3 = _closure1_slot13;
             var4 = var3.length;
             var3 = _closure1_slot9;
-            if(!(var4 > var3)) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+            if(!(var4 > var3)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
             var4 = _closure1_slot13;
             var3 = var4.splice;
             var2 = _closure1_slot9;
@@ -460,13 +447,13 @@ case 25:
             var1 = function(arg1) {
                 var1 = arg1;
                 var3 = var1.id;
-                var2 = _closure1_slot16;
+                var2 = _closure1_slot15;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var3);
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-case 24:
+case 25:
             var1 = undefined;
             return var1;
         }
@@ -476,13 +463,9 @@ case 24:
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.isSwitchingAccount;
-            var3 = !var2;
-            var3 = !var3;
-            _closure1_slot14 = var3;
             var1 = var1.isSwitchingAccount;
-            if(var1) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
+            if(var1) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
             var4 = _closure1_slot13;
             var3 = var4.filter;
             var1 = function(arg1) {
@@ -494,7 +477,7 @@ case 27:
             };
             var1 = var3.bind(var4)(var1);
             _closure1_slot13 = var1;
-case 26:
+case 27:
             var1 = null;
             _closure1_slot10 = var1;
             var1 = undefined;
@@ -503,7 +486,7 @@ case 26:
     };
     var4['LOGOUT'] = var10;
     var10 = function MULTI_ACCOUNT_VALIDATE_TOKEN_REQUEST(arg1) {
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot16;
         var2 = arg1;
         var3 = var2.userId;
         var1 = _closure1_slot12;
@@ -514,7 +497,7 @@ case 26:
     };
     var4['MULTI_ACCOUNT_VALIDATE_TOKEN_REQUEST'] = var10;
     var10 = function MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS(arg1) {
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot16;
         var2 = arg1;
         var3 = var2.userId;
         var1 = _closure1_slot12;
@@ -525,7 +508,7 @@ case 26:
     };
     var4['MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS'] = var10;
     var10 = function MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE(arg1) {
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot16;
         var2 = arg1;
         var3 = var2.userId;
         var1 = _closure1_slot12;
@@ -536,7 +519,7 @@ case 26:
     };
     var4['MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE'] = var10;
     var10 = function MULTI_ACCOUNT_REMOVE_ACCOUNT(arg1) {
-        var3 = _closure1_slot16;
+        var3 = _closure1_slot15;
         var1 = arg1;
         var2 = var1.userId;
         var1 = undefined;
@@ -581,8 +564,8 @@ case 0:
             };
             var4 = var5.bind(var1)(var4);
             var5 = null;
-            if(!(var5 != var4)) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
+            if(!(var5 != var4)) { _fun0008_ip = 29; continue _fun0008 }
+case 30:
             var5 = var3.avatar;
             var4['avatar'] = var5;
             var5 = var3.username;
@@ -590,7 +573,7 @@ case 29:
             var3 = var3.discriminator;
             var4['discriminator'] = var3;
             _closure1_slot13 = var1;
-case 28:
+case 29:
             var1 = undefined;
             return var1;
         }
@@ -611,8 +594,8 @@ case 0:
                 var5 = var4.id;
                 var2 = _closure2_slot0;
                 var1 = var4;
-                if(!(var5 === var2)) { _fun0009_ip = 30; continue _fun0009 }
-case 31:
+                if(!(var5 === var2)) { _fun0009_ip = 31; continue _fun0009 }
+case 32:
                 var2 = {};
                 var7 = var2;
                 var6 = var4;
@@ -621,7 +604,7 @@ case 31:
                 var3 = 'pushSyncToken';
                 var2[2] = var4;
                 var1 = var2;
-case 30:
+case 31:
                 return var1;
             }
         };
@@ -644,15 +627,15 @@ case 0:
                 var2 = var3.pushSyncToken;
                 var4 = null;
                 var1 = var3;
-                if(!(var4 != var2)) { _fun0010_ip = 32; continue _fun0010 }
-case 33:
+                if(!(var4 != var2)) { _fun0010_ip = 33; continue _fun0010 }
+case 34:
                 var6 = _closure2_slot0;
                 var5 = var6.includes;
                 var2 = var3.pushSyncToken;
                 var2 = var5.bind(var6)(var2);
                 var1 = var3;
-                if(!var2) { _fun0010_ip = 32; continue _fun0010 }
-case 34:
+                if(!var2) { _fun0010_ip = 33; continue _fun0010 }
+case 35:
                 var2 = {};
                 var8 = var2;
                 var7 = var3;
@@ -660,7 +643,7 @@ case 34:
                 var3 = 'pushSyncToken';
                 var2[2] = var4;
                 var1 = var2;
-case 32:
+case 33:
                 return var1;
             }
         };

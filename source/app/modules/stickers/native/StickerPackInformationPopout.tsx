@@ -6,6 +6,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
+    var1 = function generateListData(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = new Array(0);
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 5;
+            var2 = var5[var2];
+            var8 = undefined;
+            var5 = var3.bind(var8)(var2);
+            var3 = var5.isStickerPackAnimated;
+            var2 = arg1;
+            var2 = var3.bind(var5)(var2);
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = var1.push;
+            var2 = {};
+            var5 = 'animated';
+            var2['key'] = var5;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var4 = 6;
+            var5 = var9[var4];
+            var5 = var7.bind(var8)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var9[var4];
+            var4 = var7.bind(var8)(var4);
+            var4 = var4.t;
+            var4 = var4.W11rMa;
+            var4 = var5.bind(var6)(var4);
+            var2['description'] = var4;
+            var2 = var3.bind(var1)(var2);
+case 2:
+            return var1;
+        }
+    };
+    var _closure1_slot7 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -79,51 +117,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['informationContentDescription'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = function generateListData(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = new Array(0);
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var2 = 5;
-            var2 = var5[var2];
-            var8 = undefined;
-            var5 = var3.bind(var8)(var2);
-            var3 = var5.isStickerPackAnimated;
-            var2 = arg1;
-            var2 = var3.bind(var5)(var2);
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var3 = var1.push;
-            var2 = {};
-            var5 = 'animated';
-            var2['key'] = var5;
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var4 = 6;
-            var5 = var9[var4];
-            var5 = var7.bind(var8)(var5);
-            var6 = var5.intl;
-            var5 = var6.string;
-            var4 = var9[var4];
-            var4 = var7.bind(var8)(var4);
-            var4 = var4.t;
-            var4 = var4.W11rMa;
-            var4 = var5.bind(var6)(var4);
-            var2['description'] = var4;
-            var2 = var3.bind(var1)(var2);
-case 2:
-            return var1;
-        }
-    };
-    var _closure1_slot7 = var4;
     var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/stickers/native/StickerPackInformationPopout.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function _default(arg1) {
+    var4 = function StickerPackInformationPopout(arg1) {
         var1 = arg1;
         var21 = var1.stickerPack;
         var14 = var1.onClose;
@@ -264,7 +264,7 @@ case 2:
         return var1;
     };
     var3['default'] = var4;
-    var2 = function(arg1) {
+    var2 = function doesStickerPackHavePopoutInformation(arg1) {
         var3 = _closure1_slot7;
         var2 = undefined;
         var1 = arg1;

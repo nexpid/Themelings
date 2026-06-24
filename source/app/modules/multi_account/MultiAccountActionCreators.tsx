@@ -352,10 +352,10 @@ case 8:
             var1['targetUserId'] = var6;
             var12 = var10 != var11;
             var10 = null;
-            if(!var12) { _fun0002_ip = 10; continue _fun0002 }
-case 37:
+            if(!var12) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
             var10 = var11;
-case 10:
+case 37:
             var1['location'] = var10;
             var1 = var4.bind(var9)(var1);
             var4 = _closure1_slot1;
@@ -365,7 +365,7 @@ case 10:
             var4 = var4.bind(var5)(var1);
             var1 = var4.switchAccountToken;
             var1 = var1.bind(var4)(var7, var8);
-            _fun0002_ip = 38; continue _fun0002;
+            _fun0002_ip = 39; continue _fun0002;
 case 36:
             var8 = _closure1_slot9;
             var7 = var8.log;
@@ -385,7 +385,7 @@ case 36:
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)();
-case 38:
+case 39:
             return var1;
         }
     };
@@ -445,7 +445,7 @@ case 38:
         return var1;
     };
     var3['updatePushSyncToken'] = var4;
-    var2 = function invalidatePushSyncTokens(arg1) {
+    var4 = function invalidatePushSyncTokens(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
         var1 = 6;
@@ -461,6 +461,21 @@ case 38:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['invalidatePushSyncTokens'] = var2;
+    var3['invalidatePushSyncTokens'] = var4;
+    var2 = function reportAccountSwitchTimeout() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot3;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'MULTI_ACCOUNT_SWITCH_TIMEOUT';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['reportAccountSwitchTimeout'] = var2;
     return var1;
 })();

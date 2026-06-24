@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/app_launcher/utils/AppLauncherBadgeUtils.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = function(arg1) {
+    var2 = function getNewestBadgeableVersion(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;

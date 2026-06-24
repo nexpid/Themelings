@@ -142,7 +142,7 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot15 = var1;
     var1 = function getSnapIndex(arg1) {
         var1 = global;
         var3 = var1.Math;
@@ -154,6 +154,25 @@ case 7:
         var1 = _closure1_slot13;
         var1 = var4 / var1;
         var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var _closure1_slot16 = var1;
+    var1 = function ItemSeparator() {
+        var4 = _closure1_slot9;
+        var3 = _closure1_slot5;
+        var2 = {};
+        var1 = {};
+        var5 = _closure1_slot12;
+        var1['width'] = var5;
+        var2['style'] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
+    };
+    var _closure1_slot17 = var1;
+    var1 = function keyExtractor(arg1) {
+        var1 = arg1;
+        var1 = var1.id;
         return var1;
     };
     var _closure1_slot18 = var1;
@@ -392,7 +411,7 @@ case 10:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var3 = arg1;
-                var2 = _closure1_slot18;
+                var2 = _closure1_slot16;
                 var1 = undefined;
                 var6 = var2.bind(var1)(var3);
                 var5 = _closure2_slot12;
@@ -488,7 +507,7 @@ case 27:
         var3 = function(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var3 = _closure1_slot18;
+                var3 = _closure1_slot16;
                 var1 = undefined;
                 var2 = arg1;
                 var3 = var3.bind(var1)(var2);
@@ -1110,7 +1129,7 @@ case 43:
         var5['horizontal'] = var20;
         var5['data'] = var19;
         var5['renderItem'] = var18;
-        var18 = _closure1_slot16;
+        var18 = _closure1_slot18;
         var5['keyExtractor'] = var18;
         var17 = var17.listContentContainer;
         var5['contentContainerStyle'] = var17;
@@ -1121,7 +1140,7 @@ case 43:
         var16 = 'fast';
         var5['decelerationRate'] = var16;
         var5['showsHorizontalScrollIndicator'] = var15;
-        var14 = _closure1_slot15;
+        var14 = _closure1_slot17;
         var5['ItemSeparatorComponent'] = var14;
         var5['ListFooterComponent'] = var13;
         var5['onScroll'] = var12;
@@ -1261,25 +1280,6 @@ case 43:
     };
     var4 = var8.bind(var9)(var4);
     var _closure1_slot14 = var4;
-    var4 = function ItemSeparator() {
-        var4 = _closure1_slot9;
-        var3 = _closure1_slot5;
-        var2 = {};
-        var1 = {};
-        var5 = _closure1_slot12;
-        var1['width'] = var5;
-        var2['style'] = var1;
-        var1 = undefined;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot15 = var4;
-    var4 = function keyExtractor(arg1) {
-        var1 = arg1;
-        var1 = var1.id;
-        return var1;
-    };
-    var _closure1_slot16 = var4;
     var4 = var7.memo;
     var2 = function QuestHomeBounties(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
@@ -1389,19 +1389,6 @@ case 62:
                     var2 = function() {
                         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
-                            var5 = _closure3_slot0;
-                            var6 = _closure1_slot0;
-                            var4 = _closure1_slot2;
-                            var3 = 16;
-                            var3 = var4[var3];
-                            var4 = undefined;
-                            var3 = var6.bind(var4)(var3);
-                            var3 = var3.DismissibleContent;
-                            var3 = var3.BOUNTIES_NUX_PROMO_SHEET;
-                            if(!(var5 !== var3)) { _fun0017_ip = 64; continue _fun0017 }
-case 65:
-                            return var4;
-case 64:
                             var5 = function handleHide(arg1) {
                                 _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
@@ -1414,17 +1401,30 @@ case 0:
                                     var1 = undefined;
                                     var3 = var5.bind(var1)(var3);
                                     var3 = var3.PROMO_SHEET_KEY;
-                                    if(!(var4 === var3)) { _fun0018_ip = 66; continue _fun0018 }
-case 67:
+                                    if(!(var4 === var3)) { _fun0018_ip = 64; continue _fun0018 }
+case 65:
                                     var3 = _closure3_slot1;
                                     var2 = _closure1_slot8;
                                     var2 = var2.USER_DISMISS;
                                     var2 = var3.bind(var1)(var2);
-case 66:
+case 64:
                                     return var1;
                                 }
                             };
                             var _closure4_slot0 = var5;
+                            var6 = _closure3_slot0;
+                            var7 = _closure1_slot0;
+                            var4 = _closure1_slot2;
+                            var3 = 16;
+                            var3 = var4[var3];
+                            var4 = undefined;
+                            var3 = var7.bind(var4)(var3);
+                            var3 = var3.DismissibleContent;
+                            var3 = var3.BOUNTIES_NUX_PROMO_SHEET;
+                            if(!(var6 !== var3)) { _fun0017_ip = 63; continue _fun0017 }
+case 11:
+                            return var4;
+case 63:
                             var3 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var2 = 18;
@@ -1470,18 +1470,18 @@ case 66:
                 return var1;
             };
             var11 = var3.bind(var4)(var2, var1);
-            if(var10) { _fun0014_ip = 68; continue _fun0014 }
-case 69:
-            if(var11) { _fun0014_ip = 68; continue _fun0014 }
-case 70:
+            if(var10) { _fun0014_ip = 66; continue _fun0014 }
+case 67:
+            if(var11) { _fun0014_ip = 66; continue _fun0014 }
+case 68:
             var4 = _closure1_slot9;
             if(var6) { _fun0014_ip = 22; continue _fun0014 }
-case 71:
+case 69:
             var2 = _closure1_slot19;
             var1 = {};
             var1['bounties'] = var12;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0014_ip = 72; continue _fun0014;
+            _fun0014_ip = 70; continue _fun0014;
 case 22:
             var3 = _closure1_slot5;
             var2 = {};
@@ -1498,31 +1498,31 @@ case 22:
             var9 = var14.bind(var5)(var13, var9);
             var2['children'] = var9;
             var1 = var4.bind(var5)(var3, var2);
-case 72:
-            _fun0014_ip = 73; continue _fun0014;
-case 68:
+case 70:
+            _fun0014_ip = 71; continue _fun0014;
+case 66:
             var4 = _closure1_slot9;
             var3 = _closure1_slot5;
             var2 = {};
             var8 = var8.container;
             var2['style'] = var8;
             var9 = _closure1_slot9;
-            if(var6) { _fun0014_ip = 74; continue _fun0014 }
-case 75:
-            var8 = _closure1_slot17;
+            if(var6) { _fun0014_ip = 72; continue _fun0014 }
+case 73:
+            var8 = _closure1_slot15;
             var6 = {};
             var14 = _closure1_slot7;
-            if(var10) { _fun0014_ip = 76; continue _fun0014 }
-case 77:
+            if(var10) { _fun0014_ip = 74; continue _fun0014 }
+case 75:
             var13 = var14.COMPLETED;
-            _fun0014_ip = 78; continue _fun0014;
-case 76:
+            _fun0014_ip = 76; continue _fun0014;
+case 74:
             var13 = var14.EMPTY;
-case 78:
+case 76:
             var6['reason'] = var13;
             var6 = var9.bind(var5)(var8, var6);
-            _fun0014_ip = 79; continue _fun0014;
-case 74:
+            _fun0014_ip = 77; continue _fun0014;
+case 72:
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
             var7 = 34;
@@ -1530,16 +1530,16 @@ case 74:
             var8 = var8.bind(var5)(var7);
             var7 = {};
             var7['bounties'] = var12;
-            if(var10) { _fun0014_ip = 80; continue _fun0014 }
-case 81:
+            if(var10) { _fun0014_ip = 78; continue _fun0014 }
+case 79:
             var10 = var11;
-case 80:
+case 78:
             var7['isEmptyOrCompleted'] = var10;
             var6 = var9.bind(var5)(var8, var7);
-case 79:
+case 77:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 73:
+case 71:
             return var1;
         }
     };

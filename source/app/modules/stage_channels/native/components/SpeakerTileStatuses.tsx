@@ -321,7 +321,7 @@ case 20:
     var6 = var7.bind(var8)(var6);
     var3['VoiceStatus'] = var5;
     var3['ModeratorStatus'] = var4;
-    var4 = function() {
+    var4 = function BlockedStatus() {
         var1 = _closure1_slot8;
         var4 = undefined;
         var9 = var1.bind(var4)();
@@ -356,7 +356,7 @@ case 20:
         return var1;
     };
     var3['BlockedStatus'] = var4;
-    var2 = function() {
+    var2 = function IgnoredStatus() {
         var1 = _closure1_slot8;
         var4 = undefined;
         var9 = var1.bind(var4)();

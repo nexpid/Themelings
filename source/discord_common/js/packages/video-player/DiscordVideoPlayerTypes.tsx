@@ -55,8 +55,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['SPACE'] = var1;
     var1 = 'j';
     var6['SEEK_BACK'] = var1;
+    var1 = 'ArrowLeft';
+    var6['SEEK_BACK_ALT'] = var1;
     var1 = 'l';
     var6['SEEK_FORWARD'] = var1;
+    var1 = 'ArrowRight';
+    var6['SEEK_FORWARD_ALT'] = var1;
     var1 = 'c';
     var6['CAPTION'] = var1;
     var1 = 'f';

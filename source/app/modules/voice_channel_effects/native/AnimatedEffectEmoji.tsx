@@ -7,6 +7,58 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
+    var1 = function Emoji(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var7 = var1.url;
+            var8 = var1.surrogates;
+            var1 = _closure1_slot9;
+            var5 = undefined;
+            var6 = var1.bind(var5)();
+            var1 = '';
+            if(!(var1 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 8;
+            var1 = var9[var1];
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.LegacyText;
+            var1 = {};
+            var10 = var6.textEmoji;
+            var9 = new Array(1);
+            var9[0] = var10;
+            var1['style'] = var9;
+            var9 = false;
+            var1['allowFontScaling'] = var9;
+            var1['children'] = var8;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 7;
+            var2 = var8[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = {};
+            var8 = 'contain';
+            var2['resizeMode'] = var8;
+            var8 = var6.imageEmoji;
+            var6 = new Array(1);
+            var6[0] = var8;
+            var2['style'] = var6;
+            var6 = {};
+            var6['uri'] = var7;
+            var2['source'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 4:
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -78,62 +130,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['imageEmoji'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = function Emoji(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = arg1;
-            var7 = var1.url;
-            var8 = var1.surrogates;
-            var1 = _closure1_slot9;
-            var5 = undefined;
-            var6 = var1.bind(var5)();
-            var1 = '';
-            if(!(var1 === var7)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = _closure1_slot6;
-            var3 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 8;
-            var1 = var9[var1];
-            var1 = var3.bind(var5)(var1);
-            var3 = var1.LegacyText;
-            var1 = {};
-            var10 = var6.textEmoji;
-            var9 = new Array(1);
-            var9[0] = var10;
-            var1['style'] = var9;
-            var9 = false;
-            var1['allowFontScaling'] = var9;
-            var1['children'] = var8;
-            var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
-            var4 = _closure1_slot6;
-            var3 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var2 = 7;
-            var2 = var8[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = {};
-            var8 = 'contain';
-            var2['resizeMode'] = var8;
-            var8 = var6.imageEmoji;
-            var6 = new Array(1);
-            var6[0] = var8;
-            var2['style'] = var6;
-            var6 = {};
-            var6['uri'] = var7;
-            var2['source'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 4:
-            return var1;
-        }
-    };
-    var _closure1_slot10 = var4;
     var4 = {};
     var7 = 'function AnimatedEffectEmojiTsx1(){const{withSequence,withTiming,ANIMATION_ROTATION_DEG,withDelay,useReducedMotion,STANDARD_EASING}=this.__closure;const rotate=withSequence(withTiming(ANIMATION_ROTATION_DEG+"deg",{duration:0}),withDelay(100,withTiming(\'0deg\',{duration:useReducedMotion?0:300,easing:STANDARD_EASING})));const scale=withSequence(withTiming(0,{duration:0}),withDelay(100,withTiming(1,{duration:useReducedMotion?0:300,easing:STANDARD_EASING})));return{transform:[{scale:scale},{rotate:rotate}]};}';
     var4['code'] = var7;
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -158,15 +158,15 @@ case 5:
             var _closure2_slot2 = var5;
             var4 = _closure1_slot9;
             var9 = var4.bind(var5)();
-            var11 = var3.emoji;
+            var12 = var3.emoji;
             var15 = var3.sentAt;
             _closure2_slot1 = var15;
             var10 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 9;
             var3 = var8[var3];
-            var13 = var10.bind(var5)(var3);
-            var6 = var13.useStateFromStores;
+            var11 = var10.bind(var5)(var3);
+            var6 = var11.useStateFromStores;
             var3 = _closure1_slot5;
             var4 = new Array(1);
             var4[0] = var3;
@@ -175,8 +175,8 @@ case 5:
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var13 = var6.bind(var13)(var4, var3);
-            _closure2_slot2 = var13;
+            var11 = var6.bind(var11)(var4, var3);
+            _closure2_slot2 = var11;
             var6 = _closure1_slot3;
             var4 = var6.useEffect;
             var3 = new Array(3);
@@ -356,7 +356,7 @@ case 16:
             var14 = var10.bind(var5)(var14);
             var14 = var14.withDelay;
             var6['withDelay'] = var14;
-            var6['useReducedMotion'] = var13;
+            var6['useReducedMotion'] = var11;
             var16 = 8;
             var8 = var8[var16];
             var8 = var10.bind(var5)(var8);
@@ -365,11 +365,11 @@ case 16:
             var1['__closure'] = var6;
             var6 = 75069010226.0;
             var1['__workletHash'] = var6;
-            var6 = _closure1_slot11;
+            var6 = _closure1_slot10;
             var1['__initData'] = var6;
             var8 = var3.bind(var4)(var1);
             var1 = null;
-            var3 = var1 != var11;
+            var3 = var1 != var12;
             if(!var3) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
             var4 = _closure1_slot6;
@@ -379,17 +379,17 @@ case 19:
             var2 = var3.bind(var5)(var2);
             var3 = var2.View;
             var2 = {};
-            var13 = var9.voiceChannelEffectEmojiContainer;
+            var11 = var9.voiceChannelEffectEmojiContainer;
             var6 = new Array(4);
-            var6[0] = var13;
+            var6[0] = var11;
             var15 = _closure1_slot0;
-            var13 = var10[var16];
-            var14 = var15.bind(var5)(var13);
-            var13 = var14.generateBoxShadowStyle;
+            var11 = var10[var16];
+            var14 = var15.bind(var5)(var11);
+            var11 = var14.generateBoxShadowStyle;
             var10 = var10[var16];
             var10 = var15.bind(var5)(var10);
             var10 = var10.EIGHT_DP_ELEVATION_SHADOW_PARAMS;
-            var10 = var13.bind(var14)(var10);
+            var10 = var11.bind(var14)(var10);
             var6[1] = var10;
             var6[2] = var8;
             if(!var7) { _fun0002_ip = 20; continue _fun0002 }
@@ -403,19 +403,20 @@ case 20:
             var6 = {};
             var9 = var9.voiceChannelEffectEmoji;
             var6['style'] = var9;
-            var10 = _closure1_slot10;
+            var11 = _closure1_slot6;
+            var10 = _closure1_slot11;
             var9 = {};
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var12 = 12;
-            var12 = var14[var12];
-            var13 = var13.bind(var5)(var12);
-            var12 = var13.getEffectUrl;
-            var12 = var12.bind(var13)(var11);
-            var9['url'] = var12;
-            var11 = var11.name;
-            var9['surrogates'] = var11;
-            var9 = var8.bind(var5)(var10, var9);
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var13 = 12;
+            var13 = var15[var13];
+            var14 = var14.bind(var5)(var13);
+            var13 = var14.getEffectUrl;
+            var13 = var13.bind(var14)(var12);
+            var9['url'] = var13;
+            var12 = var12.name;
+            var9['surrogates'] = var12;
+            var9 = var11.bind(var5)(var10, var9);
             var6['children'] = var9;
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;

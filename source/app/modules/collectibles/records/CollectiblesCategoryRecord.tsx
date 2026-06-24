@@ -38,9 +38,36 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot9 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
+            return var1;
+        }
+    };
+    var _closure1_slot9 = var1;
+    var1 = function allowEmptyItems(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = arg1;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 8;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.CollectiblesItemType;
+            var1 = var1.VARIANTS_GROUP;
+            var1 = var3 === var1;
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.EXTERNAL_SKU;
+            var1 = var3 === var2;
+case 6:
             return var1;
         }
     };
@@ -85,33 +112,6 @@ case 4:
     var4 = 7;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var7 = function allowEmptyItems(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var3 = arg1;
-            var4 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var6 = 8;
-            var1 = var1[var6];
-            var5 = undefined;
-            var1 = var4.bind(var5)(var1);
-            var1 = var1.CollectiblesItemType;
-            var1 = var1.VARIANTS_GROUP;
-            var1 = var3 === var1;
-            if(var1) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.EXTERNAL_SKU;
-            var1 = var3 === var2;
-case 6:
-            return var1;
-        }
-    };
-    var _closure1_slot9 = var7;
     var2 = function(arg1) {
         var5 = function CollectiblesCategoryRecord(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -127,7 +127,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var5)(var3);
                 var3 = _closure1_slot4;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot9;
                 var1 = var1.bind(var5)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
@@ -291,7 +291,7 @@ case 0:
                         var4 = var5.fromServer;
                         var3 = arg2;
                         var3 = var4.bind(var5)(var3);
-                        var5 = _closure1_slot9;
+                        var5 = _closure1_slot10;
                         var4 = var3.type;
                         var2 = undefined;
                         var2 = var5.bind(var2)(var4);
@@ -412,7 +412,7 @@ case 0:
                     var4 = null;
                     if(!(var4 != var3)) { _fun0006_ip = 20; continue _fun0006 }
 case 21:
-                    var5 = _closure1_slot9;
+                    var5 = _closure1_slot10;
                     var4 = var3.type;
                     var2 = undefined;
                     var2 = var5.bind(var2)(var4);

@@ -410,6 +410,25 @@ case 0:
             var _closure2_slot2 = var3;
             var2 = var2.onSuccess;
             var _closure2_slot3 = var2;
+            var23 = function handleClose() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 21;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.track;
+                var2 = _closure1_slot11;
+                var3 = var2.USER_REMEDIATION_ACTION;
+                var2 = {};
+                var6 = _closure1_slot8;
+                var6 = var6.DISMISS_IGNORE;
+                var2['action'] = var6;
+                var6 = 'user-profile-context-menu';
+                var2['location'] = var6;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
+            };
             var2 = _closure1_slot15;
             var5 = undefined;
             var16 = var2.bind(var5)();
@@ -488,25 +507,6 @@ case 2:
                 }
             };
             var37 = var9.bind(var10)(var8, var3, var4);
-            var23 = function handleClose() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 21;
-                var2 = var2[var1];
-                var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var4 = var5.track;
-                var2 = _closure1_slot11;
-                var3 = var2.USER_REMEDIATION_ACTION;
-                var2 = {};
-                var6 = _closure1_slot8;
-                var6 = var6.DISMISS_IGNORE;
-                var2['action'] = var6;
-                var6 = 'user-profile-context-menu';
-                var2['location'] = var6;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            };
             var4 = var7.useEffect;
             var3 = new Array(2);
             var3[0] = var39;

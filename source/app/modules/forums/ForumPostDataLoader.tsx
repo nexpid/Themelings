@@ -636,6 +636,8 @@ case 35:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/forums/ForumPostDataLoader.tsx';
     var4 = var5.bind(var6)(var4);
+    var4 = 10;
+    var3['BATCH_SIZE'] = var4;
     var4 = function useFirstForumPostMessage(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:

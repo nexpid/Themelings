@@ -230,7 +230,7 @@ case 7:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/renderer/resolveMessageContentColors.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function resolveMessageContentColors(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arguments[1];

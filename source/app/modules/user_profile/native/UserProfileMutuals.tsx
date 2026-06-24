@@ -68,63 +68,10 @@ case 0:
             var1 = var1.guildId;
             var _closure2_slot1 = var1;
             var4 = undefined;
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
-            var _closure2_slot9 = var4;
-            var1 = _closure1_slot8;
-            var5 = var1.bind(var4)();
-            var _closure2_slot2 = var5;
-            var2 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 6;
-            var1 = var9[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.useUserProfileAnalyticsContext;
-            var1 = var1.bind(var2)();
-            var2 = var1.context;
-            var _closure2_slot3 = var2;
-            var1 = var1.trackUserProfileAction;
-            var _closure2_slot4 = var1;
-            var8 = _closure1_slot1;
-            var1 = 7;
-            var1 = var9[var1];
-            var1 = var8.bind(var4)(var1);
-            var1 = var1.bind(var4)(var7);
-            var3 = var1.mutualFriends;
-            var _closure2_slot5 = var3;
-            var2 = var1.mutualGuilds;
-            var _closure2_slot6 = var2;
-            var1 = 8;
-            var1 = var9[var1];
-            var1 = var8.bind(var4)(var1);
-            var7 = var1.bind(var4)(var7);
-            var1 = null;
-            if(var7) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            return var1;
-case 2:
-            var7 = var1 != var3;
-            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var8 = var3.length;
-            var3 = 0;
-            var7 = var8 > var3;
-case 4:
-            _closure2_slot7 = var7;
-            var8 = var1 != var2;
-            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var3 = var2.length;
-            var2 = 0;
-            var8 = var3 > var2;
-case 6:
-            _closure2_slot8 = var8;
-            if(var7) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            if(var8) { _fun0001_ip = 8; continue _fun0001 }
-case 10:
-            return var1;
-case 8:
             var1 = function handlePress(arg1) {
                 var8 = arg1;
                 var5 = _closure2_slot4;
@@ -212,7 +159,61 @@ case 8:
                 var2 = var14[var6](var13, var12, var11, var10, var9);
                 return var1;
             };
-            _closure2_slot9 = var1;
+            var _closure2_slot9 = var1;
+            var1 = _closure1_slot8;
+            var5 = var1.bind(var4)();
+            var _closure2_slot2 = var5;
+            var2 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 6;
+            var1 = var9[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.useUserProfileAnalyticsContext;
+            var1 = var1.bind(var2)();
+            var2 = var1.context;
+            _closure2_slot3 = var2;
+            var1 = var1.trackUserProfileAction;
+            _closure2_slot4 = var1;
+            var8 = _closure1_slot1;
+            var1 = 7;
+            var1 = var9[var1];
+            var1 = var8.bind(var4)(var1);
+            var1 = var1.bind(var4)(var7);
+            var3 = var1.mutualFriends;
+            var _closure2_slot5 = var3;
+            var2 = var1.mutualGuilds;
+            var _closure2_slot6 = var2;
+            var1 = 8;
+            var1 = var9[var1];
+            var1 = var8.bind(var4)(var1);
+            var7 = var1.bind(var4)(var7);
+            var1 = null;
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            return var1;
+case 2:
+            var7 = var1 != var3;
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var8 = var3.length;
+            var3 = 0;
+            var7 = var8 > var3;
+case 4:
+            _closure2_slot7 = var7;
+            var8 = var1 != var2;
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var3 = var2.length;
+            var2 = 0;
+            var8 = var3 > var2;
+case 6:
+            _closure2_slot8 = var8;
+            if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            if(var8) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
+            return var1;
+case 8:
             var3 = _closure1_slot7;
             var2 = _closure1_slot3;
             var1 = {};
@@ -258,7 +259,7 @@ case 11:
                         var1 = _closure1_slot4;
                         var2 = var1.MUTUAL_FRIENDS;
                         var1 = undefined;
-                        var1 = var3.bind(var1)(var2);
+                        var2 = var3.bind(var1)(var2);
                         return var1;
                     };
                     var1['onPress'] = var5;
@@ -393,7 +394,7 @@ case 11:
                         var1 = _closure1_slot4;
                         var2 = var1.MUTUAL_GUILDS;
                         var1 = undefined;
-                        var1 = var3.bind(var1)(var2);
+                        var2 = var3.bind(var1)(var2);
                         return var1;
                     };
                     var1['onPress'] = var5;

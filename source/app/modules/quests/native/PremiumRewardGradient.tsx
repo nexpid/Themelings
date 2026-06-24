@@ -335,7 +335,7 @@ case 5:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/quests/native/PremiumRewardGradient.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function QuestPremiumRewardGradientWrapper(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;

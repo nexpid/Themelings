@@ -121,9 +121,6 @@ case 0:
             var _closure2_slot2 = var2;
             var1 = var1.onSecondaryButtonPress;
             var _closure2_slot3 = var1;
-            var1 = _closure1_slot8;
-            var4 = undefined;
-            var20 = var1.bind(var4)();
             var6 = function handleDismiss(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -164,6 +161,9 @@ case 6:
                 }
             };
             var _closure2_slot4 = var6;
+            var1 = _closure1_slot8;
+            var4 = undefined;
+            var20 = var1.bind(var4)();
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;

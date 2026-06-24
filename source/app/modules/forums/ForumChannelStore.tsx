@@ -294,7 +294,7 @@ case 8:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/forums/ForumChannelStore.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function useForumChannelStore(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = arg1;
@@ -332,7 +332,7 @@ case 11:
         }
     };
     var3['useForumChannelStore'] = var4;
-    var2 = function() {
+    var2 = function useForumChannelStoreApi() {
         var1 = _closure1_slot8;
         return var1;
     };

@@ -94,27 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var1 = global;
-                var6 = var1.Math;
-                var4 = var6.floor;
-                var3 = _closure2_slot0;
-                var8 = _closure1_slot5;
-                var7 = var3 - var8;
-                var3 = _closure1_slot7;
-                var3 = var3 + var8;
-                var3 = var7 / var3;
-                var4 = var4.bind(var6)(var3);
-                var _closure3_slot0 = var4;
-                var8 = new Array(0);
-                var _closure3_slot1 = var8;
-                var7 = new Array(0);
-                var6 = new Array(0);
-                var _closure3_slot2 = var6;
-                var3 = new Array(0);
-                var _closure3_slot3 = var3;
-                var11 = undefined;
-                var _closure3_slot4 = var11;
-                var10 = function pushCategory(arg1) {
+                var11 = function pushCategory(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var5 = arg1;
@@ -180,7 +160,27 @@ case 6:
                         return var1;
                     }
                 };
-                var _closure3_slot5 = var10;
+                var _closure3_slot5 = var11;
+                var1 = global;
+                var6 = var1.Math;
+                var4 = var6.floor;
+                var3 = _closure2_slot0;
+                var8 = _closure1_slot5;
+                var7 = var3 - var8;
+                var3 = _closure1_slot7;
+                var3 = var3 + var8;
+                var3 = var7 / var3;
+                var4 = var4.bind(var6)(var3);
+                var _closure3_slot0 = var4;
+                var8 = new Array(0);
+                var _closure3_slot1 = var8;
+                var7 = new Array(0);
+                var6 = new Array(0);
+                var _closure3_slot2 = var6;
+                var3 = new Array(0);
+                var _closure3_slot3 = var3;
+                var10 = undefined;
+                var _closure3_slot4 = var10;
                 var12 = _closure2_slot1;
                 var9 = null;
                 if(!(var9 == var12)) { _fun0001_ip = 7; continue _fun0001 }
@@ -260,7 +260,7 @@ case 13:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var17 = var9.bind(var11)(var8);
+                var17 = var9.bind(var10)(var8);
                 var9 = new Array(0);
                 var16 = 0;
                 var18 = var9;
@@ -276,15 +276,15 @@ case 7:
                 var15 = _closure1_slot2;
                 var1 = 6;
                 var12 = var15[var1];
-                var12 = var14.bind(var11)(var12);
+                var12 = var14.bind(var10)(var12);
                 var13 = var12.intl;
                 var12 = var13.string;
                 var1 = var15[var1];
-                var1 = var14.bind(var11)(var1);
+                var1 = var14.bind(var10)(var1);
                 var1 = var1.t;
                 var1 = var1.zkoeq/;
                 var1 = var12.bind(var13)(var1);
-                var1 = var10.bind(var11)(var9, var1);
+                var1 = var11.bind(var10)(var9, var1);
 case 14:
                 var1 = {};
                 var1['sections'] = var8;

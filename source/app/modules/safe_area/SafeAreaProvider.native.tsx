@@ -244,7 +244,7 @@ case 15:
         return var1;
     };
     var3['SafeAreaReporter'] = var4;
-    var2 = function(arg1) {
+    var2 = function SafeAreaProvider(arg1) {
         var1 = arg1;
         var6 = var1.children;
         var5 = var1.style;

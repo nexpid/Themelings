@@ -41,6 +41,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
+    var _closure1_slot29 = var1;
+    var1 = function closeModal(arg1, arg2) {
+        var7 = _closure1_slot29;
+        var1 = _closure1_slot26;
+        var10 = var1.FLOW_DISMISSED;
+        var1 = undefined;
+        var11 = arg1;
+        var9 = false;
+        var8 = arg2;
+        var12 = undefined;
+        var3 = var12[var7](var11, var10, var9, var8, var7);
+        var3 = _closure1_slot1;
+        var4 = _closure1_slot3;
+        var2 = 18;
+        var2 = var4[var2];
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.close;
+        var2 = var2.bind(var3)();
+        return var1;
+    };
     var _closure1_slot30 = var1;
     var1 = function useGuildSettingsStoreGuild() {
         var3 = _closure1_slot0;
@@ -261,7 +281,7 @@ case 0:
                 var8 = var7.bind(var1)(var6);
                 var7 = var8.getHeaderCloseButton;
                 var6 = function() {
-                    var4 = _closure1_slot28;
+                    var4 = _closure1_slot30;
                     var2 = _closure1_slot26;
                     var1 = _closure1_slot25;
                     var1 = var1.STEP_DISPLAY;
@@ -269,7 +289,7 @@ case 0:
                     var1 = _closure2_slot1;
                     var2 = var1.id;
                     var1 = undefined;
-                    var1 = var4.bind(var1)(var3, var2);
+                    var2 = var4.bind(var1)(var3, var2);
                     return var1;
                 };
                 var6 = var7.bind(var8)(var6);
@@ -397,7 +417,7 @@ case 20:
                                 var5 = _closure2_slot0;
                                 var4 = var5.push;
                                 var4 = var4.bind(var5)(var3);
-                                var5 = _closure1_slot30;
+                                var5 = _closure1_slot29;
                                 var7 = _closure1_slot26;
                                 var4 = _closure1_slot25;
                                 var4 = var4.STEP_DISPLAY;
@@ -725,7 +745,7 @@ case 27:
             var8 = var7.bind(var1)(var6);
             var7 = var8.getHeaderCloseButton;
             var6 = function() {
-                var4 = _closure1_slot28;
+                var4 = _closure1_slot30;
                 var2 = _closure1_slot26;
                 var1 = _closure1_slot25;
                 var1 = var1.STEP_PERMISSIONS;
@@ -733,7 +753,7 @@ case 27:
                 var1 = _closure2_slot2;
                 var2 = var1.id;
                 var1 = undefined;
-                var1 = var4.bind(var1)(var3, var2);
+                var2 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var6 = var7.bind(var8)(var6);
@@ -781,7 +801,7 @@ case 27:
             var4 = _closure1_slot25;
             var4 = var4.STEP_MEMBERS;
             var4 = var5.bind(var6)(var4);
-            var6 = _closure1_slot30;
+            var6 = _closure1_slot29;
             var5 = _closure1_slot26;
             var4 = _closure1_slot25;
             var4 = var4.STEP_PERMISSIONS;
@@ -931,7 +951,7 @@ case 0:
                 var7 = var7.bind(var5)(var6);
                 var6 = var7.getHeaderCloseButton;
                 var5 = function() {
-                    var4 = _closure1_slot28;
+                    var4 = _closure1_slot30;
                     var2 = _closure1_slot26;
                     var1 = _closure1_slot25;
                     var1 = var1.STEP_MEMBERS;
@@ -939,7 +959,7 @@ case 0:
                     var1 = _closure2_slot2;
                     var2 = var1.id;
                     var1 = undefined;
-                    var1 = var4.bind(var1)(var3, var2);
+                    var2 = var4.bind(var1)(var3, var2);
                     return var1;
                 };
                 var5 = var6.bind(var7)(var5);
@@ -1046,7 +1066,7 @@ case 30:
                     var2 = false;
                     var2 = var4.bind(var3)(var2);
 case 29:
-                    var7 = _closure1_slot30;
+                    var7 = _closure1_slot29;
                     var4 = _closure1_slot26;
                     var3 = _closure1_slot25;
                     var3 = var3.STEP_MEMBERS;
@@ -1352,7 +1372,7 @@ case 42:
                     var7 = var8.bind(var9)(var7);
                     var6 = var4;
 case 41:
-                    var4 = _closure1_slot30;
+                    var4 = _closure1_slot29;
                     var1 = _closure2_slot1;
                     var13 = var1.id;
                     var1 = undefined;
@@ -1693,26 +1713,6 @@ case 46:
     };
     var4 = var8.bind(var10)(var4);
     var _closure1_slot27 = var4;
-    var4 = function closeModal(arg1, arg2) {
-        var7 = _closure1_slot30;
-        var1 = _closure1_slot26;
-        var10 = var1.FLOW_DISMISSED;
-        var1 = undefined;
-        var11 = arg1;
-        var9 = false;
-        var8 = arg2;
-        var12 = undefined;
-        var3 = var12[var7](var11, var10, var9, var8, var7);
-        var3 = _closure1_slot1;
-        var4 = _closure1_slot3;
-        var2 = 18;
-        var2 = var4[var2];
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.close;
-        var2 = var2.bind(var3)();
-        return var1;
-    };
-    var _closure1_slot28 = var4;
     var4 = {};
     var10 = var7.STEP_DISPLAY;
     var8 = {};
@@ -1753,7 +1753,7 @@ case 46:
     };
     var7['render'] = var9;
     var4[7] = var7;
-    var _closure1_slot29 = var4;
+    var _closure1_slot28 = var4;
     var4 = 48;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -1771,7 +1771,7 @@ case 46:
         var2 = var6[var2];
         var2 = var3.bind(var4)(var2);
         var1 = function() {
-            var6 = _closure1_slot30;
+            var6 = _closure1_slot29;
             var2 = _closure1_slot26;
             var10 = var2.FLOW_INITIALIZED;
             var2 = _closure1_slot26;
@@ -1794,7 +1794,7 @@ case 46:
         var1 = var2.bind(var4)(var1);
         var2 = var1.Navigator;
         var1 = {};
-        var6 = _closure1_slot29;
+        var6 = _closure1_slot28;
         var1['screens'] = var6;
         var5 = _closure1_slot25;
         var5 = var5.STEP_DISPLAY;

@@ -170,7 +170,7 @@ case 9:
     var2 = var5[var2];
     var11 = var6.bind(var1)(var2);
     var2 = {};
-    var8 = function APPLIED_GUILD_BOOST_COUNT_UPDATE(arg1) {
+    var8 = function handlePremiumCountUpdate(arg1) {
         var1 = arg1;
         var4 = var1.guildId;
         var3 = var1.premiumCount;

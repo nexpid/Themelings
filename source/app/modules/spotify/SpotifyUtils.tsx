@@ -457,30 +457,6 @@ case 58:
                 var _closure3_slot0 = var1;
                 var1 = arg2;
                 var _closure3_slot1 = var1;
-                var2 = global;
-                var7 = var2.setTimeout;
-                var6 = _closure1_slot11;
-                var1 = undefined;
-                var4 = function() {
-                    var4 = _closure1_slot6;
-                    var3 = var4.removeChangeListener;
-                    var2 = _closure3_slot3;
-                    var2 = var3.bind(var4)(var2);
-                    var3 = _closure3_slot1;
-                    var1 = global;
-                    var4 = var1.Error;
-                    var1 = var4.prototype;
-                    var2 = Object.create(var1, {constructor: {value: var4}});
-                    var5 = 'timeout launching spotify';
-                    var6 = var2;
-                    var1 = new var6[var4](var5, var4);
-                    var2 = var1 instanceof Object ? var1 : var2;
-                    var1 = undefined;
-                    var2 = var3.bind(var1)(var2);
-                    return var1;
-                };
-                var4 = var7.bind(var1)(var4, var6);
-                var _closure3_slot2 = var4;
                 var6 = function onSpotifyStoreChange() {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -565,6 +541,30 @@ case 63:
                     }
                 };
                 var _closure3_slot3 = var6;
+                var2 = global;
+                var8 = var2.setTimeout;
+                var7 = _closure1_slot11;
+                var1 = undefined;
+                var3 = function() {
+                    var4 = _closure1_slot6;
+                    var3 = var4.removeChangeListener;
+                    var2 = _closure3_slot3;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = _closure3_slot1;
+                    var1 = global;
+                    var4 = var1.Error;
+                    var1 = var4.prototype;
+                    var2 = Object.create(var1, {constructor: {value: var4}});
+                    var5 = 'timeout launching spotify';
+                    var6 = var2;
+                    var1 = new var6[var4](var5, var4);
+                    var2 = var1 instanceof Object ? var1 : var2;
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var3 = var8.bind(var1)(var3, var7);
+                var _closure3_slot2 = var3;
                 var4 = _closure1_slot6;
                 var3 = var4.addChangeListener;
                 var3 = var3.bind(var4)(var6);

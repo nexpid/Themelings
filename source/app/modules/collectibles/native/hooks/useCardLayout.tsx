@@ -7,14 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var4;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var6 = {};
-    var1 = true;
-    var6['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var6);
     var1 = function calculateTotalGaps(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
@@ -44,6 +36,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot4 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
     var1 = 2;
     var4 = var4[var1];
     var1 = undefined;
@@ -130,8 +130,8 @@ case 12:
             var4 = var1;
             if(!(var4 < var7)) { _fun0001_ip = 11; continue _fun0001 }
 case 13:
-            var11 = var1 + 1;
             var12 = _closure1_slot4;
+            var11 = var1 + 1;
             var12 = var12.bind(var2)(var11, var9, var6);
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;

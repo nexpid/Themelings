@@ -192,7 +192,7 @@ case 8:
         }
     };
     var3['UserProfileAnalyticsProvider'] = var4;
-    var4 = function(arg1) {
+    var4 = function useCreateUserProfileAnalyticsContext(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
@@ -287,7 +287,7 @@ case 21:
         }
     };
     var3['useCreateUserProfileAnalyticsContext'] = var4;
-    var2 = function() {
+    var2 = function useUserProfileAnalyticsContext() {
         var5 = _closure1_slot3;
         var4 = var5.useContext;
         var3 = _closure1_slot5;

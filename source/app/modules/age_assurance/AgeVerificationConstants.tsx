@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 'modules/age_assurance/AgeVerificationConstants.tsx';
     var8 = var9.bind(var10)(var8);
     var3['FULLSCREEN_AGE_VERIFICATION_ENTRY_POINTS'] = var7;
-    var6 = function(arg1) {
+    var6 = function getAgeVerificationGetStartedSteps(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var2 = {};

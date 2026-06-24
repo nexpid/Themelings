@@ -7,8 +7,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
-    var1 = function FilterFooter(arg1) {
+    var1 = function isFilterOptionEqual(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var3 = arg1;
+            var2 = arg2;
+            var4 = var3.group;
+            var1 = var2.group;
+            var1 = var4 === var1;
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = var3.filter;
+            var2 = var2.filter;
+            var1 = var3 === var2;
+case 2:
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var1;
+    var1 = function FilterFooter(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
             var18 = var1.onConfirm;
@@ -16,26 +34,26 @@ case 0:
             var5 = var1.onLayout;
             var6 = var1.inline;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!(var6 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var6 = false;
-case 2:
+case 4:
             var1 = _closure1_slot9;
             var11 = var1.bind(var4)();
             var3 = _closure1_slot7;
             var2 = _closure1_slot5;
             var1 = {};
-            if(var6) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var7 = var11.footer;
             var6 = new Array(2);
             var6[0] = var7;
             var7 = var11.content;
             var6[1] = var7;
-            _fun0001_ip = 6; continue _fun0001;
-case 4:
-            var6 = var11.footerInline;
+            _fun0002_ip = 8; continue _fun0002;
 case 6:
+            var6 = var11.footerInline;
+case 8:
             var1['style'] = var6;
             var1['onLayout'] = var5;
             var7 = _closure1_slot7;
@@ -178,24 +196,6 @@ case 6:
     var _closure1_slot9 = var4;
     var4 = new Array(0);
     var _closure1_slot10 = var4;
-    var4 = function isFilterOptionEqual(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var3 = arg1;
-            var2 = arg2;
-            var4 = var3.group;
-            var1 = var2.group;
-            var1 = var4 === var1;
-            if(!var1) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-            var3 = var3.filter;
-            var2 = var2.filter;
-            var1 = var3 === var2;
-case 7:
-            return var1;
-        }
-    };
-    var _closure1_slot11 = var4;
     var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

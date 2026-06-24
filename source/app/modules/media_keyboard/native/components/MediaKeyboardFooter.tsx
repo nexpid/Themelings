@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var9.bind(var10)(var5);
     var _closure1_slot8 = var5;
     var5 = var8.memo;
-    var4 = function(arg1) {
+    var4 = function MediaKeyboardFooter(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;

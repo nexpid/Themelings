@@ -116,50 +116,58 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var5 = var2.descriptors;
+            var3 = var2.descriptors;
             var7 = var2.isTabsVisible;
             var _closure2_slot0 = var7;
-            var2 = _closure1_slot12;
             var4 = undefined;
+            var _closure2_slot3 = var4;
+            var5 = function handleDismiss() {
+                var3 = _closure2_slot3;
+                var1 = undefined;
+                var2 = false;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var2 = _closure1_slot12;
             var14 = var2.bind(var4)();
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var2 = 7;
             var2 = var19[var2];
-            var3 = var18.bind(var4)(var2);
-            var2 = var3.useIsScreenReaderEnabled;
-            var10 = var2.bind(var3)();
-            var _closure2_slot1 = var10;
-            var3 = _closure1_slot1;
+            var6 = var18.bind(var4)(var2);
+            var2 = var6.useIsScreenReaderEnabled;
+            var15 = var2.bind(var6)();
+            var _closure2_slot1 = var15;
+            var6 = _closure1_slot1;
             var2 = 8;
             var2 = var19[var2];
-            var2 = var3.bind(var4)(var2);
+            var2 = var6.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var21 = var2.width;
             var2 = 9;
             var2 = var19[var2];
-            var6 = var18.bind(var4)(var2);
-            var2 = var6.useLaunchWelcomeNuxVisible;
-            var2 = var2.bind(var6)();
+            var8 = var18.bind(var4)(var2);
+            var2 = var8.useLaunchWelcomeNuxVisible;
+            var2 = var2.bind(var8)();
             var12 = var2.isNuxVisible;
             var _closure2_slot2 = var12;
             var2 = var2.setNuxVisible;
-            var _closure2_slot3 = var2;
+            _closure2_slot3 = var2;
             var2 = 10;
             var2 = var19[var2];
-            var2 = var3.bind(var4)(var2);
+            var2 = var6.bind(var4)(var2);
             var9 = var2.bind(var4)();
             var16 = 4;
             var2 = var19[var16];
-            var6 = var18.bind(var4)(var2);
-            var3 = var6.useSharedValue;
+            var8 = var18.bind(var4)(var2);
+            var6 = var8.useSharedValue;
             var2 = 0;
-            var15 = var3.bind(var6)(var2);
-            var _closure2_slot4 = var15;
-            var8 = _closure1_slot3;
-            var6 = var8.useEffect;
-            var3 = new Array(1);
-            var3[0] = var15;
+            var20 = var6.bind(var8)(var2);
+            var _closure2_slot4 = var20;
+            var10 = _closure1_slot3;
+            var8 = var10.useEffect;
+            var6 = new Array(1);
+            var6[0] = var20;
             var2 = function() {
                 var3 = _closure2_slot4;
                 var2 = var3.set;
@@ -214,11 +222,11 @@ case 0:
                 };
                 return var1;
             };
-            var2 = var6.bind(var8)(var2, var3);
+            var2 = var8.bind(var10)(var2, var6);
             var2 = var19[var16];
-            var6 = var18.bind(var4)(var2);
-            var3 = var6.useAnimatedStyle;
-            var2 = function A() {
+            var8 = var18.bind(var4)(var2);
+            var6 = var8.useAnimatedStyle;
+            var2 = function I() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -257,27 +265,27 @@ case 5:
                     return var1;
                 }
             };
-            var8 = {};
+            var10 = {};
             var17 = 11;
             var13 = var19[var17];
             var13 = var18.bind(var4)(var13);
             var13 = var13.withSpring;
-            var8['withSpring'] = var13;
-            var8['isNuxVisible'] = var12;
-            var8['isTabsVisible'] = var7;
+            var10['withSpring'] = var13;
+            var10['isNuxVisible'] = var12;
+            var10['isTabsVisible'] = var7;
             var13 = _closure1_slot6;
-            var8['MODE_CHANGE_PHYSICS'] = var13;
-            var8['isScreenReaderEnabled'] = var10;
-            var2['__closure'] = var8;
-            var8 = 60937156682.0;
-            var2['__workletHash'] = var8;
-            var8 = _closure1_slot13;
-            var2['__initData'] = var8;
-            var10 = var3.bind(var6)(var2);
+            var10['MODE_CHANGE_PHYSICS'] = var13;
+            var10['isScreenReaderEnabled'] = var15;
+            var2['__closure'] = var10;
+            var10 = 60937156682.0;
+            var2['__workletHash'] = var10;
+            var10 = _closure1_slot13;
+            var2['__initData'] = var10;
+            var10 = var6.bind(var8)(var2);
             var2 = var19[var16];
-            var6 = var18.bind(var4)(var2);
-            var3 = var6.useAnimatedStyle;
-            var2 = function D() {
+            var8 = var18.bind(var4)(var2);
+            var6 = var8.useAnimatedStyle;
+            var2 = function A() {
                 var1 = {};
                 var3 = _closure2_slot4;
                 var2 = var3.get;
@@ -287,20 +295,20 @@ case 5:
                 var1['height'] = var2;
                 return var1;
             };
-            var8 = {};
-            var20 = 79;
-            var8['LINE_HEIGHT'] = var20;
-            var8['animation'] = var15;
-            var2['__closure'] = var8;
-            var8 = 12238304514300.0;
-            var2['__workletHash'] = var8;
-            var8 = _closure1_slot14;
-            var2['__initData'] = var8;
-            var15 = var3.bind(var6)(var2);
+            var15 = {};
+            var22 = 79;
+            var15['LINE_HEIGHT'] = var22;
+            var15['animation'] = var20;
+            var2['__closure'] = var15;
+            var15 = 12238304514300.0;
+            var2['__workletHash'] = var15;
+            var15 = _closure1_slot14;
+            var2['__initData'] = var15;
+            var15 = var6.bind(var8)(var2);
             var2 = var19[var16];
             var6 = var18.bind(var4)(var2);
-            var3 = var6.useAnimatedProps;
-            var2 = function P() {
+            var2 = var6.useAnimatedProps;
+            var1 = function P() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -336,27 +344,20 @@ case 8:
             var8['isTabsVisible'] = var7;
             var8['isNuxVisible'] = var12;
             var8['MODE_CHANGE_PHYSICS'] = var13;
-            var2['__closure'] = var8;
+            var1['__closure'] = var8;
             var8 = 13587467032843.0;
-            var2['__workletHash'] = var8;
+            var1['__workletHash'] = var8;
             var8 = _closure1_slot15;
-            var2['__initData'] = var8;
-            var8 = var3.bind(var6)(var2);
-            var2 = global;
-            var3 = var2.Object;
-            var2 = var3.keys;
-            var2 = var2.bind(var3)(var5);
-            var20 = var2.length;
+            var1['__initData'] = var8;
+            var8 = var2.bind(var6)(var1);
+            var1 = global;
+            var2 = var1.Object;
+            var1 = var2.keys;
+            var1 = var1.bind(var2)(var3);
+            var20 = var1.length;
             var19 = 3;
             if(!(!(var20 <= var19))) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var5 = function handleDismiss() {
-                var3 = _closure2_slot3;
-                var1 = undefined;
-                var2 = false;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
             var3 = _closure1_slot7;
             var2 = _closure1_slot9;
             var1 = {};

@@ -7,63 +7,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
-    var2 = function showCoachmark(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 8;
-        var2 = var2[var1];
+    var1 = function _fetchVerificationForm() {
+        var5 = undefined;
         var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'USER_GUILD_JOIN_REQUEST_COACHMARK_SHOW';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['guildId'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var _closure1_slot10 = var2;
-    var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var4);
-    var1 = 0;
-    var4 = var7[var1];
-    var1 = undefined;
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var8 = var4.AnalyticEvents;
-    var _closure1_slot8 = var8;
-    var4 = var4.Endpoints;
-    var _closure1_slot9 = var4;
-    var4 = function() {
         var4 = _closure1_slot3;
-        var3 = undefined;
-        var2 = function* (arg1, arg2) {
+        var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -215,25 +163,21 @@ case 2:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot10 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var12 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot10 = var1;
+    var1 = function _updateVerificationForm() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = undefined;
-        var2 = function* (arg1, arg2, arg3, arg4) {
+        var3 = function* (arg1, arg2, arg3, arg4) {
             var1 = function* anon_0_(arg1, arg2, arg3, arg4) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -304,25 +248,21 @@ case 21:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot11 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var11 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot11 = var1;
+    var1 = function _updateVerificationFormDescription() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = undefined;
-        var2 = function* (arg1, arg2) {
+        var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -389,25 +329,21 @@ case 26:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot12 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var10 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot12 = var1;
+    var1 = function _enableVerificationForm() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = undefined;
-        var2 = function* (arg1, arg2) {
+        var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -454,21 +390,69 @@ case 31:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot13 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var9 = var4.bind(var1)();
+    var _closure1_slot13 = var1;
+    var2 = function showCoachmark(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 8;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'USER_GUILD_JOIN_REQUEST_COACHMARK_SHOW';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['guildId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var _closure1_slot14 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var8 = var4.AnalyticEvents;
+    var _closure1_slot8 = var8;
+    var4 = var4.Endpoints;
+    var _closure1_slot9 = var4;
     var4 = function() {
         var4 = _closure1_slot3;
         var3 = undefined;
@@ -571,7 +555,7 @@ case 52:
                     var13 = global;
                     var13 = var13.setTimeout;
                     var10 = function() {
-                        var3 = _closure1_slot10;
+                        var3 = _closure1_slot14;
                         var2 = _closure4_slot0;
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
@@ -764,9 +748,29 @@ case 35:
     };
     var8 = var4.bind(var1)();
     var4 = {};
-    var4['fetchVerificationForm'] = var12;
-    var4['updateVerificationForm'] = var11;
-    var11 = function updateVerificationFormFieldsLocal(arg1, arg2) {
+    var9 = function fetchVerificationForm() {
+        var1 = undefined;
+        var4 = _closure1_slot10;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var4['fetchVerificationForm'] = var9;
+    var9 = function updateVerificationForm() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var4['updateVerificationForm'] = var9;
+    var9 = function updateVerificationFormFieldsLocal(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 8;
@@ -788,9 +792,19 @@ case 35:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var4['updateVerificationFormFieldsLocal'] = var11;
-    var4['updateVerificationFormDescription'] = var10;
-    var10 = function updateVerificationFormDescriptionLocal(arg1, arg2) {
+    var4['updateVerificationFormFieldsLocal'] = var9;
+    var9 = function updateVerificationFormDescription() {
+        var1 = undefined;
+        var4 = _closure1_slot12;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var4['updateVerificationFormDescription'] = var9;
+    var9 = function updateVerificationFormDescriptionLocal(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 8;
@@ -812,7 +826,17 @@ case 35:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var4['updateVerificationFormDescriptionLocal'] = var10;
+    var4['updateVerificationFormDescriptionLocal'] = var9;
+    var9 = function enableVerificationForm() {
+        var1 = undefined;
+        var4 = _closure1_slot13;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
     var4['enableVerificationForm'] = var9;
     var4['submitVerificationForm'] = var8;
     var8 = function clearCoachmark() {

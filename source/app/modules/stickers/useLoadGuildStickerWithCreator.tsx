@@ -81,19 +81,10 @@ case 0:
             var2 = new Array(1);
             var2[0] = var1;
             var1 = function() {
-                var2 = global;
-                var2 = var2.AbortController;
-                var3 = var2.prototype;
-                var3 = Object.create(var3, {constructor: {value: var2}});
-                var4 = var3;
-                var2 = new var4[var2](var3);
-                var2 = var2 instanceof Object ? var2 : var3;
-                var _closure3_slot0 = var2;
-                var2 = var2.signal;
-                var _closure3_slot1 = var2;
-                var2 = function() {
-                    var4 = _closure1_slot2;
-                    var3 = undefined;
+                var2 = function _fetch() {
+                    var4 = undefined;
+                    var1 = undefined;
+                    var3 = _closure1_slot2;
                     var2 = function* () {
                         var1 = function* anon_0_() {
                             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -145,23 +136,38 @@ case 2:
                         };
                         return var1;
                     };
-                    var2 = var4.bind(var3)(var2);
-                    var _closure4_slot0 = var2;
-                    var1 = function() {
-                        var1 = undefined;
-                        var4 = _closure4_slot0;
-                        var3 = var4.apply;
-                        var1 = arguments;
-                        var2 = var1;
-                        var1 = this;
-                        var1 = var3.bind(var4)(var1, var2);
-                        return var1;
-                    };
+                    var4 = var3.bind(var4)(var2);
+                    _closure3_slot2 = var4;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
                     return var1;
                 };
-                var3 = undefined;
-                var2 = var2.bind(var3)();
-                var2 = var2.bind(var3)();
+                var _closure3_slot2 = var2;
+                var2 = global;
+                var2 = var2.AbortController;
+                var3 = var2.prototype;
+                var3 = Object.create(var3, {constructor: {value: var2}});
+                var4 = var3;
+                var2 = new var4[var2](var3);
+                var2 = var2 instanceof Object ? var2 : var3;
+                var _closure3_slot0 = var2;
+                var2 = var2.signal;
+                var _closure3_slot1 = var2;
+                var3 = function fetch() {
+                    var1 = undefined;
+                    var4 = _closure3_slot2;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
+                };
+                var2 = undefined;
+                var2 = var3.bind(var2)();
                 var1 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:

@@ -409,7 +409,7 @@ case 33:
     var11 = var12.bind(var13)(var11);
     var3['getGuildMemberAgeInRange'] = var10;
     var3['useGuildMemberAgeInRange'] = var9;
-    var9 = function(arg1, arg2) {
+    var9 = function useNewMemberBadge(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var8 = arg1;

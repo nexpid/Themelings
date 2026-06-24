@@ -236,7 +236,7 @@ case 9:
     var4 = var7[var4];
     var13 = var5.bind(var1)(var4);
     var4 = {};
-    var5 = function VOICE_CHANNEL_EFFECT_CLEAR(arg1) {
+    var5 = function handleClearVoiceChannelEffect(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -254,7 +254,7 @@ case 11:
         }
     };
     var4['VOICE_CHANNEL_EFFECT_CLEAR'] = var5;
-    var5 = function VOICE_CHANNEL_EFFECT_RECENT_EMOJI(arg1) {
+    var5 = function handleAddRecentlyUsedEmojis(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
@@ -291,7 +291,7 @@ case 13:
         }
     };
     var4['VOICE_CHANNEL_EFFECT_RECENT_EMOJI'] = var5;
-    var5 = function VOICE_CHANNEL_EFFECT_SEND(arg1) {
+    var5 = function handleReceivedVoiceChannelEffect(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
@@ -393,7 +393,7 @@ case 19:
         }
     };
     var4['VOICE_CHANNEL_EFFECT_SENT_LOCAL'] = var5;
-    var5 = function VOICE_CHANNEL_EFFECT_UPDATE_TIME_STAMP(arg1) {
+    var5 = function handleTimestampUpdate(arg1) {
         var1 = arg1;
         var2 = var1.cooldownEndsAtMs;
         var1 = global;
@@ -425,7 +425,7 @@ case 19:
     var5 = 'modules/voice_channel_effects/VoiceChannelEffectsStore.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var2 = function(arg1) {
+    var2 = function clearVoiceChannelEffectForUser(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = arg1;

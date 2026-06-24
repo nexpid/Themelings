@@ -91,7 +91,38 @@ case 0:
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
-            var _closure2_slot4 = var4;
+            var14 = function handleClose() {
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var1 = 11;
+                var2 = var4[var1];
+                var1 = undefined;
+                var7 = var3.bind(var1)(var2);
+                var5 = var7.hideActionSheet;
+                var2 = _closure1_slot5;
+                var2 = var5.bind(var7)(var2);
+                var2 = 12;
+                var2 = var4[var2];
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.track;
+                var2 = _closure1_slot6;
+                var3 = var2.BOOSTING_UPSELL_CLICKED;
+                var2 = {};
+                var8 = _closure2_slot0;
+                var8 = var8.guild_id;
+                var2['guild_id'] = var8;
+                var8 = _closure1_slot12;
+                var8 = var8.VIDEO_STAGE_LIMIT;
+                var2['type'] = var8;
+                var7 = _closure2_slot1;
+                var2['is_moderator'] = var7;
+                var6 = _closure1_slot11;
+                var6 = var6.DISMISS;
+                var2['action'] = var6;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
+            };
+            var _closure2_slot4 = var14;
             var2 = _closure1_slot16;
             var15 = var2.bind(var4)();
             var3 = _closure1_slot0;
@@ -238,38 +269,6 @@ case 24:
 case 26:
             var13 = var2;
 case 23:
-            var14 = function handleClose() {
-                var3 = _closure1_slot1;
-                var4 = _closure1_slot2;
-                var1 = 11;
-                var2 = var4[var1];
-                var1 = undefined;
-                var7 = var3.bind(var1)(var2);
-                var5 = var7.hideActionSheet;
-                var2 = _closure1_slot5;
-                var2 = var5.bind(var7)(var2);
-                var2 = 12;
-                var2 = var4[var2];
-                var5 = var3.bind(var1)(var2);
-                var4 = var5.track;
-                var2 = _closure1_slot6;
-                var3 = var2.BOOSTING_UPSELL_CLICKED;
-                var2 = {};
-                var8 = _closure2_slot0;
-                var8 = var8.guild_id;
-                var2['guild_id'] = var8;
-                var8 = _closure1_slot12;
-                var8 = var8.VIDEO_STAGE_LIMIT;
-                var2['type'] = var8;
-                var7 = _closure2_slot1;
-                var2['is_moderator'] = var7;
-                var6 = _closure1_slot11;
-                var6 = var6.DISMISS;
-                var2['action'] = var6;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            };
-            _closure2_slot2 = var14;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 13;
@@ -278,7 +277,7 @@ case 23:
             var9 = var11.useActualStageSpeakerCount;
             var5 = var1.id;
             var5 = var9.bind(var11)(var5);
-            _closure2_slot3 = var5;
+            _closure2_slot2 = var5;
             var3 = var8[var3];
             var9 = var2.bind(var4)(var3);
             var5 = var9.useStageParticipantsCount;
@@ -289,7 +288,7 @@ case 23:
             var1 = var1.StageChannelParticipantNamedIndex;
             var1 = var1.AUDIENCE;
             var1 = var5.bind(var9)(var3, var1);
-            _closure2_slot4 = var1;
+            _closure2_slot3 = var1;
             var16 = _closure1_slot1;
             var1 = 15;
             var1 = var8[var1];
@@ -313,8 +312,8 @@ case 23:
                 var2['type'] = var7;
                 var7 = _closure2_slot1;
                 var2['is_moderator'] = var7;
-                var7 = _closure2_slot3;
-                var6 = _closure2_slot4;
+                var7 = _closure2_slot2;
+                var6 = _closure2_slot3;
                 var6 = var7 + var6;
                 var2['listener_count'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
@@ -473,7 +472,7 @@ case 36:
             var16 = var17.bind(var20)(var16);
             var10['text'] = var16;
             var12 = function onPress() {
-                var2 = _closure2_slot2;
+                var2 = _closure2_slot4;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var3 = _closure1_slot0;

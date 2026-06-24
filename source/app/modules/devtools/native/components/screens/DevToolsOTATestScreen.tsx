@@ -542,7 +542,7 @@ case 18:
             var27 = 'Root Path (tap to copy)';
             var15['label'] = var27;
             var15['subLabel'] = var23;
-            var23 = function onPress() {
+            var23 = function copyRootPath() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 17;

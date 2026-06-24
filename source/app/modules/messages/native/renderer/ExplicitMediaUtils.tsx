@@ -5,25 +5,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
-    var1 = function getSpoilerDescriptionForType(arg1) {
+    var1 = function getContentScanVersionFromMedia(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.content_scan_version;
+            var2 = undefined;
+            if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = var1.contentScanVersion;
+            var2 = undefined;
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var2 = var1.contentScanVersion;
+case 4:
+            return var2;
+case 2:
+            var1 = var1.content_scan_version;
+            return var1;
+        }
+    };
+    var _closure1_slot3 = var1;
+    var1 = function getSpoilerDescriptionForType(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
             var1 = 'image';
-            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = 'video';
-            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var1 = 'file';
-            if(!(var1 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+            if(!(var1 !== var2)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var1 = 'generic';
-            if(!(var1 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+            var1 = 'video';
+            if(!(var1 !== var2)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
+            var1 = 'file';
+            if(!(var1 !== var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 4:
+            var1 = 'generic';
+            if(!(var1 !== var2)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var1 = undefined;
             return var1;
-case 8:
+case 11:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 5;
@@ -38,7 +59,7 @@ case 8:
             var1 = var1.G71b77;
             var1 = var2.bind(var3)(var1);
             return var1;
-case 6:
+case 10:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 5;
@@ -53,7 +74,7 @@ case 6:
             var1 = var1["3Gc2XP"];
             var1 = var2.bind(var3)(var1);
             return var1;
-case 4:
+case 8:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 5;
@@ -68,7 +89,7 @@ case 4:
             var1 = var1.ehBaMc;
             var1 = var2.bind(var3)(var1);
             return var1;
-case 2:
+case 6:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 5;
@@ -100,27 +121,6 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageAttachmentFlags;
     var _closure1_slot2 = var4;
-    var4 = function getContentScanVersionFromMedia(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var1 = arg1;
-            var3 = var1.content_scan_version;
-            var2 = undefined;
-            if(!(var2 === var3)) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            var3 = var1.contentScanVersion;
-            var2 = undefined;
-            if(!(var2 !== var3)) { _fun0002_ip = 7; continue _fun0002 }
-case 12:
-            var2 = var1.contentScanVersion;
-case 7:
-            return var2;
-case 10:
-            var1 = var1.content_scan_version;
-            return var1;
-        }
-    };
-    var _closure1_slot3 = var4;
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

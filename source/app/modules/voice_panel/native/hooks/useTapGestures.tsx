@@ -170,7 +170,7 @@ case 11:
                 var2 = var3.numberOfTaps;
                 var6 = var2.bind(var3)(var9);
                 var3 = var6.onTouchesDown;
-                var2 = function O(arg1, arg2) {
+                var2 = function S(arg1, arg2) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var2 = arg2;
@@ -196,7 +196,7 @@ case 13:
                 var2['__initData'] = var11;
                 var15 = var3.bind(var6)(var2);
                 var14 = var15.onStart;
-                var3 = function h() {
+                var3 = function v() {
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 3;

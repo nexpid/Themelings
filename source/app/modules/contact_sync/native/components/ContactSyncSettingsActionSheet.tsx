@@ -154,11 +154,11 @@ case 2:
             var10 = var3.bind(var4)(var11, var10);
             var6['label'] = var10;
             var10 = function onPress() {
-                var3 = _closure1_slot5;
                 var1 = _closure2_slot2;
-                var2 = !var1;
+                var3 = !var1;
+                var2 = _closure1_slot5;
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
+                var2 = var2.bind(var1)(var3);
                 return var1;
             };
             var6['onPress'] = var10;
@@ -311,11 +311,11 @@ case 2:
             var16 = var3.bind(var4)(var18, var16);
             var10['subLabel'] = var16;
             var16 = function onPress() {
-                var3 = _closure1_slot4;
                 var1 = _closure2_slot0;
-                var2 = !var1;
+                var3 = !var1;
+                var2 = _closure1_slot4;
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
+                var2 = var2.bind(var1)(var3);
                 return var1;
             };
             var10['onPress'] = var16;
@@ -371,11 +371,11 @@ case 2:
             var15 = var3.bind(var4)(var16, var15);
             var10['subLabel'] = var15;
             var13 = function onPress() {
-                var3 = _closure1_slot3;
                 var1 = _closure2_slot1;
-                var2 = !var1;
+                var3 = !var1;
+                var2 = _closure1_slot3;
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
+                var2 = var2.bind(var1)(var3);
                 return var1;
             };
             var10['onPress'] = var13;

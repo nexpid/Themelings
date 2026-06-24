@@ -47,9 +47,10 @@ case 4:
     };
     var _closure1_slot14 = var1;
     var1 = function showNotification() {
-        var3 = function() {
-            var4 = _closure1_slot8;
-            var3 = undefined;
+        var1 = function _getLastPhoto() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot8;
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -136,26 +137,20 @@ case 6:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot0 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var1 = undefined;
-        var3 = var3.bind(var1)();
-        var _closure2_slot0 = var3;
-        var3 = global;
-        var4 = var3.setTimeout;
+        var _closure2_slot0 = var1;
+        var1 = global;
+        var4 = var1.setTimeout;
         var3 = _closure1_slot8;
+        var1 = undefined;
         var2 = function* () {
             var1 = function* anon_0_() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -163,40 +158,49 @@ case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 24; continue _fun0003 }
-case 7:
-                    var2 = _closure2_slot0;
+case 25:
+                    var2 = function getLastPhoto() {
+                        var1 = undefined;
+                        var4 = _closure2_slot0;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
+                    };
                     var3 = undefined;
                     var2 = var2.bind(var3)();
-                    SaveGenerator(address=27);
-case 25:
-                    return var2;
+                    SaveGenerator(address=29);
 case 26:
+                    return var2;
+case 27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+                    if(var4) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                     var5 = _closure1_slot1;
-                    var8 = _closure1_slot2;
+                    var10 = _closure1_slot2;
                     var4 = 11;
-                    var4 = var8[var4];
+                    var4 = var10[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.enqueueNotification;
                     var4 = {'type': 'BUG_REPORTER', 'duration': 5000};
-                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot0;
                     var9 = 12;
-                    var8 = var8[var9];
-                    var10 = var10.bind(var3)(var8);
-                    var8 = var10.v4;
-                    var8 = var8.bind(var10)();
-                    var4['key'] = var8;
+                    var10 = var10[var9];
+                    var11 = var11.bind(var3)(var10);
+                    var10 = var11.v4;
+                    var10 = var10.bind(var11)();
+                    var4['key'] = var10;
                     var4['image'] = var2;
-                    var8 = null;
-                    var10 = var8 == var2;
-                    var8 = undefined;
-                    if(var10) { _fun0003_ip = 29; continue _fun0003 }
+                    var10 = null;
+                    var11 = var10 == var2;
+                    var10 = undefined;
+                    if(var11) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
+                    var10 = var2.uri;
 case 30:
-                    var8 = var2.uri;
-case 29:
-                    var4['imageUri'] = var8;
+                    var4['imageUri'] = var10;
                     var8 = function onDismiss() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
@@ -218,7 +222,7 @@ case 29:
                     var4['inAppNotificationId'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
-case 27:
+case 28:
                     return var2;
 case 24:
                     return var1;
@@ -305,14 +309,14 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot14;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+                if(var1) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0004_ip = 33; continue _fun0004;
-case 31:
+                _fun0004_ip = 34; continue _fun0004;
+case 32:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -321,7 +325,7 @@ case 31:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 33:
+case 34:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -335,7 +339,7 @@ case 33:
         var5 = {};
         var1 = '_initialize';
         var5['key'] = var1;
-        var1 = function value() {
+        var1 = function _initialize() {
             var2 = this;
             var1 = var2.initBugReporter;
             var1 = var1.bind(var2)();
@@ -348,16 +352,16 @@ case 33:
         var5 = {};
         var8 = '_terminate';
         var5['key'] = var8;
-        var8 = function value() {
+        var8 = function _terminate() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var3 = _closure1_slot12;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+                if(!(var1 != var3)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                 var1 = var3.remove;
                 var1 = var1.bind(var3)();
-case 34:
+case 35:
                 var1 = undefined;
                 var _closure1_slot12 = var1;
                 return var1;
@@ -375,18 +379,18 @@ case 34:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 36; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 37; continue _fun0006 }
 case 7:
                     var2 = _closure1_slot9;
                     var3 = var2.NativePermissionManager;
                     var2 = var3.hasPhotoAuthorization;
                     var2 = var2.bind(var3)();
                     SaveGenerator(address=39);
-case 37:
-                    return var2;
 case 38:
+                    return var2;
+case 39:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 39; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 40; continue _fun0006 }
 case 9:
                     var3 = _closure1_slot11;
                     var3 = var3.AUTHORIZED;
@@ -405,14 +409,14 @@ case 9:
                     var4['location'] = var10;
                     var4 = var8.bind(var9)(var4);
                     var4 = var4.hasBugReporterAccess;
-                    if(!var4) { _fun0006_ip = 40; continue _fun0006 }
-case 41:
-                    var4 = var7;
-case 40:
-                    if(!var4) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
-                    var4 = var6;
+                    if(!var4) { _fun0006_ip = 41; continue _fun0006 }
 case 42:
+                    var4 = var7;
+case 41:
+                    if(!var4) { _fun0006_ip = 43; continue _fun0006 }
+case 30:
+                    var4 = var6;
+case 43:
                     if(!var4) { _fun0006_ip = 44; continue _fun0006 }
 case 45:
                     var6 = _closure1_slot12;
@@ -427,9 +431,9 @@ case 46:
                     _closure1_slot12 = var4;
 case 44:
                     return var3;
-case 39:
+case 40:
                     return var2;
-case 36:
+case 37:
                     return var1;
                 }
             };

@@ -500,7 +500,7 @@ case 40:
                     var3 = _closure2_slot1;
                     var5 = _closure2_slot12;
                     var4 = _closure2_slot4;
-                    var1 = function(arg1, arg2) {
+                    var1 = function heightForSections(arg1, arg2) {
                         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                             var5 = arg1;

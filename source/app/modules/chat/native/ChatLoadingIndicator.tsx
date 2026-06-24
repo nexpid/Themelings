@@ -7,6 +7,90 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
+    var1 = function openLoadingIndicatorDebugBody() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var3 = _closure1_slot10;
+            var2 = var3.getCurrentUser;
+            var5 = var2.bind(var3)();
+            var3 = null;
+            var2 = var3 != var5;
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = var5.isStaff;
+            var2 = var4.bind(var5)();
+case 2:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var3 = var3 != var5;
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var4 = var5.isStaffPersonal;
+            var3 = var4.bind(var5)();
+case 6:
+            var2 = var3;
+case 4:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 13;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.openLazy;
+            var1 = {};
+            var4 = function importer() {
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var2 = 15;
+                var2 = var1[var2];
+                var4 = undefined;
+                var3 = var3.bind(var4)(var2);
+                var2 = 14;
+                var2 = var1[var2];
+                var1 = var1.paths;
+                var3 = var3.bind(var4)(var2, var1);
+                var2 = var3.then;
+                var1 = function(arg1) {
+                    var2 = arg1;
+                    var2 = var2.default;
+                    var _closure4_slot0 = var2;
+                    var1 = function(arg1) {
+                        var4 = _closure1_slot13;
+                        var3 = _closure4_slot0;
+                        var2 = {};
+                        var8 = arg1;
+                        var9 = var2;
+                        var5 = copyDataProperties(var9, var8);
+                        var6 = 'Chat Loading indicator';
+                        var5 = 'title';
+                        var2[4] = var6;
+                        var7 = _closure1_slot13;
+                        var6 = _closure1_slot17;
+                        var1 = undefined;
+                        var5 = {};
+                        var6 = var7.bind(var1)(var6, var5);
+                        var5 = 'children';
+                        var2[4] = var6;
+                        var1 = var4.bind(var1)(var3, var2);
+                        return var1;
+                    };
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var1['importer'] = var4;
+            var4 = true;
+            var1['isDismissable'] = var4;
+            var1 = var2.bind(var3)(var1);
+case 8:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var _closure1_slot19 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -90,89 +174,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['pulse'] = var10;
     var4 = var7.bind(var9)(var4);
     var _closure1_slot16 = var4;
-    var4 = function openLoadingIndicatorDebugBody() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var3 = _closure1_slot10;
-            var2 = var3.getCurrentUser;
-            var5 = var2.bind(var3)();
-            var3 = null;
-            var2 = var3 != var5;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = var5.isStaff;
-            var2 = var4.bind(var5)();
-case 2:
-            if(var2) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var3 = var3 != var5;
-            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var4 = var5.isStaffPersonal;
-            var3 = var4.bind(var5)();
-case 6:
-            var2 = var3;
-case 4:
-            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 13;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.openLazy;
-            var1 = {};
-            var4 = function importer() {
-                var3 = _closure1_slot0;
-                var1 = _closure1_slot2;
-                var2 = 15;
-                var2 = var1[var2];
-                var4 = undefined;
-                var3 = var3.bind(var4)(var2);
-                var2 = 14;
-                var2 = var1[var2];
-                var1 = var1.paths;
-                var3 = var3.bind(var4)(var2, var1);
-                var2 = var3.then;
-                var1 = function(arg1) {
-                    var2 = arg1;
-                    var2 = var2.default;
-                    var _closure4_slot0 = var2;
-                    var1 = function(arg1) {
-                        var4 = _closure1_slot13;
-                        var3 = _closure4_slot0;
-                        var2 = {};
-                        var7 = arg1;
-                        var8 = var2;
-                        var5 = copyDataProperties(var8, var7);
-                        var6 = 'Chat Loading indicator';
-                        var5 = 'title';
-                        var2[4] = var6;
-                        var6 = _closure1_slot18;
-                        var1 = undefined;
-                        var5 = {};
-                        var6 = var4.bind(var1)(var6, var5);
-                        var5 = 'children';
-                        var2[4] = var6;
-                        var1 = var4.bind(var1)(var3, var2);
-                        return var1;
-                    };
-                    return var1;
-                };
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var1['importer'] = var4;
-            var4 = true;
-            var1['isDismissable'] = var4;
-            var1 = var2.bind(var3)(var1);
-case 8:
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var _closure1_slot17 = var4;
     var7 = var8.memo;
     var4 = function() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -335,11 +336,11 @@ case 23:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot18 = var4;
+    var _closure1_slot17 = var4;
     var4 = {};
     var7 = 'function ChatLoadingIndicatorTsx1(){const{useReducedMotion,withRepeat,withSequence,withTiming,Easing}=this.__closure;if(useReducedMotion){return{transform:[]};}return{transform:[{scale:withRepeat(withSequence(withTiming(1,{duration:0}),withTiming(0.5,{duration:1500,easing:Easing.bezier(0.4,0,0.2,1)}),withTiming(1,{duration:1500,easing:Easing.bezier(0.4,0,0.2,1)})),-1)}]};}';
     var4['code'] = var7;
-    var _closure1_slot19 = var4;
+    var _closure1_slot18 = var4;
     var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -482,7 +483,7 @@ case 33:
 case 0:
             var2 = _closure1_slot16;
             var5 = undefined;
-            var9 = var2.bind(var5)();
+            var10 = var2.bind(var5)();
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
             var2 = 16;
@@ -497,8 +498,8 @@ case 0:
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var10 = var6.bind(var8)(var4, var3);
-            var _closure2_slot0 = var10;
+            var9 = var6.bind(var8)(var4, var3);
+            var _closure2_slot0 = var9;
             var2 = var15[var2];
             var6 = var14.bind(var5)(var2);
             var4 = var6.useStateFromStores;
@@ -619,49 +620,50 @@ case 41:
                 }
             };
             var8 = {};
-            var8['useReducedMotion'] = var10;
-            var10 = var15[var6];
-            var10 = var14.bind(var5)(var10);
-            var10 = var10.withRepeat;
-            var8['withRepeat'] = var10;
-            var10 = var15[var6];
-            var10 = var14.bind(var5)(var10);
-            var10 = var10.withSequence;
-            var8['withSequence'] = var10;
-            var10 = 20;
-            var10 = var15[var10];
-            var10 = var14.bind(var5)(var10);
-            var10 = var10.withTiming;
-            var8['withTiming'] = var10;
-            var10 = var15[var6];
-            var10 = var14.bind(var5)(var10);
-            var10 = var10.Easing;
-            var8['Easing'] = var10;
+            var8['useReducedMotion'] = var9;
+            var9 = var15[var6];
+            var9 = var14.bind(var5)(var9);
+            var9 = var9.withRepeat;
+            var8['withRepeat'] = var9;
+            var9 = var15[var6];
+            var9 = var14.bind(var5)(var9);
+            var9 = var9.withSequence;
+            var8['withSequence'] = var9;
+            var9 = 20;
+            var9 = var15[var9];
+            var9 = var14.bind(var5)(var9);
+            var9 = var9.withTiming;
+            var8['withTiming'] = var9;
+            var9 = var15[var6];
+            var9 = var14.bind(var5)(var9);
+            var9 = var9.Easing;
+            var8['Easing'] = var9;
             var1['__closure'] = var8;
             var8 = 17454673879926.0;
             var1['__workletHash'] = var8;
-            var8 = _closure1_slot19;
+            var8 = _closure1_slot18;
             var1['__initData'] = var8;
             var11 = var3.bind(var4)(var1);
             var4 = _closure1_slot14;
             var3 = _closure1_slot5;
             var1 = {};
-            var8 = var9.container;
+            var8 = var10.container;
             var1['style'] = var8;
-            var10 = _closure1_slot13;
+            var9 = _closure1_slot13;
             var8 = _closure1_slot1;
             var6 = var15[var6];
             var6 = var8.bind(var5)(var6);
             var8 = var6.View;
             var6 = {};
-            var12 = var9.pulse;
-            var9 = new Array(2);
-            var9[0] = var12;
-            var9[1] = var11;
-            var6['style'] = var9;
-            var8 = var10.bind(var5)(var8, var6);
+            var12 = var10.pulse;
+            var10 = new Array(2);
+            var10[0] = var12;
+            var10[1] = var11;
+            var6['style'] = var10;
+            var8 = var9.bind(var5)(var8, var6);
             var6 = new Array(2);
             var6[0] = var8;
+            var10 = _closure1_slot13;
             var8 = 17;
             var8 = var15[var8];
             var8 = var14.bind(var5)(var8);
@@ -693,7 +695,7 @@ case 43:
             var2 = var3.bind(var5)(var2);
             var3 = var2.PressableOpacity;
             var2 = {};
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot19;
             var2['onPress'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);

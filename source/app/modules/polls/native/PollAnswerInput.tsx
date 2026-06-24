@@ -371,12 +371,6 @@ case 0:
             var _closure2_slot6 = var3;
             var25 = var2.onSubmitEditing;
             var10 = var2.error;
-            var2 = _closure1_slot15;
-            var4 = undefined;
-            var18 = var2.bind(var4)();
-            var21 = var1.image;
-            var22 = var1.localCreationAnswerId;
-            var _closure2_slot7 = var22;
             var20 = function openExpressionPicker() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -421,7 +415,7 @@ case 27:
                 }
             };
             var _closure2_slot8 = var20;
-            var1 = function handleSaveAltText(arg1) {
+            var2 = function handleSaveAltText(arg1) {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 15;
@@ -442,7 +436,13 @@ case 27:
                 var2 = var13[var6](var12, var11, var10, var9, var8);
                 return var1;
             };
-            var _closure2_slot9 = var1;
+            var _closure2_slot9 = var2;
+            var2 = _closure1_slot15;
+            var4 = undefined;
+            var18 = var2.bind(var4)();
+            var21 = var1.image;
+            var22 = var1.localCreationAnswerId;
+            var _closure2_slot7 = var22;
             var1 = null;
             var6 = var1 != var10;
             if(!var6) { _fun0003_ip = 28; continue _fun0003 }

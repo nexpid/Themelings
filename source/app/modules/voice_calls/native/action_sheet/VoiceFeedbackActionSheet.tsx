@@ -7,6 +7,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
+    var1 = function trackOpen() {
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 4;
+        var3 = var3[var1];
+        var1 = undefined;
+        var5 = var4.bind(var1)(var3);
+        var4 = var5.track;
+        var2 = _closure1_slot3;
+        var3 = var2.OPEN_POPOUT;
+        var2 = {};
+        var6 = 'Call Session Feedback';
+        var2['type'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var _closure1_slot11 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -45,23 +62,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot10 = var4;
-    var4 = function trackOpen() {
-        var4 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 4;
-        var3 = var3[var1];
-        var1 = undefined;
-        var5 = var4.bind(var1)(var3);
-        var4 = var5.track;
-        var2 = _closure1_slot3;
-        var3 = var2.OPEN_POPOUT;
-        var2 = {};
-        var6 = 'Call Session Feedback';
-        var2['type'] = var6;
-        var2 = var4.bind(var5)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot11 = var4;
     var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -1,45 +1,15 @@
 // app/modules/game_profile/hooks/useShouldOpenGameProfileModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var5 = metroImportDefault;
-    var8 = metroImportAll;
+    var8 = metroImportDefault;
+    var9 = metroImportAll;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var5;
-    var _closure1_slot2 = var8;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var9;
     var _closure1_slot3 = var7;
-    var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var4);
-    var1 = 0;
-    var4 = var7[var1];
-    var1 = undefined;
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 1;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 2;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot6 = var4;
-    var4 = {};
-    var5 = 'no match';
-    var4['NoMatch'] = var5;
-    var5 = 'nsfw';
-    var4['NSFW'] = var5;
-    var5 = 'profile disabled';
-    var4['Disabled'] = var5;
-    var _closure1_slot7 = var4;
-    var4 = function getRejectionReasons(arg1) {
+    var1 = function getRejectionReasons(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -95,7 +65,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot8 = var1;
     var4 = function gameIsAcceptable(arg1) {
         var3 = _closure1_slot8;
         var2 = undefined;
@@ -107,13 +77,43 @@ case 2:
         return var1;
     };
     var _closure1_slot9 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.AnalyticEvents;
+    var _closure1_slot6 = var5;
+    var5 = {};
+    var8 = 'no match';
+    var5['NoMatch'] = var8;
+    var8 = 'nsfw';
+    var5['NSFW'] = var8;
+    var8 = 'profile disabled';
+    var5['Disabled'] = var8;
+    var _closure1_slot7 = var5;
     var5 = 9;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/game_profile/hooks/useShouldOpenGameProfileModal.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function _default(arg1) {
+    var5 = function useShouldOpenGameProfileModal(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -233,7 +233,7 @@ case 12:
     };
     var3['default'] = var5;
     var3['gameIsAcceptable'] = var4;
-    var2 = function(arg1) {
+    var2 = function gameIdIsAcceptable(arg1) {
         var3 = _closure1_slot9;
         var4 = _closure1_slot5;
         var2 = var4.getGame;

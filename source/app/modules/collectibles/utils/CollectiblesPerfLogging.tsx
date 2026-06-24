@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/collectibles/utils/CollectiblesPerfLogging.tsx';
     var5 = var6.bind(var7)(var5);
     var3['CollectiblesShopPerfCheckpoint'] = var4;
-    var2 = function(arg1) {
+    var2 = function trackShopPerf(arg1) {
         var1 = arg1;
         var10 = var1.sessionId;
         var9 = var1.checkpoint;

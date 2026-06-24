@@ -317,34 +317,18 @@ case 33:
     };
     var _closure1_slot29 = var9;
     var8 = function GuildEventJoinAndRSVPAction(arg1) {
-        var2 = arg1;
-        var6 = var2.event;
+        var1 = arg1;
+        var6 = var1.event;
         var _closure2_slot0 = var6;
-        var3 = var2.recurrenceId;
-        var2 = _closure1_slot27;
+        var2 = var1.recurrenceId;
         var4 = undefined;
-        var3 = var2.bind(var4)(var6, var3);
-        var2 = _closure1_slot4;
-        var9 = 2;
-        var2 = var2.bind(var4)(var3, var9);
-        var5 = 0;
-        var3 = var2[var5];
-        var _closure2_slot1 = var3;
-        var3 = 1;
-        var2 = var2[var3];
-        var _closure2_slot2 = var2;
-        var10 = _closure1_slot5;
-        var8 = var10.useState;
-        var2 = false;
-        var8 = var8.bind(var10)(var2);
-        var2 = _closure1_slot4;
-        var2 = var2.bind(var4)(var8, var9);
-        var8 = var2[var5];
-        var2 = var2[var3];
-        var _closure2_slot3 = var2;
-        var1 = function() {
-            var4 = _closure1_slot3;
-            var3 = undefined;
+        var _closure2_slot1 = var4;
+        var _closure2_slot2 = var4;
+        var _closure2_slot3 = var4;
+        var1 = function _handleJoinGuild() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot3;
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -421,21 +405,36 @@ case 34:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot4 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var5 = var1.bind(var4)();
+        var _closure2_slot4 = var1;
+        var1 = _closure1_slot27;
+        var2 = var1.bind(var4)(var6, var2);
+        var1 = _closure1_slot4;
+        var9 = 2;
+        var1 = var1.bind(var4)(var2, var9);
+        var3 = 0;
+        var2 = var1[var3];
+        _closure2_slot1 = var2;
+        var2 = 1;
+        var1 = var1[var2];
+        _closure2_slot2 = var1;
+        var10 = _closure1_slot5;
+        var8 = var10.useState;
+        var1 = false;
+        var8 = var8.bind(var10)(var1);
+        var1 = _closure1_slot4;
+        var1 = var1.bind(var4)(var8, var9);
+        var8 = var1[var3];
+        var1 = var1[var2];
+        _closure2_slot3 = var1;
         var3 = _closure1_slot22;
         var2 = _closure1_slot1;
         var11 = _closure1_slot2;
@@ -475,6 +474,16 @@ case 34:
         var6 = ', ';
         var6 = var8.bind(var7)(var10, var6, var9);
         var1['accessibilityLabel'] = var6;
+        var5 = function handleJoinGuild() {
+            var1 = undefined;
+            var4 = _closure2_slot4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var1['onPress'] = var5;
         var5 = true;
         var1['grow'] = var5;
@@ -910,7 +919,7 @@ case 51:
     var11[var14] = var7;
     var _closure1_slot26 = var11;
     var14 = var17.memo;
-    var7 = function(arg1) {
+    var7 = function GuildEventCardPrimaryAction(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
@@ -1101,7 +1110,7 @@ case 70:
             var11 = ', ';
             var11 = var13.bind(var12)(var15, var11, var14);
             var1['accessibilityLabel'] = var11;
-            var11 = function onPress() {
+            var11 = function handleEndEvent() {
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var1 = 36;
@@ -1261,7 +1270,7 @@ case 66:
             var11 = ', ';
             var11 = var13.bind(var12)(var15, var11, var14);
             var1['accessibilityLabel'] = var11;
-            var10 = function onPress() {
+            var10 = function handleStartEvent() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var3 = _closure2_slot1;
@@ -2033,7 +2042,7 @@ case 119:
             var2 = {};
             var16 = 'button';
             var2['accessibilityRole'] = var16;
-            var16 = function onPress() {
+            var16 = function handleOpenRSVPList() {
                 var1 = undefined;
                 return var1;
             };
@@ -2616,7 +2625,7 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var12 = var10.bind(var11)(var9, var7, var8);
+            var13 = var10.bind(var11)(var9, var7, var8);
             var2 = var3[var2];
             var8 = var4.bind(var5)(var2);
             var7 = var8.useStateFromStores;
@@ -2655,7 +2664,7 @@ case 139:
             var1 = var2.bind(var5)(var1);
             var2 = var1.bind(var5)(var21);
             var1 = null;
-            if(!(var1 != var12)) { _fun0022_ip = 156; continue _fun0022 }
+            if(!(var1 != var13)) { _fun0022_ip = 156; continue _fun0022 }
 case 157:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -2664,16 +2673,21 @@ case 157:
             var7 = var7.bind(var5)(var3);
             var3 = var7.getLocationFromEvent;
             var25 = var3.bind(var7)(var6);
-            var18 = var25;
-            if(!(var1 != var2)) { _fun0022_ip = 158; continue _fun0022 }
+            var10 = var1 != var21;
+            if(var10) { _fun0022_ip = 158; continue _fun0022 }
 case 159:
-            var18 = var2;
+            var10 = var1 != var25;
 case 158:
-            var10 = _closure1_slot0;
+            var18 = var25;
+            if(!(var1 != var2)) { _fun0022_ip = 160; continue _fun0022 }
+case 161:
+            var18 = var2;
+case 160:
+            var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 57;
             var2 = var9[var2];
-            var3 = var10.bind(var5)(var2);
+            var3 = var11.bind(var5)(var2);
             var2 = var3.getEventLocationIconSource;
             var26 = var2.bind(var3)(var6, var21, var4);
             var4 = _closure1_slot23;
@@ -2683,41 +2697,36 @@ case 158:
             var2['style'] = var6;
             var8 = _closure1_slot22;
             var7 = _closure1_slot1;
-            var11 = 59;
-            var6 = var9[var11];
+            var12 = 59;
+            var6 = var9[var12];
             var7 = var7.bind(var5)(var6);
             var6 = {};
-            var6['guild'] = var12;
-            var11 = var9[var11];
-            var11 = var10.bind(var5)(var11);
-            var11 = var11.GuildIconSizes;
-            var11 = var11.SMALL;
-            var6['size'] = var11;
-            var11 = var19.guildIcon;
-            var6['style'] = var11;
+            var6['guild'] = var13;
+            var12 = var9[var12];
+            var12 = var11.bind(var5)(var12);
+            var12 = var12.GuildIconSizes;
+            var12 = var12.SMALL;
+            var6['size'] = var12;
+            var12 = var19.guildIcon;
+            var6['style'] = var12;
             var7 = var8.bind(var5)(var7, var6);
             var6 = new Array(2);
             var6[0] = var7;
             var8 = _closure1_slot6;
             var7 = {};
-            var11 = var19.guildInfo;
-            var7['style'] = var11;
-            var11 = _closure1_slot22;
+            var12 = var19.guildInfo;
+            var7['style'] = var12;
+            var12 = _closure1_slot22;
             var20 = 52;
             var9 = var9[var20];
-            var9 = var10.bind(var5)(var9);
-            var10 = var9.Text;
+            var9 = var11.bind(var5)(var9);
+            var11 = var9.Text;
             var9 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
-            var12 = var12.name;
-            var9['children'] = var12;
-            var10 = var11.bind(var5)(var10, var9);
+            var13 = var13.name;
+            var9['children'] = var13;
+            var11 = var12.bind(var5)(var11, var9);
             var9 = new Array(2);
-            var9[0] = var10;
-            var10 = var1 != var21;
-            if(var10) { _fun0022_ip = 160; continue _fun0022 }
-case 161:
-            var10 = var1 != var25;
-case 160:
+            var9[0] = var11;
             if(!var10) { _fun0022_ip = 162; continue _fun0022 }
 case 163:
             var13 = _closure1_slot23;

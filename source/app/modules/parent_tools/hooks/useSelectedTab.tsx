@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/parent_tools/hooks/useSelectedTab.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function _default() {
+    var4 = function useSelectedMyFamilyTab() {
         var1 = {};
         var6 = _closure1_slot0;
         var5 = _closure1_slot2;

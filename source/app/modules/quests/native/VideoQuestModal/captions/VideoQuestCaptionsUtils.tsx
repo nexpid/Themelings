@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/quests/native/VideoQuestModal/captions/VideoQuestCaptionsUtils.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = function(arg1, arg2) {
+    var2 = function findActiveCaption(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var8 = arg1;

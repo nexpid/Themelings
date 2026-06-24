@@ -228,6 +228,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GoLiveEnded'] = var36;
     var35 = 'GoLiveEnded';
     var2[var36] = var35;
+    var36 = 8;
+    var2['IdleShutdown'] = var36;
+    var35 = 'IdleShutdown';
+    var2[var36] = var35;
+    var36 = 9;
+    var2['RecordingHealthy'] = var36;
+    var35 = 'RecordingHealthy';
+    var2[var36] = var35;
     var32 = var34[var32];
     var34 = var33.bind(var1)(var32);
     var33 = var34.fileFinishedImporting;

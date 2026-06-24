@@ -38,13 +38,20 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot17 = var2;
+            _closure1_slot16 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
+    var8 = function convertVolume(arg1) {
+        var2 = arg1;
+        var1 = 400;
+        var1 = var2 / var1;
+        return var1;
+    };
+    var _closure1_slot17 = var8;
     var1 = function checkVoiceStates() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -110,100 +117,100 @@ case 19:
             var1 = var3 != var1;
             if(var1) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot14;
             if(var3) { _fun0002_ip = 21; continue _fun0002 }
 case 23:
-            var4 = _closure1_slot16;
-            var6 = _closure1_slot14;
+            var4 = _closure1_slot15;
+            var6 = _closure1_slot17;
             var5 = _closure1_slot8;
             var3 = var5.getOutputVolume;
             var5 = var3.bind(var5)();
             var3 = undefined;
             var3 = var6.bind(var3)(var5);
             var4['volume'] = var3;
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot15;
             var3 = var4.loop;
             var3 = var3.bind(var4)();
             var3 = true;
-            _closure1_slot15 = var3;
+            _closure1_slot14 = var3;
             _fun0002_ip = 24; continue _fun0002;
 case 21:
             if(!var1) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var1 = var3.pause;
             var1 = var1.bind(var3)();
             var1 = false;
-            _closure1_slot15 = var1;
+            _closure1_slot14 = var1;
 case 24:
             var1 = undefined;
             return var1;
 case 17:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var1 = var3.pause;
             var1 = var1.bind(var3)();
             var1 = false;
-            _closure1_slot15 = var1;
+            _closure1_slot14 = var1;
             var1 = undefined;
             return var1;
 case 15:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var1 = var3.stop;
             var1 = var1.bind(var3)();
             var1 = false;
-            _closure1_slot15 = var1;
+            _closure1_slot14 = var1;
             var1 = undefined;
             return var1;
 case 13:
-            var4 = _closure1_slot16;
-            var5 = _closure1_slot14;
+            var4 = _closure1_slot15;
+            var5 = _closure1_slot17;
             var3 = _closure1_slot8;
             var1 = var3.getOutputVolume;
             var3 = var1.bind(var3)();
             var1 = undefined;
             var3 = var5.bind(var1)(var3);
             var4['volume'] = var3;
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot15;
             var3 = var4.loop;
             var3 = var3.bind(var4)();
             var3 = true;
-            _closure1_slot15 = var3;
+            _closure1_slot14 = var3;
             return var1;
 case 11:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var1 = var3.stop;
             var1 = var1.bind(var3)();
             var1 = false;
-            _closure1_slot15 = var1;
+            _closure1_slot14 = var1;
             var1 = undefined;
             return var1;
 case 8:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var1 = var3.stop;
             var1 = var1.bind(var3)();
             var1 = false;
-            _closure1_slot15 = var1;
+            _closure1_slot14 = var1;
             var1 = undefined;
             return var1;
 case 6:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var1 = var3.stop;
             var1 = var1.bind(var3)();
             var1 = false;
-            _closure1_slot15 = var1;
+            _closure1_slot14 = var1;
             var1 = undefined;
             return var1;
         }
     };
     var _closure1_slot18 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var9.bind(var10)(var3, var1, var4);
     var1 = 0;
     var4 = var7[var1];
     var1 = undefined;
@@ -253,15 +260,8 @@ case 6:
     var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot13 = var4;
-    var8 = function convertVolume(arg1) {
-        var2 = arg1;
-        var1 = 400;
-        var1 = var2 / var1;
-        return var1;
-    };
-    var _closure1_slot14 = var8;
     var4 = false;
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var4 = 12;
     var4 = var7[var4];
     var10 = var6.bind(var1)(var4);
@@ -271,7 +271,7 @@ case 6:
     var8 = var8.bind(var1)(var4);
     var4 = 'stage_waiting';
     var4 = var9.bind(var10)(var4, var4, var8);
-    var _closure1_slot16 = var4;
+    var _closure1_slot15 = var4;
     var4 = 16;
     var4 = var7[var4];
     var5 = var5.bind(var1)(var4);
@@ -294,7 +294,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var8 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot16;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 26; continue _fun0004 }
 case 27:
@@ -347,11 +347,11 @@ case 0:
                 var2 = null;
                 if(!(var2 == var5)) { _fun0005_ip = 29; continue _fun0005 }
 case 30:
-                var4 = _closure1_slot16;
+                var4 = _closure1_slot15;
                 var1 = var4.stop;
                 var1 = var1.bind(var4)();
                 var1 = false;
-                _closure1_slot15 = var1;
+                _closure1_slot14 = var1;
                 _fun0005_ip = 14; continue _fun0005;
 case 29:
                 var4 = _closure1_slot7;
@@ -363,11 +363,11 @@ case 32:
                 var2 = var2.bind(var3)();
                 if(var2) { _fun0005_ip = 33; continue _fun0005 }
 case 31:
-                var3 = _closure1_slot16;
+                var3 = _closure1_slot15;
                 var2 = var3.stop;
                 var2 = var2.bind(var3)();
                 var2 = false;
-                _closure1_slot15 = var2;
+                _closure1_slot14 = var2;
                 _fun0005_ip = 14; continue _fun0005;
 case 33:
                 var2 = _closure1_slot18;
@@ -385,11 +385,11 @@ case 14:
         var7 = 'handleLogout';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var1 = var3.stop;
             var1 = var1.bind(var3)();
             var1 = false;
-            _closure1_slot15 = var1;
+            _closure1_slot14 = var1;
             var1 = undefined;
             return var1;
         };
@@ -405,11 +405,11 @@ case 0:
                 var2 = var1.play;
                 if(var2) { _fun0006_ip = 34; continue _fun0006 }
 case 20:
-                var3 = _closure1_slot16;
+                var3 = _closure1_slot15;
                 var2 = var3.pause;
                 var2 = var2.bind(var3)();
                 var2 = false;
-                _closure1_slot15 = var2;
+                _closure1_slot14 = var2;
                 _fun0006_ip = 9; continue _fun0006;
 case 34:
                 var2 = _closure1_slot18;
@@ -437,11 +437,11 @@ case 20:
                 var1 = var3.bind(var1)();
                 _fun0007_ip = 9; continue _fun0007;
 case 35:
-                var3 = _closure1_slot16;
+                var3 = _closure1_slot15;
                 var1 = var3.pause;
                 var1 = var1.bind(var3)();
                 var1 = false;
-                _closure1_slot15 = var1;
+                _closure1_slot14 = var1;
 case 9:
                 var1 = undefined;
                 return var1;
@@ -466,8 +466,8 @@ case 9:
         var7 = function value(arg1) {
             var1 = arg1;
             var4 = var1.volume;
-            var3 = _closure1_slot16;
-            var2 = _closure1_slot14;
+            var3 = _closure1_slot15;
+            var2 = _closure1_slot17;
             var1 = undefined;
             var2 = var2.bind(var1)(var4);
             var3['volume'] = var2;

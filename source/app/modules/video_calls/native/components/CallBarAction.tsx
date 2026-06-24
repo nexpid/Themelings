@@ -339,7 +339,7 @@ case 24:
     var6 = var7.bind(var8)(var6);
     var3['SMALL_ACTION_BUTTON_DIMENSIONS'] = var5;
     var3['ActionButton'] = var4;
-    var4 = function(arg1) {
+    var4 = function ToggledActionButton(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = arg1;
@@ -436,7 +436,7 @@ case 42:
         }
     };
     var3['ToggledActionButton'] = var4;
-    var4 = function(arg1) {
+    var4 = function PrimaryActionButton(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = arg1;
@@ -480,7 +480,7 @@ case 3:
         }
     };
     var3['PrimaryActionButton'] = var4;
-    var2 = function(arg1) {
+    var2 = function NotifiedActionButton(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = arg1;

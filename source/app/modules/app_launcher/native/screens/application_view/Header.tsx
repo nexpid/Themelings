@@ -246,7 +246,7 @@ case 10:
 case 12:
             var3 = {};
             var3['scrollOffsetY'] = var1;
-            var2 = function(arg1) {
+            var2 = function useContainerAnimation(arg1) {
                 var1 = arg1;
                 var7 = var1.scrollOffsetY;
                 var _closure3_slot0 = var7;
@@ -308,7 +308,7 @@ case 12:
             var6 = var2.bind(var4)(var3);
             var3 = {};
             var3['scrollOffsetY'] = var1;
-            var2 = function(arg1) {
+            var2 = function useCollapsedHeaderAnimation(arg1) {
                 var1 = arg1;
                 var8 = var1.scrollOffsetY;
                 var _closure3_slot0 = var8;
@@ -426,7 +426,7 @@ case 12:
             var20 = var2.bind(var4)(var3);
             var2 = {};
             var2['scrollOffsetY'] = var1;
-            var1 = function(arg1) {
+            var1 = function useCollapsedHeaderBannerOverlayAnimation(arg1) {
                 var1 = arg1;
                 var7 = var1.scrollOffsetY;
                 var _closure3_slot0 = var7;

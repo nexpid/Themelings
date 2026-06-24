@@ -254,9 +254,10 @@ case 8:
                 };
                 var2['RUNNING_GAMES_CHANGE'] = var4;
                 var4 = function CLIPS_RESTART() {
-                    var2 = _closure3_slot0;
-                    var1 = var2.fireClipsInitEvent;
-                    var1 = var1.bind(var2)();
+                    var3 = _closure3_slot0;
+                    var2 = var3.fireClipsInitEvent;
+                    var1 = true;
+                    var1 = var2.bind(var3)(var1);
                     return var1;
                 };
                 var2['CLIPS_RESTART'] = var4;

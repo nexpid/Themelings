@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/CollectiblesShopVariantsUIStore.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function useSelectedVariantIndex(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var6 = arg1;
@@ -108,7 +108,7 @@ case 7:
         }
     };
     var3['useSelectedVariantIndex'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function setSelectedVariantIndex(arg1, arg2) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var2 = arg2;

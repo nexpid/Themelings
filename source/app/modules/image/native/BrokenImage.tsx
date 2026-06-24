@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/image/native/BrokenImage.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function BrokenImage(arg1) {
         var4 = _closure1_slot3;
         var2 = _closure1_slot1;
         var7 = _closure1_slot2;

@@ -7,6 +7,75 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
+    var1 = function HTML(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.start;
+            var3 = null;
+            var2 = var3 == var2;
+            var12 = '';
+            var11 = var12;
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var6 = var1.start;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var5 = var2.concat;
+            var4 = "'start': ";
+            var2 = ',';
+            var11 = var5.bind(var4)(var6, var2);
+case 2:
+            var2 = var1.clip;
+            var2 = var3 == var2;
+            var10 = var12;
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var6 = var1.clip;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var5 = var2.concat;
+            var4 = "'clip': '";
+            var2 = "',";
+            var10 = var5.bind(var4)(var6, var2);
+case 4:
+            var2 = var1.clipt;
+            var2 = var3 == var2;
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var5 = var1.clipt;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = "'clipt': '";
+            var2 = "',";
+            var12 = var4.bind(var3)(var5, var2);
+case 6:
+            var22 = var1.videoId;
+            var20 = _closure1_slot5;
+            var1 = global;
+            var2 = var1.HermesInternal;
+            var7 = var2.concat;
+            var23 = '\nconst tag = document.createElement(\'script\');\ntag.setAttribute(\'src\', "https://www.youtube.com/iframe_api");\ndocument.head.appendChild(tag);\n\nfunction onYouTubeIframeAPIReady() {\n  window.player = new YT.Player(\'player\', {\n    height:     \'100%\',\n    width:      \'100%\',\n    videoId:    \'';
+            var21 = "',\n    playerVars: {\n      'playsinline': 1,\n      'fs': 0,\n      'pageType': ";
+            var19 = ',\n      ';
+            var3 = '\n      ';
+            var13 = "\n    },\n    events: {\n      'onReady': (e) => {\n        window.ReactNativeWebView.postMessage(\n          JSON.stringify({type: 'onReady', value: window.player.getPlayerState()})\n        );\n      },\n      'onError': (e) => {\n        window.ReactNativeWebView.postMessage(\n          JSON.stringify({type: 'onError', value: e.data})\n        );\n      },\n      'onStateChange': (e) => {\n        window.ReactNativeWebView.postMessage(\n          JSON.stringify({type: 'onStateChange', value: e.data})\n        );\n      }\n    }\n  });\n}\n";
+            var18 = var12;
+            var17 = var3;
+            var16 = var10;
+            var15 = var3;
+            var14 = var11;
+            var4 = var23[var7](var22, var21, var20, var19, var18, var17, var16, var15, var14, var13, var12);
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var2 = '\n<html>\n  <head>\n    <meta name="viewport" content="initial-scale=1">\n    <style>\n      * {\n        margin: 0;\n        padding: 0;\n        background-color: #000;\n      }\n    </style>\n    <script>';
+            var1 = '</script>\n  </head>\n  <body>\n    <div id="player"></div>\n  </body>\n</html>\n';
+            var1 = var3.bind(var2)(var4, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot8 = var1;
     var4 = global;
     var10 = var4.Object;
     var9 = var10.defineProperty;
@@ -43,84 +112,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'https:';
     var4 = var8.bind(var4)(var9);
     var _closure1_slot7 = var4;
-    var4 = function HTML(arg1) {
-        var3 = _closure1_slot9;
-        var2 = undefined;
-        var1 = arg1;
-        var4 = var3.bind(var2)(var1);
-        var1 = global;
-        var1 = var1.HermesInternal;
-        var3 = var1.concat;
-        var2 = '\n<html>\n  <head>\n    <meta name="viewport" content="initial-scale=1">\n    <style>\n      * {\n        margin: 0;\n        padding: 0;\n        background-color: #000;\n      }\n    </style>\n    <script>';
-        var1 = '</script>\n  </head>\n  <body>\n    <div id="player"></div>\n  </body>\n</html>\n';
-        var1 = var3.bind(var2)(var4, var1);
-        return var1;
-    };
-    var _closure1_slot8 = var4;
-    var4 = function getJavascriptFromVideoID(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.start;
-            var3 = null;
-            var2 = var3 == var2;
-            var11 = '';
-            var10 = var11;
-            if(var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var6 = var1.start;
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var5 = var2.concat;
-            var4 = "'start': ";
-            var2 = ',';
-            var10 = var5.bind(var4)(var6, var2);
-case 2:
-            var2 = var1.clip;
-            var2 = var3 == var2;
-            var9 = var11;
-            if(var2) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var6 = var1.clip;
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var5 = var2.concat;
-            var4 = "'clip': '";
-            var2 = "',";
-            var9 = var5.bind(var4)(var6, var2);
-case 4:
-            var2 = var1.clipt;
-            var2 = var3 == var2;
-            if(var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var5 = var1.clipt;
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var4 = var2.concat;
-            var3 = "'clipt': '";
-            var2 = "',";
-            var11 = var4.bind(var3)(var5, var2);
-case 6:
-            var21 = var1.videoId;
-            var19 = _closure1_slot5;
-            var1 = global;
-            var1 = var1.HermesInternal;
-            var6 = var1.concat;
-            var22 = '\nconst tag = document.createElement(\'script\');\ntag.setAttribute(\'src\', "https://www.youtube.com/iframe_api");\ndocument.head.appendChild(tag);\n\nfunction onYouTubeIframeAPIReady() {\n  window.player = new YT.Player(\'player\', {\n    height:     \'100%\',\n    width:      \'100%\',\n    videoId:    \'';
-            var20 = "',\n    playerVars: {\n      'playsinline': 1,\n      'fs': 0,\n      'pageType': ";
-            var18 = ',\n      ';
-            var2 = '\n      ';
-            var12 = "\n    },\n    events: {\n      'onReady': (e) => {\n        window.ReactNativeWebView.postMessage(\n          JSON.stringify({type: 'onReady', value: window.player.getPlayerState()})\n        );\n      },\n      'onError': (e) => {\n        window.ReactNativeWebView.postMessage(\n          JSON.stringify({type: 'onError', value: e.data})\n        );\n      },\n      'onStateChange': (e) => {\n        window.ReactNativeWebView.postMessage(\n          JSON.stringify({type: 'onStateChange', value: e.data})\n        );\n      }\n    }\n  });\n}\n";
-            var17 = var11;
-            var16 = var2;
-            var15 = var9;
-            var14 = var2;
-            var13 = var10;
-            var1 = var22[var6](var21, var20, var19, var18, var17, var16, var15, var14, var13, var12, var11);
-            return var1;
-        }
-    };
-    var _closure1_slot9 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

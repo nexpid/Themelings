@@ -685,7 +685,8 @@ case 70:
                             var4 = _closure2_slot8;
                             var3 = false;
                             var3 = var4.bind(var2)(var3);
-                            _fun0009_ip = 55; continue _fun0009;
+case 55:
+                            return var2;
 case 41:
                             var7 = _closure1_slot1;
                             var8 = _closure1_slot2;
@@ -713,7 +714,6 @@ case 41:
                             var6 = var7.bind(var2)(var6);
                             var3['icon'] = var6;
                             var3 = var4.bind(var5)(var3);
-case 55:
                             return var2;
 case 40:
                             return var1;

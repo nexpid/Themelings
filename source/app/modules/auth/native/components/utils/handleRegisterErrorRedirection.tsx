@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot9;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot9;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot8 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,52 +182,8 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.RegisterTransitionSteps;
-    var _closure1_slot3 = var7;
-    var7 = var4.RegistrationTransitionActionTypes;
-    var _closure1_slot4 = var7;
-    var4 = var4.authStateToRegisterTransitionStep;
-    var _closure1_slot5 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.AbortCodes;
-    var _closure1_slot6 = var4;
-    var4 = {};
-    var7 = 2;
-    var8 = var6[var7];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.AuthStates;
-    var9 = var8.REGISTER_IDENTITY;
-    var8 = ['email', 'phoneToken'];
-    var4[8] = var8;
-    var8 = var6[var7];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.AuthStates;
-    var9 = var8.REGISTER_DISPLAY_NAME;
-    var8 = ['global_name'];
-    var4[8] = var8;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.AuthStates;
-    var8 = var7.REGISTER_ACCOUNT_INFORMATION;
-    var7 = ['username', 'password'];
-    var4[7] = var7;
-    var _closure1_slot7 = var4;
-    var4 = function getRedirectStepForErrorKey(arg1) {
+    var _closure1_slot9 = var1;
+    var1 = function getRedirectStepForErrorKey(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -280,7 +236,51 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot10 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.RegisterTransitionSteps;
+    var _closure1_slot3 = var7;
+    var7 = var4.RegistrationTransitionActionTypes;
+    var _closure1_slot4 = var7;
+    var4 = var4.authStateToRegisterTransitionStep;
+    var _closure1_slot5 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AbortCodes;
+    var _closure1_slot6 = var4;
+    var4 = {};
+    var7 = 2;
+    var8 = var6[var7];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AuthStates;
+    var9 = var8.REGISTER_IDENTITY;
+    var8 = ['email', 'phoneToken'];
+    var4[8] = var8;
+    var8 = var6[var7];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AuthStates;
+    var9 = var8.REGISTER_DISPLAY_NAME;
+    var8 = ['global_name'];
+    var4[8] = var8;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.AuthStates;
+    var8 = var7.REGISTER_ACCOUNT_INFORMATION;
+    var7 = ['username', 'password'];
+    var4[7] = var7;
+    var _closure1_slot7 = var4;
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -312,7 +312,7 @@ case 44:
             var2 = var2.UNDER_MINIMUM_AGE;
             if(!(var7 !== var2)) { _fun0005_ip = 43; continue _fun0005 }
 case 45:
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot8;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 4;
@@ -330,7 +330,7 @@ case 45:
             if(var2) { _fun0005_ip = 46; continue _fun0005 }
 case 47:
             var15 = var11.value;
-            var14 = _closure1_slot9;
+            var14 = _closure1_slot8;
             var2 = _closure1_slot7;
             var2 = var2[var15];
             if(!(var8 == var2)) { _fun0005_ip = 48; continue _fun0005 }
@@ -353,7 +353,7 @@ case 22:
             var16 = var2.bind(var5)(var20, var6);
             if(!(var8 != var16)) { _fun0005_ip = 51; continue _fun0005 }
 case 52:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot10;
             var14 = var2.bind(var5)(var20);
             var15 = var14;
             if(!(var8 == var15)) { _fun0005_ip = 53; continue _fun0005 }

@@ -214,9 +214,9 @@ case 15:
 case 0:
                     var4 = arg1;
                     var3 = var4.replace;
-                    var1 = _closure1_slot4;
+                    var2 = _closure1_slot4;
                     var11 = '';
-                    var5 = var3.bind(var4)(var1, var11);
+                    var5 = var3.bind(var4)(var2, var11);
                     var4 = var5.replace;
                     var3 = _closure2_slot2;
                     var9 = var4.bind(var5)(var3, var11);
@@ -267,47 +267,52 @@ case 23:
                     var6 = false;
                     var10['inline'] = var6;
                     var6 = var9.replace;
-                    var2 = _closure1_slot5;
-                    var8 = var6.bind(var9)(var2, var7);
+                    var1 = _closure1_slot5;
+                    var8 = var6.bind(var9)(var1, var7);
 case 24:
-                    var7 = _closure2_slot0;
-                    var6 = {};
+                    var6 = _closure2_slot0;
+                    var1 = {};
                     var2 = _closure2_slot1;
-                    var16 = var6;
+                    var16 = var1;
                     var15 = var2;
-                    var1 = copyDataProperties(var16, var15);
+                    var7 = copyDataProperties(var16, var15);
                     var9 = false;
-                    var1 = 'allowHeading';
-                    var6[0] = var9;
-                    var1 = undefined;
-                    var7 = var7.bind(var1)(var8, var6);
-                    var6 = var7.map;
-                    var1 = function(arg1) {
-                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    var7 = 'allowHeading';
+                    var1[6] = var9;
+                    var7 = undefined;
+                    var6 = var6.bind(var7)(var8, var1);
+                    var1 = function trimListResultTextElements(arg1) {
+                        var3 = arg1;
+                        var2 = var3.map;
+                        var1 = function(arg1) {
+                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                            var1 = arg1;
-                            var3 = var1.type;
-                            var2 = 'text';
-                            var2 = var2 === var3;
-                            if(!var2) { _fun0004_ip = 25; continue _fun0004 }
+                                var1 = arg1;
+                                var3 = var1.type;
+                                var2 = 'text';
+                                var2 = var2 === var3;
+                                if(!var2) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
-                            var4 = var1.content;
-                            var3 = null;
-                            var2 = var3 != var4;
+                                var4 = var1.content;
+                                var3 = null;
+                                var2 = var3 != var4;
 case 25:
-                            if(!var2) { _fun0004_ip = 27; continue _fun0004 }
+                                if(!var2) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
-                            var5 = var1.content;
-                            var4 = var5.replace;
-                            var3 = /\n+\s*$/;
-                            var2 = '';
-                            var2 = var4.bind(var5)(var3, var2);
-                            var1['content'] = var2;
+                                var5 = var1.content;
+                                var4 = var5.replace;
+                                var3 = /\n+\s*$/;
+                                var2 = '';
+                                var2 = var4.bind(var5)(var3, var2);
+                                var1['content'] = var2;
 case 27:
-                            return var1;
-                        }
+                                return var1;
+                            }
+                        };
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    var1 = var6.bind(var7)(var1);
+                    var1 = var1.bind(var7)(var6);
                     var2['inline'] = var5;
                     var2['_list'] = var4;
                     var2['_listLevel'] = var3;

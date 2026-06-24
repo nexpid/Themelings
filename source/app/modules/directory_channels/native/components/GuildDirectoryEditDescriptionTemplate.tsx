@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/directory_channels/native/components/GuildDirectoryEditDescriptionTemplate.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function GuildDirectoryEditDescriptionTemplate(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -85,6 +85,82 @@ case 0:
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
+            var2 = function _handleSubmit() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot3;
+                var2 = function* () {
+                    var1 = function* anon_0_() {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                            StartGenerator();
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                            if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                            var4 = _closure2_slot5;
+                            var5 = undefined;
+                            var2 = true;
+                            var2 = var4.bind(var5)(var2);
+case 4: // try_start_0 // try_start_1
+                            var6 = _closure2_slot0;
+                            var4 = _closure2_slot4;
+                            var2 = _closure2_slot2;
+                            var2 = var6.bind(var5)(var4, var2);
+                            SaveGenerator(address=48);
+case 5:
+                            return var2;
+case 6:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                            if(var4) { _fun0002_ip = 7; continue _fun0002 }
+case 8: // try_end0
+                            _fun0002_ip = 9; continue _fun0002;
+case 7: // try_end1
+                            var6 = _closure2_slot5;
+                            var4 = false;
+                            var4 = var6.bind(var5)(var4);
+                            return var2;
+case 10: // try_start_2 // catch_target0
+                            CatchBlockStart(arg_register=6);
+                            var4 = _closure2_slot6;
+                            var6 = _closure1_slot1;
+                            var8 = _closure1_slot2;
+                            var2 = 9;
+                            var2 = var8[var2];
+                            var2 = var6.bind(var5)(var2);
+                            var6 = var2.prototype;
+                            var6 = Object.create(var6, {constructor: {value: var2}});
+                            var11 = var6;
+                            var10 = var7;
+                            var2 = new var11[var2](var10, var9);
+                            var2 = var2 instanceof Object ? var2 : var6;
+                            var2 = var4.bind(var5)(var2);
+case 9: // try_end2
+                            var4 = _closure2_slot5;
+                            var2 = false;
+                            var2 = var4.bind(var5)(var2);
+                            return var5;
+case 11: // catch_target1 // catch_target2
+                            CatchBlockStart(arg_register=1);
+                            var4 = _closure2_slot5;
+                            var3 = false;
+                            var3 = var4.bind(var5)(var3);
+                            throw var2;
+case 2:
+                            return var1;
+                        }
+                    };
+                    return var1;
+                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot7 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
+            var _closure2_slot7 = var2;
             var2 = _closure1_slot13;
             var5 = var2.bind(var4)();
             var2 = _closure1_slot10;
@@ -111,14 +187,14 @@ case 0:
             var8 = null;
             var10 = var8 == var1;
             var7 = undefined;
-            if(var10) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var10) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var7 = var1.primaryCategoryId;
-case 2:
-            if(!(var8 != var7)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+case 12:
+            if(!(var8 != var7)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = var7;
-case 4:
+case 14:
             var3 = var3.bind(var6)(var2);
             var2 = _closure1_slot4;
             var6 = 2;
@@ -131,28 +207,28 @@ case 4:
             _closure2_slot3 = var3;
             var7 = _closure1_slot5;
             var3 = var7.useState;
-            var11 = var8 == var1;
+            var12 = var8 == var1;
             var10 = undefined;
-            if(var11) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(var12) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var10 = var1.description;
-case 6:
-            var11 = var8 != var10;
+case 16:
+            var12 = var8 != var10;
             var1 = '';
-            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var12) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var1 = var10;
-case 8:
+case 18:
             var1 = var3.bind(var7)(var1);
             var3 = _closure1_slot4;
             var1 = var3.bind(var4)(var1, var6);
             var12 = var1[var15];
             _closure2_slot4 = var12;
-            var22 = var1[var2];
+            var21 = var1[var2];
             var7 = _closure1_slot5;
             var1 = var7.useState;
-            var19 = false;
-            var1 = var1.bind(var7)(var19);
+            var18 = false;
+            var1 = var1.bind(var7)(var18);
             var1 = var3.bind(var4)(var1, var6);
             var10 = var1[var15];
             var1 = var1[var2];
@@ -163,137 +239,57 @@ case 8:
             var17 = var1[var15];
             var1 = var1[var2];
             _closure2_slot6 = var1;
-            var1 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
-                var2 = function* () {
-                    var1 = function* anon_0_() {
-                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                            StartGenerator();
-                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-                            var4 = _closure2_slot5;
-                            var5 = undefined;
-                            var2 = true;
-                            var2 = var4.bind(var5)(var2);
-case 12: // try_start_0 // try_start_1
-                            var6 = _closure2_slot0;
-                            var4 = _closure2_slot4;
-                            var2 = _closure2_slot2;
-                            var2 = var6.bind(var5)(var4, var2);
-                            SaveGenerator(address=48);
-case 13:
-                            return var2;
-case 14:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0002_ip = 15; continue _fun0002 }
-case 16: // try_end0
-                            _fun0002_ip = 17; continue _fun0002;
-case 15: // try_end1
-                            var6 = _closure2_slot5;
-                            var4 = false;
-                            var4 = var6.bind(var5)(var4);
-                            return var2;
-case 18: // try_start_2 // catch_target0
-                            CatchBlockStart(arg_register=6);
-                            var4 = _closure2_slot6;
-                            var6 = _closure1_slot1;
-                            var8 = _closure1_slot2;
-                            var2 = 9;
-                            var2 = var8[var2];
-                            var2 = var6.bind(var5)(var2);
-                            var6 = var2.prototype;
-                            var6 = Object.create(var6, {constructor: {value: var2}});
-                            var11 = var6;
-                            var10 = var7;
-                            var2 = new var11[var2](var10, var9);
-                            var2 = var2 instanceof Object ? var2 : var6;
-                            var2 = var4.bind(var5)(var2);
-case 17: // try_end2
-                            var4 = _closure2_slot5;
-                            var2 = false;
-                            var2 = var4.bind(var5)(var2);
-                            return var5;
-case 19: // catch_target1 // catch_target2
-                            CatchBlockStart(arg_register=1);
-                            var4 = _closure2_slot5;
-                            var3 = false;
-                            var3 = var4.bind(var5)(var3);
-                            throw var2;
-case 10:
-                            return var1;
-                        }
-                    };
-                    return var1;
-                };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
-                return var1;
-            };
-            var11 = var1.bind(var4)();
             var3 = _closure1_slot12;
             var2 = _closure1_slot6;
             var1 = {};
             var5 = var5.container;
             var1['style'] = var5;
             var7 = _closure1_slot11;
-            var24 = _closure1_slot0;
+            var23 = _closure1_slot0;
             var16 = _closure1_slot2;
             var5 = 10;
             var5 = var16[var5];
-            var5 = var24.bind(var4)(var5);
+            var5 = var23.bind(var4)(var5);
             var6 = var5.TextArea;
             var5 = {};
-            var21 = 11;
-            var23 = var16[var21];
-            var23 = var24.bind(var4)(var23);
-            var26 = var23.intl;
-            var25 = var26.string;
-            var23 = var16[var21];
-            var23 = var24.bind(var4)(var23);
-            var23 = var23.t;
-            var23 = var23.FFFAGt;
-            var23 = var25.bind(var26)(var23);
-            var5['label'] = var23;
-            var23 = var16[var21];
-            var23 = var24.bind(var4)(var23);
-            var26 = var23.intl;
-            var25 = var26.string;
-            var23 = var16[var21];
-            var23 = var24.bind(var4)(var23);
-            var23 = var23.t;
-            var23 = var23["/zbXqm"];
-            var23 = var25.bind(var26)(var23);
-            var5['description'] = var23;
+            var19 = 11;
+            var22 = var16[var19];
+            var22 = var23.bind(var4)(var22);
+            var25 = var22.intl;
+            var24 = var25.string;
+            var22 = var16[var19];
+            var22 = var23.bind(var4)(var22);
+            var22 = var22.t;
+            var22 = var22.FFFAGt;
+            var22 = var24.bind(var25)(var22);
+            var5['label'] = var22;
+            var22 = var16[var19];
+            var22 = var23.bind(var4)(var22);
+            var25 = var22.intl;
+            var24 = var25.string;
+            var22 = var16[var19];
+            var22 = var23.bind(var4)(var22);
+            var22 = var22.t;
+            var22 = var22["/zbXqm"];
+            var22 = var24.bind(var25)(var22);
+            var5['description'] = var22;
             var5['value'] = var12;
-            var5['onChange'] = var22;
-            var22 = var16[var21];
-            var22 = var24.bind(var4)(var22);
-            var23 = var22.intl;
-            var22 = var23.string;
-            var16 = var16[var21];
-            var16 = var24.bind(var4)(var16);
+            var5['onChange'] = var21;
+            var21 = var16[var19];
+            var21 = var23.bind(var4)(var21);
+            var22 = var21.intl;
+            var21 = var22.string;
+            var16 = var16[var19];
+            var16 = var23.bind(var4)(var16);
             var16 = var16.t;
             var16 = var16.VzuITC;
-            var16 = var22.bind(var23)(var16);
+            var16 = var21.bind(var22)(var16);
             var5['placeholder'] = var16;
             var16 = 200;
             var5['maxLength'] = var16;
-            var22 = var8 != var17;
+            var21 = var8 != var17;
             var16 = 'default';
-            if(!var22) { _fun0001_ip = 20; continue _fun0001 }
+            if(!var21) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
             var16 = 'error';
 case 20:
@@ -321,18 +317,18 @@ case 22:
             var6 = var7.bind(var4)(var6);
             var17 = var6.TableRadioGroup;
             var6 = {};
-            var22 = var16[var21];
-            var22 = var7.bind(var4)(var22);
-            var23 = var22.intl;
-            var22 = var23.string;
-            var21 = var16[var21];
+            var21 = var16[var19];
             var21 = var7.bind(var4)(var21);
-            var21 = var21.t;
-            var21 = var21.Olo8FB;
-            var21 = var22.bind(var23)(var21);
-            var6['title'] = var21;
+            var22 = var21.intl;
+            var21 = var22.string;
+            var19 = var16[var19];
+            var19 = var7.bind(var4)(var19);
+            var19 = var19.t;
+            var19 = var19.Olo8FB;
+            var19 = var21.bind(var22)(var19);
+            var6['title'] = var19;
             var6['defaultValue'] = var14;
-            var21 = function onChange(arg1) {
+            var19 = function onChange(arg1) {
                 var2 = _closure1_slot7;
                 var1 = var2.dismiss;
                 var1 = var1.bind(var2)();
@@ -342,8 +338,8 @@ case 22:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var6['onChange'] = var21;
-            var6['hasIcons'] = var19;
+            var6['onChange'] = var19;
+            var6['hasIcons'] = var18;
             var19 = var20.map;
             var18 = function(arg1) {
                 var1 = arg1;
@@ -382,6 +378,16 @@ case 25:
             var12 = var14 === var13;
 case 24:
             var6['disabled'] = var12;
+            var11 = function handleSubmit() {
+                var1 = undefined;
+                var4 = _closure2_slot7;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
             var6['onPress'] = var11;
             var6['loading'] = var10;
             var6['text'] = var9;

@@ -88,6 +88,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
+            var22 = function getLabel(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var2 = arg1;
+                    var _closure3_slot0 = var2;
+                    var3 = _closure1_slot10;
+                    var2 = var3.find;
+                    var1 = function(arg1) {
+                        var1 = arg1;
+                        var2 = var1.value;
+                        var1 = _closure3_slot0;
+                        var1 = var1.type;
+                        var1 = var2 === var1;
+                        return var1;
+                    };
+                    var2 = var2.bind(var3)(var1);
+                    var1 = null;
+                    var3 = var1 == var2;
+                    var1 = undefined;
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var1 = var2.label;
+case 2:
+                    return var1;
+                }
+            };
             var1 = _closure1_slot9;
             var4 = undefined;
             var9 = var1.bind(var4)();
@@ -110,7 +136,7 @@ case 0:
             var2 = new Array(1);
             var2[0] = var1;
             var1 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var3 = _closure1_slot6;
                     var1 = var3.getCurrentBuildOverride;
@@ -120,8 +146,8 @@ case 0:
                     var4 = var1 == var3;
                     var5 = undefined;
                     var1 = undefined;
-                    if(var4) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
+                    if(var4) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var2 = 11;
@@ -129,7 +155,7 @@ case 3:
                     var2 = var4.bind(var5)(var2);
                     var2 = var2.DEVICE_FIELD;
                     var1 = var3[var2];
-case 2:
+case 4:
                     return var1;
                 }
             };
@@ -149,32 +175,6 @@ case 2:
             var1 = 1;
             var1 = var2[var1];
             var _closure2_slot2 = var1;
-            var22 = function getLabel(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var2 = arg1;
-                    var _closure3_slot0 = var2;
-                    var3 = _closure1_slot10;
-                    var2 = var3.find;
-                    var1 = function(arg1) {
-                        var1 = arg1;
-                        var2 = var1.value;
-                        var1 = _closure3_slot0;
-                        var1 = var1.type;
-                        var1 = var2 === var1;
-                        return var1;
-                    };
-                    var2 = var2.bind(var3)(var1);
-                    var1 = null;
-                    var3 = var1 == var2;
-                    var1 = undefined;
-                    if(var3) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
-                    var1 = var2.label;
-case 4:
-                    return var1;
-                }
-            };
             var3 = _closure1_slot7;
             var2 = _closure1_slot5;
             var1 = {};

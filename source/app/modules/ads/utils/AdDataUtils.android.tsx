@@ -70,21 +70,6 @@ case 5:
             var6 = function(arg1) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
-                var1 = false;
-                var _closure3_slot1 = var1;
-                var1 = global;
-                var6 = var1.setTimeout;
-                var4 = _closure1_slot5;
-                var1 = undefined;
-                var3 = function() {
-                    var3 = _closure3_slot4;
-                    var2 = undefined;
-                    var1 = null;
-                    var1 = var3.bind(var2)(var1);
-                    return var1;
-                };
-                var3 = var6.bind(var1)(var3, var4);
-                var _closure3_slot2 = var3;
                 var4 = function handleUpdate() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -110,7 +95,7 @@ case 9:
                     }
                 };
                 var _closure3_slot3 = var4;
-                var3 = function safeResolve(arg1) {
+                var1 = function safeResolve(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var2 = _closure3_slot1;
@@ -135,7 +120,22 @@ case 11:
                         return var1;
                     }
                 };
-                var _closure3_slot4 = var3;
+                var _closure3_slot4 = var1;
+                var1 = false;
+                var _closure3_slot1 = var1;
+                var1 = global;
+                var7 = var1.setTimeout;
+                var6 = _closure1_slot5;
+                var1 = undefined;
+                var3 = function() {
+                    var3 = _closure3_slot4;
+                    var1 = undefined;
+                    var2 = null;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var3 = var7.bind(var1)(var3, var6);
+                var _closure3_slot2 = var3;
                 var3 = _closure1_slot4;
                 var2 = var3.addChangeListener;
                 var2 = var2.bind(var3)(var4);

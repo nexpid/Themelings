@@ -82,6 +82,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function UserSettingsEditGuildProfile() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
+            var1 = function onSelectGuild(arg1) {
+                var2 = _closure2_slot2;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 11;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.setCurrentGuild;
+                var2 = arg1;
+                var2 = var2.id;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var _closure2_slot4 = var1;
             var2 = _closure1_slot9;
             var4 = undefined;
             var9 = var2.bind(var4)();
@@ -189,22 +205,6 @@ case 4:
 case 7:
             if(!(var3 != var7)) { _fun0001_ip = 6; continue _fun0001 }
 case 8:
-            var3 = function onSelectGuild(arg1) {
-                var2 = _closure2_slot2;
-                var1 = undefined;
-                var2 = var2.bind(var1)();
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var2 = 11;
-                var2 = var4[var2];
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.setCurrentGuild;
-                var2 = arg1;
-                var2 = var2.id;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            var _closure2_slot4 = var3;
             var5 = _closure1_slot8;
             var19 = _closure1_slot0;
             var12 = _closure1_slot2;

@@ -430,7 +430,7 @@ case 18:
         return var1;
     };
     var3['AudioRouteButton'] = var4;
-    var4 = function(arg1) {
+    var4 = function ScreenshareButton(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
@@ -464,7 +464,7 @@ case 20:
         }
     };
     var3['ScreenshareButton'] = var4;
-    var2 = function(arg1) {
+    var2 = function DeafenButton(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;

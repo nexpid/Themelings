@@ -308,7 +308,7 @@ case 21:
         }
     };
     var3['handleApplicationCommandSelected'] = var4;
-    var4 = function(arg1) {
+    var4 = function getInitialOptionValues(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -635,7 +635,7 @@ case 67:
         }
     };
     var3['getInitialOptionValues'] = var4;
-    var4 = function(arg1) {
+    var4 = function getAppLauncherIconSource(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var5 = arg1;

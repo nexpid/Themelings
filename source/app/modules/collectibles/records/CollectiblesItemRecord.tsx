@@ -224,7 +224,7 @@ case 35:
     var5 = var6.fileFinishedImporting;
     var2 = 'modules/collectibles/records/CollectiblesItemRecord.tsx';
     var2 = var5.bind(var6)(var2);
-    var2 = function(arg1) {
+    var2 = function createCollectiblesItemsFromServerResponse(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;

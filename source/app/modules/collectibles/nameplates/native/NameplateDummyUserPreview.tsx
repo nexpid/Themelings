@@ -169,7 +169,7 @@ case 4:
     var5 = 'modules/collectibles/nameplates/native/NameplateDummyUserPreview.tsx';
     var5 = var6.bind(var7)(var5);
     var3['NAMEPLATE_DUMMY_USER_PREVIEW_CONFIG'] = var4;
-    var2 = function(arg1) {
+    var2 = function NameplateDummyUserPreview(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;

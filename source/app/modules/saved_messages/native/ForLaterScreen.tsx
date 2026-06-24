@@ -7,6 +7,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
+    var1 = function keyExtractor(arg1) {
+        var1 = arg1;
+        var1 = var1.messageId;
+        return var1;
+    };
+    var _closure1_slot11 = var1;
     var1 = function ForLaterPage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -182,43 +188,43 @@ case 4:
     var _closure1_slot12 = var1;
     var1 = global;
     var8 = var1.Object;
-    var4 = var8.defineProperty;
-    var2 = {};
+    var7 = var8.defineProperty;
+    var4 = {};
     var1 = true;
-    var2['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var8)(var3, var1, var2);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var2 = var6[var1];
+    var4 = var6[var1];
     var1 = undefined;
-    var2 = var12.bind(var1)(var2);
-    var _closure1_slot3 = var2;
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot3 = var4;
     var13 = 1;
-    var4 = var6[var13];
-    var2 = metroImportAll;
-    var8 = var2.bind(var1)(var4);
-    var _closure1_slot4 = var8;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.View;
-    var _closure1_slot5 = var2;
-    var2 = 3;
-    var2 = var6[var2];
-    var2 = var12.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var4 = var2.jsx;
-    var _closure1_slot7 = var4;
-    var2 = var2.jsxs;
-    var _closure1_slot8 = var2;
-    var2 = 5;
-    var2 = var6[var2];
-    var9 = var5.bind(var1)(var2);
-    var4 = var9.createStyles;
-    var2 = {};
+    var7 = var6[var13];
+    var4 = metroImportAll;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot7 = var8;
+    var4 = var4.jsxs;
+    var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var4 = {};
     var10 = {};
     var11 = 6;
     var14 = var6[var11];
@@ -227,23 +233,23 @@ case 4:
     var14 = var14.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var14;
     var10['flexGrow'] = var13;
-    var2['container'] = var10;
+    var4['container'] = var10;
     var10 = {'height': 1, 'width': '100%'};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
     var11 = var11.BORDER_SUBTLE;
     var10['backgroundColor'] = var11;
-    var2['headerBorder'] = var10;
+    var4['headerBorder'] = var10;
     var10 = {'paddingHorizontal': 16, 'paddingVertical': 8};
-    var2['cardContainer'] = var10;
-    var2 = var4.bind(var9)(var2);
-    var _closure1_slot9 = var2;
-    var2 = {};
-    var4 = 'function ForLaterScreenTsx1(){const{borderOpacity}=this.__closure;return{opacity:borderOpacity.get()};}';
-    var2['code'] = var4;
-    var _closure1_slot10 = var2;
-    var4 = var8.memo;
+    var4['cardContainer'] = var10;
+    var4 = var8.bind(var9)(var4);
+    var _closure1_slot9 = var4;
+    var4 = {};
+    var8 = 'function ForLaterScreenTsx1(){const{borderOpacity}=this.__closure;return{opacity:borderOpacity.get()};}';
+    var4['code'] = var8;
+    var _closure1_slot10 = var4;
+    var4 = var7.memo;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -351,13 +357,7 @@ case 5:
             throw var1;
         }
     };
-    var2 = var4.bind(var8)(var2);
-    var4 = function keyExtractor(arg1) {
-        var1 = arg1;
-        var1 = var1.messageId;
-        return var1;
-    };
-    var _closure1_slot11 = var4;
+    var2 = var4.bind(var7)(var2);
     var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

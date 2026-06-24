@@ -126,7 +126,7 @@ case 4:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/nameplates/native/NameplatePreview.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function NameplatePreview(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;

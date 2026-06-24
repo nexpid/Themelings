@@ -1100,7 +1100,7 @@ case 0:
             var1 = function() {
                 var4 = _closure2_slot0;
                 var3 = _closure2_slot1;
-                var2 = function(arg1, arg2) {
+                var2 = function getScreens(arg1, arg2) {
                     var1 = arg1;
                     var _closure4_slot0 = var1;
                     var1 = arg2;

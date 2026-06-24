@@ -105,6 +105,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var11;
         var10 = var1.selected;
         var _closure2_slot3 = var10;
+        var1 = function handlePress() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var2 = _closure2_slot2;
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var3 = _closure2_slot1;
+                var2 = _closure2_slot0;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+case 2:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var _closure2_slot10 = var1;
         var2 = _closure1_slot8;
         var4 = undefined;
         var2 = var2.bind(var4)();
@@ -125,39 +141,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = new Array(1);
         var8[0] = var3;
         var3 = function() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var3 = _closure2_slot6;
                 var1 = null;
                 var3 = var1 != var3;
-                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+                if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var4 = _closure1_slot4;
                 var3 = var4.getUsableCustomEmojiById;
                 var2 = _closure2_slot6;
                 var1 = var3.bind(var4)(var2);
-case 2:
+case 4:
                 return var1;
             }
         };
         var3 = var9.bind(var12)(var8, var3);
         var _closure2_slot8 = var3;
-        var3 = function handlePress() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                var2 = _closure2_slot2;
-                if(var2) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                var3 = _closure2_slot1;
-                var2 = _closure2_slot0;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-case 4:
-                var1 = undefined;
-                return var1;
-            }
-        };
-        var _closure2_slot9 = var3;
         var9 = _closure1_slot3;
         var8 = var9.useMemo;
         var3 = new Array(3);
@@ -192,7 +192,7 @@ case 8:
             }
         };
         var2 = var8.bind(var9)(var2, var3);
-        var _closure2_slot10 = var2;
+        var _closure2_slot9 = var2;
         var3 = _closure1_slot6;
         var2 = _closure1_slot1;
         var1 = 9;
@@ -223,7 +223,7 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.PressableScale;
                 var1 = {};
-                var8 = _closure2_slot10;
+                var8 = _closure2_slot9;
                 var1['style'] = var8;
                 var8 = 'button';
                 var1['accessibilityRole'] = var8;
@@ -236,7 +236,7 @@ case 0:
                 var1['ref'] = var7;
                 var20 = var1;
                 var6 = copyDataProperties(var20, var19);
-                var7 = _closure2_slot9;
+                var7 = _closure2_slot10;
                 var6 = 'onPress';
                 var1[5] = var7;
                 var6 = _closure2_slot8;

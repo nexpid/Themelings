@@ -5,59 +5,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var9;
-    var2 = global;
-    var7 = var2.Object;
-    var6 = var7.defineProperty;
-    var5 = {};
-    var1 = true;
-    var5['value'] = var1;
-    var1 = '__esModule';
-    var1 = var6.bind(var7)(var3, var1, var5);
-    var1 = 0;
-    var5 = var9[var1];
-    var1 = undefined;
-    var5 = var8.bind(var1)(var5);
-    var5 = var5.ExpressionPickerViewType;
-    var _closure1_slot2 = var5;
-    var6 = var2.Object;
-    var5 = var6.freeze;
-    var2 = {'activeView': null, 'lastActiveView': null, 'activeViewType': null, 'activeChannelId': null, 'searchQuery': '', 'isSearchSuggestion': false, 'pickerId': null, 'isNitroLockedSectionVisible': false, 'areOnlyNitroLockedSectionsVisible': false};
-    var7 = 1;
-    var10 = var9[var7];
-    var7 = metroImportDefault;
-    var10 = var7.bind(var1)(var10);
-    var7 = 'uid_';
-    var7 = var10.bind(var1)(var7);
-    var2['pickerId'] = var7;
-    var2 = var5.bind(var6)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 2;
-    var2 = var9[var2];
-    var5 = var8.bind(var1)(var2);
-    var2 = var5.createWithEqualityFn;
-    var5 = var2.bind(var5)();
-    var2 = 3;
-    var2 = var9[var2];
-    var10 = var8.bind(var1)(var2);
-    var7 = var10.persist;
-    var6 = {};
-    var2 = 'expression-picker-last-active-view';
-    var6['name'] = var2;
-    var2 = function partialize(arg1) {
-        var1 = {};
-        var2 = arg1;
-        var2 = var2.lastActiveView;
-        var1['lastActiveView'] = var2;
-        return var1;
-    };
-    var6['partialize'] = var2;
-    var2 = function() {
-        var1 = _closure1_slot3;
-        return var1;
-    };
-    var2 = var7.bind(var10)(var2, var6);
-    var2 = var5.bind(var1)(var2);
-    var _closure1_slot4 = var2;
     var6 = function openExpressionPicker(arg1, arg2, arg3) {
         var1 = arg1;
         var _closure2_slot0 = var1;
@@ -76,14 +23,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot4;
             var2 = var3.setState;
             var1 = {};
-            var5 = _closure2_slot0;
-            var1['activeView'] = var5;
-            var5 = _closure2_slot1;
-            var1['activeViewType'] = var5;
-            var4 = _closure2_slot2;
-            var1['activeChannelId'] = var4;
-            var4 = var3.getState;
-            var4 = var4.bind(var3)();
+            var6 = _closure2_slot0;
+            var1['activeView'] = var6;
+            var6 = _closure2_slot1;
+            var1['activeViewType'] = var6;
+            var5 = _closure2_slot2;
+            var1['activeChannelId'] = var5;
+            var5 = _closure1_slot4;
+            var4 = var5.getState;
+            var4 = var4.bind(var5)();
             var4 = var4.activeView;
             var1['lastActiveView'] = var4;
             var1 = var2.bind(var3)(var1);
@@ -147,6 +95,59 @@ case 8:
         }
     };
     var _closure1_slot6 = var5;
+    var2 = global;
+    var11 = var2.Object;
+    var10 = var11.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var7);
+    var1 = 0;
+    var7 = var9[var1];
+    var1 = undefined;
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.ExpressionPickerViewType;
+    var _closure1_slot2 = var7;
+    var10 = var2.Object;
+    var7 = var10.freeze;
+    var2 = {'activeView': null, 'lastActiveView': null, 'activeViewType': null, 'activeChannelId': null, 'searchQuery': '', 'isSearchSuggestion': false, 'pickerId': null, 'isNitroLockedSectionVisible': false, 'areOnlyNitroLockedSectionsVisible': false};
+    var11 = 1;
+    var12 = var9[var11];
+    var11 = metroImportDefault;
+    var12 = var11.bind(var1)(var12);
+    var11 = 'uid_';
+    var11 = var12.bind(var1)(var11);
+    var2['pickerId'] = var11;
+    var2 = var7.bind(var10)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var9[var2];
+    var7 = var8.bind(var1)(var2);
+    var2 = var7.createWithEqualityFn;
+    var7 = var2.bind(var7)();
+    var2 = 3;
+    var2 = var9[var2];
+    var12 = var8.bind(var1)(var2);
+    var11 = var12.persist;
+    var10 = {};
+    var2 = 'expression-picker-last-active-view';
+    var10['name'] = var2;
+    var2 = function partialize(arg1) {
+        var1 = {};
+        var2 = arg1;
+        var2 = var2.lastActiveView;
+        var1['lastActiveView'] = var2;
+        return var1;
+    };
+    var10['partialize'] = var2;
+    var2 = function() {
+        var1 = _closure1_slot3;
+        return var1;
+    };
+    var2 = var11.bind(var12)(var2, var10);
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
     var7 = 5;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -155,7 +156,7 @@ case 8:
     var7 = var8.bind(var9)(var7);
     var3['openExpressionPicker'] = var6;
     var3['closeExpressionPicker'] = var5;
-    var5 = function(arg1, arg2) {
+    var5 = function toggleMultiExpressionPicker(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot4;
@@ -187,7 +188,7 @@ case 13:
         }
     };
     var3['toggleMultiExpressionPicker'] = var5;
-    var5 = function(arg1, arg2, arg3) {
+    var5 = function toggleExpressionPicker(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var6 = arg1;
@@ -213,7 +214,7 @@ case 17:
         }
     };
     var3['toggleExpressionPicker'] = var5;
-    var5 = function(arg1) {
+    var5 = function setExpressionPickerView(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var4 = _closure1_slot0;
@@ -227,10 +228,11 @@ case 17:
             var3 = _closure1_slot4;
             var2 = var3.setState;
             var1 = {};
-            var4 = _closure2_slot0;
-            var1['activeView'] = var4;
-            var4 = var3.getState;
-            var4 = var4.bind(var3)();
+            var5 = _closure2_slot0;
+            var1['activeView'] = var5;
+            var5 = _closure1_slot4;
+            var4 = var5.getState;
+            var4 = var4.bind(var5)();
             var4 = var4.activeView;
             var1['lastActiveView'] = var4;
             var1 = var2.bind(var3)(var1);
@@ -240,7 +242,7 @@ case 17:
         return var1;
     };
     var3['setExpressionPickerView'] = var5;
-    var4 = function(arg1) {
+    var4 = function setSearchQuery(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = arguments[1];

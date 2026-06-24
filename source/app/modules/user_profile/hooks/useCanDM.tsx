@@ -174,7 +174,7 @@ case 10:
         return var1;
     };
     var3['default'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function canDm(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var7 = arg1;

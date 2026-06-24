@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/PremiumSubscriptionTrialUtil.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function useHasActiveTrial() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = _closure1_slot0;
@@ -78,7 +78,7 @@ case 2:
         }
     };
     var3['useHasActiveTrial'] = var4;
-    var4 = function() {
+    var4 = function hasActiveTrial() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = _closure1_slot3;
@@ -96,7 +96,7 @@ case 4:
         }
     };
     var3['hasActiveTrial'] = var4;
-    var4 = function(arg1) {
+    var4 = function isEligibleTrialSub(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = arg1;

@@ -199,7 +199,7 @@ case 13:
     var5 = 'modules/guild_member_verification/native/InitialMemberVerificationStore.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function setInitialVerification(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 6;

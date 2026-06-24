@@ -93,69 +93,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var2[1] = var5;
         var1 = function() {
-            var4 = _closure2_slot3;
-            var6 = var4.reduce;
-            var5 = function(arg1, arg2) {
-                var1 = arg1;
-                var3 = arg2;
-                var2 = var3.user_id;
-                var1[var2] = var3;
-                return var1;
-            };
-            var3 = {};
-            var3 = var6.bind(var4)(var5, var3);
-            var _closure3_slot0 = var3;
-            var5 = _closure2_slot2;
-            var3 = var5.filter;
-            var1 = function(arg1) {
+            var4 = function addUserToAllInterested(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                    var2 = _closure3_slot0;
-                    var1 = arg1;
-                    var1 = var1.user_id;
-                    var2 = var2[var1];
-                    var1 = null;
-                    var1 = var1 == var2;
-                    if(var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                    var3 = var2.response;
-                    var2 = _closure1_slot4;
-                    var2 = var2.INTERESTED;
-                    var1 = var3 === var2;
-case 2:
-                    return var1;
-                }
-            };
-            var5 = var3.bind(var5)(var1);
-            var3 = var4.filter;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var2 = var1.response;
-                var1 = _closure1_slot4;
-                var1 = var1.INTERESTED;
-                var1 = var2 === var1;
-                return var1;
-            };
-            var4 = var3.bind(var4)(var1);
-            var1 = global;
-            var1 = var1.Set;
-            var3 = var1.prototype;
-            var3 = Object.create(var3, {constructor: {value: var1}});
-            var9 = var3;
-            var1 = new var9[var1](var8);
-            var1 = var1 instanceof Object ? var1 : var3;
-            var _closure3_slot1 = var1;
-            var1 = new Array(0);
-            var _closure3_slot2 = var1;
-            var3 = function addUserToAllInterested(arg1) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = arg1;
                     var5 = _closure3_slot1;
                     var4 = var5.has;
                     var3 = var1.user_id;
                     var3 = var4.bind(var5)(var3);
-                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                     var4 = _closure3_slot2;
                     var3 = var4.push;
@@ -164,15 +110,69 @@ case 3:
                     var2 = var3.add;
                     var1 = var1.user_id;
                     var1 = var2.bind(var3)(var1);
-case 4:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
             };
+            var6 = _closure2_slot3;
+            var7 = var6.reduce;
+            var5 = function(arg1, arg2) {
+                var1 = arg1;
+                var3 = arg2;
+                var2 = var3.user_id;
+                var1[var2] = var3;
+                return var1;
+            };
+            var3 = {};
+            var3 = var7.bind(var6)(var5, var3);
+            var _closure3_slot0 = var3;
+            var5 = _closure2_slot2;
+            var3 = var5.filter;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var2 = _closure3_slot0;
+                    var1 = arg1;
+                    var1 = var1.user_id;
+                    var2 = var2[var1];
+                    var1 = null;
+                    var1 = var1 == var2;
+                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 3:
+                    var3 = var2.response;
+                    var2 = _closure1_slot4;
+                    var2 = var2.INTERESTED;
+                    var1 = var3 === var2;
+case 4:
+                    return var1;
+                }
+            };
+            var5 = var3.bind(var5)(var1);
+            var3 = var6.filter;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.response;
+                var1 = _closure1_slot4;
+                var1 = var1.INTERESTED;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var3 = var3.bind(var6)(var1);
+            var1 = global;
+            var1 = var1.Set;
+            var6 = var1.prototype;
+            var6 = Object.create(var6, {constructor: {value: var1}});
+            var10 = var6;
+            var1 = new var10[var1](var9);
+            var1 = var1 instanceof Object ? var1 : var6;
+            var _closure3_slot1 = var1;
+            var1 = new Array(0);
+            var _closure3_slot2 = var1;
             var2 = var5.forEach;
-            var2 = var2.bind(var5)(var3);
-            var2 = var4.forEach;
-            var2 = var2.bind(var4)(var3);
+            var2 = var2.bind(var5)(var4);
+            var2 = var3.forEach;
+            var2 = var2.bind(var3)(var4);
             return var1;
         };
         var1 = var3.bind(var4)(var1, var2);

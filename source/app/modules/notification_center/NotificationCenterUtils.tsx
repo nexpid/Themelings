@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/notification_center/NotificationCenterUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function getRelativeTimestamp(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arguments[1];
@@ -56,7 +56,7 @@ case 6:
         }
     };
     var3['getRelativeTimestamp'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function isRemoteAcked(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
@@ -229,7 +229,7 @@ case 7:
         return var1;
     };
     var3['mobileNativeUpdateAvailableLocalItem'] = var4;
-    var2 = function(arg1) {
+    var2 = function isMentionItem(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = arg1;

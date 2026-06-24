@@ -5,14 +5,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var4;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var6 = {};
-    var1 = true;
-    var6['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var6);
     var1 = function _firstPartyTasksFromServer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -345,6 +337,14 @@ case 8:
         }
     };
     var _closure1_slot4 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
     var1 = 4;
     var4 = var4[var1];
     var1 = undefined;
@@ -352,7 +352,7 @@ case 8:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/quests/types/v2/Task.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function questTaskConfigFromServer(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -415,7 +415,7 @@ case 26:
         }
     };
     var3['questTaskConfigFromServer'] = var4;
-    var2 = function(arg1) {
+    var2 = function questTaskConfigV2FromServer(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;

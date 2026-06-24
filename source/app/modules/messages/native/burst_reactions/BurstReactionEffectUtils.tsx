@@ -6,6 +6,133 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
+    var1 = function _generateAnimationSourceFromLocalImage() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                    StartGenerator();
+                    var2 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
+                    if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                    var5 = var2.animationSource;
+                    var3 = var2.localImageSource;
+                    var9 = undefined;
+                    var4 = undefined;
+                    var6 = undefined;
+                    SaveGenerator(address=35);
+case 4:
+                    return var9;
+case 5:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
+                    if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7: // try_start_0
+                    var10 = _closure1_slot6;
+                    var8 = var10.resolveAssetSource;
+                    var3 = var8.bind(var10)(var3);
+                    var10 = var3.uri;
+                    var8 = _closure1_slot0;
+                    var11 = _closure1_slot1;
+                    var3 = 6;
+                    var3 = var11[var3];
+                    var8 = var8.bind(var9)(var3);
+                    var3 = var8.makeSource;
+                    var10 = var3.bind(var8)(var10);
+                    var4 = var10;
+                    var3 = _closure1_slot5;
+                    var8 = var3.ImageManager;
+                    var3 = var8.getAvatarBase64;
+                    var3 = var3.bind(var8)(var10);
+                    SaveGenerator(address=126);
+case 8:
+                    return var3;
+case 9:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
+                    if(var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+                    var12 = var5;
+                    var5 = var12.assets;
+                    var8 = 0;
+                    var11 = var5[var8];
+                    var5 = global;
+                    var10 = var5.HermesInternal;
+                    var13 = var10.concat;
+                    var10 = 'data:image/png;base64,';
+                    var10 = var13.bind(var10)(var3);
+                    var11['p'] = var10;
+                    var11 = var5.JSON;
+                    var10 = var11.stringify;
+                    var6 = var10.bind(var11)(var12);
+                    var10 = _closure1_slot5;
+                    var11 = var10.ImageManager;
+                    var10 = var11.getDominantColors;
+                    var4 = var10.bind(var11)(var4);
+                    SaveGenerator(address=222);
+case 12:
+                    return var4;
+case 13:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
+                    if(var10) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+                    var12 = _closure1_slot3;
+                    var11 = var4[var8];
+                    var10 = 3;
+                    var10 = var12.bind(var9)(var11, var10);
+                    var13 = var10[var8];
+                    var8 = 1;
+                    var12 = var10[var8];
+                    var8 = 2;
+                    var11 = var10[var8];
+                    var8 = _closure1_slot0;
+                    var10 = _closure1_slot1;
+                    var7 = 7;
+                    var7 = var10[var7];
+                    var10 = var8.bind(var9)(var7);
+                    var9 = var10.replaceAnimationColors;
+                    var8 = var6;
+                    var7 = {};
+                    var7['r'] = var13;
+                    var7['g'] = var12;
+                    var7['b'] = var11;
+                    var7 = var9.bind(var10)(var8, var7);
+                    var6 = var7;
+                    var6 = var5.JSON;
+                    var5 = var6.parse;
+                    var5 = var5.bind(var6)(var7);
+case 16: // try_end0
+                    return var5;
+case 14:
+                    return var4;
+case 10:
+                    return var3;
+case 17: // catch_target0
+                    CatchBlockStart(arg_register=2);
+                    var3 = null;
+                    return var3;
+case 6:
+                    return var2;
+case 2:
+                    return var1;
+                }
+            };
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot8 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -40,12 +167,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = undefined;
         var2 = function* (arg1, arg2, arg3, arg4) {
             var1 = function* anon_0_(arg1, arg2, arg3, arg4) {
-                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+                    if(var7) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var13 = arg1;
                     var5 = arg2;
                     var8 = arg3;
@@ -56,7 +183,7 @@ case 3:
                     var3 = undefined;
                     var11 = undefined;
                     var6 = undefined;
-case 4: // try_start_0
+case 20: // try_start_0
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot1;
                     var10 = 4;
@@ -77,10 +204,10 @@ case 4: // try_start_0
                     var17 = var10 != var12;
                     var12 = '';
                     var15 = var12;
-                    if(!var17) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+                    if(!var17) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                     var15 = var16;
-case 5:
+case 21:
                     var3 = var15;
                     var16 = _closure1_slot0;
                     var17 = _closure1_slot1;
@@ -96,16 +223,16 @@ case 5:
                     var22 = var17;
                     var2 = var22[var16](var21, var20, var19, var18, var17);
                     SaveGenerator(address=174);
-case 7:
+case 23:
                     return var2;
-case 8:
+case 24:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+                    if(var5) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
                     var11 = var2;
                     var5 = var3;
-                    if(!(var12 === var5)) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+                    if(!(var12 === var5)) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
                     var5 = _closure1_slot5;
                     var13 = var5.ImageManager;
                     var12 = var13.getEmojiBase64;
@@ -113,12 +240,12 @@ case 12:
                     var5 = var5.name;
                     var5 = var12.bind(var13)(var5, var14);
                     SaveGenerator(address=230);
-case 13:
+case 15:
                     return var5;
-case 14:
+case 29:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=11);
-                    if(var12) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+                    if(var12) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
                     var12 = global;
                     var12 = var12.HermesInternal;
                     var13 = var12.concat;
@@ -136,10 +263,10 @@ case 16:
                     var13 = var13.bind(var9)(var12);
                     var12 = var13.makeSource;
                     var4 = var12.bind(var13)(var14);
-                    _fun0001_ip = 17; continue _fun0001;
-case 15: // try_end0
+                    _fun0002_ip = 32; continue _fun0002;
+case 30: // try_end0
                     return var5;
-case 11: // try_start_1
+case 27: // try_start_1
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot1;
                     var5 = 6;
@@ -153,12 +280,12 @@ case 11: // try_start_1
                     var3 = var5.getAvatarBase64;
                     var3 = var3.bind(var5)(var12);
                     SaveGenerator(address=376);
-case 18:
+case 33:
                     return var3;
-case 19:
+case 34:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+                    if(var5) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
                     var5 = var11;
                     var12 = var5.assets;
                     var5 = 0;
@@ -169,31 +296,31 @@ case 21:
                     var5 = 'data:image/png;base64,';
                     var5 = var13.bind(var5)(var3);
                     var12['p'] = var5;
-case 17:
+case 32:
                     var5 = global;
                     var13 = var5.JSON;
                     var12 = var13.stringify;
                     var6 = var12.bind(var13)(var11);
                     var8 = var8.id;
-                    if(!(var10 == var8)) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+                    if(!(var10 == var8)) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
                     var12 = var6;
                     var11 = var12.replace;
                     var10 = /"a":{"a":0,"k":\[64,64/;
                     var8 = '"a":{"a":0,"k":[36,36';
                     var6 = var11.bind(var12)(var10, var8);
-case 22:
+case 37:
                     var8 = _closure1_slot5;
                     var10 = var8.ImageManager;
                     var8 = var10.getDominantColors;
                     var4 = var8.bind(var10)(var4);
                     SaveGenerator(address=517);
-case 24:
+case 39:
                     return var4;
-case 25:
+case 40:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(var8) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+                    if(var8) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
                     var12 = _closure1_slot3;
                     var8 = 0;
                     var11 = var4[var8];
@@ -220,19 +347,19 @@ case 27:
                     var6 = var5.JSON;
                     var5 = var6.parse;
                     var5 = var5.bind(var6)(var7);
-case 28: // try_end1
+case 43: // try_end1
                     return var5;
-case 26:
+case 41:
                     return var4;
-case 20:
+case 35:
                     return var3;
-case 9:
+case 25:
                     return var2;
-case 29: // catch_target0 // catch_target1
+case 44: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     var2 = null;
                     return var2;
-case 2:
+case 18:
                     return var1;
                 }
             };
@@ -254,145 +381,13 @@ case 2:
     };
     var4 = var4.bind(var1)();
     var _closure1_slot7 = var4;
-    var4 = function() {
-        var4 = _closure1_slot2;
-        var3 = undefined;
-        var2 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    StartGenerator();
-                    var2 = arg1;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(var7) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
-                    var5 = var2.animationSource;
-                    var3 = var2.localImageSource;
-                    var9 = undefined;
-                    var4 = undefined;
-                    var6 = undefined;
-                    SaveGenerator(address=35);
-case 32:
-                    return var9;
-case 33:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(var7) { _fun0002_ip = 34; continue _fun0002 }
-case 35: // try_start_0
-                    var10 = _closure1_slot6;
-                    var8 = var10.resolveAssetSource;
-                    var3 = var8.bind(var10)(var3);
-                    var10 = var3.uri;
-                    var8 = _closure1_slot0;
-                    var11 = _closure1_slot1;
-                    var3 = 6;
-                    var3 = var11[var3];
-                    var8 = var8.bind(var9)(var3);
-                    var3 = var8.makeSource;
-                    var10 = var3.bind(var8)(var10);
-                    var4 = var10;
-                    var3 = _closure1_slot5;
-                    var8 = var3.ImageManager;
-                    var3 = var8.getAvatarBase64;
-                    var3 = var3.bind(var8)(var10);
-                    SaveGenerator(address=126);
-case 36:
-                    return var3;
-case 37:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(var8) { _fun0002_ip = 38; continue _fun0002 }
-case 39:
-                    var12 = var5;
-                    var5 = var12.assets;
-                    var8 = 0;
-                    var11 = var5[var8];
-                    var5 = global;
-                    var10 = var5.HermesInternal;
-                    var13 = var10.concat;
-                    var10 = 'data:image/png;base64,';
-                    var10 = var13.bind(var10)(var3);
-                    var11['p'] = var10;
-                    var11 = var5.JSON;
-                    var10 = var11.stringify;
-                    var6 = var10.bind(var11)(var12);
-                    var10 = _closure1_slot5;
-                    var11 = var10.ImageManager;
-                    var10 = var11.getDominantColors;
-                    var4 = var10.bind(var11)(var4);
-                    SaveGenerator(address=222);
-case 40:
-                    return var4;
-case 41:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(var10) { _fun0002_ip = 42; continue _fun0002 }
-case 13:
-                    var12 = _closure1_slot3;
-                    var11 = var4[var8];
-                    var10 = 3;
-                    var10 = var12.bind(var9)(var11, var10);
-                    var13 = var10[var8];
-                    var8 = 1;
-                    var12 = var10[var8];
-                    var8 = 2;
-                    var11 = var10[var8];
-                    var8 = _closure1_slot0;
-                    var10 = _closure1_slot1;
-                    var7 = 7;
-                    var7 = var10[var7];
-                    var10 = var8.bind(var9)(var7);
-                    var9 = var10.replaceAnimationColors;
-                    var8 = var6;
-                    var7 = {};
-                    var7['r'] = var13;
-                    var7['g'] = var12;
-                    var7['b'] = var11;
-                    var7 = var9.bind(var10)(var8, var7);
-                    var6 = var7;
-                    var6 = var5.JSON;
-                    var5 = var6.parse;
-                    var5 = var5.bind(var6)(var7);
-case 43: // try_end0
-                    return var5;
-case 42:
-                    return var4;
-case 38:
-                    return var3;
-case 44: // catch_target0
-                    CatchBlockStart(arg_register=2);
-                    var3 = null;
-                    return var3;
-case 34:
-                    return var2;
-case 30:
-                    return var1;
-                }
-            };
-            var2 = var1.next;
-            var2 = var2.bind(var1)();
-            return var1;
-        };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function generateAnimationSourceFromLocalImage(arg1) {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
-        return var1;
-    };
-    var4 = var4.bind(var1)();
-    var _closure1_slot8 = var4;
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/burst_reactions/BurstReactionEffectUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function useBurstReactionAnimationSource(arg1) {
         var1 = arg1;
         var9 = var1.channelId;
         var _closure2_slot0 = var9;
@@ -495,7 +490,7 @@ case 45:
         return var1;
     };
     var3['useBurstReactionAnimationSource'] = var4;
-    var2 = function(arg1) {
+    var2 = function useSuperReactionAnimationSourceFromLocalImage(arg1) {
         var1 = arg1;
         var7 = var1.animationSource;
         var _closure2_slot0 = var7;
@@ -531,14 +526,23 @@ case 0:
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0004_ip = 53; continue _fun0004 }
 case 46:
-                            var5 = _closure1_slot8;
-                            var2 = {};
-                            var3 = _closure2_slot0;
-                            var2['animationSource'] = var3;
-                            var3 = _closure2_slot1;
-                            var2['localImageSource'] = var3;
+                            var5 = {};
+                            var2 = _closure2_slot0;
+                            var5['animationSource'] = var2;
+                            var2 = _closure2_slot1;
+                            var5['localImageSource'] = var2;
+                            var2 = function generateAnimationSourceFromLocalImage(arg1) {
+                                var1 = undefined;
+                                var4 = _closure1_slot8;
+                                var3 = var4.apply;
+                                var1 = arguments;
+                                var2 = var1;
+                                var1 = this;
+                                var1 = var3.bind(var4)(var1, var2);
+                                return var1;
+                            };
                             var3 = undefined;
-                            var2 = var5.bind(var3)(var2);
+                            var2 = var2.bind(var3)(var5);
                             SaveGenerator(address=48);
 case 54:
                             return var2;

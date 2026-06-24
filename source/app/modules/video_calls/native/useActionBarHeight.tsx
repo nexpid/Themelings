@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/video_calls/native/useActionBarHeight.tsx';
     var6 = var7.bind(var8)(var6);
-    var5 = function _default(arg1) {
+    var5 = function useActionBarHeight(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;

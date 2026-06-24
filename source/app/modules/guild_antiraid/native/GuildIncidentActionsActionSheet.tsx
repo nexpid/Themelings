@@ -7,6 +7,89 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
+    var1 = function DurationSelectionActionSheet(arg1) {
+        var1 = arg1;
+        var1 = var1.onClose;
+        var _closure2_slot0 = var1;
+        var1 = _closure1_slot11;
+        var4 = undefined;
+        var11 = var1.bind(var4)();
+        var3 = _closure1_slot15;
+        var7 = _closure1_slot0;
+        var10 = _closure1_slot2;
+        var1 = 7;
+        var1 = var10[var1];
+        var1 = var7.bind(var4)(var1);
+        var2 = var1.ActionSheet;
+        var1 = {};
+        var12 = _closure1_slot14;
+        var5 = 8;
+        var5 = var10[var5];
+        var5 = var7.bind(var4)(var5);
+        var8 = var5.BottomSheetTitleHeader;
+        var5 = {};
+        var13 = 9;
+        var14 = var10[var13];
+        var14 = var7.bind(var4)(var14);
+        var15 = var14.intl;
+        var14 = var15.string;
+        var13 = var10[var13];
+        var13 = var7.bind(var4)(var13);
+        var13 = var13.t;
+        var13 = var13.vKYZzc;
+        var13 = var14.bind(var15)(var13);
+        var5['title'] = var13;
+        var8 = var12.bind(var4)(var8, var5);
+        var5 = new Array(2);
+        var5[0] = var8;
+        var8 = _closure1_slot14;
+        var6 = 10;
+        var6 = var10[var6];
+        var6 = var7.bind(var4)(var6);
+        var6 = var6.ActionSheetRow;
+        var7 = var6.Group;
+        var6 = {};
+        var10 = false;
+        var6['hasIcons'] = var10;
+        var10 = var11.map;
+        var9 = function(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var5 = _closure1_slot14;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 10;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.ActionSheetRow;
+            var2 = {};
+            var7 = var1.label;
+            var2['label'] = var7;
+            var6 = function onPress() {
+                var3 = _closure1_slot9;
+                var1 = _closure3_slot0;
+                var2 = var1.value;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var2 = _closure2_slot0;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
+            var2['onPress'] = var6;
+            var1 = var1.value;
+            var1 = var5.bind(var4)(var3, var2, var1);
+            return var1;
+        };
+        var9 = var10.bind(var11)(var9);
+        var6['children'] = var9;
+        var6 = var8.bind(var4)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot17 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -70,88 +153,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['beta'] = var9;
     var2 = var7.bind(var8)(var2);
     var _closure1_slot16 = var2;
-    var2 = function DurationSelectionActionSheet(arg1) {
-        var1 = arg1;
-        var1 = var1.onClose;
-        var _closure2_slot0 = var1;
-        var1 = _closure1_slot11;
-        var4 = undefined;
-        var11 = var1.bind(var4)();
-        var3 = _closure1_slot15;
-        var7 = _closure1_slot0;
-        var10 = _closure1_slot2;
-        var1 = 7;
-        var1 = var10[var1];
-        var1 = var7.bind(var4)(var1);
-        var2 = var1.ActionSheet;
-        var1 = {};
-        var8 = _closure1_slot14;
-        var5 = 8;
-        var5 = var10[var5];
-        var5 = var7.bind(var4)(var5);
-        var6 = var5.BottomSheetTitleHeader;
-        var5 = {};
-        var12 = 9;
-        var13 = var10[var12];
-        var13 = var7.bind(var4)(var13);
-        var14 = var13.intl;
-        var13 = var14.string;
-        var12 = var10[var12];
-        var12 = var7.bind(var4)(var12);
-        var12 = var12.t;
-        var12 = var12.vKYZzc;
-        var12 = var13.bind(var14)(var12);
-        var5['title'] = var12;
-        var6 = var8.bind(var4)(var6, var5);
-        var5 = new Array(2);
-        var5[0] = var6;
-        var6 = 10;
-        var6 = var10[var6];
-        var6 = var7.bind(var4)(var6);
-        var6 = var6.ActionSheetRow;
-        var7 = var6.Group;
-        var6 = {};
-        var10 = false;
-        var6['hasIcons'] = var10;
-        var10 = var11.map;
-        var9 = function(arg1) {
-            var1 = arg1;
-            var _closure3_slot0 = var1;
-            var5 = _closure1_slot14;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 10;
-            var2 = var4[var2];
-            var4 = undefined;
-            var2 = var3.bind(var4)(var2);
-            var3 = var2.ActionSheetRow;
-            var2 = {};
-            var7 = var1.label;
-            var2['label'] = var7;
-            var6 = function onPress() {
-                var3 = _closure1_slot9;
-                var1 = _closure3_slot0;
-                var2 = var1.value;
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var2 = _closure2_slot0;
-                var2 = var2.bind(var1)();
-                return var1;
-            };
-            var2['onPress'] = var6;
-            var1 = var1.value;
-            var1 = var5.bind(var4)(var3, var2, var1);
-            return var1;
-        };
-        var9 = var10.bind(var11)(var9);
-        var6['children'] = var9;
-        var6 = var8.bind(var4)(var7, var6);
-        var5[1] = var6;
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot17 = var2;
     var2 = function GuildIncidentActionsActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -160,11 +161,48 @@ case 0:
             var _closure2_slot0 = var3;
             var1 = var1.analyticsData;
             var _closure2_slot1 = var1;
-            var4 = undefined;
-            var _closure2_slot8 = var4;
-            var _closure2_slot9 = var4;
+            var1 = function onDurationSelectorClose() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 13;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.showActionSheet;
+                var2 = {};
+                var7 = _closure1_slot14;
+                var6 = _closure1_slot18;
+                var5 = {};
+                var9 = _closure2_slot0;
+                var5['guild'] = var9;
+                var8 = _closure2_slot1;
+                var5['analyticsData'] = var8;
+                var5 = var7.bind(var1)(var6, var5);
+                var2['content'] = var5;
+                var5 = 'GuildIncidentActionsActionSheet';
+                var2['key'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var _closure2_slot8 = var1;
+            var15 = function handleClose() {
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 13;
+                var3 = var3[var1];
+                var1 = undefined;
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.hideActionSheet;
+                var3 = 'GuildIncidentActionsActionSheet';
+                var3 = var4.bind(var5)(var3);
+                var2 = _closure1_slot5;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
+            var _closure2_slot9 = var15;
             var1 = _closure1_slot16;
-            var25 = var1.bind(var4)();
+            var4 = undefined;
+            var26 = var1.bind(var4)();
             var1 = _closure1_slot10;
             var2 = var1.bind(var4)();
             var1 = var2.time;
@@ -208,8 +246,8 @@ case 0:
             var2 = var5.initialLockdownDurationHours;
             var2 = var2.bind(var5)(var6);
             var _closure2_slot7 = var2;
-            var14 = null;
-            var5 = var14 == var3;
+            var23 = null;
+            var5 = var23 == var3;
             var13 = undefined;
             if(var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -284,46 +322,7 @@ case 6:
                     return var1;
                 }
             };
-            var9 = var3.bind(var5)(var1, var2);
-            var1 = function onDurationSelectorClose() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 13;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.showActionSheet;
-                var2 = {};
-                var7 = _closure1_slot14;
-                var6 = _closure1_slot18;
-                var5 = {};
-                var9 = _closure2_slot0;
-                var5['guild'] = var9;
-                var8 = _closure2_slot1;
-                var5['analyticsData'] = var8;
-                var5 = var7.bind(var1)(var6, var5);
-                var2['content'] = var5;
-                var5 = 'GuildIncidentActionsActionSheet';
-                var2['key'] = var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            _closure2_slot8 = var1;
-            var15 = function handleClose() {
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 13;
-                var3 = var3[var1];
-                var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.hideActionSheet;
-                var3 = 'GuildIncidentActionsActionSheet';
-                var3 = var4.bind(var5)(var3);
-                var2 = _closure1_slot5;
-                var2 = var2.bind(var1)();
-                return var1;
-            };
-            _closure2_slot9 = var15;
+            var8 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot15;
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -332,8 +331,8 @@ case 6:
             var1 = var12.bind(var4)(var1);
             var2 = var1.ActionSheet;
             var1 = {};
-            var8 = true;
-            var1['startExpanded'] = var8;
+            var9 = true;
+            var1['startExpanded'] = var9;
             var7 = _closure1_slot14;
             var5 = 8;
             var5 = var10[var5];
@@ -341,50 +340,53 @@ case 6:
             var6 = var5.BottomSheetTitleHeader;
             var5 = {};
             var18 = 9;
-            var23 = var10[var18];
-            var23 = var12.bind(var4)(var23);
-            var26 = var23.intl;
-            var24 = var26.string;
-            var23 = var10[var18];
-            var23 = var12.bind(var4)(var23);
-            var23 = var23.t;
-            var23 = var23.oCYAc7;
-            var23 = var24.bind(var26)(var23);
-            var5['title'] = var23;
-            var26 = 14;
-            var23 = var10[var26];
-            var23 = var12.bind(var4)(var23);
-            var24 = var23.BetaTag;
-            var23 = {};
-            var26 = var10[var26];
-            var26 = var12.bind(var4)(var26);
-            var26 = var26.BetaSizes;
-            var26 = var26.SMALL;
-            var23['size'] = var26;
-            var25 = var25.beta;
-            var23['style'] = var25;
-            var23 = var7.bind(var4)(var24, var23);
-            var5['leading'] = var23;
+            var14 = var10[var18];
+            var14 = var12.bind(var4)(var14);
+            var25 = var14.intl;
+            var24 = var25.string;
+            var14 = var10[var18];
+            var14 = var12.bind(var4)(var14);
+            var14 = var14.t;
+            var14 = var14.oCYAc7;
+            var14 = var24.bind(var25)(var14);
+            var5['title'] = var14;
+            var25 = _closure1_slot14;
+            var27 = 14;
+            var14 = var10[var27];
+            var14 = var12.bind(var4)(var14);
+            var24 = var14.BetaTag;
+            var14 = {};
+            var27 = var10[var27];
+            var27 = var12.bind(var4)(var27);
+            var27 = var27.BetaSizes;
+            var27 = var27.SMALL;
+            var14['size'] = var27;
+            var26 = var26.beta;
+            var14['style'] = var26;
+            var14 = var25.bind(var4)(var24, var14);
+            var5['leading'] = var14;
             var5 = var7.bind(var4)(var6, var5);
             var1['header'] = var5;
+            var7 = _closure1_slot14;
             var26 = 15;
             var5 = var10[var26];
             var5 = var12.bind(var4)(var5);
             var6 = var5.TableRow;
             var5 = {'trailing': null, 'label': null, 'arrow': true, 'onPress': null, 'start': true, 'end': true};
+            var14 = _closure1_slot14;
             var10 = var10[var26];
             var10 = var12.bind(var4)(var10);
             var10 = var10.TableRow;
             var12 = var10.TrailingText;
             var10 = {};
-            var23 = var14 != var9;
-            var14 = '';
-            if(!var23) { _fun0001_ip = 8; continue _fun0001 }
+            var24 = var23 != var8;
+            var23 = '';
+            if(!var24) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var14 = var9;
+            var23 = var8;
 case 8:
-            var10['text'] = var14;
-            var10 = var7.bind(var4)(var12, var10);
+            var10['text'] = var23;
+            var10 = var14.bind(var4)(var12, var10);
             var5['trailing'] = var10;
             var28 = _closure1_slot0;
             var24 = _closure1_slot2;
@@ -430,7 +432,7 @@ case 8:
             var10 = var10.vKYZzc;
             var10 = var12.bind(var14)(var10);
             var5['accessibilityLabel'] = var10;
-            var5['accessibilityHint'] = var9;
+            var5['accessibilityHint'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(4);
             var5[0] = var6;
@@ -438,9 +440,9 @@ case 8:
             var6 = 16;
             var6 = var24[var6];
             var6 = var28.bind(var4)(var6);
-            var9 = var6.TableRowGroup;
+            var8 = var6.TableRowGroup;
             var7 = {};
-            var7['hasIcons'] = var8;
+            var7['hasIcons'] = var9;
             var23 = _closure1_slot14;
             var6 = 17;
             var12 = var24[var6];
@@ -495,24 +497,25 @@ case 13:
             var14 = var28.bind(var4)(var14);
             var23 = var14.TableRow;
             var14 = {};
+            var29 = _closure1_slot14;
             var26 = var25[var26];
             var26 = var28.bind(var4)(var26);
             var26 = var26.TableRow;
             var27 = var26.Icon;
             var26 = {};
-            var30 = _closure1_slot1;
-            var29 = 18;
-            var29 = var25[var29];
-            var29 = var30.bind(var4)(var29);
-            var26['source'] = var29;
-            var29 = 19;
-            var29 = var25[var29];
-            var29 = var28.bind(var4)(var29);
-            var29 = var29.WarningIcon;
-            var26['IconComponent'] = var29;
-            var29 = 'secondary';
-            var26['variant'] = var29;
-            var26 = var24.bind(var4)(var27, var26);
+            var31 = _closure1_slot1;
+            var30 = 18;
+            var30 = var25[var30];
+            var30 = var31.bind(var4)(var30);
+            var26['source'] = var30;
+            var30 = 19;
+            var30 = var25[var30];
+            var30 = var28.bind(var4)(var30);
+            var30 = var30.WarningIcon;
+            var26['IconComponent'] = var30;
+            var30 = 'secondary';
+            var26['variant'] = var30;
+            var26 = var29.bind(var4)(var27, var26);
             var14['icon'] = var26;
             var26 = var25[var18];
             var26 = var28.bind(var4)(var26);
@@ -528,37 +531,37 @@ case 13:
 case 12:
             var12[1] = var13;
             var7['children'] = var12;
-            var7 = var10.bind(var4)(var9, var7);
+            var7 = var10.bind(var4)(var8, var7);
             var5[1] = var7;
-            var14 = _closure1_slot14;
+            var8 = _closure1_slot14;
             var24 = _closure1_slot0;
             var13 = _closure1_slot2;
             var6 = var13[var6];
             var6 = var24.bind(var4)(var6);
             var7 = var6.TableSwitchRow;
             var6 = {};
-            var9 = var13[var18];
-            var9 = var24.bind(var4)(var9);
-            var12 = var9.intl;
-            var10 = var12.string;
-            var9 = var13[var18];
-            var9 = var24.bind(var4)(var9);
-            var9 = var9.t;
-            var9 = var9.wrDmA/;
-            var9 = var10.bind(var12)(var9);
-            var6['label'] = var9;
-            var9 = var13[var18];
-            var9 = var24.bind(var4)(var9);
-            var12 = var9.intl;
-            var10 = var12.string;
-            var9 = var13[var18];
-            var9 = var24.bind(var4)(var9);
-            var9 = var9.t;
-            var9 = var9.UQbJW7;
-            var9 = var10.bind(var12)(var9);
-            var6['subLabel'] = var9;
+            var10 = var13[var18];
+            var10 = var24.bind(var4)(var10);
+            var14 = var10.intl;
+            var12 = var14.string;
+            var10 = var13[var18];
+            var10 = var24.bind(var4)(var10);
+            var10 = var10.t;
+            var10 = var10.wrDmA/;
+            var10 = var12.bind(var14)(var10);
+            var6['label'] = var10;
+            var10 = var13[var18];
+            var10 = var24.bind(var4)(var10);
+            var14 = var10.intl;
+            var12 = var14.string;
+            var10 = var13[var18];
+            var10 = var24.bind(var4)(var10);
+            var10 = var10.t;
+            var10 = var10.UQbJW7;
+            var10 = var12.bind(var14)(var10);
+            var6['subLabel'] = var10;
             var6['value'] = var20;
-            var9 = function onValueChange() {
+            var10 = function onValueChange() {
                 var3 = _closure1_slot7;
                 var1 = _closure2_slot4;
                 var2 = !var1;
@@ -566,10 +569,10 @@ case 12:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var6['onValueChange'] = var9;
-            var6['start'] = var8;
-            var6['end'] = var8;
-            var6 = var14.bind(var4)(var7, var6);
+            var6['onValueChange'] = var10;
+            var6['start'] = var9;
+            var6['end'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
             var5[2] = var6;
             var8 = _closure1_slot15;
             var6 = 20;
@@ -577,6 +580,7 @@ case 12:
             var6 = var24.bind(var4)(var6);
             var7 = var6.ButtonGroup;
             var6 = {};
+            var14 = _closure1_slot14;
             var10 = 21;
             var9 = var13[var10];
             var9 = var24.bind(var4)(var9);
@@ -644,15 +648,15 @@ case 15:
                     var2 = !var3;
 case 14:
                     if(var2) { _fun0004_ip = 16; continue _fun0004 }
-case 2:
+case 17:
                     var2 = _closure2_slot3;
 case 16:
-                    if(var2) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+                    if(var2) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                     var2 = _closure2_slot4;
-case 17:
-                    if(var2) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+case 18:
+                    if(var2) { _fun0004_ip = 20; continue _fun0004 }
+case 2:
                     var3 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var2 = 13;
@@ -674,7 +678,7 @@ case 20:
                     var5 = 'GuildRaidLockdownFeedbackActionSheet';
                     var2['key'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 19:
+case 20:
                     return var1;
                 }
             };

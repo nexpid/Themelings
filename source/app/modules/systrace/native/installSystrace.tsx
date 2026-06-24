@@ -44,6 +44,17 @@ case 2:
     var2 = function installSystrace() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
+            var1 = function getNativeModule() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.default;
+                return var1;
+            };
+            var _closure2_slot0 = var1;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 1;
@@ -54,17 +65,6 @@ case 0:
             var4 = var4.bind(var5)();
             if(!var4) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var4 = function getNativeModule() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var1 = 2;
-                var2 = var2[var1];
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                var1 = var1.default;
-                return var1;
-            };
-            var _closure2_slot0 = var4;
             var3 = _closure1_slot2;
             var4 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {

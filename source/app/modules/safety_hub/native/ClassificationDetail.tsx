@@ -165,7 +165,7 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot17 = var1;
     var1 = function ClassificationActionsTaken(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -246,7 +246,7 @@ case 14:
             var10 = function(arg1) {
                 var1 = arg1;
                 var5 = _closure1_slot13;
-                var4 = _closure1_slot22;
+                var4 = _closure1_slot19;
                 var3 = {};
                 var3['action'] = var1;
                 var2 = var1.id;
@@ -319,7 +319,7 @@ case 16:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot18 = var1;
     var1 = function ClassificationActionsTakenRows(arg1) {
         var1 = arg1;
         var6 = var1.action;
@@ -375,7 +375,7 @@ case 16:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot19 = var1;
     var1 = function ClassificationGuidance(arg1) {
         var1 = arg1;
         var18 = var1.tosLink;
@@ -437,7 +437,7 @@ case 16:
         var8 = var12.bind(var4)(var9, var8);
         var5[1] = var8;
         var9 = _closure1_slot13;
-        var8 = _closure1_slot24;
+        var8 = _closure1_slot21;
         var7 = {};
         var7['classificationTypeText'] = var11;
         var7['policyExplainerLink'] = var10;
@@ -448,7 +448,7 @@ case 16:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot20 = var1;
     var1 = function ClassificationPolicyCard(arg1) {
         var1 = arg1;
         var19 = var1.classificationTypeText;
@@ -542,6 +542,112 @@ case 16:
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
+    };
+    var _closure1_slot21 = var1;
+    var1 = function AppealStatus() {
+        var4 = _closure1_slot13;
+        var8 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var1 = 9;
+        var1 = var9[var1];
+        var3 = undefined;
+        var1 = var8.bind(var3)(var1);
+        var2 = var1.Text;
+        var1 = {'variant': 'text-md/normal', 'color': 'text-muted'};
+        var5 = 11;
+        var6 = var9[var5];
+        var6 = var8.bind(var3)(var6);
+        var7 = var6.intl;
+        var6 = var7.string;
+        var5 = var9[var5];
+        var5 = var8.bind(var3)(var5);
+        var5 = var5.t;
+        var5 = var5.I2H0/E;
+        var5 = var6.bind(var7)(var5);
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot22 = var1;
+    var1 = function LetUsKnow(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot13;
+        var6 = _closure1_slot0;
+        var10 = _closure1_slot2;
+        var1 = 9;
+        var1 = var10[var1];
+        var3 = undefined;
+        var1 = var6.bind(var3)(var1);
+        var2 = var1.Text;
+        var1 = {'variant': 'text-sm/normal', 'color': 'text-muted'};
+        var5 = 11;
+        var7 = var10[var5];
+        var7 = var6.bind(var3)(var7);
+        var8 = var7.intl;
+        var7 = var8.format;
+        var5 = var10[var5];
+        var5 = var6.bind(var3)(var5);
+        var5 = var5.t;
+        var6 = var5.IFxUaT;
+        var5 = {};
+        var9 = function letUsKnowHook(arg1, arg2) {
+            var5 = _closure1_slot13;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var1 = var3[var1];
+            var4 = undefined;
+            var1 = var2.bind(var4)(var1);
+            var3 = var1.Text;
+            var2 = {'onPress': null, 'variant': 'text-sm/normal', 'color': 'text-link'};
+            var1 = _closure2_slot0;
+            var1 = var1.onPressLetUsKnow;
+            var2['onPress'] = var1;
+            var1 = arg1;
+            var2['children'] = var1;
+            var1 = arg2;
+            var1 = var5.bind(var4)(var3, var2, var1);
+            return var1;
+        };
+        var5['letUsKnowHook'] = var9;
+        var5 = var7.bind(var8)(var6, var5);
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot23 = var1;
+    var1 = function AppealFooter(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var9 = arg1;
+            var1 = _closure1_slot16;
+            var4 = undefined;
+            var5 = var1.bind(var4)();
+            var3 = _closure1_slot13;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var5 = var5.letUsKnowContainer;
+            var1['style'] = var5;
+            var5 = var9.hasBeenAppealed;
+            var8 = _closure1_slot13;
+            if(var5) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
+            var7 = _closure1_slot23;
+            var5 = {};
+            var9 = var9.onPressLetUsKnow;
+            var5['onPressLetUsKnow'] = var9;
+            var5 = var8.bind(var4)(var7, var5);
+            _fun0003_ip = 21; continue _fun0003;
+case 19:
+            var7 = _closure1_slot22;
+            var6 = {};
+            var5 = var8.bind(var4)(var7, var6);
+case 21:
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var _closure1_slot24 = var1;
     var1 = function ClassificationDetailFooter(arg1) {
@@ -767,112 +873,6 @@ case 16:
     var4['redirectButtonWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot16 = var4;
-    var4 = function AppealStatus() {
-        var4 = _closure1_slot13;
-        var8 = _closure1_slot0;
-        var9 = _closure1_slot2;
-        var1 = 9;
-        var1 = var9[var1];
-        var3 = undefined;
-        var1 = var8.bind(var3)(var1);
-        var2 = var1.Text;
-        var1 = {'variant': 'text-md/normal', 'color': 'text-muted'};
-        var5 = 11;
-        var6 = var9[var5];
-        var6 = var8.bind(var3)(var6);
-        var7 = var6.intl;
-        var6 = var7.string;
-        var5 = var9[var5];
-        var5 = var8.bind(var3)(var5);
-        var5 = var5.t;
-        var5 = var5.I2H0/E;
-        var5 = var6.bind(var7)(var5);
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot17 = var4;
-    var4 = function LetUsKnow(arg1) {
-        var1 = arg1;
-        var _closure2_slot0 = var1;
-        var4 = _closure1_slot13;
-        var6 = _closure1_slot0;
-        var10 = _closure1_slot2;
-        var1 = 9;
-        var1 = var10[var1];
-        var3 = undefined;
-        var1 = var6.bind(var3)(var1);
-        var2 = var1.Text;
-        var1 = {'variant': 'text-sm/normal', 'color': 'text-muted'};
-        var5 = 11;
-        var7 = var10[var5];
-        var7 = var6.bind(var3)(var7);
-        var8 = var7.intl;
-        var7 = var8.format;
-        var5 = var10[var5];
-        var5 = var6.bind(var3)(var5);
-        var5 = var5.t;
-        var6 = var5.IFxUaT;
-        var5 = {};
-        var9 = function letUsKnowHook(arg1, arg2) {
-            var5 = _closure1_slot13;
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 9;
-            var1 = var3[var1];
-            var4 = undefined;
-            var1 = var2.bind(var4)(var1);
-            var3 = var1.Text;
-            var2 = {'onPress': null, 'variant': 'text-sm/normal', 'color': 'text-link'};
-            var1 = _closure2_slot0;
-            var1 = var1.onPressLetUsKnow;
-            var2['onPress'] = var1;
-            var1 = arg1;
-            var2['children'] = var1;
-            var1 = arg2;
-            var1 = var5.bind(var4)(var3, var2, var1);
-            return var1;
-        };
-        var5['letUsKnowHook'] = var9;
-        var5 = var7.bind(var8)(var6, var5);
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot18 = var4;
-    var4 = function AppealFooter(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var9 = arg1;
-            var1 = _closure1_slot16;
-            var4 = undefined;
-            var5 = var1.bind(var4)();
-            var3 = _closure1_slot13;
-            var2 = _closure1_slot4;
-            var1 = {};
-            var5 = var5.letUsKnowContainer;
-            var1['style'] = var5;
-            var5 = var9.hasBeenAppealed;
-            var8 = _closure1_slot13;
-            if(var5) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-            var7 = _closure1_slot18;
-            var5 = {};
-            var9 = var9.onPressLetUsKnow;
-            var5['onPressLetUsKnow'] = var9;
-            var5 = var8.bind(var4)(var7, var5);
-            _fun0003_ip = 21; continue _fun0003;
-case 19:
-            var7 = _closure1_slot17;
-            var6 = {};
-            var5 = var8.bind(var4)(var7, var6);
-case 21:
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
-    };
-    var _closure1_slot19 = var4;
     var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -1105,7 +1105,7 @@ case 41:
             var14[0] = var15;
             var10['style'] = var14;
             var16 = _closure1_slot13;
-            var15 = _closure1_slot20;
+            var15 = _closure1_slot17;
             var14 = {};
             var17 = var23.description;
             var14['classificationTypeText'] = var17;
@@ -1130,7 +1130,7 @@ case 42:
             var15 = var17.bind(var3)(var16, var15);
             var14[1] = var15;
             var17 = _closure1_slot13;
-            var16 = _closure1_slot21;
+            var16 = _closure1_slot18;
             var15 = {};
             var19 = var23.actions;
             var15['actions'] = var19;
@@ -1145,7 +1145,7 @@ case 42:
             var15 = var17.bind(var3)(var16, var15);
             var14[2] = var15;
             var17 = _closure1_slot13;
-            var16 = _closure1_slot23;
+            var16 = _closure1_slot20;
             var15 = {};
             var19 = _closure1_slot11;
             var20 = var19.APPEALS_LINK;
@@ -1159,7 +1159,7 @@ case 42:
             var19 = var23.explainer_link;
             var15['policyExplainerLink'] = var19;
             var21 = _closure1_slot13;
-            var20 = _closure1_slot19;
+            var20 = _closure1_slot24;
             var19 = {};
             var23 = var23.appeal_status;
             var23 = var2 != var23;

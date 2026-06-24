@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot27 = var2;
+            _closure1_slot26 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot26 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -117,7 +117,7 @@ case 26:
             var7 = undefined;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 25:
-            var9 = _closure1_slot29;
+            var9 = _closure1_slot28;
             var7 = var9.bind(var8)(var3, var8);
 case 27:
             _fun0002_ip = 28; continue _fun0002;
@@ -129,7 +129,7 @@ case 28:
             var6 = var7;
             _fun0002_ip = 14; continue _fun0002;
 case 16:
-            var7 = _closure1_slot29;
+            var7 = _closure1_slot28;
             var6 = var7.bind(var8)(var3, var8);
 case 14:
             var4 = var6;
@@ -188,7 +188,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot27 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -220,6 +220,11 @@ case 8:
 case 3:
             return var1;
         }
+    };
+    var _closure1_slot28 = var1;
+    var1 = function emitChanges() {
+        var1 = true;
+        return var1;
     };
     var _closure1_slot29 = var1;
     var1 = function handleReferralTrialResolve(arg1) {
@@ -398,11 +403,6 @@ case 40:
     var _closure1_slot23 = var8;
     var _closure1_slot24 = var2;
     var _closure1_slot25 = var2;
-    var2 = function emitChanges() {
-        var1 = true;
-        return var1;
-    };
-    var _closure1_slot26 = var2;
     var2 = 10;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -420,7 +420,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot27;
+                var1 = _closure1_slot26;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0006_ip = 46; continue _fun0006 }
 case 47:
@@ -460,7 +460,7 @@ case 48:
             var3 = var4.syncWith;
             var2 = new Array(1);
             var2[0] = var5;
-            var1 = _closure1_slot26;
+            var1 = _closure1_slot29;
             var1 = var3.bind(var4)(var2, var1);
             var1 = undefined;
             return var1;
@@ -900,7 +900,7 @@ case 0:
             var4 = var4.bind(var1)(var2);
             var2 = var4.fetchReferralsRemaining;
             var2 = var2.bind(var4)();
-            var2 = _closure1_slot28;
+            var2 = _closure1_slot27;
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;

@@ -7,32 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var7;
-    var1 = global;
-    var8 = var1.Object;
-    var5 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var4 = var7[var1];
-    var1 = undefined;
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.isAvatarDecorationRecord;
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.isProfileEffectRecord;
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var5 = var4.PremiumSubscriptionSKUs;
-    var _closure1_slot5 = var5;
-    var4 = var4.SubscriptionPlanInfo;
-    var _closure1_slot6 = var4;
     var4 = function getCollectibleTypeName(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -159,6 +133,32 @@ case 2:
         }
     };
     var _closure1_slot7 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.isAvatarDecorationRecord;
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.isProfileEffectRecord;
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.PremiumSubscriptionSKUs;
+    var _closure1_slot5 = var8;
+    var5 = var5.SubscriptionPlanInfo;
+    var _closure1_slot6 = var5;
     var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -209,7 +209,7 @@ case 12:
         }
     };
     var3['getAvatarDecorationPreviewUrl'] = var4;
-    var4 = function(arg1) {
+    var4 = function getProfileEffectPreviewUrl(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
@@ -235,7 +235,7 @@ case 16:
         }
     };
     var3['getProfileEffectPreviewUrl'] = var4;
-    var4 = function(arg1) {
+    var4 = function isGuildBoostSubscription(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
@@ -260,7 +260,7 @@ case 18:
         }
     };
     var3['isGuildBoostSubscription'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function getPurchaseDisplayInfo(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;

@@ -1,13 +1,13 @@
 // app/modules/app_launcher/native/options/role/AppLauncherRoleListActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var6 = metroImportDefault;
-    var9 = metroImportAll;
+    var9 = metroImportDefault;
+    var10 = metroImportAll;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
-    var _closure1_slot1 = var6;
-    var _closure1_slot2 = var9;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var10;
     var _closure1_slot3 = var8;
     var1 = function getRoleColor(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -25,7 +25,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var4 = function RoleIcon(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -36,7 +36,7 @@ case 0:
             if(!(var9 != var10)) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
             var1 = {};
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var2 = undefined;
             var2 = var3.bind(var2)(var10);
             var1['backgroundColor'] = var2;
@@ -73,49 +73,7 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot14 = var4;
-    var1 = global;
-    var11 = var1.Object;
-    var10 = var11.defineProperty;
-    var2 = {};
-    var1 = true;
-    var2['value'] = var1;
-    var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var2);
-    var1 = 0;
-    var2 = var8[var1];
-    var1 = undefined;
-    var2 = var6.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 1;
-    var2 = var8[var2];
-    var2 = var9.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 2;
-    var2 = var8[var2];
-    var2 = var6.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 3;
-    var2 = var8[var2];
-    var2 = var7.bind(var1)(var2);
-    var2 = var2.isEveryoneRole;
-    var _closure1_slot7 = var2;
-    var2 = 4;
-    var2 = var8[var2];
-    var2 = var6.bind(var1)(var2);
-    var _closure1_slot8 = var2;
-    var2 = 5;
-    var2 = var8[var2];
-    var2 = var7.bind(var1)(var2);
-    var2 = var2.DEFAULT_ROLE_COLOR_HEX;
-    var _closure1_slot9 = var2;
-    var2 = 6;
-    var2 = var8[var2];
-    var2 = var7.bind(var1)(var2);
-    var6 = var2.jsx;
-    var _closure1_slot10 = var6;
-    var2 = var2.jsxs;
-    var _closure1_slot11 = var2;
+    var _closure1_slot13 = var4;
     var2 = function RoleRow(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -199,7 +157,7 @@ case 9:
             var7 = var14.bind(var5)(var13, var7);
             var2['label'] = var7;
             var14 = _closure1_slot10;
-            var13 = _closure1_slot14;
+            var13 = _closure1_slot13;
             var7 = {};
             var7['role'] = var1;
             var7 = var14.bind(var5)(var13, var7);
@@ -242,7 +200,49 @@ case 11:
             return var1;
         }
     };
-    var _closure1_slot12 = var2;
+    var _closure1_slot14 = var2;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot4 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var10.bind(var1)(var6);
+    var _closure1_slot5 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot6 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.isEveryoneRole;
+    var _closure1_slot7 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot8 = var6;
+    var6 = 5;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.DEFAULT_ROLE_COLOR_HEX;
+    var _closure1_slot9 = var6;
+    var6 = 6;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.jsx;
+    var _closure1_slot10 = var9;
+    var6 = var6.jsxs;
+    var _closure1_slot11 = var6;
     var6 = 18;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -259,12 +259,33 @@ case 0:
             var _closure2_slot1 = var10;
             var1 = var2.channel;
             var14 = var2.option;
+            var2 = function handleRolePress(arg1) {
+                var1 = arg1;
+                var1 = var1.role;
+                var4 = _closure2_slot0;
+                var3 = {};
+                var3['role'] = var1;
+                var1 = undefined;
+                var3 = var4.bind(var1)(var3);
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot3;
+                var3 = 15;
+                var3 = var5[var3];
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.hideActionSheet;
+                var3 = 'AppLauncherRoleListActionSheet';
+                var3 = var4.bind(var5)(var3);
+                var2 = _closure2_slot1;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
+            var _closure2_slot8 = var2;
             var1 = var1.guild_id;
             var _closure2_slot2 = var1;
-            var6 = _closure1_slot5;
-            var2 = var6.useState;
+            var3 = _closure1_slot5;
+            var2 = var3.useState;
             var1 = '';
-            var3 = var2.bind(var6)(var1);
+            var3 = var2.bind(var3)(var1);
             var2 = _closure1_slot4;
             var4 = undefined;
             var1 = 2;
@@ -275,16 +296,17 @@ case 0:
             var2 = 1;
             var2 = var3[var2];
             var _closure2_slot4 = var2;
-            var3 = var6.useRef;
+            var5 = _closure1_slot5;
+            var3 = var5.useRef;
             var2 = null;
-            var13 = var3.bind(var6)(var2);
+            var13 = var3.bind(var5)(var2);
             var _closure2_slot5 = var13;
             var9 = _closure1_slot0;
             var5 = _closure1_slot3;
             var2 = 9;
             var2 = var5[var2];
-            var15 = var9.bind(var4)(var2);
-            var12 = var15.useStateFromStores;
+            var12 = var9.bind(var4)(var2);
+            var6 = var12.useStateFromStores;
             var2 = _closure1_slot8;
             var3 = new Array(1);
             var3[0] = var2;
@@ -295,8 +317,9 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var12 = var12.bind(var15)(var3, var2);
+            var12 = var6.bind(var12)(var3, var2);
             var _closure2_slot6 = var12;
+            var6 = _closure1_slot5;
             var3 = var6.useMemo;
             var2 = new Array(2);
             var2[0] = var12;
@@ -336,27 +359,6 @@ case 14:
             var12 = var3.bind(var6)(var1, var2);
             var _closure2_slot7 = var12;
             var6 = var12.length;
-            var1 = function handleRolePress(arg1) {
-                var1 = arg1;
-                var1 = var1.role;
-                var4 = _closure2_slot0;
-                var3 = {};
-                var3['role'] = var1;
-                var1 = undefined;
-                var3 = var4.bind(var1)(var3);
-                var4 = _closure1_slot1;
-                var5 = _closure1_slot3;
-                var3 = 15;
-                var3 = var5[var3];
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.hideActionSheet;
-                var3 = 'AppLauncherRoleListActionSheet';
-                var3 = var4.bind(var5)(var3);
-                var2 = _closure2_slot1;
-                var2 = var2.bind(var1)();
-                return var1;
-            };
-            var _closure2_slot8 = var1;
             var3 = _closure1_slot11;
             var1 = 16;
             var1 = var5[var1];
@@ -413,7 +415,7 @@ case 19:
                 var _closure3_slot0 = var7;
                 var5 = var1.index;
                 var4 = _closure1_slot10;
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot14;
                 var2 = {};
                 var8 = _closure2_slot2;
                 var2['guildId'] = var8;

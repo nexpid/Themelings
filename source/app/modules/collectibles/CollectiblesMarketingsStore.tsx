@@ -160,7 +160,7 @@ case 8:
     var4 = var6[var4];
     var12 = var7.bind(var1)(var4);
     var4 = {};
-    var9 = function COLLECTIBLES_MARKETING_FETCH() {
+    var9 = function handleFetchMarketing() {
         var1 = _closure1_slot5;
         var1 = var1.FETCHING;
         _closure1_slot7 = var1;
@@ -168,7 +168,7 @@ case 8:
         return var1;
     };
     var4['COLLECTIBLES_MARKETING_FETCH'] = var9;
-    var9 = function COLLECTIBLES_MARKETING_FETCH_SUCCESS(arg1) {
+    var9 = function handleFetchMarketingSuccess(arg1) {
         var1 = arg1;
         var1 = var1.marketings;
         var1 = var1.marketingsBySurfaces;
@@ -180,7 +180,7 @@ case 8:
         return var1;
     };
     var4['COLLECTIBLES_MARKETING_FETCH_SUCCESS'] = var9;
-    var5 = function LOGOUT() {
+    var5 = function reset() {
         var1 = {};
         _closure1_slot6 = var1;
         var1 = _closure1_slot5;

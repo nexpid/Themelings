@@ -131,7 +131,7 @@ case 2:
             var7 = var6.TableRadioGroup;
             var6 = {};
             var6['value'] = var9;
-            var9 = function onChange(arg1) {
+            var9 = function noiseCancellationChanged(arg1) {
                 var5 = arg1;
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot2;

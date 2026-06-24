@@ -1387,7 +1387,7 @@ case 90:
                     var2['style'] = var7;
                     var6 = function onPress() {
                         var3 = _closure3_slot0;
-                        var2 = function(arg1) {
+                        var2 = function handleDayToggle(arg1) {
                             var1 = arg1;
                             var _closure5_slot0 = var1;
                             var3 = _closure2_slot15;

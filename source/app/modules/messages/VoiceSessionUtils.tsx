@@ -8,7 +8,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
     var4 = function getSortedVoiceSessionParticipants(arg1) {
-        var2 = function(arg1) {
+        var2 = function getVoiceSessionParticipants(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = arg1;
@@ -114,7 +114,7 @@ case 7:
     var5 = var6.bind(var7)(var5);
     var3['getSortedVoiceSessionParticipants'] = var4;
     var4 = function useSortedVoiceSessionParticipants(arg1) {
-        var3 = function(arg1) {
+        var3 = function useVoiceSessionParticipants(arg1) {
             var6 = arg1;
             var _closure3_slot0 = var6;
             var5 = _closure1_slot0;

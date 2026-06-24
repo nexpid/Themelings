@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/instant_invite/native/DCDSendUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1, arg2) {
+    var4 = function sendSMS(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -75,7 +75,7 @@ case 4:
         }
     };
     var3['sendSMS'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function sendMail(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -128,7 +128,7 @@ case 9:
         }
     };
     var3['sendMail'] = var4;
-    var4 = function() {
+    var4 = function canSendSMS() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -163,7 +163,7 @@ case 18:
         }
     };
     var3['canSendSMS'] = var4;
-    var4 = function() {
+    var4 = function canSendMail() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = _closure1_slot0;

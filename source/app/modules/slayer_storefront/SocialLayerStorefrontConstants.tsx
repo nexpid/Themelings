@@ -54,7 +54,7 @@ case 4:
         var3['GAME_SHOP_ANNOUNCEMENT_MODAL_VERSION'] = var2;
         var2 = 14;
         var3['SOCIAL_LAYER_DAYS_TO_CLAIM_ITEM'] = var2;
-        var2 = function(arg1) {
+        var2 = function getChannelsGameShopPrefix(arg1) {
             var1 = global;
             var1 = var1.HermesInternal;
             var4 = var1.concat;

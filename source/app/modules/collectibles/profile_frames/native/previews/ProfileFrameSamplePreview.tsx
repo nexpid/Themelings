@@ -7,6 +7,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
+    var1 = function filterLayer(arg1) {
+        var1 = arg1;
+        var2 = var1.responsive;
+        var1 = true;
+        var1 = var1 !== var2;
+        return var1;
+    };
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -43,14 +51,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.jsxs;
     var _closure1_slot7 = var4;
-    var4 = function filterLayer(arg1) {
-        var1 = arg1;
-        var2 = var1.responsive;
-        var1 = true;
-        var1 = var1 !== var2;
-        return var1;
-    };
-    var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -78,14 +78,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['aspectRatio'] = var10;
     var4['sampleProfile'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/profile_frames/native/previews/ProfileFrameSamplePreview.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function ProfileFrameSamplePreview(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -93,7 +93,7 @@ case 0:
             var1 = var2.previewWidth;
             var11 = var2.previewHeight;
             var13 = var2.profileBackgroundColor;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot8;
             var4 = undefined;
             var22 = var2.bind(var4)();
             var3 = var16.innerWidth;
@@ -124,7 +124,7 @@ case 0:
             var5 = var2.bind(var4)(var1);
             var1 = {};
             var1['frame'] = var16;
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot9;
             var1['filterLayer'] = var7;
             var7 = _closure1_slot5;
             var7 = var7.PREVIEW;
@@ -332,7 +332,7 @@ case 4:
             var7 = var7.bind(var4)(var6);
             var6 = {};
             var6['frame'] = var16;
-            var16 = _closure1_slot8;
+            var16 = _closure1_slot9;
             var6['filterLayer'] = var16;
             var16 = _closure1_slot5;
             var16 = var16.PREVIEW;

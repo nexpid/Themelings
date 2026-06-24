@@ -553,7 +553,7 @@ case 24:
             var21 = var1;
             var20 = var7;
             var10 = copyDataProperties(var21, var20);
-            var10 = function onPress() {
+            var10 = function handleGoToTagSettings() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 6;

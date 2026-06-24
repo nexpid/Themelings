@@ -350,10 +350,6 @@ case 8:
             var13[1] = var15;
             var13[2] = var8;
             var8 = function() {
-                var1 = {};
-                var3 = -1;
-                var1['scrollTo'] = var3;
-                var _closure3_slot0 = var1;
                 var1 = function scrollToCancel() {
                     var1 = global;
                     var3 = var1.clearTimeout;
@@ -364,6 +360,10 @@ case 8:
                     return var1;
                 };
                 var _closure3_slot1 = var1;
+                var1 = {};
+                var3 = -1;
+                var1['scrollTo'] = var3;
+                var _closure3_slot0 = var1;
                 var1 = {};
                 var3 = function scroll(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

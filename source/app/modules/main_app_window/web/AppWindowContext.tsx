@@ -328,11 +328,6 @@ case 18:
             var3[1] = var7;
             var3[2] = var6;
             var2 = function() {
-                var6 = _closure1_slot6;
-                var5 = var6.set;
-                var4 = _closure3_slot2;
-                var3 = _closure3_slot5;
-                var3 = var5.bind(var6)(var4, var3);
                 var5 = function handleUnload() {
                     var3 = _closure1_slot6;
                     var2 = var3.delete;
@@ -342,6 +337,11 @@ case 18:
                     return var1;
                 };
                 var _closure4_slot0 = var5;
+                var7 = _closure1_slot6;
+                var6 = var7.set;
+                var4 = _closure3_slot2;
+                var3 = _closure3_slot5;
+                var3 = var6.bind(var7)(var4, var3);
                 var4 = _closure3_slot1;
                 var3 = var4.addEventListener;
                 var2 = 'unload';

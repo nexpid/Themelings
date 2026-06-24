@@ -53,43 +53,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionTierCreationModal.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function GuildRoleSubscriptionTierCreationModal(arg1) {
-        var2 = arg1;
-        var12 = var2.guildId;
+        var1 = arg1;
+        var12 = var1.guildId;
         var _closure2_slot0 = var12;
-        var5 = var2.groupListingId;
+        var5 = var1.groupListingId;
         var _closure2_slot1 = var5;
-        var3 = var2.editStateId;
-        var4 = var2.onClose;
-        var _closure2_slot2 = var4;
-        var2 = var2.onAfterTierCreation;
-        var _closure2_slot3 = var2;
-        var6 = _closure1_slot6;
-        var2 = var6.useState;
-        var7 = var2.bind(var6)(var3);
-        var3 = _closure1_slot5;
+        var2 = var1.editStateId;
+        var3 = var1.onClose;
+        var _closure2_slot2 = var3;
+        var1 = var1.onAfterTierCreation;
+        var _closure2_slot3 = var1;
         var4 = undefined;
-        var2 = 2;
-        var3 = var3.bind(var4)(var7, var2);
-        var2 = 0;
-        var7 = var3[var2];
-        var _closure2_slot4 = var7;
-        var2 = 1;
-        var2 = var3[var2];
-        var _closure2_slot5 = var2;
-        var3 = _closure1_slot2;
-        var13 = _closure1_slot3;
-        var2 = 6;
-        var2 = var13[var2];
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.useCreateOrUpdateListingFromEditState;
-        var2 = var2.bind(var3)();
-        var3 = var2.handleCreateOrUpdateFromEditState;
-        var _closure2_slot6 = var3;
-        var2 = var2.error;
-        var _closure2_slot7 = var2;
-        var3 = function() {
-            var4 = _closure1_slot4;
-            var3 = undefined;
+        var _closure2_slot4 = var4;
+        var _closure2_slot5 = var4;
+        var _closure2_slot6 = var4;
+        var1 = function _handleCreate() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot4;
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -143,25 +124,43 @@ case 2:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot8 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var10 = var3.bind(var4)();
-        var8 = var6.useLayoutEffect;
-        var3 = new Array(1);
-        var3[0] = var2;
-        var2 = function() {
+        var _closure2_slot8 = var1;
+        var6 = _closure1_slot6;
+        var1 = var6.useState;
+        var3 = var1.bind(var6)(var2);
+        var2 = _closure1_slot5;
+        var1 = 2;
+        var2 = var2.bind(var4)(var3, var1);
+        var1 = 0;
+        var7 = var2[var1];
+        _closure2_slot4 = var7;
+        var1 = 1;
+        var1 = var2[var1];
+        _closure2_slot5 = var1;
+        var2 = _closure1_slot2;
+        var13 = _closure1_slot3;
+        var1 = 6;
+        var1 = var13[var1];
+        var2 = var2.bind(var4)(var1);
+        var1 = var2.useCreateOrUpdateListingFromEditState;
+        var1 = var1.bind(var2)();
+        var2 = var1.handleCreateOrUpdateFromEditState;
+        _closure2_slot6 = var2;
+        var1 = var1.error;
+        var _closure2_slot7 = var1;
+        var3 = var6.useLayoutEffect;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var2 = _closure2_slot7;
@@ -199,7 +198,7 @@ case 10:
                 return var1;
             }
         };
-        var2 = var8.bind(var6)(var2, var3);
+        var1 = var3.bind(var6)(var1, var2);
         var3 = var6.useMemo;
         var2 = function() {
             var2 = _closure1_slot8;
@@ -242,6 +241,16 @@ case 10:
         var7['guildId'] = var12;
         var11 = _closure1_slot9;
         var7['modalKey'] = var11;
+        var10 = function handleCreate() {
+            var1 = undefined;
+            var4 = _closure2_slot8;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var7['onDone'] = var10;
         var7['steps'] = var9;
         var7 = var3.bind(var4)(var8, var7);

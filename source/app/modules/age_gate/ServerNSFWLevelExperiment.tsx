@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/age_gate/ServerNSFWLevelExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['ServerNSFWLevelExperiment'] = var4;
-    var2 = function(arg1) {
+    var2 = function isServerNSFWLevelEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.getConfig;
         var1 = {};

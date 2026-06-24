@@ -79,7 +79,7 @@ case 3:
                 var2 = var1.concat;
                 var1 = 'verification-field-';
                 var4 = var2.bind(var1)(var5);
-                var3 = function(arg1, arg2, arg3) {
+                var3 = function renderFormField(arg1, arg2, arg3) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var7 = arg1;

@@ -7,6 +7,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
+    var1 = function onClose() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 7;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.hideActionSheet;
+        var2 = var2.bind(var3)();
+        return var1;
+    };
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -78,18 +90,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['rating'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot8 = var7;
-    var7 = function onClose() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 7;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.hideActionSheet;
-        var2 = var2.bind(var3)();
-        return var1;
-    };
-    var _closure1_slot9 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

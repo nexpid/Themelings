@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/interaction_components/native/components/GuildSelectComponentActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function GuildSelectComponentActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -77,42 +77,53 @@ case 0:
             var _closure2_slot1 = var1;
             var4 = undefined;
             var _closure2_slot6 = var4;
-            var _closure2_slot7 = var4;
+            var7 = function submitSelection() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 9;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var1 = var2.hideActionSheet;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var _closure2_slot7 = var7;
             var3 = _closure1_slot10;
             var11 = var3.bind(var4)();
             var _closure2_slot2 = var11;
-            var12 = _closure1_slot4;
-            var6 = var12.useState;
+            var13 = _closure1_slot4;
+            var6 = var13.useState;
             var3 = '';
-            var3 = var6.bind(var12)(var3);
-            var9 = _closure1_slot3;
-            var8 = 2;
-            var6 = var9.bind(var4)(var3, var8);
+            var3 = var6.bind(var13)(var3);
+            var10 = _closure1_slot3;
+            var9 = 2;
+            var6 = var10.bind(var4)(var3, var9);
             var3 = 0;
-            var13 = var6[var3];
-            var _closure2_slot3 = var13;
-            var7 = 1;
-            var6 = var6[var7];
-            var10 = {};
-            var15 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var14 = 7;
-            var14 = var16[var14];
-            var14 = var15.bind(var4)(var14);
-            var14 = var14.SelectOptionType;
-            var14 = var14.GUILD;
-            var10['type'] = var14;
-            var14 = var2.id;
-            var10['value'] = var14;
-            var14 = var2.name;
-            var10['label'] = var14;
-            var10['guild'] = var2;
-            var2 = var12.useState;
-            var2 = var2.bind(var12)(var10);
-            var2 = var9.bind(var4)(var2, var8);
+            var14 = var6[var3];
+            var _closure2_slot3 = var14;
+            var8 = 1;
+            var6 = var6[var8];
+            var12 = {};
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var15 = 7;
+            var15 = var17[var15];
+            var15 = var16.bind(var4)(var15);
+            var15 = var15.SelectOptionType;
+            var15 = var15.GUILD;
+            var12['type'] = var15;
+            var15 = var2.id;
+            var12['value'] = var15;
+            var15 = var2.name;
+            var12['label'] = var15;
+            var12['guild'] = var2;
+            var2 = var13.useState;
+            var2 = var2.bind(var13)(var12);
+            var2 = var10.bind(var4)(var2, var9);
             var3 = var2[var3];
             var _closure2_slot4 = var3;
-            var2 = var2[var7];
+            var2 = var2[var8];
             var _closure2_slot5 = var2;
             var2 = null;
             if(!(var2 == var3)) { _fun0001_ip = 2; continue _fun0001 }
@@ -125,21 +136,21 @@ case 2:
             var8 = var2;
 case 4:
             var10 = {'maxValues': 1, 'minValues': 1};
-            var9 = _closure1_slot0;
+            var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var2 = 8;
             var3 = var12[var2];
-            var3 = var9.bind(var4)(var3);
-            var7 = var3.intl;
-            var3 = var7.string;
+            var3 = var13.bind(var4)(var3);
+            var9 = var3.intl;
+            var3 = var9.string;
             var2 = var12[var2];
-            var2 = var9.bind(var4)(var2);
+            var2 = var13.bind(var4)(var2);
             var2 = var2.t;
             var2 = var2.ZImm/x;
-            var2 = var3.bind(var7)(var2);
+            var2 = var3.bind(var9)(var2);
             var10['placeholder'] = var2;
-            var9 = _closure1_slot4;
-            var7 = var9.useCallback;
+            var13 = _closure1_slot4;
+            var9 = var13.useCallback;
             var3 = function(arg1) {
                 var3 = function queryGuilds(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -232,11 +243,11 @@ case 7:
                 return var1;
             };
             var2 = new Array(0);
-            var2 = var7.bind(var9)(var3, var2);
+            var2 = var9.bind(var13)(var3, var2);
             _closure2_slot6 = var2;
-            var7 = var9.useMemo;
+            var9 = var13.useMemo;
             var3 = new Array(2);
-            var3[0] = var13;
+            var3[0] = var14;
             var3[1] = var2;
             var2 = function() {
                 var3 = _closure2_slot6;
@@ -245,19 +256,7 @@ case 7:
                 var1 = var3.bind(var1)(var2);
                 return var1;
             };
-            var9 = var7.bind(var9)(var2, var3);
-            var7 = function submitSelection() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 9;
-                var2 = var2[var1];
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var1 = var2.hideActionSheet;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            _closure2_slot7 = var7;
+            var9 = var9.bind(var13)(var2, var3);
             var3 = _closure1_slot8;
             var2 = _closure1_slot1;
             var1 = 10;

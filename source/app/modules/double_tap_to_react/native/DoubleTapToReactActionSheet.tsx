@@ -9,210 +9,7 @@ case 0:
         var _closure1_slot0 = var5;
         var _closure1_slot1 = var11;
         var _closure1_slot2 = var6;
-        var1 = global;
-        var8 = var1.Object;
-        var7 = var8.defineProperty;
-        var4 = {};
-        var1 = true;
-        var4['value'] = var1;
-        var1 = '__esModule';
-        var1 = var7.bind(var8)(var3, var1, var4);
-        var1 = 0;
-        var4 = var6[var1];
-        var1 = undefined;
-        var4 = var11.bind(var1)(var4);
-        var _closure1_slot3 = var4;
-        var4 = 1;
-        var4 = var6[var4];
-        var4 = var11.bind(var1)(var4);
-        var _closure1_slot4 = var4;
-        var4 = 2;
-        var7 = var6[var4];
-        var4 = metroImportAll;
-        var4 = var4.bind(var1)(var7);
-        var _closure1_slot5 = var4;
-        var4 = 3;
-        var4 = var6[var4];
-        var4 = var5.bind(var1)(var4);
-        var4 = var4.View;
-        var _closure1_slot6 = var4;
-        var13 = 4;
-        var4 = var6[var13];
-        var4 = var11.bind(var1)(var4);
-        var _closure1_slot7 = var4;
-        var4 = 5;
-        var4 = var6[var4];
-        var4 = var11.bind(var1)(var4);
-        var _closure1_slot8 = var4;
-        var4 = 6;
-        var4 = var6[var4];
-        var4 = var5.bind(var1)(var4);
-        var4 = var4.AnalyticEvents;
-        var _closure1_slot9 = var4;
-        var4 = 7;
-        var4 = var6[var4];
-        var4 = var5.bind(var1)(var4);
-        var4 = var4.EMOJI_URL_BASE_SIZE;
-        var _closure1_slot10 = var4;
-        var4 = 8;
-        var4 = var6[var4];
-        var4 = var5.bind(var1)(var4);
-        var7 = var4.jsx;
-        var _closure1_slot11 = var7;
-        var4 = var4.jsxs;
-        var _closure1_slot12 = var4;
-        var4 = 9;
-        var4 = var6[var4];
-        var8 = var5.bind(var1)(var4);
-        var7 = var8.createStyles;
-        var4 = {};
-        var12 = 48;
-        var9 = {'width': 48, 'height': 48, 'zIndex': 2};
-        var4['emoji'] = var9;
-        var9 = {'width': 48, 'height': 48};
-        var4['selectedCustomEmoji'] = var9;
-        var9 = {};
-        var14 = 10;
-        var10 = var6[var14];
-        var15 = var5.bind(var1)(var10);
-        var10 = var15.isIOS;
-        var15 = var10.bind(var15)();
-        var10 = 36;
-        if(!var15) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-        var10 = var12;
-case 2:
-        var9['fontSize'] = var10;
-        var10 = var6[var14];
-        var12 = var5.bind(var1)(var10);
-        var10 = var12.isIOS;
-        var12 = var10.bind(var12)();
-        var10 = undefined;
-        if(!var12) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-        var10 = 56;
-case 4:
-        var9['lineHeight'] = var10;
-        var12 = 'center';
-        var9['textAlign'] = var12;
-        var10 = 11;
-        var15 = var6[var10];
-        var15 = var11.bind(var1)(var15);
-        var15 = var15.colors;
-        var15 = var15.INTERACTIVE_TEXT_DEFAULT;
-        var9['color'] = var15;
-        var4['selectedTextEmoji'] = var9;
-        var9 = {};
-        var15 = var6[var10];
-        var15 = var11.bind(var1)(var15);
-        var15 = var15.space;
-        var15 = var15.PX_16;
-        var9['marginLeft'] = var15;
-        var15 = 40;
-        var9['fontSize'] = var15;
-        var14 = var6[var14];
-        var15 = var5.bind(var1)(var14);
-        var14 = var15.isIOS;
-        var15 = var14.bind(var15)();
-        var14 = undefined;
-        if(!var15) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-        var14 = 56;
-case 6:
-        var9['lineHeight'] = var14;
-        var4['selectedEmojiText'] = var9;
-        var9 = {'flexDirection': 'column', 'alignItems': 'center'};
-        var14 = var6[var10];
-        var14 = var11.bind(var1)(var14);
-        var14 = var14.space;
-        var14 = var14.PX_4;
-        var9['paddingHorizontal'] = var14;
-        var14 = var6[var10];
-        var14 = var11.bind(var1)(var14);
-        var14 = var14.space;
-        var14 = var14.PX_32;
-        var9['paddingTop'] = var14;
-        var14 = var6[var10];
-        var14 = var11.bind(var1)(var14);
-        var14 = var14.space;
-        var14 = var14.PX_12;
-        var9['paddingBottom'] = var14;
-        var4['content'] = var9;
-        var9 = {};
-        var14 = 'row';
-        var9['flexDirection'] = var14;
-        var14 = var6[var10];
-        var14 = var11.bind(var1)(var14);
-        var14 = var14.colors;
-        var14 = var14.CARD_BACKGROUND_DEFAULT;
-        var9['backgroundColor'] = var14;
-        var14 = var6[var10];
-        var14 = var11.bind(var1)(var14);
-        var14 = var14.colors;
-        var14 = var14.BORDER_STRONG;
-        var9['borderColor'] = var14;
-        var9['borderWidth'] = var13;
-        var13 = var6[var10];
-        var13 = var11.bind(var1)(var13);
-        var13 = var13.space;
-        var13 = var13.PX_8;
-        var9['paddingVertical'] = var13;
-        var13 = var6[var10];
-        var13 = var11.bind(var1)(var13);
-        var13 = var13.space;
-        var13 = var13.PX_16;
-        var9['paddingHorizontal'] = var13;
-        var13 = var6[var10];
-        var13 = var11.bind(var1)(var13);
-        var13 = var13.radii;
-        var13 = var13.xl;
-        var9['borderRadius'] = var13;
-        var9['justifyContent'] = var12;
-        var9['alignItems'] = var12;
-        var4['emojiContainer'] = var9;
-        var9 = {};
-        var9['textAlign'] = var12;
-        var4['alignCenter'] = var9;
-        var9 = {};
-        var12 = var6[var10];
-        var12 = var11.bind(var1)(var12);
-        var12 = var12.space;
-        var12 = var12.PX_24;
-        var9['marginVertical'] = var12;
-        var4['emojiSelectRow'] = var9;
-        var9 = {'marginBottom': null, 'flexDirection': 'row', 'alignItems': 'center'};
-        var12 = var6[var10];
-        var12 = var11.bind(var1)(var12);
-        var12 = var12.space;
-        var12 = var12.PX_8;
-        var9['marginBottom'] = var12;
-        var12 = var6[var10];
-        var12 = var11.bind(var1)(var12);
-        var12 = var12.space;
-        var12 = var12.PX_8;
-        var9['gap'] = var12;
-        var4['header'] = var9;
-        var9 = {};
-        var12 = var6[var10];
-        var12 = var11.bind(var1)(var12);
-        var12 = var12.space;
-        var12 = var12.PX_8;
-        var9['marginTop'] = var12;
-        var10 = var6[var10];
-        var10 = var11.bind(var1)(var10);
-        var10 = var10.space;
-        var10 = var10.PX_24;
-        var9['marginBottom'] = var10;
-        var4['emojiName'] = var9;
-        var9 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'zIndex': 0};
-        var4['burstContainer'] = var9;
-        var4 = var7.bind(var8)(var4);
-        var _closure1_slot13 = var4;
-        var4 = {};
-        var7 = 'function DoubleTapToReactActionSheetTsx1(){const{sizeValue,left,rotationValue,top,positionValue,opacityValue}=this.__closure;return{position:\'absolute\',transform:[{scale:sizeValue.get()},{rotate:(left===true?-1:1)*rotationValue.get()+"deg"}],top:top===true?-positionValue.get():positionValue.get(),left:left===true?-positionValue.get()*1.5:positionValue.get()*1.5,opacity:opacityValue.get()};}';
-        var4['code'] = var7;
-        var _closure1_slot14 = var4;
-        var4 = function EmojiConfetti(arg1) {
+        var1 = function EmojiConfetti(arg1) {
             var1 = arg1;
             var5 = var1.emojiComponent;
             var12 = var1.top;
@@ -274,8 +71,8 @@ case 0:
                     var1 = var1.leading;
                     var11 = 0;
                     var15 = 0;
-                    if(var1) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = global;
                     var2 = var1.Math;
                     var1 = var2.random;
@@ -284,7 +81,7 @@ case 9:
                     var2 = var1 * var2;
                     var1 = 50;
                     var15 = var1 + var2;
-case 8:
+case 2:
                     var13 = var14.set;
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -422,7 +219,7 @@ case 8:
             var6 = var7[var1];
             var8 = var8.bind(var4)(var6);
             var6 = var8.useAnimatedStyle;
-            var3 = function S() {
+            var3 = function f() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -439,10 +236,10 @@ case 0:
                     var6 = _closure2_slot1;
                     var7 = 1;
                     var4 = true;
-                    if(!(var4 === var6)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                    if(!(var4 === var6)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var7 = -1;
-case 10:
+case 4:
                     var8 = _closure2_slot4;
                     var6 = var8.get;
                     var6 = var6.bind(var8)();
@@ -453,36 +250,36 @@ case 10:
                     var3[1] = var5;
                     var1['transform'] = var3;
                     var3 = _closure2_slot0;
-                    if(!(var4 !== var3)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                    if(!(var4 !== var3)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var5 = _closure2_slot3;
                     var3 = var5.get;
                     var3 = var3.bind(var5)();
-                    _fun0003_ip = 14; continue _fun0003;
-case 12:
+                    _fun0003_ip = 8; continue _fun0003;
+case 6:
                     var6 = _closure2_slot3;
                     var5 = var6.get;
                     var5 = var5.bind(var6)();
                     var3 = -var5;
-case 14:
+case 8:
                     var1['top'] = var3;
                     var3 = _closure2_slot1;
-                    if(!(var4 !== var3)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+                    if(!(var4 !== var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var4 = _closure2_slot3;
                     var3 = var4.get;
                     var4 = var3.bind(var4)();
                     var3 = 1.5;
                     var3 = var3 * var4;
-                    _fun0003_ip = 17; continue _fun0003;
-case 15:
+                    _fun0003_ip = 11; continue _fun0003;
+case 9:
                     var5 = _closure2_slot3;
                     var4 = var5.get;
                     var4 = var4.bind(var5)();
                     var5 = -var4;
                     var4 = 1.5;
                     var3 = var4 * var5;
-case 17:
+case 11:
                     var1['left'] = var3;
                     var3 = _closure2_slot6;
                     var2 = var3.get;
@@ -515,8 +312,8 @@ case 17:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
-        var _closure1_slot15 = var4;
-        var4 = function EmojiBurstAnimation(arg1) {
+        var _closure1_slot18 = var1;
+        var1 = function EmojiBurstAnimation(arg1) {
             var1 = arg1;
             var9 = var1.emojiComponent;
             var1 = _closure1_slot13;
@@ -527,45 +324,248 @@ case 17:
             var1 = {};
             var5 = var5.burstContainer;
             var1['style'] = var5;
-            var8 = _closure1_slot11;
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot11;
+            var8 = _closure1_slot18;
             var5 = {'emojiComponent': null, 'top': true, 'left': true, 'leading': true};
             var5['emojiComponent'] = var9;
-            var7 = var8.bind(var4)(var7, var5);
+            var7 = var7.bind(var4)(var8, var5);
             var5 = new Array(4);
             var5[0] = var7;
-            var10 = _closure1_slot15;
+            var10 = _closure1_slot11;
             var7 = {'emojiComponent': null, 'top': true, 'right': true};
             var7['emojiComponent'] = var9;
-            var7 = var8.bind(var4)(var10, var7);
+            var7 = var10.bind(var4)(var8, var7);
             var5[1] = var7;
-            var10 = _closure1_slot15;
+            var10 = _closure1_slot11;
             var7 = {'emojiComponent': null, 'bottom': true, 'left': true};
             var7['emojiComponent'] = var9;
-            var7 = var8.bind(var4)(var10, var7);
+            var7 = var10.bind(var4)(var8, var7);
             var5[2] = var7;
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot11;
             var6 = {'emojiComponent': null, 'bottom': true, 'right': true};
             var6['emojiComponent'] = var9;
-            var6 = var8.bind(var4)(var7, var6);
+            var6 = var7.bind(var4)(var8, var6);
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
-        var _closure1_slot16 = var4;
+        var _closure1_slot19 = var1;
+        var1 = global;
+        var8 = var1.Object;
+        var7 = var8.defineProperty;
+        var4 = {};
+        var1 = true;
+        var4['value'] = var1;
+        var1 = '__esModule';
+        var1 = var7.bind(var8)(var3, var1, var4);
+        var1 = 0;
+        var4 = var6[var1];
+        var1 = undefined;
+        var4 = var11.bind(var1)(var4);
+        var _closure1_slot3 = var4;
+        var4 = 1;
+        var4 = var6[var4];
+        var4 = var11.bind(var1)(var4);
+        var _closure1_slot4 = var4;
+        var4 = 2;
+        var7 = var6[var4];
+        var4 = metroImportAll;
+        var4 = var4.bind(var1)(var7);
+        var _closure1_slot5 = var4;
+        var4 = 3;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var4 = var4.View;
+        var _closure1_slot6 = var4;
+        var13 = 4;
+        var4 = var6[var13];
+        var4 = var11.bind(var1)(var4);
+        var _closure1_slot7 = var4;
+        var4 = 5;
+        var4 = var6[var4];
+        var4 = var11.bind(var1)(var4);
+        var _closure1_slot8 = var4;
+        var4 = 6;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var4 = var4.AnalyticEvents;
+        var _closure1_slot9 = var4;
+        var4 = 7;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var4 = var4.EMOJI_URL_BASE_SIZE;
+        var _closure1_slot10 = var4;
+        var4 = 8;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var7 = var4.jsx;
+        var _closure1_slot11 = var7;
+        var4 = var4.jsxs;
+        var _closure1_slot12 = var4;
+        var4 = 9;
+        var4 = var6[var4];
+        var8 = var5.bind(var1)(var4);
+        var7 = var8.createStyles;
+        var4 = {};
+        var12 = 48;
+        var9 = {'width': 48, 'height': 48, 'zIndex': 2};
+        var4['emoji'] = var9;
+        var9 = {'width': 48, 'height': 48};
+        var4['selectedCustomEmoji'] = var9;
+        var9 = {};
+        var14 = 10;
+        var10 = var6[var14];
+        var15 = var5.bind(var1)(var10);
+        var10 = var15.isIOS;
+        var15 = var10.bind(var15)();
+        var10 = 36;
+        if(!var15) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+        var10 = var12;
+case 12:
+        var9['fontSize'] = var10;
+        var10 = var6[var14];
+        var12 = var5.bind(var1)(var10);
+        var10 = var12.isIOS;
+        var12 = var10.bind(var12)();
+        var10 = undefined;
+        if(!var12) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+        var10 = 56;
+case 14:
+        var9['lineHeight'] = var10;
+        var12 = 'center';
+        var9['textAlign'] = var12;
+        var10 = 11;
+        var15 = var6[var10];
+        var15 = var11.bind(var1)(var15);
+        var15 = var15.colors;
+        var15 = var15.INTERACTIVE_TEXT_DEFAULT;
+        var9['color'] = var15;
+        var4['selectedTextEmoji'] = var9;
+        var9 = {};
+        var15 = var6[var10];
+        var15 = var11.bind(var1)(var15);
+        var15 = var15.space;
+        var15 = var15.PX_16;
+        var9['marginLeft'] = var15;
+        var15 = 40;
+        var9['fontSize'] = var15;
+        var14 = var6[var14];
+        var15 = var5.bind(var1)(var14);
+        var14 = var15.isIOS;
+        var15 = var14.bind(var15)();
+        var14 = undefined;
+        if(!var15) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+        var14 = 56;
+case 16:
+        var9['lineHeight'] = var14;
+        var4['selectedEmojiText'] = var9;
+        var9 = {'flexDirection': 'column', 'alignItems': 'center'};
+        var14 = var6[var10];
+        var14 = var11.bind(var1)(var14);
+        var14 = var14.space;
+        var14 = var14.PX_4;
+        var9['paddingHorizontal'] = var14;
+        var14 = var6[var10];
+        var14 = var11.bind(var1)(var14);
+        var14 = var14.space;
+        var14 = var14.PX_32;
+        var9['paddingTop'] = var14;
+        var14 = var6[var10];
+        var14 = var11.bind(var1)(var14);
+        var14 = var14.space;
+        var14 = var14.PX_12;
+        var9['paddingBottom'] = var14;
+        var4['content'] = var9;
+        var9 = {};
+        var14 = 'row';
+        var9['flexDirection'] = var14;
+        var14 = var6[var10];
+        var14 = var11.bind(var1)(var14);
+        var14 = var14.colors;
+        var14 = var14.CARD_BACKGROUND_DEFAULT;
+        var9['backgroundColor'] = var14;
+        var14 = var6[var10];
+        var14 = var11.bind(var1)(var14);
+        var14 = var14.colors;
+        var14 = var14.BORDER_STRONG;
+        var9['borderColor'] = var14;
+        var9['borderWidth'] = var13;
+        var13 = var6[var10];
+        var13 = var11.bind(var1)(var13);
+        var13 = var13.space;
+        var13 = var13.PX_8;
+        var9['paddingVertical'] = var13;
+        var13 = var6[var10];
+        var13 = var11.bind(var1)(var13);
+        var13 = var13.space;
+        var13 = var13.PX_16;
+        var9['paddingHorizontal'] = var13;
+        var13 = var6[var10];
+        var13 = var11.bind(var1)(var13);
+        var13 = var13.radii;
+        var13 = var13.xl;
+        var9['borderRadius'] = var13;
+        var9['justifyContent'] = var12;
+        var9['alignItems'] = var12;
+        var4['emojiContainer'] = var9;
+        var9 = {};
+        var9['textAlign'] = var12;
+        var4['alignCenter'] = var9;
+        var9 = {};
+        var12 = var6[var10];
+        var12 = var11.bind(var1)(var12);
+        var12 = var12.space;
+        var12 = var12.PX_24;
+        var9['marginVertical'] = var12;
+        var4['emojiSelectRow'] = var9;
+        var9 = {'marginBottom': null, 'flexDirection': 'row', 'alignItems': 'center'};
+        var12 = var6[var10];
+        var12 = var11.bind(var1)(var12);
+        var12 = var12.space;
+        var12 = var12.PX_8;
+        var9['marginBottom'] = var12;
+        var12 = var6[var10];
+        var12 = var11.bind(var1)(var12);
+        var12 = var12.space;
+        var12 = var12.PX_8;
+        var9['gap'] = var12;
+        var4['header'] = var9;
+        var9 = {};
+        var12 = var6[var10];
+        var12 = var11.bind(var1)(var12);
+        var12 = var12.space;
+        var12 = var12.PX_8;
+        var9['marginTop'] = var12;
+        var10 = var6[var10];
+        var10 = var11.bind(var1)(var10);
+        var10 = var10.space;
+        var10 = var10.PX_24;
+        var9['marginBottom'] = var10;
+        var4['emojiName'] = var9;
+        var9 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'zIndex': 0};
+        var4['burstContainer'] = var9;
+        var4 = var7.bind(var8)(var4);
+        var _closure1_slot13 = var4;
+        var4 = {};
+        var7 = 'function DoubleTapToReactActionSheetTsx1(){const{sizeValue,left,rotationValue,top,positionValue,opacityValue}=this.__closure;return{position:\'absolute\',transform:[{scale:sizeValue.get()},{rotate:(left===true?-1:1)*rotationValue.get()+"deg"}],top:top===true?-positionValue.get():positionValue.get(),left:left===true?-positionValue.get()*1.5:positionValue.get()*1.5,opacity:opacityValue.get()};}';
+        var4['code'] = var7;
+        var _closure1_slot14 = var4;
         var4 = {};
         var7 = 'function DoubleTapToReactActionSheetTsx2(){const{interpolate,sharedSaveValue}=this.__closure;return{transform:[{scale:interpolate(sharedSaveValue.get(),[0,1],[1,1.3])},{translateY:interpolate(sharedSaveValue.get(),[0,1],[0,-20])}]};}';
         var4['code'] = var7;
-        var _closure1_slot17 = var4;
+        var _closure1_slot15 = var4;
         var4 = {};
         var7 = 'function DoubleTapToReactActionSheetTsx3(){const{scaleChangeValue,opacityChangeValue}=this.__closure;return{transform:[{scale:scaleChangeValue.get()}],opacity:opacityChangeValue.get()};}';
         var4['code'] = var7;
-        var _closure1_slot18 = var4;
+        var _closure1_slot16 = var4;
         var4 = {};
         var7 = 'function DoubleTapToReactActionSheetTsx4(){const{runOnJS,setAnimateConfetti}=this.__closure;return runOnJS(setAnimateConfetti)(true);}';
         var4['code'] = var7;
-        var _closure1_slot19 = var4;
+        var _closure1_slot17 = var4;
         var4 = 32;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
@@ -589,7 +589,7 @@ case 0:
                 var3 = 2;
                 var2 = var8.bind(var4)(var2, var3);
                 var5 = 0;
-                var19 = var2[var5];
+                var23 = var2[var5];
                 var10 = 1;
                 var2 = var2[var10];
                 var _closure2_slot0 = var2;
@@ -607,8 +607,8 @@ case 0:
                     var1 = var1.useReducedMotion;
                     return var1;
                 };
-                var22 = var13.bind(var14)(var12, var2);
-                var _closure2_slot1 = var22;
+                var25 = var13.bind(var14)(var12, var2);
+                var _closure2_slot1 = var25;
                 var2 = var7.useState;
                 var2 = var2.bind(var7)(var18);
                 var2 = var8.bind(var4)(var2, var3);
@@ -628,19 +628,19 @@ case 0:
                 var2 = var2[var10];
                 var _closure2_slot6 = var2;
                 var2 = var7.useRef;
-                var20 = null;
-                var2 = var2.bind(var7)(var20);
+                var24 = null;
+                var2 = var2.bind(var7)(var24);
                 var _closure2_slot7 = var2;
-                var11 = 12;
-                var2 = var9[var11];
+                var20 = 12;
+                var2 = var9[var20];
                 var3 = var6.bind(var4)(var2);
                 var2 = var3.useSharedValue;
                 var2 = var2.bind(var3)(var5);
                 var _closure2_slot8 = var2;
-                var3 = var9[var11];
+                var3 = var9[var20];
                 var8 = var6.bind(var4)(var3);
                 var5 = var8.useAnimatedStyle;
-                var3 = function f() {
+                var3 = function S() {
                     var1 = {};
                     var3 = {};
                     var7 = _closure1_slot0;
@@ -675,32 +675,32 @@ case 0:
                     var1['transform'] = var2;
                     return var1;
                 };
-                var13 = {};
-                var14 = var9[var11];
-                var14 = var6.bind(var4)(var14);
-                var14 = var14.interpolate;
-                var13['interpolate'] = var14;
-                var13['sharedSaveValue'] = var2;
-                var3['__closure'] = var13;
-                var13 = 14159749218638.0;
-                var3['__workletHash'] = var13;
-                var13 = _closure1_slot17;
-                var3['__initData'] = var13;
-                var24 = var5.bind(var8)(var3);
-                var3 = var9[var11];
+                var11 = {};
+                var13 = var9[var20];
+                var13 = var6.bind(var4)(var13);
+                var13 = var13.interpolate;
+                var11['interpolate'] = var13;
+                var11['sharedSaveValue'] = var2;
+                var3['__closure'] = var11;
+                var11 = 14159749218638.0;
+                var3['__workletHash'] = var11;
+                var11 = _closure1_slot15;
+                var3['__initData'] = var11;
+                var27 = var5.bind(var8)(var3);
+                var3 = var9[var20];
                 var5 = var6.bind(var4)(var3);
                 var3 = var5.useSharedValue;
                 var8 = var3.bind(var5)(var10);
                 var _closure2_slot9 = var8;
-                var3 = var9[var11];
+                var3 = var9[var20];
                 var5 = var6.bind(var4)(var3);
                 var3 = var5.useSharedValue;
                 var3 = var3.bind(var5)(var10);
                 var _closure2_slot10 = var3;
-                var5 = var9[var11];
+                var5 = var9[var20];
                 var10 = var6.bind(var4)(var5);
                 var6 = var10.useAnimatedStyle;
-                var5 = function w() {
+                var5 = function C() {
                     var1 = {};
                     var4 = {};
                     var5 = _closure2_slot9;
@@ -716,20 +716,20 @@ case 0:
                     var1['opacity'] = var2;
                     return var1;
                 };
-                var13 = {};
-                var13['scaleChangeValue'] = var8;
-                var13['opacityChangeValue'] = var3;
-                var5['__closure'] = var13;
-                var13 = 17229591239241.0;
-                var5['__workletHash'] = var13;
-                var13 = _closure1_slot18;
-                var5['__initData'] = var13;
-                var16 = var6.bind(var10)(var5);
+                var11 = {};
+                var11['scaleChangeValue'] = var8;
+                var11['opacityChangeValue'] = var3;
+                var5['__closure'] = var11;
+                var11 = 17229591239241.0;
+                var5['__workletHash'] = var11;
+                var11 = _closure1_slot16;
+                var5['__initData'] = var11;
+                var22 = var6.bind(var10)(var5);
                 var6 = var7.useCallback;
                 var5 = new Array(4);
                 var5[0] = var8;
                 var5[1] = var3;
-                var5[2] = var22;
+                var5[2] = var25;
                 var5[3] = var12;
                 var3 = function(arg1, arg2) {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -859,7 +859,7 @@ case 23:
 case 27:
                         var1 = var1 == var5;
                         if(var1) { _fun0006_ip = 28; continue _fun0006 }
-case 12:
+case 6:
                         var3 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var2 = 19;
@@ -878,7 +878,7 @@ case 28:
                 var6 = var7.useMemo;
                 var5 = new Array(2);
                 var5[0] = var17;
-                var5[1] = var22;
+                var5[1] = var25;
                 var3 = function() {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -931,7 +931,7 @@ case 30:
                 var9 = var21.selectedTextEmoji;
                 var3['textEmojiStyle'] = var9;
                 var9 = var17.id;
-                var10 = var20 == var9;
+                var10 = var24 == var9;
                 var9 = '';
                 if(!var10) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
@@ -939,7 +939,7 @@ case 34:
 case 33:
                 var3['name'] = var9;
                 var3['src'] = var7;
-                var23 = var6.bind(var4)(var5, var3);
+                var26 = var6.bind(var4)(var5, var3);
                 var5 = _closure1_slot5;
                 var7 = var5.useCallback;
                 var6 = _closure1_slot3;
@@ -952,7 +952,7 @@ case 0:
                             if(var2) { _fun0008_ip = 35; continue _fun0008 }
 case 36:
                             var2 = _closure2_slot11;
-                            if(!var2) { _fun0008_ip = 8; continue _fun0008 }
+                            if(!var2) { _fun0008_ip = 2; continue _fun0008 }
 case 37:
                             var4 = _closure1_slot0;
                             var3 = _closure1_slot2;
@@ -974,12 +974,12 @@ case 37:
                             var2['disableDoubleTap'] = var5;
                             var2 = var3.bind(var4)(var2);
                             SaveGenerator(address=110);
-case 13:
+case 7:
                             return var2;
 case 38:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                             if(var3) { _fun0008_ip = 39; continue _fun0008 }
-case 8:
+case 2:
                             var9 = _closure1_slot1;
                             var10 = _closure1_slot2;
                             var3 = 22;
@@ -1041,7 +1041,7 @@ case 35:
                 _closure2_slot12 = var6;
                 var7 = var5.useCallback;
                 var3 = new Array(3);
-                var3[0] = var22;
+                var3[0] = var25;
                 var3[1] = var2;
                 var3[2] = var6;
                 var2 = function() {
@@ -1117,7 +1117,7 @@ case 41:
                         var3['__closure'] = var19;
                         var19 = 13953384401061.0;
                         var3['__workletHash'] = var19;
-                        var18 = _closure1_slot19;
+                        var18 = _closure1_slot17;
                         var3['__initData'] = var18;
                         var26 = var16;
                         var25 = var17;
@@ -1223,56 +1223,60 @@ case 21:
                 var5 = {};
                 var8 = var21.content;
                 var5['style'] = var8;
+                var11 = _closure1_slot12;
+                var10 = _closure1_slot6;
                 var8 = {};
-                var10 = var21.emojiContainer;
-                var8['style'] = var10;
-                var10 = _closure1_slot1;
-                var9 = var9[var11];
-                var9 = var10.bind(var4)(var9);
-                var10 = var9.View;
+                var16 = var21.emojiContainer;
+                var8['style'] = var16;
+                var19 = _closure1_slot12;
+                var16 = _closure1_slot1;
+                var9 = var9[var20];
+                var9 = var16.bind(var4)(var9);
+                var16 = var9.View;
                 var9 = {};
-                var11 = new Array(2);
-                var11[0] = var24;
-                var11[1] = var16;
-                var9['style'] = var11;
-                var11 = new Array(2);
-                var11[0] = var23;
-                var16 = null;
-                if(var22) { _fun0004_ip = 47; continue _fun0004 }
+                var20 = new Array(2);
+                var20[0] = var27;
+                var20[1] = var22;
+                var9['style'] = var20;
+                var20 = new Array(2);
+                var20[0] = var26;
+                var22 = null;
+                if(var25) { _fun0004_ip = 47; continue _fun0004 }
 case 48:
-                var16 = null;
-                if(!var19) { _fun0004_ip = 47; continue _fun0004 }
+                var22 = null;
+                if(!var23) { _fun0004_ip = 47; continue _fun0004 }
 case 49:
-                var22 = _closure1_slot11;
-                var20 = _closure1_slot16;
-                var19 = {};
-                var19['emojiComponent'] = var23;
-                var16 = var22.bind(var4)(var20, var19);
+                var25 = _closure1_slot11;
+                var24 = _closure1_slot19;
+                var23 = {};
+                var23['emojiComponent'] = var26;
+                var22 = var25.bind(var4)(var24, var23);
 case 47:
-                var11[1] = var16;
-                var9['children'] = var11;
-                var9 = var7.bind(var4)(var10, var9);
-                var10 = new Array(2);
-                var10[0] = var9;
-                var11 = _closure1_slot11;
+                var20[1] = var22;
+                var9['children'] = var20;
+                var9 = var19.bind(var4)(var16, var9);
+                var19 = new Array(2);
+                var19[0] = var9;
+                var24 = _closure1_slot11;
                 var16 = _closure1_slot0;
                 var20 = _closure1_slot2;
                 var9 = 27;
-                var19 = var20[var9];
-                var19 = var16.bind(var4)(var19);
-                var22 = var19.Text;
-                var19 = {'variant': 'text-lg/semibold', 'style': null, 'color': 'interactive-text-default', 'children': '1'};
-                var23 = var21.selectedEmojiText;
-                var19['style'] = var23;
-                var19 = var11.bind(var4)(var22, var19);
-                var10[1] = var19;
-                var8['children'] = var10;
-                var10 = var7.bind(var4)(var6, var8);
+                var22 = var20[var9];
+                var22 = var16.bind(var4)(var22);
+                var23 = var22.Text;
+                var22 = {'variant': 'text-lg/semibold', 'style': null, 'color': 'interactive-text-default', 'children': '1'};
+                var25 = var21.selectedEmojiText;
+                var22['style'] = var25;
+                var22 = var24.bind(var4)(var23, var22);
+                var19[1] = var22;
+                var8['children'] = var19;
+                var10 = var11.bind(var4)(var10, var8);
                 var8 = new Array(6);
                 var8[0] = var10;
+                var19 = _closure1_slot11;
                 var10 = var20[var9];
                 var10 = var16.bind(var4)(var10);
-                var19 = var10.Text;
+                var11 = var10.Text;
                 var10 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
                 var22 = var21.emojiName;
                 var10['style'] = var22;
@@ -1283,19 +1287,20 @@ case 47:
                 var22 = ':';
                 var22 = var23.bind(var22)(var24, var22);
                 var10['children'] = var22;
-                var10 = var11.bind(var4)(var19, var10);
+                var10 = var19.bind(var4)(var11, var10);
                 var8[1] = var10;
-                var23 = _closure1_slot12;
-                var22 = _closure1_slot6;
+                var22 = _closure1_slot12;
+                var11 = _closure1_slot6;
                 var10 = {};
                 var19 = var21.header;
                 var10['style'] = var19;
+                var25 = _closure1_slot11;
                 var19 = var20[var9];
                 var19 = var16.bind(var4)(var19);
-                var25 = var19.Text;
-                var24 = {'style': null, 'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
+                var24 = var19.Text;
+                var23 = {'style': null, 'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
                 var19 = var21.alignCenter;
-                var24['style'] = var19;
+                var23['style'] = var19;
                 var19 = 28;
                 var26 = var20[var19];
                 var26 = var16.bind(var4)(var26);
@@ -1306,20 +1311,22 @@ case 47:
                 var26 = var26.t;
                 var26 = var26.F6lRAI;
                 var26 = var27.bind(var28)(var26);
-                var24['children'] = var26;
-                var25 = var11.bind(var4)(var25, var24);
-                var24 = new Array(2);
-                var24[0] = var25;
-                var25 = 29;
-                var25 = var20[var25];
-                var25 = var16.bind(var4)(var25);
-                var26 = var25.NewBadge;
-                var25 = {};
-                var25 = var11.bind(var4)(var26, var25);
-                var24[1] = var25;
-                var10['children'] = var24;
-                var10 = var23.bind(var4)(var22, var10);
+                var23['children'] = var26;
+                var24 = var25.bind(var4)(var24, var23);
+                var23 = new Array(2);
+                var23[0] = var24;
+                var26 = _closure1_slot11;
+                var24 = 29;
+                var24 = var20[var24];
+                var24 = var16.bind(var4)(var24);
+                var25 = var24.NewBadge;
+                var24 = {};
+                var24 = var26.bind(var4)(var25, var24);
+                var23[1] = var24;
+                var10['children'] = var23;
+                var10 = var22.bind(var4)(var11, var10);
                 var8[2] = var10;
+                var11 = _closure1_slot11;
                 var9 = var20[var9];
                 var9 = var16.bind(var4)(var9);
                 var10 = var9.Text;
@@ -1338,6 +1345,7 @@ case 47:
                 var9['children'] = var22;
                 var9 = var11.bind(var4)(var10, var9);
                 var8[3] = var9;
+                var11 = _closure1_slot11;
                 var10 = _closure1_slot1;
                 var9 = 30;
                 var9 = var20[var9];
@@ -1349,6 +1357,7 @@ case 47:
                 var9['onPressEmoji'] = var14;
                 var9 = var11.bind(var4)(var10, var9);
                 var8[4] = var9;
+                var11 = _closure1_slot11;
                 var9 = 31;
                 var9 = var20[var9];
                 var9 = var16.bind(var4)(var9);

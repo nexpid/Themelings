@@ -7,27 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.useEffect;
-    var _closure1_slot4 = var7;
-    var4 = var4.useState;
-    var _closure1_slot5 = var4;
-    var4 = function extractTimeComponents(arg1) {
+    var1 = function extractTimeComponents(arg1) {
         var7 = arg1;
         var5 = global;
         var2 = var5.Math;
@@ -69,8 +49,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['seconds'] = var2;
         return var1;
     };
-    var _closure1_slot6 = var4;
-    var4 = function pad(arg1) {
+    var _closure1_slot6 = var1;
+    var1 = function pad(arg1) {
         var1 = global;
         var3 = var1.String;
         var2 = undefined;
@@ -82,7 +62,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.useEffect;
+    var _closure1_slot4 = var7;
+    var4 = var4.useState;
+    var _closure1_slot5 = var4;
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['default'] = var4;
-    var4 = function(arg1) {
+    var4 = function formatTime(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot6;
@@ -236,7 +236,7 @@ case 4:
         }
     };
     var3['formatTime'] = var4;
-    var2 = function(arg1) {
+    var2 = function formatTimeForA11yLabel(arg1) {
         var4 = _closure1_slot6;
         var3 = undefined;
         var2 = arg1;

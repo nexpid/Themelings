@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/contact_sync/native/components/ContactSyncInviteFriends.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default() {
+    var2 = function ContactSyncInviteFriends() {
         var1 = _closure1_slot10;
         var4 = undefined;
         var9 = var1.bind(var4)();

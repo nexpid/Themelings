@@ -76,6 +76,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DELETE_CLIP'] = var1;
     var1 = 'DISCORD_MOVE_CLIP';
     var2['MOVE_CLIP'] = var1;
+    var1 = 'DISCORD_UPDATE_CLIP_METADATA';
+    var2['UPDATE_CLIP_METADATA'] = var1;
     var1 = 'DISCORD_CHECK_FOR_UPDATES';
     var2['CHECK_FOR_UPDATES'] = var1;
     var1 = 'DISCORD_DESKTOP_CAPTURER_GET_SOURCES';

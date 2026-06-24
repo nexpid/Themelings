@@ -106,14 +106,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/forums/native/ForumPostActionBar.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function ForumPostActionBar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var21 = var1.channel;
             var _closure2_slot0 = var21;
-            var1 = _closure1_slot12;
             var4 = undefined;
+            var _closure2_slot1 = var4;
+            var16 = function handleFollow() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 13;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.handleToggleFollowForumPost;
+                var3 = _closure2_slot0;
+                var2 = _closure2_slot1;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
+            };
+            var1 = _closure1_slot12;
             var17 = var1.bind(var4)();
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -154,7 +168,7 @@ case 0:
                 return var1;
             };
             var9 = var7.bind(var8)(var6, var5);
-            var _closure2_slot1 = var9;
+            _closure2_slot1 = var9;
             var5 = var21.getGuildId;
             var5 = var5.bind(var21)();
             var _closure2_slot2 = var5;
@@ -217,19 +231,6 @@ case 2:
                 return var1;
             };
             var12 = var6.bind(var7)(var1, var5);
-            var16 = function handleFollow() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 13;
-                var2 = var2[var1];
-                var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var4 = var5.handleToggleFollowForumPost;
-                var3 = _closure2_slot0;
-                var2 = _closure2_slot1;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            };
             var1 = 14;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);

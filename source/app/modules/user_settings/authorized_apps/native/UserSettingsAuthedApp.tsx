@@ -296,11 +296,13 @@ case 0:
             var1 = arg1;
             var5 = var1.oauth2Token;
             var _closure2_slot0 = var5;
-            var1 = _closure1_slot19;
             var4 = undefined;
+            var _closure2_slot1 = var4;
+            var _closure2_slot3 = var4;
+            var1 = _closure1_slot19;
             var15 = var1.bind(var4)();
             var10 = var5.application;
-            var _closure2_slot1 = var10;
+            _closure2_slot1 = var10;
             var19 = _closure1_slot1;
             var20 = _closure1_slot2;
             var1 = 21;
@@ -342,7 +344,7 @@ case 0:
             var3 = var22.bind(var4)(var2);
             var2 = var3.useNavigation;
             var2 = var2.bind(var3)();
-            var _closure2_slot3 = var2;
+            _closure2_slot3 = var2;
             var3 = var20[var1];
             var12 = var22.bind(var4)(var3);
             var11 = var12.useStateFromStores;

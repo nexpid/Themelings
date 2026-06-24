@@ -1,13 +1,13 @@
 // app/modules/guild_role_subscriptions/GuildRoleSubscriptionsHooks.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
-    var6 = metroImportDefault;
-    var5 = metroImportAll;
+    var11 = metroImportDefault;
+    var10 = metroImportAll;
     var3 = exports;
     var9 = dependencyMap;
     var _closure1_slot0 = var8;
-    var _closure1_slot1 = var6;
-    var _closure1_slot2 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var10;
     var _closure1_slot3 = var9;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -80,7 +80,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot15;
+            var9 = _closure1_slot12;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -92,7 +92,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot12;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -151,7 +151,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -184,42 +184,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
-    var1 = global;
-    var10 = var1.Object;
-    var7 = var10.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var10)(var3, var1, var4);
-    var1 = 0;
-    var4 = var9[var1];
-    var1 = undefined;
-    var4 = var6.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 1;
-    var4 = var9[var4];
-    var4 = var6.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 2;
-    var4 = var9[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 3;
-    var4 = var9[var4];
-    var4 = var6.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 4;
-    var5 = var9[var4];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot8 = var5;
-    var4 = var9[var4];
-    var4 = var8.bind(var1)(var4);
-    var4 = var4.FetchState;
-    var _closure1_slot9 = var4;
-    var4 = new Array(0);
-    var _closure1_slot10 = var4;
+    var _closure1_slot12 = var1;
     var6 = function useFetchListingsForGuild(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -292,10 +257,11 @@ case 40:
                 }
             };
             var3 = var6.bind(var8)(var4, var3);
-            var9 = _closure1_slot6;
-            var4 = var9.useRef;
-            var4 = var4.bind(var9)(var12);
+            var6 = _closure1_slot6;
+            var4 = var6.useRef;
+            var4 = var4.bind(var6)(var12);
             _closure2_slot6 = var4;
+            var9 = _closure1_slot6;
             var8 = var9.useEffect;
             var6 = new Array(6);
             var6[0] = var15;
@@ -372,7 +338,7 @@ case 48:
             return var1;
         }
     };
-    var _closure1_slot11 = var6;
+    var _closure1_slot13 = var6;
     var5 = function useSubscriptionListingsForGroup(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -423,7 +389,7 @@ case 42:
                     if(!(var7 != var2)) { _fun0008_ip = 51; continue _fun0008 }
 case 52:
                     var1 = new Array(0);
-                    var3 = _closure1_slot14;
+                    var3 = _closure1_slot11;
                     var2 = var2.subscription_listings_ids;
                     var5 = undefined;
                     var4 = var3.bind(var5)(var2);
@@ -473,7 +439,7 @@ case 50:
             return var1;
         }
     };
-    var _closure1_slot12 = var5;
+    var _closure1_slot14 = var5;
     var4 = function useSubscriptionListingsForGuild(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -486,7 +452,7 @@ case 36:
             var2 = {'includeSoftDeleted': false, 'sortDeletedListingsLast': false};
 case 37:
             var _closure2_slot1 = var2;
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot13;
             var3 = var3.bind(var5)(var4);
             var4 = _closure1_slot0;
             var6 = _closure1_slot3;
@@ -501,7 +467,7 @@ case 37:
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var6 = new Array(0);
-                    var4 = _closure1_slot14;
+                    var4 = _closure1_slot11;
                     var1 = _closure2_slot0;
                     var9 = null;
                     if(!(var9 == var1)) { _fun0010_ip = 37; continue _fun0010 }
@@ -522,7 +488,7 @@ case 63:
                     var4 = undefined;
                     if(var1) { _fun0010_ip = 64; continue _fun0010 }
 case 65:
-                    var11 = _closure1_slot14;
+                    var11 = _closure1_slot11;
                     var1 = var5.value;
                     var1 = var1.subscription_listings_ids;
                     var12 = var11.bind(var8)(var1);
@@ -602,7 +568,42 @@ case 72:
             return var1;
         }
     };
-    var _closure1_slot13 = var4;
+    var _closure1_slot15 = var4;
+    var1 = global;
+    var13 = var1.Object;
+    var12 = var13.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var12.bind(var13)(var3, var1, var7);
+    var1 = 0;
+    var7 = var9[var1];
+    var1 = undefined;
+    var7 = var11.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 1;
+    var7 = var9[var7];
+    var7 = var11.bind(var1)(var7);
+    var _closure1_slot5 = var7;
+    var7 = 2;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot6 = var7;
+    var7 = 3;
+    var7 = var9[var7];
+    var7 = var11.bind(var1)(var7);
+    var _closure1_slot7 = var7;
+    var7 = 4;
+    var10 = var9[var7];
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot8 = var10;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.FetchState;
+    var _closure1_slot9 = var7;
+    var7 = new Array(0);
+    var _closure1_slot10 = var7;
     var7 = 12;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -610,30 +611,11 @@ case 72:
     var7 = 'modules/guild_role_subscriptions/GuildRoleSubscriptionsHooks.tsx';
     var7 = var8.bind(var9)(var7);
     var3['useFetchListingsForGuild'] = var6;
-    var6 = function() {
-        var10 = _closure1_slot6;
-        var4 = var10.useState;
-        var2 = false;
-        var2 = var4.bind(var10)(var2);
-        var8 = _closure1_slot5;
-        var3 = undefined;
-        var7 = 2;
-        var5 = var8.bind(var3)(var2, var7);
-        var2 = 0;
-        var4 = var5[var2];
-        var6 = 1;
-        var5 = var5[var6];
-        var _closure2_slot0 = var5;
-        var9 = var10.useState;
-        var5 = null;
-        var5 = var9.bind(var10)(var5);
-        var5 = var8.bind(var3)(var5, var7);
-        var2 = var5[var2];
-        var5 = var5[var6];
-        var _closure2_slot1 = var5;
-        var1 = function() {
-            var4 = _closure1_slot4;
-            var3 = undefined;
+    var6 = function useCreateSubscriptionGroupListing() {
+        var1 = function _createSubscriptionGroupListing() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot4;
             var2 = function* (arg1, arg2) {
                 var1 = function* anon_0_(arg1, arg2) {
                     _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -696,49 +678,77 @@ case 75:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot2 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var3 = var1.bind(var3)();
+        var _closure2_slot2 = var1;
+        var5 = _closure1_slot6;
+        var4 = var5.useState;
+        var2 = false;
+        var2 = var4.bind(var5)(var2);
+        var8 = _closure1_slot5;
+        var7 = undefined;
+        var6 = 2;
+        var9 = var8.bind(var7)(var2, var6);
+        var2 = 0;
+        var4 = var9[var2];
+        var5 = 1;
+        var9 = var9[var5];
+        var _closure2_slot0 = var9;
+        var10 = _closure1_slot6;
+        var9 = var10.useState;
+        var1 = null;
+        var1 = var9.bind(var10)(var1);
+        var1 = var8.bind(var7)(var1, var6);
+        var2 = var1[var2];
+        var1 = var1[var5];
+        var _closure2_slot1 = var1;
         var1 = {};
         var1['loading'] = var4;
+        var3 = function createSubscriptionGroupListing(arg1, arg2) {
+            var1 = undefined;
+            var4 = _closure2_slot2;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var1['createSubscriptionGroupListing'] = var3;
         var1['error'] = var2;
         return var1;
     };
     var3['useCreateSubscriptionGroupListing'] = var6;
-    var6 = function() {
-        var6 = _closure1_slot6;
-        var4 = var6.useState;
+    var6 = function useUpdateSubscriptionGroupListing() {
+        var4 = _closure1_slot6;
+        var3 = var4.useState;
         var2 = false;
-        var2 = var4.bind(var6)(var2);
+        var2 = var3.bind(var4)(var2);
         var9 = _closure1_slot5;
         var3 = undefined;
         var8 = 2;
-        var5 = var9.bind(var3)(var2, var8);
+        var6 = var9.bind(var3)(var2, var8);
         var2 = 0;
-        var4 = var5[var2];
+        var4 = var6[var2];
         var7 = 1;
-        var5 = var5[var7];
-        var _closure2_slot0 = var5;
-        var10 = var6.useState;
-        var5 = null;
-        var5 = var10.bind(var6)(var5);
-        var5 = var9.bind(var3)(var5, var8);
-        var2 = var5[var2];
-        var5 = var5[var7];
-        var _closure2_slot1 = var5;
+        var6 = var6[var7];
+        var _closure2_slot0 = var6;
+        var11 = _closure1_slot6;
+        var10 = var11.useState;
+        var6 = null;
+        var6 = var10.bind(var11)(var6);
+        var6 = var9.bind(var3)(var6, var8);
+        var2 = var6[var2];
+        var6 = var6[var7];
+        var _closure2_slot1 = var6;
+        var6 = _closure1_slot6;
         var5 = var6.useCallback;
         var1 = function() {
             var4 = _closure1_slot4;
@@ -808,7 +818,7 @@ case 83:
             };
             var2 = var4.bind(var3)(var2);
             var _closure3_slot0 = var2;
-            var1 = function() {
+            var1 = function(arg1, arg2, arg3) {
                 var1 = undefined;
                 var4 = _closure3_slot0;
                 var3 = var4.apply;
@@ -831,7 +841,7 @@ case 83:
     };
     var3['useUpdateSubscriptionGroupListing'] = var6;
     var3['useSubscriptionListingsForGroup'] = var5;
-    var5 = function(arg1) {
+    var5 = function useSubscriptionListing(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -864,7 +874,7 @@ case 89:
         return var1;
     };
     var3['useSubscriptionListing'] = var5;
-    var5 = function(arg1) {
+    var5 = function useSubscriptionGroupListing(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -897,7 +907,7 @@ case 89:
         return var1;
     };
     var3['useSubscriptionGroupListing'] = var5;
-    var5 = function(arg1) {
+    var5 = function useGroupListingsForGuild(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -944,26 +954,27 @@ case 63:
     var3['useGroupListingsForGuild'] = var5;
     var3['useSubscriptionListingsForGuild'] = var4;
     var4 = function(arg1) {
-        var3 = arg1;
-        var _closure2_slot0 = var3;
-        var5 = _closure1_slot6;
-        var6 = var5.useState;
+        var4 = arg1;
+        var _closure2_slot0 = var4;
+        var6 = _closure1_slot6;
+        var5 = var6.useState;
         var2 = false;
-        var7 = var6.bind(var5)(var2);
-        var6 = _closure1_slot5;
-        var8 = undefined;
+        var6 = var5.bind(var6)(var2);
+        var5 = _closure1_slot5;
+        var7 = undefined;
         var2 = 2;
-        var7 = var6.bind(var8)(var7, var2);
+        var6 = var5.bind(var7)(var6, var2);
         var2 = 0;
-        var2 = var7[var2];
+        var2 = var6[var2];
         var _closure2_slot1 = var2;
-        var6 = 1;
-        var6 = var7[var6];
-        var _closure2_slot2 = var6;
-        var7 = var5.useMemo;
-        var6 = new Array(1);
-        var6[0] = var3;
-        var3 = function() {
+        var5 = 1;
+        var5 = var6[var5];
+        var _closure2_slot2 = var5;
+        var8 = _closure1_slot6;
+        var6 = var8.useMemo;
+        var5 = new Array(1);
+        var5[0] = var4;
+        var4 = function() {
             var3 = _closure2_slot0;
             var2 = var3.map;
             var5 = _closure1_slot0;
@@ -976,20 +987,20 @@ case 63:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var3 = var7.bind(var5)(var3, var6);
-        var _closure2_slot3 = var3;
-        var7 = _closure1_slot0;
-        var9 = _closure1_slot3;
-        var6 = 5;
-        var6 = var9[var6];
-        var8 = var7.bind(var8)(var6);
+        var4 = var6.bind(var8)(var4, var5);
+        var _closure2_slot3 = var4;
+        var6 = _closure1_slot0;
+        var8 = _closure1_slot3;
+        var5 = 5;
+        var5 = var8[var5];
+        var8 = var6.bind(var7)(var5);
         var7 = var8.useStateFromStoresArray;
-        var4 = _closure1_slot8;
+        var5 = _closure1_slot8;
         var6 = new Array(1);
-        var6[0] = var4;
-        var4 = new Array(1);
-        var4[0] = var3;
-        var3 = function() {
+        var6[0] = var5;
+        var5 = new Array(1);
+        var5[0] = var4;
+        var4 = function() {
             var3 = _closure2_slot3;
             var2 = var3.filter;
             var1 = function(arg1) {
@@ -1003,8 +1014,9 @@ case 63:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var6 = var7.bind(var8)(var6, var3, var4);
+        var6 = var7.bind(var8)(var6, var4, var5);
         var _closure2_slot4 = var6;
+        var5 = _closure1_slot6;
         var4 = var5.useEffect;
         var3 = new Array(2);
         var3[0] = var2;
@@ -1072,30 +1084,11 @@ case 92:
         return var1;
     };
     var3['useFetchListingsForSubscriptions'] = var4;
-    var4 = function() {
-        var10 = _closure1_slot6;
-        var4 = var10.useState;
-        var3 = false;
-        var3 = var4.bind(var10)(var3);
-        var8 = _closure1_slot5;
-        var2 = undefined;
-        var7 = 2;
-        var5 = var8.bind(var2)(var3, var7);
-        var4 = 0;
-        var3 = var5[var4];
-        var6 = 1;
-        var5 = var5[var6];
-        var _closure2_slot0 = var5;
-        var9 = var10.useState;
-        var5 = null;
-        var5 = var9.bind(var10)(var5);
-        var5 = var8.bind(var2)(var5, var7);
-        var4 = var5[var4];
-        var5 = var5[var6];
-        var _closure2_slot1 = var5;
-        var1 = function() {
-            var4 = _closure1_slot4;
-            var3 = undefined;
+    var4 = function useDeleteSubscriptionListing() {
+        var1 = function _deleteSubscriptionListing() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot4;
             var2 = function* (arg1, arg2, arg3) {
                 var1 = function* anon_0_(arg1, arg2, arg3) {
                     _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
@@ -1161,29 +1154,55 @@ case 93:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot2 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var2 = var1.bind(var2)();
+        var _closure2_slot2 = var1;
+        var5 = _closure1_slot6;
+        var4 = var5.useState;
+        var3 = false;
+        var3 = var4.bind(var5)(var3);
+        var8 = _closure1_slot5;
+        var7 = undefined;
+        var6 = 2;
+        var9 = var8.bind(var7)(var3, var6);
+        var4 = 0;
+        var3 = var9[var4];
+        var5 = 1;
+        var9 = var9[var5];
+        var _closure2_slot0 = var9;
+        var10 = _closure1_slot6;
+        var9 = var10.useState;
+        var1 = null;
+        var1 = var9.bind(var10)(var1);
+        var1 = var8.bind(var7)(var1, var6);
+        var4 = var1[var4];
+        var1 = var1[var5];
+        var _closure2_slot1 = var1;
         var1 = {};
         var1['error'] = var4;
         var1['submitting'] = var3;
+        var2 = function deleteSubscriptionListing(arg1, arg2, arg3) {
+            var1 = undefined;
+            var4 = _closure2_slot2;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var1['deleteSubscriptionListing'] = var2;
         return var1;
     };
     var3['useDeleteSubscriptionListing'] = var4;
-    var4 = function() {
+    var4 = function useArchiveSubscriptionListing() {
         var3 = _closure1_slot1;
         var6 = _closure1_slot3;
         var2 = 10;
@@ -1212,30 +1231,11 @@ case 93:
         return var1;
     };
     var3['useArchiveSubscriptionListing'] = var4;
-    var4 = function() {
-        var10 = _closure1_slot6;
-        var4 = var10.useState;
-        var1 = false;
-        var1 = var4.bind(var10)(var1);
-        var8 = _closure1_slot5;
-        var3 = undefined;
-        var7 = 2;
-        var1 = var8.bind(var3)(var1, var7);
-        var5 = 0;
-        var4 = var1[var5];
-        var6 = 1;
-        var1 = var1[var6];
-        var _closure2_slot0 = var1;
-        var9 = var10.useState;
-        var1 = null;
-        var1 = var9.bind(var10)(var1);
-        var1 = var8.bind(var3)(var1, var7);
-        var5 = var1[var5];
-        var1 = var1[var6];
-        var _closure2_slot1 = var1;
-        var1 = function() {
-            var4 = _closure1_slot4;
-            var3 = undefined;
+    var4 = function usePublishSubscriptionListing() {
+        var1 = function _publishSubscriptionListing() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot4;
             var2 = function* (arg1) {
                 var1 = function* anon_0_(arg1) {
                     _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
@@ -1317,24 +1317,50 @@ case 97:
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot2 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var3 = var1.bind(var3)();
+        var _closure2_slot2 = var1;
+        var5 = _closure1_slot6;
+        var4 = var5.useState;
+        var3 = false;
+        var3 = var4.bind(var5)(var3);
+        var8 = _closure1_slot5;
+        var7 = undefined;
+        var6 = 2;
+        var9 = var8.bind(var7)(var3, var6);
+        var4 = 0;
+        var3 = var9[var4];
+        var5 = 1;
+        var9 = var9[var5];
+        var _closure2_slot0 = var9;
+        var10 = _closure1_slot6;
+        var9 = var10.useState;
+        var1 = null;
+        var1 = var9.bind(var10)(var1);
+        var1 = var8.bind(var7)(var1, var6);
+        var4 = var1[var4];
+        var1 = var1[var5];
+        var _closure2_slot1 = var1;
         var1 = {};
-        var1['error'] = var5;
-        var1['submitting'] = var4;
+        var1['error'] = var4;
+        var1['submitting'] = var3;
+        var3 = function publishSubscriptionListing(arg1) {
+            var1 = undefined;
+            var4 = _closure2_slot2;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var1['publishSubscriptionListing'] = var3;
         var2 = function clearError() {
             var3 = _closure2_slot1;
@@ -1347,7 +1373,7 @@ case 97:
         return var1;
     };
     var3['usePublishSubscriptionListing'] = var4;
-    var4 = function(arg1) {
+    var4 = function useSubscriptionsSettings(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -1381,27 +1407,29 @@ case 106:
         return var1;
     };
     var3['useSubscriptionsSettings'] = var4;
-    var4 = function() {
-        var6 = _closure1_slot6;
-        var4 = var6.useState;
+    var4 = function useUpdateSubscriptionsSettings() {
+        var4 = _closure1_slot6;
+        var3 = var4.useState;
         var2 = false;
-        var2 = var4.bind(var6)(var2);
+        var2 = var3.bind(var4)(var2);
         var9 = _closure1_slot5;
         var3 = undefined;
         var8 = 2;
-        var5 = var9.bind(var3)(var2, var8);
+        var6 = var9.bind(var3)(var2, var8);
         var2 = 0;
-        var4 = var5[var2];
+        var4 = var6[var2];
         var7 = 1;
-        var5 = var5[var7];
-        var _closure2_slot0 = var5;
-        var10 = var6.useState;
-        var5 = null;
-        var5 = var10.bind(var6)(var5);
-        var5 = var9.bind(var3)(var5, var8);
-        var2 = var5[var2];
-        var5 = var5[var7];
-        var _closure2_slot1 = var5;
+        var6 = var6[var7];
+        var _closure2_slot0 = var6;
+        var11 = _closure1_slot6;
+        var10 = var11.useState;
+        var6 = null;
+        var6 = var10.bind(var11)(var6);
+        var6 = var9.bind(var3)(var6, var8);
+        var2 = var6[var2];
+        var6 = var6[var7];
+        var _closure2_slot1 = var6;
+        var6 = _closure1_slot6;
         var5 = var6.useCallback;
         var1 = function() {
             var4 = _closure1_slot4;
@@ -1467,7 +1495,7 @@ case 55:
             };
             var2 = var4.bind(var3)(var2);
             var _closure3_slot0 = var2;
-            var1 = function() {
+            var1 = function(arg1, arg2) {
                 var1 = undefined;
                 var4 = _closure3_slot0;
                 var3 = var4.apply;
@@ -1489,30 +1517,11 @@ case 55:
         return var1;
     };
     var3['useUpdateSubscriptionsSettings'] = var4;
-    var4 = function() {
-        var10 = _closure1_slot6;
-        var4 = var10.useState;
-        var3 = false;
-        var3 = var4.bind(var10)(var3);
-        var8 = _closure1_slot5;
-        var2 = undefined;
-        var7 = 2;
-        var5 = var8.bind(var2)(var3, var7);
-        var4 = 0;
-        var3 = var5[var4];
-        var6 = 1;
-        var5 = var5[var6];
-        var _closure2_slot0 = var5;
-        var9 = var10.useState;
-        var5 = null;
-        var5 = var9.bind(var10)(var5);
-        var5 = var8.bind(var2)(var5, var7);
-        var4 = var5[var4];
-        var5 = var5[var6];
-        var _closure2_slot1 = var5;
-        var1 = function() {
-            var4 = _closure1_slot4;
-            var3 = undefined;
+    var4 = function useDeleteSubscriptionGroupListing() {
+        var1 = function _deleteSubscriptionGroupListing() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot4;
             var2 = function* (arg1, arg2) {
                 var1 = function* anon_0_(arg1, arg2) {
                     _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
@@ -1577,49 +1586,77 @@ case 110:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot2 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var2 = var1.bind(var2)();
+        var _closure2_slot2 = var1;
+        var5 = _closure1_slot6;
+        var4 = var5.useState;
+        var3 = false;
+        var3 = var4.bind(var5)(var3);
+        var8 = _closure1_slot5;
+        var7 = undefined;
+        var6 = 2;
+        var9 = var8.bind(var7)(var3, var6);
+        var4 = 0;
+        var3 = var9[var4];
+        var5 = 1;
+        var9 = var9[var5];
+        var _closure2_slot0 = var9;
+        var10 = _closure1_slot6;
+        var9 = var10.useState;
+        var1 = null;
+        var1 = var9.bind(var10)(var1);
+        var1 = var8.bind(var7)(var1, var6);
+        var4 = var1[var4];
+        var1 = var1[var5];
+        var _closure2_slot1 = var1;
         var1 = {};
         var1['error'] = var4;
         var1['submitting'] = var3;
+        var2 = function deleteSubscriptionGroupListing(arg1, arg2) {
+            var1 = undefined;
+            var4 = _closure2_slot2;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var1['deleteSubscriptionGroupListing'] = var2;
         return var1;
     };
     var3['useDeleteSubscriptionGroupListing'] = var4;
-    var4 = function() {
-        var6 = _closure1_slot6;
-        var4 = var6.useState;
+    var4 = function useFetchSubscriptionsSettings() {
+        var4 = _closure1_slot6;
+        var3 = var4.useState;
         var2 = false;
-        var2 = var4.bind(var6)(var2);
+        var2 = var3.bind(var4)(var2);
         var9 = _closure1_slot5;
         var3 = undefined;
         var8 = 2;
-        var5 = var9.bind(var3)(var2, var8);
+        var6 = var9.bind(var3)(var2, var8);
         var2 = 0;
-        var4 = var5[var2];
+        var4 = var6[var2];
         var7 = 1;
-        var5 = var5[var7];
-        var _closure2_slot0 = var5;
-        var10 = var6.useState;
-        var5 = null;
-        var5 = var10.bind(var6)(var5);
-        var5 = var9.bind(var3)(var5, var8);
-        var2 = var5[var2];
-        var5 = var5[var7];
-        var _closure2_slot1 = var5;
+        var6 = var6[var7];
+        var _closure2_slot0 = var6;
+        var11 = _closure1_slot6;
+        var10 = var11.useState;
+        var6 = null;
+        var6 = var10.bind(var11)(var6);
+        var6 = var9.bind(var3)(var6, var8);
+        var2 = var6[var2];
+        var6 = var6[var7];
+        var _closure2_slot1 = var6;
+        var6 = _closure1_slot6;
         var5 = var6.useCallback;
         var1 = function() {
             var4 = _closure1_slot4;
@@ -1684,7 +1721,7 @@ case 113:
             };
             var2 = var4.bind(var3)(var2);
             var _closure3_slot0 = var2;
-            var1 = function() {
+            var1 = function(arg1) {
                 var1 = undefined;
                 var4 = _closure3_slot0;
                 var3 = var4.apply;
@@ -1706,27 +1743,29 @@ case 113:
         return var1;
     };
     var3['useFetchSubscriptionsSettings'] = var4;
-    var4 = function() {
-        var6 = _closure1_slot6;
-        var4 = var6.useState;
+    var4 = function useUpdateSubscriptionsTrial() {
+        var4 = _closure1_slot6;
+        var3 = var4.useState;
         var2 = false;
-        var2 = var4.bind(var6)(var2);
+        var2 = var3.bind(var4)(var2);
         var9 = _closure1_slot5;
         var3 = undefined;
         var8 = 2;
-        var5 = var9.bind(var3)(var2, var8);
+        var6 = var9.bind(var3)(var2, var8);
         var2 = 0;
-        var4 = var5[var2];
+        var4 = var6[var2];
         var7 = 1;
-        var5 = var5[var7];
-        var _closure2_slot0 = var5;
-        var10 = var6.useState;
-        var5 = null;
-        var5 = var10.bind(var6)(var5);
-        var5 = var9.bind(var3)(var5, var8);
-        var2 = var5[var2];
-        var5 = var5[var7];
-        var _closure2_slot1 = var5;
+        var6 = var6[var7];
+        var _closure2_slot0 = var6;
+        var11 = _closure1_slot6;
+        var10 = var11.useState;
+        var6 = null;
+        var6 = var10.bind(var11)(var6);
+        var6 = var9.bind(var3)(var6, var8);
+        var2 = var6[var2];
+        var6 = var6[var7];
+        var _closure2_slot1 = var6;
+        var6 = _closure1_slot6;
         var5 = var6.useCallback;
         var1 = function() {
             var4 = _closure1_slot4;
@@ -1793,7 +1832,7 @@ case 118:
             };
             var2 = var4.bind(var3)(var2);
             var _closure3_slot0 = var2;
-            var1 = function() {
+            var1 = function(arg1, arg2, arg3) {
                 var1 = undefined;
                 var4 = _closure3_slot0;
                 var3 = var4.apply;
@@ -1815,7 +1854,7 @@ case 118:
         return var1;
     };
     var3['useUpdateSubscriptionsTrial'] = var4;
-    var4 = function(arg1) {
+    var4 = function useSubscriptionTrial(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -1848,8 +1887,8 @@ case 89:
         return var1;
     };
     var3['useSubscriptionTrial'] = var4;
-    var4 = function(arg1) {
-        var4 = _closure1_slot12;
+    var4 = function useSubscriptionTrialsForGroup(arg1) {
+        var4 = _closure1_slot14;
         var5 = undefined;
         var3 = arg1;
         var6 = var4.bind(var5)(var3);
@@ -1892,8 +1931,8 @@ case 89:
         return var1;
     };
     var3['useSubscriptionTrialsForGroup'] = var4;
-    var2 = function(arg1) {
-        var4 = _closure1_slot13;
+    var2 = function useSubscriptionTrialsForGuild(arg1) {
+        var4 = _closure1_slot15;
         var5 = undefined;
         var3 = arg1;
         var6 = var4.bind(var5)(var3);

@@ -203,7 +203,7 @@ case 7:
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/image/native/APNGPlayer.android.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function(arg1) {
+    var4 = function useAPNGPlayerControls(arg1) {
         var5 = arg1;
         var _closure2_slot0 = var5;
         var4 = _closure1_slot3;

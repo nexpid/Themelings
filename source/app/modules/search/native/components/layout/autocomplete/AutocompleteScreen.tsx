@@ -515,27 +515,95 @@ case 16:
             var6 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
+                    var11 = function maybeAddUserItem(arg1, arg2) {
+                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                            var5 = arg1;
+                            var3 = arg2;
+                            var2 = null;
+                            var1 = var2 == var3;
+                            if(var1) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
+                            var1 = var2 == var5;
+case 23:
+                            if(var1) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
+                            var4 = _closure3_slot1;
+                            var2 = var4.has;
+                            var1 = var2.bind(var4)(var5);
+case 25:
+                            if(var1) { _fun0008_ip = 27; continue _fun0008 }
+case 28:
+                            var4 = _closure1_slot6;
+                            var2 = var4.isBlockedOrIgnored;
+                            var1 = var2.bind(var4)(var5);
+case 27:
+                            if(var1) { _fun0008_ip = 29; continue _fun0008 }
+case 30:
+                            var4 = _closure3_slot1;
+                            var2 = var4.add;
+                            var2 = var2.bind(var4)(var5);
+                            var2 = _closure3_slot0;
+                            var1 = var2.push;
+                            var1 = var1.bind(var2)(var3);
+case 29:
+                            var1 = undefined;
+                            return var1;
+                        }
+                    };
+                    var _closure3_slot4 = var11;
+                    var1 = function maybeAddChannelItem(arg1, arg2) {
+                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                            var5 = arg1;
+                            var3 = arg2;
+                            var2 = null;
+                            var1 = var2 == var3;
+                            if(var1) { _fun0009_ip = 23; continue _fun0009 }
+case 24:
+                            var1 = var2 == var5;
+case 23:
+                            if(var1) { _fun0009_ip = 25; continue _fun0009 }
+case 26:
+                            var4 = _closure3_slot2;
+                            var2 = var4.has;
+                            var1 = var2.bind(var4)(var5);
+case 25:
+                            if(var1) { _fun0009_ip = 31; continue _fun0009 }
+case 28:
+                            var4 = _closure3_slot2;
+                            var2 = var4.add;
+                            var2 = var2.bind(var4)(var5);
+                            var2 = _closure3_slot0;
+                            var1 = var2.push;
+                            var1 = var1.bind(var2)(var3);
+case 31:
+                            var1 = undefined;
+                            return var1;
+                        }
+                    };
+                    var _closure3_slot5 = var1;
                     var1 = new Array(0);
                     var _closure3_slot0 = var1;
                     var3 = _closure2_slot2;
-                    if(var3) { _fun0007_ip = 23; continue _fun0007 }
-case 24:
+                    if(var3) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
                     var6 = global;
-                    var12 = var6.Set;
+                    var14 = var6.Set;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var13 = 18;
                     var8 = var4[var13];
                     var10 = undefined;
-                    var11 = var5.bind(var10)(var8);
-                    var9 = var11.getSearchQueryUserIds;
+                    var12 = var5.bind(var10)(var8);
+                    var9 = var12.getSearchQueryUserIds;
                     var8 = _closure2_slot0;
-                    var17 = var9.bind(var11)(var8);
-                    var11 = var12.prototype;
-                    var11 = Object.create(var11, {constructor: {value: var12}});
-                    var18 = var11;
-                    var9 = new var18[var12](var17, var16);
-                    var9 = var9 instanceof Object ? var9 : var11;
+                    var17 = var9.bind(var12)(var8);
+                    var12 = var14.prototype;
+                    var12 = Object.create(var12, {constructor: {value: var14}});
+                    var18 = var12;
+                    var9 = new var18[var14](var17, var16);
+                    var9 = var9 instanceof Object ? var9 : var12;
                     var _closure3_slot1 = var9;
                     var6 = var6.Set;
                     var4 = var4[var13];
@@ -548,85 +616,17 @@ case 24:
                     var4 = new var18[var6](var17, var16);
                     var4 = var4 instanceof Object ? var4 : var5;
                     var _closure3_slot2 = var4;
-                    var11 = function maybeAddUserItem(arg1, arg2) {
-                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-                            var5 = arg1;
-                            var3 = arg2;
-                            var2 = null;
-                            var1 = var2 == var3;
-                            if(var1) { _fun0008_ip = 25; continue _fun0008 }
-case 26:
-                            var1 = var2 == var5;
-case 25:
-                            if(var1) { _fun0008_ip = 27; continue _fun0008 }
-case 28:
-                            var4 = _closure3_slot1;
-                            var2 = var4.has;
-                            var1 = var2.bind(var4)(var5);
-case 27:
-                            if(var1) { _fun0008_ip = 29; continue _fun0008 }
-case 30:
-                            var4 = _closure1_slot6;
-                            var2 = var4.isBlockedOrIgnored;
-                            var1 = var2.bind(var4)(var5);
-case 29:
-                            if(var1) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
-                            var4 = _closure3_slot1;
-                            var2 = var4.add;
-                            var2 = var2.bind(var4)(var5);
-                            var2 = _closure3_slot0;
-                            var1 = var2.push;
-                            var1 = var1.bind(var2)(var3);
-case 31:
-                            var1 = undefined;
-                            return var1;
-                        }
-                    };
-                    var _closure3_slot3 = var11;
-                    var4 = function maybeAddChannelItem(arg1, arg2) {
-                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-                            var5 = arg1;
-                            var3 = arg2;
-                            var2 = null;
-                            var1 = var2 == var3;
-                            if(var1) { _fun0009_ip = 25; continue _fun0009 }
-case 26:
-                            var1 = var2 == var5;
-case 25:
-                            if(var1) { _fun0009_ip = 27; continue _fun0009 }
-case 28:
-                            var4 = _closure3_slot2;
-                            var2 = var4.has;
-                            var1 = var2.bind(var4)(var5);
-case 27:
-                            if(var1) { _fun0009_ip = 33; continue _fun0009 }
-case 30:
-                            var4 = _closure3_slot2;
-                            var2 = var4.add;
-                            var2 = var2.bind(var4)(var5);
-                            var2 = _closure3_slot0;
-                            var1 = var2.push;
-                            var1 = var1.bind(var2)(var3);
-case 33:
-                            var1 = undefined;
-                            return var1;
-                        }
-                    };
-                    var _closure3_slot4 = var4;
                     var4 = _closure2_slot1;
                     var9 = var4.autocompletes;
                     var6 = var4.tokens;
                     var4 = var4.mode;
-                    var _closure3_slot5 = var4;
+                    var _closure3_slot3 = var4;
                     var8 = var9.forEach;
                     var5 = function(arg1) {
                         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                             var2 = arg1;
-                            var3 = _closure3_slot5;
+                            var3 = _closure3_slot3;
                             var4 = var3.type;
                             var3 = _closure1_slot13;
                             var3 = var3.FILTER;
@@ -657,7 +657,7 @@ case 0:
                                     var3 = _closure2_slot0;
                                     var2 = _closure2_slot7;
                                     var8 = var4.bind(var5)(var3, var12, var2);
-                                    var5 = _closure3_slot3;
+                                    var5 = _closure3_slot4;
                                     var4 = null;
                                     var13 = var4 == var12;
                                     var3 = undefined;
@@ -673,7 +673,7 @@ case 37:
                                     var5 = var8.toSearchListChannelItem;
                                     var3 = _closure2_slot8;
                                     var8 = var5.bind(var8)(var11, var3);
-                                    var5 = _closure3_slot4;
+                                    var5 = _closure3_slot5;
                                     var12 = var4 == var11;
                                     var3 = undefined;
                                     if(var12) { _fun0011_ip = 39; continue _fun0011 }
@@ -859,7 +859,7 @@ case 0:
                             var3 = var4.toSearchListChannelItem;
                             var2 = _closure2_slot8;
                             var4 = var3.bind(var4)(var5, var2);
-                            var3 = _closure3_slot4;
+                            var3 = _closure3_slot5;
                             var2 = null;
                             var6 = var2 == var5;
                             var2 = undefined;
@@ -880,7 +880,7 @@ case 65:
                     var2 = _closure1_slot16;
 case 64:
                     return var2;
-case 23:
+case 32:
                     var2 = _closure2_slot4;
                     var6 = 0;
                     var2 = var6 < var2;

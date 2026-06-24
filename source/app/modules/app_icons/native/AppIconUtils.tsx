@@ -582,7 +582,7 @@ case 30:
             return var1;
         };
         var3['useAppIcons'] = var4;
-        var4 = function() {
+        var4 = function navigateToAppIconSettings() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 16;

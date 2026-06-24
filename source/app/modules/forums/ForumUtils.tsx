@@ -60,39 +60,8 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
-    var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var5 = {};
-    var1 = true;
-    var5['value'] = var1;
-    var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
-    var1 = 0;
-    var5 = var7[var1];
-    var1 = undefined;
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot2 = var5;
-    var5 = 1;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var5 = 2;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot4 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.ForumTimestampFormats;
-    var _closure1_slot5 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.ChannelFlags;
-    var _closure1_slot6 = var5;
-    var5 = function getCreationDefaultFormatter() {
+    var _closure1_slot7 = var4;
+    var1 = function getCreationDefaultFormatter() {
         var1 = {};
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
@@ -125,7 +94,38 @@ case 10:
         var1['month'] = var2;
         return var1;
     };
-    var _closure1_slot7 = var5;
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.ForumTimestampFormats;
+    var _closure1_slot5 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.ChannelFlags;
+    var _closure1_slot6 = var5;
     var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -203,7 +203,7 @@ case 25:
             var2 = null;
             if(var3) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot7;
             var3 = new Array(1);
             var3[0] = var8;
             var2 = var4.bind(var7)(var6, var5, var3);
@@ -236,7 +236,7 @@ case 6:
             var2 = undefined;
             return var2;
 case 15:
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot8;
             return var1;
         }
     };

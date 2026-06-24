@@ -218,7 +218,7 @@ case 11:
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
-    var9 = function TOOLTIP_ACKNOWLEDGE(arg1) {
+    var9 = function handleTooltipAcknowledge(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var4 = _closure1_slot9;

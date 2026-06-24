@@ -7,6 +7,76 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
+    var1 = function NUFChannelsActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 5;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 4;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot9 = var1;
+    var1 = function GuildRoleSubscriptionsUpsellActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 5;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 6;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot10 = var1;
+    var1 = function GuildRoleSubscriptionsIAPUpsellActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 5;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 7;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot11 = var1;
+    var1 = function CreatorMonetizationOnboardingV2UpsellActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 5;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 8;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot12 = var1;
+    var1 = function TierTemplatesUpsellActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 5;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 9;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot13 = var1;
     var2 = function GuildTooltipActionSheets(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -195,7 +265,7 @@ case 22:
                     var1['markAsDismissed'] = var7;
                     var7 = _closure1_slot7;
                     var1['actionSheetKey'] = var7;
-                    var7 = _closure1_slot8;
+                    var7 = _closure1_slot9;
                     var1['importer'] = var7;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
@@ -210,7 +280,7 @@ case 20:
                     var1 = {};
                     var7 = _closure1_slot7;
                     var1['actionSheetKey'] = var7;
-                    var7 = _closure1_slot12;
+                    var7 = _closure1_slot13;
                     var1['importer'] = var7;
                     var1['markAsDismissed'] = var6;
                     var7 = _closure2_slot0;
@@ -227,7 +297,7 @@ case 18:
                     var2 = var1.DismissibleActionSheet;
                     var1 = {};
                     var1['markAsDismissed'] = var6;
-                    var7 = _closure1_slot11;
+                    var7 = _closure1_slot12;
                     var1['importer'] = var7;
                     var7 = _closure1_slot7;
                     var1['actionSheetKey'] = var7;
@@ -245,7 +315,7 @@ case 16:
                     var2 = var1.DismissibleActionSheet;
                     var1 = {};
                     var1['markAsDismissed'] = var6;
-                    var7 = _closure1_slot10;
+                    var7 = _closure1_slot11;
                     var1['importer'] = var7;
                     var7 = _closure1_slot7;
                     var1['actionSheetKey'] = var7;
@@ -263,7 +333,7 @@ case 14:
                     var2 = var1.DismissibleActionSheet;
                     var1 = {};
                     var1['markAsDismissed'] = var6;
-                    var6 = _closure1_slot9;
+                    var6 = _closure1_slot10;
                     var1['importer'] = var6;
                     var5 = _closure1_slot7;
                     var1['actionSheetKey'] = var5;
@@ -309,80 +379,10 @@ case 14:
     var _closure1_slot6 = var5;
     var5 = 'GuildTooltipActionSheet';
     var _closure1_slot7 = var5;
-    var5 = function NUFChannelsActionSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 5;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 4;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot8 = var5;
-    var5 = function GuildRoleSubscriptionsUpsellActionSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 5;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 6;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot9 = var5;
-    var5 = function GuildRoleSubscriptionsIAPUpsellActionSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 5;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 7;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot10 = var5;
-    var5 = function CreatorMonetizationOnboardingV2UpsellActionSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 5;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 8;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot11 = var5;
-    var5 = function TierTemplatesUpsellActionSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 5;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 9;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot12 = var5;
     var5 = {};
     var8 = 'function GuildTooltipActionSheetsTsx1(){const{runOnJS,setShouldRender}=this.__closure;return runOnJS(setShouldRender)(true);}';
     var5['code'] = var8;
-    var _closure1_slot13 = var5;
+    var _closure1_slot8 = var5;
     var5 = 19;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -414,7 +414,7 @@ case 0:
                 var1 = undefined;
                 var4 = var8.bind(var1)(var2);
                 var3 = var4.runOnUI;
-                var2 = function s() {
+                var2 = function t() {
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 18;
@@ -438,7 +438,7 @@ case 0:
                 var2['__closure'] = var6;
                 var6 = 6076095421855.0;
                 var2['__workletHash'] = var6;
-                var5 = _closure1_slot13;
+                var5 = _closure1_slot8;
                 var2['__initData'] = var5;
                 var2 = var3.bind(var4)(var2);
                 var2 = var2.bind(var1)();

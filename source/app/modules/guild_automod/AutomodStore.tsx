@@ -416,7 +416,7 @@ case 18:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
                     if(var6) { _fun0006_ip = 33; continue _fun0006 }
 case 34:
-                    var6 = function(arg1) {
+                    var6 = function convertToRulesByTriggerType(arg1) {
                         var4 = arg1;
                         var1 = {};
                         var3 = _closure1_slot5;
@@ -555,7 +555,7 @@ case 25:
     var6 = 'modules/guild_automod/AutomodStore.tsx';
     var6 = var7.bind(var8)(var6);
     var3['useAutomodStore'] = var5;
-    var5 = function(arg1, arg2) {
+    var5 = function getRuleCountByTriggerType(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var2 = _closure1_slot8;

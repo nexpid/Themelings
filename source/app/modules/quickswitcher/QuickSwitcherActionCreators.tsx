@@ -123,54 +123,6 @@ case 10:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var10 = arg2;
-            var3 = _closure1_slot11;
-            var1 = var3.getProps;
-            var1 = var1.bind(var3)();
-            var8 = var1.results;
-            var17 = var1.queryMode;
-            var12 = var1.query;
-            var3 = var1.maxQueryLength;
-            var4 = _closure1_slot10;
-            var1 = var4.getGuildId;
-            var16 = var1.bind(var4)();
-            var4 = _closure1_slot9;
-            var1 = var4.getChannelId;
-            var7 = var1.bind(var4)(var16);
-            var5 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var9 = 12;
-            var4 = var11[var9];
-            var1 = undefined;
-            var13 = var5.bind(var1)(var4);
-            var6 = var13.findNextSelectedResult;
-            var4 = var11[var9];
-            var4 = var5.bind(var1)(var4);
-            var4 = var4.FindResultDirections;
-            var5 = var4.DOWN;
-            var4 = -1;
-            var4 = var6.bind(var13)(var5, var4, var8);
-            var6 = var8[var4];
-            var5 = _closure1_slot1;
-            var4 = 15;
-            var13 = var11[var4];
-            var14 = var5.bind(var1)(var13);
-            var13 = var14.isEmail;
-            var15 = var13.bind(var14)(var12);
-            var13 = var11[var4];
-            var14 = var5.bind(var1)(var13);
-            var13 = var14.isPhoneNumber;
-            var14 = var13.bind(var14)(var12);
-            var4 = var11[var4];
-            var5 = var5.bind(var1)(var4);
-            var4 = var5.isUserTagLike;
-            var13 = var4.bind(var5)(var12);
-            var4 = null;
-            var19 = var4 != var7;
-            if(!var19) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-            var5 = _closure1_slot17;
-            var19 = var5.bind(var1)(var7);
-case 14:
             var11 = function getResultType(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -178,7 +130,7 @@ case 0:
                     var1 = null;
                     var2 = var1 == var3;
                     if(var2) { _fun0004_ip = 12; continue _fun0004 }
-case 16:
+case 14:
                     var4 = var3.type;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -189,7 +141,7 @@ case 16:
                     var2 = var2.AutocompleterResultTypes;
                     var2 = var2.IN_APP_NAVIGATION;
                     if(!(var4 !== var2)) { _fun0004_ip = 3; continue _fun0004 }
-case 17:
+case 15:
                     var2 = var3.type;
                     _fun0004_ip = 13; continue _fun0004;
 case 3:
@@ -205,6 +157,54 @@ case 12:
                     return var1;
                 }
             };
+            var3 = _closure1_slot11;
+            var1 = var3.getProps;
+            var1 = var1.bind(var3)();
+            var8 = var1.results;
+            var17 = var1.queryMode;
+            var12 = var1.query;
+            var3 = var1.maxQueryLength;
+            var4 = _closure1_slot10;
+            var1 = var4.getGuildId;
+            var16 = var1.bind(var4)();
+            var4 = _closure1_slot9;
+            var1 = var4.getChannelId;
+            var7 = var1.bind(var4)(var16);
+            var5 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var9 = 12;
+            var4 = var13[var9];
+            var1 = undefined;
+            var14 = var5.bind(var1)(var4);
+            var6 = var14.findNextSelectedResult;
+            var4 = var13[var9];
+            var4 = var5.bind(var1)(var4);
+            var4 = var4.FindResultDirections;
+            var5 = var4.DOWN;
+            var4 = -1;
+            var4 = var6.bind(var14)(var5, var4, var8);
+            var6 = var8[var4];
+            var5 = _closure1_slot1;
+            var4 = 15;
+            var14 = var13[var4];
+            var15 = var5.bind(var1)(var14);
+            var14 = var15.isEmail;
+            var15 = var14.bind(var15)(var12);
+            var14 = var13[var4];
+            var18 = var5.bind(var1)(var14);
+            var14 = var18.isPhoneNumber;
+            var14 = var14.bind(var18)(var12);
+            var4 = var13[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.isUserTagLike;
+            var13 = var4.bind(var5)(var12);
+            var4 = null;
+            var19 = var4 != var7;
+            if(!var19) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            var5 = _closure1_slot17;
+            var19 = var5.bind(var1)(var7);
+case 16:
             var5 = {};
             var18 = undefined;
             if(var19) { _fun0003_ip = 18; continue _fun0003 }
@@ -425,7 +425,7 @@ case 0:
             var6 = arguments[1];
             var1 = undefined;
             if(!(var3 === var1)) { _fun0005_ip = 48; continue _fun0005 }
-case 16:
+case 14:
             var3 = 'KEYBIND';
 case 48:
             if(!(var6 === var1)) { _fun0005_ip = 49; continue _fun0005 }
@@ -486,7 +486,7 @@ case 52:
                     var2 = 'Quick Switcher';
                     var2 = var4.bind(var5)(var8, var2);
                     SaveGenerator(address=60);
-case 17:
+case 15:
                     return var2;
 case 53:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
@@ -808,7 +808,7 @@ case 0:
             var6 = arguments[1];
             var1 = undefined;
             if(!(var6 === var1)) { _fun0008_ip = 61; continue _fun0008 }
-case 16:
+case 14:
             var6 = false;
 case 61:
             var3 = _closure1_slot26;

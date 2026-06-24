@@ -112,17 +112,16 @@ case 0:
                 var2['style'] = var9;
                 var6 = function onPress() {
                     var1 = _closure3_slot0;
-                    var4 = var1.channelId;
+                    var5 = var1.channelId;
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 7;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.selectHomeResourceChannel;
-                    var1 = _closure2_slot0;
-                    var1 = var2.bind(var3)(var1, var4);
-                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.selectHomeResourceChannel;
+                    var2 = _closure2_slot0;
+                    var2 = var3.bind(var4)(var2, var5);
                     return var1;
                 };
                 var2['onPress'] = var6;

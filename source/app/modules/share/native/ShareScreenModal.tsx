@@ -7,6 +7,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
+    var1 = function onClose() {
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 8;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.popWithKey;
+        var2 = _closure1_slot8;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -58,19 +71,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = new var13[var8](var12, var11);
     var4 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot10 = var4;
-    var4 = function onClose() {
-        var4 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 8;
-        var3 = var3[var1];
-        var1 = undefined;
-        var4 = var4.bind(var1)(var3);
-        var3 = var4.popWithKey;
-        var2 = _closure1_slot8;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var _closure1_slot11 = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -317,8 +317,8 @@ case 0:
                     var3 = _closure2_slot0;
                     var1['text'] = var3;
                     var3 = _closure2_slot4;
-                    var5 = null;
-                    if(!(var5 == var3)) { _fun0004_ip = 22; continue _fun0004 }
+                    var6 = null;
+                    if(!(var6 == var3)) { _fun0004_ip = 22; continue _fun0004 }
 case 23:
                     var3 = new Array(0);
                     _fun0004_ip = 24; continue _fun0004;
@@ -327,66 +327,68 @@ case 22:
 case 24:
                     var1['attachments'] = var3;
                     var3 = _closure2_slot8;
-                    if(!(var5 != var3)) { _fun0004_ip = 25; continue _fun0004 }
+                    if(!(var6 != var3)) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
                     var3 = _closure2_slot8;
-                    var6 = var3.type;
+                    var5 = var3.type;
                     var7 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 11;
-                    var4 = var4[var3];
-                    var3 = undefined;
-                    var4 = var7.bind(var3)(var4);
-                    var4 = var4.ChannelTypes;
-                    var4 = var4.DM;
-                    if(!(var6 === var4)) { _fun0004_ip = 27; continue _fun0004 }
+                    var3 = var4[var3];
+                    var4 = undefined;
+                    var3 = var7.bind(var4)(var3);
+                    var3 = var3.ChannelTypes;
+                    var3 = var3.DM;
+                    if(!(var5 === var3)) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
-                    var4 = _closure2_slot8;
-                    if(!var4) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
-                    var6 = 'recipients';
-                    var6 = var6 in var4;
-                    if(!var6) { _fun0004_ip = 29; continue _fun0004 }
-case 31:
-                    var6 = global;
-                    var7 = var6.Array;
-                    var6 = var7.isArray;
-                    var4 = var4.recipients;
-                    var4 = var6.bind(var7)(var4);
-                    if(var4) { _fun0004_ip = 32; continue _fun0004 }
-case 29:
-                    var6 = _closure2_slot8;
-                    var4 = var6;
-                    if(!var4) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
-                    var7 = 'recipient';
-                    var4 = var7 in var6;
-case 33:
-                    if(!var4) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
-                    var7 = var6.recipient;
-                    var6 = 'id';
-                    var4 = var6 in var7;
-case 35:
-                    if(!var4) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
-                    var4 = _closure2_slot8;
-                    var4 = var4.recipient;
-                    var5 = var5 == var4;
-                    var3 = undefined;
-                    if(var5) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-                    var3 = var4.id;
-case 39:
-                    var1['targetUserId'] = var3;
-                    _fun0004_ip = 37; continue _fun0004;
-case 32:
                     var3 = _closure2_slot8;
+                    var5 = var3;
+                    if(!var5) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+                    var7 = 'recipients';
+                    var5 = var7 in var3;
+case 29:
+                    if(!var5) { _fun0004_ip = 31; continue _fun0004 }
+case 13:
+                    var7 = global;
+                    var8 = var7.Array;
+                    var7 = var8.isArray;
+                    var3 = var3.recipients;
+                    var5 = var7.bind(var8)(var3);
+case 31:
+                    var3 = _closure2_slot8;
+                    if(var5) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
+                    var5 = var3;
+                    if(!var5) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
+                    var7 = 'recipient';
+                    var5 = var7 in var3;
+case 34:
+                    if(!var5) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
+                    var8 = var3.recipient;
+                    var7 = 'id';
+                    var5 = var7 in var8;
+case 36:
+                    if(!var5) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
+                    var5 = _closure2_slot8;
+                    var5 = var5.recipient;
+                    var6 = var6 == var5;
+                    var4 = undefined;
+                    if(var6) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
+                    var4 = var5.id;
+case 40:
+                    var1['targetUserId'] = var4;
+                    _fun0004_ip = 38; continue _fun0004;
+case 32:
                     var4 = var3.recipients;
                     var3 = 0;
                     var3 = var4[var3];
                     var1['targetUserId'] = var3;
-case 37:
+case 38:
                     return var1;
 case 27:
                     var2 = _closure2_slot1;

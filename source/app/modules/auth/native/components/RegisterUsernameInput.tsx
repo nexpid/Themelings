@@ -7,6 +7,184 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
+    var1 = function UsernameStatusMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var10 = var1.usernameStatus;
+            var2 = var1.isUsernameFocused;
+            var1 = _closure1_slot12;
+            var5 = undefined;
+            var12 = var1.bind(var5)();
+            var1 = null;
+            var3 = var1 == var10;
+            var4 = undefined;
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = var10.type;
+case 2:
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var7 = 7;
+            var3 = var3[var7];
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.NameValidationState;
+            var3 = var3.ERROR;
+            if(!(var4 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var3 = var1 == var10;
+            var4 = undefined;
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var4 = var10.type;
+case 8:
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var7];
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.NameValidationState;
+            var3 = var3.AVAILABLE;
+            if(!(var4 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 6:
+            var1 = null;
+            if(!var2) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var4 = _closure1_slot9;
+            var9 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var2 = 11;
+            var2 = var13[var2];
+            var2 = var9.bind(var5)(var2);
+            var3 = var2.Text;
+            var2 = {};
+            var16 = _closure1_slot13;
+            var17 = var2;
+            var6 = copyDataProperties(var17, var16);
+            var16 = _closure1_slot14;
+            var17 = var2;
+            var6 = copyDataProperties(var17, var16);
+            var7 = var12.inputHint;
+            var6 = 'style';
+            var2[5] = var7;
+            var7 = 'text-xs/medium';
+            var6 = 'variant';
+            var2[5] = var7;
+            var7 = 'text-muted';
+            var6 = 'color';
+            var2[5] = var7;
+            var7 = true;
+            var6 = 'animated';
+            var2[5] = var7;
+            var6 = 12;
+            var7 = var13[var6];
+            var7 = var9.bind(var5)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var6 = var13[var6];
+            var6 = var9.bind(var5)(var6);
+            var6 = var6.t;
+            var6 = var6.y7LSyU;
+            var7 = var7.bind(var8)(var6);
+            var6 = 'children';
+            var2[5] = var7;
+            var1 = var4.bind(var5)(var3, var2);
+case 11:
+            _fun0001_ip = 13; continue _fun0001;
+case 10:
+            var4 = _closure1_slot9;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 11;
+            var2 = var9[var6];
+            var2 = var7.bind(var5)(var2);
+            var3 = var2.Text;
+            var2 = {};
+            var16 = _closure1_slot13;
+            var17 = var2;
+            var8 = copyDataProperties(var17, var16);
+            var16 = _closure1_slot14;
+            var17 = var2;
+            var8 = copyDataProperties(var17, var16);
+            var13 = var12.status;
+            var8 = 'style';
+            var2[7] = var13;
+            var13 = 'text-xs/medium';
+            var8 = 'variant';
+            var2[7] = var13;
+            var13 = true;
+            var8 = 'animated';
+            var2[7] = var13;
+            var8 = _closure1_slot9;
+            var6 = var9[var6];
+            var6 = var7.bind(var5)(var6);
+            var7 = var6.Text;
+            var6 = {'variant': 'text-xs/medium', 'color': 'text-feedback-positive'};
+            var9 = var10.message;
+            var6['children'] = var9;
+            var7 = var8.bind(var5)(var7, var6);
+            var6 = 'children';
+            var2[5] = var7;
+            var1 = var4.bind(var5)(var3, var2);
+case 13:
+            _fun0001_ip = 14; continue _fun0001;
+case 4:
+            var4 = _closure1_slot10;
+            var8 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var2 = 8;
+            var2 = var13[var2];
+            var2 = var8.bind(var5)(var2);
+            var3 = var2.Stack;
+            var2 = {'direction': 'horizontal', 'spacing': 4, 'align': 'flex-start'};
+            var9 = _closure1_slot9;
+            var6 = 9;
+            var6 = var13[var6];
+            var6 = var8.bind(var5)(var6);
+            var7 = var6.CircleErrorIcon;
+            var6 = {};
+            var14 = 'xs';
+            var6['size'] = var14;
+            var15 = _closure1_slot1;
+            var14 = 10;
+            var14 = var13[var14];
+            var14 = var15.bind(var5)(var14);
+            var14 = var14.colors;
+            var14 = var14.TEXT_FEEDBACK_CRITICAL;
+            var6['color'] = var14;
+            var7 = var9.bind(var5)(var7, var6);
+            var6 = new Array(2);
+            var6[0] = var7;
+            var9 = _closure1_slot9;
+            var7 = 11;
+            var7 = var13[var7];
+            var7 = var8.bind(var5)(var7);
+            var8 = var7.Text;
+            var7 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
+            var12 = var12.status;
+            var7['style'] = var12;
+            var16 = _closure1_slot13;
+            var17 = var7;
+            var12 = copyDataProperties(var17, var16);
+            var16 = _closure1_slot14;
+            var17 = var7;
+            var11 = copyDataProperties(var17, var16);
+            var12 = true;
+            var11 = 'animated';
+            var7[10] = var12;
+            var11 = var10.message;
+            var10 = 'children';
+            var7[9] = var11;
+            var7 = var9.bind(var5)(var8, var7);
+            var6[1] = var7;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 14:
+            return var1;
+        }
+    };
+    var _closure1_slot15 = var1;
     var1 = ['username'];
     var _closure1_slot3 = var1;
     var1 = global;
@@ -97,182 +275,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.bind(var8)(var9);
     var4['layout'] = var7;
     var _closure1_slot14 = var4;
-    var4 = function UsernameStatusMessage(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = arg1;
-            var10 = var1.usernameStatus;
-            var2 = var1.isUsernameFocused;
-            var1 = _closure1_slot12;
-            var5 = undefined;
-            var12 = var1.bind(var5)();
-            var1 = null;
-            var3 = var1 == var10;
-            var4 = undefined;
-            if(var3) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = var10.type;
-case 2:
-            var6 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var7 = 7;
-            var3 = var3[var7];
-            var3 = var6.bind(var5)(var3);
-            var3 = var3.NameValidationState;
-            var3 = var3.ERROR;
-            if(!(var4 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var3 = var1 == var10;
-            var4 = undefined;
-            if(var3) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var4 = var10.type;
-case 8:
-            var6 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var7];
-            var3 = var6.bind(var5)(var3);
-            var3 = var3.NameValidationState;
-            var3 = var3.AVAILABLE;
-            if(!(var4 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
-case 6:
-            var1 = null;
-            if(!var2) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
-            var4 = _closure1_slot9;
-            var9 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var2 = 11;
-            var2 = var13[var2];
-            var2 = var9.bind(var5)(var2);
-            var3 = var2.Text;
-            var2 = {};
-            var16 = _closure1_slot13;
-            var17 = var2;
-            var6 = copyDataProperties(var17, var16);
-            var16 = _closure1_slot14;
-            var17 = var2;
-            var6 = copyDataProperties(var17, var16);
-            var7 = var12.inputHint;
-            var6 = 'style';
-            var2[5] = var7;
-            var7 = 'text-xs/medium';
-            var6 = 'variant';
-            var2[5] = var7;
-            var7 = 'text-muted';
-            var6 = 'color';
-            var2[5] = var7;
-            var7 = true;
-            var6 = 'animated';
-            var2[5] = var7;
-            var6 = 12;
-            var7 = var13[var6];
-            var7 = var9.bind(var5)(var7);
-            var8 = var7.intl;
-            var7 = var8.string;
-            var6 = var13[var6];
-            var6 = var9.bind(var5)(var6);
-            var6 = var6.t;
-            var6 = var6.y7LSyU;
-            var7 = var7.bind(var8)(var6);
-            var6 = 'children';
-            var2[5] = var7;
-            var1 = var4.bind(var5)(var3, var2);
-case 11:
-            _fun0001_ip = 13; continue _fun0001;
-case 10:
-            var4 = _closure1_slot9;
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var6 = 11;
-            var2 = var8[var6];
-            var2 = var7.bind(var5)(var2);
-            var3 = var2.Text;
-            var2 = {};
-            var16 = _closure1_slot13;
-            var17 = var2;
-            var9 = copyDataProperties(var17, var16);
-            var16 = _closure1_slot14;
-            var17 = var2;
-            var9 = copyDataProperties(var17, var16);
-            var13 = var12.status;
-            var9 = 'style';
-            var2[8] = var13;
-            var13 = 'text-xs/medium';
-            var9 = 'variant';
-            var2[8] = var13;
-            var13 = true;
-            var9 = 'animated';
-            var2[8] = var13;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var7 = var6.Text;
-            var6 = {'variant': 'text-xs/medium', 'color': 'text-feedback-positive'};
-            var8 = var10.message;
-            var6['children'] = var8;
-            var7 = var4.bind(var5)(var7, var6);
-            var6 = 'children';
-            var2[5] = var7;
-            var1 = var4.bind(var5)(var3, var2);
-case 13:
-            _fun0001_ip = 14; continue _fun0001;
-case 4:
-            var4 = _closure1_slot10;
-            var8 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var2 = 8;
-            var2 = var13[var2];
-            var2 = var8.bind(var5)(var2);
-            var3 = var2.Stack;
-            var2 = {'direction': 'horizontal', 'spacing': 4, 'align': 'flex-start'};
-            var9 = _closure1_slot9;
-            var6 = 9;
-            var6 = var13[var6];
-            var6 = var8.bind(var5)(var6);
-            var7 = var6.CircleErrorIcon;
-            var6 = {};
-            var14 = 'xs';
-            var6['size'] = var14;
-            var15 = _closure1_slot1;
-            var14 = 10;
-            var14 = var13[var14];
-            var14 = var15.bind(var5)(var14);
-            var14 = var14.colors;
-            var14 = var14.TEXT_FEEDBACK_CRITICAL;
-            var6['color'] = var14;
-            var7 = var9.bind(var5)(var7, var6);
-            var6 = new Array(2);
-            var6[0] = var7;
-            var7 = 11;
-            var7 = var13[var7];
-            var7 = var8.bind(var5)(var7);
-            var8 = var7.Text;
-            var7 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
-            var12 = var12.status;
-            var7['style'] = var12;
-            var16 = _closure1_slot13;
-            var17 = var7;
-            var12 = copyDataProperties(var17, var16);
-            var16 = _closure1_slot14;
-            var17 = var7;
-            var11 = copyDataProperties(var17, var16);
-            var12 = true;
-            var11 = 'animated';
-            var7[10] = var12;
-            var11 = var10.message;
-            var10 = 'children';
-            var7[9] = var11;
-            var7 = var9.bind(var5)(var8, var7);
-            var6[1] = var7;
-            var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 14:
-            return var1;
-        }
-    };
-    var _closure1_slot15 = var4;
     var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

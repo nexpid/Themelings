@@ -322,8 +322,33 @@ case 6:
             var _closure2_slot31 = var5;
             var _closure2_slot32 = var5;
             var _closure2_slot33 = var5;
-            var _closure2_slot34 = var5;
-            var _closure2_slot35 = var5;
+            var2 = function showUserProfileActionSheetWithParams() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 44;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = {};
+                var5 = _closure2_slot18;
+                var2['sourceAnalyticsLocations'] = var5;
+                var6 = _closure2_slot28;
+                var7 = var2;
+                var4 = copyDataProperties(var7, var6);
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var _closure2_slot34 = var2;
+            var2 = function handleUserSettingsClose() {
+                var3 = _closure2_slot33;
+                var2 = var3.goBack;
+                var2 = var2.bind(var3)();
+                var2 = _closure2_slot34;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
+            var _closure2_slot35 = var2;
             var2 = _closure1_slot18;
             var48 = var2.bind(var5)();
             var6 = _closure1_slot0;
@@ -1325,33 +1350,6 @@ case 92:
             var1 = var3.useNavigation;
             var1 = var1.bind(var3)();
             _closure2_slot33 = var1;
-            var1 = function showUserProfileActionSheetWithParams() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 44;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = {};
-                var5 = _closure2_slot18;
-                var2['sourceAnalyticsLocations'] = var5;
-                var6 = _closure2_slot28;
-                var7 = var2;
-                var4 = copyDataProperties(var7, var6);
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            _closure2_slot34 = var1;
-            var1 = function handleUserSettingsClose() {
-                var3 = _closure2_slot33;
-                var2 = var3.goBack;
-                var2 = var2.bind(var3)();
-                var2 = _closure2_slot34;
-                var1 = undefined;
-                var2 = var2.bind(var1)();
-                return var1;
-            };
-            _closure2_slot35 = var1;
             if(!(var9 != var44)) { _fun0001_ip = 94; continue _fun0001 }
 case 95:
             var4 = _closure1_slot16;

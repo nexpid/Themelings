@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot12;
+            var9 = _closure1_slot6;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot12;
+            var7 = _closure1_slot6;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot5 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,30 +182,11 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var7 = var6[var1];
-    var4 = metroImportAll;
-    var1 = undefined;
-    var4 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.ThemeTypes;
-    var _closure1_slot4 = var4;
-    var4 = function getMaxColors() {
+    var _closure1_slot6 = var1;
+    var1 = function getMaxColors() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot5;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 2;
@@ -281,8 +262,8 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
-    var4 = function mix(arg1, arg2, arg3, arg4) {
+    var _closure1_slot7 = var1;
+    var1 = function mix(arg1, arg2, arg3, arg4) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = 'light';
@@ -355,8 +336,8 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot6 = var4;
-    var4 = function padWithLast(arg1) {
+    var _closure1_slot8 = var1;
+    var1 = function padWithLast(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var6 = arg1;
@@ -397,8 +378,8 @@ case 48:
             return var1;
         }
     };
-    var _closure1_slot7 = var4;
-    var4 = function convertBackgroundGradientToAnimatedTheme(arg1, arg2, arg3) {
+    var _closure1_slot9 = var1;
+    var1 = function convertBackgroundGradientToAnimatedTheme(arg1, arg2, arg3) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var4 = arg1;
@@ -430,13 +411,13 @@ case 55:
             var2 = var5;
 case 54:
             var1['angle'] = var2;
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot9;
             var6 = var4.colors;
             var4 = var6.map;
             var3 = function(arg1) {
                 var2 = arg1;
                 var1 = {};
-                var8 = _closure1_slot6;
+                var8 = _closure1_slot8;
                 var5 = _closure2_slot0;
                 var7 = var5.theme;
                 var5 = _closure1_slot1;
@@ -459,7 +440,7 @@ case 54:
                 return var1;
             };
             var4 = var4.bind(var6)(var3);
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot7;
             var3 = undefined;
             var2 = var2.bind(var3)();
             var2 = var5.bind(var3)(var4, var2);
@@ -467,8 +448,8 @@ case 54:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
-    var4 = function convertStandardThemeToAnimatedTheme(arg1, arg2, arg3) {
+    var _closure1_slot10 = var1;
+    var1 = function convertStandardThemeToAnimatedTheme(arg1, arg2, arg3) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = arg1;
@@ -519,7 +500,7 @@ case 56:
             var1['midpointPercentage'] = var3;
             var3 = 0;
             var1['angle'] = var3;
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot9;
             var6 = {};
             var6['hex'] = var7;
             var3 = 20;
@@ -546,15 +527,15 @@ case 56:
             var7 = 100;
             var6['stop'] = var7;
             var3[4] = var6;
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot7;
             var2 = var2.bind(var5)();
             var2 = var4.bind(var5)(var3, var2);
             var1['colors'] = var2;
             return var1;
         }
     };
-    var _closure1_slot9 = var4;
-    var4 = function convertCustomBackgroundGradientToAnimatedTheme(arg1, arg2, arg3) {
+    var _closure1_slot11 = var1;
+    var1 = function convertCustomBackgroundGradientToAnimatedTheme(arg1, arg2, arg3) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var4 = arg1;
@@ -581,7 +562,7 @@ case 60:
             var2 = var5;
 case 59:
             var1['angle'] = var2;
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot9;
             var4 = var4.customThemeSettings;
             var6 = var4.colors;
             var4 = var6.map;
@@ -589,7 +570,7 @@ case 59:
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var1 = {};
-                    var9 = _closure1_slot6;
+                    var9 = _closure1_slot8;
                     var2 = _closure2_slot0;
                     var13 = var2.theme;
                     var11 = _closure2_slot1;
@@ -621,7 +602,7 @@ case 13:
                 }
             };
             var4 = var4.bind(var6)(var3);
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot7;
             var3 = undefined;
             var2 = var2.bind(var3)();
             var2 = var5.bind(var3)(var4, var2);
@@ -629,14 +610,33 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot12 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ThemeTypes;
+    var _closure1_slot4 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_settings/appearance/native/SettingsAppearancePickerUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function convertThemesToAnimatedThemes(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var11 = arguments[1];
@@ -667,7 +667,7 @@ case 65:
             var8 = var1.BACKGROUND_SURFACE_HIGH;
 case 56:
             var1 = new Array(0);
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot5;
             var2 = arg1;
             var5 = var3.bind(var7)(var2);
             var3 = var5.bind(var7)();
@@ -702,19 +702,19 @@ case 71:
             if(!(var2 === var12)) { _fun0011_ip = 72; continue _fun0011 }
 case 21:
             var12 = var1.push;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot12;
             var2 = var2.bind(var7)(var13, var11, var10);
             var2 = var12.bind(var1)(var2);
             _fun0011_ip = 72; continue _fun0011;
 case 70:
             var12 = var1.push;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot10;
             var2 = var2.bind(var7)(var13, var11, var10);
             var2 = var12.bind(var1)(var2);
             _fun0011_ip = 72; continue _fun0011;
 case 68:
             var12 = var1.push;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot11;
             var2 = var2.bind(var7)(var13, var9, var8);
             var2 = var12.bind(var1)(var2);
 case 72:
@@ -727,7 +727,7 @@ case 66:
         }
     };
     var3['convertThemesToAnimatedThemes'] = var4;
-    var2 = function() {
+    var2 = function useLaunchWelcomeSystemTheme() {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var4 = _closure1_slot1;
@@ -782,7 +782,7 @@ case 74:
                 var3 = var3.zlvNOj;
                 var3 = var4.bind(var6)(var3);
                 var1['name'] = var3;
-                var4 = _closure1_slot7;
+                var4 = _closure1_slot9;
                 var6 = {};
                 var3 = _closure2_slot0;
                 var6['hex'] = var3;
@@ -814,7 +814,7 @@ case 74:
                 var7 = 100;
                 var6['stop'] = var7;
                 var3[4] = var6;
-                var2 = _closure1_slot5;
+                var2 = _closure1_slot7;
                 var2 = var2.bind(var5)();
                 var2 = var4.bind(var5)(var3, var2);
                 var1['colors'] = var2;

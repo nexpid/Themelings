@@ -163,7 +163,7 @@ case 2:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/nuf/native/NUFActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function startOnboarding() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 7;
@@ -178,7 +178,7 @@ case 2:
         return var1;
     };
     var3['startOnboarding'] = var4;
-    var4 = function(arg1) {
+    var4 = function nextOnboardingStep(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;

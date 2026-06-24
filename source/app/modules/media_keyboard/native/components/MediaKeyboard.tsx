@@ -222,6 +222,43 @@ case 2:
             var10[7] = var22;
             var10[8] = var6;
             var6 = function() {
+                var1 = function onAttachFileParams(arg1) {
+                    var1 = arg1;
+                    var _closure4_slot0 = var1;
+                    var1 = {};
+                    var4 = _closure2_slot0;
+                    var1['channel'] = var4;
+                    var4 = _closure2_slot8;
+                    var4 = var4.uploadLimit;
+                    var1['uploadLimit'] = var4;
+                    var3 = _closure2_slot9;
+                    var1['extensions'] = var3;
+                    var3 = function onDismissKeyboard() {
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 21;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var2 = var3.bind(var1)(var2);
+                        var1 = var2.dismissKeyboard;
+                        var1 = var1.bind(var2)();
+                        return var1;
+                    };
+                    var1['onDismissKeyboard'] = var3;
+                    var3 = _closure3_slot0;
+                    var1['onRestoreKeyboard'] = var3;
+                    var2 = function onSelectFiles(arg1) {
+                        var4 = _closure3_slot1;
+                        var3 = _closure4_slot0;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var4.bind(var2)(var1, var3);
+                        return var1;
+                    };
+                    var1['onSelectFiles'] = var2;
+                    return var1;
+                };
+                var _closure3_slot3 = var1;
                 var1 = function onRestoreKeyboard() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -328,43 +365,6 @@ case 8:
                     }
                 };
                 var _closure3_slot1 = var1;
-                var1 = function onAttachFileParams(arg1) {
-                    var1 = arg1;
-                    var _closure4_slot0 = var1;
-                    var1 = {};
-                    var4 = _closure2_slot0;
-                    var1['channel'] = var4;
-                    var4 = _closure2_slot8;
-                    var4 = var4.uploadLimit;
-                    var1['uploadLimit'] = var4;
-                    var3 = _closure2_slot9;
-                    var1['extensions'] = var3;
-                    var3 = function onDismissKeyboard() {
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 21;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var2 = var3.bind(var1)(var2);
-                        var1 = var2.dismissKeyboard;
-                        var1 = var1.bind(var2)();
-                        return var1;
-                    };
-                    var1['onDismissKeyboard'] = var3;
-                    var3 = _closure3_slot0;
-                    var1['onRestoreKeyboard'] = var3;
-                    var2 = function onSelectFiles(arg1) {
-                        var4 = _closure3_slot1;
-                        var3 = _closure4_slot0;
-                        var2 = undefined;
-                        var1 = arg1;
-                        var1 = var4.bind(var2)(var1, var3);
-                        return var1;
-                    };
-                    var1['onSelectFiles'] = var2;
-                    return var1;
-                };
-                var _closure3_slot2 = var1;
                 var1 = function onSelectItem(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -462,7 +462,7 @@ case 15:
                         return var1;
                     }
                 };
-                var _closure3_slot3 = var1;
+                var _closure3_slot2 = var1;
                 var1 = {};
                 var3 = function onAttachPress() {
                     var7 = _closure1_slot0;
@@ -473,7 +473,7 @@ case 15:
                     var4 = var7.bind(var1)(var2);
                     var3 = var4.handleAttachFile;
                     var2 = {};
-                    var6 = _closure3_slot2;
+                    var6 = _closure3_slot3;
                     var5 = 22;
                     var5 = var8[var5];
                     var5 = var7.bind(var1)(var5);
@@ -495,7 +495,7 @@ case 15:
                     var4 = var7.bind(var1)(var2);
                     var3 = var4.handleCameraDialog;
                     var2 = {};
-                    var6 = _closure3_slot2;
+                    var6 = _closure3_slot3;
                     var5 = 22;
                     var5 = var8[var5];
                     var5 = var7.bind(var1)(var5);
@@ -553,7 +553,7 @@ case 0:
                         var7 = var4.bind(var1)(var2);
                         var6 = var7.handleViewAllDialog;
                         var3 = {};
-                        var8 = _closure3_slot2;
+                        var8 = _closure3_slot3;
                         var2 = 22;
                         var2 = var5[var2];
                         var2 = var4.bind(var1)(var2);
@@ -611,7 +611,7 @@ case 25:
                     var5 = var1.channelId;
                     var4 = var1.item;
                     var1 = var1.isIncluded;
-                    var3 = _closure3_slot3;
+                    var3 = _closure3_slot2;
                     var2 = {};
                     var2['channelId'] = var5;
                     var2['item'] = var4;
@@ -705,7 +705,7 @@ case 31:
                         if(!var7) { _fun0007_ip = 33; continue _fun0007 }
 case 34:
                         var6 = function() {
-                            var3 = _closure3_slot3;
+                            var3 = _closure3_slot2;
                             var2 = {};
                             var4 = _closure4_slot0;
                             var2['channelId'] = var4;

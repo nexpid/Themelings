@@ -268,7 +268,7 @@ case 2:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/instant_invite/native/GuildInviteUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1, arg2) {
+    var4 = function showGuildInviteActionSheet(arg1, arg2) {
         var8 = arg1;
         var7 = arg2;
         var5 = _closure1_slot1;
@@ -309,7 +309,7 @@ case 2:
         return var1;
     };
     var3['showGuildInviteActionSheet'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function useServerInviteRows(arg1, arg2) {
         var5 = arg1;
         var6 = arg2;
         var _closure2_slot0 = var5;

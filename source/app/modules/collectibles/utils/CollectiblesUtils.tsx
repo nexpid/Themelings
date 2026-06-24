@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/utils/CollectiblesUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1, arg2, arg3) {
+    var4 = function constructGoLiveSource(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg3;
@@ -80,7 +80,7 @@ case 2:
         }
     };
     var3['constructGoLiveSource'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function buildFetchCollectiblesOptionsQuery(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -168,7 +168,7 @@ case 9:
         }
     };
     var3['buildFetchCollectiblesOptionsQuery'] = var4;
-    var4 = function(arg1) {
+    var4 = function getOptimizedProfileEffectThumbnailUrl(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = arg1;
@@ -188,7 +188,7 @@ case 30:
         }
     };
     var3['getOptimizedProfileEffectThumbnailUrl'] = var4;
-    var2 = function() {
+    var2 = function useFetchFractionalPremiumInfo() {
         var3 = _closure1_slot1;
         var5 = _closure1_slot2;
         var2 = 3;

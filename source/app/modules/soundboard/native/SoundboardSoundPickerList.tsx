@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot13;
+            var9 = _closure1_slot12;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot13;
+            var7 = _closure1_slot12;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = function getSectionLabel(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -264,74 +264,8 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var7 = var6[var1];
-    var4 = metroImportAll;
-    var1 = undefined;
-    var7 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var7;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.View;
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var14.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.SOUND_BUTTON_HEIGHT;
-    var12 = var4.SOUND_ROW_HORIZONTAL_PADDING;
-    var11 = var4.SOUND_ROW_SPACING;
-    var4 = var4.SOUNDS_PER_ROW;
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot7 = var9;
-    var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
-    var4 = 8;
-    var13 = var8 + var4;
-    var _closure1_slot9 = var13;
-    var4 = 5;
-    var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var4 = {};
-    var10 = {'height': null, 'display': 'flex', 'flexDirection': 'row'};
-    var10['height'] = var13;
-    var10['paddingHorizontal'] = var12;
-    var4['row'] = var10;
-    var10 = {'flex': 1, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'paddingTop': 16, 'paddingBottom': 8};
-    var13 = 6;
-    var13 = var6[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.MOBILE_ACTIONSHEET_BACKGROUND;
-    var10['backgroundColor'] = var13;
-    var10['paddingHorizontal'] = var12;
-    var4['sectionHeader'] = var10;
-    var10 = {'height': 16, 'width': 16, 'borderRadius': 8, 'marginRight': 4};
-    var4['sectionIcon'] = var10;
-    var10 = {};
-    var10['marginLeft'] = var11;
-    var4['soundButtonNotFirst'] = var10;
-    var4 = var8.bind(var9)(var4);
-    var _closure1_slot10 = var4;
-    var4 = function SoundPickerButtonRow(arg1) {
+    var _closure1_slot13 = var1;
+    var1 = function SoundPickerButtonRow(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
@@ -493,7 +427,73 @@ case 44:
             return var1;
         }
     };
-    var _closure1_slot11 = var4;
+    var _closure1_slot14 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var14.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.SOUND_BUTTON_HEIGHT;
+    var12 = var4.SOUND_ROW_HORIZONTAL_PADDING;
+    var11 = var4.SOUND_ROW_SPACING;
+    var4 = var4.SOUNDS_PER_ROW;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var9 = var4.jsx;
+    var _closure1_slot7 = var9;
+    var4 = var4.jsxs;
+    var _closure1_slot8 = var4;
+    var4 = 8;
+    var13 = var8 + var4;
+    var _closure1_slot9 = var13;
+    var4 = 5;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var4 = {};
+    var10 = {'height': null, 'display': 'flex', 'flexDirection': 'row'};
+    var10['height'] = var13;
+    var10['paddingHorizontal'] = var12;
+    var4['row'] = var10;
+    var10 = {'flex': 1, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'paddingTop': 16, 'paddingBottom': 8};
+    var13 = 6;
+    var13 = var6[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.MOBILE_ACTIONSHEET_BACKGROUND;
+    var10['backgroundColor'] = var13;
+    var10['paddingHorizontal'] = var12;
+    var4['sectionHeader'] = var10;
+    var10 = {'height': 16, 'width': 16, 'borderRadius': 8, 'marginRight': 4};
+    var4['sectionIcon'] = var10;
+    var10 = {};
+    var10['marginLeft'] = var11;
+    var4['soundButtonNotFirst'] = var10;
+    var4 = var8.bind(var9)(var4);
+    var _closure1_slot10 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -768,7 +768,7 @@ case 41:
             var18 = var7.bind(var9)();
             var17 = _closure1_slot6;
             var9 = new Array(0);
-            var7 = _closure1_slot12;
+            var7 = _closure1_slot11;
             var14 = var7.bind(var4)(var11);
             var12 = var14.bind(var4)();
             var7 = var12.done;
@@ -790,7 +790,7 @@ case 65:
             if(!var7) { _fun0007_ip = 65; continue _fun0007 }
 case 64:
             var13 = new Array(0);
-            var7 = _closure1_slot12;
+            var7 = _closure1_slot11;
             var16 = var7.bind(var4)(var11);
             var11 = var16.bind(var4)();
             var7 = var11.done;
@@ -847,7 +847,7 @@ case 66:
             var7[1] = var2;
             var2 = function(arg1, arg2) {
                 var4 = _closure1_slot7;
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot14;
                 var2 = {};
                 var1 = arg2;
                 var2['row'] = var1;
@@ -958,7 +958,7 @@ case 0:
                     var2 = null;
                     if(!(var2 != var4)) { _fun0012_ip = 55; continue _fun0012 }
 case 29:
-                    var3 = _closure1_slot14;
+                    var3 = _closure1_slot13;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var4);
                     var2 = var2 == var1;
@@ -1060,7 +1060,7 @@ case 71:
                     var9 = var10.bind(var5)(var9);
                     var10 = var9.Text;
                     var9 = {'accessibilityRole': 'header', 'lineClamp': 1, 'variant': 'heading-sm/semibold'};
-                    var12 = _closure1_slot14;
+                    var12 = _closure1_slot13;
                     var12 = var12.bind(var5)(var1);
                     var9['children'] = var12;
                     var9 = var11.bind(var5)(var10, var9);

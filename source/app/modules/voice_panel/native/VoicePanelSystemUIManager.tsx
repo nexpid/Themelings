@@ -213,7 +213,7 @@ case 12:
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
-                var _closure3_slot0 = var6;
+                var _closure3_slot2 = var6;
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 10;
@@ -225,11 +225,11 @@ case 12:
                 var4['maxWait'] = var3;
                 var3 = 500;
                 var3 = var5.bind(var1)(var6, var3, var4);
-                var _closure3_slot1 = var3;
-                var _closure3_slot2 = var1;
+                var _closure3_slot0 = var3;
+                var _closure3_slot1 = var1;
                 var1 = {};
                 var3 = function cancelPendingDebounce() {
-                    var2 = _closure3_slot1;
+                    var2 = _closure3_slot0;
                     var1 = var2.cancel;
                     var1 = var1.bind(var2)();
                     var1 = undefined;
@@ -240,21 +240,21 @@ case 12:
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var3 = arg1;
-                        var4 = _closure3_slot2;
+                        var4 = _closure3_slot1;
                         var2 = var3.focusedId;
                         if(!(var4 === var2)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-                        var4 = _closure3_slot1;
+                        var4 = _closure3_slot0;
                         var2 = var4.cancel;
                         var2 = var2.bind(var4)();
-                        var4 = _closure3_slot0;
+                        var4 = _closure3_slot2;
                         var2 = undefined;
                         var2 = var4.bind(var2)(var3);
                         _fun0003_ip = 16; continue _fun0003;
 case 14:
                         var2 = var3.focusedId;
-                        _closure3_slot2 = var2;
-                        var2 = _closure3_slot1;
+                        _closure3_slot1 = var2;
+                        var2 = _closure3_slot0;
                         var1 = undefined;
                         var1 = var2.bind(var1)(var3);
 case 16:

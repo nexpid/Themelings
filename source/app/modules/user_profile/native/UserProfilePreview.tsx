@@ -7,6 +7,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
+    var1 = function filterLayer(arg1) {
+        var1 = arg1;
+        var2 = var1.responsive;
+        var1 = true;
+        var1 = var1 !== var2;
+        return var1;
+    };
+    var _closure1_slot12 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -48,14 +56,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var7;
     var4 = var4.jsxs;
     var _closure1_slot10 = var4;
-    var4 = function filterLayer(arg1) {
-        var1 = arg1;
-        var2 = var1.responsive;
-        var1 = true;
-        var1 = var1 !== var2;
-        return var1;
-    };
-    var _closure1_slot11 = var4;
     var4 = 6;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -133,7 +133,7 @@ case 10:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -222,7 +222,7 @@ case 15:
             var28 = var10.secondaryColor;
             var10 = null;
             var44 = var10 != var31;
-            var16 = _closure1_slot12;
+            var16 = _closure1_slot11;
             var19 = var16.bind(var4)(var29, var44, var19);
             var16 = 11;
             var16 = var20[var16];
@@ -548,7 +548,7 @@ case 48:
             var12 = var12.bind(var4)(var9);
             var9 = {};
             var9['frame'] = var16;
-            var18 = _closure1_slot11;
+            var18 = _closure1_slot12;
             var9['filterLayer'] = var18;
             var18 = _closure1_slot8;
             var18 = var18.PREVIEW;
@@ -787,7 +787,7 @@ case 71:
             var12 = var12.bind(var4)(var11);
             var11 = {};
             var11['frame'] = var16;
-            var16 = _closure1_slot11;
+            var16 = _closure1_slot12;
             var11['filterLayer'] = var16;
             var16 = _closure1_slot8;
             var16 = var16.PREVIEW;

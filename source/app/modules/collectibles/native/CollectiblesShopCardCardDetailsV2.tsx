@@ -574,7 +574,7 @@ case 7:
     var4 = 'PriceDescription';
     var8['displayName'] = var4;
     var4 = var7.memo;
-    var2 = function(arg1) {
+    var2 = function CardDetailsV2(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;

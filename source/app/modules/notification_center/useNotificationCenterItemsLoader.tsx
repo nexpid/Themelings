@@ -515,7 +515,7 @@ case 20:
     var5 = 20;
     var3['PAGE_SIZE'] = var5;
     var3['useNotificationCenterItemsLoader'] = var4;
-    var2 = function() {
+    var2 = function useDesktopNotificationCenterItemsLoader() {
         var3 = _closure1_slot10;
         var2 = undefined;
         var1 = {'isFocused': true, 'isDesktop': true};

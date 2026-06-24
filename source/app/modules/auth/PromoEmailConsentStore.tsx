@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/auth/PromoEmailConsentStore.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function(arg1) {
+    var5 = function setPromoEmailConsentState(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var4 = _closure1_slot0;
@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['setPromoEmailConsentState'] = var5;
-    var4 = function(arg1) {
+    var4 = function setPromoEmailConsentChecked(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var4 = _closure1_slot0;

@@ -78,17 +78,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['toggleRole'] = var7;
     var7 = function updateMemberRoles(arg1, arg2, arg3) {
-        var3 = _closure1_slot1;
-        var5 = _closure1_slot2;
-        var1 = 1;
-        var2 = var5[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var7 = 'GUILD_SETTINGS_MODAL_MEMBERS_ROLES_SAVE';
-        var2['type'] = var7;
-        var2 = var3.bind(var4)(var2);
         var4 = function onEnd() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -103,6 +92,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             return var1;
         };
+        var3 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var1 = 1;
+        var2 = var5[var1];
+        var1 = undefined;
+        var7 = var3.bind(var1)(var2);
+        var3 = var7.dispatch;
+        var2 = {};
+        var8 = 'GUILD_SETTINGS_MODAL_MEMBERS_ROLES_SAVE';
+        var2['type'] = var8;
+        var2 = var3.bind(var7)(var2);
         var3 = _closure1_slot0;
         var2 = 2;
         var2 = var5[var2];

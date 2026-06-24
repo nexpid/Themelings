@@ -74,7 +74,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot4;
+            var9 = _closure1_slot3;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -86,7 +86,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot4;
+            var7 = _closure1_slot3;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -145,7 +145,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot3 = var1;
+    var _closure1_slot2 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -178,6 +178,23 @@ case 35:
             return var1;
         }
     };
+    var _closure1_slot3 = var1;
+    var1 = function filterFromPending(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var1 = var3.isSpam;
+            var1 = var1.bind(var3)(var4);
+            if(var1) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
+            var3 = _closure1_slot0;
+            var2 = var3.isIgnored;
+            var1 = var2.bind(var3)(var4);
+case 36:
+            return var1;
+        }
+    };
     var _closure1_slot4 = var1;
     var1 = global;
     var8 = var1.Object;
@@ -198,23 +215,6 @@ case 35:
     var4 = var5.bind(var1)(var4);
     var4 = var4.RelationshipTypes;
     var _closure1_slot1 = var4;
-    var4 = function filterFromPending(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-            var4 = arg1;
-            var3 = _closure1_slot0;
-            var1 = var3.isSpam;
-            var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-            var3 = _closure1_slot0;
-            var2 = var3.isIgnored;
-            var1 = var2.bind(var3)(var4);
-case 36:
-            return var1;
-        }
-    };
-    var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -229,7 +229,7 @@ case 0:
             var4 = new Array(0);
             var3 = new Array(0);
             var2 = new Array(0);
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot2;
             var1 = var10.keys;
             var1 = var1.bind(var10)();
             var8 = undefined;
@@ -246,7 +246,7 @@ case 39:
             var1 = var12 !== var1;
             if(var1) { _fun0005_ip = 40; continue _fun0005 }
 case 41:
-            var13 = _closure1_slot2;
+            var13 = _closure1_slot4;
             var1 = var13.bind(var8)(var11);
 case 40:
             if(var1) { _fun0005_ip = 42; continue _fun0005 }

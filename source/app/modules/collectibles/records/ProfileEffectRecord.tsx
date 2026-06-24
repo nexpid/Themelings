@@ -216,7 +216,7 @@ case 3:
     var6 = var7.bind(var8)(var6);
     var3['default'] = var5;
     var3['RestartMethod'] = var4;
-    var2 = function(arg1) {
+    var2 = function isProfileEffectRecord(arg1) {
         var2 = _closure1_slot8;
         var1 = arg1;
         var1 = var1 instanceof var2;

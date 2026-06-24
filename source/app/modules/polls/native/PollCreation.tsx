@@ -508,6 +508,37 @@ case 0:
                 var _closure2_slot1 = var1;
                 var4 = undefined;
                 var _closure2_slot2 = var4;
+                var _closure2_slot16 = var4;
+                var2 = function handleCancelClose() {
+                    var2 = _closure2_slot16;
+                    var1 = undefined;
+                    var2 = var2.bind(var1)();
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 22;
+                    var2 = var8[var2];
+                    var3 = var7.bind(var1)(var2);
+                    var2 = var3.closeCreatePollModal;
+                    var2 = var2.bind(var3)();
+                    var2 = 25;
+                    var2 = var8[var2];
+                    var2 = var7.bind(var1)(var2);
+                    var4 = var2.AccessibilityAnnouncer;
+                    var3 = var4.announce;
+                    var2 = 8;
+                    var5 = var8[var2];
+                    var5 = var7.bind(var1)(var5);
+                    var6 = var5.intl;
+                    var5 = var6.string;
+                    var2 = var8[var2];
+                    var2 = var7.bind(var1)(var2);
+                    var2 = var2.t;
+                    var2 = var2["+G3oRq"];
+                    var2 = var5.bind(var6)(var2);
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                };
+                var _closure2_slot18 = var2;
                 var30 = _closure1_slot1;
                 var21 = _closure1_slot2;
                 var2 = 19;
@@ -686,37 +717,7 @@ case 12:
                 var2 = var3.useTrackPollCreationEvents;
                 var2 = var2.bind(var3)(var27, var17);
                 var2 = var2.trackPollCreationCancelled;
-                var _closure2_slot16 = var2;
-                var2 = function handleCancelClose() {
-                    var2 = _closure2_slot16;
-                    var1 = undefined;
-                    var2 = var2.bind(var1)();
-                    var7 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var2 = 22;
-                    var2 = var8[var2];
-                    var3 = var7.bind(var1)(var2);
-                    var2 = var3.closeCreatePollModal;
-                    var2 = var2.bind(var3)();
-                    var2 = 25;
-                    var2 = var8[var2];
-                    var2 = var7.bind(var1)(var2);
-                    var4 = var2.AccessibilityAnnouncer;
-                    var3 = var4.announce;
-                    var2 = 8;
-                    var5 = var8[var2];
-                    var5 = var7.bind(var1)(var5);
-                    var6 = var5.intl;
-                    var5 = var6.string;
-                    var2 = var8[var2];
-                    var2 = var7.bind(var1)(var2);
-                    var2 = var2.t;
-                    var2 = var2["+G3oRq"];
-                    var2 = var5.bind(var6)(var2);
-                    var2 = var3.bind(var4)(var2);
-                    return var1;
-                };
-                var _closure2_slot17 = var2;
+                _closure2_slot16 = var2;
                 var2 = 28;
                 var2 = var21[var2];
                 var8 = var31.bind(var4)(var2);
@@ -745,7 +746,7 @@ case 15:
                         var7 = _closure1_slot9;
                         var4 = _closure1_slot14;
                         var1 = {};
-                        var9 = _closure2_slot17;
+                        var9 = _closure2_slot18;
                         var1['onConfirm'] = var9;
                         var4 = var7.bind(var8)(var4, var1);
                         var1 = 'poll-creation-unsaved-changes';
@@ -791,7 +792,7 @@ case 16:
                 };
                 var2['onAddAnswer'] = var8;
                 var26 = var3.bind(var4)(var2);
-                var _closure2_slot18 = var26;
+                var _closure2_slot17 = var26;
                 var3 = var5.useEffect;
                 var2 = new Array(4);
                 var2[0] = var25;
@@ -836,7 +837,7 @@ case 18:
                         if(!var5) { _fun0006_ip = 17; continue _fun0006 }
 case 19:
                         var5 = var4[var2];
-                        var4 = _closure2_slot18;
+                        var4 = _closure2_slot17;
                         var2 = var4.focus;
                         var2 = var2.bind(var4)(var5);
                         var2 = _closure2_slot15;
@@ -908,14 +909,14 @@ case 15:
                         var7 = _closure1_slot9;
                         var4 = _closure1_slot14;
                         var3 = {};
-                        var8 = _closure2_slot17;
+                        var8 = _closure2_slot18;
                         var3['onConfirm'] = var8;
                         var4 = var7.bind(var1)(var4, var3);
                         var3 = 'poll-creation-unsaved-changes';
                         var3 = var5.bind(var6)(var3, var4);
                         _fun0007_ip = 21; continue _fun0007;
 case 20:
-                        var2 = _closure2_slot17;
+                        var2 = _closure2_slot18;
                         var2 = var2.bind(var1)();
 case 21:
                         return var1;
@@ -1074,7 +1075,7 @@ case 0:
                         var4 = undefined;
                         var3 = var3.bind(var4)(var2);
                         var2 = {};
-                        var6 = _closure2_slot18;
+                        var6 = _closure2_slot17;
                         var11 = var6.refWithKey;
                         var12 = var1.localCreationAnswerId;
                         var7 = global;

@@ -187,7 +187,7 @@ case 16:
         return var1;
     };
     var3['default'] = var5;
-    var5 = function() {
+    var5 = function getAbbreviatedFormatter() {
         var1 = {};
         var4 = _closure1_slot0;
         var5 = _closure1_slot2;
@@ -221,7 +221,7 @@ case 16:
         return var1;
     };
     var3['getAbbreviatedFormatter'] = var5;
-    var4 = function() {
+    var4 = function getFullFormatter() {
         var1 = {};
         var4 = _closure1_slot0;
         var5 = _closure1_slot2;

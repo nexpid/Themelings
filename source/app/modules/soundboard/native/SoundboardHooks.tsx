@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/soundboard/native/SoundboardHooks.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function useSoundButtonStyleConfig() {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
         var1 = 6;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['useSoundButtonStyleConfig'] = var4;
-    var2 = function(arg1) {
+    var2 = function useMaybeFetchSoundboardSounds(arg1) {
         var1 = arg1;
         var6 = var1.shouldFetch;
         var _closure2_slot0 = var6;
@@ -121,9 +121,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[1] = var7;
         var3[2] = var6;
         var2 = function() {
-            var2 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
+            var2 = function _fetchAndHydrateColors() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -166,23 +167,29 @@ case 2:
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure4_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure4_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure3_slot0 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
+            var _closure3_slot0 = var2;
+            var2 = function fetchAndHydrateColors() {
+                var1 = undefined;
+                var4 = _closure3_slot0;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
             var1 = undefined;
             var2 = var2.bind(var1)();
-            var2 = var2.bind(var1)();
+            var2 = !var2;
             return var1;
         };
         var2 = var4.bind(var5)(var2, var3);

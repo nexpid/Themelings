@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/stickers/native/StickersUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function useStickerCategories(arg1) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
         var3 = 7;
@@ -213,7 +213,7 @@ case 16:
         return var1;
     };
     var3['useStickerCategories'] = var4;
-    var4 = function(arg1) {
+    var4 = function preloadSticker(arg1) {
         var1 = arg1;
         var14 = var1.hash;
         var13 = var1.url;
@@ -230,7 +230,7 @@ case 16:
         return var1;
     };
     var3['preloadSticker'] = var4;
-    var4 = function(arg1) {
+    var4 = function dropPreloadedSticker(arg1) {
         var1 = _closure1_slot4;
         var3 = var1.NativeLottieUtils;
         var2 = var3.dropPreload;
@@ -240,7 +240,7 @@ case 16:
         return var1;
     };
     var3['dropPreloadedSticker'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function openStickerPickerToPackId(arg1, arg2) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var3 = _closure1_slot7;

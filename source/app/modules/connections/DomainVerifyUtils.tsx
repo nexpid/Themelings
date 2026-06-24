@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = 'example.com';
     var3['EXAMPLE_DOMAIN'] = var4;
-    var4 = function(arg1) {
+    var4 = function getDnsName(arg1) {
         var1 = global;
         var1 = var1.HermesInternal;
         var3 = var1.concat;
@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getDnsName'] = var4;
-    var2 = function(arg1) {
+    var2 = function getHttpName(arg1) {
         var1 = global;
         var1 = var1.HermesInternal;
         var4 = var1.concat;

@@ -311,7 +311,7 @@ case 22:
     var6 = var7.bind(var8)(var6);
     var3['default'] = var5;
     var3['useFetchPurchases'] = var4;
-    var4 = function() {
+    var4 = function useGetOrFetchPurchases() {
         var3 = _closure1_slot8;
         var2 = undefined;
         var1 = true;
@@ -319,7 +319,7 @@ case 22:
         return var1;
     };
     var3['useGetOrFetchPurchases'] = var4;
-    var4 = function(arg1) {
+    var4 = function useGetOrFetchPurchase(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
@@ -344,7 +344,7 @@ case 26:
         }
     };
     var3['useGetOrFetchPurchase'] = var4;
-    var2 = function(arg1) {
+    var2 = function useGetOrFetchCollectiblesCategoriesAndPurchases(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;

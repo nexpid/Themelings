@@ -201,57 +201,7 @@ case 4:
             var _closure2_slot2 = var5;
             var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
-            var _closure2_slot5 = var5;
-            var1 = _closure1_slot6;
-            var10 = var1.bind(var5)();
-            var2 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var1 = 11;
-            var1 = var13[var1];
-            var9 = var2.bind(var5)(var1);
-            var1 = var6.id;
-            var9 = var9.bind(var5)(var1, var4);
-            _closure2_slot1 = var9;
-            var1 = 12;
-            var1 = var13[var1];
-            var2 = var2.bind(var5)(var1);
-            var1 = {};
-            var1['user'] = var6;
-            var1['displayProfile'] = var9;
-            var1['pendingThemeColors'] = var8;
-            var1['isPreview'] = var3;
-            var1 = var2.bind(var5)(var1);
-            var27 = var1.primaryColor;
-            _closure2_slot2 = var27;
-            var20 = var1.secondaryColor;
-            _closure2_slot3 = var20;
-            var1 = null;
-            if(!(var1 == var7)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var3 = var6.getAvatarURL;
-            var2 = 80;
-            var7 = var3.bind(var6)(var4, var2);
-case 6:
-            var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 13;
-            var2 = var8[var2];
-            var6 = var3.bind(var5)(var2);
-            var4 = var6.useAvatarColors;
-            var3 = _closure1_slot1;
-            var2 = 4;
-            var2 = var8[var2];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.unsafe_rawColors;
-            var3 = var2.PRIMARY_530;
-            var2 = false;
-            var2 = var4.bind(var6)(var7, var3, var2);
-            _closure2_slot4 = var2;
-            if(!(var1 != var27)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            if(!(var1 != var20)) { _fun0001_ip = 8; continue _fun0001 }
-case 10:
-            var2 = function handleProfileThemeColorsChanged(arg1) {
+            var1 = function handleProfileThemeColorsChanged(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var4 = arg1;
@@ -265,23 +215,23 @@ case 0:
                     var3 = null;
                     var6 = var3 == var6;
                     var3 = undefined;
-                    if(var6) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+                    if(var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var6 = _closure2_slot1;
                     var3 = var6.themeColors;
-case 11:
+case 6:
                     var5 = var5.bind(var1)(var4, var3);
                     var3 = _closure2_slot0;
                     var2 = undefined;
-                    if(var5) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+                    if(var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var2 = var4;
-case 13:
+case 8:
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 }
             };
-            _closure2_slot5 = var2;
+            var _closure2_slot5 = var1;
             var16 = function makeOnPress(arg1, arg2) {
                 var2 = arg1;
                 var _closure3_slot0 = var2;
@@ -317,6 +267,55 @@ case 13:
                 };
                 return var1;
             };
+            var1 = _closure1_slot6;
+            var10 = var1.bind(var5)();
+            var2 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var1 = 11;
+            var1 = var13[var1];
+            var9 = var2.bind(var5)(var1);
+            var1 = var6.id;
+            var9 = var9.bind(var5)(var1, var4);
+            _closure2_slot1 = var9;
+            var1 = 12;
+            var1 = var13[var1];
+            var2 = var2.bind(var5)(var1);
+            var1 = {};
+            var1['user'] = var6;
+            var1['displayProfile'] = var9;
+            var1['pendingThemeColors'] = var8;
+            var1['isPreview'] = var3;
+            var1 = var2.bind(var5)(var1);
+            var27 = var1.primaryColor;
+            _closure2_slot2 = var27;
+            var20 = var1.secondaryColor;
+            _closure2_slot3 = var20;
+            var1 = null;
+            if(!(var1 == var7)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var3 = var6.getAvatarURL;
+            var2 = 80;
+            var7 = var3.bind(var6)(var4, var2);
+case 10:
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 13;
+            var2 = var8[var2];
+            var6 = var3.bind(var5)(var2);
+            var4 = var6.useAvatarColors;
+            var3 = _closure1_slot1;
+            var2 = 4;
+            var2 = var8[var2];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.unsafe_rawColors;
+            var3 = var2.PRIMARY_530;
+            var2 = false;
+            var2 = var4.bind(var6)(var7, var3, var2);
+            _closure2_slot4 = var2;
+            if(!(var1 != var27)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            if(!(var1 != var20)) { _fun0001_ip = 12; continue _fun0001 }
+case 14:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -390,9 +389,9 @@ case 16:
                 var3 = {};
                 var2 = function onResetTheme() {
                     var3 = _closure2_slot5;
-                    var2 = undefined;
-                    var1 = [null, null];
-                    var1 = var3.bind(var2)(var1);
+                    var1 = undefined;
+                    var2 = [null, null];
+                    var2 = var3.bind(var1)(var2);
                     return var1;
                 };
                 var3['onResetTheme'] = var2;
@@ -539,7 +538,7 @@ case 17:
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 8:
+case 12:
             return var1;
         }
     };

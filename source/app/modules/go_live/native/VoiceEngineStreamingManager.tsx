@@ -39,13 +39,145 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot27 = var2;
+            _closure1_slot26 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
+    var _closure1_slot26 = var1;
+    var1 = function handleThumbnailUpload() {
+        var1 = undefined;
+        var4 = _closure1_slot28;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
     var _closure1_slot27 = var1;
+    var1 = function _handleThumbnailUpload() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot9;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    StartGenerator();
+                    var4 = arg1;
+                    var2 = arg2;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=5);
+                    if(var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                    var8 = var4;
+                    var _closure4_slot0 = var4;
+                    var5 = var2;
+                    var _closure4_slot1 = var2;
+                    var2 = undefined;
+                    var9 = undefined;
+                    var7 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var6 = 16;
+                    var6 = var10[var6];
+                    var6 = var7.bind(var2)(var6);
+                    var7 = var6.DisableStreamPreviews;
+                    var6 = var7.getSetting;
+                    var6 = var6.bind(var7)();
+                    if(var6) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+                    var7 = _closure1_slot20;
+                    var6 = var7.stop;
+                    var6 = var6.bind(var7)();
+                    var10 = _closure1_slot14;
+                    var7 = var5;
+                    var5 = global;
+                    var5 = var5.HermesInternal;
+                    var6 = var5.concat;
+                    var5 = '';
+                    var10 = var6.bind(var5)(var10, var7);
+                    var9 = var10;
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var5 = 17;
+                    var5 = var7[var5];
+                    var7 = var6.bind(var2)(var5);
+                    var6 = var7.dispatch;
+                    var5 = {};
+                    var11 = 'STREAM_PREVIEW_FETCH_SUCCESS';
+                    var5['type'] = var11;
+                    var11 = var8;
+                    var5['streamKey'] = var11;
+                    var5['previewURL'] = var10;
+                    var5 = var6.bind(var7)(var5);
+case 10: // try_start_0
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var5 = 18;
+                    var5 = var7[var5];
+                    var5 = var6.bind(var2)(var5);
+                    var7 = var5.HTTP;
+                    var6 = var7.post;
+                    var5 = {};
+                    var11 = _closure1_slot15;
+                    var10 = var11.STREAM_PREVIEW;
+                    var8 = var10.bind(var11)(var8);
+                    var5['url'] = var8;
+                    var8 = {};
+                    var8['thumbnail'] = var9;
+                    var5['body'] = var8;
+                    var8 = true;
+                    var5['oldFormErrors'] = var8;
+                    var8 = false;
+                    var5['rejectWithError'] = var8;
+                    var5 = var6.bind(var7)(var5);
+                    SaveGenerator(address=268);
+case 11:
+                    return var5;
+case 12:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
+                    if(var6) { _fun0002_ip = 13; continue _fun0002 }
+case 14: // try_end0
+                    _fun0002_ip = 8; continue _fun0002;
+case 13:
+                    return var5;
+case 15: // catch_target0
+                    CatchBlockStart(arg_register=7);
+                    var7 = _closure1_slot19;
+                    var6 = var7.error;
+                    var5 = 'Failed to post stream preview';
+                    var5 = var6.bind(var7)(var5, var8);
+                    var6 = _closure1_slot20;
+                    var5 = var6.start;
+                    var4 = 60000;
+                    var3 = function() {
+                        var4 = _closure1_slot27;
+                        var3 = _closure4_slot0;
+                        var2 = _closure4_slot1;
+                        var1 = undefined;
+                        var1 = var4.bind(var1)(var3, var2);
+                        return var1;
+                    };
+                    var3 = var5.bind(var6)(var4, var3);
+case 8:
+                    return var2;
+case 6:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot28 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot28 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -140,7 +272,7 @@ case 4:
     var16 = var11;
     var10 = new var16[var10](var15);
     var10 = var10 instanceof Object ? var10 : var11;
-    var _closure1_slot21 = var10;
+    var _closure1_slot20 = var10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.Timeout;
@@ -149,141 +281,15 @@ case 4:
     var16 = var10;
     var4 = new var16[var4](var15);
     var4 = var4 instanceof Object ? var4 : var10;
-    var _closure1_slot22 = var4;
+    var _closure1_slot21 = var4;
     var4 = new Array(0);
-    var _closure1_slot23 = var4;
-    var4 = function() {
-        var4 = _closure1_slot9;
-        var3 = undefined;
-        var2 = function* (arg1, arg2) {
-            var1 = function* anon_0_(arg1, arg2) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    StartGenerator();
-                    var4 = arg1;
-                    var2 = arg2;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=5);
-                    if(var6) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-                    var8 = var4;
-                    var _closure4_slot0 = var4;
-                    var5 = var2;
-                    var _closure4_slot1 = var2;
-                    var2 = undefined;
-                    var9 = undefined;
-                    var7 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var6 = 16;
-                    var6 = var10[var6];
-                    var6 = var7.bind(var2)(var6);
-                    var7 = var6.DisableStreamPreviews;
-                    var6 = var7.getSetting;
-                    var6 = var6.bind(var7)();
-                    if(var6) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var7 = _closure1_slot21;
-                    var6 = var7.stop;
-                    var6 = var6.bind(var7)();
-                    var10 = _closure1_slot14;
-                    var7 = var5;
-                    var5 = global;
-                    var5 = var5.HermesInternal;
-                    var6 = var5.concat;
-                    var5 = '';
-                    var10 = var6.bind(var5)(var10, var7);
-                    var9 = var10;
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var5 = 17;
-                    var5 = var7[var5];
-                    var7 = var6.bind(var2)(var5);
-                    var6 = var7.dispatch;
-                    var5 = {};
-                    var11 = 'STREAM_PREVIEW_FETCH_SUCCESS';
-                    var5['type'] = var11;
-                    var11 = var8;
-                    var5['streamKey'] = var11;
-                    var5['previewURL'] = var10;
-                    var5 = var6.bind(var7)(var5);
-case 10: // try_start_0
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var5 = 18;
-                    var5 = var7[var5];
-                    var5 = var6.bind(var2)(var5);
-                    var7 = var5.HTTP;
-                    var6 = var7.post;
-                    var5 = {};
-                    var11 = _closure1_slot15;
-                    var10 = var11.STREAM_PREVIEW;
-                    var8 = var10.bind(var11)(var8);
-                    var5['url'] = var8;
-                    var8 = {};
-                    var8['thumbnail'] = var9;
-                    var5['body'] = var8;
-                    var8 = true;
-                    var5['oldFormErrors'] = var8;
-                    var8 = false;
-                    var5['rejectWithError'] = var8;
-                    var5 = var6.bind(var7)(var5);
-                    SaveGenerator(address=268);
-case 11:
-                    return var5;
-case 12:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(var6) { _fun0002_ip = 13; continue _fun0002 }
-case 14: // try_end0
-                    _fun0002_ip = 8; continue _fun0002;
-case 13:
-                    return var5;
-case 15: // catch_target0
-                    CatchBlockStart(arg_register=7);
-                    var7 = _closure1_slot19;
-                    var6 = var7.error;
-                    var5 = 'Failed to post stream preview';
-                    var5 = var6.bind(var7)(var5, var8);
-                    var6 = _closure1_slot21;
-                    var5 = var6.start;
-                    var4 = 60000;
-                    var3 = function() {
-                        var4 = _closure1_slot24;
-                        var3 = _closure4_slot0;
-                        var2 = _closure4_slot1;
-                        var1 = undefined;
-                        var1 = var4.bind(var1)(var3, var2);
-                        return var1;
-                    };
-                    var3 = var5.bind(var6)(var4, var3);
-case 8:
-                    return var2;
-case 6:
-                    return var1;
-                }
-            };
-            return var1;
-        };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
-        return var1;
-    };
-    var4 = var4.bind(var1)();
-    var _closure1_slot24 = var4;
+    var _closure1_slot22 = var4;
     var4 = var9.getVoiceChannelId;
     var4 = var4.bind(var9)();
-    var _closure1_slot25 = var4;
+    var _closure1_slot24 = var4;
     var4 = 'handleVoiceChannelSelect';
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot26 = var4;
+    var _closure1_slot25 = var4;
     var4 = 28;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -306,7 +312,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot27;
+                var1 = _closure1_slot26;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
@@ -326,7 +332,7 @@ case 18:
                 var3 = global;
                 var5 = var3.Object;
                 var4 = var5.defineProperty;
-                var3 = _closure1_slot26;
+                var3 = _closure1_slot25;
                 var2 = {};
                 var6 = true;
                 var2['writable'] = var6;
@@ -336,10 +342,10 @@ case 0:
                         var1 = arg1;
                         var2 = var1.channelId;
                         var _closure4_slot0 = var2;
-                        var4 = _closure1_slot25;
+                        var4 = _closure1_slot24;
                         if(!(var4 !== var2)) { _fun0004_ip = 4; continue _fun0004 }
 case 19:
-                        var5 = _closure1_slot20;
+                        var5 = _closure1_slot23;
                         var4 = null;
                         if(!(var4 != var5)) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
@@ -379,7 +385,7 @@ case 9:
                         };
                         var3 = var4.bind(var5)(var3);
 case 4:
-                        _closure1_slot25 = var2;
+                        _closure1_slot24 = var2;
                         var1 = undefined;
                         return var1;
                     }
@@ -407,7 +413,7 @@ case 4:
             var6 = var6.bind(var1)(var4);
             var4 = var6.getVoiceEngine;
             var7 = var4.bind(var6)();
-            var _closure1_slot20 = var7;
+            var _closure1_slot23 = var7;
             var6 = var7.setBroadcastRequestCallback;
             var4 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -422,13 +428,13 @@ case 0:
                     var3 = var3[var1];
                     var1 = undefined;
                     var7 = var5.bind(var1)(var3);
-                    var5 = _closure1_slot20;
+                    var5 = _closure1_slot23;
                     var3 = null;
                     var6 = var3 != var5;
                     var5 = 'Voice Engine should be initialized in callback';
                     var5 = var7.bind(var1)(var6, var5);
                     var5 = new Array(0);
-                    _closure1_slot23 = var5;
+                    _closure1_slot22 = var5;
                     var6 = _closure1_slot13;
                     var5 = var6.getVoiceChannelId;
                     var7 = var5.bind(var6)();
@@ -440,7 +446,7 @@ case 0:
                     var5 = var5.bind(var7)();
                     if(!(var3 == var6)) { _fun0006_ip = 23; continue _fun0006 }
 case 24:
-                    var10 = _closure1_slot20;
+                    var10 = _closure1_slot23;
                     var9 = var10.stopBroadcastWithError;
                     var8 = -1;
                     var7 = 'Not currently in a voice channel';
@@ -480,12 +486,12 @@ case 26:
                     var6 = var10.encodeStreamKey;
                     var6 = var6.bind(var10)(var11);
                     var6 = var8.bind(var9)(var7, var6);
-                    var6 = _closure1_slot20;
+                    var6 = _closure1_slot23;
                     var7 = var6.platform;
                     var6 = 'android';
                     if(!(var6 === var7)) { _fun0006_ip = 27; continue _fun0006 }
 case 28:
-                    var8 = _closure1_slot22;
+                    var8 = _closure1_slot21;
                     var7 = var8.start;
                     var6 = 15000;
                     var4 = function() {
@@ -495,7 +501,7 @@ case 28:
                         var3 = var5[var1];
                         var1 = undefined;
                         var6 = var4.bind(var1)(var3);
-                        var4 = _closure1_slot20;
+                        var4 = _closure1_slot23;
                         var3 = null;
                         var4 = var3 != var4;
                         var3 = 'Voice Engine should be initialized in callback';
@@ -520,7 +526,7 @@ case 28:
                         var11 = var5 * var4;
                         var3 = var3.height;
                         var10 = var3 * var4;
-                        var5 = _closure1_slot20;
+                        var5 = _closure1_slot23;
                         var4 = var5.setBroadcastThumbnailCallback;
                         var9 = 300;
                         var8 = function(arg1) {
@@ -528,19 +534,19 @@ case 28:
                             var6 = _closure1_slot19;
                             var5 = var6.log;
                             var3 = var4.length;
-                            var1 = 'Broadcast thumbnail of size:';
-                            var1 = var5.bind(var6)(var1, var3);
+                            var2 = 'Broadcast thumbnail of size:';
+                            var2 = var5.bind(var6)(var2, var3);
+                            var3 = _closure1_slot27;
                             var5 = _closure1_slot0;
-                            var3 = _closure1_slot2;
+                            var2 = _closure1_slot2;
                             var1 = 19;
-                            var3 = var3[var1];
+                            var2 = var2[var1];
                             var1 = undefined;
-                            var6 = var5.bind(var1)(var3);
+                            var6 = var5.bind(var1)(var2);
                             var5 = var6.encodeStreamKey;
-                            var3 = _closure4_slot0;
-                            var3 = var5.bind(var6)(var3);
-                            var2 = _closure1_slot24;
-                            var2 = var2.bind(var1)(var3, var4);
+                            var2 = _closure4_slot0;
+                            var2 = var5.bind(var6)(var2);
+                            var2 = var3.bind(var1)(var2, var4);
                             return var1;
                         };
                         var12 = var5;
@@ -561,17 +567,17 @@ case 25:
                 }
             };
             var4 = var6.bind(var7)(var4);
-            var7 = _closure1_slot20;
+            var7 = _closure1_slot23;
             var6 = var7.setBroadcastFinishedCallback;
             var4 = function() {
                 var4 = _closure1_slot19;
                 var3 = var4.log;
                 var2 = 'Broadcast Finished';
                 var2 = var3.bind(var4)(var2);
-                var3 = _closure1_slot21;
+                var3 = _closure1_slot20;
                 var2 = var3.stop;
                 var2 = var2.bind(var3)();
-                var3 = _closure1_slot22;
+                var3 = _closure1_slot21;
                 var2 = var3.stop;
                 var2 = var2.bind(var3)();
                 var3 = _closure1_slot0;
@@ -585,7 +591,7 @@ case 25:
                 return var1;
             };
             var4 = var6.bind(var7)(var4);
-            var7 = _closure1_slot20;
+            var7 = _closure1_slot23;
             var6 = var7.setBroadcastAnnotatedCallback;
             var4 = function(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -598,19 +604,19 @@ case 0:
                     var2 = _closure1_slot17;
                     if(!(var3 !== var2)) { _fun0007_ip = 30; continue _fun0007 }
 case 31:
-                    var5 = _closure1_slot23;
+                    var5 = _closure1_slot22;
                     var4 = var5.indexOf;
                     var2 = 0;
                     var6 = var4.bind(var5)(var3, var2);
                     var2 = -1;
                     if(!(var6 > var2)) { _fun0007_ip = 32; continue _fun0007 }
 case 33:
-                    var5 = _closure1_slot23;
+                    var5 = _closure1_slot22;
                     var4 = var5.splice;
                     var2 = 1;
                     var2 = var4.bind(var5)(var6, var2);
 case 32:
-                    var2 = _closure1_slot23;
+                    var2 = _closure1_slot22;
                     var1 = var2.push;
                     var1 = var1.bind(var2)(var3);
 case 30:
@@ -619,7 +625,7 @@ case 30:
                 }
             };
             var4 = var6.bind(var7)(var4);
-            var6 = _closure1_slot20;
+            var6 = _closure1_slot23;
             var4 = var6.setBroadcastBlockedCallback;
             var3 = function() {
                 var3 = _closure1_slot19;
@@ -656,7 +662,7 @@ case 30:
             var5 = var4.bind(var1)(var3);
             var4 = var5.subscribe;
             var6 = _closure1_slot8;
-            var3 = _closure1_slot26;
+            var3 = _closure1_slot25;
             var2 = this;
             var2 = var6.bind(var1)(var2, var3);
             var3 = var2[var3];
@@ -694,10 +700,10 @@ case 35:
                 var3 = var5.setBroadcastBlockedCallback;
                 var3 = var3.bind(var5)(var4);
 case 34:
-                var4 = _closure1_slot21;
+                var4 = _closure1_slot20;
                 var3 = var4.stop;
                 var3 = var3.bind(var4)();
-                var4 = _closure1_slot22;
+                var4 = _closure1_slot21;
                 var3 = var4.stop;
                 var3 = var3.bind(var4)();
                 var4 = _closure1_slot1;
@@ -707,7 +713,7 @@ case 34:
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.unsubscribe;
                 var6 = _closure1_slot8;
-                var3 = _closure1_slot26;
+                var3 = _closure1_slot25;
                 var2 = this;
                 var2 = var6.bind(var1)(var2, var3);
                 var3 = var2[var3];
@@ -722,7 +728,7 @@ case 34:
         var7 = 'getApplicationNames';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot23;
+            var1 = _closure1_slot22;
             return var1;
         };
         var5['value'] = var6;

@@ -50,7 +50,7 @@ case 3:
             _fun0001_ip = 2; continue _fun0001;
         }
 case 4:
-        var4 = function(arg1) {
+        var4 = function getPremiumGroupInviteEmbedText(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var1 = arg1;
@@ -110,7 +110,7 @@ case 6:
                 var1['body'] = var5;
                 return var1;
 case 5:
-                var1 = function(arg1, arg2) {
+                var1 = function getReceiverName(arg1, arg2) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var3 = arg2;
@@ -206,29 +206,29 @@ case 13:
             }
         };
         var3['getPremiumGroupInviteEmbedText'] = var4;
-        var4 = function() {
+        var4 = function shouldShowPrimaryReminderNagbar() {
             var1 = false;
             return var1;
         };
         var3['shouldShowPrimaryReminderNagbar'] = var4;
-        var4 = function() {
+        var4 = function useIsEligibleForPremiumGroupPurchase() {
             var1 = false;
             return var1;
         };
         var3['useIsEligibleForPremiumGroupPurchase'] = var4;
-        var4 = function(arg1) {
+        var4 = function useCheckoutInstancePremiumGroupPurchaseEligibility(arg1) {
             var1 = arg1;
             var1 = var1.isGift;
             var1 = false;
             return var1;
         };
         var3['useCheckoutInstancePremiumGroupPurchaseEligibility'] = var4;
-        var4 = function() {
+        var4 = function useIsEligibleForPremiumGroupMarketingMaterials() {
             var1 = false;
             return var1;
         };
         var3['useIsEligibleForPremiumGroupMarketingMaterials'] = var4;
-        var2 = function() {
+        var2 = function useIsEligibleForPremiumGroupNitroTabMarketingMaterials() {
             var1 = false;
             return var1;
         };

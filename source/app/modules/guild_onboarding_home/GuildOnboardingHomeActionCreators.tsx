@@ -1,52 +1,17 @@
 // app/modules/guild_onboarding_home/GuildOnboardingHomeActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var8 = require;
-    var5 = metroImportDefault;
+    var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
-    var9 = dependencyMap;
-    var _closure1_slot0 = var8;
-    var _closure1_slot1 = var5;
-    var _closure1_slot2 = var9;
-    var1 = global;
-    var7 = var1.Object;
-    var6 = var7.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var6.bind(var7)(var3, var1, var4);
-    var1 = 0;
-    var4 = var9[var1];
-    var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var9[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var9[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var9[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var9[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var9[var4];
-    var4 = var8.bind(var1)(var4);
-    var5 = var4.AnalyticEvents;
-    var _closure1_slot8 = var5;
-    var4 = var4.Endpoints;
-    var _closure1_slot9 = var4;
-    var4 = function() {
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _fetchGuildHomeSettings() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -132,25 +97,21 @@ case 2:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot10 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var6 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot10 = var1;
+    var1 = function _fetchNewMemberActions() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -244,25 +205,21 @@ case 11:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot11 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var5 = var4.bind(var1)();
-    var4 = function() {
+    var _closure1_slot11 = var1;
+    var1 = function _clearNewMemberActions() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -341,31 +298,92 @@ case 21:
             };
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot12 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var4 = var4.bind(var1)();
-    var7 = 12;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'modules/guild_onboarding_home/GuildOnboardingHomeActionCreators.tsx';
-    var7 = var8.bind(var9)(var7);
-    var3['fetchGuildHomeSettings'] = var6;
-    var3['fetchNewMemberActions'] = var5;
+    var _closure1_slot12 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot8 = var7;
+    var4 = var4.Endpoints;
+    var _closure1_slot9 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_onboarding_home/GuildOnboardingHomeActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function fetchGuildHomeSettings() {
+        var1 = undefined;
+        var4 = _closure1_slot10;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchGuildHomeSettings'] = var4;
+    var4 = function fetchNewMemberActions() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchNewMemberActions'] = var4;
+    var4 = function clearNewMemberActions() {
+        var1 = undefined;
+        var4 = _closure1_slot12;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
     var3['clearNewMemberActions'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function selectHomeResourceChannel(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var10 = arg1;
@@ -437,7 +455,7 @@ case 31:
         }
     };
     var3['selectHomeResourceChannel'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function selectNewMemberActionChannel(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var9 = arg1;
@@ -497,7 +515,7 @@ case 48:
         }
     };
     var3['selectNewMemberActionChannel'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function completeNewMemberAction(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var8 = arg1;

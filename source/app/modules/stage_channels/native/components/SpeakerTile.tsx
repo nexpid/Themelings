@@ -1,131 +1,12 @@
 // app/modules/stage_channels/native/components/SpeakerTile.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var11 = require;
-    var15 = metroImportDefault;
+    var16 = metroImportDefault;
     var3 = exports;
     var12 = dependencyMap;
     var _closure1_slot0 = var11;
-    var _closure1_slot1 = var15;
+    var _closure1_slot1 = var16;
     var _closure1_slot2 = var12;
-    var1 = global;
-    var5 = var1.Object;
-    var4 = var5.defineProperty;
-    var2 = {};
-    var1 = true;
-    var2['value'] = var1;
-    var1 = '__esModule';
-    var1 = var4.bind(var5)(var3, var1, var2);
-    var1 = 0;
-    var4 = var12[var1];
-    var2 = metroImportAll;
-    var1 = undefined;
-    var13 = var2.bind(var1)(var4);
-    var _closure1_slot3 = var13;
-    var2 = 1;
-    var2 = var12[var2];
-    var2 = var11.bind(var1)(var2);
-    var2 = var2.View;
-    var _closure1_slot4 = var2;
-    var2 = 2;
-    var2 = var12[var2];
-    var2 = var15.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 3;
-    var2 = var12[var2];
-    var2 = var11.bind(var1)(var2);
-    var2 = var2.ParticipantTypes;
-    var _closure1_slot6 = var2;
-    var2 = 4;
-    var2 = var12[var2];
-    var2 = var11.bind(var1)(var2);
-    var4 = var2.jsx;
-    var _closure1_slot7 = var4;
-    var2 = var2.jsxs;
-    var _closure1_slot8 = var2;
-    var8 = {};
-    var4 = 212;
-    var8['FULL'] = var4;
-    var2 = 'FULL';
-    var8[var4] = var2;
-    var4 = 112;
-    var8['HALF'] = var4;
-    var2 = 'HALF';
-    var8[var4] = var2;
-    var8['THIRD'] = var4;
-    var2 = 'THIRD';
-    var8[var4] = var2;
-    var2 = var8.FULL;
-    var4 = 1.7777777777777777;
-    var7 = var2 * var4;
-    var _closure1_slot9 = var7;
-    var2 = var8.HALF;
-    var6 = var2 * var4;
-    var _closure1_slot10 = var6;
-    var2 = 5;
-    var2 = var12[var2];
-    var5 = var11.bind(var1)(var2);
-    var4 = var5.createStyles;
-    var2 = {};
-    var10 = {'marginHorizontal': 4, 'marginVertical': 4, 'alignItems': 'center', 'flex': 1};
-    var2['container'] = var10;
-    var10 = {};
-    var14 = var8.FULL;
-    var10['height'] = var14;
-    var2['full'] = var10;
-    var10 = {};
-    var14 = var8.HALF;
-    var10['height'] = var14;
-    var2['half'] = var10;
-    var10 = {};
-    var14 = var8.THIRD;
-    var10['height'] = var14;
-    var2['third'] = var10;
-    var10 = {'flex': 1, 'width': '100%', 'alignItems': 'center', 'justifyContent': 'center', 'overflow': 'hidden'};
-    var14 = 6;
-    var16 = var12[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.radii;
-    var16 = var16.sm;
-    var10['borderRadius'] = var16;
-    var2['avatarContainer'] = var10;
-    var10 = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'center', 'alignSelf': 'stretch'};
-    var2['imageBackground'] = var10;
-    var10 = {'position': 'absolute', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'bottom': 4, 'marginHorizontal': 4, 'paddingVertical': 4, 'paddingHorizontal': 8, 'backgroundColor': null, 'borderRadius': 6};
-    var16 = 7;
-    var16 = var12[var16];
-    var19 = var11.bind(var1)(var16);
-    var18 = var19.hexWithOpacity;
-    var16 = var12[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.unsafe_rawColors;
-    var17 = var16.BLACK;
-    var16 = 0.3;
-    var16 = var18.bind(var19)(var17, var16);
-    var10['backgroundColor'] = var16;
-    var2['nameplateContainer'] = var10;
-    var10 = {};
-    var16 = var12[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.WHITE;
-    var10['color'] = var16;
-    var2['nameplateText'] = var10;
-    var10 = {'borderRadius': null, 'width': 16, 'height': 16, 'justifyContent': 'center', 'alignItems': 'center', 'marginEnd': 4};
-    var16 = var12[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.radii;
-    var16 = var16.sm;
-    var10['borderRadius'] = var16;
-    var2['restricted'] = var10;
-    var10 = {};
-    var14 = var12[var14];
-    var14 = var15.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.WHITE;
-    var10['backgroundColor'] = var14;
-    var2['blocked'] = var10;
-    var5 = var4.bind(var5)(var2);
-    var _closure1_slot11 = var5;
     var4 = function getSizeStyle(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -159,58 +40,9 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot12 = var4;
-    var2 = function getTileWidthStyle(arg1, arg2, arg3) {
+    var _closure1_slot13 = var4;
+    var1 = function getImageBackgroundStyle(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var5 = arg1;
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 8;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var3 = var1.StageTileSize;
-            var1 = arg3;
-            if(var1) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var1 = var3.THIRD;
-            if(!(var5 !== var1)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-            var1 = {};
-            var2 = 1;
-            var1['flex'] = var2;
-            _fun0002_ip = 4; continue _fun0002;
-case 8:
-            var2 = {};
-            var7 = arg2;
-            var6 = 36;
-            var7 = var7 - var6;
-            var6 = 3;
-            var6 = var7 / var6;
-            var2['maxWidth'] = var6;
-            var1 = var2;
-case 4:
-            _fun0002_ip = 10; continue _fun0002;
-case 6:
-            var2 = {};
-            var3 = var3.FULL;
-            if(!(var5 !== var3)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-            var3 = _closure1_slot10;
-            _fun0002_ip = 13; continue _fun0002;
-case 11:
-            var3 = _closure1_slot9;
-case 13:
-            var2['maxWidth'] = var3;
-            var1 = var2;
-case 10:
-            return var1;
-        }
-    };
-    var _closure1_slot13 = var2;
-    var10 = function getImageBackgroundStyle(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg2;
             var4 = _closure1_slot0;
@@ -222,13 +54,13 @@ case 0:
             var1 = var1.StageTileSize;
             var3 = var1.THIRD;
             var1 = arg1;
-            if(!(var1 !== var3)) { _fun0003_ip = 14; continue _fun0003 }
+            if(!(var1 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
 case 3:
             var3 = var2.imageBackground;
             var1 = new Array(1);
             var1[0] = var3;
-            _fun0003_ip = 15; continue _fun0003;
-case 14:
+            _fun0002_ip = 7; continue _fun0002;
+case 6:
             var3 = var2.imageBackground;
             var2 = new Array(2);
             var2[0] = var3;
@@ -237,11 +69,179 @@ case 14:
             var3['paddingBottom'] = var4;
             var2[1] = var3;
             var1 = var2;
-case 15:
+case 7:
             return var1;
         }
     };
-    var _closure1_slot14 = var10;
+    var _closure1_slot14 = var1;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var2);
+    var1 = 0;
+    var5 = var12[var1];
+    var2 = metroImportAll;
+    var1 = undefined;
+    var13 = var2.bind(var1)(var5);
+    var _closure1_slot3 = var13;
+    var2 = 1;
+    var2 = var12[var2];
+    var2 = var11.bind(var1)(var2);
+    var2 = var2.View;
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var12[var2];
+    var2 = var16.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 3;
+    var2 = var12[var2];
+    var2 = var11.bind(var1)(var2);
+    var2 = var2.ParticipantTypes;
+    var _closure1_slot6 = var2;
+    var2 = 4;
+    var2 = var12[var2];
+    var2 = var11.bind(var1)(var2);
+    var5 = var2.jsx;
+    var _closure1_slot7 = var5;
+    var2 = var2.jsxs;
+    var _closure1_slot8 = var2;
+    var8 = {};
+    var5 = 212;
+    var8['FULL'] = var5;
+    var2 = 'FULL';
+    var8[var5] = var2;
+    var5 = 112;
+    var8['HALF'] = var5;
+    var2 = 'HALF';
+    var8[var5] = var2;
+    var8['THIRD'] = var5;
+    var2 = 'THIRD';
+    var8[var5] = var2;
+    var2 = var8.FULL;
+    var5 = 1.7777777777777777;
+    var7 = var2 * var5;
+    var _closure1_slot9 = var7;
+    var2 = var8.HALF;
+    var6 = var2 * var5;
+    var _closure1_slot10 = var6;
+    var2 = 5;
+    var2 = var12[var2];
+    var10 = var11.bind(var1)(var2);
+    var5 = var10.createStyles;
+    var2 = {};
+    var14 = {'marginHorizontal': 4, 'marginVertical': 4, 'alignItems': 'center', 'flex': 1};
+    var2['container'] = var14;
+    var14 = {};
+    var15 = var8.FULL;
+    var14['height'] = var15;
+    var2['full'] = var14;
+    var14 = {};
+    var15 = var8.HALF;
+    var14['height'] = var15;
+    var2['half'] = var14;
+    var14 = {};
+    var15 = var8.THIRD;
+    var14['height'] = var15;
+    var2['third'] = var14;
+    var14 = {'flex': 1, 'width': '100%', 'alignItems': 'center', 'justifyContent': 'center', 'overflow': 'hidden'};
+    var15 = 6;
+    var17 = var12[var15];
+    var17 = var16.bind(var1)(var17);
+    var17 = var17.radii;
+    var17 = var17.sm;
+    var14['borderRadius'] = var17;
+    var2['avatarContainer'] = var14;
+    var14 = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'center', 'alignSelf': 'stretch'};
+    var2['imageBackground'] = var14;
+    var14 = {'position': 'absolute', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'bottom': 4, 'marginHorizontal': 4, 'paddingVertical': 4, 'paddingHorizontal': 8, 'backgroundColor': null, 'borderRadius': 6};
+    var17 = 7;
+    var17 = var12[var17];
+    var20 = var11.bind(var1)(var17);
+    var19 = var20.hexWithOpacity;
+    var17 = var12[var15];
+    var17 = var16.bind(var1)(var17);
+    var17 = var17.unsafe_rawColors;
+    var18 = var17.BLACK;
+    var17 = 0.3;
+    var17 = var19.bind(var20)(var18, var17);
+    var14['backgroundColor'] = var17;
+    var2['nameplateContainer'] = var14;
+    var14 = {};
+    var17 = var12[var15];
+    var17 = var16.bind(var1)(var17);
+    var17 = var17.colors;
+    var17 = var17.WHITE;
+    var14['color'] = var17;
+    var2['nameplateText'] = var14;
+    var14 = {'borderRadius': null, 'width': 16, 'height': 16, 'justifyContent': 'center', 'alignItems': 'center', 'marginEnd': 4};
+    var17 = var12[var15];
+    var17 = var16.bind(var1)(var17);
+    var17 = var17.radii;
+    var17 = var17.sm;
+    var14['borderRadius'] = var17;
+    var2['restricted'] = var14;
+    var14 = {};
+    var15 = var12[var15];
+    var15 = var16.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.WHITE;
+    var14['backgroundColor'] = var15;
+    var2['blocked'] = var14;
+    var5 = var5.bind(var10)(var2);
+    var _closure1_slot11 = var5;
+    var2 = function getTileWidthStyle(arg1, arg2, arg3) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var5 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 8;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var3 = var1.StageTileSize;
+            var1 = arg3;
+            if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
+            var1 = var3.THIRD;
+            if(!(var5 !== var1)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            var1 = {};
+            var2 = 1;
+            var1['flex'] = var2;
+            _fun0003_ip = 4; continue _fun0003;
+case 10:
+            var2 = {};
+            var7 = arg2;
+            var6 = 36;
+            var7 = var7 - var6;
+            var6 = 3;
+            var6 = var7 / var6;
+            var2['maxWidth'] = var6;
+            var1 = var2;
+case 4:
+            _fun0003_ip = 12; continue _fun0003;
+case 8:
+            var2 = {};
+            var3 = var3.FULL;
+            if(!(var5 !== var3)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            var3 = _closure1_slot10;
+            _fun0003_ip = 15; continue _fun0003;
+case 13:
+            var3 = _closure1_slot9;
+case 15:
+            var2['maxWidth'] = var3;
+            var1 = var2;
+case 12:
+            return var1;
+        }
+    };
+    var _closure1_slot12 = var2;
     var10 = var13.memo;
     var9 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -365,10 +365,10 @@ case 19:
             var8 = var15.container;
             var7 = new Array(3);
             var7[0] = var8;
-            var8 = _closure1_slot12;
+            var8 = _closure1_slot13;
             var8 = var8.bind(var5)(var23, var15);
             var7[1] = var8;
-            var8 = _closure1_slot13;
+            var8 = _closure1_slot12;
             var8 = var8.bind(var5)(var23, var22, var10);
             var7[2] = var8;
             var2['style'] = var7;

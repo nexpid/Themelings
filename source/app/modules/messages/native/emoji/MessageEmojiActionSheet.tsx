@@ -9,6 +9,156 @@ case 0:
         var1 = metroImportDefault;
         var _closure1_slot1 = var1;
         var _closure1_slot2 = var6;
+        var1 = function MessageStandardEmojiActionSheet(arg1) {
+            var1 = arg1;
+            var12 = var1.emojiNode;
+            var1 = _closure1_slot6;
+            var4 = undefined;
+            var9 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var1 = 6;
+            var1 = var13[var1];
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.v4;
+            var11 = var1.bind(var3)();
+            var _closure2_slot0 = var11;
+            var3 = _closure1_slot5;
+            var1 = 7;
+            var1 = var13[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.BottomSheet;
+            var1 = {};
+            var6 = true;
+            var1['startExpanded'] = var6;
+            var5 = function onDismiss() {
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 8;
+                var3 = var3[var1];
+                var1 = undefined;
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.track;
+                var2 = _closure1_slot4;
+                var3 = var2.CLOSE_POPOUT;
+                var2 = {};
+                var6 = _closure2_slot0;
+                var2['nonce'] = var6;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
+            };
+            var1['onDismiss'] = var5;
+            var7 = _closure1_slot5;
+            var6 = _closure1_slot3;
+            var5 = {};
+            var9 = var9.contentWrapper;
+            var5['style'] = var9;
+            var10 = _closure1_slot5;
+            var9 = _closure1_slot1;
+            var8 = 9;
+            var8 = var13[var8];
+            var9 = var9.bind(var4)(var8);
+            var8 = {};
+            var8['emojiNode'] = var12;
+            var8['nonce'] = var11;
+            var8 = var10.bind(var4)(var9, var8);
+            var5['children'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        };
+        var _closure1_slot7 = var1;
+        var1 = function MessageCustomEmojiActionSheet(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                var1 = arg1;
+                var17 = var1.emojiNode;
+                var4 = undefined;
+                var _closure2_slot0 = var4;
+                var1 = _closure1_slot6;
+                var9 = var1.bind(var4)();
+                var2 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 10;
+                var1 = var3[var1];
+                var3 = var2.bind(var4)(var1);
+                var2 = var3.useEmojiAndSource;
+                var1 = {};
+                var6 = var17.id;
+                var1['emojiId'] = var6;
+                var1 = var2.bind(var3)(var1);
+                var16 = var1.sourceType;
+                var14 = var1.expressionSourceGuild;
+                var15 = var1.expressionSourceApplication;
+                var12 = var1.hasJoinedEmojiSourceGuild;
+                var13 = var1.emoji;
+                var1 = var1.isFetching;
+                if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                var2 = _closure1_slot0;
+                var18 = _closure1_slot2;
+                var1 = 6;
+                var1 = var18[var1];
+                var3 = var2.bind(var4)(var1);
+                var1 = var3.v4;
+                var11 = var1.bind(var3)();
+                _closure2_slot0 = var11;
+                var3 = _closure1_slot5;
+                var1 = 7;
+                var1 = var18[var1];
+                var1 = var2.bind(var4)(var1);
+                var2 = var1.BottomSheet;
+                var1 = {};
+                var6 = true;
+                var1['startExpanded'] = var6;
+                var5 = function onDismiss() {
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 8;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.track;
+                    var2 = _closure1_slot4;
+                    var3 = var2.CLOSE_POPOUT;
+                    var2 = {};
+                    var6 = _closure2_slot0;
+                    var2['nonce'] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
+                };
+                var1['onDismiss'] = var5;
+                var7 = _closure1_slot5;
+                var6 = _closure1_slot3;
+                var5 = {};
+                var9 = var9.contentWrapper;
+                var5['style'] = var9;
+                var10 = _closure1_slot5;
+                var9 = _closure1_slot1;
+                var8 = 11;
+                var8 = var18[var8];
+                var9 = var9.bind(var4)(var8);
+                var8 = {};
+                var8['emojiNode'] = var17;
+                var8['sourceType'] = var16;
+                var8['expressionSourceApplication'] = var15;
+                var8['expressionSourceGuild'] = var14;
+                var8['customEmojiFromJoinedGuild'] = var13;
+                var8['hasJoinedEmojiSourceGuild'] = var12;
+                var8['nonce'] = var11;
+                var8 = var10.bind(var4)(var9, var8);
+                var5['children'] = var8;
+                var5 = var7.bind(var4)(var6, var5);
+                var1['children'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
+case 2:
+                var1 = null;
+                return var1;
+            }
+        };
+        var _closure1_slot8 = var1;
         var1 = global;
         var8 = var1.Object;
         var7 = var8.defineProperty;
@@ -50,167 +200,21 @@ case 0:
         var13 = var5.bind(var1)(var12);
         var12 = var13.isAndroid;
         var12 = var12.bind(var13)();
-        if(!var12) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+        if(!var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var10 = var11;
-case 2:
+case 4:
         var9['paddingBottom'] = var10;
         var4['contentWrapper'] = var9;
         var4 = var7.bind(var8)(var4);
         var _closure1_slot6 = var4;
-        var4 = function MessageStandardEmojiActionSheet(arg1) {
-            var1 = arg1;
-            var10 = var1.emojiNode;
-            var1 = _closure1_slot6;
-            var4 = undefined;
-            var8 = var1.bind(var4)();
-            var2 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var1 = 6;
-            var1 = var11[var1];
-            var3 = var2.bind(var4)(var1);
-            var1 = var3.v4;
-            var9 = var1.bind(var3)();
-            var _closure2_slot0 = var9;
-            var3 = _closure1_slot5;
-            var1 = 7;
-            var1 = var11[var1];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.BottomSheet;
-            var1 = {};
-            var6 = true;
-            var1['startExpanded'] = var6;
-            var5 = function onDismiss() {
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 8;
-                var3 = var3[var1];
-                var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.track;
-                var2 = _closure1_slot4;
-                var3 = var2.CLOSE_POPOUT;
-                var2 = {};
-                var6 = _closure2_slot0;
-                var2['nonce'] = var6;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            };
-            var1['onDismiss'] = var5;
-            var6 = _closure1_slot3;
-            var5 = {};
-            var8 = var8.contentWrapper;
-            var5['style'] = var8;
-            var8 = _closure1_slot1;
-            var7 = 9;
-            var7 = var11[var7];
-            var8 = var8.bind(var4)(var7);
-            var7 = {};
-            var7['emojiNode'] = var10;
-            var7['nonce'] = var9;
-            var7 = var3.bind(var4)(var8, var7);
-            var5['children'] = var7;
-            var5 = var3.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        };
-        var _closure1_slot7 = var4;
-        var4 = function MessageCustomEmojiActionSheet(arg1) {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                var1 = arg1;
-                var15 = var1.emojiNode;
-                var4 = undefined;
-                var _closure2_slot0 = var4;
-                var1 = _closure1_slot6;
-                var8 = var1.bind(var4)();
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 10;
-                var1 = var3[var1];
-                var3 = var2.bind(var4)(var1);
-                var2 = var3.useEmojiAndSource;
-                var1 = {};
-                var6 = var15.id;
-                var1['emojiId'] = var6;
-                var1 = var2.bind(var3)(var1);
-                var14 = var1.sourceType;
-                var12 = var1.expressionSourceGuild;
-                var13 = var1.expressionSourceApplication;
-                var10 = var1.hasJoinedEmojiSourceGuild;
-                var11 = var1.emoji;
-                var1 = var1.isFetching;
-                if(var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                var2 = _closure1_slot0;
-                var16 = _closure1_slot2;
-                var1 = 6;
-                var1 = var16[var1];
-                var3 = var2.bind(var4)(var1);
-                var1 = var3.v4;
-                var9 = var1.bind(var3)();
-                _closure2_slot0 = var9;
-                var3 = _closure1_slot5;
-                var1 = 7;
-                var1 = var16[var1];
-                var1 = var2.bind(var4)(var1);
-                var2 = var1.BottomSheet;
-                var1 = {};
-                var6 = true;
-                var1['startExpanded'] = var6;
-                var5 = function onDismiss() {
-                    var4 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var1 = 8;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var5 = var4.bind(var1)(var3);
-                    var4 = var5.track;
-                    var2 = _closure1_slot4;
-                    var3 = var2.CLOSE_POPOUT;
-                    var2 = {};
-                    var6 = _closure2_slot0;
-                    var2['nonce'] = var6;
-                    var2 = var4.bind(var5)(var3, var2);
-                    return var1;
-                };
-                var1['onDismiss'] = var5;
-                var6 = _closure1_slot3;
-                var5 = {};
-                var8 = var8.contentWrapper;
-                var5['style'] = var8;
-                var8 = _closure1_slot1;
-                var7 = 11;
-                var7 = var16[var7];
-                var8 = var8.bind(var4)(var7);
-                var7 = {};
-                var7['emojiNode'] = var15;
-                var7['sourceType'] = var14;
-                var7['expressionSourceApplication'] = var13;
-                var7['expressionSourceGuild'] = var12;
-                var7['customEmojiFromJoinedGuild'] = var11;
-                var7['hasJoinedEmojiSourceGuild'] = var10;
-                var7['nonce'] = var9;
-                var7 = var3.bind(var4)(var8, var7);
-                var5['children'] = var7;
-                var5 = var3.bind(var4)(var6, var5);
-                var1['children'] = var5;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-case 4:
-                var1 = null;
-                return var1;
-            }
-        };
-        var _closure1_slot8 = var4;
         var4 = 12;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
         var4 = 'modules/messages/native/emoji/MessageEmojiActionSheet.tsx';
         var4 = var5.bind(var6)(var4);
-        var2 = function _default(arg1) {
+        var2 = function MessageEmojiActionSheet(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var1 = arg1;

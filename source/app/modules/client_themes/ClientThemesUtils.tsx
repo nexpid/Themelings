@@ -137,7 +137,7 @@ case 5:
         }
     };
     var3['areThemesEqualForGradientThemes'] = var4;
-    var4 = function(arg1) {
+    var4 = function getBaseTheme(arg1) {
         var2 = _closure1_slot4;
         var1 = arg1;
         var1 = var2[var1];

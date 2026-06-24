@@ -349,7 +349,7 @@ case 23:
                 var25['size'] = var28;
                 var28 = 'destructive';
                 var25['variant'] = var28;
-                var28 = function onPress() {
+                var28 = function handleDeleteRow() {
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var1 = 10;

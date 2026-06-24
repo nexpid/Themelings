@@ -100,7 +100,7 @@ case 7:
 case 6:
                         if(!var2) { _fun0002_ip = 4; continue _fun0002 }
 case 8:
-                        var2 = function(arg1) {
+                        var2 = function addGuildsInNode(arg1) {
                             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                                 var1 = arg1;

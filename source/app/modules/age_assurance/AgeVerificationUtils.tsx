@@ -434,7 +434,7 @@ case 5:
     var13 = var14.fileFinishedImporting;
     var12 = 'modules/age_assurance/AgeVerificationUtils.tsx';
     var12 = var13.bind(var14)(var12);
-    var12 = function(arg1) {
+    var12 = function ageGateSourceHasLightboxBackdrop(arg1) {
         var3 = _closure1_slot16;
         var2 = var3.has;
         var1 = arg1;

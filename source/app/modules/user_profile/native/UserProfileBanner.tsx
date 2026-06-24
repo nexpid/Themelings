@@ -90,8 +90,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = arg1;
             var1 = var2.user;
-            var13 = var2.displayProfile;
-            var _closure2_slot0 = var13;
+            var15 = var2.displayProfile;
+            var _closure2_slot0 = var15;
             var3 = var2.style;
             var _closure2_slot1 = var3;
             var3 = var2.bannerSafeArea;
@@ -107,8 +107,8 @@ case 5:
             var3 = _closure1_slot6;
 case 4:
             var _closure2_slot3 = var3;
-            var9 = var2.pendingBanner;
-            var8 = var2.pendingAvatarSrc;
+            var13 = var2.pendingBanner;
+            var9 = var2.pendingAvatarSrc;
             var3 = var2.pendingAccentColor;
             var _closure2_slot4 = var3;
             var3 = var2.pendingThemeColors;
@@ -122,99 +122,6 @@ case 6:
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
-            var2 = _closure1_slot9;
-            var14 = var2.bind(var4)();
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 8;
-            var2 = var6[var2];
-            var2 = var3.bind(var4)(var2);
-            var3 = var2.GifAutoPlay;
-            var2 = var3.useSetting;
-            var7 = var2.bind(var3)();
-            var6 = _closure1_slot4;
-            var3 = var6.useState;
-            var2 = false;
-            var6 = var3.bind(var6)(var2);
-            var3 = _closure1_slot3;
-            var2 = 2;
-            var6 = var3.bind(var4)(var6, var2);
-            var2 = 0;
-            var2 = var6[var2];
-            _closure2_slot6 = var2;
-            var3 = 1;
-            var3 = var6[var3];
-            _closure2_slot7 = var3;
-            var10 = var7;
-            if(var10) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var10 = var2;
-case 8:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 9;
-            var2 = var6[var2];
-            var6 = var3.bind(var4)(var2);
-            var3 = var6.useUserProfileBannerBackgroundColor;
-            var2 = {};
-            var2['user'] = var1;
-            var1 = null;
-            var16 = var1 == var13;
-            var15 = undefined;
-            if(var16) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var15 = var13.guildId;
-case 10:
-            var2['guildId'] = var15;
-            var2['pendingAvatarSrc'] = var8;
-            var2['displayProfile'] = var13;
-            var2 = var3.bind(var6)(var2);
-            _closure2_slot8 = var2;
-            if(!(var4 === var9)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var2 = var1 == var13;
-            var3 = undefined;
-            if(var2) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var6 = var13.getBannerURL;
-            var2 = {};
-            var2['canAnimate'] = var10;
-            var8 = 600;
-            var2['size'] = var8;
-            var3 = var6.bind(var13)(var2);
-case 14:
-            _fun0001_ip = 16; continue _fun0001;
-case 12:
-            var6 = var1 == var13;
-            var2 = undefined;
-            if(var6) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
-            var8 = var13.getPreviewBanner;
-            var6 = 600;
-            var2 = var8.bind(var13)(var9, var10, var6);
-case 17:
-            var3 = var2;
-case 16:
-            var2 = var1 != var3;
-            var1 = null;
-            if(!var2) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 10;
-            var2 = var8[var2];
-            var6 = var6.bind(var4)(var2);
-            var2 = var6.makeSource;
-            var1 = var2.bind(var6)(var3);
-case 19:
-            _closure2_slot9 = var1;
-            var2 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 10;
-            var1 = var6[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.isAnimatedImageURL;
-            var8 = var1.bind(var2)(var3);
             var6 = function renderBanner() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -234,32 +141,32 @@ case 0:
                     var7 = null;
                     var8 = var7 == var1;
                     var1 = undefined;
-                    if(var8) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+                    if(var8) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var9 = _closure2_slot5;
                     var8 = 0;
                     var1 = var9[var8];
-case 21:
-                    if(!(var7 == var1)) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+case 8:
+                    if(!(var7 == var1)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var1 = _closure2_slot4;
-case 23:
-                    if(!(var7 == var1)) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+case 10:
+                    if(!(var7 == var1)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var8 = _closure2_slot0;
                     var9 = var7 == var8;
                     var8 = undefined;
-                    if(var9) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+                    if(var9) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var9 = _closure2_slot0;
                     var8 = var9.primaryColor;
-case 27:
+case 14:
                     var1 = var8;
-case 25:
-                    if(!(var7 == var1)) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+case 12:
+                    if(!(var7 == var1)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                     var1 = _closure2_slot8;
-case 29:
+case 16:
                     var2['backgroundColor'] = var1;
                     var1 = _closure2_slot2;
                     var2['bannerSafeArea'] = var1;
@@ -268,15 +175,108 @@ case 29:
                     var1 = _closure2_slot0;
                     var7 = var7 == var1;
                     var1 = undefined;
-                    if(var7) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
+                    if(var7) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var6 = _closure2_slot0;
                     var1 = var6.banner;
-case 31:
+case 18:
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }
             };
+            var2 = _closure1_slot9;
+            var14 = var2.bind(var4)();
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 8;
+            var2 = var7[var2];
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.GifAutoPlay;
+            var2 = var3.useSetting;
+            var7 = var2.bind(var3)();
+            var8 = _closure1_slot4;
+            var3 = var8.useState;
+            var2 = false;
+            var8 = var3.bind(var8)(var2);
+            var3 = _closure1_slot3;
+            var2 = 2;
+            var8 = var3.bind(var4)(var8, var2);
+            var2 = 0;
+            var2 = var8[var2];
+            _closure2_slot6 = var2;
+            var3 = 1;
+            var3 = var8[var3];
+            _closure2_slot7 = var3;
+            var10 = var7;
+            if(var10) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            var10 = var2;
+case 20:
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 9;
+            var2 = var8[var2];
+            var8 = var3.bind(var4)(var2);
+            var3 = var8.useUserProfileBannerBackgroundColor;
+            var2 = {};
+            var2['user'] = var1;
+            var1 = null;
+            var17 = var1 == var15;
+            var16 = undefined;
+            if(var17) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
+            var16 = var15.guildId;
+case 22:
+            var2['guildId'] = var16;
+            var2['pendingAvatarSrc'] = var9;
+            var2['displayProfile'] = var15;
+            var2 = var3.bind(var8)(var2);
+            _closure2_slot8 = var2;
+            if(!(var4 === var13)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
+            var2 = var1 == var15;
+            var3 = undefined;
+            if(var2) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
+            var8 = var15.getBannerURL;
+            var2 = {};
+            var2['canAnimate'] = var10;
+            var9 = 600;
+            var2['size'] = var9;
+            var3 = var8.bind(var15)(var2);
+case 26:
+            _fun0001_ip = 28; continue _fun0001;
+case 24:
+            var8 = var1 == var15;
+            var2 = undefined;
+            if(var8) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
+            var9 = var15.getPreviewBanner;
+            var8 = 600;
+            var2 = var9.bind(var15)(var13, var10, var8);
+case 29:
+            var3 = var2;
+case 28:
+            var2 = var1 != var3;
+            var1 = null;
+            if(!var2) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 10;
+            var2 = var9[var2];
+            var8 = var8.bind(var4)(var2);
+            var2 = var8.makeSource;
+            var1 = var2.bind(var8)(var3);
+case 31:
+            _closure2_slot9 = var1;
+            var2 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 10;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.isAnimatedImageURL;
+            var8 = var1.bind(var2)(var3);
             var3 = _closure1_slot7;
             var2 = _closure1_slot5;
             var1 = {};

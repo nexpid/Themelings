@@ -9,6 +9,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var6;
+    var17 = function messageEventsValidation(arg1) {
+        var5 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot3;
+        var1 = 13;
+        var1 = var2[var1];
+        var2 = undefined;
+        var1 = var3.bind(var2)(var1);
+        var2 = var1.bind(var2)(var5);
+        var1 = var2.required;
+        var3 = var1.bind(var2)();
+        var2 = var3.keys;
+        var1 = {};
+        var4 = var5.string;
+        var5 = var4.bind(var5)();
+        var4 = var5.required;
+        var4 = var4.bind(var5)();
+        var1['channel_id'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
     var15 = function messageEvents(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -93,6 +114,26 @@ case 2:
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
         }
+    };
+    var12 = function speakingEventsValidation(arg1) {
+        var5 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot3;
+        var1 = 13;
+        var1 = var2[var1];
+        var2 = undefined;
+        var1 = var3.bind(var2)(var1);
+        var3 = var1.bind(var2)(var5);
+        var2 = var3.keys;
+        var1 = {};
+        var4 = var5.string;
+        var6 = var4.bind(var5)();
+        var5 = var6.allow;
+        var4 = null;
+        var4 = var5.bind(var6)(var4);
+        var1['channel_id'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
     var10 = function speakingEvents(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -203,47 +244,6 @@ case 9:
     var4 = var2.RPCErrors;
     var _closure1_slot16 = var4;
     var4 = var2.RPCEvents;
-    var17 = function messageEventsValidation(arg1) {
-        var5 = arg1;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot3;
-        var1 = 13;
-        var1 = var2[var1];
-        var2 = undefined;
-        var1 = var3.bind(var2)(var1);
-        var2 = var1.bind(var2)(var5);
-        var1 = var2.required;
-        var3 = var1.bind(var2)();
-        var2 = var3.keys;
-        var1 = {};
-        var4 = var5.string;
-        var5 = var4.bind(var5)();
-        var4 = var5.required;
-        var4 = var4.bind(var5)();
-        var1['channel_id'] = var4;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var12 = function speakingEventsValidation(arg1) {
-        var5 = arg1;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot3;
-        var1 = 13;
-        var1 = var2[var1];
-        var2 = undefined;
-        var1 = var3.bind(var2)(var1);
-        var3 = var1.bind(var2)(var5);
-        var2 = var3.keys;
-        var1 = {};
-        var4 = var5.string;
-        var6 = var4.bind(var5)();
-        var5 = var6.allow;
-        var4 = null;
-        var4 = var5.bind(var6)(var4);
-        var1['channel_id'] = var4;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
     var2 = {};
     var9 = var4.GUILD_STATUS;
     var7 = {};

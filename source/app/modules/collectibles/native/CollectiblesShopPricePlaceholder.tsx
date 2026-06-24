@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/CollectiblesShopPricePlaceholder.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function CollectiblesShopPricePlaceholder(arg1) {
         var1 = arg1;
         var7 = var1.style;
         var1 = _closure1_slot5;
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8[var1];
         var9 = var9.bind(var4)(var6);
         var6 = var9.useAnimatedStyle;
-        var3 = function _() {
+        var3 = function h() {
             var1 = {};
             var3 = _closure2_slot0;
             var2 = var3.get;

@@ -526,7 +526,7 @@ case 59:
     var3['unlockOrientation'] = var6;
     var3['lockOrientation'] = var5;
     var3['lockOrientationForiOS'] = var4;
-    var4 = function() {
+    var4 = function toggleOrientation() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = _closure1_slot6;

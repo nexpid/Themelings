@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = 'modules/user_settings/UserSettingsRedesignExperiment.tsx';
     var6 = var7.bind(var8)(var6);
     var3['UserSettingsRedesign4CExperiment'] = var5;
-    var5 = function(arg1) {
+    var5 = function useIsEligibleForUserSettingsRedesign4CExperiment(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.useConfig;
         var1 = {};
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['useIsEligibleForUserSettingsRedesign4CExperiment'] = var5;
-    var5 = function(arg1) {
+    var5 = function getIsEligibleForUserSettingsRedesign4CExperiment(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.getConfig;
         var1 = {};
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['getIsEligibleForUserSettingsRedesign4CExperiment'] = var5;
     var3['UserSettingsRedesign4DExperiment'] = var4;
-    var4 = function(arg1) {
+    var4 = function useIsEligibleForUserSettingsRedesign4DExperiment(arg1) {
         var3 = _closure1_slot1;
         var2 = var3.useConfig;
         var1 = {};
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['useIsEligibleForUserSettingsRedesign4DExperiment'] = var4;
-    var2 = function(arg1) {
+    var2 = function getIsEligibleForUserSettingsRedesign4DExperiment(arg1) {
         var3 = _closure1_slot1;
         var2 = var3.getConfig;
         var1 = {};

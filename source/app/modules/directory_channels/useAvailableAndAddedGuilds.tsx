@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/directory_channels/useAvailableAndAddedGuilds.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1, arg2) {
+    var2 = function useAvailableAndAddedGuilds(arg1, arg2) {
         var4 = arg1;
         var _closure2_slot0 = var4;
         var1 = arg2;

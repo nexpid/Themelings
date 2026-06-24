@@ -7,109 +7,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var26;
-    var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
-    var1 = 0;
-    var4 = var26[var1];
-    var1 = undefined;
-    var4 = var25.bind(var1)(var4);
-    var4 = var4.isAvatarDecorationRecord;
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var26[var4];
-    var4 = var25.bind(var1)(var4);
-    var4 = var4.isNameplateRecord;
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var26[var4];
-    var4 = var25.bind(var1)(var4);
-    var4 = var4.isProfileEffectRecord;
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var26[var4];
-    var4 = var25.bind(var1)(var4);
-    var4 = var4.isProfileFrameRecord;
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var26[var4];
-    var4 = var25.bind(var1)(var4);
-    var4 = var4.AssetDisplayConfigRecord;
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var26[var4];
-    var4 = var25.bind(var1)(var4);
-    var5 = var4.EXTERNAL_PRODUCT_SKU_IDS;
-    var _closure1_slot8 = var5;
-    var5 = var4.LIMITED_TIME_BADGE_DAYS_THRESHOLD;
-    var _closure1_slot9 = var5;
-    var4 = var4.SHOP_CARD_PER_PRODUCT_NEW_BADGE_EXPIRY_SETTINGS;
-    var _closure1_slot10 = var4;
-    var4 = 6;
-    var4 = var26[var4];
-    var4 = var25.bind(var1)(var4);
-    var5 = var4.COLLECTIBLES_APPLICATION_ID;
-    var _closure1_slot11 = var5;
-    var5 = var4.EntitlementTypes;
-    var _closure1_slot12 = var5;
-    var4 = var4.PriceSetAssignmentPurchaseTypes;
-    var _closure1_slot13 = var4;
-    var4 = 7;
-    var4 = var26[var4];
-    var4 = var25.bind(var1)(var4);
-    var27 = var4.CurrencyCodes;
-    var23 = {};
-    var6 = 'nitro';
-    var23['NITRO'] = var6;
-    var4 = 'thirdparty';
-    var23['THIRDPARTY'] = var4;
-    var _closure1_slot14 = var23;
-    var4 = {};
-    var5 = var23.NITRO;
-    var4[4] = var6;
-    var6 = var23.THIRDPARTY;
-    var5 = 'xbox';
-    var4[5] = var5;
-    var _closure1_slot15 = var4;
     var22 = function getPriceForCollectiblesProduct(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg2;
-            var3 = _closure1_slot13;
-            var4 = arg3;
-            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+            var1 = arg2;
+            var4 = _closure1_slot21;
+            var2 = _closure1_slot13;
+            var3 = arg3;
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var4 = var3.DEFAULT;
+            var3 = var2.DEFAULT;
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var4 = var3.PREMIUM_TIER_2;
+            var3 = var2.PREMIUM_TIER_2;
 case 6:
             _fun0001_ip = 7; continue _fun0001;
 case 2:
-            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var2 = var3.MOBILE;
+            var1 = var2.MOBILE;
             _fun0001_ip = 10; continue _fun0001;
 case 8:
-            var2 = var3.MOBILE_PREMIUM_TIER_2;
+            var1 = var2.MOBILE_PREMIUM_TIER_2;
 case 10:
-            var4 = var2;
+            var3 = var1;
 case 7:
-            var3 = _closure1_slot19;
             var2 = undefined;
             var1 = arg1;
-            var1 = var3.bind(var2)(var1, var4);
+            var1 = var4.bind(var2)(var1, var3);
             return var1;
         }
     };
-    var _closure1_slot16 = var22;
+    var _closure1_slot18 = var22;
     var21 = function getDefaultPriceSetAssignmentPurchaseType(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -155,7 +86,7 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot17 = var21;
+    var _closure1_slot19 = var21;
     var20 = function getBundleItemsPriceSum(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -164,7 +95,7 @@ case 0:
             var2 = null;
             if(!(var2 != var4)) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-            var5 = _closure1_slot17;
+            var5 = _closure1_slot19;
             var3 = undefined;
             var2 = false;
             var2 = var5.bind(var3)(var2);
@@ -173,7 +104,7 @@ case 22:
             var2 = function(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var4 = _closure1_slot19;
+                    var4 = _closure1_slot21;
                     var3 = _closure2_slot0;
                     var1 = undefined;
                     var2 = arg2;
@@ -186,10 +117,10 @@ case 24:
 case 23:
                     var3 = var2 != var1;
                     var2 = 0;
-                    if(!var3) { _fun0004_ip = 10; continue _fun0004 }
-case 25:
+                    if(!var3) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
                     var2 = var1;
-case 10:
+case 25:
                     var1 = arg1;
                     var1 = var1 + var2;
                     return var1;
@@ -203,7 +134,7 @@ case 21:
             return var1;
         }
     };
-    var _closure1_slot18 = var20;
+    var _closure1_slot20 = var20;
     var19 = function extractPriceByPurchaseTypes(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -214,35 +145,33 @@ case 0:
             var3 = null;
             var4 = var3 != var1;
             var2 = null;
-            if(!var4) { _fun0005_ip = 26; continue _fun0005 }
-case 4:
+            if(!var4) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var2 = var1;
-case 26:
+case 27:
             var4 = var3 != var2;
             var1 = null;
             if(!var4) { _fun0005_ip = 15; continue _fun0005 }
-case 27:
+case 2:
             var4 = var2.countryPrices;
             var6 = var3 == var4;
             var2 = undefined;
-            if(var6) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+            if(var6) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var4 = var4.prices;
             var3 = var3 == var4;
             var2 = undefined;
-            if(var3) { _fun0005_ip = 28; continue _fun0005 }
-case 30:
+            if(var3) { _fun0005_ip = 29; continue _fun0005 }
+case 31:
             var3 = 0;
             var2 = var4[var3];
-case 28:
+case 29:
             var1 = var2;
 case 15:
             return var1;
         }
     };
-    var _closure1_slot19 = var19;
-    var18 = {'original': 4294967295, 'discountPercentage': 4294967295};
-    var _closure1_slot20 = var18;
+    var _closure1_slot21 = var19;
     var17 = function extendVariantsProducts(arg1) {
         var4 = arg1;
         var3 = var4.reduce;
@@ -253,8 +182,8 @@ case 0:
                 var6 = arg2;
                 var _closure3_slot0 = var6;
                 var4 = null;
-                if(!(var4 != var6)) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
+                if(!(var4 != var6)) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
                 var8 = var6.type;
                 var9 = _closure1_slot0;
                 var7 = _closure1_slot2;
@@ -264,16 +193,16 @@ case 32:
                 var1 = var9.bind(var7)(var1);
                 var1 = var1.CollectiblesItemType;
                 var1 = var1.VARIANTS_GROUP;
-                if(!(var8 === var1)) { _fun0006_ip = 31; continue _fun0006 }
-case 33:
+                if(!(var8 === var1)) { _fun0006_ip = 32; continue _fun0006 }
+case 34:
                 var1 = var6.variants;
-                if(!(var4 == var1)) { _fun0006_ip = 34; continue _fun0006 }
-case 31:
+                if(!(var4 == var1)) { _fun0006_ip = 35; continue _fun0006 }
+case 32:
                 var1 = var5.push;
                 var1 = var1.bind(var5)(var6);
                 var1 = var5;
-                _fun0006_ip = 35; continue _fun0006;
-case 34:
+                _fun0006_ip = 36; continue _fun0006;
+case 35:
                 var4 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var3 = 15;
@@ -298,7 +227,7 @@ case 34:
                 };
                 var2 = var6.bind(var7)(var2);
                 var1 = var3.bind(var4)(var5, var2);
-case 35:
+case 36:
                 return var1;
             }
         };
@@ -306,7 +235,7 @@ case 35:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot21 = var17;
+    var _closure1_slot22 = var17;
     var16 = function getProductsFromCategories(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -331,17 +260,17 @@ case 0:
             var3 = var4.uniqBy;
             var7 = arg2;
             var2 = var5;
-            if(!var7) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
-            var1 = _closure1_slot21;
+            if(!var7) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
+            var1 = _closure1_slot22;
             var2 = var1.bind(var6)(var5);
-case 36:
+case 37:
             var1 = 'storeListingId';
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var _closure1_slot22 = var16;
+    var _closure1_slot23 = var16;
     var15 = function getItemRecordsFromPurchases(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -355,8 +284,8 @@ case 0:
             var1 = var5.bind(var3)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.AVATAR_DECORATION;
-            if(!(var2 !== var1)) { _fun0008_ip = 38; continue _fun0008 }
-case 39:
+            if(!(var2 !== var1)) { _fun0008_ip = 39; continue _fun0008 }
+case 8:
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var6];
@@ -455,7 +384,7 @@ case 40:
             var1 = 'skuId';
             var1 = var2.bind(var5)(var6, var1);
             return var1;
-case 38:
+case 39:
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 15;
@@ -481,12 +410,12 @@ case 38:
             return var1;
         }
     };
-    var _closure1_slot23 = var15;
+    var _closure1_slot24 = var15;
     var14 = function getItemRecordsFromCategories(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var2 = arg2;
-            var6 = _closure1_slot22;
+            var6 = _closure1_slot23;
             var3 = undefined;
             var5 = arg1;
             var1 = true;
@@ -600,9 +529,9 @@ case 45:
             return var1;
         }
     };
-    var _closure1_slot24 = var14;
+    var _closure1_slot25 = var14;
     var13 = function getAvatarDecorationsFromPurchases(arg1) {
-        var4 = _closure1_slot23;
+        var4 = _closure1_slot24;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 14;
@@ -615,9 +544,9 @@ case 45:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var _closure1_slot25 = var13;
+    var _closure1_slot26 = var13;
     var12 = function getAvatarDecorationsFromCategories(arg1) {
-        var4 = _closure1_slot24;
+        var4 = _closure1_slot25;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 14;
@@ -630,9 +559,9 @@ case 45:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var _closure1_slot26 = var12;
+    var _closure1_slot27 = var12;
     var11 = function getNameplatesFromPurchases(arg1) {
-        var4 = _closure1_slot23;
+        var4 = _closure1_slot24;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 14;
@@ -645,9 +574,9 @@ case 45:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var _closure1_slot27 = var11;
+    var _closure1_slot28 = var11;
     var10 = function getNameplatesFromCategories(arg1) {
-        var4 = _closure1_slot24;
+        var4 = _closure1_slot25;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 14;
@@ -660,9 +589,9 @@ case 45:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var _closure1_slot28 = var10;
+    var _closure1_slot29 = var10;
     var9 = function getProfileEffectsFromPurchases(arg1) {
-        var4 = _closure1_slot23;
+        var4 = _closure1_slot24;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 14;
@@ -675,9 +604,9 @@ case 45:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var _closure1_slot29 = var9;
+    var _closure1_slot30 = var9;
     var8 = function getProfileEffectsFromCategories(arg1) {
-        var4 = _closure1_slot24;
+        var4 = _closure1_slot25;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 14;
@@ -690,23 +619,8 @@ case 45:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var _closure1_slot30 = var8;
+    var _closure1_slot31 = var8;
     var7 = function getProfileFramesFromPurchases(arg1) {
-        var4 = _closure1_slot23;
-        var2 = _closure1_slot0;
-        var3 = _closure1_slot2;
-        var1 = 14;
-        var1 = var3[var1];
-        var3 = undefined;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.CollectiblesItemType;
-        var2 = var1.PROFILE_FRAME;
-        var1 = arg1;
-        var1 = var4.bind(var3)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot31 = var7;
-    var6 = function getProfileFramesFromCategories(arg1) {
         var4 = _closure1_slot24;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
@@ -720,7 +634,22 @@ case 45:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var _closure1_slot32 = var6;
+    var _closure1_slot32 = var7;
+    var6 = function getProfileFramesFromCategories(arg1) {
+        var4 = _closure1_slot25;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 14;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.CollectiblesItemType;
+        var2 = var1.PROFILE_FRAME;
+        var1 = arg1;
+        var1 = var4.bind(var3)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot33 = var6;
     var5 = function getDaysRemaining(arg1) {
         var8 = arg1;
         var2 = global;
@@ -756,7 +685,7 @@ case 45:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot33 = var5;
+    var _closure1_slot34 = var5;
     var4 = function isBundleProduct(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -766,7 +695,7 @@ case 0:
             var4 = undefined;
             var2 = undefined;
             if(var3) { _fun0010_ip = 53; continue _fun0010 }
-case 3:
+case 54:
             var2 = var1.type;
 case 53:
             var3 = _closure1_slot0;
@@ -780,7 +709,78 @@ case 53:
             return var1;
         }
     };
-    var _closure1_slot34 = var4;
+    var _closure1_slot35 = var4;
+    var1 = global;
+    var24 = var1.Object;
+    var23 = var24.defineProperty;
+    var18 = {};
+    var1 = true;
+    var18['value'] = var1;
+    var1 = '__esModule';
+    var1 = var23.bind(var24)(var3, var1, var18);
+    var1 = 0;
+    var18 = var26[var1];
+    var1 = undefined;
+    var18 = var25.bind(var1)(var18);
+    var18 = var18.isAvatarDecorationRecord;
+    var _closure1_slot3 = var18;
+    var18 = 1;
+    var18 = var26[var18];
+    var18 = var25.bind(var1)(var18);
+    var18 = var18.isNameplateRecord;
+    var _closure1_slot4 = var18;
+    var18 = 2;
+    var18 = var26[var18];
+    var18 = var25.bind(var1)(var18);
+    var18 = var18.isProfileEffectRecord;
+    var _closure1_slot5 = var18;
+    var18 = 3;
+    var18 = var26[var18];
+    var18 = var25.bind(var1)(var18);
+    var18 = var18.isProfileFrameRecord;
+    var _closure1_slot6 = var18;
+    var18 = 4;
+    var18 = var26[var18];
+    var18 = var25.bind(var1)(var18);
+    var18 = var18.AssetDisplayConfigRecord;
+    var _closure1_slot7 = var18;
+    var18 = 5;
+    var18 = var26[var18];
+    var18 = var25.bind(var1)(var18);
+    var23 = var18.EXTERNAL_PRODUCT_SKU_IDS;
+    var _closure1_slot8 = var23;
+    var23 = var18.LIMITED_TIME_BADGE_DAYS_THRESHOLD;
+    var _closure1_slot9 = var23;
+    var18 = var18.SHOP_CARD_PER_PRODUCT_NEW_BADGE_EXPIRY_SETTINGS;
+    var _closure1_slot10 = var18;
+    var18 = 6;
+    var18 = var26[var18];
+    var18 = var25.bind(var1)(var18);
+    var23 = var18.COLLECTIBLES_APPLICATION_ID;
+    var _closure1_slot11 = var23;
+    var23 = var18.EntitlementTypes;
+    var _closure1_slot12 = var23;
+    var18 = var18.PriceSetAssignmentPurchaseTypes;
+    var _closure1_slot13 = var18;
+    var18 = 7;
+    var18 = var26[var18];
+    var18 = var25.bind(var1)(var18);
+    var27 = var18.CurrencyCodes;
+    var23 = {};
+    var28 = 'nitro';
+    var23['NITRO'] = var28;
+    var18 = 'thirdparty';
+    var23['THIRDPARTY'] = var18;
+    var _closure1_slot14 = var23;
+    var18 = {};
+    var24 = var23.NITRO;
+    var18[23] = var28;
+    var28 = var23.THIRDPARTY;
+    var24 = 'xbox';
+    var18[27] = var24;
+    var _closure1_slot15 = var18;
+    var18 = {'original': 4294967295, 'discountPercentage': 4294967295};
+    var _closure1_slot16 = var18;
     var28 = var27.KZT;
     var24 = new Array(3);
     var24[0] = var28;
@@ -788,7 +788,7 @@ case 53:
     var24[1] = var28;
     var27 = var27.EGP;
     var24[2] = var27;
-    var _closure1_slot35 = var24;
+    var _closure1_slot17 = var24;
     var24 = 18;
     var24 = var26[var24];
     var26 = var25.bind(var1)(var24);
@@ -802,11 +802,11 @@ case 0:
             var3 = arg1;
             var1 = null;
             var2 = var1 != var3;
-            if(!var2) { _fun0011_ip = 54; continue _fun0011 }
+            if(!var2) { _fun0011_ip = 5; continue _fun0011 }
 case 55:
             var2 = _closure1_slot15;
             var1 = var2[var3];
-case 54:
+case 5:
             return var1;
         }
     };
@@ -823,11 +823,11 @@ case 0:
             var4 = var4.bind(var8)(var3);
             var3 = var4.canUseShopDiscounts;
             var3 = var3.bind(var4)(var2);
-            if(var3) { _fun0012_ip = 8; continue _fun0012 }
-case 56:
+            if(var3) { _fun0012_ip = 56; continue _fun0012 }
+case 9:
             var3 = null;
             return var3;
-case 8:
+case 56:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var3 = var3[var5];
@@ -911,33 +911,33 @@ case 47:
         }
     };
     var3['getShopDiscountSource'] = var23;
-    var23 = function(arg1) {
+    var23 = function isPremiumCollectiblesProduct(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var3 = arg1;
             var2 = null;
             var4 = var2 == var3;
             var1 = undefined;
-            if(var4) { _fun0013_ip = 67; continue _fun0013 }
-case 68:
-            var1 = var3.premiumType;
+            if(var4) { _fun0013_ip = 3; continue _fun0013 }
 case 67:
+            var1 = var3.premiumType;
+case 3:
             var1 = var2 != var1;
             return var1;
         }
     };
     var3['isPremiumCollectiblesProduct'] = var23;
-    var23 = function(arg1) {
+    var23 = function isPremiumCollectiblesPurchase(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
             var2 = null;
             var3 = var2 == var1;
             var2 = undefined;
-            if(var3) { _fun0014_ip = 67; continue _fun0014 }
-case 68:
-            var2 = var1.purchaseType;
+            if(var3) { _fun0014_ip = 3; continue _fun0014 }
 case 67:
+            var2 = var1.purchaseType;
+case 3:
             var1 = _closure1_slot12;
             var1 = var1.PREMIUM_PURCHASE;
             var1 = var2 === var1;
@@ -945,7 +945,7 @@ case 67:
         }
     };
     var3['isPremiumCollectiblesPurchase'] = var23;
-    var23 = function(arg1) {
+    var23 = function getAssetForAvatarDecorationProduct(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = arg1;
@@ -956,19 +956,19 @@ case 0:
             var1 = null;
             var3 = var1 == var2;
             var1 = undefined;
-            if(var3) { _fun0015_ip = 69; continue _fun0015 }
-case 9:
-            var1 = var2.asset;
+            if(var3) { _fun0015_ip = 68; continue _fun0015 }
 case 69:
+            var1 = var2.asset;
+case 68:
             return var1;
         }
     };
     var3['getAssetForAvatarDecorationProduct'] = var23;
     var3['getPriceForCollectiblesProduct'] = var22;
-    var22 = function(arg1, arg2, arg3) {
+    var22 = function getFormattedPriceForCollectiblesProduct(arg1, arg2, arg3) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
-            var6 = _closure1_slot16;
+            var6 = _closure1_slot18;
             var2 = undefined;
             var5 = arg1;
             var4 = arg2;
@@ -978,7 +978,7 @@ case 0:
             var4 = var7 == var6;
             var1 = '';
             if(var4) { _fun0016_ip = 70; continue _fun0016 }
-case 9:
+case 69:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 12;
@@ -1007,26 +1007,26 @@ case 70:
     var3['getBundleItemsPriceSum'] = var20;
     var3['extractPriceByPurchaseTypes'] = var19;
     var3['NoDiscount'] = var18;
-    var18 = function(arg1, arg2) {
+    var18 = function getProductDiscount(arg1, arg2) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var7 = arg1;
             var2 = null;
             if(!(var2 != var7)) { _fun0017_ip = 74; continue _fun0017 }
 case 75:
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot20;
             var5 = undefined;
             var6 = var3.bind(var5)(var7);
             var3 = 0;
             if(!(!(var6 <= var3))) { _fun0017_ip = 76; continue _fun0017 }
 case 77:
-            var4 = _closure1_slot19;
-            var8 = _closure1_slot17;
+            var4 = _closure1_slot21;
+            var8 = _closure1_slot19;
             var3 = arg2;
             var3 = var8.bind(var5)(var3);
             var3 = var4.bind(var5)(var7, var3);
             if(!(var2 != var3)) { _fun0017_ip = 78; continue _fun0017 }
-case 7:
+case 79:
             var2 = {};
             var2['original'] = var6;
             var4 = global;
@@ -1039,50 +1039,50 @@ case 7:
             var3 = var6 * var3;
             var3 = var4.bind(var5)(var3);
             var2['discountPercentage'] = var3;
-            _fun0017_ip = 79; continue _fun0017;
+            _fun0017_ip = 80; continue _fun0017;
 case 78:
-            var2 = _closure1_slot20;
-case 79:
+            var2 = _closure1_slot16;
+case 80:
             return var2;
 case 76:
-            var1 = _closure1_slot20;
+            var1 = _closure1_slot16;
             return var1;
 case 74:
-            var1 = _closure1_slot20;
+            var1 = _closure1_slot16;
             return var1;
         }
     };
     var3['getProductDiscount'] = var18;
-    var18 = function(arg1, arg2) {
+    var18 = function getCollectiblesProductPriceComparisons(arg1, arg2) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var8 = arg1;
             var1 = arg2;
             var6 = var1.hasShopDiscount;
             var5 = var1.discount;
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot21;
             var1 = _closure1_slot13;
             var1 = var1.DEFAULT;
             var4 = undefined;
             var3 = var3.bind(var4)(var8, var1);
             var1 = null;
-            if(!(var1 != var3)) { _fun0018_ip = 80; continue _fun0018 }
-case 10:
+            if(!(var1 != var3)) { _fun0018_ip = 81; continue _fun0018 }
+case 25:
             var9 = var3.amount;
             var7 = 0;
-            if(!(!(var9 <= var7))) { _fun0018_ip = 81; continue _fun0018 }
-case 82:
-            var9 = _closure1_slot19;
+            if(!(!(var9 <= var7))) { _fun0018_ip = 82; continue _fun0018 }
+case 83:
+            var9 = _closure1_slot21;
             var7 = _closure1_slot13;
             var7 = var7.PREMIUM_TIER_2;
             var7 = var9.bind(var4)(var8, var7);
-            var2 = _closure1_slot34;
+            var2 = _closure1_slot35;
             var2 = var2.bind(var4)(var8);
             var4 = var3;
-            if(!var2) { _fun0018_ip = 83; continue _fun0018 }
-case 84:
+            if(!var2) { _fun0018_ip = 84; continue _fun0018 }
+case 85:
             var4 = var3;
-            if(!var6) { _fun0018_ip = 83; continue _fun0018 }
+            if(!var6) { _fun0018_ip = 84; continue _fun0018 }
 case 78:
             var2 = {};
             var11 = var2;
@@ -1092,16 +1092,16 @@ case 78:
             var5 = 'amount';
             var2[4] = var8;
             var4 = var2;
-case 83:
-            if(!var6) { _fun0018_ip = 85; continue _fun0018 }
-case 35:
-            var6 = var1 != var7;
-case 85:
-            var5 = var4;
+case 84:
             if(!var6) { _fun0018_ip = 86; continue _fun0018 }
-case 87:
-            var5 = var7;
+case 36:
+            var6 = var1 != var7;
 case 86:
+            var5 = var4;
+            if(!var6) { _fun0018_ip = 87; continue _fun0018 }
+case 88:
+            var5 = var7;
+case 87:
             var2 = {};
             var2['defaultPrice'] = var3;
             var2['originalPrice'] = var4;
@@ -1115,21 +1115,21 @@ case 86:
             var4 = false;
             var2['showDefaultPriceOnly'] = var4;
             return var2;
-case 81:
+case 82:
             var2 = {};
             var2['defaultPrice'] = var3;
             var3 = true;
             var2['showDefaultPriceOnly'] = var3;
             return var2;
-case 80:
+case 81:
             return var1;
         }
     };
     var3['getCollectiblesProductPriceComparisons'] = var18;
-    var18 = function(arg1) {
+    var18 = function isFreeCollectiblesProduct(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot21;
             var1 = _closure1_slot13;
             var3 = var1.DEFAULT;
             var2 = undefined;
@@ -1137,10 +1137,10 @@ case 0:
             var1 = var4.bind(var2)(var1, var3);
             var3 = null;
             var3 = var3 == var1;
-            if(var3) { _fun0019_ip = 88; continue _fun0019 }
-case 89:
+            if(var3) { _fun0019_ip = 89; continue _fun0019 }
+case 6:
             var2 = var1.amount;
-case 88:
+case 89:
             var1 = 0;
             var1 = var1 === var2;
             return var1;
@@ -1151,7 +1151,7 @@ case 88:
     var3['getProductsFromCategories'] = var16;
     var3['getItemRecordsFromPurchases'] = var15;
     var3['getItemRecordsFromCategories'] = var14;
-    var14 = function(arg1) {
+    var14 = function getCollectibleTypeLabel(arg1) {
         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var3 = arg1;
@@ -1250,7 +1250,7 @@ case 47:
         }
     };
     var3['getCollectibleTypeLabel'] = var14;
-    var14 = function(arg1) {
+    var14 = function getAssetDisplayConfig(arg1) {
         _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var4 = arg1;
@@ -1258,7 +1258,7 @@ case 0:
             var2 = var1 != var4;
             var1 = undefined;
             if(!var2) { _fun0021_ip = 97; continue _fun0021 }
-case 68:
+case 67:
             var3 = _closure1_slot7;
             var2 = var3.fromServer;
             var1 = var2.bind(var3)(var4);
@@ -1269,7 +1269,7 @@ case 97:
     var3['getAssetDisplayConfig'] = var14;
     var3['getAvatarDecorationsFromPurchases'] = var13;
     var3['getAvatarDecorationsFromCategories'] = var12;
-    var12 = function(arg1, arg2) {
+    var12 = function getAvatarDecorations(arg1, arg2) {
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
         var2 = 15;
@@ -1277,14 +1277,14 @@ case 97:
         var7 = undefined;
         var4 = var3.bind(var7)(var2);
         var3 = var4.uniqBy;
-        var5 = _closure1_slot25;
+        var5 = _closure1_slot26;
         var2 = arg1;
         var9 = var5.bind(var7)(var2);
         var2 = new Array(0);
         var8 = 0;
         var10 = var2;
         var8 = arraySpread(var10, var9, var8);
-        var6 = _closure1_slot26;
+        var6 = _closure1_slot27;
         var1 = arg2;
         var9 = var6.bind(var7)(var1);
         var10 = var2;
@@ -1296,7 +1296,7 @@ case 97:
     var3['getAvatarDecorations'] = var12;
     var3['getNameplatesFromPurchases'] = var11;
     var3['getNameplatesFromCategories'] = var10;
-    var10 = function(arg1, arg2) {
+    var10 = function getNameplates(arg1, arg2) {
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
         var2 = 15;
@@ -1304,14 +1304,14 @@ case 97:
         var7 = undefined;
         var4 = var3.bind(var7)(var2);
         var3 = var4.uniqBy;
-        var5 = _closure1_slot27;
+        var5 = _closure1_slot28;
         var2 = arg1;
         var9 = var5.bind(var7)(var2);
         var2 = new Array(0);
         var8 = 0;
         var10 = var2;
         var8 = arraySpread(var10, var9, var8);
-        var6 = _closure1_slot28;
+        var6 = _closure1_slot29;
         var1 = arg2;
         var9 = var6.bind(var7)(var1);
         var10 = var2;
@@ -1323,7 +1323,7 @@ case 97:
     var3['getNameplates'] = var10;
     var3['getProfileEffectsFromPurchases'] = var9;
     var3['getProfileEffectsFromCategories'] = var8;
-    var8 = function(arg1, arg2) {
+    var8 = function getProfileEffects(arg1, arg2) {
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
         var2 = 15;
@@ -1331,14 +1331,14 @@ case 97:
         var7 = undefined;
         var4 = var3.bind(var7)(var2);
         var3 = var4.uniqBy;
-        var5 = _closure1_slot29;
+        var5 = _closure1_slot30;
         var2 = arg1;
         var9 = var5.bind(var7)(var2);
         var2 = new Array(0);
         var8 = 0;
         var10 = var2;
         var8 = arraySpread(var10, var9, var8);
-        var6 = _closure1_slot30;
+        var6 = _closure1_slot31;
         var1 = arg2;
         var9 = var6.bind(var7)(var1);
         var10 = var2;
@@ -1348,13 +1348,13 @@ case 97:
         return var1;
     };
     var3['getProfileEffects'] = var8;
-    var8 = function(arg1, arg2) {
-        var4 = _closure1_slot29;
+    var8 = function groupProfileEffects(arg1, arg2) {
+        var4 = _closure1_slot30;
         var5 = undefined;
         var3 = arg2;
         var3 = var4.bind(var5)(var3);
         var _closure2_slot0 = var3;
-        var4 = _closure1_slot30;
+        var4 = _closure1_slot31;
         var2 = arg1;
         var4 = var4.bind(var5)(var2);
         var2 = var4.filter;
@@ -1384,7 +1384,7 @@ case 97:
     var3['groupProfileEffects'] = var8;
     var3['getProfileFramesFromPurchases'] = var7;
     var3['getProfileFramesFromCategories'] = var6;
-    var6 = function(arg1, arg2) {
+    var6 = function getProfileFrames(arg1, arg2) {
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
         var2 = 15;
@@ -1392,14 +1392,14 @@ case 97:
         var7 = undefined;
         var4 = var3.bind(var7)(var2);
         var3 = var4.uniqBy;
-        var5 = _closure1_slot31;
+        var5 = _closure1_slot32;
         var2 = arg1;
         var9 = var5.bind(var7)(var2);
         var2 = new Array(0);
         var8 = 0;
         var10 = var2;
         var8 = arraySpread(var10, var9, var8);
-        var6 = _closure1_slot32;
+        var6 = _closure1_slot33;
         var1 = arg2;
         var9 = var6.bind(var7)(var1);
         var10 = var2;
@@ -1409,7 +1409,7 @@ case 97:
         return var1;
     };
     var3['getProfileFrames'] = var6;
-    var6 = function(arg1) {
+    var6 = function isCollectiblesGiftCode(arg1) {
         var1 = arg1;
         var2 = var1.applicationId;
         var1 = _closure1_slot11;
@@ -1427,7 +1427,7 @@ case 97:
     };
     var3['getLogoSize'] = var6;
     var3['getDaysRemaining'] = var5;
-    var5 = function(arg1) {
+    var5 = function shouldShowLimitedTimeBadge(arg1) {
         _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var5 = arg1;
@@ -1435,7 +1435,7 @@ case 0:
             var1 = var1 != var5;
             if(!var1) { _fun0022_ip = 24; continue _fun0022 }
 case 55:
-            var4 = _closure1_slot33;
+            var4 = _closure1_slot34;
             var3 = undefined;
             var3 = var4.bind(var3)(var5);
             var2 = _closure1_slot9;
@@ -1445,7 +1445,7 @@ case 24:
         }
     };
     var3['shouldShowLimitedTimeBadge'] = var5;
-    var5 = function(arg1) {
+    var5 = function isProductNew(arg1) {
         _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var2 = _closure1_slot10;
@@ -1454,7 +1454,7 @@ case 0:
             var1 = null;
             var1 = var1 != var3;
             if(!var1) { _fun0023_ip = 98; continue _fun0023 }
-case 54:
+case 5:
             var2 = global;
             var2 = var2.Date;
             var4 = var2.prototype;
@@ -1471,7 +1471,7 @@ case 98:
     };
     var3['isProductNew'] = var5;
     var3['isBundleProduct'] = var4;
-    var4 = function(arg1) {
+    var4 = function getCollectiblesItemTypeForDisplay(arg1) {
         _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var1 = arg1;
@@ -1491,21 +1491,21 @@ case 99:
             var3 = var3.CollectiblesItemType;
             var3 = var3.BUNDLE;
             if(!(var7 !== var3)) { _fun0024_ip = 100; continue _fun0024 }
-case 101:
+case 7:
             var7 = var1.items;
             var3 = var6 == var7;
             var1 = undefined;
             if(var3) { _fun0024_ip = 11; continue _fun0024 }
-case 31:
+case 32:
             var3 = 0;
             var3 = var7[var3];
             var6 = var6 == var3;
             var1 = undefined;
             if(var6) { _fun0024_ip = 11; continue _fun0024 }
-case 34:
+case 35:
             var1 = var3.type;
 case 11:
-            _fun0024_ip = 102; continue _fun0024;
+            _fun0024_ip = 101; continue _fun0024;
 case 100:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -1513,12 +1513,12 @@ case 100:
             var2 = var3.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var1 = var2.BUNDLE;
-case 102:
+case 101:
             return var1;
         }
     };
     var3['getCollectiblesItemTypeForDisplay'] = var4;
-    var4 = function(arg1) {
+    var4 = function getCollectiblesPrice(arg1) {
         _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var2 = arg1;
@@ -1528,24 +1528,24 @@ case 0:
             var4 = null;
             var5 = var4 == var1;
             var7 = undefined;
-            if(var5) { _fun0025_ip = 103; continue _fun0025 }
+            if(var5) { _fun0025_ip = 102; continue _fun0025 }
 case 24:
             var5 = var1.invoiceItems;
             var1 = var4 == var5;
             var7 = undefined;
-            if(var1) { _fun0025_ip = 103; continue _fun0025 }
-case 25:
+            if(var1) { _fun0025_ip = 102; continue _fun0025 }
+case 26:
             var1 = 0;
             var1 = var5[var1];
             var5 = var4 == var1;
             var7 = undefined;
-            if(var5) { _fun0025_ip = 103; continue _fun0025 }
-case 33:
+            if(var5) { _fun0025_ip = 102; continue _fun0025 }
+case 34:
             var7 = var1.unitPrice;
-case 103:
+case 102:
             var1 = var4 != var7;
             var5 = undefined;
-            if(!var1) { _fun0025_ip = 104; continue _fun0025 }
+            if(!var1) { _fun0025_ip = 103; continue _fun0025 }
 case 71:
             var1 = {};
             var8 = var7.amount;
@@ -1553,23 +1553,23 @@ case 71:
             var7 = var7.currency;
             var1['currency'] = var7;
             var5 = var1;
-case 104:
+case 103:
             var1 = var5;
-            if(!(var4 == var1)) { _fun0025_ip = 105; continue _fun0025 }
-case 106:
+            if(!(var4 == var1)) { _fun0025_ip = 104; continue _fun0025 }
+case 105:
             var1 = var5;
-            if(!(var4 != var6)) { _fun0025_ip = 105; continue _fun0025 }
+            if(!(var4 != var6)) { _fun0025_ip = 104; continue _fun0025 }
 case 74:
             var3 = var3[var6];
             var6 = var4 == var3;
             var2 = undefined;
-            if(var6) { _fun0025_ip = 107; continue _fun0025 }
-case 108:
-            var2 = var3.price;
+            if(var6) { _fun0025_ip = 106; continue _fun0025 }
 case 107:
+            var2 = var3.price;
+case 106:
             var1 = var5;
-            if(!(var4 != var2)) { _fun0025_ip = 105; continue _fun0025 }
-case 109:
+            if(!(var4 != var2)) { _fun0025_ip = 104; continue _fun0025 }
+case 108:
             var2 = {};
             var4 = var3.price;
             var4 = var4.amount;
@@ -1578,12 +1578,12 @@ case 109:
             var3 = var3.currency;
             var2['currency'] = var3;
             var1 = var2;
-case 105:
+case 104:
             return var1;
         }
     };
     var3['getCollectiblesPrice'] = var4;
-    var4 = function(arg1) {
+    var4 = function shouldHideGiftingForCurrency(arg1) {
         _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var4 = arg1;
@@ -1591,7 +1591,7 @@ case 0:
             var1 = var1 != var4;
             if(!var1) { _fun0026_ip = 77; continue _fun0026 }
 case 55:
-            var3 = _closure1_slot35;
+            var3 = _closure1_slot17;
             var2 = var3.includes;
             var1 = var2.bind(var3)(var4);
 case 77:
@@ -1599,86 +1599,86 @@ case 77:
         }
     };
     var3['shouldHideGiftingForCurrency'] = var4;
-    var4 = function(arg1, arg2, arg3) {
+    var4 = function getStrikeThroughPriceAmountForCollectiblesProduct(arg1, arg2, arg3) {
         _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var3 = arg1;
-            var4 = arg3;
-            var5 = _closure1_slot34;
+            var6 = arg3;
+            var4 = _closure1_slot35;
             var2 = undefined;
-            var5 = var5.bind(var2)(var3);
-            if(var5) { _fun0027_ip = 19; continue _fun0027 }
-case 54:
-            var6 = _closure1_slot13;
-            var5 = arg2;
-            if(var5) { _fun0027_ip = 10; continue _fun0027 }
+            var4 = var4.bind(var2)(var3);
+            if(var4) { _fun0027_ip = 19; continue _fun0027 }
+case 5:
+            var5 = _closure1_slot21;
+            var7 = _closure1_slot13;
+            var4 = arg2;
+            if(var4) { _fun0027_ip = 10; continue _fun0027 }
 case 6:
-            if(var4) { _fun0027_ip = 69; continue _fun0027 }
-case 110:
-            var5 = var6.PREMIUM_TIER_2;
-            _fun0027_ip = 39; continue _fun0027;
-case 69:
-            var5 = var6.MOBILE_PREMIUM_TIER_2;
-case 39:
-            _fun0027_ip = 111; continue _fun0027;
-case 10:
-            if(var4) { _fun0027_ip = 112; continue _fun0027 }
-case 7:
-            var4 = var6.DEFAULT;
+            if(var6) { _fun0027_ip = 109; continue _fun0027 }
+case 23:
+            var4 = var7.PREMIUM_TIER_2;
             _fun0027_ip = 30; continue _fun0027;
-case 112:
-            var4 = var6.MOBILE;
+case 109:
+            var4 = var7.MOBILE_PREMIUM_TIER_2;
 case 30:
-            var5 = var4;
-case 111:
-            var4 = _closure1_slot19;
-            var5 = var4.bind(var2)(var3, var5);
+            _fun0027_ip = 110; continue _fun0027;
+case 10:
+            if(var6) { _fun0027_ip = 83; continue _fun0027 }
+case 7:
+            var6 = var7.DEFAULT;
+            _fun0027_ip = 72; continue _fun0027;
+case 83:
+            var6 = var7.MOBILE;
+case 72:
+            var4 = var6;
+case 110:
+            var5 = var5.bind(var2)(var3, var4);
             var4 = null;
             var6 = var4 == var5;
             var4 = undefined;
-            if(var6) { _fun0027_ip = 36; continue _fun0027 }
-case 113:
+            if(var6) { _fun0027_ip = 37; continue _fun0027 }
+case 111:
             var4 = var5.amount;
-case 36:
+case 37:
             return var4;
 case 19:
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot20;
             var1 = var1.bind(var2)(var3);
             return var1;
         }
     };
     var3['getStrikeThroughPriceAmountForCollectiblesProduct'] = var4;
-    var4 = function(arg1) {
+    var4 = function canActionOnProduct(arg1) {
         _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var2 = arg1;
             var5 = var2.product;
             var1 = var2.isPartiallyOwnedBundle;
             var3 = var2.isPurchased;
-            if(var1) { _fun0028_ip = 114; continue _fun0028 }
-case 115:
+            if(var1) { _fun0028_ip = 112; continue _fun0028 }
+case 113:
             var2 = _closure1_slot8;
             var4 = var2.ORB_PROFILE_BADGE;
             var2 = null;
             var6 = var2 == var5;
             var2 = undefined;
-            if(var6) { _fun0028_ip = 116; continue _fun0028 }
-case 117:
+            if(var6) { _fun0028_ip = 114; continue _fun0028 }
+case 109:
             var2 = var5.skuId;
-case 116:
-            var2 = var4 === var2;
-            if(!var2) { _fun0028_ip = 112; continue _fun0028 }
-case 118:
-            var2 = var3;
-case 112:
-            var1 = var2;
 case 114:
+            var2 = var4 === var2;
+            if(!var2) { _fun0028_ip = 115; continue _fun0028 }
+case 116:
+            var2 = var3;
+case 115:
+            var1 = var2;
+case 112:
             var1 = !var1;
             return var1;
         }
     };
     var3['canActionOnProduct'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function getProductTypeNameForLogging(arg1, arg2) {
         _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var2 = arg1;
@@ -1691,15 +1691,15 @@ case 0:
             var1 = var4.bind(var6)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.AVATAR_DECORATION;
-            if(!(var1 !== var2)) { _fun0029_ip = 119; continue _fun0029 }
-case 39:
+            if(!(var1 !== var2)) { _fun0029_ip = 117; continue _fun0029 }
+case 8:
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var7];
             var1 = var4.bind(var6)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.PROFILE_EFFECT;
-            if(!(var1 !== var2)) { _fun0029_ip = 120; continue _fun0029 }
+            if(!(var1 !== var2)) { _fun0029_ip = 118; continue _fun0029 }
 case 14:
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -1707,7 +1707,7 @@ case 14:
             var1 = var4.bind(var6)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.NAMEPLATE;
-            if(!(var1 !== var2)) { _fun0029_ip = 121; continue _fun0029 }
+            if(!(var1 !== var2)) { _fun0029_ip = 119; continue _fun0029 }
 case 42:
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -1715,6 +1715,14 @@ case 42:
             var1 = var4.bind(var6)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.PROFILE_FRAME;
+            if(!(var1 !== var2)) { _fun0029_ip = 120; continue _fun0029 }
+case 121:
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var7];
+            var1 = var4.bind(var6)(var1);
+            var1 = var1.CollectiblesItemType;
+            var1 = var1.BUNDLE;
             if(!(var1 !== var2)) { _fun0029_ip = 122; continue _fun0029 }
 case 123:
             var4 = _closure1_slot0;
@@ -1722,7 +1730,7 @@ case 123:
             var1 = var1[var7];
             var1 = var4.bind(var6)(var1);
             var1 = var1.CollectiblesItemType;
-            var1 = var1.BUNDLE;
+            var1 = var1.EXTERNAL_SKU;
             if(!(var1 !== var2)) { _fun0029_ip = 124; continue _fun0029 }
 case 125:
             var4 = _closure1_slot0;
@@ -1730,64 +1738,56 @@ case 125:
             var1 = var1[var7];
             var1 = var4.bind(var6)(var1);
             var1 = var1.CollectiblesItemType;
-            var1 = var1.EXTERNAL_SKU;
-            if(!(var1 !== var2)) { _fun0029_ip = 126; continue _fun0029 }
-case 127:
-            var4 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var7];
-            var1 = var4.bind(var6)(var1);
-            var1 = var1.CollectiblesItemType;
             var1 = var1.VARIANTS_GROUP;
-            if(!(var1 !== var2)) { _fun0029_ip = 128; continue _fun0029 }
+            if(!(var1 !== var2)) { _fun0029_ip = 126; continue _fun0029 }
 case 41:
             var1 = 'unknown';
             return var1;
-case 128:
+case 126:
             var1 = 'variants group';
             return var1;
-case 126:
+case 124:
             var1 = _closure1_slot8;
             var2 = var1.FRACTIONAL_PREMIUM;
             var1 = '3-day nitro credit';
-            if(!(var5 !== var2)) { _fun0029_ip = 129; continue _fun0029 }
-case 130:
+            if(!(var5 !== var2)) { _fun0029_ip = 127; continue _fun0029 }
+case 128:
             var2 = _closure1_slot8;
             var4 = var2.FRACTIONAL_PREMIUM_1_DAY;
             var2 = '1-day nitro credit';
-            if(!(var5 !== var4)) { _fun0029_ip = 131; continue _fun0029 }
-case 132:
+            if(!(var5 !== var4)) { _fun0029_ip = 129; continue _fun0029 }
+case 130:
             var3 = _closure1_slot8;
             var4 = var3.ORB_PROFILE_BADGE;
             var3 = 'unknown';
-            if(!(var5 === var4)) { _fun0029_ip = 133; continue _fun0029 }
-case 134:
+            if(!(var5 === var4)) { _fun0029_ip = 131; continue _fun0029 }
+case 132:
             var3 = 'orb profile badge';
-case 133:
-            var2 = var3;
 case 131:
-            var1 = var2;
+            var2 = var3;
 case 129:
-            return var1;
-case 124:
-            var1 = 'bundle';
+            var1 = var2;
+case 127:
             return var1;
 case 122:
-            var1 = 'profile frame';
-            return var1;
-case 121:
-            var1 = 'nameplate';
+            var1 = 'bundle';
             return var1;
 case 120:
-            var1 = 'profile effect';
+            var1 = 'profile frame';
             return var1;
 case 119:
+            var1 = 'nameplate';
+            return var1;
+case 118:
+            var1 = 'profile effect';
+            return var1;
+case 117:
             var1 = 'avatar decoration';
             return var1;
         }
     };
     var3['getProductTypeNameForLogging'] = var4;
-    var4 = function(arg1, arg2, arg3) {
+    var4 = function sortProductsByPrice(arg1, arg2, arg3) {
         var3 = arg1;
         var2 = arg2;
         var _closure2_slot0 = var2;
@@ -1801,13 +1801,13 @@ case 0:
                 var7 = arg2;
                 var1 = _closure2_slot1;
                 if(var1) { _fun0030_ip = 23; continue _fun0030 }
-case 5:
-                var5 = _closure1_slot16;
+case 133:
+                var5 = _closure1_slot18;
                 var4 = _closure2_slot0;
                 var3 = undefined;
                 var1 = true;
                 var1 = var5.bind(var3)(var8, var4, var1);
-                _fun0030_ip = 34; continue _fun0030;
+                _fun0030_ip = 35; continue _fun0030;
 case 23:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -1821,16 +1821,16 @@ case 23:
                 var8 = _closure2_slot0;
                 var3['hasShopDiscount'] = var8;
                 var1 = var4.bind(var5)(var3);
-case 34:
+case 35:
                 var3 = _closure2_slot1;
                 if(var3) { _fun0030_ip = 59; continue _fun0030 }
 case 100:
-                var8 = _closure1_slot16;
+                var8 = _closure1_slot18;
                 var5 = _closure2_slot0;
                 var4 = undefined;
                 var3 = true;
                 var5 = var8.bind(var4)(var7, var5, var3);
-                _fun0030_ip = 135; continue _fun0030;
+                _fun0030_ip = 134; continue _fun0030;
 case 59:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -1844,32 +1844,32 @@ case 59:
                 var6 = _closure2_slot0;
                 var2['hasShopDiscount'] = var6;
                 var5 = var3.bind(var4)(var2);
-case 135:
+case 134:
                 var4 = null;
                 var2 = var4 == var1;
                 var6 = undefined;
-                if(var2) { _fun0030_ip = 136; continue _fun0030 }
-case 137:
-                var6 = var1.amount;
+                if(var2) { _fun0030_ip = 135; continue _fun0030 }
 case 136:
+                var6 = var1.amount;
+case 135:
                 var7 = var4 != var6;
                 var1 = 0;
-                if(!var7) { _fun0030_ip = 138; continue _fun0030 }
-case 139:
-                var1 = var6;
+                if(!var7) { _fun0030_ip = 137; continue _fun0030 }
 case 138:
+                var1 = var6;
+case 137:
                 var6 = var4 == var5;
                 var3 = undefined;
                 if(var6) { _fun0030_ip = 93; continue _fun0030 }
-case 140:
+case 139:
                 var3 = var5.amount;
 case 93:
                 var4 = var4 != var3;
                 var2 = 0;
-                if(!var4) { _fun0030_ip = 141; continue _fun0030 }
-case 81:
+                if(!var4) { _fun0030_ip = 140; continue _fun0030 }
+case 82:
                 var2 = var3;
-case 141:
+case 140:
                 var1 = var1 - var2;
                 return var1;
             }
@@ -1878,7 +1878,7 @@ case 141:
         return var1;
     };
     var3['sortProductsByPrice'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function sortProductsByUserDiscounts(arg1, arg2) {
         _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var1 = arg1;
@@ -1886,10 +1886,10 @@ case 0:
             var3 = var5.length;
             var4 = 0;
             if(!(var4 !== var3)) { _fun0031_ip = 98; continue _fun0031 }
-case 5:
+case 133:
             var3 = var1.length;
             if(!(var4 !== var3)) { _fun0031_ip = 98; continue _fun0031 }
-case 142:
+case 141:
             var4 = var5.map;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -1907,8 +1907,8 @@ case 0:
                     var2 = null;
                     var1 = var2 == var7;
                     var5 = undefined;
-                    if(var1) { _fun0032_ip = 9; continue _fun0032 }
-case 143:
+                    if(var1) { _fun0032_ip = 69; continue _fun0032 }
+case 142:
                     var6 = var7.some;
                     var1 = function(arg1) {
                         var3 = _closure2_slot0;
@@ -1918,18 +1918,18 @@ case 143:
                         return var1;
                     };
                     var5 = var6.bind(var7)(var1);
-case 9:
+case 69:
                     var1 = var2 != var5;
-                    if(!var1) { _fun0032_ip = 117; continue _fun0032 }
-case 144:
+                    if(!var1) { _fun0032_ip = 109; continue _fun0032 }
+case 143:
                     var1 = var5;
-case 117:
+case 109:
                     var5 = arg2;
                     var6 = var5.eligibleOffers;
                     var5 = var2 == var6;
                     var3 = undefined;
-                    if(var5) { _fun0032_ip = 145; continue _fun0032 }
-case 114:
+                    if(var5) { _fun0032_ip = 144; continue _fun0032 }
+case 112:
                     var5 = var6.some;
                     var4 = function(arg1) {
                         var3 = _closure2_slot0;
@@ -1939,10 +1939,10 @@ case 114:
                         return var1;
                     };
                     var3 = var5.bind(var6)(var4);
-case 145:
+case 144:
                     var2 = var2 != var3;
                     if(!var2) { _fun0032_ip = 16; continue _fun0032 }
-case 34:
+case 35:
                     var2 = var3;
 case 16:
                     var2 = var2 - 0;
@@ -1958,7 +1958,7 @@ case 98:
         }
     };
     var3['sortProductsByUserDiscounts'] = var4;
-    var2 = function(arg1) {
+    var2 = function removeRewardProductsFilter(arg1) {
         var3 = arg1;
         var2 = var3.filter;
         var1 = function(arg1) {

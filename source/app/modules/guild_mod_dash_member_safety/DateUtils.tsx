@@ -7,47 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
-    var4 = function getMembersTableTimestampFormatter(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var4 = arg1;
-            var1 = _closure1_slot3;
-            var1 = var1.JOINED_AT;
-            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = _closure1_slot3;
-            var3 = var1.ACCOUNT_AGE;
-            var1 = undefined;
-            if(!(var4 === var3)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var1 = _closure1_slot5;
-case 4:
-            _fun0001_ip = 6; continue _fun0001;
-case 2:
-            var1 = _closure1_slot4;
-case 6:
-            return var1;
-        }
-    };
-    var _closure1_slot6 = var4;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var5 = {};
-    var1 = true;
-    var5['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var5);
-    var5 = {};
-    var8 = 0;
-    var5['JOINED_AT'] = var8;
-    var1 = 'JOINED_AT';
-    var5[var8] = var1;
-    var8 = 1;
-    var5['ACCOUNT_AGE'] = var8;
-    var1 = 'ACCOUNT_AGE';
-    var5[var8] = var1;
-    var _closure1_slot3 = var5;
     var1 = function getJoinedAtDateFormatter() {
         var1 = {};
         var4 = _closure1_slot0;
@@ -116,6 +75,47 @@ case 6:
         return var1;
     };
     var _closure1_slot5 = var1;
+    var4 = function getMembersTableTimestampFormatter(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var4 = arg1;
+            var1 = _closure1_slot3;
+            var1 = var1.JOINED_AT;
+            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = _closure1_slot3;
+            var3 = var1.ACCOUNT_AGE;
+            var1 = undefined;
+            if(!(var4 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var1 = _closure1_slot5;
+case 4:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
+            var1 = _closure1_slot4;
+case 6:
+            return var1;
+        }
+    };
+    var _closure1_slot6 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var5 = {};
+    var8 = 0;
+    var5['JOINED_AT'] = var8;
+    var1 = 'JOINED_AT';
+    var5[var8] = var1;
+    var8 = 1;
+    var5['ACCOUNT_AGE'] = var8;
+    var1 = 'ACCOUNT_AGE';
+    var5[var8] = var1;
+    var _closure1_slot3 = var5;
     var1 = 2;
     var6 = var6[var1];
     var1 = undefined;
@@ -129,7 +129,7 @@ case 6:
     var3['MEMBER_JOIN_DATE_TOOLTIP_CONFIG'] = var6;
     var3['MembersTableDateFormats'] = var5;
     var3['getMembersTableTimestampFormatter'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function formatDateRelativeTime(arg1, arg2) {
         var3 = _closure1_slot6;
         var5 = undefined;
         var2 = arg2;
@@ -145,7 +145,7 @@ case 6:
         return var1;
     };
     var3['formatDateRelativeTime'] = var4;
-    var2 = function(arg1) {
+    var2 = function getJoinedAtTimestamp(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var4 = arg1;

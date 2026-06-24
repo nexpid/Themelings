@@ -1324,7 +1324,7 @@ case 103:
     var3['default'] = var6;
     var3['DIVERSITY_SURROGATES'] = var5;
     var3['Emoji'] = var4;
-    var2 = function(arg1) {
+    var2 = function asUnicodeEmoji(arg1) {
         _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var4 = arg1;

@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var9.bind(var10)(var7);
     var _closure1_slot6 = var7;
     var7 = var8.memo;
-    var2 = function(arg1) {
+    var2 = function GuildActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;

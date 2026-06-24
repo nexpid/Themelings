@@ -130,7 +130,7 @@ case 5:
             var2 = var12.bind(var5)(var2);
             var3 = var2.Coachmark;
             var2 = {};
-            var9 = function renderImgComponent() {
+            var9 = function appsIcon() {
                 var4 = _closure1_slot7;
                 var3 = _closure1_slot4;
                 var2 = {};

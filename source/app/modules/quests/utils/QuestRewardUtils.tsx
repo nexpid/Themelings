@@ -1034,7 +1034,7 @@ case 67:
         }
     };
     var3['getDefaultPlatform'] = var4;
-    var2 = function(arg1) {
+    var2 = function getPlatformString(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var3 = arg1;

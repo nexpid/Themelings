@@ -100,7 +100,7 @@ case 12:
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/video_calls/native/useIsVideoMode.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function _default() {
+    var4 = function useIsVideoMode() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
         var2 = 5;

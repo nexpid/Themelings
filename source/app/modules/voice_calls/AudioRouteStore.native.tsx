@@ -281,7 +281,7 @@ case 23:
     var2 = var6[var2];
     var12 = var7.bind(var1)(var2);
     var2 = {};
-    var7 = function RTC_CONNECTION_STATE() {
+    var7 = function handleConnectionStatusChanged() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = _closure1_slot9;

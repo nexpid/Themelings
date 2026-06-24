@@ -110,34 +110,24 @@ case 2:
     var1 = function ChangeSpendingLimitScreen(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var2 = arg1;
-            var5 = var2.teenId;
-            var2 = _closure1_slot8;
+            var1 = arg1;
+            var5 = var1.teenId;
             var4 = undefined;
-            var27 = var2.bind(var4)();
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 10;
-            var2 = var6[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.useChangeSpendingLimitFormState;
-            var2 = var2.bind(var3)(var5);
-            var39 = var2.amountInput;
-            var36 = var2.handleAmountChange;
-            var5 = var2.currency;
-            var37 = var2.currencySymbol;
-            var35 = var2.exponent;
-            var12 = var2.isClearingCap;
-            var26 = var2.isOverspending;
-            var18 = var2.canSave;
-            var19 = var2.isSubmitting;
-            var24 = var2.renewalDate;
-            var3 = var2.monthlySpend;
-            var2 = var2.save;
-            var _closure2_slot0 = var2;
-            var1 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
+            var _closure2_slot0 = var4;
+            var20 = function handleSave() {
+                var1 = undefined;
+                var4 = _closure2_slot1;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
+            var1 = function _handleSave() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -224,21 +214,38 @@ case 7:
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot1 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var20 = var1.bind(var4)();
+            var _closure2_slot1 = var1;
+            var1 = _closure1_slot8;
+            var27 = var1.bind(var4)();
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 10;
+            var1 = var6[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.useChangeSpendingLimitFormState;
+            var1 = var1.bind(var3)(var5);
+            var39 = var1.amountInput;
+            var36 = var1.handleAmountChange;
+            var5 = var1.currency;
+            var37 = var1.currencySymbol;
+            var35 = var1.exponent;
+            var12 = var1.isClearingCap;
+            var26 = var1.isOverspending;
+            var18 = var1.canSave;
+            var19 = var1.isSubmitting;
+            var24 = var1.renewalDate;
+            var3 = var1.monthlySpend;
+            var1 = var1.save;
+            _closure2_slot0 = var1;
             var31 = null;
             var1 = var31 != var3;
             var23 = null;

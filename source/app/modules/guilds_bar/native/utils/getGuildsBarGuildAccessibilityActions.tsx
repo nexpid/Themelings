@@ -137,6 +137,100 @@ case 8:
 case 0:
             var6 = arg1;
             var _closure2_slot0 = var6;
+            var1 = function guildAbove(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var2 = arg1;
+                    var1 = var2.above;
+                    var4 = null;
+                    var3 = var4 == var1;
+                    var1 = null;
+                    if(var3) { _fun0005_ip = 11; continue _fun0005 }
+case 12:
+                    var3 = var2.above;
+                    var3 = var3.isFolder;
+                    var1 = null;
+                    if(var3) { _fun0005_ip = 11; continue _fun0005 }
+case 13:
+                    var2 = var2.above;
+                    var1 = var2.node;
+case 11:
+                    return var1;
+                }
+            };
+            var _closure2_slot3 = var1;
+            var1 = function guildBelow(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var2 = arg1;
+                    var1 = var2.below;
+                    var4 = null;
+                    var3 = var4 == var1;
+                    var1 = null;
+                    if(var3) { _fun0006_ip = 11; continue _fun0006 }
+case 12:
+                    var3 = var2.below;
+                    var3 = var3.isFolder;
+                    var1 = null;
+                    if(var3) { _fun0006_ip = 11; continue _fun0006 }
+case 13:
+                    var2 = var2.below;
+                    var1 = var2.node;
+case 11:
+                    return var1;
+                }
+            };
+            var _closure2_slot4 = var1;
+            var1 = function folderAbove(arg1) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    var2 = arg1;
+                    var1 = var2.above;
+                    var4 = null;
+                    var3 = var4 != var1;
+                    var1 = null;
+                    if(!var3) { _fun0007_ip = 11; continue _fun0007 }
+case 12:
+                    var3 = var2.above;
+                    var3 = var3.isFolder;
+                    var1 = null;
+                    if(!var3) { _fun0007_ip = 11; continue _fun0007 }
+case 13:
+                    var2 = var2.above;
+                    var1 = var2.node;
+case 11:
+                    return var1;
+                }
+            };
+            var _closure2_slot5 = var1;
+            var1 = function folderBelow(arg1) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                    var2 = arg1;
+                    var1 = var2.below;
+                    var4 = null;
+                    var3 = var4 != var1;
+                    var1 = null;
+                    if(!var3) { _fun0008_ip = 11; continue _fun0008 }
+case 12:
+                    var3 = var2.below;
+                    var3 = var3.isFolder;
+                    var1 = null;
+                    if(!var3) { _fun0008_ip = 11; continue _fun0008 }
+case 13:
+                    var2 = var2.below;
+                    var1 = var2.node;
+case 11:
+                    return var1;
+                }
+            };
+            var _closure2_slot6 = var1;
+            var1 = function currentFolder(arg1) {
+                var1 = arg1;
+                var1 = var1.containingFolder;
+                return var1;
+            };
+            var _closure2_slot7 = var1;
             var1 = new Array(0);
             var3 = _closure1_slot3;
             var2 = var3.getGuild;
@@ -145,24 +239,24 @@ case 0:
             var8 = var2 == var7;
             var10 = undefined;
             var3 = undefined;
-            if(var8) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+            if(var8) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var3 = var7.name;
-case 11:
+case 14:
             var7 = var2 != var3;
             var14 = '';
-            if(!var7) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+            if(!var7) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var14 = var3;
-case 13:
+case 16:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 5;
             var3 = var8[var3];
             var3 = var7.bind(var10)(var3);
             var6 = var3.bind(var10)(var6);
-            if(!(var2 != var6)) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+            if(!(var2 != var6)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var3 = var6.containingFolder;
             var7 = var6.above;
             var6 = var6.below;
@@ -193,102 +287,8 @@ case 16:
             var8['name'] = var14;
             var8 = var12.bind(var13)(var9, var8);
             var _closure2_slot2 = var8;
-            var8 = function guildAbove(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                    var2 = arg1;
-                    var1 = var2.above;
-                    var4 = null;
-                    var3 = var4 == var1;
-                    var1 = null;
-                    if(var3) { _fun0005_ip = 11; continue _fun0005 }
-case 17:
-                    var3 = var2.above;
-                    var3 = var3.isFolder;
-                    var1 = null;
-                    if(var3) { _fun0005_ip = 11; continue _fun0005 }
-case 18:
-                    var2 = var2.above;
-                    var1 = var2.node;
-case 11:
-                    return var1;
-                }
-            };
-            var _closure2_slot3 = var8;
-            var8 = function guildBelow(arg1) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                    var2 = arg1;
-                    var1 = var2.below;
-                    var4 = null;
-                    var3 = var4 == var1;
-                    var1 = null;
-                    if(var3) { _fun0006_ip = 11; continue _fun0006 }
-case 17:
-                    var3 = var2.below;
-                    var3 = var3.isFolder;
-                    var1 = null;
-                    if(var3) { _fun0006_ip = 11; continue _fun0006 }
-case 18:
-                    var2 = var2.below;
-                    var1 = var2.node;
-case 11:
-                    return var1;
-                }
-            };
-            var _closure2_slot4 = var8;
-            var8 = function folderAbove(arg1) {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-                    var2 = arg1;
-                    var1 = var2.above;
-                    var4 = null;
-                    var3 = var4 != var1;
-                    var1 = null;
-                    if(!var3) { _fun0007_ip = 11; continue _fun0007 }
-case 17:
-                    var3 = var2.above;
-                    var3 = var3.isFolder;
-                    var1 = null;
-                    if(!var3) { _fun0007_ip = 11; continue _fun0007 }
-case 18:
-                    var2 = var2.above;
-                    var1 = var2.node;
-case 11:
-                    return var1;
-                }
-            };
-            var _closure2_slot5 = var8;
-            var8 = function folderBelow(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-                    var2 = arg1;
-                    var1 = var2.below;
-                    var4 = null;
-                    var3 = var4 != var1;
-                    var1 = null;
-                    if(!var3) { _fun0008_ip = 11; continue _fun0008 }
-case 17:
-                    var3 = var2.below;
-                    var3 = var3.isFolder;
-                    var1 = null;
-                    if(!var3) { _fun0008_ip = 11; continue _fun0008 }
-case 18:
-                    var2 = var2.below;
-                    var1 = var2.node;
-case 11:
-                    return var1;
-                }
-            };
-            var _closure2_slot6 = var8;
-            var8 = function currentFolder(arg1) {
-                var1 = arg1;
-                var1 = var1.containingFolder;
-                return var1;
-            };
-            var _closure2_slot7 = var8;
-            if(!(var2 == var3)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+            if(!(var2 == var3)) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
             var9 = var1.push;
             var8 = {};
             var12 = 'create-new-folder';
@@ -325,12 +325,12 @@ case 20:
             };
             var8['action'] = var12;
             var8 = var9.bind(var1)(var8);
-case 19:
-            if(!(var2 != var7)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+case 20:
+            if(!(var2 != var7)) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var8 = var7.isFolder;
-            if(var8) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+            if(var8) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var9 = var1.push;
             var8 = {};
             var12 = 'move-up';
@@ -361,8 +361,8 @@ case 24:
             };
             var8['action'] = var12;
             var8 = var9.bind(var1)(var8);
-            _fun0004_ip = 21; continue _fun0004;
-case 23:
+            _fun0004_ip = 22; continue _fun0004;
+case 24:
             var14 = var7.node;
             var7 = _closure1_slot5;
             var15 = var7.bind(var10)(var14);
@@ -437,12 +437,12 @@ case 23:
             };
             var7['action'] = var9;
             var7 = var8.bind(var1)(var7);
-case 21:
-            if(!(var2 != var6)) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+case 22:
+            if(!(var2 != var6)) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
             var7 = var6.isFolder;
-            if(var7) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+            if(var7) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
             var8 = var1.push;
             var7 = {};
             var9 = 'move-down';
@@ -473,8 +473,8 @@ case 28:
             };
             var7['action'] = var9;
             var7 = var8.bind(var1)(var7);
-            _fun0004_ip = 25; continue _fun0004;
-case 27:
+            _fun0004_ip = 26; continue _fun0004;
+case 28:
             var13 = var6.node;
             var6 = _closure1_slot5;
             var14 = var6.bind(var10)(var13);
@@ -549,9 +549,9 @@ case 27:
             };
             var6['action'] = var8;
             var6 = var7.bind(var1)(var6);
-case 25:
-            if(!(var2 != var3)) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+case 26:
+            if(!(var2 != var3)) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var12 = var3.id;
             var2 = _closure1_slot5;
             var9 = var2.bind(var10)(var3);
@@ -624,9 +624,9 @@ case 30:
             };
             var2['action'] = var4;
             var2 = var3.bind(var1)(var2);
-case 29:
+case 30:
             return var1;
-case 15:
+case 18:
             return var1;
         }
     };

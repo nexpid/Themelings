@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/notification_center/native/ForYouMentionPlaceholder.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function() {
+    var2 = function ForYouMentionPlaceholder() {
         var1 = _closure1_slot7;
         var4 = undefined;
         var11 = var1.bind(var4)();

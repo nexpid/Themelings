@@ -406,41 +406,47 @@ case 11:
                     var13 = var4.bind(var1)(var14, var13);
                     var5['label'] = var13;
                     var12 = function onPress() {
-                        var2 = _closure3_slot0;
-                        var2 = var2.role_id;
-                        var _closure4_slot0 = var2;
-                        var3 = _closure2_slot4;
-                        var2 = undefined;
-                        var1 = function(arg1) {
-                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                        var1 = _closure3_slot0;
+                        var3 = var1.role_id;
+                        var2 = function toggleRole(arg1) {
+                            var2 = arg1;
+                            var _closure5_slot0 = var2;
+                            var3 = _closure2_slot4;
+                            var2 = undefined;
+                            var1 = function(arg1) {
+                                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                                var5 = arg1;
-                                var1 = global;
-                                var1 = var1.Set;
-                                var2 = var1.prototype;
-                                var2 = Object.create(var2, {constructor: {value: var1}});
-                                var7 = var2;
-                                var6 = var5;
-                                var1 = new var7[var1](var6, var5);
-                                var1 = var1 instanceof Object ? var1 : var2;
-                                var4 = var5.has;
-                                var3 = _closure4_slot0;
-                                var3 = var4.bind(var5)(var3);
-                                if(var3) { _fun0004_ip = 13; continue _fun0004 }
+                                    var5 = arg1;
+                                    var1 = global;
+                                    var1 = var1.Set;
+                                    var2 = var1.prototype;
+                                    var2 = Object.create(var2, {constructor: {value: var1}});
+                                    var7 = var2;
+                                    var6 = var5;
+                                    var1 = new var7[var1](var6, var5);
+                                    var1 = var1 instanceof Object ? var1 : var2;
+                                    var4 = var5.has;
+                                    var3 = _closure5_slot0;
+                                    var3 = var4.bind(var5)(var3);
+                                    if(var3) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-                                var4 = var1.add;
-                                var3 = _closure4_slot0;
-                                var3 = var4.bind(var1)(var3);
-                                _fun0004_ip = 15; continue _fun0004;
+                                    var4 = var1.add;
+                                    var3 = _closure5_slot0;
+                                    var3 = var4.bind(var1)(var3);
+                                    _fun0004_ip = 15; continue _fun0004;
 case 13:
-                                var3 = var1.delete;
-                                var2 = _closure4_slot0;
-                                var2 = var3.bind(var1)(var2);
+                                    var3 = var1.delete;
+                                    var2 = _closure5_slot0;
+                                    var2 = var3.bind(var1)(var2);
 case 15:
-                                return var1;
-                            }
+                                    return var1;
+                                }
+                            };
+                            var1 = var3.bind(var2)(var1);
+                            return var1;
                         };
-                        var1 = var3.bind(var2)(var1);
+                        var1 = undefined;
+                        var1 = var2.bind(var1)(var3);
                         return var1;
                     };
                     var5['onPress'] = var12;

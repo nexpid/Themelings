@@ -78,7 +78,7 @@ case 9:
             var8 = 'number-pad';
 case 8:
             var5['keyboardType'] = var8;
-            var8 = function onChange(arg1) {
+            var8 = function handleChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var5 = arg1;
@@ -133,7 +133,7 @@ case 12:
             var16 = var16["13ofGu"];
             var16 = var17.bind(var18)(var16);
             var9['text'] = var16;
-            var15 = function onPress() {
+            var15 = function handlePressSubmit() {
                 var3 = _closure2_slot1;
                 var2 = _closure2_slot2;
                 var1 = undefined;

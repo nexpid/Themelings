@@ -7,14 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var5;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
     var4 = function formatGiftDate(arg1) {
         var1 = global;
         var1 = var1.Intl;
@@ -44,6 +36,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot3 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
     var1 = 4;
     var5 = var5[var1];
     var1 = undefined;
@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/parent_tools/FamilyCenterActivityGiftRowUtils.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function(arg1) {
+    var5 = function getGiftRowDisplayInfo(arg1) {
         var2 = arg1;
         var1 = {};
         var3 = var2.sku_id;
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['getGiftRowDisplayInfo'] = var5;
     var3['formatGiftDate'] = var4;
-    var2 = function(arg1) {
+    var2 = function getGiftSubtext(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;

@@ -624,40 +624,7 @@ case 32:
     var4 = function createAuditLogFilterUserData(arg1) {
         var7 = arg1;
         var _closure2_slot0 = var7;
-        var1 = new Array(0);
-        var _closure2_slot1 = var1;
-        var5 = var1.push;
-        var4 = {};
-        var11 = _closure1_slot0;
-        var12 = _closure1_slot2;
-        var6 = 9;
-        var8 = var12[var6];
-        var10 = undefined;
-        var8 = var11.bind(var10)(var8);
-        var9 = var8.intl;
-        var8 = var9.string;
-        var6 = var12[var6];
-        var6 = var11.bind(var10)(var6);
-        var6 = var6.t;
-        var6 = var6.ZRFdsL;
-        var6 = var8.bind(var9)(var6);
-        var4['label'] = var6;
-        var6 = null;
-        var4['value'] = var6;
-        var6 = var6 == var7;
-        var4['selected'] = var6;
-        var6 = 0;
-        var4['index'] = var6;
-        var4 = var5.bind(var1)(var4);
-        var4 = global;
-        var4 = var4.Set;
-        var5 = var4.prototype;
-        var5 = Object.create(var5, {constructor: {value: var4}});
-        var14 = var5;
-        var4 = new var14[var4](var13);
-        var4 = var4 instanceof Object ? var4 : var5;
-        var _closure2_slot2 = var4;
-        var4 = function userIdResolver(arg1) {
+        var1 = function userIdResolver(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var3 = arg1;
@@ -704,7 +671,40 @@ case 33:
                 return var1;
             }
         };
-        var _closure2_slot3 = var4;
+        var _closure2_slot3 = var1;
+        var1 = new Array(0);
+        var _closure2_slot1 = var1;
+        var5 = var1.push;
+        var4 = {};
+        var11 = _closure1_slot0;
+        var12 = _closure1_slot2;
+        var6 = 9;
+        var8 = var12[var6];
+        var10 = undefined;
+        var8 = var11.bind(var10)(var8);
+        var9 = var8.intl;
+        var8 = var9.string;
+        var6 = var12[var6];
+        var6 = var11.bind(var10)(var6);
+        var6 = var6.t;
+        var6 = var6.ZRFdsL;
+        var6 = var8.bind(var9)(var6);
+        var4['label'] = var6;
+        var6 = null;
+        var4['value'] = var6;
+        var6 = var6 == var7;
+        var4['selected'] = var6;
+        var6 = 0;
+        var4['index'] = var6;
+        var4 = var5.bind(var1)(var4);
+        var4 = global;
+        var4 = var4.Set;
+        var5 = var4.prototype;
+        var5 = Object.create(var5, {constructor: {value: var4}});
+        var14 = var5;
+        var4 = new var14[var4](var13);
+        var4 = var4 instanceof Object ? var4 : var5;
+        var _closure2_slot2 = var4;
         var3 = _closure1_slot7;
         var6 = var3.logs;
         var5 = var6.forEach;

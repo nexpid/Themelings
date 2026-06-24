@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.ClientThemeType;
     var3['ClientThemeType'] = var4;
-    var2 = function(arg1) {
+    var2 = function getProtoThemeFromBaseTheme(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var10 = arg1;

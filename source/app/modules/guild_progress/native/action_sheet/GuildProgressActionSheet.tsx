@@ -147,202 +147,22 @@ case 0:
             var1 = arg1;
             var2 = var1.guild;
             var _closure2_slot0 = var2;
-            var3 = _closure1_slot16;
             var4 = undefined;
-            var13 = var3.bind(var4)();
-            var16 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var3 = 10;
-            var5 = var14[var3];
-            var8 = var16.bind(var4)(var5);
-            var7 = var8.useStateFromStores;
-            var5 = _closure1_slot7;
-            var6 = new Array(1);
-            var6[0] = var5;
-            var5 = function() {
-                var3 = _closure1_slot7;
-                var2 = var3.getDefaultChannel;
-                var1 = _closure2_slot0;
-                var1 = var1.id;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var5 = var7.bind(var8)(var6, var5);
-            var _closure2_slot1 = var5;
-            var5 = 11;
-            var5 = var14[var5];
-            var6 = var16.bind(var4)(var5);
-            var5 = var6.useIOSCompletionStates;
-            var5 = var5.bind(var6)(var2);
-            var6 = var5.guildPopulated;
-            var11 = var5.guildPersonalized;
-            var10 = var5.guildMessaged;
-            var22 = var5.numFinished;
-            var _closure2_slot2 = var22;
-            var21 = var5.totalSteps;
-            var _closure2_slot3 = var21;
-            var3 = var14[var3];
-            var8 = var16.bind(var4)(var3);
-            var7 = var8.useStateFromStoresObject;
-            var3 = _closure1_slot6;
-            var5 = new Array(1);
-            var5[0] = var3;
-            var3 = function() {
-                var2 = _closure1_slot6;
-                var1 = var2.getErrors;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var7.bind(var8)(var5, var3);
-            var _closure2_slot4 = var3;
-            var2 = var2.id;
-            var _closure2_slot5 = var2;
-            var7 = _closure1_slot4;
-            var8 = var7.useLayoutEffect;
-            var3 = var3.message;
-            var5 = new Array(1);
-            var5[0] = var3;
-            var3 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var2 = _closure2_slot4;
-                    var3 = var2.message;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 12;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var3 = var4.bind(var2)(var3);
-                    var2 = var3.presentError;
-                    var1 = _closure2_slot4;
-                    var1 = var1.message;
-                    var1 = var2.bind(var3)(var1);
-case 2:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var3 = var8.bind(var7)(var3, var5);
-            var8 = var7.useEffect;
-            var5 = new Array(1);
-            var5[0] = var2;
-            var3 = function() {
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 13;
-                var3 = var3[var1];
+            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot5 = var4;
+            var1 = function _addServerIcon() {
+                var4 = undefined;
                 var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.track;
-                var2 = _closure1_slot11;
-                var3 = var2.OPEN_POPOUT;
-                var2 = {};
-                var6 = 'Guild Progress Sheet';
-                var2['type'] = var6;
-                var6 = _closure2_slot5;
-                var2['guild_id'] = var6;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            };
-            var3 = var8.bind(var7)(var3, var5);
-            var5 = var7.useEffect;
-            var3 = new Array(3);
-            var3[0] = var2;
-            var3[1] = var21;
-            var3[2] = var22;
-            var2 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var3 = _closure2_slot2;
-                    var2 = _closure2_slot3;
-                    if(!(var3 === var2)) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
-                    var4 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var2 = 14;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var3 = var4.bind(var2)(var3);
-                    var2 = var3.markCompletedProgressSeen;
-                    var1 = _closure2_slot5;
-                    var1 = var2.bind(var3)(var1);
-case 4:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var2 = var5.bind(var7)(var2, var3);
-            var8 = _closure1_slot14;
-            var15 = _closure1_slot1;
-            var2 = 15;
-            var3 = var14[var2];
-            var5 = var15.bind(var4)(var3);
-            var3 = {};
-            var7 = function onPress() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    var3 = _closure2_slot1;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 6; continue _fun0004 }
-case 7:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 16;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var4 = var4.bind(var2)(var3);
-                    var3 = var4.showInstantInviteActionSheet;
-                    var2 = _closure2_slot1;
-                    var1 = {};
-                    var5 = _closure1_slot13;
-                    var5 = var5.GUILD_PROGRESS;
-                    var1['source'] = var5;
-                    var1 = var3.bind(var4)(var2, var1);
-case 6:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var3['onPress'] = var7;
-            var7 = {};
-            var9 = 17;
-            var9 = var14[var9];
-            var9 = var15.bind(var4)(var9);
-            var7['uri'] = var9;
-            var3['source'] = var7;
-            var18 = 18;
-            var7 = var14[var18];
-            var7 = var16.bind(var4)(var7);
-            var12 = var7.intl;
-            var9 = var12.string;
-            var7 = var14[var18];
-            var7 = var16.bind(var4)(var7);
-            var7 = var7.t;
-            var7 = var7.q9n0Ta;
-            var7 = var9.bind(var12)(var7);
-            var3['title'] = var7;
-            var3['isCompleted'] = var6;
-            var7 = _closure1_slot8;
-            var6 = var7.GUILD_PROGRESS;
-            var3['analyticsSetupType'] = var6;
-            var6 = _closure1_slot9;
-            var9 = var6.INVITE;
-            var3['analyticsAction'] = var9;
-            var9 = var8.bind(var4)(var5, var3);
-            var3 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
+                var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
-                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0005_ip = 8; continue _fun0005 }
-case 9:
+                            if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                             var6 = _closure1_slot1;
                             var7 = _closure1_slot2;
                             var8 = 19;
@@ -369,16 +189,16 @@ case 9:
                             var2['size'] = var9;
                             var2 = var6.bind(var7)(var2);
                             SaveGenerator(address=126);
-case 10:
+case 4:
                             return var2;
-case 11:
+case 5:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0005_ip = 12; continue _fun0005 }
-case 13:
+                            if(var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                             var7 = var2.base64;
                             var6 = null;
-                            if(!(var6 != var7)) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
+                            if(!(var6 != var7)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                             var6 = _closure1_slot1;
                             var5 = _closure1_slot2;
                             var5 = var5[var8];
@@ -386,136 +206,26 @@ case 15:
                             var5 = var6.updateIcon;
                             var4 = _closure2_slot5;
                             var4 = var5.bind(var6)(var4, var7);
-case 14:
-                            return var3;
-case 12:
-                            return var2;
 case 8:
+                            return var3;
+case 6:
+                            return var2;
+case 2:
                             return var1;
                         }
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot6 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var12 = var3.bind(var4)();
-            var8 = _closure1_slot14;
-            var3 = var14[var2];
-            var5 = var15.bind(var4)(var3);
-            var3 = {};
-            var3['onPress'] = var12;
-            var12 = {};
-            var17 = 21;
-            var17 = var14[var17];
-            var17 = var15.bind(var4)(var17);
-            var12['uri'] = var17;
-            var3['source'] = var12;
-            var12 = var14[var18];
-            var12 = var16.bind(var4)(var12);
-            var19 = var12.intl;
-            var17 = var19.string;
-            var12 = var14[var18];
-            var12 = var16.bind(var4)(var12);
-            var12 = var12.t;
-            var12 = var12.DWB2YZ;
-            var12 = var17.bind(var19)(var12);
-            var3['title'] = var12;
-            var3['isCompleted'] = var11;
-            var11 = var7.GUILD_PROGRESS;
-            var3['analyticsSetupType'] = var11;
-            var11 = var6.PERSONALIZE_SERVER;
-            var3['analyticsAction'] = var11;
-            var8 = var8.bind(var4)(var5, var3);
-            var5 = _closure1_slot14;
-            var2 = var14[var2];
-            var3 = var15.bind(var4)(var2);
-            var2 = {};
-            var11 = function onPress() {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                    var1 = _closure2_slot1;
-                    var5 = null;
-                    if(!(var5 != var1)) { _fun0006_ip = 16; continue _fun0006 }
-case 7:
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 22;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.transitionToChannel;
-                    var1 = _closure2_slot1;
-                    var1 = var1.id;
-                    var1 = var2.bind(var3)(var1);
-case 16:
-                    var6 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var1 = 23;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var6 = var6.bind(var1)(var3);
-                    var3 = var6.hideActionSheet;
-                    var3 = var3.bind(var6)();
-                    var3 = _closure2_slot1;
-                    var3 = var5 != var3;
-                    var5 = undefined;
-                    if(!var3) { _fun0006_ip = 10; continue _fun0006 }
-case 17:
-                    var3 = {};
-                    var4 = _closure2_slot1;
-                    var4 = var4.id;
-                    var3['channelId'] = var4;
-                    var5 = var3;
-case 10:
-                    var4 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var3 = 24;
-                    var3 = var6[var3];
-                    var3 = var4.bind(var1)(var3);
-                    var4 = var3.ComponentDispatch;
-                    var3 = var4.dispatch;
-                    var2 = _closure1_slot12;
-                    var2 = var2.TEXTAREA_FOCUS;
-                    var2 = var3.bind(var4)(var2, var5);
-                    return var1;
-                }
-            };
-            var2['onPress'] = var11;
-            var11 = {};
-            var12 = 25;
-            var12 = var14[var12];
-            var12 = var15.bind(var4)(var12);
-            var11['uri'] = var12;
-            var2['source'] = var11;
-            var11 = var14[var18];
-            var11 = var16.bind(var4)(var11);
-            var15 = var11.intl;
-            var12 = var15.string;
-            var11 = var14[var18];
-            var11 = var16.bind(var4)(var11);
-            var11 = var11.t;
-            var11 = var11.dNktpr;
-            var11 = var12.bind(var15)(var11);
-            var2['title'] = var11;
-            var2['isCompleted'] = var10;
-            var7 = var7.GUILD_PROGRESS;
-            var2['analyticsSetupType'] = var7;
-            var6 = var6.SEND_MESSAGE;
-            var2['analyticsAction'] = var6;
-            var7 = var5.bind(var4)(var3, var2);
-            var10 = var22 === var21;
+            var _closure2_slot6 = var1;
             var15 = function handleDismissGuildProgress() {
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
@@ -558,6 +268,305 @@ case 10:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
+            var3 = _closure1_slot16;
+            var13 = var3.bind(var4)();
+            var16 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var3 = 10;
+            var5 = var14[var3];
+            var8 = var16.bind(var4)(var5);
+            var7 = var8.useStateFromStores;
+            var5 = _closure1_slot7;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
+                var3 = _closure1_slot7;
+                var2 = var3.getDefaultChannel;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var5 = var7.bind(var8)(var6, var5);
+            var _closure2_slot1 = var5;
+            var5 = 11;
+            var5 = var14[var5];
+            var6 = var16.bind(var4)(var5);
+            var5 = var6.useIOSCompletionStates;
+            var5 = var5.bind(var6)(var2);
+            var6 = var5.guildPopulated;
+            var11 = var5.guildPersonalized;
+            var10 = var5.guildMessaged;
+            var22 = var5.numFinished;
+            _closure2_slot2 = var22;
+            var21 = var5.totalSteps;
+            _closure2_slot3 = var21;
+            var3 = var14[var3];
+            var8 = var16.bind(var4)(var3);
+            var7 = var8.useStateFromStoresObject;
+            var3 = _closure1_slot6;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = function() {
+                var2 = _closure1_slot6;
+                var1 = var2.getErrors;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var3 = var7.bind(var8)(var5, var3);
+            var _closure2_slot4 = var3;
+            var2 = var2.id;
+            _closure2_slot5 = var2;
+            var7 = _closure1_slot4;
+            var8 = var7.useLayoutEffect;
+            var3 = var3.message;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var2 = _closure2_slot4;
+                    var3 = var2.message;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 12;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var3 = var4.bind(var2)(var3);
+                    var2 = var3.presentError;
+                    var1 = _closure2_slot4;
+                    var1 = var1.message;
+                    var1 = var2.bind(var3)(var1);
+case 10:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var3 = var8.bind(var7)(var3, var5);
+            var8 = var7.useEffect;
+            var5 = new Array(1);
+            var5[0] = var2;
+            var3 = function() {
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 13;
+                var3 = var3[var1];
+                var1 = undefined;
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.track;
+                var2 = _closure1_slot11;
+                var3 = var2.OPEN_POPOUT;
+                var2 = {};
+                var6 = 'Guild Progress Sheet';
+                var2['type'] = var6;
+                var6 = _closure2_slot5;
+                var2['guild_id'] = var6;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
+            };
+            var3 = var8.bind(var7)(var3, var5);
+            var5 = var7.useEffect;
+            var3 = new Array(3);
+            var3[0] = var2;
+            var3[1] = var21;
+            var3[2] = var22;
+            var2 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var3 = _closure2_slot2;
+                    var2 = _closure2_slot3;
+                    if(!(var3 === var2)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 14;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var3 = var4.bind(var2)(var3);
+                    var2 = var3.markCompletedProgressSeen;
+                    var1 = _closure2_slot5;
+                    var1 = var2.bind(var3)(var1);
+case 12:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var2 = var5.bind(var7)(var2, var3);
+            var8 = _closure1_slot14;
+            var17 = _closure1_slot1;
+            var2 = 15;
+            var3 = var14[var2];
+            var5 = var17.bind(var4)(var3);
+            var3 = {};
+            var7 = function onPress() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var3 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 16;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.showInstantInviteActionSheet;
+                    var2 = _closure2_slot1;
+                    var1 = {};
+                    var5 = _closure1_slot13;
+                    var5 = var5.GUILD_PROGRESS;
+                    var1['source'] = var5;
+                    var1 = var3.bind(var4)(var2, var1);
+case 14:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var3['onPress'] = var7;
+            var7 = {};
+            var9 = 17;
+            var9 = var14[var9];
+            var9 = var17.bind(var4)(var9);
+            var7['uri'] = var9;
+            var3['source'] = var7;
+            var18 = 18;
+            var7 = var14[var18];
+            var7 = var16.bind(var4)(var7);
+            var12 = var7.intl;
+            var9 = var12.string;
+            var7 = var14[var18];
+            var7 = var16.bind(var4)(var7);
+            var7 = var7.t;
+            var7 = var7.q9n0Ta;
+            var7 = var9.bind(var12)(var7);
+            var3['title'] = var7;
+            var3['isCompleted'] = var6;
+            var7 = _closure1_slot8;
+            var6 = var7.GUILD_PROGRESS;
+            var3['analyticsSetupType'] = var6;
+            var6 = _closure1_slot9;
+            var9 = var6.INVITE;
+            var3['analyticsAction'] = var9;
+            var9 = var8.bind(var4)(var5, var3);
+            var8 = _closure1_slot14;
+            var3 = var14[var2];
+            var5 = var17.bind(var4)(var3);
+            var3 = {};
+            var12 = function addServerIcon() {
+                var1 = undefined;
+                var4 = _closure2_slot6;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
+            var3['onPress'] = var12;
+            var12 = {};
+            var19 = 21;
+            var19 = var14[var19];
+            var19 = var17.bind(var4)(var19);
+            var12['uri'] = var19;
+            var3['source'] = var12;
+            var12 = var14[var18];
+            var12 = var16.bind(var4)(var12);
+            var23 = var12.intl;
+            var19 = var23.string;
+            var12 = var14[var18];
+            var12 = var16.bind(var4)(var12);
+            var12 = var12.t;
+            var12 = var12.DWB2YZ;
+            var12 = var19.bind(var23)(var12);
+            var3['title'] = var12;
+            var3['isCompleted'] = var11;
+            var11 = var7.GUILD_PROGRESS;
+            var3['analyticsSetupType'] = var11;
+            var11 = var6.PERSONALIZE_SERVER;
+            var3['analyticsAction'] = var11;
+            var8 = var8.bind(var4)(var5, var3);
+            var5 = _closure1_slot14;
+            var2 = var14[var2];
+            var3 = var17.bind(var4)(var2);
+            var2 = {};
+            var11 = function onPress() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var1 = _closure2_slot1;
+                    var5 = null;
+                    if(!(var5 != var1)) { _fun0006_ip = 16; continue _fun0006 }
+case 15:
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 22;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.transitionToChannel;
+                    var1 = _closure2_slot1;
+                    var1 = var1.id;
+                    var1 = var2.bind(var3)(var1);
+case 16:
+                    var6 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 23;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var6 = var6.bind(var1)(var3);
+                    var3 = var6.hideActionSheet;
+                    var3 = var3.bind(var6)();
+                    var3 = _closure2_slot1;
+                    var3 = var5 != var3;
+                    var5 = undefined;
+                    if(!var3) { _fun0006_ip = 4; continue _fun0006 }
+case 17:
+                    var3 = {};
+                    var4 = _closure2_slot1;
+                    var4 = var4.id;
+                    var3['channelId'] = var4;
+                    var5 = var3;
+case 4:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 24;
+                    var3 = var6[var3];
+                    var3 = var4.bind(var1)(var3);
+                    var4 = var3.ComponentDispatch;
+                    var3 = var4.dispatch;
+                    var2 = _closure1_slot12;
+                    var2 = var2.TEXTAREA_FOCUS;
+                    var2 = var3.bind(var4)(var2, var5);
+                    return var1;
+                }
+            };
+            var2['onPress'] = var11;
+            var11 = {};
+            var12 = 25;
+            var12 = var14[var12];
+            var12 = var17.bind(var4)(var12);
+            var11['uri'] = var12;
+            var2['source'] = var11;
+            var11 = var14[var18];
+            var11 = var16.bind(var4)(var11);
+            var17 = var11.intl;
+            var12 = var17.string;
+            var11 = var14[var18];
+            var11 = var16.bind(var4)(var11);
+            var11 = var11.t;
+            var11 = var11.dNktpr;
+            var11 = var12.bind(var17)(var11);
+            var2['title'] = var11;
+            var2['isCompleted'] = var10;
+            var7 = var7.GUILD_PROGRESS;
+            var2['analyticsSetupType'] = var7;
+            var6 = var6.SEND_MESSAGE;
+            var2['analyticsAction'] = var6;
+            var7 = var5.bind(var4)(var3, var2);
+            var10 = var22 === var21;
             var5 = _closure1_slot15;
             var3 = _closure1_slot5;
             var2 = {};

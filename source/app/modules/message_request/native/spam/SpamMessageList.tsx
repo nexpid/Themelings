@@ -17,109 +17,12 @@ case 0:
             var8 = var1.isLastRow;
             var1 = var1.hasSingleMessageRequest;
             var _closure2_slot1 = var1;
-            var2 = _closure1_slot10;
             var4 = undefined;
-            var23 = var2.bind(var4)();
-            var30 = var14.user;
-            var _closure2_slot2 = var30;
-            var11 = var14.channel;
-            var _closure2_slot3 = var11;
-            var12 = var11.id;
-            var _closure2_slot4 = var12;
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var6 = 7;
-            var6 = var3[var6];
-            var10 = var2.bind(var4)(var6);
-            var9 = var10.useLongestChannelMessageBeforeReply;
-            var6 = var11.getRecipientId;
-            var6 = var6.bind(var11)();
-            var6 = var9.bind(var10)(var12, var6);
-            var _closure2_slot5 = var6;
-            var11 = _closure1_slot3;
-            var10 = var11.useCallback;
-            var9 = function() {
-                var6 = _closure1_slot1;
-                var7 = _closure1_slot2;
-                var1 = 8;
-                var2 = var7[var1];
-                var1 = undefined;
-                var4 = var6.bind(var1)(var2);
-                var3 = var4.open;
-                var2 = {};
-                var8 = 'MESSAGE_REQUESTS_SPAM_ERROR_ALERT_TITLE';
-                var2['key'] = var8;
-                var10 = _closure1_slot0;
-                var5 = 6;
-                var8 = var7[var5];
-                var8 = var10.bind(var1)(var8);
-                var9 = var8.intl;
-                var8 = var9.string;
-                var5 = var7[var5];
-                var5 = var10.bind(var1)(var5);
-                var5 = var5.t;
-                var5 = var5.pIQ3h4;
-                var5 = var8.bind(var9)(var5);
-                var2['content'] = var5;
-                var5 = 9;
-                var5 = var7[var5];
-                var5 = var6.bind(var1)(var5);
-                var2['icon'] = var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            var6 = new Array(0);
-            var6 = var10.bind(var11)(var9, var6);
-            var11 = _closure1_slot3;
-            var10 = var11.useCallback;
-            var9 = new Array(2);
-            var9[0] = var12;
-            var9[1] = var1;
-            var1 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var1 = _closure2_slot1;
-                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var6 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var3 = 10;
-                    var5 = var4[var3];
-                    var3 = undefined;
-                    var6 = var6.bind(var3)(var5);
-                    var5 = var6.transitionToChannel;
-                    var2 = _closure2_slot4;
-                    var2 = var5.bind(var6)(var2);
-                    var2 = _closure1_slot1;
-                    var1 = 11;
-                    var1 = var4[var1];
-                    var2 = var2.bind(var3)(var1);
-                    var1 = var2.pop;
-                    var1 = var1.bind(var2)();
-case 2:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var9 = var10.bind(var11)(var1, var9);
-            var1 = 12;
-            var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.useMessageRequestActions;
-            var1 = {};
-            var1['user'] = var30;
-            var1['onAcceptSuccess'] = var9;
-            var1['onError'] = var6;
-            var1 = var2.bind(var3)(var1);
-            var2 = var1.rejectMessageRequest;
-            var _closure2_slot6 = var2;
-            var27 = var1.isAcceptLoading;
-            var20 = var1.isRejectLoading;
-            var25 = var1.isUserProfileLoading;
-            var24 = var1.isOptimisticAccepted;
-            var19 = var1.isOptimisticRejected;
-            var1 = var1.markAsNotSpam;
-            var _closure2_slot7 = var1;
+            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
+            var _closure2_slot7 = var4;
             var22 = function handleRejectMessageRequest() {
                 var3 = _closure2_slot6;
                 var1 = _closure2_slot3;
@@ -163,6 +66,108 @@ case 2:
                 return var1;
             };
             var _closure2_slot10 = var9;
+            var2 = _closure1_slot10;
+            var23 = var2.bind(var4)();
+            var30 = var14.user;
+            _closure2_slot2 = var30;
+            var12 = var14.channel;
+            _closure2_slot3 = var12;
+            var13 = var12.id;
+            var _closure2_slot4 = var13;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var6 = 7;
+            var6 = var3[var6];
+            var11 = var2.bind(var4)(var6);
+            var10 = var11.useLongestChannelMessageBeforeReply;
+            var6 = var12.getRecipientId;
+            var6 = var6.bind(var12)();
+            var6 = var10.bind(var11)(var13, var6);
+            _closure2_slot5 = var6;
+            var12 = _closure1_slot3;
+            var11 = var12.useCallback;
+            var10 = function() {
+                var6 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var1 = 8;
+                var2 = var7[var1];
+                var1 = undefined;
+                var4 = var6.bind(var1)(var2);
+                var3 = var4.open;
+                var2 = {};
+                var8 = 'MESSAGE_REQUESTS_SPAM_ERROR_ALERT_TITLE';
+                var2['key'] = var8;
+                var10 = _closure1_slot0;
+                var5 = 6;
+                var8 = var7[var5];
+                var8 = var10.bind(var1)(var8);
+                var9 = var8.intl;
+                var8 = var9.string;
+                var5 = var7[var5];
+                var5 = var10.bind(var1)(var5);
+                var5 = var5.t;
+                var5 = var5.pIQ3h4;
+                var5 = var8.bind(var9)(var5);
+                var2['content'] = var5;
+                var5 = 9;
+                var5 = var7[var5];
+                var5 = var6.bind(var1)(var5);
+                var2['icon'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var6 = new Array(0);
+            var6 = var11.bind(var12)(var10, var6);
+            var12 = _closure1_slot3;
+            var11 = var12.useCallback;
+            var10 = new Array(2);
+            var10[0] = var13;
+            var10[1] = var1;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = _closure2_slot1;
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 10;
+                    var5 = var4[var3];
+                    var3 = undefined;
+                    var6 = var6.bind(var3)(var5);
+                    var5 = var6.transitionToChannel;
+                    var2 = _closure2_slot4;
+                    var2 = var5.bind(var6)(var2);
+                    var2 = _closure1_slot1;
+                    var1 = 11;
+                    var1 = var4[var1];
+                    var2 = var2.bind(var3)(var1);
+                    var1 = var2.pop;
+                    var1 = var1.bind(var2)();
+case 2:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var10 = var11.bind(var12)(var1, var10);
+            var1 = 12;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useMessageRequestActions;
+            var1 = {};
+            var1['user'] = var30;
+            var1['onAcceptSuccess'] = var10;
+            var1['onError'] = var6;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.rejectMessageRequest;
+            _closure2_slot6 = var2;
+            var27 = var1.isAcceptLoading;
+            var20 = var1.isRejectLoading;
+            var25 = var1.isUserProfileLoading;
+            var24 = var1.isOptimisticAccepted;
+            var19 = var1.isOptimisticRejected;
+            var1 = var1.markAsNotSpam;
+            _closure2_slot7 = var1;
             var21 = var27;
             if(var21) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
@@ -733,7 +738,7 @@ case 39:
                     var1 = var1.channel;
                     var1 = var1.id;
                     var1 = var5.bind(var2)(var4, var3, var1);
-                    _fun0005_ip = 4; continue _fun0005;
+                    _fun0005_ip = 41; continue _fun0005;
 case 37:
                     var5 = _closure1_slot8;
                     var4 = _closure1_slot5;
@@ -768,7 +773,7 @@ case 37:
                     var6 = var8.bind(var2)(var7, var6);
                     var3['children'] = var6;
                     var1 = var5.bind(var2)(var4, var3);
-case 4:
+case 41:
                     return var1;
                 }
             };

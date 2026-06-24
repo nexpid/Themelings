@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/app_launcher/native/images/OnboardingAppsRocket.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function SvgComponent(arg1) {
         var4 = _closure1_slot4;
         var2 = _closure1_slot1;
         var15 = _closure1_slot2;

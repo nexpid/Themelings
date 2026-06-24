@@ -45,7 +45,7 @@ case 2:
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/quests/types/v2/Quest.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function(arg1) {
+    var4 = function questFromServerV2(arg1) {
         var2 = arg1;
         var1 = {};
         var3 = var2.id;

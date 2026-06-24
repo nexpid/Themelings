@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PREMIUM_GROUP_COOLDOWN_MONTHS'] = var8;
     var3['HELP_CENTER_LINK'] = var7;
     var3['CANNOT_INVITE_STATUSES'] = var6;
-    var6 = function() {
+    var6 = function getPremiumGroupProductName() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 3;
@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getPremiumGroupProductName'] = var6;
-    var5 = function() {
+    var5 = function getPremiumGroupCountryName() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;

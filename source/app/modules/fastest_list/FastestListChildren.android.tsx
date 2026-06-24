@@ -213,25 +213,7 @@ case 8:
             var3 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var3 = _closure2_slot7;
-                    var29 = var3.keysAreUniform;
-                    var28 = var3.listId;
-                    var47 = var3.itemKeys;
-                    var46 = var3.itemSizes;
-                    var45 = var3.itemSizeIsUniform;
-                    var2 = var3.listFooterKey;
-                    var30 = var3.listFooterSize;
-                    var6 = var3.listHeaderKey;
-                    var35 = var3.listHeaderSize;
-                    var4 = var3.sectionsId;
-                    var31 = var3.sections;
-                    var27 = var3.sectionFooterKeys;
-                    var26 = var3.sectionFooterSizeIsUniform;
-                    var25 = var3.sectionFooterSizes;
-                    var24 = var3.sectionHeaderKeys;
-                    var23 = var3.sectionHeaderSizeIsUniform;
-                    var22 = var3.sectionHeaderSizes;
-                    var21 = function fastestListChildJSX(arg1, arg2) {
+                    var29 = function fastestListChildJSX(arg1, arg2) {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                             var5 = arg1;
@@ -285,6 +267,24 @@ case 16:
                             return var1;
                         }
                     };
+                    var3 = _closure2_slot7;
+                    var28 = var3.keysAreUniform;
+                    var27 = var3.listId;
+                    var47 = var3.itemKeys;
+                    var46 = var3.itemSizes;
+                    var45 = var3.itemSizeIsUniform;
+                    var2 = var3.listFooterKey;
+                    var30 = var3.listFooterSize;
+                    var6 = var3.listHeaderKey;
+                    var35 = var3.listHeaderSize;
+                    var4 = var3.sectionsId;
+                    var31 = var3.sections;
+                    var26 = var3.sectionFooterKeys;
+                    var25 = var3.sectionFooterSizeIsUniform;
+                    var24 = var3.sectionFooterSizes;
+                    var23 = var3.sectionHeaderKeys;
+                    var22 = var3.sectionHeaderSizeIsUniform;
+                    var21 = var3.sectionHeaderSizes;
                     var3 = _closure2_slot15;
                     var3 = var3.sectionsId;
                     if(!(var4 === var3)) { _fun0003_ip = 18; continue _fun0003 }
@@ -317,7 +317,7 @@ case 19:
                     var18 = undefined;
                     var8 = var8.bind(var18)(var7);
                     var7 = _closure2_slot15;
-                    var7 = var8.bind(var18)(var28, var7, var31);
+                    var7 = var8.bind(var18)(var27, var7, var31);
                     var17 = var7.sectionStart;
                     var16 = var7.sectionEnd;
                     var10 = var7.itemStart;
@@ -386,7 +386,7 @@ case 29:
                     var57 = var57.sizes;
                     var60 = var57[var11];
 case 31:
-                    if(var29) { _fun0003_ip = 32; continue _fun0003 }
+                    if(var28) { _fun0003_ip = 32; continue _fun0003 }
 case 33:
                     var57 = var47[var42];
                     var57 = var57.keys;
@@ -406,7 +406,7 @@ case 36:
 case 35:
                     var57 = var20.HermesInternal;
                     var57 = var57.concat;
-                    var58 = var57.bind(var14)(var28, var13, var58);
+                    var58 = var57.bind(var14)(var27, var13, var58);
                     var57 = var37.get;
                     var57 = var57.bind(var37)(var58);
                     if(!(var12 == var57)) { _fun0003_ip = 37; continue _fun0003 }
@@ -431,7 +431,7 @@ case 37:
                     var65 = var64.bind(var18)(var62);
                     var64 = {};
                     var64['portalId'] = var58;
-                    var62 = var21.bind(var18)(var61, var60);
+                    var62 = var29.bind(var18)(var61, var60);
                     var64['children'] = var62;
                     var62 = var20.HermesInternal;
                     var62 = var62.concat;
@@ -486,7 +486,7 @@ case 43:
                     var42 = var41.bind(var18)(var39);
                     var41 = {};
                     var41['portalId'] = var45;
-                    var39 = var21.bind(var18)(var44, var8);
+                    var39 = var29.bind(var18)(var44, var8);
                     var41['children'] = var39;
                     var39 = var20.HermesInternal;
                     var39 = var39.concat;
@@ -514,7 +514,7 @@ case 42:
                     var41 = var41.bind(var18)(var40);
                     var40 = {};
                     var40['portalId'] = var45;
-                    var8 = var21.bind(var18)(var44, var8);
+                    var8 = var29.bind(var18)(var44, var8);
                     var40['children'] = var8;
                     var8 = var20.HermesInternal;
                     var8 = var8.concat;
@@ -573,11 +573,11 @@ case 55:
                     var6 = {};
                     var34 = var20.HermesInternal;
                     var34 = var34.concat;
-                    var34 = var34.bind(var14)(var28, var13, var33);
+                    var34 = var34.bind(var14)(var27, var13, var33);
                     var6['portalId'] = var34;
                     var34 = _closure2_slot10;
                     var34 = var34.bind(var18)();
-                    var34 = var21.bind(var18)(var34, var35);
+                    var34 = var29.bind(var18)(var34, var35);
                     var6['children'] = var34;
                     var6 = var32.bind(var18)(var10, var6, var33);
                     var6 = var8.bind(var5)(var6);
@@ -628,7 +628,7 @@ case 68:
 case 67:
                     var2 = var20.HermesInternal;
                     var2 = var2.concat;
-                    var9 = var2.bind(var14)(var28, var13, var6);
+                    var9 = var2.bind(var14)(var27, var13, var6);
                     var6 = var5.push;
                     var8 = _closure1_slot5;
                     var7 = _closure1_slot0;
@@ -639,7 +639,7 @@ case 67:
                     var2['portalId'] = var9;
                     var10 = _closure2_slot9;
                     var10 = var10.bind(var18)();
-                    var10 = var21.bind(var18)(var10, var30);
+                    var10 = var29.bind(var18)(var10, var30);
                     var2['children'] = var10;
                     var2 = var8.bind(var18)(var7, var2, var9);
                     var2 = var6.bind(var5)(var2);
@@ -658,12 +658,12 @@ case 70:
                     var30 = var2;
                     if(var32) { _fun0003_ip = 71; continue _fun0003 }
 case 72:
-                    if(var26) { _fun0003_ip = 73; continue _fun0003 }
+                    if(var25) { _fun0003_ip = 73; continue _fun0003 }
 case 74:
-                    var35 = var25[var17];
+                    var35 = var24[var17];
                     _fun0003_ip = 75; continue _fun0003;
 case 73:
-                    var35 = var25[var11];
+                    var35 = var24[var11];
 case 75:
                     var34 = var7;
                     if(!(var35 > var11)) { _fun0003_ip = 76; continue _fun0003 }
@@ -672,12 +672,12 @@ case 77:
                     var34 = var7;
                     if(!(var12 != var32)) { _fun0003_ip = 76; continue _fun0003 }
 case 78:
-                    if(var29) { _fun0003_ip = 79; continue _fun0003 }
+                    if(var28) { _fun0003_ip = 79; continue _fun0003 }
 case 80:
-                    var32 = var27[var17];
+                    var32 = var26[var17];
                     _fun0003_ip = 81; continue _fun0003;
 case 79:
-                    var32 = var27[var11];
+                    var32 = var26[var11];
 case 81:
                     var36 = var32;
                     if(!(var14 === var32)) { _fun0003_ip = 82; continue _fun0003 }
@@ -688,7 +688,7 @@ case 83:
 case 82:
                     var33 = var20.HermesInternal;
                     var33 = var33.concat;
-                    var39 = var33.bind(var14)(var28, var13, var36);
+                    var39 = var33.bind(var14)(var27, var13, var36);
                     var36 = var5.push;
                     var38 = _closure1_slot5;
                     var37 = _closure1_slot0;
@@ -699,18 +699,18 @@ case 82:
                     var33['portalId'] = var39;
                     var40 = _closure2_slot11;
                     var40 = var40.bind(var18)(var17);
-                    var40 = var21.bind(var18)(var40, var35);
+                    var40 = var29.bind(var18)(var40, var35);
                     var33['children'] = var40;
                     var33 = var38.bind(var18)(var37, var33, var39);
                     var33 = var36.bind(var5)(var33);
                     var34 = var32;
 case 76:
-                    if(var23) { _fun0003_ip = 84; continue _fun0003 }
+                    if(var22) { _fun0003_ip = 84; continue _fun0003 }
 case 85:
-                    var33 = var22[var17];
+                    var33 = var21[var17];
                     _fun0003_ip = 86; continue _fun0003;
 case 84:
-                    var33 = var22[var11];
+                    var33 = var21[var11];
 case 86:
                     var8 = var35;
                     var31 = var34;
@@ -725,12 +725,12 @@ case 87:
                     var30 = var2;
                     if(!(var12 != var32)) { _fun0003_ip = 71; continue _fun0003 }
 case 88:
-                    if(var29) { _fun0003_ip = 89; continue _fun0003 }
+                    if(var28) { _fun0003_ip = 89; continue _fun0003 }
 case 90:
-                    var32 = var24[var17];
+                    var32 = var23[var17];
                     _fun0003_ip = 91; continue _fun0003;
 case 89:
-                    var32 = var24[var11];
+                    var32 = var23[var11];
 case 91:
                     var37 = var32;
                     if(!(var14 === var32)) { _fun0003_ip = 92; continue _fun0003 }
@@ -741,7 +741,7 @@ case 93:
 case 92:
                     var36 = var20.HermesInternal;
                     var36 = var36.concat;
-                    var40 = var36.bind(var14)(var28, var13, var37);
+                    var40 = var36.bind(var14)(var27, var13, var37);
                     var37 = var5.push;
                     var39 = _closure1_slot5;
                     var38 = _closure1_slot0;
@@ -752,7 +752,7 @@ case 92:
                     var36['portalId'] = var40;
                     var41 = _closure2_slot12;
                     var41 = var41.bind(var18)(var17);
-                    var41 = var21.bind(var18)(var41, var33);
+                    var41 = var29.bind(var18)(var41, var33);
                     var36['children'] = var41;
                     var36 = var39.bind(var18)(var38, var36, var40);
                     var36 = var37.bind(var5)(var36);

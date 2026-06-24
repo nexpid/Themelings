@@ -67,7 +67,21 @@ case 0:
             var _closure2_slot0 = var5;
             var _closure2_slot1 = var5;
             var _closure2_slot2 = var5;
-            var _closure2_slot3 = var5;
+            var2 = function handleSelectPrimaryGuild(arg1) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 8;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.setPendingChanges;
+                var2 = {};
+                var5 = arg1;
+                var2['primaryGuildId'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var _closure2_slot3 = var2;
             var2 = _closure1_slot6;
             var14 = var2.bind(var5)();
             if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
@@ -123,21 +137,6 @@ case 2:
             var2 = var1.length;
             var1 = 0;
             var2 = var2 > var1;
-            var1 = function handleSelectPrimaryGuild(arg1) {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 8;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.setPendingChanges;
-                var2 = {};
-                var5 = arg1;
-                var2['primaryGuildId'] = var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            _closure2_slot3 = var1;
             var1 = null;
             if(!(var1 != var3)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:

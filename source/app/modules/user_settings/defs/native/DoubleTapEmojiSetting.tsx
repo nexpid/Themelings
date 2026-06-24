@@ -343,7 +343,7 @@ case 17:
     };
     var2['onPress'] = var11;
     var2['withArrow'] = var10;
-    var10 = function useDescription() {
+    var10 = function useDoubleTapEmojiDescription() {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var4 = _closure1_slot0;
@@ -376,7 +376,7 @@ case 23:
     };
     var2['useDescription'] = var10;
     var2['useIsDisabled'] = var9;
-    var8 = function usePredicate() {
+    var8 = function useShouldShowSetting() {
         var2 = _closure1_slot10;
         var1 = undefined;
         var1 = var2.bind(var1)();

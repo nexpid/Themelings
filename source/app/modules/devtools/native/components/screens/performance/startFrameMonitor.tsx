@@ -35,7 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot5 = var4;
         var _closure2_slot6 = var4;
         var _closure2_slot7 = var3;
-        var4 = function tick() {
+        var4 = var1.requestAnimationFrame;
+        var3 = function tick() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = global;
@@ -79,10 +80,9 @@ case 4:
                 return var1;
             }
         };
-        var _closure2_slot8 = var4;
-        var3 = var1.requestAnimationFrame;
+        var _closure2_slot8 = var3;
         var1 = undefined;
-        var1 = var3.bind(var1)(var4);
+        var1 = var4.bind(var1)(var3);
         _closure2_slot0 = var1;
         var1 = {};
         var2 = function stop() {

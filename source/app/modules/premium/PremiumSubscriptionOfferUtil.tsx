@@ -342,7 +342,7 @@ case 47:
     };
     var3['useIsInPremiumOfferExperience'] = var5;
     var3['useHasDiscountApplied'] = var4;
-    var4 = function() {
+    var4 = function useActiveDiscountInfo() {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var4 = _closure1_slot0;
@@ -450,9 +450,20 @@ case 49:
         }
     };
     var3['useActiveDiscountInfo'] = var4;
-    var4 = function(arg1) {
+    var4 = function useFetchChurnUserDiscountOffer(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
+            var2 = function onFetchComplete() {
+                var4 = _closure2_slot0;
+                var1 = undefined;
+                var3 = true;
+                var3 = var4.bind(var1)(var3);
+                var3 = _closure2_slot1;
+                var2 = false;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var _closure2_slot3 = var2;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 9;
@@ -503,26 +514,15 @@ case 72:
             if(!(var7 == var3)) { _fun0007_ip = 74; continue _fun0007 }
 case 75:
             var7 = arg1;
-            if(var7) { _fun0007_ip = 76; continue _fun0007 }
-case 77:
-            var7 = function onFetchComplete() {
-                var4 = _closure2_slot0;
-                var1 = undefined;
-                var3 = true;
-                var3 = var4.bind(var1)(var3);
-                var3 = _closure2_slot1;
-                var2 = false;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var _closure2_slot3 = var7;
+            if(var7) { _fun0007_ip = 60; continue _fun0007 }
+case 67:
             var7 = var4;
-            if(var7) { _fun0007_ip = 78; continue _fun0007 }
-case 22:
+            if(var7) { _fun0007_ip = 22; continue _fun0007 }
+case 76:
             var7 = var10;
+case 22:
+            if(var7) { _fun0007_ip = 77; continue _fun0007 }
 case 78:
-            if(var7) { _fun0007_ip = 79; continue _fun0007 }
-case 80:
             var7 = true;
             var7 = var9.bind(var8)(var7);
             var7 = _closure1_slot0;
@@ -551,12 +551,12 @@ case 80:
                 return var1;
             };
             var1 = var6.bind(var7)(var1);
-case 79:
+case 77:
             var1 = {};
             var1['churnUserDiscountOffer'] = var5;
             var1['isFetchingChurnDiscountOffer'] = var4;
             return var1;
-case 76:
+case 60:
             var1 = {};
             var1['churnUserDiscountOffer'] = var5;
             var1['isFetchingChurnDiscountOffer'] = var4;
@@ -569,7 +569,7 @@ case 74:
         }
     };
     var3['useFetchChurnUserDiscountOffer'] = var4;
-    var4 = function() {
+    var4 = function useShouldFetchChurnOffer() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = _closure1_slot0;
@@ -593,30 +593,30 @@ case 0:
             var3 = var1.bind(var2)();
             var2 = null;
             var1 = var2 !== var4;
-            if(!var1) { _fun0008_ip = 81; continue _fun0008 }
-case 82:
+            if(!var1) { _fun0008_ip = 79; continue _fun0008 }
+case 80:
             var1 = var4.hasPremiumNitroMonthly;
-case 81:
+case 79:
             var2 = var2 == var4;
             if(var2) { _fun0008_ip = 11; continue _fun0008 }
 case 36:
             var4 = var4.hasActiveTrial;
             var2 = !var4;
 case 11:
+            if(!var1) { _fun0008_ip = 81; continue _fun0008 }
+case 82:
+            var1 = !var3;
+case 81:
             if(!var1) { _fun0008_ip = 83; continue _fun0008 }
 case 84:
-            var1 = !var3;
-case 83:
-            if(!var1) { _fun0008_ip = 85; continue _fun0008 }
-case 86:
             var2 = !var2;
             var1 = !var2;
-case 85:
+case 83:
             return var1;
         }
     };
     var3['useShouldFetchChurnOffer'] = var4;
-    var4 = function(arg1) {
+    var4 = function renewalInvoiceChurnDiscountInfo(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var2 = _closure1_slot19;
@@ -628,8 +628,8 @@ case 0:
             var2 = var3.done;
             var1 = null;
             var4 = var3;
-            if(var2) { _fun0009_ip = 87; continue _fun0009 }
-case 88:
+            if(var2) { _fun0009_ip = 85; continue _fun0009 }
+case 86:
             var2 = var4.value;
             var9 = var2.discounts;
             var3 = var9.find;
@@ -649,20 +649,20 @@ case 88:
             };
             var3 = var3.bind(var9)(var2);
             if(!(var1 != var3)) { _fun0009_ip = 50; continue _fun0009 }
-case 89:
+case 87:
             var9 = var3.discount_id;
             var2 = _closure1_slot10;
-            if(!(var2 !== var9)) { _fun0009_ip = 90; continue _fun0009 }
-case 91:
+            if(!(var2 !== var9)) { _fun0009_ip = 88; continue _fun0009 }
+case 89:
             var2 = _closure1_slot11;
             if(!(var2 !== var9)) { _fun0009_ip = 42; continue _fun0009 }
 case 50:
             var9 = var5.bind(var6)();
             var2 = var9.done;
             var4 = var9;
-            if(var2) { _fun0009_ip = 87; continue _fun0009 }
-case 92:
-            _fun0009_ip = 88; continue _fun0009;
+            if(var2) { _fun0009_ip = 85; continue _fun0009 }
+case 90:
+            _fun0009_ip = 86; continue _fun0009;
 case 42:
             var2 = {};
             var4 = 3;
@@ -672,7 +672,7 @@ case 42:
             var4 = var3.discount_id;
             var2['discountId'] = var4;
             return var2;
-case 90:
+case 88:
             var2 = {};
             var4 = 1;
             var2['duration'] = var4;
@@ -681,12 +681,12 @@ case 90:
             var3 = var3.discount_id;
             var2['discountId'] = var3;
             return var2;
-case 87:
+case 85:
             return var1;
         }
     };
     var3['renewalInvoiceChurnDiscountInfo'] = var4;
-    var2 = function() {
+    var2 = function useIsNUXEligible() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 12;

@@ -38,9 +38,65 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var1;
+    var1 = function onInitializeSync() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var5 = null;
+            _closure1_slot10 = var5;
+            var1 = false;
+            _closure1_slot9 = var1;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var2);
+            var2 = var4.isAndroid;
+            var2 = var2.bind(var4)();
+            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var4 = _closure1_slot7;
+            var2 = var4.getPremiumSubscription;
+            var6 = var2.bind(var4)();
+            var4 = var5 == var6;
+            var2 = undefined;
+            if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var2 = var6.priceChange;
+case 8:
+            var4 = var5 != var6;
+            if(!var4) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var8 = _closure1_slot8;
+            var7 = var8.has;
+            var6 = var6.status;
+            var4 = var7.bind(var8)(var6);
+case 10:
+            if(!var4) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var4 = var5 != var2;
+case 12:
+            if(!var4) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            var4 = var2.isInFuture;
+case 14:
+            if(!var4) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+            var4 = var2.isPriceIncrease;
+case 16:
+            if(!var4) { _fun0002_ip = 6; continue _fun0002 }
+case 18:
+            _closure1_slot10 = var2;
+            var2 = true;
+            _closure1_slot9 = var2;
+case 6:
             return var1;
         }
     };
@@ -101,62 +157,6 @@ case 4:
     var _closure1_slot9 = var7;
     var7 = null;
     var _closure1_slot10 = var7;
-    var7 = function onInitializeSync() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var5 = null;
-            _closure1_slot10 = var5;
-            var1 = false;
-            _closure1_slot9 = var1;
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 7;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var4.bind(var1)(var2);
-            var2 = var4.isAndroid;
-            var2 = var2.bind(var4)();
-            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var4 = _closure1_slot7;
-            var2 = var4.getPremiumSubscription;
-            var6 = var2.bind(var4)();
-            var4 = var5 == var6;
-            var2 = undefined;
-            if(var4) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-            var2 = var6.priceChange;
-case 8:
-            var4 = var5 != var6;
-            if(!var4) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            var8 = _closure1_slot8;
-            var7 = var8.has;
-            var6 = var6.status;
-            var4 = var7.bind(var8)(var6);
-case 10:
-            if(!var4) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            var4 = var5 != var2;
-case 12:
-            if(!var4) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-            var4 = var2.isInFuture;
-case 14:
-            if(!var4) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-            var4 = var2.isPriceIncrease;
-case 16:
-            if(!var4) { _fun0002_ip = 6; continue _fun0002 }
-case 18:
-            _closure1_slot10 = var2;
-            var2 = true;
-            _closure1_slot9 = var2;
-case 6:
-            return var1;
-        }
-    };
-    var _closure1_slot11 = var7;
     var7 = 8;
     var7 = var6[var7];
     var7 = var4.bind(var1)(var7);
@@ -174,7 +174,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
@@ -212,10 +212,11 @@ case 10:
             var2 = _closure1_slot7;
             var4 = new Array(1);
             var4[0] = var2;
-            var1 = _closure1_slot11;
-            var1 = var5.bind(var3)(var4, var1);
-            var1 = var3.waitFor;
-            var1 = var1.bind(var3)(var2);
+            var2 = _closure1_slot12;
+            var2 = var5.bind(var3)(var4, var2);
+            var2 = var3.waitFor;
+            var1 = _closure1_slot7;
+            var1 = var2.bind(var3)(var1);
             var1 = undefined;
             return var1;
         };

@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/native/PremiumPlanActionSheetHeader.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function PremiumPlanActionSheetHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -86,9 +86,6 @@ case 0:
             var _closure2_slot0 = var14;
             var23 = var2.trialOffer;
             var20 = var2.discountOffer;
-            var2 = _closure1_slot9;
-            var4 = undefined;
-            var12 = var2.bind(var4)();
             var9 = function getClouds() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -128,6 +125,9 @@ case 2:
                     return var1;
                 }
             };
+            var1 = _closure1_slot9;
+            var4 = undefined;
+            var12 = var1.bind(var4)();
             var15 = null;
             var18 = var15 != var23;
             if(!var18) { _fun0001_ip = 8; continue _fun0001 }

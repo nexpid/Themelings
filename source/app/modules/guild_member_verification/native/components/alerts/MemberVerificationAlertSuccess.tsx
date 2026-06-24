@@ -69,8 +69,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;
-            var9 = var5.guildId;
-            var _closure2_slot0 = var9;
+            var10 = var5.guildId;
+            var _closure2_slot0 = var10;
             var1 = var5.handleConfirmAndAck;
             var _closure2_slot1 = var1;
             var1 = null;
@@ -83,42 +83,6 @@ case 0:
             var20 = var4;
             var7 = copyDataProperties(var22, var21, var20);
             var _closure2_slot2 = var7;
-            var3 = _closure1_slot8;
-            var5 = undefined;
-            var11 = var3.bind(var5)();
-            var4 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var3 = 6;
-            var10 = var8[var3];
-            var14 = var4.bind(var5)(var10);
-            var13 = var14.useStateFromStores;
-            var10 = _closure1_slot5;
-            var12 = new Array(1);
-            var12[0] = var10;
-            var10 = new Array(1);
-            var10[0] = var9;
-            var9 = function() {
-                var3 = _closure1_slot5;
-                var2 = var3.getGuild;
-                var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var19 = var13.bind(var14)(var12, var9, var10);
-            var3 = var8[var3];
-            var9 = var4.bind(var5)(var3);
-            var8 = var9.useStateFromStores;
-            var3 = _closure1_slot4;
-            var4 = new Array(1);
-            var4[0] = var3;
-            var3 = function() {
-                var1 = _closure1_slot4;
-                var1 = var1.useReducedMotion;
-                return var1;
-            };
-            var15 = var8.bind(var9)(var4, var3);
-            if(!(var1 != var19)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
             var8 = function onConfirm() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -128,15 +92,51 @@ case 0:
                     var3 = _closure2_slot2;
                     var4 = var3.onClose;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                    if(!(var3 != var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot2;
                     var2 = var3.onClose;
                     var2 = var2.bind(var3)();
-case 4:
+case 2:
                     return var1;
                 }
             };
+            var3 = _closure1_slot8;
+            var5 = undefined;
+            var11 = var3.bind(var5)();
+            var4 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 6;
+            var12 = var9[var3];
+            var15 = var4.bind(var5)(var12);
+            var14 = var15.useStateFromStores;
+            var12 = _closure1_slot5;
+            var13 = new Array(1);
+            var13[0] = var12;
+            var12 = new Array(1);
+            var12[0] = var10;
+            var10 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.getGuild;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var19 = var14.bind(var15)(var13, var10, var12);
+            var3 = var9[var3];
+            var9 = var4.bind(var5)(var3);
+            var4 = var9.useStateFromStores;
+            var10 = _closure1_slot4;
+            var3 = new Array(1);
+            var3[0] = var10;
+            var2 = function() {
+                var1 = _closure1_slot4;
+                var1 = var1.useReducedMotion;
+                return var1;
+            };
+            var15 = var4.bind(var9)(var3, var2);
+            if(!(var1 != var19)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot7;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -233,7 +233,7 @@ case 4:
             var2[5] = var7;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 2:
+case 4:
             return var1;
         }
     };

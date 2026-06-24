@@ -45,7 +45,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot20 = var5;
+    var _closure1_slot19 = var5;
+    var1 = function CarouselCard(arg1) {
+        var1 = arg1;
+        var5 = var1.style;
+        var13 = var1.title;
+        var11 = var1.imageSrc;
+        var10 = var1.imageStyle;
+        var1 = _closure1_slot16;
+        var4 = undefined;
+        var9 = var1.bind(var4)();
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot19;
+        var1 = {};
+        var1['style'] = var5;
+        var8 = _closure1_slot10;
+        var7 = _closure1_slot0;
+        var12 = _closure1_slot2;
+        var5 = 11;
+        var5 = var12[var5];
+        var5 = var7.bind(var4)(var5);
+        var7 = var5.Text;
+        var5 = {'variant': 'heading-md/extrabold', 'color': 'always-white'};
+        var14 = var9.cardTitle;
+        var5['style'] = var14;
+        var5['children'] = var13;
+        var7 = var8.bind(var4)(var7, var5);
+        var5 = new Array(2);
+        var5[0] = var7;
+        var8 = _closure1_slot10;
+        var7 = _closure1_slot1;
+        var6 = 12;
+        var6 = var12[var6];
+        var7 = var7.bind(var4)(var6);
+        var6 = {};
+        var6['source'] = var11;
+        var11 = var9.image;
+        var9 = new Array(2);
+        var9[0] = var11;
+        var9[1] = var10;
+        var6['style'] = var9;
+        var9 = 'contain';
+        var6['resizeMode'] = var9;
+        var6 = var8.bind(var4)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot20 = var1;
     var4 = function usePremiumFeatureCardData(arg1, arg2) {
         var6 = arg2;
         var2 = arg1;
@@ -214,7 +262,7 @@ case 2:
         var2 = var3.map;
         var1 = function(arg1, arg2) {
             var5 = _closure1_slot10;
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot20;
             var3 = {};
             var1 = {};
             var6 = _closure2_slot0;
@@ -366,54 +414,6 @@ case 2:
     var2['emojiImage'] = var12;
     var2 = var8.bind(var11)(var2);
     var _closure1_slot17 = var2;
-    var2 = function CarouselCard(arg1) {
-        var1 = arg1;
-        var5 = var1.style;
-        var13 = var1.title;
-        var11 = var1.imageSrc;
-        var10 = var1.imageStyle;
-        var1 = _closure1_slot16;
-        var4 = undefined;
-        var9 = var1.bind(var4)();
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot20;
-        var1 = {};
-        var1['style'] = var5;
-        var8 = _closure1_slot10;
-        var7 = _closure1_slot0;
-        var12 = _closure1_slot2;
-        var5 = 11;
-        var5 = var12[var5];
-        var5 = var7.bind(var4)(var5);
-        var7 = var5.Text;
-        var5 = {'variant': 'heading-md/extrabold', 'color': 'always-white'};
-        var14 = var9.cardTitle;
-        var5['style'] = var14;
-        var5['children'] = var13;
-        var7 = var8.bind(var4)(var7, var5);
-        var5 = new Array(2);
-        var5[0] = var7;
-        var8 = _closure1_slot10;
-        var7 = _closure1_slot1;
-        var6 = 12;
-        var6 = var12[var6];
-        var7 = var7.bind(var4)(var6);
-        var6 = {};
-        var6['source'] = var11;
-        var11 = var9.image;
-        var9 = new Array(2);
-        var9[0] = var11;
-        var9[1] = var10;
-        var6['style'] = var9;
-        var9 = 'contain';
-        var6['resizeMode'] = var9;
-        var6 = var8.bind(var4)(var7, var6);
-        var5[1] = var6;
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot18 = var2;
     var2 = function PremiumFeaturesCarousel(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -658,14 +658,14 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot19 = var2;
+    var _closure1_slot18 = var2;
     var8 = 25;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
     var8 = 'modules/user_settings/premium/native/PremiumFeaturesCarouselSection.tsx';
     var8 = var9.bind(var10)(var8);
-    var7 = function _default(arg1) {
+    var7 = function PremiumFeaturesCarouselSection(arg1) {
         var1 = arg1;
         var8 = var1.style;
         var1 = _closure1_slot15;
@@ -783,7 +783,7 @@ case 13:
         var5 = new Array(2);
         var5[0] = var7;
         var8 = _closure1_slot10;
-        var7 = _closure1_slot19;
+        var7 = _closure1_slot18;
         var6 = {};
         var6['width'] = var12;
         var11 = var11.carouselContainer;

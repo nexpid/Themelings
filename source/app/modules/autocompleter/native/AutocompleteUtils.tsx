@@ -149,7 +149,7 @@ case 4:
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/autocompleter/native/AutocompleteUtils.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function(arg1, arg2) {
+    var5 = function getItemLayout(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
@@ -397,7 +397,7 @@ case 13:
     };
     var3['getAutocompleteResultText'] = var5;
     var3['getMentionTextWithUser'] = var4;
-    var4 = function() {
+    var4 = function getItemSeparator() {
         var4 = _closure1_slot13;
         var3 = _closure1_slot17;
         var2 = undefined;
@@ -406,14 +406,14 @@ case 13:
         return var1;
     };
     var3['getItemSeparator'] = var4;
-    var4 = function(arg1) {
+    var4 = function getPrefix(arg1) {
         var2 = arg1;
         var1 = 0;
         var1 = var2[var1];
         return var1;
     };
     var3['getPrefix'] = var4;
-    var2 = function(arg1) {
+    var2 = function getQuery(arg1) {
         var3 = arg1;
         var2 = var3.slice;
         var1 = 1;

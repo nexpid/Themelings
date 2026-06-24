@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
     var3['textRegexp'] = var2;
-    var2 = function(arg1) {
+    var2 = function textMarkupPatternWithExclusions(arg1) {
         var1 = global;
         var3 = var1.RegExp;
         var1 = var1.HermesInternal;

@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/profile_effects/native/ProfileEffectUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1, arg2) {
+    var4 = function shouldAnimate(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -76,7 +76,7 @@ case 13:
         }
     };
     var3['shouldAnimate'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function calculateProfileEffectHeight(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;

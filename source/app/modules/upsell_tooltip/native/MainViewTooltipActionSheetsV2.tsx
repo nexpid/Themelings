@@ -7,6 +7,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var6;
     var _closure1_slot2 = var8;
+    var12 = function GiftingPromotionCoachmarkImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 8;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 9;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var13 = function PremiumMarketingMomentActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 8;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 13;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
     var1 = function getActionSheetType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -196,32 +222,6 @@ case 8:
     var4 = var7.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot12 = var4;
-    var12 = function GiftingPromotionCoachmarkImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 8;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 9;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var13 = function PremiumMarketingMomentActionSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 8;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 13;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
     var4 = {};
     var11 = 20;
     var6 = var8[var11];
@@ -229,7 +229,7 @@ case 8:
     var6 = var6.DismissibleContent;
     var6 = var6.GOOGLE_PLAY_PRICE_CHANGE_ACTION_SHEET;
     var4['id'] = var6;
-    var6 = function importer() {
+    var6 = function GooglePlayPriceChangeActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -251,7 +251,7 @@ case 8:
     var14 = var14.DismissibleContent;
     var14 = var14.DISCOUNT_OFFER_ACTION_SHEET;
     var4['id'] = var14;
-    var14 = function importer() {
+    var14 = function PremiumDiscountOfferActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -272,7 +272,7 @@ case 8:
     var14 = var14.DismissibleContent;
     var14 = var14.MOBILE_PREMIUM_TRIAL_OFFER_ACTION_SHEET;
     var4['id'] = var14;
-    var14 = function importer() {
+    var14 = function PremiumTrialOfferActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -293,7 +293,7 @@ case 8:
     var14 = var14.DismissibleContent;
     var14 = var14.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
     var4['id'] = var14;
-    var14 = function importer() {
+    var14 = function BogoPromotionActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -319,7 +319,7 @@ case 8:
     var14 = var14.DismissibleContent;
     var14 = var14.RIOT_CONNECTION_DEPRECATION_DISABLE;
     var9['id'] = var14;
-    var14 = function importer() {
+    var14 = function RiotConnectionDeprecationActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -377,7 +377,7 @@ case 8:
     var12 = var12.DismissibleContent;
     var12 = var12.NEW_GIFTING_BADGES_COACHMARK;
     var9['id'] = var12;
-    var12 = function importer() {
+    var12 = function GiftingBadgesCoachmarkImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -399,7 +399,7 @@ case 8:
     var12 = var12.DismissibleContent;
     var12 = var12.CUSTOM_APP_ICONS_COACHMARK;
     var9['id'] = var12;
-    var12 = function importer() {
+    var12 = function AppIconsCoachMarkImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -421,7 +421,7 @@ case 8:
     var12 = var12.DismissibleContent;
     var12 = var12.ROBLOX_CONNECTION_COACHMARK;
     var9['id'] = var12;
-    var12 = function importer() {
+    var12 = function RobloxConnectionCoachmarkImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -443,7 +443,7 @@ case 8:
     var12 = var12.DismissibleContent;
     var12 = var12.DISPLAY_NAME_STYLES_MOBILE_ANNOUNCEMENT_MODAL;
     var9['id'] = var12;
-    var12 = function importer() {
+    var12 = function DisplayNameStylesMobileActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -464,7 +464,7 @@ case 8:
     var11 = var11.DismissibleContent;
     var11 = var11.COLLECTIBLES_PROFILE_FRAMES_ANNOUNCEMENT;
     var9['id'] = var11;
-    var11 = function importer() {
+    var11 = function CollectiblesMobileAnnouncementActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;

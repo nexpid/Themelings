@@ -30,23 +30,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
                     StartGenerator();
                     var2 = arg1;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
+                    if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                     var21 = var2.client_id;
-                    var3 = var2.response_type;
+                    var4 = var2.response_type;
                     var6 = undefined;
-                    if(!(var3 === var6)) { _fun0001_ip = 4; continue _fun0001 }
+                    if(!(var4 === var6)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                    var3 = 'code';
+                    var4 = 'code';
 case 4:
-                    var19 = var3;
+                    var19 = var4;
                     var18 = var2.redirect_uri;
                     var17 = var2.code_challenge;
                     var16 = var2.code_challenge_method;
                     var15 = var2.state;
                     var14 = var2.nonce;
-                    var33 = var2.scope;
+                    var35 = var2.scope;
                     var34 = var2.permissions;
                     var29 = var2.guild_id;
                     var28 = var2.channel_id;
@@ -55,7 +55,7 @@ case 4:
                     var5 = var2.integration_type;
                     var24 = var2.pid;
                     var23 = var2.signal;
-                    var3 = var2.isSocketRpcPrivateScope;
+                    var4 = var2.isSocketRpcPrivateScope;
                     var8 = arg2;
                     var22 = arg3;
                     var12 = undefined;
@@ -67,81 +67,6 @@ case 4:
                     var13 = undefined;
                     var30 = undefined;
                     var31 = undefined;
-                    SaveGenerator(address=155);
-case 6:
-                    return var6;
-case 7:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=9);
-                    if(var10) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-                    var11 = var23;
-                    var10 = null;
-                    if(!(var10 != var11)) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-                    var11 = var23;
-                    var11 = var11.aborted;
-                    if(var11) { _fun0001_ip = 12; continue _fun0001 }
-case 10:
-                    var11 = var21;
-                    if(!(var10 != var11)) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
-                    if(var3) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-                    var3 = var18;
-                    if(!(var10 != var3)) { _fun0001_ip = 15; continue _fun0001 }
-case 17:
-                    var35 = _closure1_slot1;
-                    var36 = _closure1_slot3;
-                    var11 = 10;
-                    var11 = var36[var11];
-                    var36 = var35.bind(var6)(var11);
-                    var35 = {};
-                    var3 = _closure1_slot15;
-                    var3 = var3.OAUTH2_ERROR;
-                    var35['errorCode'] = var3;
-                    var3 = var36.prototype;
-                    var11 = Object.create(var3, {constructor: {value: var36}});
-                    var43 = 'Redirect URI cannot be used in the RPC OAuth2 Authorization flow';
-                    var45 = var11;
-                    var44 = var35;
-                    var3 = new var45[var36](var44, var43, var42);
-                    var3 = var3 instanceof Object ? var3 : var11;
-                    throw var3;
-case 15:
-                    var20 = new Array(0);
-                    var11 = 'string';
-                    var3 = typeof var33;
-                    if(!(var11 !== var3)) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-                    var3 = global;
-                    var11 = var3.Array;
-                    var3 = var11.isArray;
-                    var3 = var3.bind(var11)(var33);
-                    if(!var3) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-                    var20 = var33;
-                    _fun0001_ip = 20; continue _fun0001;
-case 18:
-                    var11 = var33.split;
-                    var3 = ' ';
-                    var33 = var11.bind(var33)(var3);
-                    var11 = var33.filter;
-                    var3 = function(arg1) {
-                        var1 = arg1;
-                        var2 = var1.length;
-                        var1 = 0;
-                        var1 = var2 > var1;
-                        return var1;
-                    };
-                    var20 = var11.bind(var33)(var3);
-case 20:
-                    var33 = _closure1_slot8;
-                    var11 = var33.getCurrentUser;
-                    var11 = var11.bind(var33)();
-                    if(!(var10 != var11)) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-                    if(!(var10 == var5)) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
                     var33 = function isUserInstallable(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -156,18 +81,18 @@ case 0:
                             var1 = _closure1_slot12;
                             var1 = var1.EMBEDDED;
                             var1 = var2.bind(var3)(var5, var1);
-                            if(!var1) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+                            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                             var3 = null;
                             var6 = var3 == var5;
                             var2 = undefined;
-                            if(var6) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+                            if(var6) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                             var5 = var5.integrationTypesConfig;
                             var6 = var3 == var5;
                             var2 = undefined;
-                            if(var6) { _fun0002_ip = 28; continue _fun0002 }
-case 30:
+                            if(var6) { _fun0002_ip = 8; continue _fun0002 }
+case 10:
                             var6 = _closure1_slot0;
                             var8 = _closure1_slot3;
                             var4 = 12;
@@ -176,12 +101,87 @@ case 30:
                             var4 = var4.ApplicationIntegrationType;
                             var4 = var4.USER_INSTALL;
                             var2 = var5[var4];
-case 28:
+case 8:
                             var1 = var3 != var2;
-case 26:
+case 6:
                             return var1;
                         }
                     };
+                    SaveGenerator(address=162);
+case 11:
+                    return var6;
+case 12:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=9);
+                    if(var10) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+                    var11 = var23;
+                    var10 = null;
+                    if(!(var10 != var11)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+                    var11 = var23;
+                    var11 = var11.aborted;
+                    if(var11) { _fun0001_ip = 17; continue _fun0001 }
+case 15:
+                    var11 = var21;
+                    if(!(var10 != var11)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+                    if(var4) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+                    var4 = var18;
+                    if(!(var10 != var4)) { _fun0001_ip = 20; continue _fun0001 }
+case 22:
+                    var36 = _closure1_slot1;
+                    var37 = _closure1_slot3;
+                    var11 = 10;
+                    var11 = var37[var11];
+                    var37 = var36.bind(var6)(var11);
+                    var36 = {};
+                    var4 = _closure1_slot15;
+                    var4 = var4.OAUTH2_ERROR;
+                    var36['errorCode'] = var4;
+                    var4 = var37.prototype;
+                    var11 = Object.create(var4, {constructor: {value: var37}});
+                    var43 = 'Redirect URI cannot be used in the RPC OAuth2 Authorization flow';
+                    var45 = var11;
+                    var44 = var36;
+                    var4 = new var45[var37](var44, var43, var42);
+                    var4 = var4 instanceof Object ? var4 : var11;
+                    throw var4;
+case 20:
+                    var20 = new Array(0);
+                    var11 = 'string';
+                    var4 = typeof var35;
+                    if(!(var11 !== var4)) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
+                    var4 = global;
+                    var11 = var4.Array;
+                    var4 = var11.isArray;
+                    var4 = var4.bind(var11)(var35);
+                    if(!var4) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+                    var20 = var35;
+                    _fun0001_ip = 25; continue _fun0001;
+case 23:
+                    var11 = var35.split;
+                    var4 = ' ';
+                    var11 = var11.bind(var35)(var4);
+                    var4 = var11.filter;
+                    var3 = function(arg1) {
+                        var1 = arg1;
+                        var2 = var1.length;
+                        var1 = 0;
+                        var1 = var2 > var1;
+                        return var1;
+                    };
+                    var20 = var4.bind(var11)(var3);
+case 25:
+                    var11 = _closure1_slot8;
+                    var4 = var11.getCurrentUser;
+                    var4 = var4.bind(var11)();
+                    if(!(var10 != var4)) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
+                    if(!(var10 == var5)) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
                     var35 = _closure1_slot6;
                     var11 = var35.getApplication;
                     var4 = var21;
@@ -232,7 +232,7 @@ case 31:
 case 38:
                     var12 = var4;
                     _fun0001_ip = 39; continue _fun0001;
-case 24:
+case 29:
                     var4 = global;
                     var4 = var4.Number;
                     var12 = var4.bind(var6)(var5);
@@ -564,7 +564,7 @@ case 83:
                     var4 = new var45[var8](var44, var43, var42);
                     var4 = var4 instanceof Object ? var4 : var5;
                     throw var4;
-case 22:
+case 27:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot3;
                     var4 = 10;
@@ -582,7 +582,7 @@ case 22:
                     var3 = new var45[var7](var44, var43, var42);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
-case 13:
+case 18:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot3;
                     var4 = 10;
@@ -600,7 +600,7 @@ case 13:
                     var3 = new var45[var7](var44, var43, var42);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
-case 12:
+case 17:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot3;
                     var4 = 10;
@@ -618,7 +618,7 @@ case 12:
                     var3 = new var45[var6](var44, var43, var42);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
-case 8:
+case 13:
                     return var2;
 case 2:
                     return var1;
@@ -1087,7 +1087,7 @@ case 104:
                             var9 = 'CachedTokens';
                             var8 = var4.bind(var8)(var9);
                             if(!(var2 == var8)) { _fun0006_ip = 105; continue _fun0006 }
-case 11:
+case 106:
                             var8 = {};
 case 105:
                             var4 = {};
@@ -1126,10 +1126,10 @@ case 103:
                             var1 = var1.error_description;
                             var2 = var2 != var1;
                             var6 = 'unknown error';
-                            if(!var2) { _fun0006_ip = 106; continue _fun0006 }
-case 107:
+                            if(!var2) { _fun0006_ip = 107; continue _fun0006 }
+case 108:
                             var6 = var1;
-case 106:
+case 107:
                             var1 = global;
                             var1 = var1.HermesInternal;
                             var5 = var1.concat;
@@ -1177,27 +1177,27 @@ case 101:
                 var10 = var6.bind(var9)(var11);
                 var9 = var5 != var10;
                 var6 = undefined;
-                if(!var9) { _fun0005_ip = 25; continue _fun0005 }
-case 108:
+                if(!var9) { _fun0005_ip = 28; continue _fun0005 }
+case 109:
                 var9 = var10[var8];
                 var9 = var5 != var9;
                 var6 = undefined;
-                if(!var9) { _fun0005_ip = 25; continue _fun0005 }
-case 19:
+                if(!var9) { _fun0005_ip = 28; continue _fun0005 }
+case 110:
                 var9 = var10[var8];
                 var13 = var9.scope;
-                if(!(var13 === var14)) { _fun0005_ip = 109; continue _fun0005 }
-case 110:
+                if(!(var13 === var14)) { _fun0005_ip = 111; continue _fun0005 }
+case 112:
                 var14 = var9.expires;
                 var13 = global;
                 var15 = var13.Date;
                 var13 = var15.now;
                 var13 = var13.bind(var15)();
-                if(!(!(var14 <= var13))) { _fun0005_ip = 109; continue _fun0005 }
+                if(!(!(var14 <= var13))) { _fun0005_ip = 111; continue _fun0005 }
 case 90:
                 var6 = var9.accessToken;
-                _fun0005_ip = 25; continue _fun0005;
-case 109:
+                _fun0005_ip = 28; continue _fun0005;
+case 111:
                 var8 = delete var10[var8];
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot3;
@@ -1207,12 +1207,12 @@ case 109:
                 var8 = var9.set;
                 var8 = var8.bind(var9)(var11, var10);
                 var6 = undefined;
-case 25:
-                if(!(var5 == var6)) { _fun0005_ip = 111; continue _fun0005 }
-case 112:
+case 28:
+                if(!(var5 == var6)) { _fun0005_ip = 113; continue _fun0005 }
+case 114:
                 var2 = var2.bind(var4)();
-                _fun0005_ip = 113; continue _fun0005;
-case 111:
+                _fun0005_ip = 115; continue _fun0005;
+case 113:
                 var5 = _closure1_slot19;
                 var6 = var5.bind(var4)(var7, var6);
                 var5 = var6.catch;
@@ -1231,10 +1231,10 @@ case 0:
                         var6 = 'CachedTokens';
                         var5 = var5.bind(var8)(var6);
                         var8 = null;
-                        if(!(var8 == var5)) { _fun0007_ip = 114; continue _fun0007 }
-case 115:
+                        if(!(var8 == var5)) { _fun0007_ip = 116; continue _fun0007 }
+case 117:
                         var5 = {};
-case 114:
+case 116:
                         var4 = delete var5[var4];
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
@@ -1249,7 +1249,7 @@ case 114:
                     }
                 };
                 var2 = var5.bind(var6)(var3);
-case 113:
+case 115:
                 return var2;
 case 99:
                 var3 = _closure1_slot1;
@@ -1287,8 +1287,8 @@ case 0:
                 var4 = undefined;
                 var _closure3_slot1 = var4;
                 var9 = var3.client_id;
-                if(var9) { _fun0008_ip = 116; continue _fun0008 }
-case 117:
+                if(var9) { _fun0008_ip = 118; continue _fun0008 }
+case 119:
                 var7 = _closure1_slot1;
                 var10 = _closure1_slot3;
                 var6 = 10;
@@ -1306,35 +1306,35 @@ case 117:
                 var5 = new var15[var10](var14, var13, var12);
                 var5 = var5 instanceof Object ? var5 : var6;
                 throw var5;
-case 116:
+case 118:
                 var5 = var1.authorization;
                 var6 = var5.accessToken;
                 var5 = null;
-                if(!(var5 == var6)) { _fun0008_ip = 118; continue _fun0008 }
-case 119:
+                if(!(var5 == var6)) { _fun0008_ip = 120; continue _fun0008 }
+case 121:
                 var5 = var1.authorization;
                 var5 = var5.authing;
-                if(var5) { _fun0008_ip = 120; continue _fun0008 }
-case 121:
+                if(var5) { _fun0008_ip = 122; continue _fun0008 }
+case 123:
                 var6 = var1.authorization;
                 var5 = true;
                 var6['authing'] = var5;
                 var6 = var3.response_type;
                 var5 = 'token';
-                if(!(var5 !== var6)) { _fun0008_ip = 122; continue _fun0008 }
-case 123:
+                if(!(var5 !== var6)) { _fun0008_ip = 124; continue _fun0008 }
+case 125:
                 var5 = var1.authorization;
                 var10 = var5.scopes;
                 var7 = var10.includes;
                 var5 = _closure1_slot11;
                 var5 = var7.bind(var10)(var5);
                 _closure3_slot1 = var5;
-                if(var5) { _fun0008_ip = 21; continue _fun0008 }
-case 124:
+                if(var5) { _fun0008_ip = 126; continue _fun0008 }
+case 127:
                 var7 = var1.application;
                 var7 = var7.id;
-                if(!(var7 !== var9)) { _fun0008_ip = 21; continue _fun0008 }
-case 125:
+                if(!(var7 !== var9)) { _fun0008_ip = 126; continue _fun0008 }
+case 128:
                 var9 = var1.authorization;
                 var7 = false;
                 var9['authing'] = var7;
@@ -1355,12 +1355,12 @@ case 125:
                 var7 = new var15[var11](var14, var13, var12);
                 var7 = var7 instanceof Object ? var7 : var9;
                 throw var7;
-case 21:
-                var9 = var3.scopes;
-                if(var9) { _fun0008_ip = 126; continue _fun0008 }
-case 127:
-                var9 = var3.scope;
 case 126:
+                var9 = var3.scopes;
+                if(var9) { _fun0008_ip = 129; continue _fun0008 }
+case 130:
+                var9 = var3.scope;
+case 129:
                 var7 = delete var3.scopes;
                 var7 = _closure1_slot17;
                 var6 = {};
@@ -1386,7 +1386,7 @@ case 0:
                         var1 = false;
                         var3['authing'] = var1;
                         var5 = null;
-                        if(!(var5 != var2)) { _fun0009_ip = 128; continue _fun0009 }
+                        if(!(var5 != var2)) { _fun0009_ip = 131; continue _fun0009 }
 case 5:
                         var1 = global;
                         var3 = var1.URL;
@@ -1401,23 +1401,23 @@ case 5:
                         var3 = 'code';
                         var3 = var7.bind(var8)(var3);
                         var6 = _closure3_slot1;
-                        if(var6) { _fun0009_ip = 129; continue _fun0009 }
-case 130:
+                        if(var6) { _fun0009_ip = 132; continue _fun0009 }
+case 133:
                         var8 = var4.searchParams;
                         var7 = var8.get;
                         var6 = 'error';
                         var9 = var7.bind(var8)(var6);
-                        if(!(var5 != var9)) { _fun0009_ip = 131; continue _fun0009 }
-case 132:
-                        var6 = '';
-                        if(!(var6 === var9)) { _fun0009_ip = 133; continue _fun0009 }
-case 131:
-                        if(!(var5 != var3)) { _fun0009_ip = 134; continue _fun0009 }
+                        if(!(var5 != var9)) { _fun0009_ip = 134; continue _fun0009 }
 case 135:
+                        var6 = '';
+                        if(!(var6 === var9)) { _fun0009_ip = 136; continue _fun0009 }
+case 134:
+                        if(!(var5 != var3)) { _fun0009_ip = 137; continue _fun0009 }
+case 138:
                         var6 = {};
                         var6['code'] = var3;
                         return var6;
-case 134:
+case 137:
                         var10 = _closure1_slot1;
                         var8 = _closure1_slot3;
                         var7 = 10;
@@ -1436,17 +1436,17 @@ case 134:
                         var6 = new var14[var10](var13, var12, var11);
                         var6 = var6 instanceof Object ? var6 : var7;
                         throw var6;
-case 133:
+case 136:
                         var7 = var4.searchParams;
                         var6 = var7.get;
                         var4 = 'error_description';
                         var4 = var6.bind(var7)(var4);
                         var5 = var5 != var4;
                         var8 = 'unknown error';
-                        if(!var5) { _fun0009_ip = 136; continue _fun0009 }
-case 137:
+                        if(!var5) { _fun0009_ip = 139; continue _fun0009 }
+case 140:
                         var8 = var4;
-case 136:
+case 139:
                         var7 = _closure1_slot1;
                         var6 = _closure1_slot3;
                         var5 = 10;
@@ -1469,12 +1469,12 @@ case 136:
                         var1 = new var14[var6](var13, var12, var11);
                         var1 = var1 instanceof Object ? var1 : var4;
                         throw var1;
-case 129:
+case 132:
                         var1 = {};
                         var1['code'] = var3;
                         var1['location'] = var2;
                         return var1;
-case 128:
+case 131:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot3;
                         var2 = 10;
@@ -1507,7 +1507,7 @@ case 128:
                 };
                 var2 = var3.bind(var5)(var2);
                 return var2;
-case 122:
+case 124:
                 var2 = var1.authorization;
                 var1 = false;
                 var2['authing'] = var1;
@@ -1528,7 +1528,7 @@ case 122:
                 var1 = new var15[var5](var14, var13, var12);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
-case 120:
+case 122:
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot3;
                 var2 = 10;
@@ -1546,7 +1546,7 @@ case 120:
                 var1 = new var15[var5](var14, var13, var12);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
-case 118:
+case 120:
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot3;
                 var2 = 10;

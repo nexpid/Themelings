@@ -7,6 +7,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
+    var1 = function HTML(arg1) {
+        var1 = global;
+        var4 = var1.JSON;
+        var3 = var4.stringify;
+        var2 = arg1;
+        var5 = var3.bind(var4)(var2);
+        var2 = var1.HermesInternal;
+        var4 = var2.concat;
+        var3 = "\nfunction onReady() {\n  const player = window.player = document.createElement('video');\n  player.controls = false;\n  player.autoplay = false;\n  player.playsInline = true;\n  player.disablePictureInPicture = true;\n  const addEvent = (name, func) => {\n    player.addEventListener(name, (e) => {\n      window.ReactNativeWebView.postMessage(\n        JSON.stringify({type: name, value: func ? func() : undefined})\n      );\n    });\n  };\n  addEvent('error', () => player.error);\n  addEvent('canplay');\n  addEvent('ended');\n  addEvent('pause');\n  addEvent('play');\n  addEvent('stalled');\n  addEvent('durationchange', () => player.duration);\n  addEvent('timeupdate', () => player.currentTime);\n  addEvent('progress', () => {\n    const ranges = player.buffered;\n    let total = 0;\n    for (let i = 0; i < ranges.length; i++) {\n      total += (ranges.end(i) - ranges.start(i));\n    }\n    return total;\n  });\n  player.src = ";
+        var2 = ";\n  document.body.appendChild(player);\n  player.load();\n  window.ReactNativeWebView.postMessage(JSON.stringify({type: 'loaded'}));\n}\nwindow.addEventListener('load', onReady);\n";
+        var4 = var4.bind(var3)(var5, var2);
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var2 = '\n<html>\n  <head>\n    <meta name="viewport" content="initial-scale=1">\n    <style>\n      * {\n        margin: 0;\n        padding: 0;\n        inset: 0;\n        width: 100%;\n        height: 100%;\n        background-color: #000;\n        object-fit: contain;\n      }\n    </style>\n    <script>';
+        var1 = '</script>\n  </head>\n  <body>\n  </body>\n</html>\n';
+        var1 = var3.bind(var2)(var4, var1);
+        return var1;
+    };
+    var _closure1_slot7 = var1;
     var4 = global;
     var10 = var4.Object;
     var9 = var10.defineProperty;
@@ -38,25 +57,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'https:';
     var4 = var5.bind(var4)(var9);
     var _closure1_slot6 = var4;
-    var4 = function HTML(arg1) {
-        var1 = global;
-        var4 = var1.JSON;
-        var3 = var4.stringify;
-        var2 = arg1;
-        var5 = var3.bind(var4)(var2);
-        var2 = var1.HermesInternal;
-        var4 = var2.concat;
-        var3 = "\nfunction onReady() {\n  const player = window.player = document.createElement('video');\n  player.controls = false;\n  player.autoplay = false;\n  player.playsInline = true;\n  player.disablePictureInPicture = true;\n  const addEvent = (name, func) => {\n    player.addEventListener(name, (e) => {\n      window.ReactNativeWebView.postMessage(\n        JSON.stringify({type: name, value: func ? func() : undefined})\n      );\n    });\n  };\n  addEvent('error', () => player.error);\n  addEvent('canplay');\n  addEvent('ended');\n  addEvent('pause');\n  addEvent('play');\n  addEvent('stalled');\n  addEvent('durationchange', () => player.duration);\n  addEvent('timeupdate', () => player.currentTime);\n  addEvent('progress', () => {\n    const ranges = player.buffered;\n    let total = 0;\n    for (let i = 0; i < ranges.length; i++) {\n      total += (ranges.end(i) - ranges.start(i));\n    }\n    return total;\n  });\n  player.src = ";
-        var2 = ";\n  document.body.appendChild(player);\n  player.load();\n  window.ReactNativeWebView.postMessage(JSON.stringify({type: 'loaded'}));\n}\nwindow.addEventListener('load', onReady);\n";
-        var4 = var4.bind(var3)(var5, var2);
-        var1 = var1.HermesInternal;
-        var3 = var1.concat;
-        var2 = '\n<html>\n  <head>\n    <meta name="viewport" content="initial-scale=1">\n    <style>\n      * {\n        margin: 0;\n        padding: 0;\n        inset: 0;\n        width: 100%;\n        height: 100%;\n        background-color: #000;\n        object-fit: contain;\n      }\n    </style>\n    <script>';
-        var1 = '</script>\n  </head>\n  <body>\n  </body>\n</html>\n';
-        var1 = var3.bind(var2)(var4, var1);
-        return var1;
-    };
-    var _closure1_slot7 = var4;
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -643,14 +643,6 @@ case 73:
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
     var2 = function createWebFileVideoControls() {
-        var2 = _closure1_slot4;
-        var1 = var2.createRef;
-        var4 = var1.bind(var2)();
-        var _closure2_slot3 = var4;
-        var1 = 0;
-        var _closure2_slot4 = var1;
-        var _closure2_slot5 = var1;
-        var _closure2_slot6 = var1;
         var1 = function updateProgress() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -674,6 +666,14 @@ case 86:
             }
         };
         var _closure2_slot7 = var1;
+        var2 = _closure1_slot4;
+        var1 = var2.createRef;
+        var4 = var1.bind(var2)();
+        var _closure2_slot3 = var4;
+        var1 = 0;
+        var _closure2_slot4 = var1;
+        var _closure2_slot5 = var1;
+        var _closure2_slot6 = var1;
         var1 = {};
         var2 = function seek(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {

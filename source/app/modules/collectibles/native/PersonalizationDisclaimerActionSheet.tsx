@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/PersonalizationDisclaimerActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default() {
+    var2 = function PersonalizationDisclaimerActionSheet() {
         var1 = _closure1_slot7;
         var4 = undefined;
         var7 = var1.bind(var4)();

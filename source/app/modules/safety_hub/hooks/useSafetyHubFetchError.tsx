@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/safety_hub/hooks/useSafetyHubFetchError.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function() {
+    var2 = function useSafetyHubFetchError() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
         var2 = 1;

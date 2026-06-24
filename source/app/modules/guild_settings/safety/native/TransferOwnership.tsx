@@ -233,6 +233,66 @@ case 2:
                 return var1;
             };
             var _closure2_slot7 = var1;
+            var20 = function GuildWithSmallIcon() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var1 = _closure1_slot16;
+                    var4 = undefined;
+                    var11 = var1.bind(var4)();
+                    var3 = _closure1_slot15;
+                    var2 = _closure1_slot14;
+                    var1 = {};
+                    var5 = _closure2_slot0;
+                    var5 = var5.icon;
+                    var7 = null;
+                    var5 = var7 != var5;
+                    if(!var5) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+                    var10 = _closure1_slot13;
+                    var8 = _closure1_slot6;
+                    var5 = {};
+                    var11 = var11.miniGuildIcon;
+                    var5['style'] = var11;
+                    var12 = _closure1_slot1;
+                    var15 = _closure1_slot2;
+                    var13 = 18;
+                    var11 = var15[var13];
+                    var12 = var12.bind(var4)(var11);
+                    var11 = {};
+                    var14 = _closure2_slot0;
+                    var11['guild'] = var14;
+                    var14 = _closure1_slot0;
+                    var13 = var15[var13];
+                    var13 = var14.bind(var4)(var13);
+                    var13 = var13.GuildIconSizes;
+                    var13 = var13.XXSMALL;
+                    var11['size'] = var13;
+                    var11 = var10.bind(var4)(var12, var11);
+                    var5['children'] = var11;
+                    var7 = var10.bind(var4)(var8, var5);
+case 14:
+                    var5 = new Array(2);
+                    var5[0] = var7;
+                    var8 = _closure1_slot13;
+                    var7 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var6 = 19;
+                    var6 = var10[var6];
+                    var6 = var7.bind(var4)(var6);
+                    var7 = var6.Text;
+                    var6 = {};
+                    var10 = 'text-md/bold';
+                    var6['variant'] = var10;
+                    var9 = _closure2_slot0;
+                    var9 = var9.name;
+                    var6['children'] = var9;
+                    var6 = var8.bind(var4)(var7, var6);
+                    var5[1] = var6;
+                    var1['children'] = var5;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
+                }
+            };
             var13 = _closure1_slot0;
             var16 = _closure1_slot2;
             var1 = 10;
@@ -303,66 +363,6 @@ case 2:
             var1 = var21.id;
             var10 = var2.bind(var25)(var1);
             var _closure2_slot6 = var10;
-            var20 = function GuildWithSmallIcon() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var1 = _closure1_slot16;
-                    var4 = undefined;
-                    var11 = var1.bind(var4)();
-                    var3 = _closure1_slot15;
-                    var2 = _closure1_slot14;
-                    var1 = {};
-                    var5 = _closure2_slot0;
-                    var5 = var5.icon;
-                    var7 = null;
-                    var5 = var7 != var5;
-                    if(!var5) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                    var10 = _closure1_slot13;
-                    var8 = _closure1_slot6;
-                    var5 = {};
-                    var11 = var11.miniGuildIcon;
-                    var5['style'] = var11;
-                    var12 = _closure1_slot1;
-                    var15 = _closure1_slot2;
-                    var13 = 18;
-                    var11 = var15[var13];
-                    var12 = var12.bind(var4)(var11);
-                    var11 = {};
-                    var14 = _closure2_slot0;
-                    var11['guild'] = var14;
-                    var14 = _closure1_slot0;
-                    var13 = var15[var13];
-                    var13 = var14.bind(var4)(var13);
-                    var13 = var13.GuildIconSizes;
-                    var13 = var13.XXSMALL;
-                    var11['size'] = var13;
-                    var11 = var10.bind(var4)(var12, var11);
-                    var5['children'] = var11;
-                    var7 = var10.bind(var4)(var8, var5);
-case 14:
-                    var5 = new Array(2);
-                    var5[0] = var7;
-                    var8 = _closure1_slot13;
-                    var7 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var6 = 19;
-                    var6 = var10[var6];
-                    var6 = var7.bind(var4)(var6);
-                    var7 = var6.Text;
-                    var6 = {};
-                    var10 = 'text-md/bold';
-                    var6['variant'] = var10;
-                    var9 = _closure2_slot0;
-                    var9 = var9.name;
-                    var6['children'] = var9;
-                    var6 = var8.bind(var4)(var7, var6);
-                    var5[1] = var6;
-                    var1['children'] = var5;
-                    var1 = var3.bind(var4)(var2, var1);
-                    return var1;
-                }
-            };
             var3 = _closure1_slot13;
             var2 = _closure1_slot8;
             var1 = {'style': null, 'keyboardShouldPersistTaps': 'handled', 'alwaysBounceVertical': false};

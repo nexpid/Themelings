@@ -216,7 +216,7 @@ case 0:
             var6 = var3.bind(var5)(var4);
             var4 = var6.getFallbackHeroColor;
             var7 = var4.bind(var6)(var7, var8);
-            var6 = function(arg1, arg2) {
+            var6 = function getPalette(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var3 = arg2;

@@ -672,7 +672,7 @@ case 51:
             var3 = var8[var3];
             var4 = var4.bind(var7)(var3);
             var3 = var4.openPlayStoreInline;
-            var2 = function() {
+            var2 = function callback() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var1 = global;

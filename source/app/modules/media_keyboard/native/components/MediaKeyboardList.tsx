@@ -719,7 +719,7 @@ case 37:
             var16[12] = var28;
             var16[13] = var14;
             var14 = function(arg1, arg2) {
-                var6 = arg2;
+                var7 = arg2;
                 var5 = _closure1_slot10;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -728,117 +728,123 @@ case 37:
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
                 var2 = {};
-                var7 = _closure2_slot1;
-                var2['draftType'] = var7;
-                var2['rowIndex'] = var6;
-                var7 = _closure2_slot26;
-                var2['totalNumItems'] = var7;
-                var7 = _closure2_slot0;
-                var2['channel'] = var7;
-                var7 = _closure2_slot17;
-                var2['numPerRow'] = var7;
-                var7 = _closure2_slot27;
-                var7 = var7[var6];
-                var2['items'] = var7;
-                var7 = _closure2_slot4;
-                var2['onPressItem'] = var7;
-                var7 = _closure2_slot5;
-                var2['onLongPressItem'] = var7;
-                var7 = _closure2_slot8;
-                var2['includedUploadIds'] = var7;
-                var7 = _closure2_slot11;
-                var2['uploadLimit'] = var7;
-                var7 = _closure2_slot12;
-                var2['disableWhenReachedLimit'] = var7;
-                var7 = _closure2_slot28;
-                var2['handleCameraPress'] = var7;
-                var7 = _closure2_slot3;
-                var2['handleAttachPress'] = var7;
-                var7 = _closure2_slot6;
-                var2['handleViewAllPhotosPress'] = var7;
-                var7 = _closure2_slot10;
-                var2['disabled'] = var7;
+                var6 = _closure2_slot1;
+                var2['draftType'] = var6;
+                var2['rowIndex'] = var7;
+                var6 = _closure2_slot26;
+                var2['totalNumItems'] = var6;
+                var6 = _closure2_slot0;
+                var2['channel'] = var6;
+                var6 = _closure2_slot17;
+                var2['numPerRow'] = var6;
+                var6 = _closure2_slot27;
+                var6 = var6[var7];
+                var2['items'] = var6;
+                var6 = _closure2_slot4;
+                var2['onPressItem'] = var6;
+                var6 = _closure2_slot5;
+                var2['onLongPressItem'] = var6;
+                var6 = _closure2_slot8;
+                var2['includedUploadIds'] = var6;
+                var6 = _closure2_slot11;
+                var2['uploadLimit'] = var6;
+                var6 = _closure2_slot12;
+                var2['disableWhenReachedLimit'] = var6;
+                var6 = _closure2_slot28;
+                var2['handleCameraPress'] = var6;
+                var6 = _closure2_slot3;
+                var2['handleAttachPress'] = var6;
+                var6 = _closure2_slot6;
+                var2['handleViewAllPhotosPress'] = var6;
+                var6 = _closure2_slot10;
+                var2['disabled'] = var6;
                 var1 = _closure2_slot27;
-                var8 = var1[var6];
-                var7 = var8.reduce;
-                var1 = var6.toString;
-                var6 = var1.bind(var6)();
-                var1 = function(arg1, arg2) {
-                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                var6 = var1[var7];
+                var1 = function keyExtractor(arg1, arg2) {
+                    var4 = arg1;
+                    var2 = arg2;
+                    var3 = var4.reduce;
+                    var1 = var2.toString;
+                    var2 = var1.bind(var2)();
+                    var1 = function(arg1, arg2) {
+                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                        var6 = arg1;
-                        var2 = arg2;
-                        var3 = null;
-                        var1 = var6;
-                        if(!(var3 != var2)) { _fun0008_ip = 42; continue _fun0008 }
+                            var6 = arg1;
+                            var2 = arg2;
+                            var3 = null;
+                            var1 = var6;
+                            if(!(var3 != var2)) { _fun0008_ip = 42; continue _fun0008 }
 case 43:
-                        var8 = _closure1_slot0;
-                        var4 = _closure1_slot2;
-                        var7 = 21;
-                        var4 = var4[var7];
-                        var5 = undefined;
-                        var8 = var8.bind(var5)(var4);
-                        var4 = var8.isMediaCameraNode;
-                        var4 = var4.bind(var8)(var2);
-                        if(var4) { _fun0008_ip = 44; continue _fun0008 }
+                            var8 = _closure1_slot0;
+                            var4 = _closure1_slot2;
+                            var7 = 21;
+                            var4 = var4[var7];
+                            var5 = undefined;
+                            var8 = var8.bind(var5)(var4);
+                            var4 = var8.isMediaCameraNode;
+                            var4 = var4.bind(var8)(var2);
+                            if(var4) { _fun0008_ip = 44; continue _fun0008 }
 case 17:
-                        var8 = _closure1_slot0;
-                        var4 = _closure1_slot2;
-                        var4 = var4[var7];
-                        var8 = var8.bind(var5)(var4);
-                        var4 = var8.isAttachFilesNode;
-                        var4 = var4.bind(var8)(var2);
-                        if(var4) { _fun0008_ip = 45; continue _fun0008 }
+                            var8 = _closure1_slot0;
+                            var4 = _closure1_slot2;
+                            var4 = var4[var7];
+                            var8 = var8.bind(var5)(var4);
+                            var4 = var8.isAttachFilesNode;
+                            var4 = var4.bind(var8)(var2);
+                            if(var4) { _fun0008_ip = 45; continue _fun0008 }
 case 46:
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var3 = var3[var7];
-                        var4 = var4.bind(var5)(var3);
-                        var3 = var4.isViewAllPhotosNode;
-                        var4 = var3.bind(var4)(var2);
-                        var3 = global;
-                        if(var4) { _fun0008_ip = 47; continue _fun0008 }
+                            var4 = _closure1_slot0;
+                            var3 = _closure1_slot2;
+                            var3 = var3[var7];
+                            var4 = var4.bind(var5)(var3);
+                            var3 = var4.isViewAllPhotosNode;
+                            var4 = var3.bind(var4)(var2);
+                            var3 = global;
+                            if(var4) { _fun0008_ip = 47; continue _fun0008 }
 case 48:
-                        var2 = var2.node;
-                        var2 = var2.image;
-                        var7 = var2.uri;
-                        var2 = var3.HermesInternal;
-                        var5 = var2.concat;
-                        var4 = '';
-                        var2 = '-';
-                        var2 = var5.bind(var4)(var6, var2, var7);
-                        _fun0008_ip = 49; continue _fun0008;
+                            var2 = var2.node;
+                            var2 = var2.image;
+                            var7 = var2.uri;
+                            var2 = var3.HermesInternal;
+                            var5 = var2.concat;
+                            var4 = '';
+                            var2 = '-';
+                            var2 = var5.bind(var4)(var6, var2, var7);
+                            _fun0008_ip = 49; continue _fun0008;
 case 47:
-                        var3 = var3.HermesInternal;
-                        var5 = var3.concat;
-                        var4 = '';
-                        var3 = '-view-all';
-                        var2 = var5.bind(var4)(var6, var3);
+                            var3 = var3.HermesInternal;
+                            var5 = var3.concat;
+                            var4 = '';
+                            var3 = '-view-all';
+                            var2 = var5.bind(var4)(var6, var3);
 case 49:
-                        _fun0008_ip = 50; continue _fun0008;
+                            _fun0008_ip = 50; continue _fun0008;
 case 45:
-                        var3 = global;
-                        var3 = var3.HermesInternal;
-                        var5 = var3.concat;
-                        var4 = '';
-                        var3 = '-attach';
-                        var2 = var5.bind(var4)(var6, var3);
+                            var3 = global;
+                            var3 = var3.HermesInternal;
+                            var5 = var3.concat;
+                            var4 = '';
+                            var3 = '-attach';
+                            var2 = var5.bind(var4)(var6, var3);
 case 50:
-                        _fun0008_ip = 51; continue _fun0008;
+                            _fun0008_ip = 51; continue _fun0008;
 case 44:
-                        var3 = global;
-                        var3 = var3.HermesInternal;
-                        var5 = var3.concat;
-                        var4 = '';
-                        var3 = '-camera';
-                        var2 = var5.bind(var4)(var6, var3);
+                            var3 = global;
+                            var3 = var3.HermesInternal;
+                            var5 = var3.concat;
+                            var4 = '';
+                            var3 = '-camera';
+                            var2 = var5.bind(var4)(var6, var3);
 case 51:
-                        var1 = var2;
+                            var1 = var2;
 case 42:
-                        return var1;
-                    }
+                            return var1;
+                        }
+                    };
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                var1 = var7.bind(var8)(var1, var6);
+                var1 = var1.bind(var4)(var6, var7);
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };

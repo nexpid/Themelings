@@ -82,7 +82,7 @@ case 4:
         return var1;
     };
     var3['getPublicSystemMessageAvatar'] = var4;
-    var2 = function(arg1) {
+    var2 = function trackEnableCommunityFlow(arg1) {
         var6 = arg1;
         var3 = _closure1_slot1;
         var9 = _closure1_slot2;

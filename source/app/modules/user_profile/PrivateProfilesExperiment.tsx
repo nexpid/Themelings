@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/user_profile/PrivateProfilesExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['PrivateProfilesExperiment'] = var4;
-    var4 = function(arg1) {
+    var4 = function useIsInPrivateProfilesExperiment(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;
@@ -75,7 +75,7 @@ case 4:
         }
     };
     var3['useIsInPrivateProfilesExperiment'] = var4;
-    var2 = function(arg1) {
+    var2 = function getIsInPrivateProfilesExperiment(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var4 = arg1;

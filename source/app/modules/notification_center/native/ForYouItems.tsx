@@ -31,7 +31,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot33 = var1;
+    var _closure1_slot32 = var1;
     var1 = function getMessagePreviewIcon(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -76,7 +76,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot34 = var1;
+    var _closure1_slot33 = var1;
     var1 = function Callout(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -146,7 +146,7 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot35 = var1;
+    var _closure1_slot34 = var1;
     var1 = function ForYouMessagePreviewV2(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -601,7 +601,7 @@ case 79:
             var14 = var19.bind(var4)(var14);
             var15 = var14.Icon;
             var14 = {};
-            var21 = _closure1_slot34;
+            var21 = _closure1_slot33;
             var21 = var21.bind(var4)(var22);
             var14['source'] = var21;
             var18 = var20[var18];
@@ -624,7 +624,7 @@ case 78:
             return var1;
         }
     };
-    var _closure1_slot36 = var1;
+    var _closure1_slot35 = var1;
     var1 = function ApplicationName(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -676,7 +676,7 @@ case 82:
             return var1;
         }
     };
-    var _closure1_slot37 = var1;
+    var _closure1_slot36 = var1;
     var1 = function ScrollToTopRef(arg1) {
         var1 = arg1;
         var3 = var1.scrollRef;
@@ -689,6 +689,12 @@ case 82:
         var1 = var2.useScrollToTop;
         var1 = var1.bind(var2)(var3);
         var1 = null;
+        return var1;
+    };
+    var _closure1_slot37 = var1;
+    var1 = function extractKey(arg1) {
+        var1 = arg1;
+        var1 = var1.id;
         return var1;
     };
     var _closure1_slot38 = var1;
@@ -1631,7 +1637,7 @@ case 117:
             var1['item'] = var21;
             var3 = function renderApplication(arg1) {
                 var4 = _closure1_slot21;
-                var3 = _closure1_slot37;
+                var3 = _closure1_slot36;
                 var2 = {};
                 var1 = arg1;
                 var2['applicationId'] = var1;
@@ -1872,7 +1878,7 @@ case 139:
             if(!var17) { _fun0007_ip = 141; continue _fun0007 }
 case 142:
             var22 = _closure1_slot21;
-            var18 = _closure1_slot36;
+            var18 = _closure1_slot35;
             var17 = {};
             var17['item'] = var21;
             var17['acked'] = var20;
@@ -1887,7 +1893,7 @@ case 141:
             if(!var15) { _fun0007_ip = 143; continue _fun0007 }
 case 144:
             var18 = _closure1_slot21;
-            var17 = _closure1_slot35;
+            var17 = _closure1_slot34;
             var15 = {};
             var15['item'] = var21;
             var15['acked'] = var20;
@@ -1913,12 +1919,6 @@ case 143:
     };
     var4 = var8.bind(var7)(var4);
     var _closure1_slot31 = var4;
-    var4 = function extractKey(arg1) {
-        var1 = arg1;
-        var1 = var1.id;
-        return var1;
-    };
-    var _closure1_slot32 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
@@ -2346,7 +2346,7 @@ case 168:
             if(!var6) { _fun0014_ip = 154; continue _fun0014 }
 case 169:
             var8 = _closure1_slot21;
-            var7 = _closure1_slot38;
+            var7 = _closure1_slot37;
             var5 = {};
             var5['scrollRef'] = var20;
             var6 = var8.bind(var4)(var7, var5);
@@ -2385,7 +2385,7 @@ case 154:
             var6['refreshControl'] = var14;
             var14 = 70;
             var6['estimatedItemSize'] = var14;
-            var14 = _closure1_slot32;
+            var14 = _closure1_slot38;
             var6['keyExtractor'] = var14;
             var6['renderItem'] = var12;
             var6['extraData'] = var11;
@@ -2393,7 +2393,7 @@ case 154:
             var10 = 0.8;
             var6['onEndReachedThreshold'] = var10;
             var12 = _closure1_slot21;
-            var11 = _closure1_slot33;
+            var11 = _closure1_slot32;
             var10 = {};
             var10['loading'] = var13;
             var10 = var12.bind(var4)(var11, var10);

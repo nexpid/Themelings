@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function useCollectiblesMobileFlexibleBundlesExperiment(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.useConfig;
         var1 = {};

@@ -226,7 +226,7 @@ case 7:
             var10 = var11;
 case 6:
             var1['location'] = var10;
-            var10 = function onChange(arg1) {
+            var10 = function handleChangeEventLocation(arg1) {
                 var4 = _closure2_slot4;
                 var1 = undefined;
                 var3 = null;

@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var9 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'gap': 12};
     var4['container'] = var9;
-    var9 = {'flex': 1, 'flexDirection': 'column', 'justifyContent': 'center'};
+    var9 = {'flex': 1, 'flexDirection': 'column', 'justifyContent': 'center', 'gap': 2};
     var4['titleContainer'] = var9;
     var9 = {};
     var10 = 'hidden';

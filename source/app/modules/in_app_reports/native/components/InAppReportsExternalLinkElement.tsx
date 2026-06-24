@@ -7,6 +7,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
+    var1 = function ExternalLinkItem(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var1 = var1.data;
+            var2 = var1.url;
+            var _closure2_slot0 = var2;
+            var9 = var1.link_text;
+            var8 = var1.link_description;
+            var2 = var1.is_localized;
+            var1 = null;
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var5 = _closure1_slot4;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var2 = 5;
+            var2 = var12[var2];
+            var4 = undefined;
+            var2 = var11.bind(var4)(var2);
+            var3 = var2.RowButton;
+            var2 = {};
+            var2['label'] = var9;
+            var2['subLabel'] = var8;
+            var9 = _closure1_slot4;
+            var7 = 6;
+            var7 = var12[var7];
+            var7 = var11.bind(var4)(var7);
+            var8 = var7.TableRowIcon;
+            var7 = {};
+            var10 = 7;
+            var10 = var12[var10];
+            var10 = var11.bind(var4)(var10);
+            var10 = var10.LinkExternalMediumIcon;
+            var7['IconComponent'] = var10;
+            var7 = var9.bind(var4)(var8, var7);
+            var2['trailing'] = var7;
+            var6 = function onPress() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 8;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openURL;
+                var2 = _closure2_slot0;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var2['onPress'] = var6;
+            var6 = false;
+            var2['arrow'] = var6;
+            var6 = 'link';
+            var2['accessibilityRole'] = var6;
+            var1 = var5.bind(var4)(var3, var2);
+case 2:
+            return var1;
+        }
+    };
+    var _closure1_slot7 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -41,65 +101,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['headerText'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = function ExternalLinkItem(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = arg1;
-            var1 = var1.data;
-            var2 = var1.url;
-            var _closure2_slot0 = var2;
-            var8 = var1.link_text;
-            var7 = var1.link_description;
-            var2 = var1.is_localized;
-            var1 = null;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var5 = _closure1_slot4;
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var2 = 5;
-            var2 = var11[var2];
-            var4 = undefined;
-            var2 = var10.bind(var4)(var2);
-            var3 = var2.RowButton;
-            var2 = {};
-            var2['label'] = var8;
-            var2['subLabel'] = var7;
-            var7 = 6;
-            var7 = var11[var7];
-            var7 = var10.bind(var4)(var7);
-            var8 = var7.TableRowIcon;
-            var7 = {};
-            var9 = 7;
-            var9 = var11[var9];
-            var9 = var10.bind(var4)(var9);
-            var9 = var9.LinkExternalMediumIcon;
-            var7['IconComponent'] = var9;
-            var7 = var5.bind(var4)(var8, var7);
-            var2['trailing'] = var7;
-            var6 = function onPress() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 8;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.openURL;
-                var2 = _closure2_slot0;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            var2['onPress'] = var6;
-            var6 = false;
-            var2['arrow'] = var6;
-            var6 = 'link';
-            var2['accessibilityRole'] = var6;
-            var1 = var5.bind(var4)(var3, var2);
-case 2:
-            return var1;
-        }
-    };
-    var _closure1_slot7 = var4;
     var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

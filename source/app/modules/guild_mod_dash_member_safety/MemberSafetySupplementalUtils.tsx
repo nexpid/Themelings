@@ -351,7 +351,7 @@ case 2:
     };
     var3['registerFetchedSupplementals'] = var6;
     var3['JoinSourceType'] = var5;
-    var5 = function(arg1) {
+    var5 = function getJoinSourceTypeLabel(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var4 = arg1;
@@ -549,7 +549,7 @@ case 19:
     };
     var3['getJoinSourceTypeLabel'] = var5;
     var3['IntegrationType'] = var4;
-    var4 = function(arg1) {
+    var4 = function getIntegrationLabel(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = arg1;
@@ -608,7 +608,7 @@ case 39:
         }
     };
     var3['getIntegrationLabel'] = var4;
-    var4 = function(arg1) {
+    var4 = function useGetIntegrationIconString(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var9 = arg1;

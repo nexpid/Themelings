@@ -196,7 +196,7 @@ case 22:
                     var15 = var8.bind(var7)(var3);
                     var14 = var15.withTiming;
                     var10 = _closure1_slot7;
-                    var13 = function t(arg1) {
+                    var13 = function f(arg1) {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                             var2 = true;
@@ -256,7 +256,7 @@ case 21:
                     var10 = var11.bind(var8)(var2);
                     var3 = var10.withTiming;
                     var19 = _closure1_slot6;
-                    var1 = function n(arg1) {
+                    var1 = function I(arg1) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                             var3 = true;
@@ -349,7 +349,7 @@ case 25:
             var4 = var4[var10];
             var5 = var5.bind(var7)(var4);
             var4 = var5.useAnimatedStyle;
-            var3 = function w() {
+            var3 = function J() {
                 var1 = {};
                 var4 = _closure2_slot3;
                 var3 = var4.get;

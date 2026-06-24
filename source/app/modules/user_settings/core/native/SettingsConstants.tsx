@@ -490,8 +490,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PARENTAL_CONTROLS_DATA_USAGE_QUESTS'] = var1;
     var1 = 'PARENTAL_CONTROLS_DATA_USAGE_QUESTS_3P';
     var2['PARENTAL_CONTROLS_DATA_USAGE_QUESTS_3P'] = var1;
-    var1 = 'ENABLE_DM_REPLY_NUDGE_REMINDERS';
-    var2['ENABLE_DM_REPLY_NUDGE_REMINDERS'] = var1;
     var1 = 'ACTIVITY_PRIVACY_DEFAULT_SHARING';
     var2['ACTIVITY_PRIVACY_DEFAULT_SHARING'] = var1;
     var1 = 'FRIEND_REQUEST_NOTES';

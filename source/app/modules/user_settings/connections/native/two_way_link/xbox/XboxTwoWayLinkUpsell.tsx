@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_settings/connections/native/two_way_link/xbox/XboxTwoWayLinkUpsell.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function() {
+    var2 = function XboxTwoWayLinkUpsell() {
         var2 = _closure1_slot6;
         var4 = undefined;
         var9 = var2.bind(var4)();

@@ -30,84 +30,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.CollectiblesMobileShopScreen;
     var _closure1_slot5 = var4;
-    var4 = function usePriceFilter(arg1) {
-        var3 = _closure1_slot5;
-        var4 = var3.ORBS;
-        var3 = arg1;
-        var6 = var3 === var4;
-        var _closure2_slot0 = var6;
-        var4 = _closure1_slot0;
-        var8 = _closure1_slot2;
-        var3 = 6;
-        var3 = var8[var3];
-        var7 = undefined;
-        var9 = var4.bind(var7)(var3);
-        var5 = var9.useStateFromStores;
-        var3 = _closure1_slot4;
-        var4 = new Array(1);
-        var4[0] = var3;
-        var3 = function() {
-            var2 = _closure1_slot4;
-            var1 = var2.getCurrentUser;
-            var1 = var1.bind(var2)();
-            return var1;
-        };
-        var5 = var5.bind(var9)(var4, var3);
-        var4 = _closure1_slot1;
-        var3 = 7;
-        var3 = var8[var3];
-        var4 = var4.bind(var7)(var3);
-        var3 = var4.canUseShopDiscounts;
-        var5 = var3.bind(var4)(var5);
-        var _closure2_slot1 = var5;
-        var4 = _closure1_slot3;
-        var3 = var4.useCallback;
-        var2 = new Array(2);
-        var2[0] = var6;
-        var2[1] = var5;
-        var1 = function(arg1) {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                var4 = arg1;
-                var2 = _closure2_slot0;
-                var1 = var4;
-                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var3 = var4.filter;
-                var2 = function(arg1) {
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 8;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.getProductOrbPrice;
-                    var1 = {};
-                    var4 = arg1;
-                    var1['product'] = var4;
-                    var4 = _closure2_slot1;
-                    var1['hasShopDiscount'] = var4;
-                    var2 = var2.bind(var3)(var1);
-                    var1 = null;
-                    var1 = var1 != var2;
-                    return var1;
-                };
-                var1 = var3.bind(var4)(var2);
-case 2:
-                return var1;
-            }
-        };
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot6 = var4;
     var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/hooks/useFilteredAndSortedProducts.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function useFilteredAndSortedProducts(arg1) {
         var2 = arg1;
         var11 = var2.products;
         var _closure2_slot0 = var11;
@@ -131,7 +60,76 @@ case 2:
         var2 = var9.useAndroidUnsyncedFilter;
         var12 = var2.bind(var9)();
         var _closure2_slot4 = var12;
-        var2 = _closure1_slot6;
+        var2 = function usePriceFilter(arg1) {
+            var3 = _closure1_slot5;
+            var4 = var3.ORBS;
+            var3 = arg1;
+            var6 = var3 === var4;
+            var _closure3_slot0 = var6;
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 6;
+            var3 = var8[var3];
+            var7 = undefined;
+            var9 = var4.bind(var7)(var3);
+            var5 = var9.useStateFromStores;
+            var3 = _closure1_slot4;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var3 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var5 = var5.bind(var9)(var4, var3);
+            var4 = _closure1_slot1;
+            var3 = 7;
+            var3 = var8[var3];
+            var4 = var4.bind(var7)(var3);
+            var3 = var4.canUseShopDiscounts;
+            var5 = var3.bind(var4)(var5);
+            var _closure3_slot1 = var5;
+            var4 = _closure1_slot3;
+            var3 = var4.useCallback;
+            var2 = new Array(2);
+            var2[0] = var6;
+            var2[1] = var5;
+            var1 = function(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                    var4 = arg1;
+                    var2 = _closure3_slot0;
+                    var1 = var4;
+                    if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                    var3 = var4.filter;
+                    var2 = function(arg1) {
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 8;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.getProductOrbPrice;
+                        var1 = {};
+                        var4 = arg1;
+                        var1['product'] = var4;
+                        var4 = _closure3_slot1;
+                        var1['hasShopDiscount'] = var4;
+                        var2 = var2.bind(var3)(var1);
+                        var1 = null;
+                        var1 = var1 != var2;
+                        return var1;
+                    };
+                    var1 = var3.bind(var4)(var2);
+case 2:
+                    return var1;
+                }
+            };
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var2 = var2.bind(var3)(var6);
         var _closure2_slot5 = var2;
         var4 = _closure1_slot3;

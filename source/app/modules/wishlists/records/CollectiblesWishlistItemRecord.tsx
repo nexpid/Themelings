@@ -77,7 +77,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot17;
+            var9 = _closure1_slot16;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -89,7 +89,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot16;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -148,7 +148,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot15 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,7 +181,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -214,9 +214,73 @@ case 38:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot18 = var2;
+            _closure1_slot17 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
+            return var1;
+        }
+    };
+    var _closure1_slot17 = var1;
+    var1 = function createCollectiblesItemFromServerResponse(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var3 = arg1;
+            var4 = var3.type;
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var7 = 13;
+            var2 = var2[var7];
+            var6 = undefined;
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.AVATAR_DECORATION;
+            if(!(var2 !== var4)) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var7];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.PROFILE_EFFECT;
+            if(!(var2 !== var4)) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var7];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.NAMEPLATE;
+            if(!(var2 !== var4)) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var7];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.PROFILE_FRAME;
+            if(!(var2 !== var4)) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
+            var2 = null;
+            return var2;
+case 46:
+            var4 = _closure1_slot11;
+            var2 = var4.fromServer;
+            var2 = var2.bind(var4)(var3);
+            return var2;
+case 44:
+            var4 = _closure1_slot9;
+            var2 = var4.fromServer;
+            var2 = var2.bind(var4)(var3);
+            return var2;
+case 42:
+            var4 = _closure1_slot10;
+            var2 = var4.fromServer;
+            var2 = var2.bind(var4)(var3);
+            return var2;
+case 40:
+            var2 = _closure1_slot7;
+            var1 = var2.fromServer;
+            var1 = var1.bind(var2)(var3);
             return var1;
         }
     };
@@ -283,70 +347,6 @@ case 38:
     var4 = var6.bind(var1)(var4);
     var4 = var4.SKUProductLines;
     var _closure1_slot13 = var4;
-    var4 = function createCollectiblesItemFromServerResponse(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var3 = arg1;
-            var4 = var3.type;
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var7 = 13;
-            var2 = var2[var7];
-            var6 = undefined;
-            var2 = var5.bind(var6)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.AVATAR_DECORATION;
-            if(!(var2 !== var4)) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var7];
-            var2 = var5.bind(var6)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.PROFILE_EFFECT;
-            if(!(var2 !== var4)) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var7];
-            var2 = var5.bind(var6)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.NAMEPLATE;
-            if(!(var2 !== var4)) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var7];
-            var2 = var5.bind(var6)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.PROFILE_FRAME;
-            if(!(var2 !== var4)) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
-            var2 = null;
-            return var2;
-case 46:
-            var4 = _closure1_slot11;
-            var2 = var4.fromServer;
-            var2 = var2.bind(var4)(var3);
-            return var2;
-case 44:
-            var4 = _closure1_slot9;
-            var2 = var4.fromServer;
-            var2 = var2.bind(var4)(var3);
-            return var2;
-case 42:
-            var4 = _closure1_slot10;
-            var2 = var4.fromServer;
-            var2 = var2.bind(var4)(var3);
-            return var2;
-case 40:
-            var2 = _closure1_slot7;
-            var1 = var2.fromServer;
-            var1 = var1.bind(var2)(var3);
-            return var1;
-        }
-    };
-    var _closure1_slot14 = var4;
     var4 = function(arg1) {
         var5 = function CollectiblesWishlistItemRecord(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -362,7 +362,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var10 = var1.bind(var7)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot18;
+                var1 = _closure1_slot17;
                 var1 = var1.bind(var7)();
                 if(var1) { _fun0006_ip = 48; continue _fun0006 }
 case 49:
@@ -402,7 +402,7 @@ case 56:
                 var2 = var2 instanceof Object ? var2 : var4;
                 throw var2;
 case 53:
-                var4 = _closure1_slot14;
+                var4 = _closure1_slot18;
                 var2 = var3.collectibles_item;
                 var2 = var4.bind(var7)(var2);
                 if(!(var6 != var2)) { _fun0006_ip = 57; continue _fun0006 }
@@ -421,16 +421,16 @@ case 57:
                 throw var2;
 case 51:
                 var2 = new Array(0);
-                var4 = _closure1_slot16;
+                var4 = _closure1_slot15;
                 var3 = var3.bundle_items;
                 var5 = var4.bind(var7)(var3);
                 var4 = var5.bind(var7)();
                 var3 = var4.done;
                 if(var3) { _fun0006_ip = 59; continue _fun0006 }
 case 60:
-                var9 = var4.value;
-                var3 = _closure1_slot14;
-                var9 = var3.bind(var7)(var9);
+                var9 = _closure1_slot18;
+                var3 = var4.value;
+                var9 = var9.bind(var7)(var3);
                 if(!(var6 != var9)) { _fun0006_ip = 61; continue _fun0006 }
 case 62:
                 var3 = var2.push;
@@ -562,7 +562,7 @@ case 67:
         return var1;
     };
     var4 = var4.bind(var1)(var5);
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -570,8 +570,8 @@ case 67:
     var5 = 'modules/wishlists/records/CollectiblesWishlistItemRecord.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var2 = function(arg1) {
-        var2 = _closure1_slot15;
+    var2 = function isCollectiblesWishlistItemRecord(arg1) {
+        var2 = _closure1_slot14;
         var1 = arg1;
         var1 = var1 instanceof var2;
         return var1;

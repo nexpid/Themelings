@@ -65,8 +65,31 @@ case 0:
             var39 = var1.disableMessage;
             var6 = var1.scrollPosition;
             var5 = undefined;
+            var _closure2_slot2 = var5;
             var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
+            var27 = function handleCopyUsername() {
+                var4 = _closure2_slot2;
+                var3 = {};
+                var1 = 'COPY_USERNAME';
+                var3['action'] = var1;
+                var1 = undefined;
+                var3 = var4.bind(var1)(var3);
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var5 = 19;
+                var5 = var4[var5];
+                var6 = var3.bind(var1)(var5);
+                var5 = var6.copy;
+                var2 = _closure2_slot3;
+                var2 = var5.bind(var6)(var2);
+                var2 = 20;
+                var2 = var4[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.presentUsernameCopied;
+                var2 = var2.bind(var3)();
+                return var1;
+            };
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 6;
@@ -102,7 +125,7 @@ case 0:
             var1 = var6.useUserProfileAnalyticsContext;
             var1 = var1.bind(var6)();
             var1 = var1.trackUserProfileAction;
-            var _closure2_slot2 = var1;
+            _closure2_slot2 = var1;
             var1 = 11;
             var1 = var3[var1];
             var7 = var4.bind(var5)(var1);
@@ -231,28 +254,6 @@ case 13:
 case 15:
             if(!(var1 != var32)) { _fun0001_ip = 14; continue _fun0001 }
 case 16:
-            var27 = function handleCopyUsername() {
-                var4 = _closure2_slot2;
-                var3 = {};
-                var1 = 'COPY_USERNAME';
-                var3['action'] = var1;
-                var1 = undefined;
-                var3 = var4.bind(var1)(var3);
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var5 = 19;
-                var5 = var4[var5];
-                var6 = var3.bind(var1)(var5);
-                var5 = var6.copy;
-                var2 = _closure2_slot3;
-                var2 = var5.bind(var6)(var2);
-                var2 = 20;
-                var2 = var4[var2];
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.presentUsernameCopied;
-                var2 = var2.bind(var3)();
-                return var1;
-            };
             var4 = _closure1_slot10;
             var3 = _closure1_slot11;
             var2 = {};

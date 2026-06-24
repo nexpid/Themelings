@@ -29,7 +29,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot17 = var11;
+    var _closure1_slot16 = var11;
+    var1 = function formatDatePrefersRelativeTime(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var5 = arg1;
+            var4 = arg2;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var8 = 6;
+            var1 = var1[var8];
+            var3 = undefined;
+            var9 = var6.bind(var3)(var1);
+            var7 = var9.differenceInCalendarDays;
+            var1 = var5.toDate;
+            var6 = var1.bind(var5)();
+            var1 = var4.toDate;
+            var1 = var1.bind(var4)();
+            var10 = var7.bind(var9)(var6, var1);
+            var1 = 1;
+            if(!(!(var10 > var1))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var6 = 0;
+            if(!(!(var10 < var6))) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var8];
+            var7 = var7.bind(var3)(var6);
+            var6 = var7.dateFormat;
+            var8 = var5.localeData;
+            var9 = var8.bind(var5)();
+            var8 = var9.calendar;
+            var10 = var10 < var1;
+            var1 = 'nextDay';
+            if(!var10) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            var1 = 'sameDay';
+case 5:
+            var1 = var8.bind(var9)(var1, var5, var4);
+            var1 = var6.bind(var7)(var5, var1);
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
+            var2 = _closure1_slot15;
+            var1 = var2.bind(var3)(var5, var4);
+case 7:
+            return var1;
+        }
+    };
+    var _closure1_slot17 = var1;
     var10 = function convertJSDayToRRuleDay(arg1) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
@@ -50,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot18 = var10;
     var1 = function _getSchedule(arg1, arg2) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var9 = arg1;
             var5 = arg2;
@@ -58,8 +106,8 @@ case 0:
             var2 = var6 != var9;
             var4 = undefined;
             var1 = undefined;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = {};
             var10 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -70,8 +118,8 @@ case 3:
             var2['startDate'] = var8;
             var2['endDate'] = var4;
             var1 = var2;
-            if(!(var6 != var5)) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
+            if(!(var6 != var5)) { _fun0002_ip = 8; continue _fun0002 }
+case 10:
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
             var3 = var3[var7];
@@ -79,7 +127,7 @@ case 4:
             var3 = var3.bind(var4)(var5);
             var2['endDate'] = var3;
             var1 = var2;
-case 2:
+case 8:
             return var1;
         }
     };
@@ -95,53 +143,53 @@ case 2:
     };
     var _closure1_slot20 = var9;
     var8 = function areDatesIdentical(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
             var4 = arg2;
             var3 = null;
-            if(!(var3 != var2)) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            if(!(var3 != var4)) { _fun0002_ip = 5; continue _fun0002 }
-case 7:
+            if(!(var3 != var2)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+            if(!(var3 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+case 13:
             var1 = var2.isSame;
             var1 = var1.bind(var2)(var4);
-            _fun0002_ip = 8; continue _fun0002;
-case 5:
+            _fun0003_ip = 14; continue _fun0003;
+case 11:
             var2 = var3 == var2;
-            if(!var2) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            if(!var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var2 = var3 == var4;
-case 9:
+case 15:
             var1 = var2;
-case 8:
+case 14:
             return var1;
         }
     };
     var _closure1_slot21 = var8;
     var7 = function getRRule(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
             var1 = var2.byWeekday;
             var4 = null;
             var1 = var4 != var1;
             var6 = null;
-            if(!var1) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            if(!var1) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var13 = var2.byWeekday;
             var1 = new Array(0);
             var12 = 0;
             var14 = var1;
             var3 = arraySpread(var14, var13, var12);
             var6 = var1;
-case 11:
+case 17:
             var7 = var2.byNWeekday;
             var1 = var4 == var7;
             var10 = undefined;
             var5 = undefined;
-            if(var1) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+            if(var1) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var3 = var7.map;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -162,7 +210,7 @@ case 14:
                 return var1;
             };
             var5 = var3.bind(var7)(var1);
-case 13:
+case 19:
             var9 = global;
             var7 = var9.Date;
             var14 = var2.start;
@@ -185,8 +233,8 @@ case 13:
             var8 = var2.end;
             var10 = var4 != var8;
             var8 = null;
-            if(!var10) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+            if(!var10) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var11 = var9.Date;
             var14 = var2.end;
             var10 = var11.prototype;
@@ -194,55 +242,55 @@ case 16:
             var15 = var10;
             var9 = new var15[var11](var14, var13);
             var8 = var9 instanceof Object ? var9 : var10;
-case 15:
+case 21:
             var1['until'] = var8;
             var8 = var2.frequency;
             var1['freq'] = var8;
             var8 = var2.interval;
             var1['interval'] = var8;
-            if(!(var4 != var6)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+            if(!(var4 != var6)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var5 = var6;
-case 17:
+case 23:
             var1['byweekday'] = var5;
             var5 = var2.byMonth;
             var6 = var4 != var5;
             var5 = null;
-            if(!var6) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+            if(!var6) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var13 = var2.byMonth;
             var6 = new Array(0);
             var14 = var6;
             var12 = 0;
             var8 = arraySpread(var14, var13, var12);
             var5 = var6;
-case 19:
+case 25:
             var1['bymonth'] = var5;
             var5 = var2.byMonthDay;
             var6 = var4 != var5;
             var5 = null;
-            if(!var6) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+            if(!var6) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             var13 = var2.byMonthDay;
             var6 = new Array(0);
             var14 = var6;
             var12 = 0;
             var8 = arraySpread(var14, var13, var12);
             var5 = var6;
-case 21:
+case 27:
             var1['bymonthday'] = var5;
             var5 = var2.byYearDay;
             var5 = var4 != var5;
             var4 = null;
-            if(!var5) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+            if(!var5) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
             var13 = var2.byYearDay;
             var5 = new Array(0);
             var14 = var5;
             var12 = 0;
             var6 = arraySpread(var14, var13, var12);
             var4 = var5;
-case 23:
+case 29:
             var1['byyearday'] = var4;
             var2 = var2.count;
             var1['count'] = var2;
@@ -257,14 +305,14 @@ case 23:
     };
     var _closure1_slot22 = var7;
     var6 = function getNextRecurrenceInEvent(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.recurrence_rule;
             var1 = null;
             var3 = var1 == var3;
-            if(var3) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+            if(var3) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var3 = global;
             var4 = var3.Date;
             var5 = var2.scheduled_start_time;
@@ -273,52 +321,12 @@ case 26:
             var6 = var3;
             var2 = new var6[var4](var5, var4);
             var1 = var2 instanceof Object ? var2 : var3;
-case 25:
+case 31:
             return var1;
         }
     };
     var _closure1_slot23 = var6;
     var5 = function getValidWeekdays(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var6 = arg1;
-            var5 = _closure1_slot18;
-            var1 = var6.toDate;
-            var3 = var1.bind(var6)();
-            var1 = var3.getDay;
-            var1 = var1.bind(var3)();
-            var4 = undefined;
-            var1 = var5.bind(var4)(var1);
-            var3 = var6.toDate;
-            var6 = var3.bind(var6)();
-            var3 = var6.getUTCDay;
-            var3 = var3.bind(var6)();
-            var4 = var5.bind(var4)(var3);
-            var5 = var4.weekday;
-            var3 = var1.weekday;
-            var5 = var5 - var3;
-            var3 = 0;
-            if(!(!(var5 > var3))) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
-            var4 = var4.weekday;
-            var1 = var1.weekday;
-            var1 = var4 - var1;
-            if(!(!(var1 < var3))) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
-            var1 = _closure1_slot7;
-            _fun0005_ip = 31; continue _fun0005;
-case 29:
-            var1 = _closure1_slot8;
-case 31:
-            _fun0005_ip = 32; continue _fun0005;
-case 27:
-            var1 = _closure1_slot9;
-case 32:
-            return var1;
-        }
-    };
-    var _closure1_slot24 = var5;
-    var4 = function getValidWeekends(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var6 = arg1;
@@ -338,22 +346,62 @@ case 0:
             var3 = var1.weekday;
             var5 = var5 - var3;
             var3 = 0;
-            if(!(!(var5 > var3))) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+            if(!(!(var5 > var3))) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
             var4 = var4.weekday;
             var1 = var1.weekday;
             var1 = var4 - var1;
-            if(!(!(var1 < var3))) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
+            if(!(!(var1 < var3))) { _fun0006_ip = 35; continue _fun0006 }
+case 36:
+            var1 = _closure1_slot7;
+            _fun0006_ip = 37; continue _fun0006;
+case 35:
+            var1 = _closure1_slot8;
+case 37:
+            _fun0006_ip = 38; continue _fun0006;
+case 33:
+            var1 = _closure1_slot9;
+case 38:
+            return var1;
+        }
+    };
+    var _closure1_slot24 = var5;
+    var4 = function getValidWeekends(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var6 = arg1;
+            var5 = _closure1_slot18;
+            var1 = var6.toDate;
+            var3 = var1.bind(var6)();
+            var1 = var3.getDay;
+            var1 = var1.bind(var3)();
+            var4 = undefined;
+            var1 = var5.bind(var4)(var1);
+            var3 = var6.toDate;
+            var6 = var3.bind(var6)();
+            var3 = var6.getUTCDay;
+            var3 = var3.bind(var6)();
+            var4 = var5.bind(var4)(var3);
+            var5 = var4.weekday;
+            var3 = var1.weekday;
+            var5 = var5 - var3;
+            var3 = 0;
+            if(!(!(var5 > var3))) { _fun0007_ip = 33; continue _fun0007 }
+case 34:
+            var4 = var4.weekday;
+            var1 = var1.weekday;
+            var1 = var4 - var1;
+            if(!(!(var1 < var3))) { _fun0007_ip = 35; continue _fun0007 }
+case 36:
             var1 = _closure1_slot10;
-            _fun0006_ip = 31; continue _fun0006;
-case 29:
+            _fun0007_ip = 37; continue _fun0007;
+case 35:
             var1 = _closure1_slot11;
-case 31:
-            _fun0006_ip = 32; continue _fun0006;
-case 27:
+case 37:
+            _fun0007_ip = 38; continue _fun0007;
+case 33:
             var1 = _closure1_slot12;
-case 32:
+case 38:
             return var1;
         }
     };
@@ -575,7 +623,7 @@ case 32:
     var12 = var12 instanceof Object ? var12 : var15;
     var _closure1_slot14 = var12;
     var12 = function formatDatePreferShorter(arg1, arg2) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = arg1;
             var7 = arg2;
@@ -592,63 +640,15 @@ case 0:
             var1 = var7.get;
             var5 = var1.bind(var7)(var5);
             var1 = 'ddd MMM Do, YYYY · LT';
-            if(!(var6 === var5)) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
+            if(!(var6 === var5)) { _fun0008_ip = 39; continue _fun0008 }
+case 40:
             var1 = 'ddd MMM Do · LT';
-case 33:
+case 39:
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         }
     };
     var _closure1_slot15 = var12;
-    var12 = function formatDatePrefersRelativeTime(arg1, arg2) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-            var5 = arg1;
-            var4 = arg2;
-            var6 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var8 = 6;
-            var1 = var1[var8];
-            var3 = undefined;
-            var9 = var6.bind(var3)(var1);
-            var7 = var9.differenceInCalendarDays;
-            var1 = var5.toDate;
-            var6 = var1.bind(var5)();
-            var1 = var4.toDate;
-            var1 = var1.bind(var4)();
-            var10 = var7.bind(var9)(var6, var1);
-            var1 = 1;
-            if(!(!(var10 > var1))) { _fun0008_ip = 35; continue _fun0008 }
-case 36:
-            var6 = 0;
-            if(!(!(var10 < var6))) { _fun0008_ip = 35; continue _fun0008 }
-case 37:
-            var7 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var6 = var6[var8];
-            var7 = var7.bind(var3)(var6);
-            var6 = var7.dateFormat;
-            var8 = var5.localeData;
-            var9 = var8.bind(var5)();
-            var8 = var9.calendar;
-            var10 = var10 < var1;
-            var1 = 'nextDay';
-            if(!var10) { _fun0008_ip = 38; continue _fun0008 }
-case 39:
-            var1 = 'sameDay';
-case 38:
-            var1 = var8.bind(var9)(var1, var5, var4);
-            var1 = var6.bind(var7)(var5, var1);
-            _fun0008_ip = 40; continue _fun0008;
-case 35:
-            var2 = _closure1_slot15;
-            var1 = var2.bind(var3)(var5, var4);
-case 40:
-            return var1;
-        }
-    };
-    var _closure1_slot16 = var12;
     var12 = 10;
     var12 = var14[var12];
     var14 = var13.bind(var1)(var12);
@@ -846,7 +846,7 @@ case 43:
         }
     };
     var3['getRecurrenceOptions'] = var12;
-    var12 = function() {
+    var12 = function getInitialEventStartDate() {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var3 = _closure1_slot1;
@@ -867,7 +867,7 @@ case 0:
             var5 = 30;
             var2 = var1;
             if(!(var6 >= var5)) { _fun0010_ip = 47; continue _fun0010 }
-case 33:
+case 39:
             var2 = var1 + var4;
 case 47:
             var1 = var3.hour;
@@ -885,10 +885,10 @@ case 47:
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var3 = arg1;
-            var4 = _closure1_slot17;
+            var4 = _closure1_slot16;
             var2 = null;
             if(!(var2 == var3)) { _fun0011_ip = 48; continue _fun0011 }
-case 7:
+case 13:
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 5;
@@ -896,7 +896,7 @@ case 7:
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
             var5 = var2.bind(var5)();
-            _fun0011_ip = 34; continue _fun0011;
+            _fun0011_ip = 40; continue _fun0011;
 case 48:
             var6 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -905,7 +905,7 @@ case 48:
             var2 = undefined;
             var1 = var6.bind(var2)(var1);
             var5 = var1.bind(var2)(var3);
-case 34:
+case 40:
             var3 = var5.add;
             var2 = 1;
             var1 = 'hour';
@@ -925,7 +925,7 @@ case 0:
             var5 = arg3;
             var6 = null;
             if(!(var6 == var5)) { _fun0012_ip = 49; continue _fun0012 }
-case 6:
+case 12:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 5;
@@ -964,7 +964,7 @@ case 54:
             var8 = var9.bind(var4)(var11, var1);
 case 53:
             var1 = {};
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot17;
             var9 = var9.bind(var3)(var4, var5);
             var1['startDateTimeString'] = var9;
             var9 = var6 != var11;
@@ -1077,7 +1077,7 @@ case 65:
             var2 = {};
             var4 = var5.scheduled_start_time;
             if(!(var3 == var4)) { _fun0014_ip = 67; continue _fun0014 }
-case 8:
+case 14:
             var4 = var1.startDate;
             _fun0014_ip = 68; continue _fun0014;
 case 67:
@@ -1140,11 +1140,11 @@ case 72:
             var2 = var2.bind(var7)();
             var7 = var3 < var2;
             var2 = !var7;
-            if(var7) { _fun0015_ip = 29; continue _fun0015 }
+            if(var7) { _fun0015_ip = 35; continue _fun0015 }
 case 73:
             var7 = var5 != var6;
             if(!var7) { _fun0015_ip = 74; continue _fun0015 }
-case 36:
+case 3:
             var7 = var6 < var3;
 case 74:
             var3 = !var7;
@@ -1154,14 +1154,14 @@ case 76:
             var7 = var4.EXTERNAL;
             var4 = arg2;
             var4 = var4 !== var7;
-            if(var4) { _fun0015_ip = 30; continue _fun0015 }
+            if(var4) { _fun0015_ip = 36; continue _fun0015 }
 case 77:
             var4 = var5 != var6;
-case 30:
+case 36:
             var3 = var4;
 case 75:
             var2 = var3;
-case 29:
+case 35:
             var1 = var2;
 case 71:
             return var1;
@@ -1175,10 +1175,10 @@ case 0:
             var2 = arg1;
             var4 = arg2;
             var3 = null;
-            if(!(var3 != var2)) { _fun0016_ip = 36; continue _fun0016 }
-case 6:
-            if(!(var3 != var4)) { _fun0016_ip = 36; continue _fun0016 }
-case 7:
+            if(!(var3 != var2)) { _fun0016_ip = 3; continue _fun0016 }
+case 12:
+            if(!(var3 != var4)) { _fun0016_ip = 3; continue _fun0016 }
+case 13:
             var7 = _closure1_slot21;
             var6 = var2.startDate;
             var1 = var4.startDate;
@@ -1191,15 +1191,15 @@ case 79:
             var5 = var4.endDate;
             var1 = var7.bind(var8)(var6, var5);
 case 78:
-            _fun0016_ip = 28; continue _fun0016;
-case 36:
+            _fun0016_ip = 34; continue _fun0016;
+case 3:
             var2 = var3 == var2;
             if(!var2) { _fun0016_ip = 47; continue _fun0016 }
-case 33:
+case 39:
             var2 = var3 == var4;
 case 47:
             var1 = var2;
-case 28:
+case 34:
             return var1;
         }
     };
@@ -1277,12 +1277,12 @@ case 82:
             var2 = var4.slice;
             var1 = 0;
             var1 = var2.bind(var4)(var1, var3);
-            _fun0017_ip = 17; continue _fun0017;
+            _fun0017_ip = 23; continue _fun0017;
 case 85:
             var3 = var4.slice;
             var2 = 1;
             var1 = var3.bind(var4)(var2);
-case 17:
+case 23:
             return var1;
         }
     };
@@ -1294,7 +1294,7 @@ case 0:
             var4 = arg1;
             var1 = null;
             if(!(var1 != var4)) { _fun0018_ip = 86; continue _fun0018 }
-case 6:
+case 12:
             var2 = _closure1_slot23;
             var8 = undefined;
             var6 = var2.bind(var8)(var4);
@@ -1742,7 +1742,7 @@ case 55:
             var3 = _closure1_slot24;
             var3 = var3.bind(var7)(var8);
             var3 = var6.bind(var9)(var4, var3);
-            if(var3) { _fun0021_ip = 21; continue _fun0021 }
+            if(var3) { _fun0021_ip = 27; continue _fun0021 }
 case 123:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -1763,7 +1763,7 @@ case 124:
             var3 = var4.WEEKEND_ONLY;
 case 126:
             _fun0021_ip = 89; continue _fun0021;
-case 21:
+case 27:
             var4 = _closure1_slot4;
             var3 = var4.WEEKDAY_ONLY;
 case 89:
@@ -1821,7 +1821,7 @@ case 0:
             var6 = undefined;
             var4 = undefined;
             if(var1) { _fun0022_ip = 66; continue _fun0022 }
-case 3:
+case 9:
             var4 = var3.scheduled_start_time;
 case 66:
             var1 = var2.scheduledStartTime;
@@ -1854,14 +1854,14 @@ case 75:
 case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var1 != var2)) { _fun0023_ip = 26; continue _fun0023 }
+            if(!(var1 != var2)) { _fun0023_ip = 32; continue _fun0023 }
 case 137:
             var3 = var2.is_canceled;
             if(var3) { _fun0023_ip = 138; continue _fun0023 }
-case 26:
+case 32:
             var4 = arg2;
             var3 = arg3;
-            if(!(!(var4 < var3))) { _fun0023_ip = 25; continue _fun0023 }
+            if(!(!(var4 < var3))) { _fun0023_ip = 31; continue _fun0023 }
 case 139:
             var2 = var1 != var2;
             var1 = null;
@@ -1871,7 +1871,7 @@ case 141:
             var1 = var2.SCHEDULED;
 case 140:
             _fun0023_ip = 142; continue _fun0023;
-case 25:
+case 31:
             var2 = _closure1_slot6;
             var1 = var2.COMPLETED;
 case 142:

@@ -1856,7 +1856,7 @@ case 49:
         }
     };
     var3['useItemActionButtonPropsV2'] = var4;
-    var2 = function(arg1) {
+    var2 = function ForYouItemActionButtons(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var4 = arg1;

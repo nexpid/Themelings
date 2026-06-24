@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/useOpenNitroSubscribeActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default() {
+    var2 = function useOpenNitroSubscribeActionSheet() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arguments[0];

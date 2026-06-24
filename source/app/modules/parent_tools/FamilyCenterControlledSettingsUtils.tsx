@@ -5,14 +5,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var8;
-    var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
     var7 = function isSetAndNotDefault(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -195,6 +187,14 @@ case 14:
         }
     };
     var _closure1_slot5 = var4;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var10 = {};
+    var1 = true;
+    var10['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var10);
     var1 = 4;
     var8 = var8[var1];
     var1 = undefined;
@@ -204,7 +204,7 @@ case 14:
     var8 = var9.bind(var10)(var8);
     var3['isSetAndNotDefault'] = var7;
     var3['getGoreContentSettingOrDefault'] = var6;
-    var6 = function(arg1, arg2) {
+    var6 = function updateGoreContentSetting(arg1, arg2) {
         var5 = arg1;
         var3 = _closure1_slot3;
         var1 = undefined;
@@ -228,7 +228,7 @@ case 14:
     var3['updateGoreContentSetting'] = var6;
     var3['resolveExplicitContentSettingWithDefaultsForTeen'] = var5;
     var3['getExplicitContentSettingOrDefault'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function updateExplicitContentSetting(arg1, arg2) {
         var5 = arg1;
         var3 = _closure1_slot5;
         var1 = undefined;

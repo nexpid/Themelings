@@ -46,11 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot3;
         var3 = var4.useEffect;
         var2 = function() {
-            var4 = _closure1_slot4;
-            var2 = var4.isConnected;
-            var2 = var2.bind(var4)();
-            var _closure3_slot0 = var2;
-            var3 = function isGatewayConnectedListener() {
+            var4 = function isGatewayConnectedListener() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     var3 = _closure1_slot4;
@@ -125,9 +121,13 @@ case 2:
                     return var1;
                 }
             };
-            var _closure3_slot1 = var3;
-            var2 = var4.addChangeListener;
-            var2 = var2.bind(var4)(var3);
+            var _closure3_slot1 = var4;
+            var3 = _closure1_slot4;
+            var2 = var3.isConnected;
+            var2 = var2.bind(var3)();
+            var _closure3_slot0 = var2;
+            var2 = var3.addChangeListener;
+            var2 = var2.bind(var3)(var4);
             var1 = function() {
                 var3 = _closure1_slot4;
                 var2 = var3.removeChangeListener;

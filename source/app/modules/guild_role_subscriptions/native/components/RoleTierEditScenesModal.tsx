@@ -622,6 +622,27 @@ case 19:
     var2 = function RoleTierEditScenesModal(arg1) {
         var3 = arg1;
         var _closure2_slot0 = var3;
+        var1 = function handleClose(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var3 = _closure2_slot3;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
+                var4 = _closure2_slot3;
+                var3 = undefined;
+                var1 = arg1;
+                var1 = var4.bind(var3)(var1);
+case 24:
+                var3 = _closure2_slot8;
+                var1 = undefined;
+                var3 = var3.bind(var1)();
+                var2 = _closure2_slot6;
+                var2 = var2.bind(var1)();
+                return var1;
+            }
+        };
+        var _closure2_slot10 = var1;
         var1 = _closure1_slot11;
         var4 = undefined;
         var12 = var1.bind(var4)();
@@ -676,27 +697,6 @@ case 19:
         };
         var2 = var8.bind(var5)(var2, var3);
         var _closure2_slot8 = var2;
-        var2 = function handleClose(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                var3 = _closure2_slot3;
-                var1 = null;
-                if(!(var1 != var3)) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
-                var4 = _closure2_slot3;
-                var3 = undefined;
-                var1 = arg1;
-                var1 = var4.bind(var3)(var1);
-case 24:
-                var3 = _closure2_slot8;
-                var1 = undefined;
-                var3 = var3.bind(var1)();
-                var2 = _closure2_slot6;
-                var2 = var2.bind(var1)();
-                return var1;
-            }
-        };
-        var _closure2_slot9 = var2;
         var3 = var5.useMemo;
         var2 = new Array(1);
         var2[0] = var1;
@@ -721,7 +721,7 @@ case 26:
             return var1;
         };
         var9 = var3.bind(var5)(var1, var2);
-        var _closure2_slot10 = var9;
+        var _closure2_slot9 = var9;
         var1 = 18;
         var1 = var13[var1];
         var2 = var7.bind(var4)(var1);
@@ -729,12 +729,12 @@ case 26:
             var1 = {};
             var7 = _closure1_slot17;
             var6 = _closure2_slot0;
-            var4 = _closure2_slot9;
+            var4 = _closure2_slot10;
             var5 = undefined;
             var4 = var7.bind(var5)(var6, var4);
             var1['screens'] = var4;
             var4 = _closure1_slot15;
-            var3 = _closure2_slot10;
+            var3 = _closure2_slot9;
             var2 = _closure2_slot4;
             var2 = var4.bind(var5)(var3, var2);
             var1['initialStack'] = var2;
@@ -768,7 +768,7 @@ case 29:
                 var4 = _closure2_slot5;
                 var3 = undefined;
                 var4 = var4.bind(var3)(var5);
-                var5 = _closure2_slot10;
+                var5 = _closure2_slot9;
                 var4 = var5.findIndex;
                 var2 = function(arg1) {
                     var2 = _closure3_slot0;

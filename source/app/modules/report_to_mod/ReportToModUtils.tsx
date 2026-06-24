@@ -179,7 +179,7 @@ case 10:
         }
     };
     var3['canReportMessageToMods'] = var8;
-    var8 = function(arg1) {
+    var8 = function canAccessReportsChannel(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var5 = arguments[1];

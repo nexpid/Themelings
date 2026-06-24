@@ -192,20 +192,7 @@ case 0:
                 var6 = function() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 4;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var3 = var3.bind(var1)(var2);
-                        var2 = var3.getRootNavigationRef;
-                        var4 = var2.bind(var3)();
-                        var2 = null;
-                        if(!(var2 == var4)) { _fun0005_ip = 6; continue _fun0005 }
-case 13:
-                        return var1;
-case 6:
-                        var3 = function handleStateChange() {
+                        var4 = function handleStateChange() {
                             var3 = _closure3_slot0;
                             var2 = _closure1_slot7;
                             var1 = undefined;
@@ -213,23 +200,36 @@ case 6:
                             var2 = var3.bind(var1)(var2);
                             return var1;
                         };
-                        var1 = var3.bind(var1)();
-                        var2 = var4.addListener;
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 4;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.getRootNavigationRef;
+                        var3 = var2.bind(var3)();
+                        var2 = null;
+                        if(!(var2 == var3)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
+                        return var1;
+case 24:
+                        var1 = var4.bind(var1)();
+                        var2 = var3.addListener;
                         var1 = 'state';
-                        var1 = var2.bind(var4)(var1, var3);
+                        var1 = var2.bind(var3)(var1, var4);
                         return var1;
                     }
                 };
                 var5 = new Array(0);
                 var5 = var7.bind(var8)(var6, var5);
                 if(!(var4 !== var3)) { _fun0004_ip = 15; continue _fun0004 }
-case 24:
+case 26:
                 var4 = _closure1_slot5;
                 var2 = null;
-                if(!(var3 !== var4)) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+                if(!(var3 !== var4)) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                 var2 = var3;
-case 25:
+case 27:
                 var1 = var2;
 case 15:
                 return var1;

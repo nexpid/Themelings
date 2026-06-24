@@ -472,9 +472,81 @@ case 0:
             var6 = var2.guildId;
             var _closure2_slot0 = var6;
             var4 = undefined;
+            var _closure2_slot1 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
-            var _closure2_slot10 = var4;
+            var2 = function handleEditListing(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var7 = arg1;
+                    var _closure3_slot0 = var7;
+                    var4 = _closure1_slot10;
+                    var3 = var4.getGuild;
+                    var1 = _closure2_slot0;
+                    var3 = var3.bind(var4)(var1);
+                    var8 = _closure1_slot1;
+                    var4 = _closure1_slot3;
+                    var1 = 35;
+                    var5 = var4[var1];
+                    var1 = undefined;
+                    var8 = var8.bind(var1)(var5);
+                    var10 = null;
+                    var5 = var10 != var3;
+                    var3 = 'guild must not be null';
+                    var3 = var8.bind(var1)(var5, var3);
+                    var3 = _closure1_slot2;
+                    var2 = 33;
+                    var2 = var4[var2];
+                    var5 = var3.bind(var1)(var2);
+                    var4 = var5.pushTierEditScene;
+                    var3 = _closure2_slot1;
+                    var2 = {};
+                    var8 = _closure2_slot3;
+                    var10 = var10 == var8;
+                    var8 = undefined;
+                    if(var10) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
+                    var9 = _closure2_slot3;
+                    var8 = var9.id;
+case 33:
+                    var2['groupListingId'] = var8;
+                    var2['initialEditStateId'] = var7;
+                    var6 = function onBeforeDispatchNewListing(arg1) {
+                        var1 = arg1;
+                        var4 = var1.id;
+                        var3 = _closure3_slot0;
+                        var2 = function handleListingCreated(arg1, arg2) {
+                            var1 = arg1;
+                            var _closure5_slot0 = var1;
+                            var1 = arg2;
+                            var _closure5_slot1 = var1;
+                            var3 = _closure2_slot7;
+                            var1 = undefined;
+                            var2 = function(arg1) {
+                                var1 = {};
+                                var4 = arg1;
+                                var5 = var1;
+                                var2 = copyDataProperties(var5, var4);
+                                var3 = _closure5_slot1;
+                                var2 = _closure5_slot0;
+                                var1[2] = var2;
+                                return var1;
+                            };
+                            var2 = var3.bind(var1)(var2);
+                            return var1;
+                        };
+                        var1 = undefined;
+                        var2 = var2.bind(var1)(var4, var3);
+                        return var1;
+                    };
+                    var2['onBeforeDispatchNewListing'] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
+                }
+            };
+            var _closure2_slot10 = var2;
             var2 = _closure1_slot19;
             var17 = var2.bind(var4)();
             var3 = _closure1_slot1;
@@ -494,7 +566,7 @@ case 0:
             var3 = var7.bind(var4)(var2);
             var2 = var3.useNavigation;
             var2 = var2.bind(var3)();
-            var _closure2_slot1 = var2;
+            _closure2_slot1 = var2;
             var3 = 27;
             var3 = var9[var3];
             var5 = var7.bind(var4)(var3);
@@ -518,7 +590,7 @@ case 0:
             var16 = var3.bind(var7)(var6);
             var3 = 0;
             var11 = var16[var3];
-            var _closure2_slot3 = var11;
+            _closure2_slot3 = var11;
             var8 = var16.map;
             var7 = function(arg1) {
                 var1 = arg1;
@@ -550,7 +622,7 @@ case 0:
             var _closure2_slot6 = var3;
             var7 = 1;
             var7 = var8[var7];
-            var _closure2_slot7 = var7;
+            _closure2_slot7 = var7;
             var9 = _closure1_slot5;
             var8 = var9.useMemo;
             var7 = new Array(2);
@@ -560,16 +632,16 @@ case 0:
                 var3 = _closure2_slot5;
                 var2 = var3.map;
                 var1 = function(arg1) {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var1 = arg1;
                         var2 = _closure2_slot6;
                         var2 = var2[var1];
                         var3 = null;
-                        if(!(var3 != var2)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+                        if(!(var3 != var2)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                         var1 = var2;
-case 33:
+case 35:
                         return var1;
                     }
                 };
@@ -640,19 +712,19 @@ case 33:
             var2 = null;
             var15 = var2 == var11;
             var6 = undefined;
-            if(var15) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+            if(var15) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
             var6 = var11.id;
-case 35:
+case 37:
             var7[3] = var6;
             var6 = function() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = _closure2_slot2;
                     var2 = _closure1_slot2;
                     var3 = _closure1_slot3;
-                    if(var1) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                    if(var1) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
                     var1 = 34;
                     var1 = var3[var1];
                     var7 = undefined;
@@ -664,11 +736,11 @@ case 38:
                     var9 = _closure2_slot3;
                     var8 = null;
                     var8 = var8 == var9;
-                    if(var8) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                    if(var8) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
                     var8 = _closure2_slot3;
                     var7 = var8.id;
-case 39:
+case 41:
                     var1['groupListingId'] = var7;
                     var7 = function onAfterTierCreation() {
                         var3 = _closure2_slot1;
@@ -681,8 +753,8 @@ case 39:
                     };
                     var1['onAfterTierCreation'] = var7;
                     var1 = var4.bind(var5)(var1);
-                    _fun0005_ip = 17; continue _fun0005;
-case 37:
+                    _fun0006_ip = 17; continue _fun0006;
+case 39:
                     var1 = 33;
                     var1 = var3[var1];
                     var5 = undefined;
@@ -695,11 +767,11 @@ case 37:
                     var8 = _closure2_slot3;
                     var7 = null;
                     var7 = var7 == var8;
-                    if(var7) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                    if(var7) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
                     var6 = _closure2_slot3;
                     var5 = var6.id;
-case 41:
+case 43:
                     var1['groupListingId'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
 case 17:
@@ -733,24 +805,24 @@ case 17:
             var7[0] = var6;
             var7[1] = var15;
             var6 = function() {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var3 = _closure2_slot9;
                     var2 = _closure1_slot15;
                     var2 = var2.ROLE_SUBSCRIPTION_TIER_TEMPLATE;
-                    if(!(var3 === var2)) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+                    if(!(var3 === var2)) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
                     var2 = _closure2_slot8;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 43:
+case 45:
                     var1 = undefined;
                     return var1;
                 }
             };
             var6 = var8.bind(var9)(var6, var7);
-            if(var5) { _fun0003_ip = 45; continue _fun0003 }
-case 46:
+            if(var5) { _fun0003_ip = 47; continue _fun0003 }
+case 48:
             var7 = _closure1_slot17;
             var6 = _closure1_slot7;
             var5 = {};
@@ -763,77 +835,7 @@ case 46:
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             return var5;
-case 45:
-            var5 = function handleEditListing(arg1) {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-                    var7 = arg1;
-                    var _closure3_slot0 = var7;
-                    var4 = _closure1_slot10;
-                    var3 = var4.getGuild;
-                    var1 = _closure2_slot0;
-                    var3 = var3.bind(var4)(var1);
-                    var8 = _closure1_slot1;
-                    var4 = _closure1_slot3;
-                    var1 = 35;
-                    var5 = var4[var1];
-                    var1 = undefined;
-                    var8 = var8.bind(var1)(var5);
-                    var10 = null;
-                    var5 = var10 != var3;
-                    var3 = 'guild must not be null';
-                    var3 = var8.bind(var1)(var5, var3);
-                    var3 = _closure1_slot2;
-                    var2 = 33;
-                    var2 = var4[var2];
-                    var5 = var3.bind(var1)(var2);
-                    var4 = var5.pushTierEditScene;
-                    var3 = _closure2_slot1;
-                    var2 = {};
-                    var8 = _closure2_slot3;
-                    var10 = var10 == var8;
-                    var8 = undefined;
-                    if(var10) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
-                    var9 = _closure2_slot3;
-                    var8 = var9.id;
 case 47:
-                    var2['groupListingId'] = var8;
-                    var2['initialEditStateId'] = var7;
-                    var6 = function onBeforeDispatchNewListing(arg1) {
-                        var1 = arg1;
-                        var4 = var1.id;
-                        var3 = _closure3_slot0;
-                        var2 = function(arg1, arg2) {
-                            var1 = arg1;
-                            var _closure5_slot0 = var1;
-                            var1 = arg2;
-                            var _closure5_slot1 = var1;
-                            var3 = _closure2_slot7;
-                            var1 = undefined;
-                            var2 = function(arg1) {
-                                var1 = {};
-                                var4 = arg1;
-                                var5 = var1;
-                                var2 = copyDataProperties(var5, var4);
-                                var3 = _closure5_slot1;
-                                var2 = _closure5_slot0;
-                                var1[2] = var2;
-                                return var1;
-                            };
-                            var2 = var3.bind(var1)(var2);
-                            return var1;
-                        };
-                        var1 = undefined;
-                        var2 = var2.bind(var1)(var4, var3);
-                        return var1;
-                    };
-                    var2['onBeforeDispatchNewListing'] = var6;
-                    var2 = var4.bind(var5)(var3, var2);
-                    return var1;
-                }
-            };
-            _closure2_slot10 = var5;
             var2 = var2 == var3;
             var9 = undefined;
             if(var2) { _fun0003_ip = 49; continue _fun0003 }
@@ -854,7 +856,7 @@ case 50:
                     var3 = _closure2_slot10;
                     var2 = _closure3_slot0;
                     var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
+                    var2 = var3.bind(var1)(var2);
                     return var1;
                 };
                 var2['onPress'] = var1;

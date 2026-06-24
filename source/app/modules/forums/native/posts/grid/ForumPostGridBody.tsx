@@ -321,8 +321,8 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.thread;
-            var _closure2_slot0 = var3;
+            var5 = var1.thread;
+            var _closure2_slot0 = var5;
             var19 = var1.hasUnreads;
             var1 = var1.media;
             var _closure2_slot1 = var1;
@@ -330,31 +330,44 @@ case 0:
             var4 = undefined;
             var11 = var2.bind(var4)();
             var _closure2_slot2 = var11;
-            var5 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 14;
             var2 = var6[var2];
-            var5 = var5.bind(var4)(var2);
-            var2 = var5.useSomeAppliedTags;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useSomeAppliedTags;
             var6 = 2;
-            var5 = var2.bind(var5)(var3, var6);
+            var3 = var2.bind(var3)(var5, var6);
             var2 = _closure1_slot3;
-            var5 = var2.bind(var4)(var5, var6);
+            var3 = var2.bind(var4)(var3, var6);
             var6 = 0;
-            var21 = var5[var6];
+            var21 = var3[var6];
             var2 = 1;
-            var20 = var5[var2];
+            var20 = var3[var2];
             var2 = var21.length;
             var7 = var2 > var6;
+            var9 = _closure1_slot4;
+            var8 = var9.useMemo;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var2 = function() {
+                var4 = _closure2_slot1;
+                var3 = var4.slice;
+                var2 = 0;
+                var1 = 4;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
+            };
+            var3 = var8.bind(var9)(var2, var3);
             var2 = global;
-            var8 = var2.Math;
-            var5 = var8.max;
-            var9 = var1.length;
+            var9 = var2.Math;
+            var8 = var9.max;
+            var13 = var1.length;
             var2 = 4;
-            var2 = var9 - var2;
-            var13 = var5.bind(var8)(var6, var2);
-            var2 = var3.isMediaPost;
-            var18 = var2.bind(var3)();
+            var2 = var13 - var2;
+            var13 = var8.bind(var9)(var6, var2);
+            var2 = var5.isMediaPost;
+            var18 = var2.bind(var5)();
             var2 = function useMediaGridLayout(arg1, arg2) {
                 var3 = arg1;
                 var5 = arg2;
@@ -506,7 +519,7 @@ case 8:
                 var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var17 = var2.bind(var4)(var1, var18);
+            var17 = var2.bind(var4)(var3, var18);
             var5 = _closure1_slot4;
             var3 = var5.useMemo;
             var2 = new Array(1);

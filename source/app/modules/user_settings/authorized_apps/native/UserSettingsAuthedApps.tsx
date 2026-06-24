@@ -98,69 +98,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_settings/authorized_apps/native/UserSettingsAuthedApps.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function _default() {
+    var4 = function UserSettingsAuthedApps() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = _closure1_slot15;
-            var5 = undefined;
-            var6 = var1.bind(var5)();
-            var _closure2_slot0 = var6;
-            var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var1 = 11;
-            var1 = var9[var1];
-            var1 = var3.bind(var5)(var1);
-            var1 = var1.bind(var5)();
-            var13 = var1.bottom;
-            var8 = _closure1_slot0;
-            var1 = 12;
-            var1 = var9[var1];
-            var10 = var8.bind(var5)(var1);
-            var4 = var10.useStateFromStoresObject;
-            var1 = _closure1_slot7;
-            var3 = new Array(1);
-            var3[0] = var1;
-            var1 = function() {
-                var1 = {};
-                var3 = _closure1_slot7;
-                var2 = var3.getFetchState;
-                var2 = var2.bind(var3)();
-                var1['fetchState'] = var2;
-                var2 = var3.getNewestTokensForNonChildrenApplications;
-                var2 = var2.bind(var3)();
-                var1['appAuthTokens'] = var2;
-                return var1;
-            };
-            var1 = var4.bind(var10)(var3, var1);
-            var3 = var1.fetchState;
-            var10 = var1.appAuthTokens;
-            var _closure2_slot1 = var10;
-            var1 = 13;
-            var1 = var9[var1];
-            var4 = var8.bind(var5)(var1);
-            var1 = var4.useNavigation;
-            var1 = var1.bind(var4)();
-            var _closure2_slot2 = var1;
-            var4 = 14;
-            var4 = var9[var4];
-            var9 = var8.bind(var5)(var4);
-            var8 = var9.useFocusEffect;
-            var11 = _closure1_slot3;
-            var14 = var11.useCallback;
-            var12 = function() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 15;
-                var2 = var2[var1];
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var1 = var2.fetch;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var4 = new Array(0);
-            var4 = var14.bind(var11)(var12, var4);
-            var4 = var8.bind(var9)(var4);
             var8 = function renderHeader() {
                 var4 = _closure1_slot12;
                 var3 = _closure1_slot13;
@@ -194,8 +134,8 @@ case 0:
                 var9 = var14.bind(var1)(var9);
                 var12 = var9.Text;
                 var10 = {};
-                var9 = _closure2_slot0;
-                var13 = var9.headerDescription;
+                var13 = _closure2_slot0;
+                var13 = var13.headerDescription;
                 var10['style'] = var13;
                 var13 = 'heading-sm/medium';
                 var10['variant'] = var13;
@@ -216,6 +156,7 @@ case 0:
                 var5 = new Array(2);
                 var5[0] = var6;
                 var6 = {};
+                var9 = _closure2_slot0;
                 var9 = var9.appListHeader;
                 var6['style'] = var9;
                 var9 = 18;
@@ -241,6 +182,66 @@ case 0:
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
+            var1 = _closure1_slot15;
+            var5 = undefined;
+            var6 = var1.bind(var5)();
+            var _closure2_slot0 = var6;
+            var3 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var1 = 11;
+            var1 = var11[var1];
+            var1 = var3.bind(var5)(var1);
+            var1 = var1.bind(var5)();
+            var13 = var1.bottom;
+            var9 = _closure1_slot0;
+            var1 = 12;
+            var1 = var11[var1];
+            var10 = var9.bind(var5)(var1);
+            var4 = var10.useStateFromStoresObject;
+            var1 = _closure1_slot7;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var1 = {};
+                var3 = _closure1_slot7;
+                var2 = var3.getFetchState;
+                var2 = var2.bind(var3)();
+                var1['fetchState'] = var2;
+                var2 = var3.getNewestTokensForNonChildrenApplications;
+                var2 = var2.bind(var3)();
+                var1['appAuthTokens'] = var2;
+                return var1;
+            };
+            var1 = var4.bind(var10)(var3, var1);
+            var3 = var1.fetchState;
+            var10 = var1.appAuthTokens;
+            var _closure2_slot1 = var10;
+            var1 = 13;
+            var1 = var11[var1];
+            var4 = var9.bind(var5)(var1);
+            var1 = var4.useNavigation;
+            var1 = var1.bind(var4)();
+            var _closure2_slot2 = var1;
+            var4 = 14;
+            var4 = var11[var4];
+            var12 = var9.bind(var5)(var4);
+            var9 = var12.useFocusEffect;
+            var11 = _closure1_slot3;
+            var15 = var11.useCallback;
+            var14 = function() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 15;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var1 = var2.fetch;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var4 = new Array(0);
+            var4 = var15.bind(var11)(var14, var4);
+            var4 = var9.bind(var12)(var4);
             var9 = var11.useCallback;
             var4 = new Array(1);
             var4[0] = var1;
@@ -445,7 +446,7 @@ case 8:
         }
     };
     var3['default'] = var4;
-    var2 = function(arg1) {
+    var2 = function DisclosureIcon(arg1) {
         var2 = arg1;
         var6 = var2.disclosure;
         var _closure2_slot0 = var6;

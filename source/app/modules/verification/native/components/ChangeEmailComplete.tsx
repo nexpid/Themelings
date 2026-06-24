@@ -7,6 +7,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
+    var1 = function handlePress() {
+        var3 = _closure1_slot6;
+        var1 = undefined;
+        var3 = var3.bind(var1)();
+        var3 = _closure1_slot1;
+        var4 = _closure1_slot2;
+        var2 = 6;
+        var2 = var4[var2];
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.close;
+        var2 = var2.bind(var3)();
+        return var1;
+    };
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -96,20 +110,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['tooltip'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = function handlePress() {
-        var3 = _closure1_slot6;
-        var1 = undefined;
-        var3 = var3.bind(var1)();
-        var3 = _closure1_slot1;
-        var4 = _closure1_slot2;
-        var2 = 6;
-        var2 = var4[var2];
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.close;
-        var2 = var2.bind(var3)();
-        return var1;
-    };
-    var _closure1_slot10 = var4;
     var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

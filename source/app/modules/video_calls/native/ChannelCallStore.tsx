@@ -192,7 +192,7 @@ case 2:
     var9 = 'modules/video_calls/native/ChannelCallStore.tsx';
     var9 = var10.bind(var11)(var9);
     var3['focusTimeout'] = var8;
-    var8 = function(arg1) {
+    var8 = function setFocus(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var4 = _closure1_slot0;
@@ -215,7 +215,7 @@ case 2:
         return var1;
     };
     var3['setFocus'] = var8;
-    var8 = function() {
+    var8 = function toggleFocus() {
         var4 = _closure1_slot10;
         var3 = var4.getState;
         var3 = var3.bind(var4)();
@@ -245,7 +245,7 @@ case 2:
     };
     var3['toggleFocus'] = var8;
     var3['resetFocusTimer'] = var7;
-    var7 = function() {
+    var7 = function resetFocus() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot10;
@@ -282,7 +282,7 @@ case 6:
         }
     };
     var3['resetFocus'] = var7;
-    var7 = function() {
+    var7 = function clearFocusTimer() {
         var2 = _closure1_slot8;
         var1 = var2.stop;
         var1 = var1.bind(var2)();
@@ -290,7 +290,7 @@ case 6:
         return var1;
     };
     var3['clearFocusTimer'] = var7;
-    var7 = function(arg1, arg2) {
+    var7 = function setVoiceChatDrawerState(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = arg2;
@@ -356,7 +356,7 @@ case 7:
     var3['setVoiceChatDrawerState'] = var7;
     var3['togglePipFocus'] = var6;
     var3['useIsVoiceChatFocused'] = var5;
-    var5 = function(arg1) {
+    var5 = function useChannelCallOrientationHandlers(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var9 = arg1;
@@ -590,7 +590,7 @@ case 26:
         }
     };
     var3['useChannelCallOrientationHandlers'] = var5;
-    var4 = function() {
+    var4 = function resetChannelCallStore() {
         var3 = _closure1_slot8;
         var2 = var3.stop;
         var2 = var2.bind(var3)();

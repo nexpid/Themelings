@@ -7,6 +7,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
+    var1 = function getBaseAnimationData() {
+        var1 = global;
+        var3 = var1.JSON;
+        var2 = var3.parse;
+        var5 = var1.JSON;
+        var4 = var5.stringify;
+        var7 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 6;
+        var6 = var6[var1];
+        var1 = undefined;
+        var1 = var7.bind(var1)(var6);
+        var1 = var4.bind(var5)(var1);
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var _closure1_slot12 = var1;
     var1 = function _doGuildOnboarding() {
         var5 = undefined;
         var1 = undefined;
@@ -88,7 +105,7 @@ case 19:
                     var5 = var5.bind(var8)(var9);
                     if(!var5) { _fun0001_ip = 14; continue _fun0001 }
 case 20:
-                    var8 = _closure1_slot12;
+                    var8 = _closure1_slot11;
                     var5 = function fetchLandingAsset() {
                         var1 = undefined;
                         var4 = _closure1_slot14;
@@ -214,7 +231,7 @@ case 37:
                     var7 = 13;
                     var7 = var9[var7];
                     var9 = var8.bind(var3)(var7);
-                    var7 = _closure1_slot10;
+                    var7 = _closure1_slot12;
                     var8 = var7.bind(var3)();
                     var10 = var6;
                     var6 = global;
@@ -233,7 +250,7 @@ case 32:
                     return var4;
 case 39: // catch_target0
                     CatchBlockStart(arg_register=3);
-                    var2 = _closure1_slot10;
+                    var2 = _closure1_slot12;
                     var2 = var2.bind(var3)();
                     return var2;
 case 22:
@@ -270,7 +287,7 @@ case 22:
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var4 = _closure1_slot11;
+                    var4 = _closure1_slot10;
                     var2 = _closure3_slot0;
                     var4 = var4[var2];
                     var2 = null;
@@ -279,7 +296,7 @@ case 5:
                     var2 = undefined;
                     var2 = var4.bind(var2)();
 case 40:
-                    var2 = _closure1_slot11;
+                    var2 = _closure1_slot10;
                     var4 = _closure3_slot0;
                     var2 = delete var2[var4];
                     var3 = _closure1_slot1;
@@ -305,13 +322,13 @@ case 40:
         var5 = function(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var4 = _closure1_slot11;
+                var4 = _closure1_slot10;
                 var1 = _closure2_slot0;
                 var4 = var4[var1];
                 var1 = null;
                 if(!(var1 == var4)) { _fun0004_ip = 41; continue _fun0004 }
 case 42:
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot10;
                 var4 = _closure2_slot0;
                 var1 = arg1;
                 var5[var4] = var1;
@@ -341,7 +358,7 @@ case 41:
                     return var1;
                 };
                 var4['onFinish'] = var9;
-                var9 = _closure1_slot12;
+                var9 = _closure1_slot11;
                 var9 = var9[var10];
                 var4['landingAnimation'] = var9;
                 var4['isFirstOpen'] = var8;
@@ -422,27 +439,10 @@ case 43:
     var _closure1_slot8 = var8;
     var5 = var5.Routes;
     var _closure1_slot9 = var5;
-    var5 = function getBaseAnimationData() {
-        var1 = global;
-        var3 = var1.JSON;
-        var2 = var3.parse;
-        var5 = var1.JSON;
-        var4 = var5.stringify;
-        var7 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 6;
-        var6 = var6[var1];
-        var1 = undefined;
-        var1 = var7.bind(var1)(var6);
-        var1 = var4.bind(var5)(var1);
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
+    var5 = {};
     var _closure1_slot10 = var5;
     var5 = {};
     var _closure1_slot11 = var5;
-    var5 = {};
-    var _closure1_slot12 = var5;
     var5 = 19;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -462,7 +462,7 @@ case 43:
     var3['default'] = var5;
     var3['openAndWaitForOnboarding'] = var4;
     var4 = function discardOnboardingPromise(arg1) {
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var1 = arg1;
         var1 = delete var2[var1];
         var1 = undefined;
@@ -470,7 +470,7 @@ case 43:
     };
     var3['discardOnboardingPromise'] = var4;
     var2 = function isOnboardingActiveForGuild(arg1) {
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var1 = arg1;
         var2 = var2[var1];
         var1 = null;

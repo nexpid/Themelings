@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/voice_calls/showActivitiesInvalidPermissionsAlert.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function() {
+    var2 = function showActivitiesInvalidPermissionsAlert() {
         var3 = _closure1_slot1;
         var9 = _closure1_slot2;
         var1 = 0;

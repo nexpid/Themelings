@@ -71,8 +71,20 @@ case 0:
             var14 = var1.initialGuildEvent;
             var1 = var1.onChange;
             var _closure2_slot1 = var1;
-            var1 = _closure1_slot11;
             var4 = undefined;
+            var _closure2_slot11 = var4;
+            var1 = function handleChangeEvent(arg1) {
+                var4 = _closure2_slot11;
+                var1 = undefined;
+                var3 = null;
+                var3 = var4.bind(var1)(var3);
+                var3 = _closure2_slot1;
+                var2 = arg1;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var _closure2_slot13 = var1;
+            var1 = _closure1_slot11;
             var17 = var1.bind(var4)();
             var26 = var2.name;
             var11 = var2.description;
@@ -254,7 +266,7 @@ case 4:
             var1 = var12.bind(var4)(var1, var7);
             var27 = var1[var3];
             var1 = var1[var2];
-            var _closure2_slot11 = var1;
+            _closure2_slot11 = var1;
             var2 = _closure1_slot0;
             var3 = _closure1_slot3;
             var1 = 9;
@@ -263,17 +275,6 @@ case 4:
             var1 = var2.useNavigation;
             var1 = var1.bind(var2)();
             var _closure2_slot12 = var1;
-            var1 = function handleChangeEvent(arg1) {
-                var4 = _closure2_slot11;
-                var1 = undefined;
-                var3 = null;
-                var3 = var4.bind(var1)(var3);
-                var3 = _closure2_slot1;
-                var2 = arg1;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var _closure2_slot13 = var1;
             var3 = _closure1_slot10;
             var2 = _closure1_slot9;
             var1 = {};

@@ -251,6 +251,24 @@ case 13:
             var12 = false;
 case 12:
             var _closure2_slot2 = var4;
+            var13 = function handleOnPress() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var3 = _closure2_slot1;
+                    var1 = null;
+                    var3 = var1 == var3;
+                    var4 = undefined;
+                    var1 = undefined;
+                    if(var3) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot0;
+                    var2 = !var2;
+                    var1 = var3.bind(var4)(var2);
+case 14:
+                    return var1;
+                }
+            };
             var1 = _closure1_slot8;
             var11 = var1.bind(var4)();
             var2 = _closure1_slot0;
@@ -271,24 +289,6 @@ case 12:
             var1 = 1;
             var1 = var2[var1];
             _closure2_slot2 = var1;
-            var13 = function handleOnPress() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    var3 = _closure2_slot1;
-                    var1 = null;
-                    var3 = var1 == var3;
-                    var4 = undefined;
-                    var1 = undefined;
-                    if(var3) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
-                    var3 = _closure2_slot1;
-                    var2 = _closure2_slot0;
-                    var2 = !var2;
-                    var1 = var3.bind(var4)(var2);
-case 14:
-                    return var1;
-                }
-            };
             var3 = var6.useEffect;
             var2 = new Array(1);
             var2[0] = var14;

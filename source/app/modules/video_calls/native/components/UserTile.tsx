@@ -565,7 +565,7 @@ case 27:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/video_calls/native/components/UserTile.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function UserTile(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var6 = arg1;

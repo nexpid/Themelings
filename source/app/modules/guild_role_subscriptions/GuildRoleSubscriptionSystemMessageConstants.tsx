@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/guild_role_subscriptions/GuildRoleSubscriptionSystemMessageConstants.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function() {
+    var5 = function getJoinButtonLabels() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
         var2 = 0;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getJoinButtonLabels'] = var5;
-    var4 = function() {
+    var4 = function getRenewButtonLabels() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
         var2 = 0;

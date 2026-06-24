@@ -7,6 +7,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
+    var1 = function keyExtractor(arg1) {
+        var1 = arg1;
+        var1 = var1.item;
+        var1 = var1.id;
+        return var1;
+    };
+    var _closure1_slot8 = var1;
     var1 = function FriendsEmptyComponent() {
         var1 = _closure1_slot7;
         var4 = undefined;
@@ -211,13 +218,6 @@ case 2:
     var4['goToFriendsLink'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = function keyExtractor(arg1) {
-        var1 = arg1;
-        var1 = var1.item;
-        var1 = var1.id;
-        return var1;
-    };
-    var _closure1_slot8 = var4;
     var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

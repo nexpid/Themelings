@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['platformStyles'] = var7;
     var _closure1_slot7 = var4;
     var4 = {};
-    var7 = 'function MediaViewerItemPresenterTsx1(){const{entranceAnimationDriver,interpolate,Extrapolation,startHeight,sourceHeight,startWidth,sourceWidth,startTranslateY,startTranslateX,startScale}=this.__closure;const entranceValue=entranceAnimationDriver.get();const interpolateProxy=function(from,to){return interpolate(entranceValue,from,to,Extrapolation.CLAMP);};return{height:interpolateProxy([0,1],[startHeight,sourceHeight]),width:interpolateProxy([0,1],[startWidth,sourceWidth]),top:interpolateProxy([0,1],[startTranslateY,0]),left:interpolateProxy([0,1],[startTranslateX,0]),borderRadius:interpolateProxy([0,0.25],[16,0]),transform:[{scale:interpolateProxy([0,1],[startScale,1])}]};}';
+    var7 = 'function MediaViewerItemPresenterTsx1(){const{entranceAnimationDriver,interpolate,Extrapolation,startHeight,sourceHeight,startWidth,sourceWidth,startTranslateY,startTranslateX,startScale}=this.__closure;const entranceValue=entranceAnimationDriver.get();function interpolateProxy(from,to){return interpolate(entranceValue,from,to,Extrapolation.CLAMP);}return{height:interpolateProxy([0,1],[startHeight,sourceHeight]),width:interpolateProxy([0,1],[startWidth,sourceWidth]),top:interpolateProxy([0,1],[startTranslateY,0]),left:interpolateProxy([0,1],[startTranslateX,0]),borderRadius:interpolateProxy([0,0.25],[16,0]),transform:[{scale:interpolateProxy([0,1],[startScale,1])}]};}';
     var4['code'] = var7;
     var _closure1_slot8 = var4;
     var4 = 8;
@@ -278,10 +278,6 @@ case 14:
             var5 = var20.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
             var2 = function O() {
-                var4 = _closure2_slot2;
-                var3 = var4.get;
-                var3 = var3.bind(var4)();
-                var _closure3_slot0 = var3;
                 var6 = function interpolateProxy(arg1, arg2) {
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -302,6 +298,10 @@ case 14:
                     var1 = var12[var5](var11, var10, var9, var8, var7);
                     return var1;
                 };
+                var4 = _closure2_slot2;
+                var1 = var4.get;
+                var1 = var1.bind(var4)();
+                var _closure3_slot0 = var1;
                 var1 = {};
                 var3 = _closure2_slot11;
                 var4 = new Array(2);
@@ -371,7 +371,7 @@ case 14:
             var10['startTranslateX'] = var15;
             var10['startScale'] = var14;
             var2['__closure'] = var10;
-            var10 = 7638182709879.0;
+            var10 = 15052076990644.0;
             var2['__workletHash'] = var10;
             var10 = _closure1_slot8;
             var2['__initData'] = var10;

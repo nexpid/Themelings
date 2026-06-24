@@ -42,6 +42,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function DevToolsProfilingUseStateFromStores() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
+            var18 = function renderLabel(arg1) {
+                var4 = _closure1_slot4;
+                var2 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var6 = 4;
+                var1 = var1[var6];
+                var3 = undefined;
+                var1 = var2.bind(var3)(var1);
+                var2 = var1.Text;
+                var1 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
+                var5 = {};
+                var5['marginBottom'] = var6;
+                var1['style'] = var5;
+                var5 = arg1;
+                var1['children'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
+            };
             var2 = _closure1_slot3;
             var5 = var2.useState;
             var12 = _closure1_slot0;
@@ -189,24 +207,6 @@ case 0:
             var6 = null;
             var23 = var1.bind(var2)(var6);
             var _closure2_slot9 = var23;
-            var18 = function renderLabel(arg1) {
-                var4 = _closure1_slot4;
-                var2 = _closure1_slot0;
-                var1 = _closure1_slot1;
-                var6 = 4;
-                var1 = var1[var6];
-                var3 = undefined;
-                var1 = var2.bind(var3)(var1);
-                var2 = var1.Text;
-                var1 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
-                var5 = {};
-                var5['marginBottom'] = var6;
-                var1['style'] = var5;
-                var5 = arg1;
-                var1['children'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
-                return var1;
-            };
             var3 = _closure1_slot6;
             var2 = _closure1_slot5;
             var1 = {};

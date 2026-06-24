@@ -161,6 +161,22 @@ case 9:
             var24 = false;
 case 8:
             var _closure2_slot2 = var4;
+            var22 = function handlePress() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var3 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot0;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+case 10:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
             var21 = var14.channel_id;
             _closure2_slot2 = var21;
             var2 = _closure1_slot0;
@@ -175,28 +191,28 @@ case 8:
             var2 = new Array(1);
             var2[0] = var21;
             var1 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var3 = _closure1_slot4;
                     var1 = var3.isConnected;
                     var1 = var1.bind(var3)();
-                    if(!var1) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                    if(!var1) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                     var3 = _closure1_slot4;
                     var2 = var3.getChannelId;
                     var3 = var2.bind(var3)();
                     var2 = _closure2_slot2;
                     var1 = var3 === var2;
-case 10:
+case 12:
                     return var1;
                 }
             };
             var18 = var5.bind(var6)(var3, var1, var2);
-            if(!var18) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+            if(!var18) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var1 = _closure1_slot5;
             var18 = var1.bind(var4)(var14);
-case 12:
+case 14:
             var16 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 11;
@@ -205,22 +221,6 @@ case 12:
             var2 = var3.recurrenceRuleFromServer;
             var1 = var14.recurrence_rule;
             var15 = var2.bind(var3)(var1);
-            var22 = function handlePress() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    var3 = _closure2_slot1;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
-                    var3 = _closure2_slot1;
-                    var2 = _closure2_slot0;
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
-case 14:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
             var3 = _closure1_slot7;
             var1 = 12;
             var1 = var11[var1];
@@ -324,7 +324,7 @@ case 0:
                     var5 = undefined;
                     var1 = undefined;
                     if(var3) { _fun0005_ip = 24; continue _fun0005 }
-case 11:
+case 13:
                     var4 = _closure2_slot1;
                     var3 = _closure2_slot0;
                     var2 = arg1;

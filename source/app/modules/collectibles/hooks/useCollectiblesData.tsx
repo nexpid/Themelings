@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/hooks/useCollectiblesData.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function useCollectiblesData(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var6 = _closure1_slot0;

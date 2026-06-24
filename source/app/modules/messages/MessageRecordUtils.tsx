@@ -1136,7 +1136,7 @@ case 93:
         }
     };
     var3['updateMessageRecord'] = var4;
-    var4 = function(arg1) {
+    var4 = function canEditMessageWithStickers(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var2 = arg1;

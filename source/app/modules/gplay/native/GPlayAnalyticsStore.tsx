@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/gplay/native/GPlayAnalyticsStore.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function(arg1, arg2) {
+    var5 = function setGPlayAnalytics(arg1, arg2) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var1 = arg2;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['setGPlayAnalytics'] = var5;
-    var4 = function(arg1) {
+    var4 = function deleteGPlayAnalytics(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var4 = _closure1_slot0;

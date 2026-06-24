@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SAFETY_TOOLS_MODAL_KEY'] = var4;
     var4 = 'SafetyToolsActionSheet-web';
     var3['WEB_SAFETY_TOOLS_CONTEXT'] = var4;
-    var4 = function(arg1) {
+    var4 = function getSafetyToolsActionSheetKey(arg1) {
         var1 = global;
         var1 = var1.HermesInternal;
         var3 = var1.concat;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getSafetyToolsActionSheetKey'] = var4;
-    var4 = function() {
+    var4 = function getStrangerDangerSafetyTips() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
         var2 = 0;
@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getStrangerDangerSafetyTips'] = var4;
-    var2 = function() {
+    var2 = function getInappropriateConversationsSafetyTips() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
         var2 = 0;

@@ -53,7 +53,7 @@ case 0:
                         var1 = null;
                         if(!(var4 === var3)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                        var4 = _closure1_slot15;
+                        var4 = _closure1_slot14;
                         var3 = undefined;
                         var2 = function() {
                             var3 = _closure3_slot1;
@@ -489,7 +489,7 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot14 = var5;
+    var _closure1_slot13 = var5;
     var4 = function getBadConnectionCTAProps(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
@@ -605,7 +605,7 @@ case 40:
         var1['trailing'] = var2;
         return var1;
     };
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var1 = function handleSoundboardMobileFloatingCtaClose() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -620,6 +620,42 @@ case 40:
         var2 = var2.DismissibleContent;
         var2 = var2.SOUNDBOARD_MOBILE_FLOATING_CTA;
         var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var _closure1_slot15 = var1;
+    var1 = function CloseSoundboardMobileFloatingCtaIcon() {
+        var4 = _closure1_slot11;
+        var3 = _closure1_slot5;
+        var2 = {};
+        var1 = 'button';
+        var2['accessibilityRole'] = var1;
+        var6 = _closure1_slot0;
+        var8 = _closure1_slot2;
+        var7 = 23;
+        var9 = var8[var7];
+        var1 = undefined;
+        var9 = var6.bind(var1)(var9);
+        var10 = var9.intl;
+        var9 = var10.string;
+        var7 = var8[var7];
+        var7 = var6.bind(var1)(var7);
+        var7 = var7.t;
+        var7 = var7.cpT0Cq;
+        var7 = var9.bind(var10)(var7);
+        var2['accessibilityLabel'] = var7;
+        var7 = _closure1_slot15;
+        var2['onPress'] = var7;
+        var7 = _closure1_slot11;
+        var5 = 24;
+        var5 = var8[var5];
+        var5 = var6.bind(var1)(var5);
+        var6 = var5.XSmallIcon;
+        var5 = {};
+        var8 = 'interactive-icon-default';
+        var5['color'] = var8;
+        var5 = var7.bind(var1)(var6, var5);
+        var2['children'] = var5;
+        var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
     var _closure1_slot16 = var1;
@@ -690,7 +726,7 @@ case 17:
                     var1['analyticsSource'] = var4;
                     var1 = var2.bind(var3)(var1);
 case 42:
-                    var2 = _closure1_slot16;
+                    var2 = _closure1_slot15;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     return var1;
@@ -715,13 +751,13 @@ case 42:
             var4 = var6.bind(var7)(var5, var4);
             var3['label'] = var4;
             var6 = _closure1_slot11;
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot16;
             var4 = {};
             var4 = var6.bind(var2)(var5, var4);
             var3['trailing'] = var4;
             return var3;
 case 41:
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot14;
             var1 = var1.bind(var2)();
             return var1;
         }
@@ -781,42 +817,6 @@ case 41:
     var8 = 'BAD_CONNECTION';
     var7['BAD_CONNECTION'] = var8;
     var _closure1_slot12 = var7;
-    var8 = function CloseSoundboardMobileFloatingCtaIcon() {
-        var4 = _closure1_slot11;
-        var3 = _closure1_slot5;
-        var2 = {};
-        var1 = 'button';
-        var2['accessibilityRole'] = var1;
-        var6 = _closure1_slot0;
-        var8 = _closure1_slot2;
-        var7 = 23;
-        var9 = var8[var7];
-        var1 = undefined;
-        var9 = var6.bind(var1)(var9);
-        var10 = var9.intl;
-        var9 = var10.string;
-        var7 = var8[var7];
-        var7 = var6.bind(var1)(var7);
-        var7 = var7.t;
-        var7 = var7.cpT0Cq;
-        var7 = var9.bind(var10)(var7);
-        var2['accessibilityLabel'] = var7;
-        var7 = _closure1_slot16;
-        var2['onPress'] = var7;
-        var7 = _closure1_slot11;
-        var5 = 24;
-        var5 = var8[var5];
-        var5 = var6.bind(var1)(var5);
-        var6 = var5.XSmallIcon;
-        var5 = {};
-        var8 = 'interactive-icon-default';
-        var5['color'] = var8;
-        var5 = var7.bind(var1)(var6, var5);
-        var2['children'] = var5;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot13 = var8;
     var8 = 36;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
@@ -883,7 +883,7 @@ case 0:
                 return var1;
             };
             var1 = var6.bind(var7)(var1, var5);
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot13;
             var3 = var2.bind(var4)(var3);
             var2 = null;
             var1 = var2 != var1;

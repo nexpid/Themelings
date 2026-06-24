@@ -459,36 +459,6 @@ case 53:
     var15 = function handleSetRecentMentionsFilters(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-            var1 = {};
-            var11 = _closure1_slot28;
-            var12 = var1;
-            var4 = copyDataProperties(var12, var11);
-            var _closure2_slot0 = var1;
-            var5 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var4 = 19;
-            var7 = var6[var4];
-            var1 = undefined;
-            var8 = var5.bind(var1)(var7);
-            var7 = var8.defaults;
-            var4 = var6[var4];
-            var10 = var5.bind(var1)(var4);
-            var9 = var10.pick;
-            var5 = arg1;
-            var4 = ['guildFilter', 'roleFilter', 'everyoneFilter'];
-            var5 = var9.bind(var10)(var5, var4);
-            var4 = _closure1_slot28;
-            var4 = var7.bind(var8)(var5, var4);
-            _closure1_slot28 = var4;
-            var5 = _closure1_slot0;
-            var4 = 15;
-            var4 = var6[var4];
-            var4 = var5.bind(var1)(var4);
-            var7 = var4.Storage;
-            var6 = var7.set;
-            var5 = _closure1_slot22;
-            var4 = _closure1_slot28;
-            var4 = var6.bind(var7)(var5, var4);
             var7 = function changesTo(arg1, arg2) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -508,6 +478,36 @@ case 55:
                     return var1;
                 }
             };
+            var1 = {};
+            var12 = _closure1_slot28;
+            var13 = var1;
+            var4 = copyDataProperties(var13, var12);
+            var _closure2_slot0 = var1;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var4 = 19;
+            var8 = var6[var4];
+            var1 = undefined;
+            var9 = var5.bind(var1)(var8);
+            var8 = var9.defaults;
+            var4 = var6[var4];
+            var11 = var5.bind(var1)(var4);
+            var10 = var11.pick;
+            var5 = arg1;
+            var4 = ['guildFilter', 'roleFilter', 'everyoneFilter'];
+            var5 = var10.bind(var11)(var5, var4);
+            var4 = _closure1_slot28;
+            var4 = var8.bind(var9)(var5, var4);
+            _closure1_slot28 = var4;
+            var5 = _closure1_slot0;
+            var4 = 15;
+            var4 = var6[var4];
+            var4 = var5.bind(var1)(var4);
+            var8 = var4.Storage;
+            var6 = var8.set;
+            var5 = _closure1_slot22;
+            var4 = _closure1_slot28;
+            var4 = var6.bind(var8)(var5, var4);
             var4 = _closure1_slot17;
             var5 = var4.THIS_SERVER;
             var4 = 'guildFilter';

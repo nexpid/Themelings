@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/directory_channels/native/components/GuildDirectoryMoreMenu.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function GuildDirectoryMoreMenu(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -71,7 +71,7 @@ case 3:
             var9 = var10.bind(var5)(var9);
             var9 = var9.PencilIcon;
             var4['IconComponent'] = var9;
-            var9 = function action() {
+            var9 = function handleEdit() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
                 var1 = 3;
@@ -112,7 +112,7 @@ case 5:
             var3['IconComponent'] = var8;
             var8 = 'destructive';
             var3['variant'] = var8;
-            var8 = function action() {
+            var8 = function handleRemove() {
                 var3 = _closure1_slot1;
                 var10 = _closure1_slot3;
                 var1 = 4;
@@ -230,7 +230,7 @@ case 7:
             var1['IconComponent'] = var4;
             var4 = 'destructive';
             var1['variant'] = var4;
-            var4 = function action() {
+            var4 = function handleReport() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot3;
                 var1 = 8;

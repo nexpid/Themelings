@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var9.MetaStickerType;
     var3['MetaStickerType'] = var9;
     var3['StickerExtensions'] = var8;
-    var8 = function(arg1) {
+    var8 = function isAnimatedSticker(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 1;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['isAnimatedSticker'] = var8;
-    var7 = function(arg1) {
+    var7 = function isCustomSticker(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 1;

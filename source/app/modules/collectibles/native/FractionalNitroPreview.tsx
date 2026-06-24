@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/FractionalNitroPreview.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function() {
+    var2 = function FractionalNitroPreview() {
         var1 = _closure1_slot7;
         var4 = undefined;
         var9 = var1.bind(var4)();

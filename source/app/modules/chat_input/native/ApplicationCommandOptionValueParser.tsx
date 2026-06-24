@@ -868,7 +868,7 @@ case 65:
     var3['getRoles'] = var6;
     var3['getChannels'] = var5;
     var3['ApplicationCommandOptionValueParser'] = var4;
-    var4 = function(arg1, arg2, arg3) {
+    var4 = function parseOptionValuesForSend(arg1, arg2, arg3) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var14 = arg1;
@@ -954,7 +954,7 @@ case 84:
         }
     };
     var3['parseOptionValuesForSend'] = var4;
-    var2 = function(arg1) {
+    var2 = function useApplicationCommandOptionValueParser(arg1) {
         var2 = arg1;
         var5 = var2.channel;
         var _closure2_slot0 = var5;

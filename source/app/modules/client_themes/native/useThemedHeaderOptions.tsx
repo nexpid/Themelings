@@ -7,6 +7,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
+    var1 = function headerBackground() {
+        var4 = _closure1_slot4;
+        var2 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 2;
+        var1 = var3[var1];
+        var3 = undefined;
+        var2 = var2.bind(var3)(var1);
+        var1 = {'absolute': true, 'tall': true, 'wide': true};
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot6 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -30,19 +43,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['headerBackground'] = var1;
     var4['contentStyle'] = var1;
     var _closure1_slot5 = var4;
-    var4 = function headerBackground() {
-        var4 = _closure1_slot4;
-        var2 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 2;
-        var1 = var3[var1];
-        var3 = undefined;
-        var2 = var2.bind(var3)(var1);
-        var1 = {'absolute': true, 'tall': true, 'wide': true};
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot6 = var4;
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

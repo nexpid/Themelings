@@ -156,7 +156,7 @@ case 9:
     var2 = var5[var2];
     var12 = var6.bind(var1)(var2);
     var2 = {};
-    var4 = function GUILD_ROLE_CONNECTION_ELIGIBILITY_FETCH_SUCCESS(arg1) {
+    var4 = function handleFetchSuccess(arg1) {
         var1 = arg1;
         var4 = var1.roleId;
         var3 = var1.roleConnectionEligibility;

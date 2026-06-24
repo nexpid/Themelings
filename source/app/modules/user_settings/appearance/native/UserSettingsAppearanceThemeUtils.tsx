@@ -54,33 +54,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
-    var1 = global;
-    var8 = var1.Object;
-    var5 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var4 = var7[var1];
-    var1 = undefined;
-    var4 = var6.bind(var1)(var4);
-    var5 = var4.AnalyticEvents;
-    var _closure1_slot3 = var5;
-    var4 = var4.ThemeTypes;
-    var _closure1_slot4 = var4;
-    var4 = 1;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.BACKGROUND_GRADIENT_PRESETS_MOBILE;
-    var _closure1_slot5 = var4;
-    var4 = 2;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.AnalyticsPremiumFeatureNames;
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var1;
     var4 = function trackClientThemeUpdated(arg1) {
         var1 = arg1;
         var8 = var1.isPersisted;
@@ -107,24 +81,50 @@ case 2:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.AnalyticEvents;
+    var _closure1_slot3 = var8;
+    var5 = var5.ThemeTypes;
+    var _closure1_slot4 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.BACKGROUND_GRADIENT_PRESETS_MOBILE;
+    var _closure1_slot5 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.AnalyticsPremiumFeatureNames;
+    var _closure1_slot6 = var5;
     var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/user_settings/appearance/native/UserSettingsAppearanceThemeUtils.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function(arg1, arg2, arg3) {
+    var5 = function handleSaveTheme(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var1 = {};
             var4 = true;
             var1['isPersisted'] = var4;
             var4 = arg3;
             var1['isSynced'] = var4;
-            var6 = _closure1_slot8;
+            var6 = _closure1_slot7;
             var4 = undefined;
             var6 = var6.bind(var4)(var5);
             var1['themeName'] = var6;
@@ -268,7 +268,7 @@ case 18:
     };
     var3['handleSaveTheme'] = var5;
     var3['trackClientThemeUpdated'] = var4;
-    var2 = function(arg1, arg2, arg3, arg4, arg5) {
+    var2 = function getUserThemeIndex(arg1, arg2, arg3, arg4, arg5) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = arg1;

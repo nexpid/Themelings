@@ -805,7 +805,7 @@ case 39:
     var16 = var13.SecondaryIndexMap;
     var13 = var16.prototype;
     var15 = Object.create(var13, {constructor: {value: var16}});
-    var19 = function(arg1) {
+    var19 = function scheduledEventIndex(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var7 = arg1;

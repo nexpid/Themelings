@@ -270,7 +270,7 @@ case 9:
     var3['CUSTOM_CALL_SOUND_ANIMATION_RANGE'] = var6;
     var3['AnimationTypeToAnimations'] = var5;
     var3['getResizedEmojiData'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function sampleAnimationId(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = arg1;

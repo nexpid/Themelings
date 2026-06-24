@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/safety_common/SafetySettingsUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1, arg2) {
+    var2 = function trackSafetySettingsNoticeAnalytics(arg1, arg2) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
         var1 = 1;

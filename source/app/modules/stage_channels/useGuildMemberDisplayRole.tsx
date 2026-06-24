@@ -1,30 +1,13 @@
 // app/modules/stage_channels/useGuildMemberDisplayRole.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var5 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var1 = metroImportAll;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var7;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var2 = {};
-    var1 = true;
-    var2['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
-    var1 = 0;
-    var2 = var7[var1];
-    var1 = undefined;
-    var2 = var5.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 1;
-    var2 = var7[var2];
-    var2 = var5.bind(var1)(var2);
-    var _closure1_slot4 = var2;
     var2 = function getHighestHoistedRole(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -101,6 +84,23 @@ case 11:
         }
     };
     var _closure1_slot5 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
     var5 = 4;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

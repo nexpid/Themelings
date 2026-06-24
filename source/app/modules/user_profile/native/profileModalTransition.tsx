@@ -76,8 +76,6 @@ case 2:
         var3 = new Array(1);
         var3[0] = var6;
         var2 = function() {
-            var2 = false;
-            var _closure3_slot0 = var2;
             var6 = function leave() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -97,11 +95,13 @@ case 4:
                     return var1;
                 }
             };
-            var _closure3_slot1 = var6;
+            var _closure3_slot2 = var6;
+            var2 = false;
+            var _closure3_slot0 = var2;
             var5 = _closure2_slot0;
             var4 = var5.addListener;
             var3 = 'transitionStart';
-            var2 = function() {
+            var2 = function enter() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure3_slot0;
@@ -131,9 +131,9 @@ case 4:
             var3 = 'gestureCancel';
             var3 = var4.bind(var5)(var3, var6);
             var2[2] = var3;
-            var _closure3_slot2 = var2;
+            var _closure3_slot1 = var2;
             var1 = function() {
-                var4 = _closure3_slot2;
+                var4 = _closure3_slot1;
                 var3 = var4.forEach;
                 var2 = function(arg1) {
                     var2 = arg1;
@@ -142,7 +142,7 @@ case 4:
                     return var1;
                 };
                 var2 = var3.bind(var4)(var2);
-                var2 = _closure3_slot1;
+                var2 = _closure3_slot2;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 return var1;

@@ -1522,7 +1522,7 @@ case 132:
     var3['handleCameraDialog'] = var11;
     var3['handleViewAllDialog'] = var10;
     var3['handleLimitedPickerDialog'] = var9;
-    var9 = function(arg1, arg2, arg3) {
+    var9 = function handleSelectGift(arg1, arg2, arg3) {
         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var8 = arg3;
@@ -1782,16 +1782,7 @@ case 101:
     var5 = function showSimpleMediaKeyboard(arg1) {
         var11 = arg1;
         var _closure2_slot0 = var11;
-        var3 = _closure1_slot32;
-        var1 = {};
-        var2 = _closure1_slot9;
-        var2 = var2.CHAT;
-        var1['target'] = var2;
-        var2 = var1.target;
-        var1 = undefined;
-        var10 = var3.bind(var1)(var2);
-        var _closure2_slot1 = var10;
-        var2 = function onAttachFileParams(arg1) {
+        var1 = function onAttachFileParams(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;
             var1 = {};
@@ -1832,7 +1823,16 @@ case 101:
             var1['onSelectFiles'] = var2;
             return var1;
         };
-        var _closure2_slot2 = var2;
+        var _closure2_slot2 = var1;
+        var3 = _closure1_slot32;
+        var1 = {};
+        var2 = _closure1_slot9;
+        var2 = var2.CHAT;
+        var1['target'] = var2;
+        var2 = var1.target;
+        var1 = undefined;
+        var10 = var3.bind(var1)(var2);
+        var _closure2_slot1 = var10;
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
         var5 = 18;

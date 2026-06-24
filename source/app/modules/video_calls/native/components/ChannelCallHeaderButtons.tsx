@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/video_calls/native/components/ChannelCallHeaderButtons.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function CameraButton() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = _closure1_slot0;
@@ -135,7 +135,7 @@ case 2:
         }
     };
     var3['CameraButton'] = var4;
-    var2 = function(arg1) {
+    var2 = function GridButton(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;

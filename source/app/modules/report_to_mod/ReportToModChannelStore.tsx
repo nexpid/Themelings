@@ -115,7 +115,7 @@ case 2:
     var5 = 'modules/report_to_mod/ReportToModChannelStore.tsx';
     var5 = var6.bind(var7)(var5);
     var3['useReportToModChannelFiltersStore'] = var4;
-    var2 = function(arg1) {
+    var2 = function useShouldShowResolvedFlagsForChannel(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = arg1;

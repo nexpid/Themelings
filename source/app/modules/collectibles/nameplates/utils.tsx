@@ -22,7 +22,7 @@ case 3:
             var2['src'] = var4;
             var4 = var3.label;
             var2['imgAlt'] = var4;
-            var5 = _closure1_slot5;
+            var5 = _closure1_slot8;
             var4 = var3.palette;
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
@@ -32,7 +32,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot6 = var6;
+    var _closure1_slot5 = var6;
     var5 = function isValidPalette(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -57,12 +57,12 @@ case 5:
             var2 = var3 !== var2;
             if(var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot7;
             var3 = var4.darkBackground;
             var3 = var7.bind(var6)(var3);
             if(!var3) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot7;
             var4 = var4.lightBackground;
             var3 = var5.bind(var6)(var4);
 case 8:
@@ -73,7 +73,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot7 = var5;
+    var _closure1_slot6 = var5;
     var1 = function isValidHex(arg1) {
         var3 = /^#([0-9a-fA-F]{6})$/;
         var2 = var3.test;
@@ -81,26 +81,7 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot8 = var1;
-    var1 = global;
-    var10 = var1.Object;
-    var7 = var10.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var10)(var3, var1, var4);
-    var1 = 0;
-    var4 = var9[var1];
-    var1 = undefined;
-    var4 = var8.bind(var1)(var4);
-    var4 = var4.isNameplateRecord;
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var9[var4];
-    var4 = var8.bind(var1)(var4);
-    var4 = var4.ThemeTypes;
-    var _closure1_slot4 = var4;
+    var _closure1_slot7 = var1;
     var4 = function getNameplatePalette(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -125,7 +106,26 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot8 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var7);
+    var1 = 0;
+    var7 = var9[var1];
+    var1 = undefined;
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.isNameplateRecord;
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.ThemeTypes;
+    var _closure1_slot4 = var7;
     var7 = 5;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -150,7 +150,7 @@ case 13:
             var1 = null;
             if(!var5) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var1 = var2.bind(var3)(var4);
 case 14:
             return var1;
@@ -164,7 +164,7 @@ case 12:
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot6;
             var3 = undefined;
             var4 = var4.bind(var3)(var1);
             if(var4) { _fun0005_ip = 16; continue _fun0005 }

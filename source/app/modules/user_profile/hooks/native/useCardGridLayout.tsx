@@ -6,6 +6,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot0 = var1;
     var _closure1_slot1 = var6;
+    var1 = function calculateTotalGaps(arg1, arg2) {
+        var2 = arg1;
+        var1 = 1;
+        var2 = var2 - var1;
+        var1 = arg2;
+        var1 = var1 * var2;
+        return var1;
+    };
+    var _closure1_slot3 = var1;
+    var1 = function calculateCardWidth(arg1, arg2, arg3) {
+        var2 = arg1;
+        var4 = _closure1_slot3;
+        var3 = undefined;
+        var1 = arg3;
+        var3 = var4.bind(var3)(var2, var1);
+        var1 = arg2;
+        var1 = var1 - var3;
+        var1 = var1 / var2;
+        return var1;
+    };
+    var _closure1_slot4 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -20,27 +41,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.PROFILE_SIDE_PADDING;
     var _closure1_slot2 = var4;
-    var4 = function calculateTotalGaps(arg1, arg2) {
-        var2 = arg1;
-        var1 = 1;
-        var2 = var2 - var1;
-        var1 = arg2;
-        var1 = var1 * var2;
-        return var1;
-    };
-    var _closure1_slot3 = var4;
-    var4 = function calculateCardWidth(arg1, arg2, arg3) {
-        var2 = arg1;
-        var4 = _closure1_slot3;
-        var3 = undefined;
-        var1 = arg3;
-        var3 = var4.bind(var3)(var2, var1);
-        var1 = arg2;
-        var1 = var1 - var3;
-        var1 = var1 / var2;
-        return var1;
-    };
-    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -125,8 +125,8 @@ case 17:
             var12 = var14;
             if(!var11) { _fun0001_ip = 16; continue _fun0001 }
 case 18:
-            var11 = var8 + 1;
             var14 = _closure1_slot4;
+            var11 = var8 + 1;
             var14 = var14.bind(var4)(var11, var7, var3);
             var2 = var11;
             var12 = var14;

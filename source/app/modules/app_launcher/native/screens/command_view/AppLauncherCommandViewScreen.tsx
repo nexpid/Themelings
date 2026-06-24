@@ -1788,47 +1788,6 @@ case 91:
 case 0:
                     var6 = arg1;
                     var _closure3_slot0 = var6;
-                    var3 = {};
-                    var1 = _closure1_slot19;
-                    var1 = var1.APP_LAUNCHER;
-                    var3['target'] = var1;
-                    var3['option'] = var6;
-                    var _closure3_slot1 = var3;
-                    var9 = _closure1_slot0;
-                    var10 = _closure1_slot3;
-                    var2 = 40;
-                    var7 = var10[var2];
-                    var1 = undefined;
-                    var8 = var9.bind(var1)(var7);
-                    var7 = var8.getMediaKeyboardDraftType;
-                    var3 = var3.target;
-                    var8 = var7.bind(var8)(var3);
-                    var _closure3_slot2 = var8;
-                    var7 = var6.type;
-                    var3 = 34;
-                    var3 = var10[var3];
-                    var3 = var9.bind(var1)(var3);
-                    var3 = var3.ApplicationCommandOptionType;
-                    var3 = var3.ATTACHMENT;
-                    var9 = undefined;
-                    if(!(var7 === var3)) { _fun0015_ip = 93; continue _fun0015 }
-case 94:
-                    var9 = var6.fileTypes;
-case 93:
-                    var11 = _closure1_slot0;
-                    var12 = _closure1_slot3;
-                    var3 = 41;
-                    var3 = var12[var3];
-                    var7 = var11.bind(var1)(var3);
-                    var3 = var7.getFileTypeFiltering;
-                    var3 = var3.bind(var7)(var9);
-                    var7 = var3.allowedExtensions;
-                    var _closure3_slot3 = var7;
-                    var9 = var3.validateFilenames;
-                    var _closure3_slot4 = var9;
-                    var9 = var3.showInvalidFileTypeAlert;
-                    var _closure3_slot5 = var9;
-                    var10 = var3.mediaFilesAllowed;
                     var13 = function onAttachFileParams(arg1) {
                         var1 = arg1;
                         var _closure4_slot0 = var1;
@@ -1862,7 +1821,7 @@ case 0:
                                 var1 = var1.length;
                                 var3 = 0;
                                 if(!(var1 > var3)) { _fun0016_ip = 89; continue _fun0016 }
-case 95:
+case 93:
                                 var6 = _closure3_slot4;
                                 var7 = _closure1_slot0;
                                 var5 = _closure1_slot3;
@@ -1878,7 +1837,7 @@ case 95:
                                 var1[0] = var7;
                                 var1 = var6.bind(var5)(var1);
                                 if(var1) { _fun0016_ip = 89; continue _fun0016 }
-case 96:
+case 94:
                                 var1 = _closure3_slot5;
                                 var1 = var1.bind(var5)();
                                 return var1;
@@ -1906,6 +1865,47 @@ case 89:
                         return var1;
                     };
                     var _closure3_slot6 = var13;
+                    var3 = {};
+                    var1 = _closure1_slot19;
+                    var1 = var1.APP_LAUNCHER;
+                    var3['target'] = var1;
+                    var3['option'] = var6;
+                    var _closure3_slot1 = var3;
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot3;
+                    var2 = 40;
+                    var7 = var10[var2];
+                    var1 = undefined;
+                    var8 = var9.bind(var1)(var7);
+                    var7 = var8.getMediaKeyboardDraftType;
+                    var3 = var3.target;
+                    var8 = var7.bind(var8)(var3);
+                    var _closure3_slot2 = var8;
+                    var7 = var6.type;
+                    var3 = 34;
+                    var3 = var10[var3];
+                    var3 = var9.bind(var1)(var3);
+                    var3 = var3.ApplicationCommandOptionType;
+                    var3 = var3.ATTACHMENT;
+                    var9 = undefined;
+                    if(!(var7 === var3)) { _fun0015_ip = 95; continue _fun0015 }
+case 96:
+                    var9 = var6.fileTypes;
+case 95:
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot3;
+                    var3 = 41;
+                    var3 = var12[var3];
+                    var7 = var11.bind(var1)(var3);
+                    var3 = var7.getFileTypeFiltering;
+                    var3 = var3.bind(var7)(var9);
+                    var7 = var3.allowedExtensions;
+                    var _closure3_slot3 = var7;
+                    var9 = var3.validateFilenames;
+                    var _closure3_slot4 = var9;
+                    var9 = var3.showInvalidFileTypeAlert;
+                    var _closure3_slot5 = var9;
+                    var10 = var3.mediaFilesAllowed;
                     var3 = _closure2_slot55;
                     var3 = var3.bind(var1)(var6);
                     var3 = 44;

@@ -4,6 +4,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
+    var1 = function _getEmojiCacheKey(arg1) {
+        var1 = arg1;
+        var5 = var1.name;
+        var4 = var1.id;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var2 = '';
+        var1 = '-';
+        var1 = var3.bind(var2)(var5, var1, var4);
+        return var1;
+    };
+    var _closure1_slot3 = var1;
     var1 = function _getFromCacheOrFallback2() {
         var5 = undefined;
         var1 = undefined;
@@ -82,51 +95,11 @@ case 2:
         return var1;
     };
     var _closure1_slot4 = var1;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot0 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.NativeModules;
-    var _closure1_slot1 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var8 = var7.bind(var1)(var4);
-    var4 = var8.prototype;
-    var7 = Object.create(var4, {constructor: {value: var8}});
-    var12 = 100;
-    var13 = var7;
-    var4 = new var13[var8](var12, var11);
-    var4 = var4 instanceof Object ? var4 : var7;
-    var _closure1_slot2 = var4;
-    var4 = function _getEmojiCacheKey(arg1) {
-        var1 = arg1;
-        var5 = var1.name;
-        var4 = var1.id;
-        var1 = global;
-        var1 = var1.HermesInternal;
-        var3 = var1.concat;
-        var2 = '';
-        var1 = '-';
-        var1 = var3.bind(var2)(var5, var1, var4);
-        return var1;
-    };
-    var _closure1_slot3 = var4;
-    var2 = function() {
+    var1 = function _getEmojiDominantColors() {
+        var5 = undefined;
+        var1 = undefined;
         var4 = _closure1_slot0;
-        var3 = undefined;
-        var2 = function* (arg1) {
+        var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -193,27 +166,60 @@ case 17:
             var2 = var2.bind(var1)();
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var2 = var2.bind(var1)();
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NativeModules;
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var8 = var7.bind(var1)(var4);
+    var4 = var8.prototype;
+    var7 = Object.create(var4, {constructor: {value: var8}});
+    var12 = 100;
+    var13 = var7;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot2 = var4;
     var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/emojis/native/utils/EmojiColorUtils.tsx';
     var4 = var5.bind(var6)(var4);
+    var2 = function getEmojiDominantColors() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
     var3['getEmojiDominantColors'] = var2;
     return var1;
 })();

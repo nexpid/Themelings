@@ -1,153 +1,20 @@
 // app/modules/stickers/StickersUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
-    var7 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var9;
-    var4 = function getFavoriteStickerIds() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = _closure1_slot2;
-            var1 = var1.frecencyWithoutFetchingLatest;
-            var4 = var1.favoriteStickers;
-            var3 = null;
-            var5 = var3 == var4;
-            var1 = undefined;
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = var4.stickerIds;
-case 2:
-            if(!(var3 == var1)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var1 = _closure1_slot19;
-case 4:
-            return var1;
-        }
-    };
-    var _closure1_slot20 = var4;
-    var5 = global;
-    var11 = var5.Object;
-    var10 = var11.defineProperty;
-    var6 = {};
-    var1 = true;
-    var6['value'] = var1;
-    var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var6);
-    var1 = 0;
-    var6 = var9[var1];
-    var1 = undefined;
-    var6 = var7.bind(var1)(var6);
-    var _closure1_slot2 = var6;
-    var6 = 1;
-    var6 = var9[var6];
-    var6 = var7.bind(var1)(var6);
-    var _closure1_slot3 = var6;
-    var6 = 2;
-    var6 = var9[var6];
-    var6 = var7.bind(var1)(var6);
-    var _closure1_slot4 = var6;
-    var6 = 3;
-    var6 = var9[var6];
-    var6 = var7.bind(var1)(var6);
-    var _closure1_slot5 = var6;
-    var6 = 4;
-    var6 = var9[var6];
-    var6 = var8.bind(var1)(var6);
-    var7 = var6.DEFAULT_STICKER_DIMENSIONS;
-    var _closure1_slot6 = var7;
-    var7 = var6.STICKER_APPLICATION_ID;
-    var _closure1_slot7 = var7;
-    var6 = var6.StickerAnimationSettings;
-    var _closure1_slot8 = var6;
-    var6 = 5;
-    var6 = var9[var6];
-    var6 = var8.bind(var1)(var6);
-    var12 = var6.Endpoints;
-    var _closure1_slot9 = var12;
-    var6 = var5.window;
-    var6 = var6.GLOBAL_ENV;
-    var15 = var6.API_ENDPOINT;
-    var _closure1_slot10 = var15;
-    var19 = var6.MEDIA_PROXY_ENDPOINT;
-    var _closure1_slot11 = var19;
-    var7 = var6.PROJECT_ENV;
-    var _closure1_slot12 = var7;
-    var18 = var6.ASSET_ENDPOINT;
-    var _closure1_slot13 = var18;
-    var6 = var6.CDN_HOST;
-    var _closure1_slot14 = var6;
-    var10 = var5.Object;
-    var7 = var10.values;
-    var6 = 6;
-    var6 = var9[var6];
-    var6 = var8.bind(var1)(var6);
-    var6 = var6.StickerExtensions;
-    var10 = var7.bind(var10)(var6);
-    var7 = var5.decodeURIComponent;
-    var11 = var12.STICKER_ASSET;
-    var6 = var10.join;
-    var17 = '|';
-    var10 = var6.bind(var10)(var17);
-    var6 = var5.HermesInternal;
-    var6 = var6.concat;
-    var14 = '(';
-    var13 = ')';
-    var10 = var6.bind(var14)(var10, var13);
-    var6 = '[\\d]+';
-    var6 = var11.bind(var12)(var6, var10);
-    var12 = var7.bind(var1)(var6);
-    var11 = var5.RegExp;
-    var6 = var5.location;
-    var27 = var6.protocol;
-    var6 = var5.location;
-    var24 = var6.protocol;
-    var6 = var5.HermesInternal;
-    var7 = var6.concat;
-    var22 = ')(';
-    var28 = var14;
-    var26 = var18;
-    var25 = var17;
-    var23 = var19;
-    var21 = var12;
-    var20 = var13;
-    var27 = var28[var7](var27, var26, var25, var24, var23, var22, var21, var20, var19);
-    var7 = var11.prototype;
-    var7 = Object.create(var7, {constructor: {value: var11}});
-    var10 = 'ig';
-    var28 = var7;
-    var26 = var10;
-    var6 = new var28[var11](var27, var26, var25);
-    var6 = var6 instanceof Object ? var6 : var7;
-    var _closure1_slot15 = var6;
-    var7 = var5.RegExp;
-    var6 = var5.location;
-    var27 = var6.protocol;
-    var5 = var5.HermesInternal;
-    var6 = var5.concat;
-    var28 = '';
-    var26 = var15;
-    var25 = var14;
-    var24 = var12;
-    var23 = var13;
-    var27 = var28[var6](var27, var26, var25, var24, var23, var22);
-    var6 = var7.prototype;
-    var6 = Object.create(var6, {constructor: {value: var7}});
-    var28 = var6;
-    var26 = var10;
-    var5 = new var28[var7](var27, var26, var25);
-    var5 = var5 instanceof Object ? var5 : var6;
-    var _closure1_slot16 = var5;
     var6 = function getStickerPackPreviewSticker(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var4 = var2.cover_sticker_id;
             var3 = null;
-            if(!(var3 != var4)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+            if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var2.stickers;
             var4 = var5.find;
             var1 = function(arg1) {
@@ -159,19 +26,19 @@ case 7:
                 return var1;
             };
             var1 = var4.bind(var5)(var1);
-            if(!(var3 == var1)) { _fun0002_ip = 8; continue _fun0002 }
-case 6:
+            if(!(var3 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var3 = var2.stickers;
             var2 = 0;
             var2 = var3[var2];
             return var2;
-case 8:
+case 4:
             return var1;
         }
     };
-    var _closure1_slot17 = var6;
+    var _closure1_slot18 = var6;
     var5 = function getStickerExtensionFromFormatType(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var7 = arg1;
             var3 = _closure1_slot0;
@@ -182,32 +49,32 @@ case 0:
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.PNG;
-            if(!(var1 !== var7)) { _fun0003_ip = 9; continue _fun0003 }
-case 6:
+            if(!(var1 !== var7)) { _fun0002_ip = 5; continue _fun0002 }
+case 2:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.APNG;
-            if(!(var1 !== var7)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(!(var1 !== var7)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.LOTTIE;
-            if(!(var1 !== var7)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+            if(!(var1 !== var7)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.GIF;
-            if(!(var1 !== var7)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+            if(!(var1 !== var7)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var1 = global;
             var6 = var1.Error;
             var1 = var1.HermesInternal;
@@ -220,7 +87,7 @@ case 15:
             var1 = new var9[var6](var8, var7);
             var1 = var1 instanceof Object ? var1 : var3;
             throw var1;
-case 14:
+case 10:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
@@ -228,7 +95,7 @@ case 14:
             var1 = var1.StickerExtensions;
             var1 = var1.GIF;
             return var1;
-case 12:
+case 8:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
@@ -236,7 +103,7 @@ case 12:
             var1 = var1.StickerExtensions;
             var1 = var1.LOTTIE;
             return var1;
-case 10:
+case 6:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
@@ -244,7 +111,7 @@ case 10:
             var1 = var1.StickerExtensions;
             var1 = var1.APNG;
             return var1;
-case 9:
+case 5:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 7;
@@ -256,19 +123,152 @@ case 9:
             var2 = var2[var5];
             var2 = var3.bind(var4)(var2);
             var2 = var2.StickerExtensions;
-            if(var1) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var1 = var2.PNG;
-            _fun0003_ip = 18; continue _fun0003;
-case 16:
+            _fun0002_ip = 14; continue _fun0002;
+case 12:
             var1 = var2.WEBP;
-case 18:
+case 14:
             return var1;
         }
     };
-    var _closure1_slot18 = var5;
+    var _closure1_slot19 = var5;
+    var4 = function getFavoriteStickerIds() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = _closure1_slot2;
+            var1 = var1.frecencyWithoutFetchingLatest;
+            var4 = var1.favoriteStickers;
+            var3 = null;
+            var5 = var3 == var4;
+            var1 = undefined;
+            if(var5) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+            var1 = var4.stickerIds;
+case 15:
+            if(!(var3 == var1)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+            var1 = _closure1_slot17;
+case 17:
+            return var1;
+        }
+    };
+    var _closure1_slot20 = var4;
+    var7 = global;
+    var13 = var7.Object;
+    var12 = var13.defineProperty;
+    var10 = {};
+    var1 = true;
+    var10['value'] = var1;
+    var1 = '__esModule';
+    var1 = var12.bind(var13)(var3, var1, var10);
+    var1 = 0;
+    var10 = var9[var1];
+    var1 = undefined;
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot2 = var10;
+    var10 = 1;
+    var10 = var9[var10];
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot3 = var10;
+    var10 = 2;
+    var10 = var9[var10];
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot4 = var10;
+    var10 = 3;
+    var10 = var9[var10];
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot5 = var10;
+    var10 = 4;
+    var10 = var9[var10];
+    var10 = var8.bind(var1)(var10);
+    var11 = var10.DEFAULT_STICKER_DIMENSIONS;
+    var _closure1_slot6 = var11;
+    var11 = var10.STICKER_APPLICATION_ID;
+    var _closure1_slot7 = var11;
+    var10 = var10.StickerAnimationSettings;
+    var _closure1_slot8 = var10;
+    var10 = 5;
+    var10 = var9[var10];
+    var10 = var8.bind(var1)(var10);
+    var14 = var10.Endpoints;
+    var _closure1_slot9 = var14;
+    var10 = var7.window;
+    var10 = var10.GLOBAL_ENV;
+    var17 = var10.API_ENDPOINT;
+    var _closure1_slot10 = var17;
+    var21 = var10.MEDIA_PROXY_ENDPOINT;
+    var _closure1_slot11 = var21;
+    var11 = var10.PROJECT_ENV;
+    var _closure1_slot12 = var11;
+    var20 = var10.ASSET_ENDPOINT;
+    var _closure1_slot13 = var20;
+    var10 = var10.CDN_HOST;
+    var _closure1_slot14 = var10;
+    var12 = var7.Object;
+    var11 = var12.values;
+    var10 = 6;
+    var10 = var9[var10];
+    var10 = var8.bind(var1)(var10);
+    var10 = var10.StickerExtensions;
+    var12 = var11.bind(var12)(var10);
+    var11 = var7.decodeURIComponent;
+    var13 = var14.STICKER_ASSET;
+    var10 = var12.join;
+    var19 = '|';
+    var12 = var10.bind(var12)(var19);
+    var10 = var7.HermesInternal;
+    var10 = var10.concat;
+    var16 = '(';
+    var15 = ')';
+    var12 = var10.bind(var16)(var12, var15);
+    var10 = '[\\d]+';
+    var10 = var13.bind(var14)(var10, var12);
+    var14 = var11.bind(var1)(var10);
+    var13 = var7.RegExp;
+    var10 = var7.location;
+    var29 = var10.protocol;
+    var10 = var7.location;
+    var26 = var10.protocol;
+    var10 = var7.HermesInternal;
+    var11 = var10.concat;
+    var24 = ')(';
+    var30 = var16;
+    var28 = var20;
+    var27 = var19;
+    var25 = var21;
+    var23 = var14;
+    var22 = var15;
+    var29 = var30[var11](var29, var28, var27, var26, var25, var24, var23, var22, var21);
+    var11 = var13.prototype;
+    var11 = Object.create(var11, {constructor: {value: var13}});
+    var12 = 'ig';
+    var30 = var11;
+    var28 = var12;
+    var10 = new var30[var13](var29, var28, var27);
+    var10 = var10 instanceof Object ? var10 : var11;
+    var _closure1_slot15 = var10;
+    var11 = var7.RegExp;
+    var10 = var7.location;
+    var29 = var10.protocol;
+    var7 = var7.HermesInternal;
+    var10 = var7.concat;
+    var30 = '';
+    var28 = var17;
+    var27 = var16;
+    var26 = var14;
+    var25 = var15;
+    var29 = var30[var10](var29, var28, var27, var26, var25, var24);
+    var10 = var11.prototype;
+    var10 = Object.create(var10, {constructor: {value: var11}});
+    var30 = var10;
+    var28 = var12;
+    var7 = new var30[var11](var29, var28, var27);
+    var7 = var7 instanceof Object ? var7 : var10;
+    var _closure1_slot16 = var7;
     var7 = new Array(0);
-    var _closure1_slot19 = var7;
+    var _closure1_slot17 = var7;
     var7 = 12;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -277,7 +277,7 @@ case 18:
     var7 = var8.bind(var9)(var7);
     var3['getStickerPackPreviewSticker'] = var6;
     var3['getStickerExtensionFromFormatType'] = var5;
-    var5 = function(arg1) {
+    var5 = function getStickerFormatTypeFromFileType(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
@@ -292,7 +292,7 @@ case 22:
 case 24:
             var1 = 'image/webp';
             if(!(var1 !== var4)) { _fun0004_ip = 23; continue _fun0004 }
-case 6:
+case 2:
             var1 = 'image/gif';
             if(!(var1 !== var4)) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
@@ -351,7 +351,7 @@ case 19:
         }
     };
     var3['getStickerFormatTypeFromFileType'] = var5;
-    var5 = function(arg1) {
+    var5 = function getFilenameForSticker(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;
@@ -360,7 +360,7 @@ case 0:
             if(var3) { _fun0005_ip = 27; continue _fun0005 }
 case 28:
             var6 = var2.name;
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot19;
             var3 = var2.format_type;
             var2 = undefined;
             var5 = var4.bind(var2)(var3);
@@ -433,7 +433,7 @@ case 38:
             var14 = var14.StickerFormat;
             var6 = var14.PNG;
 case 37:
-            var14 = _closure1_slot18;
+            var14 = _closure1_slot19;
             var17 = var14.bind(var16)(var6);
             var11 = var17;
             var15 = _closure1_slot9;
@@ -483,7 +483,7 @@ case 45:
             var14 = _closure1_slot12;
             var11 = 'development';
             if(!(var11 === var14)) { _fun0006_ip = 47; continue _fun0006 }
-case 17:
+case 13:
             var11 = global;
             var14 = var11.location;
             var18 = var14.protocol;
@@ -603,7 +603,7 @@ case 58:
             var2 = var2.SUPPORTS_WEBP;
             var13 = 'png';
             if(!var2) { _fun0007_ip = 59; continue _fun0007 }
-case 8:
+case 4:
             var13 = 'webp';
 case 59:
             var2 = _closure1_slot14;
@@ -659,7 +659,7 @@ case 57:
         }
     };
     var3['getStickerPackBannerAssetUrl'] = var5;
-    var5 = function(arg1) {
+    var5 = function isStickerAssetUrl(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = arg1;
@@ -669,10 +669,10 @@ case 0:
             if(!(var1 === var5)) { _fun0008_ip = 65; continue _fun0008 }
 case 29:
             var1 = _closure1_slot16;
-            _fun0008_ip = 2; continue _fun0008;
+            _fun0008_ip = 15; continue _fun0008;
 case 65:
             var1 = _closure1_slot15;
-case 2:
+case 15:
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var1 = var1 != var2;
@@ -680,7 +680,7 @@ case 2:
         }
     };
     var3['isStickerAssetUrl'] = var5;
-    var5 = function(arg1) {
+    var5 = function isStickerPackAnimated(arg1) {
         var1 = arg1;
         var3 = var1.stickers;
         var2 = var3.some;
@@ -725,7 +725,7 @@ case 68:
         return var1;
     };
     var3['isStickerPackAnimated'] = var5;
-    var5 = function(arg1) {
+    var5 = function createStickerPackCategory(arg1) {
         var4 = arg1;
         var1 = {};
         var6 = _closure1_slot0;
@@ -743,13 +743,13 @@ case 68:
         var1['name'] = var5;
         var5 = var4.stickers;
         var1['stickers'] = var5;
-        var2 = _closure1_slot17;
+        var2 = _closure1_slot18;
         var2 = var2.bind(var3)(var4);
         var1['previewSticker'] = var2;
         return var1;
     };
     var3['createStickerPackCategory'] = var5;
-    var5 = function(arg1, arg2) {
+    var5 = function shouldAnimateSticker(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var3 = arg1;
@@ -766,7 +766,7 @@ case 24:
         }
     };
     var3['shouldAnimateSticker'] = var5;
-    var5 = function(arg1, arg2, arg3, arg4) {
+    var5 = function shouldAttachSticker(arg1, arg2, arg3, arg4) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var5 = arg1;
@@ -778,7 +778,7 @@ case 0:
             var3 = var3.bind(var4)(var8, var7);
             var4 = 0;
             if(!(!(var3 > var4))) { _fun0011_ip = 70; continue _fun0011 }
-case 5:
+case 18:
             var6 = _closure1_slot5;
             var3 = var6.getStickerPreview;
             var3 = var3.bind(var6)(var8, var7);
@@ -841,7 +841,7 @@ case 70:
         }
     };
     var3['shouldAttachSticker'] = var5;
-    var5 = function(arg1) {
+    var5 = function isGuildSticker(arg1) {
         var1 = arg1;
         var2 = var1.type;
         var4 = _closure1_slot0;
@@ -856,7 +856,7 @@ case 70:
         return var1;
     };
     var3['isGuildSticker'] = var5;
-    var5 = function(arg1) {
+    var5 = function isStandardSticker(arg1) {
         var1 = arg1;
         var2 = var1.type;
         var4 = _closure1_slot0;
@@ -871,7 +871,7 @@ case 70:
         return var1;
     };
     var3['isStandardSticker'] = var5;
-    var5 = function(arg1) {
+    var5 = function getMessageStickers(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var2 = arg1;
@@ -885,10 +885,10 @@ case 79:
             if(!(!(var1 > var3))) { _fun0012_ip = 80; continue _fun0012 }
 case 81:
             var1 = new Array(0);
-            _fun0012_ip = 6; continue _fun0012;
+            _fun0012_ip = 2; continue _fun0012;
 case 80:
             var1 = var2.stickers;
-case 6:
+case 2:
             _fun0012_ip = 82; continue _fun0012;
 case 78:
             var1 = var2.stickerItems;
@@ -897,12 +897,12 @@ case 82:
         }
     };
     var3['getMessageStickers'] = var5;
-    var5 = function(arg1) {
+    var5 = function isAvailableGuildSticker(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var2 = null;
-            if(!(var2 !== var1)) { _fun0013_ip = 5; continue _fun0013 }
+            if(!(var2 !== var1)) { _fun0013_ip = 18; continue _fun0013 }
 case 83:
             var3 = var1.guild_id;
             var2 = _closure1_slot3;
@@ -911,7 +911,7 @@ case 83:
             var1 = undefined;
             var1 = var1 !== var2;
             return var1;
-case 5:
+case 18:
             var1 = false;
             return var1;
         }

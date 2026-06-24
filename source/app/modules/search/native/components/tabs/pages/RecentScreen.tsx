@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot24;
+            var9 = _closure1_slot22;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot24;
+            var7 = _closure1_slot22;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot21 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,6 +181,111 @@ case 4:
 case 35:
             return var1;
         }
+    };
+    var _closure1_slot22 = var1;
+    var1 = function ClearAllHistory(arg1) {
+        var1 = arg1;
+        var1 = var1.searchContext;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot17;
+        var11 = _closure1_slot0;
+        var12 = _closure1_slot2;
+        var1 = 11;
+        var1 = var12[var1];
+        var3 = undefined;
+        var1 = var11.bind(var3)(var1);
+        var2 = var1.PressableHighlight;
+        var1 = {'onPress': null, 'accessibilityRole': 'button', 'unstable_pressDelay': 130};
+        var6 = function onPress() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 12;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.clearSearchHistory;
+            var1 = _closure2_slot0;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1['onPress'] = var6;
+        var8 = 13;
+        var6 = var12[var8];
+        var6 = var11.bind(var3)(var6);
+        var9 = var6.intl;
+        var7 = var9.string;
+        var6 = var12[var8];
+        var6 = var11.bind(var3)(var6);
+        var6 = var6.t;
+        var6 = var6.LFTAUp;
+        var6 = var7.bind(var9)(var6);
+        var1['accessibilityLabel'] = var6;
+        var7 = _closure1_slot17;
+        var5 = 14;
+        var5 = var12[var5];
+        var5 = var11.bind(var3)(var5);
+        var6 = var5.Text;
+        var5 = {'variant': 'text-sm/semibold', 'color': 'text-brand'};
+        var9 = var12[var8];
+        var9 = var11.bind(var3)(var9);
+        var10 = var9.intl;
+        var9 = var10.string;
+        var8 = var12[var8];
+        var8 = var11.bind(var3)(var8);
+        var8 = var8.t;
+        var8 = var8.LFTAUp;
+        var8 = var9.bind(var10)(var8);
+        var5['children'] = var8;
+        var5 = var7.bind(var3)(var6, var5);
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot23 = var1;
+    var1 = function ViewAll(arg1) {
+        var1 = arg1;
+        var6 = var1.onJumpToMedia;
+        var4 = _closure1_slot17;
+        var11 = _closure1_slot0;
+        var12 = _closure1_slot2;
+        var1 = 11;
+        var1 = var12[var1];
+        var3 = undefined;
+        var1 = var11.bind(var3)(var1);
+        var2 = var1.PressableHighlight;
+        var1 = {'onPress': null, 'accessibilityRole': 'button', 'unstable_pressDelay': 130};
+        var1['onPress'] = var6;
+        var8 = 13;
+        var6 = var12[var8];
+        var6 = var11.bind(var3)(var6);
+        var9 = var6.intl;
+        var7 = var9.string;
+        var6 = var12[var8];
+        var6 = var11.bind(var3)(var6);
+        var6 = var6.t;
+        var6 = var6.Ofpgwh;
+        var6 = var7.bind(var9)(var6);
+        var1['accessibilityLabel'] = var6;
+        var7 = _closure1_slot17;
+        var5 = 14;
+        var5 = var12[var5];
+        var5 = var11.bind(var3)(var5);
+        var6 = var5.Text;
+        var5 = {'variant': 'text-sm/semibold', 'color': 'text-brand'};
+        var9 = var12[var8];
+        var9 = var11.bind(var3)(var9);
+        var10 = var9.intl;
+        var9 = var10.string;
+        var8 = var12[var8];
+        var8 = var11.bind(var3)(var8);
+        var8 = var8.t;
+        var8 = var8.Ofpgwh;
+        var8 = var9.bind(var10)(var8);
+        var5['children'] = var8;
+        var5 = var7.bind(var3)(var6, var5);
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
     };
     var _closure1_slot24 = var1;
     var1 = global;
@@ -249,109 +354,6 @@ case 35:
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot17 = var4;
-    var4 = function ClearAllHistory(arg1) {
-        var1 = arg1;
-        var1 = var1.searchContext;
-        var _closure2_slot0 = var1;
-        var4 = _closure1_slot17;
-        var10 = _closure1_slot0;
-        var11 = _closure1_slot2;
-        var1 = 11;
-        var1 = var11[var1];
-        var3 = undefined;
-        var1 = var10.bind(var3)(var1);
-        var2 = var1.PressableHighlight;
-        var1 = {'onPress': null, 'accessibilityRole': 'button', 'unstable_pressDelay': 130};
-        var5 = function onPress() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 12;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.clearSearchHistory;
-            var1 = _closure2_slot0;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var1['onPress'] = var5;
-        var7 = 13;
-        var5 = var11[var7];
-        var5 = var10.bind(var3)(var5);
-        var8 = var5.intl;
-        var6 = var8.string;
-        var5 = var11[var7];
-        var5 = var10.bind(var3)(var5);
-        var5 = var5.t;
-        var5 = var5.LFTAUp;
-        var5 = var6.bind(var8)(var5);
-        var1['accessibilityLabel'] = var5;
-        var5 = 14;
-        var5 = var11[var5];
-        var5 = var10.bind(var3)(var5);
-        var6 = var5.Text;
-        var5 = {'variant': 'text-sm/semibold', 'color': 'text-brand'};
-        var8 = var11[var7];
-        var8 = var10.bind(var3)(var8);
-        var9 = var8.intl;
-        var8 = var9.string;
-        var7 = var11[var7];
-        var7 = var10.bind(var3)(var7);
-        var7 = var7.t;
-        var7 = var7.LFTAUp;
-        var7 = var8.bind(var9)(var7);
-        var5['children'] = var7;
-        var5 = var4.bind(var3)(var6, var5);
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot18 = var4;
-    var4 = function ViewAll(arg1) {
-        var1 = arg1;
-        var5 = var1.onJumpToMedia;
-        var4 = _closure1_slot17;
-        var10 = _closure1_slot0;
-        var11 = _closure1_slot2;
-        var1 = 11;
-        var1 = var11[var1];
-        var3 = undefined;
-        var1 = var10.bind(var3)(var1);
-        var2 = var1.PressableHighlight;
-        var1 = {'onPress': null, 'accessibilityRole': 'button', 'unstable_pressDelay': 130};
-        var1['onPress'] = var5;
-        var7 = 13;
-        var5 = var11[var7];
-        var5 = var10.bind(var3)(var5);
-        var8 = var5.intl;
-        var6 = var8.string;
-        var5 = var11[var7];
-        var5 = var10.bind(var3)(var5);
-        var5 = var5.t;
-        var5 = var5.Ofpgwh;
-        var5 = var6.bind(var8)(var5);
-        var1['accessibilityLabel'] = var5;
-        var5 = 14;
-        var5 = var11[var5];
-        var5 = var10.bind(var3)(var5);
-        var6 = var5.Text;
-        var5 = {'variant': 'text-sm/semibold', 'color': 'text-brand'};
-        var8 = var11[var7];
-        var8 = var10.bind(var3)(var8);
-        var9 = var8.intl;
-        var8 = var9.string;
-        var7 = var11[var7];
-        var7 = var10.bind(var3)(var7);
-        var7 = var7.t;
-        var7 = var7.Ofpgwh;
-        var7 = var8.bind(var9)(var7);
-        var5['children'] = var7;
-        var5 = var4.bind(var3)(var6, var5);
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot19 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         var2 = arg1;
@@ -504,7 +506,7 @@ case 36:
 case 37:
                 var1 = new Array(0);
                 var _closure3_slot0 = var1;
-                var3 = _closure1_slot23;
+                var3 = _closure1_slot21;
                 var2 = _closure2_slot3;
                 var7 = undefined;
                 var6 = var3.bind(var7)(var2);
@@ -705,7 +707,7 @@ case 49:
                 var8 = var10.bind(var12)(var8);
                 var6['title'] = var8;
                 var10 = _closure1_slot17;
-                var8 = _closure1_slot18;
+                var8 = _closure1_slot23;
                 var7 = {};
                 var12 = _closure2_slot0;
                 var7['searchContext'] = var12;
@@ -774,7 +776,7 @@ case 53:
                 var8 = var10.bind(var12)(var8);
                 var6['title'] = var8;
                 var10 = _closure1_slot17;
-                var8 = _closure1_slot19;
+                var8 = _closure1_slot24;
                 var7 = {};
                 var12 = _closure2_slot1;
                 var7['onJumpToMedia'] = var12;
@@ -849,7 +851,7 @@ case 54:
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot20 = var4;
+    var _closure1_slot18 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         var5 = arg1;
@@ -1029,7 +1031,7 @@ case 5:
         var4 = undefined;
         var6 = var1.bind(var4)(var2);
         var3 = _closure1_slot17;
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot18;
         var1 = {};
         var8 = var1;
         var7 = var5;
@@ -1040,7 +1042,7 @@ case 5:
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot21 = var4;
+    var _closure1_slot19 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         var5 = arg1;
@@ -1191,7 +1193,7 @@ case 64:
         var4 = undefined;
         var6 = var1.bind(var4)(var2);
         var3 = _closure1_slot17;
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot18;
         var1 = {};
         var8 = var1;
         var7 = var5;
@@ -1202,7 +1204,7 @@ case 64:
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot22 = var4;
+    var _closure1_slot20 = var4;
     var4 = var7.memo;
     var2 = function RecentScreenContainer(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
@@ -1232,7 +1234,7 @@ case 69:
             return var3;
 case 68:
             var8 = _closure1_slot17;
-            var7 = _closure1_slot20;
+            var7 = _closure1_slot18;
             var4 = {};
             var4['searchContext'] = var6;
             var4['onJumpToMedia'] = var5;
@@ -1242,7 +1244,7 @@ case 68:
             return var3;
 case 67:
             var8 = _closure1_slot17;
-            var7 = _closure1_slot22;
+            var7 = _closure1_slot20;
             var4 = {};
             var4['searchContext'] = var6;
             var4['onJumpToMedia'] = var5;
@@ -1252,7 +1254,7 @@ case 67:
             return var3;
 case 65:
             var4 = _closure1_slot17;
-            var3 = _closure1_slot21;
+            var3 = _closure1_slot19;
             var2 = {};
             var2['searchContext'] = var6;
             var2['onJumpToMedia'] = var5;

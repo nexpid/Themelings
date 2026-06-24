@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/explicit_media_redaction/hooks/useExplicitContentSettingsOrDefault.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function useExplicitContentSettingOrDefault() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var7 = _closure1_slot0;
@@ -118,7 +118,7 @@ case 10:
         }
     };
     var3['useExplicitContentSettingOrDefault'] = var4;
-    var2 = function() {
+    var2 = function useGoreContentSettingOrDefault() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var7 = _closure1_slot0;

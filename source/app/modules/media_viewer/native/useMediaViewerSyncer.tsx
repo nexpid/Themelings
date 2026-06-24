@@ -366,27 +366,6 @@ case 9:
                             var22 = arg2;
                             var _closure5_slot0 = var9;
                             var _closure5_slot1 = var22;
-                            var14 = _closure1_slot0;
-                            var16 = _closure1_slot2;
-                            var1 = 4;
-                            var3 = var16[var1];
-                            var8 = undefined;
-                            var4 = var14.bind(var8)(var3);
-                            var3 = var4.useAnimatedRef;
-                            var13 = var3.bind(var4)();
-                            var _closure5_slot2 = var13;
-                            var3 = 5;
-                            var3 = var16[var3];
-                            var4 = var14.bind(var8)(var3);
-                            var3 = var4.useMediaViewerDimensions;
-                            var3 = var3.bind(var4)();
-                            var4 = var3.width;
-                            var3 = var3.height;
-                            var6 = _closure1_slot1;
-                            var5 = 6;
-                            var5 = var16[var5];
-                            var5 = var6.bind(var8)(var5);
-                            var5 = var5.bind(var8)();
                             var21 = function onSelectedIndexChange() {
                                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -447,12 +426,33 @@ case 13:
                                     return var1;
                                 }
                             };
-                            var _closure5_slot3 = var21;
+                            var _closure5_slot8 = var21;
+                            var14 = _closure1_slot0;
+                            var16 = _closure1_slot2;
+                            var1 = 4;
+                            var3 = var16[var1];
+                            var8 = undefined;
+                            var4 = var14.bind(var8)(var3);
+                            var3 = var4.useAnimatedRef;
+                            var13 = var3.bind(var4)();
+                            var _closure5_slot2 = var13;
+                            var3 = 5;
+                            var3 = var16[var3];
+                            var4 = var14.bind(var8)(var3);
+                            var3 = var4.useMediaViewerDimensions;
+                            var3 = var3.bind(var4)();
+                            var4 = var3.width;
+                            var3 = var3.height;
+                            var6 = _closure1_slot1;
+                            var5 = 6;
+                            var5 = var16[var5];
+                            var5 = var6.bind(var8)(var5);
+                            var5 = var5.bind(var8)();
                             var6 = var16[var1];
                             var11 = var14.bind(var8)(var6);
                             var7 = var11.useAnimatedScrollHandler;
                             var6 = {};
-                            var12 = function V() {
+                            var12 = function y() {
                                 var4 = _closure4_slot4;
                                 var3 = var4.set;
                                 var2 = var4.get;
@@ -480,7 +480,7 @@ case 13:
                             var18 = _closure1_slot11;
                             var12['__initData'] = var18;
                             var6['onBeginDrag'] = var12;
-                            var12 = function H() {
+                            var12 = function C() {
                                 var3 = _closure4_slot4;
                                 var2 = var3.set;
                                 var1 = var3.get;
@@ -500,7 +500,7 @@ case 13:
                             var18 = _closure1_slot12;
                             var12['__initData'] = var18;
                             var6['onEndDrag'] = var12;
-                            var12 = function N(arg1) {
+                            var12 = function E(arg1) {
                                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                                     var1 = arg1;
@@ -583,7 +583,7 @@ case 25:
                                     var3 = undefined;
                                     var5 = var5.bind(var3)(var4);
                                     var4 = var5.runOnJS;
-                                    var2 = _closure5_slot3;
+                                    var2 = _closure5_slot8;
                                     var2 = var4.bind(var5)(var2);
                                     var2 = var2.bind(var3)();
                                     _fun0004_ip = 24; continue _fun0004;
@@ -639,7 +639,7 @@ case 24:
                             var18 = _closure1_slot13;
                             var12['__initData'] = var18;
                             var6['onScroll'] = var12;
-                            var12 = function L() {
+                            var12 = function P() {
                                 var4 = _closure4_slot4;
                                 var3 = var4.set;
                                 var2 = var4.get;
@@ -664,7 +664,7 @@ case 24:
                             var18 = _closure1_slot14;
                             var12['__initData'] = var18;
                             var6['onMomentumBegin'] = var12;
-                            var12 = function h() {
+                            var12 = function R() {
                                 var3 = _closure4_slot4;
                                 var2 = var3.set;
                                 var1 = var3.get;
@@ -736,7 +736,7 @@ case 27:
                             var11 = var16[var1];
                             var18 = var14.bind(var8)(var11);
                             var12 = var18.useDerivedValue;
-                            var11 = function R() {
+                            var11 = function k() {
                                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                                     var3 = _closure4_slot5;
@@ -888,7 +888,7 @@ case 32:
                                 return var1;
                             };
                             var24 = var12.bind(var18)(var11);
-                            var _closure5_slot4 = var24;
+                            var _closure5_slot3 = var24;
                             var12 = var18.map;
                             var11 = function(arg1) {
                                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -929,7 +929,7 @@ case 34:
                                 }
                             };
                             var22 = var12.bind(var18)(var11);
-                            var _closure5_slot5 = var22;
+                            var _closure5_slot4 = var22;
                             var11 = var16[var1];
                             var18 = var14.bind(var8)(var11);
                             var12 = var18.useDerivedValue;
@@ -953,8 +953,8 @@ case 31:
                                     var3 = _closure4_slot6;
                                     var2 = var3.get;
                                     var11 = var2.bind(var3)();
-                                    var10 = _closure5_slot4;
-                                    var9 = _closure5_slot5;
+                                    var10 = _closure5_slot3;
+                                    var9 = _closure5_slot4;
                                     var8 = 'clamp';
                                     var12 = var7;
                                     var2 = var12[var6](var11, var10, var9, var8, var7);
@@ -978,12 +978,12 @@ case 36:
                             var21 = _closure1_slot18;
                             var11['__initData'] = var21;
                             var22 = var12.bind(var18)(var11);
-                            var _closure5_slot6 = var22;
+                            var _closure5_slot5 = var22;
                             var11 = var4 - var9;
                             var12 = var11 / var10;
                             var11 = var5.left;
                             var11 = var12 - var11;
-                            var _closure5_slot7 = var11;
+                            var _closure5_slot6 = var11;
                             var12 = var16[var1];
                             var24 = var14.bind(var8)(var12);
                             var18 = var24.useAnimatedStyle;
@@ -1004,8 +1004,8 @@ case 38:
                                     var2 = undefined;
                                     var5 = var4.bind(var2)(var3);
                                     var4 = var5.withSpring;
-                                    var3 = _closure5_slot7;
-                                    var6 = _closure5_slot6;
+                                    var3 = _closure5_slot6;
+                                    var6 = _closure5_slot5;
                                     var2 = var6.get;
                                     var2 = var2.bind(var6)();
                                     var3 = var3 + var2;
@@ -1015,8 +1015,8 @@ case 38:
                                     var2 = var4.bind(var5)(var3, var2);
                                     _fun0010_ip = 39; continue _fun0010;
 case 37:
-                                    var4 = _closure5_slot7;
-                                    var5 = _closure5_slot6;
+                                    var4 = _closure5_slot6;
+                                    var5 = _closure5_slot5;
                                     var3 = var5.get;
                                     var3 = var3.bind(var5)();
                                     var2 = var4 + var3;
@@ -1048,7 +1048,7 @@ case 39:
                             var9 = var9 / var10;
                             var5 = var5.right;
                             var9 = var9 - var5;
-                            var _closure5_slot8 = var9;
+                            var _closure5_slot7 = var9;
                             var5 = var16[var1];
                             var18 = var14.bind(var8)(var5);
                             var10 = var18.useAnimatedStyle;
@@ -1069,8 +1069,8 @@ case 38:
                                     var2 = undefined;
                                     var5 = var4.bind(var2)(var3);
                                     var4 = var5.withSpring;
-                                    var3 = _closure5_slot8;
-                                    var6 = _closure5_slot6;
+                                    var3 = _closure5_slot7;
+                                    var6 = _closure5_slot5;
                                     var2 = var6.get;
                                     var2 = var2.bind(var6)();
                                     var3 = var3 + var2;
@@ -1080,8 +1080,8 @@ case 38:
                                     var2 = var4.bind(var5)(var3, var2);
                                     _fun0011_ip = 39; continue _fun0011;
 case 37:
-                                    var4 = _closure5_slot8;
-                                    var5 = _closure5_slot6;
+                                    var4 = _closure5_slot7;
+                                    var5 = _closure5_slot5;
                                     var3 = var5.get;
                                     var3 = var3.bind(var5)();
                                     var2 = var4 + var3;

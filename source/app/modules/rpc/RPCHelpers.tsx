@@ -1237,9 +1237,6 @@ case 101:
         };
         var3['validateOriginAndUpdateSocket'] = var4;
         var4 = function getDeprecatedVoiceSettingsWithShortcut(arg1) {
-            var2 = _closure1_slot10;
-            var1 = var2.getSettings;
-            var2 = var1.bind(var2)();
             var7 = function formatDevices(arg1) {
                 var2 = global;
                 var4 = var2.Object;
@@ -1269,6 +1266,9 @@ case 101:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
+            var2 = _closure1_slot10;
+            var1 = var2.getSettings;
+            var2 = var1.bind(var2)();
             var1 = arg1;
             var6 = undefined;
             var4 = var1.bind(var6)(var2);

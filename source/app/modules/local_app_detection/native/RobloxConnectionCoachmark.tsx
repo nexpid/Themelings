@@ -327,23 +327,6 @@ case 7:
         var1 = arg1;
         var1 = var1.markAsDismissed;
         var _closure2_slot0 = var1;
-        var1 = _closure1_slot15;
-        var4 = undefined;
-        var23 = var1.bind(var4)();
-        var20 = _closure1_slot0;
-        var21 = _closure1_slot2;
-        var1 = 11;
-        var1 = var21[var1];
-        var2 = var20.bind(var4)(var1);
-        var1 = var2.useThemeContext;
-        var1 = var1.bind(var2)();
-        var22 = var1.theme;
-        var26 = _closure1_slot1;
-        var1 = 12;
-        var1 = var21[var1];
-        var1 = var26.bind(var4)(var1);
-        var1 = var1.bind(var4)();
-        var10 = var1.bottom;
         var16 = function handleCancel() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -367,6 +350,23 @@ case 9:
                 return var1;
             }
         };
+        var1 = _closure1_slot15;
+        var4 = undefined;
+        var23 = var1.bind(var4)();
+        var20 = _closure1_slot0;
+        var21 = _closure1_slot2;
+        var1 = 11;
+        var1 = var21[var1];
+        var2 = var20.bind(var4)(var1);
+        var1 = var2.useThemeContext;
+        var1 = var1.bind(var2)();
+        var22 = var1.theme;
+        var26 = _closure1_slot1;
+        var1 = 12;
+        var1 = var21[var1];
+        var1 = var26.bind(var4)(var1);
+        var1 = var1.bind(var4)();
+        var10 = var1.bottom;
         var3 = _closure1_slot13;
         var1 = 14;
         var1 = var21[var1];

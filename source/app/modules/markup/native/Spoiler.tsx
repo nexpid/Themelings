@@ -40,11 +40,66 @@ case 4:
                     var1 = !var1;
                     return var1;
                 };
-                _closure1_slot13 = var2;
+                _closure1_slot12 = var2;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
                 return var1;
             }
+        };
+        var _closure1_slot12 = var1;
+        var1 = function recursiveTextExtraction(arg1, arg2) {
+            var2 = arg2;
+            var _closure2_slot0 = var2;
+            var2 = _closure1_slot7;
+            var4 = var2.Children;
+            var3 = var4.map;
+            var2 = arg1;
+            var1 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var4 = arg1;
+                    var2 = _closure1_slot7;
+                    var1 = var2.isValidElement;
+                    var1 = var1.bind(var2)(var4);
+                    if(var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
+                    return var4;
+case 6:
+                    var1 = var4.props;
+                    var3 = var1.style;
+                    var1 = global;
+                    var2 = var1.Array;
+                    var1 = var2.isArray;
+                    var1 = var1.bind(var2)(var3);
+                    var8 = var3;
+                    if(!var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
+                    var2 = _closure1_slot9;
+                    var1 = var2.flatten;
+                    var8 = var1.bind(var2)(var3);
+case 8:
+                    var3 = _closure1_slot7;
+                    var2 = var3.cloneElement;
+                    var1 = {};
+                    var9 = _closure1_slot13;
+                    var5 = var4.props;
+                    var6 = var5.children;
+                    var7 = _closure2_slot0;
+                    var5 = undefined;
+                    var6 = var9.bind(var5)(var6, var7);
+                    var1['children'] = var6;
+                    var6 = new Array(2);
+                    var6[0] = var8;
+                    var7 = var7.spoiler;
+                    var6[1] = var7;
+                    var1['style'] = var6;
+                    var1['onPress'] = var5;
+                    var1 = var2.bind(var3)(var4, var1);
+                    return var1;
+                }
+            };
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
         var _closure1_slot13 = var1;
         var1 = global;
@@ -113,10 +168,10 @@ case 4:
         var12 = var15.isAndroid;
         var15 = var12.bind(var15)();
         var12 = 'transparent';
-        if(!var15) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+        if(!var15) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
         var12 = 'rgba(0,0,0,0.0019607844)';
-case 6:
+case 10:
         var10['color'] = var12;
         var12 = 12;
         var15 = var6[var12];
@@ -151,61 +206,6 @@ case 6:
         var7['muted'] = var10;
         var7 = var8.bind(var9)(var7);
         var _closure1_slot11 = var7;
-        var7 = function recursiveTextExtraction(arg1, arg2) {
-            var2 = arg2;
-            var _closure2_slot0 = var2;
-            var2 = _closure1_slot7;
-            var4 = var2.Children;
-            var3 = var4.map;
-            var2 = arg1;
-            var1 = function(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var4 = arg1;
-                    var2 = _closure1_slot7;
-                    var1 = var2.isValidElement;
-                    var1 = var1.bind(var2)(var4);
-                    if(var1) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
-                    return var4;
-case 8:
-                    var1 = var4.props;
-                    var3 = var1.style;
-                    var1 = global;
-                    var2 = var1.Array;
-                    var1 = var2.isArray;
-                    var1 = var1.bind(var2)(var3);
-                    var8 = var3;
-                    if(!var1) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                    var2 = _closure1_slot9;
-                    var1 = var2.flatten;
-                    var8 = var1.bind(var2)(var3);
-case 10:
-                    var3 = _closure1_slot7;
-                    var2 = var3.cloneElement;
-                    var1 = {};
-                    var9 = _closure1_slot12;
-                    var5 = var4.props;
-                    var6 = var5.children;
-                    var7 = _closure2_slot0;
-                    var5 = undefined;
-                    var6 = var9.bind(var5)(var6, var7);
-                    var1['children'] = var6;
-                    var6 = new Array(2);
-                    var6[0] = var8;
-                    var7 = var7.spoiler;
-                    var6[1] = var7;
-                    var1['style'] = var6;
-                    var1['onPress'] = var5;
-                    var1 = var2.bind(var3)(var4, var1);
-                    return var1;
-                }
-            };
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        };
-        var _closure1_slot12 = var7;
         var4 = var4.PureComponent;
         var2 = function(arg1) {
             var4 = function Spoiler(arg1) {
@@ -226,7 +226,7 @@ case 0:
                     var1 = _closure1_slot5;
                     var9 = var1.bind(var4)(var3);
                     var3 = _closure1_slot4;
-                    var1 = _closure1_slot13;
+                    var1 = _closure1_slot12;
                     var1 = var1.bind(var4)();
                     if(var1) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
@@ -260,7 +260,7 @@ case 16:
                             var3 = var3.props;
                             var2 = var3.disableReveal;
 case 15:
-                            if(var2) { _fun0005_ip = 10; continue _fun0005 }
+                            if(var2) { _fun0005_ip = 8; continue _fun0005 }
 case 17:
                             var3 = _closure3_slot0;
                             var2 = var3.setState;
@@ -270,7 +270,7 @@ case 17:
                             var4 = !var4;
                             var1['revealed'] = var4;
                             var1 = var2.bind(var3)(var1);
-case 10:
+case 8:
                             var1 = undefined;
                             return var1;
                         }
@@ -375,7 +375,7 @@ case 32:
                             var3 = var7;
                             if(var6) { _fun0007_ip = 31; continue _fun0007 }
 case 33:
-                            var6 = _closure1_slot12;
+                            var6 = _closure1_slot13;
                             var5 = _closure3_slot0;
                             var4 = undefined;
                             var3 = var6.bind(var4)(var7, var5);

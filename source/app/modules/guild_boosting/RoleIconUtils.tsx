@@ -7,51 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
-    var4 = global;
-    var9 = var4.Object;
-    var8 = var9.defineProperty;
-    var7 = {};
-    var1 = true;
-    var7['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var7);
-    var1 = 0;
-    var7 = var6[var1];
-    var1 = undefined;
-    var7 = var5.bind(var1)(var7);
-    var8 = var7.Endpoints;
-    var _closure1_slot3 = var8;
-    var7 = var7.GuildFeatures;
-    var _closure1_slot4 = var7;
-    var7 = var4.location;
-    var16 = var7.protocol;
-    var7 = var4.window;
-    var7 = var7.GLOBAL_ENV;
-    var14 = var7.CDN_HOST;
-    var7 = var4.HermesInternal;
-    var10 = var7.concat;
-    var9 = '';
-    var15 = '//';
-    var13 = '/role-icons';
-    var17 = var9;
-    var7 = var17[var10](var16, var15, var14, var13, var12);
-    var _closure1_slot5 = var7;
-    var7 = var4.location;
-    var8 = var7.protocol;
-    var7 = var4.window;
-    var7 = var7.GLOBAL_ENV;
-    var7 = var7.API_ENDPOINT;
-    var4 = var4.HermesInternal;
-    var4 = var4.concat;
-    var4 = var4.bind(var9)(var8, var7);
-    var _closure1_slot6 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var7 = var5.bind(var1)(var4);
-    var4 = var7.isAndroid;
-    var4 = var4.bind(var7)();
-    var _closure1_slot7 = var4;
-    var4 = function getRoleIconSource(arg1, arg2) {
+    var1 = function getRoleIconSource(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -150,14 +106,58 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot8 = var1;
+    var4 = global;
+    var9 = var4.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 0;
+    var7 = var6[var1];
+    var1 = undefined;
+    var7 = var5.bind(var1)(var7);
+    var8 = var7.Endpoints;
+    var _closure1_slot3 = var8;
+    var7 = var7.GuildFeatures;
+    var _closure1_slot4 = var7;
+    var7 = var4.location;
+    var16 = var7.protocol;
+    var7 = var4.window;
+    var7 = var7.GLOBAL_ENV;
+    var14 = var7.CDN_HOST;
+    var7 = var4.HermesInternal;
+    var10 = var7.concat;
+    var9 = '';
+    var15 = '//';
+    var13 = '/role-icons';
+    var17 = var9;
+    var7 = var17[var10](var16, var15, var14, var13, var12);
+    var _closure1_slot5 = var7;
+    var7 = var4.location;
+    var8 = var7.protocol;
+    var7 = var4.window;
+    var7 = var7.GLOBAL_ENV;
+    var7 = var7.API_ENDPOINT;
+    var4 = var4.HermesInternal;
+    var4 = var4.concat;
+    var4 = var4.bind(var9)(var8, var7);
+    var _closure1_slot6 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var7 = var5.bind(var1)(var4);
+    var4 = var7.isAndroid;
+    var4 = var4.bind(var7)();
+    var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guild_boosting/RoleIconUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1, arg2) {
+    var4 = function getRoleIconData(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var7 = arg1;
@@ -202,7 +202,7 @@ case 15:
         }
     };
     var3['getRoleIconData'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function replaceRoleIconSourceSize(arg1, arg2) {
         var4 = arg1;
         var3 = var4.replace;
         var7 = _closure1_slot0;
@@ -229,7 +229,7 @@ case 15:
         return var1;
     };
     var3['replaceRoleIconSourceSize'] = var4;
-    var4 = function(arg1) {
+    var4 = function isRoleIconAssetUrl(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = arg1;
@@ -259,7 +259,7 @@ case 21:
         }
     };
     var3['isRoleIconAssetUrl'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function canGuildUseRoleIcons(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = arg2;

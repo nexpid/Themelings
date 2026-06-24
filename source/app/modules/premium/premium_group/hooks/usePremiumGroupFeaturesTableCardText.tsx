@@ -7,27 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.getPremiumGroupProductName;
-    var _closure1_slot4 = var7;
-    var4 = var4.HELP_CENTER_LINK;
-    var _closure1_slot5 = var4;
-    var4 = function getPremiumGroupFeaturesTableCardSubheaderString(arg1, arg2, arg3) {
+    var1 = function getPremiumGroupFeaturesTableCardSubheaderString(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var8 = arg2;
@@ -89,14 +69,34 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot6 = var4;
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.getPremiumGroupProductName;
+    var _closure1_slot4 = var7;
+    var4 = var4.HELP_CENTER_LINK;
+    var _closure1_slot5 = var4;
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/premium_group/hooks/usePremiumGroupFeaturesTableCardText.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1, arg2) {
+    var2 = function usePremiumGroupFeaturesTableCardText(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;

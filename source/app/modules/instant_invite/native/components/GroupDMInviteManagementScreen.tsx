@@ -44,9 +44,10 @@ case 0:
             var6 = var12[var6];
             var8 = var8.bind(var5)(var6);
             var6 = function() {
-                var3 = function() {
-                    var4 = _closure1_slot3;
-                    var3 = undefined;
+                var1 = function _fetchInvites() {
+                    var4 = undefined;
+                    var1 = undefined;
+                    var3 = _closure1_slot3;
                     var2 = function* () {
                         var1 = function* anon_0_() {
                             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -118,22 +119,27 @@ case 2:
                         };
                         return var1;
                     };
-                    var2 = var4.bind(var3)(var2);
-                    var _closure4_slot0 = var2;
-                    var1 = function() {
-                        var1 = undefined;
-                        var4 = _closure4_slot0;
-                        var3 = var4.apply;
-                        var1 = arguments;
-                        var2 = var1;
-                        var1 = this;
-                        var1 = var3.bind(var4)(var1, var2);
-                        return var1;
-                    };
+                    var4 = var3.bind(var4)(var2);
+                    _closure3_slot0 = var4;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
+                };
+                var _closure3_slot0 = var1;
+                var3 = function fetchInvites() {
+                    var1 = undefined;
+                    var4 = _closure3_slot0;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
                     return var1;
                 };
                 var1 = undefined;
-                var3 = var3.bind(var1)();
                 var4 = var3.bind(var1)();
                 var3 = var4.catch;
                 var2 = function() {
@@ -408,7 +414,7 @@ case 18:
     var4 = var8.bind(var9)(var4);
     var _closure1_slot12 = var4;
     var4 = var7.memo;
-    var2 = function(arg1) {
+    var2 = function GroupDMInviteManagementScreen(arg1) {
         var2 = arg1;
         var7 = var2.channelId;
         var _closure2_slot0 = var7;

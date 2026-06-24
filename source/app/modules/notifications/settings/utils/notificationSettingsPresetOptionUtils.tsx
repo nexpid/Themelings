@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/notifications/settings/utils/notificationSettingsPresetOptionUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function getPushNotificationSelectOptions() {
         var2 = {};
         var8 = _closure1_slot0;
         var9 = _closure1_slot1;
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getPushNotificationSelectOptions'] = var4;
-    var2 = function(arg1) {
+    var2 = function getUnreadSelectOptions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;

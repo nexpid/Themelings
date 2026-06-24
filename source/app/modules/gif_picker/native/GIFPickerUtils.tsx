@@ -7,32 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var7 = var6[var1];
-    var4 = metroImportAll;
-    var1 = undefined;
-    var4 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.GIFPickerResultTypes;
-    var _closure1_slot4 = var4;
-    var4 = /(https?:\/\/)(?!media(?:\d+)?\.)(?:[^.]+\.)*giphy\.com/;
-    var _closure1_slot5 = var4;
-    var4 = /(tenor\.com)/;
-    var _closure1_slot6 = var4;
-    var4 = /-(?:.(?!-))+$/;
-    var _closure1_slot7 = var4;
-    var4 = function transformFavoriteGifUrl(arg1, arg2) {
+    var1 = function transformFavoriteGifUrl(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
@@ -156,7 +131,32 @@ case 19:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GIFPickerResultTypes;
+    var _closure1_slot4 = var4;
+    var4 = /(https?:\/\/)(?!media(?:\d+)?\.)(?:[^.]+\.)*giphy\.com/;
+    var _closure1_slot5 = var4;
+    var4 = /(tenor\.com)/;
+    var _closure1_slot6 = var4;
+    var4 = /-(?:.(?!-))+$/;
+    var _closure1_slot7 = var4;
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -118,7 +118,7 @@ case 4:
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)(var9);
             _closure2_slot1 = var1;
-            var1 = function(arg1) {
+            var1 = function useBurstToggleStyles(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = arg1;

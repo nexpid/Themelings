@@ -301,7 +301,7 @@ case 10:
         }
     };
     var3['getGuildIdAndVerifiedFromInvite'] = var4;
-    var4 = function() {
+    var4 = function generateViewId() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -313,7 +313,7 @@ case 10:
         return var1;
     };
     var3['generateViewId'] = var4;
-    var4 = function(arg1) {
+    var4 = function trackGameProfileOpen(arg1) {
         var2 = arg1;
         var1 = var2.viewId;
         var11 = var2.source;
@@ -347,7 +347,7 @@ case 10:
         return var1;
     };
     var3['trackGameProfileOpen'] = var4;
-    var4 = function(arg1) {
+    var4 = function trackGameProfileClose(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
@@ -393,7 +393,7 @@ case 12:
         }
     };
     var3['trackGameProfileClose'] = var4;
-    var4 = function(arg1) {
+    var4 = function trackGameProfileAction(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
@@ -435,7 +435,7 @@ case 14:
         }
     };
     var3['trackGameProfileAction'] = var4;
-    var2 = function(arg1) {
+    var2 = function trackGameProfileFeedback(arg1) {
         var1 = arg1;
         var10 = var1.viewId;
         var9 = var1.applicationId;

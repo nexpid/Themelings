@@ -306,7 +306,7 @@ case 9:
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
-    var9 = function COLLECTIBLES_SHOP_HOME_FETCH(arg1) {
+    var9 = function handleFetchShopHome(arg1) {
         var2 = arg1;
         var6 = _closure1_slot14;
         var5 = var6.set;
@@ -339,7 +339,7 @@ case 9:
         return var1;
     };
     var2['COLLECTIBLES_SHOP_HOME_FETCH'] = var9;
-    var9 = function COLLECTIBLES_SHOP_HOME_FETCH_SUCCESS(arg1) {
+    var9 = function handleFetchShopHomeSuccess(arg1) {
         var2 = arg1;
         var6 = _closure1_slot16;
         var5 = var6.set;
@@ -376,7 +376,7 @@ case 9:
         return var1;
     };
     var2['COLLECTIBLES_SHOP_HOME_FETCH_SUCCESS'] = var9;
-    var9 = function COLLECTIBLES_SHOP_HOME_FETCH_FAILURE(arg1) {
+    var9 = function handleFetchShopHomeFailure(arg1) {
         var1 = arg1;
         var6 = _closure1_slot16;
         var5 = var6.set;
@@ -410,7 +410,7 @@ case 9:
         return var1;
     };
     var2['COLLECTIBLES_SHOP_HOME_FETCH_FAILURE'] = var9;
-    var9 = function COLLECTIBLES_SET_SHOP_HOME_CONFIG_OVERRIDE(arg1) {
+    var9 = function handleSetShopHomeConfigOverride(arg1) {
         var1 = arg1;
         var2 = var1.shopHomeConfigOverride;
         _closure1_slot17 = var2;
@@ -418,7 +418,7 @@ case 9:
         return var1;
     };
     var2['COLLECTIBLES_SET_SHOP_HOME_CONFIG_OVERRIDE'] = var9;
-    var9 = function COLLECTIBLES_SET_SHOP_LAYOUT_URL_OVERRIDE(arg1) {
+    var9 = function handleSetShopLayoutUrlOverride(arg1) {
         var1 = arg1;
         var2 = var1.shopLayoutUrlOverride;
         _closure1_slot18 = var2;
@@ -426,7 +426,7 @@ case 9:
         return var1;
     };
     var2['COLLECTIBLES_SET_SHOP_LAYOUT_URL_OVERRIDE'] = var9;
-    var9 = function SKU_PURCHASE_SUCCESS(arg1) {
+    var9 = function handlePurchaseSuccess(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -478,7 +478,7 @@ case 16:
         }
     };
     var2['SKU_PURCHASE_SUCCESS'] = var9;
-    var4 = function LOGOUT() {
+    var4 = function reset() {
         var3 = _closure1_slot16;
         var1 = var3.clear;
         var1 = var1.bind(var3)();

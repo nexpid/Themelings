@@ -38,15 +38,38 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot14 = var2;
+            _closure1_slot12 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
+    var _closure1_slot12 = var1;
+    var1 = function recomputeStickerFrecency() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = _closure1_slot8;
+            var2 = var2.isLoaded;
+            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var2 = _closure1_slot11;
+            var1 = var2.compute;
+            var1 = var1.bind(var2)();
+case 6:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var _closure1_slot13 = var1;
+    var1 = function handleStickersStoreUpdate() {
+        var2 = _closure1_slot13;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        return var1;
+    };
     var _closure1_slot14 = var1;
     var1 = function handleUserSettingsProtoStoreChange() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = _closure1_slot7;
             var1 = var1.frecencyWithoutFetchingLatest;
@@ -55,12 +78,12 @@ case 0:
             var5 = var3 == var4;
             var1 = undefined;
             var8 = undefined;
-            if(var5) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var8 = var4.stickers;
-case 6:
-            if(!(var3 != var8)) { _fun0002_ip = 8; continue _fun0002 }
+            if(var5) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
+            var8 = var4.stickers;
+case 8:
+            if(!(var3 != var8)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var5 = _closure1_slot11;
             var4 = var5.overwriteHistory;
             var6 = _closure1_slot0;
@@ -97,7 +120,7 @@ case 9:
             var2 = var2.pendingUsages;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
-case 8:
+case 10:
             var1 = false;
             return var1;
         }
@@ -185,29 +208,6 @@ case 8:
     var4 = new var14[var10](var13, var12);
     var4 = var4 instanceof Object ? var4 : var9;
     var _closure1_slot11 = var4;
-    var4 = function recomputeStickerFrecency() {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var2 = _closure1_slot8;
-            var2 = var2.isLoaded;
-            if(!var2) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-            var2 = _closure1_slot11;
-            var1 = var2.compute;
-            var1 = var1.bind(var2)();
-case 10:
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var _closure1_slot12 = var4;
-    var4 = function handleStickersStoreUpdate() {
-        var2 = _closure1_slot12;
-        var1 = undefined;
-        var2 = var2.bind(var1)();
-        return var1;
-    };
-    var _closure1_slot13 = var4;
     var4 = 11;
     var4 = var7[var4];
     var4 = var8.bind(var1)(var4);
@@ -225,7 +225,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot14;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
@@ -275,7 +275,7 @@ case 15:
                 var2 = _closure1_slot8;
                 var3 = new Array(1);
                 var3[0] = var2;
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot14;
                 var2 = var5.bind(var4)(var3, var2);
                 var3 = var4.syncWith;
                 var5 = _closure1_slot7;
@@ -333,13 +333,13 @@ case 15:
     var4 = var7[var4];
     var13 = var8.bind(var1)(var4);
     var4 = {};
-    var10 = function STICKER_TRACK_USAGE(arg1) {
+    var10 = function handleStickersUsage(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.stickerIds;
             var1 = null;
-            if(!(var1 != var3)) { _fun0006_ip = 7; continue _fun0006 }
+            if(!(var1 != var3)) { _fun0006_ip = 9; continue _fun0006 }
 case 17:
             var2 = var3.forEach;
             var1 = function(arg1) {
@@ -362,8 +362,8 @@ case 17:
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-case 7:
-            var2 = _closure1_slot12;
+case 9:
+            var2 = _closure1_slot13;
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;

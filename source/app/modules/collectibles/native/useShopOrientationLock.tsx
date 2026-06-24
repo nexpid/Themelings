@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/useShopOrientationLock.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function() {
+    var2 = function useShopOrientationLock() {
         var4 = _closure1_slot2;
         var3 = var4.useRef;
         var2 = false;

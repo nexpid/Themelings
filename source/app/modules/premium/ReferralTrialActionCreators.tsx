@@ -814,7 +814,7 @@ case 2:
         return var1;
     };
     var3['fetchReferralEligibleUsers'] = var4;
-    var4 = function() {
+    var4 = function fetchReferralsRemaining() {
         var3 = _closure1_slot1;
         var6 = _closure1_slot2;
         var2 = 7;

@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/parent_tools/hooks/useSelectedTeenUser.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function useSelectedTeenUser() {
         var3 = _closure1_slot1;
         var6 = _closure1_slot2;
         var2 = 3;
@@ -83,7 +83,7 @@ case 2:
         return var1;
     };
     var3['useSelectedTeenUser'] = var4;
-    var4 = function(arg1) {
+    var4 = function useTeenUserForId(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -116,7 +116,7 @@ case 6:
         return var1;
     };
     var3['useTeenUserForId'] = var4;
-    var2 = function() {
+    var2 = function useShouldLoadSettingsForSelectedTeenUser() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = _closure1_slot5;

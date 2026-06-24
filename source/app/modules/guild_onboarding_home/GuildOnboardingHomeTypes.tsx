@@ -736,7 +736,7 @@ case 60:
         }
     };
     var3['settingsToServer'] = var7;
-    var7 = function(arg1) {
+    var7 = function actionsFromServer(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var8 = arg1;

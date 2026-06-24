@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/typescript/refObjectUnionAsProp.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = function _default(arg1) {
+    var2 = function refObjectUnionAsProp(arg1) {
         var1 = arg1;
         return var1;
     };

@@ -51,6 +51,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function PasswordlessUpsellPromoSheet() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
+            var1 = function onRegisterSuccess(arg1) {
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 6;
+                var5 = var4[var2];
+                var1 = undefined;
+                var6 = var3.bind(var1)(var5);
+                var5 = var6.closePasskeyUpsellPromoSheet;
+                var5 = var5.bind(var6)();
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openPasskeyUpsellPromoModal;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var _closure2_slot2 = var1;
             var4 = _closure1_slot7;
             var2 = _closure1_slot5;
             var1 = {};
@@ -83,23 +100,6 @@ case 0:
             var12 = var1[var8];
             var1 = var1[var2];
             var _closure2_slot1 = var1;
-            var1 = function onRegisterSuccess(arg1) {
-                var3 = _closure1_slot1;
-                var4 = _closure1_slot2;
-                var2 = 6;
-                var5 = var4[var2];
-                var1 = undefined;
-                var6 = var3.bind(var1)(var5);
-                var5 = var6.closePasskeyUpsellPromoSheet;
-                var5 = var5.bind(var6)();
-                var2 = var4[var2];
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.openPasskeyUpsellPromoModal;
-                var2 = arg1;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            var _closure2_slot2 = var1;
             var1 = 7;
             var1 = var7[var1];
             var1 = var6.bind(var3)(var1);

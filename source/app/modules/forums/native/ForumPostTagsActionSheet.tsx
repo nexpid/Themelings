@@ -100,7 +100,47 @@ case 4:
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
-            var _closure2_slot7 = var4;
+            var1 = function toggleTag(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var4 = arg1;
+                    var1 = null;
+                    if(!(var1 != var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                    var1 = global;
+                    var5 = var1.Set;
+                    var6 = _closure2_slot4;
+                    var3 = var5.prototype;
+                    var3 = Object.create(var3, {constructor: {value: var5}});
+                    var7 = var3;
+                    var2 = new var7[var5](var6, var5);
+                    var3 = var2 instanceof Object ? var2 : var3;
+                    var2 = var3.has;
+                    var2 = var2.bind(var3)(var4);
+                    if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+                    var2 = _closure2_slot6;
+                    if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+                    var2 = var3.add;
+                    var2 = var2.bind(var3)(var4);
+                    _fun0002_ip = 12; continue _fun0002;
+case 10:
+                    var2 = undefined;
+                    return var2;
+case 8:
+                    var2 = var3.delete;
+                    var2 = var2.bind(var3)(var4);
+case 12:
+                    var2 = _closure2_slot5;
+                    var1 = undefined;
+                    var1 = var2.bind(var1)(var3);
+case 6:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var _closure2_slot7 = var1;
             var1 = _closure1_slot9;
             var9 = var1.bind(var4)();
             var6 = _closure1_slot0;
@@ -115,10 +155,10 @@ case 4:
             var12 = global;
             var12 = var12.Set;
             var13 = null;
-            if(!(var13 != var8)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!(var13 != var8)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var2 = var8;
-case 6:
+case 13:
             var8 = var12.prototype;
             var8 = Object.create(var8, {constructor: {value: var12}});
             var20 = var8;
@@ -145,47 +185,6 @@ case 6:
             var2 = var15.bind(var4)(var1);
             var1 = var2.useVisibleForumTags;
             var13 = var1.bind(var2)(var3);
-            var1 = function toggleTag(arg1) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var4 = arg1;
-                    var1 = null;
-                    if(!(var1 != var4)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var1 = global;
-                    var5 = var1.Set;
-                    var6 = _closure2_slot4;
-                    var3 = var5.prototype;
-                    var3 = Object.create(var3, {constructor: {value: var5}});
-                    var7 = var3;
-                    var2 = new var7[var5](var6, var5);
-                    var3 = var2 instanceof Object ? var2 : var3;
-                    var2 = var3.has;
-                    var2 = var2.bind(var3)(var4);
-                    if(var2) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-                    var2 = _closure2_slot6;
-                    if(var2) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-                    var2 = var3.add;
-                    var2 = var2.bind(var3)(var4);
-                    _fun0002_ip = 14; continue _fun0002;
-case 12:
-                    var2 = undefined;
-                    return var2;
-case 10:
-                    var2 = var3.delete;
-                    var2 = var2.bind(var3)(var4);
-case 14:
-                    var2 = _closure2_slot5;
-                    var1 = undefined;
-                    var1 = var2.bind(var1)(var3);
-case 8:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            _closure2_slot7 = var1;
             var3 = _closure1_slot8;
             var1 = 8;
             var1 = var16[var1];

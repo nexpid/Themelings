@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var9)(var4);
     var _closure1_slot6 = var4;
     var4 = var7.memo;
-    var2 = function(arg1) {
+    var2 = function RestrictedHoursWarningNotification(arg1) {
         var2 = arg1;
         var5 = var2.notification;
         var _closure2_slot0 = var5;

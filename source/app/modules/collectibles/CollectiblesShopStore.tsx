@@ -258,7 +258,7 @@ case 9:
     var2 = var5[var2];
     var12 = var6.bind(var1)(var2);
     var2 = {};
-    var8 = function COLLECTIBLES_SHOP_OPEN(arg1) {
+    var8 = function handleOpen(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
@@ -284,7 +284,7 @@ case 17:
         }
     };
     var2['COLLECTIBLES_SHOP_OPEN'] = var8;
-    var8 = function COLLECTIBLES_SHOP_CLOSE() {
+    var8 = function handleClose() {
         var1 = _closure1_slot6;
         _closure1_slot7 = var1;
         var1 = null;
@@ -294,7 +294,7 @@ case 17:
         return var1;
     };
     var2['COLLECTIBLES_SHOP_CLOSE'] = var8;
-    var8 = function COLLECTIBLES_PRODUCT_DETAILS_OPEN(arg1) {
+    var8 = function handleProductDetailsOpen(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
@@ -310,7 +310,7 @@ case 19:
         }
     };
     var2['COLLECTIBLES_PRODUCT_DETAILS_OPEN'] = var8;
-    var8 = function COLLECTIBLES_SHOP_TAB_LAYOUT_FETCH(arg1) {
+    var8 = function handleShopTabLayoutFetch(arg1) {
         var1 = arg1;
         var3 = var1.tab;
         var2 = _closure1_slot10;
@@ -320,7 +320,7 @@ case 19:
         return var1;
     };
     var2['COLLECTIBLES_SHOP_TAB_LAYOUT_FETCH'] = var8;
-    var8 = function COLLECTIBLES_SHOP_TAB_LAYOUT_FETCH_SUCCESS(arg1) {
+    var8 = function handleShopTabLayoutFetchSuccess(arg1) {
         var1 = arg1;
         var3 = var1.tab;
         var4 = var1.layoutId;
@@ -335,7 +335,7 @@ case 19:
         return var1;
     };
     var2['COLLECTIBLES_SHOP_TAB_LAYOUT_FETCH_SUCCESS'] = var8;
-    var8 = function COLLECTIBLES_SHOP_TAB_LAYOUT_FETCH_FAILURE(arg1) {
+    var8 = function handleShopTabLayoutFetchFailure(arg1) {
         var1 = arg1;
         var3 = var1.tab;
         var4 = var1.apiError;
@@ -348,7 +348,7 @@ case 19:
         return var1;
     };
     var2['COLLECTIBLES_SHOP_TAB_LAYOUT_FETCH_FAILURE'] = var8;
-    var4 = function LOGOUT() {
+    var4 = function handleLogout() {
         var1 = _closure1_slot6;
         _closure1_slot7 = var1;
         var1 = null;

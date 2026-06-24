@@ -764,7 +764,7 @@ case 65:
         return var1;
     };
     var3['handleExplicitMediaScanTimeoutForMessage'] = var5;
-    var5 = function(arg1, arg2) {
+    var5 = function isObscuredMediaBelowConstraints(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var5 = arg1;

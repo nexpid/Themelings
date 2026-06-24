@@ -5,6 +5,16 @@ case 0:
         var9 = require;
         var3 = exports;
         var10 = dependencyMap;
+        var14 = function spotifyUtmParams(arg1) {
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var2 = '?utm_source=discord&utm_medium=';
+            var1 = arg1;
+            var1 = var3.bind(var2)(var1);
+            return var1;
+        };
+        var _closure1_slot1 = var14;
         var12 = global;
         var6 = var12.Object;
         var5 = var6.defineProperty;
@@ -47,16 +57,6 @@ case 0:
         var5['USER_ACTIVITY_SYNC'] = var4;
         var4 = 'embed_sync';
         var5['EMBED_SYNC'] = var4;
-        var14 = function spotifyUtmParams(arg1) {
-            var1 = global;
-            var1 = var1.HermesInternal;
-            var3 = var1.concat;
-            var2 = '?utm_source=discord&utm_medium=';
-            var1 = arg1;
-            var1 = var3.bind(var2)(var1);
-            return var1;
-        };
-        var _closure1_slot1 = var14;
         var11 = var12.Object;
         var8 = var11.freeze;
         var4 = {};

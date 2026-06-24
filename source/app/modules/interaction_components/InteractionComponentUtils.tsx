@@ -1909,7 +1909,7 @@ case 197:
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/interaction_components/InteractionComponentUtils.tsx';
     var6 = var7.bind(var8)(var6);
-    var6 = function(arg1, arg2, arg3) {
+    var6 = function getLayoutComponentErrorText(arg1, arg2, arg3) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var2 = arg1;

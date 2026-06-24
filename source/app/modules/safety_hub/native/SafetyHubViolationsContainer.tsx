@@ -176,7 +176,7 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot15 = var1;
     var1 = function EmptyActiveState() {
         var1 = _closure1_slot14;
         var4 = undefined;
@@ -235,7 +235,7 @@ case 13:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot16 = var1;
     var1 = function EmptyExpiredState() {
         var1 = _closure1_slot14;
         var4 = undefined;
@@ -266,6 +266,79 @@ case 13:
         var8 = var11.bind(var4)(var8);
         var8 = var8.t;
         var8 = var8.RV3AXf;
+        var8 = var9.bind(var10)(var8);
+        var5['children'] = var8;
+        var5 = var7.bind(var4)(var6, var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot17 = var1;
+    var1 = function RelativeIncidentTime(arg1) {
+        var1 = arg1;
+        var10 = var1.timestamp;
+        var1 = _closure1_slot14;
+        var4 = undefined;
+        var6 = var1.bind(var4)();
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot6;
+        var1 = {};
+        var6 = var6.incidentDate;
+        var1['style'] = var6;
+        var7 = _closure1_slot11;
+        var9 = _closure1_slot0;
+        var11 = _closure1_slot2;
+        var5 = 11;
+        var5 = var11[var5];
+        var5 = var9.bind(var4)(var5);
+        var6 = var5.Text;
+        var5 = {};
+        var8 = 'text-xs/medium';
+        var5['variant'] = var8;
+        var8 = 15;
+        var8 = var11[var8];
+        var9 = var9.bind(var4)(var8);
+        var8 = var9.getClassificationRelativeIncidentTime;
+        var8 = var8.bind(var9)(var10);
+        var5['children'] = var8;
+        var5 = var7.bind(var4)(var6, var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot18 = var1;
+    var1 = function NewBadge() {
+        var1 = _closure1_slot14;
+        var4 = undefined;
+        var8 = var1.bind(var4)();
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot6;
+        var1 = {};
+        var7 = var8.incidentDate;
+        var6 = new Array(2);
+        var6[0] = var7;
+        var7 = var8.incidentDateNew;
+        var6[1] = var7;
+        var1['style'] = var6;
+        var7 = _closure1_slot11;
+        var11 = _closure1_slot0;
+        var12 = _closure1_slot2;
+        var5 = 11;
+        var5 = var12[var5];
+        var5 = var11.bind(var4)(var5);
+        var6 = var5.Text;
+        var5 = {'variant': 'text-xs/medium', 'color': 'always-white'};
+        var8 = var8.newText;
+        var5['style'] = var8;
+        var8 = 12;
+        var9 = var12[var8];
+        var9 = var11.bind(var4)(var9);
+        var10 = var9.intl;
+        var9 = var10.string;
+        var8 = var12[var8];
+        var8 = var11.bind(var4)(var8);
+        var8 = var8.t;
+        var8 = var8.QKMRC4;
         var8 = var9.bind(var10)(var8);
         var5['children'] = var8;
         var5 = var7.bind(var4)(var6, var5);
@@ -484,13 +557,13 @@ case 26:
             var16 = _closure1_slot11;
             if(var11) { _fun0002_ip = 28; continue _fun0002 }
 case 21:
-            var13 = _closure1_slot15;
+            var13 = _closure1_slot18;
             var11 = {};
             var11['timestamp'] = var14;
             var13 = var16.bind(var4)(var13, var11);
             _fun0002_ip = 29; continue _fun0002;
 case 28:
-            var14 = _closure1_slot16;
+            var14 = _closure1_slot19;
             var11 = {};
             var13 = var16.bind(var4)(var14, var11);
 case 29:
@@ -667,7 +740,7 @@ case 32:
             var5[0] = var7;
             var1['style'] = var5;
             var8 = _closure1_slot11;
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot15;
             var5 = {};
             var5['status'] = var14;
             var9 = function onClick() {
@@ -809,7 +882,7 @@ case 40:
             if(!var15) { _fun0004_ip = 42; continue _fun0004 }
 case 43:
             var18 = _closure1_slot11;
-            var17 = _closure1_slot18;
+            var17 = _closure1_slot16;
             var16 = {};
             var15 = var18.bind(var4)(var17, var16);
 case 42:
@@ -824,7 +897,7 @@ case 44:
             if(!var11) { _fun0004_ip = 46; continue _fun0004 }
 case 47:
             var14 = _closure1_slot11;
-            var13 = _closure1_slot19;
+            var13 = _closure1_slot17;
             var12 = {};
             var11 = var14.bind(var4)(var13, var12);
 case 46:
@@ -1086,79 +1159,6 @@ case 34:
     var5['headerTextContainer'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot14 = var5;
-    var5 = function RelativeIncidentTime(arg1) {
-        var1 = arg1;
-        var10 = var1.timestamp;
-        var1 = _closure1_slot14;
-        var4 = undefined;
-        var6 = var1.bind(var4)();
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot6;
-        var1 = {};
-        var6 = var6.incidentDate;
-        var1['style'] = var6;
-        var7 = _closure1_slot11;
-        var9 = _closure1_slot0;
-        var11 = _closure1_slot2;
-        var5 = 11;
-        var5 = var11[var5];
-        var5 = var9.bind(var4)(var5);
-        var6 = var5.Text;
-        var5 = {};
-        var8 = 'text-xs/medium';
-        var5['variant'] = var8;
-        var8 = 15;
-        var8 = var11[var8];
-        var9 = var9.bind(var4)(var8);
-        var8 = var9.getClassificationRelativeIncidentTime;
-        var8 = var8.bind(var9)(var10);
-        var5['children'] = var8;
-        var5 = var7.bind(var4)(var6, var5);
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot15 = var5;
-    var5 = function NewBadge() {
-        var1 = _closure1_slot14;
-        var4 = undefined;
-        var8 = var1.bind(var4)();
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot6;
-        var1 = {};
-        var7 = var8.incidentDate;
-        var6 = new Array(2);
-        var6[0] = var7;
-        var7 = var8.incidentDateNew;
-        var6[1] = var7;
-        var1['style'] = var6;
-        var7 = _closure1_slot11;
-        var11 = _closure1_slot0;
-        var12 = _closure1_slot2;
-        var5 = 11;
-        var5 = var12[var5];
-        var5 = var11.bind(var4)(var5);
-        var6 = var5.Text;
-        var5 = {'variant': 'text-xs/medium', 'color': 'always-white'};
-        var8 = var8.newText;
-        var5['style'] = var8;
-        var8 = 12;
-        var9 = var12[var8];
-        var9 = var11.bind(var4)(var9);
-        var10 = var9.intl;
-        var9 = var10.string;
-        var8 = var12[var8];
-        var8 = var11.bind(var4)(var8);
-        var8 = var8.t;
-        var8 = var8.QKMRC4;
-        var8 = var9.bind(var10)(var8);
-        var5['children'] = var8;
-        var5 = var7.bind(var4)(var6, var5);
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot16 = var5;
     var5 = 26;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

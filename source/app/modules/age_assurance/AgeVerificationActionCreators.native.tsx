@@ -43,7 +43,7 @@ case 0:
             var1 = undefined;
             if(!(var6 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = function s() {
+            var6 = function o() {
                 var1 = undefined;
                 return var1;
             };

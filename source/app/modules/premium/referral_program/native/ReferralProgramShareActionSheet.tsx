@@ -7,6 +7,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
+    var1 = function mapToUser(arg1) {
+        var4 = arg1;
+        var1 = new Array(2);
+        var1[0] = var4;
+        var3 = _closure1_slot7;
+        var2 = var3.getUser;
+        var2 = var2.bind(var3)(var4);
+        var1[1] = var2;
+        return var1;
+    };
+    var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -131,17 +142,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['footer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = function mapToUser(arg1) {
-        var4 = arg1;
-        var1 = new Array(2);
-        var1[0] = var4;
-        var3 = _closure1_slot7;
-        var2 = var3.getUser;
-        var2 = var2.bind(var3)(var4);
-        var1[1] = var2;
-        return var1;
-    };
-    var _closure1_slot13 = var4;
     var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

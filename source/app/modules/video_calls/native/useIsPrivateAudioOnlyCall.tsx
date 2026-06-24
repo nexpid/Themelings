@@ -135,7 +135,7 @@ case 20:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/video_calls/native/useIsPrivateAudioOnlyCall.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function useIsPrivateAudioOnlyCall(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var7 = arg1;

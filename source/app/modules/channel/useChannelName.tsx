@@ -116,8 +116,7 @@ case 7:
 case 10:
             var7 = false;
 case 9:
-            var3 = var6.name;
-            var2 = function maybeFormatDmName(arg1) {
+            var3 = function maybeFormatDmName(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var4 = arg1;
@@ -134,6 +133,7 @@ case 11:
                     return var1;
                 }
             };
+            var2 = var6.name;
             var1 = var6.isObfuscated;
             var10 = var1.bind(var6)();
             if(var10) { _fun0003_ip = 13; continue _fun0003 }
@@ -187,28 +187,28 @@ case 29:
             var10 = var10.GUILD_CATEGORY;
             if(!(var10 !== var11)) { _fun0003_ip = 24; continue _fun0003 }
 case 30:
-            return var3;
+            return var2;
 case 24:
             if(var7) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
-            var7 = var3;
+            var7 = var2;
             if(!var8) { _fun0003_ip = 33; continue _fun0003 }
 case 34:
             var10 = var6.isThread;
             var10 = var10.bind(var6)();
-            var7 = var3;
+            var7 = var2;
             if(!var10) { _fun0003_ip = 33; continue _fun0003 }
 case 35:
             var10 = global;
             var10 = var10.HermesInternal;
             var11 = var10.concat;
             var10 = '"';
-            var7 = var11.bind(var10)(var3, var10);
+            var7 = var11.bind(var10)(var2, var10);
 case 33:
             _fun0003_ip = 36; continue _fun0003;
 case 31:
             var10 = _closure1_slot11;
-            var13 = var10.bind(var5)(var3);
+            var13 = var10.bind(var5)(var2);
             var10 = global;
             var10 = var10.HermesInternal;
             var12 = var10.concat;
@@ -218,19 +218,19 @@ case 31:
 case 36:
             return var7;
 case 19:
-            var7 = var3;
+            var7 = var2;
             if(!var8) { _fun0003_ip = 37; continue _fun0003 }
 case 38:
             var8 = global;
             var8 = var8.HermesInternal;
             var10 = var8.concat;
             var8 = '#';
-            var7 = var10.bind(var8)(var3);
+            var7 = var10.bind(var8)(var2);
 case 37:
             return var7;
 case 17:
             var8 = '';
-            var7 = var3;
+            var7 = var2;
             if(!(var8 === var7)) { _fun0003_ip = 39; continue _fun0003 }
 case 40:
             var8 = _closure1_slot9;
@@ -239,7 +239,7 @@ case 39:
             return var7;
 case 15:
             var7 = '';
-            if(!(var7 === var3)) { _fun0003_ip = 41; continue _fun0003 }
+            if(!(var7 === var2)) { _fun0003_ip = 41; continue _fun0003 }
 case 42:
             var7 = var6.recipients;
             var6 = var7.map;
@@ -286,7 +286,7 @@ case 48:
 case 51:
             var6 = var7;
 case 50:
-            var6 = var2.bind(var5)(var6);
+            var6 = var3.bind(var5)(var6);
             return var6;
 case 47:
             var4 = var4.globalName;
@@ -295,7 +295,7 @@ case 43:
             var4 = '???';
             return var4;
 case 41:
-            var2 = var2.bind(var5)(var3);
+            var2 = var3.bind(var5)(var2);
             return var2;
 case 13:
             var4 = _closure1_slot0;

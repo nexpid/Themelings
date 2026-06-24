@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/parent_tools/hooks/useParentalControlSettings.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function() {
+    var4 = function useParentalControlledExplicitContentSettings() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = _closure1_slot0;
@@ -130,7 +130,7 @@ case 4:
         }
     };
     var3['useParentalControlledExplicitContentSettings'] = var4;
-    var4 = function() {
+    var4 = function useParentalControlledGoreContentSettings() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = _closure1_slot0;
@@ -216,7 +216,7 @@ case 14:
         }
     };
     var3['useParentalControlledGoreContentSettings'] = var4;
-    var4 = function() {
+    var4 = function useDefaultGuildsRestricted() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot0;

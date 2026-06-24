@@ -1,0 +1,45 @@
+// app/modules/safety_common/ObscuredSurfaceContext.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var7 = dependencyMap;
+    var1 = global;
+    var8 = var1.Object;
+    var6 = var8.defineProperty;
+    var4 = {};
+    var5 = true;
+    var4['value'] = var5;
+    var1 = '__esModule';
+    var1 = var6.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var6 = var7[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var8 = var4.bind(var1)(var6);
+    var _closure1_slot0 = var8;
+    var6 = var8.createContext;
+    var4 = {};
+    var9 = false;
+    var4['obscured'] = var9;
+    var4 = var6.bind(var8)(var4);
+    var _closure1_slot1 = var4;
+    var6 = 1;
+    var7 = var7[var6];
+    var6 = require;
+    var8 = var6.bind(var1)(var7);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/safety_common/ObscuredSurfaceContext.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['ObscuredSurfaceContext'] = var4;
+    var4 = {};
+    var4['obscured'] = var5;
+    var3['OBSCURED_VALUE'] = var4;
+    var2 = function useObscuredSurface() {
+        var3 = _closure1_slot0;
+        var2 = var3.useContext;
+        var1 = _closure1_slot1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['useObscuredSurface'] = var2;
+    return var1;
+})();

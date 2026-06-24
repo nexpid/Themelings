@@ -916,11 +916,10 @@ case 34:
         var5 = _closure1_slot4;
         var3 = var5.useEffect;
         var2 = function() {
-            var2 = false;
-            var _closure3_slot0 = var2;
-            var2 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
+            var2 = function _runPrereq() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -988,23 +987,30 @@ case 35:
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure4_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure4_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure3_slot1 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var3 = undefined;
-            var2 = var2.bind(var3)();
-            var2 = var2.bind(var3)();
+            var _closure3_slot1 = var2;
+            var2 = false;
+            var _closure3_slot0 = var2;
+            var3 = function runPrereq() {
+                var1 = undefined;
+                var4 = _closure3_slot1;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
+            var2 = undefined;
+            var2 = var3.bind(var2)();
             var1 = function() {
                 var1 = true;
                 _closure3_slot0 = var1;

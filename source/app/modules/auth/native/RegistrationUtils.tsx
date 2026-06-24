@@ -323,7 +323,7 @@ case 48:
         return var1;
     };
     var3['getTrackRegTransition'] = var4;
-    var4 = function(arg1) {
+    var4 = function BackButtonWithTracking(arg1) {
         var6 = arg1;
         var9 = _closure1_slot3;
         var8 = var9.useContext;
@@ -380,7 +380,7 @@ case 51:
         return var1;
     };
     var3['BackButtonWithTracking'] = var4;
-    var2 = function(arg1) {
+    var2 = function getCommonErrorDetails(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var4 = arg1;

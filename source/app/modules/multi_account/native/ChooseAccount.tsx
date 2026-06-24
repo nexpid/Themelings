@@ -112,24 +112,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/multi_account/native/ChooseAccount.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function ChooseAccount() {
-        var1 = _closure1_slot13;
-        var4 = undefined;
-        var12 = var1.bind(var4)();
-        var16 = _closure1_slot0;
-        var17 = _closure1_slot3;
-        var1 = 9;
-        var1 = var17[var1];
-        var2 = var16.bind(var4)(var1);
-        var1 = var2.useNavigation;
-        var1 = var1.bind(var2)();
-        var _closure2_slot0 = var1;
-        var1 = 10;
-        var1 = var17[var1];
-        var2 = var16.bind(var4)(var1);
-        var1 = var2.useMultiAccountUsers;
-        var1 = var1.bind(var2)();
-        var10 = var1.multiAccountUsers;
-        var _closure2_slot1 = var10;
         var1 = function handlePressUser(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -175,9 +157,10 @@ case 2:
             }
         };
         var _closure2_slot2 = var1;
-        var1 = function() {
-            var4 = _closure1_slot4;
-            var3 = undefined;
+        var1 = function _handlePressRemove() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot4;
             var2 = function* (arg1) {
                 var1 = function* anon_0_(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -304,22 +287,109 @@ case 4:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot3 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var1 = var1.bind(var4)();
         var _closure2_slot3 = var1;
+        var1 = function handlePressMore(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot1;
+            var12 = _closure1_slot3;
+            var1 = 16;
+            var3 = var12[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.hideActionSheet;
+            var3 = var3.bind(var4)();
+            var11 = _closure1_slot0;
+            var2 = 17;
+            var2 = var12[var2];
+            var4 = var11.bind(var1)(var2);
+            var3 = var4.showSimpleActionSheet;
+            var2 = {'key': 'RemoveAccount', 'options': null, 'hasIcons': false};
+            var6 = {};
+            var8 = 14;
+            var5 = var12[var8];
+            var5 = var11.bind(var1)(var5);
+            var10 = var5.intl;
+            var9 = var10.string;
+            var5 = var12[var8];
+            var5 = var11.bind(var1)(var5);
+            var5 = var5.t;
+            var5 = var5.DSN+hw;
+            var5 = var9.bind(var10)(var5);
+            var6['label'] = var5;
+            var5 = function onPress() {
+                var3 = _closure2_slot2;
+                var2 = _closure3_slot0;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var6['onPress'] = var5;
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = {};
+            var9 = var12[var8];
+            var9 = var11.bind(var1)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var8 = var12[var8];
+            var8 = var11.bind(var1)(var8);
+            var8 = var8.t;
+            var8 = var8.lSLMaU;
+            var8 = var9.bind(var10)(var8);
+            var6['label'] = var8;
+            var7 = function onPress() {
+                var3 = _closure3_slot0;
+                var2 = function handlePressRemove(arg1) {
+                    var1 = undefined;
+                    var4 = _closure2_slot3;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
+                };
+                var1 = undefined;
+                var1 = var2.bind(var1)(var3);
+                return var1;
+            };
+            var6['onPress'] = var7;
+            var7 = true;
+            var6['isDestructive'] = var7;
+            var5[1] = var6;
+            var2['options'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        };
+        var _closure2_slot4 = var1;
+        var1 = _closure1_slot13;
+        var4 = undefined;
+        var12 = var1.bind(var4)();
+        var16 = _closure1_slot0;
+        var17 = _closure1_slot3;
+        var1 = 9;
+        var1 = var17[var1];
+        var2 = var16.bind(var4)(var1);
+        var1 = var2.useNavigation;
+        var1 = var1.bind(var2)();
+        var _closure2_slot0 = var1;
+        var1 = 10;
+        var1 = var17[var1];
+        var2 = var16.bind(var4)(var1);
+        var1 = var2.useMultiAccountUsers;
+        var1 = var1.bind(var2)();
+        var10 = var1.multiAccountUsers;
+        var _closure2_slot1 = var10;
         var3 = _closure1_slot11;
         var19 = _closure1_slot1;
         var1 = 18;
@@ -397,74 +467,10 @@ case 4:
             var9 = 'button';
             var6['accessibilityRole'] = var9;
             var8 = function onPress() {
-                var3 = _closure3_slot0;
-                var2 = function(arg1) {
-                    var1 = arg1;
-                    var _closure5_slot0 = var1;
-                    var4 = _closure1_slot1;
-                    var12 = _closure1_slot3;
-                    var1 = 16;
-                    var3 = var12[var1];
-                    var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.hideActionSheet;
-                    var3 = var3.bind(var4)();
-                    var11 = _closure1_slot0;
-                    var2 = 17;
-                    var2 = var12[var2];
-                    var4 = var11.bind(var1)(var2);
-                    var3 = var4.showSimpleActionSheet;
-                    var2 = {'key': 'RemoveAccount', 'options': null, 'hasIcons': false};
-                    var6 = {};
-                    var8 = 14;
-                    var5 = var12[var8];
-                    var5 = var11.bind(var1)(var5);
-                    var10 = var5.intl;
-                    var9 = var10.string;
-                    var5 = var12[var8];
-                    var5 = var11.bind(var1)(var5);
-                    var5 = var5.t;
-                    var5 = var5.DSN+hw;
-                    var5 = var9.bind(var10)(var5);
-                    var6['label'] = var5;
-                    var5 = function onPress() {
-                        var3 = _closure2_slot2;
-                        var2 = _closure5_slot0;
-                        var1 = undefined;
-                        var1 = var3.bind(var1)(var2);
-                        return var1;
-                    };
-                    var6['onPress'] = var5;
-                    var5 = new Array(2);
-                    var5[0] = var6;
-                    var6 = {};
-                    var9 = var12[var8];
-                    var9 = var11.bind(var1)(var9);
-                    var10 = var9.intl;
-                    var9 = var10.string;
-                    var8 = var12[var8];
-                    var8 = var11.bind(var1)(var8);
-                    var8 = var8.t;
-                    var8 = var8.lSLMaU;
-                    var8 = var9.bind(var10)(var8);
-                    var6['label'] = var8;
-                    var7 = function onPress() {
-                        var3 = _closure2_slot3;
-                        var2 = _closure5_slot0;
-                        var1 = undefined;
-                        var1 = var3.bind(var1)(var2);
-                        return var1;
-                    };
-                    var6['onPress'] = var7;
-                    var7 = true;
-                    var6['isDestructive'] = var7;
-                    var5[1] = var6;
-                    var2['options'] = var5;
-                    var2 = var3.bind(var4)(var2);
-                    return var1;
-                };
+                var3 = _closure2_slot4;
+                var2 = _closure3_slot0;
                 var1 = undefined;
-                var2 = var2.bind(var1)(var3);
+                var2 = var3.bind(var1)(var2);
                 return var1;
             };
             var6['onPress'] = var8;
@@ -537,7 +543,7 @@ case 4:
         var9['label'] = var13;
         var12 = var12.addAccountLabel;
         var9['labelStyle'] = var12;
-        var11 = function onPress() {
+        var11 = function handlePressAddAccount() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var2 = _closure2_slot1;

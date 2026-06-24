@@ -95,7 +95,7 @@ case 2:
         var5 = var6.fileFinishedImporting;
         var4 = 'modules/gif_picker/native/GIFPickerItemActionSheet.tsx';
         var4 = var5.bind(var6)(var4);
-        var2 = function _default(arg1) {
+        var2 = function GIFPickerItemActionSheet(arg1) {
             var2 = arg1;
             var14 = var2.item;
             var _closure2_slot0 = var14;

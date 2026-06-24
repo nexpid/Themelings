@@ -246,7 +246,7 @@ case 9:
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
-    var9 = function COLLECTIBLES_PURCHASES_FETCH() {
+    var9 = function handlePurchasesFetch() {
         var1 = true;
         _closure1_slot9 = var1;
         var1 = undefined;
@@ -254,7 +254,7 @@ case 9:
         return var1;
     };
     var2['COLLECTIBLES_PURCHASES_FETCH'] = var9;
-    var9 = function COLLECTIBLES_PURCHASES_FETCH_SUCCESS(arg1) {
+    var9 = function handlePurchasesFetchSuccess(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -315,7 +315,7 @@ case 13:
         }
     };
     var2['COLLECTIBLES_PURCHASES_FETCH_SUCCESS'] = var9;
-    var9 = function COLLECTIBLES_PURCHASES_FETCH_FAILURE(arg1) {
+    var9 = function handlePurchasesFetchFailure(arg1) {
         var1 = arg1;
         var1 = var1.error;
         var3 = _closure1_slot7;
@@ -329,7 +329,7 @@ case 13:
         return var1;
     };
     var2['COLLECTIBLES_PURCHASES_FETCH_FAILURE'] = var9;
-    var9 = function COLLECTIBLES_CLAIM(arg1) {
+    var9 = function handleClaim(arg1) {
         var1 = arg1;
         var1 = var1.skuId;
         _closure1_slot10 = var1;
@@ -338,7 +338,7 @@ case 13:
         return var1;
     };
     var2['COLLECTIBLES_CLAIM'] = var9;
-    var9 = function COLLECTIBLES_CLAIM_SUCCESS(arg1) {
+    var9 = function handleClaimSuccess(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
@@ -400,7 +400,7 @@ case 18:
         }
     };
     var2['COLLECTIBLES_CLAIM_SUCCESS'] = var9;
-    var9 = function COLLECTIBLES_CLAIM_FAILURE(arg1) {
+    var9 = function handleClaimFailure(arg1) {
         var1 = arg1;
         var2 = var1.error;
         var3 = var1.skuId;
@@ -410,7 +410,7 @@ case 18:
         return var1;
     };
     var2['COLLECTIBLES_CLAIM_FAILURE'] = var9;
-    var4 = function LOGOUT() {
+    var4 = function handleLogout() {
         var1 = _closure1_slot7;
         _closure1_slot8 = var1;
         var2 = false;

@@ -76,26 +76,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['elevationShadow'] = var11;
     var5 = var9.bind(var10)(var5);
     var _closure1_slot9 = var5;
-    var9 = {};
-    var5 = 'function PictureInPictureTsx1(velocity){return{mass:0.2,damping:7.5,stiffness:100,restDisplacementThreshold:0.1,restSpeedThreshold:0.1,overshootClamping:true,velocity:velocity};}';
-    var9['code'] = var5;
-    var5 = function t(arg1) {
-        var1 = {'mass': 0.2, 'damping': 7.5, 'stiffness': 100, 'restDisplacementThreshold': 0.1, 'restSpeedThreshold': 0.1, 'overshootClamping': true};
-        var2 = arg1;
-        var1['velocity'] = var2;
+    var5 = {};
+    var9 = 'function getSpringAnimationConfig_PictureInPictureTsx1(velocity){return{mass:0.2,damping:7.5,stiffness:100,restDisplacementThreshold:0.1,restSpeedThreshold:0.1,overshootClamping:true,velocity:velocity};}';
+    var5['code'] = var9;
+    var _closure1_slot10 = var5;
+    var5 = function() {
+        var1 = function getSpringAnimationConfig(arg1) {
+            var1 = {'mass': 0.2, 'damping': 7.5, 'stiffness': 100, 'restDisplacementThreshold': 0.1, 'restSpeedThreshold': 0.1, 'overshootClamping': true};
+            var2 = arg1;
+            var1['velocity'] = var2;
+            return var1;
+        };
+        var2 = {};
+        var1['__closure'] = var2;
+        var2 = 6627401186753.0;
+        var1['__workletHash'] = var2;
+        var2 = _closure1_slot10;
+        var1['__initData'] = var2;
         return var1;
     };
-    var10 = {};
-    var5['__closure'] = var10;
-    var10 = 14089987184261.0;
-    var5['__workletHash'] = var10;
-    var5['__initData'] = var9;
-    var _closure1_slot10 = var5;
+    var5 = var5.bind(var1)();
+    var _closure1_slot11 = var5;
     var2 = var2.TOP_LEFT;
     var5 = {};
     var9 = 'function PictureInPictureTsx2(){const{insets,withSpring,getSpringAnimationConfig}=this.__closure;return{marginTop:insets.top,marginBottom:withSpring(insets.bottom,getSpringAnimationConfig())};}';
     var5['code'] = var9;
-    var _closure1_slot11 = var5;
+    var _closure1_slot12 = var5;
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -167,7 +173,7 @@ case 2:
             var1 = var3[var9];
             var10 = var2.bind(var4)(var1);
             var8 = var10.useAnimatedStyle;
-            var1 = function P() {
+            var1 = function w() {
                 var1 = {};
                 var2 = _closure2_slot0;
                 var2 = var2.top;
@@ -181,7 +187,7 @@ case 2:
                 var4 = var5.withSpring;
                 var3 = _closure2_slot0;
                 var3 = var3.bottom;
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot11;
                 var2 = var2.bind(var6)();
                 var2 = var4.bind(var5)(var3, var2);
                 var1['marginBottom'] = var2;
@@ -194,12 +200,12 @@ case 2:
             var17 = var2.bind(var4)(var17);
             var17 = var17.withSpring;
             var13['withSpring'] = var17;
-            var17 = _closure1_slot10;
+            var17 = _closure1_slot11;
             var13['getSpringAnimationConfig'] = var17;
             var1['__closure'] = var13;
             var13 = 16677290574613.0;
             var1['__workletHash'] = var13;
-            var13 = _closure1_slot11;
+            var13 = _closure1_slot12;
             var1['__initData'] = var13;
             var8 = var8.bind(var10)(var1);
             var1 = 14;

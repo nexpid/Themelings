@@ -203,7 +203,7 @@ case 8:
     var5 = 'modules/collectibles/hooks/useShopProductItems.tsx';
     var5 = var6.bind(var7)(var5);
     var3['ItemsSortingHat'] = var4;
-    var4 = function(arg1) {
+    var4 = function useShopProductItems(arg1) {
         var5 = arg1;
         var _closure2_slot0 = var5;
         var4 = _closure1_slot4;
@@ -234,7 +234,7 @@ case 8:
         return var1;
     };
     var3['useShopProductItems'] = var4;
-    var2 = function(arg1) {
+    var2 = function getBundleItemNames(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var7 = arg1;
