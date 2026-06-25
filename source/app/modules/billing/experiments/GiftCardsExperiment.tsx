@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/billing/experiments/GiftCardsExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var2 = function(arg1) {
+    var2 = function useGiftCardsExperimentConfig(arg1) {
         var1 = {};
         var4 = _closure1_slot0;
         var3 = var4.useConfig;

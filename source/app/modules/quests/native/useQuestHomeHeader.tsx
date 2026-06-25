@@ -1,19 +1,16 @@
 // app/modules/quests/native/useQuestHomeHeader.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
-    var1 = function QuestHomeHeaderTitle(arg1) {
-        var1 = arg1;
-        var3 = var1.youBarEnabled;
-        var2 = var1.leftAlignHeader;
+    var1 = function QuestHomeHeaderTitle() {
         var1 = _closure1_slot10;
         var4 = undefined;
-        var9 = var1.bind(var4)(var3, var2);
+        var9 = var1.bind(var4)();
         var3 = _closure1_slot9;
         var2 = _closure1_slot4;
         var1 = {};
@@ -59,21 +56,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function QuestHomeHeaderRight(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var6 = arg1;
-            var5 = var6.youBarEnabled;
-            var3 = var6.leftAlignHeader;
-            var7 = var6.isVirtualCurrencyEnabled;
-            var4 = {'youBarEnabled': 0, 'leftAlignHeader': 0, 'isVirtualCurrencyEnabled': 0};
-            var15 = null;
-            var16 = var4;
-            var2 = silentSetPrototypeOf(var16, var15);
+            var4 = arg1;
+            var7 = var4.isVirtualCurrencyEnabled;
+            var2 = null;
+            var3 = Object.create(var2);
+            var2 = 0;
+            var3['isVirtualCurrencyEnabled'] = var2;
             var16 = {};
-            var15 = var6;
-            var14 = var4;
+            var15 = var4;
+            var14 = var3;
             var9 = copyDataProperties(var16, var15, var14);
             var2 = _closure1_slot10;
             var4 = undefined;
-            var5 = var2.bind(var4)(var5, var3);
+            var5 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 11;
@@ -399,8 +394,8 @@ case 9:
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
+    var12 = 1;
+    var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot4 = var4;
@@ -430,81 +425,43 @@ case 9:
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
-    var4 = function(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var5 = arg1;
-            var4 = arg2;
-            var1 = {};
-            var2 = {'width': null, 'flexDirection': 'row', 'alignItems': 'center'};
-            var6 = undefined;
-            var3 = undefined;
-            if(!var4) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-            var3 = '100%';
-case 11:
-            var2['width'] = var3;
-            var3 = undefined;
-            if(!var5) { _fun0003_ip = 4; continue _fun0003 }
-case 13:
-            var8 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var7 = 7;
-            var7 = var9[var7];
-            var7 = var8.bind(var6)(var7);
-            var7 = var7.space;
-            var3 = var7.PX_8;
-case 4:
-            var2['marginTop'] = var3;
-            var3 = undefined;
-            if(!var4) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-            var7 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var4 = 7;
-            var4 = var8[var4];
-            var4 = var7.bind(var6)(var4);
-            var4 = var4.space;
-            var3 = var4.PX_8;
-case 14:
-            var2['paddingLeft'] = var3;
-            var8 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var7 = 7;
-            var9 = var3[var7];
-            var9 = var8.bind(var6)(var9);
-            var9 = var9.space;
-            var9 = var9.PX_8;
-            var2['gap'] = var9;
-            var1['headerTitleContainer'] = var2;
-            var2 = {};
-            var9 = 1;
-            var2['flexShrink'] = var9;
-            var1['headerTitle'] = var2;
-            var2 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center'};
-            var3 = var3[var7];
-            var3 = var8.bind(var6)(var3);
-            var3 = var3.space;
-            var3 = var3.PX_8;
-            var2['gap'] = var3;
-            var3 = undefined;
-            if(!var5) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var4 = var4[var7];
-            var4 = var5.bind(var6)(var4);
-            var4 = var4.space;
-            var3 = var4.PX_8;
-case 16:
-            var2['marginTop'] = var3;
-            var1['headerRightContainer'] = var2;
-            return var1;
-        }
-    };
+    var4 = {};
+    var9 = {'width': '100%', 'flexDirection': 'row', 'alignItems': 'center'};
+    var10 = 7;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_8;
+    var9['marginTop'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_8;
+    var9['paddingLeft'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_8;
+    var9['gap'] = var13;
+    var4['headerTitleContainer'] = var9;
+    var9 = {};
+    var9['flexShrink'] = var12;
+    var4['headerTitle'] = var9;
+    var9 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center'};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_8;
+    var9['gap'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.space;
+    var10 = var10.PX_8;
+    var9['marginTop'] = var10;
+    var4['headerRightContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 25;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -521,90 +478,65 @@ case 16:
         var6 = var1.selectedSortMethod;
         var _closure2_slot3 = var6;
         var5 = _closure1_slot0;
-        var11 = _closure1_slot2;
+        var10 = _closure1_slot2;
         var1 = 22;
-        var4 = var11[var1];
+        var4 = var10[var1];
         var1 = undefined;
-        var10 = var5.bind(var1)(var4);
-        var4 = var10.useNavigation;
-        var12 = var4.bind(var10)();
-        var _closure2_slot4 = var12;
+        var11 = var5.bind(var1)(var4);
+        var4 = var11.useNavigation;
+        var11 = var4.bind(var11)();
+        var _closure2_slot4 = var11;
         var4 = 23;
-        var4 = var11[var4];
-        var10 = var5.bind(var1)(var4);
-        var4 = var10.useVirtualCurrencyMobileEnabled;
-        var4 = var4.bind(var10)();
+        var4 = var10[var4];
+        var5 = var5.bind(var1)(var4);
+        var4 = var5.useVirtualCurrencyMobileEnabled;
+        var4 = var4.bind(var5)();
         var10 = var4.enabled;
         var _closure2_slot5 = var10;
-        var4 = 24;
-        var4 = var11[var4];
-        var11 = var5.bind(var1)(var4);
-        var5 = var11.useYouBarEnabled;
-        var4 = 'QuestHome';
-        var11 = var5.bind(var11)(var4);
-        var _closure2_slot6 = var11;
         var5 = _closure1_slot3;
         var4 = var5.useLayoutEffect;
-        var3 = new Array(7);
-        var3[0] = var12;
-        var3[1] = var11;
-        var3[2] = var10;
-        var3[3] = var9;
-        var3[4] = var8;
-        var3[5] = var7;
-        var3[6] = var6;
+        var3 = new Array(6);
+        var3[0] = var11;
+        var3[1] = var10;
+        var3[2] = var9;
+        var3[3] = var8;
+        var3[4] = var7;
+        var3[5] = var6;
         var2 = function() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                var2 = _closure2_slot5;
-                if(var2) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
-                var2 = _closure2_slot6;
-case 18:
-                var _closure3_slot0 = var2;
-                var3 = _closure2_slot4;
-                var2 = var3.setOptions;
+            var3 = _closure2_slot4;
+            var2 = var3.setOptions;
+            var1 = {};
+            var5 = function headerTitle() {
+                var4 = _closure1_slot8;
+                var3 = _closure1_slot11;
+                var2 = undefined;
                 var1 = {};
-                var5 = function headerTitle() {
-                    var4 = _closure1_slot8;
-                    var3 = _closure1_slot11;
-                    var2 = {};
-                    var1 = _closure2_slot6;
-                    var2['youBarEnabled'] = var1;
-                    var1 = _closure3_slot0;
-                    var2['leftAlignHeader'] = var1;
-                    var1 = undefined;
-                    var1 = var4.bind(var1)(var3, var2);
-                    return var1;
-                };
-                var1['headerTitle'] = var5;
-                var4 = function headerRight() {
-                    var4 = _closure1_slot8;
-                    var3 = _closure1_slot12;
-                    var2 = {};
-                    var5 = _closure2_slot6;
-                    var2['youBarEnabled'] = var5;
-                    var5 = _closure3_slot0;
-                    var2['leftAlignHeader'] = var5;
-                    var5 = _closure2_slot5;
-                    var2['isVirtualCurrencyEnabled'] = var5;
-                    var5 = _closure2_slot0;
-                    var2['setSelectedSortMethod'] = var5;
-                    var5 = _closure2_slot1;
-                    var2['setSelectedFilters'] = var5;
-                    var5 = _closure2_slot2;
-                    var2['selectedFilters'] = var5;
-                    var1 = _closure2_slot3;
-                    var2['selectedSortMethod'] = var1;
-                    var1 = undefined;
-                    var1 = var4.bind(var1)(var3, var2);
-                    return var1;
-                };
-                var1['headerRight'] = var4;
-                var1 = var2.bind(var3)(var1);
-                var1 = undefined;
+                var1 = var4.bind(var2)(var3, var1);
                 return var1;
-            }
+            };
+            var1['headerTitle'] = var5;
+            var4 = function headerRight() {
+                var4 = _closure1_slot8;
+                var3 = _closure1_slot12;
+                var2 = {};
+                var5 = _closure2_slot5;
+                var2['isVirtualCurrencyEnabled'] = var5;
+                var5 = _closure2_slot0;
+                var2['setSelectedSortMethod'] = var5;
+                var5 = _closure2_slot1;
+                var2['setSelectedFilters'] = var5;
+                var5 = _closure2_slot2;
+                var2['selectedFilters'] = var5;
+                var1 = _closure2_slot3;
+                var2['selectedSortMethod'] = var1;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
+                return var1;
+            };
+            var1['headerRight'] = var4;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
         var2 = var4.bind(var5)(var2, var3);
         return var1;

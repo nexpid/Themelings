@@ -955,9 +955,8 @@ case 0:
             var2 = var2.bind(var4)();
             var18 = var2.bottom;
             var _closure2_slot0 = var18;
-            var6 = _closure1_slot16;
-            var2 = 'PremiumNitroHome';
-            var14 = var6.bind(var4)(var2);
+            var2 = _closure1_slot16;
+            var14 = var2.bind(var4)();
             var2 = 15;
             var2 = var3[var2];
             var6 = var5.bind(var4)(var2);

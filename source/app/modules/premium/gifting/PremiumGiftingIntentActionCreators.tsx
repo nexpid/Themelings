@@ -216,24 +216,35 @@ case 7:
     };
     var3['logFriendsListGiftIntentsShown'] = var4;
     var4 = function logMessageGiftIntentShown(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'MESSAGE_GIFT_INTENT_SHOWN';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['recipientUserId'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var4 = arg1;
+            var3 = arguments[1];
+            var1 = undefined;
+            if(!(var3 === var1)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            var2 = _closure1_slot5;
+            var3 = var2.FRIEND_ANNIVERSARY;
+case 10:
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var5 = 5;
+            var5 = var7[var5];
+            var7 = var6.bind(var1)(var5);
+            var6 = var7.dispatch;
+            var5 = {};
+            var8 = 'MESSAGE_GIFT_INTENT_SHOWN';
+            var5['type'] = var8;
+            var5['recipientUserId'] = var4;
+            var5 = var6.bind(var7)(var5);
+            var2 = _closure1_slot7;
+            var2 = var2.bind(var1)(var3, var4);
+            return var1;
+        }
     };
     var3['logMessageGiftIntentShown'] = var4;
     var4 = function logGiftIntentMessageDismissed(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var5 = _closure1_slot4;
             var4 = var5.getMessage;
@@ -244,32 +255,32 @@ case 0:
             var6 = var4 == var5;
             var1 = undefined;
             var2 = undefined;
-            if(var6) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(var6) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
             var2 = var5.giftingPrompt;
-case 10:
-            if(!(var4 != var2)) { _fun0003_ip = 12; continue _fun0003 }
+case 12:
+            if(!(var4 != var2)) { _fun0004_ip = 14; continue _fun0004 }
 case 3:
             var4 = _closure1_slot7;
             var3 = var2.giftIntentType;
             var2 = var2.recipientUserId;
             var2 = var4.bind(var1)(var3, var2);
-case 12:
+case 14:
             return var1;
         }
     };
     var3['logGiftIntentMessageDismissed'] = var4;
     var4 = function logGiftIntentFlowPurchasedGift(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var4 = arg1;
             var3 = arguments[1];
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+            if(!(var3 === var1)) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
             var2 = _closure1_slot5;
             var3 = var2.FRIEND_ANNIVERSARY;
-case 13:
+case 10:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var5 = 5;

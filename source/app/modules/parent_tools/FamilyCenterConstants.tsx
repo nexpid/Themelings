@@ -1409,6 +1409,8 @@ case 11:
     var3['FamilyCenterFailureCode'] = var6;
     var3['FAMILY_CENTER_ERROR_CODE_TO_FAILURE'] = var5;
     var3['FAMILY_CENTER_LINK_REQUEST_ERROR_EXPERIENCES'] = var4;
+    var4 = 'ConnectGuardianBottomSheet';
+    var3['CONNECT_GUARDIAN_BOTTOM_SHEET_KEY'] = var4;
     var4 = function() {
         var1 = {};
         var7 = _closure1_slot0;

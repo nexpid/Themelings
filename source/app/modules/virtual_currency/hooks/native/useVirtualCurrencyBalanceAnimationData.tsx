@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/virtual_currency/hooks/native/useVirtualCurrencyBalanceAnimationData.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function useVirtualCurrencyBalanceAnimationData(arg1) {
         var2 = arg1;
         var7 = var2.initialRenderedBalance;
         var _closure2_slot0 = var7;

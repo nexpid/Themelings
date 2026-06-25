@@ -58,8 +58,35 @@ case 0:
             var _closure2_slot1 = var22;
             var21 = var1.onValueReached;
             var8 = var1.style;
-            var6 = _closure1_slot6;
             var5 = undefined;
+            var _closure2_slot4 = var5;
+            var _closure2_slot9 = var5;
+            var1 = function clearAnimationTimeout() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var2 = _closure2_slot4;
+                    var2 = var2.current;
+                    var3 = null;
+                    if(!(var3 != var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var2 = global;
+                    var5 = var2.clearTimeout;
+                    var2 = _closure2_slot4;
+                    var4 = var2.current;
+                    var2 = undefined;
+                    var2 = var5.bind(var2)(var4);
+                    var2 = _closure2_slot4;
+                    var2['current'] = var3;
+case 2:
+                    var3 = _closure2_slot9;
+                    var1 = undefined;
+                    var2 = false;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                }
+            };
+            var _closure2_slot11 = var1;
+            var6 = _closure1_slot6;
             var1 = null;
             var2 = var6.bind(var5)(var1);
             var _closure2_slot2 = var2;
@@ -73,7 +100,7 @@ case 0:
             var18 = var9.bind(var11)(var10);
             var _closure2_slot3 = var18;
             var6 = var6.bind(var5)(var1);
-            var _closure2_slot4 = var6;
+            _closure2_slot4 = var6;
             var11 = _closure1_slot8;
             var9 = var11.useContext;
             var6 = 4;
@@ -104,14 +131,14 @@ case 0:
             var19 = var11[var10];
             var _closure2_slot8 = var19;
             var11 = var11[var12];
-            var _closure2_slot9 = var11;
+            _closure2_slot9 = var11;
             var20 = _closure1_slot7;
             var12 = function(arg1, arg2, arg3) {
                 var4 = arg1;
-                var10 = _closure2_slot9;
+                var3 = _closure2_slot9;
                 var1 = undefined;
                 var2 = true;
-                var2 = var10.bind(var1)(var2);
+                var2 = var3.bind(var1)(var2);
                 var3 = var4.set;
                 var12 = _closure1_slot0;
                 var13 = _closure1_slot2;
@@ -122,7 +149,7 @@ case 0:
                 var7 = {'duration': null, 'damping': 15, 'stiffness': 150, 'mass': 1};
                 var5 = arg3;
                 var7['duration'] = var5;
-                var6 = function s() {
+                var6 = function l() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 3;
@@ -142,6 +169,7 @@ case 0:
                 var11 = var12.bind(var1)(var11);
                 var11 = var11.runOnJS;
                 var5['runOnJS'] = var11;
+                var10 = _closure2_slot9;
                 var5['setIsAnimating'] = var10;
                 var6['__closure'] = var5;
                 var5 = 16153226572520.0;
@@ -160,30 +188,6 @@ case 0:
             var11 = new Array(0);
             var20 = var20.bind(var5)(var12, var11);
             var _closure2_slot10 = var20;
-            var11 = function clearAnimationTimeout() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var2 = _closure2_slot4;
-                    var2 = var2.current;
-                    var3 = null;
-                    if(!(var3 != var2)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var2 = global;
-                    var6 = var2.clearTimeout;
-                    var2 = _closure2_slot4;
-                    var5 = var2.current;
-                    var4 = undefined;
-                    var4 = var6.bind(var4)(var5);
-                    var2['current'] = var3;
-case 2:
-                    var3 = _closure2_slot9;
-                    var1 = undefined;
-                    var2 = false;
-                    var2 = var3.bind(var1)(var2);
-                    return var1;
-                }
-            };
-            var _closure2_slot11 = var11;
             var12 = _closure1_slot5;
             var11 = new Array(6);
             var11[0] = var3;

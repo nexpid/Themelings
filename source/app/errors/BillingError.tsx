@@ -222,6 +222,14 @@ case 4:
     var4['BILLING_CURRENCY_NOT_ALLOWED_FOR_COUNTRY'] = var9;
     var6 = 'BILLING_CURRENCY_NOT_ALLOWED_FOR_COUNTRY';
     var4[var9] = var6;
+    var9 = 100150;
+    var4['BILLING_SPENDING_LIMIT_WILL_EXCEED'] = var9;
+    var6 = 'BILLING_SPENDING_LIMIT_WILL_EXCEED';
+    var4[var9] = var6;
+    var9 = 100151;
+    var4['BILLING_SPENDING_LIMIT_REACHED'] = var9;
+    var6 = 'BILLING_SPENDING_LIMIT_REACHED';
+    var4[var9] = var6;
     var9 = 100152;
     var4['BILLING_ORDER_NOT_SIGNABLE'] = var9;
     var6 = 'BILLING_ORDER_NOT_SIGNABLE';

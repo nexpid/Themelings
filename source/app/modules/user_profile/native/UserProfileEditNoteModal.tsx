@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -63,69 +63,54 @@ case 2:
                 }
             };
             var _closure2_slot3 = var10;
-            var2 = _closure1_slot0;
+            var4 = _closure1_slot3;
+            var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 3;
             var1 = var5[var1];
-            var4 = undefined;
-            var6 = var2.bind(var4)(var1);
-            var3 = var6.useYouBarEnabled;
-            var1 = 'UserProfileEditNoteModal';
-            var6 = var3.bind(var6)(var1);
-            var3 = _closure1_slot3;
-            var1 = 4;
-            var1 = var5[var1];
-            var1 = var2.bind(var4)(var1);
+            var3 = undefined;
+            var1 = var6.bind(var3)(var1);
             var2 = var1.Navigator;
             var1 = {};
-            var5 = 'root';
-            var1['initialRouteName'] = var5;
-            var5 = undefined;
+            var9 = 'root';
+            var1['initialRouteName'] = var9;
+            var9 = 4;
+            var5 = var5[var9];
+            var6 = var6.bind(var3)(var5);
+            var5 = var6.isAndroid;
+            var6 = var5.bind(var6)();
+            var5 = 12;
             if(!var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var9 = 5;
-            var9 = var12[var9];
-            var11 = var11.bind(var4)(var9);
-            var9 = var11.isAndroid;
-            var9 = var9.bind(var11)();
             var5 = undefined;
-            if(var9) { _fun0001_ip = 4; continue _fun0001 }
-case 6:
-            var5 = 12;
 case 4:
             var1['headerStatusBarHeight'] = var5;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var9];
+            var6 = var6.bind(var3)(var5);
+            var5 = var6.isAndroid;
+            var6 = var5.bind(var6)();
             var5 = undefined;
-            if(!var6) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var6 = 5;
-            var6 = var11[var6];
-            var9 = var9.bind(var4)(var6);
-            var6 = var9.isAndroid;
-            var6 = var6.bind(var9)();
-            var5 = undefined;
-            if(var6) { _fun0001_ip = 7; continue _fun0001 }
-case 9:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = {};
             var9 = 56;
             var6['height'] = var9;
             var5 = var6;
-case 7:
+case 6:
             var1['headerStyle'] = var5;
             var5 = {};
             var6 = {};
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var8 = 6;
+            var8 = 5;
             var12 = var11[var8];
-            var12 = var9.bind(var4)(var12);
+            var12 = var9.bind(var3)(var12);
             var13 = var12.intl;
             var12 = var13.string;
             var8 = var11[var8];
-            var8 = var9.bind(var4)(var8);
+            var8 = var9.bind(var3)(var8);
             var8 = var8.t;
             var8 = var8.sHHsOM;
             var8 = var12.bind(var13)(var8);
@@ -134,13 +119,13 @@ case 7:
                 var4 = _closure1_slot3;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 7;
+                var1 = 6;
                 var1 = var9[var1];
                 var3 = undefined;
                 var1 = var8.bind(var3)(var1);
                 var2 = var1.Text;
                 var1 = {'variant': 'redesign/heading-18/bold', 'accessibilityRole': 'header'};
-                var5 = 6;
+                var5 = 5;
                 var6 = var9[var5];
                 var6 = var8.bind(var3)(var6);
                 var7 = var6.intl;
@@ -155,16 +140,16 @@ case 7:
                 return var1;
             };
             var6['headerTitle'] = var8;
-            var8 = 8;
+            var8 = 7;
             var8 = var11[var8];
-            var9 = var9.bind(var4)(var8);
+            var9 = var9.bind(var3)(var8);
             var8 = var9.getHeaderCloseButton;
             var8 = var8.bind(var9)(var10);
             var6['headerLeft'] = var8;
             var7 = function render() {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 9;
+                var2 = 8;
                 var2 = var4[var2];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
@@ -183,7 +168,7 @@ case 7:
             var6['render'] = var7;
             var5['root'] = var6;
             var1['screens'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var1 = var4.bind(var3)(var2, var1);
             return var1;
         }
     };

@@ -27,39 +27,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9[1] = var10;
     var4['variations'] = var9;
     var8 = var7.bind(var8)(var4);
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var10 = var4.YouBarExperiment;
-    var7 = var10.getConfig;
+    var7 = var8.getConfig;
     var4 = {};
     var9 = 'you-nav-floating';
     var4['location'] = var9;
-    var4 = var7.bind(var10)(var4);
-    var4 = var4.enabled;
-    var _closure1_slot0 = var4;
-    var7 = var8.getConfig;
-    var4 = {};
-    var4['location'] = var9;
     var4 = var7.bind(var8)(var4);
     var4 = var4.enabled;
-    var _closure1_slot1 = var4;
-    var4 = 2;
+    var _closure1_slot0 = var4;
+    var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/main_tabs_v2/native/tabs/you/YouNavFloatingExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function isYouNavFloating() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = _closure1_slot0;
-            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = _closure1_slot1;
-case 2:
-            return var1;
-        }
+        var1 = _closure1_slot0;
+        return var1;
     };
     var3['isYouNavFloating'] = var2;
     return var1;

@@ -199,7 +199,7 @@ case 3:
                     var2 = 10;
                     var2 = var5[var2];
                     var3 = var3.bind(var1)(var2);
-                    var2 = var3.initializeDoubleTapEmojiAndUpsell;
+                    var2 = var3.maybeShowDoubleTapReminderToast;
                     var2 = var2.bind(var3)(var4);
 case 2:
                     return var1;

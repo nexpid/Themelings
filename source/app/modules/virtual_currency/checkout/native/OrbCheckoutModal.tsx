@@ -84,6 +84,40 @@ case 4:
             return var1;
         }
     };
+    var _closure1_slot15 = var1;
+    var1 = function OrbCheckoutModalFooter(arg1) {
+        var1 = arg1;
+        var9 = var1.onPress;
+        var4 = _closure1_slot12;
+        var7 = _closure1_slot0;
+        var10 = _closure1_slot2;
+        var1 = 6;
+        var1 = var10[var1];
+        var3 = undefined;
+        var1 = var7.bind(var3)(var1);
+        var2 = var1.Stack;
+        var1 = {};
+        var12 = _closure1_slot11;
+        var6 = 7;
+        var5 = var10[var6];
+        var5 = var7.bind(var3)(var5);
+        var11 = var5.OrbCheckoutLegalFinePrint;
+        var5 = {};
+        var11 = var12.bind(var3)(var11, var5);
+        var5 = new Array(2);
+        var5[0] = var11;
+        var8 = _closure1_slot11;
+        var6 = var10[var6];
+        var6 = var7.bind(var3)(var6);
+        var7 = var6.OrbCheckoutPurchaseButton;
+        var6 = {};
+        var6['onPress'] = var9;
+        var6 = var8.bind(var3)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
     var _closure1_slot16 = var1;
     var1 = global;
     var8 = var1.Object;
@@ -132,40 +166,6 @@ case 4:
     var7 = 'MAIN';
     var4['MAIN'] = var7;
     var _closure1_slot13 = var4;
-    var4 = function OrbCheckoutModalFooter(arg1) {
-        var1 = arg1;
-        var9 = var1.onPress;
-        var4 = _closure1_slot12;
-        var7 = _closure1_slot0;
-        var10 = _closure1_slot2;
-        var1 = 6;
-        var1 = var10[var1];
-        var3 = undefined;
-        var1 = var7.bind(var3)(var1);
-        var2 = var1.Stack;
-        var1 = {};
-        var12 = _closure1_slot11;
-        var6 = 7;
-        var5 = var10[var6];
-        var5 = var7.bind(var3)(var5);
-        var11 = var5.OrbCheckoutLegalFinePrint;
-        var5 = {};
-        var11 = var12.bind(var3)(var11, var5);
-        var5 = new Array(2);
-        var5[0] = var11;
-        var8 = _closure1_slot11;
-        var6 = var10[var6];
-        var6 = var7.bind(var3)(var6);
-        var7 = var6.OrbCheckoutPurchaseButton;
-        var6 = {};
-        var6['onPress'] = var9;
-        var6 = var8.bind(var3)(var7, var6);
-        var5[1] = var6;
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot14 = var4;
     var4 = function OrbCheckoutModalScreen(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -183,7 +183,7 @@ case 0:
             var _closure2_slot0 = var5;
             var3 = var2.orbRedemptionError;
             var _closure2_slot1 = var3;
-            var2 = function(arg1) {
+            var2 = function useOrbCheckoutPaymentFlowEvents(arg1) {
                 var7 = arg1;
                 var _closure3_slot0 = var7;
                 var4 = _closure1_slot0;
@@ -525,7 +525,7 @@ case 25:
             var6 = var5.ModalContent;
             var5 = {};
             var14 = _closure1_slot11;
-            var13 = _closure1_slot16;
+            var13 = _closure1_slot15;
             var11 = {};
             var11['orbBalance'] = var15;
             var11 = var14.bind(var4)(var13, var11);
@@ -540,7 +540,7 @@ case 25:
             var7 = var6.ModalFooter;
             var6 = {};
             var11 = _closure1_slot11;
-            var10 = _closure1_slot14;
+            var10 = _closure1_slot16;
             var9 = {};
             var9['onPress'] = var12;
             var9 = var11.bind(var4)(var10, var9);
@@ -552,7 +552,7 @@ case 25:
             return var1;
         }
     };
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -722,7 +722,7 @@ case 25:
             var6 = _closure2_slot2;
             var1['analyticsLocations'] = var6;
             var7 = _closure1_slot11;
-            var6 = _closure1_slot15;
+            var6 = _closure1_slot14;
             var5 = {};
             var8 = _closure2_slot4;
             var5['startTime'] = var8;

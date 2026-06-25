@@ -396,30 +396,30 @@ case 3:
             var13 = var4;
 case 2:
             _closure2_slot1 = var13;
-            var6 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var4 = 19;
-            var4 = var9[var4];
-            var10 = var6.bind(var5)(var4);
-            var4 = {};
-            var6 = _closure1_slot0;
+            var4 = var6[var4];
+            var10 = var9.bind(var5)(var4);
+            var9 = {};
+            var4 = _closure1_slot0;
             var11 = 20;
-            var14 = var9[var11];
-            var14 = var6.bind(var5)(var14);
+            var14 = var6[var11];
+            var14 = var4.bind(var5)(var14);
             var14 = var14.ImpressionTypes;
             var14 = var14.VIEW;
-            var4['type'] = var14;
-            var11 = var9[var11];
-            var11 = var6.bind(var5)(var11);
+            var9['type'] = var14;
+            var11 = var6[var11];
+            var11 = var4.bind(var5)(var11);
             var11 = var11.ImpressionNames;
             var11 = var11.GUILDS_EMPTY_NUX;
-            var4['name'] = var11;
-            var4 = var10.bind(var5)(var4);
+            var9['name'] = var11;
+            var9 = var10.bind(var5)(var9);
             var11 = _closure1_slot4;
             var10 = var11.useEffect;
-            var4 = new Array(2);
-            var4[0] = var13;
-            var4[1] = var12;
+            var9 = new Array(2);
+            var9[0] = var13;
+            var9[1] = var12;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -514,27 +514,17 @@ case 4:
                     return var1;
                 }
             };
-            var3 = var10.bind(var11)(var3, var4);
+            var3 = var10.bind(var11)(var3, var9);
             var3 = 22;
-            var3 = var9[var3];
-            var4 = var6.bind(var5)(var3);
+            var3 = var6[var3];
+            var4 = var4.bind(var5)(var3);
             var3 = var4.useIsScreenLandscape;
-            var3 = var3.bind(var4)();
-            var4 = 23;
-            var4 = var9[var4];
-            var9 = var6.bind(var5)(var4);
-            var6 = var9.useYouBarEnabled;
-            var4 = 'guilds-empty';
-            var11 = var6.bind(var9)(var4);
-            if(!var11) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
-            var11 = var3;
-case 17:
+            var11 = var3.bind(var4)();
             var3 = _closure1_slot11;
             var12 = var3.bind(var5)();
             var1 = null;
-            if(!var2) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(!var2) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var4 = _closure1_slot16;
             var3 = _closure1_slot6;
             var2 = {};
@@ -583,23 +573,23 @@ case 20:
             var8 = _closure1_slot20;
             var7 = {};
             var10 = undefined;
-            if(!var11) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+            if(!var11) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var11 = {};
             var11['paddingBottom'] = var12;
             var10 = var11;
-case 21:
+case 19:
             var7['contentContainerStyle'] = var10;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 19:
+case 17:
             return var1;
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 24;
+    var5 = 23;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

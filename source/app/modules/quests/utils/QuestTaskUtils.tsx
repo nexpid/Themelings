@@ -1,12 +1,12 @@
 // app/modules/quests/utils/QuestTaskUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var22 = require;
-    var11 = metroImportDefault;
+    var23 = require;
+    var12 = metroImportDefault;
     var3 = exports;
-    var23 = dependencyMap;
-    var _closure1_slot0 = var22;
-    var _closure1_slot1 = var11;
-    var _closure1_slot2 = var23;
+    var24 = dependencyMap;
+    var _closure1_slot0 = var23;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var24;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -276,7 +276,7 @@ case 45:
         }
     };
     var _closure1_slot11 = var1;
-    var20 = function hasPlayOnDesktopTask(arg1) {
+    var21 = function hasPlayOnDesktopTask(arg1) {
         var1 = arg1;
         var1 = var1.quest;
         var1 = var1.config;
@@ -295,8 +295,8 @@ case 45:
         var1 = var1 != var2;
         return var1;
     };
-    var _closure1_slot12 = var20;
-    var19 = function hasPlayActivityTask(arg1) {
+    var _closure1_slot12 = var21;
+    var20 = function hasPlayActivityTask(arg1) {
         var1 = arg1;
         var1 = var1.config;
         var1 = var1.taskConfigV2;
@@ -314,8 +314,8 @@ case 45:
         var1 = var1 != var2;
         return var1;
     };
-    var _closure1_slot13 = var19;
-    var18 = function shouldUsePlayOnDesktopTask(arg1) {
+    var _closure1_slot13 = var20;
+    var19 = function shouldUsePlayOnDesktopTask(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;
@@ -332,8 +332,8 @@ case 33:
             return var1;
         }
     };
-    var _closure1_slot14 = var18;
-    var17 = function hasSomeFirstPartyTasks(arg1) {
+    var _closure1_slot14 = var19;
+    var18 = function hasSomeFirstPartyTasks(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var1 = function(arg1) {
@@ -357,7 +357,7 @@ case 33:
         };
         return var1;
     };
-    var16 = function isInGameQuest(arg1) {
+    var17 = function isInGameQuest(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var2 = global;
@@ -387,7 +387,15 @@ case 33:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot15 = var16;
+    var _closure1_slot15 = var17;
+    var10 = function isConsoleQuest(arg1) {
+        var3 = _closure1_slot4;
+        var2 = undefined;
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
+    };
+    var _closure1_slot16 = var10;
     var1 = function hasUnsavedProgress(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -440,7 +448,7 @@ case 52:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var9 = function isQuestProgressingOnConsole(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -450,7 +458,7 @@ case 0:
             var1 = var1 != var2;
             if(!var1) { _fun0007_ip = 56; continue _fun0007 }
 case 57:
-            var7 = _closure1_slot16;
+            var7 = _closure1_slot17;
             var5 = var4.userStatus;
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -463,7 +471,7 @@ case 57:
             var2 = var7.bind(var6)(var5, var2);
             if(var2) { _fun0007_ip = 58; continue _fun0007 }
 case 59:
-            var5 = _closure1_slot16;
+            var5 = _closure1_slot17;
             var4 = var4.userStatus;
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -478,7 +486,7 @@ case 56:
             return var1;
         }
     };
-    var _closure1_slot17 = var9;
+    var _closure1_slot18 = var9;
     var1 = function _isPlayOnDesktopTaskType(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -502,7 +510,7 @@ case 60:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = function _computePercentComplete(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -531,7 +539,7 @@ case 61:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = function getTimeSinceLastBeatSeconds(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -564,7 +572,7 @@ case 66:
 case 62:
             if(!(var1 != var5)) { _fun0010_ip = 67; continue _fun0010 }
 case 9:
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot18;
             var2 = var2.bind(var7)(var3);
             if(var2) { _fun0010_ip = 68; continue _fun0010 }
 case 69:
@@ -609,7 +617,7 @@ case 67:
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = function _getTaskDetailsForType(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -685,7 +693,7 @@ case 80:
             var3 = var3.tasks;
             var14 = var13.bind(var14)(var3);
             var13 = var14.find;
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot19;
             var13 = var13.bind(var14)(var3);
             var14 = var1 == var13;
             var3 = undefined;
@@ -719,7 +727,7 @@ case 81:
             var12 = var11 / var12;
             var12 = var13.bind(var14)(var12);
             var2['targetMinutes'] = var12;
-            var6 = _closure1_slot19;
+            var6 = _closure1_slot20;
             var6 = var6.bind(var4)(var11, var7);
             var2['percentComplete'] = var6;
             var2['taskType'] = var5;
@@ -767,7 +775,7 @@ case 84:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = function _parseFirstPartyTaskType(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -790,7 +798,7 @@ case 65:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var8 = function getDefaultWatchVideoTask(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -834,7 +842,7 @@ case 88:
             return var1;
         }
     };
-    var _closure1_slot23 = var8;
+    var _closure1_slot24 = var8;
     var1 = function _getQuestTaskDetails(arg1, arg2) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -859,7 +867,7 @@ case 28:
 case 97:
             var1 = _closure1_slot13;
             var1 = var1.bind(var5)(var7);
-            var6 = _closure1_slot21;
+            var6 = _closure1_slot22;
             var4 = {};
             var4['quest'] = var7;
             var9 = _closure1_slot0;
@@ -881,7 +889,7 @@ case 98:
 case 73:
             _fun0014_ip = 100; continue _fun0014;
 case 96:
-            var6 = _closure1_slot21;
+            var6 = _closure1_slot22;
             var4 = {};
             var4['quest'] = var7;
             var9 = _closure1_slot0;
@@ -896,10 +904,10 @@ case 96:
 case 100:
             _fun0014_ip = 101; continue _fun0014;
 case 95:
-            var6 = _closure1_slot21;
+            var6 = _closure1_slot22;
             var4 = {};
             var4['quest'] = var7;
-            var9 = _closure1_slot23;
+            var9 = _closure1_slot24;
             var8 = var7.config;
             var9 = var9.bind(var5)(var8);
             var8 = null;
@@ -919,7 +927,7 @@ case 93:
             var6 = null;
             if(!(var6 == var2)) { _fun0014_ip = 26; continue _fun0014 }
 case 104:
-            var6 = _closure1_slot17;
+            var6 = _closure1_slot18;
             var6 = var6.bind(var5)(var7);
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -1112,7 +1120,7 @@ case 126:
                     var7 = undefined;
                     if(var2) { _fun0015_ip = 128; continue _fun0015 }
 case 129:
-                    var6 = _closure1_slot22;
+                    var6 = _closure1_slot23;
                     var2 = var8.value;
                     var2 = var2.eventName;
                     var12 = var6.bind(var3)(var2);
@@ -1127,7 +1135,7 @@ case 131:
                     var11 = var7;
                     if(!var2) { _fun0015_ip = 38; continue _fun0015 }
 case 132:
-                    var6 = _closure1_slot21;
+                    var6 = _closure1_slot22;
                     var2 = {};
                     var2['quest'] = var5;
                     var2['taskType'] = var12;
@@ -1146,7 +1154,7 @@ case 133:
 case 25:
                     return var2;
 case 128:
-                    var2 = _closure1_slot21;
+                    var2 = _closure1_slot22;
                     var1 = {};
                     var1['quest'] = var5;
                     var1['includeTaskTypes'] = var4;
@@ -1172,7 +1180,7 @@ case 134:
             return var1;
         }
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var7 = function getDefaultInGameTask(arg1) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
@@ -1207,10 +1215,10 @@ case 119:
             return var1;
         }
     };
-    var _closure1_slot25 = var7;
+    var _closure1_slot26 = var7;
     var6 = function getRemainingTaskTime(arg1) {
         var1 = arg1;
-        var3 = _closure1_slot27;
+        var3 = _closure1_slot28;
         var2 = var1.targetSeconds;
         var1 = var1.progressSeconds;
         var2 = var2 - var1;
@@ -1218,7 +1226,7 @@ case 119:
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var _closure1_slot26 = var6;
+    var _closure1_slot27 = var6;
     var5 = function parseMinutesAndSecondsFromSeconds(arg1) {
         var8 = arg1;
         var1 = {};
@@ -1243,7 +1251,7 @@ case 119:
         var1['seconds'] = var2;
         return var1;
     };
-    var _closure1_slot27 = var5;
+    var _closure1_slot28 = var5;
     var2 = function formatWatchTaskTime(arg1, arg2) {
         var1 = global;
         var3 = var1.String;
@@ -1266,103 +1274,103 @@ case 119:
         var1 = var3.bind(var2)(var5, var1, var4);
         return var1;
     };
-    var _closure1_slot28 = var2;
+    var _closure1_slot29 = var2;
     var1 = global;
-    var13 = var1.Object;
-    var12 = var13.defineProperty;
-    var10 = {};
+    var14 = var1.Object;
+    var13 = var14.defineProperty;
+    var11 = {};
     var1 = true;
-    var10['value'] = var1;
+    var11['value'] = var1;
     var1 = '__esModule';
-    var1 = var12.bind(var13)(var3, var1, var10);
+    var1 = var13.bind(var14)(var3, var1, var11);
     var1 = 0;
-    var10 = var23[var1];
+    var11 = var24[var1];
     var1 = undefined;
-    var10 = var11.bind(var1)(var10);
-    var _closure1_slot3 = var10;
-    var21 = 1;
-    var10 = var23[var21];
-    var10 = var22.bind(var1)(var10);
-    var10 = var10.FirstPartyQuestTaskTypes;
-    var11 = var10.PLAY_ON_XBOX;
-    var10 = new Array(2);
-    var10[0] = var11;
-    var11 = var23[var21];
-    var11 = var22.bind(var1)(var11);
+    var11 = var12.bind(var1)(var11);
+    var _closure1_slot3 = var11;
+    var22 = 1;
+    var11 = var24[var22];
+    var11 = var23.bind(var1)(var11);
     var11 = var11.FirstPartyQuestTaskTypes;
-    var11 = var11.PLAY_ON_PLAYSTATION;
-    var10[1] = var11;
-    var15 = var17.bind(var1)(var10);
-    var _closure1_slot4 = var15;
-    var10 = var23[var21];
-    var10 = var22.bind(var1)(var10);
-    var10 = var10.FirstPartyQuestTaskTypes;
-    var11 = var10.WATCH_VIDEO;
-    var10 = new Array(1);
-    var10[0] = var11;
-    var14 = var17.bind(var1)(var10);
-    var _closure1_slot5 = var14;
-    var10 = var23[var21];
-    var10 = var22.bind(var1)(var10);
-    var10 = var10.FirstPartyQuestTaskTypes;
-    var11 = var10.WATCH_VIDEO_ON_MOBILE;
-    var10 = new Array(1);
-    var10[0] = var11;
-    var13 = var17.bind(var1)(var10);
-    var _closure1_slot6 = var13;
-    var10 = var23[var21];
-    var10 = var22.bind(var1)(var10);
-    var10 = var10.FirstPartyQuestTaskTypes;
-    var11 = var10.WATCH_VIDEO;
-    var10 = new Array(2);
-    var10[0] = var11;
-    var11 = var23[var21];
-    var11 = var22.bind(var1)(var11);
+    var12 = var11.PLAY_ON_XBOX;
+    var11 = new Array(2);
+    var11[0] = var12;
+    var12 = var24[var22];
+    var12 = var23.bind(var1)(var12);
+    var12 = var12.FirstPartyQuestTaskTypes;
+    var12 = var12.PLAY_ON_PLAYSTATION;
+    var11[1] = var12;
+    var16 = var18.bind(var1)(var11);
+    var _closure1_slot4 = var16;
+    var11 = var24[var22];
+    var11 = var23.bind(var1)(var11);
     var11 = var11.FirstPartyQuestTaskTypes;
-    var11 = var11.WATCH_VIDEO_ON_MOBILE;
-    var10[1] = var11;
-    var12 = var17.bind(var1)(var10);
-    var _closure1_slot7 = var12;
-    var10 = var23[var21];
-    var10 = var22.bind(var1)(var10);
-    var10 = var10.FirstPartyQuestTaskTypes;
-    var11 = var10.PLAY_ON_DESKTOP;
-    var10 = new Array(5);
-    var10[0] = var11;
-    var11 = var23[var21];
-    var11 = var22.bind(var1)(var11);
+    var12 = var11.WATCH_VIDEO;
+    var11 = new Array(1);
+    var11[0] = var12;
+    var15 = var18.bind(var1)(var11);
+    var _closure1_slot5 = var15;
+    var11 = var24[var22];
+    var11 = var23.bind(var1)(var11);
     var11 = var11.FirstPartyQuestTaskTypes;
-    var11 = var11.STREAM_ON_DESKTOP;
-    var10[1] = var11;
-    var11 = var23[var21];
-    var11 = var22.bind(var1)(var11);
+    var12 = var11.WATCH_VIDEO_ON_MOBILE;
+    var11 = new Array(1);
+    var11[0] = var12;
+    var14 = var18.bind(var1)(var11);
+    var _closure1_slot6 = var14;
+    var11 = var24[var22];
+    var11 = var23.bind(var1)(var11);
     var11 = var11.FirstPartyQuestTaskTypes;
-    var11 = var11.PLAY_ON_PLAYSTATION;
-    var10[2] = var11;
-    var11 = var23[var21];
-    var11 = var22.bind(var1)(var11);
+    var12 = var11.WATCH_VIDEO;
+    var11 = new Array(2);
+    var11[0] = var12;
+    var12 = var24[var22];
+    var12 = var23.bind(var1)(var12);
+    var12 = var12.FirstPartyQuestTaskTypes;
+    var12 = var12.WATCH_VIDEO_ON_MOBILE;
+    var11[1] = var12;
+    var13 = var18.bind(var1)(var11);
+    var _closure1_slot7 = var13;
+    var11 = var24[var22];
+    var11 = var23.bind(var1)(var11);
     var11 = var11.FirstPartyQuestTaskTypes;
-    var11 = var11.PLAY_ON_XBOX;
-    var10[3] = var11;
-    var11 = var23[var21];
-    var11 = var22.bind(var1)(var11);
+    var12 = var11.PLAY_ON_DESKTOP;
+    var11 = new Array(5);
+    var11[0] = var12;
+    var12 = var24[var22];
+    var12 = var23.bind(var1)(var12);
+    var12 = var12.FirstPartyQuestTaskTypes;
+    var12 = var12.STREAM_ON_DESKTOP;
+    var11[1] = var12;
+    var12 = var24[var22];
+    var12 = var23.bind(var1)(var12);
+    var12 = var12.FirstPartyQuestTaskTypes;
+    var12 = var12.PLAY_ON_PLAYSTATION;
+    var11[2] = var12;
+    var12 = var24[var22];
+    var12 = var23.bind(var1)(var12);
+    var12 = var12.FirstPartyQuestTaskTypes;
+    var12 = var12.PLAY_ON_XBOX;
+    var11[3] = var12;
+    var12 = var24[var22];
+    var12 = var23.bind(var1)(var12);
+    var12 = var12.FirstPartyQuestTaskTypes;
+    var12 = var12.ACHIEVEMENT_IN_GAME;
+    var11[4] = var12;
+    var12 = var18.bind(var1)(var11);
+    var11 = var24[var22];
+    var11 = var23.bind(var1)(var11);
     var11 = var11.FirstPartyQuestTaskTypes;
-    var11 = var11.ACHIEVEMENT_IN_GAME;
-    var10[4] = var11;
-    var11 = var17.bind(var1)(var10);
-    var10 = var23[var21];
-    var10 = var22.bind(var1)(var10);
-    var10 = var10.FirstPartyQuestTaskTypes;
-    var24 = var10.ACHIEVEMENT_IN_ACTIVITY;
-    var10 = new Array(2);
-    var10[0] = var24;
-    var21 = var23[var21];
-    var21 = var22.bind(var1)(var21);
-    var21 = var21.FirstPartyQuestTaskTypes;
-    var21 = var21.PLAY_ACTIVITY;
-    var10[1] = var21;
-    var10 = var17.bind(var1)(var10);
-    var21 = function getProgressSeconds(arg1, arg2) {
+    var25 = var11.ACHIEVEMENT_IN_ACTIVITY;
+    var11 = new Array(2);
+    var11[0] = var25;
+    var22 = var24[var22];
+    var22 = var23.bind(var1)(var22);
+    var22 = var22.FirstPartyQuestTaskTypes;
+    var22 = var22.PLAY_ACTIVITY;
+    var11[1] = var22;
+    var11 = var18.bind(var1)(var11);
+    var22 = function getProgressSeconds(arg1, arg2) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var7 = arg1;
@@ -1420,7 +1428,7 @@ case 54:
             var8 = var8.bind(var9)(var7);
             if(var8) { _fun0018_ip = 143; continue _fun0018 }
 case 122:
-            var8 = _closure1_slot20;
+            var8 = _closure1_slot21;
             var8 = var8.bind(var9)(var7, var3);
             var8 = var4 + var8;
             _fun0018_ip = 77; continue _fun0018;
@@ -1459,14 +1467,14 @@ case 137:
             return var1;
         }
     };
-    var _closure1_slot8 = var21;
-    var21 = 6;
-    var21 = var23[var21];
-    var23 = var22.bind(var1)(var21);
-    var22 = var23.fileFinishedImporting;
-    var21 = 'modules/quests/utils/QuestTaskUtils.tsx';
-    var21 = var22.bind(var23)(var21);
-    var21 = function getAllApplicationIds(arg1) {
+    var _closure1_slot8 = var22;
+    var22 = 6;
+    var22 = var24[var22];
+    var24 = var23.bind(var1)(var22);
+    var23 = var24.fileFinishedImporting;
+    var22 = 'modules/quests/utils/QuestTaskUtils.tsx';
+    var22 = var23.bind(var24)(var22);
+    var22 = function getAllApplicationIds(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var4 = arg1;
@@ -1489,8 +1497,8 @@ case 36:
             return var1;
         }
     };
-    var3['getAllApplicationIds'] = var21;
-    var21 = function getDesktopApplicationIds(arg1) {
+    var3['getAllApplicationIds'] = var22;
+    var22 = function getDesktopApplicationIds(arg1) {
         var4 = _closure1_slot11;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
@@ -1506,8 +1514,8 @@ case 36:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var3['getDesktopApplicationIds'] = var21;
-    var21 = function getConsoleApplicationId(arg1) {
+    var3['getDesktopApplicationIds'] = var22;
+    var22 = function getConsoleApplicationId(arg1) {
         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var4 = _closure1_slot11;
@@ -1538,8 +1546,8 @@ case 146:
             return var1;
         }
     };
-    var3['getConsoleApplicationId'] = var21;
-    var21 = function getPlayActivityApplicationId(arg1) {
+    var3['getConsoleApplicationId'] = var22;
+    var22 = function getPlayActivityApplicationId(arg1) {
         _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var4 = _closure1_slot11;
@@ -1565,8 +1573,8 @@ case 66:
             return var1;
         }
     };
-    var3['getPlayActivityApplicationId'] = var21;
-    var21 = function getInGameApplicationId(arg1) {
+    var3['getPlayActivityApplicationId'] = var22;
+    var22 = function getInGameApplicationId(arg1) {
         _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var4 = _closure1_slot11;
@@ -1592,8 +1600,8 @@ case 66:
             return var1;
         }
     };
-    var3['getInGameApplicationId'] = var21;
-    var21 = function getActivityApplicationId(arg1) {
+    var3['getInGameApplicationId'] = var22;
+    var22 = function getActivityApplicationId(arg1) {
         _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var4 = _closure1_slot11;
@@ -1624,8 +1632,8 @@ case 146:
             return var1;
         }
     };
-    var3['getActivityApplicationId'] = var21;
-    var21 = function getStreamingApplicationId(arg1) {
+    var3['getActivityApplicationId'] = var22;
+    var22 = function getStreamingApplicationId(arg1) {
         _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var4 = _closure1_slot11;
@@ -1651,9 +1659,9 @@ case 66:
             return var1;
         }
     };
-    var3['getStreamingApplicationId'] = var21;
-    var3['hasPlayOnDesktopTask'] = var20;
-    var20 = function hasStreamOnDesktopTask(arg1) {
+    var3['getStreamingApplicationId'] = var22;
+    var3['hasPlayOnDesktopTask'] = var21;
+    var21 = function hasStreamOnDesktopTask(arg1) {
         var1 = arg1;
         var1 = var1.quest;
         var1 = var1.config;
@@ -1672,8 +1680,8 @@ case 66:
         var1 = var1 != var2;
         return var1;
     };
-    var3['hasStreamOnDesktopTask'] = var20;
-    var20 = function hasAchievementActivityTask(arg1) {
+    var3['hasStreamOnDesktopTask'] = var21;
+    var21 = function hasAchievementActivityTask(arg1) {
         var1 = arg1;
         var1 = var1.config;
         var1 = var1.taskConfigV2;
@@ -1691,8 +1699,8 @@ case 66:
         var1 = var1 != var2;
         return var1;
     };
-    var3['hasAchievementActivityTask'] = var20;
-    var20 = function hasAchievementInGameTask(arg1) {
+    var3['hasAchievementActivityTask'] = var21;
+    var21 = function hasAchievementInGameTask(arg1) {
         var1 = arg1;
         var1 = var1.config;
         var1 = var1.taskConfigV2;
@@ -1710,18 +1718,18 @@ case 66:
         var1 = var1 != var2;
         return var1;
     };
-    var3['hasAchievementInGameTask'] = var20;
-    var3['hasPlayActivityTask'] = var19;
-    var3['shouldUsePlayOnDesktopTask'] = var18;
-    var3['hasSomeFirstPartyTasks'] = var17;
-    var3['isInGameQuest'] = var16;
-    var3['hasSomeConsoleTasks'] = var15;
-    var3['hasWatchVideoOnDesktopTasks'] = var14;
-    var3['hasWatchVideoOnMobileTasks'] = var13;
-    var3['hasWatchVideoTasks'] = var12;
-    var3['hasStandaloneGameplayTasks'] = var11;
-    var3['hasActivityTasks'] = var10;
-    var10 = function isVideoQuestForMobilePlatformOnly(arg1) {
+    var3['hasAchievementInGameTask'] = var21;
+    var3['hasPlayActivityTask'] = var20;
+    var3['shouldUsePlayOnDesktopTask'] = var19;
+    var3['hasSomeFirstPartyTasks'] = var18;
+    var3['isInGameQuest'] = var17;
+    var3['hasSomeConsoleTasks'] = var16;
+    var3['hasWatchVideoOnDesktopTasks'] = var15;
+    var3['hasWatchVideoOnMobileTasks'] = var14;
+    var3['hasWatchVideoTasks'] = var13;
+    var3['hasStandaloneGameplayTasks'] = var12;
+    var3['hasActivityTasks'] = var11;
+    var11 = function isVideoQuestForMobilePlatformOnly(arg1) {
         _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var4 = arg1;
@@ -1737,15 +1745,27 @@ case 112:
             return var1;
         }
     };
-    var3['isVideoQuestForMobilePlatformOnly'] = var10;
-    var10 = function isConsoleQuest(arg1) {
-        var3 = _closure1_slot4;
-        var2 = undefined;
-        var1 = arg1;
-        var1 = var3.bind(var2)(var1);
-        return var1;
-    };
+    var3['isVideoQuestForMobilePlatformOnly'] = var11;
     var3['isConsoleQuest'] = var10;
+    var10 = function isDesktopOnlyPlayQuest(arg1) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+case 0:
+            var5 = arg1;
+            var1 = _closure1_slot16;
+            var4 = undefined;
+            var1 = var1.bind(var4)(var5);
+            var1 = !var1;
+            if(!var1) { _fun0026_ip = 147; continue _fun0026 }
+case 31:
+            var3 = _closure1_slot12;
+            var2 = {};
+            var2['quest'] = var5;
+            var1 = var3.bind(var4)(var2);
+case 147:
+            return var1;
+        }
+    };
+    var3['isDesktopOnlyPlayQuest'] = var10;
     var3['isQuestProgressingOnConsole'] = var9;
     var9 = function getQuestTaskTypes(arg1) {
         var1 = global;
@@ -1767,21 +1787,21 @@ case 112:
     var3['getQuestTaskTypes'] = var9;
     var3['getDefaultWatchVideoTask'] = var8;
     var8 = function getQuestTaskDetails(arg1, arg2) {
-        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var7 = arg1;
-            var2 = _closure1_slot24;
+            var2 = _closure1_slot25;
             var6 = undefined;
             var1 = arg2;
             var1 = var2.bind(var6)(var7, var1);
             var3 = null;
-            if(!(var3 == var1)) { _fun0026_ip = 110; continue _fun0026 }
-case 147:
-            var5 = _closure1_slot21;
+            if(!(var3 == var1)) { _fun0027_ip = 110; continue _fun0027 }
+case 148:
+            var5 = _closure1_slot22;
             var2 = {};
             var2['quest'] = var7;
             var2 = var5.bind(var6)(var2);
-            if(!(var3 == var2)) { _fun0026_ip = 69; continue _fun0026 }
+            if(!(var3 == var2)) { _fun0027_ip = 69; continue _fun0027 }
 case 113:
             var3 = {'progressSeconds': 0, 'targetSeconds': 1, 'targetMinutes': 1, 'percentComplete': 0};
             var7 = 1;
@@ -1802,41 +1822,41 @@ case 110:
     var3['getQuestTaskDetails'] = var8;
     var3['getDefaultInGameTask'] = var7;
     var7 = function getThirdPartyTaskDetails(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var3 = arg1;
-            var4 = _closure1_slot25;
+            var4 = _closure1_slot26;
             var1 = var3.config;
             var6 = undefined;
             var5 = var4.bind(var6)(var1);
             var1 = null;
-            if(!(var1 != var5)) { _fun0027_ip = 143; continue _fun0027 }
+            if(!(var1 != var5)) { _fun0028_ip = 143; continue _fun0028 }
 case 112:
             var4 = var3.userStatus;
             var7 = var1 == var4;
             var3 = undefined;
-            if(var7) { _fun0027_ip = 148; continue _fun0027 }
+            if(var7) { _fun0028_ip = 149; continue _fun0028 }
 case 113:
             var7 = var4.progress;
             var4 = var1 == var7;
             var3 = undefined;
-            if(var4) { _fun0027_ip = 148; continue _fun0027 }
+            if(var4) { _fun0028_ip = 149; continue _fun0028 }
 case 114:
             var4 = var5.type;
             var4 = var7[var4];
             var7 = var1 == var4;
             var3 = undefined;
-            if(var7) { _fun0027_ip = 148; continue _fun0027 }
-case 149:
+            if(var7) { _fun0028_ip = 149; continue _fun0028 }
+case 150:
             var3 = var4.value;
-case 148:
+case 149:
             var7 = var1 != var3;
             var4 = 0;
-            if(!var7) { _fun0027_ip = 139; continue _fun0027 }
-case 150:
+            if(!var7) { _fun0028_ip = 139; continue _fun0028 }
+case 151:
             var4 = var3;
 case 139:
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot20;
             var2 = var5.target;
             var3 = var3.bind(var6)(var2, var4);
             var2 = {};
@@ -1859,11 +1879,11 @@ case 143:
     var3['getRemainingTaskTime'] = var6;
     var3['parseMinutesAndSecondsFromSeconds'] = var5;
     var4 = function formatWatchTaskRemainingTime(arg1) {
-        var3 = _closure1_slot26;
+        var3 = _closure1_slot27;
         var4 = undefined;
         var1 = arg1;
         var1 = var3.bind(var4)(var1);
-        var3 = _closure1_slot28;
+        var3 = _closure1_slot29;
         var2 = var1.minutes;
         var1 = var1.seconds;
         var1 = var3.bind(var4)(var2, var1);

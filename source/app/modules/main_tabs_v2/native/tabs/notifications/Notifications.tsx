@@ -57,10 +57,10 @@ case 8:
             var11 = var2.bind(var4)();
             var16 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var5 = 21;
+            var5 = 18;
             var2 = var15[var5];
             var3 = var16.bind(var4)(var2);
-            var2 = 22;
+            var2 = 19;
             var2 = var15[var2];
             var2 = var16.bind(var4)(var2);
             var2 = var2.NOTIFICATIONS;
@@ -71,7 +71,7 @@ case 8:
             var3 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 23;
+                var1 = 20;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -93,13 +93,13 @@ case 8:
             var1 = new Array(0);
             var3 = var3.bind(var6)(var2, var1);
             var13 = _closure1_slot0;
-            var1 = 24;
+            var1 = 21;
             var1 = var15[var1];
             var2 = var13.bind(var4)(var1);
             var1 = var2.useNavigatorBackPressHandler;
             var1 = var1.bind(var2)(var3);
             var3 = _closure1_slot7;
-            var1 = 25;
+            var1 = 22;
             var1 = var15[var1];
             var1 = var13.bind(var4)(var1);
             var2 = var1.LayerScope;
@@ -129,14 +129,14 @@ case 8:
             var11 = new Array(4);
             var11[0] = var14;
             var17 = _closure1_slot7;
-            var14 = 26;
+            var14 = 23;
             var14 = var15[var14];
             var16 = var16.bind(var4)(var14);
             var14 = {};
             var14 = var17.bind(var4)(var16, var14);
             var11[1] = var14;
             var17 = _closure1_slot7;
-            var14 = 27;
+            var14 = 24;
             var14 = var15[var14];
             var14 = var13.bind(var4)(var14);
             var16 = var14.NotificationCenterForYou;
@@ -145,7 +145,7 @@ case 8:
             var14 = var17.bind(var4)(var16, var14);
             var11[2] = var14;
             var14 = _closure1_slot7;
-            var12 = 28;
+            var12 = 25;
             var12 = var15[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.TTIFirstContentfulPaint;
@@ -170,12 +170,12 @@ case 0:
             var12 = arg1;
             var6 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var2 = 29;
+            var2 = 26;
             var2 = var11[var2];
             var4 = undefined;
             var2 = var6.bind(var4)(var2);
             var10 = var2.bind(var4)();
-            var2 = 30;
+            var2 = 27;
             var2 = var11[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -219,7 +219,7 @@ case 5:
             };
             var5 = var3.bind(var5)(var1, var2);
             var7 = _closure1_slot0;
-            var1 = 31;
+            var1 = 28;
             var1 = var11[var1];
             var3 = var7.bind(var4)(var1);
             var2 = var3.useTrackTabPerformance;
@@ -231,7 +231,7 @@ case 5:
             var1 = {};
             var1['style'] = var5;
             var8 = _closure1_slot7;
-            var5 = 32;
+            var5 = 29;
             var5 = var11[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -241,7 +241,7 @@ case 5:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot7;
-            var6 = 33;
+            var6 = 30;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.ThemeContextProvider;
@@ -400,7 +400,6 @@ case 11:
 case 0:
             var2 = arg1;
             var11 = var2.nestedInLaunchPad;
-            var20 = var2.inNestedNavigator;
             var2 = _closure1_slot9;
             var4 = undefined;
             var9 = var2.bind(var4)();
@@ -409,7 +408,7 @@ case 0:
             var2 = 8;
             var2 = var10[var2];
             var2 = var3.bind(var4)(var2);
-            var14 = var2.bind(var4)();
+            var12 = var2.bind(var4)();
             var2 = 9;
             var2 = var10[var2];
             var7 = var3.bind(var4)(var2);
@@ -441,18 +440,12 @@ case 0:
                 return var1;
             };
             var22 = var3.bind(var5)(var1, var2);
-            var7 = _closure1_slot0;
-            var1 = 11;
-            var1 = var10[var1];
-            var3 = var7.bind(var4)(var1);
-            var2 = var3.useYouBarEnabled;
-            var1 = 'Notifications';
-            var21 = var2.bind(var3)(var1);
             var3 = _closure1_slot8;
             var2 = _closure1_slot4;
             var1 = {};
             var8 = _closure1_slot7;
-            var5 = 12;
+            var7 = _closure1_slot0;
+            var5 = 11;
             var5 = var10[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.SafeAreaPaddingView;
@@ -460,7 +453,7 @@ case 0:
             var10 = !var11;
             if(!var10) { _fun0005_ip = 14; continue _fun0005 }
 case 15:
-            var10 = !var14;
+            var10 = !var12;
 case 14:
             var5['top'] = var10;
             var10 = null;
@@ -469,105 +462,50 @@ case 17:
             var13 = _closure1_slot8;
             var12 = _closure1_slot4;
             var11 = {};
-            var15 = var9.headerTitle;
-            var11['style'] = var15;
-            if(var14) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
-            if(var20) { _fun0005_ip = 18; continue _fun0005 }
-case 20:
-            var15 = null;
-            if(!var21) { _fun0005_ip = 21; continue _fun0005 }
-case 18:
-            var17 = _closure1_slot7;
-            var27 = _closure1_slot0;
-            var28 = _closure1_slot2;
-            var14 = 13;
-            var14 = var28[var14];
-            var14 = var27.bind(var4)(var14);
-            var16 = var14.PressableOpacity;
-            var14 = {};
-            var24 = var9.headerClose;
-            var14['style'] = var24;
-            var24 = 14;
-            var25 = var28[var24];
-            var25 = var27.bind(var4)(var25);
-            var26 = var25.intl;
-            var25 = var26.string;
-            var24 = var28[var24];
-            var24 = var27.bind(var4)(var24);
-            var24 = var24.t;
-            var24 = var24["13/7kX"];
-            var24 = var25.bind(var26)(var24);
-            var14['accessibilityLabel'] = var24;
-            var24 = _closure1_slot11;
-            var14['onPress'] = var24;
-            if(var20) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
-            if(var21) { _fun0005_ip = 22; continue _fun0005 }
-case 24:
-            var25 = _closure1_slot7;
-            var24 = _closure1_slot0;
-            var28 = _closure1_slot2;
-            var20 = 17;
-            var20 = var28[var20];
-            var20 = var24.bind(var4)(var20);
-            var24 = var20.XSmallIcon;
-            var20 = {};
-            var27 = _closure1_slot1;
-            var26 = 6;
-            var26 = var28[var26];
-            var26 = var27.bind(var4)(var26);
-            var26 = var26.colors;
-            var26 = var26.INTERACTIVE_TEXT_DEFAULT;
-            var20['color'] = var26;
-            var20 = var25.bind(var4)(var24, var20);
-            _fun0005_ip = 25; continue _fun0005;
-case 22:
-            var26 = _closure1_slot7;
+            var14 = var9.headerTitle;
+            var11['style'] = var14;
+            var16 = _closure1_slot7;
             var25 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            if(var21) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
-            var21 = 16;
-            var21 = var27[var21];
-            var21 = var25.bind(var4)(var21);
-            var24 = var21.ArrowLargeLeftIcon;
-            var21 = {};
-            var29 = _closure1_slot1;
-            var28 = 6;
-            var28 = var27[var28];
-            var28 = var29.bind(var4)(var28);
-            var28 = var28.colors;
-            var28 = var28.INTERACTIVE_TEXT_DEFAULT;
-            var21['color'] = var28;
-            var21 = var26.bind(var4)(var24, var21);
-            _fun0005_ip = 28; continue _fun0005;
-case 26:
-            var24 = 15;
-            var24 = var27[var24];
-            var24 = var25.bind(var4)(var24);
-            var25 = var24.LeftBackIconWithBadge;
-            var24 = {};
-            var21 = var26.bind(var4)(var25, var24);
-case 28:
-            var20 = var21;
-case 25:
-            var14['children'] = var20;
-            var15 = var17.bind(var4)(var16, var14);
-case 21:
+            var26 = _closure1_slot2;
+            var14 = 12;
+            var14 = var26[var14];
+            var14 = var25.bind(var4)(var14);
+            var15 = var14.PressableOpacity;
+            var14 = {};
+            var17 = var9.headerClose;
+            var14['style'] = var17;
+            var20 = 13;
+            var17 = var26[var20];
+            var17 = var25.bind(var4)(var17);
+            var24 = var17.intl;
+            var21 = var24.string;
+            var17 = var26[var20];
+            var17 = var25.bind(var4)(var17);
+            var17 = var17.t;
+            var17 = var17["13/7kX"];
+            var17 = var21.bind(var24)(var17);
+            var14['accessibilityLabel'] = var17;
+            var17 = _closure1_slot11;
+            var14['onPress'] = var17;
+            var24 = _closure1_slot7;
+            var17 = 14;
+            var17 = var26[var17];
+            var17 = var25.bind(var4)(var17);
+            var21 = var17.LeftBackIconWithBadge;
+            var17 = {};
+            var17 = var24.bind(var4)(var21, var17);
+            var14['children'] = var17;
+            var15 = var16.bind(var4)(var15, var14);
             var14 = new Array(3);
             var14[0] = var15;
             var17 = _closure1_slot7;
-            var25 = _closure1_slot0;
-            var26 = _closure1_slot2;
-            var15 = 18;
+            var15 = 15;
             var15 = var26[var15];
             var15 = var25.bind(var4)(var15);
             var16 = var15.Text;
             var15 = {'color': 'mobile-text-heading-primary', 'variant': 'heading-lg/bold', 'style': null, 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
-            var20 = var9.headerText;
-            var15['style'] = var20;
-            var20 = 14;
+            var21 = var9.headerText;
+            var15['style'] = var21;
             var21 = var26[var20];
             var21 = var25.bind(var4)(var21);
             var24 = var21.intl;
@@ -586,25 +524,25 @@ case 21:
             var20 = var9.actionButtons;
             var15['style'] = var20;
             var19 = null;
-            if(!var18) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+            if(!var18) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
             var21 = _closure1_slot7;
             var20 = _closure1_slot1;
             var24 = _closure1_slot2;
-            var18 = 19;
+            var18 = 16;
             var18 = var24[var18];
             var20 = var20.bind(var4)(var18);
             var18 = {};
             var18['ref'] = var23;
             var18['onOpen'] = var22;
             var19 = var21.bind(var4)(var20, var18);
-case 29:
+case 18:
             var18 = new Array(2);
             var18[0] = var19;
             var21 = _closure1_slot7;
             var20 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var19 = 20;
+            var19 = 17;
             var19 = var22[var19];
             var20 = var20.bind(var4)(var19);
             var19 = {};
@@ -636,7 +574,7 @@ case 16:
     };
     var7 = var10.bind(var11)(var7);
     var _closure1_slot10 = var7;
-    var7 = 34;
+    var7 = 31;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

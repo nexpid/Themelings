@@ -386,9 +386,12 @@ case 59:
 case 58:
                 var1['storefront'] = var5;
                 var3 = _closure1_slot23;
-                var2 = var2.checkout;
+                var5 = var2.checkout;
+                var5 = var3.bind(var4)(var5);
+                var1['checkout'] = var5;
+                var2 = var2.vc_stream;
                 var2 = var3.bind(var4)(var2);
-                var1['checkout'] = var2;
+                var1['vcStream'] = var2;
                 return var1;
             }
         };

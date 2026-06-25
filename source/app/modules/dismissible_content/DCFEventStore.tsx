@@ -150,14 +150,14 @@ case 8:
     var4 = var6[var4];
     var13 = var7.bind(var1)(var4);
     var4 = {};
-    var9 = function LOGOUT() {
+    var9 = function reset() {
         var1 = new Array(0);
         _closure1_slot6 = var1;
         var1 = undefined;
         return var1;
     };
     var4['LOGOUT'] = var9;
-    var9 = function DCF_EVENT_LOGGED(arg1) {
+    var9 = function handleGenericEvent(arg1) {
         var1 = arg1;
         var2 = var1.eventType;
         var1 = var1.dismissibleContent;
@@ -165,7 +165,7 @@ case 8:
         return var1;
     };
     var4['DCF_EVENT_LOGGED'] = var9;
-    var9 = function DCF_HANDLE_DC_DISMISSED(arg1) {
+    var9 = function handleDCDismissed(arg1) {
         var1 = arg1;
         var1 = var1.dismissibleContent;
         var1 = _closure1_slot5;
@@ -174,7 +174,7 @@ case 8:
         return var1;
     };
     var4['DCF_HANDLE_DC_DISMISSED'] = var9;
-    var5 = function DCF_HANDLE_DC_SHOWN(arg1) {
+    var5 = function handleDCShownToUser(arg1) {
         var1 = arg1;
         var1 = var1.dismissibleContent;
         var1 = _closure1_slot5;

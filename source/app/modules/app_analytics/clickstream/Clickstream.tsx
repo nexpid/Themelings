@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot10;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot10;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,45 +182,50 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function isClickstreamEnabled() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arguments[0];
-            var5 = undefined;
-            if(!(var1 === var5)) { _fun0004_ip = 36; continue _fun0004 }
+            var4 = undefined;
+            if(!(var1 === var4)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
             var1 = true;
 case 36:
             if(!var1) { _fun0004_ip = 38; continue _fun0004 }
 case 32:
             var3 = _closure1_slot1;
-            var4 = _closure1_slot2;
+            var5 = _closure1_slot2;
             var1 = 3;
-            var1 = var4[var1];
-            var4 = var3.bind(var5)(var1);
-            var3 = var4.extractTimestamp;
+            var1 = var5[var1];
+            var5 = var3.bind(var4)(var1);
+            var3 = var5.extractTimestamp;
             var6 = _closure1_slot4;
             var1 = var6.getId;
             var1 = var1.bind(var6)();
-            var1 = var3.bind(var4)(var1);
+            var1 = var3.bind(var5)(var1);
             var3 = _closure1_slot7;
-            if(!(var1 !== var3)) { _fun0004_ip = 38; continue _fun0004 }
+            if(!(var1 !== var3)) { _fun0004_ip = 39; continue _fun0004 }
 case 35:
-            var4 = _closure1_slot11;
+            var5 = _closure1_slot12;
             var3 = false;
-            var3 = var4.bind(var5)(var3);
+            var3 = var5.bind(var4)(var3);
             _closure1_slot7 = var1;
+case 39:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 4;
+            var1 = var5[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.clickstreamExperimentEnabled;
+            var1 = var1.bind(var3)();
+            _closure1_slot8 = var1;
 case 38:
-            var2 = _closure1_slot7;
-            var1 = 10;
-            var2 = var2 % var1;
-            var1 = 0;
-            var1 = var2 === var1;
+            var1 = _closure1_slot8;
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var2 = function drainClickstream() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -230,16 +235,16 @@ case 0:
 case 37:
             var4 = true;
 case 36:
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot11;
             var3 = var3.bind(var1)(var4);
-            if(var3) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+            if(var3) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var4 = _closure1_slot6;
             var3 = var4.clear;
             var3 = var3.bind(var4)();
-            _fun0005_ip = 41; continue _fun0005;
-case 39:
-            var4 = _closure1_slot8;
+            _fun0005_ip = 42; continue _fun0005;
+case 40:
+            var4 = _closure1_slot9;
             var3 = _closure1_slot6;
             var10 = var4.bind(var1)(var3);
             var4 = var10.bind(var1)();
@@ -247,10 +252,10 @@ case 39:
             var9 = 2;
             var8 = 0;
             var7 = 1;
-            var6 = 4;
-            var5 = 5;
-            if(var3) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            var6 = 5;
+            var5 = 6;
+            if(var3) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var11 = var4.value;
             var3 = _closure1_slot3;
             var3 = var3.bind(var1)(var11, var9);
@@ -270,16 +275,16 @@ case 43:
             var11 = var10.bind(var1)();
             var3 = var11.done;
             var4 = var11;
-            if(!var3) { _fun0005_ip = 43; continue _fun0005 }
-case 42:
+            if(!var3) { _fun0005_ip = 44; continue _fun0005 }
+case 43:
             var3 = _closure1_slot6;
             var2 = var3.clear;
             var2 = var2.bind(var3)();
-case 41:
+case 42:
             return var1;
         }
     };
-    var _closure1_slot11 = var2;
+    var _closure1_slot12 = var2;
     var5 = global;
     var11 = var5.Object;
     var10 = var11.defineProperty;
@@ -310,7 +315,9 @@ case 41:
     var _closure1_slot6 = var5;
     var5 = -1;
     var _closure1_slot7 = var5;
-    var5 = 6;
+    var5 = false;
+    var _closure1_slot8 = var5;
+    var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -320,27 +327,27 @@ case 41:
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var4 = arg1;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot11;
             var1 = undefined;
             var2 = var2.bind(var1)();
-            if(!var2) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+            if(!var2) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var3 = _closure1_slot6;
             var2 = var3.has;
             var2 = var2.bind(var3)(var4);
-            if(var2) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+            if(var2) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var6 = _closure1_slot6;
             var3 = var6.set;
             var2 = new Array(0);
             var2 = var3.bind(var6)(var4, var2);
-case 46:
+case 47:
             var3 = _closure1_slot6;
             var2 = var3.get;
             var4 = var2.bind(var3)(var4);
             var2 = null;
-            if(!(var2 != var4)) { _fun0006_ip = 44; continue _fun0006 }
-case 48:
+            if(!(var2 != var4)) { _fun0006_ip = 45; continue _fun0006 }
+case 49:
             var3 = var4.push;
             var2 = {};
             var6 = global;
@@ -359,7 +366,7 @@ case 48:
             var9 = var2;
             var5 = copyDataProperties(var9, var8);
             var2 = var3.bind(var4)(var2);
-case 44:
+case 45:
             return var1;
         }
     };

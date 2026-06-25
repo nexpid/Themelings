@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var24[var2];
     var31 = var23.bind(var1)(var6);
     var7 = var31.createApexExperiment;
-    var6 = {'name': '2026-05-quest-home-remove-expired-quests', 'kind': 'user'};
+    var6 = {'name': '2026-05-quest-tile-cta-refactor', 'kind': 'user'};
     var32 = {};
     var32['enabled'] = var29;
     var6['defaultConfig'] = var32;
@@ -493,7 +493,7 @@ case 4:
     var3['QuestHomeNewLayoutVariant'] = var10;
     var3['QuestHomeNewLayout'] = var9;
     var3['QuestHomeTileRedesignExperiment'] = var8;
-    var3['QuestHomeRemoveExpiredQuestsExperiment'] = var7;
+    var3['QuestTileCtaRefactorExperiment'] = var7;
     var3['BountyStaleRefreshQuestHomeExperiment'] = var6;
     var5 = function useShouldRemoveQuestHomeHero() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

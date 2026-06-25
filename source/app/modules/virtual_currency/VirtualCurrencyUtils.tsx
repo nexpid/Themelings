@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/virtual_currency/VirtualCurrencyUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function get1PShopApplicationIdForSKU(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = _closure1_slot3;
@@ -59,7 +59,7 @@ case 4:
         }
     };
     var3['get1PShopApplicationIdForSKU'] = var4;
-    var2 = function() {
+    var2 = function dismissOrbsOnboardingExperience() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var7 = _closure1_slot0;

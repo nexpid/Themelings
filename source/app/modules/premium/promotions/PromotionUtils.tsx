@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot15;
+            var9 = _closure1_slot14;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot14;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var8 = function claimedOutboundPromotionCodeFromServer(arg1) {
         var2 = arg1;
         var1 = {};
@@ -199,7 +199,7 @@ case 35:
         var1['promotion'] = var2;
         return var1;
     };
-    var _closure1_slot16 = var8;
+    var _closure1_slot15 = var8;
     var1 = function _claimOutboundPromotion() {
         var5 = undefined;
         var1 = undefined;
@@ -233,7 +233,7 @@ case 41:
                     var7 = var3.HTTP;
                     var5 = var7.post;
                     var3 = {};
-                    var9 = _closure1_slot12;
+                    var9 = _closure1_slot11;
                     var8 = var9.CLAIM_OUTBOUND_PROMOTION_CODE;
                     var8 = var8.bind(var9)(var11);
                     var3['url'] = var8;
@@ -255,7 +255,7 @@ case 45:
                     var8 = var8.bind(var6)(var7);
                     var7 = var8.isIOS;
                     var8 = var7.bind(var8)();
-                    var7 = _closure1_slot13;
+                    var7 = _closure1_slot12;
                     if(var8) { _fun0004_ip = 46; continue _fun0004 }
 case 47:
                     var15 = var7.ANDROID;
@@ -269,7 +269,7 @@ case 19:
                     var7 = var9[var7];
                     var10 = var8.bind(var6)(var7);
                     var9 = var10.track;
-                    var7 = _closure1_slot11;
+                    var7 = _closure1_slot10;
                     var8 = var7.OUTBOUND_PROMOTION_CLAIMED;
                     var7 = {};
                     var7['platform'] = var15;
@@ -293,7 +293,7 @@ case 51:
 case 50:
                     var7['partner'] = var11;
                     var7 = var9.bind(var10)(var8, var7);
-                    var4 = _closure1_slot16;
+                    var4 = _closure1_slot15;
                     var4 = var4.bind(var6)(var5);
                     return var4;
 case 44:
@@ -309,7 +309,7 @@ case 36:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot17 = var4;
+        _closure1_slot16 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -317,7 +317,7 @@ case 36:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var7 = function getNextUnseenOutboundPromotionId() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -344,14 +344,14 @@ case 53:
                     var6 = var6.bind(var3)(var5);
                     var5 = var6.hasFlag;
                     var3 = var4.flags;
-                    var2 = _closure1_slot10;
+                    var2 = _closure1_slot9;
                     var2 = var2.SUPPRESS_NOTIFICATION;
                     var2 = var5.bind(var6)(var3, var2);
                     var1 = !var2;
 case 52:
                     if(!var1) { _fun0006_ip = 54; continue _fun0006 }
 case 55:
-                    var3 = _closure1_slot19;
+                    var3 = _closure1_slot18;
                     var2 = undefined;
                     var2 = var3.bind(var2)(var4);
                     var1 = !var2;
@@ -475,7 +475,7 @@ case 48:
             return var1;
         }
     };
-    var _closure1_slot18 = var7;
+    var _closure1_slot17 = var7;
     var6 = function isLogitechPromotion(arg1) {
         var1 = arg1;
         var2 = var1.partnerId;
@@ -489,7 +489,7 @@ case 48:
         var1 = var2 === var1;
         return var1;
     };
-    var _closure1_slot19 = var6;
+    var _closure1_slot18 = var6;
     var5 = function shouldShowOutboundPromotionOnPlatform(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -506,7 +506,7 @@ case 0:
             if(var1) { _fun0008_ip = 69; continue _fun0008 }
 case 70:
             var3 = var4.hasFlag;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot9;
             var2 = var2.IS_BLOCKED_IOS;
             var2 = var3.bind(var4)(var2);
             var1 = !var2;
@@ -514,7 +514,7 @@ case 69:
             return var1;
         }
     };
-    var _closure1_slot20 = var5;
+    var _closure1_slot19 = var5;
     var4 = function isRecurringPromotion(arg1) {
         var1 = arg1;
         var2 = var1.promotionType;
@@ -529,7 +529,7 @@ case 69:
         var1 = var2 === var1;
         return var1;
     };
-    var _closure1_slot21 = var4;
+    var _closure1_slot20 = var4;
     var1 = global;
     var14 = var1.Object;
     var13 = var14.defineProperty;
@@ -566,19 +566,17 @@ case 69:
     var9 = 6;
     var9 = var11[var9];
     var9 = var10.bind(var1)(var9);
-    var12 = var9.PremiumTypes;
-    var _closure1_slot9 = var12;
     var9 = var9.PromotionFlags;
-    var _closure1_slot10 = var9;
+    var _closure1_slot9 = var9;
     var9 = 7;
     var9 = var11[var9];
     var9 = var10.bind(var1)(var9);
     var12 = var9.AnalyticEvents;
-    var _closure1_slot11 = var12;
+    var _closure1_slot10 = var12;
     var12 = var9.Endpoints;
-    var _closure1_slot12 = var12;
+    var _closure1_slot11 = var12;
     var9 = var9.Platforms;
-    var _closure1_slot13 = var9;
+    var _closure1_slot12 = var9;
     var9 = 8;
     var9 = var11[var9];
     var9 = var10.bind(var1)(var9);
@@ -648,7 +646,7 @@ case 74:
     var3['claimedOutboundPromotionCodeFromServer'] = var8;
     var8 = function claimOutboundPromotion() {
         var1 = undefined;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot16;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -696,7 +694,7 @@ case 77:
     var7 = function shouldShowOutboundPromotionNotice() {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot17;
             var7 = undefined;
             var6 = var1.bind(var7)();
             var1 = null;
@@ -748,7 +746,7 @@ case 79:
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = {};
-            var3 = _closure1_slot14;
+            var3 = _closure1_slot13;
             var5 = undefined;
             var2 = arg1;
             var4 = var3.bind(var5)(var2);
@@ -801,21 +799,21 @@ case 0:
                 var1 = !var1;
                 if(!var1) { _fun0014_ip = 83; continue _fun0014 }
 case 84:
-                var3 = _closure1_slot21;
+                var3 = _closure1_slot20;
                 var2 = undefined;
                 var2 = var3.bind(var2)(var4);
                 var1 = !var2;
 case 83:
                 if(!var1) { _fun0014_ip = 85; continue _fun0014 }
 case 71:
-                var3 = _closure1_slot19;
+                var3 = _closure1_slot18;
                 var2 = undefined;
                 var2 = var3.bind(var2)(var4);
                 var1 = !var2;
 case 85:
                 if(!var1) { _fun0014_ip = 86; continue _fun0014 }
 case 52:
-                var3 = _closure1_slot20;
+                var3 = _closure1_slot19;
                 var2 = undefined;
                 var1 = var3.bind(var2)(var4);
 case 86:
@@ -827,34 +825,19 @@ case 86:
     };
     var3['getClaimedEndedOutboundPromotions'] = var5;
     var3['isRecurringPromotion'] = var4;
-    var2 = function isRecurring3PRewardsLocked(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
-case 0:
-            var3 = arg1;
-            var1 = null;
-            var1 = var1 == var3;
-            if(var1) { _fun0015_ip = 87; continue _fun0015 }
-case 88:
-            var6 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var4 = 18;
-            var5 = var5[var4];
-            var4 = undefined;
-            var5 = var6.bind(var4)(var5);
-            var4 = var5.isPremiumExactly;
-            var2 = _closure1_slot9;
-            var2 = var2.TIER_2;
-            var4 = var4.bind(var5)(var3, var2);
-            var2 = false;
-            var1 = var2 === var4;
-case 87:
-            if(var1) { _fun0015_ip = 89; continue _fun0015 }
-case 69:
-            var2 = var3.isFractionalPremiumWithNoStandardSub;
-            var1 = var2.bind(var3)();
-case 89:
-            return var1;
-        }
+    var2 = function isRecurring3PRewardsLocked(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 18;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.isUserEligibleForThirdPartyPerks;
+        var2 = arg1;
+        var1 = arg2;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = !var1;
+        return var1;
     };
     var3['isRecurring3PRewardsLocked'] = var2;
     return var1;

@@ -104,8 +104,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
-        var7 = var7.unsafe_rawColors;
-        var7 = var7.GREEN_300;
+        var7 = var7.colors;
+        var7 = var7.STATUS_POSITIVE;
         var2['color'] = var7;
         var1['progressPath'] = var2;
         var2 = {'position': 'absolute', 'pointerEvents': 'none'};
@@ -250,7 +250,7 @@ case 10:
             var12 = var9[var8];
             var27 = var10.bind(var4)(var12);
             var26 = var27.useAnimatedStyle;
-            var12 = function I() {
+            var12 = function T() {
                 var1 = {};
                 var3 = _closure2_slot10;
                 var2 = var3.get;
@@ -269,7 +269,7 @@ case 10:
             var26 = var9[var8];
             var28 = var10.bind(var4)(var26);
             var27 = var28.useAnimatedProps;
-            var26 = function G() {
+            var26 = function D() {
                 var1 = {};
                 var3 = _closure2_slot5;
                 var4 = _closure2_slot7;

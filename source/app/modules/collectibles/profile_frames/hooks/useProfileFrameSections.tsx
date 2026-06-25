@@ -1,4 +1,4 @@
-// app/modules/collectibles/profile_frames/useProfileFrameSections.tsx
+// app/modules/collectibles/profile_frames/hooks/useProfileFrameSections.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
     var4 = metroImportDefault;
@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
-    var7 = 'modules/collectibles/profile_frames/useProfileFrameSections.tsx';
+    var7 = 'modules/collectibles/profile_frames/hooks/useProfileFrameSections.tsx';
     var7 = var8.bind(var9)(var7);
     var6 = function useProfileFrameSections() {
         var5 = _closure1_slot0;

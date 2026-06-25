@@ -48,31 +48,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var7 = {};
-    var4 = {'flex': 1, 'justifyContent': 'center'};
-    var7['container'] = var4;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var4['flexGrow'] = var10;
-    var7['scrollViewContentContainer'] = var4;
-    var4 = {'alignItems': 'center', 'justifyContent': 'center'};
-    var7['innerContainer'] = var4;
-    var4 = {'alignItems': 'center', 'marginBottom': 24};
-    var7['imageContainer'] = var4;
-    var4 = {};
+    var9 = {'flex': 1, 'justifyContent': 'center'};
+    var4['container'] = var9;
+    var9 = {};
+    var9['flexGrow'] = var10;
+    var4['scrollViewContentContainer'] = var9;
+    var9 = {'alignItems': 'center', 'justifyContent': 'center'};
+    var4['innerContainer'] = var9;
+    var9 = {'alignItems': 'center', 'marginBottom': 24};
+    var4['imageContainer'] = var9;
+    var9 = {};
     var10 = 48;
-    var4['paddingHorizontal'] = var10;
-    var7['textWrapper'] = var4;
-    var4 = {'marginBottom': 24, 'textAlign': 'center'};
-    var7['body'] = var4;
-    var4 = {'textAlign': 'center', 'fontSize': 18, 'marginBottom': 8};
-    var7['title'] = var4;
-    var4 = 16;
-    var10 = {'paddingHorizontal': 16, 'paddingBottom': 16};
-    var7['buttonWrapper'] = var10;
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot11 = var7;
+    var9['paddingHorizontal'] = var10;
+    var4['textWrapper'] = var9;
+    var9 = {'marginBottom': 24, 'textAlign': 'center'};
+    var4['body'] = var9;
+    var9 = {'textAlign': 'center', 'fontSize': 18, 'marginBottom': 8};
+    var4['title'] = var9;
+    var9 = {'paddingHorizontal': 16, 'paddingBottom': 16};
+    var4['buttonWrapper'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot11 = var4;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -161,23 +161,13 @@ case 3:
 case 2:
             var1 = 0.9;
             var20 = var1 * var2;
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 10;
-            var1 = var5[var1];
-            var2 = var3.bind(var4)(var1);
+            var1 = var3[var1];
+            var2 = var2.bind(var4)(var1);
             var1 = var2.useIsScreenLandscape;
-            var1 = var1.bind(var2)();
-            var2 = 11;
-            var2 = var5[var2];
-            var5 = var3.bind(var4)(var2);
-            var3 = var5.useYouBarEnabled;
-            var2 = 'messages-empty';
-            var7 = var3.bind(var5)(var2);
-            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var7 = var1;
-case 4:
+            var7 = var1.bind(var2)();
             var1 = _closure1_slot8;
             var9 = var1.bind(var4)();
             var3 = _closure1_slot9;
@@ -187,12 +177,12 @@ case 4:
             var5 = new Array(2);
             var5[0] = var6;
             var6 = undefined;
-            if(!var7) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = {};
             var7['paddingBottom'] = var9;
             var6 = var7;
-case 6:
+case 4:
             var5[1] = var6;
             var1['contentContainerStyle'] = var5;
             var7 = _closure1_slot10;
@@ -214,7 +204,7 @@ case 6:
             var11['resizeMode'] = var16;
             var17 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var16 = 12;
+            var16 = 11;
             var16 = var18[var16];
             var16 = var17.bind(var4)(var16);
             var11['source'] = var16;
@@ -222,11 +212,11 @@ case 6:
             var21 = 350;
             var19 = 622;
             var17 = var21;
-            if(!(var20 < var19)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!(var20 < var19)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var18 = var20 / var19;
             var17 = var18 * var21;
-case 8:
+case 6:
             var16['height'] = var17;
             var17 = global;
             var18 = var17.Math;
@@ -247,14 +237,14 @@ case 8:
             var10 = _closure1_slot9;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var20 = 13;
+            var20 = 12;
             var15 = var19[var20];
             var15 = var18.bind(var4)(var15);
             var21 = var15.Heading;
             var17 = {'color': 'mobile-text-heading-primary', 'variant': 'heading-md/bold'};
             var15 = var12.title;
             var17['style'] = var15;
-            var15 = 14;
+            var15 = 13;
             var22 = var19[var15];
             var22 = var18.bind(var4)(var22);
             var24 = var22.intl;
@@ -296,7 +286,7 @@ case 8:
             var9 = {};
             var12 = var12.buttonWrapper;
             var9['style'] = var12;
-            var12 = 15;
+            var12 = 14;
             var12 = var19[var12];
             var12 = var18.bind(var4)(var12);
             var13 = var12.Button;

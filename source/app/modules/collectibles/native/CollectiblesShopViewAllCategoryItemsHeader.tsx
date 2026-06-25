@@ -78,9 +78,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var1;
         var1 = _closure1_slot8;
         var8 = var1.bind(var4)();
-        var2 = _closure1_slot5;
-        var1 = 'CollectiblesShopViewAllCategoryItemsHeader';
-        var9 = var2.bind(var4)(var1);
+        var1 = _closure1_slot5;
+        var9 = var1.bind(var4)();
         var3 = _closure1_slot7;
         var2 = _closure1_slot4;
         var1 = {};

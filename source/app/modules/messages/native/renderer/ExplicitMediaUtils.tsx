@@ -132,39 +132,38 @@ case 6:
 case 0:
             var1 = arg1;
             var3 = var1.attachment;
-            var12 = var1.shouldObscureSpoiler;
+            var10 = var1.shouldObscureSpoiler;
             var8 = var1.enabledContentHarmTypeFlags;
             var5 = var1.shouldAgeVerify;
-            var10 = var3.spoiler;
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 1;
             var1 = var4[var1];
             var11 = undefined;
-            var13 = var2.bind(var11)(var1);
-            var9 = var13.hasFlag;
+            var12 = var2.bind(var11)(var1);
+            var9 = var12.hasFlag;
             var4 = var3.flags;
             var1 = null;
-            var14 = var1 != var4;
+            var13 = var1 != var4;
             var2 = 0;
             var6 = 0;
-            if(!var14) { _fun0003_ip = 13; continue _fun0003 }
+            if(!var13) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
             var6 = var4;
 case 13:
             var4 = _closure1_slot2;
             var4 = var4.IS_SPOILER;
-            var9 = var9.bind(var13)(var6, var4);
-            var13 = {};
+            var9 = var9.bind(var12)(var6, var4);
+            var12 = {};
             var4 = _closure1_slot3;
             var6 = var4.bind(var11)(var3);
-            var14 = var1 != var6;
+            var13 = var1 != var6;
             var4 = 0;
-            if(!var14) { _fun0003_ip = 15; continue _fun0003 }
+            if(!var13) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
             var4 = var6;
 case 15:
-            var13['contentScanVersion'] = var4;
+            var12['contentScanVersion'] = var4;
             var3 = var3.flags;
             var4 = var1 != var3;
             var1 = 0;
@@ -172,32 +171,32 @@ case 15:
 case 18:
             var1 = var3;
 case 17:
-            var13['flags'] = var1;
-            var15 = _closure1_slot0;
-            var16 = _closure1_slot1;
+            var12['flags'] = var1;
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot1;
             var3 = 2;
-            var1 = var16[var3];
-            var6 = var15.bind(var11)(var1);
+            var1 = var15[var3];
+            var6 = var14.bind(var11)(var1);
             var4 = var6.getMediaObscuredReasonFromBitmask;
             var1 = {};
-            var14 = 3;
-            var17 = var16[var14];
-            var17 = var15.bind(var11)(var17);
-            var17 = var17.ObscuredMediaTypes;
-            var17 = var17.Attachment;
-            var1['type'] = var17;
-            var1['media'] = var13;
+            var13 = 3;
+            var16 = var15[var13];
+            var16 = var14.bind(var11)(var16);
+            var16 = var16.ObscuredMediaTypes;
+            var16 = var16.Attachment;
+            var1['type'] = var16;
+            var1['media'] = var12;
             var1 = var4.bind(var6)(var1, var8);
-            var3 = var16[var3];
-            var6 = var15.bind(var11)(var3);
+            var3 = var15[var3];
+            var6 = var14.bind(var11)(var3);
             var4 = var6.isMediaScanPending;
             var3 = {};
-            var14 = var16[var14];
-            var14 = var15.bind(var11)(var14);
-            var14 = var14.ObscuredMediaTypes;
-            var14 = var14.Attachment;
-            var3['type'] = var14;
-            var3['media'] = var13;
+            var13 = var15[var13];
+            var13 = var14.bind(var11)(var13);
+            var13 = var13.ObscuredMediaTypes;
+            var13 = var13.Attachment;
+            var3['type'] = var13;
+            var3['media'] = var12;
             var4 = var4.bind(var6)(var3, var8);
             var1 = var1.length;
             var2 = var1 > var2;
@@ -213,26 +212,19 @@ case 20:
             var3 = var1.bind(var6)();
 case 19:
             var1 = {};
-            var6 = var12;
+            var6 = var10;
             if(!var6) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-            var8 = var10;
-            if(var8) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-            var8 = var9;
-case 23:
-            var6 = var8;
+            var6 = var9;
 case 21:
             var1['isSpoiler'] = var6;
             var6 = '';
             var8 = var6;
-            if(!var12) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-            if(var10) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+            if(!var10) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var8 = var6;
-            if(!var9) { _fun0003_ip = 25; continue _fun0003 }
-case 27:
+            if(!var9) { _fun0003_ip = 23; continue _fun0003 }
+case 25:
             var13 = _closure1_slot0;
             var14 = _closure1_slot1;
             var9 = 5;
@@ -247,11 +239,11 @@ case 27:
             var10 = var10.bind(var12)(var9);
             var9 = var10.toUpperCase;
             var8 = var9.bind(var10)();
-case 25:
+case 23:
             var1['spoiler'] = var8;
             var1['obscure'] = var2;
-            if(!var2) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
+            if(!var2) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var10 = _closure1_slot0;
             var12 = _closure1_slot1;
             var7 = 5;
@@ -264,14 +256,14 @@ case 30:
             var7 = var7.t;
             var7 = var7.SpxcUR;
             var6 = var8.bind(var9)(var7);
-case 29:
+case 26:
             var1['obscureDescription'] = var6;
             var1['obscureAwaitingScan'] = var4;
             var4 = var2;
-            if(!var4) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+            if(!var4) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var4 = var5;
-case 31:
+case 28:
             var1['verifyAge'] = var4;
             var1['obscureHideControls'] = var3;
             var1['obscureIsOpaque'] = var2;
@@ -307,8 +299,8 @@ case 0:
             var1['media'] = var13;
             var1 = var6.bind(var8)(var1, var12);
             var4 = !var4;
-            if(!var4) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+            if(!var4) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var15 = _closure1_slot0;
             var14 = _closure1_slot1;
             var3 = var14[var3];
@@ -322,17 +314,17 @@ case 34:
             var3['type'] = var14;
             var3['media'] = var13;
             var4 = var6.bind(var8)(var3, var12);
+case 30:
+            if(!var9) { _fun0004_ip = 32; continue _fun0004 }
 case 33:
-            if(!var9) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
             var9 = var2;
-case 35:
+case 32:
             var2 = var1.length;
             var1 = 0;
             var2 = var2 > var1;
             var3 = var2;
-            if(!var2) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(!var2) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 4;
@@ -340,20 +332,20 @@ case 38:
             var6 = var6.bind(var11)(var1);
             var1 = var6.isVerifiedTeen;
             var3 = var1.bind(var6)();
-case 37:
+case 34:
             var1 = {};
             var1['isSpoiler'] = var9;
             var8 = null;
-            if(!var9) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+            if(!var9) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var9 = _closure1_slot4;
             var8 = var9.bind(var11)(var10);
-case 39:
+case 36:
             var1['spoilerDescription'] = var8;
             var1['isObscured'] = var2;
             var6 = null;
-            if(!var2) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
+            if(!var2) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var10 = _closure1_slot0;
             var12 = _closure1_slot1;
             var7 = 5;
@@ -366,14 +358,14 @@ case 42:
             var7 = var7.t;
             var7 = var7.SpxcUR;
             var6 = var8.bind(var9)(var7);
-case 41:
+case 38:
             var1['obscureDescription'] = var6;
             var1['obscureAwaitingScan'] = var4;
             var4 = var2;
-            if(!var4) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+            if(!var4) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
             var4 = var5;
-case 43:
+case 40:
             var1['verifyAge'] = var4;
             var1['obscureHideControls'] = var3;
             var1['obscureIsOpaque'] = var2;

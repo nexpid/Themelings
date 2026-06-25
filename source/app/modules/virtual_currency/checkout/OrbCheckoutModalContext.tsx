@@ -1,61 +1,12 @@
 // app/modules/virtual_currency/checkout/OrbCheckoutModalContext.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var8 = metroImportDefault;
+    var9 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var8;
+    var _closure1_slot1 = var9;
     var _closure1_slot2 = var7;
-    var1 = global;
-    var9 = var1.Object;
-    var5 = var9.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var9)(var3, var1, var4);
-    var1 = 0;
-    var4 = var7[var1];
-    var1 = undefined;
-    var4 = var6.bind(var1)(var4);
-    var5 = var4.createContext;
-    var9 = var4.useContext;
-    var _closure1_slot3 = var9;
-    var9 = var4.useCallback;
-    var _closure1_slot4 = var9;
-    var4 = var4.useMemo;
-    var _closure1_slot5 = var4;
-    var4 = 1;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 2;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 3;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot8 = var4;
-    var4 = {'skuId': '123', 'loadId': null, 'analyticsLocations': null, 'analyticsSourceLocation': null, 'isRedeeming': false, 'orbRedemptionError': null, 'orbProductContext': null};
-    var8 = 4;
-    var8 = var7[var8];
-    var9 = var6.bind(var1)(var8);
-    var8 = var9.v4;
-    var8 = var8.bind(var9)();
-    var4['loadId'] = var8;
-    var8 = new Array(0);
-    var4['analyticsLocations'] = var8;
-    var4['analyticsSourceLocation'] = var1;
-    var8 = function onRedeemVirtualCurrency() {
-        var1 = undefined;
-        return var1;
-    };
-    var4['onRedeemVirtualCurrency'] = var8;
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot9 = var4;
     var4 = function useOrbCheckoutModalContextProvider(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -261,6 +212,55 @@ case 12:
         }
     };
     var _closure1_slot10 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.createContext;
+    var10 = var5.useContext;
+    var _closure1_slot3 = var10;
+    var10 = var5.useCallback;
+    var _closure1_slot4 = var10;
+    var5 = var5.useMemo;
+    var _closure1_slot5 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot6 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot7 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.jsx;
+    var _closure1_slot8 = var5;
+    var5 = {'skuId': '123', 'loadId': null, 'analyticsLocations': null, 'analyticsSourceLocation': null, 'isRedeeming': false, 'orbRedemptionError': null, 'orbProductContext': null};
+    var9 = 4;
+    var9 = var7[var9];
+    var10 = var6.bind(var1)(var9);
+    var9 = var10.v4;
+    var9 = var9.bind(var10)();
+    var5['loadId'] = var9;
+    var9 = new Array(0);
+    var5['analyticsLocations'] = var9;
+    var5['analyticsSourceLocation'] = var1;
+    var9 = function onRedeemVirtualCurrency() {
+        var1 = undefined;
+        return var1;
+    };
+    var5['onRedeemVirtualCurrency'] = var9;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot9 = var5;
     var5 = 12;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -268,7 +268,7 @@ case 12:
     var5 = 'modules/virtual_currency/checkout/OrbCheckoutModalContext.tsx';
     var5 = var6.bind(var7)(var5);
     var3['useOrbCheckoutModalContextProvider'] = var4;
-    var4 = function(arg1) {
+    var4 = function OrbCheckoutModalContextProvider(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -314,7 +314,7 @@ case 14:
         }
     };
     var3['OrbCheckoutModalContextProvider'] = var4;
-    var2 = function() {
+    var2 = function useOrbCheckoutModalContext() {
         var3 = _closure1_slot3;
         var2 = _closure1_slot9;
         var1 = undefined;

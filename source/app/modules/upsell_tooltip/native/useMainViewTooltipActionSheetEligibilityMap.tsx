@@ -623,6 +623,13 @@ case 56:
             var27 = var25.id;
 case 55:
             var22['componentId'] = var27;
+            var28 = var20 == var25;
+            var27 = undefined;
+            if(var28) { _fun0001_ip = 57; continue _fun0001 }
+case 58:
+            var27 = var25.promotionId;
+case 57:
+            var22['promotionId'] = var27;
             var8['actionSheetProperties'] = var22;
             var2[8] = var8;
             var9 = _closure1_slot0;
@@ -634,10 +641,10 @@ case 55:
             var8 = {};
             var22 = var20 == var24;
             var27 = undefined;
-            if(var22) { _fun0001_ip = 57; continue _fun0001 }
-case 58:
+            if(var22) { _fun0001_ip = 59; continue _fun0001 }
+case 60:
             var27 = var24.dismissibleContent;
-case 57:
+case 59:
             var28 = _closure1_slot0;
             var22 = _closure1_slot2;
             var22 = var22[var7];
@@ -648,19 +655,19 @@ case 57:
             var8['isEligible'] = var22;
             var27 = var20 == var25;
             var22 = undefined;
-            if(var27) { _fun0001_ip = 59; continue _fun0001 }
-case 60:
+            if(var27) { _fun0001_ip = 61; continue _fun0001 }
+case 62:
             var22 = var25.promotionId;
-case 59:
+case 61:
             var8['newSnowflakeId'] = var22;
             var22 = {};
             var22['bottomSheetData'] = var24;
             var27 = var20 == var25;
             var24 = undefined;
-            if(var27) { _fun0001_ip = 61; continue _fun0001 }
-case 62:
+            if(var27) { _fun0001_ip = 63; continue _fun0001 }
+case 64:
             var24 = var25.id;
-case 61:
+case 63:
             var22['componentId'] = var24;
             var8['actionSheetProperties'] = var22;
             var2[8] = var8;
@@ -683,17 +690,17 @@ case 61:
             var9 = var8.GIFTING_PROMOTION_REMINDER;
             var8 = {};
             var22 = !var19;
-            if(!var19) { _fun0001_ip = 63; continue _fun0001 }
-case 64:
-            var22 = var20 == var18;
-case 63:
-            var19 = !var22;
-            if(var22) { _fun0001_ip = 65; continue _fun0001 }
+            if(!var19) { _fun0001_ip = 65; continue _fun0001 }
 case 66:
-            var19 = var20 != var17;
+            var22 = var20 == var18;
 case 65:
-            if(!var19) { _fun0001_ip = 67; continue _fun0001 }
+            var19 = !var22;
+            if(var22) { _fun0001_ip = 67; continue _fun0001 }
 case 68:
+            var19 = var20 != var17;
+case 67:
+            if(!var19) { _fun0001_ip = 69; continue _fun0001 }
+case 70:
             var25 = _closure1_slot0;
             var22 = _closure1_slot2;
             var23 = var22[var23];
@@ -707,15 +714,15 @@ case 68:
             var22 = var22.isDismissed;
             var22 = !var22;
             var19 = !var22;
-case 67:
-            if(!var19) { _fun0001_ip = 69; continue _fun0001 }
-case 70:
-            var19 = var21;
 case 69:
             if(!var19) { _fun0001_ip = 71; continue _fun0001 }
 case 72:
-            var19 = var20 != var18;
+            var19 = var21;
 case 71:
+            if(!var19) { _fun0001_ip = 73; continue _fun0001 }
+case 74:
+            var19 = var20 != var18;
+case 73:
             var8['isEligible'] = var19;
             var8['newSnowflakeId'] = var17;
             var17 = {};
@@ -729,14 +736,14 @@ case 71:
             var8 = var8.DismissibleContent;
             var9 = var8.NEW_GIFTING_BADGES_COACHMARK;
             var8 = {};
-            if(!var12) { _fun0001_ip = 73; continue _fun0001 }
-case 74:
-            var12 = var14;
-case 73:
             if(!var12) { _fun0001_ip = 75; continue _fun0001 }
 case 76:
-            var12 = var13;
+            var12 = var14;
 case 75:
+            if(!var12) { _fun0001_ip = 77; continue _fun0001 }
+case 78:
+            var12 = var13;
+case 77:
             var8['isEligible'] = var12;
             var12 = {};
             var8['actionSheetProperties'] = var12;
@@ -785,10 +792,10 @@ case 75:
             var8 = var8.DismissibleContent;
             var9 = var8.RIOT_CONNECTION_DEPRECATION_DISABLE;
             var8 = {};
-            if(!var4) { _fun0001_ip = 77; continue _fun0001 }
-case 78:
+            if(!var4) { _fun0001_ip = 79; continue _fun0001 }
+case 80:
             var4 = var10;
-case 77:
+case 79:
             var8['isEligible'] = var4;
             var10 = {};
             var10['platformTypes'] = var3;

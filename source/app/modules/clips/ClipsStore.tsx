@@ -1745,16 +1745,27 @@ case 32:
         _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.reason;
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 14;
-            var2 = var2[var1];
+            var5 = var1.reason;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var7 = 14;
+            var2 = var1[var7];
             var1 = undefined;
-            var2 = var5.bind(var1)(var2);
+            var2 = var4.bind(var1)(var2);
             var2 = var2.ClipsSaveNoOpReason;
             var2 = var2.BUFFER_WARMING_UP;
-            if(!(var4 === var2)) { _fun0030_ip = 13; continue _fun0030 }
+            var2 = var5 !== var2;
+            if(!var2) { _fun0030_ip = 13; continue _fun0030 }
+case 91:
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var7];
+            var4 = var6.bind(var1)(var4);
+            var4 = var4.ClipsSaveNoOpReason;
+            var4 = var4.BRIDGE_SHUTDOWN;
+            var2 = var5 !== var4;
+case 13:
+            if(var2) { _fun0030_ip = 59; continue _fun0030 }
 case 118:
             var2 = global;
             var6 = var2.Math;
@@ -1765,7 +1776,7 @@ case 118:
             var2 = 0;
             var2 = var5.bind(var6)(var4, var2);
             _closure1_slot24 = var2;
-case 13:
+case 59:
             return var1;
         }
     };
@@ -1786,8 +1797,8 @@ case 119:
 case 75:
             var1 = null;
             var3 = var4;
-            if(!(var1 != var7)) { _fun0031_ip = 120; continue _fun0031 }
-case 118:
+            if(!(var1 != var7)) { _fun0031_ip = 118; continue _fun0031 }
+case 120:
             var6 = _closure1_slot9;
             var5 = var6.getGameForPID;
             var6 = var5.bind(var6)(var7);
@@ -1802,7 +1813,7 @@ case 122:
             var4 = var5;
 case 13:
             var3 = var4;
-case 120:
+case 118:
             if(!(var1 != var3)) { _fun0031_ip = 123; continue _fun0031 }
 case 124:
             var1 = '';

@@ -1,4 +1,4 @@
-// app/modules/main_tabs_v2/native/tabs/guilds/useGuildsTabBadge.tsx
+// app/modules/parent_tools/native/useParentalConsentWarning.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -23,39 +23,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/main_tabs_v2/native/tabs/guilds/useGuildsTabBadge.tsx';
+    var4 = 'modules/parent_tools/native/useParentalConsentWarning.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useGuildsTabBadge() {
+    var2 = function useParentalConsentWarning() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
         var2 = 1;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
-        var3 = var4.useStateFromStoresObject;
+        var3 = var4.useStateFromStores;
         var1 = _closure1_slot2;
         var2 = new Array(1);
         var2[0] = var1;
         var1 = function() {
-            var1 = {};
-            var3 = _closure1_slot2;
-            var4 = var3.getTotalMentionCount;
-            var2 = true;
-            var2 = var4.bind(var3)(var2);
-            var1['value'] = var2;
-            var2 = var3.hasAnyUnread;
-            var2 = var2.bind(var3)();
-            var1['showDot'] = var2;
+            var2 = _closure1_slot2;
+            var1 = var2.getWarning;
+            var1 = var1.bind(var2)();
             return var1;
         };
-        var2 = var3.bind(var4)(var2, var1);
-        var1 = {};
-        var3 = var2.value;
-        var1['value'] = var3;
-        var2 = var2.showDot;
-        var1['showDot'] = var2;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['default'] = var2;
+    var3['useParentalConsentWarning'] = var2;
     return var1;
 })();

@@ -1078,7 +1078,7 @@ case 31:
     var4['statusSectionHeader'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 44;
+    var4 = 43;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1090,13 +1090,13 @@ case 0:
             var2 = arg1;
             var7 = var2.analyticsLocations;
             var _closure2_slot0 = var7;
-            var5 = var2.prompt;
-            var _closure2_slot1 = var5;
+            var6 = var2.prompt;
+            var _closure2_slot1 = var6;
             var4 = _closure1_slot4;
             var3 = var4.useMemo;
             var2 = new Array(2);
             var2[0] = var7;
-            var2[1] = var5;
+            var2[1] = var6;
             var1 = function() {
                 var4 = _closure2_slot0;
                 var3 = _closure2_slot1;
@@ -1188,61 +1188,46 @@ case 0:
                 var1 = var2.bind(var1)(var4, var3);
                 return var1;
             };
-            var5 = var3.bind(var4)(var1, var2);
-            var2 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var7 = var3.bind(var4)(var1, var2);
+            var4 = _closure1_slot12;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var1 = 41;
-            var1 = var8[var1];
-            var4 = undefined;
-            var7 = var2.bind(var4)(var1);
-            var3 = var7.useYouBarEnabled;
-            var1 = 'EditCustomStatusWithPreviewModal';
-            var7 = var3.bind(var7)(var1);
-            var3 = _closure1_slot12;
-            var1 = 42;
-            var1 = var8[var1];
-            var1 = var2.bind(var4)(var1);
+            var1 = var6[var1];
+            var3 = undefined;
+            var1 = var8.bind(var3)(var1);
             var2 = var1.Navigator;
             var1 = {};
-            var8 = 'root';
-            var1['initialRouteName'] = var8;
-            var1['screens'] = var5;
-            var5 = undefined;
-            if(!var7) { _fun0007_ip = 41; continue _fun0007 }
+            var9 = 'root';
+            var1['initialRouteName'] = var9;
+            var1['screens'] = var7;
+            var7 = 42;
+            var6 = var6[var7];
+            var8 = var8.bind(var3)(var6);
+            var6 = var8.isAndroid;
+            var8 = var6.bind(var8)();
+            var6 = 12;
+            if(!var8) { _fun0007_ip = 41; continue _fun0007 }
 case 42:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var8 = 43;
-            var8 = var10[var8];
-            var9 = var9.bind(var4)(var8);
-            var8 = var9.isAndroid;
-            var8 = var8.bind(var9)();
-            var5 = undefined;
-            if(var8) { _fun0007_ip = 41; continue _fun0007 }
-case 43:
-            var5 = 12;
+            var6 = undefined;
 case 41:
-            var1['headerStatusBarHeight'] = var5;
+            var1['headerStatusBarHeight'] = var6;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var7];
+            var6 = var6.bind(var3)(var5);
+            var5 = var6.isAndroid;
+            var6 = var5.bind(var6)();
             var5 = undefined;
-            if(!var7) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var6 = 43;
-            var6 = var8[var6];
-            var7 = var7.bind(var4)(var6);
-            var6 = var7.isAndroid;
-            var6 = var6.bind(var7)();
-            var5 = undefined;
-            if(var6) { _fun0007_ip = 44; continue _fun0007 }
-case 46:
+            if(var6) { _fun0007_ip = 43; continue _fun0007 }
+case 44:
             var6 = {};
             var7 = 56;
             var6['height'] = var7;
             var5 = var6;
-case 44:
+case 43:
             var1['headerStyle'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var1 = var4.bind(var3)(var2, var1);
             return var1;
         }
     };

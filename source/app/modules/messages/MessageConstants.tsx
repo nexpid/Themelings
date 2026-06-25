@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = '---new-messages-bar';
     var3['NEW_MESSAGE_BAR_ID'] = var8;
     var8 = 'SPOILER_';
-    var3['SPOILER_ATTACHMENT_PREFIX'] = var8;
+    var3['LEGACY_SPOILER_ATTACHMENT_PREFIX'] = var8;
     var8 = 3447003;
     var3['DEFAULT_GUILD_OFFICIAL_COLOR'] = var8;
     var8 = 687865856;

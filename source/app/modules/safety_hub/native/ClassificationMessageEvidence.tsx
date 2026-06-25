@@ -227,81 +227,90 @@ case 4:
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var6 = arg1;
-                        var5 = {};
-                        var12 = var5;
-                        var11 = var6;
-                        var1 = copyDataProperties(var12, var11);
+                        var7 = {};
+                        var13 = var7;
+                        var12 = var6;
+                        var1 = copyDataProperties(var13, var12);
+                        var2 = var6.filename;
+                        var5 = null;
+                        var3 = var5 != var2;
+                        var1 = '';
+                        if(!var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                        var1 = var2;
+case 5:
+                        var9 = 'filename';
+                        var7[8] = var1;
                         var2 = _closure1_slot0;
                         var1 = _closure1_slot2;
                         var4 = 15;
-                        var7 = var1[var4];
+                        var8 = var1[var4];
                         var4 = undefined;
-                        var8 = var2.bind(var4)(var7);
-                        var7 = var8.getAttachmentFilename;
-                        var7 = var7.bind(var8)(var6);
-                        var8 = 'filename';
-                        var5[7] = var7;
-                        var9 = 0;
-                        var7 = 'size';
-                        var5[6] = var9;
-                        var7 = var6.url;
-                        var9 = 'proxy_url';
-                        var5[8] = var7;
-                        var7 = 16;
-                        var1 = var1[var7];
-                        var10 = var2.bind(var4)(var1);
-                        var2 = var10.isImageFile;
+                        var10 = var2.bind(var4)(var8);
+                        var8 = var10.getSpoilerFlagsForAttachment;
+                        var10 = var8.bind(var10)(var6);
+                        var8 = 'flags';
+                        var7[7] = var10;
+                        var10 = 0;
+                        var8 = 'size';
+                        var7[7] = var10;
+                        var8 = var6.url;
+                        var10 = 'proxy_url';
+                        var7[9] = var8;
+                        var8 = 16;
+                        var1 = var1[var8];
+                        var11 = var2.bind(var4)(var1);
+                        var2 = var11.isImageFile;
                         var1 = var6.filename;
-                        var1 = var2.bind(var10)(var1);
-                        if(var1) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+                        var1 = var2.bind(var11)(var1);
+                        if(var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                         var2 = _closure1_slot0;
                         var1 = _closure1_slot2;
-                        var1 = var1[var7];
-                        var7 = var2.bind(var4)(var1);
-                        var2 = var7.isVideoFile;
+                        var1 = var1[var8];
+                        var8 = var2.bind(var4)(var1);
+                        var2 = var8.isVideoFile;
                         var1 = var6.filename;
-                        var2 = var2.bind(var7)(var1);
-                        var1 = var5;
-                        if(!var2) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+                        var2 = var2.bind(var8)(var1);
+                        var1 = var7;
+                        if(!var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                         var2 = {};
-                        var12 = var2;
-                        var11 = var5;
-                        var7 = copyDataProperties(var12, var11);
-                        var10 = _closure1_slot14;
-                        var7 = 'width';
-                        var2[6] = var10;
-                        var10 = _closure1_slot15;
-                        var7 = 'height';
-                        var2[6] = var10;
-                        var7 = _closure2_slot5;
-                        var7 = var7.uri;
-                        var2[8] = var7;
-                        var7 = _closure1_slot16;
-                        var2[7] = var7;
+                        var13 = var2;
+                        var12 = var7;
+                        var8 = copyDataProperties(var13, var12);
+                        var11 = _closure1_slot14;
+                        var8 = 'width';
+                        var2[7] = var11;
+                        var11 = _closure1_slot15;
+                        var8 = 'height';
+                        var2[7] = var11;
+                        var8 = _closure2_slot5;
+                        var8 = var8.uri;
+                        var2[9] = var8;
+                        var8 = _closure1_slot16;
+                        var2[8] = var8;
                         var1 = var2;
+case 9:
+                        _fun0002_ip = 11; continue _fun0002;
 case 7:
-                        _fun0002_ip = 9; continue _fun0002;
-case 5:
                         var2 = {};
-                        var12 = var2;
-                        var11 = var5;
-                        var5 = copyDataProperties(var12, var11);
-                        var8 = _closure2_slot3;
-                        var5 = var6.id;
-                        var8 = var8[var5];
-                        var5 = null;
+                        var13 = var2;
+                        var12 = var7;
+                        var7 = copyDataProperties(var13, var12);
+                        var9 = _closure2_slot3;
+                        var8 = var6.id;
+                        var8 = var9[var8];
                         var10 = var5 == var8;
                         var9 = undefined;
-                        if(var10) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-                        var9 = var8.width;
-case 10:
-                        if(!(var5 == var9)) { _fun0002_ip = 12; continue _fun0002 }
+                        if(var10) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                        var9 = _closure1_slot12;
+                        var9 = var8.width;
 case 12:
+                        if(!(var5 == var9)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+                        var9 = _closure1_slot12;
+case 14:
                         var8 = 'width';
                         var2[7] = var9;
                         var7 = _closure2_slot3;
@@ -309,18 +318,18 @@ case 12:
                         var6 = var7[var6];
                         var7 = var5 == var6;
                         var4 = undefined;
-                        if(var7) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-                        var4 = var6.height;
-case 14:
-                        if(!(var5 == var4)) { _fun0002_ip = 16; continue _fun0002 }
+                        if(var7) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
-                        var4 = _closure1_slot13;
+                        var4 = var6.height;
 case 16:
+                        if(!(var5 == var4)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+                        var4 = _closure1_slot13;
+case 18:
                         var3 = 'height';
                         var2[2] = var4;
                         var1 = var2;
-case 9:
+case 11:
                         return var1;
                     }
                 };
@@ -365,10 +374,10 @@ case 0:
                         var7 = var7.filename;
                         var8 = var8.bind(var10)(var7);
                         var7 = undefined;
-                        if(!var8) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+                        if(!var8) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                         var7 = var2.url;
-case 18:
+case 20:
                         var1['videoURI'] = var7;
                         var8 = _closure1_slot0;
                         var7 = _closure1_slot2;
@@ -381,8 +390,8 @@ case 18:
                         var7 = var7.filename;
                         var8 = var8.bind(var9)(var7);
                         var7 = undefined;
-                        if(!var8) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+                        if(!var8) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                         var8 = {};
                         var9 = _closure1_slot14;
                         var8['width'] = var9;
@@ -392,7 +401,7 @@ case 21:
                         var9 = var9.uri;
                         var8['uri'] = var9;
                         var7 = var8;
-case 20:
+case 22:
                         var1['thumbnail'] = var7;
                         var1['mediaIndex'] = var5;
                         var5 = '1';
@@ -405,28 +414,28 @@ case 20:
                         var5 = null;
                         var9 = var5 == var8;
                         var7 = undefined;
-                        if(var9) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                        var7 = var8.width;
-case 22:
-                        if(!(var5 == var7)) { _fun0003_ip = 24; continue _fun0003 }
+                        if(var9) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
-                        var7 = _closure1_slot12;
+                        var7 = var8.width;
 case 24:
+                        if(!(var5 == var7)) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
+                        var7 = _closure1_slot12;
+case 26:
                         var1['width'] = var7;
                         var7 = _closure2_slot3;
                         var6 = var2.id;
                         var6 = var7[var6];
                         var7 = var5 == var6;
                         var3 = undefined;
-                        if(var7) { _fun0003_ip = 13; continue _fun0003 }
-case 26:
+                        if(var7) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                         var3 = var6.height;
-case 13:
-                        if(!(var5 == var3)) { _fun0003_ip = 27; continue _fun0003 }
-case 12:
+case 28:
+                        if(!(var5 == var3)) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
                         var3 = _closure1_slot13;
-case 27:
+case 30:
                         var1['height'] = var3;
                         var3 = 'attachment';
                         var1['accessoryType'] = var3;
@@ -574,8 +583,8 @@ case 27:
 case 0:
                     var3 = _closure2_slot7;
                     var2 = 0;
-                    if(!(var2 === var3)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+                    if(!(var2 === var3)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                     var3 = _closure2_slot2;
                     var4 = _closure1_slot6;
                     var1 = _closure2_slot0;
@@ -583,7 +592,7 @@ case 29:
                     var2 = undefined;
                     var1 = var4.bind(var2)(var1);
                     var1 = var3.bind(var2)(var1);
-case 28:
+case 32:
                     var1 = undefined;
                     return var1;
                 }
@@ -591,17 +600,17 @@ case 28:
             var1 = var4.bind(var7)(var1, var3);
             var3 = var12.content;
             var1 = '';
-            if(!(var1 === var3)) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
+            if(!(var1 === var3)) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var1 = var12.attachments;
             var3 = var1.length;
             var1 = null;
-            if(!(var6 !== var3)) { _fun0001_ip = 32; continue _fun0001 }
-case 30:
+            if(!(var6 !== var3)) { _fun0001_ip = 36; continue _fun0001 }
+case 34:
             var4 = _closure1_slot19;
             var3 = _closure1_slot5;
-            if(!(!(var2 > var6))) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
+            if(!(!(var2 > var6))) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var2 = {};
             var10 = _closure1_slot18;
             var23 = _closure1_slot1;
@@ -652,12 +661,12 @@ case 34:
             var22 = _closure1_slot17;
             var22 = var22.DEFAULT;
             var15['type'] = var22;
-            if(!(var20 == var19)) { _fun0001_ip = 35; continue _fun0001 }
-case 36:
+            if(!(var20 == var19)) { _fun0001_ip = 39; continue _fun0001 }
+case 40:
             var20 = {'id': '0', 'avatar': null, 'discriminator': '0000'};
             var20['username'] = var21;
             var19 = var20;
-case 35:
+case 39:
             var15['author'] = var19;
             var19 = var12.content;
             var15['content'] = var19;
@@ -668,8 +677,8 @@ case 35:
             var7 = var10.bind(var5)(var9, var7);
             var6[1] = var7;
             var2['children'] = var6;
-            _fun0001_ip = 37; continue _fun0001;
-case 33:
+            _fun0001_ip = 41; continue _fun0001;
+case 37:
             var6 = {};
             var10 = _closure1_slot18;
             var9 = _closure1_slot8;
@@ -771,9 +780,9 @@ case 33:
             var7[1] = var8;
             var6['children'] = var7;
             var2 = var6;
-case 37:
+case 41:
             var1 = var4.bind(var5)(var3, var2);
-case 32:
+case 36:
             return var1;
         }
     };

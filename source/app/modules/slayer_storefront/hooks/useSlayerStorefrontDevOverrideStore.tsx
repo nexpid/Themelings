@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
-        var1 = {'overrideApplicationId': null, 'setOverrideApplicationId': null, 'showSelfActivity': false, 'setShowSelfActivity': null, 'recommendationApplicationIds': null};
+        var1 = {'overrideApplicationId': null, 'setOverrideApplicationId': null, 'showSelfActivity': false, 'setShowSelfActivity': null, 'recommendationApplicationIds': null, 'setRecommendationApplicationIds': null, 'overrideNitroEligibilityForSocialLayerStorefront': false};
         var3 = function setOverrideApplicationId(arg1) {
             var3 = _closure2_slot0;
             var2 = {};
@@ -31,7 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['setOverrideApplicationId'] = var3;
-        var3 = function setShowSelfActivity(arg1) {
+        var3 = false;
+        var4 = function setShowSelfActivity(arg1) {
             var3 = _closure2_slot0;
             var2 = {};
             var1 = arg1;
@@ -40,8 +41,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var1)(var2);
             return var1;
         };
-        var1['setShowSelfActivity'] = var3;
-        var2 = function setRecommendationApplicationIds(arg1) {
+        var1['setShowSelfActivity'] = var4;
+        var4 = function setRecommendationApplicationIds(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var6 = arg1;
@@ -61,7 +62,28 @@ case 2:
                 return var1;
             }
         };
-        var1['setRecommendationApplicationIds'] = var2;
+        var1['setRecommendationApplicationIds'] = var4;
+        var4 = function setOverrideNitroEligibilityForSocialLayerStorefront(arg1) {
+            var3 = _closure2_slot0;
+            var2 = {};
+            var1 = arg1;
+            var2['overrideNitroEligibilityForSocialLayerStorefront'] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
+        };
+        var1['setOverrideNitroEligibilityForSocialLayerStorefront'] = var4;
+        var1['isNitroEligibleForSocialLayerStorefront'] = var3;
+        var2 = function setIsNitroEligibleForSocialLayerStorefront(arg1) {
+            var3 = _closure2_slot0;
+            var2 = {};
+            var1 = arg1;
+            var2['isNitroEligibleForSocialLayerStorefront'] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
+        };
+        var1['setIsNitroEligibleForSocialLayerStorefront'] = var2;
         return var1;
     };
     var2 = var4.bind(var1)(var2);

@@ -170,18 +170,36 @@ case 7:
 case 6:
                     if(!var2) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                    var3 = _closure1_slot10;
-                    var2 = {};
-                    var4 = _closure2_slot0;
-                    var2['selectedSkuId'] = var4;
-                    var4 = 'giftSku';
-                    var2['requestType'] = var4;
-                    var4 = _closure2_slot2;
-                    var2['giftRecipientId'] = var4;
+                    var5 = {};
+                    var2 = _closure2_slot0;
+                    var5['selectedSkuId'] = var2;
+                    var2 = 'giftSku';
+                    var5['requestType'] = var2;
+                    var2 = _closure2_slot2;
+                    var5['giftRecipientId'] = var2;
                     var1 = _closure2_slot3;
-                    var2['giftMessage'] = var1;
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
+                    var5['giftMessage'] = var1;
+                    var4 = _closure1_slot1;
+                    var1 = _closure1_slot2;
+                    var3 = 13;
+                    var6 = var1[var3];
+                    var7 = undefined;
+                    var8 = var4.bind(var7)(var6);
+                    var6 = var8.hideActionSheet;
+                    var6 = var6.bind(var8)();
+                    var3 = var1[var3];
+                    var4 = var4.bind(var7)(var3);
+                    var3 = var4.openLazy;
+                    var6 = _closure1_slot0;
+                    var2 = 15;
+                    var2 = var1[var2];
+                    var6 = var6.bind(var7)(var2);
+                    var2 = 14;
+                    var2 = var1[var2];
+                    var1 = var1.paths;
+                    var2 = var6.bind(var7)(var2, var1);
+                    var1 = 'SimpleRequestOTPActionSheet';
+                    var1 = var3.bind(var4)(var2, var1, var5);
 case 8:
                     var1 = undefined;
                     return var1;
@@ -198,7 +216,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -263,32 +281,6 @@ case 8:
     var4['title'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot9 = var4;
-    var4 = function openRequestActionSheet(arg1) {
-        var5 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var4 = 13;
-        var6 = var2[var4];
-        var1 = undefined;
-        var7 = var5.bind(var1)(var6);
-        var6 = var7.hideActionSheet;
-        var6 = var6.bind(var7)();
-        var4 = var2[var4];
-        var6 = var5.bind(var1)(var4);
-        var5 = var6.openLazy;
-        var4 = _closure1_slot0;
-        var3 = 15;
-        var3 = var2[var3];
-        var4 = var4.bind(var1)(var3);
-        var3 = 14;
-        var3 = var2[var3];
-        var2 = var2.paths;
-        var4 = var4.bind(var1)(var3, var2);
-        var3 = 'SimpleRequestOTPActionSheet';
-        var2 = arg1;
-        var2 = var5.bind(var6)(var4, var3, var2);
-        return var1;
-    };
-    var _closure1_slot10 = var4;
     var4 = var7.memo;
     var2 = function PaymentFlowTest() {
         var1 = _closure1_slot9;
@@ -331,7 +323,7 @@ case 8:
         var9['paddingRight'] = var10;
         var5['contentContainerStyle'] = var9;
         var10 = _closure1_slot7;
-        var9 = _closure1_slot11;
+        var9 = _closure1_slot10;
         var8 = {};
         var8 = var10.bind(var4)(var9, var8);
         var5['children'] = var8;

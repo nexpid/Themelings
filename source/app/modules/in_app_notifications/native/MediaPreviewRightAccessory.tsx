@@ -8,18 +8,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
     var1 = function VideoBadge() {
-        var1 = _closure1_slot12;
+        var1 = _closure1_slot11;
         var4 = undefined;
         var8 = var1.bind(var4)();
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot8;
         var2 = _closure1_slot6;
         var1 = {};
         var6 = var8.badge;
         var1['style'] = var6;
-        var7 = _closure1_slot9;
+        var7 = _closure1_slot8;
         var6 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var5 = 7;
+        var5 = 6;
         var5 = var9[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.PlayIcon;
@@ -31,22 +31,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot15 = var1;
     var1 = function CountBadge(arg1) {
         var1 = arg1;
         var8 = var1.total;
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var4 = undefined;
         var6 = var1.bind(var4)();
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot8;
         var2 = _closure1_slot6;
         var1 = {};
         var6 = var6.badge;
         var1['style'] = var6;
-        var7 = _closure1_slot9;
+        var7 = _closure1_slot8;
         var6 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var5 = 8;
+        var5 = 7;
         var5 = var9[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Text;
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var1 = function ObscuredMediaOverlay(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -65,17 +65,17 @@ case 0:
             var9 = var2.isObscured;
             var1 = var2.isSpoiler;
             var6 = var2.children;
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot13;
             var4 = undefined;
             var13 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 9;
+            var2 = 8;
             var2 = var8[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useToken;
             var7 = _closure1_slot1;
-            var2 = 6;
+            var2 = 5;
             var2 = var8[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.colors;
@@ -89,7 +89,7 @@ case 4:
 case 2:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.isAndroid;
@@ -99,15 +99,15 @@ case 2:
 case 6:
             var14 = 'dark';
 case 5:
-            var3 = _closure1_slot11;
-            var2 = _closure1_slot10;
+            var3 = _closure1_slot10;
+            var2 = _closure1_slot9;
             var1 = {};
             var5 = new Array(4);
             var5[0] = var6;
             var6 = var9;
             if(!var6) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var11 = _closure1_slot9;
+            var11 = _closure1_slot8;
             var8 = _closure1_slot6;
             var7 = {};
             var15 = var13.obscureBackground;
@@ -118,10 +118,10 @@ case 7:
             var6 = !var9;
             if(!var6) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var11 = _closure1_slot9;
+            var11 = _closure1_slot8;
             var8 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var7 = 11;
+            var7 = 10;
             var7 = var15[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
@@ -133,22 +133,22 @@ case 10:
             var6 = var11.bind(var4)(var8, var7);
 case 9:
             var5[2] = var6;
-            var8 = _closure1_slot9;
+            var8 = _closure1_slot8;
             var7 = _closure1_slot6;
             var6 = {};
             var11 = var13.spoilerIconContainer;
             var6['style'] = var11;
-            var12 = _closure1_slot9;
+            var12 = _closure1_slot8;
             if(var9) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
             var11 = _closure1_slot6;
             var9 = {};
             var13 = var13.spoilerPill;
             var9['style'] = var13;
-            var15 = _closure1_slot9;
+            var15 = _closure1_slot8;
             var14 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var13 = 13;
+            var13 = 12;
             var13 = var16[var13];
             var13 = var14.bind(var4)(var13);
             var14 = var13.EyeIcon;
@@ -160,7 +160,7 @@ case 12:
 case 11:
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 12;
+            var10 = 11;
             var10 = var13[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.ImageWarningIcon;
@@ -175,7 +175,7 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot17 = var1;
     var1 = function SinglePreviewableMedia(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -183,12 +183,12 @@ case 0:
             var5 = var1.previewableMedia;
             var7 = var1.size;
             var10 = var1.message;
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot13;
             var4 = undefined;
             var8 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var6 = 14;
+            var6 = 13;
             var6 = var2[var6];
             var12 = var3.bind(var4)(var6);
             var11 = var12.useStateFromStores;
@@ -204,22 +204,22 @@ case 0:
             var16 = var5.type;
             var9 = var5.media;
             var5 = var5.icon;
-            var6 = 15;
+            var6 = 14;
             var6 = var2[var6];
             var11 = var3.bind(var4)(var6);
             var6 = var11.useShouldAgeVerifyForExplicitMedia;
             var15 = var6.bind(var11)();
-            var6 = 16;
+            var6 = 15;
             var6 = var2[var6];
             var11 = var3.bind(var4)(var6);
             var6 = var11.useEnabledHarmTypesBitmaskForMessage;
             var18 = var6.bind(var11)(var10);
-            var6 = 17;
+            var6 = 16;
             var6 = var2[var6];
             var11 = var3.bind(var4)(var6);
             var6 = var11.useRnvHttpEngine;
             var21 = var6.bind(var11)();
-            var17 = 18;
+            var17 = 17;
             var2 = var2[var17];
             var2 = var3.bind(var4)(var2);
             var2 = var2.PreviewableMediaTypes;
@@ -277,7 +277,7 @@ case 13:
             var2 = null;
             return var2;
 case 24:
-            var6 = _closure1_slot9;
+            var6 = _closure1_slot8;
             var3 = _closure1_slot6;
             var2 = {};
             var12 = var8.mediaThumbnailContainer;
@@ -288,10 +288,10 @@ case 24:
             var12['height'] = var7;
             var11[1] = var12;
             var2['style'] = var11;
-            var13 = _closure1_slot9;
+            var13 = _closure1_slot8;
             var12 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var11 = 26;
+            var11 = 25;
             var11 = var19[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
@@ -317,7 +317,7 @@ case 25:
 case 28:
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 23;
+            var6 = 22;
             var11 = var11[var6];
             var13 = var12.bind(var4)(var11);
             var12 = var13.getEnabledHarmTypesForChannelAndAuthorId;
@@ -336,7 +336,7 @@ case 29:
             var11 = var19.bind(var4)(var6);
             var10 = var11.getMediaObscuredReasonFromBitmask;
             var6 = {};
-            var13 = 24;
+            var13 = 23;
             var13 = var20[var13];
             var13 = var19.bind(var4)(var13);
             var13 = var13.ObscuredMediaTypes;
@@ -346,40 +346,20 @@ case 29:
             var6 = var10.bind(var11)(var6, var12);
             var10 = var6.length;
             var6 = 0;
-            var22 = var10 > var6;
-            var12 = var9.url;
-            var10 = var2 == var12;
-            var6 = undefined;
-            if(var10) { _fun0002_ip = 31; continue _fun0002 }
+            var19 = var10 > var6;
+            var6 = var3.proxyURL;
+            if(!(var2 != var6)) { _fun0002_ip = 31; continue _fun0002 }
 case 32:
-            var11 = var12.split;
-            var10 = '/';
-            var11 = var11.bind(var12)(var10);
-            var10 = var11.pop;
-            var6 = var10.bind(var11)();
+            var10 = var3.proxyURL;
+            var6 = '';
+            if(!(var6 === var10)) { _fun0002_ip = 33; continue _fun0002 }
 case 31:
-            var10 = var2 != var6;
-            var19 = '';
-            var11 = var19;
-            if(!var10) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
-            var11 = var6;
-case 33:
-            var10 = var11.startsWith;
-            var6 = _closure1_slot8;
-            var20 = var10.bind(var11)(var6);
-            var6 = var3.proxyURL;
-            if(!(var2 != var6)) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
-            var6 = var3.proxyURL;
-            if(!(var19 === var6)) { _fun0002_ip = 37; continue _fun0002 }
-case 35:
             var23 = var3.url;
-            _fun0002_ip = 38; continue _fun0002;
-case 37:
+            _fun0002_ip = 34; continue _fun0002;
+case 33:
             var23 = var3.proxyURL;
-case 38:
-            var10 = _closure1_slot9;
+case 34:
+            var10 = _closure1_slot8;
             var6 = _closure1_slot6;
             var3 = {};
             var12 = var8.mediaThumbnailContainer;
@@ -390,29 +370,30 @@ case 38:
             var12['height'] = var7;
             var11[1] = var12;
             var3['style'] = var11;
-            var13 = _closure1_slot9;
-            var12 = _closure1_slot18;
+            var13 = _closure1_slot8;
+            var12 = _closure1_slot17;
             var11 = {};
-            var11['isObscured'] = var22;
-            var11['isSpoiler'] = var20;
-            if(!(var2 != var25)) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
-            if(!(var19 !== var25)) { _fun0002_ip = 39; continue _fun0002 }
-case 41:
-            if(var14) { _fun0002_ip = 39; continue _fun0002 }
-case 42:
-            var20 = _closure1_slot9;
+            var11['isObscured'] = var19;
+            var22 = false;
+            var11['isSpoiler'] = var22;
+            if(!(var2 != var25)) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
+            var19 = '';
+            if(!(var19 !== var25)) { _fun0002_ip = 35; continue _fun0002 }
+case 37:
+            if(var14) { _fun0002_ip = 35; continue _fun0002 }
+case 38:
+            var20 = _closure1_slot8;
             var19 = _closure1_slot1;
-            var22 = _closure1_slot2;
-            var14 = 25;
-            var14 = var22[var14];
+            var24 = _closure1_slot2;
+            var14 = 24;
+            var14 = var24[var14];
             var19 = var19.bind(var4)(var14);
             var14 = {};
-            var22 = 'cover';
-            var14['resizeMode'] = var22;
+            var24 = 'cover';
+            var14['resizeMode'] = var24;
             var14['width'] = var7;
             var14['height'] = var7;
-            var22 = false;
             var14['paused'] = var22;
             var24 = {};
             var24['videoURI'] = var25;
@@ -421,12 +402,12 @@ case 42:
             var14['postponeRender'] = var22;
             var14['httpEngine'] = var21;
             var14 = var20.bind(var4)(var19, var14);
-            _fun0002_ip = 43; continue _fun0002;
-case 39:
-            var21 = _closure1_slot9;
+            _fun0002_ip = 39; continue _fun0002;
+case 35:
+            var21 = _closure1_slot8;
             var20 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var19 = 22;
+            var19 = 21;
             var19 = var22[var19];
             var20 = var20.bind(var4)(var19);
             var19 = {};
@@ -438,7 +419,7 @@ case 39:
             var22 = 'cover';
             var19['resizeMode'] = var22;
             var14 = var21.bind(var4)(var20, var19);
-case 43:
+case 39:
             var11['children'] = var14;
             var11 = var13.bind(var4)(var12, var11);
             var3['children'] = var11;
@@ -450,18 +431,18 @@ case 19:
             var14 = var9.width;
             var12 = var9.height;
             var2 = null;
-            if(!(var2 != var14)) { _fun0002_ip = 44; continue _fun0002 }
-case 45:
+            if(!(var2 != var14)) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
             var3 = 0;
-            if(!(!(var14 <= var3))) { _fun0002_ip = 44; continue _fun0002 }
-case 46:
-            if(!(var2 != var12)) { _fun0002_ip = 44; continue _fun0002 }
-case 47:
-            if(!(!(var12 <= var3))) { _fun0002_ip = 44; continue _fun0002 }
-case 48:
+            if(!(!(var14 <= var3))) { _fun0002_ip = 40; continue _fun0002 }
+case 42:
+            if(!(var2 != var12)) { _fun0002_ip = 40; continue _fun0002 }
+case 43:
+            if(!(!(var12 <= var3))) { _fun0002_ip = 40; continue _fun0002 }
+case 44:
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 19;
+            var3 = 18;
             var3 = var10[var3];
             var13 = var11.bind(var4)(var3);
             var6 = var13.getAttachmentObscurityProps;
@@ -472,12 +453,12 @@ case 48:
             var3['enabledContentHarmTypeFlags'] = var18;
             var3['shouldAgeVerify'] = var15;
             var13 = var6.bind(var13)(var3);
-            var3 = 20;
+            var3 = 19;
             var3 = var10[var3];
             var6 = var11.bind(var4)(var3);
             var3 = var6.getAttachmentUrl;
             var15 = var3.bind(var6)(var9);
-            var3 = 21;
+            var3 = 20;
             var3 = var10[var3];
             var9 = var11.bind(var4)(var3);
             var6 = var9.getSrcWithWidthAndHeight;
@@ -497,13 +478,13 @@ case 48:
             var10 = var10.PreviewableMediaTypes;
             var11 = var10.VIDEO;
             var10 = undefined;
-            if(!(var16 === var11)) { _fun0002_ip = 49; continue _fun0002 }
-case 50:
+            if(!(var16 === var11)) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
             var10 = 'png';
-case 49:
+case 45:
             var3['format'] = var10;
             var20 = var6.bind(var9)(var3);
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot8;
             var6 = _closure1_slot6;
             var3 = {};
             var11 = var8.mediaThumbnailContainer;
@@ -514,17 +495,17 @@ case 49:
             var11['height'] = var7;
             var10[1] = var11;
             var3['style'] = var10;
-            var12 = _closure1_slot11;
-            var11 = _closure1_slot18;
+            var12 = _closure1_slot10;
+            var11 = _closure1_slot17;
             var10 = {};
             var14 = var13.obscure;
             var10['isObscured'] = var14;
             var13 = var13.isSpoiler;
             var10['isSpoiler'] = var13;
-            var18 = _closure1_slot9;
+            var18 = _closure1_slot8;
             var15 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var13 = 22;
+            var13 = 21;
             var13 = var14[var13];
             var15 = var15.bind(var4)(var13);
             var13 = {};
@@ -544,23 +525,23 @@ case 49:
             var14 = var14.PreviewableMediaTypes;
             var15 = var14.VIDEO;
             var14 = null;
-            if(!(var16 === var15)) { _fun0002_ip = 51; continue _fun0002 }
-case 52:
-            var17 = _closure1_slot9;
-            var16 = _closure1_slot16;
+            if(!(var16 === var15)) { _fun0002_ip = 47; continue _fun0002 }
+case 48:
+            var17 = _closure1_slot8;
+            var16 = _closure1_slot15;
             var15 = {};
             var14 = var17.bind(var4)(var16, var15);
-case 51:
+case 47:
             var13[1] = var14;
             var10['children'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var3['children'] = var10;
             var3 = var9.bind(var4)(var6, var3);
             return var3;
-case 44:
+case 40:
             return var2;
 case 16:
-            var6 = _closure1_slot9;
+            var6 = _closure1_slot8;
             var3 = _closure1_slot6;
             var2 = {};
             var9 = var8.iconContainer;
@@ -575,7 +556,7 @@ case 16:
             var2 = var6.bind(var4)(var3, var2);
             return var2;
 case 14:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot6;
             var1 = {};
             var6 = {};
@@ -587,13 +568,13 @@ case 14:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot18 = var1;
     var1 = function MultiplePreviewableMedia(arg1) {
         var1 = arg1;
         var14 = var1.previewableMedia;
         var9 = var1.totalMediaCount;
         var13 = var1.message;
-        var1 = _closure1_slot15;
+        var1 = _closure1_slot14;
         var4 = undefined;
         var5 = var1.bind(var4)();
         var7 = _closure1_slot3;
@@ -601,7 +582,7 @@ case 14:
         var2 = function() {
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 27;
+            var1 = 26;
             var1 = var8[var1];
             var6 = undefined;
             var1 = var7.bind(var6)(var1);
@@ -620,7 +601,7 @@ case 14:
             var1 = var3 / var1;
             var2 = var2.bind(var5)(var1);
             var1 = {};
-            var5 = 28;
+            var5 = 27;
             var5 = var8[var5];
             var5 = var7.bind(var6)(var5);
             var5 = var5.CutoutShape;
@@ -639,23 +620,23 @@ case 14:
         };
         var1 = new Array(0);
         var11 = var3.bind(var7)(var2, var1);
-        var3 = _closure1_slot11;
+        var3 = _closure1_slot10;
         var2 = _closure1_slot6;
         var1 = {};
         var5 = var5.container;
         var1['style'] = var5;
-        var8 = _closure1_slot9;
+        var8 = _closure1_slot8;
         var7 = _closure1_slot1;
         var10 = _closure1_slot2;
-        var5 = 28;
+        var5 = 27;
         var5 = var10[var5];
         var7 = var7.bind(var4)(var5);
         var5 = {};
         var10 = new Array(1);
         var10[0] = var11;
         var5['cutouts'] = var10;
-        var12 = _closure1_slot9;
-        var11 = _closure1_slot19;
+        var12 = _closure1_slot8;
+        var11 = _closure1_slot18;
         var10 = {};
         var10['previewableMedia'] = var14;
         var14 = 56;
@@ -666,8 +647,8 @@ case 14:
         var7 = var8.bind(var4)(var7, var5);
         var5 = new Array(2);
         var5[0] = var7;
-        var8 = _closure1_slot9;
-        var7 = _closure1_slot17;
+        var8 = _closure1_slot8;
+        var7 = _closure1_slot16;
         var6 = {};
         var6['total'] = var9;
         var6 = var8.bind(var4)(var7, var6);
@@ -676,7 +657,7 @@ case 14:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = function MediaPreviewRightAccessoryContent(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -686,7 +667,7 @@ case 0:
             var6 = var1.message;
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 29;
+            var1 = 28;
             var1 = var5[var1];
             var5 = undefined;
             var7 = var4.bind(var5)(var1);
@@ -696,30 +677,30 @@ case 0:
             var1 = 0;
             var7 = var3[var1];
             var1 = 1;
-            if(!(var1 !== var8)) { _fun0003_ip = 53; continue _fun0003 }
-case 54:
-            var4 = _closure1_slot9;
-            var3 = _closure1_slot20;
+            if(!(var1 !== var8)) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
+            var4 = _closure1_slot8;
+            var3 = _closure1_slot19;
             var1 = {};
             var1['previewableMedia'] = var7;
             var1['totalMediaCount'] = var8;
             var1['message'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 55; continue _fun0003;
-case 53:
-            var4 = _closure1_slot9;
-            var3 = _closure1_slot19;
+            _fun0003_ip = 51; continue _fun0003;
+case 49:
+            var4 = _closure1_slot8;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['previewableMedia'] = var7;
             var7 = 64;
             var2['size'] = var7;
             var2['message'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 55:
+case 51:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot20 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -750,25 +731,20 @@ case 55:
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SPOILER_ATTACHMENT_PREFIX;
-    var _closure1_slot8 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot9 = var7;
+    var _closure1_slot8 = var7;
     var7 = var4.Fragment;
-    var _closure1_slot10 = var7;
+    var _closure1_slot9 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot11 = var4;
-    var4 = 5;
+    var _closure1_slot10 = var4;
+    var4 = 4;
     var7 = var6[var4];
     var9 = var5.bind(var1)(var7);
     var8 = var9.createStyles;
     var7 = {};
     var10 = {'alignItems': 'center', 'justifyContent': 'center', 'backgroundColor': null, 'borderRadius': null, 'width': 16, 'height': 16, 'position': 'absolute', 'bottom': 4, 'left': 4};
     var11 = 'center';
-    var12 = 6;
+    var12 = 5;
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
@@ -783,7 +759,7 @@ case 55:
     var10 = {'width': 10, 'height': 10};
     var7['icon'] = var10;
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot12 = var7;
+    var _closure1_slot11 = var7;
     var7 = var6[var4];
     var9 = var5.bind(var1)(var7);
     var8 = var9.createStyles;
@@ -801,7 +777,7 @@ case 55:
     var10['borderRadius'] = var15;
     var7['badge'] = var10;
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot13 = var7;
+    var _closure1_slot12 = var7;
     var7 = var6[var4];
     var9 = var5.bind(var1)(var7);
     var8 = var9.createStyles;
@@ -869,7 +845,7 @@ case 55:
     var10['alignItems'] = var11;
     var7['spoilerPill'] = var10;
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot14 = var7;
+    var _closure1_slot13 = var7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -879,8 +855,8 @@ case 55:
     var9['overflow'] = var10;
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot15 = var4;
-    var4 = 30;
+    var _closure1_slot14 = var4;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -895,7 +871,7 @@ case 0:
             var6 = var1.message;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 18;
+            var1 = 17;
             var1 = var4[var1];
             var5 = undefined;
             var3 = var3.bind(var5)(var1);
@@ -904,16 +880,16 @@ case 0:
             var7 = var8.length;
             var3 = 0;
             var1 = null;
-            if(!(var3 !== var7)) { _fun0004_ip = 56; continue _fun0004 }
-case 57:
-            var4 = _closure1_slot9;
-            var3 = _closure1_slot21;
+            if(!(var3 !== var7)) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
+            var4 = _closure1_slot8;
+            var3 = _closure1_slot20;
             var2 = {};
             var2['previewableMedia'] = var8;
             var2['totalMediaCount'] = var7;
             var2['message'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 56:
+case 52:
             return var1;
         }
     };

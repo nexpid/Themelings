@@ -1,21 +1,20 @@
 // app/modules/collectibles/native/useCollectiblesShopHeader.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function CollectiblesShopHeaderTitle(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var11 = var1.currentScreen;
-            var2 = var1.youBarEnabled;
             var1 = _closure1_slot12;
             var4 = undefined;
-            var9 = var1.bind(var4)(var2);
+            var9 = var1.bind(var4)();
             var3 = _closure1_slot11;
             var2 = _closure1_slot4;
             var1 = {};
@@ -86,10 +85,9 @@ case 0:
             var1 = arg1;
             var9 = var1.currentScreen;
             var _closure2_slot0 = var9;
-            var2 = var1.youBarEnabled;
             var1 = _closure1_slot12;
             var4 = undefined;
-            var5 = var1.bind(var4)(var2);
+            var5 = var1.bind(var4)();
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 13;
@@ -652,27 +650,27 @@ case 17:
     };
     var _closure1_slot14 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var8 = var6[var1];
+    var7 = var6[var1];
     var4 = metroImportAll;
     var1 = undefined;
-    var4 = var4.bind(var1)(var8);
+    var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
+    var12 = 1;
+    var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -705,106 +703,73 @@ case 17:
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
-    var4 = function(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var5 = arg1;
-            var1 = {};
-            var2 = {'width': '100%', 'flexDirection': 'row', 'alignItems': 'center'};
-            var6 = undefined;
-            var3 = undefined;
-            if(!var5) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
-            var7 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var4 = 9;
-            var4 = var8[var4];
-            var4 = var7.bind(var6)(var4);
-            var4 = var4.space;
-            var3 = var4.PX_8;
-case 19:
-            var2['marginTop'] = var3;
-            var8 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var7 = 9;
-            var9 = var3[var7];
-            var9 = var8.bind(var6)(var9);
-            var9 = var9.space;
-            var9 = var9.PX_8;
-            var2['paddingLeft'] = var9;
-            var9 = var3[var7];
-            var9 = var8.bind(var6)(var9);
-            var9 = var9.space;
-            var9 = var9.PX_8;
-            var2['gap'] = var9;
-            var1['headerTitleContainer'] = var2;
-            var2 = {};
-            var9 = 1;
-            var2['flexShrink'] = var9;
-            var1['headerTitle'] = var2;
-            var2 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center'};
-            var3 = var3[var7];
-            var3 = var8.bind(var6)(var3);
-            var3 = var3.space;
-            var3 = var3.PX_8;
-            var2['gap'] = var3;
-            var3 = undefined;
-            if(!var5) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var4 = var4[var7];
-            var4 = var5.bind(var6)(var4);
-            var4 = var4.space;
-            var3 = var4.PX_8;
-case 21:
-            var2['marginTop'] = var3;
-            var1['headerRightContainer'] = var2;
-            return var1;
-        }
-    };
+    var4 = {};
+    var9 = {'width': '100%', 'flexDirection': 'row', 'alignItems': 'center'};
+    var10 = 9;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_8;
+    var9['marginTop'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_8;
+    var9['paddingLeft'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_8;
+    var9['gap'] = var13;
+    var4['headerTitleContainer'] = var9;
+    var9 = {};
+    var9['flexShrink'] = var12;
+    var4['headerTitle'] = var9;
+    var9 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center'};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_8;
+    var9['gap'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.space;
+    var10 = var10.PX_8;
+    var9['marginTop'] = var10;
+    var4['headerRightContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 33;
+    var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/useCollectiblesShopHeader.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useCollectiblesShopHeader() {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var3 = arguments[0];
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+            if(!(var3 === var1)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
             var3 = {};
-case 23:
-            var7 = var3.currentScreen;
-            var _closure2_slot0 = var7;
+case 19:
+            var6 = var3.currentScreen;
+            var _closure2_slot0 = var6;
             var _closure2_slot1 = var1;
-            var _closure2_slot2 = var1;
             var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var4 = 31;
-            var4 = var6[var4];
-            var8 = var5.bind(var1)(var4);
-            var4 = var8.useNavigation;
-            var8 = var4.bind(var8)();
-            _closure2_slot1 = var8;
-            var4 = 32;
-            var4 = var6[var4];
-            var6 = var5.bind(var1)(var4);
-            var5 = var6.useYouBarEnabled;
-            var4 = 'CollectiblesShopHeader';
-            var6 = var5.bind(var6)(var4);
-            _closure2_slot2 = var6;
+            var4 = var7[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.useNavigation;
+            var7 = var4.bind(var5)();
+            _closure2_slot1 = var7;
             var5 = _closure1_slot3;
             var4 = var5.useLayoutEffect;
-            var3 = new Array(3);
-            var3[0] = var8;
-            var3[1] = var7;
-            var3[2] = var6;
+            var3 = new Array(2);
+            var3[0] = var7;
+            var3[1] = var6;
             var2 = function() {
                 var3 = _closure2_slot1;
                 var2 = var3.setOptions;
@@ -813,10 +778,8 @@ case 23:
                     var4 = _closure1_slot10;
                     var3 = _closure1_slot13;
                     var2 = {};
-                    var5 = _closure2_slot0;
-                    var2['currentScreen'] = var5;
-                    var1 = _closure2_slot2;
-                    var2['youBarEnabled'] = var1;
+                    var1 = _closure2_slot0;
+                    var2['currentScreen'] = var1;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;
@@ -826,10 +789,8 @@ case 23:
                     var4 = _closure1_slot10;
                     var3 = _closure1_slot14;
                     var2 = {};
-                    var5 = _closure2_slot0;
-                    var2['currentScreen'] = var5;
-                    var1 = _closure2_slot2;
-                    var2['youBarEnabled'] = var1;
+                    var1 = _closure2_slot0;
+                    var2['currentScreen'] = var1;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;

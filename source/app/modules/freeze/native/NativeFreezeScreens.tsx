@@ -198,10 +198,10 @@ case 27:
                     return var1;
 case 23:
                     var7 = 0;
-                    if(!var12) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
-                    var7 = 2;
+                    if(!var12) { _fun0002_ip = 8; continue _fun0002 }
 case 28:
+                    var7 = 2;
+case 8:
                     var4 = _closure1_slot6;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -217,10 +217,10 @@ case 28:
                     var8[0] = var9;
                     var9 = {};
                     var10 = -1;
-                    if(!var12) { _fun0002_ip = 30; continue _fun0002 }
-case 13:
+                    if(!var12) { _fun0002_ip = 13; continue _fun0002 }
+case 29:
                     var10 = 0;
-case 30:
+case 13:
                     var9['zIndex'] = var10;
                     var8[1] = var9;
                     var1['style'] = var8;

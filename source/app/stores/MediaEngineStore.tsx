@@ -3184,7 +3184,7 @@ case 325:
                     var3 = ' consecutive unhealthy attempts); skipping auto-restart. A settings flip / game change / app restart will retry.';
                     var3 = var8.bind(var7)(var9, var3);
                     var3 = var5.bind(var6)(var3);
-                    _fun0025_ip = 18; continue _fun0025;
+                    _fun0025_ip = 49; continue _fun0025;
 case 324:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot3;
@@ -3195,7 +3195,7 @@ case 324:
                     var5 = 'CLIPS_RESTART';
                     var2['type'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 18:
+case 49:
                     return var1;
                 }
             };
@@ -12239,6 +12239,13 @@ case 545:
         }
     };
     var7['CLIPS_INIT'] = var8;
+    var8 = function handleClipsRestart() {
+        var1 = null;
+        _closure1_slot80 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var7['CLIPS_RESTART'] = var8;
     var8 = function handleClipsSettingsUpdate(arg1) {
         _fun0151: for(var _fun0151_ip = 0; ; ) switch(_fun0151_ip) {
 case 0:

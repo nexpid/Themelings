@@ -157,9 +157,8 @@ case 0:
             var2 = var6.bind(var7)(var2);
             var2 = _closure1_slot13;
             var15 = var2.bind(var4)();
-            var6 = _closure1_slot9;
-            var2 = 'PremiumMarketingPage';
-            var8 = var6.bind(var4)(var2);
+            var2 = _closure1_slot9;
+            var8 = var2.bind(var4)();
             var2 = 13;
             var2 = var3[var2];
             var6 = var14.bind(var4)(var2);

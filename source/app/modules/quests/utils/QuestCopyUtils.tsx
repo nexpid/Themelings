@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var8;
     var5 = var5.TaskFilterTypes;
     var _closure1_slot4 = var5;
-    var5 = 4;
+    var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -553,53 +553,103 @@ case 47:
     };
     var3['getCtaLink'] = var4;
     var4 = function copyShareLink(arg1, arg2) {
-        var5 = arg1;
-        var9 = arg2;
-        var4 = _closure1_slot0;
-        var6 = _closure1_slot1;
-        var1 = 2;
-        var3 = var6[var1];
-        var1 = undefined;
-        var8 = var4.bind(var1)(var3);
-        var7 = var8.trackQuestContentClicked;
-        var3 = {};
-        var3['questId'] = var5;
-        var10 = var9.content;
-        var3['questContent'] = var10;
-        var10 = var9.ctaContent;
-        var3['questContentCTA'] = var10;
-        var10 = var9.position;
-        var3['questContentPosition'] = var10;
-        var10 = var9.impressionId;
-        var3['impressionId'] = var10;
-        var9 = var9.sourceQuestContent;
-        var3['sourceQuestContent'] = var9;
-        var3 = var7.bind(var8)(var3);
-        var3 = 3;
-        var3 = var6[var3];
-        var4 = var4.bind(var1)(var3);
-        var3 = var4.copy;
-        var2 = _closure1_slot5;
-        var2 = var2.bind(var1)(var5);
-        var2 = var3.bind(var4)(var2);
-        return var1;
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var5 = arg1;
+            var7 = arg2;
+            var8 = var7.ctaContent;
+            var4 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 2;
+            var6 = var10[var3];
+            var1 = undefined;
+            var9 = var4.bind(var1)(var6);
+            var6 = var9.shouldMigrateToAdAnalyticsInterface;
+            var3 = var10[var3];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.AdAnalyticsInterfaceExperimentStep;
+            var4 = var3.STEP_2_CLICKED_INTERNAL;
+            var3 = 'copy_share_link';
+            var3 = var6.bind(var9)(var4, var3);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            if(var3) { _fun0006_ip = 50; continue _fun0006 }
+case 47:
+            var3 = 6;
+            var3 = var11[var3];
+            var6 = var10.bind(var1)(var3);
+            var4 = var6.trackQuestContentClicked;
+            var3 = {};
+            var3['questId'] = var5;
+            var9 = var7.content;
+            var3['questContent'] = var9;
+            var3['questContentCTA'] = var8;
+            var9 = var7.position;
+            var3['questContentPosition'] = var9;
+            var9 = var7.impressionId;
+            var3['impressionId'] = var9;
+            var9 = var7.sourceQuestContent;
+            var3['sourceQuestContent'] = var9;
+            var3 = var4.bind(var6)(var3);
+            _fun0006_ip = 51; continue _fun0006;
+case 50:
+            var3 = 3;
+            var3 = var11[var3];
+            var6 = var10.bind(var1)(var3);
+            var4 = var6.captureAdUserAction;
+            var3 = {};
+            var9 = 4;
+            var9 = var11[var9];
+            var9 = var10.bind(var1)(var9);
+            var9 = var9.AdUserActionType;
+            var9 = var9.CLICK_INTERNAL;
+            var3['type'] = var9;
+            var9 = 5;
+            var9 = var11[var9];
+            var9 = var10.bind(var1)(var9);
+            var9 = var9.AdCreativeType;
+            var9 = var9.QUEST;
+            var3['adCreativeType'] = var9;
+            var3['adCreativeId'] = var5;
+            var3['questContentCTA'] = var8;
+            var8 = var7.content;
+            var3['surfaceId'] = var8;
+            var8 = var7.sourceQuestContent;
+            var3['sourceQuestContent'] = var8;
+            var8 = var7.position;
+            var3['questContentPosition'] = var8;
+            var7 = var7.impressionId;
+            var3['impressionId'] = var7;
+            var3 = var4.bind(var6)(var3);
+case 51:
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 7;
+            var3 = var6[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.copy;
+            var2 = _closure1_slot5;
+            var2 = var2.bind(var1)(var5);
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        }
     };
     var3['copyShareLink'] = var4;
     var2 = function getDefaultReward(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var2 = arg1;
             var1 = var2.rewardsConfig;
             var1 = var1.rewards;
             var1 = var1.length;
             var3 = 0;
-            if(!(var3 !== var1)) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
+            if(!(var3 !== var1)) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
             var1 = var2.rewardsConfig;
             var1 = var1.rewards;
             var1 = var1[var3];
             return var1;
-case 50:
+case 52:
             var1 = global;
             var3 = var1.Error;
             var5 = var2.id;

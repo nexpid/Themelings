@@ -70,12 +70,9 @@ case 5:
     var5 = 3;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var5 = var5.GuildFeatures;
-    var _closure1_slot6 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.SPOILER_ATTACHMENT_PREFIX;
+    var8 = var5.GuildFeatures;
+    var _closure1_slot6 = var8;
+    var5 = var5.MessageAttachmentFlags;
     var _closure1_slot7 = var5;
     var5 = 12;
     var5 = var7[var5];
@@ -104,7 +101,7 @@ case 6:
 case 8:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var2 = var6[var2];
             var6 = var4.bind(var13)(var2);
             var4 = var6.getThumbnailImage;
@@ -117,7 +114,7 @@ case 10:
 case 9:
             var8 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var21 = 6;
+            var21 = 5;
             var4 = var2[var21];
             var4 = var8.bind(var13)(var4);
             var6 = var4.intl;
@@ -140,7 +137,7 @@ case 13:
 case 15:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 7;
+            var2 = 6;
             var2 = var6[var2];
             var8 = var4.bind(var13)(var2);
             var6 = var8.getName;
@@ -172,7 +169,7 @@ case 20:
 case 23:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 8;
+            var2 = 7;
             var2 = var5[var2];
             var5 = var4.bind(var13)(var2);
             var4 = var5.getGuildIconURL;
@@ -210,48 +207,44 @@ case 24:
 case 31:
             var6 = !var7;
 case 30:
+            var5 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var2 = 8;
+            var2 = var18[var2];
+            var19 = var5.bind(var13)(var2);
+            var18 = var19.hasFlag;
             var5 = var3.thumbnail;
-            var18 = var1 == var5;
+            var20 = var1 == var5;
             var2 = undefined;
-            if(var18) { _fun0002_ip = 32; continue _fun0002 }
+            if(var20) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
-            var2 = var5.filename;
+            var2 = var5.flags;
 case 32:
-            var5 = var1 != var2;
-            if(!var5) { _fun0002_ip = 34; continue _fun0002 }
+            var20 = var1 != var2;
+            var5 = 0;
+            if(!var20) { _fun0002_ip = 34; continue _fun0002 }
 case 35:
-            var18 = var3.thumbnail;
-            var19 = var1 == var18;
-            var2 = undefined;
-            if(var19) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
-            var20 = var18.filename;
-            var18 = var1 == var20;
-            var2 = undefined;
-            if(var18) { _fun0002_ip = 36; continue _fun0002 }
-case 38:
-            var19 = var20.startsWith;
-            var18 = _closure1_slot7;
-            var2 = var19.bind(var20)(var18);
-case 36:
             var5 = var2;
 case 34:
+            var2 = _closure1_slot7;
+            var2 = var2.IS_SPOILER;
+            var5 = var18.bind(var19)(var5, var2);
             var2 = {};
             var19 = var3.title;
             var20 = var1 != var19;
             var18 = '';
-            if(!var20) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
+            if(!var20) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var18 = var19;
-case 39:
+case 36:
             var2['title'] = var18;
             var18 = var3.description;
             var2['subtitle'] = var18;
             var2['ctaText'] = var17;
             var2['coverImage'] = var16;
             var16 = undefined;
-            if(!var7) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
+            if(!var7) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
             var18 = var17[var21];
@@ -263,7 +256,7 @@ case 42:
             var17 = var17.t;
             var17 = var17.Yonlia;
             var16 = var18.bind(var19)(var17);
-case 41:
+case 38:
             var2['coverImageOverlayText'] = var16;
             var16 = var3.parent_channel_id;
             var2['parentChannelId'] = var16;
@@ -277,27 +270,27 @@ case 41:
             var2['guildId'] = var11;
             var15 = var1 == var12;
             var11 = undefined;
-            if(var15) { _fun0002_ip = 43; continue _fun0002 }
-case 44:
+            if(var15) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
             var11 = var12.name;
+case 40:
+            if(!(var1 == var11)) { _fun0002_ip = 42; continue _fun0002 }
 case 43:
-            if(!(var1 == var11)) { _fun0002_ip = 45; continue _fun0002 }
-case 46:
             var11 = var3.guild_name;
-case 45:
+case 42:
             var2['guildName'] = var11;
             var12 = var1 == var3;
             var11 = undefined;
-            if(var12) { _fun0002_ip = 47; continue _fun0002 }
-case 48:
+            if(var12) { _fun0002_ip = 44; continue _fun0002 }
+case 45:
             var11 = var3.author_id;
-case 47:
+case 44:
             var2['authorId'] = var11;
             var2['authorName'] = var9;
             var11 = var1 != var14;
             var9 = undefined;
-            if(!var11) { _fun0002_ip = 49; continue _fun0002 }
-case 50:
+            if(!var11) { _fun0002_ip = 46; continue _fun0002 }
+case 47:
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
             var11 = 9;
@@ -307,7 +300,7 @@ case 50:
             var11 = _closure1_slot5;
             var10 = _closure1_slot4;
             var9 = var12.bind(var13)(var14, var11, var10);
-case 49:
+case 46:
             var2['channelName'] = var9;
             var2['avatarUrl'] = var8;
             var2['shouldShowBlurredThumbnailImage'] = var7;
@@ -332,16 +325,16 @@ case 0:
             var1 = arg1;
             var3 = var3.bind(var2)(var1);
             var4 = null;
-            if(!(var4 != var3)) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
+            if(!(var4 != var3)) { _fun0003_ip = 48; continue _fun0003 }
+case 49:
             var1 = var3.threadId;
-            if(!(var4 == var1)) { _fun0003_ip = 53; continue _fun0003 }
-case 54:
+            if(!(var4 == var1)) { _fun0003_ip = 50; continue _fun0003 }
+case 51:
             var1 = var3.channelId;
-case 53:
+case 50:
             var3 = var3.messageId;
             if(!(var1 !== var3)) { _fun0003_ip = 4; continue _fun0003 }
-case 51:
+case 48:
             return var2;
 case 4:
             return var1;
@@ -358,33 +351,33 @@ case 0:
             var2 = arg1;
             var4 = var4.bind(var5)(var2);
             var2 = null;
-            if(!(var2 != var4)) { _fun0004_ip = 55; continue _fun0004 }
-case 56:
-            if(!(var2 != var3)) { _fun0004_ip = 55; continue _fun0004 }
-case 57:
+            if(!(var2 != var4)) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
+            if(!(var2 != var3)) { _fun0004_ip = 52; continue _fun0004 }
+case 54:
             var6 = var4.features;
             var5 = var6.has;
             var2 = _closure1_slot6;
             var2 = var2.CREATOR_MONETIZABLE;
             var2 = var5.bind(var6)(var2);
-            if(var2) { _fun0004_ip = 58; continue _fun0004 }
-case 59:
+            if(var2) { _fun0004_ip = 55; continue _fun0004 }
+case 56:
             var5 = var4.features;
             var4 = var5.has;
             var1 = _closure1_slot6;
             var1 = var1.CREATOR_MONETIZABLE_PROVISIONAL;
             var2 = var4.bind(var5)(var1);
-case 58:
+case 55:
             var1 = var3.isMediaChannel;
             var3 = var1.bind(var3)();
             var1 = true;
             var1 = var1 === var3;
-            if(!var1) { _fun0004_ip = 60; continue _fun0004 }
-case 61:
+            if(!var1) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
             var1 = var2;
-case 60:
+case 57:
             return var1;
-case 55:
+case 52:
             var1 = false;
             return var1;
         }

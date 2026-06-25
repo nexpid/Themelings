@@ -14,8 +14,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['MANUAL'] = var1;
     var1 = 'distributed';
     var9['DISTRIBUTED'] = var1;
-    var1 = 'yelling';
-    var9['YELLING'] = var1;
+    var1 = 'shouting';
+    var9['SHOUTING'] = var1;
     var1 = 'laughter';
     var9['LAUGHTER'] = var1;
     var1 = 'game_event';
@@ -42,6 +42,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['MODULE_NOT_LOADED'] = var1;
     var1 = 'buffer_warming_up';
     var7['BUFFER_WARMING_UP'] = var1;
+    var1 = 'bridge_shutdown';
+    var7['BRIDGE_SHUTDOWN'] = var1;
     var6 = {};
     var1 = 'anger';
     var6['ANGER'] = var1;

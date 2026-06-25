@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 3000;
     var3['EXPECTED_ORB_LOTTIE_ANIMATION_DURATION_MS'] = var5;
     var3['ORB_LOTTIE_COUNTER_ANIMATION_FACTORS'] = var4;
-    var2 = function(arg1, arg2) {
+    var2 = function getDesiredAnimationConfigs(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg2;

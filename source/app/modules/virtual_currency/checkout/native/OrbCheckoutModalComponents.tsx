@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/virtual_currency/checkout/native/OrbCheckoutModalComponents.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function(arg1) {
+    var4 = function OrbCheckoutErrorCard(arg1) {
         var1 = arg1;
         var11 = var1.error;
         var1 = _closure1_slot8;
@@ -151,7 +151,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['OrbCheckoutErrorCard'] = var4;
-    var4 = function(arg1) {
+    var4 = function OrbCheckoutOrderSummary(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -228,7 +228,7 @@ case 4:
         }
     };
     var3['OrbCheckoutOrderSummary'] = var4;
-    var4 = function(arg1) {
+    var4 = function OrbCheckoutPaymentSourceDetails(arg1) {
         var1 = arg1;
         var11 = var1.orbBalance;
         var1 = _closure1_slot8;
@@ -303,7 +303,7 @@ case 4:
         return var1;
     };
     var3['OrbCheckoutPaymentSourceDetails'] = var4;
-    var4 = function() {
+    var4 = function OrbCheckoutLegalFinePrint() {
         var2 = _closure1_slot8;
         var4 = undefined;
         var6 = var2.bind(var4)();
@@ -346,7 +346,7 @@ case 4:
         return var1;
     };
     var3['OrbCheckoutLegalFinePrint'] = var4;
-    var2 = function(arg1) {
+    var2 = function OrbCheckoutPurchaseButton(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;

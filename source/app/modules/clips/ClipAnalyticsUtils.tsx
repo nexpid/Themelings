@@ -230,7 +230,7 @@ case 44:
             var3 = var3[var5];
             var3 = var6.bind(var4)(var3);
             var3 = var3.ClipSignalTypes;
-            var3 = var3.YELLING;
+            var3 = var3.SHOUTING;
             if(!(var3 !== var2)) { _fun0004_ip = 43; continue _fun0004 }
 case 45:
             var3 = _closure1_slot0;
@@ -386,7 +386,7 @@ case 54:
             var14 = var14[var4];
             var14 = var16.bind(var12)(var14);
             var14 = var14.ClipSignalTypes;
-            var14 = var14.YELLING;
+            var14 = var14.SHOUTING;
             if(!(var14 !== var15)) { _fun0006_ip = 55; continue _fun0006 }
 case 56:
             var16 = _closure1_slot0;

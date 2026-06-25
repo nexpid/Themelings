@@ -81,49 +81,55 @@ case 4:
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var2 = arg1;
-                var6 = this;
+                var7 = this;
                 var1 = var2.message;
-                var3 = var2.extraSentryInformation;
-                var5 = undefined;
-                if(!(var3 === var5)) { _fun0002_ip = 6; continue _fun0002 }
+                var4 = var2.extraSentryInformation;
+                var6 = undefined;
+                if(!(var4 === var6)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                var3 = null;
+                var4 = null;
 case 6:
-                var2 = var2.errorHandlingBehavior;
-                if(!(var2 === var5)) { _fun0002_ip = 8; continue _fun0002 }
+                var3 = var2.errorHandlingBehavior;
+                if(!(var3 === var6)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                var2 = 'close-and-alert';
+                var3 = 'close-and-alert';
 case 8:
-                var8 = _closure1_slot1;
-                var4 = _closure2_slot0;
-                var8 = var8.bind(var5)(var6, var4);
-                var11 = new Array(1);
-                var11[0] = var1;
-                var1 = _closure1_slot3;
-                var10 = var1.bind(var5)(var4);
-                var4 = _closure1_slot2;
-                var1 = _closure1_slot5;
-                var1 = var1.bind(var5)();
-                if(var1) { _fun0002_ip = 10; continue _fun0002 }
+                var2 = var2.skipReportingToSentry;
+                if(!(var2 === var6)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-                var1 = var10.apply;
-                var1 = var1.bind(var10)(var6, var11);
-                _fun0002_ip = 12; continue _fun0002;
+                var2 = false;
 case 10:
-                var8 = global;
-                var9 = var8.Reflect;
-                var8 = var9.construct;
-                var7 = _closure1_slot3;
-                var7 = var7.bind(var5)(var6);
-                var7 = var7.constructor;
-                var1 = var8.bind(var9)(var10, var11, var7);
+                var9 = _closure1_slot1;
+                var5 = _closure2_slot0;
+                var9 = var9.bind(var6)(var7, var5);
+                var12 = new Array(1);
+                var12[0] = var1;
+                var1 = _closure1_slot3;
+                var11 = var1.bind(var6)(var5);
+                var5 = _closure1_slot2;
+                var1 = _closure1_slot5;
+                var1 = var1.bind(var6)();
+                if(var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+                var1 = var11.apply;
+                var1 = var1.bind(var11)(var7, var12);
+                _fun0002_ip = 14; continue _fun0002;
 case 12:
-                var1 = var4.bind(var5)(var6, var1);
-                var4 = new.target;
-                var4 = var4.name;
-                var1['name'] = var4;
-                var1['extraSentryInformation'] = var3;
-                var1['errorHandlingBehavior'] = var2;
+                var9 = global;
+                var10 = var9.Reflect;
+                var9 = var10.construct;
+                var8 = _closure1_slot3;
+                var8 = var8.bind(var6)(var7);
+                var8 = var8.constructor;
+                var1 = var9.bind(var10)(var11, var12, var8);
+case 14:
+                var1 = var5.bind(var6)(var7, var1);
+                var5 = new.target;
+                var5 = var5.name;
+                var1['name'] = var5;
+                var1['extraSentryInformation'] = var4;
+                var1['errorHandlingBehavior'] = var3;
+                var1['skipReportingToSentry'] = var2;
                 return var1;
             }
         };
