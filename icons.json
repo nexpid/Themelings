@@ -5796,26 +5796,6 @@
         "width": 12,
         "height": 12
     },
-    "ic_sparkle_basic_gradient": {
-        "file": "app/images/native/icons/premium/ic_sparkle_basic_gradient.png",
-        "hash": "5012bc34fc3e61ff298e3864fc043771",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 10,
-        "height": 10
-    },
-    "ic_sparkle_nitro_gradient": {
-        "file": "app/images/native/icons/premium/ic_sparkle_nitro_gradient.png",
-        "hash": "b99bd2dca6075916018d5d621d5b5105",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 10,
-        "height": 10
-    },
     "ic_spotify_white_16px": {
         "file": "app/images/native/ic_spotify_white_16px.png",
         "hash": "2b87933d8084823c9896755fb55aa5f1",
@@ -5871,16 +5851,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_star_basic_gradient": {
-        "file": "app/images/native/icons/premium/ic_star_basic_gradient.png",
-        "hash": "55246d4ea25bd886025abf1d5da98147",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 10,
-        "height": 10
-    },
     "ic_star_filled": {
         "file": "app/images/native/icons/ic_star_filled.png",
         "hash": "72525f866a43ec6d6f9f30f81847a5d3",
@@ -5890,16 +5860,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_star_nitro_gradient": {
-        "file": "app/images/native/icons/premium/ic_star_nitro_gradient.png",
-        "hash": "0380f731a3ae45401be21d62fde9cfee",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 10,
-        "height": 10
     },
     "ic_sticker_24px": {
         "file": "app/images/native/icons/ic_sticker_24px.png",
