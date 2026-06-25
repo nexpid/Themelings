@@ -256,8 +256,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GO_LIVE_NOTIFICATIONS'] = var1;
     var1 = 'reaction_notifications';
     var2['REACTION_NOTIFICATIONS'] = var1;
-    var1 = 'gdm_all_reaction_notifications';
-    var2['GDM_ALL_REACTION_NOTIFICATIONS'] = var1;
     var1 = 'friend_online_notifications';
     var2['FRIEND_ONLINE_NOTIFICATIONS'] = var1;
     var1 = 'profile_updates_notifications';

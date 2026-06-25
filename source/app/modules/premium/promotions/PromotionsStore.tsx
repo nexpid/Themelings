@@ -1107,17 +1107,36 @@ case 50:
     };
     var2['LOGOUT'] = var9;
     var4 = function handlePremiumMarketingPreview(arg1) {
-        var1 = arg1;
-        var4 = var1.data;
-        var3 = _closure1_slot9;
-        var2 = var3.createFromServer;
-        var4 = var2.bind(var3)(var4);
-        var3 = _closure1_slot19;
-        var2 = var3.set;
-        var1 = var4.componentType;
-        var1 = var2.bind(var3)(var1, var4);
-        var1 = undefined;
-        return var1;
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+            var1 = arg1;
+            var1 = var1.data;
+            var4 = _closure1_slot9;
+            var3 = var4.createFromServer;
+            var6 = var3.bind(var4)(var1);
+            var5 = _closure1_slot19;
+            var4 = var5.set;
+            var3 = var6.componentType;
+            var3 = var4.bind(var5)(var3, var6);
+            var4 = var1.promotion;
+            var3 = null;
+            if(!(var3 != var4)) { _fun0018_ip = 52; continue _fun0018 }
+case 53:
+            var5 = _closure1_slot8;
+            var4 = var5.createFromServer;
+            var3 = var1.promotion;
+            var3 = var4.bind(var5)(var3);
+            var4 = _closure1_slot17;
+            var2 = var1.promotion;
+            var2 = var2.promotion_type;
+            var2 = var4[var2];
+            var1 = var1.promotion;
+            var1 = var1.id;
+            var2[var1] = var3;
+case 52:
+            var1 = undefined;
+            return var1;
+        }
     };
     var2['PREMIUM_MARKETING_PREVIEW'] = var4;
     var4 = var8.prototype;

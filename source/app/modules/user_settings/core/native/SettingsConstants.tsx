@@ -274,10 +274,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FRIEND_ONLINE_NOTIFICATIONS'] = var1;
     var1 = 'REACTION_NOTIFICATIONS';
     var2['REACTION_NOTIFICATIONS'] = var1;
-    var1 = 'REACTION_NOTIFICATIONS_AUTHOR';
-    var2['REACTION_NOTIFICATIONS_AUTHOR'] = var1;
-    var1 = 'GDM_ALL_REACTION_NOTIFICATIONS';
-    var2['GDM_ALL_REACTION_NOTIFICATIONS'] = var1;
     var1 = 'ANDROID_MESSAGE_NOTIFICATIONS';
     var2['ANDROID_MESSAGE_NOTIFICATIONS'] = var1;
     var1 = 'ANDROID_NOTIFICATION_LIGHTS';

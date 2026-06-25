@@ -830,7 +830,7 @@ case 55:
                     var1 = _closure2_slot17;
                     var3 = var1.length;
                     var1 = 0;
-                    if(!(!(var3 > var1))) { _fun0005_ip = 17; continue _fun0005 }
+                    if(!(!(var3 > var1))) { _fun0005_ip = 56; continue _fun0005 }
 case 54:
                     var5 = _closure1_slot8;
                     var3 = _closure1_slot1;
@@ -888,11 +888,16 @@ case 54:
                         return var1;
                     };
                     var1['onPress'] = var9;
+                    var10 = _closure2_slot10;
+                    var9 = undefined;
+                    if(var10) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
                     var9 = _closure2_slot12;
+case 57:
                     var1['style'] = var9;
                     var1 = var5.bind(var4)(var3, var1, var6);
-                    _fun0005_ip = 56; continue _fun0005;
-case 17:
+                    _fun0005_ip = 59; continue _fun0005;
+case 56:
                     var5 = _closure1_slot8;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -909,82 +914,90 @@ case 17:
                     var8 = _closure2_slot19;
                     var2['onClose'] = var8;
                     var7 = function children(arg1) {
-                        var1 = arg1;
-                        var13 = var1.ref;
-                        var10 = var1.accessibilityActions;
-                        var9 = var1.onAccessibilityAction;
-                        var4 = _closure1_slot8;
-                        var2 = _closure1_slot1;
-                        var8 = _closure1_slot2;
-                        var1 = 25;
-                        var1 = var8[var1];
-                        var3 = undefined;
-                        var2 = var2.bind(var3)(var1);
-                        var1 = {};
-                        var7 = _closure1_slot0;
-                        var5 = 26;
-                        var5 = var8[var5];
-                        var12 = var7.bind(var3)(var5);
-                        var11 = var12.mergeRefs;
-                        var6 = _closure2_slot16;
-                        var6 = var11.bind(var12)(var13, var6);
-                        var1['ref'] = var6;
-                        var6 = 15;
-                        var11 = var8[var6];
-                        var11 = var7.bind(var3)(var11);
-                        var13 = var11.intl;
-                        var12 = var13.string;
-                        var11 = var8[var6];
-                        var11 = var7.bind(var3)(var11);
-                        var11 = var11.t;
-                        var11 = var11.aDZSuz;
-                        var11 = var12.bind(var13)(var11);
-                        var1['accessibilityLabel'] = var11;
-                        var11 = var8[var6];
-                        var11 = var7.bind(var3)(var11);
-                        var12 = var11.intl;
-                        var11 = var12.string;
-                        var6 = var8[var6];
-                        var6 = var7.bind(var3)(var6);
-                        var6 = var6.t;
-                        var6 = var6.o7j1jA;
-                        var6 = var11.bind(var12)(var6);
-                        var1['accessibilityHint'] = var6;
-                        var11 = {};
-                        var6 = _closure3_slot0;
-                        var11['expanded'] = var6;
-                        var1['accessibilityState'] = var11;
-                        var1['accessibilityActions'] = var10;
-                        var1['onAccessibilityAction'] = var9;
-                        var1['active'] = var6;
-                        var6 = _closure2_slot11;
-                        var6 = var6.activeBrand;
-                        var1['activeIconStyle'] = var6;
-                        var6 = _closure2_slot4;
-                        var1['disabled'] = var6;
-                        var6 = 27;
-                        var6 = var8[var6];
-                        var6 = var7.bind(var3)(var6);
-                        var6 = var6.MediaKeyboardButtonIcon;
-                        var1['IconComponent'] = var6;
-                        var6 = function onPress(arg1) {
-                            var4 = _closure2_slot3;
-                            var1 = _closure1_slot5;
-                            var3 = var1.PHOTOS;
-                            var2 = undefined;
+                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
                             var1 = arg1;
-                            var1 = var4.bind(var2)(var1, var3);
+                            var13 = var1.ref;
+                            var10 = var1.accessibilityActions;
+                            var9 = var1.onAccessibilityAction;
+                            var4 = _closure1_slot8;
+                            var2 = _closure1_slot1;
+                            var8 = _closure1_slot2;
+                            var1 = 25;
+                            var1 = var8[var1];
+                            var3 = undefined;
+                            var2 = var2.bind(var3)(var1);
+                            var1 = {};
+                            var7 = _closure1_slot0;
+                            var5 = 26;
+                            var5 = var8[var5];
+                            var12 = var7.bind(var3)(var5);
+                            var11 = var12.mergeRefs;
+                            var5 = _closure2_slot16;
+                            var5 = var11.bind(var12)(var13, var5);
+                            var1['ref'] = var5;
+                            var5 = 15;
+                            var11 = var8[var5];
+                            var11 = var7.bind(var3)(var11);
+                            var13 = var11.intl;
+                            var12 = var13.string;
+                            var11 = var8[var5];
+                            var11 = var7.bind(var3)(var11);
+                            var11 = var11.t;
+                            var11 = var11.aDZSuz;
+                            var11 = var12.bind(var13)(var11);
+                            var1['accessibilityLabel'] = var11;
+                            var11 = var8[var5];
+                            var11 = var7.bind(var3)(var11);
+                            var12 = var11.intl;
+                            var11 = var12.string;
+                            var5 = var8[var5];
+                            var5 = var7.bind(var3)(var5);
+                            var5 = var5.t;
+                            var5 = var5.o7j1jA;
+                            var5 = var11.bind(var12)(var5);
+                            var1['accessibilityHint'] = var5;
+                            var11 = {};
+                            var5 = _closure3_slot0;
+                            var11['expanded'] = var5;
+                            var1['accessibilityState'] = var11;
+                            var1['accessibilityActions'] = var10;
+                            var1['onAccessibilityAction'] = var9;
+                            var1['active'] = var5;
+                            var5 = _closure2_slot11;
+                            var5 = var5.activeBrand;
+                            var1['activeIconStyle'] = var5;
+                            var5 = _closure2_slot4;
+                            var1['disabled'] = var5;
+                            var5 = 27;
+                            var5 = var8[var5];
+                            var5 = var7.bind(var3)(var5);
+                            var5 = var5.MediaKeyboardButtonIcon;
+                            var1['IconComponent'] = var5;
+                            var5 = function onPress(arg1) {
+                                var4 = _closure2_slot3;
+                                var1 = _closure1_slot5;
+                                var3 = var1.PHOTOS;
+                                var2 = undefined;
+                                var1 = arg1;
+                                var1 = var4.bind(var2)(var1, var3);
+                                return var1;
+                            };
+                            var1['onPress'] = var5;
+                            var7 = _closure2_slot10;
+                            var5 = undefined;
+                            if(var7) { _fun0006_ip = 60; continue _fun0006 }
+case 61:
+                            var5 = _closure2_slot12;
+case 60:
+                            var1['style'] = var5;
+                            var1 = var4.bind(var3)(var2, var1);
                             return var1;
-                        };
-                        var1['onPress'] = var6;
-                        var5 = _closure2_slot12;
-                        var1['style'] = var5;
-                        var1 = var4.bind(var3)(var2, var1);
-                        return var1;
+                        }
                     };
                     var2['children'] = var7;
                     var1 = var5.bind(var4)(var3, var2, var6);
-case 56:
+case 59:
                     return var1;
                 }
             };

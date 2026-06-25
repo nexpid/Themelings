@@ -1489,16 +1489,16 @@ case 80:
 case 79:
             var2 = var1.length;
             var3 = 360;
-            if(!(var2 < var11)) { _fun0009_ip = 23; continue _fun0009 }
-case 81:
+            if(!(var2 < var11)) { _fun0009_ip = 81; continue _fun0009 }
+case 82:
             var2 = var11 + var7;
             var2 = var3 / var2;
             var2 = var6 - var2;
             var12 = var2;
-            if(!(var12 < var8)) { _fun0009_ip = 82; continue _fun0009 }
-case 83:
+            if(!(var12 < var8)) { _fun0009_ip = 83; continue _fun0009 }
+case 84:
             var12 = var2 + var3;
-case 82:
+case 83:
             var2 = _closure1_slot13;
             var2 = var2.bind(var10)(var12, var5, var4);
             var16 = var2.r;
@@ -1512,8 +1512,8 @@ case 82:
             var2 = var13.bind(var1)(var2);
             var2 = var1.length;
             var6 = var12;
-            if(var2 < var11) { _fun0009_ip = 81; continue _fun0009 }
-case 23:
+            if(var2 < var11) { _fun0009_ip = 82; continue _fun0009 }
+case 81:
             return var1;
         }
     };
@@ -1526,36 +1526,36 @@ case 0:
             var7 = arg2;
             var3 = arguments[2];
             var5 = undefined;
-            if(!(var3 === var5)) { _fun0010_ip = 84; continue _fun0010 }
+            if(!(var3 === var5)) { _fun0010_ip = 85; continue _fun0010 }
 case 73:
             var3 = false;
-case 84:
+case 85:
             var8 = _closure1_slot14;
             var6 = var1.red;
             var4 = var1.green;
             var1 = var1.blue;
             var1 = var8.bind(var5)(var6, var4, var1);
             var4 = var1.lightness;
-            if(var3) { _fun0010_ip = 85; continue _fun0010 }
+            if(var3) { _fun0010_ip = 86; continue _fun0010 }
 case 57:
             var8 = var4 - var7;
             var3 = 0.1;
             var6 = 0;
-            if(!(!(var8 < var6))) { _fun0010_ip = 86; continue _fun0010 }
+            if(!(!(var8 < var6))) { _fun0010_ip = 87; continue _fun0010 }
 case 76:
             var6 = var1.lightness;
             var3 = var6 - var7;
-case 86:
+case 87:
             _fun0010_ip = 32; continue _fun0010;
-case 85:
+case 86:
             var8 = var4 + var7;
             var4 = 0.9;
             var6 = 1;
-            if(!(!(var8 > var6))) { _fun0010_ip = 87; continue _fun0010 }
-case 88:
+            if(!(!(var8 > var6))) { _fun0010_ip = 88; continue _fun0010 }
+case 89:
             var6 = var1.lightness;
             var4 = var6 + var7;
-case 87:
+case 88:
             var3 = var4;
 case 32:
             var1['lightness'] = var3;
@@ -1576,20 +1576,20 @@ case 0:
             var8 = var1.background;
             var14 = var1.ratio;
             var13 = undefined;
-            if(!(var14 === var13)) { _fun0011_ip = 89; continue _fun0011 }
-case 90:
-            var14 = 5;
-case 89:
-            var9 = var1.saturationFactor;
-            if(!(var9 === var13)) { _fun0011_ip = 91; continue _fun0011 }
-case 92:
-            var9 = 1;
+            if(!(var14 === var13)) { _fun0011_ip = 90; continue _fun0011 }
 case 91:
+            var14 = 5;
+case 90:
+            var9 = var1.saturationFactor;
+            if(!(var9 === var13)) { _fun0011_ip = 92; continue _fun0011 }
+case 93:
+            var9 = 1;
+case 92:
             var3 = 1;
             var2 = var6;
             var4 = var8;
             if(!(var9 < var3)) { _fun0011_ip = 31; continue _fun0011 }
-case 93:
+case 94:
             var5 = var6.set;
             var1 = var6.get;
             var7 = 'hsl.s';
@@ -1621,24 +1621,24 @@ case 31:
             var4 = var2;
             var10 = 0;
             var2 = var4;
-            if(!var1) { _fun0011_ip = 94; continue _fun0011 }
-case 95:
+            if(!var1) { _fun0011_ip = 95; continue _fun0011 }
+case 96:
             var1 = var4.get;
             var1 = var1.bind(var4)(var7);
             var17 = var4;
-            if(var12) { _fun0011_ip = 96; continue _fun0011 }
-case 97:
-            var2 = var17;
-            if(!(var1 > var8)) { _fun0011_ip = 94; continue _fun0011 }
+            if(var12) { _fun0011_ip = 97; continue _fun0011 }
 case 98:
+            var2 = var17;
+            if(!(var1 > var8)) { _fun0011_ip = 95; continue _fun0011 }
+case 99:
             var16 = var17.set;
             var15 = var1 - var8;
             var15 = var16.bind(var17)(var7, var15);
             _fun0011_ip = 28; continue _fun0011;
-case 96:
+case 97:
             var2 = var17;
-            if(!(var1 < var6)) { _fun0011_ip = 94; continue _fun0011 }
-case 99:
+            if(!(var1 < var6)) { _fun0011_ip = 95; continue _fun0011 }
+case 100:
             var16 = var17.set;
             var1 = var1 + var8;
             var15 = var16.bind(var17)(var7, var1);
@@ -1651,12 +1651,12 @@ case 28:
             var1 = var1.bind(var16)(var15, var5);
             var10 = var10 + 1;
             var2 = var15;
-            if(!(var10 < var9)) { _fun0011_ip = 94; continue _fun0011 }
-case 100:
+            if(!(var10 < var9)) { _fun0011_ip = 95; continue _fun0011 }
+case 101:
             var4 = var15;
             var2 = var4;
-            if(var1 < var14) { _fun0011_ip = 95; continue _fun0011 }
-case 94:
+            if(var1 < var14) { _fun0011_ip = 96; continue _fun0011 }
+case 95:
             var1 = var2.alpha;
             var1 = var1.bind(var2)(var3);
             return var1;
@@ -1680,10 +1680,10 @@ case 0:
                 var2 = undefined;
                 var2 = var3.bind(var2)(var4);
                 var3 = null;
-                if(!(var3 == var2)) { _fun0012_ip = 101; continue _fun0012 }
-case 89:
+                if(!(var3 == var2)) { _fun0012_ip = 102; continue _fun0012 }
+case 90:
                 var2 = {'h': 0, 's': 0, 'v': 0};
-case 101:
+case 102:
                 var1['hsv'] = var2;
                 return var1;
             }
@@ -1704,13 +1704,13 @@ case 0:
             var1 = var2.colorRGB;
             var8 = var2.saturationFactor;
             var3 = undefined;
-            if(!(var8 === var3)) { _fun0013_ip = 102; continue _fun0013 }
+            if(!(var8 === var3)) { _fun0013_ip = 103; continue _fun0013 }
 case 56:
             var8 = 1;
-case 102:
+case 103:
             var4 = null;
             if(!(var4 != var1)) { _fun0013_ip = 10; continue _fun0013 }
-case 103:
+case 104:
             var9 = _closure1_slot14;
             var6 = var1.get;
             var2 = 'rgb.r';
@@ -1722,7 +1722,7 @@ case 103:
             var2 = 'rgb.b';
             var2 = var10.bind(var1)(var2);
             var2 = var9.bind(var3)(var7, var6, var2);
-            if(!(var4 != var2)) { _fun0013_ip = 104; continue _fun0013 }
+            if(!(var4 != var2)) { _fun0013_ip = 105; continue _fun0013 }
 case 77:
             var7 = _closure1_slot15;
             var6 = var2.hue;
@@ -1732,22 +1732,22 @@ case 77:
             var6 = var7.bind(var3)(var6, var5, var2);
             var5 = var4 == var6;
             var2 = undefined;
-            if(var5) { _fun0013_ip = 105; continue _fun0013 }
-case 106:
+            if(var5) { _fun0013_ip = 106; continue _fun0013 }
+case 107:
             var5 = var6.toHexString;
             var2 = var5.bind(var6)();
+case 106:
+            _fun0013_ip = 108; continue _fun0013;
 case 105:
-            _fun0013_ip = 107; continue _fun0013;
-case 104:
             var4 = var4 == var1;
             var3 = undefined;
-            if(var4) { _fun0013_ip = 108; continue _fun0013 }
-case 109:
+            if(var4) { _fun0013_ip = 109; continue _fun0013 }
+case 110:
             var4 = var1.hex;
             var3 = var4.bind(var1)();
-case 108:
+case 109:
             var2 = var3;
-case 107:
+case 108:
             return var2;
 case 10:
             return var1;

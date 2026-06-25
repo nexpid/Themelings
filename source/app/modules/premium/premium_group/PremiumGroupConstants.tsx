@@ -133,6 +133,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['MIN_SUBSCRIPTION_AGE_FOR_PRIMARY_REMINDER_IN_MS'] = var8;
     var8 = 12;
     var3['PREMIUM_GROUP_COOLDOWN_MONTHS'] = var8;
+    var8 = '2026-07-premium-group-announcement-modal';
+    var3['PREMIUM_GROUP_ANNOUNCEMENT_MODAL_PROMOTION_KEY'] = var8;
     var3['HELP_CENTER_LINK'] = var7;
     var3['CANNOT_INVITE_STATUSES'] = var6;
     var6 = function getPremiumGroupProductName() {

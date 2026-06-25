@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['text'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -114,7 +114,7 @@ case 0:
             var6 = var5[var6];
             var7 = var3.bind(var4)(var6);
             var6 = var1.id;
-            var17 = var7.bind(var4)(var6);
+            var16 = var7.bind(var4)(var6);
             var8 = _closure1_slot3;
             var7 = var8.useEffect;
             var10 = var1.id;
@@ -153,21 +153,21 @@ case 2:
             var1 = var2.bind(var4)(var1);
             if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = null;
-            var3 = var1 == var17;
+            var12 = null;
+            var1 = var12 == var16;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var2 = var17.length;
+            var2 = var16.length;
 case 6:
-            var3 = var1 != var2;
-            var16 = 0;
+            var3 = var12 != var2;
+            var18 = 0;
             var1 = 0;
             if(!var3) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var1 = var2;
 case 8:
-            if(!(var16 === var1)) { _fun0001_ip = 10; continue _fun0001 }
+            if(!(var18 === var1)) { _fun0001_ip = 10; continue _fun0001 }
 case 4:
             return var4;
 case 10:
@@ -199,60 +199,60 @@ case 10:
             var8 = var9.bind(var4)(var8);
             var9 = var8["7lwpzR"];
             var8 = {};
-            var12 = '';
-            if(!(var4 !== var17)) { _fun0001_ip = 11; continue _fun0001 }
+            var13 = var12 == var16;
+            var17 = '';
+            var12 = var17;
+            if(var13) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var14 = var17.length;
-            var24 = 1;
-            if(!(var24 !== var14)) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
-            var18 = var17.length;
-            var14 = 2;
-            if(!(!(var18 > var14))) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-            var23 = var17;
-            _fun0001_ip = 17; continue _fun0001;
+            var13 = var16.length;
+            var12 = var17;
+            if(!(var18 !== var13)) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
+            var17 = _closure1_slot1;
+            var19 = _closure1_slot2;
+            var13 = 13;
+            var13 = var19[var13];
+            var13 = var17.bind(var4)(var13);
+            var17 = var13.bind(var4)(var16);
+            var13 = var17.length;
+            var23 = 1;
+            if(!(var23 !== var13)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var14 = global;
-            var18 = var14.Array;
-            var14 = var18.from;
-            var18 = var14.bind(var18)(var17);
-            var14 = var18.reverse;
-            var23 = var14.bind(var18)();
-case 17:
-            var18 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var15 = var14[var15];
-            var15 = var18.bind(var4)(var15);
+            var16 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var15 = var13[var15];
+            var15 = var16.bind(var4)(var15);
             var19 = var15.intl;
-            var18 = var19.format;
+            var16 = var19.format;
             var15 = _closure1_slot1;
-            var14 = var14[var20];
-            var14 = var15.bind(var4)(var14);
-            var15 = var14.MNO3sG;
-            var14 = {};
+            var13 = var13[var20];
+            var13 = var15.bind(var4)(var13);
+            var15 = var13.MNO3sG;
+            var13 = {};
             var21 = _closure1_slot6;
             var22 = _closure1_slot8;
             var20 = {};
-            var25 = var23[var16];
-            var20['powerup'] = var25;
+            var24 = var17[var18];
+            var20['powerup'] = var24;
             var20 = var21.bind(var4)(var22, var20);
-            var14['perk1'] = var20;
+            var13['perk1'] = var20;
             var21 = _closure1_slot6;
             var20 = {};
-            var23 = var23[var24];
+            var23 = var17[var23];
             var20['powerup'] = var23;
             var20 = var21.bind(var4)(var22, var20);
-            var14['perk2'] = var20;
-            var12 = var18.bind(var19)(var15, var14);
-            _fun0001_ip = 11; continue _fun0001;
-case 13:
-            var15 = _closure1_slot6;
-            var14 = _closure1_slot8;
-            var13 = {};
-            var16 = var17[var16];
-            var13['powerup'] = var16;
-            var12 = var15.bind(var4)(var14, var13);
+            var13['perk2'] = var20;
+            var13 = var16.bind(var19)(var15, var13);
+            _fun0001_ip = 16; continue _fun0001;
+case 14:
+            var16 = _closure1_slot6;
+            var15 = _closure1_slot8;
+            var14 = {};
+            var17 = var17[var18];
+            var14['powerup'] = var17;
+            var13 = var16.bind(var4)(var15, var14);
+case 16:
+            var12 = var13;
 case 11:
             var8['perks'] = var12;
             var8 = var10.bind(var11)(var9, var8);

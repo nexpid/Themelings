@@ -1788,5 +1788,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['FRACTIONAL_PREMIUM_SKU_INTERVAL_COUNTS'] = var2;
     var2 = '8e884ace-bee4-12e4-8dfc-aa07a5b093db';
     var3['NAMESPACE_SNOWFLAKE_UUID'] = var2;
+    var2 = 'PremiumPlanSelectionActionSheetWithOrderCTX';
+    var3['PREMIUM_PLAN_SELECTION_ACTION_SHEET_KEY'] = var2;
     return var1;
 })();

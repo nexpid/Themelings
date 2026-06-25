@@ -248,7 +248,7 @@ case 19:
     var _closure1_slot10 = var8;
     var5 = var5.MessageFlags;
     var _closure1_slot11 = var5;
-    var5 = 11;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -389,123 +389,55 @@ case 55:
         }
     };
     var3['getNotificationTitle'] = var5;
-    var5 = function getNotificationBodyText(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-            var2 = arg1;
-            var4 = var2.notificationMessageContent;
-            var1 = var2.isGdmAllReactionNotification;
-            var7 = var2.messageAuthor;
-            var8 = var2.emojiHook;
-            var2 = null;
-            var2 = var2 != var4;
-            if(!var2) { _fun0004_ip = 63; continue _fun0004 }
-case 64:
-            var3 = var4.trim;
-            var4 = var3.bind(var4)();
-            var3 = '';
-            var2 = var3 !== var4;
-case 63:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var3 = 6;
-            var5 = var10[var3];
-            var4 = undefined;
-            var5 = var9.bind(var4)(var5);
-            var6 = var5.intl;
-            var5 = var6.format;
-            var3 = var10[var3];
-            var3 = var9.bind(var4)(var3);
-            var3 = var3.t;
-            if(var1) { _fun0004_ip = 65; continue _fun0004 }
-case 66:
-            if(var2) { _fun0004_ip = 67; continue _fun0004 }
-case 47:
-            var4 = var3.ZOzpKt;
-            var1 = {};
-            var1['emojiHook'] = var8;
-            var1 = var5.bind(var6)(var4, var1);
-            _fun0004_ip = 23; continue _fun0004;
-case 67:
-            var9 = var3.sHV43G;
-            var4 = {};
-            var4['emojiHook'] = var8;
-            var1 = var5.bind(var6)(var9, var4);
-case 23:
-            _fun0004_ip = 68; continue _fun0004;
-case 65:
-            if(var2) { _fun0004_ip = 69; continue _fun0004 }
-case 70:
-            var4 = var3.FpJqb0;
-            var2 = {};
-            var2['emojiHook'] = var8;
-            var9 = var7.nick;
-            var2['username'] = var9;
-            var2 = var5.bind(var6)(var4, var2);
-            _fun0004_ip = 71; continue _fun0004;
-case 69:
-            var4 = var3.MJPwfg;
-            var3 = {};
-            var3['emojiHook'] = var8;
-            var7 = var7.nick;
-            var3['username'] = var7;
-            var2 = var5.bind(var6)(var4, var3);
-case 71:
-            var1 = var2;
-case 68:
-            return var1;
-        }
-    };
-    var3['getNotificationBodyText'] = var5;
     var5 = function isReactionMilestoneNotification(arg1, arg2) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = arg2;
             var1 = null;
-            if(!(var1 != var3)) { _fun0005_ip = 72; continue _fun0005 }
-case 73:
+            if(!(var1 != var3)) { _fun0004_ip = 63; continue _fun0004 }
+case 64:
             var2 = _closure1_slot8;
             var2 = var2.GUILD_ANNOUNCEMENT;
-            if(!(var3 !== var2)) { _fun0005_ip = 72; continue _fun0005 }
-case 74:
+            if(!(var3 !== var2)) { _fun0004_ip = 63; continue _fun0004 }
+case 65:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 7;
+            var2 = 6;
             var3 = var3[var2];
             var2 = undefined;
             var5 = var4.bind(var2)(var3);
             var4 = var5.sumBy;
             var3 = arg1;
             var2 = function(arg1) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = arg1;
                     var5 = var1.count_details;
                     var4 = null;
                     var1 = var4 == var5;
                     var6 = undefined;
-                    if(var1) { _fun0006_ip = 74; continue _fun0006 }
-case 75:
+                    if(var1) { _fun0005_ip = 65; continue _fun0005 }
+case 66:
                     var6 = var5.burst;
-case 74:
+case 65:
                     var7 = var4 != var6;
                     var1 = 0;
-                    if(!var7) { _fun0006_ip = 76; continue _fun0006 }
-case 77:
+                    if(!var7) { _fun0005_ip = 67; continue _fun0005 }
+case 68:
                     var1 = var6;
-case 76:
+case 67:
                     var6 = var4 == var5;
                     var3 = undefined;
-                    if(var6) { _fun0006_ip = 78; continue _fun0006 }
+                    if(var6) { _fun0005_ip = 69; continue _fun0005 }
 case 2:
                     var3 = var5.normal;
-case 78:
+case 69:
                     var4 = var4 != var3;
                     var2 = 0;
-                    if(!var4) { _fun0006_ip = 79; continue _fun0006 }
+                    if(!var4) { _fun0005_ip = 70; continue _fun0005 }
 case 14:
                     var2 = var3;
-case 79:
+case 70:
                     var1 = var1 + var2;
                     return var1;
                 }
@@ -515,7 +447,7 @@ case 79:
             var1 = var2.has;
             var1 = var1.bind(var2)(var3);
             return var1;
-case 72:
+case 63:
             var1 = false;
             return var1;
         }
@@ -524,7 +456,7 @@ case 72:
     var5 = function generateInAppNotificationId() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -541,23 +473,23 @@ case 72:
         var2 = new Array(1);
         var2[0] = var5;
         var1 = function() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var4 = _closure1_slot12;
                 var1 = _closure2_slot0;
                 var5 = undefined;
                 var1 = var4.bind(var5)(var1);
-                if(var1) { _fun0007_ip = 80; continue _fun0007 }
-case 81:
+                if(var1) { _fun0006_ip = 71; continue _fun0006 }
+case 72:
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 9;
+                var2 = 8;
                 var2 = var6[var2];
                 var4 = var4.bind(var5)(var2);
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var5)(var2);
-                if(!var2) { _fun0007_ip = 82; continue _fun0007 }
-case 83:
+                if(!var2) { _fun0006_ip = 73; continue _fun0006 }
+case 74:
                 var3 = _closure2_slot0;
                 var5 = var3.messageSnapshots;
                 var4 = var5.some;
@@ -570,9 +502,9 @@ case 83:
                     return var1;
                 };
                 var2 = var4.bind(var5)(var3);
-case 82:
+case 73:
                 var1 = var2;
-case 80:
+case 71:
                 return var1;
             }
         };
@@ -591,7 +523,7 @@ case 80:
         var6 = var3.messageId;
         var4 = _closure1_slot1;
         var5 = _closure1_slot2;
-        var3 = 10;
+        var3 = 9;
         var3 = var5[var3];
         var5 = var4.bind(var1)(var3);
         var4 = var5.trackWithMetadata;

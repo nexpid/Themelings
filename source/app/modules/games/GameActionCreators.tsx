@@ -44,15 +44,14 @@ case 4: // try_start_0
                     var8 = _closure1_slot5;
                     var8 = var8.GAMES;
                     var2['url'] = var8;
-                    var9 = {};
-                    var8 = var5;
-                    var9['game_ids'] = var8;
+                    var8 = {};
+                    var9 = var5;
+                    var8['game_ids'] = var9;
+                    var2['query'] = var8;
                     var8 = true;
-                    var9['with_supplemental_data'] = var8;
-                    var2['query'] = var9;
                     var2['rejectWithError'] = var8;
                     var2 = var4.bind(var7)(var2);
-                    SaveGenerator(address=101);
+                    SaveGenerator(address=94);
 case 5:
                     return var2;
 case 6:

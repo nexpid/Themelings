@@ -101,6 +101,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var11.bind(var12)(var10);
     var10 = 0.3;
     var3['DEFAULT_VIDEO_VOLUME'] = var10;
+    var10 = 240;
+    var3['DEFAULT_VIDEO_PLAYER_MIN_WIDTH'] = var10;
+    var10 = 180;
+    var3['DEFAULT_VIDEO_PLAYER_MIN_HEIGHT'] = var10;
     var3['VideoPlayerState'] = var9;
     var3['VideoBufferState'] = var8;
     var3['VideoErrorType'] = var7;

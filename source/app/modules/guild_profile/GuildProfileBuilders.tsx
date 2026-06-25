@@ -353,22 +353,22 @@ case 43:
             var7 = _closure1_slot8;
             var6 = var2.id;
             var5 = var2.traits;
-            if(!(var4 == var5)) { _fun0006_ip = 47; continue _fun0006 }
+            if(!(var4 == var5)) { _fun0006_ip = 57; continue _fun0006 }
 case 15:
             var5 = new Array(0);
-case 47:
+case 57:
             var3 = undefined;
             var3 = var7.bind(var3)(var6, var5);
             var1['traits'] = var3;
             var3 = var2.game_application_ids;
-            if(!(var4 == var3)) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
+            if(!(var4 == var3)) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
             var3 = new Array(0);
-case 57:
+case 58:
             var1['gameApplicationIds'] = var3;
             var6 = var2.game_activity;
-            if(!(var4 != var6)) { _fun0006_ip = 59; continue _fun0006 }
-case 60:
+            if(!(var4 != var6)) { _fun0006_ip = 60; continue _fun0006 }
+case 61:
             var3 = global;
             var5 = var3.Object;
             var3 = var5.entries;
@@ -387,26 +387,26 @@ case 0:
                     var5 = var3 === var8;
                     var3 = undefined;
                     if(var5) { _fun0007_ip = 3; continue _fun0007 }
-case 61:
+case 62:
                     var3 = var4;
 case 3:
                     var4 = undefined;
-                    if(var5) { _fun0007_ip = 62; continue _fun0007 }
-case 63:
+                    if(var5) { _fun0007_ip = 63; continue _fun0007 }
+case 64:
                     var7 = var6().value;
                     var6 = var2;
                     var6 = var6 === var8;
                     var4 = undefined;
                     var5 = var6;
-                    if(var6) { _fun0007_ip = 62; continue _fun0007 }
-case 64:
+                    if(var6) { _fun0007_ip = 63; continue _fun0007 }
+case 65:
                     var4 = var7;
                     var5 = var6;
-case 62:
-                    if(var5) { _fun0007_ip = 65; continue _fun0007 }
-case 66:
+case 63:
+                    if(var5) { _fun0007_ip = 66; continue _fun0007 }
+case 67:
                     var2.return();
-case 65:
+case 66:
                     var2 = {};
                     var5 = var4.activity_level;
                     var2['level'] = var5;
@@ -418,18 +418,18 @@ case 65:
             };
             var3 = {};
             var3 = var6.bind(var7)(var5, var3);
-            _fun0006_ip = 67; continue _fun0006;
-case 59:
+            _fun0006_ip = 68; continue _fun0006;
+case 60:
             var3 = {};
-case 67:
+case 68:
             var1['gameActivity'] = var3;
             var3 = var2.games;
             var1['games'] = var3;
             var3 = var2.features;
-            if(!(var4 == var3)) { _fun0006_ip = 68; continue _fun0006 }
-case 69:
+            if(!(var4 == var3)) { _fun0006_ip = 69; continue _fun0006 }
+case 70:
             var3 = new Array(0);
-case 68:
+case 69:
             var1['features'] = var3;
             var3 = var2.tag;
             var1['tag'] = var3;
@@ -481,45 +481,45 @@ case 0:
             var1 = {};
             var3 = var2.name;
             var5 = null;
-            if(!(var5 != var3)) { _fun0008_ip = 61; continue _fun0008 }
-case 70:
+            if(!(var5 != var3)) { _fun0008_ip = 62; continue _fun0008 }
+case 71:
             var3 = var2.name;
             var1['name'] = var3;
-case 61:
+case 62:
             var3 = var2.description;
             if(!(var5 != var3)) { _fun0008_ip = 53; continue _fun0008 }
-case 71:
+case 72:
             var3 = var2.description;
             var1['description'] = var3;
 case 53:
             var3 = var2.icon;
             var4 = undefined;
-            if(!(var4 !== var3)) { _fun0008_ip = 72; continue _fun0008 }
-case 73:
+            if(!(var4 !== var3)) { _fun0008_ip = 73; continue _fun0008 }
+case 74:
             var3 = var2.icon;
             var1['icon'] = var3;
-case 72:
+case 73:
             var3 = var2.customBanner;
-            if(!(var4 !== var3)) { _fun0008_ip = 74; continue _fun0008 }
-case 75:
+            if(!(var4 !== var3)) { _fun0008_ip = 75; continue _fun0008 }
+case 76:
             var3 = var2.customBanner;
             var1['custom_banner'] = var3;
-case 74:
+case 75:
             var3 = var2.visibility;
-            if(!(var5 != var3)) { _fun0008_ip = 76; continue _fun0008 }
-case 77:
+            if(!(var5 != var3)) { _fun0008_ip = 77; continue _fun0008 }
+case 78:
             var3 = var2.visibility;
             var1['visibility'] = var3;
-case 76:
+case 77:
             var3 = var2.brandColorPrimary;
-            if(!(var4 !== var3)) { _fun0008_ip = 78; continue _fun0008 }
-case 79:
+            if(!(var4 !== var3)) { _fun0008_ip = 79; continue _fun0008 }
+case 80:
             var3 = var2.brandColorPrimary;
             var1['brand_color_primary'] = var3;
-case 78:
+case 79:
             var3 = var2.traits;
-            if(!(var5 != var3)) { _fun0008_ip = 80; continue _fun0008 }
-case 81:
+            if(!(var5 != var3)) { _fun0008_ip = 81; continue _fun0008 }
+case 82:
             var7 = var2.traits;
             var6 = var7.map;
             var3 = function(arg1, arg2) {
@@ -529,20 +529,20 @@ case 0:
                     var5 = null;
                     var2 = var5 == var4;
                     var1 = undefined;
-                    if(var2) { _fun0009_ip = 82; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 83; continue _fun0009 }
 case 32:
                     var1 = var4.label;
-case 82:
+case 83:
                     var2 = var5 == var1;
                     var1 = null;
-                    if(var2) { _fun0009_ip = 83; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 84; continue _fun0009 }
 case 34:
                     var2 = var4.label;
                     var6 = var2.length;
                     var2 = 0;
                     var2 = var6 <= var2;
                     var1 = null;
-                    if(var2) { _fun0009_ip = 83; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 84; continue _fun0009 }
 case 5:
                     var2 = {};
                     var6 = var4.label;
@@ -552,18 +552,18 @@ case 5:
                     var7 = var4.emoji;
                     var8 = var5 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0009_ip = 84; continue _fun0009 }
-case 85:
+                    if(var8) { _fun0009_ip = 85; continue _fun0009 }
+case 86:
                     var6 = var7.id;
-case 84:
+case 85:
                     var2['emoji_id'] = var6;
                     var7 = var4.emoji;
                     var8 = var5 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0009_ip = 86; continue _fun0009 }
+                    if(var8) { _fun0009_ip = 46; continue _fun0009 }
 case 87:
                     var6 = var7.name;
-case 86:
+case 46:
                     var2['emoji_name'] = var6;
                     var4 = var4.emoji;
                     var5 = var5 == var4;
@@ -574,7 +574,7 @@ case 89:
 case 88:
                     var2['emoji_animated'] = var3;
                     var1 = var2;
-case 83:
+case 84:
                     return var1;
                 }
             };
@@ -588,7 +588,7 @@ case 83:
             var3 = var3.isNotNullish;
             var3 = var6.bind(var7)(var3);
             var1['traits'] = var3;
-case 80:
+case 81:
             var3 = var2.gameApplicationIds;
             if(!(var5 != var3)) { _fun0008_ip = 90; continue _fun0008 }
 case 91:
@@ -663,7 +663,7 @@ case 2:
             var3 = var5 == var4;
             var2 = null;
             if(var3) { _fun0010_ip = 100; continue _fun0010 }
-case 73:
+case 74:
             var3 = {};
             var6 = var4.id;
             var3['id'] = var6;
@@ -682,28 +682,28 @@ case 101:
             var6 = var4.banner;
             var3['customBanner'] = var6;
             var9 = var4.approximate_presence_count;
-            if(!(var5 == var9)) { _fun0010_ip = 78; continue _fun0010 }
+            if(!(var5 == var9)) { _fun0010_ip = 79; continue _fun0010 }
 case 103:
             var9 = var8.approximate_presence_count;
-case 78:
+case 79:
             var10 = var5 != var9;
             var7 = 0;
             if(!var10) { _fun0010_ip = 104; continue _fun0010 }
-case 83:
+case 84:
             var7 = var9;
 case 104:
             var3['onlineCount'] = var7;
             var7 = var4.approximate_member_count;
             if(!(var5 == var7)) { _fun0010_ip = 105; continue _fun0010 }
-case 106:
+case 50:
             var7 = var8.approximate_member_count;
 case 105:
             var8 = var5 != var7;
             var6 = 0;
-            if(!var8) { _fun0010_ip = 107; continue _fun0010 }
+            if(!var8) { _fun0010_ip = 106; continue _fun0010 }
 case 16:
             var6 = var7;
-case 107:
+case 106:
             var3['memberCount'] = var6;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -721,10 +721,10 @@ case 107:
             var6 = {};
             var3['gameActivity'] = var6;
             var6 = var4.features;
-            if(!(var5 == var6)) { _fun0010_ip = 108; continue _fun0010 }
-case 109:
-            var6 = new Array(0);
+            if(!(var5 == var6)) { _fun0010_ip = 107; continue _fun0010 }
 case 108:
+            var6 = new Array(0);
+case 107:
             var3['features'] = var6;
             var3['brandColorPrimary'] = var5;
             var3['tag'] = var5;

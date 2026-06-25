@@ -399,32 +399,32 @@ case 0:
                     var2 = var3.done;
                     var4 = 0;
                     if(var2) { _fun0007_ip = 59; continue _fun0007 }
-case 60:
+case 54:
                     var9 = var3.value;
                     var2 = var7.length;
                     var2 = var4 < var2;
                     var10 = 0;
-                    if(!var2) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
+                    if(!var2) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
                     var2 = var7[var10];
                     var8 = var2.bind(var7)(var9);
                     var2 = var10;
-                    if(var8) { _fun0007_ip = 63; continue _fun0007 }
-case 64:
+                    if(var8) { _fun0007_ip = 62; continue _fun0007 }
+case 63:
                     var10 = var2 + 1;
                     var8 = var7.length;
-                    if(var10 < var8) { _fun0007_ip = 62; continue _fun0007 }
-case 65:
-                    _fun0007_ip = 61; continue _fun0007;
-case 63:
+                    if(var10 < var8) { _fun0007_ip = 61; continue _fun0007 }
+case 64:
+                    _fun0007_ip = 60; continue _fun0007;
+case 62:
                     var8 = var1[var2];
                     var2 = var8.push;
                     var2 = var2.bind(var8)(var9);
-case 61:
+case 60:
                     var8 = var5.bind(var6)();
                     var2 = var8.done;
                     var3 = var8;
-                    if(!var2) { _fun0007_ip = 60; continue _fun0007 }
+                    if(!var2) { _fun0007_ip = 54; continue _fun0007 }
 case 59:
                     return var1;
                 }
@@ -434,18 +434,18 @@ case 56:
             var2 = var5;
 case 46:
             var8 = var3.sortComparers;
-            if(!(var1 == var8)) { _fun0005_ip = 66; continue _fun0005 }
-case 67:
-            var8 = new Array(0);
+            if(!(var1 == var8)) { _fun0005_ip = 65; continue _fun0005 }
 case 66:
+            var8 = new Array(0);
+case 65:
             var3 = new Array(0);
             var1 = _closure1_slot0;
             var6 = var1.bind(var9)(var2);
             var5 = var6.bind(var9)();
             var1 = var5.done;
             var2 = 0;
-            if(var1) { _fun0005_ip = 68; continue _fun0005 }
-case 69:
+            if(var1) { _fun0005_ip = 67; continue _fun0005 }
+case 68:
             var10 = _closure1_slot2;
             var1 = var5.value;
             var13 = var10.bind(var9)(var1, var8);
@@ -459,13 +459,13 @@ case 69:
             var12 = var3;
             var1 = apply(var14, var13, var12);
             var1 = var3.length;
-            if(!(!(var1 >= var4))) { _fun0005_ip = 68; continue _fun0005 }
-case 70:
+            if(!(!(var1 >= var4))) { _fun0005_ip = 67; continue _fun0005 }
+case 69:
             var10 = var6.bind(var9)();
             var1 = var10.done;
             var5 = var10;
-            if(!var1) { _fun0005_ip = 69; continue _fun0005 }
-case 68:
+            if(!var1) { _fun0005_ip = 68; continue _fun0005 }
+case 67:
             var1 = var3.slice;
             var1 = var1.bind(var3)(var2, var4);
             return var1;

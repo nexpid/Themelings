@@ -73,6 +73,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['AGE_RESTRICTED_SERVERS_ACCESS_SETTINGS'] = var4;
     var4 = 'family_center_connection';
     var10['FAMILY_CENTER_CONNECTION'] = var4;
+    var4 = 'parental_consent_lockout';
+    var10['PARENTAL_CONSENT_LOCKOUT'] = var4;
     var9 = {};
     var9['PRIMARY'] = var5;
     var4 = 'PRIMARY';

@@ -1015,7 +1015,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['hasStoreChangeListeners'] = var4;
     var2['ParticipantFocusManager'] = var1;
     var1 = {};
-    var8 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT'];
+    var8 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'GIFT_INTENT_DISMISSALS_FETCH_SUCCESS', 'GIFT_INTENT_DISMISSALS_FETCH_FAILURE', 'LOGOUT'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
@@ -1029,6 +1029,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var1['inlineRequire'] = var8;
     var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['hasStoreChangeListeners'] = var4;
     var2['MobileGiftIntentCardManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'EXPERIMENTS_FETCH_SUCCESS', 'BILLING_SUBSCRIPTION_UPDATE_SUCCESS', 'IAP_PURCHASE_PRODUCT_SUCCESS', 'GPLAY_PURCHASE_VERIFIED', 'BILLING_USER_OFFER_ACKNOWLEDGED_SUCCESS', 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS', 'VIRTUAL_CURRENCY_REDEEM_SUCCESS'];
