@@ -218,6 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_POWERUPS_CHANNEL_LIST_ROW'] = var1;
     var1 = 'guild powerups - channel welcome cta';
     var2['GUILD_POWERUPS_CHANNEL_WELCOME_CTA'] = var1;
+    var1 = 'guild powerups - guild progress';
+    var2['GUILD_POWERUPS_GUILD_PROGRESS'] = var1;
     var1 = 'guild powerups - coachmark - level up';
     var2['GUILD_POWERUPS_COACHMARK_LEVEL_UP'] = var1;
     var1 = 'guild powerups - coachmark - new perks';

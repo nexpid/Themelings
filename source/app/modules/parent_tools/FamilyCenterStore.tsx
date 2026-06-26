@@ -987,7 +987,7 @@ case 66:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(29);
+        var1 = new Array(30);
         var1[0] = var5;
         var5 = {};
         var7 = 'loadCache';
@@ -1401,6 +1401,76 @@ case 78:
         var5['value'] = var7;
         var1[21] = var5;
         var5 = {};
+        var7 = 'getTotalGiftValue';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+case 0:
+                var1 = global;
+                var3 = var1.Object;
+                var2 = var3.values;
+                var1 = _closure1_slot35;
+                var11 = var2.bind(var3)(var1);
+                var1 = var11.length;
+                var5 = 0;
+                var2 = var5 < var1;
+                var1 = null;
+                var7 = false;
+                var9 = null;
+                var8 = 0;
+                var6 = 0;
+                var4 = null;
+                var3 = false;
+                if(!var2) { _fun0021_ip = 79; continue _fun0021 }
+case 77:
+                var2 = var11[var6];
+                var12 = var2.price;
+                var14 = var9;
+                var13 = var8;
+                if(!(var1 != var12)) { _fun0021_ip = 80; continue _fun0021 }
+case 81:
+                if(!(var1 != var9)) { _fun0021_ip = 82; continue _fun0021 }
+case 83:
+                var12 = var2.price;
+                var12 = var12.currency;
+                if(!(var12 === var9)) { _fun0021_ip = 84; continue _fun0021 }
+case 82:
+                var12 = var2.price;
+                var14 = var12.currency;
+                var2 = var2.price;
+                var2 = var2.amount;
+                var13 = var8 + var2;
+                var7 = true;
+case 80:
+                var6 = var6 + 1;
+                var2 = var11.length;
+                var9 = var14;
+                var8 = var13;
+                var4 = var9;
+                var5 = var8;
+                var3 = var7;
+                if(var6 < var2) { _fun0021_ip = 77; continue _fun0021 }
+case 79:
+                var2 = null;
+                if(!var3) { _fun0021_ip = 85; continue _fun0021 }
+case 86:
+                var3 = var1 != var4;
+                var2 = null;
+                if(!var3) { _fun0021_ip = 85; continue _fun0021 }
+case 58:
+                var3 = {};
+                var3['amount'] = var5;
+                var3['currency'] = var4;
+                var2 = var3;
+case 85:
+                return var2;
+case 84:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[22] = var5;
+        var5 = {};
         var7 = 'getSpendingLimit';
         var5['key'] = var7;
         var7 = function value() {
@@ -1408,7 +1478,7 @@ case 78:
             return var1;
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'getMonthlyPurchases';
         var5['key'] = var7;
@@ -1417,7 +1487,7 @@ case 78:
             return var1;
         };
         var5['value'] = var7;
-        var1[23] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'getPurchaseInfo';
         var5['key'] = var7;
@@ -1428,7 +1498,7 @@ case 78:
             return var1;
         };
         var5['value'] = var7;
-        var1[24] = var5;
+        var1[25] = var5;
         var5 = {};
         var7 = 'getGiftInfo';
         var5['key'] = var7;
@@ -1439,7 +1509,7 @@ case 78:
             return var1;
         };
         var5['value'] = var7;
-        var1[25] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'getAgeGroup';
         var5['key'] = var7;
@@ -1448,17 +1518,17 @@ case 78:
             return var1;
         };
         var5['value'] = var7;
-        var1[26] = var5;
+        var1[27] = var5;
         var5 = {};
         var7 = 'canRefetch';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var3 = _closure1_slot26;
                 var1 = null;
                 var1 = var1 === var3;
-                if(var1) { _fun0021_ip = 79; continue _fun0021 }
+                if(var1) { _fun0022_ip = 87; continue _fun0022 }
 case 23:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
@@ -1471,17 +1541,17 @@ case 23:
                 var3 = var4.bind(var5)(var3);
                 var2 = _closure1_slot11;
                 var1 = var3 > var2;
-case 79:
+case 87:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[27] = var5;
+        var1[28] = var5;
         var5 = {};
         var7 = 'isCurrentUserInRestrictedHours';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -1494,7 +1564,7 @@ case 0:
                 var6 = 'isInRestrictedHours';
                 var2['location'] = var6;
                 var2 = var3.bind(var4)(var2);
-                if(var2) { _fun0022_ip = 77; continue _fun0022 }
+                if(var2) { _fun0023_ip = 77; continue _fun0023 }
 case 22:
                 var2 = false;
                 return var2;
@@ -1505,26 +1575,26 @@ case 77:
                 var1 = null;
                 var4 = var1 == var3;
                 var2 = undefined;
-                if(var4) { _fun0022_ip = 80; continue _fun0022 }
-case 81:
+                if(var4) { _fun0023_ip = 88; continue _fun0023 }
+case 83:
                 var4 = var3.restrictedSchedule;
                 var3 = var1 == var4;
                 var2 = undefined;
-                if(var3) { _fun0022_ip = 80; continue _fun0022 }
-case 82:
+                if(var3) { _fun0023_ip = 88; continue _fun0023 }
+case 89:
                 var3 = var4.isInRestrictedHours;
                 var2 = var3.bind(var4)();
-case 80:
+case 88:
                 var1 = var1 != var2;
-                if(!var1) { _fun0022_ip = 83; continue _fun0022 }
-case 84:
+                if(!var1) { _fun0023_ip = 90; continue _fun0023 }
+case 91:
                 var1 = var2;
-case 83:
+case 90:
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[28] = var5;
+        var1[29] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

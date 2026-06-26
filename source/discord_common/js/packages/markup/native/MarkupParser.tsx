@@ -37,23 +37,23 @@ case 8:
             var8 = var10 + var9;
 case 7:
             var9 = var7;
-            var11 = var3;
-            var14 = var9.bind(var6)(var8, var11);
-            var1 = var14;
+            var14 = var3;
+            var13 = var9.bind(var6)(var8, var14);
+            var1 = var13;
             var9 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var8 = 0;
-            var10 = var12[var8];
-            var13 = var9.bind(var6)(var10);
-            var10 = var13.constrainAst;
-            var10 = var10.bind(var13)(var14);
-            var2 = var10.hasBailedAst;
-            var10 = var10.ast;
+            var10 = var11[var8];
+            var12 = var9.bind(var6)(var10);
+            var10 = var12.flattenAst;
+            var10 = var10.bind(var12)(var14, var13);
             var1 = var10;
-            var8 = var12[var8];
+            var8 = var11[var8];
             var9 = var9.bind(var6)(var8);
-            var8 = var9.flattenAst;
-            var1 = var8.bind(var9)(var11, var10);
+            var8 = var9.constrainAst;
+            var8 = var8.bind(var9)(var10);
+            var2 = var8.hasBailedAst;
+            var1 = var8.ast;
 case 9: // try_end0
             _fun0001_ip = 10; continue _fun0001;
 case 11: // catch_target0

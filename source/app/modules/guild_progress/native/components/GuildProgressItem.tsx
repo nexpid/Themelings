@@ -61,6 +61,7 @@ case 0:
             var5 = var2.completed;
             var _closure2_slot2 = var5;
             var7 = var2.totalSteps;
+            var _closure2_slot3 = var7;
             var3 = _closure1_slot3;
             var14 = _closure1_slot1;
             var1 = 4;
@@ -135,10 +136,10 @@ case 6:
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
                 var1 = {};
-                var6 = _closure2_slot1;
-                var5 = 100;
-                var6 = var5 * var6;
-                var5 = 3;
+                var7 = _closure2_slot1;
+                var6 = 100;
+                var6 = var6 * var7;
+                var5 = _closure2_slot3;
                 var5 = var6 / var5;
                 var1['percent'] = var5;
                 var5 = 32;

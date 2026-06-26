@@ -1444,7 +1444,7 @@ case 0:
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
-                    if(!var1) { _fun0013_ip = 40; continue _fun0013 }
+                    if(!var1) { _fun0013_ip = 129; continue _fun0013 }
 case 3:
                     var3 = var4.markDirty;
                     var2 = var4.ProtoClass;
@@ -1454,7 +1454,7 @@ case 3:
                     var5 = arg1;
                     var1['cleanup'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 40:
+case 129:
                     var1 = undefined;
                     return var1;
                 }
@@ -1585,8 +1585,8 @@ case 0:
                     var2 = arg1;
                     var4 = var2.defaultGuildThemePreference;
                     var1 = null;
-                    if(!(var1 == var4)) { _fun0014_ip = 129; continue _fun0014 }
-case 130:
+                    if(!(var1 == var4)) { _fun0014_ip = 130; continue _fun0014 }
+case 131:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 15;
@@ -1595,15 +1595,15 @@ case 130:
                     var1 = var5.bind(var1)(var3);
                     var1 = var1.GuildThemeSourcePreference;
                     var4 = var1.UNSPECIFIED;
-case 129:
+case 130:
                     var3 = _closure2_slot0;
-                    if(!(var4 !== var3)) { _fun0014_ip = 131; continue _fun0014 }
-case 132:
+                    if(!(var4 !== var3)) { _fun0014_ip = 132; continue _fun0014 }
+case 133:
                     var1 = _closure2_slot0;
                     var2['defaultGuildThemePreference'] = var1;
                     var1 = undefined;
                     return var1;
-case 131:
+case 132:
                     var1 = false;
                     return var1;
                 }
@@ -1667,8 +1667,8 @@ case 0:
                     var1 = _closure1_slot7;
                     var1 = var1.PRELOADED_USER_SETTINGS;
                     var1 = var2.bind(var3)(var1);
-                    if(var1) { _fun0015_ip = 133; continue _fun0015 }
-case 134:
+                    if(var1) { _fun0015_ip = 134; continue _fun0015 }
+case 135:
                     var1 = _closure1_slot6;
                     var1 = var1.settings;
                     var3 = var1.userContent;
@@ -1681,8 +1681,8 @@ case 39:
                     var5 = var3.dismissedContents;
 case 41:
                     var2 = var2 != var5;
-                    if(!var2) { _fun0015_ip = 135; continue _fun0015 }
-case 136:
+                    if(!var2) { _fun0015_ip = 136; continue _fun0015 }
+case 129:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 17;
@@ -1690,7 +1690,7 @@ case 136:
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.hasBit;
                     var2 = var3.bind(var4)(var5, var7);
-case 135:
+case 136:
                     if(var2) { _fun0015_ip = 137; continue _fun0015 }
 case 138:
                     var3 = _closure1_slot1;
@@ -1713,7 +1713,7 @@ case 138:
                     return var1;
 case 137:
                     return var1;
-case 133:
+case 134:
                     var1 = undefined;
                     return var1;
                 }
@@ -1836,7 +1836,7 @@ case 0:
                     var2 = var1.guilds;
                     var5 = null;
                     if(!(var5 != var2)) { _fun0018_ip = 141; continue _fun0018 }
-case 130:
+case 131:
                     var4 = global;
                     var3 = var4.Object;
                     var2 = var3.values;

@@ -100,7 +100,7 @@ case 22:
 case 23:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 8;
                     var3 = var6[var3];
                     var6 = var5.bind(var7)(var3);
                     var5 = var6.acceptInvite;
@@ -125,7 +125,7 @@ case 26:
 case 20:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 8;
+                    var3 = 7;
                     var3 = var6[var3];
                     var12 = var5.bind(var7)(var3);
                     var6 = var12.startLurking;
@@ -143,7 +143,7 @@ case 28:
 case 18:
                     var6 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var5 = 7;
+                    var5 = 6;
                     var5 = var12[var5];
                     var6 = var6.bind(var7)(var5);
                     var5 = var6.transitionTo;
@@ -207,7 +207,7 @@ case 2:
     var _closure1_slot6 = var8;
     var5 = var5.Routes;
     var _closure1_slot7 = var5;
-    var5 = 10;
+    var5 = 9;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -216,89 +216,80 @@ case 2:
     var5 = function navigateToSocialLayerStorefront(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var1 = arg1;
-            var13 = var1.applicationId;
-            var5 = var1.guildId;
-            var11 = var1.pageIndex;
-            var4 = var1.invite;
-            var10 = var1.skuId;
-            var9 = var1.slug;
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 5;
-            var1 = var6[var1];
-            var7 = undefined;
-            var6 = var3.bind(var7)(var1);
-            var3 = var6.getIsSocialLayerStorefrontShopShimEnabled;
-            var1 = {};
-            var8 = 'navigateToSocialLayerStorefront';
-            var1['location'] = var8;
-            var3 = var3.bind(var6)(var1);
-            var1 = null;
-            var8 = var13;
-            if(!(var1 == var8)) { _fun0002_ip = 13; continue _fun0002 }
+            var2 = arg1;
+            var6 = var2.applicationId;
+            var3 = var2.guildId;
+            var11 = var2.pageIndex;
+            var1 = var2.invite;
+            var10 = var2.skuId;
+            var9 = var2.slug;
+            var2 = null;
+            var8 = var6;
+            if(!(var2 == var8)) { _fun0002_ip = 30; continue _fun0002 }
+case 4:
+            var5 = _closure1_slot5;
+            var4 = var5.getApplicationIdFromGuildId;
+            var8 = var4.bind(var5)(var3);
 case 30:
-            var12 = _closure1_slot5;
-            var6 = var12.getApplicationIdFromGuildId;
-            var8 = var6.bind(var12)(var5);
-case 13:
-            if(!(var1 == var5)) { _fun0002_ip = 31; continue _fun0002 }
+            var4 = var3;
+            if(!(var2 == var4)) { _fun0002_ip = 31; continue _fun0002 }
 case 32:
-            var12 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var6 = 6;
-            var6 = var14[var6];
-            var12 = var12.bind(var7)(var6);
-            var6 = var12.getSocialLayerStorefrontGuildId;
-            var5 = var6.bind(var12)(var13);
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 5;
+            var5 = var5[var3];
+            var3 = undefined;
+            var5 = var7.bind(var3)(var5);
+            var3 = var5.getSocialLayerStorefrontGuildId;
+            var4 = var3.bind(var5)(var6);
 case 31:
-            if(!(var1 == var8)) { _fun0002_ip = 33; continue _fun0002 }
-case 14:
-            if(!(var1 == var5)) { _fun0002_ip = 33; continue _fun0002 }
+            if(!(var2 == var8)) { _fun0002_ip = 33; continue _fun0002 }
 case 34:
-            if(!(var1 != var4)) { _fun0002_ip = 35; continue _fun0002 }
+            if(!(var2 == var4)) { _fun0002_ip = 33; continue _fun0002 }
+case 12:
+            if(!(var2 != var1)) { _fun0002_ip = 35; continue _fun0002 }
 case 33:
-            if(!var3) { _fun0002_ip = 36; continue _fun0002 }
+            if(!(var2 == var8)) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
-            if(!(var1 == var8)) { _fun0002_ip = 38; continue _fun0002 }
-case 36:
             var3 = _closure1_slot8;
-            var1 = {};
-            var1['guildId'] = var5;
-            var1['pageIndex'] = var11;
-            var1['invite'] = var4;
-            var1['skuId'] = var10;
-            var1['slug'] = var9;
-            var1 = var3.bind(var7)(var1);
-            _fun0002_ip = 39; continue _fun0002;
-case 38:
-            var3 = global;
-            var4 = var3.Promise;
+            var2 = {};
+            var2['guildId'] = var4;
+            var2['pageIndex'] = var11;
+            var2['invite'] = var1;
+            var2['skuId'] = var10;
+            var2['slug'] = var9;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            _fun0002_ip = 38; continue _fun0002;
+case 36:
+            var2 = global;
+            var4 = var2.Promise;
             var3 = var4.resolve;
-            var6 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var5 = 7;
-            var5 = var12[var5];
-            var6 = var6.bind(var7)(var5);
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var5 = 6;
+            var6 = var6[var5];
+            var5 = undefined;
+            var6 = var7.bind(var5)(var6);
             var5 = var6.transitionTo;
             var7 = _closure1_slot7;
             var2 = var7.COLLECTIBLES_SHOP_GAME_SHOP;
-            var19 = var7;
-            var18 = var8;
-            var17 = var11;
-            var16 = var10;
-            var15 = var9;
-            var2 = var19[var2](var18, var17, var16, var15, var14);
+            var16 = var7;
+            var15 = var8;
+            var14 = var11;
+            var13 = var10;
+            var12 = var9;
+            var2 = var16[var2](var15, var14, var13, var12, var11);
             var2 = var5.bind(var6)(var2);
             var1 = var3.bind(var4)(var2);
-case 39:
-            _fun0002_ip = 40; continue _fun0002;
+case 38:
+            _fun0002_ip = 39; continue _fun0002;
 case 35:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)();
-case 40:
+case 39:
             return var1;
         }
     };
@@ -311,19 +302,19 @@ case 0:
             var2 = var1.invite;
             var5 = var1.forceFetch;
             var1 = null;
-            if(!(var1 != var2)) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
+            if(!(var1 != var2)) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
             var3 = var2.guild;
             var6 = var1 == var3;
             var2 = undefined;
             if(var6) { _fun0003_ip = 4; continue _fun0003 }
-case 43:
+case 42:
             var2 = var3.id;
 case 4:
             var4 = var2;
-case 41:
-            if(!(var1 != var4)) { _fun0003_ip = 44; continue _fun0003 }
-case 45:
+case 40:
+            if(!(var1 != var4)) { _fun0003_ip = 43; continue _fun0003 }
+case 44:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 4;
@@ -336,7 +327,7 @@ case 45:
             var1['eager'] = var6;
             var1['forceFetch'] = var5;
             var1 = var2.bind(var3)(var4, var1);
-case 44:
+case 43:
             var1 = undefined;
             return var1;
         }

@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot9 = var2;
+            _closure1_slot10 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -82,7 +82,12 @@ case 4:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
-    var4 = 9;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PaymentGateways;
+    var _closure1_slot9 = var4;
+    var4 = 11;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -104,7 +109,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot4;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -135,45 +140,66 @@ case 8:
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var3 = _closure1_slot7;
-                        var2 = var3.getCurrentUser;
-                        var5 = var2.bind(var3)();
-                        var2 = null;
-                        var2 = var2 == var5;
-                        if(var2) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
-                        var3 = var5.verified;
-                        var2 = !var3;
-case 9:
-                        if(var2) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-                        var6 = _closure1_slot0;
-                        var4 = _closure1_slot1;
-                        var3 = 7;
-                        var4 = var4[var3];
-                        var3 = undefined;
-                        var4 = var6.bind(var3)(var4);
-                        var3 = var4.isPremium;
-                        var2 = var3.bind(var4)(var5);
-case 11:
-                        if(var2) { _fun0003_ip = 13; continue _fun0003 }
-case 7:
-                        var4 = _closure1_slot8;
-                        var3 = var4.isFetchingOffer;
-                        var2 = var3.bind(var4)();
-case 13:
-                        if(var2) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot1;
+                        var1 = var3.getCurrentUser;
+                        var7 = var1.bind(var3)();
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot1;
                         var1 = 8;
-                        var2 = var2[var1];
+                        var3 = var3[var1];
                         var1 = undefined;
-                        var3 = var3.bind(var1)(var2);
-                        var2 = var3.fetchUserOffer;
-                        var1 = 'MobilePremiumOfferManager';
-                        var1 = var2.bind(var3)(var1);
+                        var3 = var4.bind(var1)(var3);
+                        var5 = var3.NitroACOMSubscriptionExperiment;
+                        var4 = var5.getConfig;
+                        var3 = {};
+                        var6 = 'UserOfferManager.handlePostConnectionOpen';
+                        var3['location'] = var6;
+                        var3 = var4.bind(var5)(var3);
+                        var3 = var3.enabled;
+                        var6 = undefined;
+                        if(!var3) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+                        var3 = {};
+                        var3['offerId'] = var1;
+                        var4 = _closure1_slot9;
+                        var4 = var4.APPLE_ADVANCED_COMMERCE;
+                        var3['paymentGatewayOverride'] = var4;
+                        var6 = var3;
+case 9:
+                        var3 = null;
+                        var3 = var3 == var7;
+                        if(var3) { _fun0003_ip = 8; continue _fun0003 }
+case 11:
+                        var4 = var7.verified;
+                        var3 = !var4;
+case 8:
+                        if(var3) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+                        var5 = _closure1_slot0;
+                        var8 = _closure1_slot1;
+                        var4 = 9;
+                        var4 = var8[var4];
+                        var5 = var5.bind(var1)(var4);
+                        var4 = var5.isPremium;
+                        var3 = var4.bind(var5)(var7);
+case 12:
+                        if(var3) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+                        var5 = _closure1_slot8;
+                        var4 = var5.isFetchingOffer;
+                        var3 = var4.bind(var5)();
 case 14:
-                        var1 = undefined;
+                        if(var3) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+                        var3 = _closure1_slot0;
+                        var4 = _closure1_slot1;
+                        var2 = 10;
+                        var2 = var4[var2];
+                        var5 = var3.bind(var1)(var2);
+                        var4 = var5.fetchUserOffer;
+                        var3 = 'MobilePremiumOfferManager';
+                        var2 = true;
+                        var2 = var4.bind(var5)(var3, var2, var6);
+case 16:
                         return var1;
                     }
                 };
@@ -196,7 +222,7 @@ case 14:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 10;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

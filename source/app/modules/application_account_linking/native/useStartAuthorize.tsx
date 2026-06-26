@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot6 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -115,71 +115,93 @@ case 12:
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                             StartGenerator();
-                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 16; continue _fun0002 }
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
+                            if(var4) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
-                            var9 = arg1;
-                            var2 = _closure2_slot0;
-                            var4 = null;
-                            var3 = var4 == var2;
-                            var5 = undefined;
-                            var2 = undefined;
-                            if(var3) { _fun0002_ip = 18; continue _fun0002 }
+                            var3 = arg1;
+                            var4 = _closure2_slot0;
+                            var5 = null;
+                            var7 = var5 == var4;
+                            var9 = undefined;
+                            var4 = undefined;
+                            if(var7) { _fun0002_ip = 18; continue _fun0002 }
 case 4:
-                            var3 = _closure2_slot0;
-                            var2 = var3.connectionEntrypointUrl;
+                            var7 = _closure2_slot0;
+                            var4 = var7.connectionEntrypointUrl;
 case 18:
-                            if(!(var4 != var2)) { _fun0002_ip = 19; continue _fun0002 }
+                            if(!(var5 != var4)) { _fun0002_ip = 19; continue _fun0002 }
 case 20: // try_start_0
-                            var3 = _closure1_slot1;
-                            var6 = _closure1_slot2;
-                            var2 = 6;
-                            var2 = var6[var2];
-                            var6 = var3.bind(var5)(var2);
-                            var3 = var6.openURL;
-                            var2 = _closure2_slot0;
-                            var2 = var2.connectionEntrypointUrl;
-                            var2 = var3.bind(var6)(var2);
+                            var8 = _closure1_slot1;
+                            var10 = _closure1_slot2;
+                            var4 = 6;
+                            var4 = var10[var4];
+                            var10 = var8.bind(var9)(var4);
+                            var8 = var10.openURL;
+                            var4 = _closure2_slot0;
+                            var4 = var4.connectionEntrypointUrl;
+                            var4 = var8.bind(var10)(var4);
                             SaveGenerator(address=98);
 case 21:
-                            return var2;
+                            return var4;
 case 22:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0002_ip = 23; continue _fun0002 }
+                            ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
+                            if(var8) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-                            var3 = var9;
-                            var3 = var3.onConfirm;
-                            if(!(var4 != var3)) { _fun0002_ip = 25; continue _fun0002 }
+                            var8 = var3;
+                            var8 = var8.onConfirm;
+                            if(!(var5 != var8)) { _fun0002_ip = 25; continue _fun0002 }
 case 26:
-                            var4 = var9;
-                            var3 = var4.onConfirm;
-                            var3 = var3.bind(var4)();
+                            var10 = var3;
+                            var8 = var10.onConfirm;
+                            var8 = var8.bind(var10)();
 case 25:
-                            var4 = _closure1_slot1;
-                            var6 = _closure1_slot2;
-                            var3 = 7;
-                            var3 = var6[var3];
-                            var6 = var4.bind(var5)(var3);
-                            var5 = var6.track;
-                            var3 = _closure1_slot6;
-                            var4 = var3.ON_PLATFORM_ACCOUNT_LINK_FLOW_STARTED;
-                            var3 = {};
-                            var9 = var9.analyticsLocations;
-                            var3['location_stack'] = var9;
-                            var8 = _closure2_slot0;
-                            var8 = var8.id;
-                            var3['application_id'] = var8;
-                            var7 = _closure1_slot5;
-                            var7 = var7.WEB;
-                            var3['flow_type'] = var7;
-                            var3 = var5.bind(var6)(var4, var3);
+                            var10 = _closure1_slot1;
+                            var11 = _closure1_slot2;
+                            var8 = 7;
+                            var8 = var11[var8];
+                            var14 = var10.bind(var9)(var8);
+                            var13 = var14.track;
+                            var8 = _closure1_slot6;
+                            var12 = var8.ON_PLATFORM_ACCOUNT_LINK_FLOW_STARTED;
+                            var8 = {};
+                            var10 = var3;
+                            var15 = var10.analyticsLocations;
+                            var8['location_stack'] = var15;
+                            var15 = _closure2_slot0;
+                            var15 = var15.id;
+                            var8['application_id'] = var15;
+                            var15 = _closure1_slot5;
+                            var15 = var15.WEB;
+                            var8['flow_type'] = var15;
+                            var8 = var13.bind(var14)(var12, var8);
+                            var8 = _closure1_slot0;
+                            var7 = 8;
+                            var7 = var11[var7];
+                            var9 = var8.bind(var9)(var7);
+                            var8 = var9.accountLinkAuthorizationStarted;
+                            var6 = _closure2_slot0;
+                            var7 = var6.id;
+                            var6 = {};
+                            var11 = var10.onSuccess;
+                            var6['onSuccess'] = var11;
+                            var10 = var10.onError;
+                            var6['onError'] = var10;
+                            var6 = var8.bind(var9)(var7, var6);
 case 27: // try_end0
-                            var3 = true;
-                            return var3;
+                            var6 = true;
+                            return var6;
 case 23:
-                            return var2;
+                            return var4;
 case 28: // catch_target0
                             CatchBlockStart(arg_register=1);
+                            var4 = var3;
+                            var4 = var4.onError;
+                            if(!(var5 != var4)) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
+                            var4 = var3;
+                            var3 = var4.onError;
+                            var2 = var3.bind(var4)(var2);
+case 29:
                             var2 = false;
                             return var2;
 case 19:
@@ -211,10 +233,10 @@ case 16:
             var10 = var12.bind(var13)(var10, var1);
             var1 = {};
             var1['fetched'] = var11;
-            if(!var11) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
+            if(!var11) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var11 = var7 != var9;
-case 29:
+case 31:
             var1['hasAlreadyLinked'] = var11;
             var1['canStartAuthorization'] = var4;
             var1['startAuthorization'] = var10;
@@ -222,34 +244,34 @@ case 29:
             var1['chosenFlow'] = var2;
             var1['token'] = var9;
             var2 = undefined;
-            if(!var3) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+            if(!var3) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var3 = {};
             var10 = false;
             var3['isSubscribedToAuthorizeRequest'] = var10;
             var3['oauth2Token'] = var9;
             var9 = var7 == var8;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
+            if(var9) { _fun0001_ip = 30; continue _fun0001 }
+case 35:
             var6 = var8.connectionEntrypointUrl;
-case 33:
+case 30:
             var6 = var7 != var6;
             var3['hasConnectionEntrypointUrl'] = var6;
-            if(var4) { _fun0001_ip = 35; continue _fun0001 }
-case 36:
+            if(var4) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             var4 = new Array(0);
-            _fun0001_ip = 37; continue _fun0001;
-case 35:
+            _fun0001_ip = 38; continue _fun0001;
+case 36:
             var5 = _closure1_slot5;
             var6 = var5.WEB;
             var5 = new Array(1);
             var5[0] = var6;
             var4 = var5;
-case 37:
+case 38:
             var3['validFlows'] = var4;
             var2 = var3;
-case 31:
+case 33:
             var1['debug'] = var2;
             return var1;
         }

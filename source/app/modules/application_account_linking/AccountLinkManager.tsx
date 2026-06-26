@@ -1,7 +1,7 @@
 // app/modules/application_account_linking/AccountLinkManager.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var6 = metroImportDefault;
+    var5 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
@@ -77,7 +77,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot15;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -89,7 +89,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot16;
+            var7 = _closure1_slot15;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -148,7 +148,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,7 +181,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot15 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -214,24 +214,13 @@ case 38:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot17 = var2;
+            _closure1_slot16 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
-    var4 = function claimIncentivizedAccountLinkingReward() {
-        var1 = undefined;
-        var4 = _closure1_slot19;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot18 = var4;
+    var _closure1_slot16 = var1;
     var1 = function _claimIncentivizedAccountLinkingReward() {
         var5 = undefined;
         var1 = undefined;
@@ -258,13 +247,13 @@ case 43:
 case 45: // try_start_0
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot1;
-                    var6 = 12;
+                    var6 = 11;
                     var6 = var9[var6];
                     var6 = var8.bind(var3)(var6);
                     var9 = var6.HTTP;
                     var8 = var9.post;
                     var6 = {};
-                    var10 = _closure1_slot13;
+                    var10 = _closure1_slot12;
                     var10 = var10.OAUTH2_ACCOUNT_LINKING_ACHIEVEMENT;
                     var6['url'] = var10;
                     var10 = {};
@@ -309,7 +298,7 @@ case 40:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot19 = var4;
+        _closure1_slot17 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -317,75 +306,70 @@ case 40:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot17 = var1;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var5 = {};
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var2 = {};
     var1 = true;
-    var5['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = var6.bind(var9)(var3, var1, var2);
     var1 = 0;
-    var5 = var8[var1];
+    var2 = var8[var1];
     var1 = undefined;
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot2 = var5;
-    var5 = 1;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var5 = 2;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot4 = var5;
-    var5 = 3;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot5 = var5;
-    var5 = 4;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot6 = var5;
-    var5 = 5;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot7 = var5;
-    var5 = 6;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot8 = var5;
-    var5 = 7;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot9 = var5;
-    var5 = 8;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot10 = var5;
-    var5 = 9;
-    var5 = var8[var5];
-    var5 = var7.bind(var1)(var5);
-    var5 = var5.IncentivizedAccountLinkingApplicationIds;
-    var _closure1_slot11 = var5;
-    var5 = 10;
-    var5 = var8[var5];
-    var5 = var7.bind(var1)(var5);
-    var9 = var5.AppStates;
-    var _closure1_slot12 = var9;
-    var5 = var5.Endpoints;
-    var _closure1_slot13 = var5;
-    var5 = 11;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.Millis;
-    var9 = var5.MINUTE;
-    var5 = 20;
-    var5 = var5 * var9;
-    var _closure1_slot14 = var5;
-    var5 = 13;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var8[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var8[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var8[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 4;
+    var2 = var8[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 5;
+    var2 = var8[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = 6;
+    var2 = var8[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot8 = var2;
+    var2 = 7;
+    var2 = var8[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot9 = var2;
+    var2 = 8;
+    var2 = var8[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot10 = var2;
+    var2 = 9;
+    var2 = var8[var2];
+    var2 = var7.bind(var1)(var2);
+    var6 = var2.AppStates;
+    var _closure1_slot11 = var6;
+    var2 = var2.Endpoints;
+    var _closure1_slot12 = var2;
+    var2 = 10;
+    var2 = var8[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.Millis;
+    var6 = var2.MINUTE;
+    var2 = 20;
+    var2 = var2 * var6;
+    var _closure1_slot13 = var2;
+    var2 = 12;
+    var2 = var8[var2];
+    var5 = var5.bind(var1)(var2);
     var2 = function(arg1) {
         var4 = function AccountLinkManager(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -405,7 +389,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot16;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0006_ip = 9; continue _fun0006 }
 case 54:
@@ -475,72 +459,87 @@ case 0:
                 var1 = var2.getPendingAuthorizations;
                 var2 = var1.bind(var2)();
                 var1 = var2.size;
-                var9 = 0;
-                if(!(var9 !== var1)) { _fun0007_ip = 56; continue _fun0007 }
+                var12 = 0;
+                if(!(var12 !== var1)) { _fun0007_ip = 56; continue _fun0007 }
 case 57:
                 var1 = global;
                 var3 = var1.Date;
                 var1 = var3.now;
-                var8 = var1.bind(var3)();
-                var1 = _closure1_slot15;
-                var7 = undefined;
-                var6 = var1.bind(var7)(var2);
-                var2 = var6.bind(var7)();
+                var11 = var1.bind(var3)();
+                var1 = _closure1_slot14;
+                var10 = undefined;
+                var9 = var1.bind(var10)(var2);
+                var2 = var9.bind(var10)();
                 var1 = var2.done;
-                var5 = null;
-                var4 = 2;
-                var3 = 1;
+                var8 = 'Account link authorization timed out';
+                var7 = null;
+                var6 = 2;
+                var5 = 1;
+                var4 = var2;
+                var3 = undefined;
+                var2 = undefined;
                 if(var1) { _fun0007_ip = 56; continue _fun0007 }
 case 58:
-                var11 = var2.value;
+                var14 = var4.value;
                 var1 = _closure1_slot2;
-                var1 = var1.bind(var7)(var11, var4);
-                var12 = var1[var9];
-                var13 = var1[var3];
-                var1 = var13.startedAt;
-                var11 = var8 - var1;
-                var1 = _closure1_slot14;
-                if(!(!(var11 > var1))) { _fun0007_ip = 59; continue _fun0007 }
+                var1 = var1.bind(var10)(var14, var6);
+                var18 = var1[var12];
+                var1 = var1[var5];
+                var14 = var1.startedAt;
+                var15 = var11 - var14;
+                var14 = _closure1_slot13;
+                if(!(!(var15 > var14))) { _fun0007_ip = 59; continue _fun0007 }
 case 60:
-                var11 = _closure1_slot9;
-                var1 = var11.getNewestTokenForApplication;
-                var1 = var1.bind(var11)(var12);
-                var1 = var5 != var1;
-                if(!var1) { _fun0007_ip = 61; continue _fun0007 }
+                var15 = _closure1_slot9;
+                var14 = var15.getNewestTokenForApplication;
+                var16 = var14.bind(var15)(var18);
+                var15 = var3;
+                var14 = var2;
+                if(!(var7 != var16)) { _fun0007_ip = 61; continue _fun0007 }
+case 40:
+                var16 = var1.accountLinkCallbacks;
+                var17 = var7 == var16;
+                if(var17) { _fun0007_ip = 19; continue _fun0007 }
 case 62:
-                var14 = _closure1_slot11;
-                var11 = var14.has;
-                var1 = var11.bind(var14)(var12);
-case 61:
-                if(!var1) { _fun0007_ip = 63; continue _fun0007 }
+                var19 = var16.onSuccess;
+                var17 = var7 == var19;
+case 19:
+                if(var17) { _fun0007_ip = 63; continue _fun0007 }
 case 64:
-                var11 = var13.claimIncentivizedAccountLinkingRewardCallbacks;
-                var1 = var5 != var11;
+                var17 = var16.onSuccess;
+                var17 = var17.bind(var16)();
 case 63:
-                if(!var1) { _fun0007_ip = 65; continue _fun0007 }
-case 66:
-                var11 = _closure1_slot18;
-                var1 = {};
-                var1['applicationId'] = var12;
-                var14 = var13.claimIncentivizedAccountLinkingRewardCallbacks;
-                var14 = var14.onSuccess;
-                var1['onSuccess'] = var14;
-                var13 = var13.claimIncentivizedAccountLinkingRewardCallbacks;
-                var13 = var13.onError;
-                var1['onError'] = var13;
-                var1 = var11.bind(var7)(var1);
-                var11 = _closure1_slot10;
-                var1 = var11.deletePendingAuthorization;
-                var1 = var1.bind(var11)(var12);
-                _fun0007_ip = 65; continue _fun0007;
+                var19 = _closure1_slot10;
+                var17 = var19.deletePendingAuthorization;
+                var17 = var17.bind(var19)(var18);
+                var15 = var16;
+                var14 = var2;
+                _fun0007_ip = 61; continue _fun0007;
 case 59:
-                var11 = _closure1_slot10;
-                var1 = var11.deletePendingAuthorization;
-                var1 = var1.bind(var11)(var12);
+                var17 = _closure1_slot10;
+                var16 = var17.deletePendingAuthorization;
+                var16 = var16.bind(var17)(var18);
+                var1 = var1.accountLinkCallbacks;
+                var16 = var7 == var1;
+                if(var16) { _fun0007_ip = 65; continue _fun0007 }
+case 66:
+                var17 = var1.onError;
+                var16 = var7 == var17;
 case 65:
-                var11 = var6.bind(var7)();
-                var1 = var11.done;
-                var2 = var11;
+                var15 = var3;
+                var14 = var1;
+                if(var16) { _fun0007_ip = 61; continue _fun0007 }
+case 12:
+                var16 = var1.onError;
+                var16 = var16.bind(var1)(var8);
+                var15 = var3;
+                var14 = var1;
+case 61:
+                var16 = var9.bind(var10)();
+                var1 = var16.done;
+                var3 = var15;
+                var2 = var14;
+                var4 = var16;
                 if(!var1) { _fun0007_ip = 58; continue _fun0007 }
 case 56:
                 var1 = undefined;
@@ -622,7 +621,7 @@ case 0:
                 var2 = this;
                 var1 = arg1;
                 var3 = var1.state;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.ACTIVE;
                 if(!(var3 === var1)) { _fun0010_ip = 69; continue _fun0010 }
 case 34:
@@ -643,16 +642,26 @@ case 69:
     var2['displayName'] = var5;
     var5 = var2.prototype;
     var6 = Object.create(var5, {constructor: {value: var2}});
-    var14 = var6;
-    var5 = new var14[var2](var13);
+    var13 = var6;
+    var5 = new var13[var2](var12);
     var5 = var5 instanceof Object ? var5 : var6;
-    var6 = 14;
+    var6 = 13;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/application_account_linking/AccountLinkManager.tsx';
     var6 = var7.bind(var8)(var6);
     var3['default'] = var5;
+    var4 = function claimIncentivizedAccountLinkingReward() {
+        var1 = undefined;
+        var4 = _closure1_slot17;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
     var3['claimIncentivizedAccountLinkingReward'] = var4;
     var3['AccountLinkManager'] = var2;
     return var1;

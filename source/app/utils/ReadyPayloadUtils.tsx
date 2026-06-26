@@ -880,15 +880,15 @@ case 0:
             var11 = var1 == var8;
             var9 = undefined;
             var3 = undefined;
-            if(var11) { _fun0010_ip = 106; continue _fun0010 }
-case 9:
-            var3 = var8.friends;
+            if(var11) { _fun0010_ip = 11; continue _fun0010 }
 case 106:
+            var3 = var8.friends;
+case 11:
             var4 = var7.bind(var9)(var4, var3);
             var7 = var1 == var10;
             var3 = undefined;
-            if(var7) { _fun0010_ip = 107; continue _fun0010 }
-case 108:
+            if(var7) { _fun0010_ip = 43; continue _fun0010 }
+case 107:
             var8 = var10.map;
             var7 = function(arg1, arg2) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -902,12 +902,12 @@ case 0:
                     var10 = var9 == var3;
                     var5 = undefined;
                     var3 = undefined;
-                    if(var10) { _fun0011_ip = 109; continue _fun0011 }
-case 110:
+                    if(var10) { _fun0011_ip = 108; continue _fun0011 }
+case 109:
                     var10 = _closure2_slot1;
                     var10 = var10.guilds;
                     var3 = var10[var8];
-case 109:
+case 108:
                     var4 = var6.bind(var5)(var4, var3);
                     var6 = _closure1_slot9;
                     var3 = _closure1_slot5;
@@ -915,7 +915,7 @@ case 109:
                     var9 = var9 == var1;
                     var1 = undefined;
                     if(var9) { _fun0011_ip = 9; continue _fun0011 }
-case 111:
+case 110:
                     var7 = _closure2_slot0;
                     var1 = var7[var8];
 case 9:
@@ -936,11 +936,11 @@ case 9:
                 }
             };
             var3 = var8.bind(var10)(var7);
-case 107:
-            if(!(var1 == var3)) { _fun0010_ip = 112; continue _fun0010 }
 case 43:
-            var3 = new Array(0);
+            if(!(var1 == var3)) { _fun0010_ip = 111; continue _fun0010 }
 case 112:
+            var3 = new Array(0);
+case 111:
             var8 = _closure1_slot8;
             var7 = arg2;
             var6 = function(arg1) {
@@ -1093,7 +1093,7 @@ case 126:
                     var3 = undefined;
                     var5 = var2;
                     if(var2) { _fun0013_ip = 125; continue _fun0013 }
-case 109:
+case 108:
                     var3 = var7;
                     var5 = var2;
 case 125:
@@ -1111,7 +1111,7 @@ case 129:
                     var5 = var6;
 case 127:
                     if(var5) { _fun0013_ip = 80; continue _fun0013 }
-case 130:
+case 106:
                     var1.return();
 case 80:
                     var1 = {};
@@ -1153,14 +1153,14 @@ case 0:
             var5 = var8.database;
             var5 = var5.bind(var8)();
             var5 = var2 != var5;
-            if(!var5) { _fun0014_ip = 131; continue _fun0014 }
-case 132:
+            if(!var5) { _fun0014_ip = 130; continue _fun0014 }
+case 131:
             var8 = arg3;
             var11 = var8.databaseOk;
             var8 = false;
             var5 = var8 === var11;
-case 131:
-            if(!var5) { _fun0014_ip = 113; continue _fun0014 }
+case 130:
+            if(!var5) { _fun0014_ip = 132; continue _fun0014 }
 case 133:
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -1170,7 +1170,7 @@ case 133:
             var8 = var11.replaceDisableAllDatabases;
             var5 = 'ReadyPayloadUtils: database was not ok';
             var5 = var8.bind(var11)(var5);
-case 113:
+case 132:
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
             var5 = 7;

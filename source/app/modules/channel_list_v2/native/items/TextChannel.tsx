@@ -248,7 +248,7 @@ case 13:
                     var10 = '';
                     var4 = 0;
                     if(!(var10 !== var11)) { _fun0003_ip = 11; continue _fun0003 }
-case 14:
+case 6:
                     var10 = _closure1_slot5;
                     var9 = var10.getEmbeddedActivitiesForChannel;
                     var8 = _closure2_slot0;
@@ -256,14 +256,14 @@ case 14:
                     var8 = var9.bind(var10)(var8);
                     var9 = var6 == var8;
                     var5 = undefined;
-                    if(var9) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
-                    var5 = var8.length;
+                    if(var9) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
+                    var5 = var8.length;
+case 14:
                     var6 = var6 != var5;
                     var4 = 0;
                     if(!var6) { _fun0003_ip = 11; continue _fun0003 }
-case 17:
+case 16:
                     var4 = var5;
 case 11:
                     var1['embeddedActivitiesCount'] = var4;
@@ -315,8 +315,8 @@ case 0:
                     var3 = _closure2_slot2;
                     var6 = _closure2_slot1;
                     var2 = undefined;
-                    if(!var6) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                    if(!var6) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
                     var6 = {};
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -326,7 +326,7 @@ case 19:
                     var7 = var7.CHANNEL_LIST_SUGGESTED_SECTION;
                     var6['source'] = var7;
                     var2 = var6;
-case 18:
+case 17:
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;
                 }
@@ -349,10 +349,10 @@ case 18:
             };
             var9 = var6.bind(var7)(var1, var3);
             var32 = var12;
-            if(!var32) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
-            var32 = !var19;
+            if(!var32) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
+            var32 = !var19;
+case 19:
             var22 = _closure1_slot0;
             var15 = _closure1_slot2;
             var1 = 23;
@@ -379,8 +379,8 @@ case 20:
             var1['isRulesChannel'] = var2;
             var6 = var1.channel;
             var1 = var1.isRulesChannel;
-            if(var1) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
+            if(var1) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 14;
@@ -397,8 +397,8 @@ case 23:
             var1['isRulesChannel'] = var7;
             var5 = var3.bind(var5)(var6, var1);
             var6 = var2;
-            _fun0002_ip = 24; continue _fun0002;
-case 22:
+            _fun0002_ip = 23; continue _fun0002;
+case 21:
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 12;
@@ -409,7 +409,7 @@ case 22:
             var1 = var7[var1];
             var1 = var3.bind(var4)(var1);
             var5 = var1.BookCheckIcon;
-case 24:
+case 23:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var28 = 15;
@@ -474,10 +474,10 @@ case 24:
             var15 = var15.ChannelModes;
             var15 = var15.SELECTED;
             var15 = var34 === var15;
-            if(!var15) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
-            var15 = var24.selected;
+            if(!var15) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
+            var15 = var24.selected;
+case 24:
             var9[1] = var15;
             var6['style'] = var9;
             var6['accessible'] = var8;
@@ -493,10 +493,10 @@ case 25:
             var8['unread'] = var12;
             var8['mentionCount'] = var10;
             var10 = 0;
-            if(!var16) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
-            var10 = var11;
+            if(!var16) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
+            var10 = var11;
+case 26:
             var8['embeddedActivitiesCount'] = var10;
             var8['isSubscriptionGated'] = var18;
             var8['needSubscriptionToAccess'] = var17;
@@ -512,15 +512,15 @@ case 27:
             var8 = var8.ChannelModes;
             var8 = var8.SELECTED;
             var9 = var34 === var8;
-            if(!var9) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+            if(!var9) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var11 = _closure1_slot13;
             var10 = _closure1_slot4;
             var8 = {};
             var12 = var24.selectedBorder;
             var8['style'] = var12;
             var9 = var11.bind(var4)(var10, var8);
-case 29:
+case 28:
             var8 = new Array(2);
             var8[0] = var9;
             var11 = _closure1_slot14;
@@ -531,17 +531,17 @@ case 29:
             var12[0] = var15;
             var15 = null;
             var22 = var15 != var31;
-            if(!var22) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
-            var22 = var24.rowWithSubtitle;
+            if(!var22) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
+            var22 = var24.rowWithSubtitle;
+case 30:
             var12[1] = var22;
             var9['style'] = var12;
             var12 = new Array(3);
             var12[0] = var14;
             var14 = var26;
-            if(!(var15 != var31)) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+            if(!(var15 != var31)) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var23 = _closure1_slot14;
             var22 = _closure1_slot4;
             var15 = {};
@@ -573,7 +573,7 @@ case 34:
             var24[1] = var25;
             var15['children'] = var24;
             var14 = var23.bind(var4)(var22, var15);
-case 33:
+case 32:
             var12[1] = var14;
             var15 = _closure1_slot13;
             var14 = _closure1_slot1;

@@ -254,97 +254,97 @@ case 31:
             var13 = var3;
 case 30:
             var10 = undefined;
-            if(var11) { _fun0007_ip = 18; continue _fun0007 }
-case 32:
+            if(var11) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
             var7 = var12().value;
             var3 = var4;
             var3 = var3 === var5;
             var10 = undefined;
             var11 = var3;
-            if(var3) { _fun0007_ip = 18; continue _fun0007 }
-case 33:
+            if(var3) { _fun0007_ip = 32; continue _fun0007 }
+case 34:
             var10 = var7;
             var11 = var3;
-case 18:
+case 32:
             var3 = undefined;
-            if(var11) { _fun0007_ip = 34; continue _fun0007 }
-case 35:
+            if(var11) { _fun0007_ip = 35; continue _fun0007 }
+case 36:
             var14 = var12().value;
             var7 = var4;
             var7 = var7 === var5;
             var3 = undefined;
             var11 = var7;
-            if(var7) { _fun0007_ip = 34; continue _fun0007 }
-case 36:
+            if(var7) { _fun0007_ip = 35; continue _fun0007 }
+case 37:
             var3 = var14;
             var11 = var7;
-case 34:
+case 35:
             var7 = undefined;
-            if(var11) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
+            if(var11) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
             var14 = var12().value;
             var12 = var4;
             var12 = var12 === var5;
             var7 = undefined;
             var11 = var12;
-            if(var12) { _fun0007_ip = 37; continue _fun0007 }
-case 39:
+            if(var12) { _fun0007_ip = 38; continue _fun0007 }
+case 40:
             var7 = var14;
             var11 = var12;
-case 37:
-            if(var11) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+case 38:
+            if(var11) { _fun0007_ip = 41; continue _fun0007 }
+case 42:
             var4.return();
-case 40:
+case 41:
             var4 = var10.getVoiceChannelId;
             var12 = var4.bind(var10)();
             var10 = null;
             var4 = var10 != var12;
             var11 = null;
-            if(!var4) { _fun0007_ip = 42; continue _fun0007 }
-case 43:
+            if(!var4) { _fun0007_ip = 43; continue _fun0007 }
+case 44:
             var4 = var13.getVoiceStateForChannel;
             var11 = var4.bind(var13)(var12, var8);
-case 42:
-            if(!var2) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+case 43:
+            if(!var2) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
             var12 = var10 == var11;
             var4 = undefined;
-            if(var12) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
+            if(var12) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
             var4 = var11.mute;
-case 46:
-            if(var4) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
+case 47:
+            if(var4) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
             var12 = var10 == var11;
             var10 = undefined;
-            if(var12) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+            if(var12) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
             var10 = var11.selfMute;
-case 50:
+case 51:
             var4 = var10;
-case 48:
+case 49:
             var2 = var4;
-case 44:
+case 45:
             var4 = var3.isSpeaking;
             var4 = var4.bind(var3)(var8, var9);
-            if(!var4) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
+            if(!var4) { _fun0007_ip = 53; continue _fun0007 }
+case 54:
             var4 = !var2;
-case 52:
+case 53:
             var2 = var3.isSoundSharing;
             var3 = var2.bind(var3)(var8);
-            if(!var3) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+            if(!var3) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
             var3 = var1;
-case 54:
+case 55:
             var2 = _closure1_slot6;
             var1 = var7.isUserPlayingSounds;
             var1 = var1.bind(var7)(var8);
-            if(!var1) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
+            if(!var1) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
             var1 = var6;
-case 56:
+case 57:
             var1 = var2.bind(var5)(var4, var1, var3);
             return var1;
         }

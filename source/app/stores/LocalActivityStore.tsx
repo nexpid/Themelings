@@ -180,10 +180,10 @@ case 18:
 case 16:
                     var6 = var5;
                     var5 = var3;
-                    if(var5) { _fun0003_ip = 5; continue _fun0003 }
+                    if(var5) { _fun0003_ip = 3; continue _fun0003 }
 case 19:
                     var2.return();
-case 5:
+case 3:
                     var5 = var6;
                     var7 = var5.application_id;
                     var5 = null;
@@ -852,7 +852,7 @@ case 0:
             var6 = 0;
             var4 = false;
             if(!var5) { _fun0007_ip = 82; continue _fun0007 }
-case 4:
+case 5:
             var5 = var17[var6];
             var19 = _closure1_slot8;
             var5 = var19.bind(var1)(var5, var10);
@@ -930,7 +930,7 @@ case 89:
             var6 = var6 + 1;
             var5 = var17.length;
             var4 = var7;
-            if(var6 < var5) { _fun0007_ip = 4; continue _fun0007 }
+            if(var6 < var5) { _fun0007_ip = 5; continue _fun0007 }
 case 82:
             if(!var4) { _fun0007_ip = 90; continue _fun0007 }
 case 91:

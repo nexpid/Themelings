@@ -6923,8 +6923,50 @@ case 12:
                     var3 = var7.bind(var1)(var3);
                     var3 = var3.CtaButtonType;
                     var3 = var3.AGE_VERIFICATION_RETRY;
-                    if(!(var3 === var6)) { _fun0077_ip = 193; continue _fun0077 }
+                    if(!(var3 !== var6)) { _fun0077_ip = 367; continue _fun0077 }
 case 236:
+                    var7 = _closure1_slot0;
+                    var3 = _closure1_slot3;
+                    var3 = var3[var8];
+                    var3 = var7.bind(var1)(var3);
+                    var3 = var3.CtaButtonType;
+                    var3 = var3.CONNECT_TO_TEEN;
+                    if(!(var3 === var6)) { _fun0077_ip = 353; continue _fun0077 }
+case 78:
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot3;
+                    var3 = 185;
+                    var3 = var7[var3];
+                    var6 = var6.bind(var1)(var3);
+                    var3 = var6.resumeFamilyCenterConnection;
+                    var3 = var3.bind(var6)();
+                    if(var3) { _fun0077_ip = 343; continue _fun0077 }
+case 47:
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot3;
+                    var3 = 138;
+                    var3 = var7[var3];
+                    var7 = var6.bind(var1)(var3);
+                    var6 = var7.openUserSettings;
+                    var3 = {};
+                    var8 = _closure1_slot58;
+                    var8 = var8.FAMILY_CENTER;
+                    var3['screen'] = var8;
+                    var3 = var6.bind(var7)(var3);
+case 343:
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot3;
+                    var3 = 178;
+                    var6 = var9[var3];
+                    var7 = var8.bind(var1)(var6);
+                    var6 = var7.trackAgeVerificationDmClicked;
+                    var3 = var9[var3];
+                    var3 = var8.bind(var1)(var3);
+                    var3 = var3.AgeVerificationDmCta;
+                    var3 = var3.CONNECT_TO_TEEN;
+                    var3 = var6.bind(var7)(var3, var4);
+                    _fun0077_ip = 353; continue _fun0077;
+case 367:
                     var6 = _closure1_slot1;
                     var9 = _closure1_slot3;
                     var3 = 177;
@@ -6948,7 +6990,7 @@ case 236:
                     var3 = var3.AgeVerificationDmCta;
                     var3 = var3.RETRY;
                     var3 = var6.bind(var7)(var3, var4);
-                    _fun0077_ip = 193; continue _fun0077;
+                    _fun0077_ip = 353; continue _fun0077;
 case 386:
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot3;
@@ -6957,7 +6999,7 @@ case 386:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.handleSenderFalsePositiveFlow;
                     var2 = var2.bind(var3)(var4, var5);
-case 193:
+case 353:
                     return var1;
                 }
             };
@@ -6975,7 +7017,7 @@ case 0:
                     var4 = var7.getNativeSyntheticEventData;
                     var4 = var4.bind(var7)(var3);
                     var4 = var4.messageId;
-                    var12 = 185;
+                    var12 = 186;
                     var5 = var5[var12];
                     var6 = var6.bind(var1)(var5);
                     var5 = var6.getMessageAccessibilityActionFromLabel;
@@ -7046,7 +7088,7 @@ case 314:
 case 392:
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot3;
-                    var7 = 186;
+                    var7 = 187;
                     var7 = var10[var7];
                     var8 = var8.bind(var1)(var7);
                     var7 = {};
@@ -7185,7 +7227,7 @@ case 0:
 case 59:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot3;
-                    var2 = 187;
+                    var2 = 188;
                     var2 = var5[var2];
                     var2 = var4.bind(var1)(var2);
                     var2 = var2.bind(var1)(var3);
@@ -7216,7 +7258,7 @@ case 0:
 case 337:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot3;
-                    var3 = 188;
+                    var3 = 189;
                     var3 = var8[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.getInlineForwardOptions;
@@ -7247,7 +7289,7 @@ case 31:
 case 199:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var2 = 189;
+                    var2 = 190;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.openForwardModal;
@@ -7286,7 +7328,7 @@ case 365:
                 var3 = arg1;
                 var3 = var4.bind(var6)(var3);
                 var4 = _closure1_slot1;
-                var2 = 190;
+                var2 = 191;
                 var2 = var5[var2];
                 var2 = var4.bind(var1)(var2);
                 var2 = var2.bind(var1)(var3);
@@ -7368,7 +7410,7 @@ case 0:
 case 10:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var2 = 191;
+                    var2 = 192;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.onTapContentInventoryEntryEmbed;
@@ -7411,7 +7453,7 @@ case 0:
 case 10:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var2 = 192;
+                    var2 = 193;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.onTapCheckpointCard;
@@ -7447,7 +7489,7 @@ case 0:
 case 59:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var2 = 193;
+                    var2 = 194;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.handleTapAppMessageEmbed;
@@ -7485,7 +7527,7 @@ case 0:
 case 59:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var2 = 194;
+                    var2 = 195;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.handleTapPreviewSharedClientTheme;
@@ -7523,7 +7565,7 @@ case 0:
 case 59:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var2 = 195;
+                    var2 = 196;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.handleSharedClientThemeViewed;
@@ -7645,7 +7687,7 @@ case 407:
         return var1;
     };
     var2 = var2.bind(var1)();
-    var4 = 196;
+    var4 = 197;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

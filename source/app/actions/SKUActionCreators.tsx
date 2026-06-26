@@ -1259,7 +1259,7 @@ case 133:
                     var5 = var7.bind(var6)(var5);
                     throw var5;
 case 132:
-                    var5 = var6.handleConfirmation;
+                    var5 = var6.handlePaymentConfirmation;
                     var4 = var4.body;
                     var3 = var5.bind(var6)(var4, var3);
                     return var3;

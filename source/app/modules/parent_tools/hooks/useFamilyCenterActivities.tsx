@@ -135,7 +135,29 @@ case 5:
             var2 = var2.PURCHASES;
             if(!(var6 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+            var2 = _closure1_slot3;
+            var2 = var2.GIFTS;
+            if(!(var6 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             return var3;
+case 8:
+            var6 = _closure1_slot2;
+            var2 = var6.getTotalGiftValue;
+            var6 = var2.bind(var6)();
+            var2 = var3;
+            if(!(var5 != var6)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var7 = 4;
+            var7 = var9[var7];
+            var9 = var8.bind(var4)(var7);
+            var8 = var9.shortenAndFormatPrice;
+            var7 = var6.amount;
+            var6 = var6.currency;
+            var2 = var8.bind(var9)(var7, var6);
+case 10:
+            return var2;
 case 6:
             var6 = _closure1_slot2;
             var2 = var6.getTotalSpendAmount;
@@ -144,11 +166,11 @@ case 6:
             var2 = var6.getTotalSpendCurrency;
             var7 = var2.bind(var6)();
             var2 = var3;
-            if(!(var5 != var8)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!(var5 != var8)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var3;
-            if(!(var5 != var7)) { _fun0001_ip = 8; continue _fun0001 }
-case 10:
+            if(!(var5 != var7)) { _fun0001_ip = 12; continue _fun0001 }
+case 14:
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
             var5 = 4;
@@ -156,7 +178,7 @@ case 10:
             var6 = var6.bind(var4)(var5);
             var5 = var6.shortenAndFormatPrice;
             var2 = var5.bind(var6)(var8, var7);
-case 8:
+case 12:
             return var2;
 case 4:
             var2 = _closure1_slot0;

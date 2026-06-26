@@ -35,7 +35,7 @@ case 3:
 case 4: // try_start_0
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 9;
+                    var4 = 8;
                     var4 = var6[var4];
                     var6 = var5.bind(var8)(var4);
                     var5 = var6.createFriendInvite;
@@ -59,11 +59,11 @@ case 10: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 10;
+                    var2 = 9;
                     var2 = var9[var2];
                     var4 = var7.bind(var8)(var2);
                     var3 = var4.presentError;
-                    var2 = 11;
+                    var2 = 10;
                     var5 = var9[var2];
                     var5 = var7.bind(var8)(var5);
                     var6 = var5.intl;
@@ -127,11 +127,11 @@ case 13:
 case 15:
                     var6 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var5 = 12;
+                    var5 = 11;
                     var5 = var13[var5];
                     var8 = var6.bind(var3)(var5);
                     var7 = var8.handleOpenShareSheet;
-                    var5 = 11;
+                    var5 = 10;
                     var9 = var13[var5];
                     var9 = var6.bind(var3)(var9);
                     var10 = var9.intl;
@@ -142,7 +142,7 @@ case 15:
                     var6 = var5.PJf9P9;
                     var5 = {};
                     var12 = _closure1_slot1;
-                    var11 = 13;
+                    var11 = 12;
                     var11 = var13[var11];
                     var11 = var12.bind(var3)(var11);
                     var11 = var11.bind(var3)(var2);
@@ -208,7 +208,7 @@ case 19:
 case 21:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var5 = 12;
+                    var5 = 11;
                     var5 = var7[var5];
                     var7 = var6.bind(var3)(var5);
                     var6 = var7.handleCopy;
@@ -279,28 +279,19 @@ case 16:
     var2 = var13.bind(var1)(var2);
     var2 = var2.space;
     var2 = var2.PX_16;
-    var5 = var5 + var2;
-    var15 = 7;
-    var2 = var7[var15];
-    var2 = var6.bind(var1)(var2);
-    var2 = var2.MESSAGES_NEW_MESSAGE_WIDGET_HEIGHT;
     var2 = var5 + var2;
-    var5 = 8;
+    var5 = 7;
     var5 = var7[var5];
     var10 = var6.bind(var1)(var5);
     var9 = var10.createStyles;
     var5 = {};
-    var11 = {'height': null, 'paddingHorizontal': null, 'paddingBottom': null, 'justifyContent': 'space-between', 'flexDirection': 'row', 'alignItems': 'center'};
+    var11 = {'height': null, 'paddingHorizontal': null, 'justifyContent': 'space-between', 'flexDirection': 'row', 'alignItems': 'center'};
     var11['height'] = var2;
-    var16 = var7[var12];
-    var16 = var13.bind(var1)(var16);
-    var16 = var16.space;
-    var16 = var16.PX_8;
-    var11['paddingHorizontal'] = var16;
-    var15 = var7[var15];
-    var15 = var6.bind(var1)(var15);
-    var15 = var15.MESSAGES_NEW_MESSAGE_WIDGET_HEIGHT;
-    var11['paddingBottom'] = var15;
+    var15 = var7[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.space;
+    var15 = var15.PX_8;
+    var11['paddingHorizontal'] = var15;
     var5['container'] = var11;
     var11 = {'flexDirection': 'row', 'alignItems': 'center'};
     var15 = var7[var12];
@@ -348,7 +339,7 @@ case 16:
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 13;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -389,12 +380,12 @@ case 24:
         var10 = _closure1_slot7;
         var14 = _closure1_slot0;
         var15 = _closure1_slot2;
-        var5 = 15;
+        var5 = 14;
         var5 = var15[var5];
         var5 = var14.bind(var4)(var5);
         var6 = var5.PressableHighlight;
         var5 = {};
-        var11 = 11;
+        var11 = 10;
         var8 = var15[var11];
         var8 = var14.bind(var4)(var8);
         var13 = var8.intl;
@@ -410,7 +401,7 @@ case 24:
         var5['onPress'] = var7;
         var7 = var17.title;
         var5['style'] = var7;
-        var7 = 16;
+        var7 = 15;
         var7 = var15[var7];
         var7 = var14.bind(var4)(var7);
         var8 = var7.Text;
@@ -442,7 +433,7 @@ case 24:
         var7['style'] = var13;
         var13 = 'filled';
         var7['variant'] = var13;
-        var18 = 17;
+        var18 = 16;
         var18 = var15[var18];
         var18 = var16.bind(var4)(var18);
         var7['source'] = var18;
@@ -467,7 +458,7 @@ case 24:
         var17 = var17.actionIcon;
         var8['style'] = var17;
         var8['variant'] = var13;
-        var13 = 18;
+        var13 = 17;
         var13 = var15[var13];
         var13 = var16.bind(var4)(var13);
         var8['source'] = var13;
@@ -493,7 +484,7 @@ case 24:
         return var1;
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 19;
+    var5 = 18;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/application_account_linking/AccountLinkingActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function accountLinkAuthorizationStarted(arg1, arg2, arg3) {
+    var4 = function accountLinkAuthorizationStarted(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -36,8 +36,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['applicationId'] = var5;
         var5 = arg2;
         var2['accountLinkCallbacks'] = var5;
-        var5 = arg3;
-        var2['claimIncentivizedAccountLinkingRewardCallbacks'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };

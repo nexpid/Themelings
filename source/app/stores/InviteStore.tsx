@@ -435,9 +435,15 @@ case 23:
                 var3 = var1.invite;
                 var3 = var3.profile;
                 var2['profile'] = var3;
+                var3 = var1.invite;
+                var3 = var3.roles;
+                var2['roles'] = var3;
+                var3 = var1.invite;
+                var3 = var3.target_channel_id;
+                var2['target_channel_id'] = var3;
                 var1 = var1.invite;
-                var1 = var1.roles;
-                var2['roles'] = var1;
+                var1 = var1.target_message_id;
+                var2['target_message_id'] = var1;
                 var1 = undefined;
                 return var1;
             }

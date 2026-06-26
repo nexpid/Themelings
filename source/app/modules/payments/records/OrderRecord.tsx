@@ -13,7 +13,7 @@ case 0:
             var1 = arg2;
             var9 = var2.bind(var3)(var1);
             var2 = _closure1_slot2;
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -34,7 +34,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -67,13 +67,13 @@ case 7:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot9 = var2;
+            _closure1_slot10 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var5 = var9.defineProperty;
@@ -115,6 +115,10 @@ case 7:
     var2 = var7[var2];
     var2 = var8.bind(var1)(var2);
     var _closure1_slot6 = var2;
+    var2 = 8;
+    var2 = var7[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot7 = var2;
     var2 = function(arg1) {
         var5 = function BillingFacetRecord(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -125,7 +129,7 @@ case 0:
                 var4 = _closure2_slot0;
                 var2 = undefined;
                 var6 = var6.bind(var2)(var5, var4);
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
                 var1 = var1.bind(var2)(var5, var4);
                 var2 = var3.paymentGateway;
                 var1['paymentGateway'] = var2;
@@ -202,7 +206,7 @@ case 12:
         return var1;
     };
     var2 = var2.bind(var1)(var5);
-    var _closure1_slot7 = var2;
+    var _closure1_slot8 = var2;
     var4 = function(arg1) {
         var5 = function OrderRecord(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -213,7 +217,7 @@ case 0:
                 var4 = _closure2_slot0;
                 var3 = undefined;
                 var6 = var6.bind(var3)(var5, var4);
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
                 var1 = var1.bind(var3)(var5, var4);
                 var3 = var2.id;
                 var1['id'] = var3;
@@ -244,21 +248,29 @@ case 21:
                 var4 = var5;
 case 20:
                 var1['giftingFacet'] = var4;
-                var5 = var2.checkoutContextRecord;
+                var5 = var2.subscriptionFacet;
                 var6 = var3 != var5;
                 var4 = null;
                 if(!var6) { _fun0005_ip = 22; continue _fun0005 }
 case 23:
                 var4 = var5;
 case 22:
+                var1['subscriptionFacet'] = var4;
+                var5 = var2.checkoutContextRecord;
+                var6 = var3 != var5;
+                var4 = null;
+                if(!var6) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
+                var4 = var5;
+case 24:
                 var1['checkoutContextRecord'] = var4;
                 var4 = var2.createdAt;
                 var1['createdAt'] = var4;
                 var2 = var2.unsatisfiedConstraints;
-                if(!(var3 == var2)) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+                if(!(var3 == var2)) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
                 var2 = new Array(0);
-case 24:
+case 26:
                 var1['unsatisfiedConstraints'] = var2;
                 return var1;
             }
@@ -279,11 +291,11 @@ case 0:
                 var3 = var2.billingFacetRecord;
                 var1 = null;
                 var3 = var1 == var3;
-                if(var3) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+                if(var3) { _fun0006_ip = 28; continue _fun0006 }
+case 29:
                 var2 = var2.billingFacetRecord;
                 var1 = var2.invoicePreview;
-case 26:
+case 28:
                 return var1;
             }
         };
@@ -302,12 +314,12 @@ case 0:
                 var3 = 0;
                 var4 = var1 > var3;
                 var1 = null;
-                if(!var4) { _fun0007_ip = 28; continue _fun0007 }
-case 29:
+                if(!var4) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
                 var2 = var2.unsatisfiedConstraints;
                 var2 = var2[var3];
                 var1 = var2.reason_code;
-case 28:
+case 30:
                 return var1;
             }
         };
@@ -330,31 +342,36 @@ case 0:
                 var1['revision'] = var4;
                 var4 = var2.order_line_items;
                 var1['orderLineItems'] = var4;
-                var6 = _closure1_slot7;
-                var4 = var6.createFromOrder;
-                var4 = var4.bind(var6)(var2);
-                var1['billingFacetRecord'] = var4;
-                var7 = var2.gifting_facet;
-                var4 = null;
-                var8 = var4 != var7;
-                var6 = null;
-                if(!var8) { _fun0008_ip = 30; continue _fun0008 }
-case 31:
-                var6 = var7;
-case 30:
-                var1['giftingFacet'] = var6;
-                var6 = _closure1_slot6;
+                var6 = _closure1_slot8;
                 var5 = var6.createFromOrder;
                 var5 = var5.bind(var6)(var2);
+                var1['billingFacetRecord'] = var5;
+                var7 = var2.gifting_facet;
+                var6 = null;
+                var8 = var6 != var7;
+                var5 = null;
+                if(!var8) { _fun0008_ip = 32; continue _fun0008 }
+case 33:
+                var5 = var7;
+case 32:
+                var1['giftingFacet'] = var5;
+                var7 = _closure1_slot6;
+                var5 = var7.createFromOrder;
+                var5 = var5.bind(var7)(var2);
                 var1['checkoutContextRecord'] = var5;
                 var5 = var2.created_at;
                 var1['createdAt'] = var5;
-                var2 = var2.unsatisfied_constraints;
-                if(!(var4 == var2)) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
-                var2 = new Array(0);
-case 32:
-                var1['unsatisfiedConstraints'] = var2;
+                var5 = var2.unsatisfied_constraints;
+                if(!(var6 == var5)) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
+                var5 = new Array(0);
+case 34:
+                var1['unsatisfiedConstraints'] = var5;
+                var5 = _closure1_slot7;
+                var4 = var5.createFromServer;
+                var2 = var2.subscription_facet;
+                var2 = var4.bind(var5)(var2);
+                var1['subscriptionFacet'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var10 = var2;
@@ -371,7 +388,7 @@ case 32:
         return var1;
     };
     var4 = var4.bind(var1)(var5);
-    var5 = 8;
+    var5 = 9;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

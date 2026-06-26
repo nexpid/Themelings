@@ -186,6 +186,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['XboxGamePassStoreLink'] = var5;
     var4 = 'XboxGamePassStoreLink';
     var6[var5] = var4;
+    var5 = 39;
+    var6['CopyLink'] = var5;
+    var4 = 'CopyLink';
+    var6[var5] = var4;
     var5 = {};
     var4 = 'activity_card';
     var5['ActivityCard'] = var4;

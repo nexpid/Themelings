@@ -570,19 +570,19 @@ case 33:
             var7['uris'] = var13;
             var11 = var8 != var11;
             var10 = undefined;
-            if(!var11) { _fun0008_ip = 12; continue _fun0008 }
-case 35:
+            if(!var11) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
             var11 = {};
             var11['uri'] = var12;
             var10 = var11;
-case 12:
+case 35:
             var7['offset'] = var10;
             var10 = var8 != var9;
             var8 = 0;
-            if(!var10) { _fun0008_ip = 36; continue _fun0008 }
-case 37:
+            if(!var10) { _fun0008_ip = 37; continue _fun0008 }
+case 38:
             var8 = var9;
-case 36:
+case 37:
             var7['position_ms'] = var8;
             var2['body'] = var7;
             var4 = var3.bind(var4)(var6, var5, var2);
@@ -593,8 +593,8 @@ case 0:
                     var1 = arg1;
                     var3 = _closure2_slot5;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0009_ip = 38; continue _fun0009 }
-case 39:
+                    if(!(var2 != var3)) { _fun0009_ip = 39; continue _fun0009 }
+case 40:
                     var6 = _closure1_slot9;
                     var5 = var6.put;
                     var4 = _closure2_slot0;
@@ -608,14 +608,14 @@ case 39:
                     var7['device_id'] = var9;
                     var9 = _closure2_slot5;
                     var8 = 'off';
-                    if(!var9) { _fun0009_ip = 40; continue _fun0009 }
-case 41:
+                    if(!var9) { _fun0009_ip = 41; continue _fun0009 }
+case 42:
                     var8 = 'context';
-case 40:
+case 41:
                     var7['state'] = var8;
                     var2['query'] = var7;
                     var1 = var5.bind(var6)(var4, var3, var2);
-case 38:
+case 39:
                     return var1;
                 }
             };
@@ -640,10 +640,10 @@ case 0:
                     var4 = null;
                     var6 = var4 != var6;
                     var4 = 0;
-                    if(!var6) { _fun0010_ip = 42; continue _fun0010 }
-case 43:
+                    if(!var6) { _fun0010_ip = 43; continue _fun0010 }
+case 44:
                     var4 = _closure2_slot4;
-case 42:
+case 43:
                     var1['position'] = var4;
                     var1 = var2.bind(var3)(var1);
                     var1 = arg1;
@@ -691,8 +691,8 @@ case 0:
             var3 = _closure1_slot3;
             var2 = var3.isProtocolRegistered;
             var2 = var2.bind(var3)();
-            if(var2) { _fun0011_ip = 44; continue _fun0011 }
-case 45:
+            if(var2) { _fun0011_ip = 45; continue _fun0011 }
+case 46:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 7;
@@ -701,8 +701,8 @@ case 45:
             var3 = var3.bind(var4)(var2);
             var2 = var3.isDesktop;
             var2 = var2.bind(var3)();
-            if(!var2) { _fun0011_ip = 44; continue _fun0011 }
-case 46:
+            if(!var2) { _fun0011_ip = 45; continue _fun0011 }
+case 47:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 8;
@@ -729,7 +729,7 @@ case 46:
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-case 44:
+case 45:
             var1 = undefined;
             return var1;
         }

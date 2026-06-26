@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_4', 'opacity': 0.0392156862745098};
+    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_4', 'opacity': 0.0392156862745098};
+    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['BACKGROUND_MOD_MUTED'] = var8;
@@ -215,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['BACKGROUND_MOD_SUBTLE'] = var8;
@@ -439,7 +439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -448,14 +448,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['CARD_SECONDARY_BACKGROUND_DEFAULT'] = var8;
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -464,7 +464,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['CARD_SECONDARY_BG'] = var8;
@@ -1127,7 +1127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -1136,7 +1136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['CONTROL_SECONDARY_BACKGROUND_DEFAULT'] = var8;
@@ -1223,7 +1223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -1232,7 +1232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['GUILD_FOLDER_BACKGROUND'] = var8;
@@ -1479,7 +1479,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -1488,7 +1488,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['INTERACTIVE_BACKGROUND_HOVER'] = var8;
@@ -1639,7 +1639,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -1648,7 +1648,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['MESSAGE_BACKGROUND_HOVER'] = var8;
@@ -1895,7 +1895,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -1904,7 +1904,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['MOBILE_EMOJI_BUTTON_BACKGROUND'] = var8;
@@ -1975,7 +1975,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -1984,7 +1984,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['MOBILE_GUILDBAR_ICON_BACKGROUND_DEFAULT'] = var8;
@@ -2085,7 +2085,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -2094,7 +2094,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['MOBILE_SEGMENTED_CONTROL_BACKGROUND'] = var8;
@@ -2309,7 +2309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -2318,7 +2318,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['REACTION_BACKGROUND_DEFAULT'] = var8;
@@ -2661,7 +2661,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_4', 'opacity': 0.0392156862745098};
+    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -2670,7 +2670,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_4', 'opacity': 0.0392156862745098};
+    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['TABLEROW_BACKGROUND_DEFAULT'] = var8;
@@ -2981,7 +2981,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var12 = var10.DARK;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.LIGHT;
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
@@ -2990,7 +2990,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var12 = var10.DARKER;
-    var11 = {'raw': 'OPACITY_8', 'opacity': 0.0784313725490196};
+    var11 = {'raw': 'OPACITY_12', 'opacity': 0.12156862745098039};
     var9[11] = var11;
     var8['mobile-visual-refresh'] = var9;
     var7['USER_PROFILE_CONTAINER_BACKGROUND'] = var8;

@@ -329,14 +329,30 @@ case 17:
             return var1;
         };
         var2['INVITE_REGISTER'] = var16;
-        var16 = function INVITE_PROXY(arg1) {
-            var1 = global;
-            var1 = var1.HermesInternal;
-            var3 = var1.concat;
-            var2 = '/invite-proxy/';
-            var1 = arg1;
-            var1 = var3.bind(var2)(var1);
-            return var1;
+        var16 = function INVITE_PROXY(arg1, arg2) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                var6 = arg1;
+                var5 = arg2;
+                var1 = null;
+                if(!(var1 == var5)) { _fun0007_ip = 2; continue _fun0007 }
+case 19:
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var2 = var1.concat;
+                var1 = '/invite-proxy/';
+                var1 = var2.bind(var1)(var6);
+                _fun0007_ip = 15; continue _fun0007;
+case 2:
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var4 = var2.concat;
+                var3 = '/invite-proxy/';
+                var2 = '?messageId=';
+                var1 = var4.bind(var3)(var6, var2, var5);
+case 15:
+                return var1;
+            }
         };
         var2['INVITE_PROXY'] = var16;
         var16 = function GUILD_TEMPLATE(arg1) {
@@ -382,16 +398,16 @@ case 17:
         };
         var2['GIFT_CODE_LOGIN'] = var16;
         var16 = function WELCOME(arg1, arg2) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = arg1;
                 var6 = arg2;
                 var3 = null;
-                if(!(var3 == var6)) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
+                if(!(var3 == var6)) { _fun0008_ip = 20; continue _fun0008 }
+case 19:
                 var1 = var3 != var2;
                 var5 = '@me';
-                if(!var1) { _fun0007_ip = 21; continue _fun0007 }
+                if(!var1) { _fun0008_ip = 21; continue _fun0008 }
 case 22:
                 var5 = var2;
 case 21:
@@ -400,11 +416,11 @@ case 21:
                 var4 = var1.concat;
                 var1 = '/welcome/';
                 var1 = var4.bind(var1)(var5);
-                _fun0007_ip = 23; continue _fun0007;
-case 19:
+                _fun0008_ip = 23; continue _fun0008;
+case 20:
                 var3 = var3 != var2;
                 var5 = '@me';
-                if(!var3) { _fun0007_ip = 15; continue _fun0007 }
+                if(!var3) { _fun0008_ip = 15; continue _fun0008 }
 case 24:
                 var5 = var2;
 case 15:
@@ -505,13 +521,13 @@ case 23:
         var16 = '/oauth2/error';
         var2['OAUTH2_ERROR'] = var16;
         var16 = function SETTINGS(arg1, arg2) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var3 = arg2;
                 var1 = null;
                 var1 = var1 != var3;
                 var4 = '';
-                if(!var1) { _fun0008_ip = 2; continue _fun0008 }
+                if(!var1) { _fun0009_ip = 2; continue _fun0009 }
 case 3:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -534,7 +550,7 @@ case 2:
         var16 = '/snowsgiving';
         var2['SNOWSGIVING'] = var16;
         var16 = function PLAYGROUND(arg1, arg2) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var8 = arg1;
                 var6 = arg2;
@@ -542,7 +558,7 @@ case 0:
                 var2 = var7 != var8;
                 var4 = '/playground';
                 var1 = var4;
-                if(!var2) { _fun0009_ip = 25; continue _fun0009 }
+                if(!var2) { _fun0010_ip = 25; continue _fun0010 }
 case 26:
                 var3 = global;
                 var2 = var3.HermesInternal;
@@ -551,7 +567,7 @@ case 26:
                 var2 = var2.bind(var5)(var8);
                 var4 = var4 + var2;
                 var2 = var4;
-                if(!(var7 != var6)) { _fun0009_ip = 27; continue _fun0009 }
+                if(!(var7 != var6)) { _fun0010_ip = 27; continue _fun0010 }
 case 14:
                 var3 = var3.HermesInternal;
                 var3 = var3.concat;
@@ -565,13 +581,13 @@ case 25:
         };
         var2['PLAYGROUND'] = var16;
         var16 = function CHANGELOGS(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var4 = arg1;
                 var1 = null;
                 var1 = var1 != var4;
                 var2 = '';
-                if(!var1) { _fun0010_ip = 2; continue _fun0010 }
+                if(!var1) { _fun0011_ip = 2; continue _fun0011 }
 case 3:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -707,13 +723,13 @@ case 2:
         };
         var2['GUILD_MEMBER_VERIFICATION'] = var16;
         var16 = function GUILD_MEMBER_VERIFICATION_FOR_HUB(arg1, arg2) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var3 = arg2;
                 var1 = null;
                 var1 = var1 != var3;
                 var4 = '';
-                if(!var1) { _fun0011_ip = 2; continue _fun0011 }
+                if(!var1) { _fun0012_ip = 2; continue _fun0012 }
 case 3:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -734,13 +750,13 @@ case 2:
         var16 = '/popout';
         var2['POPOUT_WINDOW'] = var16;
         var16 = function UPCOMING_STAGES(arg1, arg2) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                 var3 = arg2;
                 var1 = null;
                 var1 = var1 != var3;
                 var4 = '';
-                if(!var1) { _fun0012_ip = 2; continue _fun0012 }
+                if(!var1) { _fun0013_ip = 2; continue _fun0013 }
 case 3:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -765,13 +781,13 @@ case 2:
         var16 = '/billing/premium/manage';
         var2['BILLING_MANAGE_SUBSCRIPTION'] = var16;
         var16 = function BILLING_MANAGE_SUBSCRIPTION_WITH_DEEP_LINK(arg1, arg2) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var3 = arg2;
                 var1 = null;
                 var1 = var1 != var3;
                 var4 = '';
-                if(!var1) { _fun0013_ip = 28; continue _fun0013 }
+                if(!var1) { _fun0014_ip = 28; continue _fun0014 }
 case 3:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -790,13 +806,13 @@ case 28:
         };
         var2['BILLING_MANAGE_SUBSCRIPTION_WITH_DEEP_LINK'] = var16;
         var16 = function BILLING_MANAGE_SUBSCRIPTION_WITH_FLOW_TYPE(arg1, arg2) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var3 = arg2;
                 var1 = null;
                 var1 = var1 != var3;
                 var4 = '';
-                if(!var1) { _fun0014_ip = 28; continue _fun0014 }
+                if(!var1) { _fun0015_ip = 28; continue _fun0015 }
 case 3:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -815,7 +831,7 @@ case 28:
         };
         var2['BILLING_MANAGE_SUBSCRIPTION_WITH_FLOW_TYPE'] = var16;
         var16 = function BILLING_STANDALONE_CHECKOUT_PAGE(arg1, arg2, arg3, arg4, arg5, arg6, arg7) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var7 = arg4;
                 var6 = arg5;
@@ -825,7 +841,7 @@ case 0:
                 var2 = var1 != var7;
                 var11 = '';
                 var10 = var11;
-                if(!var2) { _fun0015_ip = 29; continue _fun0015 }
+                if(!var2) { _fun0016_ip = 29; continue _fun0016 }
 case 21:
                 var2 = global;
                 var2 = var2.HermesInternal;
@@ -835,7 +851,7 @@ case 21:
 case 29:
                 var2 = var1 != var6;
                 var9 = var11;
-                if(!var2) { _fun0015_ip = 30; continue _fun0015 }
+                if(!var2) { _fun0016_ip = 30; continue _fun0016 }
 case 10:
                 var2 = global;
                 var2 = var2.HermesInternal;
@@ -845,7 +861,7 @@ case 10:
 case 30:
                 var2 = var1 != var5;
                 var8 = var11;
-                if(!var2) { _fun0015_ip = 31; continue _fun0015 }
+                if(!var2) { _fun0016_ip = 31; continue _fun0016 }
 case 32:
                 var2 = global;
                 var2 = var2.HermesInternal;
@@ -854,7 +870,7 @@ case 32:
                 var8 = var4.bind(var2)(var5);
 case 31:
                 var1 = var1 != var3;
-                if(!var1) { _fun0015_ip = 33; continue _fun0015 }
+                if(!var1) { _fun0016_ip = 33; continue _fun0016 }
 case 11:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -881,7 +897,7 @@ case 33:
         };
         var2['BILLING_STANDALONE_CHECKOUT_PAGE'] = var16;
         var16 = function BILLING_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE(arg1, arg2, arg3, arg4) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var7 = arg2;
                 var8 = arg3;
@@ -890,7 +906,7 @@ case 0:
                 var2 = var1 != var7;
                 var6 = '';
                 var5 = var6;
-                if(!var2) { _fun0016_ip = 34; continue _fun0016 }
+                if(!var2) { _fun0017_ip = 34; continue _fun0017 }
 case 22:
                 var2 = global;
                 var2 = var2.HermesInternal;
@@ -900,7 +916,7 @@ case 22:
 case 34:
                 var2 = var1 != var8;
                 var4 = var6;
-                if(!var2) { _fun0016_ip = 35; continue _fun0016 }
+                if(!var2) { _fun0017_ip = 35; continue _fun0017 }
 case 4:
                 var2 = global;
                 var2 = var2.HermesInternal;
@@ -909,7 +925,7 @@ case 4:
                 var4 = var7.bind(var2)(var8);
 case 35:
                 var1 = var1 != var3;
-                if(!var1) { _fun0016_ip = 36; continue _fun0016 }
+                if(!var1) { _fun0017_ip = 36; continue _fun0017 }
 case 37:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -942,7 +958,7 @@ case 36:
         };
         var2['GUILD_BOOSTING_MARKETING'] = var16;
         var16 = function GUILD_SETTINGS(arg1, arg2, arg3) {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                 var4 = arg2;
                 var6 = arg3;
@@ -950,7 +966,7 @@ case 0:
                 var1 = var3 != var4;
                 var5 = '';
                 var9 = var5;
-                if(!var1) { _fun0017_ip = 38; continue _fun0017 }
+                if(!var1) { _fun0018_ip = 38; continue _fun0018 }
 case 39:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -966,7 +982,7 @@ case 38:
                 var1 = '/settings';
                 var4 = var8.bind(var7)(var4, var1, var9);
                 var1 = var4;
-                if(!(var3 != var6)) { _fun0017_ip = 40; continue _fun0017 }
+                if(!(var3 != var6)) { _fun0018_ip = 40; continue _fun0018 }
 case 30:
                 var2 = var2.HermesInternal;
                 var3 = var2.concat;
@@ -978,7 +994,7 @@ case 40:
         };
         var2['GUILD_SETTINGS'] = var16;
         var16 = function PICK_GUILD_SETTINGS(arg1, arg2, arg3) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var7 = arg1;
                 var8 = arg2;
@@ -987,7 +1003,7 @@ case 0:
                 var2 = var1 != var7;
                 var4 = '';
                 var3 = var4;
-                if(!var2) { _fun0018_ip = 41; continue _fun0018 }
+                if(!var2) { _fun0019_ip = 41; continue _fun0019 }
 case 22:
                 var2 = global;
                 var2 = var2.HermesInternal;
@@ -998,7 +1014,7 @@ case 41:
                 var2 = '/guilds/settings';
                 var7 = var2 + var3;
                 var3 = var7;
-                if(!(var1 != var8)) { _fun0018_ip = 42; continue _fun0018 }
+                if(!(var1 != var8)) { _fun0019_ip = 42; continue _fun0019 }
 case 43:
                 var2 = global;
                 var2 = var2.HermesInternal;
@@ -1008,7 +1024,7 @@ case 43:
 case 42:
                 var1 = var1 != var6;
                 var2 = var4;
-                if(!var1) { _fun0018_ip = 44; continue _fun0018 }
+                if(!var1) { _fun0019_ip = 44; continue _fun0019 }
 case 45:
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -1025,7 +1041,7 @@ case 44:
         };
         var2['PICK_GUILD_SETTINGS'] = var16;
         var16 = function GUILD_EVENT_DETAILS(arg1, arg2, arg3) {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var5 = arg3;
                 var3 = global;
@@ -1039,7 +1055,7 @@ case 0:
                 var1 = null;
                 var6 = var1 != var5;
                 var1 = '';
-                if(!var6) { _fun0019_ip = 9; continue _fun0019 }
+                if(!var6) { _fun0020_ip = 9; continue _fun0020 }
 case 29:
                 var3 = var3.HermesInternal;
                 var3 = var3.concat;
@@ -1154,7 +1170,7 @@ case 9:
         };
         var2['SERVER_SHOP'] = var16;
         var16 = function CHANNELS_GAME_SHOP(arg1, arg2, arg3, arg4) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var1 = arg2;
                 var8 = arg3;
@@ -1169,8 +1185,8 @@ case 0:
                 var7 = null;
                 var5 = var7 != var1;
                 var4 = 0;
-                if(!var5) { _fun0020_ip = 14; continue _fun0020 }
-case 19:
+                if(!var5) { _fun0021_ip = 14; continue _fun0021 }
+case 20:
                 var4 = var1;
 case 14:
                 var1 = var3.HermesInternal;
@@ -1179,14 +1195,14 @@ case 14:
                 var1 = var1.bind(var5)(var4);
                 var4 = var2 + var1;
                 var1 = var4;
-                if(!(var7 != var8)) { _fun0020_ip = 46; continue _fun0020 }
+                if(!(var7 != var8)) { _fun0021_ip = 46; continue _fun0021 }
 case 42:
                 var2 = var3.HermesInternal;
                 var2 = var2.concat;
                 var2 = var2.bind(var5)(var8);
                 var4 = var4 + var2;
                 var2 = var4;
-                if(!(var7 != var6)) { _fun0020_ip = 47; continue _fun0020 }
+                if(!(var7 != var6)) { _fun0021_ip = 47; continue _fun0021 }
 case 48:
                 var3 = var3.HermesInternal;
                 var3 = var3.concat;
@@ -1200,7 +1216,7 @@ case 46:
         };
         var2['CHANNELS_GAME_SHOP'] = var16;
         var16 = function GAME_SHOP(arg1, arg2, arg3) {
-            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var8 = arg2;
                 var6 = arg3;
@@ -1212,7 +1228,7 @@ case 0:
                 var4 = var4.bind(var2)(var1);
                 var7 = null;
                 var1 = var4;
-                if(!(var7 != var8)) { _fun0021_ip = 32; continue _fun0021 }
+                if(!(var7 != var8)) { _fun0022_ip = 32; continue _fun0022 }
 case 49:
                 var2 = var3.HermesInternal;
                 var2 = var2.concat;
@@ -1220,7 +1236,7 @@ case 49:
                 var2 = var2.bind(var5)(var8);
                 var4 = var4 + var2;
                 var2 = var4;
-                if(!(var7 != var6)) { _fun0021_ip = 50; continue _fun0021 }
+                if(!(var7 != var6)) { _fun0022_ip = 50; continue _fun0022 }
 case 51:
                 var3 = var3.HermesInternal;
                 var3 = var3.concat;
@@ -1252,7 +1268,7 @@ case 32:
         var16 = '/shop';
         var2['COLLECTIBLES_SHOP'] = var16;
         var16 = function COLLECTIBLES_SHOP_GAME_SHOP(arg1, arg2, arg3, arg4) {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var9 = arg2;
                 var8 = arg3;
@@ -1268,7 +1284,7 @@ case 0:
                 var3 = var6.bind(var4)(var7, var3, var1);
                 var4 = null;
                 var6 = var3;
-                if(!(var4 != var9)) { _fun0022_ip = 8; continue _fun0022 }
+                if(!(var4 != var9)) { _fun0023_ip = 8; continue _fun0023 }
 case 52:
                 var1 = var2.HermesInternal;
                 var7 = var1.concat;
@@ -1277,7 +1293,7 @@ case 52:
                 var6 = var3 + var1;
 case 8:
                 var3 = var6;
-                if(!(var4 != var8)) { _fun0022_ip = 53; continue _fun0022 }
+                if(!(var4 != var8)) { _fun0023_ip = 53; continue _fun0023 }
 case 12:
                 var1 = var2.HermesInternal;
                 var7 = var1.concat;
@@ -1286,7 +1302,7 @@ case 12:
                 var3 = var6 + var1;
 case 53:
                 var1 = var3;
-                if(!(var4 != var5)) { _fun0022_ip = 54; continue _fun0022 }
+                if(!(var4 != var5)) { _fun0023_ip = 54; continue _fun0023 }
 case 55:
                 var2 = var2.HermesInternal;
                 var4 = var2.concat;

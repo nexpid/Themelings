@@ -606,10 +606,10 @@ case 0:
                     var2 = var2.layout;
                     var2 = var2.height;
                     var2 = var5 > var2;
-                    if(!var2) { _fun0007_ip = 6; continue _fun0007 }
-case 22:
-                    var2 = _closure2_slot4;
+                    if(!var2) { _fun0007_ip = 22; continue _fun0007 }
 case 6:
+                    var2 = _closure2_slot4;
+case 22:
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 }

@@ -74,8 +74,8 @@ case 0:
                     var1 = var1.GameLinkTypes;
                     var1 = var1.LINKED;
                     var1 = var3 === var1;
-                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
-case 11:
+                    if(!var1) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                     var4 = var2.id;
                     var3 = _closure2_slot0;
                     var2 = function hasRichPresenceForGame(arg1, arg2) {
@@ -96,7 +96,7 @@ case 11:
                         return var1;
                     };
                     var1 = var2.bind(var5)(var4, var3);
-case 8:
+case 11:
                     return var1;
                 }
             };

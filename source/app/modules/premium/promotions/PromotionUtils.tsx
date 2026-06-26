@@ -1,12 +1,12 @@
 // app/modules/premium/promotions/PromotionUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var10 = require;
-    var12 = metroImportDefault;
+    var11 = require;
+    var13 = metroImportDefault;
     var3 = exports;
-    var11 = dependencyMap;
-    var _closure1_slot0 = var10;
-    var _closure1_slot1 = var12;
-    var _closure1_slot2 = var11;
+    var12 = dependencyMap;
+    var _closure1_slot0 = var11;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var12;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -183,7 +183,7 @@ case 35:
         }
     };
     var _closure1_slot14 = var1;
-    var8 = function claimedOutboundPromotionCodeFromServer(arg1) {
+    var9 = function claimedOutboundPromotionCodeFromServer(arg1) {
         var2 = arg1;
         var1 = {};
         var3 = var2.code;
@@ -199,7 +199,7 @@ case 35:
         var1['promotion'] = var2;
         return var1;
     };
-    var _closure1_slot15 = var8;
+    var _closure1_slot15 = var9;
     var1 = function _claimOutboundPromotion() {
         var5 = undefined;
         var1 = undefined;
@@ -318,8 +318,41 @@ case 36:
         return var1;
     };
     var _closure1_slot16 = var1;
-    var7 = function getNextUnseenOutboundPromotionId() {
+    var8 = function isOutboundPromotionHiddenFromTrialUser(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var5 = arg1;
+            var3 = arg2;
+            var2 = arguments[2];
+            var4 = undefined;
+            if(!(var2 === var4)) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
+            var2 = false;
+case 52:
+            var1 = null;
+            var6 = var1 == var5;
+            var4 = undefined;
+            if(var6) { _fun0005_ip = 54; continue _fun0005 }
+case 34:
+            var4 = var5.trialId;
+case 54:
+            var1 = var1 != var4;
+            if(var1) { _fun0005_ip = 55; continue _fun0005 }
+case 38:
+            var1 = var2;
+case 55:
+            if(!var1) { _fun0005_ip = 56; continue _fun0005 }
+case 57:
+            var2 = var3.isRedeemableByTrialUsers;
+            var2 = var2.bind(var3)();
+            var1 = !var2;
+case 56:
+            return var1;
+        }
+    };
+    var _closure1_slot17 = var8;
+    var7 = function getNextUnseenOutboundPromotionId() {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = _closure1_slot8;
             var5 = var1.outboundPromotions;
@@ -328,14 +361,14 @@ case 0:
             var _closure2_slot0 = var1;
             var4 = var5.filter;
             var1 = function(arg1) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var4 = arg1;
                     var2 = var4.id;
                     var1 = _closure2_slot0;
                     var1 = var2 !== var1;
-                    if(!var1) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+                    if(!var1) { _fun0007_ip = 58; continue _fun0007 }
+case 59:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var3 = 13;
@@ -348,14 +381,14 @@ case 53:
                     var2 = var2.SUPPRESS_NOTIFICATION;
                     var2 = var5.bind(var6)(var3, var2);
                     var1 = !var2;
-case 52:
-                    if(!var1) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
-                    var3 = _closure1_slot18;
+case 58:
+                    if(!var1) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
+                    var3 = _closure1_slot19;
                     var2 = undefined;
                     var2 = var3.bind(var2)(var4);
                     var1 = !var2;
-case 54:
+case 60:
                     return var1;
                 }
             };
@@ -367,8 +400,8 @@ case 54:
             var6 = var1 == var5;
             var8 = undefined;
             var4 = undefined;
-            if(var6) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
+            if(var6) { _fun0006_ip = 62; continue _fun0006 }
+case 63:
             var6 = var5.recurringDismissibleContentStates;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -380,15 +413,15 @@ case 57:
             var5 = var6[var5];
             var6 = var1 == var5;
             var4 = undefined;
-            if(var6) { _fun0005_ip = 56; continue _fun0005 }
-case 58:
+            if(var6) { _fun0006_ip = 62; continue _fun0006 }
+case 64:
             var4 = var5.lastDismissedObjectId;
-case 56:
+case 62:
             var _closure2_slot1 = var4;
-            var6 = var7;
-            if(!(var1 != var4)) { _fun0005_ip = 59; continue _fun0005 }
-case 60:
-            var5 = var7.filter;
+            var5 = var7;
+            if(!(var1 != var4)) { _fun0006_ip = 65; continue _fun0006 }
+case 66:
+            var6 = var7.filter;
             var4 = function(arg1) {
                 var1 = arg1;
                 var4 = var1.id;
@@ -405,42 +438,36 @@ case 60:
                 var1 = var1 === var2;
                 return var1;
             };
-            var6 = var5.bind(var7)(var4);
-case 59:
-            var5 = _closure1_slot6;
-            var4 = var5.getPremiumTypeSubscription;
-            var5 = var4.bind(var5)();
-            var4 = var1 == var5;
-            if(var4) { _fun0005_ip = 61; continue _fun0005 }
-case 62:
-            var5 = var5.hasActiveTrial;
-            var4 = !var5;
-case 61:
-            var5 = _closure1_slot7;
-            var3 = var5.hasAnyUnexpiredOffer;
-            var3 = var3.bind(var5)();
-            if(!var4) { _fun0005_ip = 63; continue _fun0005 }
-case 64:
-            var5 = var6;
-            if(!var3) { _fun0005_ip = 65; continue _fun0005 }
-case 63:
-            var4 = var6.filter;
+            var5 = var6.bind(var7)(var4);
+case 65:
+            var6 = _closure1_slot6;
+            var4 = var6.getPremiumTypeSubscription;
+            var4 = var4.bind(var6)();
+            var _closure2_slot2 = var4;
+            var4 = _closure1_slot7;
+            var3 = var4.hasAnyUnexpiredOffer;
+            var3 = var3.bind(var4)();
+            var _closure2_slot3 = var3;
+            var4 = var5.filter;
             var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.isRedeemableByTrialUsers;
-                var1 = var1.bind(var2)();
+                var5 = _closure1_slot17;
+                var4 = _closure2_slot2;
+                var3 = _closure2_slot3;
+                var2 = undefined;
+                var1 = arg1;
+                var1 = var5.bind(var2)(var4, var1, var3);
+                var1 = !var1;
                 return var1;
             };
-            var5 = var4.bind(var6)(var3);
-case 65:
+            var5 = var4.bind(var5)(var3);
             var4 = var5.length;
             var3 = 0;
             var1 = null;
-            if(!(var3 !== var4)) { _fun0005_ip = 48; continue _fun0005 }
-case 66:
+            if(!(var3 !== var4)) { _fun0006_ip = 67; continue _fun0006 }
+case 68:
             var4 = var5.sort;
             var2 = function(arg1, arg2) {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var1 = global;
                     var4 = var1.Date;
@@ -461,21 +488,21 @@ case 0:
                     var1 = var1 instanceof Object ? var1 : var3;
                     var2 = var2 < var1;
                     var1 = 1;
-                    if(!var2) { _fun0007_ip = 67; continue _fun0007 }
-case 68:
+                    if(!var2) { _fun0008_ip = 69; continue _fun0008 }
+case 70:
                     var1 = -1;
-case 67:
+case 69:
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var2);
             var2 = var2[var3];
             var1 = var2.id;
-case 48:
+case 67:
             return var1;
         }
     };
-    var _closure1_slot17 = var7;
+    var _closure1_slot18 = var7;
     var6 = function isLogitechPromotion(arg1) {
         var1 = arg1;
         var2 = var1.partnerId;
@@ -489,9 +516,9 @@ case 48:
         var1 = var2 === var1;
         return var1;
     };
-    var _closure1_slot18 = var6;
+    var _closure1_slot19 = var6;
     var5 = function shouldShowOutboundPromotionOnPlatform(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
@@ -503,18 +530,18 @@ case 0:
             var1 = var3.isIOS;
             var1 = var1.bind(var3)();
             var1 = !var1;
-            if(var1) { _fun0008_ip = 69; continue _fun0008 }
-case 70:
+            if(var1) { _fun0009_ip = 71; continue _fun0009 }
+case 55:
             var3 = var4.hasFlag;
             var2 = _closure1_slot9;
             var2 = var2.IS_BLOCKED_IOS;
             var2 = var3.bind(var4)(var2);
             var1 = !var2;
-case 69:
+case 71:
             return var1;
         }
     };
-    var _closure1_slot19 = var5;
+    var _closure1_slot20 = var5;
     var4 = function isRecurringPromotion(arg1) {
         var1 = arg1;
         var2 = var1.promotionType;
@@ -529,66 +556,66 @@ case 69:
         var1 = var2 === var1;
         return var1;
     };
-    var _closure1_slot20 = var4;
+    var _closure1_slot21 = var4;
     var1 = global;
-    var14 = var1.Object;
-    var13 = var14.defineProperty;
-    var9 = {};
+    var15 = var1.Object;
+    var14 = var15.defineProperty;
+    var10 = {};
     var1 = true;
-    var9['value'] = var1;
+    var10['value'] = var1;
     var1 = '__esModule';
-    var1 = var13.bind(var14)(var3, var1, var9);
+    var1 = var14.bind(var15)(var3, var1, var10);
     var1 = 0;
-    var9 = var11[var1];
+    var10 = var12[var1];
     var1 = undefined;
-    var9 = var12.bind(var1)(var9);
-    var _closure1_slot3 = var9;
-    var9 = 1;
-    var9 = var11[var9];
-    var9 = var12.bind(var1)(var9);
-    var _closure1_slot4 = var9;
-    var9 = 2;
-    var9 = var11[var9];
-    var9 = var12.bind(var1)(var9);
-    var _closure1_slot5 = var9;
-    var9 = 3;
-    var9 = var11[var9];
-    var9 = var12.bind(var1)(var9);
-    var _closure1_slot6 = var9;
-    var9 = 4;
-    var9 = var11[var9];
-    var9 = var12.bind(var1)(var9);
-    var _closure1_slot7 = var9;
-    var9 = 5;
-    var9 = var11[var9];
-    var9 = var12.bind(var1)(var9);
-    var _closure1_slot8 = var9;
-    var9 = 6;
-    var9 = var11[var9];
-    var9 = var10.bind(var1)(var9);
-    var9 = var9.PromotionFlags;
-    var _closure1_slot9 = var9;
-    var9 = 7;
-    var9 = var11[var9];
-    var9 = var10.bind(var1)(var9);
-    var12 = var9.AnalyticEvents;
-    var _closure1_slot10 = var12;
-    var12 = var9.Endpoints;
-    var _closure1_slot11 = var12;
-    var9 = var9.Platforms;
-    var _closure1_slot12 = var9;
-    var9 = 8;
-    var9 = var11[var9];
-    var9 = var10.bind(var1)(var9);
-    var9 = var9.ActivityPlatform;
-    var9 = 19;
-    var9 = var11[var9];
-    var11 = var10.bind(var1)(var9);
-    var10 = var11.fileFinishedImporting;
-    var9 = 'modules/premium/promotions/PromotionUtils.tsx';
-    var9 = var10.bind(var11)(var9);
-    var9 = function getPromotionImageURL(arg1, arg2) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+    var10 = var13.bind(var1)(var10);
+    var _closure1_slot3 = var10;
+    var10 = 1;
+    var10 = var12[var10];
+    var10 = var13.bind(var1)(var10);
+    var _closure1_slot4 = var10;
+    var10 = 2;
+    var10 = var12[var10];
+    var10 = var13.bind(var1)(var10);
+    var _closure1_slot5 = var10;
+    var10 = 3;
+    var10 = var12[var10];
+    var10 = var13.bind(var1)(var10);
+    var _closure1_slot6 = var10;
+    var10 = 4;
+    var10 = var12[var10];
+    var10 = var13.bind(var1)(var10);
+    var _closure1_slot7 = var10;
+    var10 = 5;
+    var10 = var12[var10];
+    var10 = var13.bind(var1)(var10);
+    var _closure1_slot8 = var10;
+    var10 = 6;
+    var10 = var12[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.PromotionFlags;
+    var _closure1_slot9 = var10;
+    var10 = 7;
+    var10 = var12[var10];
+    var10 = var11.bind(var1)(var10);
+    var13 = var10.AnalyticEvents;
+    var _closure1_slot10 = var13;
+    var13 = var10.Endpoints;
+    var _closure1_slot11 = var13;
+    var10 = var10.Platforms;
+    var _closure1_slot12 = var10;
+    var10 = 8;
+    var10 = var12[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.ActivityPlatform;
+    var10 = 19;
+    var10 = var12[var10];
+    var12 = var11.bind(var1)(var10);
+    var11 = var12.fileFinishedImporting;
+    var10 = 'modules/premium/promotions/PromotionUtils.tsx';
+    var10 = var11.bind(var12)(var10);
+    var10 = function getPromotionImageURL(arg1, arg2) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var9 = arg1;
             var3 = _closure1_slot0;
@@ -601,17 +628,17 @@ case 0:
             var1 = arg2;
             var1 = var2.bind(var3)(var1);
             var8 = 'logo-light';
-            if(!var1) { _fun0009_ip = 71; continue _fun0009 }
-case 72:
+            if(!var1) { _fun0010_ip = 72; continue _fun0010 }
+case 73:
             var8 = 'logo-dark';
-case 71:
+case 72:
             var2 = global;
             var1 = var2.window;
             var1 = var1.GLOBAL_ENV;
             var7 = var1.CDN_HOST;
             var1 = null;
-            if(!(var1 == var7)) { _fun0009_ip = 59; continue _fun0009 }
-case 73:
+            if(!(var1 == var7)) { _fun0010_ip = 65; continue _fun0010 }
+case 74:
             var1 = var2.location;
             var18 = var1.protocol;
             var1 = var2.window;
@@ -626,8 +653,8 @@ case 73:
             var15 = var9;
             var13 = var8;
             var1 = var19[var6](var18, var17, var16, var15, var14, var13, var12, var11);
-            _fun0009_ip = 74; continue _fun0009;
-case 59:
+            _fun0010_ip = 75; continue _fun0010;
+case 65:
             var2 = var2.HermesInternal;
             var6 = var2.concat;
             var19 = 'https://';
@@ -638,13 +665,13 @@ case 59:
             var16 = var9;
             var14 = var8;
             var1 = var19[var6](var18, var17, var16, var15, var14, var13, var12);
-case 74:
+case 75:
             return var1;
         }
     };
-    var3['getPromotionImageURL'] = var9;
-    var3['claimedOutboundPromotionCodeFromServer'] = var8;
-    var8 = function claimOutboundPromotion() {
+    var3['getPromotionImageURL'] = var10;
+    var3['claimedOutboundPromotionCodeFromServer'] = var9;
+    var9 = function claimOutboundPromotion() {
         var1 = undefined;
         var4 = _closure1_slot16;
         var3 = var4.apply;
@@ -654,28 +681,28 @@ case 74:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['claimOutboundPromotion'] = var8;
-    var8 = function getOutboundPromotionRedemptionUrl(arg1, arg2) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+    var3['claimOutboundPromotion'] = var9;
+    var9 = function getOutboundPromotionRedemptionUrl(arg1, arg2) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var2 = arg2;
             var3 = var2.outboundRedemptionUrlFormat;
             var1 = null;
-            if(!(var1 != var3)) { _fun0010_ip = 75; continue _fun0010 }
-case 76:
+            if(!(var1 != var3)) { _fun0011_ip = 76; continue _fun0011 }
+case 53:
             var4 = var2.outboundRedemptionUrlFormat;
             var3 = '';
-            if(!(var3 === var4)) { _fun0010_ip = 72; continue _fun0010 }
-case 75:
+            if(!(var3 === var4)) { _fun0011_ip = 73; continue _fun0011 }
+case 76:
             var3 = var2.outboundRedemptionPageLink;
             var4 = var1 != var3;
             var1 = '';
-            if(!var4) { _fun0010_ip = 5; continue _fun0010 }
+            if(!var4) { _fun0011_ip = 5; continue _fun0011 }
 case 2:
             var1 = var3;
 case 5:
-            _fun0010_ip = 77; continue _fun0010;
-case 72:
+            _fun0011_ip = 77; continue _fun0011;
+case 73:
             var5 = var2.outboundRedemptionUrlFormat;
             var4 = var5.replace;
             var2 = global;
@@ -689,18 +716,19 @@ case 77:
             return var1;
         }
     };
-    var3['getOutboundPromotionRedemptionUrl'] = var8;
+    var3['getOutboundPromotionRedemptionUrl'] = var9;
+    var3['isOutboundPromotionHiddenFromTrialUser'] = var8;
     var3['getNextUnseenOutboundPromotionId'] = var7;
     var7 = function shouldShowOutboundPromotionNotice() {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot18;
             var7 = undefined;
             var6 = var1.bind(var7)();
             var1 = null;
             var1 = var1 != var6;
-            if(!var1) { _fun0011_ip = 78; continue _fun0011 }
-case 53:
+            if(!var1) { _fun0012_ip = 78; continue _fun0012 }
+case 59:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 16;
@@ -724,24 +752,6 @@ case 78:
     var3['shouldShowOutboundPromotionNotice'] = var7;
     var3['isLogitechPromotion'] = var6;
     var3['shouldShowOutboundPromotionOnPlatform'] = var5;
-    var5 = function isTrialUserEligibleToSeeOutboundPromotion(arg1, arg2) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
-case 0:
-            var3 = arg1;
-            var2 = var3.id;
-            var1 = arg2;
-            var2 = var1[var2];
-            var1 = null;
-            var1 = var1 != var2;
-            if(var1) { _fun0012_ip = 79; continue _fun0012 }
-case 80:
-            var2 = var3.isRedeemableByTrialUsers;
-            var1 = var2.bind(var3)();
-case 79:
-            return var1;
-        }
-    };
-    var3['isTrialUserEligibleToSeeOutboundPromotion'] = var5;
     var5 = function getClaimedOutboundPromotionCodeMap(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -752,8 +762,8 @@ case 0:
             var4 = var3.bind(var5)(var2);
             var3 = var4.bind(var5)();
             var2 = var3.done;
-            if(var2) { _fun0013_ip = 81; continue _fun0013 }
-case 82:
+            if(var2) { _fun0013_ip = 79; continue _fun0013 }
+case 80:
             var2 = var3.value;
             var6 = var2.code;
             var2 = var2.promotion;
@@ -762,8 +772,8 @@ case 82:
             var6 = var4.bind(var5)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0013_ip = 82; continue _fun0013 }
-case 81:
+            if(!var2) { _fun0013_ip = 80; continue _fun0013 }
+case 79:
             return var1;
         }
     };
@@ -797,26 +807,26 @@ case 0:
                 var1 = var4.id;
                 var1 = var2.bind(var3)(var1);
                 var1 = !var1;
+                if(!var1) { _fun0014_ip = 81; continue _fun0014 }
+case 82:
+                var3 = _closure1_slot21;
+                var2 = undefined;
+                var2 = var3.bind(var2)(var4);
+                var1 = !var2;
+case 81:
                 if(!var1) { _fun0014_ip = 83; continue _fun0014 }
-case 84:
-                var3 = _closure1_slot20;
+case 72:
+                var3 = _closure1_slot19;
                 var2 = undefined;
                 var2 = var3.bind(var2)(var4);
                 var1 = !var2;
 case 83:
-                if(!var1) { _fun0014_ip = 85; continue _fun0014 }
-case 71:
-                var3 = _closure1_slot18;
-                var2 = undefined;
-                var2 = var3.bind(var2)(var4);
-                var1 = !var2;
-case 85:
-                if(!var1) { _fun0014_ip = 86; continue _fun0014 }
-case 52:
-                var3 = _closure1_slot19;
+                if(!var1) { _fun0014_ip = 84; continue _fun0014 }
+case 58:
+                var3 = _closure1_slot20;
                 var2 = undefined;
                 var1 = var3.bind(var2)(var4);
-case 86:
+case 84:
                 return var1;
             }
         };

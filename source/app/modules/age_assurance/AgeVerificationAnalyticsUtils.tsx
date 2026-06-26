@@ -107,6 +107,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = {};
     var4 = 'retry';
     var7['RETRY'] = var4;
+    var4 = 'connect_to_teen';
+    var7['CONNECT_TO_TEEN'] = var4;
     var6 = {};
     var4 = 'nsfw_channel_age_verify';
     var6['NSFW_CHANNEL_AGE_VERIFY'] = var4;

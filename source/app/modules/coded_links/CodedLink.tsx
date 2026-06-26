@@ -48,6 +48,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['QUESTS_EMBED'] = var1;
     var1 = 'COLLECTIBLES_SHOP';
     var2['COLLECTIBLES_SHOP'] = var1;
+    var1 = 'GAME_PROFILE';
+    var2['GAME_PROFILE'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -181,10 +181,16 @@ case 0:
             var4 = _closure1_slot5;
             var3 = var4.getNewestTokenForApplication;
             var2 = var5.applicationId;
-            var3 = var3.bind(var4)(var2);
-            var2 = null;
-            if(!(var2 == var3)) { _fun0003_ip = 9; continue _fun0003 }
+            var2 = var3.bind(var4)(var2);
+            var4 = null;
+            var2 = var4 == var2;
+            if(!var2) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
+            var3 = var5.accountLinkCallbacks;
+            var2 = var4 != var3;
+case 9:
+            if(!var2) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var4 = _closure1_slot6;
             var3 = var4.set;
             var2 = var5.applicationId;
@@ -196,12 +202,10 @@ case 10:
             var6 = var7.now;
             var6 = var6.bind(var7)();
             var1['startedAt'] = var6;
-            var6 = var5.accountLinkCallbacks;
-            var1['accountLinkCallbacks'] = var6;
-            var5 = var5.claimIncentivizedAccountLinkingRewardCallbacks;
-            var1['claimIncentivizedAccountLinkingRewardCallbacks'] = var5;
+            var5 = var5.accountLinkCallbacks;
+            var1['accountLinkCallbacks'] = var5;
             var1 = var3.bind(var4)(var2, var1);
-case 9:
+case 11:
             var1 = undefined;
             return var1;
         }

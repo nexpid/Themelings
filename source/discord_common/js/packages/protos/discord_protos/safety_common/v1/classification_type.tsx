@@ -594,6 +594,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['QUARANTINE_SMITE'] = var5;
     var1 = 'QUARANTINE_SMITE';
     var2[var5] = var1;
+    var5 = 3201;
+    var2['REQUIRE_VERIFIED_PHONE_SMITE'] = var5;
+    var1 = 'REQUIRE_VERIFIED_PHONE_SMITE';
+    var2[var5] = var1;
+    var5 = 3202;
+    var2['REQUIRE_REVERIFIED_PHONE_SMITE'] = var5;
+    var1 = 'REQUIRE_REVERIFIED_PHONE_SMITE';
+    var2[var5] = var1;
     var5 = 4000;
     var2['PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK'] = var5;
     var1 = 'PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK';

@@ -535,7 +535,7 @@ case 56:
             _closure2_slot0 = var3;
             var3 = var5 != var3;
             if(!var3) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
+case 4:
             var6 = var7.find;
             var4 = function(arg1) {
                 var1 = arg1;
@@ -549,7 +549,7 @@ case 58:
             var3 = var5 != var4;
 case 57:
             if(!var3) { _fun0006_ip = 55; continue _fun0006 }
-case 52:
+case 58:
             var2 = _closure1_slot24;
             var2 = var2.bind(var1)();
 case 55:

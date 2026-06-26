@@ -1024,7 +1024,7 @@ case 4:
     var6 = new Array(2);
     var6[0] = var8;
     var8 = {};
-    var29 = 160;
+    var29 = 600;
     var8['priority'] = var29;
     var29 = function tooltipHeader() {
         var3 = _closure1_slot0;
@@ -1075,10 +1075,10 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.mojZZz;
+        var2 = var1["0R6I/b"];
         var1 = {};
         var5 = arg1;
-        var1['count'] = var5;
+        var1['amount'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
