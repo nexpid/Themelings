@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot14 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -85,10 +85,8 @@ case 4:
     var _closure1_slot10 = var2;
     var2 = {};
     var _closure1_slot11 = var2;
-    var2 = {};
-    var _closure1_slot12 = var2;
     var2 = null;
-    var _closure1_slot13 = var2;
+    var _closure1_slot12 = var2;
     var2 = 5;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -106,7 +104,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot14;
+                var1 = _closure1_slot13;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -145,10 +143,10 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(9);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
-        var7 = 'getSimilarGamesError';
+        var7 = 'getShopCollectionSkuIds';
         var5['key'] = var7;
         var7 = function value(arg1) {
             var2 = _closure1_slot6;
@@ -159,23 +157,12 @@ case 8:
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = 'getShopCollectionSkuIds';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var2 = _closure1_slot7;
-            var1 = arg1;
-            var1 = var2[var1];
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[2] = var5;
-        var5 = {};
         var7 = 'hasShopCollectionBeenFetched';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var2 = _closure1_slot8;
+                var2 = _closure1_slot7;
                 var1 = arg1;
                 var2 = var2[var1];
                 var1 = null;
@@ -188,14 +175,14 @@ case 9:
             }
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'isShopCollectionFetching';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot8;
                 var1 = arg1;
                 var2 = var2[var1];
                 var1 = null;
@@ -208,25 +195,25 @@ case 9:
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getAnnouncements';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot9;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'hasAnnouncementsBeenFetched';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot10;
                 var1 = arg1;
                 var2 = var2[var1];
                 var1 = null;
@@ -239,14 +226,14 @@ case 9:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'isAnnouncementsFetching';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot11;
                 var1 = arg1;
                 var2 = var2[var1];
                 var1 = null;
@@ -259,16 +246,16 @@ case 9:
             }
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getPendingReturn';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot12;
             return var1;
         };
         var5['value'] = var6;
-        var1[8] = var5;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -289,20 +276,10 @@ case 9:
         return var1;
     };
     var2['GAME_PROFILE_GET_SIMILAR_GAMES_SUCCESS'] = var8;
-    var8 = function handleGetSimilarGamesError(arg1) {
-        var1 = arg1;
-        var3 = var1.gameId;
-        var2 = var1.error;
-        var1 = _closure1_slot6;
-        var1[var3] = var2;
-        var1 = undefined;
-        return var1;
-    };
-    var2['GAME_PROFILE_GET_SIMILAR_GAMES_ERROR'] = var8;
     var8 = function handleGetShopCollectionStart(arg1) {
         var1 = arg1;
         var3 = var1.collectionId;
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot8;
         var1 = true;
         var2[var3] = var1;
         var1 = undefined;
@@ -313,12 +290,12 @@ case 9:
         var1 = arg1;
         var3 = var1.collectionId;
         var4 = var1.skuIds;
-        var2 = _closure1_slot7;
+        var2 = _closure1_slot6;
         var2[var3] = var4;
-        var4 = _closure1_slot8;
+        var4 = _closure1_slot7;
         var2 = true;
         var4[var3] = var2;
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot8;
         var1 = false;
         var2[var3] = var1;
         var1 = undefined;
@@ -328,10 +305,10 @@ case 9:
     var8 = function handleGetShopCollectionError(arg1) {
         var1 = arg1;
         var3 = var1.collectionId;
-        var4 = _closure1_slot8;
+        var4 = _closure1_slot7;
         var2 = true;
         var4[var3] = var2;
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot8;
         var1 = false;
         var2[var3] = var1;
         var1 = undefined;
@@ -341,7 +318,7 @@ case 9:
     var8 = function handleGetAnnouncementsStart(arg1) {
         var1 = arg1;
         var3 = var1.gameId;
-        var2 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var1 = true;
         var2[var3] = var1;
         var1 = undefined;
@@ -354,16 +331,16 @@ case 9:
         var7 = var1.messages;
         var6 = var1.channelId;
         var5 = var1.guildId;
-        var4 = _closure1_slot10;
+        var4 = _closure1_slot9;
         var2 = {};
         var2['messages'] = var7;
         var2['channelId'] = var6;
         var2['guildId'] = var5;
         var4[var3] = var2;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot10;
         var2 = true;
         var4[var3] = var2;
-        var2 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var1 = false;
         var2[var3] = var1;
         var1 = undefined;
@@ -373,10 +350,10 @@ case 9:
     var8 = function handleGetAnnouncementsError(arg1) {
         var1 = arg1;
         var3 = var1.gameId;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot10;
         var2 = true;
         var4[var3] = var2;
-        var2 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var1 = false;
         var2[var3] = var1;
         var1 = undefined;
@@ -390,7 +367,7 @@ case 0:
             var6 = var1.gameId;
             var5 = var1.channelId;
             var4 = var1.initialScrollOffset;
-            var8 = _closure1_slot13;
+            var8 = _closure1_slot12;
             var2 = null;
             var9 = var2 == var8;
             var1 = undefined;
@@ -401,7 +378,7 @@ case 12:
 case 11:
             if(!(var7 === var6)) { _fun0007_ip = 13; continue _fun0007 }
 case 14:
-            var8 = _closure1_slot13;
+            var8 = _closure1_slot12;
             var9 = var2 == var8;
             var7 = undefined;
             if(var9) { _fun0007_ip = 15; continue _fun0007 }
@@ -410,7 +387,7 @@ case 16:
 case 15:
             if(!(var7 === var5)) { _fun0007_ip = 13; continue _fun0007 }
 case 3:
-            var7 = _closure1_slot13;
+            var7 = _closure1_slot12;
             var8 = var2 == var7;
             var2 = undefined;
             if(var8) { _fun0007_ip = 17; continue _fun0007 }
@@ -423,7 +400,7 @@ case 13:
             var2['gameId'] = var6;
             var2['channelId'] = var5;
             var2['initialScrollOffset'] = var4;
-            _closure1_slot13 = var2;
+            _closure1_slot12 = var2;
             return var1;
 case 19:
             var1 = false;
@@ -436,15 +413,15 @@ case 19:
 case 0:
             var1 = arg1;
             var4 = var1.gameId;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var1 = null;
             if(!(var1 != var3)) { _fun0008_ip = 20; continue _fun0008 }
 case 21:
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var3 = var3.gameId;
             if(!(var3 === var4)) { _fun0008_ip = 20; continue _fun0008 }
 case 22:
-            _closure1_slot13 = var1;
+            _closure1_slot12 = var1;
             var1 = undefined;
             return var1;
 case 20:

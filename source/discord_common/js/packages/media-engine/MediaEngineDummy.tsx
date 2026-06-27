@@ -167,7 +167,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(88);
+        var1 = new Array(90);
         var1[0] = var5;
         var5 = {};
         var7 = 'interact';
@@ -563,7 +563,7 @@ case 9:
         var5['value'] = var7;
         var1[34] = var5;
         var5 = {};
-        var7 = 'setClipsUIActive';
+        var7 = 'setClipsRecordingEnabled';
         var5['key'] = var7;
         var7 = function value() {
             var1 = undefined;
@@ -572,6 +572,24 @@ case 9:
         var5['value'] = var7;
         var1[35] = var5;
         var5 = {};
+        var7 = 'hasSetClipsRecordingEnabled';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = false;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[36] = var5;
+        var5 = {};
+        var7 = 'setClipsUIActive';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[37] = var5;
+        var5 = {};
         var7 = 'setClipBufferLength';
         var5['key'] = var7;
         var7 = function value() {
@@ -579,7 +597,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[36] = var5;
+        var1[38] = var5;
         var5 = {};
         var7 = 'saveClip';
         var5['key'] = var7;
@@ -598,7 +616,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[37] = var5;
+        var1[39] = var5;
         var5 = {};
         var7 = 'saveClipForUser';
         var5['key'] = var7;
@@ -617,7 +635,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[38] = var5;
+        var1[40] = var5;
         var5 = {};
         var7 = 'updateClipMetadata';
         var5['key'] = var7;
@@ -636,7 +654,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[39] = var5;
+        var1[41] = var5;
         var5 = {};
         var7 = 'exportClip';
         var5['key'] = var7;
@@ -655,7 +673,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[40] = var5;
+        var1[42] = var5;
         var5 = {};
         var7 = 'hasExportClipToFile';
         var5['key'] = var7;
@@ -664,7 +682,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[41] = var5;
+        var1[43] = var5;
         var5 = {};
         var7 = 'exportClipToFile';
         var5['key'] = var7;
@@ -683,7 +701,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[42] = var5;
+        var1[44] = var5;
         var5 = {};
         var7 = 'setClipsPerfMonitoring';
         var5['key'] = var7;
@@ -702,7 +720,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[43] = var5;
+        var1[45] = var5;
         var5 = {};
         var7 = 'saveScreenshot';
         var5['key'] = var7;
@@ -721,7 +739,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[44] = var5;
+        var1[46] = var5;
         var5 = {};
         var7 = 'setAudioSubsystem';
         var5['key'] = var7;
@@ -730,7 +748,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[45] = var5;
+        var1[47] = var5;
         var5 = {};
         var7 = 'queueAudioSubsystem';
         var5['key'] = var7;
@@ -739,7 +757,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[46] = var5;
+        var1[48] = var5;
         var5 = {};
         var7 = 'setOffloadAdmControls';
         var5['key'] = var7;
@@ -748,7 +766,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[47] = var5;
+        var1[49] = var5;
         var5 = {};
         var7 = 'updateFieldTrial';
         var5['key'] = var7;
@@ -757,7 +775,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[48] = var5;
+        var1[50] = var5;
         var5 = {};
         var7 = 'getDebugLogging';
         var5['key'] = var7;
@@ -766,7 +784,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[49] = var5;
+        var1[51] = var5;
         var5 = {};
         var7 = 'setDebugLogging';
         var5['key'] = var7;
@@ -775,7 +793,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[50] = var5;
+        var1[52] = var5;
         var5 = {};
         var7 = 'writeAudioDebugState';
         var5['key'] = var7;
@@ -794,7 +812,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[51] = var5;
+        var1[53] = var5;
         var5 = {};
         var7 = 'setLoopback';
         var5['key'] = var7;
@@ -803,7 +821,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[52] = var5;
+        var1[54] = var5;
         var5 = {};
         var7 = 'getLoopback';
         var5['key'] = var7;
@@ -812,7 +830,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[53] = var5;
+        var1[55] = var5;
         var5 = {};
         var7 = 'setExperimentFlag';
         var5['key'] = var7;
@@ -821,7 +839,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[54] = var5;
+        var1[56] = var5;
         var5 = {};
         var7 = 'startAecDump';
         var5['key'] = var7;
@@ -830,7 +848,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[55] = var5;
+        var1[57] = var5;
         var5 = {};
         var7 = 'stopAecDump';
         var5['key'] = var7;
@@ -839,7 +857,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[56] = var5;
+        var1[58] = var5;
         var5 = {};
         var7 = 'setAecDump';
         var5['key'] = var7;
@@ -848,7 +866,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[57] = var5;
+        var1[59] = var5;
         var5 = {};
         var7 = 'startRecordingRawSamples';
         var5['key'] = var7;
@@ -857,7 +875,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[58] = var5;
+        var1[60] = var5;
         var5 = {};
         var7 = 'stopRecordingRawSamples';
         var5['key'] = var7;
@@ -866,7 +884,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[59] = var5;
+        var1[61] = var5;
         var5 = {};
         var7 = 'processBatchAudioFiles';
         var5['key'] = var7;
@@ -875,7 +893,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[60] = var5;
+        var1[62] = var5;
         var5 = {};
         var7 = 'cancelBatchAudioProcessing';
         var5['key'] = var7;
@@ -884,7 +902,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[61] = var5;
+        var1[63] = var5;
         var5 = {};
         var7 = 'createReplayConnection';
         var5['key'] = var7;
@@ -900,7 +918,7 @@ case 9:
             throw var1;
         };
         var5['value'] = var7;
-        var1[62] = var5;
+        var1[64] = var5;
         var5 = {};
         var7 = 'setOnVideoContainerResized';
         var5['key'] = var7;
@@ -909,7 +927,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[63] = var5;
+        var1[65] = var5;
         var5 = {};
         var7 = 'setMaxSyncDelayOverride';
         var5['key'] = var7;
@@ -918,7 +936,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[64] = var5;
+        var1[66] = var5;
         var5 = {};
         var7 = 'rankRtcRegions';
         var5['key'] = var7;
@@ -937,7 +955,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[65] = var5;
+        var1[67] = var5;
         var5 = {};
         var7 = 'applyMediaFilterSettings';
         var5['key'] = var7;
@@ -949,7 +967,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[66] = var5;
+        var1[68] = var5;
         var5 = {};
         var7 = 'startLocalAudioRecording';
         var5['key'] = var7;
@@ -968,7 +986,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[67] = var5;
+        var1[69] = var5;
         var5 = {};
         var7 = 'stopLocalAudioRecording';
         var5['key'] = var7;
@@ -977,7 +995,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[68] = var5;
+        var1[70] = var5;
         var5 = {};
         var7 = 'setHasFullbandPerformance';
         var5['key'] = var7;
@@ -986,7 +1004,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[69] = var5;
+        var1[71] = var5;
         var5 = {};
         var7 = 'getSupportedSecureFramesProtocolVersion';
         var5['key'] = var7;
@@ -995,7 +1013,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[70] = var5;
+        var1[72] = var5;
         var5 = {};
         var7 = 'getSupportedBandwidthEstimationExperiments';
         var5['key'] = var7;
@@ -1007,7 +1025,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[71] = var5;
+        var1[73] = var5;
         var5 = {};
         var7 = 'getMLSSigningKey';
         var5['key'] = var7;
@@ -1026,7 +1044,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[72] = var5;
+        var1[74] = var5;
         var5 = {};
         var7 = 'setSidechainCompression';
         var5['key'] = var7;
@@ -1035,7 +1053,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[73] = var5;
+        var1[75] = var5;
         var5 = {};
         var7 = 'setSidechainCompressionStrength';
         var5['key'] = var7;
@@ -1044,7 +1062,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[74] = var5;
+        var1[76] = var5;
         var5 = {};
         var7 = 'getSystemMicrophoneMode';
         var5['key'] = var7;
@@ -1057,7 +1075,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[75] = var5;
+        var1[77] = var5;
         var5 = {};
         var7 = 'showSystemCaptureConfigurationUI';
         var5['key'] = var7;
@@ -1066,7 +1084,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[76] = var5;
+        var1[78] = var5;
         var5 = {};
         var7 = 'setNativeDesktopVideoSourcePickerActive';
         var5['key'] = var7;
@@ -1075,7 +1093,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[77] = var5;
+        var1[79] = var5;
         var5 = {};
         var7 = 'presentNativeScreenSharePicker';
         var5['key'] = var7;
@@ -1084,7 +1102,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[78] = var5;
+        var1[80] = var5;
         var5 = {};
         var7 = 'releaseNativeDesktopVideoSourcePickerStream';
         var5['key'] = var7;
@@ -1093,7 +1111,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[79] = var5;
+        var1[81] = var5;
         var5 = {};
         var7 = 'setMaybePreprocessMute';
         var5['key'] = var7;
@@ -1102,7 +1120,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[80] = var5;
+        var1[82] = var5;
         var5 = {};
         var7 = 'setAudioInputBypassSystemProcessing';
         var5['key'] = var7;
@@ -1111,7 +1129,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[81] = var5;
+        var1[83] = var5;
         var5 = {};
         var7 = 'fetchAsyncResources';
         var5['key'] = var7;
@@ -1123,7 +1141,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[82] = var5;
+        var1[84] = var5;
         var5 = {};
         var7 = 'getDeviceOSVolume';
         var5['key'] = var7;
@@ -1136,7 +1154,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[83] = var5;
+        var1[85] = var5;
         var5 = {};
         var7 = 'getDeviceOSMuted';
         var5['key'] = var7;
@@ -1149,7 +1167,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[84] = var5;
+        var1[86] = var5;
         var5 = {};
         var7 = 'getDeviceAudioEffects';
         var5['key'] = var7;
@@ -1168,7 +1186,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[85] = var5;
+        var1[87] = var5;
         var5 = {};
         var7 = 'getNoiseCancellationStats';
         var5['key'] = var7;
@@ -1187,7 +1205,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[86] = var5;
+        var1[88] = var5;
         var5 = {};
         var7 = 'setNoiseCancellationEnableStats';
         var5['key'] = var7;
@@ -1196,7 +1214,7 @@ case 9:
             return var1;
         };
         var5['value'] = var6;
-        var1[87] = var5;
+        var1[89] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

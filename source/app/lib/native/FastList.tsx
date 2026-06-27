@@ -341,7 +341,7 @@ case 41:
         }
     };
     var _closure1_slot38 = var1;
-    var1 = ['manualRef', 'onScroll', 'onScrollEnd', 'onLayout', 'renderHeader', 'renderFooter', 'renderSection', 'renderItem', 'renderSectionFooter', 'getRecyclerKey', 'onEndReached', 'endReachedThreshold', 'headerSize', 'footerSize', 'sectionSize', 'sectionFooterSize', 'itemSize', 'sections', 'scrollPosValue', 'batchesToRender', 'optimizeListItemRender', 'initialScrollSection', 'initialScrollItem', 'initialScrollOrientation', 'initialScrollStart', 'getAnchorIdFromIndex', 'getAnchorIndexFromId', 'EXPERIMENTAL_enableAnchorWhileScrolling', 'chunkBase', 'disableContentWrappers', 'childrenWrapper', 'stickyHeaderFooter', 'stickySectionsVariant', 'persistantKeys', 'disableRecyclingOnFullCompute', 'disableLegacyGestureHandling', 'viewabilityConfig', 'onViewableItemsChanged', 'debugLayout', 'renderAccessory', 'removeClippedSubviews', 'inActionSheet'];
+    var1 = ['manualRef', 'onScroll', 'onScrollWorklet', 'onScrollEnd', 'onLayout', 'renderHeader', 'renderFooter', 'renderSection', 'renderItem', 'renderSectionFooter', 'getRecyclerKey', 'onEndReached', 'endReachedThreshold', 'headerSize', 'footerSize', 'sectionSize', 'sectionFooterSize', 'itemSize', 'sections', 'scrollPosValue', 'batchesToRender', 'optimizeListItemRender', 'initialScrollSection', 'initialScrollItem', 'initialScrollOrientation', 'initialScrollStart', 'getAnchorIdFromIndex', 'getAnchorIndexFromId', 'EXPERIMENTAL_enableAnchorWhileScrolling', 'chunkBase', 'disableContentWrappers', 'childrenWrapper', 'stickyHeaderFooter', 'stickySectionsVariant', 'persistantKeys', 'disableRecyclingOnFullCompute', 'disableLegacyGestureHandling', 'viewabilityConfig', 'onViewableItemsChanged', 'debugLayout', 'renderAccessory', 'removeClippedSubviews', 'inActionSheet'];
     var _closure1_slot3 = var1;
     var4 = global;
     var7 = var4.Object;
@@ -3612,7 +3612,7 @@ case 349:
     var8 = var8.bind(var1)();
     var _closure1_slot29 = var8;
     var8 = {};
-    var9 = 'function FastListTsx2(event){const{horizontal,workletMounted,scrollPosValue}=this.__closure;const scrollPosition=!horizontal?event.contentOffset.y:event.contentOffset.x;const contentSize=!horizontal?event.contentSize.height:event.contentSize.width;if(contentSize===0&&!workletMounted.get())return;workletMounted.set(true);scrollPosValue.set(Math.min(scrollPosition,contentSize));}';
+    var9 = 'function FastListTsx2(event){const{horizontal,workletMounted,scrollPosValue,onScrollWorklet}=this.__closure;const scrollPosition=!horizontal?event.contentOffset.y:event.contentOffset.x;const contentSize=!horizontal?event.contentSize.height:event.contentSize.width;if(contentSize===0&&!workletMounted.get())return;workletMounted.set(true);scrollPosValue.set(Math.min(scrollPosition,contentSize));if(onScrollWorklet!=null){const layoutSize=!horizontal?event.layoutMeasurement.height:event.layoutMeasurement.width;onScrollWorklet(scrollPosition,contentSize,layoutSize);}}';
     var8['code'] = var9;
     var _closure1_slot30 = var8;
     var8 = var2.PureComponent;
@@ -4853,23 +4853,25 @@ case 442:
             _fun0054: for(var _fun0054_ip = 0; ; ) switch(_fun0054_ip) {
 case 0:
                 var3 = this;
-                var5 = var3.scrollPosValue;
-                var _closure3_slot0 = var5;
-                var8 = var3.workletMounted;
-                var _closure3_slot1 = var8;
-                var1 = var3.props;
-                var2 = var1.horizontal;
+                var8 = var3.scrollPosValue;
+                var _closure3_slot0 = var8;
+                var9 = var3.workletMounted;
+                var _closure3_slot1 = var9;
+                var2 = var3.props;
+                var5 = var2.horizontal;
                 var1 = undefined;
-                var9 = var1 !== var2;
-                if(!var9) { _fun0054_ip = 370; continue _fun0054 }
+                var10 = var1 !== var5;
+                if(!var10) { _fun0054_ip = 370; continue _fun0054 }
 case 82:
-                var9 = var2;
+                var10 = var5;
 case 370:
-                var _closure3_slot2 = var9;
+                var _closure3_slot2 = var10;
+                var5 = var2.onScrollWorklet;
+                var _closure3_slot3 = var5;
                 var7 = _closure1_slot0;
-                var10 = _closure1_slot2;
+                var11 = _closure1_slot2;
                 var6 = 15;
-                var6 = var10[var6];
+                var6 = var11[var6];
                 var6 = var7.bind(var1)(var6);
                 var7 = var6.WorkletEventHandler;
                 var6 = function t(arg1) {
@@ -4880,61 +4882,76 @@ case 0:
                         var3 = var2.contentOffset;
                         if(var4) { _fun0055_ip = 341; continue _fun0055 }
 case 349:
-                        var6 = var3.y;
+                        var5 = var3.y;
                         _fun0055_ip = 305; continue _fun0055;
 case 341:
-                        var6 = var3.x;
+                        var5 = var3.x;
 case 305:
-                        var3 = _closure3_slot2;
-                        var2 = var2.contentSize;
-                        if(var3) { _fun0055_ip = 69; continue _fun0055 }
+                        var4 = _closure3_slot2;
+                        var3 = var2.contentSize;
+                        if(var4) { _fun0055_ip = 69; continue _fun0055 }
 case 443:
-                        var5 = var2.height;
+                        var4 = var3.height;
                         _fun0055_ip = 32; continue _fun0055;
 case 69:
-                        var5 = var2.width;
+                        var4 = var3.width;
 case 32:
-                        var2 = 0;
-                        var2 = var2 !== var5;
-                        if(var2) { _fun0055_ip = 372; continue _fun0055 }
-case 54:
-                        var4 = _closure3_slot1;
-                        var3 = var4.get;
-                        var2 = var3.bind(var4)();
+                        var3 = 0;
+                        if(!(var3 === var4)) { _fun0055_ip = 372; continue _fun0055 }
+case 350:
+                        var6 = _closure3_slot1;
+                        var3 = var6.get;
+                        var3 = var3.bind(var6)();
+                        if(!var3) { _fun0055_ip = 376; continue _fun0055 }
 case 372:
-                        if(!var2) { _fun0055_ip = 249; continue _fun0055 }
-case 59:
-                        var4 = _closure3_slot1;
-                        var3 = var4.set;
-                        var2 = true;
-                        var2 = var3.bind(var4)(var2);
-                        var3 = _closure3_slot0;
-                        var2 = var3.set;
-                        var1 = global;
-                        var4 = var1.Math;
-                        var1 = var4.min;
-                        var1 = var1.bind(var4)(var6, var5);
-                        var1 = var2.bind(var3)(var1);
-case 249:
+                        var7 = _closure3_slot1;
+                        var6 = var7.set;
+                        var3 = true;
+                        var3 = var6.bind(var7)(var3);
+                        var7 = _closure3_slot0;
+                        var6 = var7.set;
+                        var3 = global;
+                        var8 = var3.Math;
+                        var3 = var8.min;
+                        var3 = var3.bind(var8)(var5, var4);
+                        var3 = var6.bind(var7)(var3);
+                        var6 = _closure3_slot3;
+                        var3 = null;
+                        if(!(var3 != var6)) { _fun0055_ip = 376; continue _fun0055 }
+case 41:
+                        var3 = _closure3_slot2;
+                        var2 = var2.layoutMeasurement;
+                        if(var3) { _fun0055_ip = 89; continue _fun0055 }
+case 90:
+                        var3 = var2.height;
+                        _fun0055_ip = 81; continue _fun0055;
+case 89:
+                        var3 = var2.width;
+case 81:
+                        var2 = _closure3_slot3;
+                        var1 = undefined;
+                        var1 = var2.bind(var1)(var5, var4, var3);
+case 376:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var4 = {};
-                var4['horizontal'] = var9;
-                var4['workletMounted'] = var8;
-                var4['scrollPosValue'] = var5;
+                var4['horizontal'] = var10;
+                var4['workletMounted'] = var9;
+                var4['scrollPosValue'] = var8;
+                var4['onScrollWorklet'] = var5;
                 var6['__closure'] = var4;
-                var4 = 13353994165730.0;
+                var4 = 16225357996403.0;
                 var6['__workletHash'] = var4;
                 var4 = _closure1_slot30;
                 var6['__initData'] = var4;
                 var4 = var7.prototype;
                 var5 = Object.create(var4, {constructor: {value: var7}});
-                var11 = ['onScroll'];
-                var13 = var5;
-                var12 = var6;
-                var4 = new var13[var7](var12, var11, var10);
+                var12 = ['onScroll'];
+                var14 = var5;
+                var13 = var6;
+                var4 = new var14[var7](var13, var12, var11);
                 var4 = var4 instanceof Object ? var4 : var5;
                 var3['worklet'] = var4;
                 var4 = _closure1_slot14;
@@ -5920,6 +5937,7 @@ case 0:
                 var3 = var8.props;
                 var1 = var3.manualRef;
                 var1 = var3.onScroll;
+                var1 = var3.onScrollWorklet;
                 var1 = var3.onScrollEnd;
                 var1 = var3.onLayout;
                 var1 = var3.renderHeader;
@@ -5961,7 +5979,7 @@ case 0:
                 var9 = var3.removeClippedSubviews;
                 var4 = undefined;
                 if(!(var4 === var9)) { _fun0068_ip = 479; continue _fun0068 }
-case 270:
+case 480:
                 var2 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var1 = 14;
@@ -5974,11 +5992,11 @@ case 479:
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot3;
                 var6 = var2.bind(var4)(var3, var1);
-                if(var11) { _fun0068_ip = 298; continue _fun0068 }
-case 480:
+                if(var11) { _fun0068_ip = 432; continue _fun0068 }
+case 298:
                 var3 = _closure1_slot13;
                 _fun0068_ip = 481; continue _fun0068;
-case 298:
+case 432:
                 var2 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var1 = 18;

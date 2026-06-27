@@ -560,7 +560,7 @@ case 15:
     var7 = 'failed';
     var4['FAILED'] = var7;
     var _closure1_slot16 = var4;
-    var4 = 32;
+    var4 = 33;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -569,82 +569,99 @@ case 15:
     var2 = function WrappedCollectiblesShopGiftPurchaseSection(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var1 = arg1;
-            var5 = var1.product;
-            var15 = var1.isPurchaseDisabled;
-            var14 = var1.giftOptions;
-            var13 = var1.baseAnalyticsFields;
-            var12 = var1.giftingOrigin;
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 28;
-            var1 = var3[var1];
+            var2 = arg1;
+            var5 = var2.product;
+            var15 = var2.isPurchaseDisabled;
+            var14 = var2.giftOptions;
+            var13 = var2.baseAnalyticsFields;
+            var12 = var2.giftingOrigin;
+            var7 = var2.onGiftModalDismiss;
+            var _closure2_slot0 = var7;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 28;
+            var2 = var6[var2];
             var4 = undefined;
-            var1 = var2.bind(var4)(var1);
-            var7 = var1.GiftACOMOrderExperiment;
-            var6 = var7.useConfig;
-            var1 = {};
-            var8 = 'WrappedCollectiblesShopGiftPurchaseSection';
-            var1['location'] = var8;
-            var1 = var6.bind(var7)(var1);
-            var11 = var1.enabled;
-            var1 = 29;
-            var1 = var3[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.isIOS;
-            var2 = var1.bind(var2)();
-            var1 = _closure1_slot12;
-            if(var2) { _fun0006_ip = 20; continue _fun0006 }
+            var2 = var3.bind(var4)(var2);
+            var10 = var2.GiftACOMOrderExperiment;
+            var8 = var10.useConfig;
+            var2 = {};
+            var11 = 'WrappedCollectiblesShopGiftPurchaseSection';
+            var2['location'] = var11;
+            var2 = var8.bind(var10)(var2);
+            var16 = var2.enabled;
+            var2 = 29;
+            var2 = var6[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.isIOS;
+            var3 = var2.bind(var3)();
+            var2 = _closure1_slot12;
+            if(var3) { _fun0006_ip = 20; continue _fun0006 }
 case 21:
-            var17 = var1.GOOGLE;
+            var18 = var2.GOOGLE;
             _fun0006_ip = 22; continue _fun0006;
 case 20:
-            var17 = var1.APPLE_ADVANCED_COMMERCE;
+            var18 = var2.APPLE_ADVANCED_COMMERCE;
 case 22:
+            var6 = _closure1_slot4;
+            var3 = var6.useCallback;
+            var2 = new Array(1);
+            var2[0] = var7;
+            var1 = function() {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 30;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.closeShopGiftModal;
+                    var2 = var2.bind(var3)();
+                    var4 = _closure2_slot0;
+                    var3 = null;
+                    if(!(var3 != var4)) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
+                    var2 = _closure2_slot0;
+                    var2 = var2.bind(var1)();
+case 23:
+                    return var1;
+                }
+            };
+            var10 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot13;
             var2 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var1 = 30;
-            var1 = var16[var1];
+            var17 = _closure1_slot2;
+            var1 = 31;
+            var1 = var17[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.NativePaymentContextProvider;
             var1 = {};
             var6 = new Array(0);
             var1['skuIDs'] = var6;
-            var10 = null;
-            var1['activeSubscription'] = var10;
+            var11 = null;
+            var1['activeSubscription'] = var11;
             var8 = _closure1_slot13;
             var7 = _closure1_slot1;
-            var6 = 31;
-            var6 = var16[var6];
+            var6 = 32;
+            var6 = var17[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            var6['paymentGateway'] = var17;
-            if(!var11) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
-            var16 = _closure1_slot12;
-            var16 = var16.APPLE_ADVANCED_COMMERCE;
-            var11 = var17 === var16;
-case 23:
-            var6['orderRequired'] = var11;
-            var16 = var5.skuId;
-            var11 = new Array(1);
-            var11[0] = var16;
-            var6['skuIds'] = var11;
-            var11 = true;
-            var6['isGift'] = var11;
-            var6['activeSubscription'] = var10;
-            var10 = function onOrderRetryCancellation() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 19;
-                var2 = var2[var1];
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var1 = var2.pop;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
+            var6['paymentGateway'] = var18;
+            if(!var16) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
+            var17 = _closure1_slot12;
+            var17 = var17.APPLE_ADVANCED_COMMERCE;
+            var16 = var18 === var17;
+case 25:
+            var6['orderRequired'] = var16;
+            var17 = var5.skuId;
+            var16 = new Array(1);
+            var16[0] = var17;
+            var6['skuIds'] = var16;
+            var16 = true;
+            var6['isGift'] = var16;
+            var6['activeSubscription'] = var11;
             var6['onOrderRetryCancellation'] = var10;
             var11 = _closure1_slot13;
             var10 = _closure1_slot17;

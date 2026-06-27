@@ -1175,13 +1175,6 @@ case 56:
     var5['resolve'] = var7;
     var4['CHAT_INPUT_ACTION_BUTTON_MARGIN'] = var5;
     var5 = {};
-    var7 = function resolve() {
-        var1 = 44;
-        return var1;
-    };
-    var5['resolve'] = var7;
-    var4['CHAT_INPUT_ACTION_BUTTON_MIN_TOUCH_TARGET_SIZE'] = var5;
-    var5 = {};
     var7 = function resolve(arg1) {
         _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
@@ -1341,6 +1334,13 @@ case 9:
     };
     var5['resolve'] = var7;
     var4['CHAT_INPUT_BORDER_RADIUS'] = var5;
+    var5 = {};
+    var7 = function resolve() {
+        var1 = 44;
+        return var1;
+    };
+    var5['resolve'] = var7;
+    var4['CHAT_INPUT_BUTTON_MIN_TOUCH_TARGET_SIZE'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {

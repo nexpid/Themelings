@@ -58,9 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['container'] = var10;
     var10 = {'overflow': 'hidden', 'flex': 1};
     var4['list'] = var10;
-    var10 = {};
-    var11 = 'row';
-    var10['flexDirection'] = var11;
+    var10 = {'flexDirection': 'row', 'paddingTop': null, 'paddingBottom': 1};
     var11 = 6;
     var15 = var6[var11];
     var15 = var13.bind(var1)(var15);

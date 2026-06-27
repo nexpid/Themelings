@@ -113,66 +113,25 @@ case 6:
                 var1 = var8.bind(var9)(var10, var11, var7);
 case 8:
                 var1 = var4.bind(var5)(var6, var1);
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot1;
-                var4 = 7;
-                var4 = var7[var4];
-                var4 = var6.bind(var5)(var4);
-                var4 = var4.CollectiblesItemType;
-                var4 = var4.PROFILE_FRAME;
-                var1['type'] = var4;
-                var4 = var2.label;
-                var1['label'] = var4;
-                var4 = var2.layers;
-                var1['layers'] = var4;
-                var6 = var2.innerWidth;
-                var4 = null;
-                if(!(var4 == var6)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot1;
-                var7 = 8;
-                var7 = var9[var7];
-                var7 = var8.bind(var5)(var7);
-                var7 = var7.DefaultProfileFrameDimensions;
-                var6 = var7.INNER_WIDTH;
-case 9:
-                var1['innerWidth'] = var6;
-                var6 = var2.overflowTop;
-                if(!(var4 == var6)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot1;
-                var7 = 8;
-                var7 = var9[var7];
-                var7 = var8.bind(var5)(var7);
-                var7 = var7.DefaultProfileFrameDimensions;
-                var6 = var7.OVERFLOW_TOP;
-case 11:
-                var1['overflowTop'] = var6;
-                var6 = var2.overflowBottom;
-                if(!(var4 == var6)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot1;
-                var7 = 8;
-                var7 = var9[var7];
-                var7 = var8.bind(var5)(var7);
-                var7 = var7.DefaultProfileFrameDimensions;
-                var6 = var7.OVERFLOW_BOTTOM;
-case 13:
-                var1['overflowBottom'] = var6;
-                var2 = var2.overflowHorizontal;
-                if(!(var4 == var2)) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot1;
-                var3 = 8;
+                var3 = 7;
                 var3 = var6[var3];
                 var3 = var4.bind(var5)(var3);
-                var3 = var3.DefaultProfileFrameDimensions;
-                var2 = var3.OVERFLOW_HORIZONTAL;
-case 15:
+                var3 = var3.CollectiblesItemType;
+                var3 = var3.PROFILE_FRAME;
+                var1['type'] = var3;
+                var3 = var2.label;
+                var1['label'] = var3;
+                var3 = var2.layers;
+                var1['layers'] = var3;
+                var3 = var2.innerWidth;
+                var1['innerWidth'] = var3;
+                var3 = var2.overflowTop;
+                var1['overflowTop'] = var3;
+                var3 = var2.overflowBottom;
+                var1['overflowBottom'] = var3;
+                var2 = var2.overflowHorizontal;
                 var1['overflowHorizontal'] = var2;
                 return var1;
             }
@@ -215,8 +174,8 @@ case 0:
                 var _closure3_slot1 = var9;
                 var12 = 'function';
                 var11 = typeof var9;
-                if(!(var12 === var11)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+                if(!(var12 === var11)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var9 = function(arg1) {
                     var4 = _closure3_slot1;
                     var3 = var4.apply;
@@ -225,7 +184,7 @@ case 18:
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
-case 17:
+case 9:
                 var8 = new Array(1);
                 var8[0] = var2;
                 var15 = var9.bind(var10)(var8);
@@ -260,7 +219,7 @@ case 17:
     };
     var4 = var4.bind(var1)(var5);
     var _closure1_slot8 = var4;
-    var5 = 9;
+    var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

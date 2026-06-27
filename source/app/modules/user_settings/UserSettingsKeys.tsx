@@ -410,6 +410,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PURCHASED_GIFTS_CATEGORY'] = var1;
     var1 = 'purchased_gifts_content';
     var2['PURCHASED_GIFTS_CONTENT'] = var1;
+    var1 = 'gifting_badge_category';
+    var2['GIFTING_BADGE_CATEGORY'] = var1;
+    var1 = 'gifting_badge_content';
+    var2['GIFTING_BADGE_CONTENT'] = var1;
     var1 = 'gift_inventory_list_setting';
     var2['GIFT_INVENTORY_LIST_SETTING'] = var1;
     var1 = 'gift_blocked_payments_setting';

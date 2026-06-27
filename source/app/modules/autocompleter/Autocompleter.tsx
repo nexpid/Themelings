@@ -1939,43 +1939,43 @@ case 119:
 case 0:
                 var13 = this;
                 var10 = arg1;
-                var6 = undefined;
+                var4 = undefined;
                 var11 = undefined;
                 var12 = undefined;
+                var6 = undefined;
                 var5 = undefined;
-                var4 = undefined;
                 var7 = undefined;
                 var9 = undefined;
                 var2 = undefined;
                 var8 = var13._include;
-                var1 = _closure1_slot10;
-                var1 = var1.LINK;
-                var1 = var8.bind(var13)(var1);
-                if(var1) { _fun0030_ip = 4; continue _fun0030 }
+                var3 = _closure1_slot10;
+                var3 = var3.LINK;
+                var3 = var8.bind(var13)(var3);
+                if(var3) { _fun0030_ip = 4; continue _fun0030 }
 case 5:
-                var1 = new Array(0);
-                return var1;
+                var3 = new Array(0);
+                return var3;
 case 4:
                 var8 = _closure1_slot0;
                 var13 = _closure1_slot2;
-                var1 = 17;
-                var1 = var13[var1];
-                var13 = var8.bind(var6)(var1);
+                var3 = 17;
+                var3 = var13[var3];
+                var13 = var8.bind(var4)(var3);
                 var8 = var13.findCodedLink;
-                var1 = var10;
-                var1 = var8.bind(var13)(var1);
+                var3 = var10;
+                var3 = var8.bind(var13)(var3);
                 var8 = null;
-                var13 = var8 == var1;
+                var13 = var8 == var3;
                 var14 = undefined;
                 if(var13) { _fun0030_ip = 156; continue _fun0030 }
 case 157:
-                var14 = var1.type;
+                var14 = var3.type;
 case 156:
                 var15 = _closure1_slot0;
                 var16 = _closure1_slot2;
                 var13 = 18;
                 var13 = var16[var13];
-                var13 = var15.bind(var6)(var13);
+                var13 = var15.bind(var4)(var13);
                 var13 = var13.CodedLinkType;
                 var13 = var13.INVITE;
                 if(!(var14 !== var13)) { _fun0030_ip = 158; continue _fun0030 }
@@ -1984,7 +1984,7 @@ case 159:
                 var15 = _closure1_slot2;
                 var13 = 19;
                 var13 = var15[var13];
-                var14 = var14.bind(var6)(var13);
+                var14 = var14.bind(var4)(var13);
                 var13 = var14.sanitizeUrl;
                 var12 = var13.bind(var14)(var10);
 case 79: // try_start_0
@@ -1997,62 +1997,69 @@ case 79: // try_start_0
                 var12 = new var18[var14](var17, var16);
                 var11 = var12 instanceof Object ? var12 : var13;
 case 160: // try_end0
-                var5 = var11;
-                var4 = var11.pathname;
+                var6 = var11;
+                var5 = var11.pathname;
                 var11 = var11.hostname;
                 var7 = var11;
                 var13 = '';
-                if(!(var6 !== var11)) { _fun0030_ip = 161; continue _fun0030 }
+                if(!(var4 !== var11)) { _fun0030_ip = 161; continue _fun0030 }
 case 162:
                 var13 = var7;
 case 161:
-                var9 = var5.host;
+                var9 = var6.host;
                 var12 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var7 = 20;
                 var11 = var11[var7];
-                var12 = var12.bind(var6)(var11);
+                var12 = var12.bind(var4)(var11);
                 var11 = var12.isDiscordHostname;
                 var11 = var11.bind(var12)(var13);
-                var5 = var11;
+                var6 = var11;
                 if(var11) { _fun0030_ip = 163; continue _fun0030 }
 case 164:
                 var10 = var10.window;
                 var10 = var10.location;
                 var10 = var10.host;
-                var5 = var10 === var9;
+                var6 = var10 === var9;
 case 163:
-                var2 = var5;
-                var5 = var4;
-                if(!(var8 !== var5)) { _fun0030_ip = 165; continue _fun0030 }
+                var2 = var6;
+                var6 = var5;
+                if(!(var8 !== var6)) { _fun0030_ip = 165; continue _fun0030 }
 case 118:
                 if(!var2) { _fun0030_ip = 165; continue _fun0030 }
 case 166:
-                var5 = _closure1_slot1;
+                var6 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var2 = var2[var7];
-                var6 = var5.bind(var6)(var2);
-                var5 = var6.isAppRoute;
-                var2 = var4;
-                var2 = var5.bind(var6)(var2);
+                var7 = var6.bind(var4)(var2);
+                var6 = var7.isAppRoute;
+                var2 = var5;
+                var2 = var6.bind(var7)(var2);
                 if(var2) { _fun0030_ip = 167; continue _fun0030 }
 case 165:
                 var2 = new Array(0);
                 _fun0030_ip = 168; continue _fun0030;
 case 167:
-                var5 = {};
-                var6 = _closure1_slot10;
-                var6 = var6.LINK;
-                var5['type'] = var6;
-                var7 = _closure1_slot6;
-                var6 = var7.fromPath;
-                var4 = var6.bind(var7)(var4);
-                var5['record'] = var4;
-                var4 = 1;
-                var5['score'] = var4;
-                var4 = new Array(1);
-                var4[0] = var5;
-                var2 = var4;
+                var6 = {};
+                var7 = _closure1_slot10;
+                var7 = var7.LINK;
+                var6['type'] = var7;
+                var8 = _closure1_slot6;
+                var7 = var8.fromPath;
+                var5 = var7.bind(var8)(var5);
+                var6['record'] = var5;
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var5 = 8;
+                var5 = var8[var5];
+                var8 = var7.bind(var4)(var5);
+                var7 = var8.calculateScore;
+                var5 = 11;
+                var5 = var7.bind(var8)(var5);
+                var6['score'] = var5;
+                var5 = new Array(1);
+                var5[0] = var6;
+                var2 = var5;
 case 168:
                 return var2;
 case 169: // catch_target0
@@ -2061,15 +2068,22 @@ case 169: // catch_target0
                 return var2;
 case 158:
                 var2 = {};
-                var4 = _closure1_slot10;
-                var4 = var4.LINK;
-                var2['type'] = var4;
-                var4 = _closure1_slot6;
-                var3 = var4.fromInviteCode;
-                var1 = var1.code;
+                var5 = _closure1_slot10;
+                var5 = var5.LINK;
+                var2['type'] = var5;
+                var6 = _closure1_slot6;
+                var5 = var6.fromInviteCode;
+                var3 = var3.code;
+                var3 = var5.bind(var6)(var3);
+                var2['record'] = var3;
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var1 = 8;
+                var1 = var5[var1];
+                var4 = var3.bind(var4)(var1);
+                var3 = var4.calculateScore;
+                var1 = 11;
                 var1 = var3.bind(var4)(var1);
-                var2['record'] = var1;
-                var1 = 1;
                 var2['score'] = var1;
                 var1 = new Array(1);
                 var1[0] = var2;

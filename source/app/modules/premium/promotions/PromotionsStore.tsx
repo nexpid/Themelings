@@ -327,7 +327,7 @@ case 24:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(25);
+        var1 = new Array(26);
         var1[0] = var5;
         var5 = {};
         var7 = 'outboundPromotions';
@@ -554,6 +554,40 @@ case 17:
         var5['value'] = var7;
         var1[17] = var5;
         var5 = {};
+        var7 = 'hasPromotion';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var2 = global;
+            var4 = var2.Object;
+            var3 = var4.values;
+            var2 = _closure1_slot17;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.some;
+            var1 = function(arg1) {
+                var1 = global;
+                var3 = var1.Object;
+                var2 = var3.values;
+                var1 = arg1;
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.some;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.promotionKey;
+                    var1 = _closure3_slot0;
+                    var1 = var2 === var1;
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[18] = var5;
+        var5 = {};
         var7 = 'getPromotionsByPartner';
         var5['key'] = var7;
         var7 = function value(arg1) {
@@ -606,7 +640,7 @@ case 17:
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'getGiftPromotion';
         var5['key'] = var7;
@@ -639,7 +673,7 @@ case 28:
             }
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'getGiftPromotionRewardSkuIds';
         var5['key'] = var7;
@@ -664,7 +698,7 @@ case 32:
             }
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'getMarketingMomentPromotion';
         var5['key'] = var7;
@@ -711,7 +745,7 @@ case 6:
             }
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'getMarketingMomentRewardSkuIds';
         var5['key'] = var7;
@@ -736,7 +770,7 @@ case 37:
             }
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'claimedOutboundPromotionCodes';
         var5['key'] = var7;
@@ -745,7 +779,7 @@ case 37:
             return var1;
         };
         var5['get'] = var7;
-        var1[23] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'claimedOutboundPromotionCodesLoaded';
         var5['key'] = var7;
@@ -754,7 +788,7 @@ case 37:
             return var1;
         };
         var5['get'] = var6;
-        var1[24] = var5;
+        var1[25] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

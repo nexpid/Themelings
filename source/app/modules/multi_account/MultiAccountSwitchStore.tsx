@@ -488,89 +488,75 @@ case 33:
             var6 = function checkTokenCollisionIntroducedAtWrite(arg1, arg2) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var7 = arg1;
-                    var _closure3_slot0 = var7;
-                    var1 = arg2;
-                    var _closure3_slot1 = var1;
-                    var4 = _closure1_slot23;
+                    var8 = arg1;
+                    var4 = arg2;
+                    var _closure3_slot0 = var8;
+                    var _closure3_slot1 = var4;
+                    var5 = _closure1_slot23;
                     var1 = undefined;
-                    var4 = var4.bind(var1)();
-                    if(!var4) { _fun0006_ip = 34; continue _fun0006 }
+                    var5 = var5.bind(var1)();
+                    if(!var5) { _fun0006_ip = 34; continue _fun0006 }
 case 35:
-                    var4 = global;
-                    var4 = var4.Set;
-                    var5 = var4.prototype;
-                    var5 = Object.create(var5, {constructor: {value: var4}});
-                    var11 = var5;
-                    var4 = new var11[var4](var10);
-                    var4 = var4 instanceof Object ? var4 : var5;
-                    var _closure3_slot2 = var4;
-                    var6 = new Array(0);
-                    var _closure3_slot3 = var6;
-                    var4 = false;
-                    var _closure3_slot4 = var4;
-                    var5 = _closure1_slot9;
-                    var4 = var5.getUsers;
-                    var8 = var4.bind(var5)();
-                    var5 = var8.forEach;
-                    var4 = function(arg1) {
+                    var6 = _closure1_slot9;
+                    var5 = var6.getUsers;
+                    var7 = var5.bind(var6)();
+                    var6 = var7.map;
+                    var5 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.id;
+                        return var1;
+                    };
+                    var6 = var6.bind(var7)(var5);
+                    var5 = var6.filter;
+                    var3 = function(arg1) {
                         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                            var1 = arg1;
-                            var6 = var1.id;
-                            var3 = _closure1_slot2;
-                            var2 = _closure1_slot3;
-                            var1 = 9;
-                            var2 = var2[var1];
-                            var1 = undefined;
-                            var3 = var3.bind(var1)(var2);
-                            var2 = var3.getToken;
-                            var5 = var2.bind(var3)(var6);
-                            var2 = _closure3_slot0;
-                            var2 = var6 !== var2;
-                            if(!var2) { _fun0007_ip = 36; continue _fun0007 }
+                            var5 = arg1;
+                            var1 = _closure3_slot0;
+                            var1 = var5 !== var1;
+                            if(!var1) { _fun0007_ip = 36; continue _fun0007 }
 case 37:
-                            var4 = _closure3_slot1;
-                            var2 = var5 === var4;
+                            var6 = _closure1_slot2;
+                            var4 = _closure1_slot3;
+                            var3 = 9;
+                            var4 = var4[var3];
+                            var3 = undefined;
+                            var4 = var6.bind(var3)(var4);
+                            var3 = var4.getToken;
+                            var3 = var3.bind(var4)(var5);
+                            var2 = _closure3_slot1;
+                            var1 = var3 === var2;
 case 36:
-                            if(!var2) { _fun0007_ip = 38; continue _fun0007 }
-case 8:
-                            var4 = _closure3_slot3;
-                            var2 = var4.push;
-                            var2 = var2.bind(var4)(var6);
-case 38:
-                            var2 = null;
-                            if(!(var2 != var5)) { _fun0007_ip = 39; continue _fun0007 }
-case 40:
-                            var4 = _closure3_slot2;
-                            var2 = var4.has;
-                            var2 = var2.bind(var4)(var5);
-                            if(var2) { _fun0007_ip = 41; continue _fun0007 }
-case 42:
-                            var4 = _closure3_slot2;
-                            var2 = var4.add;
-                            var2 = var2.bind(var4)(var5);
-                            _fun0007_ip = 39; continue _fun0007;
-case 41:
-                            var2 = true;
-                            _closure3_slot4 = var2;
-case 39:
                             return var1;
                         }
                     };
-                    var4 = var5.bind(var8)(var4);
-                    var5 = var6.length;
-                    var4 = 0;
-                    if(!(var4 !== var5)) { _fun0006_ip = 34; continue _fun0006 }
-case 17:
+                    var7 = var5.bind(var6)(var3);
+                    var5 = var7.length;
+                    var3 = 0;
+                    if(!(var3 !== var5)) { _fun0006_ip = 34; continue _fun0006 }
+case 38:
+                    var5 = _closure1_slot2;
+                    var6 = _closure1_slot3;
+                    var3 = 9;
+                    var3 = var6[var3];
+                    var5 = var5.bind(var1)(var3);
+                    var3 = var5.getToken;
+                    var3 = var3.bind(var5)(var8);
+                    var4 = var3 === var4;
+                    var5 = var7.length;
+                    var3 = 2;
+                    var3 = var5 >= var3;
                     var5 = {};
-                    var4 = _closure1_slot22;
-                    var9 = var4.bind(var1)(var7);
+                    var6 = _closure1_slot22;
+                    var9 = var6.bind(var1)(var8);
                     var10 = var5;
-                    var4 = copyDataProperties(var10, var9);
-                    var4 = 'colliding_user_ids';
-                    var5[3] = var6;
-                    var4 = _closure3_slot4;
+                    var6 = copyDataProperties(var10, var9);
+                    var6 = 'colliding_user_ids';
+                    var5[5] = var7;
+                    if(var4) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
+                    var4 = var3;
+case 39:
                     var3 = 'is_already_corrupted';
                     var5[2] = var4;
                     var6 = _closure1_slot11;
@@ -609,7 +595,7 @@ case 0:
                     var1 = undefined;
                     var4 = var4.bind(var1)();
                     if(!var4) { _fun0008_ip = 10; continue _fun0008 }
-case 43:
+case 41:
                     var4 = global;
                     var4 = var4.Map;
                     var5 = var4.prototype;
@@ -636,24 +622,24 @@ case 0:
                             var2 = var3.getToken;
                             var5 = var2.bind(var3)(var6);
                             var3 = null;
-                            if(!(var3 != var5)) { _fun0009_ip = 44; continue _fun0009 }
-case 45:
+                            if(!(var3 != var5)) { _fun0009_ip = 42; continue _fun0009 }
+case 43:
                             var2 = '';
-                            if(!(var2 !== var5)) { _fun0009_ip = 44; continue _fun0009 }
-case 37:
+                            if(!(var2 !== var5)) { _fun0009_ip = 42; continue _fun0009 }
+case 44:
                             var7 = _closure3_slot1;
                             var4 = var7.get;
                             var4 = var4.bind(var7)(var5);
-                            if(!(var3 == var4)) { _fun0009_ip = 38; continue _fun0009 }
+                            if(!(var3 == var4)) { _fun0009_ip = 45; continue _fun0009 }
 case 46:
                             var4 = new Array(0);
-case 38:
+case 45:
                             var3 = var4.push;
                             var3 = var3.bind(var4)(var6);
                             var3 = _closure3_slot1;
                             var2 = var3.set;
                             var2 = var2.bind(var3)(var5, var4);
-case 44:
+case 42:
                             return var1;
                         }
                     };

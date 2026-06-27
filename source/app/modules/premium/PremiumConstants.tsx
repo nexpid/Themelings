@@ -1718,6 +1718,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PREMIUM_TIER_2_ANNUAL_V2_20_PERCENT_DISCOUNT_ID'] = var53;
     var3['PREMIUM_TIER_2_ANNUAL_V2_30_PERCENT_DISCOUNT_ID'] = var52;
     var3['ANNUAL_V2_DISCOUNT_IDS'] = var51;
+    var51 = '2026-07-tr-offer-1-campaign';
+    var3['TR_OFFER_1_CAMPAIGN_KEY'] = var51;
+    var51 = 10000;
+    var3['TR_OFFER_1_ORBS_REWARD_AMOUNT'] = var51;
+    var51 = 'tr-offer-1-payment-modal-banner';
+    var3['TR_OFFER_1_PAYMENT_MODAL_BANNER_KEY'] = var51;
     var3['TRIAL_OFFERS_REQUIRES_REMINDER_ROLLOUT'] = var50;
     var50 = new Array(0);
     var3['DISCOUNT_OFFERS_REQUIRES_REMINDER_ROLLOUT'] = var50;

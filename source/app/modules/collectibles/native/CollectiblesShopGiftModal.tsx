@@ -50,10 +50,11 @@ case 0:
             var4 = var2.analyticsLocations;
             var11 = var2.lockedRecipientUser;
             var10 = var2.onGiftModalDismiss;
+            var _closure2_slot1 = var10;
             var9 = var2.giftingOrigin;
-            var _closure2_slot1 = var9;
+            var _closure2_slot2 = var9;
             var6 = undefined;
-            var _closure2_slot4 = var6;
+            var _closure2_slot5 = var6;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 4;
@@ -66,7 +67,7 @@ case 0:
             var2['location'] = var14;
             var2 = var5.bind(var12)(var2);
             var2 = var2.enabled;
-            var _closure2_slot2 = var2;
+            var _closure2_slot3 = var2;
             var14 = _closure1_slot3;
             var12 = var14.useEffect;
             var5 = new Array(1);
@@ -74,7 +75,7 @@ case 0:
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var1 = _closure2_slot2;
+                    var1 = _closure2_slot3;
                     if(!var1) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
                     var5 = _closure1_slot0;
@@ -113,7 +114,7 @@ case 2:
                 return var1;
             };
             var14 = var5.bind(var12)(var3, var1, var2);
-            var _closure2_slot3 = var14;
+            var _closure2_slot4 = var14;
             var5 = _closure1_slot1;
             var1 = 8;
             var1 = var8[var1];
@@ -139,7 +140,7 @@ case 2:
 case 5:
             var2 = var14.skuId;
 case 4:
-            _closure2_slot4 = var2;
+            _closure2_slot5 = var2;
             var5 = _closure1_slot3;
             var4 = var5.useCallback;
             var3 = new Array(1);
@@ -154,7 +155,7 @@ case 0:
                     var4 = undefined;
                     var6 = var3.bind(var4)(var1);
                     var5 = var6.isNullOrEmpty;
-                    var3 = _closure2_slot4;
+                    var3 = _closure2_slot5;
                     var3 = var5.bind(var6)(var3);
                     if(var3) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
@@ -164,7 +165,7 @@ case 7:
                     var2 = var5[var2];
                     var4 = var3.bind(var4)(var2);
                     var3 = var4.validateCollectiblesRecipient;
-                    var2 = _closure2_slot4;
+                    var2 = _closure2_slot5;
                     var1 = arg1;
                     var1 = var3.bind(var4)(var1, var2);
                     _fun0003_ip = 8; continue _fun0003;
@@ -240,7 +241,7 @@ case 11:
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
                 var1 = {};
-                var7 = _closure2_slot3;
+                var7 = _closure2_slot4;
                 var1['product'] = var7;
                 var1['recipientUser'] = var6;
                 var1['isValidRecipient'] = var5;
@@ -263,13 +264,15 @@ case 11:
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
                 var1 = {};
-                var9 = _closure2_slot3;
+                var9 = _closure2_slot4;
                 var1['product'] = var9;
                 var1['isPurchaseDisabled'] = var8;
                 var1['giftOptions'] = var7;
                 var1['baseAnalyticsFields'] = var6;
+                var6 = _closure2_slot2;
+                var1['giftingOrigin'] = var6;
                 var5 = _closure2_slot1;
-                var1['giftingOrigin'] = var5;
+                var1['onGiftModalDismiss'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

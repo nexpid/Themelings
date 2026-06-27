@@ -22,7 +22,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/openGiftModal.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function openShopGiftModal(arg1) {
+    var4 = 'Shop Gift Modal';
+    var3['ShopGiftModalKey'] = var4;
+    var4 = function openShopGiftModal(arg1) {
         var1 = arg1;
         var13 = var1.navigationParams;
         var11 = var1.skuId;
@@ -57,6 +59,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var17[var5](var16, var15, var14, var13, var12);
         return var1;
     };
-    var3['openShopGiftModal'] = var2;
+    var3['openShopGiftModal'] = var4;
+    var2 = function closeShopGiftModal() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.popWithKey;
+        var2 = 'Shop Gift Modal';
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['closeShopGiftModal'] = var2;
     return var1;
 })();

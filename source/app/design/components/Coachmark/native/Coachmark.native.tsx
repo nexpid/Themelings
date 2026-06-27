@@ -170,7 +170,9 @@ case 4:
                     var3 = _closure1_slot7;
                     var2 = {};
                     var1 = _closure2_slot3;
-                    var1 = var1.bottomMargin;
+                    var5 = var1.bottomMargin;
+                    var1 = new Array(1);
+                    var1[0] = var5;
                     var2['style'] = var1;
                     var7 = _closure1_slot10;
                     var6 = _closure1_slot0;
@@ -195,7 +197,9 @@ case 13:
                     var8 = var11;
 case 12:
                     var8 = var10[var8];
-                    var9['maxHeight'] = var8;
+                    var9['height'] = var8;
+                    var8 = 'auto';
+                    var9['width'] = var8;
                     var8 = 'style';
                     var5[7] = var9;
                     var5 = var7.bind(var1)(var6, var5);

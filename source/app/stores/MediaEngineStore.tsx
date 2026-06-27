@@ -12251,16 +12251,22 @@ case 545:
 case 0:
             var1 = arg1;
             var1 = var1.settings;
-            var2 = var1.decoupledClipsEnabled;
-            var1 = false;
-            if(!(var1 === var2)) { _fun0151_ip = 382; continue _fun0151 }
+            var3 = var1.decoupledClipsEnabled;
+            var2 = false;
+            if(!(var2 === var3)) { _fun0151_ip = 382; continue _fun0151 }
 case 552:
-            var3 = null;
-            _closure1_slot80 = var3;
-            var2 = _closure1_slot77;
-            var1 = var2.setClipsSource;
-            var1 = var1.bind(var2)(var3);
+            var5 = null;
+            _closure1_slot80 = var5;
+            var4 = _closure1_slot77;
+            var3 = var4.setClipsSource;
+            var3 = var3.bind(var4)(var5);
 case 382:
+            var1 = var1.clipsEnabled;
+            if(!(var2 === var1)) { _fun0151_ip = 333; continue _fun0151 }
+case 8:
+            var1 = null;
+            _closure1_slot80 = var1;
+case 333:
             var1 = undefined;
             return var1;
         }

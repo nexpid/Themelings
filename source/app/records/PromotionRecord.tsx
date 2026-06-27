@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot8 = var2;
+            _closure1_slot7 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot7 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -77,11 +77,6 @@ case 4:
     var4 = 5;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var7 = 6;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.PromotionFlags;
-    var _closure1_slot7 = var7;
     var2 = function(arg1) {
         var5 = function PromotionRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -95,7 +90,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var11 = var1.bind(var6)(var3);
                 var3 = _closure1_slot4;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot7;
                 var1 = var1.bind(var6)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -171,7 +166,7 @@ case 15:
 case 18:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot1;
-                var4 = 7;
+                var4 = 6;
                 var4 = var7[var4];
                 var4 = var5.bind(var6)(var4);
                 var4 = var4.CountryListMode;
@@ -205,7 +200,7 @@ case 17:
             var2 = var1.promotionType;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 7;
+            var1 = 6;
             var3 = var3[var1];
             var1 = undefined;
             var1 = var4.bind(var1)(var3);
@@ -215,7 +210,7 @@ case 17:
             return var1;
         };
         var6['get'] = var2;
-        var2 = new Array(5);
+        var2 = new Array(4);
         var2[0] = var6;
         var6 = {};
         var7 = 'isMarketingMoment';
@@ -225,7 +220,7 @@ case 17:
             var2 = var1.promotionType;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 7;
+            var1 = 6;
             var3 = var3[var1];
             var1 = undefined;
             var1 = var4.bind(var1)(var3);
@@ -242,7 +237,7 @@ case 17:
         var7 = function value(arg1) {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 8;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -266,7 +261,7 @@ case 0:
                 var5 = var1.countryListMode;
                 var8 = _closure1_slot0;
                 var4 = _closure1_slot1;
-                var7 = 7;
+                var7 = 6;
                 var4 = var4[var7];
                 var6 = undefined;
                 var4 = var8.bind(var6)(var4);
@@ -329,19 +324,6 @@ case 19:
         };
         var6['value'] = var7;
         var2[3] = var6;
-        var6 = {};
-        var7 = 'isRedeemableByTrialUsers';
-        var6['key'] = var7;
-        var7 = function value() {
-            var3 = this;
-            var2 = var3.hasFlag;
-            var1 = _closure1_slot7;
-            var1 = var1.IS_OUTBOUND_REDEEMABLE_BY_TRIAL_USERS;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var6['value'] = var7;
-        var2[4] = var6;
         var6 = {};
         var7 = 'createFromServer';
         var6['key'] = var7;
@@ -469,7 +451,7 @@ case 45:
 case 48:
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot1;
-                var7 = 7;
+                var7 = 6;
                 var8 = var8[var7];
                 var7 = undefined;
                 var7 = var9.bind(var7)(var8);
@@ -549,7 +531,7 @@ case 63:
         return var1;
     };
     var2 = var2.bind(var1)(var4);
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -169,8 +169,6 @@ case 2:
     var3['PREVIEW_SIZE'] = var5;
     var5 = 5.333333333333333;
     var3['NAMEPLATE_ASPECT_RATIO'] = var5;
-    var5 = 0.66;
-    var3['PROFILE_FRAME_ASPECT_RATIO'] = var5;
     var3['getCollectibleTypeName'] = var4;
     var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

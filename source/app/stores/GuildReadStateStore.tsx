@@ -2514,7 +2514,7 @@ case 223:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(17);
+        var1 = new Array(18);
         var1[0] = var5;
         var5 = {};
         var7 = 'loadCache';
@@ -2897,6 +2897,43 @@ case 91:
         var5['value'] = var7;
         var1[15] = var5;
         var5 = {};
+        var7 = 'getHighImportanceMentionCountForChannel';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            _fun0049: for(var _fun0049_ip = 0; ; ) switch(_fun0049_ip) {
+case 0:
+                var3 = arg1;
+                var2 = _closure1_slot28;
+                var1 = null;
+                if(!(var1 == var3)) { _fun0049_ip = 33; continue _fun0049 }
+case 39:
+                var3 = _closure1_slot27;
+case 33:
+                var3 = var2[var3];
+                var4 = var1 == var3;
+                var2 = undefined;
+                if(var4) { _fun0049_ip = 6; continue _fun0049 }
+case 37:
+                var4 = var3.mentionCounts;
+                var3 = arg2;
+                var2 = var4[var3];
+case 6:
+                var3 = var1 == var2;
+                var1 = 0;
+                if(var3) { _fun0049_ip = 232; continue _fun0049 }
+case 8:
+                var3 = var2.isMentionLowImportance;
+                var1 = 0;
+                if(var3) { _fun0049_ip = 232; continue _fun0049 }
+case 51:
+                var1 = var2.count;
+case 232:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[16] = var5;
+        var5 = {};
         var7 = 'getGuildChangeSentinel';
         var5['key'] = var7;
         var6 = function value(arg1) {
@@ -2908,7 +2945,7 @@ case 91:
             return var1;
         };
         var5['value'] = var6;
-        var1[16] = var5;
+        var1[17] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

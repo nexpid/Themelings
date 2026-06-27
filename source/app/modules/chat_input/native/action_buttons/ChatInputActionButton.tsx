@@ -182,7 +182,7 @@ case 7:
             var2 = var23.bind(var4)(var2);
             var2 = var2.modules;
             var2 = var2.mobile;
-            var2 = var2.CHAT_INPUT_ACTION_BUTTON_MIN_TOUCH_TARGET_SIZE;
+            var2 = var2.CHAT_INPUT_BUTTON_MIN_TOUCH_TARGET_SIZE;
             var18 = var18.bind(var20)(var2);
             var2 = _closure1_slot5;
             var10 = var2.bind(var4)(var19, var1, var10);

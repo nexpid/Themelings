@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function clearGameProfilePendingReturn(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 5;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -34,49 +34,82 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var8.bind(var9)(var3, var2, var7);
     var2 = {};
     var7 = function openGameProfileModal(arg1) {
-        var1 = arg1;
-        var9 = var1.gameId;
-        var4 = var1.gameProfileModalChecks;
-        var8 = var1.source;
-        var7 = var1.sourceUserId;
-        var5 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var6 = 0;
-        var10 = var2[var6];
-        var1 = undefined;
-        var12 = var5.bind(var1)(var10);
-        var11 = var4.shouldOpenGameProfile;
-        var10 = 'Passed a false value for [gameProfileModalChecks]. Are you using the useShouldOpenGameProfile hook correctly?';
-        var10 = var12.bind(var1)(var11, var10);
-        var6 = var2[var6];
-        var10 = var5.bind(var1)(var6);
-        var4 = var4.gameId;
-        var6 = var4 === var9;
-        var4 = 'Passed an unexpected [gameId]. Are you passing a different one than you passed to useShouldOpenGameProfileModal?';
-        var4 = var10.bind(var1)(var6, var4);
-        var4 = 1;
-        var4 = var2[var4];
-        var6 = var5.bind(var1)(var4);
-        var5 = var6.openLazy;
-        var4 = _closure1_slot0;
-        var3 = 3;
-        var3 = var2[var3];
-        var4 = var4.bind(var1)(var3);
-        var3 = 2;
-        var3 = var2[var3];
-        var2 = var2.paths;
-        var4 = var4.bind(var1)(var3, var2);
-        var2 = global;
-        var2 = var2.HermesInternal;
-        var3 = var2.concat;
-        var2 = 'game-profile-';
-        var3 = var3.bind(var2)(var9);
-        var2 = {};
-        var2['gameId'] = var9;
-        var2['source'] = var8;
-        var2['sourceUserId'] = var7;
-        var2 = var5.bind(var6)(var4, var3, var2);
-        return var1;
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var10 = var1.gameId;
+            var3 = var1.gameProfileModalChecks;
+            var9 = var1.source;
+            var2 = var1.sourceUserId;
+            var8 = var1.stackOnTop;
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var5 = 0;
+            var11 = var7[var5];
+            var1 = undefined;
+            var13 = var6.bind(var1)(var11);
+            var12 = var3.shouldOpenGameProfile;
+            var11 = 'Passed a false value for [gameProfileModalChecks]. Are you using the useShouldOpenGameProfile hook correctly?';
+            var11 = var13.bind(var1)(var12, var11);
+            var5 = var7[var5];
+            var6 = var6.bind(var1)(var5);
+            var3 = var3.gameId;
+            var5 = var3 === var10;
+            var3 = 'Passed an unexpected [gameId]. Are you passing a different one than you passed to useShouldOpenGameProfileModal?';
+            var3 = var6.bind(var1)(var5, var3);
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var5 = var3.concat;
+            var3 = 'game-profile-';
+            var7 = var5.bind(var3)(var10);
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 1;
+            var3 = var6[var3];
+            var3 = var5.bind(var1)(var3);
+            var11 = var3.bind(var1)();
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var6 = var3.concat;
+            var5 = 'game-profile-';
+            var3 = '-';
+            var7 = var6.bind(var5)(var10, var3, var11);
+case 4:
+            var6 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var5 = 2;
+            var5 = var3[var5];
+            var6 = var6.bind(var1)(var5);
+            var5 = var6.openLazy;
+            var11 = _closure1_slot0;
+            var4 = 4;
+            var4 = var3[var4];
+            var11 = var11.bind(var1)(var4);
+            var4 = 3;
+            var4 = var3[var4];
+            var3 = var3.paths;
+            var4 = var11.bind(var1)(var4, var3);
+            var3 = {};
+            var3['gameId'] = var10;
+            var3['source'] = var9;
+            var3['sourceUserId'] = var2;
+            var2 = undefined;
+            if(!var8) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            var2 = 'stack';
+case 5:
+            var18 = var6;
+            var17 = var4;
+            var16 = var7;
+            var15 = var3;
+            var14 = var2;
+            var2 = var18[var5](var17, var16, var15, var14, var13);
+            return var1;
+        }
     };
     var2['openGameProfileModal'] = var7;
     var7 = function returnToGameProfile(arg1) {
@@ -89,15 +122,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.bind(var1)(var9);
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var4 = 1;
+        var4 = 2;
         var4 = var2[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.openLazy;
         var4 = _closure1_slot0;
-        var3 = 3;
+        var3 = 4;
         var3 = var2[var3];
         var4 = var4.bind(var1)(var3);
-        var3 = 2;
+        var3 = 3;
         var3 = var2[var3];
         var2 = var2.paths;
         var4 = var4.bind(var1)(var3, var2);
@@ -121,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var1.initialScrollOffset;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 5;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -137,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['setGameProfilePendingReturn'] = var6;
     var2['clearGameProfilePendingReturn'] = var1;
-    var1 = 5;
+    var1 = 6;
     var4 = var4[var1];
     var1 = undefined;
     var6 = var5.bind(var1)(var4);

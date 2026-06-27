@@ -42,5 +42,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GUILD_POWERUP_TAG_SKU_ID'] = var2;
     var2 = '1354906318279807056';
     var3['GUILD_POWERUP_ROLE_COLOR_SKU_ID'] = var2;
+    var2 = '1519481858977562824';
+    var3['GUILD_SPACE_WHITEBOARD_POWERUP_SKU_ID'] = var2;
+    var2 = '1519482584797679646';
+    var3['GUILD_SPACE_GAMING_LEADERBOARD_POWERUP_SKU_ID'] = var2;
     return var1;
 })();

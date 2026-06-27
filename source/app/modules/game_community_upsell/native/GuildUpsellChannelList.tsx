@@ -72,18 +72,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['flex'] = var12;
     var4['headerTitle'] = var9;
-    var9 = {};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.space;
-    var13 = var13.PX_16;
-    var9['paddingHorizontal'] = var13;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.space;
-    var13 = var13.PX_16;
-    var9['paddingBottom'] = var13;
-    var4['listContent'] = var9;
     var9 = {'flexDirection': 'row', 'gap': null, 'flex': 1};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
@@ -245,7 +233,7 @@ case 2:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var17 = var9.bind(var4)(var2, var3);
+            var16 = var9.bind(var4)(var2, var3);
             var9 = var4.useCallback;
             var3 = function() {
                 var3 = _closure1_slot1;
@@ -259,20 +247,20 @@ case 2:
                 return var1;
             };
             var2 = new Array(0);
-            var9 = var9.bind(var4)(var3, var2);
-            var _closure2_slot2 = var9;
-            var3 = var4.useMemo;
-            var2 = new Array(5);
-            var2[0] = var9;
-            var9 = var7.subheaderWrapper;
-            var2[1] = var9;
-            var9 = var7.createCard;
-            var2[2] = var9;
-            var9 = var7.descriptionSpacing;
-            var2[3] = var9;
-            var9 = var7.joinSection;
-            var2[4] = var9;
-            var1 = function() {
+            var2 = var9.bind(var4)(var3, var2);
+            var _closure2_slot2 = var2;
+            var9 = var4.useMemo;
+            var3 = new Array(5);
+            var3[0] = var2;
+            var2 = var7.subheaderWrapper;
+            var3[1] = var2;
+            var2 = var7.createCard;
+            var3[2] = var2;
+            var2 = var7.descriptionSpacing;
+            var3[3] = var2;
+            var2 = var7.joinSection;
+            var3[4] = var2;
+            var2 = function() {
                 var4 = _closure1_slot10;
                 var3 = _closure1_slot5;
                 var2 = {};
@@ -395,9 +383,34 @@ case 2:
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var16 = var3.bind(var4)(var1, var2);
-            var1 = _closure1_slot8;
-            var15 = var1.bind(var5)();
+            var15 = var9.bind(var4)(var2, var3);
+            var2 = _closure1_slot8;
+            var9 = var2.bind(var5)();
+            var _closure2_slot3 = var9;
+            var3 = var4.useMemo;
+            var2 = new Array(1);
+            var2[0] = var9;
+            var1 = function() {
+                var1 = {};
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot3;
+                var2 = 7;
+                var6 = var5[var2];
+                var3 = undefined;
+                var6 = var4.bind(var3)(var6);
+                var6 = var6.space;
+                var6 = var6.PX_16;
+                var1['paddingHorizontal'] = var6;
+                var2 = var5[var2];
+                var2 = var4.bind(var3)(var2);
+                var2 = var2.space;
+                var3 = var2.PX_16;
+                var2 = _closure2_slot3;
+                var2 = var3 + var2;
+                var1['paddingBottom'] = var2;
+                return var1;
+            };
+            var17 = var3.bind(var4)(var1, var2);
             var2 = var18.length;
             var1 = 0;
             if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
@@ -455,11 +468,9 @@ case 7:
             var14 = var10.OneColumnGuildUpsellList;
             var10 = {};
             var10['suggestedGuilds'] = var18;
-            var20 = var7.listContent;
-            var10['contentContainerStyle'] = var20;
-            var10['onDismiss'] = var17;
-            var10['subheader'] = var16;
-            var10['bottomPadding'] = var15;
+            var10['contentContainerStyle'] = var17;
+            var10['onDismiss'] = var16;
+            var10['subheader'] = var15;
             var12 = var19.bind(var5)(var14, var10);
 case 6:
             var10 = new Array(2);
@@ -477,13 +488,11 @@ case 9:
             var13 = var12.TwoColumnGuildUpsellList;
             var12 = {};
             var12['suggestedGuilds'] = var18;
-            var18 = var7.listContent;
-            var12['contentContainerStyle'] = var18;
-            var18 = var7.twoColumnRow;
-            var12['rowStyle'] = var18;
-            var12['onDismiss'] = var17;
-            var12['subheader'] = var16;
-            var12['bottomPadding'] = var15;
+            var12['contentContainerStyle'] = var17;
+            var17 = var7.twoColumnRow;
+            var12['rowStyle'] = var17;
+            var12['onDismiss'] = var16;
+            var12['subheader'] = var15;
             var11 = var14.bind(var5)(var13, var12);
 case 8:
             var10[1] = var11;

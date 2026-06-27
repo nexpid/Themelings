@@ -186,7 +186,7 @@ case 10:
             var2 = var17.bind(var4)(var2);
             var2 = var2.modules;
             var2 = var2.mobile;
-            var2 = var2.CHAT_INPUT_ACTION_BUTTON_MIN_TOUCH_TARGET_SIZE;
+            var2 = var2.CHAT_INPUT_BUTTON_MIN_TOUCH_TARGET_SIZE;
             var6 = var6.bind(var16)(var2);
             var2 = var7;
             if(var9) { _fun0002_ip = 12; continue _fun0002 }

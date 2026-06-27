@@ -228,6 +228,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CLOSE_DETAIL'] = var18;
     var18 = 'copy_link';
     var2['COPY_LINK'] = var18;
+    var18 = 'share_link';
+    var2['SHARE_LINK'] = var18;
     var18 = 'use_now';
     var2['USE_NOW'] = var18;
     var18 = 'edit_profile';

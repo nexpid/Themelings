@@ -313,6 +313,8 @@ case 28:
     var10['UNCATEGORIZED'] = var17;
     var17 = 'd3d11videodecoder';
     var10['D3D11VIDEODECODER'] = var17;
+    var17 = 'android';
+    var10['ANDROID'] = var17;
     var10['UNKNOWN'] = var9;
     var _closure1_slot15 = var10;
     var18 = var4.Object;
@@ -397,6 +399,10 @@ case 28:
     var4['omx.mtk'] = var18;
     var18 = var10.D3D11VIDEODECODER;
     var4['d3d11videodecoder'] = var18;
+    var18 = var10.ANDROID;
+    var4['c2.android'] = var18;
+    var18 = var10.ANDROID;
+    var4['omx.google'] = var18;
     var4 = var9.bind(var17)(var4);
     var _closure1_slot17 = var4;
     var9 = {};

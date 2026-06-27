@@ -1066,6 +1066,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var28['TOGGLE_VIDEO'] = var11;
     var11 = 'TOGGLE_SCREENSHARE';
     var28['TOGGLE_SCREENSHARE'] = var11;
+    var11 = 'TOGGLE_VOICE_CHANNEL_CHAT';
+    var28['TOGGLE_VOICE_CHANNEL_CHAT'] = var11;
     var11 = 'GET_ACTIVITY_INSTANCE_CONNECTED_PARTICIPANTS';
     var28['GET_ACTIVITY_INSTANCE_CONNECTED_PARTICIPANTS'] = var11;
     var11 = 'GET_PROVIDER_ACCESS_TOKEN';
