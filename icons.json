@@ -160,7 +160,7 @@
     },
     "AnnouncementsSpoilerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AnnouncementsSpoilerIcon.png",
-        "hash": "9305469bfec77c13d32804e473dc361a",
+        "hash": "ed1b3f98404fd7110fcc027f7d70e0e9",
         "scales": [
             2,
             3
@@ -3235,7 +3235,7 @@
     },
     "ForumSpoilerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ForumSpoilerIcon.png",
-        "hash": "6a4fca97f117d774c83f55a60ec75fed",
+        "hash": "50398ad483a7c69d1d35b3cb9c9b7bde",
         "scales": [
             2,
             3
@@ -11969,7 +11969,7 @@
     },
     "TextSpoilerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TextSpoilerIcon.png",
-        "hash": "b2fad9d837b00cddcdc5c4e47a4e60c2",
+        "hash": "9ca1aab40b1d1dec8d5caf0688317d98",
         "scales": [
             2,
             3
@@ -12663,7 +12663,7 @@
     },
     "VoiceNormalSpoilerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VoiceNormalSpoilerIcon.png",
-        "hash": "b7f1807c004b9a5e97a7e50b8f45e8e5",
+        "hash": "2007c026f7f9ad4b2d38f1d4bc513524",
         "scales": [
             2,
             3
