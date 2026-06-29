@@ -4353,7 +4353,7 @@
 { "file": "app/modules/guilds_bar/native/hooks/useGuildsBarBottomRightBadge.tsx", "size": 14084 }
 { "file": "app/modules/guilds_bar/native/hooks/useGuildsBarCreatePendingFolderNode.tsx", "size": 11712 }
 { "file": "app/modules/guilds_bar/native/hooks/useGuildsBarGesture.tsx", "size": 134047 }
-{ "file": "app/modules/guilds_bar/native/hooks/useGuildsBarProps.tsx", "size": 97018 }
+{ "file": "app/modules/guilds_bar/native/hooks/useGuildsBarProps.tsx", "size": 96439 }
 { "file": "app/modules/guilds_bar/native/hooks/usePreloadedGuildAsset.tsx", "size": 6844 }
 { "file": "app/modules/guilds_bar/native/utils/areGuildsBarFastListStatesEqual.tsx", "size": 890 }
 { "file": "app/modules/guilds_bar/native/utils/computeGuildsBarCutout.tsx", "size": 3969 }
