@@ -13,21 +13,20 @@ case 0:
             var10 = var2.skuId;
             var7 = var2.layer;
             var _closure2_slot0 = var7;
-            var4 = var2.scale;
             var14 = var2.overflowTop;
             var _closure2_slot1 = var14;
             var13 = var2.overflowBottom;
             var _closure2_slot2 = var13;
-            var1 = var2.overflowHorizontal;
-            var _closure2_slot3 = var1;
-            var9 = var2.containerWidth;
+            var4 = var2.overflowHorizontal;
+            var _closure2_slot3 = var4;
+            var1 = var2.containerWidth;
             var11 = var2.containerHeight;
             var3 = _closure1_slot8;
             var5 = undefined;
             var8 = var3.bind(var5)();
             var3 = 2;
-            var3 = var3 * var1;
-            var16 = var9 + var3;
+            var3 = var3 * var4;
+            var16 = var1 + var3;
             var _closure2_slot4 = var16;
             var9 = _closure1_slot0;
             var12 = _closure1_slot1;
@@ -54,8 +53,8 @@ case 0:
             var9[2] = var15;
             var9[3] = var14;
             var9[4] = var13;
-            var9[5] = var1;
-            var1 = function() {
+            var9[5] = var4;
+            var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = {};
@@ -136,26 +135,26 @@ case 12:
                     return var1;
                 }
             };
-            var9 = var10.bind(var12)(var1, var9);
+            var9 = var10.bind(var12)(var4, var9);
             var10 = var7.responsive;
-            var1 = true;
-            var10 = var1 === var10;
+            var4 = true;
+            var10 = var4 === var10;
             if(!var10) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var12 = var7.type;
-            var1 = 'rail';
-            var10 = var1 === var12;
+            var4 = 'rail';
+            var10 = var4 === var12;
 case 14:
             if(!var10) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var1 = null;
-            var10 = var1 != var11;
+            var4 = null;
+            var10 = var4 != var11;
 case 16:
             if(!var10) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
+            var4 = var1 / var11;
             var1 = _closure1_slot4;
-            var1 = var1 * var4;
-            var10 = var11 < var1;
+            var10 = var4 >= var1;
 case 18:
             var4 = 0;
             if(!(var4 !== var3)) { _fun0001_ip = 20; continue _fun0001 }
@@ -275,7 +274,7 @@ case 20:
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.PROFILE_FRAME_RESPONSIVE_RAIL_MIN_PROFILE_HEIGHT;
+    var7 = var4.PROFILE_FRAME_RESPONSIVE_RAIL_MIN_ASPECT_RATIO;
     var _closure1_slot4 = var7;
     var4 = var4.PROFILE_FRAME_Z_INDEX;
     var _closure1_slot5 = var4;
@@ -341,7 +340,6 @@ case 0:
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
-            var _closure2_slot9 = var4;
             var6 = _closure1_slot8;
             var6 = var6.bind(var4)();
             var10 = _closure1_slot2;
@@ -423,14 +421,12 @@ case 43:
             var2 = var10[var2];
             var2 = var9.bind(var4)(var2);
             var2 = var2.bind(var4)(var8, var3);
-            var3 = var2.scale;
-            _closure2_slot6 = var3;
             var3 = var2.overflowTop;
-            _closure2_slot7 = var3;
+            _closure2_slot6 = var3;
             var3 = var2.overflowBottom;
-            _closure2_slot8 = var3;
+            _closure2_slot7 = var3;
             var2 = var2.overflowHorizontal;
-            _closure2_slot9 = var2;
+            _closure2_slot8 = var2;
             var3 = _closure1_slot7;
             var2 = _closure1_slot3;
             var1 = {};
@@ -447,12 +443,10 @@ case 43:
                 var3['skuId'] = var6;
                 var3['layer'] = var1;
                 var6 = _closure2_slot6;
-                var3['scale'] = var6;
-                var6 = _closure2_slot7;
                 var3['overflowTop'] = var6;
-                var6 = _closure2_slot8;
+                var6 = _closure2_slot7;
                 var3['overflowBottom'] = var6;
-                var6 = _closure2_slot9;
+                var6 = _closure2_slot8;
                 var3['overflowHorizontal'] = var6;
                 var6 = _closure2_slot1;
                 var3['containerWidth'] = var6;

@@ -1,4 +1,4 @@
-// discord_common/js/packages/rtn-codegen/js/FastImageFabricNativeComponent.tsx
+// discord_common/js/packages/rtn-codegen/js/FastImageNativeComponent.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var5.bind(var8)(var3, var1, var2);
     var2 = {};
-    var9 = 'DCDFastImageFabric';
+    var9 = 'DCDFastImageView';
     var2['uiViewClassName'] = var9;
     var1 = {};
     var5 = {};
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = '../discord_common/js/packages/rtn-codegen/js/FastImageFabricNativeComponent.tsx';
+    var5 = '../discord_common/js/packages/rtn-codegen/js/FastImageNativeComponent.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
     var3['__INTERNAL_VIEW_CONFIG'] = var2;

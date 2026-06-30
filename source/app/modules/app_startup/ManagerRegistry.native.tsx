@@ -985,7 +985,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ParentalConsentManager'] = var1;
     var1 = {};
-    var8 = ['POST_CONNECTION_OPEN', 'APP_STATE_UPDATE', 'FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS', 'LOGOUT'];
+    var8 = ['POST_CONNECTION_OPEN', 'APP_STATE_UPDATE', 'FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS', 'LOGOUT', 'PARENTAL_CONSENT_WARNING_FETCH_SUCCESS'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

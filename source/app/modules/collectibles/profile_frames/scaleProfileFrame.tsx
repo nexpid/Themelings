@@ -24,7 +24,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg2;
         var3 = var1 / var3;
         var1 = {};
-        var1['scale'] = var3;
         var4 = var2.overflowTop;
         var4 = var4 * var3;
         var1['overflowTop'] = var4;

@@ -190,7 +190,7 @@ case 0:
                     var1 = 11;
                     var1 = var8[var1];
                     var1 = var7.bind(var6)(var1);
-                    var1 = var1.QuestPlacement;
+                    var1 = var1.AdPlacement;
                     var1 = var1.MOBILE_HOME_DOCK_AREA;
                     var2 = var4.bind(var5)(var3, var2, var1);
                     var1 = null;
@@ -221,7 +221,7 @@ case 0:
                     var4 = var4[var1];
                     var1 = undefined;
                     var1 = var5.bind(var1)(var4);
-                    var1 = var1.QuestPlacement;
+                    var1 = var1.AdPlacement;
                     var1 = var1.MOBILE_HOME_DOCK_AREA;
                     var2 = var2.bind(var3)(var1);
                     var1 = null;
@@ -427,7 +427,7 @@ case 0:
                     var1 = 11;
                     var1 = var8[var1];
                     var1 = var7.bind(var6)(var1);
-                    var1 = var1.QuestPlacement;
+                    var1 = var1.AdPlacement;
                     var1 = var1.MOBILE_HOME_DOCK_AREA;
                     var2 = var4.bind(var5)(var3, var2, var1);
                     var1 = null;
@@ -446,7 +446,7 @@ case 24:
             var3 = 11;
             var3 = var8[var3];
             var3 = var7.bind(var6)(var3);
-            var3 = var3.QuestPlacement;
+            var3 = var3.AdPlacement;
             var3 = var3.MOBILE_HOME_DOCK_AREA;
             var3 = var5.bind(var6)(var3);
             var5 = null;

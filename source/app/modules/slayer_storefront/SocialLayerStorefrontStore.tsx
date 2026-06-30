@@ -672,6 +672,15 @@ case 31:
         return var1;
     };
     var2['LOGOUT'] = var8;
+    var8 = function handleStorefrontPromotionIdOverrideSet() {
+        var1 = {};
+        _closure1_slot10 = var1;
+        var1 = {};
+        _closure1_slot9 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['STOREFRONT_PROMOTION_ID_OVERRIDE_SET'] = var8;
     var8 = function handlePostConnectionOpen() {
         var1 = {};
         _closure1_slot14 = var1;

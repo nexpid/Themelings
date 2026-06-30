@@ -1,12 +1,12 @@
 // app/modules/notification_center/useNotificationCenterItemsLoader.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var5 = metroImportDefault;
+    var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var5;
-    var _closure1_slot2 = var7;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -16,37 +16,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var4 = var7[var1];
+    var4 = var6[var1];
     var1 = undefined;
-    var4 = var5.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
-    var8 = var7[var4];
+    var8 = var6[var4];
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot5 = var4;
     var4 = 3;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 5;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 6;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var4 = var4.ReadStateTypes;
     var _closure1_slot9 = var4;
-    var4 = function useNotificationCenterItemsLoader(arg1) {
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/notification_center/useNotificationCenterItemsLoader.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = 8;
+    var3['PAGE_SIZE_WITH_MENTIONS'] = var4;
+    var4 = 20;
+    var3['PAGE_SIZE'] = var4;
+    var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -503,45 +513,6 @@ case 20:
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
-    var5 = 11;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/notification_center/useNotificationCenterItemsLoader.tsx';
-    var5 = var6.bind(var7)(var5);
-    var5 = 8;
-    var3['PAGE_SIZE_WITH_MENTIONS'] = var5;
-    var5 = 20;
-    var3['PAGE_SIZE'] = var5;
-    var3['useNotificationCenterItemsLoader'] = var4;
-    var2 = function useDesktopNotificationCenterItemsLoader() {
-        var3 = _closure1_slot10;
-        var2 = undefined;
-        var1 = {'isFocused': true, 'isDesktop': true};
-        var1 = var3.bind(var2)(var1);
-        var5 = var1.initialized;
-        var4 = var1.loading;
-        var6 = var1.items;
-        var3 = var1.hasMore;
-        var2 = var1.loadMore;
-        var1 = {};
-        var1['initialized'] = var5;
-        var1['loading'] = var4;
-        var5 = var6.filter;
-        var4 = function(arg1) {
-            var1 = arg1;
-            var2 = var1.kind;
-            var1 = 'notification-center-item';
-            var1 = var1 === var2;
-            return var1;
-        };
-        var4 = var5.bind(var6)(var4);
-        var1['items'] = var4;
-        var1['hasMore'] = var3;
-        var1['loadMore'] = var2;
-        return var1;
-    };
-    var3['useDesktopNotificationCenterItemsLoader'] = var2;
+    var3['useNotificationCenterItemsLoader'] = var2;
     return var1;
 })();

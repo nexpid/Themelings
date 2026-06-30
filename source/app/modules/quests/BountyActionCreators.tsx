@@ -337,7 +337,7 @@ case 17:
                     var3 = var4[var3];
                     var4 = undefined;
                     var3 = var7.bind(var4)(var3);
-                    var3 = var3.QuestPlacement;
+                    var3 = var3.AdPlacement;
                     var3 = var3.QUEST_HOME_MOBILE_CAROUSEL;
                     var6 = _closure1_slot3;
                     var2 = function* () {

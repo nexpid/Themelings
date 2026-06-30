@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot14 = var2;
+            _closure1_slot15 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -93,12 +93,16 @@ case 4:
     var _closure1_slot11 = var4;
     var4 = 9;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot12 = var4;
+    var4 = 10;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.GiftIntentSecondaryAction;
-    var _closure1_slot12 = var8;
+    var _closure1_slot13 = var8;
     var4 = var4.GiftIntentType;
-    var _closure1_slot13 = var4;
-    var4 = 16;
+    var _closure1_slot14 = var4;
+    var4 = 19;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -114,7 +118,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot14;
+                var1 = _closure1_slot15;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -151,7 +155,7 @@ case 8:
             var2 = var1.type;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var3 = var3[var1];
             var1 = undefined;
             var1 = var4.bind(var1)(var3);
@@ -169,83 +173,115 @@ case 8:
         var7 = function value(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var9 = arg1;
+                var6 = arg1;
                 var4 = arg2;
-                var8 = this;
-                var _closure3_slot0 = var8;
-                var _closure3_slot1 = var9;
+                var9 = this;
+                var _closure3_slot0 = var9;
+                var _closure3_slot1 = var6;
                 var _closure3_slot2 = var4;
-                var6 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var1 = 11;
-                var5 = var5[var1];
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 12;
+                var3 = var3[var1];
                 var1 = undefined;
-                var5 = var6.bind(var1)(var5);
-                var6 = var5.EnableFriendAnniversaryNotifications;
-                var5 = var6.getSetting;
-                var5 = var5.bind(var6)();
-                if(!var5) { _fun0003_ip = 9; continue _fun0003 }
+                var3 = var5.bind(var1)(var3);
+                var5 = var3.EnableFriendAnniversaryNotifications;
+                var3 = var5.getSetting;
+                var3 = var3.bind(var5)();
+                if(!var3) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var6 = _closure1_slot11;
-                var5 = var6.isGiftIntentMessageInCooldown;
-                var5 = var5.bind(var6)(var4);
-                if(var5) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-                var7 = _closure1_slot10;
-                var6 = var7.getChannelId;
-                var6 = var6.bind(var7)();
-                var5 = var9 !== var6;
+                var5 = _closure1_slot12;
+                var3 = var5.isGiftIntentMessageInCooldown;
+                var3 = var3.bind(var5)(var4);
+                if(var3) { _fun0003_ip = 9; continue _fun0003 }
 case 11:
-                if(var5) { _fun0003_ip = 9; continue _fun0003 }
-case 13:
-                var6 = _closure1_slot9;
-                var5 = var6.isReady;
-                var5 = var5.bind(var6)(var9);
-                if(var5) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                var6 = _closure1_slot9;
-                var5 = var6.whenReady;
-                var3 = function() {
+                var5 = _closure1_slot11;
+                var3 = var5.getChannelId;
+                var3 = var3.bind(var5)();
+                if(!(var6 === var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 12:
+                var5 = _closure1_slot10;
+                var3 = var5.isReady;
+                var3 = var3.bind(var5)(var6);
+                if(var3) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+                var5 = _closure1_slot10;
+                var3 = var5.whenReady;
+                var2 = function() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                        var2 = _closure1_slot10;
+                        var2 = _closure1_slot11;
                         var1 = var2.getChannelId;
                         var3 = var1.bind(var2)();
                         var2 = _closure3_slot1;
-                        if(!(var3 === var2)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                        if(!(var3 === var2)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                         var4 = _closure3_slot0;
                         var3 = var4.maybeSendCard;
                         var2 = _closure3_slot1;
                         var1 = _closure3_slot2;
                         var1 = var3.bind(var4)(var2, var1);
-case 16:
+case 15:
                         var1 = undefined;
                         return var1;
                     }
                 };
-                var3 = var5.bind(var6)(var9, var3);
+                var2 = var3.bind(var5)(var6, var2);
                 _fun0003_ip = 9; continue _fun0003;
-case 14:
-                var7 = var8.trySendGiftingPromptSystemMessage;
-                var3 = _closure1_slot13;
-                var13 = var3.FRIEND_ANNIVERSARY;
-                var3 = _closure1_slot12;
-                var11 = var3.SEND_MESSAGE;
-                var10 = 'maybeSendCard';
-                var15 = var8;
-                var14 = var9;
-                var12 = var4;
-                var3 = var15[var7](var14, var13, var12, var11, var10, var9);
-                if(!var3) { _fun0003_ip = 9; continue _fun0003 }
-case 18:
-                var3 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var2 = 12;
-                var2 = var5[var2];
-                var3 = var3.bind(var1)(var2);
+case 13:
+                var8 = var9.trySendGiftingPromptSystemMessage;
+                var2 = _closure1_slot14;
+                var15 = var2.FRIEND_ANNIVERSARY;
+                var2 = _closure1_slot13;
+                var13 = var2.SEND_MESSAGE;
+                var12 = 'maybeSendCard';
+                var17 = var9;
+                var16 = var6;
+                var14 = var4;
+                var2 = var17[var8](var16, var15, var14, var13, var12, var11);
+                if(!var2) { _fun0003_ip = 9; continue _fun0003 }
+case 17:
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var2 = 13;
+                var2 = var10[var2];
+                var3 = var9.bind(var1)(var2);
                 var2 = var3.logMessageGiftIntentShown;
                 var2 = var2.bind(var3)(var4);
+                var3 = _closure1_slot8;
+                var2 = var3.getUserAffinity;
+                var8 = var2.bind(var3)(var4);
+                var2 = 14;
+                var2 = var10[var2];
+                var4 = var9.bind(var1)(var2);
+                var3 = var4.trackImpression;
+                var2 = {};
+                var5 = 15;
+                var11 = var10[var5];
+                var11 = var9.bind(var1)(var11);
+                var11 = var11.ImpressionNames;
+                var11 = var11.GIFT_INTENT_UNREAD_NOTIFICATION;
+                var2['name'] = var11;
+                var5 = var10[var5];
+                var5 = var9.bind(var1)(var5);
+                var5 = var5.ImpressionTypes;
+                var5 = var5.VIEW;
+                var2['type'] = var5;
+                var5 = {};
+                var7 = _closure1_slot14;
+                var7 = var7.FRIEND_ANNIVERSARY;
+                var5['gift_intent_type'] = var7;
+                var7 = null;
+                var9 = var7 == var8;
+                var7 = undefined;
+                if(var9) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+                var7 = var8.dmProbability;
+case 18:
+                var5['dm_affinity'] = var7;
+                var5['channel_id'] = var6;
+                var2['properties'] = var5;
+                var2 = var3.bind(var4)(var2);
 case 9:
                 return var1;
             }
@@ -260,18 +296,18 @@ case 9:
 case 0:
                 var6 = this;
                 var _closure3_slot0 = var6;
-                var5 = _closure1_slot8;
+                var5 = _closure1_slot9;
                 var4 = var5.getChannel;
                 var3 = arg1;
                 var3 = var4.bind(var5)(var3);
                 var _closure3_slot1 = var3;
                 var4 = null;
-                if(!(var4 != var3)) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                if(!(var4 != var3)) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                 var5 = var6.isChannelEligible;
                 var5 = var5.bind(var6)(var3);
-                if(!var5) { _fun0005_ip = 19; continue _fun0005 }
-case 21:
+                if(!var5) { _fun0005_ip = 20; continue _fun0005 }
+case 22:
                 var5 = global;
                 var6 = var5.Set;
                 var8 = var3.recipients;
@@ -281,7 +317,7 @@ case 21:
                 var3 = new var9[var6](var8, var7);
                 var3 = var3 instanceof Object ? var3 : var5;
                 var _closure3_slot2 = var3;
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot12;
                 var3 = var5.getFriendAnniversaries;
                 var6 = var3.bind(var5)();
                 var5 = var6.find;
@@ -294,11 +330,11 @@ case 21:
                 };
                 var3 = var5.bind(var6)(var3);
                 var _closure3_slot3 = var3;
-                if(!(var4 != var3)) { _fun0005_ip = 19; continue _fun0005 }
-case 22:
+                if(!(var4 != var3)) { _fun0005_ip = 20; continue _fun0005 }
+case 23:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 13;
+                var2 = 16;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
@@ -321,7 +357,7 @@ case 22:
                 var2 = var1 instanceof Object ? var1 : var2;
                 var1 = var2.delay;
                 var1 = var1.bind(var2)();
-case 19:
+case 20:
                 var1 = undefined;
                 return var1;
             }
@@ -336,7 +372,7 @@ case 19:
 case 0:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 14;
+                var1 = 17;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -346,16 +382,16 @@ case 0:
                 var3['location'] = var6;
                 var3 = var4.bind(var5)(var3);
                 var3 = var3.enabled;
-                if(!var3) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+                if(!var3) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 15;
+                var2 = 18;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.fetchUserAffinitiesV2;
                 var2 = var2.bind(var3)();
-case 23:
+case 24:
                 return var1;
             }
         };
@@ -383,7 +419,7 @@ case 23:
             var1 = var3.maybeFetchUserAffinities;
             var1 = var1.bind(var3)();
             var2 = var3.sendCardInSelectedChannelIfEligible;
-            var4 = _closure1_slot10;
+            var4 = _closure1_slot11;
             var1 = var4.getChannelId;
             var1 = var1.bind(var4)();
             var1 = var2.bind(var3)(var1);
@@ -401,7 +437,7 @@ case 23:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 17;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

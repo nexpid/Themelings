@@ -32,8 +32,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/profile_frames/native/ProfileFrameConstants.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = 480;
-    var3['PROFILE_FRAME_RESPONSIVE_RAIL_MIN_PROFILE_HEIGHT'] = var4;
+    var4 = 0.625;
+    var3['PROFILE_FRAME_RESPONSIVE_RAIL_MIN_ASPECT_RATIO'] = var4;
     var4 = 0.66;
     var3['PROFILE_FRAME_ASPECT_RATIO'] = var4;
     var3['PROFILE_FRAME_Z_INDEX'] = var2;

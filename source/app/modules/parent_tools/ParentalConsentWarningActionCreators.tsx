@@ -1,4 +1,4 @@
-// app/modules/parent_tools/native/ParentalConsentWarningActionCreators.tsx
+// app/modules/parent_tools/ParentalConsentWarningActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var13 = metroImportDefault;
@@ -76,36 +76,27 @@ case 14:
                         var7 = var9 === var7;
                         var10['inGrace'] = var7;
                         var9 = var8.days_remaining;
+                        var11 = 'number';
+                        var9 = typeof var9;
                         var7 = null;
-                        var12 = 'number';
-                        var11 = typeof var9;
-                        var9 = null;
-                        if(!(var12 === var11)) { _fun0003_ip = 15; continue _fun0003 }
+                        if(!(var11 === var9)) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
-                        var9 = var8.days_remaining;
+                        var7 = var8.days_remaining;
 case 15:
-                        var10['daysRemaining'] = var9;
-                        var9 = global;
-                        var12 = var9.Array;
-                        var11 = var12.isArray;
-                        var9 = var8.surfaces;
-                        var9 = var11.bind(var12)(var9);
-                        if(var9) { _fun0003_ip = 17; continue _fun0003 }
+                        var10['daysRemaining'] = var7;
+                        var7 = global;
+                        var11 = var7.Array;
+                        var9 = var11.isArray;
+                        var7 = var8.surfaces;
+                        var7 = var9.bind(var11)(var7);
+                        if(var7) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
-                        var9 = new Array(0);
+                        var7 = new Array(0);
                         _fun0003_ip = 19; continue _fun0003;
 case 17:
-                        var9 = var8.surfaces;
+                        var7 = var8.surfaces;
 case 19:
-                        var10['surfaces'] = var9;
-                        var8 = var8.modal_dcf_enum;
-                        var9 = var7 != var8;
-                        var7 = null;
-                        if(!var9) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-                        var7 = var8;
-case 20:
-                        var10['modalDcfEnum'] = var7;
+                        var10['surfaces'] = var7;
                         var8 = _closure1_slot6;
                         var7 = var8.succeed;
                         var7 = var7.bind(var8)();
@@ -122,9 +113,18 @@ case 20:
                         var7['type'] = var11;
                         var7['warning'] = var10;
                         var7 = var8.bind(var9)(var7);
-case 22: // try_end0
-                        _fun0003_ip = 23; continue _fun0003;
+case 20: // try_end0
+                        _fun0003_ip = 21; continue _fun0003;
 case 13: // try_end1
+                        var7 = _closure2_slot0;
+                        var4 = _closure1_slot9;
+                        if(!(var7 === var4)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
+                        var4 = null;
+                        _closure1_slot7 = var4;
+case 22:
+                        return var2;
+case 11:
                         var7 = _closure2_slot0;
                         var4 = _closure1_slot9;
                         if(!(var7 === var4)) { _fun0003_ip = 24; continue _fun0003 }
@@ -132,22 +132,13 @@ case 25:
                         var4 = null;
                         _closure1_slot7 = var4;
 case 24:
-                        return var2;
-case 11:
-                        var7 = _closure2_slot0;
-                        var4 = _closure1_slot9;
-                        if(!(var7 === var4)) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
-                        var4 = null;
-                        _closure1_slot7 = var4;
-case 26:
                         return var3;
-case 28: // try_start_2 // catch_target0
+case 26: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=4);
                         var7 = _closure2_slot0;
                         var6 = _closure1_slot9;
-                        if(!(var7 === var6)) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
+                        if(!(var7 === var6)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
                         var7 = _closure1_slot5;
                         var6 = var7.error;
                         var8 = var5;
@@ -168,7 +159,7 @@ case 30:
 case 0:
                                 var3 = _closure1_slot8;
                                 var1 = null;
-                                if(!(var1 == var3)) { _fun0004_ip = 31; continue _fun0004 }
+                                if(!(var1 == var3)) { _fun0004_ip = 29; continue _fun0004 }
 case 3:
                                 var1 = global;
                                 var5 = var1.setTimeout;
@@ -186,39 +177,39 @@ case 3:
                                 };
                                 var1 = var5.bind(var3)(var1, var4);
                                 _closure1_slot8 = var1;
-case 31:
+case 29:
                                 var1 = undefined;
                                 return var1;
                             }
                         };
                         var5 = var5.bind(var2)();
-case 23: // try_end2
+case 21: // try_end2
                         var7 = _closure2_slot0;
                         var5 = _closure1_slot9;
-                        if(!(var7 === var5)) { _fun0003_ip = 32; continue _fun0003 }
-case 33:
+                        if(!(var7 === var5)) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
                         var5 = null;
                         _closure1_slot7 = var5;
-case 32:
+case 30:
                         return var2;
-case 29:
+case 27:
                         var5 = _closure2_slot0;
                         var3 = _closure1_slot9;
-                        if(!(var5 === var3)) { _fun0003_ip = 34; continue _fun0003 }
-case 35:
+                        if(!(var5 === var3)) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
                         var3 = null;
                         _closure1_slot7 = var3;
-case 34:
+case 32:
                         return var2;
-case 36: // catch_target1 // catch_target2
+case 34: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=1);
                         var5 = _closure2_slot0;
                         var3 = _closure1_slot9;
-                        if(!(var5 === var3)) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
+                        if(!(var5 === var3)) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
                         var3 = null;
                         _closure1_slot7 = var3;
-case 37:
+case 35:
                         throw var2;
 case 6:
                         return var1;
@@ -257,39 +248,39 @@ case 4:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 12; continue _fun0005 }
-case 39:
+                    if(var2) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                     var3 = _closure1_slot7;
                     var5 = null;
                     var3 = var5 == var3;
-                    if(!var3) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+                    if(!var3) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                     var4 = _closure1_slot8;
                     var3 = var5 == var4;
-case 40:
-                    if(!var3) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+case 39:
+                    if(!var3) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                     var5 = _closure1_slot4;
                     var4 = var5.shouldFetchToday;
                     var3 = var4.bind(var5)();
-case 42:
-                    if(!var3) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+case 41:
+                    if(!var3) { _fun0005_ip = 43; continue _fun0005 }
+case 4:
                     var3 = _closure1_slot11;
                     var2 = undefined;
                     var2 = var3.bind(var2)();
-                    SaveGenerator(address=67);
-case 46:
-                    return var2;
-case 47:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 48; continue _fun0005 }
+                    SaveGenerator(address=65);
 case 44:
+                    return var2;
+case 45:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0005_ip = 46; continue _fun0005 }
+case 43:
                     var3 = undefined;
                     return var3;
-case 48:
+case 46:
                     return var2;
-case 12:
+case 37:
                     return var1;
                 }
             };
@@ -315,33 +306,33 @@ case 12:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 49; continue _fun0006 }
-case 39:
+                    if(var2) { _fun0006_ip = 47; continue _fun0006 }
+case 38:
                     var4 = _closure1_slot10;
                     var3 = undefined;
                     var4 = var4.bind(var3)();
                     var5 = _closure1_slot7;
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
+                    if(!(var4 != var5)) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
                     var5 = _closure1_slot9;
                     var5 = var5 + 1;
                     _closure1_slot9 = var5;
                     _closure1_slot7 = var4;
-case 50:
+case 48:
                     var2 = _closure1_slot11;
                     var2 = var2.bind(var3)();
                     SaveGenerator(address=57);
+case 50:
+                    return var2;
+case 51:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0006_ip = 52; continue _fun0006 }
+case 44:
+                    return var3;
 case 52:
                     return var2;
-case 53:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
-                    return var3;
-case 54:
-                    return var2;
-case 49:
+case 47:
                     return var1;
                 }
             };
@@ -416,7 +407,7 @@ case 49:
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/parent_tools/native/ParentalConsentWarningActionCreators.tsx';
+    var5 = 'modules/parent_tools/ParentalConsentWarningActionCreators.tsx';
     var5 = var6.bind(var7)(var5);
     var3['maybeFetchWarning'] = var4;
     var4 = function forceFetchWarning() {

@@ -84,8 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = 3;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
-    var6 = var6.QuestPlacement;
-    var3['QuestPlacement'] = var6;
+    var6 = var6.AdPlacement;
+    var3['AdPlacement'] = var6;
     var3['QuestConsoleStartErrorLocal'] = var5;
     var3['TaskPlatformScreen'] = var4;
     var3['VideoPauseReason'] = var2;

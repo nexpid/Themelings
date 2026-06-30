@@ -42,8 +42,8 @@ case 0:
             var1 = arg1;
             var6 = var1.value;
             var5 = var1.children;
-            var3 = var1.openedAt;
-            var _closure2_slot0 = var3;
+            var10 = var1.openedAt;
+            var _closure2_slot0 = var10;
             var3 = var1.fetchStartedAt;
             var _closure2_slot1 = var3;
             var3 = var1.fetchEndedAt;
@@ -65,14 +65,23 @@ case 2:
             var3 = var7.bind(var4)(var3);
             var3 = var3.bind(var4)();
             var3 = var3.analyticsLocations;
-            var8 = _closure1_slot3;
-            var7 = var8.useRef;
-            var7 = var7.bind(var8)(var4);
+            var11 = _closure1_slot3;
+            var7 = var11.useRef;
+            var7 = var7.bind(var11)(var4);
             _closure2_slot4 = var7;
+            var8 = var11.useRef;
+            var8 = var8.bind(var11)(var10);
+            var11 = var8.current;
+            if(!(var11 !== var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var8['current'] = var10;
+            var7['current'] = var4;
+case 4:
             var7 = {};
             var7['analyticsLocations'] = var3;
             var7['value'] = var6;
             _closure2_slot5 = var7;
+            var8 = _closure1_slot3;
             var3 = var8.useRef;
             var3 = var3.bind(var8)(var7);
             _closure2_slot6 = var3;
@@ -99,21 +108,21 @@ case 0:
                     var1 = var1.current;
                     var10 = null;
                     var1 = var10 == var1;
-                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                    var2 = _closure2_slot0;
-                    var1 = var10 != var2;
-case 4:
                     if(!var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
+                    var2 = _closure2_slot0;
+                    var1 = var10 != var2;
+case 6:
+                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var2 = _closure2_slot4;
                     var1 = _closure2_slot0;
                     var1 = var11 - var1;
                     var2['current'] = var1;
-case 6:
+case 8:
                     var1 = _closure2_slot3;
-                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                    if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var1 = _closure2_slot6;
                     var1 = var1.current;
                     var5 = var1.analyticsLocations;
@@ -145,26 +154,26 @@ case 9:
                     var7 = _closure2_slot0;
                     var8 = var10 != var7;
                     var7 = undefined;
-                    if(!var8) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                    if(!var8) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var8 = _closure2_slot0;
                     var7 = var11 - var8;
-case 10:
+case 12:
                     var1['timeToLoadMs'] = var7;
                     var7 = _closure2_slot1;
                     var8 = var10 != var7;
                     var7 = undefined;
-                    if(!var8) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                    if(!var8) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var8 = _closure2_slot2;
                     var8 = var10 != var8;
                     var7 = undefined;
-                    if(!var8) { _fun0002_ip = 12; continue _fun0002 }
-case 14:
+                    if(!var8) { _fun0002_ip = 14; continue _fun0002 }
+case 16:
                     var9 = _closure2_slot2;
                     var8 = _closure2_slot1;
                     var7 = var9 - var8;
-case 12:
+case 14:
                     var1['timeToFetchMs'] = var7;
                     var7 = _closure2_slot0;
                     var1['viewStartedAt'] = var7;
@@ -175,7 +184,7 @@ case 12:
                     var14 = var4;
                     var4 = copyDataProperties(var15, var14);
                     var1 = var2.bind(var3)(var1);
-case 8:
+case 10:
                     var1 = undefined;
                     return var1;
                 }
@@ -212,10 +221,10 @@ case 0:
             var _closure2_slot6 = var6;
             var5 = var2.showGuildProfile;
             var13 = undefined;
-            if(!(var5 === var13)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+            if(!(var5 === var13)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var5 = true;
-case 15:
+case 17:
             var _closure2_slot7 = var5;
             var _closure2_slot8 = var13;
             var14 = _closure1_slot3;
@@ -225,10 +234,10 @@ case 15:
             var4 = null;
             var4 = var4 == var3;
             var13 = undefined;
-            if(var4) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+            if(var4) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var13 = var3.sessionId;
-case 17:
+case 19:
             _closure2_slot8 = var13;
             var4 = _closure1_slot3;
             var3 = var4.useMemo;
@@ -257,13 +266,13 @@ case 0:
                     var1['sessionId'] = var2;
                     var4 = _closure2_slot6;
                     var3 = null;
-                    if(!(var3 == var4)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                    if(!(var3 == var4)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                     var3 = _closure2_slot8;
-                    _fun0004_ip = 21; continue _fun0004;
-case 19:
-                    var3 = _closure2_slot6;
+                    _fun0004_ip = 23; continue _fun0004;
 case 21:
+                    var3 = _closure2_slot6;
+case 23:
                     var1['sourceSessionId'] = var3;
                     var3 = _closure2_slot0;
                     var1['layout'] = var3;
@@ -313,8 +322,8 @@ case 21:
 case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
+                if(!(var1 != var2)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 3;
@@ -332,7 +341,7 @@ case 23:
                 var7 = var1;
                 var4 = copyDataProperties(var7, var6);
                 var1 = var2.bind(var3)(var1);
-case 22:
+case 24:
                 var1 = undefined;
                 return var1;
             }
@@ -348,8 +357,8 @@ case 22:
 case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+                if(!(var1 != var2)) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 3;
@@ -367,7 +376,7 @@ case 23:
                 var7 = var1;
                 var4 = copyDataProperties(var7, var6);
                 var1 = var2.bind(var3)(var1);
-case 22:
+case 24:
                 var1 = undefined;
                 return var1;
             }
@@ -383,8 +392,8 @@ case 22:
 case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
+                if(!(var1 != var2)) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 3;
@@ -402,7 +411,7 @@ case 23:
                 var7 = var1;
                 var4 = copyDataProperties(var7, var6);
                 var1 = var2.bind(var3)(var1);
-case 22:
+case 24:
                 var1 = undefined;
                 return var1;
             }
@@ -418,8 +427,8 @@ case 22:
 case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0008_ip = 22; continue _fun0008 }
-case 23:
+                if(!(var1 != var2)) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 3;
@@ -437,7 +446,7 @@ case 23:
                 var7 = var1;
                 var4 = copyDataProperties(var7, var6);
                 var1 = var2.bind(var3)(var1);
-case 22:
+case 24:
                 var1 = undefined;
                 return var1;
             }

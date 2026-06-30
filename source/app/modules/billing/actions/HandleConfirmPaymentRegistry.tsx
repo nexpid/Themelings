@@ -397,6 +397,8 @@ case 18:
         var3 = var3.confirmPixPayment;
         var1['stripeConfirmPayment'] = var3;
         var1['paymentMethod'] = var2;
+        var2 = true;
+        var1['pendingCustomerAction'] = var2;
         return var1;
     };
     var4['constructStripeConfirmPaymentHandler'] = var9;
@@ -908,7 +910,7 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0013_ip = 74; continue _fun0013 }
 case 41:
-                    var6 = var2.clientSecret;
+                    var7 = var2.clientSecret;
                     var9 = var2.paymentMethodId;
                     var8 = undefined;
                     SaveGenerator(address=34);
@@ -925,36 +927,39 @@ case 76:
                     return var3;
 case 77:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0013_ip = 51; continue _fun0013 }
-case 78:
-                    var7 = var10.handlerRegistry;
-                    var5 = var7.constructStripeConfirmPaymentHandler;
+                    if(var4) { _fun0013_ip = 78; continue _fun0013 }
+case 79:
+                    var6 = var10.handlerRegistry;
+                    var5 = var6.constructStripeConfirmPaymentHandler;
                     var4 = {};
                     var4['stripe'] = var3;
                     var10 = var10.paymentSource;
                     var4['paymentSource'] = var10;
                     var4['paymentMethodId'] = var9;
-                    var4 = var5.bind(var7)(var4);
+                    var4 = var5.bind(var6)(var4);
                     var5 = var4.stripeConfirmPayment;
-                    var7 = var4.paymentMethod;
+                    var9 = var4.paymentMethod;
+                    var6 = var4.pendingCustomerAction;
                     var4 = {};
-                    var4['payment_method'] = var7;
-                    var4 = var5.bind(var8)(var6, var4);
-                    SaveGenerator(address=135);
-case 79:
+                    var4['payment_method'] = var9;
+                    var4 = var5.bind(var8)(var7, var4);
+                    SaveGenerator(address=141);
+case 32:
                     return var4;
 case 80:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(var5) { _fun0013_ip = 81; continue _fun0013 }
 case 82:
-                    var6 = var4.paymentIntent;
+                    var9 = var4.paymentIntent;
                     var7 = var4.error;
                     var5 = null;
                     if(!(var5 == var7)) { _fun0013_ip = 83; continue _fun0013 }
 case 84:
-                    if(!(var5 != var6)) { _fun0013_ip = 85; continue _fun0013 }
+                    if(!(var5 != var9)) { _fun0013_ip = 85; continue _fun0013 }
 case 86:
-                    return var8;
+                    var5 = {};
+                    var5['pendingCustomerAction'] = var6;
+                    return var5;
 case 85:
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -976,7 +981,7 @@ case 83:
                     throw var5;
 case 81:
                     return var4;
-case 51:
+case 78:
                     return var3;
 case 75:
                     return var2;
@@ -1028,46 +1033,48 @@ case 3:
                     var3 = var6.handlerRegistry;
                     var4 = var3.confirmationType;
                     var3 = 'stripe_redirect_confirmation';
-                    if(!(var3 !== var4)) { _fun0014_ip = 70; continue _fun0014 }
+                    if(!(var3 !== var4)) { _fun0014_ip = 90; continue _fun0014 }
 case 10:
-                    var4 = var6.confirmDirectPaymentSource;
+                    var4 = {};
+                    var3 = false;
+                    var4['redirectConfirmation'] = var3;
+                    var5 = var6.confirmDirectPaymentSource;
                     var3 = {};
                     var3['clientSecret'] = var8;
                     var3['paymentMethodId'] = var7;
-                    var3 = var4.bind(var6)(var3);
-                    SaveGenerator(address=101);
-case 90:
-                    return var3;
+                    var3 = var5.bind(var6)(var3);
+                    SaveGenerator(address=110);
 case 91:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0014_ip = 92; continue _fun0014 }
-case 93:
-                    var4 = {};
-                    var5 = false;
-                    var4['redirectConfirmation'] = var5;
-                    _fun0014_ip = 94; continue _fun0014;
-case 92:
                     return var3;
-case 70:
+case 92:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0014_ip = 73; continue _fun0014 }
+case 93:
+                    var5 = var3.pendingCustomerAction;
+                    var4['pendingCustomerAction'] = var5;
+                    _fun0014_ip = 94; continue _fun0014;
+case 73:
+                    return var3;
+case 90:
                     var5 = var6.confirmRedirectedPaymentSource;
                     var3 = {};
                     var3['clientSecret'] = var8;
                     var3['paymentMethodId'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=150);
-case 23:
-                    return var3;
+                    SaveGenerator(address=161);
 case 95:
+                    return var3;
+case 96:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0014_ip = 96; continue _fun0014 }
-case 97:
+                    if(var5) { _fun0014_ip = 97; continue _fun0014 }
+case 98:
                     var5 = {};
                     var6 = true;
                     var5['redirectConfirmation'] = var6;
                     var4 = var5;
 case 94:
                     return var4;
-case 96:
+case 97:
                     return var3;
 case 89:
                     return var2;
@@ -1106,7 +1113,7 @@ case 0:
                 var3 = undefined;
                 var4 = var5.bind(var3)(var6, var4);
                 var4 = null;
-                if(!(var4 != var7)) { _fun0015_ip = 78; continue _fun0015 }
+                if(!(var4 != var7)) { _fun0015_ip = 79; continue _fun0015 }
 case 63:
                 var5 = _closure1_slot15;
                 var4 = _closure2_slot0;
@@ -1116,7 +1123,7 @@ case 63:
                 var2[1] = var7;
                 var2 = var5.bind(var3)(var6, var4, var2);
                 return var2;
-case 78:
+case 79:
                 var2 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var1 = 8;
@@ -1144,7 +1151,7 @@ case 0:
                 var1 = var5.payment;
                 var3 = var1.adyen_redirect_url;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0016_ip = 90; continue _fun0016 }
+                if(!(var1 != var3)) { _fun0016_ip = 99; continue _fun0016 }
 case 19:
                 var4 = _closure1_slot10;
                 var2 = var4.has;
@@ -1153,12 +1160,12 @@ case 19:
                 var1 = var2.bind(var4)(var1);
                 var2 = {};
                 if(var1) { _fun0016_ip = 5; continue _fun0016 }
-case 98:
+case 100:
                 var1 = false;
                 var2['redirectConfirmation'] = var1;
                 var2['redirectURL'] = var3;
                 var1 = var2;
-                _fun0016_ip = 99; continue _fun0016;
+                _fun0016_ip = 101; continue _fun0016;
 case 5:
                 var4 = var5.performRedirect;
                 var4 = var4.bind(var5)(var3);
@@ -1166,9 +1173,9 @@ case 5:
                 var2['redirectConfirmation'] = var4;
                 var2['redirectURL'] = var3;
                 var1 = var2;
-case 99:
+case 101:
                 return var1;
-case 90:
+case 99:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 8;

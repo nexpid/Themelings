@@ -219,7 +219,7 @@ case 29:
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.MOBILE_COMMAND_BAR_BACKGROUND;
+    var16 = var16.MOBILE_FLOATING_ACCESSORY_BACKGROUND;
     var9['backgroundColor'] = var16;
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);

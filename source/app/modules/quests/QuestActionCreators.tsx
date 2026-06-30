@@ -2438,7 +2438,7 @@ case 224:
                     var15 = 12;
                     var15 = var18[var15];
                     var15 = var17.bind(var2)(var15);
-                    var15 = var15.QuestPlacement;
+                    var15 = var15.AdPlacement;
                     var15 = var15.DESKTOP_ACCOUNT_PANEL_AREA;
                     if(!(var16 === var15)) { _fun0015_ip = 225; continue _fun0015 }
 case 226:
@@ -3327,7 +3327,7 @@ case 157:
                     var3 = 12;
                     var3 = var6[var3];
                     var3 = var4.bind(var2)(var3);
-                    var3 = var3.QuestPlacement;
+                    var3 = var3.AdPlacement;
                     var6 = var3.QUEST_HOME_BANNER_DESKTOP;
                     var7 = var6;
                     var4 = _closure1_slot8;
@@ -3745,7 +3745,7 @@ case 157:
                     var3 = 12;
                     var3 = var8[var3];
                     var3 = var13.bind(var9)(var3);
-                    var3 = var3.QuestPlacement;
+                    var3 = var3.AdPlacement;
                     var24 = var3.QUEST_HOME_BANNER_DESKTOP;
                     var6 = var24;
                     var22 = global;

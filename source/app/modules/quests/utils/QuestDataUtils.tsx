@@ -243,7 +243,7 @@ case 35:
         var7 = var3.QUEST_BAR;
         var3 = var6[var1];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestPlacement;
+        var3 = var3.AdPlacement;
         var3 = var3.DESKTOP_ACCOUNT_PANEL_AREA;
         var2[6] = var3;
         var3 = var6[var1];
@@ -252,7 +252,7 @@ case 35:
         var7 = var3.QUEST_BAR_V2;
         var3 = var6[var1];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestPlacement;
+        var3 = var3.AdPlacement;
         var3 = var3.DESKTOP_ACCOUNT_PANEL_AREA;
         var2[6] = var3;
         var3 = var6[var1];
@@ -261,7 +261,7 @@ case 35:
         var7 = var3.QUEST_BAR_MOBILE;
         var3 = var6[var1];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestPlacement;
+        var3 = var3.AdPlacement;
         var3 = var3.MOBILE_HOME_DOCK_AREA;
         var2[6] = var3;
         var3 = var6[var1];
@@ -270,7 +270,7 @@ case 35:
         var7 = var3.QUEST_HOME_HERO;
         var3 = var6[var1];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestPlacement;
+        var3 = var3.AdPlacement;
         var3 = var3.QUEST_HOME_BANNER_DESKTOP;
         var2[6] = var3;
         var3 = var6[var1];
@@ -279,7 +279,7 @@ case 35:
         var7 = var3.QUEST_HOME_HERO_SHELF;
         var3 = var6[var1];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestPlacement;
+        var3 = var3.AdPlacement;
         var3 = var3.QUEST_HOME_BANNER_DESKTOP;
         var2[6] = var3;
         var3 = var6[var1];
@@ -288,7 +288,7 @@ case 35:
         var7 = var3.QUEST_HOME_MOBILE_CAROUSEL;
         var3 = var6[var1];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestPlacement;
+        var3 = var3.AdPlacement;
         var3 = var3.QUEST_HOME_MOBILE_CAROUSEL;
         var2[6] = var3;
         var3 = var6[var1];
@@ -297,7 +297,7 @@ case 35:
         var3 = var3.VIDEO_MODAL_MOBILE;
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
-        var1 = var1.QuestPlacement;
+        var1 = var1.AdPlacement;
         var1 = var1.VIDEO_MODAL_MOBILE;
         var2[2] = var1;
         var1 = arg1;
@@ -334,7 +334,7 @@ case 0:
             var1 = var1[var10];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
-            var1 = var1.QuestPlacement;
+            var1 = var1.AdPlacement;
             var1 = var1.QUEST_HOME_MOBILE_CAROUSEL;
             if(!(var8 !== var1)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
@@ -342,7 +342,7 @@ case 37:
             var1 = _closure1_slot2;
             var1 = var1[var10];
             var1 = var3.bind(var4)(var1);
-            var1 = var1.QuestPlacement;
+            var1 = var1.AdPlacement;
             var3 = var1.VIDEO_MODAL_MOBILE;
             var1 = null;
             if(!(var8 === var3)) { _fun0004_ip = 38; continue _fun0004 }
@@ -385,7 +385,7 @@ case 43:
             var9 = _closure1_slot0;
             var7 = var7[var10];
             var7 = var9.bind(var4)(var7);
-            var7 = var7.QuestPlacement;
+            var7 = var7.AdPlacement;
             var7 = var7.QUEST_HOME_BANNER_DESKTOP;
             if(!(var8 === var7)) { _fun0004_ip = 44; continue _fun0004 }
 case 45:

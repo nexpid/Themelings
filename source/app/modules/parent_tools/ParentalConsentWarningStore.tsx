@@ -1,4 +1,4 @@
-// app/modules/parent_tools/native/ParentalConsentWarningStore.tsx
+// app/modules/parent_tools/ParentalConsentWarningStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = metroImportDefault;
     var3 = exports;
@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot8 = var2;
+            _closure1_slot9 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function getStartOfCurrentDayPeriod() {
         var1 = global;
         var1 = var1.Date;
@@ -61,7 +61,7 @@ case 4:
         var1 = var1.bind(var2)();
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -94,6 +94,7 @@ case 4:
     var2 = null;
     var _closure1_slot5 = var2;
     var _closure1_slot6 = var2;
+    var _closure1_slot7 = var2;
     var2 = 5;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -111,7 +112,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -162,30 +163,43 @@ case 12:
                 var4 = var2;
 case 11:
                 _closure1_slot5 = var4;
+                var4 = var3 == var5;
+                var6 = undefined;
+                if(var4) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+                var6 = var5.lastModalShownDayStart;
+case 13:
+                var7 = var3 != var6;
+                var4 = null;
+                if(!var7) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+                var4 = var6;
+case 15:
+                _closure1_slot6 = var4;
                 var6 = var3 == var5;
                 var4 = undefined;
-                if(var6) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+                if(var6) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                 var4 = var5.warning;
-case 13:
+case 17:
                 var5 = var3 != var4;
                 var3 = null;
-                if(!var5) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+                if(!var5) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                 var3 = var4;
-case 15:
-                _closure1_slot6 = var3;
+case 19:
+                _closure1_slot7 = var3;
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'getWarning';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot7;
             return var1;
         };
         var5['value'] = var7;
@@ -202,7 +216,7 @@ case 0:
                 if(var1) { _fun0004_ip = 11; continue _fun0004 }
 case 10:
                 var3 = _closure1_slot5;
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot10;
                 var2 = undefined;
                 var2 = var4.bind(var2)();
                 var1 = var3 !== var2;
@@ -213,18 +227,42 @@ case 11:
         var5['value'] = var7;
         var1[2] = var5;
         var5 = {};
+        var7 = 'hasShownModalToday';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var3 = _closure1_slot6;
+                var1 = null;
+                var1 = var1 != var3;
+                if(!var1) { _fun0005_ip = 11; continue _fun0005 }
+case 10:
+                var3 = _closure1_slot6;
+                var4 = _closure1_slot10;
+                var2 = undefined;
+                var2 = var4.bind(var2)();
+                var1 = var3 === var2;
+case 11:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
         var6 = function value() {
             var1 = {};
             var3 = _closure1_slot5;
             var1['lastWarningFetchDayStart'] = var3;
-            var2 = _closure1_slot6;
+            var3 = _closure1_slot6;
+            var1['lastModalShownDayStart'] = var3;
+            var2 = _closure1_slot7;
             var1['warning'] = var2;
             return var1;
         };
         var5['value'] = var6;
-        var1[3] = var5;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -232,6 +270,57 @@ case 11:
     var2 = 'ParentalConsentWarningStore';
     var8['displayName'] = var2;
     var8['persistKey'] = var2;
+    var2 = new Array(1);
+    var7 = function(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var4 = arg1;
+            var1 = {};
+            var2 = null;
+            var5 = var2 == var4;
+            var6 = undefined;
+            if(var5) { _fun0006_ip = 9; continue _fun0006 }
+case 10:
+            var6 = var4.lastWarningFetchDayStart;
+case 9:
+            var7 = var2 != var6;
+            var5 = null;
+            if(!var7) { _fun0006_ip = 11; continue _fun0006 }
+case 12:
+            var5 = var6;
+case 11:
+            var1['lastWarningFetchDayStart'] = var5;
+            var5 = var2 == var4;
+            var6 = undefined;
+            if(var5) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
+            var6 = var4.lastModalShownDayStart;
+case 21:
+            var7 = var2 != var6;
+            var5 = null;
+            if(!var7) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
+            var5 = var6;
+case 23:
+            var1['lastModalShownDayStart'] = var5;
+            var5 = var2 == var4;
+            var3 = undefined;
+            if(var5) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
+            var3 = var4.warning;
+case 25:
+            var4 = var2 != var3;
+            var2 = null;
+            if(!var4) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+            var2 = var3;
+case 27:
+            var1['warning'] = var2;
+            return var1;
+        }
+    };
+    var2[0] = var7;
+    var8['migrations'] = var2;
     var2 = 6;
     var2 = var5[var2];
     var11 = var6.bind(var1)(var2);
@@ -239,22 +328,34 @@ case 11:
     var6 = function handleFetchSuccess(arg1) {
         var1 = arg1;
         var1 = var1.warning;
-        _closure1_slot6 = var1;
-        var3 = _closure1_slot9;
+        _closure1_slot7 = var1;
+        var3 = _closure1_slot10;
         var1 = undefined;
         var3 = var3.bind(var1)();
         _closure1_slot5 = var3;
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot8;
         var2 = var3.persist;
         var2 = var2.bind(var3)();
         return var1;
     };
     var2['PARENTAL_CONSENT_WARNING_FETCH_SUCCESS'] = var6;
+    var6 = function handleModalShown() {
+        var3 = _closure1_slot10;
+        var1 = undefined;
+        var3 = var3.bind(var1)();
+        _closure1_slot6 = var3;
+        var3 = _closure1_slot8;
+        var2 = var3.persist;
+        var2 = var2.bind(var3)();
+        return var1;
+    };
+    var2['PARENTAL_CONSENT_WARNING_MODAL_SHOWN'] = var6;
     var6 = function handleLogout() {
         var2 = null;
         _closure1_slot5 = var2;
         _closure1_slot6 = var2;
-        var2 = _closure1_slot7;
+        _closure1_slot7 = var2;
+        var2 = _closure1_slot8;
         var1 = var2.persist;
         var1 = var1.bind(var2)();
         var1 = undefined;
@@ -267,13 +368,13 @@ case 11:
     var10 = var2;
     var2 = new var12[var8](var11, var10, var9);
     var2 = var2 instanceof Object ? var2 : var6;
-    var _closure1_slot7 = var2;
+    var _closure1_slot8 = var2;
     var4 = 7;
     var5 = var5[var4];
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/parent_tools/native/ParentalConsentWarningStore.tsx';
+    var4 = 'modules/parent_tools/ParentalConsentWarningStore.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

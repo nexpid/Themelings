@@ -154,14 +154,14 @@ case 10:
             var6 = var2.bind(var4)();
             var8 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var2 = 22;
+            var2 = 21;
             var3 = var14[var2];
             var7 = var8.bind(var4)(var3);
             var3 = var7.hexToRgbaString;
             var2 = var14[var2];
             var10 = var8.bind(var4)(var2);
             var9 = var10.hexWithOpacity;
-            var2 = 23;
+            var2 = 22;
             var2 = var14[var2];
             var12 = var8.bind(var4)(var2);
             var8 = var12.useToken;
@@ -321,27 +321,18 @@ case 0:
             var2 = var11.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.BUNDLE;
-            if(!(var3 === var2)) { _fun0003_ip = 14; continue _fun0003 }
+            if(!(var3 !== var2)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-            var3 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var2 = 13;
-            var2 = var11[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.isValidCollectiblesBundle;
-            var2 = var2.bind(var3)(var7);
-            if(var2) { _fun0003_ip = 16; continue _fun0003 }
-case 14:
             var3 = var7.skuId;
             var2 = _closure1_slot5;
             var2 = var2.ORB_PROFILE_BADGE;
-            if(!(var3 !== var2)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+            if(!(var3 !== var2)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var3 = var7.skuId;
             var2 = _closure1_slot5;
             var2 = var2.FRACTIONAL_PREMIUM;
-            if(!(var3 !== var2)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+            if(!(var3 !== var2)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var11 = _closure1_slot3;
             var3 = var7.items;
             var2 = 1;
@@ -351,10 +342,10 @@ case 20:
             var2 = null;
             var3 = var2 == var13;
             var11 = undefined;
-            if(var3) { _fun0003_ip = 21; continue _fun0003 }
-case 9:
-            var11 = var13.type;
+            if(var3) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
+            var11 = var13.type;
+case 20:
             var14 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var15];
@@ -392,7 +383,7 @@ case 28:
             var11 = _closure1_slot6;
             var3 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var2 = 21;
+            var2 = 20;
             var2 = var14[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -408,7 +399,7 @@ case 26:
             var16 = _closure1_slot6;
             var18 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var14 = 20;
+            var14 = 19;
             var14 = var19[var14];
             var15 = var18.bind(var4)(var14);
             var14 = {};
@@ -445,7 +436,7 @@ case 24:
             var16 = _closure1_slot6;
             var15 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var14 = 19;
+            var14 = 18;
             var14 = var17[var14];
             var15 = var15.bind(var4)(var14);
             var14 = {};
@@ -460,7 +451,7 @@ case 22:
             var11 = _closure1_slot6;
             var3 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var2 = 18;
+            var2 = 17;
             var2 = var14[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -469,29 +460,11 @@ case 22:
             var2['size'] = var13;
             var2 = var11.bind(var4)(var3, var2);
             return var2;
-case 19:
+case 18:
             var11 = _closure1_slot6;
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var2 = 15;
-            var2 = var16[var2];
-            var3 = var15.bind(var4)(var2);
-            var2 = {};
-            var13 = {};
-            var14 = 17;
-            var14 = var16[var14];
-            var14 = var15.bind(var4)(var14);
-            var13['uri'] = var14;
-            var2['source'] = var13;
-            var13 = var12.externalProductImage;
-            var2['style'] = var13;
-            var2 = var11.bind(var4)(var3, var2);
-            return var2;
-case 17:
-            var11 = _closure1_slot6;
-            var15 = _closure1_slot1;
-            var16 = _closure1_slot2;
-            var2 = 15;
+            var2 = 14;
             var2 = var16[var2];
             var3 = var15.bind(var4)(var2);
             var2 = {};
@@ -501,15 +474,33 @@ case 17:
             var14 = var15.bind(var4)(var14);
             var13['uri'] = var14;
             var2['source'] = var13;
+            var13 = var12.externalProductImage;
+            var2['style'] = var13;
+            var2 = var11.bind(var4)(var3, var2);
+            return var2;
+case 16:
+            var11 = _closure1_slot6;
+            var15 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var2 = 14;
+            var2 = var16[var2];
+            var3 = var15.bind(var4)(var2);
+            var2 = {};
+            var13 = {};
+            var14 = 15;
+            var14 = var16[var14];
+            var14 = var15.bind(var4)(var14);
+            var13['uri'] = var14;
+            var2['source'] = var13;
             var12 = var12.externalProductImage;
             var2['style'] = var12;
             var2 = var11.bind(var4)(var3, var2);
             return var2;
-case 16:
+case 14:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var1 = var11[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -540,7 +531,7 @@ case 0:
             var11 = var1.muteBundleStaticBackground;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 24;
+            var1 = 23;
             var1 = var10[var1];
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
@@ -593,7 +584,7 @@ case 34:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 25;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

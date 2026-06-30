@@ -122,7 +122,7 @@ case 0:
             var7 = 'usePostCallDisconnectNudge';
             var4['location'] = var7;
             var4 = var5.bind(var6)(var4);
-            var12 = var4.enabled;
+            var12 = var4.inHoldout;
             var9 = _closure1_slot0;
             var4 = 10;
             var4 = var10[var4];
@@ -212,7 +212,7 @@ case 4:
             if(!var13) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var7 = null;
-            if(!var12) { _fun0001_ip = 6; continue _fun0001 }
+            if(var12) { _fun0001_ip = 6; continue _fun0001 }
 case 8:
             var7 = null;
             if(!var4) { _fun0001_ip = 6; continue _fun0001 }

@@ -253,7 +253,7 @@ case 11:
     var4['description'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 13;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -276,17 +276,8 @@ case 0:
             var1 = var4.bind(var5)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.BUNDLE;
-            if(!(var3 === var1)) { _fun0003_ip = 13; continue _fun0003 }
+            if(!(var3 !== var1)) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 12;
-            var1 = var4[var1];
-            var3 = var3.bind(var5)(var1);
-            var1 = var3.isValidCollectiblesBundle;
-            var1 = var1.bind(var3)(var7);
-            if(var1) { _fun0003_ip = 15; continue _fun0003 }
-case 13:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var1 = {};
@@ -308,15 +299,15 @@ case 13:
             var8[1] = var9;
             var1['children'] = var8;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 16; continue _fun0003;
-case 15:
+            _fun0003_ip = 15; continue _fun0003;
+case 13:
             var4 = _closure1_slot4;
             var3 = _closure1_slot9;
             var2 = {};
             var2['product'] = var7;
             var2['onTrackPress'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 16:
+case 15:
             return var1;
         }
     };

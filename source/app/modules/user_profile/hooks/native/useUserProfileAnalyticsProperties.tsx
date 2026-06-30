@@ -126,7 +126,7 @@ case 13:
                     var7 = undefined;
                     var4 = undefined;
                     if(var5) { _fun0002_ip = 15; continue _fun0002 }
-case 5:
+case 16:
                     var5 = _closure2_slot4;
                     var4 = var5.popoutAnimationParticleType;
 case 15:
@@ -137,25 +137,25 @@ case 15:
                     var4 = _closure2_slot5;
                     var8 = var3 == var4;
                     var4 = undefined;
-                    if(var8) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+                    if(var8) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                     var8 = _closure2_slot5;
                     var4 = var8.avatarDecoration;
-case 16:
+case 17:
                     var4 = var6.bind(var7)(var4);
-                    if(var4) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+                    if(var4) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
                     var6 = var5.Boolean;
                     var5 = _closure2_slot1;
                     var8 = var3 == var5;
                     var5 = undefined;
-                    if(var8) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+                    if(var8) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                     var8 = _closure2_slot1;
                     var5 = var8.avatarDecoration;
-case 20:
+case 21:
                     var4 = var6.bind(var7)(var5);
-case 18:
+case 19:
                     var1['has_avatar_decoration'] = var4;
                     var2 = _closure2_slot6;
                     var2 = var3 != var2;
@@ -181,29 +181,29 @@ case 0:
                     var8 = var5 == var2;
                     var2 = undefined;
                     var6 = undefined;
-                    if(var8) { _fun0003_ip = 22; continue _fun0003 }
+                    if(var8) { _fun0003_ip = 23; continue _fun0003 }
 case 6:
                     var8 = _closure2_slot5;
                     var6 = var8.nick;
-case 22:
+case 23:
                     var6 = var7.bind(var2)(var6);
                     var1['has_nickname'] = var6;
                     var6 = var4.Boolean;
                     var4 = _closure2_slot5;
                     var7 = var5 == var4;
                     var4 = undefined;
-                    if(var7) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+                    if(var7) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
                     var7 = _closure2_slot5;
                     var4 = var7.avatar;
-case 23:
+case 24:
                     var4 = var6.bind(var2)(var4);
                     var1['has_guild_member_avatar'] = var4;
                     var4 = _closure2_slot4;
                     var6 = var5 == var4;
                     var4 = undefined;
                     if(var6) { _fun0003_ip = 14; continue _fun0003 }
-case 25:
+case 26:
                     var7 = _closure2_slot4;
                     var6 = var7.isUsingGuildMemberBanner;
                     var4 = var6.bind(var7)();
@@ -213,7 +213,7 @@ case 14:
                     var4 = var5 == var4;
                     var2 = undefined;
                     if(var4) { _fun0003_ip = 5; continue _fun0003 }
-case 26:
+case 27:
                     var4 = _closure2_slot4;
                     var3 = var4.isUsingGuildMemberBio;
                     var2 = var3.bind(var4)();
@@ -234,8 +234,8 @@ case 5:
 case 0:
                     var3 = _closure2_slot3;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+                    if(!(var1 != var3)) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
                     var1 = {};
                     var4 = _closure2_slot8;
                     var5 = var1;
@@ -243,10 +243,10 @@ case 28:
                     var4 = _closure2_slot9;
                     var5 = var1;
                     var3 = copyDataProperties(var5, var4);
-                    _fun0004_ip = 29; continue _fun0004;
-case 27:
+                    _fun0004_ip = 30; continue _fun0004;
+case 28:
                     var1 = _closure2_slot8;
-case 29:
+case 30:
                     return var1;
                 }
             };

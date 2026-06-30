@@ -5,7 +5,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -38,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = function hasActiveParentLink(arg1) {
         var3 = arg1;
         var2 = var3.some;
@@ -53,13 +54,13 @@ case 4:
 case 0:
                 var3 = arg1;
                 var4 = var3.link_status;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
                 var1 = var1.ACTIVE;
                 var1 = var4 === var1;
                 if(!var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
                 var3 = var3.link_type;
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot11;
                 var2 = var2.PARENT;
                 var1 = var3 === var2;
 case 6:
@@ -69,7 +70,110 @@ case 6:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
+    var1 = function maybePresentModal(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var2 = arg1;
+            var5 = null;
+            var3 = var5 == var2;
+            var1 = undefined;
+            var4 = undefined;
+            if(var3) { _fun0003_ip = 4; continue _fun0003 }
+case 8:
+            var7 = var2.surfaces;
+            var3 = var5 == var7;
+            var4 = undefined;
+            if(var3) { _fun0003_ip = 4; continue _fun0003 }
+case 9:
+            var6 = var7.includes;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 9;
+            var3 = var9[var3];
+            var3 = var8.bind(var1)(var3);
+            var3 = var3.ParentalConsentWarningSurface;
+            var3 = var3.MODAL;
+            var4 = var6.bind(var7)(var3);
+case 4:
+            var3 = true;
+            var3 = var3 !== var4;
+            if(var3) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            var4 = var2.daysRemaining;
+            var4 = var5 == var4;
+            if(var4) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+            var6 = var2.daysRemaining;
+            var5 = 0;
+            var4 = var6 >= var5;
+case 12:
+            var3 = !var4;
+case 10:
+            if(var3) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+            var5 = _closure1_slot9;
+            var4 = var5.hasShownModalToday;
+            var3 = var4.bind(var5)();
+case 14:
+            if(var3) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            var5 = _closure1_slot14;
+            var6 = global;
+            var7 = var6.Object;
+            var6 = var7.values;
+            var8 = _closure1_slot8;
+            var4 = var8.getLinkedUsers;
+            var4 = var4.bind(var8)();
+            var4 = var6.bind(var7)(var4);
+            var3 = var5.bind(var1)(var4);
+case 16:
+            if(var3) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+            var6 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var5 = 10;
+            var5 = var3[var5];
+            var6 = var6.bind(var1)(var5);
+            var5 = var6.openLazy;
+            var7 = _closure1_slot0;
+            var4 = 12;
+            var4 = var3[var4];
+            var7 = var7.bind(var1)(var4);
+            var4 = 11;
+            var4 = var3[var4];
+            var3 = var3.paths;
+            var4 = var7.bind(var1)(var4, var3);
+            var3 = {};
+            var2 = var2.daysRemaining;
+            var3['daysRemaining'] = var2;
+            var2 = 'ParentalConsentWarningModal';
+            var2 = var5.bind(var6)(var4, var2, var3);
+case 18:
+            return var1;
+        }
+    };
+    var _closure1_slot15 = var1;
+    var1 = function maybePresentFromCache() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var3 = _closure1_slot9;
+            var2 = var3.shouldFetchToday;
+            var2 = var2.bind(var3)();
+            if(var2) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+            var3 = _closure1_slot15;
+            var2 = _closure1_slot9;
+            var1 = var2.getWarning;
+            var2 = var1.bind(var2)();
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+case 20:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var _closure1_slot16 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -82,54 +186,54 @@ case 6:
     var4 = var6[var1];
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.UserLinkStatus;
-    var _closure1_slot9 = var8;
+    var _closure1_slot10 = var8;
     var4 = var4.UserLinkType;
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AppStates;
-    var _closure1_slot11 = var4;
-    var4 = 11;
+    var _closure1_slot12 = var4;
+    var4 = 14;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
         var3 = function ParentalConsentWarningManager(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var5 = this;
                 var13 = 0;
                 var1 = copyRestArgs(var13);
-                var8 = _closure1_slot3;
+                var8 = _closure1_slot4;
                 var2 = _closure2_slot0;
                 var4 = undefined;
                 var8 = var8.bind(var4)(var5, var2);
@@ -138,138 +242,151 @@ case 0:
                 var12 = var1;
                 var11 = 0;
                 var1 = arraySpread(var13, var12, var11);
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var2);
-                var2 = _closure1_slot4;
-                var1 = _closure1_slot12;
+                var2 = _closure1_slot5;
+                var1 = _closure1_slot13;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                if(var1) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0003_ip = 10; continue _fun0003;
-case 8:
+                _fun0005_ip = 24; continue _fun0005;
+case 22:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
-                var6 = _closure1_slot5;
+                var6 = _closure1_slot6;
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 10:
+case 24:
                 var1 = var2.bind(var4)(var5, var1);
                 var2 = {};
+                var4 = function PARENTAL_CONSENT_WARNING_FETCH_SUCCESS(arg1) {
+                    var1 = arg1;
+                    var3 = var1.warning;
+                    var2 = _closure1_slot15;
+                    var1 = undefined;
+                    var2 = var2.bind(var1)(var3);
+                    return var1;
+                };
+                var2['PARENTAL_CONSENT_WARNING_FETCH_SUCCESS'] = var4;
                 var4 = function POST_CONNECTION_OPEN() {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                        var3 = _closure1_slot8;
+                        var3 = _closure1_slot9;
                         var1 = var3.getWarning;
                         var5 = var1.bind(var3)();
                         var3 = null;
                         var6 = var3 == var5;
                         var1 = undefined;
                         var4 = undefined;
-                        if(var6) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                        if(var6) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
                         var6 = var5.surfaces;
                         var3 = var3 == var6;
                         var4 = undefined;
-                        if(var3) { _fun0004_ip = 11; continue _fun0004 }
-case 13:
+                        if(var3) { _fun0006_ip = 25; continue _fun0006 }
+case 20:
                         var5 = var6.includes;
                         var7 = _closure1_slot0;
-                        var8 = _closure1_slot1;
+                        var8 = _closure1_slot2;
                         var3 = 9;
                         var3 = var8[var3];
                         var3 = var7.bind(var1)(var3);
                         var3 = var3.ParentalConsentWarningSurface;
                         var3 = var3.BANNER;
                         var4 = var5.bind(var6)(var3);
-case 11:
+case 25:
                         var3 = true;
-                        if(!(var3 === var4)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
-                        var4 = _closure1_slot13;
+                        if(!(var3 === var4)) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+                        var4 = _closure1_slot14;
                         var3 = global;
                         var6 = var3.Object;
                         var5 = var6.values;
-                        var7 = _closure1_slot7;
+                        var7 = _closure1_slot8;
                         var3 = var7.getLinkedUsers;
                         var3 = var3.bind(var7)();
                         var3 = var5.bind(var6)(var3);
                         var3 = var4.bind(var1)(var3);
-                        if(var3) { _fun0004_ip = 16; continue _fun0004 }
-case 14:
+                        if(var3) { _fun0006_ip = 29; continue _fun0006 }
+case 27:
                         var4 = _closure1_slot0;
-                        var5 = _closure1_slot1;
-                        var3 = 10;
+                        var5 = _closure1_slot2;
+                        var3 = 13;
                         var3 = var5[var3];
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.maybeFetchWarning;
                         var3 = var3.bind(var4)();
-                        _fun0004_ip = 17; continue _fun0004;
-case 16:
+                        var3 = _closure1_slot16;
+                        var3 = var3.bind(var1)();
+                        _fun0006_ip = 30; continue _fun0006;
+case 29:
                         var3 = _closure1_slot0;
-                        var4 = _closure1_slot1;
-                        var2 = 10;
+                        var4 = _closure1_slot2;
+                        var2 = 13;
                         var2 = var4[var2];
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.forceFetchWarning;
                         var2 = var2.bind(var3)();
-case 17:
+case 30:
                         return var1;
                     }
                 };
                 var2['POST_CONNECTION_OPEN'] = var4;
                 var4 = function APP_STATE_UPDATE(arg1) {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                         var1 = arg1;
                         var3 = var1.state;
-                        var2 = _closure1_slot11;
+                        var2 = _closure1_slot12;
                         var2 = var2.ACTIVE;
-                        if(!(var3 === var2)) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot1;
-                        var1 = 10;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var2 = var3.bind(var1)(var2);
-                        var1 = var2.maybeFetchWarning;
+                        if(!(var3 === var2)) { _fun0007_ip = 31; continue _fun0007 }
+case 32:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var2 = 13;
+                        var3 = var3[var2];
+                        var2 = undefined;
+                        var4 = var4.bind(var2)(var3);
+                        var3 = var4.maybeFetchWarning;
+                        var3 = var3.bind(var4)();
+                        var1 = _closure1_slot16;
                         var1 = var1.bind(var2)();
-case 18:
+case 31:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var2['APP_STATE_UPDATE'] = var4;
                 var4 = function FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS(arg1) {
-                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                         var1 = arg1;
                         var4 = var1.linkedUsers;
-                        var3 = _closure1_slot13;
+                        var3 = _closure1_slot14;
                         var1 = undefined;
                         var3 = var3.bind(var1)(var4);
-                        if(!var3) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+                        if(!var3) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
                         var3 = _closure1_slot0;
-                        var4 = _closure1_slot1;
-                        var2 = 10;
+                        var4 = _closure1_slot2;
+                        var2 = 13;
                         var2 = var4[var2];
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.forceFetchWarning;
                         var2 = var2.bind(var3)();
-case 20:
+case 33:
                         return var1;
                     }
                 };
                 var2['FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS'] = var4;
                 var3 = function LOGOUT() {
                     var3 = _closure1_slot0;
-                    var2 = _closure1_slot1;
-                    var1 = 10;
+                    var2 = _closure1_slot2;
+                    var1 = 13;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -283,11 +400,11 @@ case 20:
             }
         };
         var _closure2_slot0 = var3;
-        var5 = _closure1_slot6;
+        var5 = _closure1_slot7;
         var2 = undefined;
         var4 = arg1;
         var4 = var5.bind(var2)(var3, var4);
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.bind(var2)(var3);
         return var1;
     };
@@ -297,7 +414,7 @@ case 20:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 12;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

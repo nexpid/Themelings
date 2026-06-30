@@ -208,6 +208,8 @@ case 9:
     var4['connectionInfoContainer'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'columnGap': 4};
     var4['connectedAccountName'] = var10;
+    var10 = {'flex': 1, 'marginRight': 4};
+    var4['connectedAccountNameText'] = var10;
     var10 = {};
     var10['height'] = var12;
     var10['width'] = var12;
@@ -761,7 +763,9 @@ case 66:
             var19 = var19[var15];
             var19 = var21.bind(var4)(var19);
             var21 = var19.Text;
-            var19 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
+            var19 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'style': null, 'lineClamp': 2};
+            var23 = var18.connectedAccountNameText;
+            var19['style'] = var23;
             var23 = var20.name;
             var19['children'] = var23;
             var21 = var22.bind(var4)(var21, var19);
@@ -859,7 +863,7 @@ case 0:
             var4 = undefined;
             var _closure2_slot2 = var4;
             var3 = _closure1_slot16;
-            var13 = var3.bind(var4)();
+            var16 = var3.bind(var4)();
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 16;
@@ -977,7 +981,7 @@ case 13:
             var7 = 'button';
             var1['accessibilityRole'] = var7;
             var1['onLongPress'] = var5;
-            var5 = var13.connectionRow;
+            var5 = var16.connectionRow;
             var1['style'] = var5;
             var5 = var6 != var9;
             var6 = null;
@@ -994,7 +998,7 @@ case 80:
             var10 = _closure1_slot9;
             var5['size'] = var10;
             var5['source'] = var9;
-            var9 = var13.applicationIcon;
+            var9 = var16.applicationIcon;
             var5['style'] = var9;
             var6 = var8.bind(var4)(var7, var5);
 case 79:
@@ -1003,21 +1007,23 @@ case 79:
             var8 = _closure1_slot13;
             var7 = _closure1_slot5;
             var6 = {};
-            var9 = var13.connectionInfoContainer;
+            var9 = var16.connectionInfoContainer;
             var6['style'] = var9;
             var11 = _closure1_slot13;
             var10 = _closure1_slot5;
             var9 = {};
-            var13 = var13.connectedAccountName;
+            var13 = var16.connectedAccountName;
             var9['style'] = var13;
             var14 = _closure1_slot13;
             var13 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var17 = _closure1_slot2;
             var12 = 29;
-            var12 = var16[var12];
+            var12 = var17[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
+            var12 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'style': null, 'lineClamp': 2};
+            var16 = var16.connectedAccountNameText;
+            var12['style'] = var16;
             var12['children'] = var15;
             var12 = var14.bind(var4)(var13, var12);
             var9['children'] = var12;

@@ -2310,6 +2310,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['MOBILE_REFRESH_CHAT_INPUT_PLUS_BUTTON_COACHMARK'] = var2;
     var1 = 'MOBILE_REFRESH_CHAT_INPUT_PLUS_BUTTON_COACHMARK';
     var4[var2] = var1;
+    var2 = 779;
+    var4['MONTHLY_TO_YEARLY_UPSELL_STICKY_BAR'] = var2;
+    var1 = 'MONTHLY_TO_YEARLY_UPSELL_STICKY_BAR';
+    var4[var2] = var1;
+    var2 = 780;
+    var4['MONTHLY_TO_YEARLY_UPSELL_NITRO_TAB_POPOVER'] = var2;
+    var1 = 'MONTHLY_TO_YEARLY_UPSELL_NITRO_TAB_POPOVER';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

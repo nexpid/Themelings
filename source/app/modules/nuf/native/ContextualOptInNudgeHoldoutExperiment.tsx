@@ -1,4 +1,4 @@
-// app/modules/nuf/native/PostCallDisconnectNudgeExperiment.tsx
+// app/modules/nuf/native/ContextualOptInNudgeHoldoutExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,14 +16,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'name': '2026-04-post-call-disconnect-nudge', 'kind': 'user'};
+    var2 = {'name': '2026-06-contextual-opt-in-nudge-holdout', 'kind': 'user'};
     var8 = {};
-    var9 = false;
-    var8['enabled'] = var9;
+    var11 = false;
+    var8['inHoldout'] = var11;
     var2['defaultConfig'] = var8;
     var8 = {};
     var9 = {};
-    var9['enabled'] = var10;
+    var9['inHoldout'] = var11;
+    var8[0] = var9;
+    var9 = {};
+    var9['inHoldout'] = var10;
     var8[1] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
@@ -31,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/nuf/native/PostCallDisconnectNudgeExperiment.tsx';
+    var4 = 'modules/nuf/native/ContextualOptInNudgeHoldoutExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot4 = var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -39,155 +39,78 @@ case 0:
             var1 = var1.notification;
             var4 = undefined;
             var _closure2_slot2 = var4;
-            var _closure2_slot3 = var4;
-            var _closure2_slot4 = var4;
             var9 = var1.thread;
             var10 = var1.threadCreator;
-            var15 = var1.parentChannel;
-            var _closure2_slot0 = var15;
-            var14 = var1.guild;
-            var _closure2_slot1 = var14;
+            var14 = var1.parentChannel;
+            var _closure2_slot0 = var14;
+            var11 = var1.guild;
+            var _closure2_slot1 = var11;
             var5 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var7 = 2;
-            var3 = var3[var7];
+            var6 = _closure1_slot2;
+            var3 = 2;
+            var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
-            var16 = var3.bind(var4)(var15);
+            var8 = var3.bind(var4)(var9);
             var3 = null;
-            if(!(var3 == var16)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var3 == var8)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var5 = 3;
-            var6 = var12[var5];
-            var6 = var11.bind(var4)(var6);
-            var8 = var6.intl;
-            var6 = var8.string;
-            var5 = var12[var5];
-            var5 = var11.bind(var4)(var5);
-            var5 = var5.t;
-            var5 = var5["/YzI63"];
-            var16 = var6.bind(var8)(var5);
-case 2:
-            var6 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var5 = var5[var7];
-            var5 = var6.bind(var4)(var5);
-            var12 = var5.bind(var4)(var9);
-            if(!(var3 == var12)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
             var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var3 = 3;
-            var5 = var8[var3];
+            var5 = var12[var3];
             var5 = var7.bind(var4)(var5);
             var6 = var5.intl;
             var5 = var6.string;
-            var3 = var8[var3];
+            var3 = var12[var3];
             var3 = var7.bind(var4)(var3);
             var3 = var3.t;
             var3 = var3["/YzI63"];
-            var12 = var5.bind(var6)(var3);
-case 4:
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var6 = 3;
-            var3 = var7[var6];
-            var3 = var5.bind(var4)(var3);
-            var13 = var3.intl;
-            var11 = var13.formatToPlainString;
-            var3 = var7[var6];
-            var3 = var5.bind(var4)(var3);
-            var3 = var3.t;
-            var8 = var3["2IGVl5"];
-            var3 = {};
-            var3['channelName'] = var16;
-            var16 = var14.name;
-            var3['guildName'] = var16;
-            var8 = var11.bind(var13)(var8, var3);
-            _closure2_slot2 = var8;
-            var3 = 4;
-            var3 = var7[var3];
-            var7 = var5.bind(var4)(var3);
-            var5 = var7.useInAppNotificationRedesign;
-            var3 = 'ForumThreadCreatedNotification';
-            var3 = var5.bind(var7)(var3);
-            var16 = var3.redesignEnabled;
-            _closure2_slot3 = var16;
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var7 = var3[var6];
-            var7 = var5.bind(var4)(var7);
-            var11 = var7.intl;
-            var7 = var11.formatToPlainString;
-            var3 = var3[var6];
-            var3 = var5.bind(var4)(var3);
-            var3 = var3.t;
-            if(var16) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var6 = var3.jPhTvT;
-            var5 = {};
-            var5['channelName'] = var12;
-            var13 = var10.toString;
-            var13 = var13.bind(var10)();
-            var5['userUsername'] = var13;
-            var6 = var7.bind(var11)(var6, var5);
-            _fun0001_ip = 8; continue _fun0001;
-case 6:
-            var5 = var3.WUIDu9;
-            var3 = {};
-            var3['threadName'] = var12;
-            var6 = var7.bind(var11)(var5, var3);
-case 8:
+            var8 = var5.bind(var6)(var3);
+case 2:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var3 = 5;
+            var3 = 3;
+            var5 = var13[var3];
+            var5 = var12.bind(var4)(var5);
+            var7 = var5.intl;
+            var6 = var7.formatToPlainString;
+            var3 = var13[var3];
+            var3 = var12.bind(var4)(var3);
+            var3 = var3.t;
+            var5 = var3.WUIDu9;
+            var3 = {};
+            var3['threadName'] = var8;
+            var6 = var6.bind(var7)(var5, var3);
+            var3 = 4;
             var3 = var13[var3];
             var5 = var12.bind(var4)(var3);
             var3 = var5.getUserAuthor;
-            var11 = var3.bind(var5)(var10, var9);
-            _closure2_slot4 = var11;
+            var8 = var3.bind(var5)(var10, var9);
+            _closure2_slot2 = var8;
             var7 = _closure1_slot3;
             var5 = var7.useMemo;
-            var3 = new Array(5);
-            var3[0] = var16;
-            var3[1] = var15;
-            var3[2] = var14;
-            var3[3] = var11;
-            var3[4] = var8;
+            var3 = new Array(3);
+            var3[0] = var14;
+            var3[1] = var11;
+            var3[2] = var8;
             var2 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var1 = _closure2_slot3;
-                    if(var1) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-                    var1 = {};
-                    var2 = 'simple';
-                    var1['type'] = var2;
-                    var2 = _closure2_slot2;
-                    var1['text'] = var2;
-                    _fun0002_ip = 11; continue _fun0002;
-case 9:
-                    var2 = {'type': 'message', 'channel': null, 'parentChannel': null};
-                    var4 = _closure2_slot0;
-                    var2['channel'] = var4;
-                    var4 = _closure2_slot1;
-                    var2['guild'] = var4;
-                    var3 = _closure2_slot4;
-                    var2['author'] = var3;
-                    var1 = var2;
-case 11:
-                    return var1;
-                }
+                var1 = {'type': 'message', 'channel': null, 'parentChannel': null};
+                var3 = _closure2_slot0;
+                var1['channel'] = var3;
+                var3 = _closure2_slot1;
+                var1['guild'] = var3;
+                var2 = _closure2_slot2;
+                var1['author'] = var2;
+                return var1;
             };
             var5 = var5.bind(var7)(var2, var3);
             var3 = _closure1_slot4;
-            var1 = 6;
+            var1 = 5;
             var1 = var13[var1];
             var1 = var12.bind(var4)(var1);
             var2 = var1.Notification;
             var1 = {};
-            var11 = 7;
+            var11 = 6;
             var7 = var13[var11];
             var7 = var12.bind(var4)(var7);
             var8 = var7.Avatar;

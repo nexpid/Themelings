@@ -756,7 +756,7 @@ case 64:
                                 var8 = 'NotificationPermissionManager';
                                 var4['location'] = var8;
                                 var4 = var6.bind(var7)(var4);
-                                var6 = var4.showOldSheet;
+                                var6 = var4.inHoldout;
                                 if(!var6) { _fun0010_ip = 65; continue _fun0010 }
 case 66:
                                 var7 = _closure1_slot26;

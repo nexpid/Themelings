@@ -533,7 +533,7 @@ case 36:
                 var2 = 14;
                 var2 = var7[var2];
                 var2 = var6.bind(var1)(var2);
-                var2 = var2.QuestPlacement;
+                var2 = var2.AdPlacement;
                 var2 = var2.MOBILE_HOME_DOCK_AREA;
                 var2 = var3.bind(var4)(var2, var5);
 case 30:

@@ -1,4 +1,4 @@
-// discord_common/js/shared/shared-constants/QuestPlacement.tsx
+// discord_common/js/shared/shared-constants/AdPlacement.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -40,8 +40,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = '../discord_common/js/shared/shared-constants/QuestPlacement.tsx';
+    var4 = '../discord_common/js/shared/shared-constants/AdPlacement.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['QuestPlacement'] = var2;
+    var3['AdPlacement'] = var2;
     return var1;
 })();

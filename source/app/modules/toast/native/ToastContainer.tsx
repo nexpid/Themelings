@@ -53,7 +53,7 @@ case 0:
             var3 = 9;
             var3 = var14[var3];
             var15 = var4.bind(var5)(var3);
-            var3 = var15.useMainTabsHeight;
+            var3 = var15.useMobileQuestDockHeight;
             var24 = var3.bind(var15)();
             var _closure2_slot6 = var24;
             var3 = 10;

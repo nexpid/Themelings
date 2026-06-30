@@ -368,7 +368,7 @@ case 49:
                     var3 = 19;
                     var3 = var7[var3];
                     var3 = var6.bind(var1)(var3);
-                    var3 = var3.QuestPlacement;
+                    var3 = var3.AdPlacement;
                     var3 = var3.MOBILE_HOME_DOCK_AREA;
                     var2 = _closure2_slot0;
                     var7 = var2.callerSource;
@@ -5240,7 +5240,7 @@ case 280:
             var3 = 19;
             var3 = var8[var3];
             var3 = var5.bind(var7)(var3);
-            var3 = var3.QuestPlacement;
+            var3 = var3.AdPlacement;
             if(var4) { _fun0062_ip = 197; continue _fun0062 }
 case 296:
             var9 = var3.QUEST_HOME_MOBILE_CAROUSEL;

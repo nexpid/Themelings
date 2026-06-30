@@ -1449,16 +1449,16 @@ case 46:
         var2 = function() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                var1 = _closure2_slot1;
-                if(var1) { _fun0008_ip = 56; continue _fun0008 }
+                var2 = _closure2_slot1;
+                if(var2) { _fun0008_ip = 56; continue _fun0008 }
 case 36:
                 var4 = _closure2_slot2;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 34;
-                var3 = var3[var1];
-                var1 = undefined;
-                var3 = var5.bind(var1)(var3);
+                var2 = 34;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
                 var3 = var3.AgeVerificationStatusUkAndAusOnly;
                 var3 = var3.UNVERIFIED;
                 if(!(var4 === var3)) { _fun0008_ip = 57; continue _fun0008 }
@@ -1469,7 +1469,7 @@ case 58:
                 var8 = _closure1_slot2;
                 var3 = 11;
                 var3 = var8[var3];
-                var3 = var4.bind(var1)(var3);
+                var3 = var4.bind(var2)(var3);
                 var3 = var3.FamilyCenterModalRequestSections;
                 var4 = var3.ERROR;
                 var3 = {};
@@ -1478,40 +1478,26 @@ case 58:
                 var3['failureCode'] = var7;
                 var3 = var5.bind(var6)(var4, var3);
 case 57:
-                return var1;
+                return var2;
 case 56:
-                var1 = _closure2_slot3;
-                var1 = var1.current;
-                if(var1) { _fun0008_ip = 59; continue _fun0008 }
+                var2 = _closure2_slot3;
+                var2 = var2.current;
+                if(var2) { _fun0008_ip = 59; continue _fun0008 }
 case 60:
                 var3 = _closure2_slot3;
-                var1 = true;
-                var3['current'] = var1;
-                var3 = _closure1_slot0;
+                var2 = true;
+                var3['current'] = var2;
+                var3 = _closure2_slot0;
+                var2 = var3.replace;
+                var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 38;
-                var1 = var4[var1];
-                var7 = undefined;
-                var3 = var3.bind(var7)(var1);
-                var1 = var3.resumeFamilyCenterConnection;
-                var1 = var1.bind(var3)();
-                if(var1) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
-                var5 = _closure2_slot0;
-                var4 = var5.replace;
-                var3 = _closure1_slot0;
-                var8 = _closure1_slot2;
-                var2 = 11;
-                var2 = var8[var2];
-                var2 = var3.bind(var7)(var2);
-                var2 = var2.FamilyCenterModalRequestSections;
-                var3 = var2.ERROR;
-                var2 = {};
-                var6 = _closure1_slot10;
-                var6 = var6.GENERIC_ERROR;
-                var2['failureCode'] = var6;
-                var1 = var4.bind(var5)(var3, var2);
-case 61:
+                var1 = 11;
+                var4 = var4[var1];
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4);
+                var1 = var1.FamilyCenterModalRequestSections;
+                var1 = var1.PREREQ_LOADING;
+                var1 = var2.bind(var3)(var1);
                 var1 = undefined;
                 return var1;
 case 59:
@@ -1996,7 +1982,7 @@ case 59:
     var _closure1_slot20 = var7;
     var7 = {};
     var7['headerShown'] = var10;
-    var10 = 39;
+    var10 = 38;
     var10 = var9[var10];
     var12 = var8.bind(var1)(var10);
     var11 = var12.getHeaderCloseButton;
@@ -2012,7 +1998,7 @@ case 59:
     };
     var7['headerTitle'] = var10;
     var _closure1_slot21 = var7;
-    var7 = 42;
+    var7 = 41;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -2034,7 +2020,7 @@ case 0:
             var3 = var5.bind(var4)(var3);
             var3 = var3.bind(var4)();
             var6 = _closure1_slot0;
-            var5 = 40;
+            var5 = 39;
             var5 = var7[var5];
             var5 = var6.bind(var4)(var5);
             var7 = var5.FamilyCenterConnectionPrereqExperiment;
@@ -2127,7 +2113,7 @@ case 0:
                     var3 = var3.FamilyCenterModalRequestSections;
                     var12 = var3.REQUEST;
                     var3 = {};
-                    var6 = 39;
+                    var6 = 38;
                     var8 = var10[var6];
                     var16 = var7.bind(var9)(var8);
                     var15 = var16.getHeaderCloseButton;
@@ -2161,7 +2147,7 @@ case 0:
                             var1 = undefined;
                             var5 = undefined;
                             if(var7) { _fun0010_ip = 58; continue _fun0010 }
-case 63:
+case 61:
                             var5 = var6.teenIdentity;
 case 58:
                             var2['teenIdentity'] = var5;
@@ -2308,23 +2294,23 @@ case 58:
             var2 = var8[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.FamilyCenterModalRequestSections;
-            if(var6) { _fun0009_ip = 64; continue _fun0009 }
+            if(var6) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
+            if(var3) { _fun0009_ip = 64; continue _fun0009 }
 case 65:
-            if(var3) { _fun0009_ip = 66; continue _fun0009 }
-case 67:
             var6 = var2.TEEN_SCAN;
-            _fun0009_ip = 62; continue _fun0009;
-case 66:
-            var6 = var2.REQUEST;
-case 62:
-            _fun0009_ip = 68; continue _fun0009;
+            _fun0009_ip = 66; continue _fun0009;
 case 64:
+            var6 = var2.REQUEST;
+case 66:
+            _fun0009_ip = 67; continue _fun0009;
+case 62:
             var6 = var2.PREREQ_LOADING;
-case 68:
+case 67:
             var3 = _closure1_slot12;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 41;
+            var1 = 40;
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var2 = var1.Modal;

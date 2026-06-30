@@ -200,7 +200,7 @@ case 6:
             var11 = 'useGuildOpenNudge';
             var5['location'] = var11;
             var5 = var6.bind(var9)(var5);
-            var15 = var5.showNewSheet;
+            var15 = var5.inHoldout;
             var5 = 14;
             var5 = var10[var5];
             var6 = var7.bind(var1)(var5);
@@ -393,7 +393,7 @@ case 20:
 case 19:
             if(!var7) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
-            var7 = var15;
+            var7 = !var15;
 case 21:
             if(!var7) { _fun0002_ip = 23; continue _fun0002 }
 case 24:

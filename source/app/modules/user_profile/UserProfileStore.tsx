@@ -1204,8 +1204,12 @@ case 137:
             var12['popularApplicationCommandIds'] = var26;
             var26 = var25.storefront_available;
             var12['storefront_available'] = var26;
-            var25 = var25.name;
-            var12['name'] = var25;
+            var26 = var25.name;
+            var12['name'] = var26;
+            var26 = var25.terms_of_service_url;
+            var12['termsOfServiceUrl'] = var26;
+            var25 = var25.privacy_policy_url;
+            var12['privacyPolicyUrl'] = var25;
             var24 = var12;
 case 136:
             var12 = 'application';

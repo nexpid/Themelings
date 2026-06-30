@@ -29,7 +29,7 @@ case 0:
             var8 = 'SystemNotificationsSubLabel';
             var1['location'] = var8;
             var1 = var5.bind(var7)(var1);
-            var7 = var1.enabled;
+            var7 = var1.inHoldout;
             var1 = 9;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
@@ -65,6 +65,7 @@ case 2:
             var5[0] = var8;
             if(!var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            var7 = !var7;
             var6 = !var7;
 case 4:
             if(!var6) { _fun0001_ip = 6; continue _fun0001 }
@@ -228,7 +229,8 @@ case 6:
         var5 = {};
         var5['location'] = var9;
         var5 = var7.bind(var8)(var5);
-        var5 = var5.enabled;
+        var5 = var5.inHoldout;
+        var5 = !var5;
         var _closure2_slot1 = var5;
         var9 = _closure1_slot3;
         var8 = var9.useMemo;

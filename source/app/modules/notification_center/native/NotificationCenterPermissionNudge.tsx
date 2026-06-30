@@ -363,7 +363,7 @@ case 0:
             var8 = 'NotificationCenterPermissionNudge';
             var1['location'] = var8;
             var1 = var4.bind(var6)(var1);
-            var9 = var1.enabled;
+            var9 = var1.inHoldout;
             var6 = _closure1_slot0;
             var1 = 14;
             var1 = var7[var1];
@@ -375,7 +375,7 @@ case 0:
             var8 = var6.bind(var5)(var1);
             var7 = var8.useSelectedTimeRecurringDismissibleContent;
             var6 = null;
-            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = null;
             if(!var4) { _fun0001_ip = 2; continue _fun0001 }

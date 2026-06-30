@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -23,7 +23,7 @@ case 0:
 case 3:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.giftIntentTypeToApiIntentType;
@@ -50,12 +50,24 @@ case 4:
             var2['body'] = var5;
             var5 = true;
             var2['oldFormErrors'] = var5;
-            var5 = false;
             var2['rejectWithError'] = var5;
             var4 = var3.bind(var4)(var2);
             var3 = var4.catch;
-            var2 = function() {
+            var2 = function(arg1) {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 6;
+                var2 = var2[var1];
                 var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.captureException;
+                var3 = {};
+                var2 = {};
+                var6 = 'gift_intent';
+                var2['feature'] = var6;
+                var3['tags'] = var2;
+                var2 = arg1;
+                var2 = var4.bind(var5)(var2, var3);
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
@@ -91,7 +103,7 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var4 = var4.Endpoints;
     var _closure1_slot6 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -182,12 +194,23 @@ case 7:
                 return var1;
             }
         };
-        var1 = function() {
+        var1 = function(arg1) {
             var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 5;
-            var2 = var2[var1];
+            var4 = _closure1_slot2;
+            var1 = 6;
+            var2 = var4[var1];
             var1 = undefined;
+            var7 = var3.bind(var1)(var2);
+            var6 = var7.captureException;
+            var5 = {};
+            var2 = {};
+            var8 = 'gift_intent';
+            var2['feature'] = var8;
+            var5['tags'] = var2;
+            var2 = arg1;
+            var2 = var6.bind(var7)(var2, var5);
+            var2 = 5;
+            var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
             var2 = {};

@@ -604,7 +604,7 @@ case 8:
             var3 = 48;
             var3 = var32[var3];
             var5 = var31.bind(var4)(var3);
-            var3 = var5.useMainTabsHeight;
+            var3 = var5.useMobileQuestDockHeight;
             var5 = var3.bind(var5)();
             var3 = 24;
             var3 = var6 - var3;

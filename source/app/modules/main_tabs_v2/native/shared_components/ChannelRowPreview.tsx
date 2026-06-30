@@ -437,6 +437,7 @@ case 40:
                 var2['renderActivityInviteEmbed'] = var5;
                 var2['renderThreadEmbeds'] = var5;
                 var2['renderForumPostActions'] = var5;
+                var2['renderComponents'] = var5;
                 var4 = true;
                 var2['ignoreMentioned'] = var4;
                 var2['enableSwipeActions'] = var5;
