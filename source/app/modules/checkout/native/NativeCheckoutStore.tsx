@@ -211,8 +211,8 @@ case 6:
                     };
                     return var1;
                 };
-                var6 = undefined;
-                var1 = var1.bind(var6)();
+                var7 = undefined;
+                var1 = var1.bind(var7)();
                 var _closure3_slot4 = var1;
                 var1 = function() {
                     var4 = _closure1_slot3;
@@ -337,21 +337,21 @@ case 14:
                     };
                     return var1;
                 };
-                var1 = var1.bind(var6)();
+                var1 = var1.bind(var7)();
                 var _closure3_slot5 = var1;
                 var1 = {};
                 var5 = _closure2_slot0;
-                var4 = null;
-                var5 = var4 != var5;
+                var3 = null;
+                var5 = var3 != var5;
                 if(!var5) { _fun0003_ip = 25; continue _fun0003 }
 case 26:
                 var8 = _closure1_slot5;
-                var7 = var8.createFromServer;
+                var6 = var8.createFromServer;
                 var5 = _closure2_slot0;
-                var4 = var7.bind(var8)(var5);
+                var3 = var6.bind(var8)(var5);
 case 25:
-                var1['orderRecord'] = var4;
-                var4 = function setOrder(arg1) {
+                var1['orderRecord'] = var3;
+                var3 = function setOrder(arg1) {
                     var3 = _closure3_slot0;
                     var2 = {};
                     var5 = _closure1_slot5;
@@ -363,8 +363,8 @@ case 25:
                     var1 = var3.bind(var1)(var2);
                     return var1;
                 };
-                var1['setOrder'] = var4;
-                var4 = function getCheckoutContextRecord() {
+                var1['setOrder'] = var3;
+                var3 = function getCheckoutContextRecord() {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                         var2 = _closure3_slot1;
@@ -380,11 +380,11 @@ case 27:
                         return var1;
                     }
                 };
-                var1['getCheckoutContextRecord'] = var4;
-                var4 = false;
-                var1['isPatchOrderLoading'] = var4;
-                var5 = _closure1_slot3;
-                var7 = function* (arg1) {
+                var1['getCheckoutContextRecord'] = var3;
+                var3 = false;
+                var1['isPatchOrderLoading'] = var3;
+                var6 = _closure1_slot3;
+                var5 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
                         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -501,9 +501,9 @@ case 29:
                     };
                     return var1;
                 };
-                var7 = var5.bind(var6)(var7);
-                var _closure3_slot3 = var7;
-                var7 = function() {
+                var5 = var6.bind(var7)(var5);
+                var _closure3_slot3 = var5;
+                var5 = function() {
                     var1 = undefined;
                     var4 = _closure3_slot3;
                     var3 = var4.apply;
@@ -513,9 +513,9 @@ case 29:
                     var1 = var3.bind(var4)(var1, var2);
                     return var1;
                 };
-                var1['patchOrderLineItems'] = var7;
-                var1['isCreateOrderLoading'] = var4;
-                var4 = function* (arg1) {
+                var1['patchOrderLineItems'] = var5;
+                var1['isCreateOrderLoading'] = var3;
+                var5 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
                         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -627,9 +627,9 @@ case 42:
                     };
                     return var1;
                 };
-                var4 = var5.bind(var6)(var4);
-                var _closure3_slot2 = var4;
-                var3 = function() {
+                var5 = var6.bind(var7)(var5);
+                var _closure3_slot2 = var5;
+                var5 = function() {
                     var1 = undefined;
                     var4 = _closure3_slot2;
                     var3 = var4.apply;
@@ -639,13 +639,24 @@ case 42:
                     var1 = var3.bind(var4)(var1, var2);
                     return var1;
                 };
-                var1['recreateOrder'] = var3;
-                var3 = _closure2_slot1;
-                var1['checkoutInitParameters'] = var3;
-                var3 = _closure2_slot2;
-                var1['contextMetadata'] = var3;
-                var2 = _closure2_slot4;
-                var1['orderRequired'] = var2;
+                var1['recreateOrder'] = var5;
+                var5 = _closure2_slot1;
+                var1['checkoutInitParameters'] = var5;
+                var5 = _closure2_slot2;
+                var1['contextMetadata'] = var5;
+                var4 = _closure2_slot4;
+                var1['orderRequired'] = var4;
+                var1['checkoutSucceeded'] = var3;
+                var2 = function setCheckoutSucceeded() {
+                    var3 = _closure3_slot0;
+                    var2 = {};
+                    var1 = true;
+                    var2['checkoutSucceeded'] = var1;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var1['setCheckoutSucceeded'] = var2;
                 return var1;
             }
         };

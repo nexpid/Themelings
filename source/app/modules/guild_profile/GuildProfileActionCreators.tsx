@@ -116,81 +116,102 @@ case 2:
     var4 = function getGuildProfile(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var10 = arg1;
-            var5 = arg2;
-            var _closure2_slot0 = var10;
-            var3 = null;
-            if(!(var3 != var10)) { _fun0002_ip = 8; continue _fun0002 }
+            var12 = arg1;
+            var4 = arg2;
+            var1 = arguments[2];
+            var _closure2_slot0 = var12;
+            var9 = undefined;
+            if(!(var1 === var9)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var6 = _closure1_slot6;
-            var1 = var6.getFetchStatus;
-            var7 = var1.bind(var6)(var10);
+            var1 = {};
+case 8:
+            var11 = var1.respectBackoff;
+            if(!(var11 === var9)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var11 = false;
+case 10:
+            var3 = null;
+            if(!(var3 != var12)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var14 = _closure1_slot6;
+            var1 = var14.getFetchStatus;
+            var7 = var1.bind(var14)(var12);
             var1 = _closure1_slot7;
             var1 = var1.FETCHING;
-            var2 = var6.getLastSyncTimestamp;
-            var12 = var2.bind(var6)(var10);
-            var2 = var6.getProfile;
-            var6 = var2.bind(var6)(var10);
+            var2 = var14.getLastSyncTimestamp;
+            var15 = var2.bind(var14)(var12);
+            var2 = var14.getProfile;
+            var5 = var2.bind(var14)(var12);
             var2 = global;
-            var11 = var2.Date;
-            var9 = var11.now;
-            var11 = var9.bind(var11)();
-            var13 = var3 != var12;
-            var9 = 0;
-            if(!var13) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            var9 = var12;
-case 10:
-            var9 = var11 - var9;
-            if(!(var7 === var1)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            if(var5) { _fun0002_ip = 12; continue _fun0002 }
+            var13 = var2.Date;
+            var8 = var13.now;
+            var13 = var8.bind(var13)();
+            var16 = var3 != var15;
+            var8 = 0;
+            if(!var16) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            var8 = var15;
 case 14:
+            var8 = var13 - var8;
+            var13 = var14.getNextFetchAllowedAt;
+            var13 = var13.bind(var14)(var12);
+            if(!var11) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+            if(!(var3 != var13)) { _fun0002_ip = 16; continue _fun0002 }
+case 18:
+            var14 = var2.Date;
+            var11 = var14.now;
+            var11 = var11.bind(var14)();
+            if(!(!(var11 < var13))) { _fun0002_ip = 19; continue _fun0002 }
+case 16:
+            if(!(var7 === var1)) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+            if(var4) { _fun0002_ip = 20; continue _fun0002 }
+case 22:
             var7 = var2.Promise;
             var1 = var7.resolve;
             var1 = var1.bind(var7)(var3);
-            _fun0002_ip = 15; continue _fun0002;
-case 12:
-            if(!(var3 != var6)) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            _fun0002_ip = 23; continue _fun0002;
+case 20:
+            if(!(var3 != var5)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var7 = 60000;
-            if(!(!(var9 > var7))) { _fun0002_ip = 16; continue _fun0002 }
-case 18:
-            if(var5) { _fun0002_ip = 16; continue _fun0002 }
-case 19:
-            var5 = var2.Promise;
-            var2 = var5.resolve;
-            var2 = var2.bind(var5)(var6);
-            _fun0002_ip = 20; continue _fun0002;
-case 16:
-            var6 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var5 = 5;
-            var5 = var9[var5];
-            var7 = undefined;
-            var11 = var6.bind(var7)(var5);
-            var6 = var11.dispatch;
-            var5 = {};
-            var12 = 'GUILD_PROFILE_FETCH';
-            var5['type'] = var12;
-            var5['guildId'] = var10;
-            var5 = var6.bind(var11)(var5);
-            var6 = _closure1_slot0;
-            var5 = 6;
-            var5 = var9[var5];
-            var5 = var6.bind(var7)(var5);
-            var7 = var5.HTTP;
-            var6 = var7.get;
-            var5 = {};
-            var9 = _closure1_slot9;
-            var8 = var9.GUILD_PROFILE;
-            var8 = var8.bind(var9)(var10);
-            var5['url'] = var8;
-            var8 = false;
-            var5['rejectWithError'] = var8;
-            var7 = var6.bind(var7)(var5);
-            var6 = var7.then;
-            var5 = function(arg1) {
+            if(!(!(var8 > var7))) { _fun0002_ip = 24; continue _fun0002 }
+case 26:
+            if(var4) { _fun0002_ip = 24; continue _fun0002 }
+case 27:
+            var7 = var2.Promise;
+            var4 = var7.resolve;
+            var4 = var4.bind(var7)(var5);
+            _fun0002_ip = 28; continue _fun0002;
+case 24:
+            var8 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var7 = 5;
+            var7 = var11[var7];
+            var13 = var8.bind(var9)(var7);
+            var8 = var13.dispatch;
+            var7 = {};
+            var14 = 'GUILD_PROFILE_FETCH';
+            var7['type'] = var14;
+            var7['guildId'] = var12;
+            var7 = var8.bind(var13)(var7);
+            var8 = _closure1_slot0;
+            var7 = 6;
+            var7 = var11[var7];
+            var7 = var8.bind(var9)(var7);
+            var9 = var7.HTTP;
+            var8 = var9.get;
+            var7 = {};
+            var11 = _closure1_slot9;
+            var10 = var11.GUILD_PROFILE;
+            var10 = var10.bind(var11)(var12);
+            var7['url'] = var10;
+            var10 = false;
+            var7['rejectWithError'] = var10;
+            var9 = var8.bind(var9)(var7);
+            var8 = var9.then;
+            var7 = function(arg1) {
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var1 = 7;
@@ -215,9 +236,9 @@ case 16:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var6 = var6.bind(var7)(var5);
-            var5 = var6.catch;
-            var4 = function(arg1) {
+            var8 = var8.bind(var9)(var7);
+            var7 = var8.catch;
+            var6 = function(arg1) {
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var2 = 8;
@@ -246,12 +267,18 @@ case 16:
                 var1 = null;
                 return var1;
             };
-            var2 = var5.bind(var6)(var4);
-case 20:
-            var1 = var2;
-case 15:
+            var4 = var7.bind(var8)(var6);
+case 28:
+            var1 = var4;
+case 23:
+            _fun0002_ip = 29; continue _fun0002;
+case 19:
+            var4 = var2.Promise;
+            var2 = var4.resolve;
+            var1 = var2.bind(var4)(var5);
+case 29:
             return var1;
-case 8:
+case 12:
             var1 = global;
             var2 = var1.Promise;
             var1 = var2.resolve;
@@ -269,8 +296,8 @@ case 0:
             var3 = _closure1_slot6;
             var2 = var3.getIsUpdating;
             var2 = var2.bind(var3)(var11);
-            if(var2) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+            if(var2) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
             var2 = 5;
@@ -362,14 +389,14 @@ case 22:
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-            _fun0003_ip = 23; continue _fun0003;
-case 21:
+            _fun0003_ip = 32; continue _fun0003;
+case 30:
             var2 = global;
             var4 = var2.Promise;
             var3 = var4.resolve;
             var2 = null;
             var1 = var3.bind(var4)(var2);
-case 23:
+case 32:
             return var1;
         }
     };
@@ -383,8 +410,8 @@ case 0:
             var3 = _closure1_slot6;
             var2 = var3.getIsUpdating;
             var2 = var2.bind(var3)(var8);
-            if(var2) { _fun0004_ip = 24; continue _fun0004 }
-case 22:
+            if(var2) { _fun0004_ip = 33; continue _fun0004 }
+case 31:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 5;
@@ -467,14 +494,14 @@ case 22:
                 throw var1;
             };
             var1 = var2.bind(var3)(var1);
-            _fun0004_ip = 25; continue _fun0004;
-case 24:
+            _fun0004_ip = 34; continue _fun0004;
+case 33:
             var2 = global;
             var4 = var2.Promise;
             var3 = var4.resolve;
             var2 = null;
             var1 = var3.bind(var4)(var2);
-case 25:
+case 34:
             return var1;
         }
     };

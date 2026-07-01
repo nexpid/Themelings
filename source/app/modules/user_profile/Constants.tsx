@@ -359,6 +359,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['COPY_BANNER_IMAGE_LINK'] = var5;
     var5 = 'GIFT';
     var11['GIFT'] = var5;
+    var5 = 'SHOW_STYLES_PANEL';
+    var11['SHOW_STYLES_PANEL'] = var5;
+    var5 = 'HIDE_STYLES_PANEL';
+    var11['HIDE_STYLES_PANEL'] = var5;
     var10 = {};
     var5 = 'VIEW_ACTIVITY_CARD';
     var10['VIEW_ACTIVITY_CARD'] = var5;

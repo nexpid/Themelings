@@ -108,9 +108,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var28 = var1.guildId;
-            var29 = var1.tag;
-            var27 = var1.badgeHash;
+            var8 = var1.guildId;
+            var24 = var1.tag;
+            var30 = var1.badge;
+            var31 = var1.primaryColor;
+            var29 = var1.secondaryColor;
             var1 = _closure1_slot9;
             var4 = undefined;
             var19 = var1.bind(var4)();
@@ -135,57 +137,57 @@ case 0:
             var1 = var3[var1];
             var5 = var2.bind(var4)(var1);
             var1 = var5.useName;
-            var16 = null;
-            var23 = var1.bind(var5)(var28, var16, var7);
+            var28 = null;
+            var22 = var1.bind(var5)(var8, var28, var7);
             var1 = 9;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.makeSource;
-            var5 = var16 == var7;
+            var5 = var28 == var7;
             var1 = undefined;
             if(var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = var7.getAvatarURL;
             var5 = 40;
-            var1 = var6.bind(var7)(var28, var5);
+            var1 = var6.bind(var7)(var8, var5);
 case 2:
             var15 = var2.bind(var3)(var1);
             var3 = _closure1_slot8;
-            var18 = _closure1_slot0;
+            var16 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 10;
             var1 = var13[var1];
-            var1 = var18.bind(var4)(var1);
+            var1 = var16.bind(var4)(var1);
             var2 = var1.Card;
             var1 = {'variant': 'secondary', 'radius': 16};
-            var26 = 16;
+            var32 = 16;
             var5 = var19.card;
             var1['style'] = var5;
-            var22 = _closure1_slot7;
+            var18 = _closure1_slot7;
             var20 = 11;
             var5 = var13[var20];
-            var5 = var18.bind(var4)(var5);
+            var5 = var16.bind(var4)(var5);
             var6 = var5.Text;
             var5 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
             var7 = var19.notice;
             var5['style'] = var7;
             var17 = 12;
             var7 = var13[var17];
-            var7 = var18.bind(var4)(var7);
+            var7 = var16.bind(var4)(var7);
             var9 = var7.intl;
             var8 = var9.string;
             var7 = var13[var17];
-            var7 = var18.bind(var4)(var7);
+            var7 = var16.bind(var4)(var7);
             var7 = var7.t;
             var7 = var7.OVvzY0;
             var7 = var8.bind(var9)(var7);
             var5['children'] = var7;
-            var6 = var22.bind(var4)(var6, var5);
+            var6 = var18.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
             var6 = 13;
             var6 = var13[var6];
-            var6 = var18.bind(var4)(var6);
+            var6 = var16.bind(var4)(var6);
             var7 = var6.Stack;
             var6 = {};
             var21 = _closure1_slot1;
@@ -213,36 +215,36 @@ case 2:
             var9['style'] = var11;
             var21 = 'no';
             var9['importantForAccessibility'] = var21;
-            var11 = var22.bind(var4)(var14, var9);
+            var11 = var18.bind(var4)(var14, var9);
             var9 = new Array(2);
             var9[0] = var11;
             var11 = {};
-            var24 = var19.messageBody;
-            var11['style'] = var24;
-            var24 = var13[var20];
-            var24 = var18.bind(var4)(var24);
-            var25 = var24.Text;
-            var24 = {'variant': 'text-md/semibold', 'color': 'text-default', 'children': 'Locke'};
-            var25 = var22.bind(var4)(var25, var24);
-            var24 = new Array(2);
-            var24[0] = var25;
+            var23 = var19.messageBody;
+            var11['style'] = var23;
+            var23 = var13[var20];
+            var23 = var16.bind(var4)(var23);
+            var25 = var23.Text;
+            var23 = {'variant': 'text-md/semibold', 'color': 'text-default', 'children': 'Locke'};
+            var25 = var18.bind(var4)(var25, var23);
+            var23 = new Array(2);
+            var23[0] = var25;
             var25 = var13[var20];
-            var25 = var18.bind(var4)(var25);
-            var30 = var25.Text;
+            var25 = var16.bind(var4)(var25);
+            var26 = var25.Text;
             var25 = {'variant': 'text-md/normal', 'color': 'text-default'};
-            var31 = var13[var17];
-            var31 = var18.bind(var4)(var31);
-            var33 = var31.intl;
-            var32 = var33.string;
-            var31 = var13[var17];
-            var31 = var18.bind(var4)(var31);
-            var31 = var31.t;
-            var31 = var31.KZQ4mF;
-            var31 = var32.bind(var33)(var31);
-            var25['children'] = var31;
-            var25 = var22.bind(var4)(var30, var25);
-            var24[1] = var25;
-            var11['children'] = var24;
+            var27 = var13[var17];
+            var27 = var16.bind(var4)(var27);
+            var34 = var27.intl;
+            var33 = var34.string;
+            var27 = var13[var17];
+            var27 = var16.bind(var4)(var27);
+            var27 = var27.t;
+            var27 = var27.KZQ4mF;
+            var27 = var33.bind(var34)(var27);
+            var25['children'] = var27;
+            var25 = var18.bind(var4)(var26, var25);
+            var23[1] = var25;
+            var11['children'] = var23;
             var11 = var3.bind(var4)(var10, var11);
             var9[1] = var11;
             var8['children'] = var9;
@@ -257,46 +259,73 @@ case 2:
             var15 = var19.avatar;
             var11['style'] = var15;
             var11['importantForAccessibility'] = var21;
-            var11 = var22.bind(var4)(var14, var11);
+            var11 = var18.bind(var4)(var14, var11);
             var14 = new Array(2);
             var14[0] = var11;
             var15 = {};
             var11 = var19.messageBody;
             var15['style'] = var11;
             var11 = {};
-            var24 = var19.usernameRow;
-            var11['style'] = var24;
+            var23 = var19.usernameRow;
+            var11['style'] = var23;
             var13 = var13[var20];
-            var13 = var18.bind(var4)(var13);
-            var18 = var13.Text;
+            var13 = var16.bind(var4)(var13);
+            var16 = var13.Text;
             var13 = {'variant': 'text-md/semibold', 'color': 'text-default'};
-            var13['children'] = var23;
-            var18 = var22.bind(var4)(var18, var13);
+            var13['children'] = var22;
+            var16 = var18.bind(var4)(var16, var13);
             var13 = new Array(2);
-            var13[0] = var18;
-            var16 = var16 != var29;
+            var13[0] = var16;
+            var16 = var28 != var24;
             if(!var16) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var18 = '';
-            var16 = var18 !== var29;
+            var16 = var18 !== var24;
 case 4:
             if(!var16) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var23 = _closure1_slot7;
-            var25 = _closure1_slot0;
-            var24 = _closure1_slot2;
+            var22 = _closure1_slot0;
+            var25 = _closure1_slot2;
             var18 = 15;
-            var18 = var24[var18];
-            var18 = var25.bind(var4)(var18);
+            var18 = var25[var18];
+            var18 = var22.bind(var4)(var18);
             var22 = var18.BaseGuildTagChiplet;
             var18 = {};
-            var18['guildTag'] = var29;
-            var24 = var24[var26];
-            var26 = var25.bind(var4)(var24);
-            var25 = var26.getGuildTagBadgeUrl;
-            var24 = _closure1_slot6;
-            var24 = var24.SIZE_12;
-            var24 = var25.bind(var26)(var28, var27, var24);
+            var18['guildTag'] = var24;
+            var25 = var28 != var30;
+            var24 = undefined;
+            if(!var25) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var27 = _closure1_slot7;
+            var26 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var25 = var25[var32];
+            var25 = var26.bind(var4)(var25);
+            var26 = var25.GuildBadge;
+            var25 = {};
+            var25['badge'] = var30;
+            var32 = var28 != var31;
+            var30 = undefined;
+            if(!var32) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var30 = var31;
+case 10:
+            var25['primaryTintColor'] = var30;
+            var30 = var28 != var29;
+            var28 = undefined;
+            if(!var30) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var28 = var29;
+case 12:
+            var25['secondaryTintColor'] = var28;
+            var28 = _closure1_slot6;
+            var29 = var28.SIZE_12;
+            var25['width'] = var29;
+            var28 = var28.SIZE_12;
+            var25['height'] = var28;
+            var24 = var27.bind(var4)(var26, var25);
+case 8:
             var18['guildBadge'] = var24;
             var16 = var23.bind(var4)(var22, var18);
 case 6:

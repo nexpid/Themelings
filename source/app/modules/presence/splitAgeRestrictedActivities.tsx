@@ -181,56 +181,6 @@ case 35:
         }
     };
     var _closure1_slot3 = var1;
-    var1 = function isActivitySafeForAllAudiences(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-            var9 = arg1;
-            var1 = var9.content_classification;
-            var3 = null;
-            var2 = var3 == var1;
-            if(var2) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-            var1 = var1.loaded;
-            var2 = !var1;
-case 36:
-            var1 = !var2;
-            if(var2) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
-            var2 = var9.content_classification;
-            var2 = var2.data;
-            var2 = var3 == var2;
-            if(var2) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var10 = 0;
-            var3 = var7[var10];
-            var5 = undefined;
-            var8 = var6.bind(var5)(var3);
-            var4 = var8.contentClassificationToAgeRestriction;
-            var3 = {};
-            var10 = var7[var10];
-            var10 = var6.bind(var5)(var10);
-            var10 = var10.ContentClassificationVariant;
-            var10 = var10.MINIMAL;
-            var3['type'] = var10;
-            var9 = var9.content_classification;
-            var9 = var9.data;
-            var3['data'] = var9;
-            var4 = var4.bind(var8)(var3);
-            var3 = 1;
-            var3 = var7[var3];
-            var3 = var6.bind(var5)(var3);
-            var3 = var3.AgeRestrictionStatus;
-            var3 = var3.EVERYONE;
-            var2 = var4 === var3;
-case 40:
-            var1 = var2;
-case 38:
-            return var1;
-        }
-    };
-    var _closure1_slot4 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -239,7 +189,7 @@ case 38:
     var6['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var6);
-    var1 = 3;
+    var1 = 2;
     var4 = var4[var1];
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
@@ -247,77 +197,82 @@ case 38:
     var4 = 'modules/presence/splitAgeRestrictedActivities.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function splitAgeRestrictedActivities(arg1, arg2) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
             var3 = arg2;
             var2 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var1 = 2;
-            var1 = var5[var1];
-            var8 = undefined;
-            var1 = var2.bind(var8)(var1);
-            var5 = var1.ContentClassificationPresenceFilterExperiment;
-            var2 = var5.getConfig;
+            var1 = _closure1_slot1;
+            var5 = 0;
+            var1 = var1[var5];
+            var10 = undefined;
+            var1 = var2.bind(var10)(var1);
+            var6 = var1.ContentClassificationPresenceFilterExperiment;
+            var2 = var6.getConfig;
             var1 = {};
-            var6 = 'presence_filtering';
-            var1['location'] = var6;
-            var1 = var2.bind(var5)(var1);
+            var7 = 'presence_filtering';
+            var1['location'] = var7;
+            var1 = var2.bind(var6)(var1);
             var1 = var1.enabled;
-            if(var1) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(var1) { _fun0004_ip = 36; continue _fun0004 }
+case 30:
             var1 = {};
             var1['activities'] = var4;
             var1['hiddenActivities'] = var3;
             return var1;
-case 42:
+case 36:
             var2 = new Array(0);
             var6 = new Array(0);
             var1 = _closure1_slot2;
-            var7 = var1.bind(var8)(var4);
-            var5 = var7.bind(var8)();
-            var1 = var5.done;
-            if(var1) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
-            var10 = var5.value;
-            var1 = _closure1_slot4;
-            var1 = var1.bind(var8)(var10);
-            if(var1) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
-            var1 = var6.push;
-            var1 = var1.bind(var6)(var10);
-            _fun0005_ip = 48; continue _fun0005;
-case 46:
+            var9 = var1.bind(var10)(var4);
+            var7 = var9.bind(var10)();
+            var1 = var7.done;
+            var8 = 1;
+            if(var1) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
+            var12 = var7.value;
+            var13 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var8];
+            var14 = var13.bind(var10)(var1);
+            var13 = var14.isAgeRestrictedClassificationReference;
+            var1 = var12.content_classification;
+            var1 = var13.bind(var14)(var1);
+            if(var1) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
             var1 = var2.push;
-            var1 = var1.bind(var2)(var10);
-case 48:
-            var10 = var7.bind(var8)();
-            var1 = var10.done;
-            var5 = var10;
-            if(!var1) { _fun0005_ip = 45; continue _fun0005 }
-case 44:
+            var1 = var1.bind(var2)(var12);
+            _fun0004_ip = 41; continue _fun0004;
+case 39:
+            var1 = var6.push;
+            var1 = var1.bind(var6)(var12);
+case 41:
+            var12 = var9.bind(var10)();
+            var1 = var12.done;
+            var7 = var12;
+            if(!var1) { _fun0004_ip = 38; continue _fun0004 }
+case 37:
             var1 = var6.length;
-            var5 = 0;
-            if(!(var5 !== var1)) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+            if(!(var5 !== var1)) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
             var1 = {};
             var1['activities'] = var2;
             var2 = new Array(0);
-            var13 = var2;
-            var12 = var3;
-            var11 = 0;
-            var11 = arraySpread(var13, var12, var11);
-            var13 = var2;
-            var12 = var6;
-            var5 = arraySpread(var13, var12, var11);
+            var17 = var2;
+            var16 = var3;
+            var15 = 0;
+            var15 = arraySpread(var17, var16, var15);
+            var17 = var2;
+            var16 = var6;
+            var5 = arraySpread(var17, var16, var15);
             var1['hiddenActivities'] = var2;
-            _fun0005_ip = 51; continue _fun0005;
-case 49:
+            _fun0004_ip = 44; continue _fun0004;
+case 42:
             var2 = {};
             var2['activities'] = var4;
             var2['hiddenActivities'] = var3;
             var1 = var2;
-case 51:
+case 44:
             return var1;
         }
     };

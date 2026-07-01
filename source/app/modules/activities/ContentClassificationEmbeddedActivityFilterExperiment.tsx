@@ -1,4 +1,4 @@
-// app/modules/clips/ClipsTimelineExperiment.tsx
+// app/modules/activities/ContentClassificationEmbeddedActivityFilterExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,14 +16,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'kind': 'user', 'name': '2026-05-clips-timeline'};
+    var2 = {'kind': 'user', 'name': '2026-06-content-classification-embedded-activity-filter'};
     var8 = {};
-    var9 = false;
-    var8['enableTimelineUpload'] = var9;
+    var11 = false;
+    var8['enabled'] = var11;
     var2['defaultConfig'] = var8;
     var8 = {};
     var9 = {};
-    var9['enableTimelineUpload'] = var10;
+    var9['enabled'] = var11;
+    var8[0] = var9;
+    var9 = {};
+    var9['enabled'] = var10;
     var8[1] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
@@ -31,8 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/clips/ClipsTimelineExperiment.tsx';
+    var4 = 'modules/activities/ContentClassificationEmbeddedActivityFilterExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['ClipsTimelineExperiment'] = var2;
+    var3['ContentClassificationEmbeddedActivityFilterExperiment'] = var2;
     return var1;
 })();

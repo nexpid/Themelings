@@ -2318,6 +2318,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['MONTHLY_TO_YEARLY_UPSELL_NITRO_TAB_POPOVER'] = var2;
     var1 = 'MONTHLY_TO_YEARLY_UPSELL_NITRO_TAB_POPOVER';
     var4[var2] = var1;
+    var2 = 781;
+    var4['BADGE_DIRECTORY_NUX_POPOVER'] = var2;
+    var1 = 'BADGE_DIRECTORY_NUX_POPOVER';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

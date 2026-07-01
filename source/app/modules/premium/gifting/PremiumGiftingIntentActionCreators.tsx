@@ -321,7 +321,7 @@ case 10:
         }
     };
     var3['logGiftIntentFlowPurchasedGift'] = var4;
-    var4 = function logGiftIntentUnreadNotificationDismiss() {
+    var2 = function logGiftIntentUnreadNotificationDismiss() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 5;
@@ -335,23 +335,6 @@ case 10:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['logGiftIntentUnreadNotificationDismiss'] = var4;
-    var2 = function logProfilePopoutGiftIntentsDismiss(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'PROFILE_POPOUT_GIFT_INTENTS_DISMISS';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['recipientUserId'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['logProfilePopoutGiftIntentsDismiss'] = var2;
+    var3['logGiftIntentUnreadNotificationDismiss'] = var2;
     return var1;
 })();

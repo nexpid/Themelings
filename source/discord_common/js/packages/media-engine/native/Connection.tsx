@@ -6045,7 +6045,7 @@ case 338:
                 var38 = var27.experimentFlags;
                 var37 = var38.has;
                 var36 = _closure1_slot11;
-                var36 = var36.INTEL_GPU;
+                var36 = var36.INTEL_GPU_DISABLE;
                 var36 = var37.bind(var38)(var36);
                 var30 = var35;
                 var11 = var34;

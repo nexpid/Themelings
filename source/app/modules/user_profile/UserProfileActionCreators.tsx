@@ -1,32 +1,32 @@
 // app/modules/user_profile/UserProfileActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
-    var6 = metroImportDefault;
+    var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
-    var _closure1_slot1 = var6;
-    var _closure1_slot2 = var8;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
     var1 = function trackTryOutFeature(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot7;
+        var2 = _closure1_slot6;
         var3 = var2.PREMIUM_FEATURE_TRY_OUT;
         var2 = {};
         var7 = arg1;
         var2['feature_name'] = var7;
-        var6 = _closure1_slot10;
+        var6 = _closure1_slot9;
         var6 = var6.PREMIUM_STANDARD;
         var2['feature_tier'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _saveProfileChanges() {
         var5 = undefined;
         var1 = undefined;
@@ -63,7 +63,7 @@ case 7:
 case 6:
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var7 = 9;
+                    var7 = 8;
                     var7 = var11[var7];
                     var10 = var10.bind(var5)(var7);
                     var7 = var10.getShouldConvertBioEmoji;
@@ -80,7 +80,7 @@ case 11:
                     var10 = var14;
                     var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    var7 = 10;
+                    var7 = 9;
                     var7 = var12[var7];
                     var12 = var11.bind(var5)(var7);
                     var11 = var12.parse;
@@ -91,7 +91,7 @@ case 11:
 case 10: // try_start_0
                     var10 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var12 = 11;
+                    var12 = 10;
                     var7 = var7[var12];
                     var15 = var10.bind(var5)(var7);
                     var11 = var15.dispatch;
@@ -106,14 +106,14 @@ case 10: // try_start_0
                     if(!(var9 == var7)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
                     var7 = {};
-                    var15 = _closure1_slot8;
+                    var15 = _closure1_slot7;
                     var11 = var15.USER_PROFILE;
-                    var10 = _closure1_slot9;
+                    var10 = _closure1_slot8;
                     var10 = var11.bind(var15)(var10);
                     var7['url'] = var10;
                     var11 = _closure1_slot0;
                     var15 = _closure1_slot2;
-                    var10 = 12;
+                    var10 = 11;
                     var10 = var15[var10];
                     var10 = var11.bind(var5)(var10);
                     var10 = var10.SafetyScannedUploadSurface;
@@ -122,15 +122,15 @@ case 13:
                     _fun0001_ip = 14; continue _fun0001;
 case 12:
                     var10 = {};
-                    var18 = _closure1_slot8;
+                    var18 = _closure1_slot7;
                     var16 = var18.USER_GUILD_PROFILE;
                     var15 = var8;
-                    var11 = _closure1_slot9;
+                    var11 = _closure1_slot8;
                     var11 = var16.bind(var18)(var15, var11);
                     var10['url'] = var11;
                     var15 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var11 = 12;
+                    var11 = 11;
                     var11 = var16[var11];
                     var11 = var15.bind(var5)(var11);
                     var11 = var11.SafetyScannedUploadSurface;
@@ -142,7 +142,7 @@ case 14:
                     var18 = var7.bannerSurface;
                     var10 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var7 = 13;
+                    var7 = 12;
                     var7 = var16[var7];
                     var7 = var10.bind(var5)(var7);
                     var11 = var7.HTTP;
@@ -151,7 +151,7 @@ case 14:
                     var7['url'] = var15;
                     var7['body'] = var14;
                     var15 = _closure1_slot1;
-                    var14 = 14;
+                    var14 = 13;
                     var14 = var16[var14];
                     var16 = var15.bind(var5)(var14);
                     var15 = var16.buildHeadersForMd5;
@@ -195,7 +195,7 @@ case 20: // catch_target0
                     var2 = var7;
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var10 = 15;
+                    var10 = 14;
                     var10 = var12[var10];
                     var10 = var11.bind(var5)(var10);
                     var10 = var10.APIError;
@@ -222,7 +222,7 @@ case 23:
 case 25:
                     var4 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var3 = 11;
+                    var3 = 10;
                     var3 = var9[var3];
                     var5 = var4.bind(var5)(var3);
                     var4 = var5.dispatch;
@@ -241,7 +241,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot13 = var4;
+        _closure1_slot12 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -249,203 +249,58 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var1;
-    var4 = function fetchApplicationWidgetConfigs() {
-        var1 = undefined;
-        var4 = _closure1_slot15;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot14 = var4;
-    var1 = function _fetchApplicationWidgetConfigs() {
-        var5 = undefined;
-        var1 = undefined;
-        var4 = _closure1_slot3;
-        var3 = function* () {
-            var1 = function* anon_0_() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 12; continue _fun0002 }
-case 3:
-                    var2 = _closure1_slot5;
-                    var3 = var2.applicationWidgetConfigs;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
-                    var2 = _closure1_slot5;
-                    var2 = var2.applicationWidgetConfigs;
-                    var3 = var2.length;
-                    var2 = 0;
-                    if(!(!(var3 > var2))) { _fun0002_ip = 28; continue _fun0002 }
-case 26:
-                    var4 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var3 = 11;
-                    var2 = var2[var3];
-                    var5 = undefined;
-                    var7 = var4.bind(var5)(var2);
-                    var4 = var7.dispatch;
-                    var2 = {};
-                    var8 = 'USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_START';
-                    var2['type'] = var8;
-                    var2 = var4.bind(var7)(var2);
-case 29: // try_start_0
-                    var4 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 13;
-                    var2 = var7[var2];
-                    var2 = var4.bind(var5)(var2);
-                    var7 = var2.HTTP;
-                    var4 = var7.get;
-                    var2 = {};
-                    var8 = _closure1_slot8;
-                    var8 = var8.USER_PROFILE_APPLICATION_WIDGET_APPLICATION_IDS;
-                    var2['url'] = var8;
-                    var8 = true;
-                    var2['rejectWithError'] = var8;
-                    var2 = var4.bind(var7)(var2);
-                    SaveGenerator(address=158);
-case 30:
-                    return var2;
-case 31:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
-                    var7 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var4 = var4[var3];
-                    var8 = var7.bind(var5)(var4);
-                    var7 = var8.dispatch;
-                    var4 = {};
-                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_SUCCESS';
-                    var4['type'] = var9;
-                    var9 = var2.body;
-                    var9 = var9.application_configs;
-                    var4['applicationConfigs'] = var9;
-                    var4 = var7.bind(var8)(var4);
-case 34: // try_end0
-                    _fun0002_ip = 28; continue _fun0002;
-case 32:
-                    return var2;
-case 35: // catch_target0
-                    CatchBlockStart(arg_register=1);
-                    var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var3 = var6[var3];
-                    var8 = var4.bind(var5)(var3);
-                    var7 = var8.dispatch;
-                    var3 = {};
-                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_FAILURE';
-                    var3['type'] = var9;
-                    var3 = var7.bind(var8)(var3);
-                    var3 = 16;
-                    var3 = var6[var3];
-                    var4 = var4.bind(var5)(var3);
-                    var3 = var4.captureException;
-                    var3 = var3.bind(var4)(var2);
-                    throw var2;
-case 28:
-                    var2 = undefined;
-                    return var2;
-case 12:
-                    return var1;
-                }
-            };
-            return var1;
-        };
-        var4 = var4.bind(var5)(var3);
-        _closure1_slot15 = var4;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot15 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var2 = {};
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
     var1 = true;
-    var2['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var2 = var8[var1];
+    var4 = var6[var1];
     var1 = undefined;
-    var2 = var6.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 1;
-    var2 = var8[var2];
-    var2 = var6.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 2;
-    var2 = var8[var2];
-    var10 = var6.bind(var1)(var2);
-    var _closure1_slot5 = var10;
-    var2 = 3;
-    var2 = var8[var2];
-    var2 = var7.bind(var1)(var2);
-    var6 = var2.ComponentActions;
-    var _closure1_slot6 = var6;
-    var6 = var2.AnalyticEvents;
-    var _closure1_slot7 = var6;
-    var6 = var2.Endpoints;
-    var _closure1_slot8 = var6;
-    var6 = var2.ME;
-    var _closure1_slot9 = var6;
-    var11 = var2.QueryIds;
-    var2 = 4;
-    var2 = var8[var2];
-    var2 = var7.bind(var1)(var2);
-    var6 = var2.AnalyticsPremiumFeatureTiers;
-    var _closure1_slot10 = var6;
-    var2 = var2.AnalyticsPremiumFeatureNames;
-    var _closure1_slot11 = var2;
-    var2 = 17;
-    var2 = var8[var2];
-    var9 = var7.bind(var1)(var2);
-    var6 = var9.createFetchStore;
-    var2 = {};
-    var11 = var11.APPLICATION_WIDGET_APPLICATION_CONFIGS;
-    var2['getQueryId'] = var11;
-    var11 = function get() {
-        var1 = _closure1_slot5;
-        var1 = var1.applicationWidgetConfigs;
-        return var1;
-    };
-    var2['get'] = var11;
-    var11 = function load() {
-        var2 = _closure1_slot14;
-        var1 = undefined;
-        var1 = var2.bind(var1)();
-        return var1;
-    };
-    var2['load'] = var11;
-    var2 = var6.bind(var9)(var10, var2);
-    var6 = 18;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/user_profile/UserProfileActionCreators.tsx';
-    var6 = var7.bind(var8)(var6);
-    var6 = function notifyUnsavedUserProfileChangesInModal() {
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ComponentActions;
+    var _closure1_slot5 = var7;
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot6 = var7;
+    var7 = var4.Endpoints;
+    var _closure1_slot7 = var7;
+    var4 = var4.ME;
+    var _closure1_slot8 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AnalyticsPremiumFeatureTiers;
+    var _closure1_slot9 = var7;
+    var4 = var4.AnalyticsPremiumFeatureNames;
+    var _closure1_slot10 = var4;
+    var4 = 15;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/UserProfileActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function notifyUnsavedUserProfileChangesInModal() {
         var7 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var3 = 5;
+        var3 = 4;
         var4 = var9[var3];
         var1 = undefined;
         var4 = var7.bind(var1)(var4);
         var6 = var4.ComponentDispatch;
         var5 = var6.dispatch;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var4 = var2.SHAKE_PROFILE_MODAL;
         var4 = var5.bind(var6)(var4);
         var3 = var9[var3];
@@ -454,12 +309,12 @@ case 12:
         var3 = var4.dispatch;
         var2 = var2.EMPHASIZE_NOTICE;
         var2 = var3.bind(var4)(var2);
-        var2 = 6;
+        var2 = 5;
         var2 = var9[var2];
         var2 = var7.bind(var1)(var2);
         var4 = var2.AccessibilityAnnouncer;
         var3 = var4.announce;
-        var2 = 7;
+        var2 = 6;
         var5 = var9[var2];
         var5 = var7.bind(var1)(var5);
         var8 = var5.intl;
@@ -487,10 +342,10 @@ case 12:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['notifyUnsavedUserProfileChangesInModal'] = var6;
-    var6 = function saveProfileChanges() {
+    var3['notifyUnsavedUserProfileChangesInModal'] = var4;
+    var4 = function saveProfileChanges() {
         var1 = undefined;
-        var4 = _closure1_slot13;
+        var4 = _closure1_slot12;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -498,9 +353,9 @@ case 12:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['saveProfileChanges'] = var6;
-    var6 = function pinUserProfileBadgesOnClient(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+    var3['saveProfileChanges'] = var4;
+    var4 = function pinUserProfileBadgesOnClient(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot4;
             var1 = var3.getCurrentUser;
@@ -509,15 +364,15 @@ case 0:
             var6 = var3 == var4;
             var1 = undefined;
             var5 = undefined;
-            if(var6) { _fun0003_ip = 36; continue _fun0003 }
+            if(var6) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
             var5 = var4.id;
-case 36:
-            if(!(var3 != var5)) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
+case 26:
+            if(!(var3 != var5)) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 11;
+            var2 = 10;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
@@ -530,15 +385,15 @@ case 38:
             var2['ttlInSeconds'] = var6;
             var2['userId'] = var5;
             var2 = var3.bind(var4)(var2);
-case 37:
+case 28:
             return var1;
         }
     };
-    var3['pinUserProfileBadgesOnClient'] = var6;
-    var6 = function resetPendingProfileChanges() {
+    var3['pinUserProfileBadgesOnClient'] = var4;
+    var4 = function resetPendingProfileChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -549,11 +404,11 @@ case 37:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['resetPendingProfileChanges'] = var6;
-    var6 = function resetAllPendingChanges() {
+    var3['resetPendingProfileChanges'] = var4;
+    var4 = function resetAllPendingChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -564,11 +419,11 @@ case 37:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['resetAllPendingChanges'] = var6;
-    var6 = function setTryItOutAvatar(arg1) {
+    var3['resetAllPendingChanges'] = var4;
+    var4 = function setTryItOutAvatar(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -579,17 +434,17 @@ case 37:
         var6 = arg1;
         var3['avatar'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.ANIMATED_AVATAR;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var3['setTryItOutAvatar'] = var6;
-    var6 = function setTryItOutAvatarDecoration(arg1) {
+    var3['setTryItOutAvatar'] = var4;
+    var4 = function setTryItOutAvatarDecoration(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -600,17 +455,17 @@ case 37:
         var6 = arg1;
         var3['avatarDecoration'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.AVATAR_DECORATION;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var3['setTryItOutAvatarDecoration'] = var6;
-    var6 = function setTryItOutProfileEffect(arg1) {
+    var3['setTryItOutAvatarDecoration'] = var4;
+    var4 = function setTryItOutProfileEffect(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -621,17 +476,17 @@ case 37:
         var6 = arg1;
         var3['profileEffect'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.PROFILE_EFFECT;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var3['setTryItOutProfileEffect'] = var6;
-    var6 = function setTryItOutBanner(arg1) {
+    var3['setTryItOutProfileEffect'] = var4;
+    var4 = function setTryItOutBanner(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -642,17 +497,17 @@ case 37:
         var6 = arg1;
         var3['banner'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.PROFILE_BANNER;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var3['setTryItOutBanner'] = var6;
-    var6 = function setTryItOutThemeColors(arg1) {
+    var3['setTryItOutBanner'] = var4;
+    var4 = function setTryItOutThemeColors(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -663,17 +518,17 @@ case 37:
         var6 = arg1;
         var3['themeColors'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.PROFILE_THEME_COLOR;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var3['setTryItOutThemeColors'] = var6;
-    var6 = function setTryItOutDisplayNameStyles(arg1) {
+    var3['setTryItOutThemeColors'] = var4;
+    var4 = function setTryItOutDisplayNameStyles(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -684,17 +539,17 @@ case 37:
         var6 = arg1;
         var3['displayNameStyles'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.DISPLAY_NAME_STYLES;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var3['setTryItOutDisplayNameStyles'] = var6;
-    var5 = function setTryItOutPreset(arg1) {
+    var3['setTryItOutDisplayNameStyles'] = var4;
+    var2 = function setTryItOutPreset(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -706,14 +561,12 @@ case 37:
         var8 = var3;
         var6 = copyDataProperties(var8, var7);
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.PRESET;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var3['setTryItOutPreset'] = var5;
-    var3['fetchApplicationWidgetConfigs'] = var4;
-    var3['useApplicationWidgetConfigs'] = var2;
+    var3['setTryItOutPreset'] = var2;
     return var1;
 })();

@@ -188,7 +188,24 @@ case 4:
 case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(var5) { _fun0003_ip = 19; continue _fun0003 }
-case 7:
+case 20:
+                    var5 = var2.ok;
+                    if(var5) { _fun0003_ip = 21; continue _fun0003 }
+case 8:
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var5 = 5;
+                    var5 = var7[var5];
+                    var7 = var6.bind(var3)(var5);
+                    var6 = var7.dispatch;
+                    var5 = {};
+                    var8 = 'SAVED_MESSAGES_UPDATE';
+                    var5['type'] = var8;
+                    var8 = new Array(0);
+                    var5['savedMessages'] = var8;
+                    var5 = var6.bind(var7)(var5);
+                    _fun0003_ip = 22; continue _fun0003;
+case 21:
                     var5 = var2.body;
                     var7 = var5.results;
                     var6 = var7.map;
@@ -200,18 +217,18 @@ case 0:
                             var4 = var2.message;
                             var3 = null;
                             var4 = var3 != var4;
-                            if(!var4) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                            if(!var4) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                             var6 = _closure1_slot0;
                             var5 = _closure1_slot2;
-                            var4 = 5;
+                            var4 = 6;
                             var5 = var5[var4];
                             var4 = undefined;
                             var6 = var6.bind(var4)(var5);
                             var5 = var6.createMessageRecord;
                             var4 = var2.message;
                             var3 = var5.bind(var6)(var4);
-case 20:
+case 23:
                             var1['message'] = var3;
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
@@ -229,7 +246,7 @@ case 20:
                     var7 = var6.bind(var7)(var5);
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 6;
+                    var4 = 5;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.dispatch;
@@ -238,6 +255,7 @@ case 20:
                     var4['type'] = var8;
                     var4['savedMessages'] = var7;
                     var4 = var5.bind(var6)(var4);
+case 22:
                     return var3;
 case 19:
                     return var2;

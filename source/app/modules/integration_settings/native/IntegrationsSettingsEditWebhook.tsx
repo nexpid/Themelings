@@ -591,32 +591,86 @@ case 19:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var1 = 'componentDidUpdate';
+        var1 = 'componentDidMount';
         var5['key'] = var1;
-        var1 = function value(arg1, arg2) {
+        var1 = function value() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                var1 = this;
-                var _closure3_slot0 = var1;
-                var2 = var1.props;
-                var3 = var2.navigation;
-                var1 = var1.state;
-                var2 = var1.submitting;
-                var5 = var1.hasChanges;
-                var1 = true;
-                if(!(var1 === var2)) { _fun0008_ip = 21; continue _fun0008 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 21;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(!var3) { _fun0008_ip = 21; continue _fun0008 }
 case 22:
-                var1 = arg2;
-                var1 = var1.submitting;
-                if(var1) { _fun0008_ip = 21; continue _fun0008 }
+                var3 = this;
+                var3 = var3.props;
+                var4 = var3.navigation;
+                var _closure3_slot0 = var4;
+                var3 = {};
+                var2 = function headerLeft() {
+                    var4 = _closure1_slot16;
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 22;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var5 = _closure3_slot0;
+                    var1['navigation'] = var5;
+                    var5 = 'back';
+                    var1['type'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
+                    return var1;
+                };
+                var3['headerLeft'] = var2;
+                var2 = false;
+                var3['headerBackVisible'] = var2;
+                var2 = var4.setOptions;
+                var2 = var2.bind(var4)(var3);
+case 21:
+                return var1;
+            }
+        };
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'componentDidUpdate';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                var2 = arg2;
+                var4 = this;
+                var _closure3_slot0 = var4;
+                var3 = var4.props;
+                var3 = var3.navigation;
+                var _closure3_slot1 = var3;
+                var4 = var4.state;
+                var5 = var4.submitting;
+                var4 = var4.hasChanges;
+                var6 = var2.submitting;
+                if(!(var5 === var6)) { _fun0009_ip = 23; continue _fun0009 }
+case 14:
+                var6 = var2.hasChanges;
+                if(!(var4 !== var6)) { _fun0009_ip = 24; continue _fun0009 }
 case 23:
-                var2 = var3.setOptions;
-                var1 = {};
-                var6 = function headerRight() {
+                if(!var5) { _fun0009_ip = 25; continue _fun0009 }
+case 26:
+                var2 = var2.submitting;
+                if(var2) { _fun0009_ip = 25; continue _fun0009 }
+case 27:
+                var5 = {};
+                var2 = function headerRight() {
                     var4 = _closure1_slot16;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 23;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -625,34 +679,55 @@ case 23:
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
-                var1['headerRight'] = var6;
-                var6 = function headerLeft() {
+                var5['headerRight'] = var2;
+                var2 = function headerLeft() {
                     var1 = null;
                     return var1;
                 };
-                var1['headerLeft'] = var6;
-                var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 24; continue _fun0008;
-case 21:
+                var5['headerLeft'] = var2;
+                var2 = false;
+                var5['headerBackVisible'] = var2;
                 var2 = var3.setOptions;
-                var1 = {};
-                if(var5) { _fun0008_ip = 25; continue _fun0008 }
-case 26:
-                var5 = undefined;
-                var1['headerRight'] = var5;
-                var1['headerLeft'] = var5;
-                var5 = var2.bind(var3)(var1);
-                _fun0008_ip = 24; continue _fun0008;
+                var2 = var2.bind(var3)(var5);
+                _fun0009_ip = 24; continue _fun0009;
 case 25:
-                var5 = function headerRight() {
+                var2 = {};
+                if(var4) { _fun0009_ip = 28; continue _fun0009 }
+case 29:
+                var4 = undefined;
+                var2['headerRight'] = var4;
+                var4 = function headerLeft() {
+                    var4 = _closure1_slot16;
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 22;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var5 = _closure3_slot1;
+                    var1['navigation'] = var5;
+                    var5 = 'back';
+                    var1['type'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
+                    return var1;
+                };
+                var2['headerLeft'] = var4;
+                var4 = false;
+                var2['headerBackVisible'] = var4;
+                var4 = var3.setOptions;
+                var4 = var4.bind(var3)(var2);
+                _fun0009_ip = 24; continue _fun0009;
+case 28:
+                var4 = function headerRight() {
                     var4 = _closure1_slot16;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 24;
                     var1 = var9[var1];
                     var3 = undefined;
                     var1 = var8.bind(var3)(var1);
-                    var2 = var1.HeaderActionButton;
+                    var2 = var1.HeaderTextButton;
                     var1 = {};
                     var5 = _closure3_slot0;
                     var5 = var5.handleSave;
@@ -667,20 +742,20 @@ case 25:
                     var5 = var5.t;
                     var5 = var5.R3BPH+;
                     var5 = var6.bind(var7)(var5);
-                    var1['text'] = var5;
+                    var1['label'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
-                var1['headerRight'] = var5;
-                var4 = function headerLeft() {
+                var2['headerRight'] = var4;
+                var1 = function headerLeft() {
                     var4 = _closure1_slot16;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 24;
                     var1 = var9[var1];
                     var3 = undefined;
                     var1 = var8.bind(var3)(var1);
-                    var2 = var1.HeaderActionButton;
+                    var2 = var1.HeaderTextButton;
                     var1 = {};
                     var5 = _closure3_slot0;
                     var5 = var5.handleCancelChanges;
@@ -695,25 +770,27 @@ case 25:
                     var5 = var5.t;
                     var5 = var5.ETE/oC;
                     var5 = var6.bind(var7)(var5);
-                    var1['text'] = var5;
+                    var1['label'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
-                var1['headerLeft'] = var4;
-                var1 = var2.bind(var3)(var1);
+                var2['headerLeft'] = var1;
+                var1 = false;
+                var2['headerBackVisible'] = var1;
+                var1 = var3.setOptions;
+                var1 = var1.bind(var3)(var2);
 case 24:
                 var1 = undefined;
                 return var1;
             }
         };
-        var5['value'] = var1;
-        var1 = new Array(2);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'render';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var15 = this;
                 var2 = _closure1_slot19;
@@ -734,7 +811,7 @@ case 0:
                 var3 = _closure1_slot16;
                 var2 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 23;
+                var1 = 25;
                 var1 = var6[var1];
                 var1 = var2.bind(var4)(var1);
                 var2 = var1.Text;
@@ -749,21 +826,21 @@ case 0:
                 var6 = var6[var18];
                 var6 = var9.bind(var4)(var6);
                 var6 = var6.t;
-                if(var5) { _fun0009_ip = 27; continue _fun0009 }
-case 28:
+                if(var5) { _fun0010_ip = 30; continue _fun0010 }
+case 31:
                 var5 = var6.OpuAlK;
                 var5 = var7.bind(var8)(var5);
-                _fun0009_ip = 29; continue _fun0009;
-case 27:
+                _fun0010_ip = 32; continue _fun0010;
+case 30:
                 var6 = var6.t5VZ88;
                 var5 = var7.bind(var8)(var6);
-case 29:
+case 32:
                 var1['children'] = var5;
                 var20 = var3.bind(var4)(var2, var1);
                 var3 = _closure1_slot16;
                 var6 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var1 = 24;
+                var1 = 26;
                 var1 = var11[var1];
                 var1 = var6.bind(var4)(var1);
                 var2 = var1.Form;
@@ -780,7 +857,7 @@ case 29:
                 var5[1] = var7;
                 var1['contentContainerStyle'] = var5;
                 var7 = _closure1_slot17;
-                var5 = 25;
+                var5 = 27;
                 var5 = var11[var5];
                 var5 = var6.bind(var4)(var5);
                 var6 = var5.Stack;
@@ -801,12 +878,12 @@ case 29:
                 var8 = var8.CHANNEL_FOLLOWER;
                 var11 = null;
                 var9 = null;
-                if(!(var12 !== var8)) { _fun0009_ip = 30; continue _fun0009 }
-case 31:
+                if(!(var12 !== var8)) { _fun0010_ip = 33; continue _fun0010 }
+case 34:
                 var13 = _closure1_slot16;
                 var12 = _closure1_slot1;
                 var17 = _closure1_slot2;
-                var8 = 26;
+                var8 = 28;
                 var8 = var17[var8];
                 var12 = var12.bind(var4)(var8);
                 var8 = {};
@@ -820,7 +897,7 @@ case 31:
                 var21 = function makeURL(arg1) {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 27;
+                    var1 = 29;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -851,13 +928,13 @@ case 31:
                 var17 = var19.bind(var21)(var17);
                 var8['label'] = var17;
                 var9 = var13.bind(var4)(var12, var8);
-case 30:
+case 33:
                 var8 = new Array(5);
                 var8[0] = var9;
                 var13 = _closure1_slot16;
                 var22 = _closure1_slot0;
                 var17 = _closure1_slot2;
-                var9 = 28;
+                var9 = 30;
                 var9 = var17[var9];
                 var9 = var22.bind(var4)(var9);
                 var12 = var9.TextInput;
@@ -876,23 +953,23 @@ case 30:
                 var14 = var15.handleNameChange;
                 var9['onChange'] = var14;
                 var14 = undefined;
-                if(!(var4 !== var16)) { _fun0009_ip = 32; continue _fun0009 }
-case 33:
+                if(!(var4 !== var16)) { _fun0010_ip = 35; continue _fun0010 }
+case 36:
                 var17 = var16.name;
                 var14 = undefined;
-                if(!(var14 !== var17)) { _fun0009_ip = 32; continue _fun0009 }
-case 34:
+                if(!(var14 !== var17)) { _fun0010_ip = 35; continue _fun0010 }
+case 37:
                 var17 = var16.name;
                 var16 = 0;
                 var14 = var17[var16];
-case 32:
+case 35:
                 var9['errorMessage'] = var14;
                 var9 = var13.bind(var4)(var12, var9);
                 var8[1] = var9;
                 var16 = _closure1_slot16;
                 var28 = _closure1_slot0;
                 var30 = _closure1_slot2;
-                var9 = 29;
+                var9 = 31;
                 var12 = var30[var9];
                 var12 = var28.bind(var4)(var12);
                 var14 = var12.TableRowGroup;
@@ -909,12 +986,12 @@ case 32:
                 var13['title'] = var12;
                 var21 = true;
                 var13['hasIcons'] = var21;
-                var12 = 30;
+                var12 = 32;
                 var17 = var30[var12];
                 var17 = var28.bind(var4)(var17);
                 var19 = var17.TableRow;
                 var17 = {};
-                var22 = 31;
+                var22 = 33;
                 var22 = var30[var22];
                 var32 = var28.bind(var4)(var22);
                 var31 = var32.computeChannelName;
@@ -925,7 +1002,7 @@ case 32:
                 var17['arrow'] = var21;
                 var21 = var15.handleChannelChange;
                 var17['onPress'] = var21;
-                var27 = 32;
+                var27 = 34;
                 var21 = var30[var27];
                 var21 = var28.bind(var4)(var21);
                 var22 = var21.Icon;
@@ -936,7 +1013,7 @@ case 32:
                 var27 = var27.Sizes;
                 var27 = var27.CUSTOM;
                 var21['size'] = var27;
-                var27 = 33;
+                var27 = 35;
                 var27 = var30[var27];
                 var28 = var28.bind(var4)(var27);
                 var27 = var28.getChannelIcon;
@@ -952,8 +1029,8 @@ case 32:
                 var8[2] = var13;
                 var13 = var11 != var23;
                 var11 = null;
-                if(!var13) { _fun0009_ip = 35; continue _fun0009 }
-case 36:
+                if(!var13) { _fun0010_ip = 38; continue _fun0010 }
+case 39:
                 var16 = _closure1_slot16;
                 var22 = _closure1_slot0;
                 var21 = _closure1_slot2;
@@ -996,7 +1073,7 @@ case 36:
                 var17 = var16.bind(var4)(var19, var17);
                 var13['children'] = var17;
                 var11 = var16.bind(var4)(var14, var13);
-case 35:
+case 38:
                 var8[3] = var11;
                 var11 = _closure1_slot16;
                 var17 = _closure1_slot0;
@@ -1037,18 +1114,18 @@ case 35:
             }
         };
         var5['value'] = var6;
-        var1[1] = var5;
+        var1[2] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
     var7 = var4.bind(var1)(var7);
     var _closure1_slot20 = var7;
-    var4 = 34;
+    var4 = 36;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ThemeContext;
     var7['contextType'] = var4;
-    var4 = 37;
+    var4 = 39;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1057,7 +1134,7 @@ case 35:
     var2 = function ConnectedEditWebhook(arg1) {
         var7 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var1 = 35;
+        var1 = 37;
         var1 = var9[var1];
         var4 = undefined;
         var2 = var7.bind(var4)(var1);
@@ -1076,7 +1153,7 @@ case 35:
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;
-        var6 = 36;
+        var6 = 38;
         var6 = var9[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.NavScrim;

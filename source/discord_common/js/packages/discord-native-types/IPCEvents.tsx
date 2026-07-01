@@ -52,6 +52,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APP_GET_MAIN_BUNDLE_STATS'] = var1;
     var1 = 'DISCORD_APP_MAIN_BUNDLE_STATS';
     var2['APP_MAIN_BUNDLE_STATS'] = var1;
+    var1 = 'DISCORD_APP_PAINT_METRICS';
+    var2['APP_PAINT_METRICS'] = var1;
     var1 = 'DISCORD_APP_GET_DEFAULT_DOUBLE_CLICK_ACTION';
     var2['APP_GET_DEFAULT_DOUBLE_CLICK_ACTION'] = var1;
     var1 = 'DISCORD_APP_PAUSE_FRAME_EVICTOR';

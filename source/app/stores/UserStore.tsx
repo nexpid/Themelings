@@ -2670,6 +2670,7 @@ case 166:
     var _closure1_slot82 = var1;
     var1 = function handleEmbeddedActivityUpdateV2(arg1) {
         var1 = arg1;
+        var1 = var1.instance;
         var4 = var1.participants;
         var3 = var4.reduce;
         var2 = function(arg1, arg2) {

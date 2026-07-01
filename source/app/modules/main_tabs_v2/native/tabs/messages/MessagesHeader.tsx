@@ -477,7 +477,7 @@ case 18:
             var17 = var22[var17];
             var17 = var18.bind(var4)(var17);
             var18 = var17.Button;
-            var17 = {'variant': 'secondary', 'grow': true, 'size': 'sm', 'icon': null, 'onPress': null, 'maxFontSizeMultiplier': 1};
+            var17 = {'variant': 'secondary', 'grow': true, 'shrink': true, 'size': 'sm', 'icon': null, 'onPress': null, 'maxFontSizeMultiplier': 1};
             if(var21) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
             var23 = _closure1_slot6;

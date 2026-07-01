@@ -5424,24 +5424,36 @@ case 192:
         return var1;
     };
     var4 = function(arg1) {
-        var1 = arg1;
-        var3 = _closure1_slot27;
-        var2 = {};
-        var4 = 'EMBEDDED_ACTIVITY_UPDATE_V2';
-        var2['type'] = var4;
-        var4 = var1.application_id;
-        var2['applicationId'] = var4;
-        var4 = var1.launch_id;
-        var2['launchId'] = var4;
-        var4 = var1.composite_instance_id;
-        var2['compositeInstanceId'] = var4;
-        var4 = var1.location;
-        var2['location'] = var4;
-        var1 = var1.participants;
-        var2['participants'] = var1;
-        var1 = undefined;
-        var2 = var3.bind(var1)(var2);
-        return var1;
+        _fun0059: for(var _fun0059_ip = 0; ; ) switch(_fun0059_ip) {
+case 0:
+            var4 = arg1;
+            var3 = _closure1_slot27;
+            var2 = {};
+            var1 = 'EMBEDDED_ACTIVITY_UPDATE_V2';
+            var2['type'] = var1;
+            var1 = {};
+            var5 = var4.application_id;
+            var1['application_id'] = var5;
+            var5 = var4.launch_id;
+            var1['launch_id'] = var5;
+            var5 = var4.composite_instance_id;
+            var1['composite_instance_id'] = var5;
+            var5 = var4.location;
+            var1['location'] = var5;
+            var5 = var4.participants;
+            var6 = null;
+            if(!(var6 == var5)) { _fun0059_ip = 42; continue _fun0059 }
+case 108:
+            var5 = new Array(0);
+case 42:
+            var1['participants'] = var5;
+            var4 = var4.content_classification;
+            var1['content_classification'] = var4;
+            var2['instance'] = var1;
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        }
     };
     var4 = var10.bind(var1)(var9, var7, var4);
     var7 = ['AUTH_SESSION_CHANGE'];
@@ -5522,11 +5534,11 @@ case 192:
         return var1;
     };
     var4 = function(arg1) {
-        _fun0059: for(var _fun0059_ip = 0; ; ) switch(_fun0059_ip) {
+        _fun0060: for(var _fun0060_ip = 0; ; ) switch(_fun0060_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.integrity_check;
-            if(var2) { _fun0059_ip = 193; continue _fun0059 }
+            if(var2) { _fun0060_ip = 193; continue _fun0060 }
 case 106:
             var4 = var1.channels;
             var3 = var4.forEach;
@@ -5613,20 +5625,20 @@ case 193:
         var6 = var1.updated_voice_states;
         var5 = var6.map;
         var4 = function(arg1) {
-            _fun0060: for(var _fun0060_ip = 0; ; ) switch(_fun0060_ip) {
+            _fun0061: for(var _fun0061_ip = 0; ; ) switch(_fun0061_ip) {
 case 0:
                 var2 = arg1;
                 var1 = {};
                 var3 = var2.channel_id;
                 var1['channelId'] = var3;
                 var3 = var2.deaf;
-                if(var3) { _fun0060_ip = 36; continue _fun0060 }
+                if(var3) { _fun0061_ip = 36; continue _fun0061 }
 case 31:
                 var3 = false;
 case 36:
                 var1['deaf'] = var3;
                 var3 = var2.mute;
-                if(var3) { _fun0060_ip = 92; continue _fun0060 }
+                if(var3) { _fun0061_ip = 92; continue _fun0061 }
 case 194:
                 var3 = false;
 case 92:
@@ -5635,31 +5647,31 @@ case 92:
                 var3 = null;
                 var6 = var3 != var5;
                 var4 = null;
-                if(!var6) { _fun0060_ip = 173; continue _fun0060 }
+                if(!var6) { _fun0061_ip = 173; continue _fun0061 }
 case 195:
                 var4 = var5;
 case 173:
                 var1['requestToSpeakTimestamp'] = var4;
                 var4 = var2.self_deaf;
-                if(var4) { _fun0060_ip = 181; continue _fun0060 }
+                if(var4) { _fun0061_ip = 181; continue _fun0061 }
 case 42:
                 var4 = false;
 case 181:
                 var1['selfDeaf'] = var4;
                 var4 = var2.self_mute;
-                if(var4) { _fun0060_ip = 182; continue _fun0060 }
+                if(var4) { _fun0061_ip = 182; continue _fun0061 }
 case 11:
                 var4 = false;
 case 182:
                 var1['selfMute'] = var4;
                 var4 = var2.self_stream;
-                if(var4) { _fun0060_ip = 183; continue _fun0060 }
+                if(var4) { _fun0061_ip = 183; continue _fun0061 }
 case 176:
                 var4 = false;
 case 183:
                 var1['selfStream'] = var4;
                 var4 = var2.self_video;
-                if(var4) { _fun0060_ip = 196; continue _fun0060 }
+                if(var4) { _fun0061_ip = 196; continue _fun0061 }
 case 197:
                 var4 = false;
 case 196:
@@ -5672,7 +5684,7 @@ case 196:
                 var1['userId'] = var4;
                 var4 = var2.discoverable;
                 var3 = var3 == var4;
-                if(var3) { _fun0060_ip = 198; continue _fun0060 }
+                if(var3) { _fun0061_ip = 198; continue _fun0061 }
 case 199:
                 var3 = var4;
 case 198:

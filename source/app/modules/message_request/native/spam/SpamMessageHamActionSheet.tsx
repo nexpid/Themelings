@@ -94,12 +94,6 @@ case 0:
             var _closure2_slot1 = var2;
             var1 = var1.onCancel;
             var _closure2_slot2 = var1;
-            var18 = function handleClose() {
-                var2 = _closure2_slot2;
-                var1 = undefined;
-                var2 = var2.bind(var1)();
-                return var1;
-            };
             var1 = _closure1_slot9;
             var4 = undefined;
             var11 = var1.bind(var4)();
@@ -196,7 +190,13 @@ case 0:
             var1 = var19.bind(var4)(var1);
             var2 = var1.BottomSheet;
             var1 = {};
-            var1['onDismiss'] = var18;
+            var5 = function onDismiss() {
+                var2 = _closure2_slot2;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
+            var1['onDismiss'] = var5;
             var10 = _closure1_slot7;
             var5 = 14;
             var5 = var20[var5];
@@ -206,19 +206,32 @@ case 0:
             var15 = 10;
             var8 = var20[var15];
             var8 = var19.bind(var4)(var8);
-            var21 = var8.intl;
-            var9 = var21.string;
+            var18 = var8.intl;
+            var9 = var18.string;
             var8 = var20[var15];
             var8 = var19.bind(var4)(var8);
             var8 = var8.t;
             var8 = var8["9ty6yc"];
-            var8 = var9.bind(var21)(var8);
+            var8 = var9.bind(var18)(var8);
             var5['title'] = var8;
             var8 = 15;
             var8 = var20[var8];
             var8 = var19.bind(var4)(var8);
             var9 = var8.ActionSheetCloseButton;
             var8 = {};
+            var18 = function onPress() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 12;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.hideActionSheet;
+                var2 = var2.bind(var3)();
+                var2 = _closure2_slot2;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
             var8['onPress'] = var18;
             var8 = var10.bind(var4)(var9, var8);
             var5['trailing'] = var8;

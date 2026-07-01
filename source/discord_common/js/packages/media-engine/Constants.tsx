@@ -325,8 +325,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['SWALLOW_VOLUME_ONLY_SPEAKING_EVENTS'] = var2;
     var2 = 'browser_transceiver_padding_removal';
     var8['BROWSER_TRANSCEIVER_PADDING_REMOVAL'] = var2;
-    var2 = 'intel_gpu';
-    var8['INTEL_GPU'] = var2;
+    var2 = 'intel_gpu_disable';
+    var8['INTEL_GPU_DISABLE'] = var2;
     var7 = {};
     var7['AUTO'] = var33;
     var2 = 'AUTO';

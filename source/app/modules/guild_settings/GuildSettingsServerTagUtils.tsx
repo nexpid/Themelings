@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guild_settings/GuildSettingsServerTagUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function canUseMobileServerTagSettings(arg1) {
+    var4 = function canUseMobileServerTagSettings(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = _closure1_slot2;
@@ -69,6 +69,46 @@ case 4:
             return var1;
         }
     };
-    var3['canUseMobileServerTagSettings'] = var2;
+    var3['canUseMobileServerTagSettings'] = var4;
+    var2 = function isServerTagDraftDirty(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var4 = arg1;
+            var3 = arg2;
+            var2 = null;
+            var1 = var2 != var4;
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var1 = var2 != var3;
+case 6:
+            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var5 = var4.tag;
+            var2 = var3.tag;
+            var2 = var5 !== var2;
+            if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var6 = var4.badge;
+            var5 = var3.badge;
+            var2 = var6 !== var5;
+case 10:
+            if(var2) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var6 = var4.badgeColorPrimary;
+            var5 = var3.badgeColorPrimary;
+            var2 = var6 !== var5;
+case 12:
+            if(var2) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            var4 = var4.badgeColorSecondary;
+            var3 = var3.badgeColorSecondary;
+            var2 = var4 !== var3;
+case 14:
+            var1 = var2;
+case 8:
+            return var1;
+        }
+    };
+    var3['isServerTagDraftDirty'] = var2;
     return var1;
 })();

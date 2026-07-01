@@ -625,8 +625,6 @@ case 41:
             var7 = {};
             var7['source'] = var13;
             var7['IconComponent'] = var12;
-            var12 = 'translucent';
-            var7['variant'] = var12;
             var7 = var11.bind(var4)(var8, var7);
             var1['icon'] = var7;
             var1['label'] = var6;

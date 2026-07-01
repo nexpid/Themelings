@@ -253,7 +253,7 @@ case 11:
         return var1;
     };
     var2['SAVE_LAST_ROUTE'] = var9;
-    var4 = function handleSaveLastNonVoiceRoute(arg1) {
+    var9 = function handleSaveLastNonVoiceRoute(arg1) {
         var1 = arg1;
         var2 = var1.path;
         var1 = _closure1_slot9;
@@ -261,7 +261,14 @@ case 11:
         var1 = true;
         return var1;
     };
-    var2['SAVE_LAST_NON_VOICE_ROUTE'] = var4;
+    var2['SAVE_LAST_NON_VOICE_ROUTE'] = var9;
+    var4 = function handleLogout() {
+        var1 = {'lastViewedPath': null, 'lastViewedNonVoicePath': null};
+        _closure1_slot9 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['LOGOUT'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var13 = var4;

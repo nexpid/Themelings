@@ -5,7 +5,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -38,25 +39,25 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot11 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot13 = var1;
     var11 = function handleUpdateStart(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var1 = var2.get;
             var6 = var1.bind(var2)(var4);
             var1 = null;
             if(!(var1 != var6)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
             var9 = var1;
@@ -68,10 +69,10 @@ case 7:
             var1 = var2.bind(var3)(var4, var1);
             _fun0002_ip = 8; continue _fun0002;
 case 6:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
-            var8 = _closure1_slot10;
+            var8 = _closure1_slot12;
             var9 = var1;
             var5 = copyDataProperties(var9, var8);
             var6 = true;
@@ -89,13 +90,13 @@ case 0:
             var1 = arg1;
             var4 = var1.guildId;
             var6 = var1.error;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var1 = var2.get;
             var7 = var1.bind(var2)(var4);
             var1 = null;
             if(!(var1 != var7)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
             var10 = var1;
@@ -109,10 +110,10 @@ case 10:
             var1 = var2.bind(var3)(var4, var1);
             _fun0003_ip = 11; continue _fun0003;
 case 9:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot12;
             var10 = var1;
             var5 = copyDataProperties(var10, var9);
             var5 = 'error';
@@ -132,13 +133,13 @@ case 0:
             var2 = null;
             if(!(var2 != var1)) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
-            var6 = _closure1_slot9;
+            var6 = _closure1_slot10;
             var4 = var6.get;
             var3 = var1.id;
             var8 = var4.bind(var6)(var3);
             var6 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var3 = 6;
+            var4 = _closure1_slot2;
+            var3 = 7;
             var4 = var4[var3];
             var3 = undefined;
             var4 = var6.bind(var3)(var4);
@@ -146,7 +147,7 @@ case 13:
             var7 = var3.bind(var4)(var1);
             if(!(var2 != var8)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
-            var6 = _closure1_slot9;
+            var6 = _closure1_slot10;
             var4 = var6.set;
             var3 = var1.id;
             var2 = {};
@@ -161,18 +162,18 @@ case 15:
             var9 = var8.bind(var9)();
             var8 = 'lastSyncTimestamp';
             var2[7] = var9;
-            var8 = _closure1_slot8;
+            var8 = _closure1_slot9;
             var9 = var8.FETCHED;
             var8 = 'fetchStatus';
             var2[7] = var9;
             var2 = var4.bind(var6)(var3, var2);
             _fun0004_ip = 12; continue _fun0004;
 case 14:
-            var4 = _closure1_slot9;
+            var4 = _closure1_slot10;
             var3 = var4.set;
             var2 = var1.id;
             var1 = {};
-            var10 = _closure1_slot10;
+            var10 = _closure1_slot12;
             var11 = var1;
             var6 = copyDataProperties(var11, var10);
             var6 = 'profile';
@@ -183,7 +184,7 @@ case 14:
             var7 = var6.bind(var7)();
             var6 = 'lastSyncTimestamp';
             var1[5] = var7;
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot9;
             var6 = var5.FETCHED;
             var5 = 'fetchStatus';
             var1[4] = var6;
@@ -205,28 +206,28 @@ case 12:
     var2 = var7[var1];
     var1 = undefined;
     var2 = var8.bind(var1)(var2);
-    var _closure1_slot2 = var2;
+    var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var7[var2];
     var2 = var8.bind(var1)(var2);
-    var _closure1_slot3 = var2;
+    var _closure1_slot4 = var2;
     var2 = 2;
     var2 = var7[var2];
     var2 = var8.bind(var1)(var2);
-    var _closure1_slot4 = var2;
+    var _closure1_slot5 = var2;
     var2 = 3;
     var2 = var7[var2];
     var2 = var8.bind(var1)(var2);
-    var _closure1_slot5 = var2;
+    var _closure1_slot6 = var2;
     var2 = 4;
     var2 = var7[var2];
     var2 = var8.bind(var1)(var2);
-    var _closure1_slot6 = var2;
+    var _closure1_slot7 = var2;
     var2 = 5;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
     var2 = var2.ChannelTypes;
-    var _closure1_slot7 = var2;
+    var _closure1_slot8 = var2;
     var2 = {};
     var9 = 'NOT_FETCHED';
     var2['NOT_FETCHED'] = var9;
@@ -234,19 +235,26 @@ case 12:
     var2['FETCHING'] = var9;
     var9 = 'FETCHED';
     var2['FETCHED'] = var9;
-    var _closure1_slot8 = var2;
+    var _closure1_slot9 = var2;
+    var9 = var4.Map;
+    var13 = var9.prototype;
+    var13 = Object.create(var13, {constructor: {value: var9}});
+    var17 = var13;
+    var9 = new var17[var9](var16);
+    var9 = var9 instanceof Object ? var9 : var13;
+    var _closure1_slot10 = var9;
     var4 = var4.Map;
     var9 = var4.prototype;
     var9 = Object.create(var9, {constructor: {value: var4}});
     var17 = var9;
     var4 = new var17[var4](var16);
     var4 = var4 instanceof Object ? var4 : var9;
-    var _closure1_slot9 = var4;
-    var4 = {'profile': null, 'lastSyncTimestamp': null, 'fetchStatus': null, 'isUpdating': false, 'error': null};
+    var _closure1_slot11 = var4;
+    var4 = {'profile': null, 'lastSyncTimestamp': null, 'fetchStatus': null, 'isUpdating': false, 'error': null, 'nextFetchAllowedAt': null};
     var9 = var2.NOT_FETCHED;
     var4['fetchStatus'] = var9;
-    var _closure1_slot10 = var4;
-    var4 = 7;
+    var _closure1_slot12 = var4;
+    var4 = 8;
     var4 = var7[var4];
     var4 = var8.bind(var1)(var4);
     var9 = var4.Store;
@@ -257,13 +265,13 @@ case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = _closure2_slot0;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
-                var2 = _closure1_slot4;
-                var1 = _closure1_slot11;
+                var2 = _closure1_slot5;
+                var1 = _closure1_slot13;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0005_ip = 16; continue _fun0005 }
 case 17:
@@ -276,7 +284,7 @@ case 16:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
-                var6 = _closure1_slot5;
+                var6 = _closure1_slot6;
                 var6 = var6.bind(var3)(var4);
                 var6 = var6.constructor;
                 var5 = arguments;
@@ -287,11 +295,11 @@ case 18:
             }
         };
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot6;
+        var5 = _closure1_slot7;
         var3 = undefined;
         var2 = arg1;
         var2 = var5.bind(var3)(var4, var2);
-        var2 = _closure1_slot3;
+        var2 = _closure1_slot4;
         var5 = {};
         var1 = 'getProfile';
         var5['key'] = var1;
@@ -304,7 +312,7 @@ case 0:
                 var1 = null;
                 if(var3) { _fun0006_ip = 19; continue _fun0006 }
 case 20:
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot10;
                 var3 = var4.get;
                 var4 = var3.bind(var4)(var5);
                 var5 = var2 == var4;
@@ -325,7 +333,7 @@ case 19:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(5);
+        var1 = new Array(6);
         var1[0] = var5;
         var5 = {};
         var7 = 'getFetchStatus';
@@ -337,7 +345,7 @@ case 0:
                 var3 = null;
                 if(!(var3 != var5)) { _fun0007_ip = 25; continue _fun0007 }
 case 26:
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot10;
                 var1 = var4.get;
                 var4 = var1.bind(var4)(var5);
                 var5 = var3 == var4;
@@ -348,12 +356,12 @@ case 28:
 case 27:
                 if(!(var3 == var1)) { _fun0007_ip = 24; continue _fun0007 }
 case 29:
-                var2 = _closure1_slot8;
+                var2 = _closure1_slot9;
                 var1 = var2.NOT_FETCHED;
 case 24:
                 _fun0007_ip = 30; continue _fun0007;
 case 25:
-                var2 = _closure1_slot8;
+                var2 = _closure1_slot9;
                 var1 = var2.NOT_FETCHED;
 case 30:
                 return var1;
@@ -373,7 +381,7 @@ case 0:
                 var1 = null;
                 if(var3) { _fun0008_ip = 19; continue _fun0008 }
 case 20:
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot10;
                 var3 = var4.get;
                 var4 = var3.bind(var4)(var5);
                 var5 = var2 == var4;
@@ -396,27 +404,61 @@ case 19:
         var5['value'] = var7;
         var1[2] = var5;
         var5 = {};
-        var7 = 'getIsUpdating';
+        var7 = 'getNextFetchAllowedAt';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var5 = arg1;
                 var2 = null;
-                var1 = var2 != var5;
-                if(!var1) { _fun0009_ip = 25; continue _fun0009 }
-case 31:
-                var4 = _closure1_slot9;
+                var3 = var2 == var5;
+                var1 = null;
+                if(var3) { _fun0009_ip = 19; continue _fun0009 }
+case 20:
+                var4 = _closure1_slot10;
                 var3 = var4.get;
                 var4 = var3.bind(var4)(var5);
                 var5 = var2 == var4;
                 var3 = undefined;
-                if(var5) { _fun0009_ip = 32; continue _fun0009 }
+                if(var5) { _fun0009_ip = 21; continue _fun0009 }
+case 22:
+                var3 = var4.nextFetchAllowedAt;
+case 21:
+                var4 = var2 != var3;
+                var2 = null;
+                if(!var4) { _fun0009_ip = 23; continue _fun0009 }
+case 24:
+                var2 = var3;
+case 23:
+                var1 = var2;
+case 19:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'getIsUpdating';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+                var5 = arg1;
+                var2 = null;
+                var1 = var2 != var5;
+                if(!var1) { _fun0010_ip = 25; continue _fun0010 }
+case 31:
+                var4 = _closure1_slot10;
+                var3 = var4.get;
+                var4 = var3.bind(var4)(var5);
+                var5 = var2 == var4;
+                var3 = undefined;
+                if(var5) { _fun0010_ip = 32; continue _fun0010 }
 case 33:
                 var3 = var4.isUpdating;
 case 32:
                 var2 = var2 != var3;
-                if(!var2) { _fun0009_ip = 34; continue _fun0009 }
+                if(!var2) { _fun0010_ip = 34; continue _fun0010 }
 case 17:
                 var2 = var3;
 case 34:
@@ -426,36 +468,36 @@ case 25:
             }
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'getErrorCode';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var5 = arg1;
                 var2 = null;
                 var3 = var2 == var5;
                 var1 = null;
-                if(var3) { _fun0010_ip = 5; continue _fun0010 }
+                if(var3) { _fun0011_ip = 5; continue _fun0011 }
 case 20:
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot10;
                 var3 = var4.get;
                 var4 = var3.bind(var4)(var5);
                 var5 = var2 == var4;
                 var3 = undefined;
-                if(var5) { _fun0010_ip = 35; continue _fun0010 }
+                if(var5) { _fun0011_ip = 35; continue _fun0011 }
 case 22:
                 var4 = var4.error;
                 var5 = var2 == var4;
                 var3 = undefined;
-                if(var5) { _fun0010_ip = 35; continue _fun0010 }
+                if(var5) { _fun0011_ip = 35; continue _fun0011 }
 case 34:
                 var3 = var4.code;
 case 35:
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0010_ip = 6; continue _fun0010 }
+                if(!var4) { _fun0011_ip = 6; continue _fun0011 }
 case 36:
                 var2 = var3;
 case 6:
@@ -465,48 +507,48 @@ case 5:
             }
         };
         var5['value'] = var6;
-        var1[4] = var5;
+        var1[5] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
     var9 = var4.bind(var1)(var9);
     var4 = 'GuildProfileStore';
     var9['displayName'] = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var7[var4];
     var16 = var8.bind(var1)(var4);
     var4 = {};
     var13 = function handleFetchStart(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var1 = var2.get;
             var6 = var1.bind(var2)(var4);
             var1 = null;
-            if(!(var1 != var6)) { _fun0011_ip = 37; continue _fun0011 }
+            if(!(var1 != var6)) { _fun0012_ip = 37; continue _fun0012 }
 case 7:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
             var9 = var1;
             var8 = var6;
             var6 = copyDataProperties(var9, var8);
-            var6 = _closure1_slot8;
+            var6 = _closure1_slot9;
             var7 = var6.FETCHING;
             var6 = 'fetchStatus';
             var1[5] = var7;
             var1 = var2.bind(var3)(var4, var1);
-            _fun0011_ip = 38; continue _fun0011;
+            _fun0012_ip = 38; continue _fun0012;
 case 37:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
-            var8 = _closure1_slot10;
+            var8 = _closure1_slot12;
             var9 = var1;
             var6 = copyDataProperties(var9, var8);
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot9;
             var6 = var5.FETCHING;
             var5 = 'fetchStatus';
             var1[4] = var6;
@@ -518,44 +560,59 @@ case 38:
     };
     var4['GUILD_PROFILE_FETCH'] = var13;
     var13 = function handleFetchSuccess(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
             var7 = var1.profile;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot11;
+            var1 = var2.get;
+            var2 = var1.bind(var2)(var4);
+            var8 = null;
+            if(!(var8 != var2)) { _fun0013_ip = 39; continue _fun0013 }
+case 40:
+            var1 = var2.succeed;
+            var1 = var1.bind(var2)();
+case 39:
+            var2 = _closure1_slot11;
+            var1 = var2.delete;
+            var1 = var1.bind(var2)(var4);
+            var2 = _closure1_slot10;
             var1 = var2.get;
             var6 = var1.bind(var2)(var4);
-            var1 = null;
-            if(!(var1 != var6)) { _fun0012_ip = 39; continue _fun0012 }
-case 40:
-            var3 = _closure1_slot9;
+            if(!(var8 != var6)) { _fun0013_ip = 41; continue _fun0013 }
+case 37:
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
-            var10 = var1;
-            var9 = var6;
-            var6 = copyDataProperties(var10, var9);
+            var11 = var1;
+            var10 = var6;
+            var6 = copyDataProperties(var11, var10);
             var6 = 'profile';
             var1[5] = var7;
             var6 = global;
-            var8 = var6.Date;
-            var6 = var8.now;
-            var8 = var6.bind(var8)();
+            var9 = var6.Date;
+            var6 = var9.now;
+            var9 = var6.bind(var9)();
             var6 = 'lastSyncTimestamp';
-            var1[5] = var8;
-            var6 = _closure1_slot8;
-            var8 = var6.FETCHED;
+            var1[5] = var9;
+            var6 = _closure1_slot9;
+            var9 = var6.FETCHED;
             var6 = 'fetchStatus';
+            var1[5] = var9;
+            var6 = 'error';
+            var1[5] = var8;
+            var6 = 'nextFetchAllowedAt';
             var1[5] = var8;
             var1 = var2.bind(var3)(var4, var1);
-            _fun0012_ip = 41; continue _fun0012;
-case 39:
-            var3 = _closure1_slot9;
+            _fun0013_ip = 42; continue _fun0013;
+case 41:
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
-            var9 = _closure1_slot10;
-            var10 = var1;
-            var6 = copyDataProperties(var10, var9);
+            var10 = _closure1_slot12;
+            var11 = var1;
+            var6 = copyDataProperties(var11, var10);
             var6 = 'profile';
             var1[5] = var7;
             var6 = global;
@@ -564,58 +621,92 @@ case 39:
             var7 = var6.bind(var7)();
             var6 = 'lastSyncTimestamp';
             var1[5] = var7;
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot9;
             var6 = var5.FETCHED;
             var5 = 'fetchStatus';
             var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
-case 41:
+case 42:
             var1 = undefined;
             return var1;
         }
     };
     var4['GUILD_PROFILE_FETCH_SUCCESS'] = var13;
     var13 = function handleFetchFailure(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
-            var7 = var1.error;
-            var2 = _closure1_slot9;
+            var8 = var1.error;
+            var2 = _closure1_slot11;
             var1 = var2.get;
-            var6 = var1.bind(var2)(var4);
+            var3 = var1.bind(var2)(var4);
             var1 = null;
-            if(!(var1 != var6)) { _fun0013_ip = 42; continue _fun0013 }
+            if(!(var1 == var3)) { _fun0014_ip = 43; continue _fun0014 }
 case 10:
-            var3 = _closure1_slot9;
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 6;
+            var6 = var6[var2];
+            var2 = undefined;
+            var9 = var7.bind(var2)(var6);
+            var2 = var9.prototype;
+            var6 = Object.create(var2, {constructor: {value: var9}});
+            var11 = 5000;
+            var10 = 300000;
+            var12 = var6;
+            var2 = new var12[var9](var11, var10, var9);
+            var2 = var2 instanceof Object ? var2 : var6;
+            var7 = _closure1_slot11;
+            var6 = var7.set;
+            var6 = var6.bind(var7)(var4, var2);
+            var3 = var2;
+case 43:
+            var2 = var3.fail;
+            var3 = var2.bind(var3)();
+            var2 = global;
+            var6 = var2.Date;
+            var2 = var6.now;
+            var2 = var2.bind(var6)();
+            var6 = var2 + var3;
+            var3 = _closure1_slot10;
+            var2 = var3.get;
+            var7 = var2.bind(var3)(var4);
+            if(!(var1 != var7)) { _fun0014_ip = 44; continue _fun0014 }
+case 45:
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
-            var10 = var1;
-            var9 = var6;
-            var6 = copyDataProperties(var10, var9);
-            var6 = 'error';
-            var1[5] = var7;
-            var6 = _closure1_slot8;
-            var8 = var6.FETCHED;
-            var6 = 'fetchStatus';
-            var1[5] = var8;
+            var11 = var1;
+            var10 = var7;
+            var7 = copyDataProperties(var11, var10);
+            var7 = 'error';
+            var1[6] = var8;
+            var7 = _closure1_slot9;
+            var9 = var7.FETCHED;
+            var7 = 'fetchStatus';
+            var1[6] = var9;
+            var7 = 'nextFetchAllowedAt';
+            var1[6] = var6;
             var1 = var2.bind(var3)(var4, var1);
-            _fun0013_ip = 43; continue _fun0013;
-case 42:
-            var3 = _closure1_slot9;
+            _fun0014_ip = 46; continue _fun0014;
+case 44:
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
-            var9 = _closure1_slot10;
-            var10 = var1;
-            var6 = copyDataProperties(var10, var9);
-            var6 = 'error';
-            var1[5] = var7;
-            var5 = _closure1_slot8;
-            var6 = var5.FETCHED;
+            var10 = _closure1_slot12;
+            var11 = var1;
+            var7 = copyDataProperties(var11, var10);
+            var7 = 'error';
+            var1[6] = var8;
+            var5 = _closure1_slot9;
+            var7 = var5.FETCHED;
             var5 = 'fetchStatus';
+            var1[4] = var7;
+            var5 = 'nextFetchAllowedAt';
             var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
-case 43:
+case 46:
             var1 = undefined;
             return var1;
         }
@@ -623,18 +714,18 @@ case 43:
     var4['GUILD_PROFILE_FETCH_FAILURE'] = var13;
     var4['GUILD_PROFILE_UPDATE'] = var11;
     var13 = function handleUpdateSuccess(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
             var6 = var1.profile;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var1 = var2.get;
             var7 = var1.bind(var2)(var4);
             var1 = null;
-            if(!(var1 != var7)) { _fun0014_ip = 44; continue _fun0014 }
+            if(!(var1 != var7)) { _fun0015_ip = 47; continue _fun0015 }
 case 40:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
             var10 = var1;
@@ -646,18 +737,18 @@ case 40:
             var7 = 'isUpdating';
             var1[6] = var8;
             var1 = var2.bind(var3)(var4, var1);
-            _fun0014_ip = 45; continue _fun0014;
-case 44:
-            var3 = _closure1_slot9;
+            _fun0015_ip = 48; continue _fun0015;
+case 47:
+            var3 = _closure1_slot10;
             var2 = var3.set;
             var1 = {};
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot12;
             var10 = var1;
             var5 = copyDataProperties(var10, var9);
             var5 = 'profile';
             var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
-case 45:
+case 48:
             var1 = undefined;
             return var1;
         }
@@ -665,7 +756,7 @@ case 45:
     var4['GUILD_PROFILE_UPDATE_SUCCESS'] = var13;
     var4['GUILD_PROFILE_UPDATE_FAILURE'] = var5;
     var13 = function handleMemberVerificationFormFetch(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.form;
@@ -674,18 +765,18 @@ case 0:
             var4 = var2 == var3;
             var1 = undefined;
             var8 = undefined;
-            if(var4) { _fun0015_ip = 46; continue _fun0015 }
-case 47:
+            if(var4) { _fun0016_ip = 49; continue _fun0016 }
+case 50:
             var8 = var3.profile;
-case 46:
-            if(!(var2 != var8)) { _fun0015_ip = 48; continue _fun0015 }
+case 49:
+            if(!(var2 != var8)) { _fun0016_ip = 51; continue _fun0016 }
 case 22:
-            var4 = _closure1_slot9;
+            var4 = _closure1_slot10;
             var3 = var4.get;
             var7 = var3.bind(var4)(var5);
-            if(!(var2 != var7)) { _fun0015_ip = 49; continue _fun0015 }
+            if(!(var2 != var7)) { _fun0016_ip = 52; continue _fun0016 }
 case 19:
-            var4 = _closure1_slot9;
+            var4 = _closure1_slot10;
             var3 = var4.set;
             var2 = {};
             var11 = var2;
@@ -699,17 +790,17 @@ case 19:
             var9 = var7.bind(var9)();
             var7 = 'lastSyncTimestamp';
             var2[6] = var9;
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot9;
             var9 = var7.FETCHED;
             var7 = 'fetchStatus';
             var2[6] = var9;
             var2 = var3.bind(var4)(var5, var2);
-            _fun0015_ip = 48; continue _fun0015;
-case 49:
-            var4 = _closure1_slot9;
+            _fun0016_ip = 51; continue _fun0016;
+case 52:
+            var4 = _closure1_slot10;
             var3 = var4.set;
             var2 = {};
-            var10 = _closure1_slot10;
+            var10 = _closure1_slot12;
             var11 = var2;
             var7 = copyDataProperties(var11, var10);
             var7 = 'profile';
@@ -720,12 +811,12 @@ case 49:
             var8 = var7.bind(var8)();
             var7 = 'lastSyncTimestamp';
             var2[6] = var8;
-            var6 = _closure1_slot8;
+            var6 = _closure1_slot9;
             var7 = var6.FETCHED;
             var6 = 'fetchStatus';
             var2[5] = var7;
             var2 = var3.bind(var4)(var5, var2);
-case 48:
+case 51:
             return var1;
         }
     };
@@ -733,70 +824,77 @@ case 48:
     var4['INVITE_RESOLVE_SUCCESS'] = var12;
     var4['INSTANT_INVITE_CREATE_SUCCESS'] = var12;
     var12 = function handleCreateChannel(arg1) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.channel;
             var4 = var1.type;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var3 = var3.GUILD_ANNOUNCEMENT;
             var3 = var4 === var3;
-            if(!var3) { _fun0016_ip = 32; continue _fun0016 }
-case 46:
+            if(!var3) { _fun0017_ip = 32; continue _fun0017 }
+case 49:
             var5 = var1.guild_id;
             var4 = null;
             var3 = var4 != var5;
 case 32:
-            if(!var3) { _fun0016_ip = 50; continue _fun0016 }
-case 51:
-            var3 = _closure1_slot9;
+            if(!var3) { _fun0017_ip = 9; continue _fun0017 }
+case 39:
+            var5 = _closure1_slot10;
+            var4 = var5.delete;
+            var3 = var1.guild_id;
+            var3 = var4.bind(var5)(var3);
+            var3 = _closure1_slot11;
             var2 = var3.delete;
             var1 = var1.guild_id;
             var1 = var2.bind(var3)(var1);
-case 50:
+case 9:
             var1 = undefined;
             return var1;
         }
     };
     var4['CHANNEL_CREATE'] = var12;
     var12 = function handleSetWidget(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.guildId;
             var2 = var1.enabled;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0017_ip = 52; continue _fun0017 }
-case 53:
-            var1 = var2;
-case 52:
-            if(!var1) { _fun0017_ip = 29; continue _fun0017 }
+            if(!var1) { _fun0018_ip = 53; continue _fun0018 }
 case 54:
-            var2 = _closure1_slot9;
+            var1 = var2;
+case 53:
+            if(!var1) { _fun0018_ip = 35; continue _fun0018 }
+case 55:
+            var4 = _closure1_slot10;
+            var2 = var4.delete;
+            var2 = var2.bind(var4)(var3);
+            var2 = _closure1_slot11;
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
-case 29:
+case 35:
             var1 = undefined;
             return var1;
         }
     };
     var4['GUILD_SETTINGS_SET_WIDGET'] = var12;
     var12 = function handleGuildUpdate(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.guild;
-            var5 = _closure1_slot9;
+            var5 = _closure1_slot10;
             var4 = var5.get;
             var3 = var1.id;
             var5 = var4.bind(var5)(var3);
             var4 = null;
-            if(!(var4 != var5)) { _fun0018_ip = 55; continue _fun0018 }
-case 56:
-            var3 = var5.profile;
-            if(!(var4 != var3)) { _fun0018_ip = 55; continue _fun0018 }
+            if(!(var4 != var5)) { _fun0019_ip = 56; continue _fun0019 }
 case 57:
+            var3 = var5.profile;
+            if(!(var4 != var3)) { _fun0019_ip = 56; continue _fun0019 }
+case 58:
             var6 = {};
             var9 = var5.profile;
             var10 = var6;
@@ -807,17 +905,17 @@ case 57:
             var3 = var1.icon;
             var8 = var4 != var3;
             var7 = null;
-            if(!var8) { _fun0018_ip = 58; continue _fun0018 }
-case 59:
+            if(!var8) { _fun0019_ip = 59; continue _fun0019 }
+case 60:
             var7 = var3;
-case 58:
+case 59:
             var3 = 'icon';
             var6[2] = var7;
             var3 = var1.description;
             var8 = var4 != var3;
             var7 = '';
-            if(!var8) { _fun0018_ip = 38; continue _fun0018 }
-case 45:
+            if(!var8) { _fun0019_ip = 38; continue _fun0019 }
+case 48:
             var7 = var3;
 case 38:
             var3 = 'description';
@@ -825,13 +923,13 @@ case 38:
             var3 = var1.discovery_splash;
             var7 = var4 != var3;
             var4 = null;
-            if(!var7) { _fun0018_ip = 60; continue _fun0018 }
-case 61:
+            if(!var7) { _fun0019_ip = 61; continue _fun0019 }
+case 62:
             var4 = var3;
-case 60:
+case 61:
             var3 = 'customBanner';
             var6[2] = var4;
-            var4 = _closure1_slot9;
+            var4 = _closure1_slot10;
             var3 = var4.set;
             var2 = var1.id;
             var1 = {};
@@ -843,7 +941,7 @@ case 60:
             var1 = var3.bind(var4)(var2, var1);
             var1 = undefined;
             return var1;
-case 55:
+case 56:
             var1 = false;
             return var1;
         }
@@ -851,30 +949,30 @@ case 55:
     var4['GUILD_UPDATE'] = var12;
     var4['GUILD_PROFILE_UPDATE_VISIBILITY'] = var11;
     var10 = function handleUpdateVisibilitySuccess(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.guildId;
             var8 = var1.visibility;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var1 = var3.get;
             var7 = var1.bind(var3)(var5);
             var4 = null;
             var3 = var4 == var7;
             var1 = undefined;
             var6 = undefined;
-            if(var3) { _fun0019_ip = 62; continue _fun0019 }
+            if(var3) { _fun0020_ip = 63; continue _fun0020 }
 case 32:
             var6 = var7.profile;
-case 62:
+case 63:
             var3 = var4 != var7;
-            if(!var3) { _fun0019_ip = 19; continue _fun0019 }
+            if(!var3) { _fun0020_ip = 19; continue _fun0020 }
 case 25:
             var3 = var4 != var6;
 case 19:
-            if(!var3) { _fun0019_ip = 63; continue _fun0019 }
-case 64:
-            var4 = _closure1_slot9;
+            if(!var3) { _fun0020_ip = 64; continue _fun0020 }
+case 65:
+            var4 = _closure1_slot10;
             var3 = var4.set;
             var2 = {};
             var11 = var2;
@@ -892,7 +990,7 @@ case 64:
             var6 = 'profile';
             var2[5] = var7;
             var2 = var3.bind(var4)(var5, var2);
-case 63:
+case 64:
             return var1;
         }
     };
@@ -904,7 +1002,7 @@ case 63:
     var15 = var4;
     var4 = new var17[var9](var16, var15, var14);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 9;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
