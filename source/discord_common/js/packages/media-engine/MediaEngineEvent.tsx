@@ -46,6 +46,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ClipsBridgeIdleShutdown'] = var1;
     var1 = 'clips-recording-healthy';
     var2['ClipsRecordingHealthy'] = var1;
+    var1 = 'clips-recording-ready-changed';
+    var2['ClipsRecordingReadyChanged'] = var1;
     var1 = 'clips-ml-detection';
     var2['ClipsMlDetection'] = var1;
     var1 = 'native-screenshare-picker-updated';

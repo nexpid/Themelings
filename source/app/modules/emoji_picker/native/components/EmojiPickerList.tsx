@@ -758,12 +758,12 @@ case 62:
                     var6 = var5.title;
                     var2 = 'StickyHeader';
                     if(!(var2 === var3)) { _fun0004_ip = 75; continue _fun0004 }
-case 76:
+case 46:
                     var2 = _closure2_slot0;
                     var3 = var2.current;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0004_ip = 75; continue _fun0004 }
-case 77:
+case 76:
                     var2 = var3.onStickyHeaderRendered;
                     var2 = var2.bind(var3)(var7);
 case 75:
@@ -795,16 +795,16 @@ case 58:
             var12 = var8.shouldShowUpsell;
             var17 = var8.onShowNitroUpsell;
             var3 = var3.length;
-            if(!(var7 !== var3)) { _fun0001_ip = 78; continue _fun0001 }
-case 79:
+            if(!(var7 !== var3)) { _fun0001_ip = 77; continue _fun0001 }
+case 78:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            if(var2) { _fun0001_ip = 53; continue _fun0001 }
+            if(var2) { _fun0001_ip = 79; continue _fun0001 }
 case 80:
             var2 = 36;
             var2 = var8[var2];
             _fun0001_ip = 81; continue _fun0001;
-case 53:
+case 79:
             var7 = 35;
             var2 = var8[var7];
 case 81:
@@ -857,7 +857,7 @@ case 82:
             var2['children'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
-case 78:
+case 77:
             var3 = _closure1_slot13;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;

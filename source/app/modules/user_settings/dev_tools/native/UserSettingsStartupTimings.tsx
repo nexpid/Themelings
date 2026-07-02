@@ -729,8 +729,6 @@ case 17:
                 return var1;
             };
             var5['renderItem'] = var8;
-            var8 = 20;
-            var5['estimatedItemSize'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

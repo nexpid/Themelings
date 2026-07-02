@@ -23,7 +23,7 @@ case 3:
                     var6 = var9;
                     var7 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var5 = 4;
+                    var5 = 5;
                     var4 = var2[var5];
                     var2 = undefined;
                     var8 = var7.bind(var2)(var4);
@@ -36,7 +36,7 @@ case 3:
 case 4: // try_start_0
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 5;
+                    var4 = 6;
                     var4 = var8[var4];
                     var8 = var7.bind(var2)(var4);
                     var7 = var8.httpGetWithCountryCodeQuery;
@@ -109,7 +109,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot8 = var4;
+        _closure1_slot9 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -117,7 +117,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function _getGameAnnouncements() {
         var5 = undefined;
         var1 = undefined;
@@ -140,7 +140,7 @@ case 3:
                     var10 = undefined;
                     var8 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var5 = 4;
+                    var5 = 5;
                     var7 = var7[var5];
                     var12 = var8.bind(var2)(var7);
                     var8 = var12.dispatch;
@@ -168,7 +168,7 @@ case 17:
 case 16:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 6;
+                    var4 = 7;
                     var4 = var8[var4];
                     var4 = var7.bind(var2)(var4);
                     var8 = var4.HTTP;
@@ -203,7 +203,7 @@ case 21:
                     var15 = var6;
                     var7['gameId'] = var15;
                     var16 = _closure1_slot0;
-                    var15 = 10;
+                    var15 = 11;
                     var15 = var17[var15];
                     var17 = var16.bind(var2)(var15);
                     var16 = var17.toAnnouncementMessages;
@@ -254,7 +254,7 @@ case 12:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot9 = var4;
+        _closure1_slot10 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -262,7 +262,7 @@ case 12:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -289,6 +289,11 @@ case 12:
     var4 = var6.bind(var1)(var4);
     var4 = var4.Endpoints;
     var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.SIMILAR_GAMES_BLOCKED_GAME_IDS;
+    var _closure1_slot7 = var4;
     var4 = function() {
         var4 = _closure1_slot3;
         var3 = undefined;
@@ -304,7 +309,7 @@ case 30:
                     var _closure4_slot0 = var8;
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 6;
+                    var2 = 7;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var6.bind(var3)(var2);
@@ -334,15 +339,25 @@ case 36:
 case 35:
                     var6 = var7.filter;
                     var5 = function(arg1) {
-                        var2 = _closure4_slot0;
-                        var1 = arg1;
-                        var1 = var1 !== var2;
-                        return var1;
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                            var4 = arg1;
+                            var1 = _closure4_slot0;
+                            var1 = var4 !== var1;
+                            if(!var1) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
+                            var3 = _closure1_slot7;
+                            var2 = var3.has;
+                            var2 = var2.bind(var3)(var4);
+                            var1 = !var2;
+case 37:
+                            return var1;
+                        }
                     };
                     var7 = var6.bind(var7)(var5);
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 4;
+                    var4 = 5;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.dispatch;
@@ -376,32 +391,32 @@ case 29:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var _closure1_slot7 = var4;
-    var4 = 7;
+    var _closure1_slot8 = var4;
+    var4 = 8;
     var4 = var7[var4];
     var8 = var6.bind(var1)(var4);
     var5 = var8.createFetchStore;
     var4 = {};
     var10 = function getQueryId(arg1, arg2) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg2;
             var1 = null;
-            if(!var2) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(!var2) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var3 = 'similar-games:';
             var2 = arg1;
             var1 = var4.bind(var3)(var2);
-case 37:
+case 39:
             return var1;
         }
     };
     var4['getQueryId'] = var10;
     var10 = function get(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = _closure1_slot5;
             var2 = var3.getSimilarGames;
@@ -409,16 +424,16 @@ case 0:
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var3 = var1 != var2;
-            if(!var3) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+            if(!var3) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
             var1 = var2;
-case 39:
+case 41:
             return var1;
         }
     };
     var4['get'] = var10;
     var10 = function load(arg1) {
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot8;
         var2 = undefined;
         var1 = arg1;
         var1 = var3.bind(var2)(var1);
@@ -429,11 +444,11 @@ case 39:
     var12 = function backoff() {
         var6 = _closure1_slot1;
         var7 = _closure1_slot2;
-        var1 = 8;
+        var1 = 9;
         var1 = var7[var1];
         var5 = undefined;
         var4 = var6.bind(var5)(var1);
-        var1 = 9;
+        var1 = 10;
         var2 = var7[var1];
         var2 = var6.bind(var5)(var2);
         var2 = var2.Millis;
@@ -455,14 +470,14 @@ case 39:
     };
     var10['backoff'] = var12;
     var4['retryConfig'] = var10;
-    var10 = 9;
+    var10 = 10;
     var10 = var7[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.Seconds;
     var10 = var10.MINUTE;
     var4['failureStaleAfter'] = var10;
     var4 = var5.bind(var8)(var9, var4);
-    var5 = 11;
+    var5 = 12;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -470,7 +485,7 @@ case 39:
     var5 = var6.bind(var7)(var5);
     var5 = function getShopCollection() {
         var1 = undefined;
-        var4 = _closure1_slot8;
+        var4 = _closure1_slot9;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -482,7 +497,7 @@ case 39:
     var3['useSimilarGameIds'] = var4;
     var2 = function getGameAnnouncements() {
         var1 = undefined;
-        var4 = _closure1_slot9;
+        var4 = _closure1_slot10;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

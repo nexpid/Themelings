@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.container;
         var1['style'] = var5;
         var8 = _closure1_slot5;
-        var11 = _closure1_slot12;
+        var11 = _closure1_slot13;
         var5 = {};
         var7 = 1;
         var5['index'] = var7;
@@ -109,25 +109,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function FamilyCenterLinkingBannerTeenContent() {
-        var4 = _closure1_slot5;
-        var3 = _closure1_slot3;
-        var2 = {};
+        var1 = _closure1_slot9;
+        var4 = undefined;
+        var6 = var1.bind(var4)();
+        var3 = _closure1_slot5;
+        var2 = _closure1_slot3;
+        var1 = {};
+        var6 = var6.container;
+        var1['style'] = var6;
+        var7 = _closure1_slot5;
         var6 = _closure1_slot0;
-        var5 = _closure1_slot2;
-        var1 = 12;
-        var5 = var5[var1];
-        var1 = undefined;
-        var5 = var6.bind(var1)(var5);
+        var8 = _closure1_slot2;
+        var5 = 12;
+        var5 = var8[var5];
+        var5 = var6.bind(var4)(var5);
         var6 = var5.FamilyCenterTeenQRCodeButton;
         var5 = {};
-        var5 = var4.bind(var1)(var6, var5);
-        var2['children'] = var5;
-        var1 = var4.bind(var1)(var3, var2);
+        var5 = var7.bind(var4)(var6, var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function FamilyCenterLinkingInstructionsRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -136,7 +141,7 @@ case 0:
             var13 = var1.description;
             var16 = var1.index;
             var15 = var1.isLast;
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var4 = undefined;
             var11 = var1.bind(var4)();
             var3 = _closure1_slot6;
@@ -205,7 +210,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -299,6 +304,20 @@ case 2:
     var7['container'] = var12;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot8 = var7;
+    var7 = var6[var4];
+    var9 = var5.bind(var1)(var7);
+    var8 = var9.createStyles;
+    var7 = {};
+    var12 = {};
+    var12['width'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_16;
+    var12['paddingHorizontal'] = var13;
+    var7['container'] = var12;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot9 = var7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -324,7 +343,7 @@ case 2:
     var9 = {'marginLeft': 12, 'flex': 1};
     var4['rowContent'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -443,10 +462,10 @@ case 0:
             var8 = _closure1_slot5;
             if(var7) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var7 = _closure1_slot11;
+            var7 = _closure1_slot12;
             _fun0002_ip = 6; continue _fun0002;
 case 4:
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot11;
 case 6:
             var6 = {};
             var6 = var8.bind(var4)(var7, var6);

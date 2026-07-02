@@ -260,8 +260,6 @@ case 10:
                 return var1;
             };
             var6['keyExtractor'] = var14;
-            var14 = 64;
-            var6['estimatedItemSize'] = var14;
             var14 = false;
             var6['showsVerticalScrollIndicator'] = var14;
             var14 = 'no-hide-descendants';

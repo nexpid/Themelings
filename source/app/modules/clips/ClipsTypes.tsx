@@ -44,6 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['BUFFER_WARMING_UP'] = var1;
     var1 = 'bridge_shutdown';
     var7['BRIDGE_SHUTDOWN'] = var1;
+    var1 = 'recording_not_ready';
+    var7['RECORDING_NOT_READY'] = var1;
     var6 = {};
     var1 = 'anger';
     var6['ANGER'] = var1;

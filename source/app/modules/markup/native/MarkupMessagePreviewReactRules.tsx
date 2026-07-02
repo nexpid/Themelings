@@ -911,10 +911,10 @@ case 26:
             var6 = var7[var6];
             var7 = var4 != var6;
             var4 = 0;
-            if(!var7) { _fun0009_ip = 14; continue _fun0009 }
-case 28:
+            if(!var7) { _fun0009_ip = 28; continue _fun0009 }
+case 29:
             var4 = var6;
-case 14:
+case 28:
             var4 = var4 * var5;
             var1['customEmojiSize'] = var4;
             var1 = var2.bind(var3)(var1);

@@ -335,7 +335,7 @@ case 15:
             var5['componentId'] = var15;
             var11 = var13.bind(var4)(var12, var5);
 case 14:
-            var5 = new Array(6);
+            var5 = new Array(7);
             var5[0] = var11;
             var13 = _closure1_slot18;
             var12 = _closure1_slot0;
@@ -376,7 +376,7 @@ case 16:
             var11 = var6[var10];
             var12 = var7.bind(var4)(var11);
             var11 = {};
-            var21 = var9.memberPricing;
+            var21 = var9.xboxGamePass;
             var22 = var11;
             var14 = copyDataProperties(var22, var21);
             var11 = var13.bind(var4)(var12, var11);
@@ -385,11 +385,20 @@ case 16:
             var11 = var6[var10];
             var12 = var7.bind(var4)(var11);
             var11 = {};
-            var21 = var9.earlyAccess;
+            var21 = var9.memberPricing;
             var22 = var11;
             var14 = copyDataProperties(var22, var21);
             var11 = var13.bind(var4)(var12, var11);
             var5[4] = var11;
+            var13 = _closure1_slot18;
+            var11 = var6[var10];
+            var12 = var7.bind(var4)(var11);
+            var11 = {};
+            var21 = var9.earlyAccess;
+            var22 = var11;
+            var14 = copyDataProperties(var22, var21);
+            var11 = var13.bind(var4)(var12, var11);
+            var5[5] = var11;
             var8 = _closure1_slot18;
             var6 = var6[var10];
             var7 = var7.bind(var4)(var6);
@@ -398,7 +407,7 @@ case 16:
             var22 = var6;
             var9 = copyDataProperties(var22, var21);
             var6 = var8.bind(var4)(var7, var6);
-            var5[5] = var6;
+            var5[6] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

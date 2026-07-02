@@ -13,18 +13,18 @@ case 0:
             var2 = arg1;
             var7 = var2.user;
             var _closure2_slot0 = var7;
-            var13 = var2.selectedProfileEffect;
-            var8 = var2.setSelectedProfileEffect;
-            var _closure2_slot1 = var8;
+            var12 = var2.selectedProfileEffect;
+            var10 = var2.setSelectedProfileEffect;
+            var _closure2_slot1 = var10;
             var16 = var2.guildId;
             var _closure2_slot2 = var16;
-            var6 = var2.isTryItOut;
+            var8 = var2.isTryItOut;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var8 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = false;
+            var8 = false;
 case 2:
-            var _closure2_slot3 = var6;
+            var _closure2_slot3 = var8;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 20;
@@ -34,8 +34,8 @@ case 2:
             var2 = var2.bind(var9)();
             var2 = 21;
             var2 = var5[var2];
-            var12 = var3.bind(var4)(var2);
-            var11 = var12.useStateFromStores;
+            var13 = var3.bind(var4)(var2);
+            var11 = var13.useStateFromStores;
             var2 = _closure1_slot6;
             var9 = new Array(1);
             var9[0] = var2;
@@ -44,12 +44,12 @@ case 2:
                 var1 = var1.isFetching;
                 return var1;
             };
-            var9 = var11.bind(var12)(var9, var2);
+            var9 = var11.bind(var13)(var9, var2);
             var11 = _closure1_slot1;
             var2 = 22;
             var2 = var5[var2];
             var2 = var11.bind(var4)(var2);
-            var14 = var2.bind(var4)();
+            var13 = var2.bind(var4)();
             var2 = 9;
             var2 = var5[var2];
             var11 = var11.bind(var4)(var2);
@@ -60,36 +60,36 @@ case 2:
             var5 = var3.bind(var4)(var2);
             var3 = var5.getProfilePreviewValue;
             var2 = {};
-            var2['pendingValue'] = var13;
-            var12 = null;
-            var17 = var12 == var15;
-            var11 = undefined;
+            var2['pendingValue'] = var12;
+            var11 = null;
+            var17 = var11 == var15;
+            var14 = undefined;
             if(var17) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var17 = var15._userProfile;
-            var18 = var12 == var17;
-            var11 = undefined;
+            var18 = var11 == var17;
+            var14 = undefined;
             if(var18) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
-            var11 = var17.profileEffect;
+            var14 = var17.profileEffect;
 case 4:
-            var2['userValue'] = var11;
-            var17 = var12 == var15;
-            var11 = undefined;
+            var2['userValue'] = var14;
+            var17 = var11 == var15;
+            var14 = undefined;
             if(var17) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
             var15 = var15._guildMemberProfile;
-            var17 = var12 == var15;
-            var11 = undefined;
+            var17 = var11 == var15;
+            var14 = undefined;
             if(var17) { _fun0001_ip = 7; continue _fun0001 }
 case 9:
-            var11 = var15.profileEffect;
+            var14 = var15.profileEffect;
 case 7:
-            var2['guildValue'] = var11;
+            var2['guildValue'] = var14;
             var2['guildId'] = var16;
-            var15 = var3.bind(var5)(var2);
-            var11 = _closure1_slot4;
-            var5 = var11.useEffect;
+            var14 = var3.bind(var5)(var2);
+            var15 = _closure1_slot4;
+            var5 = var15.useEffect;
             var3 = new Array(1);
             var3[0] = var7;
             var2 = function() {
@@ -124,13 +124,13 @@ case 12:
                     return var1;
                 }
             };
-            var2 = var5.bind(var11)(var2, var3);
+            var2 = var5.bind(var15)(var2, var3);
             var5 = _closure1_slot4;
             var3 = var5.useCallback;
             var2 = new Array(3);
-            var2[0] = var8;
+            var2[0] = var10;
             var2[1] = var16;
-            var2[2] = var6;
+            var2[2] = var8;
             var1 = function(arg1) {
                 var1 = arg1;
                 var7 = var1.items;
@@ -157,87 +157,80 @@ case 12:
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var11 = var3.bind(var5)(var1, var2);
+            var10 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot10;
             var2 = _closure1_slot11;
             var1 = {};
-            var8 = _closure1_slot9;
-            var6 = _closure1_slot14;
+            var15 = _closure1_slot9;
+            var8 = _closure1_slot14;
             var5 = {};
-            var18 = var12 == var15;
+            var18 = var11 == var14;
             var17 = undefined;
             if(var18) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var17 = var15.skuId;
+            var17 = var14.skuId;
 case 14:
             var5['previewSkuId'] = var17;
             var5['user'] = var7;
             var5['guildId'] = var16;
-            var6 = var8.bind(var4)(var6, var5);
+            var8 = var15.bind(var4)(var8, var5);
             var5 = new Array(3);
-            var5[0] = var6;
+            var5[0] = var8;
             var16 = _closure1_slot9;
-            var8 = _closure1_slot1;
+            var15 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var6 = 26;
-            var6 = var17[var6];
-            var8 = var8.bind(var4)(var6);
-            var6 = {};
-            var6['user'] = var7;
-            var17 = var12 == var15;
+            var8 = 26;
+            var8 = var17[var8];
+            var15 = var15.bind(var4)(var8);
+            var8 = {};
+            var8['user'] = var7;
+            var17 = var11 == var14;
             var7 = undefined;
             if(var17) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var7 = var15.skuId;
+            var7 = var14.skuId;
 case 16:
-            var6['previewSkuId'] = var7;
+            var8['previewSkuId'] = var7;
             var7 = _closure1_slot0;
-            var15 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var17 = 18;
-            var18 = var15[var17];
+            var18 = var14[var17];
             var18 = var7.bind(var4)(var18);
             var20 = var18.intl;
             var19 = var20.string;
-            var18 = var15[var17];
+            var18 = var14[var17];
             var18 = var7.bind(var4)(var18);
             var18 = var18.t;
             var18 = var18.pertpd;
             var18 = var19.bind(var20)(var18);
-            var6['nitroJoinCTA'] = var18;
-            var18 = var15[var17];
+            var8['nitroJoinCTA'] = var18;
+            var18 = var14[var17];
             var18 = var7.bind(var4)(var18);
             var19 = var18.intl;
             var18 = var19.string;
-            var17 = var15[var17];
+            var17 = var14[var17];
             var17 = var7.bind(var4)(var17);
             var17 = var17.t;
             var17 = var17["5eotIZ"];
             var17 = var18.bind(var19)(var17);
-            var6['nitroUpgradeCTA'] = var17;
-            var6 = var16.bind(var4)(var8, var6);
-            var5[1] = var6;
+            var8['nitroUpgradeCTA'] = var17;
+            var8 = var16.bind(var4)(var15, var8);
+            var5[1] = var8;
             var8 = _closure1_slot9;
             var6 = 27;
-            var6 = var15[var6];
+            var6 = var14[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.EditCollectiblesPickerList;
             var6 = {};
-            var6['sections'] = var14;
-            var14 = var12 == var13;
-            var12 = undefined;
-            if(var14) { _fun0001_ip = 18; continue _fun0001 }
+            var6['sections'] = var13;
+            var13 = var11 == var12;
+            var11 = undefined;
+            if(var13) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var12 = var13.skuId;
+            var11 = var12.skuId;
 case 18:
-            var6['selectedSkuId'] = var12;
-            var6['renderRow'] = var11;
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var10 = 28;
-            var10 = var12[var10];
-            var10 = var11.bind(var4)(var10);
-            var10 = var10.COLLECTIBLE_ROW_HEIGHT;
-            var6['estimatedItemSize'] = var10;
+            var6['selectedSkuId'] = var11;
+            var6['renderRow'] = var10;
             var6['isFetching'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[2] = var6;
@@ -257,7 +250,7 @@ case 18:
         var10 = var2.bind(var4)();
         var7 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var2 = 29;
+        var2 = 28;
         var2 = var9[var2];
         var2 = var7.bind(var4)(var2);
         var2 = var2.bind(var4)(var3);
@@ -316,7 +309,7 @@ case 25:
         var5 = var10.previewContainer;
         var1['style'] = var5;
         var11 = _closure1_slot9;
-        var5 = 30;
+        var5 = 29;
         var5 = var9[var5];
         var8 = var7.bind(var4)(var5);
         var5 = {};
@@ -329,7 +322,7 @@ case 25:
         var5 = new Array(2);
         var5[0] = var8;
         var8 = _closure1_slot9;
-        var6 = 31;
+        var6 = 30;
         var6 = var9[var6];
         var7 = var7.bind(var4)(var6);
         var6 = {};
@@ -448,7 +441,7 @@ case 25:
     var4['previewGradient'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 32;
+    var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

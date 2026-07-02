@@ -638,9 +638,11 @@ case 10:
         }
     };
     var3['getPollExpiryLabel'] = var4;
-    var2 = function getPosterUrl(arg1) {
+    var2 = function getPosterUrl(arg1, arg2, arg3) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
+            var6 = arg2;
+            var4 = arg3;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 8;
@@ -650,18 +652,37 @@ case 0:
             var2 = var3.toURLSafe;
             var1 = arg1;
             var3 = var2.bind(var3)(var1);
+            var2 = null;
+            var5 = var2 == var3;
             var1 = null;
-            var2 = var1 == var3;
-            if(var2) { _fun0006_ip = 79; continue _fun0006 }
+            if(var5) { _fun0006_ip = 24; continue _fun0006 }
+case 79:
+            var9 = var3.searchParams;
+            var8 = var9.append;
+            var7 = 'format';
+            var5 = 'webp';
+            var5 = var8.bind(var9)(var7, var5);
+            if(!(var2 != var6)) { _fun0006_ip = 80; continue _fun0006 }
+case 21:
+            var8 = var3.searchParams;
+            var7 = var8.append;
+            var5 = var6.toString;
+            var6 = var5.bind(var6)();
+            var5 = 'width';
+            var5 = var7.bind(var8)(var5, var6);
 case 80:
+            if(!(var2 != var4)) { _fun0006_ip = 81; continue _fun0006 }
+case 82:
             var6 = var3.searchParams;
             var5 = var6.append;
-            var4 = 'format';
-            var2 = 'webp';
-            var2 = var5.bind(var6)(var4, var2);
+            var2 = var4.toString;
+            var4 = var2.bind(var4)();
+            var2 = 'height';
+            var2 = var5.bind(var6)(var2, var4);
+case 81:
             var2 = var3.toString;
             var1 = var2.bind(var3)();
-case 79:
+case 24:
             return var1;
         }
     };

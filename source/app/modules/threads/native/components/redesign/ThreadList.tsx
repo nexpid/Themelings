@@ -800,8 +800,6 @@ case 39:
                 var13 = var13.B2panI;
                 var13 = var14.bind(var15)(var13);
                 var9['accessibilityLabel'] = var13;
-                var13 = 64;
-                var9['estimatedItemSize'] = var13;
                 var14 = _closure2_slot9;
                 var13 = undefined;
                 if(!var14) { _fun0010_ip = 40; continue _fun0010 }

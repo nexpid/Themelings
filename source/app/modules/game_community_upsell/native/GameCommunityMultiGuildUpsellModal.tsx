@@ -309,8 +309,6 @@ case 21:
         var1['data'] = var7;
         var1['ListHeaderComponent'] = var6;
         var1['renderItem'] = var5;
-        var5 = 390;
-        var1['estimatedItemSize'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -574,8 +572,6 @@ case 44:
         var1['data'] = var7;
         var1['ListHeaderComponent'] = var6;
         var1['renderItem'] = var5;
-        var5 = 250;
-        var1['estimatedItemSize'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

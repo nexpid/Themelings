@@ -17,7 +17,7 @@ case 0:
             var _closure2_slot0 = var14;
             var8 = var2.guildId;
             var _closure2_slot1 = var8;
-            var3 = _closure1_slot20;
+            var3 = _closure1_slot19;
             var5 = undefined;
             var9 = var3.bind(var5)();
             var4 = _closure1_slot1;
@@ -119,7 +119,7 @@ case 6:
             var12 = var4.bind(var5)(var10);
             var11 = var12.useFullscreenPlaceholderCount;
             var10 = {};
-            var13 = _closure1_slot14;
+            var13 = _closure1_slot13;
             var10['placeholderHeight'] = var13;
             var13 = 1;
             var10['numColumns'] = var13;
@@ -231,7 +231,7 @@ case 0:
                     var2['userId'] = var10;
                     var10 = arg2;
                     var2['index'] = var10;
-                    var10 = _closure1_slot16;
+                    var10 = _closure1_slot15;
                     var10 = var10.USER;
                     var2['entityType'] = var10;
                     var2 = var8.bind(var9)(var2);
@@ -280,7 +280,7 @@ case 20:
                 var8 = var8.id;
                 var3['userId'] = var8;
                 var3['index'] = var7;
-                var7 = _closure1_slot16;
+                var7 = _closure1_slot15;
                 var7 = var7.USER;
                 var3['entityType'] = var7;
                 var3 = var5.bind(var6)(var3);
@@ -437,11 +437,11 @@ case 0:
                             var4 = _closure3_slot0;
                             var3 = var4.push;
                             var2 = {};
-                            var5 = _closure1_slot15;
+                            var5 = _closure1_slot14;
                             var5 = var5.GUILD_CHANNEL_MEMBER;
                             var2['type'] = var5;
                             var5 = {};
-                            var1 = _closure1_slot17;
+                            var1 = _closure1_slot16;
                             var1 = var1.NONE;
                             var5['type'] = var1;
                             var1 = var10.record;
@@ -544,7 +544,7 @@ case 35:
 case 17:
                     var8 = var1.push;
                     var2 = {};
-                    var9 = _closure1_slot15;
+                    var9 = _closure1_slot14;
                     var9 = var9.GUILD_CHANNEL_MEMBER_PLACEHOLDER;
                     var2['type'] = var9;
                     var9 = var4.HermesInternal;
@@ -579,7 +579,7 @@ case 40:
 case 42:
             if(!(var1 == var10)) { _fun0001_ip = 43; continue _fun0001 }
 case 41:
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot18;
             var3 = _closure1_slot1;
             var14 = _closure1_slot3;
             var1 = 28;
@@ -588,13 +588,11 @@ case 41:
             var1 = {};
             var13 = var13.membersContentContainer;
             var1['contentContainerStyle'] = var13;
-            var13 = _closure1_slot13;
-            var1['estimatedItemSize'] = var13;
             var1['data'] = var7;
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 44; continue _fun0001;
 case 43:
-            var7 = _closure1_slot19;
+            var7 = _closure1_slot18;
             var4 = _closure1_slot1;
             var13 = _closure1_slot3;
             var3 = 27;
@@ -615,7 +613,7 @@ case 43:
 case 44:
             _fun0001_ip = 45; continue _fun0001;
 case 39:
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot18;
             var3 = _closure1_slot1;
             var7 = _closure1_slot3;
             var2 = 26;
@@ -628,7 +626,7 @@ case 45:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot20 = var1;
     var1 = function ThreadMembersScreen(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -703,7 +701,7 @@ case 49:
 case 52:
             if(!var1) { _fun0009_ip = 51; continue _fun0009 }
 case 53:
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot18;
             var3 = _closure1_slot1;
             var10 = _closure1_slot3;
             var1 = 29;
@@ -723,8 +721,8 @@ case 53:
             var1 = var4.bind(var5)(var3, var1);
             _fun0009_ip = 54; continue _fun0009;
 case 51:
-            var4 = _closure1_slot19;
-            var3 = _closure1_slot21;
+            var4 = _closure1_slot18;
+            var3 = _closure1_slot20;
             var2 = {};
             var2['searchContext'] = var7;
             var2['guildId'] = var6;
@@ -733,7 +731,7 @@ case 54:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot21 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -784,29 +782,27 @@ case 54:
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.CHANNELS_ESTIMATED_ITEM_SIZE;
-    var _closure1_slot13 = var8;
     var8 = var4.MESSAGE_PLACEHOLDER_ITEM_SIZE;
-    var _closure1_slot14 = var8;
+    var _closure1_slot13 = var8;
     var4 = var4.SearchListItemTypes;
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.SearchResultContentEntityTypes;
-    var _closure1_slot16 = var4;
+    var _closure1_slot15 = var4;
     var4 = 11;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.RelationshipTypes;
-    var _closure1_slot17 = var8;
+    var _closure1_slot16 = var8;
     var4 = var4.SearchTypes;
-    var _closure1_slot18 = var4;
+    var _closure1_slot17 = var4;
     var4 = 12;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot19 = var4;
+    var _closure1_slot18 = var4;
     var4 = 13;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -819,14 +815,14 @@ case 54:
     var10['backgroundColor'] = var11;
     var4['userList'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot20 = var4;
+    var _closure1_slot19 = var4;
     var4 = var7.memo;
     var2 = function MembersScreen(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var14 = var1.searchContext;
-            var1 = _closure1_slot20;
+            var1 = _closure1_slot19;
             var4 = undefined;
             var11 = var1.bind(var4)();
             var5 = _closure1_slot1;
@@ -841,19 +837,19 @@ case 0:
             var2 = var3.bind(var4)(var2);
             var5 = var2.analyticsLocations;
             var3 = var14.type;
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot17;
             var2 = var2.CHANNEL;
             if(!(var2 !== var3)) { _fun0012_ip = 55; continue _fun0012 }
 case 56:
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot17;
             var2 = var2.THREAD;
             if(!(var2 !== var3)) { _fun0012_ip = 57; continue _fun0012 }
 case 58:
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot17;
             var2 = var2.GUILD_CHANNEL;
             if(!(var2 !== var3)) { _fun0012_ip = 59; continue _fun0012 }
 case 60:
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot17;
             var2 = var2.GUILD;
             if(!(var2 !== var3)) { _fun0012_ip = 59; continue _fun0012 }
 case 53:
@@ -871,7 +867,7 @@ case 53:
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
 case 59:
-            var6 = _closure1_slot19;
+            var6 = _closure1_slot18;
             var3 = _closure1_slot0;
             var2 = _closure1_slot3;
             var2 = var2[var1];
@@ -879,8 +875,8 @@ case 59:
             var3 = var2.AnalyticsLocationProvider;
             var2 = {};
             var2['value'] = var5;
-            var10 = _closure1_slot19;
-            var9 = _closure1_slot21;
+            var10 = _closure1_slot18;
+            var9 = _closure1_slot20;
             var7 = {};
             var7['searchContext'] = var14;
             var12 = var14.guildId;
@@ -890,8 +886,8 @@ case 59:
             var2 = var6.bind(var4)(var3, var2);
             return var2;
 case 57:
-            var6 = _closure1_slot19;
-            var3 = _closure1_slot22;
+            var6 = _closure1_slot18;
+            var3 = _closure1_slot21;
             var2 = {};
             var2['searchContext'] = var14;
             var7 = var14.channelId;
@@ -901,7 +897,7 @@ case 57:
             var2 = var6.bind(var4)(var3, var2);
             return var2;
 case 55:
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot18;
             var12 = _closure1_slot0;
             var13 = _closure1_slot3;
             var1 = var13[var1];
@@ -909,12 +905,12 @@ case 55:
             var2 = var1.AnalyticsLocationProvider;
             var1 = {};
             var1['value'] = var5;
-            var7 = _closure1_slot19;
+            var7 = _closure1_slot18;
             var6 = _closure1_slot5;
             var5 = {};
             var9 = var11.container;
             var5['style'] = var9;
-            var10 = _closure1_slot19;
+            var10 = _closure1_slot18;
             var9 = _closure1_slot1;
             var8 = 31;
             var8 = var13[var8];

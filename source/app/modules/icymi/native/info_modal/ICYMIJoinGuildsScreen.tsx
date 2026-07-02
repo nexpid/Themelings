@@ -1484,8 +1484,6 @@ case 22:
             var16['showsHorizontalScrollIndicator'] = var21;
             var16['showsVerticalScrollIndicator'] = var21;
             var16['renderItem'] = var20;
-            var20 = 229;
-            var16['estimatedItemSize'] = var20;
             var16 = var19.bind(var4)(var17, var16);
             var8['children'] = var16;
             var8 = var14.bind(var4)(var9, var8);

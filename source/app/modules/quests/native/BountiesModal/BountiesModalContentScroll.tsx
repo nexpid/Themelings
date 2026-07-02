@@ -2034,7 +2034,6 @@ case 57:
             var23['ListFooterComponent'] = var32;
             var23['snapToOffsets'] = var31;
             var23['snapToEnd'] = var30;
-            var23['estimatedItemSize'] = var29;
             var31 = 0.85;
             var23['decelerationRate'] = var31;
             var23['showsVerticalScrollIndicator'] = var30;

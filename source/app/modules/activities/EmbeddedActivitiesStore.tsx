@@ -1435,7 +1435,7 @@ case 136:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(30);
+        var1 = new Array(32);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -1635,10 +1635,66 @@ case 134:
         var5['value'] = var7;
         var1[7] = var5;
         var5 = {};
+        var7 = 'getEmbeddedActivitiesForGuildIncludingHidden';
+        var5['key'] = var7;
+        var7 = function getEmbeddedActivitiesForGuildIncludingHidden(arg1) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+case 0:
+                var4 = _closure1_slot22;
+                var3 = var4.get;
+                var1 = arg1;
+                var6 = var3.bind(var4)(var1);
+                var3 = null;
+                var4 = var3 == var6;
+                var1 = undefined;
+                if(var4) { _fun0020_ip = 2; continue _fun0020 }
+case 141:
+                var5 = var6.getItems;
+                var4 = 'all';
+                var1 = var5.bind(var6)(var4);
+case 2:
+                if(!(var3 == var1)) { _fun0020_ip = 142; continue _fun0020 }
+case 143:
+                var1 = _closure1_slot18;
+case 142:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[8] = var5;
+        var5 = {};
+        var7 = 'getEmbeddedActivitiesForChannelIncludingHidden';
+        var5['key'] = var7;
+        var7 = function getEmbeddedActivitiesForChannelIncludingHidden(arg1) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+case 0:
+                var4 = _closure1_slot23;
+                var3 = var4.get;
+                var1 = arg1;
+                var6 = var3.bind(var4)(var1);
+                var3 = null;
+                var4 = var3 == var6;
+                var1 = undefined;
+                if(var4) { _fun0021_ip = 2; continue _fun0021 }
+case 141:
+                var5 = var6.getItems;
+                var4 = 'all';
+                var1 = var5.bind(var6)(var4);
+case 2:
+                if(!(var3 == var1)) { _fun0021_ip = 142; continue _fun0021 }
+case 143:
+                var1 = _closure1_slot18;
+case 142:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[9] = var5;
+        var5 = {};
         var7 = 'getEmbeddedActivitiesForLocationIncludingHidden';
         var5['key'] = var7;
         var7 = function getEmbeddedActivitiesForLocationIncludingHidden(arg1) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var4 = _closure1_slot24;
                 var3 = var4.get;
@@ -1648,13 +1704,13 @@ case 0:
                 var3 = null;
                 var4 = var3 == var6;
                 var1 = undefined;
-                if(var4) { _fun0020_ip = 131; continue _fun0020 }
+                if(var4) { _fun0022_ip = 131; continue _fun0022 }
 case 144:
                 var5 = var6.getItems;
                 var4 = 'all';
                 var1 = var5.bind(var6)(var4);
 case 131:
-                if(!(var3 == var1)) { _fun0020_ip = 134; continue _fun0020 }
+                if(!(var3 == var1)) { _fun0022_ip = 134; continue _fun0022 }
 case 4:
                 var1 = _closure1_slot18;
 case 134:
@@ -1662,7 +1718,7 @@ case 134:
             }
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getEmbeddedActivitiesByChannel';
         var5['key'] = var7;
@@ -1678,7 +1734,7 @@ case 134:
             var4 = _closure1_slot23;
             var3 = var4.forEach;
             var2 = function(arg1, arg2) {
-                _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+                _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                     var3 = arg1;
                     var2 = var3.getItems;
@@ -1686,7 +1742,7 @@ case 0:
                     var4 = var2.bind(var3)(var1);
                     var2 = var4.length;
                     var1 = 0;
-                    if(!(var2 > var1)) { _fun0021_ip = 143; continue _fun0021 }
+                    if(!(var2 > var1)) { _fun0023_ip = 143; continue _fun0023 }
 case 145:
                     var3 = _closure3_slot0;
                     var2 = var3.set;
@@ -1701,12 +1757,12 @@ case 143:
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getEmbeddedActivityDurationMs';
         var5['key'] = var7;
         var7 = function getEmbeddedActivityDurationMs(arg1, arg2) {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                 var3 = _closure1_slot33;
                 var2 = var3.get;
@@ -1718,7 +1774,7 @@ case 0:
                 var3 = var2.bind(var3)(var1);
                 var1 = null;
                 var2 = var1 == var3;
-                if(var2) { _fun0022_ip = 133; continue _fun0022 }
+                if(var2) { _fun0024_ip = 133; continue _fun0024 }
 case 146:
                 var2 = global;
                 var4 = var2.Date;
@@ -1730,7 +1786,7 @@ case 133:
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'isLaunchingActivity';
         var5['key'] = var7;
@@ -1742,12 +1798,12 @@ case 133:
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'getShelfActivities';
         var5['key'] = var7;
         var7 = function getShelfActivities(arg1) {
-            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                 var4 = _closure1_slot43;
                 var3 = undefined;
@@ -1757,7 +1813,7 @@ case 0:
                 var1 = var3.get;
                 var1 = var1.bind(var3)(var4);
                 var3 = null;
-                if(!(var3 == var1)) { _fun0023_ip = 147; continue _fun0023 }
+                if(!(var3 == var1)) { _fun0025_ip = 147; continue _fun0025 }
 case 148:
                 var1 = _closure1_slot19;
 case 147:
@@ -1765,7 +1821,7 @@ case 147:
             }
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'getShelfFetchStatus';
         var5['key'] = var7;
@@ -1780,12 +1836,12 @@ case 147:
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'shouldFetchShelf';
         var5['key'] = var7;
         var7 = function shouldFetchShelf(arg1) {
-            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
                 var3 = _closure1_slot43;
                 var5 = undefined;
@@ -1795,7 +1851,7 @@ case 0:
                 var1 = var2.get;
                 var3 = var1.bind(var2)(var3);
                 var1 = null;
-                if(!(var1 == var3)) { _fun0024_ip = 5; continue _fun0024 }
+                if(!(var1 == var3)) { _fun0026_ip = 5; continue _fun0026 }
 case 148:
                 var2 = {};
                 var4 = false;
@@ -1808,13 +1864,13 @@ case 5:
                 var4 = var2.bind(var4)();
                 var2 = var1 == var3;
                 var5 = undefined;
-                if(var2) { _fun0024_ip = 149; continue _fun0024 }
+                if(var2) { _fun0026_ip = 149; continue _fun0026 }
 case 150:
                 var5 = var3.lastFetchTimestampMs;
 case 149:
                 var6 = var1 != var5;
                 var2 = 0;
-                if(!var6) { _fun0024_ip = 151; continue _fun0024 }
+                if(!var6) { _fun0026_ip = 151; continue _fun0026 }
 case 152:
                 var2 = var5;
 case 151:
@@ -1822,12 +1878,12 @@ case 151:
                 var2 = 21600000;
                 var2 = var4 > var2;
                 var1 = var1 != var3;
-                if(!var1) { _fun0024_ip = 153; continue _fun0024 }
+                if(!var1) { _fun0026_ip = 153; continue _fun0026 }
 case 154:
                 var1 = var3.isFetching;
 case 153:
                 var1 = !var1;
-                if(!var1) { _fun0024_ip = 96; continue _fun0024 }
+                if(!var1) { _fun0026_ip = 96; continue _fun0026 }
 case 155:
                 var1 = var2;
 case 96:
@@ -1835,7 +1891,7 @@ case 96:
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getOrientationLockStateForApp';
         var5['key'] = var7;
@@ -1847,12 +1903,12 @@ case 96:
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'getPipOrientationLockStateForApp';
         var5['key'] = var7;
         var7 = function getPipOrientationLockStateForApp(arg1) {
-            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
                 var4 = arg1;
                 var3 = this;
@@ -1860,7 +1916,7 @@ case 0:
                 var1 = var2.get;
                 var1 = var1.bind(var2)(var4);
                 var2 = null;
-                if(!(var2 == var1)) { _fun0025_ip = 121; continue _fun0025 }
+                if(!(var2 == var1)) { _fun0027_ip = 121; continue _fun0027 }
 case 145:
                 var2 = var3.getOrientationLockStateForApp;
                 var1 = var2.bind(var3)(var4);
@@ -1869,12 +1925,12 @@ case 121:
             }
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'getGridOrientationLockStateForApp';
         var5['key'] = var7;
         var7 = function getGridOrientationLockStateForApp(arg1) {
-            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
                 var4 = arg1;
                 var3 = this;
@@ -1882,13 +1938,13 @@ case 0:
                 var1 = var2.get;
                 var1 = var1.bind(var2)(var4);
                 var2 = null;
-                if(!(var2 == var1)) { _fun0026_ip = 156; continue _fun0026 }
+                if(!(var2 == var1)) { _fun0028_ip = 156; continue _fun0028 }
 case 145:
                 var6 = _closure1_slot30;
                 var5 = var6.get;
                 var1 = var5.bind(var6)(var4);
 case 156:
-                if(!(var2 == var1)) { _fun0026_ip = 157; continue _fun0026 }
+                if(!(var2 == var1)) { _fun0028_ip = 157; continue _fun0028 }
 case 158:
                 var2 = var3.getOrientationLockStateForApp;
                 var1 = var2.bind(var3)(var4);
@@ -1897,7 +1953,7 @@ case 157:
             }
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'getLayoutModeForApp';
         var5['key'] = var7;
@@ -1909,16 +1965,16 @@ case 157:
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'getConnectedActivityChannelId';
         var5['key'] = var7;
         var7 = function getConnectedActivityChannelId() {
-            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
                 var3 = _closure1_slot34;
                 var2 = null;
-                if(!(var2 == var3)) { _fun0027_ip = 159; continue _fun0027 }
+                if(!(var2 == var3)) { _fun0029_ip = 159; continue _fun0029 }
 case 160:
                 var2 = undefined;
                 return var2;
@@ -1936,7 +1992,7 @@ case 159:
             }
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'getConnectedActivityLocation';
         var5['key'] = var7;
@@ -1945,7 +2001,7 @@ case 159:
             return var1;
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'getActivityPanelMode';
         var5['key'] = var7;
@@ -1954,7 +2010,7 @@ case 159:
             return var1;
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'getFocusedLayout';
         var5['key'] = var7;
@@ -1963,12 +2019,12 @@ case 159:
             return var1;
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'getCurrentEmbeddedActivity';
         var5['key'] = var7;
         var7 = function getCurrentEmbeddedActivity() {
-            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+            _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
                 var3 = this;
                 var1 = var3.getConnectedActivityLocation;
@@ -1978,7 +2034,7 @@ case 0:
                 var1 = null;
                 var3 = var1 != var2;
                 var1 = undefined;
-                if(!var3) { _fun0028_ip = 161; continue _fun0028 }
+                if(!var3) { _fun0030_ip = 161; continue _fun0030 }
 case 162:
                 var1 = var2;
 case 161:
@@ -1986,7 +2042,7 @@ case 161:
             }
         };
         var5['value'] = var7;
-        var1[23] = var5;
+        var1[25] = var5;
         var5 = {};
         var7 = 'isProxyTicketRefreshing';
         var5['key'] = var7;
@@ -1998,17 +2054,17 @@ case 161:
             return var1;
         };
         var5['value'] = var7;
-        var1[24] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'getEmbeddedActivityForUserId';
         var5['key'] = var7;
         var7 = function getEmbeddedActivityForUserId(arg1, arg2) {
-            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+            _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
                 var13 = arg1;
                 var12 = arg2;
                 var11 = undefined;
-                if(!(var11 === var12)) { _fun0029_ip = 32; continue _fun0029 }
+                if(!(var11 === var12)) { _fun0031_ip = 32; continue _fun0031 }
 case 163:
                 return var11;
 case 32:
@@ -2024,7 +2080,7 @@ case 32:
                 var4 = var1;
                 var3 = undefined;
                 var1 = undefined;
-                if(var2) { _fun0029_ip = 164; continue _fun0029 }
+                if(var2) { _fun0031_ip = 164; continue _fun0031 }
 case 165:
                 var14 = var4.value;
                 var2 = _closure1_slot3;
@@ -2037,35 +2093,35 @@ case 165:
                 var15 = var14.bind(var11)(var2);
                 var14 = var15.bind(var11)();
                 var2 = var14.done;
-                if(var2) { _fun0029_ip = 166; continue _fun0029 }
+                if(var2) { _fun0031_ip = 166; continue _fun0031 }
 case 167:
                 var16 = var14.value;
                 var2 = var16.applicationId;
-                if(!(var2 === var12)) { _fun0029_ip = 168; continue _fun0029 }
+                if(!(var2 === var12)) { _fun0031_ip = 168; continue _fun0031 }
 case 169:
                 var17 = var16.userIds;
                 var2 = var17.has;
                 var2 = var2.bind(var17)(var13);
                 var1 = var16;
-                if(var2) { _fun0029_ip = 164; continue _fun0029 }
+                if(var2) { _fun0031_ip = 164; continue _fun0031 }
 case 168:
                 var17 = var15.bind(var11)();
                 var2 = var17.done;
                 var14 = var17;
                 var3 = var16;
-                if(!var2) { _fun0029_ip = 167; continue _fun0029 }
+                if(!var2) { _fun0031_ip = 167; continue _fun0031 }
 case 166:
                 var14 = var9.bind(var11)();
                 var2 = var14.done;
                 var4 = var14;
                 var1 = undefined;
-                if(!var2) { _fun0029_ip = 165; continue _fun0029 }
+                if(!var2) { _fun0031_ip = 165; continue _fun0031 }
 case 164:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[25] = var5;
+        var1[27] = var5;
         var5 = {};
         var7 = 'hasActivityEverBeenLaunched';
         var5['key'] = var7;
@@ -2078,17 +2134,17 @@ case 164:
             return var1;
         };
         var5['value'] = var7;
-        var1[26] = var5;
+        var1[28] = var5;
         var5 = {};
         var7 = 'getLaunchState';
         var5['key'] = var7;
         var7 = function getLaunchState(arg1, arg2) {
-            _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+            _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
                 var6 = arg1;
                 var1 = arg2;
                 var5 = null;
-                if(!(var5 == var6)) { _fun0030_ip = 170; continue _fun0030 }
+                if(!(var5 == var6)) { _fun0032_ip = 170; continue _fun0032 }
 case 163:
                 var2 = undefined;
                 return var2;
@@ -2098,7 +2154,7 @@ case 170:
                 var4 = _closure1_slot42;
                 var7 = var5 != var1;
                 var5 = null;
-                if(!var7) { _fun0030_ip = 146; continue _fun0030 }
+                if(!var7) { _fun0032_ip = 146; continue _fun0032 }
 case 147:
                 var5 = var1;
 case 146:
@@ -2109,7 +2165,7 @@ case 146:
             }
         };
         var5['value'] = var7;
-        var1[27] = var5;
+        var1[29] = var5;
         var5 = {};
         var7 = 'getLaunchStates';
         var5['key'] = var7;
@@ -2118,7 +2174,7 @@ case 146:
             return var1;
         };
         var5['value'] = var7;
-        var1[28] = var5;
+        var1[30] = var5;
         var5 = {};
         var7 = 'getActivityPopoutWindowLayout';
         var5['key'] = var7;
@@ -2127,7 +2183,7 @@ case 146:
             return var1;
         };
         var5['value'] = var6;
-        var1[29] = var5;
+        var1[31] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -2199,14 +2255,14 @@ case 146:
     };
     var6[4] = var11;
     var11 = function(arg1) {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var2 = arg1;
             var1 = global;
             var4 = var1.Set;
             var1 = var2.everLaunchedActivities;
             var3 = null;
-            if(!(var3 == var1)) { _fun0031_ip = 171; continue _fun0031 }
+            if(!(var3 == var1)) { _fun0033_ip = 171; continue _fun0033 }
 case 31:
             var1 = new Array(0);
 case 171:
@@ -2237,7 +2293,7 @@ case 171:
     };
     var6[6] = var11;
     var11 = function(arg1) {
-        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var2 = arg1;
             var1 = global;
@@ -2249,7 +2305,7 @@ case 0:
             var1 = var1 instanceof Object ? var1 : var3;
             var2['surfacesToShowNewActivityIndicator'] = var1;
             var1 = var2.shouldShowNewActivityIndicator;
-            if(!var1) { _fun0032_ip = 172; continue _fun0032 }
+            if(!var1) { _fun0034_ip = 172; continue _fun0034 }
 case 2:
             var4 = var2.surfacesToShowNewActivityIndicator;
             var3 = var4.add;
@@ -2313,7 +2369,7 @@ case 172:
     };
     var6['ACTIVITY_LAYOUT_MODE_UPDATE'] = var10;
     var10 = function handleConnectionOpen(arg1) {
-        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.guilds;
@@ -2340,7 +2396,7 @@ case 0:
             var3 = var3.bind(var4)();
             var _closure2_slot0 = var3;
             var5 = function _loop(arg1) {
-                _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
+                _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
                     var3 = arg1;
                     var _closure3_slot0 = var3;
@@ -2350,21 +2406,21 @@ case 0:
                     var5 = var5.bind(var6)(var4);
                     var4 = var5.some;
                     var2 = function(arg1) {
-                        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
+                        _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
 case 0:
                             var2 = arg1;
                             var4 = var2.applicationId;
                             var1 = _closure3_slot0;
                             var1 = var1.applicationId;
                             var1 = var4 === var1;
-                            if(!var1) { _fun0035_ip = 158; continue _fun0035 }
+                            if(!var1) { _fun0037_ip = 158; continue _fun0037 }
 case 171:
                             var4 = var2.launchId;
                             var3 = _closure3_slot0;
                             var3 = var3.launchId;
                             var1 = var4 === var3;
 case 158:
-                            if(!var1) { _fun0035_ip = 135; continue _fun0035 }
+                            if(!var1) { _fun0037_ip = 135; continue _fun0037 }
 case 143:
                             var4 = var2.userIds;
                             var3 = var4.has;
@@ -2375,7 +2431,7 @@ case 135:
                         }
                     };
                     var2 = var4.bind(var5)(var2);
-                    if(var2) { _fun0034_ip = 165; continue _fun0034 }
+                    if(var2) { _fun0036_ip = 165; continue _fun0036 }
 case 173:
                     var2 = _closure1_slot48;
                     var1 = undefined;
@@ -2396,13 +2452,13 @@ case 165:
             var3 = 0;
             var2 = var3 < var1;
             var1 = undefined;
-            if(!var2) { _fun0033_ip = 97; continue _fun0033 }
+            if(!var2) { _fun0035_ip = 97; continue _fun0035 }
 case 174:
             var2 = var4[var3];
             var2 = var5.bind(var1)(var2);
             var3 = var3 + 1;
             var2 = var4.length;
-            if(var3 < var2) { _fun0033_ip = 174; continue _fun0033 }
+            if(var3 < var2) { _fun0035_ip = 174; continue _fun0035 }
 case 97:
             return var1;
         }
@@ -2418,7 +2474,7 @@ case 97:
     };
     var6['GUILD_CREATE'] = var10;
     var10 = function handleChannelDelete(arg1) {
-        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
+        _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.channel;
@@ -2431,13 +2487,13 @@ case 0:
             var7 = var3 == var9;
             var1 = undefined;
             var4 = undefined;
-            if(var7) { _fun0036_ip = 165; continue _fun0036 }
+            if(var7) { _fun0038_ip = 165; continue _fun0038 }
 case 5:
             var8 = var9.getItems;
             var7 = 'all';
             var4 = var8.bind(var9)(var7);
 case 165:
-            if(!(var3 == var4)) { _fun0036_ip = 38; continue _fun0036 }
+            if(!(var3 == var4)) { _fun0038_ip = 38; continue _fun0038 }
 case 175:
             var4 = _closure1_slot18;
 case 38:
@@ -2451,7 +2507,7 @@ case 38:
             var6 = _closure1_slot22;
             var5 = var6.get;
             var6 = var5.bind(var6)(var7);
-            if(!(var3 != var6)) { _fun0036_ip = 174; continue _fun0036 }
+            if(!(var3 != var6)) { _fun0038_ip = 174; continue _fun0038 }
 case 176:
             var5 = var6.removeWhere;
             var3 = function(arg1) {
@@ -2489,7 +2545,7 @@ case 174:
     };
     var6['CHANNEL_DELETE'] = var10;
     var10 = function handleEmbeddedActivityLaunchStart(arg1) {
-        _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
+        _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
 case 0:
             var1 = arg1;
             var11 = var1.applicationId;
@@ -2517,11 +2573,11 @@ case 0:
             var2 = var5.bind(var1)(var2);
             var2 = var2.CommandOrigin;
             var2 = var2.APP_DMS_ENTRY_POINT_COMMAND_BUTTON;
-            if(!(var4 !== var2)) { _fun0037_ip = 177; continue _fun0037 }
+            if(!(var4 !== var2)) { _fun0039_ip = 177; continue _fun0039 }
 case 178:
             var2 = _closure1_slot14;
             var2 = var2.RESIZABLE;
-            _fun0037_ip = 179; continue _fun0037;
+            _fun0039_ip = 179; continue _fun0039;
 case 177:
             var4 = _closure1_slot14;
             var2 = var4.NO_CHAT;
@@ -2532,7 +2588,7 @@ case 179:
     };
     var6['EMBEDDED_ACTIVITY_LAUNCH_START'] = var10;
     var10 = function handleEmbeddedActivityLaunchSetProxyTicket(arg1) {
-        _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
+        _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.applicationId;
@@ -2545,7 +2601,7 @@ case 0:
             var3 = var4.get;
             var6 = var3.bind(var4)(var5);
             var3 = null;
-            if(!(var3 != var6)) { _fun0038_ip = 152; continue _fun0038 }
+            if(!(var3 != var6)) { _fun0040_ip = 152; continue _fun0040 }
 case 142:
             var4 = _closure1_slot25;
             var3 = var4.set;
@@ -2562,7 +2618,7 @@ case 152:
     };
     var6['EMBEDDED_ACTIVITY_LAUNCH_SET_PROXY_TICKET'] = var10;
     var10 = function handleEmbeddedActivityUpdateConnectedProxyTicket(arg1) {
-        _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
+        _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.applicationId;
@@ -2571,7 +2627,7 @@ case 0:
             var2 = var3.get;
             var5 = var2.bind(var3)(var4);
             var2 = null;
-            if(!(var2 != var5)) { _fun0039_ip = 180; continue _fun0039 }
+            if(!(var2 != var5)) { _fun0041_ip = 180; continue _fun0041 }
 case 148:
             var3 = _closure1_slot21;
             var2 = var3.set;
@@ -2591,17 +2647,17 @@ case 180:
     };
     var6['EMBEDDED_ACTIVITY_UPDATE_CONNECTED_PROXY_TICKET'] = var10;
     var10 = function handleEmbeddedActivitySetProxyTicketRefreshing(arg1) {
-        _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
+        _fun0042: for(var _fun0042_ip = 0; ; ) switch(_fun0042_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.applicationId;
             var1 = var1.refreshing;
             var2 = _closure1_slot26;
-            if(var1) { _fun0040_ip = 144; continue _fun0040 }
+            if(var1) { _fun0042_ip = 144; continue _fun0042 }
 case 181:
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
-            _fun0040_ip = 2; continue _fun0040;
+            _fun0042_ip = 2; continue _fun0042;
 case 144:
             var1 = var2.add;
             var1 = var1.bind(var2)(var3);
@@ -2655,7 +2711,7 @@ case 2:
     };
     var6['EMBEDDED_ACTIVITY_LAUNCH_CANCEL'] = var10;
     var10 = function handleEmbeddedActivityClose(arg1) {
-        _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
+        _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.applicationId;
@@ -2669,7 +2725,7 @@ case 0:
             var6 = var3 == var5;
             var1 = undefined;
             var4 = undefined;
-            if(var6) { _fun0041_ip = 182; continue _fun0041 }
+            if(var6) { _fun0043_ip = 182; continue _fun0043 }
 case 183:
             var5 = var5.location;
             var4 = var5.id;
@@ -2677,11 +2733,11 @@ case 182:
             var5 = _closure1_slot34;
             var6 = var3 == var5;
             var3 = undefined;
-            if(var6) { _fun0041_ip = 184; continue _fun0041 }
+            if(var6) { _fun0043_ip = 184; continue _fun0043 }
 case 150:
             var3 = var5.id;
 case 184:
-            if(!(var4 === var3)) { _fun0041_ip = 185; continue _fun0041 }
+            if(!(var4 === var3)) { _fun0043_ip = 185; continue _fun0043 }
 case 186:
             _closure1_slot34 = var1;
 case 185:
@@ -2707,24 +2763,24 @@ case 185:
     };
     var6['EMBEDDED_ACTIVITY_UPDATE_V2'] = var10;
     var10 = function handleLocalActivityUpdate(arg1) {
-        _fun0042: for(var _fun0042_ip = 0; ; ) switch(_fun0042_ip) {
+        _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.activity;
             var2 = null;
-            if(!(var2 != var3)) { _fun0042_ip = 11; continue _fun0042 }
+            if(!(var2 != var3)) { _fun0044_ip = 11; continue _fun0044 }
 case 120:
             var5 = _closure1_slot21;
             var4 = var5.get;
             var6 = var3.application_id;
             var7 = var2 != var6;
             var3 = '';
-            if(!var7) { _fun0042_ip = 158; continue _fun0042 }
+            if(!var7) { _fun0044_ip = 158; continue _fun0044 }
 case 146:
             var3 = var6;
 case 158:
             var5 = var4.bind(var5)(var3);
-            if(!(var2 != var5)) { _fun0042_ip = 187; continue _fun0042 }
+            if(!(var2 != var5)) { _fun0044_ip = 187; continue _fun0044 }
 case 28:
             var4 = _closure1_slot21;
             var3 = var4.set;
@@ -2746,7 +2802,7 @@ case 11:
     };
     var6['LOCAL_ACTIVITY_UPDATE'] = var10;
     var10 = function handleSetSelfEmbeddedActivityConfig(arg1) {
-        _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
+        _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.applicationId;
@@ -2755,7 +2811,7 @@ case 0:
             var2 = var3.get;
             var5 = var2.bind(var3)(var4);
             var2 = null;
-            if(!(var2 != var5)) { _fun0043_ip = 124; continue _fun0043 }
+            if(!(var2 != var5)) { _fun0045_ip = 124; continue _fun0045 }
 case 148:
             var4 = _closure1_slot21;
             var3 = var4.set;
@@ -2774,7 +2830,7 @@ case 124:
     };
     var6['EMBEDDED_ACTIVITY_SET_CONFIG'] = var10;
     var10 = function handleEmbeddedActivityFetchShelf(arg1) {
-        _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
+        _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
@@ -2791,7 +2847,7 @@ case 0:
             var7 = null;
             var9 = var7 == var8;
             var7 = undefined;
-            if(var9) { _fun0044_ip = 30; continue _fun0044 }
+            if(var9) { _fun0046_ip = 30; continue _fun0046 }
 case 7:
             var7 = var8.lastFetchTimestampMs;
 case 30:
@@ -2853,7 +2909,7 @@ case 30:
             var _closure3_slot1 = var4;
             var5 = var6.reduce;
             var4 = function(arg1, arg2) {
-                _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
+                _fun0047: for(var _fun0047_ip = 0; ; ) switch(_fun0047_ip) {
 case 0:
                     var1 = arg1;
                     var _closure4_slot0 = var1;
@@ -2864,10 +2920,10 @@ case 0:
                     var _closure4_slot1 = var4;
                     var3 = var4.label_from;
                     var6 = null;
-                    if(!(var6 != var3)) { _fun0045_ip = 188; continue _fun0045 }
+                    if(!(var6 != var3)) { _fun0047_ip = 188; continue _fun0047 }
 case 189:
                     var3 = var4.label_until;
-                    if(!(var6 != var3)) { _fun0045_ip = 188; continue _fun0045 }
+                    if(!(var6 != var3)) { _fun0047_ip = 188; continue _fun0047 }
 case 7:
                     var3 = {};
                     var6 = var4.label_from;
@@ -2897,12 +2953,12 @@ case 7:
                     var6 = var4.bind(var6)();
                     var4 = _closure3_slot0;
                     var4 = var7 > var4;
-                    if(var4) { _fun0045_ip = 190; continue _fun0045 }
+                    if(var4) { _fun0047_ip = 190; continue _fun0047 }
 case 164:
                     var5 = _closure3_slot0;
                     var4 = var6 < var5;
 case 190:
-                    if(var4) { _fun0045_ip = 191; continue _fun0045 }
+                    if(var4) { _fun0047_ip = 191; continue _fun0047 }
 case 192:
                     var5 = var3.Object;
                     var4 = var5.values;
@@ -2927,14 +2983,14 @@ case 192:
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.forEach;
                     var2 = function(arg1) {
-                        _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
+                        _fun0048: for(var _fun0048_ip = 0; ; ) switch(_fun0048_ip) {
 case 0:
                             var3 = arg1;
                             var2 = _closure4_slot0;
                             var4 = var2[var3];
                             var2 = null;
                             var2 = var2 == var4;
-                            if(var2) { _fun0046_ip = 150; continue _fun0046 }
+                            if(var2) { _fun0048_ip = 150; continue _fun0048 }
 case 31:
                             var5 = global;
                             var6 = var5.Date;
@@ -2949,7 +3005,7 @@ case 31:
                             var4 = _closure4_slot3;
                             var2 = var5 < var4;
 case 150:
-                            if(!var2) { _fun0046_ip = 152; continue _fun0046 }
+                            if(!var2) { _fun0048_ip = 152; continue _fun0048 }
 case 124:
                             var2 = _closure4_slot0;
                             var1 = _closure4_slot2;
@@ -2984,7 +3040,7 @@ case 188:
     };
     var6['EMBEDDED_ACTIVITY_FETCH_SHELF_SUCCESS'] = var10;
     var10 = function handleEmbeddedActivityFetchShelfFail(arg1) {
-        _fun0047: for(var _fun0047_ip = 0; ; ) switch(_fun0047_ip) {
+        _fun0049: for(var _fun0049_ip = 0; ; ) switch(_fun0049_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
@@ -3001,7 +3057,7 @@ case 0:
             var6 = null;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0047_ip = 30; continue _fun0047 }
+            if(var8) { _fun0049_ip = 30; continue _fun0049 }
 case 7:
             var6 = var7.lastFetchTimestampMs;
 case 30:
@@ -3012,7 +3068,7 @@ case 30:
     };
     var6['EMBEDDED_ACTIVITY_FETCH_SHELF_FAIL'] = var10;
     var10 = function handleOrientationLockState(arg1) {
-        _fun0048: for(var _fun0048_ip = 0; ; ) switch(_fun0048_ip) {
+        _fun0050: for(var _fun0050_ip = 0; ; ) switch(_fun0050_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.applicationId;
@@ -3020,40 +3076,40 @@ case 0:
             var6 = var1.pictureInPictureLockState;
             var4 = var1.gridLockState;
             var1 = null;
-            if(!(var1 != var7)) { _fun0048_ip = 183; continue _fun0048 }
+            if(!(var1 != var7)) { _fun0050_ip = 183; continue _fun0050 }
 case 119:
             var5 = _closure1_slot29;
             var2 = var5.set;
             var2 = var2.bind(var5)(var3, var7);
-            _fun0048_ip = 130; continue _fun0048;
+            _fun0050_ip = 130; continue _fun0050;
 case 183:
             var5 = _closure1_slot29;
             var2 = var5.delete;
             var2 = var2.bind(var5)(var3);
 case 130:
-            if(!(var1 !== var6)) { _fun0048_ip = 172; continue _fun0048 }
+            if(!(var1 !== var6)) { _fun0050_ip = 172; continue _fun0050 }
 case 135:
             var2 = undefined;
-            if(!(var2 !== var6)) { _fun0048_ip = 193; continue _fun0048 }
+            if(!(var2 !== var6)) { _fun0050_ip = 193; continue _fun0050 }
 case 140:
             var5 = _closure1_slot30;
             var2 = var5.set;
             var2 = var2.bind(var5)(var3, var6);
-            _fun0048_ip = 193; continue _fun0048;
+            _fun0050_ip = 193; continue _fun0050;
 case 172:
             var5 = _closure1_slot30;
             var2 = var5.delete;
             var2 = var2.bind(var5)(var3);
 case 193:
-            if(!(var1 !== var4)) { _fun0048_ip = 194; continue _fun0048 }
+            if(!(var1 !== var4)) { _fun0050_ip = 194; continue _fun0050 }
 case 153:
             var1 = undefined;
-            if(!(var1 !== var4)) { _fun0048_ip = 14; continue _fun0048 }
+            if(!(var1 !== var4)) { _fun0050_ip = 14; continue _fun0050 }
 case 155:
             var2 = _closure1_slot31;
             var1 = var2.set;
             var1 = var1.bind(var2)(var3, var4);
-            _fun0048_ip = 14; continue _fun0048;
+            _fun0050_ip = 14; continue _fun0050;
 case 194:
             var2 = _closure1_slot31;
             var1 = var2.delete;
@@ -3081,13 +3137,13 @@ case 14:
     };
     var6['EMBEDDED_ACTIVITY_SET_FOCUSED_LAYOUT'] = var10;
     var10 = function handleChannelSelect(arg1) {
-        _fun0049: for(var _fun0049_ip = 0; ; ) switch(_fun0049_ip) {
+        _fun0051: for(var _fun0051_ip = 0; ; ) switch(_fun0051_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.channelId;
             var3 = _closure1_slot34;
             var1 = null;
-            if(!(var1 != var3)) { _fun0049_ip = 195; continue _fun0049 }
+            if(!(var1 != var3)) { _fun0051_ip = 195; continue _fun0051 }
 case 39:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -3099,18 +3155,18 @@ case 39:
             var3 = _closure1_slot34;
             var3 = var5.bind(var6)(var3);
             var1 = var1 != var3;
-            if(!var1) { _fun0049_ip = 130; continue _fun0049 }
+            if(!var1) { _fun0051_ip = 130; continue _fun0051 }
 case 133:
             var1 = var3 !== var4;
 case 130:
-            if(!var1) { _fun0049_ip = 152; continue _fun0049 }
+            if(!var1) { _fun0051_ip = 152; continue _fun0051 }
 case 38:
             var4 = _closure1_slot35;
             var3 = _closure1_slot13;
             var3 = var3.PANEL;
             var1 = var4 === var3;
 case 152:
-            if(!var1) { _fun0049_ip = 195; continue _fun0049 }
+            if(!var1) { _fun0051_ip = 195; continue _fun0051 }
 case 151:
             var1 = _closure1_slot13;
             var1 = var1.PIP;
@@ -3122,13 +3178,13 @@ case 195:
     };
     var6['CHANNEL_SELECT'] = var10;
     var10 = function handlePopoutWindowClose(arg1) {
-        _fun0050: for(var _fun0050_ip = 0; ; ) switch(_fun0050_ip) {
+        _fun0052: for(var _fun0052_ip = 0; ; ) switch(_fun0052_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.key;
             var1 = _closure1_slot16;
             var1 = var1.ACTIVITY_POPOUT;
-            if(!(var3 === var1)) { _fun0050_ip = 196; continue _fun0050 }
+            if(!(var3 === var1)) { _fun0052_ip = 196; continue _fun0052 }
 case 197:
             var1 = _closure1_slot13;
             var1 = var1.PIP;

@@ -498,16 +498,11 @@ case 16:
             var15 = 'fast';
             var10['decelerationRate'] = var15;
             var15 = 5;
-            var20 = var19[var15];
-            var20 = var18.bind(var4)(var20);
-            var20 = var20.COLLECTIBLES_SHOP_CARD_WIDTH;
-            var20 = var20 + var17;
-            var10['snapToInterval'] = var20;
             var15 = var19[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.COLLECTIBLES_SHOP_CARD_WIDTH;
             var15 = var15 + var17;
-            var10['estimatedItemSize'] = var15;
+            var10['snapToInterval'] = var15;
             var15 = false;
             var10['showsHorizontalScrollIndicator'] = var15;
             var15 = _closure1_slot12;

@@ -957,15 +957,24 @@ case 42:
                             var6 = var6.ERROR;
                             if(!(var7 !== var6)) { _fun0004_ip = 43; continue _fun0004 }
 case 44:
+                            var7 = var2.section;
+                            var9 = _closure1_slot0;
+                            var6 = _closure1_slot2;
+                            var6 = var6[var8];
+                            var6 = var9.bind(var3)(var6);
+                            var6 = var6.FamilyCenterModalRequestSections;
+                            var6 = var6.REQUEST;
+                            if(!(var7 !== var6)) { _fun0004_ip = 43; continue _fun0004 }
+case 45:
                             var6 = var2.section;
                             var7 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var5 = var5[var8];
                             var5 = var7.bind(var3)(var5);
                             var5 = var5.FamilyCenterModalRequestSections;
-                            var5 = var5.REQUEST;
+                            var5 = var5.CONFIRM_AGE;
                             if(!(var6 !== var5)) { _fun0004_ip = 43; continue _fun0004 }
-case 45:
+case 46:
                             var7 = _closure2_slot2;
                             var6 = var7.replace;
                             var5 = var2.section;
@@ -1144,10 +1153,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+                if(var3) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                 var1 = var2.ageVerificationStatus;
-case 46:
+case 47:
                 return var1;
             }
         };
@@ -1171,19 +1180,19 @@ case 0:
                 var2 = _closure2_slot2;
                 var4 = null;
                 var2 = var4 != var2;
-                if(!var2) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+                if(!var2) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
                 var5 = _closure2_slot2;
                 var3 = _closure2_slot1;
                 var2 = var5 !== var3;
-case 48:
-                if(!var2) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
+case 49:
+                if(!var2) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
                 var3 = _closure2_slot1;
                 var2 = var4 != var3;
-case 50:
-                if(!var2) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+case 51:
+                if(!var2) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
                 var4 = _closure2_slot1;
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -1194,9 +1203,9 @@ case 53:
                 var3 = var3.AgeVerificationStatusUkAndAusOnly;
                 var3 = var3.UNVERIFIED;
                 var2 = var4 !== var3;
-case 52:
-                if(!var2) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
+case 53:
+                if(!var2) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
                 var3 = _closure2_slot0;
                 var2 = var3.replace;
                 var5 = _closure1_slot0;
@@ -1208,7 +1217,7 @@ case 55:
                 var1 = var1.FamilyCenterModalRequestSections;
                 var1 = var1.VERIFYING;
                 var1 = var2.bind(var3)(var1);
-case 54:
+case 55:
                 var1 = undefined;
                 return var1;
             }
@@ -1217,179 +1226,216 @@ case 54:
         return var1;
     };
     var _closure1_slot27 = var1;
-    var1 = function FamilyCenterConfirmAgeScreen() {
-        var1 = _closure1_slot20;
-        var4 = undefined;
-        var12 = var1.bind(var4)();
-        var1 = _closure1_slot27;
-        var1 = var1.bind(var4)();
-        var5 = _closure1_slot4;
-        var3 = var5.useCallback;
-        var2 = function() {
-            var3 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var1 = 35;
-            var2 = var7[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.showAgeVerificationGetStartedModal;
-            var2 = {};
-            var6 = _closure1_slot0;
-            var5 = 36;
-            var5 = var7[var5];
-            var5 = var6.bind(var1)(var5);
-            var5 = var5.AgeVerificationModalEntryPoint;
-            var5 = var5.FAMILY_CENTER_CONNECTION;
-            var2['entryPoint'] = var5;
-            var2 = var3.bind(var4)(var2);
+    var1 = function FamilyCenterConfirmAgeScreen(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var1 = arg1;
+            var26 = var1.teenIdentity;
+            var1 = _closure1_slot20;
+            var4 = undefined;
+            var12 = var1.bind(var4)();
+            var1 = _closure1_slot27;
+            var1 = var1.bind(var4)();
+            var5 = _closure1_slot4;
+            var3 = var5.useCallback;
+            var2 = function() {
+                var3 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var1 = 35;
+                var2 = var7[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.showAgeVerificationGetStartedModal;
+                var2 = {};
+                var6 = _closure1_slot0;
+                var5 = 36;
+                var5 = var7[var5];
+                var5 = var6.bind(var1)(var5);
+                var5 = var5.AgeVerificationModalEntryPoint;
+                var5 = var5.FAMILY_CENTER_CONNECTION;
+                var2['entryPoint'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var1 = new Array(0);
+            var19 = var3.bind(var5)(var2, var1);
+            var3 = _closure1_slot13;
+            var18 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var1 = 14;
+            var1 = var15[var1];
+            var1 = var18.bind(var4)(var1);
+            var2 = var1.ModalScreen;
+            var1 = {};
+            var7 = _closure1_slot13;
+            var6 = _closure1_slot6;
+            var5 = {};
+            var8 = var12.content;
+            var5['style'] = var8;
+            var10 = _closure1_slot12;
+            var9 = _closure1_slot6;
+            var8 = {};
+            var11 = var12.art;
+            var8['style'] = var11;
+            var17 = _closure1_slot12;
+            var11 = 27;
+            var11 = var15[var11];
+            var11 = var18.bind(var4)(var11);
+            var13 = var11.FamilyShieldSpotIllustration;
+            var11 = {};
+            var11 = var17.bind(var4)(var13, var11);
+            var8['children'] = var11;
+            var9 = var10.bind(var4)(var9, var8);
+            var8 = new Array(3);
+            var8[0] = var9;
+            var13 = _closure1_slot12;
+            var9 = 20;
+            var10 = var15[var9];
+            var10 = var18.bind(var4)(var10);
+            var11 = var10.Text;
+            var10 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
+            var17 = var12.title;
+            var10['style'] = var17;
+            var21 = 18;
+            var17 = var15[var21];
+            var17 = var18.bind(var4)(var17);
+            var20 = var17.intl;
+            var18 = var20.formatToPlainString;
+            var17 = _closure1_slot1;
+            var22 = 19;
+            var15 = var15[var22];
+            var15 = var17.bind(var4)(var15);
+            var17 = var15.pQQMJ7;
+            var15 = {};
+            var23 = null;
+            var25 = var23 == var26;
+            var24 = undefined;
+            if(var25) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
+            var24 = var26.global_name;
+case 57:
+            if(!(var23 == var24)) { _fun0007_ip = 59; continue _fun0007 }
+case 60:
+            var27 = var23 == var26;
+            var25 = undefined;
+            if(var27) { _fun0007_ip = 61; continue _fun0007 }
+case 62:
+            var25 = var26.username;
+case 61:
+            var24 = var25;
+case 59:
+            var25 = var23 != var24;
+            var23 = '';
+            if(!var25) { _fun0007_ip = 63; continue _fun0007 }
+case 64:
+            var23 = var24;
+case 63:
+            var15['username'] = var23;
+            var15 = var18.bind(var20)(var17, var15);
+            var10['children'] = var15;
+            var10 = var13.bind(var4)(var11, var10);
+            var8[1] = var10;
+            var11 = _closure1_slot12;
+            var20 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var9 = var17[var9];
+            var9 = var20.bind(var4)(var9);
+            var10 = var9.Text;
+            var9 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
+            var12 = var12.description;
+            var9['style'] = var12;
+            var12 = var17[var21];
+            var12 = var20.bind(var4)(var12);
+            var18 = var12.intl;
+            var15 = var18.format;
+            var25 = _closure1_slot1;
+            var12 = var17[var22];
+            var12 = var25.bind(var4)(var12);
+            var13 = var12["0o3yg8"];
+            var12 = {};
+            var23 = 'https://support.discord.com/hc/articles/14155060633623';
+            var12['link'] = var23;
+            var12 = var15.bind(var18)(var13, var12);
+            var9['children'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
+            var8[2] = var9;
+            var5['children'] = var8;
+            var6 = var7.bind(var4)(var6, var5);
+            var5 = new Array(2);
+            var5[0] = var6;
+            var8 = _closure1_slot12;
+            var6 = 23;
+            var6 = var17[var6];
+            var6 = var20.bind(var4)(var6);
+            var7 = var6.ModalFooter;
+            var6 = {};
+            var11 = _closure1_slot13;
+            var9 = 24;
+            var9 = var17[var9];
+            var9 = var20.bind(var4)(var9);
+            var10 = var9.ButtonGroup;
+            var9 = {};
+            var18 = _closure1_slot12;
+            var13 = 25;
+            var12 = var17[var13];
+            var12 = var20.bind(var4)(var12);
+            var15 = var12.Button;
+            var12 = {};
+            var23 = 'primary';
+            var12['variant'] = var23;
+            var23 = var17[var21];
+            var23 = var20.bind(var4)(var23);
+            var24 = var23.intl;
+            var23 = var24.string;
+            var22 = var17[var22];
+            var22 = var25.bind(var4)(var22);
+            var22 = var22["3oUE4o"];
+            var22 = var23.bind(var24)(var22);
+            var12['text'] = var22;
+            var12['onPress'] = var19;
+            var15 = var18.bind(var4)(var15, var12);
+            var12 = new Array(2);
+            var12[0] = var15;
+            var15 = _closure1_slot12;
+            var13 = var17[var13];
+            var13 = var20.bind(var4)(var13);
+            var14 = var13.Button;
+            var13 = {};
+            var18 = 'tertiary';
+            var13['variant'] = var18;
+            var18 = var17[var21];
+            var18 = var20.bind(var4)(var18);
+            var19 = var18.intl;
+            var18 = var19.string;
+            var17 = var17[var21];
+            var17 = var20.bind(var4)(var17);
+            var17 = var17.t;
+            var17 = var17.oEAioF;
+            var17 = var18.bind(var19)(var17);
+            var13['text'] = var17;
+            var16 = function onPress() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 26;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var1 = var2.pop;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var13['onPress'] = var16;
+            var13 = var15.bind(var4)(var14, var13);
+            var12[1] = var13;
+            var9['children'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
+            var6['children'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
-        };
-        var1 = new Array(0);
-        var19 = var3.bind(var5)(var2, var1);
-        var3 = _closure1_slot13;
-        var20 = _closure1_slot0;
-        var21 = _closure1_slot2;
-        var1 = 14;
-        var1 = var21[var1];
-        var1 = var20.bind(var4)(var1);
-        var2 = var1.ModalScreen;
-        var1 = {};
-        var7 = _closure1_slot13;
-        var6 = _closure1_slot6;
-        var5 = {};
-        var8 = var12.content;
-        var5['style'] = var8;
-        var10 = _closure1_slot12;
-        var9 = _closure1_slot5;
-        var8 = {};
-        var11 = var12.art;
-        var8['style'] = var11;
-        var25 = _closure1_slot1;
-        var11 = 21;
-        var11 = var21[var11];
-        var11 = var25.bind(var4)(var11);
-        var8['source'] = var11;
-        var9 = var10.bind(var4)(var9, var8);
-        var8 = new Array(3);
-        var8[0] = var9;
-        var13 = _closure1_slot12;
-        var9 = 20;
-        var10 = var21[var9];
-        var10 = var20.bind(var4)(var10);
-        var11 = var10.Text;
-        var10 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
-        var15 = var12.title;
-        var10['style'] = var15;
-        var17 = 18;
-        var15 = var21[var17];
-        var15 = var20.bind(var4)(var15);
-        var23 = var15.intl;
-        var18 = var23.string;
-        var22 = 19;
-        var15 = var21[var22];
-        var15 = var25.bind(var4)(var15);
-        var15 = var15.pQQMJ7;
-        var15 = var18.bind(var23)(var15);
-        var10['children'] = var15;
-        var10 = var13.bind(var4)(var11, var10);
-        var8[1] = var10;
-        var11 = _closure1_slot12;
-        var9 = var21[var9];
-        var9 = var20.bind(var4)(var9);
-        var10 = var9.Text;
-        var9 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
-        var12 = var12.description;
-        var9['style'] = var12;
-        var12 = var21[var17];
-        var12 = var20.bind(var4)(var12);
-        var18 = var12.intl;
-        var15 = var18.format;
-        var12 = var21[var22];
-        var12 = var25.bind(var4)(var12);
-        var13 = var12["0o3yg8"];
-        var12 = {};
-        var23 = 'https://support.discord.com/hc/articles/14155060633623';
-        var12['link'] = var23;
-        var12 = var15.bind(var18)(var13, var12);
-        var9['children'] = var12;
-        var9 = var11.bind(var4)(var10, var9);
-        var8[2] = var9;
-        var5['children'] = var8;
-        var6 = var7.bind(var4)(var6, var5);
-        var5 = new Array(2);
-        var5[0] = var6;
-        var8 = _closure1_slot12;
-        var6 = 23;
-        var6 = var21[var6];
-        var6 = var20.bind(var4)(var6);
-        var7 = var6.ModalFooter;
-        var6 = {};
-        var11 = _closure1_slot13;
-        var9 = 24;
-        var9 = var21[var9];
-        var9 = var20.bind(var4)(var9);
-        var10 = var9.ButtonGroup;
-        var9 = {};
-        var18 = _closure1_slot12;
-        var13 = 25;
-        var12 = var21[var13];
-        var12 = var20.bind(var4)(var12);
-        var15 = var12.Button;
-        var12 = {};
-        var23 = 'primary';
-        var12['variant'] = var23;
-        var23 = var21[var17];
-        var23 = var20.bind(var4)(var23);
-        var24 = var23.intl;
-        var23 = var24.string;
-        var22 = var21[var22];
-        var22 = var25.bind(var4)(var22);
-        var22 = var22["3oUE4o"];
-        var22 = var23.bind(var24)(var22);
-        var12['text'] = var22;
-        var12['onPress'] = var19;
-        var15 = var18.bind(var4)(var15, var12);
-        var12 = new Array(2);
-        var12[0] = var15;
-        var15 = _closure1_slot12;
-        var13 = var21[var13];
-        var13 = var20.bind(var4)(var13);
-        var14 = var13.Button;
-        var13 = {};
-        var18 = 'tertiary';
-        var13['variant'] = var18;
-        var18 = var21[var17];
-        var18 = var20.bind(var4)(var18);
-        var19 = var18.intl;
-        var18 = var19.string;
-        var17 = var21[var17];
-        var17 = var20.bind(var4)(var17);
-        var17 = var17.t;
-        var17 = var17.oEAioF;
-        var17 = var18.bind(var19)(var17);
-        var13['text'] = var17;
-        var16 = function onPress() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 26;
-            var2 = var2[var1];
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            var1 = var2.pop;
-            var1 = var1.bind(var2)();
-            return var1;
-        };
-        var13['onPress'] = var16;
-        var13 = var15.bind(var4)(var14, var13);
-        var12[1] = var13;
-        var9['children'] = var12;
-        var9 = var11.bind(var4)(var10, var9);
-        var6['children'] = var9;
-        var6 = var8.bind(var4)(var7, var6);
-        var5[1] = var6;
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        }
     };
     var _closure1_slot28 = var1;
     var1 = function FamilyCenterVerifyingScreen() {
@@ -1418,7 +1464,7 @@ case 54:
         var3 = new Array(1);
         var3[0] = var2;
         var2 = function() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = _closure1_slot7;
                 var1 = var2.getCurrentUser;
@@ -1426,10 +1472,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
+                if(var3) { _fun0008_ip = 47; continue _fun0008 }
+case 48:
                 var1 = var2.ageVerificationStatus;
-case 46:
+case 47:
                 return var1;
             }
         };
@@ -1447,10 +1493,10 @@ case 46:
         var3[1] = var2;
         var3[2] = var6;
         var2 = function() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var2 = _closure2_slot1;
-                if(var2) { _fun0008_ip = 56; continue _fun0008 }
+                if(var2) { _fun0009_ip = 65; continue _fun0009 }
 case 36:
                 var4 = _closure2_slot2;
                 var5 = _closure1_slot0;
@@ -1461,8 +1507,8 @@ case 36:
                 var3 = var5.bind(var2)(var3);
                 var3 = var3.AgeVerificationStatusUkAndAusOnly;
                 var3 = var3.UNVERIFIED;
-                if(!(var4 === var3)) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
+                if(!(var4 === var3)) { _fun0009_ip = 66; continue _fun0009 }
+case 67:
                 var6 = _closure2_slot0;
                 var5 = var6.replace;
                 var4 = _closure1_slot0;
@@ -1477,13 +1523,13 @@ case 58:
                 var7 = var7.GENERIC_ERROR;
                 var3['failureCode'] = var7;
                 var3 = var5.bind(var6)(var4, var3);
-case 57:
+case 66:
                 return var2;
-case 56:
+case 65:
                 var2 = _closure2_slot3;
                 var2 = var2.current;
-                if(var2) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
+                if(var2) { _fun0009_ip = 68; continue _fun0009 }
+case 69:
                 var3 = _closure2_slot3;
                 var2 = true;
                 var3['current'] = var2;
@@ -1500,7 +1546,7 @@ case 60:
                 var1 = var2.bind(var3)(var1);
                 var1 = undefined;
                 return var1;
-case 59:
+case 68:
                 var1 = undefined;
                 return var1;
             }
@@ -1960,7 +2006,7 @@ case 59:
     var7 = {};
     var14 = {'flex': 1, 'flexDirection': 'column', 'alignItems': 'center', 'justifyContent': 'center', 'paddingHorizontal': 32};
     var7['content'] = var14;
-    var14 = {'width': 165, 'height': 119};
+    var14 = {};
     var17 = var9[var16];
     var17 = var13.bind(var1)(var17);
     var17 = var17.space;
@@ -2005,7 +2051,7 @@ case 59:
     var7 = 'modules/parent_tools/native/FamilyCenterModalRequest.tsx';
     var7 = var8.bind(var9)(var7);
     var6 = function FamilyCenterRequestModal(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var1 = arg1;
             var9 = var1.userId;
@@ -2080,13 +2126,25 @@ case 0:
                     var18 = var3;
                     var17 = var13;
                     var8 = copyDataProperties(var18, var17);
-                    var8 = function render() {
-                        var4 = _closure1_slot12;
-                        var3 = _closure1_slot28;
-                        var2 = undefined;
-                        var1 = {};
-                        var1 = var4.bind(var2)(var3, var1);
-                        return var1;
+                    var8 = function render(arg1) {
+                        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+                            var6 = arg1;
+                            var4 = _closure1_slot12;
+                            var3 = _closure1_slot28;
+                            var2 = {};
+                            var1 = null;
+                            var7 = var1 == var6;
+                            var1 = undefined;
+                            var5 = undefined;
+                            if(var7) { _fun0011_ip = 70; continue _fun0011 }
+case 71:
+                            var5 = var6.teenIdentity;
+case 70:
+                            var2['teenIdentity'] = var5;
+                            var1 = var4.bind(var1)(var3, var2);
+                            return var1;
+                        }
                     };
                     var3[13] = var8;
                     var1[5] = var3;
@@ -2132,7 +2190,7 @@ case 0:
                     };
                     var3['headerTitle'] = var15;
                     var15 = function render(arg1) {
-                        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                             var6 = arg1;
                             var4 = _closure1_slot12;
@@ -2146,10 +2204,10 @@ case 0:
                             var7 = var1 == var6;
                             var1 = undefined;
                             var5 = undefined;
-                            if(var7) { _fun0010_ip = 58; continue _fun0010 }
-case 61:
+                            if(var7) { _fun0012_ip = 67; continue _fun0012 }
+case 72:
                             var5 = var6.teenIdentity;
-case 58:
+case 67:
                             var2['teenIdentity'] = var5;
                             var1 = var4.bind(var1)(var3, var2);
                             return var1;
@@ -2294,19 +2352,19 @@ case 58:
             var2 = var8[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.FamilyCenterModalRequestSections;
-            if(var6) { _fun0009_ip = 62; continue _fun0009 }
-case 63:
-            if(var3) { _fun0009_ip = 64; continue _fun0009 }
-case 65:
+            if(var6) { _fun0010_ip = 73; continue _fun0010 }
+case 74:
+            if(var3) { _fun0010_ip = 75; continue _fun0010 }
+case 76:
             var6 = var2.TEEN_SCAN;
-            _fun0009_ip = 66; continue _fun0009;
-case 64:
+            _fun0010_ip = 77; continue _fun0010;
+case 75:
             var6 = var2.REQUEST;
-case 66:
-            _fun0009_ip = 67; continue _fun0009;
-case 62:
+case 77:
+            _fun0010_ip = 78; continue _fun0010;
+case 73:
             var6 = var2.PREREQ_LOADING;
-case 67:
+case 78:
             var3 = _closure1_slot12;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;

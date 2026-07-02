@@ -96,7 +96,9 @@ case 2:
     var9 = var5.bind(var1)(var7);
     var8 = var9.createStyles;
     var7 = {};
-    var10 = {'display': 'flex', 'flexDirection': 'row'};
+    var10 = {};
+    var11 = '100%';
+    var10['width'] = var11;
     var7['container'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot7 = var7;

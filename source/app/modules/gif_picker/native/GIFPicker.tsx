@@ -174,14 +174,14 @@ case 4:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot6;
-                    var4 = 2;
-                    var5 = var4;
+                    var5 = 2;
+                    var4 = var5;
                     if(!var1) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-                    var5 = 3;
+                    var4 = 3;
 case 6:
                     var1 = {};
-                    var1['columns'] = var5;
+                    var1['columns'] = var4;
                     var2 = _closure2_slot7;
                     var3 = var2.width;
                     var7 = _closure2_slot4;
@@ -192,21 +192,17 @@ case 6:
 case 9:
                     var2 = _closure2_slot4;
 case 8:
-                    var2 = var4 * var2;
+                    var2 = var5 * var2;
                     var2 = var3 - var2;
-                    var7 = _closure1_slot0;
-                    var6 = _closure1_slot3;
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot3;
                     var3 = 11;
-                    var6 = var6[var3];
+                    var5 = var5[var3];
                     var3 = undefined;
-                    var3 = var7.bind(var3)(var6);
+                    var3 = var6.bind(var3)(var5);
                     var3 = var3.GIF_PICKER_GUTTER_SPACING;
-                    var4 = var3 / var4;
-                    var3 = var2 / var5;
-                    var2 = 1;
-                    var2 = var5 - var2;
-                    var2 = var4 * var2;
-                    var2 = var3 - var2;
+                    var2 = var2 / var4;
+                    var2 = var2 - var3;
                     var1['columnWidth'] = var2;
                     return var1;
                 }

@@ -239,9 +239,7 @@ case 5:
             var13 = var22[var13];
             var13 = var18.bind(var4)(var13);
             var14 = var13.Text;
-            var13 = {};
-            var16 = 'text-lg/bold';
-            var13['variant'] = var16;
+            var13 = {'variant': 'text-lg/semibold', 'color': 'text-strong'};
             var17 = 20;
             var16 = var22[var17];
             var16 = var18.bind(var4)(var16);
@@ -328,7 +326,7 @@ case 4:
             var9 = var16[var9];
             var9 = var15.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-lg/semibold', 'color': 'white'};
+            var9 = {'variant': 'text-lg/semibold', 'color': 'text-strong'};
             var12 = 20;
             var13 = var16[var12];
             var13 = var15.bind(var4)(var13);
@@ -514,42 +512,42 @@ case 0:
             var _closure2_slot0 = var20;
             var3 = var1.filters;
             var _closure2_slot1 = var3;
-            var22 = var1.sortMethod;
-            var _closure2_slot2 = var22;
+            var23 = var1.sortMethod;
+            var _closure2_slot2 = var23;
             var10 = var1.onClearFilters;
             var6 = undefined;
             var _closure2_slot14 = var6;
             var _closure2_slot15 = var6;
             var _closure2_slot16 = var6;
-            var23 = _closure1_slot0;
-            var25 = _closure1_slot2;
+            var25 = _closure1_slot0;
+            var26 = _closure1_slot2;
             var1 = 30;
-            var1 = var25[var1];
-            var4 = var23.bind(var6)(var1);
+            var1 = var26[var1];
+            var4 = var25.bind(var6)(var1);
             var1 = var4.getIsEligibleForQuests;
             var4 = var1.bind(var4)();
             var _closure2_slot3 = var4;
             var1 = _closure1_slot17;
             var8 = var1.bind(var6)();
-            var19 = _closure1_slot1;
+            var22 = _closure1_slot1;
             var1 = 31;
-            var1 = var25[var1];
-            var1 = var19.bind(var6)(var1);
+            var1 = var26[var1];
+            var1 = var22.bind(var6)(var1);
             var1 = var1.bind(var6)();
-            var21 = var1.bottom;
-            var24 = 23;
-            var1 = var25[var24];
-            var12 = var23.bind(var6)(var1);
+            var19 = var1.bottom;
+            var21 = 23;
+            var1 = var26[var21];
+            var12 = var25.bind(var6)(var1);
             var11 = var12.useFilteredQuests;
-            var1 = var25[var24];
-            var1 = var23.bind(var6)(var1);
+            var1 = var26[var21];
+            var1 = var25.bind(var6)(var1);
             var1 = var1.QuestTabs;
             var5 = var1.ALL;
             var16 = _closure1_slot4;
             var14 = var16.useMemo;
             var13 = new Array(2);
             var13[0] = var3;
-            var13[1] = var22;
+            var13[1] = var23;
             var1 = function() {
                 var1 = {};
                 var3 = _closure2_slot1;
@@ -569,8 +567,8 @@ case 0:
             var5 = var1.hasFetched;
             var _closure2_slot7 = var5;
             var1 = 12;
-            var1 = var25[var1];
-            var18 = var23.bind(var6)(var1);
+            var1 = var26[var1];
+            var18 = var25.bind(var6)(var1);
             var16 = var18.useStateFromStoresArray;
             var1 = _closure1_slot9;
             var14 = new Array(1);
@@ -1084,62 +1082,62 @@ case 40:
                 var1['visibilityRef'] = var2;
                 return var1;
             };
-            var18 = var12.bind(var6)(var13);
-            var20 = var18.scrollViewRef;
-            var _closure2_slot10 = var20;
-            var13 = var18.handleListScroll;
-            var14 = var18.handleListLayout;
-            var12 = var18.handleListLoad;
-            var16 = var18.handleQuestCardLayout;
+            var20 = var12.bind(var6)(var13);
+            var18 = var20.scrollViewRef;
+            var _closure2_slot10 = var18;
+            var13 = var20.handleListScroll;
+            var14 = var20.handleListLayout;
+            var12 = var20.handleListLoad;
+            var16 = var20.handleQuestCardLayout;
             var _closure2_slot11 = var16;
-            var16 = var18.handleHeaderLayout;
+            var16 = var20.handleHeaderLayout;
             var _closure2_slot12 = var16;
-            var18 = var18.visibilityRef;
-            var _closure2_slot13 = var18;
-            var26 = _closure1_slot10;
-            var18 = function(arg1) {
+            var20 = var20.visibilityRef;
+            var _closure2_slot13 = var20;
+            var24 = _closure1_slot10;
+            var20 = function(arg1) {
                 var2 = arg1;
                 var1 = var2.getUtmCurrentContext;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var27 = var26.bind(var6)(var18);
-            var18 = 38;
-            var18 = var25[var18];
-            var19 = var19.bind(var6)(var18);
-            var18 = {};
-            var26 = 39;
-            var28 = var25[var26];
-            var28 = var23.bind(var6)(var28);
+            var27 = var24.bind(var6)(var20);
+            var20 = 38;
+            var20 = var26[var20];
+            var22 = var22.bind(var6)(var20);
+            var20 = {};
+            var24 = 39;
+            var28 = var26[var24];
+            var28 = var25.bind(var6)(var28);
             var28 = var28.ImpressionNames;
             var28 = var28.QUEST_HOME;
-            var18['name'] = var28;
-            var26 = var25[var26];
-            var26 = var23.bind(var6)(var26);
-            var26 = var26.ImpressionTypes;
-            var26 = var26.VIEW;
-            var18['type'] = var26;
-            var26 = {};
+            var20['name'] = var28;
+            var24 = var26[var24];
+            var24 = var25.bind(var6)(var24);
+            var24 = var24.ImpressionTypes;
+            var24 = var24.VIEW;
+            var20['type'] = var24;
+            var24 = {};
             var28 = var27.utmSourceCurrent;
-            var26['utm_source_current'] = var28;
+            var24['utm_source_current'] = var28;
             var28 = var27.utmMediumCurrent;
-            var26['utm_medium_current'] = var28;
+            var24['utm_medium_current'] = var28;
             var28 = var27.utmCampaignCurrent;
-            var26['utm_campaign_current'] = var28;
+            var24['utm_campaign_current'] = var28;
             var27 = var27.utmContentCurrent;
-            var26['utm_content_current'] = var27;
-            var27 = var25[var24];
-            var27 = var23.bind(var6)(var27);
+            var24['utm_content_current'] = var27;
+            var27 = var26[var21];
+            var27 = var25.bind(var6)(var27);
             var27 = var27.QuestTabs;
             var27 = var27.ALL;
-            var26['tab'] = var27;
-            var18['properties'] = var26;
-            var18 = var19.bind(var6)(var18);
+            var24['tab'] = var27;
+            var20['properties'] = var24;
+            var20 = var22.bind(var6)(var20);
             var27 = _closure1_slot4;
-            var26 = var27.useEffect;
-            var19 = new Array(1);
-            var19[0] = var4;
-            var18 = function() {
+            var24 = var27.useEffect;
+            var22 = new Array(1);
+            var22[0] = var4;
+            var20 = function() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var1 = _closure2_slot3;
@@ -1159,14 +1157,14 @@ case 22:
                     return var1;
                 }
             };
-            var18 = var26.bind(var27)(var18, var19);
-            var26 = _closure1_slot4;
-            var19 = var26.useEffect;
-            var18 = new Array(4);
-            var18[0] = var3;
-            var18[1] = var22;
-            var18[2] = var5;
-            var18[3] = var20;
+            var20 = var24.bind(var27)(var20, var22);
+            var24 = _closure1_slot4;
+            var22 = var24.useEffect;
+            var20 = new Array(4);
+            var20[0] = var3;
+            var20[1] = var23;
+            var20[2] = var5;
+            var20[3] = var18;
             var5 = function() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -1178,111 +1176,122 @@ case 0:
 case 43:
                     var2 = _closure2_slot7;
 case 42:
-                    if(!var2) { _fun0012_ip = 27; continue _fun0012 }
+                    if(!var2) { _fun0012_ip = 44; continue _fun0012 }
 case 15:
                     var1 = _closure2_slot10;
                     var3 = var1.current;
                     var2 = var3.scrollToOffset;
                     var1 = {'offset': 0, 'animated': false};
                     var1 = var2.bind(var3)(var1);
-case 27:
+case 44:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var5 = var19.bind(var26)(var5, var18);
-            var5 = var25[var24];
-            var19 = var23.bind(var6)(var5);
-            var18 = var19.useQuestHomeSortingFilteringAnalytics;
+            var5 = var22.bind(var24)(var5, var20);
+            var5 = var26[var21];
+            var22 = var25.bind(var6)(var5);
+            var20 = var22.useQuestHomeSortingFilteringAnalytics;
             var5 = {};
-            var5['selectedSortMethod'] = var22;
+            var5['selectedSortMethod'] = var23;
             var5['selectedFilters'] = var3;
-            var22 = var17.length;
-            var5['numQuestsVisible'] = var22;
-            var5 = var18.bind(var19)(var5);
+            var23 = var17.length;
+            var5['numQuestsVisible'] = var23;
+            var5 = var20.bind(var22)(var5);
             var5 = 41;
-            var5 = var25[var5];
-            var18 = var23.bind(var6)(var5);
-            var5 = var18.useVirtualCurrencyMobileEnabled;
-            var5 = var5.bind(var18)();
+            var5 = var26[var5];
+            var20 = var25.bind(var6)(var5);
+            var5 = var20.useVirtualCurrencyMobileEnabled;
+            var5 = var5.bind(var20)();
             var5 = var5.enabled;
-            var18 = 42;
-            var18 = var25[var18];
-            var18 = var23.bind(var6)(var18);
-            var22 = var18.QuestHomeBountiesExperiment;
-            var19 = var22.useConfig;
-            var18 = {};
-            var26 = _closure1_slot11;
-            var26 = var26.QUEST_HOME_MOBILE;
-            var18['location'] = var26;
-            var18 = var19.bind(var22)(var18);
-            var22 = var18.enabled;
-            var18 = 43;
-            var18 = var25[var18];
-            var18 = var23.bind(var6)(var18);
-            var26 = var18.OrbsHoldoutExperiment;
-            var19 = var26.useConfig;
-            var18 = {};
+            var20 = 42;
+            var20 = var26[var20];
+            var20 = var25.bind(var6)(var20);
+            var23 = var20.QuestHomeBountiesExperiment;
+            var22 = var23.useConfig;
+            var20 = {};
+            var24 = _closure1_slot11;
+            var24 = var24.QUEST_HOME_MOBILE;
+            var20['location'] = var24;
+            var20 = var22.bind(var23)(var20);
+            var24 = var20.enabled;
+            var20 = 24;
+            var20 = var26[var20];
+            var20 = var25.bind(var6)(var20);
+            var23 = var20.BountiesStage1Experiment;
+            var22 = var23.useConfig;
+            var20 = {};
             var27 = _closure1_slot11;
             var27 = var27.QUEST_HOME_MOBILE;
-            var18['location'] = var27;
-            var18 = var19.bind(var26)(var18);
-            var18 = var18.enabled;
-            var19 = 44;
-            var19 = var25[var19];
-            var23 = var23.bind(var6)(var19);
-            var19 = var23.useRoute;
-            var19 = var19.bind(var23)();
-            var19 = var19.params;
-            var23 = var1 == var19;
-            var25 = undefined;
-            if(var23) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
-            var25 = var19.previewAdCreativeIds;
-case 44:
-            var23 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var19 = var19[var24];
-            var24 = var23.bind(var6)(var19);
-            var23 = var24.useFetchQuestHomeBounties;
-            var19 = {};
-            var19['previewAdCreativeIds'] = var25;
-            var23 = var23.bind(var24)(var19);
-            var19 = var23.isLoading;
-            var23 = var23.questHomeBounties;
-            if(!var5) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
-            var5 = var22;
-case 46:
-            if(!var5) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
-            var5 = !var18;
-case 48:
-            if(!var5) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
-            var22 = _closure1_slot0;
-            var24 = _closure1_slot2;
-            var18 = 45;
-            var18 = var24[var18];
-            var22 = var22.bind(var6)(var18);
-            var18 = var22.shouldShowBountiesGivenFilters;
-            var5 = var18.bind(var22)(var3);
-case 50:
-            _closure2_slot14 = var5;
+            var20['location'] = var27;
+            var20 = var22.bind(var23)(var20);
+            var20 = var20.verticalScrollEnabled;
+            var22 = 43;
+            var22 = var26[var22];
+            var22 = var25.bind(var6)(var22);
+            var27 = var22.OrbsHoldoutExperiment;
+            var23 = var27.useConfig;
             var22 = {};
-            var18 = var5;
-            if(!var5) { _fun0004_ip = 52; continue _fun0004 }
-case 53:
-            var18 = !var19;
+            var28 = _closure1_slot11;
+            var28 = var28.QUEST_HOME_MOBILE;
+            var22['location'] = var28;
+            var22 = var23.bind(var27)(var22);
+            var22 = var22.enabled;
+            var23 = 44;
+            var23 = var26[var23];
+            var25 = var25.bind(var6)(var23);
+            var23 = var25.useRoute;
+            var23 = var23.bind(var25)();
+            var23 = var23.params;
+            var25 = var1 == var23;
+            var27 = undefined;
+            if(var25) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
+            var27 = var23.previewAdCreativeIds;
+case 45:
+            var25 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var23 = var23[var21];
+            var26 = var25.bind(var6)(var23);
+            var25 = var26.useFetchQuestHomeBounties;
+            var23 = {};
+            var23['previewAdCreativeIds'] = var27;
+            var25 = var25.bind(var26)(var23);
+            var23 = var25.isLoading;
+            var25 = var25.questHomeBounties;
+            if(!var5) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
+            var5 = var24;
+case 47:
+            if(!var5) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
+            var5 = !var22;
+case 49:
+            if(!var5) { _fun0004_ip = 51; continue _fun0004 }
 case 52:
-            if(!var18) { _fun0004_ip = 54; continue _fun0004 }
-case 55:
-            var24 = var23.length;
-            var23 = 0;
-            var18 = var24 > var23;
+            var24 = _closure1_slot0;
+            var26 = _closure1_slot2;
+            var22 = 45;
+            var22 = var26[var22];
+            var24 = var24.bind(var6)(var22);
+            var22 = var24.shouldShowBountiesGivenFilters;
+            var5 = var22.bind(var24)(var3);
+case 51:
+            _closure2_slot14 = var5;
+            var24 = {};
+            var22 = var5;
+            if(!var5) { _fun0004_ip = 53; continue _fun0004 }
 case 54:
-            var22['bountiesAvailable'] = var18;
-            var18 = function useSurveyActions(arg1) {
+            var22 = !var23;
+case 53:
+            if(!var22) { _fun0004_ip = 55; continue _fun0004 }
+case 56:
+            var26 = var25.length;
+            var25 = 0;
+            var22 = var26 > var25;
+case 55:
+            var24['bountiesAvailable'] = var22;
+            var22 = function useSurveyActions(arg1) {
                 var1 = arg1;
                 var4 = var1.bountiesAvailable;
                 var _closure3_slot0 = var4;
@@ -1316,12 +1325,12 @@ case 54:
                     _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                         var2 = _closure3_slot0;
-                        if(!var2) { _fun0013_ip = 56; continue _fun0013 }
+                        if(!var2) { _fun0013_ip = 57; continue _fun0013 }
 case 41:
                         var2 = _closure3_slot2;
                         var1 = true;
                         var2['current'] = var1;
-case 56:
+case 57:
                         var1 = undefined;
                         return var1;
                     }
@@ -1343,7 +1352,7 @@ case 0:
                             var2 = var4.bind(var1)(var2);
                             var2 = var2.BOUNTIES_MODAL_KEY;
                             if(!(var3 === var2)) { _fun0014_ip = 27; continue _fun0014 }
-case 57:
+case 58:
                             var3 = _closure3_slot3;
                             var2 = true;
                             var3['current'] = var2;
@@ -1428,7 +1437,7 @@ case 27:
 case 0:
                             var1 = _closure3_slot2;
                             var1 = var1.current;
-                            if(!var1) { _fun0015_ip = 58; continue _fun0015 }
+                            if(!var1) { _fun0015_ip = 59; continue _fun0015 }
 case 10:
                             var1 = _closure3_slot4;
                             var3 = var1.current;
@@ -1448,14 +1457,14 @@ case 39:
                             var2 = var7.bind(var6)(var2);
                             var2 = var2.SurveyActionTypes;
                             if(var5) { _fun0015_ip = 33; continue _fun0015 }
-case 59:
+case 60:
                             var5 = var2.BOUNTY_IMMEDIATE_DISMISSAL;
                             var5 = var3.bind(var4)(var5);
-                            _fun0015_ip = 58; continue _fun0015;
+                            _fun0015_ip = 59; continue _fun0015;
 case 33:
                             var2 = var2.BOUNTY_ABANDONED;
                             var2 = var3.bind(var4)(var2);
-                            _fun0015_ip = 58; continue _fun0015;
+                            _fun0015_ip = 59; continue _fun0015;
 case 35:
                             var5 = _closure1_slot0;
                             var6 = _closure1_slot2;
@@ -1470,7 +1479,7 @@ case 35:
                             var1 = var1.SurveyActionTypes;
                             var1 = var1.BOUNTY_SESSION_COMPLETED;
                             var1 = var2.bind(var3)(var1);
-case 58:
+case 59:
                             var1 = undefined;
                             return var1;
                         }
@@ -1481,12 +1490,12 @@ case 58:
                 var2 = var4.bind(var5)(var2, var3);
                 return var1;
             };
-            var18 = var18.bind(var6)(var22);
-            var23 = _closure1_slot4;
-            var22 = var23.useCallback;
-            var18 = new Array(2);
-            var18[0] = var5;
-            var18[1] = var16;
+            var22 = var22.bind(var6)(var24);
+            var25 = _closure1_slot4;
+            var24 = var25.useCallback;
+            var22 = new Array(2);
+            var22[0] = var5;
+            var22[1] = var16;
             var16 = function() {
                 var4 = _closure1_slot14;
                 var3 = _closure1_slot18;
@@ -1499,34 +1508,34 @@ case 58:
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var16 = var22.bind(var23)(var16, var18);
+            var16 = var24.bind(var25)(var16, var22);
             var2 = !var2;
-            if(var2) { _fun0004_ip = 60; continue _fun0004 }
-case 61:
-            var18 = var5;
-            if(!var18) { _fun0004_ip = 62; continue _fun0004 }
-case 63:
-            var18 = var19;
+            if(var2) { _fun0004_ip = 61; continue _fun0004 }
 case 62:
-            var2 = var18;
-case 60:
-            if(var2) { _fun0004_ip = 64; continue _fun0004 }
-case 65:
-            if(!var11) { _fun0004_ip = 66; continue _fun0004 }
-case 67:
-            var19 = var17.length;
-            var18 = 0;
-            var11 = var18 === var19;
-case 66:
-            var2 = var11;
+            var22 = var5;
+            if(!var22) { _fun0004_ip = 63; continue _fun0004 }
 case 64:
+            var22 = var23;
+case 63:
+            var2 = var22;
+case 61:
+            if(var2) { _fun0004_ip = 65; continue _fun0004 }
+case 66:
+            if(!var11) { _fun0004_ip = 67; continue _fun0004 }
+case 68:
+            var23 = var17.length;
+            var22 = 0;
+            var11 = var22 === var23;
+case 67:
+            var2 = var11;
+case 65:
             _closure2_slot15 = var2;
-            var18 = _closure1_slot4;
-            var11 = var18.useRef;
-            var11 = var11.bind(var18)(var5);
+            var22 = _closure1_slot4;
+            var11 = var22.useRef;
+            var11 = var11.bind(var22)(var5);
             _closure2_slot16 = var11;
-            var19 = _closure1_slot4;
-            var18 = var19.useEffect;
+            var23 = _closure1_slot4;
+            var22 = var23.useEffect;
             var11 = new Array(1);
             var11[0] = var5;
             var5 = function() {
@@ -1536,20 +1545,20 @@ case 64:
                 var1 = undefined;
                 return var1;
             };
-            var5 = var18.bind(var19)(var5, var11);
-            var19 = _closure1_slot4;
-            var18 = var19.useEffect;
+            var5 = var22.bind(var23)(var5, var11);
+            var23 = _closure1_slot4;
+            var22 = var23.useEffect;
             var11 = new Array(1);
             var11[0] = var4;
             var5 = function() {
                 _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                     var1 = _closure2_slot3;
-                    if(var1) { _fun0016_ip = 68; continue _fun0016 }
+                    if(var1) { _fun0016_ip = 69; continue _fun0016 }
 case 41:
                     var1 = undefined;
                     return var1;
-case 68:
+case 69:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 46;
@@ -1576,9 +1585,9 @@ case 68:
                     return var1;
                 }
             };
-            var5 = var18.bind(var19)(var5, var11);
-            var19 = _closure1_slot4;
-            var18 = var19.useEffect;
+            var5 = var22.bind(var23)(var5, var11);
+            var23 = _closure1_slot4;
+            var22 = var23.useEffect;
             var11 = new Array(2);
             var11[0] = var4;
             var11[1] = var2;
@@ -1586,13 +1595,13 @@ case 68:
                 _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                     var1 = _closure2_slot3;
-                    if(!var1) { _fun0017_ip = 69; continue _fun0017 }
+                    if(!var1) { _fun0017_ip = 70; continue _fun0017 }
 case 41:
                     var2 = _closure2_slot15;
                     var1 = !var2;
-case 69:
-                    if(!var1) { _fun0017_ip = 70; continue _fun0017 }
-case 71:
+case 70:
+                    if(!var1) { _fun0017_ip = 71; continue _fun0017 }
+case 72:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 46;
@@ -1605,56 +1614,71 @@ case 71:
                     var4 = var4.current;
                     var1['includesBounties'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 70:
+case 71:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var5 = var18.bind(var19)(var5, var11);
+            var5 = var22.bind(var23)(var5, var11);
+            var11 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var21];
+            var11 = var11.bind(var6)(var5);
+            var5 = var11.useShouldShowPreviewToolTab;
+            var21 = var5.bind(var11)();
             var1 = null;
-            if(!var4) { _fun0004_ip = 72; continue _fun0004 }
-case 73:
-            if(var2) { _fun0004_ip = 74; continue _fun0004 }
-case 75:
+            if(!var4) { _fun0004_ip = 73; continue _fun0004 }
+case 74:
+            if(var2) { _fun0004_ip = 75; continue _fun0004 }
+case 76:
             var2 = var17.length;
             var4 = 0;
-            if(!(var4 !== var2)) { _fun0004_ip = 76; continue _fun0004 }
-case 77:
+            if(!(var4 !== var2)) { _fun0004_ip = 77; continue _fun0004 }
+case 78:
             var11 = _closure1_slot14;
-            var18 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var5 = _closure1_slot0;
+            var22 = _closure1_slot2;
             var2 = 47;
-            var2 = var19[var2];
-            var2 = var18.bind(var6)(var2);
+            var2 = var22[var2];
+            var2 = var5.bind(var6)(var2);
             var5 = var2.FlashList;
             var2 = {};
-            var2['ref'] = var20;
-            var20 = {};
-            var23 = _closure1_slot1;
-            var22 = 11;
-            var22 = var19[var22];
-            var22 = var23.bind(var6)(var22);
-            var22 = var22.space;
-            var22 = var22.PX_16;
-            var20['paddingTop'] = var22;
-            var20['paddingBottom'] = var21;
-            var2['contentContainerStyle'] = var20;
-            var21 = var8.container;
-            var20 = new Array(2);
-            var20[0] = var21;
-            var20[1] = var9;
-            var2['style'] = var20;
-            var20 = 20;
-            var21 = var19[var20];
-            var21 = var18.bind(var6)(var21);
-            var22 = var21.intl;
-            var21 = var22.string;
-            var20 = var19[var20];
-            var20 = var18.bind(var6)(var20);
-            var20 = var20.t;
-            var20 = var20.JALI2K;
-            var20 = var21.bind(var22)(var20);
-            var2['accessibilityLabel'] = var20;
+            var2['ref'] = var18;
+            var18 = {};
+            if(!var20) { _fun0004_ip = 79; continue _fun0004 }
+case 80:
+            var20 = 0;
+            if(!var21) { _fun0004_ip = 81; continue _fun0004 }
+case 79:
+            var22 = _closure1_slot1;
+            var23 = _closure1_slot2;
+            var21 = 11;
+            var21 = var23[var21];
+            var21 = var22.bind(var6)(var21);
+            var21 = var21.space;
+            var20 = var21.PX_16;
+case 81:
+            var18['paddingTop'] = var20;
+            var18['paddingBottom'] = var19;
+            var2['contentContainerStyle'] = var18;
+            var19 = var8.container;
+            var18 = new Array(2);
+            var18[0] = var19;
+            var18[1] = var9;
+            var2['style'] = var18;
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var18 = 20;
+            var19 = var22[var18];
+            var19 = var21.bind(var6)(var19);
+            var20 = var19.intl;
+            var19 = var20.string;
+            var18 = var22[var18];
+            var18 = var21.bind(var6)(var18);
+            var18 = var18.t;
+            var18 = var18.JALI2K;
+            var18 = var19.bind(var20)(var18);
+            var2['accessibilityLabel'] = var18;
             var2['data'] = var17;
             var17 = function renderItem(arg1) {
                 var2 = arg1;
@@ -1720,30 +1744,19 @@ case 77:
                 return var1;
             };
             var2['renderItem'] = var17;
-            var17 = 50;
-            var17 = var19[var17];
-            var17 = var18.bind(var6)(var17);
-            var17 = var17.ESTIMATED_CARD_HEIGHT;
-            var2['estimatedItemSize'] = var17;
             var17 = false;
             var2['showsHorizontalScrollIndicator'] = var17;
             var2['ListHeaderComponent'] = var16;
             var15 = function CellRendererComponent(arg1) {
-                var6 = arg1;
-                var _closure3_slot0 = var6;
+                var5 = arg1;
+                var _closure3_slot0 = var5;
                 var4 = _closure1_slot14;
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 47;
-                var1 = var3[var1];
-                var3 = undefined;
-                var1 = var2.bind(var3)(var1);
-                var2 = var1.CellContainer;
-                var1 = {};
-                var8 = var1;
-                var7 = var6;
-                var6 = copyDataProperties(var8, var7);
-                var6 = function onLayout(arg1) {
+                var3 = _closure1_slot5;
+                var2 = {};
+                var7 = var2;
+                var6 = var5;
+                var5 = copyDataProperties(var7, var6);
+                var5 = function onLayout(arg1) {
                     _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                         var3 = arg1;
@@ -1752,13 +1765,13 @@ case 0:
                         var2 = var2.index;
                         var2 = var5[var2];
                         var5 = null;
-                        if(!(var5 != var2)) { _fun0018_ip = 78; continue _fun0018 }
-case 79:
+                        if(!(var5 != var2)) { _fun0018_ip = 82; continue _fun0018 }
+case 83:
                         var5 = _closure2_slot11;
                         var4 = var2.id;
                         var2 = undefined;
                         var2 = var5.bind(var2)(var3, var4);
-case 78:
+case 82:
                         var2 = _closure3_slot0;
                         var1 = var2.onLayout;
                         var1 = var1.bind(var2)(var3);
@@ -1766,9 +1779,10 @@ case 78:
                         return var1;
                     }
                 };
-                var5 = 'onLayout';
-                var1[4] = var6;
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = 'onLayout';
+                var2[0] = var5;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var2['CellRendererComponent'] = var15;
@@ -1778,27 +1792,27 @@ case 78:
             var12 = 16;
             var2['scrollEventThrottle'] = var12;
             var2 = var11.bind(var6)(var5, var2);
-            _fun0004_ip = 80; continue _fun0004;
-case 76:
+            _fun0004_ip = 84; continue _fun0004;
+case 77:
             var3 = var3.length;
-            if(!(var4 !== var3)) { _fun0004_ip = 81; continue _fun0004 }
-case 82:
+            if(!(var4 !== var3)) { _fun0004_ip = 85; continue _fun0004 }
+case 86:
             var5 = _closure1_slot14;
             var4 = _closure1_slot20;
             var3 = {};
             var3['onClearFilters'] = var10;
             var3 = var5.bind(var6)(var4, var3);
-            _fun0004_ip = 83; continue _fun0004;
-case 81:
+            _fun0004_ip = 87; continue _fun0004;
+case 85:
             var10 = _closure1_slot14;
             var5 = _closure1_slot19;
             var4 = {};
             var3 = var10.bind(var6)(var5, var4);
-case 83:
+case 87:
             var2 = var3;
-case 80:
-            _fun0004_ip = 84; continue _fun0004;
-case 74:
+case 84:
+            _fun0004_ip = 88; continue _fun0004;
+case 75:
             var5 = _closure1_slot14;
             var4 = _closure1_slot5;
             var3 = {};
@@ -1815,9 +1829,9 @@ case 74:
             var7 = var9.bind(var6)(var8, var7);
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 84:
+case 88:
             var1 = var2;
-case 72:
+case 73:
             return var1;
         }
     };

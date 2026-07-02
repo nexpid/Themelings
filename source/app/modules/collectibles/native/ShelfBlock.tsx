@@ -189,7 +189,7 @@ case 0:
             var6 = var9.bind(var4)(var5);
             var5 = var6.useCollectiblesCoachmarkScrollDismissContext;
             var5 = var5.bind(var6)();
-            var19 = var5.handleDismissCoachmarkOnScroll;
+            var18 = var5.handleDismissCoachmarkOnScroll;
             var8 = _closure1_slot1;
             var6 = 11;
             var5 = var11[var6];
@@ -414,7 +414,7 @@ case 14:
             var9 = {};
             var12 = var24.header;
             var9['style'] = var12;
-            var18 = _closure1_slot9;
+            var19 = _closure1_slot9;
             var13 = _closure1_slot5;
             var12 = {};
             var24 = var24.headingWrapper;
@@ -448,7 +448,7 @@ case 16:
             var24['children'] = var28;
             var24 = var27.bind(var4)(var26, var24);
             var12['children'] = var24;
-            var13 = var18.bind(var4)(var13, var12);
+            var13 = var19.bind(var4)(var13, var12);
             var12 = new Array(2);
             var12[0] = var13;
             var13 = var22.showButton;
@@ -458,7 +458,7 @@ case 21:
 case 20:
             if(!var13) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-            var18 = _closure1_slot9;
+            var19 = _closure1_slot9;
             var17 = _closure1_slot0;
             var24 = _closure1_slot2;
             var14 = 19;
@@ -486,7 +486,7 @@ case 24:
             var24 = var25.bind(var26)(var24);
             var14['text'] = var24;
             var14['onPress'] = var23;
-            var13 = var18.bind(var4)(var17, var14);
+            var13 = var19.bind(var4)(var17, var14);
 case 22:
             var12[1] = var13;
             var9['children'] = var12;
@@ -494,15 +494,15 @@ case 22:
             var8[1] = var9;
             var11 = _closure1_slot9;
             var17 = _closure1_slot0;
-            var18 = _closure1_slot2;
+            var19 = _closure1_slot2;
             var9 = 21;
-            var9 = var18[var9];
+            var9 = var19[var9];
             var9 = var17.bind(var4)(var9);
             var10 = var9.LayerScope;
             var9 = {};
             var14 = _closure1_slot9;
             var12 = 22;
-            var12 = var18[var12];
+            var12 = var19[var12];
             var12 = var17.bind(var4)(var12);
             var13 = var12.FlashList;
             var12 = {'horizontal': true, 'accessibilityRole': 'list'};
@@ -510,26 +510,22 @@ case 22:
             var12['accessibilityLabel'] = var22;
             var12['data'] = var21;
             var12['keyExtractor'] = var20;
-            var12['onScroll'] = var19;
+            var12['onScroll'] = var18;
             var12['renderItem'] = var16;
             var16 = 'fast';
             var12['decelerationRate'] = var16;
             var16 = 17;
-            var19 = var18[var16];
-            var19 = var17.bind(var4)(var19);
-            var20 = var19.COLLECTIBLES_SHOP_CARD_WIDTH;
-            var21 = _closure1_slot1;
-            var19 = 7;
-            var19 = var18[var19];
-            var19 = var21.bind(var4)(var19);
-            var19 = var19.space;
-            var19 = var19.PX_12;
-            var19 = var20 + var19;
-            var12['snapToInterval'] = var19;
-            var16 = var18[var16];
+            var16 = var19[var16];
             var16 = var17.bind(var4)(var16);
-            var16 = var16.COLLECTIBLES_SHOP_CARD_WIDTH;
-            var12['estimatedItemSize'] = var16;
+            var17 = var16.COLLECTIBLES_SHOP_CARD_WIDTH;
+            var18 = _closure1_slot1;
+            var16 = 7;
+            var16 = var19[var16];
+            var16 = var18.bind(var4)(var16);
+            var16 = var16.space;
+            var16 = var16.PX_12;
+            var16 = var17 + var16;
+            var12['snapToInterval'] = var16;
             var16 = false;
             var12['showsHorizontalScrollIndicator'] = var16;
             var16 = _closure1_slot12;

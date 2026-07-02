@@ -39,29 +39,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var4;
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
-        var4 = arg1;
-        var2 = var4.categoryIndexActive;
-        var _closure2_slot0 = var2;
-        var2 = var4.data;
-        var13 = var2.data;
-        var5 = var2.headerIndices;
+        var1 = arg1;
+        var3 = var1.categoryIndexActive;
+        var _closure2_slot0 = var3;
+        var3 = var1.data;
+        var12 = var3.data;
+        var5 = var3.headerIndices;
         var _closure2_slot1 = var5;
-        var2 = var4.onShowNitroUpsell;
-        var10 = var4.paddingTop;
+        var3 = var1.onShowNitroUpsell;
+        var10 = var1.paddingTop;
         var _closure2_slot2 = var10;
-        var3 = var4.paddingBottom;
-        var _closure2_slot3 = var3;
-        var6 = var4.renderItem;
-        var9 = _closure1_slot3;
-        var7 = var9.useRef;
-        var4 = null;
-        var7 = var7.bind(var9)(var4);
+        var4 = var1.paddingBottom;
+        var _closure2_slot3 = var4;
+        var6 = var1.renderItem;
+        var14 = _closure1_slot3;
+        var8 = var14.useRef;
+        var7 = null;
+        var7 = var8.bind(var14)(var7);
         var _closure2_slot4 = var7;
-        var8 = var9.useMemo;
-        var4 = new Array(2);
-        var4[0] = var10;
-        var4[1] = var3;
-        var3 = function() {
+        var9 = var14.useMemo;
+        var8 = new Array(2);
+        var8[0] = var10;
+        var8[1] = var4;
+        var4 = function() {
             var1 = {};
             var3 = _closure2_slot2;
             var1['paddingTop'] = var3;
@@ -69,17 +69,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['paddingBottom'] = var2;
             return var1;
         };
-        var14 = var8.bind(var9)(var3, var4);
-        var8 = var9.useCallback;
-        var4 = function(arg1) {
+        var13 = var9.bind(var14)(var4, var8);
+        var9 = var14.useCallback;
+        var8 = function(arg1) {
             var1 = arg1;
             var1 = var1.type;
             return var1;
         };
-        var3 = new Array(0);
-        var11 = var8.bind(var9)(var4, var3);
-        var8 = var9.useCallback;
-        var4 = function(arg1, arg2) {
+        var4 = new Array(0);
+        var11 = var9.bind(var14)(var8, var4);
+        var9 = var14.useCallback;
+        var8 = function(arg1, arg2) {
             var1 = arg1;
             var5 = var1.type;
             var1 = global;
@@ -91,10 +91,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var3)(var5, var2, var1);
             return var1;
         };
-        var3 = new Array(0);
-        var10 = var8.bind(var9)(var4, var3);
-        var8 = var9.useCallback;
-        var4 = function(arg1, arg2) {
+        var4 = new Array(0);
+        var10 = var9.bind(var14)(var8, var4);
+        var9 = var14.useCallback;
+        var8 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = arg1;
@@ -169,11 +169,11 @@ case 9:
                 return var1;
             }
         };
-        var3 = new Array(0);
-        var8 = var8.bind(var9)(var4, var3);
-        var4 = var9.useImperativeHandle;
-        var3 = arg2;
-        var1 = function() {
+        var4 = new Array(0);
+        var8 = var9.bind(var14)(var8, var4);
+        var9 = var14.useImperativeHandle;
+        var4 = arg2;
+        var2 = function() {
             var1 = {};
             var3 = function scrollToHeaderIndex(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -260,26 +260,24 @@ case 19:
             var1['onStickyHeaderRendered'] = var2;
             return var1;
         };
-        var1 = var4.bind(var9)(var3, var1);
-        var3 = _closure1_slot1;
-        var15 = _closure1_slot2;
-        var1 = 5;
-        var1 = var15[var1];
+        var2 = var9.bind(var14)(var4, var2);
+        var9 = _closure1_slot1;
+        var14 = _closure1_slot2;
+        var2 = 5;
+        var2 = var14[var2];
         var4 = undefined;
-        var1 = var3.bind(var4)(var1);
-        var1 = var1.bind(var4)(var2);
-        var9 = var1.onViewableItemsChanged;
+        var2 = var9.bind(var4)(var2);
+        var2 = var2.bind(var4)(var3);
+        var9 = var2.onViewableItemsChanged;
         var3 = _closure1_slot8;
         var2 = _closure1_slot0;
         var1 = 6;
-        var1 = var15[var1];
+        var1 = var14[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.BottomSheetFlashList;
         var1 = {};
-        var1['contentContainerStyle'] = var14;
-        var1['data'] = var13;
-        var12 = _closure1_slot4;
-        var1['estimatedItemSize'] = var12;
+        var1['contentContainerStyle'] = var13;
+        var1['data'] = var12;
         var1['getItemType'] = var11;
         var11 = 'always';
         var1['keyboardShouldPersistTaps'] = var11;

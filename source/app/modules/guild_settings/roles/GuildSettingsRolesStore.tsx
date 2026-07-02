@@ -333,16 +333,89 @@ case 30:
         return var1;
     };
     var _closure1_slot39 = var1;
+    var1 = function getRolesInOrder(arg1, arg2) {
+        var5 = arg1;
+        var6 = arg2;
+        var _closure2_slot0 = var5;
+        var3 = var6.map;
+        var2 = function(arg1) {
+            var3 = _closure2_slot0;
+            var2 = var3.get;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var4 = var3.bind(var6)(var2);
+        var3 = var4.filter;
+        var8 = _closure1_slot0;
+        var7 = _closure1_slot3;
+        var2 = 13;
+        var7 = var7[var2];
+        var2 = undefined;
+        var2 = var8.bind(var2)(var7);
+        var2 = var2.isNotNullish;
+        var3 = var3.bind(var4)(var2);
+        var _closure2_slot1 = var3;
+        var2 = global;
+        var2 = var2.Set;
+        var4 = var2.prototype;
+        var4 = Object.create(var4, {constructor: {value: var2}});
+        var10 = var4;
+        var9 = var6;
+        var2 = new var10[var2](var9, var8);
+        var2 = var2 instanceof Object ? var2 : var4;
+        var _closure2_slot2 = var2;
+        var4 = var5.forEach;
+        var2 = function(arg1, arg2) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var4 = _closure2_slot2;
+                var3 = var4.has;
+                var2 = arg2;
+                var2 = var3.bind(var4)(var2);
+                if(var2) { _fun0006_ip = 38; continue _fun0006 }
+case 8:
+                var3 = _closure2_slot1;
+                var2 = var3.push;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+case 38:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var2 = var4.bind(var5)(var2);
+        var2 = var3.length;
+        var _closure2_slot3 = var2;
+        var2 = var3.map;
+        var1 = function(arg1, arg2) {
+            var1 = {};
+            var4 = arg1;
+            var5 = var1;
+            var2 = copyDataProperties(var5, var4);
+            var3 = _closure2_slot3;
+            var2 = 1;
+            var3 = var3 - var2;
+            var2 = arg2;
+            var3 = var3 - var2;
+            var2 = 'position';
+            var1[1] = var3;
+            return var1;
+        };
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var _closure1_slot40 = var1;
     var1 = function updateRole(arg1, arg2) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var3 = arg1;
             var4 = _closure1_slot27;
             var2 = var4.indexOf;
             var4 = var2.bind(var4)(var3);
             var6 = 0;
-            if(!(!(var4 < var6))) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+            if(!(!(var4 < var6))) { _fun0007_ip = 39; continue _fun0007 }
+case 40:
             var2 = {};
             var9 = var2;
             var8 = var3;
@@ -367,12 +440,12 @@ case 39:
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
-case 38:
+case 39:
             var1 = false;
             return var1;
         }
     };
-    var _closure1_slot40 = var1;
+    var _closure1_slot41 = var1;
     var1 = function _getRole(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -388,9 +461,9 @@ case 38:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot41 = var1;
+    var _closure1_slot42 = var1;
     var8 = function syncGuildChanges(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var8 = var1.guildId;
@@ -403,17 +476,17 @@ case 0:
             var5 = var4.guild;
             _closure1_slot19 = var5;
             var4 = null;
-            if(!(var4 != var5)) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+            if(!(var4 != var5)) { _fun0008_ip = 41; continue _fun0008 }
+case 42:
             var4 = _closure1_slot19;
             var4 = var4.id;
-            if(!(var8 === var4)) { _fun0007_ip = 40; continue _fun0007 }
+            if(!(var8 === var4)) { _fun0008_ip = 41; continue _fun0008 }
 case 22:
             var5 = _closure1_slot24;
             var4 = _closure1_slot14;
             var4 = var4.SUBMITTING;
-            if(!(var5 !== var4)) { _fun0007_ip = 40; continue _fun0007 }
-case 42:
+            if(!(var5 !== var4)) { _fun0008_ip = 41; continue _fun0008 }
+case 43:
             var6 = _closure1_slot11;
             var5 = var6.getSortedRoles;
             var4 = _closure1_slot19;
@@ -428,11 +501,11 @@ case 42:
             var9 = _closure1_slot23;
             var7 = var9.forEach;
             var6 = function(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var4 = arg1;
                     var _closure3_slot0 = var4;
-                    var5 = _closure1_slot41;
+                    var5 = _closure1_slot42;
                     var1 = undefined;
                     var6 = var5.bind(var1)(var4);
                     var5 = -1;
@@ -440,13 +513,13 @@ case 0:
                     var9 = _closure2_slot0;
                     var8 = var9.find;
                     var7 = function(arg1, arg2) {
-                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                             var1 = arg1;
                             var3 = var1.id;
                             var1 = _closure3_slot0;
-                            if(!(var3 !== var1)) { _fun0009_ip = 8; continue _fun0009 }
-case 43:
+                            if(!(var3 !== var1)) { _fun0010_ip = 8; continue _fun0010 }
+case 44:
                             var1 = undefined;
                             return var1;
 case 8:
@@ -458,30 +531,30 @@ case 8:
                     };
                     var8 = var8.bind(var9)(var7);
                     var7 = null;
-                    if(!(var7 != var8)) { _fun0008_ip = 44; continue _fun0008 }
-case 45:
-                    if(!(var7 != var6)) { _fun0008_ip = 44; continue _fun0008 }
+                    if(!(var7 != var8)) { _fun0009_ip = 45; continue _fun0009 }
 case 46:
+                    if(!(var7 != var6)) { _fun0009_ip = 45; continue _fun0009 }
+case 47:
                     var5 = _closure2_slot0;
                     var3 = _closure3_slot1;
                     var5[var3] = var6;
-                    _fun0008_ip = 47; continue _fun0008;
-case 44:
+                    _fun0009_ip = 48; continue _fun0009;
+case 45:
                     var3 = _closure1_slot23;
                     var2 = var3.delete;
                     var2 = var2.bind(var3)(var4);
-case 47:
+case 48:
                     return var1;
                 }
             };
             var6 = var7.bind(var9)(var6);
             var6 = _closure1_slot23;
             var6 = var6.size;
-            if(!(var4 === var6)) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
+            if(!(var4 === var6)) { _fun0008_ip = 49; continue _fun0008 }
+case 50:
             var6 = false;
             _closure1_slot25 = var6;
-case 48:
+case 49:
             var6 = global;
             var6 = var6.Map;
             var7 = var6.prototype;
@@ -493,19 +566,19 @@ case 48:
             var10 = _closure1_slot23;
             var9 = var10.forEach;
             var6 = function(arg1) {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var4 = arg1;
                     var2 = _closure1_slot33;
                     var1 = var2.get;
                     var3 = var1.bind(var2)(var4);
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0010_ip = 50; continue _fun0010 }
-case 51:
+                    if(!(var1 != var3)) { _fun0011_ip = 51; continue _fun0011 }
+case 52:
                     var2 = _closure2_slot1;
                     var1 = var2.set;
                     var1 = var1.bind(var2)(var4, var3);
-case 50:
+case 51:
                     var1 = undefined;
                     return var1;
                 }
@@ -536,12 +609,12 @@ case 50:
             var4 = arraySpread(var13, var12, var11);
             _closure1_slot27 = var2;
             return var1;
-case 40:
+case 41:
             var1 = false;
             return var1;
         }
     };
-    var _closure1_slot42 = var8;
+    var _closure1_slot43 = var8;
     var4 = global;
     var12 = var4.Object;
     var10 = var12.defineProperty;
@@ -664,13 +737,13 @@ case 40:
     var13 = var9.bind(var1)(var4);
     var12 = var13.debounce;
     var10 = function() {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var3 = false;
             var _closure2_slot0 = var3;
             var4 = _closure1_slot26;
-            if(!var4) { _fun0011_ip = 52; continue _fun0011 }
-case 53:
+            if(!var4) { _fun0012_ip = 53; continue _fun0012 }
+case 54:
             var5 = _closure1_slot37;
             var4 = undefined;
             var4 = var5.bind(var4)();
@@ -678,11 +751,11 @@ case 53:
             var4 = 0;
             var4 = var5 > var4;
             _closure1_slot26 = var4;
-            if(var4) { _fun0011_ip = 52; continue _fun0011 }
-case 54:
+            if(var4) { _fun0012_ip = 53; continue _fun0012 }
+case 55:
             var4 = true;
             _closure2_slot0 = var4;
-case 52:
+case 53:
             var10 = _closure1_slot23;
             var7 = new Array(0);
             var5 = 0;
@@ -691,7 +764,7 @@ case 52:
             var4 = arraySpread(var11, var10, var9);
             var6 = var7.forEach;
             var4 = function(arg1) {
-                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                     var4 = arg1;
                     var5 = _closure1_slot1;
@@ -701,7 +774,7 @@ case 0:
                     var1 = undefined;
                     var7 = var5.bind(var1)(var3);
                     var6 = var7.isEqual;
-                    var3 = _closure1_slot41;
+                    var3 = _closure1_slot42;
                     var5 = var3.bind(var1)(var4);
                     var3 = function getOriginalRole(arg1) {
                         var2 = arg1;
@@ -720,27 +793,27 @@ case 0:
                     };
                     var3 = var3.bind(var1)(var4);
                     var3 = var6.bind(var7)(var5, var3);
-                    if(!var3) { _fun0012_ip = 55; continue _fun0012 }
-case 56:
+                    if(!var3) { _fun0013_ip = 56; continue _fun0013 }
+case 57:
                     var3 = _closure1_slot23;
                     var2 = var3.delete;
                     var2 = var2.bind(var3)(var4);
                     var2 = true;
                     _closure2_slot0 = var2;
-case 55:
+case 56:
                     return var1;
                 }
             };
             var4 = var6.bind(var7)(var4);
             var4 = _closure1_slot23;
             var4 = var4.size;
-            if(!(var5 === var4)) { _fun0011_ip = 57; continue _fun0011 }
-case 58:
+            if(!(var5 === var4)) { _fun0012_ip = 58; continue _fun0012 }
+case 59:
             _closure1_slot25 = var3;
-case 57:
+case 58:
             var4 = _closure1_slot29;
-            if(!var4) { _fun0011_ip = 59; continue _fun0011 }
-case 60:
+            if(!var4) { _fun0012_ip = 60; continue _fun0012 }
+case 61:
             var7 = _closure1_slot1;
             var6 = _closure1_slot3;
             var5 = 18;
@@ -751,20 +824,20 @@ case 60:
             var6 = _closure1_slot31;
             var5 = _closure1_slot32;
             var4 = var7.bind(var8)(var6, var5);
-case 59:
-            if(!var4) { _fun0011_ip = 61; continue _fun0011 }
-case 62:
+case 60:
+            if(!var4) { _fun0012_ip = 62; continue _fun0012 }
+case 63:
             var4 = true;
             _closure2_slot0 = var4;
             _closure1_slot29 = var3;
-case 61:
+case 62:
             var2 = _closure2_slot0;
-            if(!var2) { _fun0011_ip = 63; continue _fun0011 }
-case 64:
+            if(!var2) { _fun0012_ip = 64; continue _fun0012 }
+case 65:
             var2 = _closure1_slot35;
             var1 = var2.emitChange;
             var1 = var1.bind(var2)();
-case 63:
+case 64:
             var1 = undefined;
             return var1;
         }
@@ -778,7 +851,7 @@ case 63:
     var10 = var4.Store;
     var4 = function(arg1) {
         var4 = function GuildSettingsRolesStore() {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var4 = this;
                 var3 = undefined;
@@ -791,14 +864,14 @@ case 0:
                 var2 = _closure1_slot6;
                 var1 = _closure1_slot36;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0013_ip = 65; continue _fun0013 }
-case 66:
+                if(var1) { _fun0014_ip = 66; continue _fun0014 }
+case 67:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0013_ip = 57; continue _fun0013;
-case 65:
+                _fun0014_ip = 58; continue _fun0014;
+case 66:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -807,7 +880,7 @@ case 65:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 57:
+case 58:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -838,17 +911,17 @@ case 57:
         var7 = 'hasChanges';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var1 = _closure1_slot25;
-                if(var1) { _fun0014_ip = 67; continue _fun0014 }
-case 68:
-                var1 = _closure1_slot26;
-case 67:
-                if(var1) { _fun0014_ip = 69; continue _fun0014 }
-case 70:
-                var1 = _closure1_slot29;
+                if(var1) { _fun0015_ip = 68; continue _fun0015 }
 case 69:
+                var1 = _closure1_slot26;
+case 68:
+                if(var1) { _fun0015_ip = 70; continue _fun0015 }
+case 71:
+                var1 = _closure1_slot29;
+case 70:
                 return var1;
             }
         };
@@ -968,7 +1041,7 @@ case 69:
         var7 = 'getRole';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot41;
+            var3 = _closure1_slot42;
             var2 = undefined;
             var1 = arg1;
             var1 = var3.bind(var2)(var1);
@@ -1014,22 +1087,22 @@ case 69:
     var4['GUILD_SETTINGS_INIT'] = var11;
     var4['GUILD_SETTINGS_SET_SECTION'] = var11;
     var11 = function handleSortUpdate(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.roles;
             var3 = _closure1_slot27;
             var1 = null;
-            if(!(var1 != var3)) { _fun0015_ip = 71; continue _fun0015 }
+            if(!(var1 != var3)) { _fun0016_ip = 38; continue _fun0016 }
 case 11:
             var3 = var4.length;
             var1 = _closure1_slot27;
             var1 = var1.length;
-            if(!(var3 === var1)) { _fun0015_ip = 72; continue _fun0015 }
-case 71:
+            if(!(var3 === var1)) { _fun0016_ip = 72; continue _fun0016 }
+case 38:
             var3 = var4.map;
             var1 = function(arg1) {
-                var3 = _closure1_slot41;
+                var3 = _closure1_slot42;
                 var2 = undefined;
                 var1 = arg1;
                 var1 = var3.bind(var2)(var1);
@@ -1058,32 +1131,32 @@ case 72:
     };
     var4['GUILD_SETTINGS_ROLES_SORT_UPDATE'] = var11;
     var11 = function handleUpdatePermissions(arg1) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.id;
             var9 = var1.flag;
             var5 = var1.allow;
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot42;
             var4 = undefined;
             var3 = var1.bind(var4)(var2);
             var1 = null;
-            if(!(var1 != var3)) { _fun0016_ip = 73; continue _fun0016 }
-case 71:
+            if(!(var1 != var3)) { _fun0017_ip = 73; continue _fun0017 }
+case 38:
             var8 = var3.permissions;
-            var2 = _closure1_slot40;
+            var2 = _closure1_slot41;
             var1 = {};
             var7 = _closure1_slot2;
             var10 = _closure1_slot3;
             var6 = 14;
             var6 = var10[var6];
             var7 = var7.bind(var4)(var6);
-            if(var5) { _fun0016_ip = 55; continue _fun0016 }
+            if(var5) { _fun0017_ip = 56; continue _fun0017 }
 case 74:
             var5 = var7.remove;
             var5 = var5.bind(var7)(var8, var9);
-            _fun0016_ip = 75; continue _fun0016;
-case 55:
+            _fun0017_ip = 75; continue _fun0017;
+case 56:
             var6 = var7.add;
             var5 = var6.bind(var7)(var8, var9);
 case 75:
@@ -1097,19 +1170,19 @@ case 73:
     };
     var4['GUILD_SETTINGS_ROLES_UPDATE_PERMISSIONS'] = var11;
     var11 = function handleUpdatePermissionSet(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.id;
             var6 = var1.permissions;
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot42;
             var5 = undefined;
             var4 = var1.bind(var5)(var3);
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0017_ip = 76; continue _fun0017 }
+            if(!var1) { _fun0018_ip = 76; continue _fun0018 }
 case 77:
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var2 = {};
             var2['permissions'] = var6;
             var1 = var3.bind(var5)(var4, var2);
@@ -1119,18 +1192,18 @@ case 76:
     };
     var4['GUILD_SETTINGS_ROLES_UPDATE_PERMISSION_SET'] = var11;
     var11 = function handleClearRolePermissions(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.id;
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot42;
             var5 = undefined;
             var4 = var1.bind(var5)(var2);
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0018_ip = 5; continue _fun0018 }
+            if(!var1) { _fun0019_ip = 5; continue _fun0019 }
 case 78:
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var2 = {};
             var7 = _closure1_slot2;
             var8 = _closure1_slot3;
@@ -1146,51 +1219,51 @@ case 5:
     };
     var4['GUILD_SETTINGS_ROLES_CLEAR_PERMISSIONS'] = var11;
     var11 = function handleUpdateName(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.id;
             var6 = var1.name;
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot42;
             var5 = undefined;
             var4 = var1.bind(var5)(var3);
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0019_ip = 52; continue _fun0019 }
+            if(!var1) { _fun0020_ip = 53; continue _fun0020 }
 case 12:
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var2 = {};
             var2['name'] = var6;
             var1 = var3.bind(var5)(var4, var2);
-case 52:
+case 53:
             return var1;
         }
     };
     var4['GUILD_SETTINGS_ROLES_UPDATE_NAME'] = var11;
     var11 = function handleUpdateDescription(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.id;
             var6 = var1.description;
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot42;
             var5 = undefined;
             var4 = var1.bind(var5)(var3);
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0020_ip = 52; continue _fun0020 }
+            if(!var1) { _fun0021_ip = 53; continue _fun0021 }
 case 12:
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var2 = {};
             var2['description'] = var6;
             var1 = var3.bind(var5)(var4, var2);
-case 52:
+case 53:
             return var1;
         }
     };
     var4['GUILD_SETTINGS_ROLES_UPDATE_DESCRIPTION'] = var11;
     var11 = function handleUpdateColor(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var1 = arg1;
             var11 = var1.id;
@@ -1198,7 +1271,7 @@ case 0:
             var6 = null;
             var1 = 0;
             var8 = null;
-            if(!(var1 !== var9)) { _fun0021_ip = 79; continue _fun0021 }
+            if(!(var1 !== var9)) { _fun0022_ip = 79; continue _fun0022 }
 case 8:
             var3 = _closure1_slot0;
             var2 = _closure1_slot3;
@@ -1209,16 +1282,16 @@ case 8:
             var1 = var2.int2hex;
             var8 = var1.bind(var2)(var9);
 case 79:
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot42;
             var5 = undefined;
             var4 = var1.bind(var5)(var11);
-            if(!(var6 != var4)) { _fun0021_ip = 80; continue _fun0021 }
+            if(!(var6 != var4)) { _fun0022_ip = 80; continue _fun0022 }
 case 24:
             var3 = _closure1_slot33;
             var1 = var3.get;
             var12 = var1.bind(var3)(var11);
             var1 = var6 != var12;
-            if(!var1) { _fun0021_ip = 81; continue _fun0021 }
+            if(!var1) { _fun0022_ip = 81; continue _fun0022 }
 case 82:
             var3 = _closure1_slot22;
             var3 = var3.SOLID;
@@ -1236,7 +1309,7 @@ case 82:
             var14 = var12;
             var12 = copyDataProperties(var15, var14);
             var3 = var7.bind(var10)(var11, var3);
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var2 = {};
             var2['color'] = var9;
             var2['colorString'] = var8;
@@ -1245,7 +1318,7 @@ case 82:
             var2['colors'] = var7;
             var7 = var6 != var8;
             var6 = null;
-            if(!var7) { _fun0021_ip = 83; continue _fun0021 }
+            if(!var7) { _fun0022_ip = 83; continue _fun0022 }
 case 84:
             var7 = {'primaryColor': null, 'secondaryColor': null, 'tertiaryColor': null};
             var7['primaryColor'] = var8;
@@ -1262,17 +1335,17 @@ case 80:
     };
     var4['GUILD_SETTINGS_ROLES_UPDATE_COLOR'] = var11;
     var11 = function handleUpdateColors(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var1 = arg1;
             var10 = var1.id;
             var7 = var1.colors;
             var3 = var1.currentStyle;
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot42;
             var5 = undefined;
             var4 = var1.bind(var5)(var10);
             var1 = null;
-            if(!(var1 != var4)) { _fun0022_ip = 85; continue _fun0022 }
+            if(!(var1 != var4)) { _fun0023_ip = 85; continue _fun0023 }
 case 86:
             var8 = _closure1_slot0;
             var9 = _closure1_slot3;
@@ -1285,7 +1358,7 @@ case 86:
             var8 = var9.get;
             var11 = var8.bind(var9)(var10);
             var1 = var1 != var11;
-            if(!var1) { _fun0022_ip = 87; continue _fun0022 }
+            if(!var1) { _fun0023_ip = 87; continue _fun0023 }
 case 88:
             var8 = var11.styleColors;
             var8[var3] = var7;
@@ -1297,7 +1370,7 @@ case 88:
             var12 = var11;
             var11 = copyDataProperties(var13, var12);
             var3 = var8.bind(var9)(var10, var3);
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var2 = {};
             var8 = var7.primary_color;
             var2['color'] = var8;
@@ -1315,20 +1388,20 @@ case 85:
     };
     var4['GUILD_SETTINGS_ROLES_UPDATE_COLORS'] = var11;
     var11 = function handleUpdateSettings(arg1) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.id;
             var7 = var1.hoist;
             var6 = var1.mentionable;
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot42;
             var5 = undefined;
             var4 = var1.bind(var5)(var3);
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0023_ip = 89; continue _fun0023 }
+            if(!var1) { _fun0024_ip = 89; continue _fun0024 }
 case 90:
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var2 = {};
             var2['hoist'] = var7;
             var2['mentionable'] = var6;
@@ -1339,20 +1412,20 @@ case 89:
     };
     var4['GUILD_SETTINGS_ROLES_UPDATE_SETTINGS'] = var11;
     var11 = function handleUpdateRoleIcon(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.id;
             var7 = var1.icon;
             var6 = var1.unicodeEmoji;
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot42;
             var5 = undefined;
             var4 = var1.bind(var5)(var3);
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0024_ip = 91; continue _fun0024 }
+            if(!var1) { _fun0025_ip = 91; continue _fun0025 }
 case 86:
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var2 = {};
             var2['icon'] = var7;
             var2['unicodeEmoji'] = var6;
@@ -1363,24 +1436,24 @@ case 91:
     };
     var4['GUILD_SETTINGS_ROLES_UPDATE_ROLE_ICON'] = var11;
     var11 = function handleInsertRole(arg1) {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.role;
             var2 = var1.searchQuery;
             var _closure1_slot20 = var2;
             var5 = null;
-            if(!(var5 != var4)) { _fun0025_ip = 58; continue _fun0025 }
+            if(!(var5 != var4)) { _fun0026_ip = 59; continue _fun0026 }
 case 92:
-            var6 = _closure1_slot41;
+            var6 = _closure1_slot42;
             var3 = var4.id;
             var2 = undefined;
             var3 = var6.bind(var2)(var3);
-            if(!(var5 != var3)) { _fun0025_ip = 93; continue _fun0025 }
+            if(!(var5 != var3)) { _fun0026_ip = 93; continue _fun0026 }
 case 10:
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var3 = var3.bind(var2)(var4, var4);
-            _fun0025_ip = 58; continue _fun0025;
+            _fun0026_ip = 59; continue _fun0026;
 case 93:
             var8 = _closure1_slot27;
             var3 = new Array(1);
@@ -1393,29 +1466,98 @@ case 93:
             _closure1_slot27 = var3;
             var1 = _closure1_slot34;
             var1 = var1.bind(var2)();
-case 58:
+case 59:
             var1 = undefined;
             return var1;
         }
     };
     var4['GUILD_SETTINGS_ROLE_SELECT'] = var11;
+    var11 = function handleDuplicateSuccess(arg1) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+case 0:
+            var1 = arg1;
+            var5 = var1.role;
+            var6 = var1.roles;
+            var7 = global;
+            var8 = var7.Map;
+            var9 = _closure1_slot27;
+            var4 = var9.map;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var3 = var2.id;
+                var1 = new Array(2);
+                var1[0] = var3;
+                var1[1] = var2;
+                return var1;
+            };
+            var11 = var4.bind(var9)(var1);
+            var4 = var8.prototype;
+            var4 = Object.create(var4, {constructor: {value: var8}});
+            var12 = var4;
+            var1 = new var12[var8](var11, var10);
+            var8 = var1 instanceof Object ? var1 : var4;
+            var4 = var8.set;
+            var1 = var5.id;
+            var1 = var4.bind(var8)(var1, var5);
+            var4 = _closure1_slot40;
+            var1 = undefined;
+            var8 = var4.bind(var1)(var8, var6);
+            _closure1_slot27 = var8;
+            var8 = var7.Map;
+            var9 = _closure1_slot28;
+            var7 = var9.map;
+            var3 = function(arg1) {
+                var2 = arg1;
+                var3 = var2.id;
+                var1 = new Array(2);
+                var1[0] = var3;
+                var1[1] = var2;
+                return var1;
+            };
+            var11 = var7.bind(var9)(var3);
+            var7 = var8.prototype;
+            var7 = Object.create(var7, {constructor: {value: var8}});
+            var12 = var7;
+            var3 = new var12[var8](var11, var10);
+            var3 = var3 instanceof Object ? var3 : var7;
+            var8 = var3.set;
+            var7 = var5.id;
+            var7 = var8.bind(var3)(var7, var5);
+            var3 = var4.bind(var1)(var3, var6);
+            _closure1_slot28 = var3;
+            var4 = _closure1_slot39;
+            var2 = _closure1_slot19;
+            var3 = null;
+            var6 = var3 == var2;
+            var3 = undefined;
+            if(var6) { _fun0027_ip = 94; continue _fun0027 }
+case 95:
+            var3 = var2.id;
+case 94:
+            var2 = new Array(1);
+            var2[0] = var5;
+            var2 = var4.bind(var1)(var3, var2);
+            return var1;
+        }
+    };
+    var4['GUILD_SETTINGS_ROLES_DUPLICATE_SUCCESS'] = var11;
     var11 = function handleRoleStyleUpdate(arg1) {
-        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var1 = arg1;
             var10 = var1.id;
             var5 = var1.currentStyle;
-            var2 = _closure1_slot41;
+            var2 = _closure1_slot42;
             var4 = undefined;
             var3 = var2.bind(var4)(var10);
             var7 = null;
-            if(!(var7 != var3)) { _fun0026_ip = 94; continue _fun0026 }
+            if(!(var7 != var3)) { _fun0028_ip = 96; continue _fun0028 }
 case 77:
             var6 = _closure1_slot33;
             var2 = var6.get;
             var2 = var2.bind(var6)(var10);
-            if(!(var7 != var2)) { _fun0026_ip = 63; continue _fun0026 }
-case 95:
+            if(!(var7 != var2)) { _fun0028_ip = 64; continue _fun0028 }
+case 97:
             var9 = _closure1_slot33;
             var8 = var9.set;
             var6 = {};
@@ -1432,15 +1574,15 @@ case 95:
             var5 = var5.bind(var4)(var2);
             var2 = var5.extractColorStringsFromServerColors;
             var5 = var2.bind(var5)(var6);
-            var2 = _closure1_slot40;
+            var2 = _closure1_slot41;
             var1 = {};
             var8 = var6.primary_color;
             var9 = var7 != var8;
             var7 = undefined;
-            if(!var9) { _fun0026_ip = 96; continue _fun0026 }
-case 97:
+            if(!var9) { _fun0028_ip = 98; continue _fun0028 }
+case 99:
             var7 = var8;
-case 96:
+case 98:
             var1['color'] = var7;
             var1['colors'] = var6;
             var6 = var5.primaryColor;
@@ -1448,27 +1590,27 @@ case 96:
             var1['colorStrings'] = var5;
             var1 = var2.bind(var4)(var3, var1);
             return var1;
-case 63:
+case 64:
             var1 = false;
             return var1;
-case 94:
+case 96:
             var1 = false;
             return var1;
         }
     };
     var4['GUILD_SETTINGS_ROLES_ROLE_STYLE_UPDATE'] = var11;
     var11 = function handleFetchRoleConnectionConfigurations(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.roleId;
             var6 = var1.roleConnectionConfigurations;
-            var3 = _closure1_slot41;
+            var3 = _closure1_slot42;
             var1 = undefined;
             var3 = var3.bind(var1)(var4);
             var4 = null;
-            if(!(var4 != var3)) { _fun0027_ip = 98; continue _fun0027 }
-case 99:
+            if(!(var4 != var3)) { _fun0029_ip = 100; continue _fun0029 }
+case 101:
             var7 = _closure1_slot31;
             var5 = var7.get;
             var4 = var3.id;
@@ -1480,8 +1622,8 @@ case 99:
             var5 = var5.bind(var1)(var4);
             var4 = var5.isEqual;
             var4 = var4.bind(var5)(var7, var6);
-            if(var4) { _fun0027_ip = 100; continue _fun0027 }
-case 55:
+            if(var4) { _fun0029_ip = 102; continue _fun0029 }
+case 56:
             var7 = _closure1_slot32;
             var5 = var7.set;
             var4 = var3.id;
@@ -1493,27 +1635,27 @@ case 55:
             var2 = _closure1_slot34;
             var2 = var2.bind(var1)();
             return var1;
-case 100:
+case 102:
             var1 = false;
             return var1;
-case 98:
+case 100:
             var1 = false;
             return var1;
         }
     };
     var4['GUILD_ROLE_CONNECTIONS_CONFIGURATIONS_FETCH_SUCCESS'] = var11;
     var11 = function handleUpdateRoleConnectionConfigurations(arg1) {
-        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.roleId;
             var6 = var1.roleConnectionConfigurations;
-            var3 = _closure1_slot41;
+            var3 = _closure1_slot42;
             var1 = undefined;
             var3 = var3.bind(var1)(var4);
             var4 = null;
-            if(!(var4 != var3)) { _fun0028_ip = 101; continue _fun0028 }
-case 99:
+            if(!(var4 != var3)) { _fun0030_ip = 103; continue _fun0030 }
+case 101:
             var4 = true;
             _closure1_slot29 = var4;
             var7 = _closure1_slot30;
@@ -1527,7 +1669,7 @@ case 99:
             var2 = _closure1_slot34;
             var2 = var2.bind(var1)();
             return var1;
-case 101:
+case 103:
             var1 = false;
             return var1;
         }
@@ -1573,15 +1715,15 @@ case 101:
     var4['GUILD_ROLE_CREATE'] = var8;
     var4['GUILD_ROLE_UPDATE'] = var8;
     var8 = function handleRoleDelete(arg1) {
-        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var3 = arg1;
             var5 = _closure1_slot30;
             var4 = var5.has;
             var2 = var3.roleId;
             var2 = var4.bind(var5)(var2);
-            if(!var2) { _fun0029_ip = 26; continue _fun0029 }
-case 102:
+            if(!var2) { _fun0031_ip = 26; continue _fun0031 }
+case 104:
             var5 = _closure1_slot30;
             var4 = var5.delete;
             var2 = var3.roleId;
@@ -1597,7 +1739,7 @@ case 102:
             var2 = false;
             _closure1_slot29 = var2;
 case 26:
-            var2 = _closure1_slot42;
+            var2 = _closure1_slot43;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
             return var1;
@@ -1632,18 +1774,18 @@ case 26:
     };
     var4['GUILD_SETTINGS_ROLES_SAVE_SUCCESS'] = var8;
     var8 = function handlePinPermissionMigrated(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.guildId;
             var4 = _closure1_slot19;
             var1 = null;
-            if(!(var1 != var4)) { _fun0030_ip = 103; continue _fun0030 }
-case 69:
+            if(!(var1 != var4)) { _fun0032_ip = 105; continue _fun0032 }
+case 70:
             var1 = _closure1_slot19;
             var1 = var1.id;
-            if(!(var2 === var1)) { _fun0030_ip = 103; continue _fun0030 }
-case 104:
+            if(!(var2 === var1)) { _fun0032_ip = 105; continue _fun0032 }
+case 106:
             var6 = _closure1_slot9;
             var5 = _closure1_slot19;
             var1 = global;
@@ -1670,25 +1812,25 @@ case 104:
             var2 = var6.bind(var1)(var5, var2, var4);
             _closure1_slot19 = var2;
             return var1;
-case 103:
+case 105:
             var1 = false;
             return var1;
         }
     };
     var4['GUILD_SETTINGS_PIN_PERMISSION_MIGRATED'] = var8;
     var8 = function handleSlowmodePermissionMigrated(arg1) {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.guildId;
             var4 = _closure1_slot19;
             var1 = null;
-            if(!(var1 != var4)) { _fun0031_ip = 103; continue _fun0031 }
-case 69:
+            if(!(var1 != var4)) { _fun0033_ip = 105; continue _fun0033 }
+case 70:
             var1 = _closure1_slot19;
             var1 = var1.id;
-            if(!(var2 === var1)) { _fun0031_ip = 103; continue _fun0031 }
-case 104:
+            if(!(var2 === var1)) { _fun0033_ip = 105; continue _fun0033 }
+case 106:
             var6 = _closure1_slot9;
             var5 = _closure1_slot19;
             var1 = global;
@@ -1715,7 +1857,7 @@ case 104:
             var2 = var6.bind(var1)(var5, var2, var4);
             _closure1_slot19 = var2;
             return var1;
-case 103:
+case 105:
             var1 = false;
             return var1;
         }

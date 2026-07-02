@@ -246,7 +246,7 @@ case 16:
             var4[0] = var1;
             var1 = function() {
                 var3 = _closure1_slot6;
-                var2 = var3.getEmbeddedActivitiesForChannel;
+                var2 = var3.getEmbeddedActivitiesForChannelIncludingHidden;
                 var1 = _closure2_slot1;
                 var1 = var1.id;
                 var3 = var2.bind(var3)(var1);

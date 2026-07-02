@@ -422,8 +422,8 @@ case 35:
 case 26:
                 var4 = var5.showHoverGradient;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                if(!(var2 !== var4)) { _fun0005_ip = 8; continue _fun0005 }
+case 36:
                 var8 = var1.tag;
                 var9 = _closure1_slot0;
                 var7 = _closure1_slot1;
@@ -438,10 +438,10 @@ case 37:
                 var7 = var8.bool;
                 var4 = var5.showHoverGradient;
                 var4 = var7.bind(var8)(var4);
-case 36:
+case 8:
                 var4 = var5.deeplinkSection;
-                if(!(var6 !== var4)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                if(!(var6 !== var4)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -456,10 +456,10 @@ case 39:
                 var6 = var7.string;
                 var4 = var5.deeplinkSection;
                 var4 = var6.bind(var7)(var4);
-case 38:
+case 37:
                 var4 = var5.badgeLabelLocalized;
-                if(!var4) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+                if(!var4) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot1;
                 var4 = 6;
@@ -482,10 +482,10 @@ case 41:
                 var6 = var7.bind(var8)(var6, var4, var3);
                 var4 = var6.join;
                 var4 = var4.bind(var6)();
-case 40:
+case 39:
                 var4 = var5.acknowledgedBadgeLabelLocalized;
                 if(!var4) { _fun0005_ip = 17; continue _fun0005 }
-case 42:
+case 41:
                 var12 = _closure1_slot0;
                 var13 = _closure1_slot1;
                 var10 = 6;
@@ -509,11 +509,11 @@ case 42:
                 var4 = var4.bind(var6)();
 case 17:
                 var4 = var3.writeUnknownFields;
-                if(!(var2 !== var4)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                if(!(var2 !== var4)) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+                if(!(var2 == var4)) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 7;
@@ -522,12 +522,12 @@ case 46:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 45:
+case 44:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 43:
+case 42:
                 return var1;
             }
         };

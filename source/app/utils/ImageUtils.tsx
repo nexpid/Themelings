@@ -693,7 +693,7 @@ case 0:
             var6 = var1.height;
             var3 = var1.maxWidth;
             var2 = var1.maxHeight;
-            if(!(var7 !== var6)) { _fun0008_ip = 49; continue _fun0008 }
+            if(!(var7 !== var6)) { _fun0008_ip = 54; continue _fun0008 }
 case 44:
             var1 = global;
             var5 = var1.Math;
@@ -706,7 +706,7 @@ case 44:
             var1 = 1;
             var1 = var2.bind(var3)(var4, var1);
             return var1;
-case 49:
+case 54:
             var1 = 1;
             return var1;
         }

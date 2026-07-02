@@ -712,15 +712,15 @@ case 71:
 case 70:
                     var22 = var11.exportEntries;
                     var2 = var12;
-                    if(!var2) { _fun0012_ip = 72; continue _fun0012 }
-case 73:
-                    var2 = var19;
+                    if(!var2) { _fun0012_ip = 41; continue _fun0012 }
 case 72:
+                    var2 = var19;
+case 41:
                     var2 = var22.bind(var11)(var20, var2);
-                    SaveGenerator(address=215);
-case 74:
+                    SaveGenerator(address=216);
+case 73:
                     return var2;
-case 34:
+case 74:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=21);
                     if(var22) { _fun0012_ip = 75; continue _fun0012 }
 case 76:

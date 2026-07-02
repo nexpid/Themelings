@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['cardContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 15;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -98,25 +98,25 @@ case 0:
             var2 = _closure1_slot9;
             var4 = undefined;
             var10 = var2.bind(var4)();
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var3 = 7;
-            var2 = var7[var3];
-            var11 = var6.bind(var4)(var2);
-            var9 = var11.useStateFromStores;
+            var2 = var8[var3];
+            var12 = var7.bind(var4)(var2);
+            var11 = var12.useStateFromStores;
             var2 = _closure1_slot5;
-            var8 = new Array(1);
-            var8[0] = var2;
-            var5 = function() {
+            var9 = new Array(1);
+            var9[0] = var2;
+            var6 = function() {
                 var2 = _closure1_slot5;
                 var1 = var2.getLinkCode;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var5 = var9.bind(var11)(var8, var5);
-            var3 = var7[var3];
-            var7 = var6.bind(var4)(var3);
-            var6 = var7.useStateFromStores;
+            var6 = var11.bind(var12)(var9, var6);
+            var3 = var8[var3];
+            var8 = var7.bind(var4)(var3);
+            var7 = var8.useStateFromStores;
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
@@ -125,18 +125,18 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var2 = var6.bind(var7)(var3, var2);
+            var2 = var7.bind(var8)(var3, var2);
             var3 = null;
-            if(!(var3 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var3 != var6)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var20 = var5;
+            var20 = var6;
 case 2:
             if(!(var3 != var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var19 = var2;
 case 4:
-            var5 = _closure1_slot3;
-            var3 = var5.useCallback;
+            var6 = _closure1_slot3;
+            var3 = var6.useCallback;
             var2 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -150,17 +150,22 @@ case 4:
                 return var1;
             };
             var1 = new Array(0);
-            var11 = var3.bind(var5)(var2, var1);
-            var3 = _closure1_slot7;
-            var14 = _closure1_slot0;
+            var11 = var3.bind(var6)(var2, var1);
+            var15 = _closure1_slot1;
             var16 = _closure1_slot2;
             var1 = 9;
+            var1 = var16[var1];
+            var1 = var15.bind(var4)(var1);
+            var1 = var1.bind(var4)(var11);
+            var3 = _closure1_slot7;
+            var14 = _closure1_slot0;
+            var1 = 10;
             var1 = var16[var1];
             var1 = var14.bind(var4)(var1);
             var2 = var1.BottomSheet;
             var1 = {};
-            var5 = true;
-            var1['startExpanded'] = var5;
+            var6 = true;
+            var1['startExpanded'] = var6;
             var7 = _closure1_slot8;
             var6 = _closure1_slot4;
             var5 = {};
@@ -169,42 +174,45 @@ case 4:
             var8 = {};
             var9 = var10.info;
             var8['style'] = var9;
-            var17 = 10;
-            var9 = var16[var17];
+            var9 = 11;
+            var9 = var16[var9];
             var9 = var14.bind(var4)(var9);
-            var21 = var9.Text;
+            var17 = var9.Text;
             var9 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
-            var13 = var10.centered;
-            var9['style'] = var13;
-            var13 = 11;
-            var15 = var16[var13];
-            var15 = var14.bind(var4)(var15);
-            var24 = var15.intl;
-            var23 = var24.string;
-            var15 = _closure1_slot1;
-            var12 = 12;
-            var22 = var16[var12];
-            var22 = var15.bind(var4)(var22);
-            var22 = var22.aCUVfL;
-            var22 = var23.bind(var24)(var22);
-            var9['children'] = var22;
-            var21 = var3.bind(var4)(var21, var9);
+            var12 = var10.centered;
+            var9['style'] = var12;
+            var13 = 12;
+            var12 = var16[var13];
+            var12 = var14.bind(var4)(var12);
+            var23 = var12.intl;
+            var22 = var23.string;
+            var12 = 13;
+            var21 = var16[var12];
+            var21 = var15.bind(var4)(var21);
+            var21 = var21.aCUVfL;
+            var21 = var22.bind(var23)(var21);
+            var9['children'] = var21;
+            var17 = var3.bind(var4)(var17, var9);
             var9 = new Array(2);
-            var9[0] = var21;
+            var9[0] = var17;
+            var17 = 14;
             var17 = var16[var17];
             var17 = var14.bind(var4)(var17);
-            var21 = var17.Text;
+            var21 = var17.TextWithIOSLinkWorkaround;
             var17 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var22 = var10.centered;
             var17['style'] = var22;
             var22 = var16[var13];
             var22 = var14.bind(var4)(var22);
-            var24 = var22.intl;
-            var23 = var24.string;
+            var25 = var22.intl;
+            var24 = var25.format;
             var22 = var16[var12];
             var22 = var15.bind(var4)(var22);
-            var22 = var22["2O6ltn"];
-            var22 = var23.bind(var24)(var22);
+            var23 = var22["2O6ltn"];
+            var22 = {};
+            var26 = 'https://support.discord.com/hc/articles/14155060633623';
+            var22['link'] = var26;
+            var22 = var24.bind(var25)(var23, var22);
             var17['children'] = var22;
             var17 = var3.bind(var4)(var21, var17);
             var9[1] = var17;
@@ -215,7 +223,7 @@ case 4:
             var9 = {};
             var10 = var10.cardContainer;
             var9['style'] = var10;
-            var10 = 13;
+            var10 = 15;
             var10 = var16[var10];
             var10 = var14.bind(var4)(var10);
             var17 = var10.ConnectGuardianCard;
@@ -227,7 +235,7 @@ case 4:
             var9['children'] = var10;
             var9 = var3.bind(var4)(var6, var9);
             var8[1] = var9;
-            var9 = 14;
+            var9 = 16;
             var9 = var16[var9];
             var9 = var14.bind(var4)(var9);
             var10 = var9.Button;

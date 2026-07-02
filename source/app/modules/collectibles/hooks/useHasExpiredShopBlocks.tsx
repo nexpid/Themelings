@@ -152,8 +152,8 @@ case 17:
                 var5 = var5.bind(var7)();
                 var8 = var6 - var5;
                 var5 = 0;
-                if(!(!(var8 <= var5))) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+                if(!(!(var8 <= var5))) { _fun0001_ip = 6; continue _fun0001 }
+case 18:
                 var6 = _closure2_slot3;
                 var5 = false;
                 var5 = var6.bind(var1)(var5);
@@ -180,16 +180,16 @@ case 19:
                     return var1;
                 };
                 return var3;
-case 18:
+case 6:
                 var4 = _closure2_slot3;
                 var3 = true;
                 var3 = var4.bind(var1)(var3);
-                _fun0001_ip = 20; continue _fun0001;
+                _fun0001_ip = 19; continue _fun0001;
 case 14:
                 var3 = _closure2_slot3;
                 var2 = false;
                 var2 = var3.bind(var1)(var2);
-case 20:
+case 19:
                 return var1;
             }
         };

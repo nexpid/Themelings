@@ -499,6 +499,8 @@ case 71:
             var28['skipExtensionCheck'] = var10;
             var28['analyticsLocations'] = var32;
             var28['messageId'] = var31;
+            var31 = var15;
+            var28['channelId'] = var31;
             var28 = var30.bind(var10)(var29, var28);
             var27 = var28;
             if(!(var3 != var28)) { _fun0002_ip = 72; continue _fun0002 }

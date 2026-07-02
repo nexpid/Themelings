@@ -748,7 +748,7 @@ case 49:
             var3 = true;
             var1['isLandscape'] = var3;
             var1['isWindowLandscape'] = var2;
-            _fun0010_ip = 2; continue _fun0010;
+            _fun0010_ip = 50; continue _fun0010;
 case 47:
             var2 = {};
             var3 = global;
@@ -764,7 +764,7 @@ case 47:
             var2['isLandscape'] = var3;
             var2['isWindowLandscape'] = var3;
             var1 = var2;
-case 2:
+case 50:
             return var1;
         }
     };
@@ -814,17 +814,17 @@ case 0:
                 var2 = undefined;
                 var5 = undefined;
                 if(var1) { _fun0011_ip = 27; continue _fun0011 }
-case 50:
+case 51:
                 var5 = var7.applicationId;
 case 27:
                 var1 = var4 != var5;
                 var6 = undefined;
-                if(!var1) { _fun0011_ip = 51; continue _fun0011 }
-case 52:
+                if(!var1) { _fun0011_ip = 52; continue _fun0011 }
+case 53:
                 var9 = _closure1_slot6;
                 var1 = var9.getApplication;
                 var6 = var1.bind(var9)(var5);
-case 51:
+case 52:
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot3;
                 var1 = 26;
@@ -836,8 +836,8 @@ case 51:
                 var1['mode'] = var8;
                 var10 = var4 == var9;
                 var8 = undefined;
-                if(var10) { _fun0011_ip = 53; continue _fun0011 }
-case 54:
+                if(var10) { _fun0011_ip = 54; continue _fun0011 }
+case 55:
                 var11 = _closure1_slot1;
                 var12 = _closure1_slot3;
                 var10 = 27;
@@ -845,10 +845,10 @@ case 54:
                 var10 = var11.bind(var2)(var10);
                 var10 = var10.bind(var2)(var9);
                 var8 = undefined;
-                if(var10) { _fun0011_ip = 53; continue _fun0011 }
-case 55:
+                if(var10) { _fun0011_ip = 54; continue _fun0011 }
+case 56:
                 var8 = var9;
-case 53:
+case 54:
                 var1['connectedActivityInTextChannelId'] = var8;
                 var7 = var4 != var7;
                 var1['hasConnectedActivity'] = var7;
@@ -856,12 +856,12 @@ case 53:
                 var1['currentApp'] = var6;
                 var4 = var4 == var5;
                 var2 = undefined;
-                if(var4) { _fun0011_ip = 37; continue _fun0011 }
-case 56:
+                if(var4) { _fun0011_ip = 57; continue _fun0011 }
+case 58:
                 var4 = _closure1_slot10;
                 var3 = var4.getOrientationLockStateForApp;
                 var2 = var3.bind(var4)(var5);
-case 37:
+case 57:
                 var1['orientationLockStateForApp'] = var2;
                 return var1;
             }
@@ -887,15 +887,15 @@ case 0:
                 var4 = _closure2_slot0;
                 var3 = _closure1_slot14;
                 var3 = var3.PANEL;
-                if(!(var4 === var3)) { _fun0012_ip = 57; continue _fun0012 }
-case 58:
+                if(!(var4 === var3)) { _fun0012_ip = 59; continue _fun0012 }
+case 60:
                 var4 = _closure1_slot9;
                 var3 = var4.getChannel;
                 var1 = _closure2_slot1;
                 var1 = var3.bind(var4)(var1);
                 var4 = undefined;
-                if(!(var4 !== var1)) { _fun0012_ip = 57; continue _fun0012 }
-case 59:
+                if(!(var4 !== var1)) { _fun0012_ip = 59; continue _fun0012 }
+case 61:
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot3;
                 var3 = 28;
@@ -915,7 +915,7 @@ case 59:
                 var2 = var3.transitionToChannel;
                 var1 = var1.id;
                 var1 = var2.bind(var3)(var1);
-case 57:
+case 59:
                 var1 = undefined;
                 return var1;
             }

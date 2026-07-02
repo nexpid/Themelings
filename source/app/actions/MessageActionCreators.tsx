@@ -5505,93 +5505,125 @@ case 445:
                                 var11 = _closure4_slot8;
 case 447:
                                 var10['attachmentsToUpload'] = var11;
+                                var11 = _closure4_slot5;
+                                var10['messageReference'] = var11;
                                 var5 = function trackClipsShared(arg1) {
                                     _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
                                         var1 = arg1;
-                                        var6 = var1.channelId;
-                                        var _closure7_slot0 = var6;
+                                        var8 = var1.channelId;
+                                        var _closure7_slot0 = var8;
                                         var3 = var1.messageId;
                                         var _closure7_slot1 = var3;
                                         var3 = var1.attachments;
                                         var _closure7_slot2 = var3;
                                         var4 = var1.attachmentsToUpload;
+                                        var6 = var1.messageReference;
                                         var1 = undefined;
                                         var _closure7_slot3 = var1;
+                                        var _closure7_slot4 = var1;
                                         var5 = var3.length;
                                         var3 = var4.length;
                                         if(!(var5 === var3)) { _fun0034_ip = 448; continue _fun0034 }
-case 402:
-                                        var5 = _closure1_slot19;
-                                        var3 = var5.getChannel;
-                                        var5 = var3.bind(var5)(var6);
-                                        _closure7_slot3 = var5;
-                                        var3 = null;
-                                        if(!(var3 != var5)) { _fun0034_ip = 448; continue _fun0034 }
 case 449:
+                                        var7 = _closure1_slot19;
+                                        var5 = var7.getChannel;
+                                        var7 = var5.bind(var7)(var8);
+                                        _closure7_slot3 = var7;
+                                        var5 = null;
+                                        if(!(var5 != var7)) { _fun0034_ip = 448; continue _fun0034 }
+case 109:
+                                        var5 = _closure1_slot14;
+                                        var3 = var5.getMessageByReference;
+                                        var3 = var3.bind(var5)(var6);
+                                        _closure7_slot4 = var3;
                                         var3 = var4.forEach;
                                         var2 = function(arg1, arg2) {
                                             _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
-                                                var1 = arg1;
-                                                var6 = var1.clip;
-                                                var1 = null;
-                                                if(!(var1 != var6)) { _fun0035_ip = 450; continue _fun0035 }
-case 61:
+                                                var2 = arg1;
+                                                var7 = var2.clip;
+                                                var _closure8_slot0 = var7;
+                                                var2 = null;
+                                                if(!(var2 != var7)) { _fun0035_ip = 450; continue _fun0035 }
+case 228:
+                                                var2 = _closure7_slot4;
+                                                var3 = var2.state;
+                                                var2 = _closure1_slot15;
+                                                var2 = var2.LOADED;
+                                                var6 = var3 === var2;
+                                                if(!var6) { _fun0035_ip = 113; continue _fun0035 }
+case 451:
+                                                var2 = _closure7_slot4;
+                                                var2 = var2.message;
+                                                var3 = var2.attachments;
+                                                var2 = var3.some;
+                                                var1 = function(arg1) {
+                                                    var1 = arg1;
+                                                    var2 = var1.clip_remote_id;
+                                                    var1 = _closure8_slot0;
+                                                    var1 = var1.remoteClipId;
+                                                    var1 = var2 === var1;
+                                                    return var1;
+                                                };
+                                                var6 = var2.bind(var3)(var1);
+case 113:
                                                 var2 = _closure1_slot1;
-                                                var9 = _closure1_slot3;
+                                                var11 = _closure1_slot3;
                                                 var1 = 40;
-                                                var1 = var9[var1];
-                                                var8 = undefined;
-                                                var4 = var2.bind(var8)(var1);
+                                                var1 = var11[var1];
+                                                var10 = undefined;
+                                                var4 = var2.bind(var10)(var1);
                                                 var3 = var4.track;
                                                 var1 = _closure1_slot29;
                                                 var2 = var1.CLIP_SHARED;
                                                 var1 = {};
-                                                var7 = _closure1_slot2;
-                                                var5 = 45;
-                                                var10 = var9[var5];
-                                                var11 = var7.bind(var8)(var10);
-                                                var10 = var11.getClipBaseProperties;
-                                                var12 = var10.bind(var11)(var6);
-                                                var13 = var1;
-                                                var10 = copyDataProperties(var13, var12);
-                                                var5 = var9[var5];
-                                                var8 = var7.bind(var8)(var5);
-                                                var7 = var8.getClipContextProperties;
-                                                var5 = 'trackClipsShared';
-                                                var12 = var7.bind(var8)(var5);
-                                                var13 = var1;
-                                                var5 = copyDataProperties(var13, var12);
-                                                var8 = _closure7_slot0;
-                                                var7 = 'channel_id';
-                                                var1[6] = var8;
+                                                var9 = _closure1_slot2;
+                                                var8 = 45;
+                                                var12 = var11[var8];
+                                                var13 = var9.bind(var10)(var12);
+                                                var12 = var13.getClipBaseProperties;
+                                                var14 = var12.bind(var13)(var7);
+                                                var15 = var1;
+                                                var12 = copyDataProperties(var15, var14);
+                                                var8 = var11[var8];
+                                                var10 = var9.bind(var10)(var8);
+                                                var9 = var10.getClipContextProperties;
+                                                var8 = 'trackClipsShared';
+                                                var14 = var9.bind(var10)(var8);
+                                                var15 = var1;
+                                                var8 = copyDataProperties(var15, var14);
+                                                var9 = _closure7_slot0;
+                                                var8 = 'channel_id';
+                                                var1[7] = var9;
+                                                var9 = _closure7_slot3;
+                                                var8 = var9.getGuildId;
+                                                var9 = var8.bind(var9)();
+                                                var8 = 'guild_id';
+                                                var1[7] = var9;
                                                 var8 = _closure7_slot3;
-                                                var7 = var8.getGuildId;
-                                                var8 = var7.bind(var8)();
-                                                var7 = 'guild_id';
+                                                var9 = var8.type;
+                                                var8 = 'channel_type';
+                                                var1[7] = var9;
+                                                var9 = var7.applicationId;
+                                                var8 = 'application_id';
+                                                var1[7] = var9;
+                                                var9 = var7.id;
+                                                var8 = 'clip_uuid';
+                                                var1[7] = var9;
+                                                var8 = var7.remoteClipId;
+                                                var7 = 'remote_clip_id';
                                                 var1[6] = var8;
-                                                var7 = _closure7_slot3;
-                                                var8 = var7.type;
-                                                var7 = 'channel_type';
+                                                var8 = _closure7_slot1;
+                                                var7 = 'message_id';
                                                 var1[6] = var8;
-                                                var8 = var6.applicationId;
-                                                var7 = 'application_id';
-                                                var1[6] = var8;
-                                                var8 = var6.id;
-                                                var7 = 'clip_uuid';
-                                                var1[6] = var8;
-                                                var7 = var6.remoteClipId;
-                                                var6 = 'remote_clip_id';
-                                                var1[5] = var7;
-                                                var7 = _closure7_slot1;
-                                                var6 = 'message_id';
-                                                var1[5] = var7;
-                                                var6 = _closure7_slot2;
+                                                var7 = _closure7_slot2;
                                                 var5 = arg2;
-                                                var5 = var6[var5];
-                                                var6 = var5.id;
+                                                var5 = var7[var5];
+                                                var7 = var5.id;
                                                 var5 = 'attachment_id';
+                                                var1[4] = var7;
+                                                var5 = 'is_distributed_clip_reply';
                                                 var1[4] = var6;
                                                 var1 = var3.bind(var4)(var2, var1);
 case 450:
@@ -5606,8 +5638,8 @@ case 448:
                                 };
                                 var5 = var5.bind(var2)(var10);
                                 var5 = _closure4_slot13;
-                                if(!(var9 != var5)) { _fun0028_ip = 451; continue _fun0028 }
-case 452:
+                                if(!(var9 != var5)) { _fun0028_ip = 452; continue _fun0028 }
+case 453:
                                 var5 = _closure1_slot1;
                                 var4 = _closure1_slot3;
                                 var4 = var4[var6];
@@ -5624,7 +5656,7 @@ case 452:
                                 var7 = false;
                                 var4['aborted'] = var7;
                                 var4 = var5.bind(var6)(var4);
-case 451:
+case 452:
                                 var1 = _closure5_slot0;
                                 var1 = var1.bind(var2)(var3);
 case 374:
@@ -5645,7 +5677,7 @@ case 330:
                     return var11;
 case 328:
                     return var5;
-case 453: // catch_target0
+case 454: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var17 = var5.file;
                     var9 = var17;
@@ -5666,25 +5698,25 @@ case 453: // catch_target0
                     var5['failureCode'] = var16;
                     var16 = var13 == var15;
                     var15 = undefined;
-                    if(var16) { _fun0027_ip = 454; continue _fun0027 }
-case 455:
+                    if(var16) { _fun0027_ip = 455; continue _fun0027 }
+case 456:
                     var16 = var7;
                     var15 = var16.msg;
-case 454:
+case 455:
                     var5['errorMessage'] = var15;
                     var5 = var12.bind(var14)(var5);
                     var12 = var10;
                     var12 = var13 == var12;
                     var5 = var12;
-                    if(var12) { _fun0027_ip = 456; continue _fun0027 }
-case 457:
+                    if(var12) { _fun0027_ip = 457; continue _fun0027 }
+case 458:
                     var46 = var9;
                     var45 = var8;
                     var44 = var7;
                     var43 = var6;
                     var47 = undefined;
                     var5 = var47[var10](var46, var45, var44, var43, var42);
-case 456:
+case 457:
                     var5 = undefined;
                     return var5;
 case 243:
@@ -5780,7 +5812,7 @@ case 240:
             var8 = var8.bind(var9)(var5);
             var9 = var8.length;
             var5 = 0;
-            if(!(!(var9 > var5))) { _fun0036_ip = 458; continue _fun0036 }
+            if(!(!(var9 > var5))) { _fun0036_ip = 459; continue _fun0036 }
 case 160:
             var9 = _closure1_slot1;
             var10 = _closure1_slot3;
@@ -5799,7 +5831,7 @@ case 160:
             var5['source'] = var4;
             var5 = var9.bind(var10)(var5);
             return var3;
-case 458:
+case 459:
             var5 = var8.map;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -5888,7 +5920,7 @@ case 458:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0037_ip = 459; continue _fun0037 }
+                    if(var2) { _fun0037_ip = 460; continue _fun0037 }
 case 59:
                     var3 = undefined;
                     var _closure4_slot0 = var3;
@@ -5898,7 +5930,7 @@ case 59:
                     var2 = var6.getEditActionSource;
                     var6 = var2.bind(var6)(var7);
                     var2 = 'message_swipe';
-                    if(!(var2 === var6)) { _fun0037_ip = 460; continue _fun0037 }
+                    if(!(var2 === var6)) { _fun0037_ip = 461; continue _fun0037 }
 case 402:
                     var6 = _closure1_slot19;
                     var2 = var6.getChannel;
@@ -5918,7 +5950,7 @@ case 402:
                     var13 = var11 == var12;
                     var11 = undefined;
                     if(var13) { _fun0037_ip = 166; continue _fun0037 }
-case 461:
+case 448:
                     var11 = var12.guild_id;
 case 166:
                     var2['guild_id'] = var11;
@@ -5927,7 +5959,7 @@ case 166:
                     var11 = true;
                     var2['is_own_message'] = var11;
                     var2 = var8.bind(var9)(var6, var2);
-case 460:
+case 461:
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot3;
                     var2 = 83;
@@ -6136,7 +6168,7 @@ case 474:
                     return var3;
 case 464:
                     return var2;
-case 459:
+case 460:
                     return var1;
                 }
             };

@@ -91,15 +91,20 @@ case 5:
             var15 = var2.bind(var8)(var6);
             var2 = _closure1_slot5;
             var2 = var2.FRIEND_ANNIVERSARY;
-            if(!(var5 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+            if(!(var2 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var2 = _closure1_slot5;
+            var2 = var2.UNSPECIFIED;
+            var8 = null;
+            if(!(var2 !== var5)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var2 = 6;
-            var2 = var10[var2];
-            var8 = var8.bind(var7)(var2);
-            var2 = var8.unhandledGiftIntent;
-            var2 = var2.bind(var8)(var5);
+            var2 = var11[var2];
+            var10 = var10.bind(var7)(var2);
+            var2 = var10.unhandledGiftIntent;
+            var2 = var2.bind(var10)(var5);
             var8 = null;
             _fun0001_ip = 8; continue _fun0001;
 case 6:
@@ -135,8 +140,8 @@ case 6:
             var2['subHeaderParts'] = var10;
             var8 = var2;
 case 8:
-            if(!(var1 != var8)) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+            if(!(var1 != var8)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var10 = _closure1_slot4;
             var2 = var10.getCurrentUser;
             var14 = var2.bind(var10)();
@@ -150,14 +155,14 @@ case 10:
             var11 = var4.bind(var12)(var10);
             var4 = var1 != var14;
             var10 = undefined;
-            if(!var4) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(!var4) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = var14.getAvatarURL;
             var4 = var4.bind(var14)(var7, var13);
             var2 = var2.HermesInternal;
             var2 = var2.concat;
             var10 = var2.bind(var12)(var4);
-case 11:
+case 12:
             var4 = _closure1_slot6;
             var2 = arg2;
             var4 = var4.bind(var7)(var2);
@@ -229,7 +234,7 @@ case 11:
             var3 = var4.bind(var5)(var3);
             var2['secondaryCtaAccessibilityLabel'] = var3;
             return var2;
-case 9:
+case 10:
             return var1;
 case 4:
             return var1;

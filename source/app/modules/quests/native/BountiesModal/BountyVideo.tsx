@@ -123,26 +123,27 @@ case 0:
             var24 = var2.isEndCardVisible;
             var11 = var2.isProgressBarVisible;
             var27 = var2.orbsBalance;
-            var32 = var2.handleVideoEnd;
-            var33 = var2.handleVideoProgress;
-            var31 = var2.handleVideoPaused;
-            var30 = var2.handleVideoResumed;
+            var33 = var2.handleVideoEnd;
+            var34 = var2.handleVideoProgress;
+            var32 = var2.handleVideoPaused;
+            var31 = var2.handleVideoResumed;
+            var30 = var2.handleVideoError;
             var25 = var2.rewardRemainingSeconds;
             var28 = var2.rewardTotalSeconds;
             var12 = var2.normalizedProgress;
             var23 = var2.initialProgress;
             var19 = var2.repeat;
-            var34 = var2.isActive;
+            var35 = var2.isActive;
             var4 = undefined;
-            if(!(var34 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var35 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var34 = false;
-case 2:
-            var _closure2_slot0 = var34;
-            var35 = var2.isRecapPageRevealed;
-            if(!(var35 === var4)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
             var35 = false;
+case 2:
+            var _closure2_slot0 = var35;
+            var36 = var2.isRecapPageRevealed;
+            if(!(var36 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var36 = false;
 case 4:
             var7 = var2.isScrollingInBoundsSharedValue;
             var _closure2_slot1 = var7;
@@ -153,14 +154,14 @@ case 4:
             var2 = _closure1_slot11;
             var9 = var2.bind(var4)();
             var15 = _closure1_slot0;
-            var38 = _closure1_slot2;
+            var39 = _closure1_slot2;
             var2 = 7;
-            var2 = var38[var2];
+            var2 = var39[var2];
             var3 = var15.bind(var4)(var2);
             var2 = var3.useRnvHttpEngine;
-            var37 = var2.bind(var3)();
+            var38 = var2.bind(var3)();
             var2 = 8;
-            var2 = var38[var2];
+            var2 = var39[var2];
             var2 = var15.bind(var4)(var2);
             var5 = var2.BountiesStage1Experiment;
             var3 = var5.useConfig;
@@ -169,12 +170,12 @@ case 4:
             var6 = var6.VIDEO_MODAL_MOBILE;
             var2['location'] = var6;
             var2 = var3.bind(var5)(var2);
-            var36 = var2.enabled;
+            var37 = var2.enabled;
             var6 = 9;
-            var2 = var38[var6];
+            var2 = var39[var6];
             var3 = var15.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function L() {
+            var1 = function Q() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure2_slot1;
@@ -219,13 +220,13 @@ case 8:
             var5 = {};
             var5['isScrollingInBoundsSharedValue'] = var7;
             var7 = 10;
-            var7 = var38[var7];
+            var7 = var39[var7];
             var7 = var15.bind(var4)(var7);
             var7 = var7.withTiming;
             var5['withTiming'] = var7;
-            var5['isActive'] = var34;
+            var5['isActive'] = var35;
             var7 = 11;
-            var7 = var38[var7];
+            var7 = var39[var7];
             var7 = var15.bind(var4)(var7);
             var7 = var7.timingStandard;
             var5['timingStandard'] = var7;
@@ -244,51 +245,52 @@ case 8:
             var5['style'] = var13;
             var16 = _closure1_slot6;
             var13 = 12;
-            var13 = var38[var13];
+            var13 = var39[var13];
             var13 = var15.bind(var4)(var13);
             var15 = var13.AdVideoPlayer;
             var13 = {};
             var13['ref'] = var8;
-            var38 = {};
-            var40 = var22.videoHls;
+            var39 = {};
+            var41 = var22.videoHls;
             var8 = null;
-            var41 = var8 != var40;
-            var39 = '';
-            if(!var41) { _fun0001_ip = 11; continue _fun0001 }
+            var42 = var8 != var41;
+            var40 = '';
+            if(!var42) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var39 = var40;
+            var40 = var41;
 case 11:
-            var38['uri'] = var39;
-            var13['source'] = var38;
-            var13['httpEngine'] = var37;
-            var36 = !var36;
-            if(!var36) { _fun0001_ip = 13; continue _fun0001 }
+            var39['uri'] = var40;
+            var13['source'] = var39;
+            var13['httpEngine'] = var38;
+            var37 = !var37;
+            if(!var37) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var36 = undefined;
+            var37 = undefined;
 case 13:
-            var13['automaticallyWaitsToMinimizeStalling'] = var36;
+            var13['automaticallyWaitsToMinimizeStalling'] = var37;
             var13['initialProgress'] = var23;
             var23 = false;
             var13['isFullscreen'] = var23;
-            var34 = !var34;
-            if(var34) { _fun0001_ip = 15; continue _fun0001 }
+            var35 = !var35;
+            if(var35) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var34 = var24;
+            var35 = var24;
 case 15:
-            if(var34) { _fun0001_ip = 17; continue _fun0001 }
+            if(var35) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var34 = var35;
+            var35 = var36;
 case 17:
-            var13['externallyPaused'] = var34;
-            var34 = _closure1_slot4;
-            var34 = var34.absoluteFillObject;
-            var13['style'] = var34;
-            var34 = _closure1_slot9;
-            var13['contentInsets'] = var34;
-            var13['onProgress'] = var33;
-            var13['onEnd'] = var32;
-            var13['onPausePlayback'] = var31;
-            var13['onResumePlayback'] = var30;
+            var13['externallyPaused'] = var35;
+            var35 = _closure1_slot4;
+            var35 = var35.absoluteFillObject;
+            var13['style'] = var35;
+            var35 = _closure1_slot9;
+            var13['contentInsets'] = var35;
+            var13['onProgress'] = var34;
+            var13['onEnd'] = var33;
+            var13['onPausePlayback'] = var32;
+            var13['onResumePlayback'] = var31;
+            var13['onError'] = var30;
             var13['hideControls'] = var24;
             var13['showSkipButtons'] = var23;
             var13['repeat'] = var19;

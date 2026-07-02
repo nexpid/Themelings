@@ -58,11 +58,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function MediaScreen(arg1) {
         var1 = arg1;
-        var14 = var1.searchContext;
-        var _closure2_slot0 = var14;
-        var13 = var1.tab;
-        var _closure2_slot1 = var13;
-        var12 = var1.isFocused;
+        var13 = var1.searchContext;
+        var _closure2_slot0 = var13;
+        var12 = var1.tab;
+        var _closure2_slot1 = var12;
+        var11 = var1.isFocused;
         var6 = var1.width;
         var9 = _closure1_slot0;
         var10 = _closure1_slot2;
@@ -76,35 +76,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = 8;
         var5 = var10[var5];
         var5 = var2.bind(var4)(var5);
-        var11 = var5.bind(var4)(var6);
-        var _closure2_slot2 = var11;
+        var18 = var5.bind(var4)(var6);
+        var _closure2_slot2 = var18;
         var5 = 9;
         var5 = var10[var5];
         var6 = var9.bind(var4)(var5);
         var5 = var6.useSearchMessages;
-        var15 = var5.bind(var6)(var14, var13);
-        var _closure2_slot3 = var15;
+        var14 = var5.bind(var6)(var13, var12);
+        var _closure2_slot3 = var14;
         var5 = 10;
         var5 = var10[var5];
-        var16 = var9.bind(var4)(var5);
-        var6 = var16.useSearchMessagesLoadingState;
+        var15 = var9.bind(var4)(var5);
+        var6 = var15.useSearchMessagesLoadingState;
         var5 = {};
-        var5['searchContext'] = var14;
-        var5['tab'] = var13;
-        var5['placeholderHeight'] = var11;
+        var5['searchContext'] = var13;
+        var5['tab'] = var12;
+        var5['placeholderHeight'] = var18;
         var7 = _closure1_slot7;
         var5['numColumns'] = var7;
-        var16 = var6.bind(var16)(var5);
-        var6 = var16.isFirstPageLoading;
-        var5 = var16.isNextPageLoading;
-        var18 = var16.placeholderCount;
-        var _closure2_slot4 = var18;
-        var17 = _closure1_slot3;
-        var20 = var17.useMemo;
+        var15 = var6.bind(var15)(var5);
+        var6 = var15.isFirstPageLoading;
+        var5 = var15.isNextPageLoading;
+        var17 = var15.placeholderCount;
+        var _closure2_slot4 = var17;
+        var16 = _closure1_slot3;
+        var20 = var16.useMemo;
         var19 = new Array(2);
-        var19[0] = var15;
-        var19[1] = var14;
-        var16 = function() {
+        var19[0] = var14;
+        var19[1] = var13;
+        var15 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = _closure2_slot3;
@@ -128,13 +128,13 @@ case 4:
                 return var1;
             }
         };
-        var19 = var20.bind(var17)(var16, var19);
+        var19 = var20.bind(var16)(var15, var19);
         var _closure2_slot5 = var19;
-        var21 = var17.useCallback;
+        var21 = var16.useCallback;
         var20 = new Array(2);
-        var20[0] = var14;
-        var20[1] = var13;
-        var16 = function() {
+        var20[0] = var13;
+        var20[1] = var12;
+        var15 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 11;
@@ -235,25 +235,25 @@ case 5:
             var2 = var5.bind(var6)(var4, var3, var2);
             return var1;
         };
-        var22 = var21.bind(var17)(var16, var20);
-        var16 = 15;
-        var16 = var10[var16];
-        var21 = var9.bind(var4)(var16);
+        var22 = var21.bind(var16)(var15, var20);
+        var15 = 15;
+        var15 = var10[var15];
+        var21 = var9.bind(var4)(var15);
         var20 = var21.useOnPressMediaItem;
-        var16 = {};
-        var16['searchContext'] = var14;
-        var16['allMediaResults'] = var19;
-        var16['onEndReached'] = var22;
+        var15 = {};
+        var15['searchContext'] = var13;
+        var15['allMediaResults'] = var19;
+        var15['onEndReached'] = var22;
         var22 = 500;
-        var16['onEndReachedThreshold'] = var22;
-        var21 = var20.bind(var21)(var16);
+        var15['onEndReachedThreshold'] = var22;
+        var21 = var20.bind(var21)(var15);
         var _closure2_slot6 = var21;
-        var20 = var17.useCallback;
-        var16 = new Array(3);
-        var16[0] = var21;
-        var16[1] = var14;
-        var16[2] = var15;
-        var15 = function(arg1, arg2) {
+        var20 = var16.useCallback;
+        var15 = new Array(3);
+        var15[0] = var21;
+        var15[1] = var13;
+        var15[2] = var14;
+        var14 = function(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var1 = arg1;
@@ -327,14 +327,14 @@ case 18:
                 return var1;
             }
         };
-        var20 = var20.bind(var17)(var15, var16);
+        var20 = var20.bind(var16)(var14, var15);
         var _closure2_slot7 = var20;
-        var16 = var17.useMemo;
-        var15 = new Array(4);
-        var15[0] = var20;
-        var15[1] = var19;
-        var15[2] = var11;
-        var15[3] = var18;
+        var15 = var16.useMemo;
+        var14 = new Array(4);
+        var14[0] = var20;
+        var14[1] = var19;
+        var14[2] = var18;
+        var14[3] = var17;
         var3 = function() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -456,17 +456,16 @@ case 19:
                 return var1;
             }
         };
-        var15 = var16.bind(var17)(var3, var15);
+        var14 = var15.bind(var16)(var3, var14);
         var3 = _closure1_slot12;
         var1 = 19;
         var1 = var10[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
-        var1['data'] = var15;
-        var1['searchContext'] = var14;
-        var1['tab'] = var13;
-        var1['isFocused'] = var12;
-        var1['estimatedItemSize'] = var11;
+        var1['data'] = var14;
+        var1['searchContext'] = var13;
+        var1['tab'] = var12;
+        var1['isFocused'] = var11;
         var8 = var8.mediaContentContainer;
         var1['contentContainerStyle'] = var8;
         var8 = 21;

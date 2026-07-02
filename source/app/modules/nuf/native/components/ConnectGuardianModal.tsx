@@ -295,6 +295,8 @@ case 8:
             var11 = var16.bind(var5)(var11);
             var14 = var11.ConnectGuardianCard;
             var11 = {};
+            var20 = 'compact';
+            var11['shareActions'] = var20;
             var20 = var19.linkCode;
             var11['linkCode'] = var20;
             var20 = var19.expiresAt;

@@ -168,6 +168,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CLIPS'] = var2;
     var2 = 'clips_thumbnail';
     var4['CLIPS_THUMBNAIL'] = var2;
+    var2 = 'clips_recording_ready_events';
+    var4['CLIPS_RECORDING_READY_EVENTS'] = var2;
     var2 = 'go_live_hardware';
     var4['GO_LIVE_HARDWARE'] = var2;
     var2 = 'image_quality_measurement';
@@ -235,6 +237,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var36 = 9;
     var2['RecordingHealthy'] = var36;
     var35 = 'RecordingHealthy';
+    var2[var36] = var35;
+    var36 = 10;
+    var2['RecordingActive'] = var36;
+    var35 = 'RecordingActive';
+    var2[var36] = var35;
+    var36 = 11;
+    var2['RecordingInactive'] = var36;
+    var35 = 'RecordingInactive';
     var2[var36] = var35;
     var32 = var34[var32];
     var34 = var33.bind(var1)(var32);

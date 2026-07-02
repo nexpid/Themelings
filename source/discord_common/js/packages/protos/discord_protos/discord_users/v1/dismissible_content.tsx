@@ -2322,6 +2322,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BADGE_DIRECTORY_NUX_POPOVER'] = var2;
     var1 = 'BADGE_DIRECTORY_NUX_POPOVER';
     var4[var2] = var1;
+    var2 = 782;
+    var4['GUILD_POWERUP_NEW_PERK_AVAILABLE_BADGE'] = var2;
+    var1 = 'GUILD_POWERUP_NEW_PERK_AVAILABLE_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

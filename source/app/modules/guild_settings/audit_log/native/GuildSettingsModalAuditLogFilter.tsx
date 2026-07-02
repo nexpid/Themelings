@@ -550,8 +550,6 @@ case 31:
             var7 = {};
             var7['keyExtractor'] = var13;
             var7['renderItem'] = var12;
-            var12 = 50;
-            var7['estimatedItemSize'] = var12;
             var7['data'] = var10;
             var10 = {};
             var13 = _closure1_slot1;

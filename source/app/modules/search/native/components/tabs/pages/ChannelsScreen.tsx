@@ -568,8 +568,6 @@ case 27:
             var1 = var8[var1];
             var3 = var3.bind(var5)(var1);
             var1 = {};
-            var8 = _closure1_slot8;
-            var1['estimatedItemSize'] = var8;
             var1['data'] = var7;
             var1 = var4.bind(var5)(var3, var1);
             _fun0002_ip = 28; continue _fun0002;

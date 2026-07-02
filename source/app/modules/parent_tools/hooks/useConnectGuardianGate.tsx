@@ -63,9 +63,9 @@ case 0:
             var6 = var1.linkCode;
             var5 = var1.expiresAt;
             var11 = _closure1_slot4;
-            var1 = var11.useState;
-            var14 = false;
-            var1 = var1.bind(var11)(var14);
+            var2 = var11.useState;
+            var1 = false;
+            var1 = var2.bind(var11)(var1);
             var13 = _closure1_slot3;
             var8 = 2;
             var1 = var13.bind(var7)(var1, var8);
@@ -74,8 +74,33 @@ case 0:
             var12 = 1;
             var1 = var1[var12];
             var _closure2_slot0 = var1;
-            var1 = var11.useState;
-            var1 = var1.bind(var11)(var14);
+            var14 = var11.useState;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var2 = _closure1_slot5;
+                    var1 = var2.getLinkCodeExpiresAt;
+                    var3 = var1.bind(var2)();
+                    var1 = var2.getLinkCode;
+                    var1 = var1.bind(var2)();
+                    var2 = null;
+                    var1 = var2 != var1;
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var1 = var2 != var3;
+case 2:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var2 = global;
+                    var4 = var2.Date;
+                    var2 = var4.now;
+                    var2 = var2.bind(var4)();
+                    var1 = var3 > var2;
+case 4:
+                    return var1;
+                }
+            };
+            var1 = var14.bind(var11)(var1);
             var8 = var13.bind(var7)(var1, var8);
             var1 = var8[var10];
             var8 = var8[var12];
@@ -103,13 +128,13 @@ case 0:
                 var5 = var3.bind(var4)();
                 var4 = var5.then;
                 var3 = function() {
-                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var3 = _closure3_slot0;
                         var2 = _closure2_slot2;
                         var2 = var2.current;
-                        if(!(var3 === var2)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
+                        if(!(var3 === var2)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                         var4 = _closure2_slot0;
                         var3 = undefined;
                         var2 = false;
@@ -117,7 +142,7 @@ case 3:
                         var2 = _closure2_slot1;
                         var1 = true;
                         var1 = var2.bind(var3)(var1);
-case 2:
+case 6:
                         var1 = undefined;
                         return var1;
                     }
@@ -125,18 +150,40 @@ case 2:
                 var4 = var4.bind(var5)(var3);
                 var3 = var4.catch;
                 var2 = function() {
-                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var3 = _closure3_slot0;
                         var2 = _closure2_slot2;
                         var2 = var2.current;
-                        if(!(var3 === var2)) { _fun0003_ip = 4; continue _fun0003 }
-case 3:
-                        var3 = _closure2_slot0;
+                        if(!(var3 === var2)) { _fun0004_ip = 8; continue _fun0004 }
+case 7:
+                        var4 = _closure1_slot5;
+                        var2 = var4.getLinkCodeExpiresAt;
+                        var3 = var2.bind(var4)();
+                        var2 = var4.getLinkCode;
+                        var4 = var2.bind(var4)();
+                        var2 = null;
+                        if(!(var2 != var4)) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
+                        if(!(var2 != var3)) { _fun0004_ip = 9; continue _fun0004 }
+case 11:
+                        var2 = global;
+                        var4 = var2.Date;
+                        var2 = var4.now;
+                        var2 = var2.bind(var4)();
+                        if(!(!(var3 > var2))) { _fun0004_ip = 12; continue _fun0004 }
+case 9:
+                        var4 = _closure2_slot0;
+                        var3 = undefined;
+                        var2 = true;
+                        var2 = var4.bind(var3)(var2);
+                        _fun0004_ip = 8; continue _fun0004;
+case 12:
+                        var3 = _closure2_slot1;
                         var2 = undefined;
                         var1 = true;
                         var1 = var3.bind(var2)(var1);
-case 4:
+case 8:
                         var1 = undefined;
                         return var1;
                     }
@@ -151,25 +198,25 @@ case 4:
             var3 = var9[var3];
             var3 = var8.bind(var7)(var3);
             var3 = var3.bind(var7)(var4);
-            if(var2) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            if(var1) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+            if(var2) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+            if(var1) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var1 = {};
             var2 = 'loading';
             var1['state'] = var2;
-            _fun0001_ip = 9; continue _fun0001;
-case 7:
+            _fun0001_ip = 17; continue _fun0001;
+case 15:
             var2 = null;
-            if(!(var2 != var6)) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            if(!(var2 == var5)) { _fun0001_ip = 12; continue _fun0001 }
-case 10:
+            if(!(var2 != var6)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            if(!(var2 == var5)) { _fun0001_ip = 20; continue _fun0001 }
+case 18:
             var2 = {};
             var3 = 'error';
             var2['state'] = var3;
-            _fun0001_ip = 13; continue _fun0001;
-case 12:
+            _fun0001_ip = 21; continue _fun0001;
+case 20:
             var3 = {};
             var7 = 'gate';
             var3['state'] = var7;
@@ -177,16 +224,16 @@ case 12:
             var3['expiresAt'] = var5;
             var3['refresh'] = var4;
             var2 = var3;
-case 13:
+case 21:
             var1 = var2;
-case 9:
-            _fun0001_ip = 14; continue _fun0001;
-case 5:
+case 17:
+            _fun0001_ip = 22; continue _fun0001;
+case 13:
             var2 = {};
             var3 = 'error';
             var2['state'] = var3;
             var1 = var2;
-case 14:
+case 22:
             return var1;
         }
     };

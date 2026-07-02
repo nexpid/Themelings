@@ -35,100 +35,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var7[var2];
     var9 = var6.bind(var1)(var2);
     var5 = var9.createStyles;
-    var2 = function(arg1, arg2, arg3, arg4) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var8 = arg2;
-            var1 = {};
-            var2 = {};
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var9 = 4;
-            var4 = var4[var9];
-            var5 = undefined;
-            var4 = var6.bind(var5)(var4);
-            var4 = var4.GIF_PICKER_GUTTER_SPACING;
-            var2['paddingBottom'] = var4;
-            var4 = 0;
-            var6 = 0;
-            if(!(var4 !== var8)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var10 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var7 = var7[var9];
-            var7 = var10.bind(var5)(var7);
-            var10 = var7.GIF_PICKER_GUTTER_SPACING;
-            var7 = 2;
-            var6 = var10 / var7;
-case 2:
-            var2['paddingLeft'] = var6;
-            var6 = arg1;
-            var7 = 1;
-            var6 = var6 - var7;
-            var4 = 0;
-            if(!(var8 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var8 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var6 = var6[var9];
-            var6 = var8.bind(var5)(var6);
-            var8 = var6.GIF_PICKER_GUTTER_SPACING;
-            var6 = 2;
-            var4 = var8 / var6;
-case 4:
-            var2['paddingRight'] = var4;
-            var4 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var3 = 5;
-            var8 = var6[var3];
-            var8 = var4.bind(var5)(var8);
-            var8 = var8.radii;
-            var8 = var8.xs;
-            var2['borderRadius'] = var8;
-            var8 = arg3;
-            var2['width'] = var8;
-            var8 = arg4;
-            var2['height'] = var8;
-            var2['flex'] = var7;
-            var1['container'] = var2;
-            var2 = {};
-            var8 = var6[var3];
-            var8 = var4.bind(var5)(var8);
-            var8 = var8.colors;
-            var8 = var8.BORDER_SUBTLE;
-            var2['backgroundColor'] = var8;
-            var8 = var6[var3];
-            var8 = var4.bind(var5)(var8);
-            var8 = var8.radii;
-            var8 = var8.xs;
-            var2['borderRadius'] = var8;
-            var2['flex'] = var7;
-            var1['gifImage'] = var2;
-            var2 = {};
-            var7 = 2;
-            var2['borderWidth'] = var7;
-            var3 = var6[var3];
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.colors;
-            var3 = var3.BACKGROUND_BRAND;
-            var2['borderColor'] = var3;
-            var1['gifImageSelected'] = var2;
-            return var1;
-        }
+    var2 = function(arg1) {
+        var1 = {};
+        var2 = {};
+        var7 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var4 = 4;
+        var8 = var6[var4];
+        var5 = undefined;
+        var8 = var7.bind(var5)(var8);
+        var8 = var8.GIF_PICKER_GUTTER_SPACING;
+        var2['paddingBottom'] = var8;
+        var4 = var6[var4];
+        var4 = var7.bind(var5)(var4);
+        var4 = var4.GIF_PICKER_GUTTER_SPACING;
+        var7 = 2;
+        var4 = var4 / var7;
+        var2['paddingHorizontal'] = var4;
+        var4 = _closure1_slot1;
+        var3 = 5;
+        var8 = var6[var3];
+        var8 = var4.bind(var5)(var8);
+        var8 = var8.radii;
+        var8 = var8.xs;
+        var2['borderRadius'] = var8;
+        var8 = '100%';
+        var2['width'] = var8;
+        var8 = arg1;
+        var2['height'] = var8;
+        var8 = 1;
+        var2['flex'] = var8;
+        var1['container'] = var2;
+        var2 = {};
+        var9 = var6[var3];
+        var9 = var4.bind(var5)(var9);
+        var9 = var9.colors;
+        var9 = var9.BORDER_SUBTLE;
+        var2['backgroundColor'] = var9;
+        var9 = var6[var3];
+        var9 = var4.bind(var5)(var9);
+        var9 = var9.radii;
+        var9 = var9.xs;
+        var2['borderRadius'] = var9;
+        var2['flex'] = var8;
+        var1['gifImage'] = var2;
+        var2 = {};
+        var2['borderWidth'] = var7;
+        var3 = var6[var3];
+        var3 = var4.bind(var5)(var3);
+        var3 = var3.colors;
+        var3 = var3.BACKGROUND_BRAND;
+        var2['borderColor'] = var3;
+        var1['gifImageSelected'] = var2;
+        return var1;
     };
     var2 = var5.bind(var9)(var2);
     var _closure1_slot6 = var2;
     var5 = var8.memo;
     var2 = function(arg1) {
         var1 = arg1;
-        var9 = var1.width;
-        var8 = var1.height;
-        var11 = var1.columns;
-        var10 = var1.columnIndex;
+        var3 = var1.height;
         var2 = _closure1_slot6;
         var4 = undefined;
-        var12 = undefined;
-        var6 = var12[var2](var11, var10, var9, var8, var7);
+        var6 = var2.bind(var4)(var3);
         var3 = _closure1_slot5;
         var2 = _closure1_slot4;
         var1 = {};
@@ -150,7 +119,7 @@ case 4:
     var5 = 'modules/gif_picker/native/GIFPickerItemView.tsx';
     var5 = var6.bind(var7)(var5);
     var4 = function GIFPickerItemView(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
             var2 = var3.onPressGIF;
@@ -159,15 +128,11 @@ case 0:
             var _closure2_slot1 = var9;
             var12 = var3.index;
             var _closure2_slot2 = var12;
-            var17 = var3.columns;
-            var16 = var3.columnIndex;
-            var15 = var3.width;
-            var14 = var3.height;
+            var6 = var3.height;
             var10 = var3.selected;
             var3 = _closure1_slot6;
             var4 = undefined;
-            var18 = undefined;
-            var11 = var18[var3](var17, var16, var15, var14, var13);
+            var11 = var3.bind(var4)(var6);
             var8 = _closure1_slot3;
             var6 = var8.useCallback;
             var3 = new Array(3);
@@ -231,7 +196,7 @@ case 0:
             var12 = var9.src;
             var2[1] = var12;
             var1 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = _closure2_slot1;
                     var3 = var1.src;
@@ -244,16 +209,16 @@ case 0:
                     var3 = var2 == var5;
                     var7 = undefined;
                     var1 = undefined;
-                    if(var3) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = var5.split;
                     var3 = '.';
                     var4 = var4.bind(var5)(var3);
                     var3 = 0;
                     var1 = var4[var3];
-case 6:
-                    if(!(var2 == var1)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+case 2:
+                    if(!(var2 == var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 10;
@@ -271,7 +236,7 @@ case 9:
                     var6 = var7 + var6;
                     var2['index'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
-case 8:
+case 4:
                     return var1;
                 }
             };
@@ -292,12 +257,12 @@ case 8:
             var8 = null;
             var12 = var8 != var10;
             var8 = undefined;
-            if(!var12) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+            if(!var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = {};
             var12['selected'] = var10;
             var8 = var12;
-case 10:
+case 6:
             var1['accessibilityState'] = var8;
             var1['onPress'] = var7;
             var1['onLongPress'] = var6;
@@ -309,18 +274,18 @@ case 10:
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var8 = true;
-            if(!(var8 !== var10)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+            if(!(var8 !== var10)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = var11.gifImage;
-            _fun0002_ip = 14; continue _fun0002;
-case 12:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var12 = var11.gifImage;
             var10 = new Array(2);
             var10[0] = var12;
             var11 = var11.gifImageSelected;
             var10[1] = var11;
             var8 = var10;
-case 14:
+case 10:
             var5['style'] = var8;
             var8 = {};
             var9 = var9.src;

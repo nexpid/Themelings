@@ -144,8 +144,6 @@ case 6:
             var1['getItemType'] = var9;
             var9 = var7.data;
             var1['data'] = var9;
-            var9 = var7.estimatedItemSize;
-            var1['estimatedItemSize'] = var9;
             var9 = var7.preserveScrollMomentum;
             var1['preserveScrollMomentum'] = var9;
             var9 = var7.automaticallyAdjustsScrollIndicatorInsets;
@@ -158,12 +156,12 @@ case 6:
             var1['showsVerticalScrollIndicator'] = var9;
             var9 = var7.lockableScrollableContentOffsetY;
             var1['lockableScrollableContentOffsetY'] = var9;
+            var9 = var7.bottomViewabilityInsetRef;
+            var1['bottomViewabilityInsetRef'] = var9;
             var9 = var7.onViewableItemsChanged;
             var1['onViewableItemsChanged'] = var9;
             var9 = var7.viewabilityConfigCallbackPairs;
             var1['viewabilityConfigCallbackPairs'] = var9;
-            var9 = var7.bottomViewabilityInsetRef;
-            var1['bottomViewabilityInsetRef'] = var9;
             var1['ref'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 7; continue _fun0001;
@@ -191,8 +189,6 @@ case 5:
             var2['getItemType'] = var8;
             var8 = var7.data;
             var2['data'] = var8;
-            var8 = var7.estimatedItemSize;
-            var2['estimatedItemSize'] = var8;
             var8 = var7.automaticallyAdjustsScrollIndicatorInsets;
             var2['automaticallyAdjustsScrollIndicatorInsets'] = var8;
             var8 = var7.keyboardDismissMode;

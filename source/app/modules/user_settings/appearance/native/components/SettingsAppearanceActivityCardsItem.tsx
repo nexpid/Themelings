@@ -85,8 +85,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['keyExtractor'] = var5;
-        var5 = 265;
-        var1['estimatedItemSize'] = var5;
         var5 = false;
         var1['showsHorizontalScrollIndicator'] = var5;
         var5 = true;

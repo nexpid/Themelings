@@ -235,7 +235,7 @@ case 24:
 case 28:
             if(!(var5 == var10)) { _fun0004_ip = 29; continue _fun0004 }
 case 27:
-            if(!(var5 === var9)) { _fun0004_ip = 30; continue _fun0004 }
+            if(!(var5 == var9)) { _fun0004_ip = 30; continue _fun0004 }
 case 31:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;

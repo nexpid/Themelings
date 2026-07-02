@@ -795,10 +795,10 @@ case 4:
     var3['MULTIPLE_PURCHASEABLE_PREMIUM_FEATURES_BOOST_INFO'] = var13;
     var3['POWERUPS_INCLUDED_IN_LEVEL'] = var12;
     var3['PowerupActiveStatusType'] = var11;
-    var3['GuildPowerupNewPerkAvailableCoachmarkVersion'] = var10;
+    var3['GuildPowerupNewPerkMarketingVersion'] = var10;
     var3['GUILD_TAG_BADGE_PACKS_WAVE_ONE_SKU_ID_SET'] = var9;
     var3['GUILD_TAG_BADGE_PACKS_WAVE_TWO_SKU_ID_SET'] = var8;
-    var3['NEW_PERK_AVAILABLE_COACHMARK_VERSION_TO_POWERUP_SKU_ID_SET'] = var7;
+    var3['NEW_PERK_MARKETING_VERSION_TO_POWERUP_SKU_ID_SET'] = var7;
     var7 = 'powerupId';
     var3['POWERUP_ID_QUERY_PARAM'] = var7;
     var3['BoostInfoType'] = var6;

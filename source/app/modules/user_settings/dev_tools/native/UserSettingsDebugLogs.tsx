@@ -585,8 +585,6 @@ case 14:
             var6['contentContainerStyle'] = var13;
             var6['data'] = var12;
             var6['renderItem'] = var10;
-            var10 = 100;
-            var6['estimatedItemSize'] = var10;
             var10 = _closure1_slot5;
             var9 = {};
             var12 = false;

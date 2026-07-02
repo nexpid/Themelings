@@ -97,11 +97,10 @@ case 0:
             var3 = arg1;
             var5 = var3.sections;
             var _closure2_slot0 = var5;
-            var13 = var3.selectedSkuId;
-            var _closure2_slot1 = var13;
-            var14 = var3.renderRow;
-            var _closure2_slot2 = var14;
-            var12 = var3.estimatedItemSize;
+            var12 = var3.selectedSkuId;
+            var _closure2_slot1 = var12;
+            var13 = var3.renderRow;
+            var _closure2_slot2 = var13;
             var1 = var3.isFetching;
             var4 = undefined;
             if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
@@ -114,18 +113,18 @@ case 2:
             var _closure2_slot5 = var4;
             var3 = _closure1_slot7;
             var7 = var3.bind(var4)();
-            var15 = _closure1_slot3;
-            var8 = var15.useState;
+            var14 = _closure1_slot3;
+            var8 = var14.useState;
             var3 = 0;
-            var10 = var8.bind(var15)(var3);
+            var10 = var8.bind(var14)(var3);
             var9 = _closure1_slot2;
             var8 = 2;
             var9 = var9.bind(var4)(var10, var8);
-            var17 = var9[var3];
+            var16 = var9[var3];
             var8 = 1;
             var8 = var9[var8];
             _closure2_slot4 = var8;
-            var10 = var15.useCallback;
+            var10 = var14.useCallback;
             var9 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.nativeEvent;
@@ -137,27 +136,27 @@ case 2:
                 return var1;
             };
             var8 = new Array(0);
-            var10 = var10.bind(var15)(var9, var8);
-            var8 = var17 > var3;
+            var10 = var10.bind(var14)(var9, var8);
+            var8 = var16 > var3;
             if(!var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var15 = _closure1_slot0;
-            var16 = _closure1_slot1;
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot1;
             var8 = 5;
-            var9 = var16[var8];
-            var9 = var15.bind(var4)(var9);
-            var18 = var9.GUTTER_SIZE;
+            var9 = var15[var8];
+            var9 = var14.bind(var4)(var9);
+            var17 = var9.GUTTER_SIZE;
             var9 = 4;
-            var9 = var9 * var18;
-            var9 = var17 - var9;
-            var8 = var16[var8];
-            var8 = var15.bind(var4)(var8);
+            var9 = var9 * var17;
+            var9 = var16 - var9;
+            var8 = var15[var8];
+            var8 = var14.bind(var4)(var8);
             var8 = var8.ROW_SIZE;
             var3 = var9 / var8;
 case 4:
             _closure2_slot5 = var3;
             var8 = _closure1_slot3;
-            var15 = var8.useMemo;
+            var14 = var8.useMemo;
             var9 = new Array(2);
             var9[0] = var5;
             var9[1] = var1;
@@ -234,12 +233,12 @@ case 6:
                     return var1;
                 }
             };
-            var17 = var15.bind(var8)(var5, var9);
+            var16 = var14.bind(var8)(var5, var9);
             var9 = var8.useCallback;
             var5 = new Array(3);
-            var5[0] = var14;
+            var5[0] = var13;
             var5[1] = var3;
-            var5[2] = var13;
+            var5[2] = var12;
             var3 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -272,7 +271,7 @@ case 10:
                     return var1;
                 }
             };
-            var16 = var9.bind(var8)(var3, var5);
+            var15 = var9.bind(var8)(var3, var5);
             var9 = var8.useCallback;
             var5 = function(arg1) {
                 var1 = arg1;
@@ -280,7 +279,7 @@ case 10:
                 return var1;
             };
             var3 = new Array(0);
-            var15 = var9.bind(var8)(var5, var3);
+            var14 = var9.bind(var8)(var5, var3);
             var5 = var8.useCallback;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -288,7 +287,7 @@ case 10:
                 return var1;
             };
             var2 = new Array(0);
-            var14 = var5.bind(var8)(var3, var2);
+            var13 = var5.bind(var8)(var3, var2);
             var3 = _closure1_slot6;
             var2 = _closure1_slot5;
             var5 = {};
@@ -298,18 +297,17 @@ case 12:
             var5['style'] = var1;
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
-            var18 = _closure1_slot1;
+            var17 = _closure1_slot1;
             var1 = 8;
-            var1 = var18[var1];
+            var1 = var17[var1];
             var1 = var8.bind(var4)(var1);
             var8 = var1.BottomSheetFlashList;
             var1 = {};
-            var1['data'] = var17;
-            var1['renderItem'] = var16;
-            var1['getItemType'] = var15;
-            var1['keyExtractor'] = var14;
-            var1['extraData'] = var13;
-            var1['estimatedItemSize'] = var12;
+            var1['data'] = var16;
+            var1['renderItem'] = var15;
+            var1['getItemType'] = var14;
+            var1['keyExtractor'] = var13;
+            var1['extraData'] = var12;
             var12 = null;
             if(!(var12 == var11)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:

@@ -1034,21 +1034,15 @@ case 56:
         var3[0] = var19;
         var3[1] = var2;
         var2 = function(arg1) {
-            var6 = arg1;
-            var _closure3_slot0 = var6;
+            var5 = arg1;
+            var _closure3_slot0 = var5;
             var4 = _closure1_slot9;
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 31;
-            var1 = var3[var1];
-            var3 = undefined;
-            var1 = var2.bind(var3)(var1);
-            var2 = var1.CellContainer;
-            var1 = {};
-            var8 = var1;
-            var7 = var6;
-            var6 = copyDataProperties(var8, var7);
-            var6 = function onLayout(arg1) {
+            var3 = _closure1_slot5;
+            var2 = {};
+            var7 = var2;
+            var6 = var5;
+            var5 = copyDataProperties(var7, var6);
+            var5 = function onLayout(arg1) {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                     var3 = arg1;
@@ -1087,9 +1081,10 @@ case 43:
                     return var1;
                 }
             };
-            var5 = 'onLayout';
-            var1[4] = var6;
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = 'onLayout';
+            var2[0] = var5;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
             return var1;
         };
         var8 = var7.bind(var8)(var2, var3);
@@ -1133,8 +1128,6 @@ case 43:
         var5['keyExtractor'] = var18;
         var17 = var17.listContentContainer;
         var5['contentContainerStyle'] = var17;
-        var17 = _closure1_slot13;
-        var5['estimatedItemSize'] = var17;
         var5['snapToOffsets'] = var16;
         var5['snapToEnd'] = var15;
         var16 = 'fast';

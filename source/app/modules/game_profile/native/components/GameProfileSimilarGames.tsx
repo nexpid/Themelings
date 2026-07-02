@@ -96,8 +96,8 @@ case 0:
                     var4 = _closure2_slot1;
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var8 = 6;
-                    var2 = var1[var8];
+                    var7 = 6;
+                    var2 = var1[var7];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
                     var2 = var2.GameProfileTrackActionActions;
@@ -115,26 +115,25 @@ case 2:
                     if(!var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                     var3 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var5 = _closure1_slot2;
                     var2 = 7;
-                    var2 = var6[var2];
+                    var2 = var5[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.openGameProfileModal;
                     var2 = {};
-                    var10 = _closure2_slot3;
-                    var2['gameId'] = var10;
-                    var9 = {};
-                    var5 = true;
-                    var9['shouldOpenGameProfile'] = var5;
-                    var9['gameId'] = var10;
-                    var2['gameProfileModalChecks'] = var9;
-                    var7 = _closure1_slot0;
-                    var6 = var6[var8];
-                    var6 = var7.bind(var1)(var6);
-                    var6 = var6.GameProfileSources;
-                    var6 = var6.SimilarGames;
-                    var2['source'] = var6;
-                    var2['stackOnTop'] = var5;
+                    var9 = _closure2_slot3;
+                    var2['gameId'] = var9;
+                    var8 = {};
+                    var10 = true;
+                    var8['shouldOpenGameProfile'] = var10;
+                    var8['gameId'] = var9;
+                    var2['gameProfileModalChecks'] = var8;
+                    var6 = _closure1_slot0;
+                    var5 = var5[var7];
+                    var5 = var6.bind(var1)(var5);
+                    var5 = var5.GameProfileSources;
+                    var5 = var5.SimilarGames;
+                    var2['source'] = var5;
                     var2 = var3.bind(var4)(var2);
 case 4:
                     return var1;
@@ -400,7 +399,7 @@ case 0:
             var1 = var6.bind(var5)(var1);
             var2 = var1.bind(var5)(var4, var2);
             var1 = var2.isFetching;
-            var15 = var2.similarGames;
+            var14 = var2.similarGames;
             var2 = 3;
             if(!var3) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
@@ -424,8 +423,8 @@ case 9:
             var4 = _closure1_slot11;
             var3 = var6 - var3;
             var3 = var3 - var4;
-            var11 = var3 / var2;
-            _closure2_slot1 = var11;
+            var15 = var3 / var2;
+            _closure2_slot1 = var15;
             var3 = global;
             var6 = var3.Array;
             var4 = var6.from;
@@ -435,10 +434,10 @@ case 9:
                 var1 = arg2;
                 return var1;
             };
-            var13 = var4.bind(var6)(var3, var2);
+            var12 = var4.bind(var6)(var3, var2);
             if(var1) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var3 = var15.length;
+            var3 = var14.length;
             var2 = 0;
             var1 = null;
             if(!(var2 !== var3)) { _fun0003_ip = 13; continue _fun0003 }
@@ -448,7 +447,7 @@ case 14:
             var2 = {};
             var6 = var8.container;
             var2['style'] = var6;
-            var14 = _closure1_slot7;
+            var13 = _closure1_slot7;
             var7 = _closure1_slot6;
             var6 = {};
             var9 = var8.header;
@@ -474,10 +473,10 @@ case 14:
             var17['children'] = var20;
             var17 = var19.bind(var5)(var18, var17);
             var6['children'] = var17;
-            var7 = var14.bind(var5)(var7, var6);
+            var7 = var13.bind(var5)(var7, var6);
             var6 = new Array(2);
             var6[0] = var7;
-            var14 = _closure1_slot7;
+            var13 = _closure1_slot7;
             var7 = 13;
             var7 = var16[var7];
             var7 = var9.bind(var5)(var7);
@@ -485,8 +484,8 @@ case 14:
             var7 = {};
             var16 = true;
             var7['horizontal'] = var16;
-            var7['data'] = var15;
-            var15 = function renderItem(arg1) {
+            var7['data'] = var14;
+            var14 = function renderItem(arg1) {
                 var1 = arg1;
                 var1 = var1.item;
                 var4 = _closure1_slot7;
@@ -501,21 +500,20 @@ case 14:
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var7['renderItem'] = var15;
-            var7['estimatedItemSize'] = var11;
-            var15 = false;
-            var7['showsHorizontalScrollIndicator'] = var15;
-            var15 = _closure1_slot13;
-            var7['ItemSeparatorComponent'] = var15;
-            var15 = _closure1_slot14;
-            var7['ListHeaderComponent'] = var15;
-            var7['ListFooterComponent'] = var15;
-            var15 = 'fast';
-            var7['decelerationRate'] = var15;
-            var15 = _closure1_slot9;
-            var15 = var11 + var15;
-            var7['snapToInterval'] = var15;
-            var7 = var14.bind(var5)(var9, var7);
+            var7['renderItem'] = var14;
+            var14 = false;
+            var7['showsHorizontalScrollIndicator'] = var14;
+            var14 = _closure1_slot13;
+            var7['ItemSeparatorComponent'] = var14;
+            var14 = _closure1_slot14;
+            var7['ListHeaderComponent'] = var14;
+            var7['ListFooterComponent'] = var14;
+            var14 = 'fast';
+            var7['decelerationRate'] = var14;
+            var14 = _closure1_slot9;
+            var14 = var15 + var14;
+            var7['snapToInterval'] = var14;
+            var7 = var13.bind(var5)(var9, var7);
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
@@ -532,40 +530,40 @@ case 11:
             var6 = {};
             var8 = var8.header;
             var6['style'] = var8;
-            var17 = _closure1_slot7;
+            var16 = _closure1_slot7;
             var8 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var15 = 9;
-            var15 = var14[var15];
-            var15 = var8.bind(var5)(var15);
-            var16 = var15.Text;
-            var15 = {'variant': 'heading-sm/semibold', 'color': 'mobile-text-heading-primary'};
-            var18 = 8;
-            var19 = var14[var18];
-            var19 = var8.bind(var5)(var19);
-            var20 = var19.intl;
-            var19 = var20.string;
-            var18 = var14[var18];
+            var13 = _closure1_slot2;
+            var14 = 9;
+            var14 = var13[var14];
+            var14 = var8.bind(var5)(var14);
+            var15 = var14.Text;
+            var14 = {'variant': 'heading-sm/semibold', 'color': 'mobile-text-heading-primary'};
+            var17 = 8;
+            var18 = var13[var17];
             var18 = var8.bind(var5)(var18);
-            var18 = var18.t;
-            var18 = var18["6rLyQB"];
-            var18 = var19.bind(var20)(var18);
-            var15['children'] = var18;
-            var15 = var17.bind(var5)(var16, var15);
-            var6['children'] = var15;
+            var19 = var18.intl;
+            var18 = var19.string;
+            var17 = var13[var17];
+            var17 = var8.bind(var5)(var17);
+            var17 = var17.t;
+            var17 = var17["6rLyQB"];
+            var17 = var18.bind(var19)(var17);
+            var14['children'] = var17;
+            var14 = var16.bind(var5)(var15, var14);
+            var6['children'] = var14;
             var7 = var9.bind(var5)(var7, var6);
             var6 = new Array(2);
             var6[0] = var7;
             var9 = _closure1_slot7;
             var7 = 13;
-            var7 = var14[var7];
+            var7 = var13[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.FlashList;
             var7 = {};
-            var14 = true;
-            var7['horizontal'] = var14;
-            var7['data'] = var13;
-            var12 = function renderItem() {
+            var13 = true;
+            var7['horizontal'] = var13;
+            var7['data'] = var12;
+            var11 = function renderItem() {
                 var4 = _closure1_slot7;
                 var3 = _closure1_slot16;
                 var2 = {};
@@ -575,8 +573,7 @@ case 11:
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var7['renderItem'] = var12;
-            var7['estimatedItemSize'] = var11;
+            var7['renderItem'] = var11;
             var11 = false;
             var7['showsHorizontalScrollIndicator'] = var11;
             var11 = _closure1_slot13;

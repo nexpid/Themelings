@@ -550,8 +550,6 @@ case 30:
             };
             var6['renderItem'] = var14;
             var6['data'] = var13;
-            var13 = 56;
-            var6['estimatedItemSize'] = var13;
             var6['extraData'] = var9;
             var9 = 'always';
             var6['keyboardShouldPersistTaps'] = var9;

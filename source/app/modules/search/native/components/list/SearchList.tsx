@@ -695,12 +695,11 @@ case 0:
             var10 = var1.ItemSeparatorComponent;
             var12 = var1.ListHeaderComponent;
             var11 = var1.ListFooterComponent;
-            var19 = var1.estimatedItemSize;
             var9 = var1.numColumns;
             var2 = _closure1_slot3;
             var1 = var2.useRef;
             var5 = null;
-            var20 = var1.bind(var2)(var5);
+            var19 = var1.bind(var2)(var5);
             var1 = _closure1_slot10;
             var4 = undefined;
             var6 = var1.bind(var4)();
@@ -719,16 +718,16 @@ case 74:
             var1 = 1;
             var16 = var2;
             if(!(var1 !== var9)) { _fun0004_ip = 73; continue _fun0004 }
-case 75:
+case 14:
             var16 = 0.8;
             var1 = 2;
             if(!(var1 !== var9)) { _fun0004_ip = 73; continue _fun0004 }
-case 76:
+case 15:
             var1 = 3;
             var1 = var9 >= var1;
             var16 = undefined;
             if(!var1) { _fun0004_ip = 73; continue _fun0004 }
-case 77:
+case 75:
             var16 = 0.99;
 case 73:
             var3 = _closure1_slot9;
@@ -739,57 +738,56 @@ case 73:
             var7 = var18.length;
             var6 = 0;
             var6 = var6 === var7;
+            if(!var6) { _fun0004_ip = 76; continue _fun0004 }
+case 77:
+            var6 = var5 == var11;
+case 76:
             if(!var6) { _fun0004_ip = 78; continue _fun0004 }
 case 79:
-            var6 = var5 == var11;
+            var6 = var5 == var12;
 case 78:
             if(!var6) { _fun0004_ip = 80; continue _fun0004 }
-case 21:
-            var6 = var5 == var12;
-case 80:
-            if(!var6) { _fun0004_ip = 81; continue _fun0004 }
-case 82:
+case 81:
             var8 = _closure1_slot8;
             var7 = _closure1_slot4;
             var5 = {};
-            var21 = _closure1_slot5;
-            var21 = var21.absoluteFill;
-            var5['style'] = var21;
-            var23 = _closure1_slot8;
-            var22 = _closure1_slot1;
-            var28 = _closure1_slot2;
-            var21 = 23;
-            var21 = var28[var21];
-            var22 = var22.bind(var4)(var21);
-            var21 = {};
-            var27 = _closure1_slot0;
-            var24 = 24;
-            var25 = var28[var24];
-            var25 = var27.bind(var4)(var25);
-            var26 = var25.intl;
-            var25 = var26.string;
-            var24 = var28[var24];
-            var24 = var27.bind(var4)(var24);
-            var24 = var24.t;
-            var24 = var24.V6nAfF;
-            var24 = var25.bind(var26)(var24);
-            var21['text'] = var24;
-            var21 = var23.bind(var4)(var22, var21);
-            var5['children'] = var21;
+            var20 = _closure1_slot5;
+            var20 = var20.absoluteFill;
+            var5['style'] = var20;
+            var22 = _closure1_slot8;
+            var21 = _closure1_slot1;
+            var27 = _closure1_slot2;
+            var20 = 23;
+            var20 = var27[var20];
+            var21 = var21.bind(var4)(var20);
+            var20 = {};
+            var26 = _closure1_slot0;
+            var23 = 24;
+            var24 = var27[var23];
+            var24 = var26.bind(var4)(var24);
+            var25 = var24.intl;
+            var24 = var25.string;
+            var23 = var27[var23];
+            var23 = var26.bind(var4)(var23);
+            var23 = var23.t;
+            var23 = var23.V6nAfF;
+            var23 = var24.bind(var25)(var23);
+            var20['text'] = var23;
+            var20 = var22.bind(var4)(var21, var20);
+            var5['children'] = var20;
             var6 = var8.bind(var4)(var7, var5);
-case 81:
+case 80:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot8;
             var7 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var20 = _closure1_slot2;
             var6 = 25;
-            var6 = var21[var6];
+            var6 = var20[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.AnimatedFlashList;
             var6 = {'ref': null, 'keyboardDismissMode': 'on-drag', 'keyboardShouldPersistTaps': 'handled'};
-            var6['ref'] = var20;
-            var6['estimatedItemSize'] = var19;
+            var6['ref'] = var19;
             var6['data'] = var18;
             var18 = _closure1_slot14;
             var6['renderItem'] = var18;
@@ -801,9 +799,9 @@ case 81:
             var16 = 16;
             var16 = var16 + var17;
             var14['paddingBottom'] = var16;
-            var30 = var14;
-            var29 = var15;
-            var15 = copyDataProperties(var30, var29);
+            var29 = var14;
+            var28 = var15;
+            var15 = copyDataProperties(var29, var28);
             var6['contentContainerStyle'] = var14;
             var14 = _closure1_slot12;
             var6['keyExtractor'] = var14;

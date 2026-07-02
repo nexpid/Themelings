@@ -49,18 +49,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
-            var13 = var3.data;
-            var _closure2_slot0 = var13;
+            var12 = var3.data;
+            var _closure2_slot0 = var12;
             var6 = var3.searchContext;
             var _closure2_slot1 = var6;
-            var18 = var3.tab;
-            var _closure2_slot2 = var18;
-            var22 = var3.isFocused;
-            var _closure2_slot3 = var22;
+            var17 = var3.tab;
+            var _closure2_slot2 = var17;
+            var21 = var3.isFocused;
+            var _closure2_slot3 = var21;
             var1 = var3.isFirstPageLoading;
             var2 = var3.isNextPageLoading;
-            var12 = var3.estimatedItemSize;
-            var14 = var3.contentContainerStyle;
+            var13 = var3.contentContainerStyle;
             var9 = var3.ItemSeparatorComponent;
             var8 = var3.numColumns;
             var5 = undefined;
@@ -76,11 +75,11 @@ case 3:
             var1 = var2;
 case 2:
             _closure2_slot4 = var1;
-            var17 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var16 = _closure1_slot0;
+            var20 = _closure1_slot2;
             var3 = 6;
-            var3 = var21[var3];
-            var11 = var17.bind(var5)(var3);
+            var3 = var20[var3];
+            var11 = var16.bind(var5)(var3);
             var7 = var11.useStateFromStoresObject;
             var3 = _closure1_slot5;
             var4 = new Array(2);
@@ -116,47 +115,47 @@ case 2:
             };
             var3 = var7.bind(var11)(var4, var3);
             var4 = var3.isIndexing;
-            var19 = var3.isHistoricalIndexing;
-            _closure2_slot5 = var19;
-            var20 = var3.documentsIndexed;
-            _closure2_slot6 = var20;
+            var18 = var3.isHistoricalIndexing;
+            _closure2_slot5 = var18;
+            var19 = var3.documentsIndexed;
+            _closure2_slot6 = var19;
             var3 = 8;
-            var3 = var21[var3];
-            var11 = var17.bind(var5)(var3);
+            var3 = var20[var3];
+            var11 = var16.bind(var5)(var3);
             var7 = var11.useMessageSearchErrorScreen;
             var3 = {};
             var3['searchContext'] = var6;
-            var3['tab'] = var18;
-            var16 = var13.length;
-            var15 = 0;
-            var15 = var16 > var15;
-            var3['hasListItems'] = var15;
-            var15 = var7.bind(var11)(var3);
-            var11 = var15.hasError;
+            var3['tab'] = var17;
+            var15 = var12.length;
+            var14 = 0;
+            var14 = var15 > var14;
+            var3['hasListItems'] = var14;
+            var14 = var7.bind(var11)(var3);
+            var11 = var14.hasError;
             _closure2_slot7 = var11;
-            var7 = var15.errorText;
-            var3 = var15.isErrorFullscreen;
-            var23 = var15.isErrorToast;
-            _closure2_slot8 = var23;
-            var15 = var15.showErrorToast;
-            _closure2_slot9 = var15;
-            var16 = 9;
-            var16 = var21[var16];
-            var17 = var17.bind(var5)(var16);
-            var16 = var17.useSearchFetchPendingManager;
-            var16 = var16.bind(var17)(var6);
-            _closure2_slot10 = var16;
-            var17 = _closure1_slot3;
-            var24 = var17.useCallback;
-            var25 = var13.length;
-            var21 = new Array(7);
-            var21[0] = var25;
-            var21[1] = var1;
-            var21[2] = var22;
-            var21[3] = var11;
-            var21[4] = var6;
-            var21[5] = var18;
-            var21[6] = var16;
+            var7 = var14.errorText;
+            var3 = var14.isErrorFullscreen;
+            var22 = var14.isErrorToast;
+            _closure2_slot8 = var22;
+            var14 = var14.showErrorToast;
+            _closure2_slot9 = var14;
+            var15 = 9;
+            var15 = var20[var15];
+            var16 = var16.bind(var5)(var15);
+            var15 = var16.useSearchFetchPendingManager;
+            var15 = var15.bind(var16)(var6);
+            _closure2_slot10 = var15;
+            var16 = _closure1_slot3;
+            var23 = var16.useCallback;
+            var24 = var12.length;
+            var20 = new Array(7);
+            var20[0] = var24;
+            var20[1] = var1;
+            var20[2] = var21;
+            var20[3] = var11;
+            var20[4] = var6;
+            var20[5] = var17;
+            var20[6] = var15;
             var11 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -207,15 +206,15 @@ case 4:
                     return var1;
                 }
             };
-            var11 = var24.bind(var17)(var11, var21);
-            var24 = var17.useEffect;
-            var21 = new Array(5);
-            var21[0] = var22;
-            var21[1] = var1;
-            var21[2] = var6;
-            var21[3] = var16;
-            var21[4] = var18;
-            var16 = function() {
+            var11 = var23.bind(var16)(var11, var20);
+            var23 = var16.useEffect;
+            var20 = new Array(5);
+            var20[0] = var21;
+            var20[1] = var1;
+            var20[2] = var6;
+            var20[3] = var15;
+            var20[4] = var17;
+            var15 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = _closure2_slot3;
@@ -236,14 +235,14 @@ case 14:
                     return var1;
                 }
             };
-            var16 = var24.bind(var17)(var16, var21);
-            var21 = var17.useEffect;
-            var16 = new Array(4);
-            var16[0] = var23;
-            var16[1] = var1;
-            var16[2] = var22;
-            var16[3] = var15;
-            var15 = function() {
+            var15 = var23.bind(var16)(var15, var20);
+            var20 = var16.useEffect;
+            var15 = new Array(4);
+            var15[0] = var22;
+            var15[1] = var1;
+            var15[2] = var21;
+            var15[3] = var14;
+            var14 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot8;
@@ -266,13 +265,13 @@ case 17:
                     return var1;
                 }
             };
-            var15 = var21.bind(var17)(var15, var16);
-            var16 = var17.useMemo;
-            var15 = new Array(4);
-            var15[0] = var20;
-            var15[1] = var19;
-            var15[2] = var6;
-            var15[3] = var18;
+            var14 = var20.bind(var16)(var14, var15);
+            var15 = var16.useMemo;
+            var14 = new Array(4);
+            var14[0] = var19;
+            var14[1] = var18;
+            var14[2] = var6;
+            var14[3] = var17;
             var10 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -311,7 +310,7 @@ case 19:
                     return var1;
                 }
             };
-            var10 = var16.bind(var17)(var10, var15);
+            var10 = var15.bind(var16)(var10, var14);
             if(var4) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
             if(!var3) { _fun0001_ip = 24; continue _fun0001 }
@@ -320,9 +319,9 @@ case 25:
 case 26:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
-            var15 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var1 = 13;
-            var1 = var15[var1];
+            var1 = var14[var1];
             var3 = var3.bind(var5)(var1);
             var1 = {};
             var1['text'] = var7;
@@ -331,14 +330,13 @@ case 26:
 case 24:
             var7 = _closure1_slot7;
             var4 = _closure1_slot1;
-            var15 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var3 = 14;
-            var3 = var15[var3];
+            var3 = var14[var3];
             var4 = var4.bind(var5)(var3);
             var3 = {};
-            var3['contentContainerStyle'] = var14;
-            var3['data'] = var13;
-            var3['estimatedItemSize'] = var12;
+            var3['contentContainerStyle'] = var13;
+            var3['data'] = var12;
             var3['onEndReached'] = var11;
             var3['ListHeaderComponent'] = var10;
             var3['ItemSeparatorComponent'] = var9;
@@ -386,15 +384,15 @@ case 0:
             var9 = null;
             var10 = var9 == var8;
             var7 = undefined;
-            if(var10) { _fun0006_ip = 2; continue _fun0006 }
-case 29:
+            if(var10) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
             var8 = var8.author;
             var9 = var9 == var8;
             var7 = undefined;
-            if(var9) { _fun0006_ip = 2; continue _fun0006 }
-case 30:
+            if(var9) { _fun0006_ip = 29; continue _fun0006 }
+case 31:
             var7 = var8.id;
-case 2:
+case 29:
             var2['userId'] = var7;
             var2['index'] = var6;
             var5 = _closure1_slot6;

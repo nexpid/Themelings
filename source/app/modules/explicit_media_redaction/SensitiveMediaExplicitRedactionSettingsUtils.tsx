@@ -242,10 +242,10 @@ case 47:
             var2 = {'setting': null, 'isDm': true, 'isFriend': true};
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0003_ip = 12; continue _fun0003 }
-case 49:
+            if(var7) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
             var5 = var6.explicitContentFriendDm;
-case 12:
+case 49:
             var2['setting'] = var5;
             var2 = var3.bind(var4)(var2);
             var1['explicitContentFriendDm'] = var2;
@@ -415,8 +415,8 @@ case 0:
             var2 = var3.getCurrentUser;
             var3 = var2.bind(var3)();
             var2 = null;
-            if(!(var2 != var3)) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
+            if(!(var2 != var3)) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
             var2 = _closure1_slot9;
             var4 = undefined;
             var2 = var2.bind(var4)();
@@ -429,7 +429,7 @@ case 51:
             var1 = var2.getShouldObscureForSetting;
             var1 = var1.bind(var2)(var3);
             return var1;
-case 50:
+case 51:
             var1 = false;
             return var1;
         }

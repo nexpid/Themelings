@@ -576,8 +576,6 @@ case 22:
             }
         };
         var6['renderItem'] = var9;
-        var9 = 54;
-        var6['estimatedItemSize'] = var9;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;
         var1['children'] = var5;

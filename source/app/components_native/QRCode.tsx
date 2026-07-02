@@ -339,7 +339,7 @@ case 0:
                 var1 = _closure1_slot17;
                 var6 = null;
                 if(!(var6 == var2)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+case 2:
                 var3 = _closure1_slot16;
                 var2 = var3.SIZE_40;
 case 13:
@@ -384,8 +384,8 @@ case 13:
                 var8 = var9.bind(var4)(var2, var8);
                 var5[1] = var8;
                 var6 = null;
-                if(!var7) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+                if(!var7) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                 var9 = _closure1_slot13;
                 var8 = _closure1_slot1;
                 var11 = _closure1_slot2;
@@ -397,7 +397,7 @@ case 16:
                 var10 = var10.absoluteFill;
                 var7['style'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 15:
+case 14:
                 var5[2] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

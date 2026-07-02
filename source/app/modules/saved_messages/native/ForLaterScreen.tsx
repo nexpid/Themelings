@@ -167,8 +167,6 @@ case 3:
             var7 = _closure1_slot11;
             var1['keyExtractor'] = var7;
             var1['onScroll'] = var6;
-            var6 = 130;
-            var1['estimatedItemSize'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 4; continue _fun0001;
 case 2:

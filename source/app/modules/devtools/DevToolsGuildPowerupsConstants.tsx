@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var9.bind(var1)(var4);
     var4 = var4.DismissibleContent;
     var4 = var4.GUILD_POWERUP_PERKS_COACHMARK;
-    var7 = new Array(5);
+    var7 = new Array(6);
     var7[0] = var4;
     var4 = var10[var8];
     var4 = var9.bind(var1)(var4);
@@ -41,6 +41,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.DismissibleContent;
     var4 = var4.GUILD_POWERUP_NEW_PERK_AVAILABLE_COACHMARK;
     var7[4] = var4;
+    var4 = var10[var8];
+    var4 = var9.bind(var1)(var4);
+    var4 = var4.DismissibleContent;
+    var4 = var4.GUILD_POWERUP_NEW_PERK_AVAILABLE_BADGE;
+    var7[5] = var4;
     var4 = var10[var8];
     var4 = var9.bind(var1)(var4);
     var4 = var4.DismissibleGuildContent;

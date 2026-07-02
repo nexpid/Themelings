@@ -782,7 +782,7 @@ case 47:
             var3 = var12[var1];
             var7 = var6.bind(var4)(var3);
             var3 = var7.useAnimatedStyle;
-            var2 = function b() {
+            var2 = function I() {
                 var1 = {'flex': 1, 'opacity': null, 'marginBottom': 32};
                 var3 = _closure2_slot5;
                 var2 = var3.get;
@@ -816,8 +816,6 @@ case 47:
             var5['data'] = var10;
             var5['renderItem'] = var9;
             var5['onScroll'] = var8;
-            var8 = 79;
-            var5['estimatedItemSize'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

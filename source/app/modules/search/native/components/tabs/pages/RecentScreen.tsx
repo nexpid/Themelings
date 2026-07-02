@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot22;
+            var9 = _closure1_slot21;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot22;
+            var7 = _closure1_slot21;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot20 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,12 +182,12 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot21 = var1;
     var1 = function ClearAllHistory(arg1) {
         var1 = arg1;
         var1 = var1.searchContext;
         var _closure2_slot0 = var1;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot16;
         var11 = _closure1_slot0;
         var12 = _closure1_slot2;
         var1 = 11;
@@ -220,7 +220,7 @@ case 35:
         var6 = var6.LFTAUp;
         var6 = var7.bind(var9)(var6);
         var1['accessibilityLabel'] = var6;
-        var7 = _closure1_slot17;
+        var7 = _closure1_slot16;
         var5 = 14;
         var5 = var12[var5];
         var5 = var11.bind(var3)(var5);
@@ -241,11 +241,11 @@ case 35:
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot22 = var1;
     var1 = function ViewAll(arg1) {
         var1 = arg1;
         var6 = var1.onJumpToMedia;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot16;
         var11 = _closure1_slot0;
         var12 = _closure1_slot2;
         var1 = 11;
@@ -266,7 +266,7 @@ case 35:
         var6 = var6.Ofpgwh;
         var6 = var7.bind(var9)(var6);
         var1['accessibilityLabel'] = var6;
-        var7 = _closure1_slot17;
+        var7 = _closure1_slot16;
         var5 = 14;
         var5 = var12[var5];
         var5 = var11.bind(var3)(var5);
@@ -287,7 +287,7 @@ case 35:
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot23 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -333,49 +333,47 @@ case 35:
     var _closure1_slot10 = var8;
     var8 = var4.MESSAGE_PLACEHOLDER_ITEM_SIZE;
     var _closure1_slot11 = var8;
-    var8 = var4.RECENTS_ESTIMATED_ITEM_SIZE;
-    var _closure1_slot12 = var8;
     var8 = var4.SearchListItemTypes;
-    var _closure1_slot13 = var8;
+    var _closure1_slot12 = var8;
     var4 = var4.SearchTabs;
-    var _closure1_slot14 = var4;
+    var _closure1_slot13 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.EMPTY_MEDIA_RESULTS;
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.SearchTypes;
-    var _closure1_slot16 = var4;
+    var _closure1_slot15 = var4;
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot17 = var4;
+    var _closure1_slot16 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
-        var2 = arg1;
-        var13 = var2.searchContext;
+        var1 = arg1;
+        var13 = var1.searchContext;
         var _closure2_slot0 = var13;
-        var15 = var2.onJumpToMedia;
+        var15 = var1.onJumpToMedia;
         var _closure2_slot1 = var15;
-        var9 = var2.width;
-        var3 = var2.suggestedData;
-        var _closure2_slot2 = var3;
-        var6 = _closure1_slot0;
-        var8 = _closure1_slot2;
+        var9 = var1.width;
+        var5 = var1.suggestedData;
+        var _closure2_slot2 = var5;
+        var8 = _closure1_slot0;
+        var7 = _closure1_slot2;
         var2 = 20;
-        var2 = var8[var2];
+        var2 = var7[var2];
         var4 = undefined;
-        var11 = var6.bind(var4)(var2);
+        var11 = var8.bind(var4)(var2);
         var10 = var11.useStateFromStoresObject;
         var2 = _closure1_slot9;
-        var5 = new Array(2);
-        var5[0] = var2;
+        var6 = new Array(2);
+        var6[0] = var2;
         var2 = _closure1_slot6;
-        var5[1] = var2;
+        var6[1] = var2;
         var2 = function() {
             var4 = _closure1_slot9;
             var1 = var4.getSearchResultsQuery;
@@ -388,7 +386,7 @@ case 35:
             var1 = undefined;
             var6 = var6.bind(var1)(var5);
             var5 = var6.getSearchTabFetchId;
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot13;
             var1 = var1.MEDIA;
             var6 = var5.bind(var6)(var3, var1, var7);
             var1 = {};
@@ -405,7 +403,7 @@ case 35:
             var1['isInitialSearchQuery'] = var2;
             return var1;
         };
-        var2 = var10.bind(var11)(var5, var2);
+        var2 = var10.bind(var11)(var6, var2);
         var19 = var2.messages;
         var _closure2_slot3 = var19;
         var11 = var2.isLoadingMediaGrid;
@@ -413,10 +411,10 @@ case 35:
         var17 = var2.isInitialSearchQuery;
         var _closure2_slot5 = var17;
         var2 = 19;
-        var2 = var8[var2];
-        var5 = var6.bind(var4)(var2);
-        var2 = var5.getSearchContextId;
-        var5 = var2.bind(var5)(var13);
+        var2 = var7[var2];
+        var6 = var8.bind(var4)(var2);
+        var2 = var6.getSearchContextId;
+        var6 = var2.bind(var6)(var13);
         var2 = function useSearchHistory(arg1) {
             var8 = arg1;
             var _closure3_slot0 = var8;
@@ -479,20 +477,20 @@ case 35:
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var12 = var2.bind(var4)(var5);
+        var12 = var2.bind(var4)(var6);
         var _closure2_slot6 = var12;
         var2 = _closure1_slot1;
-        var5 = 22;
-        var5 = var8[var5];
-        var5 = var2.bind(var4)(var5);
-        var10 = var5.bind(var4)(var9);
+        var6 = 22;
+        var6 = var7[var6];
+        var6 = var2.bind(var4)(var6);
+        var10 = var6.bind(var4)(var9);
         var _closure2_slot7 = var10;
         var9 = _closure1_slot5;
         var16 = var9.useMemo;
         var14 = new Array(2);
         var14[0] = var19;
         var14[1] = var13;
-        var5 = function() {
+        var6 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var2 = _closure2_slot3;
@@ -506,7 +504,7 @@ case 36:
 case 37:
                 var1 = new Array(0);
                 var _closure3_slot0 = var1;
-                var3 = _closure1_slot21;
+                var3 = _closure1_slot20;
                 var2 = _closure2_slot3;
                 var7 = undefined;
                 var6 = var3.bind(var7)(var2);
@@ -545,26 +543,26 @@ case 40:
 case 38:
                 return var1;
 case 17:
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot14;
                 return var1;
             }
         };
-        var16 = var16.bind(var9)(var5, var14);
+        var16 = var16.bind(var9)(var6, var14);
         var _closure2_slot8 = var16;
-        var5 = 16;
-        var5 = var8[var5];
-        var18 = var6.bind(var4)(var5);
+        var6 = 16;
+        var6 = var7[var6];
+        var18 = var8.bind(var4)(var6);
         var14 = var18.useOnPressMediaItem;
-        var5 = {};
-        var5['searchContext'] = var13;
-        var5['allMediaResults'] = var16;
-        var5 = var14.bind(var18)(var5);
-        var _closure2_slot9 = var5;
+        var6 = {};
+        var6['searchContext'] = var13;
+        var6['allMediaResults'] = var16;
+        var6 = var14.bind(var18)(var6);
+        var _closure2_slot9 = var6;
         var18 = var9.useCallback;
         var14 = new Array(2);
         var14[0] = var19;
-        var14[1] = var5;
-        var5 = function(arg1) {
+        var14[1] = var6;
+        var6 = function(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var1 = arg1;
@@ -622,31 +620,31 @@ case 16:
                 return var1;
             }
         };
-        var18 = var18.bind(var9)(var5, var14);
+        var18 = var18.bind(var9)(var6, var14);
         var _closure2_slot10 = var18;
-        var5 = 27;
-        var5 = var8[var5];
-        var14 = var6.bind(var4)(var5);
-        var6 = var14.useFullscreenPlaceholderCount;
-        var5 = {};
+        var6 = 27;
+        var6 = var7[var6];
+        var14 = var8.bind(var4)(var6);
+        var8 = var14.useFullscreenPlaceholderCount;
+        var6 = {};
         var19 = _closure1_slot11;
-        var5['placeholderHeight'] = var19;
+        var6['placeholderHeight'] = var19;
         var19 = 1;
-        var5['numColumns'] = var19;
-        var14 = var6.bind(var14)(var5);
+        var6['numColumns'] = var19;
+        var14 = var8.bind(var14)(var6);
         var _closure2_slot11 = var14;
-        var6 = var9.useMemo;
-        var5 = new Array(9);
-        var5[0] = var18;
-        var5[1] = var17;
-        var5[2] = var16;
-        var5[3] = var10;
-        var5[4] = var15;
-        var5[5] = var14;
-        var5[6] = var13;
-        var5[7] = var12;
-        var5[8] = var3;
-        var3 = function() {
+        var8 = var9.useMemo;
+        var6 = new Array(9);
+        var6[0] = var18;
+        var6[1] = var17;
+        var6[2] = var16;
+        var6[3] = var10;
+        var6[4] = var15;
+        var6[5] = var14;
+        var6[6] = var13;
+        var6[7] = var12;
+        var6[8] = var5;
+        var5 = function() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var1 = new Array(0);
@@ -667,7 +665,7 @@ case 46:
 case 4:
                 var9 = var1.push;
                 var3 = {};
-                var10 = _closure1_slot13;
+                var10 = _closure1_slot12;
                 var10 = var10.MESSAGE_PLACEHOLDER;
                 var3['type'] = var10;
                 var10 = var6.HermesInternal;
@@ -688,7 +686,7 @@ case 45:
 case 49:
                 var4 = var1.push;
                 var3 = {};
-                var6 = _closure1_slot13;
+                var6 = _closure1_slot12;
                 var6 = var6.SECTION;
                 var3['type'] = var6;
                 var6 = {};
@@ -706,8 +704,8 @@ case 49:
                 var8 = var8.ZZpBr4;
                 var8 = var10.bind(var12)(var8);
                 var6['title'] = var8;
-                var10 = _closure1_slot17;
-                var8 = _closure1_slot23;
+                var10 = _closure1_slot16;
+                var8 = _closure1_slot22;
                 var7 = {};
                 var12 = _closure2_slot0;
                 var7['searchContext'] = var12;
@@ -721,7 +719,7 @@ case 49:
                     var3 = _closure3_slot0;
                     var2 = var3.push;
                     var1 = {};
-                    var4 = _closure1_slot13;
+                    var4 = _closure1_slot12;
                     var4 = var4.SEARCH_HISTORY_ITEM;
                     var1['type'] = var4;
                     var4 = {};
@@ -757,7 +755,7 @@ case 50:
 case 53:
                 var3 = var1.push;
                 var2 = {};
-                var4 = _closure1_slot13;
+                var4 = _closure1_slot12;
                 var6 = var4.SECTION;
                 var2['type'] = var6;
                 var6 = {};
@@ -775,8 +773,8 @@ case 53:
                 var8 = var8.LBYpDH;
                 var8 = var10.bind(var12)(var8);
                 var6['title'] = var8;
-                var10 = _closure1_slot17;
-                var8 = _closure1_slot24;
+                var10 = _closure1_slot16;
+                var8 = _closure1_slot23;
                 var7 = {};
                 var12 = _closure2_slot1;
                 var7['onJumpToMedia'] = var12;
@@ -806,12 +804,12 @@ case 52:
                 return var1;
             }
         };
-        var6 = var6.bind(var9)(var3, var5);
-        var5 = var9.useMemo;
-        var3 = new Array(2);
-        var3[0] = var11;
-        var3[1] = var10;
-        var1 = function() {
+        var6 = var8.bind(var9)(var5, var6);
+        var8 = var9.useMemo;
+        var5 = new Array(2);
+        var5[0] = var11;
+        var5[1] = var10;
+        var3 = function() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var2 = _closure2_slot4;
@@ -819,7 +817,7 @@ case 0:
                 if(!var2) { _fun0007_ip = 54; continue _fun0007 }
 case 55:
                 var1 = function() {
-                    var4 = _closure1_slot17;
+                    var4 = _closure1_slot16;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 28;
@@ -837,21 +835,19 @@ case 54:
                 return var1;
             }
         };
-        var5 = var5.bind(var9)(var1, var3);
-        var3 = _closure1_slot17;
+        var5 = var8.bind(var9)(var3, var5);
+        var3 = _closure1_slot16;
         var1 = 29;
-        var1 = var8[var1];
+        var1 = var7[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
-        var7 = _closure1_slot12;
-        var1['estimatedItemSize'] = var7;
         var1['data'] = var6;
         var1['ListFooterComponent'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot18 = var4;
+    var _closure1_slot17 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         var5 = arg1;
@@ -988,7 +984,7 @@ case 63:
                             var4 = _closure4_slot0;
                             var2 = var4.push;
                             var1 = {};
-                            var5 = _closure1_slot13;
+                            var5 = _closure1_slot12;
                             var5 = var5.SECTION;
                             var1['type'] = var5;
                             var5 = {};
@@ -1000,7 +996,7 @@ case 63:
                                 var3 = _closure4_slot0;
                                 var2 = var3.push;
                                 var1 = {};
-                                var4 = _closure1_slot13;
+                                var4 = _closure1_slot12;
                                 var4 = var4.DM;
                                 var1['type'] = var4;
                                 var4 = {};
@@ -1030,8 +1026,8 @@ case 5:
         };
         var4 = undefined;
         var6 = var1.bind(var4)(var2);
-        var3 = _closure1_slot17;
-        var2 = _closure1_slot18;
+        var3 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var1 = {};
         var8 = var1;
         var7 = var5;
@@ -1042,7 +1038,7 @@ case 5:
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot19 = var4;
+    var _closure1_slot18 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         var5 = arg1;
@@ -1140,7 +1136,7 @@ case 0:
 case 34:
                     var5 = var1.push;
                     var4 = {};
-                    var6 = _closure1_slot13;
+                    var6 = _closure1_slot12;
                     var6 = var6.SECTION;
                     var4['type'] = var6;
                     var6 = {};
@@ -1167,7 +1163,7 @@ case 34:
                         var3 = _closure4_slot0;
                         var2 = var3.push;
                         var1 = {};
-                        var4 = _closure1_slot13;
+                        var4 = _closure1_slot12;
                         var4 = var4.GUILD_TEXT_CHANNEL;
                         var1['type'] = var4;
                         var4 = {};
@@ -1192,8 +1188,8 @@ case 64:
         };
         var4 = undefined;
         var6 = var1.bind(var4)(var2);
-        var3 = _closure1_slot17;
-        var2 = _closure1_slot18;
+        var3 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var1 = {};
         var8 = var1;
         var7 = var5;
@@ -1204,7 +1200,7 @@ case 64:
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot20 = var4;
+    var _closure1_slot19 = var4;
     var4 = var7.memo;
     var2 = function RecentScreenContainer(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
@@ -1214,27 +1210,27 @@ case 0:
             var5 = var1.onJumpToMedia;
             var1 = var1.width;
             var4 = var6.type;
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var3 = var3.DMS;
             if(!(var3 !== var4)) { _fun0012_ip = 65; continue _fun0012 }
 case 66:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var3 = var3.GUILD;
             if(!(var3 !== var4)) { _fun0012_ip = 67; continue _fun0012 }
 case 28:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var3 = var3.GUILD_CHANNEL;
             if(!(var3 !== var4)) { _fun0012_ip = 68; continue _fun0012 }
 case 35:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var3 = var3.CHANNEL;
             if(!(var3 !== var4)) { _fun0012_ip = 68; continue _fun0012 }
 case 69:
             var3 = null;
             return var3;
 case 68:
-            var8 = _closure1_slot17;
-            var7 = _closure1_slot18;
+            var8 = _closure1_slot16;
+            var7 = _closure1_slot17;
             var4 = {};
             var4['searchContext'] = var6;
             var4['onJumpToMedia'] = var5;
@@ -1243,8 +1239,8 @@ case 68:
             var3 = var8.bind(var3)(var7, var4);
             return var3;
 case 67:
-            var8 = _closure1_slot17;
-            var7 = _closure1_slot20;
+            var8 = _closure1_slot16;
+            var7 = _closure1_slot19;
             var4 = {};
             var4['searchContext'] = var6;
             var4['onJumpToMedia'] = var5;
@@ -1253,8 +1249,8 @@ case 67:
             var3 = var8.bind(var3)(var7, var4);
             return var3;
 case 65:
-            var4 = _closure1_slot17;
-            var3 = _closure1_slot19;
+            var4 = _closure1_slot16;
+            var3 = _closure1_slot18;
             var2 = {};
             var2['searchContext'] = var6;
             var2['onJumpToMedia'] = var5;

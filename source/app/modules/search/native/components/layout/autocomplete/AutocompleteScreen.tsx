@@ -957,8 +957,6 @@ case 73:
             var3 = var9[var3];
             var4 = var4.bind(var5)(var3);
             var3 = {};
-            var9 = _closure1_slot12;
-            var3['estimatedItemSize'] = var9;
             var3['data'] = var8;
             var1 = var7.bind(var5)(var4, var3);
 case 77:

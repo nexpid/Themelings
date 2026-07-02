@@ -26,7 +26,7 @@ case 0:
             var1 = 7;
             var1 = var7[var1];
             var1 = var6.bind(var9)(var1);
-            var1 = var1.ApplicationEmbedVisibility;
+            var1 = var1.ContentClassificationVisibility;
             var1 = var1.BLOCK_UNDERAGE;
             if(!(var5 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -198,12 +198,12 @@ case 7:
             var2 = 7;
             var8 = var6[var2];
             var12 = var5.bind(var7)(var8);
-            var11 = var12.getApplicationEmbedVisibility;
+            var11 = var12.getContentClassificationVisibility;
             var8 = var4.contentClassification;
-            var8 = var11.bind(var12)(var8, var13, var14);
+            var8 = var11.bind(var12)(var8, var14, var13);
             var2 = var6[var2];
             var2 = var5.bind(var7)(var2);
-            var2 = var2.ApplicationEmbedVisibility;
+            var2 = var2.ContentClassificationVisibility;
             var2 = var2.DISPLAY;
             if(!(var8 === var2)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:

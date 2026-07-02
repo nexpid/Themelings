@@ -33,6 +33,10 @@ case 8:
             var3 = _closure1_slot3;
             var3 = var3.CONFIRM_AGE;
             var2['section'] = var3;
+            var3 = {};
+            var5 = var4.teen_identity;
+            var3['teenIdentity'] = var5;
+            var2['params'] = var3;
             var1 = var2;
 case 10:
             _fun0001_ip = 11; continue _fun0001;
@@ -92,18 +96,18 @@ case 16: // try_start_0
                     var6 = var7.getConnectionPrerequisites;
                     var2 = var6.bind(var7)(var5, var2);
                     SaveGenerator(address=58);
-case 9:
-                    return var2;
 case 17:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
-                    var3 = var4.bind(var3)(var2);
-case 20: // try_end0
-                    return var3;
-case 18:
                     return var2;
-case 21: // catch_target0
+case 18:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+                    var3 = var4.bind(var3)(var2);
+case 21: // try_end0
+                    return var3;
+case 19:
+                    return var2;
+case 22: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var2 = _closure1_slot4;
                     return var2;
