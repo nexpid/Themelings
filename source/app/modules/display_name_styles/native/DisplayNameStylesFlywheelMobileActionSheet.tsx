@@ -1,4 +1,4 @@
-// app/modules/display_name_styles/native/DisplayNameStylesMobileActionSheet.tsx
+// app/modules/display_name_styles/native/DisplayNameStylesFlywheelMobileActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var7;
     var4 = var4.jsxs;
     var _closure1_slot11 = var4;
-    var4 = 29;
+    var4 = 30;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['alignItems'] = var8;
         var6 = _closure1_slot1;
         var7 = _closure1_slot2;
-        var4 = 30;
+        var4 = 31;
         var3 = var7[var4];
         var5 = undefined;
         var3 = var6.bind(var5)(var3);
@@ -80,6 +80,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['imageContainer'] = var2;
         var2 = {'width': '100%', 'height': '100%'};
         var1['image'] = var2;
+        var2 = {};
+        var10 = 0;
+        var2['marginLeft'] = var10;
+        var1['betaTag'] = var2;
         var2 = {'textAlign': 'center', 'fontFamily': null, 'textTransform': 'uppercase'};
         var9 = _closure1_slot8;
         var9 = var9.GINTO_NORD_EXTRA_BOLD;
@@ -120,67 +124,88 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 31;
+    var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/display_name_styles/native/DisplayNameStylesMobileActionSheet.tsx';
+    var4 = 'modules/display_name_styles/native/DisplayNameStylesFlywheelMobileActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function DisplayNameStylesMobileActionSheet(arg1) {
+    var2 = function DisplayNameStylesFlywheelMobileActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.markAsDismissed;
             var _closure2_slot0 = var1;
-            var5 = _closure1_slot3;
-            var3 = var5.useRef;
+            var8 = _closure1_slot3;
+            var3 = var8.useRef;
             var2 = null;
-            var6 = var3.bind(var5)(var2);
+            var6 = var3.bind(var8)(var2);
             var _closure2_slot1 = var6;
-            var3 = var5.useContext;
-            var13 = _closure1_slot0;
-            var15 = _closure1_slot2;
+            var3 = var8.useContext;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var2 = 6;
-            var2 = var15[var2];
+            var2 = var7[var2];
             var4 = undefined;
-            var2 = var13.bind(var4)(var2);
+            var2 = var5.bind(var4)(var2);
             var2 = var2.AccessibilityPreferencesContext;
-            var2 = var3.bind(var5)(var2);
+            var2 = var3.bind(var8)(var2);
             var2 = var2.reducedMotion;
-            var25 = var2.enabled;
+            var28 = var2.enabled;
             var2 = 7;
-            var2 = var15[var2];
-            var8 = var13.bind(var4)(var2);
-            var7 = var8.isThemeDark;
+            var2 = var7[var2];
+            var9 = var5.bind(var4)(var2);
+            var8 = var9.isThemeDark;
             var3 = _closure1_slot1;
             var2 = 8;
-            var2 = var15[var2];
+            var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)();
-            var21 = var7.bind(var8)(var2);
+            var21 = var8.bind(var9)(var2);
             var _closure2_slot2 = var21;
             var2 = _closure1_slot12;
             var17 = var2.bind(var4)();
             var2 = 9;
-            var2 = var15[var2];
-            var9 = var13.bind(var4)(var2);
+            var2 = var7[var2];
+            var9 = var5.bind(var4)(var2);
             var8 = var9.useStateFromStores;
             var2 = _closure1_slot6;
-            var7 = new Array(1);
-            var7[0] = var2;
+            var5 = new Array(1);
+            var5[0] = var2;
             var2 = function() {
                 var2 = _closure1_slot6;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var7 = var8.bind(var9)(var7, var2);
+            var5 = var8.bind(var9)(var5, var2);
             var2 = 10;
-            var2 = var15[var2];
+            var2 = var7[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.canUsePremiumProfileCustomization;
-            var2 = var2.bind(var3)(var7);
+            var2 = var2.bind(var3)(var5);
             var _closure2_slot3 = var2;
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var25 = 11;
+            var5 = var3[var25];
+            var5 = var7.bind(var4)(var5);
+            var7 = var5.intl;
+            var5 = var7.string;
+            var8 = _closure1_slot1;
+            var27 = 12;
+            var3 = var3[var27];
+            var3 = var8.bind(var4)(var3);
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var8 = var3.dluV0R;
+            var18 = var5.bind(var7)(var8);
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var3 = var3.TyUdka;
+            var18 = var5.bind(var7)(var3);
+case 4:
+            var5 = _closure1_slot3;
             var8 = var5.useMemo;
             var7 = new Array(1);
             var7[0] = var21;
@@ -191,15 +216,15 @@ case 0:
                     var4 = _closure1_slot1;
                     var2 = _closure2_slot2;
                     var5 = _closure1_slot2;
-                    if(var2) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var2 = 12;
+                    if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                    var2 = 14;
                     var3 = var5[var2];
-                    _fun0002_ip = 4; continue _fun0002;
-case 2:
-                    var2 = 11;
+                    _fun0002_ip = 7; continue _fun0002;
+case 5:
+                    var2 = 13;
                     var3 = var5[var2];
-case 4:
+case 7:
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
                     var1['uri'] = var2;
@@ -216,16 +241,16 @@ case 4:
 case 0:
                     var2 = _closure2_slot3;
                     var3 = _closure1_slot7;
-                    if(var2) { _fun0003_ip = 5; continue _fun0003 }
-case 6:
+                    if(var2) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var2 = var3.PROFILE_CUSTOMIZATION_TRY_IT_OUT;
-                    _fun0003_ip = 7; continue _fun0003;
-case 5:
+                    _fun0003_ip = 10; continue _fun0003;
+case 8:
                     var2 = var3.PROFILE_CUSTOMIZATION;
-case 7:
+case 10:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 15;
                     var3 = var3[var1];
                     var1 = undefined;
                     var5 = var4.bind(var1)(var3);
@@ -235,7 +260,7 @@ case 7:
                     var2 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 14;
+                        var1 = 16;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -243,7 +268,7 @@ case 7:
                         var2 = function() {
                             var4 = _closure1_slot0;
                             var3 = _closure1_slot2;
-                            var1 = 13;
+                            var1 = 15;
                             var3 = var3[var1];
                             var1 = undefined;
                             var5 = var4.bind(var1)(var3);
@@ -260,11 +285,11 @@ case 7:
                                 var3 = var4.bind(var1)(var3);
                                 var3 = _closure1_slot0;
                                 var7 = _closure1_slot2;
-                                var2 = 15;
+                                var2 = 17;
                                 var2 = var7[var2];
                                 var5 = var3.bind(var1)(var2);
                                 var4 = var5.UNSAFE_markDismissibleContentAsDismissed;
-                                var2 = 16;
+                                var2 = 18;
                                 var2 = var7[var2];
                                 var2 = var3.bind(var1)(var2);
                                 var2 = var2.DismissibleContent;
@@ -311,33 +336,35 @@ case 7:
             };
             var5 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot10;
-            var1 = 17;
+            var13 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var1 = 19;
             var1 = var15[var1];
             var1 = var13.bind(var4)(var1);
             var2 = var1.BottomSheet;
             var1 = {};
             var1['ref'] = var6;
             var1['onDismiss'] = var5;
-            var23 = true;
-            var1['startExpanded'] = var23;
-            var1['handleDisabled'] = var23;
+            var24 = true;
+            var1['startExpanded'] = var24;
+            var1['handleDisabled'] = var24;
             var6 = _closure1_slot5;
             var5 = {};
             var5['source'] = var7;
             var7 = 'cover';
             var5['resizeMode'] = var7;
-            var7 = 18;
+            var7 = 20;
             var7 = var15[var7];
             var7 = var13.bind(var4)(var7);
             var8 = var7.SafeAreaPaddingView;
             var7 = {};
-            var7['bottom'] = var23;
+            var7['bottom'] = var24;
             var11 = _closure1_slot11;
             var10 = _closure1_slot4;
             var9 = {};
             var12 = var17.content;
             var9['style'] = var12;
-            var12 = 19;
+            var12 = 21;
             var12 = var15[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.ActionSheetHeaderBar;
@@ -348,11 +375,11 @@ case 0:
                     var2 = _closure2_slot1;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 8; continue _fun0004 }
-case 9:
+                    if(!(var2 != var3)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                     var2 = var3.closeActionSheet;
                     var2 = var2.bind(var3)();
-case 8:
+case 11:
                     var3 = _closure2_slot0;
                     var1 = _closure1_slot9;
                     var2 = var1.USER_DISMISS;
@@ -363,88 +390,88 @@ case 8:
             };
             var12['onPress'] = var14;
             var13 = var3.bind(var4)(var13, var12);
-            var12 = new Array(5);
+            var12 = new Array(6);
             var12[0] = var13;
             var13 = {};
             var14 = var17.imageContainer;
             var13['style'] = var14;
-            var15 = var25;
-            if(!var15) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var19 = _closure1_slot10;
-            var27 = _closure1_slot1;
-            var28 = _closure1_slot2;
-            var14 = 20;
-            var14 = var28[var14];
-            var18 = var27.bind(var4)(var14);
+            var15 = var28;
+            if(!var15) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+            var23 = _closure1_slot10;
+            var30 = _closure1_slot1;
+            var31 = _closure1_slot2;
+            var14 = 22;
+            var14 = var31[var14];
+            var19 = var30.bind(var4)(var14);
             var14 = {};
-            var24 = {};
-            var26 = 21;
-            var26 = var28[var26];
-            var26 = var27.bind(var4)(var26);
-            var24['uri'] = var26;
-            var14['source'] = var24;
-            var24 = var17.image;
-            var14['style'] = var24;
-            var24 = 'contain';
-            var14['resizeMode'] = var24;
-            var15 = var19.bind(var4)(var18, var14);
-case 10:
+            var26 = {};
+            var29 = 23;
+            var29 = var31[var29];
+            var29 = var30.bind(var4)(var29);
+            var26['uri'] = var29;
+            var14['source'] = var26;
+            var26 = var17.image;
+            var14['style'] = var26;
+            var26 = 'contain';
+            var14['resizeMode'] = var26;
+            var15 = var23.bind(var4)(var19, var14);
+case 13:
             var14 = new Array(2);
             var14[0] = var15;
-            var15 = !var25;
-            if(!var15) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var19 = _closure1_slot0;
-            var24 = _closure1_slot2;
-            var18 = 22;
-            var18 = var24[var18];
-            var19 = var19.bind(var4)(var18);
-            var18 = var19.isIOS;
-            var18 = var18.bind(var19)();
-            var24 = _closure1_slot10;
-            if(var18) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var19 = _closure1_slot0;
-            var28 = _closure1_slot2;
-            var18 = 24;
-            var18 = var28[var18];
-            var18 = var19.bind(var4)(var18);
-            var19 = var18.APNGPlayer;
-            var18 = {};
-            var27 = _closure1_slot1;
-            var26 = 23;
-            var26 = var28[var26];
-            var26 = var27.bind(var4)(var26);
-            var18['url'] = var26;
-            var26 = var17.image;
-            var18['style'] = var26;
-            var18['autoplay'] = var23;
-            var18 = var24.bind(var4)(var19, var18);
-            _fun0001_ip = 16; continue _fun0001;
-case 14:
-            var28 = _closure1_slot1;
-            var29 = _closure1_slot2;
-            var19 = 20;
-            var19 = var29[var19];
-            var23 = var28.bind(var4)(var19);
-            var19 = {};
-            var26 = {};
-            var27 = 23;
-            var27 = var29[var27];
-            var27 = var28.bind(var4)(var27);
-            var26['uri'] = var27;
-            var19['source'] = var26;
-            var26 = var17.image;
-            var19['style'] = var26;
-            var26 = 'contain';
-            var19['resizeMode'] = var26;
-            var25 = !var25;
-            var19['enableAnimation'] = var25;
-            var18 = var24.bind(var4)(var23, var19);
+            var15 = !var28;
+            if(!var15) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var15 = var18;
-case 12:
+            var23 = _closure1_slot0;
+            var26 = _closure1_slot2;
+            var19 = 24;
+            var19 = var26[var19];
+            var23 = var23.bind(var4)(var19);
+            var19 = var23.isIOS;
+            var19 = var19.bind(var23)();
+            var26 = _closure1_slot10;
+            if(var19) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
+            var23 = _closure1_slot0;
+            var31 = _closure1_slot2;
+            var19 = 26;
+            var19 = var31[var19];
+            var19 = var23.bind(var4)(var19);
+            var23 = var19.APNGPlayer;
+            var19 = {};
+            var30 = _closure1_slot1;
+            var29 = 25;
+            var29 = var31[var29];
+            var29 = var30.bind(var4)(var29);
+            var19['url'] = var29;
+            var29 = var17.image;
+            var19['style'] = var29;
+            var19['autoplay'] = var24;
+            var19 = var26.bind(var4)(var23, var19);
+            _fun0001_ip = 19; continue _fun0001;
+case 17:
+            var31 = _closure1_slot1;
+            var32 = _closure1_slot2;
+            var23 = 22;
+            var23 = var32[var23];
+            var24 = var31.bind(var4)(var23);
+            var23 = {};
+            var29 = {};
+            var30 = 25;
+            var30 = var32[var30];
+            var30 = var31.bind(var4)(var30);
+            var29['uri'] = var30;
+            var23['source'] = var29;
+            var29 = var17.image;
+            var23['style'] = var29;
+            var29 = 'contain';
+            var23['resizeMode'] = var29;
+            var28 = !var28;
+            var23['enableAnimation'] = var28;
+            var19 = var26.bind(var4)(var24, var23);
+case 19:
+            var15 = var19;
+case 15:
             var14[1] = var15;
             var13['children'] = var14;
             var13 = var11.bind(var4)(var10, var13);
@@ -452,7 +479,16 @@ case 12:
             var26 = _closure1_slot10;
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var23 = 25;
+            var15 = 27;
+            var15 = var13[var15];
+            var15 = var14.bind(var4)(var15);
+            var19 = var15.BetaTag;
+            var15 = {};
+            var23 = var17.betaTag;
+            var15['style'] = var23;
+            var15 = var26.bind(var4)(var19, var15);
+            var12[2] = var15;
+            var23 = 28;
             var13 = var13[var23];
             var13 = var14.bind(var4)(var13);
             var24 = var13.Text;
@@ -463,27 +499,25 @@ case 12:
             var15['style'] = var13;
             var19 = 'black';
             var13 = var19;
-            if(!var21) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(!var21) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var13 = 'white';
-case 17:
+case 20:
             var15['color'] = var13;
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var25 = 26;
-            var18 = var13[var25];
-            var18 = var14.bind(var4)(var18);
-            var29 = var18.intl;
+            var28 = var13[var25];
+            var28 = var14.bind(var4)(var28);
+            var29 = var28.intl;
             var28 = var29.string;
             var30 = _closure1_slot1;
-            var18 = 27;
-            var27 = var13[var18];
+            var27 = var13[var27];
             var27 = var30.bind(var4)(var27);
-            var27 = var27["1AE464"];
+            var27 = var27.Uzms61;
             var27 = var28.bind(var29)(var27);
             var15['children'] = var27;
             var15 = var26.bind(var4)(var24, var15);
-            var12[2] = var15;
+            var12[3] = var15;
             var15 = _closure1_slot10;
             var13 = var13[var23];
             var13 = var14.bind(var4)(var13);
@@ -493,32 +527,23 @@ case 17:
             var13['variant'] = var23;
             var23 = var17.subtitle;
             var13['style'] = var23;
-            if(!var21) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(!var21) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var19 = 'white';
-case 19:
+case 22:
             var13['color'] = var19;
-            var24 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var19 = var21[var25];
-            var19 = var24.bind(var4)(var19);
-            var23 = var19.intl;
-            var19 = var23.string;
-            var26 = _closure1_slot1;
-            var18 = var21[var18];
-            var18 = var26.bind(var4)(var18);
-            var18 = var18.tNYdiM;
-            var18 = var19.bind(var23)(var18);
             var13['children'] = var18;
             var13 = var15.bind(var4)(var14, var13);
-            var12[3] = var13;
+            var12[4] = var13;
             var15 = _closure1_slot11;
             var14 = _closure1_slot4;
             var13 = {};
             var17 = var17.actions;
             var13['style'] = var17;
             var19 = _closure1_slot10;
-            var17 = 28;
+            var24 = _closure1_slot0;
+            var21 = _closure1_slot2;
+            var17 = 29;
             var16 = var21[var17];
             var16 = var24.bind(var4)(var16);
             var18 = var16.Button;
@@ -530,7 +555,7 @@ case 19:
             var23 = var21[var25];
             var23 = var24.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.RzWDqY;
+            var23 = var23["4P5I8V"];
             var23 = var26.bind(var27)(var23);
             var16['text'] = var23;
             var16['onPress'] = var22;
@@ -556,7 +581,7 @@ case 19:
             var16[1] = var17;
             var13['children'] = var16;
             var13 = var15.bind(var4)(var14, var13);
-            var12[4] = var13;
+            var12[5] = var13;
             var9['children'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var7['children'] = var9;

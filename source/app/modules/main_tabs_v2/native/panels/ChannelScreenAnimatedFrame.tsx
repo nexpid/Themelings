@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BORDER_STRONG;
+    var14 = var14.APP_FRAME_BORDER;
     var9['borderLeftColor'] = var14;
     var9['borderLeftWidth'] = var13;
     var4['midnightContainer'] = var9;

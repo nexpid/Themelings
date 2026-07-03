@@ -441,9 +441,9 @@ case 8:
     var12 = var8[var11];
     var12 = var7.bind(var1)(var12);
     var12 = var12.DismissibleContent;
-    var12 = var12.DISPLAY_NAME_STYLES_MOBILE_ANNOUNCEMENT_MODAL;
+    var12 = var12.DISPLAY_NAME_STYLES_FLYWHEEL_MOBILE_COACHMARK;
     var9['id'] = var12;
-    var12 = function DisplayNameStylesMobileActionSheetImporter() {
+    var12 = function DisplayNameStylesFlywheelMobileActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;

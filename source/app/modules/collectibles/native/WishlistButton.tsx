@@ -730,9 +730,9 @@ case 53:
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var5 = arg1;
-            var13 = var5.skuId;
-            var11 = var5.product;
-            var _closure2_slot0 = var11;
+            var16 = var5.skuId;
+            var12 = var5.product;
+            var _closure2_slot0 = var12;
             var15 = var5.onPress;
             var _closure2_slot1 = var15;
             var14 = var5.onTrackPress;
@@ -751,8 +751,8 @@ case 0:
             var3 = 22;
             var7 = var10[var3];
             var5 = undefined;
-            var16 = var9.bind(var5)(var7);
-            var12 = var16.useStateFromStores;
+            var13 = var9.bind(var5)(var7);
+            var11 = var13.useStateFromStores;
             var7 = _closure1_slot8;
             var8 = new Array(1);
             var8[0] = var7;
@@ -762,10 +762,10 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var16 = var12.bind(var16)(var8, var7);
+            var17 = var11.bind(var13)(var8, var7);
             var3 = var10[var3];
-            var12 = var9.bind(var5)(var3);
-            var8 = var12.useStateFromStores;
+            var11 = var9.bind(var5)(var3);
+            var8 = var11.useStateFromStores;
             var3 = _closure1_slot9;
             var7 = new Array(1);
             var7[0] = var3;
@@ -775,36 +775,36 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var3 = var8.bind(var12)(var7, var3);
+            var3 = var8.bind(var11)(var7, var3);
             var8 = _closure1_slot1;
             var7 = 23;
             var7 = var10[var7];
             var7 = var8.bind(var5)(var7);
             var7 = var7.bind(var5)();
-            var20 = var7.shouldShowWishlistNUXActionSheet;
-            var _closure2_slot3 = var20;
-            var19 = var7.showWishlistNUXActionSheet;
-            var _closure2_slot4 = var19;
+            var11 = var7.shouldShowWishlistNUXActionSheet;
+            var _closure2_slot3 = var11;
+            var20 = var7.showWishlistNUXActionSheet;
+            var _closure2_slot4 = var20;
             var8 = 24;
             var7 = var10[var8];
             var7 = var9.bind(var5)(var7);
-            var18 = var7.intl;
-            var17 = var18.formatToPlainString;
+            var19 = var7.intl;
+            var18 = var19.formatToPlainString;
             var7 = var10[var8];
             var7 = var9.bind(var5)(var7);
             var7 = var7.t;
-            var12 = var7["7kFjeK"];
+            var13 = var7["7kFjeK"];
             var7 = {};
-            var21 = var11.name;
+            var21 = var12.name;
             var7['productName'] = var21;
-            var7 = var17.bind(var18)(var12, var7);
-            var18 = _closure1_slot5;
-            var17 = var18.useCallback;
-            var12 = new Array(3);
-            var12[0] = var20;
-            var12[1] = var19;
-            var12[2] = var11;
-            var11 = function() {
+            var7 = var18.bind(var19)(var13, var7);
+            var19 = _closure1_slot5;
+            var18 = var19.useCallback;
+            var13 = new Array(3);
+            var13[0] = var11;
+            var13[1] = var20;
+            var13[2] = var12;
+            var12 = function() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var2 = _closure2_slot3;
@@ -819,21 +819,21 @@ case 55:
                     return var1;
                 }
             };
-            var12 = var17.bind(var18)(var11, var12);
-            var11 = var10[var8];
-            var11 = var9.bind(var5)(var11);
-            var17 = var11.intl;
-            var11 = var17.string;
+            var13 = var18.bind(var19)(var12, var13);
+            var12 = var10[var8];
+            var12 = var9.bind(var5)(var12);
+            var18 = var12.intl;
+            var12 = var18.string;
             var8 = var10[var8];
             var8 = var9.bind(var5)(var8);
             var8 = var8.t;
             var8 = var8.F8FvUy;
-            var8 = var11.bind(var17)(var8);
+            var8 = var12.bind(var18)(var8);
             var _closure2_slot5 = var8;
-            var18 = _closure1_slot5;
-            var17 = var18.useCallback;
-            var11 = new Array(1);
-            var11[0] = var8;
+            var19 = _closure1_slot5;
+            var18 = var19.useCallback;
+            var12 = new Array(1);
+            var12[0] = var8;
             var8 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -850,16 +850,17 @@ case 55:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var11 = var17.bind(var18)(var8, var11);
+            var12 = var18.bind(var19)(var8, var12);
             var8 = 26;
             var8 = var10[var8];
             var10 = var9.bind(var5)(var8);
             var9 = var10.useWishlistButtonState;
             var8 = {};
-            var8['userId'] = var16;
-            var8['skuId'] = var13;
-            var8['onAddSuccess'] = var12;
-            var8['onError'] = var11;
+            var8['userId'] = var17;
+            var8['skuId'] = var16;
+            var8['onAddSuccess'] = var13;
+            var8['onError'] = var12;
+            var8['skipAddAnnouncement'] = var11;
             var9 = var9.bind(var10)(var8);
             var10 = var9.isWishlisted;
             var _closure2_slot6 = var10;

@@ -151,8 +151,6 @@ case 2:
             var19 = var21[var19];
             var20 = var20.bind(var4)(var19);
             var19 = {};
-            var21 = 'activity-page';
-            var19['source'] = var21;
             var19 = var18.bind(var4)(var20, var19);
             var16['children'] = var19;
             var16 = var18.bind(var4)(var17, var16);

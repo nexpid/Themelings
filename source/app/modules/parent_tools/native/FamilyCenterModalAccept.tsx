@@ -155,8 +155,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var18[var10];
         var11 = var17.bind(var4)(var10);
         var10 = {};
-        var15 = 'accept-modal';
-        var10['source'] = var15;
         var10 = var13.bind(var4)(var11, var10);
         var8[1] = var10;
         var11 = _closure1_slot5;

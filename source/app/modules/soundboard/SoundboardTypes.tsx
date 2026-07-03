@@ -57,6 +57,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['SEARCH'] = var12;
     var2 = 'SEARCH';
     var5[var12] = var2;
+    var4 = 4;
+    var5['FREQUENTLY_USED'] = var4;
+    var2 = 'FREQUENTLY_USED';
+    var5[var4] = var2;
     var4 = {};
     var4['SOUND'] = var11;
     var2 = 'SOUND';

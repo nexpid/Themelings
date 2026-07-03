@@ -439,7 +439,7 @@ case 26:
     var17 = var6[var11];
     var17 = var12.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BORDER_STRONG;
+    var17 = var17.APP_FRAME_BORDER;
     var10['borderLeftColor'] = var17;
     var10['borderTopWidth'] = var13;
     var17 = 'transparent';
@@ -458,7 +458,7 @@ case 26:
     var17 = var6[var11];
     var17 = var12.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BORDER_STRONG;
+    var17 = var17.APP_FRAME_BORDER;
     var10['borderLeftColor'] = var17;
     var4['midnightContentContainerBorder'] = var10;
     var10 = {};
@@ -528,12 +528,12 @@ case 26:
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BORDER_STRONG;
+    var15 = var15.APP_FRAME_BORDER;
     var10['borderLeftColor'] = var15;
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BORDER_STRONG;
+    var15 = var15.APP_FRAME_BORDER;
     var10['borderTopColor'] = var15;
     var10['borderLeftWidth'] = var13;
     var10['borderTopWidth'] = var13;
@@ -583,6 +583,7 @@ case 0:
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
             var1 = _closure1_slot14;
             var7 = var1.bind(var4)();
             var _closure2_slot1 = var7;
@@ -640,16 +641,23 @@ case 28:
             var3 = var8.bind(var11)(var3);
             var11 = var3.chatInputFloating;
             _closure2_slot4 = var11;
+            var3 = 24;
+            var3 = var13[var3];
+            var8 = var9.bind(var4)(var3);
+            var3 = var8.useOrientation;
+            var3 = var3.bind(var8)();
+            _closure2_slot5 = var3;
             var23 = _closure1_slot3;
             var12 = var23.useMemo;
-            var8 = new Array(5);
+            var8 = new Array(6);
             var8[0] = var22;
             var8[1] = var20;
             var8[2] = var11;
-            var3 = var7.container;
             var8[3] = var3;
-            var3 = var7.midnightContainerBorder;
+            var3 = var7.container;
             var8[4] = var3;
+            var3 = var7.midnightContainerBorder;
+            var8[5] = var3;
             var3 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -659,21 +667,32 @@ case 0:
                     var1[0] = var2;
                     var4 = _closure2_slot0;
                     var2 = null;
-                    var4 = var2 == var4;
+                    var4 = var2 != var4;
+                    var6 = undefined;
                     var2 = undefined;
-                    if(!var4) { _fun0006_ip = 30; continue _fun0006 }
-case 31:
+                    if(var4) { _fun0006_ip = 6; continue _fun0006 }
+case 30:
                     var4 = _closure2_slot3;
                     var2 = undefined;
-                    if(!var4) { _fun0006_ip = 30; continue _fun0006 }
-case 3:
+                    if(!var4) { _fun0006_ip = 6; continue _fun0006 }
+case 31:
                     var4 = _closure2_slot4;
-                    var2 = undefined;
-                    if(var4) { _fun0006_ip = 30; continue _fun0006 }
+                    if(!var4) { _fun0006_ip = 7; continue _fun0006 }
 case 32:
+                    var5 = _closure2_slot5;
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var4 = 24;
+                    var4 = var8[var4];
+                    var4 = var7.bind(var6)(var4);
+                    var4 = var4.OrientationType;
+                    var4 = var4.PORTRAIT;
+                    var2 = undefined;
+                    if(!(var5 === var4)) { _fun0006_ip = 6; continue _fun0006 }
+case 7:
                     var3 = _closure2_slot1;
                     var2 = var3.midnightContainerBorder;
-case 30:
+case 6:
                     var1[1] = var2;
                     return var1;
                 }
@@ -702,39 +721,39 @@ case 0:
                     var4 = null;
                     var6 = var4 != var2;
                     var2 = undefined;
-                    if(!var6) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
+                    if(!var6) { _fun0007_ip = 31; continue _fun0007 }
+case 33:
                     var6 = _closure2_slot1;
                     var2 = var6.splitDivider;
-case 33:
+case 31:
                     var1[1] = var2;
                     var2 = _closure2_slot0;
                     var4 = var4 != var2;
                     var2 = undefined;
-                    if(!var4) { _fun0007_ip = 35; continue _fun0007 }
-case 30:
+                    if(!var4) { _fun0007_ip = 34; continue _fun0007 }
+case 35:
                     var4 = _closure2_slot3;
                     var2 = undefined;
-                    if(!var4) { _fun0007_ip = 35; continue _fun0007 }
+                    if(!var4) { _fun0007_ip = 34; continue _fun0007 }
 case 36:
                     var4 = _closure2_slot4;
                     var2 = undefined;
-                    if(var4) { _fun0007_ip = 35; continue _fun0007 }
+                    if(var4) { _fun0007_ip = 34; continue _fun0007 }
 case 4:
                     var3 = _closure2_slot1;
                     var2 = var3.midnightContentContainerBorder;
-case 35:
+case 34:
                     var1[2] = var2;
                     return var1;
                 }
             };
             var12 = var23.bind(var24)(var3, var12);
-            var3 = 24;
+            var3 = 25;
             var3 = var13[var3];
             var9 = var9.bind(var4)(var3);
             var3 = var9.useIsForumChannelSearchActive;
             var3 = var3.bind(var9)(var17);
-            var9 = 25;
+            var9 = 26;
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.bind(var4)();
@@ -748,7 +767,7 @@ case 37:
 case 40:
             var13 = !var3;
 case 39:
-            _closure2_slot5 = var13;
+            _closure2_slot6 = var13;
             if(!(var14 != var17)) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
             if(!(var14 != var16)) { _fun0005_ip = 41; continue _fun0005 }
@@ -769,13 +788,13 @@ case 43:
             var3 = _closure1_slot10;
             var3 = var3.ROLE_SUBSCRIPTIONS;
             if(!(var17 !== var3)) { _fun0005_ip = 44; continue _fun0005 }
-case 24:
-            if(var18) { _fun0005_ip = 44; continue _fun0005 }
 case 45:
+            if(var18) { _fun0005_ip = 44; continue _fun0005 }
+case 46:
             var3 = _closure1_slot10;
             var3 = var3.GUILD_HOME;
-            if(!(var17 !== var3)) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+            if(!(var17 !== var3)) { _fun0005_ip = 47; continue _fun0005 }
+case 22:
             var3 = _closure1_slot10;
             var3 = var3.MEMBER_SAFETY;
             if(!(var17 !== var3)) { _fun0005_ip = 48; continue _fun0005 }
@@ -794,7 +813,7 @@ case 51:
             var25 = _closure1_slot11;
             var24 = _closure1_slot1;
             var27 = _closure1_slot2;
-            var23 = 32;
+            var23 = 33;
             var23 = var27[var23];
             var24 = var24.bind(var4)(var23);
             var23 = {};
@@ -819,7 +838,7 @@ case 53:
             var6 = function onAccessibilityEscape() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                    var2 = _closure2_slot5;
+                    var2 = _closure2_slot6;
                     if(!var2) { _fun0008_ip = 15; continue _fun0008 }
 case 16:
                     var2 = _closure2_slot2;
@@ -837,7 +856,7 @@ case 15:
 case 52:
             var6 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var2 = 33;
+            var2 = 34;
             var2 = var20[var2];
             var6 = var6.bind(var4)(var2);
             var2 = {};
@@ -858,7 +877,7 @@ case 50:
             var13 = _closure1_slot11;
             var11 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var10 = 31;
+            var10 = 32;
             var10 = var20[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.CreateThreadView;
@@ -874,14 +893,14 @@ case 48:
             var3 = _closure1_slot11;
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 30;
+            var1 = 31;
             var1 = var6[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['guildId'] = var16;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-case 46:
+case 47:
             var3 = _closure1_slot12;
             var2 = _closure1_slot4;
             var1 = {};
@@ -898,7 +917,7 @@ case 56:
             var20 = _closure1_slot11;
             var19 = _closure1_slot1;
             var21 = _closure1_slot2;
-            var15 = 29;
+            var15 = 30;
             var15 = var21[var15];
             var19 = var19.bind(var4)(var15);
             var15 = {};
@@ -925,7 +944,7 @@ case 44:
             var15 = _closure1_slot11;
             var14 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var12 = 27;
+            var12 = 28;
             var12 = var19[var12];
             var13 = var14.bind(var4)(var12);
             var12 = {};
@@ -935,7 +954,7 @@ case 44:
             var12 = new Array(2);
             var12[0] = var13;
             var15 = _closure1_slot11;
-            var13 = 28;
+            var13 = 29;
             var13 = var19[var13];
             var14 = var14.bind(var4)(var13);
             var13 = {};
@@ -966,7 +985,7 @@ case 41:
             var7 = _closure1_slot11;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var5 = 26;
+            var5 = 27;
             var5 = var12[var5];
             var5 = var11.bind(var4)(var5);
             var6 = var5.EmptyState;
@@ -999,7 +1018,7 @@ case 41:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 34;
+    var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

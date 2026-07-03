@@ -179,9 +179,11 @@ case 10:
                     var1['spent'] = var3;
                     var3 = _closure2_slot1;
                     var1['total'] = var3;
+                    var3 = false;
+                    var1['isLoading'] = var3;
                     return var1;
 case 6:
-                    var1 = {'available': 0, 'spent': 0};
+                    var1 = {'available': 0, 'spent': 0, 'total': null, 'isLoading': true};
                     var2 = _closure2_slot1;
                     var1['total'] = var2;
                     return var1;

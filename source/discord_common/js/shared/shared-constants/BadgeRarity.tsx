@@ -22,10 +22,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['EPIC'] = var4;
     var1 = 'EPIC';
     var2[var4] = var1;
-    var4 = 4;
-    var2['LEGENDARY'] = var4;
-    var1 = 'LEGENDARY';
-    var2[var4] = var1;
     var4 = 5;
     var2['MYTHIC'] = var4;
     var1 = 'MYTHIC';

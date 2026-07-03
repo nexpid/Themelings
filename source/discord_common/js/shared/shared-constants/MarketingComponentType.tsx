@@ -70,6 +70,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NAGBAR'] = var5;
     var1 = 'NAGBAR';
     var2[var5] = var1;
+    var5 = 15;
+    var2['PLAN_SELECT_CARD_BANNER'] = var5;
+    var1 = 'PLAN_SELECT_CARD_BANNER';
+    var2[var5] = var1;
+    var5 = 16;
+    var2['BILLING_SETTINGS_BANNER'] = var5;
+    var1 = 'BILLING_SETTINGS_BANNER';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

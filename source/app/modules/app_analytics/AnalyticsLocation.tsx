@@ -132,6 +132,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SOUNDBOARD_WHEEL'] = var1;
     var1 = 'soundboard favorites section';
     var2['SOUNDBOARD_FAVORITES_SECTION'] = var1;
+    var1 = 'soundboard frequently used section';
+    var2['SOUNDBOARD_FREQUENTLY_USED_SECTION'] = var1;
     var1 = 'soundboard guild sounds section';
     var2['SOUNDBOARD_GUILD_SOUNDS_SECTION'] = var1;
     var1 = 'soundboard default sounds section';
@@ -238,6 +240,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_POWERUPS_COACHMARK_BOOST_TO_UNLOCK'] = var1;
     var1 = 'guild powerups - coachmark - expiring perk';
     var2['GUILD_POWERUPS_COACHMARK_EXPIRING_PERK'] = var1;
+    var1 = 'guild powerups - coachmark - guild theme member';
+    var2['GUILD_POWERUPS_COACHMARK_GUILD_THEME_MEMBER'] = var1;
     var1 = 'guild powerups - marketing';
     var2['GUILD_POWERUPS_MARKETING'] = var1;
     var1 = 'guild powerups - marketing video modal';
@@ -1177,6 +1181,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MOBILE_ACCOUNT_LINK_MEDIUM_BANNER'] = var1;
     var1 = 'gift card redemption success modal';
     var2['GIFT_CARD_REDEMPTION_SUCCESS_MODAL'] = var1;
+    var1 = 'guild room';
+    var2['GUILD_ROOM'] = var1;
     var1 = 'game community multi guild upsell guilds bar entrypoint';
     var2['GAME_COMMUNITY_MULTI_GUILD_UPSELL_GUILDS_BAR_ENTRYPOINT'] = var1;
     var1 = 'favorites guild home';

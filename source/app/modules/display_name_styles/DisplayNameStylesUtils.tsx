@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 % var2;
         return var1;
     };
-    var _closure1_slot8 = var5;
+    var _closure1_slot10 = var5;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -32,14 +32,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
-    var6 = var4.FLYWHEEL_EFFECTS;
+    var6 = var4.DISPLAY_NAME_STYLES_GUMMY_HUE_LIGHTNESS;
     var _closure1_slot4 = var6;
-    var6 = var4.FLYWHEEL_FONTS;
+    var6 = var4.DISPLAY_NAME_STYLES_GUMMY_HUE_SATURATION;
     var _closure1_slot5 = var6;
+    var6 = var4.FLYWHEEL_EFFECTS;
+    var _closure1_slot6 = var6;
+    var6 = var4.FLYWHEEL_FONTS;
+    var _closure1_slot7 = var6;
     var4 = var4.getColorPresetsForEffect;
-    var _closure1_slot6 = var4;
+    var _closure1_slot8 = var4;
     var4 = [0, 60, 90, 30];
-    var _closure1_slot7 = var4;
+    var _closure1_slot9 = var4;
     var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -231,7 +235,7 @@ case 8:
             var _closure2_slot1 = var5;
             var3 = var3[var4];
             var _closure2_slot2 = var3;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot9;
             var2 = var3.map;
             var1 = function(arg1) {
                 var3 = _closure1_slot1;
@@ -241,7 +245,7 @@ case 8:
                 var6 = undefined;
                 var5 = var3.bind(var6)(var2);
                 var4 = var5.hsl;
-                var3 = _closure1_slot8;
+                var3 = _closure1_slot10;
                 var7 = _closure2_slot0;
                 var2 = arg1;
                 var2 = var7 + var2;
@@ -258,23 +262,23 @@ case 8:
         }
     };
     var3['buildGummyColors'] = var4;
-    var4 = function hueToGummyPastelColor(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var5 = var3.bind(var1)(var2);
+    var4 = function hueToGummyColor(arg1) {
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var2 = 3;
+        var3 = var3[var2];
+        var2 = undefined;
+        var5 = var4.bind(var2)(var3);
         var4 = var5.hsl;
-        var3 = arg1;
-        var2 = 0.78;
-        var1 = 0.72;
-        var2 = var4.bind(var5)(var3, var2, var1);
+        var3 = _closure1_slot5;
+        var2 = _closure1_slot4;
+        var1 = arg1;
+        var2 = var4.bind(var5)(var1, var3, var2);
         var1 = var2.num;
         var1 = var1.bind(var2)();
         return var1;
     };
-    var3['hueToGummyPastelColor'] = var4;
+    var3['hueToGummyColor'] = var4;
     var4 = function parseServerDisplayNameStyles(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -318,7 +322,7 @@ case 10:
         var1 = var7 * var1;
         var1 = var5.bind(var6)(var1);
         var5 = var3[var1];
-        var3 = _closure1_slot6;
+        var3 = _closure1_slot8;
         var1 = undefined;
         var3 = var3.bind(var1)(var4);
         var1 = {};
@@ -351,7 +355,7 @@ case 11:
             var2 = null;
             if(!(var2 != var1)) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
-            var5 = _closure1_slot5;
+            var5 = _closure1_slot7;
             var4 = var5.includes;
             var3 = var1.fontId;
             var3 = var4.bind(var5)(var3);
@@ -369,7 +373,7 @@ case 14:
             var3 = var3.DisplayNameFont;
             var6 = var3.DEFAULT;
 case 16:
-            var5 = _closure1_slot4;
+            var5 = _closure1_slot6;
             var4 = var5.includes;
             var3 = var1.effectId;
             var3 = var4.bind(var5)(var3);

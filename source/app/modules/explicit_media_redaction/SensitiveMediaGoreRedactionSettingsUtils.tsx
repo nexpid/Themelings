@@ -243,10 +243,10 @@ case 48:
             var2 = {'setting': null, 'isDm': true, 'isFriend': true};
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0003_ip = 50; continue _fun0003 }
-case 51:
-            var5 = var6.goreContentFriendDm;
+            if(var7) { _fun0003_ip = 12; continue _fun0003 }
 case 50:
+            var5 = var6.goreContentFriendDm;
+case 12:
             var2['setting'] = var5;
             var2 = var3.bind(var4)(var2);
             var1['goreContentFriendDm'] = var2;

@@ -111,7 +111,7 @@ case 4:
             var1 = 8;
             var1 = var3[var1];
             var1 = var2.bind(var6)(var1);
-            var4 = var1.OTPACOMOrderExperiment;
+            var4 = var1.GiftACOMOrderExperiment;
             var2 = var4.useConfig;
             var1 = {};
             var5 = 'SocialLayerStorefrontGiftModal';

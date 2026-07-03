@@ -250,23 +250,23 @@ case 0:
 case 20:
                         var2 = undefined;
                         var _closure4_slot0 = var2;
-                        var3 = _closure1_slot7;
-                        var3 = var3.isPaymentSourceFetching;
-                        if(var3) { _fun0004_ip = 21; continue _fun0004 }
+                        var4 = _closure1_slot7;
+                        var4 = var4.isPaymentSourceFetching;
+                        if(var4) { _fun0004_ip = 21; continue _fun0004 }
 case 22: // try_start_0
                         var7 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var3 = 9;
-                        var3 = var6[var3];
-                        var3 = var7.bind(var2)(var3);
-                        var8 = var3.HTTP;
+                        var4 = 9;
+                        var4 = var6[var4];
+                        var4 = var7.bind(var2)(var4);
+                        var8 = var4.HTTP;
                         var7 = var8.get;
-                        var3 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
+                        var4 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
                         var9 = _closure1_slot10;
                         var9 = var9.BILLING_PAYMENT_SOURCES;
-                        var3['url'] = var9;
-                        var3 = var7.bind(var8)(var3);
-                        _closure4_slot0 = var3;
+                        var4['url'] = var9;
+                        var4 = var7.bind(var8)(var4);
+                        _closure4_slot0 = var4;
                         var8 = _closure1_slot1;
                         var7 = 8;
                         var6 = var6[var7];
@@ -291,9 +291,9 @@ case 22: // try_start_0
                         var5 = var6.bind(var8)(var5);
                         SaveGenerator(address=138);
 case 23:
-                        return var3;
+                        return var4;
 case 24:
-                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                         if(var5) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
                         var6 = _closure1_slot1;
@@ -304,26 +304,27 @@ case 26:
                         var5 = {};
                         var8 = 'BILLING_PAYMENT_SOURCES_FETCH_SUCCESS';
                         var5['type'] = var8;
-                        var8 = var3.body;
+                        var8 = var4.body;
                         var5['paymentSources'] = var8;
                         var5 = var6.bind(var7)(var5);
 case 27: // try_end0
-                        return var3;
+                        return var4;
 case 25:
-                        return var3;
+                        return var4;
 case 28: // catch_target0
-                        CatchBlockStart(arg_register=2);
-                        var5 = _closure1_slot1;
-                        var6 = _closure1_slot2;
-                        var4 = 8;
-                        var4 = var6[var4];
-                        var6 = var5.bind(var2)(var4);
-                        var5 = var6.dispatch;
-                        var4 = {};
-                        var7 = 'BILLING_PAYMENT_SOURCES_FETCH_FAIL';
-                        var4['type'] = var7;
-                        var4 = var5.bind(var6)(var4);
-                        throw var3;
+                        CatchBlockStart(arg_register=3);
+                        var4 = _closure1_slot1;
+                        var5 = _closure1_slot2;
+                        var3 = 8;
+                        var3 = var5[var3];
+                        var5 = var4.bind(var2)(var3);
+                        var4 = var5.dispatch;
+                        var3 = {};
+                        var6 = 'BILLING_PAYMENT_SOURCES_FETCH_FAIL';
+                        var3['type'] = var6;
+                        var3 = var4.bind(var5)(var3);
+                        var3 = null;
+                        return var3;
 case 21:
                         return var2;
 case 19:

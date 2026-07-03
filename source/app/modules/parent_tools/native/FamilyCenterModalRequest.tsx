@@ -411,8 +411,6 @@ case 4:
             var9 = var18[var9];
             var10 = var17.bind(var4)(var9);
             var9 = {};
-            var12 = 'request-modal';
-            var9['source'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var8[1] = var9;
             var5['children'] = var8;

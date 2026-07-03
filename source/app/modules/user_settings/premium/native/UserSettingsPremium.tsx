@@ -124,7 +124,7 @@ case 0:
             var _closure2_slot3 = var1;
             var1 = var2.isFromTextSection;
             var15 = var2.onClose;
-            var19 = var2.premiumFeatureCardOrder;
+            var13 = var2.premiumFeatureCardOrder;
             var16 = var2.onPaymentSuccess;
             var14 = var2.onPaymentDismiss;
             var6 = undefined;
@@ -182,8 +182,8 @@ case 4:
             var3 = 1;
             var5 = var5 + var3;
             var1 = var4.bind(var6)(var1);
-            var13 = var1.analyticsLocations;
-            _closure2_slot4 = var13;
+            var19 = var1.analyticsLocations;
+            _closure2_slot4 = var19;
             var11 = _closure1_slot0;
             var1 = 17;
             var1 = var12[var1];
@@ -619,17 +619,23 @@ case 35:
             var4 = var9.bind(var6)(var4);
             var9 = var4.AnalyticsLocationProvider;
             var4 = {};
-            var4['value'] = var13;
-            if(var11) { _fun0001_ip = 37; continue _fun0001 }
+            var4['value'] = var19;
+            if(!var11) { _fun0001_ip = 37; continue _fun0001 }
 case 38:
+            if(!(var18 != var13)) { _fun0001_ip = 39; continue _fun0001 }
+case 37:
+            var19 = var13;
+            if(!(var18 == var13)) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var11 = _closure1_slot17;
             var11 = var11.TIER_0;
-            if(!(var12 !== var11)) { _fun0001_ip = 39; continue _fun0001 }
-case 40:
+            if(!(var12 !== var11)) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
             var11 = _closure1_slot17;
             var11 = var11.TIER_2;
-            if(!(var12 === var11)) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+            var19 = var13;
+            if(!(var12 === var11)) { _fun0001_ip = 40; continue _fun0001 }
+case 44:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var11 = 40;
@@ -637,8 +643,8 @@ case 42:
             var11 = var12.bind(var6)(var11);
             var11 = var11.PremiumFeatureCardOrder;
             var19 = var11.TIER_2_LEADING;
-            _fun0001_ip = 41; continue _fun0001;
-case 39:
+            _fun0001_ip = 40; continue _fun0001;
+case 42:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var11 = 40;
@@ -646,7 +652,7 @@ case 39:
             var11 = var12.bind(var6)(var11);
             var11 = var11.PremiumFeatureCardOrder;
             var19 = var11.TIER_0_LEADING;
-case 41:
+case 40:
             var13 = _closure1_slot19;
             var12 = _closure1_slot1;
             var23 = _closure1_slot2;
@@ -657,8 +663,8 @@ case 41:
             var11['applicationId'] = var22;
             var11['userHasSubscription'] = var21;
             var22 = var21;
-            if(!var21) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
+            if(!var21) { _fun0001_ip = 45; continue _fun0001 }
+case 46:
             var27 = _closure1_slot19;
             var26 = _closure1_slot1;
             var29 = _closure1_slot2;
@@ -705,29 +711,29 @@ case 0:
                     var5['destinationPane'] = var8;
                     var5 = var6.bind(var7)(var5);
                     var5 = null;
-                    if(!(var5 == var4)) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
+                    if(!(var5 == var4)) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
                     var6 = _closure2_slot6;
                     var5 = var6.push;
                     var3 = _closure1_slot16;
                     var3 = var3.GUILD_BOOSTING;
                     var3 = var5.bind(var6)(var3);
-                    _fun0007_ip = 47; continue _fun0007;
-case 45:
+                    _fun0007_ip = 49; continue _fun0007;
+case 47:
                     var3 = _closure2_slot6;
                     var2 = var3.navigate;
                     var2 = var2.bind(var3)(var4);
-case 47:
+case 49:
                     return var1;
                 }
             };
             var23['onClickManagePremiumGuild'] = var28;
             var23['subscription'] = var25;
             var22 = var27.bind(var6)(var26, var23);
-case 43:
+case 45:
             var11['subscriptionDetails'] = var22;
-            if(!var21) { _fun0001_ip = 48; continue _fun0001 }
-case 49:
+            if(!var21) { _fun0001_ip = 50; continue _fun0001 }
+case 51:
             var26 = _closure1_slot19;
             var23 = _closure1_slot1;
             var27 = _closure1_slot2;
@@ -739,10 +745,10 @@ case 49:
             var22['style'] = var27;
             var22['subscription'] = var25;
             var21 = var26.bind(var6)(var23, var22);
-case 48:
+case 50:
             var11['billingInfo'] = var21;
-            if(!var20) { _fun0001_ip = 50; continue _fun0001 }
-case 51:
+            if(!var20) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
             var23 = _closure1_slot19;
             var22 = _closure1_slot1;
             var26 = _closure1_slot2;
@@ -756,11 +762,11 @@ case 51:
             var21['entitlements'] = var17;
             var21['hasPremiumGroup'] = var24;
             var20 = var23.bind(var6)(var22, var21);
-case 50:
+case 52:
             var11['accountCredit'] = var20;
             var11['onClose'] = var15;
-            if(!(var18 == var19)) { _fun0001_ip = 52; continue _fun0001 }
-case 53:
+            if(!(var18 == var19)) { _fun0001_ip = 54; continue _fun0001 }
+case 55:
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
             var18 = 40;
@@ -768,17 +774,17 @@ case 53:
             var18 = var20.bind(var6)(var18);
             var18 = var18.PremiumFeatureCardOrder;
             var18 = var18.TIER_2_LEADING;
-            _fun0001_ip = 54; continue _fun0001;
-case 52:
-            var18 = var19;
+            _fun0001_ip = 56; continue _fun0001;
 case 54:
+            var18 = var19;
+case 56:
             var11['premiumFeatureCardOrder'] = var18;
             var11['entitlements'] = var17;
             var11['onPaymentSuccess'] = var16;
             var11['onPaymentDismiss'] = var14;
             var11 = var13.bind(var6)(var12, var11);
-            _fun0001_ip = 55; continue _fun0001;
-case 37:
+            _fun0001_ip = 57; continue _fun0001;
+case 39:
             var14 = _closure1_slot19;
             var13 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -788,12 +794,12 @@ case 37:
             var12 = {};
             var12['onClose'] = var15;
             var11 = var14.bind(var6)(var13, var12);
-case 55:
+case 57:
             var4['children'] = var11;
             var4 = var10.bind(var6)(var9, var4);
             var2['children'] = var4;
             var2 = var5.bind(var6)(var3, var2);
-            _fun0001_ip = 56; continue _fun0001;
+            _fun0001_ip = 58; continue _fun0001;
 case 33:
             var4 = _closure1_slot7;
             var3 = {};
@@ -808,7 +814,7 @@ case 33:
             var7 = var5.bind(var6)(var8, var7);
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 56:
+case 58:
             var1 = var2;
 case 32:
             return var1;

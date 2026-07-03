@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['registrationName'] = var8;
     var1['topLoadEnd'] = var5;
     var2['directEventTypes'] = var1;
-    var5 = {'source': true, 'resizeMode': true, 'placeholder': true, 'enableAnimation': true, 'paused': true, 'fade': true, 'usesSmallCache': true};
+    var5 = {'source': true, 'resizeMode': true, 'placeholder': true, 'enableAnimation': true, 'paused': true, 'manualPlayback': true, 'fade': true, 'usesSmallCache': true};
     var1 = 0;
     var8 = var7[var1];
     var1 = undefined;

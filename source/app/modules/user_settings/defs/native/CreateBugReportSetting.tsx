@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var2 = var4.bind(var1)(var2);
     var _closure1_slot3 = var2;
-    var2 = 4;
+    var2 = 5;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function useTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 5;
+        var1 = 6;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useTitle'] = var9;
     var9 = null;
     var2['parent'] = var9;
-    var9 = 6;
+    var9 = 7;
     var9 = var6[var9];
     var9 = var5.bind(var1)(var9);
     var9 = var9.WrenchIcon;
@@ -110,17 +110,32 @@ case 4:
     };
     var2['useValue'] = var9;
     var8 = function useCreateBugReportSettingDescription() {
-        var1 = 'Photo permission is required';
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var1 = var2[var1];
+            var2 = undefined;
+            var3 = var3.bind(var2)(var1);
+            var1 = var3.isIOS;
+            var3 = var1.bind(var3)();
+            var1 = 'Photo permission is required';
+            if(!var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+            var1 = undefined;
+case 5:
+            return var1;
+        }
     };
     var2['useDescription'] = var8;
-    var8 = 7;
+    var8 = 8;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.useBugReporterExperimentSettingPredicate;
     var2['usePredicate'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

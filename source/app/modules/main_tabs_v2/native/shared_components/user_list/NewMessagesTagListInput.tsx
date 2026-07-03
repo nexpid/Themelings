@@ -78,12 +78,19 @@ case 2:
         var10['marginBottom'] = var13;
         var4['header'] = var10;
         var10 = {};
+        var13 = var6[var11];
+        var13 = var12.bind(var1)(var13);
+        var13 = var13.space;
+        var13 = var13.PX_12;
+        var10['marginHorizontal'] = var13;
+        var4['showSearchButton'] = var10;
+        var10 = {};
         var11 = var6[var11];
         var11 = var12.bind(var1)(var11);
-        var11 = var11.space;
-        var11 = var11.PX_12;
-        var10['marginHorizontal'] = var11;
-        var4['showSearchButton'] = var10;
+        var11 = var11.radii;
+        var11 = var11.md;
+        var10['borderRadius'] = var11;
+        var4['searchBar'] = var10;
         var4 = var8.bind(var9)(var4);
         var _closure1_slot7 = var4;
         var4 = var7.memo;
@@ -105,6 +112,17 @@ case 0:
                 var2 = _closure1_slot7;
                 var4 = undefined;
                 var9 = var2.bind(var4)();
+                var3 = _closure1_slot0;
+                var16 = _closure1_slot2;
+                var2 = 7;
+                var2 = var16[var2];
+                var5 = var3.bind(var4)(var2);
+                var3 = var5.useMobileVisualRefreshConfig;
+                var2 = {};
+                var6 = 'NewMessagesTagListInput';
+                var2['location'] = var6;
+                var2 = var3.bind(var5)(var2);
+                var17 = var2.enabled;
                 var5 = _closure1_slot3;
                 var3 = var5.useMemo;
                 var2 = new Array(1);
@@ -128,7 +146,7 @@ case 6:
                         var3 = var4.filter;
                         var7 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var2 = 7;
+                        var2 = 8;
                         var2 = var6[var2];
                         var5 = undefined;
                         var2 = var7.bind(var5)(var2);
@@ -136,7 +154,7 @@ case 6:
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.map;
                         var4 = _closure1_slot1;
-                        var1 = 8;
+                        var1 = 9;
                         var1 = var6[var1];
                         var1 = var4.bind(var5)(var1);
                         var1 = var2.bind(var3)(var1);
@@ -151,27 +169,32 @@ case 6:
                 var5 = var9.searchBarContainer;
                 var1['style'] = var5;
                 var6 = _closure1_slot1;
-                var16 = _closure1_slot2;
-                var5 = 9;
+                var5 = 10;
                 var5 = var16[var5];
                 var6 = var6.bind(var4)(var5);
                 var5 = {};
+                var16 = undefined;
+                if(var17) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+                var16 = var9.searchBar;
+case 7:
+                var5['style'] = var16;
                 var5['autoFocus'] = var12;
                 var12 = true;
                 var5['focusOnAdd'] = var12;
                 var12 = null;
-                if(var15) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+                if(var15) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var17 = var8.length;
                 var15 = 0;
                 var15 = var17 > var15;
                 var12 = null;
-                if(!var15) { _fun0002_ip = 7; continue _fun0002 }
-case 9:
+                if(!var15) { _fun0002_ip = 9; continue _fun0002 }
+case 11:
                 var17 = _closure1_slot6;
                 var16 = _closure1_slot0;
                 var20 = _closure1_slot2;
-                var15 = 10;
+                var15 = 11;
                 var15 = var20[var15];
                 var15 = var16.bind(var4)(var15);
                 var16 = var15.PressableOpacity;
@@ -180,7 +203,7 @@ case 9:
                 var15['accessibilityRole'] = var20;
                 var21 = _closure1_slot0;
                 var24 = _closure1_slot2;
-                var20 = 11;
+                var20 = 12;
                 var22 = var24[var20];
                 var22 = var21.bind(var4)(var22);
                 var23 = var22.intl;
@@ -188,15 +211,15 @@ case 9:
                 var20 = var24[var20];
                 var20 = var21.bind(var4)(var20);
                 var21 = var20.t;
-                if(var18) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                if(var18) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var20 = var21.fTcQm2;
                 var20 = var22.bind(var23)(var20);
-                _fun0002_ip = 12; continue _fun0002;
-case 10:
+                _fun0002_ip = 14; continue _fun0002;
+case 12:
                 var21 = var21["4wv+DE"];
                 var20 = var22.bind(var23)(var21);
-case 12:
+case 14:
                 var15['accessibilityLabel'] = var20;
                 var15['onPress'] = var19;
                 var19 = var9.showSearchButton;
@@ -204,38 +227,38 @@ case 12:
                 var20 = _closure1_slot6;
                 var21 = _closure1_slot0;
                 var22 = _closure1_slot2;
-                if(var18) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-                var18 = 13;
+                if(var18) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+                var18 = 14;
                 var18 = var22[var18];
                 var18 = var21.bind(var4)(var18);
                 var19 = var18.CirclePlusIcon;
-                _fun0002_ip = 15; continue _fun0002;
-case 13:
-                var18 = 12;
+                _fun0002_ip = 17; continue _fun0002;
+case 15:
+                var18 = 13;
                 var18 = var22[var18];
                 var18 = var21.bind(var4)(var18);
                 var19 = var18.ChevronLargeRightIcon;
-case 15:
+case 17:
                 var18 = {};
                 var21 = 'xs';
                 var18['size'] = var21;
                 var18 = var20.bind(var4)(var19, var18);
                 var15['children'] = var18;
                 var12 = var17.bind(var4)(var16, var15);
-case 7:
+case 9:
                 var5['footer'] = var12;
                 var17 = _closure1_slot6;
                 var12 = _closure1_slot0;
                 var13 = _closure1_slot2;
-                var15 = 14;
+                var15 = 15;
                 var15 = var13[var15];
                 var15 = var12.bind(var4)(var15);
                 var16 = var15.Text;
                 var15 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-muted', 'accessible': false};
                 var9 = var9.header;
                 var15['style'] = var9;
-                var9 = 11;
+                var9 = 12;
                 var18 = var13[var9];
                 var18 = var12.bind(var4)(var18);
                 var20 = var18.intl;
@@ -261,19 +284,19 @@ case 0:
                         var3 = var7.id;
                         var3 = var4.bind(var5)(var3);
                         var4 = null;
-                        if(!(var4 != var3)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                        if(!(var4 != var3)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                         var2 = _closure2_slot0;
                         var8 = undefined;
                         var2 = var2.bind(var8)(var3);
                         var4 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var1 = 15;
+                        var1 = 16;
                         var1 = var9[var1];
                         var1 = var4.bind(var8)(var1);
                         var3 = var1.AccessibilityAnnouncer;
                         var2 = var3.announce;
-                        var1 = 11;
+                        var1 = 12;
                         var5 = var9[var1];
                         var5 = var4.bind(var8)(var5);
                         var6 = var5.intl;
@@ -287,7 +310,7 @@ case 17:
                         var1['text'] = var7;
                         var1 = var5.bind(var6)(var4, var1);
                         var1 = var2.bind(var3)(var1);
-case 16:
+case 18:
                         var1 = undefined;
                         return var1;
                     }
@@ -312,7 +335,7 @@ case 16:
             }
         };
         var2 = var4.bind(var7)(var2);
-        var4 = 16;
+        var4 = 17;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

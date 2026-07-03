@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = new Array(6);
     var11 = [16683586, 3534206, 16769095, 16731346, 5793266];
     var4[0] = var11;
-    var11 = [16727357, 16747050, 16766023, 16732067, 8086015];
+    var11 = [16727357, 16747050, 16766023, 16732067, 5621759];
     var4[1] = var11;
     var11 = [7997702, 13114898, 16013848, 16749824, 16766023];
     var4[2] = var11;
@@ -142,6 +142,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DISPLAY_NAME_STYLES_COLOR_PRESETS'] = var7;
     var3['DISPLAY_NAME_STYLES_GRADIENT_PRESETS'] = var6;
     var3['DISPLAY_NAME_STYLES_GUMMY_PRESETS'] = var5;
+    var5 = 0.78;
+    var3['DISPLAY_NAME_STYLES_GUMMY_HUE_SATURATION'] = var5;
+    var5 = 0.72;
+    var3['DISPLAY_NAME_STYLES_GUMMY_HUE_LIGHTNESS'] = var5;
     var5 = 100;
     var3['MIN_PRISM_GRADIENT_WIDTH'] = var5;
     var3['DISPLAY_NAME_STYLES_PRISM_PRESETS'] = var4;

@@ -273,8 +273,12 @@ case 10:
                 var3 = _closure2_slot9;
                 var1 = undefined;
                 var3['current'] = var1;
-                var3 = _closure2_slot7;
                 var4 = global;
+                var5 = var4.cancelAnimationFrame;
+                var3 = _closure2_slot7;
+                var3 = var3.current;
+                var3 = var5.bind(var1)(var3);
+                var3 = _closure2_slot7;
                 var4 = var4.requestAnimationFrame;
                 var2 = _closure2_slot15;
                 var2 = var4.bind(var1)(var2);

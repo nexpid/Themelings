@@ -256,17 +256,17 @@ case 26:
                 var23 = var24;
                 var22 = var2;
                 if(!(var12 !== var24)) { _fun0004_ip = 27; continue _fun0004 }
-case 6:
+case 28:
                 var26 = var24;
-                if(!(var13 === var24)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+                if(!(var13 === var24)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                 var27 = _closure1_slot0;
                 var25 = _closure1_slot1;
                 var25 = var25[var14];
                 var25 = var27.bind(var17)(var25);
                 var25 = var25.UnknownFieldHandler;
                 var26 = var25.onRead;
-case 28:
+case 29:
                 var35 = var19.typeName;
                 var36 = undefined;
                 var34 = var1;
@@ -374,8 +374,8 @@ case 0:
                 var2 = arg3;
                 var3 = var5.assetUrl;
                 var4 = '';
-                if(!(var4 !== var3)) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+                if(!(var4 !== var3)) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -390,10 +390,10 @@ case 31:
                 var6 = var7.string;
                 var3 = var5.assetUrl;
                 var3 = var6.bind(var7)(var3);
-case 30:
+case 31:
                 var3 = var5.header;
-                if(!(var4 !== var3)) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                if(!(var4 !== var3)) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -408,10 +408,10 @@ case 33:
                 var6 = var7.string;
                 var3 = var5.header;
                 var3 = var6.bind(var7)(var3);
-case 32:
+case 33:
                 var3 = var5.body;
-                if(!(var4 !== var3)) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+                if(!(var4 !== var3)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -426,10 +426,10 @@ case 35:
                 var4 = var6.string;
                 var3 = var5.body;
                 var3 = var4.bind(var6)(var3);
-case 34:
+case 35:
                 var3 = var5.headerLocalized;
-                if(!var3) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                if(!var3) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -452,10 +452,10 @@ case 37:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 36:
+case 37:
                 var3 = var5.bodyLocalized;
-                if(!var3) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                if(!var3) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -478,14 +478,14 @@ case 39:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 38:
+case 39:
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+                if(!(var2 !== var4)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                if(!(var2 == var4)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 7;
@@ -494,12 +494,12 @@ case 43:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 42:
+case 43:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 40:
+case 41:
                 return var1;
             }
         };

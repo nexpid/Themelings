@@ -371,57 +371,64 @@ case 22:
     var4 = function toSearchListUserItem(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var5 = arg2;
+            var7 = arg2;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 19;
             var1 = var3[var1];
-            var7 = undefined;
-            var3 = var2.bind(var7)(var1);
+            var4 = undefined;
+            var3 = var2.bind(var4)(var1);
             var2 = var3.getGuildIdFromSearchContext;
             var1 = arg1;
-            var9 = var2.bind(var3)(var1);
+            var5 = var2.bind(var3)(var1);
             var1 = null;
-            if(!(var1 != var5)) { _fun0004_ip = 27; continue _fun0004 }
+            if(!(var1 != var7)) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
-            var2 = var1 == var9;
-            var4 = null;
+            var2 = var1 == var5;
+            var6 = null;
             if(!var2) { _fun0004_ip = 29; continue _fun0004 }
 case 30:
-            var8 = _closure1_slot4;
-            var3 = var8.getNickname;
-            var2 = var5.id;
-            var4 = var3.bind(var8)(var2);
+            var9 = _closure1_slot4;
+            var3 = var9.getNickname;
+            var2 = var7.id;
+            var6 = var3.bind(var9)(var2);
 case 29:
-            if(!(var1 == var4)) { _fun0004_ip = 31; continue _fun0004 }
+            if(!(var1 == var6)) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-            var8 = _closure1_slot3;
-            var3 = var8.getNick;
-            var2 = var5.id;
-            var4 = var3.bind(var8)(var9, var2);
+            var9 = _closure1_slot3;
+            var3 = var9.getNick;
+            var2 = var7.id;
+            var6 = var3.bind(var9)(var5, var2);
 case 31:
-            if(!(var1 == var4)) { _fun0004_ip = 33; continue _fun0004 }
+            if(!(var1 == var6)) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
             var3 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var2 = 20;
-            var2 = var8[var2];
-            var3 = var3.bind(var7)(var2);
+            var2 = var9[var2];
+            var3 = var3.bind(var4)(var2);
             var2 = var3.getName;
-            var4 = var2.bind(var3)(var5);
+            var6 = var2.bind(var3)(var7);
 case 33:
             var2 = {};
             var3 = _closure1_slot7;
             var3 = var3.DM;
             var2['type'] = var3;
             var3 = {};
-            var6 = _closure1_slot8;
-            var6 = var6.NONE;
-            var3['type'] = var6;
-            var3['user'] = var5;
-            var3['nickname'] = var4;
-            var4 = arg3;
-            var3['onPress'] = var4;
+            var8 = _closure1_slot8;
+            var8 = var8.NONE;
+            var3['type'] = var8;
+            var3['user'] = var7;
+            var3['nickname'] = var6;
+            var6 = arg3;
+            var3['onPress'] = var6;
+            var6 = var1 != var5;
+            var4 = undefined;
+            if(!var6) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
+            var4 = var5;
+case 35:
+            var3['guildId'] = var4;
             var2['props'] = var3;
             return var2;
 case 27:
@@ -437,17 +444,17 @@ case 0:
             var _closure2_slot0 = var3;
             var _closure2_slot1 = var7;
             var1 = null;
-            if(!(var1 != var3)) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+            if(!(var1 != var3)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var2 = var3.isDM;
             var2 = var2.bind(var3)();
-            if(var2) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+            if(var2) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var2 = var3.isGroupDM;
             var2 = var2.bind(var3)();
             var4 = {};
             var6 = _closure1_slot7;
-            if(var2) { _fun0005_ip = 39; continue _fun0005 }
+            if(var2) { _fun0005_ip = 41; continue _fun0005 }
 case 30:
             var2 = var6.GUILD_TEXT_CHANNEL;
             var4['type'] = var2;
@@ -456,8 +463,8 @@ case 30:
             var2['onPress'] = var7;
             var4['props'] = var2;
             var2 = var4;
-            _fun0005_ip = 40; continue _fun0005;
-case 39:
+            _fun0005_ip = 42; continue _fun0005;
+case 41:
             var6 = var6.GROUP_DM;
             var4['type'] = var6;
             var6 = {};
@@ -465,9 +472,9 @@ case 39:
             var6['onPress'] = var7;
             var4['props'] = var6;
             var2 = var4;
-case 40:
+case 42:
             return var2;
-case 37:
+case 39:
             var2 = var3.getRecipientId;
             var4 = var2.bind(var3)();
             var3 = _closure1_slot5;
@@ -475,8 +482,8 @@ case 37:
             var9 = var2.bind(var3)(var4);
             var3 = var1 == var9;
             var2 = null;
-            if(var3) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+            if(var3) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var3 = {};
             var4 = _closure1_slot7;
             var4 = var4.DM;
@@ -490,8 +497,8 @@ case 42:
             var8 = var10.getNickname;
             var6 = var9.id;
             var6 = var8.bind(var10)(var6);
-            if(!(var1 == var6)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+            if(!(var1 == var6)) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
             var10 = _closure1_slot1;
             var8 = _closure1_slot2;
             var7 = 20;
@@ -500,7 +507,7 @@ case 44:
             var8 = var10.bind(var7)(var8);
             var7 = var8.getName;
             var6 = var7.bind(var8)(var9);
-case 43:
+case 45:
             var4['nickname'] = var6;
             var5 = function onPress() {
                 var3 = _closure2_slot1;
@@ -513,9 +520,9 @@ case 43:
             var4['onPress'] = var5;
             var3['props'] = var4;
             var2 = var3;
-case 41:
+case 43:
             return var2;
-case 35:
+case 37:
             return var1;
         }
     };

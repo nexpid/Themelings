@@ -281,19 +281,12 @@ case 17:
     var12 = var12.button;
     var12 = var12.BORDER_RADIUS;
     var9['borderRadius'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.REDESIGN_BUTTON_TERTIARY_BACKGROUND;
-    var9['backgroundColor'] = var12;
-    var4['iconWithBadge'] = var9;
-    var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
     var10 = var10.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var10;
-    var4['downIconWithBadge'] = var9;
+    var4['iconWithBadge'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
     var4 = 14;
@@ -384,66 +377,35 @@ case 3:
         }
     };
     var3['LeftBackIconWithBadge'] = var4;
-    var2 = function CloseIconWithBadgeOnSide() {
+    var2 = function CloseIconWithBadgeOnSide(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
+            var1 = arg1;
+            var10 = var1.count;
             var1 = _closure1_slot8;
             var4 = undefined;
-            var9 = var1.bind(var4)();
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 6;
-            var1 = var3[var1];
-            var5 = var2.bind(var4)(var1);
-            var3 = var5.useStateFromStores;
-            var1 = _closure1_slot5;
-            var2 = new Array(1);
-            var2[0] = var1;
-            var1 = function() {
-                var2 = _closure1_slot5;
-                var1 = var2.getTotalMentionCount;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var1 = var3.bind(var5)(var2, var1);
-            var6 = null;
-            var3 = var6 != var1;
-            var8 = 0;
-            var2 = 0;
-            if(!var3) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
-            var2 = var1;
-case 25:
-            var3 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var1 = 7;
-            var1 = var12[var1];
-            var1 = var3.bind(var4)(var1);
-            var1 = var1.bind(var4)();
-            var1 = var1.value;
-            var10 = var2 + var1;
+            var5 = var1.bind(var4)();
             var3 = _closure1_slot7;
             var2 = _closure1_slot4;
             var1 = {};
-            var11 = var9.iconWithBadge;
-            var5 = new Array(2);
-            var5[0] = var11;
-            var9 = var9.downIconWithBadge;
-            var5[1] = var9;
+            var5 = var5.iconWithBadge;
             var1['style'] = var5;
-            var11 = _closure1_slot6;
-            var9 = _closure1_slot0;
+            var8 = _closure1_slot6;
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
             var5 = 13;
-            var5 = var12[var5];
-            var5 = var9.bind(var4)(var5);
-            var9 = var5.XLargeIcon;
+            var5 = var9[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.XLargeIcon;
             var5 = {'size': 'sm', 'color': 'white'};
-            var9 = var11.bind(var4)(var9, var5);
+            var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(2);
-            var5[0] = var9;
+            var5[0] = var6;
+            var6 = 0;
+            var8 = var10 > var6;
             var6 = null;
-            if(!(var10 > var8)) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+            if(!var8) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -454,7 +416,7 @@ case 28:
             var7 = {};
             var7['value'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 27:
+case 25:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot36 = var2;
+            _closure1_slot37 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot36 = var1;
+    var _closure1_slot37 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -117,7 +117,7 @@ case 26:
             var7 = undefined;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 25:
-            var9 = _closure1_slot38;
+            var9 = _closure1_slot39;
             var7 = var9.bind(var8)(var3, var8);
 case 27:
             _fun0002_ip = 28; continue _fun0002;
@@ -129,7 +129,7 @@ case 28:
             var6 = var7;
             _fun0002_ip = 14; continue _fun0002;
 case 16:
-            var7 = _closure1_slot38;
+            var7 = _closure1_slot39;
             var6 = var7.bind(var8)(var3, var8);
 case 14:
             var4 = var6;
@@ -188,7 +188,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot37 = var1;
+    var _closure1_slot38 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -221,7 +221,7 @@ case 3:
             return var1;
         }
     };
-    var _closure1_slot38 = var1;
+    var _closure1_slot39 = var1;
     var1 = function _migrateDefaultStorage() {
         var5 = undefined;
         var1 = undefined;
@@ -236,7 +236,7 @@ case 0:
 case 40:
                     var3 = undefined;
                     var5 = undefined;
-                    var2 = _closure1_slot34;
+                    var2 = _closure1_slot35;
                     var2 = var2.clipsSettings;
                     var6 = var2.storageLocation;
                     var2 = _closure1_slot18;
@@ -307,10 +307,10 @@ case 52:
 case 28:
                     var5 = var2;
 case 49:
-                    var6 = _closure1_slot34;
+                    var6 = _closure1_slot35;
                     var6 = var6.clipsSettings;
                     var6['storageLocation'] = var5;
-                    var5 = _closure1_slot35;
+                    var5 = _closure1_slot36;
                     var4 = var5.emitChange;
                     var4 = var4.bind(var5)();
 case 41:
@@ -324,7 +324,7 @@ case 39:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot39 = var4;
+        _closure1_slot40 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -332,7 +332,7 @@ case 39:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot39 = var1;
+    var _closure1_slot40 = var1;
     var1 = function trackSharedRemoteClipId(arg1, arg2, arg3) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -360,7 +360,7 @@ case 54:
             var1 = arg3;
             if(!(var1 === var2)) { _fun0006_ip = 56; continue _fun0006 }
 case 57:
-            var2 = _closure1_slot37;
+            var2 = _closure1_slot38;
             var1 = arg2;
             var9 = var2.bind(var10)(var1);
             var3 = var9.bind(var10)();
@@ -377,7 +377,7 @@ case 59:
             var2 = var13.clip_remote_id;
             if(!(var6 != var2)) { _fun0006_ip = 60; continue _fun0006 }
 case 61:
-            var14 = _closure1_slot32;
+            var14 = _closure1_slot33;
             var2 = var14.get;
             var2 = var2.bind(var14)(var12);
             if(!(var6 == var2)) { _fun0006_ip = 62; continue _fun0006 }
@@ -388,7 +388,7 @@ case 19:
             var19 = var15;
             var14 = new var19[var14](var18);
             var14 = var14 instanceof Object ? var14 : var15;
-            var16 = _closure1_slot32;
+            var16 = _closure1_slot33;
             var15 = var16.set;
             var15 = var15.bind(var16)(var12, var14);
             var2 = var14;
@@ -411,17 +411,17 @@ case 56:
             return var1;
         }
     };
-    var _closure1_slot40 = var1;
-    var5 = global;
-    var10 = var5.Object;
-    var4 = var10.defineProperty;
+    var _closure1_slot41 = var1;
+    var10 = global;
+    var5 = var10.Object;
+    var4 = var5.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var10)(var3, var1, var2);
-    var10 = 0;
-    var2 = var8[var10];
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var5 = 0;
+    var2 = var8[var5];
     var1 = undefined;
     var2 = var9.bind(var1)(var2);
     var _closure1_slot3 = var2;
@@ -495,32 +495,33 @@ case 56:
     var _closure1_slot22 = var14;
     var14 = new Array(0);
     var _closure1_slot23 = var14;
-    var _closure1_slot24 = var10;
-    var10 = null;
-    var _closure1_slot25 = var10;
-    var _closure1_slot26 = var10;
-    var _closure1_slot27 = var10;
+    var _closure1_slot24 = var5;
+    var5 = null;
+    var _closure1_slot25 = var5;
+    var _closure1_slot26 = var5;
+    var _closure1_slot27 = var5;
     var14 = {};
     var _closure1_slot28 = var14;
     var14 = {};
     var _closure1_slot29 = var14;
-    var _closure1_slot30 = var10;
-    var10 = var5.Set;
+    var _closure1_slot30 = var5;
+    var5 = var10.Set;
+    var14 = var5.prototype;
+    var14 = Object.create(var14, {constructor: {value: var5}});
+    var20 = var14;
+    var5 = new var20[var5](var19);
+    var5 = var5 instanceof Object ? var5 : var14;
+    var _closure1_slot31 = var5;
+    var5 = false;
+    var _closure1_slot32 = var5;
+    var10 = var10.Map;
     var14 = var10.prototype;
     var14 = Object.create(var14, {constructor: {value: var10}});
     var20 = var14;
     var10 = new var20[var10](var19);
     var10 = var10 instanceof Object ? var10 : var14;
-    var _closure1_slot31 = var10;
-    var5 = var5.Map;
-    var10 = var5.prototype;
-    var10 = Object.create(var10, {constructor: {value: var5}});
-    var20 = var10;
-    var5 = new var20[var5](var19);
-    var5 = var5 instanceof Object ? var5 : var10;
-    var _closure1_slot32 = var5;
+    var _closure1_slot33 = var10;
     var10 = {'clipsEnabled': false, 'storageLocation': 'default', 'clipsQuality': null, 'clipsLength': null, 'remindersEnabled': true, 'decoupledClipsEnabled': false, 'viewerClipsEnabled': true};
-    var5 = false;
     var14 = {};
     var16 = var16.RESOLUTION_1080;
     var14['resolution'] = var16;
@@ -537,14 +538,14 @@ case 56:
     var10['debugTooltipsEnabled'] = var5;
     var10['enableAutoclipping'] = var1;
     var10['showPovClipsInGallery'] = var5;
-    var _closure1_slot33 = var10;
+    var _closure1_slot34 = var10;
     var5 = {'clipsSettings': null, 'hardwareClassification': null, 'hardwareClassificationForDecoupled': null, 'hardwareClassificationVersion': 0, 'newClipIds': null, 'hasClips': false, 'hasTakenDecoupledClip': false};
     var5['clipsSettings'] = var10;
     var10 = new Array(0);
     var5['newClipIds'] = var10;
     var10 = {'dismissedAt': null, 'numberOfGamesLaunchedSinceDismissal': 0, 'numberOfTimesDismissed': 0};
     var5['clipsEducationState'] = var10;
-    var _closure1_slot34 = var5;
+    var _closure1_slot35 = var5;
     var5 = 19;
     var5 = var8[var5];
     var5 = var9.bind(var1)(var5);
@@ -562,7 +563,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot36;
+                var1 = _closure1_slot37;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0007_ip = 63; continue _fun0007 }
 case 64:
@@ -602,11 +603,11 @@ case 0:
                 var1 = null;
                 if(!(var1 != var2)) { _fun0008_ip = 66; continue _fun0008 }
 case 67:
-                _closure1_slot34 = var2;
+                _closure1_slot35 = var2;
 case 66:
                 var2 = function migrateDefaultStorage() {
                     var1 = undefined;
-                    var4 = _closure1_slot39;
+                    var4 = _closure1_slot40;
                     var3 = var4.apply;
                     var1 = arguments;
                     var2 = var1;
@@ -623,7 +624,7 @@ case 66:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(29);
+        var1 = new Array(30);
         var1[0] = var5;
         var5 = {};
         var7 = 'getClips';
@@ -691,7 +692,7 @@ case 68:
         var7 = 'getUserAgnosticState';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             return var1;
         };
         var5['value'] = var7;
@@ -700,7 +701,7 @@ case 68:
         var7 = 'getSettings';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.clipsSettings;
             return var1;
         };
@@ -712,7 +713,7 @@ case 68:
         var7 = function value() {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                var1 = _closure1_slot34;
+                var1 = _closure1_slot35;
                 var1 = var1.clipsSettings;
                 var1 = var1.enableAutoclipping;
                 var2 = null;
@@ -798,7 +799,7 @@ case 4:
         var7 = 'getHardwareClassification';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.hardwareClassification;
             return var1;
         };
@@ -808,7 +809,7 @@ case 4:
         var7 = 'getHardwareClassificationForDecoupled';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.hardwareClassificationForDecoupled;
             return var1;
         };
@@ -818,7 +819,7 @@ case 4:
         var7 = 'getHardwareClassificationVersion';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.hardwareClassificationVersion;
             return var1;
         };
@@ -926,7 +927,7 @@ case 75:
         var7 = 'hasClips';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.hasClips;
             return var1;
         };
@@ -936,7 +937,7 @@ case 75:
         var7 = 'hasTakenDecoupledClip';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.hasTakenDecoupledClip;
             return var1;
         };
@@ -946,7 +947,7 @@ case 75:
         var7 = 'canShowReminders';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.clipsSettings;
             var1 = var1.remindersEnabled;
             return var1;
@@ -957,7 +958,7 @@ case 75:
         var7 = 'getNewClipIds';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.newClipIds;
             return var1;
         };
@@ -985,12 +986,21 @@ case 75:
         var5['value'] = var7;
         var1[27] = var5;
         var5 = {};
+        var7 = 'isAutoStashEnabled';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot32;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[28] = var5;
+        var5 = {};
         var7 = 'wasClipSharedInChannel';
         var5['key'] = var7;
         var6 = function value(arg1, arg2) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-                var3 = _closure1_slot32;
+                var3 = _closure1_slot33;
                 var2 = var3.get;
                 var1 = arg2;
                 var5 = var2.bind(var3)(var1);
@@ -1012,7 +1022,7 @@ case 77:
             }
         };
         var5['value'] = var6;
-        var1[28] = var5;
+        var1[29] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1029,7 +1039,7 @@ case 0:
             var3 = null;
             if(!(var3 == var2)) { _fun0015_ip = 78; continue _fun0015 }
 case 79:
-            var2 = _closure1_slot33;
+            var2 = _closure1_slot34;
 case 78:
             var1['clipsSettings'] = var2;
             var2 = 0;
@@ -1041,7 +1051,7 @@ case 78:
     var10 = function(arg1) {
         var2 = arg1;
         var3 = {};
-        var4 = _closure1_slot33;
+        var4 = _closure1_slot34;
         var5 = var3;
         var1 = copyDataProperties(var5, var4);
         var4 = var2.clipsSettings;
@@ -1138,7 +1148,7 @@ case 37:
         var5 = var2.clipsSettings;
         var6 = var3;
         var2 = copyDataProperties(var6, var5);
-        var2 = _closure1_slot33;
+        var2 = _closure1_slot34;
         var4 = var2.decoupledClipsEnabled;
         var2 = 'decoupledClipsEnabled';
         var3[1] = var4;
@@ -1268,7 +1278,7 @@ case 70:
             var4 = var2.clipsQuality;
             _fun0022_ip = 92; continue _fun0022;
 case 90:
-            var2 = _closure1_slot33;
+            var2 = _closure1_slot34;
             var4 = var2.clipsQuality;
 case 92:
             var2 = 'clipsQuality';
@@ -1296,7 +1306,7 @@ case 0:
             var2 = null;
             if(!(var2 == var4)) { _fun0023_ip = 11; continue _fun0023 }
 case 93:
-            var2 = _closure1_slot33;
+            var2 = _closure1_slot34;
             var4 = var2.remindersEnabled;
 case 11:
             var2 = 'remindersEnabled';
@@ -1338,7 +1348,7 @@ case 0:
             var2 = null;
             if(!(var2 == var6)) { _fun0024_ip = 11; continue _fun0024 }
 case 93:
-            var5 = _closure1_slot33;
+            var5 = _closure1_slot34;
             var6 = var5.maxAutoClips;
 case 11:
             var5 = 'maxAutoClips';
@@ -1347,7 +1357,7 @@ case 11:
             var4 = var4.clipSignals;
             if(!(var2 == var4)) { _fun0024_ip = 94; continue _fun0024 }
 case 13:
-            var2 = _closure1_slot33;
+            var2 = _closure1_slot34;
             var4 = var2.clipSignals;
 case 94:
             var2 = 'clipSignals';
@@ -1390,7 +1400,7 @@ case 0:
             var2 = null;
             if(!(var2 == var4)) { _fun0025_ip = 11; continue _fun0025 }
 case 93:
-            var2 = _closure1_slot33;
+            var2 = _closure1_slot34;
             var4 = var2.enableAutoclipping;
 case 11:
             var2 = 'enableAutoclipping';
@@ -1418,7 +1428,7 @@ case 0:
             var2 = null;
             if(!(var2 == var4)) { _fun0026_ip = 11; continue _fun0026 }
 case 93:
-            var2 = _closure1_slot33;
+            var2 = _closure1_slot34;
             var4 = var2.showPovClipsInGallery;
 case 11:
             var2 = 'showPovClipsInGallery';
@@ -1438,11 +1448,11 @@ case 11:
         var1 = arg1;
         var3 = var1.settings;
         var2 = {};
-        var6 = _closure1_slot34;
+        var6 = _closure1_slot35;
         var7 = var2;
         var4 = copyDataProperties(var7, var6);
         var4 = {};
-        var5 = _closure1_slot34;
+        var5 = _closure1_slot35;
         var6 = var5.clipsSettings;
         var7 = var4;
         var5 = copyDataProperties(var7, var6);
@@ -1451,7 +1461,7 @@ case 11:
         var3 = copyDataProperties(var7, var6);
         var3 = 'clipsSettings';
         var2[2] = var4;
-        _closure1_slot34 = var2;
+        _closure1_slot35 = var2;
         var1 = undefined;
         return var1;
     };
@@ -1555,10 +1565,10 @@ case 14:
             var3[5] = var5;
             _closure1_slot26 = var3;
             var3 = {};
-            var12 = _closure1_slot34;
+            var12 = _closure1_slot35;
             var13 = var3;
             var5 = copyDataProperties(var13, var12);
-            var5 = _closure1_slot34;
+            var5 = _closure1_slot35;
             var7 = var5.newClipIds;
             if(!(var4 == var7)) { _fun0027_ip = 108; continue _fun0027 }
 case 109:
@@ -1573,7 +1583,7 @@ case 108:
             var5[6] = var9;
             var7 = var7 + var8;
             var3[5] = var5;
-            _closure1_slot34 = var3;
+            _closure1_slot35 = var3;
             var5 = _closure1_slot20;
             var3 = var2.id;
             var5[var3] = var2;
@@ -1585,7 +1595,7 @@ case 111:
             var2 = var2.id;
             var4[var3] = var2;
 case 110:
-            var2 = _closure1_slot34;
+            var2 = _closure1_slot35;
             var1 = true;
             var2['hasClips'] = var1;
 case 103:
@@ -1661,10 +1671,10 @@ case 115:
             var5[8] = var12;
             _closure1_slot27 = var5;
             var5 = {};
-            var15 = _closure1_slot34;
+            var15 = _closure1_slot35;
             var16 = var5;
             var9 = copyDataProperties(var16, var15);
-            var9 = _closure1_slot34;
+            var9 = _closure1_slot35;
             var9 = var9.newClipIds;
             if(!(var7 == var9)) { _fun0028_ip = 117; continue _fun0028 }
 case 52:
@@ -1679,7 +1689,7 @@ case 117:
             var7[8] = var11;
             var9 = var9 + var10;
             var5[7] = var7;
-            _closure1_slot34 = var5;
+            _closure1_slot35 = var5;
             var7 = _closure1_slot23;
             var5 = var7.filter;
             var4 = function(arg1) {
@@ -1698,7 +1708,7 @@ case 117:
             var5 = _closure1_slot20;
             var4 = var6.id;
             var5[var4] = var6;
-            var2 = _closure1_slot34;
+            var2 = _closure1_slot35;
             var2['hasClips'] = var3;
             return var1;
         }
@@ -1713,7 +1723,7 @@ case 0:
             var1 = 1;
             var1 = var2 + var1;
             _closure1_slot24 = var1;
-            var2 = _closure1_slot34;
+            var2 = _closure1_slot35;
             var1 = var2.hasTakenDecoupledClip;
             if(var1) { _fun0029_ip = 32; continue _fun0029 }
 case 86:
@@ -1787,7 +1797,7 @@ case 0:
             var1 = arg1;
             var4 = var1.sourceName;
             var7 = var1.pid;
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.clipsSettings;
             var1 = var1.clipsEnabled;
             if(var1) { _fun0031_ip = 75; continue _fun0031 }
@@ -1947,7 +1957,7 @@ case 86:
     };
     var5['CLIPS_SESSION_STOP'] = var9;
     var9 = function clearNewClipIds() {
-        var2 = _closure1_slot34;
+        var2 = _closure1_slot35;
         var1 = new Array(0);
         var2['newClipIds'] = var1;
         var1 = undefined;
@@ -1958,7 +1968,7 @@ case 86:
         var2 = arg1;
         var2 = var2.clipId;
         var _closure2_slot0 = var2;
-        var2 = _closure1_slot34;
+        var2 = _closure1_slot35;
         var4 = var2.newClipIds;
         var3 = var4.filter;
         var1 = function(arg1) {
@@ -1980,7 +1990,7 @@ case 0:
             _closure1_slot20 = var1;
             var1 = new Array(0);
             _closure1_slot23 = var1;
-            var4 = _closure1_slot37;
+            var4 = _closure1_slot38;
             var1 = arg1;
             var3 = var1.clips;
             var1 = undefined;
@@ -2018,7 +2028,7 @@ case 134:
             var4 = var7;
             if(!var3) { _fun0036_ip = 64; continue _fun0036 }
 case 48:
-            var3 = _closure1_slot34;
+            var3 = _closure1_slot35;
             var4 = global;
             var5 = var4.Object;
             var4 = var5.keys;
@@ -2072,7 +2082,7 @@ case 137:
             var3 = var3.remoteClipId;
             var3 = delete var4[var3];
 case 136:
-            var3 = _closure1_slot34;
+            var3 = _closure1_slot35;
             var4 = global;
             var5 = var4.Object;
             var4 = var5.keys;
@@ -2180,14 +2190,14 @@ case 69:
 case 0:
             var1 = arg1;
             var4 = var1.classification;
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var6 = var1.hardwareClassification;
-            var3 = _closure1_slot34;
+            var3 = _closure1_slot35;
             var1 = _closure1_slot12;
             var3['hardwareClassificationVersion'] = var1;
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1['hardwareClassification'] = var4;
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var5 = var1.hardwareClassification;
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -2210,16 +2220,16 @@ case 137:
 case 88:
             if(!var3) { _fun0040_ip = 48; continue _fun0040 }
 case 138:
-            var3 = _closure1_slot34;
+            var3 = _closure1_slot35;
             var5 = var3.clipsSettings;
             var3 = true;
             var5['clipsEnabled'] = var3;
 case 48:
-            var3 = _closure1_slot34;
+            var3 = _closure1_slot35;
             var5 = var3.hardwareClassificationForDecoupled;
-            var3 = _closure1_slot34;
+            var3 = _closure1_slot35;
             var3['hardwareClassificationForDecoupled'] = var4;
-            var3 = _closure1_slot34;
+            var3 = _closure1_slot35;
             var4 = var3.hardwareClassificationForDecoupled;
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -2240,13 +2250,13 @@ case 140:
 case 139:
             if(!var3) { _fun0040_ip = 106; continue _fun0040 }
 case 141:
-            var4 = _closure1_slot34;
+            var4 = _closure1_slot35;
             var4 = var4.clipsSettings;
             var3 = var4.clipsEnabled;
 case 106:
             if(!var3) { _fun0040_ip = 142; continue _fun0040 }
 case 143:
-            var2 = _closure1_slot34;
+            var2 = _closure1_slot35;
             var3 = var2.clipsSettings;
             var2 = true;
             var3['decoupledClipsEnabled'] = var2;
@@ -2262,7 +2272,7 @@ case 0:
             var4 = var1.applicationName;
             var1 = null;
             _closure1_slot30 = var1;
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var1 = var1.clipsSettings;
             var1 = var1.clipsEnabled;
             var3 = false;
@@ -2306,18 +2316,18 @@ case 75:
             var1 = var1.Enabled;
             if(!(var1 === var3)) { _fun0042_ip = 45; continue _fun0042 }
 case 8:
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var3 = var1.clipsEducationState;
             var1 = global;
             var4 = var1.Date;
             var1 = var4.now;
             var1 = var1.bind(var4)();
             var3['dismissedAt'] = var1;
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var3 = var1.clipsEducationState;
             var1 = 0;
             var3['numberOfGamesLaunchedSinceDismissal'] = var1;
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var3 = var1.clipsEducationState;
             var4 = var3.numberOfTimesDismissed;
             var1 = 1;
@@ -2342,7 +2352,7 @@ case 0:
             var1 = 0;
             if(!(var2 > var1)) { _fun0043_ip = 85; continue _fun0043 }
 case 33:
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var2 = var1.clipsEducationState;
             var3 = var2.numberOfGamesLaunchedSinceDismissal;
             var1 = 1;
@@ -2378,11 +2388,19 @@ case 146:
         }
     };
     var5['CLIPS_SET_EXPORTING'] = var9;
+    var9 = function handleSetAutoStashEnabled(arg1) {
+        var1 = arg1;
+        var2 = var1.enabled;
+        _closure1_slot32 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var5['CLIPS_SET_AUTO_STASH_ENABLED'] = var9;
     var9 = function handleMessageCreate(arg1) {
         _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
 case 0:
             var2 = arg1;
-            var5 = _closure1_slot40;
+            var5 = _closure1_slot41;
             var4 = var2.channelId;
             var1 = var2.message;
             var3 = var1.attachments;
@@ -2409,7 +2427,7 @@ case 148:
         _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
 case 0:
             var11 = arg1;
-            var2 = _closure1_slot37;
+            var2 = _closure1_slot38;
             var1 = var11.messages;
             var9 = undefined;
             var8 = var2.bind(var9)(var1);
@@ -2426,7 +2444,7 @@ case 93:
             var2 = var6.value;
             if(var5) { _fun0046_ip = 149; continue _fun0046 }
 case 32:
-            var16 = _closure1_slot40;
+            var16 = _closure1_slot41;
             var15 = var11.channelId;
             var12 = var2.attachments;
             var14 = var12;
@@ -2456,7 +2474,7 @@ case 138:
     };
     var5['LOAD_MESSAGES_SUCCESS'] = var9;
     var9 = function reset() {
-        var3 = _closure1_slot32;
+        var3 = _closure1_slot33;
         var1 = var3.clear;
         var1 = var1.bind(var3)();
         var1 = null;
@@ -2474,7 +2492,7 @@ case 138:
     var18 = var5;
     var5 = new var20[var11](var19, var18, var17);
     var5 = var5 instanceof Object ? var5 : var9;
-    var _closure1_slot35 = var5;
+    var _closure1_slot36 = var5;
     var6 = 22;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

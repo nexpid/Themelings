@@ -780,6 +780,8 @@ case 2:
         var2['OPEN_APP_FROM_EMAIL'] = var16;
         var16 = '/billing/premium/manage';
         var2['BILLING_MANAGE_SUBSCRIPTION'] = var16;
+        var16 = '/billing/premium/past-due';
+        var2['BILLING_PAST_DUE_SUBSCRIPTION'] = var16;
         var16 = function BILLING_MANAGE_SUBSCRIPTION_WITH_DEEP_LINK(arg1, arg2) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
