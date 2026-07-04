@@ -44,10 +44,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/collectibles/native/VisibilitySensor.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
-        var2 = arg1;
-        var7 = var2.children;
-        var2 = var2.onChange;
+        var3 = arg1;
+        var7 = var3.children;
+        var2 = var3.onChange;
         var _closure2_slot0 = var2;
+        var11 = var3.resetKey;
         var4 = undefined;
         var _closure2_slot5 = var4;
         var3 = function stopWatching() {
@@ -72,29 +73,40 @@ case 2:
             }
         };
         var _closure2_slot7 = var3;
-        var11 = _closure1_slot3;
+        var12 = _closure1_slot3;
         var3 = null;
-        var5 = var11.bind(var4)(var3);
+        var5 = var12.bind(var4)(var3);
         var _closure2_slot1 = var5;
         var8 = false;
-        var9 = var11.bind(var4)(var8);
+        var9 = var12.bind(var4)(var8);
         var _closure2_slot2 = var9;
         var10 = _closure1_slot0;
-        var12 = _closure1_slot1;
+        var13 = _closure1_slot1;
         var9 = 3;
-        var9 = var12[var9];
+        var9 = var13[var9];
         var9 = var10.bind(var4)(var9);
         var10 = var9.bind(var4)();
         var9 = var10.width;
         var _closure2_slot3 = var9;
         var10 = var10.height;
         var _closure2_slot4 = var10;
-        var3 = var11.bind(var4)(var3);
+        var3 = var12.bind(var4)(var3);
         _closure2_slot5 = var3;
-        var12 = _closure1_slot4;
-        var11 = var12.useCallback;
-        var3 = new Array(1);
-        var3[0] = var2;
+        var3 = _closure1_slot2;
+        var12 = new Array(1);
+        var12[0] = var11;
+        var11 = function() {
+            var2 = _closure2_slot2;
+            var1 = false;
+            var2['current'] = var1;
+            var1 = undefined;
+            return var1;
+        };
+        var11 = var3.bind(var4)(var11, var12);
+        var13 = _closure1_slot4;
+        var12 = var13.useCallback;
+        var11 = new Array(1);
+        var11[0] = var2;
         var2 = function(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -175,9 +187,8 @@ case 4:
                 return var1;
             }
         };
-        var11 = var11.bind(var12)(var2, var3);
+        var11 = var12.bind(var13)(var2, var11);
         var _closure2_slot6 = var11;
-        var3 = _closure1_slot2;
         var2 = new Array(3);
         var2[0] = var11;
         var2[1] = var10;
