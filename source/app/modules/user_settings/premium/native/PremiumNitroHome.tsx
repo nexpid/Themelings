@@ -102,7 +102,7 @@ case 5:
             var16 = var23[var16];
             var16 = var22.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'variant': 'display-sm', 'color': 'always-white', 'style': null, 'accessibilityRole': 'header'};
+            var16 = {'variant': 'display-sm', 'color': 'text-overlay-light', 'style': null, 'accessibilityRole': 'header'};
             var19 = var11.headerText;
             var16['style'] = var19;
             var19 = 20;

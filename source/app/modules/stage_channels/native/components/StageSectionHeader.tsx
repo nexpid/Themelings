@@ -157,7 +157,7 @@ case 2:
             var8 = var10[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-md/semibold', 'color': 'always-white', 'accessibilityRole': 'header'};
+            var8 = {'variant': 'text-md/semibold', 'color': 'text-overlay-light', 'accessibilityRole': 'header'};
             var10 = new Array(3);
             var10[0] = var13;
             var13 = ' — ';

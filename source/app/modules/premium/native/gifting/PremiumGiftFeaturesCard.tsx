@@ -646,7 +646,7 @@ case 50:
             var11 = var28[var11];
             var11 = var23.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
+            var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var25 = var15.pricing;
             var22 = new Array(2);
             var22[0] = var25;
@@ -678,7 +678,7 @@ case 49:
             var12 = var28[var12];
             var12 = var27.bind(var4)(var12);
             var21 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
+            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var25 = var15.pricing;
             var23 = new Array(2);
             var23[0] = var25;
@@ -714,7 +714,7 @@ case 47:
             var9 = var21[var9];
             var9 = var26.bind(var4)(var9);
             var11 = var9.Text;
-            var9 = {'style': null, 'variant': 'heading-sm/bold', 'color': 'always-white'};
+            var9 = {'style': null, 'variant': 'heading-sm/bold', 'color': 'text-overlay-light'};
             var23 = var15.featureTitle;
             var22 = new Array(2);
             var22[0] = var23;

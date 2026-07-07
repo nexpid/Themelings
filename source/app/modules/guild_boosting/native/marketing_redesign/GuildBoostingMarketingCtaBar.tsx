@@ -511,7 +511,7 @@ case 12:
             var13 = var14[var37];
             var13 = var10.bind(var4)(var13);
             var22 = var13.Text;
-            var17 = {'style': null, 'color': 'always-white', 'variant': 'display-sm'};
+            var17 = {'style': null, 'color': 'text-overlay-light', 'variant': 'display-sm'};
             var13 = var15.heading;
             var17['style'] = var13;
             var13 = 27;
@@ -570,7 +570,7 @@ case 12:
             var17 = var14[var37];
             var17 = var10.bind(var4)(var17);
             var32 = var17.Text;
-            var17 = {'style': null, 'color': 'always-white', 'variant': 'text-md/bold'};
+            var17 = {'style': null, 'color': 'text-overlay-light', 'variant': 'text-md/bold'};
             var33 = var15.guildName;
             var17['style'] = var33;
             var33 = var30.name;
@@ -619,7 +619,7 @@ case 12:
             var40 = var14[var37];
             var40 = var10.bind(var4)(var40);
             var41 = var40.Text;
-            var40 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-sm/bold', 'color': 'always-white'};
+            var40 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-sm/bold', 'color': 'text-overlay-light'};
             var42 = var15.guildBoostCount;
             var40['style'] = var42;
             var42 = var14[var13];
@@ -652,7 +652,7 @@ case 12:
             var37 = var14[var37];
             var37 = var10.bind(var4)(var37);
             var38 = var37.Text;
-            var37 = {'style': null, 'variant': 'text-sm/bold', 'color': 'always-white'};
+            var37 = {'style': null, 'variant': 'text-sm/bold', 'color': 'text-overlay-light'};
             var40 = var15.guildBoostCount;
             var39 = new Array(2);
             var39[0] = var40;

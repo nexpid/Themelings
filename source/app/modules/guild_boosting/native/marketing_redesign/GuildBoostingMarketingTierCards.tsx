@@ -25,7 +25,7 @@ case 0:
             var3 = var6[var1];
             var11 = var14.bind(var4)(var3);
             var8 = var11.useAnimatedStyle;
-            var3 = function n() {
+            var3 = function o() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -173,7 +173,7 @@ case 12:
                     var7 = var12[var7];
                     var7 = var8.bind(var1)(var7);
                     var8 = var7.Text;
-                    var7 = {'style': null, 'color': 'always-white', 'variant': 'text-md/semibold'};
+                    var7 = {'style': null, 'color': 'text-overlay-light', 'variant': 'text-md/semibold'};
                     var12 = var11.isIncluded;
                     var12 = !var12;
                     if(!var12) { _fun0003_ip = 14; continue _fun0003 }
@@ -1612,7 +1612,7 @@ case 29:
             var29 = var30[var18];
             var29 = var32.bind(var4)(var29);
             var33 = var29.Text;
-            var29 = {'color': 'always-white', 'style': null, 'variant': 'heading-xxl/extrabold'};
+            var29 = {'color': 'text-overlay-light', 'style': null, 'variant': 'heading-xxl/extrabold'};
             var37 = var15.cardTierName;
             var29['style'] = var37;
             var37 = 28;
@@ -1631,7 +1631,7 @@ case 29:
             var33 = var30[var18];
             var33 = var32.bind(var4)(var33);
             var35 = var33.Text;
-            var33 = {'color': 'always-white', 'style': null, 'variant': 'text-md/medium'};
+            var33 = {'color': 'text-overlay-light', 'style': null, 'variant': 'text-md/medium'};
             var39 = var15.cardTierBoostcount;
             var33['style'] = var39;
             var39 = var30[var22];
@@ -1686,7 +1686,7 @@ case 29:
             var30 = var30[var18];
             var30 = var32.bind(var4)(var30);
             var32 = var30.Text;
-            var30 = {'color': 'always-white', 'variant': 'text-md/semibold'};
+            var30 = {'color': 'text-overlay-light', 'variant': 'text-md/semibold'};
             var30['children'] = var34;
             var32 = var33.bind(var4)(var32, var30);
             var30 = new Array(2);
@@ -1775,7 +1775,7 @@ case 38:
             var12 = var12[var18];
             var12 = var14.bind(var4)(var12);
             var14 = var12.Text;
-            var12 = {'color': 'always-white', 'style': null, 'variant': 'text-xs/bold'};
+            var12 = {'color': 'text-overlay-light', 'style': null, 'variant': 'text-xs/bold'};
             var18 = var15.cardTierBadgeCopy;
             var12['style'] = var18;
             var21 = _closure1_slot0;

@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot7 = var2;
+            _closure1_slot8 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot8 = var1;
     var2 = global;
     var9 = var2.Object;
     var8 = var9.defineProperty;
@@ -75,13 +75,20 @@ case 4:
     var7 = var5[var7];
     var7 = var6.bind(var1)(var7);
     var _closure1_slot5 = var7;
-    var2 = var2.Map;
+    var7 = var2.Map;
+    var8 = var7.prototype;
+    var8 = Object.create(var8, {constructor: {value: var7}});
+    var13 = var8;
+    var7 = new var13[var7](var12);
+    var7 = var7 instanceof Object ? var7 : var8;
+    var _closure1_slot6 = var7;
+    var2 = var2.Set;
     var7 = var2.prototype;
     var7 = Object.create(var7, {constructor: {value: var2}});
     var13 = var7;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot6 = var2;
+    var _closure1_slot7 = var2;
     var2 = 6;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -99,7 +106,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot7;
+                var1 = _closure1_slot8;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -140,7 +147,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(3);
+        var1 = new Array(4);
         var1[0] = var5;
         var5 = {};
         var7 = 'getPendingAuthorizations';
@@ -154,7 +161,7 @@ case 8:
         var5 = {};
         var7 = 'deletePendingAuthorization';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             var3 = _closure1_slot6;
             var2 = var3.delete;
             var1 = arg1;
@@ -162,8 +169,17 @@ case 8:
             var1 = undefined;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[2] = var5;
+        var5 = {};
+        var7 = 'getGloballyDisabledAuthorizationFlows';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot7;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[3] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -174,7 +190,7 @@ case 8:
     var2 = var5[var2];
     var12 = var6.bind(var1)(var2);
     var2 = {};
-    var4 = function handleAuthorizationStarted(arg1) {
+    var8 = function handleAuthorizationStarted(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = arg1;
@@ -210,7 +226,22 @@ case 11:
             return var1;
         }
     };
-    var2['ACCOUNT_LINK_AUTHORIZATION_STARTED'] = var4;
+    var2['ACCOUNT_LINK_AUTHORIZATION_STARTED'] = var8;
+    var4 = function handleSetGloballyDisabledFlows(arg1) {
+        var1 = global;
+        var3 = var1.Set;
+        var1 = arg1;
+        var4 = var1.flows;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var2 = var1 instanceof Object ? var1 : var2;
+        _closure1_slot7 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var2['ACCOUNT_LINK_DEVTOOLS_SET_GLOBALLY_DISBLED_FLOWS'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var13 = var4;

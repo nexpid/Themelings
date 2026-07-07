@@ -373,7 +373,7 @@ case 23:
             var12 = var19[var12];
             var12 = var15.bind(var4)(var12);
             var15 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'always-white'};
+            var12 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-overlay-light'};
             var19 = var17.loadMoreButton;
             var12['style'] = var19;
             var12['children'] = var18;

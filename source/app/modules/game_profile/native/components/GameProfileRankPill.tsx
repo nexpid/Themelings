@@ -125,7 +125,7 @@ case 2:
             var8 = var12[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-xs/bold', 'color': 'black'};
+            var8 = {'variant': 'text-xs/bold', 'color': 'text-overlay-dark'};
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
             var10 = 7;

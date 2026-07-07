@@ -526,7 +526,7 @@ case 23:
             var11 = var16[var11];
             var11 = var12.bind(var5)(var11);
             var12 = var11.Text;
-            var11 = {'lineClamp': 1, 'style': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
+            var11 = {'lineClamp': 1, 'style': null, 'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var15 = var15.nameplateText;
             var11['style'] = var15;
             var11['children'] = var14;

@@ -134,7 +134,7 @@ case 9:
             var11 = var14[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-xs/semibold', 'color': 'always-white', 'allowFontScaling': false};
+            var11 = {'variant': 'text-xs/semibold', 'color': 'text-overlay-light', 'allowFontScaling': false};
             var11['children'] = var8;
             var10 = var13.bind(var4)(var12, var11);
 case 8:

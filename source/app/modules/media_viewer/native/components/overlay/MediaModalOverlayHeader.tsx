@@ -217,7 +217,7 @@ case 4:
             var29 = var32[var29];
             var29 = var30.bind(var4)(var29);
             var30 = var29.Text;
-            var29 = {'accessibilityRole': 'header', 'variant': 'heading-md/medium', 'lineClamp': 1, 'ellipsizeMode': 'tail', 'color': 'always-white'};
+            var29 = {'accessibilityRole': 'header', 'variant': 'heading-md/medium', 'lineClamp': 1, 'ellipsizeMode': 'tail', 'color': 'text-overlay-light'};
             var29['children'] = var31;
             var29 = var28.bind(var4)(var30, var29);
             var26['children'] = var29;

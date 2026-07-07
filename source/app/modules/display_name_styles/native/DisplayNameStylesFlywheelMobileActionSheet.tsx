@@ -399,20 +399,13 @@ case 11:
             if(!var15) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
             var23 = _closure1_slot10;
-            var30 = _closure1_slot1;
-            var31 = _closure1_slot2;
+            var19 = _closure1_slot0;
+            var26 = _closure1_slot2;
             var14 = 22;
-            var14 = var31[var14];
-            var19 = var30.bind(var4)(var14);
+            var14 = var26[var14];
+            var14 = var19.bind(var4)(var14);
+            var19 = var14.DisplayNameStylesV2AbstractUI;
             var14 = {};
-            var26 = {};
-            var29 = 23;
-            var29 = var31[var29];
-            var29 = var30.bind(var4)(var29);
-            var26['uri'] = var29;
-            var14['source'] = var26;
-            var26 = var17.image;
-            var14['style'] = var26;
             var26 = 'contain';
             var14['resizeMode'] = var26;
             var15 = var23.bind(var4)(var19, var14);
@@ -424,7 +417,7 @@ case 13:
 case 16:
             var23 = _closure1_slot0;
             var26 = _closure1_slot2;
-            var19 = 24;
+            var19 = 23;
             var19 = var26[var19];
             var23 = var23.bind(var4)(var19);
             var19 = var23.isIOS;
@@ -452,7 +445,7 @@ case 18:
 case 17:
             var31 = _closure1_slot1;
             var32 = _closure1_slot2;
-            var23 = 22;
+            var23 = 24;
             var23 = var32[var23];
             var24 = var31.bind(var4)(var23);
             var23 = {};
@@ -497,11 +490,11 @@ case 15:
             var15['variant'] = var13;
             var13 = var17.title;
             var15['style'] = var13;
-            var19 = 'black';
+            var19 = 'text-overlay-dark';
             var13 = var19;
             if(!var21) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var13 = 'white';
+            var13 = 'text-overlay-light';
 case 20:
             var15['color'] = var13;
             var14 = _closure1_slot0;
@@ -529,7 +522,7 @@ case 20:
             var13['style'] = var23;
             if(!var21) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-            var19 = 'white';
+            var19 = 'text-overlay-light';
 case 22:
             var13['color'] = var19;
             var13['children'] = var18;

@@ -93,7 +93,7 @@ case 6:
             var8 = var16[var8];
             var8 = var15.bind(var5)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-xs/medium', 'color': 'white'};
+            var8 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-overlay-light'};
             var12 = var10.selectedRewardText;
             var8['style'] = var12;
             var12 = 16;
@@ -1050,7 +1050,7 @@ case 75:
             var18 = var21[var18];
             var18 = var24.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'white'};
+            var18 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-overlay-light'};
             var22 = var22.chooseRewardText;
             var18['style'] = var22;
             var22 = var21[var16];

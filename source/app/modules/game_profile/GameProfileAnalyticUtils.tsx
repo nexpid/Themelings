@@ -248,6 +248,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['DmHeaderActivity'] = var4;
     var4 = 'quick_switcher';
     var5['QuickSwitcher'] = var4;
+    var4 = 'guild_profile_games';
+    var5['GuildProfileGames'] = var4;
+    var4 = 'game_invites_channel';
+    var5['GameInvitesChannel'] = var4;
     var4 = {};
     var11 = 'full_profile';
     var4['FullProfile'] = var11;

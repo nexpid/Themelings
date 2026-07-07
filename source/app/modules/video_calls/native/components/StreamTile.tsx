@@ -28,7 +28,7 @@ case 0:
             var5 = var12[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'style': null, 'variant': 'text-md/semibold', 'color': 'always-white'};
+            var5 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
             var12 = var11.screenMessageText;
             var5['style'] = var12;
             var5['children'] = var9;

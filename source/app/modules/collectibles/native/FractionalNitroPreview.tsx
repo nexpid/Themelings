@@ -206,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var11[var6];
             var6 = var10.bind(var2)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/medium', 'color': 'always-white'};
+            var6 = {'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var9 = 6;
             var9 = var11[var9];
             var9 = var10.bind(var2)(var9);

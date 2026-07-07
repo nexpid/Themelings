@@ -221,7 +221,7 @@ case 5:
             var9 = var18[var9];
             var9 = var17.bind(var5)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'always-white'};
+            var9 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'text-overlay-light'};
             var12 = var13.title;
             var9['style'] = var12;
             var12 = 11;
@@ -248,7 +248,7 @@ case 4:
             var14 = var23[var16];
             var14 = var20.bind(var5)(var14);
             var17 = var14.Text;
-            var14 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'always-white'};
+            var14 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'text-overlay-light'};
             var19 = var13.title;
             var14['style'] = var19;
             var19 = 11;
@@ -268,7 +268,7 @@ case 4:
             var16 = var23[var16];
             var16 = var20.bind(var5)(var16);
             var17 = var16.Text;
-            var16 = {'style': null, 'variant': 'text-md/semibold', 'color': 'always-white'};
+            var16 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
             var21 = var13.subtitle;
             var16['style'] = var21;
             var21 = var23[var19];

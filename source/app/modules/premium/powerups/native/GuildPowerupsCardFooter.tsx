@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var16[var6];
         var6 = var10.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'color': 'status-warning', 'variant': 'text-sm/bold'};
+        var6 = {'color': 'text-feedback-warning', 'variant': 'text-sm/bold'};
         var9 = 7;
         var9 = var16[var9];
         var9 = var10.bind(var4)(var9);
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var16[var6];
         var6 = var10.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'color': 'status-warning', 'variant': 'text-sm/bold'};
+        var6 = {'color': 'text-feedback-warning', 'variant': 'text-sm/bold'};
         var9 = 7;
         var9 = var16[var9];
         var9 = var10.bind(var4)(var9);

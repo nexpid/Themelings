@@ -1221,7 +1221,7 @@ case 92:
             var17 = var25[var17];
             var17 = var21.bind(var4)(var17);
             var19 = var17.Text;
-            var17 = {'variant': 'text-xs/semibold', 'color': 'always-white'};
+            var17 = {'variant': 'text-xs/semibold', 'color': 'text-overlay-light'};
             var20 = 15;
             var22 = var25[var20];
             var22 = var21.bind(var4)(var22);

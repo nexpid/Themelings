@@ -41,13 +41,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot44 = var2;
+            _closure1_slot43 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot44 = var1;
+    var _closure1_slot43 = var1;
     var1 = function logInfo(arg1) {
         var4 = _closure1_slot2;
         var7 = _closure1_slot3;
@@ -65,10 +65,10 @@ case 4:
         var2 = var5.bind(var1)(var2);
         var7 = var2.Storage;
         var5 = var7.get;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot15;
         var2 = var5.bind(var7)(var2);
         var2 = var4 != var2;
-        var5 = _closure1_slot19;
+        var5 = _closure1_slot18;
         var4 = var5.verbose;
         var3 = {};
         var3['tokenManagerHasToken'] = var6;
@@ -77,7 +77,7 @@ case 4:
         var2 = var4.bind(var5)(var2, var3);
         return var1;
     };
-    var _closure1_slot45 = var1;
+    var _closure1_slot44 = var1;
     var1 = function readInstallation() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -89,7 +89,7 @@ case 0:
             var1 = var2.bind(var7)(var1);
             var3 = var1.Storage;
             var2 = var3.get;
-            var1 = _closure1_slot21;
+            var1 = _closure1_slot20;
             var1 = var2.bind(var3)(var1);
             var6 = null;
             if(!(var6 != var1)) { _fun0002_ip = 6; continue _fun0002 }
@@ -122,7 +122,7 @@ case 11:
             var5 = var6.bind(var7)(var5);
             var6 = var5.Storage;
             var5 = var6.set;
-            var4 = _closure1_slot21;
+            var4 = _closure1_slot20;
             var4 = var5.bind(var6)(var4, var3);
             var2 = var3;
 case 9:
@@ -131,7 +131,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot46 = var1;
+    var _closure1_slot45 = var1;
     var1 = function fetchFingerprint() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -148,17 +148,17 @@ case 12:
             var2 = var3.bind(var4)(var2);
             var6 = var2.Storage;
             var3 = var6.get;
-            var2 = _closure1_slot20;
+            var2 = _closure1_slot19;
             var2 = var3.bind(var6)(var2);
-            _closure1_slot27 = var2;
-            var2 = _closure1_slot46;
+            _closure1_slot26 = var2;
+            var2 = _closure1_slot45;
             var2 = var2.bind(var4)();
-            _closure1_slot29 = var2;
-            var2 = _closure1_slot39;
+            _closure1_slot28 = var2;
+            var2 = _closure1_slot38;
             var3 = null;
             if(!(var3 == var2)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-            var2 = _closure1_slot27;
+            var2 = _closure1_slot26;
             if(!(var3 == var2)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
             var6 = _closure1_slot2;
@@ -170,7 +170,7 @@ case 17:
             var2 = var2.bind(var6)();
             _fun0003_ip = 18; continue _fun0003;
 case 16:
-            var2 = _closure1_slot27;
+            var2 = _closure1_slot26;
 case 18:
             var7 = _closure1_slot0;
             var8 = _closure1_slot3;
@@ -190,7 +190,7 @@ case 9:
             var2 = var2.bind(var3)();
             if(var2) { _fun0003_ip = 19; continue _fun0003 }
 case 22:
-            var3 = _closure1_slot48;
+            var3 = _closure1_slot47;
             var2 = {};
             var5 = true;
             var2['withGuildExperiments'] = var5;
@@ -204,16 +204,16 @@ case 19:
 case 23:
             return var2;
 case 14:
-            var1 = _closure1_slot39;
+            var1 = _closure1_slot38;
             return var1;
         }
     };
-    var _closure1_slot47 = var1;
-    var1 = function fetchExperiments(arg1) {
+    var _closure1_slot46 = var1;
+    var1 = function loadExperiments(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
-            var11 = var2.withGuildExperiments;
+            var7 = var2.withGuildExperiments;
             var6 = {};
             var4 = _closure1_slot1;
             var5 = _closure1_slot3;
@@ -228,32 +228,26 @@ case 0:
 case 25:
             var6['X-Super-Properties'] = var3;
 case 24:
-            var3 = _closure1_slot27;
+            var3 = _closure1_slot26;
             if(!(var4 != var3)) { _fun0004_ip = 26; continue _fun0004 }
 case 27:
-            var3 = _closure1_slot27;
+            var3 = _closure1_slot26;
             var6['X-Fingerprint'] = var3;
 case 26:
-            var3 = _closure1_slot29;
+            var3 = _closure1_slot28;
             if(!(var4 != var3)) { _fun0004_ip = 28; continue _fun0004 }
 case 29:
-            var3 = _closure1_slot29;
+            var3 = _closure1_slot28;
             var6['X-Installation-ID'] = var3;
 case 28:
             var8 = _closure1_slot0;
             var10 = _closure1_slot3;
             var3 = 14;
             var3 = var10[var3];
-            var3 = var8.bind(var9)(var3);
-            var5 = var3.HTTP;
-            var4 = var5.get;
+            var5 = var8.bind(var9)(var3);
+            var4 = var5.fetchExperiments;
             var3 = {};
-            var7 = _closure1_slot12;
-            var7 = var7.EXPERIMENTS;
-            var3['url'] = var7;
-            var7 = {};
-            var7['with_guild_experiments'] = var11;
-            var3['query'] = var7;
+            var3['withGuildExperiments'] = var7;
             var3['headers'] = var6;
             var6 = {};
             var7 = 12;
@@ -263,12 +257,6 @@ case 28:
             var7 = var7.bind(var8)();
             var6['location'] = var7;
             var3['context'] = var6;
-            var6 = 3;
-            var3['retries'] = var6;
-            var6 = true;
-            var3['oldFormErrors'] = var6;
-            var6 = false;
-            var3['rejectWithError'] = var6;
             var5 = var4.bind(var5)(var3);
             var4 = var5.then;
             var3 = function(arg1) {
@@ -332,7 +320,7 @@ case 20:
                     var5['experiments'] = var9;
                     var5['guildExperiments'] = var8;
                     var5 = var6.bind(var7)(var5);
-                    _closure1_slot39 = var3;
+                    _closure1_slot38 = var3;
                     var3 = _closure1_slot0;
                     var2 = 16;
                     var2 = var4[var2];
@@ -344,7 +332,7 @@ case 20:
             };
             var1 = function() {
                 var2 = null;
-                _closure1_slot39 = var2;
+                _closure1_slot38 = var2;
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
                 var1 = 15;
@@ -359,16 +347,16 @@ case 20:
                 return var1;
             };
             var1 = var4.bind(var5)(var3, var1);
-            _closure1_slot39 = var1;
+            _closure1_slot38 = var1;
             return var1;
         }
     };
-    var _closure1_slot48 = var1;
+    var _closure1_slot47 = var1;
     var1 = function clearFingerprint() {
-        var1 = _closure1_slot27;
-        _closure1_slot28 = var1;
-        var1 = null;
+        var1 = _closure1_slot26;
         _closure1_slot27 = var1;
+        var1 = null;
+        _closure1_slot26 = var1;
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
         var1 = 11;
@@ -377,16 +365,16 @@ case 20:
         var3 = var4.bind(var1)(var3);
         var4 = var3.Storage;
         var3 = var4.remove;
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot19;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot49 = var1;
+    var _closure1_slot48 = var1;
     var1 = function setAuthToken(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var5 = arg2;
-            var4 = _closure1_slot45;
+            var4 = _closure1_slot44;
             var1 = undefined;
             var3 = 'setAuthToken called.';
             var3 = var4.bind(var1)(var3);
@@ -394,7 +382,7 @@ case 0:
             var3 = var3 != var5;
             if(!var3) { _fun0006_ip = 34; continue _fun0006 }
 case 35:
-            var4 = _closure1_slot23;
+            var4 = _closure1_slot22;
             var3 = var5 === var4;
 case 34:
             if(var3) { _fun0006_ip = 36; continue _fun0006 }
@@ -418,10 +406,10 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot50 = var1;
+    var _closure1_slot49 = var1;
     var1 = function setAnalyticsToken(arg1) {
         var4 = arg1;
-        _closure1_slot30 = var4;
+        _closure1_slot29 = var4;
         var3 = _closure1_slot2;
         var2 = _closure1_slot3;
         var1 = 10;
@@ -432,9 +420,9 @@ case 36:
         var2 = var2.bind(var3)(var4);
         return var1;
     };
-    var _closure1_slot51 = var1;
+    var _closure1_slot50 = var1;
     var1 = function removeAuthToken() {
-        var4 = _closure1_slot45;
+        var4 = _closure1_slot44;
         var3 = undefined;
         var2 = 'removeAuthToken called.';
         var2 = var4.bind(var3)(var2);
@@ -451,12 +439,12 @@ case 36:
         var1 = var1.bind(var2)();
         return var1;
     };
-    var _closure1_slot52 = var1;
+    var _closure1_slot51 = var1;
     var1 = function updateMFAMethods() {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var2 = new Array(0);
-            var4 = _closure1_slot36;
+            var4 = _closure1_slot35;
             var3 = null;
             if(!(var3 != var4)) { _fun0007_ip = 38; continue _fun0007 }
 case 39:
@@ -464,11 +452,11 @@ case 39:
             var3 = {};
             var5 = 'webauthn';
             var3['type'] = var5;
-            var5 = _closure1_slot36;
+            var5 = _closure1_slot35;
             var3['challenge'] = var5;
             var3 = var4.bind(var2)(var3);
 case 38:
-            var3 = _closure1_slot37;
+            var3 = _closure1_slot36;
             if(!var3) { _fun0007_ip = 36; continue _fun0007 }
 case 40:
             var4 = var2.push;
@@ -477,7 +465,7 @@ case 40:
             var3['type'] = var5;
             var3 = var4.bind(var2)(var3);
 case 36:
-            var3 = _closure1_slot38;
+            var3 = _closure1_slot37;
             if(!var3) { _fun0007_ip = 41; continue _fun0007 }
 case 42:
             var4 = var2.push;
@@ -486,7 +474,7 @@ case 42:
             var3['type'] = var5;
             var3 = var4.bind(var2)(var3);
 case 41:
-            var3 = _closure1_slot35;
+            var3 = _closure1_slot34;
             if(!var3) { _fun0007_ip = 18; continue _fun0007 }
 case 32:
             var4 = var2.push;
@@ -495,27 +483,27 @@ case 32:
             var3['type'] = var5;
             var3 = var4.bind(var2)(var3);
 case 18:
-            _closure1_slot43 = var2;
+            _closure1_slot42 = var2;
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot53 = var1;
+    var _closure1_slot52 = var1;
     var11 = function handleInstallationId(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.installation;
-            var3 = _closure1_slot29;
+            var3 = _closure1_slot28;
             var1 = null;
             if(!(var1 != var3)) { _fun0008_ip = 43; continue _fun0008 }
 case 44:
-            var1 = _closure1_slot29;
+            var1 = _closure1_slot28;
             var3 = var1.length;
             var1 = 0;
             if(!(!(var3 > var1))) { _fun0008_ip = 45; continue _fun0008 }
 case 43:
-            _closure1_slot29 = var5;
+            _closure1_slot28 = var5;
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
             var1 = 20;
@@ -533,7 +521,7 @@ case 47:
             var3 = var4.bind(var1)(var3);
             var4 = var3.Storage;
             var3 = var4.set;
-            var2 = _closure1_slot21;
+            var2 = _closure1_slot20;
             var2 = var3.bind(var4)(var2, var5);
 case 46:
             return var1;
@@ -542,11 +530,11 @@ case 45:
             return var1;
         }
     };
-    var _closure1_slot54 = var11;
+    var _closure1_slot53 = var11;
     var10 = function handleAgeGateUnderage() {
         var1 = true;
-        _closure1_slot32 = var1;
-        var3 = _closure1_slot56;
+        _closure1_slot31 = var1;
+        var3 = _closure1_slot55;
         var1 = undefined;
         var3 = var3.bind(var1)();
         var3 = _closure1_slot1;
@@ -563,7 +551,7 @@ case 45:
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.transitionTo;
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot14;
             var2 = var2.REGISTER;
             var2 = var3.bind(var4)(var2);
             return var1;
@@ -571,16 +559,16 @@ case 45:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot55 = var10;
+    var _closure1_slot54 = var10;
     var12 = function handleLogout(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var4 = arg1;
-            var5 = _closure1_slot45;
+            var5 = _closure1_slot44;
             var1 = undefined;
             var3 = 'handleLogout called.';
             var3 = var5.bind(var1)(var3);
-            var3 = _closure1_slot52;
+            var3 = _closure1_slot51;
             var5 = var3.bind(var1)();
             var3 = null;
             var6 = var3 == var4;
@@ -598,10 +586,10 @@ case 50:
 case 51:
             if(!var5) { _fun0009_ip = 5; continue _fun0009 }
 case 52:
-            var5 = _closure1_slot49;
+            var5 = _closure1_slot48;
             var5 = var5.bind(var1)();
 case 5:
-            var5 = _closure1_slot47;
+            var5 = _closure1_slot46;
             var5 = var5.bind(var1)();
 case 42:
             var7 = _closure1_slot1;
@@ -648,36 +636,36 @@ case 53:
             var5 = var6.bind(var1)(var5);
             var7 = var5.Storage;
             var6 = var7.remove;
-            var5 = _closure1_slot22;
+            var5 = _closure1_slot21;
             var5 = var6.bind(var7)(var5);
+            _closure1_slot22 = var3;
             _closure1_slot23 = var3;
-            _closure1_slot24 = var3;
             if(!(var3 != var4)) { _fun0009_ip = 56; continue _fun0009 }
 case 57:
             var4 = var4.isSwitchingAccount;
             if(var4) { _fun0009_ip = 58; continue _fun0009 }
 case 56:
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot12;
             var4 = var4.NONE;
             _fun0009_ip = 59; continue _fun0009;
 case 58:
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot12;
             var4 = var5.LOGGING_IN;
 case 59:
-            _closure1_slot31 = var4;
+            _closure1_slot30 = var4;
             var4 = '';
-            _closure1_slot34 = var4;
-            _closure1_slot36 = var3;
-            var3 = false;
+            _closure1_slot33 = var4;
             _closure1_slot35 = var3;
+            var3 = false;
+            _closure1_slot34 = var3;
+            _closure1_slot40 = var3;
             _closure1_slot41 = var3;
-            _closure1_slot42 = var3;
-            var2 = _closure1_slot53;
+            var2 = _closure1_slot52;
             var2 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot56 = var12;
+    var _closure1_slot55 = var12;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -720,16 +708,14 @@ case 59:
     var2 = var5.bind(var1)(var2);
     var7 = var2.AnalyticEvents;
     var _closure1_slot11 = var7;
-    var7 = var2.Endpoints;
-    var _closure1_slot12 = var7;
     var7 = var2.LoginStates;
-    var _closure1_slot13 = var7;
+    var _closure1_slot12 = var7;
     var9 = var2.Platforms;
-    var _closure1_slot14 = var9;
+    var _closure1_slot13 = var9;
     var9 = var2.Routes;
-    var _closure1_slot15 = var9;
+    var _closure1_slot14 = var9;
     var2 = var2.TOKEN_KEY;
-    var _closure1_slot16 = var2;
+    var _closure1_slot15 = var2;
     var2 = 8;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
@@ -745,14 +731,15 @@ case 59:
     var16 = var2;
     var9 = new var17[var9](var16, var15);
     var9 = var9 instanceof Object ? var9 : var13;
-    var _closure1_slot19 = var9;
+    var _closure1_slot18 = var9;
     var9 = 'fingerprint';
-    var _closure1_slot20 = var9;
+    var _closure1_slot19 = var9;
     var9 = 'analytics_installation';
-    var _closure1_slot21 = var9;
+    var _closure1_slot20 = var9;
     var9 = 'user_id_cache';
-    var _closure1_slot22 = var9;
+    var _closure1_slot21 = var9;
     var9 = null;
+    var _closure1_slot22 = var9;
     var _closure1_slot23 = var9;
     var _closure1_slot24 = var9;
     var _closure1_slot25 = var9;
@@ -760,25 +747,24 @@ case 59:
     var _closure1_slot27 = var9;
     var _closure1_slot28 = var9;
     var _closure1_slot29 = var9;
-    var _closure1_slot30 = var9;
     var7 = var7.NONE;
-    var _closure1_slot31 = var7;
+    var _closure1_slot30 = var7;
     var7 = false;
-    var _closure1_slot32 = var7;
+    var _closure1_slot31 = var7;
     var13 = new Array(0);
-    var _closure1_slot33 = var13;
+    var _closure1_slot32 = var13;
     var13 = '';
-    var _closure1_slot34 = var13;
-    var _closure1_slot35 = var7;
-    var _closure1_slot36 = var9;
+    var _closure1_slot33 = var13;
+    var _closure1_slot34 = var7;
+    var _closure1_slot35 = var9;
+    var _closure1_slot36 = var7;
     var _closure1_slot37 = var7;
-    var _closure1_slot38 = var7;
+    var _closure1_slot38 = var9;
     var _closure1_slot39 = var9;
-    var _closure1_slot40 = var9;
+    var _closure1_slot40 = var7;
     var _closure1_slot41 = var7;
-    var _closure1_slot42 = var7;
     var7 = new Array(0);
-    var _closure1_slot43 = var7;
+    var _closure1_slot42 = var7;
     var7 = 23;
     var7 = var6[var7];
     var7 = var8.bind(var1)(var7);
@@ -796,7 +782,7 @@ case 0:
                 var1 = _closure1_slot7;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot6;
-                var1 = _closure1_slot44;
+                var1 = _closure1_slot43;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0010_ip = 60; continue _fun0010 }
 case 7:
@@ -840,12 +826,12 @@ case 0:
                 var3 = var6.bind(var1)(var3);
                 var8 = var3.Storage;
                 var6 = var8.get;
-                var3 = _closure1_slot22;
+                var3 = _closure1_slot21;
                 var3 = var6.bind(var8)(var3);
-                _closure1_slot23 = var3;
-                var3 = _closure1_slot46;
+                _closure1_slot22 = var3;
+                var3 = _closure1_slot45;
                 var3 = var3.bind(var1)();
-                _closure1_slot29 = var3;
+                _closure1_slot28 = var3;
                 var6 = _closure1_slot2;
                 var3 = 10;
                 var3 = var7[var3];
@@ -855,16 +841,16 @@ case 0:
                 var6 = null;
                 if(!(var6 == var3)) { _fun0011_ip = 62; continue _fun0011 }
 case 63:
-                var3 = _closure1_slot29;
+                var3 = _closure1_slot28;
                 var3 = var6 == var3;
                 if(var3) { _fun0011_ip = 64; continue _fun0011 }
 case 65:
-                var6 = _closure1_slot29;
+                var6 = _closure1_slot28;
                 var7 = var6.length;
                 var6 = 0;
                 var3 = var6 === var7;
 case 64:
-                var5 = _closure1_slot47;
+                var5 = _closure1_slot46;
                 var6 = var5.bind(var1)();
                 if(!var3) { _fun0011_ip = 62; continue _fun0011 }
 case 66:
@@ -892,7 +878,7 @@ case 62:
                     var2 = undefined;
                     var3 = var4.bind(var2)(var3);
                     var2 = var3.setClientState;
-                    var1 = _closure1_slot23;
+                    var1 = _closure1_slot22;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
@@ -907,7 +893,7 @@ case 62:
         var7 = 'getLoginStatus';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot31;
+            var1 = _closure1_slot30;
             return var1;
         };
         var5['value'] = var7;
@@ -916,7 +902,7 @@ case 62:
         var7 = 'getId';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot23;
+            var1 = _closure1_slot22;
             return var1;
         };
         var5['value'] = var7;
@@ -925,7 +911,7 @@ case 62:
         var7 = 'getSessionId';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot24;
+            var1 = _closure1_slot23;
             return var1;
         };
         var5['value'] = var7;
@@ -934,7 +920,7 @@ case 62:
         var7 = 'getAuthSessionIdHash';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot25;
+            var1 = _closure1_slot24;
             return var1;
         };
         var5['value'] = var7;
@@ -943,7 +929,7 @@ case 62:
         var7 = 'getStaticAuthSessionId';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot26;
+            var1 = _closure1_slot25;
             return var1;
         };
         var5['value'] = var7;
@@ -984,7 +970,7 @@ case 62:
         var7 = 'getFingerprint';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot26;
             return var1;
         };
         var5['value'] = var7;
@@ -1006,7 +992,7 @@ case 0:
                 var1 = null;
                 if(!var3) { _fun0012_ip = 67; continue _fun0012 }
 case 34:
-                var1 = _closure1_slot29;
+                var1 = _closure1_slot28;
 case 67:
                 return var1;
             }
@@ -1019,7 +1005,7 @@ case 67:
         var7 = function value() {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-                var3 = _closure1_slot30;
+                var3 = _closure1_slot29;
                 var1 = null;
                 if(!(var1 == var3)) { _fun0013_ip = 68; continue _fun0013 }
 case 69:
@@ -1033,7 +1019,7 @@ case 69:
                 var1 = var1.bind(var3)();
                 _fun0013_ip = 7; continue _fun0013;
 case 68:
-                var1 = _closure1_slot30;
+                var1 = _closure1_slot29;
 case 7:
                 return var1;
             }
@@ -1044,7 +1030,7 @@ case 7:
         var7 = 'getMFATicket';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot33;
             return var1;
         };
         var5['value'] = var7;
@@ -1053,7 +1039,7 @@ case 7:
         var7 = 'getMFAMethods';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot43;
+            var1 = _closure1_slot42;
             return var1;
         };
         var5['value'] = var7;
@@ -1062,7 +1048,7 @@ case 7:
         var7 = 'getLoginInstanceId';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot17;
             return var1;
         };
         var5['value'] = var7;
@@ -1071,7 +1057,7 @@ case 7:
         var7 = 'hasTOTPEnabled';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot33;
+            var3 = _closure1_slot32;
             var2 = var3.includes;
             var5 = _closure1_slot0;
             var4 = _closure1_slot3;
@@ -1092,11 +1078,11 @@ case 7:
         var7 = function value() {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-                var3 = _closure1_slot17;
+                var3 = _closure1_slot16;
                 var2 = null;
                 if(!(var2 != var3)) { _fun0014_ip = 70; continue _fun0014 }
 case 69:
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot16;
                 return var1;
 case 70:
                 var1 = global;
@@ -1116,7 +1102,7 @@ case 70:
         var7 = 'allowLogoutRedirect';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot32;
+            var1 = _closure1_slot31;
             var1 = !var1;
             return var1;
         };
@@ -1126,7 +1112,7 @@ case 70:
         var7 = 'getSuspendedUserToken';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot40;
+            var1 = _closure1_slot39;
             return var1;
         };
         var5['value'] = var7;
@@ -1135,7 +1121,7 @@ case 70:
         var7 = 'getIsPasswordlessActive';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot41;
+            var1 = _closure1_slot40;
             return var1;
         };
         var5['value'] = var7;
@@ -1144,7 +1130,7 @@ case 70:
         var7 = 'attemptedPasswordLogin';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot42;
+            var1 = _closure1_slot41;
             return var1;
         };
         var5['value'] = var6;
@@ -1169,7 +1155,7 @@ case 0:
             var5 = var1.auth;
             var7 = var1.staticAuthSessionId;
             var6 = var1.apexExperiments;
-            var11 = _closure1_slot45;
+            var11 = _closure1_slot44;
             var1 = undefined;
             var3 = 'handleConnectionOpen called';
             var3 = var11.bind(var1)(var3);
@@ -1200,17 +1186,17 @@ case 71:
             var21 = var13;
             var20 = var12;
             var11 = var23[var15](var22, var21, var20, var19, var18);
-            _closure1_slot24 = var10;
-            _closure1_slot25 = var9;
-            _closure1_slot26 = var7;
-            var7 = _closure1_slot51;
+            _closure1_slot23 = var10;
+            _closure1_slot24 = var9;
+            _closure1_slot25 = var7;
+            var7 = _closure1_slot50;
             var7 = var7.bind(var1)(var8);
             var7 = var2.id;
-            _closure1_slot23 = var7;
+            _closure1_slot22 = var7;
             if(!(var1 !== var5)) { _fun0015_ip = 19; continue _fun0015 }
 case 73:
             var5 = var5.authenticator_types;
-            _closure1_slot33 = var5;
+            _closure1_slot32 = var5;
 case 19:
             var8 = _closure1_slot0;
             var7 = _closure1_slot3;
@@ -1219,7 +1205,7 @@ case 19:
             var7 = var8.bind(var1)(var7);
             var9 = var7.Storage;
             var8 = var9.set;
-            var7 = _closure1_slot22;
+            var7 = _closure1_slot21;
             var2 = var2.id;
             var2 = var8.bind(var9)(var7, var2);
             var7 = var3 == var6;
@@ -1230,7 +1216,7 @@ case 75:
 case 74:
             if(!(var3 != var2)) { _fun0015_ip = 76; continue _fun0015 }
 case 77:
-            var3 = _closure1_slot54;
+            var3 = _closure1_slot53;
             var2 = {};
             var7 = 'INSTALLATION_ID';
             var2['type'] = var7;
@@ -1259,7 +1245,7 @@ case 79:
             var2 = _closure1_slot11;
             var7 = var2.APP_FIRST_LOGIN;
             var6 = {};
-            var10 = _closure1_slot14;
+            var10 = _closure1_slot13;
             var10 = var10.IOS;
             var6['platform'] = var10;
             var6 = var8.bind(var9)(var7, var6);
@@ -1312,20 +1298,20 @@ case 80:
             var18 = var10;
             var17 = var9;
             var7 = var20[var12](var19, var18, var17, var16, var15);
-            _closure1_slot24 = var6;
-            _closure1_slot30 = var5;
-            var7 = _closure1_slot50;
+            _closure1_slot23 = var6;
+            _closure1_slot29 = var5;
+            var7 = _closure1_slot49;
             var6 = var2.id;
             var6 = var7.bind(var1)(var8, var6);
             if(!(var4 != var5)) { _fun0016_ip = 82; continue _fun0016 }
 case 83:
-            var4 = _closure1_slot51;
+            var4 = _closure1_slot50;
             var4 = var4.bind(var1)(var5);
 case 82:
-            var4 = _closure1_slot49;
+            var4 = _closure1_slot48;
             var4 = var4.bind(var1)();
             var4 = var2.id;
-            _closure1_slot23 = var4;
+            _closure1_slot22 = var4;
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
             var4 = 11;
@@ -1333,7 +1319,7 @@ case 82:
             var4 = var5.bind(var1)(var4);
             var5 = var4.Storage;
             var4 = var5.set;
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot21;
             var2 = var2.id;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
@@ -1345,7 +1331,7 @@ case 82:
 case 0:
             var1 = arg1;
             var5 = var1.code;
-            var6 = _closure1_slot45;
+            var6 = _closure1_slot44;
             var3 = global;
             var1 = var3.HermesInternal;
             var7 = var1.concat;
@@ -1357,7 +1343,7 @@ case 0:
             var4 = 4004;
             if(!(var4 === var5)) { _fun0017_ip = 84; continue _fun0017 }
 case 51:
-            var4 = _closure1_slot32;
+            var4 = _closure1_slot31;
             if(var4) { _fun0017_ip = 85; continue _fun0017 }
 case 27:
             var5 = _closure1_slot1;
@@ -1375,11 +1361,11 @@ case 27:
             var8 = var9.bind(var1)(var8);
             var10 = var8.Storage;
             var9 = var10.get;
-            var8 = _closure1_slot22;
+            var8 = _closure1_slot21;
             var8 = var9.bind(var10)(var8);
             var4['user_id'] = var8;
             var4 = var6.bind(var7)(var5, var4);
-            var4 = _closure1_slot56;
+            var4 = _closure1_slot55;
             var4 = var4.bind(var1)();
             var4 = var3.setImmediate;
             var3 = function() {
@@ -1390,7 +1376,7 @@ case 27:
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
                 var2 = var3.transitionTo;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot14;
                 var1 = var1.DEFAULT_LOGGED_OUT;
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -1399,7 +1385,7 @@ case 27:
 case 84:
             return var1;
 case 85:
-            var2 = _closure1_slot55;
+            var2 = _closure1_slot54;
             var2 = var2.bind(var1)();
             return var1;
         }
@@ -1413,7 +1399,7 @@ case 0:
             var1 = null;
             if(!(var1 != var2)) { _fun0018_ip = 44; continue _fun0018 }
 case 86:
-            _closure1_slot25 = var2;
+            _closure1_slot24 = var2;
 case 44:
             var1 = undefined;
             return var1;
@@ -1425,16 +1411,16 @@ case 44:
 case 0:
             var1 = arg1;
             var4 = var1.isPasswordAttempt;
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot12;
             var1 = var1.LOGGING_IN;
-            _closure1_slot31 = var1;
-            var1 = _closure1_slot42;
+            _closure1_slot30 = var1;
+            var1 = _closure1_slot41;
             if(var1) { _fun0019_ip = 87; continue _fun0019 }
 case 88:
             var3 = true;
             var1 = var3 === var4;
 case 87:
-            _closure1_slot42 = var1;
+            _closure1_slot41 = var1;
             var1 = undefined;
             return var1;
         }
@@ -1443,24 +1429,24 @@ case 87:
     var13 = function handleLoginSuccess(arg1) {
         var1 = arg1;
         var4 = var1.token;
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var1 = var1.NONE;
-        _closure1_slot31 = var1;
-        var2 = _closure1_slot50;
+        _closure1_slot30 = var1;
+        var2 = _closure1_slot49;
         var1 = undefined;
         var2 = var2.bind(var1)(var4);
-        var2 = _closure1_slot49;
+        var2 = _closure1_slot48;
         var2 = var2.bind(var1)();
         var2 = '';
-        _closure1_slot34 = var2;
+        _closure1_slot33 = var2;
         var2 = false;
-        _closure1_slot35 = var2;
+        _closure1_slot34 = var2;
         var4 = null;
-        _closure1_slot36 = var4;
-        var _closure1_slot18 = var4;
-        var4 = _closure1_slot53;
+        _closure1_slot35 = var4;
+        var _closure1_slot17 = var4;
+        var4 = _closure1_slot52;
         var4 = var4.bind(var1)();
-        _closure1_slot41 = var2;
+        _closure1_slot40 = var2;
         return var1;
     };
     var7['LOGIN_SUCCESS'] = var13;
@@ -1470,13 +1456,13 @@ case 0:
             var1 = arg1;
             var6 = var1.error;
             var1 = '';
-            _closure1_slot34 = var1;
+            _closure1_slot33 = var1;
             var1 = false;
-            _closure1_slot35 = var1;
+            _closure1_slot34 = var1;
             var4 = null;
-            _closure1_slot36 = var4;
-            _closure1_slot18 = var4;
-            var2 = _closure1_slot53;
+            _closure1_slot35 = var4;
+            _closure1_slot17 = var4;
+            var2 = _closure1_slot52;
             var1 = undefined;
             var2 = var2.bind(var1)();
             var5 = _closure1_slot0;
@@ -1489,14 +1475,14 @@ case 0:
             var2 = var2.date_of_birth;
             if(!(var4 == var2)) { _fun0020_ip = 63; continue _fun0020 }
 case 29:
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot12;
             var2 = var2.NONE;
             _fun0020_ip = 89; continue _fun0020;
 case 63:
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot12;
             var2 = var4.LOGIN_AGE_GATE;
 case 89:
-            _closure1_slot31 = var2;
+            _closure1_slot30 = var2;
             return var1;
         }
     };
@@ -1514,78 +1500,78 @@ case 0:
             var5 = null;
             if(!(var5 != var8)) { _fun0021_ip = 90; continue _fun0021 }
 case 91:
-            _closure1_slot34 = var8;
-            _closure1_slot35 = var7;
+            _closure1_slot33 = var8;
+            _closure1_slot34 = var7;
             var7 = var5 != var6;
             var5 = null;
             if(!var7) { _fun0021_ip = 27; continue _fun0021 }
 case 92:
             var5 = var6;
 case 27:
-            _closure1_slot36 = var5;
-            _closure1_slot38 = var4;
-            _closure1_slot37 = var3;
-            _closure1_slot18 = var2;
-            var2 = _closure1_slot53;
+            _closure1_slot35 = var5;
+            _closure1_slot37 = var4;
+            _closure1_slot36 = var3;
+            _closure1_slot17 = var2;
+            var2 = _closure1_slot52;
             var1 = undefined;
             var1 = var2.bind(var1)();
 case 90:
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot12;
             var1 = var1.MFA_STEP;
-            _closure1_slot31 = var1;
+            _closure1_slot30 = var1;
             var1 = undefined;
             return var1;
         }
     };
     var7['LOGIN_MFA_STEP'] = var13;
     var13 = function handleLoginMFA() {
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var1 = var1.LOGGING_IN_MFA;
-        _closure1_slot31 = var1;
+        _closure1_slot30 = var1;
         var1 = undefined;
         return var1;
     };
     var7['LOGIN_MFA'] = var13;
     var13 = function handleLoginAccountPendingDeletion(arg1) {
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var1 = var1.ACCOUNT_SCHEDULED_FOR_DELETION;
-        _closure1_slot31 = var1;
+        _closure1_slot30 = var1;
         var1 = arg1;
         var1 = var1.credentials;
-        var _closure1_slot17 = var1;
+        var _closure1_slot16 = var1;
         var1 = undefined;
         return var1;
     };
     var7['LOGIN_ACCOUNT_SCHEDULED_FOR_DELETION'] = var13;
     var13 = function handleLoginAccountDisabled(arg1) {
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var1 = var1.ACCOUNT_DISABLED;
-        _closure1_slot31 = var1;
+        _closure1_slot30 = var1;
         var1 = arg1;
         var1 = var1.credentials;
-        _closure1_slot17 = var1;
+        _closure1_slot16 = var1;
         var1 = undefined;
         return var1;
     };
     var7['LOGIN_ACCOUNT_DISABLED'] = var13;
     var13 = function handleLoginPasswordRecoveryPhoneVerification(arg1) {
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var1 = var1.PASSWORD_RECOVERY_PHONE_VERIFICATION;
-        _closure1_slot31 = var1;
+        _closure1_slot30 = var1;
         var1 = arg1;
         var1 = var1.credentials;
-        _closure1_slot17 = var1;
+        _closure1_slot16 = var1;
         var1 = undefined;
         return var1;
     };
     var7['LOGIN_PASSWORD_RECOVERY_PHONE_VERIFICATION'] = var13;
     var13 = function handleLoginPhoneIPAuthorizationRequired(arg1) {
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var1 = var1.PHONE_IP_AUTHORIZATION;
-        _closure1_slot31 = var1;
+        _closure1_slot30 = var1;
         var1 = arg1;
         var1 = var1.credentials;
-        _closure1_slot17 = var1;
+        _closure1_slot16 = var1;
         var1 = undefined;
         return var1;
     };
@@ -1595,25 +1581,25 @@ case 90:
 case 0:
             var1 = arg1;
             var2 = var1.isMultiAccount;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var3 = var3.NONE;
-            _closure1_slot31 = var3;
+            _closure1_slot30 = var3;
             var3 = '';
-            _closure1_slot34 = var3;
+            _closure1_slot33 = var3;
             var3 = false;
-            _closure1_slot35 = var3;
+            _closure1_slot34 = var3;
             var4 = null;
-            _closure1_slot36 = var4;
-            _closure1_slot18 = var4;
+            _closure1_slot35 = var4;
             _closure1_slot17 = var4;
+            _closure1_slot16 = var4;
             if(var2) { _fun0022_ip = 93; continue _fun0022 }
 case 94:
-            var4 = _closure1_slot53;
+            var4 = _closure1_slot52;
             var2 = undefined;
             var4 = var4.bind(var2)();
-            var4 = _closure1_slot52;
+            var4 = _closure1_slot51;
             var4 = var4.bind(var2)();
-            var1 = _closure1_slot47;
+            var1 = _closure1_slot46;
             var1 = var1.bind(var2)(var3);
 case 93:
             var1 = undefined;
@@ -1622,9 +1608,9 @@ case 93:
     };
     var7['LOGIN_RESET'] = var13;
     var13 = function handleLoginStatusReset() {
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var1 = var1.NONE;
-        _closure1_slot31 = var1;
+        _closure1_slot30 = var1;
         var1 = undefined;
         return var1;
     };
@@ -1633,8 +1619,8 @@ case 93:
         var1 = arg1;
         var2 = var1.suspendedUserToken;
         var3 = false;
-        _closure1_slot41 = var3;
-        _closure1_slot40 = var2;
+        _closure1_slot40 = var3;
+        _closure1_slot39 = var2;
         var1 = global;
         var3 = var1.setImmediate;
         var1 = undefined;
@@ -1646,7 +1632,7 @@ case 93:
             var2 = undefined;
             var3 = var4.bind(var2)(var3);
             var2 = var3.transitionTo;
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot14;
             var1 = var1.ACCOUNT_STANDING;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -1661,14 +1647,14 @@ case 93:
 case 0:
             var1 = arg1;
             var2 = var1.fingerprint;
-            var4 = _closure1_slot27;
+            var4 = _closure1_slot26;
             var3 = null;
             if(!(var3 != var4)) { _fun0023_ip = 95; continue _fun0023 }
 case 96:
             var4 = var3 != var2;
             if(!var4) { _fun0023_ip = 34; continue _fun0023 }
 case 35:
-            var5 = _closure1_slot27;
+            var5 = _closure1_slot26;
             var4 = var5 !== var2;
 case 34:
             if(!var4) { _fun0023_ip = 97; continue _fun0023 }
@@ -1688,7 +1674,7 @@ case 38:
             var12 = var11[var8];
             var14 = var9.bind(var10)(var12);
             var13 = var14.extractId;
-            var12 = _closure1_slot27;
+            var12 = _closure1_slot26;
             var12 = var13.bind(var14)(var12);
             var4['fingerprint'] = var12;
             var8 = var11[var8];
@@ -1701,7 +1687,7 @@ case 38:
 case 95:
             if(!(var3 == var2)) { _fun0023_ip = 84; continue _fun0023 }
 case 21:
-            var5 = _closure1_slot47;
+            var5 = _closure1_slot46;
             var4 = undefined;
             var4 = var5.bind(var4)();
             _fun0023_ip = 97; continue _fun0023;
@@ -1716,7 +1702,7 @@ case 84:
             var5 = _closure1_slot11;
             var7 = var5.USER_FINGERPRINT_CHANGED;
             var6 = {};
-            var5 = _closure1_slot28;
+            var5 = _closure1_slot27;
             var5 = var3 != var5;
             var3 = null;
             if(!var5) { _fun0023_ip = 98; continue _fun0023 }
@@ -1727,7 +1713,7 @@ case 99:
             var5 = var11[var5];
             var11 = var10.bind(var4)(var5);
             var10 = var11.extractId;
-            var5 = _closure1_slot28;
+            var5 = _closure1_slot27;
             var3 = var10.bind(var11)(var5);
 case 98:
             var6['old_fingerprint'] = var3;
@@ -1740,15 +1726,15 @@ case 98:
             var10 = var10.bind(var11)(var2);
             var6['new_fingerprint'] = var10;
             var6 = var8.bind(var9)(var7, var6);
+            _closure1_slot26 = var2;
             _closure1_slot27 = var2;
-            _closure1_slot28 = var2;
             var2 = 11;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var4 = var2.Storage;
             var3 = var4.set;
-            var2 = _closure1_slot20;
-            var1 = _closure1_slot27;
+            var2 = _closure1_slot19;
+            var1 = _closure1_slot26;
             var1 = var3.bind(var4)(var2, var1);
 case 97:
             var1 = undefined;
@@ -1760,26 +1746,26 @@ case 97:
     var11 = function handleRegisterSuccess(arg1) {
         var1 = arg1;
         var4 = var1.token;
-        var3 = _closure1_slot50;
+        var3 = _closure1_slot49;
         var1 = undefined;
         var3 = var3.bind(var1)(var4);
-        var2 = _closure1_slot49;
+        var2 = _closure1_slot48;
         var2 = var2.bind(var1)();
         return var1;
     };
     var7['REGISTER_SUCCESS'] = var11;
     var11 = function handleForgotPasswordRequest() {
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var1 = var1.FORGOT_PASSWORD;
-        _closure1_slot31 = var1;
+        _closure1_slot30 = var1;
         var1 = undefined;
         return var1;
     };
     var7['FORGOT_PASSWORD_REQUEST'] = var11;
     var11 = function handleForgotPasswordSent() {
-        var1 = _closure1_slot13;
+        var1 = _closure1_slot12;
         var1 = var1.NONE;
-        _closure1_slot31 = var1;
+        _closure1_slot30 = var1;
         var1 = undefined;
         return var1;
     };
@@ -1788,19 +1774,19 @@ case 97:
         var1 = arg1;
         var5 = var1.token;
         var4 = var1.userId;
-        var6 = _closure1_slot45;
+        var6 = _closure1_slot44;
         var1 = undefined;
         var3 = 'handleUpdateToken called';
         var3 = var6.bind(var1)(var3);
-        var3 = _closure1_slot50;
+        var3 = _closure1_slot49;
         var3 = var3.bind(var1)(var5, var4);
-        var2 = _closure1_slot49;
+        var2 = _closure1_slot48;
         var2 = var2.bind(var1)();
         return var1;
     };
     var7['UPDATE_TOKEN'] = var11;
     var11 = function EXPERIMENTS_FETCH(arg1) {
-        var3 = _closure1_slot48;
+        var3 = _closure1_slot47;
         var1 = undefined;
         var2 = arg1;
         var2 = var3.bind(var1)(var2);
@@ -1813,13 +1799,13 @@ case 0:
             var1 = arg1;
             var2 = var1.user;
             var1 = var2.id;
-            _closure1_slot23 = var1;
+            _closure1_slot22 = var1;
             var4 = var2.authenticator_types;
             var1 = undefined;
             if(!(var1 !== var4)) { _fun0024_ip = 49; continue _fun0024 }
 case 35:
             var4 = var2.authenticator_types;
-            _closure1_slot33 = var4;
+            _closure1_slot32 = var4;
 case 49:
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
@@ -1828,7 +1814,7 @@ case 49:
             var4 = var5.bind(var1)(var4);
             var5 = var4.Storage;
             var4 = var5.set;
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot21;
             var2 = var2.id;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
@@ -1838,11 +1824,11 @@ case 49:
     var7['AGE_GATE_LOGOUT_UNDERAGE_NEW_USER'] = var10;
     var10 = function handleSuspendedUserClosed() {
         var2 = null;
-        _closure1_slot40 = var2;
-        var2 = _closure1_slot13;
+        _closure1_slot39 = var2;
+        var2 = _closure1_slot12;
         var2 = var2.NONE;
-        _closure1_slot31 = var2;
-        var2 = _closure1_slot56;
+        _closure1_slot30 = var2;
+        var2 = _closure1_slot55;
         var1 = undefined;
         var2 = var2.bind(var1)();
         var2 = global;
@@ -1855,7 +1841,7 @@ case 49:
             var2 = undefined;
             var3 = var4.bind(var2)(var3);
             var2 = var3.transitionTo;
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot14;
             var1 = var1.DEFAULT_LOGGED_OUT;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -1870,13 +1856,13 @@ case 0:
             var1 = arg1;
             var6 = var1.error;
             var1 = '';
-            _closure1_slot34 = var1;
+            _closure1_slot33 = var1;
             var1 = false;
-            _closure1_slot35 = var1;
+            _closure1_slot34 = var1;
             var4 = null;
-            _closure1_slot36 = var4;
-            _closure1_slot41 = var1;
-            _closure1_slot18 = var4;
+            _closure1_slot35 = var4;
+            _closure1_slot40 = var1;
+            _closure1_slot17 = var4;
             var5 = _closure1_slot1;
             var2 = _closure1_slot3;
             var1 = 18;
@@ -1886,9 +1872,9 @@ case 0:
             var2 = var6 instanceof var2;
             if(var2) { _fun0025_ip = 93; continue _fun0025 }
 case 27:
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot12;
             var2 = var2.NONE;
-            _closure1_slot31 = var2;
+            _closure1_slot30 = var2;
             _fun0025_ip = 62; continue _fun0025;
 case 93:
             var5 = _closure1_slot0;
@@ -1901,14 +1887,14 @@ case 93:
             var2 = var2.date_of_birth;
             if(!(var4 == var2)) { _fun0025_ip = 100; continue _fun0025 }
 case 101:
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot12;
             var2 = var2.NONE;
             _fun0025_ip = 102; continue _fun0025;
 case 100:
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot12;
             var2 = var4.LOGIN_AGE_GATE;
 case 102:
-            _closure1_slot31 = var2;
+            _closure1_slot30 = var2;
 case 62:
             return var1;
         }
@@ -1916,7 +1902,7 @@ case 62:
     var7['PASSWORDLESS_FAILURE'] = var10;
     var4 = function handlePasswordlessStart() {
         var1 = true;
-        _closure1_slot41 = var1;
+        _closure1_slot40 = var1;
         var1 = undefined;
         return var1;
     };

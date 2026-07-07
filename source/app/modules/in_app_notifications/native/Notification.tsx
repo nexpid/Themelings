@@ -919,7 +919,7 @@ case 30:
             var16 = var24[var16];
             var16 = var17.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'variant': 'text-xs/bold', 'color': 'black'};
+            var16 = {'variant': 'text-xs/bold', 'color': 'text-overlay-dark'};
             var24 = var25.toUpperCase;
             var24 = var24.bind(var25)();
             var16['children'] = var24;

@@ -1219,7 +1219,7 @@ case 63:
             var15 = var21[var24];
             var15 = var25.bind(var4)(var15);
             var16 = var15.Heading;
-            var15 = {'variant': 'heading-xl/bold', 'color': 'white'};
+            var15 = {'variant': 'heading-xl/bold', 'color': 'text-overlay-light'};
             var22 = var14.title;
             var15['style'] = var22;
             var22 = 18;
@@ -1250,7 +1250,7 @@ case 64:
             var16 = var16[var24];
             var16 = var20.bind(var4)(var16);
             var20 = var16.Text;
-            var16 = {'variant': 'text-md/normal', 'color': 'white'};
+            var16 = {'variant': 'text-md/normal', 'color': 'text-overlay-light'};
             var24 = var14.title;
             var16['style'] = var24;
             var25 = _closure1_slot0;
@@ -1384,7 +1384,7 @@ case 68:
                 var4 = undefined;
                 var1 = var8.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'variant': 'text-md/semibold', 'color': 'white'};
+                var2 = {'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
                 var1 = 18;
                 var6 = var9[var1];
                 var6 = var8.bind(var4)(var6);

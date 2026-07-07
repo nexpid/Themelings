@@ -211,7 +211,7 @@ case 6:
             var6 = var10[var6];
             var6 = var8.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'color': 'icon-feedback-critical', 'lineClamp': 1, 'variant': 'text-xs/medium'};
+            var6 = {'color': 'text-feedback-critical', 'lineClamp': 1, 'variant': 'text-xs/medium'};
             var11 = global;
             var11 = var11.HermesInternal;
             var12 = var11.concat;

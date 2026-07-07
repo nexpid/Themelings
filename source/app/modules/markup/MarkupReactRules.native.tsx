@@ -3163,10 +3163,10 @@ case 140:
                     var2['variant'] = var7;
                     var8 = var1.forceWhite;
                     var7 = 'text-strong';
-                    if(!var8) { _fun0040_ip = 175; continue _fun0040 }
-case 176:
-                    var7 = 'white';
+                    if(!var8) { _fun0040_ip = 29; continue _fun0040 }
 case 175:
+                    var7 = 'text-overlay-light';
+case 29:
                     var2['color'] = var7;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -3293,10 +3293,10 @@ case 3:
             var3 = arg2;
             var1 = arg3;
             var1 = var4.bind(var5)(var2, var3, var1);
-            _fun0042_ip = 177; continue _fun0042;
+            _fun0042_ip = 176; continue _fun0042;
 case 128:
             var1 = var2.content;
-case 177:
+case 176:
             return var1;
         }
     };

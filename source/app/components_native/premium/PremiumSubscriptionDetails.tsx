@@ -924,7 +924,7 @@ case 82:
             var14 = var21[var14];
             var14 = var20.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'accessibilityRole': 'link', 'style': null, 'onPress': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
+            var14 = {'accessibilityRole': 'link', 'style': null, 'onPress': null, 'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var18 = var18.cancelLink;
             var14['style'] = var18;
             var17 = function onPress() {

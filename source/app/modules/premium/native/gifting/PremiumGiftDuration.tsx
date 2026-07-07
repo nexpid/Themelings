@@ -150,7 +150,7 @@ case 13:
             var23 = var31[var16];
             var23 = var27.bind(var4)(var23);
             var24 = var23.Text;
-            var23 = {'variant': 'text-md/bold', 'color': 'always-white'};
+            var23 = {'variant': 'text-md/bold', 'color': 'text-overlay-light'};
             var26 = 12;
             var28 = var31[var26];
             var28 = var27.bind(var4)(var28);

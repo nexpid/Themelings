@@ -32,7 +32,7 @@ case 0:
             var14 = 'mobile-text-heading-primary';
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var14 = 'always-white';
+            var14 = 'text-overlay-light';
 case 2:
             var23 = _closure1_slot0;
             var20 = _closure1_slot2;

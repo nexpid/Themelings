@@ -747,7 +747,7 @@ case 24:
             var14 = var19.title;
             var13['style'] = var14;
             var16 = var1 == var23;
-            var21 = 'always-white';
+            var21 = 'text-overlay-light';
             var14 = var21;
             if(!var16) { _fun0001_ip = 26; continue _fun0001 }
 case 27:

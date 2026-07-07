@@ -608,7 +608,7 @@ case 24:
                 var15 = var15.duration;
                 var9['style'] = var15;
                 var9['variant'] = var13;
-                var13 = 'always-white';
+                var13 = 'text-overlay-light';
                 if(!var14) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
                 var13 = 'text-feedback-critical';

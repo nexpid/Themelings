@@ -81,7 +81,7 @@ case 0:
             var1 = var1.ThermalStates;
             var1 = var1.UNHANDLED;
             var10 = '';
-            var11 = 'always-white';
+            var11 = 'text-overlay-light';
             if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = _closure1_slot0;
@@ -161,7 +161,7 @@ case 2:
             var7 = var13[var8];
             var7 = var9.bind(var4)(var7);
             var14 = var7.Text;
-            var7 = {'variant': 'text-md/normal', 'color': 'always-white'};
+            var7 = {'variant': 'text-md/normal', 'color': 'text-overlay-light'};
             var12 = 'text-md/normal';
             var15 = ['thermal state:', ' '];
             var7['children'] = var15;

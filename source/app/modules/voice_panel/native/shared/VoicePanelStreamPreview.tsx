@@ -347,7 +347,7 @@ case 21:
             var13 = var19[var13];
             var13 = var18.bind(var4)(var13);
             var14 = var13.Text;
-            var13 = {'variant': 'text-sm/semibold', 'color': 'always-white'};
+            var13 = {'variant': 'text-sm/semibold', 'color': 'text-overlay-light'};
             var15 = var15.ownStreamText;
             var13['style'] = var15;
             var15 = 15;

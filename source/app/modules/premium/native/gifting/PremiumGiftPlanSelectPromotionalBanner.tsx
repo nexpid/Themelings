@@ -197,7 +197,7 @@ case 10:
             var11 = var24[var12];
             var11 = var20.bind(var4)(var11);
             var17 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-md/bold', 'color': 'white'};
+            var11 = {'style': null, 'variant': 'text-md/bold', 'color': 'text-overlay-light'};
             var19 = var16.heading;
             var11['style'] = var19;
             var19 = 10;
@@ -217,7 +217,7 @@ case 10:
             var12 = var24[var12];
             var12 = var20.bind(var4)(var12);
             var17 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-md/medium', 'color': 'white'};
+            var12 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-overlay-light'};
             var21 = var16.subheading;
             var12['style'] = var21;
             var21 = var24[var19];

@@ -1471,7 +1471,7 @@ case 160:
                     var16 = var30[var16];
                     var16 = var29.bind(var10)(var16);
                     var17 = var16.Text;
-                    var16 = {'variant': 'text-xs/normal', 'color': 'always-white'};
+                    var16 = {'variant': 'text-xs/normal', 'color': 'text-overlay-light'};
                     var20 = 25;
                     var25 = var30[var20];
                     var25 = var29.bind(var10)(var25);

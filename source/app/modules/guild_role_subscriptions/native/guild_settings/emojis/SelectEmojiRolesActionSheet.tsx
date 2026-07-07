@@ -383,7 +383,7 @@ case 12:
                     var21 = var27[var21];
                     var21 = var26.bind(var1)(var21);
                     var22 = var21.Text;
-                    var21 = {'style': null, 'variant': 'text-xs/bold', 'color': 'always-white'};
+                    var21 = {'style': null, 'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
                     var23 = var23.archivedBadgeText;
                     var21['style'] = var23;
                     var23 = 12;

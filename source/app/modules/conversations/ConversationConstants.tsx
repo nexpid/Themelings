@@ -23,6 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 25;
     var3['FETCH_LIMIT'] = var2;
     var2 = 10;
+    var3['MOBILE_FETCH_LIMIT'] = var2;
     var3['MIN_CONVERSATION_FETCH_BUFFER'] = var2;
     var3['MAX_CHANNELS_WITH_CONVERSATIONS'] = var2;
     var4 = 50;
@@ -34,5 +35,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CONVERSATION_FEEDBACK_RATINGS_CACHE_MAX'] = var2;
     var2 = 4;
     var3['PREVIEW_MESSAGE_COUNT'] = var2;
+    var2 = 3;
+    var3['MOBILE_PREVIEW_MESSAGE_COUNT'] = var2;
+    var2 = 3600000;
+    var3['CONVERSATION_HAS_MORE_EXPIRATION_MS'] = var2;
     return var1;
 })();

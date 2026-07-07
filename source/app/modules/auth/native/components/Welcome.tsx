@@ -314,7 +314,7 @@ case 11:
             var13 = var13[var23];
             var13 = var17.bind(var4)(var13);
             var21 = var13.Heading;
-            var13 = {'style': null, 'lineClamp': null, 'variant': 'display-md', 'color': 'always-white', 'maxFontSizeMultiplier': 1};
+            var13 = {'style': null, 'lineClamp': null, 'variant': 'display-md', 'color': 'text-overlay-light', 'maxFontSizeMultiplier': 1};
             var17 = var25.header;
             var13['style'] = var17;
             var17 = 2;
@@ -343,7 +343,7 @@ case 12:
             var17 = var17[var23];
             var17 = var20.bind(var4)(var17);
             var20 = var17.Text;
-            var17 = {'variant': 'text-md/medium', 'color': 'always-white', 'style': null, 'maxFontSizeMultiplier': 3};
+            var17 = {'variant': 'text-md/medium', 'color': 'text-overlay-light', 'style': null, 'maxFontSizeMultiplier': 3};
             var24 = var25.subHeader;
             var23 = new Array(2);
             var23[0] = var24;

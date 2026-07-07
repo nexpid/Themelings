@@ -399,7 +399,7 @@ case 18:
                 var7 = var10[var6];
                 var7 = var11.bind(var4)(var7);
                 var15 = var7.Text;
-                var7 = {'style': null, 'tabularNumbers': true, 'lineClamp': 1, 'color': 'white', 'variant': 'text-xs/medium'};
+                var7 = {'style': null, 'tabularNumbers': true, 'lineClamp': 1, 'color': 'text-overlay-light', 'variant': 'text-xs/medium'};
                 var19 = var14.centerText;
                 var17 = new Array(2);
                 var17[0] = var19;
@@ -519,7 +519,7 @@ case 18:
                 var6 = var10[var6];
                 var6 = var11.bind(var4)(var6);
                 var7 = var6.Text;
-                var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'white', 'tabularNumbers': true, 'lineClamp': 1};
+                var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-overlay-light', 'tabularNumbers': true, 'lineClamp': 1};
                 var14 = var14.centerText;
                 var6['style'] = var14;
                 var13 = function onLayout(arg1) {

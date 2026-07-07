@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var16[var9];
         var9 = var12.bind(var4)(var9);
         var10 = var9.Text;
-        var9 = {'variant': 'text-md/semibold', 'color': 'always-white'};
+        var9 = {'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
         var13 = var16[var11];
         var13 = var12.bind(var4)(var13);
         var14 = var13.intl;

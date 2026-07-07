@@ -528,7 +528,7 @@ case 48:
             var8 = var13[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'always-white'};
+            var8 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-overlay-light'};
             var12 = var12.notificationText;
             var8['style'] = var12;
             var8['children'] = var11;

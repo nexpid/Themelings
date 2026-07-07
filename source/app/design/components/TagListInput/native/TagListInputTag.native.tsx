@@ -279,7 +279,7 @@ case 24:
             var10 = 'text-default';
             if(!var11) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
-            var10 = 'always-white';
+            var10 = 'text-overlay-light';
 case 26:
             var6['color'] = var10;
             var9 = var9.text;

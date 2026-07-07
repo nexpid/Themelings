@@ -781,10 +781,10 @@ case 65:
                 var23 = var30.bind(var4)(var23);
                 var30 = var23.Text;
                 var23 = {'variant': 'text-xs/bold', 'color': null, 'allowFontScaling': false, 'style': null, 'lineClamp': 1};
-                var34 = 'white';
+                var34 = 'text-overlay-light';
                 if(!var32) { _fun0005_ip = 66; continue _fun0005 }
 case 67:
-                var34 = 'black';
+                var34 = 'text-overlay-dark';
 case 66:
                 var23['color'] = var34;
                 var34 = var29.badgeOverrideText;

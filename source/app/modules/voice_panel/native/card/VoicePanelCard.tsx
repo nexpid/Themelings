@@ -123,7 +123,7 @@ case 11:
             var10 = 'text-lg/semibold';
 case 10:
             var6['variant'] = var10;
-            var10 = 'always-white';
+            var10 = 'text-overlay-light';
             var6['color'] = var10;
             var14 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -153,7 +153,7 @@ case 13:
             var10 = var14[var10];
             var10 = var17.bind(var4)(var10);
             var12 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
+            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var16 = var16.selfStreamFocusedSubtitle;
             var10['style'] = var16;
             var16 = var14[var18];

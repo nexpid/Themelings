@@ -104,7 +104,7 @@ case 5:
             var6 = var13[var6];
             var6 = var12.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/semibold', 'color': 'always-white'};
+            var6 = {'variant': 'text-sm/semibold', 'color': 'text-overlay-light'};
             var10 = var13[var9];
             var10 = var12.bind(var5)(var10);
             var11 = var10.intl;

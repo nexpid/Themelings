@@ -204,10 +204,10 @@ case 17:
             var5['style'] = var9;
             var9 = 'text-xs/bold';
             var5['variant'] = var9;
-            var9 = 'always-white';
+            var9 = 'text-overlay-light';
             if(!var10) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
-            var9 = 'black';
+            var9 = 'text-overlay-dark';
 case 26:
             var5['color'] = var9;
             var5['children'] = var8;
@@ -1327,8 +1327,8 @@ case 121:
 case 31:
                     var3 = _closure1_slot18;
                     var3 = var3.TIER_1;
-                    if(!(var3 !== var5)) { _fun0011_ip = 124; continue _fun0011 }
-case 125:
+                    if(!(var3 !== var5)) { _fun0011_ip = 26; continue _fun0011 }
+case 124:
                     var3 = _closure1_slot18;
                     var3 = var3.TIER_2;
                     if(!(var3 !== var5)) { _fun0011_ip = 17; continue _fun0011 }
@@ -1345,19 +1345,19 @@ case 17:
                     var3 = var5.bind(var6)(var3);
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    if(var3) { _fun0011_ip = 126; continue _fun0011 }
-case 127:
+                    if(var3) { _fun0011_ip = 125; continue _fun0011 }
+case 126:
                     var3 = 55;
                     var3 = var7[var3];
                     var3 = var6.bind(var4)(var3);
-                    _fun0011_ip = 26; continue _fun0011;
-case 126:
+                    _fun0011_ip = 127; continue _fun0011;
+case 125:
                     var5 = 54;
                     var5 = var7[var5];
                     var3 = var6.bind(var4)(var5);
-case 26:
+case 127:
                     return var3;
-case 124:
+case 26:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var3 = 49;
@@ -1426,7 +1426,7 @@ case 31:
                     var2 = _closure1_slot18;
                     var2 = var2.TIER_1;
                     if(!(var2 !== var3)) { _fun0012_ip = 133; continue _fun0012 }
-case 125:
+case 124:
                     var2 = _closure1_slot18;
                     var2 = var2.TIER_2;
                     if(!(var2 !== var3)) { _fun0012_ip = 17; continue _fun0012 }
@@ -2146,7 +2146,7 @@ case 139:
                             return var2;
 case 170:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                            if(var7) { _fun0017_ip = 124; continue _fun0017 }
+                            if(var7) { _fun0017_ip = 26; continue _fun0017 }
 case 171:
                             if(!(var6 != var2)) { _fun0017_ip = 172; continue _fun0017 }
 case 168:
@@ -2157,7 +2157,7 @@ case 14:
                             return var4;
 case 172:
                             return var3;
-case 124:
+case 26:
                             return var2;
 case 166:
                             return var1;

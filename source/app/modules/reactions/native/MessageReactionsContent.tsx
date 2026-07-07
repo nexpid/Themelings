@@ -1259,7 +1259,7 @@ case 80:
             var9[0] = var11;
             var12 = _closure1_slot16;
             var11 = _closure1_slot18;
-            var10 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'white'};
+            var10 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-overlay-light'};
             var10['style'] = var13;
             var13 = 33;
             var14 = var17[var13];

@@ -576,7 +576,7 @@ case 8:
             var1 = undefined;
             var5 = var6.bind(var1)(var5);
             var6 = var5.Text;
-            var5 = {'variant': 'text-sm/normal', 'color': 'white'};
+            var5 = {'variant': 'text-sm/normal', 'color': 'text-overlay-light'};
             var8 = arg1;
             var5['children'] = var8;
             var5 = var7.bind(var1)(var6, var5);

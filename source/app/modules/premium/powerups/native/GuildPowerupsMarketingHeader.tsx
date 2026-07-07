@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = undefined;
         var1 = var2.bind(var3)(var1);
         var2 = var1.Text;
-        var1 = {'color': 'always-white', 'variant': 'text-sm/semibold'};
+        var1 = {'color': 'text-overlay-light', 'variant': 'text-sm/semibold'};
         var5 = var5.title;
         var1['children'] = var5;
         var1 = var4.bind(var3)(var2, var1);

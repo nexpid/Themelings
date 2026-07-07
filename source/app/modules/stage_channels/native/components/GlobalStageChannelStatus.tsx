@@ -399,7 +399,7 @@ case 33:
             var11 = var16[var11];
             var11 = var12.bind(var5)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-xs/medium', 'color': 'white'};
+            var11 = {'variant': 'text-xs/medium', 'color': 'text-overlay-light'};
             var16 = _closure1_slot13;
             var16 = var16.bind(var5)(var19, var17);
             var11['children'] = var16;

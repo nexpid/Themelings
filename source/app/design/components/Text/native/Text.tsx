@@ -192,9 +192,6 @@ case 0:
             var4 = undefined;
             if(!(var5 !== var7)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-            var5 = 'always-white';
-            if(!(var5 !== var7)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var6 = 5;
@@ -203,26 +200,15 @@ case 12:
             var6 = var6.colors;
             var5 = _closure1_slot6;
             var5 = var5[var7];
-            var5 = var6[var5];
-            _fun0002_ip = 13; continue _fun0002;
-case 11:
-            var7 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var6 = 5;
-            var6 = var8[var6];
-            var6 = var7.bind(var3)(var6);
-            var6 = var6.unsafe_rawColors;
-            var5 = var6.WHITE;
-case 13:
-            var4 = var5;
+            var4 = var6[var5];
 case 9:
             var2['color'] = var4;
             var4 = arg2;
             var3 = undefined;
-            if(!var4) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(!var4) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var3 = ['tabular-nums'];
-case 14:
+case 11:
             var2['fontVariant'] = var3;
             var1['text'] = var2;
             return var1;
@@ -242,20 +228,20 @@ case 0:
             var7 = var9.ellipsizeMode;
             var12 = var9.tabularNumbers;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(!(var12 === var4)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var12 = false;
-case 16:
+case 13:
             var1 = var9.animated;
-            if(!(var1 === var4)) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+            if(!(var1 === var4)) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var1 = false;
-case 18:
+case 15:
             var2 = var9.experimental_useNativeText;
-            if(!(var2 === var4)) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+            if(!(var2 === var4)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var2 = false;
-case 20:
+case 17:
             var5 = {'variant': 0, 'color': 0, 'style': 0, 'lineClamp': 0, 'ellipsizeMode': 0, 'tabularNumbers': 0, 'animated': 0, 'experimental_useNativeText': 0};
             var6 = null;
             var18 = var5;
@@ -268,29 +254,29 @@ case 20:
             var11 = _closure1_slot12;
             var15 = var6 != var14;
             var3 = 'text-default';
-            if(!var15) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+            if(!var15) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var3 = var14;
-case 22:
+case 19:
             var11 = var11.bind(var4)(var3, var12);
-            if(var2) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-            if(var1) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
-            var3 = _closure1_slot3;
-            _fun0003_ip = 28; continue _fun0003;
-case 26:
-            var3 = _closure1_slot5;
-case 28:
-            _fun0003_ip = 29; continue _fun0003;
+            if(var2) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
+            if(var1) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
+            var3 = _closure1_slot3;
+            _fun0003_ip = 25; continue _fun0003;
+case 23:
+            var3 = _closure1_slot5;
+case 25:
+            _fun0003_ip = 26; continue _fun0003;
+case 21:
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
             var1 = 9;
             var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.NativeText;
-case 29:
+case 26:
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
             var1 = 10;
@@ -312,10 +298,10 @@ case 29:
             var1['numberOfLines'] = var8;
             var8 = var6 != var7;
             var6 = 'tail';
-            if(!var8) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+            if(!var8) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var6 = var7;
-case 30:
+case 27:
             var1['ellipsizeMode'] = var6;
             var6 = true;
             var1['allowFontScaling'] = var6;

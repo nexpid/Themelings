@@ -1205,7 +1205,7 @@ case 155:
                     var5['autoInitializeNativeSdk'] = var9;
                     var9 = _closure1_slot17;
                     var5['beforeSend'] = var9;
-                    var9 = '5927';
+                    var9 = '5935';
                     var5['dist'] = var9;
                     var5['dsn'] = var11;
                     var5['environment'] = var3;
@@ -1215,7 +1215,7 @@ case 155:
                     var5['sampleRate'] = var3;
                     var3 = _closure1_slot11;
                     var5['ignoreErrors'] = var3;
-                    var3 = 'discord_android@338.0.0-2+338200';
+                    var3 = 'discord_android@338.1.0-2+338201';
                     var5['release'] = var3;
                     var11 = _closure1_slot7;
                     var3 = new Array(1);

@@ -452,7 +452,7 @@ case 15:
             var6 = var16[var6];
             var6 = var8.bind(var4)(var6);
             var8 = var6.Text;
-            var6 = {'lineClamp': 1, 'animated': true, 'style': null, 'variant': 'heading-lg/bold', 'color': 'white'};
+            var6 = {'lineClamp': 1, 'animated': true, 'style': null, 'variant': 'heading-lg/bold', 'color': 'text-overlay-light'};
             var18 = var10.appSmallName;
             var16 = new Array(2);
             var16[0] = var18;

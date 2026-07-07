@@ -1886,8 +1886,8 @@ case 94:
             var12 = var19[var12];
             var12 = var15.bind(var4)(var12);
             var15 = var12.Text;
-            var12 = {'variant': 'heading-sm/semibold', 'color': 'always-white', 'lineClamp': 1, 'style': null, 'ellipsizeMode': 'tail'};
-            var20 = 'always-white';
+            var12 = {'variant': 'heading-sm/semibold', 'color': 'text-overlay-light', 'lineClamp': 1, 'style': null, 'ellipsizeMode': 'tail'};
+            var20 = 'text-overlay-light';
             var24 = var17.floatingText;
             var19 = new Array(2);
             var19[0] = var24;

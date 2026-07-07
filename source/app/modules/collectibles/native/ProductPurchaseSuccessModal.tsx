@@ -1396,7 +1396,7 @@ case 78:
             var34 = var40[var35];
             var34 = var39.bind(var4)(var34);
             var36 = var34.Text;
-            var34 = {'variant': 'heading-xl/bold', 'color': 'white'};
+            var34 = {'variant': 'heading-xl/bold', 'color': 'text-overlay-light'};
             var38 = var9.title;
             var34['style'] = var38;
             var44 = 13;
@@ -1420,7 +1420,7 @@ case 78:
             var35 = var40[var35];
             var35 = var39.bind(var4)(var35);
             var36 = var35.Text;
-            var35 = {'variant': 'text-md/medium', 'color': 'white'};
+            var35 = {'variant': 'text-md/medium', 'color': 'text-overlay-light'};
             var38 = var9.title;
             var35['style'] = var38;
             var38 = 44;

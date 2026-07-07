@@ -386,7 +386,7 @@ case 10:
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-md/semibold', 'color': 'white'};
+            var9 = {'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
             var12 = var12.bannerText;
             var9['style'] = var12;
             var9['children'] = var11;

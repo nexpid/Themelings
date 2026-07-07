@@ -1135,7 +1135,7 @@ case 56:
             var41 = 'heading-xl/extrabold';
 case 55:
             var37['variant'] = var41;
-            var41 = 'always-white';
+            var41 = 'text-overlay-light';
             var37['color'] = var41;
             if(!(var12 == var16)) { _fun0002_ip = 57; continue _fun0002 }
 case 58:
@@ -1180,7 +1180,7 @@ case 59:
             var34 = var39[var34];
             var34 = var46.bind(var5)(var34);
             var37 = var34.Text;
-            var34 = {'style': null, 'variant': 'heading-sm/medium', 'color': 'always-white'};
+            var34 = {'style': null, 'variant': 'heading-sm/medium', 'color': 'text-overlay-light'};
             var41 = var8.description;
             var34['style'] = var41;
             var41 = var39[var47];

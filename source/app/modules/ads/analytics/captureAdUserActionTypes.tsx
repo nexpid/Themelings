@@ -14,6 +14,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['END_CONTENT_LOAD'] = var1;
     var1 = 'click_internal';
     var2['CLICK_INTERNAL'] = var1;
+    var1 = 'click_external_advertiser_cta';
+    var2['CLICK_EXTERNAL_ADVERTISER_CTA'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

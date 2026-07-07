@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var6];
         var5 = var7.bind(var4)(var5);
         var12 = var5.Text;
-        var5 = {'style': null, 'variant': 'text-xs/bold', 'color': 'always-white'};
+        var5 = {'style': null, 'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
         var15 = var10.cardNumber;
         var5['style'] = var15;
         var5['children'] = var14;

@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var14[var6];
         var6 = var13.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'white'};
+        var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
         var10 = var10.text;
         var6['style'] = var10;
         var10 = 7;

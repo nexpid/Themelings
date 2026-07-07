@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var12[var5];
         var5 = var7.bind(var4)(var5);
         var7 = var5.Text;
-        var5 = {'variant': 'heading-md/extrabold', 'color': 'always-white'};
+        var5 = {'variant': 'heading-md/extrabold', 'color': 'text-overlay-light'};
         var14 = var9.cardTitle;
         var5['style'] = var14;
         var5['children'] = var13;

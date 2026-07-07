@@ -266,10 +266,10 @@ case 19:
             var5 = var6.bind(var4)(var5);
             var6 = var5.Text;
             var5 = {};
-            var10 = 'white';
+            var10 = 'text-overlay-light';
             if(!var11) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var10 = 'black';
+            var10 = 'text-overlay-dark';
 case 20:
             var5['color'] = var10;
             var10 = 'text-xs/bold';

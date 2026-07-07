@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var5];
         var5 = var10.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-sm/bold', 'color': 'white'};
+        var5 = {'variant': 'text-sm/bold', 'color': 'text-overlay-light'};
         var7 = var7.newIconBadgeText;
         var5['style'] = var7;
         var7 = 7;
@@ -244,7 +244,7 @@ case 4:
             var7 = var14[var7];
             var7 = var13.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-xs/bold', 'color': 'white'};
+            var7 = {'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
             var10 = var10.newLockIconBadgeText;
             var7['style'] = var10;
             var10 = 7;
@@ -348,7 +348,7 @@ case 4:
             var7 = var14[var7];
             var7 = var13.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-xs/bold', 'color': 'white'};
+            var7 = {'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
             var10 = var10.newLockIconBadgeText;
             var7['style'] = var10;
             var10 = 7;
@@ -391,7 +391,7 @@ case 6:
         var5 = var11[var5];
         var5 = var10.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-xs/bold', 'color': 'black'};
+        var5 = {'variant': 'text-xs/bold', 'color': 'text-overlay-dark'};
         var7 = var7.limitedTimeBadgeText;
         var5['style'] = var7;
         var7 = 7;

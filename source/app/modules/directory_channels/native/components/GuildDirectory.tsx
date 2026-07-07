@@ -181,7 +181,7 @@ case 0:
             var14 = var18[var15];
             var14 = var16.bind(var4)(var14);
             var17 = var14.Text;
-            var14 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'always-white'};
+            var14 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'text-overlay-light'};
             var21 = var22.headerTitle;
             var14['style'] = var21;
             var21 = 17;
@@ -202,7 +202,7 @@ case 0:
             var15 = var18[var15];
             var15 = var16.bind(var4)(var15);
             var17 = var15.Text;
-            var15 = {'style': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
+            var15 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var23 = var22.headerDescription;
             var22 = new Array(1);
             var22[0] = var23;

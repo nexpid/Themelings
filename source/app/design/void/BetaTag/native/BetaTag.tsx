@@ -121,7 +121,7 @@ case 10:
             var7 = var3.Text;
             var3 = {};
             var3['variant'] = var10;
-            var12 = 'always-white';
+            var12 = 'text-overlay-light';
             var3['color'] = var12;
             var13 = var8.text;
             var12 = new Array(2);
@@ -176,7 +176,7 @@ case 9:
             var7 = var6.Text;
             var6 = {};
             var6['variant'] = var10;
-            var10 = 'always-white';
+            var10 = 'text-overlay-light';
             var6['color'] = var10;
             var10 = var8.text;
             var8 = new Array(2);

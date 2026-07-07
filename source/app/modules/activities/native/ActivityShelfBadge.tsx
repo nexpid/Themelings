@@ -139,7 +139,7 @@ case 7:
             var7 = var15[var7];
             var7 = var14.bind(var5)(var7);
             var10 = var7.Text;
-            var7 = {'variant': 'text-xs/semibold', 'style': null, 'color': 'always-white'};
+            var7 = {'variant': 'text-xs/semibold', 'style': null, 'color': 'text-overlay-light'};
             var11 = var8.badgeText;
             var7['style'] = var11;
             var11 = 9;
@@ -175,7 +175,7 @@ case 4:
             var6 = var12[var6];
             var6 = var11.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-xs/semibold', 'style': null, 'color': 'always-white'};
+            var6 = {'variant': 'text-xs/semibold', 'style': null, 'color': 'text-overlay-light'};
             var8 = var8.badgeText;
             var6['style'] = var8;
             var8 = 9;

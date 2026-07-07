@@ -23,7 +23,7 @@ case 0:
 case 3:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var4 = 6;
+            var4 = 7;
             var5 = var5[var4];
             var4 = undefined;
             var4 = var6.bind(var4)(var5);
@@ -36,13 +36,13 @@ case 3:
 case 2:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 7;
+            var1 = 6;
             var4 = var7[var1];
             var1 = undefined;
             var5 = var5.bind(var1)(var4);
             var4 = var5.forEach;
             var6 = _closure1_slot0;
-            var3 = 6;
+            var3 = 7;
             var3 = var7[var3];
             var3 = var6.bind(var1)(var3);
             var3 = var3.UserSettingsActionCreatorsByType;
@@ -89,7 +89,7 @@ case 6:
         var6 = var1.jitter;
         var4 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
@@ -108,7 +108,7 @@ case 6:
         var3 = var1.settingsType;
         var4 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
@@ -133,47 +133,48 @@ case 9:
 case 8:
             if(var1) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
-            var3 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var2 = 7;
-            var2 = var6[var2];
-            var5 = undefined;
-            var4 = var3.bind(var5)(var2);
-            var3 = var4.forEach;
-            var2 = _closure1_slot0;
-            var1 = 6;
-            var1 = var6[var1];
-            var1 = var2.bind(var5)(var1);
-            var2 = var1.UserSettingsActionCreatorsByType;
-            var1 = function(arg1, arg2) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            var2 = function persistPendingChanges() {
+                var4 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var1 = 6;
+                var3 = var6[var1];
+                var1 = undefined;
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.forEach;
+                var3 = _closure1_slot0;
+                var2 = 7;
+                var2 = var6[var2];
+                var2 = var3.bind(var1)(var2);
+                var3 = var2.UserSettingsActionCreatorsByType;
+                var2 = function(arg1, arg2) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var3 = arg1;
-                    var2 = _closure1_slot3;
-                    var1 = var2.getFullState;
-                    var4 = var1.bind(var2)();
-                    var1 = global;
-                    var5 = var1.Number;
-                    var1 = undefined;
-                    var2 = arg2;
-                    var2 = var5.bind(var1)(var2);
-                    var2 = var4[var2];
-                    var2 = var2.editInfo;
-                    var4 = var2.timeout;
-                    var2 = null;
-                    if(!(var2 != var4)) { _fun0004_ip = 12; continue _fun0004 }
+                        var3 = arg1;
+                        var2 = _closure1_slot3;
+                        var1 = var2.getFullState;
+                        var4 = var1.bind(var2)();
+                        var1 = global;
+                        var5 = var1.Number;
+                        var1 = undefined;
+                        var2 = arg2;
+                        var2 = var5.bind(var1)(var2);
+                        var2 = var4[var2];
+                        var2 = var2.editInfo;
+                        var4 = var2.timeout;
+                        var2 = null;
+                        if(!(var2 != var4)) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
-                    var5 = var3.logger;
-                    var4 = var5.log;
-                    var2 = 'Triggering persistChanges due to AppStateUpdate';
-                    var2 = var4.bind(var5)(var2);
-                    var2 = var3.persistChanges;
-                    var2 = var2.bind(var3)();
+                        var2 = var3.persistChanges;
+                        var2 = var2.bind(var3)();
 case 12:
-                    return var1;
-                }
+                        return var1;
+                    }
+                };
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
             };
-            var1 = var3.bind(var4)(var2, var1);
+            var1 = undefined;
+            var1 = var2.bind(var1)();
 case 10:
             var1 = undefined;
             return var1;

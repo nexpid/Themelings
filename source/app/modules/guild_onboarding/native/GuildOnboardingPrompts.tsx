@@ -1858,7 +1858,7 @@ case 70:
             var15 = var25[var24];
             var15 = var26.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'style': null, 'variant': 'text-md/semibold', 'color': 'always-white'};
+            var15 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
             var20 = var17.subtitle;
             var15['style'] = var20;
             var20 = 40;
@@ -1895,7 +1895,7 @@ case 74:
             var24 = var15[var24];
             var24 = var16.bind(var4)(var24);
             var25 = var24.Text;
-            var24 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/semibold', 'color': 'always-white'};
+            var24 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/semibold', 'color': 'text-overlay-light'};
             var27 = var17.onboardingTitle;
             var24['style'] = var27;
             var27 = var15[var20];

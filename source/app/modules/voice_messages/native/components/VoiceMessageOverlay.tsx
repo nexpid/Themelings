@@ -1564,7 +1564,7 @@ case 33:
 case 50:
             var4 = _closure1_slot16;
             var3 = _closure1_slot21;
-            var2 = {'style': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
+            var2 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var2['style'] = var8;
             if(var6) { _fun0008_ip = 51; continue _fun0008 }
 case 52:

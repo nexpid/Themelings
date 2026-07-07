@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['accountLinkAuthorizationStarted'] = var4;
-    var2 = function accountLinkAuthorizationCompleted(arg1) {
+    var4 = function accountLinkAuthorizationCompleted(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -56,6 +56,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['accountLinkAuthorizationCompleted'] = var2;
+    var3['accountLinkAuthorizationCompleted'] = var4;
+    var2 = function devtoolsSetGloballyDisabledAuthorizationFlows(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ACCOUNT_LINK_DEVTOOLS_SET_GLOBALLY_DISBLED_FLOWS';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['flows'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['devtoolsSetGloballyDisabledAuthorizationFlows'] = var2;
     return var1;
 })();

@@ -292,7 +292,7 @@ case 16:
             var8 = var8[var21];
             var8 = var14.bind(var4)(var8);
             var14 = var8.Text;
-            var8 = {'variant': 'text-md/bold', 'color': 'always-white'};
+            var8 = {'variant': 'text-md/bold', 'color': 'text-overlay-light'};
             var20 = var10 == var22;
             var23 = undefined;
             if(var20) { _fun0002_ip = 19; continue _fun0002 }
@@ -315,7 +315,7 @@ case 21:
             var14 = var14[var21];
             var14 = var19.bind(var4)(var14);
             var19 = var14.Text;
-            var14 = {'variant': 'text-md/normal', 'color': 'always-white'};
+            var14 = {'variant': 'text-md/normal', 'color': 'text-overlay-light'};
             var21 = global;
             var21 = var21.HermesInternal;
             var23 = var21.concat;
@@ -335,7 +335,7 @@ case 18:
             var6 = var23[var6];
             var6 = var24.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/normal', 'color': 'always-white'};
+            var6 = {'variant': 'text-md/normal', 'color': 'text-overlay-light'};
             var14 = var5.discountPriceText;
             var6['style'] = var14;
             var14 = 17;
@@ -521,7 +521,7 @@ case 39:
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'text-md/normal', 'color': 'always-white'};
+            var2 = {'variant': 'text-md/normal', 'color': 'text-overlay-light'};
             var8 = var5.discountPriceText;
             var2['style'] = var8;
             var2['children'] = var7;
@@ -535,7 +535,7 @@ case 12:
             var1 = var13[var1];
             var1 = var6.bind(var4)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-md/normal', 'color': 'always-white'};
+            var1 = {'variant': 'text-md/normal', 'color': 'text-overlay-light'};
             var5 = var5.discountPriceText;
             var1['style'] = var5;
             var5 = 17;
@@ -1174,7 +1174,7 @@ case 114:
             var18 = var25[var18];
             var18 = var28.bind(var4)(var18);
             var23 = var18.Text;
-            var18 = {'variant': 'text-md/semibold', 'color': 'always-white'};
+            var18 = {'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
             var26 = var25[var22];
             var26 = var28.bind(var4)(var26);
             var27 = var26.intl;

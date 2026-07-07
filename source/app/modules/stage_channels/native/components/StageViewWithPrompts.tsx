@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var13[var7];
         var14 = var11.bind(var4)(var14);
         var15 = var14.Text;
-        var14 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'always-white'};
+        var14 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'text-overlay-light'};
         var17 = var10.title;
         var14['style'] = var17;
         var14['children'] = var16;
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var13[var7];
         var7 = var11.bind(var4)(var7);
         var11 = var7.Text;
-        var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
+        var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
         var13 = var10.body;
         var7['style'] = var13;
         var7['children'] = var12;

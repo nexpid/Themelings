@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var18[var13];
         var13 = var12.bind(var4)(var13);
         var14 = var13.Text;
-        var13 = {'variant': 'text-sm/medium', 'color': 'always-white'};
+        var13 = {'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
         var13['children'] = var16;
         var13 = var3.bind(var4)(var14, var13);
         var10['children'] = var13;
@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var18[var9];
         var9 = var12.bind(var4)(var9);
         var10 = var9.TextWithIOSLinkWorkaround;
-        var9 = {'variant': 'text-sm/medium', 'color': 'always-white'};
+        var9 = {'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
         var11 = var11.helpdeskText;
         var9['style'] = var11;
         var11 = 9;

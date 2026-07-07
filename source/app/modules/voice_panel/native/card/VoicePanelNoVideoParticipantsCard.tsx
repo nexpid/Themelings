@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var15[var9];
         var5 = var14.bind(var4)(var5);
         var7 = var5.Text;
-        var5 = {'style': null, 'variant': 'text-md/semibold', 'color': 'always-white'};
+        var5 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
         var11 = var12.label;
         var5['style'] = var11;
         var11 = 9;

@@ -752,7 +752,7 @@ case 55:
             var10 = 'mobile-unreadbar-text-default';
             if(!var11) { _fun0002_ip = 57; continue _fun0002 }
 case 58:
-            var10 = 'always-white';
+            var10 = 'text-overlay-light';
 case 57:
             var6['color'] = var10;
             var10 = 1.5;

@@ -128,7 +128,7 @@ case 4:
             var6 = var13[var6];
             var6 = var12.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-xs/bold', 'color': 'white'};
+            var6 = {'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
             var9 = var9.exclusiveBadgeText;
             var6['style'] = var9;
             var9 = 8;

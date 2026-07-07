@@ -601,7 +601,7 @@ case 18:
             var23 = var31[var22];
             var23 = var33.bind(var4)(var23);
             var34 = var23.Text;
-            var23 = {'variant': 'heading-xl/semibold', 'color': 'white'};
+            var23 = {'variant': 'heading-xl/semibold', 'color': 'text-overlay-light'};
             var38 = var9.title;
             var23['style'] = var38;
             var23['children'] = var37;
@@ -612,7 +612,7 @@ case 18:
             var31 = var31[var22];
             var31 = var33.bind(var4)(var31);
             var33 = var31.Text;
-            var31 = {'variant': 'text-md/medium', 'color': 'white'};
+            var31 = {'variant': 'text-md/medium', 'color': 'text-overlay-light'};
             var36 = var9.description;
             var31['style'] = var36;
             var31['children'] = var35;

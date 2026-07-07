@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var14[var7];
         var6 = var13.bind(var4)(var6);
         var10 = var6.Text;
-        var6 = {'variant': 'text-md/semibold', 'color': 'white'};
+        var6 = {'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
         var11 = var9.title;
         var6['children'] = var11;
         var10 = var8.bind(var4)(var10, var6);
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var14[var7];
         var7 = var13.bind(var4)(var7);
         var10 = var7.Text;
-        var7 = {'variant': 'text-xs/medium', 'color': 'white'};
+        var7 = {'variant': 'text-xs/medium', 'color': 'text-overlay-light'};
         var11 = var9.subtitle;
         var7['children'] = var11;
         var7 = var8.bind(var4)(var10, var7);

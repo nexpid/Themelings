@@ -225,7 +225,7 @@ case 5:
 case 4:
             var8 = var10.pillDark;
 case 6:
-            var11 = 'white';
+            var11 = 'text-overlay-light';
             if(!var2) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
             var11 = 'control-overlay-primary-text-default';
@@ -313,7 +313,7 @@ case 10:
 case 9:
             var8 = var10.pillDark;
 case 11:
-            var11 = 'white';
+            var11 = 'text-overlay-light';
             if(!var1) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
             var11 = 'control-overlay-primary-text-default';
@@ -408,9 +408,9 @@ case 18:
 case 21:
             var5 = _closure1_slot7;
             if(var4) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
-            if(var2) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+case 12:
+            if(var2) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 13;
@@ -426,19 +426,19 @@ case 25:
             var7 = var5.bind(var6)(var9, var7);
             var2['children'] = var7;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0004_ip = 26; continue _fun0004;
-case 24:
+            _fun0004_ip = 25; continue _fun0004;
+case 23:
             var7 = _closure1_slot11;
             var4 = {};
             var4['tooltipPosition'] = var8;
             var2 = var5.bind(var6)(var7, var4);
-case 26:
-            _fun0004_ip = 27; continue _fun0004;
+case 25:
+            _fun0004_ip = 26; continue _fun0004;
 case 22:
             var4 = _closure1_slot12;
             var3 = {};
             var2 = var5.bind(var6)(var4, var3);
-case 27:
+case 26:
             var1 = var2;
 case 20:
             return var1;

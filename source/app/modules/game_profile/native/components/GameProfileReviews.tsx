@@ -448,7 +448,7 @@ case 26:
             var25 = var25[var11];
             var25 = var26.bind(var4)(var25);
             var26 = var25.Text;
-            var25 = {'variant': 'text-xs/bold', 'color': 'always-white'};
+            var25 = {'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
             var28 = global;
             var29 = var28.Math;
             var28 = var29.floor;

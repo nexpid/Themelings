@@ -580,7 +580,7 @@ case 24:
             var2 = var3.INTERACTIVE_TEXT_ACTIVE;
 case 26:
             _closure2_slot7 = var2;
-            var2 = 'white';
+            var2 = 'text-overlay-light';
             if(!var10) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
             var2 = 'interactive-text-active';

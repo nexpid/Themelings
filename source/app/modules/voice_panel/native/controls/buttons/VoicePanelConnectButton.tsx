@@ -321,7 +321,7 @@ case 15:
                 var3 = undefined;
                 var1 = var8.bind(var3)(var1);
                 var2 = var1.Text;
-                var1 = {'variant': 'text-sm/semibold', 'color': 'always-white'};
+                var1 = {'variant': 'text-sm/semibold', 'color': 'text-overlay-light'};
                 var5 = _closure2_slot0;
                 var5 = var5.connectText;
                 var1['style'] = var5;

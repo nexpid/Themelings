@@ -250,7 +250,7 @@ case 21:
             var15 = var25[var15];
             var15 = var20.bind(var4)(var15);
             var20 = var15.Heading;
-            var15 = {'style': null, 'variant': 'text-md/semibold', 'color': 'white'};
+            var15 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
             var25 = var10.title;
             var15['style'] = var25;
             var15['children'] = var23;

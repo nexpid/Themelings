@@ -176,7 +176,7 @@ case 9:
             var6 = var15[var6];
             var6 = var14.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'lineClamp': 1, 'style': null, 'variant': 'text-xxs/medium', 'color': 'always-white'};
+            var6 = {'lineClamp': 1, 'style': null, 'variant': 'text-xxs/medium', 'color': 'text-overlay-light'};
             var19 = 1;
             var9 = var9.participantsText;
             var6['style'] = var9;

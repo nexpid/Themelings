@@ -88,7 +88,7 @@ case 9:
         var14 = var5.bind(var1)(var4);
         var4 = var14.isYouNavFloating;
         var14 = var4.bind(var14)();
-        var4 = 'white';
+        var4 = 'text-overlay-light';
         if(!var14) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
         var4 = 'text-default';
@@ -346,8 +346,8 @@ case 32:
                 var5 = var5.bind(var8)();
                 var6 = !var5;
 case 8:
-                if(!var6) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+                if(!var6) { _fun0002_ip = 14; continue _fun0002 }
+case 33:
                 var9 = _closure1_slot6;
                 var8 = _closure1_slot5;
                 var5 = {};
@@ -374,12 +374,12 @@ case 34:
                 var12[1] = var15;
                 var5['children'] = var12;
                 var6 = var9.bind(var4)(var8, var5);
-case 33:
+case 14:
                 var5 = new Array(3);
                 var5[0] = var6;
                 var6 = var17;
-                if(!var7) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
+                if(!var7) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
                 var9 = _closure1_slot6;
                 var8 = _closure1_slot3;
                 var7 = {};
@@ -403,11 +403,11 @@ case 36:
                 var12[1] = var15;
                 var7['children'] = var12;
                 var6 = var9.bind(var4)(var8, var7);
-case 35:
+case 34:
                 var5[1] = var6;
                 var12 = null;
-                if(!(var12 == var11)) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+                if(!(var12 == var11)) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var6 = 3;
@@ -416,8 +416,8 @@ case 38:
                 var6 = var7.isYouNavFloating;
                 var7 = var6.bind(var7)();
                 var6 = null;
-                if(!var7) { _fun0002_ip = 20; continue _fun0002 }
-case 37:
+                if(!var7) { _fun0002_ip = 21; continue _fun0002 }
+case 36:
                 var9 = _closure1_slot4;
                 var15 = _closure1_slot0;
                 var16 = _closure1_slot2;
@@ -434,22 +434,22 @@ case 37:
                 var14 = var15.isYouNavFloating;
                 var15 = var14.bind(var15)();
                 var14 = 'text-sm/semibold';
-                if(!var15) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
-                var14 = 'text-xs/semibold';
+                if(!var15) { _fun0002_ip = 38; continue _fun0002 }
 case 39:
+                var14 = 'text-xs/semibold';
+case 38:
                 var7['variant'] = var14;
                 var13 = _closure1_slot9;
                 var7['color'] = var13;
                 var13 = 2;
                 var7['maxFontSizeMultiplier'] = var13;
-                if(!(var12 != var11)) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
-                var10 = var11;
+                if(!(var12 != var11)) { _fun0002_ip = 40; continue _fun0002 }
 case 41:
+                var10 = var11;
+case 40:
                 var7['children'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 20:
+case 21:
                 var5[2] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

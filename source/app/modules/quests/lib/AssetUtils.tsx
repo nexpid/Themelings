@@ -16,7 +16,7 @@ case 0:
             var2 = arg1;
             var1 = arg3;
             var2 = var6.bind(var4)(var2, var5, var1);
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot15;
             var5 = var1.bind(var4)(var5);
             var1 = {};
             var1['url'] = var2;
@@ -110,8 +110,41 @@ case 13:
         }
     };
     var _closure1_slot13 = var7;
-    var6 = function getMimetype(arg1) {
+    var1 = function resolveCdnUrl(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var5 = arg1;
+            var2 = var5.startsWith;
+            var1 = 'http://';
+            var2 = var2.bind(var5)(var1);
+            var1 = var5;
+            if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+            var3 = var5.startsWith;
+            var2 = 'https://';
+            var2 = var3.bind(var5)(var2);
+            var1 = var5;
+            if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 17:
+            var3 = var5.startsWith;
+            var2 = 'blob:';
+            var2 = var3.bind(var5)(var2);
+            var1 = var5;
+            if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 18:
+            var4 = _closure1_slot3;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = '';
+            var1 = var3.bind(var2)(var4, var5);
+case 15:
+            return var1;
+        }
+    };
+    var _closure1_slot14 = var1;
+    var6 = function getMimetype(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var8 = arg1;
             var2 = var8.startsWith;
@@ -127,139 +160,139 @@ case 0:
             var3 = var1.bind(var3)(var8);
             var1 = null;
             var5 = var1 == var3;
-            if(var6) { _fun0003_ip = 15; continue _fun0003 }
+            if(var6) { _fun0004_ip = 19; continue _fun0004 }
 case 2:
             var6 = undefined;
-            if(var5) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(var5) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
             var10 = var3.searchParams;
             var9 = var10.get;
             var7 = 'format';
             var9 = var9.bind(var10)(var7);
             var7 = var1 == var9;
             var6 = undefined;
-            if(var7) { _fun0003_ip = 16; continue _fun0003 }
-case 18:
+            if(var7) { _fun0004_ip = 20; continue _fun0004 }
+case 15:
             var7 = var9.toLowerCase;
             var6 = var7.bind(var9)();
-case 16:
-            if(!(var1 == var6)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
+            if(!(var1 == var6)) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var7 = _closure1_slot6;
             var2 = var7.exec;
             var8 = var2.bind(var7)(var8);
             var7 = var1 == var8;
             var2 = undefined;
-            if(var7) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+            if(var7) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var7 = 1;
             var8 = var8[var7];
             var7 = var1 == var8;
             var2 = undefined;
-            if(var7) { _fun0003_ip = 21; continue _fun0003 }
-case 23:
+            if(var7) { _fun0004_ip = 24; continue _fun0004 }
+case 26:
             var7 = var8.toLowerCase;
             var2 = var7.bind(var8)();
-case 21:
+case 24:
             var6 = var2;
-case 19:
+case 22:
             var2 = 'webm';
-            if(!(var2 !== var6)) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+            if(!(var2 !== var6)) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             var2 = 'mp4';
-            if(!(var2 !== var6)) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+            if(!(var2 !== var6)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
             var2 = 'webp';
-            if(!(var2 !== var6)) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
-            var2 = 'jpg';
-            if(!(var2 !== var6)) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
-            var2 = 'jpeg';
-            if(!(var2 !== var6)) { _fun0003_ip = 30; continue _fun0003 }
+            if(!(var2 !== var6)) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-            var2 = 'png';
-            if(!(var2 !== var6)) { _fun0003_ip = 33; continue _fun0003 }
+            var2 = 'jpg';
+            if(!(var2 !== var6)) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
+            var2 = 'jpeg';
+            if(!(var2 !== var6)) { _fun0004_ip = 33; continue _fun0004 }
+case 35:
+            var2 = 'png';
+            if(!(var2 !== var6)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var2 = 'gif';
-            if(!(var2 !== var6)) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+            if(!(var2 !== var6)) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var2 = 'svg';
-            if(!(var2 !== var6)) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
+            if(!(var2 !== var6)) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
             var2 = 'txt';
-            if(!(var2 !== var6)) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
+            if(!(var2 !== var6)) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
             var2 = 'vtt';
-            if(!(var2 !== var6)) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
-            var2 = 'ts';
-            if(!(var2 !== var6)) { _fun0003_ip = 43; continue _fun0003 }
-case 44:
-            var2 = 'm3u8';
-            if(!(var2 !== var6)) { _fun0003_ip = 45; continue _fun0003 }
-case 46:
-            return var1;
+            if(!(var2 !== var6)) { _fun0004_ip = 44; continue _fun0004 }
 case 45:
+            var2 = 'ts';
+            if(!(var2 !== var6)) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
+            var2 = 'm3u8';
+            if(!(var2 !== var6)) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
+            return var1;
+case 48:
             var2 = 'application/x-mpegURL';
             return var2;
-case 43:
+case 46:
             var2 = 'video/mp2t';
             return var2;
-case 41:
+case 44:
             var2 = 'text/vtt';
             return var2;
-case 39:
+case 42:
             var2 = 'text/plain';
             return var2;
-case 37:
+case 40:
             var2 = 'image/svg+xml';
             return var2;
-case 35:
+case 38:
             var2 = 'image/gif';
             return var2;
-case 33:
+case 36:
             var2 = 'image/png';
             return var2;
-case 30:
+case 33:
             var2 = 'image/jpeg';
             return var2;
-case 28:
+case 31:
             var2 = 'image/webp';
             return var2;
-case 26:
+case 29:
             var2 = 'video/mp4';
             return var2;
-case 24:
+case 27:
             var2 = 'video/webm';
             return var2;
-case 15:
+case 19:
             var2 = undefined;
-            if(var5) { _fun0003_ip = 47; continue _fun0003 }
-case 48:
+            if(var5) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
             var6 = var3.searchParams;
             var5 = var6.get;
             var3 = 'mimetype';
             var2 = var5.bind(var6)(var3);
-case 47:
+case 50:
             var5 = var1 != var2;
             var3 = undefined;
-            if(!var5) { _fun0003_ip = 49; continue _fun0003 }
-case 50:
+            if(!var5) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
             var3 = var2;
-case 49:
+case 52:
             var2 = var1 != var3;
             var1 = null;
-            if(!var2) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
+            if(!var2) { _fun0004_ip = 54; continue _fun0004 }
+case 55:
             var2 = global;
             var2 = var2.decodeURIComponent;
             var1 = var2.bind(var4)(var3);
-case 51:
+case 54:
             return var1;
         }
     };
-    var _closure1_slot14 = var6;
+    var _closure1_slot15 = var6;
     var1 = function safeMediaProxyDimension(arg1) {
         var1 = global;
         var4 = var1.Math;
@@ -272,22 +305,22 @@ case 51:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var5 = function getAssetUrlWithMediaProxyQueryParams(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var3 = arguments[1];
             var8 = undefined;
-            if(!(var3 === var8)) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
+            if(!(var3 === var8)) { _fun0005_ip = 56; continue _fun0005 }
+case 57:
             var3 = {};
-case 53:
+case 56:
             var4 = var1.startsWith;
             var2 = 'blob:';
             var2 = var4.bind(var1)(var2);
-            if(var2) { _fun0004_ip = 55; continue _fun0004 }
-case 56:
+            if(var2) { _fun0005_ip = 58; continue _fun0005 }
+case 59:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 11;
@@ -297,23 +330,23 @@ case 56:
             var4 = var2.bind(var4)(var1);
             var7 = null;
             var2 = var1;
-            if(!(var7 != var4)) { _fun0004_ip = 57; continue _fun0004 }
-case 58:
+            if(!(var7 != var4)) { _fun0005_ip = 60; continue _fun0005 }
+case 61:
             var6 = var3.format;
-            if(!(var7 != var6)) { _fun0004_ip = 59; continue _fun0004 }
-case 60:
+            if(!(var7 != var6)) { _fun0005_ip = 62; continue _fun0005 }
+case 63:
             var11 = var4.searchParams;
             var10 = var11.set;
             var9 = var3.format;
             var6 = 'format';
             var6 = var10.bind(var11)(var6, var9);
-case 59:
-            var6 = var3.width;
-            if(!(var7 != var6)) { _fun0004_ip = 61; continue _fun0004 }
 case 62:
+            var6 = var3.width;
+            if(!(var7 != var6)) { _fun0005_ip = 64; continue _fun0005 }
+case 65:
             var11 = var4.searchParams;
             var10 = var11.set;
-            var9 = _closure1_slot15;
+            var9 = _closure1_slot16;
             var6 = var3.width;
             var12 = var9.bind(var8)(var6);
             var6 = global;
@@ -323,13 +356,13 @@ case 62:
             var9 = var9.bind(var6)(var12);
             var6 = 'width';
             var6 = var10.bind(var11)(var6, var9);
-case 61:
-            var6 = var3.height;
-            if(!(var7 != var6)) { _fun0004_ip = 63; continue _fun0004 }
 case 64:
+            var6 = var3.height;
+            if(!(var7 != var6)) { _fun0005_ip = 66; continue _fun0005 }
+case 67:
             var7 = var4.searchParams;
             var6 = var7.set;
-            var5 = _closure1_slot15;
+            var5 = _closure1_slot16;
             var3 = var3.height;
             var8 = var5.bind(var8)(var3);
             var3 = global;
@@ -339,25 +372,25 @@ case 64:
             var5 = var5.bind(var3)(var8);
             var3 = 'height';
             var3 = var6.bind(var7)(var3, var5);
-case 63:
+case 66:
             var3 = var4.toString;
             var2 = var3.bind(var4)();
-case 57:
+case 60:
             return var2;
-case 55:
+case 58:
             return var1;
         }
     };
-    var _closure1_slot16 = var5;
+    var _closure1_slot17 = var5;
     var4 = function convertVideoToFirstFrameImageWithMediaProxy(arg1, arg2) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var5 = arg2;
             var3 = var1.startsWith;
             var2 = 'blob:';
             var2 = var3.bind(var1)(var2);
-            if(var2) { _fun0005_ip = 65; continue _fun0005 }
+            if(var2) { _fun0006_ip = 68; continue _fun0006 }
 case 5:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -370,18 +403,18 @@ case 5:
             var6 = null;
             var7 = var6 == var4;
             var2 = null;
-            if(var7) { _fun0005_ip = 66; continue _fun0005 }
-case 67:
+            if(var7) { _fun0006_ip = 69; continue _fun0006 }
+case 70:
             var11 = var4.searchParams;
             var9 = var11.set;
             var8 = 'format';
             var7 = 'webp';
             var7 = var9.bind(var11)(var8, var7);
-            if(!(var6 != var5)) { _fun0005_ip = 68; continue _fun0005 }
-case 69:
+            if(!(var6 != var5)) { _fun0006_ip = 71; continue _fun0006 }
+case 72:
             var12 = var4.searchParams;
             var11 = var12.set;
-            var9 = _closure1_slot15;
+            var9 = _closure1_slot16;
             var3 = var5.width;
             var7 = var9.bind(var10)(var3);
             var3 = global;
@@ -400,16 +433,16 @@ case 69:
             var5 = var3.bind(var8)(var5);
             var3 = 'height';
             var3 = var6.bind(var7)(var3, var5);
-case 68:
+case 71:
             var3 = var4.toString;
             var2 = var3.bind(var4)();
-case 66:
+case 69:
             return var2;
-case 65:
+case 68:
             return var1;
         }
     };
-    var _closure1_slot17 = var4;
+    var _closure1_slot18 = var4;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -578,7 +611,7 @@ case 65:
     var3['resolveAsset'] = var9;
     var3['OrbsValueTier'] = var8;
     var8 = function getQuestAsset(arg1, arg2, arg3, arg4, arg5) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var2 = arg1;
             var7 = arg2;
@@ -587,83 +620,83 @@ case 0:
             var11 = arg5;
             var1 = _closure1_slot8;
             var1 = var1.HERO;
-            if(!(var1 !== var7)) { _fun0006_ip = 70; continue _fun0006 }
-case 71:
+            if(!(var1 !== var7)) { _fun0007_ip = 73; continue _fun0007 }
+case 74:
             var1 = _closure1_slot8;
             var1 = var1.HERO_IMAGE;
-            if(!(var1 !== var7)) { _fun0006_ip = 72; continue _fun0006 }
-case 73:
+            if(!(var1 !== var7)) { _fun0007_ip = 75; continue _fun0007 }
+case 76:
             var1 = _closure1_slot8;
             var1 = var1.HERO_VIDEO;
-            if(!(var1 !== var7)) { _fun0006_ip = 74; continue _fun0006 }
-case 75:
+            if(!(var1 !== var7)) { _fun0007_ip = 77; continue _fun0007 }
+case 78:
             var1 = _closure1_slot8;
             var1 = var1.QUEST_BAR_HERO;
-            if(!(var1 !== var7)) { _fun0006_ip = 76; continue _fun0006 }
-case 77:
+            if(!(var1 !== var7)) { _fun0007_ip = 79; continue _fun0007 }
+case 80:
             var1 = _closure1_slot8;
             var1 = var1.QUEST_BAR_HERO_VIDEO;
-            if(!(var1 !== var7)) { _fun0006_ip = 78; continue _fun0006 }
-case 79:
+            if(!(var1 !== var7)) { _fun0007_ip = 81; continue _fun0007 }
+case 82:
             var1 = _closure1_slot8;
             var1 = var1.QUEST_BAR_HERO_IMAGE;
-            if(!(var1 !== var7)) { _fun0006_ip = 80; continue _fun0006 }
-case 81:
+            if(!(var1 !== var7)) { _fun0007_ip = 83; continue _fun0007 }
+case 84:
             var1 = _closure1_slot8;
             var1 = var1.REWARD;
-            if(!(var1 !== var7)) { _fun0006_ip = 82; continue _fun0006 }
-case 83:
+            if(!(var1 !== var7)) { _fun0007_ip = 85; continue _fun0007 }
+case 86:
             var1 = _closure1_slot8;
             var1 = var1.REWARD_IMAGE;
-            if(!(var1 !== var7)) { _fun0006_ip = 84; continue _fun0006 }
-case 85:
+            if(!(var1 !== var7)) { _fun0007_ip = 87; continue _fun0007 }
+case 88:
             var1 = _closure1_slot8;
             var1 = var1.GAME_TILE;
-            if(!(var1 !== var7)) { _fun0006_ip = 86; continue _fun0006 }
-case 87:
+            if(!(var1 !== var7)) { _fun0007_ip = 89; continue _fun0007 }
+case 90:
             var1 = _closure1_slot8;
             var1 = var1.LOGO_TYPE;
-            if(!(var1 !== var7)) { _fun0006_ip = 88; continue _fun0006 }
-case 89:
+            if(!(var1 !== var7)) { _fun0007_ip = 91; continue _fun0007 }
+case 92:
             var1 = _closure1_slot8;
             var1 = var1.COSPONSOR_LOGO_TYPE;
-            if(!(var1 !== var7)) { _fun0006_ip = 90; continue _fun0006 }
-case 91:
-            var1 = _closure1_slot8;
-            var1 = var1.VIDEO_PLAYER_VIDEO;
-            if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
-case 31:
-            var1 = _closure1_slot8;
-            var1 = var1.VIDEO_PLAYER_VIDEO_LOW_RES;
-            if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
-case 93:
-            var1 = _closure1_slot8;
-            var1 = var1.VIDEO_PLAYER_VIDEO_HLS;
-            if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
+            if(!(var1 !== var7)) { _fun0007_ip = 93; continue _fun0007 }
 case 94:
             var1 = _closure1_slot8;
+            var1 = var1.VIDEO_PLAYER_VIDEO;
+            if(!(var1 !== var7)) { _fun0007_ip = 95; continue _fun0007 }
+case 34:
+            var1 = _closure1_slot8;
+            var1 = var1.VIDEO_PLAYER_VIDEO_LOW_RES;
+            if(!(var1 !== var7)) { _fun0007_ip = 95; continue _fun0007 }
+case 96:
+            var1 = _closure1_slot8;
+            var1 = var1.VIDEO_PLAYER_VIDEO_HLS;
+            if(!(var1 !== var7)) { _fun0007_ip = 95; continue _fun0007 }
+case 97:
+            var1 = _closure1_slot8;
             var1 = var1.VIDEO_PLAYER_THUMBNAIL;
-            if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
-case 55:
+            if(!(var1 !== var7)) { _fun0007_ip = 95; continue _fun0007 }
+case 58:
             var1 = _closure1_slot8;
             var1 = var1.VIDEO_PLAYER_CAPTION;
-            if(!(var1 !== var7)) { _fun0006_ip = 92; continue _fun0006 }
-case 95:
+            if(!(var1 !== var7)) { _fun0007_ip = 95; continue _fun0007 }
+case 98:
             var1 = _closure1_slot8;
             var5 = var1.VIDEO_PLAYER_TRANSCRIPT;
             var9 = false;
             var6 = undefined;
             var1 = false;
-            if(!(var5 === var7)) { _fun0006_ip = 96; continue _fun0006 }
-case 92:
+            if(!(var5 === var7)) { _fun0007_ip = 99; continue _fun0007 }
+case 95:
             var10 = var2.config;
             var5 = 'taskConfigV2';
             var5 = var5 in var10;
-            if(var5) { _fun0006_ip = 97; continue _fun0006 }
-case 98:
+            if(var5) { _fun0007_ip = 100; continue _fun0007 }
+case 101:
             var5 = null;
             return var5;
-case 97:
+case 100:
             var5 = var2.config;
             var5 = var5.taskConfigV2;
             var10 = var5.tasks;
@@ -674,161 +707,161 @@ case 97:
             var14 = undefined;
             var5 = var12.bind(var14)(var5);
             var12 = var5.FirstPartyQuestTaskTypes;
-            if(var4) { _fun0006_ip = 99; continue _fun0006 }
-case 100:
+            if(var4) { _fun0007_ip = 102; continue _fun0007 }
+case 103:
             var5 = var12.WATCH_VIDEO;
-            _fun0006_ip = 101; continue _fun0006;
-case 99:
+            _fun0007_ip = 104; continue _fun0007;
+case 102:
             var5 = var12.WATCH_VIDEO_ON_MOBILE;
-case 101:
+case 104:
             var10 = var10[var5];
             var5 = _closure1_slot9;
             var7 = var5[var7];
             var5 = null;
             var12 = var5 == var10;
             var13 = undefined;
-            if(var12) { _fun0006_ip = 102; continue _fun0006 }
-case 103:
+            if(var12) { _fun0007_ip = 105; continue _fun0007 }
+case 106:
             var12 = var10.assets;
             var10 = var7.variant;
             var10 = var12[var10];
             var12 = var5 == var10;
             var13 = undefined;
-            if(var12) { _fun0006_ip = 102; continue _fun0006 }
-case 104:
+            if(var12) { _fun0007_ip = 105; continue _fun0007 }
+case 107:
             var7 = var7.property;
             var13 = var10[var7];
-case 102:
+case 105:
             var7 = var5 == var13;
             var9 = false;
             var1 = true;
             var6 = var13;
-            if(!var7) { _fun0006_ip = 96; continue _fun0006 }
-case 105:
+            if(!var7) { _fun0007_ip = 99; continue _fun0007 }
+case 108:
             return var5;
-case 90:
+case 93:
             var5 = var2.config;
             var7 = var5.cosponsorMetadata;
             var5 = null;
-            if(!(var5 != var7)) { _fun0006_ip = 106; continue _fun0006 }
-case 107:
+            if(!(var5 != var7)) { _fun0007_ip = 109; continue _fun0007 }
+case 110:
             var7 = 'dark';
-            if(!(var7 === var8)) { _fun0006_ip = 108; continue _fun0006 }
-case 109:
-            var7 = var2.config;
-            var7 = var7.cosponsorMetadata;
-            var7 = var7.logotypeDark;
-            if(!(var5 == var7)) { _fun0006_ip = 110; continue _fun0006 }
-case 108:
-            var7 = 'light';
-            if(!(var7 === var8)) { _fun0006_ip = 111; continue _fun0006 }
+            if(!(var7 === var8)) { _fun0007_ip = 111; continue _fun0007 }
 case 112:
             var7 = var2.config;
             var7 = var7.cosponsorMetadata;
-            var7 = var7.logotypeLight;
-            if(!(var5 == var7)) { _fun0006_ip = 113; continue _fun0006 }
+            var7 = var7.logotypeDark;
+            if(!(var5 == var7)) { _fun0007_ip = 113; continue _fun0007 }
 case 111:
+            var7 = 'light';
+            if(!(var7 === var8)) { _fun0007_ip = 114; continue _fun0007 }
+case 115:
+            var7 = var2.config;
+            var7 = var7.cosponsorMetadata;
+            var7 = var7.logotypeLight;
+            if(!(var5 == var7)) { _fun0007_ip = 116; continue _fun0007 }
+case 114:
             var7 = var2.config;
             var7 = var7.cosponsorMetadata;
             var6 = var7.logotype;
             var9 = true;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 113:
+            _fun0007_ip = 99; continue _fun0007;
+case 116:
             var7 = var2.config;
             var7 = var7.cosponsorMetadata;
             var6 = var7.logotypeLight;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 110:
+            _fun0007_ip = 99; continue _fun0007;
+case 113:
             var7 = var2.config;
             var7 = var7.cosponsorMetadata;
             var6 = var7.logotypeDark;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 106:
+            _fun0007_ip = 99; continue _fun0007;
+case 109:
             return var5;
-case 88:
+case 91:
             var5 = 'dark';
-            if(!(var5 === var8)) { _fun0006_ip = 114; continue _fun0006 }
-case 115:
+            if(!(var5 === var8)) { _fun0007_ip = 117; continue _fun0007 }
+case 118:
             var5 = var2.config;
             var5 = var5.assets;
             var7 = var5.logotypeDark;
             var5 = null;
-            if(!(var5 == var7)) { _fun0006_ip = 116; continue _fun0006 }
-case 114:
+            if(!(var5 == var7)) { _fun0007_ip = 119; continue _fun0007 }
+case 117:
             var5 = 'light';
-            if(!(var5 === var8)) { _fun0006_ip = 117; continue _fun0006 }
-case 118:
+            if(!(var5 === var8)) { _fun0007_ip = 120; continue _fun0007 }
+case 121:
             var5 = var2.config;
             var5 = var5.assets;
             var7 = var5.logotypeLight;
             var5 = null;
-            if(!(var5 == var7)) { _fun0006_ip = 119; continue _fun0006 }
-case 117:
+            if(!(var5 == var7)) { _fun0007_ip = 122; continue _fun0007 }
+case 120:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.logotype;
             var9 = true;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 119:
+            _fun0007_ip = 99; continue _fun0007;
+case 122:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.logotypeLight;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 116:
+            _fun0007_ip = 99; continue _fun0007;
+case 119:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.logotypeDark;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 86:
+            _fun0007_ip = 99; continue _fun0007;
+case 89:
             var5 = 'dark';
-            if(!(var5 === var8)) { _fun0006_ip = 120; continue _fun0006 }
-case 121:
+            if(!(var5 === var8)) { _fun0007_ip = 123; continue _fun0007 }
+case 124:
             var5 = var2.config;
             var5 = var5.assets;
             var7 = var5.gameTileDark;
             var5 = null;
-            if(!(var5 == var7)) { _fun0006_ip = 122; continue _fun0006 }
-case 120:
+            if(!(var5 == var7)) { _fun0007_ip = 125; continue _fun0007 }
+case 123:
             var5 = 'light';
-            if(!(var5 === var8)) { _fun0006_ip = 123; continue _fun0006 }
-case 124:
+            if(!(var5 === var8)) { _fun0007_ip = 126; continue _fun0007 }
+case 127:
             var5 = var2.config;
             var5 = var5.assets;
             var7 = var5.gameTileLight;
             var5 = null;
-            if(!(var5 == var7)) { _fun0006_ip = 125; continue _fun0006 }
-case 123:
+            if(!(var5 == var7)) { _fun0007_ip = 128; continue _fun0007 }
+case 126:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.gameTile;
             var9 = true;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 125:
+            _fun0007_ip = 99; continue _fun0007;
+case 128:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.gameTileLight;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 122:
+            _fun0007_ip = 99; continue _fun0007;
+case 125:
             var5 = var2.config;
             var5 = var5.assets;
             var6 = var5.gameTileDark;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 84:
+            _fun0007_ip = 99; continue _fun0007;
+case 87:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var5 = 6;
@@ -843,16 +876,16 @@ case 84:
             var7 = var13.bind(var12)(var7);
             var7 = var7.QuestRewardTypes;
             var7 = var7.VIRTUAL_CURRENCY;
-            if(!(var10 !== var7)) { _fun0006_ip = 126; continue _fun0006 }
-case 127:
+            if(!(var10 !== var7)) { _fun0007_ip = 129; continue _fun0007 }
+case 130:
             var6 = var5.asset;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 126:
+            _fun0007_ip = 99; continue _fun0007;
+case 129:
             var5 = null;
             return var5;
-case 82:
+case 85:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var5 = 6;
@@ -867,8 +900,8 @@ case 82:
             var5 = var13.bind(var12)(var5);
             var5 = var5.QuestRewardTypes;
             var5 = var5.VIRTUAL_CURRENCY;
-            if(!(var10 !== var5)) { _fun0006_ip = 128; continue _fun0006 }
-case 129:
+            if(!(var10 !== var5)) { _fun0007_ip = 131; continue _fun0007 }
+case 132:
             var5 = _closure1_slot12;
             var10 = var7.assetVideo;
             var7 = var7.asset;
@@ -876,20 +909,20 @@ case 129:
             var9 = false;
             var6 = var7;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 128:
+            _fun0007_ip = 99; continue _fun0007;
+case 131:
             var5 = null;
             var10 = var5 != var11;
             var7 = undefined;
-            if(!var10) { _fun0006_ip = 130; continue _fun0006 }
-case 131:
+            if(!var10) { _fun0007_ip = 133; continue _fun0007 }
+case 134:
             var10 = _closure1_slot10;
             var7 = var10[var11];
-case 130:
-            if(!(var5 == var7)) { _fun0006_ip = 132; continue _fun0006 }
 case 133:
-            if(var4) { _fun0006_ip = 134; continue _fun0006 }
-case 135:
+            if(!(var5 == var7)) { _fun0007_ip = 135; continue _fun0007 }
+case 136:
+            if(var4) { _fun0007_ip = 137; continue _fun0007 }
+case 138:
             var4 = {'url': null, 'mimetype': 'video/webm', 'isAnimated': true};
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -897,8 +930,8 @@ case 135:
             var5 = var11[var5];
             var5 = var10.bind(var12)(var5);
             var4['url'] = var5;
-            _fun0006_ip = 136; continue _fun0006;
-case 134:
+            _fun0007_ip = 139; continue _fun0007;
+case 137:
             var5 = {'url': null, 'mimetype': 'video/mp4', 'isAnimated': true};
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -907,22 +940,22 @@ case 134:
             var10 = var11.bind(var12)(var10);
             var5['url'] = var10;
             var4 = var5;
-case 136:
-            _fun0006_ip = 137; continue _fun0006;
-case 132:
+case 139:
+            _fun0007_ip = 140; continue _fun0007;
+case 135:
             var5 = {'url': null, 'mimetype': 'video/webm', 'isAnimated': true};
             var5['url'] = var7;
             var4 = var5;
-case 137:
+case 140:
             return var4;
-case 80:
+case 83:
             var4 = var2.config;
             var4 = var4.assets;
             var6 = var4.questBarHero;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 78:
+            _fun0007_ip = 99; continue _fun0007;
+case 81:
             var4 = var2.config;
             var4 = var4.assets;
             var10 = var4.questBarHeroVideo;
@@ -931,10 +964,10 @@ case 78:
             var9 = false;
             var6 = var10;
             var1 = false;
-            if(!var5) { _fun0006_ip = 96; continue _fun0006 }
-case 138:
+            if(!var5) { _fun0007_ip = 99; continue _fun0007 }
+case 141:
             return var4;
-case 76:
+case 79:
             var7 = _closure1_slot12;
             var4 = var2.config;
             var4 = var4.assets;
@@ -947,8 +980,8 @@ case 76:
             var9 = false;
             var6 = var5;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 74:
+            _fun0007_ip = 99; continue _fun0007;
+case 77:
             var4 = var2.config;
             var4 = var4.assets;
             var10 = var4.heroVideo;
@@ -957,17 +990,17 @@ case 74:
             var9 = false;
             var6 = var10;
             var1 = false;
-            if(!var5) { _fun0006_ip = 96; continue _fun0006 }
-case 139:
+            if(!var5) { _fun0007_ip = 99; continue _fun0007 }
+case 142:
             return var4;
-case 72:
+case 75:
             var4 = var2.config;
             var4 = var4.assets;
             var6 = var4.hero;
             var9 = false;
             var1 = false;
-            _fun0006_ip = 96; continue _fun0006;
-case 70:
+            _fun0007_ip = 99; continue _fun0007;
+case 73:
             var7 = _closure1_slot12;
             var4 = var2.config;
             var4 = var4.assets;
@@ -980,74 +1013,60 @@ case 70:
             var9 = false;
             var6 = var5;
             var1 = false;
-case 96:
+case 99:
             var5 = _closure1_slot11;
             var4 = var2.id;
             var3 = {};
             var2 = undefined;
             var7 = undefined;
-            if(!var9) { _fun0006_ip = 140; continue _fun0006 }
-case 141:
+            if(!var9) { _fun0007_ip = 143; continue _fun0007 }
+case 144:
             var7 = var8;
-case 140:
+case 143:
             var3['theme'] = var7;
             var2 = var5.bind(var2)(var4, var6, var3);
-            if(!var1) { _fun0006_ip = 142; continue _fun0006 }
-case 143:
+            if(!var1) { _fun0007_ip = 145; continue _fun0007 }
+case 146:
             var3 = var2.mimetype;
             var1 = null;
             var3 = var1 == var3;
-            if(var3) { _fun0006_ip = 144; continue _fun0006 }
-case 142:
+            if(var3) { _fun0007_ip = 147; continue _fun0007 }
+case 145:
             var1 = var2;
-case 144:
+case 147:
             return var1;
         }
     };
     var3['getQuestAsset'] = var8;
     var3['buildUrl'] = var7;
-    var7 = function resolveAdCreativeCdnUrl(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+    var7 = function resolveOptionalAdCreativeCdnUrl(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var5 = arg1;
+            var3 = arg1;
             var1 = null;
-            if(!(var1 == var5)) { _fun0007_ip = 145; continue _fun0007 }
-case 146:
+            if(!(var1 == var3)) { _fun0008_ip = 148; continue _fun0008 }
+case 149:
             var1 = undefined;
             return var1;
-case 145:
-            var2 = var5.startsWith;
-            var1 = 'http://';
-            var2 = var2.bind(var5)(var1);
-            var1 = var5;
-            if(var2) { _fun0007_ip = 16; continue _fun0007 }
-case 147:
-            var3 = var5.startsWith;
-            var2 = 'https://';
-            var2 = var3.bind(var5)(var2);
-            var1 = var5;
-            if(var2) { _fun0007_ip = 16; continue _fun0007 }
 case 148:
-            var3 = var5.startsWith;
-            var2 = 'blob:';
-            var2 = var3.bind(var5)(var2);
-            var1 = var5;
-            if(var2) { _fun0007_ip = 16; continue _fun0007 }
-case 149:
-            var4 = _closure1_slot3;
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var3 = var2.concat;
-            var2 = '';
-            var1 = var3.bind(var2)(var4, var5);
-case 16:
+            var2 = _closure1_slot14;
+            var1 = undefined;
+            var1 = var2.bind(var1)(var3);
             return var1;
         }
+    };
+    var3['resolveOptionalAdCreativeCdnUrl'] = var7;
+    var7 = function resolveAdCreativeCdnUrl(arg1) {
+        var3 = _closure1_slot14;
+        var2 = undefined;
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
     var3['resolveAdCreativeCdnUrl'] = var7;
     var3['getMimetype'] = var6;
     var6 = function getDevicePixelScaledDimensions(arg1, arg2) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var4 = arg1;
             var3 = arg2;
@@ -1059,14 +1078,14 @@ case 0:
             var1 = var5.bind(var2)(var1);
             var2 = var1.bind(var2)();
             var1 = 3;
-            if(!(!(var2 < var1))) { _fun0008_ip = 150; continue _fun0008 }
+            if(!(!(var2 < var1))) { _fun0009_ip = 150; continue _fun0009 }
 case 151:
             var1 = {};
             var5 = var4 * var2;
             var1['width'] = var5;
             var2 = var3 * var2;
             var1['height'] = var2;
-            _fun0008_ip = 152; continue _fun0008;
+            _fun0009_ip = 152; continue _fun0009;
 case 150:
             var2 = {};
             var2['width'] = var4;
@@ -1090,7 +1109,7 @@ case 152:
         var3 = undefined;
         var2 = var5.bind(var3)(var2);
         var5 = var2.bind(var3)();
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var1 = {};
         var7 = var7 * var5;
         var1['width'] = var7;
@@ -1115,7 +1134,7 @@ case 152:
         var3 = undefined;
         var2 = var5.bind(var3)(var2);
         var5 = var2.bind(var3)();
-        var2 = _closure1_slot17;
+        var2 = _closure1_slot18;
         var1 = {};
         var7 = var7 * var5;
         var1['width'] = var7;

@@ -78,7 +78,7 @@ case 0:
             var2 = var19[var6];
             var5 = var21.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function V() {
+            var2 = function v() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -204,7 +204,7 @@ case 6:
             var2 = var19[var6];
             var3 = var21.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function b() {
+            var1 = function V() {
                 var1 = {};
                 var3 = _closure2_slot2;
                 var2 = var3.get;
@@ -284,7 +284,7 @@ case 6:
             var19 = var19[var23];
             var19 = var21.bind(var4)(var19);
             var21 = var19.Text;
-            var19 = {'variant': 'text-sm/medium', 'color': 'always-white'};
+            var19 = {'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var25 = var10.consoleText;
             var19['style'] = var25;
             var19['children'] = var24;
@@ -312,7 +312,7 @@ case 9:
             var23 = var30[var23];
             var23 = var29.bind(var4)(var23);
             var24 = var23.Text;
-            var23 = {'variant': 'text-sm/medium', 'color': 'always-white'};
+            var23 = {'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
             var26 = 18;
             var27 = var30[var26];
             var27 = var29.bind(var4)(var27);

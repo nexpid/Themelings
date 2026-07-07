@@ -2055,7 +2055,7 @@ case 143:
             var34 = var44[var34];
             var34 = var52.bind(var5)(var34);
             var37 = var34.Text;
-            var34 = {'variant': 'eyebrow', 'color': 'always-white'};
+            var34 = {'variant': 'eyebrow', 'color': 'text-overlay-light'};
             var46 = var44[var22];
             var46 = var52.bind(var5)(var46);
             var48 = var46.intl;
@@ -2104,7 +2104,7 @@ case 142:
             var44 = {};
             var52 = 'text-xs/medium';
             var44['variant'] = var52;
-            var46 = 'always-white';
+            var46 = 'text-overlay-light';
             var53 = var46;
             if(!var49) { _fun0004_ip = 144; continue _fun0004 }
 case 145:
@@ -2153,7 +2153,7 @@ case 144:
             var53 = var53[var48];
             var53 = var55.bind(var5)(var53);
             var55 = var53.Text;
-            var53 = {'variant': 'text-xs/medium', 'color': 'always-white'};
+            var53 = {'variant': 'text-xs/medium', 'color': 'text-overlay-light'};
             var57 = var1.config;
             var57 = var57.messages;
             var57 = var57.gamePublisher;

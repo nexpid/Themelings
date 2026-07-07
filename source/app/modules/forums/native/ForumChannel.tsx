@@ -505,7 +505,7 @@ case 20:
                 var16 = var22[var16];
                 var16 = var17.bind(var5)(var16);
                 var17 = var16.Text;
-                var16 = {'variant': 'text-xs/bold', 'color': 'always-white'};
+                var16 = {'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
                 var22 = var19.countText;
                 var16['style'] = var22;
                 var21 = var21.size;

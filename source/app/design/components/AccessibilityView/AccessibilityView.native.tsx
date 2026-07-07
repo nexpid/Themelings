@@ -34,17 +34,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
-            var10 = var3.accessibilityViewIsModal;
+            var6 = var3.accessibilityViewIsModal;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var10 = false;
+            var6 = false;
 case 2:
-            var9 = var3.nativeID;
-            var8 = var3.collapsable;
-            var6 = var3.onAccessibilityEscape;
+            var10 = var3.nativeID;
+            var9 = var3.collapsable;
+            var7 = var3.onAccessibilityEscape;
             var2 = {'accessibilityViewIsModal': 0, 'nativeID': 0, 'collapsable': 0, 'onAccessibilityEscape': 0};
-            var7 = null;
+            var8 = null;
             var14 = var2;
             var13 = null;
             var1 = silentSetPrototypeOf(var14, var13);
@@ -52,9 +52,9 @@ case 2:
             var13 = var3;
             var12 = var2;
             var5 = copyDataProperties(var14, var13, var12);
-            if(!var10) { _fun0001_ip = 4; continue _fun0001 }
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            if(!(var7 != var6)) { _fun0001_ip = 6; continue _fun0001 }
+            if(!(var8 != var7)) { _fun0001_ip = 6; continue _fun0001 }
 case 4:
             var3 = _closure1_slot0;
             var11 = _closure1_slot1;
@@ -62,22 +62,23 @@ case 4:
             var2 = var11[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
-            var2['accessibilityViewIsModal'] = var10;
-            var2['nativeID'] = var9;
+            var2['accessibilityViewIsModal'] = var6;
+            var2['nativeID'] = var10;
             var2 = var3.bind(var4)(var2);
             var3 = _closure1_slot3;
             var2 = _closure1_slot2;
             var1 = {};
-            var10 = arg2;
-            var1['ref'] = var10;
-            var1['nativeID'] = var9;
-            var7 = var7 == var9;
-            if(!var7) { _fun0001_ip = 7; continue _fun0001 }
+            var11 = arg2;
+            var1['ref'] = var11;
+            var1['nativeID'] = var10;
+            var8 = var8 == var10;
+            if(!var8) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var7 = var8;
+            var8 = var9;
 case 7:
-            var1['collapsable'] = var7;
-            var1['onAccessibilityEscape'] = var6;
+            var1['collapsable'] = var8;
+            var1['onAccessibilityEscape'] = var7;
+            var1['accessibilityViewIsModal'] = var6;
             var14 = var1;
             var13 = var5;
             var5 = copyDataProperties(var14, var13);

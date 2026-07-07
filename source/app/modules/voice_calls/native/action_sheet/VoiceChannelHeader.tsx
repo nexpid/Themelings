@@ -57,7 +57,7 @@ case 3:
             var9 = var15[var9];
             var9 = var13.bind(var4)(var9);
             var13 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-xs/medium', 'color': 'always-white', 'children': ' - '};
+            var9 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-overlay-light', 'children': ' - '};
             var15 = var10.subtitle;
             var9['style'] = var15;
             var6 = var14.bind(var4)(var13, var9);
@@ -300,7 +300,7 @@ case 19:
             var12 = var20[var12];
             var12 = var15.bind(var4)(var12);
             var15 = var12.Text;
-            var12 = {'lineClamp': 1, 'lineBreakMode': 'tail', 'variant': 'text-md/semibold', 'color': 'always-white'};
+            var12 = {'lineClamp': 1, 'lineBreakMode': 'tail', 'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
             var12['children'] = var19;
             var14 = var17.bind(var4)(var15, var12);
 case 18:
@@ -317,7 +317,7 @@ case 21:
             var15 = var19[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'lineClamp': 1, 'lineBreakMode': 'tail', 'variant': 'text-xs/medium', 'color': 'always-white'};
+            var15 = {'lineClamp': 1, 'lineBreakMode': 'tail', 'variant': 'text-xs/medium', 'color': 'text-overlay-light'};
             var15['children'] = var18;
             var14 = var17.bind(var4)(var16, var15);
 case 20:

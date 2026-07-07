@@ -252,7 +252,7 @@ case 12:
             var18 = var8[var18];
             var18 = var3.bind(var5)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'text-xs/semibold', 'color': 'always-white'};
+            var18 = {'variant': 'text-xs/semibold', 'color': 'text-overlay-light'};
             var18['children'] = var6;
             var18 = var4.bind(var5)(var19, var18);
             var15[1] = var18;

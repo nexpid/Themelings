@@ -662,7 +662,12 @@ case 58:
                             var10 = var9;
                             if(!(var15 != var10)) { _fun0003_ip = 95; continue _fun0003 }
 case 96:
-                            var9 = var9.bind(var4)();
+                            var10 = var9;
+                            var9 = {};
+                            var11 = _closure1_slot11;
+                            var11 = var11.GOOGLE;
+                            var9['paymentGateway'] = var11;
+                            var9 = var10.bind(var4)(var9);
 case 95: // try_end2
                             _fun0003_ip = 97; continue _fun0003;
 case 94:

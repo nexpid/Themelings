@@ -234,7 +234,7 @@ case 8:
             var8 = var16[var7];
             var8 = var15.bind(var5)(var8);
             var17 = var8.Text;
-            var8 = {'variant': 'text-md/medium', 'color': 'always-white'};
+            var8 = {'variant': 'text-md/medium', 'color': 'text-overlay-light'};
             var18 = var10.centeredText;
             var8['style'] = var18;
             var18 = var16[var14];
@@ -254,7 +254,7 @@ case 8:
             var7 = var16[var7];
             var7 = var15.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-sm/normal', 'color': 'always-white'};
+            var7 = {'variant': 'text-sm/normal', 'color': 'text-overlay-light'};
             var18 = var10.body;
             var17 = new Array(2);
             var17[0] = var18;

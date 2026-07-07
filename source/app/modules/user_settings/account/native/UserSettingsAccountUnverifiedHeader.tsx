@@ -203,7 +203,7 @@ case 10:
             var6 = var12[var7];
             var6 = var8.bind(var5)(var6);
             var13 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-xs/bold', 'color': 'always-white'};
+            var6 = {'style': null, 'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
             var14 = var11.accountWarningText;
             var6['style'] = var14;
             var14 = var10.title;
@@ -214,7 +214,7 @@ case 10:
             var7 = var12[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-xs/medium', 'color': 'always-white'};
+            var7 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-overlay-light'};
             var11 = var11.accountWarningButton;
             var7['style'] = var11;
             var10 = var10.button;

@@ -52,10 +52,10 @@ case 4:
             var5 = {};
             var10 = 'eyebrow';
             var5['variant'] = var10;
-            var10 = 'always-white';
+            var10 = 'text-overlay-light';
             if(!var11) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var10 = 'black';
+            var10 = 'text-overlay-dark';
 case 5:
             var5['color'] = var10;
             var9 = var9.text;
@@ -590,7 +590,7 @@ case 47:
             var14 = var21[var14];
             var14 = var20.bind(var4)(var14);
             var16 = var14.Text;
-            var14 = {'variant': 'eyebrow', 'color': 'always-white'};
+            var14 = {'variant': 'eyebrow', 'color': 'text-overlay-light'};
             var19 = 30;
             var19 = var21[var19];
             var20 = var20.bind(var4)(var19);
@@ -641,7 +641,7 @@ case 52:
             var11 = var21[var11];
             var11 = var20.bind(var4)(var11);
             var14 = var11.Text;
-            var11 = {'variant': 'eyebrow', 'color': 'always-white'};
+            var11 = {'variant': 'eyebrow', 'color': 'text-overlay-light'};
             var17 = var15.text;
             var11['style'] = var17;
             var17 = 27;
@@ -791,7 +791,7 @@ case 40:
             var11 = var17[var11];
             var11 = var16.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'eyebrow', 'color': 'always-white'};
+            var11 = {'variant': 'eyebrow', 'color': 'text-overlay-light'};
             var14 = 30;
             var14 = var17[var14];
             var16 = var16.bind(var4)(var14);

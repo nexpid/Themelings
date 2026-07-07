@@ -185,7 +185,7 @@ case 7:
             var11 = var16[var11];
             var11 = var13.bind(var4)(var11);
             var13 = var11.Text;
-            var11 = {'variant': 'text-xs/medium', 'color': 'always-white', 'lineClamp': 3};
+            var11 = {'variant': 'text-xs/medium', 'color': 'text-overlay-light', 'lineClamp': 3};
             var15 = var15.name;
             var11['children'] = var15;
             var11 = var14.bind(var4)(var13, var11);

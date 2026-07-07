@@ -199,7 +199,7 @@ case 12:
             var7 = var7[var20];
             var7 = var8.bind(var4)(var7);
             var12 = var7.Text;
-            var7 = {'variant': 'heading-md/semibold', 'color': 'white'};
+            var7 = {'variant': 'heading-md/semibold', 'color': 'text-overlay-light'};
             var8 = var18;
             if(!var18) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
@@ -231,7 +231,7 @@ case 13:
             var8 = var8[var20];
             var8 = var11.bind(var4)(var8);
             var11 = var8.Text;
-            var8 = {'variant': 'heading-sm/semibold', 'color': 'white'};
+            var8 = {'variant': 'heading-sm/semibold', 'color': 'text-overlay-light'};
             var8['accessibilityLabel'] = var13;
             var20 = var19.subheader;
             var13 = new Array(2);

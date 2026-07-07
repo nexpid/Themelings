@@ -535,7 +535,7 @@ case 5:
             var13 = var21[var13];
             var13 = var17.bind(var5)(var13);
             var17 = var13.Text;
-            var13 = {'variant': 'text-xs/semibold', 'color': 'white'};
+            var13 = {'variant': 'text-xs/semibold', 'color': 'text-overlay-light'};
             var21 = var20.stepText;
             var13['style'] = var21;
             var21 = 'Uploading...';

@@ -496,7 +496,7 @@ case 29:
                     var16 = var24[var16];
                     var16 = var23.bind(var4)(var16);
                     var18 = var16.Text;
-                    var16 = {'variant': 'text-xs/medium', 'color': 'white', 'allowFontScaling': false};
+                    var16 = {'variant': 'text-xs/medium', 'color': 'text-overlay-light', 'allowFontScaling': false};
                     var20 = _closure2_slot4;
                     var20 = var20.altTagText;
                     var16['style'] = var20;

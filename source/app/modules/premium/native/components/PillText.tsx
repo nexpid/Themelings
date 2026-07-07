@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var9[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-xs/semibold', 'color': 'always-white'};
+        var5 = {'variant': 'text-xs/semibold', 'color': 'text-overlay-light'};
         var8 = var8.pillText;
         var5['style'] = var8;
         var5['children'] = var7;

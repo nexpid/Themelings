@@ -215,7 +215,7 @@ case 8:
             var16 = var19[var16];
             var16 = var22.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'style': null, 'variant': 'text-xxs/bold', 'color': 'always-white'};
+            var16 = {'style': null, 'variant': 'text-xxs/bold', 'color': 'text-overlay-light'};
             var20 = var20.pillLabel;
             var16['style'] = var20;
             var20 = var19[var23];

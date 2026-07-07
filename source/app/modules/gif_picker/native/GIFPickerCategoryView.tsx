@@ -270,7 +270,7 @@ case 6:
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-sm/semibold', 'color': 'always-white', 'maxFontSizeMultiplier': 2, 'accessible': false};
+            var9 = {'variant': 'text-sm/semibold', 'color': 'text-overlay-light', 'maxFontSizeMultiplier': 2, 'accessible': false};
             var12 = var12.name;
             var9['children'] = var12;
             var9 = var11.bind(var4)(var10, var9);

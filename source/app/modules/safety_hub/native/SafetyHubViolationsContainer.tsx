@@ -327,7 +327,7 @@ case 13:
         var5 = var12[var5];
         var5 = var11.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-xs/medium', 'color': 'always-white'};
+        var5 = {'variant': 'text-xs/medium', 'color': 'text-overlay-light'};
         var8 = var8.newText;
         var5['style'] = var8;
         var8 = 12;

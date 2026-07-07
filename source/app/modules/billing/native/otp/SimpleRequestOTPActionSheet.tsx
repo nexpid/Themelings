@@ -573,7 +573,7 @@ case 52:
             var5 = var5[var9];
             var5 = var6.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'variant': 'text-md/medium', 'color': 'always-white'};
+            var5 = {'variant': 'text-md/medium', 'color': 'text-overlay-light'};
             var21 = var11 == var8;
             var13 = undefined;
             if(var21) { _fun0001_ip = 54; continue _fun0001 }
@@ -657,7 +657,7 @@ case 59:
             var9 = var13[var9];
             var9 = var11.bind(var4)(var9);
             var11 = var9.Text;
-            var9 = {'variant': 'text-md/medium', 'color': 'always-white'};
+            var9 = {'variant': 'text-md/medium', 'color': 'text-overlay-light'};
             var14 = ['Select style: '];
             var14[1] = var15;
             var9['children'] = var14;

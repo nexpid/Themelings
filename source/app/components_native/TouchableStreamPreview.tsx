@@ -315,7 +315,7 @@ case 20:
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-md/semibold', 'color': 'always-white'};
+            var11 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-overlay-light'};
             var15 = var15.ctaText;
             var11['style'] = var15;
             var11['children'] = var14;

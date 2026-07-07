@@ -81,7 +81,7 @@ case 2:
             var15 = var4.color;
             if(!(var15 === var5)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var15 = 'always-white';
+            var15 = 'text-overlay-light';
 case 4:
             var1 = var4.gradient;
             if(!(var1 === var5)) { _fun0001_ip = 6; continue _fun0001 }

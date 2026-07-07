@@ -239,7 +239,7 @@ case 2:
             var11 = var11[var16];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'color': 'always-white', 'variant': 'text-md/semibold'};
+            var11 = {'color': 'text-overlay-light', 'variant': 'text-md/semibold'};
             var17 = var6 == var7;
             var18 = undefined;
             if(var17) { _fun0001_ip = 4; continue _fun0001 }

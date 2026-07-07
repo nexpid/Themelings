@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var13[var6];
         var5 = var12.bind(var4)(var5);
         var8 = var5.Text;
-        var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
+        var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-overlay-light'};
         var14 = var11.subscriberCount;
         var5['style'] = var14;
         var5['children'] = var10;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var13[var6];
         var6 = var12.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'variant': 'text-sm/normal', 'color': 'always-white'};
+        var6 = {'variant': 'text-sm/normal', 'color': 'text-overlay-light'};
         var9 = 8;
         var10 = var13[var9];
         var10 = var12.bind(var4)(var10);

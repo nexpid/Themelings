@@ -354,7 +354,7 @@ case 23:
             var15 = var19[var15];
             var15 = var17.bind(var5)(var15);
             var17 = var15.Text;
-            var15 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'always-white'};
+            var15 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'text-overlay-light'};
             var19 = var8.loaderText;
             var15['style'] = var19;
             var19 = global;
@@ -411,7 +411,7 @@ case 16:
             var6 = var12[var6];
             var6 = var11.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'always-white'};
+            var6 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'text-overlay-light'};
             var8 = var8.loaderText;
             var6['style'] = var8;
             var8 = 7;

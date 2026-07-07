@@ -144,7 +144,7 @@ case 9:
             var8 = 'text-brand';
             if(!var9) { _fun0002_ip = 10; continue _fun0002 }
 case 8:
-            var8 = 'always-white';
+            var8 = 'text-overlay-light';
 case 10:
             var5['color'] = var8;
             var10 = _closure1_slot0;

@@ -1504,7 +1504,7 @@ case 51:
             var40 = var19[var41];
             var40 = var7.bind(var4)(var40);
             var46 = var40.Text;
-            var40 = {'variant': 'heading-lg/semibold', 'color': 'white', 'style': null, 'accessibilityRole': 'header'};
+            var40 = {'variant': 'heading-lg/semibold', 'color': 'text-overlay-light', 'style': null, 'accessibilityRole': 'header'};
             var47 = var24.textShadow;
             var40['style'] = var47;
             var47 = var16.config;
@@ -1517,7 +1517,7 @@ case 51:
             var41 = var19[var41];
             var41 = var7.bind(var4)(var41);
             var46 = var41.Text;
-            var41 = {'variant': 'heading-sm/semibold', 'color': 'white'};
+            var41 = {'variant': 'heading-sm/semibold', 'color': 'text-overlay-light'};
             var48 = var24.textShadow;
             var47 = new Array(2);
             var47[0] = var48;
