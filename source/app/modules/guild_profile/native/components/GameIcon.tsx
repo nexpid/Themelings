@@ -90,26 +90,21 @@ case 0:
             var2 = _closure1_slot8;
             var6 = undefined;
             var15 = var2.bind(var6)();
-            var5 = var9.iconHash;
+            var5 = var9.getIconURL;
+            var2 = 24;
+            var8 = var5.bind(var9)(var2);
             var2 = null;
-            var5 = var2 != var5;
+            var5 = var2 != var8;
             var11 = null;
             if(!var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var7 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var5 = 5;
-            var5 = var8[var5];
-            var8 = var7.bind(var6)(var5);
-            var7 = var8.getGameAssetSource;
-            var5 = {};
-            var12 = var9.id;
-            var5['id'] = var12;
-            var12 = var9.iconHash;
-            var5['hash'] = var12;
-            var12 = 24;
-            var5['size'] = var12;
-            var11 = var7.bind(var8)(var5);
+            var5 = var12[var5];
+            var7 = var7.bind(var6)(var5);
+            var5 = var7.makeSource;
+            var11 = var5.bind(var7)(var8);
 case 2:
             var8 = _closure1_slot3;
             var7 = var8.useCallback;

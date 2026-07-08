@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.AVATAR_SIZE;
     var _closure1_slot6 = var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -46,16 +46,16 @@ case 0:
             var1 = arg1;
             var1 = var1.channelId;
             var _closure2_slot0 = var1;
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var1 = 4;
-            var3 = var5[var1];
-            var8 = undefined;
-            var10 = var4.bind(var8)(var3);
-            var7 = var10.useStateFromStores;
+            var3 = var6[var1];
+            var4 = undefined;
+            var10 = var5.bind(var4)(var3);
+            var9 = var10.useStateFromStores;
             var3 = _closure1_slot5;
-            var6 = new Array(1);
-            var6[0] = var3;
+            var8 = new Array(1);
+            var8[0] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -77,12 +77,12 @@ case 2:
                     return var1;
                 }
             };
-            var3 = var7.bind(var10)(var6, var3);
+            var3 = var9.bind(var10)(var8, var3);
             var _closure2_slot1 = var3;
-            var7 = _closure1_slot3;
-            var10 = var7.useCallback;
-            var6 = new Array(1);
-            var6[0] = var3;
+            var9 = _closure1_slot3;
+            var10 = var9.useCallback;
+            var8 = new Array(1);
+            var8[0] = var3;
             var3 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -116,13 +116,13 @@ case 5:
                     return var1;
                 }
             };
-            var3 = var10.bind(var7)(var3, var6);
-            var1 = var5[var1];
-            var6 = var4.bind(var8)(var1);
-            var5 = var6.useStateFromStores;
+            var3 = var10.bind(var9)(var3, var8);
+            var1 = var6[var1];
+            var8 = var5.bind(var4)(var1);
+            var6 = var8.useStateFromStores;
             var1 = _closure1_slot4;
-            var4 = new Array(1);
-            var4[0] = var1;
+            var5 = new Array(1);
+            var5[0] = var1;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -148,18 +148,18 @@ case 8:
                     return var1;
                 }
             };
-            var6 = var5.bind(var6)(var4, var1);
+            var6 = var6.bind(var8)(var5, var1);
             var _closure2_slot2 = var6;
-            var5 = var7.useEffect;
+            var8 = var9.useEffect;
             var1 = null;
-            var4 = var1 == var6;
+            var5 = var1 == var6;
             var10 = undefined;
-            if(var4) { _fun0001_ip = 10; continue _fun0001 }
+            if(var5) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var10 = var6.id;
 case 10:
-            var4 = new Array(1);
-            var4[0] = var10;
+            var5 = new Array(1);
+            var5[0] = var10;
             var2 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -193,7 +193,7 @@ case 14:
                     return var1;
                 }
             };
-            var2 = var5.bind(var7)(var2, var4);
+            var2 = var8.bind(var9)(var2, var5);
             var2 = var1 == var6;
             var5 = undefined;
             if(var2) { _fun0001_ip = 16; continue _fun0001 }
@@ -204,35 +204,19 @@ case 16:
 case 19:
             if(!(var1 != var5)) { _fun0001_ip = 18; continue _fun0001 }
 case 20:
-            var4 = var1 == var6;
+            var8 = var1 == var6;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 21; continue _fun0001 }
+            if(var8) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
-            var2 = var6.iconHash;
+            var8 = var6.getIconURL;
+            var7 = _closure1_slot6;
+            var2 = var8.bind(var6)(var7);
 case 21:
-            var2 = var1 != var2;
+            var7 = var1 != var2;
             var4 = undefined;
-            if(!var2) { _fun0001_ip = 23; continue _fun0001 }
+            if(!var7) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var7 = var6.iconHash;
-            var2 = '';
-            var4 = undefined;
-            if(!(var2 !== var7)) { _fun0001_ip = 23; continue _fun0001 }
-case 25:
-            var7 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var2 = 7;
-            var2 = var10[var2];
-            var8 = var7.bind(var8)(var2);
-            var7 = var8.getGameAssetURL;
-            var2 = {};
-            var10 = var6.id;
-            var2['id'] = var10;
-            var10 = var6.iconHash;
-            var2['hash'] = var10;
-            var9 = _closure1_slot6;
-            var2['size'] = var9;
-            var4 = var7.bind(var8)(var2);
+            var4 = var2;
 case 23:
             var2 = {};
             var6 = var6.id;

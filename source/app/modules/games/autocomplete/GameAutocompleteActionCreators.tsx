@@ -93,8 +93,8 @@ case 13:
                         var1['id'] = var3;
                         var3 = var2.name;
                         var1['name'] = var3;
-                        var2 = var2.icon_hash;
-                        var1['icon_hash'] = var2;
+                        var2 = var2.icon;
+                        var1['icon'] = var2;
                         return var1;
                     };
                     var10 = var8.bind(var9)(var4);

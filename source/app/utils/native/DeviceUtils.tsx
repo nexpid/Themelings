@@ -268,12 +268,12 @@ case 18:
             return var1;
         };
         var3['getDeviceManufacturer'] = var4;
-        var4 = function getSmallestScreenWidth() {
+        var4 = function getSmallestScreenWidthDp() {
             var1 = _closure1_slot3;
             var1 = var1.smallestScreenWidth;
             return var1;
         };
-        var3['getSmallestScreenWidth'] = var4;
+        var3['getSmallestScreenWidthDp'] = var4;
         var4 = function getSocName() {
             var1 = _closure1_slot3;
             var1 = var1.socName;

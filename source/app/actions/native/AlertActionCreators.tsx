@@ -98,16 +98,16 @@ case 0:
             var2 = null;
             if(!(var2 != var3)) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var3 = 4;
-            var4 = var4[var3];
-            var3 = undefined;
-            var5 = var5.bind(var3)(var4);
-            var4 = var5.dismissAlert;
-            var3 = _closure1_slot6;
-            var3 = var4.bind(var5)(var3);
+            var4 = _closure1_slot6;
             _closure1_slot6 = var2;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var2 = 4;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var2 = var3.dismissAlert;
+            var2 = var2.bind(var3)(var4);
 case 8:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;

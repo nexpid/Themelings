@@ -464,6 +464,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_MARKETING_COMPARISON_TABLE'] = var1;
     var1 = 'premium marketing footer';
     var2['PREMIUM_MARKETING_FOOTER'] = var1;
+    var1 = 'premium marketing floating cta';
+    var2['PREMIUM_MARKETING_FLOATING_CTA'] = var1;
     var1 = 'premium marketing gift section';
     var2['PREMIUM_MARKETING_GIFT_SECTION'] = var1;
     var1 = 'premium marketing nitro home orbs section';

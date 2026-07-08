@@ -3365,6 +3365,21 @@ case 239:
             return var1;
         };
         var3['clearPaymentAuthenticationError'] = var5;
+        var5 = function cancelPaymentAuthentication() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 8;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var5 = 'PAYMENT_AUTHENTICATION_CANCEL';
+            var2['type'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        };
+        var3['cancelPaymentAuthentication'] = var5;
         var5 = function voidPendingPayment() {
             var1 = undefined;
             var4 = _closure1_slot38;

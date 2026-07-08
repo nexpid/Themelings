@@ -298,45 +298,152 @@ case 49:
 case 45:
             var5 = var1.agency_ratings;
             var5 = var5.pegi;
-            if(!(var3 != var5)) { _fun0004_ip = 43; continue _fun0004 }
+            if(!(var3 != var5)) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
+            var6 = var4.push;
+            var5 = var1.agency_ratings;
+            var5 = var5.pegi;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var7 = 5;
+            var7 = var9[var7];
+            var10 = undefined;
+            var7 = var8.bind(var10)(var7);
+            var7 = var7.ContentRatingPEGIRatingSets;
+            var8 = var7.IS_ADULT_ONLY;
+            var7 = var8.has;
+            var5 = var5.rating;
+            var7 = var7.bind(var8)(var5);
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var5 = 1;
+            var5 = var9[var5];
+            var5 = var8.bind(var10)(var5);
+            var5 = var5.AgeRestrictionStatus;
+            if(var7) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
+            var7 = var5.EVERYONE;
+            _fun0004_ip = 54; continue _fun0004;
+case 52:
+            var7 = var5.ADULT;
+case 54:
+            var5 = {};
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var8 = 0;
+            var8 = var11[var8];
+            var8 = var9.bind(var10)(var8);
+            var8 = var8.AgeRestrictionSource;
+            var8 = var8.AGENCY_CLASSIFICATION_PEGI;
+            var5['source'] = var8;
+            var5['status'] = var7;
+            var5 = var6.bind(var4)(var5);
 case 50:
+            var5 = var1.agency_ratings;
+            var5 = var5.gop;
+            if(!(var3 != var5)) { _fun0004_ip = 55; continue _fun0004 }
+case 56:
+            var6 = var4.push;
+            var5 = var1.agency_ratings;
+            var5 = var5.gop;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var7 = 6;
+            var7 = var9[var7];
+            var10 = undefined;
+            var7 = var8.bind(var10)(var7);
+            var7 = var7.ContentRatingGOPClassificationSets;
+            var8 = var7.IS_ADULT;
+            var7 = var8.has;
+            var5 = var5.classification;
+            var7 = var7.bind(var8)(var5);
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var5 = 1;
+            var5 = var9[var5];
+            var5 = var8.bind(var10)(var5);
+            var5 = var5.AgeRestrictionStatus;
+            if(var7) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
+            var7 = var5.EVERYONE;
+            _fun0004_ip = 59; continue _fun0004;
+case 57:
+            var7 = var5.ADULT;
+case 59:
+            var5 = {};
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var8 = 0;
+            var8 = var11[var8];
+            var8 = var9.bind(var10)(var8);
+            var8 = var8.AgeRestrictionSource;
+            var8 = var8.AGENCY_CLASSIFICATION_GOP;
+            var5['source'] = var8;
+            var5['status'] = var7;
+            var5 = var6.bind(var4)(var5);
+case 55:
+            var5 = var1.agency_ratings;
+            var5 = var5.igdb;
+            if(!(var3 != var5)) { _fun0004_ip = 43; continue _fun0004 }
+case 60:
             var5 = var4.push;
             var1 = var1.agency_ratings;
-            var1 = var1.pegi;
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var6 = 5;
-            var6 = var8[var6];
-            var9 = undefined;
-            var6 = var7.bind(var9)(var6);
-            var6 = var6.ContentRatingPEGIRatingSets;
-            var7 = var6.IS_ADULT_ONLY;
-            var6 = var7.has;
-            var1 = var1.rating;
-            var6 = var6.bind(var7)(var1);
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var1 = 1;
-            var1 = var8[var1];
-            var1 = var7.bind(var9)(var1);
-            var1 = var1.AgeRestrictionStatus;
-            if(var6) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
-            var6 = var1.EVERYONE;
-            _fun0004_ip = 53; continue _fun0004;
-case 51:
-            var6 = var1.ADULT;
-case 53:
-            var1 = {};
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var7 = 0;
-            var7 = var10[var7];
-            var7 = var8.bind(var9)(var7);
-            var7 = var7.AgeRestrictionSource;
-            var7 = var7.AGENCY_CLASSIFICATION_PEGI;
-            var1['source'] = var7;
-            var1['status'] = var6;
+            var7 = var1.igdb;
+            var6 = function _conclusionFromIGDB(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var1 = arg1;
+                    var3 = var1.themes;
+                    var1 = null;
+                    if(!(var1 == var3)) { _fun0005_ip = 61; continue _fun0005 }
+case 62:
+                    var3 = new Array(0);
+case 61:
+                    var2 = var3.some;
+                    var1 = function(arg1) {
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 7;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
+                        var1 = var1.ContentRatingIGDBThemeSets;
+                        var3 = var1.ADULT_THEMES;
+                        var2 = var3.has;
+                        var1 = arg1;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
+                    };
+                    var2 = var2.bind(var3)(var1);
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var1 = 1;
+                    var1 = var5[var1];
+                    var5 = undefined;
+                    var1 = var4.bind(var5)(var1);
+                    var1 = var1.AgeRestrictionStatus;
+                    if(var2) { _fun0005_ip = 63; continue _fun0005 }
+case 64:
+                    var2 = var1.EVERYONE;
+                    _fun0005_ip = 65; continue _fun0005;
+case 63:
+                    var2 = var1.ADULT;
+case 65:
+                    var1 = {};
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 0;
+                    var3 = var6[var3];
+                    var3 = var4.bind(var5)(var3);
+                    var3 = var3.AgeRestrictionSource;
+                    var3 = var3.AGENCY_CLASSIFICATION_IGDB;
+                    var1['source'] = var3;
+                    var1['status'] = var2;
+                    return var1;
+                }
+            };
+            var1 = undefined;
+            var1 = var6.bind(var1)(var7);
             var1 = var5.bind(var4)(var1);
 case 43:
             var1 = _closure1_slot5;
@@ -344,17 +451,17 @@ case 43:
             var9 = var1.bind(var10)(var4);
             var1 = var9.bind(var10)();
             var4 = var1.done;
-            var8 = 6;
+            var8 = 8;
             var7 = 0;
             var6 = var1;
             var5 = null;
             var1 = null;
-            if(var4) { _fun0004_ip = 54; continue _fun0004 }
-case 55:
+            if(var4) { _fun0004_ip = 66; continue _fun0004 }
+case 67:
             var4 = var6.value;
             var11 = var4;
-            if(!(var3 != var5)) { _fun0004_ip = 56; continue _fun0004 }
-case 57:
+            if(!(var3 != var5)) { _fun0004_ip = 68; continue _fun0004 }
+case 69:
             var13 = _closure1_slot1;
             var12 = _closure1_slot2;
             var12 = var12[var8];
@@ -364,21 +471,21 @@ case 57:
             var12 = var5.status;
             var12 = var14.bind(var15)(var13, var12);
             var11 = var5;
-            if(!(var12 > var7)) { _fun0004_ip = 56; continue _fun0004 }
-case 58:
+            if(!(var12 > var7)) { _fun0004_ip = 68; continue _fun0004 }
+case 70:
             var11 = var4;
-case 56:
+case 68:
             var12 = var9.bind(var10)();
             var4 = var12.done;
             var5 = var11;
             var6 = var12;
             var1 = var5;
-            if(!var4) { _fun0004_ip = 55; continue _fun0004 }
-case 54:
-            if(!(var3 == var1)) { _fun0004_ip = 59; continue _fun0004 }
-case 60:
+            if(!var4) { _fun0004_ip = 67; continue _fun0004 }
+case 66:
+            if(!(var3 == var1)) { _fun0004_ip = 71; continue _fun0004 }
+case 72:
             var1 = _closure1_slot4;
-case 59:
+case 71:
             return var1;
 case 36:
             var1 = _closure1_slot4;
@@ -387,7 +494,7 @@ case 36:
     };
     var _closure1_slot7 = var2;
     var1 = function _conclusionFromDiscordContentClassificationFlags(arg1, arg2) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var6 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -411,8 +518,8 @@ case 0:
             var2 = {};
             var6 = arg1;
             var2['source'] = var6;
-            if(var1) { _fun0005_ip = 22; continue _fun0005 }
-case 61:
+            if(var1) { _fun0006_ip = 22; continue _fun0006 }
+case 73:
             var6 = _closure1_slot1;
             var1 = _closure1_slot2;
             var4 = var1[var4];
@@ -430,16 +537,16 @@ case 61:
             var4 = var7[var4];
             var4 = var6.bind(var5)(var4);
             var4 = var4.AgeRestrictionStatus;
-            if(var1) { _fun0005_ip = 62; continue _fun0005 }
-case 63:
+            if(var1) { _fun0006_ip = 74; continue _fun0006 }
+case 75:
             var1 = var4.EVERYONE;
-            _fun0005_ip = 64; continue _fun0005;
-case 62:
+            _fun0006_ip = 76; continue _fun0006;
+case 74:
             var1 = var4.ADULT;
-case 64:
+case 76:
             var2['status'] = var1;
             var1 = var2;
-            _fun0005_ip = 65; continue _fun0005;
+            _fun0006_ip = 77; continue _fun0006;
 case 22:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -450,7 +557,7 @@ case 22:
             var3 = var3.ADULT;
             var2['status'] = var3;
             var1 = var2;
-case 65:
+case 77:
             return var1;
         }
     };
@@ -484,7 +591,7 @@ case 65:
     var9 = var9.EVERYONE;
     var6['status'] = var9;
     var _closure1_slot4 = var6;
-    var6 = 7;
+    var6 = 9;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

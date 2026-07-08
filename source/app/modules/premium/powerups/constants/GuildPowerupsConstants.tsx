@@ -218,8 +218,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var28[var15];
     var7 = var27.bind(var1)(var7);
     var10 = var7.GUILD_POWERUP_ROLE_COLOR_SKU_ID;
-    var7 = new Array(1);
+    var7 = new Array(2);
     var7[0] = var10;
+    var10 = var28[var15];
+    var10 = var27.bind(var1)(var10);
+    var10 = var10.GUILD_POWERUP_TAG_SKU_ID;
+    var7[1] = var10;
     var10 = var11.prototype;
     var10 = Object.create(var10, {constructor: {value: var11}});
     var35 = var10;

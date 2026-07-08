@@ -217,9 +217,9 @@ case 37:
             var2['device_manufacturer'] = var7;
             var7 = var6[var3];
             var8 = var5.bind(var4)(var7);
-            var7 = var8.getSmallestScreenWidth;
+            var7 = var8.getSmallestScreenWidthDp;
             var7 = var7.bind(var8)();
-            var2['smallest_screen_width'] = var7;
+            var2['smallest_screen_width_dp'] = var7;
             var8 = _closure1_slot1;
             var7 = 12;
             var7 = var6[var7];

@@ -360,8 +360,8 @@ case 15:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = _closure2_slot6;
-                    var7 = null;
-                    var2 = var7 == var1;
+                    var8 = null;
+                    var2 = var8 == var1;
                     var1 = null;
                     if(var2) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
@@ -374,18 +374,27 @@ case 17:
                     var3 = var3.bind(var4)(var2);
                     var2 = {};
                     var6 = _closure2_slot6;
-                    var9 = var7 == var6;
+                    var9 = var8 == var6;
                     var6 = undefined;
                     if(var9) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
-                    var8 = _closure2_slot6;
-                    var6 = var8.colors;
+                    var9 = _closure2_slot6;
+                    var6 = var9.colors;
 case 18:
-                    if(!(var7 == var6)) { _fun0004_ip = 20; continue _fun0004 }
+                    if(!(var8 == var6)) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
                     var6 = new Array(0);
 case 20:
                     var2['colors'] = var6;
+                    var6 = _closure2_slot6;
+                    var8 = var8 == var6;
+                    var6 = undefined;
+                    if(var8) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
+                    var7 = _closure2_slot6;
+                    var6 = var7.effectId;
+case 22:
+                    var2['effectId'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
 case 16:
                     return var1;
@@ -418,8 +427,8 @@ case 16:
             var8 = var8.DismissibleContent;
             var10 = var8.DISPLAY_NAME_STYLES_FLYWHEEL_MOBILE_NEW_BADGE_PROFILE_PAGE;
             var8 = undefined;
-            if(!(var11 === var10)) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!(var11 === var10)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var12 = _closure1_slot10;
             var11 = _closure1_slot6;
             var10 = {};
@@ -446,7 +455,7 @@ case 23:
             var13 = var12.bind(var4)(var14, var13);
             var10['children'] = var13;
             var8 = var12.bind(var4)(var11, var10);
-case 22:
+case 24:
             var1['labelTrailing'] = var8;
             var1['buttonText'] = var9;
             var8 = {};

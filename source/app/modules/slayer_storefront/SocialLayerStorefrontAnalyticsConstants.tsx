@@ -42,6 +42,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['MUTE_BUTTON'] = var7;
     var5['FORWARD_BUTTON'] = var4;
     var5['BUY_WITH_ORBS_BUTTON'] = var2;
+    var2 = 'earn_more_orbs_button';
+    var5['EARN_MORE_ORBS_BUTTON'] = var2;
+    var2 = 'nitro_upsell_button';
+    var5['NITRO_UPSELL_BUTTON'] = var2;
     var4 = {};
     var4['COPY_LINK_BUTTON'] = var1;
     var2 = {};

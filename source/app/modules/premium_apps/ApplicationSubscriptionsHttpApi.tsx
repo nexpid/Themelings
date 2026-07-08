@@ -95,13 +95,13 @@ case 3:
                     var5 = false;
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=96);
+                    SaveGenerator(address=100);
 case 9:
                     return var2;
 case 10:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0002_ip = 11; continue _fun0002 }
-case 2:
+case 12:
                     var3 = var2.body;
                     return var3;
 case 11:
@@ -132,7 +132,7 @@ case 8:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 12; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 9; continue _fun0003 }
 case 3:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -162,7 +162,7 @@ case 16:
                     return var3;
 case 15:
                     return var2;
-case 12:
+case 9:
                     return var1;
                 }
             };
@@ -188,7 +188,7 @@ case 12:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 8; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 17; continue _fun0004 }
 case 3:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -212,17 +212,17 @@ case 3:
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=96);
-case 9:
+case 18:
                     return var2;
-case 10:
+case 19:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 11; continue _fun0004 }
+                    if(var3) { _fun0004_ip = 20; continue _fun0004 }
 case 2:
                     var3 = var2.body;
                     return var3;
-case 11:
+case 20:
                     return var2;
-case 8:
+case 17:
                     return var1;
                 }
             };

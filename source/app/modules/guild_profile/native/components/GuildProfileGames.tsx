@@ -176,7 +176,9 @@ case 0:
             var3 = undefined;
             if(var10) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var3 = var14.iconHash;
+            var13 = var14.getIconURL;
+            var10 = 24;
+            var3 = var13.bind(var14)(var10);
 case 11:
             var3 = var4 != var3;
             _closure2_slot6 = var3;

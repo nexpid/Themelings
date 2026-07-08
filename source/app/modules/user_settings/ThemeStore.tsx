@@ -457,7 +457,13 @@ case 23:
     };
     var2['LOGOUT'] = var10;
     var2['OVERLAY_INITIALIZE'] = var9;
-    var2['SELECTIVELY_SYNCED_USER_SETTINGS_UPDATE'] = var9;
+    var10 = function handleSelectivelySyncedUserSettingsUpdate() {
+        var2 = _closure1_slot20;
+        var1 = undefined;
+        var1 = var2.bind(var1)();
+        return var1;
+    };
+    var2['SELECTIVELY_SYNCED_USER_SETTINGS_UPDATE'] = var10;
     var2['UNSYNCED_USER_SETTINGS_UPDATE'] = var9;
     var2['USER_SETTINGS_PROTO_UPDATE'] = var9;
     var2['RESET_PREVIEW_CLIENT_THEME'] = var9;

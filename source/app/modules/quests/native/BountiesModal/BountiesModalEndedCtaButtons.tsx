@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function BountiesModalEndedCtaButtonsTsx1(){const{withTiming,visible,timingStandard}=this.__closure;return{opacity:withTiming(visible?1:0,timingStandard)};}';
     var4['code'] = var7;
     var _closure1_slot6 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -71,6 +71,12 @@ case 0:
             var4 = _closure1_slot0;
             var12 = _closure1_slot2;
             var2 = 3;
+            var2 = var12[var2];
+            var3 = var4.bind(var5)(var2);
+            var2 = var3.useGetQuestImpressionId;
+            var2 = var2.bind(var3)();
+            var _closure2_slot3 = var2;
+            var2 = 4;
             var3 = var12[var2];
             var13 = var4.bind(var5)(var3);
             var8 = var13.useAnimatedStyle;
@@ -80,7 +86,7 @@ case 0:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 5;
                     var3 = var5[var3];
                     var7 = undefined;
                     var5 = var4.bind(var7)(var3);
@@ -93,7 +99,7 @@ case 3:
 case 2:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var2 = 5;
+                    var2 = 6;
                     var2 = var8[var2];
                     var2 = var6.bind(var7)(var2);
                     var2 = var2.timingStandard;
@@ -103,13 +109,13 @@ case 2:
                 }
             };
             var14 = {};
-            var15 = 4;
+            var15 = 5;
             var15 = var12[var15];
             var15 = var4.bind(var5)(var15);
             var15 = var15.withTiming;
             var14['withTiming'] = var15;
             var14['visible'] = var1;
-            var15 = 5;
+            var15 = 6;
             var15 = var12[var15];
             var15 = var4.bind(var5)(var15);
             var15 = var15.timingStandard;
@@ -120,7 +126,7 @@ case 2:
             var14 = _closure1_slot6;
             var3['__initData'] = var14;
             var8 = var8.bind(var13)(var3);
-            var3 = 6;
+            var3 = 7;
             var3 = var12[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.getBountyCtaInfo;
@@ -141,7 +147,7 @@ case 5:
             var2['style'] = var7;
             var9 = _closure1_slot3;
             var14 = _closure1_slot0;
-            var7 = 7;
+            var7 = 8;
             var6 = var15[var7];
             var6 = var14.bind(var5)(var6);
             var8 = var6.Button;
@@ -151,7 +157,7 @@ case 5:
             var11 = function onPress() {
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 8;
+                var1 = 9;
                 var2 = var9[var1];
                 var1 = undefined;
                 var5 = var8.bind(var1)(var2);
@@ -160,7 +166,7 @@ case 5:
                 var2 = _closure2_slot0;
                 var7 = var2.id;
                 var3['adContentId'] = var7;
-                var7 = 9;
+                var7 = 10;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.AdCreativeType;
@@ -169,18 +175,21 @@ case 5:
                 var2 = var2.cta;
                 var3['cta'] = var2;
                 var2 = {};
-                var7 = 10;
+                var7 = 11;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContent;
                 var7 = var7.VIDEO_MODAL_END_CARD;
                 var2['content'] = var7;
-                var7 = 11;
+                var7 = 12;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContentCTA;
                 var7 = var7.OPEN_GAME_LINK;
                 var2['ctaContent'] = var7;
+                var7 = _closure2_slot3;
+                var7 = var7.bind(var1)();
+                var2['impressionId'] = var7;
                 var6 = _closure2_slot2;
                 var2['sourceQuestContent'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
@@ -194,7 +203,7 @@ case 5:
             var7 = var14.bind(var5)(var7);
             var8 = var7.Button;
             var7 = {'variant': 'secondary-overlay', 'text': null, 'size': 'lg'};
-            var11 = 12;
+            var11 = 13;
             var12 = var15[var11];
             var12 = var14.bind(var5)(var12);
             var13 = var12.intl;

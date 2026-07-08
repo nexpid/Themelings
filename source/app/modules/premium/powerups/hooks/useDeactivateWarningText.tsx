@@ -181,138 +181,152 @@ case 4:
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var1 = _closure2_slot1;
-                var4 = var1.skuId;
+                var2 = var1.skuId;
                 var5 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var8 = 6;
-                var3 = var3[var8];
-                var7 = undefined;
-                var3 = var5.bind(var7)(var3);
-                var3 = var3.GUILD_POWERUP_ROLE_COLOR_SKU_ID;
-                if(!(var3 !== var4)) { _fun0004_ip = 12; continue _fun0004 }
+                var1 = _closure1_slot2;
+                var7 = 6;
+                var1 = var1[var7];
+                var8 = undefined;
+                var1 = var5.bind(var8)(var1);
+                var1 = var1.GUILD_POWERUP_ROLE_COLOR_SKU_ID;
+                if(!(var1 !== var2)) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
                 var5 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var3 = var3[var8];
-                var3 = var5.bind(var7)(var3);
-                var3 = var3.VANITY_URL_POWERUP_SKU_ID;
-                if(!(var3 !== var4)) { _fun0004_ip = 14; continue _fun0004 }
+                var1 = _closure1_slot2;
+                var1 = var1[var7];
+                var1 = var5.bind(var8)(var1);
+                var1 = var1.VANITY_URL_POWERUP_SKU_ID;
+                if(!(var1 !== var2)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
                 var5 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var3 = var3[var8];
-                var3 = var5.bind(var7)(var3);
-                var3 = var3.GUILD_TAGS_BADGE_PACK_PETS_POWERUP_SKU_ID;
-                if(!(var3 !== var4)) { _fun0004_ip = 16; continue _fun0004 }
+                var1 = _closure1_slot2;
+                var1 = var1[var7];
+                var1 = var5.bind(var8)(var1);
+                var1 = var1.GUILD_TAGS_BADGE_PACK_PETS_POWERUP_SKU_ID;
+                if(!(var1 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
                 var5 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var3 = var3[var8];
-                var3 = var5.bind(var7)(var3);
-                var3 = var3.GUILD_TAGS_BADGE_PACK_FLEX_POWERUP_SKU_ID;
-                if(!(var3 !== var4)) { _fun0004_ip = 16; continue _fun0004 }
+                var1 = _closure1_slot2;
+                var1 = var1[var7];
+                var1 = var5.bind(var8)(var1);
+                var1 = var1.GUILD_TAGS_BADGE_PACK_FLEX_POWERUP_SKU_ID;
+                if(!(var1 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
 case 18:
-                var4 = _closure1_slot0;
+                var5 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var1 = var1[var7];
+                var1 = var5.bind(var8)(var1);
+                var1 = var1.GUILD_TAGS_BADGE_PACK_PLANT_POWERUP_SKU_ID;
+                if(!(var1 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
+case 19:
+                var5 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var1 = var1[var7];
+                var1 = var5.bind(var8)(var1);
+                var1 = var1.GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES_POWERUP_SKU_ID;
+                if(!(var1 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
+case 20:
+                var2 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var3 = 7;
-                var3 = var9[var3];
-                var3 = var4.bind(var7)(var3);
-                var6 = var3.intl;
+                var1 = 7;
+                var1 = var9[var1];
+                var1 = var2.bind(var8)(var1);
+                var6 = var1.intl;
                 var5 = var6.formatToPlainString;
-                var4 = _closure1_slot1;
-                var3 = 8;
-                var3 = var9[var3];
-                var3 = var4.bind(var7)(var3);
-                var4 = var3["4jSvr1"];
-                var3 = {};
+                var2 = _closure1_slot1;
+                var1 = 8;
+                var1 = var9[var1];
+                var1 = var2.bind(var8)(var1);
+                var2 = var1["4jSvr1"];
+                var1 = {};
                 var9 = _closure2_slot1;
                 var9 = var9.title;
-                var3['perk'] = var9;
+                var1['perk'] = var9;
                 var10 = _closure2_slot2;
                 var9 = null;
                 var10 = var9 != var10;
                 var9 = 0;
-                if(!var10) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                if(!var10) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                 var9 = _closure2_slot2;
-case 19:
-                var3['memberCount'] = var9;
-                var3 = var5.bind(var6)(var4, var3);
-                _fun0004_ip = 21; continue _fun0004;
+case 21:
+                var1['memberCount'] = var9;
+                var1 = var5.bind(var6)(var2, var1);
+                _fun0004_ip = 23; continue _fun0004;
 case 16:
                 var5 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var4 = 7;
-                var4 = var10[var4];
-                var4 = var5.bind(var7)(var4);
-                var6 = var4.intl;
+                var2 = 7;
+                var2 = var10[var2];
+                var2 = var5.bind(var8)(var2);
+                var6 = var2.intl;
                 var5 = var6.string;
                 var9 = _closure1_slot1;
-                var4 = 8;
-                var4 = var10[var4];
-                var4 = var9.bind(var7)(var4);
-                var4 = var4.Vf2ZcR;
-                var3 = var5.bind(var6)(var4);
-                _fun0004_ip = 21; continue _fun0004;
+                var2 = 8;
+                var2 = var10[var2];
+                var2 = var9.bind(var8)(var2);
+                var2 = var2.Vf2ZcR;
+                var1 = var5.bind(var6)(var2);
+                _fun0004_ip = 23; continue _fun0004;
 case 14:
-                var4 = _closure2_slot4;
+                var2 = _closure2_slot4;
                 var6 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var5 = 7;
                 var5 = var11[var5];
-                var5 = var6.bind(var7)(var5);
+                var5 = var6.bind(var8)(var5);
                 var9 = var5.intl;
                 var6 = var9.string;
                 var10 = _closure1_slot1;
                 var5 = 8;
                 var5 = var11[var5];
-                var5 = var10.bind(var7)(var5);
-                if(var4) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
-                var4 = var5.Du91Rb;
-                var4 = var6.bind(var9)(var4);
-                _fun0004_ip = 24; continue _fun0004;
-case 22:
-                var5 = var5.hN75yb;
-                var4 = var6.bind(var9)(var5);
+                var5 = var10.bind(var8)(var5);
+                if(var2) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
+                var2 = var5.Du91Rb;
+                var2 = var6.bind(var9)(var2);
+                _fun0004_ip = 26; continue _fun0004;
 case 24:
-                var3 = var4;
-                _fun0004_ip = 21; continue _fun0004;
+                var5 = var5.hN75yb;
+                var2 = var6.bind(var9)(var5);
+case 26:
+                var1 = var2;
+                _fun0004_ip = 23; continue _fun0004;
 case 12:
                 var5 = _closure2_slot5;
-                var4 = 0;
-                if(!(!(var5 > var4))) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+                var2 = 0;
+                if(!(!(var5 > var2))) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                 var5 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var4 = 7;
-                var4 = var10[var4];
-                var4 = var5.bind(var7)(var4);
-                var9 = var4.intl;
+                var2 = 7;
+                var2 = var10[var2];
+                var2 = var5.bind(var8)(var2);
+                var9 = var2.intl;
                 var6 = var9.formatToPlainString;
                 var5 = _closure1_slot1;
-                var4 = 8;
-                var4 = var10[var4];
-                var4 = var5.bind(var7)(var4);
-                var5 = var4.cavtEo;
-                var4 = {};
+                var2 = 8;
+                var2 = var10[var2];
+                var2 = var5.bind(var8)(var2);
+                var5 = var2.cavtEo;
+                var2 = {};
                 var10 = _closure2_slot1;
                 var10 = var10.title;
-                var4['perk'] = var10;
-                var4 = var6.bind(var9)(var5, var4);
-                _fun0004_ip = 27; continue _fun0004;
-case 25:
+                var2['perk'] = var10;
+                var2 = var6.bind(var9)(var5, var2);
+                _fun0004_ip = 29; continue _fun0004;
+case 27:
                 var6 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var5 = 7;
                 var5 = var11[var5];
-                var5 = var6.bind(var7)(var5);
+                var5 = var6.bind(var8)(var5);
                 var10 = var5.intl;
                 var9 = var10.formatToPlainString;
                 var6 = _closure1_slot1;
                 var5 = 8;
                 var5 = var11[var5];
-                var5 = var6.bind(var7)(var5);
+                var5 = var6.bind(var8)(var5);
                 var6 = var5["4jSvr1"];
                 var5 = {};
                 var11 = _closure2_slot1;
@@ -320,42 +334,57 @@ case 25:
                 var5['perk'] = var11;
                 var11 = _closure2_slot5;
                 var5['memberCount'] = var11;
-                var4 = var9.bind(var10)(var6, var5);
-case 27:
-                var3 = var4;
-case 21:
-                var4 = _closure2_slot4;
-                if(!var4) { _fun0004_ip = 28; continue _fun0004 }
+                var2 = var9.bind(var10)(var6, var5);
 case 29:
-                var2 = _closure2_slot1;
-                var5 = var2.skuId;
+                var1 = var2;
+case 23:
+                var2 = {};
+                var2['text'] = var1;
+                var1 = _closure2_slot1;
+                var5 = var1.skuId;
                 var6 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var2 = var2[var8];
-                var2 = var6.bind(var7)(var2);
-                var2 = var2.GUILD_POWERUP_LEVEL_3_SKU_ID;
-                var4 = var5 === var2;
-case 28:
-                var2 = null;
-                if(!var4) { _fun0004_ip = 30; continue _fun0004 }
+                var1 = _closure1_slot2;
+                var1 = var1[var7];
+                var1 = var6.bind(var8)(var1);
+                var1 = var1.VANITY_URL_POWERUP_SKU_ID;
+                var1 = var5 === var1;
+                var2['critical'] = var1;
+                var1 = new Array(1);
+                var1[0] = var2;
+                var2 = _closure2_slot4;
+                if(!var2) { _fun0004_ip = 30; continue _fun0004 }
 case 31:
-                var5 = _closure1_slot0;
-                var8 = _closure1_slot2;
-                var4 = 7;
-                var4 = var8[var4];
-                var4 = var5.bind(var7)(var4);
-                var5 = var4.intl;
-                var4 = var5.string;
-                var6 = _closure1_slot1;
-                var1 = 8;
-                var1 = var8[var1];
-                var1 = var6.bind(var7)(var1);
-                var1 = var1.M4XL5n;
-                var2 = var4.bind(var5)(var1);
+                var3 = _closure2_slot1;
+                var5 = var3.skuId;
+                var6 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var3 = var3[var7];
+                var3 = var6.bind(var8)(var3);
+                var3 = var3.GUILD_POWERUP_LEVEL_3_SKU_ID;
+                var2 = var5 === var3;
 case 30:
-                var1 = {};
-                var1['warningText'] = var3;
-                var1['vanityUrlWarning'] = var2;
+                if(!var2) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
+                var3 = var1.push;
+                var2 = {};
+                var6 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var5 = 7;
+                var5 = var9[var5];
+                var5 = var6.bind(var8)(var5);
+                var6 = var5.intl;
+                var5 = var6.string;
+                var7 = _closure1_slot1;
+                var4 = 8;
+                var4 = var9[var4];
+                var4 = var7.bind(var8)(var4);
+                var4 = var4.M4XL5n;
+                var4 = var5.bind(var6)(var4);
+                var2['text'] = var4;
+                var4 = true;
+                var2['critical'] = var4;
+                var2 = var3.bind(var1)(var2);
+case 32:
                 return var1;
             }
         };

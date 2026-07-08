@@ -594,9 +594,9 @@ case 33:
             var11 = var16.bind(var4)(var14, var11);
             var5['header'] = var11;
             if(!(var10 == var12)) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
-            if(var8) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+case 12:
+            if(var8) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var11 = _closure1_slot15;
             var10 = _closure1_slot14;
             var8 = {};
@@ -637,8 +637,8 @@ case 38:
             var14 = new Array(2);
             var14[0] = var16;
             var18 = _closure1_slot13;
-            if(var15) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
+            if(var15) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
             var16 = _closure1_slot1;
             var22 = _closure1_slot2;
             var15 = 26;
@@ -651,8 +651,8 @@ case 40:
             var15['onInviteSent'] = var19;
             var15['onPressAvatar'] = var17;
             var15 = var18.bind(var4)(var16, var15);
-            _fun0002_ip = 41; continue _fun0002;
-case 39:
+            _fun0002_ip = 40; continue _fun0002;
+case 38:
             var22 = _closure1_slot0;
             var19 = _closure1_slot2;
             var16 = 23;
@@ -673,18 +673,18 @@ case 39:
             var19 = var20.bind(var21)(var19);
             var16['title'] = var19;
             var15 = var18.bind(var4)(var17, var16);
-case 41:
+case 40:
             var14[1] = var15;
             var8['children'] = var14;
             var8 = var11.bind(var4)(var10, var8);
-            _fun0002_ip = 42; continue _fun0002;
-case 37:
+            _fun0002_ip = 41; continue _fun0002;
+case 36:
             var14 = _closure1_slot13;
             var11 = _closure1_slot17;
             var10 = {};
             var8 = var14.bind(var4)(var11, var10);
-case 42:
-            _fun0002_ip = 43; continue _fun0002;
+case 41:
+            _fun0002_ip = 42; continue _fun0002;
 case 35:
             var11 = _closure1_slot13;
             var14 = _closure1_slot0;
@@ -703,7 +703,7 @@ case 35:
             var9['Illustration'] = var13;
             var9['title'] = var12;
             var8 = var11.bind(var4)(var10, var9);
-case 43:
+case 42:
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

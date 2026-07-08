@@ -7,21 +7,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
-    var1 = function BundleStaticPreviewContent(arg1) {
+    var1 = function getSizedAssetUri(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var3 = arg2;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = var1.startsWith;
+            var2 = 'https://cdn.discordapp.com';
+            var2 = var4.bind(var1)(var2);
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            var2 = global;
+            var7 = var2.Math;
+            var6 = var7.min;
+            var5 = _closure1_slot3;
+            var4 = var5.get;
+            var5 = var4.bind(var5)();
+            var4 = 2;
+            var6 = var6.bind(var7)(var5, var4);
+            var7 = var2.Math;
+            var5 = var7.round;
+            var4 = var3.width;
+            var4 = var4 * var6;
+            var8 = var5.bind(var7)(var4);
+            var5 = var2.Math;
+            var4 = var5.round;
+            var3 = var3.height;
+            var3 = var3 * var6;
+            var7 = var4.bind(var5)(var3);
+            var3 = var1.includes;
+            var4 = '?';
+            var3 = var3.bind(var1)(var4);
+            var6 = var4;
+            if(!var3) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            var6 = '&';
+case 5:
+            var2 = var2.HermesInternal;
+            var5 = var2.concat;
+            var15 = '';
+            var12 = 'width=';
+            var10 = '&height=';
+            var14 = var1;
+            var13 = var6;
+            var11 = var8;
+            var9 = var7;
+            var2 = var15[var5](var14, var13, var12, var11, var10, var9, var8);
+            return var2;
+case 2:
+            return var1;
+        }
+    };
+    var _closure1_slot10 = var1;
+    var1 = function BundleStaticPreviewContent(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
             var2 = var3.previewAssets;
             var1 = var3.disableBackground;
             var11 = var3.mutedBackground;
-            var9 = var2.bgStatic;
-            var15 = var2.fgStatic;
+            var17 = var3.targetSize;
+            var12 = var2.bgStatic;
+            var16 = var2.fgStatic;
             var5 = null;
-            var2 = var5 != var9;
+            var2 = var5 != var12;
             var10 = null;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var6 = _closure1_slot5;
+            if(!var2) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+            var6 = _closure1_slot6;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 4;
@@ -30,66 +86,68 @@ case 3:
             var3 = var3.bind(var4)(var2);
             var2 = {'source': null, 'style': null, 'resizeMode': 'cover', 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
             var8 = {};
+            var9 = _closure1_slot10;
+            var9 = var9.bind(var4)(var12, var17);
             var8['uri'] = var9;
             var2['source'] = var8;
-            var7 = _closure1_slot7;
+            var7 = _closure1_slot8;
             var7 = var7.bgImage;
             var2['style'] = var7;
             var10 = var6.bind(var4)(var3, var2);
-case 2:
-            var4 = _closure1_slot6;
-            var3 = _closure1_slot3;
+case 7:
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot4;
             var2 = {};
-            var6 = _closure1_slot7;
+            var6 = _closure1_slot8;
             var6 = var6.container;
             var2['style'] = var6;
             var6 = !var1;
-            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var6) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var6 = var5 != var10;
-case 4:
-            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var9 = _closure1_slot5;
-            var8 = _closure1_slot3;
+case 9:
+            if(!var6) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot4;
             var7 = {};
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot8;
             var1 = var1.bgBleedClip;
             var7['style'] = var1;
-            var16 = 'none';
-            var7['pointerEvents'] = var16;
+            var15 = 'none';
+            var7['pointerEvents'] = var15;
             var1 = var10;
-            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var14 = _closure1_slot5;
-            var12 = _closure1_slot3;
+            if(!var11) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+            var14 = _closure1_slot6;
+            var12 = _closure1_slot4;
             var11 = {};
-            var17 = _closure1_slot7;
-            var17 = var17.bgMutedWrap;
-            var11['style'] = var17;
-            var11['pointerEvents'] = var16;
+            var18 = _closure1_slot8;
+            var18 = var18.bgMutedWrap;
+            var11['style'] = var18;
+            var11['pointerEvents'] = var15;
             var11['children'] = var10;
             var10 = undefined;
             var1 = var14.bind(var10)(var12, var11);
-case 8:
+case 13:
             var7['children'] = var1;
             var1 = undefined;
             var6 = var9.bind(var1)(var8, var7);
-case 6:
+case 11:
             var1 = new Array(2);
             var1[0] = var6;
-            var5 = var5 != var15;
-            if(!var5) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var9 = _closure1_slot5;
-            var8 = _closure1_slot3;
+            var5 = var5 != var16;
+            if(!var5) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot4;
             var7 = {};
-            var6 = _closure1_slot7;
+            var6 = _closure1_slot8;
             var6 = var6.fgClip;
             var7['style'] = var6;
             var6 = 'none';
             var7['pointerEvents'] = var6;
-            var12 = _closure1_slot5;
+            var12 = _closure1_slot6;
             var11 = _closure1_slot1;
             var10 = _closure1_slot2;
             var6 = 4;
@@ -98,15 +156,17 @@ case 11:
             var11 = var11.bind(var6)(var10);
             var10 = {'source': null, 'style': null, 'resizeMode': 'cover', 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
             var14 = {};
+            var15 = _closure1_slot10;
+            var15 = var15.bind(var6)(var16, var17);
             var14['uri'] = var15;
             var10['source'] = var14;
-            var13 = _closure1_slot7;
+            var13 = _closure1_slot8;
             var13 = var13.fgImage;
             var10['style'] = var13;
             var10 = var12.bind(var6)(var11, var10);
             var7['children'] = var10;
             var5 = var9.bind(var6)(var8, var7);
-case 10:
+case 15:
             var1[1] = var5;
             var2['children'] = var1;
             var1 = undefined;
@@ -114,9 +174,9 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot11 = var1;
     var1 = function BundleSampleV2Composed(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var20 = var1.deco;
@@ -124,18 +184,18 @@ case 0:
             var3 = var1.nameplate;
             var2 = var1.size;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+            if(!(var2 === var4)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var2 = 'small';
-case 12:
-            var1 = _closure1_slot8;
+case 17:
+            var1 = _closure1_slot9;
             var10 = var1.bind(var4)(var2);
             var6 = null;
             var1 = var6 != var3;
             var16 = var2;
             var13 = undefined;
-            if(!var1) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(!var1) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 7;
@@ -156,30 +216,30 @@ case 15:
             var2 = var2.bind(var4)(var1);
             var1 = var2.getNameplateData;
             var13 = var1.bind(var2)(var3);
-case 14:
-            var1 = _closure1_slot4;
+case 19:
+            var1 = _closure1_slot5;
             var14 = var1[var16];
-            if(!(var6 == var13)) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(!(var6 == var13)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var19 = var14.avatarDecorationSize;
-            _fun0002_ip = 18; continue _fun0002;
-case 16:
+            _fun0003_ip = 23; continue _fun0003;
+case 21:
             var19 = var14.avatarDecorationSizeTriple;
-case 18:
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot3;
+case 23:
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot4;
             var1 = {};
             var5 = var10.bundle;
             var1['style'] = var5;
             var7 = var6 != var18;
-            if(!var7) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
-            var9 = _closure1_slot5;
-            var8 = _closure1_slot3;
+            if(!var7) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot4;
             var5 = {};
             var11 = var10.pfx;
             var5['style'] = var11;
-            var17 = _closure1_slot5;
+            var17 = _closure1_slot6;
             var12 = _closure1_slot1;
             var21 = _closure1_slot2;
             var11 = 10;
@@ -190,26 +250,26 @@ case 20:
             var11 = var17.bind(var4)(var12, var11);
             var5['children'] = var11;
             var7 = var9.bind(var4)(var8, var5);
-case 19:
+case 24:
             var5 = new Array(3);
             var5[0] = var7;
             var7 = var6 != var20;
-            if(!var7) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
-            var11 = _closure1_slot5;
-            var9 = _closure1_slot3;
+            if(!var7) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
+            var11 = _closure1_slot6;
+            var9 = _closure1_slot4;
             var8 = {};
-            if(!(var6 == var13)) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(!(var6 == var13)) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var17 = var10.avatar;
-            _fun0002_ip = 25; continue _fun0002;
-case 23:
+            _fun0003_ip = 30; continue _fun0003;
+case 28:
             var17 = var10.avatarWithNameplate;
-case 25:
+case 30:
             var12 = new Array(1);
             var12[0] = var17;
             var8['style'] = var12;
-            var18 = _closure1_slot5;
+            var18 = _closure1_slot6;
             var17 = _closure1_slot1;
             var21 = _closure1_slot2;
             var12 = 11;
@@ -223,18 +283,18 @@ case 25:
             var12 = var18.bind(var4)(var17, var12);
             var8['children'] = var12;
             var7 = var11.bind(var4)(var9, var8);
-case 21:
+case 26:
             var5[1] = var7;
             var7 = var6 != var13;
             var6 = null;
-            if(!var7) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
-            var9 = _closure1_slot5;
-            var8 = _closure1_slot3;
+            if(!var7) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot4;
             var7 = {};
             var10 = var10.nameplate;
             var7['style'] = var10;
-            var12 = _closure1_slot5;
+            var12 = _closure1_slot6;
             var11 = _closure1_slot0;
             var17 = _closure1_slot2;
             var10 = 12;
@@ -245,8 +305,8 @@ case 27:
             var14 = var14.nameplatePreviewWidth;
             var10['width'] = var14;
             var14 = 'large';
-            if(!(var14 !== var16)) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+            if(!(var14 !== var16)) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var14 = 13;
@@ -254,8 +314,8 @@ case 29:
             var14 = var16.bind(var4)(var14);
             var14 = var14.AvatarSizes;
             var14 = var14.XSMALL_20;
-            _fun0002_ip = 30; continue _fun0002;
-case 28:
+            _fun0003_ip = 35; continue _fun0003;
+case 33:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var15 = 13;
@@ -263,28 +323,29 @@ case 28:
             var15 = var16.bind(var4)(var15);
             var15 = var15.AvatarSizes;
             var14 = var15.NORMAL;
-case 30:
+case 35:
             var10['avatarSize'] = var14;
             var10['nameplate'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 26:
+case 31:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot12 = var1;
     var1 = function BundleSampleV2StaticPreview(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.previewAssets;
-            var7 = var1.disableStaticBackground;
-            var6 = var1.mutedStaticBackground;
-            var9 = var1.composedFallbackProps;
+            var9 = var1.previewAssets;
+            var8 = var1.disableStaticBackground;
+            var7 = var1.mutedStaticBackground;
+            var6 = var1.targetSize;
+            var10 = var1.composedFallbackProps;
             var4 = var1.exposureLocation;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -295,28 +356,29 @@ case 0:
             var1 = var3.useCollectiblesMobileFlexibleBundlesExperiment;
             var1 = var1.bind(var3)(var4);
             var1 = var1.enabled;
-            var4 = _closure1_slot5;
-            if(var1) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
-            var3 = _closure1_slot10;
+            var4 = _closure1_slot6;
+            if(var1) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
+            var3 = _closure1_slot12;
             var1 = {};
-            var11 = var1;
-            var10 = var9;
-            var9 = copyDataProperties(var11, var10);
+            var12 = var1;
+            var11 = var10;
+            var10 = copyDataProperties(var12, var11);
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 33; continue _fun0003;
-case 31:
-            var3 = _closure1_slot9;
+            _fun0004_ip = 38; continue _fun0004;
+case 36:
+            var3 = _closure1_slot11;
             var2 = {};
-            var2['previewAssets'] = var8;
-            var2['disableBackground'] = var7;
-            var2['mutedBackground'] = var6;
+            var2['previewAssets'] = var9;
+            var2['disableBackground'] = var8;
+            var2['mutedBackground'] = var7;
+            var2['targetSize'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 33:
+case 38:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -333,21 +395,23 @@ case 33:
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var7 = var4.PixelRatio;
+    var _closure1_slot3 = var7;
     var8 = var4.StyleSheet;
     var4 = var4.View;
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.BUNDLE_PREVIEW_CONFIG;
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot5 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var7 = var8.create;
     var4 = {};
     var9 = {};
@@ -393,13 +457,13 @@ case 33:
     var10 = copyDataProperties(var19, var18);
     var4['fgImage'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = function(arg1) {
-        var2 = _closure1_slot4;
+        var2 = _closure1_slot5;
         var1 = arg1;
         var9 = var2[var1];
         var1 = {};
@@ -510,7 +574,7 @@ case 33:
         return var1;
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -518,7 +582,7 @@ case 33:
     var4 = 'modules/collectibles/native/BundleSampleV2.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function BundleSampleV2(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var6 = arg1;
             var4 = var6.deco;
@@ -526,59 +590,61 @@ case 0:
             var2 = var6.nameplate;
             var1 = var6.size;
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+            if(!(var1 === var5)) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var1 = 'small';
-case 12:
-            var10 = var6.previewAssets;
-            var9 = var6.disableStaticBackground;
-            if(!(var9 === var5)) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
-            var9 = false;
-case 34:
-            var8 = var6.mutedStaticBackground;
-            if(!(var8 === var5)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-            var8 = false;
-case 36:
-            var6 = var6.exposureLocation;
-            if(!(var6 === var5)) { _fun0004_ip = 38; continue _fun0004 }
+case 17:
+            var11 = var6.previewAssets;
+            var10 = var6.disableStaticBackground;
+            if(!(var10 === var5)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
+            var10 = false;
 case 39:
+            var9 = var6.mutedStaticBackground;
+            if(!(var9 === var5)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
+            var9 = false;
+case 41:
+            var8 = var6.targetSize;
+            var6 = var6.exposureLocation;
+            if(!(var6 === var5)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var6 = 'CollectiblesShopCardAssetTileV2';
-case 38:
+case 43:
             var7 = {};
             var7['deco'] = var4;
             var7['pfx'] = var3;
             var7['nameplate'] = var2;
             var7['size'] = var1;
             var2 = null;
-            var3 = var2 == var10;
+            var3 = var2 == var11;
             var1 = undefined;
-            if(var3) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-            var1 = var10.fgStatic;
-case 40:
-            if(!(var2 == var1)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot10;
+            if(var3) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
+            var1 = var11.fgStatic;
+case 45:
+            if(!(var2 == var1)) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot12;
             var1 = {};
-            var12 = var1;
-            var11 = var7;
-            var4 = copyDataProperties(var12, var11);
+            var13 = var1;
+            var12 = var7;
+            var4 = copyDataProperties(var13, var12);
             var1 = var3.bind(var5)(var2, var1);
-            _fun0004_ip = 9; continue _fun0004;
-case 42:
-            var4 = _closure1_slot5;
-            var3 = _closure1_slot11;
+            _fun0005_ip = 49; continue _fun0005;
+case 47:
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot13;
             var2 = {};
-            var2['previewAssets'] = var10;
-            var2['disableStaticBackground'] = var9;
-            var2['mutedStaticBackground'] = var8;
+            var2['previewAssets'] = var11;
+            var2['disableStaticBackground'] = var10;
+            var2['mutedStaticBackground'] = var9;
+            var2['targetSize'] = var8;
             var2['composedFallbackProps'] = var7;
             var2['exposureLocation'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 9:
+case 49:
             return var1;
         }
     };

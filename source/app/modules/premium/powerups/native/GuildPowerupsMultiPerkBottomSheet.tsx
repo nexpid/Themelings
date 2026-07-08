@@ -525,6 +525,7 @@ case 0:
             var2 = var1.guildId;
             var _closure2_slot0 = var2;
             var14 = var1.listing;
+            var6 = var1.onDismiss;
             var1 = _closure1_slot7;
             var5 = undefined;
             var15 = var1.bind(var5)();
@@ -553,6 +554,7 @@ case 38:
             var2 = var7.bind(var5)(var2);
             var3 = var2.BottomSheet;
             var2 = {'scrollable': true, 'startExpanded': true};
+            var2['onDismiss'] = var6;
             var8 = _closure1_slot5;
             var6 = 26;
             var6 = var17[var6];

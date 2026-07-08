@@ -1,4 +1,4 @@
-// discord_assets/assets/premium/nitro_halfsheet_bg_dark.png.js
+// discord_assets/assets/mana/asset-library/generated/NitroOpalBadgeLargeBadge-2x.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,14 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/premium/nitro_halfsheet_bg_dark.png.js';
+    var2 = '../discord_assets/assets/mana/asset-library/generated/NitroOpalBadgeLargeBadge-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/f5404451c8d9724f72cc6a71cfceadd75864b56e812f6b4aebf5c299a1789d6f.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/1acd2281cfadc810af655da62615635995d0cf8022489ff0ec87594d08529417.png';
     var3['default'] = var2;
+    var2 = 'https://cdn.discordapp.com/assets/mana/asset-library/generated/NitroOpalBadgeLargeBadge-2x.png';
+    var3['vanityUrl'] = var2;
     var2 = {};
-    var4 = 58822;
+    var4 = 33934;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

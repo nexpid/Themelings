@@ -61,7 +61,7 @@ case 0:
             var7[0] = var5;
             var5 = function() {
                 var2 = _closure1_slot5;
-                var1 = var2.getPremiumSubscription;
+                var1 = var2.getPremiumTypeSubscription;
                 var1 = var1.bind(var2)();
                 return var1;
             };

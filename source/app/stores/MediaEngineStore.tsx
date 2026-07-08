@@ -11189,13 +11189,13 @@ case 0:
             var3 = var2.enabled;
             _closure1_slot84 = var3;
             var2 = var2.unmute;
-            if(!var2) { _fun0135_ip = 381; continue _fun0135 }
+            if(!var2) { _fun0135_ip = 9; continue _fun0135 }
 case 523:
             var4 = _closure1_slot174;
             var3 = undefined;
             var2 = {'mute': false, 'deaf': false};
             var2 = var4.bind(var3)(var2);
-case 381:
+case 9:
             var3 = _closure1_slot77;
             var2 = var3.eachConnection;
             var1 = _closure1_slot159;

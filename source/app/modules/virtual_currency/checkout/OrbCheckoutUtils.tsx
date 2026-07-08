@@ -28,7 +28,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.EXTERNAL_PRODUCT_SKU_IDS;
     var _closure1_slot5 = var4;
-    var4 = 3;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ConstraintReasonCode;
+    var _closure1_slot6 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -100,13 +105,13 @@ case 12:
         }
     };
     var3['getOrbPriceFromPrices'] = var4;
-    var2 = function getOrbCheckoutDisclaimerMessage(arg1) {
+    var4 = function getOrbCheckoutDisclaimerMessage(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
             var9 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var8 = 2;
+            var8 = 3;
             var3 = var2[var8];
             var7 = undefined;
             var3 = var9.bind(var7)(var3);
@@ -183,6 +188,213 @@ case 16:
             return var1;
         }
     };
-    var3['getOrbCheckoutDisclaimerMessage'] = var2;
+    var3['getOrbCheckoutDisclaimerMessage'] = var4;
+    var2 = function resolveOrbCheckoutErrorMessage(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var2 = arg1;
+            var5 = arg2;
+            var3 = null;
+            var4 = var3 == var2;
+            var1 = null;
+            if(var4) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+            var9 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var7 = 4;
+            var6 = var6[var7];
+            var8 = undefined;
+            var6 = var9.bind(var8)(var6);
+            var6 = var6.OrderSigningFailedWithConstraintsError;
+            var6 = var2 instanceof var6;
+            if(!var6) { _fun0003_ip = 5; continue _fun0003 }
+case 20:
+            if(!(var3 == var5)) { _fun0003_ip = 21; continue _fun0003 }
+case 5:
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var6.bind(var8)(var3);
+            var3 = var3.OrderProcessingPendingError;
+            var3 = var2 instanceof var3;
+            if(var3) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
+            var6 = var2.code;
+            var9 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var7 = 5;
+            var3 = var3[var7];
+            var3 = var9.bind(var8)(var3);
+            var3 = var3.ErrorCodes;
+            var3 = var3.VIRTUAL_CURRENCY_INSUFFICIENT_BALANCE;
+            if(!(var6 !== var3)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
+            var6 = var2.code;
+            var9 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var9.bind(var8)(var3);
+            var3 = var3.ErrorCodes;
+            var3 = var3.ALREADY_PURCHASED;
+            if(!(var6 !== var3)) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
+            var3 = var2.code;
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var7];
+            var2 = var6.bind(var8)(var2);
+            var2 = var2.ErrorCodes;
+            var2 = var2.BILLING_ORDER_NOT_SIGNABLE;
+            if(!(var3 !== var2)) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var2 = 3;
+            var3 = var9[var2];
+            var3 = var7.bind(var8)(var3);
+            var6 = var3.intl;
+            var3 = var6.string;
+            var2 = var9[var2];
+            var2 = var7.bind(var8)(var2);
+            var2 = var2.t;
+            var2 = var2.fqJZ11;
+            var2 = var3.bind(var6)(var2);
+            _fun0003_ip = 30; continue _fun0003;
+case 28:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 3;
+            var6 = var10[var3];
+            var6 = var9.bind(var8)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var3 = var10[var3];
+            var3 = var9.bind(var8)(var3);
+            var3 = var3.t;
+            var3 = var3.ZHgEG7;
+            var2 = var6.bind(var7)(var3);
+case 30:
+            _fun0003_ip = 31; continue _fun0003;
+case 26:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 3;
+            var6 = var10[var3];
+            var6 = var9.bind(var8)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var3 = var10[var3];
+            var3 = var9.bind(var8)(var3);
+            var3 = var3.t;
+            var3 = var3.m371Mx;
+            var2 = var6.bind(var7)(var3);
+case 31:
+            _fun0003_ip = 32; continue _fun0003;
+case 24:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 3;
+            var6 = var10[var3];
+            var6 = var9.bind(var8)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var3 = var10[var3];
+            var3 = var9.bind(var8)(var3);
+            var3 = var3.t;
+            var3 = var3.keFvXM;
+            var2 = var6.bind(var7)(var3);
+case 32:
+            _fun0003_ip = 33; continue _fun0003;
+case 22:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 3;
+            var6 = var10[var3];
+            var6 = var9.bind(var8)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var3 = var10[var3];
+            var3 = var9.bind(var8)(var3);
+            var3 = var3.t;
+            var3 = var3["2BmwgV"];
+            var2 = var6.bind(var7)(var3);
+case 33:
+            _fun0003_ip = 34; continue _fun0003;
+case 21:
+            var3 = _closure1_slot6;
+            var3 = var3.INSUFFICIENT_ORB_BALANCE;
+            if(!(var3 !== var5)) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
+            var3 = _closure1_slot6;
+            var3 = var3.SKU_ALREADY_OWNED;
+            if(!(var3 !== var5)) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
+            var3 = _closure1_slot6;
+            var3 = var3.BUNDLE_PARTIALLY_OWNED;
+            if(!(var3 !== var5)) { _fun0003_ip = 39; continue _fun0003 }
+case 40:
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var3 = 3;
+            var5 = var9[var3];
+            var5 = var7.bind(var8)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var3 = var9[var3];
+            var3 = var7.bind(var8)(var3);
+            var3 = var3.t;
+            var3 = var3.fqJZ11;
+            var3 = var5.bind(var6)(var3);
+            _fun0003_ip = 41; continue _fun0003;
+case 39:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var5 = 3;
+            var6 = var10[var5];
+            var6 = var9.bind(var8)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var5 = var10[var5];
+            var5 = var9.bind(var8)(var5);
+            var5 = var5.t;
+            var5 = var5.v9oC0p;
+            var3 = var6.bind(var7)(var5);
+            _fun0003_ip = 41; continue _fun0003;
+case 37:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var5 = 3;
+            var6 = var10[var5];
+            var6 = var9.bind(var8)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var5 = var10[var5];
+            var5 = var9.bind(var8)(var5);
+            var5 = var5.t;
+            var5 = var5.m371Mx;
+            var3 = var6.bind(var7)(var5);
+            _fun0003_ip = 41; continue _fun0003;
+case 35:
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var4 = 3;
+            var5 = var9[var4];
+            var5 = var7.bind(var8)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var9[var4];
+            var4 = var7.bind(var8)(var4);
+            var4 = var4.t;
+            var4 = var4.keFvXM;
+            var3 = var5.bind(var6)(var4);
+case 41:
+            var2 = var3;
+case 34:
+            var1 = var2;
+case 18:
+            return var1;
+        }
+    };
+    var3['resolveOrbCheckoutErrorMessage'] = var2;
     return var1;
 })();

@@ -77,39 +77,42 @@ case 2:
             var7 = var3.bind(var1)(var4, var9);
             var5 = 0;
             var4 = var7[var5];
+            var _closure2_slot0 = var4;
             var3 = 1;
             var3 = var7[var3];
-            var _closure2_slot0 = var3;
-            var8 = var4.forEach;
-            var7 = function(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var3 = arg1;
-                    var2 = var3.onDismiss;
-                    var1 = null;
-                    var2 = var1 == var2;
-                    var1 = undefined;
-                    if(var2) { _fun0003_ip = 4; continue _fun0003 }
-case 3:
-                    var2 = var3.onDismiss;
-                    var1 = var2.bind(var3)();
-case 4:
-                    return var1;
-                }
-            };
-            var7 = var8.bind(var4)(var7);
+            var _closure2_slot1 = var3;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
             var7 = var7[var9];
             var8 = var8.bind(var1)(var7);
             var7 = var8.batchUpdates;
             var6 = function() {
-                var3 = _closure1_slot4;
-                var2 = var3.setState;
-                var1 = {};
-                var4 = _closure2_slot0;
-                var1['alerts'] = var4;
+                var4 = _closure1_slot4;
+                var3 = var4.setState;
+                var2 = {};
+                var5 = _closure2_slot1;
+                var2['alerts'] = var5;
+                var2 = var3.bind(var4)(var2);
+                var3 = _closure2_slot0;
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var3 = arg1;
+                        var2 = var3.onDismiss;
+                        var1 = null;
+                        var2 = var1 == var2;
+                        var1 = undefined;
+                        if(var2) { _fun0003_ip = 4; continue _fun0003 }
+case 3:
+                        var2 = var3.onDismiss;
+                        var1 = var2.bind(var3)();
+case 4:
+                        return var1;
+                    }
+                };
                 var1 = var2.bind(var3)(var1);
+                var1 = undefined;
                 return var1;
             };
             var6 = var7.bind(var8)(var6);
@@ -139,58 +142,47 @@ case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
             var3 = _closure1_slot4;
-            var1 = var3.getState;
-            var1 = var1.bind(var3)();
-            var6 = var1.alerts;
-            var _closure2_slot1 = var6;
-            var3 = var6.length;
-            var1 = 1;
-            var3 = var1 === var3;
-            if(!var3) { _fun0004_ip = 9; continue _fun0004 }
+            var2 = var3.getState;
+            var2 = var2.bind(var3)();
+            var7 = var2.alerts;
+            var3 = var7.find;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.key;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var3 = var3.bind(var7)(var2);
+            var _closure2_slot1 = var3;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0004_ip = 9; continue _fun0004 }
 case 10:
-            var1 = 0;
-            var6 = var6[var1];
-            var1 = null;
-            var7 = var1 == var6;
-            var1 = undefined;
-            if(var7) { _fun0004_ip = 11; continue _fun0004 }
+            var6 = var7.length;
+            var3 = 1;
+            var3 = var3 === var6;
+            if(!var3) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
-            var1 = var6.key;
+            var6 = 0;
+            var6 = var7[var6];
+            var7 = var2 == var6;
+            var2 = undefined;
+            if(var7) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+            var2 = var6.key;
+case 13:
+            var3 = var2 === var5;
 case 11:
-            var3 = var1 === var5;
-case 9:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 2;
-            var5 = var5[var1];
-            var1 = undefined;
-            var6 = var6.bind(var1)(var5);
+            var2 = 2;
+            var5 = var5[var2];
+            var2 = undefined;
+            var6 = var6.bind(var2)(var5);
             var5 = var6.batchUpdates;
             var4 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var4 = _closure2_slot1;
-                    var3 = var4.find;
-                    var2 = function(arg1) {
-                        var1 = arg1;
-                        var2 = var1.key;
-                        var1 = _closure2_slot0;
-                        var1 = var2 === var1;
-                        return var1;
-                    };
-                    var3 = var3.bind(var4)(var2);
-                    var5 = null;
-                    var2 = var5 == var3;
-                    if(var2) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
-                    var4 = var3.onDismiss;
-                    var2 = var5 == var4;
-case 13:
-                    if(var2) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
-                    var2 = var3.onDismiss;
-                    var2 = var2.bind(var3)();
-case 15:
                     var3 = _closure1_slot4;
                     var2 = var3.setState;
                     var1 = function(arg1) {
@@ -210,20 +202,30 @@ case 15:
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
+                    var2 = _closure2_slot1;
+                    var3 = var2.onDismiss;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0005_ip = 10; continue _fun0005 }
+case 15:
+                    var2 = _closure2_slot1;
+                    var1 = var2.onDismiss;
+                    var1 = var1.bind(var2)();
+case 10:
                     var1 = undefined;
                     return var1;
                 }
             };
             var4 = var5.bind(var6)(var4);
-            if(!var3) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+            if(!var3) { _fun0004_ip = 9; continue _fun0004 }
+case 16:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 3;
-            var2 = var4[var2];
-            var2 = var3.bind(var1)(var2);
-            var2 = var2.bind(var1)();
-case 17:
+            var1 = 3;
+            var1 = var4[var1];
+            var1 = var3.bind(var2)(var1);
+            var1 = var1.bind(var2)();
+case 9:
+            var1 = undefined;
             return var1;
         }
     };
@@ -245,8 +247,8 @@ case 0:
             var3 = var3.alerts;
             var4 = var3.length;
             var3 = 0;
-            if(!(var3 === var4)) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+            if(!(var3 === var4)) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 4;
@@ -254,7 +256,7 @@ case 20:
             var4 = undefined;
             var3 = var5.bind(var4)(var3);
             var3 = var3.bind(var4)();
-case 19:
+case 17:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 2;
@@ -286,11 +288,11 @@ case 0:
                         var5 = null;
                         var7 = var5 == var7;
                         var5 = undefined;
-                        if(var7) { _fun0007_ip = 21; continue _fun0007 }
-case 22:
+                        if(var7) { _fun0007_ip = 19; continue _fun0007 }
+case 20:
                         var6 = _closure2_slot3;
                         var5 = var6.dismissable;
-case 21:
+case 19:
                         var3['dismissable'] = var5;
                         var2[3] = var3;
                         var3 = 1;
