@@ -185,6 +185,12 @@
         "midnight": "#f23f43",
         "darker": "#f23f43"
     },
+    "BADGE_TEXT_BRAND": {
+        "dark": "#ffffff",
+        "light": "#ffffff",
+        "midnight": "#ffffff",
+        "darker": "#ffffff"
+    },
     "BADGE_TEXT_DEFAULT": {
         "dark": "#dbdee1",
         "light": "#313338",

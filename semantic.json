@@ -929,6 +929,36 @@
             }
         ]
     },
+    "BADGE_TEXT_BRAND": {
+        "dark": [
+            "#ffffff",
+            {
+                "raw": "NEUTRAL_1",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ffffff",
+            {
+                "raw": "NEUTRAL_1",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#ffffff",
+            {
+                "raw": "NEUTRAL_1",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#ffffff",
+            {
+                "raw": "NEUTRAL_1",
+                "opacity": 1
+            }
+        ]
+    },
     "BADGE_TEXT_DEFAULT": {
         "dark": [
             "#dbdee1",
