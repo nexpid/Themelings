@@ -6089,6 +6089,36 @@
             }
         ]
     },
+    "KEYWORD_HIGHLIGHT_BACKGROUND": {
+        "dark": [
+            "#2b2d31",
+            {
+                "raw": "PRIMARY_630",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#f2f3f5",
+            {
+                "raw": "PRIMARY_130",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#000000",
+            {
+                "raw": "BLACK",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#1c1d23",
+            {
+                "raw": "PLUM_20",
+                "opacity": 1
+            }
+        ]
+    },
     "LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT": {
         "dark": [
             "#23242880",
@@ -6689,6 +6719,186 @@
             }
         ]
     },
+    "MOBILE_CHAT_NEW_MESSAGE_BORDER": {
+        "dark": [
+            "#f23f4333",
+            {
+                "raw": "RED_400",
+                "opacity": 0.2
+            }
+        ],
+        "light": [
+            "#da373c33",
+            {
+                "raw": "RED_430",
+                "opacity": 0.2
+            }
+        ],
+        "midnight": [
+            "#f23f4333",
+            {
+                "raw": "RED_400",
+                "opacity": 0.2
+            }
+        ],
+        "darker": [
+            "#f23f4333",
+            {
+                "raw": "RED_400",
+                "opacity": 0.2
+            }
+        ]
+    },
+    "MOBILE_CHAT_NEW_MESSAGE_TEXT": {
+        "dark": [
+            "#f23f43",
+            {
+                "raw": "RED_400",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#da373c",
+            {
+                "raw": "RED_430",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#f23f43",
+            {
+                "raw": "RED_400",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#f23f43",
+            {
+                "raw": "RED_400",
+                "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_CHATINPUT_BACKGROUND_ACTIVE": {
+        "dark": [
+            "#111214",
+            {
+                "raw": "PRIMARY_800",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#212229",
+            {
+                "raw": "PLUM_19",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#2c2d35",
+            {
+                "raw": "PLUM_17",
+                "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_CHATINPUT_BACKGROUND_DEFAULT": {
+        "dark": [
+            "#111214",
+            {
+                "raw": "PRIMARY_800",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#212229",
+            {
+                "raw": "PLUM_19",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#2c2d35",
+            {
+                "raw": "PLUM_17",
+                "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_CHATINPUT_BORDER_ACTIVE": {
+        "dark": [
+            "#ffffff14",
+            {
+                "raw": "WHITE",
+                "opacity": 0.08
+            }
+        ],
+        "light": [
+            "#00000014",
+            {
+                "raw": "BLACK",
+                "opacity": 0.08
+            }
+        ],
+        "midnight": [
+            "#6c6f7c24",
+            {
+                "raw": "PLUM_11",
+                "opacity": 0.14
+            }
+        ],
+        "darker": [
+            "#6c6f7c1f",
+            {
+                "raw": "PLUM_11",
+                "opacity": 0.12
+            }
+        ]
+    },
+    "MOBILE_CHATINPUT_BORDER_DEFAULT": {
+        "dark": [
+            "#ffffff14",
+            {
+                "raw": "WHITE",
+                "opacity": 0.08
+            }
+        ],
+        "light": [
+            "#00000014",
+            {
+                "raw": "BLACK",
+                "opacity": 0.08
+            }
+        ],
+        "midnight": [
+            "#6c6f7c24",
+            {
+                "raw": "PLUM_11",
+                "opacity": 0.14
+            }
+        ],
+        "darker": [
+            "#6c6f7c1f",
+            {
+                "raw": "PLUM_11",
+                "opacity": 0.12
+            }
+        ]
+    },
     "MOBILE_COACHMARK_BACKGROUND_DEFAULT": {
         "dark": [
             "#111214",
@@ -7019,6 +7229,36 @@
             }
         ]
     },
+    "MOBILE_FLOATINGBAR_BACKGROUND_HIGHER": {
+        "dark": [
+            "#111214",
+            {
+                "raw": "PRIMARY_800",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#212229",
+            {
+                "raw": "PLUM_19",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#2c2d35",
+            {
+                "raw": "PLUM_17",
+                "opacity": 1
+            }
+        ]
+    },
     "MOBILE_FLOATINGBAR_BACKGROUND_NAMEPLATE": {
         "dark": [
             "#111214",
@@ -7136,6 +7376,36 @@
             {
                 "raw": "PLUM_6",
                 "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_HEADER_BORDER": {
+        "dark": [
+            "#ffffff14",
+            {
+                "raw": "WHITE",
+                "opacity": 0.08
+            }
+        ],
+        "light": [
+            "#00000014",
+            {
+                "raw": "BLACK",
+                "opacity": 0.08
+            }
+        ],
+        "midnight": [
+            "#6c6f7c24",
+            {
+                "raw": "PLUM_11",
+                "opacity": 0.14
+            }
+        ],
+        "darker": [
+            "#6c6f7c1f",
+            {
+                "raw": "PLUM_11",
+                "opacity": 0.12
             }
         ]
     },

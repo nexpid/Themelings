@@ -1217,6 +1217,12 @@
         "midnight": "#dddee1",
         "darker": "#dddee1"
     },
+    "KEYWORD_HIGHLIGHT_BACKGROUND": {
+        "dark": "#2b2d31",
+        "light": "#f2f3f5",
+        "midnight": "#000000",
+        "darker": "#1c1d23"
+    },
     "LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT": {
         "dark": "#23242880",
         "light": "#f2f3f51a",
@@ -1337,6 +1343,42 @@
         "midnight": "#6c6f7c29",
         "darker": "#6c6f7c1f"
     },
+    "MOBILE_CHAT_NEW_MESSAGE_BORDER": {
+        "dark": "#f23f4333",
+        "light": "#da373c33",
+        "midnight": "#f23f4333",
+        "darker": "#f23f4333"
+    },
+    "MOBILE_CHAT_NEW_MESSAGE_TEXT": {
+        "dark": "#f23f43",
+        "light": "#da373c",
+        "midnight": "#f23f43",
+        "darker": "#f23f43"
+    },
+    "MOBILE_CHATINPUT_BACKGROUND_ACTIVE": {
+        "dark": "#111214",
+        "light": "#ffffff",
+        "midnight": "#212229",
+        "darker": "#2c2d35"
+    },
+    "MOBILE_CHATINPUT_BACKGROUND_DEFAULT": {
+        "dark": "#111214",
+        "light": "#ffffff",
+        "midnight": "#212229",
+        "darker": "#2c2d35"
+    },
+    "MOBILE_CHATINPUT_BORDER_ACTIVE": {
+        "dark": "#ffffff14",
+        "light": "#00000014",
+        "midnight": "#6c6f7c24",
+        "darker": "#6c6f7c1f"
+    },
+    "MOBILE_CHATINPUT_BORDER_DEFAULT": {
+        "dark": "#ffffff14",
+        "light": "#00000014",
+        "midnight": "#6c6f7c24",
+        "darker": "#6c6f7c1f"
+    },
     "MOBILE_COACHMARK_BACKGROUND_DEFAULT": {
         "dark": "#111214",
         "light": "#ffffff",
@@ -1403,6 +1445,12 @@
         "midnight": "#212229",
         "darker": "#2c2d35"
     },
+    "MOBILE_FLOATINGBAR_BACKGROUND_HIGHER": {
+        "dark": "#111214",
+        "light": "#ffffff",
+        "midnight": "#212229",
+        "darker": "#2c2d35"
+    },
     "MOBILE_FLOATINGBAR_BACKGROUND_NAMEPLATE": {
         "dark": "#111214",
         "light": "#ffffff",
@@ -1426,6 +1474,12 @@
         "light": "#4e5058",
         "midnight": "#c7c8ce",
         "darker": "#c7c8ce"
+    },
+    "MOBILE_HEADER_BORDER": {
+        "dark": "#ffffff14",
+        "light": "#00000014",
+        "midnight": "#6c6f7c24",
+        "darker": "#6c6f7c1f"
     },
     "MOBILE_HEADER_ICON_DEFAULT": {
         "dark": "#b5bac1",
