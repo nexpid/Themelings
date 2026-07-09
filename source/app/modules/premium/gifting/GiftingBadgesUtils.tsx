@@ -82,49 +82,144 @@ case 6:
         }
     };
     var3['getGiftingBadgeProgressPercent'] = var4;
-    var2 = function useIsEligibleToShowGiftingBadgeCoachmark(arg1) {
+    var4 = function useIsGiftingBadgesDesktopEnabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var1 = arg1;
-            var2 = var1.platform;
-            var4 = var1.location;
-            var1 = 'web';
-            if(!(var1 !== var2)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var3 = var1.GiftingBadgeExperiment;
-            _fun0002_ip = 11; continue _fun0002;
-case 9:
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot1;
+            var8 = arg1;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var1 = 2;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var5.bind(var1)(var2);
-            var3 = var1.GiftingBadgeDesktopExperiment;
-case 11:
-            var2 = var3.useConfig;
+            var1 = var5[var1];
+            var3 = undefined;
+            var1 = var4.bind(var3)(var1);
+            var6 = var1.GiftingBadgeExperiment;
+            var2 = var6.useConfig;
             var1 = {};
-            var1['location'] = var4;
-            var1 = var2.bind(var3)(var1);
+            var1['location'] = var8;
+            var1 = var2.bind(var6)(var1);
+            var2 = var1.enabled;
+            var1 = 3;
+            var1 = var5[var1];
+            var1 = var4.bind(var3)(var1);
+            var4 = var1.GiftingBadgeDesktopExperiment;
+            var3 = var4.useConfig;
+            var1 = {};
+            var7 = '-DISABLED';
+            if(!var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var7 = '';
+case 9:
+            var5 = global;
+            var5 = var5.HermesInternal;
+            var6 = var5.concat;
+            var5 = '';
+            var5 = var6.bind(var5)(var8, var7);
+            var1['location'] = var5;
+            var1 = var3.bind(var4)(var1);
             var1 = var1.enabled;
-            var7 = _closure1_slot0;
+            if(!var1) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+            var1 = var2;
+case 11:
+            return var1;
+        }
+    };
+    var3['useIsGiftingBadgesDesktopEnabled'] = var4;
+    var4 = function getIsGiftingBadgesDesktopEnabled(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var5 = arg1;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 2;
+            var1 = var4[var1];
+            var4 = undefined;
+            var1 = var3.bind(var4)(var1);
+            var6 = var1.GiftingBadgeExperiment;
+            var3 = var6.getConfig;
+            var1 = {};
+            var1['location'] = var5;
+            var1 = var3.bind(var6)(var1);
+            var1 = var1.enabled;
+            var3 = !var1;
+            var1 = !var3;
+            if(var3) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 3;
+            var2 = var6[var2];
+            var2 = var3.bind(var4)(var2);
+            var4 = var2.GiftingBadgeDesktopExperiment;
+            var3 = var4.getConfig;
+            var2 = {};
+            var2['location'] = var5;
+            var2 = var3.bind(var4)(var2);
+            var1 = var2.enabled;
+case 13:
+            return var1;
+        }
+    };
+    var3['getIsGiftingBadgesDesktopEnabled'] = var4;
+    var2 = function useIsEligibleToShowGiftingBadgeCoachmark(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var1 = arg1;
+            var8 = var1.platform;
+            var11 = var1.location;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 2;
+            var1 = var5[var1];
+            var7 = undefined;
+            var1 = var3.bind(var7)(var1);
+            var6 = var1.GiftingBadgeExperiment;
+            var4 = var6.useConfig;
+            var1 = {};
+            var1['location'] = var11;
+            var1 = var4.bind(var6)(var1);
+            var4 = var1.enabled;
+            var1 = 3;
+            var1 = var5[var1];
+            var1 = var3.bind(var7)(var1);
+            var6 = var1.GiftingBadgeDesktopExperiment;
+            var3 = var6.useConfig;
+            var1 = {};
+            var5 = 'web';
+            var5 = var5 === var8;
+            var10 = '-DISABLED';
+            if(!var5) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
+            var10 = '';
+case 15:
+            var8 = global;
+            var8 = var8.HermesInternal;
+            var9 = var8.concat;
+            var8 = '';
+            var8 = var9.bind(var8)(var11, var10);
+            var1['location'] = var8;
+            var1 = var3.bind(var6)(var1);
+            var3 = var1.enabled;
+            var1 = var4;
+            if(!var5) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
+            if(!var3) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+            var3 = var4;
+case 19:
+            var1 = var3;
+case 17:
+            var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 4;
             var3 = var8[var3];
-            var6 = undefined;
-            var5 = var7.bind(var6)(var3);
+            var5 = var6.bind(var7)(var3);
             var4 = var5.useStateFromStores;
             var2 = _closure1_slot3;
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var2 = _closure1_slot3;
                     var1 = var2.getCurrentUser;
@@ -132,38 +227,38 @@ case 0:
                     var1 = null;
                     var3 = var1 == var4;
                     var2 = undefined;
-                    if(var3) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                    if(var3) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
                     var3 = var4.hasHadPremium;
                     var2 = var3.bind(var4)();
-case 12:
+case 21:
                     var1 = var1 != var2;
-                    if(!var1) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                    if(!var1) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                     var1 = var2;
-case 14:
+case 23:
                     return var1;
                 }
             };
             var3 = var4.bind(var5)(var3, var2);
             var2 = 5;
             var2 = var8[var2];
-            var5 = var7.bind(var6)(var2);
+            var5 = var6.bind(var7)(var2);
             var4 = var5.UNSAFE_useIsDismissibleContentDismissed;
             var2 = 6;
             var2 = var8[var2];
-            var2 = var7.bind(var6)(var2);
+            var2 = var6.bind(var7)(var2);
             var2 = var2.DismissibleContent;
             var2 = var2.NEW_GIFTING_BADGES_COACHMARK;
             var2 = var4.bind(var5)(var2);
-            if(!var1) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(!var1) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var1 = var3;
-case 16:
-            if(!var1) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+case 25:
+            if(!var1) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             var1 = !var2;
-case 18:
+case 27:
             return var1;
         }
     };

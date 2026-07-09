@@ -38,34 +38,39 @@ case 0:
             var1 = var1 instanceof Object ? var1 : var3;
             var3 = var2.order;
             var1['position_'] = var3;
-            var3 = var2.nickname;
-            var4 = null;
-            var3 = var4 != var3;
-            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+            var4 = var2.nickname;
+            var3 = null;
+            var4 = var3 != var4;
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = var5.type;
             var5 = _closure1_slot0;
             var5 = var5.DM;
-            var3 = var6 !== var5;
+            var4 = var6 !== var5;
 case 2:
-            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = var2.nickname;
-            var1['name'] = var3;
+            var4 = var2.nickname;
+            var1['name'] = var4;
 case 4:
-            var3 = var2.parentId;
-            var3 = var4 != var3;
-            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+            var4 = var2.parentId;
+            if(!(var3 != var4)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var5 = var2.parentId;
             var4 = arg1;
-            var3 = var5 in var4;
+            var4 = var5 in var4;
+            if(var4) { _fun0001_ip = 8; continue _fun0001 }
 case 6:
-            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            var5 = var1.parent_id;
+            var4 = undefined;
+            if(!(var4 === var5)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            var1['parent_id'] = var3;
+            _fun0001_ip = 9; continue _fun0001;
+case 8:
             var2 = var2.parentId;
             var1['parent_id'] = var2;
-case 8:
+case 9:
             return var1;
         }
     };

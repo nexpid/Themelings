@@ -57,6 +57,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['ALL_PHOTOS'] = var8;
     var1 = 'ALL_PHOTOS';
     var11[var8] = var1;
+    var2 = 5;
+    var11['CAMERA'] = var2;
+    var1 = 'CAMERA';
+    var11[var2] = var1;
     var10 = {};
     var1 = 'opened';
     var10['OPENED'] = var1;

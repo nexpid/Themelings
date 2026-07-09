@@ -226,6 +226,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['REMOVE_FROM_WISHLIST'] = var18;
     var18 = 'close_detail';
     var2['CLOSE_DETAIL'] = var18;
+    var18 = 'go_to_collection';
+    var2['GO_TO_COLLECTION'] = var18;
     var18 = 'copy_link';
     var2['COPY_LINK'] = var18;
     var18 = 'share_link';
@@ -280,6 +282,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = 20;
     var3['STATE_TRANSITION_THRESHOLD_PX'] = var14;
     var3['CollectiblesSearchBarCTAName'] = var13;
+    var13 = 'category';
+    var3['BROWSE_CATEGORY_QUERY_PARAM'] = var13;
     var3['CollectibleShopTab'] = var12;
     var3['CollectiblesIndexPageTabs'] = var11;
     var11 = function isIndexPageTab(arg1) {

@@ -46,7 +46,7 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageEmbedTypes;
     var _closure1_slot4 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -92,48 +92,62 @@ case 0:
                 var6 = var3.width;
                 var5 = var3.height;
                 var1 = {};
-                var14 = var1;
-                var13 = var3;
-                var3 = copyDataProperties(var14, var13);
+                var16 = var1;
+                var15 = var3;
+                var3 = copyDataProperties(var16, var15);
+                var8 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var4 = 2;
+                var11 = var10[var4];
+                var9 = undefined;
+                var12 = var8.bind(var9)(var11);
+                var11 = var12.sanitizeMediaDimension;
+                var12 = var11.bind(var12)(var6);
+                var11 = 'width';
+                var1[10] = var12;
+                var4 = var10[var4];
+                var8 = var8.bind(var9)(var4);
+                var4 = var8.sanitizeMediaDimension;
+                var8 = var4.bind(var8)(var5);
+                var4 = 'height';
+                var1[3] = var8;
                 var8 = null;
-                var4 = var2;
+                var10 = var2;
                 if(!(var8 != var2)) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                var10 = _closure1_slot1;
-                var9 = _closure1_slot2;
-                var3 = 2;
-                var9 = var9[var3];
-                var3 = undefined;
-                var10 = var10.bind(var3)(var9);
-                var9 = var10.getImageSrc;
-                var3 = _closure2_slot1;
-                var11 = !var3;
-                var15 = var10;
-                var14 = var2;
-                var13 = var6;
-                var12 = var5;
-                var4 = var15[var9](var14, var13, var12, var11, var10);
+                var11 = _closure1_slot1;
+                var12 = _closure1_slot2;
+                var4 = 3;
+                var4 = var12[var4];
+                var12 = var11.bind(var9)(var4);
+                var11 = var12.getImageSrc;
+                var4 = _closure2_slot1;
+                var13 = !var4;
+                var17 = var12;
+                var16 = var2;
+                var15 = var6;
+                var14 = var5;
+                var10 = var17[var11](var16, var15, var14, var13, var12);
 case 5:
-                var3 = 'proxyURL';
-                var1[2] = var4;
-                var9 = _closure1_slot1;
-                var4 = _closure1_slot2;
-                var3 = 2;
-                var4 = var4[var3];
-                var3 = undefined;
-                var4 = var9.bind(var3)(var4);
+                var4 = 'proxyURL';
+                var1[3] = var10;
+                var4 = _closure1_slot1;
+                var10 = _closure1_slot2;
+                var3 = 3;
+                var3 = var10[var3];
+                var4 = var4.bind(var9)(var3);
                 var3 = var4.getImageSrc;
                 if(!(var8 != var2)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
                 var7 = var2;
 case 7:
                 var2 = _closure2_slot1;
-                var11 = !var2;
-                var15 = var4;
-                var14 = var7;
-                var13 = var6;
-                var12 = var5;
-                var3 = var15[var3](var14, var13, var12, var11, var10);
+                var13 = !var2;
+                var17 = var4;
+                var16 = var7;
+                var15 = var6;
+                var14 = var5;
+                var3 = var17[var3](var16, var15, var14, var13, var12);
                 var2 = 'url';
                 var1[1] = var3;
                 return var1;
@@ -186,7 +200,7 @@ case 18:
 case 15:
                 var5 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var10 = 3;
+                var10 = 4;
                 var3 = var2[var10];
                 var2 = undefined;
                 var5 = var5.bind(var2)(var3);
@@ -201,7 +215,7 @@ case 20:
 case 22:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var3 = 4;
+                var3 = 5;
                 var3 = var6[var3];
                 var5 = var5.bind(var2)(var3);
                 var3 = var5.isContentInventoryFallbackEmbed;
@@ -224,7 +238,7 @@ case 23:
 case 27:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var3 = 5;
+                var3 = 6;
                 var3 = var6[var3];
                 var6 = var5.bind(var2)(var3);
                 var5 = var6.getIsEligibleForSocialLayerStorefrontMobilePurchasing;
@@ -253,12 +267,27 @@ case 31:
                 var30 = var6;
                 var29 = var9;
                 var9 = copyDataProperties(var30, var29);
+                var11 = _closure1_slot0;
+                var15 = _closure1_slot2;
+                var9 = 2;
+                var16 = var15[var9];
+                var17 = var11.bind(var2)(var16);
+                var16 = var17.sanitizeMediaDimension;
+                var17 = var16.bind(var17)(var13);
+                var16 = 'width';
+                var6[15] = var17;
+                var9 = var15[var9];
+                var11 = var11.bind(var2)(var9);
+                var9 = var11.sanitizeMediaDimension;
+                var11 = var9.bind(var11)(var12);
+                var9 = 'height';
+                var6[8] = var11;
                 var11 = var8;
                 if(!(var5 != var8)) { _fun0003_ip = 32; continue _fun0003 }
 case 33:
                 var15 = _closure1_slot1;
                 var16 = _closure1_slot2;
-                var9 = 2;
+                var9 = 3;
                 var9 = var16[var9];
                 var16 = var15.bind(var2)(var9);
                 var15 = var16.getImageSrc;
@@ -274,7 +303,7 @@ case 32:
                 var6[8] = var11;
                 var11 = _closure1_slot1;
                 var15 = _closure1_slot2;
-                var9 = 2;
+                var9 = 3;
                 var9 = var15[var9];
                 var11 = var11.bind(var2)(var9);
                 var9 = var11.getImageSrc;
@@ -317,7 +346,7 @@ case 39:
 case 43:
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var6 = 6;
+                var6 = 7;
                 var6 = var11[var6];
                 var9 = var9.bind(var2)(var6);
                 var6 = var9.isIOS;
@@ -412,7 +441,7 @@ case 65:
                 var10 = var10.bind(var14)(var9, var6);
                 var9 = _closure1_slot0;
                 var14 = _closure1_slot2;
-                var6 = 7;
+                var6 = 8;
                 var6 = var14[var6];
                 var9 = var9.bind(var2)(var6);
                 var6 = var9.shouldPlayVideoInline;
@@ -471,7 +500,7 @@ case 71:
 case 70:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var6 = 8;
+                var6 = 9;
                 var6 = var9[var6];
                 var9 = var8.bind(var2)(var6);
                 var8 = var9.isWebPlayerVideoUrl;
@@ -516,7 +545,7 @@ case 78:
 case 77:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var7 = 9;
+                var7 = 10;
                 var7 = var9[var7];
                 var7 = var8.bind(var2)(var7);
                 var9 = var7.parseEmbedTitleMarkup;
@@ -524,7 +553,7 @@ case 77:
 case 79:
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var7 = 9;
+                var7 = 10;
                 var7 = var10[var7];
                 var7 = var8.bind(var2)(var7);
                 var9 = var7.parseEmbedTitleMarkupWithoutLinks;
@@ -574,7 +603,7 @@ case 89:
 case 91:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var7 = 9;
+                var7 = 10;
                 var7 = var9[var7];
                 var9 = var8.bind(var2)(var7);
                 var8 = var9.parseEmbedDescriptionMarkup;
@@ -611,7 +640,7 @@ case 0:
 case 95:
                         var6 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var1 = 9;
+                        var1 = 10;
                         var5 = var5[var1];
                         var1 = undefined;
                         var7 = var6.bind(var1)(var5);
@@ -627,7 +656,7 @@ case 94:
 case 97:
                         var6 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var1 = 9;
+                        var1 = 10;
                         var5 = var5[var1];
                         var1 = undefined;
                         var6 = var6.bind(var1)(var5);
@@ -670,7 +699,7 @@ case 96:
 case 99:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var7 = 10;
+                var7 = 11;
                 var7 = var9[var7];
                 var9 = var8.bind(var2)(var7);
                 var8 = var9.calendarFormat;
@@ -730,7 +759,7 @@ case 109:
 case 110:
                 var16 = _closure1_slot1;
                 var17 = _closure1_slot2;
-                var9 = 2;
+                var9 = 3;
                 var9 = var17[var9];
                 var18 = var16.bind(var2)(var9);
                 var17 = var18.getImageSrc;
@@ -777,7 +806,7 @@ case 117:
                 var17 = copyDataProperties(var30, var29);
                 var18 = _closure1_slot1;
                 var20 = _closure1_slot2;
-                var17 = 2;
+                var17 = 3;
                 var17 = var20[var17];
                 var21 = var18.bind(var2)(var17);
                 var20 = var21.getImageSrc;
@@ -826,12 +855,12 @@ case 124:
 case 120:
                 var21 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var17 = 11;
+                var17 = 12;
                 var16 = var1[var17];
                 var20 = var21.bind(var2)(var16);
                 var18 = var20.getMediaObscuredReasonFromBitmask;
                 var16 = {};
-                var23 = 12;
+                var23 = 13;
                 var1 = var1[var23];
                 var1 = var21.bind(var2)(var1);
                 var1 = var1.ObscuredMediaTypes;
@@ -867,7 +896,7 @@ case 125:
 case 128:
                 var18 = _closure1_slot0;
                 var21 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var1 = var21[var1];
                 var18 = var18.bind(var2)(var1);
                 var1 = var18.isVerifiedTeen;
@@ -897,7 +926,7 @@ case 131:
 case 134:
                 var25 = _closure1_slot0;
                 var26 = _closure1_slot2;
-                var22 = 14;
+                var22 = 15;
                 var23 = var26[var22];
                 var23 = var25.bind(var2)(var23);
                 var24 = var23.intl;
@@ -916,7 +945,7 @@ case 133:
 case 136:
                 var25 = _closure1_slot0;
                 var26 = _closure1_slot2;
-                var22 = 14;
+                var22 = 15;
                 var23 = var26[var22];
                 var23 = var25.bind(var2)(var23);
                 var24 = var23.intl;
@@ -932,7 +961,7 @@ case 135:
 case 138:
                 var22 = _closure1_slot0;
                 var23 = _closure1_slot2;
-                var19 = 14;
+                var19 = 15;
                 var20 = var23[var19];
                 var20 = var22.bind(var2)(var20);
                 var21 = var20.intl;

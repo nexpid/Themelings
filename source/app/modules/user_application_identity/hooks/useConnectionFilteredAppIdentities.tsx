@@ -83,35 +83,52 @@ case 7:
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                             var2 = arg1;
+                            var _closure4_slot0 = var2;
                             var4 = _closure1_slot3;
-                            var3 = var4.includes;
-                            var1 = var2.application_id;
-                            var1 = var3.bind(var4)(var1);
-                            if(!var1) { _fun0003_ip = 8; continue _fun0003 }
+                            var3 = var4.some;
+                            var1 = function(arg1) {
+                                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                                    var4 = arg1;
+                                    var2 = var4.applicationId;
+                                    var1 = _closure4_slot0;
+                                    var1 = var1.application_id;
+                                    var1 = var2 === var1;
+                                    if(!var1) { _fun0004_ip = 8; continue _fun0004 }
 case 9:
+                                    var3 = var4.getMigrationExperimentEnabled;
+                                    var2 = 'useConnectionFilteredAppIdentities';
+                                    var1 = var3.bind(var4)(var2);
+case 8:
+                                    return var1;
+                                }
+                            };
+                            var1 = var3.bind(var4)(var1);
+                            if(!var1) { _fun0003_ip = 10; continue _fun0003 }
+case 4:
                             var4 = var2.profile;
                             var3 = null;
                             var1 = var3 != var4;
-case 8:
-                            if(!var1) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+case 10:
+                            if(!var1) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                             var3 = var2.profile;
                             var4 = var3.username;
                             var3 = null;
                             var1 = var3 != var4;
-case 10:
-                            if(!var1) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+case 11:
+                            if(!var1) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                             var2 = var2.profile;
                             var3 = var2.connection_visible;
                             var2 = true;
                             var2 = var2 === var3;
-                            if(var2) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                            if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                             var2 = _closure2_slot0;
-case 14:
+case 15:
                             var1 = var2;
-case 12:
+case 13:
                             return var1;
                         }
                     };

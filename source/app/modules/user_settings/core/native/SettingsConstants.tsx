@@ -176,6 +176,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APPEARANCE'] = var1;
     var1 = 'APPEARANCE_THEME_PICKER';
     var2['APPEARANCE_THEME_PICKER'] = var1;
+    var1 = 'SAME_AS_DEVICE_THEME';
+    var2['SAME_AS_DEVICE_THEME'] = var1;
+    var1 = 'LIGHT_MODE_THEME_PICKER';
+    var2['LIGHT_MODE_THEME_PICKER'] = var1;
+    var1 = 'DARK_MODE_THEME_PICKER';
+    var2['DARK_MODE_THEME_PICKER'] = var1;
     var1 = 'SYNC_THEME';
     var2['SYNC_THEME'] = var1;
     var1 = 'DEFAULT_GUILD_THEME_PREFERENCE';

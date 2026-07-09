@@ -108,6 +108,57 @@ case 2:
         return var1;
     };
     var3['updateThemePreferences'] = var4;
+    var4 = function updateSyncedClientTheme(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'UPDATE_SYNCED_CLIENT_THEME';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['systemTheme'] = var5;
+        var5 = arg2;
+        var2['clientTheme'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['updateSyncedClientTheme'] = var4;
+    var4 = function clearSyncedClientThemes() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'CLEAR_SYNCED_CLIENT_THEMES';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['clearSyncedClientThemes'] = var4;
+    var4 = function setSameAsDeviceThemeEnabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SET_SAME_AS_DEVICE_THEME_ENABLED';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['enabled'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['setSameAsDeviceThemeEnabled'] = var4;
     var4 = function setThemeOverride(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

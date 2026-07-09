@@ -382,13 +382,13 @@ case 0:
             var1 = function handleNotification(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var5 = arg1;
+                    var6 = arg1;
                     var2 = _closure2_slot0;
                     if(var2) { _fun0007_ip = 54; continue _fun0007 }
 case 55:
                     var2 = _closure2_slot1;
                     var1 = var2.push;
-                    var1 = var1.bind(var2)(var5);
+                    var1 = var1.bind(var2)(var6);
                     _fun0007_ip = 56; continue _fun0007;
 case 54:
                     var3 = _closure1_slot1;
@@ -397,7 +397,7 @@ case 54:
                     var1 = var4[var1];
                     var2 = undefined;
                     var7 = var3.bind(var2)(var1);
-                    var6 = 'receiveNotification';
+                    var5 = 'receiveNotification';
                     var1 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
@@ -407,9 +407,10 @@ case 54:
                         var1 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var1 = var7.bind(var2)(var6, var1);
-                    var1 = var1.default;
-                    var1 = var1.bind(var2)(var5);
+                    var1 = var7.bind(var2)(var5, var1);
+                    var5 = var1.default;
+                    var1 = false;
+                    var1 = var5.bind(var2)(var6, var1);
                     var1 = 12;
                     var1 = var4[var1];
                     var1 = var3.bind(var2)(var1);
@@ -1514,7 +1515,7 @@ case 125:
                     var12 = 0;
                     var20 = var3[var12];
                     var11 = 1;
-                    var18 = var3[var11];
+                    var19 = var3[var11];
                     var17 = _closure1_slot1;
                     var3 = _closure1_slot3;
                     var13 = var3[var10];
@@ -1571,54 +1572,54 @@ case 134:
                     var21 = 24;
                     var13 = var13[var21];
                     var22 = var17.bind(var5)(var13);
-                    var19 = var22.markAndLog;
+                    var18 = var22.markAndLog;
                     var17 = _closure1_slot20;
                     var23 = '🏃';
                     var13 = 'The initial promise has resolved';
-                    var13 = var19.bind(var22)(var17, var23, var13);
+                    var13 = var18.bind(var22)(var17, var23, var13);
                     var13 = null;
                     var17 = var13 != var20;
                     if(!var17) { _fun0019_ip = 135; continue _fun0019 }
 case 136:
-                    var19 = var20.length;
-                    var17 = var19 > var12;
+                    var18 = var20.length;
+                    var17 = var18 > var12;
 case 135:
                     if(!var17) { _fun0019_ip = 137; continue _fun0019 }
 case 138:
                     var22 = _closure1_slot20;
-                    var19 = var22.log;
+                    var18 = var22.log;
                     var17 = 'initialURLs';
-                    var17 = var19.bind(var22)(var17, var20);
+                    var17 = var18.bind(var22)(var17, var20);
 case 137:
-                    if(!(var13 != var18)) { _fun0019_ip = 139; continue _fun0019 }
+                    if(!(var13 != var19)) { _fun0019_ip = 139; continue _fun0019 }
 case 140:
                     var22 = _closure1_slot20;
-                    var19 = var22.log;
+                    var18 = var22.log;
                     var17 = 'initialNotification';
-                    var17 = var19.bind(var22)(var17, var18);
+                    var17 = var18.bind(var22)(var17, var19);
 case 139:
-                    var19 = _closure1_slot0;
+                    var18 = _closure1_slot0;
                     var17 = _closure1_slot3;
                     var22 = 35;
                     var17 = var17[var22];
-                    var17 = var19.bind(var5)(var17);
+                    var17 = var18.bind(var5)(var17);
                     var24 = var17.Storage;
-                    var19 = var24.get;
+                    var18 = var24.get;
                     var17 = _closure1_slot16;
-                    var17 = var19.bind(var24)(var17);
+                    var17 = var18.bind(var24)(var17);
                     if(!(var13 == var17)) { _fun0019_ip = 141; continue _fun0019 }
 case 142:
-                    var19 = _closure1_slot0;
+                    var18 = _closure1_slot0;
                     var17 = _closure1_slot3;
                     var17 = var17[var22];
-                    var17 = var19.bind(var5)(var17);
+                    var17 = var18.bind(var5)(var17);
                     var24 = var17.Storage;
                     var22 = var24.set;
-                    var19 = _closure1_slot16;
+                    var18 = _closure1_slot16;
                     var25 = var4.Date;
                     var17 = var25.now;
                     var17 = var17.bind(var25)();
-                    var17 = var22.bind(var24)(var19, var17);
+                    var17 = var22.bind(var24)(var18, var17);
 case 141:
                     var17 = function trackFirstLaunched() {
                         var1 = undefined;
@@ -1639,12 +1640,12 @@ case 144:
 case 145:
                     var15 = var15.bind(var5)();
 case 143:
-                    var19 = _closure1_slot1;
+                    var17 = _closure1_slot1;
                     var15 = _closure1_slot3;
-                    var17 = 15;
-                    var15 = var15[var17];
-                    var22 = var19.bind(var5)(var15);
-                    var19 = 'DispatcherBridge';
+                    var18 = 15;
+                    var15 = var15[var18];
+                    var22 = var17.bind(var5)(var15);
+                    var17 = 'DispatcherBridge';
                     var15 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
@@ -1654,15 +1655,15 @@ case 143:
                         var2 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var15 = var22.bind(var5)(var19, var15);
-                    var19 = _closure1_slot1;
+                    var15 = var22.bind(var5)(var17, var15);
+                    var17 = _closure1_slot1;
                     var15 = _closure1_slot3;
                     var15 = var15[var21];
-                    var22 = var19.bind(var5)(var15);
+                    var22 = var17.bind(var5)(var15);
                     if(var7) { _fun0019_ip = 146; continue _fun0019 }
 case 147:
                     var21 = var22.time;
-                    var19 = 'Flux.initialize()';
+                    var17 = 'Flux.initialize()';
                     var15 = function() {
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot3;
@@ -1678,32 +1679,32 @@ case 147:
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var15 = var21.bind(var22)(var23, var19, var15);
+                    var15 = var21.bind(var22)(var23, var17, var15);
                     _fun0019_ip = 148; continue _fun0019;
 case 146:
                     var21 = var22.markAndLog;
-                    var19 = _closure1_slot20;
+                    var17 = _closure1_slot20;
                     var15 = 'Flux already initialized.';
-                    var15 = var21.bind(var22)(var19, var23, var15);
+                    var15 = var21.bind(var22)(var17, var23, var15);
 case 148:
-                    var19 = _closure1_slot1;
+                    var17 = _closure1_slot1;
                     var21 = _closure1_slot3;
                     var15 = 49;
                     var15 = var21[var15];
-                    var15 = var19.bind(var5)(var15);
+                    var15 = var17.bind(var5)(var15);
                     var15 = var15.bind(var5)();
-                    var19 = _closure1_slot0;
+                    var17 = _closure1_slot0;
                     var15 = 50;
                     var15 = var21[var15];
-                    var22 = var19.bind(var5)(var15);
+                    var22 = var17.bind(var5)(var15);
                     var15 = var22.setupLibdiscoreTimersMonitor;
                     var15 = var15.bind(var22)();
                     var15 = 51;
                     var15 = var21[var15];
-                    var19 = var19.bind(var5)(var15);
-                    var15 = var19.installRNGHMountReactionsBridge;
-                    var15 = var15.bind(var19)();
-                    var19 = var20.forEach;
+                    var17 = var17.bind(var5)(var15);
+                    var15 = var17.installRNGHMountReactionsBridge;
+                    var15 = var15.bind(var17)();
+                    var17 = var20.forEach;
                     var15 = function(arg1) {
                         var4 = arg1;
                         var2 = var4.url;
@@ -1714,17 +1715,17 @@ case 148:
                         var2 = var3.bind(var1)(var4, var2);
                         return var1;
                     };
-                    var15 = var19.bind(var20)(var15);
-                    var19 = var13 != var18;
+                    var15 = var17.bind(var20)(var15);
+                    var17 = var13 != var19;
                     var15 = false;
-                    if(!var19) { _fun0019_ip = 149; continue _fun0019 }
+                    if(!var17) { _fun0019_ip = 149; continue _fun0019 }
 case 150:
                     var20 = _closure1_slot1;
-                    var19 = _closure1_slot3;
-                    var17 = var19[var17];
-                    var22 = var20.bind(var5)(var17);
+                    var17 = _closure1_slot3;
+                    var18 = var17[var18];
+                    var22 = var20.bind(var5)(var18);
                     var21 = 'receiveNotification';
-                    var17 = function() {
+                    var18 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
                         var1 = 32;
@@ -1733,14 +1734,14 @@ case 150:
                         var1 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var17 = var22.bind(var5)(var21, var17);
-                    var17 = var17.default;
-                    var19 = var19[var10];
-                    var19 = var20.bind(var5)(var19);
-                    var20 = var19.extraProperties;
-                    var19 = true;
-                    var20['tapped_notification'] = var19;
-                    var15 = var17.bind(var5)(var18);
+                    var18 = var22.bind(var5)(var21, var18);
+                    var18 = var18.default;
+                    var17 = var17[var10];
+                    var17 = var20.bind(var5)(var17);
+                    var20 = var17.extraProperties;
+                    var17 = true;
+                    var20['tapped_notification'] = var17;
+                    var15 = var18.bind(var5)(var19, var17);
 case 149:
                     if(var15) { _fun0019_ip = 151; continue _fun0019 }
 case 152:
@@ -1935,7 +1936,7 @@ case 156:
                     var4[4] = var15;
                     var4[5] = var14;
                     var4 = var10.bind(var13)(var4);
-                    SaveGenerator(address=1699);
+                    SaveGenerator(address=1696);
 case 157:
                     return var4;
 case 158:

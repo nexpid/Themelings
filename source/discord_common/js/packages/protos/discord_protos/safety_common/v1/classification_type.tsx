@@ -646,6 +646,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_WARNED_SPAM_GENERAL_SMITE'] = var5;
     var1 = 'USER_WARNED_SPAM_GENERAL_SMITE';
     var2[var5] = var1;
+    var5 = 3212;
+    var2['USER_WARNED_SPAM_SMITE'] = var5;
+    var1 = 'USER_WARNED_SPAM_SMITE';
+    var2[var5] = var1;
+    var5 = 3213;
+    var2['USER_REMOVE_EMAIL_VERIFICATION_SMITE'] = var5;
+    var1 = 'USER_REMOVE_EMAIL_VERIFICATION_SMITE';
+    var2[var5] = var1;
     var5 = 4000;
     var2['PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK'] = var5;
     var1 = 'PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK';

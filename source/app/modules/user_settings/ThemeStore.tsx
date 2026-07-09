@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot19 = var2;
+            _closure1_slot21 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot21 = var1;
     var9 = function handleThemeChange() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -75,7 +75,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot20 = var9;
+    var _closure1_slot22 = var9;
     var1 = global;
     var10 = var1.Object;
     var8 = var10.defineProperty;
@@ -152,6 +152,10 @@ case 6:
     var _closure1_slot17 = var2;
     var2 = var8[var2];
     var _closure1_slot18 = var2;
+    var2 = {};
+    var _closure1_slot19 = var2;
+    var2 = false;
+    var _closure1_slot20 = var2;
     var2 = 14;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -169,7 +173,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot19;
+                var1 = _closure1_slot21;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
@@ -214,8 +218,8 @@ case 0:
 case 12:
                 var3 = var2.theme;
 case 11:
-                if(!(var5 != var3)) { _fun0004_ip = 10; continue _fun0004 }
-case 13:
+                if(!(var5 != var3)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                 var4 = _closure1_slot14;
                 var4 = var4.SET;
                 _closure1_slot15 = var4;
@@ -230,10 +234,22 @@ case 13:
                 var4 = var7.bind(var1)(var4);
                 var4 = var2.preferences;
                 if(!(var5 != var4)) { _fun0004_ip = 10; continue _fun0004 }
-case 14:
-                var2 = var2.preferences;
-                _closure1_slot16 = var2;
+case 15:
+                var4 = var2.preferences;
+                _closure1_slot16 = var4;
 case 10:
+                var4 = var2.syncedClientThemes;
+                if(!(var5 != var4)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
+                var4 = var2.syncedClientThemes;
+                _closure1_slot19 = var4;
+case 16:
+                var4 = var2.syncedThemesEnabled;
+                if(!(var5 != var4)) { _fun0004_ip = 13; continue _fun0004 }
+case 18:
+                var2 = var2.syncedThemesEnabled;
+                _closure1_slot20 = var2;
+case 13:
                 var5 = var6.waitFor;
                 var4 = _closure1_slot9;
                 var3 = _closure1_slot8;
@@ -243,7 +259,7 @@ case 10:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(5);
+        var1 = new Array(7);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -255,6 +271,10 @@ case 10:
             var1['theme'] = var2;
             var3 = _closure1_slot16;
             var1['preferences'] = var3;
+            var3 = _closure1_slot19;
+            var1['syncedClientThemes'] = var3;
+            var3 = _closure1_slot20;
+            var1['syncedThemesEnabled'] = var3;
             var2 = _closure1_slot15;
             var1['status'] = var2;
             return var1;
@@ -282,14 +302,34 @@ case 10:
         var5 = {};
         var7 = 'themePreferenceForSystemTheme';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             var2 = _closure1_slot16;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[4] = var5;
+        var5 = {};
+        var7 = 'getSyncedClientTheme';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = _closure1_slot19;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[5] = var5;
+        var5 = {};
+        var7 = 'isSameAsDeviceThemeEnabled';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot20;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[6] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -304,10 +344,10 @@ case 0:
             var2 = arg1;
             var3 = var2.theme;
             var1 = 'amoled';
-            if(!(var1 === var3)) { _fun0005_ip = 15; continue _fun0005 }
+            if(!(var1 === var3)) { _fun0005_ip = 19; continue _fun0005 }
 case 12:
             var3 = 'midnight';
-case 15:
+case 19:
             var1 = {};
             var5 = var1;
             var4 = var2;
@@ -325,8 +365,8 @@ case 0:
             var3 = var5.preferences;
             var2 = null;
             var1 = var5;
-            if(!(var2 != var3)) { _fun0006_ip = 16; continue _fun0006 }
-case 17:
+            if(!(var2 != var3)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
             var4 = var5.preferences;
             var2 = _closure1_slot11;
             var2 = var2.DARK;
@@ -334,8 +374,8 @@ case 17:
             var2 = _closure1_slot13;
             var2 = var2.DARK;
             var1 = var5;
-            if(!(var4 === var2)) { _fun0006_ip = 16; continue _fun0006 }
-case 18:
+            if(!(var4 === var2)) { _fun0006_ip = 20; continue _fun0006 }
+case 22:
             var2 = {};
             var7 = var2;
             var6 = var5;
@@ -352,7 +392,7 @@ case 18:
             var3 = 'preferences';
             var2[2] = var4;
             var1 = var2;
-case 16:
+case 20:
             return var1;
         }
     };
@@ -369,8 +409,8 @@ case 16:
 case 0:
                 var3 = _closure1_slot9;
                 var3 = var3.darkSidebar;
-                if(!var3) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
+                if(!var3) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
                 var3 = _closure1_slot10;
                 var3 = var3.settings;
                 var5 = var3.appearance;
@@ -378,12 +418,12 @@ case 20:
                 var6 = var3 == var5;
                 var4 = undefined;
                 var3 = undefined;
-                if(var6) { _fun0007_ip = 18; continue _fun0007 }
+                if(var6) { _fun0007_ip = 22; continue _fun0007 }
 case 7:
                 var3 = var5.darkSidebar;
-case 18:
-                if(var3) { _fun0007_ip = 21; continue _fun0007 }
 case 22:
+                if(var3) { _fun0007_ip = 25; continue _fun0007 }
+case 26:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var3 = 15;
@@ -402,7 +442,7 @@ case 22:
                     return var1;
                 };
                 var3 = var7.bind(var8)(var5, var3, var6);
-case 21:
+case 25:
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var2 = 16;
@@ -428,14 +468,14 @@ case 21:
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
-case 19:
+case 23:
                 var1 = undefined;
                 return var1;
             }
         };
         var2 = undefined;
         var1 = var1.bind(var2)();
-        var1 = _closure1_slot20;
+        var1 = _closure1_slot22;
         var1 = var1.bind(var2)();
         return var1;
     };
@@ -443,22 +483,26 @@ case 19:
     var10 = function handleLogOut(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
+            var1 = {};
+            _closure1_slot19 = var1;
+            var1 = false;
+            _closure1_slot20 = var1;
             var1 = arg1;
             var1 = var1.isSwitchingAccount;
             var1 = !var1;
-            if(!var1) { _fun0008_ip = 23; continue _fun0008 }
-case 24:
-            var3 = _closure1_slot20;
+            if(!var1) { _fun0008_ip = 27; continue _fun0008 }
+case 28:
+            var3 = _closure1_slot22;
             var2 = undefined;
             var1 = var3.bind(var2)();
-case 23:
+case 27:
             return var1;
         }
     };
     var2['LOGOUT'] = var10;
     var2['OVERLAY_INITIALIZE'] = var9;
     var10 = function handleSelectivelySyncedUserSettingsUpdate() {
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot22;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
@@ -471,7 +515,7 @@ case 23:
         var1 = arg1;
         var2 = var1.systemTheme;
         _closure1_slot17 = var2;
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot22;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
@@ -487,30 +531,91 @@ case 23:
         var5 = var2;
         var3 = copyDataProperties(var5, var4);
         _closure1_slot16 = var2;
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot22;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
     };
     var2['UPDATE_THEME_PREFERENCES'] = var9;
+    var9 = function handleUpdateSyncedClientTheme(arg1) {
+        var3 = arg1;
+        var2 = {};
+        var5 = _closure1_slot19;
+        var6 = var2;
+        var4 = copyDataProperties(var6, var5);
+        var4 = var3.systemTheme;
+        var3 = var3.clientTheme;
+        var2[3] = var3;
+        _closure1_slot19 = var2;
+        var1 = true;
+        return var1;
+    };
+    var2['UPDATE_SYNCED_CLIENT_THEME'] = var9;
+    var9 = function handleSetSameAsDeviceThemeEnabled(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var2 = arg1;
+            var4 = _closure1_slot20;
+            var1 = var2.enabled;
+            var1 = var4 !== var1;
+            if(!var1) { _fun0009_ip = 29; continue _fun0009 }
+case 30:
+            var2 = var2.enabled;
+            _closure1_slot20 = var2;
+            var1 = true;
+case 29:
+            return var1;
+        }
+    };
+    var2['SET_SAME_AS_DEVICE_THEME_ENABLED'] = var9;
+    var9 = function handleClearSyncedClientThemes() {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var1 = _closure1_slot20;
+            if(var1) { _fun0010_ip = 29; continue _fun0010 }
+case 31:
+            var4 = _closure1_slot19;
+            var2 = _closure1_slot11;
+            var2 = var2.LIGHT;
+            var4 = var4[var2];
+            var2 = null;
+            var1 = var2 != var4;
+case 29:
+            if(var1) { _fun0010_ip = 26; continue _fun0010 }
+case 32:
+            var4 = _closure1_slot19;
+            var2 = _closure1_slot11;
+            var2 = var2.DARK;
+            var4 = var4[var2];
+            var2 = null;
+            var1 = var2 != var4;
+case 26:
+            var2 = {};
+            _closure1_slot19 = var2;
+            var2 = false;
+            _closure1_slot20 = var2;
+            return var1;
+        }
+    };
+    var2['CLEAR_SYNCED_CLIENT_THEMES'] = var9;
     var9 = function handleSetThemeOverride(arg1) {
         var1 = arg1;
         var1 = var1.theme;
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot22;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
     };
     var2['SET_THEME_OVERRIDE'] = var9;
     var9 = function handleClearThemeOverride() {
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot22;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
     };
     var2['CLEAR_THEME_OVERRIDE'] = var9;
     var4 = function handleRefresh() {
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot22;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;

@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['cardTitle'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 32;
+    var4 = 33;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -119,6 +119,11 @@ case 0:
             var3 = var3.bind(var5)();
             var14 = var3.getLinkCode;
             var _closure2_slot1 = var14;
+            var5 = _closure1_slot1;
+            var3 = 13;
+            var3 = var10[var3];
+            var3 = var5.bind(var4)(var3);
+            var3 = var3.bind(var4)(var14);
             var2 = var2.ui_component;
             var6 = var2.component;
             var7 = null;
@@ -157,7 +162,7 @@ case 8:
             var3 = var6.pending_requests;
 case 10:
             var2['pending_requests'] = var3;
-            var6 = 13;
+            var6 = 14;
             var3 = var10[var6];
             var8 = var12.bind(var4)(var3);
             var3 = var8.usePendingRequestCount;
@@ -166,7 +171,7 @@ case 10:
             var8 = var12.bind(var4)(var6);
             var6 = var8.useHasActiveParentLinks;
             var32 = var6.bind(var8)();
-            var6 = 14;
+            var6 = 15;
             var8 = var10[var6];
             var17 = var12.bind(var4)(var8);
             var16 = var17.useStateFromStores;
@@ -315,7 +320,7 @@ case 24:
 case 27:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 16;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -329,7 +334,7 @@ case 26:
                 }
             };
             var13 = var17.bind(var6)(var12, var13);
-            var12 = 16;
+            var12 = 17;
             var12 = var5[var12];
             var17 = var7.bind(var4)(var12);
             var12 = var17.useDerivedPendingRequests;
@@ -362,7 +367,7 @@ case 30: // try_start_0 // try_start_1
                         var2 = {};
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var6 = 17;
+                        var6 = 18;
                         var6 = var8[var6];
                         var6 = var7.bind(var5)(var6);
                         var6 = var6.TaskInputType;
@@ -386,7 +391,7 @@ case 36: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=1);
                         var10 = _closure1_slot1;
                         var11 = _closure1_slot2;
-                        var2 = 18;
+                        var2 = 19;
                         var2 = var11[var2];
                         var6 = var10.bind(var5)(var2);
                         var4 = var6.open;
@@ -394,12 +399,12 @@ case 36: // try_start_2 // catch_target0
                         var8 = 'SAFETY_FLOWS_PARENTAL_CONSENT_CONNECTION_ERROR';
                         var2['key'] = var8;
                         var8 = _closure1_slot0;
-                        var7 = 19;
+                        var7 = 20;
                         var7 = var11[var7];
                         var7 = var8.bind(var5)(var7);
                         var9 = var7.intl;
                         var8 = var9.string;
-                        var7 = 20;
+                        var7 = 21;
                         var7 = var11[var7];
                         var7 = var10.bind(var5)(var7);
                         var7 = var7["+QRSxc"];
@@ -411,7 +416,7 @@ case 35: // try_end2
                         var2 = false;
                         var2 = var4.bind(var5)(var2);
                         return var5;
-case 9: // catch_target1 // catch_target2
+case 37: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=1);
                         var4 = _closure2_slot5;
                         var3 = false;
@@ -435,16 +440,16 @@ case 28:
             var1 = function() {
                 var5 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var4 = var3[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.openLazy;
                 var7 = _closure1_slot0;
-                var4 = 23;
+                var4 = 24;
                 var4 = var3[var4];
                 var7 = var7.bind(var1)(var4);
-                var4 = 22;
+                var4 = 23;
                 var4 = var3[var4];
                 var3 = var3.paths;
                 var4 = var7.bind(var1)(var4, var3);
@@ -462,16 +467,16 @@ case 28:
             var12 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot10;
             var10 = _closure1_slot1;
-            var1 = 24;
+            var1 = 25;
             var1 = var5[var1];
             var2 = var10.bind(var4)(var1);
             var1 = {};
-            var25 = 19;
+            var25 = 20;
             var6 = var5[var25];
             var6 = var7.bind(var4)(var6);
             var7 = var6.intl;
             var6 = var7.string;
-            var24 = 20;
+            var24 = 21;
             var5 = var5[var24];
             var5 = var10.bind(var4)(var5);
             var5 = var5.dMMSA0;
@@ -486,22 +491,22 @@ case 28:
             var6 = _closure1_slot1;
             var5 = var5[var24];
             var6 = var6.bind(var4)(var5);
-            if(var8) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
+            if(var8) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var7 = var6["6GaRTu"];
             var5 = {};
             var19 = 'https://support.discord.com/hc/articles/14155060633623';
             var5['link'] = var19;
             var5 = var10.bind(var11)(var7, var5);
-            _fun0001_ip = 39; continue _fun0001;
-case 37:
+            _fun0001_ip = 40; continue _fun0001;
+case 38:
             var7 = var6.Ke+kz5;
             var6 = {};
             var6['pendingCount'] = var18;
             var18 = 'https://support.discord.com/hc/articles/14155060633623';
             var6['link'] = var18;
             var5 = var10.bind(var11)(var7, var6);
-case 39:
+case 40:
             var1['subtitle'] = var5;
             var5 = 'text-muted';
             var1['subtitleColor'] = var5;
@@ -509,13 +514,13 @@ case 39:
             var10 = _closure1_slot10;
             var18 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var5 = 25;
+            var5 = 26;
             var5 = var27[var5];
             var5 = var18.bind(var4)(var5);
             var7 = var5.ModalFooter;
             var6 = {};
             var20 = _closure1_slot11;
-            var5 = 26;
+            var5 = 27;
             var11 = var27[var5];
             var11 = var18.bind(var4)(var11);
             var19 = var11.Stack;
@@ -527,7 +532,7 @@ case 39:
             var21 = var21.space;
             var21 = var21.PX_16;
             var11['spacing'] = var21;
-            var21 = 27;
+            var21 = 28;
             var21 = var27[var21];
             var23 = var23.bind(var4)(var21);
             var21 = {};
@@ -535,12 +540,12 @@ case 39:
             var21 = new Array(2);
             var21[0] = var23;
             var23 = var8;
-            if(!var23) { _fun0001_ip = 40; continue _fun0001 }
-case 41:
+            if(!var23) { _fun0001_ip = 41; continue _fun0001 }
+case 42:
             var29 = _closure1_slot10;
             var35 = _closure1_slot0;
             var33 = _closure1_slot2;
-            var27 = 28;
+            var27 = 29;
             var27 = var33[var27];
             var27 = var35.bind(var4)(var27);
             var28 = var27.ModalActionButton;
@@ -558,15 +563,15 @@ case 41:
             var33 = var34.bind(var35)(var33);
             var27['text'] = var33;
             var32 = !var32;
-            if(var32) { _fun0001_ip = 42; continue _fun0001 }
-case 43:
+            if(var32) { _fun0001_ip = 43; continue _fun0001 }
+case 44:
             var32 = var31;
-case 42:
+case 43:
             var27['disabled'] = var32;
             var27['loading'] = var31;
             var27['onPress'] = var30;
             var23 = var29.bind(var4)(var28, var27);
-case 40:
+case 41:
             var21[1] = var23;
             var11['children'] = var21;
             var11 = var20.bind(var4)(var19, var11);
@@ -588,8 +593,8 @@ case 40:
             var5['spacing'] = var10;
             var10 = var26.body;
             var5['style'] = var10;
-            if(var8) { _fun0001_ip = 44; continue _fun0001 }
-case 45:
+            if(var8) { _fun0001_ip = 45; continue _fun0001 }
+case 46:
             var11 = _closure1_slot11;
             var10 = _closure1_slot6;
             var8 = {};
@@ -598,7 +603,7 @@ case 45:
             var21 = _closure1_slot10;
             var20 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var18 = 30;
+            var18 = 31;
             var18 = var23[var18];
             var18 = var20.bind(var4)(var18);
             var19 = var18.Text;
@@ -618,7 +623,7 @@ case 45:
             var19 = var21.bind(var4)(var19, var18);
             var18 = new Array(2);
             var18[0] = var19;
-            var19 = 31;
+            var19 = 32;
             var19 = var23[var19];
             var19 = var20.bind(var4)(var19);
             var20 = var19.ConnectGuardianCard;
@@ -632,12 +637,12 @@ case 45:
             var18[1] = var19;
             var8['children'] = var18;
             var8 = var11.bind(var4)(var10, var8);
-            _fun0001_ip = 46; continue _fun0001;
-case 44:
+            _fun0001_ip = 47; continue _fun0001;
+case 45:
             var11 = _closure1_slot10;
             var10 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var9 = 29;
+            var9 = 30;
             var9 = var18[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -648,7 +653,7 @@ case 44:
             var9['onShare'] = var13;
             var9['onInviteAnotherGuardian'] = var12;
             var8 = var11.bind(var4)(var10, var9);
-case 46:
+case 47:
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

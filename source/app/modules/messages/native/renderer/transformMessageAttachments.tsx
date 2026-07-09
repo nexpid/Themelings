@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageAttachmentFlags;
     var _closure1_slot4 = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -93,7 +93,7 @@ case 0:
                 var6 = var7.filename;
                 var26 = var7.size;
                 var19 = var7.width;
-                var24 = var7.height;
+                var16 = var7.height;
                 var22 = var7.description;
                 var21 = var7.duration_secs;
                 var20 = var7.waveform;
@@ -145,8 +145,8 @@ case 8:
                 var2 = _closure1_slot2;
                 var29 = 2;
                 var2 = var2[var29];
-                var16 = var8.bind(var5)(var2);
-                var9 = var16.hasFlag;
+                var23 = var8.bind(var5)(var2);
+                var9 = var23.hasFlag;
                 var2 = var13 != var1;
                 var28 = 0;
                 var8 = 0;
@@ -156,12 +156,12 @@ case 11:
 case 10:
                 var2 = _closure1_slot4;
                 var2 = var2.IS_ANIMATED;
-                var8 = var9.bind(var16)(var8, var2);
+                var8 = var9.bind(var23)(var8, var2);
                 if(!var18) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
                 if(!(var13 != var19)) { _fun0002_ip = 12; continue _fun0002 }
 case 14:
-                if(!(var13 == var24)) { _fun0002_ip = 15; continue _fun0002 }
+                if(!(var13 == var16)) { _fun0002_ip = 15; continue _fun0002 }
 case 12:
                 var2 = var17;
                 if(!var2) { _fun0002_ip = 16; continue _fun0002 }
@@ -186,9 +186,9 @@ case 22:
                 var9 = var31;
                 if(!(var13 != var30)) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
-                var16 = '';
+                var24 = '';
                 var9 = var31;
-                if(!(var16 !== var30)) { _fun0002_ip = 24; continue _fun0002 }
+                if(!(var24 !== var30)) { _fun0002_ip = 24; continue _fun0002 }
 case 26:
                 var9 = var30;
 case 24:
@@ -197,91 +197,104 @@ case 24:
                 _fun0002_ip = 20; continue _fun0002;
 case 15:
                 var9 = _closure1_slot1;
-                var16 = _closure1_slot2;
+                var24 = _closure1_slot2;
                 var2 = 4;
-                var2 = var16[var2];
-                var16 = var9.bind(var5)(var2);
-                var9 = var16.getImageSrc;
+                var2 = var24[var2];
+                var24 = var9.bind(var5)(var2);
+                var9 = var24.getImageSrc;
                 var2 = _closure2_slot2;
-                var32 = !var2;
-                var36 = var16;
-                var35 = var30;
-                var34 = var19;
-                var33 = var24;
-                var27 = var36[var9](var35, var34, var33, var32, var31);
+                var33 = !var2;
+                var37 = var24;
+                var36 = var30;
+                var35 = var19;
+                var34 = var16;
+                var27 = var37[var9](var36, var35, var34, var33, var32);
                 var23 = undefined;
 case 20:
                 var9 = _closure1_slot0;
-                var16 = _closure1_slot2;
+                var24 = _closure1_slot2;
                 var2 = 5;
-                var2 = var16[var2];
+                var2 = var24[var2];
                 var9 = var9.bind(var5)(var2);
                 var2 = var9.isAndroid;
-                var16 = var2.bind(var9)();
+                var24 = var2.bind(var9)();
                 var2 = 'default';
                 var9 = var2;
-                if(!var16) { _fun0002_ip = 27; continue _fun0002 }
+                if(!var24) { _fun0002_ip = 27; continue _fun0002 }
 case 28:
                 var9 = var2;
                 if(!var17) { _fun0002_ip = 27; continue _fun0002 }
 case 29:
-                var16 = _closure1_slot0;
+                var24 = _closure1_slot0;
                 var30 = _closure1_slot2;
                 var2 = 6;
                 var2 = var30[var2];
-                var2 = var16.bind(var5)(var2);
+                var2 = var24.bind(var5)(var2);
                 var30 = var2.AndroidExoPlayerHttpEngineExperiment;
-                var16 = var30.getConfig;
+                var24 = var30.getConfig;
                 var2 = {};
                 var31 = 'transformMessageAttachments';
                 var2['location'] = var31;
-                var2 = var16.bind(var30)(var2);
+                var2 = var24.bind(var30)(var2);
                 var9 = var2.httpEngine;
 case 27:
-                var16 = var19;
+                var31 = var19;
                 if(!(var13 != var14)) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
                 var2 = var14.width;
-                var16 = var19;
+                var31 = var19;
                 if(!(var2 > var28)) { _fun0002_ip = 30; continue _fun0002 }
 case 32:
-                var16 = var14.width;
+                var31 = var14.width;
 case 30:
-                var2 = var24;
+                var30 = var16;
                 if(!(var13 != var14)) { _fun0002_ip = 33; continue _fun0002 }
 case 34:
-                var19 = var14.height;
-                var2 = var24;
-                if(!(var19 > var28)) { _fun0002_ip = 33; continue _fun0002 }
-case 35:
                 var2 = var14.height;
+                var30 = var16;
+                if(!(var2 > var28)) { _fun0002_ip = 33; continue _fun0002 }
+case 35:
+                var30 = var14.height;
 case 33:
-                var24 = _closure2_slot1;
-                var19 = 0;
-                if(!var24) { _fun0002_ip = 36; continue _fun0002 }
+                var16 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var24 = 7;
+                var2 = var2[var24];
+                var19 = var16.bind(var5)(var2);
+                var16 = var19.sanitizeMediaDimension;
+                var32 = _closure2_slot1;
+                var2 = 0;
+                if(!var32) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
-                var19 = 0;
+                var2 = 0;
                 if(!var25) { _fun0002_ip = 36; continue _fun0002 }
 case 38:
-                var24 = var13 != var16;
-                var19 = 0;
-                if(!var24) { _fun0002_ip = 36; continue _fun0002 }
+                var32 = var13 != var31;
+                var2 = 0;
+                if(!var32) { _fun0002_ip = 36; continue _fun0002 }
 case 39:
-                var19 = var16;
+                var2 = var31;
 case 36:
-                var24 = _closure2_slot1;
-                var16 = 0;
-                if(!var24) { _fun0002_ip = 40; continue _fun0002 }
+                var19 = var16.bind(var19)(var2);
+                var16 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var2 = var2[var24];
+                var24 = var16.bind(var5)(var2);
+                var16 = var24.sanitizeMediaDimension;
+                var31 = _closure2_slot1;
+                var2 = 0;
+                if(!var31) { _fun0002_ip = 40; continue _fun0002 }
 case 41:
-                var16 = 0;
+                var2 = 0;
                 if(!var25) { _fun0002_ip = 40; continue _fun0002 }
 case 42:
-                var24 = var13 != var2;
-                var16 = 0;
-                if(!var24) { _fun0002_ip = 40; continue _fun0002 }
+                var31 = var13 != var30;
+                var2 = 0;
+                if(!var31) { _fun0002_ip = 40; continue _fun0002 }
 case 43:
-                var16 = var2;
+                var2 = var30;
 case 40:
+                var16 = var16.bind(var24)(var2);
                 var24 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var29];
@@ -302,7 +315,7 @@ case 47:
                 var1 = {};
                 var30 = _closure1_slot0;
                 var31 = _closure1_slot2;
-                var24 = 7;
+                var24 = 8;
                 var28 = var31[var24];
                 var28 = var30.bind(var5)(var28);
                 var29 = var28.intl;
@@ -343,12 +356,12 @@ case 48:
                 var1['videoUrl'] = var23;
                 var25 = _closure1_slot1;
                 var23 = _closure1_slot2;
-                var24 = 8;
+                var24 = 9;
                 var24 = var23[var24];
                 var24 = var25.bind(var5)(var24);
                 var24 = var24.bind(var5)(var7);
                 var1['filename'] = var24;
-                var24 = 9;
+                var24 = 10;
                 var24 = var23[var24];
                 var25 = var25.bind(var5)(var24);
                 var24 = var25.filesize;
@@ -356,7 +369,7 @@ case 48:
                 var1['size'] = var24;
                 var1['description'] = var22;
                 var26 = _closure1_slot0;
-                var22 = 7;
+                var22 = 8;
                 var24 = var23[var22];
                 var24 = var26.bind(var5)(var24);
                 var27 = var24.intl;
@@ -487,7 +500,7 @@ case 72:
                 var1['inlinePlaybackDisabled'] = var4;
                 var4 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var3 = 10;
+                var3 = 11;
                 var3 = var8[var3];
                 var5 = var4.bind(var5)(var3);
                 var4 = var5.getAttachmentObscurityProps;
@@ -499,12 +512,12 @@ case 72:
                 var3['enabledContentHarmTypeFlags'] = var7;
                 var6 = _closure2_slot8;
                 var3['shouldAgeVerify'] = var6;
-                var34 = var4.bind(var5)(var3);
-                var35 = var1;
-                var3 = copyDataProperties(var35, var34);
-                var35 = var1;
-                var34 = var2;
-                var2 = copyDataProperties(var35, var34);
+                var35 = var4.bind(var5)(var3);
+                var36 = var1;
+                var3 = copyDataProperties(var36, var35);
+                var36 = var1;
+                var35 = var2;
+                var2 = copyDataProperties(var36, var35);
                 return var1;
             }
         };

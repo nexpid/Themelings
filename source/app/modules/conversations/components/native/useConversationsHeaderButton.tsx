@@ -29,8 +29,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.CONVERSATION_HAS_MORE_EXPIRATION_MS;
     var _closure1_slot4 = var7;
-    var4 = var4.MOBILE_FETCH_LIMIT;
-    var _closure1_slot5 = var4;
+    var7 = var4.MOBILE_FETCH_LIMIT;
+    var _closure1_slot5 = var7;
+    var4 = var4.MOBILE_PREVIEW_MESSAGE_COUNT;
+    var _closure1_slot6 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -80,19 +82,19 @@ case 0:
                     var1 = !var1;
                     if(var1) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var4 = _closure1_slot3;
-                    var3 = var4.hasChannelData;
+                    var5 = _closure1_slot3;
+                    var3 = var5.hasChannelData;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
-                    var1 = var3.bind(var4)(var2);
+                    var1 = var3.bind(var5)(var2);
 case 4:
                     if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                    var4 = _closure1_slot3;
-                    var3 = var4.isPendingFetch;
+                    var5 = _closure1_slot3;
+                    var3 = var5.isPendingFetch;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
-                    var1 = var3.bind(var4)(var2);
+                    var1 = var3.bind(var5)(var2);
 case 6:
                     if(var1) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
@@ -104,13 +106,17 @@ case 9:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.fetchChannelConversations;
                     var1 = {'channelId': null, 'guildId': null, 'direction': 'before', 'anchor': null, 'limit': null, 'isJump': true};
-                    var5 = _closure2_slot0;
-                    var6 = var5.id;
+                    var4 = _closure2_slot0;
+                    var6 = var4.id;
                     var1['channelId'] = var6;
-                    var5 = var5.guild_id;
-                    var1['guildId'] = var5;
+                    var4 = var4.guild_id;
+                    var1['guildId'] = var4;
                     var4 = _closure1_slot5;
                     var1['limit'] = var4;
+                    var4 = {};
+                    var5 = _closure1_slot6;
+                    var4['limit'] = var5;
+                    var1['hydrateMessages'] = var4;
                     var1 = var2.bind(var3)(var1);
 case 8:
                     var1 = undefined;
@@ -176,13 +182,17 @@ case 12:
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.fetchChannelConversations;
                         var2 = {'channelId': null, 'guildId': null, 'direction': 'before', 'anchor': null, 'limit': null, 'isJump': true};
-                        var6 = _closure2_slot0;
-                        var7 = var6.id;
+                        var5 = _closure2_slot0;
+                        var7 = var5.id;
                         var2['channelId'] = var7;
-                        var6 = var6.guild_id;
-                        var2['guildId'] = var6;
+                        var5 = var5.guild_id;
+                        var2['guildId'] = var5;
                         var5 = _closure1_slot5;
                         var2['limit'] = var5;
+                        var5 = {};
+                        var6 = _closure1_slot6;
+                        var5['limit'] = var6;
+                        var2['hydrateMessages'] = var5;
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
@@ -283,7 +293,7 @@ case 21:
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
-                        var3 = var4.openConversationBottomSheet;
+                        var3 = var4.openConversationNavigator;
                         var2 = {};
                         var5 = _closure2_slot0;
                         var6 = var5.id;

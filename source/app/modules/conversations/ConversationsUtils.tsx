@@ -1,6 +1,10 @@
 // app/modules/conversations/ConversationsUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
     var3 = exports;
+    var4 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
     var1 = function mapConversationModeration(arg1) {
         var2 = arg1;
         var1 = {};
@@ -47,21 +51,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['failedMessageIds'] = var2;
         return var1;
     };
-    var _closure1_slot0 = var1;
+    var _closure1_slot2 = var1;
     var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
     var1 = true;
-    var4['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
-    var4 = dependencyMap;
-    var1 = 0;
-    var5 = var4[var1];
-    var4 = require;
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
     var1 = undefined;
-    var6 = var4.bind(var1)(var5);
+    var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/conversations/ConversationsUtils.tsx';
     var4 = var5.bind(var6)(var4);
@@ -96,41 +98,49 @@ case 5:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = arg1;
+                    var8 = undefined;
                     var5 = undefined;
 case 6: // try_start_0
                     var6 = global;
-                    var7 = var6.JSON;
-                    var3 = var7.parse;
-                    var1 = var3.bind(var7)(var1);
+                    var3 = var6.JSON;
+                    var2 = var3.parse;
+                    var1 = var2.bind(var3)(var1);
                     var5 = var1;
                     var7 = null;
-                    var3 = var7 == var1;
+                    var2 = var7 == var1;
                     var1 = undefined;
-                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+                    var2 = var5;
+                    var1 = var2.title;
 case 7:
-                    var3 = var5;
-                    var1 = var3.title;
-case 2:
                     var3 = 'string';
-                    var8 = typeof var1;
+                    var2 = typeof var1;
                     var1 = null;
-                    if(!(var3 === var8)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var8 = var5;
-                    var8 = var7 == var8;
-                    var2 = undefined;
-                    if(var8) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-                    var8 = var5;
-                    var2 = var8.brief_summary;
+                    if(!(var3 === var2)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
+                    var2 = var5;
+                    var9 = var7 == var2;
+                    var2 = undefined;
+                    if(var9) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+                    var9 = var5;
+                    var2 = var9.brief_summary;
+case 11:
                     var2 = typeof var2;
                     var1 = null;
-                    if(!(var3 === var2)) { _fun0002_ip = 8; continue _fun0002 }
-case 12:
+                    if(!(var3 === var2)) { _fun0002_ip = 9; continue _fun0002 }
+case 13:
                     var2 = {};
+                    var7 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var3 = 0;
+                    var3 = var9[var3];
+                    var9 = var7.bind(var8)(var3);
+                    var8 = var9.upperFirst;
                     var3 = var5;
                     var7 = var3.title;
+                    var7 = var8.bind(var9)(var7);
                     var2['title'] = var7;
                     var7 = var3.brief_summary;
                     var2['brief_summary'] = var7;
@@ -138,11 +148,11 @@ case 12:
                     var6 = var7.isArray;
                     var3 = var3.key_points;
                     var3 = var6.bind(var7)(var3);
-                    if(var3) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+                    if(var3) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var3 = new Array(0);
-                    _fun0002_ip = 15; continue _fun0002;
-case 13:
+                    _fun0002_ip = 16; continue _fun0002;
+case 14:
                     var7 = var5.key_points;
                     var6 = var7.map;
                     var5 = function(arg1) {
@@ -152,10 +162,10 @@ case 0:
                             var1 = null;
                             var3 = var1 == var2;
                             var1 = undefined;
-                            if(var3) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+                            if(var3) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                             var1 = var2.text;
-case 16:
+case 17:
                             return var1;
                         }
                     };
@@ -169,12 +179,12 @@ case 16:
                         return var1;
                     };
                     var3 = var5.bind(var6)(var4);
-case 15:
+case 16:
                     var2['key_points'] = var3;
                     var1 = var2;
-case 8: // try_end0
+case 9: // try_end0
                     return var1;
-case 18: // catch_target0
+case 19: // catch_target0
                     CatchBlockStart(arg_register=0);
                     var1 = null;
                     return var1;
@@ -184,19 +194,19 @@ case 18: // catch_target0
 case 4:
             var2 = var3 == var5;
             var1 = undefined;
-            if(var2) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(var2) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var1 = var5.title;
-case 19:
+case 20:
             var2 = var3 == var1;
             var1 = null;
-            if(var2) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+            if(var2) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var7 = var5.title;
             var2 = '';
             var1 = null;
-            if(!(var2 !== var7)) { _fun0001_ip = 21; continue _fun0001 }
-case 23:
+            if(!(var2 !== var7)) { _fun0001_ip = 22; continue _fun0001 }
+case 24:
             var2 = {};
             var7 = var4.id;
             var2['id'] = var7;
@@ -205,10 +215,10 @@ case 23:
             var9 = var5.brief_summary;
             var10 = var3 != var9;
             var7 = null;
-            if(!var10) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
+            if(!var10) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var7 = var9;
-case 24:
+case 25:
             var2['briefSummary'] = var7;
             var5 = var5.key_points;
             var2['keyPoints'] = var5;
@@ -229,16 +239,16 @@ case 24:
             var5 = var4.user_count;
             var2['userCount'] = var5;
             var5 = var4.keywords;
-            if(!(var3 == var5)) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+            if(!(var3 == var5)) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var5 = new Array(0);
-case 26:
+case 27:
             var2['keywords'] = var5;
             var5 = var4.summary_map;
             var7 = var3 != var5;
             var5 = null;
-            if(!var7) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+            if(!var7) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
             var7 = {};
             var9 = var4.summary_map;
             var10 = var9.entries;
@@ -255,7 +265,7 @@ case 29:
             var8 = var9.bind(var10)(var8);
             var7['entries'] = var8;
             var5 = var7;
-case 28:
+case 29:
             var2['summaryMap'] = var5;
             var5 = var4.engagement;
             var2['engagement'] = var5;
@@ -266,15 +276,15 @@ case 28:
             var5 = var4.moderation;
             var5 = var3 != var5;
             var3 = null;
-            if(!var5) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
-            var5 = _closure1_slot0;
+            if(!var5) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
+            var5 = _closure1_slot2;
             var4 = var4.moderation;
             var3 = var5.bind(var6)(var4);
-case 30:
+case 31:
             var2['moderation'] = var3;
             var1 = var2;
-case 21:
+case 22:
             return var1;
         }
     };

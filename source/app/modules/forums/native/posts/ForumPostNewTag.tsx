@@ -34,8 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var10];
     var10 = metroImportDefault;
     var10 = var10.bind(var1)(var11);
-    var10 = var10.unsafe_rawColors;
-    var10 = var10.BRAND_260;
+    var10 = var10.colors;
+    var10 = var10.BADGE_BACKGROUND_BRAND;
     var9['backgroundColor'] = var10;
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var5[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.NewTag;
-        var1 = {'containerStyle': null, 'variant': 'text-xs/bold', 'color': 'button-outline-brand-border-active'};
+        var1 = {'containerStyle': null, 'variant': 'text-xs/bold', 'color': 'badge-text-brand'};
         var5 = new Array(2);
         var5[0] = var7;
         var6 = var6.container;

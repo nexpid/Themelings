@@ -3262,13 +3262,13 @@ case 0:
                 var5 = var1.conn;
                 var4 = var5.setUserPosition;
                 var1 = null;
-                if(!(var1 != var4)) { _fun0039_ip = 203; continue _fun0039 }
-case 31:
+                if(!(var1 != var4)) { _fun0039_ip = 186; continue _fun0039 }
+case 184:
                 var3 = var4.call;
                 var2 = arg1;
                 var1 = arg2;
                 var1 = var3.bind(var4)(var5, var2, var1);
-case 203:
+case 186:
                 var1 = undefined;
                 return var1;
             }

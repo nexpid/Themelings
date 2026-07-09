@@ -94,7 +94,7 @@ case 0:
             return var1;
         };
         var _closure1_slot25 = var1;
-        var1 = function getSearchComponent() {
+        var1 = function getConversationsComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 19;
@@ -105,7 +105,7 @@ case 0:
             return var1;
         };
         var _closure1_slot26 = var1;
-        var1 = function getContextMenuCommandNavigatorComponent() {
+        var1 = function getSearchComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 20;
@@ -116,7 +116,7 @@ case 0:
             return var1;
         };
         var _closure1_slot27 = var1;
-        var1 = function getModalComponent() {
+        var1 = function getContextMenuCommandNavigatorComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 21;
@@ -127,7 +127,7 @@ case 0:
             return var1;
         };
         var _closure1_slot28 = var1;
-        var1 = function getMessageRequestsComponent() {
+        var1 = function getModalComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 22;
@@ -138,7 +138,7 @@ case 0:
             return var1;
         };
         var _closure1_slot29 = var1;
-        var1 = function getSettingsComponent() {
+        var1 = function getMessageRequestsComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 23;
@@ -149,7 +149,7 @@ case 0:
             return var1;
         };
         var _closure1_slot30 = var1;
-        var1 = function getAccountStanding() {
+        var1 = function getSettingsComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 24;
@@ -160,6 +160,17 @@ case 0:
             return var1;
         };
         var _closure1_slot31 = var1;
+        var1 = function getAccountStanding() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 25;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.default;
+            return var1;
+        };
+        var _closure1_slot32 = var1;
         var2 = function getChannelScreen() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -183,7 +194,7 @@ case 2:
 case 0:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 25;
+                        var1 = 26;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -194,12 +205,12 @@ case 0:
 case 5:
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var2 = 26;
+                        var2 = 27;
                         var2 = var9[var2];
                         var5 = var8.bind(var1)(var2);
                         var4 = var5.setKeyboardType;
                         var2 = {};
-                        var6 = 27;
+                        var6 = 28;
                         var6 = var9[var6];
                         var6 = var8.bind(var1)(var6);
                         var6 = var6.KeyboardTypes;
@@ -222,7 +233,7 @@ case 8:
 case 6:
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var2 = 28;
+                        var2 = 29;
                         var2 = var4[var2];
                         var5 = var3.bind(var1)(var2);
                         var4 = var5.trackWithMetadata;
@@ -255,7 +266,7 @@ case 11:
                     var1['headerShown'] = var2;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var3 = 29;
+                    var3 = 30;
                     var9 = var8[var3];
                     var4 = undefined;
                     var9 = var7.bind(var4)(var9);
@@ -282,7 +293,7 @@ case 11:
                 return var1;
             }
         };
-        var _closure1_slot32 = var2;
+        var _closure1_slot33 = var2;
         var5 = global;
         var11 = var5.Object;
         var9 = var11.defineProperty;
@@ -382,7 +393,7 @@ case 12:
             var _closure2_slot0 = var10;
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var4 = 30;
+            var4 = 31;
             var5 = var11[var4];
             var6 = var3.bind(var7)(var5);
             var5 = var6.useScreenReaderEnabled;
@@ -392,11 +403,11 @@ case 12:
             var4 = var5.useAppKeyCommands;
             var4 = var4.bind(var5)();
             var5 = _closure1_slot1;
-            var4 = 31;
+            var4 = 32;
             var4 = var11[var4];
             var4 = var5.bind(var7)(var4);
             var4 = var4.bind(var7)();
-            var4 = 32;
+            var4 = 33;
             var4 = var11[var4];
             var9 = var3.bind(var7)(var4);
             var8 = var9.useStateFromStores;
@@ -427,7 +438,7 @@ case 12:
             var2 = 1;
             var2 = var8[var2];
             var _closure2_slot3 = var2;
-            var2 = 33;
+            var2 = 34;
             var2 = var11[var2];
             var12 = var3.bind(var7)(var2);
             var8 = var12.useHomeIndicatorStore;
@@ -438,13 +449,13 @@ case 12:
             };
             var8 = var8.bind(var12)(var2);
             var _closure2_slot4 = var8;
-            var2 = 34;
+            var2 = 35;
             var2 = var11[var2];
             var2 = var5.bind(var7)(var2);
             var2 = var2.bind(var7)();
             var5 = var2.isChatBesideChannelList;
             var _closure2_slot5 = var5;
-            var2 = 35;
+            var2 = 36;
             var2 = var11[var2];
             var3 = var3.bind(var7)(var2);
             var2 = var3.useAccessibilityNativeStackOptions;
@@ -464,7 +475,7 @@ case 0:
                     var4 = _closure1_slot10;
                     var17 = _closure1_slot1;
                     var19 = _closure1_slot2;
-                    var11 = 36;
+                    var11 = 37;
                     var1 = var19[var11];
                     var3 = undefined;
                     var2 = var17.bind(var3)(var1);
@@ -476,7 +487,7 @@ case 0:
                     var5 = var5.MainNavigator;
                     var1['profile'] = var5;
                     var7 = _closure1_slot11;
-                    var5 = 37;
+                    var5 = 38;
                     var5 = var19[var5];
                     var6 = var17.bind(var3)(var5);
                     var5 = {'style': null, 'nativeID': 'mainNavigator', 'collapsableChildren': false};
@@ -484,16 +495,16 @@ case 0:
                     var8 = var8.flex;
                     var5['style'] = var8;
                     var12 = _closure1_slot10;
-                    var8 = 38;
+                    var8 = 39;
                     var8 = var19[var8];
                     var10 = var17.bind(var3)(var8);
                     var8 = {};
                     var15 = _closure1_slot10;
-                    var13 = 39;
+                    var13 = 40;
                     var13 = var19[var13];
                     var14 = var17.bind(var3)(var13);
                     var13 = {};
-                    var16 = 40;
+                    var16 = 41;
                     var16 = var19[var16];
                     var17 = var17.bind(var3)(var16);
                     var16 = {};
@@ -572,7 +583,7 @@ case 16:
                                     var1['headerShown'] = var3;
                                     var4 = _closure1_slot0;
                                     var7 = _closure1_slot2;
-                                    var3 = 29;
+                                    var3 = 30;
                                     var3 = var7[var3];
                                     var4 = var4.bind(var6)(var3);
                                     var3 = var4.getDefaultStackHeaderProps;
@@ -611,7 +622,7 @@ case 16:
                             var9['options'] = var12;
                             var9 = var11.bind(var1)(var10, var9);
                             var8[1] = var9;
-                            var10 = _closure1_slot32;
+                            var10 = _closure1_slot33;
                             var9 = _closure2_slot6;
                             var12 = null;
                             var13 = var12 == var9;
@@ -633,7 +644,7 @@ case 20:
                             var5[0] = var7;
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var6 = 41;
+                            var6 = 42;
                             var6 = var8[var6];
                             var6 = var7.bind(var1)(var6);
                             var6 = var6.APP_EXTRA_COMPONENTS_VOICE_AND_VIDEO;
@@ -645,7 +656,7 @@ case 20:
                     };
                     var11['children'] = var27;
                     var11 = var26.bind(var3)(var25, var11);
-                    var25 = new Array(11);
+                    var25 = new Array(12);
                     var25[0] = var11;
                     var27 = _closure1_slot10;
                     var11 = _closure1_slot15;
@@ -653,10 +664,31 @@ case 20:
                     var11 = {};
                     var28 = 'search';
                     var11['name'] = var28;
-                    var28 = _closure1_slot26;
+                    var28 = _closure1_slot27;
                     var11['getComponent'] = var28;
                     var11 = var27.bind(var3)(var26, var11);
                     var25[1] = var11;
+                    var27 = _closure1_slot10;
+                    var11 = _closure1_slot15;
+                    var26 = var11.Screen;
+                    var11 = {};
+                    var28 = 'conversations';
+                    var11['name'] = var28;
+                    var28 = _closure1_slot26;
+                    var11['getComponent'] = var28;
+                    var28 = function options() {
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var1 = 43;
+                        var1 = var2[var1];
+                        var2 = undefined;
+                        var1 = var3.bind(var2)(var1);
+                        var1 = var1.bind(var2)();
+                        return var1;
+                    };
+                    var11['options'] = var28;
+                    var11 = var27.bind(var3)(var26, var11);
+                    var25[2] = var11;
                     var27 = _closure1_slot10;
                     var11 = _closure1_slot15;
                     var26 = var11.Screen;
@@ -668,14 +700,14 @@ case 20:
                     var28 = _closure1_slot17;
                     var11['options'] = var28;
                     var11 = var27.bind(var3)(var26, var11);
-                    var25[2] = var11;
+                    var25[3] = var11;
                     var27 = _closure1_slot10;
                     var11 = _closure1_slot15;
                     var26 = var11.Screen;
                     var11 = {};
                     var28 = 'account-standing';
                     var11['name'] = var28;
-                    var28 = _closure1_slot31;
+                    var28 = _closure1_slot32;
                     var11['getComponent'] = var28;
                     var28 = {'presentation': 'fullScreenModal', 'gestureEnabled': false};
                     var33 = _closure1_slot17;
@@ -683,7 +715,7 @@ case 20:
                     var30 = copyDataProperties(var34, var33);
                     var11['options'] = var28;
                     var11 = var27.bind(var3)(var26, var11);
-                    var25[3] = var11;
+                    var25[4] = var11;
                     var27 = _closure1_slot10;
                     var11 = _closure1_slot15;
                     var26 = var11.Screen;
@@ -696,7 +728,7 @@ case 0:
                             var1 = {};
                             var5 = _closure1_slot1;
                             var7 = _closure1_slot2;
-                            var3 = 42;
+                            var3 = 43;
                             var3 = var7[var3];
                             var4 = undefined;
                             var5 = var5.bind(var4)(var3);
@@ -768,7 +800,7 @@ case 26:
                     var28 = _closure1_slot24;
                     var11['getComponent'] = var28;
                     var11 = var27.bind(var3)(var26, var11);
-                    var25[4] = var11;
+                    var25[5] = var11;
                     var27 = _closure1_slot10;
                     var11 = _closure1_slot15;
                     var26 = var11.Screen;
@@ -783,7 +815,7 @@ case 0:
                             var1 = {};
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var3 = 42;
+                            var3 = 43;
                             var3 = var5[var3];
                             var5 = undefined;
                             var6 = var4.bind(var5)(var3);
@@ -866,7 +898,7 @@ case 37:
                     var28 = _closure1_slot23;
                     var11['getComponent'] = var28;
                     var11 = var27.bind(var3)(var26, var11);
-                    var25[5] = var11;
+                    var25[6] = var11;
                     var27 = _closure1_slot10;
                     var11 = _closure1_slot15;
                     var26 = var11.Screen;
@@ -879,7 +911,7 @@ case 0:
                             var1 = {};
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
-                            var3 = 42;
+                            var3 = 43;
                             var3 = var6[var3];
                             var4 = undefined;
                             var3 = var5.bind(var4)(var3);
@@ -910,10 +942,10 @@ case 39:
                         }
                     };
                     var11['options'] = var28;
-                    var28 = _closure1_slot30;
+                    var28 = _closure1_slot31;
                     var11['getComponent'] = var28;
                     var11 = var27.bind(var3)(var26, var11);
-                    var25[6] = var11;
+                    var25[7] = var11;
                     var27 = _closure1_slot10;
                     var11 = _closure1_slot15;
                     var26 = var11.Screen;
@@ -925,7 +957,7 @@ case 39:
                     var28 = function options() {
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 42;
+                        var1 = 43;
                         var1 = var3[var1];
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
@@ -937,7 +969,7 @@ case 39:
                     };
                     var11['options'] = var28;
                     var11 = var27.bind(var3)(var26, var11);
-                    var25[7] = var11;
+                    var25[8] = var11;
                     var28 = _closure1_slot10;
                     var11 = _closure1_slot15;
                     var27 = var11.Screen;
@@ -946,15 +978,15 @@ case 39:
                     var26['name'] = var11;
                     var31 = _closure1_slot1;
                     var11 = _closure1_slot2;
-                    var30 = 42;
+                    var30 = 43;
                     var32 = var11[var30];
                     var32 = var31.bind(var3)(var32);
                     var32 = var32.bind(var3)();
                     var26['options'] = var32;
-                    var32 = _closure1_slot29;
+                    var32 = _closure1_slot30;
                     var26['getComponent'] = var32;
                     var26 = var28.bind(var3)(var27, var26);
-                    var25[8] = var26;
+                    var25[9] = var26;
                     var28 = _closure1_slot10;
                     var26 = _closure1_slot15;
                     var27 = var26.Screen;
@@ -965,10 +997,10 @@ case 39:
                     var30 = var31.bind(var3)(var30);
                     var30 = var30.bind(var3)();
                     var26['options'] = var30;
-                    var30 = _closure1_slot27;
+                    var30 = _closure1_slot28;
                     var26['getComponent'] = var30;
                     var26 = var28.bind(var3)(var27, var26);
-                    var25[9] = var26;
+                    var25[10] = var26;
                     var28 = _closure1_slot10;
                     var26 = _closure1_slot15;
                     var27 = var26.Screen;
@@ -996,7 +1028,7 @@ case 40:
                             var1['animation'] = var2;
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var2 = 42;
+                            var2 = 43;
                             var2 = var4[var2];
                             var4 = undefined;
                             var3 = var3.bind(var4)(var2);
@@ -1024,10 +1056,10 @@ case 41:
                         }
                     };
                     var26['options'] = var29;
-                    var29 = _closure1_slot28;
+                    var29 = _closure1_slot29;
                     var26['getComponent'] = var29;
                     var26 = var28.bind(var3)(var27, var26);
-                    var25[10] = var26;
+                    var25[11] = var26;
                     var22['children'] = var25;
                     var22 = var24.bind(var3)(var23, var22);
                     var19['children'] = var22;
@@ -1042,7 +1074,7 @@ case 41:
                     var8 = new Array(4);
                     var8[0] = var10;
                     var10 = _closure1_slot0;
-                    var9 = 41;
+                    var9 = 42;
                     var12 = var11[var9];
                     var12 = var10.bind(var3)(var12);
                     var12 = var12.APP_EXTRA_COMPONENTS;
@@ -1066,7 +1098,7 @@ case 41:
             return var1;
         };
         var4 = var5.bind(var8)(var4);
-        var5 = 43;
+        var5 = 44;
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.fileFinishedImporting;

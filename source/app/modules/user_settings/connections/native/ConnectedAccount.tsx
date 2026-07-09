@@ -2064,28 +2064,22 @@ case 0:
                 var3 = _closure1_slot2;
                 var1 = 24;
                 var1 = var3[var1];
-                var5 = var2.bind(var4)(var1);
-                var2 = var5.get;
-                var1 = var6.type;
-                var10 = var2.bind(var5)(var1);
-                var2 = _closure1_slot0;
-                var1 = 40;
-                var1 = var3[var1];
                 var3 = var2.bind(var4)(var1);
-                var2 = var3.getIsRiotSocialSDKMigrationEnabled;
-                var1 = {};
-                var5 = 'User Settings Connections Mobile';
-                var1['location'] = var5;
-                var1 = var2.bind(var3)(var1);
-                if(!var1) { _fun0016_ip = 96; continue _fun0016 }
-case 97:
-                var2 = var10.replacedBy;
+                var2 = var3.get;
+                var1 = var6.type;
+                var10 = var2.bind(var3)(var1);
+                var3 = var10.migrationData;
                 var1 = null;
-                if(!(var1 == var2)) { _fun0016_ip = 61; continue _fun0016 }
+                if(!(var1 != var3)) { _fun0016_ip = 96; continue _fun0016 }
+case 16:
+                var2 = var3.getMigrationExperimentEnabled;
+                var1 = 'User Settings Connections Mobile';
+                var1 = var2.bind(var3)(var1);
+                if(var1) { _fun0016_ip = 50; continue _fun0016 }
 case 96:
                 var26 = var6.name;
-                _fun0016_ip = 98; continue _fun0016;
-case 61:
+                _fun0016_ip = 97; continue _fun0016;
+case 50:
                 var2 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var1 = 21;
@@ -2094,7 +2088,7 @@ case 61:
                 var5 = var1.intl;
                 var3 = var5.format;
                 var2 = _closure1_slot1;
-                var1 = 41;
+                var1 = 40;
                 var1 = var7[var1];
                 var1 = var2.bind(var4)(var1);
                 var2 = var1.Glhokn;
@@ -2102,7 +2096,7 @@ case 61:
                 var6 = var6.name;
                 var1['platformName'] = var6;
                 var26 = var3.bind(var5)(var2, var1);
-case 98:
+case 97:
                 var3 = _closure1_slot19;
                 var11 = _closure1_slot0;
                 var15 = _closure1_slot2;
@@ -2123,23 +2117,23 @@ case 98:
                 var6 = var6.Sizes;
                 var6 = var6.LARGE;
                 var1['size'] = var6;
-                var6 = 42;
+                var6 = 41;
                 var6 = var15[var6];
                 var9 = var11.bind(var4)(var6);
                 var7 = var9.makeSource;
-                var6 = 43;
+                var6 = 42;
                 var6 = var15[var6];
                 var11 = var11.bind(var4)(var6);
                 var6 = var11.isThemeDark;
                 var6 = var6.bind(var11)(var13);
                 var10 = var10.icon;
-                if(var6) { _fun0016_ip = 99; continue _fun0016 }
-case 100:
+                if(var6) { _fun0016_ip = 98; continue _fun0016 }
+case 68:
                 var6 = var10.lightPNG;
-                _fun0016_ip = 101; continue _fun0016;
-case 99:
+                _fun0016_ip = 99; continue _fun0016;
+case 98:
                 var6 = var10.darkPNG;
-case 101:
+case 99:
                 var6 = var7.bind(var9)(var6);
                 var1['source'] = var6;
                 var1['disableColor'] = var5;
@@ -2147,7 +2141,7 @@ case 101:
                 var3 = _closure1_slot19;
                 var15 = _closure1_slot0;
                 var17 = _closure1_slot2;
-                var1 = 44;
+                var1 = 43;
                 var1 = var17[var1];
                 var1 = var15.bind(var4)(var1);
                 var2 = var1.Stack;
@@ -2183,7 +2177,7 @@ case 101:
                 var11 = var12.deleteConnectionIcon;
                 var8['style'] = var11;
                 var13 = _closure1_slot1;
-                var11 = 45;
+                var11 = 44;
                 var11 = var17[var11];
                 var11 = var13.bind(var4)(var11);
                 var8['source'] = var11;
@@ -2218,7 +2212,7 @@ case 101:
                 var11 = var12.connectedAccountTopContainer;
                 var8['style'] = var11;
                 var23 = _closure1_slot19;
-                var11 = 46;
+                var11 = 45;
                 var11 = var17[var11];
                 var11 = var15.bind(var4)(var11);
                 var16 = var11.TableRow;
@@ -2244,7 +2238,7 @@ case 101:
                 var16 = var16.bind(var22)();
                 var12[1] = var16;
                 var16 = _closure1_slot20;
-                var14 = 47;
+                var14 = 46;
                 var14 = var17[var14];
                 var14 = var15.bind(var4)(var14);
                 var15 = var14.TableRowGroup;
@@ -2276,12 +2270,12 @@ case 101:
         return var1;
     };
     var4 = var4.bind(var1)(var5);
-    var5 = 48;
+    var5 = 47;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.ThemeContext;
     var4['contextType'] = var5;
-    var5 = 49;
+    var5 = 48;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

@@ -1177,10 +1177,42 @@ case 62:
         return var1;
     };
     var4['CONVERSATION_FETCH_SUCCESS'] = var13;
+    var13 = function handleConversationsFetchSuccess(arg1) {
+        var1 = arg1;
+        var4 = var1.rawConversations;
+        var3 = _closure1_slot23;
+        var2 = undefined;
+        var1 = function(arg1) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+case 0:
+                var1 = arg1;
+                var4 = var1.messages;
+                var3 = _closure1_slot23;
+                var1 = null;
+                if(!(var1 == var4)) { _fun0021_ip = 81; continue _fun0021 }
+case 82:
+                var4 = new Array(0);
+case 81:
+                var2 = undefined;
+                var1 = function(arg1) {
+                    var3 = _closure1_slot22;
+                    var2 = undefined;
+                    var1 = arg1;
+                    var1 = var3.bind(var2)(var1);
+                    return var1;
+                };
+                var1 = var3.bind(var2)(var4, var1);
+                return var1;
+            }
+        };
+        var1 = var3.bind(var2)(var4, var1);
+        return var1;
+    };
+    var4['CONVERSATIONS_FETCH_SUCCESS'] = var13;
     var4['LOAD_THREADS_SUCCESS'] = var12;
     var4['LOAD_ARCHIVED_THREADS_SUCCESS'] = var12;
     var12 = function handleMessageExplicitContentScanTimeout(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.messageId;
@@ -1188,7 +1220,7 @@ case 0:
             var3 = _closure1_slot18;
             var2 = var3.has;
             var2 = var2.bind(var3)(var5, var6);
-            if(var2) { _fun0021_ip = 80; continue _fun0021 }
+            if(var2) { _fun0022_ip = 80; continue _fun0022 }
 case 79:
             var2 = false;
             return var2;
@@ -1197,13 +1229,13 @@ case 80:
             var2 = var3.get;
             var7 = var2.bind(var3)(var5, var6);
             var2 = null;
-            if(!(var2 != var7)) { _fun0021_ip = 81; continue _fun0021 }
-case 82:
+            if(!(var2 != var7)) { _fun0022_ip = 83; continue _fun0022 }
+case 84:
             var3 = var7.state;
             var2 = _closure1_slot14;
             var2 = var2.LOADED;
-            if(!(var3 === var2)) { _fun0021_ip = 81; continue _fun0021 }
-case 83:
+            if(!(var3 === var2)) { _fun0022_ip = 83; continue _fun0022 }
+case 85:
             var4 = _closure1_slot18;
             var3 = var4.set;
             var2 = {};
@@ -1222,7 +1254,7 @@ case 83:
             var2['message'] = var7;
             var2 = var3.bind(var4)(var5, var6, var2);
             return var1;
-case 81:
+case 83:
             var1 = false;
             return var1;
         }
@@ -1238,18 +1270,18 @@ case 81:
         var3 = var1.bind(var2)(var3);
         var2 = undefined;
         var1 = function(arg1) {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var1 = arg1;
                 var4 = var1.first_message;
                 var1 = null;
                 var1 = var1 != var4;
-                if(!var1) { _fun0022_ip = 84; continue _fun0022 }
+                if(!var1) { _fun0023_ip = 86; continue _fun0023 }
 case 58:
                 var3 = _closure1_slot22;
                 var2 = undefined;
                 var1 = var3.bind(var2)(var4);
-case 84:
+case 86:
                 return var1;
             }
         };
@@ -1258,7 +1290,7 @@ case 84:
     };
     var4['LOAD_FORUM_POSTS'] = var12;
     var12 = function handleMessageCreate(arg1) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.message;
@@ -1269,18 +1301,18 @@ case 0:
             var1 = var1.ready;
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0023_ip = 85; continue _fun0023 }
+            if(var3) { _fun0024_ip = 87; continue _fun0024 }
 case 6:
             var3 = _closure1_slot22;
             var2 = undefined;
             var1 = var3.bind(var2)(var4);
-case 85:
+case 87:
             return var1;
         }
     };
     var4['MESSAGE_CREATE'] = var12;
     var12 = function handleMessageUpdate(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var1 = arg1;
             var10 = var1.message;
@@ -1289,8 +1321,8 @@ case 0:
             var3 = _closure1_slot18;
             var2 = var3.has;
             var2 = var2.bind(var3)(var5, var6);
-            if(var2) { _fun0024_ip = 74; continue _fun0024 }
-case 86:
+            if(var2) { _fun0025_ip = 74; continue _fun0025 }
+case 88:
             var2 = false;
             return var2;
 case 74:
@@ -1298,13 +1330,13 @@ case 74:
             var2 = var3.get;
             var7 = var2.bind(var3)(var5, var6);
             var2 = null;
-            if(!(var2 != var7)) { _fun0024_ip = 87; continue _fun0024 }
-case 88:
+            if(!(var2 != var7)) { _fun0025_ip = 89; continue _fun0025 }
+case 90:
             var3 = var7.state;
             var2 = _closure1_slot14;
             var2 = var2.LOADED;
-            if(!(var3 === var2)) { _fun0024_ip = 87; continue _fun0024 }
-case 89:
+            if(!(var3 === var2)) { _fun0025_ip = 89; continue _fun0025 }
+case 91:
             var4 = _closure1_slot18;
             var3 = var4.set;
             var2 = {};
@@ -1323,7 +1355,7 @@ case 89:
             var2['message'] = var7;
             var2 = var3.bind(var4)(var5, var6, var2);
             return var1;
-case 87:
+case 89:
             var1 = false;
             return var1;
         }
@@ -1378,7 +1410,7 @@ case 87:
     var4['CHANNEL_DELETE'] = var11;
     var4['THREAD_DELETE'] = var11;
     var10 = function handleGenericCleanup() {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var3 = _closure1_slot18;
             var2 = var3.retainWhere;
@@ -1393,11 +1425,11 @@ case 0:
             };
             var2 = var2.bind(var3)(var1);
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0025_ip = 90; continue _fun0025 }
+            if(!(var1 !== var2)) { _fun0026_ip = 92; continue _fun0026 }
 case 37:
             var1 = undefined;
             return var1;
-case 90:
+case 92:
             var1 = false;
             return var1;
         }

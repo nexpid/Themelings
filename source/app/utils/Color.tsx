@@ -517,7 +517,7 @@ case 51:
                 var1 = /.{1,2}/g;
                 var10 = var2.bind(var3)(var1);
                 if(!(var12 != var10)) { _fun0007_ip = 49; continue _fun0007 }
-case 35:
+case 30:
                 var6 = _closure2_slot0;
                 var7 = global;
                 var2 = var7.parseInt;

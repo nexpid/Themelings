@@ -36,8 +36,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var9];
     var11 = var10.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_FEEDBACK_NOTIFICATION;
-    var4['unreadColor'] = var11;
+    var11 = var11.MOBILE_CHAT_NEW_MESSAGE_TEXT;
+    var4['unreadTextColor'] = var11;
+    var11 = var6[var9];
+    var11 = var10.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.MOBILE_CHAT_NEW_MESSAGE_BORDER;
+    var4['unreadBorderColor'] = var11;
     var9 = var6[var9];
     var9 = var10.bind(var1)(var9);
     var9 = var9.colors;
@@ -45,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['summaryColor'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot4 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -57,55 +62,69 @@ case 0:
             var1 = arg1;
             var5 = var1.rowType;
             var2 = var1.changeType;
-            var7 = _closure1_slot4;
-            var3 = undefined;
-            var4 = arg2;
-            var4 = var7.bind(var3)(var4);
-            var7 = _closure1_slot3;
-            var7 = var7.DAY;
-            if(!(var7 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+            var4 = _closure1_slot4;
+            var8 = undefined;
+            var3 = arg2;
+            var4 = var4.bind(var8)(var3);
+            var3 = _closure1_slot3;
+            var3 = var3.DAY;
+            if(!(var3 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = _closure1_slot3;
-            var7 = var7.UNREAD;
-            if(!(var7 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+            var3 = _closure1_slot3;
+            var3 = var3.UNREAD;
+            if(!(var3 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = _closure1_slot3;
-            var7 = var7.SUMMARY;
-            if(!(var7 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+            var3 = _closure1_slot3;
+            var3 = var3.SUMMARY;
+            if(!(var3 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var8 = _closure1_slot0;
+            var7 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var7 = 3;
-            var7 = var9[var7];
-            var8 = var8.bind(var3)(var7);
-            var7 = var8.assertNever;
-            var7 = var7.bind(var8)(var5);
-            return var3;
+            var3 = 4;
+            var3 = var9[var3];
+            var7 = var7.bind(var8)(var3);
+            var3 = var7.assertNever;
+            var3 = var3.bind(var7)(var5);
+            return var8;
 case 6:
-            var8 = var1.summary;
+            var9 = var1.summary;
             var7 = var1.isBeforeContent;
             var3 = {};
-            var9 = _closure1_slot2;
-            var9 = var9.SEPARATOR;
-            var3['type'] = var9;
+            var10 = _closure1_slot2;
+            var10 = var10.SEPARATOR;
+            var3['type'] = var10;
             var3['id'] = var5;
-            var9 = var4.summaryColor;
-            var3['color'] = var9;
-            var9 = var8.topic;
-            var3['text'] = var9;
-            var3['summary'] = var8;
+            var10 = var4.summaryColor;
+            var3['color'] = var10;
+            var10 = var9.topic;
+            var3['text'] = var10;
+            var3['summary'] = var9;
             var3['isBeforeContent'] = var7;
             var3['changeType'] = var2;
             return var3;
 case 4:
             var7 = var1.text;
             var3 = {};
-            var8 = _closure1_slot2;
-            var8 = var8.SEPARATOR;
-            var3['type'] = var8;
+            var9 = _closure1_slot2;
+            var9 = var9.SEPARATOR;
+            var3['type'] = var9;
             var3['id'] = var5;
-            var8 = var4.unreadColor;
-            var3['color'] = var8;
+            var9 = var4.unreadTextColor;
+            var3['color'] = var9;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var9 = 3;
+            var9 = var11[var9];
+            var11 = var10.bind(var8)(var9);
+            var10 = var11.isMobileVisualRefreshEnabled;
+            var9 = 'Separator';
+            var9 = var10.bind(var11)(var9);
+            var8 = undefined;
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var8 = var4.unreadBorderColor;
+case 8:
+            var3['borderColor'] = var8;
             var3['changeType'] = var2;
             var3['text'] = var7;
             return var3;

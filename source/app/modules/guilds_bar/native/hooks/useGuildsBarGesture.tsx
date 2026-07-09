@@ -921,7 +921,7 @@ case 77:
     var4['code'] = var7;
     var _closure1_slot20 = var4;
     var4 = {};
-    var7 = "function useGuildsBarGestureTsx3(){const{gestureState,runOnJS,handleGestureEnd}=this.__closure;console.log('ZZZZZZ - LongPress.onEnd');if(gestureState.get().mode==='cancel'){runOnJS(handleGestureEnd)('cancel');}}";
+    var7 = "function useGuildsBarGestureTsx3(){const{gestureState,runOnJS,handleGestureEnd}=this.__closure;if(gestureState.get().mode==='cancel'){runOnJS(handleGestureEnd)('cancel');}}";
     var4['code'] = var7;
     var _closure1_slot21 = var4;
     var4 = {};
@@ -941,7 +941,7 @@ case 77:
     var4['code'] = var7;
     var _closure1_slot25 = var4;
     var4 = {};
-    var7 = "function useGuildsBarGestureTsx8(){const{gestureState,runOnJS,handleGestureEnd}=this.__closure;console.log('ZZZZZZ - Pan.onEnd');if(gestureState.get().mode==='drag'){runOnJS(handleGestureEnd)('drop');}else if(gestureState.get().mode==='contextmenu'){runOnJS(handleGestureEnd)('contextmenu-open');}else{runOnJS(handleGestureEnd)('cancel');}}";
+    var7 = "function useGuildsBarGestureTsx8(){const{gestureState,runOnJS,handleGestureEnd}=this.__closure;if(gestureState.get().mode==='drag'){runOnJS(handleGestureEnd)('drop');}else if(gestureState.get().mode==='contextmenu'){runOnJS(handleGestureEnd)('contextmenu-open');}else{runOnJS(handleGestureEnd)('cancel');}}";
     var4['code'] = var7;
     var _closure1_slot26 = var4;
     var4 = {};
@@ -3021,7 +3021,7 @@ case 305:
             var9 = _closure2_slot14;
             var14['handleGestureEnd'] = var9;
             var2['__closure'] = var14;
-            var14 = 7197137311226.0;
+            var14 = 2371934536573.0;
             var2['__workletHash'] = var14;
             var14 = _closure1_slot21;
             var2['__initData'] = var14;
@@ -3451,7 +3451,7 @@ case 44:
             var14['runOnJS'] = var15;
             var14['handleGestureEnd'] = var9;
             var5['__closure'] = var14;
-            var14 = 3014467498258.0;
+            var14 = 9863070264039.0;
             var5['__workletHash'] = var14;
             var14 = _closure1_slot26;
             var5['__initData'] = var14;

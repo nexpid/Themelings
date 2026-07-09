@@ -600,7 +600,7 @@ case 31:
         return var1;
     };
     var3['useBogoPromotion'] = var4;
-    var2 = function useIsInPromotion(arg1) {
+    var4 = function useIsInPromotion(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -623,6 +623,54 @@ case 31:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['useIsInPromotion'] = var2;
+    var3['useIsInPromotion'] = var4;
+    var2 = function useHasActiveBogoPromotion() {
+        var6 = _closure1_slot3;
+        var5 = var6.useEffect;
+        var4 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 8;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.maybeFetchActivePromotions;
+            var2 = var2.bind(var3)();
+            return var1;
+        };
+        var3 = new Array(0);
+        var3 = var5.bind(var6)(var4, var3);
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 4;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStores;
+        var5 = _closure1_slot5;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                var2 = _closure1_slot5;
+                var1 = var2.getMarketingMomentPromotion;
+                var1 = var1.bind(var2)();
+                var2 = null;
+                var3 = var2 == var1;
+                var2 = undefined;
+                if(var3) { _fun0009_ip = 30; continue _fun0009 }
+case 32:
+                var2 = var1.hasBogoReward;
+case 30:
+                var1 = true;
+                var1 = var1 === var2;
+                return var1;
+            }
+        };
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['useHasActiveBogoPromotion'] = var2;
     return var1;
 })();

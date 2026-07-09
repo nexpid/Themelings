@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'marginLeft': 16, 'marginRight': 16, 'overflow': 'hidden'};
+    var9 = {'marginLeft': 16, 'marginRight': 16};
     var4['animatedContainer'] = var9;
     var9 = {'position': 'absolute', 'left': 0, 'right': 0, 'backgroundColor': 'transparent', 'marginTop': 8, 'top': 0, 'bottom': 0};
     var4['safeAreaContainer'] = var9;

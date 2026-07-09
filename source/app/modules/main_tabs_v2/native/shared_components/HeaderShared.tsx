@@ -358,7 +358,7 @@ case 20:
     var18 = var11[var15];
     var18 = var16.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BORDER_SUBTLE;
+    var18 = var18.MOBILE_HEADER_BORDER;
     var14['borderColor'] = var18;
     var4['headerWrapper'] = var14;
     var14 = {'padding': 8, 'zIndex': 100, 'width': 40, 'height': 40, 'borderRadius': 20};

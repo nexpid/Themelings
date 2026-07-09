@@ -212,7 +212,7 @@ case 9:
         var12 = var11.bind(var12)();
         var11 = undefined;
         if(!var12) { _fun0001_ip = 11; continue _fun0001 }
-case 9:
+case 12:
         var11 = 14;
 case 11:
         var10['lineHeight'] = var11;

@@ -273,7 +273,7 @@ case 9:
             var7 = var7[var2];
             var7 = var15.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.BACKGROUND_SURFACE_HIGH;
+            var7 = var7.MOBILE_FLOATINGBAR_BACKGROUND_HIGHER;
             var13 = var13.bind(var14)(var7);
             var7 = _closure1_slot8;
             if(!var8) { _fun0002_ip = 11; continue _fun0002 }

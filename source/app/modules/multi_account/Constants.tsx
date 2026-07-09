@@ -20,6 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MULTI_ACCOUNTS_LIST'] = var1;
     var1 = 'multi_account_menu';
     var2['MULTI_ACCOUNT_MENU'] = var1;
+    var1 = 'push_notification_initial';
+    var2['PUSH_NOTIFICATION_INITIAL'] = var1;
     var1 = 'push_notification';
     var2['PUSH_NOTIFICATION'] = var1;
     var1 = 'share_extension';

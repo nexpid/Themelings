@@ -3,6 +3,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -21,14 +23,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var8 = var4.StyleSheet;
     var4 = var4.View;
-    var _closure1_slot0 = var4;
+    var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot1 = var7;
+    var _closure1_slot3 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot2 = var4;
+    var _closure1_slot4 = var4;
     var7 = var8.create;
     var4 = {};
     var9 = {'height': '100%', 'width': '100%'};
@@ -36,8 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'zIndex': 1};
     var4['header'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 3;
+    var _closure1_slot5 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -47,32 +49,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var1 = var2.header;
+            var10 = var2.header;
             var5 = var2.children;
-            var6 = var2.pointerEvents;
-            var8 = var2.style;
-            var4 = _closure1_slot2;
-            var3 = _closure1_slot0;
+            var1 = var2.pointerEvents;
+            var7 = var2.style;
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot2;
             var2 = {};
-            var7 = new Array(2);
-            var7[0] = var8;
-            var8 = _closure1_slot3;
-            var8 = var8.wrapper;
-            var7[1] = var8;
-            var2['style'] = var7;
-            var2['pointerEvents'] = var6;
+            var6 = new Array(2);
+            var6[0] = var7;
+            var7 = _closure1_slot5;
+            var7 = var7.wrapper;
+            var6[1] = var7;
+            var2['style'] = var6;
+            var2['pointerEvents'] = var1;
             var6 = null;
-            var7 = var6 != var1;
-            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+            var1 = var6 != var10;
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var9 = _closure1_slot1;
-            var8 = _closure1_slot0;
+            var9 = _closure1_slot3;
+            var8 = _closure1_slot2;
             var7 = {};
-            var10 = _closure1_slot3;
-            var10 = var10.header;
-            var7['style'] = var10;
-            var7['children'] = var1;
+            var13 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var1 = 3;
+            var11 = var11[var1];
             var1 = undefined;
+            var13 = var13.bind(var1)(var11);
+            var11 = var13.isAndroid;
+            var13 = var11.bind(var13)();
+            var11 = undefined;
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var12 = _closure1_slot5;
+            var11 = var12.header;
+case 4:
+            var7['style'] = var11;
+            var7['children'] = var10;
             var6 = var9.bind(var1)(var8, var7);
 case 2:
             var1 = new Array(2);

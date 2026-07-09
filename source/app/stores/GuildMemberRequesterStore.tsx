@@ -634,7 +634,7 @@ case 50:
         }
     };
     var2['LOAD_PINNED_MESSAGES_SUCCESS'] = var8;
-    var4 = function handleConversationFetchSuccess(arg1) {
+    var8 = function handleConversationFetchSuccess(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
@@ -661,7 +661,51 @@ case 44:
             return var1;
         }
     };
-    var2['CONVERSATION_FETCH_SUCCESS'] = var4;
+    var2['CONVERSATION_FETCH_SUCCESS'] = var8;
+    var4 = function handleConversationsFetchSuccess(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var1 = arg1;
+            var4 = var1.channelId;
+            var5 = var1.rawConversations;
+            var3 = _closure1_slot7;
+            var1 = var3.getChannel;
+            var1 = var1.bind(var3)(var4);
+            var4 = null;
+            if(!(var4 != var1)) { _fun0013_ip = 51; continue _fun0013 }
+case 52:
+            var3 = var1.guild_id;
+            if(!(var4 != var3)) { _fun0013_ip = 51; continue _fun0013 }
+case 6:
+            var4 = var5.map;
+            var3 = function(arg1) {
+                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+                    var1 = arg1;
+                    var1 = var1.messages;
+                    var2 = null;
+                    if(!(var2 == var1)) { _fun0014_ip = 53; continue _fun0014 }
+case 54:
+                    var1 = new Array(0);
+case 53:
+                    return var1;
+                }
+            };
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.flat;
+            var4 = var3.bind(var4)();
+            var3 = _closure1_slot14;
+            var2 = var1.guild_id;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2, var4);
+            var1 = false;
+            return var1;
+case 51:
+            var1 = false;
+            return var1;
+        }
+    };
+    var2['CONVERSATIONS_FETCH_SUCCESS'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var16 = var4;

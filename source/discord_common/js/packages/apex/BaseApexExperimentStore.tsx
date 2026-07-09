@@ -1685,8 +1685,8 @@ case 0:
                     var3 = this;
                     var1 = var3.shouldTrackExposure;
                     var1 = var1.bind(var3)(var5);
-                    if(!var1) { _fun0021_ip = 45; continue _fun0021 }
-case 37:
+                    if(!var1) { _fun0021_ip = 44; continue _fun0021 }
+case 63:
                     var2 = arg2;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
@@ -1699,7 +1699,7 @@ case 37:
                     var2 = var3.saveTrackedExposures;
                     var1 = _closure1_slot23;
                     var1 = var2.bind(var3)(var1);
-case 45:
+case 44:
                     var1 = undefined;
                     return var1;
                 }

@@ -1940,13 +1940,13 @@ case 192:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/push_notifications/native/receiveNotification.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function receiveNotification(arg1) {
+    var2 = function receiveNotification(arg1, arg2) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var4 = arg1;
             var1 = var4.getData;
             var5 = null;
-            if(!(var5 != var1)) { _fun0014_ip = 123; continue _fun0014 }
+            if(!(var5 != var1)) { _fun0014_ip = 72; continue _fun0014 }
 case 198:
             var6 = _closure1_slot0;
             var8 = _closure1_slot3;
@@ -2002,7 +2002,7 @@ case 108:
                 return var1;
             };
             var1 = var5.bind(var6)(var1);
-            _fun0014_ip = 200; continue _fun0014;
+            _fun0014_ip = 71; continue _fun0014;
 case 154:
             var6 = _closure1_slot0;
             var8 = _closure1_slot3;
@@ -2021,7 +2021,14 @@ case 154:
             var6 = var7.switchAccount;
             var5 = var4.receiving_user_id;
             var3 = _closure1_slot17;
+            var4 = arg2;
+            if(var4) { _fun0014_ip = 200; continue _fun0014 }
+case 201:
             var4 = var3.PUSH_NOTIFICATION;
+            _fun0014_ip = 202; continue _fun0014;
+case 200:
+            var4 = var3.PUSH_NOTIFICATION_INITIAL;
+case 202:
             var3 = false;
             var4 = var6.bind(var7)(var5, var3, var4);
             var3 = var4.then;
@@ -2046,9 +2053,9 @@ case 154:
             };
             var2 = var3.bind(var4)(var2);
             var1 = true;
-case 200:
+case 71:
             return var1;
-case 123:
+case 72:
             var1 = false;
             return var1;
         }
