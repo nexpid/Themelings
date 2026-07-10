@@ -212,21 +212,25 @@ case 11:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.credential;
-            var _closure2_slot0 = var4;
-            var6 = var4.type;
+            var5 = var1.credential;
+            var _closure2_slot0 = var5;
+            var6 = var5.type;
             var7 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var3 = _closure1_slot1;
             var1 = 5;
-            var5 = var5[var1];
-            var1 = undefined;
-            var5 = var7.bind(var1)(var5);
-            var5 = var5.AuthenticatorType;
-            var5 = var5.WEBAUTHN;
-            if(!(var6 === var5)) { _fun0004_ip = 13; continue _fun0004 }
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var7.bind(var3)(var1);
+            var1 = var1.AuthenticatorType;
+            var1 = var1.WEBAUTHN;
+            if(!(var6 !== var1)) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-            var6 = _closure1_slot8;
-            var5 = var6.find;
+            var1 = var5.type;
+            var1 = false;
+            _fun0004_ip = 15; continue _fun0004;
+case 13:
+            var7 = _closure1_slot8;
+            var6 = var7.find;
             var2 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.id;
@@ -235,21 +239,23 @@ case 14:
                 var1 = var2 === var1;
                 return var1;
             };
-            var2 = var5.bind(var6)(var2);
-            if(!(var1 === var2)) { _fun0004_ip = 13; continue _fun0004 }
-case 15:
+            var2 = var6.bind(var7)(var2);
+            var2 = var3 === var2;
+            if(!var2) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var9 = _closure1_slot8;
-            var2 = new Array(1);
+            var3 = new Array(1);
             var8 = 0;
-            var10 = var2;
-            var5 = arraySpread(var10, var9, var8);
-            var2[4] = var4;
-            var4 = 1;
-            var4 = var5 + var4;
-            _closure1_slot8 = var2;
-            return var1;
-case 13:
-            var1 = false;
+            var10 = var3;
+            var6 = arraySpread(var10, var9, var8);
+            var3[5] = var5;
+            var5 = 1;
+            var5 = var6 + var5;
+            _closure1_slot8 = var3;
+            var2 = undefined;
+case 16:
+            var1 = var2;
+case 15:
             return var1;
         }
     };
@@ -260,20 +266,20 @@ case 0:
             var1 = arg1;
             var1 = var1.credential;
             var _closure2_slot0 = var1;
-            var5 = var1.type;
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 5;
-            var4 = var4[var1];
-            var1 = undefined;
-            var4 = var6.bind(var1)(var4);
-            var4 = var4.AuthenticatorType;
-            var4 = var4.WEBAUTHN;
-            if(!(var5 === var4)) { _fun0005_ip = 16; continue _fun0005 }
+            var6 = var1.type;
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 5;
+            var5 = var5[var2];
+            var2 = undefined;
+            var5 = var7.bind(var2)(var5);
+            var5 = var5.AuthenticatorType;
+            var5 = var5.WEBAUTHN;
+            if(!(var6 === var5)) { _fun0005_ip = 18; continue _fun0005 }
 case 14:
-            var5 = _closure1_slot8;
-            var4 = var5.map;
-            var2 = function(arg1) {
+            var6 = _closure1_slot8;
+            var5 = var6.map;
+            var3 = function(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = arg1;
@@ -281,16 +287,17 @@ case 0:
                     var3 = _closure2_slot0;
                     var3 = var3.id;
                     if(!(var4 === var3)) { _fun0006_ip = 9; continue _fun0006 }
-case 17:
+case 19:
                     var1 = _closure2_slot0;
 case 9:
                     return var1;
                 }
             };
-            var2 = var4.bind(var5)(var2);
-            _closure1_slot8 = var2;
-            return var1;
-case 16:
+            var3 = var5.bind(var6)(var3);
+            _closure1_slot8 = var3;
+            return var2;
+case 18:
+            var1 = var1.type;
             var1 = false;
             return var1;
         }
@@ -302,20 +309,20 @@ case 0:
             var1 = arg1;
             var1 = var1.credential;
             var _closure2_slot0 = var1;
-            var5 = var1.type;
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 5;
-            var4 = var4[var1];
-            var1 = undefined;
-            var4 = var6.bind(var1)(var4);
-            var4 = var4.AuthenticatorType;
-            var4 = var4.WEBAUTHN;
-            if(!(var5 === var4)) { _fun0007_ip = 16; continue _fun0007 }
+            var6 = var1.type;
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 5;
+            var5 = var5[var2];
+            var2 = undefined;
+            var5 = var7.bind(var2)(var5);
+            var5 = var5.AuthenticatorType;
+            var5 = var5.WEBAUTHN;
+            if(!(var6 === var5)) { _fun0007_ip = 18; continue _fun0007 }
 case 14:
-            var5 = _closure1_slot8;
-            var4 = var5.filter;
-            var2 = function(arg1) {
+            var6 = _closure1_slot8;
+            var5 = var6.filter;
+            var3 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.id;
                 var1 = _closure2_slot0;
@@ -323,10 +330,11 @@ case 14:
                 var1 = var2 !== var1;
                 return var1;
             };
-            var2 = var4.bind(var5)(var2);
-            _closure1_slot8 = var2;
-            return var1;
-case 16:
+            var3 = var5.bind(var6)(var3);
+            _closure1_slot8 = var3;
+            return var2;
+case 18:
+            var1 = var1.type;
             var1 = false;
             return var1;
         }
@@ -336,13 +344,13 @@ case 16:
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = _closure1_slot9;
-            if(var1) { _fun0008_ip = 18; continue _fun0008 }
-case 19:
+            if(var1) { _fun0008_ip = 20; continue _fun0008 }
+case 21:
             var1 = true;
             _closure1_slot9 = var1;
             var1 = undefined;
             return var1;
-case 18:
+case 20:
             var1 = false;
             return var1;
         }
@@ -353,10 +361,10 @@ case 18:
 case 0:
             var3 = _closure1_slot9;
             var1 = false;
-            if(var3) { _fun0009_ip = 20; continue _fun0009 }
-case 21:
+            if(var3) { _fun0009_ip = 22; continue _fun0009 }
+case 23:
             return var1;
-case 20:
+case 22:
             _closure1_slot9 = var1;
             var1 = undefined;
             return var1;

@@ -233,6 +233,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['ROLL_DICE'] = var4;
     var4 = 'game-profile';
     var14['GAME_PROFILE'] = var4;
+    var4 = 'message-requests';
+    var14['MESSAGE_REQUESTS'] = var4;
     var6 = var1.Set;
     var4 = var6.prototype;
     var5 = Object.create(var4, {constructor: {value: var6}});

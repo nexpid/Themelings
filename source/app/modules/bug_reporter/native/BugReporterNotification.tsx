@@ -1,6 +1,7 @@
 // app/modules/bug_reporter/native/BugReporterNotification.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
@@ -36,13 +37,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'resizeMode': 'contain', 'height': 75, 'width': 40};
+    var9 = {'height': 64, 'width': 32};
+    var10 = 4;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.sm;
+    var9['borderRadius'] = var12;
     var4['preview'] = var9;
     var9 = {};
-    var10 = 4;
-    var11 = var6[var10];
-    var10 = metroImportDefault;
-    var10 = var10.bind(var1)(var11);
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
     var10 = var10.space;
     var10 = var10.PX_12;
     var9['marginLeft'] = var10;
@@ -98,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.bind(var4)(var6);
         var7 = var6.SystemMessageText;
         var6 = {};
-        var8 = "Bzzz! Found a bug? Tap to submit (don't just be a fly on the wall)";
+        var8 = 'Bzzz! Found a bug? Tap to submit.';
         var6['text'] = var8;
         var6 = var3.bind(var4)(var7, var6);
         var1['children'] = var6;

@@ -261,7 +261,7 @@ case 17:
                     if(var2) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
                     var6 = _closure2_slot1;
-                    var4 = var6.push;
+                    var4 = var6.navigate;
                     var2 = _closure1_slot7;
                     var3 = var2.COLLECTIBLES_SHOP_VIEW_ALL_CATEGORY_ITEMS;
                     var2 = {};

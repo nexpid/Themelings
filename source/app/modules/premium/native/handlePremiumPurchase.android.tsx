@@ -207,10 +207,9 @@ case 0:
             var _closure2_slot2 = var7;
             var4 = 19;
             var4 = var9[var4];
-            var9 = var5.bind(var2)(var4);
-            var5 = var9.useIsEligibleForBogoPromotion;
-            var4 = false;
-            var5 = var5.bind(var9)(var4);
+            var5 = var5.bind(var2)(var4);
+            var4 = var5.useIsEligibleForBogoOffer;
+            var5 = var4.bind(var5)();
             var _closure2_slot3 = var5;
             var4 = null;
             var12 = var4 != var6;
@@ -232,7 +231,7 @@ case 17:
             var4 = var4 == var6;
             var10 = undefined;
             if(var4) { _fun0002_ip = 19; continue _fun0002 }
-case 14:
+case 12:
             var10 = var6.paymentGatewaySubscriptionId;
 case 19:
             var _closure2_slot7 = var10;

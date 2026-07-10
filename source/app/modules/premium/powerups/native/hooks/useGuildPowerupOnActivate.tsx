@@ -180,11 +180,17 @@ case 13:
                 var12 = _closure1_slot2;
                 var3 = 13;
                 var3 = var12[var3];
-                var16 = var8.bind(var4)(var3);
-                var15 = var16.launchGuildBoostFlowOrAlert;
-                var20 = _closure2_slot5;
-                var21 = {'page': 'Guild Powerups', 'section': 'Powerup Activation'};
-                var19 = function() {
+                var12 = var8.bind(var4)(var3);
+                var8 = var12.launchGuildBoostFlowOrAlert;
+                var3 = {};
+                var13 = {'page': 'Guild Powerups', 'section': 'Powerup Activation'};
+                var3['source'] = var13;
+                var13 = _closure2_slot5;
+                var3['analyticsLocations'] = var13;
+                var13 = _closure2_slot3;
+                var13 = var13.id;
+                var3['guildId'] = var13;
+                var13 = function onBack() {
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var2 = 14;
@@ -200,7 +206,8 @@ case 13:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var18 = function() {
+                var3['onBack'] = var13;
+                var13 = function onPaymentSuccess() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var4 = _closure1_slot0;
@@ -255,7 +262,8 @@ case 14:
                         return var1;
                     }
                 };
-                var17 = function() {
+                var3['onPaymentSuccess'] = var13;
+                var13 = function onPaymentDismiss() {
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var2 = 14;
@@ -271,8 +279,8 @@ case 14:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var22 = var16;
-                var3 = var22[var15](var21, var20, var19, var18, var17, var16);
+                var3['onPaymentDismiss'] = var13;
+                var3 = var8.bind(var12)(var3);
                 _fun0001_ip = 2; continue _fun0001;
 case 12:
                 var12 = _closure2_slot7;

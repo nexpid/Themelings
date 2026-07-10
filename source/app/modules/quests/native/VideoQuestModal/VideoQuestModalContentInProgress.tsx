@@ -2002,18 +2002,18 @@ case 0:
             };
             var7 = var7.bind(var18)(var3, var5);
             var3 = var18.useState;
-            var24 = false;
-            var3 = var3.bind(var18)(var24);
-            var19 = _closure1_slot3;
-            var17 = 2;
-            var3 = var19.bind(var4)(var3, var17);
-            var10 = 0;
-            var21 = var3[var10];
-            var5 = 1;
-            var3 = var3[var5];
+            var25 = false;
+            var3 = var3.bind(var18)(var25);
+            var24 = _closure1_slot3;
+            var19 = 2;
+            var3 = var24.bind(var4)(var3, var19);
+            var17 = 0;
+            var21 = var3[var17];
+            var10 = 1;
+            var3 = var3[var10];
             var _closure2_slot2 = var3;
-            var16 = var18.useCallback;
-            var15 = function() {
+            var15 = var18.useCallback;
+            var5 = function() {
                 var3 = _closure2_slot2;
                 var2 = undefined;
                 var1 = function(arg1) {
@@ -2025,10 +2025,10 @@ case 0:
                 return var1;
             };
             var3 = new Array(0);
-            var15 = var16.bind(var18)(var15, var3);
-            var25 = var18.useCallback;
-            var16 = new Array(1);
-            var16[0] = var22;
+            var15 = var15.bind(var18)(var5, var3);
+            var16 = var18.useCallback;
+            var5 = new Array(1);
+            var5[0] = var22;
             var3 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -2057,32 +2057,32 @@ case 0:
                 var2 = var5.bind(var6)(var4, var3, var2);
                 return var1;
             };
-            var16 = var25.bind(var18)(var3, var16);
+            var16 = var16.bind(var18)(var3, var5);
             var3 = 51;
             var3 = var23[var3];
-            var25 = var6.bind(var4)(var3);
-            var3 = var25.useQuestImpressionId;
-            var25 = var3.bind(var25)();
-            var _closure2_slot3 = var25;
-            var3 = var18.useState;
-            var3 = var3.bind(var18)(var24);
-            var3 = var19.bind(var4)(var3, var17);
-            var24 = var3[var10];
-            var3 = var3[var5];
-            var _closure2_slot4 = var3;
-            var3 = 52;
-            var3 = var23[var3];
-            var10 = var6.bind(var4)(var3);
-            var5 = var10.isShareableQuest;
-            var3 = var22.config;
-            var5 = var5.bind(var10)(var3);
+            var5 = var6.bind(var4)(var3);
+            var3 = var5.useGetQuestImpressionId;
+            var3 = var3.bind(var5)();
+            var _closure2_slot3 = var3;
+            var5 = var18.useState;
+            var5 = var5.bind(var18)(var25);
+            var5 = var24.bind(var4)(var5, var19);
+            var24 = var5[var17];
+            var5 = var5[var10];
+            var _closure2_slot4 = var5;
+            var5 = 52;
+            var5 = var23[var5];
+            var17 = var6.bind(var4)(var5);
+            var10 = var17.isShareableQuest;
+            var5 = var22.config;
+            var5 = var10.bind(var17)(var5);
             var _closure2_slot5 = var5;
             var17 = var18.useCallback;
             var10 = new Array(4);
             var10[0] = var5;
-            var3 = var22.id;
-            var10[1] = var3;
-            var10[2] = var25;
+            var19 = var22.id;
+            var10[1] = var19;
+            var10[2] = var3;
             var10[3] = var9;
             var3 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -2128,6 +2128,7 @@ case 70:
                     var8 = var8.MOBILE_SHARESHEET;
                     var4['questContentCTA'] = var8;
                     var8 = _closure2_slot3;
+                    var8 = var8.bind(var7)();
                     var4['impressionId'] = var8;
                     var8 = _closure2_slot0;
                     var4['sourceQuestContent'] = var8;
@@ -2169,6 +2170,7 @@ case 69:
                     var8 = _closure2_slot0;
                     var4['sourceQuestContent'] = var8;
                     var8 = _closure2_slot3;
+                    var8 = var8.bind(var7)();
                     var4['impressionId'] = var8;
                     var4 = var5.bind(var6)(var4);
 case 71:
@@ -2228,7 +2230,6 @@ case 67:
             var3['quest'] = var22;
             var3['onClose'] = var20;
             var3['sourceQuestContent'] = var9;
-            var3['impressionId'] = var25;
             var19 = var10.bind(var19)(var3);
             var10 = var18.useCallback;
             var25 = var22.id;

@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var6;
     var4 = var4.getColorPresetsForEffect;
     var _closure1_slot8 = var4;
-    var4 = [0, 60, 110, 30];
+    var4 = [0, 50, 100, 30];
     var _closure1_slot9 = var4;
     var6 = 6;
     var6 = var8[var6];

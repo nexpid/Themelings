@@ -68,13 +68,15 @@ case 0:
 case 3:
             var8 = _closure1_slot5;
             var8 = var8.VOICE_CONTROLS;
-            var8 = var4 === var8;
-            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var8 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var9 = _closure1_slot5;
-            var9 = var9.VOICE_PANEL_CONTROLS;
-            var8 = var4 === var9;
+            var8 = _closure1_slot5;
+            var9 = var8.VOICE_PANEL_CONTROLS;
+            var8 = false;
+            if(!(var9 === var4)) { _fun0001_ip = 6; continue _fun0001 }
 case 4:
+            var8 = true;
+case 6:
             var6 = var8;
 case 2:
             var1['visible'] = var6;
@@ -91,8 +93,8 @@ case 0:
                     var2 = _closure2_slot0;
                     var5 = var3.bind(var5)(var2);
                     var2 = null;
-                    if(!(var2 != var5)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    if(!(var2 != var5)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 5;
@@ -105,7 +107,7 @@ case 7:
                     var4 = _closure2_slot1;
                     var1['analyticsSource'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 6:
+case 7:
                     var1 = undefined;
                     return var1;
                 }

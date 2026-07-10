@@ -11,8 +11,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* (arg1, arg2) {
-            var1 = function* anon_0_(arg1, arg2) {
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     StartGenerator();
@@ -24,22 +24,27 @@ case 3:
                     var2 = 8;
                     var2 = var3[var2];
                     var3 = undefined;
-                    var8 = var5.bind(var3)(var2);
-                    var7 = var8.launchGuildBoostFlowOrAlert;
-                    var6 = {};
-                    var2 = _closure1_slot9;
-                    var2 = var2.PREMIUM_GUILD_USER_MODAL;
-                    var6['page'] = var2;
-                    var2 = arg2;
-                    var6['section'] = var2;
-                    var2 = _closure1_slot7;
-                    var2 = var2.BUTTON_CTA;
-                    var6['object'] = var2;
-                    var2 = _closure1_slot8;
-                    var2 = var2.BUY;
-                    var6['objectType'] = var2;
-                    var5 = arg1;
-                    var2 = function() {
+                    var6 = var5.bind(var3)(var2);
+                    var5 = var6.launchGuildBoostFlowOrAlert;
+                    var2 = {};
+                    var7 = {};
+                    var8 = _closure1_slot9;
+                    var8 = var8.PREMIUM_GUILD_USER_MODAL;
+                    var7['page'] = var8;
+                    var8 = arg3;
+                    var7['section'] = var8;
+                    var8 = _closure1_slot7;
+                    var8 = var8.BUTTON_CTA;
+                    var7['object'] = var8;
+                    var8 = _closure1_slot8;
+                    var8 = var8.BUY;
+                    var7['objectType'] = var8;
+                    var2['source'] = var7;
+                    var7 = arg1;
+                    var2['analyticsLocations'] = var7;
+                    var7 = arg2;
+                    var2['guildId'] = var7;
+                    var7 = function onBack() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 9;
@@ -50,8 +55,9 @@ case 3:
                         var1 = var1.bind(var2)();
                         return var1;
                     };
-                    var2 = var7.bind(var8)(var6, var5, var2);
-                    SaveGenerator(address=117);
+                    var2['onBack'] = var7;
+                    var2 = var5.bind(var6)(var2);
+                    SaveGenerator(address=138);
 case 4:
                     return var2;
 case 5:
@@ -344,7 +350,9 @@ case 22:
                     var1 = null;
                     if(!(var1 == var3)) { _fun0005_ip = 23; continue _fun0005 }
 case 21:
-                    var5 = _closure2_slot8;
+                    var6 = _closure2_slot8;
+                    var1 = _closure2_slot0;
+                    var5 = var1.id;
                     var4 = _closure2_slot2;
                     var3 = function handleBoostPress() {
                         var1 = undefined;
@@ -357,7 +365,7 @@ case 21:
                         return var1;
                     };
                     var1 = undefined;
-                    var1 = var3.bind(var1)(var5, var4);
+                    var1 = var3.bind(var1)(var6, var5, var4);
                     _fun0005_ip = 24; continue _fun0005;
 case 23:
                     var6 = _closure2_slot12;

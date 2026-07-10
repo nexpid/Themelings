@@ -10,26 +10,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function isCustomBackgroundOption(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
+            var3 = arg1;
             var1 = null;
-            var1 = var1 != var2;
+            var1 = var1 != var3;
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var4 = 'object';
-            var3 = typeof var2;
-            var1 = var4 === var3;
+            var2 = typeof var3;
+            var1 = var4 === var2;
 case 2:
             if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = 'id';
-            var1 = var3 in var2;
+            var2 = 'id';
+            var1 = var2 in var3;
 case 4:
             if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var3 = var2.type;
+            var4 = var3.type;
             var2 = _closure1_slot6;
             var2 = var2.BACKGROUND;
-            var1 = var3 === var2;
+            var2 = var4 === var2;
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var3 = var3.type;
+            var2 = false;
+case 8:
+            var1 = var2;
 case 6:
             return var1;
         }
@@ -42,11 +48,11 @@ case 0:
             var2 = 'number';
             var1 = typeof var3;
             var1 = var2 === var1;
-            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+            if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var2 = _closure1_slot5;
             var1 = var3 in var2;
-case 8:
+case 10:
             return var1;
         }
     };
@@ -58,14 +64,14 @@ case 0:
             var1 = _closure1_slot10;
             var7 = undefined;
             var1 = var1.bind(var7)(var4);
-            if(var1) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var1 = _closure1_slot9;
             var3 = var1.bind(var7)(var4);
             var1 = !var3;
             var1 = !var1;
-            if(!var3) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+            if(!var3) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var8 = 4;
@@ -74,8 +80,8 @@ case 13:
             var5 = var6.isAnimatedIconHash;
             var3 = var4.asset;
             var3 = var5.bind(var6)(var3);
-            if(var3) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+            if(var3) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var8];
@@ -83,15 +89,15 @@ case 15:
             var6 = var7.isVideoAssetHash;
             var5 = var4.asset;
             var3 = var6.bind(var7)(var5);
-case 14:
+case 16:
             var1 = var3;
+case 14:
+            _fun0003_ip = 18; continue _fun0003;
 case 12:
-            _fun0003_ip = 16; continue _fun0003;
-case 10:
             var3 = _closure1_slot7;
             var2 = var3.includes;
             var1 = var2.bind(var3)(var4);
-case 16:
+case 18:
             return var1;
         }
     };
@@ -103,10 +109,10 @@ case 0:
             var1 = arg1;
             var2 = var2 != var1;
             var1 = 'None';
-            if(!var2) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+            if(!var2) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var1 = 'Video Background';
-case 17:
+case 19:
             return var1;
         }
     };
@@ -118,70 +124,70 @@ case 0:
             var1 = null;
             var2 = var1 == var5;
             var1 = 'None';
-            if(var2) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+            if(var2) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var2 = _closure1_slot9;
             var7 = undefined;
             var3 = var2.bind(var7)(var5);
             var2 = 'Custom';
-            if(var3) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+            if(var3) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
             var3 = 'Blur';
             var6 = 'blur';
-            if(!(var6 !== var5)) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+            if(!(var6 !== var5)) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var6 = _closure1_slot5;
             var8 = var6.OPTION_1;
             var6 = 'Cybercity';
-            if(!(var8 !== var5)) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+            if(!(var8 !== var5)) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var8 = _closure1_slot5;
             var8 = var8.OPTION_2;
             var6 = 'Discord the Movie';
-            if(!(var8 !== var5)) { _fun0005_ip = 25; continue _fun0005 }
-case 27:
+            if(!(var8 !== var5)) { _fun0005_ip = 27; continue _fun0005 }
+case 29:
             var8 = _closure1_slot5;
             var8 = var8.OPTION_3;
             var6 = 'Wumpus Vacation';
-            if(!(var8 !== var5)) { _fun0005_ip = 25; continue _fun0005 }
-case 28:
+            if(!(var8 !== var5)) { _fun0005_ip = 27; continue _fun0005 }
+case 30:
             var8 = _closure1_slot5;
             var8 = var8.OPTION_4;
             var6 = 'Vaporwave';
-            if(!(var8 !== var5)) { _fun0005_ip = 25; continue _fun0005 }
-case 29:
+            if(!(var8 !== var5)) { _fun0005_ip = 27; continue _fun0005 }
+case 31:
             var8 = _closure1_slot5;
             var8 = var8.OPTION_7;
             var6 = 'Capernite Day';
-            if(!(var8 !== var5)) { _fun0005_ip = 25; continue _fun0005 }
-case 30:
+            if(!(var8 !== var5)) { _fun0005_ip = 27; continue _fun0005 }
+case 32:
             var8 = _closure1_slot5;
             var8 = var8.OPTION_8;
             var6 = 'Capernite Night';
-            if(!(var8 !== var5)) { _fun0005_ip = 25; continue _fun0005 }
-case 31:
+            if(!(var8 !== var5)) { _fun0005_ip = 27; continue _fun0005 }
+case 33:
             var8 = _closure1_slot5;
             var8 = var8.OPTION_9;
             var6 = 'Hacker Den';
-            if(!(var8 !== var5)) { _fun0005_ip = 25; continue _fun0005 }
-case 32:
+            if(!(var8 !== var5)) { _fun0005_ip = 27; continue _fun0005 }
+case 34:
             var4 = _closure1_slot5;
             var4 = var4.OPTION_10;
             var6 = undefined;
-            if(!(var4 === var5)) { _fun0005_ip = 25; continue _fun0005 }
-case 33:
+            if(!(var4 === var5)) { _fun0005_ip = 27; continue _fun0005 }
+case 35:
             var6 = 'Wumpice';
-case 25:
+case 27:
             var4 = global;
             var4 = var4.HermesInternal;
             var5 = var4.concat;
             var4 = 'Preset - ';
             var3 = var5.bind(var4)(var6);
-case 23:
+case 25:
             var2 = var3;
-case 21:
+case 23:
             var1 = var2;
-case 19:
+case 21:
             return var1;
         }
     };
@@ -271,10 +277,10 @@ case 0:
             var10 = null;
             var12 = var10 == var11;
             var10 = undefined;
-            if(var12) { _fun0006_ip = 34; continue _fun0006 }
-case 35:
+            if(var12) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
             var10 = var11.type;
-case 34:
+case 36:
             var2['channel_type'] = var10;
             var2['guild_id'] = var9;
             var9 = var8.voice_state_count;
@@ -343,22 +349,22 @@ case 34:
 case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
+            if(!(var1 != var4)) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
             var2 = _closure1_slot9;
             var1 = undefined;
             var1 = var2.bind(var1)(var4);
-            if(var1) { _fun0007_ip = 15; continue _fun0007 }
+            if(var1) { _fun0007_ip = 17; continue _fun0007 }
 case 5:
             var3 = 'blur';
-            if(!(var3 !== var4)) { _fun0007_ip = 38; continue _fun0007 }
+            if(!(var3 !== var4)) { _fun0007_ip = 40; continue _fun0007 }
 case 4:
             var1 = {};
             var2 = 'presetOption';
             var1['oneofKind'] = var2;
             var1['presetOption'] = var4;
-            _fun0007_ip = 39; continue _fun0007;
-case 38:
+            _fun0007_ip = 41; continue _fun0007;
+case 40:
             var2 = {};
             var2['oneofKind'] = var3;
             var3 = {};
@@ -366,9 +372,9 @@ case 38:
             var3['useBlur'] = var5;
             var2['blur'] = var3;
             var1 = var2;
-case 39:
-            _fun0007_ip = 40; continue _fun0007;
-case 15:
+case 41:
+            _fun0007_ip = 42; continue _fun0007;
+case 17:
             var2 = {};
             var3 = 'customAsset';
             var2['oneofKind'] = var3;
@@ -379,14 +385,14 @@ case 15:
             var3['assetHash'] = var4;
             var2['customAsset'] = var3;
             var1 = var2;
-case 40:
-            _fun0007_ip = 41; continue _fun0007;
-case 36:
+case 42:
+            _fun0007_ip = 43; continue _fun0007;
+case 38:
             var2 = {};
             var3 = undefined;
             var2['oneofKind'] = var3;
             var1 = var2;
-case 41:
+case 43:
             return var1;
         }
     };
@@ -396,36 +402,36 @@ case 41:
 case 0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 != var3)) { _fun0008_ip = 42; continue _fun0008 }
+            if(!(var1 != var3)) { _fun0008_ip = 44; continue _fun0008 }
 case 3:
             var4 = var3.oneofKind;
             var2 = undefined;
-            if(!(var2 !== var4)) { _fun0008_ip = 42; continue _fun0008 }
-case 43:
+            if(!(var2 !== var4)) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
             var6 = var3.oneofKind;
             var4 = 'customAsset';
-            if(!(var4 !== var6)) { _fun0008_ip = 44; continue _fun0008 }
-case 45:
-            var4 = 'blur';
             if(!(var4 !== var6)) { _fun0008_ip = 46; continue _fun0008 }
 case 47:
+            var4 = 'blur';
+            if(!(var4 !== var6)) { _fun0008_ip = 48; continue _fun0008 }
+case 49:
             var5 = 'presetOption';
-            if(!(var5 !== var6)) { _fun0008_ip = 6; continue _fun0008 }
-case 48:
+            if(!(var5 !== var6)) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
             return var2;
-case 6:
+case 50:
             var2 = var3.presetOption;
             return var2;
-case 46:
+case 48:
             var2 = var3.blur;
             var5 = var2.useBlur;
             var2 = null;
-            if(!var5) { _fun0008_ip = 49; continue _fun0008 }
-case 50:
+            if(!var5) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
             var2 = var4;
-case 49:
+case 52:
             return var2;
-case 44:
+case 46:
             var2 = {};
             var4 = _closure1_slot6;
             var4 = var4.BACKGROUND;
@@ -439,7 +445,7 @@ case 44:
             var3 = var3.assetHash;
             var2['asset'] = var3;
             return var2;
-case 42:
+case 44:
             return var1;
         }
     };

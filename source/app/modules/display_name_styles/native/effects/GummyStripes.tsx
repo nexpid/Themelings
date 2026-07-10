@@ -38,6 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['flex'] = var10;
     var4['stripe'] = var9;
+    var9 = {};
+    var10 = -1;
+    var9['marginLeft'] = var10;
+    var4['stripeOverlap'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
     var4 = 5;
@@ -58,29 +62,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var6 = var7.map;
         var5 = function(arg1, arg2) {
-            var5 = _closure1_slot3;
-            var4 = _closure1_slot2;
-            var3 = {};
-            var1 = _closure2_slot0;
-            var6 = var1.stripe;
-            var1 = new Array(2);
-            var1[0] = var6;
-            var6 = {};
-            var8 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var2 = 4;
-            var7 = var7[var2];
-            var2 = undefined;
-            var9 = var8.bind(var2)(var7);
-            var8 = var9.int2hex;
-            var7 = arg1;
-            var7 = var8.bind(var9)(var7);
-            var6['backgroundColor'] = var7;
-            var1[1] = var6;
-            var3['style'] = var1;
-            var1 = arg2;
-            var1 = var5.bind(var2)(var4, var3, var1);
-            return var1;
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var5 = arg2;
+                var4 = _closure1_slot3;
+                var3 = _closure1_slot2;
+                var2 = {};
+                var6 = _closure2_slot0;
+                var7 = var6.stripe;
+                var6 = new Array(3);
+                var6[0] = var7;
+                var7 = 0;
+                var7 = var5 > var7;
+                if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var8 = _closure2_slot0;
+                var7 = var8.stripeOverlap;
+case 2:
+                var6[1] = var7;
+                var7 = {};
+                var9 = _closure1_slot0;
+                var8 = _closure1_slot1;
+                var1 = 4;
+                var8 = var8[var1];
+                var1 = undefined;
+                var10 = var9.bind(var1)(var8);
+                var9 = var10.int2hex;
+                var8 = arg1;
+                var8 = var9.bind(var10)(var8);
+                var7['backgroundColor'] = var8;
+                var6[2] = var7;
+                var2['style'] = var6;
+                var1 = var4.bind(var1)(var3, var2, var5);
+                return var1;
+            }
         };
         var5 = var6.bind(var7)(var5);
         var1['children'] = var5;

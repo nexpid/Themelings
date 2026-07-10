@@ -34,20 +34,21 @@ case 0:
             var1 = var4.predicate;
             var _closure2_slot0 = var1;
             var6 = var4.navigation;
-            var11 = var4.showCurrentPlan;
+            var12 = var4.showCurrentPlan;
             var1 = undefined;
-            if(!(var11 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var12 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var11 = true;
+            var12 = true;
 case 2:
-            var13 = var4.analyticsLocation;
-            var12 = var4.analyticsLocations;
-            var10 = var4.planId;
-            var9 = var4.applicationId;
+            var14 = var4.analyticsLocation;
+            var13 = var4.analyticsLocations;
+            var11 = var4.planId;
+            var10 = var4.applicationId;
+            var9 = var4.guildId;
             var3 = var4.onBack;
             var8 = var4.onPaymentSuccess;
             var7 = var4.onPaymentDismiss;
-            var14 = function wrappedPredicate(arg1) {
+            var15 = function wrappedPredicate(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var6 = arg1;
@@ -86,46 +87,48 @@ case 4:
             var4 = null;
             if(!(var4 == var6)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var15 = _closure1_slot1;
-            var19 = _closure1_slot2;
+            var16 = _closure1_slot1;
+            var20 = _closure1_slot2;
             var4 = 2;
-            var4 = var19[var4];
-            var17 = var15.bind(var1)(var4);
-            var16 = var17.pushLazy;
-            var18 = _closure1_slot0;
+            var4 = var20[var4];
+            var18 = var16.bind(var1)(var4);
+            var17 = var18.pushLazy;
+            var19 = _closure1_slot0;
             var4 = 4;
-            var4 = var19[var4];
-            var20 = var18.bind(var1)(var4);
+            var4 = var20[var4];
+            var21 = var19.bind(var1)(var4);
             var4 = 3;
-            var15 = var19[var4];
-            var4 = var19.paths;
-            var15 = var20.bind(var1)(var15, var4);
+            var16 = var20[var4];
+            var4 = var20.paths;
+            var16 = var21.bind(var1)(var16, var4);
             var4 = {};
             var4['initialRoute'] = var5;
-            var4['analyticsLocation'] = var13;
-            var4['analyticsLocations'] = var12;
-            var4['predicate'] = var14;
-            var4['showCurrentPlan'] = var11;
-            var4['planId'] = var10;
-            var4['applicationId'] = var9;
+            var4['analyticsLocation'] = var14;
+            var4['analyticsLocations'] = var13;
+            var4['predicate'] = var15;
+            var4['showCurrentPlan'] = var12;
+            var4['planId'] = var11;
+            var4['applicationId'] = var10;
+            var4['guildId'] = var9;
             var4['onBack'] = var3;
             var4['onPaymentSuccess'] = var8;
             var4['onPaymentDismiss'] = var7;
             var3 = 5;
-            var3 = var19[var3];
-            var3 = var18.bind(var1)(var3);
+            var3 = var20[var3];
+            var3 = var19.bind(var1)(var3);
             var3 = var3.PREMIUM_KEY;
-            var3 = var16.bind(var17)(var15, var4, var3);
+            var3 = var17.bind(var18)(var16, var4, var3);
             _fun0001_ip = 12; continue _fun0001;
 case 10:
             var4 = var6.push;
             var3 = {};
-            var3['predicate'] = var14;
-            var3['analyticsLocation'] = var13;
-            var3['analyticsLocations'] = var12;
-            var3['showCurrentPlan'] = var11;
-            var3['planId'] = var10;
-            var3['applicationId'] = var9;
+            var3['predicate'] = var15;
+            var3['analyticsLocation'] = var14;
+            var3['analyticsLocations'] = var13;
+            var3['showCurrentPlan'] = var12;
+            var3['planId'] = var11;
+            var3['applicationId'] = var10;
+            var3['guildId'] = var9;
             var3['onPaymentSuccess'] = var8;
             var3['onPaymentDismiss'] = var7;
             var3 = var4.bind(var6)(var5, var3);

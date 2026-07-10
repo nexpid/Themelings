@@ -14,7 +14,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var9 = 'ClipView';
     var2['uiViewClassName'] = var9;
-    var1 = {'cutouts': true, 'clipToCircle': true, 'borderRadius': true};
+    var1 = {'cutouts': true, 'borderRadius': true};
     var2['validAttributes'] = var1;
     var _closure1_slot0 = var2;
     var1 = 0;

@@ -532,7 +532,7 @@ case 14:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(16);
+        var1 = new Array(17);
         var1[0] = var5;
         var5 = {};
         var7 = 'destroy';
@@ -2554,7 +2554,7 @@ case 152:
         var5 = {};
         var7 = 'getExtraConnectionOptions';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = {};
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -2570,8 +2570,18 @@ case 152:
             var1['streamUserId'] = var2;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[15] = var5;
+        var5 = {};
+        var7 = 'getMediaStreamKey';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = this;
+            var1 = var1.streamKey;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[16] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

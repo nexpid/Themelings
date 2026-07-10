@@ -949,7 +949,7 @@ case 64:
     };
     var22 = var2.bind(var1)(var4);
     var2 = function(arg1) {
-        var3 = function CreditCardSourceRecord(arg1) {
+        var4 = function CreditCardSourceRecord(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var4 = arg1;
@@ -1020,20 +1020,42 @@ case 101:
                 throw var1;
             }
         };
-        var _closure2_slot0 = var3;
-        var5 = _closure1_slot6;
-        var2 = undefined;
-        var4 = arg1;
-        var4 = var5.bind(var2)(var3, var4);
-        var1 = _closure1_slot3;
-        var1 = var1.bind(var2)(var3);
+        var _closure2_slot0 = var4;
+        var6 = _closure1_slot6;
+        var3 = undefined;
+        var5 = arg1;
+        var5 = var6.bind(var3)(var4, var5);
+        var2 = _closure1_slot3;
+        var5 = {};
+        var6 = 'isStripeLinkBankAccount';
+        var5['key'] = var6;
+        var1 = function get() {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                var2 = this;
+                var3 = var2.brand;
+                var1 = 'link';
+                var1 = var1 === var3;
+                if(!var1) { _fun0008_ip = 110; continue _fun0008 }
+case 111:
+                var3 = var2.last4;
+                var2 = '0000';
+                var1 = var2 === var3;
+case 110:
+                return var1;
+            }
+        };
+        var5['get'] = var1;
+        var1 = new Array(1);
+        var1[0] = var5;
+        var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
     var21 = var2.bind(var1)(var22);
     var _closure1_slot10 = var21;
     var2 = function(arg1) {
         var3 = function PaypalSourceRecord(arg1) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1048,16 +1070,16 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.PAYPAL;
-                if(!(var5 === var3)) { _fun0008_ip = 110; continue _fun0008 }
+                if(!(var5 === var3)) { _fun0009_ip = 112; continue _fun0009 }
 case 102:
                 var3 = var4.email;
-                if(var3) { _fun0008_ip = 70; continue _fun0008 }
-case 111:
+                if(var3) { _fun0009_ip = 70; continue _fun0009 }
+case 113:
                 var3 = '';
 case 70:
                 var1['email'] = var3;
                 return var1;
-case 110:
+case 112:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1089,7 +1111,7 @@ case 110:
     var _closure1_slot11 = var20;
     var2 = function(arg1) {
         var3 = function SofortSourceRecord(arg1) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1104,21 +1126,21 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.SOFORT;
-                if(!(var5 !== var3)) { _fun0009_ip = 112; continue _fun0009 }
+                if(!(var5 !== var3)) { _fun0010_ip = 114; continue _fun0010 }
 case 102:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.SEPA_DEBIT;
-                if(!(var5 === var3)) { _fun0009_ip = 113; continue _fun0009 }
-case 112:
-                var3 = var4.email;
-                if(var3) { _fun0009_ip = 114; continue _fun0009 }
-case 115:
-                var3 = '';
+                if(!(var5 === var3)) { _fun0010_ip = 115; continue _fun0010 }
 case 114:
+                var3 = var4.email;
+                if(var3) { _fun0010_ip = 116; continue _fun0010 }
+case 117:
+                var3 = '';
+case 116:
                 var2['email'] = var3;
                 return var2;
-case 113:
+case 115:
                 var2 = global;
                 var3 = var2.Error;
                 var12 = var4.type;
@@ -1153,7 +1175,7 @@ case 113:
     var _closure1_slot12 = var19;
     var2 = function(arg1) {
         var3 = function GiropaySourceRecord(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1168,10 +1190,10 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.GIROPAY;
-                if(!(var5 === var3)) { _fun0010_ip = 116; continue _fun0010 }
+                if(!(var5 === var3)) { _fun0011_ip = 118; continue _fun0011 }
 case 102:
                 return var1;
-case 116:
+case 118:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1203,7 +1225,7 @@ case 116:
     var _closure1_slot13 = var18;
     var2 = function(arg1) {
         var3 = function Przelewy24SourceRecord(arg1) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1218,18 +1240,18 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.PRZELEWY24;
-                if(!(var5 === var3)) { _fun0011_ip = 117; continue _fun0011 }
+                if(!(var5 === var3)) { _fun0012_ip = 119; continue _fun0012 }
 case 102:
                 var3 = var4.email;
-                if(var3) { _fun0011_ip = 70; continue _fun0011 }
-case 111:
+                if(var3) { _fun0012_ip = 70; continue _fun0012 }
+case 113:
                 var3 = '';
 case 70:
                 var1['email'] = var3;
                 var3 = var4.bank;
                 var1['bank'] = var3;
                 return var1;
-case 117:
+case 119:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1261,7 +1283,7 @@ case 117:
     var _closure1_slot14 = var17;
     var2 = function(arg1) {
         var3 = function EPSSourceRecord(arg1) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1276,12 +1298,12 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.EPS;
-                if(!(var5 === var3)) { _fun0012_ip = 118; continue _fun0012 }
+                if(!(var5 === var3)) { _fun0013_ip = 120; continue _fun0013 }
 case 102:
                 var3 = var4.bank;
                 var1['bank'] = var3;
                 return var1;
-case 118:
+case 120:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1313,7 +1335,7 @@ case 118:
     var _closure1_slot15 = var16;
     var2 = function(arg1) {
         var3 = function IdealSourceRecord(arg1) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1328,12 +1350,12 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.IDEAL;
-                if(!(var5 === var3)) { _fun0013_ip = 118; continue _fun0013 }
+                if(!(var5 === var3)) { _fun0014_ip = 120; continue _fun0014 }
 case 102:
                 var3 = var4.bank;
                 var1['bank'] = var3;
                 return var1;
-case 118:
+case 120:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1365,7 +1387,7 @@ case 118:
     var _closure1_slot16 = var15;
     var2 = function(arg1) {
         var3 = function PaysafeSourceRecord(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1380,10 +1402,10 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.PAYSAFE_CARD;
-                if(!(var5 === var3)) { _fun0014_ip = 116; continue _fun0014 }
+                if(!(var5 === var3)) { _fun0015_ip = 118; continue _fun0015 }
 case 102:
                 return var1;
-case 116:
+case 118:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1415,7 +1437,7 @@ case 116:
     var _closure1_slot17 = var14;
     var2 = function(arg1) {
         var3 = function GcashSourceRecord(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1430,10 +1452,10 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.GCASH;
-                if(!(var5 === var3)) { _fun0015_ip = 116; continue _fun0015 }
+                if(!(var5 === var3)) { _fun0016_ip = 118; continue _fun0016 }
 case 102:
                 return var1;
-case 116:
+case 118:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1465,7 +1487,7 @@ case 116:
     var _closure1_slot18 = var13;
     var2 = function(arg1) {
         var3 = function GrabPayMySourceRecord(arg1) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1480,10 +1502,10 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.GRABPAY_MY;
-                if(!(var5 === var3)) { _fun0016_ip = 116; continue _fun0016 }
+                if(!(var5 === var3)) { _fun0017_ip = 118; continue _fun0017 }
 case 102:
                 return var1;
-case 116:
+case 118:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1515,7 +1537,7 @@ case 116:
     var _closure1_slot19 = var12;
     var2 = function(arg1) {
         var3 = function MomoWalletSourceRecord(arg1) {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1530,10 +1552,10 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.MOMO_WALLET;
-                if(!(var5 === var3)) { _fun0017_ip = 116; continue _fun0017 }
+                if(!(var5 === var3)) { _fun0018_ip = 118; continue _fun0018 }
 case 102:
                 return var1;
-case 116:
+case 118:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1565,7 +1587,7 @@ case 116:
     var _closure1_slot20 = var11;
     var2 = function(arg1) {
         var3 = function VenmoSourceRecord(arg1) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1580,16 +1602,16 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.VENMO;
-                if(!(var5 === var3)) { _fun0018_ip = 110; continue _fun0018 }
+                if(!(var5 === var3)) { _fun0019_ip = 112; continue _fun0019 }
 case 102:
                 var3 = var4.username;
-                if(var3) { _fun0018_ip = 70; continue _fun0018 }
-case 111:
+                if(var3) { _fun0019_ip = 70; continue _fun0019 }
+case 113:
                 var3 = '';
 case 70:
                 var1['username'] = var3;
                 return var1;
-case 110:
+case 112:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1621,7 +1643,7 @@ case 110:
     var _closure1_slot21 = var10;
     var2 = function(arg1) {
         var3 = function KaKaoPaySourceRecord(arg1) {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1636,10 +1658,10 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.KAKAOPAY;
-                if(!(var5 === var3)) { _fun0019_ip = 116; continue _fun0019 }
+                if(!(var5 === var3)) { _fun0020_ip = 118; continue _fun0020 }
 case 102:
                 return var1;
-case 116:
+case 118:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1671,7 +1693,7 @@ case 116:
     var _closure1_slot22 = var9;
     var2 = function(arg1) {
         var3 = function GoPayWalletSourceRecord(arg1) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1686,10 +1708,10 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.GOPAY_WALLET;
-                if(!(var5 === var3)) { _fun0020_ip = 116; continue _fun0020 }
+                if(!(var5 === var3)) { _fun0021_ip = 118; continue _fun0021 }
 case 102:
                 return var1;
-case 116:
+case 118:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1721,7 +1743,7 @@ case 116:
     var _closure1_slot23 = var8;
     var2 = function(arg1) {
         var3 = function BancontactSourceRecord(arg1) {
-            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1736,10 +1758,10 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.BANCONTACT;
-                if(!(var5 === var3)) { _fun0021_ip = 116; continue _fun0021 }
+                if(!(var5 === var3)) { _fun0022_ip = 118; continue _fun0022 }
 case 102:
                 return var1;
-case 116:
+case 118:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1771,7 +1793,7 @@ case 116:
     var _closure1_slot24 = var7;
     var2 = function(arg1) {
         var3 = function CashAppSourceRecord(arg1) {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1786,16 +1808,16 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.CASH_APP;
-                if(!(var5 === var3)) { _fun0022_ip = 110; continue _fun0022 }
+                if(!(var5 === var3)) { _fun0023_ip = 112; continue _fun0023 }
 case 102:
                 var3 = var4.username;
-                if(var3) { _fun0022_ip = 70; continue _fun0022 }
-case 111:
+                if(var3) { _fun0023_ip = 70; continue _fun0023 }
+case 113:
                 var3 = '';
 case 70:
                 var1['username'] = var3;
                 return var1;
-case 110:
+case 112:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1827,7 +1849,7 @@ case 110:
     var _closure1_slot25 = var6;
     var2 = function(arg1) {
         var3 = function AppleSourceRecord(arg1) {
-            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                 var4 = arg1;
                 var8 = this;
@@ -1857,10 +1879,10 @@ case 0:
                 var1 = var5.bind(var6)(var8, var7, var1);
                 var5 = var4.type;
                 var3 = var3.APPLE;
-                if(!(var5 === var3)) { _fun0023_ip = 119; continue _fun0023 }
-case 120:
+                if(!(var5 === var3)) { _fun0024_ip = 121; continue _fun0024 }
+case 122:
                 return var1;
-case 119:
+case 121:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1891,7 +1913,7 @@ case 119:
     var5 = var2.bind(var1)(var22);
     var2 = function(arg1) {
         var3 = function TDSWalletSourceRecord(arg1) {
-            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1906,10 +1928,10 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.TDS_WALLET;
-                if(!(var5 === var3)) { _fun0024_ip = 116; continue _fun0024 }
+                if(!(var5 === var3)) { _fun0025_ip = 118; continue _fun0025 }
 case 102:
                 return var1;
-case 116:
+case 118:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;
@@ -1941,7 +1963,7 @@ case 116:
     var _closure1_slot26 = var4;
     var2 = function(arg1) {
         var3 = function PixSourceRecord(arg1) {
-            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
                 var4 = arg1;
                 var7 = this;
@@ -1956,12 +1978,12 @@ case 0:
                 var5 = var4.type;
                 var3 = _closure1_slot9;
                 var3 = var3.PIX;
-                if(!(var5 === var3)) { _fun0025_ip = 118; continue _fun0025 }
+                if(!(var5 === var3)) { _fun0026_ip = 120; continue _fun0026 }
 case 102:
                 var3 = var4.email;
                 var1['email'] = var3;
                 return var1;
-case 118:
+case 120:
                 var1 = global;
                 var3 = var1.Error;
                 var6 = var4.type;

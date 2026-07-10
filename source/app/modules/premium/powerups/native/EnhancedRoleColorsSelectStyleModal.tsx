@@ -353,6 +353,8 @@ case 12:
                     var10 = _closure2_slot2;
                     var14 = var10.message;
                     var6['style'] = var14;
+                    var14 = 'none';
+                    var6['pointerEvents'] = var14;
                     var14 = _closure2_slot4;
                     var6['message'] = var14;
                     var13 = _closure2_slot5;

@@ -680,7 +680,7 @@ case 10:
                     var3['cta_name'] = var9;
                     var3 = var5.bind(var8)(var4, var3);
                     var5 = _closure2_slot2;
-                    var4 = var5.push;
+                    var4 = var5.navigate;
                     var2 = _closure1_slot9;
                     var3 = var2.COLLECTIBLES_SHOP_VIEW_ALL_CATEGORY_ITEMS;
                     var2 = {};

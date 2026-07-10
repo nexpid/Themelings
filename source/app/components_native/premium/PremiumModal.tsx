@@ -211,8 +211,10 @@ case 4:
             var1['showCurrentPlan'] = var6;
             var6 = _closure2_slot4;
             var1['planId'] = var6;
-            var5 = _closure2_slot5;
-            var1['applicationId'] = var5;
+            var6 = _closure2_slot5;
+            var1['applicationId'] = var6;
+            var5 = _closure2_slot8;
+            var1['guildId'] = var5;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };

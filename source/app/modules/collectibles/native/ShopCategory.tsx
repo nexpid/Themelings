@@ -422,7 +422,7 @@ case 0:
                     if(var1) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
                     var5 = _closure2_slot2;
-                    var3 = var5.push;
+                    var3 = var5.navigate;
                     var1 = _closure1_slot6;
                     var2 = var1.COLLECTIBLES_SHOP_VIEW_ALL_CATEGORY_ITEMS;
                     var1 = {};

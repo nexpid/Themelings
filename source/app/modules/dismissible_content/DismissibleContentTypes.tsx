@@ -141,7 +141,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.GIFTING_INTENT_FRIENDS_TAB_BADGE;
-    var18 = new Array(27);
+    var18 = new Array(28);
     var18[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -273,6 +273,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.PARENTAL_CONSENT_GRACE_WARNING;
     var18[26] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.AUTOCLIPPING_ACCOUNT_PANEL_COACHMARK;
+    var18[27] = var14;
     var _closure1_slot1 = var18;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

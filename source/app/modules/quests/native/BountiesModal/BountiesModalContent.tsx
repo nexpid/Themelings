@@ -381,6 +381,8 @@ case 13:
             var6['rewardDurationMs'] = var8;
             var16 = var24.timestampSec;
             var6['initialPlaybackTimeSec'] = var16;
+            var16 = var24.maxTimestampSec;
+            var6['initialMaxVideoProgressSec'] = var16;
             var16 = var24.duration;
             var6['initialVideoDurationSec'] = var16;
             var21 = var12.bind(var14)(var6);

@@ -11,62 +11,75 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* (arg1, arg2, arg3, arg4, arg5) {
-            var1 = function* anon_0_(arg1, arg2, arg3, arg4, arg5) {
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     StartGenerator();
-                    var7 = arg1;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+                    var2 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var2 = undefined;
-                    var _closure4_slot0 = var2;
-                    var4 = _closure1_slot4;
-                    var3 = var4.hasFetchedSubscriptions;
-                    var3 = var3.bind(var4)();
-                    if(var3) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 7;
-                    var3 = var5[var3];
-                    var4 = var4.bind(var2)(var3);
-                    var3 = var4.fetchSubscriptions;
-                    var3 = var3.bind(var4)();
-                    SaveGenerator(address=75);
-case 6:
-                    return var3;
-case 7:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(!var4) { _fun0001_ip = 4; continue _fun0001 }
-case 8:
-                    return var3;
+                    var8 = var2.source;
+                    var14 = var2.analyticsLocations;
+                    var13 = var2.guildId;
+                    var12 = var2.onBack;
+                    var10 = var2.onPaymentSuccess;
+                    var7 = var2.onPaymentDismiss;
+                    var3 = undefined;
+                    var _closure4_slot0 = var3;
+                    SaveGenerator(address=59);
 case 4:
-                    var4 = _closure1_slot4;
-                    var3 = var4.getPremiumTypeSubscription;
-                    var5 = var3.bind(var4)();
-                    _closure4_slot0 = var5;
-                    var4 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var3 = 8;
-                    var3 = var9[var3];
-                    var4 = var4.bind(var2)(var3);
-                    var3 = var4.getExternalManagementMessage;
-                    var10 = var3.bind(var4)(var5);
-                    var3 = null;
-                    if(!(var3 == var10)) { _fun0001_ip = 9; continue _fun0001 }
+                    return var3;
+case 5:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                    var5 = _closure1_slot4;
+                    var4 = var5.hasFetchedSubscriptions;
+                    var4 = var4.bind(var5)();
+                    if(var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var4 = 7;
+                    var4 = var6[var4];
+                    var5 = var5.bind(var3)(var4);
+                    var4 = var5.fetchSubscriptions;
+                    var4 = var4.bind(var5)();
+                    SaveGenerator(address=122);
 case 10:
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 9;
-                    var3 = var5[var3];
-                    var5 = var4.bind(var2)(var3);
-                    var4 = var5.launchPremiumPlanSelect;
-                    var3 = {};
-                    var9 = false;
-                    var3['showCurrentPlan'] = var9;
-                    var6 = function predicate(arg1) {
+                    return var4;
+case 11:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(!var5) { _fun0001_ip = 8; continue _fun0001 }
+case 12:
+                    return var4;
+case 8:
+                    var5 = _closure1_slot4;
+                    var4 = var5.getPremiumTypeSubscription;
+                    var6 = var4.bind(var5)();
+                    _closure4_slot0 = var6;
+                    var5 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var4 = 8;
+                    var4 = var11[var4];
+                    var5 = var5.bind(var3)(var4);
+                    var4 = var5.getExternalManagementMessage;
+                    var11 = var4.bind(var5)(var6);
+                    var4 = null;
+                    if(!(var4 == var11)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var4 = 9;
+                    var4 = var6[var4];
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.launchPremiumPlanSelect;
+                    var4 = {};
+                    var16 = false;
+                    var4['showCurrentPlan'] = var16;
+                    var15 = function predicate(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                             var1 = arg1;
@@ -75,17 +88,17 @@ case 0:
                             var1 = _closure1_slot8;
                             var4 = var1.TIER_2;
                             var1 = 0;
-                            if(!(var5 === var4)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+                            if(!(var5 === var4)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                             var1 = _closure1_slot7;
-case 11:
+case 15:
                             var1 = var3 + var1;
                             var5 = _closure4_slot0;
                             var4 = null;
                             var4 = var4 != var5;
                             var2 = 0;
-                            if(!var4) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+                            if(!var4) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                             var9 = _closure1_slot0;
                             var8 = _closure1_slot2;
                             var5 = 10;
@@ -104,63 +117,64 @@ case 14:
                             var3 = var3.planId;
                             var3 = var5.bind(var6)(var3);
                             var2 = var4 + var3;
-case 13:
+case 17:
                             var1 = var1 > var2;
                             return var1;
                         }
                     };
-                    var3['predicate'] = var6;
-                    var3['analyticsLocation'] = var7;
-                    var6 = arg2;
-                    var3['analyticsLocations'] = var6;
-                    var6 = arg3;
-                    var3['onBack'] = var6;
-                    var6 = arg4;
-                    var3['onPaymentSuccess'] = var6;
-                    var6 = arg5;
-                    var3['onPaymentDismiss'] = var6;
-                    var3 = var4.bind(var5)(var3);
-                    _fun0001_ip = 15; continue _fun0001;
-case 9:
-                    var4 = _closure1_slot1;
-                    var5 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var5[var3];
-                    var9 = var4.bind(var2)(var3);
-                    var6 = var9.show;
-                    var3 = {};
-                    var14 = _closure1_slot0;
-                    var11 = 5;
-                    var12 = var5[var11];
-                    var12 = var14.bind(var2)(var12);
-                    var13 = var12.intl;
-                    var12 = var13.string;
-                    var11 = var5[var11];
-                    var11 = var14.bind(var2)(var11);
-                    var11 = var11.t;
-                    var11 = var11["8P7MX0"];
-                    var11 = var12.bind(var13)(var11);
-                    var3['title'] = var11;
-                    var3['body'] = var10;
-                    var3 = var6.bind(var9)(var3);
-                    var3 = 6;
-                    var3 = var5[var3];
-                    var6 = var4.bind(var2)(var3);
-                    var5 = var6.track;
-                    var3 = _closure1_slot5;
-                    var4 = var3.OPEN_MODAL;
-                    var3 = {};
-                    var8 = _closure1_slot6;
-                    var8 = var8.IOS_CANNOT_MANAGE_SUBSCRIPTION;
-                    var3['type'] = var8;
-                    var3['source'] = var7;
-                    var3 = var5.bind(var6)(var4, var3);
-case 15:
+                    var4['predicate'] = var15;
+                    var4['analyticsLocation'] = var8;
+                    var4['analyticsLocations'] = var14;
+                    var4['guildId'] = var13;
+                    var4['onBack'] = var12;
+                    var4['onPaymentSuccess'] = var10;
+                    var4['onPaymentDismiss'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    _fun0001_ip = 19; continue _fun0001;
+case 13:
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var6[var4];
+                    var10 = var5.bind(var3)(var4);
+                    var7 = var10.show;
+                    var4 = {};
+                    var15 = _closure1_slot0;
+                    var12 = 5;
+                    var13 = var6[var12];
+                    var13 = var15.bind(var3)(var13);
+                    var14 = var13.intl;
+                    var13 = var14.string;
+                    var12 = var6[var12];
+                    var12 = var15.bind(var3)(var12);
+                    var12 = var12.t;
+                    var12 = var12["8P7MX0"];
+                    var12 = var13.bind(var14)(var12);
+                    var4['title'] = var12;
+                    var4['body'] = var11;
+                    var4 = var7.bind(var10)(var4);
+                    var4 = 6;
+                    var4 = var6[var4];
+                    var7 = var5.bind(var3)(var4);
+                    var6 = var7.track;
+                    var4 = _closure1_slot5;
+                    var5 = var4.OPEN_MODAL;
+                    var4 = {};
+                    var9 = _closure1_slot6;
+                    var9 = var9.IOS_CANNOT_MANAGE_SUBSCRIPTION;
+                    var4['type'] = var9;
+                    var4['source'] = var8;
+                    var4 = var6.bind(var7)(var5, var4);
+case 19:
+                    return var3;
+case 6:
                     return var2;
 case 2:
                     return var1;
                 }
             };
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
             return var1;
         };
         var4 = var4.bind(var5)(var3);

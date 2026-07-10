@@ -950,10 +950,9 @@ case 37:
             var3 = _closure1_slot2;
             var1 = 49;
             var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.useIsEligibleForBogoPromotion;
-            var1 = false;
-            var1 = var2.bind(var3)(var1);
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.useIsEligibleForBogoOffer;
+            var1 = var1.bind(var2)();
             var2 = _closure1_slot15;
             if(var1) { _fun0008_ip = 39; continue _fun0008 }
 case 40:
