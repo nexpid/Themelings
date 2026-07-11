@@ -1298,10 +1298,10 @@
             }
         ],
         "light": [
-            "#97979f5c",
+            "#97979f66",
             {
-                "raw": "OPACITY_36",
-                "opacity": 0.3607843137254902
+                "raw": "OPACITY_40",
+                "opacity": 0.4
             }
         ],
         "midnight": [
