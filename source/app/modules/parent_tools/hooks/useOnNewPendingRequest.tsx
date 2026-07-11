@@ -129,14 +129,13 @@ case 7:
                 var3['current'] = var2;
                 _fun0002_ip = 4; continue _fun0002;
 case 6:
-                var3 = _closure2_slot1;
-                var2 = _closure2_slot4;
-                var2 = var2.current;
-                if(!(var3 > var2)) { _fun0002_ip = 4; continue _fun0002 }
-case 8:
+                var4 = _closure2_slot1;
                 var3 = _closure2_slot4;
-                var2 = _closure2_slot1;
-                var3['current'] = var2;
+                var2 = var3.current;
+                var2 = var4 > var2;
+                var3['current'] = var4;
+                if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 8:
                 var2 = _closure2_slot3;
                 var1 = var2.current;
                 var1 = var1.bind(var2)();

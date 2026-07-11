@@ -96,6 +96,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var9.space;
         var9 = var9.PX_16;
         var2['marginBottom'] = var9;
+        var9 = var7[var4];
+        var9 = var6.bind(var5)(var9);
+        var9 = var9.space;
+        var9 = var9.PX_12;
+        var2['paddingTop'] = var9;
         var1['title'] = var2;
         var2 = {};
         var2['textAlign'] = var8;

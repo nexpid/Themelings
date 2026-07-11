@@ -624,7 +624,7 @@ case 66:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(30);
+        var1 = new Array(31);
         var1[0] = var5;
         var5 = {};
         var7 = 'getClips';
@@ -742,6 +742,19 @@ case 4:
         var5['value'] = var7;
         var1[8] = var5;
         var5 = {};
+        var7 = 'hasUserSetAutoclippingSettings';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot35;
+            var1 = var1.clipsSettings;
+            var2 = var1.enableAutoclipping;
+            var1 = null;
+            var1 = var1 != var2;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[9] = var5;
+        var5 = {};
         var7 = 'getLastClipsSession';
         var5['key'] = var7;
         var7 = function value() {
@@ -749,7 +762,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getCurrentClipsSession';
         var5['key'] = var7;
@@ -758,7 +771,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getHistoricalClipsSessionById';
         var5['key'] = var7;
@@ -769,7 +782,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'devSetLastClipsSession';
         var5['key'] = var7;
@@ -783,7 +796,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'getClipsWarningShown';
         var5['key'] = var7;
@@ -794,7 +807,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'getHardwareClassification';
         var5['key'] = var7;
@@ -804,7 +817,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'getHardwareClassificationForDecoupled';
         var5['key'] = var7;
@@ -814,7 +827,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getHardwareClassificationVersion';
         var5['key'] = var7;
@@ -824,7 +837,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'getIsAtMaxSaveClipOperations';
         var5['key'] = var7;
@@ -835,7 +848,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'getLastClipsError';
         var5['key'] = var7;
@@ -844,7 +857,7 @@ case 4:
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'isClipsEnabledForUser';
         var5['key'] = var7;
@@ -870,7 +883,7 @@ case 75:
             }
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'isVoiceRecordingAllowedForUser';
         var5['key'] = var7;
@@ -896,7 +909,7 @@ case 75:
             }
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'isViewerClippingAllowedForUser';
         var5['key'] = var7;
@@ -922,7 +935,7 @@ case 75:
             }
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'hasClips';
         var5['key'] = var7;
@@ -932,7 +945,7 @@ case 75:
             return var1;
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'hasTakenDecoupledClip';
         var5['key'] = var7;
@@ -942,7 +955,7 @@ case 75:
             return var1;
         };
         var5['value'] = var7;
-        var1[23] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'canShowReminders';
         var5['key'] = var7;
@@ -953,7 +966,7 @@ case 75:
             return var1;
         };
         var5['value'] = var7;
-        var1[24] = var5;
+        var1[25] = var5;
         var5 = {};
         var7 = 'getNewClipIds';
         var5['key'] = var7;
@@ -963,7 +976,7 @@ case 75:
             return var1;
         };
         var5['value'] = var7;
-        var1[25] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'isClipExporting';
         var5['key'] = var7;
@@ -975,7 +988,7 @@ case 75:
             return var1;
         };
         var5['value'] = var7;
-        var1[26] = var5;
+        var1[27] = var5;
         var5 = {};
         var7 = 'getExportingClipIds';
         var5['key'] = var7;
@@ -984,7 +997,7 @@ case 75:
             return var1;
         };
         var5['value'] = var7;
-        var1[27] = var5;
+        var1[28] = var5;
         var5 = {};
         var7 = 'isAutoStashEnabled';
         var5['key'] = var7;
@@ -993,7 +1006,7 @@ case 75:
             return var1;
         };
         var5['value'] = var7;
-        var1[28] = var5;
+        var1[29] = var5;
         var5 = {};
         var7 = 'wasClipSharedInChannel';
         var5['key'] = var7;
@@ -1022,7 +1035,7 @@ case 77:
             }
         };
         var5['value'] = var6;
-        var1[29] = var5;
+        var1[30] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

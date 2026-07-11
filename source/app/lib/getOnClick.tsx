@@ -238,14 +238,17 @@ case 42:
                     var10 = _closure1_slot2;
                     var8 = 18;
                     var8 = var10[var8];
-                    var9 = var9.bind(var4)(var8);
-                    var8 = var9.transitionToInviteSync;
-                    var8 = var8.bind(var9)(var5);
+                    var10 = var9.bind(var4)(var8);
+                    var9 = var10.transitionToInvite;
+                    var8 = {};
+                    var11 = true;
+                    var8['forceTransition'] = var11;
+                    var8 = var9.bind(var10)(var5, var8);
                     _fun0002_ip = 18; continue _fun0002;
 case 40:
                     var3 = _closure1_slot18;
                     var3 = var3.bind(var4)(var5, var7, var6);
-                    SaveGenerator(address=529);
+                    SaveGenerator(address=539);
 case 43:
                     return var3;
 case 44:

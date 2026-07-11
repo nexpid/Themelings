@@ -23,29 +23,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
-    var4 = var4.APPLICATION;
-    var6 = new Array(5);
+    var4 = var4.PERSONAL;
+    var6 = new Array(6);
     var6[0] = var4;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
-    var4 = var4.FAVORITE_GAMES;
+    var4 = var4.APPLICATION;
     var6[1] = var4;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
-    var4 = var4.PLAYED_GAMES;
+    var4 = var4.FAVORITE_GAMES;
     var6[2] = var4;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
-    var4 = var4.CURRENT_GAMES;
+    var4 = var4.PLAYED_GAMES;
     var6[3] = var4;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
-    var4 = var4.WANT_TO_PLAY_GAMES;
+    var4 = var4.CURRENT_GAMES;
     var6[4] = var4;
+    var4 = var9[var7];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.WidgetType;
+    var4 = var4.WANT_TO_PLAY_GAMES;
+    var6[5] = var4;
     var5 = {};
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
@@ -134,8 +139,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
-    var4 = var4.APPLICATION;
-    var2 = function(arg1) {
+    var10 = var4.APPLICATION;
+    var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot2;
@@ -158,6 +163,27 @@ case 5:
 case 4:
             return var1;
         }
+    };
+    var5[9] = var4;
+    var4 = var9[var7];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.WidgetType;
+    var4 = var4.PERSONAL;
+    var2 = function() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 2;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.AVkYMx;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
     var5[3] = var2;
     var2 = var9[var7];

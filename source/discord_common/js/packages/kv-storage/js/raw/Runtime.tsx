@@ -588,10 +588,10 @@ case 0:
                         var4 = arg1;
                         var1 = var4.ok;
                         var14 = 'failed';
-                        if(!var1) { _fun0009_ip = 54; continue _fun0009 }
-case 51:
-                        var14 = 'completed';
+                        if(!var1) { _fun0009_ip = 29; continue _fun0009 }
 case 54:
+                        var14 = 'completed';
+case 29:
                         var1 = var4.timings;
                         var2 = var1.execution;
                         var1 = var2.toFixed;

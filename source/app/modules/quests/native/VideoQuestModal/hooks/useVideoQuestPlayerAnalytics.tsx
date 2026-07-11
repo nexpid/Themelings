@@ -880,28 +880,28 @@ case 34:
                 var11 = var4.error;
                 var9 = var11.localizedDescription;
 case 42:
-                if(!(var10 == var9)) { _fun0010_ip = 43; continue _fun0010 }
-case 44:
+                if(!(var10 == var9)) { _fun0010_ip = 11; continue _fun0010 }
+case 43:
                 var12 = var10 == var4;
                 var11 = undefined;
-                if(var12) { _fun0010_ip = 45; continue _fun0010 }
-case 46:
+                if(var12) { _fun0010_ip = 44; continue _fun0010 }
+case 12:
                 var12 = var4.error;
                 var11 = var12.errorString;
-case 45:
+case 44:
                 var9 = var11;
-case 43:
+case 11:
                 var8['video_error_message'] = var9;
                 var8['video_network_state'] = var10;
                 var9 = _closure2_slot9;
                 var10 = var10 == var9;
                 var9 = undefined;
-                if(var10) { _fun0010_ip = 47; continue _fun0010 }
-case 48:
+                if(var10) { _fun0010_ip = 45; continue _fun0010 }
+case 46:
                 var11 = _closure2_slot9;
                 var10 = var11.getId;
                 var9 = var10.bind(var11)();
-case 47:
+case 45:
                 var8['impression_id'] = var9;
                 var2['properties'] = var8;
                 var8 = _closure2_slot4;
@@ -914,8 +914,8 @@ case 47:
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.isSourceError;
                 var2 = var2.bind(var3)(var4);
-                if(!var2) { _fun0010_ip = 49; continue _fun0010 }
-case 50:
+                if(!var2) { _fun0010_ip = 47; continue _fun0010 }
+case 48:
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
                 var2 = 12;
@@ -942,7 +942,7 @@ case 50:
                 var5[1] = var6;
                 var2['tags'] = var5;
                 var2 = var3.bind(var4)(var2);
-case 49:
+case 47:
                 return var1;
             }
         };
@@ -988,7 +988,7 @@ case 0:
                 var8 = var7 == var8;
                 var7 = undefined;
                 if(var8) { _fun0011_ip = 38; continue _fun0011 }
-case 51:
+case 49:
                 var9 = _closure2_slot9;
                 var8 = var9.getId;
                 var7 = var8.bind(var9)();

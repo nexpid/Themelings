@@ -350,6 +350,16 @@ case 27:
         return var1;
     };
     var2['PARENTAL_CONSENT_WARNING_MODAL_SHOWN'] = var6;
+    var6 = function handleWarningCleared() {
+        var2 = null;
+        _closure1_slot7 = var2;
+        var2 = _closure1_slot8;
+        var1 = var2.persist;
+        var1 = var1.bind(var2)();
+        var1 = undefined;
+        return var1;
+    };
+    var2['PARENTAL_CONSENT_WARNING_CLEARED'] = var6;
     var6 = function handleLogout() {
         var2 = null;
         _closure1_slot5 = var2;

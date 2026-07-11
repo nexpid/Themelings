@@ -168,24 +168,26 @@ case 5:
     var7 = function handleReduceMotionChanged(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var5 = arg1;
-            var4 = _closure1_slot9;
-            var1 = _closure1_slot7;
-            var3 = var1.REDUCED_MOTION;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 6;
+            var3 = var3[var1];
             var1 = undefined;
-            var3 = var4.bind(var1)(var3, var5);
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 6;
-            var2 = var4[var2];
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.systemPrefersReducedMotionChanged;
-            var2 = 'no-preference';
-            if(!var5) { _fun0002_ip = 7; continue _fun0002 }
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.systemPrefersReducedMotionChanged;
+            var3 = 'no-preference';
+            var6 = arg1;
+            if(!var6) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-            var2 = 'reduce';
+            var3 = 'reduce';
 case 7:
-            var2 = var3.bind(var4)(var2);
+            var3 = var4.bind(var5)(var3);
+            var4 = _closure1_slot9;
+            var3 = _closure1_slot7;
+            var3 = var3.REDUCED_MOTION;
+            var2 = _closure1_slot6;
+            var2 = var2.useReducedMotion;
+            var2 = var4.bind(var1)(var3, var2);
             return var1;
         }
     };
@@ -320,24 +322,26 @@ case 15:
             var2 = function(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var5 = arg1;
-                    var4 = _closure1_slot9;
-                    var1 = _closure1_slot7;
-                    var3 = var1.REDUCED_MOTION;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 6;
+                    var3 = var3[var1];
                     var1 = undefined;
-                    var3 = var4.bind(var1)(var3, var5);
-                    var3 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var2 = 6;
-                    var2 = var4[var2];
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.systemPrefersReducedMotionChanged;
-                    var2 = 'no-preference';
-                    if(!var5) { _fun0005_ip = 7; continue _fun0005 }
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.systemPrefersReducedMotionChanged;
+                    var3 = 'no-preference';
+                    var6 = arg1;
+                    if(!var6) { _fun0005_ip = 7; continue _fun0005 }
 case 8:
-                    var2 = 'reduce';
+                    var3 = 'reduce';
 case 7:
-                    var2 = var3.bind(var4)(var2);
+                    var3 = var4.bind(var5)(var3);
+                    var4 = _closure1_slot9;
+                    var3 = _closure1_slot7;
+                    var3 = var3.REDUCED_MOTION;
+                    var2 = _closure1_slot6;
+                    var2 = var2.useReducedMotion;
+                    var2 = var4.bind(var1)(var3, var2);
                     return var1;
                 }
             };

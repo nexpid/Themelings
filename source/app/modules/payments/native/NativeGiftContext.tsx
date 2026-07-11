@@ -1350,7 +1350,7 @@ case 60:
             var3 = var13.bind(var8)(var3, var7);
             _closure2_slot39 = var3;
             var13 = var8.useCallback;
-            var7 = new Array(9);
+            var7 = new Array(10);
             var7[0] = var35;
             var7[1] = var17;
             var7[2] = var34;
@@ -1361,6 +1361,7 @@ case 60:
             var7[7] = var3;
             var3 = var31.orderId;
             var7[8] = var3;
+            var7[9] = var24;
             var3 = function(arg1) {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -1395,17 +1396,17 @@ case 108:
                         }
                     };
                     var _closure3_slot2 = var9;
-                    var4 = _closure1_slot6;
-                    var3 = var4.getNextTier;
-                    var7 = _closure1_slot0;
+                    var5 = _closure1_slot6;
+                    var3 = var5.getNextTier;
+                    var6 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var10 = 26;
                     var2 = var1[var10];
                     var1 = undefined;
-                    var2 = var7.bind(var1)(var2);
+                    var2 = var6.bind(var1)(var2);
                     var2 = var2.BadgeId;
                     var2 = var2.GIFTING;
-                    var2 = var3.bind(var4)(var2);
+                    var2 = var3.bind(var5)(var2);
                     var3 = null;
                     if(!(var3 == var2)) { _fun0014_ip = 110; continue _fun0014 }
 case 111:
@@ -1413,24 +1414,24 @@ case 111:
                     var2 = var2.bind(var1)(var3);
                     _fun0014_ip = 112; continue _fun0014;
 case 110:
-                    var7 = _closure1_slot6;
-                    var4 = var7.getSingleRequirementProgress;
-                    var8 = _closure1_slot0;
+                    var6 = _closure1_slot6;
+                    var5 = var6.getSingleRequirementProgress;
+                    var7 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var10];
-                    var2 = var8.bind(var1)(var2);
+                    var2 = var7.bind(var1)(var2);
                     var2 = var2.BadgeId;
                     var2 = var2.GIFTING;
-                    var4 = var4.bind(var7)(var2);
-                    var7 = var3 == var4;
+                    var5 = var5.bind(var6)(var2);
+                    var6 = var3 == var5;
                     var2 = undefined;
-                    if(var7) { _fun0014_ip = 78; continue _fun0014 }
+                    if(var6) { _fun0014_ip = 78; continue _fun0014 }
 case 45:
-                    var2 = var4.current;
+                    var2 = var5.current;
 case 78:
-                    var4 = var3 != var2;
+                    var5 = var3 != var2;
                     var3 = null;
-                    if(!var4) { _fun0014_ip = 89; continue _fun0014 }
+                    if(!var5) { _fun0014_ip = 89; continue _fun0014 }
 case 113:
                     var3 = var2;
 case 89:
@@ -1438,57 +1439,57 @@ case 89:
                     var2 = var2.bind(var1)(var3);
 case 112:
                     var2 = _closure2_slot19;
-                    var7 = true;
-                    var2 = var2.bind(var1)(var7);
+                    var5 = true;
+                    var2 = var2.bind(var1)(var5);
                     var3 = _closure2_slot37;
                     var2 = arg1;
                     var2 = var3.bind(var1)(var2);
                     var _closure3_slot1 = var2;
                     var3 = _closure1_slot0;
-                    var8 = _closure1_slot2;
+                    var6 = _closure1_slot2;
                     var2 = 32;
-                    var2 = var8[var2];
+                    var2 = var6[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.isAndroid;
                     var2 = var2.bind(var3)();
                     if(!var2) { _fun0014_ip = 114; continue _fun0014 }
 case 115:
                     var3 = _closure1_slot1;
-                    var8 = _closure1_slot2;
+                    var6 = _closure1_slot2;
                     var2 = 31;
-                    var2 = var8[var2];
-                    var8 = var3.bind(var1)(var2);
-                    var3 = var8.subscribe;
+                    var2 = var6[var2];
+                    var6 = var3.bind(var1)(var2);
+                    var3 = var6.subscribe;
                     var2 = 'GPLAY_UPDATE_PURCHASE_STATE';
-                    var2 = var3.bind(var8)(var2, var9);
+                    var2 = var3.bind(var6)(var2, var9);
 case 114:
                     var3 = _closure2_slot3;
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot2;
                     var2 = 33;
-                    var2 = var9[var2];
-                    var2 = var8.bind(var1)(var2);
+                    var2 = var12[var2];
+                    var2 = var11.bind(var1)(var2);
                     var2 = var2.PaymentFlowStep;
                     var2 = var2.REVIEW;
                     var2 = var3.bind(var1)(var2);
                     var3 = _closure2_slot30;
                     var2 = {};
-                    var8 = _closure2_slot28;
-                    var2['productId'] = var8;
-                    var2['isGift'] = var7;
-                    var7 = _closure2_slot0;
-                    var8 = var7.load_id;
-                    var2['analyticsLoadId'] = var8;
-                    var8 = var7.location;
-                    var2['analyticsLocation'] = var8;
-                    var7 = var7.location_stack;
-                    var2['analyticsLocations'] = var7;
-                    var7 = false;
-                    var2['allowPlanChange'] = var7;
-                    var7 = _closure2_slot36;
-                    var2['giftInfoOptions'] = var7;
-                    var7 = _closure1_slot3;
-                    var6 = function* () {
+                    var6 = _closure2_slot28;
+                    var2['productId'] = var6;
+                    var2['isGift'] = var5;
+                    var5 = _closure2_slot0;
+                    var6 = var5.load_id;
+                    var2['analyticsLoadId'] = var6;
+                    var6 = var5.location;
+                    var2['analyticsLocation'] = var6;
+                    var6 = var5.location_stack;
+                    var2['analyticsLocations'] = var6;
+                    var6 = false;
+                    var2['allowPlanChange'] = var6;
+                    var9 = _closure2_slot36;
+                    var2['giftInfoOptions'] = var9;
+                    var9 = _closure1_slot3;
+                    var8 = function* () {
                         var1 = function* anon_0_() {
                             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
@@ -1516,9 +1517,9 @@ case 116:
                         };
                         return var1;
                     };
-                    var6 = var7.bind(var1)(var6);
-                    var _closure3_slot0 = var6;
-                    var6 = function() {
+                    var8 = var9.bind(var1)(var8);
+                    var _closure3_slot0 = var8;
+                    var8 = function() {
                         var1 = undefined;
                         var4 = _closure3_slot0;
                         var3 = var4.apply;
@@ -1528,18 +1529,38 @@ case 116:
                         var1 = var3.bind(var4)(var1, var2);
                         return var1;
                     };
-                    var2['onPurchaseComplete'] = var6;
-                    var5 = function onPurchaseError() {
+                    var2['onPurchaseComplete'] = var8;
+                    var4 = function onPurchaseError() {
                         var3 = _closure2_slot39;
                         var2 = _closure3_slot1;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var2['onPurchaseError'] = var5;
+                    var2['onPurchaseError'] = var4;
                     var4 = _closure2_slot26;
                     var4 = var4.orderId;
                     var2['orderId'] = var4;
+                    var4 = {};
+                    var5 = var5.load_id;
+                    var4['load_id'] = var5;
+                    var5 = {};
+                    var8 = _closure2_slot10;
+                    var7 = 17;
+                    var9 = var12[var7];
+                    var9 = var11.bind(var1)(var9);
+                    var10 = var9.intl;
+                    var9 = var10.string;
+                    var7 = var12[var7];
+                    var7 = var11.bind(var1)(var7);
+                    var7 = var7.t;
+                    var7 = var7.ZkOo1U;
+                    var7 = var9.bind(var10)(var7);
+                    var7 = var8 !== var7;
+                    var5['is_custom_message_edited'] = var7;
+                    var5['is_custom_emoji_sound_available'] = var6;
+                    var4['succeededOnlyFields'] = var5;
+                    var2['analyticsData'] = var4;
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 }

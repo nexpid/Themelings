@@ -689,14 +689,14 @@ case 0:
                         var1 = var1.error;
                         var2 = 'failed';
                         var3 = var2 === var8;
-                        if(var3) { _fun0010_ip = 40; continue _fun0010 }
-case 45:
+                        if(var3) { _fun0010_ip = 45; continue _fun0010 }
+case 46:
                         var2 = 'n/a';
-                        if(!(var2 === var8)) { _fun0010_ip = 46; continue _fun0010 }
-case 40:
+                        if(!(var2 === var8)) { _fun0010_ip = 47; continue _fun0010 }
+case 45:
                         var5 = null;
-                        if(!(var5 != var1)) { _fun0010_ip = 46; continue _fun0010 }
-case 47:
+                        if(!(var5 != var1)) { _fun0010_ip = 47; continue _fun0010 }
+case 48:
                         var9 = _closure1_slot18;
                         var6 = var9.info;
                         var4 = 'Console command Error result:';
@@ -707,30 +707,30 @@ case 47:
                         var10 = var5 == var9;
                         var4 = undefined;
                         var6 = undefined;
-                        if(var10) { _fun0010_ip = 48; continue _fun0010 }
-case 49:
-                        var6 = var9.commandId;
-case 48:
-                        if(!(var6 === var7)) { _fun0010_ip = 46; continue _fun0010 }
+                        if(var10) { _fun0010_ip = 49; continue _fun0010 }
 case 50:
+                        var6 = var9.commandId;
+case 49:
+                        if(!(var6 === var7)) { _fun0010_ip = 47; continue _fun0010 }
+case 51:
                         var11 = _closure1_slot14;
                         var10 = var11.getDevice;
                         var7 = var9.type;
                         var12 = var9.deviceId;
                         var13 = var5 != var12;
                         var6 = '';
-                        if(!var13) { _fun0010_ip = 51; continue _fun0010 }
-case 33:
+                        if(!var13) { _fun0010_ip = 52; continue _fun0010 }
+case 53:
                         var6 = var12;
-case 51:
+case 52:
                         var6 = var10.bind(var11)(var7, var6);
                         var10 = _closure1_slot1;
                         var11 = _closure1_slot2;
                         var7 = 23;
                         var7 = var11[var7];
                         var7 = var10.bind(var4)(var7);
-                        if(!(var5 == var6)) { _fun0010_ip = 52; continue _fun0010 }
-case 53:
+                        if(!(var5 == var6)) { _fun0010_ip = 54; continue _fun0010 }
+case 55:
                         var10 = {};
                         var11 = 'id';
                         var10['id'] = var11;
@@ -758,10 +758,10 @@ case 53:
                         var11 = var12.bind(var13)(var11);
                         var10['name'] = var11;
                         var6 = var10;
-case 52:
+case 54:
                         var8 = var7.bind(var4)(var6, var8, var1);
-                        if(!(var5 != var8)) { _fun0010_ip = 54; continue _fun0010 }
-case 55:
+                        if(!(var5 != var8)) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var5 = 24;
@@ -777,27 +777,27 @@ case 55:
                         var5['errorCodeMessage'] = var10;
                         var10 = var8.isAccountLinkError;
                         var8 = undefined;
-                        if(!var10) { _fun0010_ip = 56; continue _fun0010 }
-case 57:
+                        if(!var10) { _fun0010_ip = 58; continue _fun0010 }
+case 59:
                         var8 = var9.type;
-case 56:
+case 58:
                         var5['reconnectPlatformType'] = var8;
                         var5 = var6.bind(var7)(var5);
-case 54:
+case 56:
                         var6 = _closure1_slot16;
                         var5 = var6.has;
                         var1 = var1.code;
                         var1 = var5.bind(var6)(var1);
-                        if(!var1) { _fun0010_ip = 58; continue _fun0010 }
-case 59:
+                        if(!var1) { _fun0010_ip = 60; continue _fun0010 }
+case 61:
                         var5 = _closure3_slot0;
                         var6 = var5.awaitRemoteTimeout;
                         var5 = var6.isStarted;
                         var5 = var5.bind(var6)();
-                        if(var5) { _fun0010_ip = 60; continue _fun0010 }
-case 58:
-                        if(!var3) { _fun0010_ip = 46; continue _fun0010 }
-case 61:
+                        if(var5) { _fun0010_ip = 62; continue _fun0010 }
+case 60:
+                        if(!var3) { _fun0010_ip = 47; continue _fun0010 }
+case 63:
                         var3 = _closure1_slot0;
                         var5 = _closure1_slot2;
                         var2 = 19;
@@ -805,8 +805,8 @@ case 61:
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.disconnectRemote;
                         var2 = var2.bind(var3)();
-                        _fun0010_ip = 46; continue _fun0010;
-case 60:
+                        _fun0010_ip = 47; continue _fun0010;
+case 62:
                         var1 = _closure3_slot0;
                         var5 = var1.awaitRemoteTimeout;
                         var4 = var5.start;
@@ -824,7 +824,7 @@ case 60:
                         };
                         var1 = true;
                         var1 = var4.bind(var5)(var3, var2, var1);
-case 46:
+case 47:
                         var1 = undefined;
                         return var1;
                     }

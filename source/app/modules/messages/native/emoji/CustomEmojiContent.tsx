@@ -173,7 +173,7 @@ case 0:
                 var3 = var5[var1];
                 var1 = undefined;
                 var6 = var4.bind(var1)(var3);
-                var3 = var6.hideActionSheet;
+                var3 = var6.hideAllActionSheets;
                 var3 = var3.bind(var6)();
                 var3 = 10;
                 var3 = var5[var3];

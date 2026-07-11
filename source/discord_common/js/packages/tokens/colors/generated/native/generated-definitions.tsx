@@ -749,7 +749,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = {'raw': 'OPACITY_20', 'opacity': 0.2};
     var8[16] = var15;
     var17 = var9.LIGHT;
-    var15 = {'raw': 'OPACITY_36', 'opacity': 0.3607843137254902};
+    var15 = {'raw': 'OPACITY_40', 'opacity': 0.4};
     var8[16] = var15;
     var17 = var9.MIDNIGHT;
     var15 = {'raw': 'OPACITY_24', 'opacity': 0.23921568627450981};

@@ -2358,6 +2358,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['YOU_BAR_DM_SWIPE_COACHMARK'] = var2;
     var1 = 'YOU_BAR_DM_SWIPE_COACHMARK';
     var4[var2] = var1;
+    var2 = 791;
+    var4['TOPICAL_NAVIGATION_HEADER_COACHMARK'] = var2;
+    var1 = 'TOPICAL_NAVIGATION_HEADER_COACHMARK';
+    var4[var2] = var1;
+    var2 = 792;
+    var4['PREMIUM_MARKETING_MOMENT_DESKTOP_ANNOUNCEMENT_MODAL'] = var2;
+    var1 = 'PREMIUM_MARKETING_MOMENT_DESKTOP_ANNOUNCEMENT_MODAL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

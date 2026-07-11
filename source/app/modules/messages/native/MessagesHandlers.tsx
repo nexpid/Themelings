@@ -4451,10 +4451,13 @@ case 314:
                 var1 = 115;
                 var2 = var2[var1];
                 var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.transitionToInviteSync;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.transitionToInvite;
+                var3 = {};
+                var2 = true;
+                var3['forceTransition'] = var2;
                 var2 = arg1;
-                var2 = var3.bind(var4)(var2);
+                var2 = var4.bind(var5)(var2, var3);
                 return var1;
             };
             var3['handleTransitionToInviteChannel'] = var4;

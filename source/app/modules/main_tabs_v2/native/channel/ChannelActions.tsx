@@ -152,6 +152,7 @@ case 0:
             var12 = var12.bind(var4)(var11);
             var11 = var12.useConversationsHeaderButton;
             var12 = var11.bind(var12)(var10);
+            var _closure2_slot3 = var12;
             var11 = var10.isVocalThread;
             var11 = var11.bind(var10)();
             if(!var11) { _fun0001_ip = 2; continue _fun0001 }
@@ -313,20 +314,20 @@ case 23:
                     var3 = var3.bind(var4)();
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    if(var3) { _fun0002_ip = 11; continue _fun0002 }
-case 26:
+                    if(var3) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
                     var3 = 34;
                     var3 = var5[var3];
                     var7 = var4.bind(var1)(var3);
                     var3 = var7.getRootNavigationRef;
                     var9 = var3.bind(var7)();
                     var3 = null;
-                    if(!(var3 != var9)) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+                    if(!(var3 != var9)) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
                     var3 = var9.isReady;
                     var3 = var3.bind(var9)();
-                    if(!var3) { _fun0002_ip = 27; continue _fun0002 }
-case 29:
+                    if(!var3) { _fun0002_ip = 28; continue _fun0002 }
+case 3:
                     var8 = var9.navigate;
                     var7 = {'channelId': null, 'search': true, 'source': 'channel-header-search'};
                     var3 = _closure2_slot0;
@@ -335,9 +336,9 @@ case 29:
                     var3 = 'sidebar';
                     var3 = var8.bind(var9)(var3, var7);
                     _fun0002_ip = 30; continue _fun0002;
-case 27:
+case 28:
                     return var1;
-case 11:
+case 26:
                     var3 = 33;
                     var3 = var5[var3];
                     var3 = var4.bind(var1)(var3);
@@ -557,30 +558,93 @@ case 47:
             var1['style'] = var6;
             var6 = var7.map;
             var5 = function(arg1, arg2) {
-                var5 = arg1;
-                var1 = _closure2_slot2;
-                var2 = var1.length;
-                var1 = 1;
-                var7 = var2 - var1;
-                var4 = _closure1_slot14;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 38;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var6 = arg2;
-                var6 = var6 === var7;
-                var1['noMargin'] = var6;
-                var9 = var1;
-                var8 = var5;
-                var6 = copyDataProperties(var9, var8);
-                var6 = var5.accessibilityLabel;
-                var5 = 'key';
-                var1[4] = var6;
-                var1 = var4.bind(var3)(var2, var1);
-                return var1;
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var2 = arg1;
+                    var _closure3_slot0 = var2;
+                    var3 = _closure2_slot2;
+                    var4 = var3.length;
+                    var3 = 1;
+                    var4 = var4 - var3;
+                    var3 = arg2;
+                    var8 = var3 === var4;
+                    var1 = _closure2_slot3;
+                    if(!(var2 !== var1)) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
+                    var5 = _closure1_slot14;
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var1 = 39;
+                    var1 = var4[var1];
+                    var4 = undefined;
+                    var3 = var3.bind(var4)(var1);
+                    var1 = {};
+                    var1['noMargin'] = var8;
+                    var12 = var1;
+                    var11 = var2;
+                    var6 = copyDataProperties(var12, var11);
+                    var9 = var2.accessibilityLabel;
+                    var6 = 'key';
+                    var1[5] = var9;
+                    var1 = var5.bind(var4)(var3, var1);
+                    _fun0003_ip = 51; continue _fun0003;
+case 49:
+                    var6 = _closure1_slot13;
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var3 = 38;
+                    var3 = var5[var3];
+                    var5 = undefined;
+                    var3 = var4.bind(var5)(var3);
+                    var4 = var3.ConversationCoachmark;
+                    var3 = {};
+                    var3['isLast'] = var8;
+                    var7 = function children(arg1) {
+                        var1 = arg1;
+                        var _closure4_slot0 = var1;
+                        var4 = _closure1_slot13;
+                        var2 = _closure1_slot1;
+                        var3 = _closure1_slot2;
+                        var1 = 39;
+                        var1 = var3[var1];
+                        var3 = undefined;
+                        var2 = var2.bind(var3)(var1);
+                        var1 = {};
+                        var6 = true;
+                        var1['noMargin'] = var6;
+                        var7 = _closure3_slot0;
+                        var8 = var1;
+                        var6 = copyDataProperties(var8, var7);
+                        var6 = function onPress(arg1) {
+                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                                var2 = _closure4_slot0;
+                                var1 = undefined;
+                                var2 = var2.bind(var1)();
+                                var3 = _closure3_slot0;
+                                var4 = var3.onPress;
+                                var3 = null;
+                                if(!(var3 != var4)) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
+                                var4 = _closure3_slot0;
+                                var3 = var4.onPress;
+                                var2 = arg1;
+                                var2 = var3.bind(var4)(var2);
+case 52:
+                                return var1;
+                            }
+                        };
+                        var5 = 'onPress';
+                        var1[4] = var6;
+                        var1 = var4.bind(var3)(var2, var1);
+                        return var1;
+                    };
+                    var3['children'] = var7;
+                    var2 = var2.accessibilityLabel;
+                    var1 = var6.bind(var5)(var4, var3, var2);
+case 51:
+                    return var1;
+                }
             };
             var5 = var6.bind(var7)(var5);
             var1['children'] = var5;
@@ -590,7 +654,7 @@ case 47:
     };
     var _closure1_slot18 = var1;
     var1 = function WrappedChannelNavButtons(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.channelId;
@@ -615,7 +679,7 @@ case 0:
                 return var1;
             };
             var7 = var9.bind(var10)(var7, var1);
-            var1 = 39;
+            var1 = 40;
             var1 = var8[var1];
             var4 = var4.bind(var5)(var1);
             var1 = var4.useShouldHideChannelContent;
@@ -623,21 +687,21 @@ case 0:
             var4 = null;
             var9 = var4 == var7;
             var1 = null;
-            if(var9) { _fun0003_ip = 49; continue _fun0003 }
-case 50:
+            if(var9) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
             var1 = null;
-            if(var8) { _fun0003_ip = 49; continue _fun0003 }
-case 51:
+            if(var8) { _fun0005_ip = 54; continue _fun0005 }
+case 56:
             var1 = null;
-            if(var3) { _fun0003_ip = 49; continue _fun0003 }
-case 52:
+            if(var3) { _fun0005_ip = 54; continue _fun0005 }
+case 57:
             var4 = _closure1_slot13;
             var3 = _closure1_slot18;
             var2 = {};
             var2['channel'] = var7;
             var2['screenIndex'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 49:
+case 54:
             return var1;
         }
     };
@@ -714,14 +778,14 @@ case 49:
     var4['actionWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 42;
+    var4 = 43;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/main_tabs_v2/native/channel/ChannelActions.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function ChannelActions(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = arg1;
             var9 = var2.channelId;
@@ -740,7 +804,7 @@ case 0:
             var5 = new Array(1);
             var5[0] = var13;
             var1 = function() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = {};
                     var6 = _closure1_slot6;
@@ -750,16 +814,16 @@ case 0:
                     var2 = null;
                     var6 = var2 == var8;
                     var7 = undefined;
-                    if(var6) { _fun0005_ip = 53; continue _fun0005 }
-case 54:
+                    if(var6) { _fun0007_ip = 58; continue _fun0007 }
+case 59:
                     var6 = var8.isMultiUserDM;
                     var7 = var6.bind(var8)();
-case 53:
+case 58:
                     var6 = var2 != var7;
-                    if(!var6) { _fun0005_ip = 55; continue _fun0005 }
-case 56:
+                    if(!var6) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
                     var6 = var7;
-case 55:
+case 60:
                     var1['isMultiUserDM'] = var6;
                     var6 = _closure1_slot6;
                     var5 = var6.getChannel;
@@ -767,16 +831,16 @@ case 55:
                     var5 = var5.bind(var6)(var4);
                     var4 = var2 == var5;
                     var3 = undefined;
-                    if(var4) { _fun0005_ip = 57; continue _fun0005 }
-case 58:
+                    if(var4) { _fun0007_ip = 62; continue _fun0007 }
+case 63:
                     var4 = var5.isDM;
                     var3 = var4.bind(var5)();
-case 57:
+case 62:
                     var2 = var2 != var3;
-                    if(!var2) { _fun0005_ip = 59; continue _fun0005 }
-case 60:
+                    if(!var2) { _fun0007_ip = 64; continue _fun0007 }
+case 65:
                     var2 = var3;
-case 59:
+case 64:
                     var1['isDM'] = var2;
                     return var1;
                 }
@@ -793,12 +857,12 @@ case 59:
             var2 = _closure1_slot3;
             var1 = {};
             var1['style'] = var12;
-            if(var8) { _fun0004_ip = 61; continue _fun0004 }
-case 62:
-            if(var7) { _fun0004_ip = 63; continue _fun0004 }
-case 64:
-            if(var5) { _fun0004_ip = 63; continue _fun0004 }
-case 65:
+            if(var8) { _fun0006_ip = 66; continue _fun0006 }
+case 67:
+            if(var7) { _fun0006_ip = 68; continue _fun0006 }
+case 69:
+            if(var5) { _fun0006_ip = 68; continue _fun0006 }
+case 70:
             var8 = _closure1_slot13;
             var7 = _closure1_slot19;
             var5 = {};
@@ -806,32 +870,32 @@ case 65:
             var5['screenIndex'] = var11;
             var5['showCreateThread'] = var10;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0004_ip = 66; continue _fun0004;
-case 63:
+            _fun0006_ip = 71; continue _fun0006;
+case 68:
             var10 = _closure1_slot13;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var7 = 41;
+            var7 = 42;
             var7 = var12[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
             var7['channelId'] = var9;
             var7['screenIndex'] = var11;
             var5 = var10.bind(var4)(var8, var7);
+case 71:
+            _fun0006_ip = 72; continue _fun0006;
 case 66:
-            _fun0004_ip = 67; continue _fun0004;
-case 61:
             var8 = _closure1_slot13;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 40;
+            var6 = 41;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.ForumChannelCloseSearchButton;
             var6 = {};
             var6['channelId'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 67:
+case 72:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

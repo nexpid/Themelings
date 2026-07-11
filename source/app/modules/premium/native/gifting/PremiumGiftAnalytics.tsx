@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot4 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -92,7 +92,7 @@ case 3:
 case 5:
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var4 = 6;
+                var4 = 7;
                 var4 = var11[var4];
                 var8 = undefined;
                 var5 = var9.bind(var8)(var4);
@@ -100,7 +100,7 @@ case 5:
                 var10 = _closure2_slot3;
                 var4 = var4.bind(var5)(var10);
                 var5 = _closure1_slot1;
-                var4 = 4;
+                var4 = 5;
                 var4 = var11[var4];
                 var6 = var5.bind(var8)(var4);
                 var5 = var6.track;
@@ -129,11 +129,22 @@ case 4:
                 var3 = var5.bind(var9)(var3);
                 var3 = var3.PaymentFlowStep;
                 var3 = var3.CONFIRM;
-                if(!(var4 === var3)) { _fun0001_ip = 7; continue _fun0001 }
+                var3 = var4 === var3;
+                if(!var3) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var4 = 4;
+                var4 = var6[var4];
+                var5 = var5.bind(var9)(var4);
+                var4 = var5.isIOS;
+                var3 = var4.bind(var5)();
+case 7:
+                if(!var3) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var4 = _closure1_slot1;
                 var15 = _closure1_slot2;
-                var3 = 4;
+                var3 = 5;
                 var3 = var15[var3];
                 var6 = var4.bind(var9)(var3);
                 var5 = var6.track;
@@ -152,7 +163,7 @@ case 8:
                 var18 = var3;
                 var7 = copyDataProperties(var18, var17);
                 var11 = _closure2_slot1;
-                var7 = 5;
+                var7 = 6;
                 var12 = var15[var7];
                 var12 = var14.bind(var9)(var12);
                 var13 = var12.intl;
@@ -169,10 +180,10 @@ case 8:
                 var7 = 'is_custom_emoji_sound_available';
                 var3[6] = var11;
                 var3 = var5.bind(var6)(var4, var3);
-case 7:
+case 9:
                 var4 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var3 = 4;
+                var3 = 5;
                 var3 = var7[var3];
                 var6 = var4.bind(var9)(var3);
                 var5 = var6.track;
@@ -234,11 +245,11 @@ case 0:
                     var4 = var6.bind(var1)(var4);
                     var4 = var4.PaymentFlowStep;
                     var4 = var4.CONFIRM;
-                    if(!(var5 !== var4)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+                    if(!(var5 !== var4)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 4;
+                    var4 = 5;
                     var4 = var6[var4];
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.track;
@@ -246,7 +257,7 @@ case 10:
                     var3 = var3.PAYMENT_FLOW_CANCELED;
                     var2 = _closure2_slot3;
                     var2 = var4.bind(var5)(var3, var2);
-case 9:
+case 11:
                     return var1;
                 }
             };

@@ -337,6 +337,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['position'] = var12;
     var10[20] = var11;
     var8['seats'] = var10;
+    var10 = new Array(1);
+    var11 = {'x': 45.57, 'y': 50.62};
+    var10[0] = var11;
+    var8['plants'] = var10;
     var2[8] = var8;
     var _closure1_slot2 = var2;
     var5 = var7[var5];

@@ -4324,6 +4324,7 @@ case 166:
             var38 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': null, 'backgroundColor': 'black'};
             var39 = _closure1_slot16;
             var39 = var39 / var43;
+            var39 = var39 - var42;
             var38['bottom'] = var39;
             var34['style'] = var38;
             var35 = var37.bind(var4)(var35, var34);

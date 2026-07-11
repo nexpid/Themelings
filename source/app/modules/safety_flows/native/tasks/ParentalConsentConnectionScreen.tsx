@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['cardTitle'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 33;
+    var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -121,6 +121,21 @@ case 0:
             var _closure2_slot1 = var14;
             var5 = _closure1_slot1;
             var3 = 13;
+            var3 = var10[var3];
+            var6 = var5.bind(var4)(var3);
+            var3 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 14;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.clearWarning;
+                var2 = var2.bind(var3)();
+                return var1;
+            };
+            var3 = var6.bind(var4)(var3);
+            var3 = 15;
             var3 = var10[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.bind(var4)(var14);
@@ -162,7 +177,7 @@ case 8:
             var3 = var6.pending_requests;
 case 10:
             var2['pending_requests'] = var3;
-            var6 = 14;
+            var6 = 16;
             var3 = var10[var6];
             var8 = var12.bind(var4)(var3);
             var3 = var8.usePendingRequestCount;
@@ -171,7 +186,7 @@ case 10:
             var8 = var12.bind(var4)(var6);
             var6 = var8.useHasActiveParentLinks;
             var32 = var6.bind(var8)();
-            var6 = 15;
+            var6 = 17;
             var8 = var10[var6];
             var17 = var12.bind(var4)(var8);
             var16 = var17.useStateFromStores;
@@ -320,7 +335,7 @@ case 24:
 case 27:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 16;
+                    var2 = 18;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -334,7 +349,7 @@ case 26:
                 }
             };
             var13 = var17.bind(var6)(var12, var13);
-            var12 = 17;
+            var12 = 19;
             var12 = var5[var12];
             var17 = var7.bind(var4)(var12);
             var12 = var17.useDerivedPendingRequests;
@@ -367,7 +382,7 @@ case 30: // try_start_0 // try_start_1
                         var2 = {};
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var6 = 18;
+                        var6 = 20;
                         var6 = var8[var6];
                         var6 = var7.bind(var5)(var6);
                         var6 = var6.TaskInputType;
@@ -391,7 +406,7 @@ case 36: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=1);
                         var10 = _closure1_slot1;
                         var11 = _closure1_slot2;
-                        var2 = 19;
+                        var2 = 21;
                         var2 = var11[var2];
                         var6 = var10.bind(var5)(var2);
                         var4 = var6.open;
@@ -399,12 +414,12 @@ case 36: // try_start_2 // catch_target0
                         var8 = 'SAFETY_FLOWS_PARENTAL_CONSENT_CONNECTION_ERROR';
                         var2['key'] = var8;
                         var8 = _closure1_slot0;
-                        var7 = 20;
+                        var7 = 22;
                         var7 = var11[var7];
                         var7 = var8.bind(var5)(var7);
                         var9 = var7.intl;
                         var8 = var9.string;
-                        var7 = 21;
+                        var7 = 23;
                         var7 = var11[var7];
                         var7 = var10.bind(var5)(var7);
                         var7 = var7["+QRSxc"];
@@ -440,16 +455,16 @@ case 28:
             var1 = function() {
                 var5 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 22;
+                var1 = 24;
                 var4 = var3[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.openLazy;
                 var7 = _closure1_slot0;
-                var4 = 24;
+                var4 = 26;
                 var4 = var3[var4];
                 var7 = var7.bind(var1)(var4);
-                var4 = 23;
+                var4 = 25;
                 var4 = var3[var4];
                 var3 = var3.paths;
                 var4 = var7.bind(var1)(var4, var3);
@@ -467,16 +482,16 @@ case 28:
             var12 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot10;
             var10 = _closure1_slot1;
-            var1 = 25;
+            var1 = 27;
             var1 = var5[var1];
             var2 = var10.bind(var4)(var1);
             var1 = {};
-            var25 = 20;
+            var25 = 22;
             var6 = var5[var25];
             var6 = var7.bind(var4)(var6);
             var7 = var6.intl;
             var6 = var7.string;
-            var24 = 21;
+            var24 = 23;
             var5 = var5[var24];
             var5 = var10.bind(var4)(var5);
             var5 = var5.dMMSA0;
@@ -514,13 +529,13 @@ case 40:
             var10 = _closure1_slot10;
             var18 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var5 = 26;
+            var5 = 28;
             var5 = var27[var5];
             var5 = var18.bind(var4)(var5);
             var7 = var5.ModalFooter;
             var6 = {};
             var20 = _closure1_slot11;
-            var5 = 27;
+            var5 = 29;
             var11 = var27[var5];
             var11 = var18.bind(var4)(var11);
             var19 = var11.Stack;
@@ -532,7 +547,7 @@ case 40:
             var21 = var21.space;
             var21 = var21.PX_16;
             var11['spacing'] = var21;
-            var21 = 28;
+            var21 = 30;
             var21 = var27[var21];
             var23 = var23.bind(var4)(var21);
             var21 = {};
@@ -545,7 +560,7 @@ case 42:
             var29 = _closure1_slot10;
             var35 = _closure1_slot0;
             var33 = _closure1_slot2;
-            var27 = 29;
+            var27 = 31;
             var27 = var33[var27];
             var27 = var35.bind(var4)(var27);
             var28 = var27.ModalActionButton;
@@ -603,7 +618,7 @@ case 46:
             var21 = _closure1_slot10;
             var20 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var18 = 31;
+            var18 = 33;
             var18 = var23[var18];
             var18 = var20.bind(var4)(var18);
             var19 = var18.Text;
@@ -623,7 +638,7 @@ case 46:
             var19 = var21.bind(var4)(var19, var18);
             var18 = new Array(2);
             var18[0] = var19;
-            var19 = 32;
+            var19 = 34;
             var19 = var23[var19];
             var19 = var20.bind(var4)(var19);
             var20 = var19.ConnectGuardianCard;
@@ -642,7 +657,7 @@ case 45:
             var11 = _closure1_slot10;
             var10 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var9 = 30;
+            var9 = 32;
             var9 = var18[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
