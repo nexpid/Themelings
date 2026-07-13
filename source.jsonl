@@ -35,7 +35,7 @@
 { "file": "app/actions/GamesActionCreators.native.tsx", "size": 19602 }
 { "file": "app/actions/GIFPickerActionCreators.tsx", "size": 38220 }
 { "file": "app/actions/GiftCodeActionCreators.tsx", "size": 23779 }
-{ "file": "app/actions/GuildActionCreators.tsx", "size": 104889 }
+{ "file": "app/actions/GuildActionCreators.tsx", "size": 104896 }
 { "file": "app/actions/GuildAffinitiesActionCreators.tsx", "size": 2527 }
 { "file": "app/actions/GuildSubscriptionsActionCreators.tsx", "size": 7715 }
 { "file": "app/actions/HubActionCreators.tsx", "size": 15665 }
@@ -44,7 +44,7 @@
 { "file": "app/actions/LayerActionCreators.tsx", "size": 1992 }
 { "file": "app/actions/MaskedLinkActionCreators.tsx", "size": 1682 }
 { "file": "app/actions/MentionActionCreators.tsx", "size": 7491 }
-{ "file": "app/actions/MessageActionCreators.tsx", "size": 282447 }
+{ "file": "app/actions/MessageActionCreators.tsx", "size": 282444 }
 { "file": "app/actions/MFAActionCreators.tsx", "size": 11760 }
 { "file": "app/actions/ModalActionCreators.tsx", "size": 11561 }
 { "file": "app/actions/native/AlertActionCreators.tsx", "size": 20325 }
@@ -1635,7 +1635,7 @@
 { "file": "app/modules/age_assurance/AgeVerificationIncodeExperiment.tsx", "size": 1710 }
 { "file": "app/modules/age_assurance/AgeVerificationManager.tsx", "size": 15656 }
 { "file": "app/modules/age_assurance/AgeVerificationStore.tsx", "size": 14670 }
-{ "file": "app/modules/age_assurance/AgeVerificationURLActionCreators.tsx", "size": 21058 }
+{ "file": "app/modules/age_assurance/AgeVerificationURLActionCreators.tsx", "size": 21194 }
 { "file": "app/modules/age_assurance/AgeVerificationUtils.tsx", "size": 52239 }
 { "file": "app/modules/age_assurance/GoogleWalletActionCreators.native.tsx", "size": 10784 }
 { "file": "app/modules/age_assurance/GoogleWalletExperiment.tsx", "size": 1737 }
@@ -4097,7 +4097,7 @@
 { "file": "app/modules/guild_scheduled_events/native/components/EditGuildEventWhere.tsx", "size": 22414 }
 { "file": "app/modules/guild_scheduled_events/native/components/EditGuildScheduledEventResetWarningAlert.tsx", "size": 3068 }
 { "file": "app/modules/guild_scheduled_events/native/components/EndEventActionSheet.tsx", "size": 8490 }
-{ "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailInfoSheet.tsx", "size": 26770 }
+{ "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailInfoSheet.tsx", "size": 26769 }
 { "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailRsvpSheet.tsx", "size": 22113 }
 { "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailTypes.tsx", "size": 877 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventCard.tsx", "size": 12010 }
@@ -4227,7 +4227,7 @@
 { "file": "app/modules/guild_settings/roles/native/action_sheet/SelectConnectionActionSheet.tsx", "size": 21112 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleCreateModal.tsx", "size": 63921 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleCreateModalActionCreators.tsx", "size": 1826 }
-{ "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEdit.tsx", "size": 79894 }
+{ "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEdit.tsx", "size": 79893 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEditConnectionConfiguration.tsx", "size": 78850 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEditConnectionsControls.tsx", "size": 51734 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEditDisplay.tsx", "size": 31526 }
