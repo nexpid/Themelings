@@ -10762,6 +10762,16 @@
         "width": 24,
         "height": 24
     },
+    "RibbonIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/RibbonIcon.png",
+        "hash": "3707ecbdc52255079d75d7398451480d",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "RiotGamesNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/RiotGamesNeutralIcon.png",
         "hash": "119c03ecfe749b5d0f4e60c612bb714f",
