@@ -67,6 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CARD_ROWS_ICON_SIZE_VARIANT'] = var7;
     var3['CARD_ROWS_ICON_SIZE'] = var6;
     var3['CARD_ROWS_COLUMN_GAP'] = var5;
+    var5 = 8;
+    var3['WISHLIST_SUGGESTION_CARD_GAP'] = var5;
     var5 = 140;
     var3['FLOATING_UPSELL_HEIGHT'] = var5;
     var5 = 48;

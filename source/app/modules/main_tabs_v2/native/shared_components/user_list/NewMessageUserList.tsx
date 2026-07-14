@@ -986,12 +986,12 @@ case 0:
                     var5 = var1.type;
                     var2 = 'UserSearchItem';
                     if(!(var2 !== var5)) { _fun0014_ip = 95; continue _fun0014 }
-case 59:
-                    var2 = 'GroupDMChannelRecord';
-                    if(!(var2 !== var5)) { _fun0014_ip = 70; continue _fun0014 }
 case 96:
+                    var2 = 'GroupDMChannelRecord';
+                    if(!(var2 !== var5)) { _fun0014_ip = 97; continue _fun0014 }
+case 9:
                     return var1;
-case 70:
+case 97:
                     var2 = {};
                     var5 = 'gdm';
                     var2['type'] = var5;
@@ -1025,48 +1025,48 @@ case 95:
                     var12 = var6 == var11;
                     var10 = undefined;
                     var9 = undefined;
-                    if(var12) { _fun0014_ip = 97; continue _fun0014 }
-case 98:
+                    if(var12) { _fun0014_ip = 98; continue _fun0014 }
+case 99:
                     var12 = var5.username;
                     var9 = undefined;
-                    if(!(var12 !== var11)) { _fun0014_ip = 97; continue _fun0014 }
-case 99:
+                    if(!(var12 !== var11)) { _fun0014_ip = 98; continue _fun0014 }
+case 100:
                     var9 = var11;
-case 97:
+case 98:
                     var2['nickname'] = var9;
                     var9 = _closure2_slot2;
                     var2['onPress'] = var9;
                     var9 = _closure2_slot1;
                     var11 = var6 == var9;
                     var9 = undefined;
-                    if(var11) { _fun0014_ip = 100; continue _fun0014 }
-case 90:
+                    if(var11) { _fun0014_ip = 101; continue _fun0014 }
+case 102:
                     var13 = _closure2_slot1;
                     var12 = var13.includes;
                     var11 = var5.id;
                     var9 = var12.bind(var13)(var11);
-case 100:
-                    var6 = var6 != var9;
-                    if(!var6) { _fun0014_ip = 101; continue _fun0014 }
-case 102:
-                    var6 = var9;
 case 101:
+                    var6 = var6 != var9;
+                    if(!var6) { _fun0014_ip = 10; continue _fun0014 }
+case 103:
+                    var6 = var9;
+case 10:
                     var2['disabled'] = var6;
                     var2['selected'] = var8;
                     var12 = _closure1_slot7;
                     var11 = var12.isFriend;
                     var9 = var5.id;
                     var9 = var11.bind(var12)(var9);
-                    if(!var9) { _fun0014_ip = 8; continue _fun0014 }
-case 103:
-                    if(var8) { _fun0014_ip = 104; continue _fun0014 }
-case 8:
-                    var7 = _closure2_slot4;
-                    _fun0014_ip = 105; continue _fun0014;
+                    if(!var9) { _fun0014_ip = 104; continue _fun0014 }
+case 105:
+                    if(var8) { _fun0014_ip = 44; continue _fun0014 }
 case 104:
+                    var7 = _closure2_slot4;
+                    _fun0014_ip = 36; continue _fun0014;
+case 44:
                     var8 = _closure1_slot9;
                     var7 = var8.TOGGLE;
-case 105:
+case 36:
                     var2['mode'] = var7;
                     var9 = _closure1_slot10;
                     var8 = _closure1_slot0;

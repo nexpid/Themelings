@@ -85,10 +85,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['alignItems'] = var13;
     var4['pullTabButton'] = var10;
     var10 = {};
-    var13 = 'none';
-    var10['display'] = var13;
-    var4['hidden'] = var10;
-    var10 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
@@ -118,523 +114,505 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot17 = var4;
     var4 = var7.memo;
     var2 = function LaunchPadPullTab(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        var1 = arg1;
+        var13 = var1.launchPadSharedState;
+        var _closure2_slot0 = var13;
+        var5 = var1.launchPadPullTabState;
+        var _closure2_slot1 = var5;
+        var19 = var1.gestureState;
+        var _closure2_slot2 = var19;
+        var2 = var1.updaters;
+        var _closure2_slot3 = var2;
+        var1 = _closure1_slot14;
+        var4 = undefined;
+        var11 = var1.bind(var4)();
+        var10 = _closure1_slot1;
+        var9 = _closure1_slot2;
+        var1 = 9;
+        var1 = var9[var1];
+        var1 = var10.bind(var4)(var1);
+        var18 = var1.bind(var4)();
+        var _closure2_slot4 = var18;
+        var1 = var11.pullTabClosed;
+        var17 = var1.backgroundColor;
+        var _closure2_slot5 = var17;
+        var1 = var11.pullTabOpened;
+        var16 = var1.backgroundColor;
+        var _closure2_slot6 = var16;
+        var1 = 10;
+        var1 = var9[var1];
+        var3 = var10.bind(var4)(var1);
+        var1 = {};
+        var1['launchPadSharedState'] = var13;
+        var1['launchPadPullTabState'] = var5;
+        var20 = var3.bind(var4)(var1);
+        var _closure2_slot7 = var20;
+        var8 = _closure1_slot0;
+        var1 = 8;
+        var3 = var9[var1];
+        var14 = var8.bind(var4)(var3);
+        var6 = var14.useAnimatedStyle;
+        var3 = function U() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
+                var2 = _closure2_slot7;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var2 = _closure2_slot2;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var1 = var1.active;
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+                var3 = _closure1_slot8;
+                _fun0001_ip = 5; continue _fun0001;
+case 2:
+                var4 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 8;
+                var2 = var2[var1];
+                var1 = undefined;
+                var6 = var4.bind(var1)(var2);
+                var5 = var6.interpolate;
+                var2 = _closure2_slot0;
+                var1 = var2.get;
+                var4 = var1.bind(var2)();
+                var2 = _closure2_slot4;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var2 = var1.width;
+                var1 = 16;
+                var1 = var2 - var1;
+                var2 = [0];
+                var1 = -var1;
+                var2[1] = var1;
+                var1 = [0, 1];
+                var3 = var5.bind(var6)(var4, var1, var2);
+case 5:
+                var2 = _closure2_slot0;
+                var1 = var2.get;
+                var2 = var1.bind(var2)();
+                var1 = 0.9;
+                if(!(!(var2 > var1))) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                var2 = _closure2_slot2;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var1 = var1.active;
+                var13 = var3;
+                if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+                var2 = _closure2_slot2;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var1 = var1.requiresPop;
+                if(var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+                var1 = 4;
+                var1 = var3 - var1;
+                _fun0001_ip = 12; continue _fun0001;
+case 10:
+                var4 = _closure2_slot2;
+                var2 = var4.get;
+                var2 = var2.bind(var4)();
+                var4 = var2.positionOffsetX;
+                var2 = 0.3;
+                var2 = var2 * var4;
+                var1 = var3 + var2;
+case 12:
+                var13 = var1;
+                _fun0001_ip = 8; continue _fun0001;
+case 6:
+                var2 = _closure2_slot4;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var1 = var1.width;
+                var13 = -var1;
+case 8:
+                var2 = _closure2_slot1;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var14 = var1.position;
+                var2 = _closure2_slot0;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var6 = 0;
+                if(!(var1 <= var6)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+                var2 = _closure2_slot2;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var1 = var1.active;
+                var6 = 0;
+                if(!var1) { _fun0001_ip = 15; continue _fun0001 }
+case 13:
+                var6 = _closure1_slot5;
+case 15:
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var1 = 8;
+                var1 = var8[var1];
+                var4 = undefined;
+                var10 = var7.bind(var4)(var1);
+                var9 = var10.interpolateColor;
+                var2 = _closure2_slot0;
+                var1 = var2.get;
+                var2 = var1.bind(var2)();
+                var3 = _closure2_slot4;
+                var1 = var3.get;
+                var1 = var1.bind(var3)();
+                var1 = var1.width;
+                var3 = var2 * var1;
+                var1 = _closure1_slot4;
+                var2 = [0];
+                var2[1] = var1;
+                var12 = _closure2_slot5;
+                var1 = new Array(2);
+                var1[0] = var12;
+                var12 = _closure2_slot6;
+                var1[1] = var12;
+                var2 = var9.bind(var10)(var3, var2, var1);
+                var1 = {};
+                var10 = {};
+                var3 = 11;
+                var9 = var8[var3];
+                var12 = var7.bind(var4)(var9);
+                var9 = var12.withSpring;
+                var5 = _closure1_slot11;
+                var9 = var9.bind(var12)(var13, var5);
+                var10['translateX'] = var9;
+                var9 = new Array(3);
+                var9[0] = var10;
+                var10 = {};
+                var12 = var8[var3];
+                var13 = var7.bind(var4)(var12);
+                var12 = var13.withSpring;
+                var12 = var12.bind(var13)(var14, var5);
+                var10['translateY'] = var12;
+                var9[1] = var10;
+                var10 = {};
+                var12 = var8[var3];
+                var13 = var7.bind(var4)(var12);
+                var12 = var13.withSpring;
+                var14 = _closure2_slot1;
+                var11 = var14.get;
+                var11 = var11.bind(var14)();
+                var11 = var11.scale;
+                var11 = var12.bind(var13)(var11, var5);
+                var10['scale'] = var11;
+                var9[2] = var10;
+                var1['transform'] = var9;
+                var9 = var8[var3];
+                var10 = var7.bind(var4)(var9);
+                var9 = var10.withSpring;
+                var9 = var9.bind(var10)(var6, var5);
+                var1['borderTopRightRadius'] = var9;
+                var3 = var8[var3];
+                var4 = var7.bind(var4)(var3);
+                var3 = var4.withSpring;
+                var3 = var3.bind(var4)(var6, var5);
+                var1['borderBottomRightRadius'] = var3;
+                var1['backgroundColor'] = var2;
+                return var1;
+            }
+        };
+        var15 = {};
+        var15['isMinimized'] = var20;
+        var15['gestureState'] = var19;
+        var19 = _closure1_slot8;
+        var15['LAUNCH_PAD_PULL_TAB_MINIMIZED_OFFSET'] = var19;
+        var19 = var9[var1];
+        var19 = var8.bind(var4)(var19);
+        var19 = var19.interpolate;
+        var15['interpolate'] = var19;
+        var15['launchPadSharedState'] = var13;
+        var15['windowDimensions'] = var18;
+        var15['launchPadPullTabState'] = var5;
+        var18 = _closure1_slot5;
+        var15['LAUNCH_PAD_PULL_TAB_BORDER_RADIUS'] = var18;
+        var18 = var9[var1];
+        var18 = var8.bind(var4)(var18);
+        var18 = var18.interpolateColor;
+        var15['interpolateColor'] = var18;
+        var18 = _closure1_slot4;
+        var15['LAUNCH_PAD_MARGIN'] = var18;
+        var15['backgroundColorStart'] = var17;
+        var15['backgroundColorEnd'] = var16;
+        var16 = 11;
+        var16 = var9[var16];
+        var16 = var8.bind(var4)(var16);
+        var16 = var16.withSpring;
+        var15['withSpring'] = var16;
+        var16 = _closure1_slot11;
+        var15['LAUNCH_PAD_SPRING_CONFIG'] = var16;
+        var3['__closure'] = var15;
+        var15 = 3768918311497.0;
+        var3['__workletHash'] = var15;
+        var15 = _closure1_slot17;
+        var3['__initData'] = var15;
+        var6 = var6.bind(var14)(var3);
+        var3 = {};
+        var3['launchPadSharedState'] = var13;
+        var3['launchPadPullTabState'] = var5;
+        var3['updaters'] = var2;
+        var2 = function useLaunchPadPullTabKeyboardListener(arg1) {
             var1 = arg1;
             var13 = var1.launchPadSharedState;
-            var _closure2_slot0 = var13;
-            var10 = var1.launchPadPullTabState;
-            var _closure2_slot1 = var10;
-            var20 = var1.gestureState;
-            var _closure2_slot2 = var20;
-            var3 = var1.updaters;
-            var _closure2_slot3 = var3;
-            var1 = _closure1_slot14;
-            var4 = undefined;
-            var12 = var1.bind(var4)();
-            var2 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var1 = 9;
-            var1 = var5[var1];
-            var1 = var2.bind(var4)(var1);
-            var19 = var1.bind(var4)();
-            var _closure2_slot4 = var19;
-            var17 = _closure1_slot0;
-            var1 = 10;
-            var1 = var5[var1];
-            var6 = var17.bind(var4)(var1);
-            var1 = var6.useIsModalOpen;
-            var7 = var1.bind(var6)();
-            var1 = var12.pullTabClosed;
-            var18 = var1.backgroundColor;
-            var _closure2_slot5 = var18;
-            var1 = var12.pullTabOpened;
-            var16 = var1.backgroundColor;
-            var _closure2_slot6 = var16;
-            var1 = 11;
-            var1 = var5[var1];
-            var6 = var2.bind(var4)(var1);
-            var1 = {};
-            var1['launchPadSharedState'] = var13;
-            var1['launchPadPullTabState'] = var10;
-            var21 = var6.bind(var4)(var1);
-            var _closure2_slot7 = var21;
-            var1 = 8;
-            var6 = var5[var1];
-            var14 = var17.bind(var4)(var6);
-            var9 = var14.useAnimatedStyle;
-            var6 = function U() {
+            var _closure3_slot0 = var13;
+            var8 = var1.launchPadPullTabState;
+            var _closure3_slot1 = var8;
+            var12 = var1.updaters;
+            var _closure3_slot2 = var12;
+            var4 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var1 = 7;
+            var3 = var10[var1];
+            var1 = undefined;
+            var3 = var4.bind(var1)(var3);
+            var14 = var3.bind(var1)();
+            var _closure3_slot3 = var14;
+            var9 = _closure1_slot0;
+            var3 = 8;
+            var4 = var10[var3];
+            var5 = var9.bind(var1)(var4);
+            var4 = var5.useSharedValue;
+            var11 = var4.bind(var5)(var1);
+            var _closure3_slot4 = var11;
+            var3 = var10[var3];
+            var5 = var9.bind(var1)(var3);
+            var4 = var5.useAnimatedReaction;
+            var3 = function _() {
+                var2 = _closure3_slot3;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var7 = {};
+            var7['keyboardHeight'] = var14;
+            var3['__closure'] = var7;
+            var7 = 14545769097570.0;
+            var3['__workletHash'] = var7;
+            var7 = _closure1_slot15;
+            var3['__initData'] = var7;
+            var2 = function s(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var2 = _closure2_slot7;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var2 = _closure2_slot2;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    var1 = var1.active;
-                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
-case 4:
-                    var3 = _closure1_slot8;
-                    _fun0002_ip = 5; continue _fun0002;
+                    var3 = arg1;
+                    var2 = arg2;
+                    var5 = _closure3_slot0;
+                    var4 = var5.get;
+                    var5 = var4.bind(var5)();
+                    var4 = 0;
+                    if(!(var4 !== var5)) { _fun0002_ip = 2; continue _fun0002 }
+case 16:
+                    var7 = _closure3_slot2;
+                    var6 = var7.setLaunchPadPullTabMinimized;
+                    var5 = false;
+                    var5 = var6.bind(var7)(var5);
+                    _fun0002_ip = 17; continue _fun0002;
 case 2:
-                    var4 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 8;
-                    var2 = var2[var1];
+                    var5 = null;
+                    if(!(var5 != var2)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+                    if(!(var3 !== var2)) { _fun0002_ip = 17; continue _fun0002 }
+case 19:
+                    if(!(!(var3 < var2))) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+                    var7 = _closure3_slot2;
+                    var6 = var7.setLaunchPadPullTabMinimized;
+                    var11 = true;
+                    var6 = var6.bind(var7)(var11);
+                    var7 = _closure3_slot4;
+                    var6 = var7.get;
+                    var6 = var6.bind(var7)();
+                    if(!(var5 != var6)) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+                    var8 = _closure3_slot4;
+                    var7 = var8.set;
+                    var6 = undefined;
+                    var6 = var7.bind(var8)(var6);
+case 22:
+                    var7 = _closure1_slot12;
+                    var8 = var3 + var7;
+                    var9 = _closure1_slot4;
+                    var7 = 2;
+                    var7 = var7 * var9;
+                    var7 = var8 + var7;
+                    var10 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var8 = 9;
+                    var9 = var9[var8];
+                    var8 = undefined;
+                    var10 = var10.bind(var8)(var9);
+                    var9 = var10.getWindowDimensionsWorklet;
+                    var8 = {};
+                    var8['ignoreKeyboard'] = var11;
+                    var8 = var9.bind(var10)(var8);
+                    var8 = var8.height;
+                    var10 = _closure3_slot1;
+                    var9 = var10.get;
+                    var9 = var9.bind(var10)();
+                    var10 = var9.position;
+                    var9 = _closure1_slot6;
+                    var9 = var10 + var9;
+                    var6 = _closure1_slot10;
+                    var6 = var9 + var6;
+                    var6 = var8 - var6;
+                    var10 = 0;
+                    if(!(!(var6 > var7))) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+                    var10 = var7 - var6;
+case 24:
+                    if(!(var10 > var4)) { _fun0002_ip = 17; continue _fun0002 }
+case 26:
+                    var9 = _closure3_slot2;
+                    var8 = var9.setLaunchPadPullTabPosition;
+                    var11 = _closure3_slot1;
+                    var6 = var11.get;
+                    var6 = var6.bind(var11)();
+                    var6 = var6.position;
+                    var7 = var6 - var10;
+                    var6 = var11.get;
+                    var6 = var6.bind(var11)();
+                    var6 = var6.offset;
+                    var6 = var6 + var10;
+                    var6 = var8.bind(var9)(var7, var6);
+                    _fun0002_ip = 17; continue _fun0002;
+case 20:
+                    if(!(var4 === var3)) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
+                    var7 = _closure3_slot2;
+                    var6 = var7.setLaunchPadPullTabMinimized;
+                    var4 = false;
+                    var4 = var6.bind(var7)(var4);
+case 27:
+                    var6 = _closure3_slot4;
+                    var4 = var6.get;
+                    var4 = var4.bind(var6)();
+                    if(!(var5 == var4)) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
+                    var6 = _closure3_slot4;
+                    var4 = var6.set;
+                    var4 = var4.bind(var6)(var2);
+case 29:
+                    var6 = _closure3_slot4;
+                    var4 = var6.get;
+                    var4 = var4.bind(var6)();
+                    if(!(var5 != var4)) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
+                    var2 = var4;
+case 31:
+                    var3 = var3 / var2;
+                    var2 = 1;
+                    var3 = var2 - var3;
+                    var6 = _closure3_slot1;
+                    var2 = var6.get;
+                    var2 = var2.bind(var6)();
+                    var2 = var2.offset;
+                    var5 = var2 * var3;
+                    var4 = _closure3_slot2;
+                    var3 = var4.setLaunchPadPullTabPosition;
+                    var1 = var6.get;
+                    var1 = var1.bind(var6)();
+                    var1 = var1.position;
+                    var2 = var1 + var5;
+                    var1 = var6.get;
+                    var1 = var1.bind(var6)();
+                    var1 = var1.offset;
+                    var1 = var1 - var5;
+                    var1 = var3.bind(var4)(var2, var1);
+case 17:
                     var1 = undefined;
-                    var6 = var4.bind(var1)(var2);
-                    var5 = var6.interpolate;
-                    var2 = _closure2_slot0;
-                    var1 = var2.get;
-                    var4 = var1.bind(var2)();
-                    var2 = _closure2_slot4;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    var2 = var1.width;
-                    var1 = 16;
-                    var1 = var2 - var1;
-                    var2 = [0];
-                    var1 = -var1;
-                    var2[1] = var1;
-                    var1 = [0, 1];
-                    var3 = var5.bind(var6)(var4, var1, var2);
-case 5:
-                    var2 = _closure2_slot0;
-                    var1 = var2.get;
-                    var2 = var1.bind(var2)();
-                    var1 = 0.9;
-                    if(!(!(var2 > var1))) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-                    var2 = _closure2_slot2;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    var1 = var1.active;
-                    var13 = var3;
-                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var2 = _closure2_slot2;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    var1 = var1.requiresPop;
-                    if(var1) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-                    var1 = 4;
-                    var1 = var3 - var1;
-                    _fun0002_ip = 12; continue _fun0002;
-case 10:
-                    var4 = _closure2_slot2;
-                    var2 = var4.get;
-                    var2 = var2.bind(var4)();
-                    var4 = var2.positionOffsetX;
-                    var2 = 0.3;
-                    var2 = var2 * var4;
-                    var1 = var3 + var2;
-case 12:
-                    var13 = var1;
-                    _fun0002_ip = 8; continue _fun0002;
-case 6:
-                    var2 = _closure2_slot4;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    var1 = var1.width;
-                    var13 = -var1;
-case 8:
-                    var2 = _closure2_slot1;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    var14 = var1.position;
-                    var2 = _closure2_slot0;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    var6 = 0;
-                    if(!(var1 <= var6)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-                    var2 = _closure2_slot2;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    var1 = var1.active;
-                    var6 = 0;
-                    if(!var1) { _fun0002_ip = 15; continue _fun0002 }
-case 13:
-                    var6 = _closure1_slot5;
-case 15:
-                    var7 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var1 = 8;
-                    var1 = var8[var1];
-                    var4 = undefined;
-                    var10 = var7.bind(var4)(var1);
-                    var9 = var10.interpolateColor;
-                    var2 = _closure2_slot0;
-                    var1 = var2.get;
-                    var2 = var1.bind(var2)();
-                    var3 = _closure2_slot4;
-                    var1 = var3.get;
-                    var1 = var1.bind(var3)();
-                    var1 = var1.width;
-                    var3 = var2 * var1;
-                    var1 = _closure1_slot4;
-                    var2 = [0];
-                    var2[1] = var1;
-                    var12 = _closure2_slot5;
-                    var1 = new Array(2);
-                    var1[0] = var12;
-                    var12 = _closure2_slot6;
-                    var1[1] = var12;
-                    var2 = var9.bind(var10)(var3, var2, var1);
-                    var1 = {};
-                    var10 = {};
-                    var3 = 12;
-                    var9 = var8[var3];
-                    var12 = var7.bind(var4)(var9);
-                    var9 = var12.withSpring;
-                    var5 = _closure1_slot11;
-                    var9 = var9.bind(var12)(var13, var5);
-                    var10['translateX'] = var9;
-                    var9 = new Array(3);
-                    var9[0] = var10;
-                    var10 = {};
-                    var12 = var8[var3];
-                    var13 = var7.bind(var4)(var12);
-                    var12 = var13.withSpring;
-                    var12 = var12.bind(var13)(var14, var5);
-                    var10['translateY'] = var12;
-                    var9[1] = var10;
-                    var10 = {};
-                    var12 = var8[var3];
-                    var13 = var7.bind(var4)(var12);
-                    var12 = var13.withSpring;
-                    var14 = _closure2_slot1;
-                    var11 = var14.get;
-                    var11 = var11.bind(var14)();
-                    var11 = var11.scale;
-                    var11 = var12.bind(var13)(var11, var5);
-                    var10['scale'] = var11;
-                    var9[2] = var10;
-                    var1['transform'] = var9;
-                    var9 = var8[var3];
-                    var10 = var7.bind(var4)(var9);
-                    var9 = var10.withSpring;
-                    var9 = var9.bind(var10)(var6, var5);
-                    var1['borderTopRightRadius'] = var9;
-                    var3 = var8[var3];
-                    var4 = var7.bind(var4)(var3);
-                    var3 = var4.withSpring;
-                    var3 = var3.bind(var4)(var6, var5);
-                    var1['borderBottomRightRadius'] = var3;
-                    var1['backgroundColor'] = var2;
                     return var1;
                 }
             };
-            var15 = {};
-            var15['isMinimized'] = var21;
-            var15['gestureState'] = var20;
-            var20 = _closure1_slot8;
-            var15['LAUNCH_PAD_PULL_TAB_MINIMIZED_OFFSET'] = var20;
-            var20 = var5[var1];
-            var20 = var17.bind(var4)(var20);
-            var20 = var20.interpolate;
-            var15['interpolate'] = var20;
-            var15['launchPadSharedState'] = var13;
-            var15['windowDimensions'] = var19;
-            var15['launchPadPullTabState'] = var10;
-            var19 = _closure1_slot5;
-            var15['LAUNCH_PAD_PULL_TAB_BORDER_RADIUS'] = var19;
-            var19 = var5[var1];
-            var19 = var17.bind(var4)(var19);
-            var19 = var19.interpolateColor;
-            var15['interpolateColor'] = var19;
-            var19 = _closure1_slot4;
-            var15['LAUNCH_PAD_MARGIN'] = var19;
-            var15['backgroundColorStart'] = var18;
-            var15['backgroundColorEnd'] = var16;
-            var16 = 12;
-            var16 = var5[var16];
-            var16 = var17.bind(var4)(var16);
-            var16 = var16.withSpring;
-            var15['withSpring'] = var16;
-            var16 = _closure1_slot11;
-            var15['LAUNCH_PAD_SPRING_CONFIG'] = var16;
-            var6['__closure'] = var15;
-            var15 = 3768918311497.0;
-            var6['__workletHash'] = var15;
-            var15 = _closure1_slot17;
-            var6['__initData'] = var15;
-            var6 = var9.bind(var14)(var6);
-            var9 = {};
-            var9['launchPadSharedState'] = var13;
-            var9['launchPadPullTabState'] = var10;
-            var9['updaters'] = var3;
-            var3 = function useLaunchPadPullTabKeyboardListener(arg1) {
-                var1 = arg1;
-                var13 = var1.launchPadSharedState;
-                var _closure3_slot0 = var13;
-                var8 = var1.launchPadPullTabState;
-                var _closure3_slot1 = var8;
-                var12 = var1.updaters;
-                var _closure3_slot2 = var12;
-                var4 = _closure1_slot1;
-                var10 = _closure1_slot2;
-                var1 = 7;
-                var3 = var10[var1];
-                var1 = undefined;
-                var3 = var4.bind(var1)(var3);
-                var14 = var3.bind(var1)();
-                var _closure3_slot3 = var14;
-                var9 = _closure1_slot0;
-                var3 = 8;
-                var4 = var10[var3];
-                var5 = var9.bind(var1)(var4);
-                var4 = var5.useSharedValue;
-                var11 = var4.bind(var5)(var1);
-                var _closure3_slot4 = var11;
-                var3 = var10[var3];
-                var5 = var9.bind(var1)(var3);
-                var4 = var5.useAnimatedReaction;
-                var3 = function _() {
-                    var2 = _closure3_slot3;
-                    var1 = var2.get;
-                    var1 = var1.bind(var2)();
-                    return var1;
-                };
-                var7 = {};
-                var7['keyboardHeight'] = var14;
-                var3['__closure'] = var7;
-                var7 = 14545769097570.0;
-                var3['__workletHash'] = var7;
-                var7 = _closure1_slot15;
-                var3['__initData'] = var7;
-                var2 = function s(arg1, arg2) {
-                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                        var3 = arg1;
-                        var2 = arg2;
-                        var5 = _closure3_slot0;
-                        var4 = var5.get;
-                        var5 = var4.bind(var5)();
-                        var4 = 0;
-                        if(!(var4 !== var5)) { _fun0003_ip = 2; continue _fun0003 }
-case 16:
-                        var7 = _closure3_slot2;
-                        var6 = var7.setLaunchPadPullTabMinimized;
-                        var5 = false;
-                        var5 = var6.bind(var7)(var5);
-                        _fun0003_ip = 17; continue _fun0003;
-case 2:
-                        var5 = null;
-                        if(!(var5 != var2)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
-                        if(!(var3 !== var2)) { _fun0003_ip = 17; continue _fun0003 }
-case 19:
-                        if(!(!(var3 < var2))) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-                        var7 = _closure3_slot2;
-                        var6 = var7.setLaunchPadPullTabMinimized;
-                        var11 = true;
-                        var6 = var6.bind(var7)(var11);
-                        var7 = _closure3_slot4;
-                        var6 = var7.get;
-                        var6 = var6.bind(var7)();
-                        if(!(var5 != var6)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                        var8 = _closure3_slot4;
-                        var7 = var8.set;
-                        var6 = undefined;
-                        var6 = var7.bind(var8)(var6);
-case 22:
-                        var7 = _closure1_slot12;
-                        var8 = var3 + var7;
-                        var9 = _closure1_slot4;
-                        var7 = 2;
-                        var7 = var7 * var9;
-                        var7 = var8 + var7;
-                        var10 = _closure1_slot0;
-                        var9 = _closure1_slot2;
-                        var8 = 9;
-                        var9 = var9[var8];
-                        var8 = undefined;
-                        var10 = var10.bind(var8)(var9);
-                        var9 = var10.getWindowDimensionsWorklet;
-                        var8 = {};
-                        var8['ignoreKeyboard'] = var11;
-                        var8 = var9.bind(var10)(var8);
-                        var8 = var8.height;
-                        var10 = _closure3_slot1;
-                        var9 = var10.get;
-                        var9 = var9.bind(var10)();
-                        var10 = var9.position;
-                        var9 = _closure1_slot6;
-                        var9 = var10 + var9;
-                        var6 = _closure1_slot10;
-                        var6 = var9 + var6;
-                        var6 = var8 - var6;
-                        var10 = 0;
-                        if(!(!(var6 > var7))) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-                        var10 = var7 - var6;
-case 24:
-                        if(!(var10 > var4)) { _fun0003_ip = 17; continue _fun0003 }
-case 26:
-                        var9 = _closure3_slot2;
-                        var8 = var9.setLaunchPadPullTabPosition;
-                        var11 = _closure3_slot1;
-                        var6 = var11.get;
-                        var6 = var6.bind(var11)();
-                        var6 = var6.position;
-                        var7 = var6 - var10;
-                        var6 = var11.get;
-                        var6 = var6.bind(var11)();
-                        var6 = var6.offset;
-                        var6 = var6 + var10;
-                        var6 = var8.bind(var9)(var7, var6);
-                        _fun0003_ip = 17; continue _fun0003;
-case 20:
-                        if(!(var4 === var3)) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-                        var7 = _closure3_slot2;
-                        var6 = var7.setLaunchPadPullTabMinimized;
-                        var4 = false;
-                        var4 = var6.bind(var7)(var4);
-case 27:
-                        var6 = _closure3_slot4;
-                        var4 = var6.get;
-                        var4 = var4.bind(var6)();
-                        if(!(var5 == var4)) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
-                        var6 = _closure3_slot4;
-                        var4 = var6.set;
-                        var4 = var4.bind(var6)(var2);
-case 29:
-                        var6 = _closure3_slot4;
-                        var4 = var6.get;
-                        var4 = var4.bind(var6)();
-                        if(!(var5 != var4)) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
-                        var2 = var4;
-case 31:
-                        var3 = var3 / var2;
-                        var2 = 1;
-                        var3 = var2 - var3;
-                        var6 = _closure3_slot1;
-                        var2 = var6.get;
-                        var2 = var2.bind(var6)();
-                        var2 = var2.offset;
-                        var5 = var2 * var3;
-                        var4 = _closure3_slot2;
-                        var3 = var4.setLaunchPadPullTabPosition;
-                        var1 = var6.get;
-                        var1 = var1.bind(var6)();
-                        var1 = var1.position;
-                        var2 = var1 + var5;
-                        var1 = var6.get;
-                        var1 = var1.bind(var6)();
-                        var1 = var1.offset;
-                        var1 = var1 - var5;
-                        var1 = var3.bind(var4)(var2, var1);
-case 17:
-                        var1 = undefined;
-                        return var1;
-                    }
-                };
-                var7 = {};
-                var7['launchPadSharedState'] = var13;
-                var7['updaters'] = var12;
-                var7['keyboardHeightOpened'] = var11;
-                var7['launchPadPullTabState'] = var8;
-                var8 = _closure1_slot12;
-                var7['CHAT_INPUT_HEIGHT'] = var8;
-                var8 = _closure1_slot4;
-                var7['LAUNCH_PAD_MARGIN'] = var8;
-                var8 = 9;
-                var8 = var10[var8];
-                var8 = var9.bind(var1)(var8);
-                var8 = var8.getWindowDimensionsWorklet;
-                var7['getWindowDimensionsWorklet'] = var8;
-                var8 = _closure1_slot6;
-                var7['LAUNCH_PAD_PULL_TAB_HEIGHT'] = var8;
-                var8 = _closure1_slot10;
-                var7['LAUNCH_PAD_PULL_TAB_SCALE_OFFSET'] = var8;
-                var2['__closure'] = var7;
-                var7 = 8060927175361.0;
-                var2['__workletHash'] = var7;
-                var6 = _closure1_slot16;
-                var2['__initData'] = var6;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            };
-            var3 = var3.bind(var4)(var9);
-            var3 = _closure1_slot13;
-            var1 = var5[var1];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.View;
-            var1 = {};
-            var9 = var12.pullTab;
-            var5 = new Array(3);
-            var5[0] = var9;
-            var5[1] = var6;
-            var6 = undefined;
-            if(!var7) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
-            var6 = var12.hidden;
-case 33:
-            var5[2] = var6;
-            var1['style'] = var5;
-            var7 = _closure1_slot13;
-            var6 = _closure1_slot3;
-            var5 = {};
-            var9 = 'button';
-            var5['accessibilityRole'] = var9;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var13 = 13;
-            var14 = var10[var13];
-            var14 = var9.bind(var4)(var14);
-            var15 = var14.intl;
-            var14 = var15.string;
-            var13 = var10[var13];
-            var13 = var9.bind(var4)(var13);
-            var13 = var13.t;
-            var13 = var13.yTnIfb;
-            var13 = var14.bind(var15)(var13);
-            var5['accessibilityLabel'] = var13;
-            var13 = _closure1_slot7;
-            var5['hitSlop'] = var13;
-            var12 = var12.pullTabButton;
-            var5['style'] = var12;
-            var11 = function onTouchStart() {
-                var3 = _closure2_slot3;
-                var2 = var3.setLaunchPadPullTabScale;
-                var1 = _closure1_slot9;
-                var1 = var2.bind(var3)(var1);
-                var1 = undefined;
-                return var1;
-            };
-            var5['onTouchStart'] = var11;
-            var11 = _closure1_slot1;
-            var8 = 14;
+            var7 = {};
+            var7['launchPadSharedState'] = var13;
+            var7['updaters'] = var12;
+            var7['keyboardHeightOpened'] = var11;
+            var7['launchPadPullTabState'] = var8;
+            var8 = _closure1_slot12;
+            var7['CHAT_INPUT_HEIGHT'] = var8;
+            var8 = _closure1_slot4;
+            var7['LAUNCH_PAD_MARGIN'] = var8;
+            var8 = 9;
             var8 = var10[var8];
-            var8 = var11.bind(var4)(var8);
-            var5['onPress'] = var8;
-            var8 = 15;
-            var8 = var10[var8];
-            var8 = var9.bind(var4)(var8);
-            var9 = var8.ChannelListMagnifyingGlassIcon;
-            var8 = {};
-            var10 = 'xs';
-            var8['size'] = var10;
-            var8 = var7.bind(var4)(var9, var8);
-            var5['children'] = var8;
-            var5 = var7.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var8 = var9.bind(var1)(var8);
+            var8 = var8.getWindowDimensionsWorklet;
+            var7['getWindowDimensionsWorklet'] = var8;
+            var8 = _closure1_slot6;
+            var7['LAUNCH_PAD_PULL_TAB_HEIGHT'] = var8;
+            var8 = _closure1_slot10;
+            var7['LAUNCH_PAD_PULL_TAB_SCALE_OFFSET'] = var8;
+            var2['__closure'] = var7;
+            var7 = 8060927175361.0;
+            var2['__workletHash'] = var7;
+            var6 = _closure1_slot16;
+            var2['__initData'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
             return var1;
-        }
+        };
+        var2 = var2.bind(var4)(var3);
+        var3 = _closure1_slot13;
+        var1 = var9[var1];
+        var1 = var10.bind(var4)(var1);
+        var2 = var1.View;
+        var1 = {};
+        var13 = var11.pullTab;
+        var5 = new Array(2);
+        var5[0] = var13;
+        var5[1] = var6;
+        var1['style'] = var5;
+        var6 = _closure1_slot3;
+        var5 = {};
+        var13 = 'button';
+        var5['accessibilityRole'] = var13;
+        var13 = 12;
+        var14 = var9[var13];
+        var14 = var8.bind(var4)(var14);
+        var15 = var14.intl;
+        var14 = var15.string;
+        var13 = var9[var13];
+        var13 = var8.bind(var4)(var13);
+        var13 = var13.t;
+        var13 = var13.yTnIfb;
+        var13 = var14.bind(var15)(var13);
+        var5['accessibilityLabel'] = var13;
+        var12 = _closure1_slot7;
+        var5['hitSlop'] = var12;
+        var11 = var11.pullTabButton;
+        var5['style'] = var11;
+        var7 = function onTouchStart() {
+            var3 = _closure2_slot3;
+            var2 = var3.setLaunchPadPullTabScale;
+            var1 = _closure1_slot9;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['onTouchStart'] = var7;
+        var7 = 13;
+        var7 = var9[var7];
+        var7 = var10.bind(var4)(var7);
+        var5['onPress'] = var7;
+        var7 = 14;
+        var7 = var9[var7];
+        var7 = var8.bind(var4)(var7);
+        var8 = var7.ChannelListMagnifyingGlassIcon;
+        var7 = {};
+        var9 = 'xs';
+        var7['size'] = var9;
+        var7 = var3.bind(var4)(var8, var7);
+        var5['children'] = var7;
+        var5 = var3.bind(var4)(var6, var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 16;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

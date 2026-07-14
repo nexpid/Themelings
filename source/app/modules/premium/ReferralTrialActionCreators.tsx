@@ -553,12 +553,12 @@ case 58:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 21; continue _fun0007 }
+                    if(var2) { _fun0007_ip = 69; continue _fun0007 }
 case 46:
                     var6 = arg1;
                     var2 = undefined;
                     var7 = undefined;
-case 69: // try_start_0
+case 70: // try_start_0
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 6;
@@ -578,7 +578,7 @@ case 59:
                     return var3;
 case 60:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0007_ip = 61; continue _fun0007 }
+                    if(var5) { _fun0007_ip = 71; continue _fun0007 }
 case 62:
                     var8 = var3.body;
                     var7 = var8;
@@ -601,11 +601,11 @@ case 63:
                     var4 = var7.bind(var8)(var4);
                     var4 = {};
                     var4['userTrialOffer'] = var5;
-case 65: // try_end0
+case 72: // try_end0
                     return var4;
-case 61:
+case 71:
                     return var3;
-case 16: // catch_target0
+case 43: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -619,7 +619,7 @@ case 16: // catch_target0
                     var3['userTrialOfferId'] = var6;
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 21:
+case 69:
                     return var1;
                 }
             };
@@ -852,24 +852,24 @@ case 0:
                 var1 = var6.body;
                 var5 = null;
                 if(!(var5 != var1)) { _fun0009_ip = 64; continue _fun0009 }
-case 70:
+case 73:
                 var1 = var6.body;
                 var1 = var1.recipient_status;
                 if(!(var5 != var1)) { _fun0009_ip = 64; continue _fun0009 }
-case 71:
+case 74:
                 var1 = var6.body;
                 var4 = var1.recipient_status;
                 for(var1 in var4)
-case 72:
+case 75:
                 {
-case 73:
+case 76:
                     var11 = var1;
                     var9 = var6.body;
                     var9 = var9.recipient_status;
                     var10 = var9[var11];
                     var9 = var7.set;
                     var9 = var9.bind(var7)(var11, var10);
-                    _fun0009_ip = 72; continue _fun0009;
+                    _fun0009_ip = 75; continue _fun0009;
                 }
 case 64:
                 var3 = _closure1_slot1;
@@ -885,28 +885,28 @@ case 64:
                 var8 = var6.body;
                 var9 = var5 != var8;
                 var8 = 0;
-                if(!var9) { _fun0009_ip = 74; continue _fun0009 }
-case 75:
+                if(!var9) { _fun0009_ip = 77; continue _fun0009 }
+case 78:
                 var9 = var6.body;
                 var9 = var9.referrals_remaining;
                 var9 = var5 != var9;
                 var8 = 0;
-                if(!var9) { _fun0009_ip = 74; continue _fun0009 }
-case 76:
+                if(!var9) { _fun0009_ip = 77; continue _fun0009 }
+case 79:
                 var9 = var6.body;
                 var8 = var9.referrals_remaining;
-case 74:
+case 77:
                 var2['referrals_remaining'] = var8;
                 var8 = var6.body;
-                if(!(var5 != var8)) { _fun0009_ip = 77; continue _fun0009 }
-case 78:
+                if(!(var5 != var8)) { _fun0009_ip = 69; continue _fun0009 }
+case 80:
                 var8 = var6.body;
                 var8 = var8.sent_user_ids;
-                if(!(var5 == var8)) { _fun0009_ip = 79; continue _fun0009 }
-case 77:
+                if(!(var5 == var8)) { _fun0009_ip = 81; continue _fun0009 }
+case 69:
                 var8 = new Array(0);
                 _fun0009_ip = 18; continue _fun0009;
-case 79:
+case 81:
                 var9 = var6.body;
                 var8 = var9.sent_user_ids;
 case 18:
@@ -914,25 +914,25 @@ case 18:
                 var8 = var6.body;
                 var10 = var5 == var8;
                 var9 = undefined;
-                if(var10) { _fun0009_ip = 80; continue _fun0009 }
-case 81:
+                if(var10) { _fun0009_ip = 82; continue _fun0009 }
+case 83:
                 var9 = var8.refresh_at;
-case 80:
+case 82:
                 var10 = var5 != var9;
                 var8 = null;
-                if(!var10) { _fun0009_ip = 82; continue _fun0009 }
+                if(!var10) { _fun0009_ip = 84; continue _fun0009 }
 case 10:
                 var8 = var9;
-case 82:
+case 84:
                 var2['refresh_at'] = var8;
                 var2['recipient_status'] = var7;
                 var7 = var6.body;
                 var9 = var5 == var7;
                 var8 = undefined;
-                if(var9) { _fun0009_ip = 83; continue _fun0009 }
-case 84:
+                if(var9) { _fun0009_ip = 85; continue _fun0009 }
+case 86:
                 var8 = var7.has_eligible_friends;
-case 83:
+case 85:
                 var7 = var5 != var8;
                 if(!var7) { _fun0009_ip = 27; continue _fun0009 }
 case 8:
@@ -942,16 +942,16 @@ case 27:
                 var7 = var6.body;
                 var8 = var5 == var7;
                 var6 = undefined;
-                if(var8) { _fun0009_ip = 85; continue _fun0009 }
-case 86:
+                if(var8) { _fun0009_ip = 87; continue _fun0009 }
+case 88:
                 var6 = var7.reminder_state_id;
-case 85:
+case 87:
                 var7 = var5 != var6;
                 var5 = null;
-                if(!var7) { _fun0009_ip = 87; continue _fun0009 }
-case 88:
+                if(!var7) { _fun0009_ip = 89; continue _fun0009 }
+case 90:
                 var5 = var6;
-case 87:
+case 89:
                 var2['reminder_state_id'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -965,13 +965,13 @@ case 0:
                 var4 = var1 == var2;
                 var1 = undefined;
                 var3 = undefined;
-                if(var4) { _fun0010_ip = 89; continue _fun0010 }
-case 90:
+                if(var4) { _fun0010_ip = 91; continue _fun0010 }
+case 92:
                 var3 = var2.status;
-case 89:
-                var2 = 404;
-                if(!(var2 !== var3)) { _fun0010_ip = 72; continue _fun0010 }
 case 91:
+                var2 = 404;
+                if(!(var2 !== var3)) { _fun0010_ip = 75; continue _fun0010 }
+case 93:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var2 = 7;
@@ -982,7 +982,7 @@ case 91:
                 var5 = 'BILLING_REFERRALS_REMAINING_FETCH_FAIL';
                 var2['type'] = var5;
                 var2 = var3.bind(var4)(var2);
-case 72:
+case 75:
                 return var1;
             }
         };

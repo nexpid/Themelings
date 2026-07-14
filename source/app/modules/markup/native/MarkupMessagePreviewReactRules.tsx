@@ -781,14 +781,14 @@ case 0:
                     var3 = var4.isArray;
                     var3 = var3.bind(var4)(var1);
                     var6 = var1;
-                    if(!var3) { _fun0008_ip = 6; continue _fun0008 }
-case 23:
+                    if(!var3) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
                     var6 = var1[var2];
-case 6:
+case 23:
                     var1 = null;
                     var2 = var1 == var6;
-                    if(var2) { _fun0008_ip = 24; continue _fun0008 }
-case 25:
+                    if(var2) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 4;
@@ -799,7 +799,7 @@ case 25:
                     var3 = arg2;
                     var2 = arg3;
                     var1 = var4.bind(var5)(var6, var3, var2);
-case 24:
+case 25:
                     return var1;
                 }
             };
@@ -883,13 +883,13 @@ case 0:
             var6 = var2.bind(var4)(var1);
             var4 = null;
             var5 = var9;
-            if(!(var4 != var8)) { _fun0009_ip = 26; continue _fun0009 }
-case 27:
+            if(!(var4 != var8)) { _fun0009_ip = 27; continue _fun0009 }
+case 28:
             var1 = global;
             var2 = var1.Math;
             var1 = var2.min;
             var5 = var1.bind(var2)(var9, var8);
-case 26:
+case 27:
             var2 = _closure1_slot8;
             var1 = {};
             var8 = arg2;
@@ -911,10 +911,10 @@ case 26:
             var6 = var7[var6];
             var7 = var4 != var6;
             var4 = 0;
-            if(!var7) { _fun0009_ip = 28; continue _fun0009 }
-case 29:
+            if(!var7) { _fun0009_ip = 29; continue _fun0009 }
+case 30:
             var4 = var6;
-case 28:
+case 29:
             var4 = var4 * var5;
             var1['customEmojiSize'] = var4;
             var1 = var2.bind(var3)(var1);

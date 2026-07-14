@@ -344,18 +344,18 @@ case 24:
 case 23:
             var5['onPressIn'] = var16;
             var16 = undefined;
-            if(!var21) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
-            var16 = var17;
+            if(!var21) { _fun0002_ip = 11; continue _fun0002 }
 case 25:
+            var16 = var17;
+case 11:
             var5['onPressOut'] = var16;
             var16 = true;
             var5['accessible'] = var16;
             var16 = 'header';
-            if(!var21) { _fun0002_ip = 27; continue _fun0002 }
-case 12:
-            var16 = 'button';
+            if(!var21) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
+            var16 = 'button';
+case 26:
             var5['accessibilityRole'] = var16;
             var16 = undefined;
             if(!var21) { _fun0002_ip = 28; continue _fun0002 }

@@ -545,10 +545,10 @@ case 69:
                 var6 = var4.type;
                 var5 = 'bundle';
                 var3 = undefined;
-                if(!(var5 === var6)) { _fun0008_ip = 71; continue _fun0008 }
-case 72:
-                var3 = var4.items;
+                if(!(var5 === var6)) { _fun0008_ip = 47; continue _fun0008 }
 case 71:
+                var3 = var4.items;
+case 47:
                 var2['bundleItems'] = var3;
                 return var2;
 case 67:

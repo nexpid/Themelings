@@ -143,14 +143,14 @@ case 11:
             }
         };
         var _closure2_slot0 = var5;
-        var6 = _closure1_slot6;
+        var3 = _closure1_slot6;
         var4 = undefined;
-        var3 = arg1;
-        var3 = var6.bind(var4)(var5, var3);
+        var2 = arg1;
+        var2 = var3.bind(var4)(var5, var2);
         var3 = _closure1_slot3;
-        var6 = {};
+        var1 = {};
         var2 = 'getInvoicePreviewLineItemForSku';
-        var6['key'] = var2;
+        var1['key'] = var2;
         var2 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -176,13 +176,13 @@ case 13:
                 return var1;
             }
         };
-        var6['value'] = var2;
+        var1['value'] = var2;
         var2 = new Array(2);
-        var2[0] = var6;
-        var6 = {};
-        var7 = 'getInvoicePreviewLineItemUnitPriceForSku';
-        var6['key'] = var7;
-        var7 = function value(arg1) {
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'getInvoicePreviewLineItemUnitPriceForSku';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var3 = this;
@@ -205,12 +205,53 @@ case 15:
                 return var1;
             }
         };
-        var6['value'] = var7;
-        var2[1] = var6;
+        var1['value'] = var6;
+        var2[1] = var1;
         var6 = {};
-        var7 = 'createInvoiceFromOrder';
-        var6['key'] = var7;
+        var1 = 'createFromServer';
+        var6['key'] = var1;
         var1 = function value(arg1) {
+            var2 = arg1;
+            var3 = _closure2_slot0;
+            var1 = {};
+            var4 = var2.total;
+            var1['total'] = var4;
+            var4 = var2.subtotal;
+            var1['subtotal'] = var4;
+            var4 = var2.tax;
+            var1['tax'] = var4;
+            var4 = var2.currency;
+            var1['currency'] = var4;
+            var5 = var2.invoice_items;
+            var4 = var5.map;
+            var2 = function(arg1) {
+                var2 = arg1;
+                var1 = {};
+                var3 = var2.sku_id;
+                var1['skuId'] = var3;
+                var3 = var2.quantity;
+                var1['quantity'] = var3;
+                var2 = var2.description;
+                var1['description'] = var2;
+                return var1;
+            };
+            var2 = var4.bind(var5)(var2);
+            var1['invoiceItems'] = var2;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var7 = var2;
+            var6 = var1;
+            var1 = new var7[var3](var6, var5);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
+        };
+        var6['value'] = var1;
+        var1 = new Array(2);
+        var1[0] = var6;
+        var6 = {};
+        var8 = 'createInvoiceFromOrder';
+        var6['key'] = var8;
+        var7 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var1 = arg1;
@@ -225,7 +266,7 @@ case 19:
 case 18:
                 var _closure3_slot1 = var5;
                 if(!(var1 != var5)) { _fun0006_ip = 20; continue _fun0006 }
-case 17:
+case 21:
                 var6 = var5.line_items;
                 var4 = var6.map;
                 var3 = function(arg1) {
@@ -247,8 +288,8 @@ case 0:
                         var4 = var2.bind(var4)(var1);
                         var1 = null;
                         var2 = var1 == var4;
-                        if(var2) { _fun0007_ip = 21; continue _fun0007 }
-case 22:
+                        if(var2) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
                         var2 = {};
                         var4 = var4.sku_id;
                         var2['skuId'] = var4;
@@ -262,7 +303,7 @@ case 22:
                         var3 = var3.quantity;
                         var2['quantity'] = var3;
                         var1 = var2;
-case 21:
+case 22:
                         return var1;
                     }
                 };
@@ -297,9 +338,8 @@ case 20:
                 return var1;
             }
         };
-        var6['value'] = var1;
-        var1 = new Array(1);
-        var1[0] = var6;
+        var6['value'] = var7;
+        var1[1] = var6;
         var1 = var3.bind(var4)(var5, var2, var1);
         return var1;
     };
@@ -398,20 +438,20 @@ case 0:
                 };
                 var1 = var2.bind(var3)(var1);
                 var2 = null;
-                if(!(var2 != var1)) { _fun0010_ip = 23; continue _fun0010 }
-case 24:
+                if(!(var2 != var1)) { _fun0010_ip = 24; continue _fun0010 }
+case 25:
                 var3 = var1.discounts;
                 var4 = var3.length;
                 var3 = 0;
-                if(!(var3 !== var4)) { _fun0010_ip = 23; continue _fun0010 }
-case 25:
+                if(!(var3 !== var4)) { _fun0010_ip = 24; continue _fun0010 }
+case 26:
                 var1 = var1.discounts;
                 var1 = var1[var3];
-                if(!(var2 == var1)) { _fun0010_ip = 26; continue _fun0010 }
-case 23:
+                if(!(var2 == var1)) { _fun0010_ip = 27; continue _fun0010 }
+case 24:
                 var2 = undefined;
                 return var2;
-case 26:
+case 27:
                 var1 = var1.discount_id;
                 return var1;
             }
@@ -434,8 +474,8 @@ case 0:
                 var5 = var4 == var7;
                 var9 = undefined;
                 var4 = undefined;
-                if(var5) { _fun0011_ip = 27; continue _fun0011 }
-case 28:
+                if(var5) { _fun0011_ip = 28; continue _fun0011 }
+case 29:
                 var6 = var7.map;
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot1;
@@ -444,7 +484,7 @@ case 28:
                 var5 = var8.bind(var9)(var5);
                 var5 = var5.createInvoiceItemFromServer;
                 var4 = var6.bind(var7)(var5);
-case 27:
+case 28:
                 var1['invoiceItems'] = var4;
                 var4 = var2.total;
                 var1['total'] = var4;
@@ -507,8 +547,8 @@ case 0:
                 var5 = var4 == var7;
                 var9 = undefined;
                 var4 = undefined;
-                if(var5) { _fun0012_ip = 29; continue _fun0012 }
-case 30:
+                if(var5) { _fun0012_ip = 30; continue _fun0012 }
+case 31:
                 var6 = var7.map;
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot1;
@@ -517,7 +557,7 @@ case 30:
                 var5 = var8.bind(var9)(var5);
                 var5 = var5.createInvoiceItemFromServer;
                 var4 = var6.bind(var7)(var5);
-case 29:
+case 30:
                 var1['invoiceItems'] = var4;
                 var4 = var2.amount;
                 var1['total'] = var4;

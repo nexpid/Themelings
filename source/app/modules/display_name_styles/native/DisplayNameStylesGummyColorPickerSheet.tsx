@@ -181,12 +181,12 @@ case 0:
             var3 = var3.GUMMY;
             var7 = var5.bind(var6)(var3);
             var2 = var2.length;
-            var8 = 0;
-            var2 = var2 > var8;
+            var6 = 0;
+            var2 = var2 > var6;
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = _closure1_slot7;
-            var5 = var6.some;
+            var8 = _closure1_slot7;
+            var5 = var8.some;
             var3 = function(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -200,7 +200,7 @@ case 3:
                 var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var3 = var5.bind(var6)(var3);
+            var3 = var5.bind(var8)(var3);
             var2 = !var3;
 case 2:
             _closure2_slot3 = var2;
@@ -215,21 +215,27 @@ case 5:
                     var1 = _closure1_slot11;
                     _fun0002_ip = 6; continue _fun0002;
 case 4:
-                    var3 = _closure2_slot0;
-                    var2 = 0;
-                    var1 = var3[var2];
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 6;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var4 = var5.bind(var3)(var4);
+                    var3 = var4.rebuildGummySourceColor;
+                    var2 = _closure2_slot0;
+                    var1 = var3.bind(var4)(var2);
 case 6:
                     return var1;
                 }
             };
             var2 = var3.bind(var5)(var2);
             var10 = _closure1_slot3;
-            var6 = 2;
-            var3 = var10.bind(var4)(var2, var6);
-            var2 = var3[var8];
+            var9 = 2;
+            var3 = var10.bind(var4)(var2, var9);
+            var2 = var3[var6];
             _closure2_slot4 = var2;
-            var9 = 1;
-            var3 = var3[var9];
+            var8 = 1;
+            var3 = var3[var8];
             _closure2_slot5 = var3;
             var11 = var5.useState;
             var3 = function() {
@@ -257,29 +263,13 @@ case 9:
                 }
             };
             var3 = var11.bind(var5)(var3);
-            var3 = var10.bind(var4)(var3, var6);
-            var6 = var3[var8];
-            _closure2_slot6 = var6;
-            var3 = var3[var9];
+            var3 = var10.bind(var4)(var3, var9);
+            var20 = var3[var6];
+            _closure2_slot6 = var20;
+            var3 = var3[var8];
             _closure2_slot7 = var3;
-            var10 = var5.useMemo;
-            var9 = new Array(1);
-            var9[0] = var2;
-            var3 = function() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 6;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.buildGummyColors;
-                var1 = _closure2_slot4;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var20 = var10.bind(var5)(var3, var9);
-            var10 = _closure1_slot7;
-            var9 = var10.findIndex;
+            var9 = _closure1_slot7;
+            var8 = var9.findIndex;
             var3 = function(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -293,10 +283,10 @@ case 9:
                 var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var3 = var9.bind(var10)(var3);
+            var3 = var8.bind(var9)(var3);
             _closure2_slot8 = var3;
-            var11 = var3 >= var8;
-            var8 = var5.useCallback;
+            var11 = var3 >= var6;
+            var6 = var5.useCallback;
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
@@ -339,8 +329,8 @@ case 9:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var16 = var8.bind(var5)(var2, var3);
-            var8 = var5.useCallback;
+            var16 = var6.bind(var5)(var2, var3);
+            var6 = var5.useCallback;
             var3 = function(arg1) {
                 var3 = _closure2_slot7;
                 var2 = new Array(0);
@@ -353,9 +343,9 @@ case 9:
                 return var1;
             };
             var2 = new Array(0);
-            var2 = var8.bind(var5)(var3, var2);
+            var2 = var6.bind(var5)(var3, var2);
             _closure2_slot9 = var2;
-            var8 = var5.useCallback;
+            var6 = var5.useCallback;
             var3 = function() {
                 var5 = _closure2_slot7;
                 var1 = _closure1_slot7;
@@ -373,10 +363,10 @@ case 9:
                 return var1;
             };
             var2 = new Array(0);
-            var12 = var8.bind(var5)(var3, var2);
+            var12 = var6.bind(var5)(var3, var2);
             var3 = var5.useCallback;
             var2 = new Array(2);
-            var2[0] = var6;
+            var2[0] = var20;
             var2[1] = var1;
             var1 = function() {
                 var7 = _closure1_slot0;

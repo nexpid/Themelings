@@ -333,6 +333,8 @@ case 2:
                 var1['bytes_received'] = var9;
                 var9 = var6.error;
                 var1['error'] = var9;
+                var9 = var6.usedStreaming;
+                var1['used_streaming'] = var9;
                 var1 = var7.bind(var8)(var5, var1);
                 var1 = 11;
                 var1 = var4[var1];

@@ -277,10 +277,8 @@ case 3:
             var5 = 21;
             var5 = var9[var5];
             var7 = var7.bind(var4)(var5);
-            var5 = {};
+            var5 = {'animatedSheetIndex': null, 'portalHostName': 'soundboard-footer', 'followSystemKeyboard': true};
             var5['animatedSheetIndex'] = var17;
-            var9 = 'soundboard-footer';
-            var5['portalHostName'] = var9;
             var6 = var8.bind(var4)(var7, var5);
 case 2:
             var5 = new Array(2);

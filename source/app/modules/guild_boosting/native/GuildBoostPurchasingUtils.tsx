@@ -76,9 +76,7 @@ case 14:
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.launchPremiumPlanSelect;
-                    var4 = {};
-                    var16 = false;
-                    var4['showCurrentPlan'] = var16;
+                    var4 = {'showCurrentPlan': false, 'isBoostPurchaseFlow': true};
                     var15 = function predicate(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:

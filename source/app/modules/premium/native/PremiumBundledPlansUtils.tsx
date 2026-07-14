@@ -835,22 +835,22 @@ case 83:
             return var3;
 case 41:
             var3 = null;
-            if(!var2) { _fun0018_ip = 84; continue _fun0018 }
-case 85:
+            if(!var2) { _fun0018_ip = 54; continue _fun0018 }
+case 84:
             var5 = var1.renewalMutations;
             var6 = var4 == var5;
             var2 = undefined;
-            if(var6) { _fun0018_ip = 86; continue _fun0018 }
-case 87:
-            var2 = var5.items;
+            if(var6) { _fun0018_ip = 85; continue _fun0018 }
 case 86:
+            var2 = var5.items;
+case 85:
             var3 = var2;
-case 84:
+case 54:
             var2 = _closure1_slot17;
-            if(!(var4 == var3)) { _fun0018_ip = 88; continue _fun0018 }
-case 60:
+            if(!(var4 == var3)) { _fun0018_ip = 59; continue _fun0018 }
+case 87:
             var3 = var1.items;
-case 88:
+case 59:
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
             return var1;

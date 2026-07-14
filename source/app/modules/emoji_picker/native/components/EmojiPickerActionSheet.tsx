@@ -701,9 +701,7 @@ case 46:
             var5 = 31;
             var5 = var33[var5];
             var7 = var7.bind(var4)(var5);
-            var5 = {};
-            var33 = 'EmojiPickerActionSheet';
-            var5['portalHostName'] = var33;
+            var5 = {'portalHostName': 'EmojiPickerActionSheet', 'animatedSheetIndex': null, 'followSystemKeyboard': true};
             var5['animatedSheetIndex'] = var20;
             var6 = var8.bind(var4)(var7, var5);
 case 45:

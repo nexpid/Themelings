@@ -1,12 +1,23 @@
 // app/modules/age_assurance/AgeVerificationURLActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var9 = require;
-    var11 = metroImportDefault;
+    var10 = require;
+    var12 = metroImportDefault;
     var3 = exports;
-    var10 = dependencyMap;
-    var _closure1_slot0 = var9;
-    var _closure1_slot1 = var11;
-    var _closure1_slot2 = var10;
+    var11 = dependencyMap;
+    var _closure1_slot0 = var10;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var11;
+    var8 = function requestAgeVerification() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot7 = var8;
     var1 = function _requestAgeVerification() {
         var5 = undefined;
         var1 = undefined;
@@ -33,14 +44,14 @@ case 5:
 case 7:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var4 = 3;
+                    var4 = 4;
                     var4 = var10[var4];
                     var9 = var9.bind(var6)(var4);
                     var4 = var9.isCurrentUserSuspended;
                     var4 = var4.bind(var9)();
                     if(var4) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                    var4 = _closure1_slot7;
+                    var4 = _closure1_slot10;
                     var5 = var4.bind(var6)(var7, var5);
                     SaveGenerator(address=93);
 case 10:
@@ -53,7 +64,7 @@ case 11:
 case 13:
                     return var5;
 case 8:
-                    var5 = _closure1_slot9;
+                    var5 = _closure1_slot12;
                     var3 = {};
                     var3['classificationId'] = var8;
                     var3['method'] = var7;
@@ -80,7 +91,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot6 = var4;
+        _closure1_slot8 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -88,40 +99,120 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot6 = var1;
-    var7 = function initiateAgeVerification() {
-        var1 = undefined;
-        var4 = _closure1_slot8;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot7 = var7;
-    var1 = function _initiateAgeVerification() {
+    var _closure1_slot8 = var1;
+    var1 = function _requestIncodeMethodSession() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* (arg1, arg2) {
-            var1 = function* anon_0_(arg1, arg2) {
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
+                    var4 = _closure1_slot7;
+                    var3 = {};
+                    var5 = arg1;
+                    var3['method'] = var5;
+                    var2 = _closure1_slot5;
+                    var2 = var2.INCODE;
+                    var3['vendor'] = var2;
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    SaveGenerator(address=53);
+case 19:
+                    return var2;
+case 20:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+                    var3 = var2.incode_parameters;
+                    var9 = null;
+                    if(!(var9 == var3)) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
+                    var3 = {};
+case 23:
+                    var8 = var3.api_url;
+                    var7 = var3.session_token;
+                    var6 = var3.consent_id;
+                    var5 = var3.interview_id;
+                    var4 = var9 == var8;
+                    var3 = null;
+                    if(var4) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
+                    var4 = var9 == var7;
+                    var3 = null;
+                    if(var4) { _fun0002_ip = 25; continue _fun0002 }
+case 27:
+                    var4 = var9 == var6;
+                    var3 = null;
+                    if(var4) { _fun0002_ip = 25; continue _fun0002 }
+case 28:
+                    var4 = var9 == var5;
+                    var3 = null;
+                    if(var4) { _fun0002_ip = 25; continue _fun0002 }
+case 29:
+                    var4 = {};
+                    var4['apiUrl'] = var8;
+                    var4['sessionToken'] = var7;
+                    var4['consentId'] = var6;
+                    var4['interviewId'] = var5;
+                    var3 = var4;
+case 25:
+                    return var3;
+case 21:
+                    return var2;
+case 17:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot9 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot9 = var1;
+    var7 = function initiateAgeVerification() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot10 = var7;
+    var1 = function _initiateAgeVerification() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 5;
                     var3 = var3[var2];
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
                     var4 = var2.HTTP;
                     var3 = var4.post;
                     var2 = {};
-                    var5 = _closure1_slot5;
+                    var5 = _closure1_slot6;
                     var5 = var5.VERIFY_AGE;
                     var2['url'] = var5;
                     var5 = {};
@@ -134,161 +225,17 @@ case 18:
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=96);
-case 19:
-                    return var2;
-case 20:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
-                    var3 = var2.body;
-                    return var3;
-case 21:
-                    return var2;
-case 17:
-                    return var1;
-                }
-            };
-            return var1;
-        };
-        var4 = var4.bind(var5)(var3);
-        _closure1_slot8 = var4;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot8 = var1;
-    var6 = function initiateSuspendedUserAgeVerification() {
-        var1 = undefined;
-        var4 = _closure1_slot10;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot9 = var6;
-    var1 = function _initiateSuspendedUserAgeVerification() {
-        var5 = undefined;
-        var1 = undefined;
-        var4 = _closure1_slot3;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    StartGenerator();
-                    var2 = arg1;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 23; continue _fun0003 }
-case 3:
-                    var8 = var2.classificationId;
-                    var7 = var2.method;
-                    var5 = undefined;
-                    SaveGenerator(address=31);
-case 24:
-                    return var5;
-case 25:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 26; continue _fun0003 }
-case 5:
-                    var4 = _closure1_slot4;
-                    var3 = var4.getSuspendedUserToken;
-                    var9 = var3.bind(var4)();
-                    var4 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var10[var3];
-                    var3 = var4.bind(var5)(var3);
-                    var5 = var3.HTTP;
-                    var4 = var5.post;
-                    var3 = {};
-                    var6 = _closure1_slot5;
-                    var6 = var6.SAFETY_HUB_REQUEST_SUSPENDED_AGE_VERIFICATION;
-                    var3['url'] = var6;
-                    var6 = {};
-                    var6['token'] = var9;
-                    var6['from_classification_id'] = var8;
-                    var6['method'] = var7;
-                    var3['body'] = var6;
-                    var6 = true;
-                    var3['rejectWithError'] = var6;
-                    var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=137);
-case 27:
-                    return var3;
-case 28:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 2; continue _fun0003 }
-case 29:
-                    var4 = var3.body;
-                    return var4;
-case 2:
-                    return var3;
-case 26:
-                    return var2;
-case 23:
-                    return var1;
-                }
-            };
-            var2 = var1.next;
-            var2 = var2.bind(var1)();
-            return var1;
-        };
-        var4 = var4.bind(var5)(var3);
-        _closure1_slot10 = var4;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot10 = var1;
-    var1 = function _registerIncodeInterview() {
-        var5 = undefined;
-        var1 = undefined;
-        var4 = _closure1_slot3;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 22; continue _fun0004 }
-case 18:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 4;
-                    var2 = var3[var2];
-                    var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
-                    var5 = var2.HTTP;
-                    var4 = var5.post;
-                    var2 = {};
-                    var6 = _closure1_slot5;
-                    var6 = var6.REGISTER_INCODE_INTERVIEW;
-                    var2['url'] = var6;
-                    var6 = {};
-                    var7 = arg1;
-                    var6['interview_id'] = var7;
-                    var2['body'] = var6;
-                    var6 = true;
-                    var2['rejectWithError'] = var6;
-                    var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=90);
-case 30:
-                    return var2;
-case 31:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 32; continue _fun0004 }
-case 20:
-                    return var3;
 case 32:
                     return var2;
-case 22:
+case 33:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
+                    var3 = var2.body;
+                    return var3;
+case 34:
+                    return var2;
+case 30:
                     return var1;
                 }
             };
@@ -304,71 +251,76 @@ case 22:
         return var1;
     };
     var _closure1_slot11 = var1;
-    var1 = function _requestIncodeSessionBootstrap() {
+    var6 = function initiateSuspendedUserAgeVerification() {
+        var1 = undefined;
+        var4 = _closure1_slot13;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot12 = var6;
+    var1 = function _initiateSuspendedUserAgeVerification() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* () {
-            var1 = function* anon_0_() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     StartGenerator();
-                    var8 = arguments[0];
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 33; continue _fun0005 }
+                    var2 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(var3) { _fun0004_ip = 36; continue _fun0004 }
 case 3:
-                    var6 = undefined;
-                    if(!(var8 === var6)) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
-                    var8 = {};
-case 34:
-                    SaveGenerator(address=25);
-case 36:
-                    return var6;
+                    var8 = var2.classificationId;
+                    var7 = var2.method;
+                    var5 = undefined;
+                    SaveGenerator(address=31);
 case 37:
+                    return var5;
+case 38:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 38; continue _fun0005 }
-case 25:
+                    if(var3) { _fun0004_ip = 39; continue _fun0004 }
+case 5:
+                    var4 = _closure1_slot4;
+                    var3 = var4.getSuspendedUserToken;
+                    var9 = var3.bind(var4)();
                     var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var5[var3];
-                    var3 = var4.bind(var6)(var3);
+                    var10 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var10[var3];
+                    var3 = var4.bind(var5)(var3);
                     var5 = var3.HTTP;
                     var4 = var5.post;
                     var3 = {};
-                    var7 = _closure1_slot5;
-                    var7 = var7.CREATE_INCODE_SESSION;
-                    var3['url'] = var7;
-                    var9 = var8.previousInterviewId;
-                    var7 = null;
-                    var7 = var7 != var9;
-                    var6 = undefined;
-                    if(!var7) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
-                    var7 = {};
-                    var8 = var8.previousInterviewId;
-                    var7['previous_interview_id'] = var8;
-                    var6 = var7;
-case 39:
+                    var6 = _closure1_slot6;
+                    var6 = var6.SAFETY_HUB_REQUEST_SUSPENDED_AGE_VERIFICATION;
+                    var3['url'] = var6;
+                    var6 = {};
+                    var6['token'] = var9;
+                    var6['from_classification_id'] = var8;
+                    var6['method'] = var7;
                     var3['body'] = var6;
                     var6 = true;
                     var3['rejectWithError'] = var6;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=135);
-case 15:
+                    SaveGenerator(address=137);
+case 40:
                     return var3;
-case 27:
+case 41:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0005_ip = 41; continue _fun0005 }
+                    if(var4) { _fun0004_ip = 2; continue _fun0004 }
 case 42:
                     var4 = var3.body;
                     return var4;
-case 41:
+case 2:
                     return var3;
-case 38:
+case 39:
                     return var2;
-case 33:
+case 36:
                     return var1;
                 }
             };
@@ -377,7 +329,7 @@ case 33:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot12 = var4;
+        _closure1_slot13 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -385,8 +337,65 @@ case 33:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot12 = var1;
-    var1 = function _getAgeVerificationMethods() {
+    var _closure1_slot13 = var1;
+    var1 = function _registerIncodeInterview() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0005_ip = 43; continue _fun0005 }
+case 31:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var4.bind(var3)(var2);
+                    var5 = var2.HTTP;
+                    var4 = var5.post;
+                    var2 = {};
+                    var6 = _closure1_slot6;
+                    var6 = var6.REGISTER_INCODE_INTERVIEW;
+                    var2['url'] = var6;
+                    var6 = {};
+                    var7 = arg1;
+                    var6['interview_id'] = var7;
+                    var2['body'] = var6;
+                    var6 = true;
+                    var2['rejectWithError'] = var6;
+                    var2 = var4.bind(var5)(var2);
+                    SaveGenerator(address=88);
+case 44:
+                    return var2;
+case 45:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0005_ip = 46; continue _fun0005 }
+case 32:
+                    return var3;
+case 46:
+                    return var2;
+case 43:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot14 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot14 = var1;
+    var1 = function _requestIncodeSessionBootstrap() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
@@ -395,12 +404,94 @@ case 33:
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     StartGenerator();
+                    var8 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+                    if(var2) { _fun0006_ip = 47; continue _fun0006 }
+case 3:
+                    var6 = undefined;
+                    if(!(var8 === var6)) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
+                    var8 = {};
+case 48:
+                    SaveGenerator(address=25);
+case 50:
+                    return var6;
+case 51:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0006_ip = 52; continue _fun0006 }
+case 38:
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var5[var3];
+                    var3 = var4.bind(var6)(var3);
+                    var5 = var3.HTTP;
+                    var4 = var5.post;
+                    var3 = {};
+                    var7 = _closure1_slot6;
+                    var7 = var7.CREATE_INCODE_SESSION;
+                    var3['url'] = var7;
+                    var9 = var8.previousInterviewId;
+                    var7 = null;
+                    var7 = var7 != var9;
+                    var6 = undefined;
+                    if(!var7) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
+                    var7 = {};
+                    var8 = var8.previousInterviewId;
+                    var7['previous_interview_id'] = var8;
+                    var6 = var7;
+case 53:
+                    var3['body'] = var6;
+                    var6 = true;
+                    var3['rejectWithError'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    SaveGenerator(address=135);
+case 15:
+                    return var3;
+case 40:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
+                    var4 = var3.body;
+                    return var4;
+case 55:
+                    return var3;
+case 52:
+                    return var2;
+case 47:
+                    return var1;
+                }
+            };
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot15 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot15 = var1;
+    var1 = function _getAgeVerificationMethods() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0007_ip = 25; continue _fun0007 }
+case 57:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var2 = 5;
+                    var2 = 6;
                     var5 = var7[var2];
                     var2 = undefined;
                     var8 = var6.bind(var2)(var5);
@@ -410,30 +501,30 @@ case 44:
                     var5['type'] = var9;
                     var5 = var6.bind(var8)(var5);
                     var6 = _closure1_slot0;
-                    var5 = 3;
+                    var5 = 4;
                     var5 = var7[var5];
                     var6 = var6.bind(var2)(var5);
                     var5 = var6.isCurrentUserSuspended;
                     var5 = var5.bind(var6)();
-                    if(var5) { _fun0006_ip = 40; continue _fun0006 }
-case 30:
-                    var5 = _closure1_slot14;
-                    var6 = var5.bind(var2)();
-                    _fun0006_ip = 45; continue _fun0006;
-case 40:
-                    var4 = _closure1_slot15;
-                    var6 = var4.bind(var2)();
+                    if(var5) { _fun0007_ip = 54; continue _fun0007 }
 case 45:
+                    var5 = _closure1_slot17;
+                    var6 = var5.bind(var2)();
+                    _fun0007_ip = 58; continue _fun0007;
+case 54:
+                    var4 = _closure1_slot18;
+                    var6 = var4.bind(var2)();
+case 58:
                     var4 = null;
                     var4 = var4 == var6;
                     var2 = undefined;
-                    if(var4) { _fun0006_ip = 6; continue _fun0006 }
-case 46:
+                    if(var4) { _fun0007_ip = 6; continue _fun0007 }
+case 59:
                     var5 = var6.then;
                     var4 = function(arg1) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 5;
+                        var1 = 6;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -453,7 +544,7 @@ case 46:
                     var3 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 5;
+                        var1 = 6;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -467,23 +558,23 @@ case 46:
                     var2 = var4.bind(var5)(var3);
 case 6:
                     SaveGenerator(address=152);
-case 47:
+case 60:
                     return var2;
-case 38:
+case 52:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+                    if(var3) { _fun0007_ip = 61; continue _fun0007 }
+case 62:
                     return var2;
-case 48:
+case 61:
                     return var2;
-case 43:
+case 25:
                     return var1;
                 }
             };
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot13 = var4;
+        _closure1_slot16 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -491,18 +582,18 @@ case 43:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot16 = var1;
     var4 = function fetchAgeVerificationMethods() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 5;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         var3 = var1.HTTP;
         var2 = var3.get;
         var1 = {};
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot6;
         var4 = var4.AGE_VERIFICATION_METHODS;
         var1['url'] = var4;
         var4 = true;
@@ -510,21 +601,21 @@ case 43:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot14 = var4;
+    var _closure1_slot17 = var4;
     var2 = function fetchAgeVerificationMethodsSuspendedUser() {
         var2 = _closure1_slot4;
         var1 = var2.getSuspendedUserToken;
         var5 = var1.bind(var2)();
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 5;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {};
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot6;
         var4 = var4.SAFETY_HUB_GET_SUSPENDED_AGE_VERIFICATION_METHODS;
         var1['url'] = var4;
         var4 = true;
@@ -535,38 +626,44 @@ case 43:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot15 = var2;
+    var _closure1_slot18 = var2;
     var1 = global;
-    var13 = var1.Object;
-    var12 = var13.defineProperty;
-    var8 = {};
+    var14 = var1.Object;
+    var13 = var14.defineProperty;
+    var9 = {};
     var1 = true;
-    var8['value'] = var1;
+    var9['value'] = var1;
     var1 = '__esModule';
-    var1 = var12.bind(var13)(var3, var1, var8);
+    var1 = var13.bind(var14)(var3, var1, var9);
     var1 = 0;
-    var8 = var10[var1];
+    var9 = var11[var1];
     var1 = undefined;
-    var8 = var11.bind(var1)(var8);
-    var _closure1_slot3 = var8;
-    var8 = 1;
-    var8 = var10[var8];
-    var8 = var11.bind(var1)(var8);
-    var _closure1_slot4 = var8;
-    var8 = 2;
-    var8 = var10[var8];
-    var8 = var9.bind(var1)(var8);
-    var8 = var8.Endpoints;
-    var _closure1_slot5 = var8;
-    var8 = 6;
-    var8 = var10[var8];
-    var10 = var9.bind(var1)(var8);
-    var9 = var10.fileFinishedImporting;
-    var8 = 'modules/age_assurance/AgeVerificationURLActionCreators.tsx';
-    var8 = var9.bind(var10)(var8);
-    var8 = function requestAgeVerification() {
+    var9 = var12.bind(var1)(var9);
+    var _closure1_slot3 = var9;
+    var9 = 1;
+    var9 = var11[var9];
+    var9 = var12.bind(var1)(var9);
+    var _closure1_slot4 = var9;
+    var9 = 2;
+    var9 = var11[var9];
+    var9 = var10.bind(var1)(var9);
+    var9 = var9.VerificationVendorName;
+    var _closure1_slot5 = var9;
+    var9 = 3;
+    var9 = var11[var9];
+    var9 = var10.bind(var1)(var9);
+    var9 = var9.Endpoints;
+    var _closure1_slot6 = var9;
+    var9 = 7;
+    var9 = var11[var9];
+    var11 = var10.bind(var1)(var9);
+    var10 = var11.fileFinishedImporting;
+    var9 = 'modules/age_assurance/AgeVerificationURLActionCreators.tsx';
+    var9 = var10.bind(var11)(var9);
+    var3['requestAgeVerification'] = var8;
+    var8 = function requestIncodeMethodSession() {
         var1 = undefined;
-        var4 = _closure1_slot6;
+        var4 = _closure1_slot9;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -574,12 +671,12 @@ case 43:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['requestAgeVerification'] = var8;
+    var3['requestIncodeMethodSession'] = var8;
     var3['initiateAgeVerification'] = var7;
     var3['initiateSuspendedUserAgeVerification'] = var6;
     var6 = function registerIncodeInterview() {
         var1 = undefined;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot14;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -590,7 +687,7 @@ case 43:
     var3['registerIncodeInterview'] = var6;
     var6 = function requestIncodeSessionBootstrap() {
         var1 = undefined;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot15;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -601,7 +698,7 @@ case 43:
     var3['requestIncodeSessionBootstrap'] = var6;
     var5 = function getAgeVerificationMethods() {
         var1 = undefined;
-        var4 = _closure1_slot13;
+        var4 = _closure1_slot16;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

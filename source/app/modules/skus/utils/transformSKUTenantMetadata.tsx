@@ -353,8 +353,10 @@ case 25:
             var3 = var2.variant;
             var3 = var4.bind(var5)(var3);
             var1['variant'] = var3;
-            var2 = var2.option_selector_display_value;
-            var1['optionSelectorDisplayValue'] = var2;
+            var3 = var2.option_selector_display_value;
+            var1['optionSelectorDisplayValue'] = var3;
+            var2 = var2.source_type;
+            var1['sourceType'] = var2;
             return var1;
         }
     };

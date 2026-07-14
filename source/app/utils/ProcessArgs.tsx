@@ -180,13 +180,16 @@ case 0:
                 var3 = var4.contains;
                 var1 = '--disallow-popups';
                 var1 = var3.bind(var4)(var1);
-                if(var1) { _fun0003_ip = 23; continue _fun0003 }
+                var1 = !var1;
+                if(!var1) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
                 var4 = _closure2_slot0;
                 var3 = var4.isEnvVariableTrue;
                 var2 = 'DISCORD_DISALLOW_POPUPS';
-                var1 = var3.bind(var4)(var2);
+                var2 = var3.bind(var4)(var2);
+                var1 = !var2;
 case 23:
+                var1 = !var1;
                 return var1;
             }
         };

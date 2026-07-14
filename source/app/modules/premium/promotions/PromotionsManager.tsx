@@ -174,6 +174,10 @@ case 8:
                 var5 = var6.bind;
                 var5 = var5.bind(var6)(var1);
                 var3['BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS'] = var5;
+                var6 = var1.onOfferUpdated;
+                var5 = var6.bind;
+                var5 = var5.bind(var6)(var1);
+                var3['BILLING_REFERRAL_RESOLVE_SUCCESS'] = var5;
                 var6 = var1.onVCRedeemed;
                 var5 = var6.bind;
                 var5 = var5.bind(var6)(var1);

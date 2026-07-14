@@ -270,7 +270,22 @@ case 33:
                     var4 = global;
                     var2 = var4.window;
                     var2 = var2.GLOBAL_ENV;
-                    var18 = var2.GATEWAY_ENDPOINT;
+                    var12 = var2.GATEWAY_ALT_ENDPOINT;
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot3;
+                    var2 = 11;
+                    var2 = var7[var2];
+                    var2 = var6.bind(var1)(var2);
+                    var2 = var2.bind(var1)();
+                    if(!var2) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
+                    var2 = null;
+                    if(!(var2 == var12)) { _fun0003_ip = 37; continue _fun0003 }
+case 35:
+                    var2 = var4.window;
+                    var2 = var2.GLOBAL_ENV;
+                    var12 = var2.GATEWAY_ENDPOINT;
+case 37:
                     var2 = var4.window;
                     var2 = var2.GLOBAL_ENV;
                     var16 = var2.API_VERSION;
@@ -279,6 +294,7 @@ case 33:
                     var19 = '';
                     var17 = '/?encoding=json&v=';
                     var15 = '&compress=';
+                    var18 = var12;
                     var14 = var13;
                     var7 = var19[var9](var18, var17, var16, var15, var14, var13);
                     var9 = _closure1_slot7;
@@ -292,7 +308,7 @@ case 33:
                     var _closure3_slot0 = var2;
                     var6 = _closure1_slot1;
                     var9 = _closure1_slot3;
-                    var2 = 11;
+                    var2 = 12;
                     var2 = var9[var2];
                     var2 = var6.bind(var1)(var2);
                     var2 = var2.bind(var1)(var7);
@@ -301,24 +317,24 @@ case 33:
                     var9 = var9.bind(var1)(var6);
                     var6 = var4.isNaN;
                     var6 = var6.bind(var1)(var9);
-                    if(var6) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+                    if(var6) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
                     var10 = _closure1_slot0;
                     var6 = _closure1_slot3;
                     var6 = var6[var11];
                     var10 = var10.bind(var1)(var6);
                     var6 = var10.isAndroid;
                     var6 = var6.bind(var10)();
-                    if(var8) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
-                    if(var6) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
+                    if(var8) { _fun0003_ip = 40; continue _fun0003 }
+case 12:
+                    if(var6) { _fun0003_ip = 41; continue _fun0003 }
+case 42:
                     var8 = _closure1_slot4;
                     var10 = var8.DCDCompressionManager;
                     var8 = var10.enableZlibStreamSupport;
                     var8 = var8.bind(var10)(var9);
-                    _fun0003_ip = 41; continue _fun0003;
-case 39:
+                    _fun0003_ip = 43; continue _fun0003;
+case 41:
                     var10 = _closure1_slot1;
                     var11 = _closure1_slot3;
                     var8 = 10;
@@ -326,17 +342,17 @@ case 39:
                     var10 = var10.bind(var1)(var8);
                     var8 = var10.enableZlibStreamSupport;
                     var8 = var8.bind(var10)(var9);
-                    _fun0003_ip = 41; continue _fun0003;
-case 37:
-                    if(var6) { _fun0003_ip = 42; continue _fun0003 }
-case 43:
+                    _fun0003_ip = 43; continue _fun0003;
+case 40:
+                    if(var6) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
                     var6 = _closure1_slot4;
                     var10 = var6.DCDCompressionManager;
                     var8 = var10.enableZstdStreamSupport;
                     var6 = 0;
                     var6 = var8.bind(var10)(var9, var6);
-                    _fun0003_ip = 41; continue _fun0003;
-case 42:
+                    _fun0003_ip = 43; continue _fun0003;
+case 44:
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot3;
                     var6 = 10;
@@ -344,7 +360,7 @@ case 42:
                     var8 = var8.bind(var1)(var6);
                     var6 = var8.enableZstdStreamSupport;
                     var6 = var6.bind(var8)(var9);
-case 41:
+case 43:
                     var6 = {'open': false, 'gateway': null, 'identify': false, 'messages': null, 'clientState': null, 'userId': null};
                     var6['gateway'] = var7;
                     var7 = new Array(0);
@@ -353,7 +369,7 @@ case 41:
                     var7 = function() {
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot3;
-                        var1 = 12;
+                        var1 = 13;
                         var3 = var3[var1];
                         var1 = undefined;
                         var6 = var4.bind(var1)(var3);
@@ -386,7 +402,7 @@ case 41:
                     var7 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot3;
-                        var1 = 12;
+                        var1 = 13;
                         var2 = var2[var1];
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
@@ -405,7 +421,7 @@ case 41:
                     var5 = function(arg1) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot3;
-                        var1 = 12;
+                        var1 = 13;
                         var2 = var2[var1];
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
@@ -428,21 +444,21 @@ case 41:
                     var5['_ws'] = var4;
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 12;
+                    var4 = 13;
                     var4 = var6[var4];
                     var7 = var5.bind(var1)(var4);
                     var6 = var7.mark;
                     var5 = '🌐';
                     var4 = 'Fastconnect socket created';
                     var4 = var6.bind(var7)(var5, var4);
-                    _fun0003_ip = 44; continue _fun0003;
-case 35:
+                    _fun0003_ip = 46; continue _fun0003;
+case 38:
                     var5 = _closure1_slot7;
                     var4 = var5.log;
                     var3 = var2._socketId;
                     var2 = '[FAST CONNECT] Unable to create socketId from NaN value ';
                     var2 = var4.bind(var5)(var2, var3);
-case 44:
+case 46:
                     return var1;
                 }
             };
@@ -494,7 +510,7 @@ case 30:
     var5 = null;
     var _closure1_slot8 = var5;
     var5 = var4.bind(var1)();
-    var5 = 14;
+    var5 = 15;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -508,7 +524,7 @@ case 0:
             var2 = var1.window;
             var3 = var2._ws;
             var2 = null;
-            if(!(var2 != var3)) { _fun0004_ip = 45; continue _fun0004 }
+            if(!(var2 != var3)) { _fun0004_ip = 47; continue _fun0004 }
 case 29:
             var3 = var1.window;
             var3 = var3._ws;
@@ -518,7 +534,7 @@ case 29:
             var1 = var1.window;
             var1['_ws'] = var2;
             _closure1_slot8 = var2;
-case 45:
+case 47:
             var1 = undefined;
             return var1;
         }
@@ -542,11 +558,11 @@ case 29:
             var2 = var3.log;
             var1 = 'Skipping identifyWebSocket because socket is null';
             var1 = var2.bind(var3)(var1);
-            _fun0005_ip = 46; continue _fun0005;
+            _fun0005_ip = 48; continue _fun0005;
 case 28:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 13;
+            var1 = 14;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
@@ -557,7 +573,7 @@ case 28:
 case 0:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot3;
-                    var1 = 13;
+                    var1 = 14;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var4.bind(var1)(var3);
@@ -574,13 +590,13 @@ case 0:
                             var3 = var3.bind(var4)(var1);
                             var1 = var3.isAndroid;
                             var1 = var1.bind(var3)();
-                            if(var1) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
+                            if(var1) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
                             var1 = _closure1_slot4;
                             var1 = var1.DCDFastConnectManager;
                             var1 = var1.token;
-                            _fun0007_ip = 49; continue _fun0007;
-case 47:
+                            _fun0007_ip = 51; continue _fun0007;
+case 49:
                             var3 = _closure1_slot1;
                             var5 = _closure1_slot3;
                             var2 = 5;
@@ -591,28 +607,28 @@ case 47:
                             var3 = var2.token;
                             var2 = null;
                             var4 = var2 != var3;
-                            if(!var4) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+                            if(!var4) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
                             var2 = var3;
-case 50:
+case 52:
                             var1 = var2;
-case 49:
+case 51:
                             return var1;
                         }
                     };
                     var6 = var4.bind(var5)(var3);
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+                    if(!(var5 != var6)) { _fun0006_ip = 54; continue _fun0006 }
+case 55:
                     var3 = '';
-                    if(!(var3 === var6)) { _fun0006_ip = 54; continue _fun0006 }
-case 52:
+                    if(!(var3 === var6)) { _fun0006_ip = 56; continue _fun0006 }
+case 54:
                     var7 = _closure1_slot7;
                     var4 = var7.log;
                     var3 = 'Skipping fast_connect because we could not find a token to connect with.';
                     var3 = var4.bind(var7)(var3);
-                    _fun0006_ip = 55; continue _fun0006;
-case 54:
+                    _fun0006_ip = 57; continue _fun0006;
+case 56:
                     var3 = global;
                     var3 = var3.window;
                     var3 = var3._ws;
@@ -626,13 +642,13 @@ case 54:
                     var8 = var8.bind(var1)(var7);
                     var7 = var8.isAndroid;
                     var7 = var7.bind(var8)();
-                    if(var7) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
+                    if(var7) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
                     var7 = _closure1_slot4;
                     var7 = var7.DCDFastConnectManager;
                     var7 = var7.userId;
-                    _fun0006_ip = 58; continue _fun0006;
-case 56:
+                    _fun0006_ip = 60; continue _fun0006;
+case 58:
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot3;
                     var8 = 5;
@@ -641,38 +657,38 @@ case 56:
                     var8 = var9.getConstants;
                     var8 = var8.bind(var9)();
                     var7 = var8.userId;
-case 58:
-                    var9 = var5 != var7;
-                    var8 = null;
-                    if(!var9) { _fun0006_ip = 59; continue _fun0006 }
 case 60:
-                    var8 = var7;
-case 59:
-                    _closure1_slot8 = var8;
                     var9 = var5 != var7;
                     var8 = null;
                     if(!var9) { _fun0006_ip = 61; continue _fun0006 }
 case 62:
                     var8 = var7;
 case 61:
+                    _closure1_slot8 = var8;
+                    var9 = var5 != var7;
+                    var8 = null;
+                    if(!var9) { _fun0006_ip = 63; continue _fun0006 }
+case 64:
+                    var8 = var7;
+case 63:
                     var3['userId'] = var8;
                     var2 = _closure1_slot9;
                     var8 = var5 != var7;
                     var5 = null;
-                    if(!var8) { _fun0006_ip = 63; continue _fun0006 }
-case 64:
+                    if(!var8) { _fun0006_ip = 65; continue _fun0006 }
+case 66:
                     var5 = var7;
-case 63:
+case 65:
                     var2 = var2.bind(var1)(var4, var5, var6);
                     var4 = true;
                     var3['identify'] = var4;
                     var3['clientState'] = var2;
-case 55:
+case 57:
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
-case 46:
+case 48:
             var1 = undefined;
             return var1;
         }

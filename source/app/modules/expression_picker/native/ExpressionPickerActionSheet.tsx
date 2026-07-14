@@ -164,6 +164,7 @@ case 5:
             var8 = var8.bind(var5)(var6);
             var6 = {};
             var6['animatedSheetIndex'] = var20;
+            var6['followSystemKeyboard'] = var11;
             var7 = var9.bind(var5)(var8, var6);
 case 4:
             var6 = new Array(2);

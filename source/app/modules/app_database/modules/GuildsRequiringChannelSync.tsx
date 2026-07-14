@@ -1037,18 +1037,18 @@ case 118:
 case 120:
                 var7 = var1.roles;
                 var7 = var7.writes;
-                _fun0013_ip = 85; continue _fun0013;
+                _fun0013_ip = 121; continue _fun0013;
 case 119:
                 var15 = var1.roles;
                 var7 = var15.items;
-case 85:
+case 121:
                 var17 = undefined;
                 var16 = var11.bind(var17)(var7);
                 var11 = var16.bind(var17)();
                 var7 = var11.done;
                 var15 = 12;
-                if(var7) { _fun0013_ip = 121; continue _fun0013 }
-case 122:
+                if(var7) { _fun0013_ip = 122; continue _fun0013 }
+case 123:
                 var19 = var11.value;
                 var18 = var19.id;
                 var7 = {};
@@ -1063,17 +1063,17 @@ case 122:
                 var20 = var21.bind(var22)(var20);
                 var7['permissions'] = var20;
                 var19 = var19.tags;
-                if(!(var8 == var19)) { _fun0013_ip = 123; continue _fun0013 }
-case 124:
+                if(!(var8 == var19)) { _fun0013_ip = 124; continue _fun0013 }
+case 125:
                 var19 = {};
-case 123:
+case 124:
                 var7['tags'] = var19;
                 var12[var18] = var7;
                 var18 = var16.bind(var17)();
                 var7 = var18.done;
                 var11 = var18;
-                if(!var7) { _fun0013_ip = 122; continue _fun0013 }
-case 121:
+                if(!var7) { _fun0013_ip = 123; continue _fun0013 }
+case 122:
                 var11 = var5.detectRoleVisibilityChanges;
                 var26 = var1.id;
                 var27 = var5;
@@ -1084,13 +1084,13 @@ case 121:
                 var2 = var10;
                 var4 = var9;
                 if(!(var8 != var7)) { _fun0013_ip = 116; continue _fun0013 }
-case 125:
+case 126:
                 var2 = true;
                 var4 = var7;
 case 116:
                 var7 = !var2;
-                if(!var7) { _fun0013_ip = 126; continue _fun0013 }
-case 127:
+                if(!var7) { _fun0013_ip = 127; continue _fun0013 }
+case 128:
                 var11 = var5.hasNewlyVisibleChannelWithHiddenParent;
                 var10 = var1.id;
                 var8 = var1.channels;
@@ -1098,24 +1098,24 @@ case 127:
                 var8 = var1.channels;
                 var8 = var8.deletes;
                 var7 = var11.bind(var5)(var10, var9, var8);
-case 126:
-                if(!var7) { _fun0013_ip = 128; continue _fun0013 }
-case 129:
+case 127:
+                if(!var7) { _fun0013_ip = 129; continue _fun0013 }
+case 130:
                 var3 = _closure1_slot19;
                 var4 = var3.ChannelVisibleParentHidden;
                 var2 = true;
-case 128:
+case 129:
                 if(!var2) { _fun0013_ip = 99; continue _fun0013 }
-case 130:
+case 131:
                 var2 = var5.gatewayGuildHasObfuscatedChannels;
                 var2 = var2.bind(var5)(var1);
-                if(var2) { _fun0013_ip = 131; continue _fun0013 }
-case 132:
+                if(var2) { _fun0013_ip = 132; continue _fun0013 }
+case 133:
                 var3 = var5.unmarkGuildForResync;
                 var2 = var1.id;
                 var2 = var3.bind(var5)(var2, var6);
                 _fun0013_ip = 99; continue _fun0013;
-case 131:
+case 132:
                 var3 = var5.markGuildForResync;
                 var26 = var1.id;
                 var24 = arg3;
@@ -1140,12 +1140,12 @@ case 0:
                 var4 = this;
                 var3 = var1.guild_id;
                 var1 = var1.integrity_check;
-                if(var1) { _fun0014_ip = 133; continue _fun0014 }
+                if(var1) { _fun0014_ip = 134; continue _fun0014 }
 case 29:
                 var2 = var4.unmarkGuildForResync;
                 var1 = arg2;
                 var1 = var2.bind(var4)(var3, var1);
-case 133:
+case 134:
                 var1 = undefined;
                 return var1;
             }
@@ -1225,13 +1225,13 @@ case 0:
                 var2 = arg2;
                 var6 = arguments[2];
                 var13 = undefined;
-                if(!(var6 === var13)) { _fun0015_ip = 134; continue _fun0015 }
-case 135:
+                if(!(var6 === var13)) { _fun0015_ip = 135; continue _fun0015 }
+case 136:
                 var6 = new Array(0);
-case 134:
+case 135:
                 var3 = var2.length;
                 var1 = 0;
-                if(!(var1 !== var3)) { _fun0015_ip = 136; continue _fun0015 }
+                if(!(var1 !== var3)) { _fun0015_ip = 137; continue _fun0015 }
 case 33:
                 var3 = _closure1_slot9;
                 var1 = var3.getMutableBasicGuildChannelsForGuild;
@@ -1254,14 +1254,14 @@ case 33:
                 var3 = var1.bind(var13)(var2);
                 var2 = var3.bind(var13)();
                 var1 = var2.done;
-                if(var1) { _fun0015_ip = 137; continue _fun0015 }
-case 138:
+                if(var1) { _fun0015_ip = 138; continue _fun0015 }
+case 139:
                 var5 = var2.value;
                 var1 = _closure1_slot7;
                 var1 = var5 instanceof var1;
                 var6 = var5;
                 if(var1) { _fun0015_ip = 15; continue _fun0015 }
-case 139:
+case 140:
                 var1 = _closure1_slot6;
                 var6 = var1.bind(var13)(var5, var4);
 case 15:
@@ -1271,8 +1271,8 @@ case 15:
                 var5 = var3.bind(var13)();
                 var1 = var5.done;
                 var2 = var5;
-                if(!var1) { _fun0015_ip = 138; continue _fun0015 }
-case 137:
+                if(!var1) { _fun0015_ip = 139; continue _fun0015 }
+case 138:
                 var2 = _closure1_slot21;
                 var1 = var9.values;
                 var1 = var1.bind(var9)();
@@ -1285,72 +1285,72 @@ case 137:
                 var4 = undefined;
                 var3 = undefined;
                 var2 = undefined;
-                if(var1) { _fun0015_ip = 140; continue _fun0015 }
-case 141:
+                if(var1) { _fun0015_ip = 141; continue _fun0015 }
+case 142:
                 var1 = var6.value;
                 var14 = var1.isCategory;
                 var16 = var14.bind(var1)();
                 var15 = var3;
                 var14 = var2;
-                if(var16) { _fun0015_ip = 142; continue _fun0015 }
-case 143:
+                if(var16) { _fun0015_ip = 143; continue _fun0015 }
+case 144:
                 var16 = var1.id;
                 var19 = var11[var16];
                 var16 = var7 != var19;
-                if(!var16) { _fun0015_ip = 144; continue _fun0015 }
-case 145:
+                if(!var16) { _fun0015_ip = 145; continue _fun0015 }
+case 146:
                 var20 = _closure1_slot13;
                 var18 = var20.canBasicChannel;
                 var17 = _closure1_slot15;
                 var17 = var17.VIEW_CHANNEL;
                 var16 = var18.bind(var20)(var17, var19);
-case 144:
+case 145:
                 var17 = var1.isObfuscated;
                 var17 = var17.bind(var1)();
                 var18 = !var17;
-                if(!var16) { _fun0015_ip = 146; continue _fun0015 }
+                if(!var16) { _fun0015_ip = 147; continue _fun0015 }
 case 55:
-                if(!(var7 != var19)) { _fun0015_ip = 146; continue _fun0015 }
-case 147:
+                if(!(var7 != var19)) { _fun0015_ip = 147; continue _fun0015 }
+case 148:
                 var17 = var19.parent_id;
                 var16 = var1.parent_id;
                 var5 = var19;
                 var4 = var18;
                 var15 = var3;
                 var14 = var2;
-                if(!(var17 !== var16)) { _fun0015_ip = 142; continue _fun0015 }
-case 146:
+                if(!(var17 !== var16)) { _fun0015_ip = 143; continue _fun0015 }
+case 147:
                 var5 = var19;
                 var15 = var3;
                 var14 = var2;
                 var4 = var18;
-                if(!var4) { _fun0015_ip = 142; continue _fun0015 }
-case 148:
+                if(!var4) { _fun0015_ip = 143; continue _fun0015 }
+case 149:
                 var17 = var1.parent_id;
                 var5 = var19;
                 var4 = var18;
                 var15 = var17;
                 var14 = var2;
-                if(!(var7 != var17)) { _fun0015_ip = 142; continue _fun0015 }
-case 149:
+                if(!(var7 != var17)) { _fun0015_ip = 143; continue _fun0015 }
+case 150:
                 var1 = var10.has;
                 var1 = var1.bind(var10)(var17);
                 var5 = var19;
                 var4 = var18;
                 var15 = var17;
                 var14 = var2;
-                if(var1) { _fun0015_ip = 142; continue _fun0015 }
-case 150:
+                if(var1) { _fun0015_ip = 143; continue _fun0015 }
+case 151:
                 var1 = var9.get;
                 var1 = var1.bind(var9)(var17);
                 var5 = var19;
                 var4 = var18;
                 var15 = var17;
                 var14 = var2;
-                if(!(var7 == var1)) { _fun0015_ip = 142; continue _fun0015 }
+                if(!(var7 == var1)) { _fun0015_ip = 143; continue _fun0015 }
 case 119:
                 var16 = var11[var17];
-                if(!(var7 != var16)) { _fun0015_ip = 151; continue _fun0015 }
+                if(!(var7 != var16)) { _fun0015_ip = 152; continue _fun0015 }
 case 86:
                 var21 = _closure1_slot13;
                 var20 = var21.canBasicChannel;
@@ -1361,21 +1361,21 @@ case 86:
                 var4 = var18;
                 var15 = var17;
                 var14 = var16;
-                if(var1) { _fun0015_ip = 142; continue _fun0015 }
-case 151:
+                if(var1) { _fun0015_ip = 143; continue _fun0015 }
+case 152:
                 var1 = true;
                 return var1;
-case 142:
+case 143:
                 var16 = var8.bind(var13)();
                 var1 = var16.done;
                 var3 = var15;
                 var2 = var14;
                 var6 = var16;
-                if(!var1) { _fun0015_ip = 141; continue _fun0015 }
-case 140:
+                if(!var1) { _fun0015_ip = 142; continue _fun0015 }
+case 141:
                 var1 = false;
                 return var1;
-case 136:
+case 137:
                 var1 = false;
                 return var1;
             }
@@ -1394,25 +1394,25 @@ case 0:
                 var3 = var2.op;
                 var2 = 'full_sync';
                 if(!(var2 !== var3)) { _fun0016_ip = 36; continue _fun0016 }
-case 152:
+case 153:
                 var2 = var1.channels;
                 var3 = var2.writes;
                 var2 = var1.channels;
                 var5 = var2.deletes;
-                _fun0016_ip = 45; continue _fun0016;
+                _fun0016_ip = 154; continue _fun0016;
 case 36:
                 var2 = var1.channels;
                 var3 = var2.items;
                 var5 = new Array(0);
-case 45:
+case 154:
                 var2 = var4.guildHasStoredObfuscatedChannels;
                 var1 = var1.id;
                 var1 = var2.bind(var4)(var1, var5);
-                if(var1) { _fun0016_ip = 47; continue _fun0016 }
-case 153:
+                if(var1) { _fun0016_ip = 155; continue _fun0016 }
+case 156:
                 var2 = var4.anyChannelRecordsObfuscated;
                 var1 = var2.bind(var4)(var3);
-case 47:
+case 155:
                 return var1;
             }
         };
@@ -1432,32 +1432,32 @@ case 0:
 case 29:
                 var3 = var1.channels;
                 var5 = new Array(0);
-                _fun0017_ip = 154; continue _fun0017;
+                _fun0017_ip = 157; continue _fun0017;
 case 62:
                 var2 = var1.partial_updates;
                 var6 = var2.channels;
                 var7 = null;
                 if(!(var7 == var6)) { _fun0017_ip = 98; continue _fun0017 }
-case 155:
+case 158:
                 var6 = new Array(0);
 case 98:
                 var2 = var1.partial_updates;
                 var2 = var2.deleted_channel_ids;
-                if(!(var7 == var2)) { _fun0017_ip = 156; continue _fun0017 }
+                if(!(var7 == var2)) { _fun0017_ip = 159; continue _fun0017 }
 case 35:
                 var2 = new Array(0);
-case 156:
+case 159:
                 var5 = var2;
                 var3 = var6;
-case 154:
+case 157:
                 var2 = var4.guildHasStoredObfuscatedChannels;
                 var1 = var1.id;
                 var1 = var2.bind(var4)(var1, var5);
-                if(var1) { _fun0017_ip = 157; continue _fun0017 }
+                if(var1) { _fun0017_ip = 160; continue _fun0017 }
 case 47:
                 var2 = var4.anyChannelsObfuscated;
                 var1 = var2.bind(var4)(var3);
-case 157:
+case 160:
                 return var1;
             }
         };
@@ -1472,10 +1472,10 @@ case 0:
                 var2 = arguments[1];
                 var3 = this;
                 var4 = undefined;
-                if(!(var2 === var4)) { _fun0018_ip = 158; continue _fun0018 }
+                if(!(var2 === var4)) { _fun0018_ip = 161; continue _fun0018 }
 case 32:
                 var2 = new Array(0);
-case 158:
+case 161:
                 var _closure3_slot0 = var2;
                 var5 = _closure1_slot9;
                 var4 = var5.getMutableGuildChannelsForGuild;
@@ -1545,7 +1545,7 @@ case 0:
                     var6 = var2 != var5;
                     var2 = 0;
                     if(!var6) { _fun0019_ip = 36; continue _fun0019 }
-case 155:
+case 158:
                     var2 = var5;
 case 36:
                     var1 = _closure1_slot16;

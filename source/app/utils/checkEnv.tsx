@@ -35,169 +35,176 @@ case 6:
 case 9:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.WEBAPP_ENDPOINT;
+        var4 = var4.GATEWAY_ALT_ENDPOINT;
         var3 = var5 != var4;
 case 8:
         if(var3) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.CDN_HOST;
+        var4 = var4.WEBAPP_ENDPOINT;
         var3 = var5 != var4;
 case 10:
         if(var3) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.ASSET_ENDPOINT;
+        var4 = var4.CDN_HOST;
         var3 = var5 != var4;
 case 12:
         if(var3) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.MEDIA_PROXY_ENDPOINT;
+        var4 = var4.ASSET_ENDPOINT;
         var3 = var5 != var4;
 case 14:
         if(var3) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.IMAGE_PROXY_ENDPOINTS;
+        var4 = var4.MEDIA_PROXY_ENDPOINT;
         var3 = var5 != var4;
 case 16:
         if(var3) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.WIDGET_ENDPOINT;
+        var4 = var4.IMAGE_PROXY_ENDPOINTS;
         var3 = var5 != var4;
 case 18:
         if(var3) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.INVITE_HOST;
+        var4 = var4.WIDGET_ENDPOINT;
         var3 = var5 != var4;
 case 20:
         if(var3) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.GUILD_TEMPLATE_HOST;
+        var4 = var4.INVITE_HOST;
         var3 = var5 != var4;
 case 22:
         if(var3) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.GIFT_CODE_HOST;
+        var4 = var4.GUILD_TEMPLATE_HOST;
         var3 = var5 != var4;
 case 24:
         if(var3) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.RELEASE_CHANNEL;
+        var4 = var4.GIFT_CODE_HOST;
         var3 = var5 != var4;
 case 26:
         if(var3) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.DEVELOPERS_ENDPOINT;
+        var4 = var4.RELEASE_CHANNEL;
         var3 = var5 != var4;
 case 28:
         if(var3) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.MARKETING_ENDPOINT;
+        var4 = var4.DEVELOPERS_ENDPOINT;
         var3 = var5 != var4;
 case 30:
         if(var3) { _fun0001_ip = 32; continue _fun0001 }
 case 33:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.NETWORKING_ENDPOINT;
+        var4 = var4.MARKETING_ENDPOINT;
         var3 = var5 != var4;
 case 32:
         if(var3) { _fun0001_ip = 34; continue _fun0001 }
 case 35:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.BRAINTREE_KEY;
+        var4 = var4.NETWORKING_ENDPOINT;
         var3 = var5 != var4;
 case 34:
         if(var3) { _fun0001_ip = 36; continue _fun0001 }
 case 37:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.STRIPE_KEY;
+        var4 = var4.BRAINTREE_KEY;
         var3 = var5 != var4;
 case 36:
         if(var3) { _fun0001_ip = 38; continue _fun0001 }
 case 39:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.ADYEN_KEY;
+        var4 = var4.STRIPE_KEY;
         var3 = var5 != var4;
 case 38:
         if(var3) { _fun0001_ip = 40; continue _fun0001 }
 case 41:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.PROJECT_ENV;
+        var4 = var4.ADYEN_KEY;
         var3 = var5 != var4;
 case 40:
         if(var3) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.REMOTE_AUTH_ENDPOINT;
+        var4 = var4.PROJECT_ENV;
         var3 = var5 != var4;
 case 42:
         if(var3) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.RTC_LATENCY_ENDPOINT;
+        var4 = var4.REMOTE_AUTH_ENDPOINT;
         var3 = var5 != var4;
 case 44:
         if(var3) { _fun0001_ip = 46; continue _fun0001 }
 case 47:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.ACTIVITY_APPLICATION_HOST;
+        var4 = var4.RTC_LATENCY_ENDPOINT;
         var3 = var5 != var4;
 case 46:
         if(var3) { _fun0001_ip = 48; continue _fun0001 }
 case 49:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.PUBLIC_PATH;
+        var4 = var4.ACTIVITY_APPLICATION_HOST;
         var3 = var5 != var4;
 case 48:
         if(var3) { _fun0001_ip = 50; continue _fun0001 }
 case 51:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.MUX_ENV_KEY;
+        var4 = var4.PUBLIC_PATH;
         var3 = var5 != var4;
 case 50:
         if(var3) { _fun0001_ip = 52; continue _fun0001 }
 case 53:
         var4 = var2.window;
         var4 = var4.GLOBAL_ENV;
-        var4 = var4.WEBAUTHN_ORIGIN;
+        var4 = var4.MUX_ENV_KEY;
         var3 = var5 != var4;
 case 52:
         if(var3) { _fun0001_ip = 54; continue _fun0001 }
 case 55:
+        var4 = var2.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.WEBAUTHN_ORIGIN;
+        var3 = var5 != var4;
+case 54:
+        if(var3) { _fun0001_ip = 56; continue _fun0001 }
+case 57:
         var3 = var2.window;
         var3 = var3.GLOBAL_ENV;
         var3 = var3.NATIVE_WEBSOCKET_ORIGIN;
-case 54:
+case 56:
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;
         var3 = '//discord.com/api';
@@ -210,6 +217,10 @@ case 54:
         var4 = var3.GLOBAL_ENV;
         var3 = 'wss://gateway.discord.gg';
         var4['GATEWAY_ENDPOINT'] = var3;
+        var3 = var1.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'wss://gateway-aws.discord.gg';
+        var4['GATEWAY_ALT_ENDPOINT'] = var3;
         var3 = var1.window;
         var3 = var3.GLOBAL_ENV;
         var4 = '//discord.com';

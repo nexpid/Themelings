@@ -87,8 +87,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var8 = var2.launchPadType;
-            var _closure2_slot0 = var8;
+            var17 = var2.launchPadType;
+            var _closure2_slot0 = var17;
             var15 = var2.gestureState;
             var3 = var2.launchPadShown;
             var19 = var2.launchPadSharedState;
@@ -109,12 +109,12 @@ case 0:
             var6 = _closure1_slot1;
             var2 = 11;
             var2 = var5[var2];
-            var9 = var6.bind(var4)(var2);
+            var8 = var6.bind(var4)(var2);
             var2 = {};
             var2['launchPadSharedState'] = var19;
             var2['launchPadShown'] = var3;
             var2['gestureState'] = var15;
-            var2 = var9.bind(var4)(var2);
+            var2 = var8.bind(var4)(var2);
             var9 = var2.launchPadCoverStyles;
             var10 = var2.launchPadStyles;
             var2 = 12;
@@ -123,23 +123,23 @@ case 0:
             var20 = var2.bind(var4)(var3);
             var _closure2_slot3 = var20;
             var12 = _closure1_slot4;
-            var11 = var12.useRef;
+            var8 = var12.useRef;
             var2 = !var20;
-            var2 = var11.bind(var12)(var2);
+            var2 = var8.bind(var12)(var2);
             var _closure2_slot4 = var2;
-            var17 = var12.useState;
-            var11 = {};
-            var18 = var17.bind(var12)(var11);
-            var17 = _closure1_slot3;
-            var11 = 2;
-            var17 = var17.bind(var4)(var18, var11);
-            var11 = 1;
-            var11 = var17[var11];
-            var _closure2_slot5 = var11;
+            var11 = var12.useState;
+            var8 = {};
+            var18 = var11.bind(var12)(var8);
+            var11 = _closure1_slot3;
+            var8 = 2;
+            var11 = var11.bind(var4)(var18, var8);
+            var8 = 1;
+            var8 = var11[var8];
+            var _closure2_slot5 = var8;
             var18 = var12.useEffect;
-            var17 = new Array(1);
-            var17[0] = var20;
-            var11 = function() {
+            var11 = new Array(1);
+            var11[0] = var20;
+            var8 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure2_slot3;
@@ -178,23 +178,23 @@ case 2:
                     return var1;
                 }
             };
-            var11 = var18.bind(var12)(var11, var17);
+            var8 = var18.bind(var12)(var8, var11);
             var18 = var12.useCallback;
-            var17 = new Array(1);
-            var17[0] = var13;
-            var11 = function() {
+            var11 = new Array(1);
+            var11[0] = var13;
+            var8 = function() {
                 var3 = _closure2_slot1;
                 var2 = var3.setLaunchPadPosition;
                 var1 = 0;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var22 = var18.bind(var12)(var11, var17);
+            var22 = var18.bind(var12)(var8, var11);
             var _closure2_slot6 = var22;
             var18 = var12.useEffect;
-            var17 = new Array(1);
-            var17[0] = var20;
-            var11 = function() {
+            var11 = new Array(1);
+            var11[0] = var20;
+            var8 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot3;
@@ -215,13 +215,13 @@ case 4:
                     return var1;
                 }
             };
-            var11 = var18.bind(var12)(var11, var17);
-            var17 = var12.useEffect;
+            var8 = var18.bind(var12)(var8, var11);
+            var18 = var12.useEffect;
             var11 = new Array(3);
-            var11[0] = var8;
+            var11[0] = var17;
             var11[1] = var20;
             var11[2] = var7;
-            var7 = function() {
+            var8 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var4 = _closure2_slot0;
@@ -269,10 +269,10 @@ case 9:
                     return var1;
                 }
             };
-            var7 = var17.bind(var12)(var7, var11);
+            var8 = var18.bind(var12)(var8, var11);
             var11 = var12.useEffect;
-            var7 = new Array(1);
-            var7[0] = var3;
+            var8 = new Array(1);
+            var8[0] = var3;
             var3 = function() {
                 var1 = function() {
                     var3 = _closure1_slot0;
@@ -287,10 +287,10 @@ case 9:
                 };
                 return var1;
             };
-            var3 = var11.bind(var12)(var3, var7);
+            var3 = var11.bind(var12)(var3, var8);
             var3 = 16;
             var3 = var5[var3];
-            var7 = var6.bind(var4)(var3);
+            var8 = var6.bind(var4)(var3);
             var3 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -305,7 +305,7 @@ case 11:
                     return var1;
                 }
             };
-            var3 = var7.bind(var4)(var3);
+            var3 = var8.bind(var4)(var3);
             var1 = function useLaunchPadComponentDispatchListeners(arg1) {
                 var5 = arg1;
                 var _closure3_slot0 = var5;
@@ -400,12 +400,12 @@ case 11:
             var3 = _closure1_slot13;
             var2 = _closure1_slot5;
             var1 = {};
-            var7 = _closure1_slot8;
-            var7 = var7.absoluteFill;
-            var1['style'] = var7;
-            var7 = 'box-none';
-            var1['pointerEvents'] = var7;
-            var7 = _closure1_slot12;
+            var8 = _closure1_slot8;
+            var8 = var8.absoluteFill;
+            var1['style'] = var8;
+            var8 = 'box-none';
+            var1['pointerEvents'] = var8;
+            var8 = _closure1_slot12;
             var11 = 18;
             var5 = var5[var11];
             var5 = var6.bind(var4)(var5);
@@ -414,14 +414,17 @@ case 11:
             var5['style'] = var9;
             var9 = 'none';
             var5['pointerEvents'] = var9;
-            var6 = var7.bind(var4)(var6, var5);
+            var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(3);
             var5[0] = var6;
             var6 = _closure1_slot9;
-            var7 = var6.PULL_TAB;
+            var12 = var6.PULL_TAB;
             var6 = null;
-            if(!(var8 === var7)) { _fun0001_ip = 12; continue _fun0001 }
+            if(!(var17 === var12)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
+            var6 = null;
+            if(var7) { _fun0001_ip = 12; continue _fun0001 }
+case 14:
             var12 = _closure1_slot12;
             var8 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -444,10 +447,10 @@ case 12:
             var7 = var6.View;
             var6 = {};
             var6['style'] = var10;
-            if(!var20) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!var20) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var9 = undefined;
-case 14:
+case 15:
             var6['pointerEvents'] = var9;
             var11 = _closure1_slot13;
             var10 = _closure1_slot0;
@@ -467,10 +470,10 @@ case 14:
             var13 = _closure1_slot6;
             var12 = {};
             var14 = 'no';
-            if(!var20) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(!var20) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var14 = 'yes';
-case 16:
+case 17:
             var12['importantForAccessibility'] = var14;
             var14 = 'button';
             var12['accessibilityRole'] = var14;
@@ -508,10 +511,10 @@ case 16:
             var14 = var13.Freeze;
             var13 = {};
             var17 = !var20;
-            if(!var17) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(!var17) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var17 = var18;
-case 18:
+case 19:
             var13['freeze'] = var17;
             var18 = _closure1_slot12;
             var17 = _closure1_slot1;

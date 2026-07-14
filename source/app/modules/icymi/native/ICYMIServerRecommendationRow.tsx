@@ -372,7 +372,7 @@ case 17:
                         var16 = var9;
                         var9 = copyDataProperties(var17, var16);
                         var3 = var7.bind(var8)(var6, var3);
-                        SaveGenerator(address=496);
+                        SaveGenerator(address=492);
 case 26:
                         return var3;
 case 27:

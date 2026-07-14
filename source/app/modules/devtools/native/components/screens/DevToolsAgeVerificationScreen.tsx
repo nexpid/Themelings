@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function showAgeVerificationTestModal() {
         var1 = undefined;
-        var4 = _closure1_slot10;
+        var4 = _closure1_slot9;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot8 = var1;
     var1 = function _showAgeVerificationTestModal() {
         var5 = undefined;
         var1 = undefined;
@@ -32,15 +32,14 @@ case 0:
 case 3: // try_start_0
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 6;
                     var2 = var4[var2];
                     var8 = undefined;
                     var4 = var3.bind(var8)(var2);
-                    var3 = var4.testAgeVerification;
-                    var2 = _closure1_slot5;
-                    var2 = var2.MODULAR;
+                    var3 = var4.requestAgeVerification;
+                    var2 = {};
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=60);
+                    SaveGenerator(address=52);
 case 4:
                     return var2;
 case 5:
@@ -49,17 +48,23 @@ case 5:
 case 7:
                     var4 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var3 = 8;
+                    var3 = 7;
                     var3 = var9[var3];
                     var5 = var4.bind(var8)(var3);
                     var4 = var5.showAgeVerification;
                     var3 = {};
                     var7 = var2.verification_webview_url;
                     var3['webviewUrl'] = var7;
+                    var7 = var2.verification_request_id;
+                    var3['verificationRequestId'] = var7;
+                    var7 = var2.verification_vendor_name;
+                    var3['verificationVendorName'] = var7;
+                    var7 = var2.incode_parameters;
+                    var3['incodeParameters'] = var7;
                     var7 = function onComplete() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 9;
+                        var1 = 8;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -70,7 +75,7 @@ case 7:
                     };
                     var3['onComplete'] = var7;
                     var7 = _closure1_slot0;
-                    var6 = 10;
+                    var6 = 9;
                     var6 = var9[var6];
                     var6 = var7.bind(var8)(var6);
                     var6 = var6.AgeVerificationModalEntryPoint;
@@ -85,7 +90,7 @@ case 10: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 8;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -102,7 +107,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot10 = var4;
+        _closure1_slot9 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -110,7 +115,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -136,22 +141,17 @@ case 2:
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.VerificationMethod;
-    var _closure1_slot5 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var _closure1_slot5 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
-    var4 = 5;
+    var _closure1_slot6 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 6;
+    var10 = 5;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
@@ -166,24 +166,24 @@ case 2:
     var9['padding'] = var10;
     var4['content'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 16;
+    var _closure1_slot7 = var4;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/devtools/native/components/screens/DevToolsAgeVerificationScreen.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function DevToolsAgeVerificationScreen() {
-        var1 = _closure1_slot8;
+        var1 = _closure1_slot7;
         var4 = undefined;
         var8 = var1.bind(var4)();
         var2 = _closure1_slot1;
         var13 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var1 = var13[var1];
         var1 = var2.bind(var4)(var1);
         var7 = var1.bind(var4)();
-        var3 = _closure1_slot6;
+        var3 = _closure1_slot5;
         var2 = _closure1_slot4;
         var1 = {};
         var5 = var8.container;
@@ -199,30 +199,30 @@ case 2:
         var6['paddingBottom'] = var7;
         var5[1] = var6;
         var1['contentContainerStyle'] = var5;
-        var7 = _closure1_slot7;
+        var7 = _closure1_slot6;
         var12 = _closure1_slot0;
-        var5 = 12;
+        var5 = 11;
         var5 = var13[var5];
         var5 = var12.bind(var4)(var5);
         var6 = var5.TableRowGroup;
         var5 = {'title': 'Quick Actions', 'hasIcons': true};
-        var9 = 13;
+        var9 = 12;
         var8 = var13[var9];
         var8 = var12.bind(var4)(var8);
         var10 = var8.TableRow;
         var8 = {};
         var14 = 'Launch Age Verification Test Tool';
         var8['label'] = var14;
-        var11 = _closure1_slot9;
+        var11 = _closure1_slot8;
         var8['onPress'] = var11;
-        var14 = 14;
+        var14 = 13;
         var11 = var13[var14];
         var11 = var12.bind(var4)(var11);
         var15 = var11.KeyIcon;
         var11 = {};
         var11 = var3.bind(var4)(var15, var11);
         var8['icon'] = var11;
-        var11 = 15;
+        var11 = 14;
         var15 = var13[var11];
         var15 = var12.bind(var4)(var15);
         var16 = var15.TableRowArrow;
@@ -241,14 +241,14 @@ case 2:
         var15 = function onPress() {
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var7[var1];
             var6 = undefined;
             var3 = var2.bind(var6)(var1);
             var2 = var3.showAgeVerificationGetStartedModal;
             var1 = {};
             var5 = _closure1_slot0;
-            var4 = 10;
+            var4 = 9;
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.AgeVerificationModalEntryPoint;

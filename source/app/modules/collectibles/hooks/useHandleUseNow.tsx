@@ -370,7 +370,7 @@ case 0:
                     var1 = var1.CollectiblesItemType;
                     var4 = var1.BUNDLE;
                     var1 = true;
-                    if(!(var5 === var4)) { _fun0005_ip = 17; continue _fun0005 }
+                    if(!(var5 === var4)) { _fun0005_ip = 44; continue _fun0005 }
 case 4:
                     var4 = global;
                     var4 = var4.Set;
@@ -385,15 +385,15 @@ case 4:
                     var3 = var5.bind(var8)();
                     var2 = var3.done;
                     var1 = true;
-                    if(var2) { _fun0005_ip = 17; continue _fun0005 }
-case 44:
+                    if(var2) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
                     var2 = var3.value;
                     var10 = var6.has;
                     var9 = var2.type;
                     var9 = var10.bind(var6)(var9);
                     var1 = false;
-                    if(var9) { _fun0005_ip = 17; continue _fun0005 }
-case 45:
+                    if(var9) { _fun0005_ip = 44; continue _fun0005 }
+case 46:
                     var9 = var6.add;
                     var2 = var2.type;
                     var2 = var9.bind(var6)(var2);
@@ -401,8 +401,8 @@ case 45:
                     var2 = var9.done;
                     var3 = var9;
                     var1 = true;
-                    if(!var2) { _fun0005_ip = 44; continue _fun0005 }
-case 17:
+                    if(!var2) { _fun0005_ip = 45; continue _fun0005 }
+case 44:
                     return var1;
                 }
             };
@@ -417,32 +417,32 @@ case 17:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(var3) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+                        if(var3) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
                         var5 = undefined;
                         var6 = undefined;
                         var4 = _closure2_slot8;
                         if(!var4) { _fun0006_ip = 41; continue _fun0006 }
-case 48:
+case 49:
                         var7 = _closure2_slot3;
                         var4 = true;
                         var4 = var7.bind(var5)(var4);
                         var6 = {};
-case 49: // try_start_0 // try_start_1
+case 50: // try_start_0 // try_start_1
                         var4 = _closure2_slot4;
                         var8 = null;
-                        if(!(var8 != var4)) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
+                        if(!(var8 != var4)) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
                         var7 = var6;
                         var4 = _closure2_slot4;
                         var7['avatarDecoration'] = var4;
-case 50:
+case 51:
                         var4 = _closure2_slot5;
-                        if(!(var8 == var4)) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+                        if(!(var8 == var4)) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
                         var4 = _closure2_slot7;
-                        if(!(var8 != var4)) { _fun0006_ip = 54; continue _fun0006 }
-case 52:
+                        if(!(var8 != var4)) { _fun0006_ip = 55; continue _fun0006 }
+case 53:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot1;
                         var7 = 6;
@@ -453,18 +453,18 @@ case 52:
                         var11 = _closure2_slot5;
                         var12 = var8 != var11;
                         var11 = undefined;
-                        if(!var12) { _fun0006_ip = 55; continue _fun0006 }
-case 56:
+                        if(!var12) { _fun0006_ip = 56; continue _fun0006 }
+case 57:
                         var11 = _closure2_slot5;
-case 55:
+case 56:
                         var7['pendingProfileEffect'] = var11;
                         var11 = _closure2_slot7;
                         var12 = var8 != var11;
                         var11 = undefined;
-                        if(!var12) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
+                        if(!var12) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
                         var11 = _closure2_slot7;
-case 57:
+case 58:
                         var7['pendingProfileFrame'] = var11;
                         var9 = var9.bind(var10)(var7);
                         var7 = _closure1_slot0;
@@ -477,17 +477,17 @@ case 57:
                         SaveGenerator(address=197);
 case 20:
                         return var4;
-case 59:
+case 60:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                        if(var7) { _fun0006_ip = 60; continue _fun0006 }
-case 54:
+                        if(var7) { _fun0006_ip = 61; continue _fun0006 }
+case 55:
                         var7 = _closure2_slot6;
-                        if(!(var8 != var7)) { _fun0006_ip = 61; continue _fun0006 }
-case 62:
+                        if(!(var8 != var7)) { _fun0006_ip = 62; continue _fun0006 }
+case 63:
                         var9 = var6;
                         var7 = _closure2_slot6;
                         var9['nameplate'] = var7;
-case 61:
+case 62:
                         var7 = global;
                         var10 = var7.Object;
                         var9 = var10.keys;
@@ -495,8 +495,8 @@ case 61:
                         var7 = var9.bind(var10)(var7);
                         var9 = var7.length;
                         var7 = 0;
-                        if(!(var9 > var7)) { _fun0006_ip = 63; continue _fun0006 }
-case 64:
+                        if(!(var9 > var7)) { _fun0006_ip = 64; continue _fun0006 }
+case 65:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot1;
                         var7 = 8;
@@ -505,50 +505,50 @@ case 64:
                         var7 = var9.saveProfileAndAccountChanges;
                         var6 = var7.bind(var9)(var6);
                         SaveGenerator(address=297);
-case 65:
-                        return var6;
 case 66:
+                        return var6;
+case 67:
                         ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                        if(var7) { _fun0006_ip = 67; continue _fun0006 }
-case 63:
+                        if(var7) { _fun0006_ip = 68; continue _fun0006 }
+case 64:
                         var7 = _closure2_slot1;
-                        if(!(var8 != var7)) { _fun0006_ip = 68; continue _fun0006 }
-case 69:
+                        if(!(var8 != var7)) { _fun0006_ip = 69; continue _fun0006 }
+case 70:
                         var7 = _closure2_slot1;
                         var7 = var7.bind(var5)();
-case 68: // try_end0
-                        _fun0006_ip = 70; continue _fun0006;
-case 67: // try_end1
+case 69: // try_end0
+                        _fun0006_ip = 71; continue _fun0006;
+case 68: // try_end1
                         var8 = _closure2_slot3;
                         var7 = false;
                         var7 = var8.bind(var5)(var7);
                         return var6;
-case 60:
+case 61:
                         var7 = _closure2_slot3;
                         var6 = false;
                         var6 = var7.bind(var5)(var6);
                         return var4;
-case 71: // try_start_2 // catch_target0
+case 72: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=1);
                         var6 = _closure2_slot2;
                         var4 = null;
-                        if(!(var4 != var6)) { _fun0006_ip = 70; continue _fun0006 }
-case 72:
+                        if(!(var4 != var6)) { _fun0006_ip = 71; continue _fun0006 }
+case 73:
                         var4 = _closure2_slot2;
                         var2 = var4.bind(var5)(var2);
-case 70: // try_end2
+case 71: // try_end2
                         var4 = _closure2_slot3;
                         var2 = false;
                         var2 = var4.bind(var5)(var2);
 case 41:
                         return var5;
-case 73: // catch_target1 // catch_target2
+case 74: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=1);
                         var4 = _closure2_slot3;
                         var3 = false;
                         var3 = var4.bind(var5)(var3);
                         throw var2;
-case 46:
+case 47:
                         return var1;
                     }
                 };

@@ -185,13 +185,22 @@ case 6:
         var5 = var6.bind(var1)(var5);
         var5 = var4.setTimeout;
         var4 = function() {
-            var4 = _closure1_slot10;
-            var3 = _closure2_slot0;
-            var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var2 = _closure1_slot11;
-            var2 = var2.bind(var1)(var3);
-            return var1;
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                var5 = _closure1_slot10;
+                var4 = _closure2_slot0;
+                var1 = undefined;
+                var4 = var5.bind(var1)(var4);
+                var5 = _closure1_slot8;
+                var4 = null;
+                if(!(var4 != var5)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+                var3 = _closure1_slot11;
+                var2 = _closure2_slot0;
+                var2 = var3.bind(var1)(var2);
+case 23:
+                return var1;
+            }
         };
         var2 = 300;
         var2 = var5.bind(var1)(var4, var2);
@@ -200,7 +209,7 @@ case 6:
     };
     var3['persistLaunchPadPullTabPosition'] = var5;
     var4 = function clearLaunchPadPullTabExclusionRect() {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -210,13 +219,13 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+            if(!var3) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var5 = _closure1_slot8;
             var4 = null;
             var3 = var4 != var5;
-case 23:
-            if(!var3) { _fun0003_ip = 25; continue _fun0003 }
+case 25:
+            if(!var3) { _fun0004_ip = 27; continue _fun0004 }
 case 3:
             _closure1_slot8 = var1;
             var3 = _closure1_slot1;
@@ -227,7 +236,7 @@ case 3:
             var3 = var4.setSystemGestureExclusionRects;
             var2 = new Array(0);
             var2 = var3.bind(var4)(var2);
-case 25:
+case 27:
             return var1;
         }
     };

@@ -20,77 +20,79 @@ case 0:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = arg1;
-                    var11 = arg2;
-                    var10 = var2.guid;
-                    var8 = var2.guid;
-                    var19 = var2.name;
-                    var9 = var2.name;
+                    var12 = arg2;
+                    var11 = var2.guid;
+                    var9 = var2.guid;
+                    var20 = var2.name;
+                    var10 = var2.name;
                     var1 = var2.index;
-                    var7 = var2.facing;
-                    var6 = var2.hardwareId;
-                    var5 = var2.containerId;
-                    var4 = var2.effects;
-                    var3 = var2.macosTransportType;
-                    var2 = var2.windowsEndpointFormFactor;
-                    var15 = _closure2_slot0;
-                    var13 = _closure1_slot4;
-                    var13 = var13.VIDEO_INPUT;
-                    if(!(var15 === var13)) { _fun0002_ip = 2; continue _fun0002 }
+                    var8 = var2.facing;
+                    var7 = var2.hardwareId;
+                    var6 = var2.containerId;
+                    var5 = var2.effects;
+                    var4 = var2.macosTransportType;
+                    var3 = var2.windowsEndpointFormFactor;
+                    var2 = var2.windowsDeviceService;
+                    var16 = _closure2_slot0;
+                    var14 = _closure1_slot4;
+                    var14 = var14.VIDEO_INPUT;
+                    if(!(var16 === var14)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var15 = /^front/i;
-                    var13 = var15.test;
-                    var13 = var13.bind(var15)(var19);
-                    if(var13) { _fun0002_ip = 4; continue _fun0002 }
+                    var16 = /^front/i;
+                    var14 = var16.test;
+                    var14 = var14.bind(var16)(var20);
+                    if(var14) { _fun0002_ip = 4; continue _fun0002 }
 case 2:
-                    var15 = /^default/;
-                    var13 = var15.test;
-                    var13 = var13.bind(var15)(var19);
-                    if(var13) { _fun0002_ip = 5; continue _fun0002 }
+                    var16 = /^default/;
+                    var14 = var16.test;
+                    var14 = var14.bind(var16)(var20);
+                    if(var14) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                    var15 = null;
-                    var13 = var19;
-                    if(!(var15 != var10)) { _fun0002_ip = 7; continue _fun0002 }
+                    var16 = null;
+                    var14 = var20;
+                    if(!(var16 != var11)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-                    var15 = '';
-                    var13 = var19;
-                    if(!(var15 !== var10)) { _fun0002_ip = 7; continue _fun0002 }
+                    var16 = '';
+                    var14 = var20;
+                    if(!(var16 !== var11)) { _fun0002_ip = 7; continue _fun0002 }
 case 9:
-                    var13 = var10;
+                    var14 = var11;
 case 7:
-                    var10 = var19;
+                    var11 = var20;
                     _fun0002_ip = 10; continue _fun0002;
 case 5:
-                    var15 = true;
-                    _closure2_slot1 = var15;
-                    var13 = _closure1_slot3;
-                    var18 = var19.replace;
-                    var17 = 'default';
-                    var15 = 'Default';
-                    var10 = var18.bind(var19)(var17, var15);
+                    var16 = true;
+                    _closure2_slot1 = var16;
+                    var14 = _closure1_slot3;
+                    var19 = var20.replace;
+                    var18 = 'default';
+                    var16 = 'Default';
+                    var11 = var19.bind(var20)(var18, var16);
                     _fun0002_ip = 10; continue _fun0002;
 case 4:
-                    var13 = _closure1_slot3;
-                    var10 = 'Default';
+                    var14 = _closure1_slot3;
+                    var11 = 'Default';
 case 10:
-                    var14 = null;
-                    if(!(var14 != var1)) { _fun0002_ip = 11; continue _fun0002 }
+                    var15 = null;
+                    if(!(var15 != var1)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-                    var11 = var1;
+                    var12 = var1;
 case 11:
                     var1 = {};
-                    var1['id'] = var13;
-                    var12 = _closure2_slot0;
-                    var1['type'] = var12;
-                    var1['index'] = var11;
-                    var1['name'] = var10;
-                    var1['originalName'] = var9;
-                    var1['originalId'] = var8;
-                    var1['facing'] = var7;
-                    var1['hardwareId'] = var6;
-                    var1['containerId'] = var5;
-                    var1['effects'] = var4;
-                    var1['macosTransportType'] = var3;
-                    var1['windowsEndpointFormFactor'] = var2;
+                    var1['id'] = var14;
+                    var13 = _closure2_slot0;
+                    var1['type'] = var13;
+                    var1['index'] = var12;
+                    var1['name'] = var11;
+                    var1['originalName'] = var10;
+                    var1['originalId'] = var9;
+                    var1['facing'] = var8;
+                    var1['hardwareId'] = var7;
+                    var1['containerId'] = var6;
+                    var1['effects'] = var5;
+                    var1['macosTransportType'] = var4;
+                    var1['windowsEndpointFormFactor'] = var3;
+                    var1['windowsDeviceService'] = var2;
                     return var1;
                 }
             };

@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = var4.BoostedGuildTiers;
     var _closure1_slot3 = var4;
-    var4 = 39;
+    var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -206,40 +206,26 @@ case 82:
             if(!(var2 !== var4)) { _fun0001_ip = 80; continue _fun0001 }
 case 83:
             var2 = _closure1_slot2;
-            var2 = var2.EMOJI_ADDED;
+            var2 = var2.PREMIUM_GROUP_INVITE;
             if(!(var2 !== var4)) { _fun0001_ip = 84; continue _fun0001 }
 case 85:
             var2 = _closure1_slot2;
-            var2 = var2.PREMIUM_GROUP_INVITE;
+            var2 = var2.PREMIUM_REFERRAL;
             if(!(var2 !== var4)) { _fun0001_ip = 86; continue _fun0001 }
 case 87:
             var2 = _closure1_slot2;
-            var2 = var2.PREMIUM_REFERRAL;
+            var2 = var2.VOICE_SESSION;
             if(!(var2 !== var4)) { _fun0001_ip = 88; continue _fun0001 }
 case 89:
             var2 = _closure1_slot2;
-            var2 = var2.VOICE_SESSION;
+            var2 = var2.FRIEND_REQUEST_ACCEPTED;
             if(!(var2 !== var4)) { _fun0001_ip = 90; continue _fun0001 }
 case 91:
             var2 = _closure1_slot2;
-            var2 = var2.FRIEND_REQUEST_ACCEPTED;
+            var2 = var2.GIFTING_PROMPT;
             if(!(var2 !== var4)) { _fun0001_ip = 92; continue _fun0001 }
 case 93:
-            var2 = _closure1_slot2;
-            var2 = var2.GIFTING_PROMPT;
-            if(!(var2 !== var4)) { _fun0001_ip = 94; continue _fun0001 }
-case 95:
             var2 = null;
-            return var2;
-case 94:
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var2 = 38;
-            var4 = var4[var2];
-            var2 = undefined;
-            var4 = var5.bind(var2)(var4);
-            var2 = var4.createGiftIntentSystemMessage;
-            var2 = var2.bind(var4)(var3);
             return var2;
 case 92:
             var5 = _closure1_slot0;
@@ -248,7 +234,7 @@ case 92:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createFriendRequestAcceptedSystemMessage;
+            var2 = var4.createGiftIntentSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 90:
@@ -258,7 +244,7 @@ case 90:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createVoiceSessionSystemMessage;
+            var2 = var4.createFriendRequestAcceptedSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 88:
@@ -268,7 +254,7 @@ case 88:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createReferralSystemMessage;
+            var2 = var4.createVoiceSessionSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 86:
@@ -278,7 +264,7 @@ case 86:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createPremiumGroupInviteSystemMessage;
+            var2 = var4.createReferralSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 84:
@@ -288,7 +274,7 @@ case 84:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createEmojiAddedSystemMessage;
+            var2 = var4.createPremiumGroupInviteSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 80:

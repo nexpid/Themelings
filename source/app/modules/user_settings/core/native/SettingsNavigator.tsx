@@ -384,7 +384,7 @@ case 12:
                     var1 = undefined;
                     var5 = var11.bind(var1)(var5);
                     var6 = var5.PressableOpacity;
-                    var5 = {};
+                    var5 = {'onPress': null, 'accessible': true, 'accessibilityRole': 'button'};
                     var8 = function onPress() {
                         var2 = _closure3_slot0;
                         var1 = var2.goBack;
@@ -392,8 +392,6 @@ case 12:
                         return var1;
                     };
                     var5['onPress'] = var8;
-                    var8 = 'button';
-                    var5['accessibilityRole'] = var8;
                     var8 = 26;
                     var9 = var13[var8];
                     var9 = var11.bind(var1)(var9);
@@ -411,7 +409,7 @@ case 12:
                     var8 = var8.BACK_ICON_WITH_BADGE_HIT_SLOP;
                     var5['hitSlop'] = var8;
                     var9 = _closure1_slot10;
-                    var8 = {};
+                    var8 = {'style': null, 'importantForAccessibility': 'no-hide-descendants', 'accessibilityElementsHidden': true};
                     var14 = _closure2_slot0;
                     var14 = var14.backIcon;
                     var8['style'] = var14;
@@ -578,6 +576,8 @@ case 24:
                 return var1;
             };
             var15['headerTitle'] = var21;
+            var21 = {'left': false, 'right': false};
+            var15['UNSTABLE_headerInsets'] = var21;
             var26 = var15;
             var25 = var20;
             var20 = copyDataProperties(var26, var25);

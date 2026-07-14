@@ -3912,7 +3912,7 @@ case 0:
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0093_ip = 36; continue _fun0093 }
+            if(!(var1 !== var3)) { _fun0093_ip = 9; continue _fun0093 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -3932,6 +3932,100 @@ case 40:
 case 41:
             _fun0093_ip = 38; continue _fun0093;
 case 39:
+            var1 = 8;
+            return var1;
+case 37:
+            var1 = 12;
+            return var1;
+case 9:
+            var1 = 12;
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['JUMP_TO_PRESENT_BOTTOM_SPACING'] = var5;
+    var5 = {};
+    var7 = function resolve() {
+        var1 = 40;
+        return var1;
+    };
+    var5['resolve'] = var7;
+    var4['JUMP_TO_PRESENT_BUTTON_SIZE'] = var5;
+    var5 = {};
+    var7 = function resolve() {
+        var1 = 20;
+        return var1;
+    };
+    var5['resolve'] = var7;
+    var4['JUMP_TO_PRESENT_ICON_SIZE'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0094: for(var _fun0094_ip = 0; ; ) switch(_fun0094_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0094_ip = 9; continue _fun0094 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0094_ip = 37; continue _fun0094 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0094_ip = 39; continue _fun0094 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0094_ip = 37; continue _fun0094 }
+case 41:
+            _fun0094_ip = 38; continue _fun0094;
+case 39:
+            var1 = 16;
+            return var1;
+case 37:
+            var1 = 12;
+            return var1;
+case 9:
+            var1 = 12;
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['JUMP_TO_PRESENT_RIGHT_SPACING'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0095: for(var _fun0095_ip = 0; ; ) switch(_fun0095_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0095_ip = 36; continue _fun0095 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0095_ip = 37; continue _fun0095 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0095_ip = 39; continue _fun0095 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0095_ip = 37; continue _fun0095 }
+case 41:
+            _fun0095_ip = 38; continue _fun0095;
+case 39:
             var1 = 16;
             return var1;
 case 37:
@@ -3946,13 +4040,13 @@ case 36:
     var4['MEDIA_KEYBOARD_BAR_BORDER_RADIUS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0094: for(var _fun0094_ip = 0; ; ) switch(_fun0094_ip) {
+        _fun0096: for(var _fun0096_ip = 0; ; ) switch(_fun0096_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.enabledExperiments;
             var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0094_ip = 56; continue _fun0094 }
+            if(!(var1 !== var2)) { _fun0096_ip = 56; continue _fun0096 }
 case 29:
             var2 = _closure1_slot0;
             var6 = undefined;
@@ -3960,17 +4054,17 @@ case 29:
             var3 = var5.bind(var6)();
             var2 = var3.done;
             var4 = 'mobile-visual-refresh';
-            if(var2) { _fun0094_ip = 37; continue _fun0094 }
+            if(var2) { _fun0096_ip = 37; continue _fun0096 }
 case 38:
             var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0094_ip = 39; continue _fun0094 }
+            if(!(var4 !== var2)) { _fun0096_ip = 39; continue _fun0096 }
 case 40:
             var7 = var5.bind(var6)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0094_ip = 37; continue _fun0094 }
+            if(var2) { _fun0096_ip = 37; continue _fun0096 }
 case 41:
-            _fun0094_ip = 38; continue _fun0094;
+            _fun0096_ip = 38; continue _fun0096;
 case 39:
             var2 = 1;
             return var2;
@@ -3984,13 +4078,13 @@ case 56:
     var4['MEDIA_KEYBOARD_BAR_BORDER_WIDTH'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0095: for(var _fun0095_ip = 0; ; ) switch(_fun0095_ip) {
+        _fun0097: for(var _fun0097_ip = 0; ; ) switch(_fun0097_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.enabledExperiments;
             var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0095_ip = 56; continue _fun0095 }
+            if(!(var1 !== var2)) { _fun0097_ip = 56; continue _fun0097 }
 case 29:
             var2 = _closure1_slot0;
             var6 = undefined;
@@ -3998,17 +4092,17 @@ case 29:
             var3 = var5.bind(var6)();
             var2 = var3.done;
             var4 = 'mobile-visual-refresh';
-            if(var2) { _fun0095_ip = 57; continue _fun0095 }
+            if(var2) { _fun0097_ip = 57; continue _fun0097 }
 case 38:
             var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0095_ip = 39; continue _fun0095 }
+            if(!(var4 !== var2)) { _fun0097_ip = 39; continue _fun0097 }
 case 40:
             var7 = var5.bind(var6)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0095_ip = 57; continue _fun0095 }
+            if(var2) { _fun0097_ip = 57; continue _fun0097 }
 case 41:
-            _fun0095_ip = 38; continue _fun0095;
+            _fun0097_ip = 38; continue _fun0097;
 case 39:
             return var1;
 case 57:
@@ -4023,13 +4117,13 @@ case 56:
     var4['MEDIA_KEYBOARD_BAR_BUTTONS_MARGIN_HORIZONTAL'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0096: for(var _fun0096_ip = 0; ; ) switch(_fun0096_ip) {
+        _fun0098: for(var _fun0098_ip = 0; ; ) switch(_fun0098_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0096_ip = 9; continue _fun0096 }
+            if(!(var1 !== var3)) { _fun0098_ip = 9; continue _fun0098 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -4037,17 +4131,17 @@ case 29:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0096_ip = 37; continue _fun0096 }
+            if(var1) { _fun0098_ip = 37; continue _fun0098 }
 case 38:
             var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0096_ip = 39; continue _fun0096 }
+            if(!(var3 !== var1)) { _fun0098_ip = 39; continue _fun0098 }
 case 40:
             var6 = var4.bind(var5)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0096_ip = 37; continue _fun0096 }
+            if(var1) { _fun0098_ip = 37; continue _fun0098 }
 case 41:
-            _fun0096_ip = 38; continue _fun0096;
+            _fun0098_ip = 38; continue _fun0098;
 case 39:
             var1 = 4;
             return var1;
@@ -4063,13 +4157,13 @@ case 9:
     var4['MEDIA_KEYBOARD_BAR_GAP'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0097: for(var _fun0097_ip = 0; ; ) switch(_fun0097_ip) {
+        _fun0099: for(var _fun0099_ip = 0; ; ) switch(_fun0099_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0097_ip = 9; continue _fun0097 }
+            if(!(var1 !== var3)) { _fun0099_ip = 9; continue _fun0099 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -4077,17 +4171,17 @@ case 29:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0097_ip = 37; continue _fun0097 }
+            if(var1) { _fun0099_ip = 37; continue _fun0099 }
 case 38:
             var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0097_ip = 39; continue _fun0097 }
+            if(!(var3 !== var1)) { _fun0099_ip = 39; continue _fun0099 }
 case 40:
             var6 = var4.bind(var5)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0097_ip = 37; continue _fun0097 }
+            if(var1) { _fun0099_ip = 37; continue _fun0099 }
 case 41:
-            _fun0097_ip = 38; continue _fun0097;
+            _fun0099_ip = 38; continue _fun0099;
 case 39:
             var1 = 12;
             return var1;
@@ -4103,13 +4197,13 @@ case 9:
     var4['MEDIA_KEYBOARD_BAR_MARGIN_HORIZONTAL'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0098: for(var _fun0098_ip = 0; ; ) switch(_fun0098_ip) {
+        _fun0100: for(var _fun0100_ip = 0; ; ) switch(_fun0100_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.enabledExperiments;
             var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0098_ip = 56; continue _fun0098 }
+            if(!(var1 !== var2)) { _fun0100_ip = 56; continue _fun0100 }
 case 29:
             var2 = _closure1_slot0;
             var6 = undefined;
@@ -4117,17 +4211,17 @@ case 29:
             var3 = var5.bind(var6)();
             var2 = var3.done;
             var4 = 'mobile-visual-refresh';
-            if(var2) { _fun0098_ip = 37; continue _fun0098 }
+            if(var2) { _fun0100_ip = 37; continue _fun0100 }
 case 38:
             var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0098_ip = 39; continue _fun0098 }
+            if(!(var4 !== var2)) { _fun0100_ip = 39; continue _fun0100 }
 case 40:
             var7 = var5.bind(var6)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0098_ip = 37; continue _fun0098 }
+            if(var2) { _fun0100_ip = 37; continue _fun0100 }
 case 41:
-            _fun0098_ip = 38; continue _fun0098;
+            _fun0100_ip = 38; continue _fun0100;
 case 39:
             var2 = 8;
             return var2;
@@ -4139,84 +4233,6 @@ case 56:
     };
     var5['resolve'] = var7;
     var4['MEDIA_KEYBOARD_BAR_PADDING_HORIZONTAL'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0099: for(var _fun0099_ip = 0; ; ) switch(_fun0099_ip) {
-case 0:
-            var1 = arg1;
-            var3 = var1.enabledExperiments;
-            var2 = var3.length;
-            var1 = 0;
-            if(!(var1 !== var2)) { _fun0099_ip = 56; continue _fun0099 }
-case 29:
-            var2 = _closure1_slot0;
-            var6 = undefined;
-            var5 = var2.bind(var6)(var3);
-            var3 = var5.bind(var6)();
-            var2 = var3.done;
-            var4 = 'mobile-visual-refresh';
-            if(var2) { _fun0099_ip = 37; continue _fun0099 }
-case 38:
-            var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0099_ip = 39; continue _fun0099 }
-case 40:
-            var7 = var5.bind(var6)();
-            var2 = var7.done;
-            var3 = var7;
-            if(var2) { _fun0099_ip = 37; continue _fun0099 }
-case 41:
-            _fun0099_ip = 38; continue _fun0099;
-case 39:
-            var2 = 8;
-            return var2;
-case 37:
-            return var1;
-case 56:
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['MEDIA_KEYBOARD_BUTTON_BORDER_RADIUS'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0100: for(var _fun0100_ip = 0; ; ) switch(_fun0100_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0100_ip = 54; continue _fun0100 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0100_ip = 51; continue _fun0100 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0100_ip = 39; continue _fun0100 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0100_ip = 51; continue _fun0100 }
-case 41:
-            _fun0100_ip = 38; continue _fun0100;
-case 39:
-            var1 = 'icon-default';
-            return var1;
-case 51:
-            var1 = 'icon-default';
-            return var1;
-case 54:
-            var1 = 'icon-default';
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['MEDIA_KEYBOARD_BUTTON_ICON_COLOR_ACTIVE'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0101: for(var _fun0101_ip = 0; ; ) switch(_fun0101_ip) {
@@ -4245,7 +4261,7 @@ case 40:
 case 41:
             _fun0101_ip = 38; continue _fun0101;
 case 39:
-            var2 = 4;
+            var2 = 8;
             return var2;
 case 37:
             return var1;
@@ -4254,7 +4270,7 @@ case 56:
         }
     };
     var5['resolve'] = var7;
-    var4['MEDIA_KEYBOARD_BUTTON_PADDING'] = var5;
+    var4['MEDIA_KEYBOARD_BUTTON_BORDER_RADIUS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0102: for(var _fun0102_ip = 0; ; ) switch(_fun0102_ip) {
@@ -4283,6 +4299,84 @@ case 40:
 case 41:
             _fun0102_ip = 38; continue _fun0102;
 case 39:
+            var1 = 'icon-default';
+            return var1;
+case 51:
+            var1 = 'icon-default';
+            return var1;
+case 54:
+            var1 = 'icon-default';
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['MEDIA_KEYBOARD_BUTTON_ICON_COLOR_ACTIVE'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0103: for(var _fun0103_ip = 0; ; ) switch(_fun0103_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.enabledExperiments;
+            var2 = var3.length;
+            var1 = 0;
+            if(!(var1 !== var2)) { _fun0103_ip = 56; continue _fun0103 }
+case 29:
+            var2 = _closure1_slot0;
+            var6 = undefined;
+            var5 = var2.bind(var6)(var3);
+            var3 = var5.bind(var6)();
+            var2 = var3.done;
+            var4 = 'mobile-visual-refresh';
+            if(var2) { _fun0103_ip = 37; continue _fun0103 }
+case 38:
+            var2 = var3.value;
+            if(!(var4 !== var2)) { _fun0103_ip = 39; continue _fun0103 }
+case 40:
+            var7 = var5.bind(var6)();
+            var2 = var7.done;
+            var3 = var7;
+            if(var2) { _fun0103_ip = 37; continue _fun0103 }
+case 41:
+            _fun0103_ip = 38; continue _fun0103;
+case 39:
+            var2 = 4;
+            return var2;
+case 37:
+            return var1;
+case 56:
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['MEDIA_KEYBOARD_BUTTON_PADDING'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0104: for(var _fun0104_ip = 0; ; ) switch(_fun0104_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0104_ip = 54; continue _fun0104 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0104_ip = 51; continue _fun0104 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0104_ip = 39; continue _fun0104 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0104_ip = 51; continue _fun0104 }
+case 41:
+            _fun0104_ip = 38; continue _fun0104;
+case 39:
             var1 = 'text-default';
             return var1;
 case 51:
@@ -4297,13 +4391,13 @@ case 54:
     var4['MEDIA_KEYBOARD_BUTTON_TEXT_COLOR_ACTIVE'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0103: for(var _fun0103_ip = 0; ; ) switch(_fun0103_ip) {
+        _fun0105: for(var _fun0105_ip = 0; ; ) switch(_fun0105_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0103_ip = 54; continue _fun0103 }
+            if(!(var1 !== var3)) { _fun0105_ip = 54; continue _fun0105 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -4311,17 +4405,17 @@ case 29:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0103_ip = 51; continue _fun0103 }
+            if(var1) { _fun0105_ip = 51; continue _fun0105 }
 case 38:
             var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0103_ip = 39; continue _fun0103 }
+            if(!(var3 !== var1)) { _fun0105_ip = 39; continue _fun0105 }
 case 40:
             var6 = var4.bind(var5)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0103_ip = 51; continue _fun0103 }
+            if(var1) { _fun0105_ip = 51; continue _fun0105 }
 case 41:
-            _fun0103_ip = 38; continue _fun0103;
+            _fun0105_ip = 38; continue _fun0105;
 case 39:
             var1 = 'text-xs/medium';
             return var1;
@@ -4337,13 +4431,13 @@ case 54:
     var4['MEDIA_KEYBOARD_BUTTON_TEXT_VARIANT'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0104: for(var _fun0104_ip = 0; ; ) switch(_fun0104_ip) {
+        _fun0106: for(var _fun0106_ip = 0; ; ) switch(_fun0106_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.enabledExperiments;
             var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0104_ip = 56; continue _fun0104 }
+            if(!(var1 !== var2)) { _fun0106_ip = 56; continue _fun0106 }
 case 29:
             var2 = _closure1_slot0;
             var6 = undefined;
@@ -4351,17 +4445,17 @@ case 29:
             var3 = var5.bind(var6)();
             var2 = var3.done;
             var4 = 'mobile-visual-refresh';
-            if(var2) { _fun0104_ip = 37; continue _fun0104 }
+            if(var2) { _fun0106_ip = 37; continue _fun0106 }
 case 38:
             var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0104_ip = 39; continue _fun0104 }
+            if(!(var4 !== var2)) { _fun0106_ip = 39; continue _fun0106 }
 case 40:
             var7 = var5.bind(var6)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0104_ip = 37; continue _fun0104 }
+            if(var2) { _fun0106_ip = 37; continue _fun0106 }
 case 41:
-            _fun0104_ip = 38; continue _fun0104;
+            _fun0106_ip = 38; continue _fun0106;
 case 39:
             var2 = 8;
             return var2;
@@ -4373,93 +4467,6 @@ case 56:
     };
     var5['resolve'] = var7;
     var4['MEDIA_KEYBOARD_SEND_VERTICAL_INSET'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0105: for(var _fun0105_ip = 0; ; ) switch(_fun0105_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0105_ip = 9; continue _fun0105 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0105_ip = 37; continue _fun0105 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0105_ip = 39; continue _fun0105 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0105_ip = 37; continue _fun0105 }
-case 41:
-            _fun0105_ip = 38; continue _fun0105;
-case 39:
-            var1 = 12;
-            return var1;
-case 37:
-            var1 = 8;
-            return var1;
-case 9:
-            var1 = 8;
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['MESSAGES_HEADER_BUTTON_GAP'] = var5;
-    var5 = {};
-    var7 = function resolve() {
-        var1 = 'row';
-        return var1;
-    };
-    var5['resolve'] = var7;
-    var4['MESSAGES_HEADER_BUTTON_LAYOUT'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0106: for(var _fun0106_ip = 0; ; ) switch(_fun0106_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0106_ip = 9; continue _fun0106 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0106_ip = 37; continue _fun0106 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0106_ip = 39; continue _fun0106 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0106_ip = 37; continue _fun0106 }
-case 41:
-            _fun0106_ip = 38; continue _fun0106;
-case 39:
-            var1 = 12;
-            return var1;
-case 37:
-            var1 = 16;
-            return var1;
-case 9:
-            var1 = 16;
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['MESSAGES_HEADER_PADDING_BOTTOM'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0107: for(var _fun0107_ip = 0; ; ) switch(_fun0107_ip) {
@@ -4499,14 +4506,14 @@ case 9:
         }
     };
     var5['resolve'] = var7;
-    var4['MESSAGES_ITEM_CHANNEL_AVATAR_MARGIN_END'] = var5;
+    var4['MESSAGES_HEADER_BUTTON_GAP'] = var5;
     var5 = {};
     var7 = function resolve() {
-        var1 = 32;
+        var1 = 'row';
         return var1;
     };
     var5['resolve'] = var7;
-    var4['MESSAGES_ITEM_CHANNEL_AVATAR_SIZE'] = var5;
+    var4['MESSAGES_HEADER_BUTTON_LAYOUT'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0108: for(var _fun0108_ip = 0; ; ) switch(_fun0108_ip) {
@@ -4515,7 +4522,7 @@ case 0:
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0108_ip = 59; continue _fun0108 }
+            if(!(var1 !== var3)) { _fun0108_ip = 9; continue _fun0108 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -4523,7 +4530,7 @@ case 29:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0108_ip = 52; continue _fun0108 }
+            if(var1) { _fun0108_ip = 37; continue _fun0108 }
 case 38:
             var1 = var2.value;
             if(!(var3 !== var1)) { _fun0108_ip = 39; continue _fun0108 }
@@ -4531,22 +4538,22 @@ case 40:
             var6 = var4.bind(var5)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0108_ip = 52; continue _fun0108 }
+            if(var1) { _fun0108_ip = 37; continue _fun0108 }
 case 41:
             _fun0108_ip = 38; continue _fun0108;
 case 39:
-            var1 = 'text-md/medium';
+            var1 = 12;
             return var1;
-case 52:
-            var1 = 'redesign/channel-title/semibold';
+case 37:
+            var1 = 16;
             return var1;
-case 59:
-            var1 = 'redesign/channel-title/semibold';
+case 9:
+            var1 = 16;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['MESSAGES_ITEM_CHANNEL_NAME_TEXT_STYLE'] = var5;
+    var4['MESSAGES_HEADER_PADDING_BOTTOM'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0109: for(var _fun0109_ip = 0; ; ) switch(_fun0109_ip) {
@@ -4575,6 +4582,93 @@ case 40:
 case 41:
             _fun0109_ip = 38; continue _fun0109;
 case 39:
+            var1 = 12;
+            return var1;
+case 37:
+            var1 = 8;
+            return var1;
+case 9:
+            var1 = 8;
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['MESSAGES_ITEM_CHANNEL_AVATAR_MARGIN_END'] = var5;
+    var5 = {};
+    var7 = function resolve() {
+        var1 = 32;
+        return var1;
+    };
+    var5['resolve'] = var7;
+    var4['MESSAGES_ITEM_CHANNEL_AVATAR_SIZE'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0110: for(var _fun0110_ip = 0; ; ) switch(_fun0110_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0110_ip = 59; continue _fun0110 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0110_ip = 52; continue _fun0110 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0110_ip = 39; continue _fun0110 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0110_ip = 52; continue _fun0110 }
+case 41:
+            _fun0110_ip = 38; continue _fun0110;
+case 39:
+            var1 = 'text-md/medium';
+            return var1;
+case 52:
+            var1 = 'redesign/channel-title/semibold';
+            return var1;
+case 59:
+            var1 = 'redesign/channel-title/semibold';
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['MESSAGES_ITEM_CHANNEL_NAME_TEXT_STYLE'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0111: for(var _fun0111_ip = 0; ; ) switch(_fun0111_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0111_ip = 9; continue _fun0111 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0111_ip = 37; continue _fun0111 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0111_ip = 39; continue _fun0111 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0111_ip = 37; continue _fun0111 }
+case 41:
+            _fun0111_ip = 38; continue _fun0111;
+case 39:
             var1 = 16;
             return var1;
 case 37:
@@ -4589,13 +4683,13 @@ case 9:
     var4['MESSAGES_ITEM_HAPPENING_NOW_PADDING_BOTTOM'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0110: for(var _fun0110_ip = 0; ; ) switch(_fun0110_ip) {
+        _fun0112: for(var _fun0112_ip = 0; ; ) switch(_fun0112_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0110_ip = 58; continue _fun0110 }
+            if(!(var1 !== var3)) { _fun0112_ip = 58; continue _fun0112 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -4603,17 +4697,17 @@ case 29:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 'mobile-visual-refresh-floating';
-            if(var1) { _fun0110_ip = 56; continue _fun0110 }
+            if(var1) { _fun0112_ip = 56; continue _fun0112 }
 case 62:
             var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0110_ip = 57; continue _fun0110 }
+            if(!(var3 !== var1)) { _fun0112_ip = 57; continue _fun0112 }
 case 7:
             var6 = var4.bind(var5)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0110_ip = 56; continue _fun0110 }
+            if(var1) { _fun0112_ip = 56; continue _fun0112 }
 case 39:
-            _fun0110_ip = 62; continue _fun0110;
+            _fun0112_ip = 62; continue _fun0112;
 case 57:
             var1 = 24;
             return var1;
@@ -4629,13 +4723,13 @@ case 58:
     var4['MOBILE_KEYBOARD_TOP_BORDER_RADIUS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0111: for(var _fun0111_ip = 0; ; ) switch(_fun0111_ip) {
+        _fun0113: for(var _fun0113_ip = 0; ; ) switch(_fun0113_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.enabledExperiments;
             var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0111_ip = 60; continue _fun0111 }
+            if(!(var1 !== var2)) { _fun0113_ip = 60; continue _fun0113 }
 case 29:
             var2 = _closure1_slot0;
             var6 = undefined;
@@ -4643,17 +4737,17 @@ case 29:
             var3 = var5.bind(var6)();
             var2 = var3.done;
             var4 = 'mobile-visual-refresh-floating';
-            if(var2) { _fun0111_ip = 56; continue _fun0111 }
+            if(var2) { _fun0113_ip = 56; continue _fun0113 }
 case 62:
             var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0111_ip = 57; continue _fun0111 }
+            if(!(var4 !== var2)) { _fun0113_ip = 57; continue _fun0113 }
 case 7:
             var7 = var5.bind(var6)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0111_ip = 56; continue _fun0111 }
+            if(var2) { _fun0113_ip = 56; continue _fun0113 }
 case 39:
-            _fun0111_ip = 62; continue _fun0111;
+            _fun0113_ip = 62; continue _fun0113;
 case 57:
             var2 = 24;
             return var2;
@@ -4672,86 +4766,6 @@ case 60:
     };
     var5['resolve'] = var7;
     var4['PROMO_SHEET_GRAPHIC_MAX_WIDTH'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0112: for(var _fun0112_ip = 0; ; ) switch(_fun0112_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0112_ip = 9; continue _fun0112 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0112_ip = 37; continue _fun0112 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0112_ip = 39; continue _fun0112 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0112_ip = 37; continue _fun0112 }
-case 41:
-            _fun0112_ip = 38; continue _fun0112;
-case 39:
-            var1 = 16;
-            return var1;
-case 37:
-            var1 = 24;
-            return var1;
-case 9:
-            var1 = 24;
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['QUEST_DOCK_BORDER_RADIUS'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0113: for(var _fun0113_ip = 0; ; ) switch(_fun0113_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0113_ip = 9; continue _fun0113 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0113_ip = 37; continue _fun0113 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0113_ip = 39; continue _fun0113 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0113_ip = 37; continue _fun0113 }
-case 41:
-            _fun0113_ip = 38; continue _fun0113;
-case 39:
-            var1 = 8;
-            return var1;
-case 37:
-            var1 = 16;
-            return var1;
-case 9:
-            var1 = 16;
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['SEGMENTED_CONTROL_BORDER_RADIUS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0114: for(var _fun0114_ip = 0; ; ) switch(_fun0114_ip) {
@@ -4780,25 +4794,18 @@ case 40:
 case 41:
             _fun0114_ip = 38; continue _fun0114;
 case 39:
-            var1 = 24;
+            var1 = 16;
             return var1;
 case 37:
-            var1 = 16;
+            var1 = 24;
             return var1;
 case 9:
-            var1 = 16;
+            var1 = 24;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['SETTINGS_PADDING_TOP'] = var5;
-    var5 = {};
-    var7 = function resolve() {
-        var1 = 4;
-        return var1;
-    };
-    var5['resolve'] = var7;
-    var4['SHEET_HANDLE_HEIGHT'] = var5;
+    var4['QUEST_DOCK_BORDER_RADIUS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0115: for(var _fun0115_ip = 0; ; ) switch(_fun0115_ip) {
@@ -4827,18 +4834,18 @@ case 40:
 case 41:
             _fun0115_ip = 38; continue _fun0115;
 case 39:
-            var1 = 24;
+            var1 = 8;
             return var1;
 case 37:
-            var1 = 12;
+            var1 = 16;
             return var1;
 case 9:
-            var1 = 12;
+            var1 = 16;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['SHEET_HANDLE_MARGIN_BOTTOM'] = var5;
+    var4['SEGMENTED_CONTROL_BORDER_RADIUS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0116: for(var _fun0116_ip = 0; ; ) switch(_fun0116_ip) {
@@ -4867,18 +4874,25 @@ case 40:
 case 41:
             _fun0116_ip = 38; continue _fun0116;
 case 39:
-            var1 = 8;
+            var1 = 24;
             return var1;
 case 37:
-            var1 = 4;
+            var1 = 16;
             return var1;
 case 9:
-            var1 = 4;
+            var1 = 16;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['SHEET_HANDLE_MARGIN_TOP'] = var5;
+    var4['SETTINGS_PADDING_TOP'] = var5;
+    var5 = {};
+    var7 = function resolve() {
+        var1 = 4;
+        return var1;
+    };
+    var5['resolve'] = var7;
+    var4['SHEET_HANDLE_HEIGHT'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0117: for(var _fun0117_ip = 0; ; ) switch(_fun0117_ip) {
@@ -4907,6 +4921,86 @@ case 40:
 case 41:
             _fun0117_ip = 38; continue _fun0117;
 case 39:
+            var1 = 24;
+            return var1;
+case 37:
+            var1 = 12;
+            return var1;
+case 9:
+            var1 = 12;
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['SHEET_HANDLE_MARGIN_BOTTOM'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0118: for(var _fun0118_ip = 0; ; ) switch(_fun0118_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0118_ip = 9; continue _fun0118 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0118_ip = 37; continue _fun0118 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0118_ip = 39; continue _fun0118 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0118_ip = 37; continue _fun0118 }
+case 41:
+            _fun0118_ip = 38; continue _fun0118;
+case 39:
+            var1 = 8;
+            return var1;
+case 37:
+            var1 = 4;
+            return var1;
+case 9:
+            var1 = 4;
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['SHEET_HANDLE_MARGIN_TOP'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0119: for(var _fun0119_ip = 0; ; ) switch(_fun0119_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0119_ip = 9; continue _fun0119 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0119_ip = 37; continue _fun0119 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0119_ip = 39; continue _fun0119 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0119_ip = 37; continue _fun0119 }
+case 41:
+            _fun0119_ip = 38; continue _fun0119;
+case 39:
             var1 = 36;
             return var1;
 case 37:
@@ -4921,13 +5015,13 @@ case 9:
     var4['SHEET_HANDLE_WIDTH'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0118: for(var _fun0118_ip = 0; ; ) switch(_fun0118_ip) {
+        _fun0120: for(var _fun0120_ip = 0; ; ) switch(_fun0120_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.enabledExperiments;
             var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0118_ip = 56; continue _fun0118 }
+            if(!(var1 !== var2)) { _fun0120_ip = 56; continue _fun0120 }
 case 29:
             var2 = _closure1_slot0;
             var6 = undefined;
@@ -4935,17 +5029,17 @@ case 29:
             var3 = var5.bind(var6)();
             var2 = var3.done;
             var4 = 'mobile-visual-refresh';
-            if(var2) { _fun0118_ip = 57; continue _fun0118 }
+            if(var2) { _fun0120_ip = 57; continue _fun0120 }
 case 38:
             var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0118_ip = 39; continue _fun0118 }
+            if(!(var4 !== var2)) { _fun0120_ip = 39; continue _fun0120 }
 case 40:
             var7 = var5.bind(var6)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0118_ip = 57; continue _fun0118 }
+            if(var2) { _fun0120_ip = 57; continue _fun0120 }
 case 41:
-            _fun0118_ip = 38; continue _fun0118;
+            _fun0120_ip = 38; continue _fun0120;
 case 39:
             return var1;
 case 57:
@@ -4960,13 +5054,13 @@ case 56:
     var4['SHEET_HEADER_PADDING_HORIZONTAL'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0119: for(var _fun0119_ip = 0; ; ) switch(_fun0119_ip) {
+        _fun0121: for(var _fun0121_ip = 0; ; ) switch(_fun0121_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.enabledExperiments;
             var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0119_ip = 56; continue _fun0119 }
+            if(!(var1 !== var2)) { _fun0121_ip = 56; continue _fun0121 }
 case 29:
             var2 = _closure1_slot0;
             var6 = undefined;
@@ -4974,17 +5068,17 @@ case 29:
             var3 = var5.bind(var6)();
             var2 = var3.done;
             var4 = 'mobile-visual-refresh';
-            if(var2) { _fun0119_ip = 37; continue _fun0119 }
+            if(var2) { _fun0121_ip = 37; continue _fun0121 }
 case 38:
             var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0119_ip = 39; continue _fun0119 }
+            if(!(var4 !== var2)) { _fun0121_ip = 39; continue _fun0121 }
 case 40:
             var7 = var5.bind(var6)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0119_ip = 37; continue _fun0119 }
+            if(var2) { _fun0121_ip = 37; continue _fun0121 }
 case 41:
-            _fun0119_ip = 38; continue _fun0119;
+            _fun0121_ip = 38; continue _fun0121;
 case 39:
             var2 = 8;
             return var2;
@@ -4996,86 +5090,6 @@ case 56:
     };
     var5['resolve'] = var7;
     var4['TABLE_ROW_ARROW_MARGIN_END'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0120: for(var _fun0120_ip = 0; ; ) switch(_fun0120_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0120_ip = 9; continue _fun0120 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0120_ip = 37; continue _fun0120 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0120_ip = 39; continue _fun0120 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0120_ip = 37; continue _fun0120 }
-case 41:
-            _fun0120_ip = 38; continue _fun0120;
-case 39:
-            var1 = 8;
-            return var1;
-case 37:
-            var1 = 14;
-            return var1;
-case 9:
-            var1 = 14;
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['TABLE_ROW_ARROW_MARGIN_START'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0121: for(var _fun0121_ip = 0; ; ) switch(_fun0121_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0121_ip = 9; continue _fun0121 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0121_ip = 37; continue _fun0121 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0121_ip = 39; continue _fun0121 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0121_ip = 37; continue _fun0121 }
-case 41:
-            _fun0121_ip = 38; continue _fun0121;
-case 39:
-            var1 = 12;
-            return var1;
-case 37:
-            var1 = 8;
-            return var1;
-case 9:
-            var1 = 8;
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['TABLE_ROW_ARROW_WIDTH'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0122: for(var _fun0122_ip = 0; ; ) switch(_fun0122_ip) {
@@ -5104,18 +5118,18 @@ case 40:
 case 41:
             _fun0122_ip = 38; continue _fun0122;
 case 39:
-            var1 = 12;
+            var1 = 8;
             return var1;
 case 37:
-            var1 = 16;
+            var1 = 14;
             return var1;
 case 9:
-            var1 = 16;
+            var1 = 14;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['TABLE_ROW_BORDER_RADIUS'] = var5;
+    var4['TABLE_ROW_ARROW_MARGIN_START'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0123: for(var _fun0123_ip = 0; ; ) switch(_fun0123_ip) {
@@ -5144,25 +5158,18 @@ case 40:
 case 41:
             _fun0123_ip = 38; continue _fun0123;
 case 39:
-            var1 = 32;
+            var1 = 12;
             return var1;
 case 37:
-            var1 = 36;
+            var1 = 8;
             return var1;
 case 9:
-            var1 = 36;
+            var1 = 8;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['TABLE_ROW_CONTENT_HEIGHT'] = var5;
-    var5 = {};
-    var7 = function resolve() {
-        var1 = 56;
-        return var1;
-    };
-    var5['resolve'] = var7;
-    var4['TABLE_ROW_DIVIDER_PADDING'] = var5;
+    var4['TABLE_ROW_ARROW_WIDTH'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0124: for(var _fun0124_ip = 0; ; ) switch(_fun0124_ip) {
@@ -5171,7 +5178,7 @@ case 0:
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0124_ip = 54; continue _fun0124 }
+            if(!(var1 !== var3)) { _fun0124_ip = 9; continue _fun0124 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -5179,7 +5186,7 @@ case 29:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0124_ip = 51; continue _fun0124 }
+            if(var1) { _fun0124_ip = 37; continue _fun0124 }
 case 38:
             var1 = var2.value;
             if(!(var3 !== var1)) { _fun0124_ip = 39; continue _fun0124 }
@@ -5187,22 +5194,22 @@ case 40:
             var6 = var4.bind(var5)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0124_ip = 51; continue _fun0124 }
+            if(var1) { _fun0124_ip = 37; continue _fun0124 }
 case 41:
             _fun0124_ip = 38; continue _fun0124;
 case 39:
-            var1 = 'text-sm/normal';
+            var1 = 12;
             return var1;
-case 51:
-            var1 = 'text-sm/medium';
+case 37:
+            var1 = 16;
             return var1;
-case 54:
-            var1 = 'text-sm/medium';
+case 9:
+            var1 = 16;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['TABLE_ROW_GROUP_HELPER_TEXT_STYLE'] = var5;
+    var4['TABLE_ROW_BORDER_RADIUS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0125: for(var _fun0125_ip = 0; ; ) switch(_fun0125_ip) {
@@ -5231,25 +5238,25 @@ case 40:
 case 41:
             _fun0125_ip = 38; continue _fun0125;
 case 39:
-            var1 = 56;
+            var1 = 32;
             return var1;
 case 37:
-            var1 = 60;
+            var1 = 36;
             return var1;
 case 9:
-            var1 = 60;
+            var1 = 36;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['TABLE_ROW_HEIGHT'] = var5;
+    var4['TABLE_ROW_CONTENT_HEIGHT'] = var5;
     var5 = {};
     var7 = function resolve() {
-        var1 = 32;
+        var1 = 56;
         return var1;
     };
     var5['resolve'] = var7;
-    var4['TABLE_ROW_ICON_SIZE'] = var5;
+    var4['TABLE_ROW_DIVIDER_PADDING'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0126: for(var _fun0126_ip = 0; ; ) switch(_fun0126_ip) {
@@ -5278,6 +5285,93 @@ case 40:
 case 41:
             _fun0126_ip = 38; continue _fun0126;
 case 39:
+            var1 = 'text-sm/normal';
+            return var1;
+case 51:
+            var1 = 'text-sm/medium';
+            return var1;
+case 54:
+            var1 = 'text-sm/medium';
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['TABLE_ROW_GROUP_HELPER_TEXT_STYLE'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0127: for(var _fun0127_ip = 0; ; ) switch(_fun0127_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0127_ip = 9; continue _fun0127 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0127_ip = 37; continue _fun0127 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0127_ip = 39; continue _fun0127 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0127_ip = 37; continue _fun0127 }
+case 41:
+            _fun0127_ip = 38; continue _fun0127;
+case 39:
+            var1 = 56;
+            return var1;
+case 37:
+            var1 = 60;
+            return var1;
+case 9:
+            var1 = 60;
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['TABLE_ROW_HEIGHT'] = var5;
+    var5 = {};
+    var7 = function resolve() {
+        var1 = 32;
+        return var1;
+    };
+    var5['resolve'] = var7;
+    var4['TABLE_ROW_ICON_SIZE'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0128: for(var _fun0128_ip = 0; ; ) switch(_fun0128_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0128_ip = 54; continue _fun0128 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0128_ip = 51; continue _fun0128 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0128_ip = 39; continue _fun0128 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0128_ip = 51; continue _fun0128 }
+case 41:
+            _fun0128_ip = 38; continue _fun0128;
+case 39:
             var1 = 'text-strong';
             return var1;
 case 51:
@@ -5292,13 +5386,13 @@ case 54:
     var4['TABLE_ROW_LABEL_COLOR'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0127: for(var _fun0127_ip = 0; ; ) switch(_fun0127_ip) {
+        _fun0129: for(var _fun0129_ip = 0; ; ) switch(_fun0129_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0127_ip = 58; continue _fun0127 }
+            if(!(var1 !== var3)) { _fun0129_ip = 58; continue _fun0129 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -5306,17 +5400,17 @@ case 29:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0127_ip = 52; continue _fun0127 }
+            if(var1) { _fun0129_ip = 52; continue _fun0129 }
 case 38:
             var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0127_ip = 39; continue _fun0127 }
+            if(!(var3 !== var1)) { _fun0129_ip = 39; continue _fun0129 }
 case 40:
             var6 = var4.bind(var5)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0127_ip = 52; continue _fun0127 }
+            if(var1) { _fun0129_ip = 52; continue _fun0129 }
 case 41:
-            _fun0127_ip = 38; continue _fun0127;
+            _fun0129_ip = 38; continue _fun0129;
 case 39:
             var1 = 'text-md/medium';
             return var1;
@@ -5339,13 +5433,13 @@ case 58:
     var4['TABLE_ROW_PADDING'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
-        _fun0128: for(var _fun0128_ip = 0; ; ) switch(_fun0128_ip) {
+        _fun0130: for(var _fun0130_ip = 0; ; ) switch(_fun0130_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0128_ip = 9; continue _fun0128 }
+            if(!(var1 !== var3)) { _fun0130_ip = 9; continue _fun0130 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -5353,17 +5447,17 @@ case 29:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0128_ip = 37; continue _fun0128 }
+            if(var1) { _fun0130_ip = 37; continue _fun0130 }
 case 38:
             var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0128_ip = 39; continue _fun0128 }
+            if(!(var3 !== var1)) { _fun0130_ip = 39; continue _fun0130 }
 case 40:
             var6 = var4.bind(var5)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0128_ip = 37; continue _fun0128 }
+            if(var1) { _fun0130_ip = 37; continue _fun0130 }
 case 41:
-            _fun0128_ip = 38; continue _fun0128;
+            _fun0130_ip = 38; continue _fun0130;
 case 39:
             var1 = 12;
             return var1;
@@ -5377,86 +5471,6 @@ case 9:
     };
     var5['resolve'] = var7;
     var4['TAB_BAR_UNREAD_BADGE_SIZE'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0129: for(var _fun0129_ip = 0; ; ) switch(_fun0129_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0129_ip = 54; continue _fun0129 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0129_ip = 51; continue _fun0129 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0129_ip = 39; continue _fun0129 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0129_ip = 51; continue _fun0129 }
-case 41:
-            _fun0129_ip = 38; continue _fun0129;
-case 39:
-            var1 = -4;
-            return var1;
-case 51:
-            var1 = -6;
-            return var1;
-case 54:
-            var1 = -6;
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['TAB_LABEL_MARGIN_TOP'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0130: for(var _fun0130_ip = 0; ; ) switch(_fun0130_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0130_ip = 54; continue _fun0130 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0130_ip = 51; continue _fun0130 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0130_ip = 39; continue _fun0130 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0130_ip = 51; continue _fun0130 }
-case 41:
-            _fun0130_ip = 38; continue _fun0130;
-case 39:
-            var1 = 'text-xs/medium';
-            return var1;
-case 51:
-            var1 = 'text-xxs/semibold';
-            return var1;
-case 54:
-            var1 = 'text-xxs/semibold';
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['TAB_LABEL_TEXT_STYLE'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0131: for(var _fun0131_ip = 0; ; ) switch(_fun0131_ip) {
@@ -5485,6 +5499,86 @@ case 40:
 case 41:
             _fun0131_ip = 38; continue _fun0131;
 case 39:
+            var1 = -4;
+            return var1;
+case 51:
+            var1 = -6;
+            return var1;
+case 54:
+            var1 = -6;
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['TAB_LABEL_MARGIN_TOP'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0132: for(var _fun0132_ip = 0; ; ) switch(_fun0132_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0132_ip = 54; continue _fun0132 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0132_ip = 51; continue _fun0132 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0132_ip = 39; continue _fun0132 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0132_ip = 51; continue _fun0132 }
+case 41:
+            _fun0132_ip = 38; continue _fun0132;
+case 39:
+            var1 = 'text-xs/medium';
+            return var1;
+case 51:
+            var1 = 'text-xxs/semibold';
+            return var1;
+case 54:
+            var1 = 'text-xxs/semibold';
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['TAB_LABEL_TEXT_STYLE'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0133: for(var _fun0133_ip = 0; ; ) switch(_fun0133_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0133_ip = 54; continue _fun0133 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0133_ip = 51; continue _fun0133 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0133_ip = 39; continue _fun0133 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0133_ip = 51; continue _fun0133 }
+case 41:
+            _fun0133_ip = 38; continue _fun0133;
+case 39:
             var1 = 'text-sm/medium';
             return var1;
 case 51:
@@ -5504,84 +5598,6 @@ case 54:
     };
     var5['resolve'] = var7;
     var4['USER_ROW_LABEL_LINE_HEIGHT_ANDROID'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0132: for(var _fun0132_ip = 0; ; ) switch(_fun0132_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0132_ip = 9; continue _fun0132 }
-case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0132_ip = 37; continue _fun0132 }
-case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0132_ip = 39; continue _fun0132 }
-case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0132_ip = 37; continue _fun0132 }
-case 41:
-            _fun0132_ip = 38; continue _fun0132;
-case 39:
-            var1 = 20;
-            return var1;
-case 37:
-            var1 = 22;
-            return var1;
-case 9:
-            var1 = 22;
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['USER_ROW_LABEL_LINE_HEIGHT_IOS'] = var5;
-    var5 = {};
-    var7 = function resolve(arg1) {
-        _fun0133: for(var _fun0133_ip = 0; ; ) switch(_fun0133_ip) {
-case 0:
-            var1 = arg1;
-            var3 = var1.enabledExperiments;
-            var2 = var3.length;
-            var1 = 0;
-            if(!(var1 !== var2)) { _fun0133_ip = 56; continue _fun0133 }
-case 29:
-            var2 = _closure1_slot0;
-            var6 = undefined;
-            var5 = var2.bind(var6)(var3);
-            var3 = var5.bind(var6)();
-            var2 = var3.done;
-            var4 = 'mobile-visual-refresh';
-            if(var2) { _fun0133_ip = 37; continue _fun0133 }
-case 38:
-            var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0133_ip = 39; continue _fun0133 }
-case 40:
-            var7 = var5.bind(var6)();
-            var2 = var7.done;
-            var3 = var7;
-            if(var2) { _fun0133_ip = 37; continue _fun0133 }
-case 41:
-            _fun0133_ip = 38; continue _fun0133;
-case 39:
-            var2 = 1;
-            return var2;
-case 37:
-            return var1;
-case 56:
-            return var1;
-        }
-    };
-    var5['resolve'] = var7;
-    var4['VOICE_CHANNEL_USER_LIMIT_BORDER_WIDTH'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0134: for(var _fun0134_ip = 0; ; ) switch(_fun0134_ip) {
@@ -5610,65 +5626,56 @@ case 40:
 case 41:
             _fun0134_ip = 38; continue _fun0134;
 case 39:
-            var1 = 13;
+            var1 = 20;
             return var1;
 case 37:
-            var1 = 14;
+            var1 = 22;
             return var1;
 case 9:
-            var1 = 14;
+            var1 = 22;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['VOICE_MESSAGE_DURATION_LINE_HEIGHT_ANDROID'] = var5;
-    var5 = {};
-    var7 = function resolve() {
-        var1 = 17;
-        return var1;
-    };
-    var5['resolve'] = var7;
-    var4['VOICE_MESSAGE_DURATION_LINE_HEIGHT_IOS'] = var5;
+    var4['USER_ROW_LABEL_LINE_HEIGHT_IOS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0135: for(var _fun0135_ip = 0; ; ) switch(_fun0135_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
+            var3 = var1.enabledExperiments;
+            var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0135_ip = 54; continue _fun0135 }
+            if(!(var1 !== var2)) { _fun0135_ip = 56; continue _fun0135 }
 case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0135_ip = 51; continue _fun0135 }
+            var2 = _closure1_slot0;
+            var6 = undefined;
+            var5 = var2.bind(var6)(var3);
+            var3 = var5.bind(var6)();
+            var2 = var3.done;
+            var4 = 'mobile-visual-refresh';
+            if(var2) { _fun0135_ip = 37; continue _fun0135 }
 case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0135_ip = 39; continue _fun0135 }
+            var2 = var3.value;
+            if(!(var4 !== var2)) { _fun0135_ip = 39; continue _fun0135 }
 case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0135_ip = 51; continue _fun0135 }
+            var7 = var5.bind(var6)();
+            var2 = var7.done;
+            var3 = var7;
+            if(var2) { _fun0135_ip = 37; continue _fun0135 }
 case 41:
             _fun0135_ip = 38; continue _fun0135;
 case 39:
-            var1 = 'text-xs/semibold';
+            var2 = 1;
+            return var2;
+case 37:
             return var1;
-case 51:
-            var1 = 'text-sm/semibold';
-            return var1;
-case 54:
-            var1 = 'text-sm/semibold';
+case 56:
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['VOICE_MESSAGE_DURATION_TEXT_STYLE'] = var5;
+    var4['VOICE_CHANNEL_USER_LIMIT_BORDER_WIDTH'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0136: for(var _fun0136_ip = 0; ; ) switch(_fun0136_ip) {
@@ -5697,18 +5704,25 @@ case 40:
 case 41:
             _fun0136_ip = 38; continue _fun0136;
 case 39:
-            var1 = 6;
+            var1 = 13;
             return var1;
 case 37:
-            var1 = 10;
+            var1 = 14;
             return var1;
 case 9:
-            var1 = 10;
+            var1 = 14;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['VOICE_MESSAGE_RECORDING_CONTAINER_PADDING_VERTICAL'] = var5;
+    var4['VOICE_MESSAGE_DURATION_LINE_HEIGHT_ANDROID'] = var5;
+    var5 = {};
+    var7 = function resolve() {
+        var1 = 17;
+        return var1;
+    };
+    var5['resolve'] = var7;
+    var4['VOICE_MESSAGE_DURATION_LINE_HEIGHT_IOS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0137: for(var _fun0137_ip = 0; ; ) switch(_fun0137_ip) {
@@ -5717,7 +5731,7 @@ case 0:
             var2 = var1.enabledExperiments;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0137_ip = 9; continue _fun0137 }
+            if(!(var1 !== var3)) { _fun0137_ip = 54; continue _fun0137 }
 case 29:
             var1 = _closure1_slot0;
             var5 = undefined;
@@ -5725,7 +5739,7 @@ case 29:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0137_ip = 37; continue _fun0137 }
+            if(var1) { _fun0137_ip = 51; continue _fun0137 }
 case 38:
             var1 = var2.value;
             if(!(var3 !== var1)) { _fun0137_ip = 39; continue _fun0137 }
@@ -5733,22 +5747,22 @@ case 40:
             var6 = var4.bind(var5)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0137_ip = 37; continue _fun0137 }
+            if(var1) { _fun0137_ip = 51; continue _fun0137 }
 case 41:
             _fun0137_ip = 38; continue _fun0137;
 case 39:
-            var1 = 16;
+            var1 = 'text-xs/semibold';
             return var1;
-case 37:
-            var1 = 32;
+case 51:
+            var1 = 'text-sm/semibold';
             return var1;
-case 9:
-            var1 = 32;
+case 54:
+            var1 = 'text-sm/semibold';
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['VOICE_PANEL_CONTROLS_BORDER_RADIUS'] = var5;
+    var4['VOICE_MESSAGE_DURATION_TEXT_STYLE'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0138: for(var _fun0138_ip = 0; ; ) switch(_fun0138_ip) {
@@ -5777,56 +5791,58 @@ case 40:
 case 41:
             _fun0138_ip = 38; continue _fun0138;
 case 39:
-            var1 = 4;
+            var1 = 6;
             return var1;
 case 37:
-            var1 = 16;
+            var1 = 10;
             return var1;
 case 9:
-            var1 = 16;
+            var1 = 10;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['VOICE_PANEL_CONTROLS_PADDING'] = var5;
+    var4['VOICE_MESSAGE_RECORDING_CONTAINER_PADDING_VERTICAL'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0139: for(var _fun0139_ip = 0; ; ) switch(_fun0139_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.enabledExperiments;
-            var2 = var3.length;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0139_ip = 56; continue _fun0139 }
+            if(!(var1 !== var3)) { _fun0139_ip = 9; continue _fun0139 }
 case 29:
-            var2 = _closure1_slot0;
-            var6 = undefined;
-            var5 = var2.bind(var6)(var3);
-            var3 = var5.bind(var6)();
-            var2 = var3.done;
-            var4 = 'mobile-visual-refresh';
-            if(var2) { _fun0139_ip = 37; continue _fun0139 }
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0139_ip = 37; continue _fun0139 }
 case 38:
-            var2 = var3.value;
-            if(!(var4 !== var2)) { _fun0139_ip = 39; continue _fun0139 }
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0139_ip = 39; continue _fun0139 }
 case 40:
-            var7 = var5.bind(var6)();
-            var2 = var7.done;
-            var3 = var7;
-            if(var2) { _fun0139_ip = 37; continue _fun0139 }
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0139_ip = 37; continue _fun0139 }
 case 41:
             _fun0139_ip = 38; continue _fun0139;
 case 39:
-            var2 = 64;
-            return var2;
-case 37:
+            var1 = 16;
             return var1;
-case 56:
+case 37:
+            var1 = 32;
+            return var1;
+case 9:
+            var1 = 32;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['VOICE_PANEL_DISCONNECT_BUTTON_MIN_WIDTH'] = var5;
+    var4['VOICE_PANEL_CONTROLS_BORDER_RADIUS'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0140: for(var _fun0140_ip = 0; ; ) switch(_fun0140_ip) {
@@ -5855,58 +5871,56 @@ case 40:
 case 41:
             _fun0140_ip = 38; continue _fun0140;
 case 39:
-            var1 = 16;
+            var1 = 4;
             return var1;
 case 37:
-            var1 = 12;
+            var1 = 16;
             return var1;
 case 9:
-            var1 = 12;
+            var1 = 16;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['VOICE_PANEL_GUTTER'] = var5;
+    var4['VOICE_PANEL_CONTROLS_PADDING'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0141: for(var _fun0141_ip = 0; ; ) switch(_fun0141_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.enabledExperiments;
-            var3 = var2.length;
+            var3 = var1.enabledExperiments;
+            var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0141_ip = 9; continue _fun0141 }
+            if(!(var1 !== var2)) { _fun0141_ip = 56; continue _fun0141 }
 case 29:
-            var1 = _closure1_slot0;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
-            var2 = var4.bind(var5)();
-            var1 = var2.done;
-            var3 = 'mobile-visual-refresh';
-            if(var1) { _fun0141_ip = 37; continue _fun0141 }
+            var2 = _closure1_slot0;
+            var6 = undefined;
+            var5 = var2.bind(var6)(var3);
+            var3 = var5.bind(var6)();
+            var2 = var3.done;
+            var4 = 'mobile-visual-refresh';
+            if(var2) { _fun0141_ip = 37; continue _fun0141 }
 case 38:
-            var1 = var2.value;
-            if(!(var3 !== var1)) { _fun0141_ip = 39; continue _fun0141 }
+            var2 = var3.value;
+            if(!(var4 !== var2)) { _fun0141_ip = 39; continue _fun0141 }
 case 40:
-            var6 = var4.bind(var5)();
-            var1 = var6.done;
-            var2 = var6;
-            if(var1) { _fun0141_ip = 37; continue _fun0141 }
+            var7 = var5.bind(var6)();
+            var2 = var7.done;
+            var3 = var7;
+            if(var2) { _fun0141_ip = 37; continue _fun0141 }
 case 41:
             _fun0141_ip = 38; continue _fun0141;
 case 39:
-            var1 = 16;
-            return var1;
+            var2 = 64;
+            return var2;
 case 37:
-            var1 = 12;
             return var1;
-case 9:
-            var1 = 12;
+case 56:
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['VOICE_PANEL_PADDING'] = var5;
+    var4['VOICE_PANEL_DISCONNECT_BUTTON_MIN_WIDTH'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0142: for(var _fun0142_ip = 0; ; ) switch(_fun0142_ip) {
@@ -5935,18 +5949,18 @@ case 40:
 case 41:
             _fun0142_ip = 38; continue _fun0142;
 case 39:
-            var1 = 12;
+            var1 = 16;
             return var1;
 case 37:
-            var1 = 24;
+            var1 = 12;
             return var1;
 case 9:
-            var1 = 24;
+            var1 = 12;
             return var1;
         }
     };
     var5['resolve'] = var7;
-    var4['VOICE_TILE_BORDER_RADIUS'] = var5;
+    var4['VOICE_PANEL_GUTTER'] = var5;
     var5 = {};
     var7 = function resolve(arg1) {
         _fun0143: for(var _fun0143_ip = 0; ; ) switch(_fun0143_ip) {
@@ -5974,6 +5988,86 @@ case 40:
             if(var1) { _fun0143_ip = 37; continue _fun0143 }
 case 41:
             _fun0143_ip = 38; continue _fun0143;
+case 39:
+            var1 = 16;
+            return var1;
+case 37:
+            var1 = 12;
+            return var1;
+case 9:
+            var1 = 12;
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['VOICE_PANEL_PADDING'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0144: for(var _fun0144_ip = 0; ; ) switch(_fun0144_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0144_ip = 9; continue _fun0144 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0144_ip = 37; continue _fun0144 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0144_ip = 39; continue _fun0144 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0144_ip = 37; continue _fun0144 }
+case 41:
+            _fun0144_ip = 38; continue _fun0144;
+case 39:
+            var1 = 12;
+            return var1;
+case 37:
+            var1 = 24;
+            return var1;
+case 9:
+            var1 = 24;
+            return var1;
+        }
+    };
+    var5['resolve'] = var7;
+    var4['VOICE_TILE_BORDER_RADIUS'] = var5;
+    var5 = {};
+    var7 = function resolve(arg1) {
+        _fun0145: for(var _fun0145_ip = 0; ; ) switch(_fun0145_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.enabledExperiments;
+            var3 = var2.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0145_ip = 9; continue _fun0145 }
+case 29:
+            var1 = _closure1_slot0;
+            var5 = undefined;
+            var4 = var1.bind(var5)(var2);
+            var2 = var4.bind(var5)();
+            var1 = var2.done;
+            var3 = 'mobile-visual-refresh';
+            if(var1) { _fun0145_ip = 37; continue _fun0145 }
+case 38:
+            var1 = var2.value;
+            if(!(var3 !== var1)) { _fun0145_ip = 39; continue _fun0145 }
+case 40:
+            var6 = var4.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0145_ip = 37; continue _fun0145 }
+case 41:
+            _fun0145_ip = 38; continue _fun0145;
 case 39:
             var1 = 16;
             return var1;

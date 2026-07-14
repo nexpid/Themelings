@@ -599,57 +599,59 @@ case 41:
 case 0:
             var1 = arg1;
             var3 = var1.nonce;
-            var8 = var1.errorCode;
-            var7 = var1.errorMessage;
-            var5 = var1.status;
-            var4 = var1.reasonCode;
-            var9 = null;
-            if(!(var9 != var3)) { _fun0012_ip = 47; continue _fun0012 }
+            var9 = var1.errorCode;
+            var8 = var1.errorMessage;
+            var4 = var1.status;
+            var7 = var1.reasonCode;
+            var5 = null;
+            if(!(var5 != var3)) { _fun0012_ip = 47; continue _fun0012 }
 case 29:
             var1 = _closure1_slot13;
             var6 = var1[var3];
-            if(!(var9 != var6)) { _fun0012_ip = 48; continue _fun0012 }
+            if(!(var5 != var6)) { _fun0012_ip = 48; continue _fun0012 }
 case 49:
             var1 = var6.onFailure;
-            if(!(var9 != var1)) { _fun0012_ip = 50; continue _fun0012 }
+            if(!(var5 != var1)) { _fun0012_ip = 50; continue _fun0012 }
 case 17:
             var1 = var6.onFailure;
-            var15 = var6;
+            var16 = var6;
+            var15 = var9;
             var14 = var8;
-            var13 = var7;
-            var12 = var5;
-            var11 = var4;
-            var1 = var15[var1](var14, var13, var12, var11, var10);
+            var13 = var4;
+            var12 = var7;
+            var1 = var16[var1](var15, var14, var13, var12, var11);
 case 50:
             var1 = var6.data;
             var5 = var1.interactionType;
-            var9 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 10;
             var4 = var4[var1];
             var1 = undefined;
-            var4 = var9.bind(var1)(var4);
+            var4 = var10.bind(var1)(var4);
             var4 = var4.InteractionTypes;
             var4 = var4.APPLICATION_COMMAND;
             if(!(var5 !== var4)) { _fun0012_ip = 51; continue _fun0012 }
 case 52:
             var5 = _closure1_slot13;
             var4 = {};
-            var14 = var4;
-            var13 = var6;
-            var6 = copyDataProperties(var14, var13);
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var15 = var4;
+            var14 = var6;
+            var6 = copyDataProperties(var15, var14);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var6 = 9;
-            var6 = var10[var6];
-            var6 = var9.bind(var1)(var6);
+            var6 = var11[var6];
+            var6 = var10.bind(var1)(var6);
             var6 = var6.InteractionState;
-            var9 = var6.FAILED;
+            var10 = var6.FAILED;
             var6 = 'state';
-            var4[5] = var9;
+            var4[5] = var10;
             var6 = 'errorCode';
-            var4[5] = var8;
+            var4[5] = var9;
             var6 = 'errorMessage';
+            var4[5] = var8;
+            var6 = 'reasonCode';
             var4[5] = var7;
             var5[var3] = var4;
             _fun0012_ip = 53; continue _fun0012;
@@ -823,47 +825,47 @@ case 60:
             };
             var4 = var3.bind(var4)(var1);
             var3 = null;
-            if(!(var3 != var4)) { _fun0015_ip = 62; continue _fun0015 }
-case 63:
+            if(!(var3 != var4)) { _fun0015_ip = 47; continue _fun0015 }
+case 62:
             var1 = var4.nonce;
-            if(!(var3 != var1)) { _fun0015_ip = 62; continue _fun0015 }
-case 64:
+            if(!(var3 != var1)) { _fun0015_ip = 47; continue _fun0015 }
+case 63:
             var5 = _closure1_slot18;
             var1 = var4.nonce;
             var1 = var5[var1];
-            if(!(var3 != var1)) { _fun0015_ip = 65; continue _fun0015 }
-case 66:
+            if(!(var3 != var1)) { _fun0015_ip = 64; continue _fun0015 }
+case 65:
             var5 = var1.messageId;
             var1 = var1.interaction;
-            _fun0015_ip = 67; continue _fun0015;
-case 65:
+            _fun0015_ip = 66; continue _fun0015;
+case 64:
             var7 = _closure1_slot15;
             var6 = var4.nonce;
             var5 = var7[var6];
             var8 = _closure1_slot13;
             var6 = var4.nonce;
             var1 = var8[var6];
-case 67:
+case 66:
             var6 = var3 != var1;
-            if(!var6) { _fun0015_ip = 68; continue _fun0015 }
-case 69:
-            var6 = var3 != var5;
+            if(!var6) { _fun0015_ip = 67; continue _fun0015 }
 case 68:
-            if(!var6) { _fun0015_ip = 62; continue _fun0015 }
-case 70:
+            var6 = var3 != var5;
+case 67:
+            if(!var6) { _fun0015_ip = 47; continue _fun0015 }
+case 69:
             var7 = _closure1_slot21;
             var6 = var4.nonce;
             var4 = undefined;
             var6 = var7.bind(var4)(var6);
             var3 = var3 != var5;
-            if(!var3) { _fun0015_ip = 71; continue _fun0015 }
-case 72:
+            if(!var3) { _fun0015_ip = 70; continue _fun0015 }
+case 71:
             var7 = var1.data;
             var6 = 'channelId';
             var3 = var6 in var7;
-case 71:
-            if(!var3) { _fun0015_ip = 62; continue _fun0015 }
-case 73:
+case 70:
+            if(!var3) { _fun0015_ip = 47; continue _fun0015 }
+case 72:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 11;
@@ -874,7 +876,7 @@ case 73:
             var2 = var1.channelId;
             var1 = true;
             var1 = var3.bind(var4)(var2, var5, var1);
-case 62:
+case 47:
             var1 = undefined;
             return var1;
         }

@@ -794,14 +794,14 @@ case 46:
             var3 = _closure1_slot10;
             var3 = var3.GUILD_HOME;
             if(!(var17 !== var3)) { _fun0005_ip = 47; continue _fun0005 }
-case 22:
+case 48:
             var3 = _closure1_slot10;
             var3 = var3.MEMBER_SAFETY;
-            if(!(var17 !== var3)) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+            if(!(var17 !== var3)) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
             var3 = _closure1_slot12;
-            if(var2) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+            if(var2) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
             var10 = _closure1_slot13;
             var2 = {};
             var11 = new Array(2);
@@ -828,8 +828,8 @@ case 51:
             var2['children'] = var11;
             var11 = var3.bind(var4)(var10, var2);
             var10 = _closure1_slot11;
-            if(var1) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+            if(var1) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
             var2 = _closure1_slot4;
             var1 = {};
             var1['style'] = var8;
@@ -852,8 +852,8 @@ case 15:
             var1['onAccessibilityEscape'] = var6;
             var1['children'] = var11;
             var1 = var10.bind(var4)(var2, var1);
-            _fun0005_ip = 54; continue _fun0005;
-case 52:
+            _fun0005_ip = 55; continue _fun0005;
+case 53:
             var6 = _closure1_slot1;
             var20 = _closure1_slot2;
             var2 = 34;
@@ -866,9 +866,9 @@ case 52:
             var2['isBackEnabled'] = var13;
             var2['children'] = var11;
             var1 = var10.bind(var4)(var6, var2);
-case 54:
+case 55:
             return var1;
-case 50:
+case 51:
             var2 = _closure1_slot4;
             var1 = {};
             var1['style'] = var12;
@@ -889,7 +889,7 @@ case 50:
             var1['children'] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-case 48:
+case 49:
             var3 = _closure1_slot11;
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -912,8 +912,8 @@ case 47:
             var10 = {};
             var10['style'] = var12;
             var14 = null;
-            if(!var15) { _fun0005_ip = 55; continue _fun0005 }
-case 56:
+            if(!var15) { _fun0005_ip = 56; continue _fun0005 }
+case 57:
             var20 = _closure1_slot11;
             var19 = _closure1_slot1;
             var21 = _closure1_slot2;
@@ -923,7 +923,7 @@ case 56:
             var15 = {};
             var15['guildId'] = var16;
             var14 = var20.bind(var4)(var19, var15);
-case 55:
+case 56:
             var10['children'] = var14;
             var10 = var13.bind(var4)(var11, var10);
             var6[1] = var10;
@@ -960,10 +960,10 @@ case 44:
             var13 = {};
             var13['guildId'] = var16;
             var16 = undefined;
-            if(!var18) { _fun0005_ip = 57; continue _fun0005 }
-case 58:
+            if(!var18) { _fun0005_ip = 58; continue _fun0005 }
+case 59:
             var16 = var17;
-case 57:
+case 58:
             var13['gatedChannelId'] = var16;
             var13 = var15.bind(var4)(var14, var13);
             var12[1] = var13;

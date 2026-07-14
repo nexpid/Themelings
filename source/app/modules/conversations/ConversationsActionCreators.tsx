@@ -653,7 +653,8 @@ case 0:
             var7 = var3.ConversationsAnalytics;
             var4 = var7.trackEntrypointImpression;
             var3 = {};
-            var3['channel'] = var6;
+            var8 = var6.id;
+            var3['channelId'] = var8;
             var3['conversationCount'] = var5;
             var3 = var4.bind(var7)(var3);
             var4 = _closure1_slot5;

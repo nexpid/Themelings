@@ -337,8 +337,8 @@ case 0:
                 var6 = 2;
                 var5 = 1;
                 var4 = true;
-                if(var2) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+                if(var2) { _fun0004_ip = 27; continue _fun0004 }
+case 36:
                 var15 = var3.value;
                 var2 = _closure1_slot2;
                 var2 = var2.bind(var1)(var15, var6);
@@ -352,14 +352,14 @@ case 37:
                 var18 = var15[var16];
                 var15 = _closure2_slot1;
                 var15 = var4 === var15;
-                if(!var15) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                if(!var15) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                 var20 = var9 == var2;
                 var21 = undefined;
-                if(var20) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-                var21 = var2.type;
+                if(var20) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
+                var21 = var2.type;
+case 39:
                 var22 = _closure1_slot0;
                 var20 = _closure1_slot1;
                 var20 = var20[var7];
@@ -367,19 +367,19 @@ case 40:
                 var20 = var20.CollectiblesItemType;
                 var20 = var20.BUNDLE;
                 var15 = var21 === var20;
-case 38:
-                if(!var15) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+case 37:
+                if(!var15) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
                 var20 = var2.items;
                 var20 = var20.length;
                 var15 = var8 === var20;
-case 42:
+case 41:
                 var2 = var9 != var2;
-                if(!var2) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
-                var2 = !var15;
+                if(!var2) { _fun0004_ip = 43; continue _fun0004 }
 case 44:
-                if(var2) { _fun0004_ip = 21; continue _fun0004 }
+                var2 = !var15;
+case 43:
+                if(var2) { _fun0004_ip = 45; continue _fun0004 }
 case 46:
                 var15 = var9 != var19;
                 if(!var15) { _fun0004_ip = 47; continue _fun0004 }
@@ -390,7 +390,7 @@ case 48:
                 var15 = var20 !== var19;
 case 47:
                 var2 = var15;
-case 21:
+case 45:
                 if(var2) { _fun0004_ip = 49; continue _fun0004 }
 case 50:
                 var19 = var9 == var18;
@@ -401,13 +401,13 @@ case 52:
 case 51:
                 var2 = var10 === var15;
 case 49:
-                if(var2) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
+                if(var2) { _fun0004_ip = 24; continue _fun0004 }
+case 53:
                 var15 = _closure2_slot5;
                 var2 = var15[var16];
-case 53:
-                if(var2) { _fun0004_ip = 55; continue _fun0004 }
-case 56:
+case 24:
+                if(var2) { _fun0004_ip = 54; continue _fun0004 }
+case 55:
                 var15 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var11];
@@ -417,12 +417,12 @@ case 56:
                 var18 = _closure2_slot1;
                 var2['includeBundles'] = var18;
                 var2 = var15.bind(var16)(var17, var2);
-case 55:
+case 54:
                 var15 = var12.bind(var1)();
                 var2 = var15.done;
                 var3 = var15;
-                if(!var2) { _fun0004_ip = 37; continue _fun0004 }
-case 36:
+                if(!var2) { _fun0004_ip = 36; continue _fun0004 }
+case 27:
                 return var1;
             }
         };
@@ -438,30 +438,30 @@ case 0:
                 var7 = var5 == var1;
                 var2 = undefined;
                 if(var7) { _fun0005_ip = 3; continue _fun0005 }
-case 57:
+case 56:
                 var2 = var1.state;
 case 3:
                 var1 = 'fetching';
                 var1 = var1 === var2;
-                if(var1) { _fun0005_ip = 58; continue _fun0005 }
-case 59:
+                if(var1) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
                 var2 = arg1;
                 var2 = var5 == var2;
-                if(!var2) { _fun0005_ip = 60; continue _fun0005 }
-case 61:
+                if(!var2) { _fun0005_ip = 59; continue _fun0005 }
+case 60:
                 var3 = _closure2_slot4;
                 var3 = var3[var6];
                 var5 = var5 == var3;
                 var4 = undefined;
-                if(var5) { _fun0005_ip = 62; continue _fun0005 }
-case 37:
+                if(var5) { _fun0005_ip = 61; continue _fun0005 }
+case 36:
                 var4 = var3.state;
-case 62:
+case 61:
                 var3 = 'error';
                 var2 = var3 !== var4;
-case 60:
+case 59:
                 var1 = var2;
-case 58:
+case 57:
                 return var1;
             }
         };

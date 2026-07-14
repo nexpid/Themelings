@@ -28,18 +28,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var _closure1_slot5 = var7;
     var7 = var4.Fragment;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
-    var4 = 4;
+    var _closure1_slot7 = var4;
+    var4 = 3;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.ImageSizes;
@@ -49,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.NORMAL;
     var9 = var7[var4];
     var4 = {'shape': null, 'x': null, 'y': 4294967290, 'width': 24, 'height': 24};
-    var7 = 5;
+    var7 = 4;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.CutoutShape;
@@ -60,14 +56,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 24;
     var7 = var9 - var7;
     var4['x'] = var7;
-    var7 = 6;
+    var7 = 5;
     var7 = var6[var7];
     var7 = var8.bind(var1)(var7);
     var7 = var7.radii;
     var7 = var7.sm;
     var4['cornerRadius'] = var7;
-    var _closure1_slot9 = var4;
-    var4 = 7;
+    var _closure1_slot8 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -77,8 +73,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'width': 16, 'height': 16};
     var4['warningIcon'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot10 = var4;
-    var4 = 14;
+    var _closure1_slot9 = var4;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -87,78 +83,65 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function AlertNotification(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var1 = var1.notification;
-            var4 = var1.key;
-            var _closure2_slot0 = var4;
-            var1 = _closure1_slot10;
-            var5 = undefined;
-            var18 = var1.bind(var5)();
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 8;
-            var1 = var6[var1];
-            var9 = var3.bind(var5)(var1);
-            var8 = var9.useStateFromStores;
-            var1 = _closure1_slot5;
-            var7 = new Array(1);
-            var7[0] = var1;
-            var1 = function() {
-                var3 = _closure1_slot5;
-                var2 = var3.getGuild;
-                var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var20 = var8.bind(var9)(var7, var1);
-            var _closure2_slot1 = var20;
-            var1 = 9;
-            var1 = var6[var1];
-            var3 = var3.bind(var5)(var1);
-            var1 = var3.useGuildIncidentsState;
-            var1 = var1.bind(var3)(var4);
-            var4 = var1.incidentData;
-            var1 = null;
-            var6 = var1 == var4;
-            var3 = undefined;
-            if(var6) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var3 = var4.raidDetectedAt;
-case 2:
-            if(!(var1 == var3)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var7 = _closure1_slot0;
+            var2 = arg1;
+            var5 = var2.notification;
+            var7 = var5.key;
+            var2 = var5.channel;
+            var _closure2_slot0 = var2;
+            var21 = var5.guild;
+            var _closure2_slot1 = var21;
+            var3 = _closure1_slot9;
+            var4 = undefined;
+            var19 = var3.bind(var4)();
+            var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 10;
-            var4 = var8[var3];
-            var4 = var7.bind(var5)(var4);
-            var6 = var4.intl;
-            var4 = var6.string;
+            var3 = 7;
             var3 = var8[var3];
-            var3 = var7.bind(var5)(var3);
+            var6 = var6.bind(var4)(var3);
+            var3 = var6.useGuildIncidentsState;
+            var3 = var3.bind(var6)(var7);
+            var7 = var3.incidentData;
+            var6 = null;
+            var8 = var6 == var7;
+            var3 = undefined;
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = var7.raidDetectedAt;
+case 2:
+            if(!(var6 == var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 8;
+            var6 = var9[var3];
+            var6 = var8.bind(var4)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var3 = var9[var3];
+            var3 = var8.bind(var4)(var3);
             var3 = var3.t;
             var3 = var3.evRhwg;
-            var8 = var4.bind(var6)(var3);
+            var9 = var6.bind(var7)(var3);
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var3 = 10;
-            var4 = var9[var3];
-            var4 = var7.bind(var5)(var4);
-            var6 = var4.intl;
-            var4 = var6.string;
-            var3 = var9[var3];
-            var3 = var7.bind(var5)(var3);
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var3 = 8;
+            var6 = var10[var3];
+            var6 = var8.bind(var4)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var3 = var10[var3];
+            var3 = var8.bind(var4)(var3);
             var3 = var3.t;
             var3 = var3.Mn3elp;
-            var8 = var4.bind(var6)(var3);
+            var9 = var6.bind(var7)(var3);
 case 6:
             var6 = _closure1_slot3;
-            var4 = var6.useMemo;
-            var3 = new Array(1);
-            var3[0] = var20;
-            var2 = function() {
+            var8 = var6.useMemo;
+            var7 = new Array(1);
+            var7[0] = var21;
+            var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -166,7 +149,7 @@ case 0:
                     var1['type'] = var2;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 10;
+                    var3 = 8;
                     var4 = var7[var3];
                     var2 = undefined;
                     var4 = var6.bind(var2)(var4);
@@ -181,87 +164,105 @@ case 0:
                     var5 = _closure2_slot1;
                     var4 = null;
                     var4 = var4 == var5;
-                    if(var4) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+                    if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot1;
                     var2 = var3.name;
-case 7:
+case 2:
                     var1['secondaryText'] = var2;
                     return var1;
                 }
             };
-            var6 = var4.bind(var6)(var2, var3);
-            var2 = var1 == var20;
-            var1 = null;
-            if(var2) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var4 = _closure1_slot6;
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var2 = 11;
-            var2 = var9[var2];
-            var2 = var7.bind(var5)(var2);
-            var3 = var2.Notification;
-            var2 = {};
-            var12 = _closure1_slot8;
-            var11 = _closure1_slot7;
-            var10 = {};
-            var19 = _closure1_slot1;
-            var13 = 5;
-            var13 = var9[var13];
-            var15 = var19.bind(var5)(var13);
-            var13 = {};
-            var17 = _closure1_slot9;
-            var16 = new Array(1);
-            var16[0] = var17;
-            var13['cutouts'] = var16;
-            var16 = 4;
-            var16 = var9[var16];
-            var17 = var19.bind(var5)(var16);
-            var16 = {};
-            var16['guild'] = var20;
-            var20 = false;
-            var16['selected'] = var20;
-            var16 = var4.bind(var5)(var17, var16);
-            var13['children'] = var16;
-            var15 = var4.bind(var5)(var15, var13);
-            var13 = new Array(2);
-            var13[0] = var15;
-            var15 = _closure1_slot4;
+            var7 = var8.bind(var6)(var3, var7);
+            var3 = var6.useCallback;
+            var8 = var2.id;
+            var2 = new Array(1);
+            var2[0] = var8;
+            var1 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 9;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.transitionToChannel;
+                var2 = _closure2_slot0;
+                var3 = var2.id;
+                var2 = {};
+                var6 = true;
+                var2['navigationReplace'] = var6;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
+            };
+            var6 = var3.bind(var6)(var1, var2);
+            var3 = _closure1_slot5;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var1 = 10;
+            var1 = var10[var1];
+            var1 = var8.bind(var4)(var1);
+            var2 = var1.NotificationPressable;
+            var1 = {};
+            var13 = _closure1_slot7;
+            var12 = _closure1_slot6;
+            var11 = {};
+            var20 = _closure1_slot1;
+            var14 = 4;
+            var14 = var10[var14];
+            var16 = var20.bind(var4)(var14);
             var14 = {};
-            var16 = var18.warningBadge;
-            var14['style'] = var16;
-            var16 = 12;
-            var16 = var9[var16];
-            var16 = var7.bind(var5)(var16);
-            var17 = var16.WarningIcon;
-            var16 = {};
-            var18 = var18.warningIcon;
-            var16['style'] = var18;
-            var18 = 6;
-            var18 = var9[var18];
-            var18 = var19.bind(var5)(var18);
-            var18 = var18.colors;
-            var18 = var18.ICON_FEEDBACK_WARNING;
-            var16['color'] = var18;
-            var16 = var4.bind(var5)(var17, var16);
-            var14['children'] = var16;
-            var14 = var4.bind(var5)(var15, var14);
-            var13[1] = var14;
-            var10['children'] = var13;
-            var10 = var12.bind(var5)(var11, var10);
-            var2['icon'] = var10;
-            var2['header'] = var6;
-            var6 = 13;
-            var6 = var9[var6];
-            var6 = var7.bind(var5)(var6);
-            var7 = var6.SystemMessageText;
-            var6 = {};
-            var6['text'] = var8;
-            var6 = var4.bind(var5)(var7, var6);
-            var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 9:
+            var18 = _closure1_slot8;
+            var17 = new Array(1);
+            var17[0] = var18;
+            var14['cutouts'] = var17;
+            var17 = 3;
+            var17 = var10[var17];
+            var18 = var20.bind(var4)(var17);
+            var17 = {};
+            var17['guild'] = var21;
+            var21 = false;
+            var17['selected'] = var21;
+            var17 = var3.bind(var4)(var18, var17);
+            var14['children'] = var17;
+            var16 = var3.bind(var4)(var16, var14);
+            var14 = new Array(2);
+            var14[0] = var16;
+            var16 = _closure1_slot4;
+            var15 = {};
+            var17 = var19.warningBadge;
+            var15['style'] = var17;
+            var17 = 11;
+            var17 = var10[var17];
+            var17 = var8.bind(var4)(var17);
+            var18 = var17.WarningIcon;
+            var17 = {};
+            var19 = var19.warningIcon;
+            var17['style'] = var19;
+            var19 = 5;
+            var19 = var10[var19];
+            var19 = var20.bind(var4)(var19);
+            var19 = var19.colors;
+            var19 = var19.ICON_FEEDBACK_WARNING;
+            var17['color'] = var19;
+            var17 = var3.bind(var4)(var18, var17);
+            var15['children'] = var17;
+            var15 = var3.bind(var4)(var16, var15);
+            var14[1] = var15;
+            var11['children'] = var14;
+            var11 = var13.bind(var4)(var12, var11);
+            var1['icon'] = var11;
+            var1['header'] = var7;
+            var7 = 12;
+            var7 = var10[var7];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.SystemMessageText;
+            var7 = {};
+            var7['text'] = var9;
+            var7 = var3.bind(var4)(var8, var7);
+            var1['children'] = var7;
+            var1['onPress'] = var6;
+            var1['notification'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
