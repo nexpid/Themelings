@@ -600,7 +600,7 @@ case 78:
             var8 = var23[var7];
             var19 = var22.bind(var4)(var8);
             var18 = var19.createHeaderResult;
-            var8 = 26;
+            var8 = 25;
             var20 = var23[var8];
             var20 = var22.bind(var4)(var20);
             var21 = var20.intl;
@@ -684,7 +684,7 @@ case 87:
             var8 = var23[var7];
             var19 = var22.bind(var4)(var8);
             var18 = var19.createHeaderResult;
-            var8 = 26;
+            var8 = 25;
             var20 = var23[var8];
             var20 = var22.bind(var4)(var20);
             var21 = var20.intl;
@@ -771,7 +771,7 @@ case 97:
 case 101:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 27;
+                    var2 = 26;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
@@ -794,7 +794,7 @@ case 21:
             var14 = var15.filter;
             var16 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var12 = 28;
+            var12 = 27;
             var12 = var18[var12];
             var12 = var16.bind(var4)(var12);
             var12 = var12.isNotNullish;
@@ -851,7 +851,7 @@ case 105:
             var11 = var20[var7];
             var16 = var19.bind(var4)(var11);
             var15 = var16.createHeaderResult;
-            var11 = 26;
+            var11 = 25;
             var17 = var20[var11];
             var17 = var19.bind(var4)(var17);
             var18 = var17.intl;
@@ -888,7 +888,7 @@ case 111:
             var7 = var16[var7];
             var12 = var15.bind(var4)(var7);
             var11 = var12.createHeaderResult;
-            var7 = 26;
+            var7 = 25;
             var13 = var16[var7];
             var13 = var15.bind(var4)(var13);
             var14 = var13.intl;
@@ -962,56 +962,7 @@ case 55:
             var3 = var6.bind(var7)(var3);
             return var3;
 case 53:
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var3 = 24;
-            var3 = var7[var3];
-            var8 = var6.bind(var4)(var3);
-            var7 = var8.queryGames;
-            var6 = '';
-            var3 = 100;
-            var7 = var7.bind(var8)(var6, var3);
-            var6 = var7.map;
-            var3 = function(arg1, arg2) {
-                var2 = arg1;
-                var1 = {};
-                var7 = _closure1_slot0;
-                var8 = _closure1_slot2;
-                var3 = 21;
-                var3 = var8[var3];
-                var6 = undefined;
-                var3 = var7.bind(var6)(var3);
-                var3 = var3.AutocompleterResultTypes;
-                var3 = var3.GAME_PROFILE;
-                var1['type'] = var3;
-                var3 = 25;
-                var3 = var8[var3];
-                var4 = var7.bind(var6)(var3);
-                var3 = var4.detectableGameToGameDescriptor;
-                var3 = var3.bind(var4)(var2);
-                var1['record'] = var3;
-                var3 = 24;
-                var4 = var8[var3];
-                var5 = var7.bind(var6)(var4);
-                var4 = var5.calculateScore;
-                var3 = var8[var3];
-                var9 = var7.bind(var6)(var3);
-                var8 = var9.getGameProfileMatchTier;
-                var7 = var2.name;
-                var6 = '';
-                var3 = arg2;
-                var3 = var8.bind(var9)(var7, var6, var3);
-                var3 = var4.bind(var5)(var3);
-                var1['score'] = var3;
-                var3 = var2.name;
-                var1['comparator'] = var3;
-                var3 = var2.name;
-                var2 = var3.toLocaleLowerCase;
-                var2 = var2.bind(var3)();
-                var1['sortable'] = var2;
-                return var1;
-            };
-            var3 = var6.bind(var7)(var3);
+            var3 = new Array(0);
             return var3;
 case 51:
             var6 = _closure1_slot1;
@@ -1175,7 +1126,7 @@ case 64:
             var6 = var13[var5];
             var9 = var12.bind(var1)(var6);
             var8 = var9.createHeaderResult;
-            var6 = 26;
+            var6 = 25;
             var10 = var13[var6];
             var10 = var12.bind(var1)(var10);
             var11 = var10.intl;
@@ -1196,7 +1147,7 @@ case 118:
             var6 = var13[var5];
             var9 = var12.bind(var1)(var6);
             var8 = var9.createHeaderResult;
-            var6 = 26;
+            var6 = 25;
             var10 = var13[var6];
             var10 = var12.bind(var1)(var10);
             var11 = var10.intl;
@@ -1217,7 +1168,7 @@ case 116:
             var6 = var13[var5];
             var9 = var12.bind(var1)(var6);
             var8 = var9.createHeaderResult;
-            var6 = 26;
+            var6 = 25;
             var10 = var13[var6];
             var10 = var12.bind(var1)(var10);
             var11 = var10.intl;
@@ -1238,7 +1189,7 @@ case 115:
             var6 = var13[var5];
             var9 = var12.bind(var1)(var6);
             var8 = var9.createHeaderResult;
-            var6 = 26;
+            var6 = 25;
             var10 = var13[var6];
             var10 = var12.bind(var1)(var10);
             var11 = var10.intl;
@@ -1259,7 +1210,7 @@ case 113:
             var6 = var13[var5];
             var9 = var12.bind(var1)(var6);
             var8 = var9.createHeaderResult;
-            var6 = 26;
+            var6 = 25;
             var10 = var13[var6];
             var10 = var12.bind(var1)(var10);
             var11 = var10.intl;
@@ -1291,7 +1242,7 @@ case 112:
 case 124:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 26;
+            var6 = 25;
             var10 = var13[var6];
             var10 = var12.bind(var1)(var10);
             var11 = var10.intl;
@@ -1305,7 +1256,7 @@ case 124:
 case 123:
             var11 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var10 = 26;
+            var10 = 25;
             var12 = var15[var10];
             var12 = var11.bind(var1)(var12);
             var13 = var12.intl;
@@ -1694,7 +1645,7 @@ case 37:
     var10 = new Array(0);
     var _closure1_slot35 = var10;
     var _closure1_slot36 = var4;
-    var4 = 30;
+    var4 = 29;
     var4 = var7[var4];
     var4 = var9.bind(var1)(var4);
     var10 = var4.PersistedStore;
@@ -1776,7 +1727,7 @@ case 0:
                 var1 = var4.bind(var6)(var2, var1);
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 29;
+                var1 = 28;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var4.bind(var1)(var2);
@@ -2033,7 +1984,7 @@ case 137:
     var4 = 'QuickSwitcherStore';
     var10['displayName'] = var4;
     var10['persistKey'] = var4;
-    var4 = 31;
+    var4 = 30;
     var4 = var7[var4];
     var17 = var9.bind(var1)(var4);
     var4 = {};
@@ -2192,7 +2143,7 @@ case 177:
             _closure1_slot28 = var5;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 29;
+            var1 = 28;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
@@ -2253,7 +2204,7 @@ case 98:
     var4 = new var18[var10](var17, var16, var15);
     var4 = var4 instanceof Object ? var4 : var8;
     var _closure1_slot37 = var4;
-    var5 = 32;
+    var5 = 31;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

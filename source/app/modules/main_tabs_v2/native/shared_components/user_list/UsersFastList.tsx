@@ -68,6 +68,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['style'] = var8;
         var5 = var7.bind(var4)(var6, var5);
         var1['icon'] = var5;
+        var5 = '100%';
+        var1['height'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

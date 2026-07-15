@@ -43,16 +43,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.useYouBarTotalHeight;
-    var _closure1_slot9 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot10 = var8;
+    var _closure1_slot9 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot11 = var4;
-    var4 = 7;
+    var _closure1_slot10 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
@@ -63,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['flex'] = var3;
         var5 = _closure1_slot1;
         var6 = _closure1_slot2;
-        var3 = 8;
+        var3 = 7;
         var7 = var6[var3];
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
@@ -81,50 +76,56 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var4 = {};
     var8 = 'function MessagesTsx1(event){const{scrollPosition,handleGuildsNavigationScroll}=this.__closure;scrollPosition.set(event.contentOffset.y);handleGuildsNavigationScroll(event.contentOffset.y,event.contentSize.height,event.layoutMeasurement.height);}';
     var4['code'] = var8;
-    var _closure1_slot13 = var4;
+    var _closure1_slot12 = var4;
     var4 = var7.memo;
     var2 = function Messages(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var27 = var1.style;
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot11;
             var4 = undefined;
             var8 = var1.bind(var4)();
             var _closure2_slot0 = var8;
             var11 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var2 = var14[var1];
             var5 = var11.bind(var4)(var2);
-            var2 = 10;
+            var2 = 9;
             var2 = var14[var2];
             var2 = var11.bind(var4)(var2);
             var2 = var2.MESSAGES;
             var2 = var5.bind(var4)(var2);
             var5 = var2.analyticsLocations;
             var2 = _closure1_slot0;
-            var6 = 11;
+            var6 = 10;
             var7 = var14[var6];
             var12 = var2.bind(var4)(var7);
             var10 = var12.useSharedValue;
             var7 = 0;
             var12 = var10.bind(var12)(var7);
             var _closure2_slot1 = var12;
-            var10 = _closure1_slot9;
-            var13 = var10.bind(var4)();
-            var7 = 12;
+            var7 = 11;
+            var10 = var14[var7];
+            var13 = var2.bind(var4)(var10);
+            var10 = var13.useYouBarTotalHeight;
+            var13 = var10.bind(var13)();
+            var10 = 12;
+            var10 = var14[var10];
+            var15 = var2.bind(var4)(var10);
+            var10 = var15.useMobileQuestDockHeight;
+            var10 = var10.bind(var15)();
+            var26 = var13 + var10;
             var7 = var14[var7];
-            var15 = var2.bind(var4)(var7);
-            var7 = var15.useMobileQuestDockHeight;
-            var7 = var7.bind(var15)();
-            var26 = var13 + var7;
+            var13 = var2.bind(var4)(var7);
+            var10 = var13.useYouBarTotalHeight;
             var7 = -16;
-            var18 = var10.bind(var4)(var7);
+            var18 = var10.bind(var13)(var7);
             var7 = 13;
             var7 = var14[var7];
             var7 = var11.bind(var4)(var7);
@@ -372,7 +373,7 @@ case 22:
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 21:
-                    var6 = _closure1_slot10;
+                    var6 = _closure1_slot9;
                     var3 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var2 = 29;
@@ -391,7 +392,7 @@ case 19:
                     var7['suggestedFriend'] = var2;
                     var2 = _closure2_slot14;
                     var7['onAddFriendSuggestions'] = var2;
-                    var6 = _closure1_slot10;
+                    var6 = _closure1_slot9;
                     var3 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var2 = 28;
@@ -406,7 +407,7 @@ case 19:
                     var2 = var6.bind(var4)(var3, var2);
                     return var2;
 case 17:
-                    var6 = _closure1_slot10;
+                    var6 = _closure1_slot9;
                     var3 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var2 = 27;
@@ -416,7 +417,7 @@ case 17:
                     var2 = var6.bind(var4)(var3, var2);
                     return var2;
 case 15:
-                    var6 = _closure1_slot10;
+                    var6 = _closure1_slot9;
                     var3 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var2 = 26;
@@ -433,7 +434,7 @@ case 15:
                     var2 = var6.bind(var4)(var3, var2);
                     return var2;
 case 13:
-                    var3 = _closure1_slot10;
+                    var3 = _closure1_slot9;
                     var2 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var1 = 26;
@@ -474,7 +475,7 @@ case 0:
                         var1 = null;
                         if(!(var3 === var4)) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
-                        var4 = _closure1_slot10;
+                        var4 = _closure1_slot9;
                         var3 = _closure1_slot1;
                         var6 = _closure1_slot2;
                         var2 = 30;
@@ -555,7 +556,7 @@ case 29:
                         var2 = null;
                         return var2;
 case 28:
-                        var6 = _closure1_slot10;
+                        var6 = _closure1_slot9;
                         var3 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var2 = 32;
@@ -565,7 +566,7 @@ case 28:
                         var2 = var6.bind(var4)(var3, var2);
                         return var2;
 case 26:
-                        var3 = _closure1_slot10;
+                        var3 = _closure1_slot9;
                         var2 = _closure1_slot1;
                         var6 = _closure1_slot2;
                         var1 = 31;
@@ -639,7 +640,7 @@ case 0:
                         var1 = null;
                         if(!var2) { _fun0008_ip = 31; continue _fun0008 }
 case 32:
-                        var5 = _closure1_slot10;
+                        var5 = _closure1_slot9;
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var2 = 33;
@@ -846,7 +847,7 @@ case 41:
                 var5 = 'rect';
                 var2['shape'] = var5;
                 var5 = _closure1_slot1;
-                var4 = 8;
+                var4 = 7;
                 var11 = var7[var4];
                 var11 = var5.bind(var6)(var11);
                 var11 = var11.radii;
@@ -907,7 +908,7 @@ case 41:
             var6 = var14[var6];
             var7 = var2.bind(var4)(var6);
             var6 = var7.useAnimatedScrollHandler;
-            var3 = function U(arg1) {
+            var3 = function Y(arg1) {
                 var1 = arg1;
                 var5 = _closure2_slot1;
                 var4 = var5.set;
@@ -931,16 +932,16 @@ case 41:
             var3['__closure'] = var17;
             var17 = 5461403437592.0;
             var3['__workletHash'] = var17;
-            var17 = _closure1_slot13;
+            var17 = _closure1_slot12;
             var3['__initData'] = var17;
             var17 = var6.bind(var7)(var3);
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var1 = var14[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.AnalyticsLocationProvider;
             var1 = {};
             var1['value'] = var5;
-            var7 = _closure1_slot11;
+            var7 = _closure1_slot10;
             var6 = _closure1_slot6;
             var5 = {};
             var28 = var8.container;
@@ -957,7 +958,7 @@ case 41:
             var11 = var3.bind(var4)(var11, var8);
             var8 = new Array(3);
             var8[0] = var11;
-            var13 = _closure1_slot10;
+            var13 = _closure1_slot9;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
             if(var10) { _fun0001_ip = 48; continue _fun0001 }
@@ -1018,7 +1019,7 @@ case 48:
             var10 = var13.bind(var4)(var12, var11);
 case 50:
             var8[1] = var10;
-            var11 = _closure1_slot10;
+            var11 = _closure1_slot9;
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var9 = 41;

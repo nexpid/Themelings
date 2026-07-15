@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.useContext;
         var10 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var1 = var11[var1];
         var9 = undefined;
         var1 = var10.bind(var9)(var1);
@@ -27,14 +27,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var1.minExpandedContentHeight;
         var _closure2_slot3 = var15;
         var7 = _closure1_slot1;
-        var1 = 6;
+        var1 = 5;
         var1 = var11[var1];
         var1 = var7.bind(var9)(var1);
         var20 = var1.bind(var9)();
         var _closure2_slot4 = var20;
         var4 = _closure1_slot3;
         var3 = var4.useContext;
-        var1 = 7;
+        var1 = 6;
         var1 = var11[var1];
         var1 = var10.bind(var9)(var1);
         var1 = var1.QuestDockExternalCoordinationContext;
@@ -47,13 +47,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot7 = var1;
         var5 = _closure1_slot3;
         var4 = var5.useContext;
-        var3 = 8;
+        var3 = 7;
         var3 = var11[var3];
         var3 = var7.bind(var9)(var3);
         var3 = var4.bind(var5)(var3);
         var3 = var3.isVisibleToUser;
         var _closure2_slot8 = var3;
-        var8 = 9;
+        var8 = 8;
         var4 = var11[var8];
         var12 = var10.bind(var9)(var4);
         var5 = var12.useSharedValue;
@@ -77,11 +77,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.useSharedValue;
         var12 = var4.bind(var5)(var3);
         var _closure2_slot11 = var12;
-        var4 = _closure1_slot18;
-        var14 = var4.bind(var9)();
+        var4 = 9;
+        var4 = var11[var4];
+        var5 = var10.bind(var9)(var4);
+        var4 = var5.useYouBarTotalHeight;
+        var14 = var4.bind(var5)();
         var _closure2_slot12 = var14;
-        var4 = _closure1_slot17;
-        var7 = var4.bind(var9)();
+        var4 = 10;
+        var4 = var11[var4];
+        var5 = var10.bind(var9)(var4);
+        var4 = var5.useYouBarHorizontalMargin;
+        var7 = var4.bind(var5)();
         var _closure2_slot13 = var7;
         var23 = _closure1_slot3;
         var5 = var23.useEffect;
@@ -115,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var15 = 10;
+            var15 = 11;
             var2 = var10[var15];
             var8 = undefined;
             var2 = var9.bind(var8)(var2);
@@ -131,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.shouldCancelWhenOutside;
             var5 = var2.bind(var3)(var5);
             var3 = var5.onTouchesDown;
-            var2 = function k(arg1) {
+            var2 = function I(arg1) {
                 var5 = arg1;
                 var2 = _closure2_slot10;
                 var1 = var2.set;
@@ -188,18 +194,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['__closure'] = var13;
             var13 = 15649211210155.0;
             var2['__workletHash'] = var13;
-            var13 = _closure1_slot23;
+            var13 = _closure1_slot21;
             var2['__initData'] = var13;
             var5 = var3.bind(var5)(var2);
             var3 = var5.onTouchesMove;
-            var2 = function h(arg1) {
+            var2 = function A(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     var2 = arg1;
                     var4 = var2.state;
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 11;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var6.bind(var1)(var3);
@@ -398,7 +404,7 @@ case 2:
             var2['__closure'] = var13;
             var13 = 16451041821957.0;
             var2['__workletHash'] = var13;
-            var13 = _closure1_slot22;
+            var13 = _closure1_slot20;
             var2['__initData'] = var13;
             var5 = var3.bind(var5)(var2);
             var3 = var5.onChange;
@@ -522,12 +528,12 @@ case 52:
 case 55:
                     var8 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 8;
                     var3 = var11[var3];
                     var5 = undefined;
                     var14 = var8.bind(var5)(var3);
                     var12 = var14.runOnJS;
-                    var3 = 12;
+                    var3 = 13;
                     var4 = var11[var3];
                     var4 = var8.bind(var5)(var4);
                     var4 = var4.triggerHapticFeedback;
@@ -563,7 +569,7 @@ case 56:
                     var3[7] = var9;
                     var11 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var8 = 11;
+                    var8 = 12;
                     var9 = var9[var8];
                     var8 = undefined;
                     var13 = var11.bind(var8)(var9);
@@ -648,7 +654,7 @@ case 66:
                     var3[8] = var11;
                     var12 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var9 = 11;
+                    var9 = 12;
                     var11 = var11[var9];
                     var9 = undefined;
                     var14 = var12.bind(var9)(var11);
@@ -722,7 +728,7 @@ case 72:
                     var3[0] = var6;
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var6 = 11;
+                    var6 = 12;
                     var8 = var8[var6];
                     var6 = undefined;
                     var13 = var9.bind(var6)(var8);
@@ -778,7 +784,7 @@ case 64:
             var13['questDockWrapperSpecs'] = var7;
             var7 = _closure2_slot12;
             var13['youBarHeight'] = var7;
-            var14 = 11;
+            var14 = 12;
             var7 = var10[var14];
             var7 = var9.bind(var8)(var7);
             var7 = var7.getQuestDockExpandedWidth;
@@ -803,12 +809,12 @@ case 64:
             var13['QUEST_DOCK_GESTURE_COLLAPSED_Y_OFFSET_FACTOR'] = var7;
             var7 = _closure2_slot7;
             var13['questDockOffset'] = var7;
-            var7 = 9;
+            var7 = 8;
             var15 = var10[var7];
             var15 = var9.bind(var8)(var15);
             var15 = var15.runOnJS;
             var13['runOnJS'] = var15;
-            var15 = 12;
+            var15 = 13;
             var16 = var10[var15];
             var16 = var9.bind(var8)(var16);
             var16 = var16.triggerHapticFeedback;
@@ -828,7 +834,7 @@ case 64:
             var2['__closure'] = var13;
             var13 = 3375221025411.0;
             var2['__workletHash'] = var13;
-            var13 = _closure1_slot21;
+            var13 = _closure1_slot19;
             var2['__initData'] = var13;
             var3 = var3.bind(var5)(var2);
             var2 = var3.onEnd;
@@ -974,7 +980,7 @@ case 101:
 case 100:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 9;
+                    var1 = 8;
                     var4 = var4[var1];
                     var1 = undefined;
                     var5 = var5.bind(var1)(var4);
@@ -1003,7 +1009,7 @@ case 100:
             var1['__closure'] = var5;
             var5 = 10107537449160.0;
             var1['__workletHash'] = var5;
-            var4 = _closure1_slot20;
+            var4 = _closure1_slot18;
             var1['__initData'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -1012,7 +1018,7 @@ case 100:
         var3 = var11[var8];
         var5 = var10.bind(var9)(var3);
         var4 = var5.useAnimatedReaction;
-        var3 = function W() {
+        var3 = function V() {
             var1 = {};
             var4 = _closure2_slot1;
             var3 = var4.get;
@@ -1030,9 +1036,9 @@ case 100:
         var3['__closure'] = var7;
         var7 = 13629688537260.0;
         var3['__workletHash'] = var7;
-        var7 = _closure1_slot24;
+        var7 = _closure1_slot22;
         var3['__initData'] = var7;
-        var2 = function X(arg1, arg2) {
+        var2 = function F(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var3 = arg1;
@@ -1074,11 +1080,11 @@ case 108:
 case 111:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var2 = 9;
+                var2 = 8;
                 var2 = var5[var2];
                 var7 = var4.bind(var1)(var2);
                 var6 = var7.runOnJS;
-                var2 = 12;
+                var2 = 13;
                 var3 = var5[var2];
                 var3 = var4.bind(var1)(var3);
                 var3 = var3.triggerHapticFeedback;
@@ -1099,7 +1105,7 @@ case 110:
         var8 = var10.bind(var9)(var8);
         var8 = var8.runOnJS;
         var7['runOnJS'] = var8;
-        var8 = 12;
+        var8 = 13;
         var12 = var11[var8];
         var12 = var10.bind(var9)(var12);
         var12 = var12.triggerHapticFeedback;
@@ -1111,12 +1117,12 @@ case 110:
         var2['__closure'] = var7;
         var7 = 17417080823410.0;
         var2['__workletHash'] = var7;
-        var6 = _closure1_slot25;
+        var6 = _closure1_slot23;
         var2['__initData'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot26 = var2;
+    var _closure1_slot24 = var2;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -1166,48 +1172,41 @@ case 110:
     var5 = 3;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var9 = var5.useYouBarHorizontalMargin;
-    var _closure1_slot17 = var9;
-    var5 = var5.useYouBarTotalHeight;
-    var _closure1_slot18 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
     var5 = var5.jsx;
-    var _closure1_slot19 = var5;
+    var _closure1_slot17 = var5;
     var5 = {};
     var9 = 'function QuestDockGestureDetectorTsx1(event){const{QUEST_DOCK_GESTURE_MODE_TRANSITION_VELOCITY,restingQuestDockMode,QuestDockMode,initialGestureOffset,QUEST_DOCK_GESTURE_MODE_CLOSED_TRANSITION_HEIGHT,runOnJS,setRestingQuestDockMode}=this.__closure;const{velocityY:velocityY,y:y}=event;const absoluteVelocityY=Math.abs(velocityY);const absoluteY=Math.abs(y);let resultingDockMode;if(absoluteVelocityY>QUEST_DOCK_GESTURE_MODE_TRANSITION_VELOCITY&&velocityY<0){if(restingQuestDockMode.get()===QuestDockMode.EXPANDED){resultingDockMode=QuestDockMode.RESET_TO_PREVIOUS;}else{resultingDockMode=QuestDockMode.EXPANDED;}}else if(absoluteVelocityY<QUEST_DOCK_GESTURE_MODE_TRANSITION_VELOCITY&&initialGestureOffset.get().isDrawer){if(restingQuestDockMode.get()===QuestDockMode.EXPANDED){resultingDockMode=QuestDockMode.RESET_TO_PREVIOUS;}else{resultingDockMode=QuestDockMode.EXPANDED;}}else if(restingQuestDockMode.get()===QuestDockMode.COLLAPSED&&(velocityY>QUEST_DOCK_GESTURE_MODE_TRANSITION_VELOCITY||y>QUEST_DOCK_GESTURE_MODE_CLOSED_TRANSITION_HEIGHT)){resultingDockMode=QuestDockMode.SOFT_DISMISSED;}else if(velocityY>QUEST_DOCK_GESTURE_MODE_TRANSITION_VELOCITY&&restingQuestDockMode.get()!==QuestDockMode.COLLAPSED){resultingDockMode=QuestDockMode.COLLAPSED;}else if(velocityY<0&&absoluteVelocityY>QUEST_DOCK_GESTURE_MODE_TRANSITION_VELOCITY&&restingQuestDockMode.get()===QuestDockMode.CLOSED){resultingDockMode=QuestDockMode.COLLAPSED;}else{if(restingQuestDockMode.get()===QuestDockMode.COLLAPSED||restingQuestDockMode.get()===QuestDockMode.CLOSED){resultingDockMode=QuestDockMode.RESET_TO_PREVIOUS;}else{resultingDockMode=QuestDockMode.COLLAPSED;}}if(restingQuestDockMode.get()===QuestDockMode.CLOSED&&resultingDockMode!==QuestDockMode.EXPANDED&&y<0&&absoluteY>QUEST_DOCK_GESTURE_MODE_CLOSED_TRANSITION_HEIGHT){resultingDockMode=QuestDockMode.COLLAPSED;}runOnJS(setRestingQuestDockMode)(resultingDockMode);}';
     var5['code'] = var9;
-    var _closure1_slot20 = var5;
+    var _closure1_slot18 = var5;
     var5 = {};
     var9 = 'function QuestDockGestureDetectorTsx2(event){const{initialGestureOffset,minExpandedContentHeight,activeQuestDockMode,QuestDockMode,QUEST_DOCK_GESTURE_EXPANDED_EXCESS_HEIGHT_FACTOR,QUEST_DOCK_GESTURE_MODE_TRANSITION_HEIGHT,questDockWrapperSpecs,youBarHeight,getQuestDockExpandedWidth,windowDimensions,safeArea,QUEST_DOCK_GESTURE_MODE_CLOSED_TRANSITION_HEIGHT,QUEST_DOCK_CLOSED_HEIGHT,QUEST_DOCK_GESTURE_CLOSED_Y_OFFSET_FACTOR,getQuestDockClosedWidth,QUEST_DOCK_COLLAPSED_HEIGHT,QUEST_DOCK_GESTURE_COLLAPSED_Y_OFFSET_FACTOR,questDockOffset,runOnJS,triggerHapticFeedback,HapticFeedbackTypes,QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED,getQuestDockCollapsedWidth,youBarHorizontalMargin}=this.__closure;const deltaY=event.absoluteY-initialGestureOffset.get().absoluteY;const expandedContentHeight=minExpandedContentHeight.get();let nextHeight=initialGestureOffset.get().height-deltaY;if(nextHeight>expandedContentHeight&&activeQuestDockMode.get()===QuestDockMode.EXPANDED){const overage=nextHeight-expandedContentHeight;const additionalHeight=overage*QUEST_DOCK_GESTURE_EXPANDED_EXCESS_HEIGHT_FACTOR;nextHeight=expandedContentHeight+additionalHeight;}const expandedModeTransitionHeight=minExpandedContentHeight.get()>0?Math.min(minExpandedContentHeight.get(),QUEST_DOCK_GESTURE_MODE_TRANSITION_HEIGHT):QUEST_DOCK_GESTURE_MODE_TRANSITION_HEIGHT;if(nextHeight>=expandedModeTransitionHeight){if(!initialGestureOffset.get().isDrawer){initialGestureOffset.set({...initialGestureOffset.get(),isDrawer:true});}questDockWrapperSpecs.set({...questDockWrapperSpecs.get(),x:0,y:youBarHeight>0?youBarHeight:0,width:getQuestDockExpandedWidth(windowDimensions.get().width,safeArea.get().left,safeArea.get().right),height:Math.min(nextHeight,windowDimensions.get().height),prevDeltaY:deltaY});activeQuestDockMode.set(QuestDockMode.EXPANDED);}else if(nextHeight<QUEST_DOCK_GESTURE_MODE_CLOSED_TRANSITION_HEIGHT){if(activeQuestDockMode.get()===QuestDockMode.CLOSED){const progress=1-Math.min(nextHeight,0)/QUEST_DOCK_CLOSED_HEIGHT;const newChange=progress*(QUEST_DOCK_CLOSED_HEIGHT-nextHeight);const nextY=newChange*QUEST_DOCK_GESTURE_CLOSED_Y_OFFSET_FACTOR;const isDraggingDown=newChange>0;questDockWrapperSpecs.set({...questDockWrapperSpecs.get(),x:0,y:isDraggingDown?nextY:0,width:getQuestDockClosedWidth(windowDimensions.get().width,safeArea.get().left,safeArea.get().right),height:isDraggingDown?QUEST_DOCK_CLOSED_HEIGHT:nextHeight,prevDeltaY:deltaY});activeQuestDockMode.set(QuestDockMode.CLOSED);}}else{const progress=nextHeight/QUEST_DOCK_GESTURE_MODE_TRANSITION_HEIGHT;const yOffset=(nextHeight-QUEST_DOCK_COLLAPSED_HEIGHT)*-1;const newChange=yOffset*(1-progress/QUEST_DOCK_GESTURE_COLLAPSED_Y_OFFSET_FACTOR);questDockOffset.set(youBarHeight>0?-Math.min(newChange,0):0);if(initialGestureOffset.get().isDrawer){initialGestureOffset.set({...initialGestureOffset.get(),isDrawer:false});}if(QUEST_DOCK_COLLAPSED_HEIGHT!==questDockWrapperSpecs.get().height&&activeQuestDockMode.get()!==QuestDockMode.EXPANDED){runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}questDockWrapperSpecs.set({...questDockWrapperSpecs.get(),x:0,y:QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED*-1+(youBarHeight>0?Math.min(newChange,0):newChange),width:getQuestDockCollapsedWidth(windowDimensions.get().width,youBarHeight>0?youBarHorizontalMargin:safeArea.get().left,youBarHeight>0?youBarHorizontalMargin:safeArea.get().right),height:QUEST_DOCK_COLLAPSED_HEIGHT,prevDeltaY:deltaY});activeQuestDockMode.set(QuestDockMode.COLLAPSED);}}';
     var5['code'] = var9;
-    var _closure1_slot21 = var5;
+    var _closure1_slot19 = var5;
     var5 = {};
     var9 = 'function QuestDockGestureDetectorTsx3(event){const{State,initialGestureOffset,touchMoveCount,QUEST_DOCK_GESTURE_TOUCH_MOVE_COUNT_THRESHOLD,restingQuestDockMode,QuestDockMode,QUEST_DOCK_GESTURE_VERTICAL_DELTA_MINIMUM,QUEST_DOCK_GESTURE_CLOSED_VERTICAL_DELTA_MINIMUM,questDockWrapperSpecs}=this.__closure;if(event.state!==State.BEGAN||initialGestureOffset.get().active){return;}touchMoveCount.set(touchMoveCount.get()+1);const isDragging=touchMoveCount.get()<=QUEST_DOCK_GESTURE_TOUCH_MOVE_COUNT_THRESHOLD;const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];const computed=initialGestureOffset.get().absoluteY-absoluteY;const computedAbsolute=Math.abs(computed);if(restingQuestDockMode.get()===QuestDockMode.EXPANDED&&isDragging&&computed>=0){return;}if(restingQuestDockMode.get()===QuestDockMode.COLLAPSED&&computed>QUEST_DOCK_GESTURE_VERTICAL_DELTA_MINIMUM||restingQuestDockMode.get()===QuestDockMode.EXPANDED&&(computed<-QUEST_DOCK_GESTURE_VERTICAL_DELTA_MINIMUM||computed>QUEST_DOCK_GESTURE_VERTICAL_DELTA_MINIMUM)||restingQuestDockMode.get()===QuestDockMode.COLLAPSED&&computed<0&&computedAbsolute>QUEST_DOCK_GESTURE_CLOSED_VERTICAL_DELTA_MINIMUM||restingQuestDockMode.get()===QuestDockMode.CLOSED&&computed>0&&computed>QUEST_DOCK_GESTURE_CLOSED_VERTICAL_DELTA_MINIMUM||restingQuestDockMode.get()===QuestDockMode.CLOSED&&computed<0&&computedAbsolute>QUEST_DOCK_GESTURE_CLOSED_VERTICAL_DELTA_MINIMUM){initialGestureOffset.set({absoluteX:absoluteX,absoluteY:absoluteY,x:questDockWrapperSpecs.get().x,y:questDockWrapperSpecs.get().y,height:questDockWrapperSpecs.get().height,isDrawer:restingQuestDockMode.get()===QuestDockMode.EXPANDED,active:true});}}';
     var5['code'] = var9;
-    var _closure1_slot22 = var5;
+    var _closure1_slot20 = var5;
     var5 = {};
     var9 = 'function QuestDockGestureDetectorTsx4(event){const{touchMoveCount,initialGestureOffset,questDockWrapperSpecs,restingQuestDockMode,QuestDockMode}=this.__closure;touchMoveCount.set(0);initialGestureOffset.set({absoluteX:event.changedTouches[0].absoluteX,absoluteY:event.changedTouches[0].absoluteY,x:questDockWrapperSpecs.get().x,y:questDockWrapperSpecs.get().y,height:questDockWrapperSpecs.get().height,isDrawer:restingQuestDockMode.get()===QuestDockMode.EXPANDED,active:false});}';
     var5['code'] = var9;
-    var _closure1_slot23 = var5;
+    var _closure1_slot21 = var5;
     var5 = {};
     var9 = 'function QuestDockGestureDetectorTsx5(){const{activeQuestDockMode,isVisibleSharedValue}=this.__closure;return{mode:activeQuestDockMode.get(),isVisible:isVisibleSharedValue.get()};}';
     var5['code'] = var9;
-    var _closure1_slot24 = var5;
+    var _closure1_slot22 = var5;
     var5 = {};
     var9 = 'function QuestDockGestureDetectorTsx6(current,previous){const{QuestDockMode,runOnJS,triggerHapticFeedback,HapticFeedbackTypes}=this.__closure;if(current.mode===(previous===null||previous===void 0?void 0:previous.mode)||current.mode===QuestDockMode.CLOSED||(previous===null||previous===void 0?void 0:previous.mode)===QuestDockMode.CLOSED||!current.isVisible){return;}runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}';
     var5['code'] = var9;
-    var _closure1_slot25 = var5;
+    var _closure1_slot23 = var5;
     var5 = var8.memo;
     var4 = function QuestDockGestureDetector(arg1) {
-        var2 = _closure1_slot26;
+        var2 = _closure1_slot24;
         var4 = undefined;
         var5 = var2.bind(var4)();
-        var3 = _closure1_slot19;
+        var3 = _closure1_slot17;
         var2 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 11;
         var1 = var6[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.GestureDetector;
@@ -1220,7 +1219,7 @@ case 110:
         return var1;
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 13;
+    var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

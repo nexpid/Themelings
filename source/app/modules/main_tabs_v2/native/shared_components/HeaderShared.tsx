@@ -759,17 +759,11 @@ case 0:
             var5 = arg1;
             var1 = arg2;
             var _closure2_slot0 = var1;
-            var4 = var1.name;
-            var6 = 'none';
-            var3 = 'channel';
-            var1 = var6;
-            if(!(var3 === var4)) { _fun0007_ip = 49; continue _fun0007 }
-case 50:
-            var3 = var5.getState;
-            var3 = var3.bind(var5)();
-            var7 = var3.routes;
-            var4 = var7.findIndex;
-            var3 = function(arg1) {
+            var1 = var5.getState;
+            var1 = var1.bind(var5)();
+            var4 = var1.routes;
+            var3 = var4.findIndex;
+            var1 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.key;
                 var1 = _closure2_slot0;
@@ -777,12 +771,12 @@ case 50:
                 var1 = var2 === var1;
                 return var1;
             };
-            var3 = var4.bind(var7)(var3);
-            var4 = null;
-            var4 = var4 != var3;
-            var1 = var6;
+            var3 = var3.bind(var4)(var1);
+            var1 = null;
+            var4 = var1 != var3;
+            var1 = 'none';
             if(!var4) { _fun0007_ip = 49; continue _fun0007 }
-case 51:
+case 50:
             var1 = var3;
 case 49:
             var _closure2_slot1 = var1;
@@ -867,7 +861,7 @@ case 0:
             var5 = {};
             var12 = null;
             if(!(var12 == var10)) { _fun0008_ip = 25; continue _fun0008 }
-case 52:
+case 51:
             var11 = var11.actionButtonIcon;
             var10 = var11.tintColor;
 case 25:

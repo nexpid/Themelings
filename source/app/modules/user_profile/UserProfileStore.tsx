@@ -684,12 +684,27 @@ case 51:
             var1 = {};
             var3 = var2.id;
             var1['key'] = var3;
-            var4 = _closure1_slot9;
-            var5 = var4.prototype;
-            var5 = Object.create(var5, {constructor: {value: var4}});
-            var7 = var5;
-            var6 = var2;
-            var4 = new var7[var4](var6, var5);
+            var6 = _closure1_slot9;
+            var4 = {};
+            var10 = var4;
+            var9 = var2;
+            var5 = copyDataProperties(var10, var9);
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 19;
+            var7 = var7[var5];
+            var5 = undefined;
+            var8 = var8.bind(var5)(var7);
+            var7 = var8.parseServerUserCollectibles;
+            var5 = var2.collectibles;
+            var7 = var7.bind(var8)(var5);
+            var5 = 'collectibles';
+            var4[4] = var7;
+            var5 = var6.prototype;
+            var5 = Object.create(var5, {constructor: {value: var6}});
+            var11 = var5;
+            var10 = var4;
+            var4 = new var11[var6](var10, var9);
             var4 = var4 instanceof Object ? var4 : var5;
             var1['user'] = var4;
             var4 = _closure1_slot12;
@@ -927,7 +942,7 @@ case 0:
                     var2 = arg1;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 19;
+                    var3 = 20;
                     var3 = var5[var3];
                     var8 = undefined;
                     var5 = var4.bind(var8)(var3);
@@ -963,7 +978,7 @@ case 110:
                     var9 = copyDataProperties(var16, var15);
                     var10 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var9 = 20;
+                    var9 = 21;
                     var11 = var14[var9];
                     var11 = var10.bind(var8)(var11);
                     var12 = var11.intl;
@@ -984,7 +999,7 @@ case 109:
 case 108:
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var9 = 20;
+                    var9 = 21;
                     var10 = var3[var9];
                     var10 = var6.bind(var8)(var10);
                     var11 = var10.intl;
@@ -1063,7 +1078,7 @@ case 113:
             var7 = {};
             var14 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var21 = 21;
+            var21 = 22;
             var13 = var13[var21];
             var14 = var14.bind(var1)(var13);
             var13 = var2.user_profile;
@@ -1145,7 +1160,7 @@ case 131:
             var6 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1227,7 +1242,7 @@ case 140:
             var25 = var26.filter;
             var27 = _closure1_slot0;
             var28 = _closure1_slot2;
-            var23 = 23;
+            var23 = 24;
             var23 = var28[var23];
             var23 = var27.bind(var1)(var23);
             var23 = var23.isNotNullish;
@@ -1577,7 +1592,7 @@ case 169:
             var4 = copyDataProperties(var19, var18);
             var16 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var4 = 21;
+            var4 = 22;
             var9 = var9[var4];
             var4 = undefined;
             var16 = var16.bind(var4)(var9);
@@ -1630,7 +1645,7 @@ case 172:
             var2 = copyDataProperties(var19, var18);
             var15 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 21;
+            var2 = 22;
             var8 = var8[var2];
             var2 = undefined;
             var15 = var15.bind(var2)(var8);
@@ -1691,7 +1706,7 @@ case 174:
             var7 = var8.filter;
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 23;
+            var1 = 24;
             var6 = var6[var1];
             var1 = undefined;
             var6 = var9.bind(var1)(var6);
@@ -2482,7 +2497,7 @@ case 194:
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot28 = var2;
-    var4 = 24;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

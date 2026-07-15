@@ -87,8 +87,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.space;
+    var13 = var12.PX_8;
+    var12 = 'paddingStart';
+    var9[11] = var13;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
     var13 = var12.PX_12;
-    var12 = 'paddingHorizontal';
+    var12 = 'paddingEnd';
     var9[11] = var13;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);

@@ -40,16 +40,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var4 = var4.useYouBarHorizontalMargin;
-    var _closure1_slot8 = var4;
-    var4 = 5;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var5 = var8.createContext;
     var4 = {};
-    var9 = 6;
+    var9 = 5;
     var12 = var7[var9];
     var14 = var6.bind(var1)(var12);
     var13 = var14.createFakeSharedValue;
@@ -74,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var9.bind(var10)(var11);
     var4['minExpandedContentHeight'] = var9;
     var4 = var5.bind(var8)(var4);
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var5 = var8.memo;
     var2 = function QuestDockGestureContextProviderInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -83,14 +78,14 @@ case 0:
             var6 = var7.useMemo;
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 7;
+            var3 = 6;
             var3 = var11[var3];
             var4 = undefined;
             var3 = var8.bind(var4)(var3);
             var5 = var3.getWindowDimensions;
             var3 = new Array(0);
             var12 = var6.bind(var7)(var5, var3);
-            var6 = 8;
+            var6 = 7;
             var3 = var11[var6];
             var7 = var8.bind(var4)(var3);
             var5 = var7.useSharedValue;
@@ -107,8 +102,11 @@ case 0:
             var3['maxContentHeight'] = var9;
             var10 = var5.bind(var7)(var3);
             var _closure2_slot0 = var10;
-            var3 = _closure1_slot8;
-            var15 = var3.bind(var4)();
+            var3 = 8;
+            var3 = var11[var3];
+            var5 = var8.bind(var4)(var3);
+            var3 = var5.useYouBarHorizontalMargin;
+            var15 = var3.bind(var5)();
             var3 = var11[var6];
             var9 = var8.bind(var4)(var3);
             var7 = var9.useSharedValue;
@@ -201,8 +199,8 @@ case 4:
                 return var1;
             };
             var5 = var5.bind(var6)(var2, var3);
-            var3 = _closure1_slot9;
-            var1 = _closure1_slot10;
+            var3 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var2 = var1.Provider;
             var1 = {};
             var1['value'] = var5;

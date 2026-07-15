@@ -1402,7 +1402,7 @@ case 0:
                     var1 = undefined;
                     var5 = var15.bind(var1)(var5);
                     var6 = var5.Text;
-                    var5 = {'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
+                    var5 = {'accessibilityRole': 'header', 'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
                     var11 = 19;
                     var12 = var16[var11];
                     var12 = var15.bind(var1)(var12);

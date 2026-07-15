@@ -599,26 +599,16 @@ case 9:
         var5['value'] = var7;
         var1[38] = var5;
         var5 = {};
-        var7 = 'saveClip';
+        var7 = 'getSystemSteadyClockNowMs';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = global;
-            var3 = var1.Promise;
-            var2 = var3.reject;
-            var5 = var1.Error;
-            var1 = var5.prototype;
-            var4 = Object.create(var1, {constructor: {value: var5}});
-            var6 = 'UNSUPPORTED';
-            var7 = var4;
-            var1 = new var7[var5](var6, var5);
-            var1 = var1 instanceof Object ? var1 : var4;
-            var1 = var2.bind(var3)(var1);
+            var1 = null;
             return var1;
         };
         var5['value'] = var7;
         var1[39] = var5;
         var5 = {};
-        var7 = 'saveClipForUser';
+        var7 = 'saveClipEx';
         var5['key'] = var7;
         var7 = function value() {
             var1 = global;

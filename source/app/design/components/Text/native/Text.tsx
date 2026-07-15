@@ -112,7 +112,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var5 = arg1;
             var3 = var5.name;
-            var8 = null;
             var2 = 'code';
             var1 = null;
             if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
@@ -137,14 +136,14 @@ case 4:
             var4 = var6.toString;
             var6 = var4.bind(var6)();
             var4 = {};
-            var10 = _closure1_slot9;
-            var4['headline'] = var10;
-            var10 = _closure1_slot7;
-            var4['display'] = var10;
-            var10 = _closure1_slot8;
-            var4['primary'] = var10;
-            var9 = _closure1_slot10;
-            var4['code'] = var9;
+            var9 = _closure1_slot9;
+            var4['headline'] = var9;
+            var9 = _closure1_slot7;
+            var4['display'] = var9;
+            var9 = _closure1_slot8;
+            var4['primary'] = var9;
+            var8 = _closure1_slot10;
+            var4['code'] = var8;
             var4 = var4[var7];
             var4 = var4[var6];
             var3['fontFamily'] = var4;
@@ -155,11 +154,6 @@ case 4:
             var4 = undefined;
             if(!var6) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var6 = var5.letterSpacing;
-            var6 = var8 != var6;
-            var4 = undefined;
-            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
-case 8:
             var6 = var5.letterSpacing;
             var5 = 10;
             var4 = var6 / var5;
@@ -190,8 +184,8 @@ case 0:
             var3 = undefined;
             var5 = 'none';
             var4 = undefined;
-            if(!(var5 !== var7)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            if(!(var5 !== var7)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var6 = 5;
@@ -201,14 +195,14 @@ case 10:
             var5 = _closure1_slot6;
             var5 = var5[var7];
             var4 = var6[var5];
-case 9:
+case 8:
             var2['color'] = var4;
             var4 = arg2;
             var3 = undefined;
-            if(!var4) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-            var3 = ['tabular-nums'];
+            if(!var4) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
+            var3 = ['tabular-nums'];
+case 10:
             var2['fontVariant'] = var3;
             var1['text'] = var2;
             return var1;
@@ -228,20 +222,20 @@ case 0:
             var7 = var9.ellipsizeMode;
             var12 = var9.tabularNumbers;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-            var12 = false;
+            if(!(var12 === var4)) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
+            var12 = false;
+case 12:
             var1 = var9.animated;
-            if(!(var1 === var4)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
-            var1 = false;
+            if(!(var1 === var4)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
+            var1 = false;
+case 14:
             var2 = var9.experimental_useNativeText;
-            if(!(var2 === var4)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
-            var2 = false;
+            if(!(var2 === var4)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
+            var2 = false;
+case 16:
             var5 = {'variant': 0, 'color': 0, 'style': 0, 'lineClamp': 0, 'ellipsizeMode': 0, 'tabularNumbers': 0, 'animated': 0, 'experimental_useNativeText': 0};
             var6 = null;
             var18 = var5;
@@ -254,29 +248,29 @@ case 17:
             var11 = _closure1_slot12;
             var15 = var6 != var14;
             var3 = 'text-default';
-            if(!var15) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-            var3 = var14;
+            if(!var15) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
+            var3 = var14;
+case 18:
             var11 = var11.bind(var4)(var3, var12);
-            if(var2) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
-            if(var1) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-            var3 = _closure1_slot3;
-            _fun0003_ip = 25; continue _fun0003;
-case 23:
-            var3 = _closure1_slot5;
-case 25:
-            _fun0003_ip = 26; continue _fun0003;
+            if(var2) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
+            if(var1) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
+            var3 = _closure1_slot3;
+            _fun0003_ip = 24; continue _fun0003;
+case 22:
+            var3 = _closure1_slot5;
+case 24:
+            _fun0003_ip = 25; continue _fun0003;
+case 20:
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
             var1 = 9;
             var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.NativeText;
-case 26:
+case 25:
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
             var1 = 10;
@@ -298,10 +292,10 @@ case 26:
             var1['numberOfLines'] = var8;
             var8 = var6 != var7;
             var6 = 'tail';
-            if(!var8) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-            var6 = var7;
+            if(!var8) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
+            var6 = var7;
+case 26:
             var1['ellipsizeMode'] = var6;
             var6 = true;
             var1['allowFontScaling'] = var6;

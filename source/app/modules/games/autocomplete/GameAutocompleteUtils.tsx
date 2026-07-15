@@ -54,42 +54,6 @@ case 2:
         }
     };
     var3['normalizeGameAutocompleteQuery'] = var4;
-    var4 = function detectableGameToGameDescriptor(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var3 = arg1;
-            var1 = var3.icon;
-            var2 = null;
-            if(!(var2 == var1)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var1 = var3.icon_hash;
-case 6:
-            var5 = var2 != var1;
-            var4 = null;
-            if(!var5) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-            var4 = var1;
-case 8:
-            var1 = {};
-            var5 = var3.id;
-            var1['id'] = var5;
-            var3 = var3.name;
-            var1['name'] = var3;
-            var3 = var2 != var4;
-            var2 = null;
-            if(!var3) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            var3 = {};
-            var5 = 'hash';
-            var3['type'] = var5;
-            var3['value'] = var4;
-            var2 = var3;
-case 10:
-            var1['icon'] = var2;
-            return var1;
-        }
-    };
-    var3['detectableGameToGameDescriptor'] = var4;
     var2 = function isGameAutocompleteResultAllowedInGameWidgets(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

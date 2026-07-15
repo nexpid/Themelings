@@ -787,8 +787,8 @@ case 0:
             var6 = arg1;
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var10 = 8;
-            var1 = var7[var10];
+            var1 = 8;
+            var1 = var7[var1];
             var3 = undefined;
             var1 = var5.bind(var3)(var1);
             var1 = var1.bind(var3)();
@@ -814,8 +814,8 @@ case 26:
             var7 = var8.useFontScale;
             var12 = var7.bind(var8)();
             var8 = _closure1_slot1;
-            var7 = 12;
-            var7 = var4[var7];
+            var10 = 12;
+            var7 = var4[var10];
             var7 = var8.bind(var3)(var7);
             var8 = var7.bind(var3)(var6);
             var7 = null;

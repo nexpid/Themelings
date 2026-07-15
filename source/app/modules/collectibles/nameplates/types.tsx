@@ -47,6 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREVIEW'] = var1;
     var1 = 'mini_preview';
     var2['MINI_PREVIEW'] = var1;
+    var1 = 'mutual_friends_list';
+    var2['MUTUAL_FRIENDS_LIST'] = var1;
     var5 = dependencyMap;
     var1 = 0;
     var6 = var5[var1];

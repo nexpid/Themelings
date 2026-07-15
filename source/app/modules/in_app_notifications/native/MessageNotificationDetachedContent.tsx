@@ -130,7 +130,7 @@ case 0:
             var2 = var16[var7];
             var3 = var15.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function I() {
+            var1 = function _() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -198,11 +198,6 @@ case 4:
             var6 = null;
             if(!var5) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var16 = var18.type;
-            var5 = 'message';
-            var6 = null;
-            if(!(var5 === var16)) { _fun0001_ip = 6; continue _fun0001 }
-case 8:
             var17 = _closure1_slot6;
             var16 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -220,11 +215,11 @@ case 6:
             var5 = new Array(2);
             var5[0] = var6;
             var6 = null;
-            if(!var14) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+            if(!var14) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = null;
-            if(!var8) { _fun0001_ip = 9; continue _fun0001 }
-case 11:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var9 = _closure1_slot6;
             var8 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -248,7 +243,7 @@ case 11:
             var10 = var9.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 9:
+case 8:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

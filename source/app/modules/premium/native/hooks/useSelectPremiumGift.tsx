@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -71,33 +71,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                         StartGenerator();
-                        var10 = arg1;
+                        var13 = arg1;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                         var9 = undefined;
                         var4 = undefined;
+                        var8 = undefined;
                         var7 = undefined;
                         var2 = _closure2_slot4;
                         var2 = var2.bind(var9)(var9);
                         var2 = _closure2_slot1;
-                        var2 = var2.bind(var9)(var10);
+                        var2 = var2.bind(var9)(var13);
                         var6 = _closure1_slot0;
-                        var8 = _closure1_slot2;
+                        var11 = _closure1_slot2;
                         var2 = 5;
-                        var2 = var8[var2];
-                        var8 = var6.bind(var9)(var2);
-                        var6 = var8.getPlanIdForPremiumType;
+                        var2 = var11[var2];
+                        var12 = var6.bind(var9)(var2);
+                        var10 = var12.getPlanIdForPremiumType;
                         var2 = _closure2_slot3;
-                        var7 = var6.bind(var8)(var10, var2);
+                        var10 = var10.bind(var12)(var13, var2);
+                        var8 = var10;
+                        var2 = 6;
+                        var2 = var11[var2];
+                        var6 = var6.bind(var9)(var2);
+                        var2 = var6.getProductIdForGift;
+                        var7 = var2.bind(var6)(var10);
 case 4: // try_start_0
                         var6 = _closure2_slot5;
                         var2 = {};
-                        var2['planId'] = var7;
-                        var7 = _closure2_slot2;
-                        var2['recipientUserId'] = var7;
+                        var2['planId'] = var8;
+                        var8 = _closure2_slot2;
+                        var2['recipientUserId'] = var8;
+                        var2['productId'] = var7;
                         var2 = var6.bind(var9)(var2);
-                        SaveGenerator(address=108);
+                        SaveGenerator(address=141);
 case 5:
                         return var2;
 case 6:
@@ -112,7 +120,7 @@ case 9: // try_end0
                         var4 = var6.navigate;
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var3 = 8;
+                        var3 = 9;
                         var3 = var8[var3];
                         var3 = var7.bind(var9)(var3);
                         var3 = var3.PremiumGiftScreens;
@@ -125,13 +133,13 @@ case 10: // catch_target0
                         CatchBlockStart(arg_register=1);
                         var3 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var2 = 6;
+                        var2 = 7;
                         var2 = var10[var2];
                         var4 = var3.bind(var9)(var2);
                         var3 = var4.show;
                         var2 = {};
                         var8 = _closure1_slot0;
-                        var5 = 7;
+                        var5 = 8;
                         var6 = var10[var5];
                         var6 = var8.bind(var9)(var6);
                         var11 = var6.intl;

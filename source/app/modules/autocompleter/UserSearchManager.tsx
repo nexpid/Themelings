@@ -2335,11 +2335,11 @@ case 67:
             _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
 case 0:
                 var6 = arg1;
-                var10 = arg2;
+                var11 = arg2;
                 var1 = this;
                 var3 = var1._worker;
-                var9 = null;
-                if(!(var9 != var3)) { _fun0037_ip = 145; continue _fun0037 }
+                var10 = null;
+                if(!(var10 != var3)) { _fun0037_ip = 145; continue _fun0037 }
 case 102:
                 var1 = _closure1_slot18;
                 var4 = var6.filter;
@@ -2347,90 +2347,84 @@ case 102:
                 var8 = _closure1_slot3;
                 var2 = 18;
                 var2 = var8[var2];
-                var8 = undefined;
-                var2 = var7.bind(var8)(var2);
+                var9 = undefined;
+                var2 = var7.bind(var9)(var2);
                 var2 = var2.isNotNullish;
                 var4 = var4.bind(var6)(var2);
-                var7 = var1.bind(var8)(var4);
-                var2 = var7.bind(var8)();
+                var8 = var1.bind(var9)(var4);
+                var2 = var8.bind(var9)();
                 var1 = var2.done;
-                var6 = 19;
+                var7 = 19;
+                var6 = true;
                 if(var1) { _fun0037_ip = 146; continue _fun0037 }
 case 147:
-                var16 = var2.value;
-                var11 = var9 == var16;
+                var17 = var2.value;
+                var12 = var10 == var17;
                 var1 = undefined;
-                if(var11) { _fun0037_ip = 131; continue _fun0037 }
+                if(var12) { _fun0037_ip = 148; continue _fun0037 }
+case 97:
+                var1 = var17.id;
 case 148:
-                var1 = var16.id;
-case 131:
-                if(!(var9 == var1)) { _fun0037_ip = 149; continue _fun0037 }
-case 150:
-                var11 = _closure1_slot1;
+                if(!(var10 == var1)) { _fun0037_ip = 149; continue _fun0037 }
+case 72:
+                var12 = _closure1_slot1;
                 var1 = _closure1_slot3;
-                var1 = var1[var6];
-                var12 = var11.bind(var8)(var1);
-                var11 = var12.addBreadcrumb;
+                var1 = var1[var7];
+                var13 = var12.bind(var9)(var1);
+                var12 = var13.addBreadcrumb;
                 var1 = {'category': 'debug', 'message': 'User missing id'};
-                var13 = {};
-                var13['action'] = var10;
                 var14 = {};
-                var15 = var9 == var16;
-                var14['userIsNull'] = var15;
-                var17 = var9 == var16;
-                var15 = undefined;
-                if(var17) { _fun0037_ip = 151; continue _fun0037 }
-case 152:
-                var15 = var16.id;
+                var14['action'] = var11;
+                var15 = {};
+                var16 = var10 == var17;
+                var15['userIsNull'] = var16;
+                var15['idIsNull'] = var6;
+                var18 = var10 == var17;
+                var16 = undefined;
+                if(var18) { _fun0037_ip = 150; continue _fun0037 }
 case 151:
-                var15 = var9 == var15;
-                var14['idIsNull'] = var15;
-                var17 = var9 == var16;
-                var15 = undefined;
-                if(var17) { _fun0037_ip = 153; continue _fun0037 }
-case 154:
-                var15 = var16.username;
+                var16 = var17.username;
+case 150:
+                var16 = var10 == var16;
+                var15['usernameIsNull'] = var16;
+                var18 = var10 == var17;
+                var16 = undefined;
+                if(var18) { _fun0037_ip = 152; continue _fun0037 }
 case 153:
-                var15 = var9 == var15;
-                var14['usernameIsNull'] = var15;
-                var17 = var9 == var16;
-                var15 = undefined;
-                if(var17) { _fun0037_ip = 155; continue _fun0037 }
-case 156:
-                var15 = var16.isBot;
+                var16 = var17.isBot;
+case 152:
+                var15['isBot'] = var16;
+                var18 = var10 == var17;
+                var16 = undefined;
+                if(var18) { _fun0037_ip = 154; continue _fun0037 }
 case 155:
-                var14['isBot'] = var15;
-                var17 = var9 == var16;
-                var15 = undefined;
-                if(var17) { _fun0037_ip = 114; continue _fun0037 }
-case 157:
-                var15 = var16.isFriend;
-case 114:
-                var14['isFriend'] = var15;
-                var17 = var9 == var16;
-                var15 = undefined;
-                if(var17) { _fun0037_ip = 158; continue _fun0037 }
-case 159:
-                var15 = var16.isProvisional;
+                var16 = var17.isFriend;
+case 154:
+                var15['isFriend'] = var16;
+                var18 = var10 == var17;
+                var16 = undefined;
+                if(var18) { _fun0037_ip = 24; continue _fun0037 }
+case 156:
+                var16 = var17.isProvisional;
+case 24:
+                var15['isProvisional'] = var16;
+                var18 = var10 == var17;
+                var16 = undefined;
+                if(var18) { _fun0037_ip = 157; continue _fun0037 }
 case 158:
-                var14['isProvisional'] = var15;
-                var17 = var9 == var16;
-                var15 = undefined;
-                if(var17) { _fun0037_ip = 160; continue _fun0037 }
-case 161:
-                var15 = var16.globalName;
-case 160:
-                var15 = var9 == var15;
-                var14['globalNameIsNull'] = var15;
-                var15 = var4.length;
-                var14['usersArrayLength'] = var15;
-                var13['userFields'] = var14;
-                var1['data'] = var13;
-                var1 = var11.bind(var12)(var1);
+                var16 = var17.globalName;
+case 157:
+                var16 = var10 == var16;
+                var15['globalNameIsNull'] = var16;
+                var16 = var4.length;
+                var15['usersArrayLength'] = var16;
+                var14['userFields'] = var15;
+                var1['data'] = var14;
+                var1 = var12.bind(var13)(var1);
 case 149:
-                var11 = var7.bind(var8)();
-                var1 = var11.done;
-                var2 = var11;
+                var12 = var8.bind(var9)();
+                var1 = var12.done;
+                var2 = var12;
                 if(!var1) { _fun0037_ip = 147; continue _fun0037 }
 case 146:
                 var2 = var3.postMessage;
@@ -2464,7 +2458,7 @@ case 118:
                 var2 = var2.bind(var1)();
                 var4 = var1._worker;
                 var1 = null;
-                if(!(var1 != var4)) { _fun0038_ip = 162; continue _fun0038 }
+                if(!(var1 != var4)) { _fun0038_ip = 159; continue _fun0038 }
 case 67:
                 var3 = _closure1_slot17;
                 var1 = var3.prototype;
@@ -2476,7 +2470,7 @@ case 67:
                 var1 = new var9[var3](var8, var7, var6, var5);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
-case 162:
+case 159:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;

@@ -45,21 +45,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.useYouBarSettingsCustomHeaderPaddingTop;
+    var4 = var4.FractionalPremiumStates;
     var _closure1_slot9 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.FractionalPremiumStates;
-    var _closure1_slot10 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot11 = var7;
+    var _closure1_slot10 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot12 = var4;
-    var4 = 8;
+    var _closure1_slot11 = var4;
+    var4 = 7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -71,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'flexDirection': 'column', 'alignItems': 'center', 'marginTop': 16};
     var4['scrollContainer'] = var9;
     var9 = {};
-    var10 = 9;
+    var10 = 8;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
@@ -105,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'marginTop': 24, 'marginBottom': 20};
     var4['accountCreditContainerWithSpacing'] = var9;
     var9 = {};
-    var10 = 10;
+    var10 = 9;
     var11 = var6[var10];
     var11 = var5.bind(var1)(var11);
     var11 = var11.DARK_PRIMARY_700_LIGHT_WHITE_500;
@@ -120,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'marginBottom': 16, 'marginHorizontal': 'auto', 'textAlign': 'center'};
     var4['promotionCardHeader'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot13 = var4;
+    var _closure1_slot12 = var4;
     var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -151,19 +146,22 @@ case 0:
             var _closure2_slot10 = var4;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 11;
+            var2 = 10;
             var2 = var8[var2];
             var9 = var3.bind(var4)(var2);
             var6 = var9.useCommonTriggerPoint;
-            var2 = 12;
+            var2 = 11;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.OpenNitroTriggerPoint;
             var2 = var6.bind(var9)(var2);
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot12;
             var10 = var2.bind(var4)();
-            var2 = _closure1_slot9;
-            var13 = var2.bind(var4)();
+            var2 = 12;
+            var2 = var8[var2];
+            var6 = var3.bind(var4)(var2);
+            var2 = var6.useYouBarSettingsCustomHeaderPaddingTop;
+            var13 = var2.bind(var6)();
             var2 = 13;
             var2 = var8[var2];
             var3 = var3.bind(var4)(var2);
@@ -359,7 +357,7 @@ case 10:
             var30 = !var18;
             if(!var30) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var12 = _closure1_slot11;
+            var12 = _closure1_slot10;
             var17 = _closure1_slot0;
             var21 = _closure1_slot2;
             var15 = 23;
@@ -440,7 +438,7 @@ case 14:
             var1 = var1.MarketingComponentType;
             var1 = var1.MARKETING_PAGE_BANNER;
             var21 = var2.bind(var3)(var1);
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot11;
             var2 = _closure1_slot5;
             var1 = {};
             var9 = var10.container;
@@ -457,7 +455,7 @@ case 16:
             var9['paddingTop'] = var12;
             var5[2] = var9;
             var1['style'] = var5;
-            var12 = _closure1_slot11;
+            var12 = _closure1_slot10;
             var9 = _closure1_slot1;
             var13 = _closure1_slot2;
             var5 = 29;
@@ -467,7 +465,7 @@ case 16:
             var9 = var12.bind(var4)(var9, var5);
             var5 = new Array(3);
             var5[0] = var9;
-            var13 = _closure1_slot12;
+            var13 = _closure1_slot11;
             var12 = _closure1_slot6;
             var9 = {};
             var34 = var10.scrollContainer;
@@ -542,7 +540,7 @@ case 22:
             var16 = null;
             if(!var17) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var30 = _closure1_slot11;
+            var30 = _closure1_slot10;
             var20 = _closure1_slot5;
             var17 = {};
             var33 = var10.accountCreditContainer;
@@ -561,7 +559,7 @@ case 30:
             var16 = var30.bind(var4)(var20, var17);
 case 26:
             var14[3] = var16;
-            var20 = _closure1_slot11;
+            var20 = _closure1_slot10;
             var17 = _closure1_slot1;
             var30 = _closure1_slot2;
             var16 = 31;
@@ -585,7 +583,7 @@ case 33:
             var16 = var15;
             if(!var15) { _fun0001_ip = 34; continue _fun0001 }
 case 35:
-            var30 = _closure1_slot11;
+            var30 = _closure1_slot10;
             var20 = _closure1_slot5;
             var17 = {};
             var32 = var10.sectionWithPadding;
@@ -621,7 +619,7 @@ case 34:
             var14[5] = var16;
             if(!var15) { _fun0001_ip = 36; continue _fun0001 }
 case 37:
-            var20 = _closure1_slot11;
+            var20 = _closure1_slot10;
             var17 = _closure1_slot1;
             var30 = _closure1_slot2;
             var16 = 33;
@@ -651,7 +649,7 @@ case 39:
 case 38:
             if(!var15) { _fun0001_ip = 40; continue _fun0001 }
 case 41:
-            var20 = _closure1_slot11;
+            var20 = _closure1_slot10;
             var33 = _closure1_slot1;
             var34 = _closure1_slot2;
             var16 = 34;
@@ -664,7 +662,7 @@ case 41:
             var31 = var10.sectionWidth;
             var30[1] = var31;
             var31 = {};
-            var32 = 9;
+            var32 = 8;
             var32 = var34[var32];
             var32 = var33.bind(var4)(var32);
             var32 = var32.space;
@@ -685,7 +683,7 @@ case 41:
             var15 = var20.bind(var4)(var17, var16);
 case 40:
             var14[7] = var15;
-            var17 = _closure1_slot11;
+            var17 = _closure1_slot10;
             var16 = _closure1_slot1;
             var20 = _closure1_slot2;
             var15 = 35;
@@ -731,7 +729,7 @@ case 40:
             var23[2] = var24;
             var15['style'] = var23;
             var23 = var22.fractionalState;
-            var22 = _closure1_slot10;
+            var22 = _closure1_slot9;
             var22 = var22.FP_ONLY;
             var22 = var23 === var22;
             var15['isFractionalOnly'] = var22;
@@ -757,7 +755,7 @@ case 43:
             var24 = var25.max;
             var27 = _closure1_slot1;
             var28 = _closure1_slot2;
-            var23 = 9;
+            var23 = 8;
             var23 = var28[var23];
             var23 = var27.bind(var4)(var23);
             var23 = var23.space;
@@ -784,7 +782,7 @@ case 44:
             var6 = null;
             if(!var8) { _fun0001_ip = 46; continue _fun0001 }
 case 47:
-            var9 = _closure1_slot11;
+            var9 = _closure1_slot10;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
             var7 = 39;

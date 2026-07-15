@@ -443,7 +443,7 @@ case 39:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(17);
+        var1 = new Array(18);
         var1[0] = var5;
         var5 = {};
         var7 = 'getOnboardingPromptsForOnboarding';
@@ -939,7 +939,7 @@ case 38:
         var5 = {};
         var7 = 'getConnections';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var3 = _closure1_slot13;
@@ -959,8 +959,59 @@ case 42:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[16] = var5;
+        var5 = {};
+        var7 = 'getOnboardingConnections';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+case 0:
+                var3 = _closure1_slot13;
+                var2 = arg1;
+                var3 = var3[var2];
+                var4 = null;
+                if(!(var4 != var3)) { _fun0021_ip = 18; continue _fun0021 }
+case 72:
+                var6 = var3.additionalConnections;
+                if(!(var4 == var6)) { _fun0021_ip = 55; continue _fun0021 }
+case 73:
+                var6 = new Array(0);
+case 55:
+                var2 = var6.length;
+                var7 = 0;
+                if(!(var7 !== var2)) { _fun0021_ip = 74; continue _fun0021 }
+case 30:
+                var5 = var3.connections;
+                if(!(var4 == var5)) { _fun0021_ip = 13; continue _fun0021 }
+case 8:
+                var5 = new Array(0);
+case 13:
+                var2 = new Array(0);
+                var10 = var2;
+                var9 = var5;
+                var8 = 0;
+                var8 = arraySpread(var10, var9, var8);
+                var10 = var2;
+                var9 = var6;
+                var5 = arraySpread(var10, var9, var8);
+                _fun0021_ip = 19; continue _fun0021;
+case 74:
+                var3 = var3.connections;
+                if(!(var4 == var3)) { _fun0021_ip = 67; continue _fun0021 }
+case 16:
+                var3 = _closure1_slot20;
+case 67:
+                var2 = var3;
+case 19:
+                return var2;
+case 18:
+                var1 = _closure1_slot20;
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[17] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1004,20 +1055,21 @@ case 42:
     };
     var2['GUILD_ONBOARDING_PROMPTS_FETCH_START'] = var10;
     var10 = function handleSuccess(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
             var _closure2_slot0 = var4;
             var7 = var1.prompts;
-            var13 = var1.defaultChannelIds;
-            var16 = var1.enabled;
+            var14 = var1.defaultChannelIds;
+            var17 = var1.enabled;
             var5 = var1.responses;
-            var10 = var1.onboardingPromptsSeen;
+            var11 = var1.onboardingPromptsSeen;
             var9 = var1.onboardingResponsesSeen;
-            var14 = var1.mode;
-            var12 = var1.belowRequirements;
-            var8 = var1.connections;
+            var15 = var1.mode;
+            var13 = var1.belowRequirements;
+            var10 = var1.connections;
+            var8 = var1.additionalConnections;
             var1 = false;
             _closure1_slot16 = var1;
             var3 = _closure1_slot10;
@@ -1028,23 +1080,23 @@ case 0:
             var3 = var3 === var1;
             var6 = _closure1_slot22;
             var1 = undefined;
-            var15 = var6.bind(var1)(var7, var10, var9);
+            var16 = var6.bind(var1)(var7, var11, var9);
             var7 = _closure1_slot13;
             var6 = {};
-            var6['enabled'] = var16;
-            var6['mode'] = var14;
-            var6['belowRequirements'] = var12;
-            var6['prompts'] = var15;
-            var14 = var15.filter;
-            var12 = function(arg1) {
+            var6['enabled'] = var17;
+            var6['mode'] = var15;
+            var6['belowRequirements'] = var13;
+            var6['prompts'] = var16;
+            var15 = var16.filter;
+            var13 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.inOnboarding;
                 return var1;
             };
-            var12 = var14.bind(var15)(var12);
-            var6['onboardingPrompts'] = var12;
-            var12 = var13.filter;
-            var11 = function(arg1) {
+            var13 = var15.bind(var16)(var13);
+            var6['onboardingPrompts'] = var13;
+            var13 = var14.filter;
+            var12 = function(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 9;
@@ -1057,28 +1109,33 @@ case 0:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var11 = var12.bind(var13)(var11);
-            var6['defaultChannelIds'] = var11;
-            var11 = var5;
-            if(!var3) { _fun0021_ip = 72; continue _fun0021 }
-case 73:
-            var11 = new Array(0);
-case 72:
-            var6['responses'] = var11;
-            var6['onboardingPromptsSeen'] = var10;
+            var12 = var13.bind(var14)(var12);
+            var6['defaultChannelIds'] = var12;
+            var12 = var5;
+            if(!var3) { _fun0022_ip = 75; continue _fun0022 }
+case 76:
+            var12 = new Array(0);
+case 75:
+            var6['responses'] = var12;
+            var6['onboardingPromptsSeen'] = var11;
             var6['onboardingResponsesSeen'] = var9;
             var9 = null;
-            if(!(var9 == var8)) { _fun0021_ip = 74; continue _fun0021 }
-case 75:
-            var8 = new Array(0);
-case 74:
-            var6['connections'] = var8;
-            var7[var4] = var6;
-            if(var3) { _fun0021_ip = 76; continue _fun0021 }
+            if(!(var9 == var10)) { _fun0022_ip = 77; continue _fun0022 }
+case 78:
+            var10 = new Array(0);
 case 77:
+            var6['connections'] = var10;
+            if(!(var9 == var8)) { _fun0022_ip = 79; continue _fun0022 }
+case 80:
+            var8 = new Array(0);
+case 79:
+            var6['additionalConnections'] = var8;
+            var7[var4] = var6;
+            if(var3) { _fun0022_ip = 81; continue _fun0022 }
+case 82:
             var3 = _closure1_slot23;
             var3 = var3.bind(var1)(var4, var5);
-case 76:
+case 81:
             var3 = _closure1_slot15;
             var2 = global;
             var5 = var2.Date;
@@ -1097,7 +1154,7 @@ case 76:
     };
     var2['GUILD_ONBOARDING_PROMPTS_FETCH_FAILURE'] = var10;
     var10 = function handleOptionSelect(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.guildId;
@@ -1110,23 +1167,23 @@ case 0:
             var1 = var1.bind(var2)(var5);
             var2 = !var1;
             var1 = !var2;
-            if(!var2) { _fun0022_ip = 78; continue _fun0022 }
+            if(!var2) { _fun0023_ip = 83; continue _fun0023 }
 case 54:
             var2 = _closure1_slot13;
             var2 = var2[var5];
             var6 = null;
             var2 = var6 != var2;
-            if(!var2) { _fun0022_ip = 79; continue _fun0022 }
-case 80:
+            if(!var2) { _fun0023_ip = 84; continue _fun0023 }
+case 85:
             var8 = var6 != var7;
-            if(!var8) { _fun0022_ip = 14; continue _fun0022 }
+            if(!var8) { _fun0023_ip = 14; continue _fun0023 }
 case 69:
             var12 = var7.length;
             var11 = 0;
             var8 = var12 > var11;
 case 14:
-            if(!var8) { _fun0022_ip = 81; continue _fun0022 }
-case 82:
+            if(!var8) { _fun0023_ip = 86; continue _fun0023 }
+case 87:
             var12 = _closure1_slot1;
             var11 = _closure1_slot2;
             var8 = 10;
@@ -1138,9 +1195,9 @@ case 82:
             var8 = var8[var5];
             var8 = var8.responses;
             var8 = var11.bind(var12)(var8, var7);
-case 81:
-            if(var9) { _fun0022_ip = 83; continue _fun0022 }
-case 84:
+case 86:
+            if(var9) { _fun0023_ip = 88; continue _fun0023 }
+case 89:
             var12 = _closure1_slot1;
             var11 = _closure1_slot2;
             var8 = 10;
@@ -1152,27 +1209,27 @@ case 84:
             var8 = var8[var5];
             var8 = var8.responses;
             var8 = var11.bind(var12)(var8, var10);
-            _fun0022_ip = 85; continue _fun0022;
-case 83:
+            _fun0023_ip = 90; continue _fun0023;
+case 88:
             var8 = _closure1_slot13;
             var8 = var8[var5];
             var11 = var8.responses;
             var8 = var11.push;
             var8 = var8.bind(var11)(var10);
-case 85:
+case 90:
             var8 = _closure1_slot14;
             var8 = var8[var5];
-            if(!(var6 == var8)) { _fun0022_ip = 86; continue _fun0022 }
-case 76:
+            if(!(var6 == var8)) { _fun0023_ip = 91; continue _fun0023 }
+case 92:
             var11 = _closure1_slot14;
             var8 = {};
             var11[var5] = var8;
-case 86:
+case 91:
             var8 = _closure1_slot14;
             var8 = var8[var5];
             var8[var10] = var9;
-            if(!(var6 != var7)) { _fun0022_ip = 87; continue _fun0022 }
-case 88:
+            if(!(var6 != var7)) { _fun0023_ip = 93; continue _fun0023 }
+case 94:
             var6 = var7.forEach;
             var4 = function(arg1) {
                 var2 = _closure1_slot14;
@@ -1184,7 +1241,7 @@ case 88:
                 return var1;
             };
             var4 = var6.bind(var7)(var4);
-case 87:
+case 93:
             var4 = _closure1_slot14;
             var3 = {};
             var13 = var4[var5];
@@ -1192,15 +1249,15 @@ case 87:
             var6 = copyDataProperties(var14, var13);
             var4[var5] = var3;
             var2 = true;
-case 79:
+case 84:
             var1 = var2;
-case 78:
+case 83:
             return var1;
         }
     };
     var2['GUILD_ONBOARDING_SELECT_OPTION'] = var10;
     var10 = function handleUpdateResponsesSuccess(arg1) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
@@ -1213,7 +1270,7 @@ case 0:
             var3 = _closure1_slot13;
             var5 = var3[var4];
             var3 = null;
-            if(!(var3 != var5)) { _fun0023_ip = 22; continue _fun0023 }
+            if(!(var3 != var5)) { _fun0024_ip = 22; continue _fun0024 }
 case 35:
             var8 = _closure1_slot22;
             var3 = var5.prompts;
@@ -1265,7 +1322,7 @@ case 22:
     };
     var2['GUILD_SETTINGS_DEFAULT_CHANNELS_SAVE_SUCCESS'] = var9;
     var9 = function handleUpdateConnections(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.guildId;
@@ -1273,7 +1330,7 @@ case 0:
             var2 = _closure1_slot13;
             var4 = var2[var3];
             var2 = null;
-            if(!(var2 != var4)) { _fun0024_ip = 89; continue _fun0024 }
+            if(!(var2 != var4)) { _fun0025_ip = 95; continue _fun0025 }
 case 40:
             var2 = _closure1_slot13;
             var1 = {};
@@ -1285,14 +1342,14 @@ case 40:
             var2[var3] = var1;
             var1 = undefined;
             return var1;
-case 89:
+case 95:
             var1 = false;
             return var1;
         }
     };
     var2['GUILD_SETTINGS_ONBOARDING_CONNECTIONS_SAVE_SUCCESS'] = var9;
     var4 = function handleSetMode(arg1) {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.guildId;
@@ -1300,8 +1357,8 @@ case 0:
             var1 = _closure1_slot13;
             var1 = var1[var3];
             var3 = null;
-            if(!(var3 != var1)) { _fun0025_ip = 27; continue _fun0025 }
-case 90:
+            if(!(var3 != var1)) { _fun0026_ip = 27; continue _fun0026 }
+case 73:
             var1['mode'] = var2;
 case 27:
             var1 = undefined;

@@ -41,13 +41,13 @@ case 4:
                     var1 = !var1;
                     return var1;
                 };
-                _closure1_slot15 = var2;
+                _closure1_slot16 = var2;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
                 return var1;
             }
         };
-        var _closure1_slot15 = var1;
+        var _closure1_slot16 = var1;
         var16 = function isRateLimitedStatus(arg1) {
             var3 = _closure1_slot10;
             var2 = var3.has;
@@ -55,7 +55,7 @@ case 4:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var _closure1_slot16 = var16;
+        var _closure1_slot17 = var16;
         var13 = function parseRetryAfter(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -122,11 +122,11 @@ case 15:
                 return var1;
             }
         };
-        var _closure1_slot17 = var13;
+        var _closure1_slot18 = var13;
         var12 = function getRateLimitFloorMs(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var4 = _closure1_slot17;
+                var4 = _closure1_slot18;
                 var3 = undefined;
                 var2 = arg1;
                 var1 = arg2;
@@ -143,7 +143,7 @@ case 22:
                 return var1;
             }
         };
-        var _closure1_slot18 = var12;
+        var _closure1_slot19 = var12;
         var1 = function sendRequest(arg1, arg2, arg3, arg4, arg5) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -283,7 +283,7 @@ case 41:
                 var8 = var6.context;
                 if(!(var5 != var8)) { _fun0005_ip = 43; continue _fun0005 }
 case 44:
-                var9 = _closure1_slot23;
+                var9 = _closure1_slot24;
                 var8 = var6.context;
                 var10 = var9.bind(var1)(var8);
                 if(!(var5 != var10)) { _fun0005_ip = 43; continue _fun0005 }
@@ -405,7 +405,7 @@ case 61:
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.then;
                             var1 = function() {
-                                var7 = _closure1_slot19;
+                                var7 = _closure1_slot20;
                                 var12 = _closure2_slot0;
                                 var11 = _closure2_slot1;
                                 var10 = _closure2_slot2;
@@ -483,13 +483,13 @@ case 65:
                         var5['text'] = var2;
                         var2 = var7.status;
                         var5['status'] = var2;
-                        var10 = _closure1_slot17;
+                        var10 = _closure1_slot18;
                         var8 = var7.headers;
                         var6 = var7.body;
                         var2 = undefined;
                         var6 = var10.bind(var2)(var8, var6);
                         var5['retryAfter'] = var6;
-                        var6 = _closure1_slot21;
+                        var6 = _closure1_slot22;
                         var8 = _closure2_slot1;
                         var6 = var6.bind(var2)(var8, var5);
                         var6 = false;
@@ -514,7 +514,7 @@ case 65:
                             var7[1] = var3;
                             var2 = true;
                             _closure3_slot0 = var2;
-                            var6 = _closure1_slot19;
+                            var6 = _closure1_slot20;
                             var12 = _closure2_slot0;
                             var10 = _closure2_slot2;
                             var9 = _closure2_slot3;
@@ -704,7 +704,7 @@ case 93:
                         var2 = 'ABORTED';
                         if(!(var2 === var4)) { _fun0011_ip = 94; continue _fun0011 }
 case 91:
-                        var6 = _closure1_slot21;
+                        var6 = _closure1_slot22;
                         var2 = _closure2_slot1;
                         var4 = undefined;
                         var2 = var6.bind(var4)(var2);
@@ -756,7 +756,7 @@ case 100:
                 return var1;
             }
         };
-        var _closure1_slot19 = var1;
+        var _closure1_slot20 = var1;
         var1 = function rateLimitExpirationHandler(arg1) {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -799,7 +799,7 @@ case 104:
                 return var1;
             }
         };
-        var _closure1_slot20 = var1;
+        var _closure1_slot21 = var1;
         var1 = function cleanupRequestEntry(arg1, arg2) {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -813,7 +813,7 @@ case 0:
                 var10 = null;
                 if(!(var10 != var9)) { _fun0013_ip = 107; continue _fun0013 }
 case 108:
-                var5 = _closure1_slot16;
+                var5 = _closure1_slot17;
                 var4 = var9.status;
                 var12 = undefined;
                 var4 = var5.bind(var12)(var4);
@@ -837,7 +837,7 @@ case 112:
                 var5 = 'cleanupRequestEntry: rate limit for ';
                 var4 = 'expired';
                 var4 = var7.bind(var8)(var5, var6, var4);
-                var6 = _closure1_slot20;
+                var6 = _closure1_slot21;
                 var5 = var1.url;
                 var4 = undefined;
                 var4 = var6.bind(var4)(var5);
@@ -864,7 +864,7 @@ case 115:
                 var5 = new var23[var8](var22, var21, var20);
                 var4 = var5 instanceof Object ? var5 : var6;
 case 114:
-                var7 = _closure1_slot18;
+                var7 = _closure1_slot19;
                 var6 = var9.headers;
                 var5 = var9.body;
                 var6 = var7.bind(var12)(var6, var5);
@@ -905,7 +905,7 @@ case 119:
                 var4 = var6.bind(var8)(var4);
                 var4 = var11.setTimeout;
                 var3 = function() {
-                    var3 = _closure1_slot20;
+                    var3 = _closure1_slot21;
                     var1 = _closure2_slot0;
                     var2 = var1.url;
                     var1 = undefined;
@@ -957,7 +957,7 @@ case 118:
                 return var1;
             }
         };
-        var _closure1_slot21 = var1;
+        var _closure1_slot22 = var1;
         var11 = function makeRateLimitedResponse(arg1, arg2, arg3) {
             var1 = {};
             var2 = arg1;
@@ -970,7 +970,7 @@ case 118:
             var1['body'] = var2;
             return var1;
         };
-        var _closure1_slot22 = var11;
+        var _closure1_slot23 = var11;
         var20 = function makeRequest(arg1, arg2, arg3) {
             var2 = arg1;
             var _closure2_slot0 = var2;
@@ -1013,7 +1013,7 @@ case 60:
 case 127:
                     if(!(var2 == var1)) { _fun0014_ip = 129; continue _fun0014 }
 case 110:
-                    var10 = _closure1_slot19;
+                    var10 = _closure1_slot20;
                     var19 = _closure2_slot0;
                     var18 = _closure2_slot1;
                     var15 = _closure2_slot2;
@@ -1031,7 +1031,7 @@ case 129:
                     var6 = var8.bind(var9)(var6, var7);
                     var8 = var1.queue;
                     var7 = var8.push;
-                    var12 = _closure1_slot19;
+                    var12 = _closure1_slot20;
                     var11 = var12.bind;
                     var18 = _closure2_slot0;
                     var17 = _closure2_slot1;
@@ -1058,7 +1058,7 @@ case 128:
                     var6 = 1000;
                     var6 = var9 / var6;
                     var8 = var7.bind(var8)(var6);
-                    var7 = _closure1_slot22;
+                    var7 = _closure1_slot23;
                     var6 = var1.status;
                     var4 = var1.latestErrorMessage;
                     var1 = undefined;
@@ -1106,7 +1106,7 @@ case 133: // catch_target0
                 return var1;
             }
         };
-        var _closure1_slot23 = var2;
+        var _closure1_slot24 = var2;
         var5 = global;
         var9 = var5.Object;
         var8 = var9.defineProperty;
@@ -1213,7 +1213,7 @@ case 0:
                     var1 = _closure1_slot6;
                     var16 = var1.bind(var11)(var10);
                     var10 = _closure1_slot5;
-                    var1 = _closure1_slot15;
+                    var1 = _closure1_slot16;
                     var1 = var1.bind(var11)();
                     if(var1) { _fun0016_ip = 134; continue _fun0016 }
 case 135:
@@ -1310,6 +1310,11 @@ case 137:
             return var1;
         };
         var _closure1_slot14 = var17;
+        var17 = function migratedRejectEnabled() {
+            var1 = true;
+            return var1;
+        };
+        var _closure1_slot15 = var17;
         var17 = 11;
         var17 = var19[var17];
         var21 = var18.bind(var1)(var17);
@@ -1390,13 +1395,27 @@ case 140:
             return var1;
         };
         var3['setRequestPatch'] = var5;
-        var4 = function setAwaitOnline(arg1) {
+        var5 = function setAwaitOnline(arg1) {
             var1 = arg1;
             _closure1_slot14 = var1;
             var1 = undefined;
             return var1;
         };
-        var3['setAwaitOnline'] = var4;
+        var3['setAwaitOnline'] = var5;
+        var5 = function setRejectWithMigratedError(arg1) {
+            var1 = arg1;
+            _closure1_slot15 = var1;
+            var1 = undefined;
+            return var1;
+        };
+        var3['setRejectWithMigratedError'] = var5;
+        var4 = function rejectWithMigratedError() {
+            var2 = _closure1_slot15;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
+        };
+        var3['rejectWithMigratedError'] = var4;
         var3['encodeProperties'] = var2;
         return var1;
     }

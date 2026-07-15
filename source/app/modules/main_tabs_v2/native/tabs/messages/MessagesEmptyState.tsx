@@ -37,16 +37,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.useYouBarTotalHeight;
-    var _closure1_slot8 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot9 = var7;
+    var _closure1_slot8 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot10 = var4;
-    var4 = 5;
+    var _closure1_slot9 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -71,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'paddingHorizontal': 16, 'paddingBottom': 16};
     var4['buttonWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -81,12 +76,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function MessagesEmptyState() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot10;
             var4 = undefined;
             var12 = var1.bind(var4)();
             var6 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var10[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.bind(var4)();
@@ -116,7 +111,7 @@ case 0:
             var7 = new Array(0);
             var8 = var9.bind(var13)(var8, var7);
             var9 = _closure1_slot0;
-            var7 = 7;
+            var7 = 6;
             var7 = var10[var7];
             var11 = var9.bind(var4)(var7);
             var7 = var11.useNavigation;
@@ -139,11 +134,11 @@ case 0:
                 return var1;
             };
             var14 = var11.bind(var13)(var5, var7);
-            var5 = 8;
+            var5 = 7;
             var5 = var10[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
-            var7 = 9;
+            var7 = 8;
             var11 = var10[var7];
             var11 = var9.bind(var4)(var11);
             var11 = var11.ImpressionTypes;
@@ -163,14 +158,17 @@ case 2:
             var20 = var1 * var2;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
+            var1 = 9;
+            var1 = var3[var1];
+            var5 = var2.bind(var4)(var1);
+            var1 = var5.useIsScreenLandscape;
+            var7 = var1.bind(var5)();
             var1 = 10;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
-            var1 = var2.useIsScreenLandscape;
-            var7 = var1.bind(var2)();
-            var1 = _closure1_slot8;
-            var9 = var1.bind(var4)();
-            var3 = _closure1_slot9;
+            var1 = var2.useYouBarTotalHeight;
+            var9 = var1.bind(var2)();
+            var3 = _closure1_slot8;
             var2 = _closure1_slot7;
             var1 = {'alwaysBounceVertical': false, 'bounces': false};
             var6 = var12.scrollViewContentContainer;
@@ -185,7 +183,7 @@ case 5:
 case 4:
             var5[1] = var6;
             var1['contentContainerStyle'] = var5;
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot9;
             var6 = _closure1_slot5;
             var5 = {};
             var9 = var12.container;
@@ -194,7 +192,7 @@ case 4:
             var8 = {};
             var9 = var12.innerContainer;
             var8['style'] = var9;
-            var10 = _closure1_slot9;
+            var10 = _closure1_slot8;
             var9 = {};
             var11 = var12.imageContainer;
             var9['style'] = var11;
@@ -229,12 +227,12 @@ case 6:
             var10 = var10.bind(var4)(var6, var9);
             var9 = new Array(2);
             var9[0] = var10;
-            var16 = _closure1_slot10;
+            var16 = _closure1_slot9;
             var11 = _closure1_slot5;
             var13 = {};
             var10 = var12.textWrapper;
             var13['style'] = var10;
-            var10 = _closure1_slot9;
+            var10 = _closure1_slot8;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var20 = 12;

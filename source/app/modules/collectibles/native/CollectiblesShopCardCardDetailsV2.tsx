@@ -33,15 +33,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 3;
     var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
+    var8 = var4.CurrencyCodes;
+    var _closure1_slot6 = var8;
     var4 = var4.VerticalGradient;
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var16 = 4;
     var4 = var6[var16];
     var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot7 = var8;
+    var _closure1_slot8 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 5;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -84,13 +86,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['paddingBottom'] = var11;
     var4['androidTextPadding'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var14 = var1.product;
+            var15 = var1.product;
             var7 = var1.hasShopDiscount;
             var _closure2_slot0 = var7;
             var10 = var1.discountSource;
@@ -99,32 +101,32 @@ case 0:
             var3 = var1.isFetchingGoogleSkus;
             var9 = var1.preferVCPrice;
             var2 = var1.isDisabled;
-            var15 = _closure1_slot0;
+            var14 = _closure1_slot0;
             var17 = _closure1_slot2;
             var4 = 7;
             var6 = var17[var4];
             var4 = undefined;
-            var11 = var15.bind(var4)(var6);
+            var11 = var14.bind(var4)(var6);
             var6 = var11.useDefaultVariantIndex;
-            var13 = var6.bind(var11)(var14);
+            var13 = var6.bind(var11)(var15);
             var6 = 8;
             var6 = var17[var6];
-            var11 = var15.bind(var4)(var6);
+            var11 = var14.bind(var4)(var6);
             var6 = var11.getSelectedProduct;
-            var11 = var6.bind(var11)(var14, var13);
+            var11 = var6.bind(var11)(var15, var13);
             var _closure2_slot1 = var11;
             var6 = 9;
             var6 = var17[var6];
-            var14 = var15.bind(var4)(var6);
-            var13 = var14.getFormattedPriceForCollectiblesProduct;
+            var15 = var14.bind(var4)(var6);
+            var13 = var15.getFormattedPriceForCollectiblesProduct;
             var6 = true;
-            var13 = var13.bind(var14)(var11, var7, var6);
+            var13 = var13.bind(var15)(var11, var7, var6);
             var18 = _closure1_slot3;
             var19 = var18.useMemo;
             var16 = new Array(2);
             var16[0] = var11;
             var16[1] = var7;
-            var14 = function() {
+            var15 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 8;
@@ -140,13 +142,13 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var14 = var19.bind(var18)(var14, var16);
-            var _closure2_slot2 = var14;
-            var19 = var18.useMemo;
-            var16 = new Array(2);
-            var16[0] = var11;
-            var16[1] = var7;
-            var11 = function() {
+            var15 = var19.bind(var18)(var15, var16);
+            var _closure2_slot2 = var15;
+            var20 = var18.useMemo;
+            var19 = new Array(2);
+            var19[0] = var11;
+            var19[1] = var7;
+            var16 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 10;
@@ -160,18 +162,39 @@ case 0:
                 var1 = var1.discountPercentage;
                 return var1;
             };
-            var16 = var19.bind(var18)(var11, var16);
+            var16 = var20.bind(var18)(var16, var19);
+            var20 = var18.useMemo;
+            var19 = new Array(2);
+            var19[0] = var11;
+            var19[1] = var7;
+            var11 = function() {
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 10;
+                var3 = var3[var2];
+                var2 = undefined;
+                var5 = var4.bind(var2)(var3);
+                var4 = var5.getProductDiscount;
+                var3 = _closure2_slot1;
+                var2 = _closure2_slot0;
+                var1 = _closure1_slot6;
+                var1 = var1.DISCORD_ORB;
+                var1 = var4.bind(var5)(var3, var2, var1);
+                var1 = var1.discountPercentage;
+                return var1;
+            };
+            var19 = var20.bind(var18)(var11, var19);
             var11 = 11;
             var11 = var17[var11];
-            var15 = var15.bind(var4)(var11);
-            var11 = var15.useFetchVirtualCurrencyBalance;
-            var11 = var11.bind(var15)();
+            var14 = var14.bind(var4)(var11);
+            var11 = var14.useFetchVirtualCurrencyBalance;
+            var11 = var11.bind(var14)();
             var11 = var11.balance;
             var _closure2_slot3 = var11;
             var17 = var18.useMemo;
-            var15 = new Array(2);
-            var15[0] = var11;
-            var15[1] = var14;
+            var14 = new Array(2);
+            var14[0] = var11;
+            var14[1] = var15;
             var12 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -194,7 +217,7 @@ case 2:
                     return var1;
                 }
             };
-            var15 = var17.bind(var18)(var12, var15);
+            var14 = var17.bind(var18)(var12, var14);
             if(!var3) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var3 = null;
@@ -214,16 +237,16 @@ case 13:
 case 15:
             if(var2) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot9;
             var3 = _closure1_slot4;
             var2 = null;
-            if(!(var2 != var14)) { _fun0001_ip = 18; continue _fun0001 }
+            if(!(var2 != var15)) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
             if(!(var2 != var11)) { _fun0001_ip = 18; continue _fun0001 }
 case 20:
             if(!(var6 !== var9)) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
-            if(var15) { _fun0001_ip = 21; continue _fun0001 }
+            if(var14) { _fun0001_ip = 21; continue _fun0001 }
 case 23:
             if(!(var2 == var13)) { _fun0001_ip = 18; continue _fun0001 }
 case 21:
@@ -234,72 +257,114 @@ case 21:
             var9 = {};
             var11 = 1;
             var12 = false;
-            if(!(var12 === var15)) { _fun0001_ip = 24; continue _fun0001 }
+            if(!(var12 === var14)) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
             var11 = 0.5;
 case 24:
             var9['opacity'] = var11;
             var6[1] = var9;
             var2['style'] = var6;
-            var12 = _closure1_slot7;
-            var18 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var14 = _closure1_slot8;
+            var21 = _closure1_slot0;
+            var18 = _closure1_slot2;
             var6 = 15;
-            var6 = var19[var6];
-            var6 = var18.bind(var4)(var6);
+            var6 = var18[var6];
+            var6 = var21.bind(var4)(var6);
             var9 = var6.OrbsIcon;
             var6 = {'size': 'xxs', 'color': 'mobile-text-heading-primary'};
             var11 = var8.wheelIcon;
             var6['style'] = var11;
-            var9 = var12.bind(var4)(var9, var6);
-            var6 = new Array(2);
+            var9 = var14.bind(var4)(var9, var6);
+            var6 = new Array(3);
             var6[0] = var9;
-            var9 = 13;
-            var9 = var19[var9];
-            var9 = var18.bind(var4)(var9);
-            var11 = var9.Text;
+            var11 = 13;
+            var9 = var18[var11];
+            var9 = var21.bind(var4)(var9);
+            var12 = var9.Text;
             var9 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
-            var15 = 14;
-            var17 = var19[var15];
-            var17 = var18.bind(var4)(var17);
-            var21 = var17.intl;
-            var20 = var21.formatToPlainString;
-            var15 = var19[var15];
-            var15 = var18.bind(var4)(var15);
-            var15 = var15.t;
-            var17 = var15.W4DfeF;
-            var15 = {};
-            var22 = var14.amount;
-            var15['orbAmount'] = var22;
-            var15 = var20.bind(var21)(var17, var15);
-            var9['accessibilityLabel'] = var15;
-            var17 = var8.text;
-            var15 = new Array(2);
-            var15[0] = var17;
-            var17 = 16;
-            var17 = var19[var17];
+            var17 = 14;
+            var20 = var18[var17];
+            var20 = var21.bind(var4)(var20);
+            var23 = var20.intl;
+            var22 = var23.formatToPlainString;
+            var17 = var18[var17];
+            var17 = var21.bind(var4)(var17);
+            var17 = var17.t;
+            var20 = var17.W4DfeF;
+            var17 = {};
+            var24 = var15.amount;
+            var17['orbAmount'] = var24;
+            var17 = var22.bind(var23)(var20, var17);
+            var9['accessibilityLabel'] = var17;
+            var20 = var8.text;
+            var17 = new Array(2);
+            var17[0] = var20;
+            var20 = 16;
+            var18 = var18[var20];
+            var21 = var21.bind(var4)(var18);
+            var18 = var21.isAndroid;
+            var18 = var18.bind(var21)();
+            if(!var18) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
+            var18 = var8.androidTextPadding;
+case 26:
+            var17[1] = var18;
+            var9['style'] = var17;
+            var15 = var15.amount;
+            var9['children'] = var15;
+            var9 = var14.bind(var4)(var12, var9);
+            var6[1] = var9;
+            var12 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var9 = 10;
+            var9 = var14[var9];
+            var9 = var12.bind(var4)(var9);
+            var9 = var9.DISCOUNT_DISPLAY_MINIMUM_THRESHOLD;
+            var9 = var19 >= var9;
+            if(!var9) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
+            var14 = _closure1_slot8;
+            var18 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var11 = var17[var11];
+            var11 = var18.bind(var4)(var11);
+            var12 = var11.Text;
+            var11 = {'style': null, 'color': 'text-feedback-positive', 'variant': 'text-xs/semibold', 'lineClamp': 1};
+            var21 = var8.discountPercentage;
+            var15 = new Array(3);
+            var15[0] = var21;
+            var21 = var8.text;
+            var15[1] = var21;
+            var17 = var17[var20];
             var18 = var18.bind(var4)(var17);
             var17 = var18.isAndroid;
-            var17 = var17.bind(var18)();
-            if(!var17) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+            var18 = var17.bind(var18)();
+            var17 = undefined;
+            if(!var18) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var17 = var8.androidTextPadding;
-case 26:
-            var15[1] = var17;
-            var9['style'] = var15;
-            var14 = var14.amount;
-            var9['children'] = var14;
-            var9 = var12.bind(var4)(var11, var9);
-            var6[1] = var9;
+case 30:
+            var15[2] = var17;
+            var11['style'] = var15;
+            var15 = global;
+            var15 = var15.HermesInternal;
+            var18 = var15.concat;
+            var17 = '-';
+            var15 = '%';
+            var15 = var18.bind(var17)(var19, var15);
+            var11['children'] = var15;
+            var9 = var14.bind(var4)(var12, var11);
+case 28:
+            var6[2] = var9;
             var2['children'] = var6;
-            _fun0001_ip = 28; continue _fun0001;
+            _fun0001_ip = 32; continue _fun0001;
 case 18:
             var6 = {};
             var9 = var8.priceDescription;
             var6['style'] = var9;
             var9 = var7;
-            if(!var9) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
+            if(!var9) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var7 = 10;
@@ -307,9 +372,9 @@ case 30:
             var7 = var11.bind(var4)(var7);
             var7 = var7.ShopDiscountSource;
             var7 = var7.THIRDPARTY;
-            if(!(var10 !== var7)) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
-            var11 = _closure1_slot7;
+            if(!(var10 !== var7)) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
+            var11 = _closure1_slot8;
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var7 = 18;
@@ -320,9 +385,9 @@ case 32:
             var12 = var8.wheelIcon;
             var7['style'] = var12;
             var7 = var11.bind(var4)(var10, var7);
-            _fun0001_ip = 33; continue _fun0001;
-case 31:
-            var12 = _closure1_slot7;
+            _fun0001_ip = 37; continue _fun0001;
+case 35:
+            var12 = _closure1_slot8;
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
             var10 = 17;
@@ -333,12 +398,12 @@ case 31:
             var14 = var8.wheelIcon;
             var10['style'] = var14;
             var7 = var12.bind(var4)(var11, var10);
-case 33:
+case 37:
             var9 = var7;
-case 29:
+case 33:
             var7 = new Array(3);
             var7[0] = var9;
-            var12 = _closure1_slot7;
+            var12 = _closure1_slot8;
             var18 = _closure1_slot0;
             var15 = _closure1_slot2;
             var10 = 13;
@@ -354,20 +419,25 @@ case 29:
             var18 = var18.bind(var4)(var15);
             var15 = var18.isAndroid;
             var15 = var15.bind(var18)();
-            if(!var15) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(!var15) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var15 = var8.androidTextPadding;
-case 34:
+case 38:
             var14[1] = var15;
             var9['style'] = var14;
             var9['children'] = var13;
             var9 = var12.bind(var4)(var11, var9);
             var7[1] = var9;
-            var9 = 0;
-            var9 = var16 > var9;
-            if(!var9) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
-            var12 = _closure1_slot7;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var9 = 10;
+            var9 = var12[var9];
+            var9 = var11.bind(var4)(var9);
+            var9 = var9.DISCOUNT_DISPLAY_MINIMUM_THRESHOLD;
+            var9 = var16 >= var9;
+            if(!var9) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
+            var12 = _closure1_slot8;
             var15 = _closure1_slot0;
             var14 = _closure1_slot2;
             var10 = var14[var10];
@@ -384,10 +454,10 @@ case 37:
             var14 = var15.isAndroid;
             var15 = var14.bind(var15)();
             var14 = undefined;
-            if(!var15) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
+            if(!var15) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
             var14 = var8.androidTextPadding;
-case 38:
+case 42:
             var13[2] = var14;
             var10['style'] = var13;
             var13 = global;
@@ -398,15 +468,15 @@ case 38:
             var13 = var15.bind(var14)(var16, var13);
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 36:
+case 40:
             var7[2] = var9;
             var6['children'] = var7;
             var2 = var6;
-case 28:
+case 32:
             var2 = var5.bind(var4)(var3, var2);
-            _fun0001_ip = 40; continue _fun0001;
+            _fun0001_ip = 44; continue _fun0001;
 case 16:
-            var6 = _closure1_slot7;
+            var6 = _closure1_slot8;
             var5 = _closure1_slot4;
             var3 = {};
             var7 = var8.priceDescription;
@@ -434,10 +504,10 @@ case 16:
             var7 = var6.bind(var4)(var9, var7);
             var3['children'] = var7;
             var2 = var6.bind(var4)(var5, var3);
-case 40:
+case 44:
             return var2;
 case 14:
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot8;
             var3 = _closure1_slot4;
             var2 = {};
             var6 = var8.priceDescription;
@@ -467,7 +537,7 @@ case 14:
             var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 12:
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot8;
             var3 = _closure1_slot4;
             var2 = {};
             var6 = var8.priceDescription;
@@ -497,7 +567,7 @@ case 12:
             var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 10:
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot8;
             var3 = _closure1_slot4;
             var2 = {};
             var6 = var8.priceDescription;
@@ -527,7 +597,7 @@ case 10:
             var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 8:
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot8;
             var3 = _closure1_slot4;
             var2 = {};
             var6 = var8.priceDescription;
@@ -557,7 +627,7 @@ case 8:
             var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 7:
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 12;
@@ -570,7 +640,7 @@ case 7:
         }
     };
     var8 = var8.bind(var7)(var4);
-    var _closure1_slot10 = var8;
+    var _closure1_slot11 = var8;
     var4 = 'PriceDescription';
     var8['displayName'] = var4;
     var4 = var7.memo;
@@ -583,7 +653,7 @@ case 0:
             var16 = var1.preferVCPrice;
             var15 = var1.isDisabled;
             var6 = var1.hidePrice;
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var4 = undefined;
             var19 = var1.bind(var4)();
             var2 = _closure1_slot0;
@@ -599,8 +669,8 @@ case 0:
             var2 = var5.useIsProfileFramesEarlyAccessPhase;
             var1 = 'CollectiblesShopCardCardDetailsV2';
             var1 = var2.bind(var5)(var1);
-            if(!var1) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
+            if(!var1) { _fun0003_ip = 45; continue _fun0003 }
+case 46:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 8;
@@ -614,7 +684,7 @@ case 42:
             var2 = var2.CollectiblesItemType;
             var2 = var2.PROFILE_FRAME;
             var1 = var5 === var2;
-case 41:
+case 45:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 22;
@@ -622,10 +692,10 @@ case 41:
             var5 = var5.bind(var4)(var2);
             var2 = var5.canUseShopDiscounts;
             var21 = var2.bind(var5)(var3);
-            if(var21) { _fun0003_ip = 43; continue _fun0003 }
-case 44:
+            if(var21) { _fun0003_ip = 47; continue _fun0003 }
+case 48:
             var21 = var1;
-case 43:
+case 47:
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = 10;
@@ -682,7 +752,7 @@ case 43:
                 return var1;
             };
             var17 = var5.bind(var17)(var3, var1);
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot9;
             var1 = 27;
             var1 = var10[var1];
             var2 = var2.bind(var4)(var1);
@@ -698,12 +768,12 @@ case 43:
             var1['colors'] = var5;
             var5 = [0, 0.4, 1];
             var1['locations'] = var5;
-            var5 = _closure1_slot6;
+            var5 = _closure1_slot7;
             var8 = var5.START;
             var1['start'] = var8;
             var5 = var5.END;
             var1['end'] = var5;
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot8;
             var5 = 13;
             var5 = var10[var5];
             var5 = var7.bind(var4)(var5);
@@ -716,15 +786,15 @@ case 43:
             var5 = new Array(2);
             var5[0] = var7;
             var6 = !var6;
-            if(!var6) { _fun0003_ip = 45; continue _fun0003 }
-case 46:
-            var9 = _closure1_slot8;
+            if(!var6) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
+            var9 = _closure1_slot9;
             var8 = _closure1_slot4;
             var7 = {};
             var10 = var19.priceVariantsContainer;
             var7['style'] = var10;
-            var13 = _closure1_slot7;
-            var12 = _closure1_slot10;
+            var13 = _closure1_slot8;
+            var12 = _closure1_slot11;
             var10 = {};
             var10['product'] = var14;
             var10['hasShopDiscount'] = var21;
@@ -748,7 +818,7 @@ case 46:
             var10[1] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 45:
+case 49:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

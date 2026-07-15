@@ -1808,50 +1808,36 @@ case 152:
             _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
                 var3 = arg1;
-                var5 = arg2;
-                var7 = this;
-                var6 = var7._include;
+                var6 = this;
+                var5 = var6._include;
                 var4 = _closure1_slot10;
                 var4 = var4.GAME_PROFILE;
-                var4 = var6.bind(var7)(var4);
-                if(var4) { _fun0028_ip = 42; continue _fun0028 }
-case 40:
+                var4 = var5.bind(var6)(var4);
+                if(var4) { _fun0028_ip = 104; continue _fun0028 }
+case 56:
                 var4 = new Array(0);
                 return var4;
-case 42:
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var4 = 14;
-                var4 = var7[var4];
-                var9 = undefined;
-                var7 = var6.bind(var9)(var4);
-                var6 = var7.queryGamesAutocomplete;
-                var4 = 'Autocompleter.queryGameProfiles';
-                var4 = var6.bind(var7)(var3, var4);
-                var6 = null;
-                if(!(var6 == var4)) { _fun0028_ip = 153; continue _fun0028 }
+case 104:
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 14;
+                var4 = var4[var2];
+                var2 = undefined;
+                var4 = var5.bind(var2)(var4);
+                var2 = var4.queryGamesAutocomplete;
+                var5 = var2.bind(var4)(var3);
+                var2 = null;
+                if(!(var2 == var5)) { _fun0028_ip = 153; continue _fun0028 }
 case 154:
-                var7 = _closure1_slot1;
-                var10 = _closure1_slot2;
-                var6 = 8;
-                var6 = var10[var6];
-                var7 = var7.bind(var9)(var6);
-                var6 = var7.queryGames;
-                var7 = var6.bind(var7)(var3, var5);
-                var6 = var7.map;
-                var8 = _closure1_slot0;
-                var2 = 15;
-                var2 = var10[var2];
-                var2 = var8.bind(var9)(var2);
-                var2 = var2.detectableGameToGameDescriptor;
-                var4 = var6.bind(var7)(var2);
+                var5 = new Array(0);
 case 153:
                 var2 = var3.toLocaleLowerCase;
                 var2 = var2.bind(var3)();
                 var _closure3_slot0 = var2;
-                var3 = var4.slice;
-                var2 = 0;
-                var3 = var3.bind(var4)(var2, var5);
+                var4 = var5.slice;
+                var3 = 0;
+                var2 = arg2;
+                var3 = var4.bind(var5)(var3, var2);
                 var2 = var3.map;
                 var1 = function(arg1, arg2) {
                     var2 = arg1;
@@ -1899,7 +1885,7 @@ case 0:
                 var3 = this;
                 var5 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 16;
+                var1 = 15;
                 var2 = var2[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var2);
@@ -1958,7 +1944,7 @@ case 5:
 case 4:
                 var8 = _closure1_slot0;
                 var13 = _closure1_slot2;
-                var3 = 17;
+                var3 = 16;
                 var3 = var13[var3];
                 var13 = var8.bind(var4)(var3);
                 var8 = var13.findCodedLink;
@@ -1973,7 +1959,7 @@ case 157:
 case 156:
                 var15 = _closure1_slot0;
                 var16 = _closure1_slot2;
-                var13 = 18;
+                var13 = 17;
                 var13 = var16[var13];
                 var13 = var15.bind(var4)(var13);
                 var13 = var13.CodedLinkType;
@@ -1982,7 +1968,7 @@ case 156:
 case 159:
                 var14 = _closure1_slot1;
                 var15 = _closure1_slot2;
-                var13 = 19;
+                var13 = 18;
                 var13 = var15[var13];
                 var14 = var14.bind(var4)(var13);
                 var13 = var14.sanitizeUrl;
@@ -2009,7 +1995,7 @@ case 161:
                 var9 = var6.host;
                 var12 = _closure1_slot1;
                 var11 = _closure1_slot2;
-                var7 = 20;
+                var7 = 19;
                 var11 = var11[var7];
                 var12 = var12.bind(var4)(var11);
                 var11 = var12.isDiscordHostname;
@@ -2134,7 +2120,7 @@ case 152:
         return var1;
     };
     var2 = var2.bind(var1)();
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -1301,7 +1301,7 @@ case 47:
             var31 = var40[var44];
             var31 = var39.bind(var5)(var31);
             var32 = var31.Text;
-            var31 = {'variant': 'text-md/medium', 'color': 'text-default'};
+            var31 = {'accessibilityRole': 'header', 'variant': 'text-md/medium', 'color': 'text-default'};
             var42 = var27.sectionHeader;
             var31['style'] = var42;
             var48 = 24;
@@ -1440,7 +1440,7 @@ case 60:
             var22 = var31[var22];
             var22 = var30.bind(var5)(var22);
             var23 = var22.Text;
-            var22 = {'variant': 'text-md/medium', 'color': 'text-default'};
+            var22 = {'accessibilityRole': 'header', 'variant': 'text-md/medium', 'color': 'text-default'};
             var27 = var27.sectionHeader;
             var22['style'] = var27;
             var27 = 24;

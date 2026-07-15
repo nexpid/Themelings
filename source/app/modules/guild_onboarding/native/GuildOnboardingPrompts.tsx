@@ -523,7 +523,7 @@ case 8:
             var5[0] = var3;
             var3 = function() {
                 var3 = _closure1_slot13;
-                var2 = var3.getConnections;
+                var2 = var3.getOnboardingConnections;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
                 return var1;

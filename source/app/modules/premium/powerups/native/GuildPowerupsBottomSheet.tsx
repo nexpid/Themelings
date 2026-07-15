@@ -413,7 +413,7 @@ case 20:
             var2 = var5.bind(var4)(var2);
             var2 = var2.bind(var4)(var3, var7, var13);
             var11 = var2.disabled;
-            var20 = var2.reason;
+            var19 = var2.reason;
             var2 = 27;
             var2 = var9[var2];
             var2 = var5.bind(var4)(var2);
@@ -469,11 +469,11 @@ case 31:
             if(!var9) { _fun0003_ip = 33; continue _fun0003 }
 case 34:
             var16 = _closure1_slot8;
-            var19 = _closure1_slot0;
+            var20 = _closure1_slot0;
             var23 = _closure1_slot2;
             var5 = 15;
             var5 = var23[var5];
-            var5 = var19.bind(var4)(var5);
+            var5 = var20.bind(var4)(var5);
             var15 = var5.Text;
             var5 = {};
             var18 = var18.description;
@@ -482,15 +482,15 @@ case 34:
             var5['variant'] = var18;
             var18 = 20;
             var18 = var23[var18];
-            var18 = var19.bind(var4)(var18);
+            var18 = var20.bind(var4)(var18);
             var21 = var18.intl;
-            var19 = var21.string;
+            var20 = var21.string;
             var22 = _closure1_slot1;
             var18 = 21;
             var18 = var23[var18];
             var18 = var22.bind(var4)(var18);
             var18 = var18.jo5++h;
-            var18 = var19.bind(var21)(var18);
+            var18 = var20.bind(var21)(var18);
             var5['children'] = var18;
             var9 = var16.bind(var4)(var15, var5);
 case 33:
@@ -499,23 +499,21 @@ case 33:
             var9 = var11;
             if(!var9) { _fun0003_ip = 35; continue _fun0003 }
 case 36:
+            var15 = null;
+            var9 = var15 != var19;
+case 35:
+            if(!var9) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
             var18 = _closure1_slot8;
             var16 = _closure1_slot1;
-            var19 = _closure1_slot2;
+            var20 = _closure1_slot2;
             var15 = 30;
-            var15 = var19[var15];
+            var15 = var20[var15];
             var16 = var16.bind(var4)(var15);
             var15 = {};
-            var19 = null;
-            var21 = var19 != var20;
-            var19 = '';
-            if(!var21) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
-            var19 = var20;
-case 37:
             var15['text'] = var19;
             var9 = var18.bind(var4)(var16, var15);
-case 35:
+case 37:
             var5[1] = var9;
             if(!var8) { _fun0003_ip = 39; continue _fun0003 }
 case 40:

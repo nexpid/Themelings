@@ -492,6 +492,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PARENTAL_CONTROLS_DATA_USAGE_QUESTS'] = var1;
     var1 = 'PARENTAL_CONTROLS_DATA_USAGE_QUESTS_3P';
     var2['PARENTAL_CONTROLS_DATA_USAGE_QUESTS_3P'] = var1;
+    var1 = 'ACTIVITY_PRIVACY_SHARE_MY_ACTIVITY';
+    var2['ACTIVITY_PRIVACY_SHARE_MY_ACTIVITY'] = var1;
     var1 = 'ACTIVITY_PRIVACY_DEFAULT_SHARING';
     var2['ACTIVITY_PRIVACY_DEFAULT_SHARING'] = var1;
     var1 = 'FRIEND_REQUEST_NOTES';

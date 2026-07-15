@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot22;
+            var9 = _closure1_slot21;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot22;
+            var7 = _closure1_slot21;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot20 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot21 = var1;
     var1 = function checkNodeAndIterate(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -237,7 +237,7 @@ case 15:
 case 48:
             var8 = var6;
 case 47:
-            var10 = _closure1_slot23;
+            var10 = _closure1_slot22;
             var7 = {};
             var16 = var9.children;
             var16 = var16[var12];
@@ -301,7 +301,7 @@ case 58:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot22 = var1;
     var1 = function findFirstOrLastMentionedItem(arg1, arg2, arg3, arg4, arg5) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -341,13 +341,13 @@ case 62:
             var6 = var6 + var4;
             var4 = arg4;
             var6 = var6 - var4;
-            var8 = _closure1_slot13;
-            var4 = _closure1_slot14;
+            var8 = _closure1_slot12;
+            var4 = _closure1_slot13;
             var4 = var8 + var4;
             var22 = var6 - var4;
             var4 = {'section': 4294967295, 'item': 4294967295};
             var10 = -1;
-            var6 = _closure1_slot21;
+            var6 = _closure1_slot20;
             var5 = var5.state;
             var5 = var5.items;
             var21 = var6.bind(var3)(var5);
@@ -521,7 +521,7 @@ case 84:
             var26 = var13;
             if(var12) { _fun0005_ip = 66; continue _fun0005 }
 case 85:
-            var31 = _closure1_slot21;
+            var31 = _closure1_slot20;
             var12 = var33.children;
             var32 = var31.bind(var3)(var12);
             var34 = var32.bind(var3)();
@@ -593,7 +593,7 @@ case 91:
             var6 = undefined;
             if(var7) { _fun0005_ip = 92; continue _fun0005 }
 case 93:
-            var13 = _closure1_slot23;
+            var13 = _closure1_slot22;
             var12 = {};
             var12['node'] = var11;
             var14 = 1;
@@ -607,44 +607,42 @@ case 95:
 case 94:
             if(!(var2 == var6)) { _fun0005_ip = 96; continue _fun0005 }
 case 97:
-            if(!(var2 == var6)) { _fun0005_ip = 98; continue _fun0005 }
-case 99:
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot16;
             return var7;
 case 96:
-            if(!(var2 != var6)) { _fun0005_ip = 100; continue _fun0005 }
-case 101:
+            if(!(var2 != var6)) { _fun0005_ip = 98; continue _fun0005 }
+case 99:
             var12 = var6.section;
             var7 = _closure1_slot10;
             var7 = var7.GUILDS;
             var7 = var12 + var7;
             var12 = var4.section;
-            if(!(!(var7 < var12))) { _fun0005_ip = 102; continue _fun0005 }
-case 103:
+            if(!(!(var7 < var12))) { _fun0005_ip = 100; continue _fun0005 }
+case 101:
             var12 = var4.section;
-            if(!(var7 === var12)) { _fun0005_ip = 98; continue _fun0005 }
-case 104:
+            if(!(var7 === var12)) { _fun0005_ip = 102; continue _fun0005 }
+case 103:
             var12 = var6.item;
             var13 = var2 != var12;
             var8 = 0;
-            if(!var13) { _fun0005_ip = 105; continue _fun0005 }
-case 106:
-            var8 = var12;
+            if(!var13) { _fun0005_ip = 104; continue _fun0005 }
 case 105:
+            var8 = var12;
+case 104:
             var4 = var4.item;
-            if(!(!(var8 < var4))) { _fun0005_ip = 102; continue _fun0005 }
-case 98:
-            var8 = _closure1_slot23;
+            if(!(!(var8 < var4))) { _fun0005_ip = 100; continue _fun0005 }
+case 102:
+            var8 = _closure1_slot22;
             var4 = {};
             var4['node'] = var11;
             var4['direction'] = var10;
             var4['selectedGuildId'] = var9;
             var9 = var8.bind(var3)(var4);
-            if(!(var2 == var9)) { _fun0005_ip = 107; continue _fun0005 }
-case 108:
-            var2 = _closure1_slot17;
-            _fun0005_ip = 109; continue _fun0005;
+            if(!(var2 == var9)) { _fun0005_ip = 106; continue _fun0005 }
 case 107:
+            var2 = _closure1_slot16;
+            _fun0005_ip = 108; continue _fun0005;
+case 106:
             var4 = {};
             var4['beforeItem'] = var3;
             var8 = {};
@@ -658,9 +656,9 @@ case 107:
             var8['mention'] = var5;
             var4['afterItem'] = var8;
             var2 = var4;
-case 109:
+case 108:
             return var2;
-case 102:
+case 100:
             var2 = {};
             var4 = {};
             var4['section'] = var7;
@@ -670,15 +668,15 @@ case 102:
             var2['beforeItem'] = var4;
             var2['afterItem'] = var3;
             return var2;
-case 100:
-            var2 = _closure1_slot18;
+case 98:
+            var2 = _closure1_slot17;
             return var2;
 case 90:
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot16;
             return var1;
         }
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot23 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -729,17 +727,15 @@ case 90:
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.useYouBarTotalHeight;
-    var _closure1_slot12 = var8;
     var8 = var4.YOU_BAR_HEIGHT;
-    var _closure1_slot13 = var8;
+    var _closure1_slot12 = var8;
     var4 = var4.YOU_BAR_MARGIN;
-    var _closure1_slot14 = var4;
+    var _closure1_slot13 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var4 = 9;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -749,24 +745,24 @@ case 90:
     var10['width'] = var11;
     var4['wrapper'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot16 = var4;
+    var _closure1_slot15 = var4;
     var4 = {};
     var4['beforeItem'] = var1;
     var4['afterItem'] = var1;
-    var _closure1_slot17 = var4;
+    var _closure1_slot16 = var4;
     var4 = {};
     var8 = {'section': 0, 'row': 0, 'mention': true};
     var4['beforeItem'] = var8;
     var4['afterItem'] = var1;
-    var _closure1_slot18 = var4;
+    var _closure1_slot17 = var4;
     var4 = {};
     var8 = 'function GuildsBarUnreadBarsTsx1(){const{scrollPosValue}=this.__closure;return scrollPosValue.get();}';
     var4['code'] = var8;
-    var _closure1_slot19 = var4;
+    var _closure1_slot18 = var4;
     var4 = {};
     var8 = 'function GuildsBarUnreadBarsTsx2(position,lastPosition){const{runOnJS,debouncedUpdate}=this.__closure;if(position!==lastPosition){runOnJS(debouncedUpdate)();}}';
     var4['code'] = var8;
-    var _closure1_slot20 = var4;
+    var _closure1_slot19 = var4;
     var4 = var7.memo;
     var2 = function GuildsBarUnreadBars(arg1) {
         var1 = arg1;
@@ -791,7 +787,7 @@ case 90:
         var5 = function() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var7 = _closure1_slot24;
+                var7 = _closure1_slot23;
                 var6 = _closure2_slot0;
                 var4 = _closure1_slot6;
                 var3 = var4.getPrivateChannelMentionCount;
@@ -803,10 +799,10 @@ case 0:
                 var2 = var2.bind(var3)();
                 var4 = null;
                 var3 = var4 != var2;
-                if(!var3) { _fun0006_ip = 110; continue _fun0006 }
-case 111:
-                var4 = var2;
+                if(!var3) { _fun0006_ip = 109; continue _fun0006 }
 case 110:
+                var4 = var2;
+case 109:
                 var9 = _closure2_slot1;
                 var8 = _closure2_slot2;
                 var13 = undefined;
@@ -835,14 +831,14 @@ case 110:
         var3 = function() {
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 13;
+            var1 = 14;
             var1 = var3[var1];
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
             var2 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var9 = _closure1_slot24;
+                    var9 = _closure1_slot23;
                     var8 = _closure2_slot0;
                     var5 = _closure1_slot6;
                     var4 = var5.getPrivateChannelMentionCount;
@@ -854,10 +850,10 @@ case 0:
                     var1 = var1.bind(var4)();
                     var6 = null;
                     var4 = var6 != var1;
-                    if(!var4) { _fun0007_ip = 112; continue _fun0007 }
-case 113:
-                    var6 = var1;
+                    if(!var4) { _fun0007_ip = 111; continue _fun0007 }
 case 112:
+                    var6 = var1;
+case 111:
                     var11 = _closure2_slot1;
                     var10 = _closure2_slot2;
                     var1 = undefined;
@@ -874,11 +870,11 @@ case 0:
                             var4 = arg1;
                             var3 = _closure4_slot0;
                             var1 = var4;
-                            if(!(var4 !== var3)) { _fun0008_ip = 114; continue _fun0008 }
-case 115:
+                            if(!(var4 !== var3)) { _fun0008_ip = 113; continue _fun0008 }
+case 114:
                             var8 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var6 = 14;
+                            var6 = 15;
                             var5 = var5[var6];
                             var7 = undefined;
                             var9 = var8.bind(var7)(var5);
@@ -886,7 +882,7 @@ case 115:
                             var5 = _closure4_slot0;
                             var5 = var5.afterItem;
                             var5 = var9.bind(var7)(var8, var5);
-                            if(!var5) { _fun0008_ip = 116; continue _fun0008 }
+                            if(!var5) { _fun0008_ip = 115; continue _fun0008 }
 case 30:
                             var5 = _closure1_slot1;
                             var3 = _closure1_slot2;
@@ -897,10 +893,10 @@ case 30:
                             var3 = var3.beforeItem;
                             var3 = var6.bind(var7)(var5, var3);
                             var1 = var4;
-                            if(var3) { _fun0008_ip = 114; continue _fun0008 }
-case 116:
+                            if(var3) { _fun0008_ip = 113; continue _fun0008 }
+case 115:
                             var1 = _closure4_slot0;
-case 114:
+case 113:
                             return var1;
                         }
                     };
@@ -920,7 +916,7 @@ case 114:
         var3 = function() {
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 15;
+            var3 = 16;
             var4 = var4[var3];
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
@@ -956,11 +952,11 @@ case 114:
         var13 = var14.scrollPosValue;
         var _closure2_slot5 = var13;
         var17 = _closure1_slot0;
-        var16 = 16;
+        var16 = 17;
         var3 = var10[var16];
         var12 = var17.bind(var4)(var3);
         var7 = var12.useAnimatedReaction;
-        var5 = function A() {
+        var5 = function O() {
             var2 = _closure2_slot5;
             var1 = var2.get;
             var1 = var1.bind(var2)();
@@ -971,18 +967,18 @@ case 114:
         var5['__closure'] = var3;
         var3 = 16367582542434.0;
         var5['__workletHash'] = var3;
-        var3 = _closure1_slot19;
+        var3 = _closure1_slot18;
         var5['__initData'] = var3;
-        var3 = function O(arg1, arg2) {
+        var3 = function G(arg1, arg2) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var2 = arg1;
                 var1 = arg2;
                 if(!(var2 !== var1)) { _fun0009_ip = 28; continue _fun0009 }
-case 117:
+case 116:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 16;
+                var1 = 17;
                 var1 = var2[var1];
                 var2 = undefined;
                 var4 = var3.bind(var2)(var1);
@@ -1004,39 +1000,42 @@ case 28:
         var3['__closure'] = var13;
         var13 = 13727289405147.0;
         var3['__workletHash'] = var13;
-        var13 = _closure1_slot20;
+        var13 = _closure1_slot19;
         var3['__initData'] = var13;
         var3 = var7.bind(var12)(var5, var3);
         var3 = function useUnreadBarWrapperStyles() {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                var2 = _closure1_slot16;
+                var2 = _closure1_slot15;
                 var8 = undefined;
                 var2 = var2.bind(var8)();
                 var _closure3_slot0 = var2;
                 var5 = _closure1_slot1;
-                var6 = _closure1_slot2;
+                var9 = _closure1_slot2;
                 var4 = 11;
-                var4 = var6[var4];
+                var4 = var9[var4];
                 var4 = var5.bind(var8)(var4);
                 var4 = var4.bind(var8)();
                 var7 = var4.top;
                 var _closure3_slot1 = var7;
                 var5 = _closure1_slot0;
                 var4 = 12;
-                var4 = var6[var4];
-                var5 = var5.bind(var8)(var4);
-                var4 = var5.useMobileQuestDockHeight;
-                var6 = var4.bind(var5)();
+                var4 = var9[var4];
+                var6 = var5.bind(var8)(var4);
+                var4 = var6.useMobileQuestDockHeight;
+                var6 = var4.bind(var6)();
                 var _closure3_slot2 = var6;
-                var5 = _closure1_slot12;
+                var4 = 13;
+                var4 = var9[var4];
+                var8 = var5.bind(var8)(var4);
+                var5 = var8.useYouBarTotalHeight;
                 var9 = 0;
                 var10 = var6 > var9;
                 var4 = 8;
-                if(!var10) { _fun0010_ip = 118; continue _fun0010 }
-case 119:
+                if(!var10) { _fun0010_ip = 117; continue _fun0010 }
+case 115:
                 var4 = 0;
-case 118:
+case 117:
                 var5 = var5.bind(var8)(var4);
                 var _closure3_slot3 = var5;
                 var4 = _closure1_slot4;
@@ -1106,11 +1105,11 @@ case 118:
             return var1;
         };
         var7 = var7.bind(var11)(var2, var3);
-        var3 = _closure1_slot15;
+        var3 = _closure1_slot14;
         var2 = _closure1_slot5;
         var1 = {'style': null, 'collapsable': false, 'pointerEvents': 'box-none', 'testID': 'guilds-bar-unread-bars'};
         var1['style'] = var5;
-        var5 = 17;
+        var5 = 18;
         var5 = var10[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {};
@@ -1125,7 +1124,7 @@ case 118:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 18;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

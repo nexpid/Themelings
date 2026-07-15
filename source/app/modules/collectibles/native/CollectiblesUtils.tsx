@@ -260,7 +260,7 @@ case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var2 = var3[var2];
             var3 = undefined;
             var4 = var4.bind(var3)(var2);
@@ -353,7 +353,7 @@ case 45:
     var6 = var7.bind(var1)(var6);
     var6 = var6.PriceSetAssignmentPurchaseTypes;
     var _closure1_slot3 = var6;
-    var6 = 8;
+    var6 = 9;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -417,13 +417,56 @@ case 59:
     };
     var3['getFormattedPriceForCollectiblesProduct'] = var6;
     var3['extractPriceByPurchaseTypes'] = var5;
+    var5 = function getCollectibleGoogleSkuId(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var6 = arg2;
+            var1 = null;
+            if(!(var1 != var6)) { _fun0007_ip = 47; continue _fun0007 }
+case 64:
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 5;
+            var4 = var4[var3];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var4);
+            var4 = var5.canUseShopDiscounts;
+            var4 = var4.bind(var5)(var6);
+            var2 = _closure1_slot3;
+            if(var4) { _fun0007_ip = 65; continue _fun0007 }
+case 66:
+            var4 = var2.MOBILE;
+            _fun0007_ip = 67; continue _fun0007;
+case 65:
+            var4 = var2.MOBILE_PREMIUM_TIER_2;
+case 67:
+            var2 = arg1;
+            var2 = var2.googleSkuIds;
+            var5 = var1 == var2;
+            var3 = undefined;
+            if(var5) { _fun0007_ip = 48; continue _fun0007 }
+case 68:
+            var3 = var2[var4];
+case 48:
+            var4 = var1 != var3;
+            var2 = null;
+            if(!var4) { _fun0007_ip = 69; continue _fun0007 }
+case 70:
+            var2 = var3;
+case 69:
+            return var2;
+case 47:
+            return var1;
+        }
+    };
+    var3['getCollectibleGoogleSkuId'] = var5;
     var3['isGPlaySynced'] = var4;
     var4 = function filterGPlaySyncedCategories(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0007_ip = 39; continue _fun0007 }
+            if(!(var1 != var4)) { _fun0008_ip = 39; continue _fun0008 }
 case 64:
             var1 = new Array(0);
             var3 = _closure1_slot4;
@@ -433,21 +476,21 @@ case 64:
             var4 = var3.bind(var5)(var2);
             var3 = var4.bind(var5)();
             var2 = var3.done;
-            if(var2) { _fun0007_ip = 65; continue _fun0007 }
-case 66:
+            if(var2) { _fun0008_ip = 71; continue _fun0008 }
+case 72:
             var7 = var3.value;
             var2 = _closure1_slot8;
             var2 = var2.bind(var5)(var7);
-            if(!var2) { _fun0007_ip = 67; continue _fun0007 }
-case 68:
+            if(!var2) { _fun0008_ip = 73; continue _fun0008 }
+case 74:
             var2 = var1.push;
             var2 = var2.bind(var1)(var7);
-case 67:
+case 73:
             var7 = var4.bind(var5)();
             var2 = var7.done;
             var3 = var7;
-            if(!var2) { _fun0007_ip = 66; continue _fun0007 }
-case 65:
+            if(!var2) { _fun0008_ip = 72; continue _fun0008 }
+case 71:
             return var1;
 case 39:
             var1 = new Array(0);
@@ -459,14 +502,14 @@ case 39:
         var3 = arg1;
         var2 = var3.filter;
         var1 = function(arg1) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var2 = arg1;
                 var3 = var2.unpublishedAt;
                 var1 = null;
                 var1 = var1 == var3;
-                if(var1) { _fun0008_ip = 28; continue _fun0008 }
-case 69:
+                if(var1) { _fun0009_ip = 28; continue _fun0009 }
+case 75:
                 var4 = var2.unpublishedAt;
                 var3 = global;
                 var3 = var3.Date;
@@ -481,10 +524,10 @@ case 28:
                 var3 = var2.length;
                 var2 = 0;
                 var2 = var3 > var2;
-                if(!var1) { _fun0008_ip = 70; continue _fun0008 }
-case 71:
+                if(!var1) { _fun0009_ip = 76; continue _fun0009 }
+case 77:
                 var1 = var2;
-case 70:
+case 76:
                 return var1;
             }
         };
@@ -496,7 +539,7 @@ case 70:
         var1 = {};
         var6 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var3 = 6;
+        var3 = 7;
         var7 = var5[var3];
         var4 = undefined;
         var7 = var6.bind(var4)(var7);
@@ -509,7 +552,7 @@ case 70:
         var3 = var3.ORB_PROFILE_BADGE;
         var1['icon'] = var3;
         var3 = _closure1_slot1;
-        var2 = 7;
+        var2 = 8;
         var2 = var5[var2];
         var2 = var3.bind(var4)(var2);
         var1['iconSrc'] = var2;

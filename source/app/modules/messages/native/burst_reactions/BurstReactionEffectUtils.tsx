@@ -89,7 +89,7 @@ case 15:
                     var11 = var10[var8];
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot1;
-                    var7 = 7;
+                    var7 = 8;
                     var7 = var10[var7];
                     var10 = var8.bind(var9)(var7);
                     var9 = var10.replaceAnimationColors;
@@ -309,18 +309,32 @@ case 38:
                     var10 = /"a":{"a":0,"k":\[64,64/;
                     var8 = '"a":{"a":0,"k":[36,36';
                     var6 = var11.bind(var12)(var10, var8);
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot1;
+                    var8 = 7;
+                    var8 = var11[var8];
+                    var10 = var10.bind(var9)(var8);
+                    var8 = var10.isAndroid;
+                    var8 = var8.bind(var10)();
+                    if(!var8) { _fun0002_ip = 37; continue _fun0002 }
+case 39:
+                    var12 = var6;
+                    var11 = var12.replace;
+                    var10 = /"w":128,"h":128/;
+                    var8 = '"w":72,"h":72';
+                    var6 = var11.bind(var12)(var10, var8);
 case 37:
                     var8 = _closure1_slot5;
                     var10 = var8.ImageManager;
                     var8 = var10.getDominantColors;
                     var4 = var8.bind(var10)(var4);
-                    SaveGenerator(address=517);
-case 39:
-                    return var4;
+                    SaveGenerator(address=584);
 case 40:
+                    return var4;
+case 41:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(var8) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
+                    if(var8) { _fun0002_ip = 42; continue _fun0002 }
+case 43:
                     var12 = _closure1_slot3;
                     var8 = 0;
                     var11 = var4[var8];
@@ -333,7 +347,7 @@ case 42:
                     var11 = var10[var8];
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot1;
-                    var7 = 7;
+                    var7 = 8;
                     var7 = var10[var7];
                     var10 = var8.bind(var9)(var7);
                     var9 = var10.replaceAnimationColors;
@@ -347,15 +361,15 @@ case 42:
                     var6 = var5.JSON;
                     var5 = var6.parse;
                     var5 = var5.bind(var6)(var7);
-case 43: // try_end1
+case 44: // try_end1
                     return var5;
-case 41:
+case 42:
                     return var4;
 case 35:
                     return var3;
 case 25:
                     return var2;
-case 44: // catch_target0 // catch_target1
+case 45: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     var2 = null;
                     return var2;
@@ -381,7 +395,7 @@ case 18:
     };
     var4 = var4.bind(var1)();
     var _closure1_slot7 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -427,12 +441,12 @@ case 18:
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0003_ip = 45; continue _fun0003 }
-case 46:
+                            if(var2) { _fun0003_ip = 46; continue _fun0003 }
+case 47:
                             var4 = _closure2_slot2;
                             var2 = null;
-                            if(!(var2 != var4)) { _fun0003_ip = 47; continue _fun0003 }
-case 48:
+                            if(!(var2 != var4)) { _fun0003_ip = 48; continue _fun0003 }
+case 49:
                             var8 = _closure1_slot7;
                             var12 = _closure2_slot0;
                             var11 = _closure2_slot1;
@@ -442,20 +456,20 @@ case 48:
                             var13 = undefined;
                             var2 = var13[var8](var12, var11, var10, var9, var8);
                             SaveGenerator(address=55);
-case 49:
-                            return var2;
 case 50:
+                            return var2;
+case 51:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
+                            if(var5) { _fun0003_ip = 52; continue _fun0003 }
+case 53:
                             var3 = _closure2_slot4;
                             var3 = var3.bind(var4)(var2);
-case 47:
+case 48:
                             var3 = undefined;
                             return var3;
-case 51:
+case 52:
                             return var2;
-case 45:
+case 46:
                             return var1;
                         }
                     };
@@ -524,8 +538,8 @@ case 45:
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0004_ip = 53; continue _fun0004 }
-case 46:
+                            if(var2) { _fun0004_ip = 54; continue _fun0004 }
+case 47:
                             var5 = {};
                             var2 = _closure2_slot0;
                             var5['animationSource'] = var2;
@@ -544,18 +558,18 @@ case 46:
                             var3 = undefined;
                             var2 = var2.bind(var3)(var5);
                             SaveGenerator(address=48);
-case 54:
-                            return var2;
 case 55:
+                            return var2;
+case 56:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0004_ip = 56; continue _fun0004 }
-case 57:
+                            if(var5) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
                             var4 = _closure2_slot2;
                             var4 = var4.bind(var3)(var2);
                             return var3;
-case 56:
+case 57:
                             return var2;
-case 53:
+case 54:
                             return var1;
                         }
                     };

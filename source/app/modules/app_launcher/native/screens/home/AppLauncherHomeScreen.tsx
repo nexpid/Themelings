@@ -1267,7 +1267,7 @@ case 0:
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary'};
+            var1 = {'accessibilityRole': 'header', 'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary'};
             var7 = var6.sectionHeader;
             var6 = new Array(2);
             var6[0] = var7;
@@ -3709,7 +3709,7 @@ case 188:
                     var2 = var8[var2];
                     var2 = var3.bind(var4)(var2);
                     var3 = var2.Text;
-                    var2 = {'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
+                    var2 = {'accessibilityRole': 'header', 'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
                     var8 = _closure2_slot5;
                     var9 = var8.sectionHeader;
                     var8 = new Array(2);

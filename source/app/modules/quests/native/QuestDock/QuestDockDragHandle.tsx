@@ -40,16 +40,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = 4;
     var4 = var6[var14];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.useYouBarHorizontalMargin;
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot8 = var8;
+    var _closure1_slot7 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot9 = var4;
-    var4 = 6;
+    var _closure1_slot8 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
@@ -72,11 +67,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10[10] = var1;
     var4['dragHandleOverlay'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var4 = {};
     var8 = 'function getDragHandleOffsetLeft_QuestDockDragHandleTsx1(activeQuestDockMode,horizontalEdgeGutter){const{QuestDockMode}=this.__closure;switch(activeQuestDockMode){case QuestDockMode.EXPANDED:return 0;default:return horizontalEdgeGutter*-1;}}';
     var4['code'] = var8;
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = function() {
         var1 = function getDragHandleOffsetLeft(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -100,28 +95,28 @@ case 2:
         var1['__closure'] = var3;
         var3 = 4145264969027.0;
         var1['__workletHash'] = var3;
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var1['__initData'] = var2;
         return var1;
     };
     var4 = var4.bind(var1)();
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var4 = {};
     var8 = 'function QuestDockDragHandleTsx2(){const{windowDimensions,QUEST_DOCK_COLLAPSED_MAX_WIDTH}=this.__closure;return{width:Math.min(windowDimensions.get().width,QUEST_DOCK_COLLAPSED_MAX_WIDTH)};}';
     var4['code'] = var8;
-    var _closure1_slot13 = var4;
+    var _closure1_slot12 = var4;
     var4 = {};
     var8 = 'function QuestDockDragHandleTsx3(){const{getDragHandleOffsetLeft,activeQuestDockMode,questDockHorizontalGutterCollapsed}=this.__closure;return{left:getDragHandleOffsetLeft(activeQuestDockMode.get(),questDockHorizontalGutterCollapsed)};}';
     var4['code'] = var8;
-    var _closure1_slot14 = var4;
+    var _closure1_slot13 = var4;
     var4 = {};
     var8 = 'function QuestDockDragHandleTsx4(){const{withSpring,isEnrolled,activeQuestDockMode,QuestDockMode,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(isEnrolled||activeQuestDockMode.get()===QuestDockMode.CLOSED||activeQuestDockMode.get()===QuestDockMode.SOFT_DISMISSED?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
     var4['code'] = var8;
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var4 = {};
     var8 = 'function QuestDockDragHandleTsx5(){const{withSpring,isEnrolled,activeQuestDockMode,QuestDockMode,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(!isEnrolled&&activeQuestDockMode.get()!==QuestDockMode.CLOSED&&activeQuestDockMode.get()!==QuestDockMode.SOFT_DISMISSED?0.5:0,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
     var4['code'] = var8;
-    var _closure1_slot16 = var4;
+    var _closure1_slot15 = var4;
     var4 = var7.memo;
     var2 = function QuestDockDragHandle(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -132,17 +127,17 @@ case 0:
             var3 = var6.useContext;
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 7;
+            var2 = 6;
             var2 = var8[var2];
             var4 = undefined;
             var2 = var5.bind(var4)(var2);
             var2 = var3.bind(var6)(var2);
             var2 = var2.quest;
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var15 = var3.bind(var4)();
             var5 = var6.useContext;
             var7 = _closure1_slot0;
-            var3 = 8;
+            var3 = 7;
             var3 = var8[var3];
             var3 = var7.bind(var4)(var3);
             var3 = var3.QuestDockGestureContext;
@@ -161,16 +156,19 @@ case 5:
 case 4:
             var14 = var3 != var2;
             var _closure2_slot2 = var14;
-            var2 = _closure1_slot7;
-            var9 = var2.bind(var4)();
-            var _closure2_slot3 = var9;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
+            var2 = 8;
+            var2 = var11[var2];
+            var3 = var12.bind(var4)(var2);
+            var2 = var3.useYouBarHorizontalMargin;
+            var9 = var2.bind(var3)();
+            var _closure2_slot3 = var9;
             var2 = 9;
             var3 = var11[var2];
             var6 = var12.bind(var4)(var3);
             var5 = var6.useAnimatedStyle;
-            var3 = function u() {
+            var3 = function D() {
                 var1 = {};
                 var2 = global;
                 var5 = var2.Math;
@@ -191,15 +189,15 @@ case 4:
             var3['__closure'] = var7;
             var7 = 13640576219747.0;
             var3['__workletHash'] = var7;
-            var7 = _closure1_slot13;
+            var7 = _closure1_slot12;
             var3['__initData'] = var7;
             var6 = var5.bind(var6)(var3);
             var3 = var11[var2];
             var7 = var12.bind(var4)(var3);
             var5 = var7.useAnimatedStyle;
-            var3 = function Q() {
+            var3 = function E() {
                 var1 = {};
-                var5 = _closure1_slot12;
+                var5 = _closure1_slot11;
                 var4 = _closure2_slot0;
                 var3 = var4.get;
                 var4 = var3.bind(var4)();
@@ -210,20 +208,20 @@ case 4:
                 return var1;
             };
             var8 = {};
-            var16 = _closure1_slot12;
+            var16 = _closure1_slot11;
             var8['getDragHandleOffsetLeft'] = var16;
             var8['activeQuestDockMode'] = var10;
             var8['questDockHorizontalGutterCollapsed'] = var9;
             var3['__closure'] = var8;
             var8 = 2066165937455.0;
             var3['__workletHash'] = var8;
-            var8 = _closure1_slot14;
+            var8 = _closure1_slot13;
             var3['__initData'] = var8;
             var8 = var5.bind(var7)(var3);
             var3 = var11[var2];
             var16 = var12.bind(var4)(var3);
             var5 = var16.useAnimatedStyle;
-            var3 = function C() {
+            var3 = function h() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -275,13 +273,13 @@ case 9:
             var3['__closure'] = var19;
             var19 = 12299455640931.0;
             var3['__workletHash'] = var19;
-            var19 = _closure1_slot15;
+            var19 = _closure1_slot14;
             var3['__initData'] = var19;
             var16 = var5.bind(var16)(var3);
             var2 = var11[var2];
             var3 = var12.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function f() {
+            var1 = function C() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -330,10 +328,10 @@ case 11:
             var1['__closure'] = var5;
             var5 = 9632835517209.0;
             var1['__workletHash'] = var5;
-            var5 = _closure1_slot16;
+            var5 = _closure1_slot15;
             var1['__initData'] = var5;
             var18 = var2.bind(var3)(var1);
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var10 = _closure1_slot1;
             var9 = 11;
             var1 = var11[var9];
@@ -344,7 +342,7 @@ case 11:
             var5[0] = var7;
             var5[1] = var6;
             var1['style'] = var5;
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot8;
             var5 = var11[var9];
             var6 = var10.bind(var4)(var5);
             var5 = {};
@@ -394,7 +392,7 @@ case 14:
             var10 = var3.bind(var4)(var10, var8);
             var8 = new Array(2);
             var8[0] = var10;
-            var11 = _closure1_slot8;
+            var11 = _closure1_slot7;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
             var9 = var12[var9];

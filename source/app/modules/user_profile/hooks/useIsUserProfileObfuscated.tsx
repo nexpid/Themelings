@@ -90,47 +90,37 @@ case 14:
 case 12:
             if(!var1) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var7 = var5 == var3;
-            var4 = undefined;
-            if(var7) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-            var4 = var3.banner;
-case 18:
-            var1 = var6 === var4;
-case 16:
-            if(!var1) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
             var4 = var2.flags;
             var2 = var2.publicFlags;
             var1 = var4 === var2;
-case 20:
-            if(!var1) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+case 16:
+            if(!var1) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var4 = var5 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
+            if(var4) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var2 = var3.badges;
-case 24:
+case 20:
             var2 = var5 == var2;
-            if(var2) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+            if(var2) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var7 = var5 == var3;
             var4 = undefined;
-            if(var7) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+            if(var7) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var3 = var3.badges;
             var5 = var5 == var3;
             var4 = undefined;
-            if(var5) { _fun0001_ip = 28; continue _fun0001 }
-case 30:
+            if(var5) { _fun0001_ip = 24; continue _fun0001 }
+case 26:
             var4 = var3.length;
-case 28:
+case 24:
             var3 = 0;
             var2 = var3 === var4;
-case 26:
-            var1 = var2;
 case 22:
+            var1 = var2;
+case 18:
             return var1;
         }
     };

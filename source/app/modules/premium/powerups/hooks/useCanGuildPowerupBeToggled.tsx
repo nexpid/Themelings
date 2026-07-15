@@ -92,13 +92,19 @@ case 3:
                 var2 = var2.LEVEL_ACTIVATED;
                 if(!(var5 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+                var2 = _closure2_slot4;
+                var5 = var2.type;
+                var2 = _closure1_slot5;
+                var2 = var2.TIER_OVERRIDE_ACTIVATED;
+                if(!(var5 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var2 = _closure2_slot3;
                 var10 = var2.allPowerups;
                 var6 = var2.unlockedPowerups;
                 var _closure3_slot0 = var6;
                 var2 = _closure2_slot2;
-                if(var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+                if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var2 = _closure2_slot1;
                 var7 = var2.dependencies;
                 var5 = var7.find;
@@ -111,8 +117,8 @@ case 7:
                     return var1;
                 };
                 var8 = var5.bind(var7)(var2);
-                _fun0001_ip = 8; continue _fun0001;
-case 6:
+                _fun0001_ip = 9; continue _fun0001;
+case 7:
                 var2 = global;
                 var5 = var2.Object;
                 var2 = var5.values;
@@ -126,10 +132,10 @@ case 0:
                         var2 = null;
                         var3 = var2 == var1;
                         var2 = undefined;
-                        if(var3) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+                        if(var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                         var2 = var1.dependent_sku_id;
-case 9:
+case 10:
                         var1 = _closure2_slot1;
                         var1 = var1.skuId;
                         var1 = var2 === var1;
@@ -139,25 +145,25 @@ case 9:
                 var2 = var2.bind(var5)(var1);
                 var5 = var9 == var2;
                 var1 = undefined;
-                if(var5) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+                if(var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                 var1 = var2.sku_id;
-case 11:
+case 12:
                 var8 = var1;
-case 8:
+case 9:
                 var1 = {};
                 var2 = var9 != var8;
                 var1['disabled'] = var2;
                 var5 = var9 != var8;
                 var7 = undefined;
                 var2 = undefined;
-                if(!var5) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+                if(!var5) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                 var5 = var10[var8];
                 var5 = var9 != var5;
                 var2 = undefined;
-                if(!var5) { _fun0001_ip = 13; continue _fun0001 }
-case 15:
+                if(!var5) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
                 var6 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var5 = 5;
@@ -171,24 +177,24 @@ case 15:
                 var3 = 6;
                 var3 = var12[var3];
                 var3 = var11.bind(var7)(var3);
-                if(var4) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-                var4 = var3["1B8AZr"];
-                _fun0001_ip = 18; continue _fun0001;
-case 16:
-                var4 = var3.vCEBiS;
+                if(var4) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
+                var4 = var3["1B8AZr"];
+                _fun0001_ip = 19; continue _fun0001;
+case 17:
+                var4 = var3.vCEBiS;
+case 19:
                 var3 = {};
                 var8 = var10[var8];
                 var9 = var9 == var8;
                 var7 = undefined;
-                if(var9) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+                if(var9) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
                 var7 = var8.title;
-case 19:
+case 20:
                 var3['perk'] = var7;
                 var2 = var5.bind(var6)(var4, var3);
-case 13:
+case 14:
                 var1['reason'] = var2;
                 return var1;
 case 4:
